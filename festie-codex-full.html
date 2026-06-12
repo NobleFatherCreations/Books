@@ -339,6 +339,14 @@ strong.lead{font-family:var(--marker);font-weight:400;font-size:1.06em;letter-sp
 .pp-purple .org-links a{box-shadow:3px 3px 0 #2A1A66}
 .author-ps{font-family:var(--marker);font-size:1rem;color:#E6DCFF;opacity:.92}
 
+
+/* ---------- resume toast ---------- */
+.resume{position:fixed;left:50%;bottom:1.1rem;transform:translateX(-50%) translateY(150%);z-index:80;
+  font-family:var(--mono);font-weight:700;font-size:.74rem;letter-spacing:.08em;color:var(--ink);
+  background:var(--neon);border:3px solid #000;border-radius:2rem;padding:.75rem 1.2rem;box-shadow:4px 4px 0 #000;
+  cursor:pointer;transition:transform .4s cubic-bezier(.2,.8,.2,1);max-width:92vw;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.resume.show{transform:translateX(-50%) translateY(0)}
+
 /* ---------- set variants ---------- */
 .poster-meta{margin-top:.9rem;font-family:var(--mono);font-weight:700;font-size:.62rem;letter-spacing:.18em;color:#8A7FBA}
 .ch-poster.s2 .rail{background:#E84B6F}
@@ -511,6 +519,7 @@ strong.lead{font-family:var(--marker);font-weight:400;font-size:1.06em;letter-sp
 </svg>
 
 <div class="progress" id="progress" aria-hidden="true"></div>
+<button class="resume" id="resume" hidden>🎟️ RESUME WHERE YOU LEFT OFF →</button>
 
 <header class="bar" id="bar">
   <button id="menuBtn" aria-label="Open the Setlist" aria-expanded="false"><span></span><span></span><span></span></button>
@@ -1045,28 +1054,47 @@ strong.lead{font-family:var(--marker);font-weight:400;font-size:1.06em;letter-sp
   drawer.querySelectorAll('[data-close]').forEach(function(a){a.addEventListener('click',function(){setDrawer(false)})});
   document.addEventListener('keydown',function(e){if(e.key==='Escape')setDrawer(false)});
 
-  var fs=1.03;
+  function store(k,v){try{window.localStorage.setItem(k,v)}catch(e){}}
+  function read(k){try{return window.localStorage.getItem(k)}catch(e){return null}}
+
+  var fs=parseFloat(read('fc_fs'))||1.03;
   document.getElementById('fsUp').addEventListener('click',function(){fs=Math.min(1.3,fs+0.05);apply()});
   document.getElementById('fsDown').addEventListener('click',function(){fs=Math.max(0.88,fs-0.05);apply()});
-  function apply(){document.documentElement.style.setProperty('--fs',fs+'rem')}
+  function apply(){document.documentElement.style.setProperty('--fs',fs+'rem');store('fc_fs',fs)}
+  if(fs!==1.03)document.documentElement.style.setProperty('--fs',fs+'rem');
 
   var beads=document.getElementById('beads');
-  for(var i=0;i<26;i++){var b=document.createElement('span');b.className='bead';beads.appendChild(b)}
+  var saved=(read('fc_beads')||'').split(',');
+  for(var i=0;i<26;i++){var b=document.createElement('span');b.className='bead'+(saved.indexOf(String(i+1))>-1?' on':'');beads.appendChild(b)}
+  function saveBeads(){var on=[];for(var j=0;j<26;j++){if(beads.children[j].classList.contains('on'))on.push(j+1)}store('fc_beads',on.join(','))}
 
   var cover=document.getElementById('cover');
+  var saveT=null;
   function onScroll(){
     var y=window.scrollY, h=document.documentElement.scrollHeight-window.innerHeight;
     prog.style.width=(h>0?(y/h*100):0)+'%';
     bar.classList.toggle('show', y>cover.offsetHeight*0.7);
+    if(saveT)clearTimeout(saveT);
+    saveT=setTimeout(function(){if(window.scrollY>600)store('fc_pos',String(Math.round(window.scrollY)))},600);
   }
   window.addEventListener('scroll',onScroll,{passive:true});
   onScroll();
+  // resume toast
+  var resume=document.getElementById('resume');
+  var savedPos=parseInt(read('fc_pos'),10);
+  if(savedPos&&savedPos>window.innerHeight*2&&window.scrollY<200){
+    resume.hidden=false;
+    requestAnimationFrame(function(){requestAnimationFrame(function(){resume.classList.add('show')})});
+    var hideT=setTimeout(dismiss,9000);
+    resume.addEventListener('click',function(){clearTimeout(hideT);window.scrollTo({top:savedPos,behavior:'auto'});dismiss()});
+    function dismiss(){resume.classList.remove('show');setTimeout(function(){resume.hidden=true},450)}
+  }
   if('IntersectionObserver' in window){
     var io=new IntersectionObserver(function(es){
       es.forEach(function(e){
         if(e.isIntersecting){
           var n=parseInt(e.target.getAttribute('data-ch'),10);
-          if(beads.children[n-1]) beads.children[n-1].classList.add('on');
+          if(beads.children[n-1]){beads.children[n-1].classList.add('on');saveBeads();}
           io.unobserve(e.target);
         }
       });
