@@ -1,0 +1,47 @@
+{
+  "generated": "2026-08-02",
+  "note": "Single source of truth for chapter/book data. Pre-filled with what's confirmed from the planning thread and the live-site audit (see sites.json for full project registry). Chapters marked \"blurb\": null need real content — do not invent blurbs, readMin, or slugs for unconfirmed chapters.",
+  "books": [
+    {
+      "project": "allfracture",
+      "slug": "fracture",
+      "title": "All Fracture",
+      "url": "https://noblefathercreations.com/fracture",
+      "movements": [
+        {
+          "movement": "III",
+          "name": "The economy",
+          "chapters": [
+            { "n": 14, "title": "You are not the customer", "blurb": null, "readMin": null, "slug": null },
+            { "n": 15, "title": "The auction in two hundred milliseconds", "blurb": null, "readMin": null, "slug": null },
+            { "n": 16, "title": "What it knows, and what it infers", "blurb": null, "readMin": null, "slug": null },
+            { "n": 17, "title": "The consent that isn't", "blurb": null, "readMin": null, "slug": null },
+            { "n": 18, "title": "The desperation premium", "blurb": null, "readMin": null, "slug": null },
+            { "n": 19, "title": "Where the money actually goes", "blurb": null, "readMin": null, "slug": null }
+          ]
+        },
+        {
+          "movement": "IV",
+          "name": null,
+          "chapters": [
+            { "n": 20, "title": "Algorithmic management", "blurb": null, "readMin": null, "slug": null }
+          ]
+        }
+      ]
+    },
+    { "project": "festie+codex", "slug": "wook", "title": "The Festie Codex", "url": "https://noblefathercreations.com/wook", "movements": [] },
+    { "project": "sovereign", "slug": "feminine", "title": "The Sovereign Divine Feminine", "url": "https://noblefathercreations.com/feminine", "movements": [] },
+    { "project": "playground", "slug": "children", "title": "Playground Protectors", "url": "https://noblefathercreations.com/children", "movements": [] },
+    { "project": "fractal", "slug": "fractal", "title": "The Fractal", "url": "https://noblefathercreations.com/fractal", "movements": [] },
+    { "project": "root", "slug": "shadowroot", "title": "The Root", "url": "https://noblefathercreations.com/shadowroot", "movements": [] },
+    { "project": "decoder", "slug": "playbook", "title": "The Pattern Decoder", "url": "https://noblefathercreations.com/playbook", "movements": [] },
+    { "project": null, "slug": "loop", "title": "The Loop", "url": "https://noblefathercreations.com/loop", "movements": [] },
+    { "project": null, "slug": "scale", "title": "The Weighing", "url": "https://noblefathercreations.com/scale", "movements": [] },
+    { "project": null, "slug": "faith", "title": "The Coercive Control Codex", "url": "https://noblefathercreations.com/faith", "movements": [] }
+  ],
+  "todo": [
+    "Fill in blurb/readMin/slug for chapters 14-20 above from the actual book content.",
+    "Fill in full chapter lists for the other 8 books — only titles/URLs are confirmed so far.",
+    "Once populated, this file drives: the chapter-index/contents page, Prev/Next nav, reading-progress bar, and THE HOUSE cross-project map (see Part 4 build queue in PROJECT-MASTER.md)."
+  ]
+}
