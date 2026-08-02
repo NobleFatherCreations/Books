@@ -57,6 +57,32 @@ lightweight hook).
   of a direct Netlify push; what that means concretely (a repo per site? a
   GitHub Action that deploys to Netlify?) hasn't been defined yet.
 
+## Update (2026-08-02, later same day)
+
+- Built the design system: `design/snippets.html` (self-hosted Newsreader
+  serif embedded as base64, 8px spacing scale, palette tokens, reading-
+  progress bar, scroll fade-ins — all native, zero requests) and
+  `design/build-chapter-index.py`, which bakes `chapters.json` +
+  `sites.json` data into a fully self-contained chapter-index page at
+  generation time (not a runtime fetch — `file://` pages can't fetch
+  sibling JSON, so this stays a build step). Proof of concept:
+  `design/chapter-index-fracture.html`, the one book with real chapter data.
+- Added `design/check-leak.sh` — greps for the leak markers before
+  publishing anything. Ran it against every HTML file in the repo: clean.
+- Wrote the Part 6 step-by-step plan into `PROJECT-MASTER.md` — 10 items,
+  ordered, with `[YOU]` flags on the ones only the user can decide (GitHub
+  packs definition, faith patch-vs-redesign, Catalogue deploy, subagent
+  collection choice).
+- A consolidated recap of the whole thread came back around (paste from
+  another AI/session) claiming the leak was across all 9 named projects —
+  **corrected**: it's exactly 3 pages (loop, scale, faith), none of which
+  are among the 9 codenamed projects, all of which are already clean. Also
+  corrected: those 3 have no repo, so "fix repo, redeploy" doesn't apply —
+  already established last session, don't let it get re-asserted as fact.
+- Still not pasted into any live/shipped page — `design/snippets.html` is
+  ready but insertion into each book's existing markup is a separate,
+  not-yet-done pass.
+
 ## Standing decisions (don't re-litigate these)
 
 - Books are self-contained: no deps, no external requests, no storage,

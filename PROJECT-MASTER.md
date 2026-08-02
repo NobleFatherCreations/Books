@@ -319,6 +319,47 @@ located for `loop`; the same surgical removal applies to the other three.
 
 ---
 
+---
+
+## Part 6 — Step-by-step action plan (2026-08-02)
+
+Ordered by priority. Items marked **[YOU]** need a decision only you can
+make; everything else is either done or safe for me to keep going on.
+
+1. **[YOU] Define "GitHub packs" for redeploying loop/scale/faith.** These
+   3 pages have no repo — they're Netlify CLI-only. I have byte-verified
+   fixes ready in `fixes/`. Tell me what you mean by GitHub packs (a repo
+   per site? a GitHub Action that deploys to Netlify on push? something
+   else?) and I'll build it.
+2. **[YOU] Faith: patch-only vs. Sacred Divide redesign.** You said "let me
+   look first" — `source/projects/noble-father-divide.html` is the
+   candidate. No action from me until you decide.
+3. **[YOU] Catalogue hub redesign — deploy or not?** `source/projects/noble-father-catalogue.html`
+   is a full rebuild of the main site, currently not live despite the
+   review doc's claim. Your call whether/when to ship it.
+4. **Resolve the wook discrepancy.** `festie-codex-full.html` (this repo)
+   vs. `source/projects/noble-father-festival.html` (review package) have
+   different titles. I haven't diffed them — flag if you want that done
+   before anything else touches wook.
+5. **Fill in `chapters.json`.** Only `fracture` chapters 14–20 have titles;
+   nothing has real blurbs/readMin/slugs yet, and 8 other books are empty.
+   Needs real content from you or the source files, not invented text.
+6. **Paste `design/snippets.html` into live pages once (5) is far enough
+   along.** The reading-progress bar / fade-ins / serif embed are built and
+   tested (see `design/`) but not inserted into any shipped page yet — that's
+   a per-page editing pass against each book's own markup.
+7. **[YOU] Subagent collection.** wshobson/agents (203, plugin-installable)
+   vs. contains-studio/agents (40, has niche-channel content agents) —
+   recommend wshobson/agents unless the social/channel angle matters more
+   to you.
+8. **Clip pipeline** (Claude finds moments → FFmpeg cuts → Whisper
+   captions) — fully specified in Part 3 of the categorized thread, not
+   started. Needs one real transcript to test against.
+9. **n8n Content Multiplier** (build first per the thread's own ordering) —
+   not started; needs a hosting decision (self-host vs. cloud) first.
+10. **Outreach system** — needs one real piece of content run through the
+    Analyze step to produce a first real target list.
+
 ## Summary of Open Questions (blocking full execution of Parts 2–6)
 
 1. Which GitHub repo(s) back each of the 9 linked projects (main, codex,
