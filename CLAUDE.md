@@ -1,8 +1,12 @@
 # Noble Father Creations — Standing Rules
 
-Read `PROJECT-MASTER.md` for full context/history, `sites.json` for the live
-project registry, and `chapters.json` for book/chapter data. This file is
-the always-on rulebook — treat it as binding, not a suggestion.
+**Read `MEMORY.md` first, every session** — it's the actual cross-session
+memory in this environment (a fresh container has no access to anything
+outside this repo, so plugin-based memory tools don't carry over between
+sessions here; this file does). Then `PROJECT-MASTER.md` for full
+context/history, `sites.json` for the live project registry, and
+`chapters.json` for book/chapter data. This file is the always-on rulebook —
+treat it as binding, not a suggestion. Update `MEMORY.md` as work happens.
 
 ## Self-contained architecture (non-negotiable)
 

@@ -1,0 +1,32 @@
+# Remember Plugin - .gitignore
+
+# User config (created by /brain:init, not tracked)
+config.json
+
+# User data (not part of plugin)
+data/
+*.jsonl
+
+# Python
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary
+*.tmp
+*.log
+.claude/settings.local.json
+
+
+# Claude Code plugin runtime locks
+.in_use/
