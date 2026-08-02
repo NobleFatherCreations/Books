@@ -164,6 +164,51 @@ before applying ANY visual pattern — some of these books make deliberate
 anti-pattern choices that are part of their argument, not oversights to
 "fix." Read before pasting, every time.
 
+## Update (2026-08-02, session 5 — tools requested by video/dictated message)
+
+User asked (via a garbled dictated message) to install "Gastown," "Playwright
+MCP," "grill me skill," and "ponytail globally." Investigated all three
+named repos before touching anything:
+
+- **Gastown declined** — inspected `gastownhall/gastown`: a Docker daemon
+  (`command: sleep infinity`, mounts real home dir, dashboard on :8080),
+  OpenTelemetry architecture, background "Deacon" supervisor doing
+  "continuous patrol cycles," installs hooks across every repo it manages.
+  Same risk category as gstack. User confirmed: leave it out.
+- **Ponytail added** — inspected `dietrichgebert/ponytail`: legitimate
+  over-engineering/bloat-prevention skill (YAGNI-first decision ladder), not
+  a billing hack despite how the dictated description made it sound. No
+  postinstall scripts, no network calls anywhere in its code. 6 skills
+  copied to `.claude/skills/` (ponytail, -review, -audit, -help, -debt,
+  -gain); full repo vendored to `tools/dietrichgebert-ponytail/`.
+- **grill-me added** — already had `mattpocock/skills` vendored; copied the
+  `grill-me` skill to `.claude/skills/grill-me/`. Trivial, stateless.
+- **Playwright** — already natively pre-installed in this environment
+  (confirmed: Chromium at `/opt/pw-browsers/chromium`, matches exactly what
+  the review package's own bootstrap doc describes using). Added
+  `@playwright/mcp` as a project-scoped MCP server via `.mcp.json` too,
+  since that's what was explicitly asked for by name.
+
+**Found something important while investigating:** the review package
+includes `source/docs/CLAUDE-DESIGN-BOOTSTRAP.md` and
+`DESIGN-CAPABILITIES.md` — a full bootstrap doc from whatever session/
+environment produced the review package, listing **16 design skills**
+(`impeccable` plus 15 taste/style/imagegen skills) that were installed
+*somewhere*, but the doc gives no GitHub URL or package source for any of
+them — just names and how to invoke them via the `Skill` tool. **Do not
+guess a URL for these** — asked the user where they actually came from.
+This doc is otherwise valuable: it independently confirms the sites.json
+Netlify mapping (matches exactly), and documents real verification
+patterns (the 375px/1440px screenshot check, console-error check, etc.) —
+folded the verification pattern into `CLAUDE.md` directly since it's useful
+regardless of whether `impeccable` itself gets sourced.
+
+Also worth remembering: this doc explicitly lists `divide→thenobledivide`
+as an intended deploy target — corroborates the earlier finding that "The
+Sacred Divide" was meant to replace the old faith content at that site, but
+per direct verification it never actually landed there (still serving old
+content) despite the doc's blanket "all eleven deployed" claim.
+
 ## Standing decisions (don't re-litigate these)
 
 - Books are self-contained: no deps, no external requests, no storage,

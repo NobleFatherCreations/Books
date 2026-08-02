@@ -88,6 +88,31 @@ people you serve," not self-promotion.
   Netlify redeploy. Treat any such redeploy as a production write requiring
   explicit user go-ahead, same as any other environment-wide change.
 
+## Tools available in this environment
+
+- **Playwright + Chromium are pre-installed** (`/opt/pw-browsers/chromium`,
+  `PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers`). **Never run `playwright
+  install`.** Launch with `executablePath: '/opt/pw-browsers/chromium'`.
+  Also available as an MCP server via `.mcp.json` (`@playwright/mcp`) for
+  tool-based browser control instead of writing raw scripts.
+- **Visual verification pattern** (screenshot at 375px + 1440px, check for
+  console errors via a `pageerror` listener, check
+  `document.documentElement.scrollWidth > innerWidth + 1` for horizontal
+  overflow, check nothing is stuck at `opacity:0` after scroll, re-check
+  under `reducedMotion:'reduce'`) — run this before claiming any visual
+  change is "verified." Don't describe a screenshot that wasn't actually
+  read.
+- **Skills in `.claude/skills/`**: `grill-me` (stateless planning interview,
+  user-invoked, `/grill-me`), `ponytail` + `ponytail-review` +
+  `ponytail-audit` + `ponytail-help` + `ponytail-debt` + `ponytail-gain`
+  (over-engineering/bloat detection and prevention — inspected, no
+  telemetry, no network calls, MIT licensed).
+- **Subagents in `.claude/agents/`**: 12 of them, design/UX/writing/code
+  review — see `.claude/agents/README.md`.
+- **`garrytan/gastown` is declined**, same reasons as gstack — background
+  daemon (Docker container running indefinitely), OpenTelemetry
+  architecture, dashboard, multi-repo hook installer. Do not install.
+
 ## Safety rules
 
 1. Inspect any third-party repo before installing — report what it does,
