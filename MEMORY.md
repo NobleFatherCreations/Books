@@ -145,6 +145,25 @@ external-request check. Vendored `tools/fonts/fraunces/` and
 actual chosen typefaces and harmless to have on hand for whichever other
 book turns out to need them for real.
 
+## Important — not a uniform design pass across all books
+
+`loop.html` ("The Loop," about manipulative engagement mechanics)
+**explicitly refuses to have a reading-progress bar, streaks, or completion
+percentage, as a matter of the book's own argument** — direct quote from
+its own text: "this book has no streaks, no progress bar, no completion
+percentage, no badge... no stored reading position." Found this while
+checking whether to add the generic `design/snippets.html` progress bar to
+it — did NOT add it. **Do not paste the standard progress-bar snippet into
+this book.** Its existing scroll fade-ins (`.fx-reveal`) are a different,
+unrelated thing (a subtle entrance effect, not a gamification mechanic) and
+are fine as-is.
+
+**General lesson:** the 10-pass design plan assumes uniform treatment
+across all 9 books. That's wrong. Check each book's own content/stance
+before applying ANY visual pattern — some of these books make deliberate
+anti-pattern choices that are part of their argument, not oversights to
+"fix." Read before pasting, every time.
+
 ## Standing decisions (don't re-litigate these)
 
 - Books are self-contained: no deps, no external requests, no storage,
