@@ -1,47 +1,862 @@
 {
   "generated": "2026-08-02",
-  "note": "Single source of truth for chapter/book data. Pre-filled with what's confirmed from the planning thread and the live-site audit (see sites.json for full project registry). Chapters marked \"blurb\": null need real content — do not invent blurbs, readMin, or slugs for unconfirmed chapters.",
+  "note": "Single source of truth for chapter/book data. loop and scale are extracted directly from their own shipped HTML (var MOVEMENTS=[...] / var CH={...} literals) via design/extract-chapters.py — real content, not invented. CORRECTION: chapters 14-20 (the ones named in the original planning thread) belong to 'loop' (The Loop), NOT 'allfracture' as first assumed — confirmed by exact text match in loop's own source, including chapter 19's own blurb explicitly calling itself 'the sibling of All Fracture'. Other books still need their own data-format investigated before filling in.",
   "books": [
+    {
+      "project": "festie+codex",
+      "slug": "wook",
+      "title": "The Festie Codex",
+      "url": "https://noblefathercreations.com/wook",
+      "movements": []
+    },
+    {
+      "project": "sovereign",
+      "slug": "feminine",
+      "title": "The Sovereign Divine Feminine",
+      "url": "https://noblefathercreations.com/feminine",
+      "movements": []
+    },
+    {
+      "project": "playground",
+      "slug": "children",
+      "title": "Playground Protectors",
+      "url": "https://noblefathercreations.com/children",
+      "movements": []
+    },
+    {
+      "project": "fractal",
+      "slug": "fractal",
+      "title": "The Fractal",
+      "url": "https://noblefathercreations.com/fractal",
+      "movements": []
+    },
+    {
+      "project": "root",
+      "slug": "shadowroot",
+      "title": "The Root",
+      "url": "https://noblefathercreations.com/shadowroot",
+      "movements": []
+    },
+    {
+      "project": "decoder",
+      "slug": "playbook",
+      "title": "The Pattern Decoder",
+      "url": "https://noblefathercreations.com/playbook",
+      "movements": []
+    },
+    {
+      "project": null,
+      "slug": "faith",
+      "title": "The Coercive Control Codex",
+      "url": "https://noblefathercreations.com/faith",
+      "movements": []
+    },
     {
       "project": "allfracture",
       "slug": "fracture",
       "title": "All Fracture",
       "url": "https://noblefathercreations.com/fracture",
+      "movements": [],
+      "note": "Uses a different authoring format than loop/scale (no MOVEMENTS/CH JS literals found) — not yet extracted. Do not invent chapter data."
+    },
+    {
+      "project": null,
+      "slug": "loop",
+      "title": "The Loop",
+      "url": "https://noblefathercreations.com/loop",
       "movements": [
+        {
+          "movement": "I",
+          "name": "The machine that has no motive",
+          "blurb": "Why this is different in kind from every other manipulation in this library — and why there is no villain to confront.",
+          "chapters": [
+            {
+              "n": 1,
+              "title": "You are reading this on it",
+              "blurb": "No other book in this library is in this position. The reflex to check something else mid-chapter is the subject arriving in person.",
+              "readMin": 7,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#1"
+            },
+            {
+              "n": 2,
+              "title": "Nobody designed this",
+              "blurb": "The most important idea in the book. The manipulative configuration was not authored. It was found, by a search that had no opinion.",
+              "readMin": 10,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#2"
+            },
+            {
+              "n": 3,
+              "title": "The asymmetry",
+              "blurb": "A skilled human manipulator gets a few dozen observations a day. This gets billions, forgets nothing, and never has a bad week.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#3"
+            },
+            {
+              "n": 4,
+              "title": "What it optimises for",
+              "blurb": "Engagement is a proxy. The metric and your wellbeing agree for a while, then separate — and the system keeps climbing.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#4"
+            },
+            {
+              "n": 5,
+              "title": "The eight stages, ported",
+              "blurb": "The Fractal’s architecture applied to a feed. The match is not metaphorical, and this chapter says why.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#5"
+            }
+          ]
+        },
+        {
+          "movement": "II",
+          "name": "The mechanics",
+          "blurb": "The specific machinery, named. Everything here was tested against millions of people and kept because it won.",
+          "chapters": [
+            {
+              "n": 6,
+              "title": "Variable reward",
+              "blurb": "Fixed rewards produce satisfaction. Unpredictable ones produce checking. Your feed’s inconsistency is the feature.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#6"
+            },
+            {
+              "n": 7,
+              "title": "The removal of stopping cues",
+              "blurb": "Every older medium ended. Endings are where people decide whether to continue, and they were engineered out.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#7"
+            },
+            {
+              "n": 8,
+              "title": "The interrupt",
+              "blurb": "A claim on your attention you never granted per instance — and a recovery cost that appears in no usage statistic.",
+              "readMin": 7,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#8"
+            },
+            {
+              "n": 9,
+              "title": "Dark patterns: the interface as adversary",
+              "blurb": "Not sloppiness. Measured, tested, and kept because the honest version scored worse.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#9"
+            },
+            {
+              "n": 10,
+              "title": "Manufactured obligation",
+              "blurb": "Streaks, badges, progress bars. Manufacturing a debt where none existed. This library deploys none of them, and says why.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#10"
+            },
+            {
+              "n": 11,
+              "title": "The numbers",
+              "blurb": "What happens to social response when it acquires a public integer — and to a person when their worth does.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#11"
+            },
+            {
+              "n": 12,
+              "title": "Outrage as fuel",
+              "blurb": "You are not seeing what people believe. You are seeing what spreads. Mistaking one for the other is the era’s defining error.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#12"
+            },
+            {
+              "n": 13,
+              "title": "Ranking is an argument",
+              "blurb": "Every ordered list makes a claim while presenting as neutral. You cannot see what you were not shown.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#13"
+            }
+          ]
+        },
         {
           "movement": "III",
           "name": "The economy",
+          "blurb": "Who pays, who is paid, and what is actually being sold. Follow the money and the design decisions stop being mysterious.",
           "chapters": [
-            { "n": 14, "title": "You are not the customer", "blurb": null, "readMin": null, "slug": null },
-            { "n": 15, "title": "The auction in two hundred milliseconds", "blurb": null, "readMin": null, "slug": null },
-            { "n": 16, "title": "What it knows, and what it infers", "blurb": null, "readMin": null, "slug": null },
-            { "n": 17, "title": "The consent that isn't", "blurb": null, "readMin": null, "slug": null },
-            { "n": 18, "title": "The desperation premium", "blurb": null, "readMin": null, "slug": null },
-            { "n": 19, "title": "Where the money actually goes", "blurb": null, "readMin": null, "slug": null }
+            {
+              "n": 14,
+              "title": "You are not the customer",
+              "blurb": "And not quite the product either. What is sold is predicted and influenced future behaviour, which is worse.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#14"
+            },
+            {
+              "n": 15,
+              "title": "The auction in two hundred milliseconds",
+              "blurb": "What happens between the tap and the page: a profile of you is offered, bidders bid, someone wins the right to reach you.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#15"
+            },
+            {
+              "n": 16,
+              "title": "What it knows, and what it infers",
+              "blurb": "Almost nothing you typed. Enormous amounts derived — including things you have told no one.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#16"
+            },
+            {
+              "n": 17,
+              "title": "The consent that isn’t",
+              "blurb": "Agreement obtained by exhaustion is a coercion pattern everywhere else in this library. Legality does not change what it is.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#17"
+            },
+            {
+              "n": 18,
+              "title": "The desperation premium",
+              "blurb": "Different prices for different people, set by inferred urgency. The person who can least afford it reliably pays most.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#18"
+            },
+            {
+              "n": 19,
+              "title": "Where the money actually goes",
+              "blurb": "The sibling of All Fracture. Who captures the value, and how little reaches whoever made the thing.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#19"
+            }
           ]
         },
         {
           "movement": "IV",
-          "name": null,
+          "name": "The machine in other rooms",
+          "blurb": "This is not a social-media problem. The same machinery schedules your shifts, prices your groceries, and ranks your dates.",
           "chapters": [
-            { "n": 20, "title": "Algorithmic management", "blurb": null, "readMin": null, "slug": null }
+            {
+              "n": 20,
+              "title": "Algorithmic management",
+              "blurb": "Coercive control with an API — shift fragmentation, routing that prices a bathroom break, dismissal by system.",
+              "readMin": 10,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#20"
+            },
+            {
+              "n": 21,
+              "title": "The gambling convergence",
+              "blurb": "Loot boxes, gacha, currencies that hide real cost. Gambling mechanics migrated into products sold to children.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#21"
+            },
+            {
+              "n": 22,
+              "title": "Optimised against your success",
+              "blurb": "A service whose revenue depends on continuation, selling an outcome that ends continuation. No conspiracy required.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#22"
+            },
+            {
+              "n": 23,
+              "title": "The manufactured want",
+              "blurb": "The shortening path from seeing to owning, and how to tell a want you had from one that was made for you.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#23"
+            },
+            {
+              "n": 24,
+              "title": "Politics, honestly",
+              "blurb": "The most contested territory here. What targeting can and cannot demonstrably do, with the strongest case on both sides.",
+              "readMin": 10,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#24"
+            }
+          ]
+        },
+        {
+          "movement": "V",
+          "name": "What it does to belief",
+          "blurb": "Manufactured agreement, the pipeline, the collapse of evidence — and an honest account of where the research is contested.",
+          "chapters": [
+            {
+              "n": 25,
+              "title": "Manufactured consensus",
+              "blurb": "How the appearance of agreement is produced, and why volume is not evidence of prevalence.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#25"
+            },
+            {
+              "n": 26,
+              "title": "The bubble, honestly",
+              "blurb": "The research is genuinely mixed. This chapter presents it fairly, then makes the narrower claim it can support.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#26"
+            },
+            {
+              "n": 27,
+              "title": "The pipeline",
+              "blurb": "How gradients move people toward extremity one reasonable step at a time. The mechanics, not any one ideology.",
+              "readMin": 10,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#27"
+            },
+            {
+              "n": 28,
+              "title": "Nothing is true",
+              "blurb": "The subtler damage is not believing false things. It is losing the capacity to believe anything.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#28"
+            },
+            {
+              "n": 29,
+              "title": "Synthetic evidence",
+              "blurb": "The photograph has stopped being proof — and the second-order problem is worse than any single fake.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#29"
+            }
+          ]
+        },
+        {
+          "movement": "VI",
+          "name": "What it does to you",
+          "blurb": "Comparison at industrial scale, the performed self, the loss of unwatched life, and machines built to be exactly what you want.",
+          "chapters": [
+            {
+              "n": 30,
+              "title": "Engineered inadequacy",
+              "blurb": "Comparison at industrial scale, where the inadequacy and the remedy are sold by the same system.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#30"
+            },
+            {
+              "n": 31,
+              "title": "The performed self",
+              "blurb": "What happens to identity when it is continuously published, and to changing your mind when the record is permanent.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#31"
+            },
+            {
+              "n": 32,
+              "title": "The loss of unobserved life",
+              "blurb": "The quietest chapter. Unwatched space is where people experiment, fail, and become someone.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#32"
+            },
+            {
+              "n": 33,
+              "title": "Attention debt",
+              "blurb": "Separating the myth from the measurable finding — and why the real one makes recovery possible.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#33"
+            },
+            {
+              "n": 34,
+              "title": "Parasocial capture",
+              "blurb": "One-sided intimacy with people who do not know you exist. Real feeling, absent relationship.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#34"
+            },
+            {
+              "n": 35,
+              "title": "Synthetic intimacy",
+              "blurb": "Always available, never bored, never critical, continuously optimised to be what you want. The frontier, in both directions.",
+              "readMin": 11,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#35"
+            },
+            {
+              "n": 36,
+              "title": "Preference, created",
+              "blurb": "It does not merely measure what you like. It changes it, then measures the changed version, then optimises further.",
+              "readMin": 10,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#36"
+            }
+          ]
+        },
+        {
+          "movement": "VII",
+          "name": "The counter",
+          "blurb": "What actually works, starting from the admission that you cannot out-willpower an optimiser.",
+          "chapters": [
+            {
+              "n": 37,
+              "title": "What good design looks like",
+              "blurb": "The reference sample. You cannot identify manipulative design without a baseline for the other kind.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#37"
+            },
+            {
+              "n": 38,
+              "title": "Why \\u201cjust delete it\\u201d fails",
+              "blurb": "Structural reasons, not personal ones — including the class dimension nobody wants to name.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#38"
+            },
+            {
+              "n": 39,
+              "title": "Changing the optimisation target",
+              "blurb": "You cannot out-willpower an optimiser. You can frequently change what it is optimising against.",
+              "readMin": 10,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#39"
+            },
+            {
+              "n": 40,
+              "title": "Friction, deliberately",
+              "blurb": "Reintroducing the endings that were engineered out. Environment design, not discipline.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#40"
+            },
+            {
+              "n": 41,
+              "title": "Withdrawal, honestly",
+              "blurb": "What the first fortnight actually feels like, described plainly so nobody is blindsided into shame.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#41"
+            },
+            {
+              "n": 42,
+              "title": "Rebuilding attention and appetite",
+              "blurb": "Attention as a trainable capacity — and the less-discussed half, the recovery of appetite for slow things.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#42"
+            },
+            {
+              "n": 43,
+              "title": "Using it on purpose",
+              "blurb": "The anti-Luddite chapter. The problem was never the technology. It was the target behind it.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#43"
+            }
+          ]
+        },
+        {
+          "movement": "VIII",
+          "name": "The ledger",
+          "blurb": "What this book might have wrong, how to help someone else, and what has to happen at a scale larger than you.",
+          "chapters": [
+            {
+              "n": 44,
+              "title": "The algorithm as scapegoat",
+              "blurb": "A framework that explains everything explains nothing. The Weighing, applied to this book’s own material.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#44"
+            },
+            {
+              "n": 45,
+              "title": "What this book might be wrong about",
+              "blurb": "The history of technology panics, fairly told — and the specific findings that would falsify this book.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#45"
+            },
+            {
+              "n": 46,
+              "title": "Helping someone else",
+              "blurb": "For the reader worried about a teenager or a parent. Confrontation and confiscation reliably fail.",
+              "readMin": 10,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#46"
+            },
+            {
+              "n": 47,
+              "title": "What actually works, and what is coming",
+              "blurb": "At collective scale. Built by no villain, unfixable by willpower — which means the response has to be structural.",
+              "readMin": 10,
+              "slug": null,
+              "url": "https://noblefathercreations.com/loop#47"
+            }
           ]
         }
       ]
     },
-    { "project": "festie+codex", "slug": "wook", "title": "The Festie Codex", "url": "https://noblefathercreations.com/wook", "movements": [] },
-    { "project": "sovereign", "slug": "feminine", "title": "The Sovereign Divine Feminine", "url": "https://noblefathercreations.com/feminine", "movements": [] },
-    { "project": "playground", "slug": "children", "title": "Playground Protectors", "url": "https://noblefathercreations.com/children", "movements": [] },
-    { "project": "fractal", "slug": "fractal", "title": "The Fractal", "url": "https://noblefathercreations.com/fractal", "movements": [] },
-    { "project": "root", "slug": "shadowroot", "title": "The Root", "url": "https://noblefathercreations.com/shadowroot", "movements": [] },
-    { "project": "decoder", "slug": "playbook", "title": "The Pattern Decoder", "url": "https://noblefathercreations.com/playbook", "movements": [] },
-    { "project": null, "slug": "loop", "title": "The Loop", "url": "https://noblefathercreations.com/loop", "movements": [] },
-    { "project": null, "slug": "scale", "title": "The Weighing", "url": "https://noblefathercreations.com/scale", "movements": [] },
-    { "project": null, "slug": "faith", "title": "The Coercive Control Codex", "url": "https://noblefathercreations.com/faith", "movements": [] }
+    {
+      "project": null,
+      "slug": "scale",
+      "title": "The Weighing",
+      "url": "https://noblefathercreations.com/scale",
+      "movements": [
+        {
+          "movement": "I",
+          "name": "Why weigh at all",
+          "blurb": "The problem this book solves, the safeguard against its own misuse, and the three frames everything downstream rests on.",
+          "chapters": [
+            {
+              "n": 1,
+              "title": "You learned to see. This is how you learn to weigh.",
+              "blurb": "Detection asks whether something resembles a tactic. Weighing asks whether that is the best explanation for what happened.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#1"
+            },
+            {
+              "n": 2,
+              "title": "This book in the wrong hands",
+              "blurb": "Every argument in these pages is also what an abuser says. Three rules, before anything else.",
+              "readMin": 7,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#2"
+            },
+            {
+              "n": 3,
+              "title": "The two errors, and what they actually cost",
+              "blurb": "Missing real manipulation and inventing it are both real failures. Their costs invert depending on where you are.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#3"
+            },
+            {
+              "n": 4,
+              "title": "Most people, most days",
+              "blurb": "Base rates, in plain language — and the honest exception for anyone currently inside an unusual room.",
+              "readMin": 7,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#4"
+            },
+            {
+              "n": 5,
+              "title": "The gradient",
+              "blurb": "Rude, thoughtless, unkind, harmful, controlling, abusive. Collapsing these is the most common calibration failure there is.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#5"
+            }
+          ]
+        },
+        {
+          "movement": "II",
+          "name": "The instrument is you",
+          "blurb": "Before evidence: the detector itself. Where yours was calibrated, what distorts it, and what a healthy baseline actually looks like.",
+          "chapters": [
+            {
+              "n": 6,
+              "title": "Your detector has a history",
+              "blurb": "Your pattern-recognition was tuned by a specific room. It is still tuned to that room.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#6"
+            },
+            {
+              "n": 7,
+              "title": "The gut: sensor or smoke alarm",
+              "blurb": "The most-cited evidence people offer, taken seriously — and then sorted.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#7"
+            },
+            {
+              "n": 8,
+              "title": "Grief in the costume of analysis",
+              "blurb": "Building a case is easier than feeling a loss, and it works. That is the problem.",
+              "readMin": 7,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#8"
+            },
+            {
+              "n": 9,
+              "title": "The retrospective rewrite",
+              "blurb": "After a revelation, every memory changes at once. Some of that is accurate. A total overwrite is not.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#9"
+            },
+            {
+              "n": 10,
+              "title": "The state you’re judging from",
+              "blurb": "Judgment is a physical act performed by a body. No verdicts at 2am.",
+              "readMin": 6,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#10"
+            },
+            {
+              "n": 11,
+              "title": "The reference sample",
+              "blurb": "You cannot calibrate without a baseline. What ordinary, decent, non-manipulative relationships actually look like.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#11"
+            }
+          ]
+        },
+        {
+          "movement": "III",
+          "name": "What counts",
+          "blurb": "Evidence standards. What is a pattern, how a case builds itself, and the two riskiest sources of information you will ever use.",
+          "chapters": [
+            {
+              "n": 12,
+              "title": "What is evidence",
+              "blurb": "What was said and done, versus what it felt like and what you inferred. Both matter. They are not the same tier.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#12"
+            },
+            {
+              "n": 13,
+              "title": "One thing is not a pattern",
+              "blurb": "Frequency, duration, escalation, and response to feedback — the four dimensions that turn incidents into findings.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#13"
+            },
+            {
+              "n": 14,
+              "title": "The file that builds itself",
+              "blurb": "Once someone is under suspicion, everything they do becomes evidence. Including kindness.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#14"
+            },
+            {
+              "n": 15,
+              "title": "The discipline of three explanations",
+              "blurb": "The book’s central working exercise, and the one you will use most days.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#15"
+            },
+            {
+              "n": 16,
+              "title": "The boring explanations",
+              "blurb": "Incompetence, exhaustion, fear, bad skills. Manipulation is a high-effort explanation. Do not reach for it first.",
+              "readMin": 7,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#16"
+            },
+            {
+              "n": 17,
+              "title": "Intent, impact, and the mind-reading trap",
+              "blurb": "What they did, what it did to you, and what they meant are three questions. Only two are knowable.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#17"
+            },
+            {
+              "n": 18,
+              "title": "Secondhand accounts",
+              "blurb": "Most judgments are made on information someone else supplied. The highest-risk evidence category there is.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#18"
+            },
+            {
+              "n": 19,
+              "title": "Judging strangers through screens",
+              "blurb": "Clips, screenshots, threads — an adversarially curated sample, and the verdicts we build from it.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#19"
+            }
+          ]
+        },
+        {
+          "movement": "IV",
+          "name": "The tests that work",
+          "blurb": "Four discriminators that actually separate manipulation from ordinary human failure — and the safety gate that comes before all of them.",
+          "chapters": [
+            {
+              "n": 20,
+              "title": "Before you test: is testing safe?",
+              "blurb": "Several tests in this movement introduce friction on purpose. With a dangerous person that is the worst advice in this book.",
+              "readMin": 6,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#20"
+            },
+            {
+              "n": 21,
+              "title": "The naming test",
+              "blurb": "Describe the behavior plainly and watch what happens. The strongest single discriminator here.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#21"
+            },
+            {
+              "n": 22,
+              "title": "Repair, and apology’s counterfeit",
+              "blurb": "Everyone causes harm. What happens afterward is the whole signal.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#22"
+            },
+            {
+              "n": 23,
+              "title": "The cost of \\u201cno\\u201d",
+              "blurb": "Refuse something small and reasonable. Watch the price. Track the pattern, not the reaction.",
+              "readMin": 7,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#23"
+            },
+            {
+              "n": 24,
+              "title": "Is it you, or is it everyone?",
+              "blurb": "Behavior aimed only at you, only unobserved, means something different from behavior aimed at the world.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#24"
+            },
+            {
+              "n": 25,
+              "title": "Power changes the meaning",
+              "blurb": "The same words from a peer and from someone who controls your housing are not the same words.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#25"
+            },
+            {
+              "n": 26,
+              "title": "Difference is not malice",
+              "blurb": "Culture, neurotype, class, generation, language. A large share of false positives live here.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#26"
+            },
+            {
+              "n": 27,
+              "title": "Institutions weigh differently",
+              "blurb": "No single mind to read, so intent is the wrong question. Incentive and structure are the right ones.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#27"
+            }
+          ]
+        },
+        {
+          "movement": "V",
+          "name": "The mirror",
+          "blurb": "Turning the instrument around before you act on anything it told you.",
+          "chapters": [
+            {
+              "n": 28,
+              "title": "Am I the one doing it?",
+              "blurb": "Everyone uses these tactics sometimes. Someone who has learned the vocabulary can use them with precision.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#28"
+            },
+            {
+              "n": 29,
+              "title": "The vocabulary as a weapon",
+              "blurb": "Clinical language confers power. It can end a legitimate grievance as easily as it can name one.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#29"
+            },
+            {
+              "n": 30,
+              "title": "Who benefits from your verdict",
+              "blurb": "Nobody weighs alone. Everyone helping you has a stake, including the people who love you.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#30"
+            },
+            {
+              "n": 31,
+              "title": "Being wrong well",
+              "blurb": "Calibration is meaningless if you cannot reverse. The repair you owe, and how to make it without a second grievance.",
+              "readMin": 7,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#31"
+            }
+          ]
+        },
+        {
+          "movement": "VI",
+          "name": "Living calibrated",
+          "blurb": "What to do with a conclusion, how to survive not having one, and how to get back to trusting people.",
+          "chapters": [
+            {
+              "n": 32,
+              "title": "Assessment is not decision",
+              "blurb": "You do not have to prove harm to be entitled to act. These are two different questions.",
+              "readMin": 7,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#32"
+            },
+            {
+              "n": 33,
+              "title": "When you can’t ever know",
+              "blurb": "Some questions never resolve. How to close a loop without a verdict.",
+              "readMin": 7,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#33"
+            },
+            {
+              "n": 34,
+              "title": "Scoring your own past calls",
+              "blurb": "The only mechanism here that keeps improving after you finish the book.",
+              "readMin": 6,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#34"
+            },
+            {
+              "n": 35,
+              "title": "Certainty is the tell",
+              "blurb": "People who just escaped one total explanation are the prime recruiting pool for the next.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#35"
+            },
+            {
+              "n": 36,
+              "title": "Helping someone else weigh",
+              "blurb": "You will be handed other people’s situations. The friend who escalates fastest is rarely the friend who helps most.",
+              "readMin": 8,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#36"
+            },
+            {
+              "n": 37,
+              "title": "When weighing stops",
+              "blurb": "The floor, at full strength. Children, violence, isolation, impossibility of leaving, physical fear.",
+              "readMin": 6,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#37"
+            },
+            {
+              "n": 38,
+              "title": "Trust as a skill you rebuild",
+              "blurb": "If I can never be certain, how do I get close to anyone again? The question the whole book exists to answer.",
+              "readMin": 9,
+              "slug": null,
+              "url": "https://noblefathercreations.com/scale#38"
+            }
+          ]
+        }
+      ]
+    }
   ],
   "todo": [
-    "Fill in blurb/readMin/slug for chapters 14-20 above from the actual book content.",
-    "Fill in full chapter lists for the other 8 books — only titles/URLs are confirmed so far.",
-    "Once populated, this file drives: the chapter-index/contents page, Prev/Next nav, reading-progress bar, and THE HOUSE cross-project map (see Part 4 build queue in PROJECT-MASTER.md)."
-  ]
+    "fracture, wook, feminine, children, fractal, shadowroot, playbook: chapter data not yet extracted — check each book's own source for its authoring format (may not match loop/scale's MOVEMENTS/CH pattern) before inventing anything.",
+    "Once populated, this file drives: the chapter-index/contents page, Prev/Next nav, reading-progress bar, and THE HOUSE cross-project map (see design/build-chapter-index.py and PROJECT-MASTER.md Part 4)."
+  ],
+  "updated": "2026-08-02T3"
 }

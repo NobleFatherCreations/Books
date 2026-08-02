@@ -102,6 +102,34 @@ touched the live site. Key distinction that matters going forward:
   `fixes/`, unshipped, per explicit instruction to hold until design work
   is finished and "GitHub packs" is defined.
 
+## Update (2026-08-02, session 4 — real chapter data found, one attribution corrected)
+
+**Important correction:** the MOVEMENT III/IV chapters from the original
+planning thread (14 "You are not the customer" ... 20 "Algorithmic
+management") were pre-filled under `allfracture`/"All Fracture" in
+`chapters.json` — **that was wrong.** They actually belong to `loop`/"The
+Loop." Confirmed two ways: exact text match only in `fixes/loop.html`, and
+chapter 19's own blurb literally says "The sibling of All Fracture" — i.e.
+it's a different, related book, not the same one. Fixed in `chapters.json`.
+
+**How this was found:** `loop.html` and `scale.html` author their own
+chapter data as JS literals right in the page — `var MOVEMENTS=[...]`
+(movement numeral/title/chapter-list/blurb) and `var CH={...}` (per-chapter
+title/blurb/readMin). Wrote `design/extract-chapters.py` to parse this
+straight out of the shipped HTML — real content, zero invention. Got all 47
+chapters/8 movements for The Loop and all 38 chapters/6 movements for The
+Weighing this way, fully populated in `chapters.json` now (title, blurb,
+readMin — the only thing not present in the source is a per-chapter slug;
+chapters route by number via `location.hash`, not a slug scheme).
+
+Regenerated `design/chapter-index-loop.html` and `design/chapter-index-scale.html`
+from the corrected data — both verified clean via `check-leak.sh`.
+
+**Still todo:** fracture, wook, feminine, children, fractal, shadowroot,
+playbook don't use this same MOVEMENTS/CH format (checked fracture
+specifically — no match). Each needs its own format investigated before
+filling in; don't assume they all match loop/scale's pattern.
+
 ## Standing decisions (don't re-litigate these)
 
 - Books are self-contained: no deps, no external requests, no storage,
