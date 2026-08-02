@@ -3,10 +3,20 @@
 **Read `MEMORY.md` first, every session** — it's the actual cross-session
 memory in this environment (a fresh container has no access to anything
 outside this repo, so plugin-based memory tools don't carry over between
-sessions here; this file does). Then `PROJECT-MASTER.md` for full
-context/history, `sites.json` for the live project registry, and
-`chapters.json` for book/chapter data. This file is the always-on rulebook —
-treat it as binding, not a suggestion. Update `MEMORY.md` as work happens.
+sessions here; this file does). Then `BOOKS.md` for what's actually built
+into each book (content, theme, design stance, per-book reference-site
+plan — the single file to hand another AI for "what's in each book").
+Then `PROJECT-MASTER.md` for full context/history, `sites.json` for the
+live project registry, and `chapters.json` for raw chapter data. This file
+is the always-on rulebook — treat it as binding, not a suggestion. Update
+`MEMORY.md` and `BOOKS.md` as work happens.
+
+**Never apply a design pattern uniformly across all 9 books.** Check each
+book's own content/stance first — several make deliberate anti-pattern
+choices that are part of their argument (see `BOOKS.md` — Loop and faith
+explicitly refuse gamification/tracking; children's book Playground
+Protectors is the opposite case and *wants* gamification; Root is a guided
+practice, not a chapter book). Read before pasting, every time.
 
 ## Self-contained architecture (non-negotiable)
 
