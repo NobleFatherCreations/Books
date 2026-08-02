@@ -40,13 +40,29 @@ If you want the two "remember" plugins running on *your own local machine*
 (where Claude Code sessions persist on the same disk), install them there
 directly per their READMEs — that's the environment they're built for.
 
-## Not pulled
+## Batch 2 (2026-08-02) — impeccable, Higgsfield MCP, and the rest of the original wishlist
 
-- **wshobson/agents**, **VoltAgent/awesome-claude-code-subagents**,
-  **contains-studio/agents**, **davila7/claude-code-templates** (subagent
-  collections) — inspection done (see prior conversation), hold for your
-  go-ahead before installing.
-- **zebbern/claude-code-guide** — mentioned in the thread but not in your
-  final Part 2 list; ask if you want it too.
-- Full **google/fonts** monorepo — multi-GB; only sparse-checked-out the two
-  font families actually needed.
+| Folder | Source | What it's for | Risk notes |
+|---|---|---|---|
+| `dietrichgebert-ponytail/` | github.com/dietrichgebert/ponytail | Full source for the 6 ponytail skills already wired into `.claude/skills/` | No postinstall, no network calls in hooks/MCP code. MIT. |
+| `geopopos-higgsfield_ai_mcp/` | github.com/geopopos/higgsfield_ai_mcp | MCP server for Higgsfield AI image/video generation | Third-party (unofficial), small (fastmcp/httpx/dotenv only), calls only `platform.higgsfield.ai`. **Needs your own `HF_API_KEY`/`HF_SECRET`** (paid account) to do anything — inert without it. Wired into `.mcp.json` with empty placeholders. |
+| *(impeccable itself lives in `.claude/skills/impeccable/` + `.claude/agents/impeccable-*.md`, not here — see `.claude/skills/README.md`)* | github.com/pbakaus/impeccable | Real source of the "impeccable" design skill named in the review package's own bootstrap doc | Apache 2.0. Disclosed anonymous "choice ping" telemetry, opt-out via `IMPECCABLE_NO_TELEMETRY`/`DO_NOT_TRACK` env var, fire-and-forget, never blocks. No daemon. |
+| `fonts/league-gothic/` | github.com/theleagueof/league-gothic | League of Moveable Type font | Font files only. |
+| `fonts/inter/` | github.com/rsms/inter (sparse: `docs/font-files`) | Inter UI sans | Font files only. |
+| `feathericons-feather/` | github.com/feathericons/feather | Minimal icon set (Lucide's origin) | SVG only. |
+| `tabler-icons/icons/` | github.com/tabler/tabler-icons (sparse: outline+filled) | Large icon set | SVG only. |
+| `tailwindlabs-heroicons/` | github.com/tailwindlabs/heroicons | Tailwind-team icon set | SVG only. |
+| `IanLunn-Hover/` | github.com/IanLunn/Hover | Pure-CSS hover effects | CSS only. |
+| `miniMAC-magic/` | github.com/miniMAC/magic | CSS-only entrance animations | CSS only. |
+| `sindresorhus-modern-normalize/` | github.com/sindresorhus/modern-normalize | Cross-browser CSS reset | CSS only. |
+| `yeun-open-color/` | github.com/yeun/open-color | Balanced open color palette (reference for the dark/gold/crimson system) | CSS/JSON only. |
+| `zebbern-claude-code-guide/` | github.com/zebbern/claude-code-guide | Setup/workflow reference | Static docs. |
+| `VoltAgent-awesome-claude-code-subagents/` | github.com/VoltAgent/awesome-claude-code-subagents | 154+ subagent catalog, browsable | Static `.md` agent defs, not installed as active agents — 12 already are (see `.claude/agents/`), adding 150+ more would be redundant bloat. Browse and pull individually if a specific role is missing. |
+| `davila7-claude-code-templates-agents/` | github.com/davila7/claude-code-templates (only the `agents/` folder, not the full 161MB CLI+dashboard repo) | 29 category folders incl. `ffmpeg-clip-team` (relevant to the clip pipeline), `podcast-creator-team`, `deep-research-team` | Static `.md` agent defs. Not installed as active agents, same reasoning as VoltAgent's. |
+
+**Not pulled — unDraw.** Tried `undraw/undraw.github.io` and two other
+guessed names; none exist as a public git repo (proxy returned an auth
+prompt, not a 404, suggesting they're genuinely not there in that form).
+Not worth guessing further — illustrations aren't essential to the design
+system, and unDraw is normally used via their web picker, not a repo clone.
+If you have the actual URL, send it and I'll pull it.

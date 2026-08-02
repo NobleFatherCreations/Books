@@ -102,13 +102,17 @@ people you serve," not self-promotion.
   under `reducedMotion:'reduce'`) — run this before claiming any visual
   change is "verified." Don't describe a screenshot that wasn't actually
   read.
-- **Skills in `.claude/skills/`**: `grill-me` (stateless planning interview,
-  user-invoked, `/grill-me`), `ponytail` + `ponytail-review` +
+- **Skills in `.claude/skills/`**: `impeccable` (real design/UX skill, 23
+  sub-commands — `/impeccable <command> <target>`), `grill-me` (stateless
+  planning interview, `/grill-me`), `ponytail` + `ponytail-review` +
   `ponytail-audit` + `ponytail-help` + `ponytail-debt` + `ponytail-gain`
-  (over-engineering/bloat detection and prevention — inspected, no
-  telemetry, no network calls, MIT licensed).
-- **Subagents in `.claude/agents/`**: 12 of them, design/UX/writing/code
-  review — see `.claude/agents/README.md`.
+  (over-engineering/bloat detection and prevention) — see
+  `.claude/skills/README.md` for what each does and any caveats.
+- **Subagents in `.claude/agents/`**: 16 of them, design/UX/writing/code
+  review plus impeccable's support crew — see `.claude/agents/README.md`.
+- **MCP servers in `.mcp.json`**: `playwright` (browser automation),
+  `higgsfield` (image/video gen — needs your own API key, currently a
+  placeholder).
 - **`garrytan/gastown` is declined**, same reasons as gstack — background
   daemon (Docker container running indefinitely), OpenTelemetry
   architecture, dashboard, multi-repo hook installer. Do not install.

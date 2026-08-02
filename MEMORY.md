@@ -209,6 +209,38 @@ Sacred Divide" was meant to replace the old faith content at that site, but
 per direct verification it never actually landed there (still serving old
 content) despite the doc's blanket "all eleven deployed" claim.
 
+## Update (2026-08-02, session 6 — impeccable sourced, big batch download)
+
+Found the real source for `impeccable`: `github.com/pbakaus/impeccable`.
+Inspected — Apache 2.0, disclosed anonymous "choice ping" telemetry only
+(opt-out via `IMPECCABLE_NO_TELEMETRY`/`DO_NOT_TRACK`), no daemon. Its own
+repo dogfoods itself and ships a pre-built `.claude/skills/impeccable/` +
+4 support agents — copied those directly rather than reconstructing from
+source. **Caveat:** the reference docs (the useful part — 23 command
+guides) work as-is; the deterministic `detect.mjs` and `live` browser-
+iteration scripts need `npm install` run inside
+`.claude/skills/impeccable/scripts/` first, not done yet (would pull in
+css-tree/htmlparser2/marked etc., not vetted yet).
+
+Also inspected and added `geopopos/higgsfield_ai_mcp` (small, legitimate,
+needs the user's own Higgsfield API key to do anything — wired into
+`.mcp.json` with empty placeholders, inert until real credentials added).
+
+Downloaded everything else remaining from the original wishlist: two more
+font families, 3 more icon sets, 2 more animation libraries, modern-
+normalize, open-color, zebbern's guide, and both remaining subagent
+collections (VoltAgent's 154-agent catalog and davila7's — pulled only the
+`agents/` folder from davila7 since the full repo is a 161MB CLI+dashboard
+product, not just agents). Neither collection was turned into active
+`.claude/agents/` entries — 16 are already active; adding 150+ more would
+be redundant. Browse `tools/` and pull specific ones by name if a role is
+missing. unDraw wasn't found as a clonable repo (tried 3 names, all failed
+at the proxy auth layer, not a 404 — stopped rather than keep guessing).
+
+Total repo size is now large (~180MB+) mostly from vendored reference
+material in `tools/` — all inert reference/available-but-not-auto-run,
+same pattern as everything added before it.
+
 ## Standing decisions (don't re-litigate these)
 
 - Books are self-contained: no deps, no external requests, no storage,

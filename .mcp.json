@@ -3,6 +3,14 @@
     "playwright": {
       "command": "npx",
       "args": ["-y", "@playwright/mcp@latest"]
+    },
+    "higgsfield": {
+      "command": "python",
+      "args": ["tools/geopopos-higgsfield_ai_mcp/src/higgsfield_mcp/server.py"],
+      "env": {
+        "HF_API_KEY": "",
+        "HF_SECRET": ""
+      }
     }
   }
 }

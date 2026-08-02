@@ -36,6 +36,11 @@ it). Or name one directly: "use the ui-designer agent to review this page."
   primarily read on phones per the review package's own notes)
 - `test-writer-fixer.md` — test coverage and fixes
 
+**Impeccable's support crew** (design skill, see below) — used automatically
+by the `impeccable` skill, not usually invoked directly:
+- `impeccable-finish-reviewer.md`, `impeccable-documenter.md`,
+  `impeccable-manual-edit-applier.md`, `impeccable-asset-producer.md`
+
 ## Not brought in
 
 The full collections have far more than this (203 in wshobson/agents alone —
