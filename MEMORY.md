@@ -316,3 +316,44 @@ own copy and also violates).
 opinions — explicitly lists which agents NOT to use and why), 6 phases,
 page order, and 4 decisions needed. Local Playwright verification keeps
 deploy cost at zero until Phase 6.
+
+## Update (2026-08-02, session 9 — VISION.md, fresh art-direction read)
+
+User pushed back (fairly): I'd been auditing compliance instead of showing
+what these could become. Also said the bootstrap doc's parameters and the
+"no dependencies" rule were set before current analysis and are open to
+reconsideration. Asked for my own fresh opinion + how the 3 references
+apply specifically.
+
+**Read the actual prose for the first time.** Findings that reframe
+everything:
+- **Both books are COMPLETE**: Loop 47/47 chapters (~27,500 words), Scale
+  38/38. Not works in progress. 193 section headings, 53 pull quotes, 38
+  lists in Loop.
+- Writing quality is genuinely high — Stripe Press tier.
+- **Reading measure is ~89 characters/line** (760px @ 17px). Optimal is
+  60–70. Highest-impact fix available, one CSS change, affects all ~85
+  chapters.
+- **67 in-prose cross-references ("as in chapter four") are plain text**,
+  not links. Plus 12 mentions of sibling books (Weighing 8x, Fractal 2x,
+  All Fracture, Playground). The corpus is already a web; the HTML doesn't
+  know it. This is the Wait But Why opportunity and it's nearly free.
+
+**My position on dependencies** (recorded so it isn't re-litigated): keep
+self-contained, but for a real reason — everything in the vision is doable
+with native APIs, so the constraint costs nothing and makes the privacy/
+offline claim true, which for books about surveillance IS the argument.
+BUT the rule is currently fiction on 11/16 pages (Google Fonts CDN) — they
+have the costs without the benefit. Finish it or drop the pretense.
+
+**On Fraunces**: detector flags it as overused; I disagree in context —
+generic-ness comes from default usage (one weight, no optical sizing), not
+the face. Keep it, but actually use the SOFT/WONK variable axes.
+
+`VISION.md` has the full map: each reference applied concretely
+(Stripe Press = objects/covers/per-book identity; Aeon = 65ch measure,
+rhythm, marginalia via already-vendored Tufte; WBW = link the 67 refs,
+library index across all 9), what "finished" looks like per surface, and
+an impact-ordered sequence. Top 3 (measure, cross-ref linking, self-host
+fonts) are mechanical and low-risk — recommended regardless of other
+decisions.
