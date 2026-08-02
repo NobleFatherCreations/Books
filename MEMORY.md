@@ -83,6 +83,25 @@ lightweight hook).
   ready but insertion into each book's existing markup is a separate,
   not-yet-done pass.
 
+## Update (2026-08-02, session 3 — clarifying what's actually available)
+
+User was (understandably) unclear on what "downloaded repos" meant in
+practice. Clarified: everything lives as files in this repo, nothing has
+touched the live site. Key distinction that matters going forward:
+
+- **`tools/`** = reference material (guides, CSS, icons, fonts) — read
+  when needed, not auto-active.
+- **`.claude/agents/`** = real, active subagents (12 of them: design/UX,
+  writing/copy, code/technical — user asked for all three categories).
+  These load automatically in ANY future session on this repo, same as
+  `CLAUDE.md`/`MEMORY.md` — no plugin install needed. This is the correct
+  persistent mechanism in this environment (a plugin install into
+  `~/.claude/plugins` would NOT survive a fresh container; a file in
+  `.claude/agents/` inside the repo does).
+- Still true: nothing has been deployed live. loop/scale/faith fixes sit in
+  `fixes/`, unshipped, per explicit instruction to hold until design work
+  is finished and "GitHub packs" is defined.
+
 ## Standing decisions (don't re-litigate these)
 
 - Books are self-contained: no deps, no external requests, no storage,
