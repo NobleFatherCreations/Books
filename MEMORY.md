@@ -277,3 +277,42 @@ Space Mono) — not pulled yet, offered to do it, awaiting go-ahead.
 - Outreach and publishing: human-in-the-loop always, no auto-send.
 - Palette question (emerald+gold gallery vs. dark+gold+crimson books):
   explicitly deferred by user, not decided.
+
+## Update (2026-08-02, session 8 — full audit baseline + AUDIT-PLAN.md)
+
+User: nothing deploys until each site's whole package is reviewed and
+finished (font fixes ride along in one deploy per site — protecting Netlify
+deploy credits). Wants every new tool/agent used intelligently, not
+exhaustively.
+
+**Efficiency unlock found and built:** these pages are 0.1–11MB but 85–99%
+of that is embedded base64. `design/prep-audit.py` strips payloads into
+`.audit-view/` (gitignored, analysis-only, never ship or edit these). The
+11MB hub becomes 103KB of real markup. **This defeats the "detector times
+out over 3MB" limit the review doc reported — all 16 pages are now
+auditable.** `design/run-detector.sh` batch-runs the detector.
+
+**Baseline captured: 310 raw findings across 16 pages.** BUT most volume is
+not defect:
+- `side-tab` (~190, 61% of all findings) = `border-left:3px solid
+  var(--gilt)/var(--glow)/#8A2432` — this is the project's OWN gold/crimson
+  accent language (callouts, chapter cards, the "you are here" nav marker).
+  CLAUDE.md says preserve chapter cards. **Do not mass-fix these** — it's
+  decision D1 in AUDIT-PLAN.md, pending user. My recommendation: keep as-is.
+- Fraunces `overused-font` (~60), `em-dash-overuse`, `gradient-text`,
+  `dark-glow` = all named known-deliberate in the review package's own
+  bootstrap doc. Ignore.
+- `broken-image` on seals: **checked, false positive** — JS sets the src at
+  runtime.
+- Genuinely actionable mechanical findings: ~15–20, mostly `bounce-easing`
+  (playground, root), `layout-transition`, `radial-halo`.
+
+Also confirmed: faith.html (23 @font-face) and faith-index (3) are ALSO
+correctly self-hosted, joining loop/scale. So 4 of 16 pages are compliant;
+11 violate via Google Fonts CDN (1 page, festie-codex-full, is the repo's
+own copy and also violates).
+
+`AUDIT-PLAN.md` has the full plan: one reviewer per concern (no overlapping
+opinions — explicitly lists which agents NOT to use and why), 6 phases,
+page order, and 4 decisions needed. Local Playwright verification keeps
+deploy cost at zero until Phase 6.
