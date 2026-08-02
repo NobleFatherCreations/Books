@@ -241,6 +241,32 @@ Total repo size is now large (~180MB+) mostly from vendored reference
 material in `tools/` — all inert reference/available-but-not-auto-run,
 same pattern as everything added before it.
 
+## Update (2026-08-02, session 7 — headline finding + ENHANCEMENT-PLAN.md)
+
+Added `emilkowalski/skills` (8 real animation/design skills — the source of
+"emil-design-eng"), ran the actual `npx impeccable install` CLI (updated
+the skill to the real released build, wired a PostToolUse/Stop design-
+detector hook, moved it from `.claude/settings.local.json` to
+`.claude/settings.json` so it's actually committed/shared). Skipped a
+duplicate GitHub MCP setup — this environment already provides
+`mcp__github__*` natively, no PAT needed or available.
+
+**Big finding while reviewing everything for the enhancement plan:** 11 of
+12 checked pages in `source/` (the review package) — including this repo's
+own tracked `festie-codex-full.html` — load fonts via a live Google Fonts
+CDN `<link>`, a real violation of the self-contained rule (external
+request, breaks offline, leaks visitor IPs to Google). This is bigger than
+the original comment leak: it's live in production right now on portals,
+seals, reaction-map, root (all confirmed byte-exact-live earlier), not just
+sitting in an undeployed file. `loop.html`/`scale.html` are the only pages
+that do this correctly (self-hosted, 20 real `@font-face` rules). Full
+writeup and per-page priority plan in `ENHANCEMENT-PLAN.md` — read that
+before starting any visual work on hub/portals/loop, in that order, per the
+user's explicit request.
+
+Need 4 more font families to fix this (Hanken Grotesk, Jost, IBM Plex Mono,
+Space Mono) — not pulled yet, offered to do it, awaiting go-ahead.
+
 ## Standing decisions (don't re-litigate these)
 
 - Books are self-contained: no deps, no external requests, no storage,
