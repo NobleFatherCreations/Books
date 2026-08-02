@@ -1,0 +1,184 @@
+{
+  "generated": "2026-08-02",
+  "note": "Machine-readable registry of every Noble Father Creations live project. Built by fetching noblefathercreations.com live and cross-referencing the connected Netlify account. Any AI/tool working on this project should read this file first instead of re-guessing URLs.",
+  "hub": {
+    "title": "Noble Father Creations",
+    "url": "https://noblefathercreations.com",
+    "netlifySite": "noblefathercreations",
+    "netlifySiteId": "58596923-a3a6-4f9e-9e9f-e934a1920aed"
+  },
+  "projects": [
+    {
+      "codename": "decoder",
+      "slug": "playbook",
+      "title": "The Pattern Decoder",
+      "tagline": "349 tactics · type what happened",
+      "url": "https://noblefathercreations.com/playbook",
+      "netlifySite": "noblepatterns",
+      "netlifySiteId": "8b3d5fdf-49e5-46eb-bb53-97d69039a44e",
+      "deploySource": "cli",
+      "hasGitRepo": false,
+      "houseTabLeak": { "found": false, "checkedAt": "2026-08-02" }
+    },
+    {
+      "codename": "root",
+      "slug": "shadowroot",
+      "title": "The Root",
+      "tagline": "Shadow work, guided",
+      "url": "https://noblefathercreations.com/shadowroot",
+      "netlifySite": "nobleshadows",
+      "netlifySiteId": "b5ff07f1-2ee6-4c6a-9591-a1e6ef7baa91",
+      "deploySource": "unknown",
+      "hasGitRepo": false,
+      "houseTabLeak": { "found": false, "checkedAt": "2026-08-02" }
+    },
+    {
+      "codename": "sovereign",
+      "slug": "feminine",
+      "title": "The Sovereign Divine Feminine",
+      "tagline": "42 chapters · recovery for women",
+      "url": "https://noblefathercreations.com/feminine",
+      "netlifySite": "sovereign-woman",
+      "netlifySiteId": "7683f8ed-03f4-4829-8fd4-f6affea18a16",
+      "deploySource": "unknown",
+      "hasGitRepo": false,
+      "houseTabLeak": { "found": false, "checkedAt": "2026-08-02" }
+    },
+    {
+      "codename": "playground",
+      "slug": "children",
+      "title": "Playground Protectors",
+      "tagline": "For kids & their guardians",
+      "url": "https://noblefathercreations.com/children",
+      "netlifySite": "playgroundprotector",
+      "netlifySiteId": "90b0a06d-1e11-4302-9292-f2e2780b195a",
+      "deploySource": "unknown",
+      "hasGitRepo": false,
+      "houseTabLeak": { "found": false, "checkedAt": "2026-08-02" }
+    },
+    {
+      "codename": "festie+codex",
+      "slug": "wook",
+      "title": "The Festie Codex",
+      "tagline": "Festival & field harm reduction",
+      "url": "https://noblefathercreations.com/wook",
+      "netlifySite": "wook-in-sheeps-clothing",
+      "netlifySiteId": "460c07e8-463e-4213-8e14-9711cb430741",
+      "deploySource": "unknown",
+      "hasGitRepo": true,
+      "gitRepo": "NobleFatherCreations/Wookbook",
+      "gitFile": "festie-codex-full.html",
+      "houseTabLeak": { "found": false, "checkedAt": "2026-08-02" }
+    },
+    {
+      "codename": "fractal",
+      "slug": "fractal",
+      "title": "The Fractal",
+      "tagline": "The architecture, 29 sectors wide",
+      "url": "https://noblefathercreations.com/fractal",
+      "netlifySite": "thefractal",
+      "netlifySiteId": "e94ed486-0392-4045-86c8-b9c3a26b911a",
+      "deploySource": "unknown",
+      "hasGitRepo": false,
+      "houseTabLeak": { "found": false, "checkedAt": "2026-08-02" }
+    },
+    {
+      "codename": "allfracture",
+      "slug": "fracture",
+      "title": "All Fracture",
+      "tagline": "The wealth transfer · 195 citations",
+      "url": "https://noblefathercreations.com/fracture",
+      "netlifySite": "fractures",
+      "netlifySiteId": "8939c138-e34a-433c-8c01-9af5ebbd75b2",
+      "deploySource": "unknown",
+      "hasGitRepo": false,
+      "houseTabLeak": { "found": false, "checkedAt": "2026-08-02" }
+    },
+    {
+      "codename": null,
+      "slug": "loop",
+      "title": "The Loop",
+      "tagline": "The machine that learns you",
+      "url": "https://noblefathercreations.com/loop",
+      "netlifySite": "noble-the-loop",
+      "netlifySiteId": "b9405b37-a71c-4c55-bbd2-a3043963b457",
+      "deploySource": "cli",
+      "hasGitRepo": false,
+      "houseTabLeak": {
+        "found": true,
+        "checkedAt": "2026-08-02",
+        "fixReady": true,
+        "fixFile": "fixes/loop.html",
+        "fixVerified": "byte-exact removal, 757 bytes, single contiguous span, rest of file untouched",
+        "deployed": false
+      }
+    },
+    {
+      "codename": null,
+      "slug": "scale",
+      "title": "The Weighing",
+      "tagline": "How to be right about people",
+      "url": "https://noblefathercreations.com/scale",
+      "netlifySite": "noble-the-weighing",
+      "netlifySiteId": "27ab9f53-5850-4fb1-8bed-6513b33ee11f",
+      "deploySource": "cli",
+      "hasGitRepo": false,
+      "houseTabLeak": {
+        "found": true,
+        "checkedAt": "2026-08-02",
+        "fixReady": true,
+        "fixFile": "fixes/scale.html",
+        "fixVerified": "byte-exact removal, 761 bytes, single contiguous span, rest of file untouched",
+        "deployed": false
+      }
+    },
+    {
+      "codename": null,
+      "slug": "faith",
+      "title": "The Coercive Control Codex",
+      "tagline": "Honor the faith · name the machinery",
+      "url": "https://noblefathercreations.com/faith",
+      "netlifySite": "thenobledivide",
+      "netlifySiteId": "97e63fba-2202-40fc-b5e1-9ccadaf29374",
+      "deploySource": "unknown",
+      "hasGitRepo": false,
+      "houseTabLeak": {
+        "found": true,
+        "checkedAt": "2026-08-02",
+        "fixReady": true,
+        "fixFile": "fixes/faith.html",
+        "fixVerified": "byte-exact removal, 724 bytes, single contiguous span, rest of file untouched",
+        "deployed": false
+      }
+    },
+    {
+      "codename": null,
+      "slug": "music",
+      "title": "The Listening Room",
+      "tagline": "Sorted by what each song is for",
+      "url": "https://noblefathercreations.com/music",
+      "netlifySite": "noblemusic",
+      "netlifySiteId": "05683d2c-cb07-43cb-8e2c-d8cd380c0287",
+      "deploySource": "unknown",
+      "hasGitRepo": false,
+      "houseTabLeak": { "found": false, "checkedAt": "2026-08-02" }
+    }
+  ],
+  "craftBusiness": [
+    { "title": "The Shop", "tagline": "Wax seals · jewelry · NFC craft", "url": "https://nfcportals.netlify.app/", "netlifySite": "nfcportals" },
+    { "title": "The Press", "tagline": "Real wax, a voice inside", "url": "https://noblenfcseals.netlify.app/", "netlifySite": "noblenfcseals" },
+    { "title": null, "tagline": null, "url": "https://noble-nfc-tour.netlify.app/", "netlifySite": "noble-nfc-tour" },
+    { "title": null, "tagline": null, "url": "https://nfchq.netlify.app/", "netlifySite": "nfchq" }
+  ],
+  "unmappedNetlifySites": [
+    "noblereactionmap",
+    "shaeroselotus"
+  ],
+  "notes": [
+    "9-slug codename list from planning thread (main·codex·sovereign·playground·festie·fractal·allfracture·decoder·root) maps to real live slugs above; festie+codex merged into one book ('wook').",
+    "Two books (loop, scale) plus one more (faith) exist live but weren't named in the original 9-codename planning thread.",
+    "playbook was suspected of leaking the HOUSE-tab comment but re-checked clean — earlier grep hit was its own legitimate data-here nav attribute.",
+    "loop/scale/faith deploySource='cli' confirmed via Netlify deploy metadata (commit_ref: null) — no GitHub repo backs them, so the leak fix can only ship via a direct Netlify redeploy, not a git push.",
+    "Only 'wook' (this repo, Wookbook) is git-backed; all other projects are Netlify CLI/API deploys with no linked repo Claude can add."
+  ]
+}
