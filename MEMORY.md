@@ -130,6 +130,21 @@ playbook don't use this same MOVEMENTS/CH format (checked fracture
 specifically — no match). Each needs its own format investigated before
 filling in; don't assume they all match loop/scale's pattern.
 
+**Self-correction, same session:** went looking to complete Pass 2
+(typography) on `loop.html`, concluded from a CDN-link/`@import` grep that
+`font-family:'Fraunces'`/`'Public Sans'` were declared but never loaded —
+wrong. Missed a `<style id="embedded-fonts">` block that already has 20
+proper `@font-face` rules (both families, multiple weights, base64,
+zero requests). Built a redundant duplicate embed, caught it before
+committing, deleted it. **Lesson recorded here so it isn't repeated:**
+before assuming a font/asset is missing on any of these pages, grep for
+`@font-face` and any `id="...font..."` style block, not just CDN links —
+these pages self-embed things in ways that don't show up in an
+external-request check. Vendored `tools/fonts/fraunces/` and
+`tools/fonts/public-sans/` anyway since they're the design language's
+actual chosen typefaces and harmless to have on hand for whichever other
+book turns out to need them for real.
+
 ## Standing decisions (don't re-litigate these)
 
 - Books are self-contained: no deps, no external requests, no storage,
