@@ -1,6 +1,7 @@
 {
   "generated": "2026-08-02",
-  "note": "Machine-readable registry of every Noble Father Creations live project. Built by fetching noblefathercreations.com live and cross-referencing the connected Netlify account. Any AI/tool working on this project should read this file first instead of re-guessing URLs.",
+  "updated": "2026-08-02T2",
+  "note": "Machine-readable registry of every Noble Father Creations live project. Built by fetching noblefathercreations.com live, cross-referencing the connected Netlify account (all netlifySite mappings below are byte-verified against live content, not guessed), and cross-referencing a user-supplied review package (source/) documenting a prior design session. Any AI/tool working on this project should read this file first instead of re-guessing URLs.",
   "hub": {
     "title": "Noble Father Creations",
     "url": "https://noblefathercreations.com",
@@ -30,6 +31,8 @@
       "netlifySiteId": "b5ff07f1-2ee6-4c6a-9591-a1e6ef7baa91",
       "deploySource": "unknown",
       "hasGitRepo": false,
+      "localSource": "source/projects/noble-father-root.html",
+      "localSourceVerified": "byte-exact match to live content, 2026-08-02",
       "houseTabLeak": { "found": false, "checkedAt": "2026-08-02" }
     },
     {
@@ -42,6 +45,8 @@
       "netlifySiteId": "7683f8ed-03f4-4829-8fd4-f6affea18a16",
       "deploySource": "unknown",
       "hasGitRepo": false,
+      "localSource": "source/projects/noble-father-sovereign.html",
+      "localSourceVerified": "not byte-checked against live yet (assumed via review package's 'deployed live' claim; not independently confirmed)",
       "houseTabLeak": { "found": false, "checkedAt": "2026-08-02" }
     },
     {
@@ -54,6 +59,8 @@
       "netlifySiteId": "90b0a06d-1e11-4302-9292-f2e2780b195a",
       "deploySource": "unknown",
       "hasGitRepo": false,
+      "localSource": "source/projects/noble-father-playground.html",
+      "localSourceVerified": "not byte-checked against live yet (assumed via review package's 'deployed live' claim; not independently confirmed)",
       "houseTabLeak": { "found": false, "checkedAt": "2026-08-02" }
     },
     {
@@ -68,6 +75,8 @@
       "hasGitRepo": true,
       "gitRepo": "NobleFatherCreations/Wookbook",
       "gitFile": "festie-codex-full.html",
+      "localSource": "source/projects/noble-father-festival.html",
+      "localSourceNote": "DISCREPANCY, not yet resolved: this repo's own festie-codex-full.html is a DIFFERENT file from source/projects/noble-father-festival.html (the review-package redesign). Titles differ too ('The Festie Codex — The Gate (Attendee's Cut)' vs this repo's file). Do not assume they're interchangeable until diffed.",
       "houseTabLeak": { "found": false, "checkedAt": "2026-08-02" }
     },
     {
@@ -80,6 +89,8 @@
       "netlifySiteId": "e94ed486-0392-4045-86c8-b9c3a26b911a",
       "deploySource": "unknown",
       "hasGitRepo": false,
+      "localSource": "source/projects/noble-father-fractal.html",
+      "localSourceVerified": "not byte-checked against live yet (assumed via review package's 'deployed live' claim; not independently confirmed)",
       "houseTabLeak": { "found": false, "checkedAt": "2026-08-02" }
     },
     {
@@ -92,6 +103,8 @@
       "netlifySiteId": "8939c138-e34a-433c-8c01-9af5ebbd75b2",
       "deploySource": "unknown",
       "hasGitRepo": false,
+      "localSource": "source/projects/noble-father-fracture.html",
+      "localSourceVerified": "not byte-checked against live yet (assumed via review package's 'deployed live' claim; not independently confirmed)",
       "houseTabLeak": { "found": false, "checkedAt": "2026-08-02" }
     },
     {
@@ -165,13 +178,47 @@
     }
   ],
   "craftBusiness": [
-    { "title": "The Shop", "tagline": "Wax seals · jewelry · NFC craft", "url": "https://nfcportals.netlify.app/", "netlifySite": "nfcportals" },
-    { "title": "The Press", "tagline": "Real wax, a voice inside", "url": "https://noblenfcseals.netlify.app/", "netlifySite": "noblenfcseals" },
+    { "title": "The Shop", "tagline": "Wax seals · jewelry · NFC craft", "url": "https://nfcportals.netlify.app/", "netlifySite": "nfcportals", "localSource": "source/projects/noble-father-portals.html", "localSourceVerified": "byte-exact match to live content, 2026-08-02" },
+    { "title": "The Press", "tagline": "Real wax, a voice inside", "url": "https://noblenfcseals.netlify.app/", "netlifySite": "noblenfcseals", "localSource": "source/projects/noble-father-seals.html", "localSourceVerified": "byte-exact match to live content, 2026-08-02" },
     { "title": null, "tagline": null, "url": "https://noble-nfc-tour.netlify.app/", "netlifySite": "noble-nfc-tour" },
     { "title": null, "tagline": null, "url": "https://nfchq.netlify.app/", "netlifySite": "nfchq" }
   ],
+  "otherLiveSites": [
+    {
+      "title": "The Reaction Map",
+      "tagline": "A field guide to conscious consumption",
+      "url": "https://noblereactionmap.netlify.app/",
+      "netlifySite": "noblereactionmap",
+      "localSource": "source/projects/noble-father-reaction-map.html",
+      "localSourceVerified": "byte-exact match to live content, 2026-08-02",
+      "note": "Review package fixed a real bug here: a variable used before declaration silently killed ~600 lines of setup (checklist, AI analyser, tour never ran). Now fixed and live."
+    }
+  ],
+  "undeployedRedesigns": [
+    {
+      "title": "The Catalogue (main hub redesign, codename \"The Study\")",
+      "localSource": "source/projects/noble-father-catalogue.html",
+      "intendedUrl": "https://noblefathercreations.com/ (replaces the hub)",
+      "status": "NOT deployed — live main page (4.47MB) does not byte-match this file (10.7MB), though the live page's <title> already reads 'Noble Father Creations — The Catalogue', suggesting a partial/earlier deploy of just the title. Review doc claims all 11 non-faith pages were 'deployed live and verified serving,' but this one does not check out — flag before trusting that claim for this file specifically.",
+      "description": "Full compositional rebuild of the hub: physical-object book cards (bound spine, page-edge, shelf), reworked hero, fixed a layout bug (Music/Support both numbered №03)."
+    },
+    {
+      "title": "The Sacred Divide (retitled redesign of the Coercive Control Codex / faith book)",
+      "localSource": "source/projects/noble-father-divide.html",
+      "intendedUrl": "https://noblefathercreations.com/faith (same Netlify site as 'faith': thenobledivide)",
+      "status": "NOT deployed — thenobledivide.netlify.app currently still serves the OLD 4.74MB 'Coercive Control Codex' content (byte-verified match to fixes/faith.html's pre-fix source), not this 2.56MB redesign. Review doc claims this was among the 'eleven deployed live' — does not check out against live content as of 2026-08-02.",
+      "description": "Retitled from 'The Coercive Control Codex' to 'The Sacred Divide.' Three-register redesign for tactic entries (how it appears / the defense / the counter), parchment + dark theme, no leak present in this version at all.",
+      "relationToLeakFix": "If deployed, this would ALSO resolve the faith leak (fixes/faith.html) since it doesn't carry the old HOUSE-tab chrome — but it's a content/title change, not just a leak fix, so treat as a separate decision."
+    },
+    {
+      "title": "faith-index.html (separate, distinct from Sacred Divide — an offline-only reference edition)",
+      "localSource": "source/projects/faith-index.html",
+      "intendedUrl": "unknown — review doc says 'has not been deployed anywhere'",
+      "status": "5 of 8 planned passes complete per review doc. Deliberately carries NO shared site chrome (no HOUSE tab, no font links) by design — self-contained-only rule applies uniquely strictly to this file (hand-to-person, offline, monitored-household use case).",
+      "description": "3.3MB offline reference work distinct from both the live faith page and the Sacred Divide redesign. Same book family, different edition/purpose."
+    }
+  ],
   "unmappedNetlifySites": [
-    "noblereactionmap",
     "shaeroselotus"
   ],
   "notes": [
@@ -179,6 +226,8 @@
     "Two books (loop, scale) plus one more (faith) exist live but weren't named in the original 9-codename planning thread.",
     "playbook was suspected of leaking the HOUSE-tab comment but re-checked clean — earlier grep hit was its own legitimate data-here nav attribute.",
     "loop/scale/faith deploySource='cli' confirmed via Netlify deploy metadata (commit_ref: null) — no GitHub repo backs them, so the leak fix can only ship via a direct Netlify redeploy, not a git push.",
-    "Only 'wook' (this repo, Wookbook) is git-backed; all other projects are Netlify CLI/API deploys with no linked repo Claude can add."
+    "Only 'wook' (this repo, Wookbook) is git-backed; all other projects are Netlify CLI/API deploys with no linked repo Claude can add.",
+    "2026-08-02 update: user supplied a review package (source/) — local HTML source + a build log (source/REVIEW-SUMMARY.md) from a prior design session covering 12 files. root/sovereign/playground/fractal/fracture/wook(as noble-father-festival.html)/portals/seals/reaction-map are claimed deployed; portals/seals/reaction-map/root confirmed byte-exact live, the rest not independently re-verified. Two pieces (catalogue hub redesign, Sacred Divide) are claimed deployed by the review doc but do NOT byte-match live content — treat that specific claim in the review doc as unconfirmed/incorrect until resolved with the user.",
+    "wook's local review-package file (noble-father-festival.html) has a different title than this repo's tracked festie-codex-full.html — unresolved discrepancy, needs a diff before assuming either supersedes the other."
   ]
 }
