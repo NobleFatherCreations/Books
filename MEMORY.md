@@ -357,3 +357,55 @@ library index across all 9), what "finished" looks like per surface, and
 an impact-ordered sequence. Top 3 (measure, cross-ref linking, self-host
 fonts) are mechanical and low-risk — recommended regardless of other
 decisions.
+
+## Update (2026-08-02, session 10 — first 3 fixes executed and verified)
+
+Executed the top 3 items from VISION.md's impact-ordered sequence, in full,
+with real browser verification (not just static checks) before committing.
+Nothing deployed to Netlify per explicit instruction — all changes are
+local/committed only.
+
+1. **Reading measure fixed** on loop.html + scale.html: `.reader` was
+   inheriting `.wrap`'s 760px width (~89ch) — added a scoped
+   `.reader{max-width:65ch}` override (didn't touch `.wrap` itself, which
+   is shared by the hub/nav chrome) plus `.body{font-size:19px;
+   line-height:1.65}` per VISION.md's specific numbers.
+2. **67+ in-prose chapter cross-references linked** — wrote
+   `design/link-chapter-refs.py`, a conservative regex transform (whitelist
+   of number words 1-47, only matches inside `var BODIES`, skips anything
+   already linked) that also resolves cross-book refs ("Chapter 17 of *The
+   Weighing*") to the sibling book's real URL via `sites.json`. Found and
+   fixed a real bug during this: naive "already-linked" lookback produced 3
+   nested `<a><a>` tags in loop.html when two refs sat close together —
+   fixed the detection logic (find nearest preceding `<a`, check if IT
+   closed, not "does `</a>` appear anywhere in a fixed window") and
+   verified true idempotency (running twice = 0 new links, confirmed on
+   scratch copies before touching the real files again).
+3. **Self-hosted the fonts on catalogue + portals** — wrote
+   `design/self-host-fonts.py` (per-page manifest, only embeds families the
+   page's own CSS actually uses, variable fonts where available so one file
+   covers a full weight range instead of embedding every static weight).
+   Removed all Google Fonts `<link>` tags, replaced with base64 `@font-face`.
+
+**Real browser verification** (Playwright + Chromium, direct script since
+the MCP server's default Chrome channel isn't installed here — used
+`executablePath: '/opt/pw-browsers/chromium'` per the documented pattern):
+all 4 pages (catalogue, portals, loop, scale) — **zero external network
+requests** (confirms the CDN fix actually works, not just "no link tag in
+the source"), zero real console/page errors (one false alarm: local test
+server's missing favicon.ico, irrelevant to the real host), zero horizontal
+overflow at 375px and 1440px. Screenshots read and confirmed: Fraunces
+renders correctly (visible italic display serif + gilt gradient on the hub
+— this is the first time anyone has actually seen it render; the original
+design session's own sandbox blocked Google Fonts and it was never
+verified), the 65ch measure is visibly narrower and more readable, "Chapter
+four" appears as a real blue link in chapter 14's body.
+
+**Pulled 4 more font families as distinctive candidates** (not applied
+anywhere yet, offered as options): Instrument Serif, Bricolage Grotesque,
+Young Serif, Spectral — all in `tools/fonts/`.
+
+Font transform scripts (`design/self-host-fonts.py`) currently only have
+manifests for catalogue + portals. The same CDN violation exists on 8 more
+pages (root, seals, reaction-map, sovereign, fractal, fracture, playground,
+festival, divide) — same pattern, not yet run.
