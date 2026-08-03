@@ -553,3 +553,58 @@ quality as Scale's. Applied:
 Both `.audit-view/*-content-review.md` files stay gitignored (analysis
 only) but their findings are now recorded here + applied to the actual
 source where safe to do mechanically.
+
+## Update (2026-08-02, session 14 — Phase A: marginalia component built and applied)
+
+Presented a 9-phase roadmap to the user (A: marginalia, B: table/diagram
+findings, C: content reviews for remaining books, D: clear blockers
+(wook diff, faith decision), E: cover moments, F: wire real navigation
+in, G: multi-agent design QA, H: full verification sweep, I: deploy).
+Executing in that order, starting with A.
+
+**Built `design/marginalia.html`** — a Tufte CSS sidenote pattern
+*adapted*, not copied: Tufte's original assumes a wide page with a
+permanently reserved margin column; these books use a centered ~65ch
+`.reader` column with empty space on both sides at wide viewports instead.
+Positions notes absolutely relative to `.reader`'s own right edge (needed
+adding `position:relative` to `.reader`, which the earlier measure-fix
+pass hadn't set). Below 1200px there's no room beside the column, so it
+falls back to Tufte's own accessible checkbox-toggle technique (tap the
+marker, note expands inline) — same no-JS mechanism, different geometry.
+Uses the book's own `--ink2`/`--line`/`--card`/`--glow` custom properties
+so it matches each page's existing palette automatically.
+
+**Verified on a standalone test harness first** (2 notes, both viewport
+sizes, checked for collision) before touching any real file — wide: both
+notes render beside their reference point with no overlap; narrow: tap-to-
+reveal works, zero horizontal overflow either way.
+
+**Applied to the 4 "see also" cross-references both content-review agents
+flagged but I'd held back** (they needed new text, unlike the Scale ch19
+fix which just wrapped existing prose) — reasoned this through explicitly:
+a clearly-marked, visually-separate editorial cross-reference apparatus
+(margin note) is standard book-making craft, not a rewrite of the frozen
+prose — no chapter body sentence is touched, every note is new, separate,
+side-column content:
+- Loop ch35 → Sovereign (feminine slug), Loop ch18 → internal ch16,
+  Loop ch36 → internal ch4.
+- Scale ch9 → "related, but different" marker back to ch8 (the
+  grief-vs-memory-rewrite pairing the report flagged as unmarked).
+
+Verified on the REAL pages (not just the test harness) with Playwright:
+all 4 notes visible, zero console errors, zero horizontal overflow at
+1440px; screenshotted one in full and confirmed it sits exactly beside its
+reference paragraph without disrupting reading flow; also verified the
+mobile (375px) tap-to-reveal fallback on the same instance — works
+correctly, styled consistently with the site's existing `.pull`/`.warn`
+card pattern.
+
+`design/add-marginalia.py` is idempotent and reusable — re-running skips
+already-present notes and CSS, so it's safe to extend with more
+books/notes later (e.g. once Phase B/C surface more candidates) without
+redoing this pass.
+
+**Phase A complete.** Next: Phase B (the table/diagram findings — Scale's
+Movement IV test comparison + evidence-tiers table; Loop's stage-map,
+money-chain diagram, Movement IV mechanism table, danger-checklist
+marker) — these need real component design, picking up now.

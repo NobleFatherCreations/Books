@@ -1,0 +1,63 @@
+<!-- ============================================================
+  NOBLE FATHER CREATIONS — marginalia (side notes)
+  Adapted from Tufte CSS's sidenote pattern (tools/edwardtufte-tufte-css/)
+  — NOT copied verbatim. Tufte's original assumes a wide page with a
+  permanently reserved margin column; these books use a centered ~65ch
+  reader column with no reserved margin, so this version positions notes
+  absolutely relative to .reader's own right edge (empty space at wide
+  viewports) and falls back to Tufte's own checkbox-toggle technique
+  in-place for narrower viewports — same accessible, no-JS mechanism,
+  different geometry. Self-contained, zero requests, works with the
+  book's own --ink/--ink2/--line/--card/--glow custom properties (falls
+  back to sane defaults if a page doesn't define them).
+
+  Usage:
+    <label for="mn-1" class="margin-toggle">note<sup>1</sup></label>
+    <input type="checkbox" id="mn-1" class="margin-toggle-input">
+    <span class="marginnote">The note text itself.</span>
+
+  Multiple notes on one page: give each pair a unique id (mn-1, mn-2, ...).
+============================================================ -->
+<style id="nfc-marginalia-css">
+  .marginnote {
+    float: none;
+    position: absolute;
+    left: 100%;
+    margin-left: 32px;
+    width: 240px;
+    font-size: .82rem;
+    line-height: 1.5;
+    color: var(--ink2, #8a95a2);
+    border-left: 1px solid var(--line, rgba(255,255,255,.14));
+    padding-left: 14px;
+  }
+  .margin-toggle-label {
+    cursor: pointer;
+    border-bottom: 1px dotted var(--glow, #7fb2e8);
+    color: inherit;
+  }
+  .margin-toggle-input { display: none; }
+
+  /* Narrow viewports: no room beside the column — collapse to an
+     inline, tap-to-reveal note instead of a permanent margin column. */
+  @media (max-width: 1199px) {
+    .marginnote {
+      position: static;
+      float: none;
+      display: none;
+      width: auto;
+      margin: 10px 0;
+      padding: 10px 14px;
+      background: var(--card, rgba(255,255,255,.04));
+      border-left: 3px solid var(--glow, #7fb2e8);
+      border-radius: 4px;
+    }
+    .margin-toggle-input:checked + .marginnote { display: block; }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    @media (min-width: 1200px) {
+      .marginnote { transition: opacity .2s ease; }
+    }
+  }
+</style>
