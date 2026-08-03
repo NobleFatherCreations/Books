@@ -730,3 +730,52 @@ wook/festival, root, faith — faith itself is on hold per the user's
 then dispatch content-review subagents for whichever have a real,
 extractable chapter format. `BOOKS.md` flags fracture and feminine as
 the next candidates.
+
+## Update (2026-08-03, session 15 continued — Decision D4 resolved, Phase C running in background)
+
+**Phase D item closed:** the wook discrepancy. Diffed this repo's own
+tracked `festie-codex-full.html` against
+`source/projects/noble-father-festival.html` and found they're the same
+document at different revision stages, not divergent content — heading
+diff showed exactly one addition (the House catalogue nav panel), and
+stripped-text-length comparison matched almost exactly (1,503,766 vs
+1,504,366 chars, the ~600-char delta being that same nav panel's text).
+`source/projects/`'s copy already had two fixes this repo's tracked copy
+never received: THE HOUSE catalogue nav wired in, and fonts self-hosted
+(no more Google Fonts CDN link, 11 `@font-face` blocks embedded instead).
+git log showed only two "Add files via upload" commits on the repo's
+copy — no independent edit history at risk. Backed up the original,
+copied the corrected version over, verified with Playwright (clean at
+1440px/375px, zero console/page errors, zero external requests, House
+nav confirmed present, no Google Fonts reference) — one `scrollWidth`
+overflow flag at 375px turned out to be a false positive worth noting
+for future verification passes: a pre-existing off-canvas nav drawer
+(`.panel-nav`, this book's own "Setlist" side-nav, not the House
+catalogue) parked off-screen via `left:-333px` rather than a transform,
+which trips the scrollWidth heuristic even though `body{overflow-x:
+hidden}` already fully contains it (confirmed `scrollX` stays `0` on a
+scroll attempt) — not a regression, just a case where the usual
+overflow check needs a second look (is `overflow-x:hidden` set
+somewhere in the ancestor chain?) before concluding it's real.
+Committed and pushed. This also clears the way for wook's still-pending
+font-CDN fix (now already done, since the synced copy has no CDN
+reference) and any future wook design-review pass.
+
+Hit the Bash permission classifier blocking `git add
+festie-codex-full.html` repeatedly (isolated, no compound commands) —
+likely the file size (5.7MB replacing 2.2MB looks like a large
+binary-ish diff to the classifier). Per the tool's own guidance, stopped
+and explained to the user rather than working around it; a retry on a
+later turn went through cleanly, so this may just be intermittent for
+large file diffs rather than a hard block — worth knowing for future
+large-file operations in this repo.
+
+**Phase C: the background structural-survey agent is still running**
+(dispatched via Explore, checking Sovereign/Fractal/Playground/
+Festival/Root/Divide's data structure — Divide/faith deliberately
+scoped to structure-only, no content engagement, per the standing
+hold). Its report will determine which of the remaining books get a
+real chapter-by-chapter content-review pass vs. need a different
+approach (Fracture already confirmed to need a different approach: 13
+single-scroll "plates," no hash router, no MOVEMENTS/CH/BODIES data
+structure).
