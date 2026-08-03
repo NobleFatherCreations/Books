@@ -109,6 +109,15 @@ header.mast .row span{display:block;font-family:var(--mono);font-size:11.0px;let
 .warn .k{color:var(--wax);display:block;margin-bottom:6px}
 .try{background:var(--paper2);border:1px dashed var(--line);border-radius:5px;padding:14px 16px;margin:20px 0;font-size:16px}
 .try .k{color:var(--bronze);display:block;margin-bottom:6px}
+.cmp-table{margin:22px 0;overflow-x:auto}
+.cmp-table .k{display:block;margin-bottom:10px}
+.cmp-table table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:660px}
+.cmp-table th,.cmp-table td{border:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top;line-height:1.5}
+.cmp-table thead th{background:var(--paper2);color:var(--ink);font-weight:600;font-size:12.5px;
+  font-family:var(--mono);letter-spacing:.04em;text-transform:uppercase}
+.cmp-table td.test{font-weight:600;color:var(--ink);white-space:nowrap}
+.cmp-table td.healthy{border-left:2px solid var(--bronze)}
+.cmp-table td.coercive{border-left:2px solid var(--wax)}
 .stub{background:var(--paper2);border:1px dashed var(--line);border-radius:6px;padding:22px;color:var(--ink2)}
 .stub b{color:var(--ink)}
 .pager{display:flex;gap:10px;justify-content:space-between;margin-top:34px;padding-top:20px;border-top:1px solid var(--line)}
@@ -953,6 +962,20 @@ BODIES[20]=`
 <p>If the check is clear, two rules keep the tests proportionate.</p>
 <p><strong>Start small.</strong> Test on something that genuinely does not matter much. A small no, a minor named irritation. Low stakes give you the same information at a fraction of the cost, and if the response to a trivial thing is enormous, you have your answer without ever raising the real one.</p>
 <p><strong>Test once, then wait.</strong> These are not interrogations. Run one, then let weeks pass and watch what happens on its own. Most of what these tests measure is only visible over time, and the reader who runs four probes in a fortnight has stopped assessing a relationship and started managing an experiment inside it.</p>
+<div class="cmp-table"><span class="k">The seven tests, at a glance</span>
+<table>
+<thead><tr><th>Test</th><th>What you do</th><th>Healthy signal</th><th>Coercive signal</th></tr></thead>
+<tbody>
+<tr><td class="test">Naming &mdash; <a href="#/c/21">Ch. 21</a></td><td>Describe the behavior plainly, then watch what the response does.</td><td class="healthy">Engages with the content &mdash; disputes facts, apologises, argues the specifics. The subject stays available.</td><td class="coercive">Attacks the act of naming itself. Your memory, character, mental health, or loyalty becomes the subject.</td></tr>
+<tr><td class="test">Repair &mdash; <a href="#/c/22">Ch. 22</a></td><td>Watch what happens after harm, not the harm itself.</td><td class="healthy">Specific acknowledgment, no conditions or counter-charges, changed behavior over time.</td><td class="coercive">Vague apology, bundled counter-charges, no lasting change.</td></tr>
+<tr><td class="test">Cost of &ldquo;no&rdquo; &mdash; <a href="#/c/23">Ch. 23</a></td><td>Refuse something small and reasonable. Watch the price over the following days.</td><td class="healthy">The refusal is simply absorbed &mdash; no lasting cost.</td><td class="coercive">Temperature drop, access changes, reframing, escalated cost, or retrieval as a debt later.</td></tr>
+<tr><td class="test">Targeting &mdash; <a href="#/c/24">Ch. 24</a></td><td>Check the behavior across people, witnesses, and stakes.</td><td class="healthy">Consistent whether or not anyone is watching &mdash; a trait, not a decision.</td><td class="coercive">Worse only in private, only with you, only unobserved. The selectivity is the evidence.</td></tr>
+<tr><td class="test">Power &mdash; <a href="#/c/25">Ch. 25</a></td><td>Map who can take what from whom before judging the words.</td><td class="healthy">Ordinary weight &mdash; answerable, refusable, revisable.</td><td class="coercive">Requests function as instructions; persistence becomes coercion; silence must be decoded under threat.</td></tr>
+<tr><td class="test">Norm difference &mdash; <a href="#/c/26">Ch. 26</a></td><td>Ask directly about the norm, not the incident, before concluding intent.</td><td class="healthy">The mismatch dissolves on contact with a plain, non-accusatory question.</td><td class="coercive">The same appeal to &ldquo;that&rsquo;s just how I am&rdquo; is used afterward to shield behavior that reduces the moves available to you.</td></tr>
+<tr><td class="test">Institutions &mdash; <a href="#/c/27">Ch. 27</a></td><td>Ask what the structure rewards and protects, not what it intends &mdash; it has no mind to read.</td><td class="healthy">External audit, voluntary disclosure, named accountable decision-makers, complaints acted on.</td><td class="coercive">People who raise concerns are reliably sidelined; no one outside can look; policy and practice diverge.</td></tr>
+</tbody>
+</table>
+</div>
 `;
 
 BODIES[21]=`
