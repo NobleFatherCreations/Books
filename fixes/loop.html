@@ -130,6 +130,13 @@ html.paper .btn{color:#FBF7EE}
 .stages span.x{border-color:var(--wax);color:var(--wax)}
 .stages .arrow{color:var(--ink2);opacity:.55;padding:0 1px;font-size:12px}
 .stages .arrow.loop{color:var(--glow);opacity:1;cursor:default}
+.chain{display:flex;flex-wrap:wrap;align-items:stretch;gap:6px;margin:20px 0}
+.chain .link{background:var(--card);border:1px solid var(--line);border-radius:5px;padding:9px 11px;
+  font-size:12.5px;color:var(--ink2);flex:1 1 130px;display:flex;flex-direction:column;gap:3px;line-height:1.35}
+.chain .link b{color:var(--ink);font-size:10.5px;font-family:var(--mono);letter-spacing:.04em;text-transform:uppercase}
+.chain .link.end{border-color:var(--wax)}
+.chain .link.end b{color:var(--wax)}
+.chain .arrow{display:flex;align-items:center;color:var(--ink2);opacity:.5;font-size:13px}
 
 footer.foot{border-top:1px solid var(--line);margin-top:30px;padding:22px 0 70px;
   font-family:var(--mono);font-size:11.5px;color:var(--ink2);line-height:1.7}
@@ -910,6 +917,16 @@ BODIES[19]=`
 <li><strong>The person who made the content</strong>, if there is one.</li>
 </ul>
 <p>Each takes a share. Multiple independent studies over the past decade have found that a substantial portion of the original spend &mdash; on some estimates approaching half &mdash; is consumed before reaching the publisher, and that a meaningful fraction cannot be traced at all. The industry disputes the exact figures. Nobody seriously disputes that the chain is long and opaque.</p>
+<div class="chain">
+<div class="link"><b>1</b>Agency</div><span class="arrow">&rarr;</span>
+<div class="link"><b>2</b>Demand-side platform</div><span class="arrow">&rarr;</span>
+<div class="link"><b>3</b>Exchange</div><span class="arrow">&rarr;</span>
+<div class="link"><b>4</b>Supply-side platform</div><span class="arrow">&rarr;</span>
+<div class="link"><b>5</b>Verification &amp; measurement</div><span class="arrow">&rarr;</span>
+<div class="link"><b>6</b>Data suppliers</div><span class="arrow">&rarr;</span>
+<div class="link"><b>7</b>Platform / publisher</div><span class="arrow">&rarr;</span>
+<div class="link end"><b>8</b>The creator</div>
+</div>
 <div class="pull">The person who made the thing is at the end of the chain, receives the smallest share, and carries all of the risk.</div>
 <h3>The creator's position</h3>
 <p>Worth stating precisely, because &ldquo;get big and monetise&rdquo; is presented to millions of people as a career.</p>
