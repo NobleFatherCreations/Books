@@ -779,3 +779,69 @@ real chapter-by-chapter content-review pass vs. need a different
 approach (Fracture already confirmed to need a different approach: 13
 single-scroll "plates," no hash router, no MOVEMENTS/CH/BODIES data
 structure).
+
+## Update (2026-08-03, session 15 continued — both content-review reports fully closed out)
+
+While Phase C's background survey ran, went back through both
+`.audit-view/*-content-review.md` reports' own "Summary for the
+design/navigation pass" sections item-by-item and closed out everything
+that wasn't a table/diagram (those were Phase B). Found several items
+already done — either by the parallel session or from before this
+session's Phase A/B — and verified rather than assumed:
+
+**Loop** (10-item list, §2-5): stage-map/chain/table (Phase B), pulls at
+ch6/8/11/43 (already done), roadmap marker (Phase B) — all confirmed.
+Built the remainder: ch2 and ch19 pull upgrades (self-declared "most
+consequential sentence" and cross-book unifying claim, both previously
+buried in `<li>`/`<strong>`); ch34→Sovereign marginalia note (ch35 had
+one from Phase A, ch34 didn't, report flagged both); claim-status
+marginalia markers at ch24/26/27 pointing to Appendix C (generic
+wording, not asserting which bucket each claim falls in, since Appendix
+C's own categorization is the source of truth); bidirectional ch45↔
+Appendix C companion links (added a line to the JS-generated Appendix C
+header, not just a marginalia note, since that page isn't frozen
+chapter prose). All 5 mechanical "chapter thirty/forty" link fixes
+confirmed already fixed (the NUM_WORDS bug fix from earlier this
+session).
+
+**Scale** (5-item ranked list, §2-5): 7-test table, evidence-tiers
+table, danger-checklist marker, ch10 pre-flight cross-ref (all Phase B).
+Pull-quote upgrades at ch17/24/28/36 confirmed already applied. Built
+the remainder: the big one was **field-card completeness** — Movement
+II (chs 6-11, "the instrument is you") and Movement V (chs 28-31) were
+entirely absent from the one-page field card, and ch34's calibration
+record ("the only mechanism in the book that keeps improving after you
+finish reading it," per the chapter's own text) was the report's
+single clearest miss. Added 2 new card sections in book order plus a
+dedicated ch34 section, matching the card's existing terse h3+list
+voice exactly (verified via screenshot, not just assumed to look
+right). Also added the 3 missing Loop cross-reference marginalia notes
+(ch17, 33, 35 — ch19 already had one) since Scale never once named or
+linked Loop despite being Loop's most-cited source book.
+
+**Both reports' full recommendation lists are now built**, not just the
+Phase B table/diagram subset. Same verification rigor throughout:
+check-leak, Playwright at 1440/375px, zero console/page errors, zero
+external requests, zero overflow, screenshots actually read back.
+Committed in 2 batches (one per book), pushed after each.
+
+Also resolved along the way: Decision D1 (side-tab accent-border
+pattern) — user explicitly confirmed via AskUserQuestion it's
+intentional brand identity, not an AI-tell; added a project-wide
+`impeccable` `ignore-rule side-tab` in `.impeccable/config.json` so the
+design hook stops re-flagging an already-settled pattern.
+
+**Noted for future sessions:** a parallel/concurrent session appears to
+be working this same repo and branch alongside this one (it
+independently resolved Decision D4 — the wook/festival sync — while
+this session was mid-Phase-B, and both merged cleanly with no
+conflicts). Always `git fetch` before pushing and merge cleanly rather
+than force-pushing; so far every divergence has merged without
+conflicts since both sessions touch different chapters/files.
+
+**Phase C's background structural survey is still the next real
+unblock** — once it reports which of Sovereign/Fractal/Playground/
+Festival/Root have an extractable chapter format, dispatch
+content-review subagents for those (Divide/faith stays hands-off per
+the standing hold; Fracture already confirmed to need a different,
+non-chapter-based review approach).
