@@ -917,3 +917,26 @@ report-only, no file edits by the agents themselves) — act on findings
 the same way Phase B's findings were actioned: exact-quote anchors,
 existing component only, full Playwright verification before
 committing.
+
+**Both agents finished and both reports were fully applied** the same
+session — 10 findings on Loop (skipped one, ch33, which the agent
+itself flagged as informational-only with no vehicle recommended),
+11 on Scale (including the largest single item: a `.cmp-table` at
+ch3 pairing the book's false-negative/false-positive cost paragraphs
+side by side — its foundational "both errors are real" thesis had
+never been visually reinforced before). All markup-only, verified via
+`check-leak.sh` + tag-balance checks + full Playwright sweeps (20
+checks for Loop, 22 for Scale) before each of the two commits. One
+genuine bug caught mid-edit and fixed before committing: an early
+`.pull`-duplication edit on Loop ch20 accidentally split a `<ul>` mid-list
+via a `</ul>`+hidden-`<ul>` hack — caught by a `<ul>` open/close tag-count
+check, reverted, and redone correctly by inserting the new `.pull` after
+the list's real closing tag instead.
+
+This closes out a genuinely new, third review pass on both books (after
+the info-architecture review and the Phase B table/diagram build) —
+worth noting for Phase C: when the survey identifies which of the other
+7 books get a content-review agent, that agent's brief should probably
+ask for stakes-legibility findings in the same pass rather than as a
+separate follow-up round, now that this session has proven the
+two-pass pattern works but takes real time to run twice.
