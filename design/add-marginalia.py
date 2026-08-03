@@ -103,6 +103,21 @@ NOTES = {
                 "Before probing anyone, answer these. Honestly, and quickly &mdash; this is not an exercise in fairness.</p>",
                 "Worth running first: <a href=\"#/c/10\">Chapter ten</a>&rsquo;s pre-flight check. That one asks whether <em>you</em> are fit to judge right now &mdash; a different question from whether testing is safe, and this movement needs both answered.",
             ),
+            (
+                "id-mn-scale-3",
+                "You do not need to prove intent to be entitled to a boundary.",
+                "See also: <a href=\"https://noblefathercreations.com/loop\">The Loop</a>, which links to this exact sentence as its own foundation for separating intent from impact.",
+            ),
+            (
+                "id-mn-scale-4",
+                "<h3>The vocabulary of the middle</h3>",
+                "See also: <a href=\"https://noblefathercreations.com/loop\">The Loop</a>, which cites this vocabulary by name.",
+            ),
+            (
+                "id-mn-scale-5",
+                "That is the whole thesis of the Fractal, arriving here as self-defence.",
+                "See also: <a href=\"https://noblefathercreations.com/loop\">The Loop</a>, which cites this chapter twice as the foundation for its own argument about certainty.",
+            ),
         ],
     },
 }
