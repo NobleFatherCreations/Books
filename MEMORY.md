@@ -903,3 +903,17 @@ produces — no thematic conflict, it's just disciplined critique.
 Carousel only showed skills 1, 2, and 5 of what it framed as a 5-skill
 list — 3 and 4 not seen, may be worth asking the user for if relevant
 later.
+
+**Dispatched immediately after establishing this principle:** two
+background subagents applying it to Loop and Scale specifically —
+distinct from the earlier information-architecture reviews (all of
+which are already built), this pass looks only for passages where a
+real stake (manipulation's cost, the cost of misjudging someone) is
+underweighted in presentation relative to its importance, using only
+existing CSS components (`.pull`/`.warn`/`.try`/etc., no new ones).
+Reports land at `.audit-view/loop-emotional-weight-review.md` and
+`.audit-view/scale-emotional-weight-review.md` (both gitignored,
+report-only, no file edits by the agents themselves) — act on findings
+the same way Phase B's findings were actioned: exact-quote anchors,
+existing component only, full Playwright verification before
+committing.
