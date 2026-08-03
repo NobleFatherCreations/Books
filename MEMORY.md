@@ -671,3 +671,62 @@ danger-checklist shared visual marker (chs 2/20/37 — the same warning
 restated three times unmarked as a pattern), Loop Movement VII's 4-box
 roadmap marker (ch.38/41 seam). Then Phase C (chapter-data extraction
 format for the other 7 books) is next after Phase B closes out.
+
+**Correction to the paragraph above:** the "danger-checklist shared
+visual marker (chs 2/20/37)" item is Scale's, not Loop's — mixed up
+during context compaction earlier in this session. Loop's actual
+remaining scaffolding item was the Movement VII 4-box roadmap marker at
+ch.38/41. Both are now built (see below); noting the correction here
+rather than silently editing history.
+
+## Update (2026-08-03, session 15 continued — Phase B complete)
+
+Finished all remaining Phase B items:
+
+- **Loop ch.19** — visual money-chain diagram (agency → DSP → exchange →
+  SSP → verification → data suppliers → platform → creator), numbered
+  1-8, "the creator" end-node marked in `--wax` since the chapter's own
+  pull-quote says they get the smallest share and carry all the risk.
+  New `.chain`/`.link`/`.arrow` component (reused for the item below).
+- **Loop ch.38** — Movement VII's 3-box roadmap (Strategy 1/2/3 → ch.39/
+  40/42) plus a dashed `.chain-note` explicitly placing ch.41 as "what
+  running Strategy 2 feels like," not a fourth strategy — resolves the
+  exact hesitation the report flagged.
+- **Scale ch.2/20/37** — the real "danger-checklist" item (see
+  correction above): the same danger-condition checklist is deliberately
+  restated three times in different words (ch.2 rule three, ch.20 risk
+  check, ch.37 full-strength stop list) "so that no matter where you
+  open the book, the floor is within reach" — but wasn't visually marked
+  as the same list. Added a shared inline `octagon-alert` icon (from the
+  already-vetted self-hosted lucide set) at each site, `aria-label`'d,
+  zero prose changed.
+- **Scale ch.10 ↔ ch.20** — ch.10's 6-question pre-flight ("fit to judge
+  right now?") had no persistent surface elsewhere despite Movement IV's
+  tests depending on it. Added a marginalia cross-reference at ch.20's
+  risk check.
+- **Bug fix, found incidentally:** `fixes/scale.html`'s marginalia CSS
+  (from the Phase A pass) referenced `var(--glow)`, which is Loop's
+  accent var — Scale has no `--glow`, it uses `--bronze`/`--bronze2`.
+  Root-caused to `design/add-marginalia.py` hardcoding `--glow`
+  regardless of book. Fixed the live file directly and parameterized the
+  script (`ACCENT_VAR = {"loop": "--glow", "scale": "--bronze2"}`) so
+  future runs/books don't reintroduce it.
+
+All items verified with the same rigor as the rest of Phase B —
+`check-leak.sh`, Playwright at 1440px/375px, zero console/page errors,
+zero external requests, zero horizontal overflow, screenshots actually
+read back before committing. Each change is its own commit, pushed
+immediately after.
+
+**Phase B is now fully complete** — both content-review reports'
+table/diagram/marker findings are built and live in `fixes/*.html` (not
+yet deployed — deploy is still Phase I, gated on the user's
+still-undefined "GitHub packs" mechanism and on explicit sign-off).
+
+**Next: Phase C** — investigate chapter-data extraction format for the
+remaining 7 books (fracture, feminine/sovereign, fractal, playground,
+wook/festival, root, faith — faith itself is on hold per the user's
+"let me look first," so treat it as lowest priority / skip until asked),
+then dispatch content-review subagents for whichever have a real,
+extractable chapter format. `BOOKS.md` flags fracture and feminine as
+the next candidates.
