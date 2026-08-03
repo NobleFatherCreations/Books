@@ -409,3 +409,38 @@ Font transform scripts (`design/self-host-fonts.py`) currently only have
 manifests for catalogue + portals. The same CDN violation exists on 8 more
 pages (root, seals, reaction-map, sovereign, fractal, fracture, playground,
 festival, divide) — same pattern, not yet run.
+
+## Update (2026-08-02, session 11 — CDN font fix now complete across all 11 pages)
+
+Extended `design/self-host-fonts.py` with manifests for the remaining 9
+pages (root, seals, reaction-map, sovereign, fractal, fracture, playground,
+festival, divide/Sacred Divide) — every page identified in the original
+headline finding is now fixed. Needed 15 more font families (each
+redesigned page turns out to have its own distinct pairing already chosen
+— Cormorant Garamond/Outfit/DM Mono for Sovereign, Bricolage Grotesque/
+Spectral/IBM Plex for Fractal, Bangers/Baloo 2/Nunito/Patrick Hand for
+Playground, Anton/Bungee/Shrikhand/Permanent Marker/Caveat for Festival —
+which is actually good news for the "nine worlds" idea in VISION.md, they
+already have distinct identities, just weren't self-hosted). One font
+(Permanent Marker) was under `apache/` not `ofl/` in google/fonts — found
+via `git ls-tree`, not guessed.
+
+**Full verification, all 11 pages**: real Playwright browser pass — zero
+external network requests on every single page (confirms the fix actually
+works, not just "no link tag in source"), zero horizontal overflow.
+Screenshots read and confirmed on 2 visually opposite pages (Playground's
+illustrated kids cover with Bangers, Sovereign's dark elegant Cormorant
+Garamond field-guide cover) — both render their real fonts correctly.
+
+**One real pre-existing bug found, unrelated to this fix**: reaction-map
+references `assets/mark-512.png`, `logo-hero.png`, 3 favicon sizes via
+relative paths that don't exist in this repo — confirmed via curl that the
+**live site also 404s on these same assets**, so it's not something I
+broke, and not caused by the font fix. Not repaired (don't have the actual
+image files) — flagged for later, noted here so it isn't rediscovered as
+new.
+
+The headline finding from ENHANCEMENT-PLAN.md is now fully closed: **0 of
+16 pages load external fonts** (was 11 of 16). `festie-codex-full.html`
+(this repo's own wook file) is the only one not yet touched — still
+blocked on the unresolved wook-vs-festival discrepancy.
