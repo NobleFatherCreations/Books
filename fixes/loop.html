@@ -101,6 +101,15 @@ html.paper .btn{color:#FBF7EE}
 .warn .k{color:var(--wax);display:block;margin-bottom:6px}
 .try{background:var(--panel);border:1px dashed var(--line);border-radius:5px;padding:14px 16px;margin:20px 0;font-size:16px}
 .try .k{color:var(--brass);display:block;margin-bottom:6px}
+.cmp-table{margin:22px 0;overflow-x:auto}
+.cmp-table .k{display:block;margin-bottom:10px}
+.cmp-table table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:600px}
+.cmp-table th,.cmp-table td{border:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top;line-height:1.5}
+.cmp-table thead th{background:var(--panel);color:var(--ink);font-weight:600;font-size:12.5px;
+  font-family:var(--mono);letter-spacing:.04em;text-transform:uppercase}
+.cmp-table td.test{font-weight:600;color:var(--ink);white-space:nowrap}
+.cmp-table td.healthy{border-left:2px solid var(--brass)}
+.cmp-table td.coercive{border-left:2px solid var(--wax)}
 .stub{background:var(--panel);border:1px dashed var(--line);border-radius:6px;padding:22px;color:var(--ink2)}
 .stub b{color:var(--ink)}
 .pager{display:flex;gap:10px;justify-content:space-between;margin-top:34px;padding-top:20px;border-top:1px solid var(--line)}
@@ -1053,6 +1062,18 @@ BODIES[24]=`
 <div class="try"><span class="k">The check</span>
 Before concluding what a group believes, ask where your sample came from. If the answer is &ldquo;things that reached me,&rdquo; you have a sample selected by a ranking function for reaction &mdash; which is the least representative sample available and the one almost everyone is using.
 <p style="margin:10px 0 0">The correction is unglamorous: read the people you disagree with in their own venues, at their most reasonable, rather than in screenshots chosen by people who dislike them.</p></div>
+<div class="cmp-table"><span class="k">The machine in other rooms, at a glance</span>
+<table>
+<thead><tr><th>Room</th><th>Chapter</th><th>How the machine shows up</th></tr></thead>
+<tbody>
+<tr><td class="test">Work</td><td><a href="#/c/20">Ch. 20</a></td><td>Coercive control with an API: fragmented schedules, routing that prices a bathroom break, dismissal by an unaccountable system.</td></tr>
+<tr><td class="test">Play</td><td><a href="#/c/21">Ch. 21</a></td><td>Gambling mechanics &mdash; randomised containers, currency layers, near misses, manufactured scarcity &mdash; migrated into products sold to children.</td></tr>
+<tr><td class="test">Services you depend on</td><td><a href="#/c/22">Ch. 22</a></td><td>A service whose revenue depends on your continuation, selling you an outcome that would end it. No conspiracy required.</td></tr>
+<tr><td class="test">Commerce</td><td><a href="#/c/23">Ch. 23</a></td><td>The shortening path from seeing something to owning it, engineered to blur a manufactured want into one you actually had.</td></tr>
+<tr><td class="test">Politics</td><td><a href="#/c/24">Ch. 24</a></td><td>The same targeting and ranking machinery, aimed at the information environment itself. The most contested room, and the most consequential.</td></tr>
+</tbody>
+</table>
+</div>
 `;
 
 /* ======================= MOVEMENT V ======================= */
