@@ -845,3 +845,61 @@ Festival/Root have an extractable chapter format, dispatch
 content-review subagents for those (Divide/faith stays hands-off per
 the standing hold; Fracture already confirmed to need a different,
 non-chapter-based review approach).
+
+## Standing craft principle (2026-08-03, added mid-session 15) — emotional/tension craft, scoped
+
+User shared a social-media carousel (Inna, "5 skills for Claude
+content") teaching **emotional calibration** (pick the target feeling
+before writing, brief it explicitly) and **tension engineering**
+(engineer a curiosity gap, rate it 1-10, rewrite until it's a 9), plus
+**adversarial editing** (two self-critique passes: "most skeptical
+reader" then "senior editor, one structural change that makes this 40%
+stronger"). Asked for my honest opinion on whether/how to apply these
+to the books.
+
+**My pushback, which the user then refined rather than overruled:**
+tension engineering and emotional calibration, as taught in that
+carousel, are literally the attention-engineering playbook Loop's
+entire thesis is about (ch2: "somebody chose a number, then a search
+process found what held people best"). Applying them to Loop's or
+Scale's actual prose — beyond just violating the standing
+never-reword-frozen-chapters rule — would mean quietly using the exact
+manipulation mechanism those books argue against, on the books
+themselves. A real credibility risk, not a style nitpick, given faith
+and Scale both stake claims on being the thing that doesn't do this.
+
+**User's resolution, which is the standing rule going forward:** the
+only legitimate use of emotional weight / structural tension *within*
+the books' own writing is to help the reader **feel the actual cost of
+manipulation and the importance of resisting it**, or to make a
+mechanism land hard enough to be *remembered and understood* —
+never to manufacture scroll-compulsion or engagement for its own sake.
+Service of comprehension and retention, not service of attention
+capture. This is a real distinction, not a rationalization: build
+tension toward understanding a stake, not toward withholding
+resolution to keep someone scrolling.
+
+**Where this actually applies, going forward:**
+- **Any future new writing** (new books, new chapters, marketing/cover
+  copy, the clip pipeline's hook titles, outreach drafts) — calibrate
+  the target feeling and structural tension explicitly, in service of
+  the reader understanding/retaining the stakes.
+- **Content-review passes on existing books** (Phase C onward): when
+  flagging a passage as pull-quote-worthy or scaffolding-worthy, the
+  test is now explicit — does elevating this help the stake land and
+  stick, not just "is this quotable." (Already did this instinctively
+  on Loop ch2/ch19's pull-quote upgrades this session — the self-
+  declared "most consequential sentence" and the cross-book unifying
+  claim — without naming the principle; naming it now so it's applied
+  deliberately rather than by accident.)
+- **Never** as a retroactive rewrite pass on frozen chapter prose, and
+  never in service of virality/engagement metrics for their own sake —
+  that would be the exact thing these books are warning readers about.
+
+**Adversarial editing** (the two-pass self-critique) is unreservedly
+adopted as a standing QA step for any new writing this project
+produces — no thematic conflict, it's just disciplined critique.
+
+Carousel only showed skills 1, 2, and 5 of what it framed as a 5-skill
+list — 3 and 4 not seen, may be worth asking the user for if relevant
+later.
