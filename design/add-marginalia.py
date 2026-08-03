@@ -20,20 +20,25 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
-MARGINALIA_CSS = """<style id="nfc-marginalia-css">
-  .marginnote {
+# Each book's own accent custom property — Loop defines --glow, Scale does
+# not (it uses --bronze/--bronze2 for emphasis/hover instead). Hardcoding
+# --glow here previously shipped an invalid var() reference into Scale.
+ACCENT_VAR = {"loop": "--glow", "scale": "--bronze2"}
+
+MARGINALIA_CSS_TEMPLATE = """<style id="nfc-marginalia-css">
+  .marginnote {{
     float: none; position: absolute; left: 100%; margin-left: 32px; width: 240px;
     font-size: .82rem; line-height: 1.5; color: var(--ink2);
     border-left: 1px solid var(--line); padding-left: 14px;
-  }
-  .marginnote a { color: var(--glow) }
-  .margin-toggle-label { cursor: pointer; border-bottom: 1px dotted var(--glow); color: inherit; }
-  .margin-toggle-input { display: none; }
-  @media (max-width: 1199px) {
-    .marginnote { position: static; float: none; display: none; width: auto; margin: 10px 0;
-      padding: 10px 14px; background: var(--card); border-left: 3px solid var(--glow); border-radius: 4px; }
-    .margin-toggle-input:checked + .marginnote { display: block; }
-  }
+  }}
+  .marginnote a {{ color: var({accent}) }}
+  .margin-toggle-label {{ cursor: pointer; border-bottom: 1px dotted var({accent}); color: inherit; }}
+  .margin-toggle-input {{ display: none; }}
+  @media (max-width: 1199px) {{
+    .marginnote {{ position: static; float: none; display: none; width: auto; margin: 10px 0;
+      padding: 10px 14px; background: var(--card); border-left: 3px solid var({accent}); border-radius: 4px; }}
+    .margin-toggle-input:checked + .marginnote {{ display: block; }}
+  }}
 </style>
 """
 
@@ -68,6 +73,11 @@ NOTES = {
                 "BODIES[9]=`\n<p>",
                 "Related to <a href=\"#/c/8\">Chapter eight</a>, but distinct: that was grief mistaken for analysis; this is memory rewriting itself after a revelation.",
             ),
+            (
+                "id-mn-scale-2",
+                "Before probing anyone, answer these. Honestly, and quickly &mdash; this is not an exercise in fairness.</p>",
+                "Worth running first: <a href=\"#/c/10\">Chapter ten</a>&rsquo;s pre-flight check. That one asks whether <em>you</em> are fit to judge right now &mdash; a different question from whether testing is safe, and this movement needs both answered.",
+            ),
         ],
     },
 }
@@ -98,7 +108,8 @@ def process(book, apply):
 
     if 'id="nfc-marginalia-css"' not in text:
         head_end = text.find("</head>")
-        text = text[:head_end] + MARGINALIA_CSS + text[head_end:]
+        css = MARGINALIA_CSS_TEMPLATE.format(accent=ACCENT_VAR[book])
+        text = text[:head_end] + css + text[head_end:]
         added_style = True
     else:
         added_style = False
