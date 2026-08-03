@@ -62,6 +62,31 @@ NOTES = {
                 'The comfortable assumption underneath most criticism of these systems is that you have preferences',
                 'See also: <a href="#/c/4">Chapter four</a>, which first raised and answered this same objection about revealed preference.',
             ),
+            (
+                "id-mn-loop-4",
+                'The relationship is real in one direction and the direction matters.',
+                'See also: <a href="https://noblefathercreations.com/feminine">The Sovereign Divine Feminine</a>, which addresses this same one-directional relational asymmetry directly.',
+            ),
+            (
+                "id-mn-loop-5",
+                'The <b>magnitude</b> of their effect on actual political outcomes is genuinely uncertain',
+                '<a href="#/limits">Appendix C</a> sorts every major claim in this book as well-evidenced, contested, or this book&rsquo;s own inference &mdash; including this one.',
+            ),
+            (
+                "id-mn-loop-6",
+                'The honest position: the strong version of the filter bubble is not well supported.',
+                '<a href="#/limits">Appendix C</a> sorts every major claim in this book as well-evidenced, contested, or this book&rsquo;s own inference &mdash; this chapter&rsquo;s own text places this one in the contested category.',
+            ),
+            (
+                "id-mn-loop-7",
+                'The mechanism is not persuasion. It is <b>the steady relocation of what counts as moderate</b>, achieved by moving the surrounding material rather than by arguing with you.',
+                '<a href="#/limits">Appendix C</a> sorts every major claim in this book as well-evidenced, contested, or this book&rsquo;s own inference &mdash; including this one.',
+            ),
+            (
+                "id-mn-loop-8",
+                'Books about new technology have a bad record, and this one owes you its own uncertainty rather than a confident finish.',
+                'Companion piece: <a href="#/limits">Appendix C</a> covers this same ground &mdash; chapter by chapter, with what would falsify the book&rsquo;s own thesis.',
+            ),
         ],
     },
     "scale": {
