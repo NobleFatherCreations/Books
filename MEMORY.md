@@ -608,3 +608,66 @@ redoing this pass.
 Movement IV test comparison + evidence-tiers table; Loop's stage-map,
 money-chain diagram, Movement IV mechanism table, danger-checklist
 marker) — these need real component design, picking up now.
+
+## Update (2026-08-03, session 15 — Phase B: table/diagram components, in progress)
+
+Built a new reusable `.cmp-table` CSS component (added independently to
+both `fixes/scale.html` and `fixes/loop.html`'s own `<style>` blocks,
+ported to each book's own palette — Scale: `--bronze`/`--wax` accents on
+`--paper2` background; Loop: `--brass`/`--wax`/`--glow` on `--panel`
+background — matching each book's existing `.pull`/`.warn`/`.try`
+convention rather than a shared cross-book style). Structure: scrollable
+wrapper (`overflow-x:auto`, table `min-width` set so it never blows out
+`.reader`'s own width — this is how it stays clean at 375px, confirmed
+via the `scrollWidth > innerWidth` check on `document.documentElement`,
+not just eyeballing it) + real `<table>` with a `.k`-style label caption
+above it, matching the site's existing all-caps mono section-label
+convention.
+
+Applied so far (each is genuinely new structural content — not a markup
+change to existing prose — built where the content-review agent's report
+specified the content and rough placement, but the exact wording/design is
+mine):
+- **Scale ch.20** — Movement IV's 7-test comparison table (test / what
+  you do / healthy signal / coercive signal), one row per ch.21-27, each
+  test name linking to its chapter. Placed at the end of ch.20 (movement's
+  opening chapter), right after the existing "Testing without escalating"
+  section — matches the report's suggested placement exactly.
+- **Scale ch.12** — 3-tier evidence table (record / observation /
+  impression), placed at the chapter's own close.
+- **Loop ch.24** — Movement IV's "5 rooms" domain-sweep table (work /
+  play / services / commerce / politics, one row per ch.20-24), placed at
+  the movement's close (end of ch.24, right before the `MOVEMENT V`
+  comment marker).
+- **Loop ch.5 + the Appendix A counter-card** — the existing `.stages`
+  eight-stage pill-list read as a flat list despite the chapter's whole
+  point being that it's a *loop* (Replace → next user → Idealise again).
+  Added arrow connectors between stages plus a loop-back glyph (↻) after
+  the last one, with an accessible `title` attribute rather than visible
+  text for the "loops back" meaning — kept this to pure structural
+  markup so it doesn't count as new prose. Both instances (ch.5's own
+  version and the condensed labels on the counter-card) updated for
+  consistency.
+
+All four verified with the same rigor as Phase A: `check-leak.sh` clean,
+`<table>` tag-balance checked, then real Playwright renders at 1440px and
+375px — zero console/page errors, zero external network requests, zero
+horizontal overflow, all table rows present — with actual screenshots
+read back (not just asserted) before committing. Each is its own commit,
+pushed to `claude/gstack-setup-0nzwbn` after every commit (not batched) so
+nothing sits unpushed.
+
+Playwright setup note for future sessions: the MCP server's default
+config looks for a `chrome` channel binary that isn't installed here —
+use raw Node scripts instead, with `executablePath:
+'/opt/pw-browsers/chromium'` and a symlink at `node_modules/playwright` →
+`/opt/node22/lib/node_modules/playwright` (ESM `import` resolution needs
+the real node_modules path, `NODE_PATH` alone isn't enough). Added
+`node_modules/` to `.gitignore` since this symlink shouldn't be committed.
+
+**Still open in Phase B** (per the two `.audit-view/*-content-review.md`
+reports, not yet built): Loop ch.19 money-chain diagram, Loop
+danger-checklist shared visual marker (chs 2/20/37 — the same warning
+restated three times unmarked as a pattern), Loop Movement VII's 4-box
+roadmap marker (ch.38/41 seam). Then Phase C (chapter-data extraction
+format for the other 7 books) is next after Phase B closes out.
