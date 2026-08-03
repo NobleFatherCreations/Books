@@ -53,21 +53,36 @@ position."* This is the book's argument, not an oversight.
   navigation, not a progress mechanic — but keep it a plain list, not a
   gamified "X of 47 read" tracker.
 
-## scale — The Weighing **[confirmed: chapter data; stance unconfirmed]**
+## scale — The Weighing **[confirmed: chapter data, design status, and stance]**
 
 *"How to be right about people."* 38 chapters, 6 movements — calibration,
 judgment, evidence-weighing. Real chapter data extracted, same MOVEMENTS/CH
-format as Loop (same author, likely same hand-built engine).
+format as Loop (same author, same hand-built engine).
 
-**Design status:** unknown beyond having the same MOVEMENTS/CH JS data
-structure as Loop — didn't check for its own embedded fonts or stance
-statements yet.
+**Design status:** fonts self-hosted (fixed this session). Stance
+**confirmed** by a dedicated content-review pass (2026-08-02, see
+`.audit-view/scale-content-review.md`): the book states its own house
+rules verbatim — *"House rules: no streaks, no progress %, no nags, no
+tracking"* (code comment) plus matching hero/footer badges ("No account ·
+No tracking · Nothing stored · Works offline · Free forever"). Same
+no-gamification stance as Loop, confirmed rather than inferred. It does
+show a plain "N of 38" position locator in the chapter crumb — that's a
+location marker, not a progress bar, and should stay that way.
 
-**Reference adaptation:** Given it shares an engine with Loop, check for
-the same kind of self-authored constraints **before** assuming any of the
-3 references apply freely — do not assume it's "normal" just because Loop
-had a surprise. Once checked clean, all 3 references likely apply well
-(calibration/judgment content doesn't obviously call for an anti-progress
+That same review also found: Loop cites Scale ~8 times by name and by
+direct anchor link (chs. 16, 17, 33, 35 especially — ch. 44 even frames
+itself as "The Weighing, applied to this book's own material"), but Scale
+never once names or links back to Loop anywhere in its 38 chapters, despite
+naming other siblings (Fractal, the Codex) inline elsewhere. Chapter 19's
+closing line is an unlinked tease that clearly means Loop ("that is a
+different book, and it is coming") — the natural place for a reciprocal
+link. Also: Scale's Appendix A field card only draws from 13 of 38
+chapters — Movements II and V are completely absent, and chapter 34 (which
+the text itself calls "the only mechanism that keeps improving after you
+finish the book") is missing from the one artifact meant to be kept.
+
+**Reference adaptation:** stance is now confirmed clean — all 3 references
+apply without conflict (calibration/judgment content doesn't call for an anti-progress
 stance the way Loop's does, but confirm, don't assume).
 
 ## faith — The Coercive Control Codex **[confirmed]**
@@ -205,8 +220,8 @@ Not investigated this session.
 ## Priority order for finishing this plan
 
 1. Diff wook's two candidate files (blocking any wook design work).
-2. Check scale for its own stance statements before assuming it's
-   Loop-like-but-fine.
+2. ~~Check scale for its own stance statements~~ — done, confirmed clean
+   (2026-08-02).
 3. Extract chapter data for fracture/feminine (both already have partial
    Stripe Press treatment per the review doc — worth finishing what's
    started before adding new patterns).

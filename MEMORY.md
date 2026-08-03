@@ -471,3 +471,45 @@ their findings before starting marginalia/pull-quote work.
 Next up: marginalia (Tufte-style side notes), per-book cover moments for
 books that don't have one, wiring chapter-index/library-index links into
 each live page's own nav.
+
+## Update (2026-08-02, session 13 — Scale content review applied, Loop review in)
+
+**Scale's content-review agent finished** (`.audit-view/scale-content-review.md`,
+343 lines, exceptional quality — exact chapter numbers and exact quoted
+sentences throughout). Resolved a real open question: Scale's no-
+gamification stance is confirmed VERBATIM in source ("House rules: no
+streaks, no progress %, no nags, no tracking") — updated `BOOKS.md`
+accordingly (was marked "unconfirmed"). Also found Scale's Appendix A field
+card only covers 13/38 chapters (Movements II and V entirely absent,
+chapter 34 — "the only mechanism that keeps improving after you finish the
+book" — missing from the one artifact meant to be kept), and that the
+Loop↔Scale citation relationship is one-directional: Loop cites Scale ~8
+times by name/anchor, Scale never once names or links Loop despite naming
+other siblings (Fractal, the Codex) inline.
+
+**Applied the 4 safest, most concrete findings to `fixes/scale.html`**,
+verified with exact-text matching before touching anything (each `assert
+count==1` before replacing):
+- 3 unstyled load-bearing sentences (chs. 24, 28, 36) converted from plain
+  `<p>` to the book's own existing `.pull` styling — zero words changed,
+  just the wrapper tag, matching the pattern already used 40+ times
+  elsewhere in the same file.
+- Chapter 19's existing unlinked tease ("That is a different book, and it
+  is coming") now links to Loop's URL — again zero words changed, just
+  wrapped in `<a href>`.
+Verified with Playwright: scrolled to and screenshotted the actual
+rendered chapter 19 link (reads naturally, styled as a real in-text link)
+and chapter 24's new pull-quote (matches the visual pattern of the other
+~44 pulls in the file exactly). Not yet done: the 3 remaining findings
+that need actual design work rather than a markup swap (Movement IV's
+7-test comparison table, the evidence-tiers table, the field card's
+missing 25 chapters) — those are `AUDIT-PLAN.md`/`VISION.md`-scale design
+tasks, not markup fixes, saved for the marginalia/table-building pass.
+
+**Loop's content-review agent also finished** (`.audit-view/loop-content-review.md`)
+— not yet read/applied this update, next up. Headline items from its own
+summary: 5 chapters (2,6,8,11,19) have a stronger candidate sentence than
+their current pull-quote; 3 real missing cross-references (ch.34/35→
+Sovereign, ch.18→ch.16, ch.36→ch.4); Appendix A is missing ch.8's
+notification exercise, which the book itself calls "the highest-value ten
+minutes in this book."
