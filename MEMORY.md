@@ -444,3 +444,30 @@ The headline finding from ENHANCEMENT-PLAN.md is now fully closed: **0 of
 16 pages load external fonts** (was 11 of 16). `festie-codex-full.html`
 (this repo's own wook file) is the only one not yet touched — still
 blocked on the unresolved wook-vs-festival discrepancy.
+
+## Update (2026-08-02, session 12 — library index built; content-review agents dispatched)
+
+Built `design/build-library-index.py` — the Wait But Why "make the scale
+visible" move from VISION.md. One self-contained page mapping the whole
+corpus, generated from `sites.json` + `chapters.json`. Fixed a real
+consistency bug before committing: first draft's copy said "Nine works"
+while the grid showed 11, because Playbook (a lookup tool) and Music (a
+media page) were lumped in with the 9 actual books — contradicts `BOOKS.md`'s
+own analysis that neither is a book. Split into a "9 books" primary grid +
+a separate "Living Tools" section. Verified: leak-clean, valid HTML, zero
+horizontal overflow, Fraunces renders correctly (screenshot confirmed).
+
+Dispatched 2 background subagents (general-purpose — the ux-researcher/
+brand-guardian/content-creator agent names from .claude/agents/ aren't
+appearing in this session's available subagent list for some reason, worth
+checking next session) to do an information-architecture read of Loop and
+Scale's actual chapter content: sequencing, scaffolding gaps, pull-quote
+placement, cross-referencing opportunities, Appendix A completeness.
+Explicitly instructed not to touch/reword prose - structural findings
+only. Writing reports to .audit-view/loop-content-review.md and
+.audit-view/scale-content-review.md (gitignored, analysis only). Check
+their findings before starting marginalia/pull-quote work.
+
+Next up: marginalia (Tufte-style side notes), per-book cover moments for
+books that don't have one, wiring chapter-index/library-index links into
+each live page's own nav.
