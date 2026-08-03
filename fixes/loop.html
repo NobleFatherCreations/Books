@@ -125,9 +125,11 @@ html.paper .btn{color:#FBF7EE}
 .card-sheet h3:first-child{margin-top:0}
 .card-sheet ol,.card-sheet ul{margin-left:20px}
 .card-sheet li{margin-bottom:5px;font-size:15.5px}
-.stages{display:flex;flex-wrap:wrap;gap:5px;margin:8px 0;font-family:var(--mono);font-size:11px}
+.stages{display:flex;flex-wrap:wrap;align-items:center;gap:2px;margin:8px 0;font-family:var(--mono);font-size:11px}
 .stages span{border:1px solid var(--line);border-radius:3px;padding:4px 8px;color:var(--ink2)}
 .stages span.x{border-color:var(--wax);color:var(--wax)}
+.stages .arrow{color:var(--ink2);opacity:.55;padding:0 1px;font-size:12px}
+.stages .arrow.loop{color:var(--glow);opacity:1;cursor:default}
 
 footer.foot{border-top:1px solid var(--line);margin-top:30px;padding:22px 0 70px;
   font-family:var(--mono);font-size:11.5px;color:var(--ink2);line-height:1.7}
@@ -527,7 +529,7 @@ BODIES[5]=`
 <p>This is where the book earns its place in the library rather than being another title about attention.</p>
 <p>The Fractal maps one architecture &mdash; eight stages that coercive systems run on people &mdash; across twenty-nine sectors of ordinary life. The Codex blew out the religion sector into its own volume. This book blows out the platform sector.</p>
 <p>So the honest test is whether the architecture actually fits, or whether it has been forced. Here it is, stage by stage.</p>
-<div class="stages"><span>Idealise</span><span>Hook</span><span>Devalue</span><span>Confuse</span><span>Isolate</span><span class="x">Extract</span><span>Discard</span><span>Replace</span></div>
+<div class="stages"><span>Idealise</span><span class="arrow">&rarr;</span><span>Hook</span><span class="arrow">&rarr;</span><span>Devalue</span><span class="arrow">&rarr;</span><span>Confuse</span><span class="arrow">&rarr;</span><span>Isolate</span><span class="arrow">&rarr;</span><span class="x">Extract</span><span class="arrow">&rarr;</span><span>Discard</span><span class="arrow">&rarr;</span><span>Replace</span><span class="arrow loop" title="Replace loops back into Idealise for the next user">&#8635;</span></div>
 <h3>The eight, ported</h3>
 <p><strong>1 &middot; Idealise &rarr; onboarding delight.</strong> The first week is the best week, and this is not an accident of novelty &mdash; early experience is heavily optimised because retention at day seven predicts everything downstream. The feed is unusually good. The people are unusually welcoming. Later, it never returns to that.</p>
 <p><strong>2 &middot; Hook &rarr; variable reward.</strong> Unpredictable payoff at unpredictable intervals, delivered by a gesture you perform hundreds of times a day. <a href="#/c/6">Chapter six</a>.</p>
@@ -1833,8 +1835,8 @@ function card(){
   '<p style="font-size:15.5px"><b>What does this company have to make happen in order to get paid?</b><br>'+
   'If the answer is &ldquo;I keep using it,&rdquo; the design will drift toward holding you. If it is &ldquo;I solve my problem and renew,&rdquo; it will drift toward getting out of the way.</p>'+
   '<h3>The eight stages, ported</h3>'+
-  '<div class="stages"><span>onboarding delight</span><span>variable reward</span><span>engineered inadequacy</span><span>the unpredictable feed</span>'+
-  '<span>the filtered world</span><span class="x">attention, data, money</span><span>reach collapse</span><span>the next user</span></div>'+
+  '<div class="stages"><span>onboarding delight</span><span class="arrow">&rarr;</span><span>variable reward</span><span class="arrow">&rarr;</span><span>engineered inadequacy</span><span class="arrow">&rarr;</span><span>the unpredictable feed</span><span class="arrow">&rarr;</span>'+
+  '<span>the filtered world</span><span class="arrow">&rarr;</span><span class="x">attention, data, money</span><span class="arrow">&rarr;</span><span>reach collapse</span><span class="arrow">&rarr;</span><span>the next user</span><span class="arrow loop" title="loops back into onboarding delight">&#8635;</span></div>'+
   '<h3>Three things to remember when you feel weak about it</h3><ol>'+
   '<li>Nobody designed this. It was found by a search with no opinion.</li>'+
   '<li>It has run this conversation a billion times. You are having it once.</li>'+
