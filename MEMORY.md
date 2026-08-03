@@ -513,3 +513,43 @@ their current pull-quote; 3 real missing cross-references (ch.34/35→
 Sovereign, ch.18→ch.16, ch.36→ch.4); Appendix A is missing ch.8's
 notification exercise, which the book itself calls "the highest-value ten
 minutes in this book."
+
+## Update (2026-08-02, session 13 cont. — Loop content review applied)
+
+**Loop's content-review report read and applied.** Same exceptional
+quality as Scale's. Applied:
+- **Fixed a real bug in `design/link-chapter-refs.py`**: `NUM_WORDS` never
+  had bare "thirty" or "forty" as keys (only compounds like
+  "thirty-one"..."thirty-nine" were generated) — so "Chapter thirty" and
+  "Chapter forty" mentions were silently never linked. This is exactly the
+  5 mechanical gaps the content-review agent found independently by
+  reading the prose. Fixed the generator to also emit the bare tens word,
+  reran on both loop.html and scale.html (0 new for scale, confirming it
+  wasn't affected), verified idempotency again.
+- **5 pull-quote upgrades** (ch2, 6, 8, 11, 43 — ch43 not ch19 as
+  mis-numbered in my own head, double check against the file if resuming):
+  ch43 and ch11 were clean standalone-paragraph swaps like Scale's. Ch6 and
+  ch8 required splitting a paragraph (the flagged sentence was mid-
+  paragraph, not the whole thing) — extracted the flagged sentence into
+  its own `.pull` div, kept every remaining word as a following `<p>`,
+  zero prose changed, just re-shaped into 2 blocks from 1. Ch2's flagged
+  sentence lives inside a `<li>` in a 4-item parallel list — decided
+  against breaking list structure to force a block-level `.pull`; instead
+  added `<strong>` emphasis in place (matching the emphasis pattern already
+  used on each list item's lead clause), preserving structure. Verified
+  with Playwright screenshots on ch2 and ch6 — the ch6 split reads
+  completely naturally.
+- **Deliberately NOT applied**: the 3 "see also" sibling-book links
+  (ch34/35→Sovereign, ch18→ch16 internal, ch36→ch4 internal) — unlike
+  Scale's ch19 fix, these have no existing text to wrap; adding them
+  would mean writing new marginalia sentences, which crosses into content
+  the review agents were told not to touch. Held for the marginalia
+  component build (next phase) rather than hacked in as ad-hoc inline text.
+- **Also not applied** (needs real component/table design, same as
+  Scale's deferred items): stage-map component, ch19 money-chain diagram,
+  Movement IV mechanism table, claim-status markers, ch45/Appendix-C
+  bidirectional linking, Movement VII roadmap marker, Appendix A expansion.
+
+Both `.audit-view/*-content-review.md` files stay gitignored (analysis
+only) but their findings are now recorded here + applied to the actual
+source where safe to do mechanically.

@@ -32,6 +32,7 @@ NUM_WORDS = {
 }
 TENS = {"twenty": 20, "thirty": 30, "forty": 40}
 for tens_word, base in TENS.items():
+    NUM_WORDS[tens_word] = base  # bare "thirty", "forty" (bug: these were missing entirely)
     for ones_word, ones_val in list(NUM_WORDS.items())[:9]:  # one..nine
         NUM_WORDS[f"{tens_word}-{ones_word}"] = base + ones_val
 
