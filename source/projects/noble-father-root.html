@@ -1206,13 +1206,15 @@ function render(id,isBack){
   }
 
   if(id==="named"){
-    if(!S.named){let d=(S.belief||"").replace(/^i\s/i,"").replace(/^that\s/i,"");S.named="that "+(d.charAt(0).toLowerCase()+d.slice(1));}
+    if(!S.named){let d=(S.belief||"").replace(/^that\s+/i,"").trim();
+      let m=d.match(/^i(\s|$)/i);
+      S.named="that "+(m?"I"+d.slice(1):d.charAt(0).toLowerCase()+d.slice(1));}
     shell("Section 9 · Saying it plainly","Say the belief out loud, in this shape:",
       `<div class="field"><input type="text" id="nIn" value="${esc(S.named)}"></div>
-       <p class="subtext">My shadow belief is ${esc(S.named)}</p>
+       <p class="subtext">My shadow belief is <span id="nPreview">${esc(S.named)}</span></p>
        ${actionsRow(`<button class="backlink" id="bN">← Back</button><button class="btn" id="goN">Continue</button>`)}`);
     const nIn=document.getElementById("nIn");
-    nIn.addEventListener("input",()=>S.named=nIn.value);
+    nIn.addEventListener("input",()=>{S.named=nIn.value;document.getElementById("nPreview").textContent=nIn.value;});
     document.getElementById("bN").addEventListener("click",back);
     document.getElementById("goN").addEventListener("click",()=>next("named"));
     return;
