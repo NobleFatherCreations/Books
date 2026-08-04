@@ -1265,15 +1265,38 @@
 </footer>
 
 <script>
-  document.getElementById('yr').textContent = new Date().getFullYear();
+  (function(){ var y = document.getElementById('yr'); if (y) y.textContent = new Date().getFullYear(); })();
   (function(){
     var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    var els = document.querySelectorAll('.reveal');
-    if (reduce || !('IntersectionObserver' in window)) { els.forEach(function(el){ el.classList.add('in'); }); return; }
+    var els = [].slice.call(document.querySelectorAll('.reveal'));
+    var show = function(el){ el.classList.add('in'); };
+    if (reduce || !('IntersectionObserver' in window)) { els.forEach(show); return; }
     var io = new IntersectionObserver(function(entries){
-      entries.forEach(function(e){ if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
-    }, { rootMargin:'0px 0px -8% 0px', threshold:.12 });
+      entries.forEach(function(e){
+        if (e.isIntersecting){ show(e.target); io.unobserve(e.target);
+          els = els.filter(function(t){ return t !== e.target; }); }
+      });
+    }, { rootMargin:'0px 0px -10% 0px', threshold:0 });
     els.forEach(function(el){ io.observe(el); });
+
+    // sweep fallback: anything at or above the fold always reveals, however
+    // we got here — a hash-jump or fast scroll can move the viewport past an
+    // element without the observer ever seeing an intersection, which would
+    // otherwise leave it permanently invisible
+    var ticking = false;
+    function sweep(){
+      els.slice().forEach(function(el){
+        if (el.getBoundingClientRect().top < innerHeight * 0.95){
+          show(el); io.unobserve(el); els = els.filter(function(x){ return x !== el; });
+        }
+      });
+      ticking = false;
+    }
+    addEventListener('scroll', function(){ if (!ticking){ ticking = true; requestAnimationFrame(sweep); } }, { passive:true });
+    addEventListener('resize', sweep, { passive:true });
+    addEventListener('hashchange', function(){ setTimeout(sweep, 900); });
+    addEventListener('pageshow', sweep);
+    setTimeout(sweep, 1200);
   })();
 </script>
 
@@ -1392,17 +1415,24 @@
         entries.forEach(function(en){if(en.isIntersecting)show(en.target)});
       },{rootMargin:'0px 0px -6% 0px',threshold:0});
       targets.forEach(function(el){io.observe(el)});
-      // sweep fallback: anything scrolled to (or past) always reveals
+      // sweep fallback: anything scrolled to (or past) always reveals,
+      // however we got here — a hash-jump, resize, or bfcache restore that
+      // never fires a scroll event would otherwise leave it hidden
       var sTick=false;
+      function sweepNfR(){
+        targets.slice().forEach(function(el){
+          if(el.getBoundingClientRect().top<innerHeight*.94)show(el);
+        });
+        sTick=false;
+      }
       addEventListener('scroll',function(){
         if(sTick||!targets.length)return;sTick=true;
-        requestAnimationFrame(function(){
-          targets.slice().forEach(function(el){
-            if(el.getBoundingClientRect().top<innerHeight*.94)show(el);
-          });
-          sTick=false;
-        });
+        requestAnimationFrame(sweepNfR);
       },{passive:true});
+      addEventListener('resize',sweepNfR,{passive:true});
+      addEventListener('hashchange',function(){setTimeout(sweepNfR,900)});
+      addEventListener('pageshow',sweepNfR);
+      setTimeout(sweepNfR,1200);
     }
   }
   /* ---- shared motion utilities ---- */
