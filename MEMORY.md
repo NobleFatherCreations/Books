@@ -1123,13 +1123,52 @@ verification only, and expect it to be slow (minutes, not seconds)
 until §9's animation-compositing fix ships.
 
 Remaining Performance findings not yet done: #3 "The Fractal" cover
-needs a better source image (not a resize fix), #4 `<noscript>`
-fallback for `.reveal`/`.nf-r`, #5 footer heading skip h2->h4 (should
-be h2->h3), #6 drawer focus trap, #7 font subsetting (~500-650KB),
-#8 brand-logo PNG embedded twice (~66KB dedup), #9 non-compositable
-`.nf-leaf`/`.nf-seal` animations (the thing that made the full sweep
-slow above), #10 `preload="none"` on audio, #11 tap targets <44x44,
-#12 drawer contrast edge case, #13 duplicate `alt` on hero-plate.
+needs a better source image (not a resize fix), #7 font subsetting
+(~500-650KB).
 Remaining Visual findings: Fraunces on-load hero animation, rem/px
 unit split, eyebrow-tracking consolidation, 8px spacing tokens,
 `--gutter` on `.st-hero`, `--brass-dim` token, breakpoint consolidation.
+
+## Update (2026-08-04, session 15 continued — Performance/A11y punch list cleared)
+
+Shipped 8 more items from `.audit-view/hub-audit-performance.md`'s
+summary table in one pass (commit `30a2f94`): the 3 remaining High-
+priority a11y items (#4 `<noscript>` reveal fallback, #5 footer
+heading h4->h3, #6 drawer focus trap), both Medium items that don't
+touch the signature `.nf-leaf` hero animation (#8 brand-logo PNG
+dedup ~120KB, #9 `.nf-seal` box-shadow->transform/opacity swap), and
+all 4 remaining Low items (#10 `preload="none"`, #11 tap targets
+44x44, #12 drawer contrast, #13 duplicate `alt`). Verified with a
+single Playwright pass covering both a normal context and a separate
+`javaScriptEnabled:false` context (confirmed all 21 previously-stuck
+elements now render with JS off), plus real keyboard-driven Tab/
+Shift+Tab testing of the new focus trap and a real click-through of
+the audio toggle to confirm `preload="none"` didn't break playback.
+Screenshot-verified the two visually-changed elements (Maker portrait,
+open drawer).
+
+**Deliberately left `.nf-leaf` (item #9's other half) unfixed** — the
+hero H1's "light travels across the letterforms" gold gradient-text
+sweep animates `background-position` on a `background-clip:text`
+element, which is genuinely non-compositable, but rewriting the
+technique (e.g. crossfading two offset gradient layers via opacity)
+risks a visible regression to a signature hero moment I can't verify
+carefully enough in one pass without more dedicated iteration+visual
+review. Recorded here rather than silently dropped — worth a focused
+pass on its own, not bundled into a punch-list sweep.
+
+**Tooling note for future spot-checks on this file:** a full-page-scroll
+Playwright sweep (walk the whole page + `img.decode()` every image) hit
+a 20+ minute hang this session with the GPU process pegged near 100%
+CPU (almost certainly the `.nf-leaf`/`.nf-seal` infinite animations
+under swiftshader software rendering — `.nf-seal`'s repaint cost is
+now fixed above, `.nf-leaf`'s isn't). Switched to a leaner pattern:
+`reducedMotion:'reduce'` context, target only the specific elements
+being verified (`scrollIntoViewIfNeeded` + `decode()` with a 5s
+race-timeout per image, or no scroll at all when only DOM/computed-
+style state matters), finished in seconds. Reserve a real full-page
+walk for final pre-ship verification only.
+
+Remaining Performance findings: #3 Fractal cover source image, #7 font
+subsetting, and the `.nf-leaf` half of #9 (above). Remaining Visual
+findings unchanged from the note above this entry.
