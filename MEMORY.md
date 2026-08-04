@@ -1172,3 +1172,48 @@ walk for final pre-ship verification only.
 Remaining Performance findings: #3 Fractal cover source image, #7 font
 subsetting, and the `.nf-leaf` half of #9 (above). Remaining Visual
 findings unchanged from the note above this entry.
+
+## Update (2026-08-04, session 15 continued — Brand audit's C1 numbering fix)
+
+User asked (a) for a link another agent could use to see book/site
+content without Claude, and (b) to explain findings/decisions more
+clearly going forward rather than terse commit-log style. Answered
+both directly in chat (gave `https://noblefathercreations.com` + the
+per-book live URLs from `sites.json`, noted the hub redesign itself
+isn't deployed there yet; gave a full plain-language synthesis of all
+6 audits' findings since the "Phase 2 Strategic Report" had never
+actually been written up for the user, which is why the audits felt
+opaque to them).
+
+Implemented Brand audit's **C1** (its own "Highest priority... pure
+bookkeeping, no design risk" finding): replaced the ambiguous
+`NFC · NN` accession prefix — which had two real duplicate numbers
+(Sacred Divide/Portals both `06`, Loop/Press both `07`) plus two
+`00`s in Instruments, and which collided with "NFC" meaning the
+near-field-communication chip elsewhere on the same page — with three
+separate non-colliding registers: `VOL. I–VIII` (Library, 8 books),
+`TOOL 01–02` (Decoder, Root), `PIECE 01–02` (Portals, Press). Applied
+identically to card badges and the drawer index. **Also discovered
+and fixed a real omission of my own**: the drawer catalogue index
+still only listed 11 rows (numbered II–XIII with I/V never used) and
+was missing The Loop and The Weighing entirely — added to the Library
+grid earlier this session but never added to this index. Added both
+missing rows; drawer now lists all 13 real items (8 Library + 2 Tools
++ 2 Workshop + Music as an unnumbered coda) in the same order as the
+page. Verified by reading every badge/row back out of the live DOM
+via Playwright (zero dupes, zero gaps, page/panel order match) and
+screenshotting both surfaces. Commit `c8ab88b`.
+
+**Deliberately not touched, and told to the user explicitly rather
+than silently skipped:** the Brand audit's other high-value findings
+all require either (a) real facts about the business I don't have —
+an email address, city, resin type/cure time, chip rewrite count,
+actual founding year, a photograph of the maker's hands — or (b) a
+first-person "signed note" that would put words in the real business
+owner's mouth, which isn't mine to fabricate; or (c) larger structural
+calls (dissolving "Instruments" into the Library as a second shelf,
+moving Support into the footer, making Maker the final chapter,
+rewriting the hero headline/mantra/colophon) that deserve their own
+dedicated visual-iteration pass rather than being bundled into a
+numbering fix. All recorded as open, prioritized, in the chat
+response — not just in this file.
