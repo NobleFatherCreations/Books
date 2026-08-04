@@ -1074,3 +1074,62 @@ immediately: audio+books+fork, reveal-bug fix, nav-order+markup-hygiene.
   original brief's "Phase 2 — Strategic Report" deliverable) — not
   yet written as a standalone document; findings exist across 6+ files
   in `.audit-view/` but haven't been consolidated.
+
+## Update (2026-08-04, session 15 continued — hub Performance findings, image resize shipped)
+
+Visual and Performance audits (re-dispatched after the rate-limit reset)
+both completed; findings implemented so far: dead CSS deletion (~9KB,
+9 anchor-bounded regions from a superseded design generation, careful
+to preserve `.manifesto h2`'s italic via an explicit rule since it was
+accidentally inherited from a dead block), `.st-door.primary` metal-
+gradient fill, mobile colophon spacing/grid fix, and the background MP3
+re-encode (175.7kbps -> 128kbps CBR, 12.4MB -> 10.06MB file).
+
+**This pass: resized the 4 most oversized cover images + the Venmo QR**
+per Performance's §2 finding. Did NOT trust the report's raw numbers —
+recomputed each image's genuinely-safe target size myself using proper
+`object-fit:cover` math (`scale = max(2*renderW/nativeW,
+2*renderH/nativeH)` for 2x-retina), which excluded ~6 other images the
+report's naive area-ratio metric had flagged as "oversampled" but were
+actually undersized once aspect-ratio mismatch was accounted for (4
+teaser images, Festie Codex, Music portrait — left untouched). PIL
+JPEG quality=85 was tried first and *increased* size on some images
+(source was already compressed harder) — dropped to quality=72, which
+gave real net savings everywhere:
+- Sovereign cover 692x1000->603x872 (95.2KB->66.0KB)
+- Playground cover 667x1000->594x891 (143.6KB->105.7KB)
+- All Fracture cover 1000x1000->872x872 (248.9KB->173.7KB)
+- Sacred Divide cover 640x1147->594x1064 (174.8KB->152.2KB)
+- Venmo QR 560x560->208x208 PNG (102.4KB->45.0KB)
+Total ~217KB saved. Verified: visual side-by-side of original vs.
+resized (no artifacts at display size, QR stays scannable-crisp),
+Playwright check of all 5 images' rendered `naturalWidth/Height` +
+zero console/page errors + zero external requests + no overflow.
+Committed and pushed (`9acca62`).
+
+**Tooling note:** a full-page Playwright sweep (scroll whole page +
+`img.decode()` on every image) hung for 20+ minutes on this file with
+no output — GPU process pegged near 100% CPU under swiftshader
+software rendering, almost certainly from the page's own infinite
+`.nf-leaf`/`.nf-seal` CSS animations (Performance audit's own §9
+finding: non-compositable properties `background-position`/`box-
+shadow` force continuous repaint) fighting for the single core. Killed
+it and switched to a leaner targeted script — `reducedMotion:'reduce'`
+context, `scrollIntoViewIfNeeded` + `decode()` with a 5s per-image
+race-timeout only on the specific images being checked, no full-page
+walk. Completed in seconds. Use this leaner pattern for future spot-
+checks on this file; reserve the full-page sweep for pre-commit final
+verification only, and expect it to be slow (minutes, not seconds)
+until §9's animation-compositing fix ships.
+
+Remaining Performance findings not yet done: #3 "The Fractal" cover
+needs a better source image (not a resize fix), #4 `<noscript>`
+fallback for `.reveal`/`.nf-r`, #5 footer heading skip h2->h4 (should
+be h2->h3), #6 drawer focus trap, #7 font subsetting (~500-650KB),
+#8 brand-logo PNG embedded twice (~66KB dedup), #9 non-compositable
+`.nf-leaf`/`.nf-seal` animations (the thing that made the full sweep
+slow above), #10 `preload="none"` on audio, #11 tap targets <44x44,
+#12 drawer contrast edge case, #13 duplicate `alt` on hero-plate.
+Remaining Visual findings: Fraunces on-load hero animation, rem/px
+unit split, eyebrow-tracking consolidation, 8px spacing tokens,
+`--gutter` on `.st-hero`, `--brass-dim` token, breakpoint consolidation.
