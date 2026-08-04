@@ -1204,6 +1204,112 @@ page. Verified by reading every badge/row back out of the live DOM
 via Playwright (zero dupes, zero gaps, page/panel order match) and
 screenshotting both surfaces. Commit `c8ab88b`.
 
+## Update (2026-08-04, session 15 continued — dispatched content review + prose extraction for the other 5 books)
+
+User asked to (1) run the same content-review treatment already done
+for Loop/Scale on Sovereign, Fractal, Playground, Festival, and Root —
+proofreading, content analysis, and comprehension/reading-psychology
+review — (2) get an actual full-text extraction of the books' real
+prose (not a summary), kept in sync as prose changes, and (3)
+dispatch a design/UI specialist on book-wide chapter navigation +
+resources hub + visual polish, which had been asked for earlier this
+session and dropped from the roadmap by mistake. User also corrected
+me: **The Root is a guided-practice tool, not a chapter book** — do
+not force book/IA framing onto it (this matches `BOOKS.md`'s own
+existing note, just hadn't been carried into the actual task list).
+
+**Prose extraction, built and shipped this pass:**
+`design/extract-prose.py`-equivalent (script currently only in
+scratchpad, not committed — see note below) walks each book's
+base64-stripped `.audit-view/*.html` copy with BeautifulSoup, strips
+`script`/`style`/`svg`/`nav`/`aria-hidden` chrome, converts headings
+to markdown headers and paragraphs/list items/blockquotes to text in
+document order. Worked cleanly for **Sovereign (50.3K words), Playground
+(47.1K), Festival (251K across ~139 entries), Fracture (87.7K)** —
+sent to the user as one consolidated file. **Failed (near-zero output)
+for Fractal and Root** — confirmed via grep that both store their real
+content in JS data objects (`const DATA=`/`CHAPTERS=`/`TECHS=` for
+Fractal; `const THEMES=`/`BODY_AREAS=`/`CONSCIOUSNESS=`/etc. for Root),
+not static HTML — an HTML-walking extractor can't see it. Folded a
+manual JS-literal extraction into those two books' content-review
+agent briefs instead of writing a second script blind, since those
+agents need to read that data closely anyway.
+
+**Keeping the prose file in sync going forward — done, not just
+planned:** committed three durable, re-runnable scripts (mirroring
+`design/extract-chapters.py`'s existing precedent): `design/
+extract-prose.py` (BeautifulSoup HTML walk, for the 4 static-HTML
+books), `design/extract-prose-fractal.py` (Fractal's content turned
+out to be a JS `const DATA = {...}` that's actually valid JSON —
+parsed directly via `json.JSONDecoder().raw_decode`), `design/
+extract-prose-root.py` (Root's content is a genuine branching JS state
+machine — 18 real steps confirmed via its own `nextId()` switch
+statement, prompts pulled from its `shell(title, subtitle, ...)` call
+sites via a small string-literal parser, plus its `WHO`/`ORIGIN`/
+`CONSCIOUSNESS`/`THEMES` option arrays). `design/extract-prose-all.py`
+runs all three and concatenates to `.audit-view/prose/ALL-BOOKS.md`
+(gitignored output, committed script) — **this is the one command to
+run after any prose-changing commit to any of these 6 books**, then
+re-deliver the file to the user. Tested end-to-end from the committed
+scripts before considering this done — all 6 books extracted cleanly
+(Sovereign 50.3K words, Playground 47.1K, Festival 251K, Fracture
+87.7K, Fractal 74.7K, Root 1.6K + its branching option content) —
+512,546 words total, delivered to the user.
+
+**Dispatched 7 background agents in parallel** (all report-only,
+mirroring the Loop/Scale review precedent — no source-file edits by
+the agents themselves):
+1. Sovereign content-review (`.audit-view/sovereign-content-review.md`)
+2. Playground content-review, explicitly framed as gamification-
+   appropriate (opposite stance from the adult books)
+   (`.audit-view/playground-content-review.md`)
+3. Festival content-review, framed for its ~139-entry glossary format
+   rather than sequential chapters, told to flag the wook/festival
+   title/file discrepancy explicitly if still present
+   (`.audit-view/festival-content-review.md`)
+4. Fracture content-review, with an extra "sourcing/rigor" priority
+   tier given its 195-citation journalistic-credibility claim
+   (`.audit-view/fracture-content-review.md`)
+5. Fractal — JS-data extraction to `.audit-view/fractal-fulltext.md`
+   **plus** content-review to `.audit-view/fractal-content-review.md`,
+   framed as an interactive lookup tool not a linear read
+6. Root — JS-data extraction to `.audit-view/root-fulltext.md` **plus**
+   content-review to `.audit-view/root-content-review.md`, explicitly
+   framed as a guided-practice tool (linear, once-through, no
+   chapter-index thinking) per the user's correction above
+7. `ui-designer` agent: book-wide navigation (chapter index/contents,
+   prev/next, THE HOUSE cross-project tab, resources hub — per
+   CLAUDE.md's chapters.json-driven architecture) + visual-
+   impressiveness audit across Sovereign/Playground/Festival/Fracture/
+   Fractal/Root plus Loop/Scale for consistency comparison, briefed
+   with each book's established design stance from `BOOKS.md` so it
+   doesn't re-flag intentional choices (Loop/Scale's no-progress-bar
+   stance, Playground's gamification, Root's non-chapter format) as
+   defects (`.audit-view/books-nav-visual-audit.md`)
+
+**All 7 agents died simultaneously, seconds after dispatch** — a
+session-wide API usage-limit hit, reset flagged as "6:20am (UTC)"
+(checked `date -u`: dispatched at 15:32 UTC, so reset is ~15 hours
+out, next-day). None wrote any output before termination (checked
+`.audit-view/` — nothing new). Same class of interruption as the
+mid-session rate limit hit earlier (hub audits), but this time zero
+partial output survived since these had barely started. Scheduled a
+`send_later` wakeup for after the reset time to re-dispatch all 7 —
+recorded here in case that reminder is lost/the session ends first:
+**re-dispatch the same 7 agent briefs (Sovereign/Playground/Festival/
+Fracture content-reviews, Fractal/Root content-reviews — content
+extraction for those two is now moot, already done by hand above, so
+trim that part from their briefs on re-dispatch — and the ui-designer
+book-wide nav+visual audit) once capacity is confirmed back** (check
+`date -u` against the reset time before retrying, and don't re-fire
+all 7 simultaneously again if a smaller batch would be safer).
+
+When these do land: same pattern as Loop/Scale — read each report,
+implement findings via exact-quote-anchored edits reusing each book's
+own existing CSS components, verify with `check-leak.sh` + Playwright
+before each commit, then run `python3 design/extract-prose-all.py`
+and re-deliver the updated file per the sync note above.
+
 **Deliberately not touched, and told to the user explicitly rather
 than silently skipped:** the Brand audit's other high-value findings
 all require either (a) real facts about the business I don't have —
