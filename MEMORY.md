@@ -940,3 +940,137 @@ worth noting for Phase C: when the survey identifies which of the other
 ask for stakes-legibility findings in the same pass rather than as a
 separate follow-up round, now that this session has proven the
 two-pass pattern works but takes real time to run twice.
+
+## Update (2026-08-03/04, session 15 continued — hub luxury elevation, Phase 1 shipped)
+
+User asked for a full "million-dollar luxury" audit + elevation of the
+**main home page** — confirmed via `sites.json` this means
+`source/projects/noble-father-catalogue.html` ("The Catalogue," codename
+"The Study"), the undeployed hub redesign intended to replace
+noblefathercreations.com, NOT the currently-live hub. Safe to edit
+freely since nothing here is live yet.
+
+**Dispatched 6 parallel specialist audit agents** (Visual, Motion,
+Brand/Emotion, UX/IA, Performance/A11y, Competitive Benchmark) plus did
+my own independent read in parallel (grep/python measurement against a
+fresh `design/prep-audit.py` strip — 12.4MB real file, 103KB real
+markup). **Mid-run, the session hit its API rate limit** (reset
+10:30pm UTC) and all 5 still-running agents were killed simultaneously.
+3 of 5 (Motion, UX, Benchmark) had already finished writing their full
+reports before termination — worth knowing: a "failed" task-notification
+doesn't mean no output landed, check `.audit-view/` before assuming a
+report is lost. Only Visual and Performance never got to write.
+Brand/Emotion had already completed cleanly earlier. All reports live
+at `.audit-view/hub-audit-{visual,motion,brand,ux,performance,
+benchmark}.md` (gitignored) plus my own `.audit-view/hub-audit-mine-
+{tokens,content}.md`.
+
+**The earlier Phase C structural-survey agent (dispatched much earlier
+this session, checking Sovereign/Fractal/Playground/Festival/Root/
+Divide's data format) also disappeared from tracking somewhere across
+this — `TaskOutput` returned "no task found" for its ID.** Not
+recovered; needs re-dispatching fresh, this was flagged honestly to
+the user rather than fabricating a status for it.
+
+**My own independent findings (verified by direct search/measurement,
+not agent-reported) were the highest-leverage items and got implemented
+first:**
+- **The Loop and The Weighing — the catalogue's two most complete,
+  most polished books — were entirely absent from the hub.** Zero
+  occurrences anywhere in the markup. Added as Library cards 07/08,
+  using each book's own icon glyph (Loop's refresh-ring, Scale's
+  balance-scale) rather than inventing new iconography — screenshotted
+  and confirmed they render indistinguishably in craft from the
+  hand-illustrated covers around them. Updated hero colophon 6->8 and
+  the closer card's title/copy.
+- **"Saves your place" was about to become a false blanket claim** —
+  Loop and Scale refuse localStorage on principle (it's literally in
+  Loop's own hero vows: "Nothing stored... Free forever"), unlike the
+  other 6 books which do persist reading position. Rather than just
+  drop the tag, turned it into a printed detail: "Two keep no record
+  at all, on purpose — and say why inside." Turns a would-be
+  inconsistency into evidence of the brand's own thesis.
+- **Two duplicate `:root` token systems** (13 tokens defined twice,
+  identically — `--ink`/`--nf-ink` etc., 7 `!important`s fighting
+  between layers) and **no real type scale** (5 section headings that
+  should be identical each hand-tuned to a different clamp() value; 60+
+  distinct font-size values total) — recorded but NOT yet consolidated,
+  this is a bigger systemic pass for next time, not done this session.
+
+**Brand/Emotion agent's top finding, fixed immediately:** the "now
+playing" widget autoplayed audio, and where blocked, bound the page's
+**next click/touchstart/keydown ANYWHERE in the document** to starting
+music — converting an unrelated interaction into consent for a
+different action. This is, by name, the manipulation pattern Loop's
+own thesis indicts. Removed entirely: widget is silent by default,
+visible immediately, only ever starts on an explicit tap of its own
+toggle. Also removed the now-dead "Tap anywhere to start the music"
+prompt/CSS/JS.
+
+**Motion agent's top finding, fixed and verified by actual reproduction
+(not just trusting the report):** the `.reveal` IntersectionObserver had
+no fallback — a fast scroll or hash-jump (clicking a nav link, landing
+on a shared `#section` URL) could move the viewport past an element
+without the observer ever firing, leaving it **permanently** stuck at
+`opacity:0` even after scrolling back to it. Reproduced exactly as
+described (click "Support" in nav -> scroll to top -> Library/Workshop
+headings invisible), then fixed by porting the sweep-fallback pattern
+the page's *other* reveal engine (`.nf-r`) already had, lowering
+threshold from `.12` to `0`, and adding resize/hashchange/pageshow/
+timeout triggers to *both* engines. Also guarded an unguarded
+`document.getElementById('yr')` line sitting before the reveal IIFE in
+the same `<script>` tag — if that element ever went missing in a future
+edit, it would throw and take every `.reveal` on the page down with it
+silently, a real single-point-of-failure. Re-verified after the fix:
+0 stuck anywhere across a full-page walkthrough at both viewports.
+
+**UX agent independently converged on the exact idea the user asked
+for** ("offer two options right at the top — Library or Workshop —
+so the craft business isn't buried at the bottom") before either the
+user or I saw the other's reasoning — its own measured numbers: craft
+buyers had to scroll past 7,085px (9,682px mobile) of book content
+before reaching the Workshop. Built the fork: two prominent CTAs in
+the hero ("Start reading" / "See the objects"), plus made the existing
+colophon stat row navigable to the same 3 destinations (zero new
+sections, 3 independent above-the-fold routes).
+
+**Also fixed:** nav order contradicted DOM order (nav sent visitors to
+Support then backwards to The Maker) — swapped nav links to match DOM
+(cheaper fix; the fuller fix, moving Maker after Support as an
+unnumbered colophon per my own finding C5, is deferred, bigger
+structural change). Missing-space markup bug (`class="x"href=...`) on
+every card's open-link, 13+12 instances including the 2 I added myself
+(copied the bug from the pattern I was matching) — fixed globally.
+
+Every single change this pass was verified before committing: exact-
+match Python scripts (Read-then-Edit isn't viable on a 12.4MB file, so
+this session used the same "count==1 assert, dry-run then --apply"
+pattern established earlier for `fixes/*.html`), `check-leak.sh`, and
+real Playwright reproduction of the *specific* failure being fixed (not
+just a generic smoke test) before and after. 5 commits, each pushed
+immediately: audio+books+fork, reveal-bug fix, nav-order+markup-hygiene.
+
+**Explicitly NOT done yet, recorded so it isn't lost:**
+- Visual and Performance/A11y audits never got to run — re-dispatching
+  now that the rate limit has reset (confirmed via `date -u`, well past
+  10:30pm UTC).
+- Type-scale/token-system consolidation (my own finding) — real but
+  large, deferred.
+- The rest of Motion's findings (M4: ~30% of the motion CSS targets
+  dead selectors from a pre-"Study"-system layer, including a
+  fully-written hero stagger that never executes; M6-M11: easing/
+  duration token consolidation, hover-state parity, staggered
+  choreography) — read but not yet implemented.
+- The rest of UX's findings beyond the fork (colophon nav, wayfinding,
+  CTA hierarchy elsewhere on the page, mobile drawer purpose) and all
+  of Brand's other findings (numbering inconsistencies elsewhere like
+  `NFC · 06` appearing twice pre-fix, the hero's "inventory dashboard"
+  framing, no correspondence channel for the Press, "The Maker" filed
+  as an About blurb with "Follow on TikTok" as its loudest CTA) — not
+  yet actioned.
+- Benchmark agent's signature-moment recommendation — not yet reviewed
+  in depth or acted on.
+- Full report synthesis into one prioritized action plan (the user's
+  original brief's "Phase 2 — Strategic Report" deliverable) — not
+  yet written as a standalone document; findings exist across 6+ files
+  in `.audit-view/` but haven't been consolidated.
