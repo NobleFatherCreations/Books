@@ -117,6 +117,31 @@ people you serve," not self-promotion.
   daemon (Docker container running indefinitely), OpenTelemetry
   architecture, dashboard, multi-repo hook installer. Do not install.
 
+## Agent dispatch discipline (non-negotiable)
+
+No tool exists to check remaining API/session capacity before dispatching
+a background agent — confirmed via `ToolSearch`, not assumed. Firing
+several agents in parallel has twice this project killed the whole batch
+within seconds on a session-wide usage cap, wasting the dispatch and
+returning zero output. Throttling dispatch is therefore the only
+available lever:
+
+1. **Dispatch one background agent at a time, by default.** Wait for it
+   to actually report back (success or failure) before sending the next
+   — not just "launched successfully," the real completion.
+2. **If a batch is genuinely independent and the user wants speed,** cap
+   parallel dispatch at 2, and stagger the sends rather than firing them
+   in the same message.
+3. **On a session/rate-limit failure:** stop dispatching immediately.
+   Do not retry the failed one, and do not send the rest of a planned
+   batch "anyway." Check for a reset time in the error; if one is given,
+   schedule a single follow-up (`send_later`/`ScheduleWakeup`) for after
+   it rather than polling. When capacity returns, resume one at a time,
+   not as a fresh mass batch.
+4. **A canary before a batch:** when several agents are queued up and
+   capacity is uncertain (e.g. right after a prior rate-limit hit), send
+   one first and confirm it completes before releasing the rest.
+
 ## Safety rules
 
 1. Inspect any third-party repo before installing — report what it does,
