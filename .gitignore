@@ -2,3 +2,7 @@
 __pycache__/
 node_modules/
 .impeccable/hook.cache.json
+
+# scratch Playwright/measurement scripts a subagent wrote to repo root
+# instead of the session scratchpad — throwaway, not a deliverable
+/audit[0-9]*.js
