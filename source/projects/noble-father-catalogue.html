@@ -402,8 +402,10 @@
     color .3s var(--st-ease),transform .3s var(--st-ease)}
 .st-door-sub{font-family:var(--nf-mono,"Space Mono",monospace);font-size:9.5px;
   letter-spacing:.14em;text-transform:uppercase;opacity:.7}
-.st-door.primary{background:#C9A35B;color:#141019;border:1px solid #C9A35B}
-.st-door.primary:hover{background:#E8C879;border-color:#E8C879;transform:translateY(-2px)}
+.st-door.primary{background:linear-gradient(180deg,#E8C879,#C9A35B 60%,#9c7a3e);
+  color:#231a0c;border:1px solid transparent;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.25),inset 0 -3px 5px rgba(0,0,0,.25)}
+.st-door.primary:hover{background:linear-gradient(180deg,#F4E2B4,#E8C879 60%,#C9A35B);transform:translateY(-2px)}
 .st-door.ghost{background:transparent;color:#ECE4D6;border:1px solid rgba(201,163,91,.4)}
 .st-door.ghost:hover{border-color:#C9A35B;color:#E8C879;transform:translateY(-2px)}
 .st-door:focus-visible{outline:2px solid #E8C879;outline-offset:3px}
