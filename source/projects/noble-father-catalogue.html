@@ -58,11 +58,12 @@
       radial-gradient(90% 60% at 82% 8%, rgba(201,163,91,.10), transparent 60%),
       radial-gradient(120% 90% at 10% 100%, rgba(106,75,224,.10), transparent 60%),
       linear-gradient(180deg,var(--ink-2),var(--ink) 30%,var(--ink) 70%,var(--ink-2));
+    transform:translateZ(0);will-change:opacity;contain:strict;
   }
   .field::after{
     content:""; position:absolute; inset:0;
     background:radial-gradient(40% 30% at 50% 6%, rgba(232,200,121,.16), transparent 70%);
-    animation:breathe 9s var(--ease) infinite;
+    animation:breathe 9s var(--ease) infinite;will-change:opacity;
   }
   @keyframes breathe{ 0%,100%{opacity:.55;} 50%{opacity:1;} }
 
@@ -275,15 +276,14 @@
   opacity:.3;
   -webkit-mask-image:linear-gradient(180deg,#000 0%,rgba(0,0,0,.58) 48%,transparent 90%);
   mask-image:linear-gradient(180deg,#000 0%,rgba(0,0,0,.58) 48%,transparent 90%);
-  transform:translate3d(0,calc(var(--st-scroll,0)*-46px),0)}
+}
 .st-hero-glow{position:absolute;top:-18%;right:-6%;width:min(90vw,860px);aspect-ratio:1;
   border-radius:50%;
-  background:radial-gradient(circle,rgba(232,200,121,.20),rgba(201,163,91,.09) 42%,transparent 68%);
-  filter:blur(14px);
-  transform:translate3d(0,calc(var(--st-scroll,0)*-90px),0)}
+  background:radial-gradient(circle,rgba(232,200,121,.20),rgba(201,163,91,.09) 46%,transparent 74%);
+}
 .st-hero-beam{position:absolute;top:-30%;right:4%;width:min(72vw,560px);height:150%;
-  background:linear-gradient(198deg,rgba(232,200,121,.11),rgba(232,200,121,.03) 38%,transparent 66%);
-  filter:blur(26px);transform:rotate(9deg) translate3d(0,calc(var(--st-scroll,0)*-52px),0)}
+  background:linear-gradient(198deg,rgba(232,200,121,.09),rgba(232,200,121,.03) 46%,transparent 78%);
+  transform:rotate(9deg)}
 .st-hero-motes{position:absolute;inset:0;opacity:.5;
   background-image:
     radial-gradient(1.4px 1.4px at 18% 32%,rgba(240,220,174,.55),transparent),
@@ -292,15 +292,32 @@
     radial-gradient(1.1px 1.1px at 86% 60%,rgba(240,220,174,.45),transparent),
     radial-gradient(1.3px 1.3px at 28% 84%,rgba(240,220,174,.3),transparent),
     radial-gradient(1px 1px at 62% 46%,rgba(240,220,174,.4),transparent);
-  transform:translate3d(0,calc(var(--st-scroll,0)*-140px),0)}
+}
 .st-hero-vignette{position:absolute;inset:0;
   background:
     radial-gradient(78% 54% at 50% 52%,rgba(10,7,13,.72),rgba(10,7,13,.34) 62%,transparent 82%),
     radial-gradient(130% 92% at 50% 34%,transparent 30%,rgba(10,7,13,.55) 74%,rgba(10,7,13,.88) 100%)}
 
-.st-hero-inner{position:relative;z-index:1;max-width:760px;text-align:center;
-  transform:translate3d(0,calc(var(--st-scroll,0)*44px),0);
-  opacity:calc(1 - var(--st-scroll,0)*.85)}
+/* the room drifts on scroll — compositor-only, matches .nf-ribbon/.st-chapter-title's pattern */
+@media (prefers-reduced-motion: no-preference){
+  @supports (animation-timeline: view()){
+    .st-hero-plate,.st-hero-glow,.st-hero-beam,.st-hero-motes,.st-hero-inner{
+      animation:linear both;animation-timeline:view(block);animation-range:entry 100% exit 0%;
+    }
+    .st-hero-plate{animation-name:st-par-plate;will-change:transform}
+    .st-hero-glow{animation-name:st-par-glow;will-change:transform}
+    .st-hero-beam{animation-name:st-par-beam;will-change:transform}
+    .st-hero-motes{animation-name:st-par-motes;will-change:transform}
+    .st-hero-inner{animation-name:st-par-inner;will-change:transform,opacity}
+    @keyframes st-par-plate{to{transform:translate3d(0,-46px,0)}}
+    @keyframes st-par-glow{to{transform:translate3d(0,-90px,0)}}
+    @keyframes st-par-beam{from{transform:rotate(9deg) translate3d(0,0,0)}to{transform:rotate(9deg) translate3d(0,-52px,0)}}
+    @keyframes st-par-motes{to{transform:translate3d(0,-140px,0)}}
+    @keyframes st-par-inner{to{transform:translate3d(0,44px,0);opacity:.15}}
+  }
+}
+
+.st-hero-inner{position:relative;z-index:1;max-width:760px;text-align:center}
 
 /* ---- the covers part on first arrival ---- */
 .st-open{position:fixed;inset:0;z-index:9995;pointer-events:none;display:none}
@@ -589,7 +606,7 @@
   .st-enter{margin-top:26px}
   .st-enter-line{height:26px}
   /* the plate is atmosphere on a phone, never legible type behind the seal */
-  .st-hero-plate{opacity:.2;transform:scale(1.5);transform-origin:50% 0}
+  .st-hero-plate{opacity:.2;transform:scale(1.5);transform-origin:50% 0;animation:none}
 }
 
 /* ---- chapter titles are uncovered by a travelling light rather than faded ---- */
@@ -1228,20 +1245,6 @@
       b.style.setProperty('--mx','0px');b.style.setProperty('--my','0px');
     });
   });
-})();
-(function(){
-  if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
-  var hero=document.querySelector('.st-hero');if(!hero)return;
-  var tick=false;
-  function frame(){
-    var h=hero.offsetHeight||1;
-    var p=Math.min(1,Math.max(0,scrollY/h));
-    hero.style.setProperty('--st-scroll',p.toFixed(4));
-    tick=false;
-  }
-  addEventListener('scroll',function(){if(!tick){tick=true;requestAnimationFrame(frame)}},
-    {passive:true});
-  frame();
 })();
 </script>
 
