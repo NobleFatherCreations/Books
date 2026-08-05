@@ -326,17 +326,29 @@ located for `loop`; the same surgical removal applies to the other three.
 Ordered by priority. Items marked **[YOU]** need a decision only you can
 make; everything else is either done or safe for me to keep going on.
 
-1. **[YOU] Define "GitHub packs" for redeploying loop/scale/faith.** These
-   3 pages have no repo — they're Netlify CLI-only. I have byte-verified
-   fixes ready in `fixes/`. Tell me what you mean by GitHub packs (a repo
-   per site? a GitHub Action that deploys to Netlify on push? something
-   else?) and I'll build it.
-2. **[YOU] Faith: patch-only vs. Sacred Divide redesign.** You said "let me
-   look first" — `source/projects/noble-father-divide.html` is the
-   candidate. No action from me until you decide.
-3. **[YOU] Catalogue hub redesign — deploy or not?** `source/projects/noble-father-catalogue.html`
-   is a full rebuild of the main site, currently not live despite the
-   review doc's claim. Your call whether/when to ship it.
+**Status update, 2026-08-05 — see `MEMORY.md` for full detail, this is
+the short version:**
+
+1. ~~**[YOU] Define "GitHub packs"...**~~ **RESOLVED, different path than
+   asked for.** Found the actual working mechanism instead: the Netlify
+   MCP server's `deploy-site` operation returns a scoped
+   `npx @netlify/mcp@latest --site-id <id> --proxy-path <token>` command;
+   run it from a staging directory containing only the target `index.html`.
+   Used it to deploy Sovereign/Playground/Fractal/Fracture/Faith and to
+   finally push the loop/scale leak fix that had been sitting ready since
+   this was written. No GitHub-packs solution was built — this replaced
+   the need for one for these no-repo CLI sites.
+2. **Faith: RESOLVED — deployed, not just decided.** User chose "deploy
+   faith-index.html to thenobledivide" over Sacred Divide
+   (`noble-father-divide.html`, still sitting undeployed) — see
+   `sites.json`'s `faith` entry and `undeployedRedesigns`.
+3. **Catalogue hub redesign — still NOT deployed, now has a full 5-report
+   design audit** (`.audit-view/hub-audit-*.md`, done in an earlier
+   session) plus this session's independent finding that it's missing
+   Loop and Weighing from its own home page — unlike the current live
+   page, which does link both. See the status doc referenced in
+   `MEMORY.md`'s latest entry for the consolidated breakdown. Real design
+   work needed before shipping, not just a decision.
 4. **Resolve the wook discrepancy.** `festie-codex-full.html` (this repo)
    vs. `source/projects/noble-father-festival.html` (review package) have
    different titles. I haven't diffed them — flag if you want that done
