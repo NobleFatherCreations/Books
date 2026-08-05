@@ -1456,3 +1456,62 @@ this one. Not implemented yet — don't forget these exist next time wook
 comes up. (Uploaded this session as IMG_9703.JPG and IMG_9702.PNG in the
 session's upload directory; not copied into the repo since they're not
 yet placed anywhere.)
+
+## Update (2026-08-05, hub session continued — 3-portal chooser corrected + shipped v1)
+
+**Corrected a placement mistake:** the 3-portal Book/Tools/Art chooser
+built earlier this round had been built into wook's own book (wrong —
+"Book" as an internal choice inside a book you're already reading
+doesn't make sense). User clarified it belongs on the **main hub**,
+leading into the whole book catalogue, the craft tools, and art.
+Reverted the wook addition cleanly (kept wook's unrelated fixes: cover
+art, wax-wording, bead/drawer motion) and rebuilt it correctly on
+`noble-father-catalogue.html`'s hero, replacing the old 2-button
+`.st-doors` chooser. Mapping: Book→#library, Tools→#workshop,
+Art→#instruments (framed as "The Lab" — Instruments is the "living
+tools you return to" section: Pattern Decoder + The Root + now also
+Music, cross-featured there with a category eyebrow above each title).
+This matches a design intent already sitting undocumented in the
+hub's own CSS comment: "colophon becomes a second, quieter route into
+the same three destinations."
+
+**Added a muted video hero intro** (user-supplied clip, audio track
+stripped per explicit instruction, re-encoded 720w/2.3Mbps): plays
+once per session, dissolves (900ms crossfade) into the real hero
+underneath once it ends — the clip's own final frame is the "Noble
+Father Creations" wordmark, which the hero echoes, so it reads as one
+continuous moment. Removed the old floating "Now Playing" audio widget
+entirely (was the source of a real autoplay/mute conflict risk once a
+video was added) — this also shrank the page ~6.2MB since the audio
+track was base64-embedded.
+
+**Portal cards use the user's own illustrated gate art** (gold/book →
+Library, silver/rune → Workshop, white/music-notes → Lab, cropped from
+one composite image), with a hover zoom + slow low-opacity shine sweep
+gated behind reduced-motion. The same 3 images are reused (via shared
+`:root` custom properties, not re-embedded) as a themed background wash
+behind each zone's own chapter-intro header, so arriving at a zone
+visually rhymes with the door just walked through.
+
+**Two real latent bugs found and fixed while in this file, neither
+caused by this round's work:** (1) `--st-ease` was referenced 12 times
+across `.st-door`-family transitions but never defined anywhere,
+silently degrading them to plain CSS `ease` — defined it as an alias
+of the existing `--ease`. (2) `.workshop`'s `grid-template-columns:1fr
+1fr` was dead — a later, more specific `.library,.workshop{display:
+flex;flex-direction:column}` rule had been overriding `display:grid`
+this whole time, so the Workshop/Instruments card grids were already
+rendering full-width-stacked, not 2-column, despite the CSS claiming
+otherwise. Used this to advantage for the "Portals is the finished/
+featured product, Press is still in progress" ask — Portals already
+renders first and full-width by default; just added an honest
+"In progress" badge to The Press instead of fighting the layout.
+
+**Shipped:** this is the hub's **first verified live deploy of the
+redesigned "collected works" hub** — the 2026-08-02 review package's
+claim that the catalogue redesign was already live did not byte-match
+actual live content at the time. Tagged `v1` in `sites.json` and added
+the matching on-page `#updates` section per the patch-notes convention.
+Full Playwright verification pass at 375/768/1440px before deploy:
+0 console errors, 0 overflow, 0 stuck reveals, reduced-motion correctly
+skips the video intro, all internal anchors resolve.
