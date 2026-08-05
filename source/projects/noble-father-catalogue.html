@@ -32,6 +32,7 @@
     --maxw:1180px;
     --gutter:clamp(20px,5vw,56px);
     --ease:cubic-bezier(.2,.7,.2,1);
+    --st-ease:cubic-bezier(.2,.7,.2,1);
 
     --display:"Fraunces",Georgia,"Times New Roman",serif;
     --body:"Hanken Grotesk",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
@@ -427,9 +428,39 @@
 .st-door.ghost:hover{border-color:#C9A35B;color:#E8C879;transform:translateY(-2px)}
 .st-door:focus-visible{outline:2px solid #E8C879;outline-offset:3px}
 @media (prefers-reduced-motion:reduce){.st-door{transition:border-color .01s,background .01s,color .01s}
-  .st-door:hover{transform:none}}
+  .st-door:hover{transform:none}
+
+}
 @media (max-width:560px){.st-doors{margin-top:28px;gap:10px}
   .st-door{padding:16px 24px;font-size:14px;flex:1 1 210px}}
+
+  /* ---------- hero 3-way portal chooser ---------- */
+  .st-portals{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:620px;margin:36px auto 0}
+  .st-portal{display:flex;flex-direction:column;align-items:center;gap:10px;text-decoration:none;
+    padding:22px 10px 20px;border-radius:2px;border:1px solid var(--line);
+    background:linear-gradient(180deg,rgba(236,228,214,.03),transparent);
+    opacity:0;transform:translateY(14px);
+    transition:opacity .5s var(--ease),transform .5s var(--ease),border-color .3s var(--ease),background .3s var(--ease)}
+  .st-portal.pv-in{opacity:1;transform:none}
+  .st-portal:nth-child(2){transition-delay:90ms}
+  .st-portal:nth-child(3){transition-delay:180ms}
+  @media (hover:hover) and (pointer:fine){
+    .st-portal:hover{border-color:var(--brass);background:linear-gradient(180deg,rgba(201,163,91,.1),transparent)}
+  }
+  .st-portal-ring{position:relative;width:64px;height:64px;border-radius:50%;display:grid;place-items:center;
+    background:radial-gradient(circle at 34% 28%,#241B2E,#15101C 68%,#0E0A14);
+    box-shadow:inset 0 1px 0 rgba(240,220,174,.18),inset 0 -6px 14px rgba(0,0,0,.6),0 0 0 1px rgba(201,163,91,.34)}
+  .st-portal-icon{width:24px;height:24px;color:var(--brass-bright)}
+  .st-portal-label{font-family:var(--display);font-size:1.02rem;color:var(--bone);letter-spacing:.005em}
+  .st-portal-dest{font-family:var(--mono);font-size:.6rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}
+  @media (max-width:560px){
+    .st-portals{gap:10px}
+    .st-portal{padding:16px 4px 14px}
+    .st-portal-ring{width:52px;height:52px}
+    .st-portal-icon{width:20px;height:20px}
+    .st-portal-label{font-size:.92rem}
+    .st-portal-dest{font-size:.54rem}
+  }
 
 /* colophon becomes a second, quieter route into the same three destinations */
 .st-colophon a{display:flex;flex-direction:column;gap:5px;align-items:center;text-decoration:none;
@@ -934,9 +965,10 @@
       <li><a href="#workshop"><b data-nf-count>2</b><span>NFC craft lines</span></a></li>
       <li><a href="#support"><b>Free</b><span>to read</span></a></li>
     </ul>
-    <div class="st-doors">
-      <a class="st-door primary" href="#library">Start reading<span class="st-door-sub">Eight free field guides</span></a>
-      <a class="st-door ghost" href="#workshop">See the objects<span class="st-door-sub">Pendants, seals &amp; music</span></a>
+    <div class="st-portals">
+      <a class="st-portal" href="#library"><span class="st-portal-ring" aria-hidden="true"><svg class="st-ring" viewBox="0 0 100 100" fill="none" aria-hidden="true"><circle class="st-ring-o" cx="50" cy="50" r="47"/><circle class="st-ring-i" cx="50" cy="50" r="41"/></svg><svg class="st-portal-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v16"/><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z"/></svg></span><span class="st-portal-label">Book</span><span class="st-portal-dest">The Library</span></a>
+      <a class="st-portal" href="#workshop"><span class="st-portal-ring" aria-hidden="true"><svg class="st-ring" viewBox="0 0 100 100" fill="none" aria-hidden="true"><circle class="st-ring-o" cx="50" cy="50" r="47"/><circle class="st-ring-i" cx="50" cy="50" r="41"/></svg><svg class="st-portal-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"/></svg></span><span class="st-portal-label">Tools</span><span class="st-portal-dest">The Workshop</span></a>
+      <a class="st-portal" href="#instruments"><span class="st-portal-ring" aria-hidden="true"><svg class="st-ring" viewBox="0 0 100 100" fill="none" aria-hidden="true"><circle class="st-ring-o" cx="50" cy="50" r="47"/><circle class="st-ring-i" cx="50" cy="50" r="41"/></svg><svg class="st-portal-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2"/><path d="M6.453 15h11.094"/><path d="M8.5 2h7"/></svg></span><span class="st-portal-label">Art</span><span class="st-portal-dest">The Lab</span></a>
     </div>
     <a class="st-enter" href="#manifesto"><span>Or read the whole idea first</span>
       <span class="st-enter-line" aria-hidden="true"></span></a>
@@ -1399,4 +1431,19 @@
 })();
 </script>
 </body>
+
+<script>
+(function(){
+  var portals = [].slice.call(document.querySelectorAll('.st-portal'));
+  if(!portals.length) return;
+  function show(el){ el.classList.add('pv-in'); }
+  if(!('IntersectionObserver' in window)){ portals.forEach(show); return; }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){ show(e.target); io.unobserve(e.target); }
+    });
+  }, {rootMargin:'0px 0px -8% 0px', threshold:0});
+  portals.forEach(function(el){ io.observe(el); });
+})();
+</script>
 </html>
