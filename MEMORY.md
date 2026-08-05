@@ -1383,3 +1383,37 @@ above): user previously indicated wanting redeploys via GitHub packs
 rather than a direct Netlify push, tooling decision was pending** — worth
 confirming this is still the preference before using the Netlify
 deploy-site MCP operation directly.
+
+## Update (2026-08-05, later same session — first successful live deploy round)
+
+**The Netlify deploy mechanism question from the top of this file (and
+repeated for months) is resolved.** `deploy-site` (Netlify MCP server)
+doesn't deploy anything itself — it returns a scoped
+`npx -y @netlify/mcp@latest --site-id <id> --proxy-path <token>`
+command. Run that from a **staging directory containing only the one
+`index.html`** you want live — running it from the repo root would
+upload the whole multi-book repo instead of a single book. Tested
+cautiously on Fractal first (user's explicit instruction), verified
+byte-identical against the live URL, then repeated for the other 3.
+
+**Deployed and byte-verified live this round:** Sovereign (feminine),
+Playground (children), Fractal, Fracture — all `curl`'d and diffed
+against the pushed file, zero discrepancies. `sites.json` updated
+accordingly (version v2, localSourceVerified, deploySource).
+
+**Faith:** deployed `faith-index.html` (this session's NAV3 merge) to
+`thenobledivide`, per explicit user decision, replacing the old
+"Coercive Control Codex" content. `fixes/faith.html`'s pending leak fix
+is now moot — that lineage isn't live there anymore. `fixes/loop.html`
+and `fixes/scale.html` are still sitting ready with verified leak
+fixes, not deployed yet — same mechanism works whenever wanted.
+
+**Also this round:** renamed "All Fracture" -> "The Fracture Everywhere"
+everywhere (book, sibling nav, sites.json, chapters.json, docs);
+verified the user's 195-source doc for Fracture matches the book
+exactly for Episodes 1-7/12 (zero drift) and fixed a false front-matter
+claim about which episodes have sourcing — Episodes 9 and 10 still
+need real research to source, not something to fabricate; added the
+patch-notes/versioning convention (see CLAUDE.md) and rolled it out to
+the 4 deployed books; confirmed via live fetch that the main hub
+correctly links to all 9 books and both craft sites before deploying.
