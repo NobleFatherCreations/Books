@@ -54,7 +54,7 @@
     {
       "project": "allfracture",
       "slug": "fracture",
-      "title": "All Fracture",
+      "title": "The Fracture Everywhere",
       "url": "https://noblefathercreations.com/fracture",
       "movements": [],
       "note": "Uses a different authoring format than loop/scale (no MOVEMENTS/CH JS literals found) — not yet extracted. Do not invent chapter data."

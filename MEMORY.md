@@ -1323,3 +1323,63 @@ rewriting the hero headline/mantra/colophon) that deserve their own
 dedicated visual-iteration pass rather than being bundled into a
 numbering fix. All recorded as open, prioritized, in the chat
 response — not just in this file.
+
+## Update (2026-08-05, session — content-review fixes across 5 books, Faith merge, Fracture rename)
+
+**Content-review findings implemented and pushed** (commits on
+`claude/gstack-setup-0nzwbn`): Playground (Grown-Up Corner structural
+bugs, Mission 26 speech bubble, full specific->exactly corruption sweep
+completed across 3 passes, 2 typos, 1 missing panel boundary), Sovereign
+(§9/§11 glued sub-label bugs, Ch20 DARVO decision tree), Fractal (4
+orphaned sector narratives now render instead of a placeholder, 11
+duplicate-fragment corruptions, 1 leaked planning note, 2 missing
+"Original:" headings), THE HOUSE tab (was missing Loop/Scale in 7 of 8
+files using the `nf-chrome` component — fixed, `noble-father-catalogue.html`
+excluded, it already had both). Festival and Fracture's content reviews
+are done (`.audit-view/*-content-review.md`) but had zero fixes applied
+as of this entry.
+
+**Faith merged:** a user-supplied "Faith update pack" turned out to
+contain a real nav rebuild (NAV3 — command bar, act rail, cross-compare,
+full matrix grid) plus a verified legibility/WCAG-AA pass, applied to
+the *same* codex as `source/projects/faith-index.html` (confirmed via
+identical `window.CODEX_DATA` + 5 companion blobs, SHA-256 match) but
+from a different, older base that lacked 3 features ours had (apex
+chain, graded evidence matrix, motion-polish layer). Merged: took the
+pack's NAV3 + a11y fixes, dropped its added House Tab (conflicts with
+this book's deliberate no-shared-chrome safety design — sometimes read
+by people monitored at home), grafted the 3 current-only features back
+in at their original integration points. **Still true from before: this
+specific file (`faith-index.html`) has never been deployed anywhere —
+`sites.json` lists its target as unknown, distinct from the live
+"Coercive Control Codex" at `thenobledivide` (that's `fixes/faith.html`'s
+lineage) and from the undeployed "Sacred Divide" redesign
+(`noble-father-divide.html`). Don't conflate the three.**
+
+**Fracture renamed:** "All Fracture" -> "The Fracture Everywhere"
+throughout `noble-father-fracture.html`, the 7 sibling books' THE HOUSE
+tab entries, `noble-father-catalogue.html` (6 refs), `fixes/loop.html`
+(3 refs, incl. 2 body-prose cross-references) and `fixes/scale.html` (1
+ref) so they stay in sync for their eventual redeploy, plus `sites.json`,
+`chapters.json`, `BOOKS.md`, `PROJECT-MASTER.md`. Historical dated
+entries in this file were left as-is (they're an accurate record of what
+the text said at the time) rather than rewritten.
+
+**User supplied 195 Fracture sources** (`All_Fracture_Sources.md`) to
+fix the sourcing gaps content-review flagged (SR-1/SR-2). Note: the doc
+only covers Episodes 1-7 and 12 — Episodes 8-11 have no sources section
+in it, worth flagging back to the user rather than assuming they're
+covered elsewhere.
+
+**User wants a per-site patch-notes/changelog convention** so anyone
+returning later can see what changed and which version is live — being
+designed this session, see the new section in `CLAUDE.md` once added.
+
+**Deploy status:** user gave explicit go-ahead to push live deploys
+this round, scoped to books with real corrections (not blanket-deploying
+everything). Netlify MCP tools reconnected this session after an earlier
+disconnect. **Open question carried from a prior session (line ~18
+above): user previously indicated wanting redeploys via GitHub packs
+rather than a direct Netlify push, tooling decision was pending** — worth
+confirming this is still the preference before using the Netlify
+deploy-site MCP operation directly.

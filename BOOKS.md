@@ -159,11 +159,11 @@ already partially built.
 extend rather than redo. Aeon/WBW — unconfirmed, no chapter data extracted
 yet (checked directly: no MOVEMENTS/CH pattern found).
 
-## fracture — All Fracture **[from review doc]**
+## fracture — The Fracture Everywhere (renamed 2026-08-05, was "All Fracture") **[from review doc]**
 
 "The wealth transfer · 195 citations." Title in review doc: "All Fracture
-— The Reading Edition." Per review doc: has a "Fraunces drop cap" already
-— a Stripe-Press-style typographic flourish already exists.
+— The Reading Edition" (old title). Per review doc: has a "Fraunces drop cap"
+already — a Stripe-Press-style typographic flourish already exists.
 
 **Reference adaptation:** Stripe Press — ✅ partially done (drop cap).
 Aeon — likely a strong fit given "Reading Edition" framing suggests it's
