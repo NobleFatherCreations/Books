@@ -87,6 +87,40 @@ people you serve," not self-promotion.
   (`commit_ref: null`). A git push cannot fix them; they need a direct
   Netlify redeploy. Treat any such redeploy as a production write requiring
   explicit user go-ahead, same as any other environment-wide change.
+- **Only deploy a book when it's actually had a real pass this round** —
+  fixed corruption, structural bugs, or a content gap closed. A book that
+  still needs a big pass stays on its last deployed version; don't ship it
+  just because the branch moved.
+
+## Patch notes & versioning (every deploy-worthy round)
+
+Every site gets a simple version number (`v1`, `v2`, `v3`…, incrementing
+once per deployed round of work — not once per commit) plus the date, so
+anyone — us in a future session, or a reader coming back — can tell a new
+update shipped and what it actually changed, without diffing HTML.
+
+**Two places this lives, always kept in sync:**
+
+1. **On the page itself**, reader-facing. Add a small, unobtrusive
+   `<section id="updates">` (or fold it into the book's existing About/
+   colophon section if it has one — Fractal, Fracture, and Faith all do)
+   with a version badge (`v4 — 2026-08-05`) and a short reverse-chronological
+   list of one-line, plain-language entries — no commit-message jargon,
+   no internal file paths, just what changed for a reader ("Fixed several
+   broken sentences and a missing chapter section," not "§9 sub-label glue
+   bug, 4 instances"). This is a resources-hub-style destination
+   (Wait-But-Why/Marginalian reference), not a nav tab — reachable, not
+   prominent.
+2. **`sites.json`**, machine-readable, per project: a `"version"` string
+   and a `"changelog"` array of `{date, version, summary}` entries, newest
+   first. This is the canonical ledger — when in doubt about what's live
+   and when it last changed, read this before guessing.
+
+**Workflow:** after a round of real fixes to a book and before/as part of
+deploying it — bump `sites.json`'s version for that project, append a
+changelog entry there, and add the matching on-page entry in the book's
+own HTML. Both updates happen together, in the same commit, every time —
+never let the ledger drift from what the page itself says.
 
 ## Tools available in this environment
 

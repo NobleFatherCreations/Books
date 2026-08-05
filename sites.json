@@ -1,6 +1,6 @@
 {
   "generated": "2026-08-02",
-  "updated": "2026-08-02T2",
+  "updated": "2026-08-05",
   "note": "Machine-readable registry of every Noble Father Creations live project. Built by fetching noblefathercreations.com live, cross-referencing the connected Netlify account (all netlifySite mappings below are byte-verified against live content, not guessed), and cross-referencing a user-supplied review package (source/) documenting a prior design session. Any AI/tool working on this project should read this file first instead of re-guessing URLs.",
   "hub": {
     "title": "Noble Father Creations",
@@ -19,7 +19,18 @@
       "netlifySiteId": "8b3d5fdf-49e5-46eb-bb53-97d69039a44e",
       "deploySource": "cli",
       "hasGitRepo": false,
-      "houseTabLeak": { "found": false, "checkedAt": "2026-08-02" }
+      "houseTabLeak": {
+        "found": false,
+        "checkedAt": "2026-08-02"
+      },
+      "version": "v1",
+      "changelog": [
+        {
+          "date": "unknown",
+          "version": "v1",
+          "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
+        }
+      ]
     },
     {
       "codename": "root",
@@ -33,7 +44,18 @@
       "hasGitRepo": false,
       "localSource": "source/projects/noble-father-root.html",
       "localSourceVerified": "byte-exact match to live content, 2026-08-02",
-      "houseTabLeak": { "found": false, "checkedAt": "2026-08-02" }
+      "houseTabLeak": {
+        "found": false,
+        "checkedAt": "2026-08-02"
+      },
+      "version": "v1",
+      "changelog": [
+        {
+          "date": "unknown",
+          "version": "v1",
+          "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
+        }
+      ]
     },
     {
       "codename": "sovereign",
@@ -47,7 +69,23 @@
       "hasGitRepo": false,
       "localSource": "source/projects/noble-father-sovereign.html",
       "localSourceVerified": "not byte-checked against live yet (assumed via review package's 'deployed live' claim; not independently confirmed)",
-      "houseTabLeak": { "found": false, "checkedAt": "2026-08-02" }
+      "houseTabLeak": {
+        "found": false,
+        "checkedAt": "2026-08-02"
+      },
+      "version": "v2",
+      "changelog": [
+        {
+          "date": "2026-08-05",
+          "version": "v2",
+          "summary": "Removed 2 leaked process-narration sentences, fixed a counter bug (all 12 tactic badges showed \"1\"), gave Appendix B a real anchor, restored 6 chapters' closing Mandate card, and fixed 8 more glued-heading markup bugs."
+        },
+        {
+          "date": "unknown",
+          "version": "v1",
+          "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
+        }
+      ]
     },
     {
       "codename": "playground",
@@ -61,7 +99,23 @@
       "hasGitRepo": false,
       "localSource": "source/projects/noble-father-playground.html",
       "localSourceVerified": "not byte-checked against live yet (assumed via review package's 'deployed live' claim; not independently confirmed)",
-      "houseTabLeak": { "found": false, "checkedAt": "2026-08-02" }
+      "houseTabLeak": {
+        "found": false,
+        "checkedAt": "2026-08-02"
+      },
+      "version": "v2",
+      "changelog": [
+        {
+          "date": "2026-08-05",
+          "version": "v2",
+          "summary": "Fixed 36 word-substitution corruption instances (including a broken Kristin Neff citation), 3 broken Grown-Up Corner sections, a broken speech bubble, 2 typos, and a missing panel boundary."
+        },
+        {
+          "date": "unknown",
+          "version": "v1",
+          "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
+        }
+      ]
     },
     {
       "codename": "festie+codex",
@@ -77,7 +131,18 @@
       "gitFile": "festie-codex-full.html",
       "localSource": "source/projects/noble-father-festival.html",
       "localSourceNote": "DISCREPANCY, not yet resolved: this repo's own festie-codex-full.html is a DIFFERENT file from source/projects/noble-father-festival.html (the review-package redesign). Titles differ too ('The Festie Codex — The Gate (Attendee's Cut)' vs this repo's file). Do not assume they're interchangeable until diffed.",
-      "houseTabLeak": { "found": false, "checkedAt": "2026-08-02" }
+      "houseTabLeak": {
+        "found": false,
+        "checkedAt": "2026-08-02"
+      },
+      "version": "v1",
+      "changelog": [
+        {
+          "date": "unknown",
+          "version": "v1",
+          "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
+        }
+      ]
     },
     {
       "codename": "fractal",
@@ -91,13 +156,31 @@
       "hasGitRepo": false,
       "localSource": "source/projects/noble-father-fractal.html",
       "localSourceVerified": "not byte-checked against live yet (assumed via review package's 'deployed live' claim; not independently confirmed)",
-      "houseTabLeak": { "found": false, "checkedAt": "2026-08-02" }
+      "houseTabLeak": {
+        "found": false,
+        "checkedAt": "2026-08-02"
+      },
+      "version": "v2",
+      "changelog": [
+        {
+          "date": "2026-08-05",
+          "version": "v2",
+          "summary": "4 sector chapters (Technology, Dating, Surveillance, Child Welfare) now show their finished narrative instead of a placeholder; cleaned up 11 duplicated-text bugs and a leaked planning note in the technique matrix."
+        },
+        {
+          "date": "unknown",
+          "version": "v1",
+          "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
+        }
+      ]
     },
     {
       "codename": "allfracture",
       "slug": "fracture",
       "title": "The Fracture Everywhere",
-      "titleHistory": ["All Fracture (renamed 2026-08-05)"],
+      "titleHistory": [
+        "All Fracture (renamed 2026-08-05)"
+      ],
       "tagline": "The wealth transfer · 195 citations",
       "url": "https://noblefathercreations.com/fracture",
       "netlifySite": "fractures",
@@ -106,7 +189,23 @@
       "hasGitRepo": false,
       "localSource": "source/projects/noble-father-fracture.html",
       "localSourceVerified": "not byte-checked against live yet (assumed via review package's 'deployed live' claim; not independently confirmed)",
-      "houseTabLeak": { "found": false, "checkedAt": "2026-08-02" }
+      "houseTabLeak": {
+        "found": false,
+        "checkedAt": "2026-08-02"
+      },
+      "version": "v2",
+      "changelog": [
+        {
+          "date": "2026-08-05",
+          "version": "v2",
+          "summary": "Renamed from \"All Fracture.\" Verified all 195 citations against the author's own source list (zero discrepancies) and corrected a false claim about which episodes have sourcing - Episodes 9 and 10 are now honestly flagged as not yet sourced instead of silently missing."
+        },
+        {
+          "date": "unknown",
+          "version": "v1",
+          "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
+        }
+      ]
     },
     {
       "codename": null,
@@ -125,7 +224,15 @@
         "fixFile": "fixes/loop.html",
         "fixVerified": "byte-exact removal, 757 bytes, single contiguous span, rest of file untouched",
         "deployed": false
-      }
+      },
+      "version": "v1",
+      "changelog": [
+        {
+          "date": "unknown",
+          "version": "v1",
+          "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
+        }
+      ]
     },
     {
       "codename": null,
@@ -144,7 +251,15 @@
         "fixFile": "fixes/scale.html",
         "fixVerified": "byte-exact removal, 761 bytes, single contiguous span, rest of file untouched",
         "deployed": false
-      }
+      },
+      "version": "v1",
+      "changelog": [
+        {
+          "date": "unknown",
+          "version": "v1",
+          "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
+        }
+      ]
     },
     {
       "codename": null,
@@ -163,7 +278,15 @@
         "fixFile": "fixes/faith.html",
         "fixVerified": "byte-exact removal, 724 bytes, single contiguous span, rest of file untouched",
         "deployed": false
-      }
+      },
+      "version": "v1",
+      "changelog": [
+        {
+          "date": "unknown",
+          "version": "v1",
+          "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
+        }
+      ]
     },
     {
       "codename": null,
@@ -175,14 +298,49 @@
       "netlifySiteId": "05683d2c-cb07-43cb-8e2c-d8cd380c0287",
       "deploySource": "unknown",
       "hasGitRepo": false,
-      "houseTabLeak": { "found": false, "checkedAt": "2026-08-02" }
+      "houseTabLeak": {
+        "found": false,
+        "checkedAt": "2026-08-02"
+      },
+      "version": "v1",
+      "changelog": [
+        {
+          "date": "unknown",
+          "version": "v1",
+          "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
+        }
+      ]
     }
   ],
   "craftBusiness": [
-    { "title": "The Shop", "tagline": "Wax seals · jewelry · NFC craft", "url": "https://nfcportals.netlify.app/", "netlifySite": "nfcportals", "localSource": "source/projects/noble-father-portals.html", "localSourceVerified": "byte-exact match to live content, 2026-08-02" },
-    { "title": "The Press", "tagline": "Real wax, a voice inside", "url": "https://noblenfcseals.netlify.app/", "netlifySite": "noblenfcseals", "localSource": "source/projects/noble-father-seals.html", "localSourceVerified": "byte-exact match to live content, 2026-08-02" },
-    { "title": null, "tagline": null, "url": "https://noble-nfc-tour.netlify.app/", "netlifySite": "noble-nfc-tour" },
-    { "title": null, "tagline": null, "url": "https://nfchq.netlify.app/", "netlifySite": "nfchq" }
+    {
+      "title": "The Shop",
+      "tagline": "Wax seals · jewelry · NFC craft",
+      "url": "https://nfcportals.netlify.app/",
+      "netlifySite": "nfcportals",
+      "localSource": "source/projects/noble-father-portals.html",
+      "localSourceVerified": "byte-exact match to live content, 2026-08-02"
+    },
+    {
+      "title": "The Press",
+      "tagline": "Real wax, a voice inside",
+      "url": "https://noblenfcseals.netlify.app/",
+      "netlifySite": "noblenfcseals",
+      "localSource": "source/projects/noble-father-seals.html",
+      "localSourceVerified": "byte-exact match to live content, 2026-08-02"
+    },
+    {
+      "title": null,
+      "tagline": null,
+      "url": "https://noble-nfc-tour.netlify.app/",
+      "netlifySite": "noble-nfc-tour"
+    },
+    {
+      "title": null,
+      "tagline": null,
+      "url": "https://nfchq.netlify.app/",
+      "netlifySite": "nfchq"
+    }
   ],
   "otherLiveSites": [
     {
