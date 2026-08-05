@@ -1417,3 +1417,42 @@ need real research to source, not something to fabricate; added the
 patch-notes/versioning convention (see CLAUDE.md) and rolled it out to
 the 4 deployed books; confirmed via live fetch that the main hub
 correctly links to all 9 books and both craft sites before deploying.
+
+## Update (2026-08-05, hub-polish session continued — pivot to wook)
+
+After the hub page cleared its full audit list, the user redirected focus
+to **wook** (`festie-codex-full.html`, "The Festie Codex" / "The PLURth
+Angel's Guide to Spotting a Wook in Sheep's Clothing"). Found and fixed a
+**second instance of the exact deploy-drift bug** described above: two
+Aug 5 repo-wide passes (Loop/Scale House-tab addition, Fracture rename)
+touched `source/projects/noble-father-festival.html` but missed
+`festie-codex-full.html` at repo root — which is the file `wook`'s
+Netlify site actually deploys from (git-connected, per `sites.json`).
+Diffed both stripped copies, confirmed the House-nav block was the only
+difference, re-synced. **Standing risk to watch:** any future repo-wide
+sweep that globs `source/projects/*.html` will silently miss this file
+again unless it explicitly also touches `festie-codex-full.html` — worth
+fixing at the tooling level (e.g. a symlink, or teaching the sweep
+scripts about this file) rather than re-discovering this a third time.
+
+Also fixed a smaller cross-product leak: `noble-father-portals.html`'s
+own craft-process breakdown had a step literally called "The Seal"
+describing "a final coat of liquid wax" — language that belongs to The
+Press (`noble-father-seals.html`)'s own branded territory. Renamed the
+step "The Guard" and reworded to describe the same real UV-topcoat
+finishing step without naming it as wax.
+
+Swapped in the user's new full illustrated cover art (title/byline/
+tagline baked into the poster itself) as wook's cover-art image, and
+trimmed the now-redundant "Protect the f*cking magic" line from the
+HTML mantra text underneath (the art already says it).
+
+**Deferred, on the user's own instruction:** the user supplied two
+additional character-turnaround illustration sheets (multiple wook/
+angel/shaman character poses, not the cover) with the intent to weave
+them into specific chapter sections as visual enhancement "eventually" —
+explicitly left placement/selection up to us for a **future round**, not
+this one. Not implemented yet — don't forget these exist next time wook
+comes up. (Uploaded this session as IMG_9703.JPG and IMG_9702.PNG in the
+session's upload directory; not copied into the repo since they're not
+yet placed anywhere.)

@@ -130,7 +130,7 @@
       "gitRepo": "NobleFatherCreations/Wookbook",
       "gitFile": "festie-codex-full.html",
       "localSource": "source/projects/noble-father-festival.html",
-      "localSourceNote": "DISCREPANCY, not yet resolved: this repo's own festie-codex-full.html is a DIFFERENT file from source/projects/noble-father-festival.html (the review-package redesign). Titles differ too ('The Festie Codex — The Gate (Attendee's Cut)' vs this repo's file). Do not assume they're interchangeable until diffed.",
+      "localSourceNote": "RESOLVED 2026-08-03: festie-codex-full.html and source/projects/noble-father-festival.html are the same document, kept manually in sync (no symlink). RE-DRIFTED and re-synced 2026-08-05: two repo-wide sweeps (Loop/Scale House-tab, Fracture rename) touched only the source/projects copy and missed the git-deployed repo-root file. Standing risk: any future source/projects/*.html sweep will miss festie-codex-full.html again unless it's explicitly included — check both are byte-identical before trusting either as current.",
       "houseTabLeak": {
         "found": false,
         "checkedAt": "2026-08-02"
