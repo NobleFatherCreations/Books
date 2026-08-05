@@ -215,7 +215,7 @@
       "url": "https://noblefathercreations.com/loop",
       "netlifySite": "noble-the-loop",
       "netlifySiteId": "b9405b37-a71c-4c55-bbd2-a3043963b457",
-      "deploySource": "cli",
+      "deploySource": "cli (via @netlify/mcp deploy-site)",
       "hasGitRepo": false,
       "houseTabLeak": {
         "found": true,
@@ -223,16 +223,24 @@
         "fixReady": true,
         "fixFile": "fixes/loop.html",
         "fixVerified": "byte-exact removal, 757 bytes, single contiguous span, rest of file untouched",
-        "deployed": false
+        "deployed": true,
+        "deployedAt": "2026-08-05"
       },
-      "version": "v1",
+      "version": "v2",
       "changelog": [
+        {
+          "date": "2026-08-05",
+          "version": "v2",
+          "summary": "Removed the leaked build-instructions HTML comment from THE HOUSE tab (fix was verified and ready for months, finally deployed)."
+        },
         {
           "date": "unknown",
           "version": "v1",
           "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
         }
-      ]
+      ],
+      "localSourceVerified": "byte-exact match to live content, confirmed via deploy verification, 2026-08-05",
+      "localSource": "fixes/loop.html"
     },
     {
       "codename": null,
@@ -242,7 +250,7 @@
       "url": "https://noblefathercreations.com/scale",
       "netlifySite": "noble-the-weighing",
       "netlifySiteId": "27ab9f53-5850-4fb1-8bed-6513b33ee11f",
-      "deploySource": "cli",
+      "deploySource": "cli (via @netlify/mcp deploy-site)",
       "hasGitRepo": false,
       "houseTabLeak": {
         "found": true,
@@ -250,16 +258,24 @@
         "fixReady": true,
         "fixFile": "fixes/scale.html",
         "fixVerified": "byte-exact removal, 761 bytes, single contiguous span, rest of file untouched",
-        "deployed": false
+        "deployed": true,
+        "deployedAt": "2026-08-05"
       },
-      "version": "v1",
+      "version": "v2",
       "changelog": [
+        {
+          "date": "2026-08-05",
+          "version": "v2",
+          "summary": "Removed the leaked build-instructions HTML comment from THE HOUSE tab (fix was verified and ready for months, finally deployed)."
+        },
         {
           "date": "unknown",
           "version": "v1",
           "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
         }
-      ]
+      ],
+      "localSourceVerified": "byte-exact match to live content, confirmed via deploy verification, 2026-08-05",
+      "localSource": "fixes/scale.html"
     },
     {
       "codename": null,
