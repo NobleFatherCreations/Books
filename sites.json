@@ -65,10 +65,10 @@
       "url": "https://noblefathercreations.com/feminine",
       "netlifySite": "sovereign-woman",
       "netlifySiteId": "7683f8ed-03f4-4829-8fd4-f6affea18a16",
-      "deploySource": "unknown",
+      "deploySource": "cli (via @netlify/mcp deploy-site)",
       "hasGitRepo": false,
       "localSource": "source/projects/noble-father-sovereign.html",
-      "localSourceVerified": "not byte-checked against live yet (assumed via review package's 'deployed live' claim; not independently confirmed)",
+      "localSourceVerified": "byte-exact match to live content, confirmed via deploy verification, 2026-08-05",
       "houseTabLeak": {
         "found": false,
         "checkedAt": "2026-08-02"
@@ -95,10 +95,10 @@
       "url": "https://noblefathercreations.com/children",
       "netlifySite": "playgroundprotector",
       "netlifySiteId": "90b0a06d-1e11-4302-9292-f2e2780b195a",
-      "deploySource": "unknown",
+      "deploySource": "cli (via @netlify/mcp deploy-site)",
       "hasGitRepo": false,
       "localSource": "source/projects/noble-father-playground.html",
-      "localSourceVerified": "not byte-checked against live yet (assumed via review package's 'deployed live' claim; not independently confirmed)",
+      "localSourceVerified": "byte-exact match to live content, confirmed via deploy verification, 2026-08-05",
       "houseTabLeak": {
         "found": false,
         "checkedAt": "2026-08-02"
@@ -152,10 +152,10 @@
       "url": "https://noblefathercreations.com/fractal",
       "netlifySite": "thefractal",
       "netlifySiteId": "e94ed486-0392-4045-86c8-b9c3a26b911a",
-      "deploySource": "unknown",
+      "deploySource": "cli (via @netlify/mcp deploy-site)",
       "hasGitRepo": false,
       "localSource": "source/projects/noble-father-fractal.html",
-      "localSourceVerified": "not byte-checked against live yet (assumed via review package's 'deployed live' claim; not independently confirmed)",
+      "localSourceVerified": "byte-exact match to live content, confirmed via deploy verification, 2026-08-05",
       "houseTabLeak": {
         "found": false,
         "checkedAt": "2026-08-02"
@@ -185,10 +185,10 @@
       "url": "https://noblefathercreations.com/fracture",
       "netlifySite": "fractures",
       "netlifySiteId": "8939c138-e34a-433c-8c01-9af5ebbd75b2",
-      "deploySource": "unknown",
+      "deploySource": "cli (via @netlify/mcp deploy-site)",
       "hasGitRepo": false,
       "localSource": "source/projects/noble-father-fracture.html",
-      "localSourceVerified": "not byte-checked against live yet (assumed via review package's 'deployed live' claim; not independently confirmed)",
+      "localSourceVerified": "byte-exact match to live content, confirmed via deploy verification, 2026-08-05",
       "houseTabLeak": {
         "found": false,
         "checkedAt": "2026-08-02"
@@ -269,24 +269,28 @@
       "url": "https://noblefathercreations.com/faith",
       "netlifySite": "thenobledivide",
       "netlifySiteId": "97e63fba-2202-40fc-b5e1-9ccadaf29374",
-      "deploySource": "unknown",
+      "deploySource": "cli (via @netlify/mcp deploy-site)",
       "hasGitRepo": false,
       "houseTabLeak": {
-        "found": true,
-        "checkedAt": "2026-08-02",
-        "fixReady": true,
-        "fixFile": "fixes/faith.html",
-        "fixVerified": "byte-exact removal, 724 bytes, single contiguous span, rest of file untouched",
-        "deployed": false
+        "found": false,
+        "checkedAt": "2026-08-05",
+        "note": "Moot as of this deploy - the live site is now faith-index.html's lineage, which never had the old nh-drawer House Tab component at all (self-contained, no shared chrome, by design). The old fixes/faith.html leak fix is superseded, not applied - that lineage is no longer live here."
       },
-      "version": "v1",
+      "version": "v2",
       "changelog": [
+        {
+          "date": "2026-08-05",
+          "version": "v2",
+          "summary": "Replaced the live content entirely with faith-index.html's lineage: a merge of a user-supplied NAV3 navigation rebuild (command bar, act rail, cross-compare, full matrix grid) and WCAG-AA legibility pass, with this book's own apex-chain visualization, graded evidence matrix, and motion-polish layer grafted back in. The old nh-drawer House Tab (and its comment leak) is gone - this lineage never had shared chrome, by design."
+        },
         {
           "date": "unknown",
           "version": "v1",
           "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
         }
-      ]
+      ],
+      "localSource": "source/projects/faith-index.html",
+      "localSourceVerified": "byte-exact match to live content, confirmed via deploy verification, 2026-08-05"
     },
     {
       "codename": null,
@@ -365,16 +369,8 @@
       "title": "The Sacred Divide (retitled redesign of the Coercive Control Codex / faith book)",
       "localSource": "source/projects/noble-father-divide.html",
       "intendedUrl": "https://noblefathercreations.com/faith (same Netlify site as 'faith': thenobledivide)",
-      "status": "NOT deployed — thenobledivide.netlify.app currently still serves the OLD 4.74MB 'Coercive Control Codex' content (byte-verified match to fixes/faith.html's pre-fix source), not this 2.56MB redesign. Review doc claims this was among the 'eleven deployed live' — does not check out against live content as of 2026-08-02.",
-      "description": "Retitled from 'The Coercive Control Codex' to 'The Sacred Divide.' Three-register redesign for tactic entries (how it appears / the defense / the counter), parchment + dark theme, no leak present in this version at all.",
-      "relationToLeakFix": "If deployed, this would ALSO resolve the faith leak (fixes/faith.html) since it doesn't carry the old HOUSE-tab chrome — but it's a content/title change, not just a leak fix, so treat as a separate decision."
-    },
-    {
-      "title": "faith-index.html (separate, distinct from Sacred Divide — an offline-only reference edition)",
-      "localSource": "source/projects/faith-index.html",
-      "intendedUrl": "unknown — review doc says 'has not been deployed anywhere'",
-      "status": "5 of 8 planned passes complete per review doc. Deliberately carries NO shared site chrome (no HOUSE tab, no font links) by design — self-contained-only rule applies uniquely strictly to this file (hand-to-person, offline, monitored-household use case).",
-      "description": "3.3MB offline reference work distinct from both the live faith page and the Sacred Divide redesign. Same book family, different edition/purpose."
+      "status": "STILL not deployed as of 2026-08-05 — superseded by a different decision: thenobledivide.netlify.app now serves faith-index.html's lineage instead (deployed 2026-08-05, see projects[] 'faith' entry). This redesign (noble-father-divide.html) remains a separate, still-undeployed option — not evaluated against faith-index.html, no decision made between them beyond what already shipped.",
+      "description": "Retitled from 'The Coercive Control Codex' to 'The Sacred Divide.' Three-register redesign for tactic entries (how it appears / the defense / the counter), parchment + dark theme, no leak present in this version at all."
     }
   ],
   "unmappedNetlifySites": [
@@ -387,6 +383,8 @@
     "loop/scale/faith deploySource='cli' confirmed via Netlify deploy metadata (commit_ref: null) — no GitHub repo backs them, so the leak fix can only ship via a direct Netlify redeploy, not a git push.",
     "Only 'wook' (this repo, Wookbook) is git-backed; all other projects are Netlify CLI/API deploys with no linked repo Claude can add.",
     "2026-08-02 update: user supplied a review package (source/) — local HTML source + a build log (source/REVIEW-SUMMARY.md) from a prior design session covering 12 files. root/sovereign/playground/fractal/fracture/wook(as noble-father-festival.html)/portals/seals/reaction-map are claimed deployed; portals/seals/reaction-map/root confirmed byte-exact live, the rest not independently re-verified. Two pieces (catalogue hub redesign, Sacred Divide) are claimed deployed by the review doc but do NOT byte-match live content — treat that specific claim in the review doc as unconfirmed/incorrect until resolved with the user.",
-    "wook's local review-package file (noble-father-festival.html) has a different title than this repo's tracked festie-codex-full.html — unresolved discrepancy, needs a diff before assuming either supersedes the other."
+    "wook's local review-package file (noble-father-festival.html) has a different title than this repo's tracked festie-codex-full.html — unresolved discrepancy, needs a diff before assuming either supersedes the other.",
+    "2026-08-05 deploy round: confirmed the actual working deploy mechanism for these Netlify CLI/API sites (no linked repo) — call the deploy-site MCP operation for a siteId, it returns a `npx -y @netlify/mcp@latest --site-id <id> --proxy-path <token>` command; run that from a staging directory containing ONLY the single index.html to deploy (running it from the repo root would upload the whole repo instead). Verified via byte-diff against the live URL after every deploy. Used this to push feminine/children/fractal/fracture (all byte-confirmed live) and to redeploy faith. fixes/loop.html and fixes/scale.html are ready with the same mechanism whenever the user wants that leak fix pushed — not yet run.",
+    "2026-08-05: faith-index.html deployed to thenobledivide, replacing the prior live 'Coercive Control Codex' content (the fixes/faith.html lineage). That lineage's leak fix is now moot — it's not the live content anymore. The Sacred Divide redesign (noble-father-divide.html) remains a separate, still-undeployed option."
   ]
 }
