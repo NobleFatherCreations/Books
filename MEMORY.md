@@ -1515,3 +1515,119 @@ the matching on-page `#updates` section per the patch-notes convention.
 Full Playwright verification pass at 375/768/1440px before deploy:
 0 console errors, 0 overflow, 0 stuck reveals, reduced-motion correctly
 skips the video intro, all internal anchors resolve.
+
+## Update (2026-08-08) — hub v1 shipped broken on real phones; v2 fixes + typography pass
+
+The v1 deploy above looked clean in Playwright but **failed live on the
+user's own phone**: intro video never played, no visible motion on the
+portal doors, the gate didn't actually gate (scroll straight past the
+doors into the rest of the page), no tutorial popup ever appeared, and
+the fonts read as generic/default rather than premium. The user was
+explicit and frustrated and asked for an agent to fix the design feel.
+Lesson for next time: Playwright's headless Chromium is not a substitute
+for a real touch-device check on anything gating/video/hover-dependent —
+should have flagged that gap before calling v1 "shipped."
+
+**Root causes found and fixed, one by one:**
+- **Video**: `<video><source src="data:...">` (nested source + data URI)
+  is flaky on iOS Safari; `.play()` promise rejection was instantly
+  hiding the whole overlay. Fixed: `src` moved directly onto `<video>`,
+  added `webkit-playsinline`, replaced instant-dismiss with a 2-retry +
+  1.8s graceful-hold before giving up.
+- **No gate**: there was no scroll lock at all — `.st-portals` was just
+  normal scrollable content with a caption above it. Built a real one:
+  `html.nf-gate-lock,html.nf-gate-lock body{overflow:hidden!important;
+  height:100%;touch-action:none}` toggled via JS, `sessionStorage`-gated
+  (`nfDoorChosen`, separate from the video's own `nfHeroIntroSeen` flag).
+- **No tutorial**: only a static caption line existed, not a popup. Built
+  `#nfTutorial`, a real modal (backdrop blur, dialog card, "Choose a
+  door" button), shown via `window.nfGateReady = showTutorial`, called
+  once the video overlay is gone.
+- **No visible portal motion on touch**: the existing hover zoom/shine
+  was correctly gated to `@media(hover:hover) and (pointer:fine)`
+  (accessibility-correct — it excludes touch) but there was *no*
+  non-hover motion at all, so touch users saw nothing move, ever. Added
+  a continuous `pgBreathe` scale-pulse plus `:active` tap feedback.
+
+**A real, previously-unknown bug found *while building the gate fix*,
+not by the user:** CSS inserted earlier in the session (both this
+round's gate/tutorial rules AND the earlier `#updates` section CSS) had
+landed inside `<noscript><style>...</style></noscript>` by matching the
+wrong `</style>` boundary — meaning it existed as text in the file but
+was completely inert in any JS-enabled browser. `textContent.includes()`
+found it; it was never actually live. **New verification standard going
+forward: after any CSS insertion, confirm via Playwright that
+`document.querySelectorAll('style')` + `s.sheet.cssRules` actually
+parses the new rule as real CSSOM — text presence in the file proves
+nothing.**
+
+**Design-elevation agent dispatch** (per CLAUDE.md's one-at-a-time
+agent-dispatch rule, explicitly requested by the user — "run an agent
+that can elevate this"): dispatched `ui-designer` (`isolation:worktree`,
+`model:opus`) to diagnose the "generic fonts / not high-end" complaint.
+Its root-cause: Fraunces is embedded as a full variable font (opsz
+9-144, SOFT 0-100, WONK 0/1, wght 100-900) but the whole page had been
+using it at its plainest instance — no explicit `opsz`, `WONK` pinned to
+0 everywhere except a `:hover` state a phone can never trigger — so a
+genuinely expressive display serif was rendering as a generic system
+serif. It also found Space Mono was carrying ~26 different jobs (nav,
+headings, whole sentences) at 9-11px, flattening hierarchy, and one real
+bug: `.nf-desc` (book descriptions in the nav drawer) was hard-coded to
+`system-ui,-apple-system,sans-serif` instead of the page's actual body
+font, rendering as the *device's* UI font instead of the brand's.
+**Caveat: this agent type only has Write/Read/MultiEdit/WebSearch/
+WebFetch — no Bash, no real Edit, no Playwright, no git** — despite
+diagnosing correctly it could not verify, apply, or test its own patch.
+Left a CSS patch + an idempotent apply/revert Python script; I verified
+every selector against the live file via grep before applying (found and
+dropped one dead selector, `.music-note`, that didn't exist in the
+markup), ran the apply script, then confirmed via `sheet.cssRules` that
+it genuinely parses (not another noscript-style trap). Visually
+verified via Playwright screenshots: WONK 1 at opsz 144 on the hero
+title reads as elegant/flowing, not spindly or "too quirky" — kept as
+applied, no revert needed.
+
+**A second real bug found only by my own re-verification, not flagged by
+the agent or the user:** the gate's own setup script did
+`portalsEl.scrollIntoView({block:'center'})` on gate-lock. Once the hero
+grew taller than one screen (title + eyebrow + stat row + "three ways
+in" copy + the three doors — all stacked in the same `.st-hero`
+section), centering the *portals* in the newly-`overflow:hidden` body
+pushed the *title* off the top of the screen — and since scroll was
+locked, there was no way back to it. The giant hero title was completely
+invisible on any normal-height desktop or phone viewport while the gate
+was up. Root cause was two compounding facts: (1) `body` becomes its own
+independent scroll container the moment `overflow:hidden` is set on it,
+separate from `window`/`documentElement` scroll — so `window.scrollTo()`
+has no effect on it; and (2) `.st-hero{align-items:center}` on a flex
+item taller than its container centers the overflow symmetrically,
+which is exactly what made it possible for the top half to be pushed
+off-screen with no scroll path back. Fixed properly rather than
+patched around: gave `.st-hero` its own internal scroll while
+gate-locked (`max-height:100svh;overflow-y:auto;overflow-x:hidden;
+align-items:flex-start;touch-action:pan-y`, scoped to
+`html.nf-gate-lock .st-hero` only, so it reverts to the plain
+`overflow:hidden` parallax-clipping behavior once a door is chosen) and
+removed the `scrollIntoView` call entirely — the gate now opens showing
+the title first, and the user scrolls *within* the locked gate to reach
+the doors. Verified at 1440/768/375: title on-screen at gate-open,
+doors reachable via internal scroll, outer page still fully unbypassable
+(wheel input doesn't move `window.scrollY`), and normal page scroll
+resumes correctly after a door is chosen.
+
+**Also fixed:** `.nf-seal` (the persistent red "NF" nav-drawer button,
+z-index 9950) was rendering *above* `#nfTutorial`'s backdrop (z-index
+9500) — the seal would float fully bright and undimmed over the modal
+scrim while the tutorial was open. Bumped `#nfTutorial` to z-index 9960.
+Verified via `document.elementFromPoint` at the seal's own coordinates
+that the tutorial is genuinely on top once its fade-in transition
+settles.
+
+**Deferred, not fixed this round** (agent's own judgment, correctly
+scoped out): the `--nf-body` CSS custom property is missing from the
+shared `nf-chrome` component's token block — worked around locally at
+`.nf-desc`, but the same gap likely affects the other 8 books sharing
+this embedded nav-drawer component. Out of scope for a hub-only pass.
+
+Tagged `v2` in `sites.json` and the on-page `#updates` section (kept as
+a second, newer entry above the existing v1 one — not overwritten).

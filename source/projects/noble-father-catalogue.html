@@ -899,6 +899,11 @@
 
   /* ---------- door gate: lock scroll until a portal is chosen ---------- */
   html.nf-gate-lock,html.nf-gate-lock body{overflow:hidden!important;height:100%;touch-action:none}
+  /* the gate's own content (title through portals) can be taller than one
+     screen -- give it its own internal scroll instead of centering on the
+     portals, which was pushing the title off the top with no way back to it */
+  html.nf-gate-lock .st-hero{max-height:100svh;overflow-y:auto;overflow-x:hidden;
+    align-items:flex-start;touch-action:pan-y;-webkit-overflow-scrolling:touch}
 
   /* stronger, always-visible portal motion -- not just on hover */
   @keyframes pgBreathe{0%,100%{transform:scale(1)}50%{transform:scale(1.035)}}
@@ -912,7 +917,7 @@
   }
 
   /* ---------- tutorial popup ---------- */
-  #nfTutorial{position:fixed;inset:0;z-index:9500;display:flex;align-items:center;justify-content:center;
+  #nfTutorial{position:fixed;inset:0;z-index:9960;display:flex;align-items:center;justify-content:center;
     padding:22px;background:rgba(10,7,14,.72);backdrop-filter:blur(4px);
     opacity:0;pointer-events:none;transition:opacity .35s var(--ease)}
   #nfTutorial.nft-on{opacity:1;pointer-events:auto}
@@ -943,6 +948,227 @@
   padding:10px 16px;cursor:pointer;transition:border-color .3s var(--ease),color .3s var(--ease);}
 #heroIntro .hi-skip:hover{border-color:var(--brass);color:var(--brass-bright);}
 @media (prefers-reduced-motion:reduce){#heroIntro{display:none;}}
+</style>
+<style id="st-type">
+/* ============================================================
+   THE CATALOGUE — typographic pass
+   ------------------------------------------------------------
+   Three voices, and one rule for each, so the page stops
+   speaking in a single register:
+
+     Fraunces    titles, numerals, and the catalogue's own voice
+     Hanken      navigation, notes, and anything read as a sentence
+     Space Mono  catalogue metadata only — codes, status, taxonomy
+
+   Fraunces is embedded here as the full variable face
+   (opsz 9-144, SOFT 0-100, WONK 0/1, wght 100-900). The page had
+   been asking for its plainest instance — no explicit opsz, and
+   WONK pinned to 0 everywhere except a :hover state that a phone
+   can never trigger. These rules request the display cut at the
+   top of the scale and the sturdy text cut at the bottom, which
+   is where the contrast comes from.
+
+   Every font-variation-settings list below names all four axes in
+   the same order, so the hover transitions interpolate cleanly and
+   nothing depends on implicit axis fallback.
+   ============================================================ */
+
+/* ---------- 1. the display cut: Fraunces given its voice ---------- */
+
+.st-hero-title{
+  font-variation-settings:"opsz" 144,"wght" 400,"SOFT" 16,"WONK" 1;
+}
+.st-hero-title .st-l1{
+  font-weight:300;
+  font-variation-settings:"opsz" 144,"wght" 300,"SOFT" 12,"WONK" 1;
+  letter-spacing:-.038em;
+}
+.st-hero-title .st-l2{
+  font-weight:700;
+  font-variation-settings:"opsz" 144,"wght" 700,"SOFT" 34,"WONK" 1;
+  letter-spacing:-.042em;
+}
+
+.st-chapter-title{
+  font-weight:400;
+  font-size:clamp(2.05rem,5.4vw,3.5rem);
+  letter-spacing:-.034em;
+  font-variation-settings:"opsz" 144,"wght" 400,"SOFT" 18,"WONK" 1;
+}
+.st-vol-title{
+  font-weight:400;
+  font-size:clamp(1.7rem,3.8vw,2.65rem);
+  letter-spacing:-.032em;
+  font-variation-settings:"opsz" 144,"wght" 400,"SOFT" 18,"WONK" 1;
+}
+.st-vol:hover .st-vol-title,.st-vol:focus-within .st-vol-title{
+  font-variation-settings:"opsz" 144,"wght" 400,"SOFT" 56,"WONK" 1;
+}
+#music h2,#maker h2,#support h2,.manifesto h2{
+  font-weight:400;
+  font-size:clamp(2.05rem,5.2vw,3.35rem);
+  letter-spacing:-.034em;
+  font-variation-settings:"opsz" 144,"wght" 400,"SOFT" 18,"WONK" 1;
+}
+
+/* outlined numerals read as engraving only if they carry the display cut */
+.st-chapter-num,.st-kicker-n{
+  font-weight:400;
+  font-variation-settings:"opsz" 144,"wght" 400,"SOFT" 20,"WONK" 1;
+}
+.st-colophon b{
+  font-weight:400;
+  font-size:clamp(21px,2.9vw,30px);
+  letter-spacing:-.028em;
+  font-variation-settings:"opsz" 144,"wght" 400,"SOFT" 18,"WONK" 1;
+}
+
+/* ---------- 2. the text cut: small serif headings get weight, not size ---------- */
+/* At 16-27px the display cut goes spindly. These take the sturdy end of the
+   optical range plus real weight, so they read as a deliberate second
+   register rather than a shrunken copy of the titles. */
+
+.nf-panel-title{
+  font-weight:600;
+  font-variation-settings:"opsz" 24,"wght" 600,"SOFT" 8,"WONK" 0;
+  letter-spacing:-.018em;
+}
+.nf-vol,.pay-name b,.scan-text strong,.foot-top b,.brandlock .nm b{
+  font-weight:600;
+  font-variation-settings:"opsz" 17,"wght" 600,"SOFT" 6,"WONK" 0;
+  letter-spacing:-.008em;
+}
+#nfTutorial li b{
+  font-weight:600;
+  font-variation-settings:"opsz" 17,"wght" 600,"SOFT" 6,"WONK" 0;
+}
+
+/* ---------- 3. the italic voice ---------- */
+
+.st-vol-hook{
+  font-weight:400;
+  font-size:clamp(17px,2vw,21px);
+  line-height:1.4;
+  font-variation-settings:"opsz" 32,"wght" 400,"SOFT" 26,"WONK" 1;
+}
+.pull{
+  font-variation-settings:"opsz" 48,"wght" 400,"SOFT" 26,"WONK" 1;
+}
+.st-hero-mantra{
+  font-size:clamp(17px,1.9vw,20px);
+  font-variation-settings:"opsz" 34,"wght" 400,"SOFT" 22,"WONK" 1;
+}
+
+/* ---------- 4. voice separation: sentences leave the monospace ---------- */
+/* Space Mono was carrying ~26 different jobs — nav, headings, captions,
+   whole sentences — at 9-11px with wide tracking. When one voice does every
+   job, hierarchy flattens and the page reads as a grid of identical labels.
+   Mono now keeps only catalogue metadata; navigation and prose move to the
+   sans, which is what it is for. */
+
+.topnav a{
+  font-family:var(--body);font-size:.8rem;font-weight:600;
+  letter-spacing:.1em;
+}
+.foot-grid h4{
+  font-family:var(--body);font-size:.72rem;font-weight:700;
+  letter-spacing:.16em;color:var(--bone);
+}
+.st-vol-open{
+  font-family:var(--body);font-size:.78rem;font-weight:700;
+  letter-spacing:.13em;
+}
+.st-chapter-note,.st-portals-note{
+  font-family:var(--body);font-size:.9rem;font-weight:400;
+  letter-spacing:0;line-height:1.65;color:var(--muted);
+  text-transform:none;
+}
+.st-portals-note{max-width:44ch;margin-inline:auto}
+#updates li{
+  font-family:var(--body);font-size:.88rem;letter-spacing:0;line-height:1.7;
+}
+#nfTutorial .nft-foot{
+  font-family:var(--body);font-size:.86rem;letter-spacing:0;line-height:1.6;
+}
+/* the drawer's book descriptions were rendering in the device UI font —
+   San Francisco on a phone — inside the page's own catalogue panel */
+.nf-desc{
+  font-family:var(--body);font-size:12.5px;letter-spacing:0;line-height:1.5;
+}
+
+/* mono, where it now earns its place, gets a little more air and size */
+.eyebrow{font-size:.74rem;letter-spacing:.3em}
+.st-hero-eyebrow{font-size:11px;letter-spacing:.3em}
+.st-chapter-name{font-size:10.5px;letter-spacing:.28em}
+
+/* ---------- 5. reading sizes, up to the house standard ---------- */
+
+.st-hero-thesis{
+  font-size:clamp(16.5px,1.7vw,19px);line-height:1.7;max-width:40ch;
+  text-wrap:pretty;
+}
+.st-vol-desc{font-size:16.5px;line-height:1.7;max-width:60ch;text-wrap:pretty}
+.manifesto p{font-size:1.1rem;line-height:1.7;max-width:62ch;text-wrap:pretty}
+.maker p,.music-copy p{font-size:1.08rem;line-height:1.7;text-wrap:pretty}
+.support-copy{font-size:1.1rem;line-height:1.7;text-wrap:pretty}
+.foot-note{font-size:1rem;line-height:1.65;max-width:46ch}
+.foot-grid a{font-size:.98rem}
+#nfTutorial li{font-size:1rem;line-height:1.55}
+
+/* ---------- 6. accent discipline: brass has to mean something ---------- */
+/* Brass was colouring roughly twenty different elements. Kept where it does
+   hierarchy work — the gilt line, the chapter label, the volume's own hook,
+   hover states — and stepped down everywhere it was only decoration. */
+
+.st-vol-sub{color:var(--muted);letter-spacing:.16em;opacity:1}
+.support-foot{color:var(--muted)}
+.music-tags span{color:var(--bone-dim)}
+
+/* ---------- 7. buttons: serif, but deliberately not the wonky cut ---------- */
+
+.btn,.st-door,.music-cta,.pay-go{
+  font-weight:600;letter-spacing:.006em;
+  font-variation-settings:"opsz" 22,"wght" 600,"SOFT" 0,"WONK" 0;
+}
+.st-door-sub{letter-spacing:.16em;opacity:.78}
+
+/* ---------- 8. the tutorial card is the first thing a phone sees ---------- */
+
+#nfTutorial .nft-card{padding:36px 30px 30px}
+#nfTutorial h3{
+  font-weight:400;
+  font-size:clamp(1.55rem,6.2vw,2rem);
+  line-height:1.08;letter-spacing:-.03em;margin:0 0 20px;
+  font-variation-settings:"opsz" 144,"wght" 400,"SOFT" 18,"WONK" 1;
+}
+#nfTutorial button{
+  font-weight:600;font-size:1rem;letter-spacing:.006em;
+  font-variation-settings:"opsz" 22,"wght" 600,"SOFT" 0,"WONK" 0;
+}
+
+/* ---------- 9. the phone ---------- */
+/* Net vertical height is held roughly level: the type grows, the gaps
+   around the notes tighten to pay for it, so the gate still centres the
+   portals with the title in view. */
+
+@media (max-width:560px){
+  .st-hero-title .st-l1{font-size:12vw}
+  .st-hero-title .st-l2{font-size:15.5vw}
+  .st-hero-thesis{font-size:16px;line-height:1.65;margin-top:18px;max-width:34ch}
+  .st-hero-mantra{font-size:17px;margin-top:10px}
+  .st-colophon{margin-top:20px}
+  .st-portals-note{margin:20px auto 12px;font-size:.82rem}
+  .st-portal .pg-label b{font-size:.95rem}
+  .st-portal .pg-label span{font-size:.56rem;letter-spacing:.1em}
+  .st-vol-desc{font-size:16px}
+  .manifesto p{font-size:1.05rem}
+  .st-chapter-note{font-size:.86rem}
+}
+
+/* ---------- 10. reduced motion keeps the same instances, minus the travel ---------- */
+@media (prefers-reduced-motion:reduce){
+  .st-vol-title,.st-chapter-title,.st-hero-title{transition:none}
+}
 </style>
 </head>
 <div id="heroIntro" aria-hidden="true">
@@ -1109,7 +1335,6 @@
   if (chosen) { unlock(); }
   else {
     html.classList.add('nf-gate-lock');
-    portalsEl.scrollIntoView({ block: 'center' });
   }
 
   [].slice.call(document.querySelectorAll('.st-portal')).forEach(function(a){
@@ -1344,7 +1569,15 @@
       <span class="thesis-mini">Worn in the light. Alive in the dark.</span>
     </div>
     <section id="updates">
-      <p class="updates-version">v1 &mdash; 2026-08-05</p>
+      <p class="updates-version">v2 &mdash; 2026-08-08</p>
+      <ul>
+        <li>Fixed the intro video not playing and the tutorial not appearing on some phones.</li>
+        <li>The three doors are now genuinely the only thing you can do until you pick one -- scrolling past them no longer works.</li>
+        <li>Each door now visibly moves on its own, instead of only reacting to a mouse hover that a touchscreen can never trigger.</li>
+        <li>Fixed a layout bug where the door screen, now taller than one view, was centering on the doors and pushing the title off the top with no way to scroll back to it.</li>
+        <li>Rebuilt the typography: the display type now uses its full character at large sizes, headings have real weight contrast, and small print moved out of the monospace into something easier to read on a phone.</li>
+      </ul>
+      <p class="updates-version" style="margin-top:16px">v1 &mdash; 2026-08-05</p>
       <ul>
         <li>First live release of the redesigned homepage.</li>
         <li>Homepage now opens with a short video that fades into the page.</li>

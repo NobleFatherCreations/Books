@@ -10,12 +10,12 @@
     "deploySource": "cli",
     "localSource": "source/projects/noble-father-catalogue.html",
     "localSourceNote": "This is the first verified live deploy of the redesigned 'collected works' hub. A 2026-08-02 review package claimed the catalogue hub redesign was already deployed, but it did NOT byte-match live content at the time -- treat this 2026-08-05 deploy as the true first release.",
-    "version": "v1",
+    "version": "v2",
     "changelog": [
       {
-        "date": "2026-08-05",
-        "version": "v1",
-        "summary": "First live release of the redesigned homepage: muted video intro that dissolves into the page, a 3-illustrated-door chooser (Book/Tools/Art) replacing the old 2-button hero, themed zone landings for each of the 3 destinations, removed the floating audio widget, plus the earlier polish pass (mobile footer overlap fix, button-language consolidation, dead-CSS cleanup)."
+        "date": "2026-08-08",
+        "version": "v2",
+        "summary": "Fixed the intro video not playing and the tutorial not appearing on some phones; the 3 doors are now genuinely the only thing you can do until you pick one (scrolling past them no longer works); each door now visibly moves instead of only reacting to hover, which never fires on a touch screen. Also found and fixed a layout bug this same round introduced -- the door screen had grown taller than one view, and centering it on the doors pushed the title off the top of the screen with no way to scroll back to it; it now scrolls smoothly within its own frame instead. Typography rebuilt: the display serif now uses its full character at large sizes, headings have real weight contrast, and small print moved out of the monospace into something easier to read on a phone."
       }
     ]
   },
