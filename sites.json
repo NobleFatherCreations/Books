@@ -10,8 +10,13 @@
     "deploySource": "cli",
     "localSource": "source/projects/noble-father-catalogue.html",
     "localSourceNote": "This is the first verified live deploy of the redesigned 'collected works' hub. A 2026-08-02 review package claimed the catalogue hub redesign was already deployed, but it did NOT byte-match live content at the time -- treat this 2026-08-05 deploy as the true first release.",
-    "version": "v5",
+    "version": "v6",
     "changelog": [
+      {
+        "date": "2026-08-09",
+        "version": "v6",
+        "summary": "The opening walkthrough is now a real guided tour -- it lights up one door at a time and tells you what is behind that one, then points out the coin and the music button, instead of dumping all five things into a single block of text. You can still tap a door at any point to skip ahead. Fixed the intro video cutting out after about three seconds: when a phone refuses to autoplay (Low Power Mode does this), the opening frame now holds as a title card you can tap to actually watch the clip, rather than giving up and fading away. The last two links still pointing at a raw netlify.app address -- The Portals and The Press -- now use noblefathercreations.com/portals and /press like everything else."
+      },
       {
         "date": "2026-08-09",
         "version": "v5",

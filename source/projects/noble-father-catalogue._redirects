@@ -1,12 +1,14 @@
-# Each of these is its own separate Netlify site (deployed independently,
-# no shared build). These rules proxy that content through the main
-# domain at a clean path -- status 200 means "rewrite", so the address
-# bar keeps showing noblefathercreations.com/<slug> instead of jumping
-# to the project's own *.netlify.app subdomain.
-/playbook      https://noblepatterns.netlify.app/                    200
-/playbook/*    https://noblepatterns.netlify.app/:splat              200
-/shadowroot    https://nobleshadows.netlify.app/                     200
-/shadowroot/*  https://nobleshadows.netlify.app/:splat               200
+# Each destination below is its own separately-deployed Netlify site. These
+# rules proxy that content through the main domain at a clean path --
+# status 200 means "rewrite", so the address bar keeps showing
+# noblefathercreations.com/<slug> instead of jumping to *.netlify.app.
+#
+# NOTE: an exact-match source (no `*`) must NOT use :splat in its
+# destination -- there is no wildcard to capture, and Netlify accepts the
+# syntax while the rule then fails to serve. Only the paired /slug/* rule
+# gets :splat.
+
+# ---- the library (books) ----
 /feminine      https://sovereign-woman.netlify.app/                  200
 /feminine/*    https://sovereign-woman.netlify.app/:splat            200
 /children      https://playgroundprotector.netlify.app/              200
@@ -17,11 +19,29 @@
 /fractal/*     https://thefractal.netlify.app/:splat                 200
 /fracture      https://fractures.netlify.app/                        200
 /fracture/*    https://fractures.netlify.app/:splat                  200
+/faith         https://thenobledivide.netlify.app/                   200
+/faith/*       https://thenobledivide.netlify.app/:splat             200
 /loop          https://noble-the-loop.netlify.app/                   200
 /loop/*        https://noble-the-loop.netlify.app/:splat             200
 /scale         https://noble-the-weighing.netlify.app/               200
 /scale/*       https://noble-the-weighing.netlify.app/:splat         200
-/faith         https://thenobledivide.netlify.app/                   200
-/faith/*       https://thenobledivide.netlify.app/:splat             200
+
+# ---- the lab (tools + music) ----
+/playbook      https://noblepatterns.netlify.app/                    200
+/playbook/*    https://noblepatterns.netlify.app/:splat              200
+/shadowroot    https://nobleshadows.netlify.app/                     200
+/shadowroot/*  https://nobleshadows.netlify.app/:splat               200
 /music         https://noblemusic.netlify.app/                       200
 /music/*       https://noblemusic.netlify.app/:splat                 200
+
+# ---- the workshop (craft) ----
+/portals       https://nfcportals.netlify.app/                       200
+/portals/*     https://nfcportals.netlify.app/:splat                 200
+/press         https://noblenfcseals.netlify.app/                    200
+/press/*       https://noblenfcseals.netlify.app/:splat              200
+
+# Singular/alternate spellings people are likely to type or to have been
+# given on a card, kept as real redirects (301) so there is one canonical
+# path per product rather than two addresses serving identical content.
+/portal        /portals                                              301
+/seals         /press                                                301
