@@ -1631,3 +1631,69 @@ this embedded nav-drawer component. Out of scope for a hub-only pass.
 
 Tagged `v2` in `sites.json` and the on-page `#updates` section (kept as
 a second, newer entry above the existing v1 one — not overwritten).
+
+## Update (2026-08-09) — emil-design-eng polish pass: press feedback + touch-hover gating
+
+User invoked the `emil-design-eng` skill directly on the hub, asking to
+"offer/implement even higher touches throughout everywhere possible."
+Audited the whole page's CSS against the skill's checklist (custom
+easing, `:active` press feedback, hover-gating for touch, transform-
+origin, stagger) rather than guessing at what "premium" meant. Most of
+the page already followed the playbook well — custom cubic-bezier
+easing everywhere (no bare `ease-in`), no `transition:all`, the drawer
+already had per-row entrance stagger and asymmetric open/close timing,
+reduced-motion was already handled thoroughly. Two real, consistent
+gaps found:
+
+1. **Almost nothing had `:active` press feedback** — `.btn`, `.pay-go`,
+   `.music-cta`, `.st-vol-open`, `.st-enter`, `.nf-close`, `.nf-row a`,
+   `.pay-card`, and worst of all `#nfTutorial button` ("Choose a door")
+   all had hover states but zero response to an actual tap or click.
+   Added `:active{transform:scale(...)}` (0.96–0.98 depending on
+   element size) to all of them, matching the `transition-duration`
+   override idiom the file already used on `.nf-seal:active`. Two of
+   these (`.btn.primary`/`.btn.ghost` and `.pay-card .pay-go`) needed
+   the new rule written at matching specificity to the existing hover
+   rule, not just added — a bare `.btn:active` or `.pay-go:active` has
+   *lower* specificity than `.btn.primary:hover` or
+   `.pay-card:hover .pay-go`, so on a real click (hover+active both
+   true at once on desktop) the hover rule would silently keep winning
+   and the press would never visibly show. Caught this by reasoning
+   through specificity, not by eyeballing — worth remembering as a
+   general trap whenever adding an `:active` sibling to an existing
+   `:hover` rule.
+2. **`.st-vol` (book cards) had the same touch-hover bug already fixed
+   on `.st-portal` earlier this session** — the 3D book tilt, its gloss
+   sweep, and the arrow nudge all fired on bare `:hover` with no
+   `@media(hover:hover) and (pointer:fine)` gate, so a tap on a phone
+   (which fakes `:hover`) could leave a book stuck mid-tilt. Split each
+   of those rules into a gated `:hover` version plus an ungated
+   `:focus-within` version (keyboard access preserved on all devices),
+   and gave touch devices their own `:active{scale(.97)}` press instead
+   via `@media not all and (hover:hover) and (pointer:fine)`. Left plain
+   color-only hover transitions (title color, tag border-color)
+   ungated — those are harmless even if "stuck" on a tap-then-navigate,
+   and gating every single color rule on the page would have been scope
+   creep past what the actual bug class (transform effects) required.
+
+Also added a small entrance stagger to the hero's four stat numbers
+(`.st-colophon` — "2 living tools / 8 books / 2 NFC lines / Free"),
+which previously faded in as one flat block. Since the hero sits behind
+the video overlay and the tutorial modal at first paint, a plain
+CSS-autoplay animation would have finished invisibly before the user
+ever saw it — hooked the stagger's trigger class into the same
+`revealColophon()` call already firing when the video dismisses, so it
+actually plays once the hero becomes visible instead of racing ahead of
+it.
+
+Verified via Playwright by literally holding `mouse.down()` on each
+element and reading `getComputedStyle(...).transform` — confirmed
+`.st-portal` shows `scale(.98)`, `.btn.primary` shows `scale(.97)` (not
+just the old `translateY(-2px)`, proving the specificity fix works),
+`.nf-close` shows the combined `rotate(90deg) scale(.88)`, and the
+colophon stagger genuinely animates in sequence rather than all at
+once. Re-ran the full gate/scroll-lock/unlock regression sweep at
+375/768/1440px afterward — unchanged, still locked/unbypassable/
+unlocking correctly, zero console errors, zero overflow.
+
+Tagged `v3` in `sites.json` and the on-page `#updates` section.
