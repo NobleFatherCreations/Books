@@ -1697,3 +1697,87 @@ once. Re-ran the full gate/scroll-lock/unlock regression sweep at
 unlocking correctly, zero console errors, zero overflow.
 
 Tagged `v3` in `sites.json` and the on-page `#updates` section.
+
+## Update (2026-08-09, later) — v4: I shipped a sheared title; root causes of "no video / no animations"
+
+User sent a phone screenshot of the **live** site: title sliced in half at
+the top, seal showing plain "NF", and "no animations, no video… why do we
+keep going backwards?" Three genuinely separate causes, only one of which
+was a regression — worth keeping straight, because I nearly mis-attributed
+all three to the same thing.
+
+**1. The sheared title WAS my regression, from the v2 scroll fix.** Making
+`.st-hero` a scroll container solved "title unreachable" but created
+"title sheared", because the gate content was **953px tall inside a ~715px
+phone viewport**. A gate that scrolls internally never reads as deliberate.
+Two compounding facts I had missed the first time:
+  - **`.st-hero-beam` is `height:150%` and `.st-hero-glow` is a large
+    absolutely-positioned circle.** While `.st-hero` had `overflow:hidden`
+    these were harmlessly clipped; the moment it became `overflow-y:auto`
+    they counted as *scrollable overflow* — ~300px of empty scroll under
+    the composition, which is most of why the numbers looked so bad.
+    Fixed by giving `.st-hero-room` its own `overflow:hidden` so the
+    atmosphere clips to the room regardless of what the hero is doing.
+    **General lesson: turning any element into a scroll container
+    retroactively changes what its absolutely-positioned decorative
+    children mean.**
+  - The remaining ~455px of real content was simply more than a gate needs.
+    Fixed properly rather than by shrinking type: while `html.nf-gate-lock`
+    is on, the hero shows only *gate* things — mark, eyebrow, title, one
+    line of voice, three doors, escape link. The thesis, the 4-stat rule
+    and the redundant caption (the tutorial modal already explains all
+    three doors) are `display:none` and return the instant a door is
+    chosen. **Applied at every width, not just phones** — a 1440x900
+    laptop was also hiding its doors below an unscrollable fold, same
+    defect, bigger screen. Also added `align-items:flex-start;
+    align-items:safe center` — `safe center` centres when it fits and
+    falls back to start instead of clipping when it doesn't; browsers
+    without `safe` keep the flex-start line. Verified `safe center`
+    actually resolves in the engine, not just parses.
+  Result: **0px overflow at 375x553 / 390x714 / 428x796 / 768x1024 /
+  1440x900**, title never under the masthead, doors always in view.
+
+**2. "No video / no animations" was almost certainly NOT a regression** —
+two environment causes, both invisible from my side, and I should have
+considered them before assuming my code:
+  - **iOS Low Power Mode blocks autoplay outright**, muted and
+    `playsinline` notwithstanding. The screenshot showed **7% battery, red**
+    — Low Power almost certainly on. No code can force playback here.
+  - **`prefers-reduced-motion: reduce`** hit *two* rules that between them
+    produced a completely inert page: `#heroIntro{display:none}` (no intro
+    at all) and a blanket `*{animation:none!important;transition:none!
+    important}` (no fades anywhere). That blanket rule is contrary to the
+    actual guidance — reduced motion means *less movement*, not a dead
+    page; opacity and colour fades carry no motion signal and should stay.
+  Fixed both so neither degrades to nothing: the reduced-motion and
+  autoplay-refused paths now both add `.hi-still`, holding the video's
+  **own poster frame** as a still title card (a paused `<video>` already
+  paints its poster — no base64 re-embedding needed; my first attempt
+  reached for a CSS background var that didn't exist). The blanket
+  reduced-motion rule is now targeted: `animation-name:none` plus a
+  `transition-property` allow-list of opacity/colour/shadow/filter.
+  Verified under `reducedMotion:'reduce'`: still card renders, dismisses,
+  tutorial appears, **0 elements stuck invisible**.
+  - **Third possibility, worth telling the user rather than fixing:**
+    `sessionStorage.nfHeroIntroSeen` deliberately plays the intro only
+    once per tab. Someone reloading the same tab all day will never see it
+    again. Not a bug — but it means "I see no video" can simply mean
+    "same tab as an hour ago." A fresh tab or Private window replays it.
+
+**3. The seal was never the logo** — `<button class="nf-seal">NF</button>`,
+literal text, since the component was written. Not a regression, but a
+wax seal's entire metaphor is that something was *pressed into* it, so two
+letters were always a placeholder. Now carries `--brand-logo` at 32px in
+the 56px disc (0.57 ratio, 12px rim — measured, not eyeballed).
+
+**Two smaller defects caught by measuring rather than looking:** "THE
+WORKSHOP" was the only door sub-label wrapping to two lines (making the
+middle door's label sit a row lower than its neighbours), and on a 375pt
+screen the escape link's last word rendered *underneath* the fixed corner
+seal. Both found by scripting an actual box-intersection test and a
+`height / line-height` wrap check across three phone widths — neither is
+obvious in a screenshot at a glance.
+
+Tagged `v4`. Re-ran the whole gate/press-feedback suite afterwards:
+locked-and-unbypassable, unlocks correctly, every `:active` still fires,
+hidden gate content confirmed to return visible in both motion modes.

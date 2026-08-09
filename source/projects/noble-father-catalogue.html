@@ -204,8 +204,16 @@
 
   a:focus-visible,.btn:focus-visible,.open:focus-visible,.stretch:focus-visible{ outline:2px solid var(--brass-bright); outline-offset:3px; }
   @media (prefers-reduced-motion:reduce){
-    *{ animation:none !important; transition:none !important; scroll-behavior:auto !important; }
-    .reveal{ opacity:1; transform:none; }
+    /* Reduced motion means less movement, not a dead page. Travel, scale,
+       rotation and parallax all go; opacity and colour fades stay, because
+       they carry no motion signal and are what keeps state changes legible.
+       (The old blanket `*{animation:none;transition:none}` also silently
+       killed every fade on the page, which read as "nothing works".) */
+    *{ scroll-behavior:auto !important; }
+    *{ animation-name:none !important; }
+    *{ transition-property:opacity,color,background-color,border-color,box-shadow,filter !important;
+       transition-duration:.24s !important; }
+    .reveal,.nf-r{ opacity:1; transform:none; filter:none; }
     .cover img,.craft .scene img{ transform:none !important; }
   }
 
@@ -253,7 +261,11 @@
 /* ---- the room ---- */
 .st-hero{position:relative;min-height:100svh;display:flex;align-items:center;
   justify-content:center;overflow:hidden;padding:96px 22px 72px;isolation:isolate}
-.st-hero-room{position:absolute;inset:0;z-index:0;pointer-events:none}
+/* the room clips its own atmosphere. .st-hero used to do this via its own
+   overflow:hidden, but the gate turns .st-hero into a scroll container, and
+   an oversized decorative layer (.st-hero-beam is height:150%) then counts
+   as scrollable content -- ~300px of empty scroll under the composition. */
+.st-hero-room{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
 /* the brand banner, lifted out of the flow and hung as the room's back wall:
    natural aspect so its key art is never blown up, masked into the dark */
 .st-hero-plate{position:absolute;top:0;left:0;width:100%;height:auto;
@@ -957,7 +969,12 @@
   color:var(--bone-dim);background:rgba(20,16,25,.55);border:1px solid var(--line);border-radius:2px;
   padding:10px 16px;cursor:pointer;transition:border-color .3s var(--ease),color .3s var(--ease);}
 #heroIntro .hi-skip:hover{border-color:var(--brass);color:var(--brass-bright);}
-@media (prefers-reduced-motion:reduce){#heroIntro{display:none;}}
+/* The still title card: used when playback is refused (iOS Low Power Mode)
+   blocks autoplay outright) or when the visitor asked for reduced motion.
+   A paused <video> already paints its own poster -- the first frame of the
+   same clip -- so nothing needs re-embedding here; the moment simply holds
+   instead of moving. The skip control is pointless on a still, so it goes. */
+#heroIntro.hi-still .hi-skip{opacity:0;pointer-events:none;}
 </style>
 <style id="st-type">
 /* ============================================================
@@ -1238,6 +1255,65 @@
   .st-colophon.nf-cl-in li:nth-child(4){animation-delay:.22s}
   @keyframes stColophonIn{to{opacity:1;transform:none}}
 }
+
+/* ---------- 7. the seal carries the maker's mark, not two letters ---------- */
+/* A wax seal's whole point is that something was pressed into it. "NF" set
+   in a serif was a placeholder standing in for the stamp. */
+.nf-seal-mark{
+  display:block;width:32px;height:32px;
+  background-image:var(--brand-logo);background-size:contain;
+  background-repeat:no-repeat;background-position:center;
+  filter:drop-shadow(0 1px 2px rgba(0,0,0,.55));
+  transition:transform 180ms var(--nf-ease);
+}
+@media (hover:hover) and (pointer:fine){
+  .nf-seal:hover .nf-seal-mark{transform:scale(1.06)}
+}
+
+/* ---------- 8. the gate has to fit the phone it opens on ---------- */
+/* The door screen had grown to ~950px of content inside a ~715px phone
+   viewport, so it scrolled internally and sheared the title in half at the
+   container's top edge. Rather than let a "gate" scroll -- which never reads
+   as deliberate -- the gate now shows only what it needs to be a gate:
+   the mark, the title, one line of voice, the three doors, and the way past
+   them. The thesis, the stat rule and the redundant caption (the tutorial
+   already explains all three doors) return the moment a door is chosen. */
+/* Applies at every width, not just phones: on a 1440x900 laptop the full
+   hero ran ~1275px, so the doors sat below the fold of a screen the visitor
+   is not allowed to scroll. A gate that hides its own doors is the same
+   defect either way. */
+html.nf-gate-lock .st-hero-thesis,
+html.nf-gate-lock .st-colophon,
+html.nf-gate-lock .st-portals-note{display:none}
+html.nf-gate-lock .st-hero{padding-top:40px;padding-bottom:44px}
+html.nf-gate-lock .st-hero-mantra{margin-top:16px}
+html.nf-gate-lock .st-portals{margin-top:38px}
+html.nf-gate-lock .st-enter{margin-top:30px}
+@media (max-width:700px){
+  html.nf-gate-lock .st-hero{padding-top:20px;padding-bottom:58px}
+  html.nf-gate-lock .st-hero-seal{width:58px;height:58px;margin-bottom:14px}
+  html.nf-gate-lock .st-hero-seal::after{inset:6px}
+  html.nf-gate-lock .st-hero-emblem{width:32px;height:32px}
+  html.nf-gate-lock .st-hero-eyebrow{margin-bottom:10px}
+  html.nf-gate-lock .st-hero-mantra{margin-top:12px}
+  html.nf-gate-lock .st-portals{margin-top:26px}
+  html.nf-gate-lock .st-enter{margin-top:20px}
+  /* "THE WORKSHOP" is the longest of the three and was the only one wrapping
+     to a second line, which made the middle door's label sit a row lower than
+     its neighbours. All three now hold one line at every phone width. */
+  .st-portal .pg-label span{font-size:.5rem;letter-spacing:.06em;white-space:nowrap}
+}
+/* The escape line runs the full width of a phone, and the fixed seal sits in
+   the bottom-right corner over it -- on a 375pt screen the last word landed
+   underneath the seal. Tightened so the line ends well clear of it. */
+@media (max-width:430px){
+  html.nf-gate-lock .st-enter{font-size:9.5px;letter-spacing:.13em}
+}
+/* If a viewport is still too short for even that (very small phones, or a
+   landscape phone), `safe center` keeps the top of the composition reachable
+   instead of centring it into a clip. Browsers without `safe` keep the
+   flex-start above, which is the same conservative behaviour. */
+html.nf-gate-lock .st-hero{align-items:flex-start;align-items:safe center}
 </style>
 </head>
 <div id="heroIntro" aria-hidden="true">
@@ -1258,7 +1334,8 @@
   var seen = false;
   try { seen = sessionStorage.getItem('nfHeroIntroSeen') === '1'; } catch(_){}
 
-  if (reduced || seen) { overlay.remove(); window.nfGateReady && window.nfGateReady(); revealColophon(); return; }
+  // Already shown once in this tab -- don't replay on every reload.
+  if (seen) { overlay.remove(); window.nfGateReady && window.nfGateReady(); revealColophon(); return; }
   try { sessionStorage.setItem('nfHeroIntroSeen', '1'); } catch(_){}
 
   var dismissed = false;
@@ -1281,6 +1358,12 @@
   skipBtn.addEventListener('click', dismiss);
   setTimeout(dismiss, 12000);
 
+  // Reduce Motion: never play the clip, but still hold its first frame as a
+  // still title card. A static image carries no motion, so it respects the
+  // preference -- where removing the overlay outright just meant "nothing
+  // happened" for those users.
+  if (reduced) { overlay.classList.add('hi-still'); setTimeout(dismiss, 1500); return; }
+
   function attemptPlay(retriesLeft){
     var p = video.play();
     if (!p || typeof p.catch !== 'function') return;
@@ -1288,7 +1371,11 @@
       if (retriesLeft > 0){
         setTimeout(function(){ attemptPlay(retriesLeft - 1); }, 250);
       } else {
-        setTimeout(dismiss, 1800);
+        // iOS Low Power Mode blocks autoplay outright, muted or not. Nothing
+        // can force it, so present the poster frame as a deliberate title
+        // card rather than a video that visibly failed.
+        overlay.classList.add('hi-still');
+        setTimeout(dismiss, 2000);
       }
     });
   }
@@ -1642,7 +1729,14 @@
       <span class="thesis-mini">Worn in the light. Alive in the dark.</span>
     </div>
     <section id="updates">
-      <p class="updates-version">v3 &mdash; 2026-08-09</p>
+      <p class="updates-version">v4 &mdash; 2026-08-09</p>
+      <ul>
+        <li>The button in the corner is now the Noble Father mark instead of the letters "NF".</li>
+        <li>Fixed the title being sliced in half at the top of the opening screen. The door screen had more on it than fits a phone, so it was scrolling inside its own frame; it now shows only what an entrance needs and fits one screen on every size, with the rest returning once a door is chosen.</li>
+        <li>"The Workshop" no longer wraps onto a second line under its door, and the link below the doors no longer runs behind the corner button.</li>
+        <li>Phones with motion turned down, or in Low Power Mode (which blocks video outright), now get the opening frame held as a still title card instead of a blank screen.</li>
+      </ul>
+      <p class="updates-version" style="margin-top:16px">v3 &mdash; 2026-08-09</p>
       <ul>
         <li>Every button and card now visibly presses when tapped or clicked, not just when hovered -- including the tutorial's own "Choose a door" button, which previously had no reaction to a click at all.</li>
         <li>Fixed a touch-device bug where the 3D book-tilt effect in the Library and Workshop could stay stuck in its tilted position after tapping a card.</li>
@@ -1739,7 +1833,7 @@
 })();
 </script>
 
-<div id="nf-chrome" class="nf-chrome" data-nf-page="home" data-nf-reveal='[[".section", "rise"], [".manifesto", "rise"], [".book", "rise"]]'><div class="nf-ribbon" aria-hidden="true"></div><div class="nf-veil" aria-hidden="true"></div><button class="nf-seal" type="button" aria-expanded="false" aria-controls="nf-panel" aria-label="Open the Catalogue — Noble Father Creations">NF</button><div class="nf-scrim" aria-hidden="true"></div><nav class="nf-panel" id="nf-panel" aria-label="The Catalogue" aria-hidden="true"><div class="nf-panel-head"><div><div class="nf-eyebrow">Noble Father Creations</div><h2 class="nf-panel-title">The Catalogue</h2></div><button class="nf-close" type="button" aria-label="Close the Catalogue">&#10005;</button></div><div class="nf-onpage"><p class="nf-eyebrow" style="padding:14px 26px 0">On This Page</p><ul class="nf-toc nf-toc-page"><li class="nf-row"><a href="#instruments"><span class="nf-dot" aria-hidden="true"></span><span class="nf-num">00</span><span class="nf-vol">The Instruments</span></a></li><li class="nf-row"><a href="#library"><span class="nf-dot" aria-hidden="true"></span><span class="nf-num">01</span><span class="nf-vol">The Library</span></a></li><li class="nf-row"><a href="#workshop"><span class="nf-dot" aria-hidden="true"></span><span class="nf-num">02</span><span class="nf-vol">The Workshop</span></a></li><li class="nf-row"><a href="#music"><span class="nf-dot" aria-hidden="true"></span><span class="nf-num">03</span><span class="nf-vol">The Music</span></a></li><li class="nf-row"><a href="#maker"><span class="nf-dot" aria-hidden="true"></span><span class="nf-num">&mdash;</span><span class="nf-vol">The Maker</span></a></li><li class="nf-row"><a href="#support"><span class="nf-dot" aria-hidden="true"></span><span class="nf-num">04</span><span class="nf-vol">Support</span></a></li></ul></div><ul class="nf-toc"><li class="nf-row" style="--nf-i:0"><a href="https://sovereign-woman.netlify.app/"><span class="nf-dot" style="--va:#9b86ff" aria-hidden="true"></span><span class="nf-num">VOL. I</span><span class="nf-vol">The Sovereign Divine Feminine</span><span class="nf-desc">A field guide</span></a></li><li class="nf-row" style="--nf-i:1"><a href="https://playgroundprotector.netlify.app/"><span class="nf-dot" style="--va:#ffb24d" aria-hidden="true"></span><span class="nf-num">VOL. II</span><span class="nf-vol">Playground Protectors</span><span class="nf-desc">Shaela's guide for brave kids</span></a></li><li class="nf-row" style="--nf-i:2"><a href="https://wook-in-sheeps-clothing.netlify.app/"><span class="nf-dot" style="--va:#5fd0d8" aria-hidden="true"></span><span class="nf-num">VOL. III</span><span class="nf-vol">The Festie Codex</span><span class="nf-desc">The gate — attendee's cut</span></a></li><li class="nf-row" style="--nf-i:3"><a href="https://thefractal.netlify.app/"><span class="nf-dot" style="--va:#e0584c" aria-hidden="true"></span><span class="nf-num">VOL. IV</span><span class="nf-vol">The Fractal</span><span class="nf-desc">One pattern runs the world</span></a></li><li class="nf-row" style="--nf-i:4"><a href="https://fractures.netlify.app/"><span class="nf-dot" style="--va:#c9a35b" aria-hidden="true"></span><span class="nf-num">VOL. V</span><span class="nf-vol">The Fracture Everywhere</span><span class="nf-desc">The reading edition</span></a></li><li class="nf-row" style="--nf-i:5"><a href="https://thenobledivide.netlify.app/"><span class="nf-dot" style="--va:#7FB2E8" aria-hidden="true"></span><span class="nf-num">VOL. VI</span><span class="nf-vol">The Sacred Divide</span><span class="nf-desc">25 traditions, 750 entries</span></a></li><li class="nf-row" style="--nf-i:6"><a href="https://noble-the-loop.netlify.app/"><span class="nf-dot" style="--va:#B04250" aria-hidden="true"></span><span class="nf-num">VOL. VII</span><span class="nf-vol">The Loop</span><span class="nf-desc">The machine that learns you</span></a></li><li class="nf-row" style="--nf-i:7"><a href="https://noble-the-weighing.netlify.app/"><span class="nf-dot" style="--va:#e8c879" aria-hidden="true"></span><span class="nf-num">VOL. VIII</span><span class="nf-vol">The Weighing</span><span class="nf-desc">How to be right about people</span></a></li><li class="nf-row" style="--nf-i:8"><a href="https://noblepatterns.netlify.app/" target="_blank" rel="noopener"><span class="nf-dot" style="--va:#e8a34f" aria-hidden="true"></span><span class="nf-num">TOOL 01</span><span class="nf-vol">The Pattern Decoder</span><span class="nf-ext">&#8599;</span><span class="nf-desc">349 tactics, decoded</span></a></li><li class="nf-row" style="--nf-i:9"><a href="https://nobleshadows.netlify.app/"><span class="nf-dot" style="--va:#d98fc0" aria-hidden="true"></span><span class="nf-num">TOOL 02</span><span class="nf-vol">The Root</span><span class="nf-desc">A shadow work practice</span></a></li><li class="nf-row" style="--nf-i:10"><a href="https://nfcportals.netlify.app/"><span class="nf-dot" style="--va:#e8c879" aria-hidden="true"></span><span class="nf-num">PIECE 01</span><span class="nf-vol">The Portals</span><span class="nf-desc">Strontium glow, no battery</span></a></li><li class="nf-row" style="--nf-i:11"><a href="https://noblenfcseals.netlify.app/"><span class="nf-dot" style="--va:#e8c879" aria-hidden="true"></span><span class="nf-num">PIECE 02</span><span class="nf-vol">The Press</span><span class="nf-desc">Real wax, a voice inside</span></a></li><li class="nf-row" style="--nf-i:12"><a href="https://noblemusic.netlify.app/" target="_blank" rel="noopener"><span class="nf-dot" style="--va:#8A8071" aria-hidden="true"></span><span class="nf-num">—</span><span class="nf-vol">The Music</span><span class="nf-ext">&#8599;</span><span class="nf-desc">Free to stream</span></a></li></ul><div class="nf-panel-foot">Bound by hand in the study &mdash; thirteen volumes &amp; counting.</div></nav></div>
+<div id="nf-chrome" class="nf-chrome" data-nf-page="home" data-nf-reveal='[[".section", "rise"], [".manifesto", "rise"], [".book", "rise"]]'><div class="nf-ribbon" aria-hidden="true"></div><div class="nf-veil" aria-hidden="true"></div><button class="nf-seal" type="button" aria-expanded="false" aria-controls="nf-panel" aria-label="Open the Catalogue — Noble Father Creations"><span class="nf-seal-mark" aria-hidden="true"></span></button><div class="nf-scrim" aria-hidden="true"></div><nav class="nf-panel" id="nf-panel" aria-label="The Catalogue" aria-hidden="true"><div class="nf-panel-head"><div><div class="nf-eyebrow">Noble Father Creations</div><h2 class="nf-panel-title">The Catalogue</h2></div><button class="nf-close" type="button" aria-label="Close the Catalogue">&#10005;</button></div><div class="nf-onpage"><p class="nf-eyebrow" style="padding:14px 26px 0">On This Page</p><ul class="nf-toc nf-toc-page"><li class="nf-row"><a href="#instruments"><span class="nf-dot" aria-hidden="true"></span><span class="nf-num">00</span><span class="nf-vol">The Instruments</span></a></li><li class="nf-row"><a href="#library"><span class="nf-dot" aria-hidden="true"></span><span class="nf-num">01</span><span class="nf-vol">The Library</span></a></li><li class="nf-row"><a href="#workshop"><span class="nf-dot" aria-hidden="true"></span><span class="nf-num">02</span><span class="nf-vol">The Workshop</span></a></li><li class="nf-row"><a href="#music"><span class="nf-dot" aria-hidden="true"></span><span class="nf-num">03</span><span class="nf-vol">The Music</span></a></li><li class="nf-row"><a href="#maker"><span class="nf-dot" aria-hidden="true"></span><span class="nf-num">&mdash;</span><span class="nf-vol">The Maker</span></a></li><li class="nf-row"><a href="#support"><span class="nf-dot" aria-hidden="true"></span><span class="nf-num">04</span><span class="nf-vol">Support</span></a></li></ul></div><ul class="nf-toc"><li class="nf-row" style="--nf-i:0"><a href="https://sovereign-woman.netlify.app/"><span class="nf-dot" style="--va:#9b86ff" aria-hidden="true"></span><span class="nf-num">VOL. I</span><span class="nf-vol">The Sovereign Divine Feminine</span><span class="nf-desc">A field guide</span></a></li><li class="nf-row" style="--nf-i:1"><a href="https://playgroundprotector.netlify.app/"><span class="nf-dot" style="--va:#ffb24d" aria-hidden="true"></span><span class="nf-num">VOL. II</span><span class="nf-vol">Playground Protectors</span><span class="nf-desc">Shaela's guide for brave kids</span></a></li><li class="nf-row" style="--nf-i:2"><a href="https://wook-in-sheeps-clothing.netlify.app/"><span class="nf-dot" style="--va:#5fd0d8" aria-hidden="true"></span><span class="nf-num">VOL. III</span><span class="nf-vol">The Festie Codex</span><span class="nf-desc">The gate — attendee's cut</span></a></li><li class="nf-row" style="--nf-i:3"><a href="https://thefractal.netlify.app/"><span class="nf-dot" style="--va:#e0584c" aria-hidden="true"></span><span class="nf-num">VOL. IV</span><span class="nf-vol">The Fractal</span><span class="nf-desc">One pattern runs the world</span></a></li><li class="nf-row" style="--nf-i:4"><a href="https://fractures.netlify.app/"><span class="nf-dot" style="--va:#c9a35b" aria-hidden="true"></span><span class="nf-num">VOL. V</span><span class="nf-vol">The Fracture Everywhere</span><span class="nf-desc">The reading edition</span></a></li><li class="nf-row" style="--nf-i:5"><a href="https://thenobledivide.netlify.app/"><span class="nf-dot" style="--va:#7FB2E8" aria-hidden="true"></span><span class="nf-num">VOL. VI</span><span class="nf-vol">The Sacred Divide</span><span class="nf-desc">25 traditions, 750 entries</span></a></li><li class="nf-row" style="--nf-i:6"><a href="https://noble-the-loop.netlify.app/"><span class="nf-dot" style="--va:#B04250" aria-hidden="true"></span><span class="nf-num">VOL. VII</span><span class="nf-vol">The Loop</span><span class="nf-desc">The machine that learns you</span></a></li><li class="nf-row" style="--nf-i:7"><a href="https://noble-the-weighing.netlify.app/"><span class="nf-dot" style="--va:#e8c879" aria-hidden="true"></span><span class="nf-num">VOL. VIII</span><span class="nf-vol">The Weighing</span><span class="nf-desc">How to be right about people</span></a></li><li class="nf-row" style="--nf-i:8"><a href="https://noblepatterns.netlify.app/" target="_blank" rel="noopener"><span class="nf-dot" style="--va:#e8a34f" aria-hidden="true"></span><span class="nf-num">TOOL 01</span><span class="nf-vol">The Pattern Decoder</span><span class="nf-ext">&#8599;</span><span class="nf-desc">349 tactics, decoded</span></a></li><li class="nf-row" style="--nf-i:9"><a href="https://nobleshadows.netlify.app/"><span class="nf-dot" style="--va:#d98fc0" aria-hidden="true"></span><span class="nf-num">TOOL 02</span><span class="nf-vol">The Root</span><span class="nf-desc">A shadow work practice</span></a></li><li class="nf-row" style="--nf-i:10"><a href="https://nfcportals.netlify.app/"><span class="nf-dot" style="--va:#e8c879" aria-hidden="true"></span><span class="nf-num">PIECE 01</span><span class="nf-vol">The Portals</span><span class="nf-desc">Strontium glow, no battery</span></a></li><li class="nf-row" style="--nf-i:11"><a href="https://noblenfcseals.netlify.app/"><span class="nf-dot" style="--va:#e8c879" aria-hidden="true"></span><span class="nf-num">PIECE 02</span><span class="nf-vol">The Press</span><span class="nf-desc">Real wax, a voice inside</span></a></li><li class="nf-row" style="--nf-i:12"><a href="https://noblemusic.netlify.app/" target="_blank" rel="noopener"><span class="nf-dot" style="--va:#8A8071" aria-hidden="true"></span><span class="nf-num">—</span><span class="nf-vol">The Music</span><span class="nf-ext">&#8599;</span><span class="nf-desc">Free to stream</span></a></li></ul><div class="nf-panel-foot">Bound by hand in the study &mdash; thirteen volumes &amp; counting.</div></nav></div>
 <script id="nf-chrome-js">
 (function(){
   var root=document.getElementById('nf-chrome');if(!root)return;

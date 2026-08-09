@@ -10,8 +10,13 @@
     "deploySource": "cli",
     "localSource": "source/projects/noble-father-catalogue.html",
     "localSourceNote": "This is the first verified live deploy of the redesigned 'collected works' hub. A 2026-08-02 review package claimed the catalogue hub redesign was already deployed, but it did NOT byte-match live content at the time -- treat this 2026-08-05 deploy as the true first release.",
-    "version": "v3",
+    "version": "v4",
     "changelog": [
+      {
+        "date": "2026-08-09",
+        "version": "v4",
+        "summary": "The red button in the corner is now the Noble Father mark instead of the letters \"NF\". Fixed the title being sliced in half at the top of the opening screen: the door screen had more on it than fits a phone, so it had been scrolling inside its own frame. It now shows only what an entrance needs -- the mark, the title, one line, and the three doors -- and fits one screen on every phone, tablet and laptop, with the rest of the page returning the moment a door is chosen. \"The Workshop\" no longer wraps onto a second line under its door, and the last words of the link below the doors no longer hide behind the corner button. Visitors who have motion turned down, and phones in Low Power Mode (which blocks video outright), now get the opening frame held as a still title card instead of a blank screen, and the rest of the page keeps its gentle fades instead of switching off every animation."
+      },
       {
         "date": "2026-08-09",
         "version": "v3",
