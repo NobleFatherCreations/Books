@@ -1,0 +1,27 @@
+# Each of these is its own separate Netlify site (deployed independently,
+# no shared build). These rules proxy that content through the main
+# domain at a clean path -- status 200 means "rewrite", so the address
+# bar keeps showing noblefathercreations.com/<slug> instead of jumping
+# to the project's own *.netlify.app subdomain.
+/playbook     https://noblepatterns.netlify.app/:splat              200
+/playbook/*   https://noblepatterns.netlify.app/:splat              200
+/shadowroot   https://nobleshadows.netlify.app/:splat                200
+/shadowroot/* https://nobleshadows.netlify.app/:splat                200
+/feminine     https://sovereign-woman.netlify.app/:splat             200
+/feminine/*   https://sovereign-woman.netlify.app/:splat             200
+/children     https://playgroundprotector.netlify.app/:splat         200
+/children/*   https://playgroundprotector.netlify.app/:splat         200
+/wook         https://wook-in-sheeps-clothing.netlify.app/:splat     200
+/wook/*       https://wook-in-sheeps-clothing.netlify.app/:splat     200
+/fractal      https://thefractal.netlify.app/:splat                  200
+/fractal/*    https://thefractal.netlify.app/:splat                  200
+/fracture     https://fractures.netlify.app/:splat                   200
+/fracture/*   https://fractures.netlify.app/:splat                   200
+/loop         https://noble-the-loop.netlify.app/:splat              200
+/loop/*       https://noble-the-loop.netlify.app/:splat              200
+/scale        https://noble-the-weighing.netlify.app/:splat          200
+/scale/*      https://noble-the-weighing.netlify.app/:splat          200
+/faith        https://thenobledivide.netlify.app/:splat              200
+/faith/*      https://thenobledivide.netlify.app/:splat              200
+/music        https://noblemusic.netlify.app/:splat                  200
+/music/*      https://noblemusic.netlify.app/:splat                  200

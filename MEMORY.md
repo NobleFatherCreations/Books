@@ -1781,3 +1781,107 @@ obvious in a screenshot at a glance.
 Tagged `v4`. Re-ran the whole gate/press-feedback suite afterwards:
 locked-and-unbypassable, unlocks correctly, every `:active` still fires,
 hidden gate content confirmed to return visible in both motion modes.
+
+## Update (2026-08-09, later) — v5: real seal art, music restored, real path routing
+
+Four asks in one round: the user's own logo on the seal, background music
+back with a mute control, a tutorial check, and "why do links show
+netlify.app instead of /faith or /portal."
+
+**Seal image.** User pasted an image (a winged-eye/hat coin medallion) with
+"use this as the button." Found the actual upload at
+`/root/.claude/uploads/<session>/727fbd83-IMG_9810.PNG` (1024x1024, fully
+opaque despite RGBA mode — corners are near-black pixels, not real alpha).
+Measured the coin's true diameter against the frame first (`84px` to
+`943px` of `1024px` — only 84% of the square) rather than assuming
+`background-size:cover` on a circular clip would work; a naive cover+circle
+would have left a black ring inside the button. Cropped tight to the
+coin's own bounding box, resized to 240px, saved as JPEG (21KB) instead of
+PNG (opaque photo-like content, no transparency to preserve). `.nf-seal`'s
+old red wax `radial-gradient` background and now-orphaned `font-family`/
+`text-shadow` (leftover from when the button held literal "NF" text) were
+removed rather than left as dead weight underneath the new image.
+
+**Music.** "Turn the music back on" — the previous Now Playing widget
+(`#npAudio`/`#npWidget`) was removed on 2026-08-05 (commit `7164e35`)
+specifically because a second autoplaying media element alongside the new
+video intro was "exactly the kind of dueling-media mute/autoplay conflict"
+worth avoiding — not because music itself was unwanted. Recovered the
+actual track (~4.64MB MP3, "First of Her Name," 4:50, made with Suno per
+its own ID3 comment) from git history at `7164e35~1` rather than asking
+the user to re-supply it or fabricating something — it was sitting right
+there, removed but not gone. Redesigned the trigger rather than reviving
+the old widget as-is: **music now starts inside `chooseDoor()` itself** —
+the same click that unlocks the gate — because that is a genuine user
+gesture, the only thing that reliably lets a browser start audio with
+sound. A returning visit within the same tab (`sessionStorage` already has
+`nfDoorChosen`) deliberately does **not** auto-play again, since replaying
+on a fresh page load carries no fresh gesture and would likely just be
+silently refused; the mute button is shown either way, so the user can
+always start it manually. Added a new bottom-left `.nf-mute` button
+(mirrors the seal's weight/material, smaller, opposite corner) — this
+also incidentally resolves what was almost certainly a mixed-up request:
+the user asked for the tutorial to identify "the button at the bottom
+left to navigate all pages," but the actual full-catalogue nav button has
+always been bottom-*right* (confirmed via screenshots this whole session).
+The old, since-removed Now Playing widget WAS at bottom-left, at exactly
+`left:18px;bottom:18px` — almost certainly what got conflated in memory.
+Rather than silently move the working bottom-right button or silently
+ignore the instruction, gave bottom-left a real, working button (mute)
+and had the tutorial correctly describe both corners.
+
+**A real bug caught only by testing, not by reasoning about the code:**
+the `<audio>`/`.nf-mute` markup was inserted right before `<div id=
+"nf-chrome">`, which sits near the end of body — but the gate script (the
+one that defines `chooseDoor` and now also `startMusic`) runs from a
+`<script>` tag *earlier* in the document, and does `document.
+getElementById('npToggle')` at the IIFE's own top level, synchronously, as
+the parser reaches it. Since the button didn't exist yet at that point in
+the parse, the lookup returned `null`, and calling `.setAttribute(...)` on
+it threw — which silently aborted the rest of that IIFE, including the
+`.st-portal` click-listener registration further down. First test run
+showed the door click doing *nothing* (no gate unlock, no music, mute
+button never appearing) with zero caught errors, because the test script's
+own error-reporting line never ran either (crashed on a later assertion
+first). Fixed by moving the whole `<audio>`+`<button>` block to
+immediately after `</head>` — this file has no `<body>` tag at all
+(relies on the browser's implicit body, apparently the pattern this whole
+codebase already uses) — guaranteeing the elements exist before any later
+script can reference them. **General lesson for this file: any element a
+`<script>` looks up by ID via a synchronous top-level `document.
+getElementById` must physically precede that script tag in the source,
+full stop — there is no defer/DOMContentLoaded wrapper in play here.**
+Verified via Playwright: mute button hidden + audio paused before a door
+is chosen; both true (visible, playing, correct duration/aria state)
+immediately after a real click on a portal; toggling the button correctly
+pauses/resumes and flips `aria-pressed`/`aria-label`; the returning-visit
+path shows the button without auto-playing.
+
+**Path routing ("why netlify instead of /faith").** Diagnosed by curling
+all 13 slugs from `sites.json`'s `projects[].url` field directly against
+the live domain — every single one 404'd. The aspirational
+`noblefathercreations.com/<slug>` URLs recorded in `sites.json` had never
+actually been wired up on Netlify; the hub's own internal links had always
+pointed straight at each project's raw `*.netlify.app` subdomain instead,
+which is why the address bar showed netlify.app on every click. Confirmed
+via `craftBusiness` in `sites.json` that this was deliberate for exactly
+two items — Portals/"The Shop" and Seals/"The Press" carry their raw
+netlify.app URL as their own canonical `url` field, no aspirational path
+recorded — so those two were correctly left untouched; only the 11
+`projects[]` entries (books + tools) were in scope. Built a `_redirects`
+file (Netlify's rewrite mechanism — status `200` means proxy/rewrite, so
+the address bar keeps showing the clean path instead of jumping to the
+destination) mapping each of the 11 slugs to its real netlify.app site,
+placed in the same staging directory as `index.html` so it deploys
+alongside the hub. Then swapped all 39 occurrences of the 11 raw
+netlify.app URLs across the hub's own markup (drawer nav, `.st-vol-open`
+links, full-card `.stretch` links, the footer's "The Library"/"The
+Workshop" sitemap columns, and the Music section's own CTA) for the clean
+`/slug` paths — found and counted every occurrence with a script before
+touching anything, rather than assuming the drawer was the only place
+these URLs appeared (it wasn't; the footer sitemap and Music's dedicated
+CTA also had their own copies). Verified post-deploy by curling all 11
+new paths against the live domain and confirming `200`, not `404`.
+
+Tagged `v5`. Full gate/scroll-lock/press-feedback regression suite still
+green afterward at 375/768/1440, zero console errors, zero overflow.
