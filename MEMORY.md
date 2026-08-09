@@ -1885,3 +1885,23 @@ new paths against the live domain and confirming `200`, not `404`.
 
 Tagged `v5`. Full gate/scroll-lock/press-feedback regression suite still
 green afterward at 375/768/1440, zero console errors, zero overflow.
+
+**The `_redirects` fix didn't work on the first deploy.** Netlify's own
+deploy summary said "22 redirect rules processed... deployed without
+errors," which reads as confirmation — but every one of the 11 paths
+still 404'd. The actual bug: the exact-match rules (`/faith` with no
+wildcard) had `:splat` in their destination anyway
+(`/faith  https://thenobledivide.netlify.app/:splat  200`) — `:splat`
+only has a value when the *source* pattern contains a `*` to capture;
+on a source with no wildcard there's nothing to splat, and Netlify
+apparently accepts this syntactically ("processed without errors") while
+the rule fails to actually match/serve at request time. Fixed by giving
+exact-match rules a plain destination with no `:splat`, keeping `:splat`
+only on the paired `/slug/*` wildcard rule. Redeployed, curled all 11
+paths again: all `200`, `url_effective` confirms the address bar stays on
+`noblefathercreations.com/<slug>` (a true rewrite, not a redirect), and
+spot-checked page `<title>` tags to confirm each path serves the correct
+project's actual content, not just *a* 200. **Lesson: a platform saying a
+config "deployed without errors" only means it parsed — it is not
+confirmation the rule behaves as intended. Always curl the actual
+outcome.**
