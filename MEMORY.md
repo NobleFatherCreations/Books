@@ -1905,3 +1905,86 @@ project's actual content, not just *a* 200. **Lesson: a platform saying a
 config "deployed without errors" only means it parsed — it is not
 confirmation the rule behaves as intended. Always curl the actual
 outcome.**
+
+## The Festie Bible (2026-08-10) — built from a real 183-page PDF, ships as v1
+
+User uploaded a single-page `FestieBible_MASTER_COVER.pdf` first, asking
+for a plan to "build this as a resource." Investigation found the actual
+file was 1 page (confirmed 3 ways: `pdfinfo`, `pypdf`, rendering) — a
+cover/index for a 12-guide series with zero matching content anywhere in
+the repo. Presented the plan gap honestly rather than guessing; user then
+supplied the real files: `Festie1.pdf` + `Fesitie2.pdf` + `Festie3.pdf` =
+60+61+62 = 183 pages, "FestieBible COMPLETE COLLECTION."
+
+**Extraction had to solve a real font defect, not just parse text.** The
+PDF's embedded font has broken ToUnicode mappings for several ligatures
+(fr/fo/fe/fa/kn...) — `pypdf`, `pdftotext`, and PyMuPDF *all* independently
+reproduce the same silent character drops ("before" → "be re", "festival"
+→ " stival"), confirming it's baked into the PDF, not a tool bug. The
+*visual* rendering is correct (verified by looking at rendered pages), so
+OCR against 300dpi page renders (tesseract, `--psm 6`, `OMP_THREAD_LIMIT=1`
+to fix a 4-way CPU oversubscription that made the first OCR pass hang) was
+used as ground truth for all scenario-page prose instead. The intro/check
+panels are the opposite case — a real authoring bug layers two text blocks
+at the same position there, which OCR faithfully renders as garbled
+overlap but `pypdf` happens to extract cleanly (keeps only one layer) — so
+those specifically pull from `pypdf`, not OCR. The MOVE/SAY/THIS 3-column
+tables needed a third approach: uniform-block OCR reads a 3-column table
+left-to-right per line, interleaving all three columns into nonsense —
+fixed by cropping each column into its own image (549 crops across all
+183 pages) and OCR'ing each in isolation.
+
+Parser (`design/extract-festie-bible.py`) went through several real bugs
+worth remembering: (1) each guide has its *own* 5-part outline (CAPTURE/
+CONDITION/CONTROL/TOOLS/SUPPORT for G.R.O.V.E., but CAPTURE/CONDITION/
+CONTROL/TOOLS/ACCOUNTABILITY for B.A.S.S., and S.A.F.E. has six sections
+entirely renamed) — a hardcoded global section list silently dropped every
+scenario page under a section name it didn't recognize; fixed by deriving
+each guide's own section list from its own intro page. (2) A scenario-page
+classifier checking for the literal string `"DEALING WITH"` (with a space)
+matched almost nothing, because the same label-collision bug that garbles
+the check panel also strips the *visual* word-gap from every all-caps
+section label sitewide (`WHOYOU'REDEALINGWITH`) — the underlying text
+content still has the space in some extractions and not others, so the
+classifier needs `\s*` between words, not a literal match. (3) A leading
+`\x00` control character (an icon glyph `pypdf` couldn't decode) in front
+of every outline row made `^[A-Z]` anchors fail silently — general lesson:
+strip control characters before applying line-anchored regexes to
+`pypdf` output, don't assume clean structure. (4) Some guides' hook
+titles aren't quoted (E.V.E.T.'s are plain capitalized lines) while others
+are — a hook-detection heuristic that only recognized a leading quote mark
+silently mis-parsed 29/150 scenarios (down to 2/149 after fixing).
+Final QA script cross-checked every field on every scenario for emptiness/
+footer-bleed rather than trusting the parser — this is what caught the
+remaining issues instead of shipping them.
+
+Extracted the real embedded brand mark directly from the PDF's image
+streams rather than reusing the hub's inline base64 copy — found its alpha
+channel maxes out at 26/255 (~10% opacity), which is *why* the interior
+brand mark on every page of the source PDF is nearly invisible. Rescaled
+to full 0–255 range to fix it — same defect likely worth checking on other
+Noble Father PDFs if any surface later.
+
+Built as one self-contained HTML app (`source/projects/
+noble-father-festiebible.html`, ~2.25MB) — data-driven from `content/
+festie-bible-data.json` (12 guides, 149 scenarios, ~44k words of scenario
+prose alone), not 150 hand-typed pages, using the hub's own design tokens
+(Fraunces/Hanken Grotesk/Space Mono self-hosted `@font-face`, warm
+plum-black + brass palette, 1180px measure) plus one accent color per
+guide for wayfinding. Playwright-verified at 375/1440px across every
+guide's first/middle/last scenario (72 samples) — caught one real bug this
+way: `.fb-sc-nav` prev/next buttons didn't shrink in their flex row
+(missing `min-width:0`), causing horizontal overflow specifically on
+middle-index scenarios at mobile width, invisible in `fullPage:true`
+screenshots of the landing page alone.
+
+Linked into the hub as a new `.st-vol` card in the Library (VOL. X, after
+The Weighing) — done via direct line-based insertion in Python rather than
+Claude's own Read/Edit tools, because each existing book card is one
+single HTML line up to 248KB (embedded cover art as inline base64 JPEG),
+which blows well past what Read can load. **Not yet deployed** — `/
+festiebible` has no Netlify site, and creating one is a real production
+action being held for explicit go-ahead rather than done unilaterally;
+`_redirects` has a commented TODO block ready to uncomment once a site
+exists. `sites.json` and the hub's own `#updates` section both record this
+accurately as v1/v7, not yet live.

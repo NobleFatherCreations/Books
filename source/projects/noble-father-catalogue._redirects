@@ -45,3 +45,11 @@
 # path per product rather than two addresses serving identical content.
 /portal        /portals                                              301
 /seals         /press                                                301
+
+# PENDING -- The Festie Bible (source/projects/noble-father-festiebible.html)
+# is built and linked from the hub's Library card ("/festiebible"), but has
+# no Netlify site yet -- creating one is a real deploy action, held for
+# explicit go-ahead per this repo's deploy-hygiene rule. Once a site exists,
+# uncomment and fill in its *.netlify.app hostname:
+# /festiebible      https://<site-name>.netlify.app/                  200
+# /festiebible/*    https://<site-name>.netlify.app/:splat            200
