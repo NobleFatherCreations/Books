@@ -1988,3 +1988,77 @@ action being held for explicit go-ahead rather than done unilaterally;
 `_redirects` has a commented TODO block ready to uncomment once a site
 exists. `sites.json` and the hub's own `#updates` section both record this
 accurately as v1/v7, not yet live.
+
+**2026-08-10, later same day — font-size pass surfaced severe pre-existing
+data corruption; fixed across 4 review rounds; deployed live.** User asked
+for bigger fonts + a design/UI confirmation pass before deploy. The font
+work itself was small (bumped ~35 CSS rules, fixed a sticky-resource-bar/
+footer overlap, wired the previously-dead `footer()` function into all
+three render paths). The design review agent instead surfaced that
+**~145 of 149 scenarios had severe extraction corruption** from the
+original build, invisible in the earlier spot-checked screenshots because
+it was buried inside collapsed/scrollable content:
+
+- The `check` field (meant to be one short callout line) had leaked,
+  unlabeled Dark Reality title+body text and a column-interleaved
+  duplicate of the Move/Say/Truth text glued onto the end with no spaces
+  (e.g. `"THEPOST-FESTIVALDIGITALPREDATOR"`).
+- 126 move/say/truth fields had their own section label (`"* THE MOVE"`,
+  `"SAY THIS"`, `"THE TRUTH"`) glued onto the front of the real content.
+- ~110 instances of a single OCR glyph-misread pattern: capital "I" read
+  as `!`, `/`, `|`, or lowercase `l` (`"Can! leave"`, `"/s someone"`,
+  `"| appreciate"`, `"lam on shift"`).
+- ~30 scenario hook/archetype/clinical fields truncated to fragments
+  (`"HYSICAL BASICS F"`, `"STAY SOVEREI"`) — traced to TOOLS/reference
+  pages whose large-serif title the original 300dpi OCR pass failed to
+  read at all, silently falling back to a fragment of the running header
+  instead of the real title.
+- A leaked `©` bullet-glyph character (OCR misreading the tells-list
+  bullet icon) prefixing 32 tells/who items across all 12 guides.
+- Assorted structural splits: a `tells` array glued as a run-on paragraph
+  onto `scene` with the source's own `SPOT IT — THE TELLS` header still
+  embedded mid-string; array items split mid-quote across two entries;
+  trailing page-corner-marker fragments captured as if they were content.
+- ~20 more scattered missing-space typos (`"hisecrew"`, `"Aespecific"`,
+  `"nota transaction"`) and a few genuinely empty required fields.
+
+**Fixing this took 4 full review→fix→verify rounds** (each independent
+review found real, shrinking-in-scope defects — the process did NOT
+converge on the first "looks done" pass, or the second, or the third).
+Method that worked: raw OCR text/page-image files were still present in
+this session's scratchpad (`festie-ocr/text/*.txt`, `festie-ocr/images/
+*.png`, ~1,464 files) and the original 3 source PDFs were still in `/root/
+.claude/uploads/`, so every fix was cross-checked against real ground
+truth rather than guessed — including confirming that ~64 check-lines
+ending mid-sentence in a literal `"..."` are **genuine source content**
+(the check-line callout box in the original PDF design truncates longer
+questions at render time; verified directly against 8+ raw OCR pages) and
+correctly leaving those alone rather than fabricating completions.
+`wordninja` (downloaded/extracted manually since `pip install` failed on
+this box's old setuptools; used directly from the extracted tarball) did
+the glued-title word-segmentation for ~141 recovered Dark Reality boxes.
+Final verification before deploy: a full-dataset regex/structural sweep
+(empty-field check, darkTitle/dark pairing, trailing-garbage patterns,
+repeated-word detection) plus a from-scratch word-tokenization pass
+flagging any token >18 chars (caught zero real issues, one false positive
+— a legitimate domain name).
+
+**Lesson for future extraction work on this kind of source**: don't trust
+"looks complete" screenshots of a page or two — this defect was invisible
+in the earlier 72-sample Playwright pass because overflow/rendering was
+fine, only the *content itself* was corrupted, and corrupted content that
+still fits its container renders as a wall of plausible-looking text at a
+glance. A field-level structural sweep (every field populated, no
+duplicate-marker leaks, no truncation patterns) plus spot-checking against
+literal OCR ground truth is what actually catches this class of bug.
+
+**Deployed live**: new Netlify site `noble-festie-bible` (site ID
+`2cc3eca0-4213-4987-8f82-a89c43587328`), routed through
+`noblefathercreations.com/festival` via `_redirects` (user's requested
+slug — not `/festiebible` as originally planned). Deploy used the
+`netlify-mcp` tool's `deploy-site` operation, which returns a one-shot
+`npx @netlify/mcp@latest --site-id ... --proxy-path ...` shell command to
+run from a directory containing the built file as `index.html` — not a
+direct file-upload API call. `sites.json` updated to `v2`/`netlify-api`,
+catalogue card link switched from `/festiebible` to `/festival`, on-page
+version badge bumped to v2 with a plain-language changelog entry.
