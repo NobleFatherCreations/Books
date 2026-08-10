@@ -217,6 +217,88 @@ def extract_bodies(path):
     return "\n".join(out)
 
 
+def render_json_value(val, depth=2):
+    """Generic, order-preserving JSON->markdown for CODEX_DATA-shaped content:
+    strings become paragraphs, lists of strings become bullets, lists of
+    dicts become one subsection per item (each string field as its own
+    line), plain dicts become key: value lines with nested structures
+    recursed into. Every string value in the tree ends up in the output --
+    nothing silently dropped, which matters more here than a tidy shape."""
+    h = "#" * min(depth, 6)
+    if isinstance(val, str):
+        return val + "\n"
+    if isinstance(val, list):
+        if not val:
+            return ""
+        if all(isinstance(x, str) for x in val):
+            return "\n".join(f"- {x}" for x in val) + "\n"
+        if all(isinstance(x, list) for x in val):
+            # e.g. timeline: [[date, event, note], ...]
+            lines = []
+            for row in val:
+                cells = [str(c) for c in row if c not in (None, "")]
+                lines.append("- " + " — ".join(cells))
+            return "\n".join(lines) + "\n"
+        # list of dicts: one subsection per item
+        parts = []
+        for item in val:
+            if isinstance(item, dict):
+                label = item.get("name") or item.get("title") or item.get("key") or item.get("who") or item.get("entity") or item.get("say") or item.get("role") or item.get("what")
+                if label:
+                    parts.append(f"\n{h}# {label}\n")
+                parts.append(render_json_value(item, depth + 2))
+            else:
+                parts.append(render_json_value(item, depth))
+        return "\n".join(p for p in parts if p)
+    if isinstance(val, dict):
+        lines = []
+        for k, v in val.items():
+            if v in (None, "", [], {}):
+                continue
+            if isinstance(v, str):
+                lines.append(f"**{k}:** {v}")
+            else:
+                lines.append(f"\n**{k}**\n\n" + render_json_value(v, depth + 1))
+        return "\n\n".join(lines) + "\n"
+    return str(val) if val not in (None, "") else ""
+
+
+def extract_faith(path):
+    text = open(path, encoding="utf-8", errors="replace").read()
+    i = text.find("window.CODEX_DATA = ") + len("window.CODEX_DATA = ")
+    data, _ = json.JSONDecoder().raw_decode(text, i)
+
+    out = []
+    religions = data.get("religions", [])
+    out.append(f"## The twenty-seven traditions\n\n*{len(religions)} entries, in the book's own order.*\n")
+    for r in religions:
+        out.append(f"\n## {r.get('name', r.get('id',''))}")
+        if r.get("family"):
+            out.append(f"*{r['family']}*\n")
+        # opening/neutral read as the entry's real prose lede
+        for lede_key in ("opening", "neutral", "origin"):
+            if r.get(lede_key):
+                label = {"opening": "Opening", "neutral": "Overview", "origin": "Origin"}[lede_key]
+                out.append(f"\n### {label}\n\n{r[lede_key]}\n")
+        skip = {"id", "name", "family", "opening", "neutral", "origin"}
+        for k, v in r.items():
+            if k in skip or v in (None, "", [], {}):
+                continue
+            out.append(f"\n### {k}\n\n" + render_json_value(v, 4))
+
+    out.append("\n\n---\n\n## Shared framework\n\n"
+                "*The book's methodology, applied identically across all 27 traditions "
+                "above -- tactics catalogue, red flags, exit procedure, glossary, and "
+                "the rest of the shared apparatus, in the book's own order.*\n")
+    shared_skip = {"religions", "img", "brand"}
+    for k, v in data.items():
+        if k in shared_skip or v in (None, "", [], {}):
+            continue
+        out.append(f"\n## {k}\n\n" + render_json_value(v, 3))
+
+    return "\n".join(out)
+
+
 def extract_json_array(path, array_name, render):
     text = open(path, encoding="utf-8", errors="replace").read()
     i = text.find(array_name)
@@ -258,7 +340,7 @@ BOOKS = [
      os.path.join(ROOT, "source/projects/noble-father-fracture.html")),
     ("loop", "The Loop", "bodies", os.path.join(ROOT, "fixes/loop.html")),
     ("scale", "The Weighing", "bodies", os.path.join(ROOT, "fixes/scale.html")),
-    ("faith", "The Coercive Control Codex", "static",
+    ("faith", "The Coercive Control Codex", "faith",
      os.path.join(ROOT, "source/projects/faith-index.html")),
     ("fractal", "The Fractal", "fractal",
      os.path.join(ROOT, "source/projects/noble-father-fractal.html")),
@@ -304,6 +386,8 @@ def main():
             text = extract_root(path)
         elif method == "bodies":
             text = extract_bodies(path)
+        elif method == "faith":
+            text = extract_faith(path)
         elif method == "compendium":
             text = extract_json_array(path, "COMPENDIUM", render_compendium)
         else:

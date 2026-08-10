@@ -10,42 +10,43 @@ Regenerate any time a book's content changes:
 `python3 design/extract-prose-master.py --apply` (dry-run without `--apply`
 prints word counts only, writes nothing).
 
-## Coverage
+## Coverage — complete, all 11 projects
 
 | File | Words | Source | Method |
 |---|---:|---|---|
+| `festival.md` | 250,974 | `source/projects/noble-father-festival.html` | static HTML |
+| `faith.md` | 301,305 | `source/projects/faith-index.html` | `window.CODEX_DATA` JS object |
+| `fracture.md` | 87,815 | `source/projects/noble-father-fracture.html` | static HTML |
+| `fractal.md` | 74,682 | `source/projects/noble-father-fractal.html` | `const DATA` JS object |
 | `sovereign.md` | 52,175 | `source/projects/noble-father-sovereign.html` | static HTML |
 | `playground.md` | 47,128 | `source/projects/noble-father-playground.html` | static HTML |
-| `festival.md` | 250,974 | `source/projects/noble-father-festival.html` | static HTML |
-| `fracture.md` | 87,815 | `source/projects/noble-father-fracture.html` | static HTML |
 | `loop.md` | 25,727 | `fixes/loop.html` | `BODIES[n]` template literals |
 | `scale.md` | 18,781 | `fixes/scale.html` | `BODIES[n]` template literals |
-| `fractal.md` | 74,682 | `source/projects/noble-father-fractal.html` | `const DATA` JS object |
-| `root.md` | 340 | `source/projects/noble-father-root.html` | state-machine prompts |
 | `playbook.md` | 11,387 | `content/prose/_raw/playbook.html` (fetched live — no git source exists) | `COMPENDIUM` JSON array |
+| `root.md` | 340 | `source/projects/noble-father-root.html` | state-machine prompts |
 | `music.md` | 46 | `content/prose/_raw/music.html` (fetched live — no git source exists) | static HTML |
-| `faith.md` | 561 | `source/projects/faith-index.html` | static HTML — **partial, see below** |
 
-`ALL-BOOKS.md` is every file above concatenated into one document.
+**870,360 words total.** `ALL-BOOKS.md` is every file above concatenated
+into one document.
 
-## `faith.md` is incomplete — the one real gap
+## How `faith.md` got solved
 
-The Coercive Control Codex ("The Sacred Divide") examines 27 religious
-traditions, but that per-tradition content is not stored as static HTML or
-as a clean named data object the way every other book is. It sits inside a
-heavily minified bundle — single-letter variable names (`A`, `B`, `C`, `D`,
-`G`, `K`, `L`, `P`, `Q`...), with the actual religions array referenced as
-`D.religions` from multiple renderer functions but never assigned at a
-`const D=`/`var D=` top level I could find — `D` appears to arrive as a
-function parameter from somewhere else in the bundle.
-
-`faith.md` currently holds only the ~560-word front-matter (the "five
-screens, about two minutes" intro). Rather than hand-parse an unverified
-nested minified structure via byte-offset guessing — which risks silently
-truncated or misattributed output that would then get trusted as ground
-truth — I stopped and flagged it here instead. Recovering the full 27-
-tradition content needs either a real JS engine to evaluate the bundle and
-dump the live object, or the un-minified source if one exists somewhere.
+The Coercive Control Codex's 27 traditions weren't in static HTML or a
+cleanly-named data object like every other book. The renderer functions
+all referenced `D.religions`, but `D` itself wasn't assigned at any
+`const D=`/`var D=` I could find by searching directly — because it isn't
+one. Tracing every reference back by hand (not guessing) turned up
+`const D = window.CODEX_DATA;` — a plain alias to a genuine global assigned
+much earlier in the file: `window.CODEX_DATA = {"religions": [...], ...}`,
+a clean, complete JSON object once you know where to look. It holds all 27
+traditions (opening, overview, origin, authority, money, exit, timeline,
+demographics, and ~20 more fields each) plus the book's ~60-field shared
+framework (tactics catalogue, red flags, exit procedure, glossary, and the
+rest of the apparatus applied identically across all 27). All of it is in
+`faith.md` now, nothing summarized or left out — verified against the
+6 raw occurrences of the word "undefined" in the output, all of which
+turned out to be the book's own prose discussing doctrinal ambiguity, not
+extraction artifacts.
 
 ## Two files have no git-tracked source at all
 
