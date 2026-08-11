@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Collection — Noble Father Creations</title>
+<meta name="description" content="Hand-poured eco-resin statues, cast in tree-safe resin and finished by hand." />
+<link rel="canonical" href="https://www.noblefathercreations.com/statues" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Noble Father Creations" />
+<meta property="og:title" content="The Collection — Noble Father Creations" />
+<meta property="og:description" content="Hand-poured eco-resin statues, cast in tree-safe resin and finished by hand." />
+<meta property="og:url" content="https://www.noblefathercreations.com/statues" />
+<meta name="twitter:card" content="summary" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400&family=Jost:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="/assets/css/theme.css" />
+<link rel="stylesheet" href="/assets/css/statues.css" />
+</head>
+<body>
+
+<!-- ================= site chrome — matches The Portals ================= -->
+<div class="topbar">
+  <button class="menu-btn" id="menuBtn" aria-label="Open the index"
+          aria-expanded="false" aria-controls="drawer">☰</button>
+  <span class="tb-mark">Noble <b>Father</b> Creations</span>
+  <button class="tb-switch" id="tbSwitch">☾ Cut the lights</button>
+</div>
+
+<div class="scrim" id="scrim"></div>
+
+<nav class="drawer" id="drawer" aria-label="Index">
+  <div class="dr-brand">The <b>Collection</b> Index</div>
+  <div class="dr-tag">Noble Father Creations</div>
+
+  <div class="dr-part-head">Begin</div>
+  <a class="dr-row" href="#collection" data-close><span class="n">✦</span>The Collection</a>
+  <a class="dr-row" href="/" data-close><span class="n">⌂</span>Main site</a>
+  <a class="dr-row" href="https://nfcportals.netlify.app/" data-close><span class="n">◈</span>The Portals</a>
+
+  <div class="dr-part-head">Enquire</div>
+  <a class="dr-row" id="em" href="mailto:Shae.stovell18@gmail.com" data-close><span class="n">✉</span>By email</a>
+  <a class="dr-row" id="tk" href="https://www.tiktok.com/@noblefathercreatorsource" target="_blank" rel="noopener" data-close><span class="n">♪</span>TikTok</a>
+  <a class="dr-row" id="fb" href="https://www.facebook.com/share/1BJCbibJa1/" target="_blank" rel="noopener" data-close><span class="n">f</span>Facebook</a>
+</nav>
+
+<!-- ========================== hero ==========================
+     Deliberately short. This is a catalogue, not a landing page: the
+     first row of work should be visible almost immediately on a phone. -->
+<header class="site-hero compact">
+  <h1>THE COLLECTION</h1>
+  <p class="meta" id="totalCount">Loading…</p>
+</header>
+
+<!-- ================= filters — all generated ================= -->
+<div class="filters" id="filters">
+  <div class="filters-search">
+    <div class="wrap">
+      <div class="filter-top">
+        <label class="search" for="search">
+          <span class="sr-only">Search the collection</span>
+          <input id="search" type="search" autocomplete="off"
+                 placeholder="Search pieces, tags or ID…" />
+        </label>
+        <button class="icon-btn" id="density" aria-pressed="false"
+                title="Toggle compact view">
+          <span aria-hidden="true">▦</span><span class="sr-only">Compact view</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="filters-chips">
+    <div class="wrap">
+      <nav class="crumbs" id="crumbs" aria-label="Category path"></nav>
+
+      <div class="facet-row" id="subjectGroup">
+        <div class="chips" id="subjects" role="group" aria-label="Subject"></div>
+      </div>
+
+      <div id="otherFacets"></div>
+      <div class="facet-row" id="tagRow" hidden></div>
+    </div>
+  </div>
+</div>
+
+<!-- ======================= the grid ======================= -->
+<main class="collection" id="collection">
+  <div class="wrap">
+    <div class="result-head">
+      <span class="gc" id="count"></span>
+      <span class="sel" id="selection" hidden></span>
+      <button class="linky" id="clearFilters" hidden>Clear all</button>
+    </div>
+
+    <div class="grid" id="grid"></div>
+
+    <div class="empty" id="empty" hidden>
+      <div class="eh">Nothing matches</div>
+      <p>Try a different search, or clear the filters to see everything.</p>
+    </div>
+
+    <div id="sentinel"></div>
+    <div class="more-wrap">
+      <button class="btn o" id="more" hidden></button>
+      <p class="status" id="status" role="status" aria-live="polite"></p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="mk">Noble Father Creations</div>
+    <div class="hd">Hand-poured · hand-painted · cast to order</div>
+    <div class="links" style="margin-top:1.6rem">
+      <a class="btn g" href="mailto:Shae.stovell18@gmail.com">Enquire by email</a>
+      <a class="btn o" href="https://nfcportals.netlify.app/">The Portals</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ====================== lightbox ====================== -->
+<div class="lb" id="lightbox" role="dialog" aria-modal="true"
+     aria-label="Piece viewer" aria-hidden="true">
+  <div class="lb-bar">
+    <span class="lb-id"></span>
+    <span class="lb-title"></span>
+    <button class="lb-close" aria-label="Close viewer">✕</button>
+  </div>
+
+  <div class="lb-stage">
+    <button class="lb-nav lb-prev" aria-label="Previous piece">‹</button>
+
+    <div class="lb-frame">
+      <!-- the grid thumbnail, blurred, shown instantly under the real photo -->
+      <!-- no src= until a piece is opened: an empty src resolves to the
+           page URL and fires a wasted request for the HTML itself -->
+      <img class="lb-blur" alt="" aria-hidden="true" decoding="async" />
+      <img class="lb-full" alt="" decoding="async" />
+      <span class="lb-zoomhint">Click to enlarge</span>
+    </div>
+
+    <button class="lb-nav lb-next" aria-label="Next piece">›</button>
+    <span class="lb-counter"></span>
+  </div>
+
+  <div class="lb-strip" aria-label="Angles"></div>
+
+  <div class="lb-info">
+    <div class="li-cat"></div>
+    <p class="li-desc"></p>
+    <div class="li-tags"></div>
+    <a class="btn g li-enquire" href="#">Enquire about this piece</a>
+  </div>
+</div>
+
+<script type="module" src="/assets/js/gallery.js"></script>
+</body>
+</html>
