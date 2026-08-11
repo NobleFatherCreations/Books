@@ -395,8 +395,13 @@
         "found": false,
         "checkedAt": "2026-08-10"
       },
-      "version": "v3",
+      "version": "v4",
       "changelog": [
+        {
+          "date": "2026-08-11",
+          "version": "v4",
+          "summary": "Editorial prose polish across all 149 scenarios (12 guides) -- fixed 46 unbalanced quotation marks, 12 stray parser-artifact fragments, 5 remaining glued darkTitle/dark pairs, and ~20 scattered typos. Not a rewrite -- the prose was already strong; this was a precision cleanup pass. Deployed live."
+        },
         {
           "date": "2026-08-11",
           "version": "v3",
