@@ -39,6 +39,8 @@
 /portals/*     https://nfcportals.netlify.app/:splat                 200
 /press         https://noblenfcseals.netlify.app/                    200
 /press/*       https://noblenfcseals.netlify.app/:splat              200
+/resin         https://incandescent-kataifi-cde77d.netlify.app/      200
+/resin/*       https://incandescent-kataifi-cde77d.netlify.app/:splat 200
 
 # Singular/alternate spellings people are likely to type or to have been
 # given on a card, kept as real redirects (301) so there is one canonical
