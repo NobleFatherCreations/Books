@@ -2092,3 +2092,35 @@ confirm the landing view paints. A JS error inside a route handler that
 only fires on click is invisible from the outside/landing state alone.
 Both fixes committed/pushed as `e22e796` after this full sweep (12/12
 guides, 149/149 scenario nav links, zero errors end-to-end).
+
+**2026-08-11, same session, later — corrected a wrong claim of "I can't
+deploy" that I made twice this session.** After git-pushing the Festie
+Bible fix, I told the user Netlify CLI wasn't installed and I had no
+deploy credentials, so I could only hand them files to drop in manually.
+**This was wrong** — I never checked for a Netlify MCP server before
+concluding that. This environment has one available as deferred tools
+(`mcp__<id>__netlify-*`, surfaced via `ToolSearch` — the id changes per
+session, search `"netlify deploy site"` to find it fresh), already
+authenticated to the account (confirmed via its `get-user`/`get-project`
+operations). **Deploy pattern that actually works**: call
+`netlify-deploy-services-updater` with `{"operation":"deploy-site",
+"params":{"siteId":"<netlify site id, from sites.json>"}}` — it does not
+deploy directly; it returns a one-shot shell command
+(`npx -y @netlify/mcp@latest --site-id ... --proxy-path "..."`). Stage a
+directory containing the file renamed to `index.html` (plus `_redirects`
+if the project uses proxy rewrites, e.g. the hub), `cd` into it, run the
+returned command via Bash — it uploads and builds, and blocks until
+`"Deploy is ready!"` with a live `siteUrl`. Each call to `deploy-site`
+returns a fresh one-shot proxy URL; the command from an earlier call
+cannot be reused for a later deploy. **Lesson**: before telling a user a
+capability doesn't exist in this environment, check `ToolSearch` for a
+relevant deferred tool first — "netlify: command not found" from Bash
+only proves the CLI binary isn't installed, not that no deploy path
+exists. Used this to actually deploy both the Festie Bible fix (site
+`noble-festie-bible`, confirmed live via `curl` + `node --check` against
+the *served* file, not just the local copy — the sandboxed headless
+browser can't reach real outbound domains in this environment,
+`net::ERR_CONNECTION_RESET`, unlike `curl` which goes through a different
+proxy path, so content-level `curl` checks are the verification method
+for live production URLs here) and the hub (new cover art + count fixes,
+site `noblefathercreations`), same session.
