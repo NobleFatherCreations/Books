@@ -2200,3 +2200,48 @@ User was given a zip of just the changed files this session; flagged
 that this project would benefit from moving to a repo this account can
 actually push to, especially since the user said they'll be "adding to
 this site and fixing stuff routinely this week."
+
+**2026-08-11, same session, resolved — The Casting now has its own repo:
+`NobleFatherCreations/Castings`.** `mcp__github__create_repository`
+cannot create repos on this account at all (`403 Resource not accessible
+by integration` for both the org-shaped attempt and the user-account
+attempt — note `get_me` on this GitHub App resolves to `NobleFatherCreations`
+itself, i.e. it's the user account, not a separate org, so don't pass
+`organization:` for it). User created the empty repo by hand instead
+(github.com/new, ~15s); `add_repo` with `access:"push"` then attached it
+normally like any other repo. Full 445MB/1502-file working tree (source +
+all product photos, `node_modules`/`incoming/*` excluded per `.gitignore`)
+committed and pushed in one shot — no size problems (no single file over
+50MB, verified before pushing).
+
+**Also did a second, deeper tag pass** per explicit user request ("cut
+down the tags even further... audit the ones that only have 1... remove
+unless you feel it should stay"): reviewed all 140 singleton tags
+individually (not blind deletion), keeping ~49 that are genuine
+species/breed/character identity or a distinctly searchable theme
+(`witch`, `groot`, `ganesha`, `praying-hands`, breed names, etc.) and
+cutting the rest as props/moods/clothing-detail/redundant restatements
+(`cap`, `acorn`, `angry`, `bandage`, etc. — matching the user's own named
+examples). Also de-duplicated within single *overtagged* pieces (one
+witchy-goddess piece had 7 near-synonymous tags — `globe`, `goddess`,
+`meditating`, `mother-earth`, `spiritual`, `witchy`, `woman` — trimmed to
+4). Added a zero-tag safety net in the script (never let a piece end up
+with no tags at all from an automated pass) — caught 2 real cases.
+**Result: 235 → 146 unique tags.** Committed to the new repo.
+
+**Netlify hit an account-level usage cap redeploying this** — third
+large deploy today (hub x2, festiebible x1, casting x2) apparently
+exceeded some credit/bandwidth allowance on the `nf_team_dev` plan.
+Distinguishable from the earlier transient 502/503s by the deploy
+actually getting a `deployId` and completing its (short) lifecycle with
+`"state":"error","error_message":"Skipped due to account credit usage
+exceeded"` — check via `netlify-deploy-services-reader` `get-deploy-for-
+site` when a deploy fails after really starting (not mid-upload) to tell
+a real account-level block from a transient network error worth retrying.
+No visibility into exact reset time from the tools available (`get-team`
+returns no usage/billing fields) — user needs to check the Netlify
+dashboard billing page, or just wait and retry later. **Live site
+currently one step behind its repo**: still serving the v2 tag pass (235
+tags, colors removed) since the v3 deploy (146 tags) was the one that got
+skipped. The fix is fully committed and ready — just needs a successful
+`deploy-site` call once the account's usage window clears.
