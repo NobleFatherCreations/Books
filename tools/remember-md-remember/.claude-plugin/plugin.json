@@ -1,0 +1,11 @@
+{
+  "name": "remember",
+  "version": "2.6.0",
+  "description": "Extended Second Brain that learns as you work in Claude Code",
+  "author": {
+    "name": "Gabi Fratica",
+    "email": "gabriel@codez.ro"
+  },
+  "homepage": "https://github.com/remember-md/remember",
+  "license": "MIT"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "tufte-css",
+  "version": "1.9.0",
+  "description": "Tufte CSS provides tools to style web articles using the ideas demonstrated by Edward Tufte’s books and handouts. Edward Tufte uses a distinctive style in his handouts: simple, with well-set typography, extensive sidenotes, and tight integration of graphics and charts.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwardtufte/tufte-css.git"
+  },
+  "keywords": [
+    "tufte",
+    "css",
+    "HTML",
+    "typography",
+    "sidenotes"
+  ],
+  "author": "Dave Liepmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edwardtufte/tufte-css/issues"
+  },
+  "homepage": "https://edwardtufte.github.io/tufte-css/",
+  "scripts": {
+    "build": "cleancss -o tufte.min.css tufte.css",
+    "prepublish": "npm run build",
+    "test": "playwright test"
+  },
+  "files": [
+    "tufte.css",
+    "tufte.min.css",
+    "et-book/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "clean-css-cli": "^5.6.3"
+  }
+}
