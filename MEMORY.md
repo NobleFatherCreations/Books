@@ -2062,3 +2062,33 @@ run from a directory containing the built file as `index.html` — not a
 direct file-upload API call. `sites.json` updated to `v2`/`netlify-api`,
 catalogue card link switched from `/festiebible` to `/festival`, on-page
 version badge bumped to v2 with a plain-language changelog entry.
+
+**2026-08-11 — Festie Bible black-screened twice after a data-fix session;
+root cause both times was NOT what the first fix checked for.** Session
+re-embedded a corrected `FESTIE_DATA` JSON blob (149 scenarios, fixed
+section labels) into `noble-father-festiebible.html`. First fix verified
+success by counting `{`/`}` on the data line only — insufficient, because
+the actual failure was a **JS syntax error**: the `renderGuideIntro()`
+function (added earlier the same session to build the scenario-navigation
+index) had curly/smart quotes (`'` `'` `"` `"`) standing in for straight
+quotes as real JS string and HTML-attribute delimiters, not just as
+stylistic apostrophes in content. `new Function(script)` / brace-counting
+didn't catch it; `node --check` on the extracted `<script>` block did
+immediately. Second, separate bug found by the same check: the
+`SCENARIO_INDEX` const declaration was missing entirely (never re-embedted
+after the FESTIE_DATA line-281 replacement swallowed it), causing
+`SCENARIO_INDEX is not defined` the moment a user clicked into any guide —
+invisible on the landing page, which is why "the site loads" wasn't proof
+of a working fix.
+
+**Verification method that actually catches this class of bug** (use for
+any future self-contained single-file HTML/JS edit in this repo, not just
+Festie Bible): extract the `<script>` contents and run `node --check` on
+them for real syntax validation (catches quote/brace/token errors brace-
+counting misses), then load the actual file in headless Chromium
+(`/opt/pw-browsers/chromium` via Playwright) with `pageerror`/console
+listeners attached, and **click through the real user flow** — not just
+confirm the landing view paints. A JS error inside a route handler that
+only fires on click is invisible from the outside/landing state alone.
+Both fixes committed/pushed as `e22e796` after this full sweep (12/12
+guides, 149/149 scenario nav links, zero errors end-to-end).
