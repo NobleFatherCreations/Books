@@ -2325,3 +2325,123 @@ default matches what's already committed.
 **Not deployed** — per explicit instruction, committed locally only
 (current branch, no push) for the user to review the diff and deploy
 themselves.
+
+## 2026-08-11 (later) — Executed both upgrade plans: The Casting + Festie Bible polish pass, deployed live
+
+User asked to execute the two design-audit upgrade plans (see the
+`/impeccable`+`/emil-design-eng` audit entries above) plus a broad
+"attention to detail everywhere" pass — nicer fonts/animations/press
+states wherever applicable, not just the specific findings.
+
+**The Casting** (`NobleFatherCreations/castings` repo,
+`incandescent-kataifi-cde77d.netlify.app`):
+- P1 mobile first-paint: the chip filter panel (subject/type/finish/up to
+  14 tag chips) rendered fully expanded, so a phone visitor could scroll
+  past the entire taxonomy and never see a product above the fold. Added
+  a `.filter-toggle` button (`grid-template-rows:0fr→1fr` collapse, the
+  auto-height-without-JS trick) — collapsed by default under 641px only,
+  desktop untouched. Wired HTML button + `filterCount` badge + JS
+  toggle in `gallery.js`, purely additive (doesn't touch `renderNav()`'s
+  innerHTML rebuilds or the existing `#filters` delegated click handler).
+- P1 zero `:active` states: added press-feedback `transform:scale()` to
+  every interactive control that lacked it — icon-btn, filter-toggle,
+  crumb, chip, piece tile, lb-close/lb-nav, lb-thumb, linky, menu-btn,
+  tb-switch, dr-row. Fixed every remaining implicit `transition:<time>`
+  (transitions `all`) to named properties in the same pass.
+- P2 lightbox not transform-origin-aware: `lightbox.js`'s `open()` now
+  takes an optional `originEl` (the clicked tile), computes its screen
+  position, and sets `--lb-ox`/`--lb-oy` custom properties; `.lb` scales
+  in from `scale(.94)→scale(1)` anchored at that point instead of a fixed
+  center. Deep-link opens (`openFromURL()`, no click) fall back to 50/50.
+- P2 literal "Untitled piece" fallback text — now renders as nothing
+  (`s.title || ''` + `.lb-title:empty{display:none}`) instead of a
+  placeholder string.
+- P3 no stagger — added a 12-item nth-child `pieceIn` keyframe (translateY
+  10px+scale .98 → none, 35ms steps, capped at `nth-child(n+13)`) to grid
+  tiles, respecting `prefers-reduced-motion` (added to both existing
+  reduced-motion blocks).
+- Added `--ease-out`/`--ease-in-out` tokens to `theme.css` alongside the
+  existing `--ease`, per emil-design-eng's "entrance/exit vs. constant
+  morph get their own curve" guidance.
+- Verified via local `node scripts/serve.js` + Playwright at 375/1440px
+  (mobile filter-toggle open/close, lightbox open/close, zero console
+  errors, zero horizontal overflow, zero elements stuck at `opacity:0`
+  under `reducedMotion`). Committed, pushed, deployed via the Netlify MCP
+  `deploy-site` pattern (staged a clean mirror dir first, file count
+  cross-checked against source). Confirmed live via curl.
+
+**The Festie Bible** (`source/projects/noble-father-festiebible.html` +
+`content/festie-bible-data.json`, deployed to
+`noble-festie-bible.netlify.app` / `noblefathercreations.com/festival`):
+- P1 landing wall-of-text: the 314-word mission statement rendered as one
+  unbroken `<p class="fb-mission">` in the hero, filling the entire first
+  viewport on both desktop and mobile before the 12-guide grid appeared.
+  Fix: hero now shows only a one-line hook ("You deserve to be fully open
+  AND fully protected"); the guide grid follows immediately; the full
+  mission text moved to a new "Why We Built This" section *below* the
+  grid, split into its natural paragraphs via a `missionParagraphs()`
+  JS helper that does `indexOf`-based splits on known sentence-start
+  markers (**no wording changed** — this only reformats presentation,
+  and degrades gracefully if a marker isn't found rather than crashing).
+  Read at a ~640px measure (~65-70ch, matches the aeon.co reference in
+  CLAUDE.md's design standard).
+  - **Important structural note for future edits to this file**: the
+    2.1MB HTML embeds its own full copy of the guide/scenario JSON as a
+    JS object literal on one giant line inside the single `<script>`
+    block (currently line ~320) — this is what actually renders live,
+    *not* `content/festie-bible-data.json`. That external JSON file is
+    kept as a synced mirror (both got edited together in the prior prose-
+    polish commit `91a619f` and again here) but is not itself fetched at
+    runtime. Any edit to `mission`, `changelog`, `updated`, or scenario
+    content must touch **both** files, or they drift. The giant line
+    can still be edited with the normal Edit tool via a unique substring
+    match — no special tooling needed, just don't try to `Read` that
+    line's full range at once (throws a token-limit error; read small
+    fixed-line-count regions elsewhere in the file instead, or use
+    Python/grep with an index search for anything inside the blob).
+- P2 the one real `transition:all` (`.fb-scenario-link:hover`) → named
+  properties.
+- Added `:active` press feedback to `.fb-resources a` and
+  `.fb-panel-list a` (had hover, no touch/click feedback).
+- P3 no stagger: added nth-child stagger keyframes to the 12 `.fb-card`
+  landing-grid tiles and to each guide's `.fb-scenario-link` index items
+  (nth-child restarts naturally per `.fb-scenario-links` group, so each
+  section stagger's independently — no JS index-passing needed).
+  Zeroed `animation-delay` in the existing universal
+  `prefers-reduced-motion` override (it only zeroed
+  duration/transition-duration before, so a delayed item would still sit
+  invisible for its delay under reduced motion — same class of bug as an
+  animation that never resolves, just shorter).
+- **Found and fixed a pre-existing changelog drift**: `sites.json`'s
+  ledger was already at v4/4 entries from the prior prose-polish session,
+  but the on-page `<details class="fb-updates">` footer was still
+  hardcoded to `v2` with only 3 entries — the v3 (black-screen fix +
+  scenario index) and v4 (prose polish) rounds were never added on-page.
+  Backfilled both missing entries plus this v5 round into
+  `FESTIE_DATA.changelog` (both the embedded blob and the external JSON
+  mirror) and bumped the hardcoded `v2` label in `footer()` to `v5`, per
+  CLAUDE.md's "both updates happen together, in the same commit" rule —
+  this hadn't been happening for this project until now.
+- Verified via `node --check` on the extracted `<script>` block, JSON
+  validity on both `festie-bible-data.json` and `sites.json`, and a full
+  Playwright pass at 375/1440px (guide grid visible above the fold on
+  mobile without scrolling past the mission text, mission split into
+  3+ paragraphs, guide-intro and scenario-nav still work end to end,
+  zero console errors — the one 404 observed was the browser's own
+  automatic `/favicon.ico` request against the plain `python3 -m
+  http.server` test server, confirmed via the server's own access log,
+  unrelated to any edit — zero horizontal overflow, zero opacity:0
+  elements under `reducedMotion`). Committed, pushed, deployed via
+  Netlify MCP (single self-contained `index.html`, no other assets
+  needed). Confirmed live both directly on
+  `noble-festie-bible.netlify.app` and through the
+  `noblefathercreations.com/festival` proxy.
+
+Both sites' `sites.json` version bumped alongside deploy: Casting v3→v4,
+Festie Bible v4→v5. **Gap found, not fixed this round**: Casting has no
+on-page reader-facing `<section id="updates">`/colophon (CLAUDE.md's
+patch-notes system calls for one on every site, machine-readable ledger
+in `sites.json` *and* a plain-language version on the page itself) — it
+only ever had the `sites.json` side. Adding one means real design work
+(the static-site-generator has no shared footer/colophon component yet)
+and was out of scope for this round; worth doing as its own pass.

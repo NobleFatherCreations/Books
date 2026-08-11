@@ -460,8 +460,13 @@
       "url": "https://incandescent-kataifi-cde77d.netlify.app/",
       "netlifySite": "incandescent-kataifi-cde77d",
       "note": "Eco-resin statues, hollow candle pillars, and glow-in-the-dark resin pieces -- 293 pieces. Real source now lives in its own repo: github.com/NobleFatherCreations/Castings (pushed 2026-08-11, full static-site-generator project -- Node/sharp ingest+build pipeline, 445MB/1502 files including all product photos). This is now the source of truth for this project going forward -- clone it, edit, `npm run pages`, redeploy via the same Netlify MCP deploy-site pattern used for the hub. Netlify site fbd96c13-059a-491b-a270-95e02a308a92.",
-      "version": "v3",
+      "version": "v4",
       "changelog": [
+        {
+          "date": "2026-08-11",
+          "version": "v4",
+          "summary": "Mobile: the filter panel (subject/type/finish/tag chips) no longer renders fully open by default -- it's collapsed behind a Filters button, so the product grid is visible without scrolling past the whole taxonomy first. Added press feedback (a small tap animation) to every button, chip, and link that was missing it. The piece viewer now opens with an animation that zooms in from the photo you tapped, instead of just from the center of the screen. Grid tiles fade in with a slight stagger instead of all at once. Fixed a leftover 'Untitled piece' placeholder that could show up in the viewer. Deployed live."
+        },
         {
           "date": "2026-08-11",
           "version": "v3",
