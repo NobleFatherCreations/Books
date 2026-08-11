@@ -2124,3 +2124,79 @@ browser can't reach real outbound domains in this environment,
 proxy path, so content-level `curl` checks are the verification method
 for live production URLs here) and the hub (new cover art + count fixes,
 site `noblefathercreations`), same session.
+
+**2026-08-11, same session, later — The Casting (eco-resin site) is NOT a
+single self-contained file like every other project in this repo.** It's
+a real static-site-generator project (Node + `sharp`, an ingest script,
+a `build-pages.js` that prerenders a real `statues/<id>/index.html` for
+every one of 293 pieces for social-card crawlers, `data/statues.json` as
+source of truth) living in a **private GitHub repo under a different
+account** (the user's wife's — `miakamikee1101-collab/mieee`), not this
+one. `add_repo` for it hit a hard wall this session (`MCP tool call
+requires approval`, retrying does nothing — this is a GitHub App
+access-grant gap on that account, not an in-chat permission prompt).
+**Worked around it via a direct Google Drive zip download** (user shared
+a `drive.google.com/file/d/.../view` link): Drive serves a "can't scan
+for viruses" interstitial for files over ~100MB instead of the file
+itself — `curl` the `uc?export=download&id=...` URL first, parse the
+`action=` / hidden `confirm`+`uuid` fields out of that HTML response,
+then `curl` `https://drive.usercontent.google.com/download?id=...&export=
+download&confirm=t&uuid=...` for the real 460MB file. Worked cleanly.
+
+**Deploying a multi-file static site is fundamentally different from the
+single-HTML-file projects.** A Netlify `deploy-site` call replaces the
+*entire* published directory as one atomic unit — patching just the 2-3
+files that needed fixing and deploying only those would have silently
+deleted all 879 other files (product photos, JS modules, JSON data) from
+the live site. Before touching anything, mirror the complete site
+locally, verify file counts match the source exactly, apply fixes to the
+mirror, then deploy the whole mirrored+patched tree. For this project
+specifically: `npm install sharp` worked fine in this environment in ~12s
+(worth trying before assuming a native-binary package won't install), so
+the *real* generator (`npm run pages`) could regenerate all 293
+prerendered pages from the fixed template+data rather than needing 293
+manual find-replace edits — much safer, since a single-string template
+fix propagates correctly everywhere the string is templated (page
+description, tag keywords in JSON-LD, etc.) instead of needing every
+occurrence hand-located.
+
+**Fixes made**: (1) removed 20 pure/compound color tags (`red`, `gold`,
+`blue-eyes`, etc. — 278 of 883 tag instances, ~31%) and merged 6 obvious
+singular/plural duplicates (`roses`→`rose`, `meditation`→`meditating`,
+etc.) in `data/statues.json`, 267→235 unique tags — user's own reasoning:
+pieces are hand-painted, so a paint-color tag isn't a stable descriptor
+of the *design*, and tags are meant to describe the statue's subject, not
+its current paint job; (2) removed false "one of one, never repeated"
+uniqueness claims from `data/site.json`, `index.html`, `statues/index.
+html`, and the `build-pages.js` template — these are hand-poured but
+*repeatable* castings from molds, not one-off unique pieces, so the copy
+was actively misleading customers; (3) split the sticky `.filters` panel
+in `assets/css/statues.css` so only the search bar (`~67px`) stays
+pinned while scrolling — previously the entire breadcrumb+chip+tag block
+was sticky with no height cap, and with tags expanded could consume the
+whole viewport and never let the image grid scroll into view (confirmed
+via screenshot: 100% of a 390×844 mobile viewport was filter chips, zero
+images visible) — kept `id="filters"` as the outer wrapper so gallery.js's
+existing event-delegation listener needed zero JS changes.
+
+**Deployed live** to site `incandescent-kataifi-cde77d` (id
+`fbd96c13-059a-491b-a270-95e02a308a92`) after a full 445MB/1182-file
+mirror whose file counts matched the source exactly before deploying.
+First deploy attempt failed mid-upload with a transient `503`; retried
+with a fresh one-shot proxy token from a new `deploy-site` call (the
+token is single-use, cannot be reused from a failed attempt) and it
+succeeded. Verified against the *live* URLs post-deploy, not just the
+local mirror: tag count (235, confirmed via `data/statues.json` fetched
+live), footer tagline, per-piece meta description and JSON-LD keywords
+all confirmed fixed on the actual served pages.
+
+**Known gap, needs follow-up**: the fixed source only exists in this
+session's ephemeral `/tmp` and was never pushed back to the wife's GitHub
+repo (same access block that stopped `add_repo`) — if that container
+recycles before the user re-syncs it, the *live site* stays fixed (it's
+independently deployed to Netlify) but the *next `npm run ingest`/`pages`
+run from the old repo* would regenerate stale, unfixed content over it.
+User was given a zip of just the changed files this session; flagged
+that this project would benefit from moving to a repo this account can
+actually push to, especially since the user said they'll be "adding to
+this site and fixing stuff routinely this week."
