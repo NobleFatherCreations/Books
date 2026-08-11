@@ -40,8 +40,15 @@
   --label: 'Jost', system-ui, sans-serif;
   --mono: 'IBM Plex Mono', ui-monospace, monospace;
 
-  /* --- motion --- */
+  /* --- motion ---
+     --ease is the existing on-screen-movement curve, kept as-is since it's
+     already used throughout. --ease-out/--ease-in-out add the two other
+     cases design-engineering practice calls for: entering/exiting elements
+     (out) and constant morphs (in-out) each want their own curve, not one
+     curve reused everywhere. */
   --ease: cubic-bezier(.2, .7, .2, 1);
+  --ease-out: cubic-bezier(.23, 1, .32, 1);
+  --ease-in-out: cubic-bezier(.77, 0, .175, 1);
 }
 
 body.night {
@@ -114,8 +121,10 @@ h1, h2, h3 {
   border: 1px solid var(--line-strong); border-radius: .5rem;
   width: 40px; height: 40px; cursor: pointer;
   display: flex; align-items: center; justify-content: center;
+  transition: border-color .2s, transform 120ms var(--ease-out);
 }
 .menu-btn:hover { border-color: var(--gold) }
+.menu-btn:active { transform: scale(.92) }
 
 .tb-mark {
   font-family: var(--label); font-size: .72rem; letter-spacing: .2em;
@@ -127,9 +136,11 @@ h1, h2, h3 {
   font-family: var(--label); font-size: .6rem; letter-spacing: .14em;
   text-transform: uppercase; color: var(--cream-dim);
   background: rgba(20, 20, 26, .7); border: 1px solid var(--line-strong);
-  border-radius: 30px; padding: 8px 14px; cursor: pointer; transition: .3s;
+  border-radius: 30px; padding: 8px 14px; cursor: pointer;
+  transition: border-color .3s, color .3s, transform 120ms var(--ease-out);
 }
 .tb-switch:hover { border-color: var(--gold); color: var(--gold) }
+.tb-switch:active { transform: scale(.95) }
 
 .scrim {
   position: fixed; inset: 0; background: rgba(4, 4, 6, .72);
@@ -168,11 +179,12 @@ h1, h2, h3 {
 .dr-row {
   display: flex; gap: .6rem; align-items: baseline; text-decoration: none;
   color: var(--cream); padding: .55rem .3rem; border-radius: .4rem;
-  font-size: .92rem; transition: background .2s; cursor: pointer;
-  width: 100%; text-align: left; background: none; border: none;
+  font-size: .92rem; transition: background .2s, transform 120ms var(--ease-out);
+  cursor: pointer; width: 100%; text-align: left; background: none; border: none;
   font-family: var(--body);
 }
 .dr-row:hover { background: rgba(201, 162, 75, .1) }
+.dr-row:active { transform: scale(.98) }
 .dr-row .n {
   font-family: var(--mono); font-size: .64rem; color: var(--gold-dim);
   flex: none; min-width: 1.4rem;

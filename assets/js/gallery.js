@@ -269,6 +269,15 @@ function renderGrid(reset = true) {
     el.selection.textContent = sel;
     el.selection.hidden = !sel;
     el.clear.hidden = !sel;
+
+    /* Mobile filter-toggle badge: how many facets/tags are active, so a
+       collapsed panel still tells you something is filtered before you
+       open it. */
+    if (el.filterCount) {
+      const activeCount = Object.keys(state.filters).length + state.tags.length;
+      el.filterCount.textContent = String(activeCount);
+      el.filterCount.hidden = activeCount === 0;
+    }
   }
 
   el.grid.classList.toggle('dense', state.dense);
@@ -317,6 +326,9 @@ async function init() {
     search: document.getElementById('search'),
     clear: document.getElementById('clearFilters'),
     density: document.getElementById('density'),
+    filterToggle: document.getElementById('filterToggle'),
+    filterPanel: document.getElementById('filterPanel'),
+    filterCount: document.getElementById('filterCount'),
     grid: document.getElementById('grid'),
     empty: document.getElementById('empty'),
     more: document.getElementById('more'),
@@ -420,6 +432,16 @@ function wireChrome() {
     el.grid.classList.toggle('dense', state.dense);
   });
 
+  /* Mobile-only filter panel collapse — purely additive UI state, does
+     not touch renderNav()'s innerHTML rebuilds or the #filters delegated
+     click handler above. */
+  if (el.filterToggle && el.filterPanel) {
+    el.filterToggle.addEventListener('click', () => {
+      const open = el.filterPanel.classList.toggle('open');
+      el.filterToggle.setAttribute('aria-expanded', String(open));
+    });
+  }
+
   el.more.addEventListener('click', () => {
     const first = state.shown;
     renderGrid(false);
@@ -432,7 +454,7 @@ function wireChrome() {
     const card = e.target.closest('.piece');
     if (!card) return;
     const i = Number(card.dataset.index);
-    lightbox.open(state.visible, Number.isFinite(i) ? i : 0);
+    lightbox.open(state.visible, Number.isFinite(i) ? i : 0, card);
   });
 
   /* Auto-append only the first couple of batches. Past that the reader

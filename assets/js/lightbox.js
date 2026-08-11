@@ -140,14 +140,28 @@ export class Lightbox {
   /* ---------------- opening ---------------- */
 
   /**
-   * @param {object[]} list   the pieces currently on screen, in grid order
-   * @param {number}   index  which one to show
+   * @param {object[]} list     the pieces currently on screen, in grid order
+   * @param {number}   index    which one to show
+   * @param {Element}  [originEl]  the tile that was clicked/activated — the
+   *   viewer scales in from its screen position rather than the dead
+   *   center of the viewport, so it reads as opening *from* the tile.
    */
-  open(list, index = 0) {
+  open(list, index = 0, originEl = null) {
     if (!Array.isArray(list) || !list.length) return;
     this.lastFocus = document.activeElement;
     this.list = list;
     this.index = Math.max(0, Math.min(index, list.length - 1));
+
+    if (originEl?.getBoundingClientRect) {
+      const r = originEl.getBoundingClientRect();
+      const ox = ((r.left + r.width / 2) / window.innerWidth) * 100;
+      const oy = ((r.top + r.height / 2) / window.innerHeight) * 100;
+      this.root.style.setProperty('--lb-ox', `${ox}%`);
+      this.root.style.setProperty('--lb-oy', `${oy}%`);
+    } else {
+      this.root.style.setProperty('--lb-ox', '50%');
+      this.root.style.setProperty('--lb-oy', '50%');
+    }
 
     this.root.classList.add('show');
     this.root.setAttribute('aria-hidden', 'false');
@@ -165,7 +179,7 @@ export class Lightbox {
     this.angle = 0;
 
     this.el.id.textContent = s.id;
-    this.el.title.textContent = s.title || 'Untitled piece';
+    this.el.title.textContent = s.title || '';
     /* The facet trail, e.g. "Pets › Cats · Incense Burners". */
     this.el.cat.textContent = (this.facets || [])
       .map(a => s.facets?.[a.key] ? trailFor(a, s.facets[a.key]).join(' › ') : null)

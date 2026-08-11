@@ -69,11 +69,16 @@
                 title="Toggle compact view">
           <span aria-hidden="true">▦</span><span class="sr-only">Compact view</span>
         </button>
+        <button class="filter-toggle" id="filterToggle" aria-expanded="false"
+                aria-controls="filterPanel">
+          Filters<span class="fc" id="filterCount" hidden></span>
+          <span class="fa" aria-hidden="true">⌄</span>
+        </button>
       </div>
     </div>
   </div>
 
-  <div class="filters-chips">
+  <div class="filters-chips" id="filterPanel">
     <div class="wrap">
       <nav class="crumbs" id="crumbs" aria-label="Category path"></nav>
 

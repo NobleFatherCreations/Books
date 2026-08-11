@@ -42,11 +42,44 @@
 .icon-btn {
   flex: none; width: 44px; height: 44px; border-radius: 12px;
   background: var(--card); color: var(--cream-dim);
-  border: 1px solid var(--line-strong); cursor: pointer; transition: .2s;
+  border: 1px solid var(--line-strong); cursor: pointer;
+  transition: color .2s, border-color .2s, background-color .2s, transform 120ms var(--ease-out, var(--ease));
   font-size: 1rem;
 }
 .icon-btn:hover { color: var(--gold); border-color: var(--gold) }
+.icon-btn:active { transform: scale(.93) }
 .icon-btn[aria-pressed="true"] { background: var(--gold); color: var(--obsidian) }
+
+/* Mobile: the chip panel used to render fully expanded, which meant a
+   first-time visitor on a phone could scroll past subject + type + finish
+   + 14 tag chips and never see a single product above the fold. Collapsed
+   by default under 641px; desktop is unaffected. */
+.filter-toggle { display: none; }
+@media (max-width: 640px) {
+  .filter-toggle {
+    display: inline-flex; align-items: center; gap: 6px;
+    flex: none; height: 44px; padding: 0 16px; border-radius: 22px;
+    background: var(--card); color: var(--cream-dim);
+    border: 1px solid var(--line-strong); cursor: pointer;
+    font-family: var(--label); font-size: .64rem; letter-spacing: .14em;
+    text-transform: uppercase;
+    transition: color .2s, border-color .2s, transform 120ms var(--ease-out, var(--ease));
+  }
+  .filter-toggle:hover { color: var(--gold); border-color: var(--gold) }
+  .filter-toggle:active { transform: scale(.96) }
+  .filter-toggle .fc {
+    font-family: var(--mono); font-size: .58rem; color: var(--gold-dim);
+  }
+  .filter-toggle[aria-expanded="true"] .fa { transform: rotate(180deg) }
+  .filter-toggle .fa { display: inline-block; transition: transform .25s var(--ease); font-size: .8em }
+
+  .filters-chips {
+    display: grid; grid-template-rows: 0fr; opacity: 0;
+    transition: grid-template-rows .32s var(--ease), opacity .22s ease;
+  }
+  .filters-chips > .wrap { overflow: hidden; min-height: 0; }
+  .filters-chips.open { grid-template-rows: 1fr; opacity: 1; }
+}
 
 .crumbs {
   display: flex; flex-wrap: wrap; align-items: center; gap: .4rem;
@@ -56,8 +89,11 @@
   font-family: var(--label); font-size: .62rem; letter-spacing: .18em;
   text-transform: uppercase; color: var(--cream-dim);
   background: none; border: none; padding: 2px 0; cursor: pointer;
+  transition: color .2s, transform 120ms var(--ease-out);
+  display: inline-block;
 }
 .crumb:hover { color: var(--gold) }
+.crumb:active:not(.on) { transform: scale(.94) }
 .crumb.on { color: var(--gold); cursor: default }
 .crumb-sep { color: var(--gold-dim); font-size: .7rem }
 
@@ -80,9 +116,11 @@
   background: var(--card); color: var(--cream);
   border: 1px solid var(--line-strong); border-radius: 20px;
   font-family: var(--label); font-size: .68rem; letter-spacing: .08em;
-  cursor: pointer; transition: .2s; white-space: nowrap;
+  cursor: pointer; white-space: nowrap;
+  transition: color .2s, border-color .2s, background-color .2s, transform 120ms var(--ease-out);
 }
 .chip:hover { border-color: var(--gold); color: var(--gold) }
+.chip:active { transform: scale(.95) }
 .chip.on { background: var(--gold); border-color: var(--gold); color: var(--obsidian); font-weight: 600 }
 .chip .n {
   font-family: var(--mono); font-size: .58rem; color: var(--gold-dim);
@@ -134,7 +172,7 @@
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .055),
               0 0 0 1px rgba(255, 255, 255, .04);
   transition: box-shadow .35s var(--ease), opacity .35s var(--ease),
-              filter .35s var(--ease);
+              filter .35s var(--ease), transform 160ms var(--ease-out);
   content-visibility: auto; contain-intrinsic-size: 260px 360px;
   -webkit-tap-highlight-color: transparent;
 }
@@ -142,10 +180,33 @@
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1),
               0 0 0 1px rgba(201, 162, 75, .38);
 }
+.piece:active { transform: scale(.97) }
 .piece:focus-visible {
   outline: none;
   box-shadow: 0 0 0 2px var(--gold), inset 0 1px 0 rgba(255, 255, 255, .1);
 }
+
+/* First-paint cascade: a batch entering together should enter together,
+   not appear as one flat block. Capped at 12 -- past the first couple of
+   rows the eye no longer reads a stagger as intentional, just slow. */
+@keyframes pieceIn {
+  from { opacity: 0; transform: translateY(10px) scale(.98) }
+  to   { opacity: 1; transform: none }
+}
+.piece { animation: pieceIn .5s var(--ease-out) backwards }
+.piece:nth-child(1)  { animation-delay: 0ms }
+.piece:nth-child(2)  { animation-delay: 35ms }
+.piece:nth-child(3)  { animation-delay: 70ms }
+.piece:nth-child(4)  { animation-delay: 105ms }
+.piece:nth-child(5)  { animation-delay: 140ms }
+.piece:nth-child(6)  { animation-delay: 175ms }
+.piece:nth-child(7)  { animation-delay: 210ms }
+.piece:nth-child(8)  { animation-delay: 245ms }
+.piece:nth-child(9)  { animation-delay: 280ms }
+.piece:nth-child(10) { animation-delay: 315ms }
+.piece:nth-child(11) { animation-delay: 350ms }
+.piece:nth-child(12) { animation-delay: 385ms }
+.piece:nth-child(n+13) { animation-delay: 400ms }
 
 /* Dim the siblings of whatever is hovered. One rule, no JS, and the grid
    reads as curated rather than as a spreadsheet. */
@@ -257,9 +318,14 @@
   position: fixed; inset: 0; z-index: 100;
   background: rgba(4, 4, 6, .93); backdrop-filter: blur(8px);
   display: flex; flex-direction: column;
-  opacity: 0; pointer-events: none; transition: opacity .3s;
+  opacity: 0; pointer-events: none;
+  /* Set from JS to the clicked tile's screen position — the viewer opens
+     *from* the piece you tapped rather than from a fixed center point. */
+  transform-origin: var(--lb-ox, 50%) var(--lb-oy, 50%);
+  transform: scale(.94);
+  transition: opacity .3s var(--ease-out), transform .38s var(--ease-out);
 }
-.lb.show { opacity: 1; pointer-events: auto }
+.lb.show { opacity: 1; pointer-events: auto; transform: scale(1) }
 
 .lb-bar {
   display: flex; align-items: center; gap: .8rem;
@@ -273,13 +339,16 @@
   font-family: var(--display); font-size: 1rem; color: var(--cream);
   flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
+.lb-title:empty { display: none }
 .lb-close, .lb-nav {
   width: 40px; height: 40px; flex: none; border-radius: 50%;
   border: 1px solid var(--line-strong); background: var(--card);
-  color: var(--cream); font-size: 1.2rem; cursor: pointer; transition: .2s;
+  color: var(--cream); font-size: 1.2rem; cursor: pointer;
+  transition: color .2s, border-color .2s, transform 120ms var(--ease-out);
   display: flex; align-items: center; justify-content: center;
 }
 .lb-close:hover, .lb-nav:hover { border-color: var(--gold); color: var(--gold) }
+.lb-close:active, .lb-nav:active { transform: scale(.92) }
 
 /* the stage */
 .lb-stage {
@@ -377,10 +446,11 @@
   flex: none; width: 58px; height: 58px; border-radius: 9px;
   overflow: hidden; cursor: pointer; padding: 0;
   border: 1px solid var(--line-strong); background: var(--card);
-  opacity: .5; transition: .22s;
+  opacity: .5; transition: opacity .22s, border-color .22s, transform 120ms var(--ease-out);
 }
 .lb-thumb img { width: 100%; height: 100%; object-fit: cover }
 .lb-thumb:hover { opacity: .85 }
+.lb-thumb:active { transform: scale(.92) }
 .lb-thumb.on { opacity: 1; border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold) inset }
 
 /* the detail panel below the image */
@@ -418,6 +488,7 @@
 @media (prefers-reduced-motion: reduce) {
   .piece, .lb, .lb-stage img { transition: none }
   .piece-img::before { animation: none }
+  .piece { animation: none; opacity: 1; transform: none }
 }
 
 /* ---------------------------------------------------------------
@@ -439,8 +510,10 @@
   background: none; border: none; cursor: pointer;
   font-family: var(--label); font-size: .62rem; letter-spacing: .16em;
   text-transform: uppercase; color: var(--gold); text-decoration: underline;
+  transition: color .2s, transform 120ms var(--ease-out); display: inline-block;
 }
 .linky:hover { color: var(--gold-bright) }
+.linky:active { transform: scale(.95) }
 
 .more-wrap { text-align: center; padding: 38px 0 10px }
 .status {
