@@ -16,7 +16,33 @@
    "sectionOf": 1,
    "pages": 19,
    "intro": "A field guide for women in the festival world — written by festies, for festies.",
-   "checks": [],
+   "checks": [
+    {
+     "letter": "G",
+     "name": "Gut Check",
+     "desc": "What's your body actually saying right now? Tight chest, held breath, urge to get small — that's data, not drama."
+    },
+    {
+     "letter": "R",
+     "name": "Rapid Pace?",
+     "desc": "Is this moving faster than YOU decided? Speed set by someone else is the first red flag. Real connection can survive a slower pace."
+    },
+    {
+     "letter": "O",
+     "name": "Out Alone?",
+     "desc": "Where are your people? Can you find camp without his help? Separation from your crew is how isolation starts."
+    },
+    {
+     "letter": "V",
+     "name": "Verify Later",
+     "desc": "You know their festival self. That is not the same as knowing them. Three days of magic is not three months of character."
+    },
+    {
+     "letter": "E",
+     "name": "Exit Is Mine",
+     "desc": "Can you walk away freely right now? If leaving feels complicated — that IS the answer."
+    }
+   ],
    "outline": [
     {
      "key": "CAPTURE",
@@ -110,7 +136,7 @@
      "truth": "If the universe truly aligned to bring you together, it can handle you taking your time."
     },
     {
-     "section": "SUPPORT",
+     "section": "CAPTURE",
      "hook": "YOU'RE NOT LIKE OTHER GIRLS",
      "archetype": "Pedestal Ploy / The Chosen One Setup",
      "clinical": "Pedestal Ploy / Isolation Primer",
@@ -152,7 +178,7 @@
      "truth": "Anything that disappears the moment you slow down was never safe to begin with."
     },
     {
-     "section": "CONTROL",
+     "section": "CAPTURE",
      "hook": "GOOD VIBES ONLY",
      "archetype": "PLUR Weaponized / Your Boundary Is the Bad Vibe",
      "clinical": "Frame Control / Weaponized Community Values",
@@ -173,7 +199,7 @@
      "truth": "Real PLUR means your no is honored without a negotiation. The end."
     },
     {
-     "section": "CONTROL",
+     "section": "CONDITION",
      "hook": "HOLD THIS FOR ME",
      "archetype": "The Substance Gatekeeper / The Plug Who Owns You",
      "clinical": "Resource Control / Dependency Grooming",
@@ -194,7 +220,7 @@
      "truth": "Your consciousness is yours. Nobody gets to be the gatekeeper of your inner world."
     },
     {
-     "section": "SUPPORT",
+     "section": "CONDITION",
      "hook": "THAT'S NOT WHAT HAPPENED",
      "archetype": "Morning After Gaslighting",
      "clinical": "Gaslighting / Reality Rewriting",
@@ -215,7 +241,7 @@
      "truth": "Your body's memory outlasts the timeline. If it feels wrong, it is enough."
     },
     {
-     "section": "CAPTURE",
+     "section": "CONDITION",
      "hook": "HOT AND COLD ALL WEEKEND",
      "archetype": "Intermittent Reinforcement / The Addictive Cycle",
      "clinical": "Intermittent Reinforcement / Trauma Bonding",
@@ -236,7 +262,7 @@
      "truth": "Consistency is not boring. Consistency is the baseline. Unpredictability is not chemistry — it's a mechanism."
     },
     {
-     "section": "CONTROL",
+     "section": "CONDITION",
      "hook": "YOUR FRIENDS DON'T GET IT",
      "archetype": "Tent Isolation / Cutting You Off From Camp",
      "clinical": "Isolation / Manufactured Separation",
@@ -257,7 +283,7 @@
      "truth": "A connection that requires your isolation to survive is nota connection. It's a cage with better lighting."
     },
     {
-     "section": "CAPTURE",
+     "section": "CONTROL",
      "hook": "SMILE FOR ME",
      "archetype": "Photography as Predation",
      "clinical": "Boundary Violation / Digital Coercion + Stalking",
@@ -278,7 +304,7 @@
      "truth": "Consent for one photo is not consent for all photos forever in all contexts. Each image needs a yes."
     },
     {
-     "section": "CAPTURE",
+     "section": "CONTROL",
      "hook": "I'M HEALING YOU",
      "archetype": "The False Healer / Body Access Through Spiritual Authority",
      "clinical": "Authority Abuse / Spiritual Coercion",
@@ -299,7 +325,7 @@
      "truth": "Your healing belongs to you. Nobody gets to access your body in the name of your own expansion."
     },
     {
-     "section": "SUPPORT",
+     "section": "CONTROL",
      "hook": "YOU'RE KILLING THE VIBE*",
      "archetype": "Tone Policing / Your Discomfort Becomes the Problem",
      "clinical": "Tone Policing / Credibility Theft",
@@ -320,7 +346,7 @@
      "truth": "Your nervous system logged something real. Other people's comfort does not un-log it."
     },
     {
-     "section": "CAPTURE",
+     "section": "TOOLS",
      "hook": "THE FESTIVAL EX RETURNS",
      "archetype": "Hoovering / The Annual Reappearance",
      "clinical": "Hoovering / Trauma Bond Reactivation",
@@ -341,7 +367,7 @@
      "truth": "Your healing is not available for disruption every time they decide they're ready."
     },
     {
-     "section": "CAPTURE",
+     "section": "TOOLS",
      "hook": "TEST EVERYTHING",
      "archetype": "Substance Safety Is Sovereignty — No Shame, All Sense",
      "clinical": "Harm Reduction Protocol",
@@ -362,7 +388,7 @@
      "truth": "You can love the magic of this world AND verify what goes into your body. These are not opposites."
     },
     {
-     "section": "CAPTURE",
+     "section": "SUPPORT",
      "hook": "THE EXIT IS ALWAYS YOURS",
      "archetype": "Getting Out of Any Situation — No Explanation Required",
      "clinical": "",
@@ -383,7 +409,7 @@
      "truth": "The exit is always yours. Nobody gets to make leaving complicated enough that you stay."
     },
     {
-     "section": "CAPTURE",
+     "section": "SUPPORT",
      "hook": "SEE SOMETHING, HOLD SOMETHING",
      "archetype": "Bystander Activation in Festival Culture",
      "clinical": "Active Bystander Intervention",
@@ -413,10 +439,57 @@
    "edition": "Men Attendees Edition",
    "sectionOf": 2,
    "pages": 18,
-   "intro": "",
-   "checks": [],
-   "outline": [],
-   "sentences": [],
+   "intro": "A field guide for men — the stuff nobody talks about but everybody needs.",
+   "checks": [
+    {
+     "letter": "B",
+     "name": "Body First",
+     "desc": "What's your nervous system saying? That weird feeling isn't weakness. It's data. Listen to it before the group talks you out of it."
+    },
+    {
+     "letter": "A",
+     "name": "Access Check",
+     "desc": "Who controls what you're taking, where you sleep, how you get home? One person holding all three is a situation, not a friendship."
+    },
+    {
+     "letter": "S",
+     "name": "Slow It Down",
+     "desc": "Everything at festivals moves fast. Speed that feels exciting can also be speed that keeps you from thinking. Real things survive a slower yes."
+    },
+    {
+     "letter": "S",
+     "name": "Squad Contact",
+     "desc": "When did you last actually talk to your own people? Isolation works on men too — just quieter."
+    }
+   ],
+   "outline": [
+    {
+     "key": "CAPTURE",
+     "desc": "How they hook you — yes, men get targeted too"
+    },
+    {
+     "key": "CONDITION",
+     "desc": "Bro pressure, spiking, dependency grooming"
+    },
+    {
+     "key": "CONTROL",
+     "desc": "Financial scams, false brotherhood, promoter traps"
+    },
+    {
+     "key": "TOOLS",
+     "desc": "Scripts, exits, substance safety, legal awareness"
+    },
+    {
+     "key": "ACCOUNTABILITY",
+     "desc": "The page about your own behavior too"
+    }
+   ],
+   "sentences": [
+    "My discomfort is data, not weakness.",
+    "Speed that someone else sets is not my pace.",
+    "Real brotherhood doesn't require me to override my gut.",
+    "I can be open and still protect myself. These aren't opposites."
+   ],
    "scenarios": [
     {
      "section": "CAPTURE",
@@ -503,7 +576,7 @@
      "truth": "The ones who make you feel weak for having a limit are not your brothers. They're just louder than your gut."
     },
     {
-     "section": "CONDITION",
+     "section": "CAPTURE",
      "hook": "THE PLUG SITUATION",
      "archetype": "Substance Dependency Grooming",
      "clinical": "Resource Control / Dependency Grooming",
@@ -524,7 +597,7 @@
      "truth": "Your altered state should never be owned by someone who wants something from you."
     },
     {
-     "section": "CONTROL",
+     "section": "CAPTURE",
      "hook": "HOT AND COLD ALL WEEKEND",
      "archetype": "Intermittent Reinforcement / The Pull-Push Cycle",
      "clinical": "Intermittent Reinforcement / Manufactured Attachment",
@@ -545,7 +618,7 @@
      "truth": "Consistency is not boring. Unpredictability is not chemistry — it's a mechanism."
     },
     {
-     "section": "CONTROL",
+     "section": "CAPTURE",
      "hook": "THE GURU'S GOT A CIRCLE",
      "archetype": "Cult Dynamics in Men's Circles / False Brotherhood Hierarchy",
      "clinical": "High-Control Group Dynamics / BITE Model",
@@ -566,7 +639,7 @@
      "truth": "Real brotherhood points you toward your own authority. Predatory brotherhood points you toward theirs."
     },
     {
-     "section": "CONTROL",
+     "section": "CONDITION",
      "hook": "THE PROMOTER'S GOT A DEAL FOR YOU",
      "archetype": "Promoter Exploitation / Access Used as Control",
      "clinical": "Manufactured Dependency / Access Control",
@@ -587,7 +660,7 @@
      "truth": "Any promoter who won't sign a contract is telling you what the deal actually is."
     },
     {
-     "section": "CONTROL",
+     "section": "CONDITION",
      "hook": "EVERYONE SAW WHAT YOU DID",
      "archetype": "Reputation Threats / Social Smear Campaigns",
      "clinical": "Smear Campaign / Reputation Destruction",
@@ -629,7 +702,7 @@
      "truth": "Community costs should be mutual, defined, and agreed to in advance. Everything else is just uncompensated labor."
     },
     {
-     "section": "TOOLS",
+     "section": "CONTROL",
      "hook": "BUYING AND SELLING SAFELY",
      "archetype": "Legal, Otherwise, and How to Spot Undercovers",
      "clinical": "",
@@ -650,7 +723,7 @@
      "truth": "The festival is not worth your freedom. No transaction is worth your freedom."
     },
     {
-     "section": "CAPTURE",
+     "section": "CONTROL",
      "hook": "THE EXIT IS ALWAYS YOURS",
      "archetype": "Getting Out of Any Situation Without Drama",
      "clinical": "",
@@ -671,7 +744,7 @@
      "truth": "Knowing when to leave and actually leaving is a skill. Practice it."
     },
     {
-     "section": "CAPTURE",
+     "section": "TOOLS",
      "hook": "THIS ONE'S ABOUT YOU",
      "archetype": "The Page Every Man Needs To Read",
      "clinical": "Behavioral Accountability / Consent Education",
@@ -692,7 +765,7 @@
      "truth": "The men who ask are the ones people want to be around. Be that man."
     },
     {
-     "section": "CAPTURE",
+     "section": "ACCOUNTABILITY",
      "hook": "THE POWER YOU CARRY",
      "archetype": "When You're the One With Access or Status",
      "clinical": "",
@@ -713,7 +786,7 @@
      "truth": "The best leaders in this community are the ones people feel most free around. Build that."
     },
     {
-     "section": "SUPPORT",
+     "section": "ACCOUNTABILITY",
      "hook": "SEE SOMETHING, DO SOMETHING",
      "archetype": "Bystander Activation for Men",
      "clinical": "Active Bystander Intervention",
@@ -734,7 +807,7 @@
      "truth": "The community is only as safe as what we each do in the moment we see something."
     },
     {
-     "section": "SUPPORT",
+     "section": "ACCOUNTABILITY",
      "hook": "IF SOMEONE'S NOT OKAY",
      "archetype": "Mental Health & Crisis Support at Festivals",
      "clinical": "Crisis Intervention / Peer Support",
@@ -764,18 +837,33 @@
    "edition": "First-Timers Edition",
    "sectionOf": 3,
    "pages": 15,
-   "intro": "",
+   "intro": "For every first festival — the guide nobody hands you at the gate.",
    "checks": [
     {
+     "letter": "R",
+     "name": "Real Vs Performance",
+     "desc": "That person seems amazing. They might be. Real = consistent over time. Performance = whatever the weekend needs it to be."
+    },
+    {
      "letter": "A",
-     "name": "Ask Before You",
-     "desc": "TakeAnything going into your body — test it first, know..."
+     "name": "Ask Before You Take",
+     "desc": "Anything going into your body — test it first, know what it is, start small, have a sober friend who knows what you took."
+    },
+    {
+     "letter": "V",
+     "name": "Verify Your Exit",
+     "desc": "Do you know where your camp is right now? Can you get there without help? Fix that before you need it."
+    },
+    {
+     "letter": "E",
+     "name": "Everyone Is A Stranger",
+     "desc": "The veteran who's been coming for 10 years is still a stranger to you. Warmth is not safety. Both can be true."
     }
    ],
    "outline": [
     {
      "key": "CAPTURE",
-     "desc": "How they specifically target first"
+     "desc": "How they specifically target first-timers"
     },
     {
      "key": "CONDITION",
@@ -865,7 +953,7 @@
      "truth": "Your first time is not something to be swept into. It's something to prepare for."
     },
     {
-     "section": "COMMUNITY",
+     "section": "CAPTURE",
      "hook": "EVERYONE DOES IT HERE",
      "archetype": "Hazing as Initiation / Social Proof Pressure",
      "clinical": "Social Proof Exploitation / Informed Consent Bypass",
@@ -970,7 +1058,7 @@
      "truth": "Real growth makes your existing world bigger. It doesn't require deleting it."
     },
     {
-     "section": "CONTROL",
+     "section": "CAPTURE",
      "hook": "LET ME SHOW YOU THE REAL FESTIVAL",
      "archetype": "Access Bait / Exclusive Experience Manipulation",
      "clinical": "Scarcity Urgency / Access Control",
@@ -991,7 +1079,7 @@
      "truth": "The festival you bought a ticket to is complete. You don't need a guide to access your own experience."
     },
     {
-     "section": "CONTROL",
+     "section": "CONDITION",
      "hook": "WELCOME TO THE FAMILY",
      "archetype": "Camp Recruitment / The Cult Invite",
      "clinical": "High-Control Group Dynamics / Manufactured Belonging",
@@ -1012,7 +1100,7 @@
      "truth": "The community that is right for you will be just as welcoming when you return as when you arrived."
     },
     {
-     "section": "CAPTURE",
+     "section": "CONDITION",
      "hook": "THE FIRST-TIMER FIELD KIT",
      "archetype": "Everything Nobody Tells You at the Gate",
      "clinical": "Harm Reduction + Safety Infrastructure",
@@ -1033,7 +1121,7 @@
      "truth": "The festies who have the most fun are the ones who planned for when they couldn't plan."
     },
     {
-     "section": "CAPTURE",
+     "section": "TOOLS",
      "hook": "BUYING AND SELLING AT YOUR FIRST FEST",
      "archetype": "Legal Risk, Undercovers, and How to Navigate Safely",
      "clinical": "",
@@ -1084,10 +1172,62 @@
    "edition": "LGBTQ+ Attendees Edition",
    "sectionOf": 4,
    "pages": 13,
-   "intro": "",
-   "checks": [],
-   "outline": [],
-   "sentences": [],
+   "intro": "Festival spaces can be liberating AND they can be predatory. Know the difference.",
+   "checks": [
+    {
+     "letter": "P",
+     "name": "Presence Is Not Permission",
+     "desc": "Being visible, expressive, or openly queer at a festival is not an invitation for anything you did not offer."
+    },
+    {
+     "letter": "R",
+     "name": "Real Allies Show Behavior",
+     "desc": "Watch behavior over time. Real allyship is consistent — it does not disappear the moment it costs something."
+    },
+    {
+     "letter": "I",
+     "name": "Identity Stays Yours",
+     "desc": "Your identity is yours to share on your terms, in your timing. Anyone who tries to define or disclose it for you is taking something."
+    },
+    {
+     "letter": "D",
+     "name": "Don't Assume Safe Spaces",
+     "desc": "A rainbow flag does not automatically make a space or person safe. Verify through behavior, not signage."
+    },
+    {
+     "letter": "E",
+     "name": "Exit Is Always Yours",
+     "desc": "From any space, any conversation, any dynamic that does not feel right. No community is owed an explanation for your exit."
+    }
+   ],
+   "outline": [
+    {
+     "key": "CAPTURE",
+     "desc": "Fetishization, identity exploitation, the ally who is not"
+    },
+    {
+     "key": "CONDITION",
+     "desc": "Community gatekeeping, outing as leverage, assumed safe spaces"
+    },
+    {
+     "key": "CONTROL",
+     "desc": "Relationship pressure in small communities, visibility as weapon"
+    },
+    {
+     "key": "TOOLS",
+     "desc": "Reading real allyship, exit scripts, substance safety, resources"
+    },
+    {
+     "key": "COMMUNITY",
+     "desc": "Building genuine queer community at festivals vs being collected"
+    }
+   ],
+   "sentences": [
+    "Being visible is not an invitation. My presence is not consent.",
+    "A rainbow flag does not automatically make a space safe.",
+    "My identity is mine to share on my terms and my timeline.",
+    "Real allyship is consistent. Watch behavior, not words."
+   ],
    "scenarios": [
     {
      "section": "CAPTURE",
@@ -1153,7 +1293,7 @@
      "truth": "Your queerness is yours. It does not obligate you to anyone who shares it."
     },
     {
-     "section": "CONTROL",
+     "section": "CAPTURE",
      "hook": "YOU ARE NOT QUEER ENOUGH",
      "archetype": "Community Gatekeeping / Identity Policing",
      "clinical": "Community Gatekeeping / Shame-Based Compliance",
@@ -1174,7 +1314,7 @@
      "truth": "Queer enough is you, exactly as you are. Anyone else's definition is their limitation, not yours."
     },
     {
-     "section": "SUPPORT",
+     "section": "CAPTURE",
      "hook": "OUTING AS LEVERAGE",
      "archetype": "Your Identity Used Against You",
      "clinical": "Coercion / Identity-Based Leverage",
@@ -1195,7 +1335,7 @@
      "truth": "Your identity is yours to share on your terms. Anyone who tries to use it against you is committing a harm."
     },
     {
-     "section": "CONDITION",
+     "section": "CAPTURE",
      "hook": "THIS IS A SAFE SPACE",
      "archetype": "Assumed Safety in Queer Spaces / False Sanctuaries",
      "clinical": "Safety Assumption Exploitation / False Credential",
@@ -1216,7 +1356,7 @@
      "truth": "Safety is not an aesthetic. Verify through behavior and community relationships, not flags and decor."
     },
     {
-     "section": "CAPTURE",
+     "section": "CONDITION",
      "hook": "RELATIONSHIP PRESSURE IN A SMALL COMMUNITY",
      "archetype": "The Visibility of Queer Relationships in Festival Contexts",
      "clinical": "Social Coercion / Community Visibility Exploitation",
@@ -1237,7 +1377,7 @@
      "truth": "A community that uses social pressure to keep you in a bad situation is not protecting you. It is protecting itself."
     },
     {
-     "section": "SUPPORT",
+     "section": "CONDITION",
      "hook": "YOUR VISIBILITY IS THEIR WEAPON",
      "archetype": "Using Your Expression Against You",
      "clinical": "Identity-Based Coercion / Expression Weaponization",
@@ -1258,7 +1398,7 @@
      "truth": "Expression is not invitation. Presence is not permission. Your yes is the only thing that means yes."
     },
     {
-     "section": "CAPTURE",
+     "section": "TOOLS",
      "hook": "SUBSTANCE SAFETY FOR QUEER FESTIVALGOERS",
      "archetype": "Specific Risks and Real Resources",
      "clinical": "Harm Reduction / Community-Specific Risk",
@@ -1279,7 +1419,7 @@
      "truth": "The community that parties together also looks out for each other. That includes knowing what you are taking."
     },
     {
-     "section": "SUPPORT",
+     "section": "TOOLS",
      "hook": "RESOURCES AND RIGHTS",
      "archetype": "What Is Available When You Need It",
      "clinical": "Community Resources / Legal Rights",
@@ -1300,7 +1440,7 @@
      "truth": "Support that understands your specific experience exists. You deserve to use it."
     },
     {
-     "section": "CAPTURE",
+     "section": "COMMUNITY",
      "hook": "REAL QUEER COMMUNITY VS BEING COLLECTED",
      "archetype": "How to Tell the Difference",
      "clinical": "",
@@ -1330,40 +1470,61 @@
    "edition": "Live Painters & Artists Edition",
    "sectionOf": 5,
    "pages": 15,
-   "intro": "",
+   "intro": "Your art is yours. Your body is yours. Your worth is not for sale.",
    "checks": [
     {
      "letter": "C",
-     "name": "Contract First Handshake",
-     "desc": "deals are not deals. If it's not written, it's not real. Every wall, commission, collab..."
+     "name": "Contract First",
+     "desc": "Handshake deals are not deals. If it's not written, it's not real. Every wall, commission, collab — get it in writing."
     },
     {
      "letter": "R",
-     "name": "Rate Is Sacre",
-     "desc": "'E posure' doesn't pay rent. Know your rate before every conversation and don't negotiate it..."
+     "name": "Rate Is Sacred",
+     "desc": "'Exposure' doesn't pay rent. Know your rate before every conversation and don't negotiate it under pressure."
     },
     {
      "letter": "E",
-     "name": "Exit Clause Can",
-     "desc": "you leave this arrangement if it stops being okay? If the answer is no or complicated —..."
+     "name": "Exit Clause",
+     "desc": "Can you leave this arrangement if it stops being okay? If the answer is no or complicated — that is the problem, not your hesitation."
     },
     {
      "letter": "A",
      "name": "Art Stays Yours",
-     "desc": "Your image, your work, your process. Nobody photographs it, sells it, or claims credit..."
+     "desc": "Your image, your work, your process. Nobody photographs it, sells it, or claims credit without your explicit yes."
     },
     {
      "letter": "T",
-     "name": "Test The",
-     "desc": "Who's in your creative space while you work? Attention during creation is intimate. Not..."
+     "name": "Test The Room",
+     "desc": "Who's in your creative space while you work? Attention during creation is intimate. Not everyone watching has earned that access."
     },
     {
      "letter": "E",
-     "name": "Enou",
-     "desc": "h Is Enou hBurnout, boundary erosion, over giving are the slow drain. You're allowed to stop. CAPT — E posure traps, false collabs, the fan who won't leave CONDITION — Substance vulnerability while working, validation weaponized CONTROL — Camp walls that own you, credit theft, financial manipulation TOOLS — Contracts, rates, saying no, protecting your work and rights CO ITY — Real collab vs e traction — how to tell the difference \"Exposure doesn't pay rent. A rate does.\" \"Creating in public is not consent to be consumed in private.\" \"My art is my labor. My labor has a price. I know..."
+     "name": "Enough Is Enough",
+     "desc": "Burnout, boundary erosion, over-giving are the slow drain. You're allowed to stop."
     }
    ],
-   "outline": [],
+   "outline": [
+    {
+     "key": "CAPTURE",
+     "desc": "Exposure traps, false collabs, the fan who won't leave"
+    },
+    {
+     "key": "CONDITION",
+     "desc": "Substance vulnerability while working, validation weaponized"
+    },
+    {
+     "key": "CONTROL",
+     "desc": "Camp walls that own you, credit theft, financial manipulation"
+    },
+    {
+     "key": "TOOLS",
+     "desc": "Contracts, rates, saying no, protecting your work and rights"
+    },
+    {
+     "key": "COMMUNITY",
+     "desc": "Real collab vs extraction — how to tell the difference"
+    }
+   ],
    "sentences": [
     "Exposure doesn't pay rent. A rate does.",
     "Creating in public is not consent to be consumed in private.",
@@ -1372,7 +1533,7 @@
    ],
    "scenarios": [
     {
-     "section": "TOOLS",
+     "section": "CAPTURE",
      "hook": "PAINT FOR FREE, GET FAMOUS",
      "archetype": "The Exposure Promoter",
      "clinical": "Reciprocity Trap / Future Faking",
@@ -1435,7 +1596,7 @@
      "truth": "Anyone who represents themselves as your representative before you've agreed to that is telling you who they are."
     },
     {
-     "section": "SUPPORT",
+     "section": "CAPTURE",
      "hook": "I JUST LOVE WATCHING YOU CREATE",
      "archetype": "The Hoverer / The Fan Who Becomes a Fixture",
      "clinical": "Boundary Erosion / Manufactured Intimacy",
@@ -1456,7 +1617,7 @@
      "truth": "Admiration that respects your process from a distance is real. Admiration that requires access to your workspace is not admiration."
     },
     {
-     "section": "CAPTURE",
+     "section": "CONDITION",
      "hook": "SEXY ARTIST ENERGY",
      "archetype": "Sexual Attention as Artistic Validation",
      "clinical": "Objectification / Sexual Coercion via Validation",
@@ -1498,7 +1659,7 @@
      "truth": "Your time and skill are finite. Scope creep is not creative collaboration — it's extraction in slow motion."
     },
     {
-     "section": "CONTROL",
+     "section": "CONDITION",
      "hook": "THE CAMP GAVE YOU A WALL",
      "archetype": "Camp Ownership / The Wall With Strings",
      "clinical": "Resource Control / Manufactured Obligation",
@@ -1519,7 +1680,7 @@
      "truth": "A platform with undefined terms is not an opportunity. It's a blank contract you're signing in paint."
     },
     {
-     "section": "CAPTURE",
+     "section": "CONTROL",
      "hook": "WE'LL PAY YOU AFTER THE EVENT",
      "archetype": "Payment Delays / Non-Payment for Creative Work",
      "clinical": "Financial Exploitation / Payment Manipulation",
@@ -1561,7 +1722,7 @@
      "truth": "You created it. You own the right to reproduce it. Every commercial use requires your permission and your compensation."
     },
     {
-     "section": "TOOLS",
+     "section": "CONTROL",
      "hook": "YOUR ART IS YOUR LABOR",
      "archetype": "Rates, Rights, and Protecting What You Make",
      "clinical": "Professional Sovereignty / Artist Rights",
@@ -1624,7 +1785,7 @@
      "truth": "Your online presence is an extension of your work. Protect it with the same intentionality you bring to your art."
     },
     {
-     "section": "CONTROL",
+     "section": "COMMUNITY",
      "hook": "BURNOUT IS NOT A BADGE",
      "archetype": "Over-Giving as a Control Dynamic",
      "clinical": "Compassion Fatigue / Boundary Erosion",
@@ -1654,10 +1815,62 @@
    "edition": "Musicians & Touring Edition",
    "sectionOf": 6,
    "pages": 17,
-   "intro": "",
-   "checks": [],
-   "outline": [],
-   "sentences": [],
+   "intro": "Your music is the power. Don't let anyone else hold the switch.",
+   "checks": [
+    {
+     "letter": "S",
+     "name": "Sign Before You Play",
+     "desc": "No contract, no soundcheck. Your performance has value. Protect it in writing. Every time."
+    },
+    {
+     "letter": "O",
+     "name": "Own Your Masters",
+     "desc": "Who owns the recordings made of your set? Who owns the footage? Find out before you go on, not after it's posted."
+    },
+    {
+     "letter": "U",
+     "name": "Understand The Room",
+     "desc": "Who's in the green room? Who has access? The most dangerous situations happen in spaces that feel private and protected."
+    },
+    {
+     "letter": "N",
+     "name": "No Is A Full Sentence",
+     "desc": "To the promoter. To the superfan. To the manager. No explanation required. No is complete."
+    },
+    {
+     "letter": "D",
+     "name": "Document Everything",
+     "desc": "Agreements, payments, incidents, communications. Screenshots. Paper trail. Your memory is not evidence."
+    }
+   ],
+   "outline": [
+    {
+     "key": "CAPTURE",
+     "desc": "Promoter traps, false management, industry gatekeeping"
+    },
+    {
+     "key": "CONDITION",
+     "desc": "Road isolation, superfan dynamics, substance pressure"
+    },
+    {
+     "key": "CONTROL",
+     "desc": "Contract manipulation, revenue skimming, reputation threats"
+    },
+    {
+     "key": "TOOLS",
+     "desc": "Contracts, rights, green room safety, touring survival"
+    },
+    {
+     "key": "ACCOUNTABILITY",
+     "desc": "Fame as a responsibility — the page about your own power"
+    }
+   ],
+   "sentences": [
+    "The stage gives me power. Power requires responsibility.",
+    "My music's value is not determined by whoever is booking me.",
+    "Green room access is a privilege, not an invitation.",
+    "Document it now or lose it later."
+   ],
    "scenarios": [
     {
      "section": "CAPTURE",
@@ -1744,7 +1957,7 @@
      "truth": "The post-show high is real and beautiful. It is also the window people have been waiting all night to exploit."
     },
     {
-     "section": "SUPPORT",
+     "section": "CAPTURE",
      "hook": "THE SUPERFAN SITUATION",
      "archetype": "When Admiration Becomes Stalking",
      "clinical": "Parasocial Fixation / Stalking Behavior",
@@ -1765,7 +1978,7 @@
      "truth": "\"Dedicated fan\" is not a category that overrides your safety. Your discomfort is data."
     },
     {
-     "section": "SUPPORT",
+     "section": "CAPTURE",
      "hook": "ROAD ISOLATION",
      "archetype": "How Touring Disconnects You From Everyone Who Knows You",
      "clinical": "Isolation / Dependency on Road Crew",
@@ -1786,7 +1999,7 @@
      "truth": "The road is a closed system. Keep one door open to the outside."
     },
     {
-     "section": "CONTROL",
+     "section": "CAPTURE",
      "hook": "WE OWN THE RECORDINGS",
      "archetype": "Live Recording Rights / Who Owns Your Festival Set",
      "clinical": "Intellectual Property Exploitation / Rights Grab",
@@ -1807,7 +2020,7 @@
      "truth": "Your performance is a product. Know who owns it before you create it."
     },
     {
-     "section": "CAPTURE",
+     "section": "CONDITION",
      "hook": "THE CHECK'S COMING",
      "archetype": "Payment Delays / Revenue Skimming",
      "clinical": "Financial Exploitation / Payment Manipulation",
@@ -1828,7 +2041,7 @@
      "truth": "You performed. You get paid what was agreed. This is completely enforceable."
     },
     {
-     "section": "CONTROL",
+     "section": "CONDITION",
      "hook": "YOUR REPUTATION OR YOUR COMPLIANCE",
      "archetype": "Reputation Threats / Blacklisting",
      "clinical": "Coercion / Reputation Destruction",
@@ -1870,7 +2083,7 @@
      "truth": "The band feels like family until there's money involved. The paperwork is how you protect the family."
     },
     {
-     "section": "TOOLS",
+     "section": "CONTROL",
      "hook": "YOUR STANDARD RIDER",
      "archetype": "What to Include, How to Use It",
      "clinical": "Professional Sovereignty / Contract Protection",
@@ -1912,7 +2125,7 @@
      "truth": "The backstage is not a legal gray zone. Know your rights."
     },
     {
-     "section": "CAPTURE",
+     "section": "TOOLS",
      "hook": "THE STAGE IS NOT A CONSENT BYPASS",
      "archetype": "Fame, Access, and Your Responsibility With Both",
      "clinical": "",
@@ -1933,7 +2146,7 @@
      "truth": "The artists who build lasting careers are the ones their community can actually trust. Be that artist."
     },
     {
-     "section": "SUPPORT",
+     "section": "ACCOUNTABILITY",
      "hook": "WHAT GOOD LEADERSHIP SOUNDS LIKE",
      "archetype": "Using Your Platform for Actual Safety",
      "clinical": "",
@@ -1954,7 +2167,7 @@
      "truth": "Your platform is a privilege. Using it for community safety is one of the most powerful things you can do with it."
     },
     {
-     "section": "CAPTURE",
+     "section": "ACCOUNTABILITY",
      "hook": "THE MENTAL HEALTH REALITY OF TOURING",
      "archetype": "What Nobody Talks About and What Actually Helps",
      "clinical": "",
@@ -1984,37 +2197,37 @@
    "edition": "Vendors & Market Artists Edition",
    "sectionOf": 7,
    "pages": 17,
-   "intro": "",
+   "intro": "Your booth is your business. Your inventory is your livelihood. Protect both.",
    "checks": [
     {
      "letter": "M",
-     "name": "Money Moves",
-     "desc": "FirstCash, Venmo, S uare — you set the terms. Never e tend credit to strangers or accept..."
+     "name": "Money Moves First",
+     "desc": "Cash, Venmo, Square — you set the terms. Never extend credit to strangers or accept payment you cannot verify."
     },
     {
      "letter": "A",
      "name": "Access Is Earned",
-     "desc": "Booth placement, electricity, water — whoever controls these controls your event. Know..."
+     "desc": "Booth placement, electricity, water — whoever controls these controls your event. Know who holds that leverage."
     },
     {
      "letter": "R",
-     "name": "Record EverythingEvery",
-     "desc": "fee paid, every agreement made, every incident. Your paper trail is your only..."
+     "name": "Record Everything",
+     "desc": "Every fee paid, every agreement made, every incident. Your paper trail is your only real protection."
     },
     {
      "letter": "K",
-     "name": "Know Your CircuitThe",
-     "desc": "traveling vendor circuit has a memory. Predatory promoters get named. Learn who they..."
+     "name": "Know Your Circuit",
+     "desc": "The traveling vendor circuit has a memory. Predatory promoters get named. Learn who they are before you book."
     },
     {
      "letter": "E",
-     "name": "Exit Costs NothingA",
-     "desc": "bad vendor agreement costs more to stay in than to leave. Know your e it terms before..."
+     "name": "Exit Costs Nothing",
+     "desc": "A bad vendor agreement costs more to stay in than to leave. Know your exit terms before you sign."
     },
     {
      "letter": "T",
-     "name": "Travel Safely Solo",
-     "desc": "travel with inventory and cash is one of the highest risk situations in the vendor world..."
+     "name": "Travel Safely",
+     "desc": "Solo travel with inventory and cash is one of the highest-risk situations in the vendor world. Plan it like it matters."
     }
    ],
    "outline": [
@@ -2110,7 +2323,7 @@
      "truth": "Community costs should be defined, mutual, and agreed to in advance. Anything else is uncompensated labor."
     },
     {
-     "section": "COMMUNITY",
+     "section": "CAPTURE",
      "hook": "THE FAMILY DISCOUNT",
      "archetype": "Peer Guilt Pressure / Inventory Extraction",
      "clinical": "Reciprocity Trap / Peer Coercion",
@@ -2131,7 +2344,7 @@
      "truth": "Your margin is your livelihood. Protecting it is not being anti-community. It is being a sustainable business."
     },
     {
-     "section": "CONDITION",
+     "section": "CAPTURE",
      "hook": "I CAN GET YOU IN ANYWHERE",
      "archetype": "Romantic Entanglement With Access Holders",
      "clinical": "Access Control / Romantic Manipulation",
@@ -2173,7 +2386,7 @@
      "truth": "The partnership that starts as family needs the same paperwork as a business partnership. Because it is both."
     },
     {
-     "section": "CONTROL",
+     "section": "CONDITION",
      "hook": "SHE IS NOT REALLY HANDMADE",
      "archetype": "Social Proof Sabotage / Competitor Gossip",
      "clinical": "Smear Campaign / Reputation Destruction",
@@ -2194,7 +2407,7 @@
      "truth": "You cannot control what people say. You can make the truth undeniable."
     },
     {
-     "section": "CONTROL",
+     "section": "CONDITION",
      "hook": "BOOTH PLACEMENT AS PUNISHMENT",
      "archetype": "The Organizer Who Moves You When You Push Back",
      "clinical": "Retaliation / Access Control as Punishment",
@@ -2215,7 +2428,7 @@
      "truth": "The organizer who punishes you for having standards is telling you they are not the right partner for your business."
     },
     {
-     "section": "CAPTURE",
+     "section": "CONTROL",
      "hook": "CASH AND CARRY",
      "archetype": "Solo Travel With Inventory and Cash",
      "clinical": "Physical Vulnerability / Targeted Theft",
@@ -2371,13 +2584,60 @@
    "edition": "Staff & Volunteers Edition",
    "sectionOf": 8,
    "pages": 16,
-   "intro": "",
-   "checks": [],
-   "outline": [],
-   "sentences": [],
+   "intro": "You hold the event together. This guide holds you together while you do it.",
+   "checks": [
+    {
+     "letter": "H",
+     "name": "Hold Your Limits",
+     "desc": "Caregiver roles create specific pressure to keep giving past empty. Your limit is the line that keeps you useful."
+    },
+    {
+     "letter": "O",
+     "name": "Observe the Pattern",
+     "desc": "One incident can be chance. Two is a pattern. Three is a system. Name what you are seeing out loud."
+    },
+    {
+     "letter": "L",
+     "name": "Log Everything",
+     "desc": "If it was worth noticing it is worth writing down. Date, time, location, what you saw. Your notes outlast your shift."
+    },
+    {
+     "letter": "D",
+     "name": "Debrief After",
+     "desc": "Hard shifts require processing. You cannot pour from an empty vessel. Decompression is part of the job, not extra."
+    }
+   ],
+   "outline": [
+    {
+     "key": "CAPTURE",
+     "desc": "Attendees who target staff, false volunteer premises, recruitment traps"
+    },
+    {
+     "key": "CONDITION",
+     "desc": "Compassion fatigue, burnout as control, participant manipulation"
+    },
+    {
+     "key": "CONTROL",
+     "desc": "Reporting suppression, staff hierarchy abuse, being blamed"
+    },
+    {
+     "key": "TOOLS",
+     "desc": "Your rights, how to report, bystander activation, exit from a role"
+    },
+    {
+     "key": "ACCOUNTABILITY",
+     "desc": "Using your access responsibly — the page about your own power"
+    }
+   ],
+   "sentences": [
+    "I can care deeply about this community AND have limits in my role.",
+    "Reporting harm is not drama. It is the job.",
+    "My wellbeing is not optional. It is what makes me effective.",
+    "The predator who knows where the safe space tent is — that is not hypothetical."
+   ],
    "scenarios": [
     {
-     "section": "SUPPORT",
+     "section": "CAPTURE",
      "hook": "YOU CARE SO MUCH",
      "archetype": "The Attendee Who Romantically Targets Staff on Duty",
      "clinical": "Role Exploitation / Romantic Targeting",
@@ -2419,7 +2679,7 @@
      "truth": "Volunteer labor is still labor. It deserves clear terms and honest expectations."
     },
     {
-     "section": "SUPPORT",
+     "section": "CAPTURE",
      "hook": "THE PREDATOR KNOWS WHERE THE TENT IS",
      "archetype": "Bad Actors Who Target Safe Spaces",
      "clinical": "Position of Trust Exploitation / Predatory Access",
@@ -2461,7 +2721,7 @@
      "truth": "You cannot give what you do not have. Your recovery is not a luxury. It is the job."
     },
     {
-     "section": "SUPPORT",
+     "section": "CAPTURE",
      "hook": "THE PARTICIPANT WHO MANIPULATES YOUR CARE",
      "archetype": "When Your Support Role Gets Exploited",
      "clinical": "Role Manipulation / Compassion Exploitation",
@@ -2482,7 +2742,7 @@
      "truth": "Your care role requires discernment as much as compassion. Both are part of doing it well."
     },
     {
-     "section": "CONTROL",
+     "section": "CONDITION",
      "hook": "BURNOUT AS A CONTROL TOOL",
      "archetype": "Being Kept Too Depleted to See Clearly",
      "clinical": "Resource Depletion / Control Through Exhaustion",
@@ -2503,7 +2763,7 @@
      "truth": "A depleted volunteer is not a martyr. A depleted volunteer is a liability for everyone including the people they are trying to protect. '"
     },
     {
-     "section": "CAPTURE",
+     "section": "CONDITION",
      "hook": "DON'T RUIN THE VIBE OF THE EVENT",
      "archetype": "Reporting Suppression / Don't Be the Problem",
      "clinical": "Tone Policing / Reporting Suppression",
@@ -2545,7 +2805,7 @@
      "truth": "Your access to a good volunteer experience should not require tolerating sexual pressure from anyone above you."
     },
     {
-     "section": "CAPTURE",
+     "section": "CONTROL",
      "hook": "THIS IS YOUR FAULT",
      "archetype": "Being Blamed When Something Goes Wrong on Your Watch",
      "clinical": "Scapegoating / Accountability Deflection",
@@ -2566,7 +2826,7 @@
      "truth": "You are responsible for your actions. You are not responsible for the systemic conditions you were placed in."
     },
     {
-     "section": "TOOLS",
+     "section": "CONTROL",
      "hook": "BYSTANDER ACTIVATION FOR STAFF",
      "archetype": "What You Do In The Moment You See Something",
      "clinical": "Active Bystander Intervention / Safeguarding",
@@ -2587,7 +2847,7 @@
      "truth": "Your vest and your radio are the tools for this moment. Use them."
     },
     {
-     "section": "SUPPORT",
+     "section": "TOOLS",
      "hook": "YOUR RIGHTS AS A VOLUNTEER",
      "archetype": "What You Can Refuse and What You Are Owed",
      "clinical": "Volunteer Rights / Labor Awareness",
@@ -2608,7 +2868,7 @@
      "truth": "Saying no to an unsafe task is not letting the team down. It is doing the job correctly."
     },
     {
-     "section": "SUPPORT",
+     "section": "TOOLS",
      "hook": "THE DEBRIEF IS PART OF THE JOB",
      "archetype": "Processing After a Hard Shift or Difficult Incident",
      "clinical": "Post-Incident Debrief / Secondary Trauma Prevention",
@@ -2629,7 +2889,7 @@
      "truth": "The experiences you process become wisdom. The ones you do not process become weight. Debrief is how you choose which is which."
     },
     {
-     "section": "SUPPORT",
+     "section": "ACCOUNTABILITY",
      "hook": "YOUR ACCESS IS NOT YOUR PERMISSION",
      "archetype": "Using Your Role Responsibly",
      "clinical": "",
@@ -2650,7 +2910,7 @@
      "truth": "The access is not yours. It belongs to the role. Use it accordingly."
     },
     {
-     "section": "CAPTURE",
+     "section": "ACCOUNTABILITY",
      "hook": "STAFF CULTURE THAT PROTECTS PEOPLE",
      "archetype": "What Healthy Staff Culture Actually Looks Like",
      "clinical": "",
@@ -2680,27 +2940,36 @@
    "edition": "Harm Reduction Edition",
    "sectionOf": 9,
    "pages": 8,
-   "intro": "",
+   "intro": "You hold the space that holds everything. This guide holds you.",
    "checks": [
     {
+     "letter": "C",
+     "name": "Capacity Has a Limit",
+     "desc": "You cannot pour from an empty vessel. Your depletion is not a badge. It is a risk to the people you serve."
+    },
+    {
      "letter": "A",
-     "name": "Accountability",
-     "desc": "oes oth ysYou are accountable to the people you serve. Your organization is accountable to you. Know..."
+     "name": "Accountability Goes Both Ways",
+     "desc": "You are accountable to the people you serve. Your organization is accountable to you. Know both directions."
     },
     {
      "letter": "R",
-     "name": "Re",
-     "desc": "Fla s Are ataYour gut is an instrument. When something feels off about a participant or a colleague — log..."
+     "name": "Red Flags Are Data",
+     "desc": "Your gut is an instrument. When something feels off about a participant or a colleague — log it, don't dismiss it."
     },
     {
      "letter": "E",
-     "name": "Exit",
-     "desc": "an ebrief AlwaysHard shifts re uire processing..."
+     "name": "Exit and Debrief Always",
+     "desc": "Hard shifts require processing. What you carry out of the tent without naming becomes what you carry for years."
     }
    ],
    "outline": [
     {
-     "key": "ITION",
+     "key": "CAPTURE",
+     "desc": "Participants who target the care role, organizational recruitment traps"
+    },
+    {
+     "key": "CONDITION",
      "desc": "Compassion fatigue, vicarious trauma, secondary traumatic stress"
     },
     {
@@ -2708,7 +2977,11 @@
      "desc": "Reporting suppression, organizational accountability gaps, being blamed"
     },
     {
-     "key": "ILITY",
+     "key": "TOOLS",
+     "desc": "Self-care protocol, reporting structures, boundary maintenance"
+    },
+    {
+     "key": "ACCOUNTABILITY",
      "desc": "Using your access and knowledge responsibly"
     }
    ],
@@ -2720,7 +2993,7 @@
    ],
    "scenarios": [
     {
-     "section": "ITION",
+     "section": "CAPTURE",
      "hook": "YOU ARE SO SAFE TO BE AROUND",
      "archetype": "When Your Care Energy Becomes a Hook",
      "clinical": "Role Exploitation / Romantic Targeting",
@@ -2741,7 +3014,7 @@
      "truth": "Your care is a professional skill. Not everyone who benefits from it is entitled to more of you."
     },
     {
-     "section": "ITION",
+     "section": "CAPTURE",
      "hook": "THE PARTICIPANT WHO RUNS A PATTERN",
      "archetype": "When Someone Is Using the Space for Something Other Than Support",
      "clinical": "Space Exploitation / Safeguarding Concern",
@@ -2762,7 +3035,7 @@
      "truth": "Your care role requires discernment as much as compassion. Both are part of doing it well."
     },
     {
-     "section": "ITION",
+     "section": "CONDITION",
      "hook": "YOU CAN HANDLE MORE",
      "archetype": "Compassion Fatigue and Secondary Traumatic Stress",
      "clinical": "Compassion Fatigue / Secondary Traumatic Stress",
@@ -2783,7 +3056,7 @@
      "truth": "You cannot give what you do not have. Your recovery serves the people you are trying to help."
     },
     {
-     "section": "ITION",
+     "section": "CONDITION",
      "hook": "WHAT YOU SAW STAYS HERE",
      "archetype": "Confidentiality Weaponized / Organizational Reporting Suppression",
      "clinical": "Reporting Suppression / Confidentiality Misuse",
@@ -2804,7 +3077,7 @@
      "truth": "Confidentiality protects participants. It does not protect organizations from accountability for harm."
     },
     {
-     "section": "ITION",
+     "section": "CONTROL",
      "hook": "YOU SHOULD HAVE CAUGHT THAT",
      "archetype": "Being Blamed for Systemic Failures",
      "clinical": "Scapegoating / Accountability Deflection",
@@ -2825,7 +3098,7 @@
      "truth": "You are responsible for your actions. You are not responsible for the systemic conditions you were placed in."
     },
     {
-     "section": "ITION",
+     "section": "ACCOUNTABILITY",
      "hook": "THE DEBRIEF PROTOCOL",
      "archetype": "Processing What You Carry So It Does Not Carry You",
      "clinical": "Post-Incident Debrief / Secondary Trauma Prevention",
@@ -2855,10 +3128,57 @@
    "edition": "Camp Leads & Organizers Edition",
    "sectionOf": 10,
    "pages": 10,
-   "intro": "",
-   "checks": [],
-   "outline": [],
-   "sentences": [],
+   "intro": "The power you hold in your camp is real. Use it to protect people, not to own them.",
+   "checks": [
+    {
+     "letter": "L",
+     "name": "Lead With Accountability",
+     "desc": "The standard you walk past is the standard you set. What you allow in your camp becomes what your camp is."
+    },
+    {
+     "letter": "E",
+     "name": "Earn Trust, Don't Assume It",
+     "desc": "Your role gives you authority. Authority is not the same as trust. Trust is earned through what you do when it costs you."
+    },
+    {
+     "letter": "A",
+     "name": "Access Creates Responsibility",
+     "desc": "You control housing, resources, placement, belonging. That control is a tool for protection — or a lever for harm."
+    },
+    {
+     "letter": "D",
+     "name": "Debrief and Reflect",
+     "desc": "Hard situations happen in every camp. What you do with them afterward shapes whether they happen again."
+    }
+   ],
+   "outline": [
+    {
+     "key": "CAPTURE",
+     "desc": "How camps attract and collect people — including predatory dynamics"
+    },
+    {
+     "key": "CONDITION",
+     "desc": "How camp culture gets built and what builds it badly"
+    },
+    {
+     "key": "CONTROL",
+     "desc": "Power abuse camp leads may not recognize in themselves"
+    },
+    {
+     "key": "TOOLS",
+     "desc": "Accountability practices, conflict resolution, reporting"
+    },
+    {
+     "key": "PROTECTION",
+     "desc": "Building a camp that is genuinely safe for everyone in it"
+    }
+   ],
+   "sentences": [
+    "The standard I walk past is the standard I set.",
+    "My role gives me authority. Authority is not the same as trust.",
+    "I use my access to protect people, not to create dependency.",
+    "A camp that cannot hear hard things cannot protect its people."
+   ],
    "scenarios": [
     {
      "section": "CAPTURE",
@@ -2924,7 +3244,7 @@
      "truth": "The norms you build in calm times define what happens in the hard ones."
     },
     {
-     "section": "CAPTURE",
+     "section": "CONDITION",
      "hook": "I BUILT THIS CAMP",
      "archetype": "Founder Syndrome / When Leadership Becomes Ownership",
      "clinical": "Founder Syndrome / Authority Abuse",
@@ -2945,7 +3265,7 @@
      "truth": "The camp you built belongs to the community in it as much as to you. Lead accordingly."
     },
     {
-     "section": "CONTROL",
+     "section": "CONDITION",
      "hook": "HOUSING AS LEVERAGE",
      "archetype": "When What You Provide Becomes Control",
      "clinical": "Resource Control / Manufactured Dependency",
@@ -2987,7 +3307,7 @@
      "truth": "A community that requires control to maintain cohesion is not a community. It is a structure."
     },
     {
-     "section": "CAPTURE",
+     "section": "TOOLS",
      "hook": "THE CAMP SAFETY INFRASTRUCTURE",
      "archetype": "Practical Structures That Make Your Camp Genuinely Safe",
      "clinical": "",
@@ -3008,7 +3328,7 @@
      "truth": "The camps with the best safety records are the ones that built the infrastructure before anything went wrong."
     },
     {
-     "section": "CAPTURE",
+     "section": "PROTECTION",
      "hook": "THE CAMP LEAD WHO DOES THE WORK",
      "archetype": "What Genuine Leadership in This Context Looks Like",
      "clinical": "",
@@ -3038,25 +3358,56 @@
    "edition": "Promoters Accountability Edition",
    "sectionOf": 11,
    "pages": 9,
-   "intro": "",
+   "intro": "You create the conditions. Everything that happens at your event is shaped by your choices.",
    "checks": [
     {
      "letter": "E",
-     "name": "Enforce Your StandardsThe",
-     "desc": "standards you state and do not enforce are not standards. They are decoration..."
+     "name": "Environment Is Yours To Set",
+     "desc": "The physical and social environment of your event is a choice. Safety features, lighting, staffing — all of it is yours."
+    },
+    {
+     "letter": "V",
+     "name": "Vendor and Artist Contracts",
+     "desc": "Written agreements are not distrust. They are the thing that makes every professional relationship honest."
+    },
+    {
+     "letter": "E",
+     "name": "Enforce Your Standards",
+     "desc": "The standards you state and do not enforce are not standards. They are decoration."
     },
     {
      "letter": "N",
-     "name": "No",
-     "desc": "eans No From Your StaffYour staff saying no to unsafe conditions is not insubordination. It is the system working..."
+     "name": "No Means No From Your Staff",
+     "desc": "Your staff saying no to unsafe conditions is not insubordination. It is the system working."
     },
     {
      "letter": "T",
-     "name": "Transparent",
-     "desc": "FinancialsPay..."
+     "name": "Transparent Financials",
+     "desc": "Pay what you agree, on the agreed timeline. Every time. This is the baseline of a business worth working with."
     }
    ],
-   "outline": [],
+   "outline": [
+    {
+     "key": "ACCOUNTABILITY",
+     "desc": "Promoter behaviors that cause harm — named directly"
+    },
+    {
+     "key": "RESPONSIBILITY",
+     "desc": "What you owe the people who make your event possible"
+    },
+    {
+     "key": "STANDARDS",
+     "desc": "Consent, safety infrastructure, and enforcing your own policies"
+    },
+    {
+     "key": "TOOLS",
+     "desc": "Contracts, financial practices, staff protection, reporting"
+    },
+    {
+     "key": "LEGACY",
+     "desc": "The event you are known for is the one you actually ran"
+    }
+   ],
    "sentences": [
     "The standard I walk past is the standard I set.",
     "My event is only as safe as what I am willing to enforce.",
@@ -3065,7 +3416,7 @@
    ],
    "scenarios": [
     {
-     "section": "CAPTURE",
+     "section": "ACCOUNTABILITY",
      "hook": "THE BAIT AND SWITCH",
      "archetype": "Promising What You Cannot Deliver",
      "clinical": "Misrepresentation / Fraud",
@@ -3086,7 +3437,7 @@
      "truth": "The reputation you are building is the one that is accurate — not the one in your pitch."
     },
     {
-     "section": "CAPTURE",
+     "section": "ACCOUNTABILITY",
      "hook": "PAY WHAT YOU AGREED",
      "archetype": "Financial Accountability to Artists and Vendors",
      "clinical": "Financial Exploitation / Contract Violation",
@@ -3107,7 +3458,7 @@
      "truth": "Your financial reputation is built one payment at a time. It is also destroyed one payment at a time."
     },
     {
-     "section": "CAPTURE",
+     "section": "RESPONSIBILITY",
      "hook": "YOUR STAFF AND VOLUNTEERS",
      "archetype": "What You Owe the People Who Run Your Event",
      "clinical": "",
@@ -3128,7 +3479,7 @@
      "truth": "Your event runs on the labor of other people. You owe them clarity, safety, and the knowledge that concerns will be heard."
     },
     {
-     "section": "CAPTURE",
+     "section": "RESPONSIBILITY",
      "hook": "ENFORCE YOUR OWN POLICIES",
      "archetype": "Consent Culture That Is Real, Not Decorative",
      "clinical": "",
@@ -3149,7 +3500,7 @@
      "truth": "A consent policy you do not enforce is not a consent policy. It is a liability."
     },
     {
-     "section": "CAPTURE",
+     "section": "STANDARDS",
      "hook": "THE RECORDING RIGHTS QUESTION",
      "archetype": "What You Actually Own From Your Event",
      "clinical": "",
@@ -3170,7 +3521,7 @@
      "truth": "The content that builds your brand was created by artists. Treat their contribution accordingly."
     },
     {
-     "section": "CAPTURE",
+     "section": "LEGACY",
      "hook": "THE ETHICAL PROMOTER TOOLKIT",
      "archetype": "Practical Standards for Honest Event Production",
      "clinical": "Professional Ethics / Operational Standards",
@@ -3200,13 +3551,64 @@
    "edition": "Health & Safety Edition",
    "sectionOf": 12,
    "pages": 17,
-   "intro": "",
-   "checks": [],
-   "outline": [],
-   "sentences": [],
+   "intro": "The guide for looking out for yourself and everybody around you all weekend.",
+   "checks": [
+    {
+     "letter": "S",
+     "name": "See Something Say Something",
+     "desc": "You notice something before it becomes a crisis. That moment — right there — is the one that matters."
+    },
+    {
+     "letter": "A",
+     "name": "Ask Before You Consume",
+     "desc": "Know what it is. Test it. Start small. Have a sober buddy. These four things together save lives."
+    },
+    {
+     "letter": "F",
+     "name": "Find the Resources First",
+     "desc": "Medical tent. Harm Reduction tent. Ranger station. Know where all three are before your first night."
+    },
+    {
+     "letter": "E",
+     "name": "Everyone Gets Home Safe",
+     "desc": "This is the goal. Not just you. Everyone in your crew. Buddy system, code words, check-ins."
+    }
+   ],
+   "outline": [
+    {
+     "key": "HYDRATION",
+     "desc": "Water, electrolytes, heat, food, sleep — the physical basics"
+    },
+    {
+     "key": "SUBSTANCES",
+     "desc": "Testing, dosing, mixing, overdose response, Narcan"
+    },
+    {
+     "key": "SEE SOMETHING",
+     "desc": "Bystander activation, reading a situation, how to help"
+    },
+    {
+     "key": "EMERGENCY",
+     "desc": "Medical tent, Rangers, overdose response, missing persons"
+    },
+    {
+     "key": "MENTAL HEALTH",
+     "desc": "Difficult experiences, crisis support, decompression"
+    },
+    {
+     "key": "COMMUNITY CARE",
+     "desc": "Buddy system, group check-ins, the morning after"
+    }
+   ],
+   "sentences": [
+    "By the time you feel thirsty you are already behind. Drink now.",
+    "Test your stuff. Every time. No exceptions. Full stop.",
+    "See something? You have three options. Pick one and do it.",
+    "Everyone in your crew gets home safe. That is the only finish line."
+   ],
    "scenarios": [
     {
-     "section": "CAPTURE",
+     "section": "HYDRATION",
      "hook": "WATER BEFORE YOU ARE THIRSTY",
      "archetype": "Hydration, Electrolytes, and Heat Safety",
      "clinical": "Heat Illness Prevention / Hydration Protocol",
@@ -3227,7 +3629,7 @@
      "truth": "Every medical tent at every festival sees preventable heat illness every day. Do not be that story."
     },
     {
-     "section": "CAPTURE",
+     "section": "HYDRATION",
      "hook": "FOOD, SLEEP, AND YOUR ACTUAL BODY",
      "archetype": "The Physical Infrastructure That Makes Everything Safer",
      "clinical": "Physical Resilience / Basic Needs Protocol",
@@ -3248,7 +3650,7 @@
      "truth": "Rest is not missing the festival. Rest is what makes you available to actually be in it."
     },
     {
-     "section": "CAPTURE",
+     "section": "SUBSTANCES",
      "hook": "TEST EVERYTHING EVERY TIME",
      "archetype": "Fentanyl Strips, Reagent Kits, and Why This Is Non-Optional",
      "clinical": "Harm Reduction Protocol / Substance Testing",
@@ -3269,7 +3671,7 @@
      "truth": "The two minutes it takes to test is not inconvenience. It is the difference between a good night and a medical emergency."
     },
     {
-     "section": "CAPTURE",
+     "section": "SUBSTANCES",
      "hook": "DANGEROUS COMBINATIONS",
      "archetype": "What Not to Mix and Why It Matters",
      "clinical": "Drug Interaction / Polydrug Risk",
@@ -3290,7 +3692,7 @@
      "truth": "The combination is where most of the risk lives. Know what you are mixing before you mix it."
     },
     {
-     "section": "CAPTURE",
+     "section": "SUBSTANCES",
      "hook": "WHEN SOMEONE IS IN TROUBLE",
      "archetype": "Overdose Response and Getting Help Without Fear",
      "clinical": "Overdose Response / Emergency Protocol",
@@ -3311,7 +3713,7 @@
      "truth": "The call you make in the next 60 seconds is the difference. Make it."
     },
     {
-     "section": "CAPTURE",
+     "section": "SEE SOMETHING",
      "hook": "SEE SOMETHING — DO SOMETHING",
      "archetype": "How to Actually Intervene When Something Looks Wrong",
      "clinical": "Active Bystander Intervention",
@@ -3332,7 +3734,7 @@
      "truth": "You do not need to be certain. You need to be the person who showed up."
     },
     {
-     "section": "CAPTURE",
+     "section": "SEE SOMETHING",
      "hook": "SEE SOMETHING — DO SOMETHING",
      "archetype": "Reading Impairment and Knowing When to Stay",
      "clinical": "Harm Reduction / Impairment Assessment",
@@ -3353,7 +3755,7 @@
      "truth": "The buddy who stays is the reason the story has a good ending. Be that person."
     },
     {
-     "section": "SUPPORT",
+     "section": "EMERGENCY",
      "hook": "KNOW THESE LOCATIONS BEFORE NIGHT ONE",
      "archetype": "Medical Tent, Harm Reduction, Rangers — Before You Need Them",
      "clinical": "",
@@ -3374,7 +3776,7 @@
      "truth": "Knowing where help is before you need it is the preparation. Everything else builds on that."
     },
     {
-     "section": "CAPTURE",
+     "section": "EMERGENCY",
      "hook": "IF SOMEONE GOES MISSING",
      "archetype": "What to Do and How Fast to Do It",
      "clinical": "",
@@ -3395,7 +3797,7 @@
      "truth": "There is no. minimum wait time to report a missing person at a festival. Report when you are concerned. Not after."
     },
     {
-     "section": "SUPPORT",
+     "section": "MENTAL HEALTH",
      "hook": "DIFFICULT TRIPS AND PSYCHOLOGICAL CRISES",
      "archetype": "What They Look Like and What Actually Helps",
      "clinical": "Adverse Psychedelic Experience / Crisis Support",
@@ -3416,7 +3818,7 @@
      "truth": "A calm presence is the most powerful intervention in a difficult experience. You have that."
     },
     {
-     "section": "SUPPORT",
+     "section": "MENTAL HEALTH",
      "hook": "SIGNS OF A GENUINE MENTAL HEALTH CRISIS",
      "archetype": "When It Is More Than a Difficult Trip",
      "clinical": "Mental Health Crisis / Psychiatric Emergency",
@@ -3437,7 +3839,7 @@
      "truth": "Checking on your people is not being dramatic. It is being a real friend."
     },
     {
-     "section": "SUPPORT",
+     "section": "COMMUNITY CARE",
      "hook": "THE MORNING AFTER",
      "archetype": "Processing Difficult Experiences Without Shame",
      "clinical": "Post-Incident Support / Trauma-Informed Care",
@@ -3458,7 +3860,7 @@
      "truth": "You do not have to be okay yet. Support exists. You deserve it."
     },
     {
-     "section": "CAPTURE",
+     "section": "COMMUNITY CARE",
      "hook": "THE BUDDY SYSTEM",
      "archetype": "How to Actually Run One That Works",
      "clinical": "Peer Safety / Community Protection Protocol",
@@ -3479,7 +3881,7 @@
      "truth": "The ten minutes you spend on this before the festival is the preparation that matters most."
     },
     {
-     "section": "CAPTURE",
+     "section": "COMMUNITY CARE",
      "hook": "THE BATHROOM BUDDY AND NIGHT WALKS",
      "archetype": "Simple Habits That Significantly Reduce Risk",
      "clinical": "Personal Safety / Environmental Risk Reduction",
@@ -3500,7 +3902,7 @@
      "truth": "The simplest habits are the ones that matter most. Make them non-negotiable in your group."
     },
     {
-     "section": "CAPTURE",
+     "section": "COMMUNITY CARE",
      "hook": "COMMUNITY BEYOND YOUR CAMP",
      "archetype": "Looking Out for Strangers as Well as Your People",
      "clinical": "Community Safety / Prosocial Behavior",
