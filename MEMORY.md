@@ -2245,3 +2245,83 @@ currently one step behind its repo**: still serving the v2 tag pass (235
 tags, colors removed) since the v3 deploy (146 tags) was the one that got
 skipped. The fix is fully committed and ready — just needs a successful
 `deploy-site` call once the account's usage window clears.
+
+## The Festie Bible — prose quality/craft pass (2026-08-11), committed but NOT deployed
+
+Separate from the earlier corruption-fix rounds: a pure editorial polish
+pass over all 149 scenarios across all 12 guides, per explicit instruction
+to tighten prose without touching facts, manipulation-tactic names, or
+harm-reduction guidance. Read every guide's full text via generated
+per-guide dump files, then fixed real remaining defects the corruption
+fix hadn't caught — the guides' prose itself was already strong (warm,
+tight, quotable) so this ended up being ~104 surgical fixes, not a
+rewrite:
+
+- **46 `say` fields with an unbalanced quotation mark** (one straight `"`
+  present, its pair missing) — systemic across every guide, not isolated.
+  Root cause: the field mixes quoted dialogue with unquoted stage
+  direction (e.g. `"I'm good tonight..."` vs `Actually I'm good" — then
+  walk.`), and roughly half the instances were missing the open quote,
+  half the close. Fixed by locating the single existing quote's position
+  and inferring which side needed the pair.
+- **12 `who` fields with a stray leading fragment** (`"- : "`, `": "`, or
+  `"; "` before the real sentence) — leftover parser artifacts from the
+  original extraction, one per guide in `grove, bass, rave, create,
+  sound, market, hold(x2), lead, event`.
+- **5 more `darkTitle`/`dark` pairs still glued wrong** even after the
+  earlier 4-round corruption fix caught ~145 scenarios: `sound-2`
+  (`Management Contract Basics` had the entire opening clause of `dark`
+  Title-Cased and appended to the title), `sound-10` (same pattern,
+  `Band Agreement Basics`), `market-2`, `rave-5` (`Dead Phone = Highest
+  Risk Window` + a duplicated all-caps sentence), and two `darkTitle:
+  "The"` cases (`rave-6`, `safe-5`) where the real title text had leaked
+  into the start of `dark` in ALL CAPS. Also stripped stray `"A. "` /
+  `"4. "` prefixes from `hold-1`, `care-1`, `create-4`, `bass-5`
+  darkTitles (single-letter/number list markers with no matching B/C
+  sibling elsewhere in the guide — confirmed not a real lettered-outline
+  system before removing).
+- **Genuine typos**: `nota`→`not a` (x2), `toa`→`to a`, `soace`→`space`,
+  `Usea`→`Use a`, `ata`→`at a`, `ina`→`in a`, `signeany`→`sign any`,
+  `you-have`→`you have`, `Xa`→`X a`, a stray `#` in a sentence that
+  should have read "payment for the original ≠ reproduction rights",
+  the exact `I`→`!` OCR glyph-misread pattern documented in the earlier
+  corruption-fix section (`lead-7`'s code-word example: `"! need help
+  right now"` → `"I need help right now"` — one instance survived the
+  original ~110-instance sweep), two mid-sentence stray capitals
+  (`Start`/`Said`/`Know`/`Safety`), a double period, a stray `#`, and
+  one scenario (`safe-15`) where two `tells` array items were split mid-
+  sentence with garbled leading characters (`"e 'f you are..."` /
+  `"on strangers too"`) — merged back into one clean tell.
+- **6 scenarios have genuinely empty `darkTitle`/`dark`** (`grove-7,
+  bass-4, rave-3, pride-9, care-6, safe-3`) — left empty rather than
+  fabricated; out of scope for a prose-polish pass to invent new "Dark
+  Reality" content. Worth a follow-up pass if the user wants those filled
+  from the source material.
+- `sentences[]` (sovereign one-liners) and `intro` text across all 12
+  guides were re-read in full and found already sharp/quotable — no
+  changes needed there.
+
+**Verification**: `python3 -c "import json; json.load(...)"` parses;
+re-embedded via `json.dumps(..., separators=(',',':'))` replacing only
+the `FESTIE_DATA` line (line 281) — confirmed `SCENARIO_INDEX` line
+untouched since no `hook` title changed. Extracted `<script>` and ran
+`node --check` — passed. Full Playwright pass at 375px/1440px: 12/12
+guide cards on landing, 149/149 scenario nav links total (matches
+`SCENARIO_INDEX` count exactly), clicked into first/middle/last scenario
+of all 12 guides (36 pages) confirming hook/move/say/truth all render,
+zero console/page errors throughout, zero horizontal overflow, zero
+elements stuck at `opacity:0` under `reducedMotion:'reduce'`.
+
+**Formatting lesson**: the source JSON was hand-saved with `indent=1`
+(one space per nesting level, not the Python default `indent=2`) —
+re-saving with default indent after edits produced a ~7,850-line diff
+for what was actually ~104 one-line content changes, because every
+brace/bracket line's leading whitespace shifted. Re-saved with
+`indent=1` to match the file's existing convention and got a clean
+104-line diff instead. **Check an existing file's actual indent width
+before re-serializing it with `json.dump`** — don't assume the library
+default matches what's already committed.
+
+**Not deployed** — per explicit instruction, committed locally only
+(current branch, no push) for the user to review the diff and deploy
+themselves.
