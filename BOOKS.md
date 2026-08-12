@@ -159,7 +159,7 @@ already partially built.
 extend rather than redo. Aeon/WBW — unconfirmed, no chapter data extracted
 yet (checked directly: no MOVEMENTS/CH pattern found).
 
-## fracture — The Fracture Everywhere (renamed 2026-08-05, was "All Fracture") **[from review doc]**
+## fracture — The Fracture (was "All Fracture", then "The Fracture Everywhere"; shortened to "The Fracture" 2026-08-12) **[from review doc]**
 
 "The wealth transfer · 195 citations." Title in review doc: "All Fracture
 — The Reading Edition" (old title). Per review doc: has a "Fraunces drop cap"

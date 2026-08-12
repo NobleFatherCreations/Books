@@ -223,9 +223,11 @@
     {
       "codename": "allfracture",
       "slug": "fracture",
-      "title": "The Fracture Everywhere",
+      "title": "The Fracture",
       "titleHistory": [
-        "All Fracture (renamed 2026-08-05)"
+        "All Fracture (original)",
+        "The Fracture Everywhere (renamed 2026-08-05)",
+        "The Fracture (renamed 2026-08-12, current)"
       ],
       "tagline": "The wealth transfer · 195 citations",
       "url": "https://noblefathercreations.com/fracture",
@@ -244,7 +246,7 @@
         {
           "date": "2026-08-05",
           "version": "v2",
-          "summary": "Renamed from \"All Fracture.\" Verified all 195 citations against the author's own source list (zero discrepancies) and corrected a false claim about which episodes have sourcing - Episodes 9 and 10 are now honestly flagged as not yet sourced instead of silently missing."
+          "summary": "Renamed from \"All Fracture\" to \"The Fracture Everywhere\" (since shortened again to \"The Fracture\"). Verified all 195 citations against the author's own source list (zero discrepancies) and corrected a false claim about which episodes have sourcing - Episodes 9 and 10 are now honestly flagged as not yet sourced instead of silently missing."
         },
         {
           "date": "unknown",

@@ -80,6 +80,18 @@ button{ font-family:inherit; }
 .fb-tb-back:hover{ border-color:var(--brass); color:var(--brass-bright); }
 .fb-tb-back:active{ transform:scale(.96); }
 
+/* The way out of the book, to the rest of the catalogue. Sits at the right
+   edge on its own; when the in-book Back button is also present the two
+   pair up instead of both claiming the auto margin. */
+.fb-tb-home{ margin-left:auto; flex:none; display:flex; align-items:center; gap:6px; font-size:14px;
+  color:var(--bone-dim); text-decoration:none; background:none; border:1px solid var(--line);
+  border-radius:999px; padding:7px 14px; white-space:nowrap;
+  transition:border-color .2s var(--ease), color .2s var(--ease), transform .15s var(--ease); }
+.fb-tb-back + .fb-tb-home{ margin-left:8px; }
+.fb-tb-home:hover{ border-color:var(--brass); color:var(--brass-bright); }
+.fb-tb-home:active{ transform:scale(.96); }
+@media (max-width:520px){ .fb-tb-home span{ display:none; } }
+
 /* ---------- progress bar ---------- */
 .fb-progress{ position:sticky; top:53px; z-index:39; height:3px; background:var(--line-soft); }
 .fb-progress > i{ display:block; height:100%; background:linear-gradient(90deg,var(--acc,var(--brass)),var(--brass-bright));
@@ -335,11 +347,20 @@ function guideBySlug(slug){ return FESTIE_DATA.guides.find(function(g){ return g
 
 function topbar(opts){
   var back = opts.back ? '<button class="fb-tb-back" data-nav="'+opts.back+'">← <span>'+esc(opts.backLabel||'Back')+'</span></button>' : '';
+  /* Every page needs a way back out to the rest of the catalogue, not just
+     a way back to this book's own contents -- without this the book was a
+     dead end you could only leave with the browser's back button. The URL
+     is absolute on purpose: this file is served both at
+     noblefathercreations.com/festival (proxied) and at its own
+     noble-festie-bible.netlify.app domain, and a root-relative "/" would
+     point at the wrong site on one of them. */
+  var home = '<a class="fb-tb-home" href="https://noblefathercreations.com/"'+
+             ' title="All Noble Father Creations">⌂ <span>The House</span></a>';
   return '<header class="fb-topbar">'+
     '<img class="fb-mark" src="'+FESTIE_LOGO+'" alt="">'+
     '<span class="fb-tb-title">THE FESTIE BIBLE</span>'+
     '<span class="fb-tb-sub">Know the Pattern. Trust Your Body. Protect the Magic.</span>'+
-    back+
+    back+home+
   '</header>';
 }
 
@@ -355,7 +376,9 @@ function footer(){
   return '<footer class="fb-footer">'+
     '<img class="fb-mark" src="'+FESTIE_LOGO+'" alt="Noble Father Creations">'+
     '<div class="fb-f-name">Noble Father Creations</div>'+
-    '<div class="fb-f-links"><a href="https://tiktok.com/@noblefathercreatorsource">@noblefathercreatorsource</a> &middot; <a href="mailto:dapperdadnfc@gmail.com">dapperdadnfc@gmail.com</a></div>'+
+    '<div class="fb-f-links"><a href="https://noblefathercreations.com/">All Noble Father Creations</a> &middot; '+
+      '<a href="https://tiktok.com/@noblefathercreatorsource">@noblefathercreatorsource</a> &middot; '+
+      '<a href="mailto:dapperdadnfc@gmail.com">dapperdadnfc@gmail.com</a></div>'+
     '<div class="fb-disclaimer">For educational purposes only • Noble Father Creations • In immediate danger? Contact emergency services.</div>'+
     '<details class="fb-updates"><summary>v5 — '+FESTIE_DATA.updated+'</summary><ul>'+
       FESTIE_DATA.changelog.map(function(c){ return '<li>'+esc(c)+'</li>'; }).join('')+

@@ -106,10 +106,10 @@ touched the live site. Key distinction that matters going forward:
 
 **Important correction:** the MOVEMENT III/IV chapters from the original
 planning thread (14 "You are not the customer" ... 20 "Algorithmic
-management") were pre-filled under `allfracture`/"All Fracture" in
+management") were pre-filled under `allfracture`/"The Fracture" in
 `chapters.json` — **that was wrong.** They actually belong to `loop`/"The
 Loop." Confirmed two ways: exact text match only in `fixes/loop.html`, and
-chapter 19's own blurb literally says "The sibling of All Fracture" — i.e.
+chapter 19's own blurb literally says "The sibling of The Fracture" — i.e.
 it's a different, related book, not the same one. Fixed in `chapters.json`.
 
 **How this was found:** `loop.html` and `scale.html` author their own
@@ -336,7 +336,7 @@ everything:
   chapters.
 - **67 in-prose cross-references ("as in chapter four") are plain text**,
   not links. Plus 12 mentions of sibling books (Weighing 8x, Fractal 2x,
-  All Fracture, Playground). The corpus is already a web; the HTML doesn't
+  The Fracture, Playground). The corpus is already a web; the HTML doesn't
   know it. This is the Wait But Why opportunity and it's nearly free.
 
 **My position on dependencies** (recorded so it isn't re-litigated): keep
@@ -1098,7 +1098,7 @@ JPEG quality=85 was tried first and *increased* size on some images
 gave real net savings everywhere:
 - Sovereign cover 692x1000->603x872 (95.2KB->66.0KB)
 - Playground cover 667x1000->594x891 (143.6KB->105.7KB)
-- All Fracture cover 1000x1000->872x872 (248.9KB->173.7KB)
+- The Fracture cover 1000x1000->872x872 (248.9KB->173.7KB)
 - Sacred Divide cover 640x1147->594x1064 (174.8KB->152.2KB)
 - Venmo QR 560x560->208x208 PNG (102.4KB->45.0KB)
 Total ~217KB saved. Verified: visual side-by-side of original vs.
@@ -1356,7 +1356,7 @@ specific file (`faith-index.html`) has never been deployed anywhere —
 lineage) and from the undeployed "Sacred Divide" redesign
 (`noble-father-divide.html`). Don't conflate the three.**
 
-**Fracture renamed:** "All Fracture" -> "The Fracture Everywhere"
+**Fracture renamed:** "All Fracture" -> "The Fracture Everywhere" (later shortened to "The Fracture", 2026-08-12)
 throughout `noble-father-fracture.html`, the 7 sibling books' THE HOUSE
 tab entries, `noble-father-catalogue.html` (6 refs), `fixes/loop.html`
 (3 refs, incl. 2 body-prose cross-references) and `fixes/scale.html` (1
