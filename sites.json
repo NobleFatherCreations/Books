@@ -376,12 +376,22 @@
       "netlifySiteId": "05683d2c-cb07-43cb-8e2c-d8cd380c0287",
       "deploySource": "unknown",
       "hasGitRepo": false,
+      "localSource": "source/projects/noble-father-music.html",
+      "localSourceNote": "GENERATED - do not hand-edit. Rebuild with `python3 scripts/build-music.py`, which writes this file and deploy/music/index.html as identical bytes from deploy/music/MANIFEST.json. The 176 mp3s live in deploy/music/audio/ (gitignored, reproducible from the Drive ids in the manifest). See deploy/music/README.md.",
+      "localSourceVerified": "built and verified locally 2026-08-12; NOT yet deployed",
+      "deployPending": true,
+      "deployNote": "v2 is built and verified in the repo but has never been deployed. The audio directory (~1.26 GB) has to go up with it. Needs explicit user go-ahead as a production write.",
       "houseTabLeak": {
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v1",
+      "version": "v2",
       "changelog": [
+        {
+          "date": "2026-08-12",
+          "version": "v2",
+          "summary": "Rebuilt from nothing after the audit found the page rendering as an empty shell: it used TRACKS 8x and SHELVES 3x and declared neither, and held zero audio references, so the whole catalogue was gone. Recovered 176 tracks from the user's Drive folder (183 files seen; 7 pairs were the same Suno generation saved twice and were collapsed). Durations measured with ffprobe, never estimated. Sorted onto 6 purpose-based shelves. Wholly new player UI: record-sleeve now-playing panel with generated sleeve art, live AnalyserNode frequency display with a CSS fallback, scrub bar with buffered-range feedback, shuffle, volume, keyboard shortcuts, and a full-screen now-playing sheet on phones. Page weight 889KB -> 250KB (the old file embedded the same variable-font blob three times per family). Source is now committed and generated, so the data cannot go missing again. Also replaced the older red 'THE HOUSE' side tab with the current seal + catalogue drawer and added the two projects (Festie Bible, Casting) that appeared in 0 of 14 book catalogues. NOT YET DEPLOYED."
+        },
         {
           "date": "unknown",
           "version": "v1",

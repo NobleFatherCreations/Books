@@ -2506,3 +2506,91 @@ Casting, so both appeared in **0 of 14** book catalogues.
 unification + generator; deploying the rename to the 6 other book sites;
 Portals day/night and Festie-Bible-white-background both measured as NOT
 reproducible — asked user for detail rather than "fixing" working code.
+
+## 2026-08-12 (later) — The Listening Room rebuilt from the audio up
+
+The audit's one **BLOCKED — needs data** item is closed. The music page's
+catalogue was not recoverable from the repo, git or Netlify, so I rebuilt it
+from the source audio instead.
+
+**Recovering the data.** The user's Drive folder
+`14TecSqJSZOlYlT7bHPsKqBdHsGdUC0ea` ("MP3 music") is publicly link-readable, so
+plain `curl` works with no auth. **The Drive MCP tools returned
+`MCP error -32003: requires approval` and never became usable** — so enumeration
+went through the public HTML instead, which is worth remembering:
+
+- `https://drive.google.com/drive/folders/<ID>` embeds a `window['_DRIVE_ivd']`
+  JS blob: a JSON array where each entry is `[0]=id, [2]=name, [3]=mimeType,
+  [13]=bytes, [44]=extension`. **But it only ever returns the first 50 entries.**
+- `https://drive.google.com/embeddedfolderview?id=<ID>&list` returns *all* of
+  them as `<div class="flip-entry" id="entry-<FILE_ID>">` with a
+  `flip-entry-title`. This is the one to use. It also works on subfolders.
+
+183 files across the folder and its `dad` + `New` subfolders (the subfolders are
+mostly duplicates but held 14 uniquely-named tracks, so all three were merged).
+All 183 downloaded and verified as real audio. **7 pairs were the same recording
+saved under two names** — caught because the ID3 `comment` on every file is
+`made with suno; created=<ISO date>; id=<uuid>`, and a shared `id` means one
+generation. Collapsed to **176 tracks, 14h 50m**, discarded names kept in
+`alsoKnownAs`. Durations all measured with `ffprobe`; none estimated. Titles had
+to come from filenames (173 of 176 have no ID3 title), so mix/version suffixes
+were parsed and preserved (`· Version 2`, `(Remastered)`, `(Chuckee Cheesin Mix)`).
+
+**Lessons worth keeping:**
+
+1. **A "self-hosted font" can be three copies of the same file.** The old page
+   was 889 KB, and most of it was fonts: Fraunces and Karla are *variable*
+   fonts (`fvar`: Fraunces `opsz 9–144, wght 100–900`), but the page declared
+   each family three times at discrete weights with **byte-identical base64
+   blobs** — so it inlined the same font three times over. Declaring each family
+   once with a weight *range* (`font-weight:100 900`) and dropping the third
+   family took the page to **250 KB**. Check for duplicate blobs before
+   assuming an inlined font is cheap.
+2. **Cross-origin audio silently kills `AnalyserNode`.** A tainted media element
+   makes the analyser return all zeros rather than erroring, so a spectrum
+   visualiser just sits flat. Fixing it needs `crossorigin="anonymous"` *and*
+   an `Access-Control-Allow-Origin` header — but setting `crossorigin` when the
+   header is absent **breaks playback entirely**. The safe shape, now shipped:
+   probe with `fetch(url,{mode:'cors'})` first, only set `crossOrigin` if the
+   probe passes, drop it again on any media `error`, and watch for an all-zero
+   stream as a third belt. Playback is never the thing that gets risked.
+3. **`opacity:0` until `:hover` is a touch-device bug, every time.** The scrub
+   playhead was invisible on phones for exactly this reason. Caught only because
+   the Playwright context ran with `isMobile:true, hasTouch:true` — a narrow
+   viewport alone still reports `hover:hover` and would have hidden it.
+4. **Two bare single-class selectors: the later one wins.** `.only-wide{display:none}`
+   sat *above* `.tbtn{display:grid}`, so every transport button showed on mobile
+   and crowded the title. Had to become `.tbtn.only-wide`.
+5. **A `<span>` styled with `margin-top` is still inline.** `.row-title` and
+   `.row-sub` rendered as "4 DegreesThe Descent" on one line until both got
+   `display:block`. Screenshots caught this; no assertion would have.
+6. **Sorting by shelf *id* is not sorting by the shelf order the reader sees.**
+   The rail began with The Reckoning while the list began with The Descent,
+   purely because `"descent" < "reckoning"` alphabetically.
+7. **Splitting a title at `(` needs the paren to follow whitespace,** or
+   `Code(y) Red!` becomes "Code" with a subtitle of "(y) Red!".
+
+**Prevention actually applied here** (audit task #81, items 1 and 2):
+`scripts/build-music.py` generates the page from `deploy/music/MANIFEST.json`,
+so there is no hand-maintained data and no live-only file. The build **fails**
+rather than emitting a page if a root-relative audio path or a
+`#REPLACE`/`TODO` placeholder appears in the output. The catalogue is read
+through a guarded JSON island, so a missing data block shows a readable message
+instead of throwing `TRACKS is not defined` and leaving an empty shell. The
+older red `nh-*` "THE HOUSE" side tab was replaced with the current `nf-seal`
+coin + drawer, generated with all **15** projects — including Festie Bible and
+Casting, which had appeared in 0 of 14 book catalogues.
+
+**NOT DEPLOYED.** Built, committed and verified locally only; the user's "stop
+deploying until there is a full check everything is working" still stands.
+`sites.json` carries `deployPending: true` for music. The deploy is a static
+upload of `deploy/music/` to the `noblemusic` site and has to carry ~1.26 GB of
+audio (gitignored, reproducible from the Drive ids in the manifest).
+
+**Verified** with Playwright at 375px (`isMobile:true, hasTouch:true`) and
+1440px, in five configurations including `reducedMotion:'reduce'` and a forced
+no-`AudioContext` run: zero `pageerror`, zero console errors, no horizontal
+overflow, nothing stuck at `opacity:0`, all 176 rows and 6 shelves render, and
+**audio actually plays** (`currentTime` advancing, asserted twice, from the
+absolute URL). Also asserted the analyser genuinely paints the canvas, and that
+the fallback bars appear with no dead canvas when `AudioContext` is missing.
