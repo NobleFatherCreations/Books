@@ -57,8 +57,18 @@
 # if the hub ever does ship its own /assets, that wins automatically.
 # If a SECOND multi-file project is ever added, these must be namespaced
 # (and that project's asset paths made relative) rather than duplicated.
+# EVERY top-level path The Casting owns has to be listed here, not just its
+# assets. Missing /statues is what made "View the Collection" and every
+# individual piece 404 even after the styling was fixed: those links are
+# root-relative too, so they resolved against THIS domain. The full set is
+# /assets, /data and /statues -- if the Casting ever adds another top-level
+# directory, it must be added here in the same breath or its links break the
+# same way. `npm run verify` (scripts/verify-live.mjs) crawls every internal
+# link on every page and fails on any 404, which is the guard against this.
 /assets/*      https://incandescent-kataifi-cde77d.netlify.app/assets/:splat 200
 /data/*        https://incandescent-kataifi-cde77d.netlify.app/data/:splat   200
+/statues       https://incandescent-kataifi-cde77d.netlify.app/statues       200
+/statues/*     https://incandescent-kataifi-cde77d.netlify.app/statues/:splat 200
 
 # Singular/alternate spellings people are likely to type or to have been
 # given on a card, kept as real redirects (301) so there is one canonical
