@@ -2445,3 +2445,64 @@ in `sites.json` *and* a plain-language version on the page itself) — it
 only ever had the `sites.json` side. Adding one means real design work
 (the static-site-generator has no shared footer/colophon component yet)
 and was out of scope for this round; worth doing as its own pass.
+
+## 2026-08-12 — Full live audit + the bug cluster it explained
+
+User reported ~9 bugs at once, several of them regressions on pages that had
+been fine. I audited **all 15 live pages** (curl for bytes, headless Chromium
+for render/behaviour) rather than reading source, and wrote it up in
+`AUDIT-2026-08-12.md`. Read that file before touching cross-project nav.
+
+**The root cause of most of the cluster:** the cross-project nav (seal +
+catalogue / "THE HOUSE") is **hand-pasted into every page** instead of
+generated from `sites.json`. CLAUDE.md already forbids exactly this
+("Generate from it, never hand-maintain per page … THE HOUSE cross-project
+map") — the rule simply was never applied to this component. Three states
+shipped simultaneously: current `nf-seal` coin+drawer on 9 pages, an older
+`nh-*` red side tab on loop/scale/playbook/music, and **nothing at all** on
+faith/festival/resin. Neither generation ever learned about Festie Bible or
+Casting, so both appeared in **0 of 14** book catalogues.
+
+**Fixed and verified live this round:**
+- **Casting unstyled at `/resin`** — it is the ONLY multi-file project; its
+  `/assets` + `/data` are root-relative, so through the hub proxy the browser
+  asked the *hub* and got 404s (measured: 4/4 asset paths 404 on hub, 200 on
+  its own domain). Added scoped `/assets/*` + `/data/*` rewrites to the hub
+  `_redirects` with a comment on the constraint. Netlify prefers a real file
+  over a rewrite, so this can't shadow future hub assets.
+- **Festie Bible was a dead end** — only outbound links were TikTok, email and
+  crisis lines. Added a House link in `topbar()` + a hub link in the footer,
+  both **absolute** on purpose (that file is served at `/festival` AND at its
+  own netlify.app domain).
+- **Naming** — "The Fracture Everywhere" → "The Fracture" (74 replacements).
+  The *previous* rename was also incomplete: "All Fracture" was still live on
+  7 pages. Both normalised to one name. Slugs (`allfracture`, `/fracture`)
+  deliberately unchanged.
+- **New Wook cover** (PLURth Angels art) on the hub card, 680×911 q70.
+- **Casting batch** — 133 new pieces (293 → 426), tags 126 → 42, homepage
+  count updated. Agent flagged `NFC-0324` as a black jewelry-display stand
+  (a photography prop, not a resin piece) — **left in, awaiting user's call**.
+
+**Lessons to not repeat:**
+1. **A blanket find/replace across docs rewrites history.** My rename turned
+   `"Renamed from \"All Fracture\""` into `"Renamed from \"The Fracture\""` —
+   nonsense. Had to hand-repair sites.json/BOOKS.md/MEMORY.md/PROJECT-MASTER.
+   Rename product-name occurrences; never blanket-replace inside changelogs.
+2. **`grep -oih` strips filenames, so `| grep -v <dir>` filters nothing.** My
+   first "clean" verification was meaningless. Use `-l`/`-n` when excluding.
+3. **Root-relative paths + a proxy path = silent 404s.** Any multi-file project
+   proxied under a subpath breaks. Single-file books are immune, which is why
+   only Casting broke.
+4. **I caused a regression:** changed Casting's Portals link to `/portals`,
+   which only exists on the hub domain — broken on the raw netlify.app URL.
+   Cross-project links between separately-deployed sites must be absolute.
+5. **Live-only files are how data dies.** `playbook` and `music` have no local
+   source; the music page's entire `TRACKS`/`SHELVES` catalogue is gone from
+   the live file (used 8×/3×, declared 0×, zero audio refs) and is
+   unrecoverable from repo/git/uploads. Same class as the Festie Bible's lost
+   `SCENARIO_INDEX`. **Commit every deployed file into the repo.**
+
+**Still open:** music track data (needs user or an older Netlify deploy); nav
+unification + generator; deploying the rename to the 6 other book sites;
+Portals day/night and Festie-Bible-white-background both measured as NOT
+reproducible — asked user for detail rather than "fixing" working code.
