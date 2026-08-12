@@ -9,9 +9,7 @@
     },
     "tags": [
       "bird",
-      "chain",
-      "duck",
-      "hip-hop"
+      "duck"
     ],
     "angles": [
       {
@@ -50,8 +48,8 @@
     "tags": [
       "bird",
       "flowers",
-      "owl",
-      "nature"
+      "nature",
+      "owl"
     ],
     "angles": [
       {
@@ -88,8 +86,8 @@
       "form": "statue"
     },
     "tags": [
-      "dragon",
-      "pastel"
+      "colorful",
+      "dragon"
     ],
     "angles": [
       {
@@ -126,9 +124,7 @@
       "form": "statue"
     },
     "tags": [
-      "crown",
-      "frog",
-      "king"
+      "frog"
     ],
     "angles": [
       {
@@ -203,10 +199,10 @@
       "form": "statue"
     },
     "tags": [
+      "female",
       "meditating",
-      "witchy",
-      "woman",
-      "religious"
+      "religious",
+      "witchy"
     ],
     "angles": [
       {
@@ -283,7 +279,6 @@
     },
     "tags": [
       "book",
-      "library",
       "witchy"
     ],
     "angles": [
@@ -663,8 +658,7 @@
     },
     "tags": [
       "dragon",
-      "skeleton",
-      "small"
+      "skull"
     ],
     "angles": [
       {
@@ -855,7 +849,7 @@
       "subject": "creatures/other-creatures"
     },
     "tags": [
-      "squirrel"
+      "nature"
     ],
     "angles": [
       {
@@ -892,9 +886,7 @@
       "subject": "birds/ducks"
     },
     "tags": [
-      "duck",
-      "egyptian",
-      "pharaoh"
+      "duck"
     ],
     "angles": [
       {
@@ -969,7 +961,7 @@
       "subject": "creatures/other-creatures"
     },
     "tags": [
-      "climbing"
+      "nature"
     ],
     "angles": [
       {
@@ -1195,8 +1187,6 @@
       "subject": "creatures/monkeys"
     },
     "tags": [
-      "headphones",
-      "hip-hop",
       "monkey"
     ],
     "angles": [
@@ -1234,8 +1224,7 @@
       "subject": "creatures/dogs"
     },
     "tags": [
-      "dog",
-      "pirate"
+      "dog"
     ],
     "angles": [
       {
@@ -1272,7 +1261,6 @@
       "subject": "creatures/dogs"
     },
     "tags": [
-      "bulldog",
       "dog"
     ],
     "angles": [
@@ -1310,8 +1298,7 @@
       "subject": "creatures/dogs"
     },
     "tags": [
-      "dog",
-      "spaniel"
+      "dog"
     ],
     "angles": [
       {
@@ -1348,7 +1335,6 @@
       "subject": "creatures/dogs"
     },
     "tags": [
-      "dachshund",
       "dog"
     ],
     "angles": [
@@ -1386,7 +1372,6 @@
       "subject": "creatures/dogs"
     },
     "tags": [
-      "bulldog",
       "dog",
       "heart"
     ],
@@ -1425,8 +1410,7 @@
       "subject": "creatures/mice"
     },
     "tags": [
-      "goggles",
-      "mouse"
+      "nature"
     ],
     "angles": [
       {
@@ -1538,8 +1522,7 @@
       "subject": "creatures/dogs"
     },
     "tags": [
-      "dog",
-      "poodle"
+      "dog"
     ],
     "angles": [
       {
@@ -1577,7 +1560,6 @@
     },
     "tags": [
       "dog",
-      "puppy",
       "sleeping"
     ],
     "angles": [
@@ -1615,8 +1597,7 @@
       "subject": "creatures/dogs"
     },
     "tags": [
-      "dog",
-      "shih-tzu"
+      "dog"
     ],
     "angles": [
       {
@@ -1653,7 +1634,6 @@
       "subject": "creatures/dogs"
     },
     "tags": [
-      "chihuahua",
       "dog"
     ],
     "angles": [
@@ -1691,8 +1671,7 @@
       "subject": "creatures/dogs"
     },
     "tags": [
-      "dog",
-      "fluffy"
+      "dog"
     ],
     "angles": [
       {
@@ -1803,8 +1782,7 @@
       "subject": "creatures/dogs"
     },
     "tags": [
-      "dog",
-      "puppy"
+      "dog"
     ],
     "angles": [
       {
@@ -1841,8 +1819,7 @@
       "subject": "creatures/dogs"
     },
     "tags": [
-      "dog",
-      "schnauzer"
+      "dog"
     ],
     "angles": [
       {
@@ -1879,8 +1856,7 @@
       "subject": "creatures/dogs"
     },
     "tags": [
-      "dog",
-      "poodle"
+      "dog"
     ],
     "angles": [
       {
@@ -1917,7 +1893,6 @@
       "subject": "creatures/dogs"
     },
     "tags": [
-      "bulldog",
       "dog"
     ],
     "angles": [
@@ -1955,7 +1930,6 @@
       "subject": "creatures/dogs"
     },
     "tags": [
-      "dachshund",
       "dog"
     ],
     "angles": [
@@ -2142,9 +2116,8 @@
       "subject": "creatures/dogs"
     },
     "tags": [
-      "dark",
       "dog",
-      "standing"
+      "witchy"
     ],
     "angles": [
       {
@@ -2218,7 +2191,7 @@
       "subject": "creatures/other-creatures"
     },
     "tags": [
-      "rabbit"
+      "nature"
     ],
     "angles": [
       {
@@ -2255,8 +2228,7 @@
       "subject": "creatures/dogs"
     },
     "tags": [
-      "dog",
-      "retriever"
+      "dog"
     ],
     "angles": [
       {
@@ -2293,8 +2265,7 @@
       "subject": "creatures/dogs"
     },
     "tags": [
-      "dog",
-      "labrador"
+      "dog"
     ],
     "angles": [
       {
@@ -2405,7 +2376,7 @@
       "subject": "folk/figures"
     },
     "tags": [
-      "witch"
+      "mythical"
     ],
     "angles": [
       {
@@ -2481,7 +2452,7 @@
     "tags": [
       "bust",
       "feather",
-      "girl"
+      "female"
     ],
     "angles": [
       {
@@ -2518,7 +2489,6 @@
       "subject": "creatures/pigs"
     },
     "tags": [
-      "pig",
       "sleeping"
     ],
     "angles": [
@@ -2593,9 +2563,9 @@
       "subject": "folk/figures"
     },
     "tags": [
+      "religious",
       "sleeping",
-      "wings",
-      "religious"
+      "wings"
     ],
     "angles": [
       {
@@ -2632,8 +2602,7 @@
       "subject": "birds/ducks"
     },
     "tags": [
-      "duck",
-      "steampunk"
+      "duck"
     ],
     "angles": [
       {
@@ -2670,7 +2639,7 @@
       "subject": "birds/other-birds"
     },
     "tags": [
-      "chick"
+      "bird"
     ],
     "angles": [
       {
@@ -2707,7 +2676,7 @@
       "subject": "folk/figures"
     },
     "tags": [
-      "couple"
+      "female"
     ],
     "angles": [
       {
@@ -2744,8 +2713,7 @@
       "subject": "objects/other-objects"
     },
     "tags": [
-      "fire",
-      "flame"
+      "colorful"
     ],
     "angles": [
       {
@@ -3117,7 +3085,6 @@
       "subject": "folk/figures"
     },
     "tags": [
-      "laughing",
       "religious"
     ],
     "angles": [
@@ -3451,7 +3418,6 @@
       "subject": "folk/figures"
     },
     "tags": [
-      "laughing",
       "religious"
     ],
     "angles": [
@@ -3644,7 +3610,6 @@
       "subject": "creatures/frogs-toads"
     },
     "tags": [
-      "fire",
       "frog"
     ],
     "angles": [
@@ -3756,7 +3721,7 @@
       "subject": "creatures/other-creatures"
     },
     "tags": [
-      "elephant"
+      "nature"
     ],
     "angles": [
       {
@@ -3793,7 +3758,7 @@
       "subject": "objects/robots"
     },
     "tags": [
-      "robot"
+      "mythical"
     ],
     "angles": [
       {
@@ -3905,8 +3870,7 @@
       "subject": "creatures/dogs"
     },
     "tags": [
-      "dog",
-      "pug"
+      "dog"
     ],
     "angles": [
       {
@@ -3943,7 +3907,7 @@
       "subject": "birds/other-birds"
     },
     "tags": [
-      "parrot"
+      "bird"
     ],
     "angles": [
       {
@@ -4017,8 +3981,8 @@
       "subject": "folk/skeletons"
     },
     "tags": [
-      "alien",
-      "meditating"
+      "meditating",
+      "mythical"
     ],
     "angles": [
       {
@@ -4055,7 +4019,6 @@
       "subject": "creatures/dogs"
     },
     "tags": [
-      "bulldog",
       "dog",
       "meditating"
     ],
@@ -4170,7 +4133,6 @@
       "subject": "creatures/other-creatures"
     },
     "tags": [
-      "armadillo",
       "meditating"
     ],
     "angles": [
@@ -4360,8 +4322,7 @@
     },
     "tags": [
       "dog",
-      "meditating",
-      "pug"
+      "meditating"
     ],
     "angles": [
       {
@@ -4589,7 +4550,7 @@
     },
     "tags": [
       "colorful",
-      "elephant",
+      "nature",
       "religious"
     ],
     "angles": [
@@ -4627,9 +4588,7 @@
       "subject": "creatures/other-creatures"
     },
     "tags": [
-      "horns",
-      "mask",
-      "ram"
+      "mythical"
     ],
     "angles": [
       {
@@ -4704,7 +4663,7 @@
     },
     "tags": [
       "bust",
-      "rose"
+      "flowers"
     ],
     "angles": [
       {
@@ -4741,7 +4700,7 @@
       "subject": "folk/figures"
     },
     "tags": [
-      "mummy"
+      "mythical"
     ],
     "angles": [
       {
@@ -4778,7 +4737,7 @@
       "subject": "objects/flowers"
     },
     "tags": [
-      "rose"
+      "flowers"
     ],
     "angles": [
       {
@@ -4816,7 +4775,7 @@
     },
     "tags": [
       "bust",
-      "girl"
+      "female"
     ],
     "angles": [
       {
@@ -4854,8 +4813,8 @@
     },
     "tags": [
       "bust",
-      "flowers",
-      "girl"
+      "female",
+      "flowers"
     ],
     "angles": [
       {
@@ -4892,9 +4851,9 @@
       "subject": "folk/figures"
     },
     "tags": [
+      "bird",
       "bust",
-      "girl",
-      "parrot"
+      "female"
     ],
     "angles": [
       {
@@ -4932,7 +4891,7 @@
     },
     "tags": [
       "bust",
-      "girl"
+      "female"
     ],
     "angles": [
       {
@@ -4969,7 +4928,7 @@
       "subject": "folk/figures"
     },
     "tags": [
-      "rose",
+      "flowers",
       "religious"
     ],
     "angles": [
@@ -5045,7 +5004,7 @@
     },
     "tags": [
       "dog",
-      "leprechaun"
+      "mythical"
     ],
     "angles": [
       {
@@ -5119,8 +5078,8 @@
       "subject": "folk/figures"
     },
     "tags": [
+      "female",
       "flowers",
-      "girl",
       "sleeping"
     ],
     "angles": [
@@ -5158,8 +5117,8 @@
       "subject": "folk/gnomes"
     },
     "tags": [
-      "cauldron",
-      "gnome"
+      "gnome",
+      "witchy"
     ],
     "angles": [
       {
@@ -5196,7 +5155,7 @@
       "subject": "folk/figures"
     },
     "tags": [
-      "girl",
+      "female",
       "religious"
     ],
     "angles": [
@@ -5234,7 +5193,7 @@
       "subject": "folk/figures"
     },
     "tags": [
-      "totem"
+      "mythical"
     ],
     "angles": [
       {
@@ -5271,8 +5230,8 @@
       "subject": "objects/hearts"
     },
     "tags": [
-      "heart",
-      "rose"
+      "flowers",
+      "heart"
     ],
     "angles": [
       {
@@ -5346,7 +5305,6 @@
       "subject": "objects/other-objects"
     },
     "tags": [
-      "egyptian",
       "skull"
     ],
     "angles": [
@@ -5384,7 +5342,7 @@
       "subject": "creatures/other-creatures"
     },
     "tags": [
-      "shark"
+      "nature"
     ],
     "angles": [
       {
@@ -5421,7 +5379,6 @@
       "subject": "creatures/pigs"
     },
     "tags": [
-      "pig",
       "planter"
     ],
     "angles": [
@@ -5460,8 +5417,7 @@
     },
     "tags": [
       "bust",
-      "cat",
-      "gothic"
+      "cat"
     ],
     "angles": [
       {
@@ -5498,10 +5454,9 @@
       "subject": "folk/skeletons"
     },
     "tags": [
-      "archer",
-      "knight",
-      "rose",
-      "skeleton"
+      "flowers",
+      "mythical",
+      "skull"
     ],
     "angles": [
       {
@@ -5538,8 +5493,8 @@
       "subject": "folk/figures"
     },
     "tags": [
-      "wings",
-      "religious"
+      "religious",
+      "wings"
     ],
     "angles": [
       {
@@ -5576,7 +5531,7 @@
       "subject": "creatures/other-creatures"
     },
     "tags": [
-      "scene"
+      "abstract"
     ],
     "angles": [
       {
@@ -5648,8 +5603,8 @@
       "subject": "birds/other-birds"
     },
     "tags": [
-      "colorful",
-      "eagle"
+      "bird",
+      "colorful"
     ],
     "angles": [
       {
@@ -5837,8 +5792,8 @@
       "subject": "objects/flowers"
     },
     "tags": [
-      "mug",
-      "rose"
+      "flowers",
+      "mug"
     ],
     "angles": [
       {
@@ -5875,7 +5830,6 @@
       "subject": "objects/eyes"
     },
     "tags": [
-      "eye",
       "mug"
     ],
     "angles": [
@@ -5951,7 +5905,7 @@
       "subject": "objects/other-objects"
     },
     "tags": [
-      "cauldron"
+      "witchy"
     ],
     "angles": [
       {
@@ -5988,8 +5942,7 @@
       "subject": "objects/robots"
     },
     "tags": [
-      "cyborg",
-      "robot"
+      "mythical"
     ],
     "angles": [
       {
@@ -6026,7 +5979,6 @@
       "subject": "objects/eyes"
     },
     "tags": [
-      "eye",
       "feather"
     ],
     "angles": [
@@ -6064,8 +6016,8 @@
       "subject": "birds/owls"
     },
     "tags": [
-      "owl",
-      "rose"
+      "flowers",
+      "owl"
     ],
     "angles": [
       {
@@ -6139,8 +6091,8 @@
       "subject": "folk/skeletons"
     },
     "tags": [
-      "skull",
-      "zombie"
+      "mythical",
+      "skull"
     ],
     "angles": [
       {
@@ -6214,7 +6166,7 @@
       "subject": "creatures/mice"
     },
     "tags": [
-      "mouse"
+      "nature"
     ],
     "angles": [
       {
@@ -6252,7 +6204,7 @@
     },
     "tags": [
       "bust",
-      "woman"
+      "female"
     ],
     "angles": [
       {
@@ -6289,7 +6241,7 @@
       "subject": "birds/other-birds"
     },
     "tags": [
-      "songbird"
+      "bird"
     ],
     "angles": [
       {
@@ -6326,7 +6278,7 @@
       "subject": "objects/containers"
     },
     "tags": [
-      "basket"
+      "planter"
     ],
     "angles": [
       {
@@ -6363,7 +6315,6 @@
       "subject": "objects/containers"
     },
     "tags": [
-      "headphones",
       "mug"
     ],
     "angles": [
@@ -6402,7 +6353,7 @@
     },
     "tags": [
       "cat",
-      "mask"
+      "mythical"
     ],
     "angles": [
       {
@@ -6476,8 +6427,8 @@
       "subject": "creatures/other-creatures"
     },
     "tags": [
-      "elephant",
-      "flowers"
+      "flowers",
+      "nature"
     ],
     "angles": [
       {
@@ -6515,7 +6466,7 @@
     },
     "tags": [
       "frog",
-      "witch-hat"
+      "mythical"
     ],
     "angles": [
       {
@@ -6553,7 +6504,7 @@
     },
     "tags": [
       "bowl",
-      "wood-grain"
+      "nature"
     ],
     "angles": [
       {
@@ -6590,7 +6541,7 @@
       "subject": "objects/other-objects"
     },
     "tags": [
-      "dark"
+      "witchy"
     ],
     "angles": [
       {
@@ -6627,7 +6578,6 @@
       "subject": "objects/torsos"
     },
     "tags": [
-      "male",
       "torso"
     ],
     "angles": [
@@ -6665,7 +6615,7 @@
       "subject": "objects/containers"
     },
     "tags": [
-      "castle"
+      "mythical"
     ],
     "angles": [
       {
@@ -6740,7 +6690,6 @@
     },
     "tags": [
       "bust",
-      "day-of-dead",
       "flowers"
     ],
     "angles": [
@@ -6852,7 +6801,7 @@
       "subject": "birds/other-birds"
     },
     "tags": [
-      "cardinal"
+      "bird"
     ],
     "angles": [
       {
@@ -6889,9 +6838,7 @@
       "subject": "folk/figures"
     },
     "tags": [
-      "baby",
-      "christmas",
-      "santa"
+      "baby"
     ],
     "angles": [
       {
@@ -6966,7 +6913,7 @@
       "subject": "folk/figures"
     },
     "tags": [
-      "rose",
+      "flowers",
       "torso"
     ],
     "angles": [
@@ -7004,8 +6951,7 @@
       "subject": "creatures/other-creatures"
     },
     "tags": [
-      "flame",
-      "horse"
+      "colorful"
     ],
     "angles": [
       {
@@ -7042,7 +6988,7 @@
       "subject": "birds/other-birds"
     },
     "tags": [
-      "eagle"
+      "bird"
     ],
     "angles": [
       {
@@ -7154,7 +7100,7 @@
     },
     "tags": [
       "bust",
-      "woman"
+      "female"
     ],
     "angles": [
       {
@@ -7265,9 +7211,8 @@
       "subject": "folk/skeletons"
     },
     "tags": [
-      "ghost",
-      "skull",
-      "totem"
+      "mythical",
+      "skull"
     ],
     "angles": [
       {
@@ -7304,7 +7249,7 @@
       "subject": "objects/containers"
     },
     "tags": [
-      "flame"
+      "colorful"
     ],
     "angles": [
       {
@@ -7569,7 +7514,6 @@
       "subject": "folk/skeletons"
     },
     "tags": [
-      "crown",
       "skull"
     ],
     "angles": [
@@ -7607,7 +7551,7 @@
       "subject": "folk/skeletons"
     },
     "tags": [
-      "mask",
+      "mythical",
       "skull"
     ],
     "angles": [
@@ -7645,8 +7589,8 @@
       "subject": "folk/reapers"
     },
     "tags": [
-      "reaper",
-      "rose"
+      "flowers",
+      "reaper"
     ],
     "angles": [
       {
@@ -7683,7 +7627,6 @@
       "subject": "folk/figures"
     },
     "tags": [
-      "horns",
       "mythical"
     ],
     "angles": [
@@ -7759,7 +7702,7 @@
       "subject": "folk/skeletons"
     },
     "tags": [
-      "skeleton"
+      "skull"
     ],
     "angles": [
       {
@@ -7834,8 +7777,8 @@
     },
     "tags": [
       "colorful",
-      "wings",
-      "mythical"
+      "mythical",
+      "wings"
     ],
     "angles": [
       {
@@ -7909,8 +7852,7 @@
       "subject": "folk/reapers"
     },
     "tags": [
-      "reaper",
-      "scythe"
+      "reaper"
     ],
     "angles": [
       {
@@ -8059,7 +8001,7 @@
       "subject": "birds/other-birds"
     },
     "tags": [
-      "raven"
+      "bird"
     ],
     "angles": [
       {
@@ -8134,8 +8076,8 @@
     },
     "tags": [
       "bust",
-      "flowers",
-      "woman"
+      "female",
+      "flowers"
     ],
     "angles": [
       {
@@ -8172,8 +8114,7 @@
       "subject": "folk/reapers"
     },
     "tags": [
-      "reaper",
-      "scythe"
+      "reaper"
     ],
     "angles": [
       {
@@ -8247,8 +8188,8 @@
       "subject": "folk/reapers"
     },
     "tags": [
-      "cauldron",
-      "reaper"
+      "reaper",
+      "witchy"
     ],
     "angles": [
       {
@@ -8285,8 +8226,8 @@
       "subject": "folk/reapers"
     },
     "tags": [
-      "wings",
-      "mythical"
+      "mythical",
+      "wings"
     ],
     "angles": [
       {
@@ -8323,7 +8264,7 @@
       "subject": "folk/masks"
     },
     "tags": [
-      "mask"
+      "mythical"
     ],
     "angles": [
       {
@@ -8360,8 +8301,7 @@
       "subject": "objects/flowers"
     },
     "tags": [
-      "rasta",
-      "rose"
+      "flowers"
     ],
     "angles": [
       {
@@ -8473,7 +8413,7 @@
       "subject": "creatures/mice"
     },
     "tags": [
-      "mouse"
+      "nature"
     ],
     "angles": [
       {
@@ -8510,7 +8450,7 @@
       "subject": "creatures/other-creatures"
     },
     "tags": [
-      "bear"
+      "nature"
     ],
     "angles": [
       {
@@ -8585,9 +8525,9 @@
       "subject": "objects/torsos"
     },
     "tags": [
+      "religious",
       "torso",
-      "wings",
-      "religious"
+      "wings"
     ],
     "angles": [
       {
@@ -8737,7 +8677,7 @@
     },
     "tags": [
       "bust",
-      "woman"
+      "female"
     ],
     "angles": [
       {
@@ -8848,7 +8788,7 @@
       "subject": "birds/other-birds"
     },
     "tags": [
-      "songbird"
+      "bird"
     ],
     "angles": [
       {
@@ -8885,8 +8825,8 @@
       "subject": "birds/owls"
     },
     "tags": [
-      "owl",
-      "rose"
+      "flowers",
+      "owl"
     ],
     "angles": [
       {
@@ -8924,7 +8864,6 @@
     },
     "tags": [
       "cat",
-      "chain",
       "hooded"
     ],
     "angles": [
@@ -8999,8 +8938,7 @@
       "subject": "creatures/cats"
     },
     "tags": [
-      "cat",
-      "fluffy"
+      "cat"
     ],
     "angles": [
       {
@@ -9037,9 +8975,7 @@
       "subject": "creatures/cats"
     },
     "tags": [
-      "cat",
-      "goggles",
-      "steampunk"
+      "cat"
     ],
     "angles": [
       {
@@ -9113,8 +9049,7 @@
       "subject": "creatures/cats"
     },
     "tags": [
-      "cat",
-      "fluffy"
+      "cat"
     ],
     "angles": [
       {
@@ -9225,8 +9160,7 @@
       "subject": "creatures/cats"
     },
     "tags": [
-      "cat",
-      "horns"
+      "cat"
     ],
     "angles": [
       {
@@ -9411,8 +9345,8 @@
       "subject": "creatures/cats"
     },
     "tags": [
-      "astronaut",
-      "cat"
+      "cat",
+      "mythical"
     ],
     "angles": [
       {
@@ -9486,8 +9420,8 @@
       "subject": "creatures/cats"
     },
     "tags": [
-      "astronaut",
-      "cat"
+      "cat",
+      "mythical"
     ],
     "angles": [
       {
@@ -9710,7 +9644,6 @@
       "subject": "creatures/dogs"
     },
     "tags": [
-      "bulldog",
       "dog"
     ],
     "angles": [
@@ -9785,9 +9718,8 @@
       "subject": "creatures/cats"
     },
     "tags": [
-      "basket",
-      "calico",
-      "cat"
+      "cat",
+      "planter"
     ],
     "angles": [
       {
@@ -9973,7 +9905,6 @@
       "subject": "creatures/dogs"
     },
     "tags": [
-      "bulldog",
       "dog"
     ],
     "angles": [
@@ -10160,7 +10091,7 @@
       "subject": "objects/flowers"
     },
     "tags": [
-      "rose"
+      "flowers"
     ],
     "angles": [
       {
@@ -10234,7 +10165,7 @@
       "subject": "objects/containers"
     },
     "tags": [
-      "wood-grain"
+      "nature"
     ],
     "angles": [
       {
@@ -10271,8 +10202,8 @@
       "subject": "objects/containers"
     },
     "tags": [
-      "robot",
-      "scene",
+      "abstract",
+      "mythical",
       "nature"
     ],
     "angles": [
@@ -10310,8 +10241,8 @@
       "subject": "folk/figures"
     },
     "tags": [
-      "snake",
-      "mythical"
+      "mythical",
+      "snake"
     ],
     "angles": [
       {
@@ -10348,8 +10279,7 @@
       "subject": "folk/skeletons"
     },
     "tags": [
-      "skull",
-      "small"
+      "skull"
     ],
     "angles": [
       {
@@ -10386,7 +10316,7 @@
       "subject": "creatures/unicorns"
     },
     "tags": [
-      "pastel",
+      "colorful",
       "unicorn"
     ],
     "angles": [
@@ -10424,7 +10354,6 @@
       "subject": "objects/torsos"
     },
     "tags": [
-      "male",
       "torso"
     ],
     "angles": [
@@ -10499,7 +10428,7 @@
       "subject": "objects/other-objects"
     },
     "tags": [
-      "shoe"
+      "funny"
     ],
     "angles": [
       {
@@ -10610,8 +10539,7 @@
       "subject": "folk/reapers"
     },
     "tags": [
-      "reaper",
-      "small"
+      "reaper"
     ],
     "angles": [
       {
@@ -10648,8 +10576,7 @@
       "subject": "folk/reapers"
     },
     "tags": [
-      "reaper",
-      "standing"
+      "reaper"
     ],
     "angles": [
       {
@@ -10760,7 +10687,7 @@
       "subject": "objects/torsos"
     },
     "tags": [
-      "rose",
+      "flowers",
       "torso"
     ],
     "angles": [
@@ -10798,7 +10725,7 @@
       "subject": "objects/flowers"
     },
     "tags": [
-      "rose"
+      "flowers"
     ],
     "angles": [
       {
@@ -10872,7 +10799,7 @@
       "subject": "folk/figures"
     },
     "tags": [
-      "rose",
+      "flowers",
       "religious"
     ],
     "angles": [
@@ -10985,7 +10912,7 @@
       "subject": "objects/other-objects"
     },
     "tags": [
-      "eagle",
+      "bird",
       "snake"
     ],
     "angles": [
@@ -11023,7 +10950,7 @@
       "subject": "folk/reapers"
     },
     "tags": [
-      "ghost"
+      "mythical"
     ],
     "angles": [
       {
@@ -11049,6 +10976,4962 @@
       }
     ],
     "dateAdded": "2026-08-11",
+    "description": null
+  },
+  {
+    "id": "NFC-0295",
+    "title": null,
+    "facets": {
+      "subject": "folk/figures",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "religious",
+      "wings"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0295/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0295/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0295/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0295/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0296",
+    "title": null,
+    "facets": {
+      "subject": "creatures/frogs-toads",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "frog"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0296/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0296/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0296/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0296/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0297",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "flowers",
+      "planter"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0297/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0297/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0297/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0297/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0298",
+    "title": null,
+    "facets": {
+      "subject": "folk/figures",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "religious"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0298/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0298/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0298/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0298/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0299",
+    "title": null,
+    "facets": {
+      "subject": "creatures/frogs-toads",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "frog"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0299/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0299/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0299/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0299/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0300",
+    "title": null,
+    "facets": {
+      "subject": "folk/figures",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "religious",
+      "wings"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0300/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0300/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0300/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0300/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0301",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "bowl"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0301/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0301/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0301/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0301/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0302",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "funny"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0302/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0302/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0302/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0302/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0303",
+    "title": null,
+    "facets": {
+      "subject": "objects/flowers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "female",
+      "flowers",
+      "nature"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0303/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0303/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0303/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0303/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0304",
+    "title": null,
+    "facets": {
+      "subject": "folk/figures",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "female",
+      "mythical"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0304/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0304/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0304/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0304/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0305",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "female"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0305/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0305/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0305/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0305/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0306",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "funny"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0306/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0306/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0306/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0306/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0307",
+    "title": null,
+    "facets": {
+      "subject": "folk/figures",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "female",
+      "flowers",
+      "nature"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0307/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0307/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0307/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0307/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0308",
+    "title": null,
+    "facets": {
+      "subject": "folk/figures",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "religious"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0308/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0308/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0308/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0308/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0309",
+    "title": null,
+    "facets": {
+      "subject": "creatures/other-creatures",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "nature"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0309/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0309/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0309/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0309/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0310",
+    "title": null,
+    "facets": {
+      "subject": "objects/flowers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "flowers"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0310/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0310/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0310/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0310/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0311",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "nature"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0311/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0311/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0311/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0311/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0312",
+    "title": null,
+    "facets": {
+      "subject": "creatures/unicorns",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "flowers",
+      "unicorn"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0312/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0312/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0312/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0312/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0313",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "flowers"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0313/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0313/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0313/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0313/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0314",
+    "title": null,
+    "facets": {
+      "subject": "objects/torsos",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "female",
+      "torso"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0314/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0314/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0314/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0314/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0315",
+    "title": null,
+    "facets": {
+      "subject": "creatures/other-creatures",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "flowers"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0315/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0315/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0315/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0315/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0316",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "bowl"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0316/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0316/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0316/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0316/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111111"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0317",
+    "title": null,
+    "facets": {
+      "subject": "folk/figures",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "bust"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0317/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0317/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0317/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0317/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0318",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "heart"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0318/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0318/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0318/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0318/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0319",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "bowl",
+      "nature"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0319/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0319/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0319/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0319/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0320",
+    "title": null,
+    "facets": {
+      "subject": "creatures/other-creatures",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "mythical",
+      "wings"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0320/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0320/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0320/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0320/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0321",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "female"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0321/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0321/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0321/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0321/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0322",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "pillar",
+      "finish": "white"
+    },
+    "tags": [
+      "nature"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0322/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0322/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0322/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0322/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111111"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0323",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "mushroom",
+      "nature"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0323/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0323/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0323/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0323/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0324",
+    "title": null,
+    "facets": {
+      "subject": "objects/torsos",
+      "form": "statue",
+      "finish": "painted"
+    },
+    "tags": [
+      "torso"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0324/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0324/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0324/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0324/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0325",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "frog"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0325/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0325/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0325/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0325/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0326",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "statue",
+      "finish": "painted"
+    },
+    "tags": [
+      "colorful"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0326/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0326/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0326/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0326/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#1e1e1e"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0327",
+    "title": null,
+    "facets": {
+      "subject": "objects/flowers",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "flowers",
+      "religious"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0327/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0327/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0327/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0327/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0328",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "bowl",
+      "cat"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0328/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0328/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0328/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0328/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111111"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0329",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "witchy"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0329/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0329/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0329/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0329/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0330",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "religious"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0330/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0330/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0330/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0330/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0331",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "statue",
+      "finish": "painted"
+    },
+    "tags": [
+      "colorful"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0331/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0331/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0331/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0331/main-2000.webp"
+          }
+        ],
+        "width": 1774,
+        "height": 2365,
+        "bg": "#111111"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0332",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "container",
+      "finish": "painted"
+    },
+    "tags": [
+      "colorful"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0332/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0332/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0332/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0332/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0333",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "mythical",
+      "witchy"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0333/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0333/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0333/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0333/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111111"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0334",
+    "title": null,
+    "facets": {
+      "subject": "objects/books",
+      "form": "container",
+      "finish": "painted"
+    },
+    "tags": [
+      "book",
+      "colorful"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0334/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0334/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0334/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0334/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0335",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "painted"
+    },
+    "tags": [
+      "colorful"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0335/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0335/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0335/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0335/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#68615b"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0336",
+    "title": null,
+    "facets": {
+      "subject": "folk/figures",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "religious",
+      "wings"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0336/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0336/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0336/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0336/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0337",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "planter"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0337/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0337/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0337/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0337/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0338",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "religious",
+      "wings"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0338/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0338/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0338/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0338/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0339",
+    "title": null,
+    "facets": {
+      "subject": "folk/figures",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "female"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0339/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0339/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0339/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0339/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#18181e"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0340",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "abstract",
+      "nature"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0340/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0340/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0340/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0340/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#1e1e1e"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0341",
+    "title": null,
+    "facets": {
+      "subject": "objects/books",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "book"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0341/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0341/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0341/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0341/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#0a0a11"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0342",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "flowers"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0342/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0342/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0342/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0342/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0343",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "flowers"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0343/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0343/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0343/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0343/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0344",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "religious"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0344/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0344/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0344/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0344/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0345",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "religious"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0345/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0345/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0345/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0345/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0346",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "religious",
+      "wings"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0346/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0346/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0346/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0346/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0347",
+    "title": null,
+    "facets": {
+      "subject": "creatures/lions",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "lion"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0347/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0347/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0347/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0347/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0348",
+    "title": null,
+    "facets": {
+      "subject": "birds/owls",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "owl"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0348/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0348/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0348/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0348/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0349",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "egg",
+      "lion"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0349/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0349/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0349/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0349/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0350",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "meditating",
+      "religious"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0350/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0350/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0350/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0350/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0351",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "wizard"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0351/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0351/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0351/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0351/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111111"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0352",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "mythical"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0352/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0352/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0352/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0352/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0353",
+    "title": null,
+    "facets": {
+      "subject": "creatures/foxes",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "flowers",
+      "fox"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0353/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0353/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0353/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0353/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0354",
+    "title": null,
+    "facets": {
+      "subject": "objects/torsos",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "nature",
+      "torso"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0354/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0354/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0354/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0354/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0355",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "bird",
+      "wings"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0355/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0355/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0355/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0355/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0356",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "flowers",
+      "mug"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0356/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0356/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0356/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0356/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0357",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "nature"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0357/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0357/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0357/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0357/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0358",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "religious"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0358/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0358/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0358/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0358/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0359",
+    "title": null,
+    "facets": {
+      "subject": "folk/figures",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "religious"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0359/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0359/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0359/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0359/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111111"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0360",
+    "title": null,
+    "facets": {
+      "subject": "folk/figures",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "baby",
+      "religious",
+      "wings"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0360/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0360/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0360/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0360/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111111"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0361",
+    "title": null,
+    "facets": {
+      "subject": "folk/figures",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "baby",
+      "meditating",
+      "religious"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0361/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0361/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0361/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0361/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0362",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "egg"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0362/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0362/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0362/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0362/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0363",
+    "title": null,
+    "facets": {
+      "subject": "creatures/cats",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "cat"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0363/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0363/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0363/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0363/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0364",
+    "title": null,
+    "facets": {
+      "subject": "birds/other-birds",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "bird",
+      "sleeping"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0364/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0364/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0364/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0364/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111111"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0365",
+    "title": null,
+    "facets": {
+      "subject": "birds/other-birds",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "bird",
+      "sleeping"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0365/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0365/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0365/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0365/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111111"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0366",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0366/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0366/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0366/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0366/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111111"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0367",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "religious"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0367/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0367/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0367/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0367/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0368",
+    "title": null,
+    "facets": {
+      "subject": "objects/hands",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "hand"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0368/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0368/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0368/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0368/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0369",
+    "title": null,
+    "facets": {
+      "subject": "objects/flowers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "flowers"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0369/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0369/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0369/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0369/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#0a0a11"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0370",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "mushroom"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0370/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0370/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0370/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0370/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#03030a"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0371",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "nature"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0371/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0371/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0371/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0371/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0372",
+    "title": null,
+    "facets": {
+      "subject": "objects/flowers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "flowers"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0372/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0372/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0372/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0372/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#0a0a0a"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0373",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "flowers"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0373/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0373/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0373/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0373/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0374",
+    "title": null,
+    "facets": {
+      "subject": "birds/owls",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "owl"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0374/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0374/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0374/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0374/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0375",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "female"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0375/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0375/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0375/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0375/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0376",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "female"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0376/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0376/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0376/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0376/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#03030a"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0377",
+    "title": null,
+    "facets": {
+      "subject": "folk/gnomes",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "cat",
+      "flowers",
+      "gnome"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0377/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0377/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0377/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0377/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111111"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0378",
+    "title": null,
+    "facets": {
+      "subject": "objects/torsos",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "hooded"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0378/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0378/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0378/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0378/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0379",
+    "title": null,
+    "facets": {
+      "subject": "objects/flowers",
+      "form": "statue",
+      "finish": "painted"
+    },
+    "tags": [
+      "colorful",
+      "flowers"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0379/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0379/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0379/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0379/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#0a0a0a"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0380",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "feather"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0380/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0380/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0380/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0380/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0381",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "female"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0381/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0381/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0381/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0381/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0382",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "female"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0382/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0382/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0382/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0382/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0383",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "nature"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0383/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0383/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0383/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0383/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0384",
+    "title": null,
+    "facets": {
+      "subject": "folk/figures",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "female",
+      "mythical"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0384/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0384/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0384/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0384/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0385",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "female",
+      "flowers"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0385/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0385/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0385/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0385/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0386",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "container",
+      "finish": "painted"
+    },
+    "tags": [
+      "female"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0386/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0386/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0386/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0386/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0387",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "religious",
+      "wings"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0387/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0387/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0387/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0387/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0388",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0388/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0388/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0388/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0388/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0389",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "flowers"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0389/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0389/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0389/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0389/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0390",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0390/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0390/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0390/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0390/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0391",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "heart"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0391/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0391/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0391/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0391/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0392",
+    "title": null,
+    "facets": {
+      "subject": "folk/figures",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "female",
+      "flowers"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0392/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0392/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0392/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0392/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0393",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "female"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0393/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0393/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0393/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0393/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0394",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "flowers",
+      "wings"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0394/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0394/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0394/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0394/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0395",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "dragon"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0395/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0395/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0395/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0395/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0396",
+    "title": null,
+    "facets": {
+      "subject": "creatures/dragons",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "dragon"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0396/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0396/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0396/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0396/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0397",
+    "title": null,
+    "facets": {
+      "subject": "creatures/dragons",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "dragon",
+      "wings"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0397/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0397/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0397/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0397/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0398",
+    "title": null,
+    "facets": {
+      "subject": "objects/flowers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "flowers",
+      "religious"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0398/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0398/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0398/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0398/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#0a0a11"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0399",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0399/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0399/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0399/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0399/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0400",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "mythical"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0400/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0400/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0400/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0400/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0401",
+    "title": null,
+    "facets": {
+      "subject": "birds/ducks",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "duck"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0401/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0401/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0401/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0401/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#1e1e1e"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0402",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0402/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0402/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0402/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0402/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111111"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0403",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0403/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0403/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0403/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0403/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111118"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0404",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "nature"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0404/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0404/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0404/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0404/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#110a11"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0405",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "mythical"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0405/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0405/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0405/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0405/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0406",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "female",
+      "religious"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0406/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0406/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0406/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0406/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0407",
+    "title": null,
+    "facets": {
+      "subject": "objects/hands",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "hand",
+      "religious"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0407/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0407/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0407/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0407/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0408",
+    "title": null,
+    "facets": {
+      "subject": "folk/figures",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "nature"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0408/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0408/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0408/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0408/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0409",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "mushroom"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0409/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0409/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0409/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0409/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0410",
+    "title": null,
+    "facets": {
+      "subject": "folk/figures",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "wizard"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0410/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0410/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0410/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0410/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0411",
+    "title": null,
+    "facets": {
+      "subject": "objects/torsos",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "female",
+      "nature",
+      "torso"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0411/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0411/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0411/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0411/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0412",
+    "title": null,
+    "facets": {
+      "subject": "folk/figures",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "female"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0412/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0412/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0412/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0412/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111111"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0413",
+    "title": null,
+    "facets": {
+      "subject": "folk/figures",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "female"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0413/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0413/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0413/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0413/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0414",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0414/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0414/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0414/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0414/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0415",
+    "title": null,
+    "facets": {
+      "subject": "creatures/cats",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "cat"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0415/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0415/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0415/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0415/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0416",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "nature"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0416/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0416/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0416/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0416/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0417",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "mushroom"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0417/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0417/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0417/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0417/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#111111"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0418",
+    "title": null,
+    "facets": {
+      "subject": "objects/torsos",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "female",
+      "flowers",
+      "torso"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0418/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0418/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0418/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0418/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0419",
+    "title": null,
+    "facets": {
+      "subject": "folk/gnomes",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "mushroom"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0419/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0419/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0419/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0419/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0420",
+    "title": null,
+    "facets": {
+      "subject": "objects/flowers",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "flowers"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0420/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0420/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0420/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0420/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0421",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "religious"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0421/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0421/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0421/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0421/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0422",
+    "title": null,
+    "facets": {
+      "subject": "objects/hands",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "funny",
+      "hand"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0422/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0422/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0422/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0422/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0423",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "heart"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0423/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0423/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0423/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0423/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0424",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0424/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0424/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0424/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0424/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0425",
+    "title": null,
+    "facets": {
+      "subject": "objects/other-objects",
+      "form": "statue",
+      "finish": "white"
+    },
+    "tags": [
+      "funny"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0425/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0425/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0425/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0425/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0426",
+    "title": null,
+    "facets": {
+      "subject": "objects/containers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "female",
+      "hooded"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0426/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0426/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0426/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0426/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
+    "description": null
+  },
+  {
+    "id": "NFC-0427",
+    "title": null,
+    "facets": {
+      "subject": "objects/flowers",
+      "form": "container",
+      "finish": "white"
+    },
+    "tags": [
+      "flowers"
+    ],
+    "angles": [
+      {
+        "label": "main",
+        "master": "/assets/images/statues/NFC-0427/main-2000.webp",
+        "sizes": [
+          {
+            "w": 600,
+            "src": "/assets/images/statues/NFC-0427/main-600.webp"
+          },
+          {
+            "w": 1200,
+            "src": "/assets/images/statues/NFC-0427/main-1200.webp"
+          },
+          {
+            "w": 2000,
+            "src": "/assets/images/statues/NFC-0427/main-2000.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2667,
+        "bg": "#181818"
+      }
+    ],
+    "dateAdded": "2026-08-12",
     "description": null
   }
 ]

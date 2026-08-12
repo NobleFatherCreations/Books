@@ -7,6 +7,10 @@ incoming/*
 !incoming/.gitkeep
 !incoming/README.md
 
+# The manifest listing a batch pulled from Google Drive — a workshop
+# artifact for the pull, not something the built site reads.
+incoming-manifest.json
+
 # Optional local overrides
 .env
 .env.local
