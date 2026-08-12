@@ -10,8 +10,13 @@
     "deploySource": "cli",
     "localSource": "source/projects/noble-father-catalogue.html",
     "localSourceNote": "This is the first verified live deploy of the redesigned 'collected works' hub. A 2026-08-02 review package claimed the catalogue hub redesign was already deployed, but it did NOT byte-match live content at the time -- treat this 2026-08-05 deploy as the true first release.",
-    "version": "v9",
+    "version": "v10",
     "changelog": [
+      {
+        "date": "2026-08-12",
+        "version": "v10",
+        "summary": "Fixed The Casting loading as unstyled text with no photos when opened from this site -- its stylesheets, scripts and photo data live as separate files and were being looked for on the wrong site, so none of them arrived. Renamed \"The Fracture Everywhere\" to just \"The Fracture\" everywhere it appears, and folded in the older \"All Fracture\" name that was still showing on several pages, so there is now one name. New cover art for The Festie Codex."
+      },
       {
         "date": "2026-08-11",
         "version": "v9",
@@ -244,6 +249,11 @@
       "version": "v2",
       "changelog": [
         {
+          "date": "2026-08-12",
+          "version": "v2",
+          "summary": "Renamed to \"The Fracture\" (from \"The Fracture Everywhere\"). The address /fracture is unchanged."
+        },
+        {
           "date": "2026-08-05",
           "version": "v2",
           "summary": "Renamed from \"All Fracture\" to \"The Fracture Everywhere\" (since shortened again to \"The Fracture\"). Verified all 195 citations against the author's own source list (zero discrepancies) and corrected a false claim about which episodes have sourcing - Episodes 9 and 10 are now honestly flagged as not yet sourced instead of silently missing."
@@ -397,8 +407,13 @@
         "found": false,
         "checkedAt": "2026-08-10"
       },
-      "version": "v5",
+      "version": "v6",
       "changelog": [
+        {
+          "date": "2026-08-12",
+          "version": "v6",
+          "summary": "Added a way out of the book: a House link in the top bar on every page and a link to the rest of the catalogue in the footer. Previously the only links out were TikTok, email and the crisis resources, so the only way back was the browser's back button."
+        },
         {
           "date": "2026-08-11",
           "version": "v5",
