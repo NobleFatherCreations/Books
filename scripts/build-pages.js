@@ -41,6 +41,16 @@ catch { say.err('sharp is not installed. Run: npm install'); process.exit(1); }
 const OUT = path.join(ROOT, 'statues');
 const CARDS = path.join(ROOT, 'assets/images/social');
 
+/*  How wide the piece photo actually renders, read off piece.css so the
+    browser can pick the right file from the srcset. Above the 760px
+    breakpoint .piece-page is a 1120px-max two-column grid (24px padding a
+    side, ~56px gap, figure column 1.05 of 2.05) which settles at ~520px;
+    below it the grid collapses to one column and the figure runs full
+    width less the same padding. Keep this in step with piece.css -- a
+    stale value here does not break the page, it just has the browser
+    fetch a size larger or smaller than it needs.  */
+const HERO_SIZES = '(max-width: 760px) calc(100vw - 48px), 520px';
+
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => (
   { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
@@ -110,6 +120,15 @@ function pageHTML({ site, piece, facets, cardURL, master }) {
   const img = `${site.url}${cardURL}`;
   const photo = `${site.url}${master}`;
 
+  /*  The hero used to be the 2000px master on every device -- a phone was
+      pulling ~1MB to fill a 342px-wide box. Offering the ingest's own size
+      ladder lets the browser take the smallest file that still covers the
+      box at its pixel density; nothing renders any smaller than before.  */
+  const heroSrcset = (piece.angles[0].sizes || [])
+    .filter(s => s?.src && s?.w)
+    .map(s => `${s.src} ${s.w}w`)
+    .join(', ');
+
   const crumbs = trail.map(t =>
     `<a href="/statues/?${t.axis.key}=${encodeURIComponent(t.path)}">${esc(t.labels.join(' › '))}</a>`
   ).join('<span class="sep">·</span>');
@@ -168,6 +187,8 @@ function pageHTML({ site, piece, facets, cardURL, master }) {
 <main class="piece-page">
   <figure class="pp-figure" style="--tile-bg:${esc(piece.angles[0].bg || '#101015')}">
     <img src="${esc(master)}" alt="${esc(title)}"
+         ${heroSrcset ? `srcset="${esc(heroSrcset)}"` : ''}
+         ${heroSrcset ? `sizes="${esc(HERO_SIZES)}"` : ''}
          ${piece.angles[0].width ? `width="${piece.angles[0].width}"` : ''}
          ${piece.angles[0].height ? `height="${piece.angles[0].height}"` : ''}
          fetchpriority="high" decoding="async" />
