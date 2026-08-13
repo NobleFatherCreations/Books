@@ -132,6 +132,14 @@ h1, h2, h3 {
 }
 .tb-mark b { color: var(--gold); font-weight: 600 }
 
+/* The brandmark doubles as the way back to the wider catalogue -- the
+   convention a reader already expects of a logo, and on a piece page it is
+   the only route out. As an <a> it needs the link styling put back to how
+   the plain mark reads, plus a quiet hover so it reads as pressable. */
+a.tb-mark { text-decoration: none; transition: color .25s }
+a.tb-mark:hover { color: var(--gold) }
+a.tb-mark:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 3px }
+
 .tb-switch {
   font-family: var(--label); font-size: .6rem; letter-spacing: .14em;
   text-transform: uppercase; color: var(--cream-dim);

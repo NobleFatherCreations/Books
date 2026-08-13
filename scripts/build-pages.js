@@ -161,7 +161,8 @@ function pageHTML({ site, piece, facets, cardURL, master }) {
 
 <div class="topbar">
   <a class="menu-btn" href="/statues/" aria-label="Back to the collection">‹</a>
-  <span class="tb-mark">Noble <b>Father</b> Creations</span>
+  <a class="tb-mark" href="https://noblefathercreations.com/"
+     aria-label="Noble Father Creations — the full catalogue">Noble <b>Father</b> Creations</a>
 </div>
 
 <main class="piece-page">
