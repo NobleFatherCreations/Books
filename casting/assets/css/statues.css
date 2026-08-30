@@ -1,0 +1,545 @@
+/* =====================================================================
+   The Collection — gallery, filter rail and lightbox
+   Consumes tokens from theme.css only. No literal colours or font
+   stacks live in this file.
+   ===================================================================== */
+
+/* ---------------------------------------------------------------
+   Filters — search, breadcrumb and chips, all generated from
+   data/facets.json. Nothing here names a category.
+   --------------------------------------------------------------- */
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+/* Only the search row stays pinned while scrolling the grid -- the
+   breadcrumb/chip/tag panel below it used to be sticky too, which meant
+   a fully-expanded filter panel (subject chips + other facets + up to 14
+   tag chips) could eat most of the viewport and never scroll away. */
+.filters-search {
+  position: sticky; top: 56px; z-index: 40;
+  padding: 12px 0 10px;
+  background: color-mix(in srgb, var(--bg) 94%, transparent);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(201, 162, 75, .1);
+}
+
+.filters-chips { padding: 10px 0 4px }
+
+.filter-top { display: flex; gap: 10px; align-items: center }
+
+.search { flex: 1; position: relative; display: block }
+.search input {
+  width: 100%; height: 44px;                 /* 44px: the touch-target floor */
+  background: var(--card); color: var(--cream);
+  border: 1px solid var(--line-strong); border-radius: 24px;
+  padding: 0 18px; font-family: var(--body); font-size: .95rem;
+}
+.search input::placeholder { color: var(--cream-dim) }
+.search input:focus-visible { outline: 2px solid var(--gold); outline-offset: 1px }
+
+.icon-btn {
+  flex: none; width: 44px; height: 44px; border-radius: 12px;
+  background: var(--card); color: var(--cream-dim);
+  border: 1px solid var(--line-strong); cursor: pointer;
+  transition: color .2s, border-color .2s, background-color .2s, transform 120ms var(--ease-out, var(--ease));
+  font-size: 1rem;
+}
+.icon-btn:hover { color: var(--gold); border-color: var(--gold) }
+.icon-btn:active { transform: scale(.93) }
+.icon-btn[aria-pressed="true"] { background: var(--gold); color: var(--obsidian) }
+
+/* Mobile: the chip panel used to render fully expanded, which meant a
+   first-time visitor on a phone could scroll past subject + type + finish
+   + 14 tag chips and never see a single product above the fold. Collapsed
+   by default under 641px; desktop is unaffected. */
+.filter-toggle { display: none; }
+@media (max-width: 640px) {
+  .filter-toggle {
+    display: inline-flex; align-items: center; gap: 6px;
+    flex: none; height: 44px; padding: 0 16px; border-radius: 22px;
+    background: var(--card); color: var(--cream-dim);
+    border: 1px solid var(--line-strong); cursor: pointer;
+    font-family: var(--label); font-size: .64rem; letter-spacing: .14em;
+    text-transform: uppercase;
+    transition: color .2s, border-color .2s, transform 120ms var(--ease-out, var(--ease));
+  }
+  .filter-toggle:hover { color: var(--gold); border-color: var(--gold) }
+  .filter-toggle:active { transform: scale(.96) }
+  .filter-toggle .fc {
+    font-family: var(--mono); font-size: .58rem; color: var(--gold-dim);
+  }
+  .filter-toggle[aria-expanded="true"] .fa { transform: rotate(180deg) }
+  .filter-toggle .fa { display: inline-block; transition: transform .25s var(--ease); font-size: .8em }
+
+  .filters-chips {
+    display: grid; grid-template-rows: 0fr; opacity: 0;
+    transition: grid-template-rows .32s var(--ease), opacity .22s ease;
+  }
+  .filters-chips > .wrap { overflow: hidden; min-height: 0; }
+  .filters-chips.open { grid-template-rows: 1fr; opacity: 1; }
+}
+
+.crumbs {
+  display: flex; flex-wrap: wrap; align-items: center; gap: .4rem;
+  margin-bottom: 9px; min-height: 20px;
+}
+.crumb {
+  font-family: var(--label); font-size: .62rem; letter-spacing: .18em;
+  text-transform: uppercase; color: var(--cream-dim);
+  background: none; border: none; padding: 2px 0; cursor: pointer;
+  transition: color .2s, transform 120ms var(--ease-out);
+  display: inline-block;
+}
+.crumb:hover { color: var(--gold) }
+.crumb:active:not(.on) { transform: scale(.94) }
+.crumb.on { color: var(--gold); cursor: default }
+.crumb-sep { color: var(--gold-dim); font-size: .7rem }
+
+.facet-row {
+  display: flex; align-items: baseline; gap: 12px;
+  padding: 4px 0;
+}
+.facet-label {
+  flex: none; width: 62px;
+  font-family: var(--label); font-size: .56rem; letter-spacing: .2em;
+  text-transform: uppercase; color: var(--gold-dim);
+}
+.chips {
+  display: flex; flex-wrap: wrap; gap: 7px; flex: 1; min-width: 0;
+}
+
+.chip {
+  display: inline-flex; align-items: center; gap: 7px;
+  min-height: 34px; padding: 5px 13px;
+  background: var(--card); color: var(--cream);
+  border: 1px solid var(--line-strong); border-radius: 20px;
+  font-family: var(--label); font-size: .68rem; letter-spacing: .08em;
+  cursor: pointer; white-space: nowrap;
+  transition: color .2s, border-color .2s, background-color .2s, transform 120ms var(--ease-out);
+}
+.chip:hover { border-color: var(--gold); color: var(--gold) }
+.chip:active { transform: scale(.95) }
+.chip.on { background: var(--gold); border-color: var(--gold); color: var(--obsidian); font-weight: 600 }
+.chip .n {
+  font-family: var(--mono); font-size: .58rem; color: var(--gold-dim);
+}
+.chip.on .n { color: rgba(10, 10, 12, .65) }
+/* A value with nothing in it stays visible but recedes — it is still a
+   real part of the taxonomy, just empty today. */
+.chip[data-empty="1"] { opacity: .38 }
+
+/* ---------------------------------------------------------------
+   The grid
+   --------------------------------------------------------------- */
+.collection { padding: 44px 0 20px }
+
+.group-head {
+  display: flex; align-items: baseline; gap: .9rem;
+  margin: 54px 0 20px; padding-bottom: .7rem;
+  border-bottom: 1px dashed rgba(201, 162, 75, .22);
+}
+.group-head:first-child { margin-top: 0 }
+.group-head h2 { font-size: clamp(1.5rem, 4vw, 2.1rem); flex: none }
+.group-head .gc {
+  font-family: var(--mono); font-size: .68rem; color: var(--gold-dim);
+  flex: 1; text-align: right;
+}
+.group-desc {
+  color: var(--cream-dim); font-size: .97rem;
+  max-width: 62ch; margin: -8px 0 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--tile-min, 220px), 1fr));
+  /* Gutters roughly 7% of tile width read as "hung", not "listed". */
+  gap: clamp(18px, 2.6vw, 34px);
+}
+
+/* Contact-sheet mode: smaller tiles, no captions, for scanning hundreds. */
+.grid.dense { --tile-min: 118px; gap: clamp(8px, 1.2vw, 14px) }
+.grid.dense .piece-meta { display: none }
+
+.piece {
+  position: relative; border: none; padding: 0; margin: 0;
+  background: var(--card); border-radius: 13px; overflow: hidden;
+  cursor: pointer; text-align: left; width: 100%;
+  /* Elevation on a near-black ground comes from surface lightness and a
+     catch of light along the top edge — never from a black drop shadow,
+     which is invisible here and costs a blur pass per tile. */
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .055),
+              0 0 0 1px rgba(255, 255, 255, .04);
+  transition: box-shadow .35s var(--ease), opacity .35s var(--ease),
+              filter .35s var(--ease), transform 160ms var(--ease-out);
+  content-visibility: auto; contain-intrinsic-size: 260px 360px;
+  -webkit-tap-highlight-color: transparent;
+}
+.piece:hover {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1),
+              0 0 0 1px rgba(201, 162, 75, .38);
+}
+.piece:active { transform: scale(.97) }
+.piece:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--gold), inset 0 1px 0 rgba(255, 255, 255, .1);
+}
+
+/* First-paint cascade: a batch entering together should enter together,
+   not appear as one flat block. Capped at 12 -- past the first couple of
+   rows the eye no longer reads a stagger as intentional, just slow. */
+@keyframes pieceIn {
+  from { opacity: 0; transform: translateY(10px) scale(.98) }
+  to   { opacity: 1; transform: none }
+}
+.piece { animation: pieceIn .5s var(--ease-out) backwards }
+.piece:nth-child(1)  { animation-delay: 0ms }
+.piece:nth-child(2)  { animation-delay: 35ms }
+.piece:nth-child(3)  { animation-delay: 70ms }
+.piece:nth-child(4)  { animation-delay: 105ms }
+.piece:nth-child(5)  { animation-delay: 140ms }
+.piece:nth-child(6)  { animation-delay: 175ms }
+.piece:nth-child(7)  { animation-delay: 210ms }
+.piece:nth-child(8)  { animation-delay: 245ms }
+.piece:nth-child(9)  { animation-delay: 280ms }
+.piece:nth-child(10) { animation-delay: 315ms }
+.piece:nth-child(11) { animation-delay: 350ms }
+.piece:nth-child(12) { animation-delay: 385ms }
+.piece:nth-child(n+13) { animation-delay: 400ms }
+
+/* Dim the siblings of whatever is hovered. One rule, no JS, and the grid
+   reads as curated rather than as a spreadsheet. */
+@media (hover: hover) {
+  .grid:has(.piece:hover) .piece:not(:hover) { opacity: .42; filter: saturate(.7) }
+}
+
+/* 3:4 matches iPhone vertical, so a correctly shot photo fills the tile
+   edge to edge and `contain` crops nothing. Anything off-spec letterboxes
+   into a ground sampled from the photo itself. */
+.piece-img {
+  position: relative; aspect-ratio: 3 / 4;
+  background: var(--tile-bg, var(--obsidian));
+  overflow: hidden;
+}
+.piece-img img {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: contain;
+  opacity: 0;
+  /* Resting slightly cool and dim, so the hovered piece comes alive. */
+  filter: brightness(.92) saturate(.96);
+  transition: opacity .6s ease, transform .5s var(--ease), filter .4s ease;
+}
+.piece-img img.ready { opacity: 1 }
+/* Scale the image inside a fixed tile — moving the tile makes the grid twitch. */
+.piece:hover .piece-img img { transform: scale(1.045); filter: brightness(1.04) saturate(1) }
+
+/* skeleton shimmer while the thumbnail streams in */
+.piece-img::before {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(100deg, var(--panel) 30%, rgba(201, 162, 75, .07) 50%, var(--panel) 70%);
+  background-size: 220% 100%;
+  animation: sweep 1.5s linear infinite;
+}
+.piece-img.loaded::before { display: none }
+@keyframes sweep { to { background-position: -220% 0 } }
+
+/* The caption rides over the foot of the photo and only appears on hover
+   or focus. A thousand permanent "NFC-0042 / Untitled" labels is noise,
+   not craft — and the id is not what anyone is shopping for. */
+.piece-meta {
+  position: absolute; left: 0; right: 0; bottom: 0; z-index: 3;
+  padding: 26px 13px 11px;
+  background: linear-gradient(to top, rgba(6, 6, 8, .88), transparent);
+  opacity: 0; transform: translateY(6px);
+  transition: opacity .3s var(--ease), transform .3s var(--ease);
+  pointer-events: none;
+}
+.piece:hover .piece-meta, .piece:focus-visible .piece-meta {
+  opacity: 1; transform: none;
+}
+/* Touch devices have no hover, so show it rather than hide it forever. */
+@media (hover: none) {
+  .piece-meta { opacity: 1; transform: none }
+}
+.piece-meta .pn {
+  font-family: var(--mono); font-size: .55rem; letter-spacing: .12em;
+  color: var(--gold);
+}
+.piece-meta .pt {
+  font-family: var(--display); font-size: .95rem; color: var(--cream);
+  line-height: 1.2; margin-top: 2px;
+}
+
+/* angle count badge — portal's .reveal .tag */
+.piece .angles {
+  position: absolute; top: 11px; right: 11px; z-index: 4;
+  font-family: var(--label); font-size: .54rem; letter-spacing: .18em;
+  text-transform: uppercase; color: var(--cream);
+  background: rgba(8, 8, 10, .55); border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 20px; padding: 5px 11px; backdrop-filter: blur(4px);
+}
+
+.piece .flag {
+  position: absolute; top: 11px; left: 11px; z-index: 4;
+  font-family: var(--label); font-size: .5rem; letter-spacing: .16em;
+  text-transform: uppercase; color: var(--obsidian);
+  background: var(--gold); border-radius: 20px; padding: 4px 9px;
+}
+
+/* ---------------------------------------------------------------
+   Empty + sentinel states
+   --------------------------------------------------------------- */
+.empty {
+  text-align: center; padding: 70px 24px; color: var(--cream-dim);
+  border: 1px dashed var(--line); border-radius: 16px; background: var(--panel);
+}
+.empty .eh {
+  font-family: var(--display); font-size: 1.3rem;
+  color: var(--gold-bright); margin-bottom: .6rem;
+}
+.empty code {
+  font-family: var(--mono); font-size: .8rem; color: var(--gold);
+  background: rgba(201, 162, 75, .07); border: 1px solid var(--line);
+  border-radius: 6px; padding: 3px 8px;
+}
+
+#sentinel { height: 1px }
+.loading-more {
+  text-align: center; padding: 30px 0; font-family: var(--label);
+  font-size: .62rem; letter-spacing: .24em; text-transform: uppercase;
+  color: var(--cream-dim);
+}
+
+/* =====================================================================
+   LIGHTBOX — full-view, works with touch on phone and keys on desktop
+   ===================================================================== */
+.lb {
+  position: fixed; inset: 0; z-index: 100;
+  background: rgba(4, 4, 6, .93); backdrop-filter: blur(8px);
+  display: flex; flex-direction: column;
+  opacity: 0; pointer-events: none;
+  /* Set from JS to the clicked tile's screen position — the viewer opens
+     *from* the piece you tapped rather than from a fixed center point. */
+  transform-origin: var(--lb-ox, 50%) var(--lb-oy, 50%);
+  transform: scale(.94);
+  transition: opacity .3s var(--ease-out), transform .38s var(--ease-out);
+}
+.lb.show { opacity: 1; pointer-events: auto; transform: scale(1) }
+
+.lb-bar {
+  display: flex; align-items: center; gap: .8rem;
+  padding: 12px 16px; flex: none;
+}
+.lb-id {
+  font-family: var(--mono); font-size: .64rem; letter-spacing: .1em;
+  color: var(--gold-dim); flex: none;
+}
+.lb-title {
+  font-family: var(--display); font-size: 1rem; color: var(--cream);
+  flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.lb-title:empty { display: none }
+.lb-close, .lb-nav {
+  width: 40px; height: 40px; flex: none; border-radius: 50%;
+  border: 1px solid var(--line-strong); background: var(--card);
+  color: var(--cream); font-size: 1.2rem; cursor: pointer;
+  transition: color .2s, border-color .2s, transform 120ms var(--ease-out);
+  display: flex; align-items: center; justify-content: center;
+}
+.lb-close:hover, .lb-nav:hover { border-color: var(--gold); color: var(--gold) }
+.lb-close:active, .lb-nav:active { transform: scale(.92) }
+
+/* the stage */
+.lb-stage {
+  flex: 1; position: relative; display: flex;
+  align-items: center; justify-content: center;
+  min-height: 0; padding: 0 8px; overflow: hidden;
+  touch-action: pan-y pinch-zoom;
+}
+
+/* The frame takes a definite size from the stage and both images fill it
+   with object-fit:contain.
+
+   It must NOT shrink-wrap the photo: an auto-sized frame whose only child
+   sizes itself off that frame is a circular constraint, which resolves to
+   0x0 before the image has intrinsic dimensions — and an image laid out at
+   0x0 is never fetched. Sizing the frame from the stage breaks the cycle,
+   and has the side benefit that the blurred stand-in lands exactly under
+   the real photograph. */
+.lb-frame {
+  position: relative; flex: 1;
+  width: 100%; height: 100%;
+  cursor: zoom-in;
+}
+.lb-frame img {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+/* instant, low-quality stand-in */
+.lb-blur {
+  filter: blur(20px) saturate(1.1);
+  transform: scale(1.04);
+  z-index: 1;
+  transition: opacity .45s ease;
+}
+
+/* the real photograph, faded in once decoded.
+   drop-shadow follows the contained image's painted edges rather than the
+   element box, so the shadow hugs the photo and not the letterboxing. */
+.lb-full {
+  z-index: 2; opacity: 0;
+  transition: opacity .45s ease;
+  filter: drop-shadow(0 24px 55px rgba(0, 0, 0, .85));
+}
+.lb-full.ready { opacity: 1 }
+/* fade the stand-in out once the real photo is up */
+.lb-frame:has(.lb-full.ready) .lb-blur { opacity: 0 }
+
+/* click-to-inspect: the transform origin is set from the pointer so the
+   mouse pans around the piece while zoomed. */
+.lb-frame.zoomed { cursor: zoom-out }
+.lb-frame.zoomed .lb-full {
+  transform: scale(2.2);
+  transition: transform .3s var(--ease), opacity .45s ease;
+}
+.lb-frame.zoomed .lb-blur { opacity: 0 }
+
+.lb-zoomhint {
+  position: absolute; bottom: 10px; right: 10px; z-index: 4;
+  font-family: var(--label); font-size: .52rem; letter-spacing: .18em;
+  text-transform: uppercase; color: var(--cream);
+  background: rgba(8, 8, 10, .6); border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 20px; padding: 5px 11px; backdrop-filter: blur(4px);
+  opacity: 0; transition: opacity .3s; pointer-events: none;
+}
+.lb-frame:hover .lb-zoomhint { opacity: 1 }
+@media (hover: none) { .lb-zoomhint { display: none } }
+
+/* desktop side arrows float over the stage */
+.lb-prev, .lb-next {
+  position: absolute; top: 50%; transform: translateY(-50%); z-index: 3;
+}
+.lb-prev { left: 14px }
+.lb-next { right: 14px }
+
+.lb-counter {
+  position: absolute; bottom: 12px; left: 50%; transform: translateX(-50%);
+  z-index: 5;   /* the frame now fills the stage, so sit above its images */
+  font-family: var(--label); font-size: .58rem; letter-spacing: .2em;
+  text-transform: uppercase; color: var(--cream-dim);
+  background: rgba(8, 8, 10, .6); border: 1px solid var(--line);
+  border-radius: 20px; padding: 5px 13px; backdrop-filter: blur(4px);
+}
+
+/* angle strip */
+.lb-strip {
+  flex: none; display: flex; gap: 9px; overflow-x: auto;
+  padding: 12px 16px; scrollbar-width: none;
+  justify-content: center;
+}
+.lb-strip::-webkit-scrollbar { display: none }
+.lb-thumb {
+  flex: none; width: 58px; height: 58px; border-radius: 9px;
+  overflow: hidden; cursor: pointer; padding: 0;
+  border: 1px solid var(--line-strong); background: var(--card);
+  opacity: .5; transition: opacity .22s, border-color .22s, transform 120ms var(--ease-out);
+}
+.lb-thumb img { width: 100%; height: 100%; object-fit: cover }
+.lb-thumb:hover { opacity: .85 }
+.lb-thumb:active { transform: scale(.92) }
+.lb-thumb.on { opacity: 1; border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold) inset }
+
+/* the detail panel below the image */
+.lb-info {
+  flex: none; max-height: 34vh; overflow-y: auto;
+  padding: 4px 20px 22px; text-align: center;
+}
+.lb-info .li-cat {
+  font-family: var(--label); font-size: .6rem; letter-spacing: .24em;
+  text-transform: uppercase; color: var(--gold); margin-bottom: .5rem;
+}
+.lb-info .li-desc {
+  color: var(--cream-dim); font-size: .97rem;
+  max-width: 58ch; margin: 0 auto;
+}
+.lb-info .li-tags {
+  display: flex; flex-wrap: wrap; gap: 7px;
+  justify-content: center; margin-top: 13px;
+}
+.lb-info .li-tags span {
+  font-family: var(--label); font-size: .54rem; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--cream-dim);
+  border: 1px solid var(--line); border-radius: 20px; padding: 4px 11px;
+}
+
+/* --- phone: bigger touch targets, arrows out of the way of the image --- */
+@media (max-width: 640px) {
+  .lb-prev, .lb-next { display: none }  /* swipe instead */
+  .lb-info { max-height: 30vh; padding: 4px 16px 18px }
+  .lb-strip { justify-content: flex-start }
+  .grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)) }
+  .filters-search { top: 56px }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .piece, .lb, .lb-stage img { transition: none }
+  .piece-img::before { animation: none }
+  .piece { animation: none; opacity: 1; transform: none }
+}
+
+/* ---------------------------------------------------------------
+   Result header + load-more
+   --------------------------------------------------------------- */
+.result-head {
+  display: flex; align-items: baseline; gap: .9rem; flex-wrap: wrap;
+  margin-bottom: 20px; padding-bottom: .7rem;
+  border-bottom: 1px dashed rgba(201, 162, 75, .18);
+}
+.result-head .gc {
+  font-family: var(--mono); font-size: .7rem; color: var(--gold);
+}
+.result-head .sel {
+  font-family: var(--label); font-size: .62rem; letter-spacing: .16em;
+  text-transform: uppercase; color: var(--cream-dim); flex: 1;
+}
+.linky {
+  background: none; border: none; cursor: pointer;
+  font-family: var(--label); font-size: .62rem; letter-spacing: .16em;
+  text-transform: uppercase; color: var(--gold); text-decoration: underline;
+  transition: color .2s, transform 120ms var(--ease-out); display: inline-block;
+}
+.linky:hover { color: var(--gold-bright) }
+.linky:active { transform: scale(.95) }
+
+.more-wrap { text-align: center; padding: 38px 0 10px }
+.status {
+  font-family: var(--label); font-size: .6rem; letter-spacing: .2em;
+  text-transform: uppercase; color: var(--cream-dim); margin-top: 1rem;
+}
+
+/* ---------------------------------------------------------------
+   Accessibility fixes
+   --------------------------------------------------------------- */
+
+/* The closed viewer and drawer were hidden with opacity/transform only,
+   which leaves their buttons in the tab order — so keyboard users fell
+   into invisible controls, and the hidden arrows could silently rewrite
+   the URL. `visibility` removes focusability while keeping transitions. */
+.lb:not(.show) { visibility: hidden }
+.drawer:not(.show) { visibility: hidden }
+
+/* Touch-target floor of 44px on every control that was under it. */
+.tb-switch { min-height: 44px; display: inline-flex; align-items: center }
+.menu-btn { width: 44px; height: 44px }
+.lb-close, .lb-nav { width: 44px; height: 44px }
+
+@media (prefers-reduced-motion: reduce) {
+  /* The tile rule named .piece, which is the button — the image inside it
+     kept cross-fading. */
+  .piece-img img, .piece-meta, .chip, .piece { transition: none !important }
+  .piece-img::before { animation: none }
+}

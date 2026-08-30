@@ -1,0 +1,24 @@
+{
+  "name": "noblefather-creations",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Noble Father Creations — eco-resin statue portfolio",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "pull": "node scripts/pull-drive.js",
+    "ingest": "node scripts/ingest-images.js",
+    "ingest:dry": "node scripts/ingest-images.js --dry-run",
+    "pages": "node scripts/build-pages.js",
+    "build": "node scripts/ingest-images.js && node scripts/build-pages.js",
+    "assign": "node scripts/assign.js",
+    "validate": "node scripts/validate-data.js",
+    "serve": "node scripts/serve.js",
+    "list": "node scripts/assign.js --list"
+  },
+  "dependencies": {
+    "sharp": "^0.35.3"
+  }
+}

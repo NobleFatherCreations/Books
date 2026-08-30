@@ -1,0 +1,262 @@
+[
+  {
+    "key": "subject",
+    "label": "Subject",
+    "hierarchical": true,
+    "primary": true,
+    "description": "What the piece depicts.",
+    "values": [
+      {
+        "slug": "birds",
+        "label": "Birds",
+        "description": null,
+        "children": [
+          {
+            "slug": "ducks",
+            "label": "Ducks",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "owls",
+            "label": "Owls",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "other-birds",
+            "label": "Other Birds",
+            "description": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "slug": "creatures",
+        "label": "Creatures",
+        "description": null,
+        "children": [
+          {
+            "slug": "dragons",
+            "label": "Dragons",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "frogs-toads",
+            "label": "Frogs & Toads",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "cats",
+            "label": "Cats",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "dogs",
+            "label": "Dogs",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "foxes",
+            "label": "Foxes",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "mice",
+            "label": "Mice",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "lions",
+            "label": "Lions",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "monkeys",
+            "label": "Monkeys",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "turtles",
+            "label": "Turtles",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "snakes",
+            "label": "Snakes",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "unicorns",
+            "label": "Unicorns",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "pigs",
+            "label": "Pigs",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "other-creatures",
+            "label": "Other Creatures",
+            "description": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "slug": "folk",
+        "label": "Folk",
+        "description": null,
+        "children": [
+          {
+            "slug": "figures",
+            "label": "Figures",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "gnomes",
+            "label": "Gnomes",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "reapers",
+            "label": "Reapers",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "skeletons",
+            "label": "Skeletons",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "masks",
+            "label": "Masks",
+            "description": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "slug": "objects",
+        "label": "Objects",
+        "description": null,
+        "children": [
+          {
+            "slug": "books",
+            "label": "Books",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "flowers",
+            "label": "Flowers",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "hearts",
+            "label": "Hearts",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "hands",
+            "label": "Hands",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "eyes",
+            "label": "Eyes",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "robots",
+            "label": "Robots",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "torsos",
+            "label": "Torsos",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "containers",
+            "label": "Containers",
+            "description": null,
+            "children": []
+          },
+          {
+            "slug": "other-objects",
+            "label": "Other Objects",
+            "description": null,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "form",
+    "label": "Type",
+    "hierarchical": false,
+    "primary": false,
+    "description": "Statue, pillar (oval, for candles), or container (has a pocket or opening).",
+    "values": [
+      {
+        "slug": "statue",
+        "label": "Statue",
+        "description": "A solid figure."
+      },
+      {
+        "slug": "pillar",
+        "label": "Pillar",
+        "description": "Oval form, mainly for candles."
+      },
+      {
+        "slug": "container",
+        "label": "Container",
+        "description": "Has a visible pocket, basket or opening."
+      }
+    ]
+  },
+  {
+    "key": "finish",
+    "label": "Finish",
+    "hierarchical": false,
+    "primary": false,
+    "description": "Hand-painted, or raw resin not yet painted.",
+    "values": [
+      {
+        "slug": "painted",
+        "label": "Hand-painted",
+        "description": null
+      },
+      {
+        "slug": "white",
+        "label": "Unpainted white",
+        "description": null
+      }
+    ]
+  }
+]
