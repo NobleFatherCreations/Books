@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>The Long After — what happens once you've left</title>
+<meta name="description" content="Forty-five chapters on post-separation abuse and rebuilding. Free, offline, no account, nothing stored.">
+<style>
+:root{
+  --dusk:#EDEAF2; --panel:#E2DCEA; --card:#F8F6FB; --ink:#211B2B; --ink2:#5E5568;
+  --line:#D2C7DE; --plum:#5B4270; --plum2:#3E2C51; --coral:#C46A4E;
+  --serif:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;
+  --mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace;
+}
+html.dark{
+  --dusk:#151220; --panel:#1B1728; --card:#201B2E; --ink:#E5E0EC; --ink2:#948AA3;
+  --line:#332C42; --plum:#B69ACC; --plum2:#D4BCE3; --coral:#E08A6A;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--dusk);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.67}
+a{color:var(--plum);text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:3px}
+:focus-visible{outline:2px solid var(--coral);outline-offset:3px;border-radius:3px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.wrap{max-width:720px;margin:0 auto;padding:0 20px}
+.k{font-family:var(--mono);font-size:12.4px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2)}
+
+#bar{position:sticky;top:0;z-index:50;background:var(--panel);border-bottom:1px solid var(--line);
+  display:flex;align-items:center;gap:12px;padding:7px 14px;font-family:var(--mono);font-size:12.4px;
+  color:var(--ink2);padding-top:calc(7px + env(safe-area-inset-top,0px))}
+#bar .msg{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#bar a{color:var(--coral);text-decoration:underline;text-underline-offset:2px}
+#bar button{margin-left:auto;appearance:none;border:1px solid var(--line);cursor:pointer;background:none;
+  color:var(--ink);font:600 12.4px var(--mono);letter-spacing:.06em;padding:6px 11px;border-radius:4px;white-space:nowrap}
+#bar button:hover{border-color:var(--plum);color:var(--plum)}
+
+.mark-l{width:var(--s,42px);height:var(--s,42px);flex:0 0 auto;color:var(--plum)}
+.mark-l svg{width:100%;height:100%;display:block}
+
+header.mast{padding:22px 0 6px}
+header.mast .row{display:flex;align-items:center;gap:14px}
+header.mast b{font-size:19px;font-weight:600}
+header.mast .row span{display:block;font-family:var(--mono);font-size:12.4px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--ink2);margin-top:2px}
+
+.hero{padding:22px 0 20px;border-bottom:1px solid var(--line)}
+.hero h1{font-size:clamp(27px,5.6vw,40px);line-height:1.14;font-weight:600;letter-spacing:-.01em;margin:10px 0 14px}
+.hero h1 em{font-style:italic;color:var(--plum)}
+.hero p{color:var(--ink2);font-size:17px;margin-bottom:12px;max-width:600px}
+.hero .vows{display:flex;gap:7px;flex-wrap:wrap;margin-top:18px;font-family:var(--mono);font-size:12.4px;color:var(--ink2)}
+.hero .vows span{border:1px solid var(--line);border-radius:999px;padding:5px 11px}
+.startrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.btn{display:inline-block;font:600 13px var(--mono);letter-spacing:.03em;padding:11px 18px;border-radius:5px;
+  background:var(--plum2);color:#F2EEF8;border:1px solid transparent;cursor:pointer}
+html.dark .btn{color:#151220}
+.btn:hover{text-decoration:none;filter:brightness(1.15)}
+.btn.ghost{background:none;color:var(--ink);border-color:var(--line)}
+.btn.ghost:hover{border-color:var(--plum);filter:none}
+.btn.warnb{background:var(--coral);color:#211B2B}
+
+.mv{padding:30px 0 6px;border-bottom:1px solid var(--line)}
+.mv:last-of-type{border-bottom:0}
+.mv .mvh{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.mv .num{font-family:var(--mono);font-size:12.4px;letter-spacing:.18em;color:var(--coral)}
+.mv h2{font-size:clamp(20px,3.4vw,25px);font-weight:600;line-height:1.2}
+.mv .blurb{color:var(--ink2);font-size:15px;margin:8px 0 16px;max-width:580px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(225px,1fr));gap:8px;padding-bottom:18px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:5px;padding:12px 13px;color:var(--ink);display:block}
+.tile:hover{text-decoration:none;border-color:var(--plum);background:var(--panel)}
+.tile .tn{font-family:var(--mono);font-size:12.4px;letter-spacing:.1em;color:var(--coral)}
+.tile b{display:block;font-size:15.5px;font-weight:600;line-height:1.28;margin:5px 0 4px}
+.tile i{display:block;font-style:normal;font-size:12.4px;color:var(--ink2);line-height:1.42}
+.tile .meta{margin-top:7px;font-family:var(--mono);font-size:12.4px;letter-spacing:.06em;color:var(--ink2);
+  display:flex;gap:8px;align-items:center}
+.tile .hv{color:var(--coral);border:1px solid var(--coral);border-radius:3px;padding:1px 5px}
+.tile.soon{opacity:.6}
+
+.reader{padding:22px 0 40px}
+.crumb{font-family:var(--mono);font-size:12.4px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink2);
+  display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:14px}
+.crumb a{color:var(--ink2)}
+.reader h1{font-size:clamp(24px,4.8vw,33px);line-height:1.18;font-weight:600;margin:6px 0 6px}
+.reader .dek{color:var(--ink2);font-size:16.5px;font-style:italic;margin-bottom:20px;padding-bottom:16px;
+  border-bottom:1px solid var(--line)}
+.body p{margin-bottom:15px}
+.body h3{font-size:18px;font-weight:600;margin:24px 0 9px;line-height:1.3}
+.body ul,.body ol{margin:0 0 15px 20px}
+.body li{margin-bottom:6px}
+.pull{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--plum);
+  border-radius:4px;padding:13px 15px;margin:18px 0;font-size:16px}
+.warn{background:var(--card);border:1px solid var(--coral);border-left:3px solid var(--coral);
+  border-radius:4px;padding:13px 15px;margin:18px 0;font-size:15.5px}
+.warn .k{color:var(--coral);display:block;margin-bottom:6px}
+.try{background:var(--panel);border:1px dashed var(--line);border-radius:4px;padding:13px 15px;margin:18px 0;font-size:15.5px}
+.try .k{color:var(--plum);display:block;margin-bottom:6px}
+.stub{background:var(--panel);border:1px dashed var(--line);border-radius:5px;padding:20px;color:var(--ink2)}
+.stub b{color:var(--ink)}
+.pager{display:flex;gap:10px;justify-content:space-between;margin-top:32px;padding-top:18px;border-top:1px solid var(--line)}
+.pager a{flex:1;background:var(--card);border:1px solid var(--line);border-radius:5px;padding:11px 13px;color:var(--ink);
+  font-size:14px;line-height:1.32}
+.pager a:hover{text-decoration:none;border-color:var(--plum)}
+.pager a .k{display:block;margin-bottom:3px}
+.pager a.nx{text-align:right}
+.pager a.off{visibility:hidden}
+
+.card-sheet{background:var(--card);border:1px solid var(--line);border-radius:5px;padding:20px;margin-top:16px}
+.card-sheet h3{font-size:16px;font-weight:600;margin:16px 0 7px;color:var(--coral)}
+.card-sheet h3:first-child{margin-top:0}
+.card-sheet ol,.card-sheet ul{margin-left:20px}
+.card-sheet li{margin-bottom:5px;font-size:15px}
+
+footer.foot{border-top:1px solid var(--line);margin-top:28px;padding:20px 0 66px;
+  font-family:var(--mono);font-size:12.4px;color:var(--ink2);line-height:1.7}
+@media print{#bar,.pager,#nh-tab,#nh-veil,.startrow{display:none!important}}
+</style>
+</head>
+<body>
+
+<div id="bar">
+  <span class="msg">If this has become more than aftermath, help exists right now. <a href="#/c/28">Chapter 28</a></span>
+  <button type="button" id="darkbtn" aria-pressed="false">Dark</button>
+</div>
+
+<div id="app"></div>
+
+<script id="book-js">
+/* ============================================================
+   THE LONG AFTER — single-file, offline, no storage, no requests.
+   Nothing here keeps score or knows you were here.
+   ============================================================ */
+
+var MOVEMENTS=[
+ {r:'I',   t:'The thing nobody warned you about', c:[1,2,3,4,5],
+  b:'Leaving was culturally sold to you as the ending. For a lot of people it\u2019s closer to the middle, and this movement resets expectations before anything else.'},
+ {r:'II',  t:'Post-separation abuse', c:[6,7,8,9,10,11,12,13,14],
+  b:'When direct contact ends, coercive behaviour often finds indirect channels. This is the specific, documented pattern nothing else in this library names on its own.'},
+ {r:'III', t:'The systems', c:[15,16,17,18,19,20,21],
+  b:'Courts, documentation, housing, and benefits \u2014 what actually exists, and what it can and can\u2019t compel.'},
+ {r:'IV',  t:'The body and the mind', c:[22,23,24,25,26,27,28],
+  b:'What your nervous system is doing, and when ordinary if painful aftermath has tipped into something needing urgent help.'},
+ {r:'V',   t:'The people', c:[29,30,31,32,33,34],
+  b:'Who stayed, who didn\u2019t, who\u2019s new \u2014 and the specific, careful conversations with children and parents.'},
+ {r:'VI',  t:'Rebuilding', c:[35,36,37,38,39,40,41],
+  b:'Unglamorous and patient: money, work, taste, trust, dating, and a working definition of \u201crecovered\u201d that doesn\u2019t require perfection.'},
+ {r:'VII', t:'The ledger', c:[42,43,44,45],
+  b:'Honesty about going back, what this book might have wrong, helping someone else, and the close.'}
+];
+
+var CH={
+ 1:{t:'Leaving was the middle',d:'Culture treats it as the ending. For a lot of people, it\u2019s closer to the midpoint.',m:6},
+ 2:{t:'Why it often gets worse first',d:'Well documented, structurally explainable, and not evidence you did it wrong.',m:8},
+ 3:{t:'What you\u2019re allowed to feel about someone you left',d:'Missing them, relief, grief, tenderness \u2014 often at once. None of it means the leaving was a mistake.',m:7},
+ 4:{t:'The grief nobody will let you have',d:'Mourning what you hoped for is real grief, even when everyone else only sees the harm.',m:8,h:1},
+ 5:{t:'What this book is not',d:'Not therapy, not a timeline, not a verdict on when you\u2019re \u201cover it.\u201d',m:6},
+
+ 6:{t:'The shape it takes when they can\u2019t reach you directly',d:'Restricted contact doesn\u2019t end coercion. It finds indirect channels, and they look different enough to be missed.',m:7},
+ 7:{t:'Children as the channel',d:'The single most common and effective channel. Protecting them matters more than winning any exchange.',m:9,h:1},
+ 8:{t:'Money as the channel',d:'Delayed payments and manufactured disputes function as ongoing leverage.',m:7},
+ 9:{t:'The narrative campaign',d:'A sustained effort to control what others believe \u2014 and it works partly because you don\u2019t fight it.',m:7},
+ 10:{t:'Your family and mutual friends',d:'Some people get recruited into it, wittingly or not. That doesn\u2019t mean they think you\u2019re lying.',m:7},
+ 11:{t:'Surveillance and technology',d:'Shared accounts, old devices, tracking apps \u2014 a practical audit most people never think to run.',m:7},
+ 12:{t:'The new partner',d:'A recognised pattern, not proof something is uniquely wrong with your situation.',m:7},
+ 13:{t:'Hoovering',d:'They come back, often exactly when you\u2019ve become stable. It has a name, and naming it reduces its pull.',m:8,h:1},
+ 14:{t:'When it stops',d:'For some people it does, eventually. For others it takes years. Both are honest answers.',m:7},
+
+ 15:{t:'Systems abuse',d:'Courts and legal process can become the continuation, not the remedy. Naming it helps before it\u2019s resolved.',m:8,h:1},
+ 16:{t:'What to document and how',d:'The same instrument as everywhere in this library, and it matters more here because this unfolds across years.',m:7},
+ 17:{t:'Solicitors, legal aid, and no money',d:'Free and low-cost help exists specifically for this. Most people don\u2019t know to look.',m:7},
+ 18:{t:'Family court, honestly',d:'Enormous variance in whether coercive control is recognised, not just physical violence.',m:8,h:1},
+ 19:{t:'Police and protective orders',d:'Still available, still sometimes necessary, with real and honestly stated limits.',m:7},
+ 20:{t:'Housing and benefits',d:'The practical floor specific to a post-separation situation, not the immediate-crisis version.',m:7},
+ 21:{t:'Where to find the right body',d:'Which specific body, in your country, can actually compel an answer.',m:7},
+
+ 22:{t:'What your nervous system is doing',d:'Hypervigilance and an exaggerated startle response don\u2019t switch off just because the danger has technically ended.',m:7},
+ 23:{t:'Sleep',d:'One of the most common, least discussed effects. Knowing why reduces the fear that something else is wrong.',m:6},
+ 24:{t:'The anniversary effect',d:'Dates, songs, places bring it back with force, for longer than expected. That\u2019s documented, not failure.',m:7},
+ 25:{t:'Memory',d:'Patchy and non-linear is expected. It doesn\u2019t undermine what you do remember.',m:7},
+ 26:{t:'Anger, arriving late',d:'Often the last feeling to surface, sometimes years later. Not a sign of instability.',m:7},
+ 27:{t:'Finding a therapist who understands this',d:'Not all therapy is suited to this specifically. Knowing what to ask improves the odds.',m:7},
+ 28:{t:'When it\u2019s more than aftermath',d:'Some of this can tip into something needing urgent help. Here is how to tell, and where to go.',m:9,h:1},
+
+ 29:{t:'The friends who didn\u2019t believe you',d:'Common, painful, and understandable for ordinary human reasons that don\u2019t excuse it.',m:7},
+ 30:{t:'The friends who did, and are tired',d:'They\u2019re human too. Sustaining that relationship takes some awareness of what it costs them.',m:6},
+ 31:{t:'Telling someone new',d:'A right level and a right time. Both oversharing early and permanent silence carry real costs.',m:7},
+ 32:{t:'Your children, and what to say',d:'Age-appropriate honesty that serves them \u2014 not a way of getting them to understand your side.',m:8,h:1},
+ 33:{t:'Your parents',d:'They may have been part of the pattern that made you vulnerable to begin with. This chapter holds that honestly.',m:7},
+ 34:{t:'Making new people from scratch',d:'A practical, learnable skill, not something that either happens naturally or doesn\u2019t.',m:7},
+
+ 35:{t:'Money from zero',d:'Unglamorous on purpose. Excitement about \u201cstarting over\u201d does you a disservice.',m:7},
+ 36:{t:'Work again',d:'Explaining a gap or a reduced-capacity period is common and navigable.',m:7},
+ 37:{t:'Your own tastes, rediscovered',d:'What you actually like, found again. Allowed to be light, even fun.',m:6},
+ 38:{t:'Trust as a practice',d:'A graduated, evidence-based practice, not a switch \u2014 applied here to learning to trust anyone new.',m:6},
+ 39:{t:'Dating, when you\u2019re ready and when you\u2019re not',d:'No universal timeline. Both rushing to prove you\u2019re fine and waiting for a mythical readiness are real pressures.',m:7},
+ 40:{t:'The version of you from before',d:'Some of that person comes back. Some doesn\u2019t. A third, new version is what\u2019s actually available.',m:7},
+ 41:{t:'What \u201crecovered\u201d actually means',d:'Not the absence of difficult feelings. The restoration of choice and capacity.',m:7},
+
+ 42:{t:'If you go back',d:'Many people who eventually leave for good go back at least once first. Common, not a moral failure.',m:7,h:1},
+ 43:{t:'What this book might have wrong',d:'Published rather than buried.',m:7},
+ 44:{t:'Helping someone in year one',d:'Written to be forwarded. What actually helps, and what feels helpful but isn\u2019t.',m:6},
+ 45:{t:'The long after',d:'Not a straight line, and that\u2019s fine. What\u2019s actually available, years out.',m:7}
+};
+
+var BODIES={};
+
+/* ======================= MOVEMENT I ======================= */
+
+BODIES[1]=`
+<p>You left. Somewhere in the culture around you, that was supposed to be the ending \u2014 the moment in the story where the danger stops and the healing music starts.</p>
+<p>For a lot of people, it isn't. It's closer to the middle. The relationship is over, and something else has begun: a longer, quieter, less-discussed period where the coercion doesn't stop so much as it changes shape, where your body hasn't caught up with the fact that you're safer now, and where the people around you are often confused about why you're not simply relieved.</p>
+<div class="pull">If leaving didn't feel like the ending you were promised, that isn't a sign you did it wrong. It's a sign the promise was incomplete.</div>
+<h3>What this book is for</h3>
+<p>The part that comes after. Not "how to leave safely" \u2014 that's covered elsewhere, including in <em>Sovereign</em>, this library's book for women untangling exactly this kind of relationship. This book starts at the door and stays with you for the years afterward: the specific, documented ways coercion continues once direct contact is restricted, the practical systems that exist to help, what your body and mind are actually doing, and what rebuilding really looks like when nobody's filming it for a highlight reel.</p>
+<h3>Who this is for</h3>
+<p>Anyone who has left, at any distance in time \u2014 last week, or eight years ago and finding a chapter here still lands. Some of the recognition material may also be useful if you're still deciding, as an honest preview rather than a reason to stay or go.</p>
+`;
+
+BODIES[2]=`
+<p>Here's a fact worth knowing in advance, because finding it out the hard way is worse: for many people, things get more difficult, not less, in the period right after leaving \u2014 before they get better.</p>
+<h3>Why this happens</h3>
+<p>Coercive control is, at its core, about maintaining control. Leaving removes a huge amount of it, all at once, and the loss of control is well documented to provoke escalation in exactly the period immediately following separation \u2014 more contact attempts, more conflict, sometimes more risk, precisely when you might have expected things to calm down.</p>
+<div class="warn"><span class="k">This is not about discouraging leaving</span>
+This book exists for people who have already left. If you're currently deciding whether to leave a dangerous situation, this chapter is not a reason to stay \u2014 the resources in <em>Sovereign</em> and elsewhere in this library, and local domestic-abuse services, are the right place for that decision. This chapter is for making sense of what you're already experiencing, having already left.</div>
+<h3>What this isn't evidence of</h3>
+<p>It is not evidence that you left badly, or too soon, or that you made a mistake. It's a documented pattern, driven by the other person's loss of control rather than by anything you did or didn't do correctly. Knowing this in advance is most of what this chapter can offer \u2014 not because it makes the difficulty smaller, but because it removes the added weight of thinking you're the reason it's hard.</p>
+`;
+
+BODIES[3]=`
+<p>You might miss them. Sometimes. At specific times \u2014 a certain time of evening, a smell, a song. You might feel a flash of tenderness remembering something genuinely good, alongside a clear, unwavering knowledge that leaving was right. You might feel relief and grief in the same hour, sometimes in the same breath.</p>
+<h3>All of it is allowed</h3>
+<p>None of these feelings, alone or together, are evidence that the relationship wasn't harmful, or that you're secretly still attached to something bad, or that some part of you wants to go back. Human attachment doesn't switch off cleanly just because the person attached to caused harm \u2014 in fact it often doesn't, and that's not a flaw in you.</p>
+<div class="pull">Missing someone who hurt you is not the same as wanting them back. You're allowed to hold both without either one cancelling the other.</div>
+<h3>Why this needs saying explicitly</h3>
+<p>Because a lot of well-meaning people around you \u2014 friends, family, sometimes even professionals \u2014 expect a cleaner emotional story than the one you're actually living. They expect relief, maybe some sadness, and then a fairly linear path to being fine. When your actual feelings don't match that story, it's easy to conclude something's wrong with you, rather than concluding the expected story was too simple.</p>
+<h3>No timeline</h3>
+<p>This book will not tell you when these feelings should resolve, because there isn't a reliable answer, and any specific number would be more comforting than true. What's available instead is permission: however long this takes, and however contradictory it feels along the way, it's not evidence you're doing it wrong.</p>
+`;
+
+BODIES[4]=`
+<p>There's a grief in this that almost nobody around you will let you have, because almost everyone who knows what happened only sees the harm, and expects relief rather than mourning.</p>
+<h3>What you might actually be grieving</h3>
+<p>Not necessarily the person, though sometimes that too. More often: the relationship you hoped it would be. The future you'd planned around it. The version of them you fell for, which may have been genuinely real some of the time, even alongside everything that wasn't. Years of your life invested in something that didn't become what you needed it to be.</p>
+<div class="pull">You can grieve the loss of something that was also harming you. Those two facts don't cancel out, and needing to mourn one doesn't mean you're confused about the other.</div>
+<h3>Why people dismiss this grief</h3>
+<p>Usually with good intentions: "but they were awful to you," said as though that settles the matter, as though grief requires its object to have been uncomplicatedly good. It doesn't. People grieve difficult parents, complicated marriages, relationships that were genuinely bad for them, all the time \u2014 this is not unusual, even though it's rarely acknowledged directly.</p>
+<h3>What to do with it</h3>
+<p>Let it be what it is, without needing anyone else's permission or understanding for it to be legitimate. If the people around you can't hold this complexity, that's a real gap \u2014 and chapter twenty-seven, on finding the right kind of support, exists partly because of exactly this gap.</p>
+`;
+
+BODIES[5]=`
+<p>Before anything else, some honest boundaries about what this book is not.</p>
+<h3>Not a substitute for therapy</h3>
+<p>Where real, sustained psychological support is warranted \u2014 and for a lot of people navigating this, it is \u2014 a book, however thorough, is not that. Chapter twenty-seven covers finding a therapist who's actually suited to this specific situation.</p>
+<h3>Not a universal timeline</h3>
+<p>You will not find a promise here that by six months, or a year, or five years, you'll feel a specific way. Every timeline offered as universal in this territory is wrong for a meaningful number of the people reading it, and this book would rather be honestly vague than falsely precise.</p>
+<h3>Not a verdict on when you're "over it"</h3>
+<p>There is no chapter that tells you whether you've recovered enough, moved on enough, or processed enough. Chapter forty-one offers a working definition of recovery, and it's deliberately not framed as a finish line you either have or haven't crossed.</p>
+<div class="warn"><span class="k">One more boundary, stated now and covered fully later</span>
+This book will not, anywhere, provide any detail about methods of self-harm, and if what you're experiencing has moved beyond difficult into something that feels like a genuine crisis, chapter twenty-eight is written specifically for that, with real, calm, practical routes to help. You don't need to wait until chapter twenty-eight to use them &mdash; if that's where you are right now, go there directly.</div>
+`;
+
+/* ======================= MOVEMENT II ======================= */
+
+BODIES[6]=`
+<p>Direct contact has been restricted, cut off, or made rare. And yet something in the pattern continues \u2014 different in shape, sometimes hard to name, but recognisably the same underlying thing.</p>
+<h3>The general mechanism</h3>
+<p>Coercive control isn't primarily about the specific method used. It's about maintaining influence and leverage over another person. When one channel closes, a person determined to maintain that influence tends to find another \u2014 not necessarily through conscious strategic planning, but because the underlying drive hasn't gone anywhere just because the relationship has ended.</p>
+<div class="pull">This is why "just go no-contact" is sometimes real, complete protection, and sometimes only closes one door while several others remain open. Recognising the shape in its new form matters as much as recognising it in the old one.</div>
+<h3>Why this gets missed</h3>
+<p>Because it looks different enough from the original pattern that even the person experiencing it \u2014 and sometimes professionals meant to help \u2014 can miss the connection. A custody dispute doesn't look like the arguments that happened at home. A financial complication doesn't look like being monitored. But run the same test used elsewhere in this library: does it function to maintain control and unsettle you, regardless of its shape? The chapters ahead cover the specific channels this commonly takes.</p>
+`;
+
+BODIES[7]=`
+<p>If there are children, this is very likely the channel you'll encounter, and it's the one requiring the most care \u2014 because the wrong response can cause real harm to the children themselves.</p>
+<h3>Specific tactics</h3>
+<ul>
+<li><strong>Using custody exchanges as contact opportunities</strong> \u2014 extended conversations, questions, or confrontations at drop-off and pick-up that go beyond what the exchange requires.</li>
+<li><strong>Extracting information via children</strong> \u2014 asking them detailed questions about your life, your home, your relationships, and using what they share.</li>
+<li><strong>Undermining you to the children</strong> \u2014 comments designed to damage the relationship between you and them, sometimes subtle, sometimes not.</li>
+<li><strong>Using scheduling as leverage</strong> \u2014 last-minute changes, delays, or rigid enforcement of minor terms specifically timed to disrupt your life.</li>
+</ul>
+<div class="warn"><span class="k">The priority, stated plainly</span>
+Your children's wellbeing matters more than winning any single exchange or exposing any single tactic in the moment. Responding with matching hostility, or using the children to relay messages or extract information in return, causes them the same kind of harm regardless of who starts it.</div>
+<h3>What actually helps</h3>
+<p>Keep exchanges brief and businesslike. Document specific incidents (chapter sixteen) rather than reacting to each one in the moment. Age-appropriate honesty with children, covered fully in chapter thirty-two, protects them far more than winning an argument at the door ever could.</p>
+`;
+
+BODIES[8]=`
+<p>Money becomes a channel when direct conversation isn't available \u2014 delayed support payments, drawn-out disputes over shared assets, financial obligations enforced unevenly or disputed at every opportunity.</p>
+<h3>Common patterns</h3>
+<p>Support payments that arrive late, incomplete, or require repeated chasing \u2014 not due to genuine hardship, but as a way of maintaining a foothold of control and disruption in your life. Disputes over shared property or assets that drag on far longer than the actual complexity would require. Financial demands or complications introduced specifically around moments of your own stability or progress.</p>
+<div class="pull">Not every financial disagreement after a separation is abuse \u2014 genuine disputes over real, complicated shared assets happen in entirely ordinary separations too. The pattern worth naming is when financial friction consistently appears timed to disrupt rather than to resolve.</div>
+<h3>What to document</h3>
+<p>Dates of missed or late payments, the actual terms agreed or ordered, and any communication about them. Chapter sixteen covers documentation fully, and chapter twenty covers the practical floor if financial disruption is affecting your ability to manage day to day.</p>
+`;
+
+BODIES[9]=`
+<p>A sustained effort to control what other people believe \u2014 about the relationship, about why it ended, about you specifically \u2014 is a documented pattern, and it often works partly because the person it's aimed at doesn't fight it.</p>
+<h3>The pattern</h3>
+<p>Selective, one-sided accounts shared with mutual friends, family, sometimes professionals. Framing that positions you as unstable, dishonest, or the actual source of the problems in the relationship. Often delivered calmly and reasonably-sounding, which makes it more persuasive to people who weren't inside the relationship.</p>
+<div class="pull">Not responding to this doesn't mean losing. Most people who know you well enough to matter will eventually see a fuller picture through your consistent behaviour over time, not through a counter-campaign of your own.</div>
+<h3>Why not fighting it directly is usually right</h3>
+<p>A public back-and-forth typically reads, to people without full information, as "both sides are difficult," which tends to help whoever is more comfortable with conflict \u2014 often the person running the original campaign. Chapter ten covers what to do about the specific people who do get pulled into it.</p>
+`;
+
+BODIES[10]=`
+<p>Some people in your shared social world will end up, at least partly, recruited into the narrative from chapter nine \u2014 not necessarily because they've concluded you're lying, but for much more ordinary reasons.</p>
+<h3>Why this happens</h3>
+<p>Comfort with the familiar \u2014 if they've known your ex longer, or through a different context, staying close to the familiar version of events is easier. Incomplete information \u2014 they genuinely don't have the fuller picture you do, and are working from what's been presented to them. Discomfort with conflict \u2014 some people manage their own discomfort by staying "neutral," which in practice often functions as tacit acceptance of whoever's version arrived first or loudest.</p>
+<div class="pull">This doesn't mean they've concluded you're lying. It often means they haven't fully engaged with the question at all, which is its own kind of painful but is a different thing than active disbelief.</div>
+<h3>What to do</h3>
+<p>You get to decide, person by person, whether and how to stay connected \u2014 some relationships are worth a direct, calm conversation; others aren't worth the energy right now; some may simply need time and your consistent behaviour to resolve on their own. There's no obligation to cut off everyone who hasn't immediately, fully taken your side, and no obligation to maintain relationships that have become genuinely costly either.</p>
+`;
+
+BODIES[11]=`
+<p>Shared accounts, old devices, family location-sharing apps, and smart home devices are documented, common vectors for continued monitoring after a separation \u2014 and most people don't think to check all of them.</p>
+<h3>The practical audit</h3>
+<div class="try"><span class="k">Go through this list</span>
+<ul style="margin:0 0 0 18px">
+<li><b>Shared accounts</b> \u2014 email, cloud storage, streaming services, shared calendars. Change passwords and remove shared access.</li>
+<li><b>Location sharing</b> \u2014 check apps specifically (Find My, family-tracking apps) as well as social media location settings.</li>
+<li><b>Old devices</b> \u2014 anything they may have had access to, including old phones still logged into your accounts.</li>
+<li><b>Smart home devices</b> \u2014 cameras, smart speakers, doorbell cameras, especially if you moved into a space they previously had access to or set up.</li>
+<li><b>Shared financial accounts</b> \u2014 which may reveal location or spending patterns even without direct monitoring intent.</li>
+</ul></div>
+<h3>Why this often gets missed</h3>
+<p>Because in the middle of everything else involved in separating, checking every account and device isn't the first thing anyone thinks of \u2014 and some of these (a years-old app permission, a forgotten shared calendar) are easy to genuinely forget exist.</p>
+<div class="pull">This is a practical audit, not a reason to treat every device or app with permanent suspicion. Do the check once, thoroughly, and then let it go.</div>
+`;
+
+BODIES[12]=`
+<p>If you begin a new relationship, it can become a target of the same patterns described in this movement \u2014 and this is a recognised pattern, not evidence that something is uniquely wrong with your specific situation.</p>
+<h3>How this manifests</h3>
+<p>Direct contact with the new partner, sometimes framed as concern or as providing "important information." The narrative campaign from chapter nine extended to include and undermine the new relationship specifically. Renewed contact attempts or escalation coinciding with the new relationship becoming public or serious.</p>
+<div class="pull">This isn't a reason to avoid new relationships, and it isn't evidence the new relationship is somehow doomed. It's a pattern worth naming so it doesn't land as confusing or uniquely alarming if it happens.</div>
+<h3>What actually helps</h3>
+<p>Early, honest transparency with a new partner about the history \u2014 covered fully in chapter thirty-one \u2014 means they're not blindsided if contact or narrative interference happens, and can respond as an informed, calm partner rather than a confused or frightened one.</p>
+`;
+
+BODIES[13]=`
+<p>Hoovering is the specific, well-documented pattern of an ex-partner returning after a period of silence \u2014 often, notably, right around the time you've become visibly stable, moved on, or entered a new relationship.</p>
+<h3>Why it arrives when it does</h3>
+<p>The timing is often not coincidental. Visible stability or a new relationship can register, for someone used to having influence over you, as the final loss of that influence \u2014 which frequently triggers a renewed attempt to reassert it, sometimes through an apparently warm, reasonable, even remorseful-seeming approach.</p>
+<div class="pull">The name matters because recognising a pattern reduces its power. A return that feels uniquely significant, uniquely well-timed, uniquely sincere often turns out to be a documented, common shape once you know to look for it.</div>
+<h3>What responding costs, what not responding costs</h3>
+<p>Responding, even briefly, often restarts a cycle that took real effort to exit \u2014 not always, but often enough that it's worth being deliberate rather than reactive. Not responding costs nothing lasting, whatever it might feel like in the moment; you're not obligated to provide closure, explanation, or a final conversation to someone who caused you harm.</p>
+<h3>The honest exception</h3>
+<p>Not every reconciliation attempt from an ex is this pattern \u2014 people do sometimes genuinely change, and this book isn't asserting that every returning ex is manipulating you. The distinguishing questions: has meaningful time passed with consistent, demonstrated change, not just words? Is the timing tied to your stability rather than to their own growth? Chapter thirty-eight's approach to trust as a graduated practice applies here directly if you're genuinely uncertain.</p>
+`;
+
+BODIES[14]=`
+<p>For some people, this pattern does eventually stop. For others, it continues in a reduced form for years. Both are honest, documented outcomes, and this book won't pretend the range is narrower than it is.</p>
+<h3>What sometimes correlates with it stopping</h3>
+<p>A new relationship or major life change for the ex-partner, which redirects their attention elsewhere. Geographic distance. Consistent, unwavering boundaries maintained over a long period, without exception, which removes the intermittent reward that sustains most of these patterns. Legal consequences that make continuing genuinely costly.</p>
+<div class="pull">None of these are a formula you can reliably execute to guarantee an end date. They're patterns observed across many situations, not promises about yours specifically.</div>
+<h3>What to do regardless of when, or whether, it fully stops</h3>
+<p>Keep documenting (chapter sixteen). Keep boundaries consistent rather than intermittent \u2014 an occasional response after a long silence tends to reinforce the pattern rather than end it. And build the rest of your life, covered in movements five and six, regardless of whether this specific chapter of it has fully closed \u2014 waiting for it to end before living fully is its own cost, and often not a necessary one.</p>
+`;
+
+/* ======================= MOVEMENT III ======================= */
+
+BODIES[15]=`
+<p>Courts and legal processes, meant to resolve disputes and provide protection, can themselves become a continuation of control rather than a remedy \u2014 a well-documented pattern sometimes called systems abuse.</p>
+<h3>What this looks like</h3>
+<p>Repeated legal filings with little genuine basis, each requiring your time, money, and a response. Deliberate delay tactics that extend a process far beyond what its actual complexity requires. Protective or custody processes used strategically to maintain contact and leverage rather than out of genuine concern.</p>
+<div class="warn"><span class="k">Recognising this is validating even before it's resolved</span>
+Naming this pattern doesn't win your case or end the process. But if you've felt like the legal system itself has become part of what's happening to you, that perception is often accurate, documented, and shared by many people navigating similar situations \u2014 not a sign you're catastrophising an ordinary legal process.</div>
+<h3>What actually helps</h3>
+<p>Thorough documentation (chapter sixteen), a lawyer who has specifically seen this pattern before and doesn't treat each new filing as a fresh, isolated crisis, and pacing yourself for what is often a long process rather than a single decisive moment. This is not legal advice for your specific situation \u2014 jurisdictions vary enormously in how they handle repeat or vexatious filings, covered further in chapter eighteen.</p>
+`;
+
+BODIES[16]=`
+<p>The same instrument used throughout this library \u2014 a contemporaneous, specific written record \u2014 matters with particular force here, because post-separation abuse often unfolds slowly across months or years, which makes memory alone an unreliable record by the time it matters.</p>
+<h3>What to document specifically</h3>
+<ul>
+<li><strong>Custody exchange incidents</strong> \u2014 what was said, by whom, with witnesses if any.</li>
+<li><strong>Financial patterns</strong> \u2014 missed or late payments, with dates and amounts.</li>
+<li><strong>Communication</strong> \u2014 messages, calls, and their content, kept rather than deleted even when they're unpleasant to revisit.</li>
+<li><strong>Any contact that violates an agreed arrangement or order</strong>, however minor it seems at the time.</li>
+</ul>
+<h3>Where to keep it</h3>
+<p>Somewhere entirely separate from any shared or previously shared account or device \u2014 chapter eleven's audit applies here directly. A personal email, a physical notebook, or a dedicated app kept private.</p>
+<div class="pull">This is documentation of what's happening to you, not an obsessive project to be managed daily. A consistent, brief habit \u2014 a few minutes when something occurs \u2014 beats an exhaustive, anxious log that takes over your evenings.</div>
+`;
+
+BODIES[17]=`
+<p>The cost of ongoing legal engagement stops many people from pursuing protections or remedies they're actually entitled to. Free and low-cost routes exist specifically for this category of situation.</p>
+<h3>Categories worth checking</h3>
+<ul>
+<li><strong>Legal aid</strong> \u2014 income-based free legal help, often available specifically for family law and domestic-abuse-adjacent matters.</li>
+<li><strong>Domestic-abuse-specific legal services</strong> \u2014 many domestic-abuse organisations offer or refer to legal support specifically trained in this area, distinct from general family law practice.</li>
+<li><strong>Law school legal clinics</strong> \u2014 supervised, free legal help for exactly this kind of ongoing matter.</li>
+</ul>
+<div class="pull">Most people never check these specifically, and most who do are surprised by what's actually available for this exact situation.</div>
+<h3>Where to look</h3>
+<p>"Legal aid domestic abuse" plus your location, or contacting a local domestic-abuse organisation directly and asking specifically about legal referrals \u2014 many exist precisely for this intersection.</p>
+`;
+
+BODIES[18]=`
+<p>Family court systems vary enormously, by country and often by region within one, in how well they recognise coercive control specifically \u2014 as opposed to only physical violence \u2014 as relevant to custody and other decisions.</p>
+<h3>The honest, contested picture</h3>
+<div class="warn"><span class="k">Genuine variance, not a universal verdict</span>
+Some jurisdictions have made real, substantial progress recognising coercive control as a legally relevant category, with training for judges and specific legal provisions. Others still focus almost entirely on physical violence, leaving non-physical coercive patterns \u2014 including many of the post-separation patterns in movement two \u2014 without clear legal recognition. Neither an optimistic nor pessimistic universal claim would be accurate.</div>
+<h3>What to actually do</h3>
+<p>Get advice from a lawyer specifically experienced in coercive control cases in your jurisdiction, rather than assuming either that the system will automatically understand your situation or that it definitely won't. Chapter seventeen covers finding this kind of specialist help even without significant funds.</p>
+<div class="pull">If the system in your jurisdiction hasn't caught up, that's a real and legitimate frustration \u2014 and it's also worth knowing precisely what your specific court's actual practice looks like, rather than assuming the worst case is certainly true.</div>
+`;
+
+BODIES[19]=`
+<p>Protective orders and police involvement remain available and sometimes necessary after separation, and an honest account includes both their real value and their real, uneven limits.</p>
+<h3>What a protective order can typically do</h3>
+<p>Create a legal basis for police to act if contact or proximity terms are violated. Establish a documented, formal record of the situation. Provide, in many places, a genuine deterrent effect for at least some people subject to one.</p>
+<h3>What it typically can't guarantee</h3>
+<p>Enforcement varies considerably \u2014 a piece of paper alone doesn't physically prevent someone determined to violate it, and response times and follow-through by police vary by location and by the specifics of each violation reported.</p>
+<div class="pull">A protective order is a real tool, not a guarantee, and it's worth pursuing where warranted while also planning practically for what happens between when a violation occurs and when any response arrives.</div>
+<h3>What to do</h3>
+<p>Document every violation, however minor, with dates and details \u2014 a pattern of documented violations is often what eventually produces stronger enforcement or legal consequence, even when any single incident alone might not.</p>
+`;
+
+BODIES[20]=`
+<p>The practical financial and housing floor specific to a post-separation situation \u2014 distinct from the immediate-crisis material covered elsewhere in this library for someone actively leaving right now.</p>
+<h3>Categories of support</h3>
+<ul>
+<li><strong>Housing assistance</strong> \u2014 many places offer specific programmes for those who've left an abusive situation, sometimes time-limited, sometimes longer-term.</li>
+<li><strong>Benefits specific to separated or single parents</strong> \u2014 child support enforcement services, tax credits, and other programmes that vary significantly by country.</li>
+<li><strong>Emergency funds</strong> \u2014 some domestic-abuse organisations maintain emergency financial assistance specifically for situations like ongoing post-separation disruption.</li>
+</ul>
+<div class="pull">Most people navigating this don't know the full range of what exists, partly because eligibility and programme names vary so much by location that general awareness campaigns rarely reach everyone who qualifies.</div>
+<h3>Where to look</h3>
+<p>A local domestic-abuse organisation is often the single best starting point \u2014 they typically maintain current, local knowledge of exactly these programmes, updated far more reliably than any general book could stay.</p>
+`;
+
+BODIES[21]=`
+<p>Every legal or systemic claim in this movement has come with the same honest caveat: it varies by where you are. This chapter is about actually finding the specific answer for your situation.</p>
+<h3>Categories of body that can compel an answer</h3>
+<ul>
+<li><strong>Family court</strong> \u2014 for custody, support, and protective order matters.</li>
+<li><strong>A domestic-abuse organisation</strong> \u2014 often the best-informed, most current local resource for practical next steps.</li>
+<li><strong>Legal aid or a relevant ombudsman</strong> \u2014 for disputes about how a system itself has handled your case.</li>
+<li><strong>Police, for specific criminal matters</strong> \u2014 covered in chapter nineteen.</li>
+</ul>
+<div class="pull">This is the same approach the Codex, elsewhere in this library, uses for religious institutions, and <em>At Will</em> uses for employment: teach the category, then find the specific body in your own location.</div>
+<h3>How to search</h3>
+<p>"[your country/region] domestic abuse support" is usually the fastest route to a current, local, well-informed starting point \u2014 these organisations typically know the specific legal and support landscape far better than any general search would surface on its own.</p>
+`;
+
+/* ======================= MOVEMENT IV ======================= */
+
+BODIES[22]=`
+<p>Hypervigilance. A startle response stronger than it used to be. A body that reacts to a raised voice, a certain tone, or an unexpected sound with a jolt of alarm that your thinking mind knows is disproportionate to what's actually happening.</p>
+<h3>What's actually going on</h3>
+<p>Sustained exposure to threat trains a nervous system to stay alert, because alertness was, for a long time, genuinely protective. That training doesn't switch off automatically the moment the external danger ends \u2014 the body continues operating on the assumption that vigilance is still required, because as far as it's concerned, it worked.</p>
+<div class="pull">This is not weakness, not overreaction, and not evidence that you're "still stuck" in the relationship. It's a well-documented physiological pattern, and it responds to time and safety, though rarely on a fast or convenient schedule.</div>
+<h3>Why it persists past the point of "logical" safety</h3>
+<p>Because the nervous system doesn't reason the way the thinking mind does. Knowing, intellectually, that you're safe now doesn't automatically retrain a system that learned, over months or years, that safety could disappear without warning. The retraining happens gradually, through accumulated experience of actual safety over time, not through a single realisation.</p>
+<h3>What actually helps</h3>
+<p>Patience with your own reactions rather than frustration at them. Gradual, repeated experiences of genuine calm and safety, which is slow but is how this actually shifts. And, where it's significantly disrupting your life, real support \u2014 chapter twenty-seven covers finding a therapist who understands this specifically.</p>
+`;
+
+BODIES[23]=`
+<p>Sleep disruption is one of the most common effects of this whole period, and one of the least discussed \u2014 which means people experiencing it often add a second layer of worry, wondering if something separate is now wrong.</p>
+<h3>Why sleep is disrupted</h3>
+<p>The hypervigilance from the previous chapter doesn't turn off at bedtime \u2014 if anything, a quiet, still environment can be when it's most active, since there's less to distract from it. Grief and processing also tend to surface at night, when the day's activity isn't available to keep them at bay. And practical stress \u2014 legal processes, finances, co-parenting logistics \u2014 has a way of arriving most forcefully in the hours meant for rest.</p>
+<div class="pull">Disrupted sleep after this kind of experience is common enough to be almost expected, not a separate problem layered on top of everything else.</div>
+<h3>Gentle, general notes</h3>
+<p>Consistency in sleep and wake times helps more than almost anything else, even when sleep itself is poor. Reducing screens and stimulating content in the hour before bed is a small, genuinely useful habit. And if disruption is severe or prolonged, that's worth mentioning to a doctor \u2014 not because something separate is wrong, but because real, practical support exists for this specific, common effect.</p>
+`;
+
+BODIES[24]=`
+<p>A specific date arrives \u2014 an anniversary, a birthday, the date something happened \u2014 and the past returns with a force that surprises you, sometimes years after you thought this kind of thing had settled.</p>
+<h3>The phenomenon, named</h3>
+<p>This is well documented across many kinds of grief and trauma, not unique to this situation: significant dates, and sometimes less obvious triggers like a season, a song, or a particular quality of light, reliably bring associated memories and feelings back with unexpected intensity.</p>
+<div class="pull">This is not a sign you haven't moved on, or that the progress you've made isn't real. It's a documented, ordinary feature of how memory and significant experiences work, and it happens to people who are otherwise doing genuinely well.</div>
+<h3>What tends to happen over time</h3>
+<p>For most people, the intensity of the anniversary effect softens gradually over years, even when it doesn't disappear entirely. Knowing a difficult date is approaching, and planning something gentle or supportive for it rather than being caught by surprise, often makes a real difference to how it lands.</p>
+`;
+
+BODIES[25]=`
+<p>Your memory of the relationship and how it ended might be patchy. Some parts vivid, others strangely absent. The sequence of events might not line up cleanly when you try to recount it. This is expected, not evidence you're unreliable or exaggerating.</p>
+<h3>Why this happens</h3>
+<p>Significant stress and trauma affect how memories are encoded and later retrieved \u2014 well-documented, and not unique to any particular kind of experience. Intensely emotional moments are sometimes remembered with extraordinary, almost excessive clarity, while other periods, sometimes long ones, can feel genuinely foggy or hard to access.</p>
+<div class="pull">Gaps or inconsistencies in memory don't undermine the validity of what you do remember clearly. Both can be true about the same period of your life.</div>
+<h3>Why this matters practically</h3>
+<p>If you're navigating a legal process, inconsistent memory of exact dates or sequences can feel alarming \u2014 as though it damages your credibility. This is exactly why documentation, covered in chapter sixteen, matters so much: a contemporaneous record doesn't depend on memory holding up perfectly years later, and having one protects you from having imperfect memory used against the validity of your experience.</p>
+`;
+
+BODIES[26]=`
+<p>Anger often arrives late \u2014 not in the first weeks or months, when relief, grief, or fear tend to dominate, but sometimes a year or more afterward, sometimes triggered by something that seems disproportionately small.</p>
+<h3>Why it's often the last to surface</h3>
+<p>In the earlier period, survival and stabilising often take all available capacity \u2014 there's frequently no room left for anger until enough safety and stability exist to actually feel it. Anger also requires, for many people, a settled enough sense that what happened was genuinely wrong, which sometimes takes time to fully arrive at, particularly if self-doubt was part of what you're recovering from.</p>
+<div class="pull">Anger showing up later, sometimes much later, is common and is not a sign of instability, regression, or "not having dealt with it properly" the first time around.</div>
+<h3>What to do with it</h3>
+<p>Physical movement is genuinely useful for processing anger \u2014 it's a physiological state as much as an emotional one. Expressing it, through writing, talking to someone who can hold it, or other outlets, tends to serve you better than suppressing it. What doesn't help: aiming it at bystanders who weren't responsible, or using it as fuel for contact or confrontation with the person it's actually about, which chapter thirteen already covered the cost of.</p>
+`;
+
+BODIES[27]=`
+<p>Not all therapy is equally suited to this specific situation, and knowing what to look for improves the odds that it actually helps rather than inadvertently working against you.</p>
+<h3>What to look for</h3>
+<p>Trauma-informed practice specifically, rather than general talk therapy alone. Genuine familiarity with coercive control as a category distinct from isolated incidents of conflict \u2014 a therapist unfamiliar with the pattern may miss the actual shape of what you experienced. Comfort with the fact that your feelings about the relationship and the person may be genuinely complicated, per chapter three, rather than expecting a simpler emotional arc.</p>
+<h3>Why generic couples-counselling framing can be actively wrong here</h3>
+<p>Approaches designed for two people in a relationship with roughly balanced power and goodwill can, applied to a coercive dynamic, inadvertently validate a false equivalence between two people's roles in what happened. This isn't a claim that all couples counselling is bad \u2014 it's a claim that it's often the wrong tool for processing a coercive relationship after the fact.</p>
+<div class="try"><span class="k">Questions to ask a prospective therapist</span>
+<em>&ldquo;Do you have experience with coercive control specifically, not just conflict in relationships generally?&rdquo;</em> and <em>&ldquo;How do you think about someone having complicated feelings toward a person who harmed them?&rdquo;</em> Answers that show genuine familiarity with both are a good sign.</div>
+`;
+
+BODIES[28]=`
+<div class="warn"><span class="k">Read this whenever you need it, in whatever order</span>
+This chapter is written with real care, because some of what's described elsewhere in this movement can, for some people, tip into something requiring urgent professional help. Nothing here is trying to diagnose you \u2014 only to help you tell the difference and know where to go.</div>
+<h3>What's expected, if painful</h3>
+<p>Everything covered so far in this movement \u2014 hypervigilance, disrupted sleep, delayed anger, patchy memory, difficult anniversaries \u2014 is common, documented, and, while genuinely hard, is within the range this book calls ordinary aftermath.</p>
+<h3>What suggests something more, worth taking seriously</h3>
+<ul>
+<li>Persistent, significant difficulty functioning in daily life \u2014 work, basic self-care, relationships \u2014 that isn't improving over an extended period.</li>
+<li>Overwhelming feelings of hopelessness that don't lift, rather than difficult days within a period that's still, overall, moving forward.</li>
+<li>Thoughts of harming yourself, in any form.</li>
+<li>Using substances significantly more than before as the primary way of coping.</li>
+<li>A sense of being unable to cope that feels different in kind, not just in degree, from the hard days everyone in this process has.</li>
+</ul>
+<div class="pull">None of this is a verdict on you, and none of it means you've failed at recovering. It means the situation calls for more support than a book, or even friends and family, can provide \u2014 which is true of many serious and entirely treatable difficulties, not a special category of failure.</div>
+<h3>If you are having thoughts of harming yourself</h3>
+<p>Please reach out for support right now. A doctor is a reasonable, ordinary place to start, and most countries have a free crisis line, staffed by people who have heard exactly this before and are there specifically for this call. You do not need to be at a specific point of severity to use one \u2014 reaching out earlier rather than later is always reasonable.</p>
+<h3>What to actually do</h3>
+<p>Contact a doctor, a crisis line, or a mental health professional \u2014 today, not once things feel more organised or once you feel more ready. Chapter twenty-seven's guidance on finding the right kind of therapist still applies, though urgent support doesn't need to wait for the ideal specialist match; any qualified professional or crisis service is the right first step.</p>
+<p style="margin-top:14px">This is a sensitive area, and if any part of this chapter is landing because it's genuinely where you are right now, that's exactly what it's here for. Reaching out is the right next step, and it's available to you.</p>
+`;
+
+/* ======================= MOVEMENT V ======================= */
+
+BODIES[29]=`
+<p>Some friends didn't believe you, minimised what happened, or took an oddly long time to fully register the situation. This is common, genuinely painful, and worth understanding without necessarily excusing it.</p>
+<h3>The ordinary reasons behind it</h3>
+<p>Not wanting to believe someone they know is capable of what you've described \u2014 a discomfort that's about them, not a verdict on your credibility. Incomplete information, especially if the relationship's harm was more about pattern and control than isolated dramatic incidents. Their own history or relationship to your ex-partner making it harder for them to fully absorb what you're saying.</p>
+<div class="pull">Understanding the ordinary human reasons behind disbelief doesn't obligate you to excuse it or to maintain closeness with everyone who responded this way. Both things &mdash; understanding, and deciding a relationship has changed as a result &mdash; can be true at once.</div>
+<h3>What to do</h3>
+<p>This is entirely your decision, made friend by friend rather than as a blanket policy. Some relationships are worth a direct conversation once some time has passed. Some aren't worth the energy right now, or ever. Neither choice needs justifying to anyone else.</p>
+`;
+
+BODIES[30]=`
+<p>The friends who believed you immediately, who showed up, who've been steady through the hardest parts \u2014 they're also human, and this chapter is about the fact that ongoing support has a real cost to them too.</p>
+<h3>What this looks like</h3>
+<p>Compassion fatigue is real, even in people who love you and mean every bit of their support. A friend who's been present for months or years of a difficult process can genuinely tire, without that tiredness meaning they've stopped caring.</p>
+<div class="pull">Needing ongoing support isn't shameful, and neither is your friend needing occasional space from carrying part of it. Both are simply true at once.</div>
+<h3>Practical ways to sustain this</h3>
+<p>Spread support across more than one person where you can, rather than relying entirely on a single friend. Notice and acknowledge what they're giving, rather than treating their support as an inexhaustible resource. And where possible, let the relationship include things other than this \u2014 ordinary shared time that isn't only about processing what happened.</p>
+`;
+
+BODIES[31]=`
+<p>At some point, you'll need to decide what to tell someone new \u2014 a friend, a colleague, eventually perhaps a partner \u2014 about what happened. There's a right level and a right time, and getting it wrong in either direction carries a real cost.</p>
+<h3>The two errors</h3>
+<p><strong>Oversharing early.</strong> Leading with the full history before a relationship has enough foundation to hold it well can overwhelm a new connection before it's had a chance to develop its own footing.</p>
+<p><strong>Permanent silence.</strong> Never disclosing, indefinitely, can mean carrying something significant entirely alone, and can also mean a new partner specifically is making decisions about the relationship without information that's genuinely relevant to them.</p>
+<div class="pull">Neither error is a moral failing. Both are simply costly in different ways, and the workable path sits between them.</div>
+<h3>A workable middle path</h3>
+<p>Share what's proportionate to how established the relationship is, in your own time, without either withholding everything or leading with everything. A new friend probably doesn't need the full history in month one. A partner the relationship is becoming serious with does deserve to know, at a pace that feels right to you rather than one dictated by a deadline.</p>
+`;
+
+BODIES[32]=`
+<p>If there are children, age-appropriate honesty about the separation is possible, and it's genuinely different from recruiting them into understanding or validating your side of what happened.</p>
+<h3>The general principle, by age</h3>
+<p>Younger children generally need simple, reassuring facts \u2014 the family structure is changing, they are loved by both parents, none of it is their fault \u2014 without detail about adult conflict. Older children and teenagers can generally handle somewhat more context, though still without being drawn into adult disputes or being asked, even implicitly, to take a side.</p>
+<div class="warn"><span class="k">The specific instruction, stated plainly</span>
+Don't use your children as messengers, information sources about the other parent's life, or confidants for adult-level detail about what happened or how you feel about their other parent. This applies regardless of what the other parent might be doing &mdash; chapter seven already covered why matching a harmful tactic in return costs your children, not just your ex.</div>
+<h3>What actually serves them</h3>
+<p>Consistency, reassurance, and age-appropriate honesty that answers their actual questions without burdening them with adult content they didn't ask for and can't process the way an adult could. This serves their wellbeing, which is different from and sometimes in tension with your own need to be fully understood by them \u2014 a need that belongs elsewhere, with adults, not with your children.</p>
+`;
+
+BODIES[33]=`
+<p>Your own parents' response to all of this can fall anywhere across a real range, and this chapter holds that range honestly rather than assuming a single likely outcome.</p>
+<h3>The range</h3>
+<p>Some parents are immediately, fully supportive. Some struggle to fully grasp what happened, for the same ordinary reasons covered in chapter twenty-nine about friends. And for some people, a parent was part of the pattern that made this relationship feel familiar or survivable in the first place \u2014 a dynamic covered in <em>The Repair</em>'s discussion of what gets transmitted across generations, applied here from the other side.</p>
+<div class="pull">If a parent's own conduct or example is part of why this relationship felt normal to you, that's real, and it doesn't erase the possibility of a supportive relationship with them now &mdash; but it may mean that relationship needs its own honest examination, separate from and alongside everything else you're navigating.</div>
+<h3>What to do with a complicated parental response</h3>
+<p>The same principle as everywhere else in this book: no universal script. Some parental relationships are worth patient, direct conversation. Some need boundaries similar to any other relationship that isn't currently serving you well. Neither is a failure on your part to have the "right" family response to lean on.</p>
+`;
+
+BODIES[34]=`
+<p>If your social world was hollowed out by isolation during the relationship, or simply reshaped entirely by the separation, building new connections from scratch is a real, practical, learnable task \u2014 not something that either happens naturally or doesn't.</p>
+<h3>What actually works</h3>
+<p>Repeated proximity \u2014 the same class, the same group, the same regular activity \u2014 does more to build friendship than any single, dramatic effort. Showing up consistently, even when the early sessions feel awkward or unrewarding, is what most adult friendships are actually built from. Tolerating the early period where it feels effortful and unnatural, because that period is normal and it passes.</p>
+<div class="pull">This isn't easy, and it's worth saying so plainly rather than pretending it's simple. It's also genuinely achievable, at any age and after any amount of isolation, with time and consistent, unglamorous effort.</div>
+<h3>Realistic expectations</h3>
+<p>Meaningful new friendships typically take months of repeated contact to develop real depth, not a single good conversation. Expecting instant closeness, and feeling discouraged when it doesn't arrive immediately, is one of the most common reasons people give up on this process too early.</p>
+`;
+
+/* ======================= MOVEMENT VI ======================= */
+
+BODIES[35]=`
+<p>Rebuilding financially after this is unglamorous, and that's stated deliberately \u2014 excitement or hype about "starting over" tends to do a disservice to how this actually works.</p>
+<h3>The practical steps</h3>
+<p>An honest accounting of what you actually have and owe, however uncomfortable that accounting is to sit down and do. A basic budget built around your real, current numbers rather than a hoped-for future. Rebuilding credit or savings gradually, with small, consistent steps rather than a dramatic single fix.</p>
+<div class="pull">Boring is what actually works here. A slow, consistent rebuild beats a dramatic gesture almost every time, even when the dramatic gesture feels more satisfying to imagine.</div>
+<h3>Why this deserves stating plainly</h3>
+<p>Starting financially from very little, sometimes after having had considerably more within a shared household, can carry real shame. That shame is common and it's not warranted \u2014 financial precarity after separating from a controlling situation is an extremely well-documented, ordinary outcome, not evidence of some personal failing.</p>
+`;
+
+BODIES[36]=`
+<p>Returning to work, or continuing in it, after a period of reduced capacity, a gap, or simply the exhaustion of everything covered in this book, is entirely navigable, and there's practical language for handling it.</p>
+<h3>Explaining a gap or reduced capacity</h3>
+<p>You are not required to disclose the full history to an employer. A general, brief explanation \u2014 "I was dealing with a personal family matter" \u2014 is complete and sufficient in almost every context, and going into further detail is a choice, not an obligation.</p>
+<div class="pull">Full disclosure to an employer is never required. What you share about this period of your life at work is entirely your call, made based on what actually serves you, not on a sense of owing anyone an explanation.</div>
+<h3>Practical notes</h3>
+<p><em>At Will</em>, elsewhere in this library, covers workplace rights and protections more fully if navigating this alongside employment concerns specifically \u2014 including what an employer may and may not require of you, and where genuine legal protections exist for people managing exactly this kind of situation.</p>
+`;
+
+BODIES[37]=`
+<p>Somewhere in the process of rebuilding, you may notice yourself rediscovering things you actually like \u2014 a kind of music, a way of spending a Sunday, an opinion you'd quietly stopped voicing \u2014 that had been suppressed or overridden, sometimes so gradually you hadn't fully noticed it happening.</p>
+<h3>The phenomenon</h3>
+<p>Coercive relationships often involve a slow narrowing of what feels safe or acceptable to want, prefer, or enjoy. Rebuilding sometimes includes the genuinely surprising rediscovery of preferences you'd forgotten you had, or never had the room to develop in the first place.</p>
+<div class="pull">This is allowed to be light. Not every part of recovery needs to be heavy or clinical &mdash; rediscovering that you actually love a particular food, hobby, or way of spending time is a real, legitimate, and often quietly joyful part of this process.</div>
+<h3>Making room for it</h3>
+<p>Try things without a specific recovery goal attached \u2014 not because it's therapeutic, but because you're curious or it sounds appealing. Some of what you find will surprise you, and that's part of the point.</p>
+`;
+
+BODIES[38]=`
+<p><em>The Weighing</em>, elsewhere in this library, describes trust as a graduated, evidence-based practice rather than a switch that's either on or off. Applied here, to learning to trust new people after this experience, the same logic holds directly.</p>
+<h3>The compressed version</h3>
+<p>Trust doesn't need to be given completely and immediately, or withheld completely and permanently. It can be extended in small amounts, calibrated to actual evidence of trustworthy behaviour over time, and adjusted as more evidence accumulates \u2014 in either direction.</p>
+<div class="pull">You don't have to choose between total guardedness and total openness. Trust that's built gradually, on actual evidence, is more durable than trust given all at once and more available than trust withheld indefinitely.</div>
+<h3>Applied to new people specifically</h3>
+<p>New friends, new colleagues, new romantic interests can all be extended small, low-stakes trust initially, with attention paid to how it's received and honoured, rather than either an immediate full opening or a permanent wall. This is slower than either extreme and, for most people rebuilding after this kind of experience, considerably more sustainable.</p>
+`;
+
+BODIES[39]=`
+<p>There's no universal timeline for when it's right to start dating again, and two opposite pressures often complicate the decision \u2014 both worth naming so you can recognise them if they're operating on you.</p>
+<h3>The two pressures</h3>
+<p><strong>Rushing to prove you're fine.</strong> Sometimes to yourself, sometimes to others, dating soon after separating can function as evidence \u2014 look, I'm okay, I've moved on \u2014 which is a different motivation than genuine readiness or interest.</p>
+<p><strong>Waiting for a mythical "ready" point.</strong> The belief that there's a specific, identifiable moment when you'll know you're fully healed and therefore permitted to date, which for most people never arrives as a clean, obvious milestone.</p>
+<div class="pull">Neither pressure reflects an actual, reliable signal. Readiness is genuinely individual, and it's less a fixed point you arrive at than an ongoing, adjustable question.</div>
+<h3>More useful markers than a timeline</h3>
+<p>Whether you're able to be genuinely curious about a new person, rather than measuring them entirely against what went wrong before. Whether you can tolerate the ordinary uncertainty of a new connection without it triggering the specific hypervigilance from chapter twenty-two to an overwhelming degree. Neither needs to be perfect \u2014 both are more useful signals than any specific number of months.</p>
+`;
+
+BODIES[40]=`
+<p>Will you get back to who you were before all of this? The honest answer is more nuanced than either a comforting yes or a bleak no.</p>
+<h3>What's genuinely recoverable</h3>
+<p>A great deal, often more than it feels possible early on: your sense of humour, your capacity for joy, your ability to trust and connect, your confidence in your own judgement. These do come back for most people, though rarely in a straight line and rarely on a predictable schedule.</p>
+<h3>What isn't, quite</h3>
+<p>A version of you with no knowledge of what you now know, no memory of what happened, no changes at all from the experience \u2014 that person genuinely isn't coming back, and treating full restoration to a pre-relationship self as the goal sets up a standard that isn't actually available to anyone who's lived through something significant.</p>
+<div class="pull">"Getting back to normal" is the wrong frame. What's actually available is a third thing: a version of you that carries this experience, has integrated real and hard-won knowledge from it, and is not lesser for the difference &mdash; often, in specific ways, wiser and more discerning than the person who went into the relationship.</div>
+<h3>Why this reframe matters</h3>
+<p>Chasing full restoration to an earlier self sets an unreachable target and produces a permanent sense of falling short. Accepting a genuinely new version of yourself, built from what's recoverable plus what's been learned, is both more accurate and considerably more achievable.</p>
+`;
+
+BODIES[41]=`
+<p>A working, concrete definition of recovery, stated plainly, because "you'll know it when you feel it" isn't a standard anyone can actually use.</p>
+<h3>What recovery is not</h3>
+<p>The complete absence of difficult feelings, memories, or occasional hard days. Nobody, including people who've navigated this successfully by any reasonable measure, reaches a state with none of that remaining.</p>
+<h3>What it actually is</h3>
+<div class="pull">The restoration of choice and capacity. The ability to make decisions from a place of genuine agency rather than fear or old habit, to trust your own judgement again, to want things and pursue them, to be present in new relationships without the past constantly intruding on them.</div>
+<h3>Concrete markers, rather than a feeling-based standard</h3>
+<ul>
+<li>You can make a decision without needing to run it past what your ex would have thought of it.</li>
+<li>Difficult days happen and pass, rather than defining extended stretches of your life.</li>
+<li>You can be curious about new people and situations, not just wary of them.</li>
+<li>Your sense of your own judgement has meaningfully returned, even if it isn't fully what it once was.</li>
+</ul>
+<p>None of these require perfection, and none of them mean the difficult feelings from earlier chapters never arise again. They mean those feelings have stopped running the show.</p>
+`;
+
+/* ======================= MOVEMENT VII ======================= */
+
+BODIES[42]=`
+<div class="warn"><span class="k">Stated without judgment, because that's the only useful way to state it</span>
+Many people who eventually leave for good go back at least once first. This is a common, well-documented pattern, not a personal moral failure, and this chapter treats it exactly that way.</div>
+<h3>Why this happens</h3>
+<p>Hope that things have genuinely changed. The financial, practical, or emotional difficulty of the separation period, which can make the relationship's familiar patterns feel briefly more manageable than the unfamiliar difficulty of rebuilding. Hoovering, covered in chapter thirteen, arriving at a moment of genuine vulnerability. Missing the person, per chapter three, in a way that temporarily outweighs the clarity about why leaving was necessary.</p>
+<h3>What tends to differ about the leaving that lasts</h3>
+<p>Often, though not universally, it's the leaving that happens with clearer, more complete information \u2014 sometimes gained specifically from having gone back and observed that the fundamental pattern hadn't actually changed. Sometimes it's the leaving supported by stronger systems already in place \u2014 documentation, legal awareness, a support network \u2014 built up from the earlier attempt.</p>
+<div class="pull">If you've gone back before, that doesn't disqualify you from a lasting exit now, and it doesn't mean this attempt is somehow less valid or more likely to fail than someone who left cleanly on the first try.</div>
+<h3>What this chapter is not</h3>
+<p>Not encouragement to go back and "get more information." It's an honest, non-judgmental acknowledgment of a common reality, offered so that anyone in this position doesn't carry additional shame on top of an already difficult situation.</p>
+`;
+
+BODIES[43]=`
+<p>Published rather than buried, per the standard this library holds itself to throughout.</p>
+<h3>What is well evidenced</h3>
+<p>That risk and conflict often elevate in the period immediately following separation, for structural reasons related to loss of control. That hoovering \u2014 renewed contact timed to a victim's visible stability \u2014 is a documented, named pattern. That hypervigilance, sleep disruption, and memory effects of sustained stress and trauma are well established in the broader trauma literature. That many people who eventually leave for good have left and returned at least once previously.</p>
+<h3>What is contested</h3>
+<p>The degree of variance in family court systems' recognition of coercive control specifically is real but the pace and consistency of improvement is genuinely disputed among family-law specialists across different jurisdictions. Precisely how common "going back" is varies across different studied populations and is not a single settled figure.</p>
+<h3>What is this book's inference</h3>
+<p>The specific conversational guidance in the chapters on children, parents, and new partners \u2014 drawn from what's reportedly worked, not controlled study. The working definition of "recovered" in chapter forty-one, which reflects this book's judgment about a useful, concrete standard rather than a clinically validated one.</p>
+<h3>The biggest risk this book carries</h3>
+<p>That the general patterns described throughout \u2014 particularly in movement two \u2014 won't match every reader's specific experience, and jurisdiction and individual variance are larger than any single book can fully capture. A reader whose situation differs from the general pattern described here is not thereby less valid or less real; they should trust their own specific experience over this book's generalisations wherever the two seem to diverge.</p>
+<h3>What would change its mind</h3>
+<ul>
+<li>If post-separation risk elevation were shown to be substantially overstated relative to steady-state relationship risk, chapter two's framing would need revising.</li>
+<li>If hoovering were shown to be a rare rather than common pattern, chapter thirteen would be overstating its prevalence.</li>
+<li>If the specific conversational approaches in movement five were shown to perform no better than more direct or more avoidant alternatives, that material would need reconsidering.</li>
+</ul>
+`;
+
+BODIES[44]=`
+<p>This chapter is written to be forwarded, in full, to whoever is supporting someone in the early part of this. Keep it short on purpose.</p>
+<h3>What actually helps</h3>
+<p><strong>Believe them, fully, the first time.</strong> Not conditionally, not with careful questions that sound like you're checking their story.</p>
+<p><strong>Let their feelings be complicated.</strong> They may grieve, miss the person, feel relief and sadness at once. None of this means they've made a mistake, and none of it needs correcting.</p>
+<p><strong>Don't push a timeline.</strong> "Shouldn't you be over this by now" or "have you thought about dating again" said with good intentions still lands as pressure, not support.</p>
+<p><strong>Don't constantly criticise the ex, even though you might be furious on their behalf.</strong> This can, counterintuitively, make some people defend or minimise, simply because it's easier than managing someone else's anger on top of their own.</p>
+<div class="pull">What feels helpful and what actually helps are sometimes different things. Believing them, being steady, and following their lead on pace beats advice, timelines, and even righteous anger on their behalf.</div>
+<h3>The single most useful thing you can do</h3>
+<p>Stay present, without an agenda for how fast they should heal or what they should feel next. Check in again next month, and the month after that \u2014 not just in the first difficult week.</p>
+`;
+
+BODIES[45]=`
+<p>This isn't a straight line, and it was never going to be. Some weeks will feel like real progress. Some will feel like everything from earlier chapters arriving all at once, seemingly out of nowhere. Both are part of the same process, not evidence that one of them is the "real" trajectory and the other a detour.</p>
+<h3>What's actually available, years out</h3>
+<p>A life that isn't organised around what happened. Relationships, including with yourself, built on the trust described in chapter thirty-eight rather than on old patterns. The rediscovered tastes and preferences from chapter thirty-seven, now simply part of who you are rather than a recovery project. Anger that's mostly settled, though capable of a late, brief return per chapter twenty-six, without it meaning anything has gone wrong.</p>
+<div class="pull">Recovery, per chapter forty-one, isn't the absence of the past. It's a restored capacity to choose, to trust, to want things, and to build a life that isn't primarily defined by what you left.</div>
+<h3>The close</h3>
+<p>Leaving was the middle, not the end \u2014 chapter one said so, and everything since has been the part the culture doesn't tell you about. This is the rest of it: unglamorous, non-linear, genuinely available, and yours. Not a triumphant ending. A life, still being built, worth building anyway.</p>
+`;
+
+/* ===== INSERT CHAPTERS ABOVE THIS LINE ===== */
+
+/* ======================= ROUTER + RENDER ======================= */
+
+function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function mvOf(n){for(var i=0;i<MOVEMENTS.length;i++){if(MOVEMENTS[i].c.indexOf(n)>-1)return MOVEMENTS[i];}return null;}
+
+var LOGO='<span class="mark-l" aria-hidden="true"><svg viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'+
+ '<path d="M6 28h32" opacity=".8"/>'+
+ '<path d="M12 28a10 10 0 0120 0" opacity=".9"/>'+
+ '<path d="M22 12v4M14 16l2.5 2.5M30 16l-2.5 2.5" opacity=".55"/></svg></span>';
+
+function tile(n){
+  var c=CH[n],ready=!!BODIES[n];
+  return '<a class="tile'+(ready?'':' soon')+'" href="#/c/'+n+'">'+
+    '<span class="tn">'+(n<10?'0'+n:n)+'</span>'+
+    '<b>'+esc(c.t)+'</b><i>'+esc(c.d)+'</i>'+
+    '<span class="meta">'+(ready?(c.m+' min'):'in progress')+
+    (c.h?' <span class="hv">heavy</span>':'')+'</span></a>';
+}
+
+function hub(){
+  var h='<header class="mast"><div class="wrap"><div class="row">'+LOGO+
+    '<div><b>The Long After</b><span>What happens once you\u2019ve left</span></div></div></div></header>'+
+   '<section class="hero"><div class="wrap">'+
+   '<span class="k">Forty-five chapters</span>'+
+   '<h1>Leaving was supposed to be the ending.<br><em>For a lot of people, it\u2019s the middle.</em></h1>'+
+   '<p>Written for anyone who left a relationship that was harming them and discovered that leaving didn\u2019t fully end it \u2014 that '+
+   'control can change channel rather than stop, that a body and a nervous system don\u2019t know the danger has technically passed, '+
+   'and that rebuilding is slower and less linear than anyone around you expects.</p>'+
+   '<p>This book starts at the door and stays with you for the years after: what post-separation abuse actually looks like, the '+
+   'practical systems that exist, what your body and mind are doing, and what rebuilding really looks like when nobody\u2019s filming it.</p>'+
+   '<div class="vows"><span>No account</span><span>Nothing to buy</span><span>No tracking</span><span>Nothing stored</span><span>Works offline</span><span>Free forever</span></div>'+
+   '<div class="startrow"><a class="btn" href="#/c/1">Start at chapter one</a>'+
+   '<a class="btn ghost" href="#/c/3">What am I allowed to feel?</a>'+
+   '<a class="btn warnb" href="#/c/28">If this has become more than aftermath</a>'+
+   '<a class="btn ghost" href="#/card">The card</a>'+
+   '<a class="btn ghost" href="#/limits">What this book might have wrong</a></div>'+
+   '</div></section>';
+  for(var i=0;i<MOVEMENTS.length;i++){
+    var m=MOVEMENTS[i],t='';
+    for(var j=0;j<m.c.length;j++)t+=tile(m.c[j]);
+    h+='<section class="mv"><div class="wrap"><div class="mvh"><span class="num">MOVEMENT '+m.r+'</span>'+
+       '<h2>'+esc(m.t)+'</h2></div><p class="blurb">'+esc(m.b)+'</p>'+
+       '<div class="tiles">'+t+'</div></div></section>';
+  }
+  h+='<footer class="foot"><div class="wrap">The Long After &middot; Noble Father Creations. '+
+     'No account, no analytics, nothing stored on this device, nothing that keeps score. '+
+     'It does not know you are here and cannot tell whether you finished. All forty-five chapters complete.</div></footer>';
+  return h;
+}
+
+function chapter(n){
+  var c=CH[n];if(!c)return hub();
+  var m=mvOf(n),body=BODIES[n],prev=CH[n-1]?n-1:0,next=CH[n+1]?n+1:0;
+  var h='<div class="wrap"><section class="reader">'+
+    '<div class="crumb"><a href="#/">The Long After</a> &middot; <span>Movement '+(m?m.r:'')+' &mdash; '+esc(m?m.t:'')+'</span> &middot; <span>'+(n<10?'0'+n:n)+' of 45</span></div>'+
+    '<h1>'+esc(c.t)+'</h1><p class="dek">'+esc(c.d)+'</p>';
+  h+= body ? '<div class="body">'+body+'</div>'
+           : '<div class="stub"><b>This chapter is being written.</b><p style="margin-top:10px">'+esc(c.d)+
+             '</p><p style="margin-top:10px">The book goes up movement by movement rather than waiting until all forty-five are done, '+
+             'so what is here is finished rather than drafted.</p></div>';
+  h+='<div class="pager">'+
+     (prev?'<a href="#/c/'+prev+'"><span class="k">&larr; Previous</span>'+esc(CH[prev].t)+'</a>':'<a class="off">&nbsp;</a>')+
+     (next?'<a class="nx" href="#/c/'+next+'"><span class="k">Next &rarr;</span>'+esc(CH[next].t)+'</a>':'<a class="off nx">&nbsp;</a>')+
+     '</div></section></div>';
+  return h;
+}
+
+function card(){
+  return '<div class="wrap"><section class="reader">'+
+  '<div class="crumb"><a href="#/">The Long After</a> &middot; <span>Appendix A</span></div>'+
+  '<h1>The card</h1><p class="dek">The parts you will actually use.</p>'+
+  '<div class="card-sheet">'+
+  '<h3>The channels it moves through, post-separation</h3><ul>'+
+  '<li>Children \u2014 used as messengers or leverage during exchanges.</li>'+
+  '<li>Money \u2014 delayed payments, manufactured disputes.</li>'+
+  '<li>Narrative \u2014 controlling what mutual friends and family believe.</li>'+
+  '<li>Surveillance \u2014 shared accounts, old devices, tracking apps.</li>'+
+  '<li>Hoovering \u2014 returning, often right when you\u2019ve become stable.</li></ul>'+
+  '<h3>Document, starting today</h3><ul>'+
+  '<li>Dates, specifics, who was present \u2014 especially around custody exchanges.</li>'+
+  '<li>Kept safely, separately, off any shared device or account.</li></ul>'+
+  '<h3>Your nervous system, briefly</h3>'+
+  '<p style="font-size:15.5px">Hypervigilance and an exaggerated startle response are documented, common, and not weakness. '+
+  'They don\u2019t switch off just because the danger has technically ended.</p>'+
+  '<h3>When it\u2019s more than aftermath</h3>'+
+  '<p style="font-size:15.5px">If this has tipped into something that feels like crisis, help exists right now, and you don\u2019t need '+
+  'to wait for the rest of this book. <a href="#/c/28">Chapter 28 \u2192</a></p>'+
+  '<h3>Filling in as the book is written</h3><ul>'+
+  '<li>The systems: courts, documentation, housing, benefits</li>'+
+  '<li>Rebuilding: money, work, trust, dating, a working definition of recovered</li></ul>'+
+  '<h3>The honest range on \u201cwhen does it stop\u201d</h3>'+
+  '<p style="font-size:15.5px">For some people, eventually. For others, a reduced version continues for years. Consistent, unwavering '+
+  'boundaries correlate with it stopping sooner \u2014 there\u2019s no formula that guarantees a date. <a href="#/c/14">Chapter 14 \u2192</a></p>'+
+  '<h3>If you\u2019ve gone back before</h3>'+
+  '<p style="font-size:15.5px">Common, documented, not a moral failure. It doesn\u2019t disqualify this attempt from being the one that lasts. '+
+  '<a href="#/c/42">Chapter 42 \u2192</a></p>'+
+  '</div><div class="pager"><a href="#/"><span class="k">&larr; Back</span>All forty-five chapters</a>'+
+  '<a class="nx" href="#/limits"><span class="k">Next &rarr;</span>What this book might have wrong</a></div>'+
+  '</section></div>';
+}
+
+function limits(){
+  return '<div class="wrap"><section class="reader">'+
+  '<div class="crumb"><a href="#/">The Long After</a> &middot; <span>Appendix B</span></div>'+
+  '<h1>What this book might have wrong</h1>'+
+  '<p class="dek">Published rather than buried.</p>'+
+  '<div class="body">'+
+  '<h3>What is well evidenced</h3>'+
+  '<p>That risk and conflict often elevate immediately following separation, for structural reasons related to loss of control. '+
+  'That hoovering \u2014 renewed contact timed to visible stability \u2014 is a documented, named pattern. That hypervigilance, sleep '+
+  'disruption, and memory effects of sustained stress are well established in the broader trauma literature. That many people who '+
+  'eventually leave for good have left and returned at least once previously.</p>'+
+  '<h3>What is contested</h3>'+
+  '<p>The pace and consistency of family courts recognising coercive control specifically, which varies by jurisdiction and is '+
+  'genuinely disputed among specialists. Precisely how common &ldquo;going back&rdquo; is varies across studied populations and '+
+  'isn\u2019t a single settled figure.</p>'+
+  '<h3>What is this book\u2019s inference</h3>'+
+  '<p>The specific conversational guidance in the chapters on children, parents, and new partners &mdash; drawn from what\u2019s '+
+  'reportedly worked, not controlled study. The working definition of &ldquo;recovered&rdquo; in chapter 41, reflecting this '+
+  'book\u2019s judgment rather than a clinically validated standard.</p>'+
+  '<h3>The biggest risk this book carries</h3>'+
+  '<p>That the general patterns described throughout &mdash; particularly in movement two &mdash; won\u2019t match every reader\u2019s '+
+  'specific experience. A reader whose situation differs from the general pattern is not thereby less valid or less real; trust your '+
+  'own specific experience over this book\u2019s generalisations wherever the two diverge.</p>'+
+  '<h3>What would change its mind</h3><ul>'+
+  '<li>If post-separation risk elevation were shown to be substantially overstated, chapter 2\u2019s framing would need revising.</li>'+
+  '<li>If hoovering were shown to be rare rather than common, chapter 13 would be overstating its prevalence.</li>'+
+  '<li>If the conversational approaches in movement five performed no better than alternatives, that material would need '+
+  'reconsidering.</li></ul>'+
+  '</div>'+
+  '<div class="pager"><a href="#/card"><span class="k">&larr; Previous</span>Appendix A &mdash; the card</a>'+
+  '<a class="nx" href="#/"><span class="k">Back &rarr;</span>All forty-five chapters</a></div>'+
+  '</section></div>';
+}
+
+function route(){
+  var app=document.getElementById('app'),out;
+  var p=(location.hash||'#/').replace(/^#\/?/,'').split('/').filter(Boolean);
+  if(p[0]==='c'&&CH[+p[1]])out=chapter(+p[1]);
+  else if(p[0]==='card')out=card();
+  else if(p[0]==='limits')out=limits();
+  else out=hub();
+  app.innerHTML=out;
+  window.scrollTo(0,0);
+  document.title=(p[0]==='c'&&CH[+p[1]])?CH[+p[1]].t+' \u2014 The Long After':'The Long After \u2014 what happens once you\u2019ve left';
+}
+window.addEventListener('hashchange',route);
+route();
+
+var db=document.getElementById('darkbtn');
+db.addEventListener('click',function(){
+  var on=document.documentElement.classList.toggle('dark');
+  db.setAttribute('aria-pressed',String(on));
+  db.textContent=on?'Light':'Dark';
+});
+document.addEventListener('keydown',function(e){
+  if(e.target&&/INPUT|TEXTAREA/.test(e.target.tagName))return;
+  var m=(location.hash||'').match(/^#\/c\/(\d+)/);if(!m)return;
+  var n=+m[1];
+  if(e.key==='ArrowRight'&&CH[n+1])location.hash='#/c/'+(n+1);
+  if(e.key==='ArrowLeft'&&CH[n-1])location.hash='#/c/'+(n-1);
+});
+</script>
+</body>
+</html>

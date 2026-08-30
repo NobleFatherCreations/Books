@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>At Will — the coercive workplace</title>
+<meta name="description" content="Forty-seven chapters on coercion at work: how to name it, what you're owed, and what to do. Free, offline, no account, nothing stored.">
+<style>
+:root{
+  --paper:#EEF0F2; --panel:#E2E6EA; --card:#F8F9FA; --ink:#181B1E; --ink2:#565C63;
+  --line:#CBD1D7; --blue:#2E4A66; --blue2:#1E3348; --amber:#B5791E;
+  --serif:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;
+  --mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace;
+}
+html.dark{
+  --paper:#12151A; --panel:#181C22; --card:#1D2229; --ink:#DDE2E6; --ink2:#828A92;
+  --line:#2A3038; --blue:#7CA0C2; --blue2:#9BBBD8; --amber:#D9A03E;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.65}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:3px}
+:focus-visible{outline:2px solid var(--amber);outline-offset:3px;border-radius:3px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.wrap{max-width:725px;margin:0 auto;padding:0 20px}
+.k{font-family:var(--mono);font-size:12.4px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2)}
+
+#bar{position:sticky;top:0;z-index:50;background:var(--panel);border-bottom:1px solid var(--line);
+  display:flex;align-items:center;gap:12px;padding:7px 14px;font-family:var(--mono);font-size:12.4px;
+  color:var(--ink2);padding-top:calc(7px + env(safe-area-inset-top,0px))}
+#bar .msg{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#bar a{color:var(--amber);text-decoration:underline;text-underline-offset:2px}
+#bar button{margin-left:auto;appearance:none;border:1px solid var(--line);cursor:pointer;background:none;
+  color:var(--ink);font:600 12.4px var(--mono);letter-spacing:.06em;padding:6px 11px;border-radius:4px;white-space:nowrap}
+#bar button:hover{border-color:var(--blue);color:var(--blue)}
+
+.mark-w{width:var(--s,42px);height:var(--s,42px);flex:0 0 auto;color:var(--blue)}
+.mark-w svg{width:100%;height:100%;display:block}
+
+header.mast{padding:22px 0 6px}
+header.mast .row{display:flex;align-items:center;gap:14px}
+header.mast b{font-size:19px;font-weight:600}
+header.mast .row span{display:block;font-family:var(--mono);font-size:12.4px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--ink2);margin-top:2px}
+
+.hero{padding:22px 0 20px;border-bottom:1px solid var(--line)}
+.hero h1{font-size:clamp(27px,5.6vw,40px);line-height:1.12;font-weight:600;letter-spacing:-.01em;margin:10px 0 14px}
+.hero h1 em{font-style:italic;color:var(--blue)}
+.hero p{color:var(--ink2);font-size:17px;margin-bottom:12px;max-width:600px}
+.hero .vows{display:flex;gap:7px;flex-wrap:wrap;margin-top:18px;font-family:var(--mono);font-size:12.4px;color:var(--ink2)}
+.hero .vows span{border:1px solid var(--line);border-radius:999px;padding:5px 11px}
+.startrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.btn{display:inline-block;font:600 13px var(--mono);letter-spacing:.03em;padding:11px 18px;border-radius:5px;
+  background:var(--blue2);color:#F2F4F6;border:1px solid transparent;cursor:pointer}
+html.dark .btn{color:#12151A}
+.btn:hover{text-decoration:none;filter:brightness(1.15)}
+.btn.ghost{background:none;color:var(--ink);border-color:var(--line)}
+.btn.ghost:hover{border-color:var(--blue);filter:none}
+.btn.warnb{background:var(--amber);color:#181B1E}
+
+.mv{padding:30px 0 6px;border-bottom:1px solid var(--line)}
+.mv:last-of-type{border-bottom:0}
+.mv .mvh{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.mv .num{font-family:var(--mono);font-size:12.4px;letter-spacing:.18em;color:var(--amber)}
+.mv h2{font-size:clamp(20px,3.4vw,25px);font-weight:600;line-height:1.2}
+.mv .blurb{color:var(--ink2);font-size:15px;margin:8px 0 16px;max-width:580px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(225px,1fr));gap:8px;padding-bottom:18px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:5px;padding:12px 13px;color:var(--ink);display:block}
+.tile:hover{text-decoration:none;border-color:var(--blue);background:var(--panel)}
+.tile .tn{font-family:var(--mono);font-size:12.4px;letter-spacing:.1em;color:var(--amber)}
+.tile b{display:block;font-size:15.5px;font-weight:600;line-height:1.28;margin:5px 0 4px}
+.tile i{display:block;font-style:normal;font-size:12.4px;color:var(--ink2);line-height:1.42}
+.tile .meta{margin-top:7px;font-family:var(--mono);font-size:12.4px;letter-spacing:.06em;color:var(--ink2);
+  display:flex;gap:8px;align-items:center}
+.tile .hv{color:var(--amber);border:1px solid var(--amber);border-radius:3px;padding:1px 5px}
+.tile.soon{opacity:.6}
+
+.reader{padding:22px 0 40px}
+.crumb{font-family:var(--mono);font-size:12.4px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink2);
+  display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:14px}
+.crumb a{color:var(--ink2)}
+.reader h1{font-size:clamp(24px,4.8vw,33px);line-height:1.16;font-weight:600;margin:6px 0 6px}
+.reader .dek{color:var(--ink2);font-size:16.5px;font-style:italic;margin-bottom:20px;padding-bottom:16px;
+  border-bottom:1px solid var(--line)}
+.body p{margin-bottom:15px}
+.body h3{font-size:18px;font-weight:600;margin:24px 0 9px;line-height:1.3}
+.body ul,.body ol{margin:0 0 15px 20px}
+.body li{margin-bottom:6px}
+.pull{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--blue);
+  border-radius:4px;padding:13px 15px;margin:18px 0;font-size:16px}
+.warn{background:var(--card);border:1px solid var(--amber);border-left:3px solid var(--amber);
+  border-radius:4px;padding:13px 15px;margin:18px 0;font-size:15.5px}
+.warn .k{color:var(--amber);display:block;margin-bottom:6px}
+.try{background:var(--panel);border:1px dashed var(--line);border-radius:4px;padding:13px 15px;margin:18px 0;font-size:15.5px}
+.try .k{color:var(--blue);display:block;margin-bottom:6px}
+.stub{background:var(--panel);border:1px dashed var(--line);border-radius:5px;padding:20px;color:var(--ink2)}
+.stub b{color:var(--ink)}
+.pager{display:flex;gap:10px;justify-content:space-between;margin-top:32px;padding-top:18px;border-top:1px solid var(--line)}
+.pager a{flex:1;background:var(--card);border:1px solid var(--line);border-radius:5px;padding:11px 13px;color:var(--ink);
+  font-size:14px;line-height:1.32}
+.pager a:hover{text-decoration:none;border-color:var(--blue)}
+.pager a .k{display:block;margin-bottom:3px}
+.pager a.nx{text-align:right}
+.pager a.off{visibility:hidden}
+
+.card-sheet{background:var(--card);border:1px solid var(--line);border-radius:5px;padding:20px;margin-top:16px}
+.card-sheet h3{font-size:16px;font-weight:600;margin:16px 0 7px;color:var(--amber)}
+.card-sheet h3:first-child{margin-top:0}
+.card-sheet ol,.card-sheet ul{margin-left:20px}
+.card-sheet li{margin-bottom:5px;font-size:15px}
+.grad{display:flex;flex-wrap:wrap;gap:5px;margin:6px 0;font-family:var(--mono);font-size:12.4px}
+.grad span{border:1px solid var(--line);border-radius:3px;padding:4px 8px;color:var(--ink2)}
+.grad span:last-child{border-color:var(--amber);color:var(--amber)}
+
+footer.foot{border-top:1px solid var(--line);margin-top:28px;padding:20px 0 66px;
+  font-family:var(--mono);font-size:12.4px;color:var(--ink2);line-height:1.7}
+@media print{#bar,.pager,#nh-tab,#nh-veil,.startrow{display:none!important}}
+</style>
+</head>
+<body>
+
+<div id="bar">
+  <span class="msg">Employment law varies by jurisdiction. Every legal claim here says so. <a href="#/c/35">Chapter 35: where to check</a></span>
+  <button type="button" id="darkbtn" aria-pressed="false">Dark</button>
+</div>
+
+<div id="app"></div>
+
+<script id="book-js">
+/* ============================================================
+   AT WILL — single-file, offline, no storage, no requests.
+   Nothing here keeps score or knows you were here.
+   ============================================================ */
+
+var MOVEMENTS=[
+ {r:'I',   t:'The frame', c:[1,2,3,4,5],
+  b:'Why work deserves the same scrutiny as any other room in this library \u2014 and the gradient that stops the rest of the book from over-reading an ordinary bad job.'},
+ {r:'II',  t:'The moves', c:[6,7,8,9,10,11,12,13,14,15],
+  b:'The Fractal\u2019s eight-stage architecture, applied explicitly to a payslip.'},
+ {r:'III', t:'The machinery', c:[16,17,18,19,20,21,22,23],
+  b:'Contracts, NDAs, arbitration, algorithms, and surveillance \u2014 the instruments that make workplace power durable.'},
+ {r:'IV',  t:'Who is doing it', c:[24,25,26,27,28],
+  b:'Positions in a structure, not villains \u2014 including the position where nobody chose this at all.'},
+ {r:'V',   t:'What you\u2019re actually owed', c:[29,30,31,32,33,34,35],
+  b:'The floor, in categories rather than statutes, because the statutes are different wherever you are.'},
+ {r:'VI',  t:'Your options', c:[36,37,38,39,40,41,42,43],
+  b:'The actual sequence \u2014 documentation, internal routes, collective routes, external routes \u2014 not just \u201cjust quit.\u201d'},
+ {r:'VII', t:'The ledger', c:[44,45,46,47],
+  b:'The mirror, the reference sample, what this book might have wrong, and what actually changes at scale.'}
+];
+
+var CH={
+ 1:{t:'Most of your waking life happens here',d:'The hours add up to one of the highest-leverage rooms this library could cover, and it has been the most neglected.',m:6},
+ 2:{t:'\u201cWe\u2019re a family\u201d',d:'Families don\u2019t fire each other. A workplace that wants the obligations of family without its protections should worry you.',m:7},
+ 3:{t:'Where the power actually sits',d:'Map who can fire whom, who needs the job more, and who has savings \u2014 before assessing anything anyone said.',m:7},
+ 4:{t:'Passion as a wage discount',d:'\u201cDo what you love\u201d frequently means \u201cwe pay you in meaning instead of money.\u201d You can love the work and still be underpaid for it.',m:7},
+ 5:{t:'A bad job versus a coercive one',d:'The same gradient as everywhere else in this library. Bad management is not automatically coercive control.',m:8},
+
+ 6:{t:'The moving target',d:'Goals that change once you meet them. It reads as your inadequacy. It is their design.',m:7},
+ 7:{t:'Manufactured urgency as a permanent state',d:'Ask how long the crisis has lasted. A permanent emergency is a management style, not a description of reality.',m:7},
+ 8:{t:'Recognition instead of pay',d:'A title, a shout-out, employee of the month \u2014 a real reward, delivered in the wrong currency.',m:6},
+ 9:{t:'Isolation',d:'A reorg, a remote reassignment, a shift change. Same mechanism as everywhere else, aimed at your allies.',m:7},
+ 10:{t:'The performance review as an instrument',d:'Sometimes an assessment. Sometimes a record being built to justify a decision already made.',m:8},
+ 11:{t:'The improvement plan that is a termination',d:'A PIP is sometimes real support and sometimes a documented exit, and the markers tell them apart.',m:8},
+ 12:{t:'Information asymmetry',d:'They know your market rate, your replacement cost, and the budget. You usually don\u2019t.',m:7},
+ 13:{t:'The loyalty debt',d:'Something they did for you once, invoked forever. Gratitude is not an unlimited, permanent debt.',m:6},
+ 14:{t:'Overwork as identity',d:'When the hours become who you are, saying no to more of them starts to feel like an identity threat.',m:7},
+ 15:{t:'The one who left and was erased',d:'What happens to the person who raised something and then vanished is a warning aimed at everyone who stayed.',m:6},
+
+ 16:{t:'HR is not your friend',d:'Their job is to protect the company from liability. Sometimes that helps you. Know which situation you\u2019re in.',m:8},
+ 17:{t:'The NDA',d:'Most employees overestimate what it actually covers.',m:7},
+ 18:{t:'Non-competes',d:'Frequently weaker than they read, and enforceability varies enormously by where you are.',m:7},
+ 19:{t:'The arbitration clause you signed',d:'Signed at hiring, rarely read, and it may have already decided how a future dispute gets resolved.',m:7},
+ 20:{t:'Contract, classification, and the gig line',d:'Being classified as a contractor changes what you\u2019re owed substantially. Misclassification is common.',m:7},
+ 21:{t:'Algorithmic management',d:'The Loop\u2019s argument, compressed: coercive control with an API and no human to appeal to.',m:6},
+ 22:{t:'Surveillance',d:'Keystrokes, cameras, tone analysis, location. Routine now, legal in many places, worth knowing about.',m:7},
+ 23:{t:'Wage theft in its ordinary forms',d:'Unpaid overtime and rounded time cards are the most common financial harm at work and the least often named as theft.',m:7},
+
+ 24:{t:'The founder',d:'A specific, documented pathology where mission and charisma substitute for structure.',m:6},
+ 25:{t:'The manager who is also trapped',d:'Usually squeezed from above. That changes your options. It doesn\u2019t excuse the harm.',m:6},
+ 26:{t:'The peer who enforces',d:'The colleague who polices the culture without being asked to.',m:6},
+ 27:{t:'The board and the money behind it',d:'What lands on you often started several floors up, in a target nobody on your floor set.',m:6},
+ 28:{t:'Nobody',d:'Sometimes an incentive produced the harm and no person chose it. That changes the remedy, not the reality.',m:6},
+
+ 29:{t:'What a contract should contain',d:'A checklist to run your own against.',m:7},
+ 30:{t:'Hours, breaks, and the law where you are',d:'Minimums exist almost everywhere. Checking yours takes minutes.',m:6},
+ 31:{t:'What a manager may not require',d:'A job can require a great deal. It can\u2019t require everything.',m:7},
+ 32:{t:'Discrimination and harassment',d:'Plain-language definitions, no law degree required.',m:8},
+ 33:{t:'Health and safety',d:'Physical and, increasingly, psychological obligations exist and are enforceable.',m:7},
+ 34:{t:'If you\u2019re dismissed',d:'Process, notice, and what typically makes it unlawful. What to do in the first 48 hours.',m:8},
+ 35:{t:'Where to check',d:'Which body in your specific country can actually compel an answer.',m:7},
+
+ 36:{t:'Documentation, starting today',d:'The same instrument as everywhere else in this library. Most people in a bad situation have none.',m:8},
+ 37:{t:'Raising it internally',d:'The naming test, applied at work \u2014 and the real retaliation risk, named honestly.',m:8},
+ 38:{t:'The grievance',d:'A formal process that exists in many workplaces and triggers specific, useful things.',m:7},
+ 39:{t:'Collective action',d:'Historically the most effective response there is. It starts smaller than a union.',m:7},
+ 40:{t:'The regulator',d:'Using an external body is not \u201cgoing nuclear.\u201d It is frequently the intended, ordinary route.',m:7},
+ 41:{t:'Legal advice with no money',d:'Free and low-cost help exists for exactly this. Most people don\u2019t know to look.',m:7},
+ 42:{t:'Leaving well',d:'How you leave affects references and sometimes legal claims. There\u2019s a right way even from a bad situation.',m:7},
+ 43:{t:'Whistleblowing',d:'Real legal protection exists. Real retaliation also happens. Both facts, stated plainly.',m:9,h:1},
+
+ 44:{t:'Am I the manager doing this?',d:'The Weighing\u2019s standard, applied to anyone in this audience who also manages people.',m:7,h:1},
+ 45:{t:'What a good workplace actually looks like',d:'The reference sample. You cannot recognise a coercive workplace with no baseline for a decent one.',m:7},
+ 46:{t:'What this book might have wrong',d:'Published rather than buried \u2014 what varies by jurisdiction more than this book can promise to know.',m:7},
+ 47:{t:'What changes at scale',d:'Documentation and internal escalation help individuals. Regulation and organising change the structure.',m:7}
+};
+
+var BODIES={};
+
+/* ======================= MOVEMENT I ======================= */
+
+BODIES[1]=`
+<p>Most adults spend more of their waking hours at work than anywhere else \u2014 more than with a partner, more than with children, more than asleep on a good week.</p>
+<p>That fact alone should make the workplace one of the most closely examined rooms in any account of coercion and control. It largely isn't. There's a chapter about it in one book in this library and a single sector in the architecture that maps twenty-nine others. That's not proportionate to the hours, and this book is the correction.</p>
+<h3>What this book adds</h3>
+<p>Not a new theory. The same architecture this library uses everywhere \u2014 the eight stages that show up in a marriage, a church, a feed \u2014 applied explicitly and in detail to a job. What a moving target looks like on a payslip. What isolation looks like in a reorg. What extraction looks like in unpaid overtime.</p>
+<div class="pull">If you've felt something was wrong at work and couldn't name it, that's not a gap in you. It's a gap in what's been written down, and this book exists to close it.</div>
+<h3>What it isn't</h3>
+<p>It isn't a labour-law textbook, and it can't be \u2014 the specific rules differ by country, by state, sometimes by city. Where this book talks about what you're legally owed, it teaches you the category and points you to checking the specifics where you are, the same way the rest of this library routes readers to the right regulator in their own country rather than pretending one country's rules are universal.</p>
+<p>What it can promise: by the end, you'll have the vocabulary to name what's happening, the checklist to know what you're actually owed, and the sequence of moves \u2014 not just one move \u2014 available to you.</p>
+`;
+
+BODIES[2]=`
+<p>Somebody says it in the first week, usually with real warmth. <em>We're a family here.</em></p>
+<p>It's worth pausing on, because it should worry you slightly, and the reason is structural rather than cynical.</p>
+<h3>What families don't do</h3>
+<p>Families don't fire each other. They don't restructure a sibling out of the household because the quarter was soft. They don't require ninety days' notice and a reference check before they'll let a member back in.</p>
+<p>An employer retains every one of the powers that make employment different from family \u2014 the power to end it, the power to set the terms, the power to require things in exchange for continued inclusion \u2014 while asking, through the family language, for the loyalty, flexibility, and personal investment that family membership is supposed to earn.</p>
+<div class="pull">You're being asked to accept the obligations of family without its protections. That's not a fair trade, however warmly it's offered.</div>
+<h3>The test</h3>
+<p>Does the family language survive a bad quarter?</p>
+<p>A real family doesn't evict a struggling member. A "work family" that quietly lays off ten percent while continuing to use the language in every all-hands meeting has told you what the language was actually for: retention, at a discount, dressed as belonging.</p>
+<h3>What this isn't</h3>
+<p>Not every warm workplace is manipulative, and real camaraderie among coworkers is a genuine good worth having. The distinction is whether the warmth is being used <em>instead of</em> fair terms \u2014 pay, security, honest process \u2014 or alongside them. Chapter four goes deeper into the specific substitution this often enables.</p>
+`;
+
+BODIES[3]=`
+<p>Before assessing anything anyone said to you at work, map who actually holds what.</p>
+<h3>The exercise</h3>
+<div class="try"><span class="k">Fifteen seconds each</span>
+<ul style="margin:0 0 0 18px">
+<li>Who can end this relationship, and how easily?</li>
+<li>Who needs the income more, right now, this month?</li>
+<li>Who has savings, another offer, or a partner's income to fall back on?</li>
+<li>Whose account of a disagreement would a third party believe by default?</li>
+<li>Who set the review schedule, the pay bands, the definition of "good performance"?</li>
+</ul></div>
+<p>Almost always, the employer holds more of these than the individual worker does. That asymmetry doesn't make every manager abusive. It changes what identical words actually mean.</p>
+<div class="pull">"No pressure, just a thought" from a peer is a thought. From someone who can end your employment, it's an instruction with plausible deniability built in.</div>
+<h3>Why this matters before anything else</h3>
+<p><em>The Weighing</em>, elsewhere in this library, makes the point that power amplifies whatever behaviour is already happening. A mediocre manager with real power over your income does more damage with the same words than an equally mediocre peer ever could. Map the power first. It's the lens the rest of this book gets read through.</p>
+`;
+
+BODIES[4]=`
+<p>"Do what you love and you'll never work a day in your life." It's a nice sentence, and it does specific, measurable work in a lot of industries: it gets people to accept less money for the same labour, because the meaning is supposed to make up the difference.</p>
+<h3>Where this runs hardest</h3>
+<p>Nonprofits, media, the arts, care work, education, early-stage startups \u2014 anywhere the work is genuinely meaningful, and genuinely draws people who would do some version of it even if it paid less. That's precisely what makes the discount available: the employer doesn't have to compete as hard on wage, because the mission is doing some of the recruiting.</p>
+<div class="pull">Loving the work and being underpaid for it are not contradictory facts. Both can be true, and naming the second doesn't require giving up the first.</div>
+<h3>The tell</h3>
+<p>Ask what happens to the meaning when the pay conversation comes up. If "think about the impact you're having" arrives specifically and reliably at salary review time, that's the discount being invoked on schedule, not a coincidence.</p>
+<h3>What this isn't</h3>
+<p>Not an argument that you should quit a job you love, or that meaningful work is a trap. It's permission to hold both things at once: this work matters to me, and I am allowed to also be paid fairly for it. Those aren't in tension, whatever the framing at review time implies.</p>
+`;
+
+BODIES[5]=`
+<p>Before the rest of this book, one distinction that has to hold throughout it: a bad job is not automatically a coercive one, and collapsing that difference does a disservice to both.</p>
+<h3>The gradient</h3>
+<div class="grad"><span>disorganised</span><span>demanding</span><span>unfair</span><span>exploitative</span><span>coercive</span></div>
+<p>A disorganised workplace has unclear processes and a manager who forgets things. A demanding one asks a lot and delivers on its side of the bargain. An unfair one plays favourites. An exploitative one takes more than it gives, consistently, and knows it. A coercive one does all of that while also controlling what you can say, who you can talk to, and what happens if you try to leave or complain.</p>
+<div class="pull">The same test as everywhere else in this library: does it reduce the moves actually available to you? A demanding job asks more of your time. A coercive one shrinks your options.</div>
+<h3>Why the distinction matters here specifically</h3>
+<p>Every chapter after this one describes patterns that exist on a spectrum. Manufactured urgency exists in genuinely urgent industries and also as a permanent control mechanism. A tough performance review exists honestly and also as a manufactured record. This book is written for the coercive end of each spectrum \u2014 not as a diagnostic for every hard day at an ordinary job.</p>
+<p>Run the four dimensions from <em>The Weighing</em> \u2014 frequency, duration, escalation, response when named \u2014 on your own situation before deciding which end of the gradient you're actually on.</p>
+`;
+
+/* ======================= MOVEMENT II ======================= */
+
+BODIES[6]=`
+<p>You hit the number. You met the target. And the target moved before you got to enjoy having reached it.</p>
+<h3>How it works</h3>
+<p>The goalposts described everywhere else in this library run identically at work. Hit the quarterly number, and next quarter's is higher with no acknowledgment of the last one. Land the promotion criteria, and new, unstated criteria appear once you're close. Deliver the project on time, and the next one has a tighter deadline, framed as the new normal rather than a request.</p>
+<div class="pull">This is <em>The Fractal</em>'s devalue stage, running on a spreadsheet. The point isn't the specific target. It's that no target is ever final.</div>
+<h3>Why it reads as your inadequacy</h3>
+<p>Because each individual move looks reasonable in isolation. Ambitious companies raise targets; that's not inherently sinister. What makes it a pattern rather than healthy growth is the absence of acknowledgment \u2014 the last achievement is never actually counted, only the next gap.</p>
+<h3>What to check</h3>
+<div class="try"><span class="k">The exercise</span>
+Look back over the last year of targets. Was any of them ever explicitly met and celebrated as met, with a pause before the next one arrived \u2014 or did the next target arrive before the last one was acknowledged, every time?
+<p style="margin:10px 0 0">A pattern with no pause is the tell. Document it (chapter thirty-six) \u2014 dates, targets, when the next one arrived relative to the last.</p></div>
+`;
+
+BODIES[7]=`
+<p>Every quarter is the most important quarter. Every deadline is existential. It's been this way for two years and the company hasn't gone under, which is itself the information.</p>
+<h3>The tell</h3>
+<p>Ask, plainly: <em>how long has this crisis lasted?</em> A genuine crisis has an end \u2014 the product ships, the funding round closes, the busy season passes. A crisis with no end date, sustained for years, isn't a crisis. It's an operating mode.</p>
+<div class="pull">Permanent urgency is a management tool, not a description of reality. It suppresses two things at once: the willingness to push back, and the ability to notice that nothing is actually improving.</div>
+<h3>What it's for</h3>
+<p>Urgency justifies overwork without a raise ("we all need to pull together right now"), suppresses complaints ("this isn't the time"), and makes reasonable requests feel selfish ("everyone else is sacrificing"). All of it works because urgency feels true in the moment, and asking whether it's <em>always</em> the moment requires stepping back far enough to see the pattern.</p>
+<h3>What this isn't</h3>
+<p>Genuinely urgent, time-bound periods are real \u2014 a launch week, a crisis that actually is one. The distinction is duration and honesty about the end date, not the presence of urgency itself.</p>
+`;
+
+BODIES[8]=`
+<p>You got a title. A shout-out in the all-hands. Employee of the month, with your photo on the wall. None of it showed up on your payslip.</p>
+<h3>The substitution</h3>
+<p>Recognition is a real psychological reward \u2014 people genuinely want to be seen and valued at work, and that want isn't naive or foolish. The substitution happens when recognition is offered specifically <em>instead of</em> compensation, on a pattern, particularly around the same time pay conversations would otherwise happen.</p>
+<div class="pull">Praise is real currency for the ego. It does not pay rent. A workplace that consistently offers one when the other is due has made a choice about which is cheaper.</div>
+<h3>When it's genuinely just recognition</h3>
+<p>Not every kind word is a substitution. The tell, again, is the pattern and the timing: does meaningful recognition arrive alongside fair pay, or does it arrive most reliably in the exact conversations where pay should be discussed and isn't?</p>
+`;
+
+BODIES[9]=`
+<p>The reorg happened. Your closest ally at work ended up on a different team, a different floor, a different shift. Maybe it was announced as pure efficiency. Maybe it was.</p>
+<h3>The mechanism</h3>
+<p>Isolation at work rarely looks like exclusion. It looks like organisational logic \u2014 a restructure, a remote reassignment, a shift change that happens to separate the people who talk to each other most, particularly the people who've compared notes about pay, treatment, or a specific manager's conduct.</p>
+<div class="pull">The same architecture as everywhere else in this library: remove the people who would have said something, and the remaining behaviour goes unchallenged.</div>
+<h3>Deliberate versus ordinary</h3>
+<p>Companies restructure constantly for entirely ordinary reasons, and most reorgs are not retaliatory. The signal worth watching for: does the separation specifically follow a moment where employees compared notes, raised something together, or showed early signs of organising \u2014 chapter thirty-nine? Timing correlated with that is worth documenting, even if you can't prove intent.</p>
+`;
+
+BODIES[10]=`
+<p>Five years with no real issues raised. Then, suddenly, a review full of documented concerns you're hearing about for the first time.</p>
+<h3>The two functions of a review</h3>
+<p>A review can genuinely assess performance and flag real, fixable issues. It can also build a paper trail that justifies a decision that's already been made \u2014 a termination, a demotion, a managed exit \u2014 constructed to look procedurally fair after the fact.</p>
+<h3>Signs worth checking</h3>
+<ul>
+<li>Sudden, detailed documentation of issues that were never raised in the moment they supposedly happened.</li>
+<li>Standards applied to you that don't appear to apply the same way to peers doing similar work.</li>
+<li>Timing that correlates with something else \u2014 a complaint you made, a protected leave, a reorg, your own attempt to raise a concern.</li>
+</ul>
+<div class="pull">A single bad review is not evidence of a setup. A sudden pattern of documentation with no prior warning, correlated with a specific event, is worth taking seriously.</div>
+<h3>What to do</h3>
+<p>Ask, in writing, for specific examples and dates for anything vague ("communication issues," "not a team player"). This does two things: it may surface a genuine, fixable problem you didn't know about, and it creates your own paper trail alongside theirs. Chapter thirty-six covers documentation in full.</p>
+`;
+
+BODIES[11]=`
+<p>A Performance Improvement Plan can be exactly what it says \u2014 real support to fix a real, specific problem. It can also be the first documented step of a termination that's already decided, run through a process that looks fair on paper.</p>
+<h3>Markers of the second kind</h3>
+<ul>
+<li><strong>Impossible timelines.</strong> Goals that would be difficult even with full support, in a window too short to meaningfully improve.</li>
+<li><strong>Moving goalposts mid-plan.</strong> The targets change once you're close to meeting the original ones.</li>
+<li><strong>No genuine support offered.</strong> A plan that names problems but provides no coaching, no resources, no check-ins beyond the final assessment.</li>
+<li><strong>It follows something else.</strong> A complaint, a protected leave, an attempt to raise pay \u2014 timing worth noting even without proof of causation.</li>
+</ul>
+<div class="pull">A genuine PIP comes with real support and achievable, stable goals. A pre-termination PIP comes with a document trail and neither.</div>
+<h3>What to do either way</h3>
+<p>Take it seriously as if it's genuine \u2014 meet every requirement, document every interaction, ask for specifics in writing. If it turns out to be a pre-termination process, that documentation is exactly what protects you afterward, at chapter thirty-four and chapter forty-one.</p>
+`;
+
+BODIES[12]=`
+<p>They know what the role pays elsewhere. They know the budget for the position. They know how hard you'd be to replace. You usually know none of this, and the gap is not an accident.</p>
+<h3>What they know that you don't</h3>
+<p>Market rate for your specific role and experience level. What your peers are actually paid. What the department budget allows versus what's actually offered. How replaceable your specific skill set is right now, in this market.</p>
+<div class="pull">This is the same asymmetry <em>The Loop</em> describes in an advertising auction you never see. Here, the auction is your salary negotiation, and only one side has the data.</div>
+<h3>Reducing the gap</h3>
+<ul>
+<li>Salary transparency resources and surveys specific to your field \u2014 increasingly available and increasingly reliable.</li>
+<li>Talking to peers, where legal protections for wage discussion exist (in many places, discussing pay with coworkers is a protected activity, whatever an employer implies).</li>
+<li>Getting an actual competing offer, which is often the single most effective piece of market data available.</li>
+</ul>
+<p>None of this fully equalises the asymmetry. It narrows it, which changes the negotiation meaningfully.</p>
+`;
+
+BODIES[13]=`
+<p>They hired you when your resume had a gap. They were flexible when your kid was sick. They gave you a chance nobody else would. All of that may be genuinely true \u2014 and it is being invoked, indefinitely, as leverage every time you consider asking for something.</p>
+<h3>The mechanism</h3>
+<p>Real gratitude for a real kindness gets converted into an unlimited, ongoing debt. Every subsequent request \u2014 for a raise, for reasonable hours, for basic respect \u2014 gets measured against the original favour, as though gratitude has no natural end point.</p>
+<div class="pull">A kindness in the past does not obligate unlimited compliance in the present. Gratitude and an ongoing employment relationship with fair terms are not in conflict.</div>
+<h3>Testing it</h3>
+<p>Run <em>The Weighing</em>'s three-explanations exercise on your own situation: is what you're being asked to accept now proportionate to the original favour, or has the debt quietly become permanent and unpayable? Most genuine kindnesses were never meant to function as leverage \u2014 which means the leverage function, where it exists, was added afterward.</p>
+`;
+
+BODIES[14]=`
+<p>Somewhere along the way, the hours stopped being a requirement of the job and became a description of who you are. Saying no to more of them doesn't feel like declining a request. It feels like admitting you're not really committed.</p>
+<h3>Where this runs hardest</h3>
+<p>Startups, finance, law, medicine, academia \u2014 fields where a culture of visible overwork functions as a status marker, and where the people who model it most intensely are often genuinely rewarded for it, at least for a while.</p>
+<div class="pull">When hours become identity, negotiating your hours stops feeling like a workplace conversation and starts feeling like an argument about who you are.</div>
+<h3>The test</h3>
+<p>Could you decline unpaid extra hours, once, without it costing you something internally \u2014 not just externally, but as a hit to how you see yourself? If the internal cost is larger than the external one, the identity fusion has already happened.</p>
+<p>This isn't a chapter telling you to stop caring about your work. It's naming the specific mechanism that makes caring about your work indistinguishable, eventually, from having no boundaries around it.</p>
+`;
+
+BODIES[15]=`
+<p>Someone left. Maybe they were pushed. Maybe they raised something and then, within weeks, were gone. And then: nothing. No goodbye email acknowledged properly, no explanation, sometimes an active discouragement from discussing it.</p>
+<h3>What this tells everyone who stayed</h3>
+<p><em>The Weighing</em>'s test for institutions applies directly here: what happens to people who raise things is the single most diagnostic fact about an organisation. A colleague's disappearance, handled with silence or a quietly rewritten narrative about why they "weren't a good fit," is a message broadcast to everyone still there, whether or not it was intended as one.</p>
+<div class="pull">You don't need to know exactly what happened to someone who left to learn something from how their departure was handled. The handling itself is the data.</div>
+<h3>What to do with this</h3>
+<p>Not gossip, and not assuming the worst about every departure \u2014 people leave for good reasons constantly. But if a pattern exists of people who raised concerns leaving abruptly and being erased from the narrative afterward, that pattern is worth noting quietly, and it's exactly the kind of thing worth comparing notes about with a trusted coworker, per chapter thirty-nine.</p>
+`;
+
+/* ======================= MOVEMENT III ======================= */
+
+BODIES[16]=`
+<p>HR exists to protect the company from legal liability. That is the actual mandate, and it's worth knowing plainly before you decide what to tell them.</p>
+<h3>When interests align</h3>
+<p>Genuine harassment, discrimination, or safety violations create real legal exposure for the company, so reporting them often gets real attention \u2014 not always out of pure goodwill, but because ignoring them is a liability HR is specifically tasked with managing.</p>
+<h3>When they diverge</h3>
+<p>A pay complaint, a management style you find harmful but that isn't illegal, a general culture problem \u2014 none of these carry the same legal weight, and HR's response tends to reflect that difference, whatever the friendly framing.</p>
+<div class="warn"><span class="k">What not to say to HR</span>
+Don't treat an HR conversation as confidential venting. It usually isn't, and it's frequently relayed, in some form, to the people involved \u2014 including a manager you're describing a problem with. Say only what you'd be comfortable having repeated.</div>
+<div class="pull">Neither blanket trust nor blanket cynicism serves you here. Know which category your situation falls into before deciding how much to say.</div>
+<h3>What to do instead, or alongside</h3>
+<p>Document independently (chapter thirty-six) before and regardless of any HR conversation. If the issue has real legal weight, HR is a genuine and useful route. If it doesn't, chapter thirty-seven and the collective routes in movement six may serve you better.</p>
+`;
+
+BODIES[17]=`
+<p>You signed an NDA at hiring, barely read it, and now believe it prevents you from discussing far more than it actually does.</p>
+<h3>What's typically covered</h3>
+<p>Genuine trade secrets, proprietary processes, confidential client information \u2014 the categories NDAs are actually designed for.</p>
+<h3>What's typically not covered, though employers often imply otherwise</h3>
+<p>In most jurisdictions, an NDA generally cannot prevent you from reporting illegal conduct to authorities, discussing your own wages with coworkers (often specifically protected), or disclosing information already legally required to be disclosed (safety violations, in many places). This varies by jurisdiction and by the specific document \u2014 check locally rather than assuming.</p>
+<div class="pull">Employers benefit from the overestimate. A worker who believes an NDA covers more than it does self-censors further than the law actually requires.</div>
+<h3>What to do</h3>
+<p>If you're facing a decision that hinges on what an NDA actually prevents, that's worth an actual legal read rather than an assumption \u2014 chapter forty-one covers free and low-cost routes to get one.</p>
+`;
+
+BODIES[18]=`
+<p>You signed a non-compete and have been operating for years as though it's an absolute wall. It may be considerably weaker than it reads.</p>
+<h3>The honest, contested picture</h3>
+<div class="warn"><span class="k">This varies enormously by jurisdiction</span>
+Some places have banned non-competes outright for most categories of worker. Others enforce them broadly. Many fall somewhere in between, with enforceability depending on factors like reasonableness of scope, duration, and whether you were given anything of value in exchange for signing. This book cannot tell you which category applies to your specific document \u2014 it can tell you that assuming yours is fully binding, without checking, is often wrong.</div>
+<h3>Why they get used even where weak</h3>
+<p>A non-compete doesn't need to be enforceable to work. Most people never test it \u2014 the mere existence of the clause produces a chilling effect, discouraging a job search that might, in fact, be entirely legal to pursue.</p>
+<div class="pull">The document's power often comes from what you believe it does, not from what a court would actually enforce.</div>
+<h3>What to do</h3>
+<p>Before turning down an opportunity because of a non-compete, check what's actually enforceable where you are \u2014 chapter thirty-five and chapter forty-one point to how.</p>
+`;
+
+BODIES[19]=`
+<p>Somewhere in the hiring paperwork, likely unread in detail, was a clause requiring that disputes go to arbitration rather than a public lawsuit. It's worth knowing this exists before a dispute ever happens.</p>
+<h3>What it typically means practically</h3>
+<p>A private process instead of a public court case. No jury. Often, though not universally, an arbitrator selected in ways that favour repeat corporate clients, which is the aggregate pattern that data on employment arbitration outcomes tends to show, even though individual cases vary.</p>
+<div class="pull">This is not a claim that arbitration always disadvantages a worker in every case. It's a claim that the format itself is different from what most people picture when they imagine "taking it to court," and worth understanding before you're relying on it.</div>
+<p>It's also worth weighing the other side honestly: arbitration is often faster and considerably less expensive than court litigation, which can make it the more practical route for someone who couldn't otherwise afford a prolonged legal fight. Less protective in aggregate does not mean worse for every individual case \u2014 it means going in with clear eyes about which format you're actually in.</p>
+<h3>What to do</h3>
+<p>Check your own contract or hiring paperwork now, before any dispute exists, so you know what process you're actually working within if one arises. Chapter twenty-nine covers what to look for in a contract more broadly.</p>
+`;
+
+BODIES[20]=`
+<p>You're called a contractor, a freelancer, an independent consultant. Whether that's an accurate description of your actual working relationship is a different question, and getting it wrong \u2014 in either direction \u2014 changes what you're owed substantially.</p>
+<h3>What changes with classification</h3>
+<p>Employee status typically brings access to benefits, minimum wage and overtime protections, unemployment insurance, and various forms of legal protection that vary by place but are broadly more extensive than what contractors receive. Contractor status typically brings more control over how and when work is done, in exchange for none of the above.</p>
+<h3>Signs of likely misclassification</h3>
+<ul>
+<li>You're required to work specific hours, at a specific location, using their equipment \u2014 control indicators that many jurisdictions treat as employee-like regardless of the title.</li>
+<li>The work is core to what the company does, ongoing, and exclusive \u2014 not a discrete project.</li>
+<li>You're prevented from working for other clients.</li>
+</ul>
+<div class="pull">The label on the contract doesn't determine the legal reality everywhere \u2014 many jurisdictions look at the actual working relationship, not just what it's called.</div>
+<h3>Where to check</h3>
+<p>Labour authorities in most countries publish specific tests for this distinction. Chapter thirty-five covers finding the right body to ask.</p>
+`;
+
+BODIES[21]=`
+<p><em>The Loop</em>, elsewhere in this library, spends a full chapter on algorithmic management \u2014 scheduling, routing, and scoring software that now runs a large and growing share of work. The short version, for a reader who hasn't encountered it there: it is coercive control with an API, and there's no human in the loop to appeal to.</p>
+<h3>What it does</h3>
+<p>Fragments schedules to match demand rather than lives. Prices a bathroom break through routing systems calibrating expected time per task. Scores continuously \u2014 keystrokes, idle time, tone on calls. Allocates work by compliance, converting a nominal right to decline into a cost. Sometimes terminates with no human decision-maker involved at all.</p>
+<div class="pull">Every structural question <em>The Weighing</em> asks about an institution &mdash; who decides, who audits, what happens to people who complain &mdash; returns worse answers when the manager is a ranking function than when it's even a bad human manager.</div>
+<h3>What's actually actionable</h3>
+<p>Documentation matters even more here, because the system's record of you is the only other record that exists. Some places have passed predictive-scheduling laws requiring advance notice and compensation for late changes \u2014 worth checking whether yours has. Collective routes (chapter thirty-nine) have produced more results against this specific harm than individual complaint, because no individual has anyone to appeal to.</p>
+`;
+
+BODIES[22]=`
+<p>Keystroke logging. Camera monitoring. Tone analysis on calls. Location tracking on a company phone or vehicle. Increasingly routine, legal in many jurisdictions with disclosure, and worth knowing about even where you have no real ability to opt out.</p>
+<h3>What's commonly monitored now</h3>
+<p>Screen activity and idle time on work devices. Email and messaging content, in many places, on company systems. Physical location via company-issued devices or vehicles. Call content and tone, increasingly, via automated analysis rather than a human listening in.</p>
+<h3>What's usually legal versus requires disclosure</h3>
+<p>This varies substantially. Many places require notification that monitoring occurs, even if they don't require consent or limit its scope significantly. A minority restrict certain kinds of monitoring (biometric, for instance) more heavily.</p>
+<div class="pull">Knowing you're likely monitored changes what you do on a work device, not out of guilt, but out of the same practical caution you'd apply to any recorded space.</div>
+<h3>Practical adjustments</h3>
+<p>Keep anything sensitive \u2014 job searching, personal matters, documentation of a workplace issue \u2014 off company devices and accounts entirely. This isn't paranoia; it's the same storage logic chapter thirty-six uses for documentation generally.</p>
+`;
+
+BODIES[23]=`
+<p>This is one of the best-evidenced claims in the entire book, and it's the least often named plainly as what it is: theft.</p>
+<h3>The ordinary forms</h3>
+<p>Unpaid overtime \u2014 work done off the clock, "just this once," that becomes routine. Time-rounding that consistently favours the employer (clocking in at 8:57 rounded down to 9:00; clocking out at 5:02 rounded down to 5:00, every time, in the same direction). Being required to be available, respond to messages, or complete tasks outside paid hours without compensation. Meal breaks interrupted or skipped without pay adjustment.</p>
+<div class="pull">None of these individually feel like theft in the moment. They are the most common, best-documented form of workplace financial harm that exists, in country after country, industry after industry.</div>
+<h3>What to check</h3>
+<p>Whether time-rounding, where it exists, ever favours you as often as it favours them. Whether "quick" tasks outside scheduled hours are actually being tracked and paid. Whether meal and rest breaks required by law where you are are actually being provided uninterrupted.</p>
+<h3>What to document</h3>
+<p>Your own record of actual hours worked, kept independently and consistently \u2014 chapter thirty-six \u2014 is frequently the only evidence that exists when a dispute arises, because the employer's official record is, by definition, the one being disputed.</p>
+`;
+
+/* ======================= MOVEMENT IV ======================= */
+
+BODIES[24]=`
+<p>Early-stage, founder-led companies have a specific, well-documented pathology: mission and charisma substitute for structure, and it isn't reducible to any one founder being a bad person.</p>
+<h3>The pattern</h3>
+<p>Low pay justified by equity that may never be worth anything. Long hours framed as shared sacrifice toward a shared vision. Blurred boundaries \u2014 personal and professional life merging \u2014 presented as closeness rather than as the absence of structure that protects both.</p>
+<div class="pull">This is often genuinely sincere. A founder who truly believes in the mission, and truly believes everyone should sacrifice for it the way they are, isn't necessarily being cynical. Sincerity doesn't make the arrangement fair.</div>
+<h3>Why it matters to name</h3>
+<p>Because "the founder is passionate, not manipulative" and "this arrangement is unfair to me" are not mutually exclusive. You can recognise genuine belief in someone and still decline to accept a structure that asks more of you than it gives back.</p>
+`;
+
+BODIES[25]=`
+<p>The manager enforcing a policy you find harmful is often, themselves, under pressure from someone above them, with a similarly limited set of options.</p>
+<h3>What this changes</h3>
+<p>Not the harm \u2014 a policy that hurts you hurts you regardless of who's under pressure to enforce it. What it changes is your strategy: a trapped manager may be a genuine ally if approached carefully, someone who would help if given room to, or they may not be, and assuming either without evidence wastes time.</p>
+<div class="pull">This is not an excuse offered on the manager's behalf. It's information about where the actual decision is being made, which is often not where the harm lands.</div>
+<h3>Reading the situation</h3>
+<p>Watch what the manager does with discretion they actually have \u2014 the small things within their control. A manager using their limited room to make things slightly better for you is a different situation from one using it to make things worse than required. Both exist.</p>
+`;
+
+BODIES[26]=`
+<p>Not every enforcer of a harmful workplace culture is management. Sometimes it's a peer \u2014 the colleague who reports lateness nobody asked them to track, who polices unwritten rules with more zeal than any manager requires.</p>
+<h3>Why someone does this</h3>
+<p>Genuine belief that the rules matter and should be followed. Personal advantage \u2014 being seen as reliable by contrast. Sometimes fear: having internalised the workplace's harshest standards and applying them to others as a form of self-protection, since enforcing the rule proves you're not the one breaking it.</p>
+<div class="pull">This person is often also somewhat trapped, just in a different position than the manager in the previous chapter.</div>
+<h3>Handling it without escalating</h3>
+<p>Direct, calm naming often works better than either confrontation or avoidance: "I've noticed you flag this specifically for me \u2014 is there something going on?" This isn't guaranteed to resolve anything, but it converts an ambient tension into an actual conversation, which is usually more productive than either ignoring it or matching the energy.</p>
+`;
+
+BODIES[27]=`
+<p>The decision that landed on you \u2014 the hiring freeze, the target increase, the reorg \u2014 often started several floors up, in a boardroom or an investor call you never see, responding to pressures that have nothing to do with your specific performance.</p>
+<h3>How this works mechanically</h3>
+<p>Quarterly targets set to satisfy investors. Cost-cutting mandates handed down from a board responding to market pressure. A CEO's promise to shareholders translating, several layers down, into your manager suddenly needing your team to do more with less.</p>
+<div class="pull">"The manager" is frequently not the real decision-maker, and understanding this changes where a solution might actually be found.</div>
+<h3>Why this matters practically</h3>
+<p>It doesn't excuse the manager delivering the bad news, and it does mean that pushing back at the point where you have contact \u2014 your direct manager \u2014 sometimes hits a wall not because the manager doesn't care, but because the actual lever is somewhere you can't reach. Collective routes (chapter thirty-nine) are often the only mechanism that can actually reach that level.</p>
+`;
+
+BODIES[28]=`
+<p>Sometimes nobody decided this. <em>The Loop</em>, elsewhere in this library, makes the case that a great deal of algorithmic harm was never designed by a person \u2014 it was discovered by an optimisation process pointed at a target, with no one choosing the specific cruelty that resulted.</p>
+<h3>The workplace version</h3>
+<p>A scheduling algorithm cutting hours right below a benefits threshold wasn't necessarily instructed to do that by a person who wanted to deny you benefits. It was told to minimise labour cost, and it found that lever, the same way any optimisation process finds whatever lever works.</p>
+<div class="pull">You cannot have a conversation with an incentive structure. This changes the remedy from confrontation to something structural &mdash; regulation, collective bargaining, procurement standards &mdash; the same conclusion <em>The Loop</em> reaches for its own subject.</div>
+<h3>What this does not excuse</h3>
+<p>Plenty of harm in this book <em>is</em> being actively chosen by an identifiable person, and "nobody decided this" gets misused constantly as cover for exactly that. The test: is there a specific person who could change this today and isn't? If yes, this chapter doesn't apply to them. If the honest answer is that the target itself is producing the outcome regardless of who's currently enforcing it, this chapter is the accurate one, and chapter forty-seven is where the remedy lives.</p>
+`;
+
+/* ======================= MOVEMENT V ======================= */
+
+BODIES[29]=`
+<p>Most employment contracts are read once, at signing, under pressure to accept a job offer, and never looked at again. Here's what a basic, fair one should actually specify.</p>
+<h3>The checklist</h3>
+<ul>
+<li><strong>Pay</strong> \u2014 amount, frequency, and how overtime (if applicable) is calculated.</li>
+<li><strong>Hours</strong> \u2014 expected schedule and how changes to it are communicated.</li>
+<li><strong>Notice period</strong> \u2014 what's required from each side to end the relationship.</li>
+<li><strong>Grounds for dismissal</strong> \u2014 what constitutes cause, where that distinction matters where you are.</li>
+<li><strong>IP and non-compete terms</strong>, if any \u2014 clearly scoped, not open-ended.</li>
+<li><strong>Benefits</strong> \u2014 specifically, not just referenced vaguely as "competitive."</li>
+</ul>
+<div class="pull">A contract missing one of these isn't automatically illegal &mdash; requirements vary by place. It's worth knowing what's absent so you're not assuming a protection that was never actually written down.</div>
+<h3>What to do</h3>
+<p>Pull out your own contract and check it against this list today, not when a dispute arises and you're reading it under stress for the first time in years.</p>
+`;
+
+BODIES[30]=`
+<p>Legal minimums on working hours and rest breaks exist in almost every country, and checking your specific jurisdiction's rules takes a few minutes.</p>
+<h3>What most jurisdictions cover in some form</h3>
+<p>A maximum standard working week, or overtime pay above it. Mandated rest breaks during a shift of a certain length. Minimum rest time between shifts. Paid leave entitlements of some kind.</p>
+<div class="warn"><span class="k">The specifics vary enormously</span>
+This book will not cite specific numbers as universal, because they aren't. What's true in one country's law is meaningfully different in the next, sometimes even between states or provinces within one country.</div>
+<h3>How to check</h3>
+<p>Search "[your country/state] labour standards" or "employment standards act" \u2014 most governments publish this in plain language, not just as inaccessible legal text. Chapter thirty-five covers finding the right body more fully.</p>
+`;
+
+BODIES[31]=`
+<p>A job can require a great deal of you. It cannot, in most places, require everything, and knowing the floor changes what you're willing to accept as normal.</p>
+<h3>General categories, most places</h3>
+<p>Many jurisdictions restrict requiring someone to work while genuinely too unwell to safely do so, particularly in roles involving public health or safety. Many restrict certain categories of personal disclosure (health information beyond what's relevant, for instance) as a condition of continued employment. Many restrict unpaid, off-the-clock availability requirements, though enforcement varies widely.</p>
+<div class="warn"><span class="k">This is genuinely contested and varies substantially</span>
+None of the above is universal. The principle worth carrying forward is narrower and more reliable than any specific claim: there is a floor, even where you cannot immediately name every element of it, and "just part of the job" does not automatically make a specific demand legal.</div>
+<h3>What to do</h3>
+<p>If something feels like it's crossed a line, that feeling is worth checking against your specific jurisdiction's actual rules rather than either accepting it by default or assuming without checking that it's illegal.</p>
+`;
+
+BODIES[32]=`
+<p>Discrimination and harassment have specific legal definitions, and most people navigate a whole career without ever being told them in plain language.</p>
+<h3>Discrimination, plainly</h3>
+<p>Treating someone worse in hiring, pay, promotion, or termination decisions because of a protected characteristic \u2014 the specific list varies by place, but commonly includes things like age, sex, race, disability, and religion in most developed jurisdictions.</p>
+<h3>Harassment, plainly</h3>
+<p>Unwelcome conduct related to a protected characteristic that's severe or pervasive enough to create a hostile environment, or where submission to it is made a condition of employment or advancement.</p>
+<div class="pull">Both require a connection to a protected characteristic in most legal definitions &mdash; a boss who is unpleasant to everyone equally is a bad boss, which this book has already distinguished from something illegal. The line is whether the treatment tracks a protected characteristic specifically.</div>
+<h3>What documentation matters most</h3>
+<p>Specific incidents with dates, exact words where possible, witnesses, and any pattern connecting the treatment to the protected characteristic rather than to general unpleasantness. Chapter thirty-six covers the full documentation practice.</p>
+`;
+
+BODIES[33]=`
+<p>Physical safety obligations are long-established almost everywhere. Psychological safety is an emerging and much less evenly recognised category, worth knowing about even where it isn't yet fully enforceable where you are.</p>
+<h3>Physical safety</h3>
+<p>Most jurisdictions have a body specifically tasked with workplace safety enforcement, with real power to inspect and compel changes. This is one of the more consistently well-enforced categories across different countries.</p>
+<h3>Psychological safety</h3>
+<p>Some places now explicitly extend safety obligations to psychological harm \u2014 sustained bullying, harassment-adjacent conduct that doesn't meet a discrimination threshold, or conditions causing recognised harm. This is unevenly recognised and enforcement varies enormously; it's a newer and more contested area of law than physical safety.</p>
+<div class="pull">Don't assume psychological-safety protections exist where you are without checking &mdash; but don't assume they don't, either. This is changing quickly in some places.</div>
+<h3>Where to check</h3>
+<p>Your national or regional occupational safety and health authority typically covers this, or is the right starting point to ask. Chapter thirty-five.</p>
+`;
+
+BODIES[34]=`
+<p>Being dismissed is disorienting, and the first 48 hours matter more than they feel like they do in the moment.</p>
+<h3>General categories worth knowing</h3>
+<p>Most places require some form of notice or pay in lieu, scaled in various ways to length of service. Most restrict dismissal for reasons connected to a protected characteristic, or in retaliation for a protected activity (reporting harassment, taking legal leave, whistleblowing). What counts as sufficient "cause" for dismissal without notice varies substantially by jurisdiction.</p>
+<h3>The first 48 hours</h3>
+<div class="try"><span class="k">Practical, immediately</span>
+<ul style="margin:0 0 0 18px">
+<li>Get the reason for dismissal in writing if it wasn't given clearly.</li>
+<li>Don't sign anything on the spot, particularly a severance agreement waiving rights \u2014 ask for time to review it, which is reasonable and often legally required anyway.</li>
+<li>Write down what was said, by whom, immediately while it's fresh \u2014 chapter thirty-six's standard.</li>
+<li>Check unemployment/benefits eligibility promptly \u2014 many have filing windows.</li>
+</ul></div>
+<div class="pull">Nothing above requires you to know yet whether the dismissal was lawful. It just preserves your options while you find out.</div>
+`;
+
+BODIES[35]=`
+<p>Every legal claim in this book has come with the same caveat: it varies by where you are. This chapter is about actually finding the answer for your specific situation.</p>
+<h3>Categories of body that can compel an answer</h3>
+<ul>
+<li><strong>A labour ministry or department of labour</strong> \u2014 the primary regulator in most countries, usually with a plain-language public website covering hours, pay, and basic rights.</li>
+<li><strong>An employment tribunal or equivalent court</strong> \u2014 for disputes that need formal adjudication.</li>
+<li><strong>An equalities or human rights body</strong> \u2014 specifically for discrimination and harassment matters in many places.</li>
+<li><strong>A union</strong>, if one exists in your industry, whether or not you're currently a member \u2014 many offer some level of information or support even to non-members.</li>
+<li><strong>An occupational safety and health authority</strong> \u2014 for physical and, where recognised, psychological safety matters.</li>
+</ul>
+<div class="pull">The Codex, elsewhere in this library, uses the same approach for religious institutions: teach the category of body, then have the reader find the specific one in their own country. The same method applies here.</div>
+<h3>How to search</h3>
+<p>"[your country] department of labour" or "[your country] employment rights" is usually enough to surface the right starting point within a few minutes. Government sites, not aggregators, are the reliable source.</p>
+`;
+
+/* ======================= MOVEMENT VI ======================= */
+
+BODIES[36]=`
+<p>The same instrument as everywhere else in this library. Most workers in a bad situation have no contemporaneous record of any of it, which means it's their word against the employer's if it ever becomes a formal question.</p>
+<h3>What to record</h3>
+<ul>
+<li><strong>Dates and specific words</strong> \u2014 not "she was unfair again," but what was actually said, as close to verbatim as you can manage.</li>
+<li><strong>Anything in writing</strong> \u2014 emails, messages, review documents \u2014 forwarded to a personal account immediately, since access to employer systems ends the moment you leave.</li>
+<li><strong>Witnesses</strong> \u2014 who was present, or who you told shortly afterward.</li>
+<li><strong>Your own hours actually worked</strong>, independent of the official timesheet, if wage theft (chapter twenty-three) is a concern.</li>
+</ul>
+<h3>Where to keep it</h3>
+<p>Never on employer-owned devices, accounts, or cloud storage \u2014 chapter twenty-two covered why. A personal email account or a physical notebook kept at home.</p>
+<div class="pull">This is documentation of what happened to you. It is not building a secret case against coworkers, and it doesn't need to feel like espionage &mdash; it just needs to exist somewhere safe.</div>
+<h3>Why it matters even if you never use it</h3>
+<p>Most of what you record will probably never be read by anyone else. Having it anyway changes how confidently you can describe what's happening \u2014 to a friend, to HR, to a regulator \u2014 rather than relying on memory that inevitably softens or distorts over time.</p>
+`;
+
+BODIES[37]=`
+<p><em>The Weighing</em>'s naming test \u2014 describe the specific behaviour plainly, without diagnosis, and watch what the response does \u2014 applies at work exactly as it does anywhere else, with one addition: know your rights and have documentation before you do this.</p>
+<h3>How to raise it</h3>
+<p>Describe the specific act and its effect, in writing where possible: "On these three dates, I was asked to work past my scheduled hours with no notice and no additional pay. I need this to stop." Not a character assessment of the person, not a general complaint about "the culture" \u2014 the specific, documented thing.</p>
+<h3>What the response tells you</h3>
+<p>A response that engages with the specific issue \u2014 even defensively at first, even with pushback \u2014 is different from one that immediately makes the conversation about your attitude, your team spirit, or your career prospects for having raised it.</p>
+<div class="warn"><span class="k">The real retaliation risk</span>
+Raising something internally is not always safe, and pretending otherwise would be dishonest. In many places, retaliation for raising a genuine legal concern (safety, discrimination, wage theft) is itself illegal &mdash; but illegal retaliation still happens, and proving it after the fact is harder than preventing it. Document first. Know your rights (movement five) before you raise anything formally. Consider timing \u2014 not immediately before a review cycle, not right before a role is publicly at risk of elimination, where that's avoidable.</div>
+`;
+
+BODIES[38]=`
+<p>Many workplaces have a formal grievance process, on paper, that most employees never use and don't fully understand until they need it.</p>
+<h3>What it typically involves</h3>
+<p>A written complaint, submitted through a specific channel, that the employer is obligated to investigate within some timeframe and respond to formally. This creates a paper trail regardless of the outcome, and in many places, using a formal internal process is a prerequisite before certain external routes (a tribunal claim, for instance) become available.</p>
+<h3>When to use it versus skip to external routes</h3>
+<p>A formal grievance makes sense when the internal process has genuine teeth where you work, and when documentation of having tried internally matters for a possible next step. It makes less sense where the process is transparently a formality with no real investigation behind it \u2014 in which case, moving directly to an external regulator (chapter forty) may serve you better.</p>
+<div class="pull">Filing a grievance is not the end of your options if it doesn't work. It's frequently a required step before the next one.</div>
+`;
+
+BODIES[39]=`
+<p>Historically, the single most effective response to workplace harm hasn't come from an individual's complaint. It's come from organised, collective action \u2014 and this is one of the best-evidenced claims available anywhere in this book.</p>
+<h3>What collective action has actually achieved</h3>
+<p>Predictive-scheduling laws requiring advance notice of shifts. Workplace safety regulation, historically won overwhelmingly through organised labour rather than individual lawsuits. Pay transparency requirements. Whistleblower protections themselves, in many places, exist because of collective pressure rather than individual advocacy.</p>
+<div class="pull">Two coworkers comparing notes and deciding to raise something together is already collective action, at the smallest possible scale. It doesn't require a union to start.</div>
+<h3>What it looks like practically</h3>
+<p>Talking to a trusted coworker about pay, treatment, or a specific policy \u2014 protected activity in many places, whatever an employer implies. If a union exists in your industry, even informal contact with one, whether or not you're a member yet, is worth exploring. If not, informal coordination among a small group raising the same documented issue carries real weight that an individual complaint often doesn't.</p>
+`;
+
+BODIES[40]=`
+<p>Contacting an external regulator can feel like the nuclear option \u2014 the thing you do only after everything else has failed, dramatically, publicly. For many kinds of workplace harm, it's actually the intended, ordinary route.</p>
+<h3>What it typically involves</h3>
+<p>Filing a complaint, often free, describing the issue with whatever documentation you have. The regulator investigates independently \u2014 you're not required to prove your case alone the way you might feel you need to internally.</p>
+<h3>Why it feels bigger than it is</h3>
+<p>Because employers sometimes frame any external contact as an extreme escalation, a betrayal of internal process, when in fact regulators exist specifically to be contacted by workers \u2014 that is the entire design of the system, not an abuse of it.</p>
+<div class="pull">Using the process a regulator was built for is not "going nuclear." It's using the tool as intended.</div>
+<h3>Setting expectations</h3>
+<p>Investigations take time, often longer than feels reasonable, and outcomes vary. This isn't a promise of a fast or certain result \u2014 it's a real, legitimate route worth using regardless.</p>
+`;
+
+BODIES[41]=`
+<p>The assumption that pursuing an employment matter requires money most people don't have stops a lot of legitimate claims before they start. Free and low-cost routes exist specifically for this.</p>
+<h3>Categories worth checking</h3>
+<ul>
+<li><strong>Legal aid</strong> \u2014 income-based free legal help exists in many countries specifically for employment matters.</li>
+<li><strong>Union legal support</strong> \u2014 if you're a member, or if a relevant union offers services to non-members in your industry.</li>
+<li><strong>No-win-no-fee employment specialists</strong> \u2014 common in some jurisdictions for claims with reasonable merit, meaning you pay nothing unless the case succeeds.</li>
+<li><strong>Law school legal clinics</strong> \u2014 many universities run free clinics for exactly this kind of matter, staffed by supervised students and faculty.</li>
+</ul>
+<div class="pull">Most people never check any of these, and most people who do check are surprised by what's actually available.</div>
+<h3>Where to look</h3>
+<p>"Legal aid employment" plus your location is a reasonable starting search. Local law schools often list clinic services publicly. Chapter thirty-five's regulator search often surfaces free advice services alongside the complaint process itself.</p>
+`;
+
+BODIES[42]=`
+<p>How you leave a job \u2014 even a genuinely bad one \u2014 affects references, unemployment eligibility in many places, and sometimes legal claims you may want to preserve. There's a right way to do this even from a situation you're desperate to exit.</p>
+<h3>The practical checklist</h3>
+<ul>
+<li><strong>Get anything important in writing</strong> before you go \u2014 confirmation of final pay, any agreed terms, anything promised verbally.</li>
+<li><strong>Don't sign a severance agreement on the spot.</strong> Take time to review it, ideally with someone who can advise you (chapter forty-one), particularly if it asks you to waive any rights.</li>
+<li><strong>Check what your notice obligations actually are</strong>, so you're not accidentally forfeiting something by leaving abruptly.</li>
+<li><strong>Keep your documentation</strong> (chapter thirty-six) even after you've left \u2014 it doesn't expire in usefulness the day you walk out.</li>
+</ul>
+<div class="pull">"Burning it down" on the way out \u2014 a dramatic resignation, a public confrontation \u2014 usually costs the person leaving more than it costs the employer, however satisfying it feels in the moment.</div>
+<h3>The exception</h3>
+<p>None of this is an argument for staying silent about something that genuinely needs reporting. It's an argument for sequencing: protect your own position first, then decide what else needs to be said, and to whom.</p>
+`;
+
+BODIES[43]=`
+<div class="warn"><span class="k">Two facts, both true, stated plainly</span>
+Real legal protection for whistleblowers exists in many places. Real retaliation against whistleblowers also still happens, in those same places, despite the protection. Neither fact should be used to dismiss the other.</div>
+<h3>What protection typically covers</h3>
+<p>Most whistleblower protections apply to reporting a specific category of wrongdoing \u2014 illegal conduct, safety violations, fraud \u2014 through specific, defined channels, often requiring the report to go to a particular body or be made in a particular way to qualify for protection. Reporting the same thing informally, or to the wrong body, sometimes isn't covered the same way.</p>
+<h3>The honest gap</h3>
+<p>Legal protection means retaliation is illegal. It does not mean retaliation doesn't happen, or that proving it after the fact is straightforward. Careers have been damaged by whistleblowing that was, legally, entirely protected \u2014 the protection provides a remedy after the harm, not always prevention of the harm itself.</p>
+<h3>What reduces personal risk</h3>
+<ul>
+<li><strong>Documentation, thoroughly</strong>, before you report anything \u2014 chapter thirty-six.</li>
+<li><strong>Understanding the correct channel</strong> for protection to actually apply \u2014 check this specifically rather than assuming any report counts.</li>
+<li><strong>Getting advice first</strong>, from a lawyer or a specialist organisation, before making a report where possible \u2014 chapter forty-one's free routes apply directly here.</li>
+<li><strong>Timing</strong> \u2014 understanding what's coming (a reorg, a review cycle) and how a report might interact with it.</li>
+</ul>
+<div class="pull">None of this is a reason not to report genuine wrongdoing. It's a reason to report it as carefully and protectedly as the situation allows.</div>
+`;
+
+/* ======================= MOVEMENT VII ======================= */
+
+BODIES[44]=`
+<p>If you manage people, this chapter applies to you the same way <em>The Weighing</em>'s self-audit applies to anyone, anywhere in this library, without softening because you're also the reader most of this book has been written for.</p>
+<h3>The audit</h3>
+<div class="try"><span class="k">Run this honestly</span>
+<ul style="margin:0 0 0 18px">
+<li>Have I moved goalposts on someone after they met the original target, without acknowledging they met it?</li>
+<li>Do the people I manage raise fewer concerns with me over time?</li>
+<li>Have I used "we're a family" or mission language in a conversation where a fair pay increase was actually being discussed?</li>
+<li>Has anyone I manage been isolated, restructured away from allies, or documented suddenly after years of no issues \u2014 and did I choose that, or simply not question it?</li>
+</ul></div>
+<div class="pull">Being squeezed from above (chapter twenty-five) explains a manager's position. It does not answer this audit for them. Both things can be examined at once.</div>
+<h3>If the honest answer is yes to some of this</h3>
+<p><em>The Repair</em>, elsewhere in this library, applies \u2014 its full seven movements, not just a chapter's worth of reflection here. This chapter is the mirror; that book is the work.</p>
+`;
+
+BODIES[45]=`
+<p>You cannot recognise a coercive workplace without a baseline for a decent one, and most people's baseline has been set entirely by workplaces that were somewhere on the bad end of the gradient.</p>
+<h3>The unglamorous markers</h3>
+<ul>
+<li><strong>Clear expectations</strong>, stated once and not silently revised.</li>
+<li><strong>A predictable schedule</strong>, changed with real notice when it must change at all.</li>
+<li><strong>A functioning grievance process</strong> \u2014 one that has actually produced a change at least once, not just one that exists on paper.</li>
+<li><strong>Manageable friction</strong> \u2014 disagreements happen and get resolved, rather than either avoided entirely or escalating into someone's departure.</li>
+<li><strong>Pay conversations that happen on schedule</strong>, independent of how much recognition language is also present.</li>
+<li><strong>People who left are spoken about honestly</strong>, not erased or rewritten.</li>
+</ul>
+<div class="pull">"Everyone loves working here," repeated often in marketing and onboarding material, is not itself evidence of anything. The markers above are what evidence actually looks like.</div>
+<h3>Why this chapter matters here specifically</h3>
+<p>The same structural point *The Weighing* makes about relationships generally: a reader whose only reference point is bad workplaces will either accept the next bad one as normal, or reject a genuinely decent one for containing ordinary friction it was never free of.</p>
+`;
+
+BODIES[46]=`
+<p>Published rather than buried, per the standard this library holds itself to everywhere.</p>
+<h3>What is well evidenced</h3>
+<p>Wage theft through unpaid overtime and unfavourable time-rounding is extensively documented across countries and industries. The mechanics of algorithmic management \u2014 scheduling, scoring, monitoring \u2014 are documented in detail elsewhere in this library and transfer here without modification. The goalpost-moving and PIP-as-pretext patterns are widely reported by employment specialists and workers across many industries.</p>
+<h3>What is genuinely contested</h3>
+<p>Non-compete enforceability varies so dramatically by jurisdiction that any general claim risks being wrong somewhere. Arbitration outcome statistics are disputed \u2014 aggregate data suggests employer-favourable patterns, but individual case outcomes vary enormously. Whether whistleblower protection is adequate in practice, versus adequate only on paper, is a live and unresolved debate among specialists in the field.</p>
+<h3>What is this book's inference</h3>
+<p>The "we're a family" framing as a specific, namable substitution mechanism \u2014 a reasonable extension of patterns documented elsewhere in this library, not independently verified as a distinct, measured phenomenon in labour research specifically. The loyalty-debt mechanism, similarly. The specific chapter ordering in movement six (documentation, then internal, then collective, then external) reflects this book's judgment about what generally works best, not a universally validated sequence.</p>
+<h3>The biggest risk this book carries</h3>
+<p>Jurisdiction variance. Despite constant flagging throughout, a reader could still walk away applying a general principle to their specific situation incorrectly, simply because the variance between places is larger than any single book can fully convey. Chapter thirty-five's instruction to check locally is not a formality \u2014 it's the single most important instruction in the book for anyone about to act on anything legal.</p>
+<h3>What would change this book's mind</h3>
+<ul>
+<li>If documented cases showed the goalpost/PIP-as-pretext pattern was rare rather than common, movement two would be overstating a marginal phenomenon.</li>
+<li>If collective action were shown to underperform individual complaint in current conditions, chapter thirty-nine's central claim would need revising.</li>
+<li>If whistleblower protections were shown to reliably prevent retaliation in practice, chapter forty-three's "honest gap" framing would be overly pessimistic.</li>
+</ul>
+`;
+
+BODIES[47]=`
+<p>Documentation helps an individual. Internal escalation helps an individual. Even a successful tribunal case helps, principally, the individual who brought it. None of it, on its own, changes the underlying incentive structure that produced the harm in the first place.</p>
+<h3>What has actually worked at scale</h3>
+<p>Predictive-scheduling laws, won through organised pressure, changed how an entire industry allocates shifts \u2014 not just for the workers who complained, but for everyone in it. Sectoral bargaining, where it exists, sets floors across whole industries at once rather than workplace by workplace. Strengthened whistleblower protection, in the places that have it, exists because of collective political pressure, not individual lawsuits.</p>
+<div class="pull">This is the same conclusion <em>The Loop</em> reaches for an entirely different subject, arrived at independently here: nothing that leaves the underlying incentive intact has held for long. Structural harm requires a structural response.</div>
+<h3>What this means for you, practically</h3>
+<p>Everything in movements five and six of this book is worth doing \u2014 it protects you, specifically, and that matters enormously. It is not, on its own, the thing that prevents the next person from facing the identical situation. That requires the collective and regulatory routes this book has pointed to throughout, used not just when your own situation demands it, but supported as a matter of course.</p>
+<h3>The close</h3>
+<p>You spend more of your waking hours here than almost anywhere else. That was the first sentence of this book, and it's the reason the last one points outward rather than back at any single bad job: a workplace that treats you fairly is not an act of charity from an employer having a generous week. It's what happens when enough people, collectively, made it the expected floor rather than the exception.</p>
+`;
+
+/* ===== INSERT CHAPTERS ABOVE THIS LINE ===== */
+
+/* ======================= ROUTER + RENDER ======================= */
+
+function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function mvOf(n){for(var i=0;i<MOVEMENTS.length;i++){if(MOVEMENTS[i].c.indexOf(n)>-1)return MOVEMENTS[i];}return null;}
+
+var LOGO='<span class="mark-w" aria-hidden="true"><svg viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'+
+ '<circle cx="22" cy="22" r="16" opacity=".85"/>'+
+ '<path d="M22 13v9h7" opacity=".9"/>'+
+ '<path d="M22 6v3M22 35v3M6 22h3M35 22h3" opacity=".5"/></svg></span>';
+
+function tile(n){
+  var c=CH[n],ready=!!BODIES[n];
+  return '<a class="tile'+(ready?'':' soon')+'" href="#/c/'+n+'">'+
+    '<span class="tn">'+(n<10?'0'+n:n)+'</span>'+
+    '<b>'+esc(c.t)+'</b><i>'+esc(c.d)+'</i>'+
+    '<span class="meta">'+(ready?(c.m+' min'):'in progress')+
+    (c.h?' <span class="hv">heavy</span>':'')+'</span></a>';
+}
+
+function hub(){
+  var h='<header class="mast"><div class="wrap"><div class="row">'+LOGO+
+    '<div><b>At Will</b><span>The coercive workplace</span></div></div></div></header>'+
+   '<section class="hero"><div class="wrap">'+
+   '<span class="k">Forty-seven chapters</span>'+
+   '<h1>You spend more hours here<br>than <em>anywhere else.</em></h1>'+
+   '<p>Most of what makes a workplace coercive rather than merely difficult follows the same architecture this library maps everywhere '+
+   'else \u2014 in a marriage, a church, a feed. This book applies it explicitly to a job: what it looks like, what you\u2019re actually owed, '+
+   'and the full sequence of moves available to you, not just the one everyone reaches for first.</p>'+
+   '<div class="vows"><span>No account</span><span>Nothing to buy</span><span>No tracking</span><span>Nothing stored</span><span>Works offline</span><span>Free forever</span></div>'+
+   '<div class="startrow"><a class="btn" href="#/c/1">Start at chapter one</a>'+
+   '<a class="btn ghost" href="#/c/5">Is my job just hard, or coercive?</a>'+
+   '<a class="btn warnb" href="#/c/35">Where to check for your country</a>'+
+   '<a class="btn ghost" href="#/card">The card</a>'+
+   '<a class="btn ghost" href="#/limits">What this book might have wrong</a></div>'+
+   '</div></section>';
+  for(var i=0;i<MOVEMENTS.length;i++){
+    var m=MOVEMENTS[i],t='';
+    for(var j=0;j<m.c.length;j++)t+=tile(m.c[j]);
+    h+='<section class="mv"><div class="wrap"><div class="mvh"><span class="num">MOVEMENT '+m.r+'</span>'+
+       '<h2>'+esc(m.t)+'</h2></div><p class="blurb">'+esc(m.b)+'</p>'+
+       '<div class="tiles">'+t+'</div></div></section>';
+  }
+  h+='<footer class="foot"><div class="wrap">At Will &middot; Noble Father Creations. '+
+     'No account, no analytics, nothing stored on this device, nothing that keeps score. '+
+     'It does not know you are here and cannot tell whether you finished. All forty-seven chapters complete.</div></footer>';
+  return h;
+}
+
+function chapter(n){
+  var c=CH[n];if(!c)return hub();
+  var m=mvOf(n),body=BODIES[n],prev=CH[n-1]?n-1:0,next=CH[n+1]?n+1:0;
+  var h='<div class="wrap"><section class="reader">'+
+    '<div class="crumb"><a href="#/">At Will</a> &middot; <span>Movement '+(m?m.r:'')+' &mdash; '+esc(m?m.t:'')+'</span> &middot; <span>'+(n<10?'0'+n:n)+' of 47</span></div>'+
+    '<h1>'+esc(c.t)+'</h1><p class="dek">'+esc(c.d)+'</p>';
+  h+= body ? '<div class="body">'+body+'</div>'
+           : '<div class="stub"><b>This chapter is being written.</b><p style="margin-top:10px">'+esc(c.d)+
+             '</p><p style="margin-top:10px">The book goes up movement by movement rather than waiting until all forty-seven are done, '+
+             'so what is here is finished rather than drafted.</p></div>';
+  h+='<div class="pager">'+
+     (prev?'<a href="#/c/'+prev+'"><span class="k">&larr; Previous</span>'+esc(CH[prev].t)+'</a>':'<a class="off">&nbsp;</a>')+
+     (next?'<a class="nx" href="#/c/'+next+'"><span class="k">Next &rarr;</span>'+esc(CH[next].t)+'</a>':'<a class="off nx">&nbsp;</a>')+
+     '</div></section></div>';
+  return h;
+}
+
+function card(){
+  return '<div class="wrap"><section class="reader">'+
+  '<div class="crumb"><a href="#/">At Will</a> &middot; <span>Appendix A</span></div>'+
+  '<h1>The card</h1><p class="dek">The parts you will actually use.</p>'+
+  '<div class="card-sheet">'+
+  '<h3>The gradient</h3>'+
+  '<div class="grad"><span>disorganised</span><span>demanding</span><span>unfair</span><span>exploitative</span><span>coercive</span></div>'+
+  '<p style="font-size:15px;color:var(--ink2)">Does it reduce the moves actually available to you? That\u2019s the hinge.</p>'+
+  '<h3>Document, starting today</h3><ul>'+
+  '<li>Dates, specific words, who was present.</li>'+
+  '<li>Anything in writing \u2014 forwarded to a personal account, not stored on employer systems.</li>'+
+  '<li>Keep it even if you never use it.</li></ul>'+
+  '<h3>The naming test, at work</h3>'+
+  '<p style="font-size:15.5px">Describe the specific behaviour plainly, in writing if possible. Watch whether the response engages '+
+  'the content or attacks the fact that you raised it. Know your rights and have documentation <em>before</em> you do this.</p>'+
+  '<h3>Where to check</h3>'+
+  '<p style="font-size:15.5px">Every legal claim in this book varies by country. Search your labour ministry or department of labour, '+
+  'plus the word "employee rights," for where you actually are. <a href="#/c/35">Chapter 35 \u2192</a></p>'+
+  '<h3>Filling in as the book is written</h3><ul>'+
+  '<li>The full sequence: documentation \u2192 internal \u2192 collective \u2192 regulator \u2192 legal</li>'+
+  '<li>Whistleblower protection and its real limits</li></ul>'+
+  '<h3>The full sequence, in order</h3>'+
+  '<p style="font-size:15.5px">Document (36) \u2192 raise it internally with the naming test (37) \u2192 formal grievance if one exists (38) \u2192 '+
+  'talk to a coworker, this is already collective action (39) \u2192 the regulator, not a last resort (40) \u2192 free legal advice (41).</p>'+
+  '<h3>Whistleblowing, honestly</h3>'+
+  '<p style="font-size:15.5px">Real protection exists. Real retaliation still happens despite it. Document first, get advice first, '+
+  'understand the correct channel before reporting. <a href="#/c/43">Chapter 43 \u2192</a></p>'+
+  '</div><div class="pager"><a href="#/"><span class="k">&larr; Back</span>All forty-seven chapters</a>'+
+  '<a class="nx" href="#/limits"><span class="k">Next &rarr;</span>What this book might have wrong</a></div>'+
+  '</section></div>';
+}
+
+function limits(){
+  return '<div class="wrap"><section class="reader">'+
+  '<div class="crumb"><a href="#/">At Will</a> &middot; <span>Appendix B</span></div>'+
+  '<h1>What this book might have wrong</h1>'+
+  '<p class="dek">Published rather than buried.</p>'+
+  '<div class="body">'+
+  '<h3>What is well evidenced</h3>'+
+  '<p>Wage theft through unpaid overtime and unfavourable time-rounding, extensively documented across countries and industries. '+
+  'The mechanics of algorithmic management, documented in detail in <em>The Loop</em> and transferring here without modification. '+
+  'The goalpost-moving and PIP-as-pretext patterns, widely reported by employment specialists across many industries.</p>'+
+  '<h3>What is contested</h3>'+
+  '<p>Non-compete enforceability, which varies so dramatically by jurisdiction that any general claim risks being wrong somewhere. '+
+  'Arbitration outcome statistics \u2014 aggregate patterns suggest one direction, individual outcomes vary enormously. '+
+  'Whether whistleblower protection is adequate in practice or only on paper \u2014 a live, unresolved debate among specialists.</p>'+
+  '<h3>What is this book\u2019s inference</h3>'+
+  '<p>The &ldquo;we\u2019re a family&rdquo; framing as a specific, named substitution mechanism. The loyalty-debt mechanism, similarly. '+
+  'The chapter ordering in movement six \u2014 documentation, then internal, then collective, then external \u2014 reflects this book\u2019s judgment '+
+  'about what generally works best, not a universally validated sequence.</p>'+
+  '<h3>The biggest risk this book carries</h3>'+
+  '<p>Jurisdiction variance. Despite constant flagging throughout, a reader could still apply a general principle to their specific '+
+  'situation incorrectly, because the variance between places is larger than any single book can fully convey. Chapter thirty-five\u2019s '+
+  'instruction to check locally is not a formality \u2014 it is the single most important instruction here for anyone about to act on '+
+  'anything legal.</p>'+
+  '<h3>What would change its mind</h3><ul>'+
+  '<li>If documented cases showed the goalpost/PIP-as-pretext pattern was rare rather than common, movement two would be overstating '+
+  'a marginal phenomenon.</li>'+
+  '<li>If collective action were shown to underperform individual complaint in current conditions, chapter thirty-nine\u2019s central claim '+
+  'would need revising.</li>'+
+  '<li>If whistleblower protections were shown to reliably prevent retaliation in practice, chapter forty-three\u2019s &ldquo;honest gap&rdquo; '+
+  'framing would be overly pessimistic.</li></ul>'+
+  '</div>'+
+  '<div class="pager"><a href="#/card"><span class="k">&larr; Previous</span>Appendix A &mdash; the card</a>'+
+  '<a class="nx" href="#/"><span class="k">Back &rarr;</span>All forty-seven chapters</a></div>'+
+  '</section></div>';
+}
+
+function route(){
+  var app=document.getElementById('app'),out;
+  var p=(location.hash||'#/').replace(/^#\/?/,'').split('/').filter(Boolean);
+  if(p[0]==='c'&&CH[+p[1]])out=chapter(+p[1]);
+  else if(p[0]==='card')out=card();
+  else if(p[0]==='limits')out=limits();
+  else out=hub();
+  app.innerHTML=out;
+  window.scrollTo(0,0);
+  document.title=(p[0]==='c'&&CH[+p[1]])?CH[+p[1]].t+' \u2014 At Will':'At Will \u2014 the coercive workplace';
+}
+window.addEventListener('hashchange',route);
+route();
+
+var db=document.getElementById('darkbtn');
+db.addEventListener('click',function(){
+  var on=document.documentElement.classList.toggle('dark');
+  db.setAttribute('aria-pressed',String(on));
+  db.textContent=on?'Light':'Dark';
+});
+document.addEventListener('keydown',function(e){
+  if(e.target&&/INPUT|TEXTAREA/.test(e.target.tagName))return;
+  var m=(location.hash||'').match(/^#\/c\/(\d+)/);if(!m)return;
+  var n=+m[1];
+  if(e.key==='ArrowRight'&&CH[n+1])location.hash='#/c/'+(n+1);
+  if(e.key==='ArrowLeft'&&CH[n-1])location.hash='#/c/'+(n-1);
+});
+</script>
+</body>
+</html>
