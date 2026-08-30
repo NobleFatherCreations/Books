@@ -113,12 +113,26 @@ html.dark .btn{color:#14171A}
 footer.foot{border-top:1px solid var(--line);margin-top:28px;padding:20px 0 66px;
   font-family:var(--mono);font-size:12.4px;color:var(--ink2);line-height:1.7}
 @media print{#bar,.pager,#nh-tab,#nh-veil,.startrow{display:none!important}}
+
+#bar #exitbtn{margin-left:auto;border-color:var(--line)}
+#bar #exitbtn:hover{border-color:var(--coral);color:var(--coral)}
+#bar #darkbtn{margin-left:8px}
+.exitnote{margin-top:14px;font-family:var(--mono);font-size:12.4px;line-height:1.6;color:var(--ink2);max-width:600px}
+.exitnote b{color:var(--ink);font-weight:600}
+
+.helprow{border-top:1px solid var(--line);padding:16px 0}
+.helprow:first-of-type{border-top:0;padding-top:4px}
+.helprow h3{margin-bottom:6px}
+.helprow p{font-size:15.5px;color:var(--ink2)}
+.helprow p b{color:var(--ink);font-weight:600}
+.helplede{font-size:15.5px;color:var(--ink2);margin-bottom:4px}
 </style>
 </head>
 <body>
 
 <div id="bar">
-  <span class="msg">If you're in danger right now, call emergency services. <a href="#/c/17">Chapter 17</a></span>
+  <span class="msg">If you're in danger right now, call emergency services. <a href="#/help">Everything else</a></span>
+  <button type="button" id="exitbtn" title="Leave this page (Esc)">Leave</button>
   <button type="button" id="darkbtn" aria-pressed="false">Dark</button>
 </div>
 
@@ -468,7 +482,15 @@ Call emergency services. Everything below is about improving what happens during
 <p>This varies enormously by country, by region, and by the individual officers who respond. Some departments have specific training on coercive control and male victims. Many do not. Historical patterns show a tendency to default to assumptions about who the primary aggressor is likely to be, based on size, sex, and who appears more distressed or more composed when officers arrive.</p>
 <p>None of that means it will go badly. It means it's worth being prepared rather than assuming it will automatically go well.</p>
 <h3>What improves the odds</h3>
-<p>Everything in chapter fifteen applies here directly. In addition: if there's a pattern of prior incidents, mention it and mention that you have notes \u2014 you don't need to hand over a full file in the moment, but naming that a record exists changes how the conversation is heard.</p>
+<div class="try"><span class="k">If the call is happening now</span>
+Chapter fifteen covers this in full. If there is no time to read it:
+<ul style="margin:8px 0 0 18px">
+<li>Say who called and why, <em>first</em>. Don't let the account start with hers.</li>
+<li>Factual and specific, not emotional \u2014 not because your distress is wrong, but because calm and specific is what this system reads as credible.</li>
+<li>Say that a record exists. You don't have to produce it in the moment.</li>
+<li>Ask for the incident or reference number before they leave.</li>
+</ul></div>
+<p>In addition: if there's a pattern of prior incidents, mention it and mention that you have notes \u2014 you don't need to hand over a full file in the moment, but naming that a record exists changes how the conversation is heard.</p>
 <p>If you're not believed on the spot, that is not the end of the process. It's one interaction, and chapter thirty-one's documentation is exactly what makes the next one, and any legal process after it, less dependent on a single officer's snap judgement.</p>
 <div class="pull">One bad interaction with one officer is not a verdict on the system, and it is not a verdict on whether what's happening to you is real.</div>
 <h3>Afterward</h3>
@@ -821,7 +843,8 @@ BODIES[46]=`
 <div class="pull">Nobody is going to hand you closure. What you get instead is a life that keeps going, built by you, at whatever pace it actually takes.</div>
 <h3>The last thing</h3>
 <p>You searched for something and it was hard to find, and you kept looking anyway. That's most of what got you here. It's most of what gets anyone through the part that comes next, too.</p>
-<p>Go and build the life. It's the whole of what's on offer, and it's more than enough to be worth having.</p>
+<p>What to do with the rest of it: chapter forty-four is the one to re-read when a week goes badly and you want to know whether what your body is doing is normal. Chapter thirty-one is the one to re-read before anything formal. Chapter thirty is where the help is.</p>
+<p>The rest is yours, in whatever order it turns out you need it.</p>
 `;
 
 /* ===== INSERT CHAPTERS ABOVE THIS LINE ===== */
@@ -856,9 +879,11 @@ function hub(){
    '<p>This book exists alongside the library\u2019s book for women, not instead of it. It says that once, in chapter three, '+
    'and then it gets on with the only job it has: telling you what this looks like, what actually exists to help, and what to do.</p>'+
    '<div class="vows"><span>Nothing to buy</span><span>No community</span><span>No account</span><span>Nothing stored</span><span>Works offline</span><span>Free forever</span></div>'+
+   '<p class="exitnote"><b>Leaving in a hurry:</b> press <b>Esc</b>, or the Leave button at the top, and this page is replaced immediately. If the device you are reading on might be checked by someone else, a private window and a cleared history are worth the two minutes.</p>'+
    '<div class="startrow"><a class="btn" href="#/c/1">Start at chapter one</a>'+
    '<a class="btn ghost" href="#/c/3">Read the position first</a>'+
    '<a class="btn warnb" href="#/c/17">In danger right now</a>'+
+   '<a class="btn ghost" href="#/help">Where to actually go</a>'+
    '<a class="btn ghost" href="#/card">The card</a>'+
    '<a class="btn ghost" href="#/limits">What this book might have wrong</a></div>'+
    '</div></section>';
@@ -967,10 +992,29 @@ function limits(){
   '</section></div>';
 }
 
+function help(){
+  return '<div class="wrap"><section class="reader">'+
+  '<div class="crumb"><a href="#/">The Silence</a> &middot; <span>Help</span></div>'+
+  '<h1>Where to actually go</h1>'+
+  '<p class="dek">Routes out of this book, not further into it.</p>'+
+  '<p class="helplede">This book has no way of knowing which country you are in, so it does not pretend to. Each row below is the category of thing that exists nearly everywhere and the search that finds the real one where you are. Government and established-charity sites, not aggregators.</p>'+
+  '<div class="card-sheet">'+
+  '<div class="helprow"><h3>If you are in danger right now</h3><p>Call your country&rsquo;s emergency number. Chapter 17 is about improving how that call goes. It is not a reason to wait until you have read it. <a href="#/c/17">Chapter 17 &rarr;</a></p></div>'+
+  '<div class="helprow"><h3>A domestic abuse helpline</h3><p>Search <b>&ldquo;[your country] domestic abuse helpline&rdquo;</b>, and separately <b>&ldquo;[your country] male victims domestic abuse&rdquo;</b> &mdash; several countries have a line specifically for men, and where there isn&rsquo;t one the general service still takes the call. If the first service you reach is not set up for you, that is a fact about that service. The next one is a different organisation.</p></div>'+
+  '<div class="helprow"><h3>If this has become thoughts of ending your life</h3><p>Search <b>&ldquo;[your country] suicide prevention helpline&rdquo;</b>, or go to an emergency department. Men are substantially less likely to make this call and substantially more likely to die. That is the whole reason this row is here.</p></div>'+
+  '<div class="helprow"><h3>A doctor</h3><p>A GP or family doctor can refer, can treat what is happening to your sleep and your body, and creates a dated record of you saying it out loud &mdash; which chapter 31 explains is worth more later than it feels now.</p></div>'+
+  '<div class="helprow"><h3>What none of these require</h3><p>That you have been hit. That you can prove anything. That you are ready to leave, or have decided to. That you use the word abuse. You are not required to have tried everything else first.</p></div>'+
+  '</div>'+
+  '<div class="pager"><a href="#/"><span class="k">&larr; Back</span>All forty-six chapters</a>'+
+  '<a class="nx" href="#/card"><span class="k">Next &rarr;</span>Appendix A &mdash; the card</a></div>'+
+  '</section></div>';
+}
+
 function route(){
   var app=document.getElementById('app'),out;
   var p=(location.hash||'#/').replace(/^#\/?/,'').split('/').filter(Boolean);
   if(p[0]==='c'&&CH[+p[1]])out=chapter(+p[1]);
+  else if(p[0]==='help')out=help();
   else if(p[0]==='card')out=card();
   else if(p[0]==='limits')out=limits();
   else out=hub();
@@ -993,6 +1037,22 @@ document.addEventListener('keydown',function(e){
   var n=+m[1];
   if(e.key==='ArrowRight'&&CH[n+1])location.hash='#/c/'+(n+1);
   if(e.key==='ArrowLeft'&&CH[n-1])location.hash='#/c/'+(n-1);
+});
+
+/* ---- Leaving in a hurry -------------------------------------------------
+   Esc, or the Leave button, blanks the page and navigates away without
+   adding a history entry. No storage is touched, because there is none. --- */
+/* about:blank, not an outside site: this file is offline-first and its own
+   house rule forbids external URLs. Blanking works with no network. */
+var EXIT_URL='about:blank';
+function leaveNow(){
+  try{document.documentElement.innerHTML='';}catch(e){}
+  try{location.replace(EXIT_URL);}catch(e){location.href=EXIT_URL;}
+}
+var xb=document.getElementById('exitbtn');
+if(xb)xb.addEventListener('click',leaveNow);
+document.addEventListener('keydown',function(e){
+  if(e.key==='Escape'||e.key==='Esc')leaveNow();
 });
 </script>
 </body>

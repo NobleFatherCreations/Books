@@ -50,6 +50,30 @@ const flags=[];
 for(const [,n,b] of bodies) for(const re of abs){ const h=b.match(re); if(h) flags.push(`ch${n}: "${h[0]}"`); }
 console.log(`  · AUDIT 1 flags for tier review: ${flags.length}`+(flags.length?` — ${flags.slice(0,6).join(', ')}`:''));
 
+// AUDIT 6 -- the one failure this book was written to avoid.
+// From the brief: "If any chapter could be quoted to argue that women's services
+// should be cut, that chapter needs rewriting." Chapter 3 is the one chapter
+// licensed to state the position; everywhere else, a comparative-grievance
+// construction is a defect. Flags for review rather than failing the build,
+// because some of these shapes are legitimate in context.
+const zeroSum=[
+  [/\b(more|less|worse|better)\s+than\s+(women|she|wives|mothers)\b/i,'comparative suffering'],
+  [/\bwomen\s+(?:get|receive|have|are given)\b[^.]{0,60}\b(?:and|but|while)\b[^.]{0,60}\bmen\b/i,'zero-sum services framing'],
+  [/\b(at the expense of|instead of|taken from|diverted from)\s+(?:services for )?women\b/i,'explicit zero-sum'],
+  [/\b(?:nobody|no one) cares (?:about )?(?:when )?(?:a )?m(?:e|a)n\b/i,'grievance rhetoric'],
+  [/\bfeminis(?:m|ts?)\b/i,'names the movement rather than the problem'],
+  [/\bdouble standard\b/i,'grievance framing']
+];
+let zs=0;
+for(const [n,b] of bodies){
+  if(+n===3) continue;            // chapter 3 states the position, once, on purpose
+  for(const [re,label] of zeroSum){
+    const h=b.match(re);
+    if(h){ console.log(`  · AUDIT 6 review ch${n}: ${label} \u2014 "${h[0]}"`); zs++; }
+  }
+}
+if(!zs) console.log('  \u2713 AUDIT 6: no comparative-grievance constructions outside ch3');
+
 // house rules
 [/localStorage/,/sessionStorage/,/https?:\/\/(?!www\.w3)/].forEach((re,i)=>{
   const names=['localStorage','sessionStorage','external URL'];
