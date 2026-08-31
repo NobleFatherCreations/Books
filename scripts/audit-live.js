@@ -61,7 +61,7 @@ const LEAKS = [/#REPLACE/i, /data-here/i, /<!--\s*(BUILD|INSTRUCTION|TODO|PASTE)
               }).map(e => String(e.className || e.tagName).slice(0, 50)));
             if (r.length > stuckWorst) { stuckWorst = r.length; stuckSample = r.slice(0, 2); }
             await page.evaluate(() => window.scrollBy(0, window.innerHeight * 0.7));
-            await page.waitForTimeout(420);
+            await page.waitForTimeout(1400);   // longer than the longest stagger delay measured (1.05s)
           }
           await page.evaluate(() => window.scrollTo(0, 0));
           await page.waitForTimeout(250);

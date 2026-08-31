@@ -145,20 +145,53 @@ the fix is the same one already tooled for in this repo
 (`scripts/embed-fonts.py`, and `tools/fonts/` has all four families
 vendored already).
 
-## 6. Structural checks
+## 6. The browser pass, across all 19 — one real finding
 
-**All 19 pages** (checked directly against the delivered bytes): every one
-has a `lang` attribute, a viewport meta, and a non-empty `<title>`.
+**All 19 pages** have a `lang` attribute, a viewport meta, and a non-empty
+`<title>`. No horizontal overflow at 375px or 1440px on any page. No text
+rendered the same colour as its background.
 
-**The browser pass** — horizontal overflow, elements stuck at `opacity:0`,
-dead in-page anchors, console errors — is slow on these pages (several are
-4–22 MB, and each is loaded eight times) and had covered 12 of 19 when this
-was written. Across those 12: no horizontal overflow at either width, no
-dead anchors, no console errors other than the beacon failing to load in a
-sandbox with no egress, and at most one transiently-hidden reveal element
-per page. The remaining seven are `fracture`, `hub`, `loop`, `music`,
-`playbook`, `scale`, `shadowroot` and the reaction map; their byte-level
-results are already in the table below, which is complete for all 19.
+The one genuine defect the browser pass found:
+
+**The reaction map's skip link goes nowhere.**
+`<a class="skip-link" href="#home">Skip to content</a>` — and there is no
+`id="home"` on the page. That link exists for exactly one audience,
+keyboard and screen-reader users, and for them it does nothing. Small,
+isolated, worth fixing.
+
+### Everything else it flagged was my checker, not the sites
+
+Reported here rather than dropped, because an audit that only lists hits
+is not checkable:
+
+- **"7 elements stuck at `opacity:0`" on loop and scale.** They were
+  mid-transition. Those tiles carry a *staggered* transition delay, and the
+  longest on the page is 1.05s — my settle time was 420ms. Given a full
+  second, zero remain. Same cause for the single hits on the children's
+  book, the Portals and the seals site. Settle time raised to 1.4s.
+- **"shadowroot: only 188 chars of visible text."** That page is The Root,
+  a guided shadow-work practice that shows one prompt at a time
+  ("What just caught you?" → Continue). A low word count is correct there,
+  and `CLAUDE.md` says so explicitly: *Root is a guided practice, not a
+  chapter book.* This is precisely the uniform-standard mistake that rule
+  exists to prevent. Threshold dropped to "no text at all."
+- **"leaked placeholder: being written" on loop and scale.** It is the
+  `stub` branch in their router, for a chapter with no body. Every chapter
+  has a body, so it never renders — dead code, not a leak. On *fractal* the
+  same string is literal prose: *"in the room where the prescription is
+  being written."*
+- **`file:///assets/...` requests** on The Casting and the reaction map are
+  an artifact of auditing local copies: root-relative paths resolve against
+  the filesystem root. Checked against the live origins with `curl` —
+  they return 200.
+
+### One thing worth a decision rather than a fix
+
+The music page streams its audio from `noblemusic.netlify.app`, which is a
+deliberate cross-origin request (the audio cannot be inlined). But the page
+also tells the reader *"no external requests, no tracking."* That is the
+same contradiction as the beacon, arrived at honestly. The audio should
+stay; the sentence should change.
 
 ## Per-page summary
 
