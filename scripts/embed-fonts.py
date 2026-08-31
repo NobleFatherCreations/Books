@@ -21,7 +21,7 @@ Two things keep the cost honest:
 Usage:
   embed-fonts.py <book.html> <spec> [<spec> ...]
   spec = family:role:path[:italic][:opsz=N][:wght=A-B]
-  role = serif | mono
+  role = serif | mono | display
 """
 import base64, io, re, sys, pathlib
 from fontTools import subset
@@ -69,7 +69,7 @@ def build(spec):
     s.subset(f)
     buf = io.BytesIO(); f.flavor = "woff2"; f.save(buf)
     raw = buf.getvalue()
-    name = "BookSerif" if role == "serif" else "BookMono"
+    name = {"serif":"BookSerif","mono":"BookMono","display":"BookDisplay"}[role]
     weight = f"{lo} {hi}" if (is_var and lo != hi) else str(lo)
     rule = (f"@font-face{{font-family:'{name}';font-style:{'italic' if italic else 'normal'};"
             f"font-weight:{weight};font-display:swap;"
