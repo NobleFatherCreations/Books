@@ -26,7 +26,7 @@ B64 = re.compile(r"data:[a-zA-Z0-9/;+.-]*?base64,[A-Za-z0-9+/=]{200,}")
 def main():
     os.makedirs(OUT, exist_ok=True)
     targets = (
-        sorted(glob.glob(os.path.join(ROOT, "source/projects/*.html")))
+        sorted(glob.glob(os.path.join(ROOT, "library/*/index.html")))
         + sorted(glob.glob(os.path.join(ROOT, "fixes/*.html")))
         + [os.path.join(ROOT, "festie-codex-full.html")]
     )

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Build The Listening Room (the /music page) from deploy/music/MANIFEST.json.
+Build The Listening Room (the /music page) from instruments/music/MANIFEST.json.
 
 Why this exists: the previous music page had NO local source in the repo, and its
 entire TRACKS/SHELVES catalogue was lost in some deploy -- the live file used
@@ -11,8 +11,9 @@ CSS/JS. The mp3s themselves are gitignored but reproducible from the Drive ids i
 the manifest.
 
 Outputs (identical bytes):
-  deploy/music/index.html            -> what gets uploaded to the noblemusic site
-  source/projects/noble-father-music.html  -> the committed copy (localSource)
+  instruments/music/index.html            -> what gets uploaded to the noblemusic site
+  (previously also wrote a second identical copy to source/projects/ -- that
+   was a duplicate, not a distinct localSource, and was removed 2026-08-31.)
 
 Run:  python3 scripts/build-music.py
 """
@@ -146,7 +147,7 @@ def split_title(title):
 
 
 def build():
-    man_path = os.path.join(ROOT, 'deploy', 'music', 'MANIFEST.json')
+    man_path = os.path.join(ROOT, 'instruments', 'music', 'MANIFEST.json')
     with open(man_path, encoding='utf-8') as f:
         man = json.load(f)
 
@@ -456,8 +457,9 @@ def build():
                .replace('class="tbtn" data-act="shuffle"', 'class="tbtn only-wide" data-act="shuffle"'))
     out = out[:deck_start] + seg2 + out[deck_end:]
 
-    targets = [os.path.join(ROOT, 'deploy', 'music', 'index.html'),
-               os.path.join(ROOT, 'source', 'projects', 'noble-father-music.html')]
+    # single canonical copy now -- the second target was a byte-identical
+    # duplicate, removed 2026-08-31 rather than redirected
+    targets = [os.path.join(ROOT, 'instruments', 'music', 'index.html')]
     for p in targets:
         os.makedirs(os.path.dirname(p), exist_ok=True)
         with open(p, 'w', encoding='utf-8') as f:

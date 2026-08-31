@@ -7,28 +7,32 @@
    "slug": "wook",
    "title": "The Festie Codex",
    "url": "https://noblefathercreations.com/wook",
-   "movements": []
+   "movements": [],
+   "source": "library/wook/index.html"
   },
   {
    "project": "sovereign",
    "slug": "feminine",
    "title": "The Sovereign Divine Feminine",
    "url": "https://noblefathercreations.com/feminine",
-   "movements": []
+   "movements": [],
+   "source": "library/feminine/index.html"
   },
   {
    "project": "playground",
    "slug": "children",
    "title": "Playground Protectors",
    "url": "https://noblefathercreations.com/children",
-   "movements": []
+   "movements": [],
+   "source": "library/children/index.html"
   },
   {
    "project": "fractal",
    "slug": "fractal",
    "title": "The Fractal",
    "url": "https://noblefathercreations.com/fractal",
-   "movements": []
+   "movements": [],
+   "source": "library/fractal/index.html"
   },
   {
    "project": "root",
@@ -49,7 +53,8 @@
    "slug": "faith",
    "title": "The Coercive Control Codex",
    "url": "https://noblefathercreations.com/faith",
-   "movements": []
+   "movements": [],
+   "source": "library/faith/index.html"
   },
   {
    "project": "allfracture",
@@ -57,7 +62,8 @@
    "title": "The Fracture",
    "url": "https://noblefathercreations.com/fracture",
    "movements": [],
-   "note": "Uses a different authoring format than loop/scale (no MOVEMENTS/CH JS literals found) — not yet extracted. Do not invent chapter data."
+   "note": "Uses a different authoring format than loop/scale (no MOVEMENTS/CH JS literals found) — not yet extracted. Do not invent chapter data.",
+   "source": "library/fracture/index.html"
   },
   {
    "project": null,
@@ -497,7 +503,8 @@
       }
      ]
     }
-   ]
+   ],
+   "source": "library/loop/index.html"
   },
   {
    "project": null,
@@ -851,14 +858,15 @@
       }
      ]
     }
-   ]
+   ],
+   "source": "library/scale/index.html"
   },
   {
    "project": "longafter",
    "slug": "longafter",
    "title": "The Long After",
    "url": null,
-   "source": "books/longafter/index.html",
+   "source": "library/longafter/index.html",
    "movements": [
     {
      "numeral": "I",
@@ -1186,7 +1194,7 @@
    "slug": "silence",
    "title": "The Silence",
    "url": null,
-   "source": "books/silence/index.html",
+   "source": "library/silence/index.html",
    "movements": [
     {
      "numeral": "I",
@@ -1520,7 +1528,7 @@
    "slug": "atwill",
    "title": "At Will",
    "url": null,
-   "source": "books/atwill/index.html",
+   "source": "library/atwill/index.html",
    "movements": [
     {
      "numeral": "I",
@@ -1860,7 +1868,7 @@
    "slug": "repair",
    "title": "The Repair",
    "url": null,
-   "source": "books/repair/index.html",
+   "source": "library/repair/index.html",
    "movements": [
     {
      "numeral": "I",
@@ -2206,7 +2214,7 @@
    "slug": "slowtake",
    "title": "The Slow Take",
    "url": null,
-   "source": "books/slowtake/index.html",
+   "source": "library/slowtake/index.html",
    "movements": [
     {
      "numeral": "I",

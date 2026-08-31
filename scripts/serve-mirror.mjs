@@ -7,7 +7,7 @@
        node scripts/serve-mirror.mjs 8099
        node scripts/verify-live.mjs http://localhost:8099
 
-   Routes mirror source/projects/noble-father-catalogue._redirects. Each
+   Routes mirror hub/catalogue-redesign._redirects. Each
    book is a single self-contained HTML file, so the mapping is one line
    per project; The Casting is the one real multi-file site and is served
    from its own repo checkout, including the root-relative /assets, /data
@@ -37,21 +37,21 @@ const FETCH_MISSING = process.argv.includes('--fetch-missing');
 /* One entry per proxied path in the hub's _redirects. Values are repo-relative
    files; `null` means there is no local source (see --fetch-missing). */
 const ROUTES = {
-  '/':            'source/projects/noble-father-catalogue.html',
-  '/feminine':    'source/projects/noble-father-sovereign.html',
-  '/children':    'source/projects/noble-father-playground.html',
-  '/wook':        'source/projects/noble-father-festival.html',      // Festie CODEX
-  '/fractal':     'source/projects/noble-father-fractal.html',
-  '/fracture':    'source/projects/noble-father-fracture.html',
-  '/faith':       'source/projects/faith-index.html',
+  '/':            'hub/catalogue-redesign.html',
+  '/feminine':    'library/feminine/index.html',
+  '/children':    'library/children/index.html',
+  '/wook':        'library/wook/index.html',      // Festie CODEX
+  '/fractal':     'library/fractal/index.html',
+  '/fracture':    'library/fracture/index.html',
+  '/faith':       'library/faith/index.html',
   '/loop':        'fixes/loop.html',
   '/scale':       'fixes/scale.html',
   '/playbook':    null,                                             // live-only
-  '/shadowroot':  'source/projects/noble-father-root.html',
-  '/music':       'deploy/music/index.html',
-  '/portals':     'source/projects/noble-father-portals.html',
-  '/press':       'source/projects/noble-father-seals.html',
-  '/festival':    'source/projects/noble-father-festiebible.html',   // Festie BIBLE
+  '/shadowroot':  'instruments/shadowroot/index.html',
+  '/music':       'instruments/music/index.html',
+  '/portals':     'workshop/portals/index.html',
+  '/press':       'workshop/seals/index.html',
+  '/festival':    'library/festival/index.html',   // Festie BIBLE
   '/resin':       path.join(CASTINGS, 'index.html'),
 };
 const LIVE_FOR = { '/playbook': 'https://noblepatterns.netlify.app/' };
@@ -113,7 +113,7 @@ async function resolveFile(pathname) {
   /* The music page references its audio at an absolute origin; verify-live
      rewrites that origin onto this mirror, which lands here. */
   if (/^\/audio\//.test(clean)) {
-    const abs = path.join(REPO, 'deploy/music', path.normalize(clean));
+    const abs = path.join(REPO, 'instruments/music', path.normalize(clean));
     return (await exists(abs)) ? abs : null;
   }
 
@@ -157,7 +157,7 @@ const server = createServer(async (req, res) => {
   const headers = {
     'content-type': type,
     'content-length': body.length,
-    /* deploy/music/_headers sets this live; the analyser needs it. */
+    /* instruments/music/_headers sets this live; the analyser needs it. */
     'access-control-allow-origin': '*',
     'cache-control': 'no-store',
   };
