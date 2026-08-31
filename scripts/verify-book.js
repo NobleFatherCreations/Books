@@ -24,6 +24,7 @@ const ROUTES = ['#/', '#/help', '#/card', '#/limits', '#/c/1', '#/c/2'];
     { name: '1440', width: 1440, height: 900 },
   ]) {
     for (const motion of ['no-preference', 'reduce']) {
+      for (const dark of [false, true]) {
       const ctx = await browser.newContext({
         viewport: { width: vp.width, height: vp.height },
         isMobile: vp.isMobile, hasTouch: vp.hasTouch,
@@ -31,11 +32,13 @@ const ROUTES = ['#/', '#/help', '#/card', '#/limits', '#/c/1', '#/c/2'];
       });
       const page = await ctx.newPage();
       const errs = [];
+      // dark is a class toggle, not a media query, so it has to be set per page
       page.on('pageerror', e => errs.push('pageerror: ' + e.message));
       page.on('console', m => { if (m.type() === 'error') errs.push('console: ' + m.text()); });
 
       for (const r of ROUTES) {
         await page.goto(url + r, { waitUntil: 'load' });
+        if (dark) await page.evaluate(() => document.documentElement.classList.add('dark'));
         await page.waitForTimeout(160);
         const res = await page.evaluate(() => ({
           overflow: document.documentElement.scrollWidth - window.innerWidth,
@@ -45,15 +48,29 @@ const ROUTES = ['#/', '#/help', '#/card', '#/limits', '#/c/1', '#/c/2'];
             return s.opacity === '0' && el.getBoundingClientRect().height > 0;
           }).length,
           text: (document.getElementById('app') || {}).innerText?.trim().length || 0,
+          // text the reader cannot see because it matches its own background
+          invisibleText: (() => {
+            const seen = [];
+            for (const el of document.querySelectorAll('#app p, #app b, #app h1, #app h2, #app h3, #app li, #app a')) {
+              if (!(el.textContent || '').trim()) continue;
+              const cs = getComputedStyle(el);
+              let bg = 'rgba(0, 0, 0, 0)', n = el;
+              while (n && bg === 'rgba(0, 0, 0, 0)') { bg = getComputedStyle(n).backgroundColor; n = n.parentElement; }
+              if (cs.color === bg) seen.push(el.tagName + '.' + String(el.className).slice(0, 30));
+            }
+            return seen.slice(0, 3);
+          })(),
         }));
-        const tag = `${vp.name}/${motion}${r}`;
+        const tag = `${vp.name}/${motion}${dark ? '/dark' : ''}${r}`;
         if (res.overflow > 1) bad(`${tag} horizontal overflow +${res.overflow}px`);
         if (res.rendered === 0) bad(`${tag} nothing rendered`);
         if (res.text < 80) bad(`${tag} only ${res.text} chars of text`);
         if (res.invisible > 0) bad(`${tag} ${res.invisible} element(s) stuck at opacity:0`);
+        if (res.invisibleText.length) bad(`${tag} text the same colour as its background: ${res.invisibleText.join(', ')}`);
       }
       if (errs.length) errs.slice(0, 4).forEach(e => bad(`${vp.name}/${motion} ${e}`));
       await ctx.close();
+      }
     }
   }
 
