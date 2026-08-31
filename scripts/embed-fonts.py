@@ -55,6 +55,11 @@ def build(spec):
             axes["opsz"] = opsz
         axes["wght"] = (lo, hi) if lo != hi else lo
         f = instantiateVariableFont(f, axes, updateFontNames=False)
+    if is_var:
+        # a lazily-loaded gvar can raise KeyError mid-subset on some fonts
+        # (HankenGrotesk: 'space'). Round-tripping materialises it.
+        tmp = io.BytesIO(); f.save(tmp); tmp.seek(0)
+        f = TTFont(tmp, lazy=False)
     o = subset.Options()
     o.flavor = "woff2"
     o.layout_features = ["kern", "liga", "clig", "calt"]

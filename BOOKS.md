@@ -262,3 +262,124 @@ either output.
    started before adding new patterns).
 4. Investigate playbook/root/music structure directly rather than relying
    on tagline inference.
+
+---
+
+# The 2026-08 intake — five new books
+
+All five arrived complete and self-audited (each ships its own
+`BOOK-MAP.md`, `AUDIT.md` and `qa.js`), from one shared scaffold. They live
+in `books/<slug>/` rather than `source/projects/`, because each is a
+directory with its spec and its test alongside the page.
+
+**None of them is deployed.** They are in the repo, they pass their own
+`qa.js` and a Playwright check, and they have no HOUSE tab yet — that has to
+come from the generator, not another hand-paste, per the rule this repo
+already has and the 2026-08-12 audit's root cause.
+
+Read `books/PSYCHOLOGIST-AUDIT.md` for the content findings,
+`books/PROOFREAD-NOTES.md` for what the prose pass changed and what it
+deliberately left, `books/DESIGN.md` for the design reasoning, and
+`books/BOOK-TEMPLATE-NOTES.md` for what book six must carry from the start.
+
+## longafter — The Long After **[confirmed, worked on directly]**
+
+*"What happens once you have left."* 45 chapters, 7 movements, ~9.6k words.
+Post-separation abuse: the coercion changing channel rather than stopping,
+the systems (courts, documentation, housing, benefits), what the body is
+doing, and rebuilding over years. Sits after *Sovereign*, which ends at the
+door.
+
+**Stance:** the most patient voice in the library. Its own brief: read
+slowly, re-read, "often opened at 2am." Never prescriptive about feelings,
+never a universal timeline.
+
+**Design:** Newsreader, self-hosted. The loosest leading and most air of the
+five; movement breaks drawn as a horizon that fades out at both ends. The
+one book of the five that keeps a card grid — a held container is right
+here. Dusk/plum.
+
+**Reference adaptation:** Stripe Press cover moment ✅. Aeon measure ✅.
+Wait But Why contents ✅. No stance conflict — this book has no
+anti-gamification argument to violate, unlike Loop.
+
+## silence — The Silence **[confirmed, worked on directly]**
+
+*"For men in coercive relationships."* 46 chapters, 7 movements, ~11.4k
+words. Recognition, what actually exists to help, and what to do. Sits
+beside *Sovereign*, explicitly not instead of it.
+
+**Stance — and this one is load-bearing:** its brief names the single
+hardest sentence in the book, *this exists alongside the book for women,
+not instead of it*, and the rule that any chapter quotable as an argument
+for cutting women's services needs rewriting. That is now a test:
+`qa.js` AUDIT 6 flags comparative-grievance constructions everywhere except
+chapter 3, which is licensed to state the position once. **The book passes
+it clean.**
+
+**Design:** Source Serif 4. The only book of the five whose design argument
+is subtraction — no italic hero, no cards, a plain ruled list, tighter
+measure. Its brief asks for *less* literary, on purpose. Cool blue-grey.
+
+## atwill — At Will **[confirmed, worked on directly]**
+
+*"The coercive workplace."* 47 chapters, 7 movements, ~9.5k words. Runs
+*The Fractal*'s eight-stage architecture on a job, the way *The Loop* did
+for platforms. Teaches the pattern universally and routes the specifics,
+because employment law varies by country and often by region.
+
+**Stance:** names when nobody is choosing the harm — when an incentive
+structure produces it with no villain required — and does not let that
+excuse anyone who is choosing. Read "on a lunch break or in a car in the
+car park before a shift."
+
+**Design:** Spectral. A working file: a rule under the masthead like a form
+header, movement titles underscored in full ink, chapters as filed rows.
+Orderly rather than cold. Navy/brass.
+
+## repair — The Repair **[confirmed, worked on directly]**
+
+*"For the person on the other side of it."* 48 chapters, 7 movements, ~27.7k
+words — nearly three times the density of the others, and structurally the
+strongest of the five before any work: 48 distinct chapter shapes, a `try`
+in 58% of chapters.
+
+**Stance:** relief is the enemy. Success is behaviour change measured over
+months by the people affected, not insight and not remorse. The brief's
+standing rule: *if a paragraph would make the reader feel better about
+themselves without changing what they will do on Thursday, cut it.* It
+blocks two exits by name — "I'm a monster" and "I'm actually fine."
+
+**Design:** Crimson Text. A ledger, because chapter 2 writes the brief
+itself: *"That is a record, not an identity."* Hairline rules, numerals in
+their own column, every radius squared off, nothing raised, accent reserved
+for danger. **No warmth that could read as absolution** — that applies to
+the design as much as the prose. Stone/oxblood.
+
+**Do not soften chapters 2, 5 and 47.** The book says so and it is right:
+they are what stop it being used as a shield.
+
+## slowtake — The Slow Take **[confirmed, worked on directly]**
+
+*"Elder financial exploitation, for the adult child."* 45 chapters, 7
+movements, ~10k words.
+
+**The design decision that makes it findable:** it is not written for the
+person it is happening to. An older adult being isolated and exploited is
+the least likely person to search for a book about it; their adult child is
+the one who searches.
+
+**Stance — held, never resolved:** *autonomy is not safety, and safety is
+not the only value.* An older adult keeps the right to make bad decisions
+and trust the wrong person. Guardianship removes legal personhood and is
+itself frequently abused. A book that picks a side produces either readers
+who steamroll a competent adult or readers who watch and call it choice.
+Chapter 42 ("Am I the one benefiting?") is not optional — it exists because
+an adult child who is themselves the exploiter would read this.
+
+**Design:** Hanken Grotesk — **the only book in the library not set in a
+serif**, and the reason is the reader, not taste: a frightened, exhausted
+adult child scanning on a phone for what to do next is doing
+reference-manual reading, not linear reading. Chapters hang off a
+continuous vertical thread, because a record built entry by entry over
+months is what the book is asking for. Warm cream/olive/brass.

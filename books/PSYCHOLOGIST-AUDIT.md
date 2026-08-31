@@ -263,3 +263,78 @@ them to *The Long After* or *Sovereign*.
 Not applied: where this goes is a real editorial decision (chapter 5 is
 `[H]` and its turning-away is load-bearing), and it is the one finding
 here I'd want the author's call on rather than mine.
+
+---
+
+## THE SLOW TAKE
+
+*45 chapters · 221 words/chapter · elder financial exploitation*
+Brief: written for the **adult child**, not the person it is happening to,
+because "an elderly parent being isolated and exploited is, by the nature
+of the harm, the least likely person to go looking for a book about it."
+Voice steady, warm, unhurried, never clinical, never alarmist. The hardest
+problem, stated once and never abandoned: *autonomy is not safety, and
+safety is not the only value.*
+
+**1. Zero reporting routes across forty-five chapters.** `APPLIED`
+This is the subject with the most developed reporting infrastructure of the
+five — adult protective services, adult safeguarding, an elder-abuse
+helpline, and every large bank's own financial-abuse team — and the book
+named none of them as a route. The bar pointed at chapter 33. A reader who
+has just realised what is happening needs the category and the search
+string, not a chapter. Now a `#/help` page, with the bank row placed second
+because it is usually the fastest intervention actually available.
+
+**2. Chapter 36 calls a record "the single most useful thing you can
+create" and never shows one.** `APPLIED`
+Third book in the set with this exact gap. The version here needed one
+extra thing the other two did not: this reader is recording observations
+about a parent whose competence is in dispute, so the template insists on
+observed rather than inferred — *"asked me twice in one visit who had been
+paying the gas bill,"* not *"seemed confused about the money."* A record of
+observations survives someone disputing the interpretation. A record of
+conclusions does not.
+
+**3. Chapter 42 is the safeguard the brief calls "not optional," at 42 of
+45.** `APPLIED`
+"Am I the one benefiting?" is the chapter that exists because an adult
+child exploiting a parent could use this book as a manual to spot what a
+sibling might notice. It is a genuinely good chapter with a real self-audit
+in it. It was reachable only by reading forty-one chapters first. Now on
+the contents screen, next to chapter 40 — which is the other decision this
+reader actually has to make.
+
+**4. The stale card block, for the third time in five books.** `APPLIED`
+"Filling in as the book is written," listing the full action sequence and
+the reporting routes as still to come, on a finished book — and, exactly as
+in *At Will*, the very next heading on the same card already delivers the
+list it promises. Three of five books shipped this identical defect, which
+makes it a property of the scaffold rather than three separate oversights.
+
+**5. `try` in three of forty-five chapters, with Movement VI titled
+"Acting."** `OPEN`
+Same shape as the other books, and sharpest here: this reader is not
+reading to understand, they are reading to find out what to do this week.
+One template was added (finding 2). The rest is a real content pass rather
+than a formatting change, so it is named and left.
+
+---
+
+## The finding that only appears with five books side by side
+
+Four defects show up in three or more of the five, in the same form, and
+one shows up in all five:
+
+| defect | books affected |
+|---|---|
+| no way off the page | all five |
+| the persistent help bar points at a chapter, not at help | all five |
+| a documentation chapter that never shows an entry | The Long After, At Will, The Slow Take |
+| "Filling in as the book is written" on a finished book | The Long After, At Will, The Slow Take |
+| the book's own safeguard chapter placed at the very end | The Repair (47/48), The Slow Take (42/45) |
+
+These are not five books with similar oversights. They are one scaffold's
+gaps, inherited five times. The practical consequence: fixing them in a
+book fixes one instance, and the sixth book will arrive with all of them
+again unless the scaffold changes. `books/BOOK-TEMPLATE-NOTES.md` records
+what a new book needs to carry from the start.

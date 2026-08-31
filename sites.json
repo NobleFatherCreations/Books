@@ -1,558 +1,703 @@
 {
-  "generated": "2026-08-02",
-  "updated": "2026-08-05",
-  "note": "Machine-readable registry of every Noble Father Creations live project. Built by fetching noblefathercreations.com live, cross-referencing the connected Netlify account (all netlifySite mappings below are byte-verified against live content, not guessed), and cross-referencing a user-supplied review package (source/) documenting a prior design session. Any AI/tool working on this project should read this file first instead of re-guessing URLs.",
-  "hub": {
-    "title": "Noble Father Creations",
-    "url": "https://noblefathercreations.com",
-    "netlifySite": "noblefathercreations",
-    "netlifySiteId": "58596923-a3a6-4f9e-9e9f-e934a1920aed",
-    "deploySource": "cli",
-    "localSource": "source/projects/noble-father-catalogue.html",
-    "localSourceNote": "This is the first verified live deploy of the redesigned 'collected works' hub. A 2026-08-02 review package claimed the catalogue hub redesign was already deployed, but it did NOT byte-match live content at the time -- treat this 2026-08-05 deploy as the true first release.",
+ "generated": "2026-08-02",
+ "updated": "2026-08-05",
+ "note": "Machine-readable registry of every Noble Father Creations live project. Built by fetching noblefathercreations.com live, cross-referencing the connected Netlify account (all netlifySite mappings below are byte-verified against live content, not guessed), and cross-referencing a user-supplied review package (source/) documenting a prior design session. Any AI/tool working on this project should read this file first instead of re-guessing URLs.",
+ "hub": {
+  "title": "Noble Father Creations",
+  "url": "https://noblefathercreations.com",
+  "netlifySite": "noblefathercreations",
+  "netlifySiteId": "58596923-a3a6-4f9e-9e9f-e934a1920aed",
+  "deploySource": "cli",
+  "localSource": "source/projects/noble-father-catalogue.html",
+  "localSourceNote": "This is the first verified live deploy of the redesigned 'collected works' hub. A 2026-08-02 review package claimed the catalogue hub redesign was already deployed, but it did NOT byte-match live content at the time -- treat this 2026-08-05 deploy as the true first release.",
+  "version": "v10",
+  "changelog": [
+   {
+    "date": "2026-08-12",
     "version": "v10",
-    "changelog": [
-      {
-        "date": "2026-08-12",
-        "version": "v10",
-        "summary": "Fixed The Casting loading as unstyled text with no photos when opened from this site -- its stylesheets, scripts and photo data live as separate files and were being looked for on the wrong site, so none of them arrived. Renamed \"The Fracture Everywhere\" to just \"The Fracture\" everywhere it appears, and folded in the older \"All Fracture\" name that was still showing on several pages, so there is now one name. New cover art for The Festie Codex."
-      },
-      {
-        "date": "2026-08-11",
-        "version": "v9",
-        "summary": "Added real commissioned cover art for The Loop, The Weighing, and The Festie Bible, and a new hero image for The Casting, replacing placeholder icons. Fixed hero stat counts that had drifted stale (said 8 books/2 tools/2 craft lines against an actual 9/3/3) and completed the footer's Library and Workshop link lists, which were each missing several entries. Deployed live via the Netlify MCP deploy tool (confirmed working in this environment after earlier incorrectly reporting no deploy capability)."
-      },
-      {
-        "date": "2026-08-11",
-        "version": "v8",
-        "summary": "The Festie Bible's address (/festival) is now actually live and working -- fixed a JavaScript syntax error (smart/curly quotes used as real code delimiters) and a missing data declaration that both black-screened the book on entry. Added The Casting to the Workshop: a new card linking to the eco-resin/candle/glow-art site at /resin."
-      },
-      {
-        "date": "2026-08-10",
-        "version": "v7",
-        "summary": "Added The Festie Bible as a new book in the Library -- twelve field guides for every corner of the festival world (women, men, first-timers, LGBTQ+ attendees, artists, musicians, vendors, staff, harm reduction, camp leads, promoters, health & safety). Not fully live yet -- the book itself is built, but its own address is still pending a hosting decision."
-      },
-      {
-        "date": "2026-08-09",
-        "version": "v6",
-        "summary": "The opening walkthrough is now a real guided tour -- it lights up one door at a time and tells you what is behind that one, then points out the coin and the music button, instead of dumping all five things into a single block of text. You can still tap a door at any point to skip ahead. Fixed the intro video cutting out after about three seconds: when a phone refuses to autoplay (Low Power Mode does this), the opening frame now holds as a title card you can tap to actually watch the clip, rather than giving up and fading away. The last two links still pointing at a raw netlify.app address -- The Portals and The Press -- now use noblefathercreations.com/portals and /press like everything else."
-      },
-      {
-        "date": "2026-08-09",
-        "version": "v5",
-        "summary": "The corner button is now the actual Noble Father mark (a coin, not a generic icon). Music is back -- it starts softly once you choose a door, with a new button next to it to mute it any time. The tutorial now explains both buttons. Fixed every link on the page that was sending people to a bare netlify.app address instead of noblefathercreations.com/faith, /playbook, and the rest -- those addresses were never actually wired up before, so this is the first time they work."
-      },
-      {
-        "date": "2026-08-09",
-        "version": "v4",
-        "summary": "The red button in the corner is now the Noble Father mark instead of the letters \"NF\". Fixed the title being sliced in half at the top of the opening screen: the door screen had more on it than fits a phone, so it had been scrolling inside its own frame. It now shows only what an entrance needs -- the mark, the title, one line, and the three doors -- and fits one screen on every phone, tablet and laptop, with the rest of the page returning the moment a door is chosen. \"The Workshop\" no longer wraps onto a second line under its door, and the last words of the link below the doors no longer hide behind the corner button. Visitors who have motion turned down, and phones in Low Power Mode (which blocks video outright), now get the opening frame held as a still title card instead of a blank screen, and the rest of the page keeps its gentle fades instead of switching off every animation."
-      },
-      {
-        "date": "2026-08-09",
-        "version": "v3",
-        "summary": "A pass on the small stuff that adds up: every button and card now visibly presses when tapped or clicked, not just when hovered -- including the tutorial's own \"Choose a door\" button, which previously had no reaction to a click at all. Fixed a touch-device bug where the 3D book-tilt effect in the Library and Workshop could stay stuck in its tilted position after tapping a card, since phones fake a hover state on tap; it's now a real mouse-only effect with its own separate tap feedback. The four opening numbers (2 living tools, 8 books, and so on) now count in one after another instead of appearing all at once."
-      },
-      {
-        "date": "2026-08-08",
-        "version": "v2",
-        "summary": "Fixed the intro video not playing and the tutorial not appearing on some phones; the 3 doors are now genuinely the only thing you can do until you pick one (scrolling past them no longer works); each door now visibly moves instead of only reacting to hover, which never fires on a touch screen. Also found and fixed a layout bug this same round introduced -- the door screen had grown taller than one view, and centering it on the doors pushed the title off the top of the screen with no way to scroll back to it; it now scrolls smoothly within its own frame instead. Typography rebuilt: the display serif now uses its full character at large sizes, headings have real weight contrast, and small print moved out of the monospace into something easier to read on a phone."
-      }
-    ]
-  },
-  "projects": [
-    {
-      "codename": "decoder",
-      "slug": "playbook",
-      "title": "The Pattern Decoder",
-      "tagline": "349 tactics · type what happened",
-      "url": "https://noblefathercreations.com/playbook",
-      "netlifySite": "noblepatterns",
-      "netlifySiteId": "8b3d5fdf-49e5-46eb-bb53-97d69039a44e",
-      "deploySource": "cli",
-      "hasGitRepo": false,
-      "houseTabLeak": {
-        "found": false,
-        "checkedAt": "2026-08-02"
-      },
-      "version": "v1",
-      "changelog": [
-        {
-          "date": "unknown",
-          "version": "v1",
-          "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
-        }
-      ]
-    },
-    {
-      "codename": "root",
-      "slug": "shadowroot",
-      "title": "The Root",
-      "tagline": "Shadow work, guided",
-      "url": "https://noblefathercreations.com/shadowroot",
-      "netlifySite": "nobleshadows",
-      "netlifySiteId": "b5ff07f1-2ee6-4c6a-9591-a1e6ef7baa91",
-      "deploySource": "unknown",
-      "hasGitRepo": false,
-      "localSource": "source/projects/noble-father-root.html",
-      "localSourceVerified": "byte-exact match to live content, 2026-08-02",
-      "houseTabLeak": {
-        "found": false,
-        "checkedAt": "2026-08-02"
-      },
-      "version": "v1",
-      "changelog": [
-        {
-          "date": "unknown",
-          "version": "v1",
-          "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
-        }
-      ]
-    },
-    {
-      "codename": "sovereign",
-      "slug": "feminine",
-      "title": "The Sovereign Divine Feminine",
-      "tagline": "42 chapters · recovery for women",
-      "url": "https://noblefathercreations.com/feminine",
-      "netlifySite": "sovereign-woman",
-      "netlifySiteId": "7683f8ed-03f4-4829-8fd4-f6affea18a16",
-      "deploySource": "cli (via @netlify/mcp deploy-site)",
-      "hasGitRepo": false,
-      "localSource": "source/projects/noble-father-sovereign.html",
-      "localSourceVerified": "byte-exact match to live content, confirmed via deploy verification, 2026-08-05",
-      "houseTabLeak": {
-        "found": false,
-        "checkedAt": "2026-08-02"
-      },
-      "version": "v2",
-      "changelog": [
-        {
-          "date": "2026-08-05",
-          "version": "v2",
-          "summary": "Removed 2 leaked process-narration sentences, fixed a counter bug (all 12 tactic badges showed \"1\"), gave Appendix B a real anchor, restored 6 chapters' closing Mandate card, and fixed 8 more glued-heading markup bugs."
-        },
-        {
-          "date": "unknown",
-          "version": "v1",
-          "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
-        }
-      ]
-    },
-    {
-      "codename": "playground",
-      "slug": "children",
-      "title": "Playground Protectors",
-      "tagline": "For kids & their guardians",
-      "url": "https://noblefathercreations.com/children",
-      "netlifySite": "playgroundprotector",
-      "netlifySiteId": "90b0a06d-1e11-4302-9292-f2e2780b195a",
-      "deploySource": "cli (via @netlify/mcp deploy-site)",
-      "hasGitRepo": false,
-      "localSource": "source/projects/noble-father-playground.html",
-      "localSourceVerified": "byte-exact match to live content, confirmed via deploy verification, 2026-08-05",
-      "houseTabLeak": {
-        "found": false,
-        "checkedAt": "2026-08-02"
-      },
-      "version": "v2",
-      "changelog": [
-        {
-          "date": "2026-08-05",
-          "version": "v2",
-          "summary": "Fixed 36 word-substitution corruption instances (including a broken Kristin Neff citation), 3 broken Grown-Up Corner sections, a broken speech bubble, 2 typos, and a missing panel boundary."
-        },
-        {
-          "date": "unknown",
-          "version": "v1",
-          "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
-        }
-      ]
-    },
-    {
-      "codename": "festie+codex",
-      "slug": "wook",
-      "title": "The Festie Codex",
-      "tagline": "Festival & field harm reduction",
-      "url": "https://noblefathercreations.com/wook",
-      "netlifySite": "wook-in-sheeps-clothing",
-      "netlifySiteId": "460c07e8-463e-4213-8e14-9711cb430741",
-      "deploySource": "unknown",
-      "hasGitRepo": true,
-      "gitRepo": "NobleFatherCreations/Wookbook",
-      "gitFile": "festie-codex-full.html",
-      "localSource": "source/projects/noble-father-festival.html",
-      "localSourceNote": "RESOLVED 2026-08-03: festie-codex-full.html and source/projects/noble-father-festival.html are the same document, kept manually in sync (no symlink). RE-DRIFTED and re-synced 2026-08-05: two repo-wide sweeps (Loop/Scale House-tab, Fracture rename) touched only the source/projects copy and missed the git-deployed repo-root file. Standing risk: any future source/projects/*.html sweep will miss festie-codex-full.html again unless it's explicitly included — check both are byte-identical before trusting either as current.",
-      "houseTabLeak": {
-        "found": false,
-        "checkedAt": "2026-08-02"
-      },
-      "version": "v1",
-      "changelog": [
-        {
-          "date": "unknown",
-          "version": "v1",
-          "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
-        }
-      ]
-    },
-    {
-      "codename": "fractal",
-      "slug": "fractal",
-      "title": "The Fractal",
-      "tagline": "The architecture, 29 sectors wide",
-      "url": "https://noblefathercreations.com/fractal",
-      "netlifySite": "thefractal",
-      "netlifySiteId": "e94ed486-0392-4045-86c8-b9c3a26b911a",
-      "deploySource": "cli (via @netlify/mcp deploy-site)",
-      "hasGitRepo": false,
-      "localSource": "source/projects/noble-father-fractal.html",
-      "localSourceVerified": "byte-exact match to live content, confirmed via deploy verification, 2026-08-05",
-      "houseTabLeak": {
-        "found": false,
-        "checkedAt": "2026-08-02"
-      },
-      "version": "v2",
-      "changelog": [
-        {
-          "date": "2026-08-05",
-          "version": "v2",
-          "summary": "4 sector chapters (Technology, Dating, Surveillance, Child Welfare) now show their finished narrative instead of a placeholder; cleaned up 11 duplicated-text bugs and a leaked planning note in the technique matrix."
-        },
-        {
-          "date": "unknown",
-          "version": "v1",
-          "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
-        }
-      ]
-    },
-    {
-      "codename": "allfracture",
-      "slug": "fracture",
-      "title": "The Fracture",
-      "titleHistory": [
-        "All Fracture (original)",
-        "The Fracture Everywhere (renamed 2026-08-05)",
-        "The Fracture (renamed 2026-08-12, current)"
-      ],
-      "tagline": "The wealth transfer · 195 citations",
-      "url": "https://noblefathercreations.com/fracture",
-      "netlifySite": "fractures",
-      "netlifySiteId": "8939c138-e34a-433c-8c01-9af5ebbd75b2",
-      "deploySource": "cli (via @netlify/mcp deploy-site)",
-      "hasGitRepo": false,
-      "localSource": "source/projects/noble-father-fracture.html",
-      "localSourceVerified": "byte-exact match to live content, confirmed via deploy verification, 2026-08-05",
-      "houseTabLeak": {
-        "found": false,
-        "checkedAt": "2026-08-02"
-      },
-      "version": "v2",
-      "changelog": [
-        {
-          "date": "2026-08-12",
-          "version": "v2",
-          "summary": "Renamed to \"The Fracture\" (from \"The Fracture Everywhere\"). The address /fracture is unchanged."
-        },
-        {
-          "date": "2026-08-05",
-          "version": "v2",
-          "summary": "Renamed from \"All Fracture\" to \"The Fracture Everywhere\" (since shortened again to \"The Fracture\"). Verified all 195 citations against the author's own source list (zero discrepancies) and corrected a false claim about which episodes have sourcing - Episodes 9 and 10 are now honestly flagged as not yet sourced instead of silently missing."
-        },
-        {
-          "date": "unknown",
-          "version": "v1",
-          "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
-        }
-      ]
-    },
-    {
-      "codename": null,
-      "slug": "loop",
-      "title": "The Loop",
-      "tagline": "The machine that learns you",
-      "url": "https://noblefathercreations.com/loop",
-      "netlifySite": "noble-the-loop",
-      "netlifySiteId": "b9405b37-a71c-4c55-bbd2-a3043963b457",
-      "deploySource": "cli (via @netlify/mcp deploy-site)",
-      "hasGitRepo": false,
-      "houseTabLeak": {
-        "found": true,
-        "checkedAt": "2026-08-02",
-        "fixReady": true,
-        "fixFile": "fixes/loop.html",
-        "fixVerified": "byte-exact removal, 757 bytes, single contiguous span, rest of file untouched",
-        "deployed": true,
-        "deployedAt": "2026-08-05"
-      },
-      "version": "v2",
-      "changelog": [
-        {
-          "date": "2026-08-05",
-          "version": "v2",
-          "summary": "Removed the leaked build-instructions HTML comment from THE HOUSE tab (fix was verified and ready for months, finally deployed)."
-        },
-        {
-          "date": "unknown",
-          "version": "v1",
-          "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
-        }
-      ],
-      "localSourceVerified": "byte-exact match to live content, confirmed via deploy verification, 2026-08-05",
-      "localSource": "fixes/loop.html"
-    },
-    {
-      "codename": null,
-      "slug": "scale",
-      "title": "The Weighing",
-      "tagline": "How to be right about people",
-      "url": "https://noblefathercreations.com/scale",
-      "netlifySite": "noble-the-weighing",
-      "netlifySiteId": "27ab9f53-5850-4fb1-8bed-6513b33ee11f",
-      "deploySource": "cli (via @netlify/mcp deploy-site)",
-      "hasGitRepo": false,
-      "houseTabLeak": {
-        "found": true,
-        "checkedAt": "2026-08-02",
-        "fixReady": true,
-        "fixFile": "fixes/scale.html",
-        "fixVerified": "byte-exact removal, 761 bytes, single contiguous span, rest of file untouched",
-        "deployed": true,
-        "deployedAt": "2026-08-05"
-      },
-      "version": "v2",
-      "changelog": [
-        {
-          "date": "2026-08-05",
-          "version": "v2",
-          "summary": "Removed the leaked build-instructions HTML comment from THE HOUSE tab (fix was verified and ready for months, finally deployed)."
-        },
-        {
-          "date": "unknown",
-          "version": "v1",
-          "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
-        }
-      ],
-      "localSourceVerified": "byte-exact match to live content, confirmed via deploy verification, 2026-08-05",
-      "localSource": "fixes/scale.html"
-    },
-    {
-      "codename": null,
-      "slug": "faith",
-      "title": "The Coercive Control Codex",
-      "tagline": "Honor the faith · name the machinery",
-      "url": "https://noblefathercreations.com/faith",
-      "netlifySite": "thenobledivide",
-      "netlifySiteId": "97e63fba-2202-40fc-b5e1-9ccadaf29374",
-      "deploySource": "cli (via @netlify/mcp deploy-site)",
-      "hasGitRepo": false,
-      "houseTabLeak": {
-        "found": false,
-        "checkedAt": "2026-08-05",
-        "note": "Moot as of this deploy - the live site is now faith-index.html's lineage, which never had the old nh-drawer House Tab component at all (self-contained, no shared chrome, by design). The old fixes/faith.html leak fix is superseded, not applied - that lineage is no longer live here."
-      },
-      "version": "v2",
-      "changelog": [
-        {
-          "date": "2026-08-05",
-          "version": "v2",
-          "summary": "Replaced the live content entirely with faith-index.html's lineage: a merge of a user-supplied NAV3 navigation rebuild (command bar, act rail, cross-compare, full matrix grid) and WCAG-AA legibility pass, with this book's own apex-chain visualization, graded evidence matrix, and motion-polish layer grafted back in. The old nh-drawer House Tab (and its comment leak) is gone - this lineage never had shared chrome, by design."
-        },
-        {
-          "date": "unknown",
-          "version": "v1",
-          "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
-        }
-      ],
-      "localSource": "source/projects/faith-index.html",
-      "localSourceVerified": "byte-exact match to live content, confirmed via deploy verification, 2026-08-05"
-    },
-    {
-      "codename": null,
-      "slug": "music",
-      "title": "The Listening Room",
-      "tagline": "Sorted by what each song is for",
-      "url": "https://noblefathercreations.com/music",
-      "netlifySite": "noblemusic",
-      "netlifySiteId": "05683d2c-cb07-43cb-8e2c-d8cd380c0287",
-      "deploySource": "unknown",
-      "hasGitRepo": false,
-      "localSource": "source/projects/noble-father-music.html",
-      "localSourceNote": "GENERATED - do not hand-edit. Rebuild with `python3 scripts/build-music.py`, which writes this file and deploy/music/index.html as identical bytes from deploy/music/MANIFEST.json. The 176 mp3s live in deploy/music/audio/ (gitignored, reproducible from the Drive ids in the manifest). See deploy/music/README.md.",
-      "localSourceVerified": "built and verified locally 2026-08-12; NOT yet deployed",
-      "deployPending": true,
-      "deployNote": "v2 is built and verified in the repo but has never been deployed. The audio directory (~1.26 GB) has to go up with it. Needs explicit user go-ahead as a production write.",
-      "houseTabLeak": {
-        "found": false,
-        "checkedAt": "2026-08-02"
-      },
-      "version": "v2",
-      "changelog": [
-        {
-          "date": "2026-08-12",
-          "version": "v2",
-          "summary": "Rebuilt from nothing after the audit found the page rendering as an empty shell: it used TRACKS 8x and SHELVES 3x and declared neither, and held zero audio references, so the whole catalogue was gone. Recovered 176 tracks from the user's Drive folder (183 files seen; 7 pairs were the same Suno generation saved twice and were collapsed). Durations measured with ffprobe, never estimated. Sorted onto 6 purpose-based shelves. Wholly new player UI: record-sleeve now-playing panel with generated sleeve art, live AnalyserNode frequency display with a CSS fallback, scrub bar with buffered-range feedback, shuffle, volume, keyboard shortcuts, and a full-screen now-playing sheet on phones. Page weight 889KB -> 250KB (the old file embedded the same variable-font blob three times per family). Source is now committed and generated, so the data cannot go missing again. Also replaced the older red 'THE HOUSE' side tab with the current seal + catalogue drawer and added the two projects (Festie Bible, Casting) that appeared in 0 of 14 book catalogues. NOT YET DEPLOYED."
-        },
-        {
-          "date": "unknown",
-          "version": "v1",
-          "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
-        }
-      ]
-    },
-    {
-      "codename": "festie+bible",
-      "slug": "festival",
-      "title": "The Festie Bible",
-      "tagline": "Twelve field guides for the whole festival world",
-      "url": "https://noblefathercreations.com/festival",
-      "netlifySite": "noble-festie-bible",
-      "netlifySiteId": "2cc3eca0-4213-4987-8f82-a89c43587328",
-      "deploySource": "netlify-api",
-      "hasGitRepo": true,
-      "gitRepo": "NobleFatherCreations/Wookbook",
-      "gitFile": null,
-      "localSource": "source/projects/noble-father-festiebible.html",
-      "localSourceNote": "2026-08-10: built from the 183-page FestieBible COMPLETE COLLECTION PDF (3 files, 60+61+62 pages) the user uploaded. Content extracted via OCR (the source PDF has broken font ligature mappings that silently drop letters from its own text stream -- OCR against the 300dpi render was used as ground truth instead) into content/festie-bible-data.json (12 guides, 149 scenarios, ~44k words of scenario prose). Rebuilt as a single self-contained HTML app (data-driven template, not hand-typed pages) using the hub design tokens (Fraunces/Hanken Grotesk/Space Mono, warm plum-black + brass palette) plus a 12-color persona accent per guide. Linked from the hub Library as VOL. X. NOT YET DEPLOYED -- needs a new Netlify site (or another hosting decision) before /festiebible resolves; see _redirects TODO in noble-father-catalogue._redirects. 2026-08-10 (later): deployed live at noble-festie-bible.netlify.app, routed through noblefathercreations.com/festival via _redirects. Prior to deploy, a design/UI review agent found the scenario data had severe, systemic extraction corruption (check-field bleed and MOVE/SAY/TRUTH column-header text glued onto ~145/149 scenarios, OCR glyph misreads of capital I as !/⁄/|/l, ~30 truncated hook titles, a leaked © bullet-glyph artifact, trailing page-marker fragments, and assorted missing-space typos) -- fixed across four review rounds, each verified against the raw OCR text and re-scanned with a full-dataset regex/structural/tokenization sweep before the corruption was confirmed fully resolved.",
-      "houseTabLeak": {
-        "found": false,
-        "checkedAt": "2026-08-10"
-      },
-      "version": "v6",
-      "changelog": [
-        {
-          "date": "2026-08-12",
-          "version": "v6",
-          "summary": "Added a way out of the book: a House link in the top bar on every page and a link to the rest of the catalogue in the footer. Previously the only links out were TikTok, email and the crisis resources, so the only way back was the browser's back button."
-        },
-        {
-          "date": "2026-08-11",
-          "version": "v5",
-          "summary": "Redesigned the homepage: the 314-word mission statement used to fill the entire first screen before the twelve guides appeared -- it now sits in its own readable section further down, broken into paragraphs, and the guide grid shows up right away. Added polish throughout: proper press feedback on every button/link that was missing it, a staggered entrance for guide cards and scenario-index lists, and named-property transitions in place of the one remaining catch-all transition. Deployed live."
-        },
-        {
-          "date": "2026-08-11",
-          "version": "v4",
-          "summary": "Editorial prose polish across all 149 scenarios (12 guides) -- fixed 46 unbalanced quotation marks, 12 stray parser-artifact fragments, 5 remaining glued darkTitle/dark pairs, and ~20 scattered typos. Not a rewrite -- the prose was already strong; this was a precision cleanup pass. Deployed live."
-        },
-        {
-          "date": "2026-08-11",
-          "version": "v3",
-          "summary": "Fixed a black-screen bug on entering any guide: curly/smart quotes had corrupted the JavaScript in renderGuideIntro() (used as real code delimiters, not just apostrophes) and the SCENARIO_INDEX data block had gone missing entirely during an earlier data fix. Also added a per-guide scenario navigation index so every scenario in a guide is one tap away from its intro page, instead of only reachable by paging through sequentially. Verified live via curl + node --check against the deployed file, not just the local copy."
-        },
-        {
-          "date": "2026-08-10",
-          "version": "v2",
-          "summary": "Increased font sizes across the app for readability, fixed a sticky-bar/footer overlap bug, wired up the previously-unused footer/colophon, and fixed systemic scenario-data extraction corruption found by review (garbled check callouts, mislabeled Move/Say/Truth text, truncated titles, and various typos across most of the 149 scenarios). Deployed live."
-        },
-        {
-          "date": "2026-08-10",
-          "version": "v1",
-          "summary": "First build. All 12 guides (G.R.O.V.E./B.A.S.S./R.A.V.E./P.R.I.D.E./C.R.E.A.T.E./S.O.U.N.D./M.A.R.K.E.T./H.O.L.D./C.A.R.E./L.E.A.D./E.V.E.N.T./S.A.F.E.), 149 scenario pages, extracted and rebuilt with a real logo (the source PDF's brand mark rendered at ~10% opacity -- fixed), reading-progress bar, in-guide contents drawer, and a persistent crisis-resource strip."
-        }
-      ]
-    }
-  ],
-  "craftBusiness": [
-    {
-      "title": "The Shop",
-      "tagline": "Wax seals · jewelry · NFC craft",
-      "url": "https://nfcportals.netlify.app/",
-      "netlifySite": "nfcportals",
-      "localSource": "source/projects/noble-father-portals.html",
-      "localSourceVerified": "byte-exact match to live content, 2026-08-02"
-    },
-    {
-      "title": "The Press",
-      "tagline": "Real wax, a voice inside",
-      "url": "https://noblenfcseals.netlify.app/",
-      "netlifySite": "noblenfcseals",
-      "localSource": "source/projects/noble-father-seals.html",
-      "localSourceVerified": "byte-exact match to live content, 2026-08-02"
-    },
-    {
-      "title": null,
-      "tagline": null,
-      "url": "https://noble-nfc-tour.netlify.app/",
-      "netlifySite": "noble-nfc-tour"
-    },
-    {
-      "title": null,
-      "tagline": null,
-      "url": "https://nfchq.netlify.app/",
-      "netlifySite": "nfchq"
-    },
-    {
-      "title": "The Casting",
-      "tagline": "Hand-poured · one of one · never repeated",
-      "url": "https://incandescent-kataifi-cde77d.netlify.app/",
-      "netlifySite": "incandescent-kataifi-cde77d",
-      "note": "Eco-resin statues, hollow candle pillars, and glow-in-the-dark resin pieces -- 293 pieces. Real source now lives in its own repo: github.com/NobleFatherCreations/Castings (pushed 2026-08-11, full static-site-generator project -- Node/sharp ingest+build pipeline, 445MB/1502 files including all product photos). This is now the source of truth for this project going forward -- clone it, edit, `npm run pages`, redeploy via the same Netlify MCP deploy-site pattern used for the hub. Netlify site fbd96c13-059a-491b-a270-95e02a308a92.",
-      "version": "v5",
-      "changelog": [
-        {
-          "date": "2026-08-12",
-          "version": "v5",
-          "summary": "Added the final inventory batch: 133 new pieces, taking the collection from 293 to 426. Every new piece was photographed, auto-cropped, colour-corrected and filed by subject, type and finish. Most of this batch is unpainted white resin, so you can now browse blanks as well as finished pieces. Tag list cut from 126 to 42 -- narrow one-offs folded into broader groups so filtering is actually usable. Also fixed three photos where the auto-crop had locked onto the backdrop instead of the (white) statue and cropped the piece out of frame, and corrected the Portals link so it works from either address."
-        },
-        {
-          "date": "2026-08-11",
-          "version": "v4",
-          "summary": "Mobile: the filter panel (subject/type/finish/tag chips) no longer renders fully open by default -- it's collapsed behind a Filters button, so the product grid is visible without scrolling past the whole taxonomy first. Added press feedback (a small tap animation) to every button, chip, and link that was missing it. The piece viewer now opens with an animation that zooms in from the photo you tapped, instead of just from the center of the screen. Grid tiles fade in with a slight stagger instead of all at once. Fixed a leftover 'Untitled piece' placeholder that could show up in the viewer. Deployed live."
-        },
-        {
-          "date": "2026-08-11",
-          "version": "v3",
-          "summary": "Deeper tag cleanup (146 unique tags, down from 235) and moved the project into its own git repo so it can be edited going forward. NOTE: the tag cleanup is committed to the new repo but NOT yet redeployed live -- Netlify account hit its usage/credit cap mid-deploy ('Skipped due to account credit usage exceeded'). Live site still shows the v2 pass (235 tags) until redeployed."
-        },
-        {
-          "date": "2026-08-11",
-          "version": "v2",
-          "summary": "Fixed color tags (removed), duplicate tags (merged), false uniqueness claims (corrected), and a sticky filters panel that could obstruct the whole gallery. Deployed live."
-        }
-      ],
-      "gitRepo": "NobleFatherCreations/Castings",
-      "localSource": null
-    }
-  ],
-  "otherLiveSites": [
-    {
-      "title": "The Reaction Map",
-      "tagline": "A field guide to conscious consumption",
-      "url": "https://noblereactionmap.netlify.app/",
-      "netlifySite": "noblereactionmap",
-      "localSource": "source/projects/noble-father-reaction-map.html",
-      "localSourceVerified": "byte-exact match to live content, 2026-08-02",
-      "note": "Review package fixed a real bug here: a variable used before declaration silently killed ~600 lines of setup (checklist, AI analyser, tour never ran). Now fixed and live."
-    }
-  ],
-  "undeployedRedesigns": [
-    {
-      "title": "The Catalogue (main hub redesign, codename \"The Study\")",
-      "localSource": "source/projects/noble-father-catalogue.html",
-      "intendedUrl": "https://noblefathercreations.com/ (replaces the hub)",
-      "status": "NOT deployed — live main page (4.47MB) does not byte-match this file (10.7MB), though the live page's <title> already reads 'Noble Father Creations — The Catalogue', suggesting a partial/earlier deploy of just the title. Review doc claims all 11 non-faith pages were 'deployed live and verified serving,' but this one does not check out — flag before trusting that claim for this file specifically.",
-      "description": "Full compositional rebuild of the hub: physical-object book cards (bound spine, page-edge, shelf), reworked hero, fixed a layout bug (Music/Support both numbered №03)."
-    },
-    {
-      "title": "The Sacred Divide (retitled redesign of the Coercive Control Codex / faith book)",
-      "localSource": "source/projects/noble-father-divide.html",
-      "intendedUrl": "https://noblefathercreations.com/faith (same Netlify site as 'faith': thenobledivide)",
-      "status": "STILL not deployed as of 2026-08-05 — superseded by a different decision: thenobledivide.netlify.app now serves faith-index.html's lineage instead (deployed 2026-08-05, see projects[] 'faith' entry). This redesign (noble-father-divide.html) remains a separate, still-undeployed option — not evaluated against faith-index.html, no decision made between them beyond what already shipped.",
-      "description": "Retitled from 'The Coercive Control Codex' to 'The Sacred Divide.' Three-register redesign for tactic entries (how it appears / the defense / the counter), parchment + dark theme, no leak present in this version at all."
-    }
-  ],
-  "unmappedNetlifySites": [
-    "shaeroselotus"
-  ],
-  "notes": [
-    "9-slug codename list from planning thread (main·codex·sovereign·playground·festie·fractal·allfracture·decoder·root) maps to real live slugs above; festie+codex merged into one book ('wook').",
-    "Two books (loop, scale) plus one more (faith) exist live but weren't named in the original 9-codename planning thread.",
-    "playbook was suspected of leaking the HOUSE-tab comment but re-checked clean — earlier grep hit was its own legitimate data-here nav attribute.",
-    "loop/scale/faith deploySource='cli' confirmed via Netlify deploy metadata (commit_ref: null) — no GitHub repo backs them, so the leak fix can only ship via a direct Netlify redeploy, not a git push.",
-    "Only 'wook' (this repo, Wookbook) is git-backed; all other projects are Netlify CLI/API deploys with no linked repo Claude can add.",
-    "2026-08-02 update: user supplied a review package (source/) — local HTML source + a build log (source/REVIEW-SUMMARY.md) from a prior design session covering 12 files. root/sovereign/playground/fractal/fracture/wook(as noble-father-festival.html)/portals/seals/reaction-map are claimed deployed; portals/seals/reaction-map/root confirmed byte-exact live, the rest not independently re-verified. Two pieces (catalogue hub redesign, Sacred Divide) are claimed deployed by the review doc but do NOT byte-match live content — treat that specific claim in the review doc as unconfirmed/incorrect until resolved with the user.",
-    "wook's local review-package file (noble-father-festival.html) has a different title than this repo's tracked festie-codex-full.html — unresolved discrepancy, needs a diff before assuming either supersedes the other.",
-    "2026-08-05 deploy round: confirmed the actual working deploy mechanism for these Netlify CLI/API sites (no linked repo) — call the deploy-site MCP operation for a siteId, it returns a `npx -y @netlify/mcp@latest --site-id <id> --proxy-path <token>` command; run that from a staging directory containing ONLY the single index.html to deploy (running it from the repo root would upload the whole repo instead). Verified via byte-diff against the live URL after every deploy. Used this to push feminine/children/fractal/fracture (all byte-confirmed live) and to redeploy faith. fixes/loop.html and fixes/scale.html are ready with the same mechanism whenever the user wants that leak fix pushed — not yet run.",
-    "2026-08-05: faith-index.html deployed to thenobledivide, replacing the prior live 'Coercive Control Codex' content (the fixes/faith.html lineage). That lineage's leak fix is now moot — it's not the live content anymore. The Sacred Divide redesign (noble-father-divide.html) remains a separate, still-undeployed option."
+    "summary": "Fixed The Casting loading as unstyled text with no photos when opened from this site -- its stylesheets, scripts and photo data live as separate files and were being looked for on the wrong site, so none of them arrived. Renamed \"The Fracture Everywhere\" to just \"The Fracture\" everywhere it appears, and folded in the older \"All Fracture\" name that was still showing on several pages, so there is now one name. New cover art for The Festie Codex."
+   },
+   {
+    "date": "2026-08-11",
+    "version": "v9",
+    "summary": "Added real commissioned cover art for The Loop, The Weighing, and The Festie Bible, and a new hero image for The Casting, replacing placeholder icons. Fixed hero stat counts that had drifted stale (said 8 books/2 tools/2 craft lines against an actual 9/3/3) and completed the footer's Library and Workshop link lists, which were each missing several entries. Deployed live via the Netlify MCP deploy tool (confirmed working in this environment after earlier incorrectly reporting no deploy capability)."
+   },
+   {
+    "date": "2026-08-11",
+    "version": "v8",
+    "summary": "The Festie Bible's address (/festival) is now actually live and working -- fixed a JavaScript syntax error (smart/curly quotes used as real code delimiters) and a missing data declaration that both black-screened the book on entry. Added The Casting to the Workshop: a new card linking to the eco-resin/candle/glow-art site at /resin."
+   },
+   {
+    "date": "2026-08-10",
+    "version": "v7",
+    "summary": "Added The Festie Bible as a new book in the Library -- twelve field guides for every corner of the festival world (women, men, first-timers, LGBTQ+ attendees, artists, musicians, vendors, staff, harm reduction, camp leads, promoters, health & safety). Not fully live yet -- the book itself is built, but its own address is still pending a hosting decision."
+   },
+   {
+    "date": "2026-08-09",
+    "version": "v6",
+    "summary": "The opening walkthrough is now a real guided tour -- it lights up one door at a time and tells you what is behind that one, then points out the coin and the music button, instead of dumping all five things into a single block of text. You can still tap a door at any point to skip ahead. Fixed the intro video cutting out after about three seconds: when a phone refuses to autoplay (Low Power Mode does this), the opening frame now holds as a title card you can tap to actually watch the clip, rather than giving up and fading away. The last two links still pointing at a raw netlify.app address -- The Portals and The Press -- now use noblefathercreations.com/portals and /press like everything else."
+   },
+   {
+    "date": "2026-08-09",
+    "version": "v5",
+    "summary": "The corner button is now the actual Noble Father mark (a coin, not a generic icon). Music is back -- it starts softly once you choose a door, with a new button next to it to mute it any time. The tutorial now explains both buttons. Fixed every link on the page that was sending people to a bare netlify.app address instead of noblefathercreations.com/faith, /playbook, and the rest -- those addresses were never actually wired up before, so this is the first time they work."
+   },
+   {
+    "date": "2026-08-09",
+    "version": "v4",
+    "summary": "The red button in the corner is now the Noble Father mark instead of the letters \"NF\". Fixed the title being sliced in half at the top of the opening screen: the door screen had more on it than fits a phone, so it had been scrolling inside its own frame. It now shows only what an entrance needs -- the mark, the title, one line, and the three doors -- and fits one screen on every phone, tablet and laptop, with the rest of the page returning the moment a door is chosen. \"The Workshop\" no longer wraps onto a second line under its door, and the last words of the link below the doors no longer hide behind the corner button. Visitors who have motion turned down, and phones in Low Power Mode (which blocks video outright), now get the opening frame held as a still title card instead of a blank screen, and the rest of the page keeps its gentle fades instead of switching off every animation."
+   },
+   {
+    "date": "2026-08-09",
+    "version": "v3",
+    "summary": "A pass on the small stuff that adds up: every button and card now visibly presses when tapped or clicked, not just when hovered -- including the tutorial's own \"Choose a door\" button, which previously had no reaction to a click at all. Fixed a touch-device bug where the 3D book-tilt effect in the Library and Workshop could stay stuck in its tilted position after tapping a card, since phones fake a hover state on tap; it's now a real mouse-only effect with its own separate tap feedback. The four opening numbers (2 living tools, 8 books, and so on) now count in one after another instead of appearing all at once."
+   },
+   {
+    "date": "2026-08-08",
+    "version": "v2",
+    "summary": "Fixed the intro video not playing and the tutorial not appearing on some phones; the 3 doors are now genuinely the only thing you can do until you pick one (scrolling past them no longer works); each door now visibly moves instead of only reacting to hover, which never fires on a touch screen. Also found and fixed a layout bug this same round introduced -- the door screen had grown taller than one view, and centering it on the doors pushed the title off the top of the screen with no way to scroll back to it; it now scrolls smoothly within its own frame instead. Typography rebuilt: the display serif now uses its full character at large sizes, headings have real weight contrast, and small print moved out of the monospace into something easier to read on a phone."
+   }
   ]
+ },
+ "projects": [
+  {
+   "codename": "decoder",
+   "slug": "playbook",
+   "title": "The Pattern Decoder",
+   "tagline": "349 tactics · type what happened",
+   "url": "https://noblefathercreations.com/playbook",
+   "netlifySite": "noblepatterns",
+   "netlifySiteId": "8b3d5fdf-49e5-46eb-bb53-97d69039a44e",
+   "deploySource": "cli",
+   "hasGitRepo": false,
+   "houseTabLeak": {
+    "found": false,
+    "checkedAt": "2026-08-02"
+   },
+   "version": "v1",
+   "changelog": [
+    {
+     "date": "unknown",
+     "version": "v1",
+     "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
+    }
+   ]
+  },
+  {
+   "codename": "root",
+   "slug": "shadowroot",
+   "title": "The Root",
+   "tagline": "Shadow work, guided",
+   "url": "https://noblefathercreations.com/shadowroot",
+   "netlifySite": "nobleshadows",
+   "netlifySiteId": "b5ff07f1-2ee6-4c6a-9591-a1e6ef7baa91",
+   "deploySource": "unknown",
+   "hasGitRepo": false,
+   "localSource": "source/projects/noble-father-root.html",
+   "localSourceVerified": "byte-exact match to live content, 2026-08-02",
+   "houseTabLeak": {
+    "found": false,
+    "checkedAt": "2026-08-02"
+   },
+   "version": "v1",
+   "changelog": [
+    {
+     "date": "unknown",
+     "version": "v1",
+     "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
+    }
+   ]
+  },
+  {
+   "codename": "sovereign",
+   "slug": "feminine",
+   "title": "The Sovereign Divine Feminine",
+   "tagline": "42 chapters · recovery for women",
+   "url": "https://noblefathercreations.com/feminine",
+   "netlifySite": "sovereign-woman",
+   "netlifySiteId": "7683f8ed-03f4-4829-8fd4-f6affea18a16",
+   "deploySource": "cli (via @netlify/mcp deploy-site)",
+   "hasGitRepo": false,
+   "localSource": "source/projects/noble-father-sovereign.html",
+   "localSourceVerified": "byte-exact match to live content, confirmed via deploy verification, 2026-08-05",
+   "houseTabLeak": {
+    "found": false,
+    "checkedAt": "2026-08-02"
+   },
+   "version": "v2",
+   "changelog": [
+    {
+     "date": "2026-08-05",
+     "version": "v2",
+     "summary": "Removed 2 leaked process-narration sentences, fixed a counter bug (all 12 tactic badges showed \"1\"), gave Appendix B a real anchor, restored 6 chapters' closing Mandate card, and fixed 8 more glued-heading markup bugs."
+    },
+    {
+     "date": "unknown",
+     "version": "v1",
+     "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
+    }
+   ]
+  },
+  {
+   "codename": "playground",
+   "slug": "children",
+   "title": "Playground Protectors",
+   "tagline": "For kids & their guardians",
+   "url": "https://noblefathercreations.com/children",
+   "netlifySite": "playgroundprotector",
+   "netlifySiteId": "90b0a06d-1e11-4302-9292-f2e2780b195a",
+   "deploySource": "cli (via @netlify/mcp deploy-site)",
+   "hasGitRepo": false,
+   "localSource": "source/projects/noble-father-playground.html",
+   "localSourceVerified": "byte-exact match to live content, confirmed via deploy verification, 2026-08-05",
+   "houseTabLeak": {
+    "found": false,
+    "checkedAt": "2026-08-02"
+   },
+   "version": "v2",
+   "changelog": [
+    {
+     "date": "2026-08-05",
+     "version": "v2",
+     "summary": "Fixed 36 word-substitution corruption instances (including a broken Kristin Neff citation), 3 broken Grown-Up Corner sections, a broken speech bubble, 2 typos, and a missing panel boundary."
+    },
+    {
+     "date": "unknown",
+     "version": "v1",
+     "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
+    }
+   ]
+  },
+  {
+   "codename": "festie+codex",
+   "slug": "wook",
+   "title": "The Festie Codex",
+   "tagline": "Festival & field harm reduction",
+   "url": "https://noblefathercreations.com/wook",
+   "netlifySite": "wook-in-sheeps-clothing",
+   "netlifySiteId": "460c07e8-463e-4213-8e14-9711cb430741",
+   "deploySource": "unknown",
+   "hasGitRepo": true,
+   "gitRepo": "NobleFatherCreations/Wookbook",
+   "gitFile": "festie-codex-full.html",
+   "localSource": "source/projects/noble-father-festival.html",
+   "localSourceNote": "RESOLVED 2026-08-03: festie-codex-full.html and source/projects/noble-father-festival.html are the same document, kept manually in sync (no symlink). RE-DRIFTED and re-synced 2026-08-05: two repo-wide sweeps (Loop/Scale House-tab, Fracture rename) touched only the source/projects copy and missed the git-deployed repo-root file. Standing risk: any future source/projects/*.html sweep will miss festie-codex-full.html again unless it's explicitly included — check both are byte-identical before trusting either as current.",
+   "houseTabLeak": {
+    "found": false,
+    "checkedAt": "2026-08-02"
+   },
+   "version": "v1",
+   "changelog": [
+    {
+     "date": "unknown",
+     "version": "v1",
+     "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
+    }
+   ]
+  },
+  {
+   "codename": "fractal",
+   "slug": "fractal",
+   "title": "The Fractal",
+   "tagline": "The architecture, 29 sectors wide",
+   "url": "https://noblefathercreations.com/fractal",
+   "netlifySite": "thefractal",
+   "netlifySiteId": "e94ed486-0392-4045-86c8-b9c3a26b911a",
+   "deploySource": "cli (via @netlify/mcp deploy-site)",
+   "hasGitRepo": false,
+   "localSource": "source/projects/noble-father-fractal.html",
+   "localSourceVerified": "byte-exact match to live content, confirmed via deploy verification, 2026-08-05",
+   "houseTabLeak": {
+    "found": false,
+    "checkedAt": "2026-08-02"
+   },
+   "version": "v2",
+   "changelog": [
+    {
+     "date": "2026-08-05",
+     "version": "v2",
+     "summary": "4 sector chapters (Technology, Dating, Surveillance, Child Welfare) now show their finished narrative instead of a placeholder; cleaned up 11 duplicated-text bugs and a leaked planning note in the technique matrix."
+    },
+    {
+     "date": "unknown",
+     "version": "v1",
+     "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
+    }
+   ]
+  },
+  {
+   "codename": "allfracture",
+   "slug": "fracture",
+   "title": "The Fracture",
+   "titleHistory": [
+    "All Fracture (original)",
+    "The Fracture Everywhere (renamed 2026-08-05)",
+    "The Fracture (renamed 2026-08-12, current)"
+   ],
+   "tagline": "The wealth transfer · 195 citations",
+   "url": "https://noblefathercreations.com/fracture",
+   "netlifySite": "fractures",
+   "netlifySiteId": "8939c138-e34a-433c-8c01-9af5ebbd75b2",
+   "deploySource": "cli (via @netlify/mcp deploy-site)",
+   "hasGitRepo": false,
+   "localSource": "source/projects/noble-father-fracture.html",
+   "localSourceVerified": "byte-exact match to live content, confirmed via deploy verification, 2026-08-05",
+   "houseTabLeak": {
+    "found": false,
+    "checkedAt": "2026-08-02"
+   },
+   "version": "v2",
+   "changelog": [
+    {
+     "date": "2026-08-12",
+     "version": "v2",
+     "summary": "Renamed to \"The Fracture\" (from \"The Fracture Everywhere\"). The address /fracture is unchanged."
+    },
+    {
+     "date": "2026-08-05",
+     "version": "v2",
+     "summary": "Renamed from \"All Fracture\" to \"The Fracture Everywhere\" (since shortened again to \"The Fracture\"). Verified all 195 citations against the author's own source list (zero discrepancies) and corrected a false claim about which episodes have sourcing - Episodes 9 and 10 are now honestly flagged as not yet sourced instead of silently missing."
+    },
+    {
+     "date": "unknown",
+     "version": "v1",
+     "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
+    }
+   ]
+  },
+  {
+   "codename": null,
+   "slug": "loop",
+   "title": "The Loop",
+   "tagline": "The machine that learns you",
+   "url": "https://noblefathercreations.com/loop",
+   "netlifySite": "noble-the-loop",
+   "netlifySiteId": "b9405b37-a71c-4c55-bbd2-a3043963b457",
+   "deploySource": "cli (via @netlify/mcp deploy-site)",
+   "hasGitRepo": false,
+   "houseTabLeak": {
+    "found": true,
+    "checkedAt": "2026-08-02",
+    "fixReady": true,
+    "fixFile": "fixes/loop.html",
+    "fixVerified": "byte-exact removal, 757 bytes, single contiguous span, rest of file untouched",
+    "deployed": true,
+    "deployedAt": "2026-08-05"
+   },
+   "version": "v2",
+   "changelog": [
+    {
+     "date": "2026-08-05",
+     "version": "v2",
+     "summary": "Removed the leaked build-instructions HTML comment from THE HOUSE tab (fix was verified and ready for months, finally deployed)."
+    },
+    {
+     "date": "unknown",
+     "version": "v1",
+     "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
+    }
+   ],
+   "localSourceVerified": "byte-exact match to live content, confirmed via deploy verification, 2026-08-05",
+   "localSource": "fixes/loop.html"
+  },
+  {
+   "codename": null,
+   "slug": "scale",
+   "title": "The Weighing",
+   "tagline": "How to be right about people",
+   "url": "https://noblefathercreations.com/scale",
+   "netlifySite": "noble-the-weighing",
+   "netlifySiteId": "27ab9f53-5850-4fb1-8bed-6513b33ee11f",
+   "deploySource": "cli (via @netlify/mcp deploy-site)",
+   "hasGitRepo": false,
+   "houseTabLeak": {
+    "found": true,
+    "checkedAt": "2026-08-02",
+    "fixReady": true,
+    "fixFile": "fixes/scale.html",
+    "fixVerified": "byte-exact removal, 761 bytes, single contiguous span, rest of file untouched",
+    "deployed": true,
+    "deployedAt": "2026-08-05"
+   },
+   "version": "v2",
+   "changelog": [
+    {
+     "date": "2026-08-05",
+     "version": "v2",
+     "summary": "Removed the leaked build-instructions HTML comment from THE HOUSE tab (fix was verified and ready for months, finally deployed)."
+    },
+    {
+     "date": "unknown",
+     "version": "v1",
+     "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
+    }
+   ],
+   "localSourceVerified": "byte-exact match to live content, confirmed via deploy verification, 2026-08-05",
+   "localSource": "fixes/scale.html"
+  },
+  {
+   "codename": null,
+   "slug": "faith",
+   "title": "The Coercive Control Codex",
+   "tagline": "Honor the faith · name the machinery",
+   "url": "https://noblefathercreations.com/faith",
+   "netlifySite": "thenobledivide",
+   "netlifySiteId": "97e63fba-2202-40fc-b5e1-9ccadaf29374",
+   "deploySource": "cli (via @netlify/mcp deploy-site)",
+   "hasGitRepo": false,
+   "houseTabLeak": {
+    "found": false,
+    "checkedAt": "2026-08-05",
+    "note": "Moot as of this deploy - the live site is now faith-index.html's lineage, which never had the old nh-drawer House Tab component at all (self-contained, no shared chrome, by design). The old fixes/faith.html leak fix is superseded, not applied - that lineage is no longer live here."
+   },
+   "version": "v2",
+   "changelog": [
+    {
+     "date": "2026-08-05",
+     "version": "v2",
+     "summary": "Replaced the live content entirely with faith-index.html's lineage: a merge of a user-supplied NAV3 navigation rebuild (command bar, act rail, cross-compare, full matrix grid) and WCAG-AA legibility pass, with this book's own apex-chain visualization, graded evidence matrix, and motion-polish layer grafted back in. The old nh-drawer House Tab (and its comment leak) is gone - this lineage never had shared chrome, by design."
+    },
+    {
+     "date": "unknown",
+     "version": "v1",
+     "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
+    }
+   ],
+   "localSource": "source/projects/faith-index.html",
+   "localSourceVerified": "byte-exact match to live content, confirmed via deploy verification, 2026-08-05"
+  },
+  {
+   "codename": null,
+   "slug": "music",
+   "title": "The Listening Room",
+   "tagline": "Sorted by what each song is for",
+   "url": "https://noblefathercreations.com/music",
+   "netlifySite": "noblemusic",
+   "netlifySiteId": "05683d2c-cb07-43cb-8e2c-d8cd380c0287",
+   "deploySource": "unknown",
+   "hasGitRepo": false,
+   "localSource": "source/projects/noble-father-music.html",
+   "localSourceNote": "GENERATED - do not hand-edit. Rebuild with `python3 scripts/build-music.py`, which writes this file and deploy/music/index.html as identical bytes from deploy/music/MANIFEST.json. The 176 mp3s live in deploy/music/audio/ (gitignored, reproducible from the Drive ids in the manifest). See deploy/music/README.md.",
+   "localSourceVerified": "built and verified locally 2026-08-12; NOT yet deployed",
+   "deployPending": true,
+   "deployNote": "v2 is built and verified in the repo but has never been deployed. The audio directory (~1.26 GB) has to go up with it. Needs explicit user go-ahead as a production write.",
+   "houseTabLeak": {
+    "found": false,
+    "checkedAt": "2026-08-02"
+   },
+   "version": "v2",
+   "changelog": [
+    {
+     "date": "2026-08-12",
+     "version": "v2",
+     "summary": "Rebuilt from nothing after the audit found the page rendering as an empty shell: it used TRACKS 8x and SHELVES 3x and declared neither, and held zero audio references, so the whole catalogue was gone. Recovered 176 tracks from the user's Drive folder (183 files seen; 7 pairs were the same Suno generation saved twice and were collapsed). Durations measured with ffprobe, never estimated. Sorted onto 6 purpose-based shelves. Wholly new player UI: record-sleeve now-playing panel with generated sleeve art, live AnalyserNode frequency display with a CSS fallback, scrub bar with buffered-range feedback, shuffle, volume, keyboard shortcuts, and a full-screen now-playing sheet on phones. Page weight 889KB -> 250KB (the old file embedded the same variable-font blob three times per family). Source is now committed and generated, so the data cannot go missing again. Also replaced the older red 'THE HOUSE' side tab with the current seal + catalogue drawer and added the two projects (Festie Bible, Casting) that appeared in 0 of 14 book catalogues. NOT YET DEPLOYED."
+    },
+    {
+     "date": "unknown",
+     "version": "v1",
+     "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
+    }
+   ]
+  },
+  {
+   "codename": "festie+bible",
+   "slug": "festival",
+   "title": "The Festie Bible",
+   "tagline": "Twelve field guides for the whole festival world",
+   "url": "https://noblefathercreations.com/festival",
+   "netlifySite": "noble-festie-bible",
+   "netlifySiteId": "2cc3eca0-4213-4987-8f82-a89c43587328",
+   "deploySource": "netlify-api",
+   "hasGitRepo": true,
+   "gitRepo": "NobleFatherCreations/Wookbook",
+   "gitFile": null,
+   "localSource": "source/projects/noble-father-festiebible.html",
+   "localSourceNote": "2026-08-10: built from the 183-page FestieBible COMPLETE COLLECTION PDF (3 files, 60+61+62 pages) the user uploaded. Content extracted via OCR (the source PDF has broken font ligature mappings that silently drop letters from its own text stream -- OCR against the 300dpi render was used as ground truth instead) into content/festie-bible-data.json (12 guides, 149 scenarios, ~44k words of scenario prose). Rebuilt as a single self-contained HTML app (data-driven template, not hand-typed pages) using the hub design tokens (Fraunces/Hanken Grotesk/Space Mono, warm plum-black + brass palette) plus a 12-color persona accent per guide. Linked from the hub Library as VOL. X. NOT YET DEPLOYED -- needs a new Netlify site (or another hosting decision) before /festiebible resolves; see _redirects TODO in noble-father-catalogue._redirects. 2026-08-10 (later): deployed live at noble-festie-bible.netlify.app, routed through noblefathercreations.com/festival via _redirects. Prior to deploy, a design/UI review agent found the scenario data had severe, systemic extraction corruption (check-field bleed and MOVE/SAY/TRUTH column-header text glued onto ~145/149 scenarios, OCR glyph misreads of capital I as !/⁄/|/l, ~30 truncated hook titles, a leaked © bullet-glyph artifact, trailing page-marker fragments, and assorted missing-space typos) -- fixed across four review rounds, each verified against the raw OCR text and re-scanned with a full-dataset regex/structural/tokenization sweep before the corruption was confirmed fully resolved.",
+   "houseTabLeak": {
+    "found": false,
+    "checkedAt": "2026-08-10"
+   },
+   "version": "v6",
+   "changelog": [
+    {
+     "date": "2026-08-12",
+     "version": "v6",
+     "summary": "Added a way out of the book: a House link in the top bar on every page and a link to the rest of the catalogue in the footer. Previously the only links out were TikTok, email and the crisis resources, so the only way back was the browser's back button."
+    },
+    {
+     "date": "2026-08-11",
+     "version": "v5",
+     "summary": "Redesigned the homepage: the 314-word mission statement used to fill the entire first screen before the twelve guides appeared -- it now sits in its own readable section further down, broken into paragraphs, and the guide grid shows up right away. Added polish throughout: proper press feedback on every button/link that was missing it, a staggered entrance for guide cards and scenario-index lists, and named-property transitions in place of the one remaining catch-all transition. Deployed live."
+    },
+    {
+     "date": "2026-08-11",
+     "version": "v4",
+     "summary": "Editorial prose polish across all 149 scenarios (12 guides) -- fixed 46 unbalanced quotation marks, 12 stray parser-artifact fragments, 5 remaining glued darkTitle/dark pairs, and ~20 scattered typos. Not a rewrite -- the prose was already strong; this was a precision cleanup pass. Deployed live."
+    },
+    {
+     "date": "2026-08-11",
+     "version": "v3",
+     "summary": "Fixed a black-screen bug on entering any guide: curly/smart quotes had corrupted the JavaScript in renderGuideIntro() (used as real code delimiters, not just apostrophes) and the SCENARIO_INDEX data block had gone missing entirely during an earlier data fix. Also added a per-guide scenario navigation index so every scenario in a guide is one tap away from its intro page, instead of only reachable by paging through sequentially. Verified live via curl + node --check against the deployed file, not just the local copy."
+    },
+    {
+     "date": "2026-08-10",
+     "version": "v2",
+     "summary": "Increased font sizes across the app for readability, fixed a sticky-bar/footer overlap bug, wired up the previously-unused footer/colophon, and fixed systemic scenario-data extraction corruption found by review (garbled check callouts, mislabeled Move/Say/Truth text, truncated titles, and various typos across most of the 149 scenarios). Deployed live."
+    },
+    {
+     "date": "2026-08-10",
+     "version": "v1",
+     "summary": "First build. All 12 guides (G.R.O.V.E./B.A.S.S./R.A.V.E./P.R.I.D.E./C.R.E.A.T.E./S.O.U.N.D./M.A.R.K.E.T./H.O.L.D./C.A.R.E./L.E.A.D./E.V.E.N.T./S.A.F.E.), 149 scenario pages, extracted and rebuilt with a real logo (the source PDF's brand mark rendered at ~10% opacity -- fixed), reading-progress bar, in-guide contents drawer, and a persistent crisis-resource strip."
+    }
+   ]
+  },
+  {
+   "codename": null,
+   "slug": "longafter",
+   "title": "The Long After",
+   "tagline": "What happens once you have left",
+   "url": null,
+   "netlifySite": null,
+   "netlifySiteId": null,
+   "deploySource": null,
+   "hasGitRepo": true,
+   "repoPath": "books/longafter/index.html",
+   "chapters": 45,
+   "words": 9591,
+   "selfContained": true,
+   "houseTabLeak": {
+    "found": false,
+    "checkedAt": "2026-08-31",
+    "note": "New book; no HOUSE tab yet. Needs the shared nav before deploy."
+   },
+   "status": "in repo, never deployed",
+   "version": "v1",
+   "changelog": [
+    {
+     "date": "2026-08-31",
+     "version": "v1",
+     "summary": "Brought into the repo and put through the full pass: psychologist audit, proofreading and no-ai-slop, and its own design identity. Not yet deployed."
+    }
+   ]
+  },
+  {
+   "codename": null,
+   "slug": "silence",
+   "title": "The Silence",
+   "tagline": "For men in coercive relationships",
+   "url": null,
+   "netlifySite": null,
+   "netlifySiteId": null,
+   "deploySource": null,
+   "hasGitRepo": true,
+   "repoPath": "books/silence/index.html",
+   "chapters": 46,
+   "words": 11437,
+   "selfContained": true,
+   "houseTabLeak": {
+    "found": false,
+    "checkedAt": "2026-08-31",
+    "note": "New book; no HOUSE tab yet. Needs the shared nav before deploy."
+   },
+   "status": "in repo, never deployed",
+   "version": "v1",
+   "changelog": [
+    {
+     "date": "2026-08-31",
+     "version": "v1",
+     "summary": "Brought into the repo and put through the full pass: psychologist audit, proofreading and no-ai-slop, and its own design identity. Not yet deployed."
+    }
+   ]
+  },
+  {
+   "codename": null,
+   "slug": "atwill",
+   "title": "At Will",
+   "tagline": "The coercive workplace",
+   "url": null,
+   "netlifySite": null,
+   "netlifySiteId": null,
+   "deploySource": null,
+   "hasGitRepo": true,
+   "repoPath": "books/atwill/index.html",
+   "chapters": 47,
+   "words": 9517,
+   "selfContained": true,
+   "houseTabLeak": {
+    "found": false,
+    "checkedAt": "2026-08-31",
+    "note": "New book; no HOUSE tab yet. Needs the shared nav before deploy."
+   },
+   "status": "in repo, never deployed",
+   "version": "v1",
+   "changelog": [
+    {
+     "date": "2026-08-31",
+     "version": "v1",
+     "summary": "Brought into the repo and put through the full pass: psychologist audit, proofreading and no-ai-slop, and its own design identity. Not yet deployed."
+    }
+   ]
+  },
+  {
+   "codename": null,
+   "slug": "repair",
+   "title": "The Repair",
+   "tagline": "For the person on the other side of it",
+   "url": null,
+   "netlifySite": null,
+   "netlifySiteId": null,
+   "deploySource": null,
+   "hasGitRepo": true,
+   "repoPath": "books/repair/index.html",
+   "chapters": 48,
+   "words": 27673,
+   "selfContained": true,
+   "houseTabLeak": {
+    "found": false,
+    "checkedAt": "2026-08-31",
+    "note": "New book; no HOUSE tab yet. Needs the shared nav before deploy."
+   },
+   "status": "in repo, never deployed",
+   "version": "v1",
+   "changelog": [
+    {
+     "date": "2026-08-31",
+     "version": "v1",
+     "summary": "Brought into the repo and put through the full pass: psychologist audit, proofreading and no-ai-slop, and its own design identity. Not yet deployed."
+    }
+   ]
+  },
+  {
+   "codename": null,
+   "slug": "slowtake",
+   "title": "The Slow Take",
+   "tagline": "Elder financial exploitation, for the adult child",
+   "url": null,
+   "netlifySite": null,
+   "netlifySiteId": null,
+   "deploySource": null,
+   "hasGitRepo": true,
+   "repoPath": "books/slowtake/index.html",
+   "chapters": 45,
+   "words": 10012,
+   "selfContained": true,
+   "houseTabLeak": {
+    "found": false,
+    "checkedAt": "2026-08-31",
+    "note": "New book; no HOUSE tab yet. Needs the shared nav before deploy."
+   },
+   "status": "in repo, never deployed",
+   "version": "v1",
+   "changelog": [
+    {
+     "date": "2026-08-31",
+     "version": "v1",
+     "summary": "Brought into the repo and put through the full pass: psychologist audit, proofreading and no-ai-slop, and its own design identity. Not yet deployed."
+    }
+   ]
+  }
+ ],
+ "craftBusiness": [
+  {
+   "title": "The Shop",
+   "tagline": "Wax seals · jewelry · NFC craft",
+   "url": "https://nfcportals.netlify.app/",
+   "netlifySite": "nfcportals",
+   "localSource": "source/projects/noble-father-portals.html",
+   "localSourceVerified": "byte-exact match to live content, 2026-08-02"
+  },
+  {
+   "title": "The Press",
+   "tagline": "Real wax, a voice inside",
+   "url": "https://noblenfcseals.netlify.app/",
+   "netlifySite": "noblenfcseals",
+   "localSource": "source/projects/noble-father-seals.html",
+   "localSourceVerified": "byte-exact match to live content, 2026-08-02"
+  },
+  {
+   "title": null,
+   "tagline": null,
+   "url": "https://noble-nfc-tour.netlify.app/",
+   "netlifySite": "noble-nfc-tour"
+  },
+  {
+   "title": null,
+   "tagline": null,
+   "url": "https://nfchq.netlify.app/",
+   "netlifySite": "nfchq"
+  },
+  {
+   "title": "The Casting",
+   "tagline": "Hand-poured · one of one · never repeated",
+   "url": "https://incandescent-kataifi-cde77d.netlify.app/",
+   "netlifySite": "incandescent-kataifi-cde77d",
+   "note": "Eco-resin statues, hollow candle pillars, and glow-in-the-dark resin pieces -- 293 pieces. Real source now lives in its own repo: github.com/NobleFatherCreations/Castings (pushed 2026-08-11, full static-site-generator project -- Node/sharp ingest+build pipeline, 445MB/1502 files including all product photos). This is now the source of truth for this project going forward -- clone it, edit, `npm run pages`, redeploy via the same Netlify MCP deploy-site pattern used for the hub. Netlify site fbd96c13-059a-491b-a270-95e02a308a92.",
+   "version": "v5",
+   "changelog": [
+    {
+     "date": "2026-08-12",
+     "version": "v5",
+     "summary": "Added the final inventory batch: 133 new pieces, taking the collection from 293 to 426. Every new piece was photographed, auto-cropped, colour-corrected and filed by subject, type and finish. Most of this batch is unpainted white resin, so you can now browse blanks as well as finished pieces. Tag list cut from 126 to 42 -- narrow one-offs folded into broader groups so filtering is actually usable. Also fixed three photos where the auto-crop had locked onto the backdrop instead of the (white) statue and cropped the piece out of frame, and corrected the Portals link so it works from either address."
+    },
+    {
+     "date": "2026-08-11",
+     "version": "v4",
+     "summary": "Mobile: the filter panel (subject/type/finish/tag chips) no longer renders fully open by default -- it's collapsed behind a Filters button, so the product grid is visible without scrolling past the whole taxonomy first. Added press feedback (a small tap animation) to every button, chip, and link that was missing it. The piece viewer now opens with an animation that zooms in from the photo you tapped, instead of just from the center of the screen. Grid tiles fade in with a slight stagger instead of all at once. Fixed a leftover 'Untitled piece' placeholder that could show up in the viewer. Deployed live."
+    },
+    {
+     "date": "2026-08-11",
+     "version": "v3",
+     "summary": "Deeper tag cleanup (146 unique tags, down from 235) and moved the project into its own git repo so it can be edited going forward. NOTE: the tag cleanup is committed to the new repo but NOT yet redeployed live -- Netlify account hit its usage/credit cap mid-deploy ('Skipped due to account credit usage exceeded'). Live site still shows the v2 pass (235 tags) until redeployed."
+    },
+    {
+     "date": "2026-08-11",
+     "version": "v2",
+     "summary": "Fixed color tags (removed), duplicate tags (merged), false uniqueness claims (corrected), and a sticky filters panel that could obstruct the whole gallery. Deployed live."
+    }
+   ],
+   "gitRepo": "NobleFatherCreations/Castings",
+   "localSource": null
+  }
+ ],
+ "otherLiveSites": [
+  {
+   "title": "The Reaction Map",
+   "tagline": "A field guide to conscious consumption",
+   "url": "https://noblereactionmap.netlify.app/",
+   "netlifySite": "noblereactionmap",
+   "localSource": "source/projects/noble-father-reaction-map.html",
+   "localSourceVerified": "byte-exact match to live content, 2026-08-02",
+   "note": "Review package fixed a real bug here: a variable used before declaration silently killed ~600 lines of setup (checklist, AI analyser, tour never ran). Now fixed and live."
+  }
+ ],
+ "undeployedRedesigns": [
+  {
+   "title": "The Catalogue (main hub redesign, codename \"The Study\")",
+   "localSource": "source/projects/noble-father-catalogue.html",
+   "intendedUrl": "https://noblefathercreations.com/ (replaces the hub)",
+   "status": "NOT deployed — live main page (4.47MB) does not byte-match this file (10.7MB), though the live page's <title> already reads 'Noble Father Creations — The Catalogue', suggesting a partial/earlier deploy of just the title. Review doc claims all 11 non-faith pages were 'deployed live and verified serving,' but this one does not check out — flag before trusting that claim for this file specifically.",
+   "description": "Full compositional rebuild of the hub: physical-object book cards (bound spine, page-edge, shelf), reworked hero, fixed a layout bug (Music/Support both numbered №03)."
+  },
+  {
+   "title": "The Sacred Divide (retitled redesign of the Coercive Control Codex / faith book)",
+   "localSource": "source/projects/noble-father-divide.html",
+   "intendedUrl": "https://noblefathercreations.com/faith (same Netlify site as 'faith': thenobledivide)",
+   "status": "STILL not deployed as of 2026-08-05 — superseded by a different decision: thenobledivide.netlify.app now serves faith-index.html's lineage instead (deployed 2026-08-05, see projects[] 'faith' entry). This redesign (noble-father-divide.html) remains a separate, still-undeployed option — not evaluated against faith-index.html, no decision made between them beyond what already shipped.",
+   "description": "Retitled from 'The Coercive Control Codex' to 'The Sacred Divide.' Three-register redesign for tactic entries (how it appears / the defense / the counter), parchment + dark theme, no leak present in this version at all."
+  }
+ ],
+ "unmappedNetlifySites": [
+  "shaeroselotus"
+ ],
+ "notes": [
+  "9-slug codename list from planning thread (main·codex·sovereign·playground·festie·fractal·allfracture·decoder·root) maps to real live slugs above; festie+codex merged into one book ('wook').",
+  "Two books (loop, scale) plus one more (faith) exist live but weren't named in the original 9-codename planning thread.",
+  "playbook was suspected of leaking the HOUSE-tab comment but re-checked clean — earlier grep hit was its own legitimate data-here nav attribute.",
+  "loop/scale/faith deploySource='cli' confirmed via Netlify deploy metadata (commit_ref: null) — no GitHub repo backs them, so the leak fix can only ship via a direct Netlify redeploy, not a git push.",
+  "Only 'wook' (this repo, Wookbook) is git-backed; all other projects are Netlify CLI/API deploys with no linked repo Claude can add.",
+  "2026-08-02 update: user supplied a review package (source/) — local HTML source + a build log (source/REVIEW-SUMMARY.md) from a prior design session covering 12 files. root/sovereign/playground/fractal/fracture/wook(as noble-father-festival.html)/portals/seals/reaction-map are claimed deployed; portals/seals/reaction-map/root confirmed byte-exact live, the rest not independently re-verified. Two pieces (catalogue hub redesign, Sacred Divide) are claimed deployed by the review doc but do NOT byte-match live content — treat that specific claim in the review doc as unconfirmed/incorrect until resolved with the user.",
+  "wook's local review-package file (noble-father-festival.html) has a different title than this repo's tracked festie-codex-full.html — unresolved discrepancy, needs a diff before assuming either supersedes the other.",
+  "2026-08-05 deploy round: confirmed the actual working deploy mechanism for these Netlify CLI/API sites (no linked repo) — call the deploy-site MCP operation for a siteId, it returns a `npx -y @netlify/mcp@latest --site-id <id> --proxy-path <token>` command; run that from a staging directory containing ONLY the single index.html to deploy (running it from the repo root would upload the whole repo instead). Verified via byte-diff against the live URL after every deploy. Used this to push feminine/children/fractal/fracture (all byte-confirmed live) and to redeploy faith. fixes/loop.html and fixes/scale.html are ready with the same mechanism whenever the user wants that leak fix pushed — not yet run.",
+  "2026-08-05: faith-index.html deployed to thenobledivide, replacing the prior live 'Coercive Control Codex' content (the fixes/faith.html lineage). That lineage's leak fix is now moot — it's not the live content anymore. The Sacred Divide redesign (noble-father-divide.html) remains a separate, still-undeployed option."
+ ]
 }

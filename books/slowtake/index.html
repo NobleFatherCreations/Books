@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>The Slow Take — coercion in later life</title>
+<meta name="description" content="Forty-five chapters for the adult son or daughter who has noticed something is wrong. Free, offline, no account, nothing stored.">
+<style>
+:root{
+  --cream:#F2ECDF; --panel:#E8E0CE; --card:#FAF6EB; --ink:#241F16; --ink2:#635A47;
+  --line:#D6C9A8; --green:#3C5240; --green2:#293A2E; --gold:#A6822C;
+  --serif:'BookSerif','Hanken Grotesk',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  --mono:'BookMono',ui-monospace,'SF Mono',Menlo,Consolas,monospace;
+}
+html.dark{
+  --cream:#171510; --panel:#1E1B14; --card:#221E16; --ink:#E6DFCB; --ink2:#9C927A;
+  --line:#39331F; --green:#7C9A82; --green2:#9DB8A2; --gold:#CFA847;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--cream);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.66}
+a{color:var(--green);text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:3px}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:3px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.wrap{max-width:725px;margin:0 auto;padding:0 20px}
+.k{font-family:var(--mono);font-size:12.4px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2)}
+
+#bar{position:sticky;top:0;z-index:50;background:var(--panel);border-bottom:1px solid var(--line);
+  display:flex;align-items:center;gap:12px;padding:7px 14px;font-family:var(--mono);font-size:12.4px;
+  color:var(--ink2);padding-top:calc(7px + env(safe-area-inset-top,0px))}
+#bar .msg{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#bar a{color:var(--gold);text-decoration:underline;text-underline-offset:2px}
+#bar button{margin-left:auto;appearance:none;border:1px solid var(--line);cursor:pointer;background:none;
+  color:var(--ink);font:600 12.4px var(--mono);letter-spacing:.06em;padding:6px 11px;border-radius:4px;white-space:nowrap}
+#bar button:hover{border-color:var(--green);color:var(--green)}
+
+.mark-t{width:var(--s,42px);height:var(--s,42px);flex:0 0 auto;color:var(--green)}
+.mark-t svg{width:100%;height:100%;display:block}
+
+header.mast{padding:22px 0 6px}
+header.mast .row{display:flex;align-items:center;gap:14px}
+header.mast b{font-size:19px;font-weight:600}
+header.mast .row span{display:block;font-family:var(--mono);font-size:12.4px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--ink2);margin-top:2px}
+
+.hero{padding:22px 0 20px;border-bottom:1px solid var(--line)}
+.hero h1{font-size:clamp(27px,5.6vw,40px);line-height:1.12;font-weight:600;letter-spacing:-.01em;margin:10px 0 14px}
+.hero h1 em{font-style:italic;color:var(--green)}
+.hero p{color:var(--ink2);font-size:17px;margin-bottom:12px;max-width:600px}
+.hero .vows{display:flex;gap:7px;flex-wrap:wrap;margin-top:18px;font-family:var(--mono);font-size:12.4px;color:var(--ink2)}
+.hero .vows span{border:1px solid var(--line);border-radius:999px;padding:5px 11px}
+.startrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.btn{display:inline-block;font:600 13px var(--mono);letter-spacing:.03em;padding:11px 18px;border-radius:5px;
+  background:var(--green2);color:#F2ECDF;border:1px solid transparent;cursor:pointer}
+html.dark .btn{color:#171510}
+.btn:hover{text-decoration:none;filter:brightness(1.15)}
+.btn.ghost{background:none;color:var(--ink);border-color:var(--line)}
+.btn.ghost:hover{border-color:var(--green);filter:none}
+.btn.warnb{background:var(--gold);color:#241F16}
+
+.mv{padding:30px 0 6px;border-bottom:1px solid var(--line)}
+.mv:last-of-type{border-bottom:0}
+.mv .mvh{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.mv .num{font-family:var(--mono);font-size:12.4px;letter-spacing:.18em;color:var(--gold)}
+.mv h2{font-size:clamp(20px,3.4vw,25px);font-weight:600;line-height:1.2}
+.mv .blurb{color:var(--ink2);font-size:15px;margin:8px 0 16px;max-width:580px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(225px,1fr));gap:8px;padding-bottom:18px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:5px;padding:12px 13px;color:var(--ink);display:block}
+.tile:hover{text-decoration:none;border-color:var(--green);background:var(--panel)}
+.tile .tn{font-family:var(--mono);font-size:12.4px;letter-spacing:.1em;color:var(--gold)}
+.tile b{display:block;font-size:15.5px;font-weight:600;line-height:1.28;margin:5px 0 4px}
+.tile i{display:block;font-style:normal;font-size:12.4px;color:var(--ink2);line-height:1.42}
+.tile .meta{margin-top:7px;font-family:var(--mono);font-size:12.4px;letter-spacing:.06em;color:var(--ink2);
+  display:flex;gap:8px;align-items:center}
+.tile .hv{color:var(--gold);border:1px solid var(--gold);border-radius:3px;padding:1px 5px}
+.tile.soon{opacity:.6}
+
+.reader{padding:22px 0 40px}
+.crumb{font-family:var(--mono);font-size:12.4px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink2);
+  display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:14px}
+.crumb a{color:var(--ink2)}
+.reader h1{font-size:clamp(24px,4.8vw,33px);line-height:1.16;font-weight:600;margin:6px 0 6px}
+.reader .dek{color:var(--ink2);font-size:16.5px;font-style:italic;margin-bottom:20px;padding-bottom:16px;
+  border-bottom:1px solid var(--line)}
+.body p{margin-bottom:15px}
+.body h3{font-size:18px;font-weight:600;margin:24px 0 9px;line-height:1.3}
+.body ul,.body ol{margin:0 0 15px 20px}
+.body li{margin-bottom:6px}
+.pull{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--green);
+  border-radius:4px;padding:13px 15px;margin:18px 0;font-size:16px}
+.warn{background:var(--card);border:1px solid var(--gold);border-left:3px solid var(--gold);
+  border-radius:4px;padding:13px 15px;margin:18px 0;font-size:15.5px}
+.warn .k{color:var(--gold);display:block;margin-bottom:6px}
+.try{background:var(--panel);border:1px dashed var(--line);border-radius:4px;padding:13px 15px;margin:18px 0;font-size:15.5px}
+.try .k{color:var(--green);display:block;margin-bottom:6px}
+.stub{background:var(--panel);border:1px dashed var(--line);border-radius:5px;padding:20px;color:var(--ink2)}
+.stub b{color:var(--ink)}
+.pager{display:flex;gap:10px;justify-content:space-between;margin-top:32px;padding-top:18px;border-top:1px solid var(--line)}
+.pager a{flex:1;background:var(--card);border:1px solid var(--line);border-radius:5px;padding:11px 13px;color:var(--ink);
+  font-size:14px;line-height:1.32}
+.pager a:hover{text-decoration:none;border-color:var(--green)}
+.pager a .k{display:block;margin-bottom:3px}
+.pager a.nx{text-align:right}
+.pager a.off{visibility:hidden}
+
+.card-sheet{background:var(--card);border:1px solid var(--line);border-radius:5px;padding:20px;margin-top:16px}
+.card-sheet h3{font-size:16px;font-weight:600;margin:16px 0 7px;color:var(--gold)}
+.card-sheet h3:first-child{margin-top:0}
+.card-sheet ol,.card-sheet ul{margin-left:20px}
+.card-sheet li{margin-bottom:5px;font-size:15px}
+
+footer.foot{border-top:1px solid var(--line);margin-top:28px;padding:20px 0 66px;
+  font-family:var(--mono);font-size:12.4px;color:var(--ink2);line-height:1.7}
+@media print{#bar,.pager,#nh-tab,#nh-veil,.startrow{display:none!important}}
+
+#bar #exitbtn{margin-left:auto;border-color:var(--line)}
+#bar #exitbtn:hover{border-color:var(--coral,var(--brass));color:var(--coral,var(--brass))}
+#bar #darkbtn{margin-left:8px}
+.exitnote{margin:22px 0 0;font-family:var(--mono);font-size:11.8px;line-height:1.55;
+  color:var(--ink2);opacity:.75;max-width:62ch;letter-spacing:0}
+.exitnote b{font-weight:600;color:var(--ink2)}
+.exitnote:hover{opacity:1}
+.helprow{border-top:1px solid var(--line);padding:16px 0}
+.helprow:first-of-type{border-top:0;padding-top:4px}
+.helprow h3{margin-bottom:6px}
+.helprow p{font-size:15.5px;color:var(--ink2)}
+.helprow p b{color:var(--ink);font-weight:600}
+.helplede{font-size:15.5px;color:var(--ink2);margin-bottom:4px}
+.startrow{align-items:center;margin-top:22px}
+.alsorow{margin-top:14px;font-family:var(--mono);font-size:12.4px;line-height:2;color:var(--ink2)}
+.alsorow a{color:var(--ink2);text-decoration:underline;text-decoration-color:var(--line);
+  text-underline-offset:3px}
+.alsorow a:hover{color:var(--ink);text-decoration-color:currentColor}
+.alsorow span{opacity:.5;padding:0 8px;user-select:none}
+
+/* ===== THE SLOW TAKE ==================================================
+   The one book in the set that is not set in a serif, and the reason is
+   the reader rather than taste. The audience is not the person it is
+   happening to -- it is their adult child, "frightened and often
+   exhausted, frequently juggling this alongside their own children,
+   their own job, their own health," reading on a phone and scanning for
+   what to do next. That is reference-manual reading, not linear reading,
+   and a humanist sans is what holds up under it. Warm, not clinical:
+   the brief asks for "a calm, well-informed friend," never a legal
+   pamphlet.
+
+   The structural motif is the title: a slow accumulation. Chapters hang
+   off a continuous vertical thread that runs the length of the contents,
+   because that is what the reader is being asked to build -- a record,
+   entry by entry, over months. ====================================== */
+body{font-size:17px;line-height:1.7;letter-spacing:-.002em}
+.wrap{max-width:690px}
+.hero h1{font-size:clamp(27px,5.4vw,40px);line-height:1.16;letter-spacing:-.021em;font-weight:600}
+.hero h1 em{font-style:normal;font-weight:400;color:var(--brass,var(--plum))}
+.hero{padding:30px 0 26px}
+.hero p{font-size:17px;line-height:1.68}
+header.mast b{letter-spacing:-.012em}
+.reader h1{font-weight:600;letter-spacing:-.02em}
+.mv{padding:34px 0 10px;border-bottom:0}
+.mv h2{font-weight:600;letter-spacing:-.015em}
+
+/* the thread: one continuous line down the contents, chapters hung off it */
+.tiles{display:block!important;position:relative;padding-left:26px;margin-top:14px}
+.tiles::before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:1px;
+  background:var(--line)}
+.tile{display:grid!important;grid-template-columns:1fr auto;gap:2px 12px;position:relative;
+  border:0!important;border-radius:0!important;background:none!important;
+  padding:11px 4px 13px 6px!important;box-shadow:none!important}
+.tile::before{content:"";position:absolute;left:-23px;top:1.05em;width:9px;height:9px;
+  border-radius:50%;background:var(--dusk,var(--bg));border:1px solid var(--line);
+  transition:background .2s ease,border-color .2s ease}
+.tile:hover::before{background:var(--brass,var(--plum));border-color:var(--brass,var(--plum))}
+.tile .tn{position:absolute;left:-23px;top:1.05em;width:9px;height:9px;overflow:hidden;
+  text-indent:-99px;color:transparent}      /* the dot replaces the numeral */
+.tile b{grid-column:1;font-weight:600}
+.tile i{grid-column:1;grid-row:2;font-style:normal;color:var(--ink2)}
+.tile .meta{grid-column:2;grid-row:1;text-align:right;white-space:nowrap;align-self:baseline}
+.tile:hover{background:none!important;text-decoration:none}
+.tile:hover b{text-decoration:underline;text-underline-offset:3px;
+  text-decoration-color:var(--line)}
+@media (max-width:560px){
+  .tile{grid-template-columns:1fr}
+  .tile .meta{grid-column:1;grid-row:3;text-align:left;margin-top:5px}
+}
+</style>
+<style id="embedded-fonts">/* Self-hosted, subset to this book’s own character set. Zero requests, works offline. */
+@font-face{font-family:'BookSerif';font-style:normal;font-weight:400 700;font-display:swap;src:url(data:font/woff2;base64,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) format('woff2')}
+@font-face{font-family:'BookSerif';font-style:italic;font-weight:400 700;font-display:swap;src:url(data:font/woff2;base64,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) format('woff2')}
+@font-face{font-family:'BookMono';font-style:normal;font-weight:400;font-display:swap;src:url(data:font/woff2;base64,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) format('woff2')}
+@font-face{font-family:'BookMono';font-style:normal;font-weight:600;font-display:swap;src:url(data:font/woff2;base64,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) format('woff2')}
+</style>
+</head>
+<body>
+
+<div id="bar">
+  <span class="msg">If a crime may be in progress right now, call the police. <a href="#/help">Where to go</a></span>
+  <button type="button" id="exitbtn" title="Leave this page (Esc)">Leave</button>
+  <button type="button" id="darkbtn" aria-pressed="false">Dark</button>
+</div>
+
+<div id="app"></div>
+
+<script id="book-js">
+/* ============================================================
+   THE SLOW TAKE — single-file, offline, no storage, no requests.
+   Nothing here keeps score or knows you were here.
+   ============================================================ */
+
+var MOVEMENTS=[
+ {r:'I',   t:'The setup', c:[1,2,3,4,5],
+  b:'Who this book is for, why later life is targeted, and the tension it holds without resolving: autonomy is real, and it is not the same thing as safety.'},
+ {r:'II',  t:'What it looks like', c:[6,7,8,9,10,11,12,13,14],
+  b:'The recognition material \u2014 concrete, checkable signs, for an audience with different blind spots than any other book in this library.'},
+ {r:'III', t:'Who does it', c:[15,16,17,18,19,20],
+  b:'Led with the hardest fact first: most of this is family.'},
+ {r:'IV',  t:'The money', c:[21,22,23,24,25,26,27],
+  b:'Following it, the instruments that move it, and an honest account of what comes back once it\u2019s gone.'},
+ {r:'V',   t:'The systems', c:[28,29,30,31,32,33],
+  b:'What exists, what it can actually compel, and its real limits \u2014 including the remedy that is itself frequently abused.'},
+ {r:'VI',  t:'Acting', c:[34,35,36,37,38,39,40,41],
+  b:'The hardest conversation in the book, the documentation, and the honest truth that the first attempt often doesn\u2019t work.'},
+ {r:'VII', t:'The ledger', c:[42,43,44,45],
+  b:'The mirror, the reference sample, what this book might have wrong, and the fight that starts after they\u2019re gone.'}
+];
+
+var CH={
+ 1:{t:'This is written for the son or the daughter',d:'The person it\u2019s happening to is the least likely person to be reading a book about it.',m:6},
+ 2:{t:'Why later life is targeted',d:'Specific, structural factors \u2014 not a claim that older people are simply \u201cless sharp.\u201d',m:7},
+ 3:{t:'Capacity, and the fight over it',d:'Not one on/off switch. Most family conflicts here are fights about capacity that never use the word.',m:8},
+ 4:{t:'Autonomy is not safety',d:'The tension this whole book holds without resolving. Guardianship removes personhood and is itself frequently abused.',m:8,h:1},
+ 5:{t:'What you\u2019ll get wrong first',d:'Confronting too fast, or waiting too long. Both are the predictable result of fear and love colliding.',m:6},
+
+ 6:{t:'The new friend',d:'Appeared fast, became central fast, started managing access. Most new friendships aren\u2019t this. The markers tell them apart.',m:7},
+ 7:{t:'The isolating child',d:'Sometimes the gatekeeper is a sibling. Harder to name than a stranger doing it.',m:7},
+ 8:{t:'The phone that rings at the same time every day',d:'A scripted, monitored relationship has a shape you can learn to notice.',m:6},
+ 9:{t:'Romance, later',d:'Common, often genuine, and one of the hardest vectors to raise concern about without sounding controlling.',m:8,h:1},
+ 10:{t:'The paperwork that appeared',d:'Asking to see it is not an accusation.',m:6},
+ 11:{t:'The will that changed',d:'Undue influence has legal markers distinct from a parent simply changing their mind.',m:7},
+ 12:{t:'Care that became control',d:'They can look identical from outside. The line is whether decisions still flow through the person being cared for.',m:7},
+ 13:{t:'Neglect, which is harder to see',d:'No dramatic incident to point to. That\u2019s exactly why it needs its own chapter.',m:8,h:1},
+ 14:{t:'When it\u2019s exhaustion rather than malice',d:'A caregiver at the end of their capacity can look identical to someone causing harm on purpose.',m:7},
+
+ 15:{t:'Family, which is most of it',d:'The hardest fact in the book, stated first, before anything else in this movement.',m:6},
+ 16:{t:'The carer',d:'Enormous, largely unsupervised access. The conditions that produce harm here are often structural.',m:7},
+ 17:{t:'The professional',d:'What a fiduciary duty actually requires, so you can spot when it\u2019s been breached.',m:7},
+ 18:{t:'The stranger with a script',d:'Large, organised, and engineered around common later-life circumstances.',m:7},
+ 19:{t:'The institution',d:'A complaint doesn\u2019t require proof. It requires a documented concern.',m:7},
+ 20:{t:'The spouse, when it\u2019s always been like this',d:'A pattern that existed for decades, unnoticed, because nobody had anything to compare it to.',m:7},
+
+ 21:{t:'Following it',d:'What can be lawfully reviewed, and what needs legal process to see.',m:7},
+ 22:{t:'Power of attorney',d:'A powerful instrument. Understanding how it\u2019s supposed to work reveals how it\u2019s being misused.',m:7},
+ 23:{t:'Property and the deed',d:'Sometimes irreversible, and it moves faster than families expect.',m:7},
+ 24:{t:'Pensions and equity release',d:'Products marketed specifically to this age group, exploiting trust and complexity.',m:7},
+ 25:{t:'Gifts, loans, and the line between them',d:'The distinction is legally real and often blurred deliberately.',m:7},
+ 26:{t:'What to freeze first',d:'A practical order of operations for limiting harm while a fuller picture is established.',m:6},
+ 27:{t:'When money has already gone',d:'An honest account of realistic odds, so a family doesn\u2019t spend years chasing what won\u2019t come back.',m:8,h:1},
+
+ 28:{t:'Capacity assessments',d:'What is actually evaluated, and what it can and can\u2019t settle for a family.',m:7},
+ 29:{t:'Guardianship and conservatorship',d:'A remedy that removes real rights, meant for genuine incapacity, with a well-documented history of misuse.',m:8,h:1},
+ 30:{t:'Adult protective services',d:'Contactable without proof. Real power, and real limits on how fast and how far it reaches.',m:7},
+ 31:{t:'Banks',d:'What they can flag and what they usually cannot do without legal authority.',m:6},
+ 32:{t:'Care home complaints',d:'A documented process that produces a record regardless of outcome.',m:6},
+ 33:{t:'When police are the right call',d:'Some of this is a crime. Knowing which parts changes what you do next.',m:7},
+
+ 34:{t:'Talking to your parent without taking their dignity',d:'The hardest conversation here \u2014 and there\u2019s a way to have it that can happen more than once.',m:9,h:1},
+ 35:{t:'Talking to your sibling',d:'A different shape, different risks, especially if they\u2019re the one you\u2019re worried about.',m:7},
+ 36:{t:'Documentation',d:'The same instrument as everywhere else in this library, kept safely and separately.',m:7},
+ 37:{t:'A second opinion that isn\u2019t the family\u2019s',d:'Breaks the trap where everyone\u2019s judgment is entangled with their own stake in the outcome.',m:6},
+ 38:{t:'When the intervention fails',d:'Most first attempts don\u2019t fully work. Knowing that in advance is what makes a second attempt possible.',m:6},
+ 39:{t:'If they choose to stay',d:'Autonomy, applied when it hurts to watch.',m:8,h:1},
+ 40:{t:'When you have to act against their wishes',d:'A high, specific threshold \u2014 not simply disagreeing with a choice.',m:8,h:1},
+ 41:{t:'Looking after yourself in this',d:'You are very likely exhausted, and that is not a distraction from the main subject.',m:6},
+
+ 42:{t:'Am I the one benefiting?',d:'The Weighing\u2019s standard, applied without exemption for being the concerned one.',m:8,h:1},
+ 43:{t:'What a good arrangement actually looks like',d:'The reference sample. You cannot recognise exploitation with no baseline for its absence.',m:7},
+ 44:{t:'What this book might have wrong',d:'Published rather than buried.',m:7},
+ 45:{t:'When they die and the fight begins',d:'Probate is where unresolved suspicion surfaces at the worst possible time.',m:7}
+};
+
+var BODIES={};
+
+/* ======================= MOVEMENT I ======================= */
+
+BODIES[1]=`
+<p>This book is not written to the person it\u2019s happening to.</p>
+<p>That\u2019s deliberate, and it\u2019s worth explaining before anything else. Someone whose confidence in their own judgement is being carefully, gradually undermined is, structurally, the person least likely to go looking for a book about exactly that. The isolation that\u2019s often part of what\u2019s happening also isolates them from the resource that could help.</p>
+<p>So this book is written to you \u2014 the son, the daughter, sometimes the grandchild or the sibling \u2014 who has noticed something. A new friend who appeared fast. Paperwork nobody explained. A phone call your mother seems oddly careful during. A will that changed. Money that used to be easy to account for and now isn\u2019t.</p>
+<div class="pull">If you\u2019re reading this because you\u2019ve noticed something, that noticing is worth taking seriously. Most people who eventually find real harm started exactly where you are now: unsure, half-convinced they\u2019re overreacting, looking for something that would tell them whether their instinct is right.</div>
+<h3>If you\u2019re the older adult reading this yourself</h3>
+<p>You\u2019re welcome here, and this book still applies to you. You may simply be reading ahead of your own children, or reading because something already feels wrong and you want the vocabulary for it. Nothing in this book assumes you\u2019re incapable of your own advocacy. Chapter four is written specifically to hold your right to make your own choices, including ones your family disagrees with, at the same weight as everything else here.</p>
+<h3>What this book is</h3>
+<p>Forty-five chapters on recognising coercion and exploitation in later life, what\u2019s actually owed and actually available, and what to do: including the hardest and most honest part: that the standard fix for this, guardianship, is a real remedy with a real history of being misused, and this book will not pretend that tension away.</p>
+`;
+
+BODIES[2]=`
+<p>Later life is targeted. Not because older people are, as a class, \\u201cless sharp\\u201d: that framing is both inaccurate and part of what makes this hard to see. It\u2019s targeted because specific, structural circumstances make it a period of genuine vulnerability, regardless of how sharp any individual person remains.</p>
+<h3>The actual factors</h3>
+<ul>
+<li><strong>Accumulated assets.</strong> A lifetime of saving, a paid-off home, a pension: there is simply more to take than there was at twenty-five.</li>
+<li><strong>Potential cognitive change.</strong> Not universal, not inevitable, but common enough, and it can affect judgement in specific domains, particularly unfamiliar financial products, well before it affects daily conversation.</li>
+<li><strong>Social isolation.</strong> The loss of a spouse, of friends who\u2019ve died or moved away, of mobility that made visiting easy: all of it shrinks the number of people positioned to notice if something changes.</li>
+<li><strong>Reduced capacity to independently verify claims.</strong> Someone who left the workforce before online banking became universal, or before certain scam formats existed, has genuinely less exposure to the specific patterns now used against them.</li>
+</ul>
+<div class="pull">This is about vulnerability created by circumstance, not a verdict on any individual person\u2019s sharpness or judgement. Plenty of people in their nineties out-reason people a third their age. The circumstances still apply to them.</div>
+<h3>Why this matters for what comes next</h3>
+<p>Nothing in the rest of this book should be read as \\u201cwatch for signs your parent is declining.\\u201d It should be read as \\u201cwatch for signs someone is exploiting a set of circumstances that exist for structural reasons\\u201d: a different, more accurate, and considerably less insulting frame.</p>
+`;
+
+BODIES[3]=`
+<p>A huge amount of family conflict in this territory is actually an argument about capacity, conducted without anyone using the word.</p>
+<h3>Capacity is not one switch</h3>
+<p>It is domain-specific. Someone can be entirely capable of deciding what to eat, who to see, and how to spend an afternoon, while genuinely struggling with a complex financial product or a fast-moving decision under pressure. \\u201cShe\u2019s fine\\u201d and \\u201cshe\u2019s not capable of managing her finances\\u201d can both be true at once, about the same person, on the same day.</p>
+<p>It also fluctuates. Fatigue, illness, medication, time of day, and stress all move it. A capacity assessment taken on a good morning and a bad evening can produce different, both accurate, readings.</p>
+<div class="pull">\\u201cShe\u2019s fine, she just made a decision I don\u2019t like\\u201d and \\u201cshe\u2019s clearly losing it\\u201d are very often the same error, pointed in opposite directions: both treat capacity as a single, stable, all-or-nothing state.</div>
+<h3>Why this matters immediately</h3>
+<p>Because a huge amount of what gets called \\u201cshe\u2019s being manipulated\\u201d is actually \\u201cshe made a choice I disagree with, using capacity nobody has seriously questioned.\\u201d And a huge amount of what gets dismissed as \\u201cjust a preference\\u201d is actually a capacity question nobody has been willing to name.</p>
+<p>Chapter twenty-eight covers how an actual assessment works. This chapter exists so you can tell, roughly, whether that\u2019s the conversation you\u2019re actually having before you have it.</p>
+`;
+
+BODIES[4]=`
+<p>Here is the tension this book holds for all forty-five chapters, and it does not get resolved in this one or in any single later chapter. It gets returned to constantly, on purpose.</p>
+<div class="pull">An older adult has the same right as anyone else to make choices the family disagrees with: including risky ones, including choices that will cost them money, including trusting someone the family doesn\u2019t trust. That right does not disappear because the choice is dangerous.</div>
+<h3>Why this can\u2019t be resolved by picking a side</h3>
+<p>A book that says \\u201cprotect them, whatever it takes\\u201d produces readers who override a competent adult\u2019s actual wishes because they\u2019re frightened, which is its own serious harm: the loss of autonomy, dignity, and self-determination that guardianship abuse specifically inflicts.</p>
+<p>A book that says \\u201crespect their autonomy, full stop\\u201d produces readers who watch a parent being isolated and drained of savings and call it none of their business, because intervening might infringe on a choice: even where the \\u201cchoice\\u201d is itself the product of coercion.</p>
+<h3>The remedy that is itself the problem</h3>
+<p>Guardianship or conservatorship, a court granting someone else legal authority over a person\u2019s decisions, exists for genuine, severe incapacity, and it is also a documented, well-researched site of abuse in its own right. Cases exist of guardians isolating the person under their authority, controlling their assets, and removing their ability to object, using exactly the legal system meant to protect them.</p>
+<div class="warn"><span class="k">What this means practically</span>
+The \\u201cobvious\\u201d fix is not simple, and reaching for it fast, out of fear, can produce a second harm layered on top of the first. This book takes that seriously throughout, particularly in chapters twenty-nine, thirty-nine, and forty.</div>
+<h3>What this chapter is actually for</h3>
+<p>Not to answer the question. To make sure you\u2019re carrying both halves of it, autonomy and safety, into every chapter that follows, rather than quietly picking one early and forgetting the other exists.</p>
+`;
+
+BODIES[5]=`
+<p>Two mistakes are extremely common, entirely predictable, and worth naming before you make either of them.</p>
+<h3>Mistake one: confronting too fast, too publicly</h3>
+<p>You\u2019ve noticed something, you\u2019re frightened, and the instinct is to raise it immediately: often at a family gathering, often with real emotion, sometimes in front of the person you\u2019re worried about being influenced by.</p>
+<p>This tends to backfire specifically. It puts your parent in the position of defending someone in front of an audience, which often produces defensiveness of the exploiter rather than reflection. And if there genuinely is someone isolating or controlling access, a public confrontation gives them a clean, sympathetic narrative: the family \\u201cganging up\\u201d on a happy new relationship.</p>
+<h3>Mistake two: waiting, hoping it resolves itself</h3>
+<p>The opposite instinct, equally common: it feels too delicate to raise, you don\u2019t want to damage the relationship, you tell yourself you\u2019re probably overreacting, and months pass.</p>
+<p>The patterns in this book, left unaddressed, tend to deepen rather than resolve on their own. Waiting is rarely neutral.</p>
+<div class="pull">Neither mistake is unusual, and neither means you\u2019re bad at this. Both are the predictable result of genuine fear and genuine love colliding with a situation that has no clean, obvious first move.</div>
+<h3>What actually helps</h3>
+<p>Movement six is built entirely around a better sequence: documentation first, a careful private conversation rather than a public one, an outside second opinion before an accusation. Chapter thirty-four in particular is about exactly how to raise this without either mistake above.</p>
+`;
+
+/* ======================= MOVEMENT II ======================= */
+
+BODIES[6]=`
+<p>Someone new arrived, and within weeks or months became central. That alone isn\u2019t evidence of anything: people do fall into real, fast, genuine friendships and connections at any age. What matters is what they became central <em>to</em>.</p>
+<h3>The markers</h3>
+<ul>
+<li><strong>Speed.</strong> Not just quick affection, but quick insertion into practical life: finances, medical appointments, decisions.</li>
+<li><strong>Managing access.</strong> Being present for calls, present for visits, or subtly discouraging them (\\u201cshe\u2019s tired today,\\u201d repeated often).</li>
+<li><strong>Discouraging other relationships.</strong> Comments about family members, framed as concern, that consistently push your parent away from people who\u2019d otherwise notice something.</li>
+<li><strong>Financial entanglement early.</strong> Being added to accounts, named on paperwork, or receiving gifts unusually soon.</li>
+</ul>
+<div class="pull">Most new friendships in later life are exactly what they look like: genuine connection, sometimes exactly what a lonely person needed. The markers above are what separates the rare exploitative case from the common, ordinary, good one.</div>
+<h3>What not to do</h3>
+<p>Don\u2019t treat every new person in your parent\u2019s life with visible suspicion from the first meeting. That alone can start the isolation this chapter describes, just performed by you instead. Watch for the pattern, not the person\u2019s mere existence.</p>
+`;
+
+BODIES[7]=`
+<p>Sometimes the person who\u2019s become the sole gatekeeper to a parent isn\u2019t a stranger. It\u2019s a sibling, or another close relative: someone who moved in, took over the phone, started managing every visit.</p>
+<h3>Why this is harder to name</h3>
+<p>Because the same behaviour that would set off alarm bells from an outsider reads, from a family member, as simply \\u201chelping out\\u201d or \\u201cbeing the one who stepped up.\\u201d Everyone else in the family may feel grateful, at first, that someone took charge.</p>
+<div class="pull">Isolation performed by family carries a built-in defence: \\u201cI\u2019m the one who actually visits. Where were you?\\u201d That defence can be entirely fair and still coexist with genuine, escalating control.</div>
+<h3>What to look for</h3>
+<ul>
+<li>Calls and visits that increasingly require going through this person first.</li>
+<li>Being told your parent \\u201cdoesn\u2019t want\\u201d contact that, when you manage to ask directly, they seem confused about having declined.</li>
+<li>Financial or legal paperwork you learn about after the fact, if at all.</li>
+</ul>
+<p>Chapter fifteen returns to this with the wider, harder statistic: family is the most common source of this pattern, not the exception to worry about less.</p>
+`;
+
+BODIES[8]=`
+<p>Your mother seems oddly careful on the phone at a specific time each day. Distracted. Watching the clock before a call that hasn\u2019t happened yet.</p>
+<h3>What this can indicate</h3>
+<p>A scripted or monitored relationship: someone calling at a consistent time, sometimes staying nearby or even on another line during your visits, occasionally coaching in advance what should or shouldn\u2019t be mentioned.</p>
+<div class="pull">Not all routine matters. Plenty of people simply enjoy a daily call from someone they love, at a time that suits them both. The pattern worth noticing is anxiety and carefulness around it, not the routine itself.</div>
+<h3>How to notice without alarming your parent</h3>
+<p>Visit at a time that overlaps with the usual call, if you can do so naturally. Notice whether your parent seems to relax or tense when it approaches. Ask open, non-leading questions afterward, \\u201chow\u2019s that going?\\u201d rather than \\u201cis someone controlling what you say?\\u201d, and pay attention to what doesn\u2019t get answered as much as what does.</p>
+`;
+
+BODIES[9]=`
+<p>A new romance, later in life, is common and is very often exactly as wonderful as it looks. This chapter has to hold that fully before it says anything else.</p>
+<h3>Why this is genuinely, mostly, good news</h3>
+<p>Loneliness after losing a spouse is real and painful, and finding real connection again is a legitimate source of joy that deserves celebration, not suspicion by default.</p>
+<h3>The markers of concern</h3>
+<ul>
+<li><strong>Unusually rapid marriage or cohabitation</strong>, particularly involving a significant age gap or a large disparity in assets.</li>
+<li><strong>Early financial entanglement</strong> \u2014 being added to accounts, property, or a will within weeks or a few months.</li>
+<li><strong>Isolation from family</strong> that specifically increases alongside the new relationship, rather than simply reflecting a busy new life.</li>
+</ul>
+<div class="warn"><span class="k">Why this is one of the hardest chapters to act on</span>
+Raising concern about a parent\u2019s romantic life risks sounding exactly like controlling, disapproving adult children in a hundred other, entirely innocent situations. The same \\u201ctrue part\\u201d logic from elsewhere in this library applies: concede what\u2019s real and good about this before raising anything else, or you will not be heard.</div>
+<h3>What actually helps</h3>
+<p>Genuine curiosity and warmth toward the relationship itself, paired with quiet, non-urgent attention to the financial markers specifically, which is a different, narrower, and more defensible thing to raise than \\u201cI don\u2019t trust your judgement about who to love.\\u201d</p>
+`;
+
+BODIES[10]=`
+<p>You noticed a document \u2014 a form, an authorisation, something with a signature \u2014 and you don\u2019t know what it was or why it was signed.</p>
+<h3>What to look for</h3>
+<p>New account authorisations. Powers of attorney (chapter twenty-two). Named beneficiary changes. Anything that adds a person\u2019s name to something that didn\u2019t have it before.</p>
+<h3>Asking to see it</h3>
+<div class="pull">Asking to see paperwork is not an accusation. Framed plainly \u2014 \\u201cI want to understand what\u2019s been signed, just so I have a clear picture\\u201d \u2014 it\u2019s a reasonable request most people can make of a parent without it reading as distrust.</div>
+<p>What matters more than any single document is whether your parent can explain, in their own words, what it does and why they signed it. A parent who understands and chose it, even if you\u2019d have advised differently, is a different situation from one who signed because someone else said it was \\u201cjust a formality.\\u201d</p>
+<h3>What this isn\u2019t</h3>
+<p>Not every unexplained document is evidence of exploitation. People sign things they don\u2019t fully process constantly, at every age. This chapter is about noticing enough to ask, not about treating every form as proof.</p>
+`;
+
+BODIES[11]=`
+<p>A will changed: shortly before death, or more than once, in favour of someone who arrived recently. This has a specific legal concept attached to it, distinct from a parent simply, genuinely, changing their mind.</p>
+<h3>Undue influence, plainly</h3>
+<p>The legal concept describes influence so significant that it overpowers a person\u2019s own free will in making the decision, not persuasion, which is normal, but something closer to substitution of another person\u2019s wishes for the testator\u2019s own.</p>
+<h3>Markers that distinguish it from a genuine change of heart</h3>
+<ul>
+<li>Timing that closely follows the arrival of the new beneficiary, rather than a longer relationship.</li>
+<li>Isolation of the person making the will from the lawyer who drafted the previous version, or from family who might raise concerns.</li>
+<li>The new beneficiary present during, or closely involved in arranging, the meeting where the will was changed.</li>
+<li>A dramatic departure from a long-held, previously stable set of wishes, with no clearly stated reason.</li>
+</ul>
+<div class="pull">A parent is entirely allowed to change their will because they\u2019ve grown closer to someone new, or further from family, for reasons that are entirely their own. The markers above describe something different: a will that reflects someone else\u2019s wishes rather than the person\u2019s own.</div>
+<h3>What this chapter isn\u2019t</h3>
+<p>A legal verdict on your specific situation. If these markers are present, chapter thirty-seven (a second opinion) and appropriate legal advice are the next steps, not a conclusion reached from this chapter alone.</p>
+`;
+
+BODIES[12]=`
+<p>Legitimate caregiving and controlling behaviour can look identical from the outside: managing medication, handling money, deciding who visits. The line between them isn\u2019t the activity. It\u2019s whether decisions still flow through the person being cared for.</p>
+<h3>Where the line sits</h3>
+<p>Care: \\u201cI handle the bills because it\u2019s easier, and I check in with Dad about anything significant.\\u201d Control: decisions made and acted on without meaningful input, information withheld, or the person increasingly unable to say no without consequence.</p>
+<div class="pull">The test isn\u2019t whether someone else is doing the tasks. It\u2019s whether the older adult remains, functionally, the one deciding, or has been quietly removed from their own decisions.</div>
+<h3>Why this line gets crossed without cruelty</h3>
+<p>Most caregivers who cross it aren\u2019t doing so maliciously. Chapter fourteen covers the specific and common case of a caregiver at the end of their own capacity, producing outcomes that look like control but stem from exhaustion rather than intent to harm.</p>
+<h3>What to watch for</h3>
+<p>Ask your parent directly, when you can do so privately: \\u201cDo you feel like you still have a say in this?\\u201d The answer, and how comfortable they seem giving it, tells you more than watching the caregiving arrangement from outside ever will.</p>
+`;
+
+BODIES[13]=`
+<p>Neglect doesn\u2019t announce itself with an incident. There\u2019s no dramatic moment to point to, which is exactly why it needs its own chapter, and why it\u2019s under-reported compared to financial exploitation.</p>
+<h3>What it looks like</h3>
+<p>Medication not given, or given incorrectly, over time. Medical conditions left untreated past the point where they\u2019d normally have been addressed. Inadequate food, hygiene, or a living environment that\u2019s deteriorated without explanation. Isolation so complete that nobody outside the household would know if any of this were happening.</p>
+<div class="warn"><span class="k">Why this is harder to document than active harm</span>
+An incident has a date and a description. An absence \u2014 the medication that wasn\u2019t given, the doctor\u2019s appointment that didn\u2019t happen \u2014 has neither, by nature. This makes neglect one of the hardest patterns in this book to prove, even when everyone involved suspects it.</div>
+<h3>What to actually do</h3>
+<p>Notice changes over time rather than looking for a single moment: weight loss, a decline in cleanliness or the state of the home, missed medical appointments, a general deterioration that doesn\u2019t match what you\u2019d expect from the underlying health situation alone.</p>
+<p>Chapter thirty (adult protective services) is the right route here more than a confrontation. This is a category where an outside, trained assessment matters more than a family conversation alone can resolve.</p>
+`;
+
+BODIES[14]=`
+<p>Not every situation that looks like neglect or control is driven by malice. A caregiver \u2014 often a family member, often unpaid, often doing this alongside their own job and their own children \u2014 can reach the end of their own capacity and produce outcomes that look identical to deliberate harm.</p>
+<h3>The pattern</h3>
+<p>Missed medications not from indifference but from sheer exhaustion. Isolation that happened because the caregiver simply couldn\u2019t manage visitors on top of everything else, not because they wanted control. Financial corners cut because the caregiver themselves is drowning, not because they\u2019re extracting anything.</p>
+<div class="pull">This distinction changes what\u2019s actually needed. Deliberate harm needs intervention and, often, removal of access. Exhaustion needs support \u2014 respite care, other family stepping in, professional help \u2014 and treating it as the former when it\u2019s the latter can break a family relationship that didn\u2019t need to break.</div>
+<h3>How to tell the difference</h3>
+<p>Ask the caregiver directly, without accusation, how they\u2019re actually doing. Watch whether the response is defensive secrecy or exhausted honesty. A caregiver who says \\u201cI can\u2019t do this alone any more\\u201d is telling you something different from one who deflects every question about how things are going.</p>
+<h3>What this doesn\u2019t excuse</h3>
+<p>Exhaustion explains. It doesn\u2019t authorise ongoing harm to continue unaddressed. The correct response to genuine burnout is real support, arriving now, not indefinite tolerance of an unsustainable situation because \\u201cthey\u2019re doing their best.\\u201d</p>
+`;
+
+/* ======================= MOVEMENT III ======================= */
+
+BODIES[15]=`
+<p>The hardest fact in this book, and it needs to be said before anything else in this movement: most documented elder financial exploitation is committed by family, not strangers.</p>
+<h3>Why this is so hard to sit with</h3>
+<p>Every instinct runs the other way. We imagine the threat as a stranger, a scammer on the phone, an opportunist who spotted vulnerability from outside. The far more common reality is a son, a daughter, a grandchild, or a spouse.</p>
+<div class="pull">This is not a claim that every family member is a suspect, or that families are more dangerous than the world outside them. It\u2019s a claim about where the statistics actually point, stated plainly because looking away from it protects nobody.</div>
+<h3>Why this matters for how you read the rest of this book</h3>
+<p>If you\u2019ve been searching outward \u2014 worrying about a stranger, a scam, an outside threat \u2014 while the actual pattern of concern involves someone inside the family, this chapter is the reason to widen what you\u2019re looking at. Chapter seven already covered one version of this. The chapters ahead cover the others: carers, professionals, institutions, and the possibility that a lifelong marriage dynamic has simply continued into a period where it\u2019s finally visible to everyone else.</p>
+`;
+
+BODIES[16]=`
+<p>Paid and unpaid carers occupy a position of extraordinary, often unsupervised access: to a home, to finances, to medication, to hours nobody else witnesses.</p>
+<h3>The structural conditions</h3>
+<p>Low pay in much of the paid care sector. Long, exhausting hours. Minimal oversight once a carer is inside a home. None of this causes exploitation on its own, but it creates conditions where it becomes possible with very little friction.</p>
+<div class="pull">Most carers, paid and unpaid, are doing genuinely hard, undercompensated work with real care for the person they\u2019re supporting. The structural gap in supervision is what this chapter is about, not a claim that carers are typically the threat.</div>
+<h3>What to watch for</h3>
+<p>Sudden financial requests or \\u201cloans\\u201d from a paid carer. Reluctance to allow other people to visit during care hours. Explanations for financial changes that come from the carer rather than from your parent directly. And, per chapter fourteen, genuine exhaustion in an unpaid family carer that\u2019s produced neglect without malicious intent, a different problem requiring a different response.</p>
+`;
+
+BODIES[17]=`
+<p>Financial advisors, lawyers, and other professionals working with your parent typically owe a fiduciary duty: a specific, legally significant obligation to act in the client\u2019s best interest, not their own.</p>
+<h3>What fiduciary duty actually requires</h3>
+<p>Recommending what genuinely serves the client, not what generates the highest fee or commission. Disclosing conflicts of interest. Not steering a client toward products or decisions that primarily benefit the advisor.</p>
+<h3>Signs of breach</h3>
+<ul>
+<li>Products recommended that carry unusually high fees or commissions, without a clear explanation of why they suit your parent\u2019s actual situation.</li>
+<li>Pressure to decide quickly, rather than time to consider and consult family.</li>
+<li>Reluctance to explain a recommendation in plain terms, or irritation when asked to.</li>
+</ul>
+<div class="pull">Most professionals meet their obligations. The specific concept of fiduciary duty gives you language to ask a precise question &mdash; \\u201chow does this serve my parent specifically, rather than being simply a product you sell\\u201d &mdash; rather than a vague sense that something feels off.</div>
+`;
+
+BODIES[18]=`
+<p>Large, organised scam operations specifically target older adults, and they are engineered around common later-life circumstances rather than being random in who they reach.</p>
+<h3>The major categories, by pattern rather than exhaustive detail</h3>
+<p><strong>The urgent-crisis call.</strong> A message claiming a grandchild is in trouble and needs money immediately, relying on urgency and fear to bypass the verification a calmer moment would allow.</p>
+<p><strong>The romance approach.</strong> A relationship built entirely online or by phone, moving quickly toward requests for money, often from someone who has never been met in person.</p>
+<p><strong>Technical or official impersonation.</strong> A call or message claiming to be from a bank, a government agency, or technical support, creating urgency around a supposed problem that requires immediate payment or access.</p>
+<div class="warn"><span class="k">Why these work</span>
+Urgency prevents the calm verification that would normally catch it. Isolation removes the second opinion a spouse or friend might once have provided. Unfamiliarity with newer technology or newer scam formats removes pattern-recognition that younger targets often have simply from more recent exposure. This is about the mechanism, not about older people being generally easier to fool.</div>
+<h3>The one universal defence</h3>
+<p>Any request involving urgency and money, from any source, benefits from a pause and independent verification &mdash; calling a grandchild back on a known number, calling the bank directly rather than through a number provided in the suspicious contact. Chapter thirty-four covers how to establish this habit with a parent without it feeling like an accusation of gullibility.</p>
+`;
+
+BODIES[19]=`
+<p>Care homes and residential facilities can be sites of institutional neglect or abuse, and the power imbalance between an individual resident and a large facility is genuinely severe, which makes knowing the actual complaint process matter more, not less.</p>
+<h3>What institutional patterns look like</h3>
+<p>Understaffing that produces neglect indistinguishable, on the ground, from active harm. Inconsistent care that varies sharply by which staff are on shift. Reluctance to allow unannounced visits, or discouraging family presence during specific hours.</p>
+<div class="pull">A formal complaint does not require you to already have proof. It requires a documented concern, and the process itself is what\u2019s meant to establish whether that concern is founded.</div>
+<h3>What to actually do</h3>
+<p>Document specific incidents: dates, what was observed, who was involved. Most jurisdictions have a specific regulatory body for care facilities, separate from general adult protective services, with the power to inspect and compel change. Chapter thirty-two covers the process in more depth.</p>
+`;
+
+BODIES[20]=`
+<p>Sometimes what an adult child is noticing isn\u2019t new. It\u2019s a dynamic between their parents that has existed for decades, largely invisible to the children because they never had anything else to compare it to.</p>
+<h3>Why this is hard to see</h3>
+<p>If one parent has always controlled the finances completely, always made the decisions, always spoken for the other in company: an adult child who grew up inside that arrangement often has no independent sense that it\u2019s unusual. It was just how Mom and Dad were.</p>
+<div class="pull">Later life can intensify a pattern that\u2019s existed for fifty years rather than introduce a new one. Declining health, retirement, or a spouse\u2019s death can suddenly make a longstanding dynamic far more consequential than it was when both partners were independently capable.</div>
+<h3>What to look for</h3>
+<p>Whether the surviving or more dependent spouse has ever had genuine financial or decision-making independence at any point in the marriage, not just recently. A dynamic that\u2019s been constant for decades is a different situation from one that emerged suddenly, and it may call for a different, more careful approach than intervention aimed at a new threat.</p>
+`;
+
+/* ======================= MOVEMENT IV ======================= */
+
+BODIES[21]=`
+<p>Before assuming the worst or dismissing a concern, it helps to know what you can actually, lawfully review, and what requires a legal process you don\u2019t currently have.</p>
+<h3>What can be lawfully reviewed</h3>
+<p>With your parent\u2019s permission, most banks will discuss accounts with a named family member present, or grant view-only access if your parent authorises it. If you hold a power of attorney or are a named joint account holder, your access is broader and comes with its own responsibilities.</p>
+<h3>What requires legal process</h3>
+<p>Accessing an account you have no authorisation for, even with good intentions, is not lawful and can undermine any later legal action if the situation does turn out to require it. A capacity assessment or a protective order, where warranted, opens routes that informal access does not.</p>
+<div class="pull">The instinct to just look, quietly, without asking, is understandable and it\u2019s also the wrong move &mdash; both practically and because it repeats, in a smaller way, the same removal of a parent\u2019s control that this book is trying to help you prevent.</div>
+<h3>What to actually do</h3>
+<p>Ask your parent directly for a look at recent statements, framed as helping them stay on top of things rather than as an investigation. If that\u2019s refused and concern is serious, chapter thirty-seven\u2019s second opinion and, if necessary, chapter thirty\u2019s protective services are the next steps.</p>
+`;
+
+BODIES[22]=`
+<p>A power of attorney gives someone legal authority to act on another person\u2019s behalf: a genuinely useful, often necessary instrument, and one that can be badly misused by whoever holds it.</p>
+<h3>What it\u2019s supposed to permit</h3>
+<p>Depending on how it\u2019s drafted, a POA can allow the holder to manage finances, make certain decisions, or act generally on the person\u2019s behalf: always, in principle, in that person\u2019s interest, and often only when specific conditions (like incapacity) are met, depending on the type.</p>
+<h3>Common patterns of misuse</h3>
+<ul>
+<li>Using authority to move money for the holder\u2019s own benefit rather than the parent\u2019s.</li>
+<li>Acting under a POA before the conditions that were supposed to trigger it have actually been met.</li>
+<li>Refusing to show other family members what\u2019s being done under the authority, when reasonably asked.</li>
+</ul>
+<div class="pull">A POA is meant to extend someone\u2019s ability to manage their own affairs through a trusted agent. It is not meant to transfer ownership of those affairs to someone else\u2019s judgement.</div>
+<h3>How to check</h3>
+<p>Ask your parent directly whether a POA exists and who holds it. This is not confidential information they\u2019re prevented from sharing with you, though the document itself will specify the details. Chapter twenty-six covers what to do if concerning use is suspected.</p>
+`;
+
+BODIES[23]=`
+<p>Changes to a property deed \u2014 adding a name, transferring ownership, altering occupancy rights \u2014 are significant, checkable, and sometimes move faster and more irreversibly than families expect.</p>
+<h3>What to check</h3>
+<p>Most places maintain a public land or property registry where current ownership and recent changes can be checked, often for a small fee or sometimes freely. This doesn\u2019t require anyone\u2019s permission to look up, it\u2019s public information in most jurisdictions.</p>
+<div class="pull">Property transfers, once completed, are often far harder to reverse than the conversation that led to them. Checking early, before a transfer happens rather than after, is meaningfully more useful.</div>
+<h3>What this connects to</h3>
+<p>Property changes often accompany the same undue-influence patterns as a changed will, chapter eleven, and the same markers apply: timing relative to a new relationship, isolation from previous advisors, and whether the change reflects a clearly explained, considered decision or a quick one made under someone else\u2019s direction.</p>
+`;
+
+BODIES[24]=`
+<p>Certain financial products \u2014 equity release, reverse mortgages, high-fee investment products \u2014 are specifically and heavily marketed to older homeowners, and the marketing frequently exploits trust and complexity rather than serving genuine need.</p>
+<h3>How these products generally work</h3>
+<p>They typically allow access to money tied up in a home or pension without an immediate sale, in exchange for fees, interest, or a reduced eventual inheritance for whoever would otherwise receive the property or funds.</p>
+<h3>Why they\u2019re marketed to this age group specifically</h3>
+<p>Older homeowners are more likely to have substantial home equity and less likely to have recent exposure to comparing complex financial products: both entirely structural facts about circumstance, and both make this a profitable, if sometimes predatory, market.</p>
+<div class="pull">Not every equity-release product or every advisor selling one is exploitative. Some serve a genuine need well. The concern is products sold through pressure, unclear fee structures, or without independent advice, not the category of product itself.</div>
+<h3>Red flags in how they\u2019re pitched</h3>
+<p>Pressure to decide quickly. Reluctance to recommend independent legal or financial advice before signing. Fee structures that are difficult to get explained plainly.</p>
+`;
+
+BODIES[25]=`
+<p>A gift, a loan, and undue-influence extraction can look identical on a bank statement, money moving from your parent to someone else, and the legal and practical difference between them matters, and is sometimes blurred on purpose.</p>
+<h3>The distinctions</h3>
+<p>A genuine gift is given freely, understood as permanent, without expectation of repayment or ongoing leverage. A loan has terms, even informal ones, and an expectation of return. Undue-influence extraction is framed as either of the above but is, in substance, the result of pressure that overrode your parent\u2019s actual free choice.</p>
+<h3>Markers of the third category, inside what looks like \\u201cjust a gift\\u201d</h3>
+<ul>
+<li>The \\u201cgift\\u201d was suggested by the recipient rather than initiated by your parent.</li>
+<li>It followed closely after isolation from other advisors or family.</li>
+<li>Your parent seems unable to clearly explain, in their own words, why they gave it.</li>
+<li>It\u2019s part of a pattern of escalating amounts over a short period.</li>
+</ul>
+<div class="pull">Not every gift from an older relative is suspect &mdash; generosity toward grandchildren, favourite causes, or people who\u2019ve genuinely helped is entirely normal at any age. The pattern above, not a single instance, is what warrants concern.</div>
+`;
+
+BODIES[26]=`
+<p>When something looks seriously wrong, there\u2019s a practical sequence for limiting further harm while a fuller picture is established. One that doesn\u2019t require accusing anyone yet.</p>
+<h3>The sequence</h3>
+<div class="try"><span class="k">In order</span>
+<ul style="margin:0 0 0 18px">
+<li><b>Talk to the bank</b> about flagging the account for unusual activity, which many will do on request or on their own initiative if patterns look concerning: chapter thirty-one covers what banks can and can\u2019t do here.</li>
+<li><b>Check whether a credit freeze</b> is warranted, particularly if identity-related fraud (rather than family exploitation specifically) is suspected.</li>
+<li><b>Review any power of attorney</b> in place: who holds it, and whether it\u2019s being used within its actual terms.</li>
+<li><b>Get an independent second opinion</b> before any formal accusation, chapter thirty-seven.</li>
+</ul></div>
+<div class="pull">This sequence protects against further loss while the actual picture is being established. It is not itself an accusation, and it can be undone easily if concerns turn out to be unfounded.</div>
+`;
+
+BODIES[27]=`
+<p>Sometimes money is already gone, and this chapter is about giving an honest account of what\u2019s realistically recoverable, because false hope and complete hopelessness both cost families more than an accurate picture would.</p>
+<h3>What\u2019s sometimes recoverable</h3>
+<p>Fraud reported quickly to a bank, particularly involving an unauthorised transaction rather than a transaction your parent was persuaded to make themselves, sometimes can be reversed. Reporting promptly matters enormously to the odds.</p>
+<h3>What usually isn\u2019t</h3>
+<p>Money genuinely given as a gift, even one influenced by undue pressure, is much harder to recover: proving undue influence sufficient to unwind a completed transfer is a real legal process with a real burden of proof, not a guarantee. Money transferred abroad or spent long ago is frequently gone in practice, whatever the legal position on paper.</p>
+<div class="warn"><span class="k">The emotional weight of this chapter</span>
+Accepting that a specific loss isn\u2019t coming back is genuinely hard, and it\u2019s a different task from addressing the ongoing situation. Families sometimes spend years and considerable further money pursuing recovery that was never realistically likely, at the cost of addressing what\u2019s still happening now.</div>
+<h3>What to actually do</h3>
+<p>Get a realistic assessment from someone with actual expertise, chapter forty-one\u2019s free legal advice routes apply here, before deciding how much further pursuit makes sense, and don\u2019t let the pursuit of what\u2019s gone distract from protecting what\u2019s still at risk.</p>
+`;
+
+/* ======================= MOVEMENT V ======================= */
+
+BODIES[28]=`
+<p>A formal capacity assessment is a specific, structured process performed by qualified professionals \u2014 usually a doctor, sometimes alongside a psychologist or social worker \u2014 and understanding what it actually evaluates prevents both over-reliance and under-reliance on it.</p>
+<h3>What\u2019s typically assessed</h3>
+<p>Whether the person understands the specific decision at hand, can weigh relevant information, and can communicate a choice: usually assessed in relation to a specific domain (finances, medical decisions, living arrangements) rather than as a single global verdict on the whole person.</p>
+<h3>What it can and can\u2019t tell a family</h3>
+<p>It can provide a professional, documented opinion on capacity for a specific decision at a specific time. It generally cannot definitively resolve a family conflict where everyone already has a strong, entrenched position: an assessment result that contradicts what one side wants to hear is sometimes disputed rather than accepted, regardless of its quality.</p>
+<p>There\u2019s a real difference worth holding onto here: having a legitimate basis to question how an assessment was conducted \u2014 who performed it, whether it covered the actual decision in question, whether it was rushed \u2014 is different from simply disliking the result and calling it unreliable. The first is due diligence. The second is what an entrenched family dispute does to almost any evidence that doesn\u2019t confirm what someone already believed.</p>
+<p>There\u2019s an important difference worth holding onto here. Having a legitimate basis to question an assessment \u2014 it was rushed, the assessor never actually met your parent alone, it addressed the wrong decision entirely \u2014 is different from disputing a properly conducted assessment simply because the result wasn\u2019t the one you wanted. The first is a fair challenge. The second is the assessment being treated as disposable whenever it\u2019s inconvenient, which defeats the entire point of getting an outside opinion in the first place.</p>
+<div class="pull">A single assessment is a data point, not a verdict that ends every disagreement. It\u2019s still far better evidence than any family member\u2019s own read, including yours.</div>
+<h3>How to arrange one</h3>
+<p>Usually initiated through a GP or a referral to a relevant specialist. Chapter thirty-seven covers why getting this from someone entirely outside the family dispute matters more than it might seem.</p>
+`;
+
+BODIES[29]=`
+<p>Guardianship, or conservatorship depending on where you are, is a court process granting someone else legal authority over a person\u2019s decisions: sometimes financial, sometimes personal, sometimes both. It is a real, sometimes necessary remedy. It is also a documented, researched site of serious abuse, and both facts need equal weight here.</p>
+<h3>What it actually does</h3>
+<p>Removes some or all of a person\u2019s legal authority to make their own decisions, transferring it to a court-appointed guardian. This is not a small administrative step. It is one of the most significant removals of personal autonomy the legal system permits, reserved, in principle, for genuine and substantial incapacity.</p>
+<h3>The documented pattern of misuse</h3>
+<p>Cases exist \u2014 documented, investigated, sometimes prosecuted \u2014 of guardians isolating the person under their authority from family, controlling and depleting their assets, and using the legal protections of the guardianship itself to prevent the person from objecting or family from intervening.</p>
+<div class="warn"><span class="k">Why this matters for how you use this book</span>
+Pursuing guardianship should be a last resort, considered only after less restrictive options have genuinely been explored, not the first tool reached for out of fear. And if guardianship already exists in your family\u2019s situation, the same vigilance this whole book teaches applies to the guardian as to anyone else with this much unsupervised power.</div>
+<h3>Less restrictive alternatives, worth exploring first</h3>
+<p>A limited or specific power of attorney rather than full guardianship. Supported decision-making arrangements, where they exist, that assist rather than replace a person\u2019s own decision-making. A representative payee arrangement for specific benefit income, without touching broader legal authority.</p>
+`;
+
+BODIES[30]=`
+<p>A specific agency \u2014 the name and exact structure vary by country and region, but the function is broadly similar \u2014 exists specifically to investigate suspected elder abuse and exploitation, and it can be contacted without proof.</p>
+<h3>What this category of service typically does</h3>
+<p>Investigates reports of suspected abuse, neglect, or exploitation of older or vulnerable adults. Can conduct welfare checks. Has some authority to intervene in serious cases, though the specific powers vary considerably by jurisdiction.</p>
+<h3>Realistic expectations</h3>
+<p>Response times vary widely, and are often slower than a worried family member wants. Not every report results in the outcome the reporting family hoped for: the agency has to weigh the same autonomy considerations this book holds throughout, and a competent adult\u2019s right to make their own choices genuinely limits what any agency can do.</p>
+<div class="pull">Contacting this kind of service is not \\u201coverreacting.\\u201d It exists specifically for situations exactly like the one you\u2019re worried about, and using it doesn\u2019t require certainty: only a genuine, documented concern.</div>
+<h3>Finding the right one</h3>
+<p>Search \\u201cadult protective services\\u201d or \\u201csafeguarding adults\\u201d plus your country or region: most governments publish this clearly, in plain language, as a public service.</p>
+`;
+
+BODIES[31]=`
+<p>Banks occupy an important but limited position in this whole picture, and knowing both the reach and the limits prevents wasted effort and misplaced hope.</p>
+<h3>What banks can typically do</h3>
+<p>Flag accounts for unusual activity, sometimes proactively if their own fraud detection notices a concerning pattern. In many places, banks are increasingly trained and sometimes legally required to report suspected elder financial exploitation to appropriate authorities. Freeze or delay a specific suspicious transaction temporarily, in some cases.</p>
+<h3>What banks typically cannot do</h3>
+<p>Freeze an entire account indefinitely without legal authority, even at a concerned family member\u2019s request: the account holder\u2019s own rights to their money generally remain intact unless a court has determined otherwise. Share detailed account information with a family member who isn\u2019t authorised, even with good intentions.</p>
+<div class="pull">A bank can be a genuine ally in flagging concerns and sometimes preventing a specific fraudulent transaction. It cannot substitute for the legal processes covered elsewhere in this movement.</div>
+<h3>How to raise a concern effectively</h3>
+<p>Call the bank\u2019s fraud or safeguarding line specifically, rather than a general customer service line, and be as specific as possible about what\u2019s concerning you.</p>
+`;
+
+BODIES[32]=`
+<p>A formal complaint process exists for care facilities in virtually every jurisdiction with any regulatory structure, and using it produces a documented record regardless of the eventual outcome.</p>
+<h3>What the process typically involves</h3>
+<p>A written complaint to the facility itself, and separately or subsequently to the relevant regulatory or inspection body, describing specific concerns with dates and details where possible.</p>
+<h3>What it can compel</h3>
+<p>An investigation, sometimes an inspection, and in serious or repeated cases, regulatory action against the facility: up to and including closure in the most severe, documented cases.</p>
+<div class="pull">You don\u2019t need to prove your case before filing a complaint. The process exists to establish whether it\u2019s founded, and a documented complaint that doesn\u2019t immediately resolve everything still creates a record that matters if the pattern continues or recurs.</div>
+<h3>Practical tips</h3>
+<p>Keep your own copy of everything submitted. Follow up in writing if you don\u2019t hear back within a reasonable timeframe. If the facility\u2019s own internal process feels inadequate, go directly to the external regulatory body: you\u2019re not required to exhaust the facility\u2019s own process first in most places.</p>
+`;
+
+BODIES[33]=`
+<div class="warn"><span class="k">If a crime may be in progress right now</span>
+Theft, physical assault, or an immediate threat to safety warrants calling the police directly, now. Everything below is about the broader picture of when police involvement is the right route rather than only civil or protective-services options.</div>
+<h3>Categories that typically warrant police involvement</h3>
+<p>Theft of money or property, where evidence exists or a report can at least be filed. Physical assault or credible threats of it. Coercion involving threats, intimidation, or unlawful confinement. Fraud involving a clear, provable criminal act rather than a civil dispute about undue influence.</p>
+<h3>What to expect</h3>
+<p>Response and follow-through vary considerably by location and by the specifics of the case. Elder-specific fraud and abuse are increasingly recognised categories with dedicated units or training in some places, and simply not in others: worth asking directly whether such a unit or specialist exists locally.</p>
+<div class="pull">Some of what\u2019s in this book is fundamentally a civil matter \u2014 a dispute about undue influence in a will, for instance \u2014 better addressed through the legal routes in chapters twenty-two through twenty-nine. Police involvement is the right tool specifically where a crime, not just a harmful pattern, has occurred.</div>
+`;
+
+/* ======================= MOVEMENT VI ======================= */
+
+BODIES[34]=`
+<p>This is the hardest conversation in the book, and how you have it determines whether it can happen more than once.</p>
+<h3>What tends to fail</h3>
+<p>Leading with the conclusion, \\u201cI think he\u2019s taking advantage of you\\u201d, rather than the observation. Talking about the situation as though your parent isn\u2019t fully capable of understanding it, or talking to another family member about them in front of them. Anything that feels, even slightly, like a tribunal, an intervention staged with an audience, or a decision already made that\u2019s now being announced.</p>
+<h3>What tends to work</h3>
+<div class="try"><span class="k">A version that has worked for other families</span>
+<em>&ldquo;I\u2019ve noticed a few things and I want to understand them better, not because I think you can\u2019t handle this, but because I love you and I\u2019d want to know if I were missing something. Can we talk about the new arrangement with the accounts?&rdquo;</em>
+<p style="margin:10px 0 0">Specific, curious rather than accusatory, and explicitly affirms their capability rather than undermining it.</p></div>
+<div class="pull">The naming test from elsewhere in this library applies here too: describe the specific thing plainly, and watch whether the conversation can actually engage with it, or whether it immediately becomes about your motives for asking.</div>
+<h3>Why the first attempt often doesn\u2019t fully land</h3>
+<p>Defensiveness, loyalty to whoever\u2019s involved, or simple surprise are all common first reactions, and none of them mean the conversation failed permanently. Chapter thirty-eight is entirely about what to do when this doesn\u2019t resolve things the first time, which is the expected outcome, not a sign you did it wrong.</p>
+`;
+
+BODIES[35]=`
+<p>When the person of concern is a sibling or other close relative, this conversation has a different shape than talking to your parent, and different risks attach to getting it wrong.</p>
+<h3>How to raise it</h3>
+<p>Specific observations, not a courtroom-style accusation: \\u201cI\u2019ve noticed Mom\u2019s accounts have changed and I don\u2019t fully understand why: can you walk me through it?\\u201d This gives a genuinely innocent explanation room to be given, while making clear you\u2019re paying attention.</p>
+<h3>If the sibling is defensive</h3>
+<p>Defensiveness alone isn\u2019t proof of guilt: being accused, even gently, of harming a parent is upsetting regardless of whether it\u2019s warranted. Watch what happens next: does the conversation move toward transparency (offering to show records, welcoming a second opinion) or toward shutting the conversation down entirely.</p>
+<div class="pull">If your sibling is the person actually causing harm, this conversation may not resolve anything on its own, and that\u2019s precisely why chapter thirty-seven\u2019s independent second opinion matters, rather than relying on a family conversation to settle a family dispute.</div>
+`;
+
+BODIES[36]=`
+<p>The same instrument as everywhere else in this library: a written, contemporaneous record is the single most useful thing you can create, starting today, and most families in this position have none.</p>
+<h3>What to record</h3>
+<ul>
+<li>Dates and specifics of anything concerning \u2014 a conversation, a document, a financial change.</li>
+<li>Financial records you can lawfully access, kept as copies.</li>
+<li>Photographs, where relevant to a physical concern like neglect or a property change.</li>
+<li>Names of anyone else present or aware of a given incident.</li>
+</ul>
+<div class="try"><span class="k">One entry, in full</span>
+Four lines. It needs to be boring and it needs to be the same day.
+<ol style="margin:8px 0 0 18px">
+<li><strong>When.</strong> The date, and the time if you have it.</li>
+<li><strong>What you directly observed.</strong> Not \u201cshe seemed confused about the money\u201d but \u201casked me twice in one visit who had been paying the gas bill.\u201d Observed, not inferred.</li>
+<li><strong>Who was there</strong>, or who you told that day.</li>
+<li><strong>What changed.</strong> The amount, the document, the visit that did not happen.</li>
+</ol>
+<p style="margin:10px 0 0">Write what you saw, not what you concluded from it. A record of observations survives someone disputing your interpretation; a record of conclusions does not.</p></div>
+<h3>Where to keep it</h3>
+<p>Separately from your parent\u2019s own devices or accounts, and separately from anyone you have concerns about. A personal file, physical or digital, that you control.</p>
+<div class="pull">This is documentation of what\u2019s happening, not covert surveillance of your parent. It doesn\u2019t require hiding cameras or reading private messages. It requires writing down what you directly observe and what you can lawfully access.</div>
+<h3>Why it matters even if you never need it formally</h3>
+<p>Memory softens and reorganises over time, for everyone in a family dispute. An accurate contemporaneous record is what lets you, and anyone else who eventually needs to assess the situation, see clearly rather than through the fog that accumulates in any prolonged family concern.</p>
+`;
+
+BODIES[37]=`
+<p>An outside, independent assessment \u2014 medical, legal, or social work \u2014 breaks a specific trap: in a family dispute, everyone\u2019s judgement, including yours, is entangled with their own stake in the outcome.</p>
+<h3>Why this matters even when the family agrees</h3>
+<p>Shared bias is still bias. If every sibling agrees something is wrong, that agreement feels like confirmation, but it can also simply mean the family shares a blind spot, a grudge, or a mistaken read: an outside professional isn\u2019t subject to the same family history and dynamics.</p>
+<h3>What kind of outside opinion helps</h3>
+<p>A capacity assessment from a doctor with no prior relationship to the family dispute (chapter twenty-eight). A lawyer who specialises in elder law, reviewing documents independently. A social worker or adult protective services caseworker conducting an actual visit and assessment.</p>
+<div class="pull">This isn\u2019t about distrusting your own read entirely. It\u2019s about not relying on it alone, in a situation where your own love, fear, and history with this person make you the least neutral observer available, however accurate your instincts turn out to be.</div>
+`;
+
+BODIES[38]=`
+<p>Most first attempts to address this don\u2019t fully resolve it. Knowing this in advance is what prevents the discouragement that stops a family from trying again with a better approach.</p>
+<h3>Why first attempts commonly fail</h3>
+<p>Denial \u2014 from your parent, from a sibling, from everyone involved \u2014 is a common and understandable first response to being told something painful is happening. Loyalty to whoever\u2019s involved, even where concern is genuinely warranted, is real. Fear of what acknowledging the problem would mean \u2014 losing a relationship, admitting a mistake, facing a difficult legal process \u2014 keeps people from engaging fully the first time it\u2019s raised.</p>
+<div class="pull">A failed first attempt is not proof that nothing is wrong, and it\u2019s not proof that trying again won\u2019t work. It\u2019s the expected first outcome in almost every documented case of this kind.</div>
+<h3>What actually helps the second time</h3>
+<p>A different approach than the first: more documentation in hand, an outside opinion already obtained, or simply more time having passed for the initial defensiveness to soften. Chapter thirty-four\u2019s approach, tried again later with more preparation, succeeds more often than the same approach repeated immediately.</p>
+`;
+
+BODIES[39]=`
+<p>Sometimes, after everything \u2014 the conversation, the second opinion, a genuine capacity assessment that confirms your parent understands the situation \u2014 they choose to stay in an arrangement the family believes is harmful.</p>
+<h3>What this actually requires of you</h3>
+<div class="pull">Autonomy, applied when it hurts to watch, is still autonomy. A competent adult\u2019s right to make a choice the family disagrees with does not evaporate because the choice is painful to accept.</div>
+<p>This does not mean walking away entirely. It means respecting the choice while remaining present: continuing contact, continuing to watch for genuine escalation, and being available if and when the situation changes.</p>
+<h3>The critical distinction this chapter has to hold</h3>
+<p>There\u2019s a real difference between a genuine, informed choice and compliance produced by ongoing coercion that merely looks like choice from outside. If your parent has had a genuine capacity assessment, has been given real information and real alternatives, and still chooses to stay, that\u2019s autonomy. If \\u201cI want to stay\\u201d is being said under active intimidation, financial dependency engineered by the person of concern, or in isolation from any real alternative, that\u2019s not the same thing, however similar the words sound.</p>
+<h3>How to tell the difference in practice</h3>
+<p>A genuine choice can usually be explained, even if you disagree with the reasoning. A coerced compliance often can\u2019t be, or the explanation changes depending on who\u2019s in the room. Chapter forty covers the threshold for acting even when the words say \\u201cI choose this.\\u201d</p>
+`;
+
+BODIES[40]=`
+<p>The threshold for overriding a parent\u2019s stated wishes is high, and it should be, and this chapter tries to state it as precisely as a book like this can manage.</p>
+<h3>The threshold</h3>
+<div class="warn"><span class="k">What actually meets it</span>
+Genuine, professionally assessed incapacity regarding the specific decision in question &mdash; not simply a decision the family disagrees with. Or acute, ongoing, serious danger &mdash; not general risk, but immediate and severe harm continuing to occur.
+<p style="margin:8px 0 0">&ldquo;I think this is a bad decision&rdquo; does not meet this threshold on its own, however strongly and correctly you may believe it.</p></div>
+<h3>Why the threshold has to be this specific</h3>
+<p>A looser standard, \\u201cI\u2019m very worried\\u201d or \\u201ceveryone in the family agrees this is wrong\\u201d, would justify routine overriding of autonomy any time a family disagreed with a parent\u2019s choice, which is precisely the harm chapter four warned about from the very start of this book.</p>
+<h3>What acting against stated wishes actually looks like when the threshold is met</h3>
+<p>Pursuing a formal capacity assessment if one hasn\u2019t already established incapacity. Contacting adult protective services with your documented concerns. In genuine emergencies, involving police. Pursuing guardianship only as a last resort, per chapter twenty-nine, and only once less restrictive options have been genuinely explored.</p>
+<div class="pull">This is not a threshold you get to lower because the situation is emotionally unbearable to watch. The emotional weight of watching someone you love make a choice you believe is harmful is real and does not, on its own, meet the bar.</div>
+`;
+
+BODIES[41]=`
+<p>You are very likely exhausted. This is worth naming directly rather than treating as a footnote to the main subject, because it isn\u2019t one.</p>
+<h3>The realistic toll</h3>
+<p>Many people navigating this are doing so alongside their own job, their own children, sometimes their own health concerns: while also absorbing the emotional weight of watching a parent potentially being harmed, managing sibling conflict, and navigating unfamiliar legal and financial systems.</p>
+<div class="pull">Looking after yourself in this is not a distraction from protecting your parent. A depleted, isolated adult child makes worse decisions and burns out faster than one who has support.</div>
+<h3>Practical permission</h3>
+<ul>
+<li>Share the load with siblings explicitly, rather than becoming the sole person carrying this.</li>
+<li>Seek your own support \u2014 a therapist, a support group for adult children navigating this specifically, or simply a trusted friend who isn\u2019t inside the family dynamic.</li>
+<li>Accept that you cannot single-handedly guarantee an outcome, however much you want to. Movement five\u2019s systems exist because this isn\u2019t meant to be carried by one person alone.</li>
+</ul>
+`;
+
+/* ======================= MOVEMENT VII ======================= */
+
+BODIES[42]=`
+<p><em>The Weighing</em>\u2019s self-audit standard, applied directly, and without exemption for being the concerned family member who picked up this book.</p>
+<h3>Why this chapter exists here</h3>
+<p>Being worried enough about a parent to read forty-one chapters about it is not, on its own, evidence that you\u2019re not also part of the problem. This library\u2019s standard applies to everyone in every book, and this one is no exception.</p>
+<h3>The audit</h3>
+<div class="try"><span class="k">Run this honestly</span>
+<ul style="margin:0 0 0 18px">
+<li>Am I the one who would benefit financially from decisions I\u2019m currently pushing for: a guardianship, a change in living arrangement, a will provision?</li>
+<li>Have I discouraged my parent\u2019s other relationships, framed as concern?</li>
+<li>Do I have full transparency with my siblings about arrangements I\u2019ve made, or would I be uncomfortable if they saw the full picture?</li>
+<li>Am I advocating for my parent\u2019s actual wishes, or for the outcome I\u2019d prefer?</li>
+</ul></div>
+<div class="pull">Being the one who noticed something is wrong does not automatically mean you\u2019re not also, in some other respect, part of what\u2019s wrong. Both can be true, and only an honest audit tells you which.</div>
+<h3>If the honest answer raises concerns about yourself</h3>
+<p>The same standard this book has applied throughout \u2014 transparency, an outside second opinion, your parent\u2019s own stated wishes carrying real weight \u2014 applies to your own conduct as much as anyone else\u2019s.</p>
+`;
+
+BODIES[43]=`
+<p>You cannot recognise exploitation without a baseline for what its absence actually looks like, and most families entering this territory have never had reason to build one.</p>
+<h3>The unglamorous markers</h3>
+<ul>
+<li><strong>Transparency</strong> \u2014 financial and care arrangements that anyone in the family could ask about and have explained clearly.</li>
+<li><strong>The older adult remains involved</strong> in decisions about their own life and money, even where others are helping manage the logistics.</li>
+<li><strong>Multiple people have visibility</strong> \u2014 no single person is the sole source of information about how a parent is doing, financially or otherwise.</li>
+<li><strong>Disagreement is survivable</strong> \u2014 a parent can push back on a caregiving decision without it costing them access or affection.</li>
+<li><strong>New relationships are integrated, not walled off</strong> \u2014 a new partner or friend who\u2019s happy to meet the family and answer ordinary questions, rather than one who seems to actively prevent it.</li>
+</ul>
+<div class="pull">&ldquo;Everything is fine, don\u2019t worry about it&rdquo; said defensively, repeatedly, in response to reasonable questions, is not itself evidence of anything happening &mdash; and it\u2019s also not, on its own, evidence that nothing is.</div>
+<h3>Why this matters here specifically</h3>
+<p>A family with no reference point for healthy arrangements in later life will either accept a bad one as simply how things are at this age, or panic at ordinary changes that are actually part of a normal, healthy adjustment. The markers above are what to actually measure against.</p>
+`;
+
+BODIES[44]=`
+<p>Published rather than buried, per the standard this library holds itself to throughout.</p>
+<h3>What is well evidenced</h3>
+<p>That family members, not strangers, commit the majority of documented elder financial exploitation. That power of attorney is a documented, common vector for misuse when oversight is absent. That undue influence has recognisable markers in contested will and gift cases, well established in legal practice across many jurisdictions. That guardianship, while sometimes necessary, has a documented history of abuse in specific, investigated cases.</p>
+<h3>What is contested</h3>
+<p>The overall effectiveness of guardianship reform efforts varies by jurisdiction and is a live, ongoing debate among elder-law specialists. Capacity assessment reliability across different jurisdictions and practitioners is not uniform, and specialists disagree about how much weight a single assessment should carry. The actual prevalence of elder financial exploitation is likely undercounted, but by how much is genuinely disputed given how much goes unreported.</p>
+<h3>What is this book\u2019s inference</h3>
+<p>The specific conversational approaches in chapters thirty-four and thirty-five: drawn from what\u2019s reportedly worked for other families, not from controlled study. The \\u201cfreeze first\\u201d sequencing in chapter twenty-six, which reflects this book\u2019s judgement about a sensible order of operations rather than a universally validated protocol.</p>
+<h3>The biggest risk this book carries</h3>
+<p>That raising the alarm too readily, using the vocabulary and pattern-recognition this book provides, could itself become a tool for controlling a genuinely competent older adult: family members convinced their parent\u2019s perfectly reasonable, autonomous choice must be evidence of exploitation, simply because it\u2019s a choice they dislike. Chapter four\u2019s tension was written specifically to guard against this, and it bears repeating here at the end: this book is not a license to treat every choice you disagree with as evidence of harm.</p>
+<h3>What would change its mind</h3>
+<ul>
+<li>If guardianship reform were shown to have substantially reduced documented abuse rates, chapter twenty-nine\u2019s caution would need to be less emphatic.</li>
+<li>If the specific conversational approaches in movement six were shown to perform no better than direct confrontation, that material would need revising.</li>
+<li>If family-perpetrated exploitation turned out to be substantially over-represented in reporting relative to stranger-perpetrated exploitation (rather than under-represented, as currently believed), chapter fifteen\u2019s framing would need correcting.</li>
+</ul>
+`;
+
+BODIES[45]=`
+<p>Probate and inheritance disputes are where a great deal of unresolved suspicion and unaddressed harm surfaces \u2014 often for the first time, formally \u2014 at exactly the moment a family is least equipped to handle it well.</p>
+<h3>Why this is such a predictable flashpoint</h3>
+<p>Everything that went undiscussed while a parent was alive \u2014 suspicions about a will change, unease about a sibling\u2019s financial arrangements, questions never quite asked \u2014 arrives all at once, formally, with money and grief and old family roles all activated simultaneously.</p>
+<div class="pull">If concerns existed while your parent was alive and were never resolved, probate is often where they resurface, now harder to address because the person who could have explained their own choices is no longer here to do it.</div>
+<h3>What actually helps</h3>
+<p>The documentation from chapter thirty-six, if it exists, becomes considerably more valuable here than it was during the earlier, more ambiguous period: a contemporaneous record carries real legal weight in a way that memories reconstructed after death do not. If genuine undue influence is suspected in a final will, chapter eleven\u2019s markers and appropriate legal advice apply directly, though contesting a will is a real, sometimes lengthy legal process with its own considerations.</p>
+<h3>The closing note</h3>
+<p>Not every family relationship survives this fully intact, and that\u2019s a real and painful cost, worth naming honestly rather than glossing over. But what\u2019s still salvageable \u2014 between siblings who disagreed but ultimately both wanted to protect their parent, between family members who can eventually separate what happened from who they are to each other \u2014 is often more than it feels like in the middle of a probate dispute. That\u2019s not a promise. It\u2019s what\u2019s actually available, if anyone in the family is willing to reach for it once the immediate fight has settled.</p>
+`;
+
+/* ===== INSERT CHAPTERS ABOVE THIS LINE ===== */
+
+/* ======================= ROUTER + RENDER ======================= */
+
+function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function mvOf(n){for(var i=0;i<MOVEMENTS.length;i++){if(MOVEMENTS[i].c.indexOf(n)>-1)return MOVEMENTS[i];}return null;}
+
+var LOGO='<span class="mark-t" aria-hidden="true"><svg viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'+
+ '<path d="M10 26c0-8 5-14 12-14s12 6 12 14" opacity=".85"/>'+
+ '<path d="M14 26h16M8 32c8 4 20 4 28 0" opacity=".6"/>'+
+ '<path d="M10 26l-3 3M34 26l3 3" opacity=".45"/></svg></span>';
+
+function tile(n){
+  var c=CH[n],ready=!!BODIES[n];
+  return '<a class="tile'+(ready?'':' soon')+'" href="#/c/'+n+'">'+
+    '<span class="tn">'+(n<10?'0'+n:n)+'</span>'+
+    '<b>'+esc(c.t)+'</b><i>'+esc(c.d)+'</i>'+
+    '<span class="meta">'+(ready?(c.m+' min'):'in progress')+
+    (c.h?' <span class="hv">heavy</span>':'')+'</span></a>';
+}
+
+function hub(){
+  var h='<header class="mast"><div class="wrap"><div class="row">'+LOGO+
+    '<div><b>The Slow Take</b><span>Coercion in later life</span></div></div></div></header>'+
+   '<section class="hero"><div class="wrap">'+
+   '<span class="k">Forty-five chapters</span>'+
+   '<h1>You noticed something.<br><em>That noticing is worth trusting.</em></h1>'+
+   '<p>Written for the son or daughter who has seen a new friend appear too fast, paperwork nobody explained, a will that changed, '+
+   'or money that\u2019s gotten harder to follow \u2014 not for the parent it\u2019s happening to, who is, by the nature of this harm, the least '+
+   'likely person to go looking for a book about it.</p>'+
+   '<p>This book holds one tension the whole way through and never resolves it by picking a side: an older adult\u2019s right to make their '+
+   'own choices is real, and it is not the same thing as safety. The standard fix \u2014 guardianship \u2014 removes real rights and has a real '+
+   'history of being misused. Both facts get equal weight, always.</p>'+
+   '<div class="vows"><span>No account</span><span>Nothing to buy</span><span>No tracking</span><span>Nothing stored</span><span>Works offline</span><span>Free forever</span></div>'+
+   '<div class="startrow">'+
+   '<a class="btn" href="#/c/1">Start at chapter one</a>'+
+   '<a class="btn warnb" href="#/help">Where to actually go</a></div>'+
+   '<div class="alsorow">'+
+   '<a href="#/c/40">When may I act against their wishes?</a><span>\u00b7</span>'+
+   '<a href="#/c/42">Am I the one benefiting?</a><span>\u00b7</span>'+
+   '<a href="#/card">The card</a><span>\u00b7</span>'+
+   '<a href="#/limits">What this book might have wrong</a></div>'+
+   '<p class="exitnote"><b>Leaving in a hurry:</b> press <b>Esc</b>, or the Leave button at the top, and this page is replaced immediately. If the device you are reading on might be checked by someone else, a private window and a cleared history are worth the two minutes.</p>'+
+   '</div></section>';
+  for(var i=0;i<MOVEMENTS.length;i++){
+    var m=MOVEMENTS[i],t='';
+    for(var j=0;j<m.c.length;j++)t+=tile(m.c[j]);
+    h+='<section class="mv"><div class="wrap"><div class="mvh"><span class="num">MOVEMENT '+m.r+'</span>'+
+       '<h2>'+esc(m.t)+'</h2></div><p class="blurb">'+esc(m.b)+'</p>'+
+       '<div class="tiles">'+t+'</div></div></section>';
+  }
+  h+='<footer class="foot"><div class="wrap">The Slow Take &middot; Noble Father Creations. '+
+     'No account, no analytics, nothing stored on this device, nothing that keeps score. '+
+     'It does not know you are here and cannot tell whether you finished. All forty-five chapters complete.</div></footer>';
+  return h;
+}
+
+function chapter(n){
+  var c=CH[n];if(!c)return hub();
+  var m=mvOf(n),body=BODIES[n],prev=CH[n-1]?n-1:0,next=CH[n+1]?n+1:0;
+  var h='<div class="wrap"><section class="reader">'+
+    '<div class="crumb"><a href="#/">The Slow Take</a> &middot; <span>Movement '+(m?m.r:'')+' &mdash; '+esc(m?m.t:'')+'</span> &middot; <span>'+(n<10?'0'+n:n)+' of 45</span></div>'+
+    '<h1>'+esc(c.t)+'</h1><p class="dek">'+esc(c.d)+'</p>';
+  h+= body ? '<div class="body">'+body+'</div>'
+           : '<div class="stub"><b>This chapter is being written.</b><p style="margin-top:10px">'+esc(c.d)+
+             '</p><p style="margin-top:10px">The book goes up movement by movement rather than waiting until all forty-five are done, '+
+             'so what is here is finished rather than drafted.</p></div>';
+  h+='<div class="pager">'+
+     (prev?'<a href="#/c/'+prev+'"><span class="k">&larr; Previous</span>'+esc(CH[prev].t)+'</a>':'<a class="off">&nbsp;</a>')+
+     (next?'<a class="nx" href="#/c/'+next+'"><span class="k">Next &rarr;</span>'+esc(CH[next].t)+'</a>':'<a class="off nx">&nbsp;</a>')+
+     '</div></section></div>';
+  return h;
+}
+
+function card(){
+  return '<div class="wrap"><section class="reader">'+
+  '<div class="crumb"><a href="#/">The Slow Take</a> &middot; <span>Appendix A</span></div>'+
+  '<h1>The card</h1><p class="dek">The parts you will actually use.</p>'+
+  '<div class="card-sheet">'+
+  '<h3>The tension, stated plainly</h3>'+
+  '<p style="font-size:15.5px">Autonomy is real. Safety matters. Neither one automatically wins. Guardianship removes real rights and is '+
+  'itself frequently abused \u2014 it is a last resort, not a first response.</p>'+
+  '<h3>Early markers</h3><ul>'+
+  '<li>A new person, arrived fast, now managing access or finances.</li>'+
+  '<li>A relative who has become the sole gatekeeper to calls and visits.</li>'+
+  '<li>Paperwork signed without a clear explanation.</li>'+
+  '<li>A will changed shortly after someone new arrived.</li>'+
+  '<li>Money that used to be easy to account for and now isn\u2019t.</li></ul>'+
+  '<h3>Document, starting today</h3><ul>'+
+  '<li>Dates, specifics, who was present.</li>'+
+  '<li>Financial records you can lawfully access.</li>'+
+  '<li>Kept safely, separately from the person of concern.</li></ul>'+
+  '<h3>The threshold for acting against stated wishes</h3>'+
+  '<p style="font-size:15.5px">Genuine incapacity, or acute ongoing danger \u2014 not simply a decision you disagree with. '+
+  '<a href="#/c/40">Chapter 40 \u2192</a></p>'+
+  '<h3>The full sequence, in order</h3>'+
+  '<p style="font-size:15.5px">Document (36) \u2192 an outside second opinion, not the family\u2019s (37) \u2192 the conversation, protecting dignity (34) \u2192 '+
+  'freeze what you lawfully can (26) \u2192 adult protective services (30) \u2192 legal advice if it escalates.</p>'+
+  '<h3>When police, not just protective services</h3>'+
+  '<p style="font-size:15.5px">Theft, assault, credible threats, or unlawful confinement. Undue influence in a will is usually civil, not criminal. '+
+  '<a href="#/c/33">Chapter 33 \u2192</a></p>'+
+  '</div><div class="pager"><a href="#/"><span class="k">&larr; Back</span>All forty-five chapters</a>'+
+  '<a class="nx" href="#/limits"><span class="k">Next &rarr;</span>What this book might have wrong</a></div>'+
+  '</section></div>';
+}
+
+function limits(){
+  return '<div class="wrap"><section class="reader">'+
+  '<div class="crumb"><a href="#/">The Slow Take</a> &middot; <span>Appendix B</span></div>'+
+  '<h1>What this book might have wrong</h1>'+
+  '<p class="dek">Published rather than buried.</p>'+
+  '<div class="body">'+
+  '<h3>What is well evidenced</h3>'+
+  '<p>That family members, not strangers, commit the majority of documented elder financial exploitation. That power of attorney is a '+
+  'documented, common vector for misuse when oversight is absent. That undue influence has recognisable markers in contested will and '+
+  'gift cases. That guardianship, while sometimes necessary, has a documented history of abuse in specific, investigated cases.</p>'+
+  '<h3>What is contested</h3>'+
+  '<p>The overall effectiveness of guardianship reform varies by jurisdiction and is a live debate among specialists. Capacity assessment '+
+  'reliability is not uniform across practitioners. The true prevalence of elder financial exploitation is likely undercounted, but by how '+
+  'much is genuinely disputed.</p>'+
+  '<h3>What is this book\u2019s inference</h3>'+
+  '<p>The specific conversational approaches in chapters 34 and 35 &mdash; drawn from what\u2019s reportedly worked, not controlled study. '+
+  'The &ldquo;freeze first&rdquo; sequencing in chapter 26, reflecting this book\u2019s judgment rather than a validated protocol.</p>'+
+  '<h3>The biggest risk this book carries</h3>'+
+  '<p>That raising the alarm too readily could itself become a tool for controlling a genuinely competent older adult &mdash; family '+
+  'members convinced a parent\u2019s reasonable, autonomous choice must be exploitation simply because they dislike it. Chapter four\u2019s '+
+  'tension exists specifically to guard against this.</p>'+
+  '<h3>What would change its mind</h3><ul>'+
+  '<li>If guardianship reform were shown to have substantially reduced documented abuse rates, chapter 29\u2019s caution would need to '+
+  'be less emphatic.</li>'+
+  '<li>If the conversational approaches in movement six performed no better than direct confrontation, that material would need revising.</li>'+
+  '<li>If family-perpetrated exploitation turned out to be over-represented in reporting rather than under-represented, chapter 15\u2019s '+
+  'framing would need correcting.</li></ul>'+
+  '</div>'+
+  '<div class="pager"><a href="#/card"><span class="k">&larr; Previous</span>Appendix A &mdash; the card</a>'+
+  '<a class="nx" href="#/"><span class="k">Back &rarr;</span>All forty-five chapters</a></div>'+
+  '</section></div>';
+}
+
+function help(){
+  return '<div class="wrap"><section class="reader">'+
+  '<div class="crumb"><a href="#/">The Slow Take</a> &middot; <span>Help</span></div>'+
+  '<h1>Where to actually go</h1>'+
+  '<p class="dek">Routes out of this book, not further into it.</p>'+
+  '<p class="helplede">This book cannot know which country you are in, so it does not pretend to. Each row is the category of body that exists nearly everywhere and the search that finds the real one where you are. Government and established-charity sites, not aggregators.</p>'+
+  '<div class="card-sheet">'+
+  '<div class="helprow"><h3>If a crime may be happening right now</h3><p>Call your country&rsquo;s emergency number. Theft, assault, a credible threat, or someone being kept from leaving are police matters, not safeguarding matters. <a href="#/c/33">Chapter 33 &rarr;</a></p></div>'+
+  '<div class="helprow"><h3>The body that investigates this specifically</h3><p>Search <b>&ldquo;[your country] adult protective services&rdquo;</b>, or <b>&ldquo;[your country] adult safeguarding&rdquo;</b>, or <b>&ldquo;[your country] elder abuse helpline&rdquo;</b> &mdash; one of those three names it almost everywhere. Most take a report from a family member, and most take one without requiring the older adult&rsquo;s consent first. <a href="#/c/30">Chapter 30 &rarr;</a></p></div>'+
+  '<div class="helprow"><h3>The bank, before anyone else</h3><p>Every large bank has a financial-abuse or vulnerable-customer team, and they are usually the fastest actual intervention available to you. Ask for that team by name rather than explaining it to a branch clerk. <a href="#/c/31">Chapter 31 &rarr;</a></p></div>'+
+  '<div class="helprow"><h3>An assessment that is not the family&rsquo;s</h3><p>A doctor your parent already trusts, or an independent clinician. Capacity is assessed by a clinician over time, not established by a family arguing about it. <a href="#/c/28">Chapter 28 &rarr;</a></p></div>'+
+  '<div class="helprow"><h3>Before any of it: the thing this book keeps saying</h3><p>Disagreeing with a decision is not incapacity. Guardianship removes legal personhood and is itself frequently abused. The threshold for acting against a parent&rsquo;s stated wishes is genuine incapacity or acute ongoing danger, and nothing less. <a href="#/c/40">Chapter 40 &rarr;</a></p></div>'+
+  '</div>'+
+  '<div class="pager"><a href="#/"><span class="k">&larr; Back</span>All forty-five chapters</a>'+
+  '<a class="nx" href="#/card"><span class="k">Next &rarr;</span>Appendix A &mdash; the card</a></div>'+
+  '</section></div>';
+}
+
+function route(){
+  var app=document.getElementById('app'),out;
+  var p=(location.hash||'#/').replace(/^#\/?/,'').split('/').filter(Boolean);
+  if(p[0]==='c'&&CH[+p[1]])out=chapter(+p[1]);
+  else if(p[0]==='help')out=help();
+  else if(p[0]==='card')out=card();
+  else if(p[0]==='limits')out=limits();
+  else out=hub();
+  app.innerHTML=out;
+  window.scrollTo(0,0);
+  document.title=(p[0]==='c'&&CH[+p[1]])?CH[+p[1]].t+' \u2014 The Slow Take':'The Slow Take \u2014 coercion in later life';
+}
+window.addEventListener('hashchange',route);
+route();
+
+var db=document.getElementById('darkbtn');
+db.addEventListener('click',function(){
+  var on=document.documentElement.classList.toggle('dark');
+  db.setAttribute('aria-pressed',String(on));
+  db.textContent=on?'Light':'Dark';
+});
+document.addEventListener('keydown',function(e){
+  if(e.target&&/INPUT|TEXTAREA/.test(e.target.tagName))return;
+  var m=(location.hash||'').match(/^#\/c\/(\d+)/);if(!m)return;
+  var n=+m[1];
+  if(e.key==='ArrowRight'&&CH[n+1])location.hash='#/c/'+(n+1);
+  if(e.key==='ArrowLeft'&&CH[n-1])location.hash='#/c/'+(n-1);
+});
+
+/* ---- Leaving in a hurry -------------------------------------------------
+   about:blank, not an outside site: this file is offline-first and its own
+   house rule forbids external URLs. Blanking works with no network. ------- */
+var EXIT_URL='about:blank';
+function leaveNow(){
+  try{document.documentElement.innerHTML='';}catch(e){}
+  try{location.replace(EXIT_URL);}catch(e){location.href=EXIT_URL;}
+}
+var xb=document.getElementById('exitbtn');
+if(xb)xb.addEventListener('click',leaveNow);
+document.addEventListener('keydown',function(e){
+  if(e.key==='Escape'||e.key==='Esc')leaveNow();
+});
+</script>
+</body>
+</html>
