@@ -6,17 +6,59 @@ outside this repo, so plugin-based memory tools don't carry over between
 sessions here; this file does). Then `BOOKS.md` for what's actually built
 into each book (content, theme, design stance, per-book reference-site
 plan — the single file to hand another AI for "what's in each book").
-Then `PROJECT-MASTER.md` for full context/history, `sites.json` for the
-live project registry, and `chapters.json` for raw chapter data. This file
-is the always-on rulebook — treat it as binding, not a suggestion. Update
-`MEMORY.md` and `BOOKS.md` as work happens.
+Then `docs/PROJECT-MASTER.md` for full context/history, `sites.json` for
+the live project registry, and `chapters.json` for raw chapter data. This
+file is the always-on rulebook — treat it as binding, not a suggestion.
+Update `MEMORY.md` and `BOOKS.md` as work happens.
 
-**Never apply a design pattern uniformly across all 9 books.** Check each
+**Never apply a design pattern uniformly across all 14 books.** Check each
 book's own content/stance first — several make deliberate anti-pattern
 choices that are part of their argument (see `BOOKS.md` — Loop and faith
 explicitly refuse gamification/tracking; children's book Playground
 Protectors is the opposite case and *wants* gamification; Root is a guided
 practice, not a chapter book). Read before pasting, every time.
+
+## Repo layout — the site's own structure, not a folder-per-feature guess
+
+The repo is organized to match **noblefathercreations.com**'s own three
+top-level sections exactly — checked against the live nav, not assumed:
+
+- **`library/`** — every book (The Library on the live site). One
+  directory per book, `index.html` inside. `library/_undeployed/` holds
+  redesigns and alternate editions that are **not** the live copy —
+  always check whether a book you're editing has an `_undeployed/`
+  sibling before assuming the directory copy is the only one.
+- **`workshop/`** — the craft/art business (The Workshop): resin castings,
+  wax seals, the Portals. `workshop/casting/` is intentionally
+  self-contained per its own `DEPLOYING.md` — it doesn't care where it
+  lives in the tree.
+- **`instruments/`** — the tools/apps (The Instruments): Pattern Decoder
+  (`playbook` — **no local source exists anywhere**, confirmed absent,
+  don't go looking for it), The Root (`shadowroot/`), The Listening Room
+  (`music/`).
+- **`hub/`** — the site-wide index/nav itself (currently only the
+  undeployed Catalogue redesign).
+- **`other/`** — anything the live site itself doesn't nest under one of
+  the three sections above (currently the reaction map). Don't force
+  something into library/workshop/instruments to avoid an `other/` entry
+  — check the live nav first.
+- **`content/`, `design/`, `scripts/`, `tools/`, `docs/`** — cross-cutting
+  infrastructure (prose extracts, page generators, dev tooling, vendored
+  reference repos, project history docs). These span multiple books and
+  don't belong to any one of the four sections above.
+
+**`sites.json`'s `repoPath` field is the map from a live URL to where its
+source actually lives in this tree** — check it before searching by
+filename guess. A project with no `repoPath` and a `repoPathNote` instead
+means the source genuinely doesn't exist in any repo; that's a confirmed
+fact, not a gap to fill by guessing a filename.
+
+Reorganized 2026-08-31 from a structure that had grown organically
+(`casting/`, `source/projects/`, `books/`, a loose file at the repo root)
+and matched nothing. See `MEMORY.md`'s entry for that date for what moved,
+what two duplicate files were found and consolidated in the process, and
+one real mistake caught mid-move (a wrong file nearly became the canonical
+`faith` source).
 
 ## Self-contained architecture (non-negotiable)
 

@@ -37,7 +37,7 @@ manipulation, engagement-mechanic design, ad auctions, dark patterns.
 **Design status:** already excellent. Self-hosted Fraunces + Public Sans,
 20 proper `@font-face` rules, own scroll fade-ins (`.fx-reveal`), own
 sticky nav bar, own THE HOUSE tab (was the source of the original leak,
-fix ready in `fixes/loop.html`).
+fix ready in `library/loop/index.html`).
 
 **Explicit stance (its own text):** *"this book has no streaks, no
 progress bar, no completion percentage, no badge... no stored reading
@@ -90,13 +90,13 @@ stance the way Loop's does, but confirm, don't assume).
 25–27 traditions × tactics matrix, evidence-graded. **Confirmed in the
 book's own text:** *"It will not measure you. No analytics, no tracking,
 no storage, no external requests."* Same self-contained ethos as Loop, even
-more explicit. A related but distinct edition (`source/projects/faith-index.html`,
+more explicit. A related but distinct edition (`library/_undeployed/faith-offline-edition.html`,
 5/8 passes done) adds: *"no engagement mechanics"* full stop, and
 deliberately carries **no shared site chrome at all** (hand-to-person,
 offline, sometimes read by people monitored at home).
 
 **Design status (live page):** still has the leaked HOUSE-tab comment
-(fix ready, unshipped). A full redesign exists (`source/projects/noble-father-divide.html`,
+(fix ready, unshipped). A full redesign exists (`library/_undeployed/sacred-divide-faith-redesign.html`,
 "The Sacred Divide") — parchment + dark theme, three-register tactic
 entries — not deployed, your call pending ("let me look first").
 
@@ -139,7 +139,7 @@ the audience, not a manipulation pattern to avoid.
 Festival & field harm reduction. Per review doc: "zine-style hard-shadow
 buttons." **Unresolved discrepancy** (see `MEMORY.md`): this repo's own
 tracked `festie-codex-full.html` has a different title than the review
-package's `source/projects/noble-father-festival.html` — diff before doing
+package's `library/wook/index.html` — diff before doing
 any design work here.
 
 **Reference adaptation (tentative, pending the diff above):**
@@ -247,7 +247,7 @@ because the page is served both at its own domain and at
 
 **Generated, not hand-maintained:** `python3 scripts/build-music.py` reads
 `deploy/music/MANIFEST.json` and writes `deploy/music/index.html` and
-`source/projects/noble-father-music.html` as identical bytes. Do not hand-edit
+a single copy at `instruments/music/index.html`. Do not hand-edit
 either output.
 
 ---
@@ -269,7 +269,8 @@ either output.
 
 All five arrived complete and self-audited (each ships its own
 `BOOK-MAP.md`, `AUDIT.md` and `qa.js`), from one shared scaffold. They live
-in `books/<slug>/` rather than `source/projects/`, because each is a
+in `library/<slug>/` (the site's own "Library" section — see `CLAUDE.md`'s
+repo-layout rule) rather than in a flat `source/projects/`, because each is a
 directory with its spec and its test alongside the page.
 
 **None of them is deployed.** They are in the repo, they pass their own
@@ -277,10 +278,10 @@ directory with its spec and its test alongside the page.
 come from the generator, not another hand-paste, per the rule this repo
 already has and the 2026-08-12 audit's root cause.
 
-Read `books/PSYCHOLOGIST-AUDIT.md` for the content findings,
-`books/PROOFREAD-NOTES.md` for what the prose pass changed and what it
-deliberately left, `books/DESIGN.md` for the design reasoning, and
-`books/BOOK-TEMPLATE-NOTES.md` for what book six must carry from the start.
+Read `library/PSYCHOLOGIST-AUDIT.md` for the content findings,
+`library/PROOFREAD-NOTES.md` for what the prose pass changed and what it
+deliberately left, `library/DESIGN.md` for the design reasoning, and
+`library/BOOK-TEMPLATE-NOTES.md` for what book six must carry from the start.
 
 ## longafter — The Long After **[confirmed, worked on directly]**
 

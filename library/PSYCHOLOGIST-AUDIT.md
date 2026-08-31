@@ -336,5 +336,5 @@ one shows up in all five:
 These are not five books with similar oversights. They are one scaffold's
 gaps, inherited five times. The practical consequence: fixing them in a
 book fixes one instance, and the sixth book will arrive with all of them
-again unless the scaffold changes. `books/BOOK-TEMPLATE-NOTES.md` records
+again unless the scaffold changes. `library/BOOK-TEMPLATE-NOTES.md` records
 what a new book needs to carry from the start.
