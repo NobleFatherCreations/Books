@@ -42,7 +42,7 @@ def smarten_ctx(text):
     for m in re.finditer(r'"', text):
         out.append(text[i:m.start()])
         prev = text[m.start()-1] if m.start() else " "
-        out.append("\\\\u201c" if prev in " \n\t([" or prev == "" or m.start() == 0 else "\\\\u201d")
+        out.append("\\u201c" if prev in " \n\t([" or prev == "" or m.start() == 0 else "\\u201d")
         i = m.end()
     out.append(text[i:])
     return "".join(out)

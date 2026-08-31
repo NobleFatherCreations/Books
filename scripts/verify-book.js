@@ -57,6 +57,30 @@ const ROUTES = ['#/', '#/help', '#/card', '#/limits', '#/c/1', '#/c/2'];
     }
   }
 
+  // A double-escaped \\uXXXX renders as literal "\\u201c" text rather than a
+  // character. Caught only by looking at the rendered text: every other check
+  // passes, and the page looks fine at a glance.
+  {
+    const ctx0 = await browser.newContext();
+    const pg = await ctx0.newPage();
+    await pg.goto(url + '#/c/1', { waitUntil: 'load' });
+    const src = fs.readFileSync(file, 'utf8');
+    const dbl = (src.match(/\\\\u[0-9a-fA-F]{4}/g) || []).length;
+    if (dbl) bad(`${dbl} double-escaped \\uXXXX sequence(s) -- these render as literal text`);
+    else console.log('  ✓ no double-escaped unicode');
+    // and confirm no literal escape survives into what the reader sees
+    let leaked = 0;
+    for (const r of ['#/c/1', '#/c/2', '#/card', '#/help']) {
+      await pg.goto(url + r, { waitUntil: 'load' });
+      await pg.waitForTimeout(120);
+      const t = await pg.evaluate(() => document.body.innerText);
+      leaked += (t.match(/\\u[0-9a-fA-F]{4}|&[a-z]{2,8};/g) || []).length;
+    }
+    if (leaked) bad(`${leaked} escape sequence(s) visible in the rendered text`);
+    else console.log('  ✓ no escapes leak into the rendered text');
+    await ctx0.close();
+  }
+
   // quick exit must actually clear the page
   const ctx = await browser.newContext();
   const page = await ctx.newPage();
