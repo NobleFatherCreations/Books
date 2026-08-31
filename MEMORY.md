@@ -2594,3 +2594,137 @@ overflow, nothing stuck at `opacity:0`, all 176 rows and 6 shelves render, and
 **audio actually plays** (`currentTime` advancing, asserted twice, from the
 absolute URL). Also asserted the analyser genuinely paints the canvas, and that
 the fallback bars appear with no dead canvas when `AudioContext` is missing.
+
+## 2026-08-31 — One repo, five new books, and what five of them together revealed
+
+**The repos are consolidated.** `NobleFatherCreations/Books` is now the
+single repo: Wookbook's tree at the root with its full history, and
+Castings merged in as a subtree at `casting/` with *its* full history
+preserved (170 commits, both lineages, `git log --follow` still works
+either side). Wookbook's clone here was shallow and had to be
+`git fetch --unshallow`ed before the merge would take — a local `git fetch`
+from a shallow clone is rejected outright with "shallow roots are not
+allowed to be updated", which is not obvious from the error.
+
+Combined size ~650 MB, nearly all of it Castings' 512 MB of real piece
+photography in `casting/assets/`. That is fine for GitHub but makes the
+first push slow.
+
+**Five new books landed** in `books/<slug>/`: The Long After (45ch), The
+Silence (46ch), At Will (47ch), The Repair (48ch), The Slow Take (45ch).
+Each ships its own `BOOK-MAP.md`, `AUDIT.md` and `qa.js` and arrived
+already self-audited. **None is deployed** and none has a HOUSE tab —
+that has to come from the generator, not another hand-paste, per the
+2026-08-12 root cause. All 231 chapters are now in `chapters.json`, which
+before this held only Loop and Scale.
+
+**The finding worth carrying forward: they are one scaffold, not five
+books.** Four defects recur in three or more of the five in identical
+form, and one recurs in all five — no way off the page; a persistent help
+bar pointing at a chapter rather than at help; a documentation chapter
+that tells the reader a record matters and never shows one; a live
+"Filling in as the book is written" block on a finished book (twice with
+the very next heading already delivering the list it promises); and the
+book's own safeguard chapter placed at the very end (The Repair 47/48,
+The Slow Take 42/45) when both briefs say the reader needs it in the
+first days. Written up in `books/BOOK-TEMPLATE-NOTES.md`. Book six will
+arrive with all of them unless the scaffold changes.
+
+**Corrections I made to my own findings mid-pass, recorded so they are not
+re-asserted:**
+- *The Long After* does have a keepable Appendix A card. My first version
+  of that finding said it had nothing keepable — wrong. The real defect was
+  the stale block on the card.
+- *At Will* ch37 already carries the escalation-sequencing warning as a
+  `warn`, and the card carries the full ordering. My claim that it was
+  taught as flat prose was wrong.
+- *The Repair* ch47 is a genuinely sharp reader-runnable instrument against
+  the relief failure mode. My claim that the book gave the reader no such
+  instrument was wrong; the real defect is that it sits at chapter 47.
+
+**`data-here` is not a leak.** A leak scan flagged `data-here=` on loop and
+scale. It is a legitimate attribute marking which project the page is so
+the nav drawer can highlight it, and it is present in the verified fix
+files too. Do not re-open this.
+
+**The original build-comment leak is gone.** loop/scale/faith were fixed
+and deployed 2026-08-05 per `sites.json`, and a byte diff of live against
+`fixes/` confirms it. What that diff *did* turn up is below.
+
+### Live audit: the real finding is analytics, not a leak
+
+Chromium could not reach the live sites through this session's agent proxy
+(`ERR_CONNECTION_RESET` on every navigation) while `curl` through the same
+proxy worked fine. **Method that works here: `curl` each page to disk, then
+run the browser checks against the local copies.** That audits the
+delivered bytes accurately; it does not audit server-side routing or
+cross-origin asset delivery, so those stay unverified.
+
+**16 of 19 live pages load `static.cloudflareinsights.com/beacon.min.js`.**
+It is the *only* difference between live loop/scale and the repo's verified
+fixes — 229 bytes appended at the end of each file.
+
+This matters more than a normal architecture violation:
+
+- `CLAUDE.md` forbids it outright ("no external requests… never add a CDN
+  `<script>`").
+- **The pages contradict their own text.** `faith` (The Coercive Control
+  Codex) says in its own body copy *"no analytics, no tracking, no external
+  requests… it will not measure you"* while loading a third-party beacon.
+  `loop` and `scale` carry "No tracking · Nothing stored · Works offline"
+  badges.
+- These are books about coercive control, read by people who may be
+  monitored. A third-party request on page load is a record that someone
+  visited a domestic-abuse resource.
+
+**Where it comes from is only partly established.** It *is* in the repo
+source for Casting (`casting/index.html` and every `casting/statues/*`,
+added by commit `8625710` "Add Cloudflare Web Analytics site-wide"). It is
+**not** in the repo source for any book, and the books have no repo — so on
+those pages it is either baked into what was deployed or injected at the
+Cloudflare edge for the whole zone. That distinction decides the fix (edit
+and redeploy, versus a Cloudflare dashboard setting) and has not been
+confirmed. **Do not guess it — check the Cloudflare zone first.**
+
+Also still live and unfixed: the old `nh-*` HOUSE tab on loop, scale and
+playbook (three nav generations still shipping simultaneously, per the
+2026-08-12 audit), and the old "All Fracture" name on noble-nfc-tour,
+nfchq and the reaction map — the rename reached the book sites but not
+these three.
+
+### Tooling added, and two mistakes it cost to get right
+
+`scripts/` gains `slop-scan.py`, `dedash.py`, `smarten.py`, `proof-scan.py`,
+`book-structure.py`, `embed-fonts.py`, `verify-book.js`, `audit-live.js`.
+The no-ai-slop skill is vendored to `tools/petergyang-no-ai-slop/` and
+installed at `.claude/skills/no-ai-slop/` (audited first: markdown only, no
+scripts, no network, no hooks).
+
+1. **The em-dash pass had to be rewritten four times, and the early
+   versions were worse than the original text.** A local view of each dash
+   gets three things wrong: a term/gloss dash in a definition list is
+   correct typography and must stay; the halves of a parenthetical have to
+   be decided together or the sentence breaks in half; and a segment that
+   merely contains a verb is not a clause, so splitting on it leaves
+   fragments. Intermediate versions produced comma splices, a broken
+   relative clause, a real colon silently deleted out of an `<h3>`, and
+   doubled dashes from a bookkeeping bug. Every rule now carries the
+   comment explaining what it was fixing. 7–15 dashes per 1k words → 1.7–2.9.
+2. **A naive "stuck at opacity:0" check reports hundreds of false
+   positives on any scroll-reveal page.** My first live audit claimed 329
+   stuck elements on the children's book. Scrolling slowly, letting each
+   screen settle, and counting only what is *in the viewport* gives 1. Fast
+   scroll then a single count is measuring "hasn't been scrolled past yet."
+
+**`/opt/pw-browsers/chromium` is a file, not a directory** — `CLAUDE.md`'s
+stated `executablePath` is stale. The binary is at
+`/opt/pw-browsers/chromium-1194/chrome-linux/chrome`.
+
+**Fonts:** instance a variable font before subsetting (pin `opsz`, keep
+`wght` as a range) — Newsreader goes 76 KB → 21 KB for identical glyphs,
+because on a small subset the unused variation machinery is most of the
+file. Declaring each family once with a weight range is also structurally
+incapable of the duplicate-blob bug recorded earlier in this file. Some
+fonts raise `KeyError` mid-subset from a lazily-loaded `gvar`
+(HankenGrotesk on `'space'`); round-tripping through `BytesIO` with
+`lazy=False` fixes it.
