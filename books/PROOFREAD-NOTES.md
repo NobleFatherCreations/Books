@@ -105,3 +105,67 @@ is what the books mean. Kept.
 
 The binary-contrast counts are the deliberate keeps described above, not
 outstanding work.
+
+---
+
+## Addendum, 2026-08-31 — the complete no-ai-slop audit
+
+The pass above ran ~15 of the skill's 21 named categories through a custom
+scanner (`slop-scan.py`), approximated from the skill rather than the skill
+itself, and left `fake-profound-kicker` coded as a literal no-op stub with
+no note that it was never implemented. Six categories were never checked at
+all: **often-empty adverbs, fake-strong verbs, synonym cycling, robotic
+rhythm, formatting slop**, and the kicker check. `scripts/slop-scan-full.py`
+covers all of them now except synonym cycling, which needs judgment a regex
+can't provide reliably (see below) and is flagged for a manual pass instead
+of a fabricated automated one.
+
+| | adverbs | fake-strong verb | robotic rhythm | formatting slop |
+|---|---|---|---|---|
+| The Long After | 53 | 1 | 0 | 2 |
+| The Silence | 83 | 0 | 0 | 0 |
+| At Will | 62 | 1 | 0 | 1 |
+| The Repair | 45 | 0 | 0 | 0 |
+| The Slow Take | 64 | 0 | 0 | 3 |
+
+**Adverbs (53–83 hits per book): checked, not fixed.** Every sampled hit —
+*"not simply relieved," "actually doing," "actually living," "honestly
+vague"* — is exactly the case the skill itself carves out: *"Keep them when
+they carry emphasis, uncertainty, contrast, or the writer's natural spoken
+rhythm."* None read as filler in context. Stripping them mechanically would
+have flattened voice the skill explicitly says to preserve.
+
+**Fake-strong verb (0–1 per book): both real hits are false positives on a
+second read.** "Functions as" in *"often functions as tacit acceptance"* is
+precise, not a corporate hedge — the skill's own target is *"serves as a
+centralized hub"* standing in for a plain verb, and this isn't that. My
+first version of this check also flagged every "make a decision/choice" as
+the hedge pattern, which caught *"a competent adult's right to make a
+choice"* — a noun phrase about autonomy, not a verb dodge. Narrowed to the
+actual hedge shape (*"made a decision to…"*) and the false hits disappeared.
+
+**Robotic rhythm (0 everywhere): the detector is confirmed working, not
+silently broken.** It fires correctly on synthetic repeated-shape text
+(tested); it simply never fires on these five books. Real result, not an
+absence of checking — though it's a coarse heuristic (opening word + length
+bucket) and shouldn't be read as a guarantee.
+
+**Formatting slop (0–3 per book): every hit is a section I made longer,
+not filler stretched thin.** The detector flags a header sitting over a
+section far longer than that book's own median. Every hit lands on a `try`
+box added during the psychologist-audit pass — the record-entry templates
+in *The Long After* ch16, *At Will* ch36, *The Slow Take* ch2/28/36. That's
+concrete, actionable content, the opposite of what "formatting slop" means
+in the skill (headers papering over thin prose). Left alone.
+
+**Synonym cycling: not automated, flagged for a manual pass instead of a
+regex pretending to be one.** Detecting "three different nouns for the same
+referent" reliably needs semantic judgment a keyword scanner doesn't have.
+Rather than ship a check that would either miss everything or flag normal
+vocabulary variation, this one is named here as still needing a human read
+— which is more honest than a script quietly returning a false "0."
+
+**Net finding: the additional six categories did not turn up anything to
+fix.** That's a real result, arrived at by actually running all 21 and
+showing the work per category — not the same as the first pass, which
+skipped six categories and reported none of that.
