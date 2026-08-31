@@ -145,11 +145,20 @@ the fix is the same one already tooled for in this repo
 (`scripts/embed-fonts.py`, and `tools/fonts/` has all four families
 vendored already).
 
-## 6. Structural checks — all 19 pages clean
+## 6. Structural checks
 
-Every page has a `lang` attribute, a viewport meta, and a non-empty
-`<title>`. No dead in-page anchors. No horizontal overflow at 375px or
-1440px. No text rendered the same colour as its background.
+**All 19 pages** (checked directly against the delivered bytes): every one
+has a `lang` attribute, a viewport meta, and a non-empty `<title>`.
+
+**The browser pass** — horizontal overflow, elements stuck at `opacity:0`,
+dead in-page anchors, console errors — is slow on these pages (several are
+4–22 MB, and each is loaded eight times) and had covered 12 of 19 when this
+was written. Across those 12: no horizontal overflow at either width, no
+dead anchors, no console errors other than the beacon failing to load in a
+sandbox with no egress, and at most one transiently-hidden reveal element
+per page. The remaining seven are `fracture`, `hub`, `loop`, `music`,
+`playbook`, `scale`, `shadowroot` and the reaction map; their byte-level
+results are already in the table below, which is complete for all 19.
 
 ## Per-page summary
 
