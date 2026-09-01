@@ -2844,3 +2844,55 @@ repo is a one-click action in that repo's own Settings page — outside
 what this session's git push access can do. Flagged to the user directly
 rather than either attempting something out of scope or letting the ask
 quietly drop.
+
+## 2026-09-01 — the five new books went live, and the repo-vs-live drift that surfaced
+
+**Shipped.** The Long After, The Silence, At Will, The Repair and The Slow
+Take are live at `noblefathercreations.com/longafter|silence|atwill|repair|
+slowtake`, each on its own Netlify site proxied at a clean path the same way
+every other book is. Site names and IDs are in `sites.json`. Each got
+bespoke cover art (generated via Artlist, composited locally) carrying
+**Shae Stovell** as author and a small NF wax-seal watermark, plus THE HOUSE
+catalogue drawer, which none of them had before.
+
+**The catalogue is now generated, not hand-maintained.** It had drifted to
+11, 12, 13, 15 and 21 rows across the pages that carry it, with two
+different volume counts in the footer ("thirteen" and "fifteen"), and the
+book pages had silently dropped two volumes the hub still listed (The Festie
+Bible, The Casting). `scripts/nf-catalogue.py` is the single source now — 20
+volumes, append-only numbering, all pointing at clean `/slug` paths on the
+main domain. Regenerate with `nf-apply-catalogue.py` (repo copies) or
+`nf-patch-live.py` (live copies). Do not hand-edit a `<ul class="nf-toc">`
+again.
+
+**The important find — this repo is NOT the source of truth for the older
+live sites, despite what CLAUDE.md says.** Checked before deploying, by
+diffing live against the repo with the catalogue region masked out:
+
+- **Eight live sites carry Cloudflare Web Analytics** (added 2026-08-15,
+  their v4) that exists nowhere in this repo: children, feminine, fracture,
+  fractal, press/seals, portals, music, shadowroot.
+- **The Listening Room is live at v4 (2026-08-14); the repo copy is v2.**
+- **The Portals carry CSS fixes** (cursor / touch-action) the repo lacks.
+- **The reaction map's live file is a different build entirely** — 186KB
+  live against 2.9MB here, and the live one pulls Google Fonts.
+
+Deploying the repo copies would have silently stripped the analytics off
+eight sites and rolled two of them backwards. So this round patched the
+**live** HTML instead: fetch what is actually serving, swap only the
+catalogue and its volume count, send it back, and assert the analytics
+snippet survived the swap. `scripts/nf-patch-live.py` does exactly that.
+
+**Still outstanding, and someone should decide it deliberately:** the repo
+copies of those older sites remain behind live. Either pull live back into
+the repo to make it true again, or write down that live leads for those
+projects. Until then, treat "repo is the source of truth" as false for
+anything older than the five new books.
+
+**Environment note:** the Netlify MCP's `deploy-site` call 502s intermittently
+and often — expect to back off 60-90s and retry, several times. The deploy
+itself (`npx -y @netlify/mcp@latest --site-id … --proxy-path …`, run from a
+directory holding only that one `index.html`) is reliable once the token
+arrives. That npx command also needs a Bash permission rule; it is in
+`.claude/settings.local.json` now. Playwright cannot reach external HTTPS
+through the egress proxy here — use `curl` to verify anything live.
