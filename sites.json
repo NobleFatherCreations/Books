@@ -10,8 +10,13 @@
     "deploySource": "cli",
     "localSource": "hub/catalogue-redesign.html",
     "localSourceNote": "This is the first verified live deploy of the redesigned 'collected works' hub. A 2026-08-02 review package claimed the catalogue hub redesign was already deployed, but it did NOT byte-match live content at the time -- treat this 2026-08-05 deploy as the true first release.",
-    "version": "v10",
+    "version": "v11",
     "changelog": [
+      {
+        "date": "2026-09-01",
+        "version": "v11",
+        "summary": "Added five new books to the Library -- The Long After, The Silence, At Will, The Repair and The Slow Take -- each with its own cover art, and corrected the book count in the header and the intro tour. The Catalogue now lists all twenty volumes on every page."
+      },
       {
         "date": "2026-08-12",
         "version": "v10",
@@ -101,8 +106,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v1",
+      "version": "v2",
       "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v2",
+          "summary": "The Catalogue now lists all twenty volumes, including the five new books. It had drifted to different lengths on different pages."
+        },
         {
           "date": "unknown",
           "version": "v1",
@@ -126,8 +136,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v2",
+      "version": "v5",
       "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v5",
+          "summary": "The Catalogue now lists all twenty volumes, including the five new books. It had drifted to different lengths on different pages."
+        },
         {
           "date": "2026-08-05",
           "version": "v2",
@@ -156,8 +171,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v2",
+      "version": "v5",
       "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v5",
+          "summary": "The Catalogue now lists all twenty volumes, including the five new books. It had drifted to different lengths on different pages."
+        },
         {
           "date": "2026-08-05",
           "version": "v2",
@@ -187,8 +207,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v1",
+      "version": "v2",
       "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v2",
+          "summary": "The Catalogue now lists all twenty volumes, including the five new books. It had drifted to different lengths on different pages."
+        },
         {
           "date": "unknown",
           "version": "v1",
@@ -212,8 +237,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v2",
+      "version": "v3",
       "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v3",
+          "summary": "The Catalogue now lists all twenty volumes, including the five new books. It had drifted to different lengths on different pages."
+        },
         {
           "date": "2026-08-05",
           "version": "v2",
@@ -247,8 +277,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v2",
+      "version": "v5",
       "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v5",
+          "summary": "The Catalogue now lists all twenty volumes, including the five new books. It had drifted to different lengths on different pages."
+        },
         {
           "date": "2026-08-12",
           "version": "v2",
@@ -389,8 +424,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v2",
+      "version": "v5",
       "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v5",
+          "summary": "The Catalogue now lists all twenty volumes, including the five new books. It had drifted to different lengths on different pages."
+        },
         {
           "date": "2026-08-12",
           "version": "v2",
@@ -475,9 +515,14 @@
         "checkedAt": "2026-09-01",
         "note": "Shared catalogue drawer installed."
       },
-      "status": "Netlify site created, deploy pending. Repo copy is finished and verified.",
-      "version": "v1",
+      "status": "live",
+      "version": "v2",
       "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v2",
+          "summary": "Published. Bespoke cover art with Shae Stovell as author and the NF seal, and THE HOUSE catalogue added so this book reaches every other one on the site."
+        },
         {
           "date": "2026-08-31",
           "version": "v1",
@@ -506,9 +551,14 @@
         "checkedAt": "2026-09-01",
         "note": "Shared catalogue drawer installed."
       },
-      "status": "Netlify site created, deploy pending. Repo copy is finished and verified.",
-      "version": "v1",
+      "status": "live",
+      "version": "v2",
       "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v2",
+          "summary": "Published. Bespoke cover art with Shae Stovell as author and the NF seal, and THE HOUSE catalogue added so this book reaches every other one on the site."
+        },
         {
           "date": "2026-08-31",
           "version": "v1",
@@ -537,9 +587,14 @@
         "checkedAt": "2026-09-01",
         "note": "Shared catalogue drawer installed."
       },
-      "status": "Netlify site created, deploy pending. Repo copy is finished and verified.",
-      "version": "v1",
+      "status": "live",
+      "version": "v2",
       "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v2",
+          "summary": "Published. Bespoke cover art with Shae Stovell as author and the NF seal, and THE HOUSE catalogue added so this book reaches every other one on the site."
+        },
         {
           "date": "2026-08-31",
           "version": "v1",
@@ -568,9 +623,14 @@
         "checkedAt": "2026-09-01",
         "note": "Shared catalogue drawer installed."
       },
-      "status": "Netlify site created, deploy pending. Repo copy is finished and verified.",
-      "version": "v1",
+      "status": "live",
+      "version": "v2",
       "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v2",
+          "summary": "Published. Bespoke cover art with Shae Stovell as author and the NF seal, and THE HOUSE catalogue added so this book reaches every other one on the site."
+        },
         {
           "date": "2026-08-31",
           "version": "v1",
@@ -599,9 +659,14 @@
         "checkedAt": "2026-09-01",
         "note": "Shared catalogue drawer installed."
       },
-      "status": "Netlify site created, deploy pending. Repo copy is finished and verified.",
-      "version": "v1",
+      "status": "live",
+      "version": "v2",
       "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v2",
+          "summary": "Published. Bespoke cover art with Shae Stovell as author and the NF seal, and THE HOUSE catalogue added so this book reaches every other one on the site."
+        },
         {
           "date": "2026-08-31",
           "version": "v1",
@@ -621,7 +686,15 @@
       "localSource": "workshop/portals/index.html",
       "localSourceVerified": "byte-exact match to live content, 2026-08-02",
       "section": "workshop",
-      "repoPath": "workshop/portals/index.html"
+      "repoPath": "workshop/portals/index.html",
+      "version": "v1",
+      "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v1",
+          "summary": "The Catalogue now lists all twenty volumes, including the five new books. It had drifted to different lengths on different pages."
+        }
+      ]
     },
     {
       "title": "The Press",
@@ -631,7 +704,15 @@
       "localSource": "workshop/seals/index.html",
       "localSourceVerified": "byte-exact match to live content, 2026-08-02",
       "section": "workshop",
-      "repoPath": "workshop/seals/index.html"
+      "repoPath": "workshop/seals/index.html",
+      "version": "v1",
+      "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v1",
+          "summary": "The Catalogue now lists all twenty volumes, including the five new books. It had drifted to different lengths on different pages."
+        }
+      ]
     },
     {
       "title": null,
@@ -690,7 +771,15 @@
       "netlifySite": "noblereactionmap",
       "localSource": "other/reaction-map/index.html",
       "localSourceVerified": "byte-exact match to live content, 2026-08-02",
-      "note": "Review package fixed a real bug here: a variable used before declaration silently killed ~600 lines of setup (checklist, AI analyser, tour never ran). Now fixed and live."
+      "note": "Review package fixed a real bug here: a variable used before declaration silently killed ~600 lines of setup (checklist, AI analyser, tour never ran). Now fixed and live.",
+      "version": "v1",
+      "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v1",
+          "summary": "The Catalogue now lists all twenty volumes, including the five new books. It had drifted to different lengths on different pages."
+        }
+      ]
     }
   ],
   "undeployedRedesigns": [

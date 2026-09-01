@@ -41,7 +41,8 @@ def bump(p, summary):
 
 
 def main():
-    deployed = "--deployed" in sys.argv
+    deployed = "--deployed" in sys.argv        # the 5 books + the hub are live
+    retoc_done = "--retoc-done" in sys.argv    # the older sites got the new nav
     d = json.loads(SITES.read_text())
 
     for p in d["projects"]:
@@ -63,7 +64,7 @@ def main():
                 p["status"] = ("Netlify site created, deploy pending. Repo copy "
                                "is finished and verified.")
 
-        elif slug in RETOC and deployed:
+        elif slug in RETOC and retoc_done:
             bump(p, RETOC_NOTE)
 
     if deployed:
@@ -80,7 +81,7 @@ def main():
 
     d["updated"] = DATE
     SITES.write_text(json.dumps(d, indent=2, ensure_ascii=False) + "\n")
-    print("sites.json updated", "(deployed)" if deployed else "(pre-deploy)")
+    print("sites.json updated;", f"deployed={deployed} retoc_done={retoc_done}")
 
 
 if __name__ == "__main__":
