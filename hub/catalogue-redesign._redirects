@@ -25,6 +25,16 @@
 /loop/*        https://noble-the-loop.netlify.app/:splat             200
 /scale         https://noble-the-weighing.netlify.app/               200
 /scale/*       https://noble-the-weighing.netlify.app/:splat         200
+/longafter     https://noble-the-long-after.netlify.app/             200
+/longafter/*   https://noble-the-long-after.netlify.app/:splat       200
+/silence       https://noble-the-silence.netlify.app/                200
+/silence/*     https://noble-the-silence.netlify.app/:splat          200
+/atwill        https://noble-at-will.netlify.app/                    200
+/atwill/*      https://noble-at-will.netlify.app/:splat              200
+/repair        https://noble-the-repair.netlify.app/                 200
+/repair/*      https://noble-the-repair.netlify.app/:splat           200
+/slowtake      https://noble-the-slow-take.netlify.app/              200
+/slowtake/*    https://noble-the-slow-take.netlify.app/:splat        200
 
 # ---- the lab (tools + music) ----
 /playbook      https://noblepatterns.netlify.app/                    200
