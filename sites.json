@@ -10,8 +10,13 @@
     "deploySource": "cli",
     "localSource": "hub/catalogue-redesign.html",
     "localSourceNote": "This is the first verified live deploy of the redesigned 'collected works' hub. A 2026-08-02 review package claimed the catalogue hub redesign was already deployed, but it did NOT byte-match live content at the time -- treat this 2026-08-05 deploy as the true first release.",
-    "version": "v11",
+    "version": "v12",
     "changelog": [
+      {
+        "date": "2026-09-01",
+        "version": "v12",
+        "summary": "Swapped the five new books' cover watermark to the author's own logo on the shelf jackets."
+      },
       {
         "date": "2026-09-01",
         "version": "v11",
@@ -516,8 +521,13 @@
         "note": "Shared catalogue drawer installed."
       },
       "status": "live",
-      "version": "v2",
+      "version": "v3",
       "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v3",
+          "summary": "Swapped the cover watermark to the author's own logo."
+        },
         {
           "date": "2026-09-01",
           "version": "v2",
@@ -552,8 +562,13 @@
         "note": "Shared catalogue drawer installed."
       },
       "status": "live",
-      "version": "v2",
+      "version": "v3",
       "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v3",
+          "summary": "Swapped the cover watermark to the author's own logo."
+        },
         {
           "date": "2026-09-01",
           "version": "v2",
@@ -588,8 +603,13 @@
         "note": "Shared catalogue drawer installed."
       },
       "status": "live",
-      "version": "v2",
+      "version": "v3",
       "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v3",
+          "summary": "Swapped the cover watermark to the author's own logo."
+        },
         {
           "date": "2026-09-01",
           "version": "v2",
@@ -624,8 +644,13 @@
         "note": "Shared catalogue drawer installed."
       },
       "status": "live",
-      "version": "v2",
+      "version": "v3",
       "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v3",
+          "summary": "Swapped the cover watermark to the author's own logo."
+        },
         {
           "date": "2026-09-01",
           "version": "v2",
@@ -660,8 +685,13 @@
         "note": "Shared catalogue drawer installed."
       },
       "status": "live",
-      "version": "v2",
+      "version": "v3",
       "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v3",
+          "summary": "Swapped the cover watermark to the author's own logo."
+        },
         {
           "date": "2026-09-01",
           "version": "v2",
