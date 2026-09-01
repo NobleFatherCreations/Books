@@ -84,8 +84,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v1",
+      "version": "v2",
       "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v2",
+          "summary": "Catalogue drawer updated from 14 to the current 20 volumes (patched live -- no repo source exists for this project)."
+        },
         {
           "date": "unknown",
           "version": "v1",
@@ -327,8 +332,13 @@
         "deployed": true,
         "deployedAt": "2026-08-05"
       },
-      "version": "v2",
+      "version": "v3",
       "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v3",
+          "summary": "Updated the site's cross-project list ('the hallway' drawer) to all 20 volumes -- it had drifted to 14 (missing the 5 new books, The Festie Bible, The Casting)."
+        },
         {
           "date": "2026-08-05",
           "version": "v2",
@@ -362,8 +372,13 @@
         "deployed": true,
         "deployedAt": "2026-08-05"
       },
-      "version": "v2",
+      "version": "v3",
       "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v3",
+          "summary": "Updated the site's cross-project list ('the hallway' drawer) to all 20 volumes -- same drift as The Loop."
+        },
         {
           "date": "2026-08-05",
           "version": "v2",
@@ -393,8 +408,13 @@
         "checkedAt": "2026-08-05",
         "note": "Moot as of this deploy - the live site is now faith-index.html's lineage, which never had the old nh-drawer House Tab component at all (self-contained, no shared chrome, by design). The old fixes/faith.html leak fix is superseded, not applied - that lineage is no longer live here."
       },
-      "version": "v2",
+      "version": "v3",
       "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v3",
+          "summary": "Expanded the sidebar's Noble Father Creations link list from 2 book links to all 20 volumes. This page deliberately has no shared drawer component (by prior design decision); this only completes its existing static link list."
+        },
         {
           "date": "2026-08-05",
           "version": "v2",
@@ -465,8 +485,13 @@
         "found": false,
         "checkedAt": "2026-08-10"
       },
-      "version": "v6",
+      "version": "v7",
       "changelog": [
+        {
+          "date": "2026-09-01",
+          "version": "v7",
+          "summary": "Installed the shared catalogue drawer (THE HOUSE) for the first time -- this page had no cross-project navigation at all before this."
+        },
         {
           "date": "2026-08-12",
           "version": "v6",

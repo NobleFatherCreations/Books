@@ -2932,3 +2932,91 @@ Still true from the entry above: this repo is behind live for everything
 older than the five new books (Cloudflare Analytics, a music version bump,
 Portals CSS fixes, a different reaction-map build). That is unresolved and
 worth a deliberate decision, not something this round fixed.
+
+## 2026-09-01 (later still) — repo synced to match live; one exception left open
+
+User confirmed: pull live back into the repo rather than leave the drift
+documented. Done for 9 of the 10 drifted projects (wook, children,
+feminine, fracture, fractal, the Press, the Portals, the Listening Room,
+the Root) -- each file replaced with a fresh fetch of its actual live
+content, byte-verified against what was confirmed live earlier the same
+day, and re-checked locally afterward (catalogue drawer opens, 20 rows,
+correct page marked "here"). "Repo is the source of truth" in CLAUDE.md is
+true again for these.
+
+**The reaction map is the one exception, left alone on purpose.** Its live
+build (189KB) is not this repo's build (2.9MB) at all -- a different
+project, and it pulls Google Fonts over the network on load. That's a
+direct violation of this project's own non-negotiable self-contained-
+architecture rule. Pulling it into the repo as-is would "fix" the drift by
+making the repo carry a rule-breaking file. Left the repo's compliant
+2.9MB copy in place and flagged this to the user rather than resolving it
+either direction unasked. Whoever owns that decision needs to choose: fix
+the live site's fonts (self-host them, matching how every other book on
+this site handles typography) and redeploy, or decide the reaction map is
+allowed to be the one exception to the self-contained rule and update
+CLAUDE.md to say so explicitly. Until then, treat `other/reaction-map/
+index.html` in this repo as the intended, correct version -- live is
+wrong, not the repo.
+
+## 2026-09-01 (even later) — the nav gap the earlier "13 books" framing missed
+
+User asked for a full audit confirming every page's nav actually works.
+That surfaced something the original request ("every page shows them all")
+never actually reached: **four more pages had zero or badly stale
+cross-project navigation**, discovered by checking live content directly
+rather than trusting the "12 existing pages" list this session had been
+working from.
+
+- **playbook** (Pattern Decoder, live-only, no repo source): had a stale
+  nf-chrome with 14 rows. Live-patched to 20, same method as the other
+  drifted sites.
+- **loop and scale**: neither uses nf-chrome at all -- a *third* nav
+  generation ("nh-drawer", grouped flat links under "The hallway / The
+  books / The living tools / Keeps it free", its own CSS, its own JS,
+  visually nothing like nf-chrome). It was missing all 5 new books plus
+  Festie Bible and the Casting -- 14 of 20. `scripts/nh-drawer-catalogue.py`
+  regenerates its list; deliberately did NOT replace this component with
+  nf-chrome, since it already works, matches these two books' own visual
+  language, and the project's own standing rule is "never apply a design
+  pattern uniformly."
+- **faith**: has no drawer at all by a *prior, documented, deliberate*
+  decision (see the 2026-08-05 changelog entry in sites.json: "self-
+  contained, no shared chrome, by design"). It does have one small static
+  "Noble Father Creations" sidebar link list -- which had exactly 2 book
+  links (Main site, The Fractal) plus a TikTok link, clearly stale rather
+  than intentionally minimal. Expanded to all 20 via
+  `scripts/faith-sidelinks.py`. No JS touched, no drawer added -- pure
+  content completion of what was already there, consistent with that
+  standing design decision.
+- **festival**: had *zero* cross-project navigation, live or repo. Only
+  book with nothing to extend, so it got a real nf-chrome install
+  (`scripts/nf-install-chrome-festival.py`). Turned out to be the easiest
+  of any book installed this session -- it already self-hosts Fraunces and
+  Space Mono via its own `@font-face` rules, which are exactly the names
+  nf-chrome's CSS asks for, so nothing needed embedding twice. No Escape
+  conflict either: its own Escape handler only closes its own chapter
+  drawer (`#fbDrawer`), no emergency exit to protect.
+
+**Two more repo-vs-live divergences found, handled the way the other one
+was:** faith's repo copy (4.7MB) is not what's live (3.3MB) -- same
+identical core data (367 name entries in both) but a different build
+entirely, for reasons not reconstructed this session. Left the repo copy
+alone rather than guess which is canonical (same treatment as the reaction
+map). loop and scale's repo copies were missing Cloudflare Analytics that
+live has, same pattern as the original 9 -- fetched live, patched live,
+synced the *patched* live copy back into the repo (not the stale repo
+copy) so nothing regressed.
+
+**Two sites are outside the catalogue on purpose, not by oversight:**
+`noble-nfc-tour` and `nfchq` (workshop section, both `"title": null` in
+sites.json, never linked from any catalogue anywhere) are internal/staging
+pages, not reader-facing books -- left untouched. **The Casting is a
+separate codebase entirely** (github.com/NobleFatherCreations/Castings, a
+real static-site generator, not a single-file book) -- also left untouched;
+adding it to the drawer would need a template change in that repo, not a
+live-HTML patch here.
+
+**State after this round:** every project that is genuinely part of the
+public 20-volume catalogue now reaches, and is reached by, every other one
+-- verified fresh from production, not from the repo, on every single page.
