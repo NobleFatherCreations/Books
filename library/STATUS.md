@@ -72,10 +72,12 @@ should decide deliberately whether to pull live back into the repo. See
 ## Shipped 2026-09-01
 
 **Cover art.** Each book has real generated cover art (Artlist), composited
-locally with **Shae Stovell** as author and a small NF wax-seal watermark
-in the site's own seal colours. Two crops per book: the wide banner inside
-the book, and a portrait jacket for the hub's shelf, which uses a 1:1.42
-book face that would have cropped the banner to its middle third.
+locally with **Shae Stovell** as author and a small watermark of the user's
+actual logo (`design/brand/logo-noble-father.png` — supplied 2026-09-01,
+replacing a fabricated wax-seal badge used as a stand-in until then). Two
+crops per book: the wide banner inside the book, and a portrait jacket for
+the hub's shelf, which uses a 1:1.42 book face that would have cropped the
+banner to its middle third.
 
 **THE HOUSE nav, generated not pasted.** All five carry the catalogue
 drawer, built by `scripts/nf-install-chrome.py` from
@@ -91,3 +93,20 @@ One adaptation worth knowing about: the drawer's Escape handler runs in the
 capture phase and stops the event. These books bind Escape to an emergency
 exit that blanks the page, so without that, closing the catalogue would
 also have triggered it. Both behaviours are verified in a browser.
+
+**Full audit, same day, after the logo swap below.** Fetched every one of
+the 16 live pages that carry the drawer fresh from production (not from the
+repo) and checked each one: 20 catalogue rows, the right row marked "here",
+all 5 new books linked, Cloudflare Analytics still present on the 9 pages
+that had it, and the 5 new books' own pages byte-identical to their repo
+source. Also walked every other path in `_redirects` (`/loop`, `/scale`,
+`/faith`, `/festival`, `/resin`, `/playbook`, plus the Casting's `/statues`
+and `/assets/*` exception) to confirm the two new redirect blocks didn't
+disturb anything ahead of or behind them in the file. All green.
+
+**Logo.** The watermark now uses the user's actual logo
+(`design/brand/logo-noble-father.png`), not the fabricated wax-seal badge
+described above when this section was first written. Re-verified after the
+swap: Escape-safety, catalogue rows, and cover-art loading all still pass,
+and the 5 book sites plus the hub were redeployed and confirmed
+byte-identical to the repo.

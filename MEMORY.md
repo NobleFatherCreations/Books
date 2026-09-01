@@ -2896,3 +2896,39 @@ directory holding only that one `index.html`) is reliable once the token
 arrives. That npx command also needs a Bash permission rule; it is in
 `.claude/settings.local.json` now. Playwright cannot reach external HTTPS
 through the egress proxy here — use `curl` to verify anything live.
+
+## 2026-09-01 (later same day) — real logo, and a full post-deploy audit
+
+The user supplied their actual logo (a silhouetted figure in a hat holding
+a glowing network orb) after seeing the fabricated NF wax-seal badge used
+as a placeholder watermark. Saved as `design/brand/logo-noble-father.png`
+(trimmed to content bbox; the untrimmed source sits alongside it). Both
+`compose_covers.py` and `compose_jackets.py` (in the session scratchpad,
+not the repo — see below) now composite this image small and translucent
+instead of drawing a wax seal. Re-embedded into all 5 books and the hub's
+5 shelf jackets, redeployed, and confirmed byte-identical to the repo on
+every one of the 6 sites.
+
+**The compositing scripts themselves live in the session scratchpad, not
+this repo.** `compose_covers.py`, `compose_jackets.py`, `embed_covers.py`
+and the re-embed variants were all written to
+`/tmp/.../scratchpad/` during this session, not committed. If cover art
+needs regenerating again, those will need rebuilding from this file's
+description and the composited output files (`*-final.jpg`, `*-jacket.jpg`)
+rather than re-run directly. Worth moving into `scripts/` properly if this
+becomes a recurring need.
+
+**Full audit after the swap**, fetched fresh from production, not the
+repo: all 16 live pages carrying the catalogue drawer (the 5 new books, the
+hub, and wook/children/feminine/fracture/fractal/press/portals/music/
+shadowroot/reaction-map) show 20 rows, the correct page marked "here", and
+all 5 new books linked. Cloudflare Analytics confirmed still present on
+every page that had it before this round touched anything. Every other
+`_redirects` entry (loop, scale, faith, festival, resin, playbook, and the
+Casting's asset-path exception) still resolves — the two new redirect
+blocks added this session didn't disturb the file around them.
+
+Still true from the entry above: this repo is behind live for everything
+older than the five new books (Cloudflare Analytics, a music version bump,
+Portals CSS fixes, a different reaction-map build). That is unresolved and
+worth a deliberate decision, not something this round fixed.
