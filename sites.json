@@ -10,8 +10,13 @@
     "deploySource": "cli",
     "localSource": "hub/catalogue-redesign.html",
     "localSourceNote": "This is the first verified live deploy of the redesigned 'collected works' hub. A 2026-08-02 review package claimed the catalogue hub redesign was already deployed, but it did NOT byte-match live content at the time -- treat this 2026-08-05 deploy as the true first release.",
-    "version": "v13",
+    "version": "v14",
     "changelog": [
+      {
+        "date": "2026-09-02",
+        "version": "v14",
+        "summary": "Swapped the hub's background music to Warfare Is Directional."
+      },
       {
         "date": "2026-09-02",
         "version": "v13",
@@ -222,8 +227,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v2",
+      "version": "v3",
       "changelog": [
+        {
+          "date": "2026-09-02",
+          "version": "v3",
+          "summary": "Added a soundtrack. \"The Real Ones\" section now carries an original song for each of the six harm-reduction crews it covers (four for DanceSafe, two for The Zendo Project), and a new section right after it -- The Soundtrack -- adds two more songs (Free Discernment, Warfare Is Directional) and a companion video. Free Discernment now plays automatically as the book's own theme, the same way the hub's background music starts: on the first touch, never forced, always mutable from a corner button."
+        },
         {
           "date": "2026-09-01",
           "version": "v2",

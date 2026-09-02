@@ -3136,3 +3136,111 @@ verifier that lies in either direction is worse than none.
 
 Live, byte-verified against the repo, plus all 23 existing catalogue paths
 re-checked for regressions after the redirect changes.
+
+## 2026-09-02, later — Wook gets a soundtrack, and its own autoplay theme
+
+**What was asked, across three messages:** add real songs to "THE REAL
+ONES" section of Wook in Sheep's Clothing (one per harm-reduction org,
+plus extras for a few and a video); give the book its own autoplay music
+"just like the hub," copying that exact feature; swap the hub's own
+background track; add two more songs plus a video in a new section right
+after Real Ones; deploy live once verified.
+
+### The 12 companion songs (`library/wook/audio/`, absolute URLs)
+
+Six orgs, matched to songs by ear from the user's own description
+(filenames didn't carry the mapping): DanceSafe (4: Repetitive Beats,
+Marquis Purple, Come As You Are (Free Water), The Chill Out Room), The
+Bunk Police (1), The Zendo Project (2: Sit With It, Difficult Is Not the
+Same as Bad), Fireside Project (1: Pick Up), MAPS (1: Bicycle Day), The
+Wharf Rats (1: Lowest Bar). Same reasoning as the Listening Room and the
+NFC guide: absolute URLs (`https://wook-in-sheeps-clothing.netlify.app/
+audio/...`), never root-relative, because the book is proxied at /wook and
+a relative path resolves against noblefathercreations.com instead.
+
+**A real bug caught before it shipped a second time.** The first insertion
+script found where to place a song by locating the last `</div></div>` in
+an org's card -- correct when the card is empty, wrong once it already
+holds one: that mixtape's own internal double-close sits later in the
+segment than nothing, so a second song for the same org would land
+mid-way through the first one's markup. Rewritten to insert at the card's
+right BOUNDARY (the next org-card's start, or the closing salute
+paragraph) instead, which stays correct no matter how many songs already
+sit there. `scripts/wook-add-songs.py` is now idempotent -- every song,
+past and new, lives in one list; a song already present (checked by its
+audio src) is skipped on re-run.
+
+### Wook's own autoplay theme ("Free Discernment")
+
+Copied the hub's `#npAudio` mechanism (`hub/catalogue-redesign.html`)
+deliberately, not reinvented: inlined as base64 (not hosted -- the hub
+inlines exactly one always-loaded track for the same reason, a single
+persistent atmosphere is not the same case as ten optional song plays),
+starts on the first real user gesture rather than page load (unmuted
+audio autoplay with zero interaction is blocked by every major browser --
+this is why the hub itself ties its start to "the same click that chooses
+a door"), remembers an explicit mute for the rest of the tab's session via
+sessionStorage, never re-attempts playback on a later reload without a
+fresh gesture. Wook has no door-choosing gate, so the trigger is the
+page's first pointerdown/touchstart/keydown/scroll instead -- reads as
+"starts when you open it" for an NFC-tap visitor who's about to touch the
+screen anyway. Mute toggle sits bottom-left in the book's own zine style
+(neon circle, black border), mirroring the hub's own bottom-left placement
+opposite its seal.
+
+### The new #soundtrack section, between Real Ones and the Author message
+
+Two more songs plus the video. Free Discernment appears here too but is
+NOT a second `<audio>` with its own ~7MB copy of the same base64 payload
+-- the card is a play/pause control wired to the SAME `#wkAudio` element
+already playing, with a live progress bar (`timeupdate` listener). Warfare
+Is Directional and the video are hosted normally, same absolute-URL
+pattern as the Real Ones songs.
+
+### The video
+
+Pulled from a Google Drive share link, direct-downloaded (92.9MB, under
+the ~100MB virus-scan-interstitial threshold noted in
+`instruments/music/README.md`). Arrived as HEVC (H.265) -- verified via
+`ffprobe` before touching anything, since that codec is Safari/iOS-only in
+practice; most Android browsers and Firefox can't play it at all, which
+would have quietly failed for a large share of a festival crowd.
+Transcoded to H.264/AAC (universal support) with `+faststart`. First
+attempt at CRF 24 produced a 263MB file -- for a 6.5-minute video that's
+unusable over festival data, so before committing to a full re-encode a
+30-second sample was tested across several CRF values and visually
+compared; CRF 36 was the found the floor before real blockiness appeared
+in the flat-color areas, landing the full file at 85MB (down from the
+original 89MB HEVC, but now actually playable everywhere instead of only
+on Apple devices).
+
+**Verification note for later sessions:** Playwright's bundled Chromium in
+this environment has ZERO H.264/AAC support (`canPlayType` returns "" for
+both; only WebM/VP9 report "probably") -- confirmed directly, not assumed.
+So browser-level playback of the finished MP4 could not be verified in
+this sandbox the way the mp3s were. Verified instead with `ffmpeg -i
+video.mp4 -f null -` (a full decode of all 11,634 frames, exit 0, zero
+errors) plus `ffprobe`'s stream report (H.264 High Profile 4.0, standard
+`avc1` tag, valid moov atom) -- legitimate, but worth knowing next time a
+video needs checking here: don't expect Playwright's `<video>` element to
+confirm an MP4 plays, even when the file is fine.
+
+### Deployed and verified live
+
+Both `wook-in-sheeps-clothing.netlify.app` (index.html + audio/ + video/,
+byte-identical to repo) and the hub (byte-identical, npAudio's ID3 tag
+readable in the raw response confirming the swap) redeployed. All 11 audio
+files and the video resolve 200 through both the direct site and the
+`/wook` proxy. Full regression sweep of all 24 live catalogue paths still
+200. `sites.json`: wook -> v3, hub -> v14 (on-page badge updated to match).
+
+### Flagged, not touched
+
+- **Wook has no on-page `<section id="updates">`** the way the newer books
+  do -- its natural home (the colophon, right before `id="copyright"`)
+  still carries unfilled Vellum ebook-export placeholders (`[Author Legal
+  Name / Pen Name]`, `[your newsletter URL]`, `[In Vellum, add your real
+  sign-up link here...]`). Didn't touch it this round -- wasn't asked, and
+  it's a real content decision, not a mechanical fix. The version ledger
+  in `sites.json` is up to date regardless; only the on-page badge is
+  missing for this one book.

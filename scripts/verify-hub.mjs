@@ -136,7 +136,7 @@ for (const width of [375, 1440]) {
                               : fail('footer does not link the guide');
 
   const version = await page.textContent('#updates .updates-version');
-  version.includes('v13') ? ok(`on-page version badge reads ${version.trim()}`)
+  version.includes('v14') ? ok(`on-page version badge reads ${version.trim()}`)
                           : fail(`version badge reads ${version.trim()}`);
 
   const overflow = await page.evaluate(
