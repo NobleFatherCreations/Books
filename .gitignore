@@ -16,3 +16,8 @@ node_modules/
 # deploy/music/MANIFEST.json, which IS committed — see deploy/music/README.md.
 deploy/music/audio/
 scripts/covers/_work/
+
+# deploy staging dirs, screenshots and throwaway probe scripts written by the
+# verify-*.mjs runs. Same reasoning as scripts/covers/_work/ above: an
+# intermediate, never a deliverable.
+/_work/

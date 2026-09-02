@@ -29,7 +29,8 @@ top-level sections exactly — checked against the live nav, not assumed:
   always check whether a book you're editing has an `_undeployed/`
   sibling before assuming the directory copy is the only one.
 - **`workshop/`** — the craft/art business (The Workshop): resin castings,
-  wax seals, the Portals. `workshop/casting/` is intentionally
+  wax seals, the Portals, and `workshop/nfcguide/` (How to Program NFC
+  Tags, live at `/nfc`). `workshop/casting/` is intentionally
   self-contained per its own `DEPLOYING.md` — it doesn't care where it
   lives in the tree.
 - **`instruments/`** — the tools/apps (The Instruments): Pattern Decoder
@@ -65,6 +66,21 @@ one real mistake caught mid-move (a wrong file nearly became the canonical
 Every book is: no dependencies, no external requests, no storage, fully
 offline-capable — including THE HOUSE nav tab. Never add a CDN `<script>` or
 `<link>` tag. Always inline:
+
+**This applies to images too, and it is a routing requirement, not just a
+purity one.** Every project is proxied onto `noblefathercreations.com` at a
+clean path, and a *relative* reference resolves against whatever the address
+bar happens to say — `/nfc` and `/nfc/` give different answers. The NFC guide
+arrived as a directory and cost two failed deploys to learn this: at `/nfc`
+its `assets/…` paths resolved into The Casting's top-level `/assets/*` and
+every screenshot silently disappeared. Netlify cannot fix it in `_redirects`
+(it strips a trailing slash from a rule's *source*, so the obvious 301 loops;
+and it prefers a real file to a rewrite, so a redirect page breaks the other
+form). **If a new project ships as a folder, inline its assets before
+deploying it** — see `scripts/nfcguide-inline.py`. The Casting is the one
+standing exception, and it earned its own top-level rules in
+`hub/catalogue-redesign._redirects` for it.
+
 - Fonts → self-hosted `@font-face` (see `tools/fonts/`), subset/base64 as needed.
 - Icons → inline SVG (see `tools/lucide-icons-lucide/icons/`), never an icon font.
 - Animation → copy CSS keyframes from `tools/animate-css-animate.css/` piecemeal;

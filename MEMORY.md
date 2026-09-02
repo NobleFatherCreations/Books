@@ -3020,3 +3020,119 @@ live-HTML patch here.
 **State after this round:** every project that is genuinely part of the
 public 20-volume catalogue now reaches, and is reached by, every other one
 -- verified fresh from production, not from the repo, on every single page.
+
+## 2026-09-02 — the NFC guide joins the site, and the hub is reorganised
+
+**What was asked:** audit an uploaded `nfcguide.zip`, bring it up to the
+house branding, give it cross-project navigation, publish it as its own
+site and feature it at the foot of the hub; and reorganise the hub so the
+art leads, all the books sit together in a chosen order, with the nav to
+match. Explicitly scoped: **the guide goes in the hub only** — it is not
+added to the other twenty pages' drawers.
+
+### The guide (`workshop/nfcguide/`, live at `/nfc`)
+
+It arrived well built — 139 recipes, no dependencies, no trackers, real
+accessibility work — and with **fourteen `#REPLACE-` placeholders** across
+`index.html`, `robots.txt` and `sitemap.xml`. Those would have shipped a
+non-rendering share card, a dead sitemap, and five dead links including the
+"Part of the Noble Father network" tab. All filled from real destinations.
+**There is no Instagram URL anywhere in this repo** — only a placeholder —
+so that footer row became the real, already-public `dapperdadnfc@gmail.com`
+instead of a guessed handle. If a handle exists, put it back.
+
+**Branding.** Was Playfair Display + Poppins on near-black and spring mint.
+Now the house pairing — Fraunces / Hanken Grotesk / Space Mono — on the
+house tokens (plum-black, bone, one brass accent, seal crimson), both
+themes. The families are instanced and subset rather than inlined whole
+(65KB against ~600KB) by `scripts/nfcguide-fonts.py`; the Playfair/Poppins
+OFL files and reference woff2s were removed, because shipping a licence for
+a font you no longer embed is noise and shipping a font whose licence you
+dropped is a violation. Five colours were hard-coded past the token block
+and had to be retuned by hand — worth grepping for literals after any
+future reskin.
+
+**Nav.** Full 20-volume nf-chrome drawer, via `scripts/nfcguide-chrome.py`.
+Deliberately asymmetric, as asked: the guide links out to all twenty; it is
+**not** in `scripts/nf-catalogue.py`, so no other page lists it. Don't add
+it there without being asked — that file rewrites the drawer on every page.
+
+**Two real bugs found in the guide's own code**, both fixed:
+
+1. *Reveal engine stranded content.* A flick-scroll to the foot of the page
+   could leave whole blocks permanently at `opacity:0`. The observer
+   callback returns early on an entry that is neither intersecting nor
+   already passed, without unobserving — and a fast scroll produces exactly
+   that entry. Scroll back up and no further intersection change is coming.
+   The documented 2.5s failsafe doesn't help: it only fires if the observer
+   *never* reported at all. Fixed with a scroll sweep, the same pattern
+   nf-chrome's own engine already uses.
+2. *Screenshots vanished without the trailing slash.* See below.
+
+### The trailing-slash trap — two failed deploys, worth not repeating
+
+The guide shipped as a directory with relative `assets/…` paths. Proxied at
+`/nfc/` that resolves to `/nfc/assets/…` and works. At `/nfc` — which people
+type — it resolves to `/assets/…`, **which on this domain belongs to The
+Casting**, so the page loaded looking almost right with every app screenshot
+silently missing. Silent is the bad part.
+
+Neither obvious fix works, and both were deployed before that was clear:
+
+- `/nfc  /nfc/  301` — Netlify **strips the trailing slash from a rule's
+  source** before matching, so the rule matches `/nfc/` as well and the page
+  301s to itself forever.
+- A real `nfc.html` redirect page — Netlify **prefers a real file to a
+  rewrite**, so it captured `/nfc/` too and broke the form that worked.
+
+The fix was to stop defending the special case: `scripts/nfcguide-inline.py`
+folds the seal, both icons and all 16 screenshots into the HTML, so
+`index.html` has **zero relative references** and the address it is served
+at stops mattering. 307KB → 1.06MB, still smaller than nine of the books.
+The seal is carried once as a `--seal` custom property painted by five
+`.sealimg` spans, not inlined five times — that alone was 455KB. `assets/`
+still deploys for `og:image`, robots, sitemap and the OFL licences; the page
+asks for none of it. **This is now a rule in `CLAUDE.md`**: inline a new
+project's assets before deploying it.
+
+### The hub (v13)
+
+`scripts/hub-reorder.py` owns the whole reorder in one pass, because the
+sections, the numbers printed on them, the nav, the footer and the hero
+counters all have to agree. New order: **Workshop (00) → Library (01) →
+Instruments (02) → Music (03) → The Guide (04) → Maker → Support.**
+
+Shelf order, as asked, then chosen: Festie Bible, Festie Codex, Sovereign
+Divine Feminine, Playground Protectors, Fractal, Fracture, then the
+coercive-control arc — Loop, Weighing, Sacred Divide, Silence, At Will, Slow
+Take, Long After, Repair. Renumbered VOL. I–XIV.
+
+**Three pre-existing live bugs fixed while in there:**
+
+1. **The three entry gates had two of their words swapped.** The door to
+   `#workshop` (resin, wax, castings) read "Tools"; the door to
+   `#instruments` (Pattern Decoder, Root, Listening Room) read "Art — The
+   Lab", a section name that exists nowhere on the site. The walkthrough
+   repeated the same swap. Both corrected, and the gates reordered so Art
+   leads.
+2. **The footer's Library list had nine books out of fourteen.** The five
+   2026-09-01 additions went into the shelf and the drawer but never the
+   footer. Rebuilt whole from a list rather than patched.
+3. **The page's own update notes stopped at v9 while `sites.json` ran to
+   v12** — three shipped rounds a reader had no way to see, which is exactly
+   the drift `CLAUDE.md` says must never happen. Backfilled v10–v12 and
+   added v13.
+
+### Verification
+
+`scripts/verify-nfcguide.mjs` and `scripts/verify-hub.mjs` — both widths,
+both themes, reduced motion, console errors, external requests, horizontal
+overflow, nothing stranded invisible, both drawers' Escape handling, every
+in-page anchor resolving. **Two of the first run's "failures" were the test
+being wrong, not the page**: it scrolled with `scroll-behavior:smooth` in
+effect (so the page never actually moved) and it opened in Playwright's
+default light scheme while dark is the native mode. Worth remembering — a
+verifier that lies in either direction is worse than none.
+
+Live, byte-verified against the repo, plus all 23 existing catalogue paths
+re-checked for regressions after the redirect changes.

@@ -88,3 +88,26 @@
 
 /festival      https://noble-festie-bible.netlify.app/                200
 /festival/*    https://noble-festie-bible.netlify.app/:splat          200
+
+# ---- the guide ----
+# The NFC programming guide, at /nfc. One rule, because the guide is a
+# single self-contained index.html like every book -- no relative asset
+# paths, so nothing depends on the address it is served at.
+#
+# It did not start that way, and the two rules it took to work around that
+# are worth remembering rather than rediscovering. As a directory with
+# relative `assets/...` references it broke at /nfc (no slash), where those
+# resolved to /assets/... -- which on this domain belongs to The Casting --
+# and every app screenshot silently vanished. Netlify gives you no way to
+# force the slash: it strips a trailing slash from a rule's SOURCE, so
+# `/nfc  /nfc/  301` also matches /nfc/ and loops forever; and it prefers a
+# real file to a rewrite, so a redirect page at nfc.html then captured
+# /nfc/ as well and broke the working form instead. The fix was to stop
+# defending the special case -- scripts/nfcguide-inline.py folded the seal,
+# the icons and all 16 screenshots into the HTML. Both /nfc and /nfc/ now
+# serve the same working page.
+/nfc/*         https://noble-nfc-guide.netlify.app/:splat            200
+
+# Reasonable things to type for it.
+/nfcguide      /nfc/                                                 301!
+/tags          /nfc/                                                 301!
