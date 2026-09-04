@@ -17,15 +17,20 @@ ROOT = Path(__file__).resolve().parent.parent
 SITE = "https://noblefathercreations.com"
 
 ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X",
-         "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX"]
+         "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX",
+         "XXI"]
 
 WORD = {13: "thirteen", 14: "fourteen", 15: "fifteen", 16: "sixteen",
-        17: "seventeen", 18: "eighteen", 19: "nineteen", 20: "twenty"}
+        17: "seventeen", 18: "eighteen", 19: "nineteen", 20: "twenty",
+        21: "twenty-one"}
 
 # slug, title, description, dot colour.
 # Order is append-only: I-XIII are the order the book pages already carried,
 # XIV-XV are the two the hub listed but the books had dropped, XVI-XX are the
-# 2026-09-01 additions. Nothing is renumbered when the list grows.
+# 2026-09-01 additions, XXI is the 2026-09-04 addition (the NFC guide was
+# reachable from the hub but missing from THE HOUSE drawer that travels with
+# every other page -- someone on a book or craft page had no way to find it).
+# Nothing is renumbered when the list grows.
 CATALOGUE = [
     ("loop",       "The Loop",                      "The machine that learns you",             "#6E93B5"),
     ("press",      "The Press",                     "Real wax, a voice inside",                "#E8C879"),
@@ -47,6 +52,7 @@ CATALOGUE = [
     ("atwill",     "At Will",                       "The coercive workplace",                  "#C98A2E"),
     ("repair",     "The Repair",                    "For the person on the other side of it",  "#A8474F"),
     ("slowtake",   "The Slow Take",                 "Coercion in later life",                  "#B99A3F"),
+    ("nfc/",       "How to Program NFC Tags",       "139 recipes, iPhone &amp; Android",       "#C9A35B"),
 ]
 
 FOOT = ("Bound by hand in the study &mdash; %s volumes &amp; counting."

@@ -39,6 +39,7 @@ GROUPS = [
         ("shop",  "https://nfcportals.netlify.app/",   "The Shop", "Wax seals &middot; jewelry &middot; NFC craft"),
         ("press", "https://noblenfcseals.netlify.app/", "The Press", "Real wax, a voice inside"),
         ("resin", f"{SITE}/resin", "The Casting", "Eco-resin, hand-painted"),
+        ("guide", f"{SITE}/nfc/",  "How to Program NFC Tags", "139 recipes, iPhone &amp; Android"),
     ]),
 ]
 
@@ -70,7 +71,7 @@ def retoc(html, here_key):
 
 
 if __name__ == "__main__":
-    for slug in ("loop", "scale"):
+    for slug in ("loop", "scale", "faith"):
         path = ROOT / "library" / slug / "index.html"
         html = path.read_text(errors="surrogateescape")
         before_rows = html.count("data-nh=")
