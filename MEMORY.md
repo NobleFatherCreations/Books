@@ -3244,3 +3244,50 @@ files and the video resolve 200 through both the direct site and the
   it's a real content decision, not a mechanical fix. The version ledger
   in `sites.json` is up to date regardless; only the on-page badge is
   missing for this one book.
+
+## 2026-09-04 — Made the NFC guide findable
+
+Request: "make the pairing nfc guide easier to find for people visiting."
+Audited how the guide (workshop/nfcguide, live at /nfc/) was actually
+reachable and found it was worse than it looked: featured on the hub, yes,
+but as the very last section before the footer, and completely absent from
+THE HOUSE nav drawer that travels with every OTHER page on the site (a
+deliberate 2026-09-02 decision, documented in that project's sites.json
+entry: "the guide links out to all twenty, but is NOT added to their
+drawers -- only the hub features it. Do not add it to nf-catalogue.py
+without being asked." Being asked is exactly what happened this round).
+Worse: Portals said "every owner receives the full programming guide" in
+two places with no link either time, and Press never mentioned the NFC
+core in its body copy at all -- only in the page's own <meta> description.
+
+Scope was deliberately narrowed after asking the user: rather than push
+the nav-drawer addition to all ~20 live sites in one round, only the four
+pages that actually needed it went live tonight -- the guide, the hub,
+Portals, and Press. scripts/nf-catalogue.py, nf-apply-catalogue.py, and
+nh-drawer-catalogue.py all carry the fix (including a real bug: the
+PAGES map in nf-apply-catalogue.py had drifted stale -- festival,
+longafter, slowtake, repair, atwill, silence, the guide itself, and
+reaction-map were all missing, so none of them had the current 20/21-item
+catalogue) and are ready to roll the same fix out to every other book in
+a future round without re-deriving anything.
+
+What shipped:
+- Hub: moved "How to Program NFC Tags" from the last section on the page
+  to the second (right after the Workshop opener, ahead of the Library),
+  renumbering the chapter badges in between (Workshop 00, Guide 01,
+  Library 02, Instruments 03). Matching topnav link and on-page "jump to
+  section" TOC entry moved with it. Added the guide to THE HOUSE nav
+  drawer.
+- Portals: linked both existing "programming guide" mentions to the real
+  guide, added a CTA button under the five-step quick-path summary.
+- Press: added a line explaining the NFC core (previously unmentioned in
+  the body copy) with a link to the guide, plus a CTA button.
+- All four verified live: correct section order, correct link counts,
+  the guide's own drawer now marks itself current, /nfc/ still resolves
+  through the hub's redirect proxy, and a quick regression sweep of other
+  proxied paths came back clean.
+
+sites.json: hub v14->v15, Portals (The Shop) v1->v2, Press v1->v2, the
+guide v1->v2. On-page updates section only exists on the hub among the
+four touched pages -- Portals, Press, and the guide have no such
+mechanism yet, so their changelog lives in sites.json only this round.
