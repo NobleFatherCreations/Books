@@ -232,8 +232,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v7",
+      "version": "v8",
       "changelog": [
+        {
+          "date": "2026-09-10",
+          "version": "v8",
+          "summary": "Colophon filled in (author Shae Stovell; the ISBN, publisher, and newsletter-link placeholders that were shipping build-instruction text on a live page are gone) and the author bio's literal instruction placeholder replaced with a real one built from facts the book itself already establishes. All 19 chapters missing a Field Specimen now have a hand-built icon badge to go with the card, in a simpler 'field tag' style distinct from the eight original hand-drawn character illustrations (an AI image generator was considered and rejected: raster output would be the first non-vector asset in an otherwise entirely hand-coded-SVG book, and would need a paid credit approval this round didn't have from the user). Full audit of Appendixes A-Z against ground truth extracted directly from the book (every counter-drop's and every track's real chapter): found the same three-chapter-insertion renumbering bug from five earlier passes, this time in appendix content none of those passes had opened. Fixed: Appendix Q's sixteen-move author-confession index (was mislabeled 'seventeen moves, from Chapter 22' with one stray extra item; now matches the live Confession exactly, including two leftover 'twenty chapters' phrasings in the Confession itself that should have read twenty-two); Appendix B's recurring-cast chapter numbers, rebuilt from this session's own verified Soundboard-chapter data; Appendix F's counter-drop master list (60 of 115 tagged entries were wrong); Appendix G's discography labels (10 of 10); six single-topic appendixes (K, N, O, P, R, W, Y) whose 'From Chapter N' header pointed at the wrong chapter; Appendix D's 'six Safety Appendixes' claim (it's nine); Appendix C's one cross-reference; and two orphaned icon glyphs on Appendixes O and R (a bare leftover variation-selector character where an emoji used to be)."
+        },
         {
           "date": "2026-09-10",
           "version": "v7",
