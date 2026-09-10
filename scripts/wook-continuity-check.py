@@ -21,6 +21,8 @@ Checks, roughly in descending order of how much a reader would notice:
   callbacks   "Chapter N" cross-references. Flags out-of-range targets, and
               verifies "X appears in Chapters A, B, C" style roster claims
               against where the name actually appears.
+  bridges     The end-of-chapter Bridge must tease chapter N+1. Sixteen of
+              twenty-five pointed backwards before 2026-09-10.
   scenes      "<Name> from the <place>" claims, verified by checking the
               name and the place actually co-occur in one chapter.
   names       First names doing duty for unrelated characters in different
@@ -232,6 +234,31 @@ def check_callbacks(book):
                 strip(book.raw[max(0, m.start() - 60):m.end() + 60]))
 
 
+def check_bridges(book):
+    """The Bridge at the end of chapter N must point the reader at N+1.
+
+    This is the book's own signposting, so a stale number here sends people
+    backwards into a chapter they already read. Sixteen of twenty-five were
+    wrong before the 2026-09-10 pass, all of them pointing at the arrangement
+    the book had before three chapters were inserted.
+    """
+    for n in sorted(book.html):
+        m = re.search(r'<section class="panel pp-black prose bridge">(.*?)</section>',
+                      book.html[n], re.S)
+        if not m:
+            if n != max(book.html):  # the last chapter has nothing to tease
+                add("WARN", "bridges", n, "has no Bridge")
+            continue
+        text = strip(m.group(1))
+        cited = {int(x) for x in re.findall(r'Chapter\s+(\d+)', text)}
+        if not cited:
+            add("INFO", "bridges", n, "Bridge names no chapter", text[:120])
+        elif n + 1 not in cited:
+            add("ERROR", "bridges", n,
+                f"Bridge points at {sorted(cited)}; the next chapter is {n + 1}",
+                text[:200])
+
+
 def check_scenes(book):
     """'<Name> from the <place>' -- does that person appear in that scene?"""
     pat = re.compile(r'\b([A-Z][a-z]{2,})\s+from\s+the\s+([a-z0-9 ]{3,18}?)(?=[,.;]|\s+and\b)')
@@ -380,6 +407,7 @@ def check_placeholder(book):
 CHECKS = {
     "counts": check_counts,
     "callbacks": check_callbacks,
+    "bridges": check_bridges,
     "scenes": check_scenes,
     "names": check_names,
     "orphans": check_orphans,

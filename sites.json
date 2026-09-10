@@ -232,8 +232,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v4",
+      "version": "v5",
       "changelog": [
+        {
+          "date": "2026-09-10",
+          "version": "v5",
+          "summary": "Audited every section the cold-open passes never opened, and found the root cause of the whole bug family: three chapters (The Road, The Free One, The Re-Entry Window) were inserted late, and each still carried the editor's note saying where to slot it in -- live, on the page -- along with a line of raw drafting scaffolding at the end of Chapter 6. Inserting them shifted everything after, and nothing that named a chapter number was renumbered. The damage: sixteen of twenty-five Bridges, the end-of-chapter card that tells you what is next, pointed at the wrong chapter, several of them backwards. All corrected; Chapter 10's needed rewriting rather than renumbering because it was teasing the chapter that used to follow it. Also de-duplicated names doing multiple duty (four Priyas, four Marcuses, three Nadias, three Sams, two Danis) including two men named Marcus inside Chapter 2, whose collision had collapsed a sentence into 'Marcus's Marcus gives the opened drink'; gave Sister Lou one age; and added a Bridge-direction check to the continuity tool so this class of defect cannot return silently."
+        },
         {
           "date": "2026-09-10",
           "version": "v4",
