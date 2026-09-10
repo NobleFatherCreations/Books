@@ -232,8 +232,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v5",
+      "version": "v6",
       "changelog": [
+        {
+          "date": "2026-09-10",
+          "version": "v6",
+          "summary": "Tone, humor and voice audit of every component except the cold opens (content/wook-audits/wook-tone-humor-and-voice-audit.md), plus the eleven corrections it turned up. Seven were in the Soundboard Quote, the book's strongest component: Beans aged backwards (twenty-one in Ch11, nineteen in Ch14) because Ch11 is one of the three late-inserted chapters; Mara's appearance counter was wrong at both ends (Ch13 called itself her third when it is her second, Ch22 'third and final' when it is her fourth); Sister Lou and Yo-Yo were both introduced by full name after a chapter had already used the short form; Spool's Ch19 attribution said ten years and fifteen years in one paragraph; Bear's Ch12 attribution gave his age twice. Two stale cross-references also fixed: Ch9's briefing listed the chapters it prevents and omitted Ch16, The Missing Friend, whose own Track is called THE BRIEFING YOU SKIPPED; and the front-matter content disclosure named Chapters 9-15 when the safety appendices actually run 9 through 18, so it widened rather than stayed narrow. Same root cause as the five passes before it. Two items deliberately left flagged for an authorial call rather than guessed at: Ch21's list of chapters carrying an abbreviated briefing drill, and Yo-Yo speaking two chapters running."
+        },
         {
           "date": "2026-09-10",
           "version": "v5",
