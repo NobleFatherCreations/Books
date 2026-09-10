@@ -1,6 +1,6 @@
 {
   "generated": "2026-08-02",
-  "updated": "2026-09-04",
+  "updated": "2026-09-10",
   "note": "Machine-readable registry of every Noble Father Creations live project. Built by fetching noblefathercreations.com live, cross-referencing the connected Netlify account (all netlifySite mappings below are byte-verified against live content, not guessed), and cross-referencing a user-supplied review package (source/) documenting a prior design session. Any AI/tool working on this project should read this file first instead of re-guessing URLs.",
   "hub": {
     "title": "Noble Father Creations",
@@ -232,8 +232,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v3",
+      "version": "v4",
       "changelog": [
+        {
+          "date": "2026-09-10",
+          "version": "v4",
+          "summary": "Full continuity and craft pass on all twenty-six cold opens. Chapter 2's cold open now resolves -- it was the only one of twenty-six that stopped mid-scene and never said what happened to its protagonist. Chapter 1 no longer has 'the bandana guys' fleeing a camp they were never introduced in, and Chapter 9 now confirms whether Marco survived. Corrected every stale self-reference the book had accumulated when the Encore grew from three chapters to six: fifteen wrong chapter counts, a cross-reference pointing at a chapter that does not contain what it claims, a recurring-cast list matching no arrangement the book has ever had (now de-specified so it cannot rot again), and two callbacks crediting the wrong character -- the wristband photo and the yurt Save. De-duplicated names that were doing multiple duty: four unrelated Priyas, two Caras, two Okonkwos, and two Save sections with the same title. Craft pass on every cold open: per-POV vernacular so a festie, a predator and a witness no longer share one vocabulary, plus one concrete raw detail apiece. Also the book's first on-page patch notes."
+        },
         {
           "date": "2026-09-02",
           "version": "v3",
