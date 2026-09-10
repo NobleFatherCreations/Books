@@ -232,8 +232,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v6",
+      "version": "v7",
       "changelog": [
+        {
+          "date": "2026-09-10",
+          "version": "v7",
+          "summary": "Applied the remaining backlog from the tone/humor audit and its additions doc: installed a Field Specimen in all 19 chapters that lacked one (all 26 chapters now carry the device); rewrote all 81 'runs in every direction' cards in chapters 9-24 to name three or more specific people instead of a formula sentence; rotated the most office-bound Sober Tuesday card in each of the 14 most corporate-heavy chapters to a non-office venue (church committee, car dealership, HOA board, family dinner, and others); pulled the Capacity Spectrum, the Bystander Interruption Kit, and the Morning-After Reckoning out of a single 6,381-character Chapter 5 Tuesday card into three standalone sections, and did the same for the 8,993-character Author's Wook Confession in Chapter 23; gave the Safety Appendix reference material in eight chapters its own CSS class so it renders as a readable list instead of 60+ six-word pill buttons; fixed chapter navigation so every Setlist link now lands at the top of its chapter instead of partly hidden under the fixed top bar; added a tutorial note on how to mute the book's music near the front, next to the existing one about the chapter index; and added a thank-you note with a refresh reminder for readers already mid-book. This is a real, verified pass, not the full ~40-card Tuesday rotation the audit sketched as a future extension -- that rotation's remaining cards are unchanged."
+        },
         {
           "date": "2026-09-10",
           "version": "v6",
