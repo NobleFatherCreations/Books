@@ -360,7 +360,7 @@ That is what this book is for.
 
 The cold open📍 FESTIE POV
 
-The Sprinter is a 2021 Mercedes passenger van, black, driven by a guy named Marcus who does not talk and does not make eye contact and has a cooler wedged between the front seats that nobody is supposed to touch. The cooler says FRAGILE on the side in tape. Whatever is fragile in the cooler is not being addressed.
+The Sprinter is a 2021 Mercedes passenger van, black, driven by a guy named Boyd who does not talk and does not make eye contact and has a cooler wedged between the front seats that nobody is supposed to touch. The cooler says FRAGILE on the side in tape. Whatever is fragile in the cooler is not being addressed.
 
 Solenne Baptiste is twenty-six years old and she has been a DJ for four years and she has her first artist wristband on her left wrist and it is the plastic kind, not the paper kind, which means she is officially on the lineup and she can walk through the artist entrance and none of this has fully arrived in her body yet because she is sitting in a van on the way to a pre-party with five women she does not know, driven by a man who will not look at her, to a location she has a general sense of — hills, north of the festival site, big house — and that is all she knows.
 
@@ -1504,17 +1504,17 @@ I just need to move some before tonight.
 
 It is Saturday at 2:07 p.m. when the first text comes.
 
-It is from Marcus. Marcus is twenty-three and he is at this festival because I told him it was the right festival to start with and I have been right about that every year for four years and he trusts my recommendations. He is a friend of a friend who became a friend and he came because I said it would be good and I gave him one of the eighty caps at cost, which is to say I gave him one at what I paid my source, because Marcus is a friend and not a customer and there is a difference.
+It is from Deon. Deon is twenty-three and he is at this festival because I told him it was the right festival to start with and I have been right about that every year for four years and he trusts my recommendations. He is a friend of a friend who became a friend and he came because I said it would be good and I gave him one of the eighty caps at cost, which is to say I gave him one at what I paid my source, because Deon is a friend and not a customer and there is a difference.
 
 The text says: Bro something’s wrong with Maddie.
 
-Maddie is Marcus’s girlfriend. I have met her three times. She seems fine. She seems like someone who came here to have a good time and has been having one.
+Maddie is Deon’s girlfriend. I have met her three times. She seems fine. She seems like someone who came here to have a good time and has been having one.
 
 Something’s wrong with Maddie is not specific enough for me to know what it means yet. Something’s wrong could mean a lot of things. The festival produces a lot of things that look like something is wrong. I send back: You good? What’s happening?
 
 Twenty-two minutes pass.
 
-The second text is not from Marcus.
+The second text is not from Deon.
 
 The second text is from a different number, a number I recognize as Theo, who is at the festival with his crew and who I sold twelve caps to on Thursday night at forty dollars each and who I have known for about eight months. The text says: Dude, Cole is in the medical tent.
 
@@ -1950,7 +1950,7 @@ Her name is Jess.
 
 Jess what?
 
-Marcus says: “I want to say Chen? Or maybe Chan? It might start with C.”
+Wes says: “I want to say Chen? Or maybe Chan? It might start with C.”
 
 Noor says: “I thought it was something with an M? Maybe?”
 
@@ -1970,7 +1970,7 @@ Six forty-five p.m.: Jess leaves camp to find a phone charger. This is a normal 
 
 Seven-twenty p.m.: Nobody notices she hasn’t come back because the headliner announcement just dropped in the festival app and there was a brief collective detour into set-time math.
 
-Eight-fifty p.m.: Marcus, on the way to the second stage, sees Jess near the silent disco. She is talking to someone. He waves. She waves back. She seems fine. She seems great, actually — animated, laughing. The someone she is talking to is tall and has a beard.
+Eight-fifty p.m.: Wes, on the way to the second stage, sees Jess near the silent disco. She is talking to someone. He waves. She waves back. She seems fine. She seems great, actually — animated, laughing. The someone she is talking to is tall and has a beard.
 
 Eight-fifty p.m. description inventory: Tall. Beard. That is the full description. Not “tall, beard, green jacket, distinctive scar, camp name, first and last name, where they are camped, what their vehicle looks like.” Tall and beard. In a crowd of approximately eight thousand people, of whom a conservatively estimated nine hundred have some variation of tall and beard, this is a description that is doing roughly the same work as saying “human person at the festival.”
 
@@ -1980,7 +1980,7 @@ This is the planning fallacy.
 
 This is the chapter.
 
-Eleven p.m.: The group realizes Jess is not at the main stage and has not been in contact. Marcus sends a text. No response. Noor calls. Voicemail. They go back to camp to check.
+Eleven p.m.: The group realizes Jess is not at the main stage and has not been in contact. Wes sends a text. No response. Noor calls. Voicemail. They go back to camp to check.
 
 She is not at camp.
 
@@ -1996,7 +1996,7 @@ The realization lands in stages, the way a bad situation always lands — not al
 
 They don’t know her last name.
 
-They don’t know her parents’ names. Marcus thinks her mom is Karen. Oliver thinks her mom is Carol. They have been to three of the same festivals and they cannot agree on whether her mother’s name ends in an n or an l.
+They don’t know her parents’ names. Wes thinks her mom is Karen. Oliver thinks her mom is Carol. They have been to three of the same festivals and they cannot agree on whether her mother’s name ends in an n or an l.
 
 They don’t know her parents’ phone number. They don’t know where she is from, specifically — somewhere in the Bay Area, maybe Oakland, maybe Alameda, one of the places in that region, she has mentioned it. They don’t know her address. They don’t know the name of her emergency contact. They don’t know if she has medical conditions. They don’t know her doctor. They don’t know her blood type.
 
@@ -2070,11 +2070,11 @@ Jess says: ”…Okonkwo?”
 
 Noor says: “O.”
 
-Marcus says: “It starts with an O. I was close.”
+Wes says: “It starts with an O. I was close.”
 
 He was not close.
 
-The argument about Karen versus Carol will continue for approximately three more weeks, unresolved, until Devon accidentally finds Jess’s mother’s Facebook profile and the question is definitively answered, and the answer will not be Karen or Carol, and Marcus and Oliver will look at each other and decide, mutually and without discussion, never to speak of it again.
+The argument about Karen versus Carol will continue for approximately three more weeks, unresolved, until Devon accidentally finds Jess’s mother’s Facebook profile and the question is definitively answered, and the answer will not be Karen or Carol, and Wes and Oliver will look at each other and decide, mutually and without discussion, never to speak of it again.
 
 The chapter’s discernment hook is not about a Wook.
 
@@ -2522,13 +2522,13 @@ The chapter is about what happens when you love the thing so much that you forge
 
 The cold open📍 FESTIE POV
 
-It is Sunday at two-twelve p.m. and the tent is down and the car is packed and the wristband is still on her left wrist and Nadia is driving home on a four-lane highway with four days of accumulated experience sitting in her chest like something that has not yet found its container.
+It is Sunday at two-twelve p.m. and the tent is down and the car is packed and the wristband is still on her left wrist and Ines is driving home on a four-lane highway with four days of accumulated experience sitting in her chest like something that has not yet found its container.
 
 The drive is seven hours.
 
 The car is quieter than the drive up. Everyone is running the specific exhaustion of four days at a festival: not sick, not broken, just emptied and refilled with something they haven’t sorted yet. Her friend Cam is asleep in the passenger seat with the specific peace of someone who has been continuously present for four days and has finally, mercifully, run out of things to be present for. Her friend Ro is in the back with headphones on, looking out the window at the flat agricultural corridor that exists between the festival and the city, which has the specific visual flatness of a world that does not know it is being returned to.
 
-Nadia is awake because she is driving. She is also awake in the way the festival’s ending produces — hyper-present, emotionally near the surface, still partly inside the thing, the gate not quite closed, the world not quite yet the world that Tuesday will be.
+Ines is awake because she is driving. She is also awake in the way the festival’s ending produces — hyper-present, emotionally near the surface, still partly inside the thing, the gate not quite closed, the world not quite yet the world that Tuesday will be.
 
 Her phone has been receiving messages since ten a.m.
 
@@ -2717,7 +2717,7 @@ Nobody was rescued. Nobody was threatened. Nobody ran a play and nobody ran a co
 
 The boring meeting is the whole chapter.
 
-Not because interesting things do not happen at festivals — the entire book has been seventeen chapters of interesting things happening at festivals. But because the interesting things, the ones that cost people something, happen in the gap between “we’ll figure it out” and “we didn’t figure it out in time.”
+Not because interesting things do not happen at festivals — the entire book has been twenty chapters of interesting things happening at festivals. But because the interesting things, the ones that cost people something, happen in the gap between “we’ll figure it out” and “we didn’t figure it out in time.”
 
 The briefing is the gap closer.
 
