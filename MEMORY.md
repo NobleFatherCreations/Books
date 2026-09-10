@@ -3291,3 +3291,54 @@ sites.json: hub v14->v15, Portals (The Shop) v1->v2, Press v1->v2, the
 guide v1->v2. On-page updates section only exists on the hub among the
 four touched pages -- Portals, Press, and the guide have no such
 mechanism yet, so their changelog lives in sites.json only this round.
+
+## 2026-09-10 — Wook cold-open pass, and the checker that found the rest
+
+Request: apply every fix and enhancement from the review doc, push live,
+then produce a cold-opens reel document and a tool to analyse the rest of
+each chapter.
+
+**The bug family.** Almost everything wrong with this book traces to one
+event: the Encore section grew from three chapters to six, taking the book
+from 23 chapters to 26, and nothing that counted chapters was re-counted.
+Fifteen stale counts across front matter, ch1, ch21, ch22, ch23, ch24,
+ch25 and ch26. Reading found some. A checker found the rest.
+
+**What shipped (wook v4, live and verified on both URLs):**
+- Ch2's cold open now resolves. It was the only one of 26 that stopped
+  mid-decision and never said what happened to its protagonist. Solenne
+  pays, gets ghosted, loses the money and the slot.
+- Ch1's "bandana guys" exist before they flee. Ch9 confirms Marco lived.
+- Every stale count corrected; ch10's cross-ref (Ch4+Ch5 -> Ch3+Ch4);
+  ch21's wristband credit (Priya -> Dani); ch25's roster ("Priya from the
+  yurt" -> Preethi, "Dev from the hot springs" -> row 14); ch25's
+  recurring-cast list de-specified rather than renumbered so it cannot rot
+  again; ch25's "delivered first in Chapter 20" -> 23.
+- Names de-duplicated: four Priyas, two Caras, two Okonkwos, two Save
+  sections titled "Tales From The Gate Line".
+- Craft pass per POV. The book has one authorial rhythm on purpose; the
+  problem was every POV also shared one vocabulary. Festies now think in
+  scene shorthand instead of having it explained (sherpa, the ask,
+  geometry); Wook-POV gets operator vocabulary only ch14 had (the mark,
+  stepping on it); Witness chapters get a hesitation beat so competence
+  costs something. One raw detail per cold open.
+- Wook's first on-page patch notes, closing a gap flagged two rounds back.
+
+**scripts/wook-continuity-check.py** is the reusable part. Eight checks,
+ERROR gates the exit code, ALLOWLIST suppresses known-good findings with a
+reason. The counts check has to distinguish cumulative claims ("we have
+spent twenty chapters together") from relative ones ("the next fifteen
+chapters") or it drowns in false positives -- that distinction is the
+whole trick. Same for names: test for speech verbs and age
+introductions, not bare is/was, or every archetype name registers as a
+character.
+
+**Still open, deliberately:** two colophon placeholders need the author's
+real values ([your newsletter URL], [Author Legal Name / Pen Name]). Dani
+and Marcus each name four unrelated characters -- reported, not changed,
+because that is a creative call. The 375px poster overflow is pre-existing
+and unrelated to this round; verified identical against baseline.
+
+**content/wook-audits/** holds the cold opens with a video-series running
+order (generated from live source by build-coldopen-reel.py, so it cannot
+drift), the checker's report, and the earlier audit docs.
