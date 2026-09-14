@@ -3415,3 +3415,41 @@ or page errors. Both checkers exit 0.
 - BOOKS.md's wook entry is stale: it still describes the
   `festie-codex-full.html` vs `library/wook/index.html` discrepancy as
   blocking, from before this book had eight rounds of work.
+
+## 2026-09-14 (later) — Deployed, and the discovery that v8 never was
+
+Request: do all the fixes, push live, then plan the full review; hold every
+later deploy until the whole book has been reviewed, and ship one final
+version at the end.
+
+**Live was v7, not v8.** Fetching the live page before deploying showed no
+v8 patch note. Versions 8 and 9 were both committed, both versioned in
+`sites.json`, both given on-page patch notes, and neither was on the
+internet. `sites.json`'s `version` is the record of what was *built*.
+Added `liveVersion`, `liveVerifiedAt` and a note to that entry so the two
+can never be confused again. **Verify live bytes; do not trust the ledger.**
+
+**How this site actually deploys.** Not from git, despite `gitRepo` being
+set. The Netlify MCP connector's deploy-site operation returns a one-shot
+`npx @netlify/mcp --site-id … --proxy-path …` command; run it from
+`library/wook/` and it uploads that directory and builds it in Netlify's
+system. 157MB payload because audio/ and video/ ride along, a few minutes
+end to end. Recorded in `sites.json` as `deploySource` +`deployNote`.
+
+v8 and v9 shipped together. Verified after: live bytes identical to the
+repo, the `noblefathercreations.com/wook` proxy path 200s, audio and video
+return 206 on range requests, the fixed appendix icons and the Sixteen
+Moves label all render.
+
+**The plan for the rest** is `content/wook-audits/wook-full-review-plan.md`,
+with running state in `wook-full-review-ledger.md`. The number that shaped
+it: the book is 263,844 words, and the Tracks with their READ / BEHAVIOR /
+VIBE / MIRROR / REFRACTION cards, the counter-drops, the Fanny Pack,
+Soundcheck, Sunrise Set and Kandi Trade sections, the front matter and the
+appendix prose -- roughly 70 percent of it -- have never had a line-level
+read. Thirteen passes: three mechanical sweeps, seven chapter deep reads
+grouped by movement, one non-chapter pass, two book-wide passes ending in
+the deploy. **Nothing deploys until D2.**
+
+One new structural find while sizing the work: ch10 has six THE READ blocks
+for five Tracks. Seeded into the plan rather than fixed on the spot.
