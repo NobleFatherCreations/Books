@@ -232,8 +232,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v8",
+      "version": "v9",
       "changelog": [
+        {
+          "date": "2026-09-14",
+          "version": "v9",
+          "summary": "Line-level proofreading pass over the whole book, driven by a new checker (scripts/wook-proofread.py) that reads the surface of the prose the way scripts/wook-continuity-check.py reads its claims. Applied by scripts/wook-proofread-pass.py, which is idempotent. Fixed: 25 cold-open titles carrying both an entity quote pair and a literal one, so every one rendered as \"\"The Tank\"\"; 190 straight apostrophes, every one of them inside the Field Specimens, RUNS cards and rotated SOBER TUESDAY cards the v7/v8 scripted passes wrote, in a manuscript otherwise set entirely in curly; six closing quotation marks used to open a quotation; the orphaned variation selectors left in Appendix B and V when their emoji were stripped (same scar v8 repaired on O and R); Appendix Q missing its fourteenth item, so an appendix titled The Sixteen Moves listed fifteen, and the contents drawer still labelling it The Seventeen Moves; Appendix S the only one of 26 using the larger heading class. Chapter 22's RESOURCES APPENDIX block -- 30 chips including crisis lines, the recovery timeline and a 62-word intake script -- reclassed to .chip.appendix; the v7 split keyed on the string SAFETY APPENDIX and never saw this one. Chapters 21, 25 and 26 shipped an empty poster key line and a 0 TRACKS count; their posters now name the five protocols, sixteen confessions and five pillars those chapters actually carry. Verified in Chromium at 375px and 1440px against the pre-pass baseline: identical tag balance apart from the 31 intended changes, same 13px pre-existing 375px overflow, same three opacity-0 elements, no new console or page errors. Standing item, not changed: every page in this repo (438 files) loads Cloudflare Web Analytics from a CDN, which is the one live exception to the no-external-requests rule."
+        },
         {
           "date": "2026-09-10",
           "version": "v8",

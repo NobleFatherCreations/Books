@@ -3342,3 +3342,76 @@ and unrelated to this round; verified identical against baseline.
 **content/wook-audits/** holds the cold opens with a video-series running
 order (generated from live source by build-coldopen-reel.py, so it cannot
 drift), the checker's report, and the earlier audit docs.
+
+## 2026-09-14 — Wook proofreading pass, and the second checker
+
+Request: relink the finalized cold-open document, then summarize what has
+and hasn't been done and keep auditing.
+
+**The reel document had drifted.** `content/wook-audits/wook-cold-opens-reel-order.md`
+was generated at v5 and still carried the duplicate names retired in v6-v8
+(Marcus doing triple duty, Nadia in ch20) plus one stale chapter count.
+Regenerated with `build-coldopen-reel.py`. It is generated-from-source by
+design, so the lesson is to re-run it as part of any round that touches a
+cold open, not to trust the file's own claim that it cannot drift.
+
+**MEMORY.md had drifted too.** Versions v5 through v8 shipped without an
+entry here -- their record is in the commit bodies and `sites.json` only.
+Not reconstructed; noted so nobody reads the gap as "nothing happened."
+
+**scripts/wook-proofread.py** is the round's reusable part, and the point
+of it is the division of labour: the continuity checker verifies the
+book's *claims*, this one reads the book's *surface*. Eight checks --
+quotes, glyphs, doubled words, spacing, chip length, nav labels vs
+headings, sibling markup, placeholders. Same ALLOWLIST contract as the
+continuity checker.
+
+Two precision lessons, both the difference between 293 findings and 8:
+strip inline tags without inserting a space or every `<mark>Wook</mark>.`
+in the book reads as a spacing error; and only flag *same-direction*
+doubled quotation marks, because `."` followed by `"X` is two adjacent
+quotations, which this book does constantly and correctly.
+
+**What shipped (wook v9), applied by scripts/wook-proofread-pass.py, idempotent:**
+- 25 cold-open titles carried an entity quote pair *and* a literal one, so
+  every one rendered as `""The Tank""`.
+- 190 straight apostrophes, every one inside the Field Specimens, RUNS
+  cards and rotated SOBER TUESDAY cards that v7/v8 wrote by script. The
+  rest of the manuscript is curly throughout. A scripted content pass is
+  the thing most likely to introduce a typographic regression, because
+  nobody proofreads generated text.
+- Six closing quotation marks used to open a quotation.
+- Appendix B and V had the orphaned variation selector v8 repaired on O
+  and R -- a bare U+FE0F where an emoji was stripped.
+- Appendix Q, titled The Sixteen Moves, listed fifteen: item 14, the Kandi
+  Trade Vows, was simply absent. The contents drawer still called it The
+  Seventeen Moves. Both fixed.
+- Appendix S was the only one of 26 on the larger heading class.
+- Chapter 22's RESOURCES APPENDIX block (30 chips: crisis lines, recovery
+  timeline, a 62-word therapy-intake script) was still pill-shaped. The v7
+  reclass keyed on the literal string SAFETY APPENDIX and never saw the one
+  block named differently. Same bug family as every other round: a pass
+  that matched on a string instead of a structure.
+- Chapters 21, 25 and 26 shipped an empty poster key line and "0 TRACKS".
+  Their posters now name the five protocols, sixteen confessions and five
+  pillars they actually carry.
+
+**Verified** against a pre-pass baseline in Chromium at 375px and 1440px:
+tag stream identical apart from the 31 intended changes, same 13px
+pre-existing 375px overflow, same three opacity-0 elements, no new console
+or page errors. Both checkers exit 0.
+
+**Found, deliberately not changed:**
+- Every page in this repo -- 438 files, not just wook -- loads Cloudflare
+  Web Analytics from a CDN with a real account token. That is a real
+  external request on a book whose stated architecture forbids one. It
+  looks deliberate, and removing it would silently end the user's
+  analytics, so it is reported rather than deleted. Needs a decision.
+- ch23's `#wook-confession` and ch25's THE CONFESSIONS are two lists of the
+  same sixteen moves in different orders with different item names.
+  Appendix Q matches ch23. Which is canonical is an authorial call.
+- `[address]` in ch14 reads like an unfilled placeholder but is the book's
+  own bracketed fill-in device, used 50+ times. Allowlisted with a reason.
+- BOOKS.md's wook entry is stale: it still describes the
+  `festie-codex-full.html` vs `library/wook/index.html` discrepancy as
+  blocking, from before this book had eight rounds of work.
