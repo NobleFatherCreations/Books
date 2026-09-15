@@ -33,7 +33,7 @@ Chapter order is built for a reader who starts at the beginning and goes forward
 **Cut point:** End on: "He knew what would happen. He rehearsed the sentence."
 
 ## EP 2 — Chapter 5: “The Eight-Ball”
-*Wook POV · 1,843 words · ~12 min read-aloud*
+*Wook POV · 1,844 words · ~12 min read-aloud*
 
 **Open on:** “I bring an eight-ball to every party.”
 
@@ -60,7 +60,7 @@ Chapter order is built for a reader who starts at the beginning and goes forward
 **Cut point:** End on the new courthouse beat: "It is the last time he does it." That is now a better video ending than the essay close that follows.
 
 ## EP 5 — Chapter 14: “The Wristband Cop”
-*Wook POV · 2,486 words · ~17 min read-aloud*
+*Wook POV · 2,487 words · ~17 min read-aloud*
 
 **Open on:** “The wristband is real.”
 
@@ -78,7 +78,7 @@ Chapter order is built for a reader who starts at the beginning and goes forward
 **Cut point:** End on: "what is the structure?"
 
 ## EP 7 — Chapter 13: “The Mason Jar”
-*Wook POV · 1,356 words · ~9 min read-aloud*
+*Wook POV · 1,357 words · ~9 min read-aloud*
 
 **Open on:** “His name at this festival is Cosmo.”
 
@@ -87,7 +87,7 @@ Chapter order is built for a reader who starts at the beginning and goes forward
 **Cut point:** End on: "In her interior, something happened that she does not have a word for."
 
 ## EP 8 — Chapter 12: “Forty A Cap”
-*Wook POV · 2,191 words · ~15 min read-aloud*
+*Wook POV · 2,192 words · ~15 min read-aloud*
 
 **Open on:** “I'm not a dealer.”
 
@@ -105,7 +105,7 @@ Chapter order is built for a reader who starts at the beginning and goes forward
 **Cut point:** End on: "None of that is what the twelve levers were built to test."
 
 ## EP 10 — Chapter 17: “The DanceSafe Pin”
-*Wook POV · 1,905 words · ~13 min read-aloud*
+*Wook POV · 1,906 words · ~13 min read-aloud*
 
 **Open on:** “The DanceSafe pin is on my snapback. Not ironically.”
 
@@ -132,7 +132,7 @@ Chapter order is built for a reader who starts at the beginning and goes forward
 **Cut point:** End on: "The recognition is the point."
 
 ## EP 13 — Chapter 26: “The Sealed Bottle”
-*Festie (six months later) POV · 1,229 words · ~8 min read-aloud*
+*Festie (six months later) POV · 1,230 words · ~8 min read-aloud*
 
 **Open on:** “She opens her own bottles now.”
 
@@ -219,7 +219,7 @@ Full current text of all twenty-six.
 
 🎬THE DROP
 
-““The Tank””
+“The Tank”
 
 The cold open📍 FESTIE POV
 
@@ -263,7 +263,7 @@ Hopper makes a plate and hands it to Daniel without ceremony, which is the smart
 
 Over the rice and beans they talk. Not about the play. About music. About where Daniel grew up (Cedar Rapids, Iowa, yes the whole state is one big flat thing, yes he knows, thanks). About the Dead, the setlist from the night before, whether Phil’s bass was mixed wrong in the second set. Hopper laughs at Daniel’s joke about I-84. He remembers Cedar Rapids — passed through it in ’07, great diner on the main strip.
 
-The thing about Hopper is: he is not performing warmth. He is warm. That is the whole engine of this. If he were performing, Daniel’s nervous system would catch the edge of it, the effort, the production of the thing. Hopper has been doing this for twenty-one years and he has made warmth into muscle memory and he cannot tell the difference anymore either. That is the deepest version of the move — where the operator has run the play so long they have genuinely incorporated it into their personality. The exploitation and the kindness are not separate. He is not pretending to like Daniel. He does like Daniel. He also needs Daniel to hold a tank.
+The thing about Hopper is: he is not performing warmth. He is warm. That is the whole engine of this. If he were performing, Daniel’s nervous system would catch the edge of it, the effort, the production of the thing. Hopper has been doing this for nineteen years and he has made warmth into muscle memory and he cannot tell the difference anymore either. That is the deepest version of the move — where the operator has run the play so long they have genuinely incorporated it into their personality. The exploitation and the kindness are not separate. He is not pretending to like Daniel. He does like Daniel. He also needs Daniel to hold a tank.
 
 Those two facts coexist without contradiction and that is what makes Hopper difficult to spot and this chapter necessary.
 
@@ -356,7 +356,7 @@ That is what this book is for.
 
 🎬THE DROP
 
-““The Pre-Party””
+“The Pre-Party”
 
 The cold open📍 FESTIE POV
 
@@ -469,7 +469,7 @@ The twelve levers don’t announce themselves. They just make the room smaller. 
 
 🎬THE DROP
 
-““The Yurt””
+“The Yurt”
 
 The cold open📍 FESTIE POV
 
@@ -540,7 +540,7 @@ That is the chapter. That is the whole chapter. What is the structure.
 
 🎬THE DROP
 
-““Safe Hands””
+“Safe Hands”
 
 The cold open📍 FESTIE POV
 
@@ -647,13 +647,13 @@ Now you have to catch up.
 ---
 
 ## Chapter 5: YES IS A SOBER WORD
-*Wook POV · 1,843 words · ~12 min · reel position: EP 2*
+*Wook POV · 1,844 words · ~12 min · reel position: EP 2*
 
 🎬THE DROP
 
-““The Eight-Ball””
+“The Eight-Ball”
 
-The cold openWook POV
+The cold open📍 WOOK POV
 
 I bring an eight-ball to every party.
 
@@ -760,13 +760,13 @@ That is every chapter.
 ---
 
 ## Chapter 6: THE WEEP TENT HUSTLE
-*Witness POV · 1,830 words · ~12 min · reel position: EP 21*
+*Witness POV · 1,831 words · ~12 min · reel position: EP 21*
 
 🎬THE DROP
 
-““Where Are You Camped””
+“Where Are You Camped”
 
-The cold openWitness POV
+The cold open📍 WITNESS POV
 
 It is 2:47 a.m. on a Friday at a transformational gathering in the Sierra Nevada foothills, and Margo Kwon is being talked at by a man named Asher and she has not said a word in twenty-two minutes.
 
@@ -895,13 +895,13 @@ The chamomile is still warm.
 ---
 
 ## Chapter 7: THE CULT THAT CALLS ITSELF FAMILY
-*Witness POV · 2,047 words · ~14 min · reel position: EP 16*
+*Witness POV · 2,048 words · ~14 min · reel position: EP 16*
 
 🎬THE DROP
 
-““Strike Day””
+“Strike Day”
 
-The cold openWitness POV
+The cold open📍 WITNESS POV
 
 It is Sunday at 11:14 a.m., which is the most honest hour at any festival.
 
@@ -1016,13 +1016,13 @@ That is the distance of the entire chapter.
 ---
 
 ## Chapter 8: VENDOR ROW BLOODSPORT
-*Wook POV · 2,061 words · ~14 min · reel position: EP 17*
+*Wook POV · 2,085 words · ~14 min · reel position: EP 17*
 
 🎬THE DROP
 
-““Sterling At The Row””
+“Sterling At The Row”
 
-The cold openWook POV
+The cold open📍 WOOK POV
 
 I have been Sebastián. Last year I was Atlas. The year before, Phoenix. Costa Rica in 2023 I was Sebastián again — different context, same energy, different Sebastián. My real name is on a driver’s license my ex-wife is still trying to find in connection with a civil matter in Sedona that I have no interest in relitigating.
 
@@ -1074,7 +1074,7 @@ I say: “We’re operating from a gift framework.”
 
 He says: “Cool. I’m operating from a child support framework. Have a great workshop.”
 
-He picks up the hoop.
+He picks up the hoop. His gear bag has a competition bib still zip-tied to the strap, faded, a name and a year on it: MATEO, 2019.
 
 I smile. “Of course. Blessings.”
 
@@ -1096,7 +1096,7 @@ She needs the money, and she needs to believe in the thing.
 
 I start with the thing.
 
-I tell her I have been following the wire-wrap space for three years because I am building a retreat center in New Mexico that is going to do for craft what Marfa did for contemporary art — create the conditions for the work to be seen by the people who understand its value. I tell her her work has the kind of intentionality that the retreat center is looking for. I tell her I have not said this to anyone else on the row today, which is technically true in the sense that I have not said it in this exact configuration.
+I tell her I have been following the wire-wrap space for three years because I am building a retreat center in New Mexico that is going to do for craft what Marfa did for contemporary art — create the conditions for the work to be seen by the people who understand its value. I tell her that her work has the kind of intentionality that the retreat center is looking for. I tell her I have not said this to anyone else on the row today, which is technically true in the sense that I have not said it in this exact configuration.
 
 She lights up. Of course she does. That is not a manipulation. That is a real human being receiving specific, genuine-sounding appreciation for work she has put her heart into in a setting that requires her to stand in the heat for twelve hours and ask strangers to value it. The lighting up is real. The connection it creates is real. The work she is going to do for my LLC over the next nine months will also be real.
 
@@ -1141,7 +1141,7 @@ And the vendor row is full of people who came to sell things they made, and the 
 
 🎬THE DROP
 
-““Blue Lips””
+“Blue Lips”
 
 The cold open📍 FESTIE POV
 
@@ -1224,7 +1224,7 @@ The Free Cap Funnel is real. The warmth that operates it is also real. And you a
 
 🎬THE DROP
 
-““We’ve Been Having Problems””
+“We’ve Been Having Problems”
 
 The cold open📍 FESTIE POV
 
@@ -1323,7 +1323,7 @@ The bag was always going to be in Nadia’s footwell.
 
 🎬THE DROP
 
-““The Corridor””
+“The Corridor”
 
 The cold open📍 FESTIE POV
 
@@ -1456,13 +1456,13 @@ This chapter is the fifteen-minute conversation you have before you get in the c
 ---
 
 ## Chapter 12: THE BATCH
-*Wook POV · 2,191 words · ~15 min · reel position: EP 8*
+*Wook POV · 2,192 words · ~15 min · reel position: EP 8*
 
 🎬THE DROP
 
-““Forty A Cap””
+“Forty A Cap”
 
-The cold openWook POV
+The cold open📍 WOOK POV
 
 I’m not a dealer.
 
@@ -1609,13 +1609,13 @@ That calculation is the Wook.
 ---
 
 ## Chapter 13: THE FREE ONE
-*Wook POV · 1,356 words · ~9 min · reel position: EP 7*
+*Wook POV · 1,357 words · ~9 min · reel position: EP 7*
 
 🎬THE DROP
 
-““The Mason Jar””
+“The Mason Jar”
 
-The cold openWook POV
+The cold open📍 WOOK POV
 
 His name at this festival is Cosmo.
 
@@ -1692,13 +1692,13 @@ This chapter is the word.
 ---
 
 ## Chapter 14: THE UNDERCOVER
-*Wook POV · 2,486 words · ~17 min · reel position: EP 5*
+*Wook POV · 2,487 words · ~17 min · reel position: EP 5*
 
 🎬THE DROP
 
-““The Wristband Cop””
+“The Wristband Cop”
 
-The cold openWook POV
+The cold open📍 WOOK POV
 
 The wristband is real.
 
@@ -1835,7 +1835,7 @@ That is the whole chapter condensed to four words.
 
 🎬THE DROP
 
-““The RV””
+“The RV”
 
 The cold open📍 FESTIE POV
 
@@ -1936,7 +1936,7 @@ But the geometry of the RV was a choice that happened before the robbery, and th
 
 🎬THE DROP
 
-““She Said She’d Be Right Back””
+“She Said She’d Be Right Back”
 
 The cold open📍 FESTIE POV
 
@@ -2066,7 +2066,7 @@ Jess says: “What?”
 
 Oliver says: “Your last name. What is it.”
 
-Jess says: ”…Okonkwo?”
+Jess says: “…Okonkwo?”
 
 Noor says: “O.”
 
@@ -2089,13 +2089,13 @@ This chapter teaches the preparation that happens instead.
 ---
 
 ## Chapter 17: THE PLUG WOOK
-*Wook POV · 1,905 words · ~13 min · reel position: EP 10*
+*Wook POV · 1,906 words · ~13 min · reel position: EP 10*
 
 🎬THE DROP
 
-““The DanceSafe Pin””
+“The DanceSafe Pin”
 
-The cold openWook POV
+The cold open📍 WOOK POV
 
 The DanceSafe pin is on my snapback.
 
@@ -2210,9 +2210,9 @@ And he is building you a cage.
 
 🎬THE DROP
 
-““The Kombucha””
+“The Kombucha”
 
-The cold openFestie POV — Inside the coercive group
+The cold open📍 FESTIE POV — INSIDE THE GROUP
 
 She has been with the Lantern Family for three years.
 
@@ -2371,7 +2371,7 @@ I am going to stir the oatmeal now.
 
 🎬THE DROP
 
-““Tuesday””
+“Tuesday”
 
 The cold open📍 FESTIE POV
 
@@ -2518,7 +2518,7 @@ The chapter is about what happens when you love the thing so much that you forge
 
 🎬THE DROP
 
-““The Drive Home””
+“The Drive Home”
 
 The cold open📍 FESTIE POV
 
@@ -2613,13 +2613,13 @@ The chapter names the window so the window is not a secret.
 ---
 
 ## Chapter 21: THE SOBER SET CAPTAIN
-*Festie (no predator) POV · 1,655 words · ~11 min · reel position: EP 24*
+*Festie (no predator) POV · 1,656 words · ~11 min · reel position: EP 24*
 
 🎬THE DROP
 
-““The Gate Briefing””
+“The Gate Briefing”
 
-The cold openFestie POV — No predator
+The cold open📍 FESTIE POV — NO PREDATOR
 
 Twenty minutes before doors.
 
@@ -2732,7 +2732,7 @@ The briefing is the thing that lets you go to the festival and come home and rem
 
 🎬THE DROP
 
-““The Tuesday-After””
+“The Tuesday-After”
 
 The cold open📍 FESTIE POV
 
@@ -2809,7 +2809,7 @@ She is going to go back to sleep.
 
 🎬THE DROP
 
-““The Re-Read””
+“The Re-Read”
 
 The cold open📍 FESTIE POV
 
@@ -2900,13 +2900,13 @@ The recognition is the point.
 ---
 
 ## Chapter 24: PROTECTING THE MAGIC
-*Montage POV · 1,802 words · ~12 min · reel position: EP 25*
+*Montage POV · 1,803 words · ~12 min · reel position: EP 25*
 
 🎬THE DROP
 
-““The Napkin Network””
+“The Napkin Network”
 
-The cold openMontage POV
+The cold open📍 MONTAGE POV
 
 One.
 
@@ -3096,13 +3096,13 @@ Here is every move. In order. By chapter and verse.
 ---
 
 ## Chapter 26: THE AFTER-PARTY
-*Festie (six months later) POV · 1,229 words · ~8 min · reel position: EP 13*
+*Festie (six months later) POV · 1,230 words · ~8 min · reel position: EP 13*
 
 🎬THE DROP
 
-““The Sealed Bottle””
+“The Sealed Bottle”
 
-The cold openFestie POV — Six months later
+The cold open📍 FESTIE POV — SIX MONTHS LATER
 
 She opens her own bottles now.
 
