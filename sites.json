@@ -287,11 +287,11 @@
       ],
       "repoPath": "library/wook/index.html",
       "section": "library",
-      "deployNote": "Not a git deploy despite gitRepo being set. The Netlify MCP connector issues a one-shot proxy command run from library/wook/, which uploads the directory (157MB with audio/ and video/) and builds it in Netlify's system. Verified 2026-09-14.",
-      "liveVersion": "v9",
-      "liveVerifiedAt": "2026-09-14",
-      "liveVerifiedNote": "Live bytes compared against library/wook/index.html and identical. Before this deploy live was v7: v8 was committed, versioned here and given an on-page patch note but never shipped. This field records what is actually live; 'version' records what has been built.",
-      "reviewInProgress": "Full chapter-by-chapter review under content/wook-audits/wook-full-review-plan.md. No deploys until pass D2 completes."
+      "deployNote": "Not a git deploy despite gitRepo being set. The Netlify MCP connector issues a one-shot proxy command run from library/wook/, which uploads the directory and builds it in Netlify's system. Verified 2026-09-15.",
+      "liveVersion": "v10",
+      "liveVerifiedAt": "2026-09-15",
+      "liveVerifiedNote": "Live bytes (md5) compared against library/wook/index.html and identical, both directly against the Netlify site URL and through the noblefathercreations.com/wook proxy path (200). Audio and video both return 206 on range requests. This field records what is actually live; 'version' records what has been built.",
+      "reviewInProgress": "Full chapter-by-chapter review under content/wook-audits/wook-full-review-plan.md complete, including pass D2. v10 deployed 2026-09-15; see changelog."
     },
     {
       "codename": "fractal",

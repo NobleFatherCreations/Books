@@ -4,11 +4,13 @@ State for the review described in `wook-full-review-plan.md`. A pass is not
 finished until its row here says so. Update this in the same commit as the
 work, never afterwards.
 
-**Deploy policy for this review: nothing ships until D2.** Author gave
-explicit go-ahead 2026-09-15 to run D2 onward, decide the sixteen-moves
-canon, fix Appendix G, and continue a humor pass. D2 content work (canon
-decision, Appendix G, Appendix Q duplicate) is done; final verification /
-version bump / deploy is in progress in this same round.
+**Review complete. v10 shipped 2026-09-15.** Author gave explicit
+go-ahead to run D2 onward, decide the sixteen-moves canon, fix Appendix G,
+and continue a humor pass. All done: canon decided, Appendix G filled in,
+Appendix Q duplicate and an About-section markup bug fixed, cold-open reel
+doc regenerated, sites.json + on-page patch notes updated to v10, deployed,
+and live bytes verified identical to the repo through both the Netlify
+site URL and the noblefathercreations.com/wook proxy path.
 
 ## Passes
 
@@ -26,7 +28,7 @@ version bump / deploy is in progress in this same round.
 | B7 | Chapters 24–26, every section | **done** | 2026-09-15 | see commit `B7` |
 | C | Front matter, standalone sections, all 26 appendices | **done** | 2026-09-15 | see commit `C` |
 | D1 | Book-wide coherence | **done** | 2026-09-15 | see commit `D1`; D2 (deploy) awaiting go-ahead per standing instruction |
-| D2 | Final verification, version bump, deploy | **content done, deploy in progress** | 2026-09-15 | see commit `D2-content` |
+| D2 | Final verification, version bump, deploy | **done** | 2026-09-15 | v10 deployed and verified live (bytes identical, proxy 200, audio/video 206) |
 
 ## Chapters
 

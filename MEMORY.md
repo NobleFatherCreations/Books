@@ -3453,3 +3453,53 @@ the deploy. **Nothing deploys until D2.**
 
 One new structural find while sizing the work: ch10 has six THE READ blocks
 for five Tracks. Seeded into the plan rather than fixed on the spot.
+
+## 2026-09-15 — The full thirteen-pass review finished, v10 deployed
+
+Request, same session as above: run all thirteen passes, hold every deploy
+until the last one. Passes A1 through D1 covered the whole book -- both
+checkers extended with eight more check categories between them, every
+chapter read end to end in seven grouped passes, front matter and all 26
+appendices read, book-wide coherence checked -- and found roughly 75 real
+defects, mostly the same three-chapter-insertion renumbering bug (The
+Road at 11, The Free One at 13, The Re-Entry Window at 20) still turning
+up in places the six earlier passes since v4 hadn't opened yet: duplicate
+Save titles, Appendix A silently skipping three chapters, a folded-in
+duplicate card in Chapter 10, nine separate misattributions in the
+retrospective Chapters 25-26 alone. Full findings log and chapter-by-
+chapter status live in `wook-full-review-ledger.md`.
+
+**Then the author authorized D2 and two standing decisions in one
+message: "run d2 onward, decide best 16 moves, fix appendix, build in
+laugh-out-loud writing throughout."**
+
+- **The sixteen-moves canon call.** Chapters 23 and 25 both list "the
+  sixteen moves" and disagreed at three of sixteen positions -- not a
+  numbering typo, two genuinely different pieces of content in the same
+  slot. Made chapter 25 canonical (the book's own "delivered first in 23,
+  fully in this chapter" framing settles it), rewrote chapter 23's and
+  Appendix Q's versions to match, folded the losing content into the
+  surviving item rather than dropping it, added new jokes in the process.
+- **Appendix G, "The Wook Discog Complete," was missing six chapters**
+  (11, 13, 20, 21, 25, 26) despite its own title. Wrote all six, each
+  condensing that chapter's own Studio Debut / Live Album / Greatest Hits
+  Compilation text, cross-checked against the source chapters' exact
+  names and ages (Cosmo/Derek at twenty-eight, Damian at thirty-one,
+  Sister Lou Mantilla's eleven years, Cara at twenty-six). Also caught
+  and fixed a mismatched Chapter 23 line that looked like a numbering
+  drift but wasn't -- ch23's own Greatest Hits section is about the book
+  itself, and the appendix line was rewritten to actually say that.
+- **Found along the way, not asked for:** a duplicate item 14 in Appendix
+  Q, self-inflicted by an earlier pass this same round whose string check
+  missed a `<mark>` tag splitting the real item's text; and invalid
+  nested `<p><p>` markup in the About The Author section.
+
+**Then D2 itself:** regenerated the cold-open reel doc from the live
+source (picks up every title/wordcount/POV-badge fix from this round
+automatically), bumped `sites.json` to v10 with a full changelog entry,
+added the matching plain-language on-page patch note, deployed via the
+Netlify MCP proxy command from `library/wook/`, and verified live bytes
+(md5) identical to the repo both directly against the Netlify site URL
+and through the `noblefathercreations.com/wook` proxy path (200), with
+audio and video both returning 206 on range requests. Both checkers
+return 0 findings. **The review is closed. Live is v10.**
