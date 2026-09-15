@@ -17,7 +17,7 @@ stays v9 until every row below reads `done`.
 | B1 | Chapters 1–5, every section | **done** | 2026-09-15 | see commit `B1-complete` |
 | B2 | Chapters 6–9, every section | **done** | 2026-09-15 | see commit `B2` |
 | B3 | Chapters 10–13, every section | **done** | 2026-09-15 | see commit `B3` |
-| B4 | Chapters 14–17, every section | not started | | |
+| B4 | Chapters 14–17, every section | **done** | 2026-09-15 | see commit `B4` |
 | B5 | Chapters 18–20, every section | not started | | |
 | B6 | Chapters 21–23, every section | not started | | |
 | B7 | Chapters 24–26, every section | not started | | |
@@ -45,10 +45,10 @@ three are marked and its row names the pass that did it.
 | 11 | The Road | ✓ | ✓ | | | late-inserted chapter; Save renamed: The Logistics Call ✓ read in B3, clean |
 | 12 | The Batch | ✓ | ✓ | | | Save renamed: The Camp Network ✓ read in B3, clean — Santa hat cold open confirmed matching ch23's confession |
 | 13 | The Free One | ✓ | ✓ | | | late-inserted chapter; Save renamed: The Fire Circle ✓ read in B3, clean |
-| 14 | The Undercover | ✓ | ✓ | | | `[address]` device to re-read in context |
-| 15 | The RV | ✓ | ✓ | | | |
-| 16 | The Missing Friend | ✓ | ✓ | | | |
-| 17 | The Plug Wook | ✓ | ✓ | | | best SOBER TUESDAY run in the back half |
+| 14 | The Undercover | ✓ | ✓ | | | `[address]` device to re-read in context ✓ read in B4, clean — undercover-cop POV, no bugs |
+| 15 | The RV | ✓ | ✓ | | | ✓ read in B4; stray trailing chapter label fixed |
+| 16 | The Missing Friend | ✓ | ✓ | | | ✓ read in B4, clean — Karen/Carol callback intact |
+| 17 | The Plug Wook | ✓ | ✓ | | | best SOBER TUESDAY run in the back half ✓ read in B4, clean — strongest moral-complexity chapter yet |
 | 18 | The Lantern Family | ✓ | ✓ | | | |
 | 19 | The Festie Hollowing | ✓ | ✓ | | | Save renamed: The Tuesday Couch |
 | 20 | The Re-Entry Window | ✓ | ✓ | | | late-inserted chapter |
@@ -241,6 +241,26 @@ who frames his girlfriend at a drug-dog stop, the dealer whose skipped
 test kills a teenager he knew personally, the non-consensual dosing at a
 fire circle -- and the craft holds under that weight without a single
 structural slip.
+
+**B4 complete, 2026-09-15.** Chapters 14 through 17 read end to end. One
+small structural bug found and fixed:
+
+- **Chapter 15's Bridge ended with a stray, wrong trailing label.**
+  Chapters 1 and 2 each close their Bridge with a plain `<p>Chapter N</p>`
+  naming the chapter that follows -- the other 23 chapters have no such
+  tag at all, so it reads as a leftover from an earlier draft structure
+  rather than something load-bearing. Chapter 15's copy of it said
+  "Chapter  14" (double space, and fifteen chapters removed from the
+  actual next chapter, 16). Corrected to Chapter 16, matching what
+  chapters 1 and 2 do with the same tag rather than deleting it.
+
+Confirmed clean and worth flagging as high points: chapter 14's undercover-
+narcotics-officer cold open turns the whole book's own playbook on the
+state; chapter 17's Wedge ("one of the best ones at being one of the good
+ones") may be the single strongest moral-complexity cold open in the
+book -- every harm-reduction credential he holds is real, and he is still
+building a cage. Both Bridges into and out of this range point at real,
+present details in their target chapters.
 
 ## Author-decision queue
 
