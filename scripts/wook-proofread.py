@@ -42,6 +42,10 @@ Checks:
   sequence    A run of numbered headings inside one section that skips a
               number. Appendix A's index went 20, 22 with nothing saying
               why chapter 21 was absent.
+  titlecase   A title-casing script's fingerprints on a mixed-case label:
+              It's rendered "It'S", RV rendered "Rv". Invisible on the
+              rail, which uppercases, and plainly wrong in the Setlist and
+              the nav drawer, which do not.
 
 Exit code is 0 when no ERROR-level findings, 1 otherwise.
 """
@@ -352,6 +356,25 @@ def check_sequence(book):
                 "an index that silently omits a chapter reads as an omission")
 
 
+def check_titlecase(book):
+    """Title-casing artifacts in mixed-case labels."""
+    for m in re.finditer(r'<a class="(?:dr-row|sl-row)[^"]*" href="#ch\d+"[^>]*>(.*?)</a>',
+                         book.raw, re.S):
+        label = strip_tags(m.group(1)).strip()
+        label = re.sub(r'^\d+\s*', '', label)
+        if label.isupper():
+            continue
+        for bad in re.finditer(r'[a-z]’[A-Z]', label):
+            add("ERROR", "titlecase", "book",
+                "apostrophe-S capitalised inside a mixed-case label", label)
+        # An initialism that a title-caser lowercased: The Rv, The Dj.
+        for word in label.split():
+            if (len(word) == 2 and word[0].isupper() and word[1].islower()
+                    and word.upper() in {"RV", "DJ", "ID", "TV", "AM", "PM"}):
+                add("ERROR", "titlecase", "book",
+                    f"initialism title-cased to {word!r} in a nav label", label)
+
+
 def check_headings(book):
     """Heading levels that skip a rung."""
     seq = [(m.start(), int(m.group(1))) for m in re.finditer(r'<h([1-6])\b', book.raw)]
@@ -374,6 +397,7 @@ CHECKS = {
     "duplicates": check_duplicates,
     "typography": check_typography,
     "sequence": check_sequence,
+    "titlecase": check_titlecase,
     "headings": check_headings,
 }
 

@@ -14,7 +14,7 @@ stays v9 until every row below reads `done`.
 | A1 | Proofreader extension, book-wide | **done** | 2026-09-15 | see commit `A1` |
 | A2 | Continuity checker extension, book-wide | **done** | 2026-09-15 | see commit `A2` |
 | A3 | Vernacular and slang currency sweep | **done** | 2026-09-15 | see commit `A3`; output is `wook-vernacular-word-bank.md` |
-| B1 | Chapters 1–5, every section | not started | | |
+| B1 | Chapters 1–5, every section | **in progress** — ch1 read, ch2 cold open read | 2026-09-15 | see commit `B1` |
 | B2 | Chapters 6–9, every section | not started | | |
 | B3 | Chapters 10–13, every section | not started | | |
 | B4 | Chapters 14–17, every section | not started | | |
@@ -32,7 +32,7 @@ three are marked and its row names the pass that did it.
 
 | Ch | Title | P | C | E | Pass | Notes |
 |---|---|---|---|---|---|---|
-| 1 | It's Not Drama, It's Warfare | ✓ | ✓ | | | RUNS cards never re-read |
+| 1 | It's Not Drama, It's Warfare | ✓ | ✓ | | | RUNS cards never re-read ✓ read in B1 |
 | 2 | How They Get Your Yes | ✓ | ✓ | | | 12 Tracks, the longest chapter |
 | 3 | Your Brain On Day Three | ✓ | ✓ | | | |
 | 4 | Your Body Made A Friend | ✓ | ✓ | | | |
@@ -133,6 +133,37 @@ the live book. The B passes write against it. What the measuring found:
   ordinary one. Every chapter where a reader most needs telling that the
   first person speaking is the predator had the quietest label. All 25
   that carry a label now carry the badge.
+
+**B1 in progress, 2026-09-15.** Chapter 1 read end to end, chapter 2's
+cold open and front matter read. Applied:
+
+- **Title-casing artifacts in three nav labels**, book-wide, found on
+  chapter 1's rail. A title-caser had capitalised the S after an
+  apostrophe and lowercased an initialism: "It'S Not Drama, It'S Warfare",
+  "The Taper'S Reveal", "The Rv". The rail uppercases so it hides there;
+  the Setlist and the nav drawer do not, so readers saw it in two places
+  each. The proofreader now has a `titlecase` check for the class.
+- **Chapter 1 told the same joke twice, 700 words apart.** The Wook's
+  Setlist previewed the Overt Lot Rat with the calendar-app line and THE
+  BEHAVIOR then opened on it verbatim. The preview now says what the front
+  is and leaves the joke to the Track.
+- **Hopper's arithmetic contradicted his own discography.** The cold open
+  has him at forty-one and "doing this for twenty-one years," which starts
+  him at twenty; the Wook Discog's Studio Debut has him at twenty-two and
+  explicitly not yet knowing he is running plays. Nineteen years makes the
+  two agree.
+
+Checked and found sound in chapter 1: the nod callback from the cold open
+into the Save is deliberate craft, not repetition; the Trifecta, the three
+Tracks and the Fanny Pack agree; Bear's age and tenure match Appendix B.
+Chapter 2's forward reference to chapter 3's $2,400 marketing director
+resolves correctly.
+
+Reading aid for the remaining B passes: a repeated-12-gram scan across all
+26 chapters is in the scratch work. Most hits are structural and correct —
+the poster keys previewing the Track names, a Pocket Script echoing its
+Track — so it is a reading aid, not a defect list. Chapter 1's was the
+first real one.
 
 ## Author-decision queue
 
