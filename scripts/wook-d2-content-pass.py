@@ -335,7 +335,39 @@ def fix_apG_missing(src):
     return src
 
 
-STEPS = [fix_apQ_duplicate, fix_sixteen_moves_canon, fix_apG_missing]
+def fix_about_nested_p(src):
+    """The About The Author section has a stray nested <p><p> and an extra
+    trailing </p> before </section> -- three paragraphs glued together with
+    invalid markup instead of three siblings. Browsers auto-close the bad
+    nesting so it renders fine, but it isn't valid HTML and would corrupt
+    the DOM structure the moment anything else in the section changes.
+    """
+    bad = (
+        'need it most, by someone who loves the magic enough to name what '
+        'eats it.</p><p><p>Shae Stovell has spent the last fifteen years'
+    )
+    n = src.count(bad)
+    if n == 0:
+        note("about-nested-p", 0, "already fixed")
+    elif n == 1:
+        good = (
+            'need it most, by someone who loves the magic enough to name '
+            'what eats it.</p><p>Shae Stovell has spent the last fifteen '
+            'years'
+        )
+        src = src.replace(bad, good, 1)
+        bad2 = 'actually lives between editions.</p></p></section>'
+        n2 = src.count(bad2)
+        if n2 != 1:
+            sys.exit("about: trailing </p></p></section> not found exactly once")
+        src = src.replace(bad2, 'actually lives between editions.</p></section>', 1)
+        note("about-nested-p", 1, "invalid nested <p><p> and stray closing tag fixed")
+    else:
+        sys.exit("about: nested-p pattern matched more than once")
+    return src
+
+
+STEPS = [fix_apQ_duplicate, fix_sixteen_moves_canon, fix_apG_missing, fix_about_nested_p]
 
 
 def main():
