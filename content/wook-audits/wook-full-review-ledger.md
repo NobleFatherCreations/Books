@@ -18,7 +18,7 @@ stays v9 until every row below reads `done`.
 | B2 | Chapters 6–9, every section | **done** | 2026-09-15 | see commit `B2` |
 | B3 | Chapters 10–13, every section | **done** | 2026-09-15 | see commit `B3` |
 | B4 | Chapters 14–17, every section | **done** | 2026-09-15 | see commit `B4` |
-| B5 | Chapters 18–20, every section | not started | | |
+| B5 | Chapters 18–20, every section | **done** | 2026-09-15 | see commit `B5` |
 | B6 | Chapters 21–23, every section | not started | | |
 | B7 | Chapters 24–26, every section | not started | | |
 | C | Front matter, standalone sections, all 26 appendices | not started | | |
@@ -49,9 +49,9 @@ three are marked and its row names the pass that did it.
 | 15 | The RV | ✓ | ✓ | | | ✓ read in B4; stray trailing chapter label fixed |
 | 16 | The Missing Friend | ✓ | ✓ | | | ✓ read in B4, clean — Karen/Carol callback intact |
 | 17 | The Plug Wook | ✓ | ✓ | | | best SOBER TUESDAY run in the back half ✓ read in B4, clean — strongest moral-complexity chapter yet |
-| 18 | The Lantern Family | ✓ | ✓ | | | |
-| 19 | The Festie Hollowing | ✓ | ✓ | | | Save renamed: The Tuesday Couch |
-| 20 | The Re-Entry Window | ✓ | ✓ | | | late-inserted chapter |
+| 18 | The Lantern Family | ✓ | ✓ | | | ✓ read in B5, clean — darkest cold open in the book, handled with care |
+| 19 | The Festie Hollowing | ✓ | ✓ | | | Save renamed: The Tuesday Couch ✓ read in B5; bridge misattribution to ch21 fixed |
+| 20 | The Re-Entry Window | ✓ | ✓ | | | late-inserted chapter ✓ read in B5, clean — deliberate Drop/Save structural variant |
 | 21 | The Sober Set Captain | ✓ | ✓ | | | trackless: five protocols; Save renamed: The Anchor Crew; added to Appendix A |
 | 22 | The Long Comedown | ✓ | ✓ | | | resources block reclassed in v9 |
 | 23 | Have You Been The Wook? | ✓ | ✓ | | | carries the Author's Wook Confession |
@@ -261,6 +261,32 @@ ones") may be the single strongest moral-complexity cold open in the
 book -- every harm-reduction credential he holds is real, and he is still
 building a cage. Both Bridges into and out of this range point at real,
 present details in their target chapters.
+
+**B5 complete, 2026-09-15.** Chapters 18 through 20 read end to end. One
+real continuity bug found and fixed:
+
+- **Chapter 19's Bridge described chapter 21's content and labeled it
+  chapter 20.** "Sister Lou at the gate with a clipboard... running this
+  briefing for eleven straight years" is chapter 21's cold open almost
+  verbatim -- its own opening line is "Sister Lou is standing at the
+  camp's designated briefing spot." Chapter 20 is actually Ines's drive
+  home and the Comedown Text, the re-entry window chapter. Every other
+  Bridge in the book previews the chapter immediately following it; this
+  one skipped 20 and jumped straight to 21's content while still saying
+  "Chapter 20" -- and chapter 20's *own* bridge already correctly sets up
+  21's briefing scene, so the content was previewed twice, once under the
+  wrong number. Rewritten to preview what chapter 20 actually contains.
+
+Also worth recording: chapter 20 is a deliberate structural variant. Its
+Drop already shows the *correct* behavior (Ines waits for Tuesday), and
+its Save section says so outright -- "The Save is the cold open" -- rather
+than running a separate failure-then-correction pair. Not a defect; noted
+so a future pass doesn't "fix" it into matching the other 25 chapters'
+shape.
+
+Chapter 18's cold open (a coercive-group leader's own POV, told with the
+same rationalizing warmth Wedge used in chapter 17) is the darkest material
+in the book. The craft holds; nothing to fix.
 
 ## Author-decision queue
 
