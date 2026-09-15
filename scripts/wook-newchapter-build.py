@@ -42,6 +42,11 @@ REQUIRED = [
     'ch-end',
 ]
 
+# A "no predator" chapter (ch21 is the existing example) replaces the
+# Wook's Setlist and the Tracks with THE PROTOCOLS and THE TEST, and its
+# poster meta counts PROTOCOLS instead of TRACKS.
+PROTOCOL_MODE_MARKER = '🪖 THE PROTOCOLS'
+
 BLOCKS = ["div", "section", "p", "h2", "h3", "span", "em", "strong", "i", "svg"]
 
 
@@ -97,28 +102,46 @@ def check(chapter):
     if len(nums) != 1:
         findings.append(("numbering", f"chapter number disagrees across wrapper/end/id/poster: {nums}"))
 
-    tracks = re.findall(r'<span class="gate-tag track-tag">TRACK (\d+)</span>', html)
-    expected = [f"{i:02d}" for i in range(1, len(tracks) + 1)]
-    if tracks != expected:
-        findings.append(("tracks", f"track numbering {tracks} != {expected}"))
+    protocol_mode = PROTOCOL_MODE_MARKER in html
+    unit = "PROTOCOL" if protocol_mode else "TRACK"
+
+    if protocol_mode:
+        if "comp-roster" in html:
+            findings.append(("structure", "protocol-mode chapter should not carry THE WOOK'S SETLIST"))
+        if "🔍 THE TEST" not in html:
+            findings.append(("structure", "protocol-mode chapter is missing THE TEST"))
+        titles = re.findall(r"<p>PROTOCOL \d+ — ([^<]*)</p>", html)
+        nums = re.findall(r"<p>PROTOCOL (\d+) — ", html)
+        expected = [str(i) for i in range(1, len(nums) + 1)]
+        if nums != expected:
+            findings.append(("tracks", f"protocol numbering {nums} != {expected}"))
+    else:
+        if "comp-roster" not in html:
+            findings.append(("structure", "missing component: comp-roster (THE WOOK'S SETLIST)"))
+        tracks = re.findall(r'<span class="gate-tag track-tag">TRACK (\d+)</span>', html)
+        expected = [f"{i:02d}" for i in range(1, len(tracks) + 1)]
+        if tracks != expected:
+            findings.append(("tracks", f"track numbering {tracks} != {expected}"))
+        titles = re.findall(r'<h3 class="track-title">([^<]*)</h3>', html)
 
     keys = re.search(r'<p class="poster-keys">([^<]*)</p>', html)
-    titles = re.findall(r'<h3 class="track-title">([^<]*)</h3>', html)
     if keys and titles:
         listed = [k.strip() for k in keys.group(1).split("·")]
         if len(listed) != len(titles):
-            findings.append(("poster", f"poster lists {len(listed)} keys but chapter has {len(titles)} Tracks"))
+            findings.append(("poster", f"poster lists {len(listed)} keys but chapter has {len(titles)} {unit}s"))
         else:
             for a, b in zip(listed, titles):
                 if a.upper().replace("’", "'") != b.upper().replace("’", "'"):
-                    findings.append(("poster", f"poster key {a!r} != track title {b!r}"))
+                    findings.append(("poster", f"poster key {a!r} != {unit.lower()} title {b!r}"))
 
-    meta = re.search(r'⏱ ~\d+ MIN READ · (\d+) TRACKS', html)
-    if meta and int(meta.group(1)) != len(titles):
-        findings.append(("poster", f"poster meta says {meta.group(1)} tracks, chapter has {len(titles)}"))
+    meta = re.search(r'⏱ ~\d+ MIN READ · (\d+) ' + unit + r'S', html)
+    if not meta:
+        findings.append(("poster", f"poster meta does not state a {unit} count"))
+    elif int(meta.group(1)) != len(titles):
+        findings.append(("poster", f"poster meta says {meta.group(1)} {unit.lower()}s, chapter has {len(titles)}"))
 
     words = len(strip_tags(html).split())
-    print(f"ch{chapter}: {len(html):,} chars, ~{words:,} words, {len(titles)} Tracks -> {out.name}")
+    print(f"ch{chapter}: {len(html):,} chars, ~{words:,} words, {len(titles)} {unit.title()}s -> {out.name}")
     if findings:
         print(f"\n{len(findings)} finding(s):\n")
         for kind, msg in findings[:40]:
