@@ -107,7 +107,7 @@ Every chapter carries, in this order:
 | Chapter | Written | Spliced | Notes |
 |---|---|---|---|
 | 6 The Group Chat | **yes** | | 10,594 words, 5 Tracks, clean. New cast voice: Junie “Firewall” Park (needs an Appendix B entry). New counter-drops: Named Reference Rule, Logged-Channel Rule, Hours Audit, Second Anchor, Asymmetry Check (all five need Appendix F entries). New specimen icon needed: `spec-helpfulone`. |
-| 10 The Love Of It | | | |
+| 10 The Love Of It | **yes** | | 10,741 words, 5 Tracks, clean. Witness POV (Bird, load-in lead). Reuses Wingnut as the Soundboard voice — his Appendix B line needs a second-appearance update. New counter-drops: Hourly Conversion, Payroll Question, Incident Record, Title-To-Terms Test, Off-Season Test. New specimen icon: `spec-coreteam`. |
 | 14 The Two Festivals | | | |
 | 17 The Container | | | |
 | 20 The Next Twelve Hours | | | needs content warning |
