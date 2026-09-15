@@ -232,8 +232,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v10",
+      "version": "v11",
       "changelog": [
+        {
+          "date": "2026-09-15",
+          "version": "v11",
+          "summary": "Copyright/authorship hardening at the user's request. The colophon already carried a proper notice (Copyright © 2026 by Shae Stovell, all-rights-reserved language, edition, ISBN placeholders honestly marked 'not yet assigned') -- what was missing was machine-readable attribution in the page's own <head>, so added <meta name=\"author\" content=\"Shae Stovell\"> and <meta name=\"copyright\" content=\"Copyright © 2026 Shae Stovell. All rights reserved.\">. No visible change to the page. Note for the user, not fixable by a code change: copyright exists automatically on an original work the moment it's written, and this notice/metadata is the correct on-page attribution, but it is not the same thing as registering the copyright with the U.S. Copyright Office -- registration is a separate, optional step only the rights holder (or an authorized agent) can file, via copyright.gov's eCO system, and it's what enables statutory damages and the right to sue for infringement. Not done here; flagged for the author to decide on."
+        },
         {
           "date": "2026-09-15",
           "version": "v10",
