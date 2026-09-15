@@ -15,7 +15,7 @@ stays v9 until every row below reads `done`.
 | A2 | Continuity checker extension, book-wide | **done** | 2026-09-15 | see commit `A2` |
 | A3 | Vernacular and slang currency sweep | **done** | 2026-09-15 | see commit `A3`; output is `wook-vernacular-word-bank.md` |
 | B1 | Chapters 1–5, every section | **done** | 2026-09-15 | see commit `B1-complete` |
-| B2 | Chapters 6–9, every section | not started | | |
+| B2 | Chapters 6–9, every section | **done** | 2026-09-15 | see commit `B2` |
 | B3 | Chapters 10–13, every section | not started | | |
 | B4 | Chapters 14–17, every section | not started | | |
 | B5 | Chapters 18–20, every section | not started | | |
@@ -37,10 +37,10 @@ three are marked and its row names the pass that did it.
 | 3 | Your Brain On Day Three | ✓ | ✓ | | | ✓ read in B1, clean |
 | 4 | Your Body Made A Friend | ✓ | ✓ | | | ✓ read in B1; Dani/Dani collision fixed |
 | 5 | Yes Is A Sober Word | ✓ | ✓ | | | three standalone sections split out of it ✓ read in B1, clean — best POV-flip Save in the book so far |
-| 6 | The Weep Tent Hustle | ✓ | ✓ | | | |
-| 7 | The Cult That Calls Itself Family | ✓ | ✓ | | | |
-| 8 | Vendor Row Bloodsport | ✓ | ✓ | | | |
-| 9 | The Bad Trip Babysitter | ✓ | ✓ | | | |
+| 6 | The Weep Tent Hustle | ✓ | ✓ | | | ✓ read in B2, clean — best mirror pair (Drop/Save) so far |
+| 7 | The Cult That Calls Itself Family | ✓ | ✓ | | | ✓ read in B2, clean |
+| 8 | Vendor Row Bloodsport | ✓ | ✓ | | | ✓ read in B2; Mateo naming gap fixed |
+| 9 | The Bad Trip Babysitter | ✓ | ✓ | | | ✓ read in B2, clean |
 | 10 | The Tampon Bag | ✓ | ✓ | | | six THE READ blocks for five Tracks; fixed in A2 |
 | 11 | The Road | ✓ | ✓ | | | late-inserted chapter; Save renamed: The Logistics Call |
 | 12 | The Batch | ✓ | ✓ | | | Save renamed: The Camp Network |
@@ -195,6 +195,38 @@ Chapter 5's POV-flip Save (the predator's own frame, run again, failing
 against a prepared target) is the strongest single piece of craft found
 so far in the non-cold-open material. Nothing to fix there -- noted for
 the pattern library the C pass will build on.
+
+**B2 complete, 2026-09-15.** Chapters 6 through 9 read end to end. One
+real bug found and fixed, plus a book-wide check that came back clean:
+
+- **Chapter 8's cold open names a character "Mateo" with no on-page
+  source.** The hoop artist is introduced and described for a full
+  paragraph only as "Hooper" -- a category, not a name -- and the
+  narrator starts calling him Mateo immediately after the exchange, with
+  no textual moment where the name is learned. Chapter 7's own bridge
+  already calls him Mateo, but a reader will not be holding that bridge in
+  memory several hundred words into the next chapter. Fixed by having the
+  narrator -- already established in this same cold open as someone who
+  reads a Pelican case and a laminated price tag for tenure -- clock a
+  faded competition bib on the man's gear bag. Same character trait,
+  now grounding the name where it's first used.
+- **A systematic bridge-forward-reference scan across all 25 chapter
+  transitions** (every name mentioned in a Bridge, checked against the
+  next chapter's text) came back with no real misses. Ten flagged names
+  turned out to be the bridge naming the chapter just *finished*, not the
+  one coming up -- a false-positive shape worth documenting so a future
+  pass doesn't re-scare itself: "Asha drove home," "Sadie sent the text,"
+  "the seal is on the water Yara carried" are all backward-looking closes,
+  not broken forward references.
+
+Also checked and left alone: chapter 7's Soundboard attribution and
+Appendix B both give a build lead the surname Okonkwo, which coincidentally
+matches chapter 16's missing-friend character Jess Okonkwo. Surnames
+aren't tracked by readers the way first names are, nothing implies the two
+are related, and the earlier de-duplication passes were about exact
+first-name collisions on named characters, not incidental surname reuse
+across two very different minor roles two movements apart. Left as is;
+noted here so it isn't rediscovered as new.
 
 ## Author-decision queue
 
