@@ -13,7 +13,7 @@ stays v9 until every row below reads `done`.
 |---|---|---|---|---|
 | A1 | Proofreader extension, book-wide | **done** | 2026-09-15 | see commit `A1` |
 | A2 | Continuity checker extension, book-wide | **done** | 2026-09-15 | see commit `A2` |
-| A3 | Vernacular and slang currency sweep | not started | | |
+| A3 | Vernacular and slang currency sweep | **done** | 2026-09-15 | see commit `A3`; output is `wook-vernacular-word-bank.md` |
 | B1 | Chapters 1–5, every section | not started | | |
 | B2 | Chapters 6–9, every section | not started | | |
 | B3 | Chapters 10–13, every section | not started | | |
@@ -107,6 +107,33 @@ letters and digits only. `strip()` turns every tag into a space, so a title
 carrying a `<mark>` comes back with a space inside its hyphenation and
 reads as a mismatch that is really a rendering artifact.
 
+**A3, 2026-09-15.** Output is `wook-vernacular-word-bank.md`, measured off
+the live book. The B passes write against it. What the measuring found:
+
+- **The earlier tone audit overstated the book's vocabulary.** Eight words
+  it lists as used appear zero times: heady, doof, whomp, tabs, Camelbak,
+  totem, moop, flow arts. Three more appear once or twice in 263,844 words.
+  The register is narrower than anyone thought.
+- **A forty-fold spread in scene-vocabulary density across chapters.**
+  Chapter 6 runs 1.8 hits per 10,000 words and could be set anywhere;
+  chapter 9 runs 74.6. Three of the six thinnest are chapters 11, 13 and
+  20 — the late-inserted three, the same root cause as every other defect
+  family in this book.
+- **The Wook narrators never speak the culture.** Six chapters, 58,000
+  words of first-person predator, and not one says playa, decom, default
+  world, PLUR, set break, nitrous or shakedown. The stratification that
+  does exist is correct — caps and Bunk Police run three to five times
+  denser in Wook POV — but reserving the culture words for the victims
+  splits the vocabulary along exactly the line the book argues is not
+  there. A Wook weaponising PLUR in first person is the single biggest
+  opportunity in the book and currently happens zero times.
+- **Every cold open announces its POV, in three different costumes.** A
+  styled badge in 13 chapters, an italic line in 8, a plain paragraph in 3
+  — and the 13 with the badge were exactly the 13 whose POV is the
+  ordinary one. Every chapter where a reader most needs telling that the
+  first person speaking is the predator had the quietest label. All 25
+  that carry a label now carry the badge.
+
 ## Author-decision queue
 
 Things found that are creative calls, not corrections. Nothing here gets
@@ -121,3 +148,6 @@ guessed at.
    Section. Deliberate, given their different shape, or a gap.
 4. **THE TEST appears in six chapters.** Extend it to all, or leave it as a
    device those six chapters earn.
+5. **Chapter 25's cold open has no POV label at all.** It opens on "The
+   PLURth Angel. Tuesday morning." The other 25 now carry a badge. Giving
+   this one a label means writing one, which is a call rather than a fix.
