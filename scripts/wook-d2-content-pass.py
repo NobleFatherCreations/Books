@@ -367,7 +367,43 @@ def fix_about_nested_p(src):
     return src
 
 
-STEPS = [fix_apQ_duplicate, fix_sixteen_moves_canon, fix_apG_missing, fix_about_nested_p]
+def add_v10_patch_note(src):
+    """D2: reader-facing on-page patch note for v10, matching sites.json's
+    changelog entry but in plain language, per CLAUDE.md's patch-notes
+    rule.
+    """
+    marker = '<p><strong class="lead">v9 &middot; September 14, 202'
+    n = src.count(marker)
+    if n == 0:
+        sys.exit("patch notes: v9 entry marker not found")
+    if 'v10 &middot; September 15, 2026' in src:
+        note("v10-patch-note", 0, "already added")
+        return src
+    entry = (
+        '<p><strong class="lead">v10 &middot; September 15, 2026.</strong> '
+        'The deepest read-through this book has had — every chapter, '
+        'every appendix, front matter to the last page, checked against '
+        'itself. Found and fixed roughly seventy-five small things: '
+        'duplicate section titles, a few chapters pointing at the wrong '
+        'chapter number when they referenced each other (left over from '
+        'when three chapters got added partway through writing this '
+        'book), a couple of appendices that quietly skipped entries they '
+        'claimed to have. The book’s own “sixteen moves” '
+        'confession listed the moves in two different orders in two '
+        'different places — it now agrees with itself everywhere, '
+        'with a couple of new lines added along the way. The Discog '
+        'appendix was missing six chapters despite calling itself '
+        'complete; it actually is now. A formatting glitch in the About '
+        'The Author section is fixed. Thanks again to everyone who reads '
+        'closely enough to catch what needed catching.</p>'
+    )
+    src = src.replace(marker, entry + marker, 1)
+    note("v10-patch-note", 1, "on-page v10 entry added")
+    return src
+
+
+STEPS = [fix_apQ_duplicate, fix_sixteen_moves_canon, fix_apG_missing, fix_about_nested_p,
+         add_v10_patch_note]
 
 
 def main():

@@ -232,8 +232,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v9",
+      "version": "v10",
       "changelog": [
+        {
+          "date": "2026-09-15",
+          "version": "v10",
+          "summary": "Full chapter-by-chapter, appendix-by-appendix review of the entire book -- the deepest pass yet, run in thirteen stages (content/wook-audits/wook-full-review-plan.md) after extending both checkers with eight new automated check categories between them (duplicates, typography, sequence, headings, cards, index, numbering, dropnames), which together found roughly 75 real defects across the book. Highlights: five duplicate Save titles renamed and de-duplicated across all 26 chapters; Appendix A's Master Track Index no longer silently skips chapters 21, 25 and 26; a folded-in duplicate THE READ card in Chapter 10; nine separate chapter-number misattributions in the retrospective Chapters 25 and 26 alone (the book's own name-checks of earlier chapters, corrected against what those chapters actually contain rather than assumed); the front matter's Content Disclosure pointing at the wrong chapter for the book's own persuasion-technique confession; Appendix U's vocabulary list attributed to the wrong chapter; an entirely unfilled Vellum-export 'Also By' placeholder section removed outright. Two items an earlier standing author-decision queue had flagged were resolved this round on explicit author authorization: the book's own 'sixteen moves' confession listed the moves in two different orders in Chapter 23 and Chapter 25 -- Chapter 25 (the version the book itself calls the full delivery) was made canonical, and Chapter 23 and Appendix Q were rewritten to match, with new lines added rather than content dropped outright. And Appendix G ('The Wook Discog Complete') was actually missing six chapters (11, 13, 20, 21, 25, 26) despite its own title -- all six were written in the appendix's existing terse format, cross-checked against each source chapter's exact names, ages and details, and a stray mismatched line in the Chapter 23 entry was corrected to describe what that chapter's own Greatest Hits section actually says. Also fixed this round: a duplicate item 14 in Appendix Q left by an earlier pass's own string-matching miss, and invalid nested <p><p> markup in the About The Author section. Verified: both checkers return 0 findings; Chromium at 375px and 1440px, normal and reduced motion, shows 0 new console or page errors, the same pre-existing 13px overflow at 375px, and the same opacity-0 baseline as before this round."
+        },
         {
           "date": "2026-09-14",
           "version": "v9",
