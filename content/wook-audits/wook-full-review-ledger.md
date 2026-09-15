@@ -12,7 +12,7 @@ stays v9 until every row below reads `done`.
 | Pass | Scope | Status | Date | Commit |
 |---|---|---|---|---|
 | A1 | Proofreader extension, book-wide | **done** | 2026-09-15 | see commit `A1` |
-| A2 | Continuity checker extension, book-wide | not started | | |
+| A2 | Continuity checker extension, book-wide | **done** | 2026-09-15 | see commit `A2` |
 | A3 | Vernacular and slang currency sweep | not started | | |
 | B1 | Chapters 1–5, every section | not started | | |
 | B2 | Chapters 6–9, every section | not started | | |
@@ -41,7 +41,7 @@ three are marked and its row names the pass that did it.
 | 7 | The Cult That Calls Itself Family | ✓ | ✓ | | | |
 | 8 | Vendor Row Bloodsport | ✓ | ✓ | | | |
 | 9 | The Bad Trip Babysitter | ✓ | ✓ | | | |
-| 10 | The Tampon Bag | ✓ | ✓ | | | six THE READ blocks for five Tracks |
+| 10 | The Tampon Bag | ✓ | ✓ | | | six THE READ blocks for five Tracks; fixed in A2 |
 | 11 | The Road | ✓ | ✓ | | | late-inserted chapter; Save renamed: The Logistics Call |
 | 12 | The Batch | ✓ | ✓ | | | Save renamed: The Camp Network |
 | 13 | The Free One | ✓ | ✓ | | | late-inserted chapter; Save renamed: The Fire Circle |
@@ -85,6 +85,27 @@ happens in the B passes and may reopen either column.
   deliberate and in character, now allowlisted with reasons: a lowercase
   "pm" inside a text message, a folder named "competitors - general", and
   an ellipsis that opens a line because the speaker is trailing into it.
+
+**A2, 2026-09-15.** Four checks added to `scripts/wook-continuity-check.py`:
+`cards`, `index`, `numbering`, `dropnames`. What they found:
+
+- **Chapter 10 had six THE READ cards for five Tracks.** The last Track
+  carried two sibling blocks under one header each. The second holds one
+  paragraph that belongs to that Track and reads as a continuation of the
+  first, so the header was the defect, not the content. Folded in.
+- **Appendix A filed the Trifecta under chapter 1 as though it were a
+  Track.** It is the book's opening diagnostic, introduced in that
+  chapter's Fanny Pack, and readers will look for it in the index — so it
+  stays, now labelled for what it is instead of wearing a Track's clothes.
+- **Three of the four checks came back clean book-wide**, which is worth
+  recording as a baseline: Track numbers run 01 to N in all 26 chapters,
+  every poster key line names a Track that chapter actually has, and all
+  114 counter-drop names in Appendix F are unique.
+
+One implementation note for whoever extends these next: compare titles on
+letters and digits only. `strip()` turns every tag into a space, so a title
+carrying a `<mark>` comes back with a space inside its hyphenation and
+reads as a mismatch that is really a rendering artifact.
 
 ## Author-decision queue
 

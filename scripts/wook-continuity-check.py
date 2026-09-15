@@ -35,6 +35,16 @@ Checks, roughly in descending order of how much a reader would notice:
   structure   Poster metadata (TRACKS, MIN READ) vs. real content, and the
               standard component set per chapter.
   placeholder Unfilled template text left in the manuscript.
+  cards       Every Track carries one of each card -- BEHAVIOR, READ, VIBE
+              CHECK, MIRROR SET, REFRACTIONS, RUNS, SOBER TUESDAY. Chapter
+              10 had six READs for five Tracks.
+  index       Appendix A round trip. Every Track in a chapter appears in the
+              index under that chapter, and every index entry is a real
+              Track title in the chapter it is filed under.
+  numbering   TRACK 01..N contiguous within each chapter, and every name in
+              a poster's key line is a Track title that chapter actually has.
+  dropnames   Counter-drop names in Appendix F are unique. A repeated name
+              means two different plays answer to one counter.
 
 Exit code is 0 when no ERROR-level findings, 1 otherwise, so it can gate a
 deploy.
@@ -404,6 +414,113 @@ def check_placeholder(book):
             "unfilled placeholder still in the manuscript", m.group(0))
 
 
+CARDS = [("BEHAVIOR", "\U0001f441\ufe0f THE BEHAVIOR"), ("READ", "\U0001f9e0 THE READ"),
+         ("VIBE CHECK", "\U0001f50d VIBE CHECK"), ("MIRROR SET", "\U0001fa9e MIRROR SET"),
+         ("REFRACTIONS", "\U0001f39f\ufe0f REFRACTIONS"),
+         ("RUNS", "\U0001f9ed RUNS IN EVERY DIRECTION"),
+         ("SOBER TUESDAY", "\u2615 SOBER TUESDAY")]
+
+
+def check_cards(book):
+    """One of each card per Track.
+
+    A missing card is a hole in the format; a doubled one is usually two
+    sibling blocks where the second should have been folded into the first.
+    """
+    for n in book.html:
+        tracks = len(re.findall(r'<h3 class="track-title">', book.html[n]))
+        if not tracks:
+            continue
+        for label, needle in CARDS:
+            found = book.html[n].count(needle)
+            if found != tracks:
+                add("ERROR", "cards", n,
+                    f"{tracks} Tracks but {found} {label} cards",
+                    "each Track carries exactly one of each")
+
+
+def _key(name):
+    """Compare titles on letters and digits only.
+
+    strip() turns every tag into a space, so a title carrying a <mark> --
+    THE INSTA-<mark>WOOK</mark> BOND -- comes back with a space inside the
+    hyphenation. That is a rendering artifact, not a difference.
+    """
+    return re.sub(r'[^A-Za-z0-9]', '', name).upper()
+
+
+def _index_entries(book):
+    """Appendix A, as {chapter: [track name, ...]}."""
+    i = book.raw.find('id="apA"')
+    j = book.raw.find('</section>', i)
+    out, cur = defaultdict(list), None
+    for m in re.finditer(r'<h4 class="h4">Chapter (\d+)</h4>|<p>(.*?)</p>',
+                         book.raw[i:j], re.S):
+        if m.group(1):
+            cur = int(m.group(1))
+        elif cur is not None:
+            entry = strip(m.group(2)).strip()
+            # Entries that say outright they are not Tracks: the three
+            # trackless chapters, and chapter 1's Trifecta, which is the
+            # book's opening diagnostic and is indexed here on purpose.
+            if entry.startswith("No Tracks.") or "not one of its Tracks" in entry:
+                continue
+            name = entry.split("(")[0].strip().rstrip("\u2014").strip()
+            if name:
+                out[cur].append(name)
+    return out
+
+
+def check_index(book):
+    idx = _index_entries(book)
+    for n in book.html:
+        real = [strip(x).strip() for x in
+                re.findall(r'<h3 class="track-title">(.*?)</h3>', book.html[n], re.S)]
+        listed = idx.get(n, [])
+        real_keys = {_key(x) for x in real}
+        listed_keys = {_key(x) for x in listed}
+        for name in real:
+            if _key(name) not in listed_keys:
+                add("ERROR", "index", n, "Track missing from Appendix A", name)
+        for name in listed:
+            if _key(name) not in real_keys:
+                add("ERROR", "index", n,
+                    "Appendix A files something under this chapter that is not "
+                    "one of its Tracks", name)
+
+
+def check_numbering(book):
+    for n in book.html:
+        nums = [int(x) for x in re.findall(
+            r'<span class="gate-tag track-tag">TRACK (\d+)</span>', book.html[n])]
+        if nums and nums != list(range(1, len(nums) + 1)):
+            add("ERROR", "numbering", n, "Track numbers are not 01..N", str(nums))
+
+        keys = re.search(r'poster-keys">([^<]*)', book.html[n])
+        titles = {_key(strip(x)) for x in
+                  re.findall(r'<h3 class="track-title">(.*?)</h3>', book.html[n], re.S)}
+        if not keys or not titles:
+            continue
+        for k in keys.group(1).split("\u00b7"):
+            k = strip(k).strip()
+            if k and "MORE" not in k.upper() and _key(k) not in titles:
+                add("WARN", "numbering", n,
+                    "poster key line names something that is not a Track here", k)
+
+
+def check_dropnames(book):
+    i = book.raw.find('id="apF"')
+    j = book.raw.find('</section>', i)
+    names = re.findall(r'([A-Z][^\u00b7<(]{3,70}?)\s*\(Ch(\d+)\)', strip(book.raw[i:j]))
+    seen = defaultdict(list)
+    for name, ch in names:
+        seen[name.strip()].append(int(ch))
+    for name, chs in seen.items():
+        if len(chs) > 1:
+            add("ERROR", "dropnames", None,
+                f"counter-drop name used {len(chs)} times", f"{name} — chapters {chs}")
+
+
 CHECKS = {
     "counts": check_counts,
     "callbacks": check_callbacks,
@@ -414,6 +531,10 @@ CHECKS = {
     "enumerated": check_enumerated,
     "structure": check_structure,
     "placeholder": check_placeholder,
+    "cards": check_cards,
+    "index": check_index,
+    "numbering": check_numbering,
+    "dropnames": check_dropnames,
 }
 
 
