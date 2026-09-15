@@ -19,7 +19,7 @@ stays v9 until every row below reads `done`.
 | B3 | Chapters 10–13, every section | **done** | 2026-09-15 | see commit `B3` |
 | B4 | Chapters 14–17, every section | **done** | 2026-09-15 | see commit `B4` |
 | B5 | Chapters 18–20, every section | **done** | 2026-09-15 | see commit `B5` |
-| B6 | Chapters 21–23, every section | not started | | |
+| B6 | Chapters 21–23, every section | **done** | 2026-09-15 | see commit `B6` |
 | B7 | Chapters 24–26, every section | not started | | |
 | C | Front matter, standalone sections, all 26 appendices | not started | | |
 | D1 | Book-wide coherence | not started | | |
@@ -52,9 +52,9 @@ three are marked and its row names the pass that did it.
 | 18 | The Lantern Family | ✓ | ✓ | | | ✓ read in B5, clean — darkest cold open in the book, handled with care |
 | 19 | The Festie Hollowing | ✓ | ✓ | | | Save renamed: The Tuesday Couch ✓ read in B5; bridge misattribution to ch21 fixed |
 | 20 | The Re-Entry Window | ✓ | ✓ | | | late-inserted chapter ✓ read in B5, clean — deliberate Drop/Save structural variant |
-| 21 | The Sober Set Captain | ✓ | ✓ | | | trackless: five protocols; Save renamed: The Anchor Crew; added to Appendix A |
-| 22 | The Long Comedown | ✓ | ✓ | | | resources block reclassed in v9 |
-| 23 | Have You Been The Wook? | ✓ | ✓ | | | carries the Author's Wook Confession |
+| 21 | The Sober Set Captain | ✓ | ✓ | | | trackless: five protocols; Save renamed: The Anchor Crew; added to Appendix A ✓ read in B6, clean — Hugo/Cara continuity payoffs confirmed intentional |
+| 22 | The Long Comedown | ✓ | ✓ | | | resources block reclassed in v9 ✓ read in B6, clean |
+| 23 | Have You Been The Wook? | ✓ | ✓ | | | carries the Author's Wook Confession ✓ read in B6; internal chapter-count contradiction fixed |
 | 24 | Protecting The Magic | ✓ | ✓ | | | 8 Tracks, most office-bound Tuesdays |
 | 25 | The Taper's Reveal | ✓ | ✓ | | | trackless: sixteen confessions |
 | 26 | The After-Party | ✓ | ✓ | | | trackless: five pillars |
@@ -287,6 +287,27 @@ shape.
 Chapter 18's cold open (a coercive-group leader's own POV, told with the
 same rationalizing warmth Wedge used in chapter 17) is the darkest material
 in the book. The craft holds; nothing to fix.
+
+**B6 complete, 2026-09-15.** Chapters 21 through 23 read end to end. One
+real bug found and fixed:
+
+- **Chapter 23 states its own distance from chapter 1 two different ways
+  within the same section.** "Twenty chapters later" in one sentence,
+  "twenty-two chapters" two sentences later, both describing the same
+  span -- the mirror checks running since chapter 1's first "have you
+  ever" question. Twenty-three minus one is twenty-two; corrected the
+  first figure to match the second, which is the one the rest of the
+  chapter's own logic depends on.
+
+Confirmed as deliberate craft, not bugs: chapter 21's Hugo is the same
+Hugo who walked twelve feet in chapter 7 and left the cartel camp -- he is
+now "the pre-dawn captain three years running," which tracks exactly
+against his seven years clean and Service Road's founding. Chapter 21's
+Cara is chapter 18's Lantern Family survivor, six months out and already
+running the briefing that might have saved her. Chapter 23 is a
+deliberate recursive device: its cold-open protagonist is shown reading
+this book's own chapter 23, about a man exactly like himself, and
+recognizing himself in it in real time.
 
 ## Author-decision queue
 
