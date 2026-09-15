@@ -4,8 +4,11 @@ State for the review described in `wook-full-review-plan.md`. A pass is not
 finished until its row here says so. Update this in the same commit as the
 work, never afterwards.
 
-**Deploy policy for this review: nothing ships until D2.** Live is v9 and
-stays v9 until every row below reads `done`.
+**Deploy policy for this review: nothing ships until D2.** Author gave
+explicit go-ahead 2026-09-15 to run D2 onward, decide the sixteen-moves
+canon, fix Appendix G, and continue a humor pass. D2 content work (canon
+decision, Appendix G, Appendix Q duplicate) is done; final verification /
+version bump / deploy is in progress in this same round.
 
 ## Passes
 
@@ -23,7 +26,7 @@ stays v9 until every row below reads `done`.
 | B7 | Chapters 24–26, every section | **done** | 2026-09-15 | see commit `B7` |
 | C | Front matter, standalone sections, all 26 appendices | **done** | 2026-09-15 | see commit `C` |
 | D1 | Book-wide coherence | **done** | 2026-09-15 | see commit `D1`; D2 (deploy) awaiting go-ahead per standing instruction |
-| D2 | Final verification, version bump, deploy | not started | | |
+| D2 | Final verification, version bump, deploy | **content done, deploy in progress** | 2026-09-15 | see commit `D2-content` |
 
 ## Chapters
 
@@ -404,17 +407,37 @@ the front matter's Content Disclosure section (already names chapters 18,
 touched); Sets One/Two and Encore's chapter ranges (1-20, 21-26, both
 correct).
 
-**Found but not fixed, logged for the author-decision queue:** Appendix
-G ("The Wook Discog Complete") is missing per-chapter entries for
-chapters 11, 13, 20, 21, 25 and 26 despite its own title claiming
-completeness -- writing six new Discog entries is creative content, not a
-mechanical correction, so it wasn't invented here. Also noted, lower
-confidence: one internal line inside Appendix G's own Chapter 23 entry
-("Greatest Hits: every Chapter 22 that didn't get written") reads like it
-may belong to chapter 25's Greatest Hits instead, but there is no
-comparison entry for chapter 25 in the appendix at all, so this could not
-be verified with the same confidence as the other fixes in this round and
-was left alone.
+**Pass D2 (resolved this round, author explicitly authorized the calls):**
+Appendix G ("The Wook Discog Complete") was missing per-chapter entries
+for chapters 11, 13, 20, 21, 25 and 26 despite its own title claiming
+completeness. Wrote all six, each condensing that chapter's own Studio
+Debut / Live Album / Greatest Hits Compilation sections into the
+appendix's established terse format, verified against the source chapters'
+exact names/ages/details (Cosmo/Derek, twenty-eight, Sacramento, eight
+years; Damian, thirty-one; Sister Lou Mantilla, eleven years; Cara,
+twenty-six, six months out; the unmarked Explorer at mile marker 231,
+four years). Appendix G now has all 26 chapters, in order, no duplicates
+-- verified mechanically. Also fixed the Chapter 23 entry's mismatched
+"Greatest Hits: every Chapter 22 that didn't get written" line, which
+turned out on inspection not to be a numbering-drift typo at all -- ch23's
+*own* Greatest Hits Compilation section is about the book itself being a
+field manual on manipulation that used manipulation to teach it, and the
+Appendix G line now matches that instead of pointing at an unrelated
+chapter.
+
+The sixteen-moves discrepancy (queue item 2) was also resolved this
+round: chapter 25 -- the chapter the book itself frames as "delivered
+first in Chapter 23, fully in this chapter" -- was made canonical.
+Chapter 23's items 3-5 and Appendix Q's items 3-5 were rewritten/reordered
+to match chapter 25's order and content, folding chapter 23's original
+"Scarcity Of Specific Protocols" idea into the surviving tattoo-confession
+as a closing sentence rather than dropping it outright. New jokes added
+in the process (see changelog).
+
+Also fixed: a duplicate item 14 in Appendix Q, introduced by an earlier
+pass in this same review (its string check for the existing item missed
+a `<mark>` tag splitting "Kandi" from the surrounding text, so it
+concluded the item was missing and inserted a second, plain-text copy).
 
 ## Author-decision queue
 
@@ -424,8 +447,7 @@ guessed at.
 1. **Cloudflare Web Analytics** loads from a CDN on all 438 pages in this
    repo. Keep it and accept the exception to the no-external-requests rule,
    or remove it and lose the analytics.
-2. **Two lists of "the sixteen moves"**, chapter 23 and chapter 25, in
-   different orders with different item names. Which is canonical.
+2. ~~Two lists of "the sixteen moves"~~ -- resolved in Pass D2, see above.
 3. **Chapters 25 and 26 have no Pocket Scripts**, chapter 25 has no Tapers'
    Section. Deliberate, given their different shape, or a gap.
 4. **THE TEST appears in six chapters.** Extend it to all, or leave it as a
@@ -433,13 +455,7 @@ guessed at.
 5. **Chapter 25's cold open has no POV label at all.** It opens on "The
    PLURth Angel. Tuesday morning." The other 25 now carry a badge. Giving
    this one a label means writing one, which is a call rather than a fix.
-6. **Appendix G ("The Wook Discog Complete") is missing six chapters'**
-   worth of entries (11, 13, 20, 21, 25, 26) despite its title claiming
-   completeness. Writing them is new creative content in the book's own
-   voice, not a mechanical fix -- needs either a drafting pass or a
-   decision to retitle the appendix as partial.
-7. **One line inside Appendix G's Chapter 23 entry** ("Greatest Hits:
-   every Chapter 22 that didn't get written") reads like it may belong to
-   chapter 25's Greatest Hits instead, but there is no chapter-25 entry in
-   the appendix to compare against, so this could not be verified with
-   the same confidence as this round's other fixes.
+6. ~~Appendix G missing six chapters' worth of entries~~ -- resolved in
+   Pass D2, see above.
+7. ~~Appendix G's Chapter 23 "Greatest Hits" line~~ -- resolved in Pass
+   D2, see above.
