@@ -20,7 +20,7 @@ stays v9 until every row below reads `done`.
 | B4 | Chapters 14–17, every section | **done** | 2026-09-15 | see commit `B4` |
 | B5 | Chapters 18–20, every section | **done** | 2026-09-15 | see commit `B5` |
 | B6 | Chapters 21–23, every section | **done** | 2026-09-15 | see commit `B6` |
-| B7 | Chapters 24–26, every section | not started | | |
+| B7 | Chapters 24–26, every section | **done** | 2026-09-15 | see commit `B7` |
 | C | Front matter, standalone sections, all 26 appendices | not started | | |
 | D1 | Book-wide coherence | not started | | |
 | D2 | Final verification, version bump, deploy | not started | | |
@@ -55,9 +55,9 @@ three are marked and its row names the pass that did it.
 | 21 | The Sober Set Captain | ✓ | ✓ | | | trackless: five protocols; Save renamed: The Anchor Crew; added to Appendix A ✓ read in B6, clean — Hugo/Cara continuity payoffs confirmed intentional |
 | 22 | The Long Comedown | ✓ | ✓ | | | resources block reclassed in v9 ✓ read in B6, clean |
 | 23 | Have You Been The Wook? | ✓ | ✓ | | | carries the Author's Wook Confession ✓ read in B6; internal chapter-count contradiction fixed |
-| 24 | Protecting The Magic | ✓ | ✓ | | | 8 Tracks, most office-bound Tuesdays |
-| 25 | The Taper's Reveal | ✓ | ✓ | | | trackless: sixteen confessions |
-| 26 | The After-Party | ✓ | ✓ | | | trackless: five pillars |
+| 24 | Protecting The Magic | ✓ | ✓ | | | 8 Tracks, most office-bound Tuesdays ✓ read in B7, clean |
+| 25 | The Taper's Reveal | ✓ | ✓ | | | trackless: sixteen confessions ✓ read in B7; four renumbering-drift errors fixed |
+| 26 | The After-Party | ✓ | ✓ | | | trackless: five pillars ✓ read in B7; five more renumbering-drift errors fixed |
 
 `P` and `C` are marked because `scripts/wook-proofread.py` and
 `scripts/wook-continuity-check.py` both report clean across the whole book
@@ -308,6 +308,57 @@ running the briefing that might have saved her. Chapter 23 is a
 deliberate recursive device: its cold-open protagonist is shown reading
 this book's own chapter 23, about a man exactly like himself, and
 recognizing himself in it in real time.
+
+**B7 complete, 2026-09-15 — the highest-yield pass of the whole review.**
+Chapters 24 through 26 read end to end. Chapters 25 and 26 are the book's
+retrospective chapters — they name-check earlier chapters constantly to
+make their argument — which turned out to be exactly where the
+three-chapter-insertion renumbering bug (The Road at 11, The Free One at
+13, The Re-Entry Window at 20) had gone completely unaudited until now.
+Nine separate misattributions found and fixed, every one verified against
+the live chapter it actually describes rather than assumed:
+
+- **Confession Nine** (ch25) attributed "cooking on Tuesdays, calling the
+  sister" to Chapter 17 (actually 19) and "the inventory, name the name
+  and write it down" to Chapter 20 (actually 23), plus an undercounted
+  "twenty prior vows" (should be twenty-two).
+- **Confession Ten** (ch25) put Mara's third Soundboard appearance at
+  Chapter 19 — she doesn't appear there at all; her four numbered
+  appearances are chapters 4, 13, 18, 22.
+- **The vow-count sentence** (ch25) said readers will have said "protect
+  the fucking magic" twenty-two times by chapter 25's own Kandi Trade;
+  verified count is twenty-five (every chapter 1-25 ends with it).
+- **Chapter 24's Bridge** conflated its own Save's two distinct numbers —
+  "seven women" (Signal-thread membership) became "seven women in a legal
+  consultation," when the Save specifies four cases in consultation
+  (the seventh woman's plus three prior, unrelated ones).
+- **Chapter 26's own three-sentence chapter map** ("the recovery is in
+  Chapters 19-21, the accountability is in Chapter 20, the confession is
+  in Chapter 22") was wrong on all three: recovery is chapter 22
+  (subtitled exactly that), accountability is chapter 23 (subtitled "THE
+  FULL ACCOUNTABILITY SET"), confession is chapter 25.
+- **Pillar Three** (ch26) attributed the Identity Floor's own defining
+  question to Chapter 17; it's chapter 19's question verbatim.
+- **Pillar Four** (ch26), three times in one section, attributed the
+  closed-door audit and capacity-state accountability question to Chapter
+  20; all three belong to chapter 23.
+- **The Last Mirror** (ch26) undercounted its own predecessor mirrors as
+  twenty-three; verified count is twenty-five (every chapter 1-25 has one).
+- **The Wook Discog** (ch26) dated David Reyes's post-reckoning festival
+  to "after Chapter 20"; his reckoning is chapter 23.
+
+The pattern across all nine: every wrong number is exactly what the
+reference would have been *before* the three insertions, at the position
+the insertions later filled. These two chapters were built to summarize
+the book's own architecture in detail and were never re-derived from the
+live text after the book grew from 23 to 26 chapters — they were
+summarizing the book that used to exist. Confirmed as deliberate and left
+alone: the "Sadie from the bass stage, Raya from the gate line" Save-
+protagonist list in Confession Twelve, which reads like a similar risk but
+checks out scene-by-scene against each character's actual cold open; and
+Cara's near-verbatim repeated intervention script across chapters 21 and
+26 (six months apart), which is a deliberate callback showing a practiced
+ritual, not a duplicated draft.
 
 ## Author-decision queue
 
