@@ -108,7 +108,7 @@ Every chapter carries, in this order:
 |---|---|---|---|
 | 6 The Group Chat | **yes** | | 10,594 words, 5 Tracks, clean. New cast voice: Junie “Firewall” Park (needs an Appendix B entry). New counter-drops: Named Reference Rule, Logged-Channel Rule, Hours Audit, Second Anchor, Asymmetry Check (all five need Appendix F entries). New specimen icon needed: `spec-helpfulone`. |
 | 10 The Love Of It | **yes** | | 10,741 words, 5 Tracks, clean. Witness POV (Bird, load-in lead). Reuses Wingnut as the Soundboard voice — his Appendix B line needs a second-appearance update. New counter-drops: Hourly Conversion, Payroll Question, Incident Record, Title-To-Terms Test, Off-Season Test. New specimen icon: `spec-coreteam`. |
-| 14 The Two Festivals | | | |
+| 14 The Two Festivals | **yes** | | 10,856 words, 5 Tracks, clean. Festie POV (Tee, ninth year). Reuses Céline “Patch” Oduya as the Soundboard voice — Appendix B needs a second-appearance update. Contains the book’s disclosure that its own first thirteen chapters carried an unmarked assumption about involving staff/police. New counter-drops: Medical Words, Corroboration Pre-Load, Personal Risk Map, Handoff, Affinity Anchor. New specimen icon: `spec-secondlook`. |
 | 17 The Container | | | |
 | 20 The Next Twelve Hours | | | needs content warning |
 | 26 He Still Has Your Number | | | |
