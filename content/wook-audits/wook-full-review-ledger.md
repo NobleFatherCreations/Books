@@ -11,7 +11,7 @@ stays v9 until every row below reads `done`.
 
 | Pass | Scope | Status | Date | Commit |
 |---|---|---|---|---|
-| A1 | Proofreader extension, book-wide | not started | | |
+| A1 | Proofreader extension, book-wide | **done** | 2026-09-15 | see commit `A1` |
 | A2 | Continuity checker extension, book-wide | not started | | |
 | A3 | Vernacular and slang currency sweep | not started | | |
 | B1 | Chapters 1–5, every section | not started | | |
@@ -42,17 +42,17 @@ three are marked and its row names the pass that did it.
 | 8 | Vendor Row Bloodsport | ✓ | ✓ | | | |
 | 9 | The Bad Trip Babysitter | ✓ | ✓ | | | |
 | 10 | The Tampon Bag | ✓ | ✓ | | | six THE READ blocks for five Tracks |
-| 11 | The Road | ✓ | ✓ | | | late-inserted chapter |
-| 12 | The Batch | ✓ | ✓ | | | |
-| 13 | The Free One | ✓ | ✓ | | | late-inserted chapter |
+| 11 | The Road | ✓ | ✓ | | | late-inserted chapter; Save renamed: The Logistics Call |
+| 12 | The Batch | ✓ | ✓ | | | Save renamed: The Camp Network |
+| 13 | The Free One | ✓ | ✓ | | | late-inserted chapter; Save renamed: The Fire Circle |
 | 14 | The Undercover | ✓ | ✓ | | | `[address]` device to re-read in context |
 | 15 | The RV | ✓ | ✓ | | | |
 | 16 | The Missing Friend | ✓ | ✓ | | | |
 | 17 | The Plug Wook | ✓ | ✓ | | | best SOBER TUESDAY run in the back half |
 | 18 | The Lantern Family | ✓ | ✓ | | | |
-| 19 | The Festie Hollowing | ✓ | ✓ | | | |
+| 19 | The Festie Hollowing | ✓ | ✓ | | | Save renamed: The Tuesday Couch |
 | 20 | The Re-Entry Window | ✓ | ✓ | | | late-inserted chapter |
-| 21 | The Sober Set Captain | ✓ | ✓ | | | trackless: five protocols |
+| 21 | The Sober Set Captain | ✓ | ✓ | | | trackless: five protocols; Save renamed: The Anchor Crew; added to Appendix A |
 | 22 | The Long Comedown | ✓ | ✓ | | | resources block reclassed in v9 |
 | 23 | Have You Been The Wook? | ✓ | ✓ | | | carries the Author's Wook Confession |
 | 24 | Protecting The Magic | ✓ | ✓ | | | 8 Tracks, most office-bound Tuesdays |
@@ -63,6 +63,28 @@ three are marked and its row names the pass that did it.
 `scripts/wook-continuity-check.py` both report clean across the whole book
 as of v9. That is mechanical coverage, not a human read; the deep read
 happens in the B passes and may reopen either column.
+
+## Findings log
+
+**A1, 2026-09-15.** Four checks added to `scripts/wook-proofread.py`:
+`duplicates`, `typography`, `sequence`, `headings`. What they found:
+
+- **Four pairs of chapters shared a Save title.** The header is supposed to
+  name the place the Save happens in, and "Tales From The Festival" named
+  nothing at all. Renamed the five that were less grounded in their own
+  scene, each checked against that Save's text. All 26 are now distinct.
+- **Appendix A, the Master Track Index, skipped chapters 21, 25 and 26.**
+  Correct in the narrow sense — those three carry no Tracks — but the index
+  jumped 20 to 22 and stopped at 24, which reads as an omission. Each now
+  appears in place naming what it carries instead, and the intro says so.
+- **The document outline skipped h3.** Appendix A's movement headers were
+  h4 directly under an h2. The CSS styles `.h4` and never the `h4` element,
+  so promoting three tags is invisible and fixes the outline.
+- **Typography came back clean.** Times, dashes, ellipses and numeric
+  ranges are consistent across 263,844 words. The only three hits were
+  deliberate and in character, now allowlisted with reasons: a lowercase
+  "pm" inside a text message, a folder named "competitors - general", and
+  an ellipsis that opens a line because the speaker is trailing into it.
 
 ## Author-decision queue
 

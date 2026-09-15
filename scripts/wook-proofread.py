@@ -31,6 +31,17 @@ Checks:
   markup      Structural inconsistency between sibling sections -- a heading
               class that differs from its 25 siblings, an empty paragraph.
   placeholder Bracketed template text and build instructions.
+  duplicates  Two components wearing the same name. The "Tales From ... The
+              Save" headers are supposed to name distinct places, and four
+              pairs had collided; Track titles and element ids must be
+              unique outright.
+  typography  House style, measured off the book rather than assumed: a
+              hyphen standing in for an em dash, a time written in a format
+              the other 360 are not, a straight ellipsis, a numeric range
+              hyphenated where the book uses an en dash.
+  sequence    A run of numbered headings inside one section that skips a
+              number. Appendix A's index went 20, 22 with nothing saying
+              why chapter 21 was absent.
 
 Exit code is 0 when no ERROR-level findings, 1 otherwise.
 """
@@ -58,6 +69,13 @@ ALLOWLIST = [
      "an unfilled template."),
     ("SPECIMEN SPECIMEN",
      "The decorative marquee band, not a sentence."),
+    ("Row 14 at a festival at 10:54 pm from a stranger",
+     "Lowercase 'pm' inside a text message a character typed. People text "
+     "that way; the narration around it does not."),
+    ("competitors - general",
+     "A folder name a character made up, not prose."),
+    ("Jess says: “…Okonkwo?”",
+     "The ellipsis opens the line because she is trailing into it."),
 ]
 
 
@@ -265,6 +283,85 @@ def check_placeholder(book):
             book.raw[max(0, m.start() - 80):m.start() + 120])
 
 
+def check_duplicates(book):
+    """Two components wearing the same name."""
+    saves = {}
+    for m in re.finditer(r'<p class="comp-title">(Tales From[^<]*)</p>', book.raw):
+        saves.setdefault(strip_tags(m.group(1)).strip(), []).append(book.locate(m.start()))
+    for name, where in saves.items():
+        if len(where) > 1:
+            add("ERROR", "duplicates", "book",
+                f"{len(where)} chapters share one Save title", f"{name} — {where}")
+
+    tracks = {}
+    for m in re.finditer(r'<h3 class="track-title">(.*?)</h3>', book.raw, re.S):
+        tracks.setdefault(strip_tags(m.group(1)).strip(), []).append(book.locate(m.start()))
+    for name, where in tracks.items():
+        if len(where) > 1:
+            add("ERROR", "duplicates", "book",
+                f"{len(where)} Tracks share one title", f"{name} — {where}")
+
+    ids = {}
+    for m in re.finditer(r'\sid="([^"]+)"', book.raw):
+        ids.setdefault(m.group(1), 0)
+        ids[m.group(1)] += 1
+    for name, n in ids.items():
+        if n > 1:
+            add("ERROR", "duplicates", "book", f"element id used {n} times", name)
+
+
+def check_typography(book):
+    """House style, measured off the book rather than assumed."""
+    text = strip_tags(book.raw)
+
+    for m in re.finditer(r'\S\s-\s\S', text):
+        add("WARN", "typography", "book", "hyphen standing in for an em dash",
+            text[max(0, m.start() - 90):m.start() + 90])
+
+    # 360-odd times are written "9:14 a.m." or "nine-forty-seven p.m."
+    for m in re.finditer(r'\b\d{1,2}:\d{2}\s?[ap]m\b|\b\d{1,2}:\d{2}\s?[AP]\.?M\.?', text):
+        add("WARN", "typography", "book",
+            "time in a format the rest of the book does not use",
+            text[max(0, m.start() - 90):m.start() + 60])
+
+    if '...' in text:
+        i = text.find('...')
+        add("WARN", "typography", "book", "three periods where the book uses an ellipsis",
+            text[max(0, i - 80):i + 80])
+
+    for m in re.finditer(r'(?<![\d-])\b(\d{1,3})-(\d{1,3})\b(?!-)', text):
+        lo, hi = int(m.group(1)), int(m.group(2))
+        if lo < hi <= 120:   # a range, not a phone number or a model year
+            add("WARN", "typography", "book",
+                "numeric range hyphenated where the book uses an en dash",
+                text[max(0, m.start() - 70):m.start() + 70])
+
+
+def check_sequence(book):
+    """A run of numbered headings that skips a number."""
+    for sec in re.finditer(r'<section[^>]*id="(ap[A-Z])"[^>]*>(.*?)</section>',
+                           book.raw, re.S):
+        nums = [int(x) for x in re.findall(r'<h[1-6][^>]*>Chapter (\d+)</h[1-6]>', sec.group(2))]
+        if len(nums) < 3:
+            continue
+        missing = [n for n in range(min(nums), max(nums) + 1) if n not in nums]
+        if missing:
+            add("ERROR", "sequence", "book",
+                f"#{sec.group(1)} indexes chapters {min(nums)}-{max(nums)} "
+                f"but skips {', '.join(map(str, missing))}",
+                "an index that silently omits a chapter reads as an omission")
+
+
+def check_headings(book):
+    """Heading levels that skip a rung."""
+    seq = [(m.start(), int(m.group(1))) for m in re.finditer(r'<h([1-6])\b', book.raw)]
+    for (_, a), (pos, b) in zip(seq, seq[1:]):
+        if b > a + 1:
+            add("WARN", "headings", book.locate(pos),
+                f"heading jumps from h{a} to h{b}",
+                strip_tags(book.raw[pos:pos + 90]))
+
+
 CHECKS = {
     "quotes": check_quotes,
     "glyphs": check_glyphs,
@@ -274,6 +371,10 @@ CHECKS = {
     "labels": check_labels,
     "markup": check_markup,
     "placeholder": check_placeholder,
+    "duplicates": check_duplicates,
+    "typography": check_typography,
+    "sequence": check_sequence,
+    "headings": check_headings,
 }
 
 ORDER = ["ERROR", "WARN", "INFO"]
