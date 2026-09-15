@@ -21,7 +21,7 @@ stays v9 until every row below reads `done`.
 | B5 | Chapters 18–20, every section | **done** | 2026-09-15 | see commit `B5` |
 | B6 | Chapters 21–23, every section | **done** | 2026-09-15 | see commit `B6` |
 | B7 | Chapters 24–26, every section | **done** | 2026-09-15 | see commit `B7` |
-| C | Front matter, standalone sections, all 26 appendices | not started | | |
+| C | Front matter, standalone sections, all 26 appendices | **done** | 2026-09-15 | see commit `C` |
 | D1 | Book-wide coherence | not started | | |
 | D2 | Final verification, version bump, deploy | not started | | |
 
@@ -360,6 +360,62 @@ Cara's near-verbatim repeated intervention script across chapters 21 and
 26 (six months apart), which is a deliberate callback showing a practiced
 ritual, not a duplicated draft.
 
+**Pass C complete, 2026-09-15.** Front matter, both standalone note
+sections, and all 26 appendices read as prose (not just checked
+structurally, which earlier passes already did). Continuing straight out
+of B7's discovery that the retrospective chapters were riddled with
+renumbering drift -- the appendices and front matter carry the exact same
+risk, since they cross-reference chapters constantly to build the book's
+own index. Five more real defects found and fixed:
+
+- **Appendix U's vocabulary table** is chapter 18's coercive-group
+  language ("the container," "holding space," "surrender to the
+  medicine") verbatim, attributed to chapter 16 (the missing-friend
+  chapter, unrelated). Corrected to 18.
+- **The front matter's own confession pointer** ("On Chapter 22: The
+  book, at Chapter 22, confesses the persuasion techniques...") named the
+  wrong chapter twice in one sentence -- the Content Disclosure section
+  elsewhere in the same front matter already correctly says "Chapter 25:
+  The book confesses its persuasion techniques." Corrected both instances
+  to 25.
+- **The front matter's 3 a.m.-resource pointer** ("that is Chapter 19,
+  Track 1") sends a reader hearing the installed voice at three a.m. to
+  the wrong chapter. Chapter 22's cold open is built entirely around that
+  voice, and THE 3 A.M. ENCORE is the first Track in chapter 22's own
+  Setlist. Corrected to 22.
+- **A live, unfilled Vellum placeholder**, found by reading rather than by
+  the checker: the "Also By The PLURth Angel" section was entirely
+  build-instruction text -- "[List other titles here, one per line...you
+  can delete this element in Vellum...]" followed by literal "[Title
+  Two] — [one-line description]" lines. No real bibliography exists to
+  fill it with. Same category CLAUDE.md's standing rule forbids and the
+  same category v8 already removed once (the ISBN/publisher block).
+  Removed rather than invented, matching that precedent. The proofreader's
+  placeholder check is now extended to catch this shape generically
+  (numbered "[Title N]" placeholders and "delete this element" /
+  "one-line description" instructional brackets) so a future round finds
+  it mechanically instead of by luck.
+
+Checked and confirmed correct, not touched: Appendix D's "Chapters 9
+through 17" claim (verified against its own nine "FROM CHAPTER N"
+sub-headers, 9 through 17 inclusive, matching v8's prior fix exactly);
+the front matter's Content Disclosure section (already names chapters 18,
+22, 23, 25 correctly -- it was fixed at some point this drift never
+touched); Sets One/Two and Encore's chapter ranges (1-20, 21-26, both
+correct).
+
+**Found but not fixed, logged for the author-decision queue:** Appendix
+G ("The Wook Discog Complete") is missing per-chapter entries for
+chapters 11, 13, 20, 21, 25 and 26 despite its own title claiming
+completeness -- writing six new Discog entries is creative content, not a
+mechanical correction, so it wasn't invented here. Also noted, lower
+confidence: one internal line inside Appendix G's own Chapter 23 entry
+("Greatest Hits: every Chapter 22 that didn't get written") reads like it
+may belong to chapter 25's Greatest Hits instead, but there is no
+comparison entry for chapter 25 in the appendix at all, so this could not
+be verified with the same confidence as the other fixes in this round and
+was left alone.
+
 ## Author-decision queue
 
 Things found that are creative calls, not corrections. Nothing here gets
@@ -377,3 +433,13 @@ guessed at.
 5. **Chapter 25's cold open has no POV label at all.** It opens on "The
    PLURth Angel. Tuesday morning." The other 25 now carry a badge. Giving
    this one a label means writing one, which is a call rather than a fix.
+6. **Appendix G ("The Wook Discog Complete") is missing six chapters'**
+   worth of entries (11, 13, 20, 21, 25, 26) despite its title claiming
+   completeness. Writing them is new creative content in the book's own
+   voice, not a mechanical fix -- needs either a drafting pass or a
+   decision to retitle the appendix as partial.
+7. **One line inside Appendix G's Chapter 23 entry** ("Greatest Hits:
+   every Chapter 22 that didn't get written") reads like it may belong to
+   chapter 25's Greatest Hits instead, but there is no chapter-25 entry in
+   the appendix to compare against, so this could not be verified with
+   the same confidence as this round's other fixes.

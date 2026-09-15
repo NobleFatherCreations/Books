@@ -280,7 +280,10 @@ def check_markup(book):
 
 def check_placeholder(book):
     pat = re.compile(r'\[(?:your|add|insert|author|imprint|website|contact|in vellum|'
-                     r'tk|todo)[^\]]{0,80}\]|#REPLACE|data-here|Lorem ipsum', re.I)
+                     r'tk|todo)[^\]]{0,80}\]|#REPLACE|data-here|Lorem ipsum|'
+                     r'\[Title (?:One|Two|Three|Four|Five)\]|'
+                     r'\[[^\]]{0,80}(?:list .{0,20} here|delete this element|'
+                     r'one-line description)[^\]]{0,40}\]', re.I)
     for m in pat.finditer(book.raw):
         add("ERROR", "placeholder", book.locate(m.start()),
             "template or build-instruction text still in the manuscript",
