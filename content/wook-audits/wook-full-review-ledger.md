@@ -22,7 +22,7 @@ stays v9 until every row below reads `done`.
 | B6 | Chapters 21–23, every section | **done** | 2026-09-15 | see commit `B6` |
 | B7 | Chapters 24–26, every section | **done** | 2026-09-15 | see commit `B7` |
 | C | Front matter, standalone sections, all 26 appendices | **done** | 2026-09-15 | see commit `C` |
-| D1 | Book-wide coherence | not started | | |
+| D1 | Book-wide coherence | **done** | 2026-09-15 | see commit `D1`; D2 (deploy) awaiting go-ahead per standing instruction |
 | D2 | Final verification, version bump, deploy | not started | | |
 
 ## Chapters
