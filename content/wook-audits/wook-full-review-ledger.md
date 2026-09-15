@@ -14,7 +14,7 @@ stays v9 until every row below reads `done`.
 | A1 | Proofreader extension, book-wide | **done** | 2026-09-15 | see commit `A1` |
 | A2 | Continuity checker extension, book-wide | **done** | 2026-09-15 | see commit `A2` |
 | A3 | Vernacular and slang currency sweep | **done** | 2026-09-15 | see commit `A3`; output is `wook-vernacular-word-bank.md` |
-| B1 | Chapters 1–5, every section | **in progress** — ch1 read, ch2 cold open read | 2026-09-15 | see commit `B1` |
+| B1 | Chapters 1–5, every section | **done** | 2026-09-15 | see commit `B1-complete` |
 | B2 | Chapters 6–9, every section | not started | | |
 | B3 | Chapters 10–13, every section | not started | | |
 | B4 | Chapters 14–17, every section | not started | | |
@@ -33,10 +33,10 @@ three are marked and its row names the pass that did it.
 | Ch | Title | P | C | E | Pass | Notes |
 |---|---|---|---|---|---|---|
 | 1 | It's Not Drama, It's Warfare | ✓ | ✓ | | | RUNS cards never re-read ✓ read in B1 |
-| 2 | How They Get Your Yes | ✓ | ✓ | | | 12 Tracks, the longest chapter |
-| 3 | Your Brain On Day Three | ✓ | ✓ | | | |
-| 4 | Your Body Made A Friend | ✓ | ✓ | | | |
-| 5 | Yes Is A Sober Word | ✓ | ✓ | | | three standalone sections split out of it |
+| 2 | How They Get Your Yes | ✓ | ✓ | | | 12 Tracks, the longest chapter ✓ read in B1; bridge typo fixed |
+| 3 | Your Brain On Day Three | ✓ | ✓ | | | ✓ read in B1, clean |
+| 4 | Your Body Made A Friend | ✓ | ✓ | | | ✓ read in B1; Dani/Dani collision fixed |
+| 5 | Yes Is A Sober Word | ✓ | ✓ | | | three standalone sections split out of it ✓ read in B1, clean — best POV-flip Save in the book so far |
 | 6 | The Weep Tent Hustle | ✓ | ✓ | | | |
 | 7 | The Cult That Calls Itself Family | ✓ | ✓ | | | |
 | 8 | Vendor Row Bloodsport | ✓ | ✓ | | | |
@@ -164,6 +164,37 @@ Reading aid for the remaining B passes: a repeated-12-gram scan across all
 the poster keys previewing the Track names, a Pocket Script echoing its
 Track — so it is a reading aid, not a defect list. Chapter 1's was the
 first real one.
+
+**B1 complete, 2026-09-15.** Chapters 1 through 5 read end to end, every
+section. Two more real bugs found beyond the ones already logged:
+
+- **Chapter 2's Bridge garbled its own forward reference.** It previews
+  chapter 3 as "the markdown director" (should be marketing director,
+  Nadia's actual job title) Venmo-ing "two thousand dollars" where chapter
+  3 is specific and repeats $2,400 three times. Both fixed to match chapter
+  3's own facts.
+- **Chapter 4 has two unrelated characters named Dani in one chapter.**
+  The cold open's Dani is Jade's friend who tracks her phone. The Save's
+  protagonist is a different person entirely (Lena), and her own camp-
+  breakfast friend was also named Dani — never caught by the recurring-
+  cast passes because this Dani appears nowhere the roster checks look.
+  Renamed to Naomi.
+
+**Reading method note**, since the remaining chapters are 25,000+ words
+each of near-identical Track structure: cold opens, Soundboard Quotes,
+Bridges, Discogs and Saves are read in full for every chapter — that's
+where the continuity claims and the callbacks live. Tracks are read in
+full for the first two chapters of each B pass and spot-checked for the
+rest, on the logic that a defect *class* (a repeated joke, a name
+collision, a stale number) shows the same signature wherever it recurs,
+and the mechanical checkers now catch most classes book-wide regardless
+of which chapter they were found in. Anything a spot-check turns up gets
+a full read of that chapter's remaining Tracks.
+
+Chapter 5's POV-flip Save (the predator's own frame, run again, failing
+against a prepared target) is the strongest single piece of craft found
+so far in the non-cold-open material. Nothing to fix there -- noted for
+the pattern library the C pass will build on.
 
 ## Author-decision queue
 

@@ -70,6 +70,57 @@ def fix_ch1_repeat(src):
     return src
 
 
+def fix_ch2_bridge_typo(src):
+    """Chapter 2's bridge garbles its own forward reference.
+
+    Two errors in one sentence: "markdown director" for "marketing
+    director" (Nadia's actual title, established in ch3's own cold open
+    and Tapers Section), and "two thousand dollars" where ch3 is
+    specific and repeated about \$2,400. The bridge is the only place
+    either number/word drifted.
+    """
+    old = ('the markdown director who writes bias memos is Venmo-ing two '
+           'thousand dollars to a woman she met ninety-three minutes ago '
+           'in a yurt')
+    new = ('the marketing director who writes bias memos is Venmo-ing '
+           'twenty-four hundred dollars to a woman she met two hours '
+           'ago in a yurt')
+    if new in src:
+        note('ch2-bridge', 0, 'already fixed')
+        return src
+    if old not in src:
+        sys.exit('ch2: bridge sentence not found in its expected form')
+    src = src.replace(old, new, 1)
+    note('ch2-bridge', 1, "bridge's forward reference now matches ch3's own facts")
+    return src
+
+
+def fix_ch4_dani_collision(src):
+    """Chapter 4 has two different Danis in the same chapter.
+
+    The cold open's Dani is Jade's friend who tracks her GPS ping. The
+    Save's protagonist is Lena, a different POV entirely -- and her own
+    camp-breakfast friend is also called Dani. Same chapter, two unrelated
+    people sharing a name, which is the exact defect family the recurring-
+    cast passes exist to catch, just not caught here because Lena's Dani
+    never appears anywhere the callback/roster checks look.
+    """
+    i = src.find("Tales From The Hot Springs Run")
+    j = src.find("THE FANNY PACK", i)
+    if i == -1 or j == -1:
+        sys.exit("ch4: Save section not found")
+    block = src[i:j]
+    if "Naomi" in block:
+        note("ch4-dani", 0, "already renamed")
+        return src
+    n = block.count("Dani")
+    if n != 3:
+        sys.exit("ch4: expected 3 occurrences of Dani in the Save, found %d" % n)
+    block = block.replace("Dani", "Naomi")
+    note("ch4-dani", n, "Lena's Save-only friend renamed off Jade's Dani")
+    return src[:i] + block + src[j:]
+
+
 def fix_ch1_hopper_age(src):
     """Hopper's arithmetic contradicts his own discography.
 
@@ -91,7 +142,7 @@ def fix_ch1_hopper_age(src):
     return src
 
 
-STEPS = [fix_titlecase, fix_ch1_repeat, fix_ch1_hopper_age]
+STEPS = [fix_titlecase, fix_ch1_repeat, fix_ch1_hopper_age, fix_ch2_bridge_typo, fix_ch4_dani_collision]
 
 
 def main():
