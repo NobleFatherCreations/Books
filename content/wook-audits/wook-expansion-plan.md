@@ -102,6 +102,17 @@ Every chapter carries, in this order:
 - THE BRIDGE (points at the next chapter by its **new** number)
 - `<i class="ch-end" data-ch="N">`
 
+## All seven written
+
+70,916 words total, every fragment passing `scripts/wook-newchapter-build.py`
+(typography, tag balance, component checklist, number agreement, poster/track
+agreement) and `scripts/wook-expansion-xref.py` (every "Chapter N" reference
+resolved against the old-to-new map). Four wrong cross-references were caught
+and fixed this way before anything touched the book: the whisper network, the
+Four Questions Before Any Cap, week four, and the Insta-Wook Bond.
+
+Next: the splice. Nothing below has happened yet.
+
 ## Status
 
 | Chapter | Written | Spliced | Notes |
@@ -112,4 +123,4 @@ Every chapter carries, in this order:
 | 17 The Container | **yes** | | 11,287 words, 5 Tracks, clean. Festie POV (Noor, hospital pharmacist). New cast voice: Margarethe “Bell” Ndiaye (needs Appendix B entry). New counter-drops: Pre-State Contract, Lineage Check, Dose Disclosure Rule, Daylight Contact, Separate Integrator. New specimen icon: `spec-facilitator`. Consider a content note — boundary violation during an altered state. |
 | 20 The Next Twelve Hours | **yes** | | 8,238 words, 5 **Protocols** (uses the ch21 “no predator” structure — no Wook’s Setlist, no Tracks, carries THE PROTOCOLS + THE TEST). Content note written and placed before the cold open, doubling as navigation for someone who needs it now. Festie POV — starts the morning after, contains no depiction of an assault. The Save is a male survivor, deliberately. New cast voice: Perpetua “Pet” Novak, SANE nurse (needs Appendix B entry). New specimen icon: `spec-whodrove`. Cites the RAINN hotline number and Chapter 28’s resource list. |
 | 26 He Still Has Your Number | **yes** | | 11,564 words, 5 Tracks, clean. Wook POV (Marek) — stalking is defined by the perpetrator experiencing it as devotion, so the cold open is written from inside that. Reuses Valentina “Hex” Reyes as the Soundboard voice — Appendix B needs a second-appearance update. New counter-drops: One-Time Sentence, Information Diet, Documentation Spine, Advance Notice, Camp Instruction. New specimen icon: `spec-stillhere`. |
-| 31 What To Tell Your Mom | | | audience is the loved one, not the attendee |
+| 31 What To Tell Your Mom | **yes** | | 7,636 words, 5 **Protocols**. New POV badge: DEFAULT-WORLD POV. Written to be handed over — the reader is the parent/partner, not the attendee. New cast voice: Beverly “Bev” Nakashima (needs Appendix B entry). New specimen icon: `spec-sentmoney`. Its bridge sets up ch32’s confession by admitting the chapter just ran availability on the reader. |
