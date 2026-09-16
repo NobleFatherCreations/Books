@@ -2326,6 +2326,73 @@ default matches what's already committed.
 (current branch, no push) for the user to review the diff and deploy
 themselves.
 
+## 2026-09-16 — wook v13 (grammar pass, blocked at deploy) + Festie Bible plan
+
+**wook v13 is committed and pushed but NOT live.** Netlify refused it:
+`state=error, skipped=true, error_message="Skipped due to account credit usage
+exceeded"`, on two consecutive attempts (deploys `6aaafbb439a883be6a1f7f21`,
+`6aaafbf4fa78fbbd44fdc057`). The 14MB upload succeeded both times; Netlify
+declined to publish. This is **account-level billing on the Noble Father
+Creations team (shae-stovell18), so it blocks every project**, not just wook.
+Nothing in the repo can fix it. Live is still v12 (md5 `5648bfa3…`); repo is
+v13 (md5 `7c763c6f…`). `sites.json` records this under wook's `deployBlocked`
+key with `pendingVersion: v13`. **When billing clears: redeploy from
+`library/wook/` and set `liveVersion` to v13.** Don't assume it shipped.
+
+What v13 actually fixed — 133 substitutions, no chapter content changed:
+- **Appendix U was broken.** The Vocabulary Translation List was shipping a
+  literal Markdown pipe table as 18 body-font `<p>` elements; padding spaces
+  don't align in a proportional face, so it rendered as a wall of vertical
+  bars. Rebuilt in the book's own pair pattern (`<strong class="lead">term
+  </strong>&nbsp;→ plain English`). **The book contains no `<table>` or `<dl>`
+  anywhere** — that pattern is the house form for pair data, worth knowing
+  before adding any tabular content to any book.
+- 32 British spellings that arrived with the seven new chapters, against a
+  book that is decisively American (behavior 316, defense 32, recognize 17,
+  organizer 37). Found by **dialect frequency comparison, not a word list** —
+  there is no spell tooling in this environment (no aspell/hunspell, no
+  pyspellchecker/enchant/language_tool, no `/usr/share/dict`), which is why
+  `scripts/wook-grammar-check.py` is dictionary-free.
+- One article error, one "All 50 US states" where the book spells numbers out,
+  and a patch note saying "your mum" about a chapter called What To Tell Your
+  Mom.
+
+**New tooling:** `scripts/wook-grammar-check.py` (finds) and
+`scripts/wook-grammar-fix.py` (fixes, idempotent, applies to the book *and*
+the `content/wook-new-chapters/` fragments in the same run so they can't
+drift). The checker is noisy by design and **most of its output is false
+positives** — its typo check is a hapax/edit-distance heuristic that at
+335,000 words flags ordinary rare words (545 candidates, zero real). Also
+false: 23 of 24 article findings, all 10 caps, all 14 compound, all 121
+numeral findings. Only DIALECT and PUNCT were load-bearing. Triage it, don't
+trust it.
+
+**Cloudflare Web Analytics beacon — flagged, not touched.** `library/wook/
+index.html` line 1652 carries
+`<script src="https://static.cloudflareinsights.com/beacon.min.js"
+data-cf-beacon='{"token":"c8d1aea5…"}'>`. This is an external request on a
+book whose architecture rule says there are none. **It is on all 485 deployed
+HTML files with one shared token** — a deliberate site-wide choice that
+predates this work, not a wook defect. Removing it from one book would kill
+analytics and desync that book from every other page. **Author's call; do not
+remove unilaterally.** The `CLAUDE.md` "no external requests" rule and the
+live site disagree on this point, and the rule should probably be amended to
+record the exception.
+
+**Festie Bible plan written:** `content/festival-audits/festie-bible-plan.md`.
+Grounded in direct inspection, not memory. Headline findings: repo and live
+are **byte-identical** (so it is NOT the wook v8/v9 claimed-but-not-shipped
+pattern); **v7 shipped its feature but never its patch note** — the HOUSE
+drawer is live, but the badge is a hardcoded `'v6'` literal in the render
+code and the `changelog` array's newest entry is v6, so the page
+under-reports itself by one version and will drift again; the `section` field
+mixes two incompatible taxonomies (predator-sequence stages vs health topic
+areas) across 17 values, 7 of them singletons; three real coverage gaps (the
+on-ramp before the gate: **zero**; disability/neurodivergence: **zero**; the
+people at home: thin); the three thinnest guides (C.A.R.E. 6, E.V.E.N.T. 6,
+L.E.A.D. 8) are the highest-leverage audiences; no copyright/author
+attribution anywhere; no checker exists for the 149×14-field scenario format.
+
 ## 2026-08-11 (later) — Executed both upgrade plans: The Casting + Festie Bible polish pass, deployed live
 
 User asked to execute the two design-audit upgrade plans (see the

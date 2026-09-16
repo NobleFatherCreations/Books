@@ -306,7 +306,12 @@
       "liveVersion": "v12",
       "liveVerifiedAt": "2026-09-16",
       "liveVerifiedNote": "Live bytes (md5) compared against library/wook/index.html and identical, both directly against the Netlify site URL and through the noblefathercreations.com/wook proxy path (200). Live HTML confirmed to carry all 33 chapters in sequence, the v12 patch note, chapter 20's content note and hotline, and the seven new specimen icons. This field records what is actually live; 'version' records what has been built.",
-      "reviewInProgress": "Full chapter-by-chapter review under content/wook-audits/wook-full-review-plan.md complete, including pass D2. v10 deployed 2026-09-15; see changelog."
+      "reviewInProgress": "Full chapter-by-chapter review under content/wook-audits/wook-full-review-plan.md complete, including pass D2. v10 deployed 2026-09-15; see changelog.",
+      "deployBlocked": {
+        "since": "2026-09-16",
+        "reason": "Netlify returned state=error, skipped=true, error_message='Skipped due to account credit usage exceeded' on two consecutive deploy attempts (deploys 6aaafbb439a883be6a1f7f21 and 6aaafbf4fa78fbbd44fdc057). The upload succeeded both times; Netlify refused to build/publish. This is an account-level billing state on the Noble Father Creations team (shae-stovell18), so it blocks every project on the account, not just wook. Nothing in the repo can fix it -- it needs billing resolved at app.netlify.com/teams/shae-stovell18. Once cleared, redeploy wook from library/wook/ and set liveVersion to v13.",
+        "pendingVersion": "v13"
+      }
     },
     {
       "codename": "fractal",
