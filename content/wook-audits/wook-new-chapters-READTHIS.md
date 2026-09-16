@@ -566,7 +566,7 @@ Have you ever looked someone up before meeting them and then let them believe yo
 
 🎟️ REFRACTIONS
 
-**Touring Artists:** Your entire public catalogue is a Profile Read waiting to happen, and “I’ve followed you since the 2019 EP” is a sentence that will be said to you by hundreds of lovely people and a few who are counting. Warmth from a stranger who knows your discography is not a relationship. It is your job working correctly.
+**Touring Artists:** Your entire public catalog is a Profile Read waiting to happen, and “I’ve followed you since the 2019 EP” is a sentence that will be said to you by hundreds of lovely people and a few who are counting. Warmth from a stranger who knows your discography is not a relationship. It is your job working correctly.
 
 **Scene Professionals:** The buyer who knows your whole vendor history before the first call has done homework, which is either professionalism or leverage, and you find out which one when you name a price.
 
@@ -3064,7 +3064,7 @@ Chapter 18
 ## ⚠️ CONTENT NOTE
 
 
-→ **Before this chapter.** Every other chapter in this book is about recognising something before it happens. This one is about sexual assault at a festival and what is available in the hours afterward. It contains no depiction of an assault — it starts the morning after — but it is direct about aftermath, medical care and reporting, and it is a hard read if it is close to you.
+→ **Before this chapter.** Every other chapter in this book is about recognizing something before it happens. This one is about sexual assault at a festival and what is available in the hours afterward. It contains no depiction of an assault — it starts the morning after — but it is direct about aftermath, medical care and reporting, and it is a hard read if it is close to you.
 
 **If you need this right now, do not read the cold open.** Go straight to *THE PROTOCOLS* below. Protocol 2 is the only part that is time-sensitive. Everything else will keep.
 
@@ -3186,7 +3186,7 @@ So here it is.
 
 Nineteen chapters of this book have been about seeing something coming. This one is about the fact that sometimes you do not, or you do and it happens anyway, and that the scene has spent fifty years producing prevention material and almost nothing for the morning after — which means the people who most need a plan are the only ones who have never been handed one.
 
-**The single organising idea of this chapter is that the decision and the clock are two different things, and almost all of the damage comes from treating them as one.**
+**The single organizing idea of this chapter is that the decision and the clock are two different things, and almost all of the damage comes from treating them as one.**
 
 The decision — what do I call this, do I want an investigation, do I want anyone to know — is enormous, it is yours alone, it frequently takes months, and nobody on earth is entitled to rush it.
 
@@ -3240,7 +3240,7 @@ PROTOCOL 2 — THE OPTIONS CLOCK
 
 A small number of things run out. They are medical and they are mechanical and they do not care what you have decided.
 
-These windows are typical rather than universal — services, laws and timeframes vary by country, state and facility — so the operative instruction is not to memorise them but to **call the hotline and ask what applies where you physically are, because they will know and it takes four minutes.**
+These windows are typical rather than universal — services, laws and timeframes vary by country, state and facility — so the operative instruction is not to memorize them but to **call the hotline and ask what applies where you physically are, because they will know and it takes four minutes.**
 
 **Toxicology — the tightest clock, usually hours.** If there is any chance you were given something, this is the window that closes first and fastest. Many substances used in drug-facilitated assault clear the body within roughly twelve to seventy-two hours, some far sooner, and a urine sample collected early is the only way to catch them. If you do one time-sensitive thing today, it is this. And note: standard hospital drug screens are not the same test — you have to say specifically that you may have been drugged so the right panel is run.
 
@@ -3284,7 +3284,7 @@ PROTOCOL 4 — THE FESTIVAL PROBLEM
 
 Everything above is harder at a festival, for reasons that are specific and worth naming one at a time, because each has a different fix.
 
-**You were using, and you think that disqualifies you.** It does not. Not medically — clinicians treat and collect regardless. Not legally, in the sense that being intoxicated is not consent in any jurisdiction, and incapacity is the basis of the offence rather than a defence against it. What is real is the fear, and the fear is doing more work than the law is. Tell the medical staff exactly what you took, because it affects your care and the toxicology panel they run, and because they are not there to investigate you. If you are worried about law enforcement specifically, that is a separate question with a separate answer: ask for the exam as a non-report, and ask the hotline about amnesty in that state before you go.
+**You were using, and you think that disqualifies you.** It does not. Not medically — clinicians treat and collect regardless. Not legally, in the sense that being intoxicated is not consent in any jurisdiction, and incapacity is the basis of the offense rather than a defense against it. What is real is the fear, and the fear is doing more work than the law is. Tell the medical staff exactly what you took, because it affects your care and the toxicology panel they run, and because they are not there to investigate you. If you are worried about law enforcement specifically, that is a separate question with a separate answer: ask for the exam as a non-report, and ask the hotline about amnesty in that state before you go.
 
 **The hospital is ninety minutes away and may not have anyone trained.** This is the single most common practical failure and it is entirely avoidable: **call before you drive.** The hotline, or the state coalition, will tell you which facility in that region actually has a SANE or SAFE examiner on shift. Driving to the nearest hospital is the intuitive move and it is frequently the wrong one — arriving somewhere with no trained examiner can mean a long wait, a transfer, or a worse exam.
 
@@ -3362,7 +3362,7 @@ Have you asked someone what they took, in the first ten minutes, before anything
 
 Have you made it communal? Woken the camp, gathered the group, made it the thing everyone is dealing with, because that felt like love and like solidarity and like doing something?
 
-Have you gone and found him? Confronted him, or organised a confrontation, or posted about him — before the person it happened to had decided anything at all?
+Have you gone and found him? Confronted him, or organized a confrontation, or posted about him — before the person it happened to had decided anything at all?
 
 Every item there is done out of love, by decent people, constantly, and every one of them takes options away from someone who has just had options taken away from them. The scene is magnificent at the first seventy-two hours and most of its instincts in the first ninety minutes are wrong.
 
@@ -3400,7 +3400,7 @@ The event, at year fifteen. Has a reporting email address on the website. Takes 
 
 Greatest Hits Compilation — The Institutional Scaled-Up Version
 
-The rural hospital ninety minutes from three major festivals with no SANE-certified examiner on weekend shifts. The neighbouring county where the nearest trained examiner is fifty minutes further and nobody at the first desk knows it. The kits sitting untested in storage, in numbers that have been the subject of multi-year audits in multiple states. The prevention literature — thousands of pages of it, at every festival in the country, all of it about the before, almost none of it about the after. And a scene that will mobilise a hundred people to search a field for a missing friend, brilliantly, at 2 a.m., and has never once put the number for the state sexual assault coalition on the back of a wristband, where it would cost nothing and be there at 5:40 in the morning when the phone is at nine percent.
+The rural hospital ninety minutes from three major festivals with no SANE-certified examiner on weekend shifts. The neighbouring county where the nearest trained examiner is fifty minutes further and nobody at the first desk knows it. The kits sitting untested in storage, in numbers that have been the subject of multi-year audits in multiple states. The prevention literature — thousands of pages of it, at every festival in the country, all of it about the before, almost none of it about the after. And a scene that will mobilize a hundred people to search a field for a missing friend, brilliantly, at 2 a.m., and has never once put the number for the state sexual assault coalition on the back of a wristband, where it would cost nothing and be there at 5:40 in the morning when the phone is at nine percent.
 
 
 ## 🌵 THE SAVE
@@ -3440,7 +3440,7 @@ At the hospital he says, at the desk, the exact sentence this chapter told him h
 
 **Rory says:** “I don’t know what happened to me. I think I might have been drugged. I’d like to talk to someone about a non-report exam.”
 
-Nobody blinks. That is the thing he will tell people afterward, over and over, for years — that he braced for the whole building to react and the building simply did its job. A urine sample in the first fifteen minutes, because of the clock. The exam, unhurried, with everything explained first. The medication offered, including the seventy-two-hour course, which he takes. The kit sealed, labelled with a number, and stored.
+Nobody blinks. That is the thing he will tell people afterward, over and over, for years — that he braced for the whole building to react and the building simply did its job. A urine sample in the first fifteen minutes, because of the clock. The exam, unhurried, with everything explained first. The medication offered, including the seventy-two-hour course, which he takes. The kit sealed, labeled with a number, and stored.
 
 Clothes in paper bags that Sunny got from a gas station on the way, because she had read this chapter on a Tuesday in April and had remembered one thing from it, which was *paper, not plastic.*
 
@@ -3474,7 +3474,7 @@ Chapter 20. The front pocket. The one you hope stays closed.
 
 **You are allowed to have showered.** Everybody showers. Evidence is recovered after showers routinely. Go anyway.
 
-**Being high does not disqualify you** — not medically, not legally. Incapacity is the basis of the offence, not a defence against it. Tell the clinicians what you took; it changes your care and the panel they run.
+**Being high does not disqualify you** — not medically, not legally. Incapacity is the basis of the offense, not a defense against it. Tell the clinicians what you took; it changes your care and the panel they run.
 
 Paper bags, not plastic. Screenshot everything and email it to yourself. Write the timeline badly, now — fragments are the expected account, not a weak one.
 
@@ -3739,7 +3739,7 @@ She drew a sun on it.
 ## 🎯 THE REAL F*CKING SETLIST
 
 
-Chapter 25 was the text that arrives on Sunday afternoon, timed to land in the re-entry window. This is the one that arrives every Sunday after that, for eleven weeks, and then buys a ticket. Five Tracks. The first is about why he experiences a campaign as devotion, which is not a rationalisation he invented — the culture handed it to him fully formed. The last is about the four or five decent people around her who keep the channel open because nobody wants to be the one who makes it a thing.
+Chapter 25 was the text that arrives on Sunday afternoon, timed to land in the re-entry window. This is the one that arrives every Sunday after that, for eleven weeks, and then buys a ticket. Five Tracks. The first is about why he experiences a campaign as devotion, which is not a rationalization he invented — the culture handed it to him fully formed. The last is about the four or five decent people around her who keep the channel open because nobody wants to be the one who makes it a thing.
 
 **The specific claim of this chapter is that the scene’s greatest structural virtue is also the infrastructure.** Openness, porousness, radical welcome, no gatekeeping, everybody is family, everybody is findable, nobody is turned away, and the same forty people are at the same eleven events every year. That is not a flaw in the culture. It is the culture, it is why any of us are here, and it is also a fully-built location and schedule service that a patient person can use for free, forever, with no one’s permission.
 
@@ -3749,9 +3749,9 @@ Intermittent Reinforcement · The Extinction Burst · Course Of Conduct
 
 Short. Then back to the flag by the second gate.
 
-Intermittent reinforcement is the behavioural finding that a reward delivered unpredictably produces far more persistent behaviour than one delivered reliably — it is why slot machines work, and it is the single best explanation for why the least effective possible response to unwanted contact is an inconsistent one. One reply in ten silences does not read as discouragement; it reads as confirmation that the machine pays out, and it will produce more messages than either consistent silence or a single clear no.
+Intermittent reinforcement is the behavioral finding that a reward delivered unpredictably produces far more persistent behavior than one delivered reliably — it is why slot machines work, and it is the single best explanation for why the least effective possible response to unwanted contact is an inconsistent one. One reply in ten silences does not read as discouragement; it reads as confirmation that the machine pays out, and it will produce more messages than either consistent silence or a single clear no.
 
-The extinction burst is the companion finding, and it is the one that gets people hurt: when a previously reinforced behaviour stops being rewarded, it does not decay smoothly — it spikes first. Harder, faster, more. Which means the period immediately after a block, a clear refusal, or a cut-off is predictably the most active and the most dangerous stretch of the entire thing. This is not a reason to avoid cutting contact. It is a reason to cut contact *and* plan for the next three weeks, because a burst that you expected is a burst you documented.
+The extinction burst is the companion finding, and it is the one that gets people hurt: when a previously reinforced behavior stops being rewarded, it does not decay smoothly — it spikes first. Harder, faster, more. Which means the period immediately after a block, a clear refusal, or a cut-off is predictably the most active and the most dangerous stretch of the entire thing. This is not a reason to avoid cutting contact. It is a reason to cut contact *and* plan for the next three weeks, because a burst that you expected is a burst you documented.
 
 Course of conduct is the legal concept underneath nearly every stalking and harassment statute in the English-speaking world, and it is the reason the cold open is written the way it is. These laws do not generally ask whether any single act was criminal. They ask whether a pattern of acts, taken together, would cause a reasonable person to fear for their safety or suffer substantial emotional distress. Four messages, a second account, a mention to a guy at a venue, and a ticket to an event are each, individually, nothing. **Course of conduct is the machinery for seeing them as one object** — and it only works on evidence that somebody kept.
 
@@ -3797,7 +3797,7 @@ The script says: she is worth fighting for. The script says: he did not give up.
 
 So when he sends the long honest message at week five, he is not experiencing himself as pressuring anybody. **He is experiencing himself as brave.** Vulnerability is the frame. That is why the message is long and sincere and has no threat in it — because in his telling, the courage of sending it is the whole point, and a person who responds badly to courage is the one behaving poorly.
 
-And the festival scene supplies a second layer that the wider culture does not: the belief that a festival connection is a different, realer category of thing. Four minutes leaning back at a second stage is not four minutes; it is a soul recognising a soul. In a culture that talks constantly about instant deep connection — Chapter 2 named the Insta-Wook Bond, and this is its afterlife — a weekend acquaintance can be experienced, sincerely, as an interrupted great love.
+And the festival scene supplies a second layer that the wider culture does not: the belief that a festival connection is a different, realer category of thing. Four minutes leaning back at a second stage is not four minutes; it is a soul recognizing a soul. In a culture that talks constantly about instant deep connection — Chapter 2 named the Insta-Wook Bond, and this is its afterlife — a weekend acquaintance can be experienced, sincerely, as an interrupted great love.
 
 Which means: **silence does not read as refusal. Silence reads as an obstacle.** And obstacles, per the script, are for overcoming.
 
@@ -3947,7 +3947,7 @@ What a block does: stops him reaching you on that account, and stops you seeing 
 
 What a block does not do: stop a second account, which takes ninety seconds. Stop him seeing your public posts logged out. Stop him seeing everything you appear in through the accounts of forty mutuals who have not blocked anybody. Stop him knowing which event you go to in October.
 
-And the second half of that sentence is the part that gets underweighted: **a block removes your visibility into his behaviour while leaving most of his visibility into yours intact.** After the block you stop receiving evidence. He does not stop generating it. He generates it to mutuals, in comments, in a story, to Dez at a fire — and you are now the only person in the network who cannot see it.
+And the second half of that sentence is the part that gets underweighted: **a block removes your visibility into his behavior while leaving most of his visibility into yours intact.** After the block you stop receiving evidence. He does not stop generating it. He generates it to mutuals, in comments, in a story, to Dez at a fire — and you are now the only person in the network who cannot see it.
 
 Which produces the specific, disorienting condition this Track exists for: you know something is still happening. You cannot demonstrate any of it. And every time you try to explain, the most recent thing you can actually point to is eleven weeks old, because the eleven weeks since are a rumour.
 
@@ -4015,7 +4015,7 @@ THE NEXT FESTIVAL
 
 He buys a ticket. That is the whole move and there is no counter to it at the point of sale.
 
-He is entitled to attend. He has attended for four years. He likes the music. Every one of those is true, and together they form a defence that is genuinely difficult to argue with in the abstract and completely beside the point in the specific.
+He is entitled to attend. He has attended for four years. He likes the music. Every one of those is true, and together they form a defense that is genuinely difficult to argue with in the abstract and completely beside the point in the specific.
 
 And the structural fact underneath it, which almost nobody in this scene knows until they need it:
 
@@ -4035,7 +4035,7 @@ This is the step people skip, universally, and the reasons are good ones: it fee
 
 Sometimes nothing does happen. But a great many events — more than people expect, and more every year — have a safety lead, an accountability process, or at minimum a security director who will absolutely take a name and a photograph and flag it, and who can do things at 2 a.m. that are impossible if the first time they hear about it is at 2 a.m.
 
-The asymmetry is enormous and it is worth stating plainly: **told in advance, they can pre-position, escort, relocate a camp, watch a gate, and act in four minutes. Told during, they are meeting you for the first time in the worst hour of your weekend**, while you are trying to explain eleven weeks of individually-legal behaviour to a stranger with a radio.
+The asymmetry is enormous and it is worth stating plainly: **told in advance, they can pre-position, escort, relocate a camp, watch a gate, and act in four minutes. Told during, they are meeting you for the first time in the worst hour of your weekend**, while you are trying to explain eleven weeks of individually-legal behavior to a stranger with a radio.
 
 And the second read, which you are allowed to reach: you can also not go. That is a real option, it is not a defeat, and it is a loss that belongs on his ledger rather than yours. But it should be chosen after the advance notice, not instead of it, because the advance notice is what makes going possible.
 
@@ -4073,7 +4073,7 @@ Have you ever kept going somewhere you had been asked to stay away from, because
 
 🧭 RUNS IN EVERY DIRECTION
 
-The next-festival problem is created by the man with the ticket, the woman who has attended for eleven years and whose presence nobody would question, the beloved vendor whose booth is placed near the same stage every year, the artist who is on the lineup and therefore has more access than anyone reporting them, and the long-tenured elder whose removal would require a conversation the organisers cannot face. Entitlement to a public space is not a gender. It is a wristband.
+The next-festival problem is created by the man with the ticket, the woman who has attended for eleven years and whose presence nobody would question, the beloved vendor whose booth is placed near the same stage every year, the artist who is on the lineup and therefore has more access than anyone reporting them, and the long-tenured elder whose removal would require a conversation the organizers cannot face. Entitlement to a public space is not a gender. It is a wristband.
 
 ☕ SOBER TUESDAY
 
@@ -4145,7 +4145,7 @@ Not every friend who stays friendly with both people is failing you, and demandi
 
 🪞 MIRROR SET
 
-Have you ever told someone the person avoiding them was “just going through it”? Have you confirmed a camp location to be helpful, or passed along an apology to be kind, or asked somebody to just talk to him so it would not be weird for the group? Every one of those is a generous act and every one of them is the wire. Almost nobody in this Track has done anything they would recognise as wrong.
+Have you ever told someone the person avoiding them was “just going through it”? Have you confirmed a camp location to be helpful, or passed along an apology to be kind, or asked somebody to just talk to him so it would not be weird for the group? Every one of those is a generous act and every one of them is the wire. Almost nobody in this Track has done anything they would recognize as wrong.
 
 🎟️ REFRACTIONS
 
@@ -4155,7 +4155,7 @@ Have you ever told someone the person avoiding them was “just going through it
 
 🧭 RUNS IN EVERY DIRECTION
 
-The wire is run by the well-meaning camp mom who wants everyone to get along, the guy who has known him for nine years and cannot square it, the nonbinary organiser who believes conflict should be mediated rather than enforced, the elder who says “let’s not make this a thing,” and the friend who loves you and also cannot bear to be unkind to somebody who seems so sad. Smoothing is not a gender. It is the reflex of every warm community that has ever existed.
+The wire is run by the well-meaning camp mom who wants everyone to get along, the guy who has known him for nine years and cannot square it, the nonbinary organizer who believes conflict should be mediated rather than enforced, the elder who says “let’s not make this a thing,” and the friend who loves you and also cannot bear to be unkind to somebody who seems so sad. Smoothing is not a gender. It is the reflex of every warm community that has ever existed.
 
 ☕ SOBER TUESDAY
 
@@ -4169,7 +4169,7 @@ Mirror Check In The Off-Season
 
 This chapter has the narrowest gap in the whole book between the narrator and the reader, and that is deliberate.
 
-Marek is not a monster and he does not read like one, and if he did, the chapter would be useless — because everybody would put him at a safe distance and turn the page. He is a man who liked someone, who was not liked back, and who could not metabolise it, and every single thing he did was a thing that ordinary heartbroken people do.
+Marek is not a monster and he does not read like one, and if he did, the chapter would be useless — because everybody would put him at a safe distance and turn the page. He is a man who liked someone, who was not liked back, and who could not metabolize it, and every single thing he did was a thing that ordinary heartbroken people do.
 
 So the mirror here is not *have you stalked someone.* Almost nobody reading this has. It is a series of much smaller questions, and most people have a yes for at least one.
 
@@ -4201,7 +4201,7 @@ Twenty-two, and it is his first real one — the first time someone he was certa
 
 Live Album — The Seasoned Operator
 
-Marek. Thirty-six. Eleven weeks, four messages, one additional account, one mention to a guy at a venue, and one ticket to an event he was going to anyway. Can recite his own restraint as a defence and is not wrong about any individual item on it. Knows the flag, the spot by the second gate, and what she does alone on Sunday morning, and has assembled none of it — it was all simply told to him, at breakfast, in September, by forty people being warm. The Live Album has never threatened anybody, has never touched anybody, is on no list at any event he will ever attend, and is currently standing in a field with a wristband he paid for, deciding what he is going to do about a sunrise set.
+Marek. Thirty-six. Eleven weeks, four messages, one additional account, one mention to a guy at a venue, and one ticket to an event he was going to anyway. Can recite his own restraint as a defense and is not wrong about any individual item on it. Knows the flag, the spot by the second gate, and what she does alone on Sunday morning, and has assembled none of it — it was all simply told to him, at breakfast, in September, by forty people being warm. The Live Album has never threatened anybody, has never touched anybody, is on no list at any event he will ever attend, and is currently standing in a field with a wristband he paid for, deciding what he is going to do about a sunrise set.
 
 Greatest Hits Compilation — The Institutional Scaled-Up Version
 
@@ -4428,7 +4428,7 @@ Rosalind did not read chapter 31.
 
 Rosalind started at the beginning, on Saturday morning, like a person.
 
-So she has now read about a man who hands a nitrous tank to a stranger who dies in a Santa hat. She has read about a pharmacist who drank something nobody measured. She has read about a twenty-three-year-old who apologised while his wrist was at the wrong angle. She has read a chapter narrated by a man who buys a ticket to a festival because he knows what somebody’s camp flag looks like.
+So she has now read about a man who hands a nitrous tank to a stranger who dies in a Santa hat. She has read about a pharmacist who drank something nobody measured. She has read about a twenty-three-year-old who apologized while his wrist was at the wrong angle. She has read a chapter narrated by a man who buys a ticket to a festival because he knows what somebody’s camp flag looks like.
 
 She has learned the phrase *Now Goblin*, which she did not want.
 
@@ -4472,7 +4472,7 @@ Bev Nakashima is sixty-one, has known Rosalind since their kids were in the same
 
 Rosalind explains the four drafts.
 
-Bev listens to all of it, and then asks one question, and the question reorganises the entire problem.
+Bev listens to all of it, and then asks one question, and the question reorganizes the entire problem.
 
 **Bev says:** “Okay. If the worst thing happened out there — not a scraped knee, the worst thing — would she call you?”
 
@@ -4484,7 +4484,7 @@ Because the honest answer is: *I don’t know.*
 
 Not *no.* Tess loves her. They talk every week. It is a good relationship by any ordinary measure.
 
-But Rosalind is running the tape — the test kit conversation where she changed the subject, the time she said “I just don’t understand why you need drugs to enjoy music,” the Christmas where she asked, lightly, whether Tess thought she was maybe getting a little old for this — and she is realising, at 11:41 p.m. on a Tuesday, that she has spent six years accidentally teaching a very smart young woman **exactly which subjects produce a lecture.**
+But Rosalind is running the tape — the test kit conversation where she changed the subject, the time she said “I just don’t understand why you need drugs to enjoy music,” the Christmas where she asked, lightly, whether Tess thought she was maybe getting a little old for this — and she is realizing, at 11:41 p.m. on a Tuesday, that she has spent six years accidentally teaching a very smart young woman **exactly which subjects produce a lecture.**
 
 And a person who knows which subjects produce a lecture does not call you from a parking lot at 4 a.m. They call somebody else. Or they call nobody, which is the outcome this entire book has spent thirty chapters trying to prevent.
 
@@ -4542,9 +4542,9 @@ The Editing Problem · Harm Reduction As A Stance · Availability
 
 Short. Then five protocols and a test.
 
-The editing problem is the plainest finding in the entire adolescent and young-adult disclosure literature, and every parent recognises it instantly once it is named: people do not decide whether to tell you things in general. They decide topic by topic, based on what each topic has historically cost them. One lecture about a test kit does not reduce testing. It removes testing from the list of things you will ever hear about again, and it does so permanently and silently, and you will experience the silence as everything being fine.
+The editing problem is the plainest finding in the entire adolescent and young-adult disclosure literature, and every parent recognizes it instantly once it is named: people do not decide whether to tell you things in general. They decide topic by topic, based on what each topic has historically cost them. One lecture about a test kit does not reduce testing. It removes testing from the list of things you will ever hear about again, and it does so permanently and silently, and you will experience the silence as everything being fine.
 
-Harm reduction as a stance is the same argument this whole book runs, pointed at parenting. The evidence across decades is consistent and it is not ideological: messaging built purely on abstinence performs poorly at changing behaviour and performs actively badly at maintaining communication, because it gives the young person a binary in which any use at all places them outside the conversation. Harm reduction does not mean approval, and it is not permission — a distinction that parents find hard and that matters enormously. It means the plan covers what is actually going to happen. You can hold, simultaneously and without hypocrisy, that you wish they would not and that you would rather they test it. Almost every parent believes the second thing already and thinks saying it out loud would undercut the first.
+Harm reduction as a stance is the same argument this whole book runs, pointed at parenting. The evidence across decades is consistent and it is not ideological: messaging built purely on abstinence performs poorly at changing behavior and performs actively badly at maintaining communication, because it gives the young person a binary in which any use at all places them outside the conversation. Harm reduction does not mean approval, and it is not permission — a distinction that parents find hard and that matters enormously. It means the plan covers what is actually going to happen. You can hold, simultaneously and without hypocrisy, that you wish they would not and that you would rather they test it. Almost every parent believes the second thing already and thinks saying it out loud would undercut the first.
 
 Availability is the one that applies to you, right now, at this table, tonight. People estimate risk by how easily examples come to mind, and you have just spent a weekend reading thirty chapters of vivid, specific, named catastrophe. Your sense of how dangerous this weekend is has been reshaped by a book, in a way that is not proportionate to what will statistically happen to your kid — who will, overwhelmingly probably, have an extraordinary time, come home filthy and happy, and talk about it for a month. **This book did that to you deliberately.** It is a technique, this book runs it, and Chapter 32 is where it owns up to it. Be aware, before you act on the feeling, that the feeling was manufactured — accurately, from real material, for a good reason, but manufactured.
 
@@ -4628,7 +4628,7 @@ Every item on this list is done by good parents, out of love, and every one of t
 
 **Do not forbid it.** Covered above. You will not stop the trip; you will stop the information.
 
-**Do not send the article.** You have one saved in drafts right now. Somebody died at a festival in 2023 and you found the piece and it is sitting there. It will not change a single behaviour and it will cost you the conversation, because it is not information — it is the transmission of your fear, and they will receive it as exactly that.
+**Do not send the article.** You have one saved in drafts right now. Somebody died at a festival in 2023 and you found the piece and it is sitting there. It will not change a single behavior and it will cost you the conversation, because it is not information — it is the transmission of your fear, and they will receive it as exactly that.
 
 **Do not ask what they take.** You do not want the answer, it is not yours, and the asking teaches them that the subject is a trap. If they ever volunteer it, receive it the way you would receive a weather report.
 
@@ -4664,7 +4664,7 @@ If the call comes, the first ninety seconds determine most of what follows. Chap
 
 🔍 THE TEST
 
-One question. Bev asked it at 11:40 on a Tuesday and it reorganises everything:
+One question. Bev asked it at 11:40 on a Tuesday and it reorganizes everything:
 
 **If the worst thing happened, would they call you?**
 
@@ -4700,7 +4700,7 @@ Mirror Check At The Kitchen Table
 
 This is going to be an uncomfortable page and it is aimed at people who have done nothing wrong, so read it in that spirit.
 
-Thirty chapters of this book have catalogued a set of techniques: manufactured urgency, the trauma tax, the halo, the reframe that turns a boundary into a character flaw, the offer made in the window when somebody is least able to refuse, the warmth that arrives with a debt attached.
+Thirty chapters of this book have cataloged a set of techniques: manufactured urgency, the trauma tax, the halo, the reframe that turns a boundary into a character flaw, the offer made in the window when somebody is least able to refuse, the warmth that arrives with a debt attached.
 
 Families run every single one of them. Not because families are predatory. Because these are the general-purpose tools of influence between humans who need something from each other, and a parent who is frightened will reach for whatever is nearest.
 
@@ -4738,7 +4738,7 @@ Year six. Has stopped forbidding, because that fight was lost in 2021, and consi
 
 Greatest Hits Compilation — The Institutional Scaled-Up Version
 
-Thirty years of abstinence-based messaging whose measured effect on behaviour is poor and whose measured effect on disclosure is worse, taught to every parent in the country as the responsible default. News coverage that exists only when somebody dies, so that the entire informational diet of a worried parent is composed exclusively of the worst outcomes. And the festival industry itself, which sells four hundred thousand tickets a year to people’s children and publishes, for those people’s parents, absolutely nothing — no page, no letter, no number to call, not one line acknowledging that several hundred thousand households are sitting up on a Saturday night. The single cheapest safety intervention available to any festival on earth is a plain-language page for families, and essentially none of them has one.
+Thirty years of abstinence-based messaging whose measured effect on behavior is poor and whose measured effect on disclosure is worse, taught to every parent in the country as the responsible default. News coverage that exists only when somebody dies, so that the entire informational diet of a worried parent is composed exclusively of the worst outcomes. And the festival industry itself, which sells four hundred thousand tickets a year to people’s children and publishes, for those people’s parents, absolutely nothing — no page, no letter, no number to call, not one line acknowledging that several hundred thousand households are sitting up on a Saturday night. The single cheapest safety intervention available to any festival on earth is a plain-language page for families, and essentially none of them has one.
 
 
 ## 🌵 THE SAVE
@@ -4770,7 +4770,7 @@ And this is the part where the chapter has to be honest about what the payoff of
 
 **Rosalind says:** “Hey.”
 
-Flat. Unremarkable. Two seconds of tone that she has been practising, without telling anybody, since Wednesday.
+Flat. Unremarkable. Two seconds of tone that she has been practicing, without telling anybody, since Wednesday.
 
 What she does not say: *what’s wrong.* *Are you okay?* *Oh my god, it’s four in the morning.*
 
@@ -4792,7 +4792,7 @@ At 6:51: **“she’s on the bus”**.
 
 At 11:40 Sunday morning: **“leaving”**.
 
-And that is the whole Save, and nothing happened, and nobody was assaulted or robbed or hospitalised, and the door that four days of deliberate work held open was used for a seventy-one-dollar bus ticket for somebody else’s daughter at four in the morning.
+And that is the whole Save, and nothing happened, and nobody was assaulted or robbed or hospitalized, and the door that four days of deliberate work held open was used for a seventy-one-dollar bus ticket for somebody else’s daughter at four in the morning.
 
 **Which is how you find out it works.** Not in the catastrophe — most people never have the catastrophe. You find out because the channel gets used for the small things, routinely, unremarkably, which is precisely the evidence that it will be there for a large one.
 
@@ -4880,13 +4880,13 @@ Here is what nobody tells the person at the kitchen table, and it is the truest 
 
 They are going to be fine.
 
-Overwhelmingly, statistically, almost certainly fine. They are going to come home filthy and exhausted and lit up from inside in a way you will recognise, because you have almost certainly had your own version of it — a summer, a tour, a year, a room, a person. They are going to talk about a set on Saturday night that they cannot describe properly and then describe properly for eleven minutes. That is what this weekend is for and that is what it will almost certainly be.
+Overwhelmingly, statistically, almost certainly fine. They are going to come home filthy and exhausted and lit up from inside in a way you will recognize, because you have almost certainly had your own version of it — a summer, a tour, a year, a room, a person. They are going to talk about a set on Saturday night that they cannot describe properly and then describe properly for eleven minutes. That is what this weekend is for and that is what it will almost certainly be.
 
 You have just read thirty chapters of the exceptions, in detail, with names. Of course you are frightened. That is not a malfunction, it is what the material does, and Chapter 32 is about to admit that it was done on purpose.
 
 But hold the proportion, because the proportion is the truth: this scene is one of the most genuinely caring environments your child will ever stand in. It is full of people who will walk a stranger to a medical tent at 3 a.m., who will search a field for someone they have never met, who will put a blanket over somebody asleep in a tent flap and leave tea. The reason this book exists is not that the scene is bad. It is that the scene is good enough to be worth defending from the small number of people using it.
 
-And the thing you are being asked to build is not a defence against the weekend.
+And the thing you are being asked to build is not a defense against the weekend.
 
 It is one phone number that has never once produced a lecture.
 
