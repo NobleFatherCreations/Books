@@ -59,7 +59,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 WOOK = ROOT / "library/wook/index.html"
 
-TOTAL_CHAPTERS = 26
+TOTAL_CHAPTERS = 33
 
 NUMBER_WORDS = {
     "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6,
@@ -68,6 +68,8 @@ NUMBER_WORDS = {
     "sixteen": 16, "seventeen": 17, "eighteen": 18, "nineteen": 19,
     "twenty": 20, "twenty-one": 21, "twenty-two": 22, "twenty-three": 23,
     "twenty-four": 24, "twenty-five": 25, "twenty-six": 26,
+    "twenty-seven": 27, "twenty-eight": 28, "twenty-nine": 29,
+    "thirty": 30, "thirty-one": 31, "thirty-two": 32, "thirty-three": 33,
 }
 
 # Scene keywords that identify a chapter, for verifying "<Name> from the <X>"

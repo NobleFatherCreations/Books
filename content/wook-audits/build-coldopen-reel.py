@@ -15,17 +15,20 @@ WOOK = ROOT / "library/wook/index.html"
 OUT = ROOT / "content/wook-audits/wook-cold-opens-reel-order.md"
 
 POV = {
-    1: "Festie", 2: "Festie", 3: "Festie", 4: "Festie", 5: "Wook",
-    6: "Witness", 7: "Witness", 8: "Wook", 9: "Festie", 10: "Festie",
-    11: "Festie", 12: "Wook", 13: "Wook", 14: "Wook", 15: "Festie",
-    16: "Festie", 17: "Wook", 18: "Festie (inside the group)", 19: "Festie",
-    20: "Festie", 21: "Festie (no predator)", 22: "Festie", 23: "Festie",
-    24: "Montage", 25: "Author direct address", 26: "Festie (six months later)",
+    1: "Festie", 2: "Festie", 3: "Festie", 4: "Festie",
+    5: "Wook", 6: "Festie", 7: "Witness", 8: "Witness",
+    9: "Wook", 10: "Witness", 11: "Festie", 12: "Festie",
+    13: "Festie", 14: "Festie", 15: "Wook", 16: "Wook",
+    17: "Festie", 18: "Wook", 19: "Festie", 20: "Festie (after)",
+    21: "Festie", 22: "Wook", 23: "Festie (inside the group)", 24: "Festie",
+    25: "Festie", 26: "Wook", 27: "Festie (no predator)", 28: "Festie",
+    29: "Festie", 30: "Montage", 31: "Default-world", 32: "Author direct address",
+    33: "Festie (six months later)",
 }
 
 # (episode, chapter, scene name, hook line, cut point, why it sits here)
 SEASON_ONE = [
- (1, 10, "We've Been Having Problems",
+ (1, 12, "We've Been Having Problems",
   "The bag is heavier than she thought.",
   "End on: \"He knew what would happen. He rehearsed the sentence.\"",
   "Needs zero festival knowledge. A boyfriend, a gas station, a rehearsed "
@@ -45,7 +48,7 @@ SEASON_ONE = [
   "round: he catches himself using the word 'mark' twice and corrects himself "
   "both times, which is the moment the self-deception cracks on camera."),
 
- (3, 16, "She Said She'd Be Right Back",
+ (3, 21, "She Said She'd Be Right Back",
   "It is 1:47 a.m. and Jess has been gone for approximately four hours and "
   "nobody in the group can remember her last name.",
   "End on: \"...decide, mutually and without discussion, never to speak of it "
@@ -65,7 +68,7 @@ SEASON_ONE = [
   "book in one choice. The nod now pays off in a courthouse hallway, so the "
   "episode closes on an image instead of an argument."),
 
- (5, 14, "The Wristband Cop",
+ (5, 18, "The Wristband Cop",
   "The wristband is real.",
   "End on: \"The close rate is the product. The guy in the sun hat is the "
   "input.\"",
@@ -83,7 +86,7 @@ SEASON_ONE = [
   "the book. New this round: her hands are shaking before she pays and she "
   "files it as cold."),
 
- (7, 13, "The Mason Jar",
+ (7, 16, "The Mason Jar",
   "His name at this festival is Cosmo.",
   "End on: \"In her interior, something happened that she does not have a word "
   "for.\"",
@@ -92,7 +95,7 @@ SEASON_ONE = [
   "sun-faded friendship bracelet he notices, correctly reads as evidence she "
   "keeps things, and proceeds anyway."),
 
- (8, 12, "Forty A Cap",
+ (8, 15, "Forty A Cap",
   "I'm not a dealer.",
   "End on: \"The Bunk Police volunteer looks at the ground. That is the "
   "answer.\"",
@@ -108,7 +111,7 @@ SEASON_ONE = [
   "used to stop mid-decision and never say what happened to her; it now "
   "finishes, which is what makes it usable as a standalone video at all."),
 
- (10, 17, "The DanceSafe Pin",
+ (10, 22, "The DanceSafe Pin",
   "The DanceSafe pin is on my snapback. Not ironically.",
   "End on: \"Wedge is one of the good ones. And he is building you a cage.\"",
   "The hardest one to argue with and the best test of whether your audience is "
@@ -116,7 +119,7 @@ SEASON_ONE = [
   "other five percent is hidden underneath the safety community's own "
   "infrastructure. Best comment section of the series, by a distance."),
 
- (11, 18, "The Kombucha",
+ (11, 23, "The Kombucha",
   "She has been with the Lantern Family for three years.",
   "End on: \"She folds it into her sock.\" Keep El's own POV section out of "
   "this episode -- it is a bonus episode by itself.",
@@ -124,7 +127,7 @@ SEASON_ONE = [
   "a content warning card. The napkin is the image people will still be able "
   "to describe a month later. Pairs deliberately with the finale."),
 
- (12, 23, "The Re-Read",
+ (12, 29, "The Re-Read",
   "He is reading this book in a camp chair in his backyard on a Sunday "
   "afternoon in September.",
   "End on: \"The recognition is the point.\"",
@@ -134,7 +137,7 @@ SEASON_ONE = [
   "convert a viewer into a reader, because it makes finishing the book feel "
   "like a personal test."),
 
- (13, 26, "The Sealed Bottle",
+ (13, 33, "The Sealed Bottle",
   "She opens her own bottles now.",
   "End on: \"The structure is what makes the magic safe to let in.\"",
   "Close on Cara: same woman as episode eleven, six months out, now the person "
@@ -144,32 +147,53 @@ SEASON_ONE = [
 ]
 
 SEASON_TWO = [
- (14, 9, "Blue Lips", "The unicorn onesie asks the only question that matters. "
+ (14, 11, "Blue Lips", "The unicorn onesie asks the only question that matters. "
   "Now confirms whether Marco lived, which it previously did not."),
- (15, 15, "The RV", "The click that was not the door. New: 'geometry' is the "
+ (15, 19, "The RV", "The click that was not the door. New: 'geometry' is the "
   "word he cannot stop landing on afterward."),
- (16, 7, "Strike Day", "Twelve feet and a water bottle. New: the second before "
+ (16, 8, "Strike Day", "Twelve feet and a water bottle. New: the second before "
   "the twelve feet, where he almost doesn't."),
- (17, 8, "Sterling At The Row", "Vendor row as a hunting ground. New: the "
+ (17, 9, "Sterling At The Row", "Vendor row as a hunting ground. New: the "
   "school photo taped inside the cash box."),
- (18, 11, "The Corridor", "Highway stop as a sales call. New: she recognizes "
+ (18, 13, "The Corridor", "Highway stop as a sales call. New: she recognizes "
   "the word 'ask' from her uncle's car lot."),
  (19, 4, "Safe Hands", "The sunrise bond. New: the last text he ever sends, "
   "which could have gone to anyone."),
- (20, 19, "Tuesday", "The hollowing out. New: the bass she sold in 2021 to "
+ (20, 24, "Tuesday", "The hollowing out. New: the bass she sold in 2021 to "
   "cover a booth fee, which at the time felt like liquidity."),
- (21, 6, "Where Are You Camped", "Twenty-two minutes of weaponised "
+ (21, 7, "Where Are You Camped", "Twenty-two minutes of weaponised "
   "vulnerability. New: Margo considers letting it go."),
- (22, 22, "The Tuesday-After", "The 3 a.m. encore in his voice, four weeks "
+ (22, 28, "The Tuesday-After", "The 3 a.m. encore in his voice, four weeks "
   "later. Heavy; needs a support-resources card."),
- (23, 20, "The Drive Home", "The thirty-six-hour window. New: his text now "
+ (23, 25, "The Drive Home", "The thirty-six-hour window. New: his text now "
   "shows he was watching her stories all weekend without being there."),
- (24, 21, "The Gate Briefing", "Sister Lou, a clipboard, fifteen minutes. The "
+ (24, 27, "The Gate Briefing", "Sister Lou, a clipboard, fifteen minutes. The "
   "one with no predator in it at all."),
- (25, 24, "The Napkin Network", "Five vignettes of the immune system working. "
+ (25, 30, "The Napkin Network", "Five vignettes of the immune system working. "
   "Best as a mid-season anthology special."),
- (26, 25, "The Taper's Reveal", "The author confesses every technique used on "
+ (26, 32, "The Taper's Reveal", "The author confesses every technique used on "
   "the reader. Only works as a finale, and only after the rest."),
+ # -- the v12 expansion. Added to Season Two rather than reordering Season One,
+ #    whose running order is a worked argument that this script should not
+ #    silently overwrite. A real reel pass should re-rank all 33.
+ (27, 6, "The Group Chat", "Eleven weeks before the gate, in a Facebook group. "
+  "Highest cold-start legibility of anything in the book -- no festival "
+  "knowledge required at all, and it plays on any dating-safety feed."),
+ (28, 20, "The Next Twelve Hours", "The morning after. Handle with care: this "
+  "is the one clip that should carry its own card and the hotline number, and "
+  "it should probably not be cut for engagement at all."),
+ (29, 26, "He Still Has Your Number", "Four messages in eleven weeks, narrated "
+  "by the man sending them. The most unsettling thing in the book and the "
+  "single most shareable Wook POV since the eight-ball."),
+ (30, 17, "The Container", "A hospital pharmacist drinks something nobody "
+  "measured. Ends on a yes at hour three that was never a yes."),
+ (31, 10, "The Love Of It", "A twenty-three-year-old apologises with his wrist "
+  "at the wrong angle. Plays far outside the scene -- every underpaid "
+  "industry recognises it."),
+ (32, 14, "The Two Festivals", "Eleven adjustments in two and a half seconds, "
+  "and a man four hundred yards away who gets a fond remark instead."),
+ (33, 31, "What To Tell Your Mom", "A mother at a kitchen table with four "
+  "drafted texts. The one clip to aim at parents rather than attendees."),
 ]
 
 
@@ -194,7 +218,7 @@ def main():
         html, re.S)}
 
     drops = {}
-    for n in range(1, 27):
+    for n in sorted(chw):
         chunk = html[chw[n]:che[n]]
         m = re.search(r'<section class="panel pp-cream prose comp-drop">(.*?)</section>',
                       chunk, re.S)
@@ -205,6 +229,7 @@ def main():
 
     o = []
     o.append("# Wook in Sheep's Clothing — The Cold Opens\n")
+    o.append(f"All {len(drops)} of them.\n")
     o.append("Every cold open as it currently stands live, plus a running order "
              "built for a promotional video series rather than for the book.\n")
     o.append("Generated from the live book source, so this file cannot drift "
@@ -284,7 +309,7 @@ across chapters, and it is what turns a set of cautionary tales into a story.
 
     o.append("\n---\n\n# The cold opens, in book order\n")
     o.append("\nFull current text of all twenty-six.\n")
-    for n in range(1, 27):
+    for n in sorted(chw):
         ep = next((e for e, c, *_ in SEASON_ONE if c == n), None)
         ep = ep or next((e for e, c, *_ in SEASON_TWO if c == n), None)
         o.append(f"\n---\n\n## Chapter {n}: {titles.get(n, '?')}\n")

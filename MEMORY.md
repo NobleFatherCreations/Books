@@ -3503,3 +3503,65 @@ Netlify MCP proxy command from `library/wook/`, and verified live bytes
 and through the `noblefathercreations.com/wook` proxy path (200), with
 audio and video both returning 206 on range requests. Both checkers
 return 0 findings. **The review is closed. Live is v10.**
+
+## 2026-09-16 — Wook goes from 26 chapters to 33
+
+Request: write seven new chapters for the seven gaps the post-review gap
+analysis found, slot them where they belong rather than at the end, fix
+every chapter count and callout the insertion breaks, keep the voice, and
+ship it.
+
+**The seven, and why each sits where it sits.** 6 The Group Chat (after
+Yes Is A Sober Word — the on-ramp is the pre-event group, weeks before the
+gate, and no festival's safety apparatus covers it). 10 The Love Of It
+(after Vendor Row — the labour half of the same economy, Witness POV from
+a load-in lead). 14 The Two Festivals (after The Road — who gets stopped,
+who gets believed). 17 The Container (after The Free One — the mason jar
+with a lineage and a price list). 20 The Next Twelve Hours (after The RV —
+the only chapter in the book written for *after*). 26 He Still Has Your
+Number (after The Re-Entry Window — Wook POV, because stalking is
+experienced by the person doing it as devotion). 31 What To Tell Your Mom
+(in the Encore — the one chapter written to be handed to somebody else).
+
+70,916 new words. The book is now roughly 335,000.
+
+**The renumbering is the real engineering, and it is the bug family this
+book has had since v4.** Inserting seven chapters mid-book moved every
+number after the fifth. The splice
+(`scripts/wook-expansion-pass.py`, idempotent) remapped 666 numeric
+references through an old-to-new map using a sentinel pass so no rewrite
+could cascade, then handled by hand the things a regex cannot: ~30
+word-form counts ("twenty-four chapters" → "thirty-one"), 16 multi-number
+ranges and lists, and **seven bridges** — a bridge describes what comes
+next, so renumbering one is not enough, all seven had to be rewritten.
+
+**Three traps worth remembering.** (1) Appendix B lists cast as "Chapters
+2 (Oracle), 15 (minor), 24 (collective)" — only the first number follows
+the word "Chapter", so a generic pass silently renumbers one of three.
+Nine such lists existed. (2) Both chapter listings and the field
+specimens use zero-padded two-digit numbers; the generic pass wrote them
+bare. (3) Chapter 6 was inserted after chapter 5, which is the *last* row
+of SET ONE in both listings, so its row landed on the wrong side of the
+set seam in both.
+
+**Two checkers and a purpose-built auditor caught six wrong
+cross-references before they shipped.** `wook-expansion-xref.py` resolves
+every "Chapter N" in a new fragment against the map and prints what it
+actually points at — it caught four (the whisper network, the Four
+Questions Before Any Cap, week four, the Insta-Wook Bond). The proofreader
+caught two more afterwards. `TOTAL_CHAPTERS` in the continuity checker had
+to move 26 → 33, and its number-word table needed twenty-seven through
+thirty-three.
+
+**Also updated:** Appendix A (seven chapter blocks), Appendix B (four new
+cast, three second-appearance updates), Appendix D, Appendix F (25 new
+counter-drops merged alphabetically), Appendix G, Appendix Q, the content
+disclosure (chapter 20 now listed), HOW TO READ way 2, seven new SVG
+specimen icons, and the cold-open reel builder, which had a POV table and
+two episode tables all keyed to old chapter numbers.
+
+Reading copy of all seven, for review:
+`content/wook-audits/wook-new-chapters-READTHIS.md`.
+
+Shipped as v12. Both checkers at 0 against 33 chapters.
+

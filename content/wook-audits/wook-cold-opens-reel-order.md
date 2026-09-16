@@ -1,4 +1,5 @@
 # Wook in Sheep's Clothing — The Cold Opens
+All 33 of them.
 Every cold open as it currently stands live, plus a running order built for a promotional video series rather than for the book.
 Generated from the live book source, so this file cannot drift from what shipped. Regenerate with `python3 content/wook-audits/build-coldopen-reel.py`.
 
@@ -23,7 +24,7 @@ Chapter order is built for a reader who starts at the beginning and goes forward
 
 # Season One — the thirteen
 
-## EP 1 — Chapter 10: “We've Been Having Problems”
+## EP 1 — Chapter 12: “We've Been Having Problems”
 *Festie POV · 1,715 words · ~11 min read-aloud*
 
 **Open on:** “The bag is heavier than she thought.”
@@ -41,7 +42,7 @@ Chapter order is built for a reader who starts at the beginning and goes forward
 
 **Cut point:** End on: "I'm just generous. I bring an eight-ball to every party." Do not include the authorial turn that follows -- let the viewer sit in it.
 
-## EP 3 — Chapter 16: “She Said She'd Be Right Back”
+## EP 3 — Chapter 21: “She Said She'd Be Right Back”
 *Festie POV · 2,379 words · ~16 min read-aloud*
 
 **Open on:** “It is 1:47 a.m. and Jess has been gone for approximately four hours and nobody in the group can remember her last name.”
@@ -59,7 +60,7 @@ Chapter order is built for a reader who starts at the beginning and goes forward
 
 **Cut point:** End on the new courthouse beat: "It is the last time he does it." That is now a better video ending than the essay close that follows.
 
-## EP 5 — Chapter 14: “The Wristband Cop”
+## EP 5 — Chapter 18: “The Wristband Cop”
 *Wook POV · 2,487 words · ~17 min read-aloud*
 
 **Open on:** “The wristband is real.”
@@ -77,7 +78,7 @@ Chapter order is built for a reader who starts at the beginning and goes forward
 
 **Cut point:** End on: "what is the structure?"
 
-## EP 7 — Chapter 13: “The Mason Jar”
+## EP 7 — Chapter 16: “The Mason Jar”
 *Wook POV · 1,357 words · ~9 min read-aloud*
 
 **Open on:** “His name at this festival is Cosmo.”
@@ -86,7 +87,7 @@ Chapter order is built for a reader who starts at the beginning and goes forward
 
 **Cut point:** End on: "In her interior, something happened that she does not have a word for."
 
-## EP 8 — Chapter 12: “Forty A Cap”
+## EP 8 — Chapter 15: “Forty A Cap”
 *Wook POV · 2,192 words · ~15 min read-aloud*
 
 **Open on:** “I'm not a dealer.”
@@ -104,7 +105,7 @@ Chapter order is built for a reader who starts at the beginning and goes forward
 
 **Cut point:** End on: "None of that is what the twelve levers were built to test."
 
-## EP 10 — Chapter 17: “The DanceSafe Pin”
+## EP 10 — Chapter 22: “The DanceSafe Pin”
 *Wook POV · 1,906 words · ~13 min read-aloud*
 
 **Open on:** “The DanceSafe pin is on my snapback. Not ironically.”
@@ -113,7 +114,7 @@ Chapter order is built for a reader who starts at the beginning and goes forward
 
 **Cut point:** End on: "Wedge is one of the good ones. And he is building you a cage."
 
-## EP 11 — Chapter 18: “The Kombucha”
+## EP 11 — Chapter 23: “The Kombucha”
 *Festie (inside the group) POV · 2,602 words · ~17 min read-aloud*
 
 **Open on:** “She has been with the Lantern Family for three years.”
@@ -122,7 +123,7 @@ Chapter order is built for a reader who starts at the beginning and goes forward
 
 **Cut point:** End on: "She folds it into her sock." Keep El's own POV section out of this episode -- it is a bonus episode by itself.
 
-## EP 12 — Chapter 23: “The Re-Read”
+## EP 12 — Chapter 29: “The Re-Read”
 *Festie POV · 1,072 words · ~7 min read-aloud*
 
 **Open on:** “He is reading this book in a camp chair in his backyard on a Sunday afternoon in September.”
@@ -131,7 +132,7 @@ Chapter order is built for a reader who starts at the beginning and goes forward
 
 **Cut point:** End on: "The recognition is the point."
 
-## EP 13 — Chapter 26: “The Sealed Bottle”
+## EP 13 — Chapter 33: “The Sealed Bottle”
 *Festie (six months later) POV · 1,230 words · ~8 min read-aloud*
 
 **Open on:** “She opens her own bottles now.”
@@ -146,31 +147,45 @@ Chapter order is built for a reader who starts at the beginning and goes forward
 
 Ordered, but with less at stake in the ordering — by this point the audience is bought in and each of these can stand alone.
 
-**EP 14 — Chapter 9: “Blue Lips”** *(Festie POV · ~9 min)* — The unicorn onesie asks the only question that matters. Now confirms whether Marco lived, which it previously did not.
+**EP 14 — Chapter 11: “Blue Lips”** *(Festie POV · ~9 min)* — The unicorn onesie asks the only question that matters. Now confirms whether Marco lived, which it previously did not.
 
-**EP 15 — Chapter 15: “The RV”** *(Festie POV · ~12 min)* — The click that was not the door. New: 'geometry' is the word he cannot stop landing on afterward.
+**EP 15 — Chapter 19: “The RV”** *(Festie POV · ~12 min)* — The click that was not the door. New: 'geometry' is the word he cannot stop landing on afterward.
 
-**EP 16 — Chapter 7: “Strike Day”** *(Witness POV · ~14 min)* — Twelve feet and a water bottle. New: the second before the twelve feet, where he almost doesn't.
+**EP 16 — Chapter 8: “Strike Day”** *(Witness POV · ~14 min)* — Twelve feet and a water bottle. New: the second before the twelve feet, where he almost doesn't.
 
-**EP 17 — Chapter 8: “Sterling At The Row”** *(Wook POV · ~14 min)* — Vendor row as a hunting ground. New: the school photo taped inside the cash box.
+**EP 17 — Chapter 9: “Sterling At The Row”** *(Wook POV · ~14 min)* — Vendor row as a hunting ground. New: the school photo taped inside the cash box.
 
-**EP 18 — Chapter 11: “The Corridor”** *(Festie POV · ~13 min)* — Highway stop as a sales call. New: she recognizes the word 'ask' from her uncle's car lot.
+**EP 18 — Chapter 13: “The Corridor”** *(Festie POV · ~13 min)* — Highway stop as a sales call. New: she recognizes the word 'ask' from her uncle's car lot.
 
 **EP 19 — Chapter 4: “Safe Hands”** *(Festie POV · ~12 min)* — The sunrise bond. New: the last text he ever sends, which could have gone to anyone.
 
-**EP 20 — Chapter 19: “Tuesday”** *(Festie POV · ~13 min)* — The hollowing out. New: the bass she sold in 2021 to cover a booth fee, which at the time felt like liquidity.
+**EP 20 — Chapter 24: “Tuesday”** *(Festie POV · ~13 min)* — The hollowing out. New: the bass she sold in 2021 to cover a booth fee, which at the time felt like liquidity.
 
-**EP 21 — Chapter 6: “Where Are You Camped”** *(Witness POV · ~12 min)* — Twenty-two minutes of weaponised vulnerability. New: Margo considers letting it go.
+**EP 21 — Chapter 7: “Where Are You Camped”** *(Witness POV · ~12 min)* — Twenty-two minutes of weaponised vulnerability. New: Margo considers letting it go.
 
-**EP 22 — Chapter 22: “The Tuesday-After”** *(Festie POV · ~8 min)* — The 3 a.m. encore in his voice, four weeks later. Heavy; needs a support-resources card.
+**EP 22 — Chapter 28: “The Tuesday-After”** *(Festie POV · ~8 min)* — The 3 a.m. encore in his voice, four weeks later. Heavy; needs a support-resources card.
 
-**EP 23 — Chapter 20: “The Drive Home”** *(Festie POV · ~9 min)* — The thirty-six-hour window. New: his text now shows he was watching her stories all weekend without being there.
+**EP 23 — Chapter 25: “The Drive Home”** *(Festie POV · ~9 min)* — The thirty-six-hour window. New: his text now shows he was watching her stories all weekend without being there.
 
-**EP 24 — Chapter 21: “The Gate Briefing”** *(Festie (no predator) POV · ~11 min)* — Sister Lou, a clipboard, fifteen minutes. The one with no predator in it at all.
+**EP 24 — Chapter 27: “The Gate Briefing”** *(Festie (no predator) POV · ~11 min)* — Sister Lou, a clipboard, fifteen minutes. The one with no predator in it at all.
 
-**EP 25 — Chapter 24: “The Napkin Network”** *(Montage POV · ~12 min)* — Five vignettes of the immune system working. Best as a mid-season anthology special.
+**EP 25 — Chapter 30: “The Napkin Network”** *(Montage POV · ~12 min)* — Five vignettes of the immune system working. Best as a mid-season anthology special.
 
-**EP 26 — Chapter 25: “The Taper's Reveal”** *(Author direct address POV · ~3 min)* — The author confesses every technique used on the reader. Only works as a finale, and only after the rest.
+**EP 26 — Chapter 32: “The Taper's Reveal”** *(Author direct address POV · ~3 min)* — The author confesses every technique used on the reader. Only works as a finale, and only after the rest.
+
+**EP 27 — Chapter 6: “The Group Chat”** *(Festie POV · ~14 min)* — Eleven weeks before the gate, in a Facebook group. Highest cold-start legibility of anything in the book -- no festival knowledge required at all, and it plays on any dating-safety feed.
+
+**EP 28 — Chapter 20: “The Next Twelve Hours”** *(Festie (after) POV · ~8 min)* — The morning after. Handle with care: this is the one clip that should carry its own card and the hotline number, and it should probably not be cut for engagement at all.
+
+**EP 29 — Chapter 26: “He Still Has Your Number”** *(Wook POV · ~11 min)* — Four messages in eleven weeks, narrated by the man sending them. The most unsettling thing in the book and the single most shareable Wook POV since the eight-ball.
+
+**EP 30 — Chapter 17: “The Container”** *(Festie POV · ~11 min)* — A hospital pharmacist drinks something nobody measured. Ends on a yes at hour three that was never a yes.
+
+**EP 31 — Chapter 10: “The Love Of It”** *(Witness POV · ~12 min)* — A twenty-three-year-old apologises with his wrist at the wrong angle. Plays far outside the scene -- every underpaid industry recognises it.
+
+**EP 32 — Chapter 14: “The Two Festivals”** *(Festie POV · ~10 min)* — Eleven adjustments in two and a half seconds, and a man four hundred yards away who gets a fond remark instead.
+
+**EP 33 — Chapter 31: “What To Tell Your Mom”** *(Default-world POV · ~9 min)* — A mother at a kitchen table with four drafted texts. The one clip to aim at parents rather than attendees.
 
 ---
 
@@ -331,7 +346,7 @@ Hopper was at a Phish run in Keene Valley by Tuesday.
 
 Different kid. Different tank. Same exit.
 
-Here is the thing the chapter has to tell you, and it might be the only thing that matters in all twenty-six chapters:
+Here is the thing the chapter has to tell you, and it might be the only thing that matters in all thirty-three chapters:
 
 That kid said yes for the exact same reason you have said yes to things that cost you.
 
@@ -759,7 +774,148 @@ That is every chapter.
 
 ---
 
-## Chapter 6: THE WEEP TENT HUSTLE
+## Chapter 6: THE GROUP CHAT
+*Festie POV · 2,106 words · ~14 min · reel position: EP 27*
+
+🎬THE DROP
+
+“The Group Chat”
+
+The cold open📍 FESTIE POV
+
+The festival is in June. It is currently the second week of March.
+
+Thea Lindqvist is twenty-four and she is sitting on the floor of her apartment in Tacoma with her back against the couch, which is where she sits despite owning the couch, and she has just been approved into a Facebook group called SOLSTICE GROVE 2026 — CAMP CONNECT / RIDESHARE / VIBES, which has four thousand one hundred members and a cover photo of a stage built into the side of a hill with fog in the trees, and she is about to make the single most ordinary decision anyone makes before their first big festival.
+
+She is going to post that she does not know anyone.
+
+She types it three times. The first version is too long and mentions her breakup. The second version is too casual and reads, she thinks, like a person trying to sound like she has been to festivals. The third version is the one that goes up, at 9:41 p.m. on a Tuesday:
+
+Thea posts: “first Grove, coming solo from Tacoma, any camps taking on a person who will absolutely do dishes? also is the Thursday entry line as bad as people say”
+
+She puts the phone face down. This is a thing she does, physically turning the phone over, as though the post were a pot on a stove that will boil faster if she watches it.
+
+Eleven minutes.
+
+Eleven minutes is how long it takes.
+
+The first reply is from a woman named Court who says welcome and that the Thursday line is fine if you come before two. The second is a guy posting a link to the official camping map with no other text, which is the Facebook-group equivalent of pointing. The third reply is four paragraphs long, and it is the one that matters, and the account it comes from has a profile picture of a man in his late thirties on a ridge at what is unmistakably golden hour, arms out, wearing a shearling vest in a climate that did not call for a shearling vest.
+
+His name on the account is Sundog.
+
+His actual name is Kevin Aubry, which Thea will not learn for eleven weeks, and which she will learn in a context that makes the learning feel like intimacy rather than like information she should have had in March.
+
+Sundog replies: “Thursday line is fine before 2, brutal after 4, and there’s a second gate most people don’t know about that’s a 20 min walk but zero wait — I’ll DM you the pin. Solo first Grove is the best way to do it btw, you’ll have twelve friends by Friday. The dishes offer is real currency though, don’t undersell it 😂 What are you driving? There’s a shade situation to think about if it’s a sedan.”
+
+Read that again and try to find the thing that is wrong with it.
+
+There is nothing wrong with it. That is not a rhetorical setup. There is genuinely nothing wrong with it. It is four paragraphs of accurate, useful, warm, specific, correct information delivered by someone who knows the event well, offered for free, to a stranger, at no cost to her and no visible benefit to him.
+
+It is also the first move.
+
+Both of those things are true at the same time and the entire chapter lives in the space between them.
+
+Here is what Thea does not know, because there is no mechanism in a Facebook group that would tell her:
+
+Sundog has answered four hundred and six questions in this group since 2019.
+
+He has answered them correctly. He has answered them kindly. He has never once posted a photo of himself at the festival with other people, though he has posted many photos of the festival itself — the stage in fog, the art in daylight, a dog in a bandana that belongs to someone else. He has never been reported. He has never had a conflict in the comments. Twice he has stepped in when someone was being rude to a first-timer and said something calm and de-escalating, and both times a moderator thanked him publicly.
+
+He is, by every metric the group is capable of measuring, the single best member of this community.
+
+The group measures: post count, helpfulness, absence of complaints.
+
+The group does not measure: who he DMs, how quickly, how many, or what happens after.
+
+The pin arrives four minutes later. Then the shade conversation. Then a photo of a specific canopy on a specific website, which is thirty-one dollars and which he says is the exact one to get, do not get the forty-dollar one, it is the same canopy.
+
+Thea buys the thirty-one dollar canopy.
+
+This is not a mistake. It is the correct canopy. He is right about the canopy. Eleven weeks from now, on a Thursday afternoon in a dirt lot in southern Oregon, that canopy is going to keep the sun off her and she is going to feel a small pulse of gratitude toward the person who told her about it, and that pulse is going to be one of about four hundred small pulses of gratitude that have accumulated, by then, into something that is not gratitude anymore.
+
+March 14: the gate pin, the canopy.
+
+March 22: he asks how the drive looks. She says she is nervous about the pass. He sends a screenshot of a weather service most people do not know about.
+
+April 3: she mentions, in passing, in the group, that work has been a lot. He DMs: “work being a lot in March is a Grove tradition, everyone’s hanging on til June.” She laughs out loud in a break room.
+
+April 9: he sends a playlist. It is a good playlist.
+
+April 19: her dog has a vet thing. She had told the group, in a comment on someone else’s post, that she has a fourteen-year-old dog named Gus. Sundog remembers the dog’s name. He asks about Gus by name, three weeks after the only time she ever mentioned it.
+
+That is the one. That is the load-bearing beam of the whole eleven weeks. Not the pin, not the canopy, not the playlist.
+
+The dog’s name.
+
+Because in the specific conditions of being twenty-four and alone in a city where you moved for a job, the experience of someone remembering a detail you only said once produces a sensation so physically specific — a small warmth behind the sternum, a loosening in the jaw — that the nervous system files it under a category it has other, older entries in. The category is not helpful stranger. The category is people who care about me, and that category was populated when she was six.
+
+He did not steal anything to get that. He read a comment and he wrote down a dog’s name.
+
+It is a very cheap move. It costs approximately nine seconds. It is the highest-return nine seconds available in the entire pre-festival economy, and some percentage of the people spending it are spending it because they are lovely, and some percentage are spending it because it works, and there is nothing in a text thread that distinguishes between the two.
+
+May 2: “this thread’s getting long lol, you on Signal?”
+
+She is not on Signal. She downloads Signal.
+
+Notice what happened there and notice that nothing about it felt like anything. The conversation moved from a platform where it existed inside a community of four thousand people, with a moderator, a report button, a screenshot-able history, and a social context — to a platform with none of those, where the messages disappear on a timer he sets, which he sets to one week, which he describes as “I just keep my phone clean.”
+
+He does keep his phone clean.
+
+That is the honest version. It is also the version where nothing that happens between the two of them from May 2 onward exists anywhere that anyone can look at later, including Thea, who in August will try very hard to reconstruct the order in which things happened and will not be able to, and will experience that inability as a fact about her own memory rather than as the intended function of a setting.
+
+May 20: the ride. Of course the ride. He is driving down from Olympia, he passes through Tacoma, he has a four-person rig and “two spots left,” a phrasing that implies two other people exist.
+
+Two other people do not exist. There is no rig. There is a 2016 Tacoma with a shell.
+
+She says yes, and then — and this is the part worth watching closely, because this is the part that everyone who has never been in it does not believe — she says yes and then tells her friends about it with enthusiasm, because she is not being deceived into a car with a stranger. She is getting a ride with Sundog. Sundog, who has been in her phone since March. Sundog, who knows about Gus. Sundog, who sent the playlist and was right about the canopy and once talked her out of buying a bad sleeping pad.
+
+Her friend Bea, on the phone, asks the question that friends ask.
+
+Bea says: “Wait, how do you know him?”
+
+Thea says: “From the group. He’s like — he’s the guy in the group. Everyone knows him.”
+
+Hold that sentence up to the light.
+
+Everyone knows him.
+
+Four thousand one hundred people have seen his name. Zero of them have been in a room with him. He has a reputation that is one hundred percent constructed from public text and zero percent constructed from anybody’s actual experience of his conduct. There is no one to call. There is no camp he has been part of for six years. There is no woman who toured with him in 2021 who could tell you a thing. There is a posting history, and a posting history is not a reference, and the scene has not yet built the reflex that tells the difference.
+
+She gets in the truck on a Wednesday at 6:15 a.m.
+
+She has four days of her life in a duffel bag, a thirty-one dollar canopy, and — this is true and it is the part that makes the whole thing sit in the chest — a genuine, warm, entirely real excitement about spending seven hours in a car with someone she considers a friend.
+
+He is a good driver. He buys the gas. He does not do anything.
+
+He does not do anything for a long time.
+
+Here is what the chapter is actually about, and it is not the truck.
+
+By the time Thea Lindqvist arrives at Solstice Grove, every protective reflex this book spends twenty-six other chapters installing has already been disabled, and not one of them was disabled at the festival.
+
+Don’t go off alone with someone you just met — she didn’t just meet him. Eleven weeks.
+
+Use the buddy system — he is the buddy. He is the only person she knows there.
+
+Tell someone where you’re going — she did. She told her friends she was going to Solstice Grove with Sundog. They know the name. The name is not a person.
+
+Trust your gut — her gut has eleven weeks of evidence that this person is warm, reliable, and correct about canopies. Her gut is not broken. Her gut is working perfectly on the data it was given. The data was curated.
+
+Meet in public first — they did. For eleven weeks. In a group with four thousand members. In public is exactly where he built it.
+
+Every safety rule the scene has was written for a world where the stranger is a stranger when you meet him. That world ended when the pre-event group chat became the front door, and the rules have not been rewritten, and nobody announced the change.
+
+The predator did not get better. The on-ramp got longer.
+
+Nothing happens in the truck. Nothing happens Thursday. Nothing happens Friday, either, except that Thea’s canopy is next to his shell and her phone is at eleven percent and the only charger is in his truck and that is not a plot, that is just a charger, and if you are reading this waiting for the moment where he becomes obviously dangerous, you are reading it the way Thea read the eleven weeks.
+
+Looking for a moment.
+
+There is no moment. There is an architecture, and it was finished in March.
+
+---
+
+## Chapter 7: THE WEEP TENT HUSTLE
 *Witness POV · 1,831 words · ~12 min · reel position: EP 21*
 
 🎬THE DROP
@@ -894,7 +1050,7 @@ The chamomile is still warm.
 
 ---
 
-## Chapter 7: THE CULT THAT CALLS ITSELF FAMILY
+## Chapter 8: THE CULT THAT CALLS ITSELF FAMILY
 *Witness POV · 2,048 words · ~14 min · reel position: EP 16*
 
 🎬THE DROP
@@ -1015,7 +1171,7 @@ That is the distance of the entire chapter.
 
 ---
 
-## Chapter 8: VENDOR ROW BLOODSPORT
+## Chapter 9: VENDOR ROW BLOODSPORT
 *Wook POV · 2,085 words · ~14 min · reel position: EP 17*
 
 🎬THE DROP
@@ -1136,7 +1292,122 @@ And the vendor row is full of people who came to sell things they made, and the 
 
 ---
 
-## Chapter 9: THE BAD TRIP BABYSITTER
+## Chapter 10: THE LOVE OF IT
+*Witness POV · 1,819 words · ~12 min · reel position: EP 31*
+
+🎬THE DROP
+
+“The Love Of It”
+
+The cold open📍 WITNESS POV
+
+It is Wednesday, which nobody at this festival will ever know exists.
+
+The gates open Friday at noon. Between now and then there are three hundred and some people in this field in hi-vis and boots and no makeup, moving eleven semi-trailers’ worth of steel and cable into an arrangement that will, on Friday, look like it grew there.
+
+My name is Bernadette Laurier and everybody has called me Bird since 2009. I am forty-six. I run load-in on the two secondary stages, which means for four days I am a person who owns a laminate, a radio on channel three, a clipboard I do not need, and the specific authority that comes from being the only one who knows where the ballast went.
+
+At 2:40 p.m. on Wednesday, a twenty-three-year-old named Rook comes off a six-foot A-frame ladder.
+
+Not dramatically. That is the thing nobody tells you about how people actually get hurt at these events — it is never the thing that looks dangerous. It is not the scissor lift or the forty-foot truss or the forklift with the guy who is definitely ticketed. It is a six-foot ladder on soft ground with one leg sinking two inches into a rut that a water truck made on Monday.
+
+He goes down sideways, catches himself on his left hand, and makes a sound I have heard maybe nine times in twenty years and never once mistaken for anything else.
+
+What happens next takes forty minutes and it is the entire chapter, so I am going to give it to you in real time.
+
+2:41. Four people get to him. Two of them are good at this. Somebody has already got his arm supported and is asking him what day it is, which is the right question, and Rook answers it correctly and then says, and I want you to hold this sentence because it is the load-bearing beam of everything that follows:
+
+Rook says: “I’m so sorry.”
+
+He is twenty-three, his wrist is sitting at an angle wrists do not sit at, he is gray around the mouth, and the first full sentence out of him is an apology.
+
+2:44. I call it in on channel three. I ask for medical to the B-stage deck.
+
+Medical comes back and asks — this is standard, this is not sinister, this is a person doing their job with the form in front of them — for the patient’s role.
+
+“Crew,” I say.
+
+“Contractor or volunteer?”
+
+And there it is. Forty seconds in. The only question the entire apparatus actually needs the answer to, asked before anyone has asked what hurts.
+
+2:46. “Volunteer,” I say, because that is the true answer, and because I already know what the true answer means, and because I have been doing this long enough to hear a door close over a radio.
+
+2:49. Medical arrives and they are excellent. I want that in the record. The two humans who show up are competent, kind, fast, and they immobilize the wrist and get him off the deck and into shade and they do not care even slightly about his employment classification, because they are medics and the job of a medic is the body in front of them.
+
+The medics are also, both of them, volunteers.
+
+They are being paid in a ticket, a meal voucher, and a place to park. They are treating a workplace injury at a job site in a field with eleven semis and three hundred workers and a crane, and the entire medical response to that job site is two people who are, in the eyes of every document that matters, guests at a party.
+
+2:58. Shay from ops arrives with the tablet. Shay is twenty-eight, has a lanyard that says CORE TEAM, works probably eight hundred hours a year on this event, and makes zero dollars for approximately seven hundred and forty of them. Shay is the person who has to fill in the incident form. Shay is very good at their job, which is a job they do not have.
+
+Shay gets to field four and stops.
+
+I watch them stop. I know what field four is. Field four is EMPLOYMENT STATUS and it has a dropdown and the dropdown has three options and none of them is the actual situation.
+
+3:02. A guy I will not name — he is not a villain, he is a mid-level production manager who is himself paid badly and is trying to keep a festival from coming apart in front of him — says the sentence. He says it quietly, to Shay, not to me, and he does not think I can hear it, and he says it in the tone of a person offering a practical solution to an administrative problem:
+
+He says: “Can we just — is it site, or is it a personal injury? Because if it’s personal we don’t have to open a whole thing.”
+
+Nobody is being evil. I need you to understand that, because if you read this and picture a cartoon, you will miss the actual mechanism, and the actual mechanism is the point.
+
+He is not trying to hurt Rook. He is trying to avoid opening “a whole thing,” and he has correctly identified that there is no clean way for this apparatus to hold a hurt volunteer, and the path of least resistance is for the injury to have happened to a person rather than to a worker.
+
+The festival did not decide to do this on Wednesday at 3:02 p.m. The festival decided it in February, when it built a production budget in which three hundred people are called volunteers and forty are called contractors and the work they do overlaps by about eighty percent.
+
+3:11. Rook is in the shade with a splint and somebody’s hoodie under his elbow and he asks me the question. He asks it the way you ask about weather.
+
+Rook says: “Am I still good for Friday?”
+
+His wrist is broken. He is asking whether he will still be allowed to work.
+
+And I say what you say, which is that he needs to get it x-rayed, and he says he will after, and I say after what, and he says after load-out.
+
+Here is Rook’s actual situation, which I know because I have known him three years and because everyone on a crew eventually knows everyone’s numbers:
+
+He drove eleven hours to be here. He took four days off from a job that does not give him four paid days. He will work, across the week, somewhere between fifty-five and seventy hours. He will be paid in: a general admission wristband worth three hundred and eighty dollars, two crew meals a day, a parking pass, and a black t-shirt in a size nobody asked him for.
+
+He does not have health insurance. He is twenty-three and he works retail and this is 2026 and no, he does not.
+
+He has told his mother he has “a gig at a festival.” He has used the word gig. His mother believes her son has a job in live events, because her son has a job in live events, because he does the job, and the fact that the compensation for the job is a wristband is a detail that did not survive the phone call.
+
+3:17. Dutch walks past.
+
+Dutch is fifty-one. Dutch is a rigger. Dutch has a truck, an LLC, a certificate of insurance on file with the production company, and a rate. Dutch will make four thousand two hundred dollars this week. Dutch is excellent and worth every dollar and I am not making a point about Dutch.
+
+I am making a point about the fact that on Monday, Dutch and Rook spent six hours doing the same task, forty feet apart, and one of them was a worker and one of them was a guest, and the only difference between them is that Dutch is fifty-one and knows the word invoice.
+
+Rook does not know what Dutch makes. Rook has no way to find out. The org chart is not hiding it, exactly. It is just built so that the question never occurs to anyone, because there is no room in which those two numbers sit next to each other and nobody has ever printed them on the same page.
+
+3:20. Somebody comes by and tells Rook that crew is family and we take care of our own, and they mean it, and they are not lying, and forty minutes ago the apparatus tried to decide whether his broken wrist happened at work.
+
+Both of those are true. That is what makes this hard.
+
+Because the family thing is real. I have been carried by this crew. When my mother died in 2019 there were nineteen people at the service and eleven of them I met in a field. These are my people. This is my life. I am not writing a chapter about how festival crew is a scam, because it is not a scam, it is the best thing that ever happened to me.
+
+It is also a labor arrangement, and it is one that would not survive twenty minutes of contact with anyone whose actual job is to look at labor arrangements, and it survives because everyone inside it — including me, including me for twenty years — has agreed to experience it as belonging rather than as employment.
+
+You cannot unionize a family. That is not a metaphor. That is the functional consequence.
+
+4:05. The deck is finished. Somebody else went up the ladder. The show will be beautiful.
+
+On Friday forty thousand people will walk in and the B-stage will be standing there in the trees looking like it has always been there, and it will be genuinely magnificent, and I will feel the thing I have felt for twenty years, which is a pride so specific and so physical that I have never managed to describe it to anyone who does not do this.
+
+Rook will be there. In the black t-shirt. With a splint he bought himself at a Walgreens in the next town over for thirty-one dollars, because he did not want it on the incident form.
+
+He will work Friday.
+
+He will be so happy.
+
+That is not the sad part of the story. That is the load-bearing part. He will be genuinely, uncomplicatedly happy to be there, and the happiness will be real, and the happiness is exactly what the budget is built on top of.
+
+You do not need to coerce anybody into this. That is what makes it different from every other chapter in this book. Nobody ran a play on Rook. Nobody needed to.
+
+All you have to do is find people who love something, and then let them.
+
+---
+
+## Chapter 11: THE BAD TRIP BABYSITTER
 *Festie POV · 1,398 words · ~9 min · reel position: EP 14*
 
 🎬THE DROP
@@ -1219,7 +1490,7 @@ The Free Cap Funnel is real. The warmth that operates it is also real. And you a
 
 ---
 
-## Chapter 10: THE TAMPON BAG
+## Chapter 12: THE TAMPON BAG
 *Festie POV · 1,715 words · ~11 min · reel position: EP 1*
 
 🎬THE DROP
@@ -1318,7 +1589,7 @@ The bag was always going to be in Nadia’s footwell.
 
 ---
 
-## Chapter 11: THE ROAD
+## Chapter 13: THE ROAD
 *Festie POV · 1,931 words · ~13 min · reel position: EP 18*
 
 🎬THE DROP
@@ -1455,7 +1726,106 @@ This chapter is the fifteen-minute conversation you have before you get in the c
 
 ---
 
-## Chapter 12: THE BATCH
+## Chapter 14: THE TWO FESTIVALS
+*Festie POV · 1,503 words · ~10 min · reel position: EP 32*
+
+🎬THE DROP
+
+“The Two Festivals”
+
+The cold open📍 FESTIE POV
+
+It is 1:14 a.m. and Terrence Boyd is doing the most ordinary thing anyone does at a festival, which is walking a friend to the harm-reduction tent.
+
+Everyone calls him Tee. He is thirty-one. This is his ninth year at this event, which is one year longer than the woman currently holding onto his forearm has been coming, and four years longer than the two security staff walking toward them have worked here.
+
+Her name is Blythe. She is twenty-six and she is having the kind of psychedelic experience that the Zendo exists for — not dangerous, not medical yet, just very large and going the wrong way, the specific loop where the loop is the problem. She is crying and she is also laughing at herself for crying and she keeps saying “I’m okay, I’m okay, I just need the thing, what’s the thing” and Tee is saying “the tent, we’re going to the tent, eleven minutes,” which is the correct answer and the correct tone and he has done this maybe forty times in nine years because he is the person in his camp who is good at it.
+
+The two security staff are not running. They are not aggressive. They are, I want to be precise, not doing anything that would look like anything on a body camera.
+
+They walk up and they address Tee.
+
+Not Blythe.
+
+Security says: “Hey man, everything good here?”
+
+And here is the part of this chapter that is hardest to convey to people who have not lived inside it, so I am going to slow the tape all the way down, because the whole thing happens in about two and a half seconds and it contains an entire second festival.
+
+Tee does eleven things at once.
+
+He stops walking, because continuing to walk while being addressed reads as evasion. He turns to face them squarely, because turning partially reads as concealment. He takes his right hand off Blythe’s forearm, because a hand on a crying white woman is the single most misreadable object in this field, and he does this knowing that removing it makes her less steady and that she may stumble and that the stumble is a cost he has decided to pay. He moves both hands out from his sides, palms visible, at hip height — not up, never up, up is theatre and theatre escalates — just visible. He drops his chin slightly. He lowers his voice about fifteen percent, because volume is the first thing that gets recategorized. He slows his speech. He puts a smile on, not a big one, a small competent one. He leads with an institution rather than with himself. And he says the sentence he has said a version of since he was fourteen years old in a Kroger parking lot in Dayton:
+
+Tee says: “Yes sir — I’m walking my friend over to the Zendo tent, she’s having a hard time. I’m with Camp Larkspur, we’re on the east side.”
+
+Eleven adjustments. Two and a half seconds. Ninth year at this festival.
+
+Now count what he did not have available to him in those two and a half seconds, because that is the actual injury and nobody sees it: he did not get to be worried about Blythe. There was no room. Every processor he had was allocated to managing the perception of a man walking a woman across a field at night, and none of it was allocated to the friend in his hands who is the entire reason he is out here.
+
+The thing that was taken from him was not his dignity. It was his attention. And the attention was supposed to be hers.
+
+The security staff — and I want to be fair to these two people because they are not the villains of this chapter and the chapter does not work if you turn them into villains — relax about forty percent. One of them nods. The other one looks past Tee, at Blythe, and asks her the question.
+
+Security says to Blythe: “Ma’am, are you all right?”
+
+Read it in the register it was actually asked in.
+
+It is a real welfare check and it is a good thing that staff check on crying people at 1 a.m. But it is not being asked about her substance, her state, or whether she needs a medic, and everyone standing in that grass — including Blythe, who is deep in a hard trip and still clocks it, which tells you how loud it is — understands what is actually being asked, which is: is this man bothering you.
+
+Blythe, to her enormous credit and in the middle of the worst two hours of her month, says: “He’s my friend, he’s helping me, please leave us alone.”
+
+They leave. Eight seconds, start to finish. Nothing happened.
+
+Nothing happened is the phrase that will be used later, by everyone, including Tee, who will describe this to no one because there is nothing to describe.
+
+Eleven minutes later they reach the Zendo, and the Zendo is wonderful — the Zendo is one of the genuinely great institutions this culture has built — and a volunteer takes Blythe’s hands and Blythe has a long, difficult, ultimately good four hours and comes out the other side of it with something she will be grateful for.
+
+Tee sits outside on an overturned bucket and does not go in.
+
+He is not shaken. He wants that noted. He is not traumatized, he is not upset, nobody was rude to him, and if you asked him at 1:30 a.m. what happened he would say nothing happened, because nothing did.
+
+He is just tired in a way that is very specific and that has a shape he knows well, and the shape is: I ran the protocol again.
+
+Now here is the second festival, and it is happening at the same time, four hundred yards away, and it is not a metaphor.
+
+At 1:22 a.m., a twenty-four-year-old named Cody is being walked to the same Zendo by his friend Marcus. Cody is in rougher shape than Blythe — he is shirtless, he has lost a shoe, he is saying things loudly, and at one point he sits down in the middle of a thoroughfare and will not get up.
+
+Two security staff pass within fifteen feet.
+
+One of them says, to nobody, warmly: “Somebody’s having a night.”
+
+They keep walking.
+
+That is it. That is the entire event. A louder, more disruptive, more visibly altered person, actively blocking a walkway, generates a fond remark and no contact whatsoever.
+
+And I want to be careful here, because the reflex is to say the staff were negligent with Cody. They were not. That is the correct response. A guy having a big night, with a friend, headed somewhere — you let them go. The festival should run on that. That is what a functioning event looks like.
+
+The problem is not what happened to Cody.
+
+The problem is that the thing that happened to Cody is what the festival is for, and Tee has been coming for nine years and has never once had it.
+
+He has had a great time. He loves this event. He has met the best people of his life here, he has cried at sunrise sets, he has done all of it. And he has also never in nine years walked from one side of this property to the other at night without running eleven adjustments, and his friends who have been coming the same nine years do not know the protocol exists, because it has never once been necessary to explain it to them and because explaining it is its own kind of work.
+
+Two festivals. One gate. Same wristband. Same forty thousand people. Same music.
+
+One of them has an entrance fee that is not printed on the ticket.
+
+At 1:51 a.m. Tee goes back to camp. Somebody at the fire says, delighted to see him, meaning nothing but love by it, meaning it as a joke between friends:
+
+Somebody says: “Yo, there he is — you got anything?”
+
+Eleventh time this weekend. Four days. Tee has, in nine years of attendance, never sold anything to anyone.
+
+He laughs. It is a real laugh; these are his people and he loves them and the guy who said it would take a bullet for him.
+
+Then he gets a beer and sits down and does not say the thing, because it is 1:51 a.m., and because saying it would make it weird, and because he has a whole day tomorrow and he would like to enjoy it.
+
+That is the tax. It is not the security guards. It was never mostly the security guards.
+
+It is that the cost of naming it is always higher, at 1:51 a.m. at a campfire with people you love, than the cost of absorbing it one more time.
+
+---
+
+## Chapter 15: THE BATCH
 *Wook POV · 2,192 words · ~15 min · reel position: EP 8*
 
 🎬THE DROP
@@ -1608,7 +1978,7 @@ That calculation is the Wook.
 
 ---
 
-## Chapter 13: THE FREE ONE
+## Chapter 16: THE FREE ONE
 *Wook POV · 1,357 words · ~9 min · reel position: EP 7*
 
 🎬THE DROP
@@ -1691,7 +2061,120 @@ This chapter is the word.
 
 ---
 
-## Chapter 14: THE UNDERCOVER
+## Chapter 17: THE CONTAINER
+*Festie POV · 1,608 words · ~11 min · reel position: EP 30*
+
+🎬THE DROP
+
+“The Container”
+
+The cold open📍 FESTIE POV
+
+Noor Haddad did everything right, and I want to establish that before anything else happens, because the story does not work if you are allowed to think she was careless.
+
+She is thirty-four. She is a hospital pharmacist. She has read about this for two years. She has an actual working knowledge of serotonergic drug interactions, which is more than almost anyone in that dome has, including the man running it.
+
+She asked questions. Good ones. Here are the questions she asked, by email, in the three weeks before:
+
+What is the medicine and where does it come from. How much will I be given. Who will be present. What is your training. What happens if someone has a medical emergency. What is your policy on physical contact. Is there integration support afterward.
+
+Every single one of those is the right question. She got answers to all seven.
+
+Every answer was given to a woman who was sober, in her apartment, on a Tuesday, three weeks in advance.
+
+Hold onto that sentence. That is the whole chapter and everything else is just what it looks like when it happens to a person.
+
+The space is a geodesic dome about sixty feet across on private land eleven miles from the festival, the weekend after. It has good rugs. It has that specific smell — palo santo, wet canvas, and the faintly agricultural note that anyone who has been around this work will recognize immediately. Twenty-two participants. One facilitator and two “holders,” which is the word used, and which is not a role with a definition.
+
+The facilitator is called Amaru. His website says he spent twelve years apprenticing with elders in the Sacred Valley. It does not name them. It does not name the community, the lineage, the village, or any human being who could confirm that he was ever there. This is not hidden. It is simply not there, and the absence has the texture of humility rather than of evasion, which is the most efficient possible way to have no credentials.
+
+He is, and this matters, extremely good at this. Warm. Funny. Unhurried. He remembers everyone’s name within an hour of meeting them. He says several genuinely wise things over the course of the evening that Noor will still think about in three years.
+
+7:40 p.m. Phones into a basket by the door. The reason given is presence, and the reason is correct, and every serious space does some version of this, and it is also the moment twenty-two people become unreachable and unrecording.
+
+7:52 p.m. The agreements. Spoken aloud, in a circle. They are good agreements. Confidentiality. Respect. Stay in the container — do not wander off the property, for your own safety, because there is a creek and a road.
+
+That one is true. There is a creek. There is a road. People have been hurt at events like this by wandering, and the rule exists because of real incidents and it is a responsible rule.
+
+It is also a rule, agreed to in advance, that you will not leave.
+
+Notice that almost everything in this chapter is like that. Nearly every individual element is defensible and most of them are actively good practice. The architecture is assembled entirely out of reasonable parts.
+
+8:30 p.m. The cup.
+
+Noor asks the question she came ready to ask, which is what the dose is.
+
+Amaru says: “The medicine knows. We pour with intention, not with a scale.”
+
+Twenty-two people hear a beautiful sentence. One hospital pharmacist hears an unblinded administration of an unquantified dose of an uncharacterized preparation, and she has about four seconds to decide whether to be the person who makes it weird, in a circle, in front of twenty-one strangers who are all being very gracious, on a night she paid four hundred dollars for and drove three hours to attend and has been looking forward to for three weeks.
+
+She drinks it.
+
+Write down what happened there, because it was not a failure of intelligence, and it was not even really a failure of nerve. It was the Five-Minute FOMO Freeze and the Cosmic Co-Sign from Chapter 2, plus the Sunk Cost Swamp, running simultaneously, on a professional who understood the pharmacology better than the man pouring.
+
+Knowing the mechanism does not disable the mechanism. Nothing in this book disables the mechanism. The counter-drops work because they are decided in advance, out loud, with somebody else — not because you are smart in the moment. Nobody is smart in the moment. That is what the moment is.
+
+9:15 p.m. It comes on.
+
+10:40 p.m. The second cup is offered. This is normal in this modality and is not by itself a red flag. What is a red flag is the framing, and the framing is: “The medicine will tell you if you need more.”
+
+Consider who is being asked. A person ninety minutes into a strong dose is being invited to assess, using their currently dissolving executive function, whether to take more of the thing that dissolved it. There is no version of that question that produces informed consent, and the question is always asked, and it is always asked of the person least able to answer it.
+
+Noor takes the second cup. She does not remember deciding to.
+
+12:20 a.m. Hour three. Peak. She is in it — not in distress, actually in something enormous and beautiful that she is glad to have had, and that part is real and she will not let anyone take it from her afterward, including me, including this chapter.
+
+Amaru sits down beside her.
+
+He says her name, warmly. He asks if he can do some energy work on her.
+
+She says yes.
+
+She says yes.
+
+And this is where the chapter actually lives, so I am going to be very plain and very slow, because the next part is where almost everybody’s thinking goes wrong, including hers, for eleven months.
+
+That yes is not consent.
+
+Not because she did not mean it — she did mean it, in the way you mean things at hour three. Not because she was coerced in the moment — nobody raised their voice, nobody threatened anything. The word was freely produced by her mouth.
+
+It is not consent because consent requires the capacity to refuse, and refusal requires the ability to assess, hold a boundary, tolerate social friction, and predict consequences — and every one of those functions was chemically unavailable to her at 12:20 a.m., which is not an accident of the evening, it is the purpose of the evening. She paid four hundred dollars to have those functions suspended. That was the product.
+
+Chapter 5 said it in six words: yes is a sober word.
+
+This chapter is what it looks like when a whole institution is built on collecting that word after it stops being one.
+
+What happens next is hands on her ribs and her sternum and her hips over the course of about forty minutes, and none of it is sexual in any way she could describe to a police officer, and one part of it is, and she will spend most of a year deciding whether she is allowed to say which part.
+
+Here is why she will spend a year on it, and this is the cruelest part of the design, and it is the reason this chapter exists:
+
+She said yes. She remembers saying it. There is no ambiguity in her memory about that, and her memory of everything else is a smear of geometry and gratitude and one specific moment of cold that she cannot place in time.
+
+So every time she starts the sentence — to a friend, to her therapist, to herself at 4 a.m. — she arrives at but I said yes, and the sentence stops.
+
+Twenty-one other people were in that dome. Four of them were awake. Zero of them were recording. Her phone was in a basket by the door.
+
+2:10 a.m. She sleeps on a rug under a wool blanket that somebody kindly puts over her, and it is a genuine kindness, and this is a place where people are kind to each other constantly.
+
+10:00 a.m. The integration circle. Everyone shares. It is moving. Two people cry. Noor says something about her father that she has never said out loud and it is true and it helps her, and she means it.
+
+11:30 a.m. On the way out, Amaru takes her hand in both of his and says that a lot came up for her and that this is the part where people need the most support, and that he has a few one-on-one integration slots, and they are one-fifty an hour.
+
+She books four.
+
+Not because she is a fool. Because she is thirty-four and something enormous happened to her and the only person on earth who was there for it is standing in front of her offering to help her understand it.
+
+That is the business. Not the ceremony. The ceremony is the customer acquisition cost.
+
+Four hundred dollars for the night. Six hundred for the integration. And a man who was present for the single most disorganizing experience of her adult life is now the sole interpreter of what it meant, at one-fifty an hour, for as long as she needs help understanding a thing that he administered, without a scale, and during which he put his hands on her.
+
+Every part of that sentence is legal.
+
+Most of it is, in the world this takes place in, considered good practice.
+
+---
+
+## Chapter 18: THE UNDERCOVER
 *Wook POV · 2,487 words · ~17 min · reel position: EP 5*
 
 🎬THE DROP
@@ -1830,7 +2313,7 @@ That is the whole chapter condensed to four words.
 
 ---
 
-## Chapter 15: THE RV
+## Chapter 19: THE RV
 *Festie POV · 1,743 words · ~12 min · reel position: EP 15*
 
 🎬THE DROP
@@ -1887,7 +2370,7 @@ He walks out of the RV at 11:14 p.m. with: no phone. No wallet. No keys. No cash
 
 The no recourse is the thing that is worth sitting with for a moment, because it is the thing that makes this chapter different from the others in the practical-danger section.
 
-In Chapter 9, the counter-drop involves calling for help. In Chapter 10, there are rights you can invoke. In Chapter 11 and 12, there are protocols and policies and legal structures that imperfectly but meaningfully exist.
+In Chapter 11, the counter-drop involves calling for help. In Chapter 12, there are rights you can invoke. In Chapter 13 and 15, there are protocols and policies and legal structures that imperfectly but meaningfully exist.
 
 In this chapter, Jordan has been robbed at gunpoint and his available options are:
 
@@ -1931,7 +2414,112 @@ But the geometry of the RV was a choice that happened before the robbery, and th
 
 ---
 
-## Chapter 16: THE MISSING FRIEND
+## Chapter 20: THE NEXT TWELVE HOURS
+*Festie (after) POV · 1,180 words · ~8 min · reel position: EP 28*
+
+🎬THE DROP
+
+“The Next Twelve Hours”
+
+The cold open — the morning after📍 FESTIE POV — AFTER
+
+It is 5:40 in the morning and Frankie Aldana is lying on her back in a two-person tent doing an inventory.
+
+Not of feelings. Of objects and distances, which is what the mind does when it has decided that feelings are not currently survivable and has switched to logistics instead.
+
+The tent is hers. The sleeping bag is hers. Her shoes are outside the flap where she left them, which means she took them off, which means she was upright and functional at some point, which is a fact she turns over about eleven times in the next four minutes trying to make it mean something.
+
+She is twenty-seven. She is a veterinary technician from Reno. This is day three.
+
+The nearest hospital is ninety minutes away and she knows this only because a guy at the info booth mentioned it on Thursday in the context of a joke about ambulance rides.
+
+Her phone is at nine percent. There is no charger in this tent. There is no signal in this field, not really — there is the thing where a text sends if you hold the phone toward the northeast and wait.
+
+Her ride home is Vaughn, who is asleep in the next tent, who is lovely, and who is leaving at eleven on Monday because he has work Tuesday.
+
+She is four hundred and twelve miles from her apartment.
+
+She is wearing a wristband that cannot be removed without scissors.
+
+And she does not know what happened.
+
+That is the part nobody writes about, and it is the part that runs the next twelve hours, so I am going to stay with it.
+
+She does not have a memory with a beginning, a middle and an end. She has: the fire, and then being somewhere with a low ceiling, and then a specific pattern of light through fabric, and then a gap, and then walking, and then her shoes.
+
+The gap is not empty. That is the worst part. The gap has things in it that surface for a second and go back down.
+
+So the loop starts, and the loop is not how do I get help. The loop is:
+
+Did something happen.
+
+I think something happened.
+
+I was really messed up though.
+
+I went with him. I remember going.
+
+If I can’t remember it, how can I say it.
+
+Everyone is going to ask what I took.
+
+I took a lot.
+
+And then, underneath all of it, arriving with the specific force of something that feels like the only available action in the entire world:
+
+I need a shower.
+
+At 6:05 a.m. Frankie walks to the shower block with a towel and a bar of soap somebody left in a caddy, and she stands under lukewarm water for twenty-six minutes, and she scrubs.
+
+I want to stop the chapter here and say one thing to whoever needs it.
+
+If you did that — if you are reading this a month or a year later and the thing you cannot forgive yourself for is the shower — put it down. Everybody showers. It is the most common response there is, it is a physiological demand, and it is not a mistake, and it is not evidence of anything about what you believed at the time, and it does not close nearly as many doors as people think it does.
+
+A forensic exam after a shower is still worth having. Evidence is recovered after showers, routinely. That door is not shut. Nobody tells people this and it keeps a very large number of them from ever going.
+
+At 6:31 a.m. she comes out of the shower block and her camp is still asleep except for one person.
+
+Dot is thirty-four and has been camping at this event for eleven years and is the person in that camp who owns the good coffee setup, which is why she is awake at 6:31 and why she is the one standing there.
+
+She looks at Frankie for about a second and a half.
+
+Here is what Dot does not do, and every item on this list is something a loving, decent, panicking friend does instead, and every item makes the next twelve hours worse:
+
+She does not say oh my god what happened. She does not ask who. She does not ask what Frankie took. She does not say we have to tell someone. She does not go looking for him. She does not wake the camp. She does not get her phone out.
+
+What Dot does is say three sentences.
+
+Dot says: “I’ve got you.”
+
+Dot says: “You don’t have to tell me anything.”
+
+Dot says: “There’s a hospital in Cedar Bluff. I’m going to drive you there, and you don’t have to decide anything when we get there, and we can turn around at any point and I will not be weird about it.”
+
+That third sentence is the entire chapter, and it is the reason Dot is the specimen in this chapter instead of anybody else.
+
+Because notice what it does: it converts an unbearable, identity-level, life-altering decision — am I a person who was assaulted, and am I going to do something about it — into a smaller and completely bearable one: am I willing to sit in a car.
+
+Frankie can do the second one. Nobody at 6:31 a.m. can do the first one.
+
+They leave at 6:52. It is ninety-four minutes. Dot does not put music on and does not fill the silence and asks one question the entire drive, at about the fifty-minute mark, which is whether Frankie wants the window up or down.
+
+At 8:26 a.m. they park at a rural hospital in a town of eleven thousand people.
+
+And here is what the rest of this chapter is for, because this is where it gets real:
+
+The nurse at the desk is kind and completely out of her depth. This hospital does not have a trained forensic examiner on weekends. The nearest one is at a bigger facility fifty minutes further. Nobody at the desk knows the number for the state’s sexual assault coalition. A sheriff’s deputy is standing near the vending machines for unrelated reasons and Frankie sees him and her whole body changes.
+
+They are four hours from the moment Frankie woke up, three hundred miles from her home, ninety minutes from her tent, and they are about to spend two more hours finding out what is actually available — and everything they are about to find out could have been learned in four minutes on the phone in the parking lot at 6:45 a.m., from a hotline, for free, before they drove anywhere at all.
+
+That is not Frankie’s failure and it is not Dot’s.
+
+It is that nobody is ever told, in advance, in writing, in a form they can find at 5:40 in the morning with a phone at nine percent, what the actual menu is.
+
+So here it is.
+
+---
+
+## Chapter 21: THE MISSING FRIEND
 *Festie POV · 2,379 words · ~16 min · reel position: EP 3*
 
 🎬THE DROP
@@ -2080,7 +2668,7 @@ The chapter’s discernment hook is not about a Wook.
 
 There is no Wook in this chapter’s cold open. Jess is fine. Marlene is lovely. The night ended with chamomile and a conversation about what it means to show up for something you love.
 
-The Wook in Chapter 16 is the cultural pressure that made the fifteen-minute meeting in the car feel like overkill. The Wook is the “we’ll find each other” lie that the scene has been telling itself for decades, the specific optimistic delusion that festival magic will handle logistics the way festival magic handles everything else. The Wook is chill, it’ll be fine, we always find each other — said by people who have always found each other, in the same way the guy at the batch said his source was solid, in the same way Jordan assumed the friend-of-a-friend was fine, in the same way Nadia took the bag because probably nothing.
+The Wook in Chapter 21 is the cultural pressure that made the fifteen-minute meeting in the car feel like overkill. The Wook is the “we’ll find each other” lie that the scene has been telling itself for decades, the specific optimistic delusion that festival magic will handle logistics the way festival magic handles everything else. The Wook is chill, it’ll be fine, we always find each other — said by people who have always found each other, in the same way the guy at the batch said his source was solid, in the same way Jordan assumed the friend-of-a-friend was fine, in the same way Nadia took the bag because probably nothing.
 
 The Wook in this chapter is the preparation that did not happen.
 
@@ -2088,7 +2676,7 @@ This chapter teaches the preparation that happens instead.
 
 ---
 
-## Chapter 17: THE PLUG WOOK
+## Chapter 22: THE PLUG WOOK
 *Wook POV · 1,906 words · ~13 min · reel position: EP 10*
 
 🎬THE DROP
@@ -2205,7 +2793,7 @@ And he is building you a cage.
 
 ---
 
-## Chapter 18: THE LANTERN FAMILY
+## Chapter 23: THE LANTERN FAMILY
 *Festie (inside the group) POV · 2,602 words · ~17 min · reel position: EP 11*
 
 🎬THE DROP
@@ -2324,7 +2912,7 @@ El knows what it is.
 
 He just doesn’t call it that.
 
-The chapter has seven Tracks. The napkin is Track 6. The napkin is also, three years later, a Signal thread with six women on it. The Signal thread is Chapter 21. The Signal thread is the immune system at work. Everything between the napkin and the Signal thread is the chapter.
+The chapter has seven Tracks. The napkin is Track 6. The napkin is also, three years later, a Signal thread with six women on it. The Signal thread is Chapter 27. The Signal thread is the immune system at work. Everything between the napkin and the Signal thread is the chapter.
 
 🎚️ THE SECONDARY DROP — “THE BUS”
 
@@ -2366,7 +2954,7 @@ I am going to stir the oatmeal now.
 
 ---
 
-## Chapter 19: THE FESTIE HOLLOWING
+## Chapter 24: THE FESTIE HOLLOWING
 *Festie POV · 1,995 words · ~13 min · reel position: EP 20*
 
 🎬THE DROP
@@ -2513,7 +3101,7 @@ The chapter is about what happens when you love the thing so much that you forge
 
 ---
 
-## Chapter 20: THE RE-ENTRY WINDOW
+## Chapter 25: THE RE-ENTRY WINDOW
 *Festie POV · 1,339 words · ~9 min · reel position: EP 23*
 
 🎬THE DROP
@@ -2612,7 +3200,128 @@ The chapter names the window so the window is not a secret.
 
 ---
 
-## Chapter 21: THE SOBER SET CAPTAIN
+## Chapter 26: HE STILL HAS YOUR NUMBER
+*Wook POV · 1,598 words · ~11 min · reel position: EP 29*
+
+🎬THE DROP
+
+“He Still Has Your Number”
+
+The cold open📍 WOOK POV
+
+I need to say at the start that I am not one of those guys.
+
+I know how this is going to sound if you write it down in a list, and I know what a list does. Anything looks bad in a list. You could make my grocery run look bad in a list.
+
+Her name is Wrenna. We met at a four-day in the Sierras in August, at the water station, at about two in the afternoon, and we talked for forty minutes about a band we both like that almost nobody likes, and she laughed at the thing I said about the drummer, and she touched my arm twice.
+
+Twice. I am not inventing that.
+
+Then Friday night at the second stage we found each other again — she found me, I want that noted, she came over — and we watched an entire set together, the whole thing, and at one point during the second song she leaned back into me and stayed there for maybe four minutes, and if you have been in that field at that hour you know exactly what four minutes is.
+
+Saturday we had breakfast. Her camp made eggs. I met her friends, and her friends liked me, and one of them — Dez — said “oh, you’re the water station guy,” which means she had talked about me. She told her friends about me on Friday night.
+
+Sunday she gave me her number.
+
+She gave it to me. I did not ask twice. I asked once, at the shuttle, and she typed it into my phone herself, with her own hands, and she put a little sun emoji after her name.
+
+So when people act like I took something, I want to be very clear about the actual facts, which are that a woman typed her own number into my telephone and drew a sun on it.
+
+I texted her Tuesday. Normal text. “Hey — recovering. Still thinking about that drummer conversation.”
+
+She replied Wednesday morning. “haha yes!! ok I’m dying, back to work 🫠”
+
+Then nothing.
+
+I want to walk through the next eleven weeks properly, because everybody skips to the end.
+
+Week one. I texted once. Wednesday to Wednesday, seven days, one message. “No pressure at all — would love to grab a drink if you’re ever up this way.” That is a normal message. Any person on earth could send that message.
+
+Nothing.
+
+Week two. Okay. I get it. People get busy, people come down hard off a four-day, everybody knows Tuesday is the worst. I did not text. I want that on the record too: week two, I sent nothing.
+
+I did look at her Instagram. Which is public. Which she chose.
+
+Week three. She posted a story from a warehouse night in Oakland and tagged the venue.
+
+And here is where I am going to lose some of you, and I understand that, but I would like you to at least follow the logic: I already had tickets to that venue for a different night. I go to Oakland. I have gone to Oakland forty times. The idea that a woman being somewhere means I now cannot go to a place I already go is — I mean, think about what that actually asks of a person.
+
+I did not go on her night.
+
+I went the following week and I mentioned, to a guy I know there, that I knew her. That is all I did.
+
+Week five. I sent a longer one. I will not pretend it was short. I said that I felt something real at that festival and that I did not think I had imagined it and that if I had misread it I would genuinely like to know so that I could stop thinking about it, and that either way she had been kind to me at a time when I needed someone to be kind to me, and that I hoped she was okay.
+
+That is an honest message. That is a vulnerable message. There is not one threatening word in it.
+
+She read it. It said Read. She did not answer.
+
+Week six. She blocked me.
+
+I am going to be honest about what that did, because I think the honesty is the only interesting thing I have to offer here.
+
+It did not feel like an answer. It felt like a door slammed in a conversation I had not finished. Because in my head we had an unresolved thing, and you cannot end an unresolved thing by blocking, you can only end it by resolving it, which is all I ever wanted and which is a thing I said, repeatedly, in the messages she would not read.
+
+Week seven. I made another account. Not to harass her. To send one message explaining that I understood and that I was going to leave her alone, which — I want you to notice this — is exactly what everyone says I should have done, and I could not do it from my own account, because she had blocked it.
+
+She blocked that one within about ten minutes.
+
+Week eight. I stopped.
+
+I actually did. Eleven days, nothing. I was proud of myself. I told my friend Dez — Wrenna’s friend Dez, who I also know now, because that is how this scene works, because everybody knows everybody, which is the entire point of it — I told Dez that I was letting it go.
+
+And Dez said, being kind, being a decent person: “I mean, she’s just been going through it. She’s not, like, angry at you.”
+
+She’s not angry at me.
+
+I want you to sit with what that sentence did, because Dez did not mean anything by it. Dez was smoothing a thing over the way people in this scene smooth things over, because nobody wants a conflict in a camp that has to camp together again in October.
+
+But what I heard — what I could not help hearing, at week eight, eleven days into white-knuckling it — was: there is nothing wrong. There has been no rejection. There is only a woman who is busy and a misunderstanding, and misunderstandings can be cleared up.
+
+Week nine. I bought a ticket to the October event.
+
+She goes every year. Everyone knows she goes every year. She has gone for six years and she posts about it in September and her camp has the same spot by the second gate.
+
+I have also gone for four years. I love that event. I have loved that event since before I ever heard her name and I would be going regardless, and there is no version of my life in which I sit out a festival I love because of one text thread.
+
+Ask yourself honestly what you would say if a woman told me I was not allowed to attend a public event I have attended for four years.
+
+Week eleven. October. I am here. I have a wristband that I paid for.
+
+I am not going to her camp. I want to be very clear. I am not going anywhere near her camp.
+
+I know where it is, because everyone knows where it is, because they have been in the same spot by the second gate for six years and there is a flag.
+
+I am just going to be at this festival, in the ordinary way, at the stages I would be at anyway.
+
+And if we happen to end up in the same place — at a set we both like, by a band we both like, which is statistically going to happen because that is why we both come here — then we will have a conversation like two adults, and I will be able to say the four sentences I have been carrying since August, and she will say whatever she says, and then it will be finished and I will be free.
+
+That is all I want. I want to be finished.
+
+I have never threatened her. I have never touched her. I have never said one unkind word to her or about her. In eleven weeks I have sent four messages and made one additional account and bought one ticket to a festival I already go to.
+
+Four messages.
+
+Now — here is the part I do not say out loud, and I am only saying it here because you cannot see me.
+
+I know what her flag looks like.
+
+I know she comes out for the sunrise set on Sunday, always, every year, alone, because she said so at breakfast in August while her camp made eggs, and she said it like it was a nice fact about herself, and I remember it the way I remember the drummer conversation and the four minutes and the sun she drew next to her name.
+
+I am not going to do anything.
+
+I just know it.
+
+And there is nobody in this entire forty-thousand-person field who knows that I know it, and there is nothing on earth that is currently stopping me from being at the rail on Sunday morning, and no rule I would be breaking if I were, and no person I would have to get past, and no list I am on at this event or at any other event I will ever attend for the rest of my life.
+
+She typed her number into my phone herself.
+
+She drew a sun on it.
+
+---
+
+## Chapter 27: THE SOBER SET CAPTAIN
 *Festie (no predator) POV · 1,656 words · ~11 min · reel position: EP 24*
 
 🎬THE DROP
@@ -2717,7 +3426,7 @@ Nobody was rescued. Nobody was threatened. Nobody ran a play and nobody ran a co
 
 The boring meeting is the whole chapter.
 
-Not because interesting things do not happen at festivals — the entire book has been twenty chapters of interesting things happening at festivals. But because the interesting things, the ones that cost people something, happen in the gap between “we’ll figure it out” and “we didn’t figure it out in time.”
+Not because interesting things do not happen at festivals — the entire book has been twenty-six chapters of interesting things happening at festivals. But because the interesting things, the ones that cost people something, happen in the gap between “we’ll figure it out” and “we didn’t figure it out in time.”
 
 The briefing is the gap closer.
 
@@ -2727,7 +3436,7 @@ The briefing is the thing that lets you go to the festival and come home and rem
 
 ---
 
-## Chapter 22: THE LONG COMEDOWN
+## Chapter 28: THE LONG COMEDOWN
 *Festie POV · 1,238 words · ~8 min · reel position: EP 22*
 
 🎬THE DROP
@@ -2804,7 +3513,7 @@ She is going to go back to sleep.
 
 ---
 
-## Chapter 23: HAVE YOU BEEN THE WOOK?
+## Chapter 29: HAVE YOU BEEN THE WOOK?
 *Festie POV · 1,072 words · ~7 min · reel position: EP 12*
 
 🎬THE DROP
@@ -2821,11 +3530,11 @@ He is reading this book in a camp chair in his backyard on a Sunday afternoon in
 
 He has been reading it since July. Not straight through. In the way you read a book that you know is going to be good and that you are also slightly afraid of, which means you pick it up for two chapters and put it down for a week and then pick it up again and then put it down because a chapter landed somewhere you needed it to not land. He has been reading it the way you eat something that is simultaneously too good and too hot — in careful bites, with time between them for the temperature to become manageable.
 
-He is in Chapter 23 now.
+He is in Chapter 29 now.
 
-He put the book down twice in Chapter 19. Once in Chapter 16. Once at the very beginning of Chapter 5, which he put down, and then picked up, and then read the full cold open without stopping, and then sat with for a while.
+He put the book down twice in Chapter 24. Once in Chapter 21. Once at the very beginning of Chapter 5, which he put down, and then picked up, and then read the full cold open without stopping, and then sat with for a while.
 
-He is in Chapter 23.
+He is in Chapter 29.
 
 He is reading the cold open.
 
@@ -2899,7 +3608,7 @@ The recognition is the point.
 
 ---
 
-## Chapter 24: PROTECTING THE MAGIC
+## Chapter 30: PROTECTING THE MAGIC
 *Montage POV · 1,803 words · ~12 min · reel position: EP 25*
 
 🎬THE DROP
@@ -2910,7 +3619,7 @@ The cold open📍 MONTAGE POV
 
 One.
 
-The napkin from Chapter 16 is still in Cara’s sock three years later.
+The napkin from Chapter 21 is still in Cara’s sock three years later.
 
 Not the original napkin — that dissolved in a wash cycle somewhere in Portland in the month after she left the bus. But the memory of it is in her muscle memory, in the specific physical location where her left hand goes when she is about to tell someone something that needs to be received carefully. The hand goes to the sock. There is nothing there. The gesture remains.
 
@@ -3052,7 +3761,116 @@ It is still also you.
 
 ---
 
-## Chapter 25: THE TAPER’S REVEAL
+## Chapter 31: WHAT TO TELL YOUR MOM
+*Default-world POV · 1,293 words · ~9 min · reel position: EP 33*
+
+🎬THE DROP
+
+“What To Tell Your Mom”
+
+The cold open📍 DEFAULT-WORLD POV
+
+Rosalind Kwan is fifty-eight years old and it is 11:20 on a Tuesday night and she is sitting at her own kitchen table in Sacramento with a laptop and a cold mug of tea, and she has just read thirty chapters of this book.
+
+Thirty.
+
+Her daughter Tess, who is twenty-three, sent her a link four days ago with the message: “read ch 31. only 31. i mean it mom. 😅”
+
+Rosalind did not read chapter 31.
+
+Rosalind started at the beginning, on Saturday morning, like a person.
+
+So she has now read about a man who hands a nitrous tank to a stranger who dies in a Santa hat. She has read about a pharmacist who drank something nobody measured. She has read about a twenty-three-year-old who apologised while his wrist was at the wrong angle. She has read a chapter narrated by a man who buys a ticket to a festival because he knows what somebody’s camp flag looks like.
+
+She has learned the phrase Now Goblin, which she did not want.
+
+Tess leaves on Thursday.
+
+And here is what Rosalind is actually sitting with at 11:20 on a Tuesday, which is not what anybody would guess from outside, and which is the reason this chapter exists.
+
+She is not frightened. Or — she is, a bit, in a general way, the way every parent of an adult child is frightened about everything forever and has learned to keep it in a drawer.
+
+What she is, mostly, is holding a very large amount of information and absolutely no idea what to do with a single piece of it.
+
+Because every instinct she has runs in exactly one direction, which is: say something.
+
+She has drafted four texts. She has not sent any of them. Let me show you the drafts, because they are the whole chapter in negative:
+
+Draft one: “Hi love, I read some of it. Please please be careful with what you take, you don’t know what’s in it.”
+
+Deleted, because she could hear it land. Tess is twenty-three, has been to eleven of these, and has a harm-reduction test kit that she bought herself with her own money, which Rosalind knows because Tess told her about it once, proudly, and Rosalind — she remembers this with a small internal wince — changed the subject.
+
+Draft two: “Do you have to go to this one? I know it’s a lot to ask.”
+
+Deleted at eleven words, because she is not actually asking that, and because if she asks it she will get a fight, and if she wins the fight she will get a daughter who goes anyway and does not tell her.
+
+Draft three: a link to a news article about a death at a festival in 2023.
+
+Not deleted. Worse. Saved to drafts, which is where things go to be sent at 1 a.m.
+
+Draft four: “I read the whole book. I’m proud of you for sending it. Call me Sunday?”
+
+Deleted because it seemed like too little.
+
+It was not too little. Draft four was almost exactly right, and she deleted it, and she deleted it for the reason nearly every parent deletes the right one: because it did not feel like enough protection to be worth the fear she was holding.
+
+That is the trap. The size of your fear and the size of the useful action have nothing to do with each other. Fear is enormous. The useful actions are small, boring, and unsatisfying, and they do not discharge one gram of the fear, which is why almost nobody does them and almost everybody sends the article instead.
+
+At 11:40 Rosalind does something better than any of the four drafts, though she does not know it yet.
+
+She calls her friend Bev.
+
+Bev Nakashima is sixty-one, has known Rosalind since their kids were in the same third-grade class, and went to festivals herself in the late eighties in a way that Rosalind has always regarded with a mixture of affection and mild alarm. Bev’s two kids both go now. Bev is, without ever having applied for the position, the person everyone in that friend group calls when their child starts going to these things.
+
+Rosalind explains the four drafts.
+
+Bev listens to all of it, and then asks one question, and the question reorganises the entire problem.
+
+Bev says: “Okay. If the worst thing happened out there — not a scraped knee, the worst thing — would she call you?”
+
+Rosalind opens her mouth.
+
+And then she sits there, at her own kitchen table, with a cold mug of tea, for what she will later estimate was about twenty seconds, which is the longest she has sat with an unanswered question about her daughter in years.
+
+Because the honest answer is: I don’t know.
+
+Not no. Tess loves her. They talk every week. It is a good relationship by any ordinary measure.
+
+But Rosalind is running the tape — the test kit conversation where she changed the subject, the time she said “I just don’t understand why you need drugs to enjoy music,” the Christmas where she asked, lightly, whether Tess thought she was maybe getting a little old for this — and she is realising, at 11:41 p.m. on a Tuesday, that she has spent six years accidentally teaching a very smart young woman exactly which subjects produce a lecture.
+
+And a person who knows which subjects produce a lecture does not call you from a parking lot at 4 a.m. They call somebody else. Or they call nobody, which is the outcome this entire book has spent thirty chapters trying to prevent.
+
+Bev says: “Right. So everything you do between now and Thursday is about that one question. Not about the drugs. Not about whether she goes. Just: does she call you.”
+
+That is the chapter. You can stop here, honestly. Everything below is implementation.
+
+But Rosalind asks the follow-up, and it is the one every parent asks, and it deserves a real answer rather than a reassuring one.
+
+Rosalind says: “But what if being the person she calls means I never get to say the thing I actually want to say?”
+
+And Bev — who has done this twice, and who has been in enough fields in enough decades to have earned the sentence — says:
+
+Bev says: “Ros. You get to say it once. You get one conversation and about four minutes, and if you use it well she will actually hear you, and if you use it badly she will nod and go and you will have spent the only four minutes you had. That’s the whole deal. One conversation, some money, and then you shut up and answer your phone.”
+
+At 12:06 a.m., Rosalind sends a text.
+
+Rosalind texts: “I read the whole book. Not just 31. I have one conversation I want to have before Thursday and then I promise I will never bring any of it up again. Ten minutes, whenever you want. Also I’m proud of you for sending it to me.”
+
+Tess replies in four minutes, which for a twenty-three-year-old is the equivalent of running.
+
+Tess texts: “mom. you read the WHOLE thing?? 😭 ok yes. tomorrow after work. and there is genuinely no way you read chapter 17.”
+
+Rosalind texts: “I read chapter 17.”
+
+Tess texts: “oh my god”
+
+The conversation happens on Wednesday. It takes eleven minutes, not ten. It is the single most useful eleven minutes of the entire weekend and it happens four hundred and twelve miles from the festival, two days before it starts, and it contains no warnings whatsoever.
+
+What it contains is in Protocol 1.
+
+---
+
+## Chapter 32: THE TAPER’S REVEAL
 *Author direct address POV · 496 words · ~3 min · reel position: EP 26*
 
 🎬THE DROP
@@ -3069,7 +3887,7 @@ I have been sitting at this campfire since before the light changed.
 
 I owe you a conversation.
 
-We have spent twenty-four chapters together. You picked up this book because something in the title or the premise or the cover or the review or the friend’s recommendation said: this might be useful. You have carried it through twenty-four chapters of cold opens and Wooks and counter-drops and Field Reports and sunrise sets. You have made approximately twenty iterations of the Kandi Trade vow. You have, in the course of reading, felt recognized — not once, but many times, in the specific way that a book about manipulation produces recognition across multiple scales: the Wook it named, the move you ran, the friend group situation, the camp dynamic, the cereal aisle.
+We have spent thirty-one chapters together. You picked up this book because something in the title or the premise or the cover or the review or the friend’s recommendation said: this might be useful. You have carried it through thirty-one chapters of cold opens and Wooks and counter-drops and Field Reports and sunrise sets. You have made approximately twenty iterations of the Kandi Trade vow. You have, in the course of reading, felt recognized — not once, but many times, in the specific way that a book about manipulation produces recognition across multiple scales: the Wook it named, the move you ran, the friend group situation, the camp dynamic, the cereal aisle.
 
 The recognition was designed.
 
@@ -3077,7 +3895,7 @@ That is what I owe you the conversation about.
 
 I am the PLURth Angel. I have been writing to you as a friend in a tent at four a.m. with a flashlight under my chin. I have slept in the dust. I have run a stage. I have lost someone in the porta line. I have watched a camp dad work the same play three summers running. I love the magic enough to tell the truth about what eats it.
 
-I have also, in the twenty-four chapters you have just read, run sixteen distinct persuasion operations on you.
+I have also, in the thirty-one chapters you have just read, run sixteen distinct persuasion operations on you.
 
 I am going to walk you through them now.
 
@@ -3095,7 +3913,7 @@ Here is every move. In order. By chapter and verse.
 
 ---
 
-## Chapter 26: THE AFTER-PARTY
+## Chapter 33: THE AFTER-PARTY
 *Festie (six months later) POV · 1,230 words · ~8 min · reel position: EP 13*
 
 🎬THE DROP

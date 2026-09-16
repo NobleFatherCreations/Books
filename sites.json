@@ -232,8 +232,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v11",
+      "version": "v12",
       "changelog": [
+        {
+          "date": "2026-09-16",
+          "version": "v12",
+          "summary": "Seven new chapters, taking the book from 26 to 33. They were slotted in beside the chapters they extend rather than appended, which moved every chapter number after the fifth and every cross-reference in the book with it: 666 numeric references remapped through an old-to-new map, plus ~30 word-form chapter counts, 16 multi-number ranges and lists, seven bridges rewritten (a bridge describes what comes next, so renumbering one is not enough), both chapter listings, the field-specimen numbering, the set boundaries, and Appendixes A, B, D, F, G and Q. New chapters: 6 The Group Chat (the pre-event group and the eleven weeks before the gate -- the on-ramp no festival's safety infrastructure covers); 10 The Love Of It (crew and volunteer labour, the other half of Vendor Row's economy); 14 The Two Festivals (who the same event is actually for -- and the chapter where the book discloses that its first thirteen chapters assumed involving staff or police reduces risk, which is false for a lot of readers and was never marked); 17 The Container (ceremony and plant-medicine spaces, built on the claim that consent obtained before an altered state cannot cover what happens during it); 20 The Next Twelve Hours (the only chapter written for after -- assault aftermath, the options clock, and the fact that in most US jurisdictions a forensic exam can be had without a police report; carries its own content note with a skip-to line, and is now listed in the front matter's content disclosure); 26 He Still Has Your Number (post-festival stalking, written from the perpetrator's POV because that is how it is experienced); 31 What To Tell Your Mom (the one chapter addressed to the person staying home, written to be handed over). Two of them use the existing no-predator chapter structure from Chapter 27 -- protocols and a test instead of Tracks. 70,916 new words; the book is now roughly 335,000. Four wrong cross-references were caught before the splice by a purpose-built xref auditor (scripts/wook-expansion-xref.py) and two more by the proofreader afterwards. Verified: both checkers at 0 findings against 33 chapters, Chromium at 375px and 1440px in normal and reduced motion with no new console errors and the same pre-existing 13px/375px overflow and opacity baselines."
+        },
         {
           "date": "2026-09-15",
           "version": "v11",

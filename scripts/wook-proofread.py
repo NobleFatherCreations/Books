@@ -71,6 +71,9 @@ ALLOWLIST = [
      "The book fills scripts in with bracketed slots -- [name], [specific "
      "thing], [location] -- more than fifty times. This is that device, not "
      "an unfilled template."),
+    ("Please please be careful with what you take",
+     "ch31's drafted text message from a parent. The doubling is the voice -- "
+     "it is what the sentence is doing, and it gets deleted in the next line."),
     ("SPECIMEN SPECIMEN",
      "The decorative marquee band, not a sentence."),
     ("Row 14 at a festival at 10:54 pm from a stranger",

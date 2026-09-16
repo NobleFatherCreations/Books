@@ -141,9 +141,10 @@ buttons." The single source is `library/wook/index.html` — no other copy
 tracked in this repo; the old "unresolved discrepancy" note above is
 stale, resolved by v4 onward (see `MEMORY.md`'s 2026-09 entries).
 
-**Content status (2026-09-15): v10, live, fully reviewed.** A full
-thirteen-pass chapter-by-chapter and appendix-by-appendix review is
-complete — see `content/wook-audits/wook-full-review-plan.md` and
+**Content status (2026-09-16): v12, live, 33 chapters.** Expanded from 26 chapters to 33 on 2026-09-16 (see `MEMORY.md` and
+`content/wook-audits/wook-expansion-plan.md`); before that, a full
+thirteen-pass chapter-by-chapter and appendix-by-appendix review was
+completed — see `content/wook-audits/wook-full-review-plan.md` and
 `wook-full-review-ledger.md` for the process and findings, `MEMORY.md`'s
 2026-09-15 entry for the summary. Two mechanical checkers
 (`scripts/wook-proofread.py`, `scripts/wook-continuity-check.py`) both
