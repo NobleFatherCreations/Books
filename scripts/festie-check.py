@@ -172,6 +172,25 @@ def main():
     if hard:
         err("version", f"page version badge '{page_v}' is a hardcoded literal, not read from the data")
 
+    # --- hardcoded guide counts -----------------------------------------
+    # Adding a 13th guide made "Section N of 12" and "Twelve Guides" wrong,
+    # the same class of bug as the hardcoded version badge. The render path
+    # derives them now; the static chrome cannot, so it is asserted here.
+    n_guides = len(d["guides"])
+    words = {12: "twelve", 13: "thirteen", 14: "fourteen", 15: "fifteen", 16: "sixteen",
+             17: "seventeen", 18: "eighteen", 19: "nineteen", 20: "twenty"}
+    word = words.get(n_guides, str(n_guides))
+    if re.search(r"Section '\+g\.sectionOf\+' of \d+", page_src):
+        err("counts", "'Section N of <number>' is hardcoded in the render path")
+    if re.search(r"<h2>(Twelve|Thirteen|Fourteen|\d+) Guides\. One Community", page_src):
+        err("counts", "the contents heading hardcodes the guide count")
+    m = re.search(r'<meta name="description" content="[^"]*\u2014 (\w+) guides, one community', page_src)
+    if m and m.group(1).lower() != word:
+        err("counts", f"meta description says '{m.group(1)}' guides, there are {n_guides}")
+    m = re.search(r'<span class="nf-desc">(\w+) guides for the festival world', page_src)
+    if m and m.group(1).lower() != word:
+        err("counts", f"THE HOUSE drawer row says '{m.group(1)}' guides, there are {n_guides}")
+
     # --- report ----------------------------------------------------------
     n_err = sum(1 for v in findings.values() for s, _ in v if s == "ERROR")
     n_warn = sum(1 for v in findings.values() for s, _ in v if s == "WARN")
