@@ -2,13 +2,46 @@
  "mission": "These guides were not built to make you paranoid. They were not built to make you suspicious of every warm smile, every gifted kandi, every \"I felt a connection with you\" by the fire. They were not built to turn the most beautifully open community on earth into a place where nobody trusts anyone. They were built because we love this world too much to let predators move through it unchecked. The festival community — ravers, burners, festies, flow artists, healers, vendors, musicians, builders — has created something genuinely rare on this planet: spaces of radical acceptance, genuine connection, harm reduction without judgment, and art made purely for the experience of art. Spaces where strangers become family in 72 hours. Spaces where the default world falls away and something more real takes its place. Predators know this. They rely on it. They specifically seek out the open heart. The patterns in these guides are not hypothetical. They happen at every festival, every season, across every demographic in the scene. The false shaman. The gifter with a ledger. The promoter who never pays. The camp that becomes a cage. The festival boyfriend who appears at gate. The love bomber who disappears after taking what they came for. Naming these patterns is not cynicism. It is the highest form of community care. You deserve to be fully open AND fully protected. These guides make that possible. Every person in the scene — regardless of how long you've been coming, what role you play, what your relationship to substances is, who you love, or where you came from — deserves to experience the magic without paying for it with your safety, your finances, your mental health, or your sense of reality. \"Know the pattern. Trust your body. Protect the magic.\" With love for the community and zero tolerance for those who exploit it, — Noble Father Creations",
  "updated": "2026-08-12",
  "changelog": [
-  "Added a way out of the book -- a House link in the top bar on every page, and a link to the rest of the catalogue in the footer. Before this the only links out were TikTok, email and the crisis lines, so the only way back was your browser back button.",
-  "Redesigned the homepage so the twelve guides show up right away instead of behind a long paragraph -- the full mission statement now has its own readable section further down the page. Added small polish throughout: smoother button and link taps, and a staggered entrance for the guide cards and scenario lists.",
-  "Line-by-line editing pass across all 149 scenarios -- fixed misquoted lines, a few leftover formatting glitches, and scattered typos. Nothing was rewritten, just tightened.",
-  "Fixed a bug where opening any guide showed a black screen. Added a scenario index to every guide so you can jump straight to any scenario instead of paging through them in order.",
-  "Bigger, more readable type throughout; fixed a footer/resource-bar overlap and wired up the previously-missing credits footer. Corrected scenario text that had gotten garbled during the original build (some check-callouts, Move/Say/Truth cards, and a few chapter titles were affected).",
-  "Launched The Festie Bible as its own door on the hub: 12 field guides rebuilt from the original 183-page collection.",
-  "Fixed the systemic label-collision and near-invisible interior brand mark from the source document."
+  {
+   "version": "v7",
+   "date": "2026-09-01",
+   "summary": "Added THE HOUSE — the shared catalogue drawer in the top bar, so you can get to everything else Noble Father Creations makes without leaving the way you came in. This page had no cross-project navigation before."
+  },
+  {
+   "version": "v6",
+   "date": "2026-08-12",
+   "summary": "Added a way out of the book -- a House link in the top bar on every page, and a link to the rest of the catalogue in the footer. Before this the only links out were TikTok, email and the crisis lines, so the only way back was your browser back button."
+  },
+  {
+   "version": "v5",
+   "date": "2026-08-11",
+   "summary": "Redesigned the homepage so the twelve guides show up right away instead of behind a long paragraph -- the full mission statement now has its own readable section further down the page. Added small polish throughout: smoother button and link taps, and a staggered entrance for the guide cards and scenario lists."
+  },
+  {
+   "version": "v4",
+   "date": "2026-08-11",
+   "summary": "Line-by-line editing pass across all 149 scenarios -- fixed misquoted lines, a few leftover formatting glitches, and scattered typos. Nothing was rewritten, just tightened."
+  },
+  {
+   "version": "v3",
+   "date": "2026-08-11",
+   "summary": "Fixed a bug where opening any guide showed a black screen. Added a scenario index to every guide so you can jump straight to any scenario instead of paging through them in order."
+  },
+  {
+   "version": "v2",
+   "date": "2026-08-10",
+   "summary": "Bigger, more readable type throughout; fixed a footer/resource-bar overlap and wired up the previously-missing credits footer. Corrected scenario text that had gotten garbled during the original build (some check-callouts, Move/Say/Truth cards, and a few chapter titles were affected)."
+  },
+  {
+   "version": "v1",
+   "date": "2026-08-10",
+   "summary": "Launched The Festie Bible as its own door on the hub: 12 field guides rebuilt from the original 183-page collection."
+  },
+  {
+   "version": "v1",
+   "date": "2026-08-10",
+   "summary": "Fixed the systemic label-collision and near-invisible interior brand mark from the source document."
+  }
  ],
  "guides": [
   {
@@ -1415,7 +1448,7 @@
       "Know your sober or sober-ish buddy — someone who knows what you took and when"
      ],
      "happening": "GHB and GBL are more commonly found in some queer party contexts than in general festival settings. They have a very narrow therapeutic window — the difference between a recreational dose and a dangerous dose is small, and combining either with alcohol significantly increases the risk of overdose and unconsciousness. Testing is harder for these substances than for others — reagent kits have limited effectiveness. Starting with an extremely small amount and waiting is the most important harm reduction step.",
-     "check": "P.R.I.D.E. — \"A\" CHECK: \"Do I know what is in what I am taking — and does someone sober know what I took and...",
+     "check": "P.R.I.D.E. — \"D\" CHECK: \"Do I know what is in what I am taking — and does someone sober know what I took and...",
      "darkTitle": "",
      "dark": "",
      "move": "Test it. Start tiny. Tell someone. Never combine with alcohol. Those four things.",
@@ -1953,7 +1986,7 @@
       "An entourage that appears after every show and gradually never leaves"
      ],
      "happening": "The post-performance state is a genuine altered state — high adrenaline, endorphin flood, identity in flux between performer-self and regular-self. Predatory fans and industry people know this window intimately and specifically target it. As the performer you're also in the position of power in that space — which means your responsibility is higher, not lower. This page is simultaneously about protecting yourself AND about not using the post-show window to cover your own behavior.",
-     "check": "O.U.N.D. — \"U\" CHECK: \"Who is actually in this space — do I know how they got here and what they want?\"",
+     "check": "S.O.U.N.D. — \"U\" CHECK: \"Who is actually in this space — do I know how they got here and what they want?\"",
      "darkTitle": "Green Room Protocol — Yours To Set",
      "dark": "As the artist, you set the terms of your backstage space. Legitimate protocols: explicit guest list with named individuals only (not \"plus whoever\"), a trusted person who manages access, a minimum 30-minute closed cooldown after you come off before socializing, and a clear policy communicated to promoters before the show about who can be back there. Your rider can include backstage access requirements. Use it.",
      "move": "Land first. Decompress with your core people. Then decide who you want in your space from a clearer head.",
@@ -1995,7 +2028,7 @@
       "You're too exhausted and too far from home to push back on anything"
      ],
      "happening": "Road isolation is structural — touring literally removes you from your support network and puts you in a temporary closed system where the people with you have enormous power over your daily experience. This is not inherently predatory but it creates conditions that are easily exploited. Maintaining active connection to your home network, having at least one person on tour who is genuinely in your corner, and preserving your own decision-making authority are the protections.",
-     "check": "O.U.N.D. — \"U\" CHECK: \"When did I last have a real conversation with someone who knew me before the music?\"",
+     "check": "S.O.U.N.D. — \"U\" CHECK: \"When did I last have a real conversation with someone who knew me before the music?\"",
      "darkTitle": "Maintaining Connection On The Road",
      "dark": "Practical steps for staying connected during extended tours: (1) Weekly scheduled call with your most trusted person at home — protected in the schedule. (2) At least one person on tour who is genuinely your person, not the promoter's or label's. (3) Keep your own record of all agreements, all financial terms, all incidents — don't rely on tour management's records as your only documentation. (4) If something is happening on tour that feels wrong: name it to a trusted person at home who can help you think through it with outside perspective.",
      "move": "Maintain active connection to your home network throughout the tour. Schedule it.",
@@ -2016,7 +2049,7 @@
       "Live recordings appear on streaming platforms or in commercial contexts without your knowledge"
      ],
      "happening": "Live recording rights are one of the most commonly overlooked and most valuable assets in a musician's career. Festival organizers routinely include sweeping rights grabs in standard booking paperwork. Your performance is a copyrightable work. Your likeness in those recordings is yours. A simple rider clause reserves your recording rights or requires negotiation. Without it, you're playing the show and handing them a product.",
-     "check": "O.U.N.D. — \"O\" CHECK: \"Who owns the recordings being made of me tonight — and is that in writing before I go...",
+     "check": "S.O.U.N.D. — \"O\" CHECK: \"Who owns the recordings being made of me tonight — and is that in writing before I go...",
      "darkTitle": "Recording Rights Rider Language",
      "dark": "Add to your standard rider: \"Artist retains all rights to audio and video recordings of the performance. Any recording by Presenter requires written agreement specifying format, distribution, compensation, and Artist approval rights prior to the event.\" For streaming: separate sync licensing fees apply. ASCAP, BMI, and SESAC collect performance royalties — make sure your set is registered. SoundExchange collects digital performance royalties. If a festival has a streaming deal, your performance may generate royalties you're entitled to but not receiving.",
      "move": "Add recording rights language to your rider. Always. Non-negotiable.",
@@ -2037,7 +2070,7 @@
       "\"Unexpected costs\" appear after the show as reasons for reduced payment"
      ],
      "happening": "Cash flow manipulation benefits the promoter while your leverage decreases once you've performed. That's why deposits exist. Get them before you travel. Count your own merch. Send a payment reminder email with terms on Day 1 after the show. Paper trail everything. Most non-payers rely on artists being too tired or too non-confrontational to pursue it.",
-     "check": "O.U.N.D. — \"D\" CHECK: \"Do I have documentation of everything agreed financially — so I have something to...",
+     "check": "S.O.U.N.D. — \"D\" CHECK: \"Do I have documentation of everything agreed financially — so I have something to...",
      "darkTitle": "When They Don't Pay — Your Options",
      "dark": "Step 1: written demand email with contract attached, specific payment deadline (7-14 days). Step 2: small claims court handles disputes up to $10,000-$25,000 depending on state — filing fee usually under $100. Step 3: music attorney demand letter ($150-300) frequently resolves it. Step 4: American Federation of Musicians (afm.org) has a Claims & Collections department. Step 5: publicizing non-payment in musician communities (Indie on the Move, local music forums) is legal and effective. Document everything before going public.",
      "move": "50% deposit before you travel. Count your own merch. Send payment follow-up in writing the morning after.",
@@ -2058,7 +2091,7 @@
       "The person spreading the narrative directly benefits from your compliance"
      ],
      "happening": "Reputation threats work because the music and festival circuit is small, relationship-driven, and operates heavily on word of mouth. The goal is to make the cost of pushing back higher than the cost of compliance. It often works. The counter is: document everything before any dispute escalates, build independent relationships across the industry, and proactively communicate your version of events to people who matter to you. Being blacklisted by predatory promoters is often a feature, not a bug.",
-     "check": "O.U.N.D. — \"D\" CHECK: \"Have I documented the facts of this situation so I have something to point to if my...",
+     "check": "S.O.U.N.D. — \"D\" CHECK: \"Have I documented the facts of this situation so I have something to point to if my...",
      "darkTitle": "When Your Reputation Is Being Attacked",
      "dark": "(1) Document: exactly what is being said, where, by whom, and when. (2) Communicate directly with your most important professional relationships — not to spin but to share facts. \"I wanted to reach out directly because I understand there may be things being said about me — here's what actually happened.\" (3) Let your work speak. Predatory promoters lose credibility over time as more artists share experiences. (4) Musician-specific reputation defense: being known as someone who stands up for fair pay makes you MORE attractive to legitimate promoters.",
      "move": "Document the dispute. Communicate directly with people who matter to you. Let your work speak.",
@@ -2100,7 +2133,7 @@
       "Accommodation and hospitality: what's provided, what's not, quality standards"
      ],
      "happening": "A comprehensive rider serves two functions: it communicates your professional requirements AND it creates a paper trail of what was agreed. When things don't match the rider at the venue, you have documentation of what was promised. When recording happens without your agreement, you have documentation of what your rights are. The rider is not a diva document — it's a professional standard that protects both parties.",
-     "check": "O.U.N.D. — \"S\" CHECK: \"Does my rider include recording rights language, payment terms, and all my technical...",
+     "check": "S.O.U.N.D. — \"S\" CHECK: \"Does my rider include recording rights language, payment terms, and all my technical...",
      "darkTitle": "What A Complete Rider Covers",
      "dark": "Technical rider: stage plot, input list, monitoring requirements, backline requirements, load-in/soundcheck/show times. Business rider: fee and payment terms, deposit amount and deadline, cancellation policy, accommodation and transportation specs, press photo and bio requirements. Rights rider: recording rights clause (you retain all), broadcast rights, how your name can be used in promotion. Hospitality rider: green room requirements, food and beverage, guest list. Template riders are available from AFM (afm.org) and from music attorney blogs. Customize and use yours consistently.",
      "move": "Send your rider with every booking confirmation. Update it annually. Use it as your baseline.",
@@ -2163,7 +2196,7 @@
       "Creating moments of grounding and community check-in is part of what great performers do"
      ],
      "happening": "Artists with stage platforms have a specific ability to shape the culture of a crowd that most people in that crowd don't have. Stating consent expectations, pointing to safety resources, calling out behavior you see — these are not political statements. They are basic community care that is within your power to provide. The artists who do this are often the ones whose shows feel different — where people feel safer to be fully present.",
-     "check": "O.U.N.D. — \"N\" CHECK: \"What does my platform allow me to contribute to the safety of this community right now?\"",
+     "check": "S.O.U.N.D. — \"N\" CHECK: \"What does my platform allow me to contribute to the safety of this community right now?\"",
      "darkTitle": "From Stage — What To Actually Say",
      "dark": "Simple, real, effective stage interventions: \"Before we go any further — look around you. Everyone here deserves to have a great time. If you see something that doesn't look right, say something.\" \"If you need support tonight, Harm Reduction is [location]. No judgment, no questions, just help.\" \"Hands to yourself unless someone has specifically invited them — and if you're not sure, ask.\" These take 20 seconds. They change the energy of a room. They make the artists who say them more trustworthy, not less cool.",
      "move": "Use your platform. Even one sentence from the stage can change someone's night.",
@@ -2184,7 +2217,7 @@
       "The expectation that \"living the dream\" means you shouldn't have struggles"
      ],
      "happening": "Touring mental health is a serious and underaddressed issue in the music industry. The combination of sleep disruption, dietary inconsistency, emotional performance demands, social isolation, and substance exposure creates conditions that are genuinely hard on mental health — regardless of how much you love the music. Acknowledging this is not weakness. It is professional self-care. The musicians who sustain long careers are the ones who take their mental health as seriously as their technical craft.",
-     "check": "S.O.U.N.D. — \"B\" CHECK: \"What does my actual wellbeing need right now — not what does the tour schedule need...",
+     "check": "S.O.U.N.D. — \"N\" CHECK: \"What does my actual wellbeing need right now — not what does the tour schedule need...",
      "darkTitle": "Mental Health Resources For Musicians",
      "dark": "MusiCares (grammy.com/musicares): free mental health referrals and financial assistance for music professionals. Sweet Relief Musicians Fund (sweetrelief.org): financial assistance for touring musicians in crisis. Musicians Foundation (musiciansfoundation.org): emergency assistance grants. Backline (backline.care): free mental health and wellness resources specifically for music industry professionals. 988 Suicide and Crisis Lifeline: call or text 988, 24/7. The music industry is increasingly building mental health infrastructure — use it. Reaching out is not a career-ending move. Burning out silently is.",
      "move": "Treat your mental health with the same professionalism you bring to your craft.",
@@ -2529,7 +2562,7 @@
       "They are visibly active on social media and running their business while ignoring your payment"
      ],
      "happening": "Most non-payment situations resolve at the written demand stage because most bad-faith payers are not prepared to actually face legal consequences — they are relying on vendors giving up. A written demand with a specific deadline and a reference to your legal options is the trigger that moves most situations to resolution. The ones who still do not pay after a written demand are the ones you take to small claims. The process is simpler than most people think.",
-     "check": "R.K.E.T. — \"R\" CHECK: \"Do I have documentation of everything agreed and every follow-up I have sent?\"",
+     "check": "M.A.R.K.E.T. — \"R\" CHECK: \"Do I have documentation of everything agreed and every follow-up I have sent?\"",
      "darkTitle": "The Non-Payment Escalation Sequence",
      "dark": "Step 1: Formal written demand email with your contract attached, a specific payment deadline of 7-14 days, and a statement that you will pursue legal remedies if unpaid. Step 2: small claims court — handles disputes up to $10,000-$25,000 depending on state, filing fee usually under $100, you represent yourself. Step 3: attorney demand letter for larger amounts ($150-300 one-time) frequently resolves it immediately. Step 4: publicizing non-payment in vendor communities is legal and effective. Document everything before going public. Most situations resolve at Step 1 or 2.",
      "move": "Send the written demand. Most situations resolve there. Be prepared to file if they do not.",
@@ -3928,5 +3961,6 @@
     }
    ]
   }
- ]
+ ],
+ "version": "v7"
 }
