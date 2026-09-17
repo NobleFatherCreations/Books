@@ -560,8 +560,13 @@
         "found": false,
         "checkedAt": "2026-08-10"
       },
-      "version": "v9",
+      "version": "v10",
       "changelog": [
+        {
+          "date": "2026-09-17",
+          "version": "v10",
+          "summary": "78 truncated check fields repaired, all from the original 12 guides (0 from the 9 added in v8). Discovered by the teleprompter-script generator failing to find a closing quote on over half the original book's check questions -- a content-generation cutoff from whenever they were first written (“...what do I actually know...”, quote never closed). The existing checker validated presence, not completeness, so this had shipped undetected across v1-v9. Each of the 78 was hand-completed after reading its full scenario (archetype, who, scene, truth) so the ending matches that specific card rather than being generic filler; every completion was then validated against the same rules festie-check.py enforces (opens with the guide's acronym, closes its quote, cites a letter the acronym actually contains) before being written. festie-check.py gained a rule that flags this exact signature (ends '...', quote never closes) so it can't ship silently again. Verified: checker at 0 errors against 270 scenarios; five repaired cards spot-checked in Chromium, rendering correctly with no truncation."
+        },
         {
           "date": "2026-09-17",
           "version": "v9",

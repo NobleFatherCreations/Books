@@ -96,7 +96,7 @@ Here's what to watch for.
 
 Here's what's actually happening. The parasitic middleman move works by creating facts on the ground before you've had a chance to define the relationship. By the time you understand what they're claiming, they're already representing you to the people who matter to you professionally. Clear, early conversation about what any assistance means in terms of compensation is the only protection. If someone introduces themselves as your representative without your agreement — correct it immediately and directly.
 
-Run the check. The C check: “Have I agreed to any representation arrangement — or is someone claiming one that...
+Run the check. The C check: “Have I agreed to any representation arrangement — or is someone claiming one that was never actually agreed?” — a representative you never hired is telling you exactly who they are.
 
 Here's the dark reality. Correcting False Representation. If someone is representing themselves as your manager or rep without your agreement: (1) Contact the leads directly and privately: "I want to clarify — [name] is not my manager/rep. I'm handling my own bookings." (2) Tell the person directly: "I haven't agreed to any representation arrangement and I need you to stop representing yourself that way." (3) Document this conversation in writing immediately after. False representation can create enforceable implied contracts in some jurisdictions — address it fast.
 
@@ -156,7 +156,7 @@ Watch for these.
 
 Here's what's really going on. For visible artists — especially women creating in public — sexual attention and professional attention are frequently bundled together. Being seen as an artist is meaningful and the confusion of that with being desired is a specific manipulation: it makes you question your artistic worth every time you decline someone's sexual interest. Your art's validity is entirely separate from anyone's desire for you.
 
-Ask yourself this. The T check: “Is the appreciation of my work actually about my work — or is it cover for something...
+Ask yourself this. The T check: “Is the appreciation of my work actually about my work — or is it cover for something else entirely?” — your art being beautiful does not make your body available.
 
 Here's what's underneath all of it. Your Work Being Shared Is Not Your Body Being Available. Live painting is public art. Photographs of your work circulate. Your face and body are often in those photographs. None of this is consent for contact, pursuit, or sexual attention. If someone's engagement with images of your work has crossed into following, gathering information about you, or sexual fixation — that's stalking behavior regardless of the artistic frame around it. Screenshot. Block. Report. Document before you report.
 
@@ -184,7 +184,7 @@ Here's what to watch for.
 
 Here's what's actually happening. Scope creep in creative work is one of the most common forms of exploitation precisely because each individual expansion seems minor and the accumulated investment makes pushing back feel like losing everything. The professional protection is a written brief with explicit terms: this is what is included, this is what additional work costs. Changes to scope trigger a new conversation about compensation. Every time. Without apology.
 
-Run the check. The C check: “Is what I'm being asked to do now what I agreed to do — and is the compensation still...
+Run the check. The C check: “Is what I’m being asked to do now what I agreed to do — and is the compensation still matching the scope?” — if the ask has grown and the fee hasn’t, that gap is the whole story.
 
 Here's the dark reality. The Change Order Conversation. "That's a new element that's outside the original scope — I'm happy to include it, my rate for additions is [X]." Say this every time a new request appears after the brief is agreed. You don't need to be apologetic or elaborate. A change order is a completely normal part of professional creative work. Clients who push back on this are clients who planned to expand scope without paying for it. That's your information about whether you want to work with them again.
 
@@ -212,7 +212,7 @@ Here are the signs.
 
 Here's the mechanism underneath it. Offering a platform and then expanding the terms of accessing it is a classic exploitation structure — you've already committed, walking away means losing what you came for, and each small additional ask seems reasonable. This is scope creep as manipulation. A real artist-in-residence opportunity has defined terms before you arrive. If the terms are defined verbally and keep expanding in practice — you're not a resident artist. You're camp labor with an art cover story.
 
-Here's your check. The E check: “Can I walk away from this arrangement right now without losing something I shouldn't...
+Here's your check. The E check: “Can I walk away from this arrangement right now without losing something I shouldn’t have had to risk in the first place?” — an undefined arrangement is a contract you’re signing in paint.
 
 Here's the part that's hard to hear. Who Actually Owns The Finished Piece. When you paint on someone's wall, at someone's event, on someone's surface — who owns the finished work? Physical custody of a wall is not the same as copyright ownership of the art on it. Before you paint: establish in writing whether you retain reproduction rights to your own images of the work, whether the piece can be painted over without your consent, whether your name must accompany any reproduction, and whether they can sell images or prints. US Copyright Office (copyright.gov): your work is automatically copyrighted the moment you create it.
 
@@ -302,7 +302,7 @@ Here are the signs.
 
 Here's the mechanism underneath it. Payment for an original artwork does not transfer reproduction rights unless explicitly stated in writing. Copyright in the original work belongs to you. The buyer purchased the physical object — not the right to reproduce it commercially. This is not a gray area. It is copyright law. The protection is a written agreement before any commission that specifies exactly what rights the buyer receives and what they do not.
 
-Here's your check. The A check: “Has anyone asked me in writing for permission to reproduce this work — or did they just...
+Here's your check. The A check: “Has anyone asked me in writing for permission to reproduce this work — or did they just assume they could?” — assumption is not permission, and it never comes with a check attached.
 
 Here's the part that's hard to hear. Reproduction Rights — What To Include In Every Commission. Your commission agreement should specify: (1) what rights the buyer receives — typically "right to display the original artwork" only, (2) that all reproduction rights remain with the artist, (3) any commercial use (merchandise, advertising, print) requires a separate license with additional fee, (4) your name must appear with any digital reproduction. US Copyright registration ($65 at copyright.gov) gives you the ability to sue for statutory damages ($750-$30,000 per infringement) — making enforcement financially viable.
 
@@ -330,7 +330,7 @@ Watch for these.
 
 Here's what's really going on. Festival culture's "we're all family" framing is beautiful and also systematically used to remove the professional frameworks that protect artists. Family doesn't charge family. Family doesn't need contracts. Family gives freely. This creates the conditions for systematic exploitation of your labor. You can operate with full love for the community AND maintain professional clarity about how your work is valued. In fact, artists who know their worth make the community stronger by modeling that art has value.
 
-Ask yourself this. The R check: “Is my rate for this engagement something I decided — or something that got decided...
+Ask yourself this. The R check: “Is my rate for this engagement something I decided — or something that got decided around me?” — a rate you didn’t set is a rate someone else set, on purpose, in their favor.
 
 Here's what's underneath all of it. Resources For Artists. Volunteer Lawyers for the Arts (vlany.org): free/low-cost legal help on contracts, copyright, and disputes. US Copyright Office (copyright.gov): automatic copyright on creation, registration ($65) enables enforcement. Graphic Artists Guild Handbook — Pricing and Ethical Standards: industry reference for rates. CERF+ (cerfplus.org): emergency assistance for working craft artists facing crisis. Artists' legal clinics exist in most major cities — search "volunteer lawyers for the arts [your city]."
 
@@ -392,7 +392,7 @@ Here are the signs.
 
 Here's the mechanism underneath it. Real collaboration is characterized by mutual curiosity, defined terms, and shared investment in the outcome. The distinction from extraction is visible in who carries the risk, who defines the terms, and whether both parties' contributions are named honestly. Real collaborators are comfortable with the credit conversation because they're not trying to hide the imbalance. Real collaborators celebrate each other's other work and connections rather than centralizing everything through themselves.
 
-Here's your check. The A check: “Is this person interested in my whole artistic practice — or just in what my hands can do...
+Here's your check. The A check: “Is this person interested in my whole artistic practice — or just in what my hands can do for their project?” — real collaborators want your voice. The fake ones just want your output.
 
 Here's the part that's hard to hear. How To Propose A Real Collab. When you want to genuinely collaborate with another artist: (1) Express specific interest in their work and why you think your practices could be interesting together. (2) Propose exploration without a predetermined outcome or output obligation. (3) Agree on credit and ownership structure BEFORE you create anything you might want to share. (4) Be comfortable with "this didn't produce something we want to show" as a valid outcome. The best creative partnerships in the festival world start with this kind of honest, low-stakes curiosity.
 

@@ -415,7 +415,7 @@ Watch for these.
 
 Here's what's really going on. Spiritual authority abuse weaponizes the healer role to bypass the consent conversation. It works because festival culture values healing (the frame seems legit), the therapeutic context makes touch feel appropriate, and questioning a healer feels like questioning healing itself. Real somatic practitioners and ceremony facilitators are trained to obtain clear, uncoerced consent before any physical contact. That standard exists to protect you. If someone skips it — the reason is not that they're too advanced for it.
 
-Ask yourself this. The G check: “What is my gut saying about this person — underneath the role they're performing right...
+Ask yourself this. The G check: “What is my gut saying about this person — underneath the role they’re performing right now?” — if the answer doesn’t match the title, trust the gut over the role.
 
 Here's what's underneath all of it. How To Actually Vet A Practitioner. "Legitimate" does not mean "has a following," "has an altar," or "has people here who vouch for them." Real vetting means asking for their training lineage and how long they've practiced, asking what their consent protocol is before they work with anyone, and ideally talking to people who know them outside festival contexts. A real practitioner welcomes these questions. Anyone who responds to "what's your consent process?" with spiritual deflection is giving you your answer.
 
@@ -563,7 +563,7 @@ Here are the signs.
 
 Here's the mechanism underneath it. A lethal dose of fentanyl is invisible. People die at festivals every year from substances that looked, smelled, and tasted exactly like what they expected. Testing costs under $40 for a full kit from DanceSafe. Harm Reduction tents at most major events have strips free. Naloxone (Narcan) reverses opioid overdose — available at many pharmacies without prescription, small enough to carry. Know how to use it. Having it in your camp has saved lives.
 
-Here's your check. The G check: “What is my gut saying about this substance, this source, this situation — before I...
+Here's your check. The G check: “What is my gut saying about this substance, this source, this situation — before I put it in my body?” — test it anyway, even when the gut says yes. Verification isn’t distrust of magic, it’s respect for your own body.
 
 Here's the part that's hard to hear. If Someone Is In Trouble Right Now. Signs of overdose: unresponsive or barely responsive, slow or stopped breathing, blue lips or fingertips, gurgling sound. What to do: call festival medics immediately, administer Narcan if available (nasal spray — one puff per nostril, repeat in 2-3 min if no response), put them in recovery position on their side, stay with them. Good Samaritan laws in most US states protect you when seeking overdose help. Saving someone's life matters more than anything else.
 
@@ -623,7 +623,7 @@ Here's what to watch for.
 
 Here's what's actually happening. The bystander effect is real — in groups, individuals are less likely to act because everyone assumes someone else will. Festival culture adds "no drama" making people hesitate to name what they see. But intervention doesn't have to be dramatic. The distraction approach is subtle, friendly, and requires zero accusation. You're not the police. You're a human who saw something and chose to show up. That is enough.
 
-Run the check. The O check: “Is someone out alone in a way that seems involuntary? Sometimes the most important...
+Run the check. The O check: “Is someone out alone in a way that seems involuntary?” — sometimes the most important thing you do all weekend is the thirty seconds you spend checking on a stranger.
 
 Here's the dark reality. After A Disclosure — What To Actually Do. If a friend tells you something happened: you do not need answers or a plan right now. "I believe you. I'm here. What do you need in this moment?" is complete and powerful. Don't investigate. Don't minimize. Don't immediately jump to reporting unless they want that. Follow their lead. Stay with them. Harm Reduction tents are confidential, non-judgmental, and not police. RAINN's hotline (1-800-656-4673) has 24/7 counselors trained specifically for this.
 

@@ -40,7 +40,7 @@ Here are the signs.
 
 Here's the mechanism underneath it. Vendor fee manipulation relies on the non-refundable deposit to eliminate your leverage once you have committed. The bait-and-switch is a known and widespread practice on the festival vendor circuit. Your only real protection is what is written down before you pay. If it is not in the vendor agreement it did not happen and you have no recourse. Research every promoter in Facebook vendor groups and Indie Craft Experience forums before you commit. The circuit has a long memory for bad promoters.
 
-Here's your check. The M check: “Is the placement, the attendance number, and every fee in writing — or just verbally...
+Here's your check. The M check: “Is the placement, the attendance number, and every fee in writing — or just verbally promised by someone with every reason to over-promise?” — a great pitch that isn’t in writing is just a story.
 
 Here's the part that's hard to hear. Vendor Agreement Must-Haves. Before paying any vendor fee, the written agreement must include: exact booth location or tier with a map, all fees fully itemized including electricity and water hookups, minimum attendance guarantee or clear as-is disclaimer, refund policy under specific conditions including event cancellation, your sales category and exclusivity protections, and setup and breakdown time windows. Research every promoter on Facebook vendor groups before committing.
 
@@ -68,7 +68,7 @@ Watch for these.
 
 Here's what's really going on. Last-minute term changes exploit the sunk cost of your presence. You have traveled, brought inventory, and made plans that are hard to reverse. The cost of walking away feels higher than accepting the change — and that is exactly the calculation the promoter is banking on. Documenting the original agreement in writing and responding to every change in writing creates a paper trail that supports a refund claim or small claims filing after the event.
 
-Ask yourself this. The R check: “Do I have written documentation of what was originally agreed so I can actually...
+Ask yourself this. The R check: “Do I have written documentation of what was originally agreed so I can actually point to it when the terms shift?” — the paper trail you build before the event is the only thing that protects you at it.
 
 Here's what's underneath all of it. When They Change Your Terms After Arrival. (1) Document immediately — photograph your contracted spot vs where they have put you. (2) Send a written objection via email before the event opens: "This placement does not match our agreement. I am proceeding under protest and reserving the right to seek a refund." (3) After the event: small claims court handles disputes up to $25,000 depending on state, filing fee usually under $100, you represent yourself. Your written agreement is your evidence. Most promoters will settle rather than face a filing.
 
@@ -96,7 +96,7 @@ Here's what to watch for.
 
 Here's what's actually happening. Camp-based vendor arrangements can be genuinely mutually beneficial and they can be a systematic way to extract inventory, labor, and compliance from traveling vendors who need the infrastructure. The tell is always whether terms are defined and mutual. Real community has reciprocity both parties can articulate. When your contributions keep expanding and the camp contributions stay stable — that is feudalism with better branding.
 
-Run the check. The E check: “What would it actually cost me to leave this arrangement — and is that cost getting...
+Run the check. The E check: “What would it actually cost me to leave this arrangement — and is that cost getting bigger the longer I stay quiet about it?” — an undefined cost that grows with your silence is not community. It’s a bill you didn’t agree to.
 
 Here's the dark reality. Calculate Your Actual Camp Arrangement Cost. Write this down: (1) Vendor fee or equivalent you are paying. (2) Value of inventory gifted at your wholesale cost. (3) Value of your labor hours at your day rate. (4) Cash contributions to camp costs. Now compare to what a solo vendor spot at the same event would cost and what your actual net sales were. If the camp arrangement costs more than going independently — you are paying for the privilege of working for them. Name that clearly before committing to another season.
 
@@ -152,7 +152,7 @@ Watch for these.
 
 Here's what's really going on. Romantic entanglement with access holders is a specific and common vendor vulnerability because the festival circuit is small and relationship-driven. The problem is not the relationship. The problem is when the relationship becomes the mechanism of professional control. If you cannot evaluate your relationship independently of what it costs your business — the entanglement has already become control. Your professional access should never live inside a romantic relationship.
 
-Ask yourself this. The A check: “Does my business access depend on this relationship — and what does that mean for...
+Ask yourself this. The A check: “Does my business access depend on this relationship — and what does that mean for me the day this relationship ends?” — access that depends on one relationship was never really yours.
 
 Here's what's underneath all of it. Building Access Independent Of Any One Person. Your vendor circuit access should run through multiple independent relationships. Practical steps: join at least two vendor Facebook groups and participate so people know you independently. Apply to events directly rather than through an intermediary whenever possible. Build relationships with multiple promoters independently of any romantic partner. Document your own sales history and reviews so your reputation is yours — not borrowed from someone else's endorsement. The goal is that your access to the circuit survives any single relationship ending.
 
@@ -240,7 +240,7 @@ Watch for these.
 
 Here's what's really going on. Placement retaliation is a control mechanism that works because it is hard to prove and because the cost of fighting it feels higher than the cost of compliance. The organizer has plausible deniability — placement decisions involve many factors. The counter is documentation of the pattern across multiple events and multiple vendors, and building relationships with other organizers so your circuit access does not depend on any one event.
 
-Ask yourself this. The K check: “Am I staying quiet about legitimate concerns because I am afraid of what it will cost my...
+Ask yourself this. The K check: “Am I staying quiet about legitimate concerns because I am afraid of what it will cost my placement next season?” — an organizer who punishes standards is telling you exactly who they are.
 
 Here's what's underneath all of it. Building Circuit Independence. The most effective protection against any single organizer's retaliation is a circuit that does not depend on them. Practical steps: apply to at least three times more events than you plan to attend so you have real options. Build direct relationships with multiple organizers independently. Document your sales performance and vendor reviews so your reputation exists independently. Participate in vendor communities so other organizers know your work before they see your application. Independence is the protection.
 
@@ -358,7 +358,7 @@ Here's what to watch for.
 
 Here's what's actually happening. Design theft and image theft are endemic in the handmade marketplace — the internet makes copying easy and enforcement feels difficult. But copyright protection is automatic the moment you create original work and you have real options. The key is documentation: timestamp your original files, watermark everything you post publicly, maintain a creation file with original dated drafts. US Copyright registration ($65) enables enforcement with statutory damages of $750 to $30,000 per infringement.
 
-Run the check. The R check: “Do I have timestamped documentation of my original designs that establishes my...
+Run the check. The R check: “Do I have timestamped documentation of my original designs that establishes my ownership before anyone else’s does?” — your designs are copyrighted the moment you create them. You get to enforce that.
 
 Here's the dark reality. When Your Work Is Stolen — Your Options. Documentation first: screenshot everything, note dates, save original files. DMCA takedown: file with the platform — Google, Etsy, and Instagram all have processes and take these seriously. Etsy: file an Intellectual Property infringement report — they will remove listings. Legal: small claims for amounts under your state limit. Copyright registration ($65 at copyright.gov) opens the door to statutory damages and attorney fees — making enforcement financially viable. Volunteer Lawyers for the Arts offers free consultations in most major cities.
 
@@ -420,7 +420,7 @@ Watch for these.
 
 Here's what's really going on. Undercover officers at festivals are specifically trained to blend in and they are often very good at it. As a vendor with a public booth you are particularly visible and accessible. The behavioral tells are in the conversation pattern itself: they redirect from legitimate commerce to other things, they guide toward isolation, and they push for specificity. You are never obligated to complete any conversation or transaction. "I am just focused on my product today" ends it cleanly.
 
-Ask yourself this. The A check: “Am I proceeding with this conversation because I actually want to — or because saying...
+Ask yourself this. The A check: “Am I proceeding with this conversation because I actually want to — or because saying no feels riskier than it is?” — no transaction at a festival is worth your freedom, and no conversation is worth your business.
 
 Here's what's underneath all of it. If You Are Approached By Police Or Detained. Know this before you need it: (1) You have the right to remain silent — use it. "I would like to speak with a lawyer" is the only thing you say. (2) You can ask if you are being detained or free to go — if free to go, go. (3) You can decline to consent to a search. (4) Do not physically resist any police interaction. (5) Write down badge numbers and details as soon as possible. (6) Contact a lawyer or the National Lawyers Guild (nlg.org) which has observer programs at many major festivals. Good Samaritan laws protect people seeking overdose help in most US states.
 
@@ -538,7 +538,7 @@ Here's what to watch for.
 
 Here's what's actually happening. Real vendor solidarity is built through repeated small interactions where each person is free to give or not give without social cost either way. It looks like sharing information, helping during the hard moments of setup and breakdown, warning each other about problems on the circuit, and genuinely celebrating when someone in the community thrives. It does not look like keeping score, invoking community as leverage in commercial transactions, or using shared history as a reason you owe someone something.
 
-Run the check. The K check: “Is this interaction genuinely mutual — or is community being invoked to extract...
+Run the check. The K check: “Is this interaction genuinely mutual — or is community being invoked to extract something one direction only?” — real community runs both ways. Extraction only runs one.
 
 Here's the dark reality. How To Build Your Real Vendor Network. Real vendor community is built through: sharing information generously including about bad promoters — this is the most valuable thing you can do for each other. Participating in vendor Facebook groups not just to ask questions but to answer them. Introducing yourself to neighboring vendors at every event with genuine curiosity about their work. Helping during breakdown even when you are exhausted. Giving honest referrals and honest warnings. The vendors who build the longest and most sustainable careers are almost always the ones who invest most genuinely in the community around them.
 

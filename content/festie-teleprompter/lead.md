@@ -66,7 +66,7 @@ Watch for these.
 
 Here's what's really going on. Every camp leader will eventually face a situation where a trusted and integrated member has caused harm. The response to that situation defines the camp culture more than any other single event. Camps that protect long-standing members at the expense of the people they harmed build a culture where harm is tolerated when the person causing it is valuable enough. Camps that hold everyone to the same standard build a culture where people feel genuinely safe to report.
 
-Ask yourself this. The L check: “Am I responding to this in a way that protects the person who came to me — or the person...
+Ask yourself this. The L check: “Am I responding to this in a way that protects the person who came to me — or the person the report is about?” — the standard you set when it’s hard is the only standard that actually matters.
 
 Here's what's underneath all of it. Responding To Harm Reports In Your Camp. When someone brings you a concern: (1) Believe them enough to take action, even if you cannot verify everything immediately. (2) Document what they told you in writing, with their knowledge and consent. (3) Separate the accused person from access to the reporting person immediately and without drama. (4) Consult with the event's safety or security team — this should not be handled entirely within the camp. (5) Do not share the reporter's identity with the accused person without the reporter's explicit consent. (6) Follow up with the reporter. (7) Make a decision about camp membership that reflects the seriousness of the report. There is no version where you do nothing and maintain the trust of your community.
 
@@ -94,7 +94,7 @@ Here's what to watch for.
 
 Here's what's actually happening. Every camp norm was created for a reason and serves a function. The question is whether the function it currently serves is the one it was created for — or whether it has evolved into a protection mechanism for the camp's reputation rather than its people. Privacy norms that prevent reporting, loyalty norms that suppress dissent, contribution norms that extract labor — all of these start somewhere reasonable and can drift somewhere harmful. Examining your norms honestly is camp leadership.
 
-Run the check. The E check: “Do my camp's norms make it easier or harder for members to raise concerns and seek help...
+Run the check. The E check: “Do my camp’s norms make it easier or harder for members to raise concerns and seek help when something has gone wrong?” — the norms you build in calm times are the ones that show up in the hard ones.
 
 Here's the dark reality. Camp Norm Audit. Take each of your camp's major norms and ask: (1) What was this norm created for? (2) Is it currently serving that purpose? (3) Who does this norm protect when there is conflict? (4) Does this norm make it easier or harder for harmed people to seek help? Specific norms to examine: confidentiality norms, loyalty norms, contribution expectations, seniority hierarchies, and any norms around how conflict is handled. If your honest audit reveals that a norm is primarily protecting the camp's reputation or the comfort of senior members at the expense of accountability — it needs to change.
 
@@ -154,7 +154,7 @@ Watch for these.
 
 Here's what's really going on. Resource control creates leverage regardless of intent. When members depend on you for housing, festival access, or other basics, the power differential is real even if you never use it deliberately. People who need something from you will navigate that need carefully — which means raising concerns carefully, agreeing more often than they might otherwise, and staying in situations they might leave if they were independent. Acknowledging this dynamic is the beginning of mitigating it.
 
-Ask yourself this. The A check: “Do the members who depend most on what I provide feel the most or least free to push...
+Ask yourself this. The A check: “Do the members who depend most on what I provide feel the most or least free to push back on me when something’s wrong?” — generosity that creates dependency isn’t generosity. It’s leverage that happens to be warm.
 
 Here's what's underneath all of it. Managing Resource Dependency Ethically. If you provide housing, access, or other resources to camp members: (1) Make explicit that their place in the camp and in the accommodation is not conditional on agreeing with your decisions. Say this out loud at the start of each season. (2) Create separate channels for concerns about camp decisions that do not go through you directly. (3) Be more careful about your behavior with members who depend on you, not less — the power imbalance means your actions land harder. (4) Never reference housing or access in conversations about camp disagreements or member behavior — even implicitly. (5) If someone wants to leave the camp, support that — the accommodation does not bind them.
 
@@ -186,7 +186,7 @@ Here's what to watch for.
 
 Here's what's actually happening. High-control group dynamics in camps develop gradually and are usually invisible from the inside. The characteristics — discouraging outside input, penalizing exit, equating questioning with disloyalty, valuing camp loyalty above individual judgment — serve a genuine function for the person running the camp: they reduce conflict and maintain cohesion. They also prevent the accountability and self-correction that healthy communities require. If several of these are present in your camp, it is worth examining honestly.
 
-Run the check. The L check: “Can members of my camp leave freely, talk to outsiders freely, and question decisions freely...
+Run the check. The L check: “Can members of my camp leave freely, talk to outsiders freely, and question decisions freely, without a cost attached to any of it?” — a community that needs control to hold together isn’t a community. It’s a structure.
 
 Here's the dark reality. The Bite Model — A Self-Assessment Tool. The BITE Model (Behavior, Information, Thought, Emotional control) is used to assess high-control groups. Applied to camps: Behavior control — are member behaviors controlled beyond what the camp function requires? Information control — is information about the camp restricted from outsiders? Thought control — is questioning the camp framed as a thought problem in the member? Emotional control — are members' emotions managed through guilt, shame, or fear of loss? Answering yes to any of these is worth examining. freedomofmind.com has resources on high-control group dynamics that apply to informal communities as well as formal organizations.
 
@@ -340,7 +340,7 @@ Watch for these.
 
 Here's what's really going on. Genuine camp leadership is a practice of consistent accountability — to your members, to the community, and to yourself. The camp leads who build the safest camps are not the ones who have the best rules. They are the ones who model what accountability looks like, who take the same risks with their own behavior that they ask their members to take, and who treat every person in the camp as someone whose wellbeing they are genuinely responsible for.
 
-Ask yourself this. The D check: “When I look at my camp honestly — am I the kind of leader I would want my members to...
+Ask yourself this. The D check: “When I look at my camp honestly — am I the kind of leader I would want my members to describe honestly, if they were asked?” — the best camp lead isn’t the one who never gets it wrong. It’s the one who keeps working to get it more right.
 
 Here's what's underneath all of it. The Ongoing Practice Of Accountable Leadership. Ongoing practices for camp leaders: (1) Post-event honest debrief with at least one person who will tell you the truth. (2) Annual review of camp norms — are they still serving the people in the camp? (3) Regular check-ins with members specifically about how safe they feel in the camp. (4) Seek out critical feedback actively — not just welcome positive feedback. (5) When you get it wrong, say so and change. Out loud. To your members. (6) Invest in your own learning about group dynamics, safeguarding, and consent culture. The work of being a good camp lead is not finished when the event ends. It continues in how you build for the next one.
 

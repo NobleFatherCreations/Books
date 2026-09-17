@@ -38,7 +38,7 @@ Here are the signs.
 
 Here's the mechanism underneath it. The "guide" setup mimics genuine mentorship so closely. Real guides give you information and independence. Predatory guides give you access that requires them. The test is simple: after 48 hours with a real mentor, you know more about how to navigate independently. After 48 hours with a predatory guide, you know less — because your navigation runs through them.
 
-Here's your check. The V check: “Can I get to my camp, the medical tent, and the exit right now without asking him? If not —...
+Here's your check. The V check: “Can I get to my camp, the medical tent, and the exit right now without asking him?” — if not, you’re not being guided, you’re being kept.
 
 Here's the part that's hard to hear. Build Your Own Map In The First Two Hours. When you arrive, before anything else, find these four things independently: (1) your camp location with a physical landmark, (2) nearest medical or Harm Reduction tent, (3) nearest Ranger station, (4) two exit points. Do this with your own group, not with a stranger who volunteered to help. Text your camp location to someone not at the festival. Takes 20 minutes and means you never have to depend on a stranger to get home.
 
@@ -94,7 +94,7 @@ Here's what to watch for.
 
 Here's what's actually happening. First-time substance experiences in festival environments without preparation, testing, or a trusted sober support person are one of the highest-risk situations in the festie world. The person introducing you may have the best intentions and still set you up for a terrible experience. Informed consent means knowing what you're taking, what to expect, having tested it, having someone who knows what and when, and having the Harm Reduction tent location memorized.
 
-Run the check. The V check: “Can I get to my camp, the medical tent, and the exit right now without asking him? If not —...
+Run the check. The V check: “Can I get to my camp, the medical tent, and the exit right now without asking him?” — if not, slow down before the moment sweeps you somewhere you didn’t choose.
 
 Here's the dark reality. First Time, Unknown Substance, Strangers. The highest-risk combination at any festival is a first-timer, an untested substance, and people who do not know your baseline. You have no tolerance, no reference point for what “too much” feels like in your own body, and nobody around you knows what you look like when you are fine. A dose calibrated to someone who has done this two hundred times is not calibrated to you, and the person handing it over is usually estimating rather than measuring. Add the part nobody mentions: the generous stranger who wants to be present for your first time is sometimes exactly that, and is sometimes someone who has learned that a person’s first experience is the easiest one to be in charge of. You are not obligated to make your first festival your first anything else. Test it, halve it, and be with someone who knew you before this weekend.
 
@@ -150,7 +150,7 @@ Watch for these.
 
 Here's what's really going on. The rescue hook targets the specific window when you're most resource-depleted and least capable of independent assessment. The help is often genuinely real — which makes the subsequent leverage feel confusing. Gratitude is a genuine human response to being helped. It is not a binding contract. You can thank someone sincerely for real help and still choose to go back to your own people afterward.
 
-Ask yourself this. The V check: “Does this person's help return me to my own people and navigation — or keep me...
+Ask yourself this. The V check: “Does this person’s help return me to my own people and navigation — or keep me needing them for the next thing too?” — real help ends. It doesn’t renew itself.
 
 Here's what's underneath all of it. Dead Phone = Highest Risk Window. A dead phone at a festival is one of the most dangerous situations for a first-timer. Before you're ever in this situation: carry a portable charger and keep it topped up. Write your camp location and two friends' numbers in ink on your arm before each day. Know your camp by a physical landmark — not just GPS. Establish a meeting spot your whole group knows. "If we get separated, meet at the big wooden arch at midnight." These are not paranoid. They are just good festie practice.
 
@@ -206,7 +206,7 @@ Here are the signs.
 
 Here's the mechanism underneath it. The overwhelm window is predictable and exploitable. Knowing when it's likely to hit — Day 1 arrival chaos, late Saturday night, Sunday morning crash — lets you build support into those specific moments rather than being surprised by them. Your most vulnerable moments don't have to be your least protected ones. That's what pre-planning your support infrastructure is for.
 
-Here's your check. The A check: “Am I making decisions right now with the same judgment I'd have at 2pm on a Tuesday? If...
+Here's your check. The A check: “Am I making decisions right now with the same judgment I’d have at 2pm on a Tuesday?” — if not, this isn’t the moment to decide anything.
 
 Here's the part that's hard to hear. The Predicted Hard Moments At Your First Festival. Know these windows are coming: (1) First hour at the gate — overwhelming, plan to walk the grounds with your group before anything else. (2) Late Saturday night — peak exhaustion plus peak substances plus peak crowd. Have a buddy system. (3) Sunday morning — emotional crash, physical depletion, homesickness sometimes. Plan for rest. (4) Load-out day — tired, sad, vulnerable. Be careful about new "connections" in breakdown. Pre-planning support for these moments is what experienced festies do.
 
@@ -324,7 +324,7 @@ Watch for these.
 
 Here's what's really going on. Tight community in festival culture is real and beautiful. It also exists on a spectrum that includes high-control groups using festie aesthetics. The tells are always the same: is leadership accountable or above questioning? Are members free to leave? Are contribution expectations defined and mutual? Is dissent welcomed or managed? Real community answers yes to all of these. High-control groups answer no.
 
-Ask yourself this. The E check: “Am I free to leave this camp right now, without social cost? If that question makes me...
+Ask yourself this. The E check: “Am I free to leave this camp right now, without social cost?” — if that question makes you nervous to even ask, that nervousness is the answer.
 
 Here's what's underneath all of it. Real Community Vs High-Control Group — The Tells. Real community: leadership is accountable, people come and go freely, dissent is welcomed, contribution expectations are clear and mutual, the community makes you more yourself over time. High-control group: leadership is above questioning, leaving or questioning costs you socially, contribution expectations expand without renegotiation, the community makes you increasingly dependent on it rather than more independent. First-timers are specifically targeted by high-control camp cultures because you're looking for belonging and you don't yet have a reference point.
 
@@ -510,7 +510,7 @@ Watch for these.
 
 Here's what's really going on. The difference between genuine connection and being collected is not visible in the opening — it becomes visible in how the person responds to your independence. Genuine connectors are happy when you flourish without them. They celebrate your other connections. They don't need to be the center of your festival experience. Collectors need your orbit. They need your dependency. They need to be the source of your experience. Watch for that distinction over a full day.
 
-Ask yourself this. The R check: “Is this person's warmth consistent whether I'm being compliant or independent? That's the...
+Ask yourself this. The R check: “Is this person’s warmth consistent whether I’m being compliant or independent?” — that’s the whole test.
 
 Here's what's underneath all of it. How To Find Your Real Festival Family. Real festival family is found through shared experiences with no agenda: the spontaneous conversation at a water station, the people around you at a set who are moved by the same moment, the mutual help during a logistical challenge. It develops through repeated small interactions over the course of the festival where each person is free to come and go. It doesn't start with someone targeting you specifically or making you feel specially chosen. It starts with just being next to each other in the same experience.
 

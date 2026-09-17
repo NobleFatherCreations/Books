@@ -94,7 +94,7 @@ Here's what to watch for.
 
 Here's what's actually happening. People who want access to vulnerable people at festivals will seek roles that provide that access. Harm Reduction tents, medical stations, safe spaces, and security roles all provide access to people who are at their most vulnerable. This is a known and documented pattern in safeguarding contexts. If you have a gut feeling about a colleague in your space — that feeling is data. Name it to a supervisor. Document it. The culture of "but they have been here for years" is specifically what these patterns rely on.
 
-Run the check. The L check: “Have I documented the specific behaviors that are making me uncomfortable about this...
+Run the check. The L check: “Have I documented the specific behaviors that are making me uncomfortable about this person in an access role, with dates and specifics?” — the team looking out for each other matters as much as the team looking out for attendees.
 
 Here's the dark reality. Safeguarding In Festival Staff Contexts. Basic safeguarding practices for festival staff spaces: no staff or volunteer should have unsupervised one-on-one access to impaired or vulnerable attendees. Staff contact with attendees ends when the support need ends — ongoing personal contact is a red flag. Any staff member who is seeking out specific attendees after interactions should be reported to a supervisor. All concerns about staff behavior should be documented in writing with date, time, and specific observed behavior. A genuine organization will take these concerns seriously. One that dismisses them is protecting the wrong person.
 
@@ -122,7 +122,7 @@ Here are the signs.
 
 Here's the mechanism underneath it. Compassion fatigue is a recognized occupational hazard for anyone in sustained caregiving roles. It is not weakness. It is a physiological response to extended high-intensity emotional labor. Festival caregiving compresses what might be a week of a therapist's caseload into a single shift. The culture that says "just one more shift" and "the event needs you" is the same culture that burns out its best volunteers. Your wellbeing is not optional. It is what makes you effective.
 
-Here's your check. The H check: “Am I actually present with the people I am supporting — or am I running on empty and...
+Here's your check. The H check: “Am I actually present with the people I am supporting — or am I running on empty and performing presence I don’t actually have?” — you cannot give what you do not have. Recovery is the job, not a luxury outside it.
 
 Here's the part that's hard to hear. Compassion Fatigue Recovery Protocol. During an event: take your full breaks even when the space is busy, eat real food even when you are not hungry, drink water before you are thirsty, step outside the tent for ten minutes between difficult interactions. After a difficult shift: do not go directly to the main festival environment — give yourself a 15-30 minute transition in a quiet space. After the event: give yourself 3-5 days before processing difficult experiences, talk to someone outside the festival context about what you carried, and if intrusive thoughts or emotional numbness persist beyond two weeks contact a mental health professional.
 
@@ -150,7 +150,7 @@ Watch for these.
 
 Here's what's really going on. Most people who access Harm Reduction or support spaces at festivals are there for genuine reasons. Some are not. People who want to gather information about vulnerable attendees, access resources beyond what is appropriate, or build proximity to staff will use the care space to do it because the care space is specifically designed to receive people without judgment. Noticing patterns is not being judgmental. It is being a good safeguarder.
 
-Ask yourself this. The O check: “Is the pattern of this person's engagement consistent with genuine support seeking — or...
+Ask yourself this. The O check: “Is the pattern of this person’s engagement consistent with genuine support seeking — or does it track more closely with something else entirely?” — discernment is as much a part of this role as compassion.
 
 Here's what's underneath all of it. What To Do When Something Feels Off. Trust your gut. If something about a repeated visitor feels off — name it to a colleague quietly during a transition. Document: how many visits, what they requested each time, anything that seemed inconsistent. You do not need certainty to document a concern. Documentation is not accusation — it is creating a record in case the pattern becomes clearer later. If the behavior is actively concerning — someone gathering information about other attendees, someone following up with specific attendees after interactions — that goes to your supervisor immediately and in writing.
 
@@ -182,7 +182,7 @@ Here's what to watch for.
 
 Here's what's actually happening. Systematic depletion of staff and volunteers is sometimes accidental and sometimes deliberate. When everyone is too exhausted to notice patterns or raise concerns — problems that would otherwise be caught and addressed do not get caught and addressed. If you are in an event structure where your basic needs are not being met and there is no functional path for raising concerns — that is information about the organization, not just about the event. Name it. Document it. And protect yourself accordingly.
 
-Run the check. The H check: “Do I have the basic resources I need to do this role safely — food, sleep, breaks, a...
+Run the check. The H check: “Do I have the basic resources I need to do this role safely — food, sleep, breaks, a way to say when I’ve hit my limit?” — a depleted volunteer isn’t a martyr, they’re a liability to everyone they’re trying to protect.
 
 Here's the dark reality. When The Reporting Structure Is Broken. If your direct supervisor is unavailable, overwhelmed, or is the source of the problem: escalate to the next level up. If there is no functional next level: document your concern in writing and send it to the organization in writing — email creates a timestamp. If the issue involves immediate safety: contact festival medical or emergency services directly, bypassing the organizational structure. After the event: formal written feedback to the organization and to any professional bodies or associations that oversee the event. Your concern being hard to hear does not make it wrong.
 
@@ -210,7 +210,7 @@ Here are the signs.
 
 Here's the mechanism underneath it. Reporting suppression protects the organization and the event at the expense of the people harmed. When incidents are handled informally at the request of event leadership — no report, no documentation, no formal process — the people harmed lose their ability to seek redress, the pattern goes untracked, and the organization avoids accountability. Your role is to report. The decision about how to handle the report is not yours alone. Make the report and let the process work.
 
-Here's your check. The L check: “Have I documented this incident in writing regardless of what the organization is asking me...
+Here's your check. The L check: “Have I documented this incident in writing regardless of what the organization is asking me to prioritize instead?” — reporting harm is the job. Anyone telling you otherwise is protecting the wrong thing.
 
 Here's the part that's hard to hear. What To Do When Told Not To Report. If you are asked not to formally report an incident: (1) Document the incident yourself in writing regardless — date, time, location, what you witnessed, what you reported, and what response you received including the instruction not to formally report. (2) If the incident involves assault, harassment, or a crime — you may have independent legal obligations to report depending on your role and jurisdiction. (3) If the organization is suppressing reports: that is reportable to relevant authorities and professional bodies after the event. (4) RAINN (rainn.org) has guidance for bystanders and witnesses as well as victims.
 
@@ -300,7 +300,7 @@ Here are the signs.
 
 Here's the mechanism underneath it. Front-line workers are the easiest people to blame for systemic failures because they were physically present when things went wrong. Organizations that do not want to examine their own structural failures direct accountability downward onto the people least able to defend themselves. You are not required to accept blame for conditions you did not create. Document your version of events in writing immediately after any incident. Do not sign anything you do not fully understand and agree with.
 
-Here's your check. The L check: “Have I documented my version of events in writing immediately — before organizational...
+Here's your check. The L check: “Have I documented my version of events in writing immediately — before organizational framing has a chance to reshape it?” — you’re responsible for your actions, not for the systemic conditions you were placed in.
 
 Here's the part that's hard to hear. Protecting Yourself After An Incident. Immediately after any significant incident: (1) Write your own account in as much detail as possible — what you observed, what you did, what resources and training you had, what the conditions were. Include timestamps. (2) Do not sign any organizational documentation before you have had time to read it carefully and compare it to your own account. (3) If asked to participate in a formal review: you have the right to have someone present with you. (4) If you feel you are being scapegoated for systemic failures: contact a lawyer or the National Lawyers Guild before signing anything.
 
@@ -328,7 +328,7 @@ Watch for these.
 
 Here's what's really going on. Staff and volunteers have a fundamentally different role in bystander intervention than attendees — you have authority, visibility, backup, and a professional obligation to act that most attendees do not. The threshold for intervention is lower for you. The tools available are better. The accountability for not acting is higher. See something, do something — and document what you did and why.
 
-Ask yourself this. The O check: “What am I observing right now and what does my role require me to do with that...
+Ask yourself this. The O check: “What am I observing right now, and what does my role require me to do with that observation, in this exact moment?” — your vest and your radio are the tools for this moment. Use them.
 
 Here's what's underneath all of it. Staff Bystander Toolkit. What staff have that attendees do not: (1) Radio — you can call for backup before approaching. Use it. (2) Authority — "Is everything okay here?" from someone in a staff vest lands differently than the same question from an attendee. (3) Known safe spaces — you know where Harm Reduction and medical are. You can offer to walk someone there. (4) Incident reporting — everything you witness and act on gets documented. That documentation protects people, creates patterns, and holds the organization accountable. (5) Colleagues — you are not alone. Use your team.
 
@@ -390,7 +390,7 @@ Here are the signs.
 
 Here's the mechanism underneath it. Festival volunteer culture often blurs the line between genuine community contribution and labor exploitation. The "we are all in this together" framing can make it feel selfish or disloyal to refuse unsafe tasks or insist on basic working conditions. It is not. Volunteers who are placed in unsafe conditions and something goes wrong face real consequences — personal harm, trauma, and sometimes legal exposure. You have the right to refuse conditions that put you at unreasonable risk.
 
-Here's your check. The H check: “Am I being asked to do something that my training, my safety, or my basic needs require...
+Here's your check. The H check: “Am I being asked to do something that my training, my safety, or my basic needs require me to say no to?” — saying no to an unsafe task isn’t letting the team down. It’s doing the job correctly.
 
 Here's the part that's hard to hear. Volunteer Rights In Practice. In practice, volunteer rights include: the right to know what your role involves before you commit, the right to refuse tasks outside your role description or competency without losing your position, the right to safe working conditions including adequate communication, support, and backup, the right to leave a role that is actively harmful to you without legal consequence in most jurisdictions, and the right to documentation of what was agreed. After the event: formal feedback to the organization and to any bodies that oversee the event. Your experience matters and your feedback improves conditions for future volunteers.
 
@@ -418,7 +418,7 @@ Watch for these.
 
 Here's what's really going on. Secondary traumatic stress — also called vicarious trauma — is a recognized occupational hazard for people in caregiving and emergency response roles. It develops from repeated exposure to other people's traumatic experiences. Festival caregiving compresses this exposure dramatically. Debrief is the professional standard for managing it — named processing of what you experienced, with colleagues or a professional, before it gets metabolized as unprocessed trauma.
 
-Ask yourself this. The D check: “Have I actually stopped and processed what I experienced today — or am I just pushing...
+Ask yourself this. The D check: “Have I actually stopped and processed what I experienced today — or am I just pushing through to the next shift?” — what you process becomes wisdom. What you don’t becomes weight.
 
 Here's what's underneath all of it. What An Effective Debrief Looks Like. At minimum after any difficult shift: 15-30 minutes of quiet transition before driving or going to the main festival. Name — out loud to at least one colleague — the most difficult thing you experienced this shift. After the event: talk to at least one person outside the festival context about what you carried. If multiple difficult incidents happened: consider a session with a therapist who works with first responders or emergency services. Resources specifically for caregivers: Zendo Project (zendoproject.org) trains staff and can refer to ongoing support. Psychology Today (psychologytoday.com) has therapist finders by specialty.
 
@@ -480,7 +480,7 @@ Here are the signs.
 
 Here's the mechanism underneath it. The access that comes with festival staff and volunteer roles creates real power over people who are in vulnerable moments. That power is a tool for service — it is not a benefit of the role. Information shared in a care context is confidential. Access to spaces and resources is role-specific. Ongoing personal contact with people you supported in your role raises the same issues as any therapist-client boundary — the power imbalance does not disappear when the immediate support need does.
 
-Here's your check. The H check: “Am I using my access in service of the people I am there to protect — or for my own...
+Here's your check. The H check: “Am I using my access in service of the people I am there to protect — or for my own convenience, curiosity, or gain?” — the access isn’t yours, it belongs to the role. Use it accordingly.
 
 Here's the part that's hard to hear. The Ethics Of Your Access. Ethical use of staff access: information shared with you in a care context stays in the care context — it does not get shared with other staff except on a need-to-know basis and not at all outside the organizational context. Physical access to secure or restricted areas is for role purposes only. Contact with people you supported ends when the support need ends — seeking ongoing personal contact is a boundary violation regardless of how the connection felt. If you are unsure whether something is within bounds: ask your supervisor before doing it, not after.
 
@@ -508,7 +508,7 @@ Watch for these.
 
 Here's what's really going on. Healthy staff culture is built from the first briefing and maintained through how leadership responds to the first concern that is raised. Organizations where leadership takes concerns seriously, supports staff wellbeing, and holds itself to the same standards it holds front-line workers create genuinely safer events. Organizations that suppress concerns, burn out volunteers, and deflect accountability downward create events where harm is more likely and less likely to be addressed.
 
-Ask yourself this. The O check: “Does the culture of this staff team make it easy or hard to raise concerns? That tells you a...
+Ask yourself this. The O check: “Does the culture of this staff team make it easy or hard to raise concerns?” — that tells you a great deal about how safe this event actually is.
 
 Here's what's underneath all of it. How To Build Healthy Staff Culture From Your Position. Regardless of where you sit in the organization: (1) Model taking gut feelings seriously by naming yours out loud. "Something about that felt off to me — I am going to document it." (2) Celebrate colleagues who raise concerns rather than treating them as troublemakers. (3) Debrief after difficult shifts even when leadership does not require it. (4) Give honest post-event feedback to the organization about what worked and what did not. (5) If you are in leadership: the first time a concern is dismissed sets the culture for every concern that follows. Take them all seriously.
 

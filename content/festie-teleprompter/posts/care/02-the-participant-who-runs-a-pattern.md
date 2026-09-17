@@ -1,0 +1,48 @@
+<!-- C.A.R.E. #2 — “THE PARTICIPANT WHO RUNS A PATTERN” — ~496 spoken words — est. 3:18 at 150wpm -->
+# 🎬 VIDEO INTRO
+
+**Guide:** C.A.R.E. — HARM REDUCTION (Harm Reduction Edition)  
+**Section:** Capture — how access and trust get established  
+**Scenario 2 of 10 in this guide**  
+**Accent color (matches this guide on the live site):** `#5CC2B0`  
+
+*Suggested on-screen text, first 3–4 seconds:*
+
+> **C.A.R.E.** · CAPTURE
+> “THE PARTICIPANT WHO RUNS A PATTERN”
+
+*Spoken intro — read this first, about 5–8 seconds:*
+
+“This one's C.A.R.E. — Capture. Here's the scenario.”
+
+---
+
+# “THE PARTICIPANT WHO RUNS A PATTERN”
+*When Someone Is Using the Space for Something Other Than Support — clinically, space exploitation / safeguarding concern.*
+
+Here's who you're dealing with. Most people who come to a Harm Reduction tent are there for genuine reasons. Some are not. Recognizing the difference is a specific skill and a safeguarding responsibility.
+
+Here's the scene. He has been to the tent four times this weekend. Each visit, the stated reason shifts. He is articulate and charming and good at triggering the care response. You have given him supplies, information, quiet space, and extended conversations. On the fourth visit you notice: he is asking detailed questions about other participants who have come through the tent. He seems interested in the staff schedule. His affect when he thinks nobody is watching is different from his affect when he is being supported.
+
+Watch for these signs.
+
+- Multiple visits with shifting or evolving presentations of the support need
+- Interest in other participants who have used the space or in staff schedules and rotations
+- Requests that go beyond the scope of the Harm Reduction role
+- Noticeably different affect when they think they are not being directly observed
+
+Here's what's actually happening. People who want to gather information about vulnerable attendees, access resources beyond what is appropriate, or build proximity to care staff will use the Harm Reduction tent to do it because the tent is specifically designed to receive people without judgment. Noticing patterns is not being judgmental. It is safeguarding. Your gut when something is off is data. Document it and name it to your team lead.
+
+Run the check. The R check: “Is the pattern of this person’s engagement consistent with genuine support seeking — or does it track more closely with something else entirely?” — discernment is as much a part of this role as compassion.
+
+Here's the dark reality. Documenting Concerning Patterns. When something feels off about a participant: (1) Note the visit — time, brief description of what was requested, anything that seemed inconsistent. (2) Share your observation with a colleague quietly during a transition — "I want to flag something about a repeat visitor." (3) If the behavior is actively concerning — gathering information about other participants, following up with specific participants after interactions — report to your team lead immediately and in writing. You do not need certainty to document. Documentation is not accusation. It is creating a record in case the pattern becomes clearer.
+
+Here's your move. Trust the pattern. Note it. Share it with a colleague. Document it. That is what good safeguarding looks like.
+
+Here's exactly what to say. “I want to flag something I have noticed about a repeat visitor — can we talk privately for a minute?”
+
+And here's the truth. Your care role requires discernment as much as compassion. Both are part of doing it well.
+
+---
+
+Find this one, and every other scenario, free, at www.noblefathercreations.com/festival.

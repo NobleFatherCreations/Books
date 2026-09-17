@@ -66,7 +66,7 @@ Watch for these.
 
 Here's what's really going on. Sleep deprivation is one of the most consistently underestimated risk factors at festivals. After 36 hours without sleep, cognitive impairment is equivalent to a 0.10 blood alcohol level. After 48 hours it is significantly higher. Combined with substances, heat, and social pressure this creates a state where the very judgment systems you need to make good decisions about your own safety are significantly compromised. Rest is not weakness. Rest is strategy.
 
-Ask yourself this. The A check: “Am I making decisions right now with my full judgment — or with a significantly depleted...
+Ask yourself this. The A check: “Am I making decisions right now with my full judgment — or with a significantly depleted version of it?” — rest isn’t missing the festival. It’s what makes you available to actually be in it.
 
 Here's what's underneath all of it. The Case For Actually Sleeping. You will remember more of your festival if you sleep. Genuine experiences integrate better when your brain is functioning. You will be more present in conversations, more able to receive music, more connected to the people around you. The FOMO of missing a few hours by sleeping is almost always outweighed by the quality of the hours you are present for. Plan for at least one solid sleep block in a 72-hour event. Bring earplugs and an eye mask. Tell your campmates you are sleeping and not to disturb you. This is not weakness. This is how you have the festival you actually came for.
 
@@ -98,7 +98,7 @@ Here's what to watch for.
 
 Here's what's actually happening. The recreational drug supply has been contaminated with fentanyl and fentanyl analogues at a scale that makes testing not optional — it is a basic safety step equivalent to checking that your tent stakes are in the ground before it rains.
 
-Run the check. The A check: “Have I tested this — and does everyone in my group know what to do if something goes...
+Run the check. The A check: “Have I tested this — and does everyone in my group know what to do if something goes wrong?” — two minutes of testing is the difference between a good night and a medical emergency.
 
 Here's the dark reality. Every Time Means The Batch You Already Trust. Fentanyl and its analogues have turned up in pressed pills sold as MDMA, in cocaine, in ketamine, in counterfeit prescription tablets — substances where nobody in the chain intended an opioid to be present at all. Contamination is not evenly mixed: two pills pressed in the same batch can differ, so a strip that came back clean on Friday’s half says nothing about Saturday’s. This is the specific reason “it’s from a friend” is not a safety measure — your friend is not the chemist, he is another customer, and he is testing nothing either. Two strips and a reagent kit cost less than a night of parking. Carry naloxone even if you never touch an opioid on purpose, because the overdose you reverse will most likely belong to somebody who also thought they never had.
 
@@ -126,7 +126,7 @@ Here are the signs.
 
 Here's the mechanism underneath it. Polydrug use — using more than one substance — is extremely common at festivals and the risk profile of combinations is not intuitively obvious. Substances that seem to balance each other out are often actually masking warning signals from your body. The feeling of being okay is not reliable information when two substances are creating competing effects. The Harm Reduction tent has staff trained in polydrug risk assessment. When in doubt — go there before you take something else.
 
-Here's your check. The A check: “Do I know what I have already taken and do I actually know what I am being offered right...
+Here's your check. The A check: “Do I know what I have already taken and do I actually know what I am being offered right now, specifically?” — the combination is where most of the risk lives. Know what you’re mixing before you mix it.
 
 Here's the part that's hard to hear. Harm Reduction Tent — Use Them For This. Harm Reduction tents at major festivals have staff trained in substance interaction risk. You can walk in and say "I took X a few hours ago and someone is offering me Y — is that a problem?" and receive factual, non-judgmental information. This is confidential. They are not the police. They are not going to take away your substances or report you. They are there specifically to help you make safer choices. TripSit (tripsit.me) also has a free online drug combination checker that works on mobile. Check before you mix.
 
@@ -246,7 +246,7 @@ Watch for these.
 
 Here's what's really going on. The gap between knowing where help is and not knowing where help is is the difference between a situation that gets addressed quickly and one that escalates because nobody knows what to do or where to go. In a medical emergency at a festival, every minute matters. Pre-mapping your resources is the preparation that costs nothing and is worth everything.
 
-Ask yourself this. The F check: “Have I physically located the medical tent, Harm Reduction tent, and Ranger station with my...
+Ask yourself this. The F check: “Have I physically located the medical tent, Harm Reduction tent, and Ranger station with my own feet, not just on the map?” — knowing where help is before you need it is the preparation everything else builds on.
 
 Here's what's underneath all of it. The Five-Minute Group Orientation. Before your first night — as a group: (1) Walk to the medical tent together. Note the route and a visual landmark nearby. (2) Walk to the Harm Reduction tent. Note the route. (3) Walk to the Ranger station. Note the route. (4) Identify the nearest water station to your camp. (5) Choose a physical meeting spot for if you get separated — not a GPS location, a physical landmark. "The big wooden arch at the east entrance." (6) Set a daily check-in time. "We touch base at 2pm every day no matter what." This is ten minutes that changes the whole weekend.
 
@@ -274,7 +274,7 @@ Here's what to watch for.
 
 Here's what's actually happening. There is no required waiting period before reporting a missing person at a festival. The idea that you must wait 24 hours is a myth and in a festival context is actively dangerous. Report as soon as you are concerned. Festival security, Rangers, and medical teams all have protocols for missing persons. The earlier you report, the better the resources available, and the better the outcomes. Your concern is sufficient reason to make a report.
 
-Run the check. The E check: “Have I already checked medical and Harm Reduction tents — and do I have her photo on my...
+Run the check. The E check: “Have I already checked medical and Harm Reduction tents — and do I have her photo on my phone, ready to show people?” — there’s no minimum wait time to report someone missing. Report when you’re concerned, not after.
 
 Here's the dark reality. Missing Person Information To Have Ready. When you report: (1) Full name and age. (2) Physical description including height, approximate weight, hair color. (3) What she was wearing the last time you saw her — be specific including shoes. (4) Last known location and time. (5) Phone number and whether it is going to voicemail. (6) Her relationship to alcohol and substances this weekend and any medical conditions. (7) A clear recent photo from your phone. Write some of this down when you last see members of your group each day — not when they are missing and you are panicking.
 
@@ -366,7 +366,7 @@ Here's what to watch for.
 
 Here's what's actually happening. Difficult psychedelic or substance-induced experiences are almost always temporary and almost always respond well to calm, quiet, grounded support. The worst things you can do: try to talk them out of their experience, argue with them about what is real, leave them alone, or take them to a loud and stimulating environment. The Zendo Project specializes specifically in difficult psychedelic experience support and has trained staff at many major festivals. Get them there if available.
 
-Run the check. The F check: “Do I know where the Zendo or Harm Reduction tent is — and can I get us both there calmly...
+Run the check. The F check: “Do I know where the Zendo or Harm Reduction tent is — and can I get us both there calmly, without rushing them?” — a calm presence is the most powerful intervention there is, and you already have it.
 
 Here's the dark reality. What Actually Helps In A Difficult Experience. What helps: move to a quieter, lower-stimulation space. Sit with them on the ground. Speak calmly and slowly. Remind them where they are and that they are physically safe. "You took something, it will pass, I am right here, you are safe." Do not try to fix or solve the experience — just be a calm presence in it. What does not help: arguing about what is real, leaving them alone, taking them to a loud or crowded space, giving them more substances, or panicking yourself. Zendo Project (zendoproject.org): specifically trained for this. Get them there if you can.
 
@@ -426,7 +426,7 @@ Watch for these.
 
 Here's what's really going on. Post-incident processing is hard enough without the additional weight of deciding whether your experience is bad enough to matter. It is. Whatever level of severity it sits at — it matters. You do not have to be okay by the time you load the car. You do not have to have it figured out before you talk to someone. Give yourself the first 48-72 hours for basic recovery — sleep, food, low stimulation — before trying to process fully. Then talk to someone you trust.
 
-Ask yourself this. The E check: “What does my body actually need right now — not what does the situation require me to...
+Ask yourself this. The E check: “What does my body actually need right now — not what does the situation require me to perform?” — you don’t have to be okay yet. Support exists, and you deserve it.
 
 Here's what's underneath all of it. The Week After The Festival. Post-festival blues are real — the crash from social intensity, sleep debt, and substances can feel significant and last several days. What helps: sleep, real food, gentle movement, low stimulation, reconnecting with people you trust. What makes it harder: immediately jumping back into intensity, isolating, making major decisions in the first week. If you are carrying something heavy from the weekend: give yourself 3-5 days before trying to process it fully. If the weight does not lift after a week or two — reach out to a therapist. Psychology Today (psychologytoday.com) has a therapist finder by specialty including trauma.
 
@@ -454,7 +454,7 @@ Here's what to watch for.
 
 Here's what's actually happening. The buddy system works because it creates accountability before you need it — not after something has already gone wrong. The check-in time means that if something is wrong you know within hours, not days. The code word means you can signal for help in any situation without making a scene. The meeting spot means you can reconnect without phone signal. These are not elaborate safety measures. They are ten minutes of planning that changes the entire risk profile of your weekend.
 
-Run the check. The E check: “Does everyone in my group have a buddy and do we all have the code word and the...
+Run the check. The E check: “Does everyone in my group have a buddy, and do we all have the code word and the meeting point, agreed before we split up?” — ten minutes spent on this before the festival is the preparation that matters most.
 
 Here's the dark reality. The Full Buddy System Checklist. Before gates open: (1) Every person has a named buddy. (2) Daily check-in time agreed — specific time, specific expected response. (3) Code word chosen — something normal-sounding that means "come get me now." (4) Physical meeting spot chosen — a Specific landmark, not a GPS point. (5) One person not at the festival has the names and phone numbers of everyone in the group. (6) Everyone writes two emergency numbers in pen on their arm — their buddy and one person at home. (7) Offline festival map downloaded on at least two phones. Ten minutes. Do it before the music starts.
 

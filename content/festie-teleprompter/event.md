@@ -39,7 +39,7 @@ Here are the signs.
 
 Here's the mechanism underneath it. Misrepresentation in vendor and artist pitches is widespread because the incentive structure rewards it — you get the fee and the performer, and the consequences arrive later and are diffuse. The vendor absorbs the loss. The artist absorbs the gap between what was promised and what was delivered. Your reputation absorbs it slowly. Accurate representation of what your event offers is not just ethical — it is how you build the relationships and reputation that sustain your events long-term.
 
-Here's your check. The V check: “Would I be comfortable if every vendor and artist I have worked with saw this pitch in...
+Here's your check. The V check: “Would I be comfortable if every vendor and artist I have worked with saw this pitch in writing, side by side with what actually happened?” — the reputation you’re building is the accurate one, not the one in your pitch.
 
 Here's the part that's hard to hear. What Honest Representation Looks Like. In your vendor and artist agreements: use attendance numbers from the equivalent prior event, clearly noted as historical. Specify booth placement as a location tier with a map, not a verbal description. List all fees including conditionals before collecting any payment. Include a refund policy that covers material misrepresentation. Make your production details — stage size, sound system, streaming arrangements — specific and accurate. An agreement that accurately represents your event is the foundation of a reputation that lasts. An agreement that oversells it is a debt you will pay in reputation and relationships.
 
@@ -129,7 +129,7 @@ Here are the signs.
 
 Here's the mechanism underneath it. Festival promoters who treat staff and volunteers as family while providing no operational clarity are using the emotional frame to avoid the practical obligations. Family framing does not substitute for written agreements. Community language does not provide food and rest. And a culture where concerns are raised but not acted on is a culture where the next concern does not get raised — until something goes seriously wrong.
 
-Here's your check. The N check: “Do my staff have what they need to do their jobs safely — and do they have a clear path...
+Here's your check. The N check: “Do my staff have what they need to do their jobs safely — and do they have a clear path to raise a concern without it costing them?” — your event runs on other people’s labor. You owe them clarity, safety, and a path that actually works.
 
 Here's the part that's hard to hear. Staff And Volunteer Minimum Standards. For every event: (1) Written volunteer agreements specifying hours, accommodation, meals, and exit terms before the event. (2) Pre-event briefing covering reporting process, code words, daily check-in expectations. (3) Designated staff welfare role — someone whose job includes checking that staff are okay. (4) Documented process for raising concerns about other staff members that does not require going to their direct supervisor. (5) Post-event debrief for staff that includes honest assessment of what could be improved. These are not extras. They are the baseline of running an event with people in it.
 
@@ -249,7 +249,7 @@ Watch for these.
 
 Here's what's really going on. The gap between what promoters legally own through standard contracts and what they ethically owe the artists who created the content is significant. Artists whose performances are recorded, distributed, and monetized are entitled to participate in that revenue. A recording rights clause buried in a booking confirmation is not the same as a negotiated agreement. The ethical standard is transparency about what you are doing with the content and fair participation for the people who created it.
 
-Ask yourself this. The V check: “Are the artists whose recordings I am using being compensated fairly for the commercial...
+Ask yourself this. The V check: “Are the artists whose recordings I am using being compensated fairly for the commercial use I am putting that footage to?” — the content that builds your brand was created by artists. Treat their contribution accordingly.
 
 Here's what's underneath all of it. Ethical Recording Rights Practice. Ethical practice for event recordings: (1) Be explicit in booking agreements about what recording will happen and for what purpose. (2) Distinguish between archival recording (no commercial use) and commercial recording (streaming, licensing, promotion) — these are different agreements. (3) Share streaming and licensing revenue with performing artists — this is both the legal standard in many contexts and the ethical one in all contexts. (4) Use artist images and recordings for event promotion only with their explicit agreement. (5) When in doubt: ask before you use. The conversation is easier before the content is published than after.
 
@@ -315,7 +315,7 @@ Here are the signs.
 
 Here's the mechanism underneath it. Ethical event production is not a higher bar than most promoters can reach. It is a set of consistent practices that most promoters know they should follow and some do not. The ones who do build reputations that compound over time — artists want to play their events, vendors want placement at their markets, staff want to work their shows. The ones who do not build reputations that also compound — and the circuit has a very long memory.
 
-Here's your check. The T check: “Would the artists, vendors, and staff who worked my last event describe it the way I would...
+Here's your check. The T check: “Would the artists, vendors, and staff who worked my last event describe it the way I just did?” — ethical production isn’t complicated. It’s a set of choices made consistently. Make them.
 
 Here's the part that's hard to hear. The Ethical Promoter Checklist. Before every event: (1) All agreements in writing and signed before any performance or payment. (2) Attendance and placement representations accurate and documented. (3) All fees including conditionals listed in written agreements. (4) Staff and volunteer agreements specify hours, accommodation, meals, and reporting process. (5) Safety infrastructure plan in place and staffed. (6) Consent policy in writing with enforcement process named. After every event: (7) Financial reconciliation within agreed timeline. (8) Feedback collected from artists, vendors, and staff. (9) Post-event safety review including analysis of any incidents and their handling. (10) Changes made based on what the review reveals.
 

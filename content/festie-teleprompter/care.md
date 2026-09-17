@@ -66,7 +66,7 @@ Watch for these.
 
 Here's what's really going on. People who want to gather information about vulnerable attendees, access resources beyond what is appropriate, or build proximity to care staff will use the Harm Reduction tent to do it because the tent is specifically designed to receive people without judgment. Noticing patterns is not being judgmental. It is safeguarding. Your gut when something is off is data. Document it and name it to your team lead.
 
-Ask yourself this. The R check: “Is the pattern of this person's engagement consistent with genuine support seeking — or...
+Ask yourself this. The R check: “Is the pattern of this person’s engagement consistent with genuine support seeking — or does it track more closely with something else entirely?” — discernment is as much a part of this role as compassion.
 
 Here's what's underneath all of it. Documenting Concerning Patterns. When something feels off about a participant: (1) Note the visit — time, brief description of what was requested, anything that seemed inconsistent. (2) Share your observation with a colleague quietly during a transition — "I want to flag something about a repeat visitor." (3) If the behavior is actively concerning — gathering information about other participants, following up with specific participants after interactions — report to your team lead immediately and in writing. You do not need certainty to document. Documentation is not accusation. It is creating a record in case the pattern becomes clearer.
 
@@ -98,7 +98,7 @@ Here's what to watch for.
 
 Here's what's actually happening. Secondary traumatic stress develops from repeated exposure to other people's traumatic experiences. Harm Reduction work at festivals compresses what might be a week of a therapist's caseload into a single shift. The culture that says "just one more" and "people need you" is the same culture that burns out its best volunteers and leaves participants being supported by someone running on empty. Your depletion is not noble. It is a risk to the people you are trying to help.
 
-Run the check. The C check: “Am I actually present with the people I am supporting — or am I performing presence from a...
+Run the check. The C check: “Am I actually present with the people I am supporting — or am I performing presence from a tank that’s already empty?” — you cannot give what you do not have, and your recovery is what makes the giving possible.
 
 Here's the dark reality. Recognizing And Responding To Compassion Fatigue. During a shift: step outside for ten minutes between difficult interactions even when the space is busy. Eat something before your shift and during it. Drink water. Name what you are carrying to a colleague before taking the next participant. After a difficult shift: do not go directly to the main festival environment — give yourself 15-30 minutes in a quiet space. Name the most difficult thing from the shift out loud to at least one colleague before leaving. After the event: if intrusive thoughts or emotional numbness persist beyond two weeks — contact a mental health professional. Zendo Project (zendoproject.org) provides training and ongoing support specifically for Harm Reduction volunteers.
 
@@ -126,7 +126,7 @@ Here are the signs.
 
 Here's the mechanism underneath it. Confidentiality in Harm Reduction protects participant information — not staff behavior, not organizational failures, and not incidents that require escalation to protect others. These are distinct categories. A team lead or organization that uses confidentiality language to suppress reports about staff behavior or organizational accountability is misusing the concept. Your safeguarding responsibilities include reporting when you witness harm, regardless of where it occurred.
 
-Here's your check. The A check: “Is confidentiality being applied to protect the people we serve — or to protect the...
+Here's your check. The A check: “Is confidentiality being applied to protect the people we serve — or to protect the organization from accountability?” — confidentiality protects participants. It was never meant to protect an organization from consequences.
 
 Here's the part that's hard to hear. What To Do When The Reporting Structure Is Broken. If your team lead is suppressing a report: escalate to the next level of the organization in writing. If there is no functional next level: document the incident yourself in writing with date, time, and exactly what you witnessed. Send that documentation to the organization in writing — email creates a timestamp. If the incident involves assault or a crime: you may have independent obligations to report regardless of organizational direction. After the event: report to any professional bodies or associations that oversee the event or the Harm Reduction organization. RAINN (rainn.org) has guidance for witnesses and bystanders.
 
@@ -158,7 +158,7 @@ Watch for these.
 
 Here's what's really going on. Front-line Harm Reduction volunteers are the easiest people to blame for systemic failures because they were physically present when things went wrong. Organizations that do not want to examine their structural failures direct accountability toward the people least able to defend themselves. You are not required to accept responsibility for conditions you did not create. Document your own account of events immediately after any incident. Do not sign anything without reading it carefully against your own record.
 
-Ask yourself this. The A check: “Have I documented my own account of events immediately — before organizational framing...
+Ask yourself this. The A check: “Have I documented my own account of events immediately — before organizational framing has a chance to reshape it?” — you’re responsible for your actions, not for the systemic conditions you were placed in.
 
 Here's what's underneath all of it. Protecting Yourself After An Incident. Immediately after any significant incident: (1) Write your own detailed account — what you observed, what you did, what resources and training you had, what the conditions were. Include timestamps. (2) Do not sign organizational documentation before comparing it to your own account. (3) If asked to participate in a formal review: you have the right to have someone present with you. (4) If you feel you are being scapegoated for systemic failures: contact a lawyer or advocate before signing anything. (5) Keep copies of all documentation you receive from the organization. Your account is the evidence that protects you.
 
@@ -284,7 +284,7 @@ Here's what to watch for.
 
 Here's what's actually happening. Secondary traumatic stress accumulates when difficult experiences are not processed. The processing does not have to be elaborate — naming what was hard, in plain language, to someone who was also there or who understands the context, is often sufficient for immediate decompression. It is the naming that matters. What stays unnamed stays active. Harm Reduction volunteers who debrief consistently report lower rates of burnout and secondary trauma than those who do not.
 
-Run the check. The E check: “Have I actually stopped and named what I am carrying from this shift — or am I pushing...
+Run the check. The E check: “Have I actually stopped and named what I am carrying from this shift — or am I just pushing it down to deal with later?” — what you name, you can put down. What you don’t, you carry.
 
 Here's the dark reality. What Undebriefed Weekends Turn Into. The people who leave harm reduction rarely leave because of one terrible night. They leave because of forty ordinary ones that were never processed, stacked up until the work started costing more than it gave. The documented pattern is specific: accumulated vicarious trauma turns into intrusive memory, then into sleep loss, then into the thing nobody in this field likes saying out loud, which is that a meaningful number of burned-out harm reduction workers end up using in ways they would flag instantly in a participant. You will be the last person to notice it in yourself, because your whole skill set is pointed outward. That is exactly why the debrief is scheduled rather than optional, and why it has to be with someone whose job is you — not the participant, not the org, not the friend who also worked the shift.
 

@@ -94,7 +94,7 @@ Here's what to watch for.
 
 Here's what's actually happening. Festival scams exploit time compression (you feel like you know people better than you do), social proof (vouching from people you also just met), and altered states (your financial risk-assessment is impaired). The tell is always urgency — real opportunities don't evaporate if you take 24 hours to verify them. Real investors don't need your $400 tonight from someone they met at a fire pit.
 
-Run the check. The A check: “Who actually has access to my financial decisions right now and what do I actually know...
+Run the check. The A check: “Who actually has access to my financial decisions right now, and what do I actually know about where this money is going?” — if you can’t answer the second half, you don’t have an investment, you have a story.
 
 Here's the dark reality. Ticket Wristband Scams At The Gate. Fake wristbands, counterfeit tickets, and "I have an extra" scams concentrate at festival gates. Real tells: barcodes that scan once and deactivate (seller walks away before you scan), wristbands with seam inconsistencies, sellers who approach you rather than you finding them, prices too good for a sold-out event. Official box office or authorized resellers only. Verify the wristband goes on YOUR wrist and scans before any money moves.
 
@@ -416,7 +416,7 @@ Watch for these.
 
 Here's what's really going on. Undercover officers at festivals are specifically trained to blend in and are often very good at it. The behavioral tells are in the transaction pattern itself, not the appearance: they initiate, they guide you toward isolation, they want specificity about quantities, and they push pace. You are never obligated to complete any transaction. "Actually I'm good" ends it without incident. Never follow anyone to an isolated location for any transaction regardless of what's being offered.
 
-Ask yourself this. The A check: “Who has access to my decisions in this transaction — and do I know enough about this...
+Ask yourself this. The A check: “Who has access to my decisions in this transaction — and do I know enough about this person to be doing this at all?” — if the answer is no, the deal isn’t worth what it’s about to cost you.
 
 Here's what's underneath all of it. If You're Approached By Police Or Arrested. Know this before the festival: (1) You have the right to remain silent — use it. "I'd like to speak with a lawyer" is the only thing you say. (2) You can ask if you're being detained or are free to go — if free to go, go. (3) Do not consent to a search — you can decline without it being suspicious. (4) Write down badge numbers and officer names as soon as possible. (5) Contact a lawyer or the National Lawyers Guild (nlg.org) which has observer programs at many festivals. Good Samaritan laws protect people seeking overdose help in most states — use them.
 
@@ -476,7 +476,7 @@ Here are the signs.
 
 Here's the mechanism underneath it. Festival environments amplify everything — including the ways men unconsciously push past ambiguity because the cost of being wrong feels low and the reward of being right feels high. Altered states, dark spaces, PLUR culture, and the "anything goes" vibe create conditions where consent gets murky fast. It doesn't have to. Two words — "is this okay?" — asked clearly and genuinely, change the entire dynamic.
 
-Here's your check. The B check: “What is my body — and hers — actually saying right now, separate from what I want the...
+Here's your check. The B check: “What is my body — and hers — actually saying right now, separate from what I want the answer to be?” — ask out loud rather than guessing. The men who ask are the ones people want to be around.
 
 Here's the part that's hard to hear. If Something Happened That Shouldn't Have. If you crossed a line — even accidentally, even while altered, even if you're not sure — the courageous thing is to acknowledge it. Not to yourself in private. To the person affected. "I'm not sure if what happened last night was okay for you — I want to check in" is a sentence that can change someone's entire recovery. RAINN has resources for people who have caused harm as well as those harmed (rainn.org). Accountability is not the end. It is the beginning of being someone people can actually trust.
 
@@ -536,7 +536,7 @@ Here's what to watch for.
 
 Here's what's actually happening. Men specifically have a role in bystander intervention that's often underused. A man appearing who "knows" the woman in a tense situation changes the social calculus immediately — it creates an out without confrontation. You don't have to be the hero. You have to be the person who showed up. The most effective interventions are the quiet ones. Walk over. Be a familiar face. Give someone an exit.
 
-Run the check. The S check: “Is someone in my squad or nearby in a situation that doesn't look right? What would I want...
+Run the check. The S check: “Is someone in my squad or nearby in a situation that doesn’t look right? What would I want someone to do if it were me?” — do that.
 
 Here's the dark reality. When A Friend Discloses Something Happened To Them. Men rarely know what to do when a friend discloses assault or harassment. Here's what actually helps: listen without judgment, believe them without interrogating the details, ask what they need rather than assuming, don't push them toward reporting if they're not ready. What doesn't help: "are you sure that's what happened," "what were you doing there," immediately offering to "handle it" in ways that remove their agency. Their experience is theirs to process on their timeline. Your job is to show up and stay.
 

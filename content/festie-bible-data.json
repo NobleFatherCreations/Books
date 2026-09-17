@@ -3,6 +3,11 @@
  "updated": "2026-09-17",
  "changelog": [
   {
+   "version": "v10",
+   "date": "2026-09-17",
+   "summary": "Fixed a defect discovered while building the teleprompter scripts: 78 of the original 149 check questions — all from the twelve original guides, none from the nine added this round — were cut off mid-sentence with the quote never closed (“...what do I actually know...”). Every one has been finished by hand, reading the full scenario each question belongs to so the ending actually fits, and every completion has been checked against the book's own structural rules before shipping. Nothing else on the page changed."
+  },
+  {
    "version": "v9",
    "date": "2026-09-17",
    "summary": "Sixty-three new scenarios — every one of the twenty-one guides got between two and four more — taking the book from 207 to 270. These came from auditing each guide against what actually happens in its category and writing what was missing rather than more of what was already there. Some of the bigger ones: crowd crush, which is the most lethal thing that happens at music events and was not in here at all; the drive home on Monday, which is the most dangerous part of most people's weekend; storms and evacuation; the lift home and the walk back to your tent; ticket scams at the gate; a dead phone and a lost group; sexual assault of men and why it goes unreported; teenagers, who need something different from both children and adults; edibles at a child's eye level; hearing damage; service animals; being Deaf at an event where every safety announcement is a tannoy; trans searches, facilities and medication; accidental dosing when you are sober; crowd contact while performing; a death on a harm-reduction shift; how to actually remove somebody from a camp; and what a promoter does when the report is about the headliner they cannot replace."
@@ -359,7 +364,7 @@
       "Credentials asserted verbally but impossible to verify in the moment"
      ],
      "happening": "Spiritual authority abuse weaponizes the healer role to bypass the consent conversation. It works because festival culture values healing (the frame seems legit), the therapeutic context makes touch feel appropriate, and questioning a healer feels like questioning healing itself. Real somatic practitioners and ceremony facilitators are trained to obtain clear, uncoerced consent before any physical contact. That standard exists to protect you. If someone skips it — the reason is not that they're too advanced for it.",
-     "check": "G.R.O.V.E.—\"G\"CHECK: \"What is my gut saying about this person — underneath the role they're performing right...",
+     "check": "G.R.O.V.E. — “G” CHECK: “What is my gut saying about this person — underneath the role they’re performing right now?” — if the answer doesn’t match the title, trust the gut over the role.",
      "darkTitle": "How To Actually Vet A Practitioner",
      "dark": "\"Legitimate\" does not mean \"has a following,\" \"has an altar,\" or \"has people here who vouch for them.\" Real vetting means asking for their training lineage and how long they've practiced, asking what their consent protocol is before they work with anyone, and ideally talking to people who know them outside festival contexts. A real practitioner welcomes these questions. Anyone who responds to \"what's your consent process?\" with spiritual deflection is giving you your answer.",
      "move": "No practitioner — no matter how credentialed — initiates physical contact without your explicit verbal yes. That is the baseline.",
@@ -422,7 +427,7 @@
       "Never take something handed to you by someone you just met without testing it yourself first"
      ],
      "happening": "A lethal dose of fentanyl is invisible. People die at festivals every year from substances that looked, smelled, and tasted exactly like what they expected. Testing costs under $40 for a full kit from DanceSafe. Harm Reduction tents at most major events have strips free. Naloxone (Narcan) reverses opioid overdose — available at many pharmacies without prescription, small enough to carry. Know how to use it. Having it in your camp has saved lives.",
-     "check": "G.R.O.V.E.—\"G\"CHECK: \"What is my gut saying about this substance, this source, this situation — before I...",
+     "check": "G.R.O.V.E. — “G” CHECK: “What is my gut saying about this substance, this source, this situation — before I put it in my body?” — test it anyway, even when the gut says yes. Verification isn’t distrust of magic, it’s respect for your own body.",
      "darkTitle": "If Someone Is In Trouble Right Now",
      "dark": "Signs of overdose: unresponsive or barely responsive, slow or stopped breathing, blue lips or fingertips, gurgling sound. What to do: call festival medics immediately, administer Narcan if available (nasal spray — one puff per nostril, repeat in 2-3 min if no response), put them in recovery position on their side, stay with them. Good Samaritan laws in most US states protect you when seeking overdose help. Saving someone's life matters more than anything else.",
      "move": "Test your stuff. Every time. No exceptions. Thirty seconds can save your life.",
@@ -464,7 +469,7 @@
       "You do NOT have to confront the person causing concern — not required, not always safe"
      ],
      "happening": "The bystander effect is real — in groups, individuals are less likely to act because everyone assumes someone else will. Festival culture adds \"no drama\" making people hesitate to name what they see. But intervention doesn't have to be dramatic. The distraction approach is subtle, friendly, and requires zero accusation. You're not the police. You're a human who saw something and chose to show up. That is enough.",
-     "check": "G.R.O.V.E.—\"O\"CHECK: \"Is someone out alone in a way that seems involuntary? Sometimes the most important...",
+     "check": "G.R.O.V.E. — “O” CHECK: “Is someone out alone in a way that seems involuntary?” — sometimes the most important thing you do all weekend is the thirty seconds you spend checking on a stranger.",
      "darkTitle": "After A Disclosure — What To Actually Do",
      "dark": "If a friend tells you something happened: you do not need answers or a plan right now. \"I believe you. I'm here. What do you need in this moment?\" is complete and powerful. Don't investigate. Don't minimize. Don't immediately jump to reporting unless they want that. Follow their lead. Stay with them. Harm Reduction tents are confidential, non-judgmental, and not police. RAINN's hotline (1-800-656-4673) has 24/7 counselors trained specifically for this.",
      "move": "If something looks wrong, you have options. Distract. Alert. Check in. Pick one and do it.",
@@ -681,7 +686,7 @@
       "Payment method is non-refundable: Venmo, Cash App, crypto always"
      ],
      "happening": "Festival scams exploit time compression (you feel like you know people better than you do), social proof (vouching from people you also just met), and altered states (your financial risk-assessment is impaired). The tell is always urgency — real opportunities don't evaporate if you take 24 hours to verify them. Real investors don't need your $400 tonight from someone they met at a fire pit.",
-     "check": "B.A.S.S.—\"A\"CHECK: \"Who actually has access to my financial decisions right now and what do I actually know...",
+     "check": "B.A.S.S. — “A” CHECK: “Who actually has access to my financial decisions right now, and what do I actually know about where this money is going?” — if you can’t answer the second half, you don’t have an investment, you have a story.",
      "darkTitle": "Ticket Wristband Scams At The Gate",
      "dark": "Fake wristbands, counterfeit tickets, and \"I have an extra\" scams concentrate at festival gates. Real tells: barcodes that scan once and deactivate (seller walks away before you scan), wristbands with seam inconsistencies, sellers who approach you rather than you finding them, prices too good for a sold-out event. Official box office or authorized resellers only. Verify the wristband goes on YOUR wrist and scans before any money moves.",
      "move": "Any opportunity that requires a fast yes deserves a slow no. Real things survive 24 hours of verification.",
@@ -849,7 +854,7 @@
       "Pushes for a quick decision or seems vaguely impatient with your hesitation"
      ],
      "happening": "Undercover officers at festivals are specifically trained to blend in and are often very good at it. The behavioral tells are in the transaction pattern itself, not the appearance: they initiate, they guide you toward isolation, they want specificity about quantities, and they push pace. You are never obligated to complete any transaction. \"Actually I'm good\" ends it without incident. Never follow anyone to an isolated location for any transaction regardless of what's being offered.",
-     "check": "B.A.S.S. — \"A\" CHECK: \"Who has access to my decisions in this transaction — and do I know enough about this...",
+     "check": "B.A.S.S. — “A” CHECK: “Who has access to my decisions in this transaction — and do I know enough about this person to be doing this at all?” — if the answer is no, the deal isn’t worth what it’s about to cost you.",
      "darkTitle": "If You're Approached By Police Or Arrested",
      "dark": "Know this before the festival: (1) You have the right to remain silent — use it. \"I'd like to speak with a lawyer\" is the only thing you say. (2) You can ask if you're being detained or are free to go — if free to go, go. (3) Do not consent to a search — you can decline without it being suspicious. (4) Write down badge numbers and officer names as soon as possible. (5) Contact a lawyer or the National Lawyers Guild (nlg.org) which has observer programs at many festivals. Good Samaritan laws protect people seeking overdose help in most states — use them.",
      "move": "\"Actually I'm good\" ends any transaction. Walk toward people. Never go somewhere isolated for any deal.",
@@ -891,7 +896,7 @@
       "\"She was into it\" is not the same as \"she said yes\" — only one of these is consent"
      ],
      "happening": "Festival environments amplify everything — including the ways men unconsciously push past ambiguity because the cost of being wrong feels low and the reward of being right feels high. Altered states, dark spaces, PLUR culture, and the \"anything goes\" vibe create conditions where consent gets murky fast. It doesn't have to. Two words — \"is this okay?\" — asked clearly and genuinely, change the entire dynamic.",
-     "check": "B.A.S.S. — \"B\" CHECK: \"What is my body — and hers — actually saying right now, separate from what I want the...",
+     "check": "B.A.S.S. — “B” CHECK: “What is my body — and hers — actually saying right now, separate from what I want the answer to be?” — ask out loud rather than guessing. The men who ask are the ones people want to be around.",
      "darkTitle": "If Something Happened That Shouldn't Have",
      "dark": "If you crossed a line — even accidentally, even while altered, even if you're not sure — the courageous thing is to acknowledge it. Not to yourself in private. To the person affected. \"I'm not sure if what happened last night was okay for you — I want to check in\" is a sentence that can change someone's entire recovery. RAINN has resources for people who have caused harm as well as those harmed (rainn.org). Accountability is not the end. It is the beginning of being someone people can actually trust.",
      "move": "Ask with words. Receive the answer with grace. The yes you get after asking clearly is the only one that counts.",
@@ -933,7 +938,7 @@
       "You do NOT need to confront anyone — that is not required and not always safe"
      ],
      "happening": "Men specifically have a role in bystander intervention that's often underused. A man appearing who \"knows\" the woman in a tense situation changes the social calculus immediately — it creates an out without confrontation. You don't have to be the hero. You have to be the person who showed up. The most effective interventions are the quiet ones. Walk over. Be a familiar face. Give someone an exit.",
-     "check": "B.A.S.S. — \"S\" CHECK: \"Is someone in my squad or nearby in a situation that doesn't look right? What would I want...",
+     "check": "B.A.S.S. — “S” CHECK: “Is someone in my squad or nearby in a situation that doesn’t look right? What would I want someone to do if it were me?” — do that.",
      "darkTitle": "When A Friend Discloses Something Happened To Them",
      "dark": "Men rarely know what to do when a friend discloses assault or harassment. Here's what actually helps: listen without judgment, believe them without interrogating the details, ask what they need rather than assuming, don't push them toward reporting if they're not ready. What doesn't help: \"are you sure that's what happened,\" \"what were you doing there,\" immediately offering to \"handle it\" in ways that remove their agency. Their experience is theirs to process on their timeline. Your job is to show up and stay.",
      "move": "See something, do something. You don't have to be the hero. You just have to show up.",
@@ -1106,7 +1111,7 @@
       "Any desire to explore alone is gently discouraged as unsafe or naive"
      ],
      "happening": "The \"guide\" setup mimics genuine mentorship so closely. Real guides give you information and independence. Predatory guides give you access that requires them. The test is simple: after 48 hours with a real mentor, you know more about how to navigate independently. After 48 hours with a predatory guide, you know less — because your navigation runs through them.",
-     "check": "R.A.V.E. — \"V\" CHECK: \"Can I get to my camp, the medical tent, and the exit right now without asking him? If not —...",
+     "check": "R.A.V.E. — “V” CHECK: “Can I get to my camp, the medical tent, and the exit right now without asking him?” — if not, you’re not being guided, you’re being kept.",
      "darkTitle": "Build Your Own Map In The First Two Hours",
      "dark": "When you arrive, before anything else, find these four things independently: (1) your camp location with a physical landmark, (2) nearest medical or Harm Reduction tent, (3) nearest Ranger station, (4) two exit points. Do this with your own group, not with a stranger who volunteered to help. Text your camp location to someone not at the festival. Takes 20 minutes and means you never have to depend on a stranger to get home.",
      "move": "Accept genuine help. Build your own navigation as fast as possible. Independence is the goal.",
@@ -1148,7 +1153,7 @@
       "You don't know what you took or when, so you can't get appropriate help if needed"
      ],
      "happening": "First-time substance experiences in festival environments without preparation, testing, or a trusted sober support person are one of the highest-risk situations in the festie world. The person introducing you may have the best intentions and still set you up for a terrible experience. Informed consent means knowing what you're taking, what to expect, having tested it, having someone who knows what and when, and having the Harm Reduction tent location memorized.",
-     "check": "R.A.V.E. — \"V\" CHECK: \"Can I get to my camp, the medical tent, and the exit right now without asking him? If not —...",
+     "check": "R.A.V.E. — “V” CHECK: “Can I get to my camp, the medical tent, and the exit right now without asking him?” — if not, slow down before the moment sweeps you somewhere you didn’t choose.",
      "darkTitle": "First Time, Unknown Substance, Strangers",
      "dark": "The highest-risk combination at any festival is a first-timer, an untested substance, and people who do not know your baseline. You have no tolerance, no reference point for what “too much” feels like in your own body, and nobody around you knows what you look like when you are fine. A dose calibrated to someone who has done this two hundred times is not calibrated to you, and the person handing it over is usually estimating rather than measuring. Add the part nobody mentions: the generous stranger who wants to be present for your first time is sometimes exactly that, and is sometimes someone who has learned that a person’s first experience is the easiest one to be in charge of. You are not obligated to make your first festival your first anything else. Test it, halve it, and be with someone who knew you before this weekend.",
      "move": "Your first experience is yours to set the terms of. Test it, pace it, know your support.",
@@ -1190,7 +1195,7 @@
       "The suggested next step keeps you in their orbit rather than returning you to yours"
      ],
      "happening": "The rescue hook targets the specific window when you're most resource-depleted and least capable of independent assessment. The help is often genuinely real — which makes the subsequent leverage feel confusing. Gratitude is a genuine human response to being helped. It is not a binding contract. You can thank someone sincerely for real help and still choose to go back to your own people afterward.",
-     "check": "R.A.V.E. — \"V\" CHECK: \"Does this person's help return me to my own people and navigation — or keep me...",
+     "check": "R.A.V.E. — “V” CHECK: “Does this person’s help return me to my own people and navigation — or keep me needing them for the next thing too?” — real help ends. It doesn’t renew itself.",
      "darkTitle": "Dead Phone = Highest Risk Window",
      "dark": "A dead phone at a festival is one of the most dangerous situations for a first-timer. Before you're ever in this situation: carry a portable charger and keep it topped up. Write your camp location and two friends' numbers in ink on your arm before each day. Know your camp by a physical landmark — not just GPS. Establish a meeting spot your whole group knows. \"If we get separated, meet at the big wooden arch at midnight.\" These are not paranoid. They are just good festie practice.",
      "move": "Accept real help gratefully. Return to your own people as soon as you're able. Gratitude is not a contract.",
@@ -1232,7 +1237,7 @@
       "The \"help\" requires proximity to them rather than returning you to your group"
      ],
      "happening": "The overwhelm window is predictable and exploitable. Knowing when it's likely to hit — Day 1 arrival chaos, late Saturday night, Sunday morning crash — lets you build support into those specific moments rather than being surprised by them. Your most vulnerable moments don't have to be your least protected ones. That's what pre-planning your support infrastructure is for.",
-     "check": "R.A.V.E. — \"A\" CHECK: \"Am I making decisions right now with the same judgment I'd have at 2pm on a Tuesday? If...",
+     "check": "R.A.V.E. — “A” CHECK: “Am I making decisions right now with the same judgment I’d have at 2pm on a Tuesday?” — if not, this isn’t the moment to decide anything.",
      "darkTitle": "The Predicted Hard Moments At Your First Festival",
      "dark": "Know these windows are coming: (1) First hour at the gate — overwhelming, plan to walk the grounds with your group before anything else. (2) Late Saturday night — peak exhaustion plus peak substances plus peak crowd. Have a buddy system. (3) Sunday morning — emotional crash, physical depletion, homesickness sometimes. Plan for rest. (4) Load-out day — tired, sad, vulnerable. Be careful about new \"connections\" in breakdown. Pre-planning support for these moments is what experienced festies do.",
      "move": "Know your vulnerable windows. Pre-plan support for them. Don't make major decisions inside them.",
@@ -1295,7 +1300,7 @@
       "Commitment to the camp family extends far beyond the weekend without your full understanding"
      ],
      "happening": "Tight community in festival culture is real and beautiful. It also exists on a spectrum that includes high-control groups using festie aesthetics. The tells are always the same: is leadership accountable or above questioning? Are members free to leave? Are contribution expectations defined and mutual? Is dissent welcomed or managed? Real community answers yes to all of these. High-control groups answer no.",
-     "check": "R.A.V.E. — \"E\" CHECK: \"Am I free to leave this camp right now, without social cost? If that question makes me...",
+     "check": "R.A.V.E. — “E” CHECK: “Am I free to leave this camp right now, without social cost?” — if that question makes you nervous to even ask, that nervousness is the answer.",
      "darkTitle": "Real Community Vs High-Control Group — The Tells",
      "dark": "Real community: leadership is accountable, people come and go freely, dissent is welcomed, contribution expectations are clear and mutual, the community makes you more yourself over time. High-control group: leadership is above questioning, leaving or questioning costs you socially, contribution expectations expand without renegotiation, the community makes you increasingly dependent on it rather than more independent. First-timers are specifically targeted by high-control camp cultures because you're looking for belonging and you don't yet have a reference point.",
      "move": "Receive the belonging. Verify the freedom. You should be able to leave any camp any time without social consequence.",
@@ -1358,7 +1363,7 @@
       "Collection: needs you close, subtly discourages independence, warmth fluctuates with compliance"
      ],
      "happening": "The difference between genuine connection and being collected is not visible in the opening — it becomes visible in how the person responds to your independence. Genuine connectors are happy when you flourish without them. They celebrate your other connections. They don't need to be the center of your festival experience. Collectors need your orbit. They need your dependency. They need to be the source of your experience. Watch for that distinction over a full day.",
-     "check": "R.A.V.E. — \"R\" CHECK: \"Is this person's warmth consistent whether I'm being compliant or independent? That's the...",
+     "check": "R.A.V.E. — “R” CHECK: “Is this person’s warmth consistent whether I’m being compliant or independent?” — that’s the whole test.",
      "darkTitle": "How To Find Your Real Festival Family",
      "dark": "Real festival family is found through shared experiences with no agenda: the spontaneous conversation at a water station, the people around you at a set who are moved by the same moment, the mutual help during a logistical challenge. It develops through repeated small interactions over the course of the festival where each person is free to come and go. It doesn't start with someone targeting you specifically or making you feel specially chosen. It starts with just being next to each other in the same experience.",
      "move": "Notice how people respond when you exercise independence. That's the most honest information you'll get about them.",
@@ -2301,7 +2306,7 @@
       "When you name a limit they use queer language to argue against it — \"but this is a liberated space\""
      ],
      "happening": "Performative allyship in festival contexts is a specific form of credential costuming — using the aesthetics and language of queer culture to manufacture trust that their actual behavior does not warrant. Real allies do not need to announce their allyship. Real allies follow your lead about what you need and want. Real allies do not use the language of liberation to override your limits. The vocabulary is easy to learn. The behavior is what matters.",
-     "check": "P.R.I.D.E. — \"R\" CHECK: \"Does this person's behavior match their stated values — or is the language the whole...",
+     "check": "P.R.I.D.E. — “R” CHECK: “Does this person’s behavior match their stated values — or is the language the whole performance?” — vocabulary is cheap. Watch what they actually do.",
      "darkTitle": "What Real Allyship Looks Like In Practice",
      "dark": "Real allies: follow your lead about your identity and what you share about it. Do not push past limits you name. Do not use queer liberation language to override your no. Do not make your queerness the center of their interest in you. Hold your confidences about your identity without being asked. Advocate for you when you are not in the room. Do not require you to educate them as the price of their support. Are consistent in their allyship whether or not queer people are watching. If someone's allyship only shows up when it benefits them socially — that is not allyship. That is aesthetics.",
      "move": "Watch behavior over time. Real allyship is consistent and quiet. Loud, demonstrative allyship deserves more scrutiny, not less.",
@@ -2322,7 +2327,7 @@
       "Guilt about having the same standards with queer people that you would have with anyone"
      ],
      "happening": "Shared identity is real and beautiful and also exploitable. The manipulation here is taking the genuine value of queer community solidarity and using it to bypass the individual trust-building that any relationship actually requires. You are not obligated to trust someone more, give more, or tolerate more because they share your identity. Real queer community does not require you to override your judgment as proof of belonging.",
-     "check": "P.R.I.D.E. — \"I\" CHECK: \"Am I giving this person more than I would give any other stranger because of shared...",
+     "check": "P.R.I.D.E. — “I” CHECK: “Am I giving this person more than I would give any other stranger because of shared identity alone?” — shared identity is not a relationship. It hasn’t been earned yet.",
      "darkTitle": "Community Solidarity Is Not Obligation",
      "dark": "Queer community solidarity is a genuine and important value. It does not mean: automatic trust with anyone who shares your identity, obligation to give money, labor, or intimacy to queer strangers, tolerating behavior from queer people that you would not tolerate from anyone else, or suppressing your gut feeling about a person because they are queer. Real queer community protects each other. Real queer community includes calling each other in when behavior does not match values. Shared identity is a starting point, not a finished relationship.",
      "move": "Let shared identity be a warm starting point. Let actual behavior be the basis for actual trust.",
@@ -2343,7 +2348,7 @@
       "Your own comfort with your identity is undermined by someone else's framework for it"
      ],
      "happening": "Community gatekeeping in queer spaces reproduces the exact same dynamics of exclusion and shame that cause harm in straight spaces — just with different criteria. It is not protection of the community. It is the use of community membership as leverage over individuals. Your queerness is valid in whatever form it takes, at whatever level of visibility you choose, with whatever history you have. Nobody else's definition of queer enough applies to you.",
-     "check": "P.R.I.D.E. — \"I\" CHECK: \"Is my sense of my own identity secure — or am I letting someone else's framework define it...",
+     "check": "P.R.I.D.E. — “I” CHECK: “Is my sense of my own identity secure — or am I letting someone else’s framework define it for me?” — nobody else’s checklist gets a vote.",
      "darkTitle": "Your Identity Is Yours",
      "dark": "You do not need to justify, explain, or prove your identity to anyone at a festival or anywhere else. Bisexual people belong in queer spaces. Trans people who pass belong in queer spaces. Queer people who are not visibly queer belong in queer spaces. People who are questioning belong in queer spaces. Your presence in a space is not contingent on performing your identity to anyone else's standard. If someone is using community membership as a tool to control or shame you — that is not community. That is gatekeeping. You do not need their approval.",
      "move": "Your identity is valid on your terms, at your level of visibility, in your own timeline. Full stop.",
@@ -2364,7 +2369,7 @@
       "Information shared in intimacy being used as leverage when intimacy ends"
      ],
      "happening": "Outing as leverage is a specific form of coercion that exploits the real-world consequences that can follow unwanted disclosure of queer identity — in families, workplaces, and communities where full acceptance is not guaranteed. It is a serious harm regardless of how it is delivered. Implicit threats are still threats. Information shared in intimacy that is weaponized after the relationship ends is a form of abuse. You have the right to name it, report it, and seek support.",
-     "check": "P.R.I.D.E. — \"I\" CHECK: \"Is this person treating private information I shared with care — or as something they hold...",
+     "check": "P.R.I.D.E. — “I” CHECK: “Is this person treating private information I shared with care — or as something they hold over me?” — information given in trust and then used as leverage was never really given. It was taken on credit.",
      "darkTitle": "If You Are Being Threatened With Outing",
      "dark": "You do not have to tolerate this. Options: (1) Report to festival Rangers or security — outing as leverage is a form of harassment that most festival organizers take seriously. (2) Document: screenshot anything in writing, write down what was said verbally with date and time. (3) Tell a trusted person in your community so there is a witness to the threat and your response. (4) GLBTQ Legal Advocates and Defenders (glad.org) has resources for people facing identity-based coercion and harassment. (5) Trevor Project (thetrevorproject.org) supports LGBTQ people in crisis, including situations involving outing and coercion.",
      "move": "Document it. Report it to festival staff. Tell someone you trust. You do not have to manage this alone.",
@@ -2406,7 +2411,7 @@
       "Ending the dynamic means losing access to people and spaces you care about"
      ],
      "happening": "Small, visible queer communities at festivals create specific social pressures around relationship dynamics — everyone knows everyone, reputation travels fast, and the social cost of a difficult ending can feel like losing the whole community. This is the social infrastructure that some people deliberately use to make exit feel impossible. You are not obligated to stay in any dynamic because exit has a social cost. The community that requires you to stay in a bad situation to belong is not your community.",
-     "check": "P.R.I.D.E. — \"E\" CHECK: \"Can I leave this dynamic freely — or does leaving come with social costs that are being...",
+     "check": "P.R.I.D.E. — “E” CHECK: “Can I leave this dynamic freely — or does leaving come with social costs that are being used to keep me in it?” — a cost attached to leaving is the whole design.",
      "darkTitle": "Navigating Small Community Dynamics",
      "dark": "When queer communities are small and visible at a festival: your reputation and your wellbeing matter equally. You do not owe anyone your continued presence in a dynamic that is not okay because you share community. If the community takes sides against you for exercising your right to end something: that is information about the community, not about you. Reach out directly to individual people you trust rather than letting the social situation define who is on whose side. And remember: the post-festival community is different from the festival community. Give things time to settle before drawing permanent conclusions.",
      "move": "Your right to exit a dynamic is not conditional on community approval. Exercise it.",
@@ -2427,7 +2432,7 @@
       "Your earlier behavior in the night used to argue that later limits should not apply"
      ],
      "happening": "Expression is not consent. Presence in a space is not consent. Dancing is not consent. Being visibly queer is not consent. Being in a sex-positive or queer-coded space is not consent. Consent is a specific, ongoing, informed, freely given yes to a specific thing. Nothing about your expression, your identity, your presence, or your earlier behavior removes the requirement for that yes. Anyone who argues otherwise is not describing the culture — they are manipulating it.",
-     "check": "P.R.I.D.E. — \"P\" CHECK: \"My presence and expression are mine. They do not communicate consent for anything l...",
+     "check": "P.R.I.D.E. — “P” CHECK: “My presence and expression are mine. They do not communicate consent for anything less than what I explicitly say yes to.” — presence is not permission. Only yes means yes.",
      "darkTitle": "Expression Is Not Consent — Ever",
      "dark": "This is not complicated: how you dress, how you dance, how you identify, where you are, and what you did earlier in the night — none of these things constitute consent for anything that happens later. Consent is specific, ongoing, and can be withdrawn at any time for any reason. If someone is arguing that your expression, presence, or past behavior means you consented to something — they are wrong. RAINN (rainn.org) and the Trevor Project (thetrevorproject.org) both support LGBTQ people who have experienced assault or harassment. Your experience is valid and support is available.",
      "move": "Your expression is yours. It does not communicate consent for anything you have not explicitly offered.",
@@ -2448,7 +2453,7 @@
       "Know your sober or sober-ish buddy — someone who knows what you took and when"
      ],
      "happening": "GHB and GBL are more commonly found in some queer party contexts than in general festival settings. They have a very narrow therapeutic window — the difference between a recreational dose and a dangerous dose is small, and combining either with alcohol significantly increases the risk of overdose and unconsciousness. Testing is harder for these substances than for others — reagent kits have limited effectiveness. Starting with an extremely small amount and waiting is the most important harm reduction step.",
-     "check": "P.R.I.D.E. — \"D\" CHECK: \"Do I know what is in what I am taking — and does someone sober know what I took and...",
+     "check": "P.R.I.D.E. — “D” CHECK: “Do I know what is in what I am taking — and does someone sober know what I took and when?” — if nobody sober knows, nobody can help you if it goes wrong.",
      "darkTitle": "When Substances And Sex Share A Room",
      "dark": "In parts of queer party culture, substances and sex are not adjacent activities, they are the same event — and that changes the risk in ways general harm-reduction advice does not cover. GHB is the clearest example: it is common, the difference between a recreational dose and an unconscious one is small, it is measured in millilitres, and mixed with alcohol that margin narrows further. Doses get poured by other people, in the dark, from unlabelled bottles. On top of that sits a reporting problem: people who are not out, or who are on a visa, or who have been treated badly by police before, weigh calling for help against being outed or detained — so the call comes late or never. None of that is a reason to avoid the room. It is a reason to dose yourself, from your own supply, with your own syringe or measure, and to have one person there who knows what you took and is not taking it with you.",
      "move": "Test it. Start tiny. Tell someone. Never combine with alcohol. Those four things.",
@@ -2490,7 +2495,7 @@
       "Being collected: needs you close, uses queer solidarity to justify that need"
      ],
      "happening": "Real queer community at festivals is built through shared experience where both people are free to give or not give, to come or go, to connect and disconnect without social penalty. It is recognizable because it expands your world rather than contracting it around any one person. Being collected uses the warm language and aesthetics of queer community while serving the collector's need for proximity, validation, or access. The difference is visible in how people respond to your independence.",
-     "check": "P.R.I.D.E. — \"D\" CHECK: \"Does this person's warmth remain consistent whether I am being close or independent?...",
+     "check": "P.R.I.D.E. — “D” CHECK: “Does this person’s warmth remain consistent whether I am being close or independent?” — that consistency is the whole test.",
      "darkTitle": "How To Find Your Real Festival Queer Community",
      "dark": "Real queer connection at festivals often starts in the smallest moments: the shared recognition at a set, the conversation at a water station, the mutual delight at a piece of art. It develops through repeated small interactions where both people are genuinely free. To find it: look for queer-organized programming, queer community stages, and LGBTQ+ meetups at the festival — these are the places where real community is more likely than manufactured community. Ask who organizes a space before trusting the space. And trust your gut when something feels like connection versus collection.",
      "move": "Look for the connection that makes your world bigger. That is the real thing.",
@@ -3382,7 +3387,7 @@
       "You're now in a complicated position with leads who believe a deal exists"
      ],
      "happening": "The parasitic middleman move works by creating facts on the ground before you've had a chance to define the relationship. By the time you understand what they're claiming, they're already representing you to the people who matter to you professionally. Clear, early conversation about what any assistance means in terms of compensation is the only protection. If someone introduces themselves as your representative without your agreement — correct it immediately and directly.",
-     "check": "C.R.E.A.T.E. — \"C\" CHECK: \"Have I agreed to any representation arrangement — or is someone claiming one that...",
+     "check": "C.R.E.A.T.E. — “C” CHECK: “Have I agreed to any representation arrangement — or is someone claiming one that was never actually agreed?” — a representative you never hired is telling you exactly who they are.",
      "darkTitle": "Correcting False Representation",
      "dark": "If someone is representing themselves as your manager or rep without your agreement: (1) Contact the leads directly and privately: \"I want to clarify — [name] is not my manager/rep. I'm handling my own bookings.\" (2) Tell the person directly: \"I haven't agreed to any representation arrangement and I need you to stop representing yourself that way.\" (3) Document this conversation in writing immediately after. False representation can create enforceable implied contracts in some jurisdictions — address it fast.",
      "move": "Define every assistance relationship before it becomes a representation relationship.",
@@ -3424,7 +3429,7 @@
       "You start wondering which of your artistic connections this weekend were actually about your work"
      ],
      "happening": "For visible artists — especially women creating in public — sexual attention and professional attention are frequently bundled together. Being seen as an artist is meaningful and the confusion of that with being desired is a specific manipulation: it makes you question your artistic worth every time you decline someone's sexual interest. Your art's validity is entirely separate from anyone's desire for you.",
-     "check": "C.R.E.A.T.E. — \"T\" CHECK: \"Is the appreciation of my work actually about my work — or is it cover for something...",
+     "check": "C.R.E.A.T.E. — “T” CHECK: “Is the appreciation of my work actually about my work — or is it cover for something else entirely?” — your art being beautiful does not make your body available.",
      "darkTitle": "Your Work Being Shared Is Not Your Body Being Available",
      "dark": "Live painting is public art. Photographs of your work circulate. Your face and body are often in those photographs. None of this is consent for contact, pursuit, or sexual attention. If someone's engagement with images of your work has crossed into following, gathering information about you, or sexual fixation — that's stalking behavior regardless of the artistic frame around it. Screenshot. Block. Report. Document before you report.",
      "move": "Receive genuine artistic recognition with full confidence. Decline sexual interest without apology. These are completely separate.",
@@ -3445,7 +3450,7 @@
       "Pushing back on changes is framed as being difficult or not collaborative"
      ],
      "happening": "Scope creep in creative work is one of the most common forms of exploitation precisely because each individual expansion seems minor and the accumulated investment makes pushing back feel like losing everything. The professional protection is a written brief with explicit terms: this is what is included, this is what additional work costs. Changes to scope trigger a new conversation about compensation. Every time. Without apology.",
-     "check": "C.R.E.A.T.E. — \"C\" CHECK: \"Is what I'm being asked to do now what I agreed to do — and is the compensation still...",
+     "check": "C.R.E.A.T.E. — “C” CHECK: “Is what I’m being asked to do now what I agreed to do — and is the compensation still matching the scope?” — if the ask has grown and the fee hasn’t, that gap is the whole story.",
      "darkTitle": "The Change Order Conversation",
      "dark": "\"That's a new element that's outside the original scope — I'm happy to include it, my rate for additions is [X].\" Say this every time a new request appears after the brief is agreed. You don't need to be apologetic or elaborate. A change order is a completely normal part of professional creative work. Clients who push back on this are clients who planned to expand scope without paying for it. That's your information about whether you want to work with them again.",
      "move": "Changes to scope trigger a new compensation conversation. Every time. Without apology.",
@@ -3466,7 +3471,7 @@
       "Your artistic choices are subject to camp approval rather than your own vision"
      ],
      "happening": "Offering a platform and then expanding the terms of accessing it is a classic exploitation structure — you've already committed, walking away means losing what you came for, and each small additional ask seems reasonable. This is scope creep as manipulation. A real artist-in-residence opportunity has defined terms before you arrive. If the terms are defined verbally and keep expanding in practice — you're not a resident artist. You're camp labor with an art cover story.",
-     "check": "C.R.E.A.T.E. — \"E\" CHECK: \"Can I walk away from this arrangement right now without losing something I shouldn't...",
+     "check": "C.R.E.A.T.E. — “E” CHECK: “Can I walk away from this arrangement right now without losing something I shouldn’t have had to risk in the first place?” — an undefined arrangement is a contract you’re signing in paint.",
      "darkTitle": "Who Actually Owns The Finished Piece",
      "dark": "When you paint on someone's wall, at someone's event, on someone's surface — who owns the finished work? Physical custody of a wall is not the same as copyright ownership of the art on it. Before you paint: establish in writing whether you retain reproduction rights to your own images of the work, whether the piece can be painted over without your consent, whether your name must accompany any reproduction, and whether they can sell images or prints. US Copyright Office (copyright.gov): your work is automatically copyrighted the moment you create it.",
      "move": "Define the terms before you commit. Changing terms after commitment is pressure, not negotiation.",
@@ -3508,7 +3513,7 @@
       "Digital versions of your work being sold, licensed, or reproduced without your knowledge"
      ],
      "happening": "Payment for an original artwork does not transfer reproduction rights unless explicitly stated in writing. Copyright in the original work belongs to you. The buyer purchased the physical object — not the right to reproduce it commercially. This is not a gray area. It is copyright law. The protection is a written agreement before any commission that specifies exactly what rights the buyer receives and what they do not.",
-     "check": "C.R.E.A.T.E. — \"A\" CHECK: \"Has anyone asked me in writing for permission to reproduce this work — or did they just...",
+     "check": "C.R.E.A.T.E. — “A” CHECK: “Has anyone asked me in writing for permission to reproduce this work — or did they just assume they could?” — assumption is not permission, and it never comes with a check attached.",
      "darkTitle": "Reproduction Rights — What To Include In Every Commission",
      "dark": "Your commission agreement should specify: (1) what rights the buyer receives — typically \"right to display the original artwork\" only, (2) that all reproduction rights remain with the artist, (3) any commercial use (merchandise, advertising, print) requires a separate license with additional fee, (4) your name must appear with any digital reproduction. US Copyright registration ($65 at copyright.gov) gives you the ability to sue for statutory damages ($750-$30,000 per infringement) — making enforcement financially viable.",
      "move": "Define reproduction rights in writing before any commission. Payment for the original piece is not payment for reproduction rights.",
@@ -3529,7 +3534,7 @@
       "Watermark your digital images before sharing widely online"
      ],
      "happening": "Festival culture's \"we're all family\" framing is beautiful and also systematically used to remove the professional frameworks that protect artists. Family doesn't charge family. Family doesn't need contracts. Family gives freely. This creates the conditions for systematic exploitation of your labor. You can operate with full love for the community AND maintain professional clarity about how your work is valued. In fact, artists who know their worth make the community stronger by modeling that art has value.",
-     "check": "C.R.E.A.T.E. — \"R\" CHECK: \"Is my rate for this engagement something I decided — or something that got decided...",
+     "check": "C.R.E.A.T.E. — “R” CHECK: “Is my rate for this engagement something I decided — or something that got decided around me?” — a rate you didn’t set is a rate someone else set, on purpose, in their favor.",
      "darkTitle": "Resources For Artists",
      "dark": "Volunteer Lawyers for the Arts (vlany.org): free/low-cost legal help on contracts, copyright, and disputes. US Copyright Office (copyright.gov): automatic copyright on creation, registration ($65) enables enforcement. Graphic Artists Guild Handbook — Pricing and Ethical Standards: industry reference for rates. CERF+ (cerfplus.org): emergency assistance for working craft artists facing crisis. Artists' legal clinics exist in most major cities — search \"volunteer lawyers for the arts [your city].\"",
      "move": "Set your rate. Put it in writing. Say it out loud without apologizing. Repeat.",
@@ -3550,7 +3555,7 @@
       "The person is genuinely interested in you as an artist, not in what you can do for their project"
      ],
      "happening": "Real collaboration is characterized by mutual curiosity, defined terms, and shared investment in the outcome. The distinction from extraction is visible in who carries the risk, who defines the terms, and whether both parties' contributions are named honestly. Real collaborators are comfortable with the credit conversation because they're not trying to hide the imbalance. Real collaborators celebrate each other's other work and connections rather than centralizing everything through themselves.",
-     "check": "C.R.E.A.T.E. — \"A\" CHECK: \"Is this person interested in my whole artistic practice — or just in what my hands can do...",
+     "check": "C.R.E.A.T.E. — “A” CHECK: “Is this person interested in my whole artistic practice — or just in what my hands can do for their project?” — real collaborators want your voice. The fake ones just want your output.",
      "darkTitle": "How To Propose A Real Collab",
      "dark": "When you want to genuinely collaborate with another artist: (1) Express specific interest in their work and why you think your practices could be interesting together. (2) Propose exploration without a predetermined outcome or output obligation. (3) Agree on credit and ownership structure BEFORE you create anything you might want to share. (4) Be comfortable with \"this didn't produce something we want to show\" as a valid outcome. The best creative partnerships in the festival world start with this kind of honest, low-stakes curiosity.",
      "move": "Pursue real collabs with full enthusiasm. Protect yourself from extraction with clear terms. Both can be true.",
@@ -4270,7 +4275,7 @@
       "Any friction triggers implicit threat to the whole relationship and future bookings"
      ],
      "happening": "The festival and music industry has a specific power structure that predatory promoters exploit: artists need bookings, bookings require promoter relationships, and challenging a promoter feels like risking your entire access to the scene. The \"building something together\" frame removes professional clarity while the promoter retains all the structural power. A legitimate promoter makes money when you get paid fairly.",
-     "check": "S.O.U.N.D. — \"S\" CHECK: \"Is there a signed contract — or just a verbal promise and a sense that questioning it risks...",
+     "check": "S.O.U.N.D. — “S” CHECK: “Is there a signed contract — or just a verbal promise and a sense that questioning it risks the whole opportunity?” — that feeling is the leverage working exactly as intended.",
      "darkTitle": "The Minimum Performance Contract",
      "dark": "Every booking needs in writing: performance fee, payment timeline (50% deposit before, 50% at show is standard), cancellation terms, accommodation and travel responsibilities, set time and length, technical rider requirements, who owns live recordings or footage, and promotional obligations on both sides. American Federation of Musicians (afm.org) has standard contract templates. Music attorneys offer one-time consultations. A legitimate promoter will sign. The ones who won't are giving you your answer.",
      "move": "No contract, no soundcheck. This is a full sentence and a complete policy.",
@@ -4312,7 +4317,7 @@
       "Each change is framed as minor — the cumulative impact is significant"
      ],
      "happening": "Bait and switch bookings work by getting your public commitment before you have the details in writing. Once you've announced a show to your audience, backing out has real social and professional cost — which the promoter counts on. The protection is simple: nothing goes on your social media until you have the booking confirmation in writing, with all material details (stage, set time, date, fee) confirmed. No exceptions.",
-     "check": "S.O.U.N.D. — \"S\" CHECK: \"Have I confirmed every material detail of this booking in writing before I announce...",
+     "check": "S.O.U.N.D. — “S” CHECK: “Have I confirmed every material detail of this booking in writing before I announce it to my own audience?” — once you’ve announced it, the leverage in the negotiation is gone, and it’s gone in their favor.",
      "darkTitle": "Announce Only After Written Confirmation",
      "dark": "The sequence for any festival booking: (1) Verbal offer received. (2) Written confirmation requested — stage, set time, date, fee, production details. (3) Contract signed. (4) Deposit received. (5) Announcement made. Skipping any of these steps removes your leverage. Promoters who push you to announce before paperwork is signed are using your audience as collateral. Your fans are excited to see you — that excitement belongs to you, not to a promoter who hasn't put anything in writing yet.",
      "move": "Nothing gets announced until you have written confirmation of every material detail.",
@@ -4354,7 +4359,7 @@
       "Communication that escalates when you don't respond or engage"
      ],
      "happening": "Parasocial relationships — where a fan experiences genuine emotional intimacy with an artist who doesn't know them — are a normal feature of music fandom. They become dangerous when the fan can't hold the asymmetry and begins operating as though the relationship is mutual. The music industry often fails artists here by treating obvious stalking as enthusiasm. Your discomfort is data. Your body's signal about someone is data.",
-     "check": "S.O.U.N.D. — \"D\" CHECK: \"Have I documented this person's behavior with dates, locations, and screenshots — sol...",
+     "check": "S.O.U.N.D. — “D” CHECK: “Have I documented this person’s behavior with dates, locations, and screenshots — solely so I have a record if this escalates?” — a fan’s dedication is not a reason to skip documenting once it stops feeling safe.",
      "darkTitle": "Documenting And Reporting Stalking",
      "dark": "Documentation: screenshot every message, note dates and locations of every appearance, keep a written log. When to report: when they appear at non-public locations, when they attempt physical contact you haven't invited, when communication escalates after you stop responding, when they contact people in your personal life. Report to: venue security (who can issue trespass notices), local police (a report creates a record even if no immediate action), Stalking Prevention Awareness and Resource Center (stalkingawareness.org). Report early rather than late.",
      "move": "Trust your body's signal. Document. Tell your team. Report early.",
@@ -4396,7 +4401,7 @@
       "Live recordings appear on streaming platforms or in commercial contexts without your knowledge"
      ],
      "happening": "Live recording rights are one of the most commonly overlooked and most valuable assets in a musician's career. Festival organizers routinely include sweeping rights grabs in standard booking paperwork. Your performance is a copyrightable work. Your likeness in those recordings is yours. A simple rider clause reserves your recording rights or requires negotiation. Without it, you're playing the show and handing them a product.",
-     "check": "S.O.U.N.D. — \"O\" CHECK: \"Who owns the recordings being made of me tonight — and is that in writing before I go...",
+     "check": "S.O.U.N.D. — “O” CHECK: “Who owns the recordings being made of me tonight — and is that in writing before I go on stage?” — know who owns the product before you create it, not after.",
      "darkTitle": "Recording Rights Rider Language",
      "dark": "Add to your standard rider: \"Artist retains all rights to audio and video recordings of the performance. Any recording by Presenter requires written agreement specifying format, distribution, compensation, and Artist approval rights prior to the event.\" For streaming: separate sync licensing fees apply. ASCAP, BMI, and SESAC collect performance royalties — make sure your set is registered. SoundExchange collects digital performance royalties. If a festival has a streaming deal, your performance may generate royalties you're entitled to but not receiving.",
      "move": "Add recording rights language to your rider. Always. Non-negotiable.",
@@ -4417,7 +4422,7 @@
       "\"Unexpected costs\" appear after the show as reasons for reduced payment"
      ],
      "happening": "Cash flow manipulation benefits the promoter while your leverage decreases once you've performed. That's why deposits exist. Get them before you travel. Count your own merch. Send a payment reminder email with terms on Day 1 after the show. Paper trail everything. Most non-payers rely on artists being too tired or too non-confrontational to pursue it.",
-     "check": "S.O.U.N.D. — \"D\" CHECK: \"Do I have documentation of everything agreed financially — so I have something to...",
+     "check": "S.O.U.N.D. — “D” CHECK: “Do I have documentation of everything agreed financially — so I have something to point to when the money doesn’t show up on time?” — you performed. You get paid what was agreed. This is completely enforceable.",
      "darkTitle": "When They Don't Pay — Your Options",
      "dark": "Step 1: written demand email with contract attached, specific payment deadline (7-14 days). Step 2: small claims court handles disputes up to $10,000-$25,000 depending on state — filing fee usually under $100. Step 3: music attorney demand letter ($150-300) frequently resolves it. Step 4: American Federation of Musicians (afm.org) has a Claims & Collections department. Step 5: publicizing non-payment in musician communities (Indie on the Move, local music forums) is legal and effective. Document everything before going public.",
      "move": "50% deposit before you travel. Count your own merch. Send payment follow-up in writing the morning after.",
@@ -4438,7 +4443,7 @@
       "The person spreading the narrative directly benefits from your compliance"
      ],
      "happening": "Reputation threats work because the music and festival circuit is small, relationship-driven, and operates heavily on word of mouth. The goal is to make the cost of pushing back higher than the cost of compliance. It often works. The counter is: document everything before any dispute escalates, build independent relationships across the industry, and proactively communicate your version of events to people who matter to you. Being blacklisted by predatory promoters is often a feature, not a bug.",
-     "check": "S.O.U.N.D. — \"D\" CHECK: \"Have I documented the facts of this situation so I have something to point to if my...",
+     "check": "S.O.U.N.D. — “D” CHECK: “Have I documented the facts of this situation so I have something to point to if my version of events gets challenged later?” — the people worth working with will believe the documentation over the rumor.",
      "darkTitle": "When Your Reputation Is Being Attacked",
      "dark": "(1) Document: exactly what is being said, where, by whom, and when. (2) Communicate directly with your most important professional relationships — not to spin but to share facts. \"I wanted to reach out directly because I understand there may be things being said about me — here's what actually happened.\" (3) Let your work speak. Predatory promoters lose credibility over time as more artists share experiences. (4) Musician-specific reputation defense: being known as someone who stands up for fair pay makes you MORE attractive to legitimate promoters.",
      "move": "Document the dispute. Communicate directly with people who matter to you. Let your work speak.",
@@ -4480,7 +4485,7 @@
       "Accommodation and hospitality: what's provided, what's not, quality standards"
      ],
      "happening": "A comprehensive rider serves two functions: it communicates your professional requirements AND it creates a paper trail of what was agreed. When things don't match the rider at the venue, you have documentation of what was promised. When recording happens without your agreement, you have documentation of what your rights are. The rider is not a diva document — it's a professional standard that protects both parties.",
-     "check": "S.O.U.N.D. — \"S\" CHECK: \"Does my rider include recording rights language, payment terms, and all my technical...",
+     "check": "S.O.U.N.D. — “S” CHECK: “Does my rider include recording rights language, payment terms, and all my technical requirements, spelled out in writing?” — the rider is not arrogance. It’s professionalism, and it protects both sides of the booking.",
      "darkTitle": "What A Complete Rider Covers",
      "dark": "Technical rider: stage plot, input list, monitoring requirements, backline requirements, load-in/soundcheck/show times. Business rider: fee and payment terms, deposit amount and deadline, cancellation policy, accommodation and transportation specs, press photo and bio requirements. Rights rider: recording rights clause (you retain all), broadcast rights, how your name can be used in promotion. Hospitality rider: green room requirements, food and beverage, guest list. Template riders are available from AFM (afm.org) and from music attorney blogs. Customize and use yours consistently.",
      "move": "Send your rider with every booking confirmation. Update it annually. Use it as your baseline.",
@@ -4501,7 +4506,7 @@
       "The touring lifestyle normalizes substance use in ways that can gradually erode risk-assessment"
      ],
      "happening": "Artists on tour are subject to the same drug laws as everyone else regardless of backstage location. Green room status does not create legal protection. The touring lifestyle creates normalization of substance use that can gradually erode your assessment of what's risky. Know what you're taking (test it), Know your legal exposure, and be aware that the people around you on tour have their own legal exposure to consider — which may or may not align with your interests.",
-     "check": "S.O.U.N.D. — \"U\" CHECK: \"Do I understand who is actually in this space and what the legal implications of this...",
+     "check": "S.O.U.N.D. — “U” CHECK: “Do I understand who is actually in this space and what the legal implications of this transaction actually are?” — backstage is not a legal gray zone just because it feels like one.",
      "darkTitle": "If You're Detained At A Festival Or Venue",
      "dark": "Know this before you need it: (1) You have the right to remain silent — use it. \"I'd like to speak with a lawyer.\" (2) Your manager or label does not automatically have the right to make legal decisions for you — that's your call. (3) Your tour rider and performance contract are your documents — you have the right to a copy of any contract you've signed. (4) Know the National Lawyers Guild (nlg.org) — they have observer programs at many major events. (5) Good Samaritan laws protect people seeking overdose help in most states — always call for medical help in an overdose situation.",
      "move": "Know your legal exposure before any situation requires you to think about it.",
@@ -4564,7 +4569,7 @@
       "The expectation that \"living the dream\" means you shouldn't have struggles"
      ],
      "happening": "Touring mental health is a serious and underaddressed issue in the music industry. The combination of sleep disruption, dietary inconsistency, emotional performance demands, social isolation, and substance exposure creates conditions that are genuinely hard on mental health — regardless of how much you love the music. Acknowledging this is not weakness. It is professional self-care. The musicians who sustain long careers are the ones who take their mental health as seriously as their technical craft.",
-     "check": "S.O.U.N.D. — \"N\" CHECK: \"What does my actual wellbeing need right now — not what does the tour schedule need...",
+     "check": "S.O.U.N.D. — “N” CHECK: “What does my actual wellbeing need right now — not what does the tour schedule need from me?” — those are two different questions, and only one of them is actually yours to answer.",
      "darkTitle": "Mental Health Resources For Musicians",
      "dark": "MusiCares (grammy.com/musicares): free mental health referrals and financial assistance for music professionals. Sweet Relief Musicians Fund (sweetrelief.org): financial assistance for touring musicians in crisis. Musicians Foundation (musiciansfoundation.org): emergency assistance grants. Backline (backline.care): free mental health and wellness resources specifically for music industry professionals. 988 Suicide and Crisis Lifeline: call or text 988, 24/7. The music industry is increasingly building mental health infrastructure — use it. Reaching out is not a career-ending move. Burning out silently is.",
      "move": "Treat your mental health with the same professionalism you bring to your craft.",
@@ -4726,7 +4731,7 @@
       "Complaints are met with the reminder that you have already paid"
      ],
      "happening": "Vendor fee manipulation relies on the non-refundable deposit to eliminate your leverage once you have committed. The bait-and-switch is a known and widespread practice on the festival vendor circuit. Your only real protection is what is written down before you pay. If it is not in the vendor agreement it did not happen and you have no recourse. Research every promoter in Facebook vendor groups and Indie Craft Experience forums before you commit. The circuit has a long memory for bad promoters.",
-     "check": "M.A.R.K.E.T. — \"M\" CHECK: \"Is the placement, the attendance number, and every fee in writing — or just verbally...",
+     "check": "M.A.R.K.E.T. — “M” CHECK: “Is the placement, the attendance number, and every fee in writing — or just verbally promised by someone with every reason to over-promise?” — a great pitch that isn’t in writing is just a story.",
      "darkTitle": "Vendor Agreement Must-Haves",
      "dark": "Before paying any vendor fee, the written agreement must include: exact booth location or tier with a map, all fees fully itemized including electricity and water hookups, minimum attendance guarantee or clear as-is disclaimer, refund policy under specific conditions including event cancellation, your sales category and exclusivity protections, and setup and breakdown time windows. Research every promoter on Facebook vendor groups before committing.",
      "move": "If it is not in the written agreement it does not exist. Pay only what the paper says.",
@@ -4747,7 +4752,7 @@
       "Each individual change is presented as minor or outside their control"
      ],
      "happening": "Last-minute term changes exploit the sunk cost of your presence. You have traveled, brought inventory, and made plans that are hard to reverse. The cost of walking away feels higher than accepting the change — and that is exactly the calculation the promoter is banking on. Documenting the original agreement in writing and responding to every change in writing creates a paper trail that supports a refund claim or small claims filing after the event.",
-     "check": "M.A.R.K.E.T. — \"R\" CHECK: \"Do I have written documentation of what was originally agreed so I can actually...",
+     "check": "M.A.R.K.E.T. — “R” CHECK: “Do I have written documentation of what was originally agreed so I can actually point to it when the terms shift?” — the paper trail you build before the event is the only thing that protects you at it.",
      "darkTitle": "When They Change Your Terms After Arrival",
      "dark": "(1) Document immediately — photograph your contracted spot vs where they have put you. (2) Send a written objection via email before the event opens: \"This placement does not match our agreement. I am proceeding under protest and reserving the right to seek a refund.\" (3) After the event: small claims court handles disputes up to $25,000 depending on state, filing fee usually under $100, you represent yourself. Your written agreement is your evidence. Most promoters will settle rather than face a filing.",
      "move": "Document the original agreement. Document every change. Respond to all changes in writing immediately.",
@@ -4768,7 +4773,7 @@
       "Raising the financial impact of the arrangement is received as not being a good community fit"
      ],
      "happening": "Camp-based vendor arrangements can be genuinely mutually beneficial and they can be a systematic way to extract inventory, labor, and compliance from traveling vendors who need the infrastructure. The tell is always whether terms are defined and mutual. Real community has reciprocity both parties can articulate. When your contributions keep expanding and the camp contributions stay stable — that is feudalism with better branding.",
-     "check": "M.A.R.K.E.T. — \"E\" CHECK: \"What would it actually cost me to leave this arrangement — and is that cost getting...",
+     "check": "M.A.R.K.E.T. — “E” CHECK: “What would it actually cost me to leave this arrangement — and is that cost getting bigger the longer I stay quiet about it?” — an undefined cost that grows with your silence is not community. It’s a bill you didn’t agree to.",
      "darkTitle": "Calculate Your Actual Camp Arrangement Cost",
      "dark": "Write this down: (1) Vendor fee or equivalent you are paying. (2) Value of inventory gifted at your wholesale cost. (3) Value of your labor hours at your day rate. (4) Cash contributions to camp costs. Now compare to what a solo vendor spot at the same event would cost and what your actual net sales were. If the camp arrangement costs more than going independently — you are paying for the privilege of working for them. Name that clearly before committing to another season.",
      "move": "Calculate every camp arrangement in actual dollars before you commit to another event.",
@@ -4810,7 +4815,7 @@
       "They reference your bookings or placement during relationship conflicts"
      ],
      "happening": "Romantic entanglement with access holders is a specific and common vendor vulnerability because the festival circuit is small and relationship-driven. The problem is not the relationship. The problem is when the relationship becomes the mechanism of professional control. If you cannot evaluate your relationship independently of what it costs your business — the entanglement has already become control. Your professional access should never live inside a romantic relationship.",
-     "check": "M.A.R.K.E.T. — \"A\" CHECK: \"Does my business access depend on this relationship — and what does that mean for...",
+     "check": "M.A.R.K.E.T. — “A” CHECK: “Does my business access depend on this relationship — and what does that mean for me the day this relationship ends?” — access that depends on one relationship was never really yours.",
      "darkTitle": "Building Access Independent Of Any One Person",
      "dark": "Your vendor circuit access should run through multiple independent relationships. Practical steps: join at least two vendor Facebook groups and participate so people know you independently. Apply to events directly rather than through an intermediary whenever possible. Build relationships with multiple promoters independently of any romantic partner. Document your own sales history and reviews so your reputation is yours — not borrowed from someone else's endorsement. The goal is that your access to the circuit survives any single relationship ending.",
      "move": "Keep your professional relationships independent of your romantic ones. Build your own circuit reputation.",
@@ -4873,7 +4878,7 @@
       "You feel that raising future concerns would cost you even more placement quality"
      ],
      "happening": "Placement retaliation is a control mechanism that works because it is hard to prove and because the cost of fighting it feels higher than the cost of compliance. The organizer has plausible deniability — placement decisions involve many factors. The counter is documentation of the pattern across multiple events and multiple vendors, and building relationships with other organizers so your circuit access does not depend on any one event.",
-     "check": "M.A.R.K.E.T. — \"K\" CHECK: \"Am I staying quiet about legitimate concerns because I am afraid of what it will cost my...",
+     "check": "M.A.R.K.E.T. — “K” CHECK: “Am I staying quiet about legitimate concerns because I am afraid of what it will cost my placement next season?” — an organizer who punishes standards is telling you exactly who they are.",
      "darkTitle": "Building Circuit Independence",
      "dark": "The most effective protection against any single organizer's retaliation is a circuit that does not depend on them. Practical steps: apply to at least three times more events than you plan to attend so you have real options. Build direct relationships with multiple organizers independently. Document your sales performance and vendor reviews so your reputation exists independently. Participate in vendor communities so other organizers know your work before they see your application. Independence is the protection.",
      "move": "Build circuit access that does not depend on any single organizer's approval.",
@@ -4936,7 +4941,7 @@
       "Your business name or brand elements used by someone else in your market space"
      ],
      "happening": "Design theft and image theft are endemic in the handmade marketplace — the internet makes copying easy and enforcement feels difficult. But copyright protection is automatic the moment you create original work and you have real options. The key is documentation: timestamp your original files, watermark everything you post publicly, maintain a creation file with original dated drafts. US Copyright registration ($65) enables enforcement with statutory damages of $750 to $30,000 per infringement.",
-     "check": "M.A.R.K.E.T. — \"R\" CHECK: \"Do I have timestamped documentation of my original designs that establishes my...",
+     "check": "M.A.R.K.E.T. — “R” CHECK: “Do I have timestamped documentation of my original designs that establishes my ownership before anyone else’s does?” — your designs are copyrighted the moment you create them. You get to enforce that.",
      "darkTitle": "When Your Work Is Stolen — Your Options",
      "dark": "Documentation first: screenshot everything, note dates, save original files. DMCA takedown: file with the platform — Google, Etsy, and Instagram all have processes and take these seriously. Etsy: file an Intellectual Property infringement report — they will remove listings. Legal: small claims for amounts under your state limit. Copyright registration ($65 at copyright.gov) opens the door to statutory damages and attorney fees — making enforcement financially viable. Volunteer Lawyers for the Arts offers free consultations in most major cities.",
      "move": "Watermark everything. Document your creation dates. Enforce your copyright.",
@@ -4957,7 +4962,7 @@
       "Something about the interaction feels slightly scripted — you cannot articulate why but it is there"
      ],
      "happening": "Undercover officers at festivals are specifically trained to blend in and they are often very good at it. As a vendor with a public booth you are particularly visible and accessible. The behavioral tells are in the conversation pattern itself: they redirect from legitimate commerce to other things, they guide toward isolation, and they push for specificity. You are never obligated to complete any conversation or transaction. \"I am just focused on my product today\" ends it cleanly.",
-     "check": "M.A.R.K.E.T. — \"A\" CHECK: \"Am I proceeding with this conversation because I actually want to — or because saying...",
+     "check": "M.A.R.K.E.T. — “A” CHECK: “Am I proceeding with this conversation because I actually want to — or because saying no feels riskier than it is?” — no transaction at a festival is worth your freedom, and no conversation is worth your business.",
      "darkTitle": "If You Are Approached By Police Or Detained",
      "dark": "Know this before you need it: (1) You have the right to remain silent — use it. \"I would like to speak with a lawyer\" is the only thing you say. (2) You can ask if you are being detained or free to go — if free to go, go. (3) You can decline to consent to a search. (4) Do not physically resist any police interaction. (5) Write down badge numbers and details as soon as possible. (6) Contact a lawyer or the National Lawyers Guild (nlg.org) which has observer programs at many major festivals. Good Samaritan laws protect people seeking overdose help in most US states.",
      "move": "\"I am just focused on my product today\" ends any sideways conversation. Clean and done.",
@@ -5020,7 +5025,7 @@
       "Real vendor community: honest feedback about your work and business when you ask for it"
      ],
      "happening": "Real vendor solidarity is built through repeated small interactions where each person is free to give or not give without social cost either way. It looks like sharing information, helping during the hard moments of setup and breakdown, warning each other about problems on the circuit, and genuinely celebrating when someone in the community thrives. It does not look like keeping score, invoking community as leverage in commercial transactions, or using shared history as a reason you owe someone something.",
-     "check": "M.A.R.K.E.T. — \"K\" CHECK: \"Is this interaction genuinely mutual — or is community being invoked to extract...",
+     "check": "M.A.R.K.E.T. — “K” CHECK: “Is this interaction genuinely mutual — or is community being invoked to extract something one direction only?” — real community runs both ways. Extraction only runs one.",
      "darkTitle": "How To Build Your Real Vendor Network",
      "dark": "Real vendor community is built through: sharing information generously including about bad promoters — this is the most valuable thing you can do for each other. Participating in vendor Facebook groups not just to ask questions but to answer them. Introducing yourself to neighboring vendors at every event with genuine curiosity about their work. Helping during breakdown even when you are exhausted. Giving honest referrals and honest warnings. The vendors who build the longest and most sustainable careers are almost always the ones who invest most genuinely in the community around them.",
      "move": "Invest in real vendor community. It is the best business development and the best protection at the same time.",
@@ -5214,7 +5219,7 @@
       "Discomfort among other staff about a specific person that has not yet been formally named"
      ],
      "happening": "People who want access to vulnerable people at festivals will seek roles that provide that access. Harm Reduction tents, medical stations, safe spaces, and security roles all provide access to people who are at their most vulnerable. This is a known and documented pattern in safeguarding contexts. If you have a gut feeling about a colleague in your space — that feeling is data. Name it to a supervisor. Document it. The culture of \"but they have been here for years\" is specifically what these patterns rely on.",
-     "check": "H.O.L.D. — \"L\" CHECK: \"Have I documented the specific behaviors that are making me uncomfortable about this...",
+     "check": "H.O.L.D. — “L” CHECK: “Have I documented the specific behaviors that are making me uncomfortable about this person in an access role, with dates and specifics?” — the team looking out for each other matters as much as the team looking out for attendees.",
      "darkTitle": "Safeguarding In Festival Staff Contexts",
      "dark": "Basic safeguarding practices for festival staff spaces: no staff or volunteer should have unsupervised one-on-one access to impaired or vulnerable attendees. Staff contact with attendees ends when the support need ends — ongoing personal contact is a red flag. Any staff member who is seeking out specific attendees after interactions should be reported to a supervisor. All concerns about staff behavior should be documented in writing with date, time, and specific observed behavior. A genuine organization will take these concerns seriously. One that dismisses them is protecting the wrong person.",
      "move": "Name what you see to a supervisor. Document it in writing. The culture of silence is what protects predators in these spaces.",
@@ -5235,7 +5240,7 @@
       "Intrusive thoughts about difficult situations encountered during your shifts"
      ],
      "happening": "Compassion fatigue is a recognized occupational hazard for anyone in sustained caregiving roles. It is not weakness. It is a physiological response to extended high-intensity emotional labor. Festival caregiving compresses what might be a week of a therapist's caseload into a single shift. The culture that says \"just one more shift\" and \"the event needs you\" is the same culture that burns out its best volunteers. Your wellbeing is not optional. It is what makes you effective.",
-     "check": "H.O.L.D. — \"H\" CHECK: \"Am I actually present with the people I am supporting — or am I running on empty and...",
+     "check": "H.O.L.D. — “H” CHECK: “Am I actually present with the people I am supporting — or am I running on empty and performing presence I don’t actually have?” — you cannot give what you do not have. Recovery is the job, not a luxury outside it.",
      "darkTitle": "Compassion Fatigue Recovery Protocol",
      "dark": "During an event: take your full breaks even when the space is busy, eat real food even when you are not hungry, drink water before you are thirsty, step outside the tent for ten minutes between difficult interactions. After a difficult shift: do not go directly to the main festival environment — give yourself a 15-30 minute transition in a quiet space. After the event: give yourself 3-5 days before processing difficult experiences, talk to someone outside the festival context about what you carried, and if intrusive thoughts or emotional numbness persist beyond two weeks contact a mental health professional.",
      "move": "Take your breaks. Eat. Drink water. Step outside between difficult interactions. Your depletion serves nobody.",
@@ -5256,7 +5261,7 @@
       "Noticeably different presentation when they think they are not being directly observed"
      ],
      "happening": "Most people who access Harm Reduction or support spaces at festivals are there for genuine reasons. Some are not. People who want to gather information about vulnerable attendees, access resources beyond what is appropriate, or build proximity to staff will use the care space to do it because the care space is specifically designed to receive people without judgment. Noticing patterns is not being judgmental. It is being a good safeguarder.",
-     "check": "H.O.L.D. — \"O\" CHECK: \"Is the pattern of this person's engagement consistent with genuine support seeking — or...",
+     "check": "H.O.L.D. — “O” CHECK: “Is the pattern of this person’s engagement consistent with genuine support seeking — or does it track more closely with something else entirely?” — discernment is as much a part of this role as compassion.",
      "darkTitle": "What To Do When Something Feels Off",
      "dark": "Trust your gut. If something about a repeated visitor feels off — name it to a colleague quietly during a transition. Document: how many visits, what they requested each time, anything that seemed inconsistent. You do not need certainty to document a concern. Documentation is not accusation — it is creating a record in case the pattern becomes clearer later. If the behavior is actively concerning — someone gathering information about other attendees, someone following up with specific attendees after interactions — that goes to your supervisor immediately and in writing.",
      "move": "Trust the pattern. Name it to a colleague. Document it. That is what good safeguarding looks like.",
@@ -5277,7 +5282,7 @@
       "Leadership is also depleted — there is no functional escalation path for concerns"
      ],
      "happening": "Systematic depletion of staff and volunteers is sometimes accidental and sometimes deliberate. When everyone is too exhausted to notice patterns or raise concerns — problems that would otherwise be caught and addressed do not get caught and addressed. If you are in an event structure where your basic needs are not being met and there is no functional path for raising concerns — that is information about the organization, not just about the event. Name it. Document it. And protect yourself accordingly.",
-     "check": "H.O.L.D. — \"H\" CHECK: \"Do I have the basic resources I need to do this role safely — food, sleep, breaks, a...",
+     "check": "H.O.L.D. — “H” CHECK: “Do I have the basic resources I need to do this role safely — food, sleep, breaks, a way to say when I’ve hit my limit?” — a depleted volunteer isn’t a martyr, they’re a liability to everyone they’re trying to protect.",
      "darkTitle": "When The Reporting Structure Is Broken",
      "dark": "If your direct supervisor is unavailable, overwhelmed, or is the source of the problem: escalate to the next level up. If there is no functional next level: document your concern in writing and send it to the organization in writing — email creates a timestamp. If the issue involves immediate safety: contact festival medical or emergency services directly, bypassing the organizational structure. After the event: formal written feedback to the organization and to any professional bodies or associations that oversee the event. Your concern being hard to hear does not make it wrong.",
      "move": "Meet your own basic needs first. You cannot report-effectively from a place of complete depletion.",
@@ -5298,7 +5303,7 @@
       "Pressure to wait, consider, or discuss rather than document and report immediately"
      ],
      "happening": "Reporting suppression protects the organization and the event at the expense of the people harmed. When incidents are handled informally at the request of event leadership — no report, no documentation, no formal process — the people harmed lose their ability to seek redress, the pattern goes untracked, and the organization avoids accountability. Your role is to report. The decision about how to handle the report is not yours alone. Make the report and let the process work.",
-     "check": "H.O.L.D. — \"L\" CHECK: \"Have I documented this incident in writing regardless of what the organization is asking me...",
+     "check": "H.O.L.D. — “L” CHECK: “Have I documented this incident in writing regardless of what the organization is asking me to prioritize instead?” — reporting harm is the job. Anyone telling you otherwise is protecting the wrong thing.",
      "darkTitle": "What To Do When Told Not To Report",
      "dark": "If you are asked not to formally report an incident: (1) Document the incident yourself in writing regardless — date, time, location, what you witnessed, what you reported, and what response you received including the instruction not to formally report. (2) If the incident involves assault, harassment, or a crime — you may have independent legal obligations to report depending on your role and jurisdiction. (3) If the organization is suppressing reports: that is reportable to relevant authorities and professional bodies after the event. (4) RAINN (rainn.org) has guidance for bystanders and witnesses as well as victims.",
      "move": "Make your report. Document everything including the response. The organization's comfort is not your responsibility.",
@@ -5340,7 +5345,7 @@
       "The framing shifts from \"what happened\" to \"what did you do\" in ways that feel like assignment of blame"
      ],
      "happening": "Front-line workers are the easiest people to blame for systemic failures because they were physically present when things went wrong. Organizations that do not want to examine their own structural failures direct accountability downward onto the people least able to defend themselves. You are not required to accept blame for conditions you did not create. Document your version of events in writing immediately after any incident. Do not sign anything you do not fully understand and agree with.",
-     "check": "H.O.L.D. — \"L\" CHECK: \"Have I documented my version of events in writing immediately — before organizational...",
+     "check": "H.O.L.D. — “L” CHECK: “Have I documented my version of events in writing immediately — before organizational framing has a chance to reshape it?” — you’re responsible for your actions, not for the systemic conditions you were placed in.",
      "darkTitle": "Protecting Yourself After An Incident",
      "dark": "Immediately after any significant incident: (1) Write your own account in as much detail as possible — what you observed, what you did, what resources and training you had, what the conditions were. Include timestamps. (2) Do not sign any organizational documentation before you have had time to read it carefully and compare it to your own account. (3) If asked to participate in a formal review: you have the right to have someone present with you. (4) If you feel you are being scapegoated for systemic failures: contact a lawyer or the National Lawyers Guild before signing anything.",
      "move": "Write your own account immediately. Do not sign anything before reading it carefully against your own record.",
@@ -5361,7 +5366,7 @@
       "Documentation after any intervention is part of the job, not optional"
      ],
      "happening": "Staff and volunteers have a fundamentally different role in bystander intervention than attendees — you have authority, visibility, backup, and a professional obligation to act that most attendees do not. The threshold for intervention is lower for you. The tools available are better. The accountability for not acting is higher. See something, do something — and document what you did and why.",
-     "check": "H.O.L.D. — \"O\" CHECK: \"What am I observing right now and what does my role require me to do with that...",
+     "check": "H.O.L.D. — “O” CHECK: “What am I observing right now, and what does my role require me to do with that observation, in this exact moment?” — your vest and your radio are the tools for this moment. Use them.",
      "darkTitle": "Staff Bystander Toolkit",
      "dark": "What staff have that attendees do not: (1) Radio — you can call for backup before approaching. Use it. (2) Authority — \"Is everything okay here?\" from someone in a staff vest lands differently than the same question from an attendee. (3) Known safe spaces — you know where Harm Reduction and medical are. You can offer to walk someone there. (4) Incident reporting — everything you witness and act on gets documented. That documentation protects people, creates patterns, and holds the organization accountable. (5) Colleagues — you are not alone. Use your team.",
      "move": "Use your radio, your authority, your access, and your colleagues. You have more tools than anyone else here.",
@@ -5382,7 +5387,7 @@
       "Basic needs — food, water, breaks, sleep — being systematically denied for operational reasons"
      ],
      "happening": "Festival volunteer culture often blurs the line between genuine community contribution and labor exploitation. The \"we are all in this together\" framing can make it feel selfish or disloyal to refuse unsafe tasks or insist on basic working conditions. It is not. Volunteers who are placed in unsafe conditions and something goes wrong face real consequences — personal harm, trauma, and sometimes legal exposure. You have the right to refuse conditions that put you at unreasonable risk.",
-     "check": "H.O.L.D. — \"H\" CHECK: \"Am I being asked to do something that my training, my safety, or my basic needs require...",
+     "check": "H.O.L.D. — “H” CHECK: “Am I being asked to do something that my training, my safety, or my basic needs require me to say no to?” — saying no to an unsafe task isn’t letting the team down. It’s doing the job correctly.",
      "darkTitle": "Volunteer Rights In Practice",
      "dark": "In practice, volunteer rights include: the right to know what your role involves before you commit, the right to refuse tasks outside your role description or competency without losing your position, the right to safe working conditions including adequate communication, support, and backup, the right to leave a role that is actively harmful to you without legal consequence in most jurisdictions, and the right to documentation of what was agreed. After the event: formal feedback to the organization and to any bodies that oversee the event. Your experience matters and your feedback improves conditions for future volunteers.",
      "move": "Know your rights before you need them. Refusing unsafe conditions is not abandonment — it is professional judgment.",
@@ -5403,7 +5408,7 @@
       "Physical symptoms — tension, headache, fatigue — that persist well after your shift ends"
      ],
      "happening": "Secondary traumatic stress — also called vicarious trauma — is a recognized occupational hazard for people in caregiving and emergency response roles. It develops from repeated exposure to other people's traumatic experiences. Festival caregiving compresses this exposure dramatically. Debrief is the professional standard for managing it — named processing of what you experienced, with colleagues or a professional, before it gets metabolized as unprocessed trauma.",
-     "check": "H.O.L.D. — \"D\" CHECK: \"Have I actually stopped and processed what I experienced today — or am I just pushing...",
+     "check": "H.O.L.D. — “D” CHECK: “Have I actually stopped and processed what I experienced today — or am I just pushing through to the next shift?” — what you process becomes wisdom. What you don’t becomes weight.",
      "darkTitle": "What An Effective Debrief Looks Like",
      "dark": "At minimum after any difficult shift: 15-30 minutes of quiet transition before driving or going to the main festival. Name — out loud to at least one colleague — the most difficult thing you experienced this shift. After the event: talk to at least one person outside the festival context about what you carried. If multiple difficult incidents happened: consider a session with a therapist who works with first responders or emergency services. Resources specifically for caregivers: Zendo Project (zendoproject.org) trains staff and can refer to ongoing support. Psychology Today (psychologytoday.com) has therapist finders by specialty.",
      "move": "Name what you experienced out loud to at least one colleague before leaving. That is the minimum.",
@@ -5424,7 +5429,7 @@
       "The power of your role continues to exist even when you are off duty at the same event"
      ],
      "happening": "The access that comes with festival staff and volunteer roles creates real power over people who are in vulnerable moments. That power is a tool for service — it is not a benefit of the role. Information shared in a care context is confidential. Access to spaces and resources is role-specific. Ongoing personal contact with people you supported in your role raises the same issues as any therapist-client boundary — the power imbalance does not disappear when the immediate support need does.",
-     "check": "H.O.L.D. — \"H\" CHECK: \"Am I using my access in service of the people I am there to protect — or for my own...",
+     "check": "H.O.L.D. — “H” CHECK: “Am I using my access in service of the people I am there to protect — or for my own convenience, curiosity, or gain?” — the access isn’t yours, it belongs to the role. Use it accordingly.",
      "darkTitle": "The Ethics Of Your Access",
      "dark": "Ethical use of staff access: information shared with you in a care context stays in the care context — it does not get shared with other staff except on a need-to-know basis and not at all outside the organizational context. Physical access to secure or restricted areas is for role purposes only. Contact with people you supported ends when the support need ends — seeking ongoing personal contact is a boundary violation regardless of how the connection felt. If you are unsure whether something is within bounds: ask your supervisor before doing it, not after.",
      "move": "Use your access for the people you are there to serve. Full stop.",
@@ -5445,7 +5450,7 @@
       "Accountability runs in all directions — leadership is held to the same standards as front-line staff"
      ],
      "happening": "Healthy staff culture is built from the first briefing and maintained through how leadership responds to the first concern that is raised. Organizations where leadership takes concerns seriously, supports staff wellbeing, and holds itself to the same standards it holds front-line workers create genuinely safer events. Organizations that suppress concerns, burn out volunteers, and deflect accountability downward create events where harm is more likely and less likely to be addressed.",
-     "check": "H.O.L.D. — \"O\" CHECK: \"Does the culture of this staff team make it easy or hard to raise concerns? That tells you a...",
+     "check": "H.O.L.D. — “O” CHECK: “Does the culture of this staff team make it easy or hard to raise concerns?” — that tells you a great deal about how safe this event actually is.",
      "darkTitle": "How To Build Healthy Staff Culture From Your Position",
      "dark": "Regardless of where you sit in the organization: (1) Model taking gut feelings seriously by naming yours out loud. \"Something about that felt off to me — I am going to document it.\" (2) Celebrate colleagues who raise concerns rather than treating them as troublemakers. (3) Debrief after difficult shifts even when leadership does not require it. (4) Give honest post-event feedback to the organization about what worked and what did not. (5) If you are in leadership: the first time a concern is dismissed sets the culture for every concern that follows. Take them all seriously.",
      "move": "Build the culture you want to work in. It starts with how you respond to the first concern you hear.",
@@ -5897,7 +5902,7 @@
       "Noticeably different affect when they think they are not being directly observed"
      ],
      "happening": "People who want to gather information about vulnerable attendees, access resources beyond what is appropriate, or build proximity to care staff will use the Harm Reduction tent to do it because the tent is specifically designed to receive people without judgment. Noticing patterns is not being judgmental. It is safeguarding. Your gut when something is off is data. Document it and name it to your team lead.",
-     "check": "C.A.R.E. — \"R\" CHECK: \"Is the pattern of this person's engagement consistent with genuine support seeking — or...",
+     "check": "C.A.R.E. — “R” CHECK: “Is the pattern of this person’s engagement consistent with genuine support seeking — or does it track more closely with something else entirely?” — discernment is as much a part of this role as compassion.",
      "darkTitle": "Documenting Concerning Patterns",
      "dark": "When something feels off about a participant: (1) Note the visit — time, brief description of what was requested, anything that seemed inconsistent. (2) Share your observation with a colleague quietly during a transition — \"I want to flag something about a repeat visitor.\" (3) If the behavior is actively concerning — gathering information about other participants, following up with specific participants after interactions — report to your team lead immediately and in writing. You do not need certainty to document. Documentation is not accusation. It is creating a record in case the pattern becomes clearer.",
      "move": "Trust the pattern. Note it. Share it with a colleague. Document it. That is what good safeguarding looks like.",
@@ -5918,7 +5923,7 @@
       "Intrusive thoughts about difficult situations you have witnessed during your shifts"
      ],
      "happening": "Secondary traumatic stress develops from repeated exposure to other people's traumatic experiences. Harm Reduction work at festivals compresses what might be a week of a therapist's caseload into a single shift. The culture that says \"just one more\" and \"people need you\" is the same culture that burns out its best volunteers and leaves participants being supported by someone running on empty. Your depletion is not noble. It is a risk to the people you are trying to help.",
-     "check": "C.A.R.E. — \"C\" CHECK: \"Am I actually present with the people I am supporting — or am I performing presence from a...",
+     "check": "C.A.R.E. — “C” CHECK: “Am I actually present with the people I am supporting — or am I performing presence from a tank that’s already empty?” — you cannot give what you do not have, and your recovery is what makes the giving possible.",
      "darkTitle": "Recognizing And Responding To Compassion Fatigue",
      "dark": "During a shift: step outside for ten minutes between difficult interactions even when the space is busy. Eat something before your shift and during it. Drink water. Name what you are carrying to a colleague before taking the next participant. After a difficult shift: do not go directly to the main festival environment — give yourself 15-30 minutes in a quiet space. Name the most difficult thing from the shift out loud to at least one colleague before leaving. After the event: if intrusive thoughts or emotional numbness persist beyond two weeks — contact a mental health professional. Zendo Project (zendoproject.org) provides training and ongoing support specifically for Harm Reduction volunteers.",
      "move": "Your recovery is part of the job. Take your breaks. Eat. Drink water. Name what you are carrying. Debrief.",
@@ -5939,7 +5944,7 @@
       "You feel that reporting would violate your role when it actually falls within your safeguarding responsibilities"
      ],
      "happening": "Confidentiality in Harm Reduction protects participant information — not staff behavior, not organizational failures, and not incidents that require escalation to protect others. These are distinct categories. A team lead or organization that uses confidentiality language to suppress reports about staff behavior or organizational accountability is misusing the concept. Your safeguarding responsibilities include reporting when you witness harm, regardless of where it occurred.",
-     "check": "C.A.R.E. — \"A\" CHECK: \"Is confidentiality being applied to protect the people we serve — or to protect the...",
+     "check": "C.A.R.E. — “A” CHECK: “Is confidentiality being applied to protect the people we serve — or to protect the organization from accountability?” — confidentiality protects participants. It was never meant to protect an organization from consequences.",
      "darkTitle": "What To Do When The Reporting Structure Is Broken",
      "dark": "If your team lead is suppressing a report: escalate to the next level of the organization in writing. If there is no functional next level: document the incident yourself in writing with date, time, and exactly what you witnessed. Send that documentation to the organization in writing — email creates a timestamp. If the incident involves assault or a crime: you may have independent obligations to report regardless of organizational direction. After the event: report to any professional bodies or associations that oversee the event or the Harm Reduction organization. RAINN (rainn.org) has guidance for witnesses and bystanders.",
      "move": "Your safeguarding responsibilities include reporting harm you witness — that is not a breach of confidentiality.",
@@ -5960,7 +5965,7 @@
       "The framing has shifted from \"what happened\" to \"what did you do\" in ways that assign blame downward"
      ],
      "happening": "Front-line Harm Reduction volunteers are the easiest people to blame for systemic failures because they were physically present when things went wrong. Organizations that do not want to examine their structural failures direct accountability toward the people least able to defend themselves. You are not required to accept responsibility for conditions you did not create. Document your own account of events immediately after any incident. Do not sign anything without reading it carefully against your own record.",
-     "check": "C.A.R.E. — \"A\" CHECK: \"Have I documented my own account of events immediately — before organizational framing...",
+     "check": "C.A.R.E. — “A” CHECK: “Have I documented my own account of events immediately — before organizational framing has a chance to reshape it?” — you’re responsible for your actions, not for the systemic conditions you were placed in.",
      "darkTitle": "Protecting Yourself After An Incident",
      "dark": "Immediately after any significant incident: (1) Write your own detailed account — what you observed, what you did, what resources and training you had, what the conditions were. Include timestamps. (2) Do not sign organizational documentation before comparing it to your own account. (3) If asked to participate in a formal review: you have the right to have someone present with you. (4) If you feel you are being scapegoated for systemic failures: contact a lawyer or advocate before signing anything. (5) Keep copies of all documentation you receive from the organization. Your account is the evidence that protects you.",
      "move": "Write your account immediately. Do not sign anything before reading it against your own record.",
@@ -5981,7 +5986,7 @@
       "Weekly or post-event check-in with a mental health professional if this is regular work for you"
      ],
      "happening": "Secondary traumatic stress accumulates when difficult experiences are not processed. The processing does not have to be elaborate — naming what was hard, in plain language, to someone who was also there or who understands the context, is often sufficient for immediate decompression. It is the naming that matters. What stays unnamed stays active. Harm Reduction volunteers who debrief consistently report lower rates of burnout and secondary trauma than those who do not.",
-     "check": "C.A.R.E. — \"E\" CHECK: \"Have I actually stopped and named what I am carrying from this shift — or am I pushing...",
+     "check": "C.A.R.E. — “E” CHECK: “Have I actually stopped and named what I am carrying from this shift — or am I just pushing it down to deal with later?” — what you name, you can put down. What you don’t, you carry.",
      "darkTitle": "What Undebriefed Weekends Turn Into",
      "dark": "The people who leave harm reduction rarely leave because of one terrible night. They leave because of forty ordinary ones that were never processed, stacked up until the work started costing more than it gave. The documented pattern is specific: accumulated vicarious trauma turns into intrusive memory, then into sleep loss, then into the thing nobody in this field likes saying out loud, which is that a meaningful number of burned-out harm reduction workers end up using in ways they would flag instantly in a participant. You will be the last person to notice it in yourself, because your whole skill set is pointed outward. That is exactly why the debrief is scheduled rather than optional, and why it has to be with someone whose job is you — not the participant, not the org, not the friend who also worked the shift.",
      "move": "Name what was hard. Out loud. To someone. Before you leave the tent. That is the minimum.",
@@ -6177,7 +6182,7 @@
       "The understanding that how you respond right now defines your camp culture permanently"
      ],
      "happening": "Every camp leader will eventually face a situation where a trusted and integrated member has caused harm. The response to that situation defines the camp culture more than any other single event. Camps that protect long-standing members at the expense of the people they harmed build a culture where harm is tolerated when the person causing it is valuable enough. Camps that hold everyone to the same standard build a culture where people feel genuinely safe to report.",
-     "check": "L.E.A.D. — \"L\" CHECK: \"Am I responding to this in a way that protects the person who came to me — or the person...",
+     "check": "L.E.A.D. — “L” CHECK: “Am I responding to this in a way that protects the person who came to me — or the person the report is about?” — the standard you set when it’s hard is the only standard that actually matters.",
      "darkTitle": "Responding To Harm Reports In Your Camp",
      "dark": "When someone brings you a concern: (1) Believe them enough to take action, even if you cannot verify everything immediately. (2) Document what they told you in writing, with their knowledge and consent. (3) Separate the accused person from access to the reporting person immediately and without drama. (4) Consult with the event's safety or security team — this should not be handled entirely within the camp. (5) Do not share the reporter's identity with the accused person without the reporter's explicit consent. (6) Follow up with the reporter. (7) Make a decision about camp membership that reflects the seriousness of the report. There is no version where you do nothing and maintain the trust of your community.",
      "move": "Believe enough to act. Document. Separate. Consult. Follow up. Make a decision. In that order.",
@@ -6198,7 +6203,7 @@
       "Norms that make it harder rather than easier to raise concerns or exit the camp"
      ],
      "happening": "Every camp norm was created for a reason and serves a function. The question is whether the function it currently serves is the one it was created for — or whether it has evolved into a protection mechanism for the camp's reputation rather than its people. Privacy norms that prevent reporting, loyalty norms that suppress dissent, contribution norms that extract labor — all of these start somewhere reasonable and can drift somewhere harmful. Examining your norms honestly is camp leadership.",
-     "check": "L.E.A.D. — \"E\" CHECK: \"Do my camp's norms make it easier or harder for members to raise concerns and seek help...",
+     "check": "L.E.A.D. — “E” CHECK: “Do my camp’s norms make it easier or harder for members to raise concerns and seek help when something has gone wrong?” — the norms you build in calm times are the ones that show up in the hard ones.",
      "darkTitle": "Camp Norm Audit",
      "dark": "Take each of your camp's major norms and ask: (1) What was this norm created for? (2) Is it currently serving that purpose? (3) Who does this norm protect when there is conflict? (4) Does this norm make it easier or harder for harmed people to seek help? Specific norms to examine: confidentiality norms, loyalty norms, contribution expectations, seniority hierarchies, and any norms around how conflict is handled. If your honest audit reveals that a norm is primarily protecting the camp's reputation or the comfort of senior members at the expense of accountability — it needs to change.",
      "move": "Audit your camp norms honestly. Change the ones that protect the camp at the expense of its people.",
@@ -6240,7 +6245,7 @@
       "Your decisions as a camp lead are harder to push back on when members depend on you for basics"
      ],
      "happening": "Resource control creates leverage regardless of intent. When members depend on you for housing, festival access, or other basics, the power differential is real even if you never use it deliberately. People who need something from you will navigate that need carefully — which means raising concerns carefully, agreeing more often than they might otherwise, and staying in situations they might leave if they were independent. Acknowledging this dynamic is the beginning of mitigating it.",
-     "check": "L.E.A.D. — \"A\" CHECK: \"Do the members who depend most on what I provide feel the most or least free to push...",
+     "check": "L.E.A.D. — “A” CHECK: “Do the members who depend most on what I provide feel the most or least free to push back on me when something’s wrong?” — generosity that creates dependency isn’t generosity. It’s leverage that happens to be warm.",
      "darkTitle": "Managing Resource Dependency Ethically",
      "dark": "If you provide housing, access, or other resources to camp members: (1) Make explicit that their place in the camp and in the accommodation is not conditional on agreeing with your decisions. Say this out loud at the start of each season. (2) Create separate channels for concerns about camp decisions that do not go through you directly. (3) Be more careful about your behavior with members who depend on you, not less — the power imbalance means your actions land harder. (4) Never reference housing or access in conversations about camp disagreements or member behavior — even implicitly. (5) If someone wants to leave the camp, support that — the accommodation does not bind them.",
      "move": "Acknowledge the leverage your resources create and actively work against it rather than ignoring it.",
@@ -6261,7 +6266,7 @@
       "Deep loyalty to the camp is valued above members' individual wellbeing and judgment"
      ],
      "happening": "High-control group dynamics in camps develop gradually and are usually invisible from the inside. The characteristics — discouraging outside input, penalizing exit, equating questioning with disloyalty, valuing camp loyalty above individual judgment — serve a genuine function for the person running the camp: they reduce conflict and maintain cohesion. They also prevent the accountability and self-correction that healthy communities require. If several of these are present in your camp, it is worth examining honestly.",
-     "check": "L.E.A.D. — \"L\" CHECK: \"Can members of my camp leave freely, talk to outsiders freely, and question decisions freely...",
+     "check": "L.E.A.D. — “L” CHECK: “Can members of my camp leave freely, talk to outsiders freely, and question decisions freely, without a cost attached to any of it?” — a community that needs control to hold together isn’t a community. It’s a structure.",
      "darkTitle": "The Bite Model — A Self-Assessment Tool",
      "dark": "The BITE Model (Behavior, Information, Thought, Emotional control) is used to assess high-control groups. Applied to camps: Behavior control — are member behaviors controlled beyond what the camp function requires? Information control — is information about the camp restricted from outsiders? Thought control — is questioning the camp framed as a thought problem in the member? Emotional control — are members' emotions managed through guilt, shame, or fear of loss? Answering yes to any of these is worth examining. freedomofmind.com has resources on high-control group dynamics that apply to informal communities as well as formal organizations.",
      "move": "Examine your camp honestly against these criteria. Make changes where the examination reveals them.",
@@ -6303,7 +6308,7 @@
       "Makes decisions about camp membership based on behavior not on seniority or contribution"
      ],
      "happening": "Genuine camp leadership is a practice of consistent accountability — to your members, to the community, and to yourself. The camp leads who build the safest camps are not the ones who have the best rules. They are the ones who model what accountability looks like, who take the same risks with their own behavior that they ask their members to take, and who treat every person in the camp as someone whose wellbeing they are genuinely responsible for.",
-     "check": "L.E.A.D. — \"D\" CHECK: \"When I look at my camp honestly — am I the kind of leader I would want my members to...",
+     "check": "L.E.A.D. — “D” CHECK: “When I look at my camp honestly — am I the kind of leader I would want my members to describe honestly, if they were asked?” — the best camp lead isn’t the one who never gets it wrong. It’s the one who keeps working to get it more right.",
      "darkTitle": "The Ongoing Practice Of Accountable Leadership",
      "dark": "Ongoing practices for camp leaders: (1) Post-event honest debrief with at least one person who will tell you the truth. (2) Annual review of camp norms — are they still serving the people in the camp? (3) Regular check-ins with members specifically about how safe they feel in the camp. (4) Seek out critical feedback actively — not just welcome positive feedback. (5) When you get it wrong, say so and change. Out loud. To your members. (6) Invest in your own learning about group dynamics, safeguarding, and consent culture. The work of being a good camp lead is not finished when the event ends. It continues in how you build for the next one.",
      "move": "Do the ongoing work of accountable leadership. It is never finished and it is always worth it.",
@@ -6460,7 +6465,7 @@
       "The vendor cannot make an informed decision based on optimistic projections that serve your pitch"
      ],
      "happening": "Misrepresentation in vendor and artist pitches is widespread because the incentive structure rewards it — you get the fee and the performer, and the consequences arrive later and are diffuse. The vendor absorbs the loss. The artist absorbs the gap between what was promised and what was delivered. Your reputation absorbs it slowly. Accurate representation of what your event offers is not just ethical — it is how you build the relationships and reputation that sustain your events long-term.",
-     "check": "E.V.E.N.T. — \"V\" CHECK: \"Would I be comfortable if every vendor and artist I have worked with saw this pitch in...",
+     "check": "E.V.E.N.T. — “V” CHECK: “Would I be comfortable if every vendor and artist I have worked with saw this pitch in writing, side by side with what actually happened?” — the reputation you’re building is the accurate one, not the one in your pitch.",
      "darkTitle": "What Honest Representation Looks Like",
      "dark": "In your vendor and artist agreements: use attendance numbers from the equivalent prior event, clearly noted as historical. Specify booth placement as a location tier with a map, not a verbal description. List all fees including conditionals before collecting any payment. Include a refund policy that covers material misrepresentation. Make your production details — stage size, sound system, streaming arrangements — specific and accurate. An agreement that accurately represents your event is the foundation of a reputation that lasts. An agreement that oversells it is a debt you will pay in reputation and relationships.",
      "move": "Represent your event accurately in every agreement. Every time. That is the baseline.",
@@ -6502,7 +6507,7 @@
       "Concerns raised by staff should be documented and acted on within a defined timeframe"
      ],
      "happening": "Festival promoters who treat staff and volunteers as family while providing no operational clarity are using the emotional frame to avoid the practical obligations. Family framing does not substitute for written agreements. Community language does not provide food and rest. And a culture where concerns are raised but not acted on is a culture where the next concern does not get raised — until something goes seriously wrong.",
-     "check": "E.V.E.N.T. — \"N\" CHECK: \"Do my staff have what they need to do their jobs safely — and do they have a clear path...",
+     "check": "E.V.E.N.T. — “N” CHECK: “Do my staff have what they need to do their jobs safely — and do they have a clear path to raise a concern without it costing them?” — your event runs on other people’s labor. You owe them clarity, safety, and a path that actually works.",
      "darkTitle": "Staff And Volunteer Minimum Standards",
      "dark": "For every event: (1) Written volunteer agreements specifying hours, accommodation, meals, and exit terms before the event. (2) Pre-event briefing covering reporting process, code words, daily check-in expectations. (3) Designated staff welfare role — someone whose job includes checking that staff are okay. (4) Documented process for raising concerns about other staff members that does not require going to their direct supervisor. (5) Post-event debrief for staff that includes honest assessment of what could be improved. These are not extras. They are the baseline of running an event with people in it.",
      "move": "Provide clear written terms, safe conditions, and a functioning reporting process for every person who works your event.",
@@ -6544,7 +6549,7 @@
       "Social media content featuring artists used to promote future events without compensation"
      ],
      "happening": "The gap between what promoters legally own through standard contracts and what they ethically owe the artists who created the content is significant. Artists whose performances are recorded, distributed, and monetized are entitled to participate in that revenue. A recording rights clause buried in a booking confirmation is not the same as a negotiated agreement. The ethical standard is transparency about what you are doing with the content and fair participation for the people who created it.",
-     "check": "E.V.E.N.T. — \"V\" CHECK: \"Are the artists whose recordings I am using being compensated fairly for the commercial...",
+     "check": "E.V.E.N.T. — “V” CHECK: “Are the artists whose recordings I am using being compensated fairly for the commercial use I am putting that footage to?” — the content that builds your brand was created by artists. Treat their contribution accordingly.",
      "darkTitle": "Ethical Recording Rights Practice",
      "dark": "Ethical practice for event recordings: (1) Be explicit in booking agreements about what recording will happen and for what purpose. (2) Distinguish between archival recording (no commercial use) and commercial recording (streaming, licensing, promotion) — these are different agreements. (3) Share streaming and licensing revenue with performing artists — this is both the legal standard in many contexts and the ethical one in all contexts. (4) Use artist images and recordings for event promotion only with their explicit agreement. (5) When in doubt: ask before you use. The conversation is easier before the content is published than after.",
      "move": "Be transparent about what you record, how you use it, and share revenue with the people who created it.",
@@ -6565,7 +6570,7 @@
       "Post-event financial reconciliation completed and communicated within agreed timelines"
      ],
      "happening": "Ethical event production is not a higher bar than most promoters can reach. It is a set of consistent practices that most promoters know they should follow and some do not. The ones who do build reputations that compound over time — artists want to play their events, vendors want placement at their markets, staff want to work their shows. The ones who do not build reputations that also compound — and the circuit has a very long memory.",
-     "check": "E.V.E.N.T. — \"T\" CHECK: \"Would the artists, vendors, and staff who worked my last event describe it the way I would...",
+     "check": "E.V.E.N.T. — “T” CHECK: “Would the artists, vendors, and staff who worked my last event describe it the way I just did?” — ethical production isn’t complicated. It’s a set of choices made consistently. Make them.",
      "darkTitle": "The Ethical Promoter Checklist",
      "dark": "Before every event: (1) All agreements in writing and signed before any performance or payment. (2) Attendance and placement representations accurate and documented. (3) All fees including conditionals listed in written agreements. (4) Staff and volunteer agreements specify hours, accommodation, meals, and reporting process. (5) Safety infrastructure plan in place and staffed. (6) Consent policy in writing with enforcement process named. After every event: (7) Financial reconciliation within agreed timeline. (8) Feedback collected from artists, vendors, and staff. (9) Post-event safety review including analysis of any incidents and their handling. (10) Changes made based on what the review reveals.",
      "move": "Run the checklist before and after every event. The reputation you build is the one that is accurate.",
@@ -6765,7 +6770,7 @@
       "Foot care matters — blisters become infections, infections at festivals are hard to treat"
      ],
      "happening": "Sleep deprivation is one of the most consistently underestimated risk factors at festivals. After 36 hours without sleep, cognitive impairment is equivalent to a 0.10 blood alcohol level. After 48 hours it is significantly higher. Combined with substances, heat, and social pressure this creates a state where the very judgment systems you need to make good decisions about your own safety are significantly compromised. Rest is not weakness. Rest is strategy.",
-     "check": "S.A.F.E. — \"A\" CHECK: \"Am I making decisions right now with my full judgment — or with a significantly depleted...",
+     "check": "S.A.F.E. — “A” CHECK: “Am I making decisions right now with my full judgment — or with a significantly depleted version of it?” — rest isn’t missing the festival. It’s what makes you available to actually be in it.",
      "darkTitle": "The Case For Actually Sleeping",
      "dark": "You will remember more of your festival if you sleep. Genuine experiences integrate better when your brain is functioning. You will be more present in conversations, more able to receive music, more connected to the people around you. The FOMO of missing a few hours by sleeping is almost always outweighed by the quality of the hours you are present for. Plan for at least one solid sleep block in a 72-hour event. Bring earplugs and an eye mask. Tell your campmates you are sleeping and not to disturb you. This is not weakness. This is how you have the festival you actually came for.",
      "move": "Eat something real. Sleep when you can. Your experience of the festival depends on your body being functional.",
@@ -6786,7 +6791,7 @@
       "Wait before redosing — onset times vary and stacking doses before you feel the first one is how people get in trouble"
      ],
      "happening": "The recreational drug supply has been contaminated with fentanyl and fentanyl analogues at a scale that makes testing not optional — it is a basic safety step equivalent to checking that your tent stakes are in the ground before it rains.",
-     "check": "S.A.F.E. — \"A\"CHECK: \"Have I tested this — and does everyone in my group know what to do if something goes...",
+     "check": "S.A.F.E. — “A” CHECK: “Have I tested this — and does everyone in my group know what to do if something goes wrong?” — two minutes of testing is the difference between a good night and a medical emergency.",
      "darkTitle": "Every Time Means The Batch You Already Trust",
      "dark": "Fentanyl and its analogues have turned up in pressed pills sold as MDMA, in cocaine, in ketamine, in counterfeit prescription tablets — substances where nobody in the chain intended an opioid to be present at all. Contamination is not evenly mixed: two pills pressed in the same batch can differ, so a strip that came back clean on Friday’s half says nothing about Saturday’s. This is the specific reason “it’s from a friend” is not a safety measure — your friend is not the chemist, he is another customer, and he is testing nothing either. Two strips and a reagent kit cost less than a night of parking. Carry naloxone even if you never touch an opioid on purpose, because the overdose you reverse will most likely belong to somebody who also thought they never had.",
      "move": "Test your stuff. Carry Narcan. Know the overdose signs. These three things save lives.",
@@ -6807,7 +6812,7 @@
       "Any substance plus another substance from an unknown or unverified source: compounded unknown risk"
      ],
      "happening": "Polydrug use — using more than one substance — is extremely common at festivals and the risk profile of combinations is not intuitively obvious. Substances that seem to balance each other out are often actually masking warning signals from your body. The feeling of being okay is not reliable information when two substances are creating competing effects. The Harm Reduction tent has staff trained in polydrug risk assessment. When in doubt — go there before you take something else.",
-     "check": "S.A.F.E. — \"A\" CHECK: \"Do I know what I have already taken and do I actually know what I am being offered right...",
+     "check": "S.A.F.E. — “A” CHECK: “Do I know what I have already taken and do I actually know what I am being offered right now, specifically?” — the combination is where most of the risk lives. Know what you’re mixing before you mix it.",
      "darkTitle": "Harm Reduction Tent — Use Them For This",
      "dark": "Harm Reduction tents at major festivals have staff trained in substance interaction risk. You can walk in and say \"I took X a few hours ago and someone is offering me Y — is that a problem?\" and receive factual, non-judgmental information. This is confidential. They are not the police. They are not going to take away your substances or report you. They are there specifically to help you make safer choices. TripSit (tripsit.me) also has a free online drug combination checker that works on mobile. Check before you mix.",
      "move": "Know what you have taken before taking anything else. When unsure — ask the Harm Reduction tent.",
@@ -6891,7 +6896,7 @@
       "Note the nearest water stations and shade structures to all three locations"
      ],
      "happening": "The gap between knowing where help is and not knowing where help is is the difference between a situation that gets addressed quickly and one that escalates because nobody knows what to do or where to go. In a medical emergency at a festival, every minute matters. Pre-mapping your resources is the preparation that costs nothing and is worth everything.",
-     "check": "S.A.F.E. — \"F\" CHECK: \"Have I physically located the medical tent, Harm Reduction tent, and Ranger station with my...",
+     "check": "S.A.F.E. — “F” CHECK: “Have I physically located the medical tent, Harm Reduction tent, and Ranger station with my own feet, not just on the map?” — knowing where help is before you need it is the preparation everything else builds on.",
      "darkTitle": "The Five-Minute Group Orientation",
      "dark": "Before your first night — as a group: (1) Walk to the medical tent together. Note the route and a visual landmark nearby. (2) Walk to the Harm Reduction tent. Note the route. (3) Walk to the Ranger station. Note the route. (4) Identify the nearest water station to your camp. (5) Choose a physical meeting spot for if you get separated — not a GPS location, a physical landmark. \"The big wooden arch at the east entrance.\" (6) Set a daily check-in time. \"We touch base at 2pm every day no matter what.\" This is ten minutes that changes the whole weekend.",
      "move": "Do the five-minute group orientation before your first night. Every member of your group. Together.",
@@ -6912,7 +6917,7 @@
       "Check the medical tent and Harm Reduction tent before assuming the worst — she may already be safe there"
      ],
      "happening": "There is no required waiting period before reporting a missing person at a festival. The idea that you must wait 24 hours is a myth and in a festival context is actively dangerous. Report as soon as you are concerned. Festival security, Rangers, and medical teams all have protocols for missing persons. The earlier you report, the better the resources available, and the better the outcomes. Your concern is sufficient reason to make a report.",
-     "check": "S.A.F.E. — \"E\" CHECK: \"Have I already checked medical and Harm Reduction tents — and do I have her photo on my...",
+     "check": "S.A.F.E. — “E” CHECK: “Have I already checked medical and Harm Reduction tents — and do I have her photo on my phone, ready to show people?” — there’s no minimum wait time to report someone missing. Report when you’re concerned, not after.",
      "darkTitle": "Missing Person Information To Have Ready",
      "dark": "When you report: (1) Full name and age. (2) Physical description including height, approximate weight, hair color. (3) What she was wearing the last time you saw her — be specific including shoes. (4) Last known location and time. (5) Phone number and whether it is going to voicemail. (6) Her relationship to alcohol and substances this weekend and any medical conditions. (7) A clear recent photo from your phone. Write some of this down when you last see members of your group each day — not when they are missing and you are panicking.",
      "move": "Check medical and Harm Reduction tents first. If not found — report to Rangers immediately with photo and description.",
@@ -6933,7 +6938,7 @@
       "Physical symptoms accompanying the psychological distress: rapid breathing, shaking, sweating"
      ],
      "happening": "Difficult psychedelic or substance-induced experiences are almost always temporary and almost always respond well to calm, quiet, grounded support. The worst things you can do: try to talk them out of their experience, argue with them about what is real, leave them alone, or take them to a loud and stimulating environment. The Zendo Project specializes specifically in difficult psychedelic experience support and has trained staff at many major festivals. Get them there if available.",
-     "check": "S.A.F.E. — \"F\" CHECK: \"Do I know where the Zendo or Harm Reduction tent is — and can I get us both there calmly...",
+     "check": "S.A.F.E. — “F” CHECK: “Do I know where the Zendo or Harm Reduction tent is — and can I get us both there calmly, without rushing them?” — a calm presence is the most powerful intervention there is, and you already have it.",
      "darkTitle": "What Actually Helps In A Difficult Experience",
      "dark": "What helps: move to a quieter, lower-stimulation space. Sit with them on the ground. Speak calmly and slowly. Remind them where they are and that they are physically safe. \"You took something, it will pass, I am right here, you are safe.\" Do not try to fix or solve the experience — just be a calm presence in it. What does not help: arguing about what is real, leaving them alone, taking them to a loud or crowded space, giving them more substances, or panicking yourself. Zendo Project (zendoproject.org): specifically trained for this. Get them there if you can.",
      "move": "Get to a quiet space. Sit down together. Stay calm. Get to Harm Reduction or Zendo if it is not resolving.",
@@ -6975,7 +6980,7 @@
       "Crisis Text Line: text HOME to 741741 if talking feels too hard right now"
      ],
      "happening": "Post-incident processing is hard enough without the additional weight of deciding whether your experience is bad enough to matter. It is. Whatever level of severity it sits at — it matters. You do not have to be okay by the time you load the car. You do not have to have it figured out before you talk to someone. Give yourself the first 48-72 hours for basic recovery — sleep, food, low stimulation — before trying to process fully. Then talk to someone you trust.",
-     "check": "S.A.F.E. — \"E\" CHECK: \"What does my body actually need right now — not what does the situation require me to...",
+     "check": "S.A.F.E. — “E” CHECK: “What does my body actually need right now — not what does the situation require me to perform?” — you don’t have to be okay yet. Support exists, and you deserve it.",
      "darkTitle": "The Week After The Festival",
      "dark": "Post-festival blues are real — the crash from social intensity, sleep debt, and substances can feel significant and last several days. What helps: sleep, real food, gentle movement, low stimulation, reconnecting with people you trust. What makes it harder: immediately jumping back into intensity, isolating, making major decisions in the first week. If you are carrying something heavy from the weekend: give yourself 3-5 days before trying to process it fully. If the weight does not lift after a week or two — reach out to a therapist. Psychology Today (psychologytoday.com) has a therapist finder by specialty including trauma.",
      "move": "Eat. Sleep. Tell one trusted person. Reach out to resources if you need more. You deserve support.",
@@ -6996,7 +7001,7 @@
       "Agree on a physical meeting spot that does not require phone signal to find"
      ],
      "happening": "The buddy system works because it creates accountability before you need it — not after something has already gone wrong. The check-in time means that if something is wrong you know within hours, not days. The code word means you can signal for help in any situation without making a scene. The meeting spot means you can reconnect without phone signal. These are not elaborate safety measures. They are ten minutes of planning that changes the entire risk profile of your weekend.",
-     "check": "S.A.F.E. — \"E\" CHECK: \"Does everyone in my group have a buddy and do we all have the code word and the...",
+     "check": "S.A.F.E. — “E” CHECK: “Does everyone in my group have a buddy, and do we all have the code word and the meeting point, agreed before we split up?” — ten minutes spent on this before the festival is the preparation that matters most.",
      "darkTitle": "The Full Buddy System Checklist",
      "dark": "Before gates open: (1) Every person has a named buddy. (2) Daily check-in time agreed — specific time, specific expected response. (3) Code word chosen — something normal-sounding that means \"come get me now.\" (4) Physical meeting spot chosen — a Specific landmark, not a GPS point. (5) One person not at the festival has the names and phone numbers of everyone in the group. (6) Everyone writes two emergency numbers in pen on their arm — their buddy and one person at home. (7) Offline festival map downloaded on at least two phones. Ten minutes. Do it before the music starts.",
      "move": "Do the buddy system setup with your whole group before gates open. All of it. Ten minutes.",
@@ -7341,5 +7346,5 @@
    ]
   }
  ],
- "version": "v9"
+ "version": "v10"
 }

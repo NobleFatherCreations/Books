@@ -39,7 +39,7 @@ Here are the signs.
 
 Here's the mechanism underneath it. The festival and music industry has a specific power structure that predatory promoters exploit: artists need bookings, bookings require promoter relationships, and challenging a promoter feels like risking your entire access to the scene. The "building something together" frame removes professional clarity while the promoter retains all the structural power. A legitimate promoter makes money when you get paid fairly.
 
-Here's your check. The S check: “Is there a signed contract — or just a verbal promise and a sense that questioning it risks...
+Here's your check. The S check: “Is there a signed contract — or just a verbal promise and a sense that questioning it risks the whole opportunity?” — that feeling is the leverage working exactly as intended.
 
 Here's the part that's hard to hear. The Minimum Performance Contract. Every booking needs in writing: performance fee, payment timeline (50% deposit before, 50% at show is standard), cancellation terms, accommodation and travel responsibilities, set time and length, technical rider requirements, who owns live recordings or footage, and promotional obligations on both sides. American Federation of Musicians (afm.org) has standard contract templates. Music attorneys offer one-time consultations. A legitimate promoter will sign. The ones who won't are giving you your answer.
 
@@ -95,7 +95,7 @@ Here's what to watch for.
 
 Here's what's actually happening. Bait and switch bookings work by getting your public commitment before you have the details in writing. Once you've announced a show to your audience, backing out has real social and professional cost — which the promoter counts on. The protection is simple: nothing goes on your social media until you have the booking confirmation in writing, with all material details (stage, set time, date, fee) confirmed. No exceptions.
 
-Run the check. The S check: “Have I confirmed every material detail of this booking in writing before I announce...
+Run the check. The S check: “Have I confirmed every material detail of this booking in writing before I announce it to my own audience?” — once you’ve announced it, the leverage in the negotiation is gone, and it’s gone in their favor.
 
 Here's the dark reality. Announce Only After Written Confirmation. The sequence for any festival booking: (1) Verbal offer received. (2) Written confirmation requested — stage, set time, date, fee, production details. (3) Contract signed. (4) Deposit received. (5) Announcement made. Skipping any of these steps removes your leverage. Promoters who push you to announce before paperwork is signed are using your audience as collateral. Your fans are excited to see you — that excitement belongs to you, not to a promoter who hasn't put anything in writing yet.
 
@@ -151,7 +151,7 @@ Watch for these.
 
 Here's what's really going on. Parasocial relationships — where a fan experiences genuine emotional intimacy with an artist who doesn't know them — are a normal feature of music fandom. They become dangerous when the fan can't hold the asymmetry and begins operating as though the relationship is mutual. The music industry often fails artists here by treating obvious stalking as enthusiasm. Your discomfort is data. Your body's signal about someone is data.
 
-Ask yourself this. The D check: “Have I documented this person's behavior with dates, locations, and screenshots — sol...
+Ask yourself this. The D check: “Have I documented this person’s behavior with dates, locations, and screenshots — solely so I have a record if this escalates?” — a fan’s dedication is not a reason to skip documenting once it stops feeling safe.
 
 Here's what's underneath all of it. Documenting And Reporting Stalking. Documentation: screenshot every message, note dates and locations of every appearance, keep a written log. When to report: when they appear at non-public locations, when they attempt physical contact you haven't invited, when communication escalates after you stop responding, when they contact people in your personal life. Report to: venue security (who can issue trespass notices), local police (a report creates a record even if no immediate action), Stalking Prevention Awareness and Resource Center (stalkingawareness.org). Report early rather than late.
 
@@ -207,7 +207,7 @@ Here are the signs.
 
 Here's the mechanism underneath it. Live recording rights are one of the most commonly overlooked and most valuable assets in a musician's career. Festival organizers routinely include sweeping rights grabs in standard booking paperwork. Your performance is a copyrightable work. Your likeness in those recordings is yours. A simple rider clause reserves your recording rights or requires negotiation. Without it, you're playing the show and handing them a product.
 
-Here's your check. The O check: “Who owns the recordings being made of me tonight — and is that in writing before I go...
+Here's your check. The O check: “Who owns the recordings being made of me tonight — and is that in writing before I go on stage?” — know who owns the product before you create it, not after.
 
 Here's the part that's hard to hear. Recording Rights Rider Language. Add to your standard rider: "Artist retains all rights to audio and video recordings of the performance. Any recording by Presenter requires written agreement specifying format, distribution, compensation, and Artist approval rights prior to the event." For streaming: separate sync licensing fees apply. ASCAP, BMI, and SESAC collect performance royalties — make sure your set is registered. SoundExchange collects digital performance royalties. If a festival has a streaming deal, your performance may generate royalties you're entitled to but not receiving.
 
@@ -269,7 +269,7 @@ Here's what to watch for.
 
 Here's what's actually happening. Cash flow manipulation benefits the promoter while your leverage decreases once you've performed. That's why deposits exist. Get them before you travel. Count your own merch. Send a payment reminder email with terms on Day 1 after the show. Paper trail everything. Most non-payers rely on artists being too tired or too non-confrontational to pursue it.
 
-Run the check. The D check: “Do I have documentation of everything agreed financially — so I have something to...
+Run the check. The D check: “Do I have documentation of everything agreed financially — so I have something to point to when the money doesn’t show up on time?” — you performed. You get paid what was agreed. This is completely enforceable.
 
 Here's the dark reality. When They Don't Pay — Your Options. Step 1: written demand email with contract attached, specific payment deadline (7-14 days). Step 2: small claims court handles disputes up to $10,000-$25,000 depending on state — filing fee usually under $100. Step 3: music attorney demand letter ($150-300) frequently resolves it. Step 4: American Federation of Musicians (afm.org) has a Claims & Collections department. Step 5: publicizing non-payment in musician communities (Indie on the Move, local music forums) is legal and effective. Document everything before going public.
 
@@ -297,7 +297,7 @@ Here are the signs.
 
 Here's the mechanism underneath it. Reputation threats work because the music and festival circuit is small, relationship-driven, and operates heavily on word of mouth. The goal is to make the cost of pushing back higher than the cost of compliance. It often works. The counter is: document everything before any dispute escalates, build independent relationships across the industry, and proactively communicate your version of events to people who matter to you. Being blacklisted by predatory promoters is often a feature, not a bug.
 
-Here's your check. The D check: “Have I documented the facts of this situation so I have something to point to if my...
+Here's your check. The D check: “Have I documented the facts of this situation so I have something to point to if my version of events gets challenged later?” — the people worth working with will believe the documentation over the rumor.
 
 Here's the part that's hard to hear. When Your Reputation Is Being Attacked. (1) Document: exactly what is being said, where, by whom, and when. (2) Communicate directly with your most important professional relationships — not to spin but to share facts. "I wanted to reach out directly because I understand there may be things being said about me — here's what actually happened." (3) Let your work speak. Predatory promoters lose credibility over time as more artists share experiences. (4) Musician-specific reputation defense: being known as someone who stands up for fair pay makes you MORE attractive to legitimate promoters.
 
@@ -387,7 +387,7 @@ Here are the signs.
 
 Here's the mechanism underneath it. A comprehensive rider serves two functions: it communicates your professional requirements AND it creates a paper trail of what was agreed. When things don't match the rider at the venue, you have documentation of what was promised. When recording happens without your agreement, you have documentation of what your rights are. The rider is not a diva document — it's a professional standard that protects both parties.
 
-Here's your check. The S check: “Does my rider include recording rights language, payment terms, and all my technical...
+Here's your check. The S check: “Does my rider include recording rights language, payment terms, and all my technical requirements, spelled out in writing?” — the rider is not arrogance. It’s professionalism, and it protects both sides of the booking.
 
 Here's the part that's hard to hear. What A Complete Rider Covers. Technical rider: stage plot, input list, monitoring requirements, backline requirements, load-in/soundcheck/show times. Business rider: fee and payment terms, deposit amount and deadline, cancellation policy, accommodation and transportation specs, press photo and bio requirements. Rights rider: recording rights clause (you retain all), broadcast rights, how your name can be used in promotion. Hospitality rider: green room requirements, food and beverage, guest list. Template riders are available from AFM (afm.org) and from music attorney blogs. Customize and use yours consistently.
 
@@ -449,7 +449,7 @@ Here's what to watch for.
 
 Here's what's actually happening. Artists on tour are subject to the same drug laws as everyone else regardless of backstage location. Green room status does not create legal protection. The touring lifestyle creates normalization of substance use that can gradually erode your assessment of what's risky. Know what you're taking (test it), Know your legal exposure, and be aware that the people around you on tour have their own legal exposure to consider — which may or may not align with your interests.
 
-Run the check. The U check: “Do I understand who is actually in this space and what the legal implications of this...
+Run the check. The U check: “Do I understand who is actually in this space and what the legal implications of this transaction actually are?” — backstage is not a legal gray zone just because it feels like one.
 
 Here's the dark reality. If You're Detained At A Festival Or Venue. Know this before you need it: (1) You have the right to remain silent — use it. "I'd like to speak with a lawyer." (2) Your manager or label does not automatically have the right to make legal decisions for you — that's your call. (3) Your tour rider and performance contract are your documents — you have the right to a copy of any contract you've signed. (4) Know the National Lawyers Guild (nlg.org) — they have observer programs at many major events. (5) Good Samaritan laws protect people seeking overdose help in most states — always call for medical help in an overdose situation.
 
@@ -537,7 +537,7 @@ Here's what to watch for.
 
 Here's what's actually happening. Touring mental health is a serious and underaddressed issue in the music industry. The combination of sleep disruption, dietary inconsistency, emotional performance demands, social isolation, and substance exposure creates conditions that are genuinely hard on mental health — regardless of how much you love the music. Acknowledging this is not weakness. It is professional self-care. The musicians who sustain long careers are the ones who take their mental health as seriously as their technical craft.
 
-Run the check. The N check: “What does my actual wellbeing need right now — not what does the tour schedule need...
+Run the check. The N check: “What does my actual wellbeing need right now — not what does the tour schedule need from me?” — those are two different questions, and only one of them is actually yours to answer.
 
 Here's the dark reality. Mental Health Resources For Musicians. MusiCares (grammy.com/musicares): free mental health referrals and financial assistance for music professionals. Sweet Relief Musicians Fund (sweetrelief.org): financial assistance for touring musicians in crisis. Musicians Foundation (musiciansfoundation.org): emergency assistance grants. Backline (backline.care): free mental health and wellness resources specifically for music industry professionals. 988 Suicide and Crisis Lifeline: call or text 988, 24/7. The music industry is increasingly building mental health infrastructure — use it. Reaching out is not a career-ending move. Burning out silently is.
 
