@@ -560,8 +560,13 @@
         "found": false,
         "checkedAt": "2026-08-10"
       },
-      "version": "v7",
+      "version": "v8",
       "changelog": [
+        {
+          "date": "2026-09-17",
+          "version": "v8",
+          "summary": "Major expansion: 12 guides -> 21, 149 scenarios -> 207, ~67,100 words -> ~99,000. Nine new guides close every audience gap found by auditing the Bible's own mission statement, which names eight groups the book is for and had no guide for three of them (flow artists, healers, builders), and promises coverage 'regardless of what your relationship to substances is' with no sober guide. A.C.C.E.S.S. (disabled and neurodivergent -- a keyword scan of all 149 original scenarios returned literally zero hits), S.O.B.E.R., R.O.O.T.S. (BIPOC attendees, parallel to P.R.I.D.E.), K.I.N. (family camping), F.L.O.W., H.E.A.L. (the 'false shaman' is the mission's own headline predator and that audience had no guide), L.E.N.S. (photographers/media), B.U.I.L.D., and H.O.M.E. (the only guide whose reader is not at the festival). Plus 4 gap-fill scenarios for guides whose own outline promised a section no scenario delivered. Repairs: 8 corrupted check lines rendering 'O.U.N.D.' and 'R.K.E.T.', 2 checks citing letters absent from their acronym, 22 blank clinical labels, 6 missing Dark Reality blocks, a duplicate hook inside S.A.F.E., and the hardcoded 'v6' badge plus 'Section N of 12'/'Twelve Guides' literals, all now derived from the data. First copyright notice and author metadata. New tooling: festie-check.py (structural checker -- 49 errors on first run, 0 now), festie-build.py (content/festie-bible-data.json is now the single source of truth, verified byte-lossless), festie-add-guide.py, festie-add-scenario.py, festie-accents.py (places each new guide's accent at the widest unused hue gap), festie-derive-counts.py. Verified in Chromium at 375px and 1440px and under reduced motion: 21 guide cards, all 9 new guides and their first cards rendering with distinct accents, clinical chips and Dark Reality blocks, no page errors, no horizontal overflow."
+        },
         {
           "date": "2026-09-01",
           "version": "v7",

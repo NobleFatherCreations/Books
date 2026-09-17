@@ -147,6 +147,31 @@ def main():
             findings["dupe"].append(("INFO", f"hook '{hook}' is shared across guides "
                                              f"(by design): {', '.join(where)}"))
 
+    # --- homoglyphs / stray scripts -------------------------------------
+    # A Cyrillic capital De once slipped into an English check name from a
+    # keyboard switch and read as a normal D. Flag any character outside the
+    # Latin/punctuation ranges the book actually uses.
+    ALLOWED = set(
+        "\u2018\u2019\u201c\u201d\u2013\u2014\u2026\u00a0\u00b7\u2192\u2190\u00a9\u00ae\u2122"
+        "\u00e9\u00e8\u00ea\u00eb\u00e1\u00e0\u00e2\u00e4\u00ed\u00ef\u00f3\u00f6\u00f4"
+        "\u00fa\u00fc\u00f1\u00e7\u00c9\u00c8\u00c1\u00d6\u00dc\u00d1\u00c7\u00e5\u00f8"
+        "\u00b0\u00bd\u00bc\u00be\u00ab\u00bb\u2032\u2033"
+    )
+    def scan(text, where):
+        for ch in set(text):
+            o = ord(ch)
+            if o < 128 or ch in ALLOWED:
+                continue
+            if 0x1F000 <= o <= 0x1FAFF or 0x2600 <= o <= 0x27BF or o in (0xFE0F, 0x200D):
+                continue  # emoji, which the guides use deliberately
+            err("homoglyph", f"{where}: unexpected character {ch!r} (U+{o:04X})")
+    for g in d["guides"]:
+        scan(g["acronym"] + g["role"] + g["edition"] + g["intro"], g["acronym"])
+        for c in g["checks"]:
+            scan(c["letter"] + c["name"], f"{g['acronym']} check {c['letter']}")
+        for n, sc in enumerate(g["scenarios"], 1):
+            scan(sc["hook"] + sc["archetype"] + sc["clinical"], f"{g['acronym']}#{n}")
+
     # --- version reconciliation -----------------------------------------
     inline, page_src = load_inline(PAGE)
     if a.inline and json.dumps(inline, sort_keys=True) != json.dumps(d, sort_keys=True):
@@ -178,7 +203,8 @@ def main():
     # derives them now; the static chrome cannot, so it is asserted here.
     n_guides = len(d["guides"])
     words = {12: "twelve", 13: "thirteen", 14: "fourteen", 15: "fifteen", 16: "sixteen",
-             17: "seventeen", 18: "eighteen", 19: "nineteen", 20: "twenty"}
+             17: "seventeen", 18: "eighteen", 19: "nineteen", 20: "twenty",
+             21: "twenty-one", 22: "twenty-two", 23: "twenty-three", 24: "twenty-four", 25: "twenty-five", 26: "twenty-six", 27: "twenty-seven", 28: "twenty-eight", 29: "twenty-nine", 30: "thirty"}
     word = words.get(n_guides, str(n_guides))
     if re.search(r"Section '\+g\.sectionOf\+' of \d+", page_src):
         err("counts", "'Section N of <number>' is hardcoded in the render path")

@@ -1,7 +1,12 @@
 {
  "mission": "These guides were not built to make you paranoid. They were not built to make you suspicious of every warm smile, every gifted kandi, every \"I felt a connection with you\" by the fire. They were not built to turn the most beautifully open community on earth into a place where nobody trusts anyone. They were built because we love this world too much to let predators move through it unchecked. The festival community — ravers, burners, festies, flow artists, healers, vendors, musicians, builders — has created something genuinely rare on this planet: spaces of radical acceptance, genuine connection, harm reduction without judgment, and art made purely for the experience of art. Spaces where strangers become family in 72 hours. Spaces where the default world falls away and something more real takes its place. Predators know this. They rely on it. They specifically seek out the open heart. The patterns in these guides are not hypothetical. They happen at every festival, every season, across every demographic in the scene. The false shaman. The gifter with a ledger. The promoter who never pays. The camp that becomes a cage. The festival boyfriend who appears at gate. The love bomber who disappears after taking what they came for. Naming these patterns is not cynicism. It is the highest form of community care. You deserve to be fully open AND fully protected. These guides make that possible. Every person in the scene — regardless of how long you've been coming, what role you play, what your relationship to substances is, who you love, or where you came from — deserves to experience the magic without paying for it with your safety, your finances, your mental health, or your sense of reality. \"Know the pattern. Trust your body. Protect the magic.\" With love for the community and zero tolerance for those who exploit it, — Noble Father Creations",
- "updated": "2026-08-12",
+ "updated": "2026-09-17",
  "changelog": [
+  {
+   "version": "v8",
+   "date": "2026-09-17",
+   "summary": "Nine new guides, twenty-one in total, so that everybody in the festival world has one that is actually theirs: A.C.C.E.S.S. for disabled and neurodivergent attendees, S.O.B.E.R. for sober and in-recovery festiegoers, R.O.O.T.S. for attendees of colour, K.I.N. for family camping and parents, F.L.O.W. for flow artists and performers, H.E.A.L. for healers and practitioners, L.E.N.S. for photographers and media, B.U.I.L.D. for build crew and installation, and H.O.M.E., which is written to be handed to the person who stays behind and worries. Fifty-eight new scenarios. Also: four guides were advertising a section on their own contents page that they did not actually contain — those are written now. Twenty-eight cards had a missing label or a missing Dark Reality block and are complete. Eight check lines were showing a mangled acronym and two pointed at a letter their guide does not have. Added a copyright notice, which the book did not have anywhere, and fixed the version badge, which had been stuck on v6 since August."
+  },
   {
    "version": "v7",
    "date": "2026-09-01",
@@ -1193,6 +1198,564 @@
      "move": "Notice how people respond when you exercise independence. That's the most honest information you'll get about them.",
      "say": "\"I'm going to go wander for a bit — I'll find you later.\" Then notice what happens.",
      "truth": "Your real festival family will be just as glad to see you after you've been elsewhere. Watch for that."
+    },
+    {
+     "section": "CONTROL",
+     "hook": "LET ME SHOW YOU HOW THIS WORKS",
+     "archetype": "The Veteran Guide / Experience As A Leash",
+     "clinical": "Dependency Cultivation / Asymmetric Knowledge Control",
+     "who": "Been coming for nine years. Knows the site, the shortcuts, the sound guy, the good stage at 2am. Attached himself at the gate and has been indispensable ever since, which is not the same as being kind.",
+     "scene": "He has been right about everything. The queue, the water point, the set you'd have missed. He is genuinely good company and the weekend is better for him. On Saturday your friends want to go to the far stage and he says they'll get lost, that they don't know this place, that you should stay with him — and you notice you are about to agree with somebody you met on Thursday over people you have known for years.",
+     "tells": [
+      "Is the only route to information, and keeps it that way",
+      "Corrects or subtly mocks your own crew's plans",
+      "“You don't know this place yet” used to close down your decisions",
+      "Positions himself between you and the people you came with",
+      "Generous with access, but the access always runs through him",
+      "Reacts to you making independent plans as though it were a mistake he must fix"
+     ],
+     "happening": "Every first-timer needs a guide and most veterans are exactly that — the scene runs on people cheerfully handing down what they know. The pattern to watch for is not helpfulness, it is exclusivity: a guide who wants you competent teaches you the site, and a guide who wants you dependent stays the site. Asymmetric knowledge is the lever, and at your first festival the asymmetry is total, which is why this is a first-timer's chapter. The test is direction of travel: by Sunday, do you know more, or do you need him more?",
+     "check": "R.A.V.E. — “V” CHECK: “Could I get back to my own camp, right now, without him?” If the answer is no on day three, that is not experience. That is a leash.",
+     "darkTitle": "Competence Is What A Real Guide Gives You",
+     "dark": "The specific thing to watch is what he does with your own people. A veteran who separates a first-timer from the friends they arrived with — gently, reasonably, always with a practical justification — has done the single most consequential thing in this entire book, because every other protection you have is made of those people. It rarely looks like an instruction. It looks like a better plan, offered by someone who knows the site, at a moment when you cannot evaluate it. And it is worth knowing that the genuinely good veterans do the exact opposite: they teach you the map and then send you off with your mates, because the whole point was for you to be able to do this without them.",
+     "move": "Learn the site yourself on day one — walk it, pin your camp, find medical and the water points. Take the help and then go use it with your own crew. If someone objects to you being independent, that objection is the whole finding.",
+     "say": "Cheers, that's really useful — I'm going to go find the others and we'll try the far stage. Catch you later.",
+     "truth": "A real guide makes you not need them by Sunday. Watch which direction the weekend is travelling in."
+    }
+   ]
+  },
+  {
+   "slug": "sober",
+   "acronymClass": "fb-g-sober",
+   "role": "SOBER & IN RECOVERY",
+   "acronym": "S.O.B.E.R.",
+   "edition": "Sober & In Recovery Edition",
+   "sectionOf": 4,
+   "pages": 12,
+   "intro": "You do not need a substance to be here and you never did. This guide is about the people who need you to be the exception.",
+   "checks": [
+    {
+     "letter": "S",
+     "name": "Sober Is Not An Explanation You Owe",
+     "desc": "“I'm good” is a complete sentence. Anyone who requires the story behind it is asking for something other than information."
+    },
+    {
+     "letter": "O",
+     "name": "Open Containers Are Not Yours",
+     "desc": "You do not accept a drink you did not watch being made. This is the same rule everyone should follow, and for you the consequences are larger."
+    },
+    {
+     "letter": "B",
+     "name": "Being The Reliable One Has A Price",
+     "desc": "The sober friend gets handed everything. Care is a gift you choose, not a duty assigned to you because you are the one who remembers the night."
+    },
+    {
+     "letter": "E",
+     "name": "Exit Before The Turn",
+     "desc": "Every night has an hour where it changes. Yours is earlier than theirs. Leaving early is not missing out, it is how you get the next twenty years of this."
+    },
+    {
+     "letter": "R",
+     "name": "Relapse Is Not A Character Verdict",
+     "desc": "If it happens, it is a medical and practical event with a next step. It is not proof of anything about who you are — and shame is what keeps people from the next step."
+    }
+   ],
+   "outline": [
+    {
+     "key": "CAPTURE",
+     "desc": "The convincer, the spiked drink, sobriety as a target"
+    },
+    {
+     "key": "CONDITION",
+     "desc": "Being assigned the care role, the FOMO squeeze, the hour the night turns"
+    },
+    {
+     "key": "CONTROL",
+     "desc": "Engineered relapse as leverage, being outed, the shame spiral"
+    },
+    {
+     "key": "TOOLS",
+     "desc": "The festival sober plan, drink discipline, the people you find first"
+    },
+    {
+     "key": "COMMUNITY",
+     "desc": "Sober scene inside the scene — where it already exists and how to find it"
+    }
+   ],
+   "sentences": [
+    "“I'm good” is the whole sentence. There is no second half.",
+    "I pour it, I carry it, or I don't drink it.",
+    "I am not this group's designated adult unless I agreed to be.",
+    "I leave before the turn, and I am not apologizing for it.",
+    "If I slip, the next step is a phone call, not a verdict."
+   ],
+   "scenarios": [
+    {
+     "section": "CAPTURE",
+     "hook": "ONE WON'T HURT YOU",
+     "archetype": "The Convincer / Your Sobriety As Their Problem",
+     "clinical": "Peer Coercion / Social Proof Pressure",
+     "who": "Usually not malicious. Frequently drunk. Genuinely believes he is being welcoming, and is also, underneath it, uncomfortable that somebody nearby is not doing what he is doing. Persistent in a way he would not be about anything else.",
+     "scene": "Fourth time tonight. He is holding it out again, doing the thing where he waggles it slightly, saying he is not trying to pressure you but it is a festival, and asking — warmly, in front of five people — what actually happened, like your sobriety is a story he is owed and the story will settle whether your no is reasonable.",
+     "tells": [
+      "Asks more than once after a clear answer",
+      "Wants the reason, and frames your reason as the thing that would justify the no",
+      "Does it in front of an audience, so declining has a social cost",
+      "Reframes your boundary as a mood you could be talked out of",
+      "“Just this once”, “it's a festival”, “you're no fun like this”",
+      "Gets cold or wounded when the fourth no lands"
+     ],
+     "happening": "The pressure is usually about him rather than about you — a person drinking heavily next to someone who is not is being handed an unwelcome mirror, and the fastest way to put the mirror down is to get you to join. That does not make it harmless. Repeated asking is how boundaries get worn rather than broken, and the reason-demand is the actual move: once you are explaining, you are in a negotiation, and negotiations have outcomes. You are not in a negotiation. The most effective response is also the most boring one, which is the same three words, at the same volume, indefinitely, with no new information added.",
+     "check": "S.O.B.E.R. — “S” CHECK: “Am I explaining?” The moment you start supplying reasons, you have accepted that your no needs approving. It does not.",
+     "darkTitle": "Some Of Them Know Exactly What You Are",
+     "dark": "Most of the people doing this are just drunk. A few are not, and the difference shows in what they do with the information once you give it. Someone who learns you are in recovery and keeps pushing is not being socially clumsy — they have been told there is a specific cost to you and have decided it is worth it, and a person who wants somebody impaired has just found the one person here whose impairment would come with built-in silence. This is why the reason is worth keeping to yourself in a crowd. Not shame — information discipline. Your recovery is not a secret; it is also not something to hand to a stranger who has already ignored three noes.",
+     "move": "Repeat the same three words with no escalation and no new content, and move your body — turn a shoulder, go get water, join a different conversation. Broken-record plus physical exit ends it faster than any argument, because there is nothing to push against.",
+     "say": "I'm good. — I'm good. — I'm good, mate. Anyway, has anyone seen Priya?",
+     "truth": "Your no does not improve with an explanation attached. “I'm good” is already the strongest version of it."
+    },
+    {
+     "section": "CAPTURE",
+     "hook": "I MADE YOU ONE",
+     "archetype": "The Handed Drink / Why This Rule Is Not Paranoia",
+     "clinical": "Drink Spiking / Non-Consensual Administration",
+     "who": "Anyone holding a cup you did not watch being filled. Usually a friend being kind. Occasionally not — and the second category is why the rule has to apply to the first, because you cannot tell them apart by looking.",
+     "scene": "Someone hands you a lemonade. They are being nice, they know you do not drink, they went and got it specially. Refusing it feels ungrateful and slightly insulting and like you are accusing a friend of something. It also costs nothing, and the alternative — a drink you cannot vouch for, in a body with no tolerance, in front of people who will later say you seemed fine — costs a great deal.",
+     "tells": [
+      "A drink arriving already poured, that you did not see made",
+      "Insistence when you set it down or ask for a sealed one",
+      "Attention to whether and how much you are drinking it",
+      "“It's only soft” as an argument for skipping the rule",
+      "Someone treating the rule as an accusation rather than a policy",
+      "Any drink left unattended, including yours, including for a minute"
+     ],
+     "happening": "The most common drink adulterant is alcohol added to something someone believes is soft, which matters enormously here: for a sober or in-recovery person that is not a lesser version of spiking, it is the specific harm. Zero tolerance means a small dose lands hard, and the aftermath is not only physical — it can register internally as a relapse, with all the shame that carries, even though nothing about it was chosen. The rule is the same one this whole book gives everyone: you pour it, you watch it poured, or you carry it sealed. The difference is that for you the failure mode includes losing your sense of your own recovery.",
+     "check": "S.O.B.E.R. — “O” CHECK: “Did I watch this being made, or open it myself?” If not, it is not a drink, it is an unknown.",
+     "darkTitle": "When It Registers As A Relapse",
+     "dark": "Here is the part worth having read in advance, because it matters in the hour it happens: if you are dosed without knowing, that is not a relapse. It is an assault. Your body may not distinguish, your recovery community's language may not distinguish, and at four in the morning you will absolutely not distinguish — which is exactly why a person who wanted you compliant and quiet would choose this method. The shame does the silencing for them. Decide now, while it is hypothetical: if it happens, the first call is to somebody in your recovery network and the second is to medical, and neither of those calls is a confession. Say it out loud once so the sober version of you has already made the ruling.",
+     "move": "Carry your own, sealed, and open it yourself. Decline anything handed to you already poured, cheerfully and as a blanket policy rather than as a judgment of the person offering. If you set a drink down, it is finished.",
+     "say": "Ah, cheers — I've got a weird rule where I only drink stuff I've opened myself, nothing personal. I'll grab one with you though.",
+     "truth": "Being dosed is not drinking. Decide that now, in daylight, so you are not deciding it at four in the morning."
+    },
+    {
+     "section": "CONDITION",
+     "hook": "YOU'RE THE ONE WHO REMEMBERS",
+     "archetype": "The Designated Adult / Care Assigned Rather Than Chosen",
+     "clinical": "Role Assignment / Caregiver Burden",
+     "who": "The whole group, gradually and without a conversation. Because you are the one who is sober, you become the one with the keys, the map, the phone battery, the plan, the medical decisions, and everybody's emergency.",
+     "scene": "It is two in the morning and you are walking a stranger to medical because you are the only one upright enough to do it. This is the third night running. You came here for the music and you have seen about forty minutes of it, and somebody said earlier, as a compliment, that it is so good having you around because you always know what to do.",
+     "tells": [
+      "You hold the keys, the cash, the phones, the plan — by default, never by agreement",
+      "Your sobriety is described as a resource the group has",
+      "You have not seen the sets you came for",
+      "Other people's medical decisions keep landing on you",
+      "Nobody has asked whether you want this role",
+      "Resenting it makes you feel like a bad friend, so you do not mention it"
+     ],
+     "happening": "Care work assigned by default rather than agreement is a well-documented route to burnout, and the festival version is unusually total: you are the group's driver, medic, treasurer, and institutional memory simultaneously, at exactly the time of year you came to enjoy yourself. It matters more than it sounds. Resentment plus exhaustion plus not having had any of the thing you came for is a genuinely recognized relapse-risk combination, and it builds quietly because the role arrives as a compliment. Choosing to look after your people is one of the good things about being the sober one. Being silently conscripted is not the same act.",
+     "check": "S.O.B.E.R. — “B” CHECK: “Did I agree to this role, or was it assigned to me because I'm the one who'll remember?” Those produce the same behaviour and completely different costs.",
+     "darkTitle": "Resentment Is A Relapse Risk, Not A Character Flaw",
+     "dark": "The dangerous sequence is specific and it is worth being able to see coming: you do the caretaking, you miss the festival, you start resenting people you love, you feel guilty about the resentment because they are your friends and you chose this, and the guilt stops you saying any of it out loud. Depleted, resentful, isolated inside a group, and unable to name it — that is the state, and in recovery terms it is a familiar and serious one. Nobody engineered it. It assembled itself out of everyone's good intentions and the fact that you are reliable. The fix is a conversation on Tuesday, not heroism on Saturday.",
+     "move": "Rotate it explicitly before the event — a named driver, a named phone-holder, a named person on duty each night, sober or not. Then take the sets you came for and say so in advance so it is a plan rather than an abandonment.",
+     "say": "I'm not on duty tonight — I'm watching the whole set, phone on if it's an emergency. Who's got the keys? Let's actually rota this.",
+     "truth": "Being sober makes you capable of holding everyone. It does not make you responsible for it. Those are different sentences."
+    },
+    {
+     "section": "CONTROL",
+     "hook": "NOBODY NEEDS TO KNOW ABOUT THIS",
+     "archetype": "The Engineered Slip / Relapse As Leverage",
+     "clinical": "Induced Relapse / Shame-Based Silencing",
+     "who": "Someone who learned what your sobriety means to you and filed it. Manufactures the slip, or simply waits for one, and then becomes the only person who knows about it — which is the actual objective.",
+     "scene": "It happened. However it happened, it happened, and he was there, and now he is being extraordinarily kind about it. He says it stays between you. He says he understands, no judgment, everyone slips. He says it about four times over the next two days, in a way that is comforting the first time and something else by the fourth.",
+     "tells": [
+      "Present for the slip, and unusually relaxed about it",
+      "Immediately frames it as a secret the two of you now share",
+      "Repeats the reassurance more often than reassurance requires",
+      "Discourages you from telling your sponsor, your partner, your people",
+      "Your recovery network is described as judgmental or as not understanding festivals",
+      "Small asks start arriving, and declining them feels newly complicated"
+     ],
+     "happening": "A secret held by one other person is leverage whether or not anyone ever names it, and shame is the most reliable silencer there is because the person being controlled does the work themselves. This is why isolation from your recovery network is the tell to watch rather than any explicit threat — the threat is never made, it does not need to be. Coercive control research finds this shape consistently: cut the person off from the relationships that would give them a competing account of themselves, then be the only one who knows the worst thing. What makes recovery a target is simply that the worst thing is already pre-loaded and everyone knows how much it costs you.",
+     "check": "S.O.B.E.R. — “R” CHECK: “Is there something about me only one person here knows?” That is not intimacy. That is a holding.",
+     "darkTitle": "Disclosure Is How You Disarm It",
+     "dark": "The single move that ends this is the one that feels impossible: tell someone else. The leverage exists only while the information is scarce, and it evaporates the moment a second person knows — not because the slip stops mattering, but because he is no longer the only one holding it. Recovery communities are unusually good at exactly this; a slip disclosed is an ordinary event with a known next step, and everyone in your network has either had one or sat with somebody who did. The person telling you they will keep it between you is not protecting you from judgment. They are protecting the scarcity. Call your sponsor tonight, not when you feel ready — feeling ready is the thing the shame is preventing.",
+     "move": "Break the exclusivity immediately: tell one person in your recovery network today, before the story gets any older. Then treat the slip as a practical event with a next step — that is all it is — and put distance between you and whoever wanted to hold it.",
+     "say": "I'm telling my sponsor, so it's not staying between us — that's not how I do this. — [to your person] It happened Saturday. I'm okay. I wanted you to know before it got old.",
+     "truth": "A secret with one keeper is a lever. Hand it to a second person and it stops being one."
+    },
+    {
+     "section": "TOOLS",
+     "hook": "YOUR FESTIVAL SOBER PLAN",
+     "archetype": "Twenty Minutes That Hold All Weekend",
+     "clinical": "Relapse Prevention Planning / Preventive Structure",
+     "who": "For anyone sober, in recovery, California sober, taking a break, or just not drinking this weekend. Made in advance, in a calm room, by a version of you who is not tired, lonely, or three days into a field.",
+     "scene": "Tuesday, twenty minutes, a notes app. Everything that will be hard on Saturday night is currently something you can solve in one line. On Saturday night it will not be, because the whole difficulty of Saturday night is that it takes away the part of you that makes plans.",
+     "tells": [
+      "Your line, decided now: what you drink, what you never accept, what ends the night",
+      "The hour you leave — an actual time, set before you arrive",
+      "Two people on site who know you are sober and will not make it a thing",
+      "One person off-site who picks up at any hour, tested before you travel",
+      "The sober meetings on site, located Thursday — the Rats, the Phellowship, the sober camp",
+      "What you do if you slip: who you call, in what order. Written down."
+     ],
+     "happening": "Relapse prevention planning is the most evidence-backed piece of self-management in recovery, and its whole logic is pre-commitment — a decision made in a regulated state, handed to a depleted one, so the hard moment only requires following rather than deciding. A festival concentrates every known risk factor into seventy-two hours: sleep loss, crowds, availability, loneliness inside a group, and the specific ache of watching people you love have an experience you have chosen not to have. None of that means you should not go. It means you go with a plan, the way you would go anywhere else that mattered.",
+     "check": "S.O.B.E.R. — “E” CHECK: “Do I know what time I'm leaving tonight, and who I call if it gets hard?” Two answers, decided before you arrive.",
+     "darkTitle": "Write The Slip Plan While You Are Fine",
+     "dark": "Write the what-if-I-slip page now, while it is theoretical and slightly embarrassing to be writing. The reason is simple and it is the thing that kills people: after a slip, shame closes the exact channels you need, and the plan you did not write is not a plan you will invent at four in the morning while believing you are a fraud. Two names and an order of calls, written down on a Tuesday by someone who was fine, is a message from a version of you that your Saturday self will not be able to argue with. Nobody who writes that page is planning to use it. Everyone who needed it was glad it existed.",
+     "move": "Write the six lines. Send the off-site person a message before you travel so they know they are on. Find the sober meeting on Thursday, before you need it — walking in on Saturday when it is hard is a much bigger ask than walking in on Thursday when it is not.",
+     "say": "I'm out by one tonight, that's fixed. — You're my call this weekend if it gets hard, is that alright? I probably won't need it, I just want it arranged.",
+     "truth": "The plan is not a prediction. It is Tuesday-you leaving instructions for Saturday-you, who will not be able to work it out alone."
+    },
+    {
+     "section": "COMMUNITY",
+     "hook": "THERE ARE MORE OF US THAN YOU THINK",
+     "archetype": "The Sober Scene Inside The Scene",
+     "clinical": "Recovery Community / Peer Support Access",
+     "who": "The Wharf Rats with the yellow balloons. The Phellowship. The sober camp with the coffee urn. The Zendo volunteers. The ones who have been coming for thirty years and have not had a drink for twenty-five of them.",
+     "scene": "You assume you are the only one. You are not remotely the only one — there is a meeting on this site, probably daily, probably signposted with a yellow balloon or a hand-lettered board, and the people at it have been navigating exactly this weekend for longer than you have been alive. Most of them found it the same way, which is late, having assumed the same thing you are assuming.",
+     "tells": [
+      "Yellow balloons at the back of the crowd — that is the Wharf Rats, and it is an invitation",
+      "A meeting board, a sober camp, a coffee urn where a bar would be",
+      "Harm reduction volunteers, a lot of whom are sober themselves",
+      "People who clock your soda and say nothing, which is the good sign",
+      "Real: nobody asks for your story as the price of entry",
+      "Real: you can go, say nothing, drink the coffee, and leave"
+     ],
+     "happening": "Sober infrastructure inside festival culture is decades old and largely invisible unless you are looking for it — the Wharf Rats go back to the early eighties, the Phellowship not much later, and most large festivals now have something. The reason it matters more than any individual tactic in this guide is that isolation is the common factor underneath every pattern here: the convincer works on someone with no one to turn to, the assigned care role works on someone who does not know other sober people are around, and the engineered slip works on someone cut off from their network. Finding these people on Thursday removes the precondition for all three at once.",
+     "check": "S.O.B.E.R. — “B” CHECK: “Do I know where the sober meeting is on this site — today, not hypothetically?” Find it before you need it. That is the whole page.",
+     "darkTitle": "Isolation Is The Shared Precondition",
+     "dark": "Go back through this guide and the same thing is underneath every page. The convincer is only effective on somebody standing alone. The care role only becomes total when nobody else here is sober. The slip becomes leverage only when one person is the only one who knows. Every single mechanism requires you to be the exception in the room — which is exactly the belief you arrived with, and exactly the belief that a hand-lettered board at the back of the field disproves in about ninety seconds. Find them Thursday. Not because you are fragile, but because being findable is what makes the rest of this book mostly theoretical for you.",
+     "move": "Locate the meeting, the sober camp, or the balloons in your first few hours on site, and go once when things are fine. Tell two people in your group you are sober so it is ordinary rather than a revelation at a bad moment. Then have the weekend you came for.",
+     "say": "Any sober meeting on site this year? — Just so you know, I don't drink, it's not a whole thing, I'm just easier to find at the coffee than the bar.",
+     "truth": "You are not the only sober person at this festival. You are the only one who has not found the others yet, and that takes about ten minutes."
+    }
+   ]
+  },
+  {
+   "slug": "roots",
+   "acronymClass": "fb-g-roots",
+   "role": "BIPOC ATTENDEES",
+   "acronym": "R.O.O.T.S.",
+   "edition": "BIPOC Attendees Edition",
+   "sectionOf": 5,
+   "pages": 12,
+   "intro": "The scene calls itself a family. This guide is about the weekends where that is completely true and the moments where it is not — and about having a plan for both.",
+   "checks": [
+    {
+     "letter": "R",
+     "name": "Read The Room Before It Reads You",
+     "desc": "Who is here, who is staff, who would be believed. Knowing the answer on Thursday is worth more than deciding it at two in the morning."
+    },
+    {
+     "letter": "O",
+     "name": "Ownership Of Your Body And Your Hair",
+     "desc": "Nobody touches you without asking. Not your hair, not your skin, not for a photo. Being at a festival is not a waiver."
+    },
+    {
+     "letter": "O",
+     "name": "Options That Do Not Assume Police",
+     "desc": "The standard escalation ladder ends at security and police. Yours may need to stop earlier. Build the ladder that is actually safe for you."
+    },
+    {
+     "letter": "T",
+     "name": "Tokenizing Is An Opening Move",
+     "desc": "Exoticization, the compliment about your look, the fascination — these are approaches. Warmth aimed at a category is not warmth aimed at you."
+    },
+    {
+     "letter": "S",
+     "name": "Solidarity Is Findable",
+     "desc": "Affinity camps, crews and regulars exist at nearly every festival. Finding them on day one changes the whole weekend."
+    }
+   ],
+   "outline": [
+    {
+     "key": "CAPTURE",
+     "desc": "Fetishization as an approach, tokenizing warmth, the collector"
+    },
+    {
+     "key": "CONDITION",
+     "desc": "Hypervisibility, unsolicited touch, colorblind framing that erases what happened"
+    },
+    {
+     "key": "CONTROL",
+     "desc": "Security called on you, being disbelieved, escalation routes that are not safe"
+    },
+    {
+     "key": "TOOLS",
+     "desc": "The escalation ladder you can actually use, documentation, the anchor crew"
+    },
+    {
+     "key": "COMMUNITY",
+     "desc": "Affinity space, real solidarity, and the festivals that get it right"
+    }
+   ],
+   "sentences": [
+    "Warmth aimed at a category is not warmth aimed at me.",
+    "Nobody touches my hair. There is no version of that question I owe a yes to.",
+    "My escalation plan does not have to end where the brochure says it ends.",
+    "If I am the only one here, that is information about the event, not about me.",
+    "I find my people on day one, not on the night I need them."
+   ],
+   "scenarios": [
+    {
+     "section": "CAPTURE",
+     "hook": "I'VE ALWAYS WANTED TO",
+     "archetype": "The Collector / Fetishization As An Approach",
+     "clinical": "Racial Fetishization / Objectification as Opening Move",
+     "who": "Intense, immediate, and full of enthusiasm about a version of you he assembled before you spoke. Compliments a category. Has a type and tells you so as though it were a gift he is handing over.",
+     "scene": "He has been talking for four minutes and every single thing he has said has been about how you look, in language that keeps reaching for somewhere — a country, a continent, a word he clearly thinks is a compliment. He asks where you are really from. He tells you he has always wanted to be with someone like you. There is no point in this conversation where you have been a person with a name.",
+     "tells": [
+      "Compliments a category rather than anything you chose, said, or made",
+      "“Where are you really from”, and a guess afterwards",
+      "Announces a preference for people like you as though it flatters you",
+      "Reaches for your hair, your skin, or a photo within minutes",
+      "Knows nothing about you and is nonetheless certain about you",
+      "Gets cold fast when you are ordinary rather than the thing he pictured"
+     ],
+     "happening": "Fetishization does the same work as any other idealization in this book: it replaces a person with a symbol, and symbols are not allowed boundaries. It is also unusually efficient as an opening move, because it arrives disguised as enthusiastic admiration, which makes declining it look like you are the one being difficult. The practical tell is not the subject matter, it is the direction of attention — someone interested in you asks questions and updates on the answers; someone interested in a category delivers conclusions and does not update at all, because your actual self is not the point and is in fact slightly in the way.",
+     "check": "R.O.O.T.S. — “T” CHECK: “Has he asked me anything, or only told me things?” Interest asks. Collecting announces.",
+     "darkTitle": "Being A Type Means Being Interchangeable",
+     "dark": "The thing worth understanding early is what fetishization does to the aftermath. Somebody attracted to a category rather than a person has, by definition, no particular attachment to you — which means the ordinary brakes that come with actually knowing someone are not installed. It also gives him a ready explanation for anything that goes wrong: a misunderstanding, a cultural thing, you took it the wrong way. And if you raise it afterwards in a scene that prides itself on openness, you will frequently be met with the suggestion that he was just really into you and you have made it about race. That pre-built defense is part of why this approach gets used. None of it means you have to litigate it. You can simply leave a conversation that has never once been about you.",
+     "move": "Test it once, cheaply: give him a real detail about yourself that has nothing to do with how you look, and watch whether he picks it up or steers back. Then leave, without a verdict and without a debate — you are not obliged to prove it to him or to anyone standing nearby.",
+     "say": "I'm going to find my people — have a good one. — [if pressed] Not interested, mate. That's the whole answer.",
+     "truth": "Someone who wanted you would ask you something. You are allowed to walk away from an audition you never entered."
+    },
+    {
+     "section": "CONDITION",
+     "hook": "CAN I JUST TOUCH IT",
+     "archetype": "The Reacher / Your Body As Public Property",
+     "clinical": "Non-Consensual Contact / Bodily Autonomy Violation",
+     "who": "Frequently a stranger, frequently delighted, frequently already reaching while asking — which means the question was decorative. Often drunk, often a woman, often genuinely baffled that this lands badly.",
+     "scene": "Her hand is already in your hair. She is saying it is amazing and asking how you get it like that and whether it is all yours, and three people are watching and smiling, and the entire social weight of this moment is arranged so that the rude person in it would be you. You have about two seconds and the good options all cost something.",
+     "tells": [
+      "Asks while already reaching, or does not ask at all",
+      "Treats your hair, skin, or features as a topic for public discussion",
+      "Does it in front of people, so objecting has an audience cost",
+      "“Is it real”, “how do you get it like that”, “I've never touched”",
+      "Wants a photo with you rather than of the moment",
+      "Reacts to a no as though you have been unkind to them"
+     ],
+     "happening": "Unsolicited touching is a boundary violation regardless of intent, and the specific version aimed at Black women's hair is documented well enough to have prompted its own body of workplace and school policy. The mechanism at a festival is the environment: everyone is close, warm, uninhibited and touching each other constantly, which supplies a ready-made explanation for the contact and makes objecting feel like importing outside-world rules into a space that is supposed to be free of them. That framing is the problem. A culture of physical affection is consent-based or it is not a culture of affection, it is just a culture where some people get touched.",
+     "check": "R.O.O.T.S. — “O” CHECK: “Did the question stop the hand?” If the hand kept moving, it was not a question, and you owe it nothing.",
+     "darkTitle": "The Cost Is The Accumulation",
+     "dark": "Any one of these is small. The reason it belongs in a safety guide is what a weekend of them does: by Sunday you have absorbed forty small interactions in which your body was treated as a shared object and you were required to be gracious about each one, and that steady grinding down of your standing to say no is precisely the ground condition every predator in this book is looking for. Someone who has watched you accept unwanted contact all weekend, smiling, has learned something about you that they should not have been allowed to learn. Practising the flat no on the small stuff is not pettiness. It is keeping the muscle available for the night you need it.",
+     "move": "Block with your body rather than your words — step back and put a hand up before you speak. Then a flat, short sentence with no apology and no explanation, and move on immediately so there is no space for a discussion.",
+     "say": "No — don't touch my hair. — [flat, no smile, then turn away] Anyway. Have you seen where the water point is?",
+     "truth": "You are not a texture. A space that needs you to be gracious about being handled is not actually free for you."
+    },
+    {
+     "section": "CONTROL",
+     "hook": "THEY CALLED SECURITY ON YOU",
+     "archetype": "When The Escalation Route Points At You",
+     "clinical": "Differential Enforcement / Weaponized Reporting",
+     "who": "Someone in a dispute with you who has correctly worked out that involving staff is a move that costs them nothing and costs you a great deal. Sometimes deliberate. Sometimes just a person who reached for the phone without thinking about who would be believed.",
+     "scene": "There was an argument at your camp. It was nothing. Now there are two radios and a torch and the questions are coming at you rather than at the person who started it, and the specific thing you notice, standing there, is that everybody is being perfectly polite and the outcome has somehow already been decided before anybody asked you anything.",
+     "tells": [
+      "Security arrives asking you the questions rather than asking everyone",
+      "The other party is treated as the reporter rather than as a participant",
+      "Your tone becomes the subject rather than what happened",
+      "Someone reaches for staff or police unusually fast over something small",
+      "You are asked to leave to resolve it while the other party stays",
+      "You are, or are close to, the only one of you in the immediate area"
+     ],
+     "happening": "This book's standard advice is to escalate — tell a ranger, tell security, involve staff. That advice assumes the escalation route is neutral, and for a lot of readers it is not: the same call produces different outcomes depending on who is standing where, and a police involvement that resolves one person's evening can be a materially dangerous event for another. Saying so is not cynicism about festival staff, most of whom are decent and trying. It is the difference between a safety plan built for an average reader and one built for you. A plan that ignores this is not neutral — it is a plan that works for other people.",
+     "check": "R.O.O.T.S. — “O” CHECK: “If this escalates to staff, who does that help?” Ask it before the moment, because in the moment there is no time.",
+     "darkTitle": "Build A Ladder That Stops Where You Need It To",
+     "dark": "The practical version of this is not avoid all staff — it is have more rungs before that one, and know which specific humans they are. Camp leads, welfare, the harm-reduction tent, an artist liaison, a named accessibility or community lead: these are escalation routes that are generally safer and almost always more effective than a radio call, and they exist at nearly every festival. The other half is witnesses. The single biggest change in how one of these encounters goes is whether two other people are standing there, and the second biggest is whether somebody is recording. Neither requires a confrontation. Both require having thought about it before the torch is pointing at you, which is the entire reason this page exists.",
+     "move": "On arrival, get two names that are not security — welfare and a camp or community lead. In any dispute, get a witness beside you before it escalates, stay still and boring, and write it down immediately afterwards with the time and the names. Do not resolve it alone in the dark.",
+     "say": "I'm happy to talk about this with welfare present. — [to a friend] Stand here with me a minute, would you.",
+     "truth": "Escalation is a tool, not a reflex. Know which rung is safe for you before you need to climb."
+    },
+    {
+     "section": "TOOLS",
+     "hook": "THE LADDER AND THE ANCHOR",
+     "archetype": "Building The Plan That Actually Fits You",
+     "clinical": "Personal Risk Mapping / Escalation Planning",
+     "who": "For anyone whose safety plan cannot be copied straight out of a generic guide — which, at some events, is most of the people reading this one.",
+     "scene": "Thursday afternoon, before anything has happened, while the site is calm and the people you would need are all findable and not busy. Twenty minutes now buys you the thing that is impossible to assemble at two in the morning with a torch in your face, which is a set of names and a route you already trust.",
+     "tells": [
+      "Two named non-security contacts: welfare, and a camp or community lead",
+      "Two people on site who will physically stand next to you on request",
+      "One person off-site who expects a check-in and knows where you are",
+      "Your own transport, or a lift that is not in anybody else's control",
+      "A note app for time, place, names — written the same hour, not the next day",
+      "The affinity camp or crew, found on day one rather than on the bad night"
+     ],
+     "happening": "Everything in this guide is cheaper to arrange in advance than to invent under pressure, and the reason is the same one that runs through this whole book: the moment is designed to be one where you cannot think. A prepared ladder converts a judgment call into a lookup. The witness rule does the most work of anything on that list — accounts of these encounters diverge sharply depending on whether anyone else was present, and a second person standing beside you changes both what happens and what can be said about it afterwards. None of this is about expecting trouble. It is the same logic as knowing where the medical tent is.",
+     "check": "R.O.O.T.S. — “R” CHECK: “Can I name my two non-security contacts right now?” If not, that is the twenty minutes, and it is best spent on Thursday.",
+     "darkTitle": "Write It The Same Hour",
+     "dark": "Documentation is the part people skip and the part that matters most, because these situations are decided later by whose account is more specific. A dated note written within the hour — time, location, names, what was actually said, who else was there — outperforms any amount of remembered detail weeks on, and it does not require anyone to find you credible in the moment. Send it to someone off-site so it exists outside this weekend and outside your own phone. It takes ninety seconds. Do it even when you are fairly sure nothing will come of it, because the cases where something does come of it are exactly the ones where you did not expect it to.",
+     "move": "Get your two non-security names in the first hour on site. Agree the stand-next-to-me signal with two friends. Write anything that happens down the same hour and send it off-site. Keep your own way home.",
+     "say": "Who's the welfare lead this year, and how do I reach them directly? — If I text you a pin, just come stand next to me, you don't have to say anything.",
+     "truth": "A plan built for the average reader is not built for you. Build yours on Thursday, out of real names."
+    },
+    {
+     "section": "COMMUNITY",
+     "hook": "FINDING THE OTHERS",
+     "archetype": "Affinity Space, And The Festivals That Get It Right",
+     "clinical": "Affinity Community / Protective Social Infrastructure",
+     "who": "The camp with the sound system and the good food that has been coming for eleven years. The crew who clocked you at the gate and nodded. The promoters and collectives who built something deliberately and did the work of making it real.",
+     "scene": "Saturday, and you have spent two days being the only one in every frame, doing the low-level arithmetic that costs more energy than anyone who does not do it understands. Then you walk past a camp and three people look up and one of them says come and eat something, and you feel your shoulders drop about two inches, and you had not registered they were up.",
+     "tells": [
+      "Real: you are not explained, introduced as a demographic, or asked to represent",
+      "Real: you can be ordinary, annoying, or quiet with no change in standing",
+      "Real: people share practical information without ceremony — who is sound, who is not",
+      "Performative: your presence gets mentioned to other people as a credit",
+      "Performative: the event's diversity is discussed with you rather than built",
+      "Performative: you are the only one there and nobody has ever asked why"
+     ],
+     "happening": "Affinity space is protective for reasons that are entirely practical rather than sentimental: it replaces hypervisibility with ordinariness, it supplies witnesses who do not need the situation explained to them, and it is where the informal warnings circulate — which promoter is sound, which crew to avoid, what happened last year. Every mechanism in this guide works better on someone isolated, and the fetishizer, the reacher and the weaponized report all operate most freely on a person with nobody standing near them. This is also the page where the scene deserves credit: there are collectives and festivals doing this properly, and they are findable.",
+     "check": "R.O.O.T.S. — “S” CHECK: “Have I found my people here, or am I still doing this alone?” Day one. Not the night it goes wrong.",
+     "darkTitle": "Shoulders Down Is Data",
+     "dark": "Worth naming plainly: the constant low-level vigilance has a cost, and because it is continuous it becomes invisible to the person paying it. You will not notice you have been braced all weekend until you stop, and the stopping is what tells you. That fatigue is not fragility and it is not you being difficult — it is the predictable result of running a background process everyone around you has switched off. It also degrades judgment, the same way sensory load and sleep loss do elsewhere in this book, which means finding the people who let you put it down is not a comfort measure. It is a safety measure, and it belongs on day one alongside knowing where medical is.",
+     "move": "Find the camp, the crew, or the collective on day one, before you need anything. Ask the regulars what they know — the informal information network is the best safety infrastructure at any festival. And go back to the events that actually built something, because they are the ones that respond to being supported.",
+     "say": "First time at this one — who's sound round here, and is there anything I should know? — Come find us at the camp with the blue flag, we're cooking Saturday.",
+     "truth": "You came for the music, not to be a subject of interest. Find the people who let you be ordinary, on day one."
+    }
+   ]
+  },
+  {
+   "slug": "kin",
+   "acronymClass": "fb-g-kin",
+   "role": "FAMILY CAMPING & PARENTS",
+   "acronym": "K.I.N.",
+   "edition": "Family Camping & Parents Edition",
+   "sectionOf": 6,
+   "pages": 9,
+   "intro": "You brought your kids to the best place you know. This guide is the boring infrastructure that keeps it that way.",
+   "checks": [
+    {
+     "letter": "K",
+     "name": "Know Where They Are, By Name",
+     "desc": "Not “with the camp”. A named adult who has agreed, out loud, that they have your child right now and until when."
+    },
+    {
+     "letter": "I",
+     "name": "Identify Them If They Are Lost",
+     "desc": "Wristband with your number, a photo taken each morning in that day's clothes, and a meeting point they can say back to you."
+    },
+    {
+     "letter": "N",
+     "name": "No Adult Needs Private Time With Your Kid",
+     "desc": "Not to show them something, not for a lesson, not to be kind. The rule is simple because simple rules survive a friendly, trusted, well-liked exception."
+    }
+   ],
+   "outline": [
+    {
+     "key": "CAPTURE",
+     "desc": "The helpful adult, gifts and special attention, the camp everyone trusts"
+    },
+    {
+     "key": "CONDITION",
+     "desc": "Diffused supervision, your own capacity, the festival's actual hazards"
+    },
+    {
+     "key": "TOOLS",
+     "desc": "The lost-child kit, the handover rule, the family-field brief"
+    },
+    {
+     "key": "COMMUNITY",
+     "desc": "Real village versus nobody actually watching"
+    }
+   ],
+   "sentences": [
+    "Someone is always named. “The camp” is not a person.",
+    "Photo every morning, number on the wrist, meeting point they can repeat back.",
+    "No adult needs to be alone with my child. There is no good version of that ask.",
+    "If I am too tired or too altered to parent, I say so and hand over to a named person.",
+    "A village with nobody named in it is not supervision, it is an assumption."
+   ],
+   "scenarios": [
+    {
+     "section": "CAPTURE",
+     "hook": "HE'S SO GOOD WITH KIDS",
+     "archetype": "The Beloved Camp Uncle / Access Through Trust",
+     "clinical": "Child Grooming / Institutional Trust Exploitation",
+     "who": "Genuinely great with children, which is the difficult part of this page. Everybody's favourite. Has been coming for years, runs the games, remembers the kids' names between festivals, and is the first person anyone would defend.",
+     "scene": "Your daughter adores him. He does the face paint and the treasure hunt and he is the reason the family field is fun. He has started giving her small presents — a bracelet, a patch for her jacket — and asking for her specifically, and suggesting he take her to the workshop tent because you look tired, and the sentence forming in your head is that you would be insulting a good man to say no.",
+     "tells": [
+      "Seeks time alone with a specific child, always with a good reason",
+      "Gives gifts or attention to one child rather than to all of them",
+      "Establishes secrets — small, harmless ones, framed as a shared joke",
+      "Prefers the company of children to that of adults at an adult event",
+      "Pushes past a soft no with warmth rather than pressure",
+      "Universally liked, which means raising anything has a social cost"
+     ],
+     "happening": "Child sexual abuse is overwhelmingly committed by somebody the child and the family already know and trust, and the grooming literature describes a consistent sequence: access, then a special relationship with one child, then small secrets, then isolation. Every step looks like kindness and most of them, performed by most people, are kindness. That is exactly why safeguarding policy in every organization that works with children is built on rules about situations rather than judgments about people — because judging individuals is precisely what the pattern defeats, and because the people who are wrongly suspected and the people who are correctly suspected look identical from outside.",
+     "check": "K.I.N. — “N” CHECK: “Is an adult asking for time alone with my child?” The answer is no, every time, regardless of who is asking. The rule is the protection. Assessing the person is not.",
+     "darkTitle": "The Rule Exists So You Never Have To Judge",
+     "dark": "This is the hardest page in this book to write and to read, and the reason is that the overwhelming majority of beloved camp uncles are exactly what they appear to be — generous adults who like kids and make festivals magical. A blanket rule is not an accusation against any of them. It is a rule precisely because no parent can reliably tell, because the ones who cannot be told apart are the whole problem, and because a good man will not mind. That last part is the practical test: a genuinely safe adult hears “we don't do one-on-one” and says fine, of course, come along too. Only one kind of person argues with a safeguarding rule, and the argument is the finding.",
+     "move": "Make it a policy rather than a judgment, and say it out loud to the whole camp at the start so it is never about one person: no one-on-one, activities happen with two adults or in view. Then say yes to everything that meets the rule — the face paint, the treasure hunt, all of it.",
+     "say": "We do a two-adult rule for the kids, nothing personal to anyone — so yes to the workshop, and I'll walk over with you both.",
+     "truth": "Good adults are not offended by safeguarding rules. The rule protects them too, and the person who argues has told you something."
+    },
+    {
+     "section": "CONDITION",
+     "hook": "I THOUGHT HE WAS WITH YOU",
+     "archetype": "Diffused Supervision / The Camp Everybody Assumed",
+     "clinical": "Responsibility Diffusion / Supervision Gap",
+     "who": "Not a person — a structure. Eleven adults, four children, a shared camp, an unspoken sense that somebody is always around, and no moment at which anybody specifically agreed to be watching.",
+     "scene": "It is nine in the evening and somebody asks where Theo is and there is a pause, and in that pause four adults each realize they had assumed one of the others had him. He is almost certainly thirty metres away at the other fire. He almost certainly is. The forty seconds before you find him are the longest forty seconds of the year and nothing in the camp's arrangements was designed to prevent them.",
+     "tells": [
+      "Supervision described as “the camp” rather than a named adult",
+      "No agreed handover — children move between adults without a word said",
+      "Nobody knows how many adults are currently drinking or dosed",
+      "No headcount, and no agreed time for one",
+      "Older children tasked with younger ones without that being decided",
+      "“Someone's always around” said as though it were a system"
+     ],
+     "happening": "Diffusion of responsibility is one of the most robust findings in social psychology: the more people who could act, the less likely any given person is to act, and the more each assumes somebody else has. Applied to child supervision in a camp it produces a specific failure — not neglect, but a group of attentive adults each accurately believing the child is covered. Festivals add the aggravating factors: no fences, thousands of strangers, darkness, noise that swallows a shout, and a proportion of the adults present with reduced capacity. The fix is not more vigilance. It is a named person and a spoken handover, which converts an assumption into an agreement.",
+     "check": "K.I.N. — “K” CHECK: “Can I name the adult who has my child right now, and did they say yes out loud?” If the answer is a camp rather than a name, nobody has them.",
+     "darkTitle": "The Other Half Is Your Own Capacity",
+     "dark": "The part that is harder to say: the handover rule has to include you. A festival is one of the few places where a parent may be genuinely impaired — drinking, dosed, or simply forty hours short of sleep — and the moment where you most need to hand over is the moment you are least able to assess that you should. So the decision gets made in advance, sober, like a designated driver: who is on duty tonight, who is not drinking, and what the signal is for I am done, take over. Agreeing that on Thursday costs a five-minute conversation. Not agreeing it is how a child ends up nominally supervised by four adults, none of whom is currently able to drive.",
+     "move": "Run a nightly rota decided in advance: a named on-duty adult each evening who stays under, and a spoken handover every time a child changes hands — “you have Theo until eight”, answered out loud. Headcount at every set change.",
+     "say": "You've got Theo till eight — say it back to me. — I'm on duty tonight, so I'm not drinking; Mo's on tomorrow.",
+     "truth": "“I thought he was with you” is what four attentive adults say. A name and a time out loud is the only thing that prevents it."
+    },
+    {
+     "section": "TOOLS",
+     "hook": "THE LOST-KID KIT",
+     "archetype": "Ten Minutes On Thursday That You Will Never Regret",
+     "clinical": "Child Safety Preparation / Lost Child Protocol",
+     "who": "For everyone in the family field, every year, including the veterans who have done twelve of these and especially the ones who think their kid is too sensible to get lost.",
+     "scene": "The first ninety seconds of a missing child are the ones that matter, and they are ninety seconds in which you will be useless — heart rate through the roof, unable to remember what they were wearing, phone at four percent. Everything on this page exists so that a calm Thursday version of you has already done the thinking.",
+     "tells": [
+      "Wristband with your mobile number, written fresh each morning",
+      "A photo of each child taken every morning, in that day's actual clothes",
+      "A meeting point they can say back to you, chosen and physically visited",
+      "The phrase: find a person with a radio, or a stall, or a mum with kids",
+      "Ear defenders, sun hat, water — the boring three that prevent most of it",
+      "Your phone charged, and a second adult's number on the band too"
+     ],
+     "happening": "Lost children at festivals are common and almost always resolve in minutes, and the reason they resolve is infrastructure: wristbands with numbers, a welfare tent that does this constantly, and staff who are trained for it. The daily photo is the single highest-value item and the one almost nobody does — a described child is hard to search for and a photographed child in today's clothes is easy. Teaching who to approach matters as much as teaching not to wander: children told only about stranger danger will avoid the very adults most likely to help them, so name the categories instead — radio, stall, parent with kids.",
+     "check": "K.I.N. — “I” CHECK: “Wristband on, photo taken today, meeting point they can repeat?” Three things, every morning, before anything else.",
+     "darkTitle": "Ninety Seconds, And What To Do In Them",
+     "dark": "Have the protocol memorized because you will not be able to reason it out. One adult stays exactly where the child was last seen and does not move — children double back, and a moving parent and a moving child can search past each other for an hour. A second adult goes straight to welfare or the nearest radio and reports it immediately; there is no waiting period and nobody will think you are overreacting, because they do this several times a day. Show the photo. Give the wristband number so it can be called. Everyone else checks the last three places the child liked, not the whole site. Ninety seconds of the right actions beats twenty minutes of frantic ones.",
+     "move": "Do the three every morning — band, photo, meeting point — and walk the child to the welfare tent on Thursday so they have physically seen where it is. Agree the stay-put rule with the other adults now, before it is needed.",
+     "say": "If you can't find me: stay where you are and find someone with a radio, or a stall, or a mum with kids. Show them your wristband. Tell me the plan back?",
+     "truth": "Ten minutes on Thursday buys you the only ninety seconds that will ever matter. Do the photo — it is the one everybody skips."
+    },
+    {
+     "section": "COMMUNITY",
+     "hook": "IT TAKES A VILLAGE, NAMED",
+     "archetype": "A Real Village Versus An Assumed One",
+     "clinical": "Authentic Collective Care vs Diffused Assumption",
+     "who": "The family field at its best, which is genuinely one of the great things this culture has built — kids running semi-feral in the safest possible way, raised for a weekend by twenty adults who all know them.",
+     "scene": "The real version is unmistakable once you have seen it. Adults who know which kid belongs to whom. Somebody bringing your child back with a comment about the face paint. A camp where the rota is on the whiteboard and nobody thinks that is uptight. Kids who can name four adults they are allowed to go to, because somebody sat down and taught them the four.",
+     "tells": [
+      "Real: adults are named, rotas exist, handovers are spoken",
+      "Real: children can name the adults they may go to",
+      "Real: someone is always sober and everyone knows who",
+      "Real: the two-adult rule is stated openly and nobody is offended",
+      "Assumed: “someone's always around”, and no one is specifically",
+      "Assumed: raising a safeguarding point would make you the awkward one"
+     ],
+     "happening": "The village is real and it works, and it works because of structure rather than in spite of it. The camps where children are genuinely safest are the ones that look, from outside, slightly over-organized: whiteboard, rota, named on-duty adult, an out-loud rule about one-on-one. That structure is what lets the freedom be real — kids roaming the family field all weekend, which is the thing you came for. The unstructured version produces the opposite: adults who feel responsible in general and therefore nobody responsible in particular, and a culture where the person who suggests a rota is the problem.",
+     "check": "K.I.N. — “K” CHECK: “Can every adult here name tonight's on-duty person, and can every kid name four adults they can go to?” Two questions, asked on Thursday.",
+     "darkTitle": "Be The One Who Says It First",
+     "dark": "Somebody has to say the rules out loud, and in a warm camp of old friends that feels enormously awkward — like importing suspicion into a place built on trust. Say them anyway, and say them on day one, to everyone, before anything has happened, because a rule introduced as general policy costs nothing and a rule introduced after a specific worry is an accusation. You will find that most of the camp is relieved. Parents are usually all quietly thinking it and each assuming they would be the uptight one, which is the same diffusion problem as the supervision gap, applied to speaking up.",
+     "move": "Call the five-minute family brief on Thursday: rota, on-duty adult, two-adult rule, meeting point, and the four adults each child may go to. Put it on a whiteboard. Then let them run.",
+     "say": "Quick family-camp thing before we all settle in — rota's on the board, on-duty's not drinking, no one-on-one with the kids, and let's make sure every kid can name four grown-ups they can go to.",
+     "truth": "The village is real, and it is made of names. A village where nobody is named is just a field with your child in it."
     }
    ]
   },
@@ -1202,7 +1765,7 @@
    "role": "LGBTQ+ ATTENDEES",
    "acronym": "P.R.I.D.E.",
    "edition": "LGBTQ+ Attendees Edition",
-   "sectionOf": 4,
+   "sectionOf": 7,
    "pages": 13,
    "intro": "Festival spaces can be liberating AND they can be predatory. Know the difference.",
    "checks": [
@@ -1491,6 +2054,29 @@
      "move": "Look for the connection that makes your world bigger. That is the real thing.",
      "say": "\"I am going to wander for a bit — I will find you at the stage later.\" Then notice what happens.",
      "truth": "Your real queer festival family will be just as glad to see you after you have been elsewhere. Watch for that."
+    },
+    {
+     "section": "CONTROL",
+     "hook": "EVERYONE KNOWS EVERYONE",
+     "archetype": "The Small Scene / Visibility And Outing As Leverage",
+     "clinical": "Coercive Control in Closed Communities / Outing as Threat",
+     "who": "Someone inside the same small world you are — an ex, a former friend, a scene figure — who understands exactly how few degrees of separation there are and how much of your life runs through this community.",
+     "scene": "It ended badly and you are both at this festival and will be at the next four. He is being pleasant in public. What he says privately is that he would hate for people to get the wrong idea, and that he has been talking to people, and that your work knows you come to these, don't they — and none of it is a threat you could write down.",
+     "tells": [
+      "Knows precisely who you are out to and who you are not",
+      "Mentions your job, your family, or your other communities in passing",
+      "Frames the threat as concern about what others might think",
+      "Has been narrating a version of you to mutual friends already",
+      "Leaving the community entirely is the only real escape, and you both know it",
+      "Nothing said is explicit enough to report, which is the craft of it"
+     ],
+     "happening": "In small or closed communities the ordinary cost of leaving a relationship is multiplied, because the relationship and the community are the same network — and for LGBTQ+ people that network is frequently the only place where they are fully out. Threatened outing is recognized as a form of coercive control precisely because it is so effective: it requires no violence, it is deniable, and the consequences fall entirely on the target, potentially at work, at home, and with family. The festival version adds a calendar — you will both be at the same events all summer, and he knows that.",
+     "check": "P.R.I.D.E. — “I” CHECK: “Is somebody using what they know about me to shape what I do?” That is not a private matter between exes. That is leverage.",
+     "darkTitle": "Disclosure On Your Own Terms Ends It",
+     "dark": "Outing as a threat has exactly one power source, which is that the information is his to release. The counter is unfair and it works: take the timing back. Telling two or three people yourself, on your own terms and in your own words, converts the thing he was holding into a thing that is simply known — and the leverage evaporates in the same moment. That is a genuinely hard thing to be told and it is not always safe or possible; where it is not, the alternative is a written record and community leads who know, because the second protection is witnesses. Tell a camp lead, a promoter, or an organizer now rather than after. You are not overreacting — coercive control is built out of exactly these unprovable sentences, and communities that are told early handle it far better than ones told afterwards.",
+     "move": "Write down what was said, dated, and send it to somebody off-site the same day. Tell one or two people in the community yourself so the information stops being his. Name it to a promoter or camp lead before the next event, not after.",
+     "say": "Just so you know, because I'd rather you heard it from me — [the thing]. And I want to flag that Dane's been making comments about telling people; I'm putting it on record now.",
+     "truth": "Something only has power over you while one person controls when it comes out. Take the timing back and there is nothing left to hold."
     }
    ]
   },
@@ -1500,7 +2086,7 @@
    "role": "DISABLED & NEURODIVERGENT",
    "acronym": "A.C.C.E.S.S.",
    "edition": "Disabled & Neurodivergent Edition",
-   "sectionOf": 5,
+   "sectionOf": 8,
    "pages": 14,
    "intro": "The scene says everyone belongs. This guide is for making that true for you — and for spotting the person who uses your access needs as a door.",
    "checks": [
@@ -1798,12 +2384,259 @@
    ]
   },
   {
+   "slug": "flow",
+   "acronymClass": "fb-g-flow",
+   "role": "FLOW ARTISTS & PERFORMERS",
+   "acronym": "F.L.O.W.",
+   "edition": "Flow Artists & Performers Edition",
+   "sectionOf": 9,
+   "pages": 12,
+   "intro": "You hand your body to gravity, fire, and other people's hands. This guide is about who you hand it to.",
+   "checks": [
+    {
+     "letter": "F",
+     "name": "Fuel, Rig, And Gear Are Yours To Check",
+     "desc": "You inspect what you hang from, what you burn, and what you spin. Every time, personally. Nobody's feelings outrank that check."
+    },
+    {
+     "letter": "L",
+     "name": "Lights Mean You Are Being Filmed",
+     "desc": "Assume a camera on every burn and every set. Decide what you consent to before you are lit, not after the clip is up."
+    },
+    {
+     "letter": "O",
+     "name": "Overrides Are The Pattern",
+     "desc": "Spin injured, one more burn, skip the safety brief, it's fine. Watch who benefits from every override — it is almost never you."
+    },
+    {
+     "letter": "W",
+     "name": "Who Holds You Is A Safety Decision",
+     "desc": "The rigger, the spotter, the safety, the base. That person holds your body. Choosing them is a technical decision, not a social one."
+    }
+   ],
+   "outline": [
+    {
+     "key": "CAPTURE",
+     "desc": "The teacher with access, the base who makes you dependent, gear as a gift with strings"
+    },
+    {
+     "key": "CONDITION",
+     "desc": "Safety-third pressure, performing injured, adjustments that stop being technical"
+    },
+    {
+     "key": "CONTROL",
+     "desc": "Rigging and safety as leverage, circle gatekeeping, image and footage control"
+    },
+    {
+     "key": "TOOLS",
+     "desc": "The pre-burn check, the consent brief, the footage policy"
+    },
+    {
+     "key": "COMMUNITY",
+     "desc": "Real jam culture versus a circle with an owner"
+    }
+   ],
+   "sentences": [
+    "I check my own gear. Every time. That is not distrust, that is the job.",
+    "The person who holds my weight is chosen for their competence, not their charm.",
+    "Being hurt is not a reason to perform. It is the reason not to.",
+    "My image is mine. Filming me is not the same as owning me.",
+    "A circle with a gatekeeper is not a jam."
+   ],
+   "scenarios": [
+    {
+     "section": "CAPTURE",
+     "hook": "I'LL TEACH YOU THE REAL STUFF",
+     "archetype": "The Mentor With A Waiting List / Skill Access As Currency",
+     "clinical": "Mentorship Grooming / Skill Gatekeeping",
+     "who": "Genuinely good, visibly senior, and the reason half this circle can do what they do. Teaches selectively. Makes it clear that being taught is a thing you are chosen for, and that the choosing is ongoing.",
+     "scene": "He has been doing this for fifteen years and the thing he does with a staff is the reason you started. He offers to work with you properly — not in the jam, at his camp, after, when it's quiet and there's space. The first session is the best hour of instruction you have ever had. The second session he corrects your stance with his hands and holds the correction slightly longer than the correction needs.",
+     "tells": [
+      "Teaching happens privately and late rather than in open practice",
+      "Access to instruction is framed as being chosen, and is reviewable",
+      "Physical correction escalates in duration or location over sessions",
+      "Discourages you from training with others — they'll teach you bad habits",
+      "Mentions what he could do for your booking or your profile",
+      "The lesson quality is real, which is what makes leaving expensive"
+     ],
+     "happening": "Skill is the currency in this scene and a person who controls access to it controls a great deal. The mechanism is the same as every other access trap in this book, but it has an unusual protection: the teaching is genuinely valuable, so the cost of walking away is real and everybody can see it. That asymmetry is what gets exploited. It is also why the correction-by-touch escalation works — in a discipline where hands-on adjustment is legitimate and constant, the line between instruction and testing is exactly where a person can operate while retaining deniability, and where you will second-guess yourself for weeks.",
+     "check": "F.L.O.W. — “O” CHECK: “Would this lesson be identical if it happened at 2pm in the open jam?” If the answer is no, the privacy is doing something the teaching does not need.",
+     "darkTitle": "The Adjustment That Tests You",
+     "dark": "The escalation is deliberately gradual and it is designed to be unreportable. A hand on the hip is technique. The same hand, a beat longer, is a test — and if you do not react, the next one is longer. Every individual step is defensible and the whole staircase is not, which is precisely why it is built in steps. Dance, martial arts, aerial, and acro have all documented this shape, and it works the same way here. The counter is not deciding where the line is in the moment, when you are mid-correction and unsure. It is deciding beforehand that instruction happens where people can see it, and treating any pressure to move it somewhere quieter as the finding rather than as a scheduling preference.",
+     "move": "Train in the open. Take instruction from at least two people so no single person is your route to progress. If a session has already moved somewhere private, bring someone — “my friend wants to watch” is unarguable and tells you a great deal by how it lands.",
+     "say": "I learn better in the jam — more eyes, more feedback. Can we do it there? I'll bring Kai, they've been wanting to work on the same thing.",
+     "truth": "A teacher worth having will teach you in daylight with people watching. The ones who need the room quiet are not protecting your focus."
+    },
+    {
+     "section": "CAPTURE",
+     "hook": "TAKE IT, IT'S YOURS",
+     "archetype": "The Gear Gifter / Props With A Ledger",
+     "clinical": "Reciprocity Debt / Material Obligation",
+     "who": "Generous, well-equipped, and quick to notice what you cannot afford. Hands you a set of pro-grade props, a rig, a costume, a fire kit. Does not want anything for it, says so repeatedly, and mentions its value twice.",
+     "scene": "Your poi are entry-level and everyone knows it. He has a spare set of the ones you have been saving for — seven hundred dollars of them — and he wants you to have them, no, really, take them, he has three sets. Two weeks later there is an afterparty you do not want to go to and the sentence in your head, unprompted, is that he gave you the poi.",
+     "tells": [
+      "The gift is expensive enough to be uncomfortable and given fast",
+      "Refusing is treated as an insult rather than a choice",
+      "Its value gets mentioned more than once, casually",
+      "Given in front of other people, so the generosity is witnessed",
+      "Followed within weeks by an ask that is hard to decline",
+      "Taking it back is floated, lightly, when you say no to something"
+     ],
+     "happening": "Reciprocity is the strongest lever in the book — a received gift creates a felt obligation that operates below deliberation, and it does not care whether you asked for the gift or wanted it. Gift economy culture supercharges it, because the frame says a gift is pure, which removes your permission to be suspicious of one. Expensive gear is a particularly efficient version: it is high value, it is useful daily, it visibly improves your practice, and every time you use it you renew the debt. Most gifts in this scene are exactly what they look like. The tell is not generosity. It is generosity that arrives before the relationship has any other content.",
+     "check": "F.L.O.W. — “O” CHECK: “Would I be comfortable saying no to this person tomorrow?” If the gear makes that harder, the gear is doing something other than spinning.",
+     "darkTitle": "The Ledger Nobody Admits Exists",
+     "dark": "The damage is not the moment the ask arrives — it is the weeks before, when you quietly start being easier to be around. You stop raising the thing that bothered you. You go to the thing you did not want to go to. Nobody has threatened anything and there is nothing to report, and if you told a friend they would say he sounds nice. That self-editing in advance of a demand that has not been made is the whole mechanism, and it is the most reliably reported experience of people who later realized they had been managed. If you want to test it cheaply: decline something small this week and watch whether the temperature of the friendship changes.",
+     "move": "Price the gift and settle it — pay something, trade something, or return it. If none of that is possible, say out loud and early what the gift does not buy, which converts an unspoken ledger into a stated one and removes its power.",
+     "say": "These are amazing and I'm not comfortable with a gift this size — let me pay you half, or I'll take them as a loan for the season and get them back to you.",
+     "truth": "A real gift survives you saying no to the giver a week later. Test it early, while the test is cheap."
+    },
+    {
+     "section": "CONDITION",
+     "hook": "SAFETY THIRD",
+     "archetype": "The Culture That Jokes About The Thing That Kills You",
+     "clinical": "Normalized Risk / Social Override of Safety Protocol",
+     "who": "Not a person — a room. The collective eye-roll when someone asks for a safety brief. The laugh when you check your fuel. The lightly impatient veteran waiting while you do a rig inspection everybody else skipped.",
+     "scene": "You are about to burn. The safety is a guy you met an hour ago who is holding a duvetyne blanket like it is a beach towel, and when you ask whether he has done this before he says yeah, loads, and looks at his phone. The circle is waiting. Asking again in front of everyone would make you the difficult one. You have about four seconds to decide whether being the difficult one is worse than the other thing.",
+     "tells": [
+      "Safety checks treated as a personality flaw rather than procedure",
+      "A designated safety who cannot describe what they would actually do",
+      "Fuel handled near lit tools, or depot uncovered",
+      "“Safety third” said in a context where it is not a joke",
+      "Nobody has asked who is calling stop, or what stop sounds like",
+      "The social cost of pausing is visibly higher than the cost of proceeding"
+     ],
+     "happening": "Normalized deviance is the documented process by which a group repeatedly gets away with skipping a step until the skipped step becomes the standard. Every fire and aerial community runs on it to some degree, because the consequence is rare and the friction is constant, and the people most exposed are the newest — who have the least standing to pause and the most to lose by being seen as green. The joke is doing real work here: it pre-frames anyone who insists on the check as humorless, which means the insisting costs something, which means fewer people insist. That is not culture, it is a mechanism, and it runs whether or not anybody in the circle intends it.",
+     "check": "F.L.O.W. — “F” CHECK: “Have I personally checked my fuel, my depot, and my safety — by asking them what they would do?” Secondhand assurance is not a check.",
+     "darkTitle": "The Four Seconds",
+     "dark": "Burn injuries in this scene cluster around exactly this moment — not around difficult tricks, around skipped checks under social pressure with an audience waiting. The specific failure is almost always mundane: fuel too close, a depot uncovered, a safety who had never actually done it, nobody having agreed what the stop call was. And the reason it is mundane is the reason it is preventable. The four seconds of being the difficult one is the entire intervention. People who have been burned describe those four seconds with total clarity afterwards, every time — they remember deciding not to ask again. Ask again. The circle waits, and then forgets by morning, and you do not have a graft.",
+     "move": "Run your own check out loud, every time, in the same words, so it becomes your known habit rather than a comment on this circle: fuel, depot, safety, stop call. Ask the safety one question they have to answer — what do you do if my wick catches my sleeve? Their answer is the check.",
+     "say": "Quick one before I light — what's the stop call, and what do you do if it goes up my arm? Not being difficult, I just do this every time.",
+     "truth": "The circle's patience is not a safety system. Being briefly annoying is cheaper than being briefly on fire."
+    },
+    {
+     "section": "CONDITION",
+     "hook": "YOU'RE ON IN TWENTY, IT'S FINE",
+     "archetype": "The Show Must Go On / Performing Through Injury",
+     "clinical": "Injury Minimization / Occupational Pressure",
+     "who": "The organizer with a running order, the troupe lead with a headcount, and — most often — you, doing the arithmetic about letting people down and arriving at the wrong answer.",
+     "scene": "Your shoulder went on the last rehearsal and you can feel it in a way that is new. You are on in twenty. There is no understudy because there is never an understudy. The set is four minutes. Four minutes is nothing. You have already decided you are doing it, and you are now assembling reasons, which is a different mental activity from deciding and it is worth noticing that you are doing it.",
+     "tells": [
+      "No cover, no contingency, and that is treated as normal",
+      "Your injury is reframed as a scheduling problem",
+      "“It's only four minutes” applied to a load-bearing body part",
+      "Someone else's disappointment is the thing being weighed, not the joint",
+      "You are assembling reasons rather than reaching a decision",
+      "Pulling out has a reputational price everyone can name"
+     ],
+     "happening": "Performing-arts and circus injury research keeps finding the same thing: the significant injuries are disproportionately not freak accidents but re-injuries and compensations, sustained by people who continued while compromised. The economics drive it — no cover, no sick pay, gigs awarded by reputation, and a culture that reads reliability as showing up regardless. In a festival context it is sharper still, because the gig is often unpaid or trade, so you are risking a shoulder for a wristband and the thing keeping you in the air is not money but not wanting to be the person who dropped out.",
+     "check": "F.L.O.W. — “O” CHECK: “Am I deciding, or justifying?” If you are listing reasons, the decision already happened and it was not made by your judgment.",
+     "darkTitle": "What Four Minutes Costs",
+     "dark": "The ugly arithmetic is that four minutes of a compromised shoulder, rotator cuff, or ankle can end a practice you spent a decade building, and the people asking you to do it will have forgotten by the next event. Aerialists lose careers to exactly this. The second half is worse: performing impaired — injured, exhausted, or altered — also puts your base, your spotter, and anybody underneath you at risk, so the loyalty argument that got you into the air is actually pointing the other way. The culture that will pressure you to go on is the same culture that will not cover your physio. Decide accordingly.",
+     "move": "Set the rule before the season, not in the twenty minutes: a named list of injuries that mean you do not perform, agreed with yourself while nothing is at stake. Then it is a policy you are following rather than a judgment you are making under pressure.",
+     "say": "Shoulder's gone, so I'm out tonight — that's firm. I can still do the ground set or safety for someone else if that helps you fill it.",
+     "truth": "Nobody in that crowd will remember the set. You will be carrying the shoulder for thirty years."
+    },
+    {
+     "section": "CONTROL",
+     "hook": "I RIGGED IT MYSELF",
+     "archetype": "The Rigger Who Owns The Point / Life Safety As Leverage",
+     "clinical": "Safety-Critical Dependency / Technical Gatekeeping",
+     "who": "The one with the hardware, the certification everyone assumes he has, and the only ladder. Rigs for everybody. Decides whose point goes up, when, and how high. Has never been asked to show anything.",
+     "scene": "You want to fly and he is the only person here who can hang you. He is warm about it, competent-looking, and slightly dismissive when you ask what the anchor is rated to — he says he has been doing this since before you were spinning. Later he mentions, in the same warm voice, that some people get priority because they are part of the crew and you could be part of the crew.",
+     "tells": [
+      "One person rigs everything and no second competent person exists on site",
+      "Deflects or jokes when asked about ratings, inspection, or load path",
+      "Rigging priority tracks social closeness rather than the running order",
+      "No written check, no second pair of eyes, no logbook",
+      "Access to flying is described as something you earn from him socially",
+      "Asking technical questions is treated as an insult rather than as normal"
+     ],
+     "happening": "Aerial rigging is life safety — a single point failure is a fall from height — and the entire discipline's professional practice is built on redundancy, documentation, and independent inspection precisely because competence cannot be established by reputation. When a festival has one unsupervised rigger, two things are true at once: the technical risk is unmanaged, and a person now controls something people want badly enough to trade for. The second follows from the first. It is the accessible-platform pattern from the A.C.C.E.S.S. guide, with the stakes raised from a good view to your spine.",
+     "check": "F.L.O.W. — “W” CHECK: “Can this person tell me the load path and the rating, without irritation?” Competence explains itself. Only insecurity gets offended by the question.",
+     "darkTitle": "Two Failures Sharing One Cause",
+     "dark": "An unchecked rigger is both a fall risk and a coercion risk, and they are the same structural fact: nobody is watching, and the thing he controls is something you will trade for. That is how these situations run for years without a complaint — the people who could complain need the point, and the people who could check him were never appointed. If you take one thing from this page: a competent rigger will answer a technical question with relief, because it means somebody else in the room is thinking. The irritation is the signal. It means he has not been asked before, and that is the actual finding — not about him specifically, about the whole arrangement.",
+     "move": "Ask the three questions before you ever go up: what is the anchor, what is it rated to, and who checked it besides you. Do not fly on a point nobody but its own rigger has inspected. Find the second competent person on site on arrival — if there is not one, that is your answer about flying this weekend.",
+     "say": "Before I go up — what's the anchor and the rating, and who's your second pair of eyes on it? I ask everyone, it's not about you.",
+     "truth": "Redundancy is the whole discipline. A rig with one person and no check is not a rig, it is a bet."
+    },
+    {
+     "section": "CONTROL",
+     "hook": "THE CLIP'S ALREADY UP",
+     "archetype": "The Filmer / Your Body As Somebody Else's Content",
+     "clinical": "Image Appropriation / Non-Consensual Distribution",
+     "who": "Always filming, often good at it, and operating on the assumption that a public performance is a public license. Sometimes a friend with a phone. Sometimes an account with two hundred thousand followers and a monetization deal.",
+     "scene": "You burned last night. This morning there is a clip of it on an account you have never heard of, forty thousand views, your face clearly visible, your name nowhere, a brand tagged in the caption. The comments are mostly about your body. Somebody has stitched it. You did not know a camera was there, and the account owner, when you message, is genuinely baffled that you are not pleased.",
+     "tells": [
+      "Films without asking and treats performing as blanket consent",
+      "Cannot say where footage will end up or who else gets it",
+      "Credits the venue and the brand but not the performer",
+      "Reacts to a takedown request as though you are being ungrateful",
+      "Monetized account, unmonetized subject",
+      "Costume, aerial, and fire performers get framed body-first"
+     ],
+     "happening": "Performing in public does not transfer your rights in your own image, and it never has — but the practical position is that enforcement is slow, cross-border, and expensive, so the operative protection is the one you set up in advance rather than the one you litigate afterwards. What makes this acute for flow and aerial performers is the combination of revealing costume, physical spectacle, and a distribution system that rewards exactly the framing you did not choose. The version that does real harm is not the friendly clip, it is the reposted one, where it travels without context, without your name, and often into spaces you would never have agreed to.",
+     "check": "F.L.O.W. — “L” CHECK: “Have I said, out loud, before I start, what I consent to being filmed and posted?” Silence gets read as a yes by people who wanted a yes.",
+     "darkTitle": "It Does Not Come Back Down",
+     "dark": "Once a clip is stitched, reposted, and mirrored, there is no version of this where you get it back. The realistic goal is containment, not removal — which is why the work is all front-loaded. State it before the burn, to the organizer and to anyone visibly filming, and get the organizer's media policy in writing when you agree to the gig. The second thing worth knowing is that this is often where a different kind of leverage starts: somebody holding footage of you, and mentioning it. Footage held over a performer is coercion, it is not a grey area, and the response is the same as for any other documentation threat — tell one person now, in writing, so the footage stops being a secret that can be spent.",
+     "move": "Set your policy before you are lit, in one sentence, to the organizer and the circle. Get the event's media terms in writing when you take the booking. Watermark or claim your own footage first so the canonical version is yours.",
+     "say": "Happy to be filmed, not happy to be posted without a tag — credit me or don't put it up. Who's your media lead so I can send them that in writing?",
+     "truth": "A performance is not a release. Saying so takes six seconds and it is the only part of this you control."
+    },
+    {
+     "section": "TOOLS",
+     "hook": "THE THIRTY-SECOND PRE-BURN",
+     "archetype": "The Check You Run Every Time, Out Loud",
+     "clinical": "Safety Protocol / Pre-Performance Checklist",
+     "who": "For every fire, aerial, and prop performer, at every skill level. The veterans who have been hurt are the most rigorous people in any circle, and that is not a coincidence — it is what the injury taught them.",
+     "scene": "You are about to go. There is a circle waiting, a running order slipping, and a version of you that wants to skip this because everything looks fine and everything usually is. This page exists because “usually” is doing an enormous amount of work in that sentence.",
+     "tells": [
+      "Fuel: which fuel, how old, where is the depot, is it lidded and upwind",
+      "Tools: wicks sound, no loose hardware, chains and leaders intact",
+      "Body: hair tied, no synthetics, nothing loose, sober enough to be doing this",
+      "Safety: who, do they have duvetyne, can they say what they would do",
+      "Stop: what is the call, who can make it, does everyone know it",
+      "Rig: anchor, rating, second inspection, and a spotter who is watching you"
+     ],
+     "happening": "Checklists work for the same reason in every high-consequence discipline: they take the decision out of the moment and out of the social context. Reading a list is not a judgment call and cannot be read as a comment on the people present, which is precisely what makes it survivable under an impatient circle. Saying it out loud does the second job — it makes the check public, which means the circle adjusts to it rather than you adjusting to the circle, and it quietly gives permission to the newer performer behind you who was not going to ask.",
+     "check": "F.L.O.W. — “F” CHECK: “Did I run all six, this time, for this burn?” Last burn's check does not cover this one. Fuel moves, safeties change, hardware fails between sets.",
+     "darkTitle": "The Check Is Also Social Cover",
+     "dark": "There is a second reason to do it out loud and it is not about fire. A performer who visibly runs their own checks, asks technical questions, and is comfortable being briefly annoying in front of a circle is a conspicuously bad target for every pattern in this guide — the mentor with the private lesson, the rigger who does not like being asked, the person who wants the footage. Not because it makes you unpleasant, but because all of those depend on you being someone who will not make a small public fuss to avoid an awkward moment. The checklist trains exactly that muscle, thirty seconds at a time, on something where you already know you are right.",
+     "move": "Run the six out loud, in the same order, every single time, until it is your known habit and the circle expects it. Teach it to the newest person there — that is how it becomes the culture rather than your quirk.",
+     "say": "Fuel, tools, body, safety, stop call, rig. — Right, what's the stop call tonight?",
+     "truth": "Every burned performer in this scene can tell you exactly which item they skipped. Run all six."
+    },
+    {
+     "section": "COMMUNITY",
+     "hook": "WHOSE CIRCLE IS THIS",
+     "archetype": "Real Jam Culture Versus A Circle With An Owner",
+     "clinical": "Authentic Practice Space vs Gatekept Hierarchy",
+     "who": "The good version has no owner, teaches sideways, and lets terrible beginners take up space. The other version has a centre, and the centre is a person, and everyone's position is measured by distance from him.",
+     "scene": "Two circles at the same festival. In the first, a woman who has been spinning for twenty years spends eleven minutes helping somebody who picked up poi on Thursday, then goes back to her own practice and never mentions it again. In the second, everyone is subtly performing for one man at the edge, and when he leaves for ten minutes the energy of the whole circle changes, and everybody notices that it did.",
+     "tells": [
+      "Real: beginners get space and nobody is ranked",
+      "Real: teaching flows in every direction, including upward",
+      "Real: you can leave, be bad, or sit out with no cost",
+      "Owned: one person's approval organizes the room",
+      "Owned: access to gear, instruction, or gigs routes through him",
+      "Owned: people describe the circle by his name"
+     ],
+     "happening": "A practice circle is one of the genuinely great things this scene produces — skill transmitted for free, across ages and levels, because somebody once did it for you. It is also a structure with an obvious failure mode: circles with a centre concentrate access, and concentrated access is what every pattern in this guide runs on. The test is identical to the one in every other guide here, which is not an accident: can you decline, be unimpressive, or leave without it costing you? In a real jam the answer is yes and nobody registers it. In an owned one, everybody registers everything.",
+     "check": "F.L.O.W. — “W” CHECK: “If I sat out tonight and said nothing, would anything change for me here?” If sitting out has a price, this circle has an owner.",
+     "darkTitle": "When The Circle Is The Supply Chain",
+     "dark": "It gets serious when the circle is also where the gigs, the gear, and the instruction come from, because then leaving costs your practice and not just your evening. That is the configuration to watch for — not a charismatic person, which is normal and often lovely, but one person sitting across all of it at once. Everybody in that circle can feel it and nobody names it, because naming it is the thing that costs the most. If you are reading this and recognizing your own circle: the others already know, the conversation is easier than you think, and the fix is usually structural rather than confrontational. Two teachers. A second rigger. Somebody else who books.",
+     "move": "Keep your practice plural on purpose — more than one circle, more than one teacher, more than one route to a gig. Then hand skill downward for free, because a circle where everybody teaches cannot develop a centre.",
+     "say": "Come spin with us, we're rubbish and nobody cares. — Here, let me show you the grip, it took me a year to work out and it shouldn't have.",
+     "truth": "A jam that needs a specific person to be good is not a jam. It is an audience with props."
+    }
+   ]
+  },
+  {
    "slug": "create",
    "acronymClass": "fb-g-create",
    "role": "LIVE PAINTERS & ARTISTS",
    "acronym": "C.R.E.A.T.E.",
    "edition": "Live Painters & Artists Edition",
-   "sectionOf": 6,
+   "sectionOf": 10,
    "pages": 15,
    "intro": "Your art is yours. Your body is yours. Your worth is not for sale.",
    "checks": [
@@ -2143,12 +2976,391 @@
    ]
   },
   {
+   "slug": "lens",
+   "acronymClass": "fb-g-lens",
+   "role": "PHOTOGRAPHERS & MEDIA",
+   "acronym": "L.E.N.S.",
+   "edition": "Photographers, Filmers & Media Edition",
+   "sectionOf": 11,
+   "pages": 10,
+   "intro": "You hold two things at once: a camera that gives you access, and a file that belongs to somebody else's life. This guide is about handling both honestly.",
+   "checks": [
+    {
+     "letter": "L",
+     "name": "License Is Not Implied By Location",
+     "desc": "Being in public is not consent to be published. Legality and ethics are different questions and only one of them protects the person in the frame."
+    },
+    {
+     "letter": "E",
+     "name": "Everything You Shoot Is Someone's Monday",
+     "desc": "That frame outlives the weekend. Who sees it, where it lands, and what it costs them at work or at home is your call before you post, not theirs after."
+    },
+    {
+     "letter": "N",
+     "name": "No Means Delete It Now, In Front Of Them",
+     "desc": "A withdrawal of consent is not a negotiation about a good shot. Delete it while they watch, and say you have."
+    },
+    {
+     "letter": "S",
+     "name": "Sell Your Work, Not Your Rights",
+     "desc": "Unpaid, unlimited, perpetual, all media. Festival media contracts take everything by default and most shooters sign without reading."
+    }
+   ],
+   "outline": [
+    {
+     "key": "CAPTURE",
+     "desc": "Access as a lure, the shoot that becomes something else, exposure as payment"
+    },
+    {
+     "key": "CONDITION",
+     "desc": "The frame you did not earn, altered subjects, the long lens"
+    },
+    {
+     "key": "CONTROL",
+     "desc": "Footage held over people, rights grabs, the unpaid perpetual license"
+    },
+    {
+     "key": "TOOLS",
+     "desc": "The consent practice, the delete rule, the contract you actually read"
+    },
+    {
+     "key": "ACCOUNTABILITY",
+     "desc": "What you owe the people in your frames"
+    }
+   ],
+   "sentences": [
+    "Public is not permission. I ask, and I take a no without negotiating.",
+    "If somebody changes their mind, I delete it while they watch.",
+    "I do not shoot people who cannot currently tell me not to.",
+    "My rate is a rate. Exposure is not a currency I accept.",
+    "The file outlives the weekend. I act like it."
+   ],
+   "scenarios": [
+    {
+     "section": "CAPTURE",
+     "hook": "I CAN GET YOU BACKSTAGE",
+     "archetype": "The Camera As A Key / Access Offered In Trade",
+     "clinical": "Access Exploitation / Quid Pro Quo Grooming",
+     "who": "Has a laminate, a long lens, and an unusual amount of freedom of movement. Offers to shoot you, offers to get you in, offers to introduce you — and the offers arrive in a sequence that keeps having a next step.",
+     "scene": "He says your look is incredible and he wants to shoot you properly, and he can get you into the artist area because he shoots for them. The first shoot is professional and the pictures are genuinely the best you have ever had of yourself. The second one he suggests somewhere private for the light, and mentions the festival he shoots in the spring, and asks whether you would want to be involved with that.",
+     "tells": [
+      "Access, introductions and opportunity all route through one person",
+      "Shoots move from public to private across sessions",
+      "Wardrobe or nudity is introduced gradually rather than agreed up front",
+      "The next opportunity is always just ahead and is always in his gift",
+      "No call sheet, no assistant, no third person, no written brief",
+      "The work is good, which is what makes the arrangement hard to leave"
+     ],
+     "happening": "A camera is one of the most efficient access tools at a festival — it explains proximity, justifies attention, licenses photographing strangers, and moves through restricted space. Nearly everyone carrying one is doing the job. But the same properties make it attractive to someone who wants proximity for other reasons, and the pattern is the classic one from the modelling and music industries: real opportunity, real skill, real photographs, with each step requiring slightly more and each step justified by the last. The tell is not creepiness. It is the absence of the ordinary professional furniture — no brief, no third person, no rate, nothing in writing.",
+     "check": "L.E.N.S. — “E” CHECK: “Is there a third person, a written brief, and a stated rate?” Professionals have all three. Their absence is not informality, it is the design.",
+     "darkTitle": "The Photographs Are The Hold",
+     "dark": "The photographs themselves become the leverage, and that is often the point rather than a side effect. Once someone holds images of you — especially anything you agreed to when you were tired, altered, flattered, or halfway through a shoot you did not want to ruin — they hold something that can be released, hinted at, or simply remembered out loud. Nothing has to be threatened. If you are in this: the files existing is not the end of your options, and the fastest way to defuse a hold is to stop it being a secret — tell one person now, in writing, before anything is asked. A secret with two keepers is worth far less to the person holding it.",
+     "move": "Insist on the professional furniture: a written brief, a rate or a clear trade, a third person present, and no private locations for a first shoot. Bring somebody. Somebody wanting to shoot you properly will not mind an assistant; somebody wanting the room will mind a great deal, and that is your answer.",
+     "say": "Sounds great — I'll bring a friend, and can you send me a quick brief and what the usage is? I keep it all written down, it's just how I work.",
+     "truth": "A real photographer wants an assistant, a brief and a release. The ones who want the room empty are telling you what the shoot is for."
+    },
+    {
+     "section": "CONDITION",
+     "hook": "SHE WON'T MIND, SHE'S HAVING A GREAT TIME",
+     "archetype": "The Frame You Did Not Earn / Shooting The Incapacitated",
+     "clinical": "Non-Consensual Capture / Exploitation of Impairment",
+     "who": "You, on a good night, with a great frame in front of you and a legal right to take it and a rationalization already forming. This page is aimed at the photographer, not at the subject.",
+     "scene": "It is four in the morning and she is beautiful and completely gone, sitting on the grass laughing at nothing with her top half off, and it is the best light of the entire weekend. Nobody would stop you. It is a public field. She is not in a position to object and will not remember either way, and you already know that is the reason the shot is available.",
+     "tells": [
+      "The subject could not consent right now if you asked",
+      "You are relying on them not noticing rather than on them agreeing",
+      "The frame's value comes from their state rather than from the moment",
+      "Long lens, from distance, on someone who has not clocked you",
+      "You are constructing a justification before you have taken it",
+      "You would not show them the shot tomorrow and ask"
+     ],
+     "happening": "Legality and ethics part company here completely. In most jurisdictions you may photograph people in public and publish it, and that permission is exactly why the profession needs a standard above it — the law is not doing the work of deciding whether a frame should exist. A person who is incapacitated cannot consent to being photographed any more than they can consent to anything else, and a photographer relying on their impairment has made the same move as everybody else in this book who waits for capacity to drop. The test is simple and it is the one the whole trade runs on: could you show them tomorrow, and would they say yes.",
+     "check": "L.E.N.S. — “L” CHECK: “Could this person consent right now if I asked?” If not, there is no frame here. The camera does not create a permission the situation does not contain.",
+     "darkTitle": "You Are The Risk On This Page",
+     "dark": "Most of this book is about somebody doing something to the reader. This page is the other way round, and it is in here because festival photography has a genuine, ongoing problem with it: the near-nude, the overwhelmed, the passed-out, the person in a crisis at the harm-reduction tent, shot at distance and posted as atmosphere. Those frames circulate for years. They cost people jobs, custody arrangements, and their sense of safety in a place they loved. The photographer is usually not malicious — they are a person who wanted a good shot and let the law answer an ethical question. Do not be that. Tomorrow-test every frame, and when a frame fails it, do not take it rather than not posting it, because files leak and drives get shared.",
+     "move": "Apply the tomorrow test before the shutter, not before the upload. If someone is impaired, in distress, or in a medical or harm-reduction context, put the camera down entirely — and if you have already shot it, delete it now rather than filing it.",
+     "say": "Not shooting that one. — [to a colleague] Mate, she's gone, leave it. Get the crowd instead.",
+     "truth": "The law says you may. The law is not your ethics, and a photograph of somebody's worst night outlives both of you."
+    },
+    {
+     "section": "CONTROL",
+     "hook": "IT'S GREAT EXPOSURE",
+     "archetype": "The Rights Grab / Unpaid, Unlimited, Perpetual",
+     "clinical": "IP Appropriation / Unconscionable Contract Terms",
+     "who": "The media accreditation form nobody reads, and the production manager who genuinely believes a wristband is payment because everybody has always said it is.",
+     "scene": "The accreditation form is four paragraphs and you are filling it in on your phone in a queue. One of those paragraphs assigns the festival a perpetual, worldwide, royalty-free, sublicensable license to everything you shoot, in all media, for any purpose including advertising, with no credit obligation. You tick it because the gate opens in ten minutes and because everyone ticks it.",
+     "tells": [
+      "“Perpetual”, “irrevocable”, “royalty-free”, “all media now known or hereafter devised”",
+      "Sublicensable — meaning sponsors and brands get your work too",
+      "No credit obligation, or credit at their discretion",
+      "Payment described as exposure, access, or a wristband",
+      "The form arrives at the gate, under time pressure, on a phone",
+      "No usage window, no territory limit, no carve-out for your own portfolio"
+     ],
+     "happening": "Festival media terms are among the most aggressive rights grabs in working photography, and they are accepted almost universally because they are presented at the moment of least leverage — at the gate, in a queue, with the job about to start. The result is a marketing archive built for free out of freelancers' work, resold to sponsors, with no credit. This is the M.A.R.K.E.T. guide's exposure problem with a contract stapled to it, and the difference is that here you are signing away the asset itself rather than just working cheap. The good news is that these terms are usually negotiable, because the person holding the clipboard has never been asked.",
+     "check": "L.E.N.S. — “S” CHECK: “What exactly am I licensing, to whom, for how long?” Three answers before you tick. If you cannot state them, do not sign at the gate.",
+     "darkTitle": "You Signed Away The Archive, Not The Weekend",
+     "dark": "The cost is not this festival, it is the decade afterwards. A perpetual sublicensable license means the frame you shot at twenty-three can be sold to a drinks brand at thirty-three without a call, a credit or a fee, and you have no standing to object because you ticked a box in a queue. Shooters discover this years later when their own image turns up on a billboard for something they would never endorse. Ask for the form in advance, by email, before you travel. That one request — the most junior-sounding thing on this page — is the whole defense, because a term you negotiate on Tuesday is a term, and a term you meet at the gate is an ultimatum.",
+     "move": "Request the media terms by email before you commit to the trip. Propose a limited license: twelve months, editorial and social only, credit required, no sublicensing to sponsors, and you keep everything else. Most will accept, because almost nobody asks.",
+     "say": "Can you send the accreditation terms over before I book travel? I usually license twelve months editorial with credit rather than perpetual all-media — happy to work to that.",
+     "truth": "Exposure has never once paid an invoice. The license is the deal, and the gate is the worst place on earth to read one."
+    },
+    {
+     "section": "TOOLS",
+     "hook": "THE CONSENT PRACTICE",
+     "archetype": "How Working Photographers Actually Do This",
+     "clinical": "Consent Protocol / Ethical Capture Practice",
+     "who": "For every shooter, from the phone in the crowd to the one with the laminate. None of this slows you down after the first weekend, and all of it is what separates a photographer people trust from one they warn each other about.",
+     "scene": "The whole practice is four habits and they take about three seconds each. The reason to build them now is that the moment you need them — somebody upset, somebody's partner asking, somebody who saw themselves on an account — is not a moment when you want to be inventing a policy.",
+     "tells": [
+      "Ask before, not after — a raised camera and a look is often enough",
+      "Say where it is going: personal, editorial, client, socials, with credit or not",
+      "If they are impaired, in distress, or with kids: no frame, no exceptions",
+      "If a no arrives later, delete it while they watch and tell them you have",
+      "Hand over a card or a handle so people can reach you",
+      "Never post a stranger's face with a caption that mocks them"
+     ],
+     "happening": "Consent practice is what makes the difference between a photographer who gets access and one who gets asked to leave, and it compounds: people who have been treated well introduce you, tip you off, and let you shoot things nobody else gets to shoot. It is also the cheapest professional insurance available, because almost every media dispute at a festival starts with somebody who was photographed without being asked and had no way to reach the person who did it. Being findable is half the practice. Deleting on request is the other half, and it costs you one frame out of two thousand.",
+     "check": "L.E.N.S. — “N” CHECK: “If they asked me to delete this right now, would I do it without arguing?” If the answer is no, you are treating the file as more important than the person, and you will eventually be the story.",
+     "darkTitle": "The Delete Is The Whole Reputation",
+     "dark": "Deleting in front of somebody, immediately and without negotiation, is the single most reputationally valuable thing a festival photographer can do, and it is also the one most of them get wrong. The instinct is to explain — that it is a great shot, that you would not post it, that you shoot for the festival. Every word of that reads as a negotiation over whether their no counts, and it is remembered that way. Delete first. Say you have. Explain nothing. People talk to each other, and the photographers who become trusted in a scene are trusted for exactly this, not for their portfolio.",
+     "move": "Build the four habits until they are automatic, and put your handle on a sticker on your camera strap so anybody can find you afterwards. Practise the delete — do it once, cheerfully, and notice it costs you nothing.",
+     "say": "Mind if I grab one? It's for my own stuff, I'd tag you. — [later] Course, deleting it now, look — gone. All good.",
+     "truth": "One deleted frame costs you nothing. The reputation for deleting without arguing is worth more than any shot you will take this weekend."
+    },
+    {
+     "section": "ACCOUNTABILITY",
+     "hook": "WHERE THAT PHOTO LANDS",
+     "archetype": "What You Owe The People In Your Frames",
+     "clinical": "Publication Ethics / Downstream Harm Awareness",
+     "who": "You, at home on the Tuesday, with two thousand frames and a deadline and no one watching what you select.",
+     "scene": "There is a frame in there of somebody mid-breakdown at the edge of a crowd, and it is the best photograph you took all weekend. It says something true about the whole event. Nobody would ever know who they are except everyone who knows them, which at a festival of this size is probably four hundred people.",
+     "tells": [
+      "Would this person be fine with their employer, family or ex seeing this",
+      "Are they identifiable to people who know them, even if not to strangers",
+      "Are they in a medical, harm-reduction, welfare or crisis context",
+      "Is anybody in the frame a minor, and is anybody outed by it",
+      "Would you be comfortable sending it to them before you post it",
+      "Is this frame about the festival, or about them specifically"
+     ],
+     "happening": "Selection is where the ethics actually live — the shutter is a reflex, the edit is a decision made with time and without pressure, and that is the moment you are accountable for. Festival crowds contain people who are not out, people whose employers do not know they are here, people in custody disputes, people in recovery, people who are somewhere they told someone else they were not. None of that is visible in the frame and all of it is downstream of your upload. You cannot check for every case, which is exactly why the general rules exist: no crisis contexts, no minors without a parent's yes, no identifiable faces in compromising states, and send it to them first when you are unsure.",
+     "check": "L.E.N.S. — “E” CHECK: “Am I willing to send this to the person in it before it goes up?” If not, that reluctance is the answer, and you already know what it means.",
+     "darkTitle": "The Best Frame Is Usually The One To Kill",
+     "dark": "The photographs that do the most damage are almost never the careless ones — they are the excellent ones, because those are the ones that travel. A brilliant frame of somebody at their worst gets shared precisely as far as it is good, and the person in it spends a year meeting it. If you shoot festivals for long enough you will take a frame that is genuinely the best work of your career and should never be published, and what you do with that frame is the whole of your professional character. Nobody will ever know you killed it. That is rather the point.",
+     "move": "Make the edit a separate session with the rules in front of you, not a scroll at 1am. When a frame is strong and you are unsure, send it to the subject and let them decide — most say yes, and the ones who say no are the ones that would have been the problem.",
+     "say": "Hey — took this of you on Saturday, think it's a great shot. Only posting it if you're happy, no hard feelings either way.",
+     "truth": "Your best photograph is not automatically a photograph you are allowed to publish. The edit is where you find out what kind of photographer you are."
+    }
+   ]
+  },
+  {
+   "slug": "heal",
+   "acronymClass": "fb-g-heal",
+   "role": "HEALERS & PRACTITIONERS",
+   "acronym": "H.E.A.L.",
+   "edition": "Healers & Practitioners Edition",
+   "sectionOf": 12,
+   "pages": 12,
+   "intro": "You work on people at their most open. This guide is about protecting them, and protecting you — and about the practitioners who use the same door.",
+   "checks": [
+    {
+     "letter": "H",
+     "name": "Hands Need Spoken Permission",
+     "desc": "Every session, every new area, out loud, before contact. A body on your table has not pre-agreed to anything it has not heard described."
+    },
+    {
+     "letter": "E",
+     "name": "Evidence Of Training, Or Say So",
+     "desc": "Name your actual qualification and its actual limits. Borrowed authority is the first move of every false practitioner in this scene."
+    },
+    {
+     "letter": "A",
+     "name": "Altered States Cannot Consent Forward",
+     "desc": "A yes given before a state cannot cover what happens inside it, and a yes given during one is not a yes. This is the whole line."
+    },
+    {
+     "letter": "L",
+     "name": "Leave The Dual Relationship Alone",
+     "desc": "Client, then lover, then integrator, then landlord. Every role you add removes one exit they had."
+    }
+   ],
+   "outline": [
+    {
+     "key": "CAPTURE",
+     "desc": "Borrowed credentials, the lineage that cannot be checked, recruitment of the vulnerable"
+    },
+    {
+     "key": "CONDITION",
+     "desc": "Consent inside altered states, scope creep, the session that keeps extending"
+    },
+    {
+     "key": "CONTROL",
+     "desc": "Dual relationships, integration dependency, silencing through spiritual framing"
+    },
+    {
+     "key": "TOOLS",
+     "desc": "The spoken consent brief, scope limits, referral and insurance discipline"
+    },
+    {
+     "key": "ACCOUNTABILITY",
+     "desc": "Being a practitioner people can safely report, and what you owe when it is you"
+    }
+   ],
+   "sentences": [
+    "I say what I am about to do before I do it, every time, out loud.",
+    "I name my training and its limits without being asked.",
+    "A yes from before the medicine does not cover during the medicine.",
+    "I do not integrate someone I have a personal stake in. I refer.",
+    "If somebody raises something about me, the first job is not defending myself."
+   ],
+   "scenarios": [
+    {
+     "section": "CAPTURE",
+     "hook": "I TRAINED WITH A LINEAGE",
+     "archetype": "The Unverifiable Credential / Borrowed Authority",
+     "clinical": "Credential Fabrication / Appeal to Unfalsifiable Lineage",
+     "who": "Speaks with total calm certainty about where the work came from. Names a teacher, a region, a tradition, a number of years. Everything he says is structurally impossible to check, and he chose it for that reason.",
+     "scene": "He says he trained for nine years with a lineage holder in a place you would have to fly to, whose name he gives softly, as though saying it too loudly would be disrespectful. Nobody in this tent is going to fact-check that. Nobody in this tent could. And you notice, as he says it, that the reverence in his voice is doing all the work that a certificate would otherwise have to do.",
+     "tells": [
+      "Credentials that cannot be verified by design — remote, oral, or a deceased teacher",
+      "Reverence used to make questions feel rude",
+      "No insurance, no professional body, no supervisor, no complaints route",
+      "Scope that expands to whatever you need — trauma, grief, fertility, diagnosis",
+      "Vague about the parts a trained person is precise about: contraindications, referral, limits",
+      "Gets cooler toward anyone who asks a second question"
+     ],
+     "happening": "Every regulated healing profession is built on three things a false practitioner cannot supply: a checkable qualification, a body that can remove you, and a named limit to your scope. Unverifiable lineage is chosen precisely because it substitutes for all three at once — authority without accountability. It is the single most common structure in this scene's abuse cases, and the reason is not mysticism, it is architecture. The honest practitioners with real traditional training are usually the easiest people in the world to ask about it; they will tell you their teacher, their years, what they do not do, and who they refer to. Precision is the tell in both directions.",
+     "check": "H.E.A.L. — “E” CHECK: “Can I name this person's training, their limits, and who they answer to?” Three blanks is not a lineage. It is a costume.",
+     "darkTitle": "Unfalsifiable Is The Feature",
+     "dark": "Pay attention to what the claim is built out of: every element is unfalsifiable on purpose. Far away, long ago, orally transmitted, teacher deceased, tradition that does not certify. A person inventing a credential does not pick a claim you could check, and the ones who pick unfalsifiable claims are not being humble about the ineffable — they are engineering a position where doubting them is a spiritual failing rather than due diligence. That inversion is the actual product, because it is what makes the later stuff survivable: once questioning him reads as your resistance, the room will help him. Ask the second question. His temperature when you do is more informative than the answer.",
+     "move": "Ask three plain questions in a friendly voice: who trained you, what do you not do, and who would I talk to if I had a problem with a session. Ask them in front of other people. Write down what he says.",
+     "say": "Love the sound of that — who did you train with, and what's outside your scope? And if I had a concern afterwards, who's the person I'd raise it with?",
+     "truth": "Real practitioners answer credential questions with relief. Only a costume is insulted by them."
+    },
+    {
+     "section": "CONDITION",
+     "hook": "JUST RELAX INTO IT",
+     "archetype": "Scope Creep On The Table / The Session That Keeps Extending",
+     "clinical": "Boundary Erosion / Progressive Scope Violation",
+     "who": "Booked for one thing, doing a slightly different thing by minute twenty. Narrates it as responsiveness — the body asked for it, the energy moved there. Never quite announces the change, which is how you end up somewhere you did not agree to.",
+     "scene": "You booked a shoulder session. Forty minutes in, his hands are on your ribs and then lower and he is saying something about where the grief is held, and you are running an internal calculation about whether objecting would make you the person who does not understand the work. He has not done anything you could name. He has moved four times, and each individual move was two inches.",
+     "tells": [
+      "Contact moves to new areas without being named beforehand",
+      "Changes framed as the body's request rather than a practitioner's decision",
+      "Draping, positioning, or clothing renegotiated mid-session",
+      "Session runs long without being re-agreed",
+      "Objecting is pre-framed as not understanding the modality",
+      "Each step is small enough to be deniable; the sequence is not"
+     ],
+     "happening": "Progressive boundary erosion is the documented mechanism in the overwhelming majority of bodywork and therapeutic misconduct cases, and it works because a body on a table is passive, undressed, prone, and socially committed to trusting the person touching it. Each two-inch move is individually defensible, which is the design — the practitioner is not testing whether you consent, he is testing whether you will interrupt. That is why the professional standard in every legitimate manual therapy is spoken permission before each new region, every session, regardless of history. It removes the thing being exploited, which is your reluctance to be the one who makes it weird.",
+     "check": "H.E.A.L. — “H” CHECK: “Did they say what they were about to do, before they did it?” Unannounced contact is the violation, whatever it turns out to be.",
+     "darkTitle": "They Are Testing The Interrupt, Not The Consent",
+     "dark": "Understanding this changes what you watch for. He is not building toward a moment where you agree — he is establishing that you do not interrupt, because a person who did not object at two inches is statistically less likely to object at four, and he knows it. That is also why the recovery from this is so hard afterwards: you will interrogate your own silence rather than his sequence. Put it down. The obligation was never on the person lying face-down and half-dressed to narrate the boundary. It was on the trained professional to announce the next move, and he chose not to, repeatedly, which is the finding.",
+     "move": "Interrupt early and cheaply, because the first interruption is the whole thing — it costs almost nothing at minute five and everything at minute forty. Sit up. Sitting up ends the physical frame, and you can be polite from upright.",
+     "say": "Stop there — I booked shoulders, I want to stay on shoulders. — I'm going to sit up for a minute.",
+     "truth": "You do not owe a practitioner the benefit of the doubt while they are touching you. That is exactly the wrong moment for generosity."
+    },
+    {
+     "section": "CONTROL",
+     "hook": "THE MEDICINE CHOSE THIS",
+     "archetype": "Spiritual Framing As A Consent Override",
+     "clinical": "Ceremonial Coercion / Consent Override in Altered States",
+     "who": "Holds the container, poured the cup, and is the only person in the room who is not altered. Interprets what is happening for everyone, including for you, including about you. Is never wrong inside the frame he built.",
+     "scene": "You are four hours into something and the room has stopped having edges. He sits down close and says the medicine has shown him that you and he are meant to work together more deeply, that your resistance is the thing the work is for, and that this is the part where people either open or run. You cannot currently construct a sentence. He knows that. That is the reason this conversation is happening now and not on Tuesday.",
+     "tells": [
+      "The pitch arrives while you are altered and not before",
+      "Your hesitation is renamed as resistance, fear, or ego",
+      "He is the sole interpreter of what the experience means",
+      "Pre-ceremony agreements about touch are revised mid-ceremony",
+      "Nobody sober is in the room who is not him",
+      "Leaving is framed as spiritually dangerous or as abandoning the work"
+     ],
+     "happening": "This is the single most important line in this guide: a consent given before an altered state cannot cover what happens inside it, and a consent given during one is not consent, because capacity is the thing the substance removed. Every serious ceremonial ethic in the world states it — no romantic or sexual contact with participants, no revision of agreements mid-state, a sober second person present. The reason is not squeamishness, it is that the facilitator holds total interpretive authority over someone who cannot currently evaluate interpretations. Any framework where your objection is proof the framework is working is not a spiritual technology. It is a closed loop, and closed loops are what this book calls a cage.",
+     "check": "H.E.A.L. — “A” CHECK: “Is this being asked of me now because now is when I cannot assess it?” Timing is the tell. A real invitation survives Tuesday.",
+     "darkTitle": "The Loop Where Your No Is Evidence",
+     "dark": "The structure to name is the unfalsifiable loop: agreement proves the medicine is working, and refusal proves you have more work to do. Once that loop is running there is no answer you can give that exits it, which means the conversation was never a request. It is the same architecture as the unverifiable lineage on the first page of this guide and it is built by the same person for the same reason. This is also where the room turns — other participants, sincerely, will help, because they are inside the frame too and your resistance genuinely looks to them like fear. That is why the protection has to be structural and installed beforehand: a sober ally physically present, an agreement in writing, and someone outside the ceremony expecting to hear from you.",
+     "move": "Set it before you sit down, in writing, and give a copy to someone not in the room: no touch beyond what is named, no agreements revised during, and a sober person of your choosing present. If you are already in it — you are allowed to say nothing, stand up, and walk to the sober person. You do not have to win the argument.",
+     "say": "Before we start: nothing gets renegotiated once I've drunk. Anything you want to propose, propose it on Tuesday. — [in the moment] I'm not discussing this now. I'm going to sit with Nadia.",
+     "truth": "Anything that is only true while you are altered is not true. It is just unopposed."
+    },
+    {
+     "section": "CONTROL",
+     "hook": "I'LL WALK YOU THROUGH INTEGRATION",
+     "archetype": "The Integrator / Dependency After The Fact",
+     "clinical": "Dual Relationship / Post-Session Dependency",
+     "who": "The same person who facilitated, now offering to be the one who helps you make sense of it — for a fee, or for closeness, or both. Often kind. Almost always the wrong person for the job.",
+     "scene": "The ceremony was enormous and you are not okay and he is the only person who was there and understands. He offers weekly calls. Then he offers to have you stay. Then there is a retreat he thinks you should be at, and a role in his organization, and at no point was there a moment where you decided any of this — there was a moment where you needed help and he was standing there.",
+     "tells": [
+      "The facilitator is also the integrator, the landlord, the employer, or the partner",
+      "Your understanding of your own experience routes entirely through him",
+      "Cost escalates — money, time, proximity, loyalty",
+      "He discourages outside therapy, framed as it not understanding the work",
+      "Leaving the relationship would mean losing your sense of what happened to you",
+      "Nobody independent has ever spoken to you about that ceremony"
+     ],
+     "happening": "Dual relationships are prohibited in every clinical code for one reason: each additional role removes an exit. When your facilitator is also your integrator, you cannot process a bad experience of him with anyone but him, and a person's interpretation of their own most vulnerable hours becomes something another person authors. Post-ceremonial suggestibility is real and elevated for a meaningful period afterwards, which makes that window the highest-leverage one that exists. An honest practitioner treats it as the most dangerous part of their work and refers out. That referral is the single clearest marker of a real one.",
+     "check": "H.E.A.L. — “L” CHECK: “How many roles does this person hold in my life?” One is a relationship. Three is an enclosure.",
+     "darkTitle": "Who Authors What Happened To You",
+     "dark": "The lasting damage here is not financial and it is not even always sexual — it is authorship. If the only person who can tell you what your ceremony meant is the person who ran it, then a harm that occurred inside it is uninterpretable to you without his help, and he will help. People come out of these arrangements years later describing the disorientation of realizing they had no independent memory of their own experience, only his account of it. The counter is boringly practical and it has to be arranged in advance, while you still think you will not need it: a separate integrator, booked before the ceremony, who has never met the facilitator.",
+     "move": "Separate the roles before you go in — book your integration with someone unconnected, ideally a licensed therapist familiar with this territory. Keep one relationship outside the whole ecosystem. If you are already inside it, the first move is one outside conversation, not a confrontation.",
+     "say": "I've got integration booked with someone separate — I keep those roles apart on principle. Can you send me your notes for them?",
+     "truth": "Nobody should be both the person who took you in and the only person who can bring you back."
+    },
+    {
+     "section": "ACCOUNTABILITY",
+     "hook": "WHEN THE PRACTITIONER IS YOU",
+     "archetype": "The Page For Your Own Practice",
+     "clinical": "Practitioner Accountability / Power Differential Awareness",
+     "who": "You. Honest, well-trained, in this for the right reasons, and holding more power in every session than the frame of healing makes it easy to notice.",
+     "scene": "A client tells you, three weeks later, that something in a session did not sit right. Your entire body wants to explain — what you actually did, what the modality is, what they may have misread. That impulse is normal, it is human, and it is the exact moment where good practitioners become bad ones. What you do in the next sixty seconds is your whole ethics, and it is not a feeling, it is a procedure.",
+     "tells": [
+      "You are the only one who could say what happened in that room",
+      "Your client was undressed, prone, altered, or grieving — sometimes all four",
+      "Attraction to a client has arisen and you have not told a supervisor",
+      "You have extended a session, or a role, because it felt right in the moment",
+      "You have no supervisor, no insurance, and no complaints route",
+      "Your first instinct on hearing a concern is to explain rather than to hear"
+     ],
+     "happening": "The power differential in this work does not switch off because your intentions are good. You control the room, the interpretation, the duration, and the narrative afterwards, and your client is frequently in a state they cannot fully assess. That is why every regulated profession requires supervision, insurance, a scope statement, and a complaints route that does not run through you — not because practitioners are assumed to be predators, but because an unsupervised practitioner cannot self-detect drift. The false shaman this guide opens with relies on the entire field being unregulated. The way honest practitioners take that cover away is by visibly having the things he cannot have.",
+     "check": "H.E.A.L. — “L” CHECK: “If a client wanted to complain about me, could they — to someone who is not me?” If not, you are running the same structure as the person you would never want to be.",
+     "darkTitle": "Nobody Decides To Become That Person",
+     "dark": "Read the misconduct literature and the pattern is remarkably consistent: almost nobody sets out to do it. It goes one session long, then one region unannounced, then one dual relationship, then a rationalization that the work required it — and each step was taken by somebody who believed themselves to be a good practitioner, because they were, right up until they were not. Supervision exists because that drift is invisible from inside. If you are reading this and one specific session came to mind: that is not proof you are a bad practitioner, it is the ordinary early warning this whole page is for. Take it to a supervisor this week. The ones who never take anything to anyone are the ones this ends badly for.",
+     "move": "Build what the false ones cannot fake: insurance, a named supervisor you actually use, a written scope with limits, a spoken consent brief every session, and a complaints route that bypasses you — published. If a concern comes to you, the first response is thank you for telling me, and the second is a referral to that route. Not an explanation.",
+     "say": "Thank you for telling me — that took something. I'm not going to defend myself at you. Here's the person you can take it to independently, and I'll cooperate with whatever they ask.",
+     "truth": "The practitioner people can safely complain about is the one worth going to. Be the one with a route that does not run through you."
+    },
+    {
+     "section": "TOOLS",
+     "hook": "THE SPOKEN CONSENT BRIEF",
+     "archetype": "The Ninety Seconds Before Any Hands",
+     "clinical": "Informed Consent Protocol / Session Framing",
+     "who": "For practitioners, and for anyone about to get on a table, into a container, or under someone's hands. Ninety seconds, said out loud, every session, including with the client you have seen forty times.",
+     "scene": "The brief is the thing that makes the rest of this guide unnecessary. It is also the thing that gets skipped first, because it feels clinical and the work is supposed to feel sacred — and that feeling is precisely what every pattern in this guide has been exploiting. Said once, it converts an unspoken understanding into a shared agreement, and unspoken understandings are the medium predators swim in.",
+     "tells": [
+      "Name the modality and what it actually involves, in plain words",
+      "Name every area you will work on, and what stays covered",
+      "Name what is outside your scope and who you refer to",
+      "Say how long, and that any extension gets re-agreed out loud",
+      "Say that stop ends it instantly, with no explanation owed and no cost",
+      "Say who they can raise a concern with who is not you — and mean it"
+     ],
+     "happening": "Every documented mechanism in this guide — scope creep, unannounced contact, sessions that extend, agreements revised mid-state — fails against a brief that was given out loud beforehand. Not because a bad practitioner will not try, but because the client now has a stated baseline to notice the departure from, and noticing is the whole difficulty. This is the same logic as the pre-burn check in F.L.O.W. and the access plan in A.C.C.E.S.S.: front-load the decisions to a moment when everyone is clear-headed, so the moment of pressure only requires recognition rather than judgment.",
+     "check": "H.E.A.L. — “H” CHECK: “Was the brief given out loud this session — not implied, not last time?” If it was skipped, that is the first departure, and it happened before anything else did.",
+     "darkTitle": "Who Objects To Ninety Seconds",
+     "dark": "There is diagnostic value in offering it. Honest practitioners are glad of the brief — it protects them as much as the client, and most will tell you it has saved them from a misunderstanding at some point. A practitioner who finds it cold, clinical, unnecessary between people who trust each other, or contrary to the flow of the work is telling you that they prefer the ambiguity, and ambiguity has exactly one beneficiary in a room where one person is dressed and standing. You are allowed to ask for it as a client. The answer you get is worth more than the ninety seconds.",
+     "move": "Practitioners: write yours, six lines, and say it every time until it is automatic. Clients: if nobody gives you one, ask — what will you be working on, what stays covered, how long, and who do I talk to if something feels off.",
+     "say": "Before we start: shoulders and upper back only, everything else stays covered, fifty minutes, and if I want to go anywhere else I'll ask you first. Stop ends it immediately, no explanation needed. And if anything sits badly afterwards, here's who you can talk to who isn't me.",
+     "truth": "Ninety seconds of plain speech removes most of what is in this guide. That is why the people in this guide skip it."
+    }
+   ]
+  },
+  {
    "slug": "sound",
    "acronymClass": "fb-g-sound",
    "role": "MUSICIANS & TOURING",
    "acronym": "S.O.U.N.D.",
    "edition": "Musicians & Touring Edition",
-   "sectionOf": 7,
+   "sectionOf": 13,
    "pages": 17,
    "intro": "Your music is the power. Don't let anyone else hold the switch.",
    "checks": [
@@ -2530,7 +3742,7 @@
    "role": "VENDORS & MARKET ARTISTS",
    "acronym": "M.A.R.K.E.T.",
    "edition": "Vendors & Market Artists Edition",
-   "sectionOf": 8,
+   "sectionOf": 14,
    "pages": 17,
    "intro": "Your booth is your business. Your inventory is your livelihood. Protect both.",
    "checks": [
@@ -2917,7 +4129,7 @@
    "role": "STAFF & VOLUNTEERS",
    "acronym": "H.O.L.D.",
    "edition": "Staff & Volunteers Edition",
-   "sectionOf": 9,
+   "sectionOf": 15,
    "pages": 16,
    "intro": "You hold the event together. This guide holds you together while you do it.",
    "checks": [
@@ -3268,12 +4480,218 @@
    ]
   },
   {
+   "slug": "build",
+   "acronymClass": "fb-g-build",
+   "role": "BUILD CREW & INSTALLATION",
+   "acronym": "B.U.I.L.D.",
+   "edition": "Build Crew & Installation Edition",
+   "sectionOf": 16,
+   "pages": 12,
+   "intro": "You are on site two weeks before anyone else and you leave after the lights go. This guide is for the part of the festival nobody photographs.",
+   "checks": [
+    {
+     "letter": "B",
+     "name": "Barter Is Still A Contract",
+     "desc": "Wristband, food, a bunk, a credit — if you are working for it, it has terms. Get them in writing before the first shift."
+    },
+    {
+     "letter": "U",
+     "name": "Unsafe Is A Full Stop",
+     "desc": "You are allowed to refuse a task. Fatigue, missing PPE, bad rigging, no banksman. The site's schedule is not your liability."
+    },
+    {
+     "letter": "I",
+     "name": "Isolation Is The Risk Multiplier",
+     "desc": "Half-empty site, night shift, no medical yet, no phone signal. Everything in this book gets more dangerous when nobody is around."
+    },
+    {
+     "letter": "L",
+     "name": "Log It While It Is Fresh",
+     "desc": "Hours, incidents, changes to the deal, who said what. Build runs on memory and goodwill, and both get rewritten at settle-up."
+    },
+    {
+     "letter": "D",
+     "name": "Danger Of The Ninety-Sixth Hour",
+     "desc": "Most build injuries happen late in a long stretch to experienced people. Tiredness is the hazard, not inexperience."
+    }
+   ],
+   "outline": [
+    {
+     "key": "CAPTURE",
+     "desc": "Recruitment by passion, the deal that changes, crew as family"
+    },
+    {
+     "key": "CONDITION",
+     "desc": "Fatigue, unsafe tasks, night-shift isolation, PPE that never arrives"
+    },
+    {
+     "key": "CONTROL",
+     "desc": "Wages withheld, accommodation as leverage, blacklisting"
+    },
+    {
+     "key": "TOOLS",
+     "desc": "The written deal, the hours log, the refusal script, the buddy rule"
+    },
+    {
+     "key": "COMMUNITY",
+     "desc": "Real crew solidarity versus a family that only takes"
+    }
+   ],
+   "sentences": [
+    "If I am working for it, it has terms, and the terms are written down.",
+    "I can refuse an unsafe task and keep my place. If I cannot, that is the whole problem.",
+    "Nobody works at height or with plant alone on a dark site.",
+    "I log my hours the day I work them, not at settle-up.",
+    "Crew who only call it family when they are asking are not family."
+   ],
+   "scenarios": [
+    {
+     "section": "CAPTURE",
+     "hook": "WE'RE NOT A COMPANY, WE'RE A FAMILY",
+     "archetype": "The Crew That Pays In Belonging",
+     "clinical": "Familial Framing / Labor Obligation Substitution",
+     "who": "Warm, genuinely bonded, and absolutely running on unpaid hours. Recruits on love of the work. Uses family language exactly where a normal employer would use a contract, and only ever in the direction of asking.",
+     "scene": "The build crew is the best group of people you have ever worked with and the first four days are the happiest you have been in a year. On day five you realize nobody has mentioned money since the first conversation, the sixteen-hour days have become the schedule rather than the exception, and when you ask about the rate the lead says, kindly, that this is not really that kind of thing, that everybody here is doing it for the same reason, and that the family looks after each other.",
+     "tells": [
+      "Family language appears exactly where terms should be",
+      "No written agreement, and asking for one reads as a trust problem",
+      "Hours expand without the deal changing",
+      "Asking about money is treated as a character flaw rather than a question",
+      "Looking after each other is invoked when asking, never when paying",
+      "Everyone senior has a real job title in the outside world"
+     ],
+     "happening": "Familial framing is the most efficient way to extract labor, because it converts a commercial question into a loyalty question — and once that conversion has happened, asking about your rate makes you the person who does not love the thing, in front of people whose respect you now depend on. Build crews are especially exposed because the work is genuinely joyful, the bonds are genuinely real, and the culture genuinely is one of mutual aid. All of that is true and none of it is a contract. The test is directional: notice whether family gets invoked when something is being asked of you, or also when something is owed to you.",
+     "check": "B.U.I.L.D. — “B” CHECK: “If I could not work another shift from tomorrow, what would I actually be owed — in writing?” If the answer is a feeling, you do not have a deal.",
+     "darkTitle": "Family Is Load-Bearing In One Direction",
+     "dark": "Watch what happens at the edges, because that is where the frame reveals itself. Somebody gets injured on a family crew and discovers there is no insurance, no sick pay, and no employer, because they were never an employee — they were family, and family has no legal standing. Somebody raises a concern about a senior member and discovers the family closes, because a family protects its own and you are the newest one. That is the same mechanism the cult chapter of this scene's literature describes, arriving in work boots. It does not mean the warmth is fake. It means warmth is not a substitute for terms, and the crews that have both are the ones worth staying with.",
+     "move": "Get the deal in a message before the first shift — hours, what you get, what happens if you are injured, who pays for the ferry home. A text is a written agreement. Then keep working and enjoy the crew, which is genuinely one of the best things in this scene.",
+     "say": "Love it here, in for the full build. Can you drop me a quick message with the hours and what the deal covers — mostly so I know where I stand if I get hurt.",
+     "truth": "A real family will write it down without being wounded about it. Only the extractive version treats the question as an insult."
+    },
+    {
+     "section": "CONDITION",
+     "hook": "THE NINETY-SIXTH HOUR",
+     "archetype": "Fatigue As The Actual Hazard",
+     "clinical": "Cumulative Fatigue / Impairment-Equivalent Performance",
+     "who": "Nobody. This one is the schedule. Day nine of a build, fourth consecutive sixteen-hour day, everybody running on catering coffee and the fact that the gates open Thursday whatever happens.",
+     "scene": "You have been awake for nineteen hours and you are about to make a cut you have made a thousand times. The thing is you have made it a thousand times, which is why you are doing it now instead of stopping, and which is also why your hands are doing it while your attention is somewhere else. Everyone around you is in the same state and nobody is going to be the one who says the crew should stand down, because the schedule is the schedule.",
+     "tells": [
+      "Consecutive long shifts with no rostered rest",
+      "Experienced people making basic errors and laughing about it",
+      "Microsleeps, dropped tools, losing the thread mid-sentence",
+      "Safety-critical work scheduled at the end of shifts rather than the start",
+      "Nobody empowered to stop the job without it being a confrontation",
+      "The build is behind and that has quietly become everyone's justification"
+     ],
+     "happening": "Sustained sleep restriction degrades reaction time, judgment, and risk assessment measurably, and past roughly seventeen to nineteen hours awake the impairment is comparable to being over the legal driving limit — with the extra problem that self-assessment degrades alongside performance, so the more impaired you are the more confident you feel. Occupational injury data across construction and events points the same way: serious incidents cluster late in long stretches, among experienced workers, on routine tasks. The hazard is not the dangerous job you were nervous about. It is the easy one you have done a thousand times, at hour nineteen.",
+     "check": "B.U.I.L.D. — “D” CHECK: “How long have I been awake, and is this task one I would let a drunk person do?” If you would not, the honest answer is that the site currently has one.",
+     "darkTitle": "Competence Is Why It Gets You",
+     "dark": "The cruel part is that skill is the risk factor here, not the protection. Novices are slow and frightened, which keeps their attention on the task. Experienced hands run the cut on autopilot, which is exactly the faculty fatigue takes first, and it is why the amputations and the falls in this industry belong overwhelmingly to people who had done that job for years. There is a second layer specific to build: the incident happens on a site with no medical yet, no public, thin signal, and everyone else also exhausted. The margin you are relying on is not there. Stopping is not weakness on a build crew — it is the only intervention with any evidence behind it.",
+     "move": "Name it as a crew rather than as an individual, because the social cost is what keeps it running: agree a hard stop hour for safety-critical work, and agree that anyone can call fatigue on anyone without argument. Schedule the height work, the plant, and the blades for the start of a shift.",
+     "say": "I'm nineteen hours in — I'm not cutting tonight, I'll do it first thing and it'll be better work. Anyone else past it should say now, nobody's keeping score.",
+     "truth": "The most experienced person on site is the one most likely to be hurt at hour ninety-six. That is not an insult. It is the data."
+    },
+    {
+     "section": "CONDITION",
+     "hook": "IT'S JUST YOU OUT THERE TONIGHT",
+     "archetype": "The Half-Built Site / Isolation Before The Festival Exists",
+     "clinical": "Environmental Isolation / Absent Safety Infrastructure",
+     "who": "The site itself, during load-in. Dark, enormous, mostly empty, with the medical tent not up yet, security not started, no public, patchy signal, and people you have never met driving plant around in the dark.",
+     "scene": "You are finishing a run of cable at the far end of a field at eleven at night. There is one work light. The nearest other human is about four hundred metres away and does not know exactly where you are. Your phone has one bar. Every single protection this festival will have by Friday — rangers, medical, welfare, crowds of witnesses — does not exist yet, and will not for six days.",
+     "tells": [
+      "Lone working at night with nobody holding your location",
+      "Medical, welfare, and security not yet operational on site",
+      "Plant moving in the dark without a banksman",
+      "No radio, or a radio on a channel nobody is monitoring",
+      "Accommodation shared with people who have not been vetted at all",
+      "No headcount — nobody would notice by morning"
+     ],
+     "happening": "Everything else in this book assumes a populated festival: witnesses, a medical tent you can walk to, rangers, other people's phones. Build phase has none of that, and it is also when the workforce is smallest, least known to each other, and most exhausted. Two separate risks stack in that gap — the industrial one, where an ordinary injury becomes serious because nobody finds you for two hours, and the interpersonal one, where every pattern in this book operates without any of the infrastructure that usually constrains it. Crew accommodation in particular is often a field of strangers with no vetting and no lock, which is not a comment on crew, it is a description of the conditions.",
+     "check": "B.U.I.L.D. — “I” CHECK: “Does one named person know where I am and when I am due back?” Not the crew. A person, with a time.",
+     "darkTitle": "The Six Days Before Anyone Is Watching",
+     "dark": "Say the plain version: the safest time to harm someone at a festival is before it is a festival. No public, no cameras, no rangers, no welfare tent, a small pool of people who all outrank you in tenure, and a culture that will close ranks around the build because the build is behind. The people this lands on hardest are new crew, and especially young or lone women and anyone who needed this gig — because raising anything means losing the accommodation you are currently sleeping in, on a site you cannot leave without a lift. That is the structural problem, and it is why the buddy rule is not fussiness. Two people, a stated return time, and one person off-site who expects to hear from you.",
+     "move": "Buddy anything at height, with plant, with blades, or after dark — no exceptions, arranged as a crew norm rather than a personal request. Put a location and a return time to one named person every night. Know where the first-aider is, and where the vehicle keys live.",
+     "say": "Buddy rule after dark, I'm not doing the far field on my own. — Back by half eleven, if I'm not, come find me, I'm at the north cable run.",
+     "truth": "The festival's safety net goes up on Wednesday. You have been on site since the Thursday before. Build your own until then."
+    },
+    {
+     "section": "CONTROL",
+     "hook": "SETTLE UP AFTER THE EVENT",
+     "archetype": "The Deal That Shrinks At The End / Payment As Leverage",
+     "clinical": "Wage Withholding / Retrospective Renegotiation",
+     "who": "The production manager with a spreadsheet and a cash-flow problem. Pleasant all build. Becomes hard to find on the Monday, and when found, remembers the arrangement differently and has the advantage of being the one who writes it down.",
+     "scene": "The agreement was a day rate and expenses. It is Monday, the site is half struck, and the number he says now is lower — because the days you did were partly travel, because the accommodation counts against it, because the original figure was always a best case. You have no contract. You have a fortnight of sixteen-hour days, a van you paid the diesel for, and no leverage at all, because the work is already done.",
+     "tells": [
+      "Terms agreed verbally and never confirmed in writing",
+      "Payment scheduled entirely after the work is complete",
+      "Deductions appearing at settle-up that were never mentioned",
+      "Your accommodation or transport home is in their gift",
+      "Other crew have had the same conversation and did not compare notes",
+      "The implication that complaining costs you next season"
+     ],
+     "happening": "All the leverage in a build arrangement sits at the end, which is why unscrupulous production will schedule payment there and why the honest ones pay staged. Once your labor is spent it cannot be withdrawn, and the threat that does the real work is rarely stated: next year's booking. In a scene where work comes by reputation and relationship, being known as difficult about money is a genuine cost, and everybody doing this knows you have done that arithmetic. It is the same structure as the vendor non-payment page in M.A.R.K.E.T., with one addition — they may also control whether you have a bed tonight and a way home tomorrow.",
+     "check": "B.U.I.L.D. — “L” CHECK: “Do I have the agreed terms in writing, and a dated log of hours I actually worked?” Memory loses to a spreadsheet, every time.",
+     "darkTitle": "Next Year Is The Threat Nobody Says",
+     "dark": "The unspoken sentence doing all the work is that there is always next season, and you want to be on it. That is what keeps crews quiet about underpayment for years at a time, and it is why the problem is almost never one bad payer — it is a whole circuit where everybody has been shorted and nobody compared figures, because comparing figures is exactly what the threat prevents. The single most effective move available is the one that costs nothing and feels the most awkward: ask two other crew what they were paid. Wage secrecy is the mechanism. Breaking it is the counter, and crews that talk openly about rates do not have this problem.",
+     "move": "Get the terms in a message before shift one and stage the payment — something up front, something mid-build. Log hours daily in a dated note with photographs of the work. Keep your own route home so your exit is never in their gift. Afterwards: a dated written demand, politely, with the log attached, beats a phone call every time.",
+     "say": "Before I start — can you confirm the rate, the days, and what's covered, just in a text? And I'd want a third up front. Standard for me, nothing personal.",
+     "truth": "Your labor is only leverage before you spend it. Write the terms down while you still have some."
+    },
+    {
+     "section": "TOOLS",
+     "hook": "THE BUILD CREW KIT",
+     "archetype": "The Five Things That Make A Build Survivable",
+     "clinical": "Preventive Infrastructure / Worker Protection Basics",
+     "who": "For anyone taking a build gig, at any level, on any crew — including the good ones, because the good ones do all of this already and will respect you for it.",
+     "scene": "You are packing. What goes in the bag now is what you will have at hour ninety-six on a dark field with no signal and a production office that has gone home. Everything on this page takes ten minutes to arrange before you travel and is impossible to arrange afterwards.",
+     "tells": [
+      "The deal in writing: rate, days, what's covered, injury, transport home",
+      "A dated hours log you fill in daily, with photos of the work",
+      "Your own PPE — boots, gloves, hi-vis, glasses, ear protection, head torch",
+      "Your own route home that nobody else controls",
+      "One off-site person with the site address who expects a daily check-in",
+      "The name of the site first-aider and where the trauma kit actually is"
+     ],
+     "happening": "Every pattern in this guide is defeated by something arranged in advance rather than negotiated in the moment, and the moment is always the worst time — you are tired, you are isolated, the work is already done, and the other party holds the leverage. Bringing your own PPE is the clearest example: it removes the most common coercive sentence on any site, which is that there is not a spare and the job still needs doing. Owning your route home removes the second. These are not signs of distrust. Experienced crew arrive with all of it, and the crews worth working for notice and think better of you.",
+     "check": "B.U.I.L.D. — “U” CHECK: “Can I refuse a task right now without losing my bed or my lift?” If not, fix that before you need to refuse anything.",
+     "darkTitle": "The Kit Is What Makes No Possible",
+     "dark": "Every item on that list exists to make one sentence survivable: no, I am not doing that. Your own boots mean nobody can tell you the job goes ahead in trainers. Your own transport means refusing does not strand you. The written deal means walking away does not cost you a fortnight's pay. The check-in means somebody notices. Refusal is not a matter of courage on a build site, it is a matter of what refusing costs — and everything on that list is there to lower the price until it is something you can actually afford to say.",
+     "move": "Pack the kit, send the deal message, name your off-site person, and find the first-aider and the trauma kit in your first hour on site. Then do the work, which is some of the best work there is.",
+     "say": "Got my own PPE and my own van, so I'm sorted. Who's the first-aider this build, and where's the trauma kit living?",
+     "truth": "Every bit of that kit buys you the same thing: the ability to say no and still have a bed, a lift, and a wage."
+    },
+    {
+     "section": "COMMUNITY",
+     "hook": "THE CREW THAT ACTUALLY HOLDS",
+     "archetype": "Real Solidarity Versus A Family That Only Takes",
+     "clinical": "Authentic Crew Culture vs Extractive Belonging",
+     "who": "The real thing is unglamorous and specific: people who tell each other their rates, who cover a shift without a ledger, who stop the job when somebody is unfit, and who back the newest person over the most senior one when the newest person is right.",
+     "scene": "Two crews. On the first, a lad two days in says he is not comfortable going up in that wind, and the lead says fine, get the ground kit, and nothing else is ever said about it. On the second, the same sentence produces a silence, and then a joke, and then somebody else goes up instead — and everybody learns what happens if you say it.",
+     "tells": [
+      "Real: refusing an unsafe task costs nothing, visibly, in public",
+      "Real: people talk openly about rates and compare them",
+      "Real: the newest person is listened to when they flag something",
+      "Extractive: family gets invoked only when something is being asked",
+      "Extractive: raising a concern about a senior member closes the group",
+      "Extractive: everyone has been shorted and nobody has compared figures"
+     ],
+     "happening": "Build crews produce some of the most genuine solidarity in this scene — shared hardship, real skill, work that would be impossible alone — and that is exactly why the extractive version is so effective, because it is wearing the same clothes. The difference is not warmth, both have warmth. The difference is what the group does when somebody's interests conflict with the schedule: a real crew absorbs the cost, an extractive one transfers it to the person with the least standing. Watch one refusal and one complaint and you will know which one you are on, usually within the first week.",
+     "check": "B.U.I.L.D. — “U” CHECK: “What happened the last time somebody here said no to a task?” That answer is the crew's actual culture, whatever the culture says about itself.",
+     "darkTitle": "The Silence After The Refusal",
+     "dark": "It is worth knowing how a crew goes bad, because it is rarely a decision. It is one refusal met with a silence, and then a joke, and everybody present filing that away. After that the unsafe tasks get done by whoever needs the gig most, which is always the youngest, newest, most precarious person there, and the crew genuinely believes it has no safety problem because nobody says no any more. If you are senior on a crew: the most protective thing available to you is to publicly accept the next refusal you get, immediately and without comment. Everyone watching learns what it costs, and the answer is nothing, and that is how a crew that holds gets built.",
+     "move": "Talk about rates out loud. Accept refusals without comment, especially if you are senior. Buddy the newest person on their first night shift. Cover a shift for somebody without starting a ledger, and let that be the culture rather than the exception.",
+     "say": "Fair enough, grab the ground kit. — What are you on for this one? I'm on two-forty, worth knowing if they're paying people differently.",
+     "truth": "Watch what happens after one person says no. That is the whole crew, revealed in about four seconds."
+    }
+   ]
+  },
+  {
    "slug": "care",
    "acronymClass": "fb-g-care",
    "role": "HARM REDUCTION",
    "acronym": "C.A.R.E.",
    "edition": "Harm Reduction Edition",
-   "sectionOf": 10,
+   "sectionOf": 17,
    "pages": 8,
    "intro": "You hold the space that holds everything. This guide holds you.",
    "checks": [
@@ -3452,6 +4870,29 @@
      "move": "Name what was hard. Out loud. To someone. Before you leave the tent. That is the minimum.",
      "say": "Before we all head out — can we take ten minutes to say what today was like? I need to name some of it out loud.",
      "truth": "What you name, you can put down. What you do not name, you carry. Name it."
+    },
+    {
+     "section": "TOOLS",
+     "hook": "THE SHIFT KIT",
+     "archetype": "What You Bring, What You Set, What You Do After",
+     "clinical": "Practitioner Self-Protection / Boundary Infrastructure",
+     "who": "For everyone working a harm-reduction, welfare or sober-support shift — paid, volunteer, or the person who just ended up doing it because they were the one who was up.",
+     "scene": "You will spend this shift giving people your full attention at the worst moment of their weekend. Everything on this page is what makes that sustainable past year two, and it is all arranged before the shift rather than during it, because during it you will be entirely focused on somebody else.",
+     "tells": [
+      "Your own water, food and a break time somebody else knows about",
+      "A named shift partner — nobody works a tent or a walkout alone",
+      "The escalation line: who you call, for what, and their actual number",
+      "Your personal scope, decided sober: what you do and what you hand on",
+      "No lone walkouts to a tent or a vehicle, ever, regardless of the request",
+      "A debrief booked for after — a named person and a time, not a vague intention"
+     ],
+     "happening": "Harm-reduction workers occupy a role that is simultaneously high-exposure and low-protection: physical proximity to impaired people, emotional weight, long hours, and frequently no supervision, no insurance and no handover. The two failure modes are burnout and boundary drift, and they feed each other — a depleted worker is worse at holding a line, and a worker who has been holding no lines depletes faster. Everything here is structural rather than attitudinal, because attitude is exactly what goes first at hour nine of a shift.",
+     "check": "C.A.R.E. — “E” CHECK: “Do I have a shift partner, a break time, and a debrief booked?” Three answers before you start, or you are improvising your own protection while looking after somebody else.",
+     "darkTitle": "You Are A Target In This Role, Too",
+     "dark": "Worth saying plainly because the role's framing makes it easy to miss: being the calm helpful person in the welfare tent at four in the morning makes you visible to exactly the people this book is about. The care role attracts them — it is reliably staffed by empathetic people, it involves private conversations, it happens at night, and it comes with a strong professional instinct not to judge anyone. Participants who target the care role are a documented pattern, not a paranoid one, and the lone walkout is where it happens. Two people, always, for every escort and every tent visit. It is not distrust of the person you are helping. It is the same reason ambulance crews are crewed.",
+     "move": "Set the three before the shift — partner, break, debrief — and write your personal scope down while you are sober. Never do a walkout alone. Take the break even when it feels indulgent, especially then.",
+     "say": "I'm not doing that walkout on my own — grab Sam and we'll both go. — I'm off at four and I'm debriefing with Mara at ten tomorrow, it's in the diary.",
+     "truth": "You cannot hold a tent full of people from an empty tank. The kit is not self-indulgence, it is the equipment."
     }
    ]
   },
@@ -3461,7 +4902,7 @@
    "role": "CAMP LEADS & ORGANIZERS",
    "acronym": "L.E.A.D.",
    "edition": "Camp Leads & Organizers Edition",
-   "sectionOf": 11,
+   "sectionOf": 18,
    "pages": 10,
    "intro": "The power you hold in your camp is real. Use it to protect people, not to own them.",
    "checks": [
@@ -3691,7 +5132,7 @@
    "role": "PROMOTERS ACCOUNTABILITY",
    "acronym": "E.V.E.N.T.",
    "edition": "Promoters Accountability Edition",
-   "sectionOf": 12,
+   "sectionOf": 19,
    "pages": 9,
    "intro": "You create the conditions. Everything that happens at your event is shaped by your choices.",
    "checks": [
@@ -3875,6 +5316,29 @@
      "move": "Run the checklist before and after every event. The reputation you build is the one that is accurate.",
      "say": "Here is our event agreement. Here is our safety plan. Here is how to raise concerns. Here is when payment will arrive.",
      "truth": "Ethical event production is not complicated. It is a set of choices you make consistently. Make them."
+    },
+    {
+     "section": "TOOLS",
+     "hook": "THE PROMOTER'S ACTUAL CHECKLIST",
+     "archetype": "The Documents And Structures That Make An Event Safe",
+     "clinical": "Operational Infrastructure / Duty of Care Implementation",
+     "who": "For anyone putting on an event, from a four-hundred-capacity warehouse to a field with three stages. This page is the difference between believing your event is safe and being able to show it.",
+     "scene": "Everything here is arranged in the planning months, when it is cheap and nobody is under pressure. None of it can be improvised on the Saturday, which is when you will find out whether you did it — and the finding out is always somebody's worst night.",
+     "tells": [
+      "A written code of conduct, published, with named consequences",
+      "A reporting route that does not run through the person most likely to be reported",
+      "Two named safeguarding leads, on the site map, contactable by radio and in person",
+      "Written contracts with artists, vendors and crew — rates, terms, and payment dates",
+      "Staff and volunteer briefing that covers reporting, not just wristbands and bins",
+      "An incident log kept properly, and read afterwards rather than filed"
+     ],
+     "happening": "The gap between an event that says it takes safety seriously and one that does is almost entirely paperwork done in advance — and the single most load-bearing item is a reporting route that bypasses seniority. Most festival safeguarding failures are not the absence of a policy; they are a report that went to somebody with a relationship to the person being reported. Naming two independent leads and publishing how to reach them is cheap, and it is the thing that determines whether you find out about a problem in year one or in year four when it reaches social media.",
+     "check": "E.V.E.N.T. — “E” CHECK: “Can somebody report a senior person at my event without that report reaching them first?” If not, you do not have a reporting process, you have a filter.",
+     "darkTitle": "You Will Be Judged On The First One",
+     "dark": "Every event that has come apart publicly over this has come apart the same way: a first report that was handled informally, by someone close to the subject, with no record kept — and then a second and a third, and by the time it is undeniable the story is no longer about the individual, it is about an organization that knew. The incident log is what makes the difference, and not because it protects you legally, though it does. It is because a pattern is invisible without one: three separate reports across three years, each individually ambiguous, are obviously a pattern on one page and obviously nothing at all in three people's memories. Keep the log. Read it before every event.",
+     "move": "Publish the code of conduct and the reporting route before tickets go on sale. Name two safeguarding leads and put them on the site map. Get every artist, vendor and crew agreement in writing with payment dates. Keep the incident log and actually read it back each year.",
+     "say": "Reporting goes to Priya or Mo directly, not through me and not through the stage managers — that's published, and it's on the map. If it involves me, it goes to them and I'm not in that conversation.",
+     "truth": "Safety at an event is not a value, it is a set of documents and two names. You either did it in March or you did not."
     }
    ]
   },
@@ -3884,7 +5348,7 @@
    "role": "HEALTH & SAFETY",
    "acronym": "S.A.F.E.",
    "edition": "Health & Safety Edition",
-   "sectionOf": 13,
+   "sectionOf": 20,
    "pages": 17,
    "intro": "The guide for looking out for yourself and everybody around you all weekend.",
    "checks": [
@@ -4258,7 +5722,158 @@
      "truth": "The festival is only as safe as what each person does when they see something. That includes you."
     }
    ]
+  },
+  {
+   "slug": "home",
+   "acronymClass": "fb-g-home",
+   "role": "THE PEOPLE AT HOME",
+   "acronym": "H.O.M.E.",
+   "edition": "For The People At Home Edition",
+   "sectionOf": 21,
+   "pages": 7,
+   "intro": "Somebody you love is going, and you are not. This one is for you — short, honest, and not what you are expecting.",
+   "checks": [
+    {
+     "letter": "H",
+     "name": "How You React Is The Whole Thing",
+     "desc": "Everything else on this page is downstream of one question: if it went wrong at 4am, would you be the call they make or the one they avoid?"
+    },
+    {
+     "letter": "O",
+     "name": "One Useful Ask, Not Twenty Worried Ones",
+     "desc": "Ask who they are going with and where they are staying. That is it. Twenty questions gets you a closed door and no information at all."
+    },
+    {
+     "letter": "M",
+     "name": "Myths Cost You Credibility",
+     "desc": "If what you say does not match what they see, they stop believing the parts that are true. Accuracy is not permissiveness, it is how you stay worth listening to."
+    },
+    {
+     "letter": "E",
+     "name": "Emergency Means You Act, Not Panic",
+     "desc": "If a real call comes, there are three things to do and none of them is a lecture. Know them before the phone rings."
+    }
+   ],
+   "outline": [
+    {
+     "key": "CAPTURE",
+     "desc": "What the internet told you, and why most of it is wrong"
+    },
+    {
+     "key": "TOOLS",
+     "desc": "The conversation before they go, and the one ask that works"
+    },
+    {
+     "key": "EMERGENCY",
+     "desc": "If the call comes: what to do in the first ten minutes"
+    },
+    {
+     "key": "COMMUNITY",
+     "desc": "What this place actually is, from someone who knows"
+    }
+   ],
+   "sentences": [
+    "I would rather be the call they make than the one they are afraid of.",
+    "I will ask two questions and mean them, not twenty and get nothing.",
+    "If I say things that are not true, they will stop believing the things that are.",
+    "If something happens, my first sentence is: are you safe, where are you.",
+    "This place is not what the news told me it was."
+   ],
+   "scenarios": [
+    {
+     "section": "CAPTURE",
+     "hook": "WHAT YOU READ ABOUT THESE PLACES",
+     "archetype": "The Fear You Were Sold / Why Accuracy Is On Your Side",
+     "clinical": "Risk Miscalibration / Credibility Cost of Inaccuracy",
+     "who": "You, at eleven at night, four articles deep, having typed a question into a search bar that only ever returns the worst weekend anybody ever had anywhere.",
+     "scene": "You have read about the deaths. You have read the thread. You have a picture in your head assembled entirely from the events that were unusual enough to be written about, and you are about to have a conversation with somebody you love, using that picture as your evidence, and you cannot understand why they are getting defensive.",
+     "tells": [
+      "Everything you know came from coverage of things that went wrong",
+      "You have not asked them a single question you did not already have an answer to",
+      "Your sentences start with statistics you cannot source",
+      "You are describing their friends, whom you have not met, as a risk",
+      "The conversation always ends the same way, and it ends early",
+      "You know less about this trip than you did about the last one"
+     ],
+     "happening": "News coverage selects for the rare and the terrible — that is what makes something news — so an hour of searching builds a picture in which the exception is the rule. The person you are talking to has been to four of these and had four ordinary, joyful weekends, so when you describe a place they do not recognize, the thing they learn is not that festivals are dangerous. It is that you do not know what you are talking about, and that everything else you say on the subject can be discounted. That is the actual cost, and it is not abstract: it is why they will not ring you.",
+     "check": "H.O.M.E. — “M” CHECK: “Does what I am about to say match what they will actually see this weekend?” If not, you are spending credibility you will need later.",
+     "darkTitle": "The Silence You Are Building",
+     "dark": "Here is the thing nobody tells parents and partners. The research on this is consistent and it is the opposite of intuitive: young people decide who to tell about a bad situation almost entirely on their prediction of the reaction, not on the severity of what happened. Every exaggeration, every I-told-you-so, every conversation that ended in a lecture is data they are using to make that prediction. So an approach built on warning them can produce exactly the outcome it was designed to prevent — a person in real trouble at four in the morning, running down the list of people who will not make it worse, and not finding you on it. That is what is actually at stake in how you handle the week before.",
+     "move": "Stop researching and start asking. Say plainly that you do not know much about this and would like to, and then let them tell you — people explain their world at length to anyone who is genuinely curious rather than building a case.",
+     "say": "I've been reading stuff that's probably rubbish and I'd rather hear it from you. What's it actually like? What's the bit you look forward to?",
+     "truth": "Accuracy is not approval. It is the only way to stay somebody whose opinion still counts for anything."
+    },
+    {
+     "section": "TOOLS",
+     "hook": "THE CONVERSATION BEFORE THEY GO",
+     "archetype": "Two Questions, One Sentence, Four Minutes",
+     "clinical": "Protective Communication / Disclosure Enablement",
+     "who": "For the parent, partner, sibling or friend who has one conversation available and wants to spend it well rather than spend it all.",
+     "scene": "You have maybe four minutes of genuine attention before this becomes a thing you do every year that they endure. Four minutes is plenty. What follows is more protective than any amount of worrying, and it is almost entirely about what you do not say.",
+     "tells": [
+      "Ask who they are going with — names, not “mates”",
+      "Ask where they are staying and how they are getting home",
+      "Say the one sentence about calling you, and then stop talking",
+      "Do not attach conditions, consequences, or a lecture to that sentence",
+      "Do not ask about substances unless you can hear the answer without reacting",
+      "End it early, warmly, and let them go and have a good time"
+     ],
+     "happening": "Two questions get you the information that actually matters — who is around them and how they get out — and both are answerable without anybody having to confess to anything. The one sentence is the load-bearing part, and its power comes entirely from being unconditional: the moment it has a clause attached, it stops being a promise and becomes a negotiation, and negotiations get remembered at four in the morning. Say it once, plainly, and do not garnish it. The restraint is the technique.",
+     "check": "H.O.M.E. — “O” CHECK: “Have I asked two questions, or started listing things?” Two questions and a sentence. Then stop.",
+     "darkTitle": "Say It Once, Exactly, With No Clause",
+     "dark": "The sentence is: if anything goes wrong, at any hour, for any reason, ring me — and I will not be angry and I will not say I told you so, I will just come and get you. That is the whole sentence and every word of it is doing work. At any hour, because they will otherwise wait until morning. For any reason, because they will otherwise decide theirs does not qualify. I will not be angry, because that is the specific prediction they are running. And you have to mean it, because you will be tested on it once, probably over something small, and how you handle that one determines whether the sentence is real for the next ten years.",
+     "move": "Ask the two questions. Say the sentence once, plainly, with nothing attached. Then change the subject and let them pack. Four minutes.",
+     "say": "Who are you going with? And where are you staying — how are you getting back? — Right. Last thing: if anything goes wrong, any hour, any reason, ring me. I won't be angry and I won't say I told you so, I'll just come and get you. That's it. Have an amazing time.",
+     "truth": "The most protective thing available to you is a promise with no conditions on it, said once and kept the first time it is used."
+    },
+    {
+     "section": "EMERGENCY",
+     "hook": "IF THE CALL COMES",
+     "archetype": "The First Ten Minutes",
+     "clinical": "Crisis Response / Immediate Support Protocol",
+     "who": "You, woken at four in the morning, hearing something in their voice before you have understood a single word.",
+     "scene": "The call you hoped would not come has come. Everything you do in the next ten minutes either makes you someone they can use or someone they regret ringing, and you will be operating on no sleep and pure adrenaline. This is why it is written down.",
+     "tells": [
+      "First sentence: are you safe right now, and where exactly are you",
+      "Second: is anyone with you, and can you get to welfare or medical",
+      "No questions about what they took, what they were wearing, or whose fault it is",
+      "Do not say you told them so, at any point, for any reason, ever",
+      "Write down what they tell you — location, names, time — while they say it",
+      "Stay on the line until they are with a person who can help"
+     ],
+     "happening": "In the first ten minutes there are exactly three useful things: establish safety, establish location, and get them to someone physically present who can help. Everything else — the explanation, the details, the feelings, the question of how this happened — belongs to a later conversation and will be available then. The reason to know this in advance is that your own fear will be enormous and will present itself as an urgent need for information, and answering that need is the single most common way these calls go wrong.",
+     "check": "H.O.M.E. — “E” CHECK: “Am I getting them help, or getting myself information?” Both feel identical at four in the morning. Only one of them is useful.",
+     "darkTitle": "What Not To Say, And The Thing To Know",
+     "dark": "Never, in that call, ask what they took or what they were wearing or why they went off alone. Not because it is rude — because it tells them this was their fault, and that judgment will shut down the disclosure mid-sentence and quite possibly permanently. Two practical things worth knowing before you ever need them. Every festival has a welfare or medical tent that operates day and night, and it is staffed by people who do this constantly and without judgment; getting your person to that tent is more useful than any advice you can give down a phone. And if it was an assault: in most places a forensic examination can be done without making a police report, the window is measured in days not hours, and the decision about police can be made later. That single fact is one most people do not know, and knowing it removes the choice that stops people getting care.",
+     "move": "Safety, location, get them to a human. Write down what they say as they say it. Then — and only then — ask what they need from you, and do that rather than what you think they need.",
+     "say": "Are you safe right now? Where are you exactly? Is anyone with you? — Okay. I want you to walk to the welfare tent and stay on the phone with me while you do it. You've done the right thing ringing me. We'll sort everything else out after.",
+     "truth": "They rang you. Whatever else happens tonight, that means you got the week before right. Do not spend it in the first ten minutes."
+    },
+    {
+     "section": "COMMUNITY",
+     "hook": "WHAT THIS PLACE ACTUALLY IS",
+     "archetype": "The Part The Coverage Never Gets To",
+     "clinical": "Contextual Understanding / Accurate Risk Framing",
+     "who": "For you, at the end, from people who have spent their lives in this world and have written an entire book about its dangers — which is exactly why this page is worth trusting.",
+     "scene": "Everything else in this book is about what can go wrong, because that is what a safety guide is for. Read as a whole it gives a false impression, and it would be dishonest to hand you a hundred pages of predators and let you think that is the place your person is going to.",
+     "tells": [
+      "Strangers walk each other to medical tents at three in the morning, constantly",
+      "People search fields all night for someone they have never met",
+      "There are volunteers whose entire role is sitting with frightened people",
+      "Someone will give your person water, sunscreen, a charger, a lift, for nothing",
+      "The vast majority of people come home tired, sunburnt and happy",
+      "They will talk about it for a year, and you will get bored of hearing about it"
+     ],
+     "happening": "The reason this scene is worth protecting is that it is genuinely unusual: a place where radical acceptance is the default, where people look after strangers as a matter of course, and where somebody can be more themselves for seventy-two hours than they manage anywhere else all year. The patterns in this book exist because predators seek out open-hearted places, and open-heartedness is the thing worth defending rather than the mistake. Your person is not naive for loving it. They are going somewhere that gives them something the default world does not, and the overwhelming likelihood is that they will come home with a sunburn and too many stories.",
+     "check": "H.O.M.E. — “H” CHECK: “Am I treating this as a threat to survive, or as a thing they love?” They can tell which one you think it is, and it determines everything.",
+     "darkTitle": "Why You Were Given This",
+     "dark": "Somebody handed you this guide. That was not an accident and it was not an accusation — it means they want you inside this part of their life rather than outside it, and they were worried enough about your reaction to give you a manual first. That is worth sitting with. The single most protective thing in this entire book is not a tactic or a check or a script; it is a young person who is certain, without having to think about it, that there is somebody at home who will pick up at four in the morning and not make it worse. You can be that by Friday. Nothing else on this page matters as much.",
+     "move": "Text them on the Saturday and ask what the best set was. Do not ask if they are okay — ask what was good. Then, when they get back, let them tell you about it at length and be genuinely interested, because that is what keeps the channel open until the year they need it.",
+     "say": "What's been the best thing so far? — [when they're home] Right, tell me everything. Start with the music.",
+     "truth": "They are going somewhere that makes them more themselves. Be the person they can come home and tell."
+    }
+   ]
   }
  ],
- "version": "v7"
+ "version": "v8"
 }
