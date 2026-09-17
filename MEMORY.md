@@ -2326,6 +2326,38 @@ default matches what's already committed.
 (current branch, no push) for the user to review the diff and deploy
 themselves.
 
+## 2026-09-17 (later) — Festie Bible v9: scenario gap audit, 207 -> 270
+
+Live and byte-verified (md5 `9e55bb79…`, deploy `6aac5c9c4dba1b82032e3f83`).
+63 new scenarios, 2-4 per guide, **all 21 guides covered**. ~127,900 words.
+
+**The finding worth carrying forward:** the Bible was consistently strong on
+*interpersonal manipulation* and consistently thin on *physical and
+environmental risk*. That held across nearly every guide. Crowd crush was
+absent entirely despite being the most lethal thing at music events; the
+Monday drive home was missing from both S.A.F.E. *and* B.U.I.L.D.; weather and
+evacuation, hearing damage, solvent exposure and pediatric ingestion were all
+absent. **If auditing this book again, check the physical layer first** — the
+writing instinct here reaches for the predator and skips the field.
+
+Method that produced it: dump every card by section/hook/archetype, then audit
+each guide against what actually happens in that category rather than against
+what a predator would do. See
+`content/festival-audits/festie-bible-v9-gap-audit.md` for the full per-guide
+table.
+
+**New tool:** `scripts/festie-add-batch.py` — batch scenario merge from
+`content/festie-gap-scenarios/*.py` (`ADD = [(slug, scenario), ...]`).
+Validates the 14-field contract, the acronym check letter and the outline
+before writing; auto-extends a guide's outline when a scenario introduces a
+new section (otherwise festie-check flags it). Caught a stray key and a bad
+check letter during this round.
+
+Festival pipeline is now: edit `content/festie-bible-data.json` (or add via
+`festie-add-guide.py` / `festie-add-batch.py`) -> `festie-accents.py` ->
+`festie-derive-counts.py` -> `festie-build.py` -> `festie-check.py --inline`
+-> Playwright -> version bump in data + sites.json -> deploy -> byte-verify.
+
 ## 2026-09-17 — Festie Bible v8 (12 -> 21 guides) and wook v13, both live
 
 **Both shipped and verified byte-identical against live.** wook v13 (deploy
