@@ -130,6 +130,18 @@ def main():
                     warn("check", f"{tag}: check line has no parseable letter: {chk[:60]}")
                 elif m.group(1) not in letters:
                     err("check", f"{tag}: check cites letter '{m.group(1)}' not in {ac}")
+                # a check field must actually close its quoted question --
+                # 78 of the original book's cards (all from the original 12
+                # guides, none from the 9 added 2026-09-17) were found on
+                # 2026-09-17 to be truncated mid-sentence ("...what do I
+                # actually know..." with no closing quote), a content-
+                # generation cutoff from whenever they were originally
+                # written. Ended with "..." AND missing a closing quote mark
+                # is the specific signature; either alone can be legitimate
+                # prose.
+                qm = re.search(r'CHECK:\s*["“](.+?)["”]', chk, re.S)
+                if not qm and chk.rstrip().endswith("..."):
+                    err("check", f"{tag}: check field is truncated, no closing quote: {chk[:70]}...")
             if sc.get("hook"):
                 all_hooks[sc["hook"].strip().lower()].append(tag)
 
