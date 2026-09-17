@@ -560,8 +560,13 @@
         "found": false,
         "checkedAt": "2026-08-10"
       },
-      "version": "v8",
+      "version": "v9",
       "changelog": [
+        {
+          "date": "2026-09-17",
+          "version": "v9",
+          "summary": "Scenario gap audit across all 21 guides: 207 -> 270 scenarios, ~94,900 -> ~127,900 words. Every guide's existing cards were inventoried and audited against what actually happens in that category; 63 new scenarios fill what was missing, 2-4 per guide, with no guide left out. The largest omissions closed were physical and environmental rather than interpersonal, which is where the book was consistently thin: crowd crush (compressive asphyxia, the most lethal thing at music events, entirely absent), severe weather and evacuation, the Monday drive home (fatigue-impaired driving, absent from both S.A.F.E. and B.U.I.L.D. despite being the most dangerous hour of most weekends), hearing damage, solvent exposure for painters, and the physical toll on vendors. Also added: male sexual victimization and its disclosure barrier (B.A.S.S.), teenagers as distinct from children (K.I.N.), pediatric ingestion, trans practicalities — searches, facilities, HRT, binding in heat (P.R.I.D.E.), service animal interference and Deaf/HoH exclusion from audio-only safety announcements (A.C.C.E.S.S.), accidental dosing and prescription policing (S.O.B.E.R.), cultural appropriation and immigration-status leverage (R.O.O.T.S.), partner acro consent and crowd contact mid-performance (F.L.O.W.), generative style appropriation (C.R.E.A.T.E.), photographers as targets and minors in frame (L.E.N.S.), practitioners being targeted by clients and crises arriving in session (H.E.A.L.), gear theft and promoter-supplied substances (S.O.U.N.D.), payment fraud and weather loss (M.A.R.K.E.T.), the volunteer dual role and untrained restraint including positional asphyxia (H.O.L.D.), strike phase and faked plant competence (B.U.I.L.D.), a death on shift and police at the tent door (C.A.R.E.), removals and internal reports (L.E.A.D.), the headliner report and crowd density authority (E.V.E.N.T.), and being unable to reach someone (H.O.M.E.). New tooling: scripts/festie-add-batch.py, which validates the full card contract, the acronym check letter and the outline before writing, and extends a guide's outline when a scenario introduces a section it did not list. Verified: checker at 0 errors against 270 scenarios, Chromium at 375px and 1440px and under reduced motion, and one new card from each of the 21 guides opened and confirmed rendering its hook, clinical chip and Dark Reality block, with no page errors and no horizontal overflow."
+        },
         {
           "date": "2026-09-17",
           "version": "v8",
