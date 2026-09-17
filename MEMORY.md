@@ -2326,6 +2326,64 @@ default matches what's already committed.
 (current branch, no push) for the user to review the diff and deploy
 themselves.
 
+## 2026-09-17 — Festie Bible v8 (12 -> 21 guides) and wook v13, both live
+
+**Both shipped and verified byte-identical against live.** wook v13 (deploy
+`6aac42a6a9987213c1dd936f`, md5 `7c763c6f…`) and festival v8 (deploy
+`6aac4f64e3bfa41607d0d6e9`, md5 `19be8ede…`). Netlify credits were topped up,
+which cleared yesterday's account-level block.
+
+**The Bible is now 21 guides / 207 scenarios / ~99,000 words** (was 12 / 149 /
+~67,100). **How the new categories were chosen matters more than the list** —
+they came from auditing the Bible against *its own mission statement*, not from
+guessing. That statement names eight groups (ravers, burners, festies, flow
+artists, healers, vendors, musicians, builders) and **three had no guide**; it
+promises coverage across five axes and **two had none**; and a keyword scan of
+all 149 original scenarios returned **literally zero** hits for disability or
+neurodivergence. Use this method again for any "what's missing" question here.
+
+New: A.C.C.E.S.S. (disabled & ND, 10), F.L.O.W. (flow artists, 8), H.E.A.L.
+(healers — the mission's own headline predator is "the false shaman" and that
+audience had no guide, 6), B.U.I.L.D. (build crew, 6), S.O.B.E.R. (6),
+R.O.O.T.S. (BIPOC, 5), L.E.N.S. (photographers/media, 5), K.I.N. (family
+camping, 4), H.O.M.E. (the people at home — the only guide whose reader is not
+at the festival, 4). Plus 4 gap-fill scenarios.
+
+**Architecture change: `content/festie-bible-data.json` is now the single
+source of truth** for the Bible, the way `chapters.json` is for the books.
+Never hand-edit `library/festival/index.html`'s data blobs — edit the JSON and
+run `scripts/festie-build.py`, which also regenerates `SCENARIO_INDEX`
+(derivable from the data exactly). The round trip is **byte-lossless**, and it
+needs compact JSON separators to stay that way — a first attempt silently added
+3,417 bytes of whitespace and was reverted rather than shipped.
+
+**Festie tooling (all new, all idempotent):** `festie-check.py` (structural
+checker — **49 errors on first run, 0 now**), `festie-build.py`,
+`festie-add-guide.py` + `festie-add-scenario.py` (validate the full 14-field
+card contract *before* touching data — caught a promised-but-undelivered
+section in H.E.A.L. mid-write), `festie-accents.py` (places a new guide's
+accent at the widest unused arc on the hue wheel so the palette stays one
+family), `festie-derive-counts.py`.
+
+**The recurring bug class in this project is the hardcoded literal.** The
+version badge was `'v6'` in the render code while sites.json said v7 — the page
+under-reported itself by a version. Fixing that surfaced the same bug twice
+more: "Section N of 12" and "Twelve Guides. One Community." All three now derive
+from the data; the static chrome (meta description, THE HOUSE drawer row)
+cannot, so `festie-check.py` **asserts** them and will fail the next time a
+guide is added without updating them. Check for this pattern first in any
+audit.
+
+Repairs this round: 8 check lines rendering mangled acronyms (`O.U.N.D.`,
+`R.K.E.T.` — same garbling class the v2 notes describe fixing; these survived),
+2 checks citing letters absent from their acronym, 22 blank clinical labels, 6
+missing Dark Reality blocks, a duplicate hook inside S.A.F.E., and the first
+copyright notice and author metadata the page has ever had.
+
+**The checker gained a homoglyph guard** after a Cyrillic capital De (U+0414)
+slipped into an English check name from a keyboard switch and read as a normal
+D. Nothing else would have caught it.
+
 ## 2026-09-16 — wook v13 (grammar pass, blocked at deploy) + Festie Bible plan
 
 **wook v13 is committed and pushed but NOT live.** Netlify refused it:

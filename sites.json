@@ -549,7 +549,7 @@
       "codename": "festie+bible",
       "slug": "festival",
       "title": "The Festie Bible",
-      "tagline": "Twelve field guides for the whole festival world",
+      "tagline": "Twenty-one field guides for the whole festival world",
       "url": "https://noblefathercreations.com/festival",
       "netlifySite": "noble-festie-bible",
       "netlifySiteId": "2cc3eca0-4213-4987-8f82-a89c43587328",
@@ -604,7 +604,9 @@
         }
       ],
       "repoPath": "library/festival/index.html",
-      "section": "library"
+      "section": "library",
+      "liveVersion": "v8",
+      "liveVerifiedAt": "2026-09-17"
     },
     {
       "codename": null,
