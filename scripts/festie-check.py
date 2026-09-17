@@ -134,17 +134,28 @@ def main():
                 all_hooks[sc["hook"].strip().lower()].append(tag)
 
     for hook, where in all_hooks.items():
-        if len(where) > 1:
-            warn("dupe", f"hook '{hook}' appears in {', '.join(where)}")
+        if len(where) < 2:
+            continue
+        # The same subject is deliberately covered in several guides with
+        # audience-specific framing, so a shared hook across guides is by
+        # design. Two cards with one title inside a single guide are not --
+        # that guide's jump index then lists the same title twice.
+        guides = {w.split("#")[0] for w in where}
+        if len(guides) == 1:
+            err("dupe", f"hook '{hook}' appears twice in the same guide: {', '.join(where)}")
+        else:
+            findings["dupe"].append(("INFO", f"hook '{hook}' is shared across guides "
+                                             f"(by design): {', '.join(where)}"))
 
     # --- version reconciliation -----------------------------------------
     inline, page_src = load_inline(PAGE)
     if a.inline and json.dumps(inline, sort_keys=True) != json.dumps(d, sort_keys=True):
         err("sync", "the HTML's inline FESTIE_DATA does not match content/festie-bible-data.json")
 
+    # the badge should be derived from the data, not a literal in the markup
     m = re.search(r'fb-updates"><summary>(v\d+)', page_src)
-    page_v = m.group(1) if m else None
-    hard = bool(m) and "FESTIE_DATA" not in page_src[m.start():m.start() + 40]
+    hard = m is not None
+    page_v = m.group(1) if m else d.get("version")
     sites = json.load(open(SITES, encoding="utf-8"))
     seq = sites["projects"] if isinstance(sites, dict) and "projects" in sites else sites
     seq = seq if isinstance(seq, list) else list(seq.values())
@@ -164,10 +175,11 @@ def main():
     # --- report ----------------------------------------------------------
     n_err = sum(1 for v in findings.values() for s, _ in v if s == "ERROR")
     n_warn = sum(1 for v in findings.values() for s, _ in v if s == "WARN")
+    n_info = sum(1 for v in findings.values() for s, _ in v if s == "INFO")
     total_sc = sum(len(g["scenarios"]) for g in d["guides"])
     print(f"Festie Bible check — {len(d['guides'])} guides, {total_sc} scenarios, "
           f"{len(findings) and sum(len(v) for v in findings.values()) or 0} findings")
-    print(f"  ERROR: {n_err}   WARN: {n_warn}\n")
+    print(f"  ERROR: {n_err}   WARN: {n_warn}   INFO: {n_info}\n")
     for cat in sorted(findings):
         print("=" * 66)
         print(f"{cat.upper()} ({len(findings[cat])})")

@@ -35,12 +35,7 @@
   {
    "version": "v1",
    "date": "2026-08-10",
-   "summary": "Launched The Festie Bible as its own door on the hub: 12 field guides rebuilt from the original 183-page collection."
-  },
-  {
-   "version": "v1",
-   "date": "2026-08-10",
-   "summary": "Fixed the systemic label-collision and near-invisible interior brand mark from the source document."
+   "summary": "Launched The Festie Bible as its own door on the hub: 12 field guides rebuilt from the original 183-page collection, with the source document’s label collisions and near-invisible interior brand mark fixed on the way in."
   }
  ],
  "guides": [
@@ -250,8 +245,8 @@
      ],
      "happening": "Substance gatekeeping is dependency grooming — slowly engineering a situation where you need someone in a way that makes saying no feel complicated. Altered states increase trust, lower threat-detection, create real neurochemical bonding. Add isolation and resource control and by Sunday the manipulation is structural. You're not in it because you're naive. You're in it because it was designed carefully.",
      "check": "G.R.O.V.E.—\"G\"CHECK: \"What is my body telling me about this person — separate from what they're providing me?\"",
-     "darkTitle": "",
-     "dark": "",
+     "darkTitle": "Whose Name Is On It",
+     "dark": "The part nobody says out loud: if it is in your bag, it is your charge. Not his. Constructive possession means the person holding it is the person arrested, and “it wasn’t mine” is not a defense that works at a gate search — it is a sentence people say on the way to a county holding cell. The person asking you to hold knows this. That is frequently the entire reason he is asking, and the reason he asks the newest person in the camp rather than his oldest friend. Then there is the second layer: once he is your supply, leaving his camp costs you your weekend, and he knows that too. Carry your own, in your own bag, in the amount you chose while sober. “I don’t hold for anyone” is a complete answer and it does not require a follow-up.",
      "move": "Know your own supply or know your source independently of anyone who also wants something from you.",
      "say": "I'm good for tonight — heading to find my camp. I'll catch you at the set tomorrow.",
      "truth": "Your consciousness is yours. Nobody gets to be the gatekeeper of your inner world."
@@ -428,7 +423,7 @@
      "section": "SUPPORT",
      "hook": "THE EXIT IS ALWAYS YOURS",
      "archetype": "Getting Out of Any Situation — No Explanation Required",
-     "clinical": "",
+     "clinical": "Exit Planning / Coercive Control Countermeasure",
      "who": "Exit scripts are for any situation: a conversation, a camp, a tent, a ceremony, a transaction, a connection that stopped feeling right. You don't need a reason that passes someone else's inspection. The exit is always yours.",
      "scene": "You're in a situation that doesn't feel right and you're spinning trying to figure out how to leave without causing a scene, without being rude. Here's the thing: the energy you're spending on the perfect exit is energy you could spend walking out the door. You don't owe anyone a seamless departure. You don't need to explain yourself. You don't need them to agree that leaving is okay. You can just go.",
      "tells": [
@@ -606,8 +601,8 @@
      ],
      "happening": "Peer coercion in male spaces rarely looks like obvious pressure. It's ambient — the raised eyebrow, the \"seriously?\", the way the group keeps moving while you hesitate. Men are socialized to read ambient disapproval as a threat to status and respond with compliance. At a festival on substances, that socialization gets amplified. Your limits are not a personality flaw. The ones who respect your \"I'm good\" are the real crew.",
      "check": "B.A.S.S.—\"B\"CHECK: \"What is my body actually saying right now — not what does the group expect me to say?\"",
-     "darkTitle": "",
-     "dark": "",
+     "darkTitle": "The Body Count Of Not Wanting To Look Soft",
+     "dark": "Men die of this. Not metaphorically. The overdose statistics in this scene skew male, and a meaningful share of them are men who took a second dose they did not want, or did not mention they had already taken something, or waited too long to say they felt wrong — because every one of those admissions reads as weakness in a circle that has been grading each other on hardness all weekend. The same script keeps men from saying they are too drunk to consent, too far gone to drive, too scared to be alone with what is happening in their chest. Nobody in that circle wants you hurt. They are running a script they also did not write. You are allowed to be the one who breaks it: “I’m good”, said flatly, twice, ends it. The man who keeps pushing after the second one is telling you something about himself, not about you.",
      "move": "Your \"I'm good\" is a complete sentence. The crew that respects it is your actual crew.",
      "say": "\"I'm tapped — I'm gonna wind down. You lot carry on, I'll catch you at sunrise.\"",
      "truth": "The ones who make you feel weak for having a limit are not your brothers. They're just louder than your gut."
@@ -742,7 +737,7 @@
      "section": "CONTROL",
      "hook": "BUYING AND SELLING SAFELY",
      "archetype": "Legal, Otherwise, and How to Spot Undercovers",
-     "clinical": "",
+     "clinical": "Legal Risk Awareness / Undercover Operations",
      "who": "Transactions at festivals — substances, goods, services, tickets — carry real legal risk. Undercover officers work festivals and look exactly like attendees. This page is about navigating that reality with eyes open.",
      "scene": "He's in full kandi, wristbands up both arms, talking knowledgeably about the lineup, vibing completely with the crowd. He finds you and opens a conversation about what you're looking for. Everything about him reads as a fellow festie. He seems genuinely connected. He asks for your number. He says to meet him near the back of the camping area in twenty minutes. Something about the sequence feels slightly scripted.",
      "tells": [
@@ -763,7 +758,7 @@
      "section": "CONTROL",
      "hook": "THE EXIT IS ALWAYS YOURS",
      "archetype": "Getting Out of Any Situation Without Drama",
-     "clinical": "",
+     "clinical": "Exit Planning / Sunk Cost Interruption",
      "who": "Men are socialized to stay in uncomfortable situations because leaving reads as weakness. It's not. Knowing when and how to exit — a crew, a deal, a tent, a transaction — is one of the most important skills you'll use this weekend.",
      "scene": "You're in a situation that feels wrong and the voice in your head is running through reasons to stay: it'd be rude to leave, you don't want to make it weird, maybe you're just being paranoid, the crew will think you can't handle it. None of those reasons are about your safety. All of them are about managing other people's opinions of you. Those are not the same thing.",
      "tells": [
@@ -805,7 +800,7 @@
      "section": "ACCOUNTABILITY",
      "hook": "THE POWER YOU CARRY",
      "archetype": "When You're the One With Access or Status",
-     "clinical": "",
+     "clinical": "Power Differential Awareness / Personal Accountability",
      "who": "If you're a camp lead, a promoter, a performer, a veteran with a big network, or simply the one who controls the substances, the ride, or the access — you have power. This page is about what you do with it.",
      "scene": "You run a camp that people want to be part of. You have connections, good substances, a reputation. People come to you. People want things from you. Some of them are also in vulnerable positions — first-timers, people new to the scene, people who are deep in an altered state. Your position means your \"yes\" is more weighted and your \"no\" is harder for some people to hear. That's not bad. It's a responsibility.",
      "tells": [
@@ -983,8 +978,8 @@
      ],
      "happening": "First-time substance experiences in festival environments without preparation, testing, or a trusted sober support person are one of the highest-risk situations in the festie world. The person introducing you may have the best intentions and still set you up for a terrible experience. Informed consent means knowing what you're taking, what to expect, having tested it, having someone who knows what and when, and having the Harm Reduction tent location memorized.",
      "check": "R.A.V.E. — \"V\" CHECK: \"Can I get to my camp, the medical tent, and the exit right now without asking him? If not —...",
-     "darkTitle": "",
-     "dark": "",
+     "darkTitle": "First Time, Unknown Substance, Strangers",
+     "dark": "The highest-risk combination at any festival is a first-timer, an untested substance, and people who do not know your baseline. You have no tolerance, no reference point for what “too much” feels like in your own body, and nobody around you knows what you look like when you are fine. A dose calibrated to someone who has done this two hundred times is not calibrated to you, and the person handing it over is usually estimating rather than measuring. Add the part nobody mentions: the generous stranger who wants to be present for your first time is sometimes exactly that, and is sometimes someone who has learned that a person’s first experience is the easiest one to be in charge of. You are not obligated to make your first festival your first anything else. Test it, halve it, and be with someone who knew you before this weekend.",
      "move": "Your first experience is yours to set the terms of. Test it, pace it, know your support.",
      "say": "\"I appreciate the offer — I want to make sure I've got my setup right first. Can you help me find the Harm Reduction tent?\"",
      "truth": "Your first time is not something to be swept into. It's something to prepare for."
@@ -1161,7 +1156,7 @@
      "section": "TOOLS",
      "hook": "BUYING AND SELLING AT YOUR FIRST FEST",
      "archetype": "Legal Risk, Undercovers, and How to Navigate Safely",
-     "clinical": "",
+     "clinical": "Legal Risk Awareness / Undercover Operations",
      "who": "Transactions at festivals — tickets, substances, goods, services — carry real legal risk that first-timers often underestimate. Undercover officers work festivals and look exactly like attendees. This page is about navigating that with eyes open.",
      "scene": "He's got full kandi, wristbands up both arms, knows the lineup, vibing completely. He finds you and asks if you're looking for anything. He seems like just another attendee. He has the energy of someone who belongs here completely. Something about the sequence of the conversation — the way he guides it, the specificity of his questions — feels slightly scripted. You can't articulate why. But something is off.",
      "tells": [
@@ -1449,8 +1444,8 @@
      ],
      "happening": "GHB and GBL are more commonly found in some queer party contexts than in general festival settings. They have a very narrow therapeutic window — the difference between a recreational dose and a dangerous dose is small, and combining either with alcohol significantly increases the risk of overdose and unconsciousness. Testing is harder for these substances than for others — reagent kits have limited effectiveness. Starting with an extremely small amount and waiting is the most important harm reduction step.",
      "check": "P.R.I.D.E. — \"D\" CHECK: \"Do I know what is in what I am taking — and does someone sober know what I took and...",
-     "darkTitle": "",
-     "dark": "",
+     "darkTitle": "When Substances And Sex Share A Room",
+     "dark": "In parts of queer party culture, substances and sex are not adjacent activities, they are the same event — and that changes the risk in ways general harm-reduction advice does not cover. GHB is the clearest example: it is common, the difference between a recreational dose and an unconscious one is small, it is measured in millilitres, and mixed with alcohol that margin narrows further. Doses get poured by other people, in the dark, from unlabelled bottles. On top of that sits a reporting problem: people who are not out, or who are on a visa, or who have been treated badly by police before, weigh calling for help against being outed or detained — so the call comes late or never. None of that is a reason to avoid the room. It is a reason to dose yourself, from your own supply, with your own syringe or measure, and to have one person there who knows what you took and is not taking it with you.",
      "move": "Test it. Start tiny. Tell someone. Never combine with alcohol. Those four things.",
      "say": "I need to know what this is and I need someone to know I took it and when. Two minutes.",
      "truth": "The community that parties together also looks out for each other. That includes knowing what you are taking."
@@ -1480,7 +1475,7 @@
      "section": "COMMUNITY",
      "hook": "REAL QUEER COMMUNITY VS BEING COLLECTED",
      "archetype": "How to Tell the Difference",
-     "clinical": "",
+     "clinical": "Authentic Community vs Tokenization",
      "who": "Festival culture collects queer people as well as connecting them. Real queer community at a festival is one of the most extraordinary things available. Here is how to find the genuine version and recognize the extractive one.",
      "scene": "Two different queer people approached you warmly this weekend. One of them has been genuinely curious about you — your life outside the festival, your actual interests, what brings you joy. She introduced you to her friends without hovering. She was happy when you went off to explore independently. The other one has kept you close, positioned themselves as the key to the queer community at this festival, and seems slightly off when you spend time with anyone else. Same warm opening. Very different underlying dynamic.",
      "tells": [
@@ -2165,7 +2160,7 @@
      "section": "TOOLS",
      "hook": "THE STAGE IS NOT A CONSENT BYPASS",
      "archetype": "Fame, Access, and Your Responsibility With Both",
-     "clinical": "",
+     "clinical": "Power Differential Awareness / Consent Education",
      "who": "This page is for every musician and touring artist regardless of level. The stage gives you power — social, sexual, financial, reputational. Power requires responsibility. This is the one nobody puts in the welcome packet.",
      "scene": "You're coming off a strong set and you're still buzzing. Someone backstage is clearly interested — has been sending signals all night. They're consenting adults, everything feels mutual. Here's what's also true: you just performed to thousands of people, you have a team and access they don't have, you are in your element and they are in yours — and that power differential is real whether you acknowledge it or not.",
      "tells": [
@@ -2186,7 +2181,7 @@
      "section": "ACCOUNTABILITY",
      "hook": "WHAT GOOD LEADERSHIP SOUNDS LIKE",
      "archetype": "Using Your Platform for Actual Safety",
-     "clinical": "",
+     "clinical": "Platform Responsibility / Bystander Activation",
      "who": "If you have a stage, you have a microphone. If you have a microphone, you have an opportunity to make the space safer for everyone in it. This page is about using that opportunity.",
      "scene": "You're two songs into your set and you can feel the energy of the crowd — fully in it, totally open. You have their complete attention. A lot can happen in that crowd tonight. Some of it will be beautiful. Some of it won't be. You have an actual ability to influence which way it goes. The question is whether you choose to use it.",
      "tells": [
@@ -2207,7 +2202,7 @@
      "section": "ACCOUNTABILITY",
      "hook": "THE MENTAL HEALTH REALITY OF TOURING",
      "archetype": "What Nobody Talks About and What Actually Helps",
-     "clinical": "",
+     "clinical": "Occupational Mental Health / Burnout Prevention",
      "who": "Touring is one of the most mentally demanding sustained experiences a person can undertake. The highs are extraordinary. The lows are real and they're often invisible — because the expectation is that you're living the dream and therefore shouldn't be struggling.",
      "scene": "You're three weeks into a six-week run. The shows have been incredible. The audiences have been extraordinary. You're also sleeping in different places every two days, eating inconsistently, performing at high emotional output nightly, and haven't had a genuine conversation with someone who isn't on tour with you in three weeks. You feel both full and completely empty. You don't know how to explain that to anyone.",
      "tells": [
@@ -2531,7 +2526,7 @@
      "section": "TOOLS",
      "hook": "BUYING AND SELLING SAFELY",
      "archetype": "Legal Risk, Undercovers, and Festival Transactions",
-     "clinical": "",
+     "clinical": "Legal Risk Awareness / Undercover Operations",
      "who": "Transactions at festivals — substances, goods, services, tickets — carry real legal risk that vendors often underestimate because the festival environment feels safe and familiar. Undercover officers work festivals and look exactly like attendees.",
      "scene": "He has been browsing your booth for twenty minutes asking thoughtful questions about your process. The conversation shifts — he mentions he knows people who might be interested in other things you might have access to, winks included. It feels casual. It feels like a fellow festie making a sideways inquiry. Something about the specificity of the questions feels slightly rehearsed. You cannot put your finger on it. But something is off.",
      "tells": [
@@ -2552,7 +2547,7 @@
      "section": "TOOLS",
      "hook": "WHEN THEY DO NOT PAY",
      "archetype": "Your Options When Payment Does Not Come",
-     "clinical": "",
+     "clinical": "Debt Recovery / Contract Enforcement",
      "who": "You did the event. You delivered the inventory. You completed the commission. The payment did not come. This page covers what you actually do next — step by step — because most predatory promoters and buyers rely on vendors being too tired or too non-confrontational to pursue it.",
      "scene": "It has been six weeks since the event. You have sent three polite emails. You have received two vague replies and one promise of \"by end of week\" that came and went. The promoter is still posting about upcoming events on Instagram. Your follow-up messages are being read but not replied to. You are owed $1,200 and you are running out of patience and confidence that it is coming.",
      "tells": [
@@ -2573,7 +2568,7 @@
      "section": "TOOLS",
      "hook": "YOUR VENDOR TOOLKIT",
      "archetype": "The Documents and Resources That Protect You",
-     "clinical": "",
+     "clinical": "Business Infrastructure / Preventive Documentation",
      "who": "This is the reference page. The documents, resources, and practices that mean you are protected before any problem starts — not scrambling to protect yourself after it already has.",
      "scene": "The vendors who have long and sustainable careers on the festival circuit are not the ones who never get taken advantage of. They are the ones who built the infrastructure early, put things in writing consistently, and stopped apologizing for having professional standards inside a culture that frames everything as love and vibes. You can love this community AND operate professionally within it. These are not opposites.",
      "tells": [
@@ -2594,7 +2589,7 @@
      "section": "COMMUNITY",
      "hook": "REAL VENDOR COMMUNITY VS EXTRACTION",
      "archetype": "How to Tell the Difference and Build the Real Thing",
-     "clinical": "",
+     "clinical": "Authentic Solidarity vs Extraction",
      "who": "The vendor circuit at its best is one of the most genuinely supportive professional communities that exists — people who share leads, warn each other about bad promoters, help each other during breakdown, and celebrate each other's success. This page is about building that and protecting it from the extractive version.",
      "scene": "The vendor two booths over comes by mid-morning on Saturday: \"Hey I noticed you are running low on bags — I have extras, take some.\" No reciprocity mentioned. No ledger. Later she tells you she heard a rumor about next year's event moving to a smaller venue — thought you should know before you committed your spot fee. Later still she helps you carry your tent poles to the car. None of it was transactional. All of it was real.",
      "tells": [
@@ -2929,7 +2924,7 @@
      "section": "ACCOUNTABILITY",
      "hook": "YOUR ACCESS IS NOT YOUR PERMISSION",
      "archetype": "Using Your Role Responsibly",
-     "clinical": "",
+     "clinical": "Role Power Awareness / Personal Accountability",
      "who": "Staff and volunteer roles at festivals come with access — to sensitive information, to vulnerable people, to spaces and resources that most attendees do not have. This page is about using that access in ways that are genuinely in service of the people you are there to protect.",
      "scene": "You are a Ranger and someone came to you in genuine distress about a situation in their camp. You helped them, you supported them, you were exactly what the role is supposed to be. You also now know specific private information about them — who they were with, what happened, where their camp is, what their vulnerable moment looked like. The question is not whether that information is real. The question is what you do with it after they walk away from your care.",
      "tells": [
@@ -2950,7 +2945,7 @@
      "section": "ACCOUNTABILITY",
      "hook": "STAFF CULTURE THAT PROTECTS PEOPLE",
      "archetype": "What Healthy Staff Culture Actually Looks Like",
-     "clinical": "",
+     "clinical": "Organizational Safety Culture / Reporting Climate",
      "who": "The culture of a festival's staff team is one of the most important determinants of how safe the event actually is for everyone. This page is about what healthy staff culture looks like — and how to build it from wherever you are in the organizational structure.",
      "scene": "The briefing before gates open sets the tone. The lead says: \"Our job this weekend is to hold the space so everyone can have the experience they came for. That means we take every concern seriously, we report what we see, we take care of each other so we can take care of everyone else, and we never dismiss a gut feeling. If something feels off — name it to your team. There are no bad reports. There are only missed patterns.\" That briefing changes how the whole weekend goes.",
      "tells": [
@@ -3149,8 +3144,8 @@
      ],
      "happening": "Secondary traumatic stress accumulates when difficult experiences are not processed. The processing does not have to be elaborate — naming what was hard, in plain language, to someone who was also there or who understands the context, is often sufficient for immediate decompression. It is the naming that matters. What stays unnamed stays active. Harm Reduction volunteers who debrief consistently report lower rates of burnout and secondary trauma than those who do not.",
      "check": "C.A.R.E. — \"E\" CHECK: \"Have I actually stopped and named what I am carrying from this shift — or am I pushing...",
-     "darkTitle": "",
-     "dark": "",
+     "darkTitle": "What Undebriefed Weekends Turn Into",
+     "dark": "The people who leave harm reduction rarely leave because of one terrible night. They leave because of forty ordinary ones that were never processed, stacked up until the work started costing more than it gave. The documented pattern is specific: accumulated vicarious trauma turns into intrusive memory, then into sleep loss, then into the thing nobody in this field likes saying out loud, which is that a meaningful number of burned-out harm reduction workers end up using in ways they would flag instantly in a participant. You will be the last person to notice it in yourself, because your whole skill set is pointed outward. That is exactly why the debrief is scheduled rather than optional, and why it has to be with someone whose job is you — not the participant, not the org, not the friend who also worked the shift.",
      "move": "Name what was hard. Out loud. To someone. Before you leave the tent. That is the minimum.",
      "say": "Before we all head out — can we take ten minutes to say what today was like? I need to name some of it out loud.",
      "truth": "What you name, you can put down. What you do not name, you carry. Name it."
@@ -3347,7 +3342,7 @@
      "section": "TOOLS",
      "hook": "THE CAMP SAFETY INFRASTRUCTURE",
      "archetype": "Practical Structures That Make Your Camp Genuinely Safe",
-     "clinical": "",
+     "clinical": "Preventive Structure / Protocol Design",
      "who": "This page is practical. Specific structures that make the difference between a camp that talks about safety and a camp that actually provides it.",
      "scene": "The briefing before gates open is the most important ten minutes of the festival. What you say in that briefing — and what structures you establish in it — shapes what members feel able to do and say for the entire weekend. The camps with the best safety records are not the ones with the most rules. They are the ones where the culture of safety is established before anything difficult has happened.",
      "tells": [
@@ -3368,7 +3363,7 @@
      "section": "PROTECTION",
      "hook": "THE CAMP LEAD WHO DOES THE WORK",
      "archetype": "What Genuine Leadership in This Context Looks Like",
-     "clinical": "",
+     "clinical": "Accountable Leadership / Repair Practice",
      "who": "This final page is about what it looks like when camp leadership is done right — not as a set of rules but as a practice of genuine care that includes accountability, humility, and the willingness to be wrong.",
      "scene": "The best camp leads you know have several things in common: they take concerns seriously regardless of who brings them. They hold themselves to the same standards they hold their members. They have built ways for members to push back on their decisions. They have removed people from their camps when those people caused harm — even when it was complicated. They are honest about the limits of their own judgment. They debrief after hard weekends and make changes.",
      "tells": [
@@ -3498,7 +3493,7 @@
      "section": "RESPONSIBILITY",
      "hook": "YOUR STAFF AND VOLUNTEERS",
      "archetype": "What You Owe the People Who Run Your Event",
-     "clinical": "",
+     "clinical": "Labor Obligation / Operational Duty of Care",
      "who": "Your event runs because people show up to make it run. Staff and volunteers who work your event are owed specific things — clear terms, safe working conditions, basic resources, and the knowledge that raising concerns will be taken seriously rather than cost them their position.",
      "scene": "Your volunteer briefing says \"this is a family\" and \"we are all in this together.\" It does not say what the actual shift hours are, what accommodation is provided, what meals are covered, what happens if someone needs to leave early, or how to raise a concern about another staff member. By Saturday your Harm Reduction team is short-staffed, two volunteers have left without explanation, and a concern that was raised Friday morning has not been acted on. The family framing did not substitute for the operational clarity that was needed.",
      "tells": [
@@ -3519,7 +3514,7 @@
      "section": "RESPONSIBILITY",
      "hook": "ENFORCE YOUR OWN POLICIES",
      "archetype": "Consent Culture That Is Real, Not Decorative",
-     "clinical": "",
+     "clinical": "Policy Enforcement / Selective Application",
      "who": "Many events have consent policies. Fewer events enforce them consistently. The gap between a stated policy and its enforcement is not just a failure of follow-through — it is the active message that the policy is decorative rather than real.",
      "scene": "Your event's consent policy is posted at the entrance. It is in your promotional materials. Your team briefing included it. On Saturday night a security staff member reports a consent violation to the team lead. The team lead, who knows the person being reported, decides to handle it informally. The person stays at the event. By Sunday morning two more people have had experiences with the same individual. The policy did not fail. The enforcement did.",
      "tells": [
@@ -3540,7 +3535,7 @@
      "section": "STANDARDS",
      "hook": "THE RECORDING RIGHTS QUESTION",
      "archetype": "What You Actually Own From Your Event",
-     "clinical": "",
+     "clinical": "Intellectual Property / Performer Rights",
      "who": "Your event produces content — video, audio, photography, social media. The question of what you own and what your artists and performers own is both a legal question and an ethical one. This page is about being honest about both.",
      "scene": "Your festival set videos are performing well on your YouTube channel. They are driving discovery for your next event. They are also generating streaming revenue through the platform's music content system. The artists in those videos were paid for their performance. They were not paid for the recording, the distribution, or the streaming revenue. Your standard booking confirmation contained a rights clause they did not negotiate. The content that is building your brand was created by people who are not sharing in its returns.",
      "tells": [
@@ -3701,8 +3696,8 @@
      ],
      "happening": "The recreational drug supply has been contaminated with fentanyl and fentanyl analogues at a scale that makes testing not optional — it is a basic safety step equivalent to checking that your tent stakes are in the ground before it rains.",
      "check": "S.A.F.E. — \"A\"CHECK: \"Have I tested this — and does everyone in my group know what to do if something goes...",
-     "darkTitle": "",
-     "dark": "",
+     "darkTitle": "Every Time Means The Batch You Already Trust",
+     "dark": "Fentanyl and its analogues have turned up in pressed pills sold as MDMA, in cocaine, in ketamine, in counterfeit prescription tablets — substances where nobody in the chain intended an opioid to be present at all. Contamination is not evenly mixed: two pills pressed in the same batch can differ, so a strip that came back clean on Friday’s half says nothing about Saturday’s. This is the specific reason “it’s from a friend” is not a safety measure — your friend is not the chemist, he is another customer, and he is testing nothing either. Two strips and a reagent kit cost less than a night of parking. Carry naloxone even if you never touch an opioid on purpose, because the overdose you reverse will most likely belong to somebody who also thought they never had.",
      "move": "Test your stuff. Carry Narcan. Know the overdose signs. These three things save lives.",
      "say": "Hold on — let me test it first. I have strips in my kit. Two minutes.",
      "truth": "The two minutes it takes to test is not inconvenience. It is the difference between a good night and a medical emergency."
@@ -3772,7 +3767,7 @@
     },
     {
      "section": "SEE SOMETHING",
-     "hook": "SEE SOMETHING — DO SOMETHING",
+     "hook": "HOW ALTERED IS TOO ALTERED",
      "archetype": "Reading Impairment and Knowing When to Stay",
      "clinical": "Harm Reduction / Impairment Assessment",
      "who": "Being altered is a normal part of many festival experiences. Being so altered that you cannot take care of yourself, communicate clearly, or make safe decisions is a different situation — and the people around you are your safety net when you are in that state.",
@@ -3795,7 +3790,7 @@
      "section": "EMERGENCY",
      "hook": "KNOW THESE LOCATIONS BEFORE NIGHT ONE",
      "archetype": "Medical Tent, Harm Reduction, Rangers — Before You Need Them",
-     "clinical": "",
+     "clinical": "Preventive Orientation / Emergency Preparedness",
      "who": "The single most effective thing you can do for your safety this weekend — before any substance, before any adventure, before anything — is to physically locate the medical tent, the Harm Reduction tent, and the Ranger station. Do this before your first night. With your whole group. Together.",
      "scene": "It is Thursday afternoon and you have just arrived. Your camp is set up. The festival has not really started yet. Everything feels calm and oriented. This is the moment to walk the grounds with your group and find the three locations. Not Saturday night when you need them. Right now. The ten minutes you spend orienting yourselves right now are the ten minutes that could determine how a difficult situation on Saturday night resolves.",
      "tells": [
@@ -3816,7 +3811,7 @@
      "section": "EMERGENCY",
      "hook": "IF SOMEONE GOES MISSING",
      "archetype": "What to Do and How Fast to Do It",
-     "clinical": "",
+     "clinical": "Missing Person Protocol / Emergency Response",
      "who": "Someone in your group is missing and you have not been able to reach them. This happens at festivals and it is almost always fine — and it is also sometimes not fine. The protocol for the first category and the second category is the same: act early, not late.",
      "scene": "It is 4am and your campmate said she was going to the bathroom two hours ago and has not come back. Her phone is going to voicemail. You have checked the spot where you usually meet up. You have asked around the camp. Nobody has seen her. You are torn between assuming she is fine and having a good time somewhere and the feeling in your gut that something is wrong. The feeling in your gut is data.",
      "tells": [
