@@ -2367,17 +2367,15 @@ false: 23 of 24 article findings, all 10 caps, all 14 compound, all 121
 numeral findings. Only DIALECT and PUNCT were load-bearing. Triage it, don't
 trust it.
 
-**Cloudflare Web Analytics beacon — flagged, not touched.** `library/wook/
-index.html` line 1652 carries
-`<script src="https://static.cloudflareinsights.com/beacon.min.js"
-data-cf-beacon='{"token":"c8d1aea5…"}'>`. This is an external request on a
-book whose architecture rule says there are none. **It is on all 485 deployed
-HTML files with one shared token** — a deliberate site-wide choice that
-predates this work, not a wook defect. Removing it from one book would kill
-analytics and desync that book from every other page. **Author's call; do not
-remove unilaterally.** The `CLAUDE.md` "no external requests" rule and the
-live site disagree on this point, and the rule should probably be amended to
-record the exception.
+**Cloudflare Web Analytics beacon — APPROVED, do not flag again.** Author
+confirmed 2026-09-17: the beacon is intentional and stays. It is on all 485
+deployed HTML files with one shared token
+(`static.cloudflareinsights.com/beacon.min.js`, token `c8d1aea5…`). This is a
+**standing, permanent exception** to the "no external requests" rule in
+`CLAUDE.md` — it is the one sanctioned outbound request across the whole site.
+Do not remove it, do not raise it as a finding, and do not re-litigate it in a
+future audit. Books remain otherwise fully self-contained: no CDN fonts, no
+icon fonts, no external CSS/JS beyond this one beacon.
 
 **Festie Bible plan written:** `content/festival-audits/festie-bible-plan.md`.
 Grounded in direct inspection, not memory. Headline findings: repo and live
