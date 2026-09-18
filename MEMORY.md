@@ -3826,3 +3826,64 @@ Re-run order after any future content/accent change:
 (the last two just need the image files to already exist on disk; they
 don't regenerate them).
 
+## Update (2026-09-18, later) — Wook: teleprompter reading plan for the
+whole book, 33 chapters, 395 videos, using the book's own built-in modules
+
+User asked for a teleprompter way to read the entire Wook book, cold opens
+as their own videos, chapter content chopped up, one teleprompter MD per
+chapter. Rather than inventing a chunking scheme, discovered the live book
+already ships in a fixed, repeating sequence of video-sized modules per
+chapter — every chapter, all 33, same order: THE DROP (cold open, already
+its own video by design) → The Setup (soundboard quote + real thesis +
+Track roster) → one video per Track (a manipulation pattern's full 7–8
+beat structure: Behavior, Read, Counter-Drop, Vibe Check, Mirror Set,
+Refractions, Runs In Every Direction, Sober Tuesday) → The Mirror + The
+Wook Discog (self-reflection + a four-stage character composite) → Tales
+From [Place] — The Save (a second narrative where the counter-drop
+actually works) → The Fanny Pack (chapter recap + pocket scripts + Safety
+Appendix) → The Soundcheck (a short practical drill) → The Sunrise Set +
+The Kandi Trade (closer: the thesis with no slang, then a vow), with the
+one-line Bridge as an optional outro stinger rather than its own video.
+
+**New: `scripts/wook-teleprompter-build.py`.** Same parsing technique as
+`scripts/wook-continuity-check.py`'s `Book` class (chwrap/ch-end markers
+for chapter boundaries) but adds a proper balanced-tag scanner for
+top-level `<section>`/`<div>` blocks — a naive regex split breaks on this
+book's nested markup (a `<div class="tapers">` aside sitting inside the
+thesis section, `<span class="chip">` pill lists inside the Fanny Pack)
+and silently produces run-on paragraphs. Real bugs caught and fixed before
+the full run: (1) paragraph breaks were only inserted after a `</p>`, so
+any `<p>` reached through a nested `<div>` lost its break — fixed by
+breaking on every `<p>` open tag regardless of what precedes it; (2) the
+soundboard quote and its attribution already carry their own quote marks
+and leading em-dash in the source text, and the script was adding a
+second set — fixed by not re-wrapping; (3) `<span class="chip">` pocket-
+script and Safety-Appendix lines (a pill/tag UI element, not `<p>`
+paragraphs) ran together with zero breaks — fixed by converting each chip
+into its own bullet line.
+
+Five chapters (20, 27, 31, 32, 33) use no Tracks at all — built
+differently on purpose (emergency/resource/closing chapters) — the script
+handles this automatically, producing 7 videos instead of the usual
+10–19 with no Track run in the middle.
+
+33 files written to `content/wook-teleprompter/`, one per chapter
+(`01-it-s-not-drama-it-s-warfare.md` … `33-the-after-party.md`), each
+internally divided into `## 🎬 VIDEO N — <name>` sections with a spoken-
+word count and estimated read time per section (150wpm, same rate/style
+as the Festie Bible builders). `00-INDEX.md` is the full manifest;
+`00-APPROACH.md` is the reasoning doc explaining the module order and
+pointing at `content/wook-audits/wook-cold-opens-reel-order.md` (the
+existing 33-cold-open promo reel/cut-point doc) for the promotional cut of
+just the cold opens. Verified after generation: 0 leftover HTML tags,
+0 curly-quote mismatches, 0 undecoded entities, 0 zero-word video
+sections, across all 33 files. Totals: 395 videos, ~315,455 spoken words.
+
+Not done yet, flagged as the natural next step if wanted: splitting every
+Track/Tales/etc. into its own individually-postable file (the Festie
+Bible's 270-posts treatment, applied to Wook), and `[INSERT IMAGE HERE]`
+markers / a title-card image set to match.
+
+Re-run `python3 scripts/wook-teleprompter-build.py` (optionally with one
+or more chapter numbers) any time the live book changes.
+
