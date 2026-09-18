@@ -2326,6 +2326,50 @@ default matches what's already committed.
 (current branch, no push) for the user to review the diff and deploy
 themselves.
 
+## 2026-09-17 (later still) — Festie Bible v10 live; 270 individual post scripts
+
+Live and byte-verified (md5 `a50f541e…`, deploy `6aac708d5c91eeb0c6aa29dc`).
+`sites.json` liveVersion -> v10.
+
+**All 78 truncated check fields from the audit are now complete.** Each was
+hand-written after reading its full scenario (archetype/who/scene/truth), not
+generic filler, and validated against the checker's own rules (opens with the
+guide's acronym, closes its quote, cites a real letter) before being written.
+`scripts/festie-check-completions.py` holds the 78 completions;
+`scripts/festie-repair-truncated-checks.py` applies them idempotently. Checker:
+**0 errors against 270 scenarios**, first time this project has been fully
+clean.
+
+**New: 270 individually-postable teleprompter scripts**, one per scenario, at
+`content/festie-teleprompter/posts/<guide>/NN-slug.md` (the 21 combined
+per-guide scripts from the prior round still exist too, for a full
+read-through). Built by `scripts/festie-teleprompter-scenes-build.py`. Each
+opens with a **VIDEO INTRO** block — spoken line + on-screen text cue naming
+the guide, section, and scenario, plus that guide's *actual* live accent color
+pulled from the rendered page — then the scenario narration, then the
+shoutout to `noblefathercreations.com/festival`.
+
+**On the "under 3 minutes" ask:** median scenario content alone runs ~3:20 at
+a natural 150wpm before any framing, so most cannot fit under 3:00 without
+cutting the book's own writing, which was explicitly ruled out. Only the
+video-intro framing (fully authored by this script, not book content) was
+trimmed to be lean. Result: **34/270 at or under 3:00, 269/270 at or under
+4:30**, honestly reported per-file rather than forced. The runtime math
+measures only what's actually spoken — an early draft wrongly counted
+markdown labels like "Guide:" as spoken words and was caught + fixed before
+shipping.
+
+`content/festie-teleprompter/01-POSTS-INDEX.md` is the manifest — every post,
+its runtime, and a checkmark for ≤3:00.
+
+**Pipeline, current and complete:** edit `content/festie-bible-data.json` (or
+`festie-add-guide.py`/`festie-add-batch.py`) -> `festie-repair-truncated-checks.py`
+(if any check text changed) -> `festie-accents.py` -> `festie-derive-counts.py`
+-> `festie-build.py` -> `festie-check.py --inline` -> Playwright ->
+`festie-teleprompter-build.py` + `festie-teleprompter-scenes-build.py` (if
+scenario text changed) -> version bump in data + sites.json -> deploy ->
+byte-verify.
+
 ## 2026-09-17 (later) — Festie Bible v9: scenario gap audit, 207 -> 270
 
 Live and byte-verified (md5 `9e55bb79…`, deploy `6aac5c9c4dba1b82032e3f83`).
