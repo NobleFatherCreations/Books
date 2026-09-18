@@ -15,6 +15,8 @@
 
 “This one's C.R.E.A.T.E. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WE RAN YOUR STUFF THROUGH A MODEL”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. A promoter, a brand, or a former client who has discovered they can get something that looks like your work without booking you — and who genuinely does not understand why you would object, because no file of yours was copied.
 
 Here's the scene. The poster for this year's event is unmistakably yours. The palette, the linework, the way you do figures. You did not make it. When you ask, they say they made it in-house, and then, cheerfully, that they used your last three pieces as references, and they say it as though that were a compliment rather than a description of what they did.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - They are baffled by your objection and cite that nothing was copied
 
 Here's what's actually happening. Style is not protected the way a specific work is, which makes this legally murky and commercially devastating — a festival that can generate something close enough to your look does not need to book you, and the thing that made you employable becomes the thing that replaces you. The practical defence is therefore contractual and evidential rather than legal after the fact: what you license, to whom, for how long, and whether machine learning uses are excluded. Most artists have never read that clause and most event contracts now contain one.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “What exactly did I license, and does it exclude training and generation?” — If you have never checked, assume it does not.
 

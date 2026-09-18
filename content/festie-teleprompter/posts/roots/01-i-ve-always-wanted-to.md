@@ -15,6 +15,8 @@
 
 “This one's R.O.O.T.S. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “I'VE ALWAYS WANTED TO”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Intense, immediate, and full of enthusiasm about a version of you he assembled before you spoke. Compliments a category. Has a type and tells you so as though it were a gift he is handing over.
 
 Here's the scene. He has been talking for four minutes and every single thing he has said has been about how you look, in language that keeps reaching for somewhere — a country, a continent, a word he clearly thinks is a compliment. He asks where you are really from. He tells you he has always wanted to be with someone like you. There is no point in this conversation where you have been a person with a name.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Gets cold fast when you are ordinary rather than the thing he pictured
 
 Here's what's actually happening. Fetishization does the same work as any other idealization in this book: it replaces a person with a symbol, and symbols are not allowed boundaries. It is also unusually efficient as an opening move, because it arrives disguised as enthusiastic admiration, which makes declining it look like you are the one being difficult. The practical tell is not the subject matter, it is the direction of attention — someone interested in you asks questions and updates on the answers; someone interested in a category delivers conclusions and does not update at all, because your actual self is not the point and is in fact slightly in the way.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The T check: “Has he asked me anything, or only told me things?” — Interest asks. Collecting announces.
 

@@ -15,6 +15,8 @@
 
 “This one's H.O.L.D. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “SEXUAL PRESSURE WITHIN STAFF HIERARCHY”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The supervisor, event director, or senior staff 
 
 Here's the scene. Your supervisor has been warm and supportive all weekend. He has also made several comments that felt personal rather than professional. Saturday night he asks if you want to come back to the staff area after your shift to "debrief." Something about the way he says it makes the invitation feel less professional than the word suggests. You also know he controls your schedule, your access, and your reference if you volunteer here again next year. Saying no feels complicated in a way it should not.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Comments from a supervisor that feel personal, sexual, or designed to gauge your interest
@@ -32,6 +36,8 @@ Watch for these signs.
 - A feeling that saying no directly would create professional consequences
 
 Here's what's actually happening. Sexual pressure within staff hierarchies is a specific form of workplace sexual harassment regardless of the festival context. The power differential is real: supervisors control schedules, references, access, and the experience of working in that role. That power makes genuine consent complicated and makes declining feel costly. You do not owe a supervisor access to you personally in exchange for a good volunteer experience. The harassment is the problem — not your response to it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The L check: “Have I documented this interaction so I have a record if I choose to report it?”
 

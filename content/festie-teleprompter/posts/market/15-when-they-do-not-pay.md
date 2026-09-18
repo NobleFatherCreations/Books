@@ -15,6 +15,8 @@
 
 “This one's M.A.R.K.E.T. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WHEN THEY DO NOT PAY”
@@ -24,6 +26,8 @@ Here's who you're dealing with. You did the event. You delivered the inventory. 
 
 Here's the scene. It has been six weeks since the event. You have sent three polite emails. You have received two vague replies and one promise of "by end of week" that came and went. The promoter is still posting about upcoming events on Instagram. Your follow-up messages are being read but not replied to. You are owed $1,200 and you are running out of patience and confidence that it is coming.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Payment delayed past agreed date without proactive communication from their side
@@ -32,6 +36,8 @@ Watch for these signs.
 - They are visibly active on social media and running their business while ignoring your payment
 
 Here's what's actually happening. Most non-payment situations resolve at the written demand stage because most bad-faith payers are not prepared to actually face legal consequences — they are relying on vendors giving up. A written demand with a specific deadline and a reference to your legal options is the trigger that moves most situations to resolution. The ones who still do not pay after a written demand are the ones you take to small claims. The process is simpler than most people think.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The R check: “Do I have documentation of everything agreed and every follow-up I have sent?”
 

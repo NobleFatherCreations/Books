@@ -15,6 +15,8 @@
 
 “This one's P.R.I.D.E. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “SEARCHES, TOILETS AND YOUR MEDS”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Not a predator — the infrastructure. The pat-down at the gate, the toilet block, the medical tent, and four days away from a bathroom cabinet.
 
 Here's the scene. The security queue splits into two lines by gender and you are doing the calculation you always do. Then there is the question of the toilets for four days, and the fact that your HRT is in a bag that may be searched by someone who will say something, and the medical tent where you may at some point have to explain your body to a stranger with a clipboard while not at your best.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You have not checked whether this event has an LGBTQ+ or welfare lead
 
 Here's what's actually happening. Most of what makes a festival hard for trans attendees is friction rather than malice, and friction is plannable. Every large event has a welfare team and most now have a named inclusion or access lead; searches can almost always be done by an officer of your choosing or in a private area if you ask, and that request is routine for staff even when it feels enormous to make. The health items are the ones that actually hurt people: binding for four days in heat restricts breathing and causes injury, and interrupted HRT is a medical issue rather than a cosmetic one.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The D check: “Have I found this event's welfare or inclusion lead, and do I know where the gender-neutral facilities are?” — Ask at the gate, not on Saturday.
 

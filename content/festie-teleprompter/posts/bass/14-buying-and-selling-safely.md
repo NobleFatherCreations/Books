@@ -15,6 +15,8 @@
 
 “This one's B.A.S.S. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “BUYING AND SELLING SAFELY”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Transactions at festivals — substances, goods,
 
 Here's the scene. He's in full kandi, wristbands up both arms, talking knowledgeably about the lineup, vibing completely with the crowd. He finds you and opens a conversation about what you're looking for. Everything about him reads as a fellow festie. He seems genuinely connected. He asks for your number. He says to meet him near the back of the camping area in twenty minutes. Something about the sequence feels slightly scripted.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - They approach YOU to buy or sell — not the other way around
@@ -32,6 +36,8 @@ Watch for these signs.
 - Pushes for a quick decision or seems vaguely impatient with your hesitation
 
 Here's what's actually happening. Undercover officers at festivals are specifically trained to blend in and are often very good at it. The behavioral tells are in the transaction pattern itself, not the appearance: they initiate, they guide you toward isolation, they want specificity about quantities, and they push pace. You are never obligated to complete any transaction. "Actually I'm good" ends it without incident. Never follow anyone to an isolated location for any transaction regardless of what's being offered.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Who has access to my decisions in this transaction — and do I know enough about this person to be doing this at all?” — if the answer is no, the deal isn’t worth what it’s about to cost you.
 

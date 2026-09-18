@@ -15,6 +15,8 @@
 
 “This one's R.A.V.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “I'VE GOT A SPARE”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. A stranger outside the gate, or a friendly account in a resale group who has been messaging you for a fortnight. Plausible, apologetic, in a hurry, and about to be unreachable.
 
 Here's the scene. It sold out and this was the only way. The PDF looked real. The bank transfer went to a name slightly different from the account you were talking to, which he explained. You are now at the gate, four hundred miles from home, with your camping gear on your back, watching a scanner go red, and the number you have been messaging is no longer receiving messages.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - They want to meet outside the gate rather than transfer in advance
 
 Here's what's actually happening. Ticket fraud spikes for sold-out events and targets first-timers because they do not know that the only safe routes are the official resale platform or a transfer inside the ticketing system — both of which make the fraud impossible rather than merely detectable. A PDF proves nothing: the same barcode can be sold to nine people and the first through the gate is the only one who gets in. Irreversible payment is the tell that matters most, because it is chosen for exactly that property, and because a card payment would have given you a chargeback.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The V check: “Is this going through the official resale system, and can I reverse the payment?” — Two noes means it is not a ticket, it is a donation.
 

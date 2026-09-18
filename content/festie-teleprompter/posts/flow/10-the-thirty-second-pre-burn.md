@@ -15,6 +15,8 @@
 
 “This one's F.L.O.W. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE THIRTY-SECOND PRE-BURN”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. For every fire, aerial, and prop performer, at every skill level. The veterans who have been hurt are the most rigorous people in any circle, and that is not a coincidence — it is what the injury taught them.
 
 Here's the scene. You are about to go. There is a circle waiting, a running order slipping, and a version of you that wants to skip this because everything looks fine and everything usually is. This page exists because “usually” is doing an enormous amount of work in that sentence.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Rig: anchor, rating, second inspection, and a spotter who is watching you
 
 Here's what's actually happening. Checklists work for the same reason in every high-consequence discipline: they take the decision out of the moment and out of the social context. Reading a list is not a judgment call and cannot be read as a comment on the people present, which is precisely what makes it survivable under an impatient circle. Saying it out loud does the second job — it makes the check public, which means the circle adjusts to it rather than you adjusting to the circle, and it quietly gives permission to the newer performer behind you who was not going to ask.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The F check: “Did I run all six, this time, for this burn?” — Last burn's check does not cover this one. Fuel moves, safeties change, hardware fails between sets.
 

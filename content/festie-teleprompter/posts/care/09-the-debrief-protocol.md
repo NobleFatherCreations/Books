@@ -15,6 +15,8 @@
 
 “This one's C.A.R.E. — Accountability. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE DEBRIEF PROTOCOL”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Debrief is not extra. Debrief is part of the job
 
 Here's the scene. The shift ends and the tendency is to immediately transition back to the festival or to crash into sleep. The transition period — the ten to thirty minutes between the end of a shift and the next thing — is when the debrief happens. Not in a formal structured way necessarily. Just: what was the hardest thing from this shift, said out loud, to at least one colleague. That is the minimum. And it changes everything about what you carry out.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Name the hardest thing from the shift out loud to at least one colleague before leaving
@@ -32,6 +36,8 @@ Watch for these signs.
 - Weekly or post-event check-in with a mental health professional if this is regular work for you
 
 Here's what's actually happening. Secondary traumatic stress accumulates when difficult experiences are not processed. The processing does not have to be elaborate — naming what was hard, in plain language, to someone who was also there or who understands the context, is often sufficient for immediate decompression. It is the naming that matters. What stays unnamed stays active. Harm Reduction volunteers who debrief consistently report lower rates of burnout and secondary trauma than those who do not.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/care/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Have I actually stopped and named what I am carrying from this shift — or am I just pushing it down to deal with later?” — what you name, you can put down. What you don’t, you carry.
 

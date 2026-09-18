@@ -15,6 +15,8 @@
 
 “This one's S.A.F.E. — Substances. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “TEST EVERYTHING EVERY TIME”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Fentanyl is in the supply. It is in pills, powde
 
 Here's the scene. "Someone in our camp tested their MDMA Saturday morning and it came back as something completely different." This happens at every major festival. Not occasionally — every festival, every season. The person who handed it to you may not have known either. Testing is not about distrust of the person who gave it to you. It is about knowing what is actually in what you are consuming. You would not eat a wild mushroom without identifying it first. Same exact energy. Same exact stakes.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Fentanyl test strips: dissolve a tiny amount in water, dip — ONE line means fentanyl present, do not use
@@ -32,6 +36,8 @@ Watch for these signs.
 - Wait before redosing — onset times vary and stacking doses before you feel the first one is how people get in trouble
 
 Here's what's actually happening. The recreational drug supply has been contaminated with fentanyl and fentanyl analogues at a scale that makes testing not optional — it is a basic safety step equivalent to checking that your tent stakes are in the ground before it rains.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Have I tested this — and does everyone in my group know what to do if something goes wrong?” — two minutes of testing is the difference between a good night and a medical emergency.
 

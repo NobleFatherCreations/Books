@@ -15,6 +15,8 @@
 
 “This one's H.E.A.L. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “I TRAINED WITH A LINEAGE”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Speaks with total calm certainty about where the work came from. Names a teacher, a region, a tradition, a number of years. Everything he says is structurally impossible to check, and he chose it for that reason.
 
 Here's the scene. He says he trained for nine years with a lineage holder in a place you would have to fly to, whose name he gives softly, as though saying it too loudly would be disrespectful. Nobody in this tent is going to fact-check that. Nobody in this tent could. And you notice, as he says it, that the reverence in his voice is doing all the work that a certificate would otherwise have to do.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Gets cooler toward anyone who asks a second question
 
 Here's what's actually happening. Every regulated healing profession is built on three things a false practitioner cannot supply: a checkable qualification, a body that can remove you, and a named limit to your scope. Unverifiable lineage is chosen precisely because it substitutes for all three at once — authority without accountability. It is the single most common structure in this scene's abuse cases, and the reason is not mysticism, it is architecture. The honest practitioners with real traditional training are usually the easiest people in the world to ask about it; they will tell you their teacher, their years, what they do not do, and who they refer to. Precision is the tell in both directions.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Can I name this person's training, their limits, and who they answer to?” — Three blanks is not a lineage. It is a costume.
 

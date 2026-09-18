@@ -15,6 +15,8 @@
 
 “This one's M.A.R.K.E.T. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “SHE IS NOT REALLY HANDMADE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The fellow vendor who uses the tight-knit circui
 
 Here's the scene. Sales started dropping at your third event of the season without obvious reason. A promoter friend tells you she has been hearing your work is not really handmade — she does not know where it is coming from but multiple people have mentioned it. You trace it back to a vendor two spots over who you have been outselling for three seasons. Nothing being said is true. But it is already in circulation and you do not know how to correct something you are not supposed to know is being said.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Sales drop or bookings thin without clear cause — investigate the social layer
@@ -32,6 +36,8 @@ Watch for these signs.
 - A specific competitor directly benefits from the narrative circulating about you
 
 Here's what's actually happening. The festival vendor circuit is small, relationship-driven, and operates heavily on reputation. Smear campaigns are highly effective because the market is interconnected — a few well-placed doubts can close doors quietly without you knowing they were closing. The most effective counter is documented proof: photos of your process, behind-the-scenes content, certificates of authenticity for materials, and direct relationships with promoters that are independent of any one person.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The K check: “Do I have documentation of my process and materials that speaks for itself?”
 

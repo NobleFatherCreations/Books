@@ -15,6 +15,8 @@
 
 “This one's P.R.I.D.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “OUTING AS LEVERAGE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The use of your identity — or the threat of ex
 
 Here's the scene. You ended things with him Saturday morning. By Saturday afternoon you hear through the camp that he has been telling people things about you — your identity, your past, details of your private life that you shared in confidence. It is framed as "just talking" but you know what it is. He told you two days ago that he knows people who know people back in your hometown. The implication was clear even without the explicit threat.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Implicit or explicit references to "people back home" or your non-festival life when you exercise independence
@@ -32,6 +36,8 @@ Watch for these signs.
 - Information shared in intimacy being used as leverage when intimacy ends
 
 Here's what's actually happening. Outing as leverage is a specific form of coercion that exploits the real-world consequences that can follow unwanted disclosure of queer identity — in families, workplaces, and communities where full acceptance is not guaranteed. It is a serious harm regardless of how it is delivered. Implicit threats are still threats. Information shared in intimacy that is weaponized after the relationship ends is a form of abuse. You have the right to name it, report it, and seek support.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The I check: “Is this person treating private information I shared with care — or as something they hold over me?” — information given in trust and then used as leverage was never really given. It was taken on credit.
 

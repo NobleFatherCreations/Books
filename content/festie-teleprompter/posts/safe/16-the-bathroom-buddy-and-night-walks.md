@@ -15,6 +15,8 @@
 
 “This one's S.A.F.E. — Community Care. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE BATHROOM BUDDY AND NIGHT WALKS”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Some of the simplest safety habits in festival c
 
 Here's the scene. It is 3am Saturday. You need the bathroom and your campmate is finally asleep and your buddy is at a set you did not want to see. The walk to the bathroom is maybe four minutes through a part of the festival that is less busy at this hour. You almost go alone. The almost is the moment. The almost is where the simple habit matters.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Bathroom buddy rule: someone walks with you to the bathroom after dark, every time, no exceptions
@@ -32,6 +36,8 @@ Watch for these signs.
 - The quiet check-in: "you good?" before splitting up is two seconds and it matters
 
 Here's what's actually happening. Most adverse incidents at festivals happen in low-visibility, low-traffic situations in the later hours of the night — on walks between stages, in bathroom queues, in the paths between camping areas. The simple habit of not being alone in those moments is one of the most effective risk reductions available. It does not require elaborate systems. It just requires the group norm that you do not let people walk alone after dark.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Is anyone in our group alone right now in a situation where they should not be?”
 

@@ -15,6 +15,8 @@
 
 “This one's R.O.O.T.S. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE LADDER AND THE ANCHOR”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. For anyone whose safety plan cannot be copied straight out of a generic guide — which, at some events, is most of the people reading this one.
 
 Here's the scene. Thursday afternoon, before anything has happened, while the site is calm and the people you would need are all findable and not busy. Twenty minutes now buys you the thing that is impossible to assemble at two in the morning with a torch in your face, which is a set of names and a route you already trust.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - The affinity camp or crew, found on day one rather than on the bad night
 
 Here's what's actually happening. Everything in this guide is cheaper to arrange in advance than to invent under pressure, and the reason is the same one that runs through this whole book: the moment is designed to be one where you cannot think. A prepared ladder converts a judgment call into a lookup. The witness rule does the most work of anything on that list — accounts of these encounters diverge sharply depending on whether anyone else was present, and a second person standing beside you changes both what happens and what can be said about it afterwards. None of this is about expecting trouble. It is the same logic as knowing where the medical tent is.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The R check: “Can I name my two non-security contacts right now?” — If not, that is the twenty minutes, and it is best spent on Thursday.
 

@@ -15,6 +15,8 @@
 
 “This one's H.O.L.D. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE DEBRIEF IS PART OF THE JOB”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Festival caregiving roles expose you to a concen
 
 Here's the scene. You supported an overdose response, two assault disclosures, and a mental health crisis in the same shift. All of them resolved as well as they could. You did your job well. It is now Sunday evening and the festival is winding down and you are sitting in your car in the parking area before driving home and you realize you have not actually stopped moving since Thursday. You are not sure what you feel. You are not sure you feel anything. That numbness is the thing to pay attention to.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Emotional numbness or flatness after a shift involving difficult incidents
@@ -32,6 +36,8 @@ Watch for these signs.
 - Physical symptoms — tension, headache, fatigue — that persist well after your shift ends
 
 Here's what's actually happening. Secondary traumatic stress — also called vicarious trauma — is a recognized occupational hazard for people in caregiving and emergency response roles. It develops from repeated exposure to other people's traumatic experiences. Festival caregiving compresses this exposure dramatically. Debrief is the professional standard for managing it — named processing of what you experienced, with colleagues or a professional, before it gets metabolized as unprocessed trauma.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The D check: “Have I actually stopped and processed what I experienced today — or am I just pushing through to the next shift?” — what you process becomes wisdom. What you don’t becomes weight.
 

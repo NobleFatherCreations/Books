@@ -15,6 +15,8 @@
 
 “This one's S.O.U.N.D. — Accountability. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WHAT GOOD LEADERSHIP SOUNDS LIKE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. If you have a stage, you have a microphone. If y
 
 Here's the scene. You're two songs into your set and you can feel the energy of the crowd — fully in it, totally open. You have their complete attention. A lot can happen in that crowd tonight. Some of it will be beautiful. Some of it won't be. You have an actual ability to influence which way it goes. The question is whether you choose to use it.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Stating consent expectations from the stage normalizes them in the crowd
@@ -32,6 +36,8 @@ Watch for these signs.
 - Creating moments of grounding and community check-in is part of what great performers do
 
 Here's what's actually happening. Artists with stage platforms have a specific ability to shape the culture of a crowd that most people in that crowd don't have. Stating consent expectations, pointing to safety resources, calling out behavior you see — these are not political statements. They are basic community care that is within your power to provide. The artists who do this are often the ones whose shows feel different — where people feel safer to be fully present.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The N check: “What does my platform allow me to contribute to the safety of this community right now?”
 

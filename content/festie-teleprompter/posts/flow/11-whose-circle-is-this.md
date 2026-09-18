@@ -15,6 +15,8 @@
 
 “This one's F.L.O.W. — Community. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WHOSE CIRCLE IS THIS”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The good version has no owner, teaches sideways, and lets terrible beginners take up space. The other version has a centre, and the centre is a person, and everyone's position is measured by distance from him.
 
 Here's the scene. Two circles at the same festival. In the first, a woman who has been spinning for twenty years spends eleven minutes helping somebody who picked up poi on Thursday, then goes back to her own practice and never mentions it again. In the second, everyone is subtly performing for one man at the edge, and when he leaves for ten minutes the energy of the whole circle changes, and everybody notices that it did.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Owned: people describe the circle by his name
 
 Here's what's actually happening. A practice circle is one of the genuinely great things this scene produces — skill transmitted for free, across ages and levels, because somebody once did it for you. It is also a structure with an obvious failure mode: circles with a centre concentrate access, and concentrated access is what every pattern in this guide runs on. The test is identical to the one in every other guide here, which is not an accident: can you decline, be unimpressive, or leave without it costing you? In a real jam the answer is yes and nobody registers it. In an owned one, everybody registers everything.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The W check: “If I sat out tonight and said nothing, would anything change for me here?” — If sitting out has a price, this circle has an owner.
 

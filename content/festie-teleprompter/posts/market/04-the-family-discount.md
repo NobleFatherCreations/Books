@@ -15,6 +15,8 @@
 
 “This one's M.A.R.K.E.T. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE FAMILY DISCOUNT”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The pressure from fellow vendors — framed as c
 
 Here's the scene. The vendor two booths over has been friendly all weekend and helped you with a few things. Now she wants $200 of your inventory for $80 "because we take care of each other here." The festie culture frames this as normal generosity. But $120 of lost margin on a slow sales day is not a gift you can afford. When you hesitate she mentions how she helped you with the tent stakes yesterday morning.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - The "we are family" frame used specifically in commercial transactions
@@ -32,6 +36,8 @@ Watch for these signs.
 - The pressure arrives when you are already depleted or in a vulnerable moment
 
 Here's what's actually happening. Festival vendor culture has genuine traditions of mutual aid. The predatory version uses that cultural norm to extract commercial value — discounts, free inventory, special pricing — framed as solidarity. Real community support does not require you to absorb losses to prove you belong. A discount is a business decision. So is not giving one. You are allowed to make that decision based on your actual financial situation.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The M check: “Is this exchange actually mutual — or am I absorbing a loss to avoid a social cost?”
 

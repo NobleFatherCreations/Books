@@ -3,6 +3,8 @@
 
 *A spoken-word teleprompter script — one scenario at a time, ready to read straight to camera.*
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/cover.png`]** — video open — type this video's scenario/section title into the blank bottom third before recording, then hold or fade from it.
+
 **Quick shoutout before we start:** every scenario in this guide — and 253 more across the other twenty guides — lives free at **www.noblefathercreations.com/festival**.
 
 This is R.A.V.E.: First-Timers Edition. For every first festival — the guide nobody hands you at the gate.
@@ -29,6 +31,8 @@ Here's who this is. The 10-year veteran who adopts you at the gate. Knows every 
 
 Picture this. You're overwhelmed at the gate — it's bigger than you imagined and your signal is patchy. He appears: eleven years of attendance, knows everyone, perfect camp set up. He walks you in, introduces you to people, knows where everything is. By Day 2 you haven't made a single independent decision about your weekend. By Day 3 when he makes a move you're not comfortable with, saying no feels like losing your entire festival infrastructure.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Makes himself the essential navigator of your experience from the first hour
@@ -37,6 +41,8 @@ Here are the signs.
 - Any desire to explore alone is gently discouraged as unsafe or naive
 
 Here's the mechanism underneath it. The "guide" setup mimics genuine mentorship so closely. Real guides give you information and independence. Predatory guides give you access that requires them. The test is simple: after 48 hours with a real mentor, you know more about how to navigate independently. After 48 hours with a predatory guide, you know less — because your navigation runs through them.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The V check: “Can I get to my camp, the medical tent, and the exit right now without asking him?” — if not, you’re not being guided, you’re being kept.
 
@@ -57,6 +63,8 @@ Let's talk about who does this. The one who singles you out as unusually ready, 
 
 Here's how it plays out. "Most people who come for the first time don't get it like you do. You're different." She says it looking right at you and it feels completely true. By the next day you're slightly embarrassed to hang out with the other first-timers because you've been coded as more evolved. You're spending all your time with her crowd — people you've known for 36 hours — and your actual friends are somewhere on the other side of the festival.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - "You're not like other first-timers" — your natural peer group gets gently dismissed
@@ -65,6 +73,8 @@ Watch for these.
 - Your status in their world depends on staying close to them
 
 Here's what's really going on. The pedestal ploy separates you from your natural support network by making that network feel beneath the version of yourself they're reflecting back. Other first-timers are your most reliable safety network this weekend. Anyone who positions themselves between you and that solidarity, however flatteringly, is removing your protection.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The E check: “This person is still a stranger. Warmth and flattery are not the same thing as safety.”
 
@@ -85,6 +95,8 @@ Here's who you're dealing with. The person who introduces you to substances at y
 
 Here's the scene. "You've never tried it? Oh you HAVE to — this is literally what the festival is for. Trust me, I've done this hundreds of times, I'll take care of you." You trust him. He seems experienced. You don't test it. You don't know your tolerance. You don't tell your friends what you took or when. Three hours later you're having the worst experience of your life in an unfamiliar place with a person you met 24 hours ago.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Pressured or encouraged to try something new without informed consent and preparation
@@ -93,6 +105,8 @@ Here's what to watch for.
 - You don't know what you took or when, so you can't get appropriate help if needed
 
 Here's what's actually happening. First-time substance experiences in festival environments without preparation, testing, or a trusted sober support person are one of the highest-risk situations in the festie world. The person introducing you may have the best intentions and still set you up for a terrible experience. Informed consent means knowing what you're taking, what to expect, having tested it, having someone who knows what and when, and having the Harm Reduction tent location memorized.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The V check: “Can I get to my camp, the medical tent, and the exit right now without asking him?” — if not, slow down before the moment sweeps you somewhere you didn’t choose.
 
@@ -113,6 +127,8 @@ Here's who this is. The framing that to be a real member of this community you n
 
 Picture this. "Dude everyone does this here — it's part of the experience. If you don't try it you're not really at the festival, you're just watching it." You haven't slept properly in 36 hours, you're overwhelmed, you're trying to fit in with people who clearly know this world. The social cost of no feels higher than the cost of yes. So you say yes to something you didn't actually want.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - "Everyone does this" stated as fact — impossible to verify in the moment
@@ -121,6 +137,8 @@ Here are the signs.
 - Genuine community values invoked to override individual judgment
 
 Here's the mechanism underneath it. Social proof is one of the most powerful human decision-making shortcuts. First-timers have maximum social uncertainty and minimum local knowledge, making this especially effective. "Everyone does this" is almost never literally true. It's a frame that makes your hesitation seem like an outlier when it's actually just your judgment working correctly. Your hesitation is not naivety. It is your nervous system doing its job.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The R check: “Is this real connection — or performance designed to get me to say yes to something?”
 
@@ -141,6 +159,8 @@ Let's talk about who does this. The person who appears exactly when you're most 
 
 Here's how it plays out. You got separated from your group Saturday night and your phone died. You're in the wrong part of the festival and you don't know how to get back. He appears — calm, oriented, kind. He walks you somewhere warm, gets you water, sits with you while your portable charger works. An hour later, when he suggests you stay in his camp rather than find your friends, the relief and gratitude are still running the show.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Appears at peak vulnerability: separated, lost, depleted, frightened
@@ -149,6 +169,8 @@ Watch for these.
 - The suggested next step keeps you in their orbit rather than returning you to yours
 
 Here's what's really going on. The rescue hook targets the specific window when you're most resource-depleted and least capable of independent assessment. The help is often genuinely real — which makes the subsequent leverage feel confusing. Gratitude is a genuine human response to being helped. It is not a binding contract. You can thank someone sincerely for real help and still choose to go back to your own people afterward.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The V check: “Does this person’s help return me to my own people and navigation — or keep me needing them for the next thing too?” — real help ends. It doesn’t renew itself.
 
@@ -169,6 +191,8 @@ Here's who you're dealing with. Festivals do something strange to time — three
 
 Here's the scene. It's Saturday night and you feel like you've known these people your whole life. The person you've been spending time with feels like one of your closest friends. The intimacy feels earned. You've shared things you've never told people you've known for years. By Sunday when they ask for something you wouldn't normally agree to — a favor, money, something physical — the relationship feels real enough that saying no feels like a betrayal of something genuine.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - You feel closer to someone after 48 hours than to people you've known for years
@@ -177,6 +201,8 @@ Here's what to watch for.
 - The relationship feels too real to question, which makes you unwilling to slow down
 
 Here's what's actually happening. Time compression is a documented psychological feature of festival environments — high novelty, altered states, emotional intensity, and social density all compress the felt experience of time. Genuine closeness can develop faster here. Manipulators who know this use the accelerated intimacy deliberately — sharing vulnerably, moving fast, creating the feeling of deep connection — then leveraging that feeling before you've had time to verify it with actual behavior patterns.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The E check: “Everyone here is still a stranger to me — warmth and familiarity are not the same as safety.”
 
@@ -197,6 +223,8 @@ Here's who this is. First-time festival attendees experience overwhelm in predic
 
 Picture this. It's 3am Saturday and you're exhausted, slightly lost, slightly overwhelmed, and running on whatever you took six hours ago. Your friends are somewhere. Your phone is at 12%. Everything is loud and bright and moving and you feel suddenly very small. This is the window. This is when someone who's been watching for you will appear. And they will seem like exactly what you need.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - You're at peak overwhelm, exhaustion, or disorientation when they appear
@@ -205,6 +233,8 @@ Here are the signs.
 - The "help" requires proximity to them rather than returning you to your group
 
 Here's the mechanism underneath it. The overwhelm window is predictable and exploitable. Knowing when it's likely to hit — Day 1 arrival chaos, late Saturday night, Sunday morning crash — lets you build support into those specific moments rather than being surprised by them. Your most vulnerable moments don't have to be your least protected ones. That's what pre-planning your support infrastructure is for.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The A check: “Am I making decisions right now with the same judgment I’d have at 2pm on a Tuesday?” — if not, this isn’t the moment to decide anything.
 
@@ -225,6 +255,8 @@ Let's talk about who does this. The gradual replacement of your actual people wi
 
 Here's how it plays out. By Day 3 you've barely seen the people you drove up with. Every time you've mentioned them this weekend the veteran has had something slightly dismissive to say — "they seem pretty default world honestly," "they're not really engaging with the deeper experience." His people feel more real now. When your original friends text asking where you are, you feel vaguely embarrassed of them. That shift happened fast.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Your existing friends characterized as less evolved, less open, less real
@@ -233,6 +265,8 @@ Watch for these.
 - Returning to your original group feels like a step backward
 
 Here's what's really going on. Social network replacement feels like growth from the inside. The tell is direction: genuine growth expands your world — you come back from a transformative experience and eventually bring your existing people along. Predatory replacement contracts your world — your existing people get smaller and your connection to this new person gets bigger. Your friends who drove up with you know your full self. They are not the problem.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The E check: “My original people are still strangers to this person. My original people actually know me.”
 
@@ -253,6 +287,8 @@ Here's who you're dealing with. The veteran who dangles exclusive access — the
 
 Here's the scene. "The main stages are for tourists. I'll show you the real festival — the private camps, the underground sets, the people who actually run this thing." By Day 2 you're spending all your time in his exclusive world and it IS more interesting. But you're also completely dependent on him for access to it, you've barely seen the artists you bought tickets to see, and your friends from home feel like they're at a different festival.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - The "real" festival is always exclusive and accessible only through them
@@ -261,6 +297,8 @@ Here's what to watch for.
 - Independence is implicitly framed as missing out or being too naive to know better
 
 Here's what's actually happening. Access bait works by making your existing festival experience feel inadequate while positioning the gatekeeper as the key to something better. Your original excitement about the festival — the artists you love, the things you planned — gets subtly devalued. This is manufactured inadequacy. The festival you bought a ticket to is real and full and complete. Anyone who makes you feel like you're missing it by not being in their exclusive world wants something from you.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The R check: “Is this person showing me the festival or using the festival to show me I need them?”
 
@@ -281,6 +319,8 @@ Here's who this is. A stranger outside the gate, or a friendly account in a resa
 
 Picture this. It sold out and this was the only way. The PDF looked real. The bank transfer went to a name slightly different from the account you were talking to, which he explained. You are now at the gate, four hundred miles from home, with your camping gear on your back, watching a scanner go red, and the number you have been messaging is no longer receiving messages.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Bank transfer, crypto, or a friends-and-family payment — all irreversible
@@ -291,6 +331,8 @@ Here are the signs.
 - They want to meet outside the gate rather than transfer in advance
 
 Here's the mechanism underneath it. Ticket fraud spikes for sold-out events and targets first-timers because they do not know that the only safe routes are the official resale platform or a transfer inside the ticketing system — both of which make the fraud impossible rather than merely detectable. A PDF proves nothing: the same barcode can be sold to nine people and the first through the gate is the only one who gets in. Irreversible payment is the tell that matters most, because it is chosen for exactly that property, and because a card payment would have given you a chargeback.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The V check: “Is this going through the official resale system, and can I reverse the payment?” — Two noes means it is not a ticket, it is a donation.
 
@@ -315,6 +357,8 @@ Let's talk about who does this. The camp that seems perfect — tight community,
 
 Here's how it plays out. The camp found you on Friday — fed you, gave you shade, made you feel like you'd found your people. By Saturday they're talking about next year, about the regional events in between, about the "camp family" that extends year-round. It all sounds beautiful. Then you start noticing: people don't really leave the camp, questioning the camp leadership is gently but clearly not done, and the "contribution" expectations are more extensive than you understood when you arrived.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Camp leadership is not accountable in the same ways regular members are
@@ -323,6 +367,8 @@ Watch for these.
 - Commitment to the camp family extends far beyond the weekend without your full understanding
 
 Here's what's really going on. Tight community in festival culture is real and beautiful. It also exists on a spectrum that includes high-control groups using festie aesthetics. The tells are always the same: is leadership accountable or above questioning? Are members free to leave? Are contribution expectations defined and mutual? Is dissent welcomed or managed? Real community answers yes to all of these. High-control groups answer no.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The E check: “Am I free to leave this camp right now, without social cost?” — if that question makes you nervous to even ask, that nervousness is the answer.
 
@@ -343,6 +389,8 @@ Here's who you're dealing with. This is the page that should have been in your t
 
 Here's the scene. The best festie veterans you'll meet this weekend have one thing in common: they've thought through what happens when things go sideways. Not because they expect the worst — because having a plan for the worst means you can fully relax into the best. Infrastructure isn't the opposite of magic. It's what makes the magic safe to fully inhabit.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Fentanyl strips + reagent kit in your bag before you arrive — non-negotiable
@@ -351,6 +399,8 @@ Here's what to watch for.
 - Code word established with your group: one text = come find me, no questions asked
 
 Here's what's actually happening. First festivals are overwhelming by design — enormous, multi-sensory, socially rich. That overwhelm is part of the magic. It's also what makes you most vulnerable to people who know how to exploit it. Every piece of infrastructure you build before you arrive is one less thing someone can use as leverage over you. Charged phone, known camp location, tested substances, trusted contacts: these are not the opposite of freedom. They are freedom.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The A check: “Before I take anything: do I know what it is, have I tested it, and does someone sober know?”
 
@@ -371,6 +421,8 @@ Here's who this is. Not a person — the standard second evening of a first fest
 
 Picture this. You got separated at the changeover. Your phone died twenty minutes ago. You cannot remember whether the camp is left or right of the big flag, all the flags look the same in the dark, and you have just discovered that you do not know a single person's phone number by heart because you have never needed to.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - No meeting point was ever agreed, because everyone assumed phones
@@ -381,6 +433,8 @@ Here are the signs.
 - You have been drinking, it is dark, and you are now alone
 
 Here's the mechanism underneath it. This is the single most common bad night at a first festival, and it is entirely preventable with about four minutes of Thursday planning. It matters beyond inconvenience because it produces exactly the state every predatory pattern in this guide needs: a visibly lost, overwhelmed, slightly drunk newcomer with no way to contact anyone, wandering a dark site. The help that arrives is usually genuine. The point is not to need to rely on whoever it happens to be.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The V check: “If my phone died right now, could I get back to my camp and reach my people?” — That is a Thursday question with a Thursday answer.
 
@@ -401,6 +455,8 @@ Let's talk about who does this. Mostly opportunists working the campsites during
 
 Here's how it plays out. Everyone said the campsite was safe and mostly it is and you believed it, so your passport, your bank card, your keys and your spare phone are in your tent, which is closed with a zip that a child could open, while you are a mile away watching the headliner along with everybody else in the field.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Valuables kept in a tent, which is a bag, not a room
@@ -411,6 +467,8 @@ Watch for these.
 - You are carrying every card you own rather than one
 
 Here's what's really going on. Campsite theft is almost entirely opportunistic and almost entirely timed — it happens during the headline sets, when the campsite is empty and nobody will be back for hours. The advice that the campsite is safe is broadly true and slightly dangerous, because it is true about people and not about opportunity. The practical loss is rarely the phone; it is the passport, the car keys, the bank cards and the house keys, which turn a stolen bag into a genuinely hard week rather than an annoying one.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The A check: “What is in my tent right now that I could not get home without?” — Whatever that is should not be in there.
 
@@ -435,6 +493,8 @@ Here's who you're dealing with. Been coming for nine years. Knows the site, the 
 
 Here's the scene. He has been right about everything. The queue, the water point, the set you'd have missed. He is genuinely good company and the weekend is better for him. On Saturday your friends want to go to the far stage and he says they'll get lost, that they don't know this place, that you should stay with him — and you notice you are about to agree with somebody you met on Thursday over people you have known for years.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Is the only route to information, and keeps it that way
@@ -445,6 +505,8 @@ Here's what to watch for.
 - Reacts to you making independent plans as though it were a mistake he must fix
 
 Here's what's actually happening. Every first-timer needs a guide and most veterans are exactly that — the scene runs on people cheerfully handing down what they know. The pattern to watch for is not helpfulness, it is exclusivity: a guide who wants you competent teaches you the site, and a guide who wants you dependent stays the site. Asymmetric knowledge is the lever, and at your first festival the asymmetry is total, which is why this is a first-timer's chapter. The test is direction of travel: by Sunday, do you know more, or do you need him more?
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The V check: “Could I get back to my own camp, right now, without him?” — If the answer is no on day three, that is not experience. That is a leash.
 
@@ -469,6 +531,8 @@ Here's who this is. Transactions at festivals — tickets, substances, goods, se
 
 Picture this. He's got full kandi, wristbands up both arms, knows the lineup, vibing completely. He finds you and asks if you're looking for anything. He seems like just another attendee. He has the energy of someone who belongs here completely. Something about the sequence of the conversation — the way he guides it, the specificity of his questions — feels slightly scripted. You can't articulate why. But something is off.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - They approach YOU rather than you finding them through organic conversation
@@ -477,6 +541,8 @@ Here are the signs.
 - Something about the interaction feels slightly rehearsed — you can't put your finger on it
 
 Here's the mechanism underneath it. Undercover officers at festivals are specifically trained to blend in and they're often very good at it. The tells are in the transaction pattern itself: they initiate, they guide toward isolation, they want specificity about quantities, they push pace. You are never obligated to complete any transaction. "Actually I'm good" ends it without incident. Never follow anyone to an isolated location for any reason.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The A check: “Am I proceeding with this because I actually want to — or because saying no feels awkward?”
 
@@ -501,6 +567,8 @@ Let's talk about who does this. The festival world is full of people who will ge
 
 Here's how it plays out. Two different people approached you this weekend in a warm way. One of them has shared their food, pointed you toward things you love, introduced you to people without hovering, and seemed genuinely happy when you went off to explore independently. The other has kept you close, subtly steered you away from other people, and seems slightly off when you exercise independence. Same warm opening energy. Very different underlying dynamic.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Real connection: glad when you explore independently, makes your world bigger
@@ -509,6 +577,8 @@ Watch for these.
 - Collection: needs you close, subtly discourages independence, warmth fluctuates with compliance
 
 Here's what's really going on. The difference between genuine connection and being collected is not visible in the opening — it becomes visible in how the person responds to your independence. Genuine connectors are happy when you flourish without them. They celebrate your other connections. They don't need to be the center of your festival experience. Collectors need your orbit. They need your dependency. They need to be the source of your experience. Watch for that distinction over a full day.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The R check: “Is this person’s warmth consistent whether I’m being compliant or independent?” — that’s the whole test.
 

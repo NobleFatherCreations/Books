@@ -15,6 +15,8 @@
 
 “This one's H.O.L.D. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WHEN YOU HAVE TO PUT HANDS ON SOMEONE”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Every volunteer who has ever had to stop somebody walking into a road, hold a stretcher, move somebody who is unconscious, or get between two people who are fighting — with a two-hour briefing and no qualification whatsoever.
 
 Here's the scene. He is unconscious and needs moving out of the crowd, or he is trying to climb something, or two people are going at it and you are the nearest person in hi-vis and everybody has turned to look at you. You have never been trained in any of this and you are about to do it anyway because nobody else is going to.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Nobody has told you what you are and are not permitted to do
 
 Here's what's actually happening. Untrained physical intervention is the highest-consequence thing an unqualified volunteer can do, and it happens constantly because the hi-vis creates an expectation the training never met. Two specifics are worth knowing above everything else. Positional asphyxia — holding or leaving someone face-down or folded, especially if they are intoxicated, large, or struggling — kills people, and it is the single most documented cause of restraint-related death. And an unconscious person who is breathing goes into the recovery position on their side, not face-up and not face-down, because the airway is the whole problem.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The H check: “Am I trained for what I am about to do?” — If not, the intervention is a radio call and a presence, not a hold.
 

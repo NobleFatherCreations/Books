@@ -15,6 +15,8 @@
 
 “This one's B.A.S.S. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE PROMOTER'S GOT A DEAL FOR YOU”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The promoter or "connector" who offers access �
 
 Here's the scene. He can get you on a bigger stage. He knows the right people. He wants to manage you — no contract yet, "let's feel this out." Three events later you've promoted his parties for free, paid your own travel, given him 30% of your merch "until you're established," and performed at two events where you were never paid what was agreed. The bigger stage keeps being three months away.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Handshake deals with no contract — "we're family, we don't need paperwork"
@@ -32,6 +36,8 @@ Watch for these signs.
 - Isolates you from other industry contacts — "those people don't understand your vision"
 
 Here's what's actually happening. Access is currency in the music and festival world and predatory promoters know exactly how to use it. The pattern: create genuine-feeling opportunity, establish dependency before paperwork, extract labor while the opportunity stays always ahead. The "family" framing removes the business structure that would protect you. Contracts are not distrust — they're what makes relationships honest.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Who controls my access to the next level — and what is that actually costing me?”
 

@@ -15,6 +15,8 @@
 
 “This one's S.A.F.E. — Emergency. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “IF THE CROWD GETS TOO TIGHT”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Nobody. This is physics, and it is the most lethal thing that happens at music events, and almost nobody in a crowd knows the three things that keep them alive in one.
 
 Here's the scene. You are forty rows back and the crowd has stopped feeling like people. You are being moved without walking. Your arms are pinned. There is a wave that goes through from behind and you feel your feet leave the ground briefly, and you cannot get your chest to expand fully on the in-breath.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You cannot see a gap, a barrier gate, or an edge
 
 Here's what's actually happening. Crowd deaths are compressive asphyxia, not trampling: the pressure of bodies prevents the chest from expanding and a person suffocates upright, frequently while nobody around them realizes what is happening. It becomes dangerous above roughly five people per square metre and the window is short. The three things that matter are simple and completely counterintuitive, which is why they have to be known in advance rather than worked out at the time.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The S check: “Can I raise my arms and take a full breath?” — The moment the answer is no, you are in a crush and you start moving out now, not later.
 

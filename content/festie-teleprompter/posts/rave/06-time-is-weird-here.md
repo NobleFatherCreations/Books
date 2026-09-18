@@ -15,6 +15,8 @@
 
 “This one's R.A.V.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “TIME IS WEIRD HERE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Festivals do something strange to time — three
 
 Here's the scene. It's Saturday night and you feel like you've known these people your whole life. The person you've been spending time with feels like one of your closest friends. The intimacy feels earned. You've shared things you've never told people you've known for years. By Sunday when they ask for something you wouldn't normally agree to — a favor, money, something physical — the relationship feels real enough that saying no feels like a betrayal of something genuine.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - You feel closer to someone after 48 hours than to people you've known for years
@@ -32,6 +36,8 @@ Watch for these signs.
 - The relationship feels too real to question, which makes you unwilling to slow down
 
 Here's what's actually happening. Time compression is a documented psychological feature of festival environments — high novelty, altered states, emotional intensity, and social density all compress the felt experience of time. Genuine closeness can develop faster here. Manipulators who know this use the accelerated intimacy deliberately — sharing vulnerably, moving fast, creating the feeling of deep connection — then leveraging that feeling before you've had time to verify it with actual behavior patterns.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Everyone here is still a stranger to me — warmth and familiarity are not the same as safety.”
 

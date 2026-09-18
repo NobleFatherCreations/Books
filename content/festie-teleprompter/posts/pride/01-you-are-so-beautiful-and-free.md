@@ -15,6 +15,8 @@
 
 “This one's P.R.I.D.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOU ARE SO BEAUTIFUL AND FREE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The person — usually but not always straight a
 
 Here's the scene. "I have always been so drawn to queer energy — there is something so free and authentic about it." She says it looking right at you and it feels like being seen. By the next conversation she is asking increasingly personal questions about your body, your relationships, your experience of sexuality. The attention is intense and feels validating. Something underneath it feels like you are being studied rather than known.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Their interest centers your identity category rather than you as a specific person
@@ -32,6 +36,8 @@ Watch for these signs.
 - You feel like you are representing queerness to them rather than being yourself
 
 Here's what's actually happening. Fetishization uses the language of appreciation and attraction to reduce a person to their identity category. In festival contexts where queer expression is celebrated and visible, this can be hard to distinguish from genuine connection — especially when the attention feels validating after a lifetime of less accepting environments. The tell is the direction of interest: genuine connection is curious about you as a specific person. Fetishization is curious about what you represent.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The P check: “Is this person interested in me specifically — or in what I represent to them?”
 

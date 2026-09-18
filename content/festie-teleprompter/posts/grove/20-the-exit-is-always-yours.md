@@ -15,6 +15,8 @@
 
 “This one's G.R.O.V.E. — Support. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE EXIT IS ALWAYS YOURS”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Exit scripts are for any situation: a conversati
 
 Here's the scene. You're in a situation that doesn't feel right and you're spinning trying to figure out how to leave without causing a scene, without being rude. Here's the thing: the energy you're spending on the perfect exit is energy you could spend walking out the door. You don't owe anyone a seamless departure. You don't need to explain yourself. You don't need them to agree that leaving is okay. You can just go.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - "I need to go find my people" — no further explanation needed, ever
@@ -32,6 +36,8 @@ Watch for these signs.
 - Festival Rangers and Harm Reduction staff exist specifically for moments like this
 
 Here's what's actually happening. The difficulty of leaving is almost always manufactured — through social pressure, physical positioning, altered states, and the norm of not causing a scene. Your right to leave does not require agreement from the other person. It does not require a valid excuse. It does not require a good reason. The more someone works to make leaving complicated, the more important it is that you leave. That is the metric.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Exit Is Mine” — can I leave right now, freely? The answer tells you everything.
 

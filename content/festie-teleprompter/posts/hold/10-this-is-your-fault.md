@@ -15,6 +15,8 @@
 
 “This one's H.O.L.D. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THIS IS YOUR FAULT”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The organizational dynamic where front-line staf
 
 Here's the scene. An incident happened during your shift. You responded as best you could with the training and resources you had. Afterward, the event director calls you in and the tone is very different from the supportive one you experienced all weekend. Suddenly the focus is on what you did or did not do. The staffing shortage that left you covering an area alone, the training gaps, the protocol that was unclear — none of that is part of the conversation. You are.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Post-incident conversation focuses exclusively on your actions rather than systemic conditions
@@ -32,6 +36,8 @@ Watch for these signs.
 - The framing shifts from "what happened" to "what did you do" in ways that feel like assignment of blame
 
 Here's what's actually happening. Front-line workers are the easiest people to blame for systemic failures because they were physically present when things went wrong. Organizations that do not want to examine their own structural failures direct accountability downward onto the people least able to defend themselves. You are not required to accept blame for conditions you did not create. Document your version of events in writing immediately after any incident. Do not sign anything you do not fully understand and agree with.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The L check: “Have I documented my version of events in writing immediately — before organizational framing has a chance to reshape it?” — you’re responsible for your actions, not for the systemic conditions you were placed in.
 

@@ -15,6 +15,8 @@
 
 “This one's H.O.M.E. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/home/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WHEN IT'S YOUR PARTNER, NOT YOUR KID”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. You, at home, while somebody you love is somewhere that is uninhibited, physically affectionate, full of strangers, and entirely outside your view for four days.
 
 Here's the scene. You said have a great time and you meant it. It is Saturday night and you have checked their location three times, and you have looked at who is posting from that field, and you have drafted a message that is technically about whether they are okay and is actually about something else, and you are aware that you are doing it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/home/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You would not be comfortable if they described your behaviour to a friend
 
 Here's what's actually happening. Distance plus a scene with a reputation plus no information is an excellent generator of anxiety, and anxiety is not the same thing as a problem in the relationship — but the behaviours it produces are the same behaviours that constitute monitoring, and that is worth being honest about while it is still small. Frequent location checking, demands for contact, and requests for proof are on a continuum whose far end is coercive control, and nobody arrives at the far end on purpose. They get there in small, reasonable-feeling steps, each one justified by worry.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/home/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The O check: “Am I asking for information, or for reassurance?” — Both are human. Only one of them is fair to send.
 

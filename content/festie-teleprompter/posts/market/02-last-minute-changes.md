@@ -15,6 +15,8 @@
 
 “This one's M.A.R.K.E.T. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “LAST MINUTE CHANGES”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The promoter who confirms your spot, collects yo
 
 Here's the scene. You confirmed spot 14 near the main entrance with electrical hookup in writing two months ago. You arrive to find spot 14 has been given to a premium sponsor and you are now in spot 47 near the back fence with no electricity. When you protest: "We sent an email about changes last week" — to an address you had not checked. The show opens in four hours and your inventory is on the truck.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Material terms change after full payment and you are completely committed
@@ -32,6 +36,8 @@ Watch for these signs.
 - Each individual change is presented as minor or outside their control
 
 Here's what's actually happening. Last-minute term changes exploit the sunk cost of your presence. You have traveled, brought inventory, and made plans that are hard to reverse. The cost of walking away feels higher than accepting the change — and that is exactly the calculation the promoter is banking on. Documenting the original agreement in writing and responding to every change in writing creates a paper trail that supports a refund claim or small claims filing after the event.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The R check: “Do I have written documentation of what was originally agreed so I can actually point to it when the terms shift?” — the paper trail you build before the event is the only thing that protects you at it.
 

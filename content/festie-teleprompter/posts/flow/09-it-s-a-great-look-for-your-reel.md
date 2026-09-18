@@ -15,6 +15,8 @@
 
 “This one's F.L.O.W. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “IT'S A GREAT LOOK FOR YOUR REEL”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. A promoter with a budget for sound, lights, security and bar staff, and a line about community for the people doing the dangerous thing in the middle of the field.
 
 Here's the scene. He wants three fire performers for the Saturday headline changeover. There is no fee. There are wristbands, and he says it in a way that makes the wristbands sound generous. He also mentions that a lot of people get seen at this one, and that the photographer is really good, and every single other trade at this event is being paid.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - The photographer is paid and you are not
 
 Here's what's actually happening. Fire and aerial performance is skilled, insured, equipment-heavy, physically dangerous labour, and it is the single most reliably unpaid element of a festival's programme because performers love doing it and promoters know that. The comparison that settles it is on-site: the sound engineer, the bar staff, the security and the photographer are all on rates. If a budget exists for everyone who touches the event except the people doing the thing with fire in it, that is a decision rather than a constraint.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The L check: “Who else working this event is unpaid?” — If the answer is only the performers, the budget is not the problem.
 

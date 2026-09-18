@@ -15,6 +15,8 @@
 
 “This one's S.O.U.N.D. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “LET ME MANAGE YOU”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The manager who positions themselves between you
 
 Here's the scene. She approached you after a set that went off. Clearly connected. "I think you're three months away from something major and I want to be the person who gets you there." No management contract yet. A year later: she takes 25% of everything including merch you handle yourself, discourages direct relationships with bookers ("let me handle it, it's cleaner"), and when you question any of it the conversation turns to everything she's done for you.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Discourages direct relationships with bookers, labels, promoters — "let me handle it"
@@ -32,6 +36,8 @@ Watch for these signs.
 - Industry contacts you had before have been quietly replaced by her relationships
 
 Here's what's actually happening. Predatory management isolates artists from their industry network under the cover of professionalism. When your entire industry network runs through one person, that person has complete leverage. Standard management commission is 15-20% of gross income from work THEY source — not your merch, not your pre-existing relationships. Know that standard before any conversation.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The N check: “Can I talk directly to my booker or label — or does everything go through them first?”
 

@@ -3,6 +3,8 @@
 
 *A spoken-word teleprompter script — one scenario at a time, ready to read straight to camera.*
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/cover.png`]** — video open — type this video's scenario/section title into the blank bottom third before recording, then hold or fade from it.
+
 **Quick shoutout before we start:** every scenario in this guide — and 260 more across the other twenty guides — lives free at **www.noblefathercreations.com/festival**.
 
 This is C.A.R.E.: Harm Reduction Edition. You hold the space that holds everything. This guide holds you.
@@ -29,6 +31,8 @@ Here's who this is. Harm Reduction volunteers radiate something that most festiv
 
 Picture this. He has been to your tent three times today. Each visit has a slightly different stated reason but the pattern of the conversation is the same — he lingers, he asks questions about you, he says things like "I have never felt so comfortable talking to someone." The fourth visit he asks if you want to get food after your shift. You are tired and his attention has felt kind throughout a difficult day. Something in you wants to say yes. Something else notes the pattern.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Multiple visits with escalating personal rather than support-related conversation
@@ -37,6 +41,8 @@ Here are the signs.
 - The line between appreciating your support and pursuing you personally has started to blur
 
 Here's the mechanism underneath it. The Harm Reduction role creates a specific dynamic: you are at your most professionally present and emotionally available while participants are at their most open and vulnerable. Some participants experience the care you provide in your role as personal connection. Some deliberately target that dynamic for access. Maintaining the on-duty boundary — warm, caring, and professionally boundaried — protects both of you.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/care/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The C check: “Am I maintaining the distinction between my care role and my personal availability?”
 
@@ -57,6 +63,8 @@ Let's talk about who does this. Most people who come to a Harm Reduction tent ar
 
 Here's how it plays out. He has been to the tent four times this weekend. Each visit, the stated reason shifts. He is articulate and charming and good at triggering the care response. You have given him supplies, information, quiet space, and extended conversations. On the fourth visit you notice: he is asking detailed questions about other participants who have come through the tent. He seems interested in the staff schedule. His affect when he thinks nobody is watching is different from his affect when he is being supported.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Multiple visits with shifting or evolving presentations of the support need
@@ -65,6 +73,8 @@ Watch for these.
 - Noticeably different affect when they think they are not being directly observed
 
 Here's what's really going on. People who want to gather information about vulnerable attendees, access resources beyond what is appropriate, or build proximity to care staff will use the Harm Reduction tent to do it because the tent is specifically designed to receive people without judgment. Noticing patterns is not being judgmental. It is safeguarding. Your gut when something is off is data. Document it and name it to your team lead.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/care/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The R check: “Is the pattern of this person’s engagement consistent with genuine support seeking — or does it track more closely with something else entirely?” — discernment is as much a part of this role as compassion.
 
@@ -89,6 +99,8 @@ Here's who you're dealing with. Harm Reduction volunteers encounter a concentrat
 
 Here's the scene. You have supported four difficult situations today — one overdose response, two sexual assault disclosures, one severe psychological crisis. You are still showing up fully for every person who comes in. But something has shifted in how you are receiving their experiences. They are landing differently. You feel numb where you used to feel present. You are performing care rather than actually giving it. You have not told anyone because the tent is busy and there is nobody to cover you.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Emotional numbness in situations that would previously have moved you
@@ -97,6 +109,8 @@ Here's what to watch for.
 - Intrusive thoughts about difficult situations you have witnessed during your shifts
 
 Here's what's actually happening. Secondary traumatic stress develops from repeated exposure to other people's traumatic experiences. Harm Reduction work at festivals compresses what might be a week of a therapist's caseload into a single shift. The culture that says "just one more" and "people need you" is the same culture that burns out its best volunteers and leaves participants being supported by someone running on empty. Your depletion is not noble. It is a risk to the people you are trying to help.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/care/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The C check: “Am I actually present with the people I am supporting — or am I performing presence from a tank that’s already empty?” — you cannot give what you do not have, and your recovery is what makes the giving possible.
 
@@ -117,6 +131,8 @@ Here's who this is. Confidentiality in Harm Reduction work is a genuine and impo
 
 Picture this. You witnessed something that happened between a staff member and a participant that you believe was a violation. When you raised it with your team lead, the response was: "What happens in the tent stays in the tent — we cannot breach participant confidentiality." The confidentiality framing is being applied to suppress a report about staff behavior rather than to protect participant information. These are not the same thing.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Confidentiality invoked specifically when you try to report staff behavior or organizational failures
@@ -125,6 +141,8 @@ Here are the signs.
 - You feel that reporting would violate your role when it actually falls within your safeguarding responsibilities
 
 Here's the mechanism underneath it. Confidentiality in Harm Reduction protects participant information — not staff behavior, not organizational failures, and not incidents that require escalation to protect others. These are distinct categories. A team lead or organization that uses confidentiality language to suppress reports about staff behavior or organizational accountability is misusing the concept. Your safeguarding responsibilities include reporting when you witness harm, regardless of where it occurred.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/care/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The A check: “Is confidentiality being applied to protect the people we serve — or to protect the organization from accountability?” — confidentiality protects participants. It was never meant to protect an organization from consequences.
 
@@ -149,6 +167,8 @@ Let's talk about who does this. Harm Reduction volunteers are sometimes held res
 
 Here's how it plays out. A participant had a serious adverse event during your shift. You responded as well as you could with the training and resources you had. Afterward the organizational debrief focuses almost entirely on your response rather than the systemic conditions: the understaffing that left you alone with a participant who needed two-person support, the training gap that meant you were not prepared for this specific situation, the protocol that was unclear. You are the person who was there. You are becoming the story.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Post-incident debrief focuses on your actions rather than the systemic conditions you were placed in
@@ -157,6 +177,8 @@ Watch for these.
 - The framing has shifted from "what happened" to "what did you do" in ways that assign blame downward
 
 Here's what's really going on. Front-line Harm Reduction volunteers are the easiest people to blame for systemic failures because they were physically present when things went wrong. Organizations that do not want to examine their structural failures direct accountability toward the people least able to defend themselves. You are not required to accept responsibility for conditions you did not create. Document your own account of events immediately after any incident. Do not sign anything without reading it carefully against your own record.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/care/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The A check: “Have I documented my own account of events immediately — before organizational framing has a chance to reshape it?” — you’re responsible for your actions, not for the systemic conditions you were placed in.
 
@@ -177,6 +199,8 @@ Here's who you're dealing with. An officer, a security supervisor, or an event m
 
 Here's the scene. There is a young woman in the corner who came in twenty minutes ago in a bad state and is only just settling, and there is now a uniform at the door asking what she took and whether he can have a word. Everybody in the tent has gone quiet and is watching what you do, and what you do in the next ten seconds determines whether anybody uses this tent again this weekend.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Uniformed presence at or inside the service space
@@ -187,6 +211,8 @@ Here's what to watch for.
 - Participants stopping at the door, looking in, and walking away
 
 Here's what's actually happening. The entire clinical value of a harm reduction service rests on one thing: people believing they can come in without consequence. That belief is fragile, it is community knowledge rather than individual knowledge, and it is destroyed by a single visible interaction — one person seen speaking to police at the tent door ends the service's usefulness for the rest of the weekend, because the word travels faster than anything you can say to correct it. Protecting the boundary is not obstruction; it is the operational requirement that makes the service work at all.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/care/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The A check: “What does this look like to the people watching from inside my tent?” — That perception is the service, and it is what you are protecting.
 
@@ -211,6 +237,8 @@ Here's who this is. For everyone working a harm-reduction, welfare or sober-supp
 
 Picture this. You will spend this shift giving people your full attention at the worst moment of their weekend. Everything on this page is what makes that sustainable past year two, and it is all arranged before the shift rather than during it, because during it you will be entirely focused on somebody else.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Your own water, food and a break time somebody else knows about
@@ -221,6 +249,8 @@ Here are the signs.
 - A debrief booked for after — a named person and a time, not a vague intention
 
 Here's the mechanism underneath it. Harm-reduction workers occupy a role that is simultaneously high-exposure and low-protection: physical proximity to impaired people, emotional weight, long hours, and frequently no supervision, no insurance and no handover. The two failure modes are burnout and boundary drift, and they feed each other — a depleted worker is worse at holding a line, and a worker who has been holding no lines depletes faster. Everything here is structural rather than attitudinal, because attitude is exactly what goes first at hour nine of a shift.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/care/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The E check: “Do I have a shift partner, a break time, and a debrief booked?” — Three answers before you start, or you are improvising your own protection while looking after somebody else.
 
@@ -241,6 +271,8 @@ Let's talk about who does this. For everyone on a harm reduction or welfare shif
 
 Here's how it plays out. He has been sitting with you for an hour and is not improving, and you are not sure whether this is a long comedown, dehydration, a reaction, or something genuinely medical. Walking him to the medics feels like escalating, and you have a specific fear of being the volunteer who overreacts and looks green in front of the medical team.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Not improving, or getting worse, over time you would expect improvement
@@ -251,6 +283,8 @@ Watch for these.
 - You are debating it with yourself, which is itself the threshold
 
 Here's what's really going on. Harm reduction and welfare workers are the first point of contact for a great many situations and are not clinicians, and the most consequential skill in the role is a low, pre-decided threshold for escalation. Every serious festival incident review finds the same thing: the delay happened because somebody was not sure it was serious enough. The thresholds above are not judgement calls and should not be treated as any — temperature extremes, breathing changes, unrousability, seizures and head injuries go to medical immediately, every time, without a discussion about whether it warrants it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/care/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The R check: “Am I debating whether this is medical?” — The debate is the answer. Escalate while you are still discussing it.
 
@@ -275,6 +309,8 @@ Here's who you're dealing with. Debrief is not extra. Debrief is part of the job
 
 Here's the scene. The shift ends and the tendency is to immediately transition back to the festival or to crash into sleep. The transition period — the ten to thirty minutes between the end of a shift and the next thing — is when the debrief happens. Not in a formal structured way necessarily. Just: what was the hardest thing from this shift, said out loud, to at least one colleague. That is the minimum. And it changes everything about what you carry out.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Name the hardest thing from the shift out loud to at least one colleague before leaving
@@ -283,6 +319,8 @@ Here's what to watch for.
 - Weekly or post-event check-in with a mental health professional if this is regular work for you
 
 Here's what's actually happening. Secondary traumatic stress accumulates when difficult experiences are not processed. The processing does not have to be elaborate — naming what was hard, in plain language, to someone who was also there or who understands the context, is often sufficient for immediate decompression. It is the naming that matters. What stays unnamed stays active. Harm Reduction volunteers who debrief consistently report lower rates of burnout and secondary trauma than those who do not.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/care/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The E check: “Have I actually stopped and named what I am carrying from this shift — or am I just pushing it down to deal with later?” — what you name, you can put down. What you don’t, you carry.
 
@@ -307,6 +345,8 @@ Here's who this is. Nobody did anything wrong. This page is for the hours and th
 
 Picture this. You did everything right. You did CPR, you called it in, the medics came, and it did not matter. It is four in the morning and the tent is still open and there are eleven people outside who need things, and somebody is asking you where the water is.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - You kept working, because the tent was still open
@@ -317,6 +357,8 @@ Here are the signs.
 - You are fine, loudly, and have started sleeping badly
 
 Here's the mechanism underneath it. A death on shift is a critical incident, and the response to it is well established even though this sector rarely provides it: stand down immediately rather than finishing the shift, a factual operational debrief within twenty-four hours that is separate from any emotional processing, and follow-up over weeks rather than a single conversation on the night. What does not help, and is the standard offering, is an unstructured group conversation at four in the morning with everyone still activated. What helps is sleep, food, being stood down, and a scheduled conversation later with somebody trained.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/care/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The E check: “Am I still working?” — If yes, that is the first thing to change. You are not a resource tonight.
 

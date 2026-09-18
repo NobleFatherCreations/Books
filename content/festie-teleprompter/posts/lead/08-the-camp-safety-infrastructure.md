@@ -15,6 +15,8 @@
 
 “This one's L.E.A.D. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE CAMP SAFETY INFRASTRUCTURE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. This page is practical. Specific structures that
 
 Here's the scene. The briefing before gates open is the most important ten minutes of the festival. What you say in that briefing — and what structures you establish in it — shapes what members feel able to do and say for the entire weekend. The camps with the best safety records are not the ones with the most rules. They are the ones where the culture of safety is established before anything difficult has happened.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Pre-festival briefing: consent expectations, reporting process, code words, daily check-in times
@@ -32,6 +36,8 @@ Watch for these signs.
 - Post-festival debrief: what happened, what worked, what needs to change next season
 
 Here's what's actually happening. The structures you build before the festival are the ones that work during it. A reporting process established in a calm briefing is infinitely more useful than one improvised in a crisis. A designated safety contact who is not you means members have a path for concerns about your behavior as well as others. A code word system means members can signal for help without having to explain themselves in the moment. These are not elaborate systems — they are ten minutes of planning that change everything.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Have I built safety infrastructure into my camp that works even when I am the problem?”
 

@@ -15,6 +15,8 @@
 
 “This one's H.E.A.L. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “I'LL WALK YOU THROUGH INTEGRATION”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The same person who facilitated, now offering to be the one who helps you make sense of it — for a fee, or for closeness, or both. Often kind. Almost always the wrong person for the job.
 
 Here's the scene. The ceremony was enormous and you are not okay and he is the only person who was there and understands. He offers weekly calls. Then he offers to have you stay. Then there is a retreat he thinks you should be at, and a role in his organization, and at no point was there a moment where you decided any of this — there was a moment where you needed help and he was standing there.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Nobody independent has ever spoken to you about that ceremony
 
 Here's what's actually happening. Dual relationships are prohibited in every clinical code for one reason: each additional role removes an exit. When your facilitator is also your integrator, you cannot process a bad experience of him with anyone but him, and a person's interpretation of their own most vulnerable hours becomes something another person authors. Post-ceremonial suggestibility is real and elevated for a meaningful period afterwards, which makes that window the highest-leverage one that exists. An honest practitioner treats it as the most dangerous part of their work and refers out. That referral is the single clearest marker of a real one.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The L check: “How many roles does this person hold in my life?” — One is a relationship. Three is an enclosure.
 

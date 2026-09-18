@@ -15,6 +15,8 @@
 
 “This one's L.E.N.S. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “TAKE IT DOWN OR I'LL MAKE IT A THING”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Someone in a frame you published — sometimes with an entirely legitimate grievance you should act on immediately, sometimes escalating to demands for money, and occasionally mobilizing a pile-on that arrives before you have read the first message.
 
 Here's the scene. The message says take it down. You took it at a public stage, you asked at the time, and you have the reply. The second message says you owe them money for using their image. The third says they have screenshotted your account and people are going to hear about this, and by the morning there are forty comments on a photograph of somebody else entirely.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You have no record of the consent you actually obtained
 
 Here's what's actually happening. Two different things arrive in the same inbox and telling them apart is the whole skill. A person asking for their image to come down is exercising something you should grant without argument, whatever the law says and whatever you paid to be there — that is the profession's own standard and it is also the cheapest possible resolution. A demand for money, or a threat about your reputation, is a different transaction, and the correct response to that one is not negotiation but documentation.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The N check: “Is this a request to remove, or a demand for something else?” — Remove instantly for the first. Do not pay the second.
 

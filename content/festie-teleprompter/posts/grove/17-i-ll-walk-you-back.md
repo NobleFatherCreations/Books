@@ -15,6 +15,8 @@
 
 “This one's G.R.O.V.E. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “I'LL WALK YOU BACK”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Someone who has been around all night, pleasant, unremarkable, and is now offering the single most normal thing at a festival — which is also the thing that ends with him knowing exactly which tent is yours.
 
 Here's the scene. It is late, the site is enormous and dark, and walking back alone genuinely is the thing everybody tells you not to do. He offers. The offer is correct. And somewhere between the last stage and the campsite the crowd thins out and it is just the two of you on a path, and the thing you were avoiding by not walking alone is now walking next to you.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Waves off the alternative — a camp mate, a friend, walking with a group
 
 Here's what's actually happening. The walk back is the last unwitnessed stretch of the night and it is where a disproportionate amount of festival harm occurs, precisely because the safety advice — do not walk alone — creates a socially compulsory role that anybody can volunteer for. The escort is not a bad idea; being escorted by whoever happened to be standing there at 3am is. The other half of the cost is durable: after tonight, one more person knows which tent is yours, and tent location is the single most useful piece of information anyone can hold about you at a festival.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The O check: “Am I about to be alone with this person somewhere nobody is watching?” — The walk counts. That is the whole point of the walk.
 

@@ -15,6 +15,8 @@
 
 “This one's S.O.U.N.D. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE RINGING STOPS EVENTUALLY”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The job itself. Monitors, the pit, load-in, the bus, three hundred nights a year, and a culture where asking for in-ears or wearing plugs still occasionally reads as not being committed.
 
 Here's the scene. The ringing after a show used to last an hour and now it lasts until the afternoon. You have started asking people to repeat themselves in bars. You mix your own tracks slightly brighter than you used to, which is your ears telling you something you are choosing to hear as a preference.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - The idea that plugs would ruin the experience, which is the belief that costs the most
 
 Here's what's actually happening. Noise-induced hearing loss and tinnitus are the defining occupational injuries of this trade, they are cumulative, and they are permanent — there is no treatment that restores what is gone. The specific cruelty for musicians is that the damaged faculty is the instrument: the loss is not merely a disability, it degrades your ability to do the work, and it does so gradually enough that you will adjust to it rather than notice it. Custom moulded musicians' plugs attenuate evenly rather than muffling, which is the objection most people have and the one that is not true.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The D check: “How long does the ringing last now compared with a year ago?” — Write it down. Trend is the measurement that matters.
 

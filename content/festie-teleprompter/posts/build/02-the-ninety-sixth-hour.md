@@ -15,6 +15,8 @@
 
 “This one's B.U.I.L.D. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/build/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE NINETY-SIXTH HOUR”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Nobody. This one is the schedule. Day nine of a build, fourth consecutive sixteen-hour day, everybody running on catering coffee and the fact that the gates open Thursday whatever happens.
 
 Here's the scene. You have been awake for nineteen hours and you are about to make a cut you have made a thousand times. The thing is you have made it a thousand times, which is why you are doing it now instead of stopping, and which is also why your hands are doing it while your attention is somewhere else. Everyone around you is in the same state and nobody is going to be the one who says the crew should stand down, because the schedule is the schedule.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/build/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - The build is behind and that has quietly become everyone's justification
 
 Here's what's actually happening. Sustained sleep restriction degrades reaction time, judgment, and risk assessment measurably, and past roughly seventeen to nineteen hours awake the impairment is comparable to being over the legal driving limit — with the extra problem that self-assessment degrades alongside performance, so the more impaired you are the more confident you feel. Occupational injury data across construction and events points the same way: serious incidents cluster late in long stretches, among experienced workers, on routine tasks. The hazard is not the dangerous job you were nervous about. It is the easy one you have done a thousand times, at hour nineteen.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/build/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The D check: “How long have I been awake, and is this task one I would let a drunk person do?” — If you would not, the honest answer is that the site currently has one.
 

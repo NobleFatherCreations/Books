@@ -15,6 +15,8 @@
 
 “This one's G.R.O.V.E. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “I'M YOUR RIDE”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Whoever owns the vehicle, the ticket, or the only spare seat. Often perfectly nice for three days. Becomes something else at the exact moment your plans and his stop matching.
 
 Here's the scene. He drove. It is four hours each way and you are ninety miles from the nearest station with no signal in the car park. On Saturday you want to stay with the people from the neighbouring camp and he says that's fine, a bit flatly, and then mentions that he was thinking of heading off early tomorrow, and you feel the whole weekend quietly reorganize itself around not annoying him.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - No independent route exists and you have not checked whether one does
 
 Here's what's actually happening. Transport is the cleanest leverage at a festival because it is invisible — nobody has threatened anything, there is nothing to report, and the pressure is purely structural. It works the same way as medication or accommodation control: whoever holds the thing you cannot do without sets the terms of every other conversation. Most people who hold it never use it. The ones who do rarely say anything explicit, because they do not have to; you will do the arithmetic yourself and adjust, and that adjustment is the entire mechanism.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “If I had to leave this festival in the next two hours without him, could I?” — If there is no answer, your exit is somebody else's property.
 

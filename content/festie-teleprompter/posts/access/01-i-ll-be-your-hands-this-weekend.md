@@ -15,6 +15,8 @@
 
 “This one's A.C.C.E.S.S. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “I'LL BE YOUR HANDS THIS WEEKEND”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Shows up early, helps beautifully, and keeps helping until helping is the only way anything gets done. Learns your routine faster than your friends did. Frames every act of assistance as devotion rather than logistics, so that by day three declining anything feels like rejecting a person instead of declining a task.
 
 Here's the scene. He offered to push on the gravel stretch Thursday and he was genuinely good at it — read the terrain, asked before every curb, never grabbed the handles without saying so. By Friday he is carrying your meds because your bag was full. By Saturday he knows the schedule better than you do, and when you mention going to the silent disco with the two people from your camp, he says he doesn't mind, he'll come, it's easier, they don't know how to do the transfer properly.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Reacts to you making a plan without him as though it were a betrayal
 
 Here's what's actually happening. This is dependency grooming with an accessibility costume on. The mechanism is not the helping — the helping is often real and skilled. The mechanism is consolidation: the steady narrowing of who can assist you until one person controls movement, medication, and access to everyone else. Disabled people are victimized at substantially higher rates than non-disabled people, and the perpetrator is disproportionately someone occupying a care or assistance role, because that role supplies proximity, privacy, physical contact, and a ready-made explanation for all three. The tell is never a single act. It is the direction of travel: every week he is load-bearing for one more thing, and every week there is one fewer person who could take over.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The S check: “If this person left right now, would my weekend still work — or would it stop?” — If it would stop, that is not closeness. That is a single point of failure with feelings attached.
 

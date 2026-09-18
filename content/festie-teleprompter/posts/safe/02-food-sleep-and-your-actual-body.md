@@ -15,6 +15,8 @@
 
 “This one's S.A.F.E. — Hydration. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “FOOD, SLEEP, AND YOUR ACTUAL BODY”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Festivals are designed for endurance — multipl
 
 Here's the scene. It is Sunday morning. You have slept a total of six hours over three nights. You have eaten intermittently and mostly festival food. You have consumed substances that have both depleted your body and masked the signals it is trying to send you. You are running on a combination of adrenaline, social excitement, and genuine will. You feel okay. You are not okay. And the decisions you make today — about substances, about consent, about safety — will be made from this state.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Eat at least two real meals per day even when the music is calling — your judgment depends on it
@@ -32,6 +36,8 @@ Watch for these signs.
 - Foot care matters — blisters become infections, infections at festivals are hard to treat
 
 Here's what's actually happening. Sleep deprivation is one of the most consistently underestimated risk factors at festivals. After 36 hours without sleep, cognitive impairment is equivalent to a 0.10 blood alcohol level. After 48 hours it is significantly higher. Combined with substances, heat, and social pressure this creates a state where the very judgment systems you need to make good decisions about your own safety are significantly compromised. Rest is not weakness. Rest is strategy.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Am I making decisions right now with my full judgment — or with a significantly depleted version of it?” — rest isn’t missing the festival. It’s what makes you available to actually be in it.
 

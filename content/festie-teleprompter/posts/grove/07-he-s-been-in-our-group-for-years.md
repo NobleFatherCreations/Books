@@ -15,6 +15,8 @@
 
 “This one's G.R.O.V.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “HE'S BEEN IN OUR GROUP FOR YEARS”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Not a stranger. Your friend's partner, the camp regular, the one who has been coming since before you did. Vouched for by people you trust, which is the entire advantage, and which is why he does not have to run any of the approaches in the earlier pages of this guide.
 
 Here's the scene. It is not a stranger at the rail. It is the guy who has been in this group for six years, who everyone loves, who your best friend introduced you to — and who was in your tent doorway at four in the morning saying he just wanted to check you got back okay, standing slightly too close, for slightly too long, in a way you will spend the next three weeks trying to describe to yourself.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Nothing he has done would sound like anything if you said it out loud
 
 Here's what's actually happening. Most sexual harm is committed by somebody the person already knows, and festival crews are exactly the trust structure that makes it work — years of shared history, a group identity, and a strong collective incentive not to have this be true. The insider does not need charm or a technique, because vouching has already done the work that an approach would otherwise have to do. What he has instead is the thing a stranger never gets: repeated, unremarkable proximity, and a group that will find it easier to reinterpret your discomfort than to lose him.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The G check: “Am I explaining away something I would flag instantly in a stranger?” — Do the substitution deliberately. If a man you met yesterday had done it, you would already know.
 

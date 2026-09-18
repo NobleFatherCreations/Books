@@ -15,6 +15,8 @@
 
 “This one's F.L.O.W. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “I RIGGED IT MYSELF”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The one with the hardware, the certification everyone assumes he has, and the only ladder. Rigs for everybody. Decides whose point goes up, when, and how high. Has never been asked to show anything.
 
 Here's the scene. You want to fly and he is the only person here who can hang you. He is warm about it, competent-looking, and slightly dismissive when you ask what the anchor is rated to — he says he has been doing this since before you were spinning. Later he mentions, in the same warm voice, that some people get priority because they are part of the crew and you could be part of the crew.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Asking technical questions is treated as an insult rather than as normal
 
 Here's what's actually happening. Aerial rigging is life safety — a single point failure is a fall from height — and the entire discipline's professional practice is built on redundancy, documentation, and independent inspection precisely because competence cannot be established by reputation. When a festival has one unsupervised rigger, two things are true at once: the technical risk is unmanaged, and a person now controls something people want badly enough to trade for. The second follows from the first. It is the accessible-platform pattern from the A.C.C.E.S.S. guide, with the stakes raised from a good view to your spine.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The W check: “Can this person tell me the load path and the rating, without irritation?” — Competence explains itself. Only insecurity gets offended by the question.
 

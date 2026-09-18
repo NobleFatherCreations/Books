@@ -15,6 +15,8 @@
 
 “This one's A.C.C.E.S.S. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOU SEEMED FINE EARLIER”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Has seen you hold it together and now treats that as your baseline. Cites your good hours back at you when you set a limit in your bad ones. Sometimes genuinely confused. Sometimes using it.
 
 Here's the scene. Friday you were sharp, funny, on it for six straight hours, because you were masking hard and it cost you everything you had. Sunday you cannot process a sentence with three clauses in it and you need to leave. He says you were fine on Friday. He says you managed then. He says, and this is the one that lands, that it feels like you only get tired when there is something you do not want to do.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Never asks what it cost
 
 Here's what's actually happening. Masking and the crash that follows it are well documented, and so is the cost: sustained camouflaging is associated with exhaustion and worse mental health outcomes, and the better you are at it the less anyone believes the crash. Fluctuating and invisible conditions generate the same problem — a person who saw your good hour now has evidence, and evidence is what gets used on you. Most people doing this are not malicious; they are pattern-matching badly. But it produces exactly the conditions someone deliberate needs: your own limits become debatable, and each time you defend them you spend energy you did not have, until conceding is cheaper than arguing. That is the mechanism, whoever is running it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The C check: “Am I explaining my capacity, or defending it?” — Explaining is information. Defending means somebody has made it a negotiation, and it was never theirs to negotiate.
 

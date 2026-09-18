@@ -15,6 +15,8 @@
 
 “This one's H.O.L.D. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “COME BACK TO OURS AFTER, EVERYONE DOES”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. A supervisor, a team lead, or a long-standing crew member with informal authority — who is not asking you for anything explicit, and who also decides your shifts, your reference, and whether you are asked back.
 
 Here's the scene. The crew party is a real thing and it is where the bonding happens and where next season's roles get informally decided, and the person suggesting you come is the person who writes your hours. Going means drinking with somebody who has power over you, in their camp, at three in the morning. Not going means being the one who does not join in, and both of you know which one is easier.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - There is no reporting route that does not run through this person
 
 Here's what's actually happening. Festival crews have workplace power structures and almost none of the workplace protections — no HR, no written complaints route, no contracts for volunteers, and a supervisor who controls access to next season. The after-shift party is where that power operates informally, and the risk is not the party itself, which is often genuinely one of the best parts of the job. It is that declining has a cost and attending has a different one, and that there is nobody to report to if something happens, because the person you would report is the person you would report to.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The O check: “Who could I report this person to, by name?” — Ask on day one. If there is no second name, the hierarchy has no floor.
 

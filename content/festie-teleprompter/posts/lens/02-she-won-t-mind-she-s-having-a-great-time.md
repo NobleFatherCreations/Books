@@ -15,6 +15,8 @@
 
 “This one's L.E.N.S. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “SHE WON'T MIND, SHE'S HAVING A GREAT TIME”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. You, on a good night, with a great frame in front of you and a legal right to take it and a rationalization already forming. This page is aimed at the photographer, not at the subject.
 
 Here's the scene. It is four in the morning and she is beautiful and completely gone, sitting on the grass laughing at nothing with her top half off, and it is the best light of the entire weekend. Nobody would stop you. It is a public field. She is not in a position to object and will not remember either way, and you already know that is the reason the shot is available.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You would not show them the shot tomorrow and ask
 
 Here's what's actually happening. Legality and ethics part company here completely. In most jurisdictions you may photograph people in public and publish it, and that permission is exactly why the profession needs a standard above it — the law is not doing the work of deciding whether a frame should exist. A person who is incapacitated cannot consent to being photographed any more than they can consent to anything else, and a photographer relying on their impairment has made the same move as everybody else in this book who waits for capacity to drop. The test is simple and it is the one the whole trade runs on: could you show them tomorrow, and would they say yes.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The L check: “Could this person consent right now if I asked?” — If not, there is no frame here. The camera does not create a permission the situation does not contain.
 

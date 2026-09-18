@@ -15,6 +15,8 @@
 
 “This one's M.A.R.K.E.T. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “CASH AND CARRY”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Traveling vendors are a specific target: you arr
 
 Here's the scene. Sunday breakdown. Strong weekend — the cash box is full. You are loading your van alone in the dim hour before dawn, moving merchandise in multiple trips. The spot next to you is empty. You have been so focused on the physical work of loading that you have completely stopped being aware of who is around. This is the window. It is the one experienced thieves specifically wait for.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Loading and unloading solo in low-traffic hours with visible valuable inventory
@@ -32,6 +36,8 @@ Watch for these signs.
 - Arrival time, departure time, and cash handling routine all become observable
 
 Here's what's actually happening. Festival vendor robbery targets specific patterns: the breakdown window when you are tired and often solo, visible cash after a strong sales day, and known vehicle location. It is not always strangers — sometimes it is other vendors or people with festival access who have been watching your patterns all weekend. Cash management, breakdown protocol, and travel companions are not paranoia. They are the professional infrastructure of the traveling vendor life.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The T check: “Am I traveling and breaking down in a way that minimizes my visibility as a target?”
 

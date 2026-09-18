@@ -15,6 +15,8 @@
 
 “This one's R.A.V.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOU'RE NOT LIKE OTHER NEWBIES”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The one who singles you out as unusually ready, 
 
 Here's the scene. "Most people who come for the first time don't get it like you do. You're different." She says it looking right at you and it feels completely true. By the next day you're slightly embarrassed to hang out with the other first-timers because you've been coded as more evolved. You're spending all your time with her crowd — people you've known for 36 hours — and your actual friends are somewhere on the other side of the festival.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - "You're not like other first-timers" — your natural peer group gets gently dismissed
@@ -32,6 +36,8 @@ Watch for these signs.
 - Your status in their world depends on staying close to them
 
 Here's what's actually happening. The pedestal ploy separates you from your natural support network by making that network feel beneath the version of yourself they're reflecting back. Other first-timers are your most reliable safety network this weekend. Anyone who positions themselves between you and that solidarity, however flatteringly, is removing your protection.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “This person is still a stranger. Warmth and flattery are not the same thing as safety.”
 

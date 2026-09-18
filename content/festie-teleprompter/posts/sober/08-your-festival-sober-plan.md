@@ -15,6 +15,8 @@
 
 “This one's S.O.B.E.R. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOUR FESTIVAL SOBER PLAN”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. For anyone sober, in recovery, California sober, taking a break, or just not drinking this weekend. Made in advance, in a calm room, by a version of you who is not tired, lonely, or three days into a field.
 
 Here's the scene. Tuesday, twenty minutes, a notes app. Everything that will be hard on Saturday night is currently something you can solve in one line. On Saturday night it will not be, because the whole difficulty of Saturday night is that it takes away the part of you that makes plans.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - What you do if you slip: who you call, in what order. Written down.
 
 Here's what's actually happening. Relapse prevention planning is the most evidence-backed piece of self-management in recovery, and its whole logic is pre-commitment — a decision made in a regulated state, handed to a depleted one, so the hard moment only requires following rather than deciding. A festival concentrates every known risk factor into seventy-two hours: sleep loss, crowds, availability, loneliness inside a group, and the specific ache of watching people you love have an experience you have chosen not to have. None of that means you should not go. It means you go with a plan, the way you would go anywhere else that mattered.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Do I know what time I'm leaving tonight, and who I call if it gets hard?” — Two answers, decided before you arrive.
 

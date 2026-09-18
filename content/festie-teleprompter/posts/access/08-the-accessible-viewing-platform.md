@@ -15,6 +15,8 @@
 
 “This one's A.C.C.E.S.S. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE ACCESSIBLE VIEWING PLATFORM”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The person with the wristband list, the radio, or the key to the lift. Sometimes staff, sometimes a volunteer, sometimes the guy who has simply been doing it for years and nobody checks. Decides who gets up there, who stays, and who is being difficult.
 
 Here's the scene. The platform is genuinely the best thing about this festival for you — sightlines, space, somewhere to be that is not a crowd. It is also small, elevated, roped off, and run by one man who controls who comes up. He has started saving you a spot. He has started mentioning that he saved you a spot. On Saturday he asks, warmly, in front of the others up there, whether you are going to come find him later.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Raising anything would cost you the only place on site that works for you
 
 Here's what's actually happening. Any resource that is scarce, essential, and controlled by one unsupervised person becomes leverage regardless of the intentions of whoever holds it. Accessible platforms, accessible camping, the golf cart, the lift, the interpreter roster — these are exactly that shape, and they sit in a blind spot because they are framed as provisions rather than as power. The risk is not that such spaces are unsafe; they are often the best-run part of a festival. The risk is structural: when the cost of complaining is losing the one thing that makes the weekend possible, complaints do not get made, and the absence of complaints gets read as everything being fine.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “If I had a problem with this person, who else could I go to — by name?” — If there is no second name, the space has a gate, not a policy.
 

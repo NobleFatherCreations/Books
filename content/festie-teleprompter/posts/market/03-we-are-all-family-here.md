@@ -15,6 +15,8 @@
 
 “This one's M.A.R.K.E.T. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WE ARE ALL FAMILY HERE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The camp or collective that offers housing, infr
 
 Here's the scene. The camp offered you a booth placement and a campsite. "We just ask that everyone contributes to the community." By the second event you have gifted $400 of inventory, worked 12 hours of camp setup and breakdown, and contributed $200 cash to camp costs. You are making less per event than you were before you joined the family. When you raise it, the response is a hurt look and a reminder of everything they have done for you.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Contribution expectations are vague at start and expand with each event
@@ -32,6 +36,8 @@ Watch for these signs.
 - Raising the financial impact of the arrangement is received as not being a good community fit
 
 Here's what's actually happening. Camp-based vendor arrangements can be genuinely mutually beneficial and they can be a systematic way to extract inventory, labor, and compliance from traveling vendors who need the infrastructure. The tell is always whether terms are defined and mutual. Real community has reciprocity both parties can articulate. When your contributions keep expanding and the camp contributions stay stable — that is feudalism with better branding.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “What would it actually cost me to leave this arrangement — and is that cost getting bigger the longer I stay quiet about it?” — an undefined cost that grows with your silence is not community. It’s a bill you didn’t agree to.
 

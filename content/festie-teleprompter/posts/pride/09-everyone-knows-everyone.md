@@ -15,6 +15,8 @@
 
 “This one's P.R.I.D.E. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “EVERYONE KNOWS EVERYONE”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Someone inside the same small world you are — an ex, a former friend, a scene figure — who understands exactly how few degrees of separation there are and how much of your life runs through this community.
 
 Here's the scene. It ended badly and you are both at this festival and will be at the next four. He is being pleasant in public. What he says privately is that he would hate for people to get the wrong idea, and that he has been talking to people, and that your work knows you come to these, don't they — and none of it is a threat you could write down.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Nothing said is explicit enough to report, which is the craft of it
 
 Here's what's actually happening. In small or closed communities the ordinary cost of leaving a relationship is multiplied, because the relationship and the community are the same network — and for LGBTQ+ people that network is frequently the only place where they are fully out. Threatened outing is recognized as a form of coercive control precisely because it is so effective: it requires no violence, it is deniable, and the consequences fall entirely on the target, potentially at work, at home, and with family. The festival version adds a calendar — you will both be at the same events all summer, and he knows that.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The I check: “Is somebody using what they know about me to shape what I do?” — That is not a private matter between exes. That is leverage.
 

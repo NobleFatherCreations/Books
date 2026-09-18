@@ -15,6 +15,8 @@
 
 “This one's H.O.L.D. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “DON'T RUIN THE VIBE OF THE EVENT”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The direct or indirect pressure on staff and vol
 
 Here's the scene. You witnessed something between two attendees in the camping area that you are fairly sure was not consensual. You reported it to your supervisor. She took it seriously in the moment. An hour later the event director came to you: "I know you reported something and I appreciate that you care, but we need to think about how we handle this — a formal report right now would be really complicated for the event. Can we just make sure the people involved are okay and handle this internally?" You feel the pressure of a hundred things at once.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Informal resolution is proposed for situations that require formal reporting
@@ -32,6 +36,8 @@ Watch for these signs.
 - Pressure to wait, consider, or discuss rather than document and report immediately
 
 Here's what's actually happening. Reporting suppression protects the organization and the event at the expense of the people harmed. When incidents are handled informally at the request of event leadership — no report, no documentation, no formal process — the people harmed lose their ability to seek redress, the pattern goes untracked, and the organization avoids accountability. Your role is to report. The decision about how to handle the report is not yours alone. Make the report and let the process work.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The L check: “Have I documented this incident in writing regardless of what the organization is asking me to prioritize instead?” — reporting harm is the job. Anyone telling you otherwise is protecting the wrong thing.
 

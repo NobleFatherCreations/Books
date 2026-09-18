@@ -15,6 +15,8 @@
 
 “This one's C.R.E.A.T.E. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE CAMP GAVE YOU A WALL”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The camp or art collective that offers you a wal
 
 Here's the scene. "We're giving you the main wall — that's a massive opportunity. We just need you to also help with camp setup, do a couple smaller pieces for the kitchen, and be around for our events as artist-in-residence." What started as one wall becomes three pieces, ten hours of camp labor, mandatory presence at events, and a growing sense that saying no to anything risks losing the whole opportunity. By Sunday you're exhausted and haven't made anything you actually wanted to make.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - The initial opportunity expands after you've committed — goalposts keep moving
@@ -32,6 +36,8 @@ Watch for these signs.
 - Your artistic choices are subject to camp approval rather than your own vision
 
 Here's what's actually happening. Offering a platform and then expanding the terms of accessing it is a classic exploitation structure — you've already committed, walking away means losing what you came for, and each small additional ask seems reasonable. This is scope creep as manipulation. A real artist-in-residence opportunity has defined terms before you arrive. If the terms are defined verbally and keep expanding in practice — you're not a resident artist. You're camp labor with an art cover story.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Can I walk away from this arrangement right now without losing something I shouldn’t have had to risk in the first place?” — an undefined arrangement is a contract you’re signing in paint.
 

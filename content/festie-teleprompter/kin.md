@@ -3,6 +3,8 @@
 
 *A spoken-word teleprompter script — one scenario at a time, ready to read straight to camera.*
 
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/cover.png`]** — video open — type this video's scenario/section title into the blank bottom third before recording, then hold or fade from it.
+
 **Quick shoutout before we start:** every scenario in this guide — and 263 more across the other twenty guides — lives free at **www.noblefathercreations.com/festival**.
 
 This is K.I.N.: Family Camping & Parents Edition. You brought your kids to the best place you know. This guide is the boring infrastructure that keeps it that way.
@@ -28,6 +30,8 @@ Here's who this is. Genuinely great with children, which is the difficult part o
 
 Picture this. Your daughter adores him. He does the face paint and the treasure hunt and he is the reason the family field is fun. He has started giving her small presents — a bracelet, a patch for her jacket — and asking for her specifically, and suggesting he take her to the workshop tent because you look tired, and the sentence forming in your head is that you would be insulting a good man to say no.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Seeks time alone with a specific child, always with a good reason
@@ -38,6 +42,8 @@ Here are the signs.
 - Universally liked, which means raising anything has a social cost
 
 Here's the mechanism underneath it. Child sexual abuse is overwhelmingly committed by somebody the child and the family already know and trust, and the grooming literature describes a consistent sequence: access, then a special relationship with one child, then small secrets, then isolation. Every step looks like kindness and most of them, performed by most people, are kindness. That is exactly why safeguarding policy in every organization that works with children is built on rules about situations rather than judgments about people — because judging individuals is precisely what the pattern defeats, and because the people who are wrongly suspected and the people who are correctly suspected look identical from outside.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The N check: “Is an adult asking for time alone with my child?” — The answer is no, every time, regardless of who is asking. The rule is the protection. Assessing the person is not.
 
@@ -62,6 +68,8 @@ Let's talk about who does this. Not a person — a structure. Eleven adults, fou
 
 Here's how it plays out. It is nine in the evening and somebody asks where Theo is and there is a pause, and in that pause four adults each realize they had assumed one of the others had him. He is almost certainly thirty metres away at the other fire. He almost certainly is. The forty seconds before you find him are the longest forty seconds of the year and nothing in the camp's arrangements was designed to prevent them.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Supervision described as “the camp” rather than a named adult
@@ -72,6 +80,8 @@ Watch for these.
 - “Someone's always around” said as though it were a system
 
 Here's what's really going on. Diffusion of responsibility is one of the most robust findings in social psychology: the more people who could act, the less likely any given person is to act, and the more each assumes somebody else has. Applied to child supervision in a camp it produces a specific failure — not neglect, but a group of attentive adults each accurately believing the child is covered. Festivals add the aggravating factors: no fences, thousands of strangers, darkness, noise that swallows a shout, and a proportion of the adults present with reduced capacity. The fix is not more vigilance. It is a named person and a spoken handover, which converts an assumption into an agreement.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The K check: “Can I name the adult who has my child right now, and did they say yes out loud?” — If the answer is a camp rather than a name, nobody has them.
 
@@ -92,6 +102,8 @@ Here's who you're dealing with. Your camp, and the eleven adults in it who are a
 
 Here's the scene. There is a tin on the low table with something in it, and a half-drunk cider at child height, and a bag on a chair. Your daughter is four and everything at that height is, to her, food. She has been putting things in her mouth for four years and nobody in this camp has had to think about that for a decade.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Edibles, powders or pills at or below adult-knee height
@@ -102,6 +114,8 @@ Here's what to watch for.
 - “She won't touch it” offered as the safety measure
 
 Here's what's actually happening. Pediatric cannabis ingestion has risen sharply everywhere edibles have become common, and the reason is entirely mechanical: edibles look like sweets, a child's dose is a fraction of an adult's, and onset is delayed so the first sign is a small child who is unexpectedly unwell an hour later. At a festival the risk multiplies — more substances, more adults, more surfaces, and a medical tent rather than an emergency department. This is not a page about whether adults in your camp should use anything. It is a page about height.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The K check: “If I crouch to my child's eye level right now, what can I reach?” — Do it literally. It is a different camp from down there.
 
@@ -122,6 +136,8 @@ Here's who this is. Your fourteen-to-seventeen-year-old, who is too old for the 
 
 Picture this. They want to go and watch a band with the two kids from the next camp and be back later, and that is a completely reasonable thing for a fifteen-year-old to want. It is also a fifteen-year-old, at night, in a crowd of adults, where nobody checks anybody's age for anything, and where a nineteen-year-old and a twenty-six-year-old will both read them as older than they are.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Adults who take an unusual interest in your teenager specifically
@@ -132,6 +148,8 @@ Here are the signs.
 - You have not said the one sentence that makes telling you possible
 
 Here's the mechanism underneath it. A teenager needs a different regime from both a child and an adult — real independence, because refusing it produces a teenager who lies, and real structure, because the environment contains things they have no experience of. The single highest-value item is not a rule, it is a disclosure guarantee. Adolescents decide whether to tell a parent about a bad situation almost entirely on their prediction of the reaction, so a teenager who believes they will be punished for being where they were will handle it alone, at night, at a festival. That is the outcome to prevent.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The K check: “Do they have a check-in time, a meeting point, and a promise from me that ringing costs them nothing?” — Three things, agreed before they go anywhere.
 
@@ -156,6 +174,8 @@ Let's talk about who does this. For everyone in the family field, every year, in
 
 Here's how it plays out. The first ninety seconds of a missing child are the ones that matter, and they are ninety seconds in which you will be useless — heart rate through the roof, unable to remember what they were wearing, phone at four percent. Everything on this page exists so that a calm Thursday version of you has already done the thinking.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Wristband with your mobile number, written fresh each morning
@@ -166,6 +186,8 @@ Watch for these.
 - Your phone charged, and a second adult's number on the band too
 
 Here's what's really going on. Lost children at festivals are common and almost always resolve in minutes, and the reason they resolve is infrastructure: wristbands with numbers, a welfare tent that does this constantly, and staff who are trained for it. The daily photo is the single highest-value item and the one almost nobody does — a described child is hard to search for and a photographed child in today's clothes is easy. Teaching who to approach matters as much as teaching not to wander: children told only about stranger danger will avoid the very adults most likely to help them, so name the categories instead — radio, stall, parent with kids.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The I check: “Wristband on, photo taken today, meeting point they can repeat?” — Three things, every morning, before anything else.
 
@@ -186,6 +208,8 @@ Here's who you're dealing with. For every adult with a child at a festival. Noth
 
 Here's the scene. The three things that send children to a festival medical tent are almost never dramatic: overheating, exhaustion, and the slow damage of a hundred decibels going into ears that are much more vulnerable than yours. None of it looks like an emergency while it is happening, which is precisely the problem.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Ear defenders: not optional, and not just at the main stage
@@ -196,6 +220,8 @@ Here's what to watch for.
 - Watch for the quiet child — that is the sign, not the crying one
 
 Here's what's actually happening. Children's hearing is more vulnerable than adults' and noise damage is cumulative, permanent, and completely painless at the time, which is why nobody acts on it. Festival sound levels routinely sit where hearing protection is required in an occupational setting, and a child does not have to be at the rail to be exposed — a campsite within earshot of a stage is enough over three days. Heat and exhaustion are the other two, and both present quietly: a child who is overheating or depleted goes still and compliant rather than loud, which reads to a busy adult as a child who is finally settling down.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The I check: “Defenders on, hat on, water in the last hour, and when was the last quiet hour?” — Four things, on a loop, all weekend.
 
@@ -220,6 +246,8 @@ Here's who this is. The family field at its best, which is genuinely one of the 
 
 Picture this. The real version is unmistakable once you have seen it. Adults who know which kid belongs to whom. Somebody bringing your child back with a comment about the face paint. A camp where the rota is on the whiteboard and nobody thinks that is uptight. Kids who can name four adults they are allowed to go to, because somebody sat down and taught them the four.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Real: adults are named, rotas exist, handovers are spoken
@@ -230,6 +258,8 @@ Here are the signs.
 - Assumed: raising a safeguarding point would make you the awkward one
 
 Here's the mechanism underneath it. The village is real and it works, and it works because of structure rather than in spite of it. The camps where children are genuinely safest are the ones that look, from outside, slightly over-organized: whiteboard, rota, named on-duty adult, an out-loud rule about one-on-one. That structure is what lets the freedom be real — kids roaming the family field all weekend, which is the thing you came for. The unstructured version produces the opposite: adults who feel responsible in general and therefore nobody responsible in particular, and a culture where the person who suggests a rota is the problem.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The K check: “Can every adult here name tonight's on-duty person, and can every kid name four adults they can go to?” — Two questions, asked on Thursday.
 

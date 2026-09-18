@@ -15,6 +15,8 @@
 
 “This one's M.A.R.K.E.T. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOUR DESIGN ON THEIR MERCH”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Your designs, your photographs, your product ima
 
 Here's the scene. A customer at your booth holds up their phone: "I saw something almost identical to this at the booth down the way — they are selling it for less." You go look. It is not almost identical. It IS identical — your photo, your design, printed by a drop-ship service. The vendor shrugs: "I found the image online, how was I supposed to know?" Your image has a watermark. It was cropped out. This is not an accident.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Your product photos appearing on other vendors' social media without credit
@@ -32,6 +36,8 @@ Watch for these signs.
 - Your business name or brand elements used by someone else in your market space
 
 Here's what's actually happening. Design theft and image theft are endemic in the handmade marketplace — the internet makes copying easy and enforcement feels difficult. But copyright protection is automatic the moment you create original work and you have real options. The key is documentation: timestamp your original files, watermark everything you post publicly, maintain a creation file with original dated drafts. US Copyright registration ($65) enables enforcement with statutory damages of $750 to $30,000 per infringement.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The R check: “Do I have timestamped documentation of my original designs that establishes my ownership before anyone else’s does?” — your designs are copyrighted the moment you create them. You get to enforce that.
 

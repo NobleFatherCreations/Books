@@ -15,6 +15,8 @@
 
 “This one's B.A.S.S. — Accountability. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE POWER YOU CARRY”
@@ -24,6 +26,8 @@ Here's who you're dealing with. If you're a camp lead, a promoter, a performer, 
 
 Here's the scene. You run a camp that people want to be part of. You have connections, good substances, a reputation. People come to you. People want things from you. Some of them are also in vulnerable positions — first-timers, people new to the scene, people who are deep in an altered state. Your position means your "yes" is more weighted and your "no" is harder for some people to hear. That's not bad. It's a responsibility.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - People in your orbit may feel unable to say no to you — even when they want to
@@ -32,6 +36,8 @@ Watch for these signs.
 - Silence from someone in your camp or crew is not consent — it may be fear
 
 Here's what's actually happening. Power differentials exist whether you acknowledge them or not. Camp leads, veterans, performers, and access holders in festival culture have real leverage over people who want what they have. That leverage doesn't disappear because the environment is loving or because your intentions are good. The question is not whether you have power. The question is whether you're using it in ways that leave people genuinely free to choose.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The B check: “Are the people in my orbit genuinely free to say no to me — and do they know that?”
 

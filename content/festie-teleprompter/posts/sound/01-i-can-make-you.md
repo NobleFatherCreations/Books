@@ -15,6 +15,8 @@
 
 “This one's S.O.U.N.D. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “I CAN MAKE YOU”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The promoter with the network, the stages, the b
 
 Here's the scene. "I'm building something with your sound specifically in mind — I need you for three dates this summer and if those go well we're talking main stage next year. We don't need a formal contract yet, this is about building a relationship first." Three shows later: you've covered your own travel, been paid 60% of what was agreed verbally, done promotional content for free, and the main stage conversation has vaporized.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Future opportunity always slightly out of reach — dependent on your continued compliance
@@ -32,6 +36,8 @@ Watch for these signs.
 - Any friction triggers implicit threat to the whole relationship and future bookings
 
 Here's what's actually happening. The festival and music industry has a specific power structure that predatory promoters exploit: artists need bookings, bookings require promoter relationships, and challenging a promoter feels like risking your entire access to the scene. The "building something together" frame removes professional clarity while the promoter retains all the structural power. A legitimate promoter makes money when you get paid fairly.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The S check: “Is there a signed contract — or just a verbal promise and a sense that questioning it risks the whole opportunity?” — that feeling is the leverage working exactly as intended.
 

@@ -3,6 +3,8 @@
 
 *A spoken-word teleprompter script — one scenario at a time, ready to read straight to camera.*
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/cover.png`]** — video open — type this video's scenario/section title into the blank bottom third before recording, then hold or fade from it.
+
 **Quick shoutout before we start:** every scenario in this guide — and 259 more across the other twenty guides — lives free at **www.noblefathercreations.com/festival**.
 
 This is F.L.O.W.: Flow Artists & Performers Edition. You hand your body to gravity, fire, and other people's hands. This guide is about who you hand it to.
@@ -29,6 +31,8 @@ Here's who this is. Genuinely good, visibly senior, and the reason half this cir
 
 Picture this. He has been doing this for fifteen years and the thing he does with a staff is the reason you started. He offers to work with you properly — not in the jam, at his camp, after, when it's quiet and there's space. The first session is the best hour of instruction you have ever had. The second session he corrects your stance with his hands and holds the correction slightly longer than the correction needs.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Teaching happens privately and late rather than in open practice
@@ -39,6 +43,8 @@ Here are the signs.
 - The lesson quality is real, which is what makes leaving expensive
 
 Here's the mechanism underneath it. Skill is the currency in this scene and a person who controls access to it controls a great deal. The mechanism is the same as every other access trap in this book, but it has an unusual protection: the teaching is genuinely valuable, so the cost of walking away is real and everybody can see it. That asymmetry is what gets exploited. It is also why the correction-by-touch escalation works — in a discipline where hands-on adjustment is legitimate and constant, the line between instruction and testing is exactly where a person can operate while retaining deniability, and where you will second-guess yourself for weeks.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The O check: “Would this lesson be identical if it happened at 2pm in the open jam?” — If the answer is no, the privacy is doing something the teaching does not need.
 
@@ -59,6 +65,8 @@ Let's talk about who does this. Generous, well-equipped, and quick to notice wha
 
 Here's how it plays out. Your poi are entry-level and everyone knows it. He has a spare set of the ones you have been saving for — seven hundred dollars of them — and he wants you to have them, no, really, take them, he has three sets. Two weeks later there is an afterparty you do not want to go to and the sentence in your head, unprompted, is that he gave you the poi.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - The gift is expensive enough to be uncomfortable and given fast
@@ -69,6 +77,8 @@ Watch for these.
 - Taking it back is floated, lightly, when you say no to something
 
 Here's what's really going on. Reciprocity is the strongest lever in the book — a received gift creates a felt obligation that operates below deliberation, and it does not care whether you asked for the gift or wanted it. Gift economy culture supercharges it, because the frame says a gift is pure, which removes your permission to be suspicious of one. Expensive gear is a particularly efficient version: it is high value, it is useful daily, it visibly improves your practice, and every time you use it you renew the debt. Most gifts in this scene are exactly what they look like. The tell is not generosity. It is generosity that arrives before the relationship has any other content.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The O check: “Would I be comfortable saying no to this person tomorrow?” — If the gear makes that harder, the gear is doing something other than spinning.
 
@@ -93,6 +103,8 @@ Here's who you're dealing with. Not a person — a room. The collective eye-roll
 
 Here's the scene. You are about to burn. The safety is a guy you met an hour ago who is holding a duvetyne blanket like it is a beach towel, and when you ask whether he has done this before he says yeah, loads, and looks at his phone. The circle is waiting. Asking again in front of everyone would make you the difficult one. You have about four seconds to decide whether being the difficult one is worse than the other thing.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Safety checks treated as a personality flaw rather than procedure
@@ -103,6 +115,8 @@ Here's what to watch for.
 - The social cost of pausing is visibly higher than the cost of proceeding
 
 Here's what's actually happening. Normalized deviance is the documented process by which a group repeatedly gets away with skipping a step until the skipped step becomes the standard. Every fire and aerial community runs on it to some degree, because the consequence is rare and the friction is constant, and the people most exposed are the newest — who have the least standing to pause and the most to lose by being seen as green. The joke is doing real work here: it pre-frames anyone who insists on the check as humorless, which means the insisting costs something, which means fewer people insist. That is not culture, it is a mechanism, and it runs whether or not anybody in the circle intends it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The F check: “Have I personally checked my fuel, my depot, and my safety — by asking them what they would do?” — Secondhand assurance is not a check.
 
@@ -123,6 +137,8 @@ Here's who this is. The organizer with a running order, the troupe lead with a h
 
 Picture this. Your shoulder went on the last rehearsal and you can feel it in a way that is new. You are on in twenty. There is no understudy because there is never an understudy. The set is four minutes. Four minutes is nothing. You have already decided you are doing it, and you are now assembling reasons, which is a different mental activity from deciding and it is worth noticing that you are doing it.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - No cover, no contingency, and that is treated as normal
@@ -133,6 +149,8 @@ Here are the signs.
 - Pulling out has a reputational price everyone can name
 
 Here's the mechanism underneath it. Performing-arts and circus injury research keeps finding the same thing: the significant injuries are disproportionately not freak accidents but re-injuries and compensations, sustained by people who continued while compromised. The economics drive it — no cover, no sick pay, gigs awarded by reputation, and a culture that reads reliability as showing up regardless. In a festival context it is sharper still, because the gig is often unpaid or trade, so you are risking a shoulder for a wristband and the thing keeping you in the air is not money but not wanting to be the person who dropped out.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The O check: “Am I deciding, or justifying?” — If you are listing reasons, the decision already happened and it was not made by your judgment.
 
@@ -153,6 +171,8 @@ Let's talk about who does this. Your base, your flyer, or the person spotting. T
 
 Here's how it plays out. You are inverted with your entire weight on his hands and he adjusts his grip, and the adjustment goes somewhere that was not necessary for the position, and you are upside down four feet off the ground and the only thing keeping you there is the person who just did that. You come down. Neither of you says anything. He books you for the next jam.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Grip adjustments that are not required by the position
@@ -163,6 +183,8 @@ Watch for these.
 - You come out of a wash feeling odd and cannot point to a single thing
 
 Here's what's really going on. Partner acro, aerial and any spotting discipline share a structural problem: consent to hold has to be given in advance and continuously, while the person giving it is frequently inverted, load-bearing, or in a position where objecting is physically unsafe. Every acro community that has addressed this has landed on the same protocol — name the contact before the move, no new contact mid-position, and trust means trusting the hold rather than trusting the person's intentions. The word trust is the thing to watch, because it is doing safety work and social work simultaneously and somebody can lean on the second to get the first.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The W check: “Was this contact named before the move started?” — Unnamed contact is the finding, regardless of where it landed.
 
@@ -183,6 +205,8 @@ Here's who you're dealing with. The crowd, at about one in the morning, drunk an
 
 Here's the scene. You are three minutes into a fire set and a man steps inside the circle to film himself next to you. He is about a metre from a lit wick moving at speed and he has no idea, and you now have to decide, mid-spin, whether to stop the set or keep going while somebody stands in the burn radius filming.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - People entering the performance space for photographs
@@ -193,6 +217,8 @@ Here's what to watch for.
 - The venue treats crowd management as your problem
 
 Here's what's actually happening. Performing in public gets read as an open invitation, and for fire and aerial that misreading is a physical danger to the audience as well as to you — a person inside a fire circle is inside a burn radius, and a grabbed hoop or a knocked stilt takes a performer down onto hard ground. The professional answer is that crowd management is the event's job and a perimeter is a condition of the booking, not a nicety. The individual answer is that you are allowed to stop, and stopping is safer than performing around an obstacle.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The O check: “Is there a real perimeter and somebody holding it?” — If not, that is a condition to fix before you light, not a thing to absorb during.
 
@@ -217,6 +243,8 @@ Here's who this is. The one with the hardware, the certification everyone assume
 
 Picture this. You want to fly and he is the only person here who can hang you. He is warm about it, competent-looking, and slightly dismissive when you ask what the anchor is rated to — he says he has been doing this since before you were spinning. Later he mentions, in the same warm voice, that some people get priority because they are part of the crew and you could be part of the crew.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - One person rigs everything and no second competent person exists on site
@@ -227,6 +255,8 @@ Here are the signs.
 - Asking technical questions is treated as an insult rather than as normal
 
 Here's the mechanism underneath it. Aerial rigging is life safety — a single point failure is a fall from height — and the entire discipline's professional practice is built on redundancy, documentation, and independent inspection precisely because competence cannot be established by reputation. When a festival has one unsupervised rigger, two things are true at once: the technical risk is unmanaged, and a person now controls something people want badly enough to trade for. The second follows from the first. It is the accessible-platform pattern from the A.C.C.E.S.S. guide, with the stakes raised from a good view to your spine.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The W check: “Can this person tell me the load path and the rating, without irritation?” — Competence explains itself. Only insecurity gets offended by the question.
 
@@ -247,6 +277,8 @@ Let's talk about who does this. Always filming, often good at it, and operating 
 
 Here's how it plays out. You burned last night. This morning there is a clip of it on an account you have never heard of, forty thousand views, your face clearly visible, your name nowhere, a brand tagged in the caption. The comments are mostly about your body. Somebody has stitched it. You did not know a camera was there, and the account owner, when you message, is genuinely baffled that you are not pleased.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Films without asking and treats performing as blanket consent
@@ -257,6 +289,8 @@ Watch for these.
 - Costume, aerial, and fire performers get framed body-first
 
 Here's what's really going on. Performing in public does not transfer your rights in your own image, and it never has — but the practical position is that enforcement is slow, cross-border, and expensive, so the operative protection is the one you set up in advance rather than the one you litigate afterwards. What makes this acute for flow and aerial performers is the combination of revealing costume, physical spectacle, and a distribution system that rewards exactly the framing you did not choose. The version that does real harm is not the friendly clip, it is the reposted one, where it travels without context, without your name, and often into spaces you would never have agreed to.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The L check: “Have I said, out loud, before I start, what I consent to being filmed and posted?” — Silence gets read as a yes by people who wanted a yes.
 
@@ -277,6 +311,8 @@ Here's who you're dealing with. A promoter with a budget for sound, lights, secu
 
 Here's the scene. He wants three fire performers for the Saturday headline changeover. There is no fee. There are wristbands, and he says it in a way that makes the wristbands sound generous. He also mentions that a lot of people get seen at this one, and that the photographer is really good, and every single other trade at this event is being paid.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Wristbands offered as the fee for skilled, insured, dangerous work
@@ -287,6 +323,8 @@ Here's what to watch for.
 - The photographer is paid and you are not
 
 Here's what's actually happening. Fire and aerial performance is skilled, insured, equipment-heavy, physically dangerous labour, and it is the single most reliably unpaid element of a festival's programme because performers love doing it and promoters know that. The comparison that settles it is on-site: the sound engineer, the bar staff, the security and the photographer are all on rates. If a budget exists for everyone who touches the event except the people doing the thing with fire in it, that is a decision rather than a constraint.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The L check: “Who else working this event is unpaid?” — If the answer is only the performers, the budget is not the problem.
 
@@ -311,6 +349,8 @@ Here's who this is. For every fire, aerial, and prop performer, at every skill l
 
 Picture this. You are about to go. There is a circle waiting, a running order slipping, and a version of you that wants to skip this because everything looks fine and everything usually is. This page exists because “usually” is doing an enormous amount of work in that sentence.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Fuel: which fuel, how old, where is the depot, is it lidded and upwind
@@ -321,6 +361,8 @@ Here are the signs.
 - Rig: anchor, rating, second inspection, and a spotter who is watching you
 
 Here's the mechanism underneath it. Checklists work for the same reason in every high-consequence discipline: they take the decision out of the moment and out of the social context. Reading a list is not a judgment call and cannot be read as a comment on the people present, which is precisely what makes it survivable under an impatient circle. Saying it out loud does the second job — it makes the check public, which means the circle adjusts to it rather than you adjusting to the circle, and it quietly gives permission to the newer performer behind you who was not going to ask.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The F check: “Did I run all six, this time, for this burn?” — Last burn's check does not cover this one. Fuel moves, safeties change, hardware fails between sets.
 
@@ -345,6 +387,8 @@ Let's talk about who does this. The good version has no owner, teaches sideways,
 
 Here's how it plays out. Two circles at the same festival. In the first, a woman who has been spinning for twenty years spends eleven minutes helping somebody who picked up poi on Thursday, then goes back to her own practice and never mentions it again. In the second, everyone is subtly performing for one man at the edge, and when he leaves for ten minutes the energy of the whole circle changes, and everybody notices that it did.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Real: beginners get space and nobody is ranked
@@ -355,6 +399,8 @@ Watch for these.
 - Owned: people describe the circle by his name
 
 Here's what's really going on. A practice circle is one of the genuinely great things this scene produces — skill transmitted for free, across ages and levels, because somebody once did it for you. It is also a structure with an obvious failure mode: circles with a centre concentrate access, and concentrated access is what every pattern in this guide runs on. The test is identical to the one in every other guide here, which is not an accident: can you decline, be unimpressive, or leave without it costing you? In a real jam the answer is yes and nobody registers it. In an owned one, everybody registers everything.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The W check: “If I sat out tonight and said nothing, would anything change for me here?” — If sitting out has a price, this circle has an owner.
 

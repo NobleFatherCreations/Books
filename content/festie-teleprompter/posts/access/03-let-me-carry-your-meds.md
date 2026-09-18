@@ -15,6 +15,8 @@
 
 “This one's A.C.C.E.S.S. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “LET ME CARRY YOUR MEDS”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Reasonable, practical, and correct that your bag is full. Offers to hold the thing you cannot go twelve hours without. Sometimes a partner, sometimes a friend, sometimes the helper from page one who has already been given three other jobs.
 
 Here's the scene. Your bag is genuinely overloaded and he is genuinely trying to help and the pouch with the afternoon dose genuinely does fit better in his pocket. Then it is 4pm and he is at the other stage and not answering, and you are doing the arithmetic about how bad this gets, and discovering that the answer to “how long can I wait” is now a question about somebody else's schedule.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Is the only person who knows where they are
 
 Here's what's actually happening. Whoever controls access to something you cannot skip controls your movements, your timing, and eventually your willingness to argue. This is textbook coercive control and it is well documented in intimate-partner contexts involving disabled partners — withholding medication, mobility equipment, or assistive technology is one of the most common forms it takes, precisely because it is invisible to outsiders and easy to explain away as forgetfulness. At a festival it needs no cruelty to work. Ordinary flakiness produces the same dependency, and a person who wants leverage only has to notice how well it worked and do it again.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The C check: “Am I holding everything I cannot skip — meds, dose, charger, spare?” — If the answer routes through somebody else's pocket, that is a leash regardless of who is holding it.
 

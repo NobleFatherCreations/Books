@@ -3,6 +3,8 @@
 
 *A spoken-word teleprompter script — one scenario at a time, ready to read straight to camera.*
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/cover.png`]** — video open — type this video's scenario/section title into the blank bottom third before recording, then hold or fade from it.
+
 **Quick shoutout before we start:** every scenario in this guide — and 256 more across the other twenty guides — lives free at **www.noblefathercreations.com/festival**.
 
 This is P.R.I.D.E.: LGBTQ+ Attendees Edition. Festival spaces can be liberating AND they can be predatory. Know the difference.
@@ -30,6 +32,8 @@ Here's who this is. The person — usually but not always straight and cis — w
 
 Picture this. "I have always been so drawn to queer energy — there is something so free and authentic about it." She says it looking right at you and it feels like being seen. By the next conversation she is asking increasingly personal questions about your body, your relationships, your experience of sexuality. The attention is intense and feels validating. Something underneath it feels like you are being studied rather than known.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Their interest centers your identity category rather than you as a specific person
@@ -38,6 +42,8 @@ Here are the signs.
 - You feel like you are representing queerness to them rather than being yourself
 
 Here's the mechanism underneath it. Fetishization uses the language of appreciation and attraction to reduce a person to their identity category. In festival contexts where queer expression is celebrated and visible, this can be hard to distinguish from genuine connection — especially when the attention feels validating after a lifetime of less accepting environments. The tell is the direction of interest: genuine connection is curious about you as a specific person. Fetishization is curious about what you represent.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The P check: “Is this person interested in me specifically — or in what I represent to them?”
 
@@ -58,6 +64,8 @@ Let's talk about who does this. The person who performs allyship loudly and spec
 
 Here's how it plays out. He has the progress pride flag on his tent. He knows all the right language. He talks about his queer friends, the spaces he has worked at, the causes he supports. He feels like one of the safer people in the festival — someone who gets it. By Saturday night he is pushing past limits you have named in ways that someone who actually understood the culture would never do. The vocabulary was fluent. The behavior was not.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Their allyship is loud and demonstrative — performed for an audience rather than lived quietly
@@ -66,6 +74,8 @@ Watch for these.
 - When you name a limit they use queer language to argue against it — "but this is a liberated space"
 
 Here's what's really going on. Performative allyship in festival contexts is a specific form of credential costuming — using the aesthetics and language of queer culture to manufacture trust that their actual behavior does not warrant. Real allies do not need to announce their allyship. Real allies follow your lead about what you need and want. Real allies do not use the language of liberation to override your limits. The vocabulary is easy to learn. The behavior is what matters.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The R check: “Does this person’s behavior match their stated values — or is the language the whole performance?” — vocabulary is cheap. Watch what they actually do.
 
@@ -86,6 +96,8 @@ Here's who you're dealing with. The assumption that shared queer identity create
 
 Here's the scene. "We are queer fam — we look out for each other." She says it warmly and it lands in a real place because you know how much that community has meant in your life. By Sunday she has used that framing to borrow money you are not sure you will see again, to get you to cover for something that made you uncomfortable, and to make you feel guilty for having limits with her that you would have with anyone else you had known for 48 hours.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Shared identity invoked immediately as a basis for trust and obligation you have not established
@@ -94,6 +106,8 @@ Here's what to watch for.
 - Guilt about having the same standards with queer people that you would have with anyone
 
 Here's what's actually happening. Shared identity is real and beautiful and also exploitable. The manipulation here is taking the genuine value of queer community solidarity and using it to bypass the individual trust-building that any relationship actually requires. You are not obligated to trust someone more, give more, or tolerate more because they share your identity. Real queer community does not require you to override your judgment as proof of belonging.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The I check: “Am I giving this person more than I would give any other stranger because of shared identity alone?” — shared identity is not a relationship. It hasn’t been earned yet.
 
@@ -114,6 +128,8 @@ Here's who this is. The policing of who belongs and how — based on how visibly
 
 Picture this. "I do not know if this is really your scene — you seem kind of straight-passing." It is said not unkindly but it lands in a familiar tender place. You have spent your whole life negotiating your identity and its visibility and here it is again, even in a space that is supposed to be for you. By the end of the conversation you are performing queerness for their approval rather than living it on your own terms.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Your identity, expression, or history is used to question your right to be in a space
@@ -122,6 +138,8 @@ Here are the signs.
 - Your own comfort with your identity is undermined by someone else's framework for it
 
 Here's the mechanism underneath it. Community gatekeeping in queer spaces reproduces the exact same dynamics of exclusion and shame that cause harm in straight spaces — just with different criteria. It is not protection of the community. It is the use of community membership as leverage over individuals. Your queerness is valid in whatever form it takes, at whatever level of visibility you choose, with whatever history you have. Nobody else's definition of queer enough applies to you.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The I check: “Is my sense of my own identity secure — or am I letting someone else’s framework define it for me?” — nobody else’s checklist gets a vote.
 
@@ -142,6 +160,8 @@ Let's talk about who does this. The use of your identity — or the threat of ex
 
 Here's how it plays out. You ended things with him Saturday morning. By Saturday afternoon you hear through the camp that he has been telling people things about you — your identity, your past, details of your private life that you shared in confidence. It is framed as "just talking" but you know what it is. He told you two days ago that he knows people who know people back in your hometown. The implication was clear even without the explicit threat.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Implicit or explicit references to "people back home" or your non-festival life when you exercise independence
@@ -150,6 +170,8 @@ Watch for these.
 - Information shared in intimacy being used as leverage when intimacy ends
 
 Here's what's really going on. Outing as leverage is a specific form of coercion that exploits the real-world consequences that can follow unwanted disclosure of queer identity — in families, workplaces, and communities where full acceptance is not guaranteed. It is a serious harm regardless of how it is delivered. Implicit threats are still threats. Information shared in intimacy that is weaponized after the relationship ends is a form of abuse. You have the right to name it, report it, and seek support.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The I check: “Is this person treating private information I shared with care — or as something they hold over me?” — information given in trust and then used as leverage was never really given. It was taken on credit.
 
@@ -170,6 +192,8 @@ Here's who you're dealing with. The assumption that queer-coded spaces, events, 
 
 Here's the scene. The tent has a progress pride flag and the DJ is playing music you know from queer spaces. The crowd feels like your people. You let your guard down more than you normally would at a festival because it feels safer. Later you realize: you were less cautious about who you were talking to, less alert to the dynamics around you, and one of the people you trusted because of the context turned out to be someone who specifically sought out queer spaces because they knew people would be less guarded there.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - You are less alert in a space because it is coded as queer or LGBTQ-friendly
@@ -178,6 +202,8 @@ Here's what to watch for.
 - Your guard is down in ways that have more to do with the flag than with actual safety information
 
 Here's what's actually happening. Queer spaces at festivals can be genuinely safer in important ways — more consent-conscious culture, more gender-affirming, more familiar community norms. They can also be specifically targeted by people who know that queer festival-goers will be less guarded in those spaces. A rainbow flag is an aesthetic. Safety is built through behavior, through relationships, through actual community accountability. Verify through those channels — not through the decor.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The D check: “Have I verified that this space is actually safer — or am I assuming based on aesthetics?”
 
@@ -202,6 +228,8 @@ Here's who this is. The specific dynamic where queer relationships at festivals 
 
 Picture this. You tried to end things with her Saturday morning but she knows everyone in the queer camp you are both staying in. By Saturday afternoon the social fabric of the camp has shifted in ways that feel like pressure — people are slightly colder, you feel like the conversation about what happened is happening without you. Leaving the situation means leaving the camp and the community and the access to the people you came here with. The exit has a cost she knows about.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Your social world at the festival is so intertwined with theirs that exit has a high social cost
@@ -210,6 +238,8 @@ Here are the signs.
 - Ending the dynamic means losing access to people and spaces you care about
 
 Here's the mechanism underneath it. Small, visible queer communities at festivals create specific social pressures around relationship dynamics — everyone knows everyone, reputation travels fast, and the social cost of a difficult ending can feel like losing the whole community. This is the social infrastructure that some people deliberately use to make exit feel impossible. You are not obligated to stay in any dynamic because exit has a social cost. The community that requires you to stay in a bad situation to belong is not your community.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The E check: “Can I leave this dynamic freely — or does leaving come with social costs that are being used to keep me in it?” — a cost attached to leaving is the whole design.
 
@@ -230,6 +260,8 @@ Let's talk about who does this. The use of your gender expression, your visible 
 
 Here's how it plays out. "You were being so flirty and open all night — I thought you were into it." The argument is that your gender expression, your dancing, your presence in a queer space, or your openness earlier in the night means something about your consent to what happened. It does not. Your expression and your consent are entirely separate. Your visibility was not an invitation.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Your gender expression or visible queerness invoked as evidence of consent
@@ -238,6 +270,8 @@ Watch for these.
 - Your earlier behavior in the night used to argue that later limits should not apply
 
 Here's what's really going on. Expression is not consent. Presence in a space is not consent. Dancing is not consent. Being visibly queer is not consent. Being in a sex-positive or queer-coded space is not consent. Consent is a specific, ongoing, informed, freely given yes to a specific thing. Nothing about your expression, your identity, your presence, or your earlier behavior removes the requirement for that yes. Anyone who argues otherwise is not describing the culture — they are manipulating it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The P check: “My presence and expression are mine. They do not communicate consent for anything less than what I explicitly say yes to.” — presence is not permission. Only yes means yes.
 
@@ -262,6 +296,8 @@ Here's who you're dealing with. Someone inside the same small world you are — 
 
 Here's the scene. It ended badly and you are both at this festival and will be at the next four. He is being pleasant in public. What he says privately is that he would hate for people to get the wrong idea, and that he has been talking to people, and that your work knows you come to these, don't they — and none of it is a threat you could write down.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Knows precisely who you are out to and who you are not
@@ -272,6 +308,8 @@ Here's what to watch for.
 - Nothing said is explicit enough to report, which is the craft of it
 
 Here's what's actually happening. In small or closed communities the ordinary cost of leaving a relationship is multiplied, because the relationship and the community are the same network — and for LGBTQ+ people that network is frequently the only place where they are fully out. Threatened outing is recognized as a form of coercive control precisely because it is so effective: it requires no violence, it is deniable, and the consequences fall entirely on the target, potentially at work, at home, and with family. The festival version adds a calendar — you will both be at the same events all summer, and he knows that.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The I check: “Is somebody using what they know about me to shape what I do?” — That is not a private matter between exes. That is leverage.
 
@@ -292,6 +330,8 @@ Here's who this is. Someone not out — sometimes genuinely and understandably s
 
 Picture this. He is warm and interested and has made it clear from the outset that this cannot be seen. So you meet at his tent rather than yours, you do not speak to him near his mates, and on Saturday when somebody asks if you two are a thing he laughs and says no, in a tone that is louder than it needed to be, and you stand there being nobody in public for the second time this weekend.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Contact only ever happens in private and on their schedule
@@ -302,6 +342,8 @@ Here are the signs.
 - Any complaint from you can be reframed as threatening to out them
 
 Here's the mechanism underneath it. A closeted partner is not doing something wrong by being closeted. The pattern here is narrower: an arrangement where one person carries all the exposure, all the invisibility and all the flexibility, and the other carries none. It is structurally the same as any other asymmetric arrangement in this book — the imbalance is what does the damage, not the secrecy. In a small festival scene it also compounds, because you cannot discuss it with anyone without disclosing them, which means you have been isolated from advice by the terms of the arrangement itself.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The I check: “Whose safety does this secret protect, and whose costs does it ignore?” — If the answer is one-way, it is not discretion, it is an arrangement.
 
@@ -326,6 +368,8 @@ Let's talk about who does this. The queer festival community has a specific rela
 
 Here's how it plays out. The substances circulating in queer festival spaces are sometimes the same as the general festival supply and sometimes very different — GHB and GBL in particular circulate more commonly in some queer party contexts and have specific risks that are worth knowing. You cannot always know what you are taking or what is in it. Testing, dosing carefully, and having people who know what you took and when are not party-killing measures. They are what makes the party survivable.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - GHB and GBL: very narrow margin between recreational dose and overdose — start extremely small
@@ -334,6 +378,8 @@ Watch for these.
 - Know your sober or sober-ish buddy — someone who knows what you took and when
 
 Here's what's really going on. GHB and GBL are more commonly found in some queer party contexts than in general festival settings. They have a very narrow therapeutic window — the difference between a recreational dose and a dangerous dose is small, and combining either with alcohol significantly increases the risk of overdose and unconsciousness. Testing is harder for these substances than for others — reagent kits have limited effectiveness. Starting with an extremely small amount and waiting is the most important harm reduction step.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The D check: “Do I know what is in what I am taking — and does someone sober know what I took and when?” — if nobody sober knows, nobody can help you if it goes wrong.
 
@@ -354,6 +400,8 @@ Here's who you're dealing with. You have rights at a festival regardless of your
 
 Here's the scene. Something happened this weekend that was not okay. Or you witnessed something. Or you are sitting with something difficult and not sure what to do with it. The resources listed here are specifically for LGBTQ+ people and specifically for the kinds of situations that arise in festival contexts. You do not need to have it all figured out to reach out. You do not need a perfect story. You just need to know where to start.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Trevor Project (thetrevorproject.org): crisis support specifically for LGBTQ young people, 24/7
@@ -362,6 +410,8 @@ Here's what to watch for.
 - Trans Lifeline (translifeline.org): support specifically for trans people in crisis, staffed by trans people
 
 Here's what's actually happening. LGBTQ+ people face specific vulnerabilities at festivals — identity-based harassment, outing threats, fetishization, and the unique dynamics of small queer communities. You also have specific resources available that are built for your experience. Using them is not weakness. It is using what exists for exactly this situation. You deserve support that understands your specific context.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The E check: “Do I know which resources exist for my specific situation — before I need them?”
 
@@ -382,6 +432,8 @@ Here's who this is. Not a predator — the infrastructure. The pat-down at the g
 
 Picture this. The security queue splits into two lines by gender and you are doing the calculation you always do. Then there is the question of the toilets for four days, and the fact that your HRT is in a bag that may be searched by someone who will say something, and the medical tent where you may at some point have to explain your body to a stranger with a clipboard while not at your best.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Gendered search lines with no stated alternative
@@ -392,6 +444,8 @@ Here are the signs.
 - You have not checked whether this event has an LGBTQ+ or welfare lead
 
 Here's the mechanism underneath it. Most of what makes a festival hard for trans attendees is friction rather than malice, and friction is plannable. Every large event has a welfare team and most now have a named inclusion or access lead; searches can almost always be done by an officer of your choosing or in a private area if you ask, and that request is routine for staff even when it feels enormous to make. The health items are the ones that actually hurt people: binding for four days in heat restricts breathing and causes injury, and interrupted HRT is a medical issue rather than a cosmetic one.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The D check: “Have I found this event's welfare or inclusion lead, and do I know where the gender-neutral facilities are?” — Ask at the gate, not on Saturday.
 
@@ -416,6 +470,8 @@ Let's talk about who does this. Festival culture collects queer people as well a
 
 Here's how it plays out. Two different queer people approached you warmly this weekend. One of them has been genuinely curious about you — your life outside the festival, your actual interests, what brings you joy. She introduced you to her friends without hovering. She was happy when you went off to explore independently. The other one has kept you close, positioned themselves as the key to the queer community at this festival, and seems slightly off when you spend time with anyone else. Same warm opening. Very different underlying dynamic.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Real queer community: glad when you explore and connect independently
@@ -424,6 +480,8 @@ Watch for these.
 - Being collected: needs you close, uses queer solidarity to justify that need
 
 Here's what's really going on. Real queer community at festivals is built through shared experience where both people are free to give or not give, to come or go, to connect and disconnect without social penalty. It is recognizable because it expands your world rather than contracting it around any one person. Being collected uses the warm language and aesthetics of queer community while serving the collector's need for proximity, validation, or access. The difference is visible in how people respond to your independence.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The D check: “Does this person’s warmth remain consistent whether I am being close or independent?” — that consistency is the whole test.
 

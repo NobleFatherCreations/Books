@@ -15,6 +15,8 @@
 
 “This one's B.A.S.S. — Accountability. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “IF SOMEONE'S NOT OKAY”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Sometimes the festival brings up things that wer
 
 Here's the scene. Your campmate has been in his tent since Saturday afternoon. He came out once, looked off, said he was fine, went back in. It's Sunday morning. You've knocked twice. He said he's okay but something in his voice sounds wrong. You don't want to be dramatic. You also know him and this isn't normal. The moment you're sitting with right now — do you go back and check on him again, or do you leave it?
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Withdrawal from the festival when they came to engage — especially sudden
@@ -32,6 +36,8 @@ Watch for these signs.
 - Saying things that sound like goodbye or that they shouldn't have come
 
 Here's what's actually happening. Festival environments can precipitate real mental health crises — substance effects, sleep deprivation, emotional openness that surfaces difficult things, and the isolation that can exist inside a crowd. Men are specifically at risk of not receiving support because "I'm fine" is the expected answer and people accept it. If your gut says something is wrong, knock again. Ask directly. "Are you actually okay?" delivered with real eye contact is a different question than "you okay?"
+
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The B check: “What is my gut actually saying about this situation — and am I acting on it?”
 

@@ -15,6 +15,8 @@
 
 “This one's G.R.O.V.E. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOUR FRIENDS DON'T GET IT”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The Gradual Drift Engineer. Doesn't drag you awa
 
 Here's the scene. It's Sunday morning and you realize you haven't seen your campmates since Friday lunch. Every time you mentioned them he had something better lined up. He called your best friend "a bit of a wet blanket." Now your phone is dead, you're deep in a part of the festival you don't know, his friends are your only social context, and finding your people would require asking him for help. When did that happen?
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Your actual friends get subtly characterized as negative or "not on your level"
@@ -32,6 +36,8 @@ Watch for these signs.
 - Getting back to camp now requires his help — you've stopped navigating independently
 
 Here's what's actually happening. Isolation is the infrastructure of control. It doesn't need to be dramatic. A series of small redirections over 72 hours can leave you completely dependent on one person in unfamiliar territory with a dead phone. The criticism of your friends is the tell — it's not about them being bad for you. It's about making you distrust the people who know you, love you, and would notice if something was off. Connection that requires losing your existing connections is not connection. It's replacement.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The O check: “Can I find my camp right now without his help? If not — that is the situation.”
 

@@ -15,6 +15,8 @@
 
 “This one's L.E.N.S. — Accountability. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WHERE THAT PHOTO LANDS”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. You, at home on the Tuesday, with two thousand frames and a deadline and no one watching what you select.
 
 Here's the scene. There is a frame in there of somebody mid-breakdown at the edge of a crowd, and it is the best photograph you took all weekend. It says something true about the whole event. Nobody would ever know who they are except everyone who knows them, which at a festival of this size is probably four hundred people.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Is this frame about the festival, or about them specifically
 
 Here's what's actually happening. Selection is where the ethics actually live — the shutter is a reflex, the edit is a decision made with time and without pressure, and that is the moment you are accountable for. Festival crowds contain people who are not out, people whose employers do not know they are here, people in custody disputes, people in recovery, people who are somewhere they told someone else they were not. None of that is visible in the frame and all of it is downstream of your upload. You cannot check for every case, which is exactly why the general rules exist: no crisis contexts, no minors without a parent's yes, no identifiable faces in compromising states, and send it to them first when you are unsure.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Am I willing to send this to the person in it before it goes up?” — If not, that reluctance is the answer, and you already know what it means.
 

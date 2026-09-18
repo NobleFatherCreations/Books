@@ -15,6 +15,8 @@
 
 “This one's S.O.B.E.R. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THERE WAS SOMETHING IN THAT”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Nobody hostile. A camp full of people who forgot, or who genuinely did not consider that the tray of brownies needed a label, or that the vape going round has more in it than nicotine.
 
 Here's the scene. You ate one thing from the communal table because you were starving and it was food. Forty minutes later you know. You are sitting in a camp chair doing arithmetic about whether this counts, whether you have to tell anyone, whether your sponsor will think you engineered it, and whether your sobriety date has just moved — and none of that arithmetic is helping with the part where you are currently high and did not agree to be.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - The first you hear of it is somebody laughing about it afterwards
 
 Here's what's actually happening. Accidental ingestion at festivals is common and it is a labelling failure rather than an attack — which does not make it less serious for you. Edibles are the usual route because they are food-shaped and the onset is delayed enough that you have eaten it before anyone could have told you. The practical harm is real — being involuntarily altered removes your capacity in an environment where you are frequently the person others are relying on — and the internal harm can be larger, because it lands as a relapse in a body that cannot tell the difference.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The O check: “Do I know what is in this, from the person who made it?” — Communal food counts. This is the rule the book gives everybody, applied to a plate.
 

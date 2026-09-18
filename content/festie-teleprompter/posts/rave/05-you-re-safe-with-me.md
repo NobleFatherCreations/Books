@@ -15,6 +15,8 @@
 
 “This one's R.A.V.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOU'RE SAFE WITH ME”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The person who appears exactly when you're most 
 
 Here's the scene. You got separated from your group Saturday night and your phone died. You're in the wrong part of the festival and you don't know how to get back. He appears — calm, oriented, kind. He walks you somewhere warm, gets you water, sits with you while your portable charger works. An hour later, when he suggests you stay in his camp rather than find your friends, the relief and gratitude are still running the show.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Appears at peak vulnerability: separated, lost, depleted, frightened
@@ -32,6 +36,8 @@ Watch for these signs.
 - The suggested next step keeps you in their orbit rather than returning you to yours
 
 Here's what's actually happening. The rescue hook targets the specific window when you're most resource-depleted and least capable of independent assessment. The help is often genuinely real — which makes the subsequent leverage feel confusing. Gratitude is a genuine human response to being helped. It is not a binding contract. You can thank someone sincerely for real help and still choose to go back to your own people afterward.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The V check: “Does this person’s help return me to my own people and navigation — or keep me needing them for the next thing too?” — real help ends. It doesn’t renew itself.
 

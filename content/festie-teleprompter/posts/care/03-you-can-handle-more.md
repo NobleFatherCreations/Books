@@ -15,6 +15,8 @@
 
 “This one's C.A.R.E. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOU CAN HANDLE MORE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Harm Reduction volunteers encounter a concentrat
 
 Here's the scene. You have supported four difficult situations today — one overdose response, two sexual assault disclosures, one severe psychological crisis. You are still showing up fully for every person who comes in. But something has shifted in how you are receiving their experiences. They are landing differently. You feel numb where you used to feel present. You are performing care rather than actually giving it. You have not told anyone because the tent is busy and there is nobody to cover you.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Emotional numbness in situations that would previously have moved you
@@ -32,6 +36,8 @@ Watch for these signs.
 - Intrusive thoughts about difficult situations you have witnessed during your shifts
 
 Here's what's actually happening. Secondary traumatic stress develops from repeated exposure to other people's traumatic experiences. Harm Reduction work at festivals compresses what might be a week of a therapist's caseload into a single shift. The culture that says "just one more" and "people need you" is the same culture that burns out its best volunteers and leaves participants being supported by someone running on empty. Your depletion is not noble. It is a risk to the people you are trying to help.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/care/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The C check: “Am I actually present with the people I am supporting — or am I performing presence from a tank that’s already empty?” — you cannot give what you do not have, and your recovery is what makes the giving possible.
 

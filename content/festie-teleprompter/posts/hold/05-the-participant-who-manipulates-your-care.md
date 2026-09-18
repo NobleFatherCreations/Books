@@ -15,6 +15,8 @@
 
 “This one's H.O.L.D. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE PARTICIPANT WHO MANIPULATES YOUR CARE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The attendee who uses your caregiving role to ac
 
 Here's the scene. He has been to the Harm Reduction tent four times this weekend. Each time presenting a slightly different version of a support need. He is articulate, charming, and good at presenting in ways that trigger your care response. You have given him supplies, information, quiet space, and two extended conversations. On his fourth visit you notice: he is gathering information about other attendees who have come through, he is asking about staff schedules, and his affect when he thinks he is not being observed is different from his affect when he is.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Multiple visits with shifting or evolving presentations of their support need
@@ -32,6 +36,8 @@ Watch for these signs.
 - Noticeably different presentation when they think they are not being directly observed
 
 Here's what's actually happening. Most people who access Harm Reduction or support spaces at festivals are there for genuine reasons. Some are not. People who want to gather information about vulnerable attendees, access resources beyond what is appropriate, or build proximity to staff will use the care space to do it because the care space is specifically designed to receive people without judgment. Noticing patterns is not being judgmental. It is being a good safeguarder.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The O check: “Is the pattern of this person’s engagement consistent with genuine support seeking — or does it track more closely with something else entirely?” — discernment is as much a part of this role as compassion.
 

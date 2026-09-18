@@ -15,6 +15,8 @@
 
 “This one's B.U.I.L.D. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/build/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “IT'S JUST YOU OUT THERE TONIGHT”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The site itself, during load-in. Dark, enormous, mostly empty, with the medical tent not up yet, security not started, no public, patchy signal, and people you have never met driving plant around in the dark.
 
 Here's the scene. You are finishing a run of cable at the far end of a field at eleven at night. There is one work light. The nearest other human is about four hundred metres away and does not know exactly where you are. Your phone has one bar. Every single protection this festival will have by Friday — rangers, medical, welfare, crowds of witnesses — does not exist yet, and will not for six days.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/build/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - No headcount — nobody would notice by morning
 
 Here's what's actually happening. Everything else in this book assumes a populated festival: witnesses, a medical tent you can walk to, rangers, other people's phones. Build phase has none of that, and it is also when the workforce is smallest, least known to each other, and most exhausted. Two separate risks stack in that gap — the industrial one, where an ordinary injury becomes serious because nobody finds you for two hours, and the interpersonal one, where every pattern in this book operates without any of the infrastructure that usually constrains it. Crew accommodation in particular is often a field of strangers with no vetting and no lock, which is not a comment on crew, it is a description of the conditions.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/build/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The I check: “Does one named person know where I am and when I am due back?” — Not the crew. A person, with a time.
 

@@ -15,6 +15,8 @@
 
 “This one's E.V.E.N.T. — Accountability. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE REPORT IS ABOUT YOUR HEADLINER”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. You, holding a credible report about the one person on the bill you cannot replace, forty-eight hours out, with six thousand tickets sold on their name.
 
 Here's the scene. It came through welfare last night and it is specific, it is not the first thing you have half-heard about him, and he is on at ten tomorrow. The maths is doing itself in your head before you have finished reading: refunds, the agent, the insurance, next year's booking relationships, and a field full of people who bought tickets for him.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Nobody outside your commercial interest is involved in the decision
 
 Here's what's actually happening. This is the decision that defines an event, and the pattern of failure across the industry is consistent: not a promoter who decided to protect a predator, but a promoter who decided to handle it after the weekend, and then after the season, and then not at all. Everything about the moment pushes one way — the cost of acting is concrete and immediate, the cost of not acting is diffuse and deferred — and that asymmetry is the whole trap. The counter is structural: a decision rule written when nothing is at stake, and a person outside the commercial line who makes the call.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Would I act on this identical report if it were about a volunteer?” — If yes, then the only variable is money, and you already know that is not a reason.
 

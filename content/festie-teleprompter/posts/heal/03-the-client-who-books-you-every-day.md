@@ -15,6 +15,8 @@
 
 “This one's H.E.A.L. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE CLIENT WHO BOOKS YOU EVERY DAY”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Books repeatedly, discloses heavily and fast, and treats the session as a relationship rather than an appointment. Sometimes genuinely in distress. Sometimes using the one structure on site where a stranger will touch you alone in a tent for an hour.
 
 Here's the scene. Third booking in two days. He has started arriving early and staying after, and the disclosures have moved from his shoulder to his marriage to the fact that you are the only person who has ever really understood him, and today he asked whether you would have dinner, and when you said no he apologized so thoroughly that you ended up reassuring him.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You have started dreading the booking and have not told anyone
 
 Here's what's actually happening. The therapeutic frame is unusually exploitable in this direction: a practitioner is alone, often in a soft-walled space, professionally committed to warmth and non-judgement, and financially motivated to keep a repeat client. All four of those work against you. This is a known pattern in massage, bodywork and complementary practice, and the festival version is worse because there is no reception, no colleague next door, no booking system, and no employer — just you, a tent and somebody who booked an hour of unobserved access.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The L check: “Is this a client, or is somebody building a relationship inside an appointment?” — Frequency, disclosure and after-time are the three that tell you.
 

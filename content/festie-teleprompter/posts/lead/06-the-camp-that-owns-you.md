@@ -15,6 +15,8 @@
 
 “This one's L.E.A.D. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE CAMP THAT OWNS YOU”
@@ -24,6 +26,8 @@ Here's who you're dealing with. This page is for camp leads who may be running �
 
 Here's the scene. You care deeply about your camp and your members. You also have high standards for participation and strong views about what it means to be a good member of the community you have built. You have removed members who were not a good fit. You discourage members from talking about camp dynamics with people outside the camp. You feel that deep loyalty to the camp is an important value. These individually can be reasonable. Together they warrant examination.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Leaving the camp carries significant social cost — former members are characterized negatively
@@ -32,6 +36,8 @@ Watch for these signs.
 - Deep loyalty to the camp is valued above members' individual wellbeing and judgment
 
 Here's what's actually happening. High-control group dynamics in camps develop gradually and are usually invisible from the inside. The characteristics — discouraging outside input, penalizing exit, equating questioning with disloyalty, valuing camp loyalty above individual judgment — serve a genuine function for the person running the camp: they reduce conflict and maintain cohesion. They also prevent the accountability and self-correction that healthy communities require. If several of these are present in your camp, it is worth examining honestly.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The L check: “Can members of my camp leave freely, talk to outsiders freely, and question decisions freely, without a cost attached to any of it?” — a community that needs control to hold together isn’t a community. It’s a structure.
 

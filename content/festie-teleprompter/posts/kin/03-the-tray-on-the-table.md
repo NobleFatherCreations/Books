@@ -15,6 +15,8 @@
 
 “This one's K.I.N. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE TRAY ON THE TABLE”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Your camp, and the eleven adults in it who are all lovely and none of whom is thinking about a four-year-old's sight lines.
 
 Here's the scene. There is a tin on the low table with something in it, and a half-drunk cider at child height, and a bag on a chair. Your daughter is four and everything at that height is, to her, food. She has been putting things in her mouth for four years and nobody in this camp has had to think about that for a decade.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - “She won't touch it” offered as the safety measure
 
 Here's what's actually happening. Pediatric cannabis ingestion has risen sharply everywhere edibles have become common, and the reason is entirely mechanical: edibles look like sweets, a child's dose is a fraction of an adult's, and onset is delayed so the first sign is a small child who is unexpectedly unwell an hour later. At a festival the risk multiplies — more substances, more adults, more surfaces, and a medical tent rather than an emergency department. This is not a page about whether adults in your camp should use anything. It is a page about height.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The K check: “If I crouch to my child's eye level right now, what can I reach?” — Do it literally. It is a different camp from down there.
 

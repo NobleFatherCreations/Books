@@ -15,6 +15,8 @@
 
 “This one's R.A.V.E. — Community. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE DIFFERENCE BETWEEN BEING FOUND AND BEING COLLECTED”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The festival world is full of people who will ge
 
 Here's the scene. Two different people approached you this weekend in a warm way. One of them has shared their food, pointed you toward things you love, introduced you to people without hovering, and seemed genuinely happy when you went off to explore independently. The other has kept you close, subtly steered you away from other people, and seems slightly off when you exercise independence. Same warm opening energy. Very different underlying dynamic.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Real connection: glad when you explore independently, makes your world bigger
@@ -32,6 +36,8 @@ Watch for these signs.
 - Collection: needs you close, subtly discourages independence, warmth fluctuates with compliance
 
 Here's what's actually happening. The difference between genuine connection and being collected is not visible in the opening — it becomes visible in how the person responds to your independence. Genuine connectors are happy when you flourish without them. They celebrate your other connections. They don't need to be the center of your festival experience. Collectors need your orbit. They need your dependency. They need to be the source of your experience. Watch for that distinction over a full day.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The R check: “Is this person’s warmth consistent whether I’m being compliant or independent?” — that’s the whole test.
 

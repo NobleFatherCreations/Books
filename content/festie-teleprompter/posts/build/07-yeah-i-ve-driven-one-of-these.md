@@ -15,6 +15,8 @@
 
 “This one's B.U.I.L.D. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/build/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YEAH, I'VE DRIVEN ONE OF THESE”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Somebody who needs the work and has said yes to a question they should have said no to — usually not out of recklessness, but because admitting it on a site where everyone else seems to know what they are doing feels impossible.
 
 Here's the scene. He is on the telehandler moving a two-tonne load over a walkway and his movements are not right and everybody can see it and nobody is saying anything, because saying something means calling a man a liar in front of the crew. You are standing in the area he is swinging over.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/build/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - The site has no record of anybody's qualifications
 
 Here's what's actually happening. Plant, lifting and height work are ticketed for a reason and festival builds are one of the last places where nobody asks to see the ticket. The pressure runs both ways: an operator who overstates their experience is usually somebody who could not afford to lose the gig, and a crew that will not challenge it is protecting a man's dignity at the expense of everyone standing underneath. Neither of those is malice, and the outcome is the same as if it were.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/build/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The U check: “Has anybody actually seen this person's ticket?” — Assumed competence is not competence, and you are standing in the swing radius.
 

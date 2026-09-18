@@ -15,6 +15,8 @@
 
 “This one's R.O.O.T.S. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “SO WHAT HAVE YOU GOT”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Strangers, all weekend, who have decided what you are doing here before speaking to you. Sometimes it is a drinks order. Sometimes it is a bin bag handed to you. Sometimes it is somebody asking, very directly, what you are holding.
 
 Here's the scene. You are standing near the edge of a crowd, doing nothing, and a man comes up close and asks quietly what you have got. Then later somebody hands you an empty cup as though you were staff. Then somebody asks where the toilets are in the tone people use with stewards, and you are wearing exactly what everybody else is wearing.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Correcting it makes the other person embarrassed, and then annoyed
 
 Here's what's actually happening. Each instance is small and the pattern is not, and there is a specific risk hiding inside the most common version. Being repeatedly approached about substances by strangers puts you in conversations about drugs, in public, that you did not initiate and did not want — and undercover officers work festivals. A person who is approached fifteen times a weekend has fifteen chances to be observed having exactly the wrong conversation, and the observation does not come with the context that you were approached rather than approaching.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The R check: “Am I in a conversation I did not start, about something I am not doing?” — End it flatly and physically, not with an explanation.
 

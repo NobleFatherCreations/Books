@@ -15,6 +15,8 @@
 
 “This one's K.I.N. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “HE'S SO GOOD WITH KIDS”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Genuinely great with children, which is the difficult part of this page. Everybody's favourite. Has been coming for years, runs the games, remembers the kids' names between festivals, and is the first person anyone would defend.
 
 Here's the scene. Your daughter adores him. He does the face paint and the treasure hunt and he is the reason the family field is fun. He has started giving her small presents — a bracelet, a patch for her jacket — and asking for her specifically, and suggesting he take her to the workshop tent because you look tired, and the sentence forming in your head is that you would be insulting a good man to say no.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Universally liked, which means raising anything has a social cost
 
 Here's what's actually happening. Child sexual abuse is overwhelmingly committed by somebody the child and the family already know and trust, and the grooming literature describes a consistent sequence: access, then a special relationship with one child, then small secrets, then isolation. Every step looks like kindness and most of them, performed by most people, are kindness. That is exactly why safeguarding policy in every organization that works with children is built on rules about situations rather than judgments about people — because judging individuals is precisely what the pattern defeats, and because the people who are wrongly suspected and the people who are correctly suspected look identical from outside.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The N check: “Is an adult asking for time alone with my child?” — The answer is no, every time, regardless of who is asking. The rule is the protection. Assessing the person is not.
 

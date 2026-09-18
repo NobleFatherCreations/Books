@@ -15,6 +15,8 @@
 
 “This one's R.A.V.E. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WELCOME TO THE FAMILY”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The camp that seems perfect — tight community,
 
 Here's the scene. The camp found you on Friday — fed you, gave you shade, made you feel like you'd found your people. By Saturday they're talking about next year, about the regional events in between, about the "camp family" that extends year-round. It all sounds beautiful. Then you start noticing: people don't really leave the camp, questioning the camp leadership is gently but clearly not done, and the "contribution" expectations are more extensive than you understood when you arrived.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Camp leadership is not accountable in the same ways regular members are
@@ -32,6 +36,8 @@ Watch for these signs.
 - Commitment to the camp family extends far beyond the weekend without your full understanding
 
 Here's what's actually happening. Tight community in festival culture is real and beautiful. It also exists on a spectrum that includes high-control groups using festie aesthetics. The tells are always the same: is leadership accountable or above questioning? Are members free to leave? Are contribution expectations defined and mutual? Is dissent welcomed or managed? Real community answers yes to all of these. High-control groups answer no.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Am I free to leave this camp right now, without social cost?” — if that question makes you nervous to even ask, that nervousness is the answer.
 

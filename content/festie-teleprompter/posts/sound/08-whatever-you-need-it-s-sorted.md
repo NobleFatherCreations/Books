@@ -15,6 +15,8 @@
 
 “This one's S.O.U.N.D. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WHATEVER YOU NEED, IT'S SORTED”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The promoter, the tour manager, or the local fixer whose hospitality is unusually comprehensive and who never seems to want paying for that part of it.
 
 Here's the scene. The rider is fine and there is something else on the table that was not on it, and he says it is sorted, and this happens at every one of his shows. By the fourth booking you are aware that you look forward to his shows for a reason that is not the audience, and that the conversation about the fee has become a conversation you are less inclined to have.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You have stopped pushing on money and cannot say exactly when that started
 
 Here's what's actually happening. Supply is one of the oldest forms of leverage in this industry and it works without a single explicit exchange being proposed. It creates reciprocal debt, it degrades judgement during exactly the conversations where your judgement matters commercially, and it establishes a dependency that is tied to one relationship. It also builds an accumulating hold: somebody who has supplied you for two years knows things about your consumption that they can allude to, and that hold does not require any intention at the time to be usable later.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The N check: “Would I push as hard on this contract if the hospitality stopped?” — If the answer is yes, the hospitality is doing business.
 

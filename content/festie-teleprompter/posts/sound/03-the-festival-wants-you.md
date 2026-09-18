@@ -15,6 +15,8 @@
 
 “This one's S.O.U.N.D. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE FESTIVAL WANTS YOU”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The booking that changes significantly between o
 
 Here's the scene. "We're really excited to have you — you'll be on the Garden Stage, Saturday evening set, solid slot." You announce it, post it, your fans make plans. Two weeks before the show: "there have been some lineup adjustments — we've moved you to the Morning Stage, Sunday 11am." The ticket buyers for your slot have already made travel plans. Pulling out now costs you more than accepting the downgrade.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Details confirmed verbally don't match the written confirmation when it arrives
@@ -32,6 +36,8 @@ Watch for these signs.
 - Each change is framed as minor — the cumulative impact is significant
 
 Here's what's actually happening. Bait and switch bookings work by getting your public commitment before you have the details in writing. Once you've announced a show to your audience, backing out has real social and professional cost — which the promoter counts on. The protection is simple: nothing goes on your social media until you have the booking confirmation in writing, with all material details (stage, set time, date, fee) confirmed. No exceptions.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The S check: “Have I confirmed every material detail of this booking in writing before I announce it to my own audience?” — once you’ve announced it, the leverage in the negotiation is gone, and it’s gone in their favor.
 

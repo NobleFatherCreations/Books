@@ -15,6 +15,8 @@
 
 “This one's H.O.L.D. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOU CARE SO MUCH”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The attendee who identifies that you are caring,
 
 Here's the scene. You have been doing back-to-back shifts at the Harm Reduction tent and you are tired but still fully present with everyone who comes in. He has come by three times today — each time with a small question, each time staying a little longer to talk. The third time he says "I just feel so safe with you, I have never met anyone who listens like you do." He asks if you want to get a drink after your shift. Something about the sequence feels off but you cannot name it. You are also exhausted and the attention feels kind.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Multiple visits to your station with escalating personal rather than service-related conversation
@@ -32,6 +36,8 @@ Watch for these signs.
 - The line between appreciating your support and pursuing you personally starts to blur
 
 Here's what's actually happening. Staff and volunteers in caregiving roles at festivals — Harm Reduction, Rangers, medics, counselors — are specifically targeted by people who recognize that your role signals emotional availability, safety, and care. Those are genuine qualities. They are also qualities that certain people learn to use as a vector for access. The caregiving role creates a power dynamic you need to be aware of: you are in your element, you are giving, and some people use that specifically to get close.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The H check: “Am I maintaining the boundary between my care role and my personal availability?”
 

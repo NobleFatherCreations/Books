@@ -15,6 +15,8 @@
 
 “This one's L.E.N.S. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE CONSENT PRACTICE”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. For every shooter, from the phone in the crowd to the one with the laminate. None of this slows you down after the first weekend, and all of it is what separates a photographer people trust from one they warn each other about.
 
 Here's the scene. The whole practice is four habits and they take about three seconds each. The reason to build them now is that the moment you need them — somebody upset, somebody's partner asking, somebody who saw themselves on an account — is not a moment when you want to be inventing a policy.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Never post a stranger's face with a caption that mocks them
 
 Here's what's actually happening. Consent practice is what makes the difference between a photographer who gets access and one who gets asked to leave, and it compounds: people who have been treated well introduce you, tip you off, and let you shoot things nobody else gets to shoot. It is also the cheapest professional insurance available, because almost every media dispute at a festival starts with somebody who was photographed without being asked and had no way to reach the person who did it. Being findable is half the practice. Deleting on request is the other half, and it costs you one frame out of two thousand.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The N check: “If they asked me to delete this right now, would I do it without arguing?” — If the answer is no, you are treating the file as more important than the person, and you will eventually be the story.
 

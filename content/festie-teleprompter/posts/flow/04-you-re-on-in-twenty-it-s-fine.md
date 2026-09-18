@@ -15,6 +15,8 @@
 
 “This one's F.L.O.W. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOU'RE ON IN TWENTY, IT'S FINE”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The organizer with a running order, the troupe lead with a headcount, and — most often — you, doing the arithmetic about letting people down and arriving at the wrong answer.
 
 Here's the scene. Your shoulder went on the last rehearsal and you can feel it in a way that is new. You are on in twenty. There is no understudy because there is never an understudy. The set is four minutes. Four minutes is nothing. You have already decided you are doing it, and you are now assembling reasons, which is a different mental activity from deciding and it is worth noticing that you are doing it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Pulling out has a reputational price everyone can name
 
 Here's what's actually happening. Performing-arts and circus injury research keeps finding the same thing: the significant injuries are disproportionately not freak accidents but re-injuries and compensations, sustained by people who continued while compromised. The economics drive it — no cover, no sick pay, gigs awarded by reputation, and a culture that reads reliability as showing up regardless. In a festival context it is sharper still, because the gig is often unpaid or trade, so you are risking a shoulder for a wristband and the thing keeping you in the air is not money but not wanting to be the person who dropped out.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The O check: “Am I deciding, or justifying?” — If you are listing reasons, the decision already happened and it was not made by your judgment.
 

@@ -15,6 +15,8 @@
 
 “This one's R.A.V.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THIS WILL MAKE THE FESTIVAL”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The person who introduces you to substances at y
 
 Here's the scene. "You've never tried it? Oh you HAVE to — this is literally what the festival is for. Trust me, I've done this hundreds of times, I'll take care of you." You trust him. He seems experienced. You don't test it. You don't know your tolerance. You don't tell your friends what you took or when. Three hours later you're having the worst experience of your life in an unfamiliar place with a person you met 24 hours ago.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Pressured or encouraged to try something new without informed consent and preparation
@@ -32,6 +36,8 @@ Watch for these signs.
 - You don't know what you took or when, so you can't get appropriate help if needed
 
 Here's what's actually happening. First-time substance experiences in festival environments without preparation, testing, or a trusted sober support person are one of the highest-risk situations in the festie world. The person introducing you may have the best intentions and still set you up for a terrible experience. Informed consent means knowing what you're taking, what to expect, having tested it, having someone who knows what and when, and having the Harm Reduction tent location memorized.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The V check: “Can I get to my camp, the medical tent, and the exit right now without asking him?” — if not, slow down before the moment sweeps you somewhere you didn’t choose.
 

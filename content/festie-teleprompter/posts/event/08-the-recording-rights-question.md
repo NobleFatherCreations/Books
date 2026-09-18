@@ -15,6 +15,8 @@
 
 “This one's E.V.E.N.T. — Standards. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE RECORDING RIGHTS QUESTION”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Your event produces content — video, audio, ph
 
 Here's the scene. Your festival set videos are performing well on your YouTube channel. They are driving discovery for your next event. They are also generating streaming revenue through the platform's music content system. The artists in those videos were paid for their performance. They were not paid for the recording, the distribution, or the streaming revenue. Your standard booking confirmation contained a rights clause they did not negotiate. The content that is building your brand was created by people who are not sharing in its returns.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Sweeping recording rights clauses in standard booking confirmation language
@@ -32,6 +36,8 @@ Watch for these signs.
 - Social media content featuring artists used to promote future events without compensation
 
 Here's what's actually happening. The gap between what promoters legally own through standard contracts and what they ethically owe the artists who created the content is significant. Artists whose performances are recorded, distributed, and monetized are entitled to participate in that revenue. A recording rights clause buried in a booking confirmation is not the same as a negotiated agreement. The ethical standard is transparency about what you are doing with the content and fair participation for the people who created it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The V check: “Are the artists whose recordings I am using being compensated fairly for the commercial use I am putting that footage to?” — the content that builds your brand was created by artists. Treat their contribution accordingly.
 

@@ -15,6 +15,8 @@
 
 “This one's G.R.O.V.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THIS IS FATE, BABE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The Soulmate Architect. Knows your rising sign w
 
 Here's the scene. "I never come to this stage. I had a vision in ceremony last month about a woman in a red hat and here you are." He's holding your hands. Completely certain. You feel seen in a way that bypasses your brain and lands in your chest. By the fire he's planning the retreat in Oaxaca you'll do together. Something whispers this is fast. Something else says — but what if the universe actually did this?
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Spiritual or cosmic language to explain why YOU specifically were chosen
@@ -32,6 +36,8 @@ Watch for these signs.
 - Questioning the connection gets framed as blocking your own expansion
 
 Here's what's actually happening. Manufactured destiny wraps urgency in spiritual clothing. It bypasses your "wait, do I actually know this person" reflex by making the connection feel pre-decided — by the universe, by your higher selves. Slowing down starts to feel like betraying something sacred. Your pace is sacred. Your sovereignty over your own story is sacred. If the connection is real it will survive three days of verification instead of three hours.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The V check: “Do I actually know this person — or just the character they're performing this weekend?”
 

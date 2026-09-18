@@ -15,6 +15,8 @@
 
 “This one's H.O.M.E. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/home/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “I THINK THEY'RE TAKING SOMETHING”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. You, holding a worry you have not said out loud, about to have the conversation that will determine whether you hear anything true from them for the next ten years.
 
 Here's the scene. You are fairly sure. You have one conversation available before they go and two options for how to use it, and one of them ends with them telling you less forever. Everything in you wants to say do not take anything, and that sentence has a known effect, and the effect is not the one you want.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/home/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You would rather not know, and they can tell
 
 Here's what's actually happening. Abstinence-only messaging performs poorly at changing behaviour and performs actively badly at maintaining disclosure — a young person who believes you cannot hear it will simply stop telling you things, and you lose the visibility that was your only real protection. The evidence favours the opposite approach: accurate information, no lecture, and an explicit guarantee that calling you costs them nothing. This is the same conversation as the one earlier in this guide, applied to the specific thing you are most afraid of.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/home/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The M check: “Am I trying to get a promise, or trying to stay somebody they can tell the truth to?” — You can have one of those.
 

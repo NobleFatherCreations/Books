@@ -15,6 +15,8 @@
 
 “This one's M.A.R.K.E.T. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “BOOTH PLACEMENT AS PUNISHMENT”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The promoter or market organizer who uses booth 
 
 Here's the scene. You raised concerns about an electricity fee discrepancy in a vendor group last season — politely, with documentation, requesting the refund you were owed. This season's placement confirmation arrives: spot 52, far corner, partial shade, foot traffic rated poor on the organizer's own map. Last season you were in spot 8. Nothing has changed about your product or professionalism. Everything has changed about your willingness to be quiet.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Placement quality drops significantly after you raised a legitimate concern
@@ -32,6 +36,8 @@ Watch for these signs.
 - You feel that raising future concerns would cost you even more placement quality
 
 Here's what's actually happening. Placement retaliation is a control mechanism that works because it is hard to prove and because the cost of fighting it feels higher than the cost of compliance. The organizer has plausible deniability — placement decisions involve many factors. The counter is documentation of the pattern across multiple events and multiple vendors, and building relationships with other organizers so your circuit access does not depend on any one event.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The K check: “Am I staying quiet about legitimate concerns because I am afraid of what it will cost my placement next season?” — an organizer who punishes standards is telling you exactly who they are.
 

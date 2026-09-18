@@ -15,6 +15,8 @@
 
 “This one's E.V.E.N.T. — Responsibility. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOU HIRED THEM, YOU OWN THEM”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. A security company that you engaged, whose staff you did not select, did not brief on your values, and whose conduct the public will attribute entirely to your event.
 
 Here's the scene. Two complaints come through about the same door team — a search that was handled badly, and someone spoken to in a way that was not acceptable. They are not your employees. They are wearing lanyards with your logo on them, and to everybody who was there they are your festival.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You have never checked licensing, or spoken to the guards yourself
 
 Here's what's actually happening. Security are the most physically interventionist people on site and usually the least integrated into the event's stated values, because they arrive as a contracted service rather than as part of the team. Attendees do not distinguish: a bad search or an aggressive ejection is remembered as something your festival did. The fix is contractual and procedural — brief them as staff, set the standards in the contract, and provide a complaints route that does not run through the company being complained about.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The N check: “Can an attendee complain about a guard to someone who does not work for the security company?” — If not, you will never hear about it and it will continue.
 

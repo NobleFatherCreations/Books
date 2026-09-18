@@ -15,6 +15,8 @@
 
 “This one's P.R.I.D.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE ALLY WHO IS NOT”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The person who performs allyship loudly and spec
 
 Here's the scene. He has the progress pride flag on his tent. He knows all the right language. He talks about his queer friends, the spaces he has worked at, the causes he supports. He feels like one of the safer people in the festival — someone who gets it. By Saturday night he is pushing past limits you have named in ways that someone who actually understood the culture would never do. The vocabulary was fluent. The behavior was not.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Their allyship is loud and demonstrative — performed for an audience rather than lived quietly
@@ -32,6 +36,8 @@ Watch for these signs.
 - When you name a limit they use queer language to argue against it — "but this is a liberated space"
 
 Here's what's actually happening. Performative allyship in festival contexts is a specific form of credential costuming — using the aesthetics and language of queer culture to manufacture trust that their actual behavior does not warrant. Real allies do not need to announce their allyship. Real allies follow your lead about what you need and want. Real allies do not use the language of liberation to override your limits. The vocabulary is easy to learn. The behavior is what matters.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The R check: “Does this person’s behavior match their stated values — or is the language the whole performance?” — vocabulary is cheap. Watch what they actually do.
 

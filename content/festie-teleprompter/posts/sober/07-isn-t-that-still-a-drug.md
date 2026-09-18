@@ -15,6 +15,8 @@
 
 “This one's S.O.B.E.R. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “ISN'T THAT STILL A DRUG”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Somebody in your own corner — a recovery acquaintance, a camp mate who is proud of you, occasionally someone with a strong opinion about a programme — who has appointed themselves the judge of whether your sobriety counts.
 
 Here's the scene. You take your prescribed medication in front of the camp, as you do every day, and somebody asks what it is. Then asks whether that is allowed. Then says, not unkindly, that they thought you were clean, and you find yourself standing in a field defending a prescription to a person with no medical training and considerable confidence.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - The same person is relaxed about their own caffeine, nicotine or painkillers
 
 Here's what's actually happening. Medication-assisted treatment and psychiatric prescriptions are medicine, and the evidence for them is strong — but purity narratives inside some recovery cultures treat them as a compromised form of sobriety, and the result is people quietly skipping doses to stay socially legitimate. That is the actual harm here and it is a serious one: interrupted psychiatric medication at a festival, with no sleep and heavy sensory load, is a genuine risk of crisis, and interrupted substitution treatment carries a risk of return to use with reduced tolerance.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The R check: “Has my prescriber said this is fine?” — That is the only opinion in this conversation that has any standing.
 

@@ -15,6 +15,8 @@
 
 “This one's R.O.O.T.S. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “CAN I JUST TOUCH IT”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Frequently a stranger, frequently delighted, frequently already reaching while asking — which means the question was decorative. Often drunk, often a woman, often genuinely baffled that this lands badly.
 
 Here's the scene. Her hand is already in your hair. She is saying it is amazing and asking how you get it like that and whether it is all yours, and three people are watching and smiling, and the entire social weight of this moment is arranged so that the rude person in it would be you. You have about two seconds and the good options all cost something.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Reacts to a no as though you have been unkind to them
 
 Here's what's actually happening. Unsolicited touching is a boundary violation regardless of intent, and the specific version aimed at Black women's hair is documented well enough to have prompted its own body of workplace and school policy. The mechanism at a festival is the environment: everyone is close, warm, uninhibited and touching each other constantly, which supplies a ready-made explanation for the contact and makes objecting feel like importing outside-world rules into a space that is supposed to be free of them. That framing is the problem. A culture of physical affection is consent-based or it is not a culture of affection, it is just a culture where some people get touched.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The O check: “Did the question stop the hand?” — If the hand kept moving, it was not a question, and you owe it nothing.
 

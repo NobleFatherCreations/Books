@@ -15,6 +15,8 @@
 
 “This one's H.O.L.D. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOU CAN HANDLE MORE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The slow drain of giving at high emotional inten
 
 Here's the scene. You are into your third consecutive shift covering for a no-show. You have supported four difficult situations today — one overdose response, two bad trips, one assault disclosure. You are still showing up fully for every person who comes in. But something has shifted in how you are receiving their experiences — they are landing differently. You feel numb where you used to feel present. You are performing care rather than actually giving it. And you have not told anyone because there is nobody to cover you.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Emotional numbness in situations that would previously have moved you
@@ -32,6 +36,8 @@ Watch for these signs.
 - Intrusive thoughts about difficult situations encountered during your shifts
 
 Here's what's actually happening. Compassion fatigue is a recognized occupational hazard for anyone in sustained caregiving roles. It is not weakness. It is a physiological response to extended high-intensity emotional labor. Festival caregiving compresses what might be a week of a therapist's caseload into a single shift. The culture that says "just one more shift" and "the event needs you" is the same culture that burns out its best volunteers. Your wellbeing is not optional. It is what makes you effective.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The H check: “Am I actually present with the people I am supporting — or am I running on empty and performing presence I don’t actually have?” — you cannot give what you do not have. Recovery is the job, not a luxury outside it.
 

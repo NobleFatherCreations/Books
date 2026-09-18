@@ -15,6 +15,8 @@
 
 “This one's G.R.O.V.E. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THAT'S NOT WHAT HAPPENED”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The Revisionist. What happened last night is now
 
 Here's the scene. You wake up feeling wrong. Something happened that didn't feel right and you're trying to piece it together. You bring it up. He's completely calm: "You were into it, babe. You said you wanted to come to the tent." You're not sure of the full timeline but you're sure of the feeling. He looks at you like you're confused. "I think you just need water. You always get like this coming down." Now you're wondering if he's right.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Your memory is disputed with calm authority — not anger, but certainty
@@ -32,6 +36,8 @@ Watch for these signs.
 - You leave more uncertain about your own experience than when you started
 
 Here's what's actually happening. Gaslighting makes you the unreliable narrator of your own life. In a festival context it has bonus ammunition: substances, sleep deprivation, emotional openness, time distortion all genuinely affect recall — creating plausible deniability. But your body holds memory that your conscious mind loses. If your nervous system says something is wrong, that signal is real data — even when you can't reconstruct a perfect timeline. You do not need a perfect memory to know something happened.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The G check: “My body is the first source of information. If it feels wrong — that's real.”
 

@@ -15,6 +15,8 @@
 
 “This one's S.A.F.E. — Hydration. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WATER BEFORE YOU ARE THIRSTY”
@@ -24,6 +26,8 @@ Here's who you're dealing with. By the time you feel thirsty at a festival you a
 
 Here's the scene. It is 2pm Saturday and it is hot. You have been dancing since 11am. You have had one bottle of water and three sips from someone else's hydration pack. You feel fine — energized actually, slightly euphoric. That feeling is not a reliable indicator of your hydration status. By the time the headache hits and you start feeling off your balance you are already significantly behind. The medical tent is about to get busy because you are not the only one.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Drink water consistently throughout the day — at least 500ml per hour in heat and while dancing
@@ -32,6 +36,8 @@ Watch for these signs.
 - Signs of heat stroke — EMERGENCY: hot red dry skin, no sweating, confusion, loss of consciousness
 
 Here's what's actually happening. Festivals combine multiple dehydration risk factors simultaneously: physical exertion from dancing, sun and heat exposure, alcohol and stimulant use (both increase fluid loss), and environments that make stopping to drink feel inconvenient. Heat exhaustion is common and treatable. Heat stroke is a medical emergency that kills people. The difference between them is speed of treatment. Know the signs. Act early. The medical tent is there specifically for this.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The F check: “Do I know where the medical tent is — and have I actually had enough water in the last hour?”
 

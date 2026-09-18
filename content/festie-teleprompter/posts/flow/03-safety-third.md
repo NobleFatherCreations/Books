@@ -15,6 +15,8 @@
 
 “This one's F.L.O.W. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “SAFETY THIRD”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Not a person — a room. The collective eye-roll when someone asks for a safety brief. The laugh when you check your fuel. The lightly impatient veteran waiting while you do a rig inspection everybody else skipped.
 
 Here's the scene. You are about to burn. The safety is a guy you met an hour ago who is holding a duvetyne blanket like it is a beach towel, and when you ask whether he has done this before he says yeah, loads, and looks at his phone. The circle is waiting. Asking again in front of everyone would make you the difficult one. You have about four seconds to decide whether being the difficult one is worse than the other thing.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - The social cost of pausing is visibly higher than the cost of proceeding
 
 Here's what's actually happening. Normalized deviance is the documented process by which a group repeatedly gets away with skipping a step until the skipped step becomes the standard. Every fire and aerial community runs on it to some degree, because the consequence is rare and the friction is constant, and the people most exposed are the newest — who have the least standing to pause and the most to lose by being seen as green. The joke is doing real work here: it pre-frames anyone who insists on the check as humorless, which means the insisting costs something, which means fewer people insist. That is not culture, it is a mechanism, and it runs whether or not anybody in the circle intends it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The F check: “Have I personally checked my fuel, my depot, and my safety — by asking them what they would do?” — Secondhand assurance is not a check.
 

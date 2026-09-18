@@ -3,6 +3,8 @@
 
 *A spoken-word teleprompter script — one scenario at a time, ready to read straight to camera.*
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/cover.png`]** — video open — type this video's scenario/section title into the blank bottom third before recording, then hold or fade from it.
+
 **Quick shoutout before we start:** every scenario in this guide — and 259 more across the other twenty guides — lives free at **www.noblefathercreations.com/festival**.
 
 This is L.E.A.D.: Camp Leads & Organizers Edition. The power you hold in your camp is real. Use it to protect people, not to own them.
@@ -29,6 +31,8 @@ Here's who this is. Camps recruit new members every season. The pitch — commun
 
 Picture this. You recruited twelve new members this season. The pitch was warm, the infrastructure is real, and most of them are having a genuinely good experience. Three of them are doing significantly more camp labor than others and seem reluctant to raise concerns. One new member has been spending most of their time with a senior camp member in ways that look more like dependency than connection. You have not looked closely at these dynamics because camp is running well overall.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - New members doing disproportionate labor compared to senior members without discussion
@@ -37,6 +41,8 @@ Here are the signs.
 - Camp culture that treats questioning the leadership as disloyalty rather than healthy input
 
 Here's the mechanism underneath it. Camp leaders are often the last to see problematic dynamics because they are managing the whole operation and because the overall experience is positive. The patterns to watch for in your own camp are the same ones that signal predatory structures in other contexts: unequal contribution without discussion, reluctance to raise concerns, dependency dynamics, and cultures that treat questioning as betrayal. Your camp is only as healthy as what you are willing to look at.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The L check: “What dynamics in my camp am I avoiding looking at because things are running well overall?”
 
@@ -57,6 +63,8 @@ Let's talk about who does this. Someone in your camp is causing harm to other me
 
 Here's how it plays out. A newer member comes to you with a concern about someone who has been in the camp for four years. She is specific about what she observed and what happened to her. You believe her. You also know that the person she is describing is one of your most reliable camp contributors, is well-liked, and has been part of the community for years. The situation has no easy resolution. But it does have a right next step.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - A member with concerns is coming to you directly — this is the outcome of the trust you built
@@ -65,6 +73,8 @@ Watch for these.
 - The understanding that how you respond right now defines your camp culture permanently
 
 Here's what's really going on. Every camp leader will eventually face a situation where a trusted and integrated member has caused harm. The response to that situation defines the camp culture more than any other single event. Camps that protect long-standing members at the expense of the people they harmed build a culture where harm is tolerated when the person causing it is valuable enough. Camps that hold everyone to the same standard build a culture where people feel genuinely safe to report.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The L check: “Am I responding to this in a way that protects the person who came to me — or the person the report is about?” — the standard you set when it’s hard is the only standard that actually matters.
 
@@ -85,6 +95,8 @@ Here's who you're dealing with. Camp culture is built by what you reward, what y
 
 Here's the scene. Your camp has a norm of not talking about what happens in camp outside camp. It started as a way to protect privacy and maintain a sense of internal safety. Over time it has also functioned as a way to prevent accountability — things that happen in camp stay in camp because "that's our culture." Someone who was harmed by a camp member felt they could not report it externally because of this norm. The norm that was meant to protect people is now protecting the person who harmed them.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Privacy norms that function as reporting suppression
@@ -93,6 +105,8 @@ Here's what to watch for.
 - Norms that make it harder rather than easier to raise concerns or exit the camp
 
 Here's what's actually happening. Every camp norm was created for a reason and serves a function. The question is whether the function it currently serves is the one it was created for — or whether it has evolved into a protection mechanism for the camp's reputation rather than its people. Privacy norms that prevent reporting, loyalty norms that suppress dissent, contribution norms that extract labor — all of these start somewhere reasonable and can drift somewhere harmful. Examining your norms honestly is camp leadership.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The E check: “Do my camp’s norms make it easier or harder for members to raise concerns and seek help when something has gone wrong?” — the norms you build in calm times are the ones that show up in the hard ones.
 
@@ -117,6 +131,8 @@ Here's who this is. The specific dynamic where a camp founder or long-standing l
 
 Picture this. You have run this camp for seven years. You have poured extraordinary amounts of time, money, and love into building it. You know the infrastructure better than anyone. You also notice that your decisions rarely get questioned, that members seem careful about how they raise concerns with you, and that the last two people who pushed back significantly on a camp decision are no longer in the camp. You tell yourself they were not a good fit. You have not considered whether there is a pattern.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Decisions are made unilaterally and questioning them is received as ingratitude or disloyalty
@@ -125,6 +141,8 @@ Here are the signs.
 - The camp's accountability structures apply to members but not clearly to you
 
 Here's the mechanism underneath it. Founder syndrome in camp culture is the accumulation of unchecked authority over time — a process so gradual it is often invisible to the person experiencing it. The camp leader who started with genuine community intention can become, through years of carrying the weight of the camp, someone who confuses their investment in the camp with ownership of it and ownership of the people in it. The antidote is structural: accountability that includes you, decision-making that includes others, and the willingness to hear things about yourself that are hard.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The E check: “Am I accountable to my camp in the same ways my camp members are accountable to me?”
 
@@ -145,6 +163,8 @@ Let's talk about who does this. Camp leads who provide housing, infrastructure, 
 
 Here's how it plays out. You provided accommodation and festival access to six members of your camp. You did this generously and genuinely. You also notice that the members whose accommodation you control raise concerns less often, agree with your decisions more consistently, and seem to navigate their interactions with you more carefully than others. You have not used housing as leverage explicitly. But the dynamic it creates is real regardless of your intentions.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Members whose accommodation or access you control behave differently from those who are independent
@@ -153,6 +173,8 @@ Watch for these.
 - Your decisions as a camp lead are harder to push back on when members depend on you for basics
 
 Here's what's really going on. Resource control creates leverage regardless of intent. When members depend on you for housing, festival access, or other basics, the power differential is real even if you never use it deliberately. People who need something from you will navigate that need carefully — which means raising concerns carefully, agreeing more often than they might otherwise, and staying in situations they might leave if they were independent. Acknowledging this dynamic is the beginning of mitigating it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The A check: “Do the members who depend most on what I provide feel the most or least free to push back on me when something’s wrong?” — generosity that creates dependency isn’t generosity. It’s leverage that happens to be warm.
 
@@ -177,6 +199,8 @@ Here's who you're dealing with. This page is for camp leads who may be running �
 
 Here's the scene. You care deeply about your camp and your members. You also have high standards for participation and strong views about what it means to be a good member of the community you have built. You have removed members who were not a good fit. You discourage members from talking about camp dynamics with people outside the camp. You feel that deep loyalty to the camp is an important value. These individually can be reasonable. Together they warrant examination.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Leaving the camp carries significant social cost — former members are characterized negatively
@@ -185,6 +209,8 @@ Here's what to watch for.
 - Deep loyalty to the camp is valued above members' individual wellbeing and judgment
 
 Here's what's actually happening. High-control group dynamics in camps develop gradually and are usually invisible from the inside. The characteristics — discouraging outside input, penalizing exit, equating questioning with disloyalty, valuing camp loyalty above individual judgment — serve a genuine function for the person running the camp: they reduce conflict and maintain cohesion. They also prevent the accountability and self-correction that healthy communities require. If several of these are present in your camp, it is worth examining honestly.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The L check: “Can members of my camp leave freely, talk to outsiders freely, and question decisions freely, without a cost attached to any of it?” — a community that needs control to hold together isn’t a community. It’s a structure.
 
@@ -205,6 +231,8 @@ Here's who this is. Whoever collects for the generator, the truck, the food, the
 
 Picture this. Everyone pays in two hundred at the start of the season and nobody has ever seen a spreadsheet. It is almost certainly fine. It is also the reason that when somebody wants to leave the camp, or disagrees with him about something, there is an unspoken question about what happens to what they have put in, and nobody asks it out loud.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - One person collects and spends with no reporting
@@ -215,6 +243,8 @@ Here are the signs.
 - Asking about it would be treated as an accusation
 
 Here's the mechanism underneath it. Camp money is usually handled by a trusted person acting in good faith, and the problem is structural rather than moral: unaccounted collective funds create an exit cost that nobody can name, and an exit cost is leverage whether or not anybody intends to use it. It compounds with the housing-as-leverage dynamic elsewhere in this guide — if the same person controls where you sleep, what you have paid in, and the assets you helped buy, then disagreeing with them has a price that is real and unquantifiable, which is the worst combination.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The E check: “Could any member see where the money went, without asking a favour?” — If not, trust is doing a job that a spreadsheet should be doing.
 
@@ -239,6 +269,8 @@ Let's talk about who does this. This page is practical. Specific structures that
 
 Here's how it plays out. The briefing before gates open is the most important ten minutes of the festival. What you say in that briefing — and what structures you establish in it — shapes what members feel able to do and say for the entire weekend. The camps with the best safety records are not the ones with the most rules. They are the ones where the culture of safety is established before anything difficult has happened.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Pre-festival briefing: consent expectations, reporting process, code words, daily check-in times
@@ -247,6 +279,8 @@ Watch for these.
 - Post-festival debrief: what happened, what worked, what needs to change next season
 
 Here's what's really going on. The structures you build before the festival are the ones that work during it. A reporting process established in a calm briefing is infinitely more useful than one improvised in a crisis. A designated safety contact who is not you means members have a path for concerns about your behavior as well as others. A code word system means members can signal for help without having to explain themselves in the moment. These are not elaborate systems — they are ten minutes of planning that change everything.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The A check: “Have I built safety infrastructure into my camp that works even when I am the problem?”
 
@@ -267,6 +301,8 @@ Here's who you're dealing with. You, holding a decision you have already made an
 
 Here's the scene. You know he cannot come back. You have known since August. What you do not have is a way of saying it that does not turn into a two-hour argument in front of the camp, or a group chat meltdown, or him turning up anyway because nothing was ever said clearly enough to be enforceable.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - The decision is made and only the delivery is missing
@@ -277,6 +313,8 @@ Here's what to watch for.
 - You are planning to do it in person, alone, at the event
 
 Here's what's actually happening. Most camp exclusions go badly for procedural reasons rather than emotional ones: delivered verbally, at the event, by one person, with no written basis and no defined scope, which makes them arguable, unenforceable and humiliating for everyone present. Every organization that does this well does the same four things — decide off-site, deliver in writing, be specific and short about what and for how long, and do not debate. The last one is the hardest and the most important: the decision is not being negotiated, it is being communicated.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The A check: “Is this decided, and is it written down?” — If it is not written, it is a disagreement rather than a decision, and it will be treated as one.
 
@@ -297,6 +335,8 @@ Here's who this is. You, holding a disclosure from one camp member about another
 
 Picture this. She told you what happened on Friday. He has been your friend for nine years. You are now the investigator, the judge, the friend of both parties and the person who has to keep this camp functioning for another two days, and you have no idea what you are doing.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - You are close to both parties and there is no independent person
@@ -307,6 +347,8 @@ Here are the signs.
 - The reporting person has asked you not to do anything
 
 Here's the mechanism underneath it. Camp leads are handed reports with none of the structure that makes handling them possible, and the two most common instincts are both wrong. Mediation — getting both parties in a room — is actively harmful where there is any power imbalance or alleged harm, because it requires the person who was harmed to negotiate with the person who harmed them. And investigating, in the sense of establishing the truth, is not your role and you are not equipped for it; your role is immediate safety, accurate notes, and routing it to someone independent.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The L check: “Am I trying to find out what really happened?” — That is not the job. Safety, notes, and handing it on is the job.
 
@@ -331,6 +373,8 @@ Let's talk about who does this. This final page is about what it looks like when
 
 Here's how it plays out. The best camp leads you know have several things in common: they take concerns seriously regardless of who brings them. They hold themselves to the same standards they hold their members. They have built ways for members to push back on their decisions. They have removed people from their camps when those people caused harm — even when it was complicated. They are honest about the limits of their own judgment. They debrief after hard weekends and make changes.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Takes concerns seriously and follows up on every single one regardless of who brought it
@@ -339,6 +383,8 @@ Watch for these.
 - Makes decisions about camp membership based on behavior not on seniority or contribution
 
 Here's what's really going on. Genuine camp leadership is a practice of consistent accountability — to your members, to the community, and to yourself. The camp leads who build the safest camps are not the ones who have the best rules. They are the ones who model what accountability looks like, who take the same risks with their own behavior that they ask their members to take, and who treat every person in the camp as someone whose wellbeing they are genuinely responsible for.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The D check: “When I look at my camp honestly — am I the kind of leader I would want my members to describe honestly, if they were asked?” — the best camp lead isn’t the one who never gets it wrong. It’s the one who keeps working to get it more right.
 

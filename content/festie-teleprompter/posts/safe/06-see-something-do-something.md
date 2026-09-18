@@ -15,6 +15,8 @@
 
 “This one's S.A.F.E. — See Something. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “SEE SOMETHING — DO SOMETHING”
@@ -24,6 +26,8 @@ Here's who you're dealing with. At some point this weekend you will see somethin
 
 Here's the scene. You are walking between stages and you see a woman sitting with a man who seems agitated. Her body language is closed. He is leaning into her space and she is looking at the ground. You are not sure if it is anything. You almost keep walking because you do not want to assume, do not want to make it weird, do not want to be wrong. But something caught. This is the moment. This is the one. You have three options and they all take less than two minutes.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - THE DISTRACTION: walk up like you know her — "Oh my god, there you are! I have been looking everywhere for you!"
@@ -32,6 +36,8 @@ Watch for these signs.
 - You do NOT have to confront the person causing concern — that is not required and not always safe
 
 Here's what's actually happening. The most effective bystander interventions are the subtle ones — the distraction approach changes the social dynamic without confrontation and gives the person an exit without escalation. You do not have to be certain something is wrong to intervene. You do not have to be a hero. You just have to be the person who showed up. The festival community is only as safe as what each individual does in the moment they notice something.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The S check: “What did I actually see — and which of the three moves fits this situation?”
 

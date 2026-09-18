@@ -15,6 +15,8 @@
 
 “This one's P.R.I.D.E. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “RELATIONSHIP PRESSURE IN A SMALL COMMUNITY”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The specific dynamic where queer relationships a
 
 Here's the scene. You tried to end things with her Saturday morning but she knows everyone in the queer camp you are both staying in. By Saturday afternoon the social fabric of the camp has shifted in ways that feel like pressure — people are slightly colder, you feel like the conversation about what happened is happening without you. Leaving the situation means leaving the camp and the community and the access to the people you came here with. The exit has a cost she knows about.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Your social world at the festival is so intertwined with theirs that exit has a high social cost
@@ -32,6 +36,8 @@ Watch for these signs.
 - Ending the dynamic means losing access to people and spaces you care about
 
 Here's what's actually happening. Small, visible queer communities at festivals create specific social pressures around relationship dynamics — everyone knows everyone, reputation travels fast, and the social cost of a difficult ending can feel like losing the whole community. This is the social infrastructure that some people deliberately use to make exit feel impossible. You are not obligated to stay in any dynamic because exit has a social cost. The community that requires you to stay in a bad situation to belong is not your community.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Can I leave this dynamic freely — or does leaving come with social costs that are being used to keep me in it?” — a cost attached to leaving is the whole design.
 

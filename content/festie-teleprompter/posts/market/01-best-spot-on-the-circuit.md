@@ -15,6 +15,8 @@
 
 “This one's M.A.R.K.E.T. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “BEST SPOT ON THE CIRCUIT”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The event promoter who controls your placement, 
 
 Here's the scene. The pitch was perfect: high-foot-traffic spot near the main stage, 2,000 attendees, electricity included. You paid the $800 vendor fee two months out. You arrive to find your spot is behind the food trucks, electricity needs an additional $150 hookup fee nobody mentioned, and the 2,000 attendee number was from three years ago. When you raise it he reminds you with a smile that the vendor fee is non-refundable.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Placement promises made verbally — not written into the vendor agreement
@@ -32,6 +36,8 @@ Watch for these signs.
 - Complaints are met with the reminder that you have already paid
 
 Here's what's actually happening. Vendor fee manipulation relies on the non-refundable deposit to eliminate your leverage once you have committed. The bait-and-switch is a known and widespread practice on the festival vendor circuit. Your only real protection is what is written down before you pay. If it is not in the vendor agreement it did not happen and you have no recourse. Research every promoter in Facebook vendor groups and Indie Craft Experience forums before you commit. The circuit has a long memory for bad promoters.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The M check: “Is the placement, the attendance number, and every fee in writing — or just verbally promised by someone with every reason to over-promise?” — a great pitch that isn’t in writing is just a story.
 

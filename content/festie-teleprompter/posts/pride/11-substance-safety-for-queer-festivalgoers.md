@@ -15,6 +15,8 @@
 
 “This one's P.R.I.D.E. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “SUBSTANCE SAFETY FOR QUEER FESTIVALGOERS”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The queer festival community has a specific rela
 
 Here's the scene. The substances circulating in queer festival spaces are sometimes the same as the general festival supply and sometimes very different — GHB and GBL in particular circulate more commonly in some queer party contexts and have specific risks that are worth knowing. You cannot always know what you are taking or what is in it. Testing, dosing carefully, and having people who know what you took and when are not party-killing measures. They are what makes the party survivable.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - GHB and GBL: very narrow margin between recreational dose and overdose — start extremely small
@@ -32,6 +36,8 @@ Watch for these signs.
 - Know your sober or sober-ish buddy — someone who knows what you took and when
 
 Here's what's actually happening. GHB and GBL are more commonly found in some queer party contexts than in general festival settings. They have a very narrow therapeutic window — the difference between a recreational dose and a dangerous dose is small, and combining either with alcohol significantly increases the risk of overdose and unconsciousness. Testing is harder for these substances than for others — reagent kits have limited effectiveness. Starting with an extremely small amount and waiting is the most important harm reduction step.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The D check: “Do I know what is in what I am taking — and does someone sober know what I took and when?” — if nobody sober knows, nobody can help you if it goes wrong.
 

@@ -15,6 +15,8 @@
 
 “This one's S.O.U.N.D. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE CHECK'S COMING”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Getting paid what you were promised, on the time
 
 Here's the scene. "The accounting is still getting sorted — it'll be in your account by end of month." End of month: "we had some unexpected costs with the event, we're going to need to adjust the final payment." Or: the merch sales from your table were handled by their team and the reconciliation is $800 short of what you counted. Or: your 50% deposit never arrived but your show is tomorrow and the flights are booked.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Deposit due before show hasn't arrived and you're too committed to pull out
@@ -32,6 +36,8 @@ Watch for these signs.
 - "Unexpected costs" appear after the show as reasons for reduced payment
 
 Here's what's actually happening. Cash flow manipulation benefits the promoter while your leverage decreases once you've performed. That's why deposits exist. Get them before you travel. Count your own merch. Send a payment reminder email with terms on Day 1 after the show. Paper trail everything. Most non-payers rely on artists being too tired or too non-confrontational to pursue it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The D check: “Do I have documentation of everything agreed financially — so I have something to point to when the money doesn’t show up on time?” — you performed. You get paid what was agreed. This is completely enforceable.
 

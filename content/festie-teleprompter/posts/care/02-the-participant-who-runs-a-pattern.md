@@ -15,6 +15,8 @@
 
 “This one's C.A.R.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE PARTICIPANT WHO RUNS A PATTERN”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Most people who come to a Harm Reduction tent ar
 
 Here's the scene. He has been to the tent four times this weekend. Each visit, the stated reason shifts. He is articulate and charming and good at triggering the care response. You have given him supplies, information, quiet space, and extended conversations. On the fourth visit you notice: he is asking detailed questions about other participants who have come through the tent. He seems interested in the staff schedule. His affect when he thinks nobody is watching is different from his affect when he is being supported.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Multiple visits with shifting or evolving presentations of the support need
@@ -32,6 +36,8 @@ Watch for these signs.
 - Noticeably different affect when they think they are not being directly observed
 
 Here's what's actually happening. People who want to gather information about vulnerable attendees, access resources beyond what is appropriate, or build proximity to care staff will use the Harm Reduction tent to do it because the tent is specifically designed to receive people without judgment. Noticing patterns is not being judgmental. It is safeguarding. Your gut when something is off is data. Document it and name it to your team lead.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/care/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The R check: “Is the pattern of this person’s engagement consistent with genuine support seeking — or does it track more closely with something else entirely?” — discernment is as much a part of this role as compassion.
 

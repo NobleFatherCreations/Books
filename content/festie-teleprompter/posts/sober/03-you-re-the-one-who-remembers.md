@@ -15,6 +15,8 @@
 
 “This one's S.O.B.E.R. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOU'RE THE ONE WHO REMEMBERS”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The whole group, gradually and without a conversation. Because you are the one who is sober, you become the one with the keys, the map, the phone battery, the plan, the medical decisions, and everybody's emergency.
 
 Here's the scene. It is two in the morning and you are walking a stranger to medical because you are the only one upright enough to do it. This is the third night running. You came here for the music and you have seen about forty minutes of it, and somebody said earlier, as a compliment, that it is so good having you around because you always know what to do.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Resenting it makes you feel like a bad friend, so you do not mention it
 
 Here's what's actually happening. Care work assigned by default rather than agreement is a well-documented route to burnout, and the festival version is unusually total: you are the group's driver, medic, treasurer, and institutional memory simultaneously, at exactly the time of year you came to enjoy yourself. It matters more than it sounds. Resentment plus exhaustion plus not having had any of the thing you came for is a genuinely recognized relapse-risk combination, and it builds quietly because the role arrives as a compliment. Choosing to look after your people is one of the good things about being the sober one. Being silently conscripted is not the same act.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The B check: “Did I agree to this role, or was it assigned to me because I'm the one who'll remember?” — Those produce the same behaviour and completely different costs.
 

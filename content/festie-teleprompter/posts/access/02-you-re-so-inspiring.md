@@ -15,6 +15,8 @@
 
 “This one's A.C.C.E.S.S. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOU'RE SO INSPIRING”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Approaches with enormous warmth and a compliment about your existence rather than anything you did. Talks about your courage within ninety seconds of meeting you. Wants to tell you what seeing you here means to them, at length, and wants you to receive it.
 
 Here's the scene. You are in the line for water. A woman you have never met takes your hand — takes it, does not ask — and tells you that seeing you out here has genuinely changed her whole weekend, that she was complaining about the walk and then she saw you, and she just had to say it. She is crying a little. Three people are watching. You have about four seconds to decide whether to be gracious about a thing you did not agree to.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Reacts badly to a flat “thanks” — the gratitude is what was being purchased
 
 Here's what's actually happening. Inspiration framing converts a person into a symbol, and symbols do not get to have boundaries. Once you are a source of someone's uplift, declining anything reads as cruelty — you are refusing to be the good thing that happened to them today. It is usually not predatory. It is usually a person feeling something clumsily out loud. But it does exactly the same work as a deliberate opening move: it establishes touch without consent, creates an audience that expects grace from you, and installs a debt in a stranger's favor inside two minutes. People who are running something deliberate use it because it works, and because the follow-up — I just feel a connection with you — is already half-built.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Is this about something I did, or about what my existence is doing for them?” — Warmth about your work is a compliment. Warmth about your existence is a job you did not apply for.
 

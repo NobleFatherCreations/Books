@@ -15,6 +15,8 @@
 
 “This one's G.R.O.V.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “GOOD VIBES ONLY”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The PLUR Police. Uses the language and values of
 
 Here's the scene. "I thought you were an open person." Said softly. Disappointed. You just said you didn't want to go back to his camp. "This festival is about releasing ego. Your resistance is just fear — I'm not pushing you, I just think you're blocking your own growth." You didn't feel blocked. You felt managed. But now you're wondering if he's right.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Your "no" is reframed as your trauma, ego, or fear — not a valid decision
@@ -32,6 +36,8 @@ Watch for these signs.
 - You leave the conversation questioning your judgment instead of his behavior
 
 Here's what's actually happening. Frame control — the manipulator defines what the conversation is "about" in a way that makes your truth impossible to speak without sounding like the problem. When your boundary becomes evidence of your woundedness, he's moved the topic from his behavior to your psychology. You're defending yourself instead of evaluating him. That shift is the mechanism. Real PLUR means your "no" lands without negotiation. If someone has to invoke PLUR to get your yes — they don't have your yes.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The G check: “What is my body saying — separate from the story his words are telling me?”
 

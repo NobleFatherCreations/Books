@@ -15,6 +15,8 @@
 
 “This one's C.R.E.A.T.E. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOUR ART IS YOUR LABOR”
@@ -24,6 +26,8 @@ Here's who you're dealing with. This is the practical page. Rates, rights, contr
 
 Here's the scene. The artists who thrive on the festival circuit long-term are not the ones who work hardest. They're the ones who figured out their value early, put it in writing consistently, and stopped apologizing for having a professional framework inside a culture that frames everything as family and love. You can love this community AND operate professionally within it.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Know your day rate and piece rate before any conversation — not during it
@@ -32,6 +36,8 @@ Watch for these signs.
 - Watermark your digital images before sharing widely online
 
 Here's what's actually happening. Festival culture's "we're all family" framing is beautiful and also systematically used to remove the professional frameworks that protect artists. Family doesn't charge family. Family doesn't need contracts. Family gives freely. This creates the conditions for systematic exploitation of your labor. You can operate with full love for the community AND maintain professional clarity about how your work is valued. In fact, artists who know their worth make the community stronger by modeling that art has value.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The R check: “Is my rate for this engagement something I decided — or something that got decided around me?” — a rate you didn’t set is a rate someone else set, on purpose, in their favor.
 

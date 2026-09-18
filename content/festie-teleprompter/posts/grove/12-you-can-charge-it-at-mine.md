@@ -15,6 +15,8 @@
 
 “This one's G.R.O.V.E. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOU CAN CHARGE IT AT MINE”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The person with the generator, the solar rig, the van with a cigarette lighter, or simply three power banks and a lot of generosity about them.
 
 Here's the scene. You are on eight percent by Friday afternoon, which is the ordinary condition of every phone at every festival. He has power. Charging means leaving it in his van for a couple of hours, or sitting in his camp while it charges, and both of those are completely normal and both of them mean that for two hours the thing that connects you to everyone you know is in somebody else's hands.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You have found yourself uncontactable for stretches and did not choose that
 
 Here's what's actually happening. A dead phone removes your map, your torch, your group chat, your ability to call anyone, your record of the weekend, and your capacity to prove where you were. At a festival it is the single most consequential piece of equipment you carry, and the site is designed — unintentionally — to drain it. Whoever solves that problem for you has a hold, and the hold does not require any intent at all to be dangerous: an unreliable friend with your phone produces the same eight hours of unreachability that a deliberate one does. The physical access is the second issue, and the more serious one, since a few unattended minutes is enough to install something or to read everything.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The V check: “Is my phone in my own possession, charged enough to call someone?” — If it lives somewhere else for hours at a time, so does your ability to get help.
 

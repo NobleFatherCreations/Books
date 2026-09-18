@@ -3,6 +3,8 @@
 
 *A spoken-word teleprompter script — one scenario at a time, ready to read straight to camera.*
 
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/cover.png`]** — video open — type this video's scenario/section title into the blank bottom third before recording, then hold or fade from it.
+
 **Quick shoutout before we start:** every scenario in this guide — and 262 more across the other twenty guides — lives free at **www.noblefathercreations.com/festival**.
 
 This is R.O.O.T.S.: BIPOC Attendees Edition. The scene calls itself a family. This guide is about the weekends where that is completely true and the moments where it is not — and about having a plan for both.
@@ -30,6 +32,8 @@ Here's who this is. Intense, immediate, and full of enthusiasm about a version o
 
 Picture this. He has been talking for four minutes and every single thing he has said has been about how you look, in language that keeps reaching for somewhere — a country, a continent, a word he clearly thinks is a compliment. He asks where you are really from. He tells you he has always wanted to be with someone like you. There is no point in this conversation where you have been a person with a name.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Compliments a category rather than anything you chose, said, or made
@@ -40,6 +44,8 @@ Here are the signs.
 - Gets cold fast when you are ordinary rather than the thing he pictured
 
 Here's the mechanism underneath it. Fetishization does the same work as any other idealization in this book: it replaces a person with a symbol, and symbols are not allowed boundaries. It is also unusually efficient as an opening move, because it arrives disguised as enthusiastic admiration, which makes declining it look like you are the one being difficult. The practical tell is not the subject matter, it is the direction of attention — someone interested in you asks questions and updates on the answers; someone interested in a category delivers conclusions and does not update at all, because your actual self is not the point and is in fact slightly in the way.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The T check: “Has he asked me anything, or only told me things?” — Interest asks. Collecting announces.
 
@@ -64,6 +70,8 @@ Let's talk about who does this. Frequently a stranger, frequently delighted, fre
 
 Here's how it plays out. Her hand is already in your hair. She is saying it is amazing and asking how you get it like that and whether it is all yours, and three people are watching and smiling, and the entire social weight of this moment is arranged so that the rude person in it would be you. You have about two seconds and the good options all cost something.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Asks while already reaching, or does not ask at all
@@ -74,6 +82,8 @@ Watch for these.
 - Reacts to a no as though you have been unkind to them
 
 Here's what's really going on. Unsolicited touching is a boundary violation regardless of intent, and the specific version aimed at Black women's hair is documented well enough to have prompted its own body of workplace and school policy. The mechanism at a festival is the environment: everyone is close, warm, uninhibited and touching each other constantly, which supplies a ready-made explanation for the contact and makes objecting feel like importing outside-world rules into a space that is supposed to be free of them. That framing is the problem. A culture of physical affection is consent-based or it is not a culture of affection, it is just a culture where some people get touched.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The O check: “Did the question stop the hand?” — If the hand kept moving, it was not a question, and you owe it nothing.
 
@@ -94,6 +104,8 @@ Here's who you're dealing with. Not a predator. Hundreds of people, none of whom
 
 Here's the scene. You are walking to the second stage and you pass a war bonnet, two bindis and somebody's idea of a kimono, and you are doing the thing you always do, which is deciding forty separate times an hour whether to spend energy on it. Then somebody in your own camp asks you — warmly, as the resident expert — whether her outfit is okay, and now it is your job.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Sacred or ceremonial items worn as decoration
@@ -104,6 +116,8 @@ Here's what to watch for.
 - Somebody wants absolution more than they want an answer
 
 Here's what's actually happening. This belongs in a safety guide for one reason: the cumulative cost. Any single instance is minor and arguable. Forty a day, every day, while also being asked to educate people about it, is a continuous background tax on the same attention you need for everything else in this guide, and depleted attention is the precondition every other pattern relies on. There is also a specific trap in being made the arbiter — once you are the person who rules on this, every conversation about it becomes work you did not agree to do, performed for an audience that wants reassurance rather than information.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The T check: “Am I being asked for information, or for permission?” — Information is a conversation. Permission is a job, and you can decline it.
 
@@ -124,6 +138,8 @@ Here's who this is. Strangers, all weekend, who have decided what you are doing 
 
 Picture this. You are standing near the edge of a crowd, doing nothing, and a man comes up close and asks quietly what you have got. Then later somebody hands you an empty cup as though you were staff. Then somebody asks where the toilets are in the tone people use with stewards, and you are wearing exactly what everybody else is wearing.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Approached about substances by strangers who have no reason to
@@ -134,6 +150,8 @@ Here are the signs.
 - Correcting it makes the other person embarrassed, and then annoyed
 
 Here's the mechanism underneath it. Each instance is small and the pattern is not, and there is a specific risk hiding inside the most common version. Being repeatedly approached about substances by strangers puts you in conversations about drugs, in public, that you did not initiate and did not want — and undercover officers work festivals. A person who is approached fifteen times a weekend has fifteen chances to be observed having exactly the wrong conversation, and the observation does not come with the context that you were approached rather than approaching.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The R check: “Am I in a conversation I did not start, about something I am not doing?” — End it flatly and physically, not with an explanation.
 
@@ -158,6 +176,8 @@ Let's talk about who does this. Someone in a dispute with you who has correctly 
 
 Here's how it plays out. There was an argument at your camp. It was nothing. Now there are two radios and a torch and the questions are coming at you rather than at the person who started it, and the specific thing you notice, standing there, is that everybody is being perfectly polite and the outcome has somehow already been decided before anybody asked you anything.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Security arrives asking you the questions rather than asking everyone
@@ -168,6 +188,8 @@ Watch for these.
 - You are, or are close to, the only one of you in the immediate area
 
 Here's what's really going on. This book's standard advice is to escalate — tell a ranger, tell security, involve staff. That advice assumes the escalation route is neutral, and for a lot of readers it is not: the same call produces different outcomes depending on who is standing where, and a police involvement that resolves one person's evening can be a materially dangerous event for another. Saying so is not cynicism about festival staff, most of whom are decent and trying. It is the difference between a safety plan built for an average reader and one built for you. A plan that ignores this is not neutral — it is a plan that works for other people.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The O check: “If this escalates to staff, who does that help?” — Ask it before the moment, because in the moment there is no time.
 
@@ -192,6 +214,8 @@ Here's who you're dealing with. For anyone whose safety plan cannot be copied st
 
 Here's the scene. Thursday afternoon, before anything has happened, while the site is calm and the people you would need are all findable and not busy. Twenty minutes now buys you the thing that is impossible to assemble at two in the morning with a torch in your face, which is a set of names and a route you already trust.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Two named non-security contacts: welfare, and a camp or community lead
@@ -202,6 +226,8 @@ Here's what to watch for.
 - The affinity camp or crew, found on day one rather than on the bad night
 
 Here's what's actually happening. Everything in this guide is cheaper to arrange in advance than to invent under pressure, and the reason is the same one that runs through this whole book: the moment is designed to be one where you cannot think. A prepared ladder converts a judgment call into a lookup. The witness rule does the most work of anything on that list — accounts of these encounters diverge sharply depending on whether anyone else was present, and a second person standing beside you changes both what happens and what can be said about it afterwards. None of this is about expecting trouble. It is the same logic as knowing where the medical tent is.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The R check: “Can I name my two non-security contacts right now?” — If not, that is the twenty minutes, and it is best spent on Thursday.
 
@@ -222,6 +248,8 @@ Here's who this is. For anyone whose worst-case outcome from any encounter with 
 
 Picture this. Everything else in this book says get help, tell security, make a report. For you, every one of those sentences has a second half nobody wrote down, and you have been quietly translating the whole guide as you read it. This page does the translating out loud.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Any police contact carries a consequence unrelated to what happened
@@ -232,6 +260,8 @@ Here are the signs.
 - No one at home knows exactly where you are this weekend
 
 Here's the mechanism underneath it. A safety guide that assumes a neutral escalation route is giving some readers a plan that raises their risk. Medical and welfare at festivals are generally not immigration functions and treating people is their job, but the calculation is legitimately different, and pretending otherwise is not kindness. The practical answer is the same as the escalation-ladder page, with more rungs: welfare, harm reduction, camp and community leads, artist liaison — all of which resolve most situations and none of which is a police interaction.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The O check: “What is my worst-case outcome from this escalation — not the average person's?” — Plan from your answer, not from the generic one.
 
@@ -256,6 +286,8 @@ Let's talk about who does this. The camp with the sound system and the good food
 
 Here's how it plays out. Saturday, and you have spent two days being the only one in every frame, doing the low-level arithmetic that costs more energy than anyone who does not do it understands. Then you walk past a camp and three people look up and one of them says come and eat something, and you feel your shoulders drop about two inches, and you had not registered they were up.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Real: you are not explained, introduced as a demographic, or asked to represent
@@ -266,6 +298,8 @@ Watch for these.
 - Performative: you are the only one there and nobody has ever asked why
 
 Here's what's really going on. Affinity space is protective for reasons that are entirely practical rather than sentimental: it replaces hypervisibility with ordinariness, it supplies witnesses who do not need the situation explained to them, and it is where the informal warnings circulate — which promoter is sound, which crew to avoid, what happened last year. Every mechanism in this guide works better on someone isolated, and the fetishizer, the reacher and the weaponized report all operate most freely on a person with nobody standing near them. This is also the page where the scene deserves credit: there are collectives and festivals doing this properly, and they are findable.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The S check: “Have I found my people here, or am I still doing this alone?” — Day one. Not the night it goes wrong.
 

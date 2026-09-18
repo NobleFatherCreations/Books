@@ -15,6 +15,8 @@
 
 “This one's S.A.F.E. — Substances. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “DANGEROUS COMBINATIONS”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Most serious adverse events at festivals involve
 
 Here's the scene. You took MDMA earlier. Someone offers you something they describe as a downer to take the edge off. You do not know exactly what it is. You are already altered and the offer feels casual and the person seems trustworthy. This specific combination — a stimulant and a CNS depressant — is one of the most common contributors to serious adverse events at festivals. Not because either thing alone is necessarily fatal but because the combination creates unpredictable interactions that your altered state makes it hard to assess.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - MDMA plus alcohol: dramatically increases dehydration and cardiovascular strain
@@ -32,6 +36,8 @@ Watch for these signs.
 - Any substance plus another substance from an unknown or unverified source: compounded unknown risk
 
 Here's what's actually happening. Polydrug use — using more than one substance — is extremely common at festivals and the risk profile of combinations is not intuitively obvious. Substances that seem to balance each other out are often actually masking warning signals from your body. The feeling of being okay is not reliable information when two substances are creating competing effects. The Harm Reduction tent has staff trained in polydrug risk assessment. When in doubt — go there before you take something else.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Do I know what I have already taken and do I actually know what I am being offered right now, specifically?” — the combination is where most of the risk lives. Know what you’re mixing before you mix it.
 

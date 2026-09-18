@@ -15,6 +15,8 @@
 
 “This one's L.E.N.S. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “IT'S GREAT EXPOSURE”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The media accreditation form nobody reads, and the production manager who genuinely believes a wristband is payment because everybody has always said it is.
 
 Here's the scene. The accreditation form is four paragraphs and you are filling it in on your phone in a queue. One of those paragraphs assigns the festival a perpetual, worldwide, royalty-free, sublicensable license to everything you shoot, in all media, for any purpose including advertising, with no credit obligation. You tick it because the gate opens in ten minutes and because everyone ticks it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - No usage window, no territory limit, no carve-out for your own portfolio
 
 Here's what's actually happening. Festival media terms are among the most aggressive rights grabs in working photography, and they are accepted almost universally because they are presented at the moment of least leverage — at the gate, in a queue, with the job about to start. The result is a marketing archive built for free out of freelancers' work, resold to sponsors, with no credit. This is the M.A.R.K.E.T. guide's exposure problem with a contract stapled to it, and the difference is that here you are signing away the asset itself rather than just working cheap. The good news is that these terms are usually negotiable, because the person holding the clipboard has never been asked.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The S check: “What exactly am I licensing, to whom, for how long?” — Three answers before you tick. If you cannot state them, do not sign at the gate.
 

@@ -3,6 +3,8 @@
 
 *A spoken-word teleprompter script — one scenario at a time, ready to read straight to camera.*
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/cover.png`]** — video open — type this video's scenario/section title into the blank bottom third before recording, then hold or fade from it.
+
 **Quick shoutout before we start:** every scenario in this guide — and 257 more across the other twenty guides — lives free at **www.noblefathercreations.com/festival**.
 
 This is A.C.C.E.S.S.: Disabled & Neurodivergent Edition. The scene says everyone belongs. This guide is for making that true for you — and for spotting the person who uses your access needs as a door.
@@ -31,6 +33,8 @@ Here's who this is. Shows up early, helps beautifully, and keeps helping until h
 
 Picture this. He offered to push on the gravel stretch Thursday and he was genuinely good at it — read the terrain, asked before every curb, never grabbed the handles without saying so. By Friday he is carrying your meds because your bag was full. By Saturday he knows the schedule better than you do, and when you mention going to the silent disco with the two people from your camp, he says he doesn't mind, he'll come, it's easier, they don't know how to do the transfer properly.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Helps with one thing, then quietly becomes the route to all things
@@ -41,6 +45,8 @@ Here are the signs.
 - Reacts to you making a plan without him as though it were a betrayal
 
 Here's the mechanism underneath it. This is dependency grooming with an accessibility costume on. The mechanism is not the helping — the helping is often real and skilled. The mechanism is consolidation: the steady narrowing of who can assist you until one person controls movement, medication, and access to everyone else. Disabled people are victimized at substantially higher rates than non-disabled people, and the perpetrator is disproportionately someone occupying a care or assistance role, because that role supplies proximity, privacy, physical contact, and a ready-made explanation for all three. The tell is never a single act. It is the direction of travel: every week he is load-bearing for one more thing, and every week there is one fewer person who could take over.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The S check: “If this person left right now, would my weekend still work — or would it stop?” — If it would stop, that is not closeness. That is a single point of failure with feelings attached.
 
@@ -61,6 +67,8 @@ Let's talk about who does this. Approaches with enormous warmth and a compliment
 
 Here's how it plays out. You are in the line for water. A woman you have never met takes your hand — takes it, does not ask — and tells you that seeing you out here has genuinely changed her whole weekend, that she was complaining about the walk and then she saw you, and she just had to say it. She is crying a little. Three people are watching. You have about four seconds to decide whether to be gracious about a thing you did not agree to.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Compliments your existence rather than anything you chose or made
@@ -71,6 +79,8 @@ Watch for these.
 - Reacts badly to a flat “thanks” — the gratitude is what was being purchased
 
 Here's what's really going on. Inspiration framing converts a person into a symbol, and symbols do not get to have boundaries. Once you are a source of someone's uplift, declining anything reads as cruelty — you are refusing to be the good thing that happened to them today. It is usually not predatory. It is usually a person feeling something clumsily out loud. But it does exactly the same work as a deliberate opening move: it establishes touch without consent, creates an audience that expects grace from you, and installs a debt in a stranger's favor inside two minutes. People who are running something deliberate use it because it works, and because the follow-up — I just feel a connection with you — is already half-built.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The A check: “Is this about something I did, or about what my existence is doing for them?” — Warmth about your work is a compliment. Warmth about your existence is a job you did not apply for.
 
@@ -91,6 +101,8 @@ Here's who you're dealing with. Reasonable, practical, and correct that your bag
 
 Here's the scene. Your bag is genuinely overloaded and he is genuinely trying to help and the pouch with the afternoon dose genuinely does fit better in his pocket. Then it is 4pm and he is at the other stage and not answering, and you are doing the arithmetic about how bad this gets, and discovering that the answer to “how long can I wait” is now a question about somebody else's schedule.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Offers to hold medication, insulin, inhalers, or a charger you medically depend on
@@ -101,6 +113,8 @@ Here's what to watch for.
 - Is the only person who knows where they are
 
 Here's what's actually happening. Whoever controls access to something you cannot skip controls your movements, your timing, and eventually your willingness to argue. This is textbook coercive control and it is well documented in intimate-partner contexts involving disabled partners — withholding medication, mobility equipment, or assistive technology is one of the most common forms it takes, precisely because it is invisible to outsiders and easy to explain away as forgetfulness. At a festival it needs no cruelty to work. Ordinary flakiness produces the same dependency, and a person who wants leverage only has to notice how well it worked and do it again.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The C check: “Am I holding everything I cannot skip — meds, dose, charger, spare?” — If the answer routes through somebody else's pocket, that is a leash regardless of who is holding it.
 
@@ -125,6 +139,8 @@ Here's who this is. Notices — correctly — that you are struggling with the n
 
 Picture this. Four hours in, the bass from the main stage is doing the thing where it stops being sound and becomes a physical pressure in your jaw. Your ability to hold a sentence together is going. He says he knows somewhere quiet. You would agree to almost anything right now to make it stop, and some part of you clocks that, and the part of you that would normally clock it properly is the part that is currently offline.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Waits until you are visibly overloaded before making the ask
@@ -135,6 +151,8 @@ Here are the signs.
 - Is unbothered by asking you to make decisions in a state where deciding is hardest
 
 Here's the mechanism underneath it. Decision-making degrades measurably under sensory load, and for autistic and sensory-sensitive people the degradation arrives sooner and steeper. A person who has noticed this has a reliable instrument: they do not need to argue you into anything, they only need to wait, and to ask at the bottom. Nothing about this is exotic — it is the same mechanism as the 3am ask, the twentieth-hour ask, the ask after the long walk. What is specific here is that the pressure is ambient and continuous, the venue supplies it for free, and steering you through it looks exactly like helping.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The S check: “Am I agreeing to this, or agreeing to make it stop?” — Those feel identical from the inside. Only one of them is a decision.
 
@@ -155,6 +173,8 @@ Let's talk about who does this. Has seen you hold it together and now treats tha
 
 Here's how it plays out. Friday you were sharp, funny, on it for six straight hours, because you were masking hard and it cost you everything you had. Sunday you cannot process a sentence with three clauses in it and you need to leave. He says you were fine on Friday. He says you managed then. He says, and this is the one that lands, that it feels like you only get tired when there is something you do not want to do.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Cites your best hour as proof of your real capacity
@@ -165,6 +185,8 @@ Watch for these.
 - Never asks what it cost
 
 Here's what's really going on. Masking and the crash that follows it are well documented, and so is the cost: sustained camouflaging is associated with exhaustion and worse mental health outcomes, and the better you are at it the less anyone believes the crash. Fluctuating and invisible conditions generate the same problem — a person who saw your good hour now has evidence, and evidence is what gets used on you. Most people doing this are not malicious; they are pattern-matching badly. But it produces exactly the conditions someone deliberate needs: your own limits become debatable, and each time you defend them you spend energy you did not have, until conceding is cheaper than arguing. That is the mechanism, whoever is running it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The C check: “Am I explaining my capacity, or defending it?” — Explaining is information. Defending means somebody has made it a negotiation, and it was never theirs to negotiate.
 
@@ -185,6 +207,8 @@ Here's who you're dealing with. Mostly delighted, drunk, well-meaning people, ar
 
 Here's the scene. She is in her vest and she is working and a man crouches down in front of her going hey, hey gorgeous, clicking his fingers, and behind him two other people are also crouching, and one of them is offering her a chip. Your dog's whole job is to notice things about you and she has just spent forty seconds noticing him instead.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Approaching, touching, feeding or calling a dog in a working vest
@@ -195,6 +219,8 @@ Here's what to watch for.
 - Photographing her, or you, without asking
 
 Here's what's actually happening. A distracted assistance dog is a disabled piece of equipment. An alert dog that misses a signal, a guide dog that loses the line, a mobility dog that breaks position — these are functional failures with real consequences, and a festival supplies distraction at a density found almost nowhere else. Feeding is the most dangerous version because it can make a working animal ill for the rest of the weekend, which removes your support entirely. The legal position in most places is clear that interference is not permitted; the practical position is that fifty people a day will do it anyway.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The C check: “Is my equipment currently able to do its job?” — A dog is equipment while the vest is on, and this is the one piece of equipment strangers will touch without asking.
 
@@ -219,6 +245,8 @@ Here's who this is. Has been telling a gentle, affectionate story about you all 
 
 Picture this. You tell a camp mate what happened. You watch her face do a thing. Not disbelief exactly — something slower and worse, a recalculation. And you realize you have heard the groundwork for that face all weekend, in the affectionate way he kept saying you were away with it, in the way he checked with other people whether you had taken anything, in the three separate times he mentioned to somebody else that you get muddled.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Narrates your reliability to third parties when you are not there to hear it
@@ -229,6 +257,8 @@ Here are the signs.
 - Speaks for you in conversations you are physically present for
 
 Here's the mechanism underneath it. This is testimonial injustice — the documented pattern where a person's account is given less weight because of who they are rather than what they said — and disabled people, particularly those with cognitive, psychiatric, or communication disabilities, are among the most consistently affected. The barrier to reporting most often named by disabled survivors is the expectation of not being believed, and that expectation is usually correct and usually pre-installed. What makes the festival version sharp is speed: a weekend is long enough to seed a reputation in a group of strangers and short enough that nobody has a competing impression to weigh it against.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The A check: “Is somebody explaining me to people, when I am standing right here?” — Being interpreted to others is how being doubted gets built.
 
@@ -249,6 +279,8 @@ Let's talk about who does this. The person with the wristband list, the radio, o
 
 Here's how it plays out. The platform is genuinely the best thing about this festival for you — sightlines, space, somewhere to be that is not a crowd. It is also small, elevated, roped off, and run by one man who controls who comes up. He has started saving you a spot. He has started mentioning that he saved you a spot. On Saturday he asks, warmly, in front of the others up there, whether you are going to come find him later.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - One person controls entry and there is no posted process or named supervisor
@@ -259,6 +291,8 @@ Watch for these.
 - Raising anything would cost you the only place on site that works for you
 
 Here's what's really going on. Any resource that is scarce, essential, and controlled by one unsupervised person becomes leverage regardless of the intentions of whoever holds it. Accessible platforms, accessible camping, the golf cart, the lift, the interpreter roster — these are exactly that shape, and they sit in a blind spot because they are framed as provisions rather than as power. The risk is not that such spaces are unsafe; they are often the best-run part of a festival. The risk is structural: when the cost of complaining is losing the one thing that makes the weekend possible, complaints do not get made, and the absence of complaints gets read as everything being fine.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The E check: “If I had a problem with this person, who else could I go to — by name?” — If there is no second name, the space has a gate, not a policy.
 
@@ -279,6 +313,8 @@ Here's who you're dealing with. Helpful, strong, and already reaching for your c
 
 Here's the scene. The path has turned to mud and you are stuck, which was entirely predictable in October. Three men decide to help. Nobody asks how your chair lifts. Somebody takes the armrest, which is not a lifting point and now bends, and you are briefly airborne and entirely at the mercy of people who mean well and have no idea what they are doing, and your footplate is being used as a handle.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Hands on you or your equipment before anyone asked
@@ -289,6 +325,8 @@ Here's what to watch for.
 - The offer of help proceeds regardless of your answer
 
 Here's what's actually happening. Two failures stack here. The event's, which is that accessible routes are an obligation and mud is foreseeable; and the crowd's, which is that helping a disabled person is treated as something that does not require permission. Being lifted incorrectly causes real injuries to both people and to expensive, hard-to-replace equipment, and a chair damaged on Saturday cannot be repaired before Monday, which turns a bad moment into the end of your weekend and possibly your independence for weeks.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The E check: “Did I plan a route I can actually use, in this weather?” — And in the moment: “Did anybody ask me before touching me?”
 
@@ -313,6 +351,8 @@ Here's who this is. This page is the boring one and it is the one that works. Ev
 
 Picture this. It is the Tuesday before. You have fifteen minutes and a notes app. Everything that will go wrong on Saturday night is currently a thing you can fix in one sentence, and on Saturday night it will not be, because the whole point of Saturday night is that you will not have the capacity to invent a plan from nothing.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Terrain and distance: where you sleep, where the accessible toilets are, how far, what surface
@@ -323,6 +363,8 @@ Here are the signs.
 - One off-site person who expects a check-in and will notice if it does not come
 
 Here's the mechanism underneath it. Everything in this guide is easier to counter in advance than in the moment, because every mechanism in it works by targeting a depleted version of you. Pre-commitment is the general answer: decisions made Tuesday hold on Saturday in a way that Saturday's decisions do not. This is also the part where you get to stop treating your access needs as a negotiation. Written down as logistics — surfaces, distances, timings, names — they stop being a thing you justify to people and become a thing you operate. That shift in framing is doing as much work as any individual item on the list.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The E check: “Can I answer, right now, how I physically leave from where I will be tonight?” — If not, that is the fifteen minutes.
 
@@ -343,6 +385,8 @@ Let's talk about who does this. For anyone whose speech, processing, or patience
 
 Here's how it plays out. Somebody is standing too close, asking something that needs a real answer, and the part of your brain that builds sentences has gone. You know what you want. You cannot currently construct it. Every second of silence makes the next one harder, and the person in front of you is reading the silence as agreement.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - You freeze or go flat when you most need to say no
@@ -353,6 +397,8 @@ Watch for these.
 - You have said “it's fine” about something that was not fine, this weekend
 
 Here's what's really going on. Under load, generating a novel sentence is expensive and retrieving a memorized one is cheap. That difference is the entire technique. Pre-written lines survive shutdown, overload, pain, and the specific pressure of an audience, because they do not require you to compose anything — you are reading, not writing. They also remove the part that usually costs the most, which is deciding how much to explain. The scripts below explain nothing. That is deliberate: explanation invites negotiation, and negotiation is the thing you do not have the resources for right now.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The C check: “Do I have a sentence ready, or am I going to have to build one?” — Ready is the difference between a no and a yes you did not mean.
 
@@ -373,6 +419,8 @@ Here's who you're dealing with. For Deaf and hard-of-hearing attendees, and for 
 
 Here's the scene. Every piece of safety information at a festival is delivered by tannoy: the weather warning, the stage closure, the evacuation route, the missing child, the thing that has just happened at the other end of the site. All of it is audio, all of it is over a distorted PA, and none of it reaches you. You will find out what happened when the crowd starts moving.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Emergency and safety announcements are audio-only with no visual equivalent
@@ -383,6 +431,8 @@ Here's what to watch for.
 - You have not told welfare that you will not hear a tannoy
 
 Here's what's actually happening. Deaf attendees are systematically excluded from the emergency information layer of an event, and that is a safety issue rather than an inclusion one — evacuation instructions, severe weather warnings and stage cancellations are all broadcast in the one modality you cannot receive. Most events will provide interpreters, text alerts or a welfare contact if asked in advance, and almost none provide them by default. The equipment problem is separate and severe: rain, dust and a dead battery are all far more likely here than at home, and a processor lost at a festival is a five-figure object in a field.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The A check: “How will I find out if something goes wrong on this site?” — If the only answer is the tannoy, you have no route to emergency information.
 
@@ -407,6 +457,8 @@ Here's who this is. The good version is other disabled and neurodivergent people
 
 Picture this. Two things happen the same weekend. A woman with a cane and a folding stool sees you doing the arithmetic about the distance to the second stage, and says without ceremony that the north path is flat and there is a bench two-thirds of the way, and then talks to you about the lineup for twenty minutes and never mentions either of your bodies again. And a man tells you three times that his camp is a safe space for you and asks whether you are comfortable and asks again and asks whether you are sure.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Real: gives you information and then moves on to the actual subject
@@ -417,6 +469,8 @@ Here are the signs.
 - Project: your presence in their camp gets mentioned to other people
 
 Here's the mechanism underneath it. Real community is identifiable by one thing: whether you can decline without it costing you. In genuine crip and ND space, refusing help, leaving early, going non-verbal, or simply being unimpressive changes nothing about your standing — there is no ledger. Tokenizing warmth is transactional even when it is sincere, and the transaction is that your comfort confirms someone's self-image, which means your discomfort becomes a problem for them rather than for you. The scene has an enormous amount of the real thing in it. It also has people for whom your inclusion is a credential, and the two can sit in the same camp.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The S check: “Can I say no here and have it change nothing?” — If declining costs you standing, it was never community. It was an arrangement.
 

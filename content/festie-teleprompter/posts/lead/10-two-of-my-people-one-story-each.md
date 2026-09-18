@@ -15,6 +15,8 @@
 
 “This one's L.E.A.D. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “TWO OF MY PEOPLE, ONE STORY EACH”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. You, holding a disclosure from one camp member about another, both of whom you like, in a structure with no process, no training and no separation of roles whatsoever.
 
 Here's the scene. She told you what happened on Friday. He has been your friend for nine years. You are now the investigator, the judge, the friend of both parties and the person who has to keep this camp functioning for another two days, and you have no idea what you are doing.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - The reporting person has asked you not to do anything
 
 Here's what's actually happening. Camp leads are handed reports with none of the structure that makes handling them possible, and the two most common instincts are both wrong. Mediation — getting both parties in a room — is actively harmful where there is any power imbalance or alleged harm, because it requires the person who was harmed to negotiate with the person who harmed them. And investigating, in the sense of establishing the truth, is not your role and you are not equipped for it; your role is immediate safety, accurate notes, and routing it to someone independent.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The L check: “Am I trying to find out what really happened?” — That is not the job. Safety, notes, and handing it on is the job.
 

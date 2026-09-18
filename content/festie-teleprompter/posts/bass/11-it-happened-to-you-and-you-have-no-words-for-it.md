@@ -15,6 +15,8 @@
 
 “This one's B.A.S.S. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “IT HAPPENED TO YOU AND YOU HAVE NO WORDS FOR IT”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Nobody. This page is about you, and about the specific reason you have not said anything about the thing that happened on Saturday.
 
 Here's the scene. You were extremely drunk or extremely high or both. You do not have all of it. You have enough of it. And every time you get close to describing it, some part of your head supplies the sentence that men cannot really have this happen, or that you should have wanted it, or that people would laugh — and you put it back down, and it has now been four months.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You would recognize it instantly as assault if a friend described it to you
 
 Here's what's actually happening. Sexual assault of men is substantially more common than the culture admits and substantially less reported, and the barrier is well documented: the expectation that a man could not be overpowered, the belief that arousal equals consent (it does not — it is a physiological response and it occurs during assaults), and the fear of being disbelieved or mocked. Incapacity is incapacity regardless of gender. If you could not consent, you did not, and nothing about your body's reactions, your size, or your enjoyment of the evening up to that point changes that.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The B check: “If a mate described this exact thing to me, what would I call it?” — You already know. Use your own answer.
 

@@ -15,6 +15,8 @@
 
 “This one's S.O.U.N.D. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE SUPERFAN SITUATION”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Most superfans are genuinely loving people your 
 
 Here's the scene. She's been at six of your shows in three cities. Knows your setlist changes before you announce them. Has your tour schedule memorized. Shows up at the venue during soundcheck. DMs you daily — long, personal, detailed. When you don't respond she escalates. At the last show she got backstage and stood close in a way that felt like pressure. Your team dismisses it: "that's just a dedicated fan." Your body is saying something different.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Attendance at multiple shows in multiple cities without your invitation
@@ -32,6 +36,8 @@ Watch for these signs.
 - Communication that escalates when you don't respond or engage
 
 Here's what's actually happening. Parasocial relationships — where a fan experiences genuine emotional intimacy with an artist who doesn't know them — are a normal feature of music fandom. They become dangerous when the fan can't hold the asymmetry and begins operating as though the relationship is mutual. The music industry often fails artists here by treating obvious stalking as enthusiasm. Your discomfort is data. Your body's signal about someone is data.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The D check: “Have I documented this person’s behavior with dates, locations, and screenshots — solely so I have a record if this escalates?” — a fan’s dedication is not a reason to skip documenting once it stops feeling safe.
 

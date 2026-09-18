@@ -15,6 +15,8 @@
 
 “This one's S.O.U.N.D. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WE OWN THE RECORDINGS”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Every festival set you play is potentially being
 
 Here's the scene. Your set went viral — 400,000 views on the festival's YouTube channel. The recording is incredible. Fans are using it everywhere. The festival is now licensing it to a streaming platform for a compilation. You receive nothing because when you signed the booking confirmation — buried in the terms — you assigned all recording rights to the festival for all formats in perpetuity.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Booking confirmation or contract contains a recording rights clause you didn't negotiate
@@ -32,6 +36,8 @@ Watch for these signs.
 - Live recordings appear on streaming platforms or in commercial contexts without your knowledge
 
 Here's what's actually happening. Live recording rights are one of the most commonly overlooked and most valuable assets in a musician's career. Festival organizers routinely include sweeping rights grabs in standard booking paperwork. Your performance is a copyrightable work. Your likeness in those recordings is yours. A simple rider clause reserves your recording rights or requires negotiation. Without it, you're playing the show and handing them a product.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The O check: “Who owns the recordings being made of me tonight — and is that in writing before I go on stage?” — know who owns the product before you create it, not after.
 

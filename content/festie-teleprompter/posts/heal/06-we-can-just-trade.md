@@ -15,6 +15,8 @@
 
 “This one's H.E.A.L. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WE CAN JUST TRADE”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Everyone, at every festival, because the gift economy is real and beautiful and almost entirely undocumented — which means every trade has terms nobody said out loud.
 
 Here's the scene. You will do a session and he will sort you out for the weekend. It is a fair trade and you both meant it kindly. Then it is unclear whether one session covered it or three, and he keeps appearing, and on Saturday when you say you are done for the day there is a silence, and you realize that neither of you ever said what the deal was and he has been keeping a different tally.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You are doing sessions you do not want to do and cannot say why
 
 Here's what's actually happening. Barter is not the problem — vagueness is. An undefined trade creates exactly the open-ended obligation that the reciprocity pages elsewhere in this book describe, with the additional feature that professional work is now entangled with a personal relationship and nobody can point to the terms. Trading for substances is the version worth refusing outright: it makes your practice dependent on a supply and a supplier, it is the clearest route to a dual relationship, and it converts a professional service into something you can be leaned on for.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The L check: “Does this trade have a stated scope and an end?” — If not, it is not a trade, it is an account somebody else is keeping.
 

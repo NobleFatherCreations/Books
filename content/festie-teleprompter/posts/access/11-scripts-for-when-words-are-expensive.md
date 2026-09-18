@@ -15,6 +15,8 @@
 
 “This one's A.C.C.E.S.S. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “SCRIPTS FOR WHEN WORDS ARE EXPENSIVE”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. For anyone whose speech, processing, or patience goes first when things get hard — which by Sunday is most people, and for a lot of us is Thursday. Scripts are not weakness. They are the same reason pilots read checklists out loud.
 
 Here's the scene. Somebody is standing too close, asking something that needs a real answer, and the part of your brain that builds sentences has gone. You know what you want. You cannot currently construct it. Every second of silence makes the next one harder, and the person in front of you is reading the silence as agreement.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You have said “it's fine” about something that was not fine, this weekend
 
 Here's what's actually happening. Under load, generating a novel sentence is expensive and retrieving a memorized one is cheap. That difference is the entire technique. Pre-written lines survive shutdown, overload, pain, and the specific pressure of an audience, because they do not require you to compose anything — you are reading, not writing. They also remove the part that usually costs the most, which is deciding how much to explain. The scripts below explain nothing. That is deliberate: explanation invites negotiation, and negotiation is the thing you do not have the resources for right now.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The C check: “Do I have a sentence ready, or am I going to have to build one?” — Ready is the difference between a no and a yes you did not mean.
 

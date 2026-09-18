@@ -15,6 +15,8 @@
 
 “This one's B.A.S.S. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “TRUST ME, THIS IS LEGIT”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The guy with the deal. The connection. The thing
 
 Here's the scene. "I'm only doing this for three people and I've got two already. You in? It's $400 now and you'll clear $1200 by next weekend. My guy is totally solid." You've known this person for 36 hours. His camp looks legitimate. He name-drops someone you met at the fire. The window is closing. You Venmo him. Monday: number disconnected, Venmo non-refundable.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Decision needs to happen RIGHT NOW — closing window, tonight only
@@ -32,6 +36,8 @@ Watch for these signs.
 - Payment method is non-refundable: Venmo, Cash App, crypto always
 
 Here's what's actually happening. Festival scams exploit time compression (you feel like you know people better than you do), social proof (vouching from people you also just met), and altered states (your financial risk-assessment is impaired). The tell is always urgency — real opportunities don't evaporate if you take 24 hours to verify them. Real investors don't need your $400 tonight from someone they met at a fire pit.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Who actually has access to my financial decisions right now, and what do I actually know about where this money is going?” — if you can’t answer the second half, you don’t have an investment, you have a story.
 

@@ -15,6 +15,8 @@
 
 “This one's L.E.A.D. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “JOIN OUR FAMILY”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Camps recruit new members every season. The pitc
 
 Here's the scene. You recruited twelve new members this season. The pitch was warm, the infrastructure is real, and most of them are having a genuinely good experience. Three of them are doing significantly more camp labor than others and seem reluctant to raise concerns. One new member has been spending most of their time with a senior camp member in ways that look more like dependency than connection. You have not looked closely at these dynamics because camp is running well overall.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - New members doing disproportionate labor compared to senior members without discussion
@@ -32,6 +36,8 @@ Watch for these signs.
 - Camp culture that treats questioning the leadership as disloyalty rather than healthy input
 
 Here's what's actually happening. Camp leaders are often the last to see problematic dynamics because they are managing the whole operation and because the overall experience is positive. The patterns to watch for in your own camp are the same ones that signal predatory structures in other contexts: unequal contribution without discussion, reluctance to raise concerns, dependency dynamics, and cultures that treat questioning as betrayal. Your camp is only as healthy as what you are willing to look at.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The L check: “What dynamics in my camp am I avoiding looking at because things are running well overall?”
 

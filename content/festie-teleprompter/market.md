@@ -3,6 +3,8 @@
 
 *A spoken-word teleprompter script — one scenario at a time, ready to read straight to camera.*
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/cover.png`]** — video open — type this video's scenario/section title into the blank bottom third before recording, then hold or fade from it.
+
 **Quick shoutout before we start:** every scenario in this guide — and 252 more across the other twenty guides — lives free at **www.noblefathercreations.com/festival**.
 
 This is M.A.R.K.E.T.: Vendors & Market Artists Edition. Your booth is your business. Your inventory is your livelihood. Protect both.
@@ -31,6 +33,8 @@ Here's who this is. The event promoter who controls your placement, electricity,
 
 Picture this. The pitch was perfect: high-foot-traffic spot near the main stage, 2,000 attendees, electricity included. You paid the $800 vendor fee two months out. You arrive to find your spot is behind the food trucks, electricity needs an additional $150 hookup fee nobody mentioned, and the 2,000 attendee number was from three years ago. When you raise it he reminds you with a smile that the vendor fee is non-refundable.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Placement promises made verbally — not written into the vendor agreement
@@ -39,6 +43,8 @@ Here are the signs.
 - Complaints are met with the reminder that you have already paid
 
 Here's the mechanism underneath it. Vendor fee manipulation relies on the non-refundable deposit to eliminate your leverage once you have committed. The bait-and-switch is a known and widespread practice on the festival vendor circuit. Your only real protection is what is written down before you pay. If it is not in the vendor agreement it did not happen and you have no recourse. Research every promoter in Facebook vendor groups and Indie Craft Experience forums before you commit. The circuit has a long memory for bad promoters.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The M check: “Is the placement, the attendance number, and every fee in writing — or just verbally promised by someone with every reason to over-promise?” — a great pitch that isn’t in writing is just a story.
 
@@ -59,6 +65,8 @@ Let's talk about who does this. The promoter who confirms your spot, collects yo
 
 Here's how it plays out. You confirmed spot 14 near the main entrance with electrical hookup in writing two months ago. You arrive to find spot 14 has been given to a premium sponsor and you are now in spot 47 near the back fence with no electricity. When you protest: "We sent an email about changes last week" — to an address you had not checked. The show opens in four hours and your inventory is on the truck.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Material terms change after full payment and you are completely committed
@@ -67,6 +75,8 @@ Watch for these.
 - Each individual change is presented as minor or outside their control
 
 Here's what's really going on. Last-minute term changes exploit the sunk cost of your presence. You have traveled, brought inventory, and made plans that are hard to reverse. The cost of walking away feels higher than accepting the change — and that is exactly the calculation the promoter is banking on. Documenting the original agreement in writing and responding to every change in writing creates a paper trail that supports a refund claim or small claims filing after the event.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The R check: “Do I have written documentation of what was originally agreed so I can actually point to it when the terms shift?” — the paper trail you build before the event is the only thing that protects you at it.
 
@@ -87,6 +97,8 @@ Here's who you're dealing with. The camp or collective that offers housing, infr
 
 Here's the scene. The camp offered you a booth placement and a campsite. "We just ask that everyone contributes to the community." By the second event you have gifted $400 of inventory, worked 12 hours of camp setup and breakdown, and contributed $200 cash to camp costs. You are making less per event than you were before you joined the family. When you raise it, the response is a hurt look and a reminder of everything they have done for you.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Contribution expectations are vague at start and expand with each event
@@ -95,6 +107,8 @@ Here's what to watch for.
 - Raising the financial impact of the arrangement is received as not being a good community fit
 
 Here's what's actually happening. Camp-based vendor arrangements can be genuinely mutually beneficial and they can be a systematic way to extract inventory, labor, and compliance from traveling vendors who need the infrastructure. The tell is always whether terms are defined and mutual. Real community has reciprocity both parties can articulate. When your contributions keep expanding and the camp contributions stay stable — that is feudalism with better branding.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The E check: “What would it actually cost me to leave this arrangement — and is that cost getting bigger the longer I stay quiet about it?” — an undefined cost that grows with your silence is not community. It’s a bill you didn’t agree to.
 
@@ -115,6 +129,8 @@ Here's who this is. The pressure from fellow vendors — framed as community sol
 
 Picture this. The vendor two booths over has been friendly all weekend and helped you with a few things. Now she wants $200 of your inventory for $80 "because we take care of each other here." The festie culture frames this as normal generosity. But $120 of lost margin on a slow sales day is not a gift you can afford. When you hesitate she mentions how she helped you with the tent stakes yesterday morning.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - The "we are family" frame used specifically in commercial transactions
@@ -123,6 +139,8 @@ Here are the signs.
 - The pressure arrives when you are already depleted or in a vulnerable moment
 
 Here's the mechanism underneath it. Festival vendor culture has genuine traditions of mutual aid. The predatory version uses that cultural norm to extract commercial value — discounts, free inventory, special pricing — framed as solidarity. Real community support does not require you to absorb losses to prove you belong. A discount is a business decision. So is not giving one. You are allowed to make that decision based on your actual financial situation.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The M check: “Is this exchange actually mutual — or am I absorbing a loss to avoid a social cost?”
 
@@ -143,6 +161,8 @@ Let's talk about who does this. The promoter, camp lead, or circuit organizer wh
 
 Here's how it plays out. You met him at the winter market and the connection was real. By spring he was helping you get into better events and your bookings genuinely improved. By summer you are in a relationship that has become complicated and painful — and every conversation about ending it carries an unspoken freight of what happens to your bookings and circuit relationships when you do. The personal and professional are completely entangled and you have less power in both.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Romantic relationship develops with someone who controls your business access
@@ -151,6 +171,8 @@ Watch for these.
 - They reference your bookings or placement during relationship conflicts
 
 Here's what's really going on. Romantic entanglement with access holders is a specific and common vendor vulnerability because the festival circuit is small and relationship-driven. The problem is not the relationship. The problem is when the relationship becomes the mechanism of professional control. If you cannot evaluate your relationship independently of what it costs your business — the entanglement has already become control. Your professional access should never live inside a romantic relationship.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The A check: “Does my business access depend on this relationship — and what does that mean for me the day this relationship ends?” — access that depends on one relationship was never really yours.
 
@@ -175,6 +197,8 @@ Here's who you're dealing with. The traveling vendor partner who controls the sh
 
 Here's the scene. You share a van and travel costs with her. It made the circuit financially viable for the first time. Six months in you realize: she sets the travel schedule without your input, she manages the shared float with accounting you never see, and she decides which events you attend based on criteria that seem to benefit her inventory over yours. The van is hers. Leaving means losing the whole circuit arrangement.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - One partner controls transportation and the other is fully dependent on it for the circuit
@@ -183,6 +207,8 @@ Here's what to watch for.
 - Raising concerns triggers the implicit threat of losing the arrangement entirely
 
 Here's what's actually happening. Travel partnerships on the vendor circuit are economically valuable and structurally vulnerable to exploitation when one party holds more resource control. The vehicle, the float, the event relationships — each creates leverage. Without a written partnership agreement defining decision-making, financial access, and exit terms, the person with more physical control has more power regardless of what was verbally agreed at the start.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The A check: “Do I have independent access to the money and transportation in this arrangement?”
 
@@ -203,6 +229,8 @@ Here's who this is. The fellow vendor who uses the tight-knit circuit to spread 
 
 Picture this. Sales started dropping at your third event of the season without obvious reason. A promoter friend tells you she has been hearing your work is not really handmade — she does not know where it is coming from but multiple people have mentioned it. You trace it back to a vendor two spots over who you have been outselling for three seasons. Nothing being said is true. But it is already in circulation and you do not know how to correct something you are not supposed to know is being said.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Sales drop or bookings thin without clear cause — investigate the social layer
@@ -211,6 +239,8 @@ Here are the signs.
 - A specific competitor directly benefits from the narrative circulating about you
 
 Here's the mechanism underneath it. The festival vendor circuit is small, relationship-driven, and operates heavily on reputation. Smear campaigns are highly effective because the market is interconnected — a few well-placed doubts can close doors quietly without you knowing they were closing. The most effective counter is documented proof: photos of your process, behind-the-scenes content, certificates of authenticity for materials, and direct relationships with promoters that are independent of any one person.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The K check: “Do I have documentation of my process and materials that speaks for itself?”
 
@@ -231,6 +261,8 @@ Let's talk about who does this. The promoter or market organizer who uses booth 
 
 Here's how it plays out. You raised concerns about an electricity fee discrepancy in a vendor group last season — politely, with documentation, requesting the refund you were owed. This season's placement confirmation arrives: spot 52, far corner, partial shade, foot traffic rated poor on the organizer's own map. Last season you were in spot 8. Nothing has changed about your product or professionalism. Everything has changed about your willingness to be quiet.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Placement quality drops significantly after you raised a legitimate concern
@@ -239,6 +271,8 @@ Watch for these.
 - You feel that raising future concerns would cost you even more placement quality
 
 Here's what's really going on. Placement retaliation is a control mechanism that works because it is hard to prove and because the cost of fighting it feels higher than the cost of compliance. The organizer has plausible deniability — placement decisions involve many factors. The counter is documentation of the pattern across multiple events and multiple vendors, and building relationships with other organizers so your circuit access does not depend on any one event.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The K check: “Am I staying quiet about legitimate concerns because I am afraid of what it will cost my placement next season?” — an organizer who punishes standards is telling you exactly who they are.
 
@@ -259,6 +293,8 @@ Here's who you're dealing with. The forecast, and a pitch fee that bought you a 
 
 Here's the scene. It went at four in the morning. The frame is in three pieces, half the stock is in a puddle, the rest blew toward the fence, and the event is running as normal at ten. Nobody is going to reimburse you, your pitch fee is not coming back, and you have just discovered that your policy covers theft but not weather.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Gazebo weights instead of ground anchors, on a forecast you did not check
@@ -269,6 +305,8 @@ Here's what to watch for.
 - Everything you own on the circuit is in this one gazebo
 
 Here's what's actually happening. Vendors carry all the risk at an outdoor event and almost none of the protection. Pitch fees are near-universally non-refundable, organizers rarely take liability for weather, and the standard trader policy people buy often excludes exactly the two things most likely to happen in a field — storm damage and loss from an unattended stall overnight. The result is a business that can lose a season's stock in one night with no route to recovery, sitting next to an event that continues around it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The R check: “If my stall was destroyed tonight, what would I actually recover?” — Read the policy now, not at four in the morning.
 
@@ -293,6 +331,8 @@ Here's who this is. Traveling vendors are a specific target: you arrive with kno
 
 Picture this. Sunday breakdown. Strong weekend — the cash box is full. You are loading your van alone in the dim hour before dawn, moving merchandise in multiple trips. The spot next to you is empty. You have been so focused on the physical work of loading that you have completely stopped being aware of who is around. This is the window. It is the one experienced thieves specifically wait for.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Loading and unloading solo in low-traffic hours with visible valuable inventory
@@ -301,6 +341,8 @@ Here are the signs.
 - Arrival time, departure time, and cash handling routine all become observable
 
 Here's the mechanism underneath it. Festival vendor robbery targets specific patterns: the breakdown window when you are tired and often solo, visible cash after a strong sales day, and known vehicle location. It is not always strangers — sometimes it is other vendors or people with festival access who have been watching your patterns all weekend. Cash management, breakdown protocol, and travel companions are not paranoia. They are the professional infrastructure of the traveling vendor life.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The T check: “Am I traveling and breaking down in a way that minimizes my visibility as a target?”
 
@@ -321,6 +363,8 @@ Let's talk about who does this. The shop, gallery, boutique, or pop-up that want
 
 Here's how it plays out. "We would love to carry your line — we do 60/40 in your favor, you would be in great company." You drop off $1,800 of wholesale inventory. Three months later you are still waiting for the first check. The shop is still open. Your work is still on the shelves. Phone calls go unanswered. Emails get vague responses. Six months in you have recovered $600 of $1,800 in product and the shop just posted new arrivals on Instagram.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - No written consignment agreement with payment terms and reconciliation schedule
@@ -329,6 +373,8 @@ Watch for these.
 - The owner becomes progressively harder to reach as time goes on
 
 Here's what's really going on. Consignment fraud is one of the most common forms of vendor exploitation because artists feel awkward being professional with people who seem enthusiastic about their work. The enthusiasm is real — your work is valuable. The payment intention varies. A consignment agreement is not distrust — it is the thing that makes the relationship honest and enforceable. Without it, recovering your inventory or your payment requires legal action that costs more than the inventory is worth.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The M check: “Do I have a signed agreement with payment terms — or just a handshake and a hope?”
 
@@ -349,6 +395,8 @@ Here's who you're dealing with. Your designs, your photographs, your product ima
 
 Here's the scene. A customer at your booth holds up their phone: "I saw something almost identical to this at the booth down the way — they are selling it for less." You go look. It is not almost identical. It IS identical — your photo, your design, printed by a drop-ship service. The vendor shrugs: "I found the image online, how was I supposed to know?" Your image has a watermark. It was cropped out. This is not an accident.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Your product photos appearing on other vendors' social media without credit
@@ -357,6 +405,8 @@ Here's what to watch for.
 - Your business name or brand elements used by someone else in your market space
 
 Here's what's actually happening. Design theft and image theft are endemic in the handmade marketplace — the internet makes copying easy and enforcement feels difficult. But copyright protection is automatic the moment you create original work and you have real options. The key is documentation: timestamp your original files, watermark everything you post publicly, maintain a creation file with original dated drafts. US Copyright registration ($65) enables enforcement with statutory damages of $750 to $30,000 per infringement.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The R check: “Do I have timestamped documentation of my original designs that establishes my ownership before anyone else’s does?” — your designs are copyrighted the moment you create them. You get to enforce that.
 
@@ -377,6 +427,8 @@ Here's who this is. Somebody who has worked out that a vendor at hour nine, in b
 
 Picture this. He shows you the screen. It says sent, with your name on it and a tick. It is half past eleven, the signal has been dropping all day, your banking app will not load, and there are four people waiting behind him holding things they want to buy. You hand over the piece.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - A screenshot of a transfer rather than money in your account
@@ -387,6 +439,8 @@ Here are the signs.
 - Refunds requested in cash for a card transaction
 
 Here's the mechanism underneath it. Every one of these relies on the same three conditions a festival supplies reliably: bad connectivity, bad light and social pressure from a queue. A transfer screenshot proves nothing and is trivial to fake; a pending or unsettled card payment is not a payment; and counterfeit notes at a market stall late at night are an old trade that persists because nobody wants to be the vendor who holds up the line over a twenty. The cash-refund version is the cleanest fraud of the lot, and the answer to it is that a refund goes back the way the money came, always.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The M check: “Has the money arrived in my account, or have I been shown a picture of money?” — Those are not the same event.
 
@@ -411,6 +465,8 @@ Let's talk about who does this. Transactions at festivals — substances, goods,
 
 Here's how it plays out. He has been browsing your booth for twenty minutes asking thoughtful questions about your process. The conversation shifts — he mentions he knows people who might be interested in other things you might have access to, winks included. It feels casual. It feels like a fellow festie making a sideways inquiry. Something about the specificity of the questions feels slightly rehearsed. You cannot put your finger on it. But something is off.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - They approach YOU with an inquiry that moves from your products to something else entirely
@@ -419,6 +475,8 @@ Watch for these.
 - Something about the interaction feels slightly scripted — you cannot articulate why but it is there
 
 Here's what's really going on. Undercover officers at festivals are specifically trained to blend in and they are often very good at it. As a vendor with a public booth you are particularly visible and accessible. The behavioral tells are in the conversation pattern itself: they redirect from legitimate commerce to other things, they guide toward isolation, and they push for specificity. You are never obligated to complete any conversation or transaction. "I am just focused on my product today" ends it cleanly.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The A check: “Am I proceeding with this conversation because I actually want to — or because saying no feels riskier than it is?” — no transaction at a festival is worth your freedom, and no conversation is worth your business.
 
@@ -439,6 +497,8 @@ Here's who you're dealing with. You did the event. You delivered the inventory. 
 
 Here's the scene. It has been six weeks since the event. You have sent three polite emails. You have received two vague replies and one promise of "by end of week" that came and went. The promoter is still posting about upcoming events on Instagram. Your follow-up messages are being read but not replied to. You are owed $1,200 and you are running out of patience and confidence that it is coming.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Payment delayed past agreed date without proactive communication from their side
@@ -447,6 +507,8 @@ Here's what to watch for.
 - They are visibly active on social media and running their business while ignoring your payment
 
 Here's what's actually happening. Most non-payment situations resolve at the written demand stage because most bad-faith payers are not prepared to actually face legal consequences — they are relying on vendors giving up. A written demand with a specific deadline and a reference to your legal options is the trigger that moves most situations to resolution. The ones who still do not pay after a written demand are the ones you take to small claims. The process is simpler than most people think.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The R check: “Do I have documentation of everything agreed and every follow-up I have sent?”
 
@@ -467,6 +529,8 @@ Here's who this is. This is the reference page. The documents, resources, and pr
 
 Picture this. The vendors who have long and sustainable careers on the festival circuit are not the ones who never get taken advantage of. They are the ones who built the infrastructure early, put things in writing consistently, and stopped apologizing for having professional standards inside a culture that frames everything as love and vibes. You can love this community AND operate professionally within it. These are not opposites.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Standard vendor agreement — one page, covers placement, fees, refund policy, and exclusivity
@@ -475,6 +539,8 @@ Here are the signs.
 - Process documentation library — timestamped photos and videos of your making process
 
 Here's the mechanism underneath it. Professional infrastructure is not about distrust — it is about making every relationship honest from the start. Vendors with clear written terms attract the promoters and buyers who are comfortable with clear written terms, which turns out to be exactly the promoters and buyers you want to work with. The ones who resist paperwork are showing you their payment intentions. Let paperwork be the filter. It saves enormous amounts of time and energy.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The R check: “Do I have the documents I need to protect myself before I need them — not after?”
 
@@ -495,6 +561,8 @@ Let's talk about who does this. The schedule. Four days, fourteen-hour trading d
 
 Here's how it plays out. Day three. You have not sat down since seven, you have eaten one thing, you cannot leave because there is nobody to cover you, and you have started making decisions — about pricing, about a wholesale enquiry, about whether that transfer really went through — with a brain that has been standing up in the sun since dawn.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - No cover, so no breaks, so no meals and no toilet trips
@@ -505,6 +573,8 @@ Watch for these.
 - Recovery time between events that is shorter each season
 
 Here's what's really going on. Vendor fatigue is an economic problem before it is a health one. Every transaction on this page's neighbours — the fake transfer, the renegotiated deal, the wholesale offer that is worse than it sounds, the pressure to drop a price — arrives at the end of a long day and lands on a depleted person, and depleted people concede. The physical toll is real and cumulative too, but the immediate cost is commercial: you are making your most consequential decisions in your worst condition, by design, several times a weekend.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The E check: “Am I about to make a real decision at hour twelve?” — Defer it to the morning. Everything that is genuinely good will still be there.
 
@@ -529,6 +599,8 @@ Here's who you're dealing with. The vendor circuit at its best is one of the mos
 
 Here's the scene. The vendor two booths over comes by mid-morning on Saturday: "Hey I noticed you are running low on bags — I have extras, take some." No reciprocity mentioned. No ledger. Later she tells you she heard a rumor about next year's event moving to a smaller venue — thought you should know before you committed your spot fee. Later still she helps you carry your tent poles to the car. None of it was transactional. All of it was real.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Real vendor community: sharing information freely including about bad promoters and difficult buyers
@@ -537,6 +609,8 @@ Here's what to watch for.
 - Real vendor community: honest feedback about your work and business when you ask for it
 
 Here's what's actually happening. Real vendor solidarity is built through repeated small interactions where each person is free to give or not give without social cost either way. It looks like sharing information, helping during the hard moments of setup and breakdown, warning each other about problems on the circuit, and genuinely celebrating when someone in the community thrives. It does not look like keeping score, invoking community as leverage in commercial transactions, or using shared history as a reason you owe someone something.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The K check: “Is this interaction genuinely mutual — or is community being invoked to extract something one direction only?” — real community runs both ways. Extraction only runs one.
 

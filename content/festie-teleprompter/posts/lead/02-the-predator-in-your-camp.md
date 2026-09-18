@@ -15,6 +15,8 @@
 
 “This one's L.E.A.D. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE PREDATOR IN YOUR CAMP”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Someone in your camp is causing harm to other me
 
 Here's the scene. A newer member comes to you with a concern about someone who has been in the camp for four years. She is specific about what she observed and what happened to her. You believe her. You also know that the person she is describing is one of your most reliable camp contributors, is well-liked, and has been part of the community for years. The situation has no easy resolution. But it does have a right next step.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - A member with concerns is coming to you directly — this is the outcome of the trust you built
@@ -32,6 +36,8 @@ Watch for these signs.
 - The understanding that how you respond right now defines your camp culture permanently
 
 Here's what's actually happening. Every camp leader will eventually face a situation where a trusted and integrated member has caused harm. The response to that situation defines the camp culture more than any other single event. Camps that protect long-standing members at the expense of the people they harmed build a culture where harm is tolerated when the person causing it is valuable enough. Camps that hold everyone to the same standard build a culture where people feel genuinely safe to report.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The L check: “Am I responding to this in a way that protects the person who came to me — or the person the report is about?” — the standard you set when it’s hard is the only standard that actually matters.
 

@@ -15,6 +15,8 @@
 
 “This one's E.V.E.N.T. — Accountability. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE BAIT AND SWITCH”
@@ -24,6 +26,8 @@ Here's who you're dealing with. This page is written directly to you. Not about 
 
 Here's the scene. You pitched a vendor on a premium spot near the main stage, 2,000 attendees, electricity included. You knew when you pitched it that the numbers were optimistic and the electricity situation was complicated. She paid $800 and planned her whole season around it. She arrived to a spot behind the food trucks and an electricity bill she had not budgeted for. You told yourself it was close enough. It was not close enough. She lost money because of information you provided that was not accurate.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Attendance numbers and traffic projections should be accurate and from the current event context
@@ -32,6 +36,8 @@ Watch for these signs.
 - The vendor cannot make an informed decision based on optimistic projections that serve your pitch
 
 Here's what's actually happening. Misrepresentation in vendor and artist pitches is widespread because the incentive structure rewards it — you get the fee and the performer, and the consequences arrive later and are diffuse. The vendor absorbs the loss. The artist absorbs the gap between what was promised and what was delivered. Your reputation absorbs it slowly. Accurate representation of what your event offers is not just ethical — it is how you build the relationships and reputation that sustain your events long-term.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The V check: “Would I be comfortable if every vendor and artist I have worked with saw this pitch in writing, side by side with what actually happened?” — the reputation you’re building is the accurate one, not the one in your pitch.
 

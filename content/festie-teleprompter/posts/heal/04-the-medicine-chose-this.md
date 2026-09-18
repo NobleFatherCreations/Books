@@ -15,6 +15,8 @@
 
 “This one's H.E.A.L. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE MEDICINE CHOSE THIS”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Holds the container, poured the cup, and is the only person in the room who is not altered. Interprets what is happening for everyone, including for you, including about you. Is never wrong inside the frame he built.
 
 Here's the scene. You are four hours into something and the room has stopped having edges. He sits down close and says the medicine has shown him that you and he are meant to work together more deeply, that your resistance is the thing the work is for, and that this is the part where people either open or run. You cannot currently construct a sentence. He knows that. That is the reason this conversation is happening now and not on Tuesday.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Leaving is framed as spiritually dangerous or as abandoning the work
 
 Here's what's actually happening. This is the single most important line in this guide: a consent given before an altered state cannot cover what happens inside it, and a consent given during one is not consent, because capacity is the thing the substance removed. Every serious ceremonial ethic in the world states it — no romantic or sexual contact with participants, no revision of agreements mid-state, a sober second person present. The reason is not squeamishness, it is that the facilitator holds total interpretive authority over someone who cannot currently evaluate interpretations. Any framework where your objection is proof the framework is working is not a spiritual technology. It is a closed loop, and closed loops are what this book calls a cage.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Is this being asked of me now because now is when I cannot assess it?” — Timing is the tell. A real invitation survives Tuesday.
 

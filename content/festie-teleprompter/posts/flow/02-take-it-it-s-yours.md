@@ -15,6 +15,8 @@
 
 “This one's F.L.O.W. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “TAKE IT, IT'S YOURS”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Generous, well-equipped, and quick to notice what you cannot afford. Hands you a set of pro-grade props, a rig, a costume, a fire kit. Does not want anything for it, says so repeatedly, and mentions its value twice.
 
 Here's the scene. Your poi are entry-level and everyone knows it. He has a spare set of the ones you have been saving for — seven hundred dollars of them — and he wants you to have them, no, really, take them, he has three sets. Two weeks later there is an afterparty you do not want to go to and the sentence in your head, unprompted, is that he gave you the poi.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Taking it back is floated, lightly, when you say no to something
 
 Here's what's actually happening. Reciprocity is the strongest lever in the book — a received gift creates a felt obligation that operates below deliberation, and it does not care whether you asked for the gift or wanted it. Gift economy culture supercharges it, because the frame says a gift is pure, which removes your permission to be suspicious of one. Expensive gear is a particularly efficient version: it is high value, it is useful daily, it visibly improves your practice, and every time you use it you renew the debt. Most gifts in this scene are exactly what they look like. The tell is not generosity. It is generosity that arrives before the relationship has any other content.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The O check: “Would I be comfortable saying no to this person tomorrow?” — If the gear makes that harder, the gear is doing something other than spinning.
 

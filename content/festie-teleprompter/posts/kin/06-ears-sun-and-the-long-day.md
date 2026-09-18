@@ -15,6 +15,8 @@
 
 “This one's K.I.N. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “EARS, SUN AND THE LONG DAY”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. For every adult with a child at a festival. Nothing on this page involves another person. All of it is the environment, and all of it is preventable with items that cost less than a round of drinks.
 
 Here's the scene. The three things that send children to a festival medical tent are almost never dramatic: overheating, exhaustion, and the slow damage of a hundred decibels going into ears that are much more vulnerable than yours. None of it looks like an emergency while it is happening, which is precisely the problem.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Watch for the quiet child — that is the sign, not the crying one
 
 Here's what's actually happening. Children's hearing is more vulnerable than adults' and noise damage is cumulative, permanent, and completely painless at the time, which is why nobody acts on it. Festival sound levels routinely sit where hearing protection is required in an occupational setting, and a child does not have to be at the rail to be exposed — a campsite within earshot of a stage is enough over three days. Heat and exhaustion are the other two, and both present quietly: a child who is overheating or depleted goes still and compliant rather than loud, which reads to a busy adult as a child who is finally settling down.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The I check: “Defenders on, hat on, water in the last hour, and when was the last quiet hour?” — Four things, on a loop, all weekend.
 

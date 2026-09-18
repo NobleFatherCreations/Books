@@ -15,6 +15,8 @@
 
 “This one's C.A.R.E. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THAT IS MEDICAL, NOT US”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. For everyone on a harm reduction or welfare shift, holding a role with no clinical registration and a queue of people whose conditions you are not qualified to assess.
 
 Here's the scene. He has been sitting with you for an hour and is not improving, and you are not sure whether this is a long comedown, dehydration, a reaction, or something genuinely medical. Walking him to the medics feels like escalating, and you have a specific fear of being the volunteer who overreacts and looks green in front of the medical team.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/care/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You are debating it with yourself, which is itself the threshold
 
 Here's what's actually happening. Harm reduction and welfare workers are the first point of contact for a great many situations and are not clinicians, and the most consequential skill in the role is a low, pre-decided threshold for escalation. Every serious festival incident review finds the same thing: the delay happened because somebody was not sure it was serious enough. The thresholds above are not judgement calls and should not be treated as any — temperature extremes, breathing changes, unrousability, seizures and head injuries go to medical immediately, every time, without a discussion about whether it warrants it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/care/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The R check: “Am I debating whether this is medical?” — The debate is the answer. Escalate while you are still discussing it.
 

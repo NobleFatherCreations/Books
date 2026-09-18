@@ -15,6 +15,8 @@
 
 “This one's A.C.C.E.S.S. — Community. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “FOUND YOUR PEOPLE VS BEING SOMEBODY'S PROJECT”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The good version is other disabled and neurodivergent people, and the non-disabled people who have been around them long enough to have stopped performing. The other version means well, sometimes intensely, and needs you to be receiving something.
 
 Here's the scene. Two things happen the same weekend. A woman with a cane and a folding stool sees you doing the arithmetic about the distance to the second stage, and says without ceremony that the north path is flat and there is a bench two-thirds of the way, and then talks to you about the lineup for twenty minutes and never mentions either of your bodies again. And a man tells you three times that his camp is a safe space for you and asks whether you are comfortable and asks again and asks whether you are sure.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Project: your presence in their camp gets mentioned to other people
 
 Here's what's actually happening. Real community is identifiable by one thing: whether you can decline without it costing you. In genuine crip and ND space, refusing help, leaving early, going non-verbal, or simply being unimpressive changes nothing about your standing — there is no ledger. Tokenizing warmth is transactional even when it is sincere, and the transaction is that your comfort confirms someone's self-image, which means your discomfort becomes a problem for them rather than for you. The scene has an enormous amount of the real thing in it. It also has people for whom your inclusion is a credential, and the two can sit in the same camp.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The S check: “Can I say no here and have it change nothing?” — If declining costs you standing, it was never community. It was an arrangement.
 

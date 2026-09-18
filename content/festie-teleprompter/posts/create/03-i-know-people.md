@@ -15,6 +15,8 @@
 
 “This one's C.R.E.A.T.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “I KNOW PEOPLE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The "connector" — not quite a manager, not qui
 
 Here's the scene. "I'm going to connect you with everyone this weekend — I know all the right people." He does introduce you to two legitimate leads. He also begins referring to himself as your "rep" in conversations with those leads and starts mentioning a 20% "arrangement" that you never agreed to. By the time you realize what's happening, the leads think he's already your manager.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Introduces themselves as your "rep" or "manager" in conversations without your agreement
@@ -32,6 +36,8 @@ Watch for these signs.
 - You're now in a complicated position with leads who believe a deal exists
 
 Here's what's actually happening. The parasitic middleman move works by creating facts on the ground before you've had a chance to define the relationship. By the time you understand what they're claiming, they're already representing you to the people who matter to you professionally. Clear, early conversation about what any assistance means in terms of compensation is the only protection. If someone introduces themselves as your representative without your agreement — correct it immediately and directly.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The C check: “Have I agreed to any representation arrangement — or is someone claiming one that was never actually agreed?” — a representative you never hired is telling you exactly who they are.
 

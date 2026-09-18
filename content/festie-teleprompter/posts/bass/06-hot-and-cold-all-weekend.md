@@ -15,6 +15,8 @@
 
 “This one's B.A.S.S. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “HOT AND COLD ALL WEEKEND”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The person — could be a romantic interest, cou
 
 Here's the scene. Friday she was electric — connected, present, making you feel like the only person at the festival. Saturday she was barely there, cold, short. Saturday night she reappeared like nothing had happened, warm and magnetic again. You felt such relief to have her back you didn't ask about Saturday. Now it's Sunday and you've spent the whole weekend managing her temperature rather than enjoying the festival.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Intense warmth followed by unexplained withdrawal, then warmth again
@@ -32,6 +36,8 @@ Watch for these signs.
 - The cold makes the warm feel more valuable than it actually is
 
 Here's what's actually happening. Intermittent reinforcement is the most powerful conditioning mechanism in human psychology. Random reward creates compulsive seeking — it's the slot machine principle. When warmth is unpredictable you crave it more than if it were consistent. This applies whether the hot-cold is romantic, social, or professional. The cold isn't distance — it's the tool. The warmth isn't the reward — it's the hook being set.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The B check: “Am I feeling relief or genuine happiness when she's warm? Those are different things.”
 

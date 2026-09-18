@@ -15,6 +15,8 @@
 
 “This one's C.A.R.E. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE SHIFT KIT”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. For everyone working a harm-reduction, welfare or sober-support shift — paid, volunteer, or the person who just ended up doing it because they were the one who was up.
 
 Here's the scene. You will spend this shift giving people your full attention at the worst moment of their weekend. Everything on this page is what makes that sustainable past year two, and it is all arranged before the shift rather than during it, because during it you will be entirely focused on somebody else.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/care/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - A debrief booked for after — a named person and a time, not a vague intention
 
 Here's what's actually happening. Harm-reduction workers occupy a role that is simultaneously high-exposure and low-protection: physical proximity to impaired people, emotional weight, long hours, and frequently no supervision, no insurance and no handover. The two failure modes are burnout and boundary drift, and they feed each other — a depleted worker is worse at holding a line, and a worker who has been holding no lines depletes faster. Everything here is structural rather than attitudinal, because attitude is exactly what goes first at hour nine of a shift.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/care/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Do I have a shift partner, a break time, and a debrief booked?” — Three answers before you start, or you are improvising your own protection while looking after somebody else.
 

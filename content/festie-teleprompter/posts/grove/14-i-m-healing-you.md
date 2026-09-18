@@ -15,6 +15,8 @@
 
 “This one's G.R.O.V.E. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “I'M HEALING YOU”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The Self-Appointed Healer. Uses therapeutic, som
 
 Here's the scene. "You have blocked energy in your hips — I can feel it from here. I do somatic release work." He's already reaching. The ceremony just ended. You're tender and wide open. Three people told you he's legit. He has a beautiful altar. You don't want to block your own healing. His hands are on your body before you said yes. You didn't say no either. But you also never said yes.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Physical contact initiated under therapeutic framing without your explicit verbal yes
@@ -32,6 +36,8 @@ Watch for these signs.
 - Credentials asserted verbally but impossible to verify in the moment
 
 Here's what's actually happening. Spiritual authority abuse weaponizes the healer role to bypass the consent conversation. It works because festival culture values healing (the frame seems legit), the therapeutic context makes touch feel appropriate, and questioning a healer feels like questioning healing itself. Real somatic practitioners and ceremony facilitators are trained to obtain clear, uncoerced consent before any physical contact. That standard exists to protect you. If someone skips it — the reason is not that they're too advanced for it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The G check: “What is my gut saying about this person — underneath the role they’re performing right now?” — if the answer doesn’t match the title, trust the gut over the role.
 

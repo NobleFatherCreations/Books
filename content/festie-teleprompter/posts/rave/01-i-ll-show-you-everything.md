@@ -15,6 +15,8 @@
 
 “This one's R.A.V.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “I'LL SHOW YOU EVERYTHING”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The 10-year veteran who adopts you at the gate. 
 
 Here's the scene. You're overwhelmed at the gate — it's bigger than you imagined and your signal is patchy. He appears: eleven years of attendance, knows everyone, perfect camp set up. He walks you in, introduces you to people, knows where everything is. By Day 2 you haven't made a single independent decision about your weekend. By Day 3 when he makes a move you're not comfortable with, saying no feels like losing your entire festival infrastructure.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Makes himself the essential navigator of your experience from the first hour
@@ -32,6 +36,8 @@ Watch for these signs.
 - Any desire to explore alone is gently discouraged as unsafe or naive
 
 Here's what's actually happening. The "guide" setup mimics genuine mentorship so closely. Real guides give you information and independence. Predatory guides give you access that requires them. The test is simple: after 48 hours with a real mentor, you know more about how to navigate independently. After 48 hours with a predatory guide, you know less — because your navigation runs through them.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The V check: “Can I get to my camp, the medical tent, and the exit right now without asking him?” — if not, you’re not being guided, you’re being kept.
 

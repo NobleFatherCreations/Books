@@ -15,6 +15,8 @@
 
 “This one's B.A.S.S. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOU OWE THE CAMP”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The camp structure where housing, infrastructure
 
 Here's the scene. The camp was incredible — shade structure, kitchen, generator, solid location. "We just ask that everyone contributes to community." Week 1: set up shifts. Week 2: purchasing supplies. Week 3: managing other members. Month 3: you're running operations for the camp and still paying your entry fee and you're not sure exactly how you got here, but leaving now feels like abandoning something you've built.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Contribution expectations vague at start and expand with each event
@@ -32,6 +36,8 @@ Watch for these signs.
 - Camp leadership is not accountable in the same ways regular members are
 
 Here's what's actually happening. Camp debt works the same way gifter debt does — at a larger scale with a group enforcement mechanism. The contributions feel small individually but accumulate. The belonging feels real and the infrastructure is genuinely valuable. The tell is whether the arrangement is reciprocal and defined. Real community has terms both parties can articulate. When your contributions keep expanding and the camp's contributions stay stable — you're working, not belonging.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The S check: “When did I last actually talk to people outside this camp — my own people?”
 

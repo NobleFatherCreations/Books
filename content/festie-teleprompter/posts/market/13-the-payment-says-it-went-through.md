@@ -15,6 +15,8 @@
 
 “This one's M.A.R.K.E.T. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE PAYMENT SAYS IT WENT THROUGH”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Somebody who has worked out that a vendor at hour nine, in bad light, with a queue forming and no signal, cannot verify anything and will not hold up the line to try.
 
 Here's the scene. He shows you the screen. It says sent, with your name on it and a tick. It is half past eleven, the signal has been dropping all day, your banking app will not load, and there are four people waiting behind him holding things they want to buy. You hand over the piece.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Refunds requested in cash for a card transaction
 
 Here's what's actually happening. Every one of these relies on the same three conditions a festival supplies reliably: bad connectivity, bad light and social pressure from a queue. A transfer screenshot proves nothing and is trivial to fake; a pending or unsettled card payment is not a payment; and counterfeit notes at a market stall late at night are an old trade that persists because nobody wants to be the vendor who holds up the line over a twenty. The cash-refund version is the cleanest fraud of the lot, and the answer to it is that a refund goes back the way the money came, always.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The M check: “Has the money arrived in my account, or have I been shown a picture of money?” — Those are not the same event.
 

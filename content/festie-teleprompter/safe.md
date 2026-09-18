@@ -3,6 +3,8 @@
 
 *A spoken-word teleprompter script — one scenario at a time, ready to read straight to camera.*
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/cover.png`]** — video open — type this video's scenario/section title into the blank bottom third before recording, then hold or fade from it.
+
 **Quick shoutout before we start:** every scenario in this guide — and 252 more across the other twenty guides — lives free at **www.noblefathercreations.com/festival**.
 
 This is S.A.F.E.: Health & Safety Edition. The guide for looking out for yourself and everybody around you all weekend.
@@ -29,6 +31,8 @@ Here's who this is. By the time you feel thirsty at a festival you are already b
 
 Picture this. It is 2pm Saturday and it is hot. You have been dancing since 11am. You have had one bottle of water and three sips from someone else's hydration pack. You feel fine — energized actually, slightly euphoric. That feeling is not a reliable indicator of your hydration status. By the time the headache hits and you start feeling off your balance you are already significantly behind. The medical tent is about to get busy because you are not the only one.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Drink water consistently throughout the day — at least 500ml per hour in heat and while dancing
@@ -37,6 +41,8 @@ Here are the signs.
 - Signs of heat stroke — EMERGENCY: hot red dry skin, no sweating, confusion, loss of consciousness
 
 Here's the mechanism underneath it. Festivals combine multiple dehydration risk factors simultaneously: physical exertion from dancing, sun and heat exposure, alcohol and stimulant use (both increase fluid loss), and environments that make stopping to drink feel inconvenient. Heat exhaustion is common and treatable. Heat stroke is a medical emergency that kills people. The difference between them is speed of treatment. Know the signs. Act early. The medical tent is there specifically for this.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The F check: “Do I know where the medical tent is — and have I actually had enough water in the last hour?”
 
@@ -57,6 +63,8 @@ Let's talk about who does this. Festivals are designed for endurance — multipl
 
 Here's how it plays out. It is Sunday morning. You have slept a total of six hours over three nights. You have eaten intermittently and mostly festival food. You have consumed substances that have both depleted your body and masked the signals it is trying to send you. You are running on a combination of adrenaline, social excitement, and genuine will. You feel okay. You are not okay. And the decisions you make today — about substances, about consent, about safety — will be made from this state.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Eat at least two real meals per day even when the music is calling — your judgment depends on it
@@ -65,6 +73,8 @@ Watch for these.
 - Foot care matters — blisters become infections, infections at festivals are hard to treat
 
 Here's what's really going on. Sleep deprivation is one of the most consistently underestimated risk factors at festivals. After 36 hours without sleep, cognitive impairment is equivalent to a 0.10 blood alcohol level. After 48 hours it is significantly higher. Combined with substances, heat, and social pressure this creates a state where the very judgment systems you need to make good decisions about your own safety are significantly compromised. Rest is not weakness. Rest is strategy.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The A check: “Am I making decisions right now with my full judgment — or with a significantly depleted version of it?” — rest isn’t missing the festival. It’s what makes you available to actually be in it.
 
@@ -89,6 +99,8 @@ Here's who you're dealing with. Fentanyl is in the supply. It is in pills, powde
 
 Here's the scene. "Someone in our camp tested their MDMA Saturday morning and it came back as something completely different." This happens at every major festival. Not occasionally — every festival, every season. The person who handed it to you may not have known either. Testing is not about distrust of the person who gave it to you. It is about knowing what is actually in what you are consuming. You would not eat a wild mushroom without identifying it first. Same exact energy. Same exact stakes.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Fentanyl test strips: dissolve a tiny amount in water, dip — ONE line means fentanyl present, do not use
@@ -97,6 +109,8 @@ Here's what to watch for.
 - Wait before redosing — onset times vary and stacking doses before you feel the first one is how people get in trouble
 
 Here's what's actually happening. The recreational drug supply has been contaminated with fentanyl and fentanyl analogues at a scale that makes testing not optional — it is a basic safety step equivalent to checking that your tent stakes are in the ground before it rains.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The A check: “Have I tested this — and does everyone in my group know what to do if something goes wrong?” — two minutes of testing is the difference between a good night and a medical emergency.
 
@@ -117,6 +131,8 @@ Here's who this is. Most serious adverse events at festivals involve combination
 
 Picture this. You took MDMA earlier. Someone offers you something they describe as a downer to take the edge off. You do not know exactly what it is. You are already altered and the offer feels casual and the person seems trustworthy. This specific combination — a stimulant and a CNS depressant — is one of the most common contributors to serious adverse events at festivals. Not because either thing alone is necessarily fatal but because the combination creates unpredictable interactions that your altered state makes it hard to assess.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - MDMA plus alcohol: dramatically increases dehydration and cardiovascular strain
@@ -125,6 +141,8 @@ Here are the signs.
 - Any substance plus another substance from an unknown or unverified source: compounded unknown risk
 
 Here's the mechanism underneath it. Polydrug use — using more than one substance — is extremely common at festivals and the risk profile of combinations is not intuitively obvious. Substances that seem to balance each other out are often actually masking warning signals from your body. The feeling of being okay is not reliable information when two substances are creating competing effects. The Harm Reduction tent has staff trained in polydrug risk assessment. When in doubt — go there before you take something else.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The A check: “Do I know what I have already taken and do I actually know what I am being offered right now, specifically?” — the combination is where most of the risk lives. Know what you’re mixing before you mix it.
 
@@ -145,6 +163,8 @@ Let's talk about who does this. The most important thing to Know about someone i
 
 Here's how it plays out. Your campmate is not responsive. You called their name. You shook their shoulder. They are breathing but slowly — it sounds wrong. Their lips look slightly blue. You do not know exactly what they took. You are scared. You are also the person standing there right now and you are the only thing standing between this situation and a very different outcome. You have about two minutes to make a decision that matters enormously.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Unresponsive or very difficult to rouse — this is the clearest emergency sign
@@ -153,6 +173,8 @@ Watch for these.
 - Gurgling or snoring sounds from airway — roll them to recovery position on their side immediately
 
 Here's what's really going on. Opioid overdose is the most immediately life-threatening substance emergency at festivals and Narcan reverses it. But stimulant overdose, serotonin syndrome, and heat stroke can also present as altered consciousness and require different emergency responses. The common thread is this: if someone is unresponsive or their breathing is wrong — call for medical help immediately and administer Narcan if you have it, because if it is an opioid overdose the Narcan will help and if it is not it will not harm them.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The F check: “Do I know where the medical tent is and do I have Narcan in my camp right now?”
 
@@ -177,6 +199,8 @@ Here's who you're dealing with. At some point this weekend you will see somethin
 
 Here's the scene. You are walking between stages and you see a woman sitting with a man who seems agitated. Her body language is closed. He is leaning into her space and she is looking at the ground. You are not sure if it is anything. You almost keep walking because you do not want to assume, do not want to make it weird, do not want to be wrong. But something caught. This is the moment. This is the one. You have three options and they all take less than two minutes.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - THE DISTRACTION: walk up like you know her — "Oh my god, there you are! I have been looking everywhere for you!"
@@ -185,6 +209,8 @@ Here's what to watch for.
 - You do NOT have to confront the person causing concern — that is not required and not always safe
 
 Here's what's actually happening. The most effective bystander interventions are the subtle ones — the distraction approach changes the social dynamic without confrontation and gives the person an exit without escalation. You do not have to be certain something is wrong to intervene. You do not have to be a hero. You just have to be the person who showed up. The festival community is only as safe as what each individual does in the moment they notice something.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The S check: “What did I actually see — and which of the three moves fits this situation?”
 
@@ -205,6 +231,8 @@ Here's who this is. Being altered is a normal part of many festival experiences.
 
 Picture this. Your friend is having a bigger night than she intended. She is not in medical trouble but she is very out of it — she cannot navigate independently, she is making decisions that she would not make with clearer judgment, and she is attracting attention from some people who seem very interested in being helpful in ways that feel off to you. This is the moment where the buddy system is not a suggestion. It is the thing that determines how her night ends.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Cannot navigate or find their way without help — beyond just being unfamiliar with the layout
@@ -213,6 +241,8 @@ Here are the signs.
 - Others are clustering around them in ways that feel more predatory than supportive
 
 Here's the mechanism underneath it. Severe impairment in a festival environment is a specific vulnerability state that predatory people specifically target. The person who cannot walk straight, cannot communicate clearly, and cannot make coherent decisions cannot consent to anything and cannot protect themselves from anyone. If your friend or someone near you is in this state — stay with them. Get them to a safe space. If they need medical attention get it without hesitation. Good Samaritan laws exist for exactly this situation.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The E check: “Can this person take care of themselves right now — and if not, who is actually with them?”
 
@@ -237,6 +267,8 @@ Let's talk about who does this. The single most effective thing you can do for y
 
 Here's how it plays out. It is Thursday afternoon and you have just arrived. Your camp is set up. The festival has not really started yet. Everything feels calm and oriented. This is the moment to walk the grounds with your group and find the three locations. Not Saturday night when you need them. Right now. The ten minutes you spend orienting yourselves right now are the ten minutes that could determine how a difficult situation on Saturday night resolves.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Medical tent: equipped for physical emergencies, serious injury, overdose, and heat illness
@@ -245,6 +277,8 @@ Watch for these.
 - Note the nearest water stations and shade structures to all three locations
 
 Here's what's really going on. The gap between knowing where help is and not knowing where help is is the difference between a situation that gets addressed quickly and one that escalates because nobody knows what to do or where to go. In a medical emergency at a festival, every minute matters. Pre-mapping your resources is the preparation that costs nothing and is worth everything.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The F check: “Have I physically located the medical tent, Harm Reduction tent, and Ranger station with my own feet, not just on the map?” — knowing where help is before you need it is the preparation everything else builds on.
 
@@ -265,6 +299,8 @@ Here's who you're dealing with. Someone in your group is missing and you have no
 
 Here's the scene. It is 4am and your campmate said she was going to the bathroom two hours ago and has not come back. Her phone is going to voicemail. You have checked the spot where you usually meet up. You have asked around the camp. Nobody has seen her. You are torn between assuming she is fine and having a good time somewhere and the feeling in your gut that something is wrong. The feeling in your gut is data.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Report to festival security or Rangers as soon as you are concerned — there is no minimum time to wait
@@ -273,6 +309,8 @@ Here's what to watch for.
 - Check the medical tent and Harm Reduction tent before assuming the worst — she may already be safe there
 
 Here's what's actually happening. There is no required waiting period before reporting a missing person at a festival. The idea that you must wait 24 hours is a myth and in a festival context is actively dangerous. Report as soon as you are concerned. Festival security, Rangers, and medical teams all have protocols for missing persons. The earlier you report, the better the resources available, and the better the outcomes. Your concern is sufficient reason to make a report.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The E check: “Have I already checked medical and Harm Reduction tents — and do I have her photo on my phone, ready to show people?” — there’s no minimum wait time to report someone missing. Report when you’re concerned, not after.
 
@@ -293,6 +331,8 @@ Here's who this is. Nobody. This is physics, and it is the most lethal thing tha
 
 Picture this. You are forty rows back and the crowd has stopped feeling like people. You are being moved without walking. Your arms are pinned. There is a wave that goes through from behind and you feel your feet leave the ground briefly, and you cannot get your chest to expand fully on the in-breath.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - You are being carried by the crowd rather than choosing your steps
@@ -303,6 +343,8 @@ Here are the signs.
 - You cannot see a gap, a barrier gate, or an edge
 
 Here's the mechanism underneath it. Crowd deaths are compressive asphyxia, not trampling: the pressure of bodies prevents the chest from expanding and a person suffocates upright, frequently while nobody around them realizes what is happening. It becomes dangerous above roughly five people per square metre and the window is short. The three things that matter are simple and completely counterintuitive, which is why they have to be known in advance rather than worked out at the time.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The S check: “Can I raise my arms and take a full breath?” — The moment the answer is no, you are in a crush and you start moving out now, not later.
 
@@ -323,6 +365,8 @@ Let's talk about who does this. The weather, at a site made of temporary metal s
 
 Here's how it plays out. The stage goes dark mid-set and a voice says something you cannot make out over the PA, and the crowd starts to move in a direction, and it is beginning to rain properly. Nobody around you knows whether this is a five-minute pause, a storm hold, or a full evacuation, and the field is already becoming a single large moving mass.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Stages held or dark with no clear announcement reaching you
@@ -333,6 +377,8 @@ Watch for these.
 - You do not know where your site's shelter or muster points are
 
 Here's what's really going on. Weather is the likeliest cause of a mass evacuation at an outdoor event and every festival has a plan for it that attendees have almost never read. The two lethal versions are lightning — a field of temporary metal structures with no substantial buildings is close to the worst possible place — and the crowd movement that an evacuation itself produces, which is where the injuries actually happen. Heat is the slower one and it kills more people than storms do, usually through people who have been dancing in sun for hours without shade or salt.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The F check: “Do I know where my shelter is and where my camp's muster point is?” — Find both on Thursday, because there is no time to find them on Saturday.
 
@@ -357,6 +403,8 @@ Here's who you're dealing with. Difficult psychological experiences at festivals
 
 Here's the scene. Your friend took something three hours ago and for the first two hours he was having the time of his life. Now something has shifted. He is very frightened — he cannot articulate why exactly but everything feels threatening. He is trying to leave the area but you are not sure where he wants to go or if he should be alone right now. He is not in physical danger but he is clearly in real psychological distress and getting more so.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Intense fear or panic without a clear external cause
@@ -365,6 +413,8 @@ Here's what to watch for.
 - Physical symptoms accompanying the psychological distress: rapid breathing, shaking, sweating
 
 Here's what's actually happening. Difficult psychedelic or substance-induced experiences are almost always temporary and almost always respond well to calm, quiet, grounded support. The worst things you can do: try to talk them out of their experience, argue with them about what is real, leave them alone, or take them to a loud and stimulating environment. The Zendo Project specializes specifically in difficult psychedelic experience support and has trained staff at many major festivals. Get them there if available.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The F check: “Do I know where the Zendo or Harm Reduction tent is — and can I get us both there calmly, without rushing them?” — a calm presence is the most powerful intervention there is, and you already have it.
 
@@ -385,6 +435,8 @@ Here's who this is. Festival environments can precipitate genuine mental health 
 
 Picture this. Your campmate has been quiet and withdrawn since Saturday morning. He came out once, said he was fine, went back in. It is Sunday and you have knocked twice and he said he was okay but something in his voice did not match the word. He has not eaten anything you know of. He made a comment last night about not being sure why he came. You are sitting with the question of whether to push harder to check on him. Push harder.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Withdrawal from the festival for an extended period when they came to engage
@@ -393,6 +445,8 @@ Here are the signs.
 - Not eating, not sleeping, not coming out — for longer than exhaustion alone explains
 
 Here's the mechanism underneath it. Mental health crises at festivals are underreported and underidentified because the expectation is that everyone is having a good time and should be having a good time. The signs can be subtle and easy to attribute to tiredness or a difficult trip. If your gut says something is wrong with someone in your group — check on them again. Ask directly. "Are you actually okay — because I am asking for real." The question asked with genuine care and real eye contact is a different question than the passing "you okay?"
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The S check: “What is my gut actually telling me about this person — and am I acting on it?”
 
@@ -417,6 +471,8 @@ Let's talk about who does this. Something happened this weekend. Or you watched 
 
 Here's how it plays out. It is Sunday afternoon and the festival is winding down and you are sitting with something heavy. You are not sure if you are being dramatic. You are not sure who to tell. You are exhausted and overwhelmed and every feeling is louder than normal. Here is what is true: you do not have to have it figured out to deserve support. You do not need a perfect story. You do not need certainty about what happened or what to call it. You just need to reach out.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - You do not need a perfect memory or perfect certainty to deserve support — reach out anyway
@@ -425,6 +481,8 @@ Watch for these.
 - Crisis Text Line: text HOME to 741741 if talking feels too hard right now
 
 Here's what's really going on. Post-incident processing is hard enough without the additional weight of deciding whether your experience is bad enough to matter. It is. Whatever level of severity it sits at — it matters. You do not have to be okay by the time you load the car. You do not have to have it figured out before you talk to someone. Give yourself the first 48-72 hours for basic recovery — sleep, food, low stimulation — before trying to process fully. Then talk to someone you trust.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The E check: “What does my body actually need right now — not what does the situation require me to perform?” — you don’t have to be okay yet. Support exists, and you deserve it.
 
@@ -445,6 +503,8 @@ Here's who you're dealing with. The buddy system is not childish. It is the sing
 
 Here's the scene. Friday morning before the festival opens your group sits down for ten minutes. Everyone says who their buddy is for the weekend. You set a check-in time — 2pm every day, you physically find each other or send a specific text. You choose a code word that means "come find me right now, no questions." You agree on a meeting spot for if you get separated. You agree that if anyone does not check in on time someone comes looking. Ten minutes. That is the whole investment.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Name your buddy before gates open — not organically during the festival
@@ -453,6 +513,8 @@ Here's what to watch for.
 - Agree on a physical meeting spot that does not require phone signal to find
 
 Here's what's actually happening. The buddy system works because it creates accountability before you need it — not after something has already gone wrong. The check-in time means that if something is wrong you know within hours, not days. The code word means you can signal for help in any situation without making a scene. The meeting spot means you can reconnect without phone signal. These are not elaborate safety measures. They are ten minutes of planning that changes the entire risk profile of your weekend.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The E check: “Does everyone in my group have a buddy, and do we all have the code word and the meeting point, agreed before we split up?” — ten minutes spent on this before the festival is the preparation that matters most.
 
@@ -473,6 +535,8 @@ Here's who this is. Some of the simplest safety habits in festival culture are a
 
 Picture this. It is 3am Saturday. You need the bathroom and your campmate is finally asleep and your buddy is at a set you did not want to see. The walk to the bathroom is maybe four minutes through a part of the festival that is less busy at this hour. You almost go alone. The almost is the moment. The almost is where the simple habit matters.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Bathroom buddy rule: someone walks with you to the bathroom after dark, every time, no exceptions
@@ -481,6 +545,8 @@ Here are the signs.
 - The quiet check-in: "you good?" before splitting up is two seconds and it matters
 
 Here's the mechanism underneath it. Most adverse incidents at festivals happen in low-visibility, low-traffic situations in the later hours of the night — on walks between stages, in bathroom queues, in the paths between camping areas. The simple habit of not being alone in those moments is one of the most effective risk reductions available. It does not require elaborate systems. It just requires the group norm that you do not let people walk alone after dark.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The E check: “Is anyone in our group alone right now in a situation where they should not be?”
 
@@ -501,6 +567,8 @@ Let's talk about who does this. The festival community is only as safe as what e
 
 Here's how it plays out. You are at the water station and a woman comes up alone and asks if you can spare a phone charger for ten minutes. She says she got separated from her group and cannot reach anyone. She seems okay but uncertain. You have a portable charger. The ten minutes it takes to help her reconnect with her group might be the ten minutes that means her story has a good ending. This is what community care actually looks like — not grand gestures, small ones.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Share your phone charger freely — a charged phone is safety infrastructure for everyone
@@ -509,6 +577,8 @@ Watch for these.
 - If you are leaving a set and see someone alone at the edge who looks uncomfortable — the distraction approach works on strangers too
 
 Here's what's really going on. Community safety at festivals is not the responsibility of staff and Rangers alone — it is a distributed responsibility across every person there. The small acts of community care — sharing a charger, asking if someone is okay, walking someone to the Harm Reduction tent, using the distraction approach for a stranger in a difficult situation — these are what make the difference between a festival where harm happens and goes unaddressed and one where the community catches things before they escalate.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The E check: “Am I extending care beyond my own group — or only looking out for the people I know?”
 
@@ -529,6 +599,8 @@ Here's who you're dealing with. Everybody, on the Monday, in a car park of eleve
 
 Here's the scene. It is packed up, it is ten in the morning, and everyone is driving home. You feel alright. You had a big weekend, you slept badly in a tent for four nights, you may still have something in your system, and you are about to do three hours on a motorway with three exhausted friends asleep in the car.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Under five hours of sleep per night across the whole weekend
@@ -539,6 +611,8 @@ Here's what to watch for.
 - “I'll stop if I feel tired”, which is not how microsleeps work
 
 Here's what's actually happening. The drive home is statistically the most dangerous part of a festival weekend and it gets no attention at all because the festival feels over. Three impairments stack: cumulative sleep debt from four nights in a tent, residual substances or a comedown, and in a large number of cases still being over the drink-drive limit the following morning. Fatigue impairment is comparable to alcohol impairment, and the microsleep is the specific killer — a few seconds of sleep that the driver does not know occurred.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The E check: “How much have I actually slept since Thursday, and what is still in me?” — Answer honestly, out loud, to somebody else in the car.
 

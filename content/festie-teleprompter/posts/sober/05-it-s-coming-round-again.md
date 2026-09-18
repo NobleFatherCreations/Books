@@ -15,6 +15,8 @@
 
 “This one's S.O.B.E.R. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “IT'S COMING ROUND AGAIN”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The circle itself. The joint, the bottle, the balloon, the vape — a physical object moving clockwise, arriving at you every few minutes, requiring a small public decision each time, for six hours.
 
 Here's the scene. It is not one refusal, it is the fortieth, and by the fortieth you have stopped saying anything and started doing the small hand movement, and somebody has noticed and said something kind about it which made it worse, and you are now thinking about leaving a fire you were enjoying because the geometry of the circle has made your sobriety the most visible thing about you all night.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You have started avoiding fires you actually like
 
 Here's what's actually happening. Refusal fatigue is real and underrated: the cost of any single no is negligible and the cost of forty is significant, particularly when each one happens in front of people and requires a micro-decision about tone. It is also the mechanism by which sober people quietly stop going to the parts of a festival they enjoy most, which produces exactly the isolation that everything else in this guide warns about. The circle is not doing anything to you. The geometry is doing it, and geometry can be changed.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The B check: “Am I avoiding somewhere I like because of the effort of being there?” — That is the cost showing up, and it is fixable without leaving.
 

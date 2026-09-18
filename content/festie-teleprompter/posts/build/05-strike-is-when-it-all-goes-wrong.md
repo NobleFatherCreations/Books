@@ -15,6 +15,8 @@
 
 “This one's B.U.I.L.D. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/build/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “STRIKE IS WHEN IT ALL GOES WRONG”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The last forty-eight hours, when the audience has gone, the production office has half packed, most of the supervisors have left, and whoever is still on site is dismantling in the dark with the fewest people and the least oversight of the entire job.
 
 Here's the scene. Everyone is exhausted, the structures are coming down in reverse order by people who did not put them up, half the crew are new faces brought in for the teardown, and the person who would have said no to something is already on a train. There is no briefing for strike. There never is.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/build/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Payment and paperwork also leaving the site, with you unpaid
 
 Here's what's actually happening. Teardown concentrates every risk factor in this guide into the shortest window: maximum fatigue, minimum supervision, unfamiliar crews, and a strong collective incentive to be finished. Dismantling is more dangerous than erecting, because loads shift unpredictably when a structure comes apart and because the people taking it down often do not know how it went together. It is also when the money leaves — the production company is closing the site down, and a worker who is owed and has not been paid is now chasing an organization that has physically gone.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/build/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The U check: “Who is supervising strike, and who am I handing this structure to?” — If nobody can answer, that is the finding, on day one of teardown.
 

@@ -15,6 +15,8 @@
 
 “This one's F.L.O.W. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “TRUST ME, I'VE GOT YOU”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Your base, your flyer, or the person spotting. The discipline requires hands on your ribs, hips and inner thighs, so the contact is legitimate, constant and unremarkable — which is the whole difficulty.
 
 Here's the scene. You are inverted with your entire weight on his hands and he adjusts his grip, and the adjustment goes somewhere that was not necessary for the position, and you are upside down four feet off the ground and the only thing keeping you there is the person who just did that. You come down. Neither of you says anything. He books you for the next jam.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You come out of a wash feeling odd and cannot point to a single thing
 
 Here's what's actually happening. Partner acro, aerial and any spotting discipline share a structural problem: consent to hold has to be given in advance and continuously, while the person giving it is frequently inverted, load-bearing, or in a position where objecting is physically unsafe. Every acro community that has addressed this has landed on the same protocol — name the contact before the move, no new contact mid-position, and trust means trusting the hold rather than trusting the person's intentions. The word trust is the thing to watch, because it is doing safety work and social work simultaneously and somebody can lean on the second to get the first.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The W check: “Was this contact named before the move started?” — Unnamed contact is the finding, regardless of where it landed.
 

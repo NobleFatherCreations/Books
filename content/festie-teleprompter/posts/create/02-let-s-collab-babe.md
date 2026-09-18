@@ -15,6 +15,8 @@
 
 “This one's C.R.E.A.T.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “LET'S COLLAB, BABE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The person who wants to "collaborate" — which 
 
 Here's the scene. "I have this incredible vision — I can see it so clearly — I just need someone with your skills to bring it to life. We'd be equal partners." You spend the next day executing their vague concept with your specific technical ability, your materials, your time. The finished piece gets posted with both your names. Their 8,000 followers see it first. The caption says "our piece." When you mention the execution was entirely yours, the vibe goes cold.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - They bring concept or personality; you bring skill, time, materials, and execution
@@ -32,6 +36,8 @@ Watch for these signs.
 - Their platform/following positioned as their "equal contribution"
 
 Here's what's actually happening. Platform is not the same as labor. A concept is not the same as execution. In the art world these distinctions matter enormously for credit, compensation, and professional record. The collab frame is used to extract skilled labor under the cover of partnership. A genuine collaboration is one where both parties' contributions are named honestly and the credit reflects actual work.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Does my name appear clearly on this work in a way that reflects my actual contribution?”
 

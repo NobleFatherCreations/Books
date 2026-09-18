@@ -15,6 +15,8 @@
 
 “This one's K.I.N. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE LOST-KID KIT”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. For everyone in the family field, every year, including the veterans who have done twelve of these and especially the ones who think their kid is too sensible to get lost.
 
 Here's the scene. The first ninety seconds of a missing child are the ones that matter, and they are ninety seconds in which you will be useless — heart rate through the roof, unable to remember what they were wearing, phone at four percent. Everything on this page exists so that a calm Thursday version of you has already done the thinking.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Your phone charged, and a second adult's number on the band too
 
 Here's what's actually happening. Lost children at festivals are common and almost always resolve in minutes, and the reason they resolve is infrastructure: wristbands with numbers, a welfare tent that does this constantly, and staff who are trained for it. The daily photo is the single highest-value item and the one almost nobody does — a described child is hard to search for and a photographed child in today's clothes is easy. Teaching who to approach matters as much as teaching not to wander: children told only about stranger danger will avoid the very adults most likely to help them, so name the categories instead — radio, stall, parent with kids.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The I check: “Wristband on, photo taken today, meeting point they can repeat?” — Three things, every morning, before anything else.
 

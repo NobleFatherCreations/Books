@@ -15,6 +15,8 @@
 
 “This one's L.E.N.S. — Accountability. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THERE ARE KIDS IN THAT FRAME”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. You, in the family field, where the light is good and the pictures are genuinely lovely and every single one of them has a safeguarding dimension you are responsible for.
 
 Here's the scene. A child on someone's shoulders at golden hour with her hands in the air is one of the great festival photographs and you have a clear shot of it. You do not know her, you have not spoken to her parents, and in about four hours you will be deciding whether to put a recognizable image of somebody else's child on a public account.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You would not be comfortable if a stranger did this to your own child
 
 Here's what's actually happening. Photographing children is the one area of event photography where the legal position and the professional standard diverge most sharply. In most public settings it is not unlawful, and every festival's media policy, every safeguarding lead, and every reputable agency nevertheless requires parental consent for identifiable minors — because the risk is not to you, it is to a child whose image you are putting into circulation without anyone who is responsible for them having agreed. Custody arrangements, safeguarding orders and families who are not findable are all invisible from behind a lens.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The L check: “Has a parent said yes, by name, to this specific use?” — Public setting is not permission where a child is concerned.
 

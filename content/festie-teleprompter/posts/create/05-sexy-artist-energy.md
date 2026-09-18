@@ -15,6 +15,8 @@
 
 “This one's C.R.E.A.T.E. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “SEXY ARTIST ENERGY”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The specific way sexual attention gets entangled
 
 Here's the scene. He's been complimenting your work genuinely all weekend — knowledgeable, specific, clearly understands what you're doing. It feels good to be seen by someone who gets it. Saturday night he asks if you want to "continue the conversation" at his camp. When you decline he says "I guess I misread the creative energy between us." Suddenly the whole weekend of genuine-feeling artistic recognition has a retroactive question mark over it.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Artistic interest and sexual interest arrive in the same package from the same person
@@ -32,6 +36,8 @@ Watch for these signs.
 - You start wondering which of your artistic connections this weekend were actually about your work
 
 Here's what's actually happening. For visible artists — especially women creating in public — sexual attention and professional attention are frequently bundled together. Being seen as an artist is meaningful and the confusion of that with being desired is a specific manipulation: it makes you question your artistic worth every time you decline someone's sexual interest. Your art's validity is entirely separate from anyone's desire for you.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The T check: “Is the appreciation of my work actually about my work — or is it cover for something else entirely?” — your art being beautiful does not make your body available.
 

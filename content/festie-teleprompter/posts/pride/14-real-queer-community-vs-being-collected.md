@@ -15,6 +15,8 @@
 
 “This one's P.R.I.D.E. — Community. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “REAL QUEER COMMUNITY VS BEING COLLECTED”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Festival culture collects queer people as well a
 
 Here's the scene. Two different queer people approached you warmly this weekend. One of them has been genuinely curious about you — your life outside the festival, your actual interests, what brings you joy. She introduced you to her friends without hovering. She was happy when you went off to explore independently. The other one has kept you close, positioned themselves as the key to the queer community at this festival, and seems slightly off when you spend time with anyone else. Same warm opening. Very different underlying dynamic.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Real queer community: glad when you explore and connect independently
@@ -32,6 +36,8 @@ Watch for these signs.
 - Being collected: needs you close, uses queer solidarity to justify that need
 
 Here's what's actually happening. Real queer community at festivals is built through shared experience where both people are free to give or not give, to come or go, to connect and disconnect without social penalty. It is recognizable because it expands your world rather than contracting it around any one person. Being collected uses the warm language and aesthetics of queer community while serving the collector's need for proximity, validation, or access. The difference is visible in how people respond to your independence.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The D check: “Does this person’s warmth remain consistent whether I am being close or independent?” — that consistency is the whole test.
 

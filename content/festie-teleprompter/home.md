@@ -3,6 +3,8 @@
 
 *A spoken-word teleprompter script — one scenario at a time, ready to read straight to camera.*
 
+> 🖼️ **[INSERT IMAGE HERE: `images/home/cover.png`]** — video open — type this video's scenario/section title into the blank bottom third before recording, then hold or fade from it.
+
 **Quick shoutout before we start:** every scenario in this guide — and 263 more across the other twenty guides — lives free at **www.noblefathercreations.com/festival**.
 
 This is H.O.M.E.: For The People At Home Edition. Somebody you love is going, and you are not. This one is for you — short, honest, and not what you are expecting.
@@ -29,6 +31,8 @@ Here's who this is. You, at eleven at night, four articles deep, having typed a 
 
 Picture this. You have read about the deaths. You have read the thread. You have a picture in your head assembled entirely from the events that were unusual enough to be written about, and you are about to have a conversation with somebody you love, using that picture as your evidence, and you cannot understand why they are getting defensive.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/home/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Everything you know came from coverage of things that went wrong
@@ -39,6 +43,8 @@ Here are the signs.
 - You know less about this trip than you did about the last one
 
 Here's the mechanism underneath it. News coverage selects for the rare and the terrible — that is what makes something news — so an hour of searching builds a picture in which the exception is the rule. The person you are talking to has been to four of these and had four ordinary, joyful weekends, so when you describe a place they do not recognize, the thing they learn is not that festivals are dangerous. It is that you do not know what you are talking about, and that everything else you say on the subject can be discounted. That is the actual cost, and it is not abstract: it is why they will not ring you.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/home/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The M check: “Does what I am about to say match what they will actually see this weekend?” — If not, you are spending credibility you will need later.
 
@@ -63,6 +69,8 @@ Let's talk about who does this. For the parent, partner, sibling or friend who h
 
 Here's how it plays out. You have maybe four minutes of genuine attention before this becomes a thing you do every year that they endure. Four minutes is plenty. What follows is more protective than any amount of worrying, and it is almost entirely about what you do not say.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/home/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Ask who they are going with — names, not “mates”
@@ -73,6 +81,8 @@ Watch for these.
 - End it early, warmly, and let them go and have a good time
 
 Here's what's really going on. Two questions get you the information that actually matters — who is around them and how they get out — and both are answerable without anybody having to confess to anything. The one sentence is the load-bearing part, and its power comes entirely from being unconditional: the moment it has a clause attached, it stops being a promise and becomes a negotiation, and negotiations get remembered at four in the morning. Say it once, plainly, and do not garnish it. The restraint is the technique.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/home/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The O check: “Have I asked two questions, or started listing things?” — Two questions and a sentence. Then stop.
 
@@ -93,6 +103,8 @@ Here's who you're dealing with. You, holding a worry you have not said out loud,
 
 Here's the scene. You are fairly sure. You have one conversation available before they go and two options for how to use it, and one of them ends with them telling you less forever. Everything in you wants to say do not take anything, and that sentence has a known effect, and the effect is not the one you want.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/home/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - You are planning to lead with a prohibition
@@ -103,6 +115,8 @@ Here's what to watch for.
 - You would rather not know, and they can tell
 
 Here's what's actually happening. Abstinence-only messaging performs poorly at changing behaviour and performs actively badly at maintaining disclosure — a young person who believes you cannot hear it will simply stop telling you things, and you lose the visibility that was your only real protection. The evidence favours the opposite approach: accurate information, no lecture, and an explicit guarantee that calling you costs them nothing. This is the same conversation as the one earlier in this guide, applied to the specific thing you are most afraid of.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/home/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The M check: “Am I trying to get a promise, or trying to stay somebody they can tell the truth to?” — You can have one of those.
 
@@ -127,6 +141,8 @@ Here's who this is. You, woken at four in the morning, hearing something in thei
 
 Picture this. The call you hoped would not come has come. Everything you do in the next ten minutes either makes you someone they can use or someone they regret ringing, and you will be operating on no sleep and pure adrenaline. This is why it is written down.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/home/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - First sentence: are you safe right now, and where exactly are you
@@ -137,6 +153,8 @@ Here are the signs.
 - Stay on the line until they are with a person who can help
 
 Here's the mechanism underneath it. In the first ten minutes there are exactly three useful things: establish safety, establish location, and get them to someone physically present who can help. Everything else — the explanation, the details, the feelings, the question of how this happened — belongs to a later conversation and will be available then. The reason to know this in advance is that your own fear will be enormous and will present itself as an urgent need for information, and answering that need is the single most common way these calls go wrong.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/home/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The E check: “Am I getting them help, or getting myself information?” — Both feel identical at four in the morning. Only one of them is useful.
 
@@ -157,6 +175,8 @@ Let's talk about who does this. You, at home, watching an unanswered message go 
 
 Here's how it plays out. They have not replied since Friday afternoon. It is now Saturday evening. You know the phone probably died, because everyone's phone dies, and you also cannot stop refreshing, and you have no idea whether calling the festival makes you a reasonable parent or a ridiculous one.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/home/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Silence longer than they said it would be
@@ -167,6 +187,8 @@ Watch for these.
 - You do not know the festival has a welfare team that does exactly this
 
 Here's what's really going on. Silence at a festival is overwhelmingly a dead battery and no signal — mobile networks at large events are saturated, charging queues are hours long, and messages sent from a field frequently never arrive. That is the likeliest explanation and it is worth holding onto. It is also true that every large festival has a welfare team whose job includes locating people and passing on messages, they are contactable, and they will not think you are overreacting. Most families do not know that team exists, so they oscillate between doing nothing and calling the police.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/home/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The E check: “Have I contacted the festival's welfare team?” — That is the step between waiting and panicking, and almost nobody knows it exists.
 
@@ -191,6 +213,8 @@ Here's who you're dealing with. For you, at the end, from people who have spent 
 
 Here's the scene. Everything else in this book is about what can go wrong, because that is what a safety guide is for. Read as a whole it gives a false impression, and it would be dishonest to hand you a hundred pages of predators and let you think that is the place your person is going to.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/home/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Strangers walk each other to medical tents at three in the morning, constantly
@@ -201,6 +225,8 @@ Here's what to watch for.
 - They will talk about it for a year, and you will get bored of hearing about it
 
 Here's what's actually happening. The reason this scene is worth protecting is that it is genuinely unusual: a place where radical acceptance is the default, where people look after strangers as a matter of course, and where somebody can be more themselves for seventy-two hours than they manage anywhere else all year. The patterns in this book exist because predators seek out open-hearted places, and open-heartedness is the thing worth defending rather than the mistake. Your person is not naive for loving it. They are going somewhere that gives them something the default world does not, and the overwhelming likelihood is that they will come home with a sunburn and too many stories.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/home/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The H check: “Am I treating this as a threat to survive, or as a thing they love?” — They can tell which one you think it is, and it determines everything.
 
@@ -225,6 +251,8 @@ Here's who this is. You, at home, while somebody you love is somewhere that is u
 
 Picture this. You said have a great time and you meant it. It is Saturday night and you have checked their location three times, and you have looked at who is posting from that field, and you have drafted a message that is technically about whether they are okay and is actually about something else, and you are aware that you are doing it.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/home/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Checking location sharing repeatedly rather than once
@@ -235,6 +263,8 @@ Here are the signs.
 - You would not be comfortable if they described your behaviour to a friend
 
 Here's the mechanism underneath it. Distance plus a scene with a reputation plus no information is an excellent generator of anxiety, and anxiety is not the same thing as a problem in the relationship — but the behaviours it produces are the same behaviours that constitute monitoring, and that is worth being honest about while it is still small. Frequent location checking, demands for contact, and requests for proof are on a continuum whose far end is coercive control, and nobody arrives at the far end on purpose. They get there in small, reasonable-feeling steps, each one justified by worry.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/home/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The O check: “Am I asking for information, or for reassurance?” — Both are human. Only one of them is fair to send.
 

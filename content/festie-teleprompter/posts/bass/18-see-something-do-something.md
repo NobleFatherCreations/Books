@@ -15,6 +15,8 @@
 
 “This one's B.A.S.S. — Accountability. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “SEE SOMETHING, DO SOMETHING”
@@ -24,6 +26,8 @@ Here's who you're dealing with. At some point this weekend you will see somethin
 
 Here's the scene. You're walking between stages and you see a woman sitting with a guy who seems agitated. Her body language is closed. He's leaning into her space. You don't want to assume. You don't want to make it weird. You're not sure it's anything. But something caught. This is the moment. This is the one that either you act on or you walk past. Those are the only two options.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - THE DIRECT APPROACH: walk over like you know her — "Hey! There you are! Come on, everyone's looking for you"
@@ -32,6 +36,8 @@ Watch for these signs.
 - You do NOT need to confront anyone — that is not required and not always safe
 
 Here's what's actually happening. Men specifically have a role in bystander intervention that's often underused. A man appearing who "knows" the woman in a tense situation changes the social calculus immediately — it creates an out without confrontation. You don't have to be the hero. You have to be the person who showed up. The most effective interventions are the quiet ones. Walk over. Be a familiar face. Give someone an exit.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The S check: “Is someone in my squad or nearby in a situation that doesn’t look right? What would I want someone to do if it were me?” — do that.
 

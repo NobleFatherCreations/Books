@@ -15,6 +15,8 @@
 
 “This one's H.O.M.E. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/home/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE CONVERSATION BEFORE THEY GO”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. For the parent, partner, sibling or friend who has one conversation available and wants to spend it well rather than spend it all.
 
 Here's the scene. You have maybe four minutes of genuine attention before this becomes a thing you do every year that they endure. Four minutes is plenty. What follows is more protective than any amount of worrying, and it is almost entirely about what you do not say.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/home/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - End it early, warmly, and let them go and have a good time
 
 Here's what's actually happening. Two questions get you the information that actually matters — who is around them and how they get out — and both are answerable without anybody having to confess to anything. The one sentence is the load-bearing part, and its power comes entirely from being unconditional: the moment it has a clause attached, it stops being a promise and becomes a negotiation, and negotiations get remembered at four in the morning. Say it once, plainly, and do not garnish it. The restraint is the technique.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/home/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The O check: “Have I asked two questions, or started listing things?” — Two questions and a sentence. Then stop.
 

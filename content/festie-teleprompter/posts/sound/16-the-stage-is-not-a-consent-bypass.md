@@ -15,6 +15,8 @@
 
 “This one's S.O.U.N.D. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE STAGE IS NOT A CONSENT BYPASS”
@@ -24,6 +26,8 @@ Here's who you're dealing with. This page is for every musician and touring arti
 
 Here's the scene. You're coming off a strong set and you're still buzzing. Someone backstage is clearly interested — has been sending signals all night. They're consenting adults, everything feels mutual. Here's what's also true: you just performed to thousands of people, you have a team and access they don't have, you are in your element and they are in yours — and that power differential is real whether you acknowledge it or not.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - The post-show high and stage power can distort your read of consent signals
@@ -32,6 +36,8 @@ Watch for these signs.
 - Fame makes people want to be chosen by you — that want is not the same as uninhibited consent
 
 Here's what's actually happening. The music industry has a long and documented history of artists using stage power and access to override or bypass consent. This is not ancient history — it is ongoing. You don't have to be a predator to contribute to this dynamic. The post-show adrenaline state impairs your judgment. The power you hold in that space is real even when you're not wielding it deliberately. The ask is simple: slow down, check in with words, receive the answer, and respect it completely.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The N check: “'No' from someone in my space is a full sentence. It requires nothing further from me.”
 

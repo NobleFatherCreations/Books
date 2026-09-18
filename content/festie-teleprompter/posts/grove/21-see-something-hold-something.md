@@ -15,6 +15,8 @@
 
 “This one's G.R.O.V.E. — Support. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “SEE SOMETHING, HOLD SOMETHING”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The witness who acts. At some point this weekend
 
 Here's the scene. You're walking to the water station and you see a woman sitting with a man who seems agitated. She looks small. Her body is closed. He's leaning into her space and she's looking at the ground. You're not sure if it's anything. You almost keep walking because you don't want to make it weird. But something caught. This is the moment. This is the one. What do you actually do right now?
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - THE DISTRACTION: walk up to her like you know her — "Oh my GOD I've been looking everywhere for you!"
@@ -32,6 +36,8 @@ Watch for these signs.
 - You do NOT have to confront the person causing concern — not required, not always safe
 
 Here's what's actually happening. The bystander effect is real — in groups, individuals are less likely to act because everyone assumes someone else will. Festival culture adds "no drama" making people hesitate to name what they see. But intervention doesn't have to be dramatic. The distraction approach is subtle, friendly, and requires zero accusation. You're not the police. You're a human who saw something and chose to show up. That is enough.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The O check: “Is someone out alone in a way that seems involuntary?” — sometimes the most important thing you do all weekend is the thirty seconds you spend checking on a stranger.
 

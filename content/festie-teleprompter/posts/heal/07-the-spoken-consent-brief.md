@@ -15,6 +15,8 @@
 
 “This one's H.E.A.L. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE SPOKEN CONSENT BRIEF”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. For practitioners, and for anyone about to get on a table, into a container, or under someone's hands. Ninety seconds, said out loud, every session, including with the client you have seen forty times.
 
 Here's the scene. The brief is the thing that makes the rest of this guide unnecessary. It is also the thing that gets skipped first, because it feels clinical and the work is supposed to feel sacred — and that feeling is precisely what every pattern in this guide has been exploiting. Said once, it converts an unspoken understanding into a shared agreement, and unspoken understandings are the medium predators swim in.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Say who they can raise a concern with who is not you — and mean it
 
 Here's what's actually happening. Every documented mechanism in this guide — scope creep, unannounced contact, sessions that extend, agreements revised mid-state — fails against a brief that was given out loud beforehand. Not because a bad practitioner will not try, but because the client now has a stated baseline to notice the departure from, and noticing is the whole difficulty. This is the same logic as the pre-burn check in F.L.O.W. and the access plan in A.C.C.E.S.S.: front-load the decisions to a moment when everyone is clear-headed, so the moment of pressure only requires recognition rather than judgment.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The H check: “Was the brief given out loud this session — not implied, not last time?” — If it was skipped, that is the first departure, and it happened before anything else did.
 

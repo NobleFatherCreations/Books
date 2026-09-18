@@ -15,6 +15,8 @@
 
 “This one's M.A.R.K.E.T. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “FOURTEEN HOURS ON YOUR FEET”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The schedule. Four days, fourteen-hour trading days, a build at either end, no chair because standing sells better, and no break because a break is a closed stall.
 
 Here's the scene. Day three. You have not sat down since seven, you have eaten one thing, you cannot leave because there is nobody to cover you, and you have started making decisions — about pricing, about a wholesale enquiry, about whether that transfer really went through — with a brain that has been standing up in the sun since dawn.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Recovery time between events that is shorter each season
 
 Here's what's actually happening. Vendor fatigue is an economic problem before it is a health one. Every transaction on this page's neighbours — the fake transfer, the renegotiated deal, the wholesale offer that is worse than it sounds, the pressure to drop a price — arrives at the end of a long day and lands on a depleted person, and depleted people concede. The physical toll is real and cumulative too, but the immediate cost is commercial: you are making your most consequential decisions in your worst condition, by design, several times a weekend.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Am I about to make a real decision at hour twelve?” — Defer it to the morning. Everything that is genuinely good will still be there.
 

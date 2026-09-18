@@ -15,6 +15,8 @@
 
 “This one's G.R.O.V.E. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “HOLD THIS FOR ME”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The one with the connect. He controls access to 
 
 Here's the scene. He found you Thursday night and what he had made the music feel like it lived inside your ribcage. Friday he appeared right when you were looking. By Saturday you haven't slept in your own tent, you don't know anyone else's camp, your phone is at 3%, and his is the only number you've memorized. When you mention leaving to find your friends he gets quiet. "I thought we were vibing." Something about that makes you stay.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - He is the exclusive or primary source of what you're consuming all weekend
@@ -32,6 +36,8 @@ Watch for these signs.
 - Your world has contracted to his orbit without a conscious decision
 
 Here's what's actually happening. Substance gatekeeping is dependency grooming — slowly engineering a situation where you need someone in a way that makes saying no feel complicated. Altered states increase trust, lower threat-detection, create real neurochemical bonding. Add isolation and resource control and by Sunday the manipulation is structural. You're not in it because you're naive. You're in it because it was designed carefully.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The G check: “What is my body telling me about this person — separate from what they're providing me?”
 

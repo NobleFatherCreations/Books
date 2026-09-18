@@ -15,6 +15,8 @@
 
 “This one's E.V.E.N.T. — Responsibility. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOUR STAFF AND VOLUNTEERS”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Your event runs because people show up to make i
 
 Here's the scene. Your volunteer briefing says "this is a family" and "we are all in this together." It does not say what the actual shift hours are, what accommodation is provided, what meals are covered, what happens if someone needs to leave early, or how to raise a concern about another staff member. By Saturday your Harm Reduction team is short-staffed, two volunteers have left without explanation, and a concern that was raised Friday morning has not been acted on. The family framing did not substitute for the operational clarity that was needed.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Volunteer agreements should specify hours, accommodation, meals, and exit terms in writing
@@ -32,6 +36,8 @@ Watch for these signs.
 - Concerns raised by staff should be documented and acted on within a defined timeframe
 
 Here's what's actually happening. Festival promoters who treat staff and volunteers as family while providing no operational clarity are using the emotional frame to avoid the practical obligations. Family framing does not substitute for written agreements. Community language does not provide food and rest. And a culture where concerns are raised but not acted on is a culture where the next concern does not get raised — until something goes seriously wrong.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The N check: “Do my staff have what they need to do their jobs safely — and do they have a clear path to raise a concern without it costing them?” — your event runs on other people’s labor. You owe them clarity, safety, and a path that actually works.
 

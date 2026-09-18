@@ -15,6 +15,8 @@
 
 “This one's S.O.B.E.R. — Community. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THERE ARE MORE OF US THAN YOU THINK”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The Wharf Rats with the yellow balloons. The Phellowship. The sober camp with the coffee urn. The Zendo volunteers. The ones who have been coming for thirty years and have not had a drink for twenty-five of them.
 
 Here's the scene. You assume you are the only one. You are not remotely the only one — there is a meeting on this site, probably daily, probably signposted with a yellow balloon or a hand-lettered board, and the people at it have been navigating exactly this weekend for longer than you have been alive. Most of them found it the same way, which is late, having assumed the same thing you are assuming.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Real: you can go, say nothing, drink the coffee, and leave
 
 Here's what's actually happening. Sober infrastructure inside festival culture is decades old and largely invisible unless you are looking for it — the Wharf Rats go back to the early eighties, the Phellowship not much later, and most large festivals now have something. The reason it matters more than any individual tactic in this guide is that isolation is the common factor underneath every pattern here: the convincer works on someone with no one to turn to, the assigned care role works on someone who does not know other sober people are around, and the engineered slip works on someone cut off from their network. Finding these people on Thursday removes the precondition for all three at once.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The B check: “Do I know where the sober meeting is on this site — today, not hypothetically?” — Find it before you need it. That is the whole page.
 

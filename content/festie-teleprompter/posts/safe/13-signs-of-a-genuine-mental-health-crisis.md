@@ -15,6 +15,8 @@
 
 “This one's S.A.F.E. — Mental Health. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “SIGNS OF A GENUINE MENTAL HEALTH CRISIS”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Festival environments can precipitate genuine me
 
 Here's the scene. Your campmate has been quiet and withdrawn since Saturday morning. He came out once, said he was fine, went back in. It is Sunday and you have knocked twice and he said he was okay but something in his voice did not match the word. He has not eaten anything you know of. He made a comment last night about not being sure why he came. You are sitting with the question of whether to push harder to check on him. Push harder.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Withdrawal from the festival for an extended period when they came to engage
@@ -32,6 +36,8 @@ Watch for these signs.
 - Not eating, not sleeping, not coming out — for longer than exhaustion alone explains
 
 Here's what's actually happening. Mental health crises at festivals are underreported and underidentified because the expectation is that everyone is having a good time and should be having a good time. The signs can be subtle and easy to attribute to tiredness or a difficult trip. If your gut says something is wrong with someone in your group — check on them again. Ask directly. "Are you actually okay — because I am asking for real." The question asked with genuine care and real eye contact is a different question than the passing "you okay?"
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The S check: “What is my gut actually telling me about this person — and am I acting on it?”
 

@@ -15,6 +15,8 @@
 
 “This one's H.O.L.D. — Accountability. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOUR ACCESS IS NOT YOUR PERMISSION”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Staff and volunteer roles at festivals come with
 
 Here's the scene. You are a Ranger and someone came to you in genuine distress about a situation in their camp. You helped them, you supported them, you were exactly what the role is supposed to be. You also now know specific private information about them — who they were with, what happened, where their camp is, what their vulnerable moment looked like. The question is not whether that information is real. The question is what you do with it after they walk away from your care.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Information shared with you in a care context belongs to the person who shared it — not to you
@@ -32,6 +36,8 @@ Watch for these signs.
 - The power of your role continues to exist even when you are off duty at the same event
 
 Here's what's actually happening. The access that comes with festival staff and volunteer roles creates real power over people who are in vulnerable moments. That power is a tool for service — it is not a benefit of the role. Information shared in a care context is confidential. Access to spaces and resources is role-specific. Ongoing personal contact with people you supported in your role raises the same issues as any therapist-client boundary — the power imbalance does not disappear when the immediate support need does.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The H check: “Am I using my access in service of the people I am there to protect — or for my own convenience, curiosity, or gain?” — the access isn’t yours, it belongs to the role. Use it accordingly.
 

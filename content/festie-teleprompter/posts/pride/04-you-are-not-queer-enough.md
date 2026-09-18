@@ -15,6 +15,8 @@
 
 “This one's P.R.I.D.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOU ARE NOT QUEER ENOUGH”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The policing of who belongs and how — based on
 
 Here's the scene. "I do not know if this is really your scene — you seem kind of straight-passing." It is said not unkindly but it lands in a familiar tender place. You have spent your whole life negotiating your identity and its visibility and here it is again, even in a space that is supposed to be for you. By the end of the conversation you are performing queerness for their approval rather than living it on your own terms.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Your identity, expression, or history is used to question your right to be in a space
@@ -32,6 +36,8 @@ Watch for these signs.
 - Your own comfort with your identity is undermined by someone else's framework for it
 
 Here's what's actually happening. Community gatekeeping in queer spaces reproduces the exact same dynamics of exclusion and shame that cause harm in straight spaces — just with different criteria. It is not protection of the community. It is the use of community membership as leverage over individuals. Your queerness is valid in whatever form it takes, at whatever level of visibility you choose, with whatever history you have. Nobody else's definition of queer enough applies to you.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The I check: “Is my sense of my own identity secure — or am I letting someone else’s framework define it for me?” — nobody else’s checklist gets a vote.
 

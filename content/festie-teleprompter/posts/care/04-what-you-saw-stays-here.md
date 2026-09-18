@@ -15,6 +15,8 @@
 
 “This one's C.A.R.E. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WHAT YOU SAW STAYS HERE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Confidentiality in Harm Reduction work is a genu
 
 Here's the scene. You witnessed something that happened between a staff member and a participant that you believe was a violation. When you raised it with your team lead, the response was: "What happens in the tent stays in the tent — we cannot breach participant confidentiality." The confidentiality framing is being applied to suppress a report about staff behavior rather than to protect participant information. These are not the same thing.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Confidentiality invoked specifically when you try to report staff behavior or organizational failures
@@ -32,6 +36,8 @@ Watch for these signs.
 - You feel that reporting would violate your role when it actually falls within your safeguarding responsibilities
 
 Here's what's actually happening. Confidentiality in Harm Reduction protects participant information — not staff behavior, not organizational failures, and not incidents that require escalation to protect others. These are distinct categories. A team lead or organization that uses confidentiality language to suppress reports about staff behavior or organizational accountability is misusing the concept. Your safeguarding responsibilities include reporting when you witness harm, regardless of where it occurred.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/care/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Is confidentiality being applied to protect the people we serve — or to protect the organization from accountability?” — confidentiality protects participants. It was never meant to protect an organization from consequences.
 

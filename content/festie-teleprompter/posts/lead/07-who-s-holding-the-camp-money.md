@@ -15,6 +15,8 @@
 
 “This one's L.E.A.D. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WHO'S HOLDING THE CAMP MONEY”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Whoever collects for the generator, the truck, the food, the sound system and the pitch — often the founder, often for years, often with no accounting anybody has ever seen.
 
 Here's the scene. Everyone pays in two hundred at the start of the season and nobody has ever seen a spreadsheet. It is almost certainly fine. It is also the reason that when somebody wants to leave the camp, or disagrees with him about something, there is an unspoken question about what happens to what they have put in, and nobody asks it out loud.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Asking about it would be treated as an accusation
 
 Here's what's actually happening. Camp money is usually handled by a trusted person acting in good faith, and the problem is structural rather than moral: unaccounted collective funds create an exit cost that nobody can name, and an exit cost is leverage whether or not anybody intends to use it. It compounds with the housing-as-leverage dynamic elsewhere in this guide — if the same person controls where you sleep, what you have paid in, and the assets you helped buy, then disagreeing with them has a price that is real and unquantifiable, which is the worst combination.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Could any member see where the money went, without asking a favour?” — If not, trust is doing a job that a spreadsheet should be doing.
 

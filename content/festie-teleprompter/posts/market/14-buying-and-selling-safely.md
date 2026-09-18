@@ -15,6 +15,8 @@
 
 “This one's M.A.R.K.E.T. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “BUYING AND SELLING SAFELY”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Transactions at festivals — substances, goods,
 
 Here's the scene. He has been browsing your booth for twenty minutes asking thoughtful questions about your process. The conversation shifts — he mentions he knows people who might be interested in other things you might have access to, winks included. It feels casual. It feels like a fellow festie making a sideways inquiry. Something about the specificity of the questions feels slightly rehearsed. You cannot put your finger on it. But something is off.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - They approach YOU with an inquiry that moves from your products to something else entirely
@@ -32,6 +36,8 @@ Watch for these signs.
 - Something about the interaction feels slightly scripted — you cannot articulate why but it is there
 
 Here's what's actually happening. Undercover officers at festivals are specifically trained to blend in and they are often very good at it. As a vendor with a public booth you are particularly visible and accessible. The behavioral tells are in the conversation pattern itself: they redirect from legitimate commerce to other things, they guide toward isolation, and they push for specificity. You are never obligated to complete any conversation or transaction. "I am just focused on my product today" ends it cleanly.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Am I proceeding with this conversation because I actually want to — or because saying no feels riskier than it is?” — no transaction at a festival is worth your freedom, and no conversation is worth your business.
 

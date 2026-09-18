@@ -15,6 +15,8 @@
 
 “This one's F.L.O.W. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THEY GRABBED ME MID-SET”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The crowd, at about one in the morning, drunk and delighted and not thinking — grabbing a hoop, stepping into a fire circle for a photograph, putting hands on a stilt-walker's legs, reaching for an aerialist's foot.
 
 Here's the scene. You are three minutes into a fire set and a man steps inside the circle to film himself next to you. He is about a metre from a lit wick moving at speed and he has no idea, and you now have to decide, mid-spin, whether to stop the set or keep going while somebody stands in the burn radius filming.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - The venue treats crowd management as your problem
 
 Here's what's actually happening. Performing in public gets read as an open invitation, and for fire and aerial that misreading is a physical danger to the audience as well as to you — a person inside a fire circle is inside a burn radius, and a grabbed hoop or a knocked stilt takes a performer down onto hard ground. The professional answer is that crowd management is the event's job and a perimeter is a condition of the booking, not a nicety. The individual answer is that you are allowed to stop, and stopping is safer than performing around an obstacle.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The O check: “Is there a real perimeter and somebody holding it?” — If not, that is a condition to fix before you light, not a thing to absorb during.
 

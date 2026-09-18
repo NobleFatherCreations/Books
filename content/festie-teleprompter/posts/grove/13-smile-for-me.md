@@ -15,6 +15,8 @@
 
 “This one's G.R.O.V.E. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “SMILE FOR ME”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The Photographer With Access. Could be credentia
 
 Here's the scene. He took a gorgeous shot of you dancing Saturday and showed you on his screen — genuinely beautiful. Said he'd send it. Asked to get a few more, closer, "just your energy." Later your friend shows you his Instagram stories. Photos of you that you don't remember being taken. One from behind. One that feels intimate in a way you can't fully articulate. Everyone says he's a great photographer. You feel like you're being dramatic. You're not.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Photos taken without asking, normalized as "just capturing the moment"
@@ -32,6 +36,8 @@ Watch for these signs.
 - Images appear on social that you didn't know were being taken of you
 
 Here's what's actually happening. The camera creates three manipulation vectors: proximity (he needs to get close), intimacy (he frames you personally), and post-festival leverage (he has your image and a reason to contact you). In festival culture photography is celebrated and normalized — which makes predatory documentation easy to disguise as art. Your image is yours in every context. "Everyone was being photographed" is not consent. A camera pointed at your body without your knowledge is a violation regardless of cultural context.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Can I freely ask him to delete photos I'm uncomfortable with? What happens when I do?”
 

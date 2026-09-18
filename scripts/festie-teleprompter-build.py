@@ -105,7 +105,11 @@ def soft_lower(s):
     return "".join(out)
 
 
-def scenario_script(sc, i):
+def img_marker(path, note):
+    return f"> 🖼️ **[INSERT IMAGE HERE: `{path}`]** — {note}"
+
+
+def scenario_script(sc, i, slug):
     lines = []
     lines.append(f"### {i}. “{sc['hook']}”")
     lines.append(f"*{sc['archetype']} — clinically, {soft_lower(sc['clinical'])}.*")
@@ -113,6 +117,11 @@ def scenario_script(sc, i):
     lines.append(f"{lead('who', i)} {sc['who']}")
     lines.append("")
     lines.append(f"{lead('scene', i)} {sc['scene']}")
+    lines.append("")
+    lines.append(img_marker(f"images/{slug}/tells-card.png",
+                             "hold this on screen with that scenario's tells typed in; you can "
+                             "shorten the next line to \"Here's what to watch for\" instead of "
+                             "narrating every tell if you want the runtime down."))
     lines.append("")
     lines.append(lead('tells', i))
     lines.append("")
@@ -129,6 +138,11 @@ def scenario_script(sc, i):
         check_line = f"{lead('check', i)} “{q}{close_mark}"
     if rest:
         check_line += f" — {rest}"
+    lines.append(img_marker(f"images/{slug}/check-card.png",
+                             "hold this on screen with the check question and letter typed in; "
+                             "you can shorten the spoken line below to just naming the check "
+                             "instead of reading the full quote if you want the runtime down."))
+    lines.append("")
     lines.append(check_line)
     lines.append("")
     if sc.get("dark") and sc.get("darkTitle"):
@@ -153,6 +167,10 @@ def guide_doc(g, total_scenarios):
     lines.append(f"### {g['edition']}")
     lines.append("")
     lines.append("*A spoken-word teleprompter script — one scenario at a time, ready to read straight to camera.*")
+    lines.append("")
+    lines.append(img_marker(f"images/{g['slug']}/cover.png",
+                             "video open — type this video's scenario/section title into the "
+                             "blank bottom third before recording, then hold or fade from it."))
     lines.append("")
     lines.append(f"**Quick shoutout before we start:** every scenario in this guide — and {others} more across the other twenty guides — lives free at **{SITE_URL}**.")
     lines.append("")
@@ -189,7 +207,7 @@ def guide_doc(g, total_scenarios):
             lines.append(f"*{desc}.*")
             lines.append("")
         for sc in by_section[key]:
-            lines.append(scenario_script(sc, idx))
+            lines.append(scenario_script(sc, idx, g["slug"]))
             idx += 1
 
     lines.append(f"## That's every scenario in {g['acronym']}")

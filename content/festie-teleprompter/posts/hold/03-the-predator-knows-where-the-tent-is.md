@@ -15,6 +15,8 @@
 
 “This one's H.O.L.D. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE PREDATOR KNOWS WHERE THE TENT IS”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The reality that some people who seek positions 
 
 Here's the scene. He has been volunteering in the Harm Reduction tent for three seasons. Everyone trusts him. He knows the layout, the protocols, the staff schedule, and most importantly he knows who comes in — who is most vulnerable, who is most altered, who is alone. He is warm, knowledgeable, and consistently present. He is also using that position and that knowledge in ways that the team has not yet named even though some of them have felt something was off.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - A staff or volunteer member who shows unusual interest in specific attendees beyond the care role
@@ -32,6 +36,8 @@ Watch for these signs.
 - Discomfort among other staff about a specific person that has not yet been formally named
 
 Here's what's actually happening. People who want access to vulnerable people at festivals will seek roles that provide that access. Harm Reduction tents, medical stations, safe spaces, and security roles all provide access to people who are at their most vulnerable. This is a known and documented pattern in safeguarding contexts. If you have a gut feeling about a colleague in your space — that feeling is data. Name it to a supervisor. Document it. The culture of "but they have been here for years" is specifically what these patterns rely on.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The L check: “Have I documented the specific behaviors that are making me uncomfortable about this person in an access role, with dates and specifics?” — the team looking out for each other matters as much as the team looking out for attendees.
 

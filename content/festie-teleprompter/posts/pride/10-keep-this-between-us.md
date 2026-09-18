@@ -15,6 +15,8 @@
 
 “This one's P.R.I.D.E. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “KEEP THIS BETWEEN US”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Someone not out — sometimes genuinely and understandably so, sometimes married, sometimes simply unwilling. The secrecy may be entirely legitimate. What is not legitimate is that all of the risk in it has ended up on you.
 
 Here's the scene. He is warm and interested and has made it clear from the outset that this cannot be seen. So you meet at his tent rather than yours, you do not speak to him near his mates, and on Saturday when somebody asks if you two are a thing he laughs and says no, in a tone that is louder than it needed to be, and you stand there being nobody in public for the second time this weekend.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Any complaint from you can be reframed as threatening to out them
 
 Here's what's actually happening. A closeted partner is not doing something wrong by being closeted. The pattern here is narrower: an arrangement where one person carries all the exposure, all the invisibility and all the flexibility, and the other carries none. It is structurally the same as any other asymmetric arrangement in this book — the imbalance is what does the damage, not the secrecy. In a small festival scene it also compounds, because you cannot discuss it with anyone without disclosing them, which means you have been isolated from advice by the terms of the arrangement itself.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The I check: “Whose safety does this secret protect, and whose costs does it ignore?” — If the answer is one-way, it is not discretion, it is an arrangement.
 

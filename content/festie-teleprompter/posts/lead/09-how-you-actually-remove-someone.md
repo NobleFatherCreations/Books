@@ -15,6 +15,8 @@
 
 “This one's L.E.A.D. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “HOW YOU ACTUALLY REMOVE SOMEONE”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. You, holding a decision you have already made and have been postponing for eleven months because you do not know how to do the next part without it becoming a scene.
 
 Here's the scene. You know he cannot come back. You have known since August. What you do not have is a way of saying it that does not turn into a two-hour argument in front of the camp, or a group chat meltdown, or him turning up anyway because nothing was ever said clearly enough to be enforceable.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You are planning to do it in person, alone, at the event
 
 Here's what's actually happening. Most camp exclusions go badly for procedural reasons rather than emotional ones: delivered verbally, at the event, by one person, with no written basis and no defined scope, which makes them arguable, unenforceable and humiliating for everyone present. Every organization that does this well does the same four things — decide off-site, deliver in writing, be specific and short about what and for how long, and do not debate. The last one is the hardest and the most important: the decision is not being negotiated, it is being communicated.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Is this decided, and is it written down?” — If it is not written, it is a disagreement rather than a decision, and it will be treated as one.
 

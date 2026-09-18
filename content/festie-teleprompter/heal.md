@@ -3,6 +3,8 @@
 
 *A spoken-word teleprompter script — one scenario at a time, ready to read straight to camera.*
 
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/cover.png`]** — video open — type this video's scenario/section title into the blank bottom third before recording, then hold or fade from it.
+
 **Quick shoutout before we start:** every scenario in this guide — and 261 more across the other twenty guides — lives free at **www.noblefathercreations.com/festival**.
 
 This is H.E.A.L.: Healers & Practitioners Edition. You work on people at their most open. This guide is about protecting them, and protecting you — and about the practitioners who use the same door.
@@ -29,6 +31,8 @@ Here's who this is. Speaks with total calm certainty about where the work came f
 
 Picture this. He says he trained for nine years with a lineage holder in a place you would have to fly to, whose name he gives softly, as though saying it too loudly would be disrespectful. Nobody in this tent is going to fact-check that. Nobody in this tent could. And you notice, as he says it, that the reverence in his voice is doing all the work that a certificate would otherwise have to do.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Credentials that cannot be verified by design — remote, oral, or a deceased teacher
@@ -39,6 +43,8 @@ Here are the signs.
 - Gets cooler toward anyone who asks a second question
 
 Here's the mechanism underneath it. Every regulated healing profession is built on three things a false practitioner cannot supply: a checkable qualification, a body that can remove you, and a named limit to your scope. Unverifiable lineage is chosen precisely because it substitutes for all three at once — authority without accountability. It is the single most common structure in this scene's abuse cases, and the reason is not mysticism, it is architecture. The honest practitioners with real traditional training are usually the easiest people in the world to ask about it; they will tell you their teacher, their years, what they do not do, and who they refer to. Precision is the tell in both directions.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The E check: “Can I name this person's training, their limits, and who they answer to?” — Three blanks is not a lineage. It is a costume.
 
@@ -63,6 +69,8 @@ Let's talk about who does this. Booked for one thing, doing a slightly different
 
 Here's how it plays out. You booked a shoulder session. Forty minutes in, his hands are on your ribs and then lower and he is saying something about where the grief is held, and you are running an internal calculation about whether objecting would make you the person who does not understand the work. He has not done anything you could name. He has moved four times, and each individual move was two inches.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Contact moves to new areas without being named beforehand
@@ -73,6 +81,8 @@ Watch for these.
 - Each step is small enough to be deniable; the sequence is not
 
 Here's what's really going on. Progressive boundary erosion is the documented mechanism in the overwhelming majority of bodywork and therapeutic misconduct cases, and it works because a body on a table is passive, undressed, prone, and socially committed to trusting the person touching it. Each two-inch move is individually defensible, which is the design — the practitioner is not testing whether you consent, he is testing whether you will interrupt. That is why the professional standard in every legitimate manual therapy is spoken permission before each new region, every session, regardless of history. It removes the thing being exploited, which is your reluctance to be the one who makes it weird.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The H check: “Did they say what they were about to do, before they did it?” — Unannounced contact is the violation, whatever it turns out to be.
 
@@ -93,6 +103,8 @@ Here's who you're dealing with. Books repeatedly, discloses heavily and fast, an
 
 Here's the scene. Third booking in two days. He has started arriving early and staying after, and the disclosures have moved from his shoulder to his marriage to the fact that you are the only person who has ever really understood him, and today he asked whether you would have dinner, and when you said no he apologized so thoroughly that you ended up reassuring him.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Books far more often than the presenting issue warrants
@@ -103,6 +115,8 @@ Here's what to watch for.
 - You have started dreading the booking and have not told anyone
 
 Here's what's actually happening. The therapeutic frame is unusually exploitable in this direction: a practitioner is alone, often in a soft-walled space, professionally committed to warmth and non-judgement, and financially motivated to keep a repeat client. All four of those work against you. This is a known pattern in massage, bodywork and complementary practice, and the festival version is worse because there is no reception, no colleague next door, no booking system, and no employer — just you, a tent and somebody who booked an hour of unobserved access.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The L check: “Is this a client, or is somebody building a relationship inside an appointment?” — Frequency, disclosure and after-time are the three that tell you.
 
@@ -127,6 +141,8 @@ Here's who this is. Holds the container, poured the cup, and is the only person 
 
 Picture this. You are four hours into something and the room has stopped having edges. He sits down close and says the medicine has shown him that you and he are meant to work together more deeply, that your resistance is the thing the work is for, and that this is the part where people either open or run. You cannot currently construct a sentence. He knows that. That is the reason this conversation is happening now and not on Tuesday.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - The pitch arrives while you are altered and not before
@@ -137,6 +153,8 @@ Here are the signs.
 - Leaving is framed as spiritually dangerous or as abandoning the work
 
 Here's the mechanism underneath it. This is the single most important line in this guide: a consent given before an altered state cannot cover what happens inside it, and a consent given during one is not consent, because capacity is the thing the substance removed. Every serious ceremonial ethic in the world states it — no romantic or sexual contact with participants, no revision of agreements mid-state, a sober second person present. The reason is not squeamishness, it is that the facilitator holds total interpretive authority over someone who cannot currently evaluate interpretations. Any framework where your objection is proof the framework is working is not a spiritual technology. It is a closed loop, and closed loops are what this book calls a cage.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The A check: “Is this being asked of me now because now is when I cannot assess it?” — Timing is the tell. A real invitation survives Tuesday.
 
@@ -157,6 +175,8 @@ Let's talk about who does this. The same person who facilitated, now offering to
 
 Here's how it plays out. The ceremony was enormous and you are not okay and he is the only person who was there and understands. He offers weekly calls. Then he offers to have you stay. Then there is a retreat he thinks you should be at, and a role in his organization, and at no point was there a moment where you decided any of this — there was a moment where you needed help and he was standing there.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - The facilitator is also the integrator, the landlord, the employer, or the partner
@@ -167,6 +187,8 @@ Watch for these.
 - Nobody independent has ever spoken to you about that ceremony
 
 Here's what's really going on. Dual relationships are prohibited in every clinical code for one reason: each additional role removes an exit. When your facilitator is also your integrator, you cannot process a bad experience of him with anyone but him, and a person's interpretation of their own most vulnerable hours becomes something another person authors. Post-ceremonial suggestibility is real and elevated for a meaningful period afterwards, which makes that window the highest-leverage one that exists. An honest practitioner treats it as the most dangerous part of their work and refers out. That referral is the single clearest marker of a real one.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The L check: “How many roles does this person hold in my life?” — One is a relationship. Three is an enclosure.
 
@@ -187,6 +209,8 @@ Here's who you're dealing with. Everyone, at every festival, because the gift ec
 
 Here's the scene. You will do a session and he will sort you out for the weekend. It is a fair trade and you both meant it kindly. Then it is unclear whether one session covered it or three, and he keeps appearing, and on Saturday when you say you are done for the day there is a silence, and you realize that neither of you ever said what the deal was and he has been keeping a different tally.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - A trade agreed in a sentence, with no scope and no end point
@@ -197,6 +221,8 @@ Here's what to watch for.
 - You are doing sessions you do not want to do and cannot say why
 
 Here's what's actually happening. Barter is not the problem — vagueness is. An undefined trade creates exactly the open-ended obligation that the reciprocity pages elsewhere in this book describe, with the additional feature that professional work is now entangled with a personal relationship and nobody can point to the terms. Trading for substances is the version worth refusing outright: it makes your practice dependent on a supply and a supplier, it is the clearest route to a dual relationship, and it converts a professional service into something you can be leaned on for.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The L check: “Does this trade have a stated scope and an end?” — If not, it is not a trade, it is an account somebody else is keeping.
 
@@ -221,6 +247,8 @@ Here's who this is. For practitioners, and for anyone about to get on a table, i
 
 Picture this. The brief is the thing that makes the rest of this guide unnecessary. It is also the thing that gets skipped first, because it feels clinical and the work is supposed to feel sacred — and that feeling is precisely what every pattern in this guide has been exploiting. Said once, it converts an unspoken understanding into a shared agreement, and unspoken understandings are the medium predators swim in.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Name the modality and what it actually involves, in plain words
@@ -231,6 +259,8 @@ Here are the signs.
 - Say who they can raise a concern with who is not you — and mean it
 
 Here's the mechanism underneath it. Every documented mechanism in this guide — scope creep, unannounced contact, sessions that extend, agreements revised mid-state — fails against a brief that was given out loud beforehand. Not because a bad practitioner will not try, but because the client now has a stated baseline to notice the departure from, and noticing is the whole difficulty. This is the same logic as the pre-burn check in F.L.O.W. and the access plan in A.C.C.E.S.S.: front-load the decisions to a moment when everyone is clear-headed, so the moment of pressure only requires recognition rather than judgment.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The H check: “Was the brief given out loud this session — not implied, not last time?” — If it was skipped, that is the first departure, and it happened before anything else did.
 
@@ -255,6 +285,8 @@ Let's talk about who does this. You. Honest, well-trained, in this for the right
 
 Here's how it plays out. A client tells you, three weeks later, that something in a session did not sit right. Your entire body wants to explain — what you actually did, what the modality is, what they may have misread. That impulse is normal, it is human, and it is the exact moment where good practitioners become bad ones. What you do in the next sixty seconds is your whole ethics, and it is not a feeling, it is a procedure.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - You are the only one who could say what happened in that room
@@ -265,6 +297,8 @@ Watch for these.
 - Your first instinct on hearing a concern is to explain rather than to hear
 
 Here's what's really going on. The power differential in this work does not switch off because your intentions are good. You control the room, the interpretation, the duration, and the narrative afterwards, and your client is frequently in a state they cannot fully assess. That is why every regulated profession requires supervision, insurance, a scope statement, and a complaints route that does not run through you — not because practitioners are assumed to be predators, but because an unsupervised practitioner cannot self-detect drift. The false shaman this guide opens with relies on the entire field being unregulated. The way honest practitioners take that cover away is by visibly having the things he cannot have.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The L check: “If a client wanted to complain about me, could they — to someone who is not me?” — If not, you are running the same structure as the person you would never want to be.
 
@@ -289,6 +323,8 @@ Here's who you're dealing with. A client who came in for tension and is now in t
 
 Here's the scene. Bodywork opened something and she is not in the room any more. She is shaking, breathing badly, somewhere in her own history, and telling you something she has clearly never said out loud. You are a massage therapist. You have ninety seconds to decide what you are and are not going to try to do, and every instinct you have is pulling you toward staying with it.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Dissociation, flashback, or panic on the table
@@ -299,6 +335,8 @@ Here's what to watch for.
 - You have no referral route and did not find one before the event
 
 Here's what's actually happening. Bodywork and altered-state contexts surface trauma routinely, and the single most consequential skill a practitioner has is knowing where their own edge is. Attempting to process trauma without that training can deepen it, and the moment where it feels most compassionate to continue is the moment it is most likely to do harm. The competent response is small and unglamorous: stabilize, ground, do not excavate, and hand over to someone whose job it is. Every large festival has welfare, and most have psychedelic support services staffed by people trained for precisely this.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The E check: “Am I still inside what I was trained to do?” — The honest answer arrives fast, and it is usually no, and no is the correct place to stop.
 

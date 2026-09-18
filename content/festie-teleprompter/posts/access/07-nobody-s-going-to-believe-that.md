@@ -15,6 +15,8 @@
 
 “This one's A.C.C.E.S.S. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “NOBODY'S GOING TO BELIEVE THAT”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Has been telling a gentle, affectionate story about you all weekend — that you get confused, that you exaggerate, that you had a lot on board, that you are a bit much by Sunday. Says it fondly. Says it to everyone. Says it before anything has happened.
 
 Here's the scene. You tell a camp mate what happened. You watch her face do a thing. Not disbelief exactly — something slower and worse, a recalculation. And you realize you have heard the groundwork for that face all weekend, in the affectionate way he kept saying you were away with it, in the way he checked with other people whether you had taken anything, in the three separate times he mentioned to somebody else that you get muddled.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Speaks for you in conversations you are physically present for
 
 Here's what's actually happening. This is testimonial injustice — the documented pattern where a person's account is given less weight because of who they are rather than what they said — and disabled people, particularly those with cognitive, psychiatric, or communication disabilities, are among the most consistently affected. The barrier to reporting most often named by disabled survivors is the expectation of not being believed, and that expectation is usually correct and usually pre-installed. What makes the festival version sharp is speed: a weekend is long enough to seed a reputation in a group of strangers and short enough that nobody has a competing impression to weigh it against.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Is somebody explaining me to people, when I am standing right here?” — Being interpreted to others is how being doubted gets built.
 

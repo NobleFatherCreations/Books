@@ -15,6 +15,8 @@
 
 “This one's S.O.U.N.D. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “BUYING AND SELLING SAFELY ON THE CIRCUIT”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Musicians and touring artists face specific lega
 
 Here's the scene. After the show, in the green room, someone offers you something. You're still running on the set, the green room feels safe and private, and the person seems completely trustworthy — they've been on tour with you for weeks. The substances have been tested this run, you know what you're getting. Two hours later you're in a situation that's more complicated than the green room felt.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Green room transactions feel safer because they're "backstage" — they're not legally safer
@@ -32,6 +36,8 @@ Watch for these signs.
 - The touring lifestyle normalizes substance use in ways that can gradually erode risk-assessment
 
 Here's what's actually happening. Artists on tour are subject to the same drug laws as everyone else regardless of backstage location. Green room status does not create legal protection. The touring lifestyle creates normalization of substance use that can gradually erode your assessment of what's risky. Know what you're taking (test it), Know your legal exposure, and be aware that the people around you on tour have their own legal exposure to consider — which may or may not align with your interests.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The U check: “Do I understand who is actually in this space and what the legal implications of this transaction actually are?” — backstage is not a legal gray zone just because it feels like one.
 

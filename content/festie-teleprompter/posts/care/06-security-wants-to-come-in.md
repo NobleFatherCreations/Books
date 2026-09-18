@@ -15,6 +15,8 @@
 
 “This one's C.A.R.E. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “SECURITY WANTS TO COME IN”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. An officer, a security supervisor, or an event manager standing at the entrance of your tent asking a question you should not answer, usually politely, and usually believing they are entitled to.
 
 Here's the scene. There is a young woman in the corner who came in twenty minutes ago in a bad state and is only just settling, and there is now a uniform at the door asking what she took and whether he can have a word. Everybody in the tent has gone quiet and is watching what you do, and what you do in the next ten seconds determines whether anybody uses this tent again this weekend.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/care/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Participants stopping at the door, looking in, and walking away
 
 Here's what's actually happening. The entire clinical value of a harm reduction service rests on one thing: people believing they can come in without consequence. That belief is fragile, it is community knowledge rather than individual knowledge, and it is destroyed by a single visible interaction — one person seen speaking to police at the tent door ends the service's usefulness for the rest of the weekend, because the word travels faster than anything you can say to correct it. Protecting the boundary is not obstruction; it is the operational requirement that makes the service work at all.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/care/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “What does this look like to the people watching from inside my tent?” — That perception is the service, and it is what you are protecting.
 

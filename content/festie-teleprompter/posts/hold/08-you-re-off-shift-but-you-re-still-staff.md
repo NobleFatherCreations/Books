@@ -15,6 +15,8 @@
 
 “This one's H.O.L.D. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOU'RE OFF SHIFT BUT YOU'RE STILL STAFF”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Everyone on a volunteer-for-a-ticket arrangement, which is most of the workforce at most festivals — you are staff for eight hours and a punter for sixteen, wearing the same wristband and known to the same people.
 
 Here's the scene. You finished at six. At eleven, in the crowd, somebody recognizes you from the welfare tent and starts telling you about their night, and then somebody else asks you where the medical tent is, and then an actual incident happens four feet away and everyone nearby turns to look at you, and you have had three drinks.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You cannot say where the shift ended and the weekend started
 
 Here's what's actually happening. The volunteer-for-a-ticket model produces a genuinely ambiguous role and almost no organizations address it. Two specific risks follow. First, liability: intervening while off duty and impaired is not covered by any briefing or insurance, and it is where volunteers get hurt or get someone else hurt. Second, depletion: a person who is never fully off shift does not recover, and the compassion-fatigue pages elsewhere in this guide describe what that turns into by day three. Neither is your fault; both are yours to manage, because the event almost certainly has not.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The H check: “Am I on duty right now — and does everyone around me know the answer?” — If it is ambiguous to you, it is ambiguous to them.
 

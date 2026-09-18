@@ -15,6 +15,8 @@
 
 “This one's H.E.A.L. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “JUST RELAX INTO IT”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Booked for one thing, doing a slightly different thing by minute twenty. Narrates it as responsiveness — the body asked for it, the energy moved there. Never quite announces the change, which is how you end up somewhere you did not agree to.
 
 Here's the scene. You booked a shoulder session. Forty minutes in, his hands are on your ribs and then lower and he is saying something about where the grief is held, and you are running an internal calculation about whether objecting would make you the person who does not understand the work. He has not done anything you could name. He has moved four times, and each individual move was two inches.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Each step is small enough to be deniable; the sequence is not
 
 Here's what's actually happening. Progressive boundary erosion is the documented mechanism in the overwhelming majority of bodywork and therapeutic misconduct cases, and it works because a body on a table is passive, undressed, prone, and socially committed to trusting the person touching it. Each two-inch move is individually defensible, which is the design — the practitioner is not testing whether you consent, he is testing whether you will interrupt. That is why the professional standard in every legitimate manual therapy is spoken permission before each new region, every session, regardless of history. It removes the thing being exploited, which is your reluctance to be the one who makes it weird.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The H check: “Did they say what they were about to do, before they did it?” — Unannounced contact is the violation, whatever it turns out to be.
 

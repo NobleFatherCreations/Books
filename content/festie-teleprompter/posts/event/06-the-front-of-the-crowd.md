@@ -15,6 +15,8 @@
 
 “This one's E.V.E.N.T. — Responsibility. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE FRONT OF THE CROWD”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Physics. Not a bad actor, not a decision anybody made — a density figure, a pinch point, and a moment when a crowd stops being people and becomes a fluid.
 
 Here's the scene. It is the headline act, the barrier is full, there is a surge from the back, and somewhere in the middle of it a person goes down and the people around them cannot bend to help because there is no room to bend. Nothing about this looks dangerous from the mixing desk and it is the single most lethal thing that happens at music events.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Late-arriving surges toward a single popular act
 
 Here's what's actually happening. Deaths in crowds are almost never trampling, which is the popular misconception — they are compressive asphyxia, where density becomes high enough that people cannot expand their chests, and it is survivable for only a few minutes. It is entirely a design and management problem: density limits, monitoring from a position that can see the front, spotters at the barrier, and crucially a named person with unambiguous authority to stop the show. The single factor that turns a dangerous crowd into a fatal one is hesitation about stopping.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Who can stop the show, right now, without asking anybody?” — If that person is not named and briefed, you do not have a crowd safety plan.
 

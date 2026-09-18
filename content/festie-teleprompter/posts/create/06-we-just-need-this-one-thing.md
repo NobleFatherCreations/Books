@@ -15,6 +15,8 @@
 
 “This one's C.R.E.A.T.E. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WE JUST NEED THIS ONE THING”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The commission or project that starts with a cle
 
 Here's the scene. "We love the direction — can you also just add a panel on the left? And can the main figure be slightly different? And can you include our camp's logo somewhere subtle? And can you do a smaller companion piece for the kitchen?" Each ask arrives after the previous one is done, when you're already invested and it feels petty to push back on "just one more thing." You've delivered four times what was originally scoped for the original price.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - New requests arrive after previous work is completed and your investment is high
@@ -32,6 +36,8 @@ Watch for these signs.
 - Pushing back on changes is framed as being difficult or not collaborative
 
 Here's what's actually happening. Scope creep in creative work is one of the most common forms of exploitation precisely because each individual expansion seems minor and the accumulated investment makes pushing back feel like losing everything. The professional protection is a written brief with explicit terms: this is what is included, this is what additional work costs. Changes to scope trigger a new conversation about compensation. Every time. Without apology.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The C check: “Is what I’m being asked to do now what I agreed to do — and is the compensation still matching the scope?” — if the ask has grown and the fee hasn’t, that gap is the whole story.
 

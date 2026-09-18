@@ -15,6 +15,8 @@
 
 “This one's R.A.V.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOU DON'T NEED YOUR OLD FRIENDS HERE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The gradual replacement of your actual people wi
 
 Here's the scene. By Day 3 you've barely seen the people you drove up with. Every time you've mentioned them this weekend the veteran has had something slightly dismissive to say — "they seem pretty default world honestly," "they're not really engaging with the deeper experience." His people feel more real now. When your original friends text asking where you are, you feel vaguely embarrassed of them. That shift happened fast.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Your existing friends characterized as less evolved, less open, less real
@@ -32,6 +36,8 @@ Watch for these signs.
 - Returning to your original group feels like a step backward
 
 Here's what's actually happening. Social network replacement feels like growth from the inside. The tell is direction: genuine growth expands your world — you come back from a transformative experience and eventually bring your existing people along. Predatory replacement contracts your world — your existing people get smaller and your connection to this new person gets bigger. Your friends who drove up with you know your full self. They are not the problem.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “My original people are still strangers to this person. My original people actually know me.”
 

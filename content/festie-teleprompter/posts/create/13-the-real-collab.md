@@ -15,6 +15,8 @@
 
 “This one's C.R.E.A.T.E. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE REAL COLLAB”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Real collabs exist. They're some of the best cre
 
 Here's the scene. She approaches you and says she's been watching your work and she does immersive sound installations and she thinks your visual language and her sonic language could be interesting together. "I'm not sure what it would look like — want to just experiment and see? No output pressure, no specific deliverable, just exploration. And if we make something we both want to show, we figure out the terms then." No agenda. No pitch. Just curiosity. That's different.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Both parties' contributions are named honestly before work begins
@@ -32,6 +36,8 @@ Watch for these signs.
 - The person is genuinely interested in you as an artist, not in what you can do for their project
 
 Here's what's actually happening. Real collaboration is characterized by mutual curiosity, defined terms, and shared investment in the outcome. The distinction from extraction is visible in who carries the risk, who defines the terms, and whether both parties' contributions are named honestly. Real collaborators are comfortable with the credit conversation because they're not trying to hide the imbalance. Real collaborators celebrate each other's other work and connections rather than centralizing everything through themselves.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Is this person interested in my whole artistic practice — or just in what my hands can do for their project?” — real collaborators want your voice. The fake ones just want your output.
 

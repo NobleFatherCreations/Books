@@ -15,6 +15,8 @@
 
 “This one's S.A.F.E. — Community Care. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE BUDDY SYSTEM”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The buddy system is not childish. It is the sing
 
 Here's the scene. Friday morning before the festival opens your group sits down for ten minutes. Everyone says who their buddy is for the weekend. You set a check-in time — 2pm every day, you physically find each other or send a specific text. You choose a code word that means "come find me right now, no questions." You agree on a meeting spot for if you get separated. You agree that if anyone does not check in on time someone comes looking. Ten minutes. That is the whole investment.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Name your buddy before gates open — not organically during the festival
@@ -32,6 +36,8 @@ Watch for these signs.
 - Agree on a physical meeting spot that does not require phone signal to find
 
 Here's what's actually happening. The buddy system works because it creates accountability before you need it — not after something has already gone wrong. The check-in time means that if something is wrong you know within hours, not days. The code word means you can signal for help in any situation without making a scene. The meeting spot means you can reconnect without phone signal. These are not elaborate safety measures. They are ten minutes of planning that changes the entire risk profile of your weekend.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Does everyone in my group have a buddy, and do we all have the code word and the meeting point, agreed before we split up?” — ten minutes spent on this before the festival is the preparation that matters most.
 

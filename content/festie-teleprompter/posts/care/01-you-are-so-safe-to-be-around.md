@@ -15,6 +15,8 @@
 
 “This one's C.A.R.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOU ARE SO SAFE TO BE AROUND”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Harm Reduction volunteers radiate something that
 
 Here's the scene. He has been to your tent three times today. Each visit has a slightly different stated reason but the pattern of the conversation is the same — he lingers, he asks questions about you, he says things like "I have never felt so comfortable talking to someone." The fourth visit he asks if you want to get food after your shift. You are tired and his attention has felt kind throughout a difficult day. Something in you wants to say yes. Something else notes the pattern.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Multiple visits with escalating personal rather than support-related conversation
@@ -32,6 +36,8 @@ Watch for these signs.
 - The line between appreciating your support and pursuing you personally has started to blur
 
 Here's what's actually happening. The Harm Reduction role creates a specific dynamic: you are at your most professionally present and emotionally available while participants are at their most open and vulnerable. Some participants experience the care you provide in your role as personal connection. Some deliberately target that dynamic for access. Maintaining the on-duty boundary — warm, caring, and professionally boundaried — protects both of you.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/care/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The C check: “Am I maintaining the distinction between my care role and my personal availability?”
 

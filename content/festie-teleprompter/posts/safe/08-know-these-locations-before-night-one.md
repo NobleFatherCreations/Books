@@ -15,6 +15,8 @@
 
 “This one's S.A.F.E. — Emergency. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “KNOW THESE LOCATIONS BEFORE NIGHT ONE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The single most effective thing you can do for y
 
 Here's the scene. It is Thursday afternoon and you have just arrived. Your camp is set up. The festival has not really started yet. Everything feels calm and oriented. This is the moment to walk the grounds with your group and find the three locations. Not Saturday night when you need them. Right now. The ten minutes you spend orienting yourselves right now are the ten minutes that could determine how a difficult situation on Saturday night resolves.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Medical tent: equipped for physical emergencies, serious injury, overdose, and heat illness
@@ -32,6 +36,8 @@ Watch for these signs.
 - Note the nearest water stations and shade structures to all three locations
 
 Here's what's actually happening. The gap between knowing where help is and not knowing where help is is the difference between a situation that gets addressed quickly and one that escalates because nobody knows what to do or where to go. In a medical emergency at a festival, every minute matters. Pre-mapping your resources is the preparation that costs nothing and is worth everything.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The F check: “Have I physically located the medical tent, Harm Reduction tent, and Ranger station with my own feet, not just on the map?” — knowing where help is before you need it is the preparation everything else builds on.
 

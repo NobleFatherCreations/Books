@@ -15,6 +15,8 @@
 
 “This one's H.O.M.E. — Emergency. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/home/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “IF THE CALL COMES”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. You, woken at four in the morning, hearing something in their voice before you have understood a single word.
 
 Here's the scene. The call you hoped would not come has come. Everything you do in the next ten minutes either makes you someone they can use or someone they regret ringing, and you will be operating on no sleep and pure adrenaline. This is why it is written down.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/home/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Stay on the line until they are with a person who can help
 
 Here's what's actually happening. In the first ten minutes there are exactly three useful things: establish safety, establish location, and get them to someone physically present who can help. Everything else — the explanation, the details, the feelings, the question of how this happened — belongs to a later conversation and will be available then. The reason to know this in advance is that your own fear will be enormous and will present itself as an urgent need for information, and answering that need is the single most common way these calls go wrong.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/home/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Am I getting them help, or getting myself information?” — Both feel identical at four in the morning. Only one of them is useful.
 

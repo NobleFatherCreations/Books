@@ -15,6 +15,8 @@
 
 “This one's L.E.A.D. — Protection. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE CAMP LEAD WHO DOES THE WORK”
@@ -24,6 +26,8 @@ Here's who you're dealing with. This final page is about what it looks like when
 
 Here's the scene. The best camp leads you know have several things in common: they take concerns seriously regardless of who brings them. They hold themselves to the same standards they hold their members. They have built ways for members to push back on their decisions. They have removed people from their camps when those people caused harm — even when it was complicated. They are honest about the limits of their own judgment. They debrief after hard weekends and make changes.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Takes concerns seriously and follows up on every single one regardless of who brought it
@@ -32,6 +36,8 @@ Watch for these signs.
 - Makes decisions about camp membership based on behavior not on seniority or contribution
 
 Here's what's actually happening. Genuine camp leadership is a practice of consistent accountability — to your members, to the community, and to yourself. The camp leads who build the safest camps are not the ones who have the best rules. They are the ones who model what accountability looks like, who take the same risks with their own behavior that they ask their members to take, and who treat every person in the camp as someone whose wellbeing they are genuinely responsible for.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The D check: “When I look at my camp honestly — am I the kind of leader I would want my members to describe honestly, if they were asked?” — the best camp lead isn’t the one who never gets it wrong. It’s the one who keeps working to get it more right.
 

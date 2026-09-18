@@ -15,6 +15,8 @@
 
 “This one's B.A.S.S. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THIS ONE'S ABOUT YOU”
@@ -24,6 +26,8 @@ Here's who you're dealing with. This is not an accusation. This is the page that
 
 Here's the scene. She's been dancing near you all night and the energy has felt reciprocal. You've talked a few times, she laughed, she touched your arm once. You're reading it as interest. You might be right. You might also be reading into it through a haze of MDMA and wishful thinking. Before you make a move: the way to know if someone wants what you're offering is to ask. Out loud. With words. "Can I kiss you?" takes two seconds and changes everything about what happens next.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Altered states mean consent needs to be MORE explicit, not less — not less
@@ -32,6 +36,8 @@ Watch for these signs.
 - "She was into it" is not the same as "she said yes" — only one of these is consent
 
 Here's what's actually happening. Festival environments amplify everything — including the ways men unconsciously push past ambiguity because the cost of being wrong feels low and the reward of being right feels high. Altered states, dark spaces, PLUR culture, and the "anything goes" vibe create conditions where consent gets murky fast. It doesn't have to. Two words — "is this okay?" — asked clearly and genuinely, change the entire dynamic.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The B check: “What is my body — and hers — actually saying right now, separate from what I want the answer to be?” — ask out loud rather than guessing. The men who ask are the ones people want to be around.
 

@@ -15,6 +15,8 @@
 
 “This one's G.R.O.V.E. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “HOT AND COLD ALL WEEKEND”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The one who blows hot and cold on a loop — int
 
 Here's the scene. Friday night was electric — the most connected you've felt in years. Saturday morning he was barely there. Cold, distracted, barely looked at you. Saturday afternoon he reappeared like nothing happened — warm, funny, magnetic. You felt such relief to have him back that you didn't ask about the morning. By Sunday you realize you've spent the whole weekend trying to figure out how to keep him in the warm phase.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Intense warmth followed by withdrawal without explanation
@@ -32,6 +36,8 @@ Watch for these signs.
 - The cold phases make the warm phases feel even more valuable than they are
 
 Here's what's actually happening. Intermittent reinforcement is the most powerful conditioning mechanism in human psychology — it's why slot machines are more addictive than ones that pay out every time. Random reward creates compulsive seeking. When warmth is unpredictable, you start to crave it more than you would if it were consistent. The cold isn't distance — it's the tool. The warmth isn't the reward — it's the hook being set deeper. A weekend of this wires your nervous system in ways that outlast the festival.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The G check: “Am I feeling relief when he's warm — or genuine happiness? Those are different things.”
 

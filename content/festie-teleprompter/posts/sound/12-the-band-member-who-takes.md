@@ -15,6 +15,8 @@
 
 “This one's S.O.U.N.D. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE BAND MEMBER WHO TAKES”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The financial and power dynamics within a band o
 
 Here's the scene. You write most of the songs. You book most of the shows. You handle most of the promotion. The split has always been equal. You never thought to question it — you're a band, you're family. Then a manager offers you a solo project and you realize that without you the band doesn't function, and with the band you're sharing everything you generate equally with people who generate a fraction of what you do.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Contributions to the band's output and income are significantly unequal but compensation isn't
@@ -32,6 +36,8 @@ Watch for these signs.
 - Creative credit doesn't reflect actual creative contribution
 
 Here's what's actually happening. Band agreements are one of the most neglected legal documents in independent music. Who owns the name? Who owns the masters? What's the songwriting split? What happens when someone leaves? Who controls social media? Without answers in writing, whoever controls the logistics controls the band — and the person who does the most work often has the least formal protection. This isn't just about money. It's about who owns your creative legacy.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The O check: “Do I know what I actually own in this creative partnership — in writing?”
 

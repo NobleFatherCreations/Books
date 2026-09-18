@@ -15,6 +15,8 @@
 
 “This one's R.O.O.T.S. — Community. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “FINDING THE OTHERS”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The camp with the sound system and the good food that has been coming for eleven years. The crew who clocked you at the gate and nodded. The promoters and collectives who built something deliberately and did the work of making it real.
 
 Here's the scene. Saturday, and you have spent two days being the only one in every frame, doing the low-level arithmetic that costs more energy than anyone who does not do it understands. Then you walk past a camp and three people look up and one of them says come and eat something, and you feel your shoulders drop about two inches, and you had not registered they were up.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Performative: you are the only one there and nobody has ever asked why
 
 Here's what's actually happening. Affinity space is protective for reasons that are entirely practical rather than sentimental: it replaces hypervisibility with ordinariness, it supplies witnesses who do not need the situation explained to them, and it is where the informal warnings circulate — which promoter is sound, which crew to avoid, what happened last year. Every mechanism in this guide works better on someone isolated, and the fetishizer, the reacher and the weaponized report all operate most freely on a person with nobody standing near them. This is also the page where the scene deserves credit: there are collectives and festivals doing this properly, and they are findable.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The S check: “Have I found my people here, or am I still doing this alone?” — Day one. Not the night it goes wrong.
 

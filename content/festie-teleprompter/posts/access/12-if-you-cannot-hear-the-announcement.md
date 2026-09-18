@@ -15,6 +15,8 @@
 
 “This one's A.C.C.E.S.S. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “IF YOU CANNOT HEAR THE ANNOUNCEMENT”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. For Deaf and hard-of-hearing attendees, and for anyone whose hearing aids or implants have to survive four days of dust, rain and a hundred and ten decibels.
 
 Here's the scene. Every piece of safety information at a festival is delivered by tannoy: the weather warning, the stage closure, the evacuation route, the missing child, the thing that has just happened at the other end of the site. All of it is audio, all of it is over a distorted PA, and none of it reaches you. You will find out what happened when the crowd starts moving.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You have not told welfare that you will not hear a tannoy
 
 Here's what's actually happening. Deaf attendees are systematically excluded from the emergency information layer of an event, and that is a safety issue rather than an inclusion one — evacuation instructions, severe weather warnings and stage cancellations are all broadcast in the one modality you cannot receive. Most events will provide interpreters, text alerts or a welfare contact if asked in advance, and almost none provide them by default. The equipment problem is separate and severe: rain, dust and a dead battery are all far more likely here than at home, and a processor lost at a festival is a five-figure object in a field.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “How will I find out if something goes wrong on this site?” — If the only answer is the tannoy, you have no route to emergency information.
 

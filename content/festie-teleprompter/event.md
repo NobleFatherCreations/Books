@@ -3,6 +3,8 @@
 
 *A spoken-word teleprompter script — one scenario at a time, ready to read straight to camera.*
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/cover.png`]** — video open — type this video's scenario/section title into the blank bottom third before recording, then hold or fade from it.
+
 **Quick shoutout before we start:** every scenario in this guide — and 260 more across the other twenty guides — lives free at **www.noblefathercreations.com/festival**.
 
 This is E.V.E.N.T.: Promoters Accountability Edition. You create the conditions. Everything that happens at your event is shaped by your choices.
@@ -30,6 +32,8 @@ Here's who this is. This page is written directly to you. Not about bad promoter
 
 Picture this. You pitched a vendor on a premium spot near the main stage, 2,000 attendees, electricity included. You knew when you pitched it that the numbers were optimistic and the electricity situation was complicated. She paid $800 and planned her whole season around it. She arrived to a spot behind the food trucks and an electricity bill she had not budgeted for. You told yourself it was close enough. It was not close enough. She lost money because of information you provided that was not accurate.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Attendance numbers and traffic projections should be accurate and from the current event context
@@ -38,6 +42,8 @@ Here are the signs.
 - The vendor cannot make an informed decision based on optimistic projections that serve your pitch
 
 Here's the mechanism underneath it. Misrepresentation in vendor and artist pitches is widespread because the incentive structure rewards it — you get the fee and the performer, and the consequences arrive later and are diffuse. The vendor absorbs the loss. The artist absorbs the gap between what was promised and what was delivered. Your reputation absorbs it slowly. Accurate representation of what your event offers is not just ethical — it is how you build the relationships and reputation that sustain your events long-term.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The V check: “Would I be comfortable if every vendor and artist I have worked with saw this pitch in writing, side by side with what actually happened?” — the reputation you’re building is the accurate one, not the one in your pitch.
 
@@ -58,6 +64,8 @@ Let's talk about who does this. You agreed to a fee. You agreed to a payment tim
 
 Here's how it plays out. The event cost more than projected. The attendance was lower than you hoped. The performer you agreed to pay $2,000 is now getting a message that you can only do $1,200 "given how the event went." She had no say in how the event went. She delivered her performance. She incurred the travel costs. She fulfilled her side of the agreement. The event's financial performance is your risk, not hers.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Post-event financial "adjustments" are contract violations — not conversations to negotiate
@@ -66,6 +74,8 @@ Watch for these.
 - Offering future booking as compensation for current non-payment is not compensation
 
 Here's what's really going on. Late payment and post-event fee adjustments are so normalized in the independent event world that many promoters do not register them as the contract violations they are. They are. When you agree to a fee and a payment timeline, that agreement is binding. The event's financial performance does not change your obligation. Artists and vendors who absorb your losses are subsidizing your events with their own labor and financial risk. That is not a sustainable or ethical business model.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The T check: “Am I paying what I agreed, to whom I agreed, on the timeline I agreed — every time?”
 
@@ -86,6 +96,8 @@ Here's who you're dealing with. You, holding a credible report about the one per
 
 Here's the scene. It came through welfare last night and it is specific, it is not the first thing you have half-heard about him, and he is on at ten tomorrow. The maths is doing itself in your head before you have finished reading: refunds, the agent, the insurance, next year's booking relationships, and a field full of people who bought tickets for him.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - The commercial cost of acting is immediately obvious and the cost of not acting is not
@@ -96,6 +108,8 @@ Here's what to watch for.
 - Nobody outside your commercial interest is involved in the decision
 
 Here's what's actually happening. This is the decision that defines an event, and the pattern of failure across the industry is consistent: not a promoter who decided to protect a predator, but a promoter who decided to handle it after the weekend, and then after the season, and then not at all. Everything about the moment pushes one way — the cost of acting is concrete and immediate, the cost of not acting is diffuse and deferred — and that asymmetry is the whole trap. The counter is structural: a decision rule written when nothing is at stake, and a person outside the commercial line who makes the call.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The E check: “Would I act on this identical report if it were about a volunteer?” — If yes, then the only variable is money, and you already know that is not a reason.
 
@@ -120,6 +134,8 @@ Here's who this is. Your event runs because people show up to make it run. Staff
 
 Picture this. Your volunteer briefing says "this is a family" and "we are all in this together." It does not say what the actual shift hours are, what accommodation is provided, what meals are covered, what happens if someone needs to leave early, or how to raise a concern about another staff member. By Saturday your Harm Reduction team is short-staffed, two volunteers have left without explanation, and a concern that was raised Friday morning has not been acted on. The family framing did not substitute for the operational clarity that was needed.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Volunteer agreements should specify hours, accommodation, meals, and exit terms in writing
@@ -128,6 +144,8 @@ Here are the signs.
 - Concerns raised by staff should be documented and acted on within a defined timeframe
 
 Here's the mechanism underneath it. Festival promoters who treat staff and volunteers as family while providing no operational clarity are using the emotional frame to avoid the practical obligations. Family framing does not substitute for written agreements. Community language does not provide food and rest. And a culture where concerns are raised but not acted on is a culture where the next concern does not get raised — until something goes seriously wrong.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The N check: “Do my staff have what they need to do their jobs safely — and do they have a clear path to raise a concern without it costing them?” — your event runs on other people’s labor. You owe them clarity, safety, and a path that actually works.
 
@@ -148,6 +166,8 @@ Let's talk about who does this. Many events have consent policies. Fewer events 
 
 Here's how it plays out. Your event's consent policy is posted at the entrance. It is in your promotional materials. Your team briefing included it. On Saturday night a security staff member reports a consent violation to the team lead. The team lead, who knows the person being reported, decides to handle it informally. The person stays at the event. By Sunday morning two more people have had experiences with the same individual. The policy did not fail. The enforcement did.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Consent violations handled informally when formal processes exist
@@ -156,6 +176,8 @@ Watch for these.
 - Reports that are received and not acted on within a defined timeframe
 
 Here's what's really going on. Inconsistent enforcement of consent policies does more damage than no policy at all — because it signals to potential violators that the policy is navigable through the right relationships, and to potential reporters that reporting may not be worth the cost. Consistent enforcement regardless of who the violator is — including people who are connected, contributing, or beloved — is the only thing that makes the policy real. The first time you fail to enforce it is the moment you define what the policy actually is.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The E check: “Am I enforcing my consent policy consistently — regardless of who the violator is?”
 
@@ -176,6 +198,8 @@ Here's who you're dealing with. Physics. Not a bad actor, not a decision anybody
 
 Here's the scene. It is the headline act, the barrier is full, there is a surge from the back, and somewhere in the middle of it a person goes down and the people around them cannot bend to help because there is no room to bend. Nothing about this looks dangerous from the mixing desk and it is the single most lethal thing that happens at music events.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Density above roughly four to five people per square metre
@@ -186,6 +210,8 @@ Here's what to watch for.
 - Late-arriving surges toward a single popular act
 
 Here's what's actually happening. Deaths in crowds are almost never trampling, which is the popular misconception — they are compressive asphyxia, where density becomes high enough that people cannot expand their chests, and it is survivable for only a few minutes. It is entirely a design and management problem: density limits, monitoring from a position that can see the front, spotters at the barrier, and crucially a named person with unambiguous authority to stop the show. The single factor that turns a dangerous crowd into a fatal one is hesitation about stopping.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The E check: “Who can stop the show, right now, without asking anybody?” — If that person is not named and briefed, you do not have a crowd safety plan.
 
@@ -206,6 +232,8 @@ Here's who this is. A security company that you engaged, whose staff you did not
 
 Picture this. Two complaints come through about the same door team — a search that was handled badly, and someone spoken to in a way that was not acceptable. They are not your employees. They are wearing lanyards with your logo on them, and to everybody who was there they are your festival.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - No briefing given beyond capacity and ejection procedures
@@ -216,6 +244,8 @@ Here are the signs.
 - You have never checked licensing, or spoken to the guards yourself
 
 Here's the mechanism underneath it. Security are the most physically interventionist people on site and usually the least integrated into the event's stated values, because they arrive as a contracted service rather than as part of the team. Attendees do not distinguish: a bad search or an aggressive ejection is remembered as something your festival did. The fix is contractual and procedural — brief them as staff, set the standards in the contract, and provide a complaints route that does not run through the company being complained about.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The N check: “Can an attendee complain about a guard to someone who does not work for the security company?” — If not, you will never hear about it and it will continue.
 
@@ -240,6 +270,8 @@ Let's talk about who does this. Your event produces content — video, audio, ph
 
 Here's how it plays out. Your festival set videos are performing well on your YouTube channel. They are driving discovery for your next event. They are also generating streaming revenue through the platform's music content system. The artists in those videos were paid for their performance. They were not paid for the recording, the distribution, or the streaming revenue. Your standard booking confirmation contained a rights clause they did not negotiate. The content that is building your brand was created by people who are not sharing in its returns.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Sweeping recording rights clauses in standard booking confirmation language
@@ -248,6 +280,8 @@ Watch for these.
 - Social media content featuring artists used to promote future events without compensation
 
 Here's what's really going on. The gap between what promoters legally own through standard contracts and what they ethically owe the artists who created the content is significant. Artists whose performances are recorded, distributed, and monetized are entitled to participate in that revenue. A recording rights clause buried in a booking confirmation is not the same as a negotiated agreement. The ethical standard is transparency about what you are doing with the content and fair participation for the people who created it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The V check: “Are the artists whose recordings I am using being compensated fairly for the commercial use I am putting that footage to?” — the content that builds your brand was created by artists. Treat their contribution accordingly.
 
@@ -272,6 +306,8 @@ Here's who you're dealing with. For anyone putting on an event, from a four-hund
 
 Here's the scene. Everything here is arranged in the planning months, when it is cheap and nobody is under pressure. None of it can be improvised on the Saturday, which is when you will find out whether you did it — and the finding out is always somebody's worst night.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - A written code of conduct, published, with named consequences
@@ -282,6 +318,8 @@ Here's what to watch for.
 - An incident log kept properly, and read afterwards rather than filed
 
 Here's what's actually happening. The gap between an event that says it takes safety seriously and one that does is almost entirely paperwork done in advance — and the single most load-bearing item is a reporting route that bypasses seniority. Most festival safeguarding failures are not the absence of a policy; they are a report that went to somebody with a relationship to the person being reported. Naming two independent leads and publishing how to reach them is cheap, and it is the thing that determines whether you find out about a problem in year one or in year four when it reaches social media.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The E check: “Can somebody report a senior person at my event without that report reaching them first?” — If not, you do not have a reporting process, you have a filter.
 
@@ -306,6 +344,8 @@ Here's who this is. This page is the practical one. Specific practices and stand
 
 Picture this. The promoters you respect — the ones whose names on a lineup or a market mean something — have all built reputations over time through the same things: they pay what they agreed. They represent their events accurately. They enforce their own standards regardless of who is involved. Their staff know what to expect and have somewhere to go with concerns. Their artists are glad to come back. None of this is complicated. All of it is a choice.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Written agreements with all artists, vendors, and staff before any money changes hands
@@ -314,6 +354,8 @@ Here are the signs.
 - Post-event financial reconciliation completed and communicated within agreed timelines
 
 Here's the mechanism underneath it. Ethical event production is not a higher bar than most promoters can reach. It is a set of consistent practices that most promoters know they should follow and some do not. The ones who do build reputations that compound over time — artists want to play their events, vendors want placement at their markets, staff want to work their shows. The ones who do not build reputations that also compound — and the circuit has a very long memory.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The T check: “Would the artists, vendors, and staff who worked my last event describe it the way I just did?” — ethical production isn’t complicated. It’s a set of choices made consistently. Make them.
 

@@ -15,6 +15,8 @@
 
 “This one's S.O.U.N.D. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE VAN GOT DONE”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Organized and specific. People who know what a band's van looks like, which hotels touring acts use, and that a vehicle packed after a show and parked overnight contains everything the act owns.
 
 Here's the scene. You loaded out at two, drove forty minutes, parked outside the travel lodge like always, and in the morning the side door is open and the van is empty. Instruments, laptops with the stems, merch, the lot. You have a show tomorrow, the insurance certificate is in a folder somewhere, and nobody wrote down a single serial number.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Predictable routine: same venues, same hotels, same parking
 
 Here's what's actually happening. Van theft is a specialist activity aimed at touring musicians precisely because the value density is extraordinary and the routine is predictable. The part most bands get wrong is the insurance: a great many policies exclude theft from an unattended vehicle overnight, which means the cover people believe they have does not apply to the single most likely way they will lose everything. The second thing is documentation — without serials and photographs a claim is slow and a police recovery is effectively impossible even when the gear surfaces.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The D check: “Could I list every serial number and produce a photograph of each item today?” — If not, you do not have a claim, you have a list of regrets.
 

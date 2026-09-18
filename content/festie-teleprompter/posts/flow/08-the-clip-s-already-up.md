@@ -15,6 +15,8 @@
 
 “This one's F.L.O.W. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE CLIP'S ALREADY UP”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Always filming, often good at it, and operating on the assumption that a public performance is a public license. Sometimes a friend with a phone. Sometimes an account with two hundred thousand followers and a monetization deal.
 
 Here's the scene. You burned last night. This morning there is a clip of it on an account you have never heard of, forty thousand views, your face clearly visible, your name nowhere, a brand tagged in the caption. The comments are mostly about your body. Somebody has stitched it. You did not know a camera was there, and the account owner, when you message, is genuinely baffled that you are not pleased.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Costume, aerial, and fire performers get framed body-first
 
 Here's what's actually happening. Performing in public does not transfer your rights in your own image, and it never has — but the practical position is that enforcement is slow, cross-border, and expensive, so the operative protection is the one you set up in advance rather than the one you litigate afterwards. What makes this acute for flow and aerial performers is the combination of revealing costume, physical spectacle, and a distribution system that rewards exactly the framing you did not choose. The version that does real harm is not the friendly clip, it is the reposted one, where it travels without context, without your name, and often into spaces you would never have agreed to.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The L check: “Have I said, out loud, before I start, what I consent to being filmed and posted?” — Silence gets read as a yes by people who wanted a yes.
 

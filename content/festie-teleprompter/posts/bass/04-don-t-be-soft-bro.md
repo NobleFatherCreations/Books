@@ -15,6 +15,8 @@
 
 “This one's B.A.S.S. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “DON'T BE SOFT, BRO”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The pressure to keep up. To not be the one who t
 
 Here's the scene. "Bro come on, it's one more. You're not gonna go to sleep at 4am at a festival." You're actually done. Your body is telling you it's done. But the crew is still going and the implication is clear — tapping out means you're not built for this. You take it. By 7am you're in a situation that wouldn't have happened if you'd listened to yourself five hours ago.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Your limit is framed as a character flaw — "soft," "scared," "not a real raver"
@@ -32,6 +36,8 @@ Watch for these signs.
 - You override genuine body signals to avoid social cost
 
 Here's what's actually happening. Peer coercion in male spaces rarely looks like obvious pressure. It's ambient — the raised eyebrow, the "seriously?", the way the group keeps moving while you hesitate. Men are socialized to read ambient disapproval as a threat to status and respond with compliance. At a festival on substances, that socialization gets amplified. Your limits are not a personality flaw. The ones who respect your "I'm good" are the real crew.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The B check: “What is my body actually saying right now — not what does the group expect me to say?”
 

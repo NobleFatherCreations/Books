@@ -15,6 +15,8 @@
 
 “This one's E.V.E.N.T. — Legacy. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE ETHICAL PROMOTER TOOLKIT”
@@ -24,6 +26,8 @@ Here's who you're dealing with. This page is the practical one. Specific practic
 
 Here's the scene. The promoters you respect — the ones whose names on a lineup or a market mean something — have all built reputations over time through the same things: they pay what they agreed. They represent their events accurately. They enforce their own standards regardless of who is involved. Their staff know what to expect and have somewhere to go with concerns. Their artists are glad to come back. None of this is complicated. All of it is a choice.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Written agreements with all artists, vendors, and staff before any money changes hands
@@ -32,6 +36,8 @@ Watch for these signs.
 - Post-event financial reconciliation completed and communicated within agreed timelines
 
 Here's what's actually happening. Ethical event production is not a higher bar than most promoters can reach. It is a set of consistent practices that most promoters know they should follow and some do not. The ones who do build reputations that compound over time — artists want to play their events, vendors want placement at their markets, staff want to work their shows. The ones who do not build reputations that also compound — and the circuit has a very long memory.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The T check: “Would the artists, vendors, and staff who worked my last event describe it the way I just did?” — ethical production isn’t complicated. It’s a set of choices made consistently. Make them.
 

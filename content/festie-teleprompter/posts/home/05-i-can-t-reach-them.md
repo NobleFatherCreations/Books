@@ -15,6 +15,8 @@
 
 “This one's H.O.M.E. — Emergency. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/home/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “I CAN'T REACH THEM”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. You, at home, watching an unanswered message go from normal to not normal, with no idea where the line is.
 
 Here's the scene. They have not replied since Friday afternoon. It is now Saturday evening. You know the phone probably died, because everyone's phone dies, and you also cannot stop refreshing, and you have no idea whether calling the festival makes you a reasonable parent or a ridiculous one.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/home/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You do not know the festival has a welfare team that does exactly this
 
 Here's what's actually happening. Silence at a festival is overwhelmingly a dead battery and no signal — mobile networks at large events are saturated, charging queues are hours long, and messages sent from a field frequently never arrive. That is the likeliest explanation and it is worth holding onto. It is also true that every large festival has a welfare team whose job includes locating people and passing on messages, they are contactable, and they will not think you are overreacting. Most families do not know that team exists, so they oscillate between doing nothing and calling the police.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/home/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Have I contacted the festival's welfare team?” — That is the step between waiting and panicking, and almost nobody knows it exists.
 

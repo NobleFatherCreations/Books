@@ -103,18 +103,23 @@ def fmt_time(words):
     return f"{m}:{s:02d}"
 
 
+def img_marker(path, note):
+    return f"> 🖼️ **[INSERT IMAGE HERE: `{path}`]** — {note}"
+
+
 def spoken_word_count(*parts):
     """Word count of what a presenter actually says out loud -- excludes
     markdown metadata (Guide:/Section:/Accent color: labels, the on-screen
-    text suggestion, headers, bullet dashes) that a reader sees but never
-    voices. Used for the runtime estimate so it isn't inflated by the
-    file's own formatting."""
+    text suggestion, headers, bullet dashes, image-insert callouts) that a
+    reader sees but never voices. Used for the runtime estimate so it isn't
+    inflated by the file's own formatting."""
     text = " ".join(parts)
     text = re.sub(r'^[-•]\s*', '', text, flags=re.M)
+    text = re.sub(r'^>.*$', '', text, flags=re.M)
     return len(text.split())
 
 
-def scenario_body(sc):
+def scenario_body(sc, slug):
     """The scenario narration, same flowing shape as the combined build but
     with single fixed lead-ins (no rotation needed -- one scenario per
     file, so there's no repetition to break up)."""
@@ -122,6 +127,11 @@ def scenario_body(sc):
     lines.append(f"Here's who you're dealing with. {sc['who']}")
     lines.append("")
     lines.append(f"Here's the scene. {sc['scene']}")
+    lines.append("")
+    lines.append(img_marker(f"images/{slug}/tells-card.png",
+                             "hold this on screen with this scenario's tells typed in; you can "
+                             "shorten the next line to \"Here's what to watch for\" instead of "
+                             "narrating every tell if you want this under 3 minutes."))
     lines.append("")
     lines.append("Watch for these signs.")
     lines.append("")
@@ -138,6 +148,11 @@ def scenario_body(sc):
         check_line = f"Run the check. “{q}{close_mark}"
     if rest:
         check_line += f" — {rest}"
+    lines.append(img_marker(f"images/{slug}/check-card.png",
+                             "hold this on screen with the check question and letter typed in; "
+                             "you can shorten the line below to just naming the check instead of "
+                             "reading the full quote if you want this under 3 minutes."))
+    lines.append("")
     lines.append(check_line)
     lines.append("")
     if sc.get("dark") and sc.get("darkTitle"):
@@ -174,12 +189,16 @@ def scenario_doc(g, sc, n, total_in_guide, section_title, section_desc):
     lines.append("")
     lines.append(f"“{video_intro_spoken}”")
     lines.append("")
+    lines.append(img_marker(f"images/{g['slug']}/cover.png",
+                             "video open — type this scenario's title into the blank bottom "
+                             "third before recording, then cut or fade from it into the scene."))
+    lines.append("")
     lines.append("---")
     lines.append("")
     lines.append(f"# “{sc['hook']}”")
     lines.append(f"*{sc['archetype']} — clinically, {soft_lower(sc['clinical'])}.*")
     lines.append("")
-    body = scenario_body(sc)
+    body = scenario_body(sc, g["slug"])
     lines.append(body)
     lines.append("")
     lines.append("---")

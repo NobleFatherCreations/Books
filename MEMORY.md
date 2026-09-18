@@ -3764,3 +3764,65 @@ Reading copy of all seven, for review:
 
 Shipped as v12. Both checkers at 0 against 33 chapters.
 
+## Update (2026-09-18) — Festie Bible: 84 reusable video assets + image
+markers threaded through all 291 teleprompter scripts
+
+Built on top of the 270 individual post scripts from the prior round
+(each already an out-of-the-box postable teleprompter script per
+scenario). User asked for: a video-cover image per guide (book image +
+large section title/acronym + logo + the festival URL, with room left to
+type each video's specific title themselves), a standalone acronym-badge
+image per guide, and an exploration of which repeatable (per-guide, not
+per-scenario) images could move content off spoken narration to help trim
+toward a 3-minute runtime — all bundled into one catalog document, with
+the 291 scripts marked up to show where each image goes.
+
+**New: `scripts/festie-image-assets-build.py`.** Pillow-based, same
+pattern as `scripts/covers/compose-guide-jacket.py` — real logo
+(`design/brand/logo-noble-father.png`), real self-hosted fonts
+(Fraunces/Hanken Grotesk/Space Mono from `tools/fonts/`), real per-guide
+accent colors pulled from the live page's own CSS, nothing AI-generated
+(house rule: image models mangle exact text like an acronym or a URL, and
+both need to be exact here). Four images per guide, 21 guides = 84 total,
+written to `content/festie-teleprompter/images/<slug>/`:
+- `cover.png` (1080×1920) — the 2 "cover" images asked for per guide,
+  genuinely blank in the bottom third for the user's own per-video title.
+- `badge.png` (1080×1080) — the standalone acronym mark, square so it
+  drops into a mid-video insert or lower-third without cropping.
+- `tells-card.png` / `check-card.png` (1080×1920 each) — new, beyond what
+  was literally asked for as "the 42": reusable per-guide templates
+  ("Watch for these signs" / "Run the check") with faint blank guide-lines
+  or an open frame, meant to hold a scenario's tells or check text on
+  screen so the spoken line can shorten instead of narrating everything —
+  this is the "reduce runtime with images" piece. First pass had a real
+  layout bug (all content clustered in the canvas's top third, big dead
+  gap before the logo footer) — fixed by redistributing both templates'
+  content evenly across the full body zone (y≈380–1600) before batch-
+  running all 21.
+
+**New: `scripts/festie-image-catalog-build.py`** → writes
+`content/festie-teleprompter/02-IMAGE-CATALOG.md`, one file, same 21-guide
+order as everywhere else in this project, with a contents TOC (GitHub
+anchor rules, not guessed), all 84 images embedded per guide, captions
+explaining what each is for, and the runtime-reduction rationale written
+out.
+
+**Both teleprompter builders now inject `[INSERT IMAGE HERE: ...]`
+markers** at the point each image belongs — a blockquote line with the
+exact repo-relative path and a usage note. `festie-teleprompter-build.py`
+(21 combined guide scripts): one cover marker after the title, then a
+tells-card marker before every scenario's tells and a check-card marker
+before every check. `festie-teleprompter-scenes-build.py` (270 individual
+posts): same three-marker pattern per file, plus the spoken-word-count
+function now strips blockquote lines so the marker text itself never
+inflates a post's runtime estimate. Verified after regenerating all 291
+files: 1,371 markers total, every one resolves to a real file on disk,
+and per-guide marker counts match scenario counts exactly (1 cover +
+N tells + N check per guide).
+
+Re-run order after any future content/accent change:
+`festie-image-assets-build.py` → `festie-image-catalog-build.py` →
+`festie-teleprompter-build.py` → `festie-teleprompter-scenes-build.py`
+(the last two just need the image files to already exist on disk; they
+don't regenerate them).
+

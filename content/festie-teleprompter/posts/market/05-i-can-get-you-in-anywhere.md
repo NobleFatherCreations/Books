@@ -15,6 +15,8 @@
 
 “This one's M.A.R.K.E.T. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “I CAN GET YOU IN ANYWHERE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The promoter, camp lead, or circuit organizer wh
 
 Here's the scene. You met him at the winter market and the connection was real. By spring he was helping you get into better events and your bookings genuinely improved. By summer you are in a relationship that has become complicated and painful — and every conversation about ending it carries an unspoken freight of what happens to your bookings and circuit relationships when you do. The personal and professional are completely entangled and you have less power in both.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Romantic relationship develops with someone who controls your business access
@@ -32,6 +36,8 @@ Watch for these signs.
 - They reference your bookings or placement during relationship conflicts
 
 Here's what's actually happening. Romantic entanglement with access holders is a specific and common vendor vulnerability because the festival circuit is small and relationship-driven. The problem is not the relationship. The problem is when the relationship becomes the mechanism of professional control. If you cannot evaluate your relationship independently of what it costs your business — the entanglement has already become control. Your professional access should never live inside a romantic relationship.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Does my business access depend on this relationship — and what does that mean for me the day this relationship ends?” — access that depends on one relationship was never really yours.
 

@@ -3,6 +3,8 @@
 
 *A spoken-word teleprompter script — one scenario at a time, ready to read straight to camera.*
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/cover.png`]** — video open — type this video's scenario/section title into the blank bottom third before recording, then hold or fade from it.
+
 **Quick shoutout before we start:** every scenario in this guide — and 261 more across the other twenty guides — lives free at **www.noblefathercreations.com/festival**.
 
 This is S.O.B.E.R.: Sober & In Recovery Edition. You do not need a substance to be here and you never did. This guide is about the people who need you to be the exception.
@@ -30,6 +32,8 @@ Here's who this is. Usually not malicious. Frequently drunk. Genuinely believes 
 
 Picture this. Fourth time tonight. He is holding it out again, doing the thing where he waggles it slightly, saying he is not trying to pressure you but it is a festival, and asking — warmly, in front of five people — what actually happened, like your sobriety is a story he is owed and the story will settle whether your no is reasonable.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Asks more than once after a clear answer
@@ -40,6 +44,8 @@ Here are the signs.
 - Gets cold or wounded when the fourth no lands
 
 Here's the mechanism underneath it. The pressure is usually about him rather than about you — a person drinking heavily next to someone who is not is being handed an unwelcome mirror, and the fastest way to put the mirror down is to get you to join. That does not make it harmless. Repeated asking is how boundaries get worn rather than broken, and the reason-demand is the actual move: once you are explaining, you are in a negotiation, and negotiations have outcomes. You are not in a negotiation. The most effective response is also the most boring one, which is the same three words, at the same volume, indefinitely, with no new information added.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The S check: “Am I explaining?” — The moment you start supplying reasons, you have accepted that your no needs approving. It does not.
 
@@ -60,6 +66,8 @@ Let's talk about who does this. Anyone holding a cup you did not watch being fil
 
 Here's how it plays out. Someone hands you a lemonade. They are being nice, they know you do not drink, they went and got it specially. Refusing it feels ungrateful and slightly insulting and like you are accusing a friend of something. It also costs nothing, and the alternative — a drink you cannot vouch for, in a body with no tolerance, in front of people who will later say you seemed fine — costs a great deal.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - A drink arriving already poured, that you did not see made
@@ -70,6 +78,8 @@ Watch for these.
 - Any drink left unattended, including yours, including for a minute
 
 Here's what's really going on. The most common drink adulterant is alcohol added to something someone believes is soft, which matters enormously here: for a sober or in-recovery person that is not a lesser version of spiking, it is the specific harm. Zero tolerance means a small dose lands hard, and the aftermath is not only physical — it can register internally as a relapse, with all the shame that carries, even though nothing about it was chosen. The rule is the same one this whole book gives everyone: you pour it, you watch it poured, or you carry it sealed. The difference is that for you the failure mode includes losing your sense of your own recovery.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The O check: “Did I watch this being made, or open it myself?” — If not, it is not a drink, it is an unknown.
 
@@ -94,6 +104,8 @@ Here's who you're dealing with. The whole group, gradually and without a convers
 
 Here's the scene. It is two in the morning and you are walking a stranger to medical because you are the only one upright enough to do it. This is the third night running. You came here for the music and you have seen about forty minutes of it, and somebody said earlier, as a compliment, that it is so good having you around because you always know what to do.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - You hold the keys, the cash, the phones, the plan — by default, never by agreement
@@ -104,6 +116,8 @@ Here's what to watch for.
 - Resenting it makes you feel like a bad friend, so you do not mention it
 
 Here's what's actually happening. Care work assigned by default rather than agreement is a well-documented route to burnout, and the festival version is unusually total: you are the group's driver, medic, treasurer, and institutional memory simultaneously, at exactly the time of year you came to enjoy yourself. It matters more than it sounds. Resentment plus exhaustion plus not having had any of the thing you came for is a genuinely recognized relapse-risk combination, and it builds quietly because the role arrives as a compliment. Choosing to look after your people is one of the good things about being the sober one. Being silently conscripted is not the same act.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The B check: “Did I agree to this role, or was it assigned to me because I'm the one who'll remember?” — Those produce the same behaviour and completely different costs.
 
@@ -124,6 +138,8 @@ Here's who this is. Nobody hostile. A camp full of people who forgot, or who gen
 
 Picture this. You ate one thing from the communal table because you were starving and it was food. Forty minutes later you know. You are sitting in a camp chair doing arithmetic about whether this counts, whether you have to tell anyone, whether your sponsor will think you engineered it, and whether your sobriety date has just moved — and none of that arithmetic is helping with the part where you are currently high and did not agree to be.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Unlabelled food on a communal table
@@ -134,6 +150,8 @@ Here are the signs.
 - The first you hear of it is somebody laughing about it afterwards
 
 Here's the mechanism underneath it. Accidental ingestion at festivals is common and it is a labelling failure rather than an attack — which does not make it less serious for you. Edibles are the usual route because they are food-shaped and the onset is delayed enough that you have eaten it before anyone could have told you. The practical harm is real — being involuntarily altered removes your capacity in an environment where you are frequently the person others are relying on — and the internal harm can be larger, because it lands as a relapse in a body that cannot tell the difference.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The O check: “Do I know what is in this, from the person who made it?” — Communal food counts. This is the rule the book gives everybody, applied to a plate.
 
@@ -154,6 +172,8 @@ Let's talk about who does this. The circle itself. The joint, the bottle, the ba
 
 Here's how it plays out. It is not one refusal, it is the fortieth, and by the fortieth you have stopped saying anything and started doing the small hand movement, and somebody has noticed and said something kind about it which made it worse, and you are now thinking about leaving a fire you were enjoying because the geometry of the circle has made your sobriety the most visible thing about you all night.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - The object physically arrives at you on a loop
@@ -164,6 +184,8 @@ Watch for these.
 - You have started avoiding fires you actually like
 
 Here's what's really going on. Refusal fatigue is real and underrated: the cost of any single no is negligible and the cost of forty is significant, particularly when each one happens in front of people and requires a micro-decision about tone. It is also the mechanism by which sober people quietly stop going to the parts of a festival they enjoy most, which produces exactly the isolation that everything else in this guide warns about. The circle is not doing anything to you. The geometry is doing it, and geometry can be changed.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The B check: “Am I avoiding somewhere I like because of the effort of being there?” — That is the cost showing up, and it is fixable without leaving.
 
@@ -188,6 +210,8 @@ Here's who you're dealing with. Someone who learned what your sobriety means to 
 
 Here's the scene. It happened. However it happened, it happened, and he was there, and now he is being extraordinarily kind about it. He says it stays between you. He says he understands, no judgment, everyone slips. He says it about four times over the next two days, in a way that is comforting the first time and something else by the fourth.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Present for the slip, and unusually relaxed about it
@@ -198,6 +222,8 @@ Here's what to watch for.
 - Small asks start arriving, and declining them feels newly complicated
 
 Here's what's actually happening. A secret held by one other person is leverage whether or not anyone ever names it, and shame is the most reliable silencer there is because the person being controlled does the work themselves. This is why isolation from your recovery network is the tell to watch rather than any explicit threat — the threat is never made, it does not need to be. Coercive control research finds this shape consistently: cut the person off from the relationships that would give them a competing account of themselves, then be the only one who knows the worst thing. What makes recovery a target is simply that the worst thing is already pre-loaded and everyone knows how much it costs you.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The R check: “Is there something about me only one person here knows?” — That is not intimacy. That is a holding.
 
@@ -218,6 +244,8 @@ Here's who this is. Somebody in your own corner — a recovery acquaintance, a c
 
 Picture this. You take your prescribed medication in front of the camp, as you do every day, and somebody asks what it is. Then asks whether that is allowed. Then says, not unkindly, that they thought you were clean, and you find yourself standing in a field defending a prescription to a person with no medical training and considerable confidence.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Being asked to justify a prescription socially
@@ -228,6 +256,8 @@ Here are the signs.
 - The same person is relaxed about their own caffeine, nicotine or painkillers
 
 Here's the mechanism underneath it. Medication-assisted treatment and psychiatric prescriptions are medicine, and the evidence for them is strong — but purity narratives inside some recovery cultures treat them as a compromised form of sobriety, and the result is people quietly skipping doses to stay socially legitimate. That is the actual harm here and it is a serious one: interrupted psychiatric medication at a festival, with no sleep and heavy sensory load, is a genuine risk of crisis, and interrupted substitution treatment carries a risk of return to use with reduced tolerance.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The R check: “Has my prescriber said this is fine?” — That is the only opinion in this conversation that has any standing.
 
@@ -252,6 +282,8 @@ Let's talk about who does this. For anyone sober, in recovery, California sober,
 
 Here's how it plays out. Tuesday, twenty minutes, a notes app. Everything that will be hard on Saturday night is currently something you can solve in one line. On Saturday night it will not be, because the whole difficulty of Saturday night is that it takes away the part of you that makes plans.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Your line, decided now: what you drink, what you never accept, what ends the night
@@ -262,6 +294,8 @@ Watch for these.
 - What you do if you slip: who you call, in what order. Written down.
 
 Here's what's really going on. Relapse prevention planning is the most evidence-backed piece of self-management in recovery, and its whole logic is pre-commitment — a decision made in a regulated state, handed to a depleted one, so the hard moment only requires following rather than deciding. A festival concentrates every known risk factor into seventy-two hours: sleep loss, crowds, availability, loneliness inside a group, and the specific ache of watching people you love have an experience you have chosen not to have. None of that means you should not go. It means you go with a plan, the way you would go anywhere else that mattered.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The E check: “Do I know what time I'm leaving tonight, and who I call if it gets hard?” — Two answers, decided before you arrive.
 
@@ -286,6 +320,8 @@ Here's who you're dealing with. The Wharf Rats with the yellow balloons. The Phe
 
 Here's the scene. You assume you are the only one. You are not remotely the only one — there is a meeting on this site, probably daily, probably signposted with a yellow balloon or a hand-lettered board, and the people at it have been navigating exactly this weekend for longer than you have been alive. Most of them found it the same way, which is late, having assumed the same thing you are assuming.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Yellow balloons at the back of the crowd — that is the Wharf Rats, and it is an invitation
@@ -296,6 +332,8 @@ Here's what to watch for.
 - Real: you can go, say nothing, drink the coffee, and leave
 
 Here's what's actually happening. Sober infrastructure inside festival culture is decades old and largely invisible unless you are looking for it — the Wharf Rats go back to the early eighties, the Phellowship not much later, and most large festivals now have something. The reason it matters more than any individual tactic in this guide is that isolation is the common factor underneath every pattern here: the convincer works on someone with no one to turn to, the assigned care role works on someone who does not know other sober people are around, and the engineered slip works on someone cut off from their network. Finding these people on Thursday removes the precondition for all three at once.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The B check: “Do I know where the sober meeting is on this site — today, not hypothetically?” — Find it before you need it. That is the whole page.
 

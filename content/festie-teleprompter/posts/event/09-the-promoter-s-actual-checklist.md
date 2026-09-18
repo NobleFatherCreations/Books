@@ -15,6 +15,8 @@
 
 “This one's E.V.E.N.T. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE PROMOTER'S ACTUAL CHECKLIST”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. For anyone putting on an event, from a four-hundred-capacity warehouse to a field with three stages. This page is the difference between believing your event is safe and being able to show it.
 
 Here's the scene. Everything here is arranged in the planning months, when it is cheap and nobody is under pressure. None of it can be improvised on the Saturday, which is when you will find out whether you did it — and the finding out is always somebody's worst night.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - An incident log kept properly, and read afterwards rather than filed
 
 Here's what's actually happening. The gap between an event that says it takes safety seriously and one that does is almost entirely paperwork done in advance — and the single most load-bearing item is a reporting route that bypasses seniority. Most festival safeguarding failures are not the absence of a policy; they are a report that went to somebody with a relationship to the person being reported. Naming two independent leads and publishing how to reach them is cheap, and it is the thing that determines whether you find out about a problem in year one or in year four when it reaches social media.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Can somebody report a senior person at my event without that report reaching them first?” — If not, you do not have a reporting process, you have a filter.
 

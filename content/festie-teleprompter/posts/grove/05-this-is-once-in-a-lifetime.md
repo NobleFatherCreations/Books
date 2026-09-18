@@ -15,6 +15,8 @@
 
 “This one's G.R.O.V.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THIS IS ONCE IN A LIFETIME”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The Opportunity Creator. Always has something ex
 
 Here's the scene. "I don't do this for just anyone but there's a private ceremony happening in twenty minutes — only eight people, real medicine holders, you'd have to come right now." He's already walking. You're following before you've decided to. Something in his certainty made the decision feel already made. You don't know where you're going. You haven't told anyone.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - "Right now" / "only tonight" / "this won't happen again"
@@ -32,6 +36,8 @@ Watch for these signs.
 - You feel excited AND vaguely railroaded simultaneously
 
 Here's what's actually happening. Urgency is a discernment bypass. When something must happen RIGHT NOW, your prefrontal cortex — your judgment — literally cannot keep up. The pressure is the point. Real once-in-a-lifetime moments don't require you to abandon your people and your pace to access them. Anything that evaporates the moment you ask to slow down was never safe to begin with.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The G check: “What is my gut saying — and do I have time to text someone where I'm going?”
 

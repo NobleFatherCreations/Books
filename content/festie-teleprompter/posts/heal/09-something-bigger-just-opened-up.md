@@ -15,6 +15,8 @@
 
 “This one's H.E.A.L. — Emergency. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “SOMETHING BIGGER JUST OPENED UP”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. A client who came in for tension and is now in the middle of something much larger — a flashback, a panic attack, a disclosure of abuse, or a psychiatric emergency — in your tent, on your table, with you.
 
 Here's the scene. Bodywork opened something and she is not in the room any more. She is shaking, breathing badly, somewhere in her own history, and telling you something she has clearly never said out loud. You are a massage therapist. You have ninety seconds to decide what you are and are not going to try to do, and every instinct you have is pulling you toward staying with it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You have no referral route and did not find one before the event
 
 Here's what's actually happening. Bodywork and altered-state contexts surface trauma routinely, and the single most consequential skill a practitioner has is knowing where their own edge is. Attempting to process trauma without that training can deepen it, and the moment where it feels most compassionate to continue is the moment it is most likely to do harm. The competent response is small and unglamorous: stabilize, ground, do not excavate, and hand over to someone whose job it is. Every large festival has welfare, and most have psychedelic support services staffed by people trained for precisely this.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Am I still inside what I was trained to do?” — The honest answer arrives fast, and it is usually no, and no is the correct place to stop.
 

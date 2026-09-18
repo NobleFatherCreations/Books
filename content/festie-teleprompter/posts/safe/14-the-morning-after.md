@@ -15,6 +15,8 @@
 
 “This one's S.A.F.E. — Community Care. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE MORNING AFTER”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Something happened this weekend. Or you watched 
 
 Here's the scene. It is Sunday afternoon and the festival is winding down and you are sitting with something heavy. You are not sure if you are being dramatic. You are not sure who to tell. You are exhausted and overwhelmed and every feeling is louder than normal. Here is what is true: you do not have to have it figured out to deserve support. You do not need a perfect story. You do not need certainty about what happened or what to call it. You just need to reach out.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - You do not need a perfect memory or perfect certainty to deserve support — reach out anyway
@@ -32,6 +36,8 @@ Watch for these signs.
 - Crisis Text Line: text HOME to 741741 if talking feels too hard right now
 
 Here's what's actually happening. Post-incident processing is hard enough without the additional weight of deciding whether your experience is bad enough to matter. It is. Whatever level of severity it sits at — it matters. You do not have to be okay by the time you load the car. You do not have to have it figured out before you talk to someone. Give yourself the first 48-72 hours for basic recovery — sleep, food, low stimulation — before trying to process fully. Then talk to someone you trust.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “What does my body actually need right now — not what does the situation require me to perform?” — you don’t have to be okay yet. Support exists, and you deserve it.
 

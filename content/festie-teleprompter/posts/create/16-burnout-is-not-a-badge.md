@@ -15,6 +15,8 @@
 
 “This one's C.R.E.A.T.E. — Community. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “BURNOUT IS NOT A BADGE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The pressure to create publicly, generously, and
 
 Here's the scene. You came to the festival to create and you've made twelve pieces, done two free workshops, gifted four finished works, painted a wall for the camp, contributed to a collab you didn't really want to be part of, and helped three other artists with their setups. It's Sunday and you're empty. You feel proud and resentful simultaneously. You gave everything and you're not sure you gave it to the right people or the right places or even because you wanted to.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Requests for your creative labor accumulate until you can't find your own work in your schedule
@@ -32,6 +36,8 @@ Watch for these signs.
 - You feel proud and resentful simultaneously — the resentment is information
 
 Here's what's actually happening. Giving is a value in festival culture and creative communities. The shadow side is that it can be systematically exploited — where one person's generosity is treated as an extractable resource rather than a chosen gift. When the word "no" starts to feel selfish inside a community that calls itself loving, that community is using your values against you. Resentment is the signal that giving has crossed from chosen to coerced.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Enough is enough — am I still giving from abundance or am I giving from depletion?”
 

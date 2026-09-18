@@ -15,6 +15,8 @@
 
 “This one's B.U.I.L.D. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/build/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE DRIVE HOME”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. You, on the Monday, after a three-week build and a two-day strike, with a van full of kit and four hours of motorway between you and a bed.
 
 Here's the scene. Everything is loaded. The site is a field again. You have slept eleven hours in the last three days and you are going to drive home now because that is what everybody does and because the alternative is another night in a field. You will be fine for the first hour. The one that gets people is the third.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/build/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - “I'll stop if I get tired”, which is the belief that does the damage
 
 Here's what's actually happening. Fatigue is a leading cause of fatal road collisions and the risk profile matches this exact moment: sustained sleep debt, monotonous roads, and driving at a time of day when the body is trying to shut down. The specific danger is the microsleep — a few seconds of sleep with the eyes open, which the driver does not experience as having happened, which is why “I'll know when I'm too tired” is false. At seventy miles an hour, four seconds is a hundred and twenty metres of unattended vehicle.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/build/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The D check: “How many hours have I slept in the last three nights?” — If it is under fifteen, you are not driving tonight. That is arithmetic, not opinion.
 

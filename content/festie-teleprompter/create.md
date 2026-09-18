@@ -3,6 +3,8 @@
 
 *A spoken-word teleprompter script — one scenario at a time, ready to read straight to camera.*
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/cover.png`]** — video open — type this video's scenario/section title into the blank bottom third before recording, then hold or fade from it.
+
 **Quick shoutout before we start:** every scenario in this guide — and 254 more across the other twenty guides — lives free at **www.noblefathercreations.com/festival**.
 
 This is C.R.E.A.T.E.: Live Painters & Artists Edition. Your art is yours. Your body is yours. Your worth is not for sale.
@@ -31,6 +33,8 @@ Here's who this is. The promoter, organizer, or influencer who wants your art fo
 
 Picture this. "We can't pay for the live painting but your work will be seen by 20,000 people this weekend and we'll tag you in everything — this could really launch you." You spend 16 hours creating something extraordinary on their main stage wall. The photos go everywhere — 40,000 likes. You get tagged in two of them. The painting stays on their wall. You leave with nothing except the work experience, which you already had.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Payment replaced with "exposure," "experience," or future opportunity — all unquantifiable
@@ -39,6 +43,8 @@ Here are the signs.
 - The ask comes under time pressure — event is this weekend, they need an answer now
 
 Here's the mechanism underneath it. Exposure is a real form of value in some contexts. It is also one of the most systematically used tools to extract free labor from artists. The test: would this person pay a photographer, sound engineer, or caterer in "exposure"? No — because those are recognized as labor. Live painting is also labor. The festival ecosystem has a long history of treating visual artists as ambient decoration. You are not decoration.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The C check: “Is there a written agreement — or just a verbal promise that evaporates after the event?”
 
@@ -59,6 +65,8 @@ Let's talk about who does this. The person who wants to "collaborate" — which 
 
 Here's how it plays out. "I have this incredible vision — I can see it so clearly — I just need someone with your skills to bring it to life. We'd be equal partners." You spend the next day executing their vague concept with your specific technical ability, your materials, your time. The finished piece gets posted with both your names. Their 8,000 followers see it first. The caption says "our piece." When you mention the execution was entirely yours, the vibe goes cold.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - They bring concept or personality; you bring skill, time, materials, and execution
@@ -67,6 +75,8 @@ Watch for these.
 - Their platform/following positioned as their "equal contribution"
 
 Here's what's really going on. Platform is not the same as labor. A concept is not the same as execution. In the art world these distinctions matter enormously for credit, compensation, and professional record. The collab frame is used to extract skilled labor under the cover of partnership. A genuine collaboration is one where both parties' contributions are named honestly and the credit reflects actual work.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The A check: “Does my name appear clearly on this work in a way that reflects my actual contribution?”
 
@@ -87,6 +97,8 @@ Here's who you're dealing with. The "connector" — not quite a manager, not qui
 
 Here's the scene. "I'm going to connect you with everyone this weekend — I know all the right people." He does introduce you to two legitimate leads. He also begins referring to himself as your "rep" in conversations with those leads and starts mentioning a 20% "arrangement" that you never agreed to. By the time you realize what's happening, the leads think he's already your manager.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Introduces themselves as your "rep" or "manager" in conversations without your agreement
@@ -95,6 +107,8 @@ Here's what to watch for.
 - You're now in a complicated position with leads who believe a deal exists
 
 Here's what's actually happening. The parasitic middleman move works by creating facts on the ground before you've had a chance to define the relationship. By the time you understand what they're claiming, they're already representing you to the people who matter to you professionally. Clear, early conversation about what any assistance means in terms of compensation is the only protection. If someone introduces themselves as your representative without your agreement — correct it immediately and directly.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The C check: “Have I agreed to any representation arrangement — or is someone claiming one that was never actually agreed?” — a representative you never hired is telling you exactly who they are.
 
@@ -115,6 +129,8 @@ Here's who this is. The person who camps near your workspace all weekend under t
 
 Picture this. He's been near your painting station since you set up. Brings you water. Makes comments about your process that show he's genuinely paying attention. It feels nice to be witnessed. By Sunday he feels like a fixture of your weekend — he knows your whole process, has opinions about your choices, offered to help break down. When he starts steering the direction of the piece and you redirect, he takes it personally. You feel like you owe him something.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Presence near your workspace extends across the whole weekend without invitation
@@ -123,6 +139,8 @@ Here are the signs.
 - Redirecting their input or asking for space is received as rejection
 
 Here's the mechanism underneath it. Creating in public is an intimate act — you're in a focused, slightly vulnerable state. This is a window that predatory observers specifically exploit. Real appreciation respects the artist's process and follows their lead about interaction. Hovering that gradually expands into advisory territory, then into physical presence in your workspace, then into emotional debt — is not admiration. It's occupation disguised as appreciation.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The T check: “Who is actually in my creative space right now — and did I invite them there?”
 
@@ -147,6 +165,8 @@ Let's talk about who does this. The specific way sexual attention gets entangled
 
 Here's how it plays out. He's been complimenting your work genuinely all weekend — knowledgeable, specific, clearly understands what you're doing. It feels good to be seen by someone who gets it. Saturday night he asks if you want to "continue the conversation" at his camp. When you decline he says "I guess I misread the creative energy between us." Suddenly the whole weekend of genuine-feeling artistic recognition has a retroactive question mark over it.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Artistic interest and sexual interest arrive in the same package from the same person
@@ -155,6 +175,8 @@ Watch for these.
 - You start wondering which of your artistic connections this weekend were actually about your work
 
 Here's what's really going on. For visible artists — especially women creating in public — sexual attention and professional attention are frequently bundled together. Being seen as an artist is meaningful and the confusion of that with being desired is a specific manipulation: it makes you question your artistic worth every time you decline someone's sexual interest. Your art's validity is entirely separate from anyone's desire for you.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The T check: “Is the appreciation of my work actually about my work — or is it cover for something else entirely?” — your art being beautiful does not make your body available.
 
@@ -175,6 +197,8 @@ Here's who you're dealing with. The commission or project that starts with a cle
 
 Here's the scene. "We love the direction — can you also just add a panel on the left? And can the main figure be slightly different? And can you include our camp's logo somewhere subtle? And can you do a smaller companion piece for the kitchen?" Each ask arrives after the previous one is done, when you're already invested and it feels petty to push back on "just one more thing." You've delivered four times what was originally scoped for the original price.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - New requests arrive after previous work is completed and your investment is high
@@ -183,6 +207,8 @@ Here's what to watch for.
 - Pushing back on changes is framed as being difficult or not collaborative
 
 Here's what's actually happening. Scope creep in creative work is one of the most common forms of exploitation precisely because each individual expansion seems minor and the accumulated investment makes pushing back feel like losing everything. The professional protection is a written brief with explicit terms: this is what is included, this is what additional work costs. Changes to scope trigger a new conversation about compensation. Every time. Without apology.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The C check: “Is what I’m being asked to do now what I agreed to do — and is the compensation still matching the scope?” — if the ask has grown and the fee hasn’t, that gap is the whole story.
 
@@ -203,6 +229,8 @@ Here's who this is. The camp or art collective that offers you a wall, a stage, 
 
 Picture this. "We're giving you the main wall — that's a massive opportunity. We just need you to also help with camp setup, do a couple smaller pieces for the kitchen, and be around for our events as artist-in-residence." What started as one wall becomes three pieces, ten hours of camp labor, mandatory presence at events, and a growing sense that saying no to anything risks losing the whole opportunity. By Sunday you're exhausted and haven't made anything you actually wanted to make.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - The initial opportunity expands after you've committed — goalposts keep moving
@@ -211,6 +239,8 @@ Here are the signs.
 - Your artistic choices are subject to camp approval rather than your own vision
 
 Here's the mechanism underneath it. Offering a platform and then expanding the terms of accessing it is a classic exploitation structure — you've already committed, walking away means losing what you came for, and each small additional ask seems reasonable. This is scope creep as manipulation. A real artist-in-residence opportunity has defined terms before you arrive. If the terms are defined verbally and keep expanding in practice — you're not a resident artist. You're camp labor with an art cover story.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The E check: “Can I walk away from this arrangement right now without losing something I shouldn’t have had to risk in the first place?” — an undefined arrangement is a contract you’re signing in paint.
 
@@ -231,6 +261,8 @@ Let's talk about who does this. The environment, plus a schedule that wants eigh
 
 Here's how it plays out. You are spraying in a marquee with the sides down because it is raining. There are three other painters doing the same thing and a crowd standing in it watching, and by the fourth hour you have the headache you always get and have stopped noticing the smell, which is the part that should worry you most.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Aerosols or solvents used in an enclosed or half-closed structure
@@ -241,6 +273,8 @@ Watch for these.
 - Consecutive long days, because the exposure is cumulative
 
 Here's what's really going on. Solvent and aerosol exposure is a genuine occupational hazard with cumulative effects on the nervous system and the airways, and live painting at festivals reproduces almost every condition that makes it worse: enclosed space, long consecutive days, no extraction, and no employer carrying a duty of care. The critical detail is that a dust mask does nothing against organic vapour — it is the wrong class of protection entirely, and it produces a false sense of safety that leads people to work longer in worse air.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The E check: “Can I smell it, and is air actually moving through here?” — If you have stopped smelling it and nothing is moving, leave now rather than at the end of the piece.
 
@@ -265,6 +299,8 @@ Here's who you're dealing with. Getting paid what you were promised, on the time
 
 Here's the scene. "The accounting is still getting sorted — payment will be in your account by end of month." End of month: "we had some unexpected costs, we're going to need to adjust the final payment." Or: you delivered the commission, the client went quiet, three weeks later you're following up for the third time. Or: the event was three months ago and the check that was "in the mail" has never arrived.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Payment delayed past agreed date without prior communication
@@ -273,6 +309,8 @@ Here's what to watch for.
 - Each follow-up produces a new reason and a new timeline
 
 Here's what's actually happening. Cash flow manipulation is a feature, not a bug, of predatory event economics. Your leverage decreases dramatically once you've delivered the work — which is why deposits exist. Get 50% before you start. Invoice immediately on delivery. Send written payment requests with your contract attached. Paper trail everything. Most non-payers rely on artists being too tired, too embarrassed, or too non-confrontational to pursue it. Pursue it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The C check: “Do I have a signed agreement with payment terms — so I have something to enforce?”
 
@@ -293,6 +331,8 @@ Here's who this is. Your designs, your process images, your finished work appear
 
 Picture this. You find your work on a festival's merchandise table — a tote bag and two t-shirts featuring a painting you created for them two years ago. You were paid for the original painting. You were not paid for any reproduction rights. Nobody asked. When you bring it up you're told "but we paid for the painting" — as if payment for the original work included unlimited commercial reproduction rights forever. It didn't.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Your work appearing on merchandise, promotional materials, or commercial contexts without notice
@@ -301,6 +341,8 @@ Here are the signs.
 - Digital versions of your work being sold, licensed, or reproduced without your knowledge
 
 Here's the mechanism underneath it. Payment for an original artwork does not transfer reproduction rights unless explicitly stated in writing. Copyright in the original work belongs to you. The buyer purchased the physical object — not the right to reproduce it commercially. This is not a gray area. It is copyright law. The protection is a written agreement before any commission that specifies exactly what rights the buyer receives and what they do not.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The A check: “Has anyone asked me in writing for permission to reproduce this work — or did they just assume they could?” — assumption is not permission, and it never comes with a check attached.
 
@@ -321,6 +363,8 @@ Let's talk about who does this. This is the practical page. Rates, rights, contr
 
 Here's how it plays out. The artists who thrive on the festival circuit long-term are not the ones who work hardest. They're the ones who figured out their value early, put it in writing consistently, and stopped apologizing for having a professional framework inside a culture that frames everything as family and love. You can love this community AND operate professionally within it.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Know your day rate and piece rate before any conversation — not during it
@@ -329,6 +373,8 @@ Watch for these.
 - Watermark your digital images before sharing widely online
 
 Here's what's really going on. Festival culture's "we're all family" framing is beautiful and also systematically used to remove the professional frameworks that protect artists. Family doesn't charge family. Family doesn't need contracts. Family gives freely. This creates the conditions for systematic exploitation of your labor. You can operate with full love for the community AND maintain professional clarity about how your work is valued. In fact, artists who know their worth make the community stronger by modeling that art has value.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The R check: “Is my rate for this engagement something I decided — or something that got decided around me?” — a rate you didn’t set is a rate someone else set, on purpose, in their favor.
 
@@ -349,6 +395,8 @@ Here's who you're dealing with. A promoter, a brand, or a former client who has 
 
 Here's the scene. The poster for this year's event is unmistakably yours. The palette, the linework, the way you do figures. You did not make it. When you ask, they say they made it in-house, and then, cheerfully, that they used your last three pieces as references, and they say it as though that were a compliment rather than a description of what they did.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Work that reproduces your recognizable style without your involvement
@@ -359,6 +407,8 @@ Here's what to watch for.
 - They are baffled by your objection and cite that nothing was copied
 
 Here's what's actually happening. Style is not protected the way a specific work is, which makes this legally murky and commercially devastating — a festival that can generate something close enough to your look does not need to book you, and the thing that made you employable becomes the thing that replaces you. The practical defence is therefore contractual and evidential rather than legal after the fact: what you license, to whom, for how long, and whether machine learning uses are excluded. Most artists have never read that clause and most event contracts now contain one.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The A check: “What exactly did I license, and does it exclude training and generation?” — If you have never checked, assume it does not.
 
@@ -383,6 +433,8 @@ Here's who this is. Real collabs exist. They're some of the best creative experi
 
 Picture this. She approaches you and says she's been watching your work and she does immersive sound installations and she thinks your visual language and her sonic language could be interesting together. "I'm not sure what it would look like — want to just experiment and see? No output pressure, no specific deliverable, just exploration. And if we make something we both want to show, we figure out the terms then." No agenda. No pitch. Just curiosity. That's different.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Both parties' contributions are named honestly before work begins
@@ -391,6 +443,8 @@ Here are the signs.
 - The person is genuinely interested in you as an artist, not in what you can do for their project
 
 Here's the mechanism underneath it. Real collaboration is characterized by mutual curiosity, defined terms, and shared investment in the outcome. The distinction from extraction is visible in who carries the risk, who defines the terms, and whether both parties' contributions are named honestly. Real collaborators are comfortable with the credit conversation because they're not trying to hide the imbalance. Real collaborators celebrate each other's other work and connections rather than centralizing everything through themselves.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The A check: “Is this person interested in my whole artistic practice — or just in what my hands can do for their project?” — real collaborators want your voice. The fake ones just want your output.
 
@@ -411,6 +465,8 @@ Let's talk about who does this. Your digital presence as an artist at festivals 
 
 Here's how it plays out. Someone has been using your work without credit for three months. You've found it on their Etsy, their promotional materials, their social media. You've found your face — from a photo someone else took at a festival — being used in a "free creative" stock image collection. You've received DMs from a man who clearly knows your festival schedule, your booth location, and details about your process that feel like surveillance. Each thing is individually manageable. Together they paint a picture.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Your work appearing online without credit or permission in commercial contexts
@@ -419,6 +475,8 @@ Watch for these.
 - DMs that reference specific details about your process or whereabouts that weren't publicly shared
 
 Here's what's really going on. Digital exploitation of artists operates on multiple simultaneous tracks: IP theft (your work), image rights violations (your likeness), and stalking behavior (your location and schedule). Each track requires different tools. All of them require documentation. Screenshot everything that might be relevant before you report it — platforms remove content on reports and you lose your evidence if you don't capture it first.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The A check: “Have I documented this situation before reporting it — do I have screenshots and dates?”
 
@@ -439,6 +497,8 @@ Here's who you're dealing with. A promoter, a brand or a camp with a brief that 
 
 Here's the scene. The brief lands and it is a good fee and there is a piece of it you cannot do: a symbol that is not yours to paint, or a brand you have publicly criticized, or a theme you think is straightforwardly bad. And the circuit is small, and saying no to this promoter means something for next season, and you are already assembling a version where you do it and put it in a different corner of your portfolio.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - The brief conflicts with something you would defend in public
@@ -449,6 +509,8 @@ Here's what to watch for.
 - You expect refusal to cost you future bookings
 
 Here's what's actually happening. This is a live-painting problem more than a studio one, because you make the work in public, with your name on the pitch, in front of the audience whose opinion is your actual asset. A piece you are uncomfortable with is not a private compromise; it is a public statement made in your hand, photographed, and attributed to you for years. The practical question is rarely whether to refuse outright — most briefs have a component that can be changed — and the useful move is to separate the part you object to from the job and offer an alternative.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The T check: “Would I be happy for this to be the piece people associate with me?” — Planning to leave it out of your portfolio is the answer arriving early.
 
@@ -473,6 +535,8 @@ Here's who this is. The pressure to create publicly, generously, and constantly 
 
 Picture this. You came to the festival to create and you've made twelve pieces, done two free workshops, gifted four finished works, painted a wall for the camp, contributed to a collab you didn't really want to be part of, and helped three other artists with their setups. It's Sunday and you're empty. You feel proud and resentful simultaneously. You gave everything and you're not sure you gave it to the right people or the right places or even because you wanted to.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Requests for your creative labor accumulate until you can't find your own work in your schedule
@@ -481,6 +545,8 @@ Here are the signs.
 - You feel proud and resentful simultaneously — the resentment is information
 
 Here's the mechanism underneath it. Giving is a value in festival culture and creative communities. The shadow side is that it can be systematically exploited — where one person's generosity is treated as an extractable resource rather than a chosen gift. When the word "no" starts to feel selfish inside a community that calls itself loving, that community is using your values against you. Resentment is the signal that giving has crossed from chosen to coerced.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The E check: “Enough is enough — am I still giving from abundance or am I giving from depletion?”
 

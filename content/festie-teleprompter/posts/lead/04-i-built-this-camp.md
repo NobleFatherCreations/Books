@@ -15,6 +15,8 @@
 
 “This one's L.E.A.D. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “I BUILT THIS CAMP”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The specific dynamic where a camp founder or lon
 
 Here's the scene. You have run this camp for seven years. You have poured extraordinary amounts of time, money, and love into building it. You know the infrastructure better than anyone. You also notice that your decisions rarely get questioned, that members seem careful about how they raise concerns with you, and that the last two people who pushed back significantly on a camp decision are no longer in the camp. You tell yourself they were not a good fit. You have not considered whether there is a pattern.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Decisions are made unilaterally and questioning them is received as ingratitude or disloyalty
@@ -32,6 +36,8 @@ Watch for these signs.
 - The camp's accountability structures apply to members but not clearly to you
 
 Here's what's actually happening. Founder syndrome in camp culture is the accumulation of unchecked authority over time — a process so gradual it is often invisible to the person experiencing it. The camp leader who started with genuine community intention can become, through years of carrying the weight of the camp, someone who confuses their investment in the camp with ownership of it and ownership of the people in it. The antidote is structural: accountability that includes you, decision-making that includes others, and the willingness to hear things about yourself that are hard.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Am I accountable to my camp in the same ways my camp members are accountable to me?”
 

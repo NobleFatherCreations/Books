@@ -15,6 +15,8 @@
 
 “This one's P.R.I.D.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “IT KNEW YOU WERE LIKE ME”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The assumption that shared queer identity create
 
 Here's the scene. "We are queer fam — we look out for each other." She says it warmly and it lands in a real place because you know how much that community has meant in your life. By Sunday she has used that framing to borrow money you are not sure you will see again, to get you to cover for something that made you uncomfortable, and to make you feel guilty for having limits with her that you would have with anyone else you had known for 48 hours.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Shared identity invoked immediately as a basis for trust and obligation you have not established
@@ -32,6 +36,8 @@ Watch for these signs.
 - Guilt about having the same standards with queer people that you would have with anyone
 
 Here's what's actually happening. Shared identity is real and beautiful and also exploitable. The manipulation here is taking the genuine value of queer community solidarity and using it to bypass the individual trust-building that any relationship actually requires. You are not obligated to trust someone more, give more, or tolerate more because they share your identity. Real queer community does not require you to override your judgment as proof of belonging.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The I check: “Am I giving this person more than I would give any other stranger because of shared identity alone?” — shared identity is not a relationship. It hasn’t been earned yet.
 

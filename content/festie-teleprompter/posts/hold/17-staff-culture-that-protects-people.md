@@ -15,6 +15,8 @@
 
 “This one's H.O.L.D. — Accountability. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “STAFF CULTURE THAT PROTECTS PEOPLE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The culture of a festival's staff team is one of
 
 Here's the scene. The briefing before gates open sets the tone. The lead says: "Our job this weekend is to hold the space so everyone can have the experience they came for. That means we take every concern seriously, we report what we see, we take care of each other so we can take care of everyone else, and we never dismiss a gut feeling. If something feels off — name it to your team. There are no bad reports. There are only missed patterns." That briefing changes how the whole weekend goes.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Leadership explicitly states that all concerns will be taken seriously — not managed down
@@ -32,6 +36,8 @@ Watch for these signs.
 - Accountability runs in all directions — leadership is held to the same standards as front-line staff
 
 Here's what's actually happening. Healthy staff culture is built from the first briefing and maintained through how leadership responds to the first concern that is raised. Organizations where leadership takes concerns seriously, supports staff wellbeing, and holds itself to the same standards it holds front-line workers create genuinely safer events. Organizations that suppress concerns, burn out volunteers, and deflect accountability downward create events where harm is more likely and less likely to be addressed.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The O check: “Does the culture of this staff team make it easy or hard to raise concerns?” — that tells you a great deal about how safe this event actually is.
 

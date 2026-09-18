@@ -3,6 +3,8 @@
 
 *A spoken-word teleprompter script — one scenario at a time, ready to read straight to camera.*
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/cover.png`]** — video open — type this video's scenario/section title into the blank bottom third before recording, then hold or fade from it.
+
 **Quick shoutout before we start:** every scenario in this guide — and 262 more across the other twenty guides — lives free at **www.noblefathercreations.com/festival**.
 
 This is L.E.N.S.: Photographers, Filmers & Media Edition. You hold two things at once: a camera that gives you access, and a file that belongs to somebody else's life. This guide is about handling both honestly.
@@ -29,6 +31,8 @@ Here's who this is. Has a laminate, a long lens, and an unusual amount of freedo
 
 Picture this. He says your look is incredible and he wants to shoot you properly, and he can get you into the artist area because he shoots for them. The first shoot is professional and the pictures are genuinely the best you have ever had of yourself. The second one he suggests somewhere private for the light, and mentions the festival he shoots in the spring, and asks whether you would want to be involved with that.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Access, introductions and opportunity all route through one person
@@ -39,6 +43,8 @@ Here are the signs.
 - The work is good, which is what makes the arrangement hard to leave
 
 Here's the mechanism underneath it. A camera is one of the most efficient access tools at a festival — it explains proximity, justifies attention, licenses photographing strangers, and moves through restricted space. Nearly everyone carrying one is doing the job. But the same properties make it attractive to someone who wants proximity for other reasons, and the pattern is the classic one from the modelling and music industries: real opportunity, real skill, real photographs, with each step requiring slightly more and each step justified by the last. The tell is not creepiness. It is the absence of the ordinary professional furniture — no brief, no third person, no rate, nothing in writing.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The E check: “Is there a third person, a written brief, and a stated rate?” — Professionals have all three. Their absence is not informality, it is the design.
 
@@ -63,6 +69,8 @@ Let's talk about who does this. You, on a good night, with a great frame in fron
 
 Here's how it plays out. It is four in the morning and she is beautiful and completely gone, sitting on the grass laughing at nothing with her top half off, and it is the best light of the entire weekend. Nobody would stop you. It is a public field. She is not in a position to object and will not remember either way, and you already know that is the reason the shot is available.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - The subject could not consent right now if you asked
@@ -73,6 +81,8 @@ Watch for these.
 - You would not show them the shot tomorrow and ask
 
 Here's what's really going on. Legality and ethics part company here completely. In most jurisdictions you may photograph people in public and publish it, and that permission is exactly why the profession needs a standard above it — the law is not doing the work of deciding whether a frame should exist. A person who is incapacitated cannot consent to being photographed any more than they can consent to anything else, and a photographer relying on their impairment has made the same move as everybody else in this book who waits for capacity to drop. The test is simple and it is the one the whole trade runs on: could you show them tomorrow, and would they say yes.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The L check: “Could this person consent right now if I asked?” — If not, there is no frame here. The camera does not create a permission the situation does not contain.
 
@@ -93,6 +103,8 @@ Here's who you're dealing with. Whoever has been watching the person with the ob
 
 Here's the scene. You shot the headliner, you are carrying two bodies and three lenses, and the walk back to the car park goes through the dark bit behind the production compound because it is quicker. You do this every night. You have never thought about it, because you are thinking about the edit.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - The same route, the same time, alone, every night
@@ -103,6 +115,8 @@ Here's what to watch for.
 - Somebody has been unusually interested in what you are carrying
 
 Here's what's actually happening. Photographers occupy the highest-risk position at a festival and almost never think of themselves as at risk: they carry the most valuable and most portable items on site, they work alone at night by necessity, they are in the unlit margins rather than in the crowd, and the job itself requires them to spend long stretches with one eye in a viewfinder and no awareness of what is behind them. The equipment loss is the visible risk. Being followed to a vehicle in an unlit car park at three in the morning is the one that matters more.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The E check: “Does anybody know my route and my ETA tonight?” — If the answer is no, and it is the same route as last night, that is two problems rather than one.
 
@@ -127,6 +141,8 @@ Here's who this is. The media accreditation form nobody reads, and the productio
 
 Picture this. The accreditation form is four paragraphs and you are filling it in on your phone in a queue. One of those paragraphs assigns the festival a perpetual, worldwide, royalty-free, sublicensable license to everything you shoot, in all media, for any purpose including advertising, with no credit obligation. You tick it because the gate opens in ten minutes and because everyone ticks it.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - “Perpetual”, “irrevocable”, “royalty-free”, “all media now known or hereafter devised”
@@ -137,6 +153,8 @@ Here are the signs.
 - No usage window, no territory limit, no carve-out for your own portfolio
 
 Here's the mechanism underneath it. Festival media terms are among the most aggressive rights grabs in working photography, and they are accepted almost universally because they are presented at the moment of least leverage — at the gate, in a queue, with the job about to start. The result is a marketing archive built for free out of freelancers' work, resold to sponsors, with no credit. This is the M.A.R.K.E.T. guide's exposure problem with a contract stapled to it, and the difference is that here you are signing away the asset itself rather than just working cheap. The good news is that these terms are usually negotiable, because the person holding the clipboard has never been asked.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The S check: “What exactly am I licensing, to whom, for how long?” — Three answers before you tick. If you cannot state them, do not sign at the gate.
 
@@ -157,6 +175,8 @@ Let's talk about who does this. Someone in a frame you published — sometimes w
 
 Here's how it plays out. The message says take it down. You took it at a public stage, you asked at the time, and you have the reply. The second message says you owe them money for using their image. The third says they have screenshotted your account and people are going to hear about this, and by the morning there are forty comments on a photograph of somebody else entirely.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - A takedown request — which you should simply honour, immediately
@@ -167,6 +187,8 @@ Watch for these.
 - You have no record of the consent you actually obtained
 
 Here's what's really going on. Two different things arrive in the same inbox and telling them apart is the whole skill. A person asking for their image to come down is exercising something you should grant without argument, whatever the law says and whatever you paid to be there — that is the profession's own standard and it is also the cheapest possible resolution. A demand for money, or a threat about your reputation, is a different transaction, and the correct response to that one is not negotiation but documentation.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The N check: “Is this a request to remove, or a demand for something else?” — Remove instantly for the first. Do not pay the second.
 
@@ -191,6 +213,8 @@ Here's who you're dealing with. For every shooter, from the phone in the crowd t
 
 Here's the scene. The whole practice is four habits and they take about three seconds each. The reason to build them now is that the moment you need them — somebody upset, somebody's partner asking, somebody who saw themselves on an account — is not a moment when you want to be inventing a policy.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Ask before, not after — a raised camera and a look is often enough
@@ -201,6 +225,8 @@ Here's what to watch for.
 - Never post a stranger's face with a caption that mocks them
 
 Here's what's actually happening. Consent practice is what makes the difference between a photographer who gets access and one who gets asked to leave, and it compounds: people who have been treated well introduce you, tip you off, and let you shoot things nobody else gets to shoot. It is also the cheapest professional insurance available, because almost every media dispute at a festival starts with somebody who was photographed without being asked and had no way to reach the person who did it. Being findable is half the practice. Deleting on request is the other half, and it costs you one frame out of two thousand.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The N check: “If they asked me to delete this right now, would I do it without arguing?” — If the answer is no, you are treating the file as more important than the person, and you will eventually be the story.
 
@@ -225,6 +251,8 @@ Here's who this is. You, at home on the Tuesday, with two thousand frames and a 
 
 Picture this. There is a frame in there of somebody mid-breakdown at the edge of a crowd, and it is the best photograph you took all weekend. It says something true about the whole event. Nobody would ever know who they are except everyone who knows them, which at a festival of this size is probably four hundred people.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Would this person be fine with their employer, family or ex seeing this
@@ -235,6 +263,8 @@ Here are the signs.
 - Is this frame about the festival, or about them specifically
 
 Here's the mechanism underneath it. Selection is where the ethics actually live — the shutter is a reflex, the edit is a decision made with time and without pressure, and that is the moment you are accountable for. Festival crowds contain people who are not out, people whose employers do not know they are here, people in custody disputes, people in recovery, people who are somewhere they told someone else they were not. None of that is visible in the frame and all of it is downstream of your upload. You cannot check for every case, which is exactly why the general rules exist: no crisis contexts, no minors without a parent's yes, no identifiable faces in compromising states, and send it to them first when you are unsure.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The E check: “Am I willing to send this to the person in it before it goes up?” — If not, that reluctance is the answer, and you already know what it means.
 
@@ -255,6 +285,8 @@ Let's talk about who does this. You, in the family field, where the light is goo
 
 Here's how it plays out. A child on someone's shoulders at golden hour with her hands in the air is one of the great festival photographs and you have a clear shot of it. You do not know her, you have not spoken to her parents, and in about four hours you will be deciding whether to put a recognizable image of somebody else's child on a public account.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - A recognizable minor, no parent asked
@@ -265,6 +297,8 @@ Watch for these.
 - You would not be comfortable if a stranger did this to your own child
 
 Here's what's really going on. Photographing children is the one area of event photography where the legal position and the professional standard diverge most sharply. In most public settings it is not unlawful, and every festival's media policy, every safeguarding lead, and every reputable agency nevertheless requires parental consent for identifiable minors — because the risk is not to you, it is to a child whose image you are putting into circulation without anyone who is responsible for them having agreed. Custody arrangements, safeguarding orders and families who are not findable are all invisible from behind a lens.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The L check: “Has a parent said yes, by name, to this specific use?” — Public setting is not permission where a child is concerned.
 

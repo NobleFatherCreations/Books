@@ -15,6 +15,8 @@
 
 “This one's E.V.E.N.T. — Accountability. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “PAY WHAT YOU AGREED”
@@ -24,6 +26,8 @@ Here's who you're dealing with. You agreed to a fee. You agreed to a payment tim
 
 Here's the scene. The event cost more than projected. The attendance was lower than you hoped. The performer you agreed to pay $2,000 is now getting a message that you can only do $1,200 "given how the event went." She had no say in how the event went. She delivered her performance. She incurred the travel costs. She fulfilled her side of the agreement. The event's financial performance is your risk, not hers.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/event/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Post-event financial "adjustments" are contract violations — not conversations to negotiate
@@ -32,6 +36,8 @@ Watch for these signs.
 - Offering future booking as compensation for current non-payment is not compensation
 
 Here's what's actually happening. Late payment and post-event fee adjustments are so normalized in the independent event world that many promoters do not register them as the contract violations they are. They are. When you agree to a fee and a payment timeline, that agreement is binding. The event's financial performance does not change your obligation. Artists and vendors who absorb your losses are subsidizing your events with their own labor and financial risk. That is not a sustainable or ethical business model.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/event/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The T check: “Am I paying what I agreed, to whom I agreed, on the timeline I agreed — every time?”
 

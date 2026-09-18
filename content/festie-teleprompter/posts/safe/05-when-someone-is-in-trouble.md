@@ -15,6 +15,8 @@
 
 “This one's S.A.F.E. — Substances. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WHEN SOMEONE IS IN TROUBLE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The most important thing to Know about someone i
 
 Here's the scene. Your campmate is not responsive. You called their name. You shook their shoulder. They are breathing but slowly — it sounds wrong. Their lips look slightly blue. You do not know exactly what they took. You are scared. You are also the person standing there right now and you are the only thing standing between this situation and a very different outcome. You have about two minutes to make a decision that matters enormously.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Unresponsive or very difficult to rouse — this is the clearest emergency sign
@@ -32,6 +36,8 @@ Watch for these signs.
 - Gurgling or snoring sounds from airway — roll them to recovery position on their side immediately
 
 Here's what's actually happening. Opioid overdose is the most immediately life-threatening substance emergency at festivals and Narcan reverses it. But stimulant overdose, serotonin syndrome, and heat stroke can also present as altered consciousness and require different emergency responses. The common thread is this: if someone is unresponsive or their breathing is wrong — call for medical help immediately and administer Narcan if you have it, because if it is an opioid overdose the Narcan will help and if it is not it will not harm them.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The F check: “Do I know where the medical tent is and do I have Narcan in my camp right now?”
 

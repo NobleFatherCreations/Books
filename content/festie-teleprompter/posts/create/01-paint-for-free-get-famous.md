@@ -15,6 +15,8 @@
 
 “This one's C.R.E.A.T.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “PAINT FOR FREE, GET FAMOUS”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The promoter, organizer, or influencer who wants
 
 Here's the scene. "We can't pay for the live painting but your work will be seen by 20,000 people this weekend and we'll tag you in everything — this could really launch you." You spend 16 hours creating something extraordinary on their main stage wall. The photos go everywhere — 40,000 likes. You get tagged in two of them. The painting stays on their wall. You leave with nothing except the work experience, which you already had.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Payment replaced with "exposure," "experience," or future opportunity — all unquantifiable
@@ -32,6 +36,8 @@ Watch for these signs.
 - The ask comes under time pressure — event is this weekend, they need an answer now
 
 Here's what's actually happening. Exposure is a real form of value in some contexts. It is also one of the most systematically used tools to extract free labor from artists. The test: would this person pay a photographer, sound engineer, or caterer in "exposure"? No — because those are recognized as labor. Live painting is also labor. The festival ecosystem has a long history of treating visual artists as ambient decoration. You are not decoration.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The C check: “Is there a written agreement — or just a verbal promise that evaporates after the event?”
 

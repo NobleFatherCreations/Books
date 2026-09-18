@@ -15,6 +15,8 @@
 
 “This one's L.E.N.S. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “I CAN GET YOU BACKSTAGE”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Has a laminate, a long lens, and an unusual amount of freedom of movement. Offers to shoot you, offers to get you in, offers to introduce you — and the offers arrive in a sequence that keeps having a next step.
 
 Here's the scene. He says your look is incredible and he wants to shoot you properly, and he can get you into the artist area because he shoots for them. The first shoot is professional and the pictures are genuinely the best you have ever had of yourself. The second one he suggests somewhere private for the light, and mentions the festival he shoots in the spring, and asks whether you would want to be involved with that.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - The work is good, which is what makes the arrangement hard to leave
 
 Here's what's actually happening. A camera is one of the most efficient access tools at a festival — it explains proximity, justifies attention, licenses photographing strangers, and moves through restricted space. Nearly everyone carrying one is doing the job. But the same properties make it attractive to someone who wants proximity for other reasons, and the pattern is the classic one from the modelling and music industries: real opportunity, real skill, real photographs, with each step requiring slightly more and each step justified by the last. The tell is not creepiness. It is the absence of the ordinary professional furniture — no brief, no third person, no rate, nothing in writing.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lens/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Is there a third person, a written brief, and a stated rate?” — Professionals have all three. Their absence is not informality, it is the design.
 

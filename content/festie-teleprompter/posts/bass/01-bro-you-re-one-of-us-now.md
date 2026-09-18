@@ -15,6 +15,8 @@
 
 “This one's B.A.S.S. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “BRO YOU'RE ONE OF US NOW”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The crew that adopts you on Day 1. Full send —
 
 Here's the scene. You rolled in solo and by Friday night you're deep in a crew that feels like family. They've got a sick camp, good connects, everyone seems solid. Saturday they ask you to hold something for them while they go through a checkpoint — "just for a minute, we're family now." The ask feels small. The crew feels real. Saying no feels like betraying the whole weekend. You take it.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Full adoption happens within hours — you're "family" before you've slept
@@ -32,6 +36,8 @@ Watch for these signs.
 - Saying no to any ask feels like it will cost you the whole group
 
 Here's what's actually happening. Forced teaming is the rapid manufacture of "we" — creating shared identity and loyalty before it's been earned. Festival culture is exploited here because genuine fast connection IS a real thing that happens. Predatory crews exploit that norm. Real brothers don't ask you to hold their drugs through security two days after meeting you. Real loyalty doesn't come with immediate debt.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The S check: “When did I last actually talk to my own people — not this crew?”
 

@@ -15,6 +15,8 @@
 
 “This one's M.A.R.K.E.T. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE CONSIGNMENT TRAP”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The shop, gallery, boutique, or pop-up that want
 
 Here's the scene. "We would love to carry your line — we do 60/40 in your favor, you would be in great company." You drop off $1,800 of wholesale inventory. Three months later you are still waiting for the first check. The shop is still open. Your work is still on the shelves. Phone calls go unanswered. Emails get vague responses. Six months in you have recovered $600 of $1,800 in product and the shop just posted new arrivals on Instagram.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - No written consignment agreement with payment terms and reconciliation schedule
@@ -32,6 +36,8 @@ Watch for these signs.
 - The owner becomes progressively harder to reach as time goes on
 
 Here's what's actually happening. Consignment fraud is one of the most common forms of vendor exploitation because artists feel awkward being professional with people who seem enthusiastic about their work. The enthusiasm is real — your work is valuable. The payment intention varies. A consignment agreement is not distrust — it is the thing that makes the relationship honest and enforceable. Without it, recovering your inventory or your payment requires legal action that costs more than the inventory is worth.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The M check: “Do I have a signed agreement with payment terms — or just a handshake and a hope?”
 

@@ -15,6 +15,8 @@
 
 “This one's S.A.F.E. — See Something. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “HOW ALTERED IS TOO ALTERED”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Being altered is a normal part of many festival 
 
 Here's the scene. Your friend is having a bigger night than she intended. She is not in medical trouble but she is very out of it — she cannot navigate independently, she is making decisions that she would not make with clearer judgment, and she is attracting attention from some people who seem very interested in being helpful in ways that feel off to you. This is the moment where the buddy system is not a suggestion. It is the thing that determines how her night ends.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Cannot navigate or find their way without help — beyond just being unfamiliar with the layout
@@ -32,6 +36,8 @@ Watch for these signs.
 - Others are clustering around them in ways that feel more predatory than supportive
 
 Here's what's actually happening. Severe impairment in a festival environment is a specific vulnerability state that predatory people specifically target. The person who cannot walk straight, cannot communicate clearly, and cannot make coherent decisions cannot consent to anything and cannot protect themselves from anyone. If your friend or someone near you is in this state — stay with them. Get them to a safe space. If they need medical attention get it without hesitation. Good Samaritan laws exist for exactly this situation.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Can this person take care of themselves right now — and if not, who is actually with them?”
 

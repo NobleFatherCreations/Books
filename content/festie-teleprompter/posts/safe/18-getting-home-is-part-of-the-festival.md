@@ -15,6 +15,8 @@
 
 “This one's S.A.F.E. — Community Care. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “GETTING HOME IS PART OF THE FESTIVAL”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Everybody, on the Monday, in a car park of eleven thousand vehicles all being driven by people who have had four hours' sleep a night since Thursday.
 
 Here's the scene. It is packed up, it is ten in the morning, and everyone is driving home. You feel alright. You had a big weekend, you slept badly in a tent for four nights, you may still have something in your system, and you are about to do three hours on a motorway with three exhausted friends asleep in the car.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - “I'll stop if I feel tired”, which is not how microsleeps work
 
 Here's what's actually happening. The drive home is statistically the most dangerous part of a festival weekend and it gets no attention at all because the festival feels over. Three impairments stack: cumulative sleep debt from four nights in a tent, residual substances or a comedown, and in a large number of cases still being over the drink-drive limit the following morning. Fatigue impairment is comparable to alcohol impairment, and the microsleep is the specific killer — a few seconds of sleep that the driver does not know occurred.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “How much have I actually slept since Thursday, and what is still in me?” — Answer honestly, out loud, to somebody else in the car.
 

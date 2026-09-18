@@ -3,6 +3,8 @@
 
 *A spoken-word teleprompter script — one scenario at a time, ready to read straight to camera.*
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/cover.png`]** — video open — type this video's scenario/section title into the blank bottom third before recording, then hold or fade from it.
+
 **Quick shoutout before we start:** every scenario in this guide — and 249 more across the other twenty guides — lives free at **www.noblefathercreations.com/festival**.
 
 This is G.R.O.V.E.: Women Attendees Edition. A field guide for women in the festival world — written by festies, for festies.
@@ -30,6 +32,8 @@ Here's who this is. Full send from minute one. Flowers in your hair before you k
 
 Picture this. You met him at the silent disco Friday night and by Saturday breakfast he's saved your spot, got you coffee, and told his whole camp you're "the one." He keeps saying "we" — we should catch that set, we should stay together tonight. By Sunday you haven't seen your actual people since gates opened. You feel chosen, warm, slightly dizzy. He wants to share his tent because "the connection is just too real, babe."
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - "I've never felt this way" before he knows your last name
@@ -38,6 +42,8 @@ Here are the signs.
 - You're suddenly part of his plans, his camp, his crew — you didn't choose that, it just happened
 
 Here's the mechanism underneath it. Love bombing is overwhelming affection deployed fast — before you can actually clock who someone is. The festival bubble supercharges it: nervous system already wide open, time doing that weird thing, culture normalizing fast intimacy. He might not know he's running this pattern. Doesn't matter — the effect is the same. You feel bonded to someone you've known for one sunrise. Chemistry is real. It is not the same as character. Pace is protection.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The R check: “Is this moving faster than I chose?” — if the speed is his, not yours, that's your first signal.
 
@@ -58,6 +64,8 @@ Let's talk about who does this. The generous one. Always has extra. Covers your 
 
 Here's how it plays out. She covered your wristband at the gate when your card declined. "Don't stress, we're family." Over two days she shares her hammock, food, connects. Every time you try to wander toward your crew she gets that look — "After everything I've done for you?" By Sunday you're in her orbit, your new friends are her people first, and the idea of leaving feels like doing something wrong.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Gifts arrive before any actual friendship — fast, often in front of witnesses
@@ -66,6 +74,8 @@ Watch for these.
 - Attempts to spend time with your own people are met with hurt feelings
 
 Here's what's really going on. Reciprocity is one of the deepest human wiring patterns — when someone gives us something we feel compelled to give back. Festival gifting culture makes this extra potent because giving IS sacred here. The predatory version flips it: the gift is an investment with a return expected. When the "return" gets called in, saying no feels ungrateful. That feeling of owing something you never agreed to? That was engineered.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The O check: “Am I still connected to my actual people — or has dependency on her replaced that?”
 
@@ -86,6 +96,8 @@ Here's who you're dealing with. The Soulmate Architect. Knows your rising sign w
 
 Here's the scene. "I never come to this stage. I had a vision in ceremony last month about a woman in a red hat and here you are." He's holding your hands. Completely certain. You feel seen in a way that bypasses your brain and lands in your chest. By the fire he's planning the retreat in Oaxaca you'll do together. Something whispers this is fast. Something else says — but what if the universe actually did this?
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Spiritual or cosmic language to explain why YOU specifically were chosen
@@ -94,6 +106,8 @@ Here's what to watch for.
 - Questioning the connection gets framed as blocking your own expansion
 
 Here's what's actually happening. Manufactured destiny wraps urgency in spiritual clothing. It bypasses your "wait, do I actually know this person" reflex by making the connection feel pre-decided — by the universe, by your higher selves. Slowing down starts to feel like betraying something sacred. Your pace is sacred. Your sovereignty over your own story is sacred. If the connection is real it will survive three days of verification instead of three hours.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The V check: “Do I actually know this person — or just the character they're performing this weekend?”
 
@@ -114,6 +128,8 @@ Here's who this is. He puts you above every other woman at the festival — "you
 
 Picture this. "Most women I meet here are just looking for a hook-up. You have depth." It feels so good to be seen that way. By Saturday you've quietly distanced yourself from the other women in your camp — they seem kind of surface level compared to this energy he's offering. By Sunday you're alone with him in a part of the festival you don't know and the women who would have had your back are somewhere on the other side of the grounds.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Compliments that specifically separate you from other women
@@ -122,6 +138,8 @@ Here are the signs.
 - The flattery requires staying close to him to maintain the specialness
 
 Here's the mechanism underneath it. The pedestal ploy isolates you from your natural support network by making that network feel beneath the version of yourself he's reflecting back. Other women at the festival — especially the ones you came with — are your most reliable safety net. Anyone who positions themselves between you and that solidarity, however flatteringly, is removing your protection. The "not like other girls" frame is also a trap for you: it trains you to compete with women instead of trust them.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The O check: “Where are my women right now — and when did I last actually see them?”
 
@@ -142,6 +160,8 @@ Let's talk about who does this. The Opportunity Creator. Always has something ex
 
 Here's how it plays out. "I don't do this for just anyone but there's a private ceremony happening in twenty minutes — only eight people, real medicine holders, you'd have to come right now." He's already walking. You're following before you've decided to. Something in his certainty made the decision feel already made. You don't know where you're going. You haven't told anyone.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - "Right now" / "only tonight" / "this won't happen again"
@@ -150,6 +170,8 @@ Watch for these.
 - You feel excited AND vaguely railroaded simultaneously
 
 Here's what's really going on. Urgency is a discernment bypass. When something must happen RIGHT NOW, your prefrontal cortex — your judgment — literally cannot keep up. The pressure is the point. Real once-in-a-lifetime moments don't require you to abandon your people and your pace to access them. Anything that evaporates the moment you ask to slow down was never safe to begin with.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The G check: “What is my gut saying — and do I have time to text someone where I'm going?”
 
@@ -170,6 +192,8 @@ Here's who you're dealing with. The PLUR Police. Uses the language and values of
 
 Here's the scene. "I thought you were an open person." Said softly. Disappointed. You just said you didn't want to go back to his camp. "This festival is about releasing ego. Your resistance is just fear — I'm not pushing you, I just think you're blocking your own growth." You didn't feel blocked. You felt managed. But now you're wondering if he's right.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Your "no" is reframed as your trauma, ego, or fear — not a valid decision
@@ -178,6 +202,8 @@ Here's what to watch for.
 - You leave the conversation questioning your judgment instead of his behavior
 
 Here's what's actually happening. Frame control — the manipulator defines what the conversation is "about" in a way that makes your truth impossible to speak without sounding like the problem. When your boundary becomes evidence of your woundedness, he's moved the topic from his behavior to your psychology. You're defending yourself instead of evaluating him. That shift is the mechanism. Real PLUR means your "no" lands without negotiation. If someone has to invoke PLUR to get your yes — they don't have your yes.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The G check: “What is my body saying — separate from the story his words are telling me?”
 
@@ -198,6 +224,8 @@ Here's who this is. Not a stranger. Your friend's partner, the camp regular, the
 
 Picture this. It is not a stranger at the rail. It is the guy who has been in this group for six years, who everyone loves, who your best friend introduced you to — and who was in your tent doorway at four in the morning saying he just wanted to check you got back okay, standing slightly too close, for slightly too long, in a way you will spend the next three weeks trying to describe to yourself.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Contact happens at the edges — late, in transit, in the tent, when you are alone
@@ -208,6 +236,8 @@ Here are the signs.
 - Nothing he has done would sound like anything if you said it out loud
 
 Here's the mechanism underneath it. Most sexual harm is committed by somebody the person already knows, and festival crews are exactly the trust structure that makes it work — years of shared history, a group identity, and a strong collective incentive not to have this be true. The insider does not need charm or a technique, because vouching has already done the work that an approach would otherwise have to do. What he has instead is the thing a stranger never gets: repeated, unremarkable proximity, and a group that will find it easier to reinterpret your discomfort than to lose him.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The G check: “Am I explaining away something I would flag instantly in a stranger?” — Do the substitution deliberately. If a man you met yesterday had done it, you would already know.
 
@@ -232,6 +262,8 @@ Let's talk about who does this. The one with the connect. He controls access to 
 
 Here's how it plays out. He found you Thursday night and what he had made the music feel like it lived inside your ribcage. Friday he appeared right when you were looking. By Saturday you haven't slept in your own tent, you don't know anyone else's camp, your phone is at 3%, and his is the only number you've memorized. When you mention leaving to find your friends he gets quiet. "I thought we were vibing." Something about that makes you stay.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - He is the exclusive or primary source of what you're consuming all weekend
@@ -240,6 +272,8 @@ Watch for these.
 - Your world has contracted to his orbit without a conscious decision
 
 Here's what's really going on. Substance gatekeeping is dependency grooming — slowly engineering a situation where you need someone in a way that makes saying no feel complicated. Altered states increase trust, lower threat-detection, create real neurochemical bonding. Add isolation and resource control and by Sunday the manipulation is structural. You're not in it because you're naive. You're in it because it was designed carefully.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The G check: “What is my body telling me about this person — separate from what they're providing me?”
 
@@ -260,6 +294,8 @@ Here's who you're dealing with. The Revisionist. What happened last night is now
 
 Here's the scene. You wake up feeling wrong. Something happened that didn't feel right and you're trying to piece it together. You bring it up. He's completely calm: "You were into it, babe. You said you wanted to come to the tent." You're not sure of the full timeline but you're sure of the feeling. He looks at you like you're confused. "I think you just need water. You always get like this coming down." Now you're wondering if he's right.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Your memory is disputed with calm authority — not anger, but certainty
@@ -268,6 +304,8 @@ Here's what to watch for.
 - You leave more uncertain about your own experience than when you started
 
 Here's what's actually happening. Gaslighting makes you the unreliable narrator of your own life. In a festival context it has bonus ammunition: substances, sleep deprivation, emotional openness, time distortion all genuinely affect recall — creating plausible deniability. But your body holds memory that your conscious mind loses. If your nervous system says something is wrong, that signal is real data — even when you can't reconstruct a perfect timeline. You do not need a perfect memory to know something happened.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The G check: “My body is the first source of information. If it feels wrong — that's real.”
 
@@ -288,6 +326,8 @@ Here's who this is. The one who blows hot and cold on a loop — intense and pre
 
 Picture this. Friday night was electric — the most connected you've felt in years. Saturday morning he was barely there. Cold, distracted, barely looked at you. Saturday afternoon he reappeared like nothing happened — warm, funny, magnetic. You felt such relief to have him back that you didn't ask about the morning. By Sunday you realize you've spent the whole weekend trying to figure out how to keep him in the warm phase.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Intense warmth followed by withdrawal without explanation
@@ -296,6 +336,8 @@ Here are the signs.
 - The cold phases make the warm phases feel even more valuable than they are
 
 Here's the mechanism underneath it. Intermittent reinforcement is the most powerful conditioning mechanism in human psychology — it's why slot machines are more addictive than ones that pay out every time. Random reward creates compulsive seeking. When warmth is unpredictable, you start to crave it more than you would if it were consistent. The cold isn't distance — it's the tool. The warmth isn't the reward — it's the hook being set deeper. A weekend of this wires your nervous system in ways that outlast the festival.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The G check: “Am I feeling relief when he's warm — or genuine happiness? Those are different things.”
 
@@ -316,6 +358,8 @@ Let's talk about who does this. The Gradual Drift Engineer. Doesn't drag you awa
 
 Here's how it plays out. It's Sunday morning and you realize you haven't seen your campmates since Friday lunch. Every time you mentioned them he had something better lined up. He called your best friend "a bit of a wet blanket." Now your phone is dead, you're deep in a part of the festival you don't know, his friends are your only social context, and finding your people would require asking him for help. When did that happen?
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Your actual friends get subtly characterized as negative or "not on your level"
@@ -324,6 +368,8 @@ Watch for these.
 - Getting back to camp now requires his help — you've stopped navigating independently
 
 Here's what's really going on. Isolation is the infrastructure of control. It doesn't need to be dramatic. A series of small redirections over 72 hours can leave you completely dependent on one person in unfamiliar territory with a dead phone. The criticism of your friends is the tell — it's not about them being bad for you. It's about making you distrust the people who know you, love you, and would notice if something was off. Connection that requires losing your existing connections is not connection. It's replacement.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The O check: “Can I find my camp right now without his help? If not — that is the situation.”
 
@@ -344,6 +390,8 @@ Here's who you're dealing with. The person with the generator, the solar rig, th
 
 Here's the scene. You are on eight percent by Friday afternoon, which is the ordinary condition of every phone at every festival. He has power. Charging means leaving it in his van for a couple of hours, or sitting in his camp while it charges, and both of those are completely normal and both of them mean that for two hours the thing that connects you to everyone you know is in somebody else's hands.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Offers to take your phone away to charge rather than to charge it beside you
@@ -354,6 +402,8 @@ Here's what to watch for.
 - You have found yourself uncontactable for stretches and did not choose that
 
 Here's what's actually happening. A dead phone removes your map, your torch, your group chat, your ability to call anyone, your record of the weekend, and your capacity to prove where you were. At a festival it is the single most consequential piece of equipment you carry, and the site is designed — unintentionally — to drain it. Whoever solves that problem for you has a hold, and the hold does not require any intent at all to be dangerous: an unreliable friend with your phone produces the same eight hours of unreachability that a deliberate one does. The physical access is the second issue, and the more serious one, since a few unattended minutes is enough to install something or to read everything.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The V check: “Is my phone in my own possession, charged enough to call someone?” — If it lives somewhere else for hours at a time, so does your ability to get help.
 
@@ -378,6 +428,8 @@ Here's who this is. The Photographer With Access. Could be credentialed, could b
 
 Picture this. He took a gorgeous shot of you dancing Saturday and showed you on his screen — genuinely beautiful. Said he'd send it. Asked to get a few more, closer, "just your energy." Later your friend shows you his Instagram stories. Photos of you that you don't remember being taken. One from behind. One that feels intimate in a way you can't fully articulate. Everyone says he's a great photographer. You feel like you're being dramatic. You're not.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Photos taken without asking, normalized as "just capturing the moment"
@@ -386,6 +438,8 @@ Here are the signs.
 - Images appear on social that you didn't know were being taken of you
 
 Here's the mechanism underneath it. The camera creates three manipulation vectors: proximity (he needs to get close), intimacy (he frames you personally), and post-festival leverage (he has your image and a reason to contact you). In festival culture photography is celebrated and normalized — which makes predatory documentation easy to disguise as art. Your image is yours in every context. "Everyone was being photographed" is not consent. A camera pointed at your body without your knowledge is a violation regardless of cultural context.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The E check: “Can I freely ask him to delete photos I'm uncomfortable with? What happens when I do?”
 
@@ -406,6 +460,8 @@ Let's talk about who does this. The Self-Appointed Healer. Uses therapeutic, som
 
 Here's how it plays out. "You have blocked energy in your hips — I can feel it from here. I do somatic release work." He's already reaching. The ceremony just ended. You're tender and wide open. Three people told you he's legit. He has a beautiful altar. You don't want to block your own healing. His hands are on your body before you said yes. You didn't say no either. But you also never said yes.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Physical contact initiated under therapeutic framing without your explicit verbal yes
@@ -414,6 +470,8 @@ Watch for these.
 - Credentials asserted verbally but impossible to verify in the moment
 
 Here's what's really going on. Spiritual authority abuse weaponizes the healer role to bypass the consent conversation. It works because festival culture values healing (the frame seems legit), the therapeutic context makes touch feel appropriate, and questioning a healer feels like questioning healing itself. Real somatic practitioners and ceremony facilitators are trained to obtain clear, uncoerced consent before any physical contact. That standard exists to protect you. If someone skips it — the reason is not that they're too advanced for it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The G check: “What is my gut saying about this person — underneath the role they’re performing right now?” — if the answer doesn’t match the title, trust the gut over the role.
 
@@ -434,6 +492,8 @@ Here's who you're dealing with. The Vibe Sheriff. Not the person who did the thi
 
 Here's the scene. You told your campmates the guy next door kept touching you after you moved away. One sighs: "He's always been chill with us. Are you sure you're not just in a weird headspace? We don't want drama — this is our happy place." You came for support and now you're defending your own perception. By the end of the conversation you're apologizing for bringing it up.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - HOW you said it becomes the focus instead of WHAT you said
@@ -442,6 +502,8 @@ Here's what to watch for.
 - You end up softening or retracting a report that needed to be heard clearly
 
 Here's what's actually happening. Tone policing is credibility theft. It moves the conversation off what happened and onto how you're expressing it — then uses your emotional state as evidence you're not reliable. In festival culture it shows up as "no drama," "good vibes," "you might just be coming down." Function is identical regardless of the outfit: your testimony gets discounted before anyone has to engage with what you're actually describing. Your camp dismissing you is information about your camp. Not about your experience.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The G check: “My nervous system logged something real. Other people's comfort does not un-log it.”
 
@@ -462,6 +524,8 @@ Here's who this is. Whoever owns the vehicle, the ticket, or the only spare seat
 
 Picture this. He drove. It is four hours each way and you are ninety miles from the nearest station with no signal in the car park. On Saturday you want to stay with the people from the neighbouring camp and he says that's fine, a bit flatly, and then mentions that he was thinking of heading off early tomorrow, and you feel the whole weekend quietly reorganize itself around not annoying him.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - One person controls the only realistic way home
@@ -472,6 +536,8 @@ Here are the signs.
 - No independent route exists and you have not checked whether one does
 
 Here's the mechanism underneath it. Transport is the cleanest leverage at a festival because it is invisible — nobody has threatened anything, there is nothing to report, and the pressure is purely structural. It works the same way as medication or accommodation control: whoever holds the thing you cannot do without sets the terms of every other conversation. Most people who hold it never use it. The ones who do rarely say anything explicit, because they do not have to; you will do the arithmetic yourself and adjust, and that adjustment is the entire mechanism.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The E check: “If I had to leave this festival in the next two hours without him, could I?” — If there is no answer, your exit is somebody else's property.
 
@@ -492,6 +558,8 @@ Let's talk about who does this. Someone who has been around all night, pleasant,
 
 Here's how it plays out. It is late, the site is enormous and dark, and walking back alone genuinely is the thing everybody tells you not to do. He offers. The offer is correct. And somewhere between the last stage and the campsite the crowd thins out and it is just the two of you on a path, and the thing you were avoiding by not walking alone is now walking next to you.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Insists on walking you specifically rather than the group
@@ -502,6 +570,8 @@ Watch for these.
 - Waves off the alternative — a camp mate, a friend, walking with a group
 
 Here's what's really going on. The walk back is the last unwitnessed stretch of the night and it is where a disproportionate amount of festival harm occurs, precisely because the safety advice — do not walk alone — creates a socially compulsory role that anybody can volunteer for. The escort is not a bad idea; being escorted by whoever happened to be standing there at 3am is. The other half of the cost is durable: after tonight, one more person knows which tent is yours, and tent location is the single most useful piece of information anyone can hold about you at a festival.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The O check: “Am I about to be alone with this person somewhere nobody is watching?” — The walk counts. That is the whole point of the walk.
 
@@ -526,6 +596,8 @@ Here's who you're dealing with. The person from last year — or the year before
 
 Here's the scene. You saw him across the fire Saturday night and your whole body went electric — not in a good way. Then he appeared next to you with that smile. "I've been thinking about you. I think I was in a really different place last year. I've done a lot of work." He sounds different. He looks softer. And some part of you that spent six months healing wants desperately to believe that the work is real.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Reappears at the same festivals — he knows your circuit
@@ -534,6 +606,8 @@ Here's what to watch for.
 - The feelings that come back are old trauma activation, not new information
 
 Here's what's actually happening. Hoovering is the return of a previous manipulator after a period of absence — timed for maximum impact. Festival reunions are particularly potent because the environment is already emotionally heightened, your nervous system associates the setting with connection, and seeing someone in a context where you once felt magic reactivates those neurochemical pathways faster than almost anything else. "I've done the work" is a sentence. Changed behavior is a pattern. You need months of data, not a weekend of charm.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The V check: “Do I actually know who this person is now — or am I responding to who I hoped they were?”
 
@@ -554,6 +628,8 @@ Here's who this is. This is not a judgment page. It's a life page. Fentanyl is i
 
 Picture this. "Someone in our camp tested their stuff Saturday morning and it came back completely different than what they thought they had. We wouldn't have known." This happens at every major festival. The person who handed it to you may not have known either. Testing isn't about distrust — it's about knowing what's actually in what you're putting in your body. You wouldn't eat a random mushroom you found in the woods without identifying it first. Same exact energy.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Fentanyl test strips: dissolve tiny amount in water, one line = fentanyl present, stop
@@ -562,6 +638,8 @@ Here are the signs.
 - Never take something handed to you by someone you just met without testing it yourself first
 
 Here's the mechanism underneath it. A lethal dose of fentanyl is invisible. People die at festivals every year from substances that looked, smelled, and tasted exactly like what they expected. Testing costs under $40 for a full kit from DanceSafe. Harm Reduction tents at most major events have strips free. Naloxone (Narcan) reverses opioid overdose — available at many pharmacies without prescription, small enough to carry. Know how to use it. Having it in your camp has saved lives.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The G check: “What is my gut saying about this substance, this source, this situation — before I put it in my body?” — test it anyway, even when the gut says yes. Verification isn’t distrust of magic, it’s respect for your own body.
 
@@ -586,6 +664,8 @@ Let's talk about who does this. Exit scripts are for any situation: a conversati
 
 Here's how it plays out. You're in a situation that doesn't feel right and you're spinning trying to figure out how to leave without causing a scene, without being rude. Here's the thing: the energy you're spending on the perfect exit is energy you could spend walking out the door. You don't owe anyone a seamless departure. You don't need to explain yourself. You don't need them to agree that leaving is okay. You can just go.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - "I need to go find my people" — no further explanation needed, ever
@@ -594,6 +674,8 @@ Watch for these.
 - Festival Rangers and Harm Reduction staff exist specifically for moments like this
 
 Here's what's really going on. The difficulty of leaving is almost always manufactured — through social pressure, physical positioning, altered states, and the norm of not causing a scene. Your right to leave does not require agreement from the other person. It does not require a valid excuse. It does not require a good reason. The more someone works to make leaving complicated, the more important it is that you leave. That is the metric.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The E check: “Exit Is Mine” — can I leave right now, freely? The answer tells you everything.
 
@@ -614,6 +696,8 @@ Here's who you're dealing with. The witness who acts. At some point this weekend
 
 Here's the scene. You're walking to the water station and you see a woman sitting with a man who seems agitated. She looks small. Her body is closed. He's leaning into her space and she's looking at the ground. You're not sure if it's anything. You almost keep walking because you don't want to make it weird. But something caught. This is the moment. This is the one. What do you actually do right now?
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - THE DISTRACTION: walk up to her like you know her — "Oh my GOD I've been looking everywhere for you!"
@@ -622,6 +706,8 @@ Here's what to watch for.
 - You do NOT have to confront the person causing concern — not required, not always safe
 
 Here's what's actually happening. The bystander effect is real — in groups, individuals are less likely to act because everyone assumes someone else will. Festival culture adds "no drama" making people hesitate to name what they see. But intervention doesn't have to be dramatic. The distraction approach is subtle, friendly, and requires zero accusation. You're not the police. You're a human who saw something and chose to show up. That is enough.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The O check: “Is someone out alone in a way that seems involuntary?” — sometimes the most important thing you do all weekend is the thirty seconds you spend checking on a stranger.
 

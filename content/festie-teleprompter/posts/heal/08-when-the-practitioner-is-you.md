@@ -15,6 +15,8 @@
 
 “This one's H.E.A.L. — Accountability. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WHEN THE PRACTITIONER IS YOU”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. You. Honest, well-trained, in this for the right reasons, and holding more power in every session than the frame of healing makes it easy to notice.
 
 Here's the scene. A client tells you, three weeks later, that something in a session did not sit right. Your entire body wants to explain — what you actually did, what the modality is, what they may have misread. That impulse is normal, it is human, and it is the exact moment where good practitioners become bad ones. What you do in the next sixty seconds is your whole ethics, and it is not a feeling, it is a procedure.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Your first instinct on hearing a concern is to explain rather than to hear
 
 Here's what's actually happening. The power differential in this work does not switch off because your intentions are good. You control the room, the interpretation, the duration, and the narrative afterwards, and your client is frequently in a state they cannot fully assess. That is why every regulated profession requires supervision, insurance, a scope statement, and a complaints route that does not run through you — not because practitioners are assumed to be predators, but because an unsupervised practitioner cannot self-detect drift. The false shaman this guide opens with relies on the entire field being unregulated. The way honest practitioners take that cover away is by visibly having the things he cannot have.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/heal/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The L check: “If a client wanted to complain about me, could they — to someone who is not me?” — If not, you are running the same structure as the person you would never want to be.
 

@@ -15,6 +15,8 @@
 
 “This one's R.O.O.T.S. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “IT'S JUST A COSTUME”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Not a predator. Hundreds of people, none of whom thought about it, wearing your grandmother's dress, a headdress, a bindi, a keffiyeh, a sacred pattern, as festival wear — and one person who will argue with you about it if you say anything.
 
 Here's the scene. You are walking to the second stage and you pass a war bonnet, two bindis and somebody's idea of a kimono, and you are doing the thing you always do, which is deciding forty separate times an hour whether to spend energy on it. Then somebody in your own camp asks you — warmly, as the resident expert — whether her outfit is okay, and now it is your job.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Somebody wants absolution more than they want an answer
 
 Here's what's actually happening. This belongs in a safety guide for one reason: the cumulative cost. Any single instance is minor and arguable. Forty a day, every day, while also being asked to educate people about it, is a continuous background tax on the same attention you need for everything else in this guide, and depleted attention is the precondition every other pattern relies on. There is also a specific trap in being made the arbiter — once you are the person who rules on this, every conversation about it becomes work you did not agree to do, performed for an audience that wants reassurance rather than information.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/roots/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The T check: “Am I being asked for information, or for permission?” — Information is a conversation. Permission is a job, and you can decline it.
 

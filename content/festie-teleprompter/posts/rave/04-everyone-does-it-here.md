@@ -15,6 +15,8 @@
 
 “This one's R.A.V.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “EVERYONE DOES IT HERE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The framing that to be a real member of this com
 
 Here's the scene. "Dude everyone does this here — it's part of the experience. If you don't try it you're not really at the festival, you're just watching it." You haven't slept properly in 36 hours, you're overwhelmed, you're trying to fit in with people who clearly know this world. The social cost of no feels higher than the cost of yes. So you say yes to something you didn't actually want.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - "Everyone does this" stated as fact — impossible to verify in the moment
@@ -32,6 +36,8 @@ Watch for these signs.
 - Genuine community values invoked to override individual judgment
 
 Here's what's actually happening. Social proof is one of the most powerful human decision-making shortcuts. First-timers have maximum social uncertainty and minimum local knowledge, making this especially effective. "Everyone does this" is almost never literally true. It's a frame that makes your hesitation seem like an outlier when it's actually just your judgment working correctly. Your hesitation is not naivety. It is your nervous system doing its job.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The R check: “Is this real connection — or performance designed to get me to say yes to something?”
 

@@ -15,6 +15,8 @@
 
 “This one's B.A.S.S. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE GURU'S GOT A CIRCLE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The men's circle leader who's built a following 
 
 Here's the scene. The men's circle Saturday morning cracked something open in you. Real, vulnerable, honest. The facilitator was magnetic. Afterward he pulls you aside: you have real potential, he runs a longer program, there's a retreat in three months, the investment is $3,000 but men who've done it say it changed everything. You're still open from the morning. The price feels big but the feeling feels real. He needs to know tonight.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Leader is always the most evolved person in the room — hierarchy is fixed
@@ -32,6 +36,8 @@ Watch for these signs.
 - Urgency on investment decisions while you're still in a tender, open state
 
 Here's what's actually happening. Men's work is genuinely valuable. It's also a space that attracts predatory leaders who know men hungry for brotherhood are easy to monetize. The tell: does the leader point you toward your own authority, or does he make you more dependent on his? Real elders make you less dependent on them over time. Predatory ones make you more dependent. The retreat pitch immediately after a vulnerable ceremony is a classic capture move.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The S check: “When did I last check in with my own people — not this circle, not this leader, but MY people?”
 

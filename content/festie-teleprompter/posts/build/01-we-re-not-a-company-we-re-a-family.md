@@ -15,6 +15,8 @@
 
 “This one's B.U.I.L.D. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/build/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WE'RE NOT A COMPANY, WE'RE A FAMILY”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Warm, genuinely bonded, and absolutely running on unpaid hours. Recruits on love of the work. Uses family language exactly where a normal employer would use a contract, and only ever in the direction of asking.
 
 Here's the scene. The build crew is the best group of people you have ever worked with and the first four days are the happiest you have been in a year. On day five you realize nobody has mentioned money since the first conversation, the sixteen-hour days have become the schedule rather than the exception, and when you ask about the rate the lead says, kindly, that this is not really that kind of thing, that everybody here is doing it for the same reason, and that the family looks after each other.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/build/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Everyone senior has a real job title in the outside world
 
 Here's what's actually happening. Familial framing is the most efficient way to extract labor, because it converts a commercial question into a loyalty question — and once that conversion has happened, asking about your rate makes you the person who does not love the thing, in front of people whose respect you now depend on. Build crews are especially exposed because the work is genuinely joyful, the bonds are genuinely real, and the culture genuinely is one of mutual aid. All of that is true and none of it is a contract. The test is directional: notice whether family gets invoked when something is being asked of you, or also when something is owed to you.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/build/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The B check: “If I could not work another shift from tomorrow, what would I actually be owed — in writing?” — If the answer is a feeling, you do not have a deal.
 

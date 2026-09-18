@@ -15,6 +15,8 @@
 
 “This one's B.A.S.S. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE EXIT IS ALWAYS YOURS”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Men are socialized to stay in uncomfortable situ
 
 Here's the scene. You're in a situation that feels wrong and the voice in your head is running through reasons to stay: it'd be rude to leave, you don't want to make it weird, maybe you're just being paranoid, the crew will think you can't handle it. None of those reasons are about your safety. All of them are about managing other people's opinions of you. Those are not the same thing.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - "I need to find my camp" works everywhere and requires zero explanation
@@ -32,6 +36,8 @@ Watch for these signs.
 - You don't have to explain yourself. You don't have to make it clean. You can just go.
 
 Here's what's actually happening. The difficulty of leaving is almost always manufactured — by social pressure, by sunk cost thinking, by not wanting to be the one who breaks the vibe. Men specifically are socialized to read the desire to leave as cowardice rather than wisdom. It is wisdom. Your body knows when something is off before your brain has fully processed it. The moment leaving feels complicated is the moment leaving becomes most important.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The S check: “When did I last actually check in with my squad — my actual people, not this new crew?”
 

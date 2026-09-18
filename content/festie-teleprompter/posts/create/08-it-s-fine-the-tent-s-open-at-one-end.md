@@ -15,6 +15,8 @@
 
 “This one's C.R.E.A.T.E. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “IT'S FINE, THE TENT'S OPEN AT ONE END”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The environment, plus a schedule that wants eight hours of live painting a day inside a structure designed to keep rain off rather than to move air.
 
 Here's the scene. You are spraying in a marquee with the sides down because it is raining. There are three other painters doing the same thing and a crowd standing in it watching, and by the fourth hour you have the headache you always get and have stopped noticing the smell, which is the part that should worry you most.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Consecutive long days, because the exposure is cumulative
 
 Here's what's actually happening. Solvent and aerosol exposure is a genuine occupational hazard with cumulative effects on the nervous system and the airways, and live painting at festivals reproduces almost every condition that makes it worse: enclosed space, long consecutive days, no extraction, and no employer carrying a duty of care. The critical detail is that a dust mask does nothing against organic vapour — it is the wrong class of protection entirely, and it produces a false sense of safety that leads people to work longer in worse air.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Can I smell it, and is air actually moving through here?” — If you have stopped smelling it and nothing is moving, leave now rather than at the end of the piece.
 

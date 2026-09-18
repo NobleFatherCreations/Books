@@ -15,6 +15,8 @@
 
 “This one's B.U.I.L.D. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/build/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “SETTLE UP AFTER THE EVENT”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The production manager with a spreadsheet and a cash-flow problem. Pleasant all build. Becomes hard to find on the Monday, and when found, remembers the arrangement differently and has the advantage of being the one who writes it down.
 
 Here's the scene. The agreement was a day rate and expenses. It is Monday, the site is half struck, and the number he says now is lower — because the days you did were partly travel, because the accommodation counts against it, because the original figure was always a best case. You have no contract. You have a fortnight of sixteen-hour days, a van you paid the diesel for, and no leverage at all, because the work is already done.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/build/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - The implication that complaining costs you next season
 
 Here's what's actually happening. All the leverage in a build arrangement sits at the end, which is why unscrupulous production will schedule payment there and why the honest ones pay staged. Once your labor is spent it cannot be withdrawn, and the threat that does the real work is rarely stated: next year's booking. In a scene where work comes by reputation and relationship, being known as difficult about money is a genuine cost, and everybody doing this knows you have done that arithmetic. It is the same structure as the vendor non-payment page in M.A.R.K.E.T., with one addition — they may also control whether you have a bed tonight and a way home tomorrow.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/build/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The L check: “Do I have the agreed terms in writing, and a dated log of hours I actually worked?” — Memory loses to a spreadsheet, every time.
 

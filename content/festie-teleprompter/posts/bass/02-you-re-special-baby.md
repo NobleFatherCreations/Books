@@ -15,6 +15,8 @@
 
 “This one's B.A.S.S. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOU'RE SPECIAL, BABY”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Yes, women can run predatory patterns on men. Se
 
 Here's the scene. She zeroed in on you Saturday afternoon — beautiful, forward, electric. By that night you've bought her food, covered her friend's ticket, paid for a ride, fronted for substances. Everything felt mutual. Sunday morning she's asking if you can sort out her campmate's accommodation — another couple hundred dollars. The chemistry is still very present. The money keeps moving in one direction.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Sexual attention and financial asks arrive in the same package
@@ -32,6 +36,8 @@ Watch for these signs.
 - You're making decisions with your body that your brain wouldn't make sober
 
 Here's what's actually happening. Sexual attention is one of the most effective reciprocity hooks — especially for men socialized to see female interest as something to preserve at almost any cost. The pattern: interest > small ask > larger ask — implicit threat of withdrawal. This is financial and psychological manipulation using desire as the lever. If money only moves in one direction, that's the data.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Who has access to my wallet and decisions right now — and what do they actually want?”
 

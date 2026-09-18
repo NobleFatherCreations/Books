@@ -15,6 +15,8 @@
 
 “This one's B.A.S.S. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE PLUG SITUATION”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The person who becomes your exclusive source for
 
 Here's the scene. He had the best stuff and he kept finding you. By Saturday you realize your whole weekend has been organized around staying near him — not because you decided to, but because that's just where the access was. When you tried to wander he got tight. "Where you going? I thought we were hanging." Your social world has quietly contracted to one person and you're not sure exactly when that happened.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - He is the exclusive source of what you're consuming — no other connects this weekend
@@ -32,6 +36,8 @@ Watch for these signs.
 - Your friend group has contracted to his orbit without a conscious decision
 
 Here's what's actually happening. Substance gatekeeping manufactures dependency by making one person the gatekeeper to your altered state. For men this often comes packaged as generous bro behavior — sharing, providing, being the plug. The tell is what happens when you try to exercise independence. Tightness, cold shoulder, wounded energy — these are the control mechanisms becoming visible.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Who controls my access to substances this weekend — and what is that actually costing me?”
 

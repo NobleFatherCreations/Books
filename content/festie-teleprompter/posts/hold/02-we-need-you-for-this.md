@@ -15,6 +15,8 @@
 
 “This one's H.O.L.D. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WE NEED YOU FOR THIS”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The volunteer role that is described as one thin
 
 Here's the scene. The volunteer description said: two four-hour shifts managing crowd flow, accommodation provided, meals covered, full festival access. You arrive to find: you are actually needed for six to eight hours a day, the accommodation is a tent in a staff area with no amenities, meals are inconsistent, and your festival access is conditional on covering gaps in the schedule. The festival organizer is warm and grateful and every time you raise a concern she reminds you how much the event needs you.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - The role as described and the role as experienced are materially different
@@ -32,6 +36,8 @@ Watch for these signs.
 - "We need you" and "after everything we have set up for you" used when you raise concerns
 
 Here's what's actually happening. Volunteer exploitation at festivals is widespread and normalized under the cover of community contribution and festival love. The bait-and-switch works because by the time you discover the real terms you are already there, your transportation is tied to the event, and walking away feels like abandoning people who need you. That feeling of obligation was manufactured by the structure of the arrangement. Your labor has value. Volunteer exploitation is still exploitation.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The O check: “Is what I am being asked to do now what I agreed to do before I arrived?”
 

@@ -3,6 +3,8 @@
 
 *A spoken-word teleprompter script — one scenario at a time, ready to read straight to camera.*
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/cover.png`]** — video open — type this video's scenario/section title into the blank bottom third before recording, then hold or fade from it.
+
 **Quick shoutout before we start:** every scenario in this guide — and 253 more across the other twenty guides — lives free at **www.noblefathercreations.com/festival**.
 
 This is H.O.L.D.: Staff & Volunteers Edition. You hold the event together. This guide holds you together while you do it.
@@ -29,6 +31,8 @@ Here's who this is. The attendee who identifies that you are caring, available, 
 
 Picture this. You have been doing back-to-back shifts at the Harm Reduction tent and you are tired but still fully present with everyone who comes in. He has come by three times today — each time with a small question, each time staying a little longer to talk. The third time he says "I just feel so safe with you, I have never met anyone who listens like you do." He asks if you want to get a drink after your shift. Something about the sequence feels off but you cannot name it. You are also exhausted and the attention feels kind.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Multiple visits to your station with escalating personal rather than service-related conversation
@@ -37,6 +41,8 @@ Here are the signs.
 - The line between appreciating your support and pursuing you personally starts to blur
 
 Here's the mechanism underneath it. Staff and volunteers in caregiving roles at festivals — Harm Reduction, Rangers, medics, counselors — are specifically targeted by people who recognize that your role signals emotional availability, safety, and care. Those are genuine qualities. They are also qualities that certain people learn to use as a vector for access. The caregiving role creates a power dynamic you need to be aware of: you are in your element, you are giving, and some people use that specifically to get close.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The H check: “Am I maintaining the boundary between my care role and my personal availability?”
 
@@ -57,6 +63,8 @@ Let's talk about who does this. The volunteer role that is described as one thin
 
 Here's how it plays out. The volunteer description said: two four-hour shifts managing crowd flow, accommodation provided, meals covered, full festival access. You arrive to find: you are actually needed for six to eight hours a day, the accommodation is a tent in a staff area with no amenities, meals are inconsistent, and your festival access is conditional on covering gaps in the schedule. The festival organizer is warm and grateful and every time you raise a concern she reminds you how much the event needs you.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - The role as described and the role as experienced are materially different
@@ -65,6 +73,8 @@ Watch for these.
 - "We need you" and "after everything we have set up for you" used when you raise concerns
 
 Here's what's really going on. Volunteer exploitation at festivals is widespread and normalized under the cover of community contribution and festival love. The bait-and-switch works because by the time you discover the real terms you are already there, your transportation is tied to the event, and walking away feels like abandoning people who need you. That feeling of obligation was manufactured by the structure of the arrangement. Your labor has value. Volunteer exploitation is still exploitation.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The O check: “Is what I am being asked to do now what I agreed to do before I arrived?”
 
@@ -85,6 +95,8 @@ Here's who you're dealing with. The reality that some people who seek positions 
 
 Here's the scene. He has been volunteering in the Harm Reduction tent for three seasons. Everyone trusts him. He knows the layout, the protocols, the staff schedule, and most importantly he knows who comes in — who is most vulnerable, who is most altered, who is alone. He is warm, knowledgeable, and consistently present. He is also using that position and that knowledge in ways that the team has not yet named even though some of them have felt something was off.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - A staff or volunteer member who shows unusual interest in specific attendees beyond the care role
@@ -93,6 +105,8 @@ Here's what to watch for.
 - Discomfort among other staff about a specific person that has not yet been formally named
 
 Here's what's actually happening. People who want access to vulnerable people at festivals will seek roles that provide that access. Harm Reduction tents, medical stations, safe spaces, and security roles all provide access to people who are at their most vulnerable. This is a known and documented pattern in safeguarding contexts. If you have a gut feeling about a colleague in your space — that feeling is data. Name it to a supervisor. Document it. The culture of "but they have been here for years" is specifically what these patterns rely on.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The L check: “Have I documented the specific behaviors that are making me uncomfortable about this person in an access role, with dates and specifics?” — the team looking out for each other matters as much as the team looking out for attendees.
 
@@ -113,6 +127,8 @@ Here's who this is. The slow drain of giving at high emotional intensity for ext
 
 Picture this. You are into your third consecutive shift covering for a no-show. You have supported four difficult situations today — one overdose response, two bad trips, one assault disclosure. You are still showing up fully for every person who comes in. But something has shifted in how you are receiving their experiences — they are landing differently. You feel numb where you used to feel present. You are performing care rather than actually giving it. And you have not told anyone because there is nobody to cover you.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Emotional numbness in situations that would previously have moved you
@@ -121,6 +137,8 @@ Here are the signs.
 - Intrusive thoughts about difficult situations encountered during your shifts
 
 Here's the mechanism underneath it. Compassion fatigue is a recognized occupational hazard for anyone in sustained caregiving roles. It is not weakness. It is a physiological response to extended high-intensity emotional labor. Festival caregiving compresses what might be a week of a therapist's caseload into a single shift. The culture that says "just one more shift" and "the event needs you" is the same culture that burns out its best volunteers. Your wellbeing is not optional. It is what makes you effective.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The H check: “Am I actually present with the people I am supporting — or am I running on empty and performing presence I don’t actually have?” — you cannot give what you do not have. Recovery is the job, not a luxury outside it.
 
@@ -141,6 +159,8 @@ Let's talk about who does this. The attendee who uses your caregiving role to ac
 
 Here's how it plays out. He has been to the Harm Reduction tent four times this weekend. Each time presenting a slightly different version of a support need. He is articulate, charming, and good at presenting in ways that trigger your care response. You have given him supplies, information, quiet space, and two extended conversations. On his fourth visit you notice: he is gathering information about other attendees who have come through, he is asking about staff schedules, and his affect when he thinks he is not being observed is different from his affect when he is.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Multiple visits with shifting or evolving presentations of their support need
@@ -149,6 +169,8 @@ Watch for these.
 - Noticeably different presentation when they think they are not being directly observed
 
 Here's what's really going on. Most people who access Harm Reduction or support spaces at festivals are there for genuine reasons. Some are not. People who want to gather information about vulnerable attendees, access resources beyond what is appropriate, or build proximity to staff will use the care space to do it because the care space is specifically designed to receive people without judgment. Noticing patterns is not being judgmental. It is being a good safeguarder.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The O check: “Is the pattern of this person’s engagement consistent with genuine support seeking — or does it track more closely with something else entirely?” — discernment is as much a part of this role as compassion.
 
@@ -173,6 +195,8 @@ Here's who you're dealing with. The event structure or leadership that keeps sta
 
 Here's the scene. By Saturday afternoon you have been on since 6am, you have not had a proper meal, the staff communication channel is so full of urgent requests that you have stopped reading it, and the supervisor you would report concerns to is also clearly running on empty. Something happened in the camping area last night that three people have mentioned in passing but nobody has formally reported. You know you should do something about it. You genuinely do not have the capacity to figure out what.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Staffing is so thin that there is never a moment to observe, think, or raise concerns
@@ -181,6 +205,8 @@ Here's what to watch for.
 - Leadership is also depleted — there is no functional escalation path for concerns
 
 Here's what's actually happening. Systematic depletion of staff and volunteers is sometimes accidental and sometimes deliberate. When everyone is too exhausted to notice patterns or raise concerns — problems that would otherwise be caught and addressed do not get caught and addressed. If you are in an event structure where your basic needs are not being met and there is no functional path for raising concerns — that is information about the organization, not just about the event. Name it. Document it. And protect yourself accordingly.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The H check: “Do I have the basic resources I need to do this role safely — food, sleep, breaks, a way to say when I’ve hit my limit?” — a depleted volunteer isn’t a martyr, they’re a liability to everyone they’re trying to protect.
 
@@ -201,6 +227,8 @@ Here's who this is. The direct or indirect pressure on staff and volunteers not 
 
 Picture this. You witnessed something between two attendees in the camping area that you are fairly sure was not consensual. You reported it to your supervisor. She took it seriously in the moment. An hour later the event director came to you: "I know you reported something and I appreciate that you care, but we need to think about how we handle this — a formal report right now would be really complicated for the event. Can we just make sure the people involved are okay and handle this internally?" You feel the pressure of a hundred things at once.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Informal resolution is proposed for situations that require formal reporting
@@ -209,6 +237,8 @@ Here are the signs.
 - Pressure to wait, consider, or discuss rather than document and report immediately
 
 Here's the mechanism underneath it. Reporting suppression protects the organization and the event at the expense of the people harmed. When incidents are handled informally at the request of event leadership — no report, no documentation, no formal process — the people harmed lose their ability to seek redress, the pattern goes untracked, and the organization avoids accountability. Your role is to report. The decision about how to handle the report is not yours alone. Make the report and let the process work.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The L check: “Have I documented this incident in writing regardless of what the organization is asking me to prioritize instead?” — reporting harm is the job. Anyone telling you otherwise is protecting the wrong thing.
 
@@ -229,6 +259,8 @@ Let's talk about who does this. Everyone on a volunteer-for-a-ticket arrangement
 
 Here's how it plays out. You finished at six. At eleven, in the crowd, somebody recognizes you from the welfare tent and starts telling you about their night, and then somebody else asks you where the medical tent is, and then an actual incident happens four feet away and everyone nearby turns to look at you, and you have had three drinks.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - People bring you work problems when you are off shift
@@ -239,6 +271,8 @@ Watch for these.
 - You cannot say where the shift ended and the weekend started
 
 Here's what's really going on. The volunteer-for-a-ticket model produces a genuinely ambiguous role and almost no organizations address it. Two specific risks follow. First, liability: intervening while off duty and impaired is not covered by any briefing or insurance, and it is where volunteers get hurt or get someone else hurt. Second, depletion: a person who is never fully off shift does not recover, and the compassion-fatigue pages elsewhere in this guide describe what that turns into by day three. Neither is your fault; both are yours to manage, because the event almost certainly has not.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The H check: “Am I on duty right now — and does everyone around me know the answer?” — If it is ambiguous to you, it is ambiguous to them.
 
@@ -263,6 +297,8 @@ Here's who you're dealing with. The supervisor, event director, or senior staff 
 
 Here's the scene. Your supervisor has been warm and supportive all weekend. He has also made several comments that felt personal rather than professional. Saturday night he asks if you want to come back to the staff area after your shift to "debrief." Something about the way he says it makes the invitation feel less professional than the word suggests. You also know he controls your schedule, your access, and your reference if you volunteer here again next year. Saying no feels complicated in a way it should not.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Comments from a supervisor that feel personal, sexual, or designed to gauge your interest
@@ -271,6 +307,8 @@ Here's what to watch for.
 - A feeling that saying no directly would create professional consequences
 
 Here's what's actually happening. Sexual pressure within staff hierarchies is a specific form of workplace sexual harassment regardless of the festival context. The power differential is real: supervisors control schedules, references, access, and the experience of working in that role. That power makes genuine consent complicated and makes declining feel costly. You do not owe a supervisor access to you personally in exchange for a good volunteer experience. The harassment is the problem — not your response to it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The L check: “Have I documented this interaction so I have a record if I choose to report it?”
 
@@ -291,6 +329,8 @@ Here's who this is. The organizational dynamic where front-line staff and volunt
 
 Picture this. An incident happened during your shift. You responded as best you could with the training and resources you had. Afterward, the event director calls you in and the tone is very different from the supportive one you experienced all weekend. Suddenly the focus is on what you did or did not do. The staffing shortage that left you covering an area alone, the training gaps, the protocol that was unclear — none of that is part of the conversation. You are.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Post-incident conversation focuses exclusively on your actions rather than systemic conditions
@@ -299,6 +339,8 @@ Here are the signs.
 - The framing shifts from "what happened" to "what did you do" in ways that feel like assignment of blame
 
 Here's the mechanism underneath it. Front-line workers are the easiest people to blame for systemic failures because they were physically present when things went wrong. Organizations that do not want to examine their own structural failures direct accountability downward onto the people least able to defend themselves. You are not required to accept blame for conditions you did not create. Document your version of events in writing immediately after any incident. Do not sign anything you do not fully understand and agree with.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The L check: “Have I documented my version of events in writing immediately — before organizational framing has a chance to reshape it?” — you’re responsible for your actions, not for the systemic conditions you were placed in.
 
@@ -319,6 +361,8 @@ Let's talk about who does this. As staff or a volunteer you have visibility, aut
 
 Here's how it plays out. You are doing a walk-through of the camping area mid-afternoon and you see a woman sitting with a man who seems agitated. Her body language is closed and she is looking at the ground. You are in your staff vest. You have radio access. You have the authority to intervene in ways that most attendees do not. You also have the very human impulse to not want to make it worse, not want to assume wrong, not want to create a scene. The impulse is real. So is your responsibility.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Your staff vest and radio change the social dynamics of an intervention — use that
@@ -327,6 +371,8 @@ Watch for these.
 - Documentation after any intervention is part of the job, not optional
 
 Here's what's really going on. Staff and volunteers have a fundamentally different role in bystander intervention than attendees — you have authority, visibility, backup, and a professional obligation to act that most attendees do not. The threshold for intervention is lower for you. The tools available are better. The accountability for not acting is higher. See something, do something — and document what you did and why.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The O check: “What am I observing right now, and what does my role require me to do with that observation, in this exact moment?” — your vest and your radio are the tools for this moment. Use them.
 
@@ -347,6 +393,8 @@ Here's who you're dealing with. A supervisor, a team lead, or a long-standing cr
 
 Here's the scene. The crew party is a real thing and it is where the bonding happens and where next season's roles get informally decided, and the person suggesting you come is the person who writes your hours. Going means drinking with somebody who has power over you, in their camp, at three in the morning. Not going means being the one who does not join in, and both of you know which one is easier.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Social attendance is where progression and rota decisions actually happen
@@ -357,6 +405,8 @@ Here's what to watch for.
 - There is no reporting route that does not run through this person
 
 Here's what's actually happening. Festival crews have workplace power structures and almost none of the workplace protections — no HR, no written complaints route, no contracts for volunteers, and a supervisor who controls access to next season. The after-shift party is where that power operates informally, and the risk is not the party itself, which is often genuinely one of the best parts of the job. It is that declining has a cost and attending has a different one, and that there is nobody to report to if something happens, because the person you would report is the person you would report to.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The O check: “Who could I report this person to, by name?” — Ask on day one. If there is no second name, the hierarchy has no floor.
 
@@ -381,6 +431,8 @@ Here's who this is. Volunteers have rights. Not the same rights as employees in 
 
 Picture this. You are being asked to cover a solo overnight shift in a remote area of the festival with no radio contact and no clear protocol for what to do if something happens. Your gut says this is not safe. Your supervisor says everyone does it and there is nobody else. You want to be helpful. You also want to go home in one piece. The question is whether you have the right to say no — and the answer is yes.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Being asked to work alone in unsafe conditions without adequate communication or support
@@ -389,6 +441,8 @@ Here are the signs.
 - Basic needs — food, water, breaks, sleep — being systematically denied for operational reasons
 
 Here's the mechanism underneath it. Festival volunteer culture often blurs the line between genuine community contribution and labor exploitation. The "we are all in this together" framing can make it feel selfish or disloyal to refuse unsafe tasks or insist on basic working conditions. It is not. Volunteers who are placed in unsafe conditions and something goes wrong face real consequences — personal harm, trauma, and sometimes legal exposure. You have the right to refuse conditions that put you at unreasonable risk.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The H check: “Am I being asked to do something that my training, my safety, or my basic needs require me to say no to?” — saying no to an unsafe task isn’t letting the team down. It’s doing the job correctly.
 
@@ -409,6 +463,8 @@ Let's talk about who does this. Festival caregiving roles expose you to a concen
 
 Here's how it plays out. You supported an overdose response, two assault disclosures, and a mental health crisis in the same shift. All of them resolved as well as they could. You did your job well. It is now Sunday evening and the festival is winding down and you are sitting in your car in the parking area before driving home and you realize you have not actually stopped moving since Thursday. You are not sure what you feel. You are not sure you feel anything. That numbness is the thing to pay attention to.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Emotional numbness or flatness after a shift involving difficult incidents
@@ -417,6 +473,8 @@ Watch for these.
 - Physical symptoms — tension, headache, fatigue — that persist well after your shift ends
 
 Here's what's really going on. Secondary traumatic stress — also called vicarious trauma — is a recognized occupational hazard for people in caregiving and emergency response roles. It develops from repeated exposure to other people's traumatic experiences. Festival caregiving compresses this exposure dramatically. Debrief is the professional standard for managing it — named processing of what you experienced, with colleagues or a professional, before it gets metabolized as unprocessed trauma.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The D check: “Have I actually stopped and processed what I experienced today — or am I just pushing through to the next shift?” — what you process becomes wisdom. What you don’t becomes weight.
 
@@ -437,6 +495,8 @@ Here's who you're dealing with. Every volunteer who has ever had to stop somebod
 
 Here's the scene. He is unconscious and needs moving out of the crowd, or he is trying to climb something, or two people are going at it and you are the nearest person in hi-vis and everybody has turned to look at you. You have never been trained in any of this and you are about to do it anyway because nobody else is going to.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - No restraint or manual-handling training, and no licence
@@ -447,6 +507,8 @@ Here's what to watch for.
 - Nobody has told you what you are and are not permitted to do
 
 Here's what's actually happening. Untrained physical intervention is the highest-consequence thing an unqualified volunteer can do, and it happens constantly because the hi-vis creates an expectation the training never met. Two specifics are worth knowing above everything else. Positional asphyxia — holding or leaving someone face-down or folded, especially if they are intoxicated, large, or struggling — kills people, and it is the single most documented cause of restraint-related death. And an unconscious person who is breathing goes into the recovery position on their side, not face-up and not face-down, because the airway is the whole problem.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The H check: “Am I trained for what I am about to do?” — If not, the intervention is a radio call and a presence, not a hold.
 
@@ -471,6 +533,8 @@ Here's who this is. Staff and volunteer roles at festivals come with access — 
 
 Picture this. You are a Ranger and someone came to you in genuine distress about a situation in their camp. You helped them, you supported them, you were exactly what the role is supposed to be. You also now know specific private information about them — who they were with, what happened, where their camp is, what their vulnerable moment looked like. The question is not whether that information is real. The question is what you do with it after they walk away from your care.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Information shared with you in a care context belongs to the person who shared it — not to you
@@ -479,6 +543,8 @@ Here are the signs.
 - The power of your role continues to exist even when you are off duty at the same event
 
 Here's the mechanism underneath it. The access that comes with festival staff and volunteer roles creates real power over people who are in vulnerable moments. That power is a tool for service — it is not a benefit of the role. Information shared in a care context is confidential. Access to spaces and resources is role-specific. Ongoing personal contact with people you supported in your role raises the same issues as any therapist-client boundary — the power imbalance does not disappear when the immediate support need does.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The H check: “Am I using my access in service of the people I am there to protect — or for my own convenience, curiosity, or gain?” — the access isn’t yours, it belongs to the role. Use it accordingly.
 
@@ -499,6 +565,8 @@ Let's talk about who does this. The culture of a festival's staff team is one of
 
 Here's how it plays out. The briefing before gates open sets the tone. The lead says: "Our job this weekend is to hold the space so everyone can have the experience they came for. That means we take every concern seriously, we report what we see, we take care of each other so we can take care of everyone else, and we never dismiss a gut feeling. If something feels off — name it to your team. There are no bad reports. There are only missed patterns." That briefing changes how the whole weekend goes.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Leadership explicitly states that all concerns will be taken seriously — not managed down
@@ -507,6 +575,8 @@ Watch for these.
 - Accountability runs in all directions — leadership is held to the same standards as front-line staff
 
 Here's what's really going on. Healthy staff culture is built from the first briefing and maintained through how leadership responds to the first concern that is raised. Organizations where leadership takes concerns seriously, supports staff wellbeing, and holds itself to the same standards it holds front-line workers create genuinely safer events. Organizations that suppress concerns, burn out volunteers, and deflect accountability downward create events where harm is more likely and less likely to be addressed.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/hold/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The O check: “Does the culture of this staff team make it easy or hard to raise concerns?” — that tells you a great deal about how safe this event actually is.
 

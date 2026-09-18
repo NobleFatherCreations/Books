@@ -15,6 +15,8 @@
 
 “This one's G.R.O.V.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “I GOT YOU, BABE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The generous one. Always has extra. Covers your 
 
 Here's the scene. She covered your wristband at the gate when your card declined. "Don't stress, we're family." Over two days she shares her hammock, food, connects. Every time you try to wander toward your crew she gets that look — "After everything I've done for you?" By Sunday you're in her orbit, your new friends are her people first, and the idea of leaving feels like doing something wrong.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Gifts arrive before any actual friendship — fast, often in front of witnesses
@@ -32,6 +36,8 @@ Watch for these signs.
 - Attempts to spend time with your own people are met with hurt feelings
 
 Here's what's actually happening. Reciprocity is one of the deepest human wiring patterns — when someone gives us something we feel compelled to give back. Festival gifting culture makes this extra potent because giving IS sacred here. The predatory version flips it: the gift is an investment with a return expected. When the "return" gets called in, saying no feels ungrateful. That feeling of owing something you never agreed to? That was engineered.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The O check: “Am I still connected to my actual people — or has dependency on her replaced that?”
 

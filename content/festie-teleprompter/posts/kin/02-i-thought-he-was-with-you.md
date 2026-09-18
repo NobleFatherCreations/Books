@@ -15,6 +15,8 @@
 
 “This one's K.I.N. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “I THOUGHT HE WAS WITH YOU”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Not a person — a structure. Eleven adults, four children, a shared camp, an unspoken sense that somebody is always around, and no moment at which anybody specifically agreed to be watching.
 
 Here's the scene. It is nine in the evening and somebody asks where Theo is and there is a pause, and in that pause four adults each realize they had assumed one of the others had him. He is almost certainly thirty metres away at the other fire. He almost certainly is. The forty seconds before you find him are the longest forty seconds of the year and nothing in the camp's arrangements was designed to prevent them.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - “Someone's always around” said as though it were a system
 
 Here's what's actually happening. Diffusion of responsibility is one of the most robust findings in social psychology: the more people who could act, the less likely any given person is to act, and the more each assumes somebody else has. Applied to child supervision in a camp it produces a specific failure — not neglect, but a group of attentive adults each accurately believing the child is covered. Festivals add the aggravating factors: no fences, thousands of strangers, darkness, noise that swallows a shout, and a proportion of the adults present with reduced capacity. The fix is not more vigilance. It is a named person and a spoken handover, which converts an assumption into an agreement.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The K check: “Can I name the adult who has my child right now, and did they say yes out loud?” — If the answer is a camp rather than a name, nobody has them.
 

@@ -15,6 +15,8 @@
 
 “This one's A.C.C.E.S.S. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/access/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOUR ACCESS PLAN”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. This page is the boring one and it is the one that works. Everything here is done before you arrive, in a calm room, by a version of you who is not tired, not overloaded, and not being asked anything by anyone.
 
 Here's the scene. It is the Tuesday before. You have fifteen minutes and a notes app. Everything that will go wrong on Saturday night is currently a thing you can fix in one sentence, and on Saturday night it will not be, because the whole point of Saturday night is that you will not have the capacity to invent a plan from nothing.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - One off-site person who expects a check-in and will notice if it does not come
 
 Here's what's actually happening. Everything in this guide is easier to counter in advance than in the moment, because every mechanism in it works by targeting a depleted version of you. Pre-commitment is the general answer: decisions made Tuesday hold on Saturday in a way that Saturday's decisions do not. This is also the part where you get to stop treating your access needs as a negotiation. Written down as logistics — surfaces, distances, timings, names — they stop being a thing you justify to people and become a thing you operate. That shift in framing is doing as much work as any individual item on the list.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/access/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Can I answer, right now, how I physically leave from where I will be tonight?” — If not, that is the fifteen minutes.
 

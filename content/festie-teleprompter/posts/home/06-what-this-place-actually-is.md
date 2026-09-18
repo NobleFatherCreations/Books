@@ -15,6 +15,8 @@
 
 “This one's H.O.M.E. — Community. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/home/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WHAT THIS PLACE ACTUALLY IS”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. For you, at the end, from people who have spent their lives in this world and have written an entire book about its dangers — which is exactly why this page is worth trusting.
 
 Here's the scene. Everything else in this book is about what can go wrong, because that is what a safety guide is for. Read as a whole it gives a false impression, and it would be dishonest to hand you a hundred pages of predators and let you think that is the place your person is going to.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/home/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - They will talk about it for a year, and you will get bored of hearing about it
 
 Here's what's actually happening. The reason this scene is worth protecting is that it is genuinely unusual: a place where radical acceptance is the default, where people look after strangers as a matter of course, and where somebody can be more themselves for seventy-two hours than they manage anywhere else all year. The patterns in this book exist because predators seek out open-hearted places, and open-heartedness is the thing worth defending rather than the mistake. Your person is not naive for loving it. They are going somewhere that gives them something the default world does not, and the overwhelming likelihood is that they will come home with a sunburn and too many stories.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/home/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The H check: “Am I treating this as a threat to survive, or as a thing they love?” — They can tell which one you think it is, and it determines everything.
 

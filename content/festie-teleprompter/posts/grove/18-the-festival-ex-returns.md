@@ -15,6 +15,8 @@
 
 “This one's G.R.O.V.E. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE FESTIVAL EX RETURNS”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The person from last year — or the year before
 
 Here's the scene. You saw him across the fire Saturday night and your whole body went electric — not in a good way. Then he appeared next to you with that smile. "I've been thinking about you. I think I was in a really different place last year. I've done a lot of work." He sounds different. He looks softer. And some part of you that spent six months healing wants desperately to believe that the work is real.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Reappears at the same festivals — he knows your circuit
@@ -32,6 +36,8 @@ Watch for these signs.
 - The feelings that come back are old trauma activation, not new information
 
 Here's what's actually happening. Hoovering is the return of a previous manipulator after a period of absence — timed for maximum impact. Festival reunions are particularly potent because the environment is already emotionally heightened, your nervous system associates the setting with connection, and seeing someone in a context where you once felt magic reactivates those neurochemical pathways faster than almost anything else. "I've done the work" is a sentence. Changed behavior is a pattern. You need months of data, not a weekend of charm.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/grove/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The V check: “Do I actually know who this person is now — or am I responding to who I hoped they were?”
 

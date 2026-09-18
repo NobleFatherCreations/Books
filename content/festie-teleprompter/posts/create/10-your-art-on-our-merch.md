@@ -15,6 +15,8 @@
 
 “This one's C.R.E.A.T.E. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOUR ART ON OUR MERCH”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Your designs, your process images, your finished
 
 Here's the scene. You find your work on a festival's merchandise table — a tote bag and two t-shirts featuring a painting you created for them two years ago. You were paid for the original painting. You were not paid for any reproduction rights. Nobody asked. When you bring it up you're told "but we paid for the painting" — as if payment for the original work included unlimited commercial reproduction rights forever. It didn't.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Your work appearing on merchandise, promotional materials, or commercial contexts without notice
@@ -32,6 +36,8 @@ Watch for these signs.
 - Digital versions of your work being sold, licensed, or reproduced without your knowledge
 
 Here's what's actually happening. Payment for an original artwork does not transfer reproduction rights unless explicitly stated in writing. Copyright in the original work belongs to you. The buyer purchased the physical object — not the right to reproduce it commercially. This is not a gray area. It is copyright law. The protection is a written agreement before any commission that specifies exactly what rights the buyer receives and what they do not.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Has anyone asked me in writing for permission to reproduce this work — or did they just assume they could?” — assumption is not permission, and it never comes with a check attached.
 

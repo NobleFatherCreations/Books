@@ -15,6 +15,8 @@
 
 “This one's P.R.I.D.E. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “RESOURCES AND RIGHTS”
@@ -24,6 +26,8 @@ Here's who you're dealing with. You have rights at a festival regardless of your
 
 Here's the scene. Something happened this weekend that was not okay. Or you witnessed something. Or you are sitting with something difficult and not sure what to do with it. The resources listed here are specifically for LGBTQ+ people and specifically for the kinds of situations that arise in festival contexts. You do not need to have it all figured out to reach out. You do not need a perfect story. You just need to know where to start.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Trevor Project (thetrevorproject.org): crisis support specifically for LGBTQ young people, 24/7
@@ -32,6 +36,8 @@ Watch for these signs.
 - Trans Lifeline (translifeline.org): support specifically for trans people in crisis, staffed by trans people
 
 Here's what's actually happening. LGBTQ+ people face specific vulnerabilities at festivals — identity-based harassment, outing threats, fetishization, and the unique dynamics of small queer communities. You also have specific resources available that are built for your experience. Using them is not weakness. It is using what exists for exactly this situation. You deserve support that understands your specific context.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Do I know which resources exist for my specific situation — before I need them?”
 

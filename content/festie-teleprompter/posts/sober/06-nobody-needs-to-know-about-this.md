@@ -15,6 +15,8 @@
 
 “This one's S.O.B.E.R. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “NOBODY NEEDS TO KNOW ABOUT THIS”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Someone who learned what your sobriety means to you and filed it. Manufactures the slip, or simply waits for one, and then becomes the only person who knows about it — which is the actual objective.
 
 Here's the scene. It happened. However it happened, it happened, and he was there, and now he is being extraordinarily kind about it. He says it stays between you. He says he understands, no judgment, everyone slips. He says it about four times over the next two days, in a way that is comforting the first time and something else by the fourth.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Small asks start arriving, and declining them feels newly complicated
 
 Here's what's actually happening. A secret held by one other person is leverage whether or not anyone ever names it, and shame is the most reliable silencer there is because the person being controlled does the work themselves. This is why isolation from your recovery network is the tell to watch rather than any explicit threat — the threat is never made, it does not need to be. Coercive control research finds this shape consistently: cut the person off from the relationships that would give them a competing account of themselves, then be the only one who knows the worst thing. What makes recovery a target is simply that the worst thing is already pre-loaded and everyone knows how much it costs you.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The R check: “Is there something about me only one person here knows?” — That is not intimacy. That is a holding.
 

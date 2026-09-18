@@ -15,6 +15,8 @@
 
 “This one's R.A.V.E. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “IT'S FINE, NOBODY STEALS HERE”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Mostly opportunists working the campsites during headline sets, when the fields empty out and thousands of tents stand unattended for two hours. Occasionally someone who has been watching your camp specifically since Thursday.
 
 Here's the scene. Everyone said the campsite was safe and mostly it is and you believed it, so your passport, your bank card, your keys and your spare phone are in your tent, which is closed with a zip that a child could open, while you are a mile away watching the headliner along with everybody else in the field.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You are carrying every card you own rather than one
 
 Here's what's actually happening. Campsite theft is almost entirely opportunistic and almost entirely timed — it happens during the headline sets, when the campsite is empty and nobody will be back for hours. The advice that the campsite is safe is broadly true and slightly dangerous, because it is true about people and not about opportunity. The practical loss is rarely the phone; it is the passport, the car keys, the bank cards and the house keys, which turn a stolen bag into a genuinely hard week rather than an annoying one.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “What is in my tent right now that I could not get home without?” — Whatever that is should not be in there.
 

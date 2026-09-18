@@ -15,6 +15,8 @@
 
 “This one's S.O.U.N.D. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “AFTER PARTY AT MINE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The post-show window is one of the highest-risk 
 
 Here's the scene. You just came off a set that felt transcendent. Everyone backstage is warm and electric. Someone from the crowd has somehow gotten backstage — through who, you're not sure. They're beautiful and clearly want to be near you and the attention feels like an extension of the performance high. Two hours later, in a much quieter context with a much clearer head, you're trying to reconstruct how the decisions of the last two hours happened.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - People in backstage spaces you don't know how they got there
@@ -32,6 +36,8 @@ Watch for these signs.
 - An entourage that appears after every show and gradually never leaves
 
 Here's what's actually happening. The post-performance state is a genuine altered state — high adrenaline, endorphin flood, identity in flux between performer-self and regular-self. Predatory fans and industry people know this window intimately and specifically target it. As the performer you're also in the position of power in that space — which means your responsibility is higher, not lower. This page is simultaneously about protecting yourself AND about not using the post-show window to cover your own behavior.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The U check: “Who is actually in this space — do I know how they got here and what they want?”
 

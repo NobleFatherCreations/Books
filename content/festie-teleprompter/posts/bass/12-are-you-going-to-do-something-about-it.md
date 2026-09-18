@@ -15,6 +15,8 @@
 
 “This one's B.A.S.S. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “ARE YOU GOING TO DO SOMETHING ABOUT IT”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Someone who wants this. Sometimes drunk and stupid, sometimes practised and calm, occasionally a pair working together — one to provoke and one to film. Has picked you because you responded to the first line rather than to the fifth.
 
 Here's the scene. He has been at it for ten minutes. The comments started about the queue and are now about the woman you came with, and there are people watching, and he is asking whether you are going to do something about it in a tone that is doing exactly what it is designed to do. Your hands have already made the decision. There are two phones up.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You are being asked a question whose only wrong answer is engaging
 
 Here's what's actually happening. The provocation is the technique and the fight is the product. It produces a clip, a reputation, a claim of self-defence, or occasionally a legal position — and in every version of it the person who throws first is the person who loses, legally and practically. At a festival the additional problem is the ground: a single punch on hard standing, near a barrier, in the dark, after a night of drinking, is how people acquire a conviction or a headline. The people who do this are good at it and have done it before, which is why it feels so specifically calibrated to you.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The S check: “Is this a threat, or a performance aimed at getting a reaction?” — A real threat closes on you. A performance keeps asking questions.
 

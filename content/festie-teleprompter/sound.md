@@ -3,6 +3,8 @@
 
 *A spoken-word teleprompter script — one scenario at a time, ready to read straight to camera.*
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/cover.png`]** — video open — type this video's scenario/section title into the blank bottom third before recording, then hold or fade from it.
+
 **Quick shoutout before we start:** every scenario in this guide — and 252 more across the other twenty guides — lives free at **www.noblefathercreations.com/festival**.
 
 This is S.O.U.N.D.: Musicians & Touring Edition. Your music is the power. Don't let anyone else hold the switch.
@@ -30,6 +32,8 @@ Here's who this is. The promoter with the network, the stages, the bookings. Pos
 
 Picture this. "I'm building something with your sound specifically in mind — I need you for three dates this summer and if those go well we're talking main stage next year. We don't need a formal contract yet, this is about building a relationship first." Three shows later: you've covered your own travel, been paid 60% of what was agreed verbally, done promotional content for free, and the main stage conversation has vaporized.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Future opportunity always slightly out of reach — dependent on your continued compliance
@@ -38,6 +42,8 @@ Here are the signs.
 - Any friction triggers implicit threat to the whole relationship and future bookings
 
 Here's the mechanism underneath it. The festival and music industry has a specific power structure that predatory promoters exploit: artists need bookings, bookings require promoter relationships, and challenging a promoter feels like risking your entire access to the scene. The "building something together" frame removes professional clarity while the promoter retains all the structural power. A legitimate promoter makes money when you get paid fairly.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The S check: “Is there a signed contract — or just a verbal promise and a sense that questioning it risks the whole opportunity?” — that feeling is the leverage working exactly as intended.
 
@@ -58,6 +64,8 @@ Let's talk about who does this. The manager who positions themselves between you
 
 Here's how it plays out. She approached you after a set that went off. Clearly connected. "I think you're three months away from something major and I want to be the person who gets you there." No management contract yet. A year later: she takes 25% of everything including merch you handle yourself, discourages direct relationships with bookers ("let me handle it, it's cleaner"), and when you question any of it the conversation turns to everything she's done for you.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Discourages direct relationships with bookers, labels, promoters — "let me handle it"
@@ -66,6 +74,8 @@ Watch for these.
 - Industry contacts you had before have been quietly replaced by her relationships
 
 Here's what's really going on. Predatory management isolates artists from their industry network under the cover of professionalism. When your entire industry network runs through one person, that person has complete leverage. Standard management commission is 15-20% of gross income from work THEY source — not your merch, not your pre-existing relationships. Know that standard before any conversation.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The N check: “Can I talk directly to my booker or label — or does everything go through them first?”
 
@@ -86,6 +96,8 @@ Here's who you're dealing with. The booking that changes significantly between o
 
 Here's the scene. "We're really excited to have you — you'll be on the Garden Stage, Saturday evening set, solid slot." You announce it, post it, your fans make plans. Two weeks before the show: "there have been some lineup adjustments — we've moved you to the Morning Stage, Sunday 11am." The ticket buyers for your slot have already made travel plans. Pulling out now costs you more than accepting the downgrade.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Details confirmed verbally don't match the written confirmation when it arrives
@@ -94,6 +106,8 @@ Here's what to watch for.
 - Each change is framed as minor — the cumulative impact is significant
 
 Here's what's actually happening. Bait and switch bookings work by getting your public commitment before you have the details in writing. Once you've announced a show to your audience, backing out has real social and professional cost — which the promoter counts on. The protection is simple: nothing goes on your social media until you have the booking confirmation in writing, with all material details (stage, set time, date, fee) confirmed. No exceptions.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The S check: “Have I confirmed every material detail of this booking in writing before I announce it to my own audience?” — once you’ve announced it, the leverage in the negotiation is gone, and it’s gone in their favor.
 
@@ -114,6 +128,8 @@ Here's who this is. The post-show window is one of the highest-risk periods for 
 
 Picture this. You just came off a set that felt transcendent. Everyone backstage is warm and electric. Someone from the crowd has somehow gotten backstage — through who, you're not sure. They're beautiful and clearly want to be near you and the attention feels like an extension of the performance high. Two hours later, in a much quieter context with a much clearer head, you're trying to reconstruct how the decisions of the last two hours happened.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - People in backstage spaces you don't know how they got there
@@ -122,6 +138,8 @@ Here are the signs.
 - An entourage that appears after every show and gradually never leaves
 
 Here's the mechanism underneath it. The post-performance state is a genuine altered state — high adrenaline, endorphin flood, identity in flux between performer-self and regular-self. Predatory fans and industry people know this window intimately and specifically target it. As the performer you're also in the position of power in that space — which means your responsibility is higher, not lower. This page is simultaneously about protecting yourself AND about not using the post-show window to cover your own behavior.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The U check: “Who is actually in this space — do I know how they got here and what they want?”
 
@@ -142,6 +160,8 @@ Let's talk about who does this. Most superfans are genuinely loving people your 
 
 Here's how it plays out. She's been at six of your shows in three cities. Knows your setlist changes before you announce them. Has your tour schedule memorized. Shows up at the venue during soundcheck. DMs you daily — long, personal, detailed. When you don't respond she escalates. At the last show she got backstage and stood close in a way that felt like pressure. Your team dismisses it: "that's just a dedicated fan." Your body is saying something different.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Attendance at multiple shows in multiple cities without your invitation
@@ -150,6 +170,8 @@ Watch for these.
 - Communication that escalates when you don't respond or engage
 
 Here's what's really going on. Parasocial relationships — where a fan experiences genuine emotional intimacy with an artist who doesn't know them — are a normal feature of music fandom. They become dangerous when the fan can't hold the asymmetry and begins operating as though the relationship is mutual. The music industry often fails artists here by treating obvious stalking as enthusiasm. Your discomfort is data. Your body's signal about someone is data.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The D check: “Have I documented this person’s behavior with dates, locations, and screenshots — solely so I have a record if this escalates?” — a fan’s dedication is not a reason to skip documenting once it stops feeling safe.
 
@@ -170,6 +192,8 @@ Here's who you're dealing with. Touring creates a specific kind of isolation —
 
 Here's the scene. You're four weeks into a run and you haven't had a real conversation with anyone from home in two weeks. The tour manager controls the schedule, the transport, the accommodation, and by extension a lot of how your days feel. The sound engineer has been making comments about your decisions. Your bandmate has a habit that's starting to affect the shows and nobody will address it. You feel completely dependent on the very people who are causing friction.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Your home support network feels increasingly remote and unreachable
@@ -178,6 +202,8 @@ Here's what to watch for.
 - You're too exhausted and too far from home to push back on anything
 
 Here's what's actually happening. Road isolation is structural — touring literally removes you from your support network and puts you in a temporary closed system where the people with you have enormous power over your daily experience. This is not inherently predatory but it creates conditions that are easily exploited. Maintaining active connection to your home network, having at least one person on tour who is genuinely in your corner, and preserving your own decision-making authority are the protections.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The U check: “When did I last have a real conversation with someone who knew me before the music?”
 
@@ -198,6 +224,8 @@ Here's who this is. Every festival set you play is potentially being recorded �
 
 Picture this. Your set went viral — 400,000 views on the festival's YouTube channel. The recording is incredible. Fans are using it everywhere. The festival is now licensing it to a streaming platform for a compilation. You receive nothing because when you signed the booking confirmation — buried in the terms — you assigned all recording rights to the festival for all formats in perpetuity.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Booking confirmation or contract contains a recording rights clause you didn't negotiate
@@ -206,6 +234,8 @@ Here are the signs.
 - Live recordings appear on streaming platforms or in commercial contexts without your knowledge
 
 Here's the mechanism underneath it. Live recording rights are one of the most commonly overlooked and most valuable assets in a musician's career. Festival organizers routinely include sweeping rights grabs in standard booking paperwork. Your performance is a copyrightable work. Your likeness in those recordings is yours. A simple rider clause reserves your recording rights or requires negotiation. Without it, you're playing the show and handing them a product.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The O check: “Who owns the recordings being made of me tonight — and is that in writing before I go on stage?” — know who owns the product before you create it, not after.
 
@@ -226,6 +256,8 @@ Let's talk about who does this. The promoter, the tour manager, or the local fix
 
 Here's how it plays out. The rider is fine and there is something else on the table that was not on it, and he says it is sorted, and this happens at every one of his shows. By the fourth booking you are aware that you look forward to his shows for a reason that is not the audience, and that the conversation about the fee has become a conversation you are less inclined to have.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Substances provided as hospitality, routinely and unasked
@@ -236,6 +268,8 @@ Watch for these.
 - You have stopped pushing on money and cannot say exactly when that started
 
 Here's what's really going on. Supply is one of the oldest forms of leverage in this industry and it works without a single explicit exchange being proposed. It creates reciprocal debt, it degrades judgement during exactly the conversations where your judgement matters commercially, and it establishes a dependency that is tied to one relationship. It also builds an accumulating hold: somebody who has supplied you for two years knows things about your consumption that they can allude to, and that hold does not require any intention at the time to be usable later.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The N check: “Would I push as hard on this contract if the hospitality stopped?” — If the answer is yes, the hospitality is doing business.
 
@@ -260,6 +294,8 @@ Here's who you're dealing with. Getting paid what you were promised, on the time
 
 Here's the scene. "The accounting is still getting sorted — it'll be in your account by end of month." End of month: "we had some unexpected costs with the event, we're going to need to adjust the final payment." Or: the merch sales from your table were handled by their team and the reconciliation is $800 short of what you counted. Or: your 50% deposit never arrived but your show is tomorrow and the flights are booked.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Deposit due before show hasn't arrived and you're too committed to pull out
@@ -268,6 +304,8 @@ Here's what to watch for.
 - "Unexpected costs" appear after the show as reasons for reduced payment
 
 Here's what's actually happening. Cash flow manipulation benefits the promoter while your leverage decreases once you've performed. That's why deposits exist. Get them before you travel. Count your own merch. Send a payment reminder email with terms on Day 1 after the show. Paper trail everything. Most non-payers rely on artists being too tired or too non-confrontational to pursue it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The D check: “Do I have documentation of everything agreed financially — so I have something to point to when the money doesn’t show up on time?” — you performed. You get paid what was agreed. This is completely enforceable.
 
@@ -288,6 +326,8 @@ Here's who this is. The implicit or explicit threat that pushing back on a promo
 
 Picture this. You stopped working with the promoter who wasn't paying you. Two months later you start hearing through the circuit that you're "difficult to work with" and "unreliable." Your booking inquiries from other promoters in that network have slowed. You didn't do anything wrong. But the narrative is already in circulation and you don't know how to counter something you're not supposed to know is being said.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Implicit or explicit threats to your reputation when you exercise independence
@@ -296,6 +336,8 @@ Here are the signs.
 - The person spreading the narrative directly benefits from your compliance
 
 Here's the mechanism underneath it. Reputation threats work because the music and festival circuit is small, relationship-driven, and operates heavily on word of mouth. The goal is to make the cost of pushing back higher than the cost of compliance. It often works. The counter is: document everything before any dispute escalates, build independent relationships across the industry, and proactively communicate your version of events to people who matter to you. Being blacklisted by predatory promoters is often a feature, not a bug.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The D check: “Have I documented the facts of this situation so I have something to point to if my version of events gets challenged later?” — the people worth working with will believe the documentation over the rumor.
 
@@ -316,6 +358,8 @@ Let's talk about who does this. The job itself. Monitors, the pit, load-in, the 
 
 Here's how it plays out. The ringing after a show used to last an hour and now it lasts until the afternoon. You have started asking people to repeat themselves in bars. You mix your own tracks slightly brighter than you used to, which is your ears telling you something you are choosing to hear as a preference.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Tinnitus that persists longer after each run
@@ -326,6 +370,8 @@ Watch for these.
 - The idea that plugs would ruin the experience, which is the belief that costs the most
 
 Here's what's really going on. Noise-induced hearing loss and tinnitus are the defining occupational injuries of this trade, they are cumulative, and they are permanent — there is no treatment that restores what is gone. The specific cruelty for musicians is that the damaged faculty is the instrument: the loss is not merely a disability, it degrades your ability to do the work, and it does so gradually enough that you will adjust to it rather than notice it. Custom moulded musicians' plugs attenuate evenly rather than muffling, which is the objection most people have and the one that is not true.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The D check: “How long does the ringing last now compared with a year ago?” — Write it down. Trend is the measurement that matters.
 
@@ -350,6 +396,8 @@ Here's who you're dealing with. The financial and power dynamics within a band o
 
 Here's the scene. You write most of the songs. You book most of the shows. You handle most of the promotion. The split has always been equal. You never thought to question it — you're a band, you're family. Then a manager offers you a solo project and you realize that without you the band doesn't function, and with the band you're sharing everything you generate equally with people who generate a fraction of what you do.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Contributions to the band's output and income are significantly unequal but compensation isn't
@@ -358,6 +406,8 @@ Here's what to watch for.
 - Creative credit doesn't reflect actual creative contribution
 
 Here's what's actually happening. Band agreements are one of the most neglected legal documents in independent music. Who owns the name? Who owns the masters? What's the songwriting split? What happens when someone leaves? Who controls social media? Without answers in writing, whoever controls the logistics controls the band — and the person who does the most work often has the least formal protection. This isn't just about money. It's about who owns your creative legacy.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The O check: “Do I know what I actually own in this creative partnership — in writing?”
 
@@ -378,6 +428,8 @@ Here's who this is. Your rider is not just technical requirements. It is the doc
 
 Picture this. You've been showing up to gigs and figuring things out on arrival — the recording situation, the merch arrangement, the accommodation, the payment timing. Each thing individually seems manageable to negotiate in person. Collectively, negotiating all of these while you're also trying to prepare for a performance means you're always behind and always slightly at a disadvantage. Your rider is supposed to solve this before you arrive.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - Technical requirements: sound system specs, monitoring, load-in time, soundcheck time
@@ -386,6 +438,8 @@ Here are the signs.
 - Accommodation and hospitality: what's provided, what's not, quality standards
 
 Here's the mechanism underneath it. A comprehensive rider serves two functions: it communicates your professional requirements AND it creates a paper trail of what was agreed. When things don't match the rider at the venue, you have documentation of what was promised. When recording happens without your agreement, you have documentation of what your rights are. The rider is not a diva document — it's a professional standard that protects both parties.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The S check: “Does my rider include recording rights language, payment terms, and all my technical requirements, spelled out in writing?” — the rider is not arrogance. It’s professionalism, and it protects both sides of the booking.
 
@@ -406,6 +460,8 @@ Let's talk about who does this. Organized and specific. People who know what a b
 
 Here's how it plays out. You loaded out at two, drove forty minutes, parked outside the travel lodge like always, and in the morning the side door is open and the van is empty. Instruments, laptops with the stems, merch, the lot. You have a show tomorrow, the insurance certificate is in a folder somewhere, and nobody wrote down a single serial number.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - A packed vehicle left overnight in an unsecured car park
@@ -416,6 +472,8 @@ Watch for these.
 - Predictable routine: same venues, same hotels, same parking
 
 Here's what's really going on. Van theft is a specialist activity aimed at touring musicians precisely because the value density is extraordinary and the routine is predictable. The part most bands get wrong is the insurance: a great many policies exclude theft from an unattended vehicle overnight, which means the cover people believe they have does not apply to the single most likely way they will lose everything. The second thing is documentation — without serials and photographs a claim is slow and a police recovery is effectively impossible even when the gear surfaces.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The D check: “Could I list every serial number and produce a photograph of each item today?” — If not, you do not have a claim, you have a list of regrets.
 
@@ -440,6 +498,8 @@ Here's who you're dealing with. Musicians and touring artists face specific lega
 
 Here's the scene. After the show, in the green room, someone offers you something. You're still running on the set, the green room feels safe and private, and the person seems completely trustworthy — they've been on tour with you for weeks. The substances have been tested this run, you know what you're getting. Two hours later you're in a situation that's more complicated than the green room felt.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Green room transactions feel safer because they're "backstage" — they're not legally safer
@@ -448,6 +508,8 @@ Here's what to watch for.
 - The touring lifestyle normalizes substance use in ways that can gradually erode risk-assessment
 
 Here's what's actually happening. Artists on tour are subject to the same drug laws as everyone else regardless of backstage location. Green room status does not create legal protection. The touring lifestyle creates normalization of substance use that can gradually erode your assessment of what's risky. Know what you're taking (test it), Know your legal exposure, and be aware that the people around you on tour have their own legal exposure to consider — which may or may not align with your interests.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The U check: “Do I understand who is actually in this space and what the legal implications of this transaction actually are?” — backstage is not a legal gray zone just because it feels like one.
 
@@ -468,6 +530,8 @@ Here's who this is. This page is for every musician and touring artist regardles
 
 Picture this. You're coming off a strong set and you're still buzzing. Someone backstage is clearly interested — has been sending signals all night. They're consenting adults, everything feels mutual. Here's what's also true: you just performed to thousands of people, you have a team and access they don't have, you are in your element and they are in yours — and that power differential is real whether you acknowledge it or not.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here are the signs.
 
 - The post-show high and stage power can distort your read of consent signals
@@ -476,6 +540,8 @@ Here are the signs.
 - Fame makes people want to be chosen by you — that want is not the same as uninhibited consent
 
 Here's the mechanism underneath it. The music industry has a long and documented history of artists using stage power and access to override or bypass consent. This is not ancient history — it is ongoing. You don't have to be a predator to contribute to this dynamic. The post-show adrenaline state impairs your judgment. The power you hold in that space is real even when you're not wielding it deliberately. The ask is simple: slow down, check in with words, receive the answer, and respect it completely.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Here's your check. The N check: “'No' from someone in my space is a full sentence. It requires nothing further from me.”
 
@@ -500,6 +566,8 @@ Let's talk about who does this. If you have a stage, you have a microphone. If y
 
 Here's how it plays out. You're two songs into your set and you can feel the energy of the crowd — fully in it, totally open. You have their complete attention. A lot can happen in that crowd tonight. Some of it will be beautiful. Some of it won't be. You have an actual ability to influence which way it goes. The question is whether you choose to use it.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Watch for these.
 
 - Stating consent expectations from the stage normalizes them in the crowd
@@ -508,6 +576,8 @@ Watch for these.
 - Creating moments of grounding and community check-in is part of what great performers do
 
 Here's what's really going on. Artists with stage platforms have a specific ability to shape the culture of a crowd that most people in that crowd don't have. Stating consent expectations, pointing to safety resources, calling out behavior you see — these are not political statements. They are basic community care that is within your power to provide. The artists who do this are often the ones whose shows feel different — where people feel safer to be fully present.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Ask yourself this. The N check: “What does my platform allow me to contribute to the safety of this community right now?”
 
@@ -528,6 +598,8 @@ Here's who you're dealing with. Touring is one of the most mentally demanding su
 
 Here's the scene. You're three weeks into a six-week run. The shows have been incredible. The audiences have been extraordinary. You're also sleeping in different places every two days, eating inconsistently, performing at high emotional output nightly, and haven't had a genuine conversation with someone who isn't on tour with you in three weeks. You feel both full and completely empty. You don't know how to explain that to anyone.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with that scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want the runtime down.
+
 Here's what to watch for.
 
 - Simultaneous emotional fullness from performance and depletion from everything else
@@ -536,6 +608,8 @@ Here's what to watch for.
 - The expectation that "living the dream" means you shouldn't have struggles
 
 Here's what's actually happening. Touring mental health is a serious and underaddressed issue in the music industry. The combination of sleep disruption, dietary inconsistency, emotional performance demands, social isolation, and substance exposure creates conditions that are genuinely hard on mental health — regardless of how much you love the music. Acknowledging this is not weakness. It is professional self-care. The musicians who sustain long careers are the ones who take their mental health as seriously as their technical craft.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the spoken line below to just naming the check instead of reading the full quote if you want the runtime down.
 
 Run the check. The N check: “What does my actual wellbeing need right now — not what does the tour schedule need from me?” — those are two different questions, and only one of them is actually yours to answer.
 

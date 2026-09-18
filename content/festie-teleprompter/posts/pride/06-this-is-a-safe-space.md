@@ -15,6 +15,8 @@
 
 “This one's P.R.I.D.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THIS IS A SAFE SPACE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The assumption that queer-coded spaces, events, 
 
 Here's the scene. The tent has a progress pride flag and the DJ is playing music you know from queer spaces. The crowd feels like your people. You let your guard down more than you normally would at a festival because it feels safer. Later you realize: you were less cautious about who you were talking to, less alert to the dynamics around you, and one of the people you trusted because of the context turned out to be someone who specifically sought out queer spaces because they knew people would be less guarded there.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - You are less alert in a space because it is coded as queer or LGBTQ-friendly
@@ -32,6 +36,8 @@ Watch for these signs.
 - Your guard is down in ways that have more to do with the flag than with actual safety information
 
 Here's what's actually happening. Queer spaces at festivals can be genuinely safer in important ways — more consent-conscious culture, more gender-affirming, more familiar community norms. They can also be specifically targeted by people who know that queer festival-goers will be less guarded in those spaces. A rainbow flag is an aesthetic. Safety is built through behavior, through relationships, through actual community accountability. Verify through those channels — not through the decor.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The D check: “Have I verified that this space is actually safer — or am I assuming based on aesthetics?”
 

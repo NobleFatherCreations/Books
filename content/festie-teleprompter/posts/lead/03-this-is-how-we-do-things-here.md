@@ -15,6 +15,8 @@
 
 “This one's L.E.A.D. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THIS IS HOW WE DO THINGS HERE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Camp culture is built by what you reward, what y
 
 Here's the scene. Your camp has a norm of not talking about what happens in camp outside camp. It started as a way to protect privacy and maintain a sense of internal safety. Over time it has also functioned as a way to prevent accountability — things that happen in camp stay in camp because "that's our culture." Someone who was harmed by a camp member felt they could not report it externally because of this norm. The norm that was meant to protect people is now protecting the person who harmed them.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Privacy norms that function as reporting suppression
@@ -32,6 +36,8 @@ Watch for these signs.
 - Norms that make it harder rather than easier to raise concerns or exit the camp
 
 Here's what's actually happening. Every camp norm was created for a reason and serves a function. The question is whether the function it currently serves is the one it was created for — or whether it has evolved into a protection mechanism for the camp's reputation rather than its people. Privacy norms that prevent reporting, loyalty norms that suppress dissent, contribution norms that extract labor — all of these start somewhere reasonable and can drift somewhere harmful. Examining your norms honestly is camp leadership.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Do my camp’s norms make it easier or harder for members to raise concerns and seek help when something has gone wrong?” — the norms you build in calm times are the ones that show up in the hard ones.
 

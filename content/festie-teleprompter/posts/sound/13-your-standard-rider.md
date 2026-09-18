@@ -15,6 +15,8 @@
 
 “This one's S.O.U.N.D. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOUR STANDARD RIDER”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Your rider is not just technical requirements. I
 
 Here's the scene. You've been showing up to gigs and figuring things out on arrival — the recording situation, the merch arrangement, the accommodation, the payment timing. Each thing individually seems manageable to negotiate in person. Collectively, negotiating all of these while you're also trying to prepare for a performance means you're always behind and always slightly at a disadvantage. Your rider is supposed to solve this before you arrive.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Technical requirements: sound system specs, monitoring, load-in time, soundcheck time
@@ -32,6 +36,8 @@ Watch for these signs.
 - Accommodation and hospitality: what's provided, what's not, quality standards
 
 Here's what's actually happening. A comprehensive rider serves two functions: it communicates your professional requirements AND it creates a paper trail of what was agreed. When things don't match the rider at the venue, you have documentation of what was promised. When recording happens without your agreement, you have documentation of what your rights are. The rider is not a diva document — it's a professional standard that protects both parties.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The S check: “Does my rider include recording rights language, payment terms, and all my technical requirements, spelled out in writing?” — the rider is not arrogance. It’s professionalism, and it protects both sides of the booking.
 

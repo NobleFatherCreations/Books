@@ -15,6 +15,8 @@
 
 “This one's S.A.F.E. — Emergency. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WHEN THE SKY TURNS”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The weather, at a site made of temporary metal structures, canvas, and eighty thousand people with nowhere indoors to go.
 
 Here's the scene. The stage goes dark mid-set and a voice says something you cannot make out over the PA, and the crowd starts to move in a direction, and it is beginning to rain properly. Nobody around you knows whether this is a five-minute pause, a storm hold, or a full evacuation, and the field is already becoming a single large moving mass.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You do not know where your site's shelter or muster points are
 
 Here's what's actually happening. Weather is the likeliest cause of a mass evacuation at an outdoor event and every festival has a plan for it that attendees have almost never read. The two lethal versions are lightning — a field of temporary metal structures with no substantial buildings is close to the worst possible place — and the crowd movement that an evacuation itself produces, which is where the injuries actually happen. Heat is the slower one and it kills more people than storms do, usually through people who have been dancing in sun for hours without shade or salt.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The F check: “Do I know where my shelter is and where my camp's muster point is?” — Find both on Thursday, because there is no time to find them on Saturday.
 

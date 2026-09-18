@@ -15,6 +15,8 @@
 
 “This one's S.O.U.N.D. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “ROAD ISOLATION”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Touring creates a specific kind of isolation —
 
 Here's the scene. You're four weeks into a run and you haven't had a real conversation with anyone from home in two weeks. The tour manager controls the schedule, the transport, the accommodation, and by extension a lot of how your days feel. The sound engineer has been making comments about your decisions. Your bandmate has a habit that's starting to affect the shows and nobody will address it. You feel completely dependent on the very people who are causing friction.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Your home support network feels increasingly remote and unreachable
@@ -32,6 +36,8 @@ Watch for these signs.
 - You're too exhausted and too far from home to push back on anything
 
 Here's what's actually happening. Road isolation is structural — touring literally removes you from your support network and puts you in a temporary closed system where the people with you have enormous power over your daily experience. This is not inherently predatory but it creates conditions that are easily exploited. Maintaining active connection to your home network, having at least one person on tour who is genuinely in your corner, and preserving your own decision-making authority are the protections.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The U check: “When did I last have a real conversation with someone who knew me before the music?”
 

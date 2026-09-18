@@ -15,6 +15,8 @@
 
 “This one's R.A.V.E. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “BUYING AND SELLING AT YOUR FIRST FEST”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Transactions at festivals — tickets, substance
 
 Here's the scene. He's got full kandi, wristbands up both arms, knows the lineup, vibing completely. He finds you and asks if you're looking for anything. He seems like just another attendee. He has the energy of someone who belongs here completely. Something about the sequence of the conversation — the way he guides it, the specificity of his questions — feels slightly scripted. You can't articulate why. But something is off.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - They approach YOU rather than you finding them through organic conversation
@@ -32,6 +36,8 @@ Watch for these signs.
 - Something about the interaction feels slightly rehearsed — you can't put your finger on it
 
 Here's what's actually happening. Undercover officers at festivals are specifically trained to blend in and they're often very good at it. The tells are in the transaction pattern itself: they initiate, they guide toward isolation, they want specificity about quantities, they push pace. You are never obligated to complete any transaction. "Actually I'm good" ends it without incident. Never follow anyone to an isolated location for any reason.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Am I proceeding with this because I actually want to — or because saying no feels awkward?”
 

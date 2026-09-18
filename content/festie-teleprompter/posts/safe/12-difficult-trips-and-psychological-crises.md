@@ -15,6 +15,8 @@
 
 “This one's S.A.F.E. — Mental Health. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “DIFFICULT TRIPS AND PSYCHOLOGICAL CRISES”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Difficult psychological experiences at festivals
 
 Here's the scene. Your friend took something three hours ago and for the first two hours he was having the time of his life. Now something has shifted. He is very frightened — he cannot articulate why exactly but everything feels threatening. He is trying to leave the area but you are not sure where he wants to go or if he should be alone right now. He is not in physical danger but he is clearly in real psychological distress and getting more so.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Intense fear or panic without a clear external cause
@@ -32,6 +36,8 @@ Watch for these signs.
 - Physical symptoms accompanying the psychological distress: rapid breathing, shaking, sweating
 
 Here's what's actually happening. Difficult psychedelic or substance-induced experiences are almost always temporary and almost always respond well to calm, quiet, grounded support. The worst things you can do: try to talk them out of their experience, argue with them about what is real, leave them alone, or take them to a loud and stimulating environment. The Zendo Project specializes specifically in difficult psychedelic experience support and has trained staff at many major festivals. Get them there if available.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The F check: “Do I know where the Zendo or Harm Reduction tent is — and can I get us both there calmly, without rushing them?” — a calm presence is the most powerful intervention there is, and you already have it.
 

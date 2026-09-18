@@ -15,6 +15,8 @@
 
 “This one's B.U.I.L.D. — Community. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/build/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE CREW THAT ACTUALLY HOLDS”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The real thing is unglamorous and specific: people who tell each other their rates, who cover a shift without a ledger, who stop the job when somebody is unfit, and who back the newest person over the most senior one when the newest person is right.
 
 Here's the scene. Two crews. On the first, a lad two days in says he is not comfortable going up in that wind, and the lead says fine, get the ground kit, and nothing else is ever said about it. On the second, the same sentence produces a silence, and then a joke, and then somebody else goes up instead — and everybody learns what happens if you say it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/build/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Extractive: everyone has been shorted and nobody has compared figures
 
 Here's what's actually happening. Build crews produce some of the most genuine solidarity in this scene — shared hardship, real skill, work that would be impossible alone — and that is exactly why the extractive version is so effective, because it is wearing the same clothes. The difference is not warmth, both have warmth. The difference is what the group does when somebody's interests conflict with the schedule: a real crew absorbs the cost, an extractive one transfers it to the person with the least standing. Watch one refusal and one complaint and you will know which one you are on, usually within the first week.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/build/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The U check: “What happened the last time somebody here said no to a task?” — That answer is the crew's actual culture, whatever the culture says about itself.
 

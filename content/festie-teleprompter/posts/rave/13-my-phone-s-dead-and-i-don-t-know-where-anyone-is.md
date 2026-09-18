@@ -15,6 +15,8 @@
 
 “This one's R.A.V.E. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “MY PHONE'S DEAD AND I DON'T KNOW WHERE ANYONE IS”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Not a person — the standard second evening of a first festival. Eighty thousand people, no signal, four percent battery, a camp that all looks the same, and the growing realization that you do not actually know where you are.
 
 Here's the scene. You got separated at the changeover. Your phone died twenty minutes ago. You cannot remember whether the camp is left or right of the big flag, all the flags look the same in the dark, and you have just discovered that you do not know a single person's phone number by heart because you have never needed to.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You have been drinking, it is dark, and you are now alone
 
 Here's what's actually happening. This is the single most common bad night at a first festival, and it is entirely preventable with about four minutes of Thursday planning. It matters beyond inconvenience because it produces exactly the state every predatory pattern in this guide needs: a visibly lost, overwhelmed, slightly drunk newcomer with no way to contact anyone, wandering a dark site. The help that arrives is usually genuine. The point is not to need to rely on whoever it happens to be.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The V check: “If my phone died right now, could I get back to my camp and reach my people?” — That is a Thursday question with a Thursday answer.
 

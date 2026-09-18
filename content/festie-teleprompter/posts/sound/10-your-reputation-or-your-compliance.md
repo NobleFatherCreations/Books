@@ -15,6 +15,8 @@
 
 “This one's S.O.U.N.D. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOUR REPUTATION OR YOUR COMPLIANCE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The implicit or explicit threat that pushing bac
 
 Here's the scene. You stopped working with the promoter who wasn't paying you. Two months later you start hearing through the circuit that you're "difficult to work with" and "unreliable." Your booking inquiries from other promoters in that network have slowed. You didn't do anything wrong. But the narrative is already in circulation and you don't know how to counter something you're not supposed to know is being said.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Implicit or explicit threats to your reputation when you exercise independence
@@ -32,6 +36,8 @@ Watch for these signs.
 - The person spreading the narrative directly benefits from your compliance
 
 Here's what's actually happening. Reputation threats work because the music and festival circuit is small, relationship-driven, and operates heavily on word of mouth. The goal is to make the cost of pushing back higher than the cost of compliance. It often works. The counter is: document everything before any dispute escalates, build independent relationships across the industry, and proactively communicate your version of events to people who matter to you. Being blacklisted by predatory promoters is often a feature, not a bug.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sound/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The D check: “Have I documented the facts of this situation so I have something to point to if my version of events gets challenged later?” — the people worth working with will believe the documentation over the rumor.
 

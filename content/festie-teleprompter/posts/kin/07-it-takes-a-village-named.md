@@ -15,6 +15,8 @@
 
 “This one's K.I.N. — Community. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “IT TAKES A VILLAGE, NAMED”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The family field at its best, which is genuinely one of the great things this culture has built — kids running semi-feral in the safest possible way, raised for a weekend by twenty adults who all know them.
 
 Here's the scene. The real version is unmistakable once you have seen it. Adults who know which kid belongs to whom. Somebody bringing your child back with a comment about the face paint. A camp where the rota is on the whiteboard and nobody thinks that is uptight. Kids who can name four adults they are allowed to go to, because somebody sat down and taught them the four.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Assumed: raising a safeguarding point would make you the awkward one
 
 Here's what's actually happening. The village is real and it works, and it works because of structure rather than in spite of it. The camps where children are genuinely safest are the ones that look, from outside, slightly over-organized: whiteboard, rota, named on-duty adult, an out-loud rule about one-on-one. That structure is what lets the freedom be real — kids roaming the family field all weekend, which is the thing you came for. The unstructured version produces the opposite: adults who feel responsible in general and therefore nobody responsible in particular, and a culture where the person who suggests a rota is the problem.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The K check: “Can every adult here name tonight's on-duty person, and can every kid name four adults they can go to?” — Two questions, asked on Thursday.
 

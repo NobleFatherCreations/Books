@@ -15,6 +15,8 @@
 
 “This one's S.O.B.E.R. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “I MADE YOU ONE”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Anyone holding a cup you did not watch being filled. Usually a friend being kind. Occasionally not — and the second category is why the rule has to apply to the first, because you cannot tell them apart by looking.
 
 Here's the scene. Someone hands you a lemonade. They are being nice, they know you do not drink, they went and got it specially. Refusing it feels ungrateful and slightly insulting and like you are accusing a friend of something. It also costs nothing, and the alternative — a drink you cannot vouch for, in a body with no tolerance, in front of people who will later say you seemed fine — costs a great deal.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Any drink left unattended, including yours, including for a minute
 
 Here's what's actually happening. The most common drink adulterant is alcohol added to something someone believes is soft, which matters enormously here: for a sober or in-recovery person that is not a lesser version of spiking, it is the specific harm. Zero tolerance means a small dose lands hard, and the aftermath is not only physical — it can register internally as a relapse, with all the shame that carries, even though nothing about it was chosen. The rule is the same one this whole book gives everyone: you pour it, you watch it poured, or you carry it sealed. The difference is that for you the failure mode includes losing your sense of your own recovery.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/sober/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The O check: “Did I watch this being made, or open it myself?” — If not, it is not a drink, it is an unknown.
 

@@ -15,6 +15,8 @@
 
 “This one's F.L.O.W. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “I'LL TEACH YOU THE REAL STUFF”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Genuinely good, visibly senior, and the reason half this circle can do what they do. Teaches selectively. Makes it clear that being taught is a thing you are chosen for, and that the choosing is ongoing.
 
 Here's the scene. He has been doing this for fifteen years and the thing he does with a staff is the reason you started. He offers to work with you properly — not in the jam, at his camp, after, when it's quiet and there's space. The first session is the best hour of instruction you have ever had. The second session he corrects your stance with his hands and holds the correction slightly longer than the correction needs.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - The lesson quality is real, which is what makes leaving expensive
 
 Here's what's actually happening. Skill is the currency in this scene and a person who controls access to it controls a great deal. The mechanism is the same as every other access trap in this book, but it has an unusual protection: the teaching is genuinely valuable, so the cost of walking away is real and everybody can see it. That asymmetry is what gets exploited. It is also why the correction-by-touch escalation works — in a discipline where hands-on adjustment is legitimate and constant, the line between instruction and testing is exactly where a person can operate while retaining deniability, and where you will second-guess yourself for weeks.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/flow/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The O check: “Would this lesson be identical if it happened at 2pm in the open jam?” — If the answer is no, the privacy is doing something the teaching does not need.
 

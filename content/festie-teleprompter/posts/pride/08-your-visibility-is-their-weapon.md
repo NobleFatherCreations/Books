@@ -15,6 +15,8 @@
 
 “This one's P.R.I.D.E. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOUR VISIBILITY IS THEIR WEAPON”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The use of your gender expression, your visible 
 
 Here's the scene. "You were being so flirty and open all night — I thought you were into it." The argument is that your gender expression, your dancing, your presence in a queer space, or your openness earlier in the night means something about your consent to what happened. It does not. Your expression and your consent are entirely separate. Your visibility was not an invitation.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Your gender expression or visible queerness invoked as evidence of consent
@@ -32,6 +36,8 @@ Watch for these signs.
 - Your earlier behavior in the night used to argue that later limits should not apply
 
 Here's what's actually happening. Expression is not consent. Presence in a space is not consent. Dancing is not consent. Being visibly queer is not consent. Being in a sex-positive or queer-coded space is not consent. Consent is a specific, ongoing, informed, freely given yes to a specific thing. Nothing about your expression, your identity, your presence, or your earlier behavior removes the requirement for that yes. Anyone who argues otherwise is not describing the culture — they are manipulating it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/pride/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The P check: “My presence and expression are mine. They do not communicate consent for anything less than what I explicitly say yes to.” — presence is not permission. Only yes means yes.
 

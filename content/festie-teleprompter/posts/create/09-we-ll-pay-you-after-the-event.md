@@ -15,6 +15,8 @@
 
 “This one's C.R.E.A.T.E. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WE'LL PAY YOU AFTER THE EVENT”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Getting paid what you were promised, on the time
 
 Here's the scene. "The accounting is still getting sorted — payment will be in your account by end of month." End of month: "we had some unexpected costs, we're going to need to adjust the final payment." Or: you delivered the commission, the client went quiet, three weeks later you're following up for the third time. Or: the event was three months ago and the check that was "in the mail" has never arrived.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Payment delayed past agreed date without prior communication
@@ -32,6 +36,8 @@ Watch for these signs.
 - Each follow-up produces a new reason and a new timeline
 
 Here's what's actually happening. Cash flow manipulation is a feature, not a bug, of predatory event economics. Your leverage decreases dramatically once you've delivered the work — which is why deposits exist. Get 50% before you start. Invoice immediately on delivery. Send written payment requests with your contract attached. Paper trail everything. Most non-payers rely on artists being too tired, too embarrassed, or too non-confrontational to pursue it. Pursue it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The C check: “Do I have a signed agreement with payment terms — so I have something to enforce?”
 

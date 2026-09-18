@@ -15,6 +15,8 @@
 
 “This one's R.A.V.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE OVERWHELM WINDOW”
@@ -24,6 +26,8 @@ Here's who you're dealing with. First-time festival attendees experience overwhe
 
 Here's the scene. It's 3am Saturday and you're exhausted, slightly lost, slightly overwhelmed, and running on whatever you took six hours ago. Your friends are somewhere. Your phone is at 12%. Everything is loud and bright and moving and you feel suddenly very small. This is the window. This is when someone who's been watching for you will appear. And they will seem like exactly what you need.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - You're at peak overwhelm, exhaustion, or disorientation when they appear
@@ -32,6 +36,8 @@ Watch for these signs.
 - The "help" requires proximity to them rather than returning you to your group
 
 Here's what's actually happening. The overwhelm window is predictable and exploitable. Knowing when it's likely to hit — Day 1 arrival chaos, late Saturday night, Sunday morning crash — lets you build support into those specific moments rather than being surprised by them. Your most vulnerable moments don't have to be your least protected ones. That's what pre-planning your support infrastructure is for.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Am I making decisions right now with the same judgment I’d have at 2pm on a Tuesday?” — if not, this isn’t the moment to decide anything.
 

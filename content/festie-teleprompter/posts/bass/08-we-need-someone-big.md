@@ -15,6 +15,8 @@
 
 “This one's B.A.S.S. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WE NEED SOMEONE BIG”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The camp lead, the promoter, or the guy with the arrangement, who has looked at you and seen an asset rather than a person. Flattering about it. Specific about what he needs and vague about what it involves.
 
 Here's the scene. He says you have a presence, that people listen to you, that he needs someone who can stand at the gate of the camp and turn people away. Then it is someone to have a word with a bloke who has been a problem. Then it is someone to come along to a conversation at the far end of the site, and you are eleven minutes into a walk before you have properly asked what this conversation is.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Nobody has mentioned who is liable if somebody gets hurt
 
 Here's what's actually happening. Untrained physical intervention is the fastest route to a criminal charge at a festival, and men get recruited into it constantly because presence reads as competence. The person asking transfers every risk to you — legal, physical and reputational — while keeping the authority and the benefit. Real security is trained, licensed, insured and radio-connected for exactly these reasons. Being big is not a qualification, it is an appearance, and it is the thing that makes you the most useful available person to put between someone else and a problem.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/bass/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “What exactly am I being asked to do, and who is responsible if it goes wrong?” — If either answer is fuzzy, that fuzziness is the arrangement.
 

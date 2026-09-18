@@ -15,6 +15,8 @@
 
 “This one's C.A.R.E. — Control. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOU SHOULD HAVE CAUGHT THAT”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Harm Reduction volunteers are sometimes held res
 
 Here's the scene. A participant had a serious adverse event during your shift. You responded as well as you could with the training and resources you had. Afterward the organizational debrief focuses almost entirely on your response rather than the systemic conditions: the understaffing that left you alone with a participant who needed two-person support, the training gap that meant you were not prepared for this specific situation, the protocol that was unclear. You are the person who was there. You are becoming the story.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/care/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Post-incident debrief focuses on your actions rather than the systemic conditions you were placed in
@@ -32,6 +36,8 @@ Watch for these signs.
 - The framing has shifted from "what happened" to "what did you do" in ways that assign blame downward
 
 Here's what's actually happening. Front-line Harm Reduction volunteers are the easiest people to blame for systemic failures because they were physically present when things went wrong. Organizations that do not want to examine their structural failures direct accountability toward the people least able to defend themselves. You are not required to accept responsibility for conditions you did not create. Document your own account of events immediately after any incident. Do not sign anything without reading it carefully against your own record.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/care/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Have I documented my own account of events immediately — before organizational framing has a chance to reshape it?” — you’re responsible for your actions, not for the systemic conditions you were placed in.
 

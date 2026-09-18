@@ -15,6 +15,8 @@
 
 “This one's M.A.R.K.E.T. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE WIND TOOK THE GAZEBO”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. The forecast, and a pitch fee that bought you a square of grass and no guarantees whatsoever.
 
 Here's the scene. It went at four in the morning. The frame is in three pieces, half the stock is in a puddle, the rest blew toward the fence, and the event is running as normal at ten. Nobody is going to reimburse you, your pitch fee is not coming back, and you have just discovered that your policy covers theft but not weather.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - Everything you own on the circuit is in this one gazebo
 
 Here's what's actually happening. Vendors carry all the risk at an outdoor event and almost none of the protection. Pitch fees are near-universally non-refundable, organizers rarely take liability for weather, and the standard trader policy people buy often excludes exactly the two things most likely to happen in a field — storm damage and loss from an unattended stall overnight. The result is a business that can lose a season's stock in one night with no route to recovery, sitting next to an event that continues around it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The R check: “If my stall was destroyed tonight, what would I actually recover?” — Read the policy now, not at four in the morning.
 

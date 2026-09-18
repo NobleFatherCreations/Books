@@ -15,6 +15,8 @@
 
 “This one's K.I.N. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THEY'RE FIFTEEN, NOT FIVE”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. Your fourteen-to-seventeen-year-old, who is too old for the kids' field, too young for everything else, and now navigating a site full of adults, substances and sexual attention with a child's experience and an adult's height.
 
 Here's the scene. They want to go and watch a band with the two kids from the next camp and be back later, and that is a completely reasonable thing for a fifteen-year-old to want. It is also a fifteen-year-old, at night, in a crowd of adults, where nobody checks anybody's age for anything, and where a nineteen-year-old and a twenty-six-year-old will both read them as older than they are.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You have not said the one sentence that makes telling you possible
 
 Here's what's actually happening. A teenager needs a different regime from both a child and an adult — real independence, because refusing it produces a teenager who lies, and real structure, because the environment contains things they have no experience of. The single highest-value item is not a rule, it is a disclosure guarantee. Adolescents decide whether to tell a parent about a bad situation almost entirely on their prediction of the reaction, so a teenager who believes they will be punished for being where they were will handle it alone, at night, at a festival. That is the outcome to prevent.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/kin/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The K check: “Do they have a check-in time, a meeting point, and a promise from me that ringing costs them nothing?” — Three things, agreed before they go anywhere.
 

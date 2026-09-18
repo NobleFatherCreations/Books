@@ -15,6 +15,8 @@
 
 “This one's H.O.M.E. — Capture. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/home/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “WHAT YOU READ ABOUT THESE PLACES”
@@ -23,6 +25,8 @@
 Here's who you're dealing with. You, at eleven at night, four articles deep, having typed a question into a search bar that only ever returns the worst weekend anybody ever had anywhere.
 
 Here's the scene. You have read about the deaths. You have read the thread. You have a picture in your head assembled entirely from the events that were unusual enough to be written about, and you are about to have a conversation with somebody you love, using that picture as your evidence, and you cannot understand why they are getting defensive.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/home/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
 
 Watch for these signs.
 
@@ -34,6 +38,8 @@ Watch for these signs.
 - You know less about this trip than you did about the last one
 
 Here's what's actually happening. News coverage selects for the rare and the terrible — that is what makes something news — so an hour of searching builds a picture in which the exception is the rule. The person you are talking to has been to four of these and had four ordinary, joyful weekends, so when you describe a place they do not recognize, the thing they learn is not that festivals are dangerous. It is that you do not know what you are talking about, and that everything else you say on the subject can be discounted. That is the actual cost, and it is not abstract: it is why they will not ring you.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/home/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The M check: “Does what I am about to say match what they will actually see this weekend?” — If not, you are spending credibility you will need later.
 

@@ -15,6 +15,8 @@
 
 “This one's M.A.R.K.E.T. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “YOUR VENDOR TOOLKIT”
@@ -24,6 +26,8 @@ Here's who you're dealing with. This is the reference page. The documents, resou
 
 Here's the scene. The vendors who have long and sustainable careers on the festival circuit are not the ones who never get taken advantage of. They are the ones who built the infrastructure early, put things in writing consistently, and stopped apologizing for having professional standards inside a culture that frames everything as love and vibes. You can love this community AND operate professionally within it. These are not opposites.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/market/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Standard vendor agreement — one page, covers placement, fees, refund policy, and exclusivity
@@ -32,6 +36,8 @@ Watch for these signs.
 - Process documentation library — timestamped photos and videos of your making process
 
 Here's what's actually happening. Professional infrastructure is not about distrust — it is about making every relationship honest from the start. Vendors with clear written terms attract the promoters and buyers who are comfortable with clear written terms, which turns out to be exactly the promoters and buyers you want to work with. The ones who resist paperwork are showing you their payment intentions. Let paperwork be the filter. It saves enormous amounts of time and energy.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/market/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The R check: “Do I have the documents I need to protect myself before I need them — not after?”
 

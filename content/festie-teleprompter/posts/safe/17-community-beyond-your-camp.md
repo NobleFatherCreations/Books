@@ -15,6 +15,8 @@
 
 “This one's S.A.F.E. — Community Care. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “COMMUNITY BEYOND YOUR CAMP”
@@ -24,6 +26,8 @@ Here's who you're dealing with. The festival community is only as safe as what e
 
 Here's the scene. You are at the water station and a woman comes up alone and asks if you can spare a phone charger for ten minutes. She says she got separated from her group and cannot reach anyone. She seems okay but uncertain. You have a portable charger. The ten minutes it takes to help her reconnect with her group might be the ten minutes that means her story has a good ending. This is what community care actually looks like — not grand gestures, small ones.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Share your phone charger freely — a charged phone is safety infrastructure for everyone
@@ -32,6 +36,8 @@ Watch for these signs.
 - If you are leaving a set and see someone alone at the edge who looks uncomfortable — the distraction approach works on strangers too
 
 Here's what's actually happening. Community safety at festivals is not the responsibility of staff and Rangers alone — it is a distributed responsibility across every person there. The small acts of community care — sharing a charger, asking if someone is okay, walking someone to the Harm Reduction tent, using the distraction approach for a stranger in a difficult situation — these are what make the difference between a festival where harm happens and goes unaddressed and one where the community catches things before they escalate.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/safe/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The E check: “Am I extending care beyond my own group — or only looking out for the people I know?”
 

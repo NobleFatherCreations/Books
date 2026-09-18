@@ -15,6 +15,8 @@
 
 “This one's C.R.E.A.T.E. — Tools. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “DIGITAL PROTECTION FOR ARTISTS”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Your digital presence as an artist at festivals 
 
 Here's the scene. Someone has been using your work without credit for three months. You've found it on their Etsy, their promotional materials, their social media. You've found your face — from a photo someone else took at a festival — being used in a "free creative" stock image collection. You've received DMs from a man who clearly knows your festival schedule, your booth location, and details about your process that feel like surveillance. Each thing is individually manageable. Together they paint a picture.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/create/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Your work appearing online without credit or permission in commercial contexts
@@ -32,6 +36,8 @@ Watch for these signs.
 - DMs that reference specific details about your process or whereabouts that weren't publicly shared
 
 Here's what's actually happening. Digital exploitation of artists operates on multiple simultaneous tracks: IP theft (your work), image rights violations (your likeness), and stalking behavior (your location and schedule). Each track requires different tools. All of them require documentation. Screenshot everything that might be relevant before you report it — platforms remove content on reports and you lose your evidence if you don't capture it first.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/create/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Have I documented this situation before reporting it — do I have screenshots and dates?”
 

@@ -15,6 +15,8 @@
 
 “This one's L.E.A.D. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “HOUSING AS LEVERAGE”
@@ -24,6 +26,8 @@ Here's who you're dealing with. Camp leads who provide housing, infrastructure, 
 
 Here's the scene. You provided accommodation and festival access to six members of your camp. You did this generously and genuinely. You also notice that the members whose accommodation you control raise concerns less often, agree with your decisions more consistently, and seem to navigate their interactions with you more carefully than others. You have not used housing as leverage explicitly. But the dynamic it creates is real regardless of your intentions.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Members whose accommodation or access you control behave differently from those who are independent
@@ -32,6 +36,8 @@ Watch for these signs.
 - Your decisions as a camp lead are harder to push back on when members depend on you for basics
 
 Here's what's actually happening. Resource control creates leverage regardless of intent. When members depend on you for housing, festival access, or other basics, the power differential is real even if you never use it deliberately. People who need something from you will navigate that need carefully — which means raising concerns carefully, agreeing more often than they might otherwise, and staying in situations they might leave if they were independent. Acknowledging this dynamic is the beginning of mitigating it.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/lead/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Do the members who depend most on what I provide feel the most or least free to push back on me when something’s wrong?” — generosity that creates dependency isn’t generosity. It’s leverage that happens to be warm.
 

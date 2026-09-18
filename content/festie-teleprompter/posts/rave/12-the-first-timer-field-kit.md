@@ -15,6 +15,8 @@
 
 “This one's R.A.V.E. — Condition. Here's the scenario.”
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/cover.png`]** — video open — type this scenario's title into the blank bottom third before recording, then cut or fade from it into the scene.
+
 ---
 
 # “THE FIRST-TIMER FIELD KIT”
@@ -24,6 +26,8 @@ Here's who you're dealing with. This is the page that should have been in your t
 
 Here's the scene. The best festie veterans you'll meet this weekend have one thing in common: they've thought through what happens when things go sideways. Not because they expect the worst — because having a plan for the worst means you can fully relax into the best. Infrastructure isn't the opposite of magic. It's what makes the magic safe to fully inhabit.
 
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/tells-card.png`]** — hold this on screen with this scenario's tells typed in; you can shorten the next line to "Here's what to watch for" instead of narrating every tell if you want this under 3 minutes.
+
 Watch for these signs.
 
 - Fentanyl strips + reagent kit in your bag before you arrive — non-negotiable
@@ -32,6 +36,8 @@ Watch for these signs.
 - Code word established with your group: one text = come find me, no questions asked
 
 Here's what's actually happening. First festivals are overwhelming by design — enormous, multi-sensory, socially rich. That overwhelm is part of the magic. It's also what makes you most vulnerable to people who know how to exploit it. Every piece of infrastructure you build before you arrive is one less thing someone can use as leverage over you. Charged phone, known camp location, tested substances, trusted contacts: these are not the opposite of freedom. They are freedom.
+
+> 🖼️ **[INSERT IMAGE HERE: `images/rave/check-card.png`]** — hold this on screen with the check question and letter typed in; you can shorten the line below to just naming the check instead of reading the full quote if you want this under 3 minutes.
 
 Run the check. The A check: “Before I take anything: do I know what it is, have I tested it, and does someone sober know?”
 
