@@ -3887,3 +3887,49 @@ markers / a title-card image set to match.
 Re-run `python3 scripts/wook-teleprompter-build.py` (optionally with one
 or more chapter numbers) any time the live book changes.
 
+## Update (2026-09-18, later still) — Wook: split the 33 chapter scripts
+into 395 individually-postable files, no images (by request)
+
+Follow-up to the same-day round above. User confirmed: no images this
+round, just split the existing per-chapter teleprompter breakdown into
+individually-postable files, same relationship as the Festie Bible's
+270 posts to its 21 combined guide scripts.
+
+**New: `scripts/wook-teleprompter-scenes-build.py`.** Imports
+`wook-teleprompter-build.py` directly via `importlib.util` (the filename
+has hyphens, not a valid module name) and reuses its HTML parsing rather
+than re-implementing it, so both stay in sync with one parser. Walks the
+same module sequence `chapter_doc()` already builds (cold open, setup, one
+per Track, mirror+discog, tales, fanny pack, soundcheck, closer) but emits
+each as its own file instead of concatenating into one chapter doc.
+
+395 files (matches the 395-video total from the combined round) written
+to `content/wook-teleprompter/posts/<NN>-<chapter-slug>/<NN>-<section-
+slug>.md`, each with a VIDEO INTRO block (chapter, section name, position
+in chapter, suggested on-screen text, a spoken intro line) ahead of the
+section's own text and a closing shoutout to the book's URL — same shape
+as the Festie Bible's individual posts. `01-POSTS-INDEX.md` is the
+manifest.
+
+Two real bugs caught before shipping: (1) a Track section's file
+duplicated its own heading (the combined script's `## VIDEO N — Title`
+plus `track_script()`'s own `### TRACK NN — Title` right under it) --
+fixed by skipping the added heading when the body already opens with one;
+(2) Python's `str.title()` mangles a contraction after an apostrophe
+(`IT'S NOT DRAMA, IT'S WARFARE` → `It'S Not Drama, It'S Warfare`) in the
+spoken intro line -- the Festie Bible builders already carry a fix for
+this (`CONTRACTION_RE` + `titlecase()`), but that fix's regex used a
+straight apostrophe while this book's titles use a curly one (`’`,
+from `&rsquo;`), so copying it verbatim silently didn't match anything;
+fixed by matching both quote characters.
+
+Verified after generation: swept all 395 files for leftover HTML tags,
+curly-quote mismatches, undecoded entities, and un-fixed contractions —
+the only matches were legitimate (chapter titles and Track names that are
+genuinely all-caps with a real possessive, shown verbatim in metadata
+headers, e.g. "THE CAMP LEAD'S BURDEN" and "THE TAPER'S REVEAL" — false
+positives from the sweep's own regex, not defects).
+
+Re-run `python3 scripts/wook-teleprompter-scenes-build.py` any time after
+re-running `wook-teleprompter-build.py`, so the two stay consistent.
+

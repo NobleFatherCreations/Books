@@ -111,11 +111,14 @@ files. Re-run `python3 scripts/wook-teleprompter-build.py` (or pass one or
 more chapter numbers, e.g. `... 12 13`, to rebuild just those) any time the
 live book changes, so these stay in sync with what's actually shipped.
 
-## Natural next step, not done yet
+## Also available: one file per video
 
-This round produces one file per chapter, sectioned into videos — the
-"give me a teleprompter MD... for each chapter" ask. It does **not** yet
-split every Track/Tales/etc. into its own individually-postable file the
-way the Festie Bible's 270 posts work, or add `[INSERT IMAGE HERE]`
-markers, or a title-card image set. Both are straightforward follow-ups
-using the same pipeline this used, if/when wanted.
+`scripts/wook-teleprompter-scenes-build.py` splits every chapter's videos
+further, into `content/wook-teleprompter/posts/<chapter>/`, one file per
+module (the cold open, the setup, each Track, etc.) — 395 files total, the
+same Festie-Bible-posts treatment applied to Wook. Nothing new is written;
+it's the same content as the 33 combined files, separated so each video
+can be opened, filmed, and posted on its own without scrolling a whole
+chapter. No images, no `[INSERT IMAGE HERE]` markers, by request — text
+only. `01-POSTS-INDEX.md` is the manifest for that set. Re-run it any time
+after `wook-teleprompter-build.py` so the two stay in sync.
