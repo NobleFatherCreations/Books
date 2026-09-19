@@ -232,8 +232,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v13",
+      "version": "v13.5",
       "changelog": [
+        {
+          "date": "2026-09-19",
+          "version": "v13.5",
+          "summary": "Voice/naming pass, part 1 of a larger realignment still in progress (see content/wook-audits/wook-voice-realignment-2026-09-19.md). Retired the three banned Wook Discog tier descriptors ('The Baby Wook learning the moves' / 'The Seasoned Operator' / 'The Institutional Scaled-Up Version'), which had survived under the correctly-renamed tier labels in all 32 chapters that carry a Discog -- replaced with 96 chapter-specific descriptor lines (scripts/wook-discog-descriptors.py). Renamed eight Track names introduced by the seven-chapter expansion that scored zero scene-nouns and zero quoted-dialogue constructions against the original book's register: The Off-Season Problem -> The November Cliff, The Promotion That Isn't -> The Lanyard Raise, The Wellness-Threat Sort -> The Two Tents, The Credibility Gap -> The Default Story, The Pre-Loaded Tax -> The Invisible Shift, The Unverifiable Lineage -> The Borrowed Grandmother, The Persistence Frame -> The Devotion Cover, The Porous Scene -> The Open Phonebook (scripts/wook-track-renames-2026-09-19.py). Resolved four counter-drop names that were shared by two different chapters (The Clean Plate Protocol, The Temperature Check, The Plain English Translation, The Pattern Map each had a duplicate) by renaming one side of each. Renamed ch9's Track from The Gift-Framework Grift to The Unpaid Headliner ('Framework' is banned in Track names). Built scripts/wook-xref-audit.py, which found the seven-chapter expansion's renumber pass never touched the parenthesised chapter tags in Appendix F's counter-drop master list: three carried pre-expansion chapter numbers and one named a counter-drop that does not exist -- all repaired, and the four newly-renamed counter-drops added to the list in alphabetical position. Stripped two scene-slang leaks from Sunrise Sets, which are specified as plain, zero-slang register. Continuity checker holds at 0 errors across all 33 chapters; cross-reference audit clean. Remaining work from this same round, not yet in this version: new Tracks for the three chapters that carry none (20, 27, 31), and a rebuild of Chapter 32's confession list."
+        },
         {
           "date": "2026-09-16",
           "version": "v13",
