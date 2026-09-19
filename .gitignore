@@ -21,3 +21,4 @@ scripts/covers/_work/
 # verify-*.mjs runs. Same reasoning as scripts/covers/_work/ above: an
 # intermediate, never a deliverable.
 /_work/
+festie-bible-teleprompter-scripts.zip
