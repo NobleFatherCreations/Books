@@ -4016,3 +4016,62 @@ repo untouched.
 
 Re-run `python3 scripts/festie-narrated-build.py` (optionally with one or
 more guide slugs) any time `festie-bible-data.json` changes.
+
+## Update (2026-09-19, later) — Festie Bible: the generated narration was
+rejected and the whole series was hand-written instead
+
+**The rejection, verbatim, because it's the important part:** after the
+`festie-narrated-build.py` output above shipped, the user came back with
+*"So the goal was to make the scenarios worded in complete sentences -
+spoken fluidly... All I see are similar Fragmented sentences. Please output
+all intros, scenarios, and outros into one MD per category. Go through each
+one and make them written as I would speak them to someone or to the camera.
+It's ok to change them or add words for this - the scenarios will be the
+same - just presented and spoken better for the videos."*
+
+Then, on the second pass: *"feel free to add in a comedic line or
+description that will make people laugh or call out the behavior - try and
+add one per scenario please... output the full md files per category
+including the intro and outro episodes - and the series itself intro and
+outro and just zip it to me when fully done."*
+
+**The lesson worth keeping:** a deterministic lead-in rotation ("So here's
+what to watch for," "Now here's the mechanism") applied across 270 scenarios
+reads as a template no matter how good the individual sentences are. The
+rhythm itself is the tell. Generation could not produce what was wanted
+here; it had to be written. Don't re-attempt this with a script.
+
+**What replaced it.** `content/festie-teleprompter-narrated/` was deleted
+(`git rm -r`) and `content/festie-scripts/` is the deliverable:
+
+- **One MD per guide, 21 files** — each containing that guide's INTRO
+  EPISODE, every scenario in order, and its CLOSING EPISODE.
+- **`00-SERIES-INTRO.md`** (re-sited from the deleted tree, reformatted to
+  match) and **`00-SERIES-OUTRO.md`** (new this round).
+- **`00-README.md`** — runtimes per file, the guide map, the scenario shape.
+- **270 scenarios, every one carrying a comedic beat** placed as a
+  standalone line straight after the scene paragraph. On the two pages where
+  a laugh would cost credibility — B.A.S.S. 17 (male sexual assault) and
+  C.A.R.E. 8 (death on shift) — the beat is knowing/wry rather than funny.
+  That was a deliberate call, flagged to the user.
+- **177,783 words, ~19h45m of spoken runtime at 150wpm.** Per-file
+  scenario counts and runtimes are in `00-README.md`.
+
+`access.md` is still the user's own hand-written text throughout — only the
+13 comedic beats were added to it. Every other file is written from the
+`content/festie-bible-data.json` fields, house rule intact: form and phrasing
+changed freely (explicitly authorised), no claims invented.
+
+**Data oddity still outstanding:** G.R.O.V.E. scenario 13 (tone policing)
+has a `dark` section about undercover police / buying-selling that doesn't
+belong to that scenario — it reads like it belongs to scenario 12. The
+content was kept and given an honest transition rather than dropped. The
+user may want it moved in `festie-bible-data.json`.
+
+Delivered as `festie-bible-teleprompter-scripts.zip` (gitignored; rebuild
+with `cd content && zip -r ../festie-bible-teleprompter-scripts.zip
+festie-scripts`). Branch: `claude/cold-open-md-relink-wwtn7p`.
+
+Still present and untouched: `content/festie-teleprompter/` (combined) and
+`content/festie-teleprompter/posts/` (270 individual, bulleted). Whether
+`festie-scripts/` supersedes those is still the user's call.
