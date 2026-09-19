@@ -313,7 +313,52 @@ the Save with a body on the cot, Kandi Trade vows.
 
 ---
 
-# PART 3 — TRACKS TO ADD
+# CORRECTION — 2026-09-19, later the same day
+
+**Part 3 below is wrong and was not executed. Do not act on it.**
+
+Before writing the fifteen proposed Tracks, I checked what chapters 20, 27
+and 31 actually carry instead. They are not missing an apparatus. They
+carry a complete second one:
+
+| Chapter | Structure |
+|---|---|
+| ch20 | 🪖 THE PROTOCOLS (8 numbered) + 🔍 THE TEST + Pocket Scripts |
+| ch27 | 🪖 THE PROTOCOLS (5 numbered) + 🔍 THE TEST + Pocket Scripts |
+| ch31 | 🪖 THE PROTOCOLS (7 numbered) + 🔍 THE TEST + Pocket Scripts |
+| ch33 | 🪖 THE FIVE PILLARS + 🔍 THE TEST ×5 |
+| ch32 | 🎛️ THE CONFESSIONS |
+
+This is the "no-predator chapter structure from Chapter 27" that the v12
+changelog names as a deliberate choice. The book distinguishes:
+
+- **Tracks + Counter-Drops** — chapters where a person is running a move
+  on you, and there is something to counter.
+- **Protocols + The Test** — chapters where there is no adversary: the
+  aftermath once the trap has already closed (20), the infrastructure you
+  build rather than defend against (27), and the person four hundred
+  miles away who cannot run a counter-drop at all (31).
+
+Gate 6's "every chapter must have Tracks" is therefore **checklist rot**,
+not book drift — the checklist predates the second structure. Adding
+Tracks to these chapters would duplicate content they already have and
+erase a distinction the book is making on purpose.
+
+**What Part 1's Gate 6 finding should have said:** three chapters use the
+alternative structure, and that is correct. The only thing worth doing is
+recording the two-structure rule in the checklist so this does not get
+"fixed" a third time.
+
+This is the second finding in this audit overturned by reading the
+content rather than trusting a structural count — the first was the
+comic-density proxy in Gate 1. Both times the book was right and the
+metric was wrong. Treat every remaining count-derived finding in this
+document as a question, not a verdict, until the passage itself has been
+read.
+
+---
+
+# PART 3 — TRACKS TO ADD *(SUPERSEDED — see correction above)*
 
 ## Where Tracks should NOT be added — and why
 
