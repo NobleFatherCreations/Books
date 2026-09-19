@@ -308,9 +308,9 @@
       "repoPath": "library/wook/index.html",
       "section": "library",
       "deployNote": "Not a git deploy despite gitRepo being set. The Netlify MCP connector issues a one-shot proxy command run from library/wook/, which uploads the directory and builds it in Netlify's system. Verified 2026-09-15.",
-      "liveVersion": "v13",
-      "liveVerifiedAt": "2026-09-17",
-      "liveVerifiedNote": "Live bytes (md5) compared against library/wook/index.html and identical, both directly against the Netlify site URL and through the noblefathercreations.com/wook proxy path (200). Live HTML confirmed to carry all 33 chapters in sequence, the v12 patch note, chapter 20's content note and hotline, and the seven new specimen icons. This field records what is actually live; 'version' records what has been built.",
+      "liveVersion": "v13.5",
+      "liveVerifiedAt": "2026-09-19",
+      "liveVerifiedNote": "Deployed via netlify-deploy-services-updater deploy-site + the returned one-shot proxy command, run from library/wook/. Live bytes (md5, 3e0821a2...) confirmed identical to library/wook/index.html, both directly against the Netlify site URL and through the noblefathercreations.com/wook proxy path (200, 14,110,199 bytes both). v13.5 patch note text confirmed present on the live page. This field records what is actually live; 'version' records what has been built.",
       "reviewInProgress": "Full chapter-by-chapter review under content/wook-audits/wook-full-review-plan.md complete, including pass D2. v10 deployed 2026-09-15; see changelog."
     },
     {
