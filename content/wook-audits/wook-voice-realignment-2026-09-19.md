@@ -356,6 +356,50 @@ metric was wrong. Treat every remaining count-derived finding in this
 document as a question, not a verdict, until the passage itself has been
 read.
 
+## SECOND CORRECTION — 2026-09-19, Pass C (the vocabulary pass)
+
+**Also wrong. Also not executed.** Gate 2's scene-vocabulary density
+metric flagged ch10, ch14 and ch17 as thin, using a word list built for
+lot/festival slang (Wook, playa, gate, kandi, Zendo, wristband, PLUR).
+Before touching any of the three, each was read in full — cold open,
+every Track's Behavior and Runs cards — against the register its own
+subject actually calls for, not the lot's.
+
+- **Ch10 (The Love Of It)** is about crew and load-in labor. It is dense
+  with the correct register throughout: load-in, load-out, ballast,
+  A-frame ladder, scissor lift, forty-foot truss, B-stage deck, incident
+  form, workers' compensation, CORE TEAM lanyard, rigger, LLC, a 990.
+  That vocabulary doesn't overlap the lot-slang word list, which is why
+  the metric read it as thin. It isn't.
+- **Ch14 (The Two Festivals)** is about institutional bias and uses a
+  real-time timestamped structure (1:14 a.m. … 1:51 a.m.) as its own
+  precision device, plus Zendo, wristband, sunrise sets and named camps
+  in the cold open. The Tracks are correctly abstract where the subject
+  is a systemic pattern rather than a scene object.
+- **Ch17 (The Container)** — the chapter the first audit called the
+  thinnest in the book at 5.3 per 10k — turned out to be some of the
+  most precisely written prose in the manuscript, already carrying the
+  ceremony register the first audit itself said was the right fix:
+  geodesic dome, palo santo, the medicine, the cup, holders, the
+  container, integration circle, lineage, sliding scale. It was never
+  lot-thin. It was lot-*absent*, correctly, because the whole point of
+  the chapter is that this space is eleven miles from the festival and
+  not lot-coded at all.
+
+**No vocabulary was injected into any of the three.** Forcing lot slang
+into chapters whose subjects are deliberately not lot-culture would have
+blurred a register each chapter earns on its own terms. Gate 2's
+word-list metric measures one specific vocabulary; it cannot see a
+chapter using a different one correctly, and three-for-three here means
+the metric itself needs a caveat, not that these chapters need editing:
+**a chapter whose subject sits outside festival-lot culture should be
+scored against its own subject's register, never against the lot list.**
+
+Third and fourth corrections in one audit, after the Gate 1 comic-proxy
+miss and the Gate 6 Track/Protocol miss. The pattern is consistent: every
+structural or lexical count in this document is a place to look, not a
+verdict to act on, until the actual passage has been read end to end.
+
 ---
 
 # PART 3 — TRACKS TO ADD *(SUPERSEDED — see correction above)*
