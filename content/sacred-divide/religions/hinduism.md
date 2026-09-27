@@ -6,9 +6,9 @@ family_id: dharmic
 family_members: [hinduism, hare-krishna, sikhism, jainism]
 version: v4
 checked: 2026-09-27
-sections_filled: 24/27
-missing: [voices, leaving, help]
-partial: [branches, cases, law, money]
+sections_filled: 27/27
+missing: []
+partial: []
 ---
 
 # Hinduism {#top}
@@ -148,11 +148,17 @@ Sources for this section: [1] [4] [13]
 
 ## 6. Branches & variants {#branches}
 
-::: gap
-**Partly documented for Hinduism.** This section is below the page standard and is on the fill list.
-:::
-
 Vaishnava, Shaiva, Shakta, Smarta traditions; countless sampradayas, guru lineages, and regional folk forms; philosophical schools from Advaita to Dvaita.
+
+| Stream | What it centres on | Where authority sits |
+|---|---|---|
+| **Vaishnava** | Vishnu and his avatars (Krishna, Rama) | Sampradayas and their acharyas; includes Swaminarayan (BAPS) and ISKCON [6][13] |
+| **Shaiva** | Shiva | Monastic orders (mathas) and lineages |
+| **Shakta** | The Goddess | Temples and lineages |
+| **Smarta** | Several deities; Advaita philosophy | The Shankaracharya mathas |
+| **Guru movements** | A living teacher | The guru, often with a trust or company he controls [1][4] |
+
+About **1.2 billion** Hindus, 14.9% of the world's population (2020) [11].
 
 ## 7. Structure {#structure}
 
@@ -205,19 +211,19 @@ Sources for this section: [1] [4] [10] [11]
 
 ## 8. Law & state here {#law}
 
-::: gap
-**Partly documented for Hinduism.** This section is below the page standard and is on the fill list.
-:::
+| Country | What the law does | The accountability question |
+|---|---|---|
+| **India — caste** | Untouchability abolished by the Constitution (Article 17, 1950) [8] | Dowry deaths still ran to 6,450 in 2022 [9] |
+| **India — temples** | Many large temples are run by state-appointed boards; Tirupati's trust published a white paper in 2022 [10] | Sabarimala's ban on women of menstruating age was struck down in 2018; a nine-judge bench reserved judgment in 2026 [5] |
+| **India — superstition** | Maharashtra's anti-superstition ordinance came four days after Narendra Dabholkar's murder in 2013 [18] | Two men were convicted of his murder in 2024; in August 2026 the High Court suspended one's life sentence and granted bail [18][19] |
+| **United States — labour** | Federal forced-labour law [6][7] | A 2021 lawsuit said the BAPS temple in New Jersey was built with forced labour; federal prosecutors closed their investigation without charges in 2025, and the civil case continues [6][7] |
+| **United States — caste** | Seattle banned caste discrimination in employment in 2023, the first US city to do so [16] | California's governor vetoed a statewide ban as "unnecessary" in October 2023 [15] |
 
 ### Who can compel an answer
 
 State endowment departments and the Right to Information process for government-administered temple boards; the criminal courts, which are the only authority that has ever stopped a guru; and the ordinary electoral accountability of the politicians who appoint the boards.
 
 ## 9. Money {#money}
-
-::: gap
-**Partly documented for Hinduism.** This section is below the page standard and is on the fill list.
-:::
 
 ### Where it comes from
 
@@ -299,6 +305,19 @@ State endowment departments and the Right to Information process for government-
 ::: cites
 Sources for this section: [1] [4] [10]
 :::
+
+### Money in numbers
+
+```chart
+{"id":"baps-uk","type":"bar","title":"BAPS Swaminarayan Sanstha (UK): income","unit":"£ million, years to 31 December",
+ "series":[["2020",12.77],["2021",16.17],["2022",16.71],["2023",20.67],["2024",16.22]],
+ "note":"The UK charity behind the Neasden temple; almost all donations. Public because charity law requires it.",
+ "cite":[14]}
+```
+
+- **Tirupati:** a net worth of ₹2.26 lakh crore and 10.25 tonnes of gold on deposit, in the temple trust's own 2022 white paper [10].
+- **BAPS UK, 2024:** £15.39m of £16.22m income from donations; £15.83m spent [14].
+- **Guru organizations** publish little; their finances surface through courts [1][4].
 
 ## 10. Genealogy {#genealogy}
 
@@ -1191,10 +1210,6 @@ Colonial-era denigration of Hinduism was real, and is invoked to reframe caste c
 
 ## 19. Documented cases {#cases}
 
-::: gap
-**Partly documented for Hinduism.** This section is below the page standard and is on the fill list.
-:::
-
 ::: case
 ### Sabarimala temple entry judgment
 
@@ -1208,6 +1223,46 @@ Colonial-era denigration of Hinduism was real, and is invoked to reframe caste c
 
 ::: cites
 Sources for this section: [5]
+:::
+
+::: case
+### A guru's conviction, and the acquittals (India, 2017–2026)
+- **when:** 2017–2026
+- **what:** Gurmeet Ram Rahim Singh, head of the Dera Sacha Sauda, was convicted of rape on 25 August 2017 and is serving 20 years [3]. His two murder convictions were overturned by the High Court in 2024 and 2026 [1][2].
+- **record:** Punjab & Haryana High Court judgments [1][2]; Outlook India [3]
+- **outcome:** The rape sentence stands; the victim's family appealed the 2026 acquittal to the Supreme Court [2].
+- **tactics:** 30, 12, 16
+- **grade:** Documented
+:::
+
+::: case
+### A life sentence upheld (India, 2026)
+- **when:** 2026
+- **what:** Asaram, a spiritual leader with a large following, was serving a life sentence for raping a minor and had been out on bail since October 2025 [4].
+- **record:** Rajasthan High Court, 27 May 2026 [4]
+- **outcome:** The High Court upheld the life sentence and cancelled bail, while acquitting him on gang-rape and conspiracy counts [4].
+- **tactics:** 30, 12
+- **grade:** Documented
+:::
+
+::: case
+### A temple built on whose labour? (United States, 2021–2025)
+- **when:** 2021–2025
+- **what:** Workers brought from India on religious visas sued BAPS, alleging they worked 80-hour weeks building its temple in Robbinsville, New Jersey, for about $450 a month, most of it paid into accounts in India; BAPS disputed the claims [7].
+- **record:** CNN, 12 May 2021 [7]; Religion News Service, 19 September 2025 [6]
+- **outcome:** The Justice Department closed its investigation without charges; the civil case continues [6].
+- **tactics:** 26, 2
+- **grade:** Contested
+:::
+
+::: case
+### The rationalist who was shot (India, 2013–2026)
+- **when:** 2013–2026
+- **what:** Narendra Dabholkar, who campaigned against superstition and exploitative "godmen", was shot dead in Pune on 20 August 2013 [18].
+- **record:** Scroll, 10 May 2024 [18]; News Arena India, 18 August 2026 [19]
+- **outcome:** Two men were convicted in 2024 and three acquitted [18]; in 2026 the High Court suspended one convict's life sentence and granted him bail [19].
+- **tactics:** 17
+- **grade:** Documented
 :::
 
 ## 20. Precedent {#precedent}
@@ -1231,9 +1286,10 @@ Sources for this section: [1] [4] [5]
 
 ## 21. Voices from inside {#voices}
 
-::: gap
-**Not yet documented for Hinduism.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+- **Bindu Ammini and Kanakadurga.** The first women to enter Sabarimala after the 2018 ruling, on 2 January 2019, under police escort; Bindu Ammini later had to leave Kerala after attacks [17].
+- **Narendra Dabholkar.** Founder of Maharashtra's anti-superstition movement, murdered in 2013 [18].
+- **The campaigners for California's caste bill,** who held a hunger strike at the Capitol in 2023 [15].
+- **The Robbinsville temple workers** who sued [7].
 
 ## 22. Regional variants {#regional}
 
@@ -1284,15 +1340,24 @@ Sources for this section: [8]
 
 ## 24. Leaving safely here {#leaving}
 
-::: gap
-**Not yet documented for Hinduism.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Practical guidance, not legal advice.
+
+1. **Leaving a guru movement** is legally free; if you work or live at an ashram, secure your documents, money and a place to stay first.
+2. **Caste discrimination at work** is covered by existing law in some places and expressly in Seattle [15][16].
+3. **If you face a forced marriage or honour-based abuse,** use specialist help [22].
+4. **If you were abused by a guru or temple official,** go to the police; Indian courts have convicted even the most powerful [3][4].
+5. **Find support** [20][21].
 
 ## 25. Where to get help {#help}
 
-::: gap
-**Not yet documented for Hinduism.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Checked 2026-09-27.
+
+| Organization | For | Where | Contact |
+|---|---|---|---|
+| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [20] |
+| **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [21] |
+| **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** [22] |
+| **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [23] |
 
 ## 26. Sources {#sources}
 
@@ -1315,10 +1380,19 @@ Sources for this section: [8]
 12. Patrick Olivelle, *Manu's Code of Law* (Oxford UP, 2005) — dating of the Manusmriti (2nd–3rd c. CE). https://global.oup.com/academic/product/manus-code-of-law-9780195171464
 13. *Encyclopaedia Britannica*, "Hinduism" — Vedic, Upanishadic, epic/Puranic and bhakti periods; Brahmo and Arya Samaj; Hindu Mahasabha (1915) and RSS (1925); Ayodhya 1992. https://www.britannica.com/topic/Hinduism
 
+### Added with the full page (2026-09-27)
+14. Charity Commission for England and Wales, Bochasanwasi Shri Akshar Purushottam Swaminarayan Sanstha (charity 1143083), financial history 2020–2024. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5015316/financial-history
+15. CalMatters, "Newsom blocks a bill to ban caste discrimination in California" (Oct 2023). https://calmatters.org/politics/2023/10/caste-discrimination-newsom/
+16. NPR / Associated Press, "Seattle becomes the first U.S. city to ban caste discrimination" (22 Feb 2023; 6–1 vote). https://www.npr.org/2023/02/22/1158687243/seattle-becomes-the-first-u-s-city-to-ban-caste-discrimination
+17. The News Minute, "Endorsement to exile: How Bindhu Ammini, who entered Sabarimala, had to leave Kerala." https://www.thenewsminute.com/kerala/bindhu-ammini-the-woman-who-entered-sabarimala-and-was-forced-to-leave-kerala
+18. Scroll, "Narendra Dabholkar murder: Two convicted, three acquitted by Pune court" (10 May 2024). https://scroll.in/latest/1067708/narendra-dabholkar-murder-two-convicted-three-acquitted-by-pune-court
+19. News Arena India, "HC grants bail to Dabholkar murder convict" (18 Aug 2026 — life sentence of Sachin Andure suspended). https://newsarenaindia.com/nation/hc-grants-bail-to-dabholkar-murder-convict/84802
+20. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+21. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
+22. Karma Nirvana — honour-based abuse and forced marriage, 0800 5999 247. https://karmanirvana.org.uk/get-help/helpline/
+23. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
+
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — fact-check pass 1:** Every "convicted for rape and murder" / "murder conspiracy" (money[1], genealogy[2], roster[3], victories[0],
-- **2026-09-27 — fact-check pass 1:** `victories[0].what` → `Rape convictions of major godmen, upheld on appeal`; `when` → `2017–2026`.
-- **2026-09-27 — fact-check pass 1:** `case sabarimala.outcome` → add `A nine-judge bench heard the wider questions in 2026 and has reserved judgment; the 2018 ruling stands meanwhile.`
-- **2026-09-27 — fact-check pass 1:** `regional[1].documented` → add `A federal criminal investigation closed without charges in 2025; the civil case continues.`
+- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (BAPS UK accounts 2020–2024), four documented cases, Voices from inside, Leaving safely and Where to get help.
 
