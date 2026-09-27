@@ -337,7 +337,7 @@ You may belong to one of the most generous, well-organized communities in this b
 10. Illawarra Mercury / AAP, "Case dropped against trio accused of female genital mutilation in Wollongong," Mar 2020. <https://www.illawarramercury.com.au/story/6671992/case-dropped-against-trio-accused-of-female-genital-mutilation-in-wollongong/>
 11. SabrangIndia, "Bohra women want an end to the practice of 'female genital cutting': Sahiyo report," 2017 (385 respondents; 80% cut; 81% want it ended). <https://sabrangindia.in/bohra-women-want-end-practice-female-genital-cutting-sahiyo-report/> — **to add:** the Sahiyo report itself.
 12. *Sunita Tiwari v. Union of India*, order of 24 Sep 2018 — Indian Kanoon. <https://indiankanoon.org/doc/181206322/> — Supreme Court Observer case page: <https://www.scobserver.in/cases/sunita-tiwari-union-of-india-ban-on-female-genital-mutilation-case-background/>
-13. *Dawoodi Bohra Commission (Nathwani Commission): report of investigation conducted by the Commission appointed by the Citizens for Democracy…* (1979) — HathiTrust catalog record. <https://catalog.hathitrust.org/Record/000181699> — quotations taken from summaries; **verify against the report text**.
+13. *Dawoodi Bohra Commission (Nathwani Commission): report of investigation conducted by the Commission appointed by the Citizens for Democracy…* (1979) — HathiTrust catalog record. <https://catalog.hathitrust.org/Record/000181699> — quotations are taken from published summaries; the full report text could not be read for this edition.
 14. History of the Tayyibi daʿwa and the 1592 split — finding aid: Wikipedia, "Sulaymani Bohras" and "Tayyibi Ismaʿilism." **Replace with a scholarly source** (e.g. Encyclopaedia Iranica, "Bohras"; Farhad Daftary, *The Ismāʿīlīs*).
 15. The Dawoodi Bohras (official site), "About the Bohras." <https://www.thedawoodibohras.com/about-the-bohras/> — self-description, size, leadership.
 16. Sahiyo, "Stop female circumcision, Dawoodi Bohra authorities tell community members in Australia." <https://sahiyo.org/sahiyo-blog/stop-female-circumcision.html> — and The Quint, "Bohra Leader Speaks Out on Female Circumcision in India, Again" (2016). <https://www.thequint.com/gender/women/bohra-leader-breaks-his-silence-on-female-circumcision-in-india>
@@ -349,7 +349,7 @@ You may belong to one of the most generous, well-organized communities in this b
 22. NSPCC, "Female Genital Mutilation" — FGM helpline 0800 028 3550. <https://www.nspcc.org.uk/keeping-children-safe/types-of-abuse/female-genital-mutilation-fgm/>
 23. GOV.UK, "Female genital mutilation: help and advice". <https://www.gov.uk/female-genital-mutilation-help-advice>
 24. Humanists UK, Faith to Faithless helpline. <https://humanists.uk/faith-to-faithless/helpline/>
-25. Wikipedia, "Sulaymani Bohras" (the 1592 split over the 27th dai) and "Alavi Bohra" (split 1621) — finding aids; **replace with a scholarly source** (Encyclopaedia Iranica, "Bohras", could not be read in pass 1). <https://en.wikipedia.org/wiki/Sulaymani> · <https://en.wikipedia.org/wiki/Alavi_Bohra>
+25. Wikipedia, "Sulaymani Bohras" (the 1592 split over the 27th dai) and "Alavi Bohra" (split 1621) — reference works; no scholarly source on these dates could be read for this edition. <https://en.wikipedia.org/wiki/Sulaymani> · <https://en.wikipedia.org/wiki/Alavi_Bohra>
 26. Karma Nirvana, national Honour Based Abuse Helpline. <https://karmanirvana.org.uk/get-help/helpline/>
 
 ## Fact-check log (pass 1, 2026-09-27)

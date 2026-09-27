@@ -20,7 +20,7 @@
 ---
 
 ## neutral
-A new religious movement founded in Seoul in 1954 by Sun Myung Moon, and led since his death in 2012 by his widow Hak Ja Han Moon [1]. Membership figures are disputed. The movement has claimed up to 3 million worldwide (and at times far more); independent estimates run from about 250,000 to just over 1 million [19]. It is known for its "Blessing" mass wedding ceremonies, its teaching of Moon and Han as the "True Parents", and a wide business and media network [1].
+A new religious movement founded in Seoul in 1954 by Sun Myung Moon, and led since his death in 2012 by his widow Hak Ja Han Moon [1]. Membership figures are disputed. Claims of worldwide membership have ranged from one to ten million; one scholarly account notes at least 600,000 members in the 1990s and about 60,000 official members in Japan, since declining [19]. It is known for its "Blessing" mass wedding ceremonies, its teaching of Moon and Han as the "True Parents", and a wide business and media network [1].
 
 ## origin
 Founded in Seoul in 1954 as the Holy Spirit Association for the Unification of World Christianity [1]. Moon's *Divine Principle* teaches that the Fall corrupted humanity's lineage, and that the True Parents restore it through the Blessing (arranged marriage) [1]. The movement reached Japan in 1959 [12] and the US in the 1960s–70s. It built businesses and anti-communist political networks, which a US congressional subcommittee investigated in 1976–78 [3]. It took the name Family Federation for World Peace and Unification in the 1990s [1]. After Moon's death, sons led rival organizations.
@@ -79,7 +79,7 @@ Founded in Seoul in 1954 as the Holy Spirit Association for the Unification of W
 | 31 Aug 2026 | Seoul Central District Court sentences Hak Ja Han to two years for bribery, political-funds violations and embezzlement [14] | The leader convicted. |
 
 ## demographics
-- **adherents:** disputed. Up to 3M claimed; independent estimates 250,000–1M+ [19]. In 2022 church leadership claimed about 600,000 members in Japan [19].
+- **adherents:** disputed. Claims have ranged from one to ten million; at least 600,000 in the 1990s; about 60,000 official members in Japan, since declining [19].
 - **regions:** South Korea (headquarters), Japan (largest financial base) [18], the US, the Philippines and elsewhere.
 - **branches:** the Family Federation (Hak Ja Han); rival organizations led by two of Moon's sons (Sanctuary Church; Family Peace Association) [1].
 - **trend:** dissolved as a religious corporation in Japan (pending the Supreme Court) [5][6]; leader convicted in Korea [14]; an aging first generation.
@@ -351,11 +351,11 @@ You may have found here a family, a marriage, and a sense that your life fits in
 14. AP via US News, "South Korea's Unification Church Leader Hak Ja Han Sentenced to 2 Years for Corruption," 31 Aug 2026. <https://www.usnews.com/news/world/articles/2026-08-31/south-koreas-unification-church-leader-hak-ja-han-sentenced-to-2-years-for-corruption>
 15. CNN, "Unification Church leader arrested in bribery case involving former South Korean president's wife," 22 Sep 2025. <https://www.cnn.com/2025/09/22/asia/unification-church-leader-arrested-bribery-case-south-korea-intl-hnk>
 16. Toru Goto confinement case: Tokyo District Court (Jan 2014); Tokyo High Court (13 Nov 2014); upheld by the Supreme Court. Reported by *The Washington Times*, 31 Jan 2014 <https://www.washingtontimes.com/news/2014/jan/31/man-wins-landmark-lawsuit-on-religious-oppression/>. **Disclosure:** the *Washington Times* was founded by the movement [1], and the other accounts found are church-sympathetic (Bitter Winter). The court outcome is not disputed, but cite the judgment number from Japanese court records before import. USCIRF's Japan page notes the deprogramming reports: <https://www.uscirf.gov/publications/did-you-knowjapan>
-20. Ministry of Health, Labour and Welfare (Japan), Q&A on responding to child abuse related to religious beliefs, 27 Dec 2022. **Source to add:** the MHLW original (Japanese). Secondary summary: Wikipedia, "Shūkyō nisei" <https://en.wikipedia.org/wiki/Sh%C5%ABky%C5%8D_nisei> (use as a finding aid only).
+20. Ministry of Health, Labour and Welfare (Japan), Q&A on responding to child abuse related to religious beliefs, 27 Dec 2022. Official summary (Japanese), now hosted by the Children and Families Agency: <https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/fdf4848a-9194-4b7c-b228-1b7ed4847d58/cadea23b/20230401_policies_jidougyakutai_hourei-tsuuchi_175.pdf>
 21. OHCHR, "Japan: UN experts concerned by continued stigmatisation of religious minorities," Oct 2025. <https://www.ohchr.org/en/press-releases/2025/10/japan-un-experts-concerned-continued-stigmatisation-religious-minorities>
 17. PBS NewsHour / AP, "Unification Church in Japan offers up to $66 million in compensation…," 2023. <https://www.pbs.org/newshour/world/unification-church-in-japan-offers-up-to-66-million-in-a-compensation-amid-scrutiny-of-fundraising-tactics>
 18. The Diplomat, "The Unification Church, Japan, and North Korea," Jan 2023. <https://thediplomat.com/2023/01/the-unification-church-japan-and-north-korea/> — Japan as the majority funding source; the 1971 national-guilt teaching.
-19. Prusa, I., "The Unification Church Scandal: Assassination of Abe Shinzô and Religio-Political Collusion in Japan," *electronic journal of contemporary japanese studies* 24(3). <https://www.japanesestudies.org.uk/ejcjs/vol24/iss3/prusa.html> — membership estimates. *(Confirm the figures appear in this article; the search summary also drew on Wikipedia.)*
+19. Prusa, I., "The Unification Church Scandal: Assassination of Abe Shinzô and Religio-Political Collusion in Japan," *electronic journal of contemporary japanese studies* 24(3). <https://www.japanesestudies.org.uk/ejcjs/vol24/iss3/prusa.html> — membership: claims of one to ten million; at least 600,000 in the 1990s; about 60,000 official members in Japan.
 22. International Cultic Studies Association (ICSA). <https://internationalculticstudies.org/>
 23. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
 24. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. <https://humanists.uk/faith-to-faithless/helpline/>

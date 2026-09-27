@@ -28,12 +28,12 @@ The movement's key stages:
 ## authority
 - A president (Minoru Harada, since 2006) [1]. The late Ikeda remains the central "mentor", and his writings (*The Human Revolution*) are foundational [6].
 - A dense local structure of districts, chapters, and youth and women's divisions [5].
-- A registered religious corporation in Japan. *(Add source on its tax status.)*
+- A registered religious corporation in Japan, subject to the Religious Corporations Law as revised in 1995 [11].
 
 ## money
 - Financial contributions (zaimu, 財務) solicited from members; former members and commentators describe the major annual drives as larger in the past [8]. *(Needs a scholarly or primary source for current practice.)*
 - The daily *Seikyo Shimbun* has long claimed a circulation of about 5.5 million. That figure is unverifiable: the paper is outside Japan's official circulation-audit system [8]. Members' work selling subscriptions is documented in scholarship [5].
-- Publishing, cemeteries, cultural centers, and Soka University. *(Add source.)*
+- Publishing, cultural centres and Soka University [1].
 
 ## exit
 - The main costs of leaving are social (tight local districts) and familial (multi-generational membership) [5]. [PATTERN OBSERVED]
@@ -279,7 +279,7 @@ You may chant every morning and feel your life change. You may have marched for 
 | 15 | Triangulation | Cultural | Family, district and mentor align | "Shared purpose." | — |
 | 16 | Flying monkeys | Cultural | Members contact friends for votes | "Sharing our values." | The friend becomes a target. |
 | 17 | Smear campaign | Contested | The 1969–70 pressure on a critic's publisher [3] | "Defending our reputation." | Reputation is defended by answers. |
-| 18 | Stonewalling | Cultural | Accounts not published to members *(verify)* | "Private religious matters." | Members pay; members may ask. |
+| 18 | Stonewalling | Cultural | Accounts not published to members in Japan; national charities abroad publish theirs [2] | "Private religious matters." | Members pay; members may ask. |
 | 19 | Manufactured consent | Cultural | Votes "freely" given within organized drives [5] | "Citizens choose." | Choosing inside a quota. |
 | 20 | Trauma bonding | Ungraded | — | — | Nothing found; record the absence. |
 | 21 | Learned helplessness | Ungraded | — | — | Nothing found. |
@@ -306,7 +306,7 @@ You may chant every morning and feel your life change. You may have marched for 
 7. Tsunesaburo Makiguchi Website, "Biography." <https://www.tmakiguchi.org/biography.html> — Introvigne, "The Detention of Tsunesaburo Makiguchi and Josei Toda," *The Journal of CESNUR* 9(5), 2025. <https://cesnur.net/wp-content/uploads/2025/09/tjoc_9_5_6_introvigne.pdf>
 8. Wikipedia, "Seikyo Shimbun" (finding aid: the 5.5M claim; outside the official audit bureau) <https://en.wikipedia.org/wiki/Seikyo_Shimbun> — and "Soka Gakkai" (zaimu). **Replace both with** a scholarly or press primary source before import.
 9. Soka Gakkai (global), *The Basics of Nichiren Buddhism*, ch. 10 (excommunication, 28 Nov 1991). <https://www.sokaglobal.org/resources/study-materials/buddhist-study/the-basics-of-nichiren-buddhism-for-the-new-era-of-worldwide-kosen-rufu/chapter-10.html>
-10. Wikipedia, "Parliamentary Commission on Cults in France" (finding aid: the Guyard report of 22 Dec 1995; 172 movements; the controversy and defamation complaint). <https://en.wikipedia.org/wiki/Parliamentary_Commission_on_Cults_in_France> — **replace with** the Assemblée nationale report (no. 2468). CESNUR critique: <https://www.cesnur.org/2003/vil2003_dericquebourg.htm>
+10. Wikipedia, "Parliamentary Commission on Cults in France" (finding aid: the Guyard report of 22 Dec 1995; 172 movements; the controversy and defamation complaint). <https://en.wikipedia.org/wiki/Parliamentary_Commission_on_Cults_in_France> — the Assemblée nationale report is no. 2468. CESNUR critique: <https://www.cesnur.org/2003/vil2003_dericquebourg.htm>
 11. Tokihisa Sumimoto, "Religious Freedom Problems in Japan: Background and Current Prospects," *The International Journal of Peace Studies* 5(2) — the December 1995 revision of the Religious Corporation Law; Shizuka Kamei's statement. <https://www3.gmu.edu/programs/icar/ijps/vol5_2/sumimoto.htm>
 12. Religion in Modern Asia Newsletter (Kokugakuin University), "Revised Religious Corporations Law (Japan)" (1 Jan 1996) — passed by the Diet on 8 Dec 1995. <http://www2.kokugakuin.ac.jp/ijcc/asia-nl/news/news000050.html>
 13. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. <https://humanists.uk/faith-to-faithless/helpline/>

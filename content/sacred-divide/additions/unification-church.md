@@ -11,7 +11,7 @@
 | **Japan church** | Japan | Majority funding source for the movement [18]; ordered dissolved by the courts, on appeal [4][5][6] |
 | **Businesses and political networks** | US, Korea, Japan | *The Washington Times* (1982) and other holdings [1]; anti-communist political ties [3] |
 
-Membership is disputed: the movement has claimed up to 3 million; independent estimates run from about 250,000 to just over 1 million [19].
+Membership is disputed: claims have ranged from one to ten million; one scholarly account notes at least 600,000 members in the 1990s and about 60,000 official members in Japan, since declining [19].
 
 ## law
 | Country | What the law does | What happened |
