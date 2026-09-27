@@ -23,6 +23,17 @@ Legend: ✅ confirmed · ✏️ corrected · 🔹 interpretive · ⏳ open.
 7. *Encyclopaedia Britannica*, "Hare Krishna" — Chaitanya (1486–1534); Prabhupada; ISKCON incorporated 1966; GBC 1970; Prabhupada's death 1977; the eleven zonal acharyas. https://www.britannica.com/topic/Hare-Krishna
 8. ISKCON Child Protection Office (established 1997–98). https://iskconcpo.org/
 
+### Added with the full page (2026-09-27)
+9. Charity Commission for England and Wales, International Society for Krishna Consciousness Bhaktivedanta Manor (charity 1157877), financial history 2020–2024. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5042329/financial-history
+10. *The Shillong Times*, "Hare Krishna temple dispute: ISKCON Bengaluru chief hails Supreme Court verdict as 'historic'" (16 May 2025). https://theshillongtimes.com/2025/05/16/hare-krishna-temple-dispute-iskcon-bengaluru-chief-hails-supreme-court-verdict-as-historic/
+11. Bar & Bench, "Supreme Court delivers split verdict in ISKCON Mumbai's review plea over Bengaluru temple ownership" (8 Nov 2025). https://www.barandbench.com/news/supreme-court-delivers-split-verdict-in-iskcon-mumbais-review-plea-over-bengaluru-temple-ownership
+12. *Publishers Weekly*, review of Nori J. Muster, *Betrayal of the Spirit* (University of Illinois Press, 1997); and Muster, "Writing Betrayal of the Spirit," ICSA e-library. https://www.publishersweekly.com/978-0-252-02263-0 · https://www.icsahome.com/elibrary/topics/articles/writing-betrayal-of-the-spirit-muster-it-4-3
+13. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+14. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
+15. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
+16. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
+17. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/
+
 ---
 
 ## Claim register
