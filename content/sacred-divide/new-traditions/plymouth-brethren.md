@@ -319,6 +319,12 @@ You may have grown up in the warmest, most organized family life you have ever s
 7. Australian National Audit Office, "Review of public funds allocated towards the OneSchool Global schools" (request). <https://www.anao.gov.au/work/request/review-of-public-funds-allocated-towards-the-oneschool-global-schools> — ACNC register, OneSchool Global Australia Ltd. <https://www.acnc.gov.au/charity/charities/af7ab78b-3aaf-e811-a95e-000d3ad24c60> — **check** whether the ANAO request led to an audit.
 8. Australian Electoral Commission, "Exclusive Brethren" (compliance advice). <https://www.aec.gov.au/parties_and_representatives/compliance/AEC_Advice/exclusive.htm>
 9. inkl / Crikey-syndicated report, "Accounting firm controlled by Exclusive Brethren church to close after extraordinary ATO raid" (Mar 2024). <https://www.inkl.com/news/accounting-firm-controlled-by-exclusive-brethren-church-to-close-after-extraordinary-ato-raid> — **upgrade** to the original outlet.
+10. Charity Commission for England and Wales, OneSchool Global UK (charity 1181301), financial history 2020–2024. <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5101925/financial-history>
+11. *Express* (NZ), "Craig Hoyle: Finding Freedom After The Exclusive Brethren" (11 Oct 2024) — interview on his memoir *Excommunicated*. <https://gayexpress.co.nz/2024/10/craig-hoyle-finding-freedom-after-the-exclusive-brethren/>
+12. Olive Leaf Network — aid and advocacy for former members of high-demand religious groups (Australia, New Zealand, international). <https://oliveleafnetwork.org/>
+13. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. <https://humanists.uk/faith-to-faithless/helpline/>
+14. International Cultic Studies Association (ICSA). <https://internationalculticstudies.org/>
+15. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
 
 ## Fact-check log (pass 1, 2026-09-27)
 - **Confirmed:** 50,000+ members and Hales as leader since 2002 [1]; Preston Down refusal (Jun 2012) and registration (Jan 2014) [2]; NZ 2005 pamphlets [3]; AEC 2004 material [8]; the 1970 schism of ~8,000 [6].
