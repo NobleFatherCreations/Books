@@ -79,3 +79,12 @@ each: https://www.britannica.com/topic/Sunni)
 | Al-Azhar budget | ⏳ | — |
 | Regional cards: Malaysia, Egypt, Pakistan, Nigeria | ⏳ Egypt's card can draw on 8–9 now | — |
 | Salafism block | ⏳ needs academic sources (e.g. Farquhar, *Circuits of Faith*, Stanford UP 2017) | — |
+
+## Tactic examples, phrasebook and vignette — verifiable anchors
+
+| Anchor | Status | Source |
+|---|---|---|
+| "Marriage completes half the religion" | ✅ a hadith in al-Bayhaqi's *Shuʿab al-Iman* (Mishkat 3096); its chain is graded weak by Ibn Hajar and others, sound by al-Albani — the book quotes it as something young Muslims are told, which is accurate | https://sunnah.com/mishkat:3096 |
+| Hanafi position on a woman contracting her own marriage | ✅ | Britannica |
+| Honour-killing pardon closed in 2016 (phrasebook, hard question) | ✅ | 1, 2 |
+| Madrasa caning in the vignette | 🔹 fiction; the pattern is documented (corporal punishment in madrasas) | profile sources |

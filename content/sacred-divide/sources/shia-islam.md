@@ -91,3 +91,12 @@ https://www.sistani.org/english/book/48/2312/ (distribution) and https://www.sis
 | Astan Quds / bonyad figures | ✅ Setad ~$95bn (Reuters, 2013); Astan Quds' own totals ⏳ | 14 |
 | UK charity filings of khums-receiving foundations | ⏳ | — |
 | Help: Iranian diaspora legal aid; Iraqi women's organizations | ⏳ vet before listing | — |
+
+## Tactic examples, phrasebook and vignette — verifiable anchors
+
+| Anchor | Status | Source |
+|---|---|---|
+| Karbala, Muharram/Ashura, majlis, Ahl al-Bayt as the devotional centre | ✅ | 17 |
+| Al-Qard Al-Hassan designated by US Treasury 2007 (leverage) | ✅ | 5 |
+| "One of the largest economic entities in the country" (Astan Quds / bonyads) | ✅ | 14, 15 |
+| Grades 28–29: statutory in Iran, familial in diaspora; marjaʿ as the Imam's deputy | ✅ | 1, fiqh manual |

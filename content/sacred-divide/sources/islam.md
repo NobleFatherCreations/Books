@@ -127,3 +127,14 @@ Legend: ✅ confirmed as written · ✏️ confirmed after a correction (see *Co
 | Voices: Musawah; Sisters in Islam | ✅ both real, long-running organizations | https://www.musawah.org/ · https://sistersinislam.org/ |
 | Help: MWN, Karma Nirvana, Faith to Faithless, EXMNA | ✅ vetted, numbers current | 28–31 |
 | Related-family cards (Ahmadiyya, Bohra, Sufi orders, Nation of Islam, Alevis) | ✅ Ahmadiyya and Bohra built; others ⏳ | new-traditions/ |
+
+## Tactic examples, phrasebook and vignette — verifiable anchors
+
+The 30 tactic entries, the phrasebook and "A day inside" are pattern descriptions and illustrative
+fiction (🔹); every checkable anchor inside them was verified:
+
+| Anchor | Status | Source |
+|---|---|---|
+| Qur'an 4:28 "man was created weak"; 100:6 "man is ungrateful to his Lord" | ✅ standard translations (Sahih International) | https://quran.com/4/28 · https://quran.com/100/6 |
+| Taqwa, the grave, Judgment Day as standard eschatological teaching | ✅ | 🔹 |
+| Vignette details (suhoor, Fajr) | 🔹 illustrative fiction, consistent with practice | — |

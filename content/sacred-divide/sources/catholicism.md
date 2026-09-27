@@ -111,3 +111,15 @@ Legend: ✅ confirmed · ✏️ corrected · 🔹 interpretive · ⏳ open.
 | Voices: SNAP; Voice of the Faithful | ✅ | 26, 28 |
 | Help: SNAP (US); One in Four (Ireland) | ✅ | 26, 27 |
 | Legion of Christ: Vatican 2010 findings on its founder | ✅ Holy See communiqué of 1 May 2010 on Marcial Maciel | https://www.vatican.va/resources/resources_comunicato-legionari-cristo-2010_en.html |
+
+## Tactic examples, phrasebook and vignette — verifiable anchors
+
+| Anchor | Status | Source |
+|---|---|---|
+| "Conscience must be properly formed" (tactic 30) | ✅ Catechism 1783 | https://www.vatican.va/content/catechism/en/part_three/section_one/chapter_one/article_6/ii_the_formation_of_conscience.html |
+| Divorced and remarried "must not receive Communion" (tactic 7) | ✏️ since *Amoris Laetitia* (2016, n. 351) and the Buenos Aires criteria Francis endorsed as authentic (published in *AAS*, 2017), access is possible case by case; practice varies by diocese — say "have long been told … and in many dioceses still are" | https://cruxnow.com/global-church/2016/09/guidelines-buenos-aires-bishops-divorcedremarried |
+| "Zero tolerance since 2002" (phrasebook) | ✅ US bishops' Dallas Charter, 2002 | https://www.usccb.org/offices/child-and-youth-protection/charter-protection-children-and-young-people |
+| Pontifical secret lifted 2019 (phrasebook) | ✅ | 3 |
+| Index abolished 1966 (grade 14) | ✅ | 25 |
+| Married Eastern Catholic priests (hard question, phrasebook) | ✅ | 25 |
+| Sacraments named (baptism, First Communion, Confirmation, last rites) | ✅ | 1 |

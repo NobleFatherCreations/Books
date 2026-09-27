@@ -75,3 +75,14 @@ Legend: ✅ confirmed · ✏️ corrected · 🔹 interpretive · ⏳ open.
 | State-collected church taxes (Germany, Austria, Switzerland, Nordics) | ✅ summarize on the umbrella page, figures on Catholic/Protestant pages | Catholicism page |
 | Established churches: England, Denmark, Greece; "Norway until 2012 (verify)" | ✏️ Norway amended its constitution in 2012 and made the Church of Norway a separate legal entity on 1 Jan 2017 | https://www.loc.gov/item/global-legal-monitor/2017-02-03/norway-state-and-church-separate-after-500-years/ |
 | Umbrella page holds no figures of its own | ✅ agreed (avoid the duplication the audit found) | — |
+
+## Tactic examples, phrasebook and vignette — verifiable anchors
+
+| Anchor | Status | Source |
+|---|---|---|
+| Malachi 3:8 "Will a man rob God?" (vignette, money table) | ✅ | https://www.biblegateway.com/passage/?search=Malachi%203%3A8-10&version=KJV |
+| Matthew 18:15–17 as the church-discipline text (tactic 30) | ✅ | https://www.biblegateway.com/passage/?search=Matthew%2018%3A15-17&version=ESV |
+| Proverbs 31 woman (cycle) | ✅ | https://www.biblegateway.com/passage/?search=Proverbs%2031&version=ESV |
+| "Touch not mine anointed" (genealogy) — 1 Chronicles 16:22 / Psalm 105:15, about Israel's patriarchs | ✏️ the book says "about a specific Israelite king"; the verse refers to the patriarchs (Abraham, Isaac, Jacob); David's refusal to harm "the Lord's anointed" Saul is 1 Samuel 24:6 — correct to "lines about Israel's patriarchs and king Saul" | https://www.biblegateway.com/passage/?search=Psalm%20105%3A15%3B1%20Samuel%2024%3A6&version=ESV |
+| Grade 26 (Form 990) | ✏️ see correction 2 | 1, 2 |
+| Vignette (Dana, Pastor Rick) | 🔹 fiction | — |

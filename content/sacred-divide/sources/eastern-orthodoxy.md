@@ -73,3 +73,12 @@ Legend: ✅ confirmed · ✏️ corrected · 🔹 interpretive · ⏳ open.
 | Voices: the 2022 declaration by Orthodox theologians | ✅ the "Russian World" declaration | 15 |
 | Help | ⏳ research needed | — |
 | 2018 schism as a turning point | ✅ | 17 |
+
+## Tactic examples, phrasebook and vignette — verifiable anchors
+
+| Anchor | Status | Source |
+|---|---|---|
+| "The Church is a hospital (for the soul)" | ✅ a common Orthodox pastoral formula (no single canonical source; the book presents it as what people are told) | 16 |
+| Dissenting clergy suspended "for causing division" (cycle) | ✅ | 10, 11 |
+| Convert growth via online spaces | 🔹 widely reported; no statistic claimed | — |
+| Vignette (fasting and antibiotics) | 🔹 fiction | — |

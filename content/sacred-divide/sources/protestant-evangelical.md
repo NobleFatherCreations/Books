@@ -77,8 +77,17 @@ the other leads (Hillsong governance review, NDA practice) are ⏳ for pass 2.
 
 | Lead (from the additions file) | Verdict | Sources |
 |---|---|---|
-| Johnson Amendment and a 2025 IRS reinterpretation | ⏳ not yet checked (search budget ran out this session) | — |
+| Johnson Amendment and a 2025 IRS reinterpretation | ✅ IRS consent judgment proposed 7 July 2025 (*National Religious Broadcasters v. Long*) saying houses of worship may address electoral politics to their congregations; the court **dismissed the case on 31 Mar 2026** for lack of jurisdiction, so the IRS position rests on its filing, not a judgment | https://www.congress.gov/crs-product/LSB11447 · https://www.cnbc.com/2025/07/08/irs-church-candidates-tax-politics.html |
 | RZIM independent investigation (2021) | ✅ ready as a case | 13 |
 | Willow Creek Independent Advisory Group report (2019) | ⏳ confirm date and findings | — |
 | ECFA members' published data vs. most churches publishing nothing | ⏳ | — |
 | IBLP/Gothard as a documented sub-network | ⏳ | — |
+
+## Tactic examples, phrasebook and vignette — verifiable anchors
+
+| Anchor | Status | Source |
+|---|---|---|
+| Grade 12 (SBC report found allegations tracked and resisted) | ✅ | 7 |
+| Grade 17 (departing staff characterized from the pulpit — Mars Hill, Hillsong, RZIM) | ✅ | 12, 13 |
+| "The people who exposed Mars Hill, Hillsong and the SBC were not atheists" | ✅ (Christianity Today; Baptist survivor-advocates; Guidepost commissioned by messengers) | 7, 12 |
+| Worship-service emotional dynamics, testimony culture | 🔹 | — |
