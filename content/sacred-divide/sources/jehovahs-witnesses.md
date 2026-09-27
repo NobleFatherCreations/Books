@@ -39,6 +39,18 @@ Legend: ✅ confirmed · ✏️ corrected · 🔹 interpretive · ⏳ open.
 ### History
 12. *Encyclopaedia Britannica*, "Jehovah's Witnesses" — Russell (1870s; *Zion's Watch Tower* 1879); Rutherford; the name (1931); Nazi persecution; blood (1945); 1975; the Governing Body (1971). https://www.britannica.com/topic/Jehovahs-Witnesses
 
+### Added with the full page (2026-09-27)
+13. Charity Commission for England and Wales, Watch Tower Bible and Tract Society of Britain (charity 1077961), financial history 2021–2025. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/3966490/financial-history
+14. Charity Commission, "Watchdog reports on investigation into Watch Tower Bible and Tract Society of Britain" (4 Aug 2023; marked withdrawn on GOV.UK, 10 Sept 2026). https://www.gov.uk/government/news/watchdog-reports-on-investigation-into-watch-tower-bible-and-tract-society-of-britain
+15. Courthouse News Service, "Court Guts Victim's Award in Church Molestation Case" (14 Apr 2015). https://www.courthousenews.com/court-guts-victims-award-in-church-molestation-case/
+16. Reveal, "California court guts child abuse ruling against Jehovah's Witnesses" (2015). https://revealnews.org/article/california-court-guts-child-abuse-ruling-against-jehovahs-witnesses/
+17. *The Japan Times*, "Many children of Jehovah's Witnesses experience abuse, Japan report says" (21 Nov 2023). https://www.japantimes.co.jp/news/2023/11/21/japan/society/jehovahs-witnesses-survey-abuse/
+18. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
+19. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+20. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
+21. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
+22. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/
+
 ---
 
 ## Claim register
