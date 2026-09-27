@@ -401,6 +401,11 @@ G('The worst are Sunni Islam, Taoism, Judaism, Shia Islam, Sikhism, and Jainism.
 G('The Instruments (11) · Your Track (4 paths)', 'The Instruments (12) · Your Track (6 paths)', 1)
 
 
+# ============ Turning points (V3.turning), audited after pass 1 ============
+G("converting the Muslim world's most cited seat of learning into an institution whose leadership is appointed under state law.",
+  "converting the Muslim world's most cited seat of learning into an institution whose leadership is appointed under state law. Since 2012 the Grand Imam has been elected by al-Azhar's own Council of Senior Scholars.", 1)
+G('— and why does that trail end at a ministry every time?', '— and why does that trail end at a ministry almost every time?', 1)  # same softening as the apex tell
+
 # ============ Notes that promised "verify" flags, and the reader-facing change log ============
 G("Every structural grade carries its authored basis and is open to dispute; every 'verify' flag marks a figure awaiting a primary source.",
   'Every structural grade carries its authored basis and is open to dispute.', 1)
