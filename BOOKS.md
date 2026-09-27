@@ -124,6 +124,8 @@ three-register tactic entries) is still undeployed, user's call.
   given the gambling/crisis-support callout pattern already established —
   a calm, findable resources section matters more than usual.
 
+**PDF edition (2026-09-27):** every religion has all 27 sections filled and sourced (918/918); a printable PDF per religion builds from `content/sacred-divide/religions/<id>.md` (`scripts/sacred-divide-pdf.py --all`), with a manifest for the site's Download button. Not yet deployed.
+
 ## children — Playground Protectors **[from review doc]**
 
 Kids' book on manipulation/tricky people, written for two audiences at

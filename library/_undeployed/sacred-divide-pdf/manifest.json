@@ -3,291 +3,291 @@
   "title": "Ahmadiyya",
   "family": "Islam",
   "file": "ahmadiyya.pdf",
-  "pages": 38,
-  "bytes": 1726626,
+  "pages": 39,
+  "bytes": 1783103,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "22/27"
+  "sections_filled": "27/27"
  },
  "anglicanism": {
   "title": "Anglicanism",
   "family": "Christianity",
   "file": "anglicanism.pdf",
-  "pages": 37,
-  "bytes": 1707092,
+  "pages": 39,
+  "bytes": 1813068,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "22/27"
+  "sections_filled": "27/27"
  },
  "bahai": {
   "title": "Baháʼí Faith",
   "family": "Persian-born",
   "file": "bahai.pdf",
-  "pages": 53,
-  "bytes": 2141246,
+  "pages": 54,
+  "bytes": 2287906,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "22/27"
+  "sections_filled": "27/27"
  },
  "buddhism": {
   "title": "Buddhism",
   "family": "Buddhism",
   "file": "buddhism.pdf",
-  "pages": 53,
-  "bytes": 2146711,
+  "pages": 54,
+  "bytes": 2296436,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "23/27"
+  "sections_filled": "27/27"
  },
  "catholicism": {
   "title": "Catholicism",
   "family": "Christianity",
   "file": "catholicism.pdf",
-  "pages": 60,
-  "bytes": 2415573,
+  "pages": 61,
+  "bytes": 2506284,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "24/27"
+  "sections_filled": "27/27"
  },
  "christianity": {
   "title": "Christianity",
   "family": "Christianity",
   "file": "christianity.pdf",
-  "pages": 54,
-  "bytes": 2253715,
+  "pages": 57,
+  "bytes": 2454751,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "22/27"
+  "sections_filled": "27/27"
  },
  "confucianism": {
   "title": "Confucianism",
   "family": "East Asian",
   "file": "confucianism.pdf",
   "pages": 51,
-  "bytes": 2040342,
+  "bytes": 2175545,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "22/27"
+  "sections_filled": "27/27"
  },
  "dawoodi-bohra": {
   "title": "Dawoodi Bohra",
   "family": "Islam",
   "file": "dawoodi-bohra.pdf",
   "pages": 37,
-  "bytes": 1714785,
+  "bytes": 1781306,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "22/27"
+  "sections_filled": "27/27"
  },
  "eastern-orthodoxy": {
   "title": "Eastern Orthodoxy",
   "family": "Christianity",
   "file": "eastern-orthodoxy.pdf",
-  "pages": 54,
-  "bytes": 2174568,
+  "pages": 57,
+  "bytes": 2413745,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "22/27"
+  "sections_filled": "27/27"
  },
  "hare-krishna": {
   "title": "Hare Krishna / ISKCON",
   "family": "Dharmic",
   "file": "hare-krishna.pdf",
-  "pages": 53,
-  "bytes": 2150704,
+  "pages": 54,
+  "bytes": 2285372,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "23/27"
+  "sections_filled": "27/27"
  },
  "hinduism": {
   "title": "Hinduism",
   "family": "Dharmic",
   "file": "hinduism.pdf",
-  "pages": 54,
-  "bytes": 2230687,
+  "pages": 57,
+  "bytes": 2365809,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "24/27"
+  "sections_filled": "27/27"
  },
  "indigenous": {
   "title": "Indigenous / Folk / Ancestral Religions",
   "family": "Indigenous & folk",
   "file": "indigenous.pdf",
-  "pages": 53,
-  "bytes": 2184150,
+  "pages": 55,
+  "bytes": 2318123,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "23/27"
+  "sections_filled": "27/27"
  },
  "islam": {
   "title": "Islam",
   "family": "Islam",
   "file": "islam.pdf",
-  "pages": 57,
-  "bytes": 2327870,
+  "pages": 59,
+  "bytes": 2500870,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "23/27"
+  "sections_filled": "27/27"
  },
  "jainism": {
   "title": "Jainism",
   "family": "Dharmic",
   "file": "jainism.pdf",
-  "pages": 51,
-  "bytes": 2043600,
+  "pages": 52,
+  "bytes": 2196755,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "22/27"
+  "sections_filled": "27/27"
  },
  "jehovahs-witnesses": {
   "title": "Jehovah's Witnesses",
   "family": "Restorationist & Adventist",
   "file": "jehovahs-witnesses.pdf",
-  "pages": 56,
-  "bytes": 2343649,
+  "pages": 59,
+  "bytes": 2466529,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "24/27"
+  "sections_filled": "27/27"
  },
  "judaism": {
   "title": "Judaism",
   "family": "Judaism",
   "file": "judaism.pdf",
   "pages": 53,
-  "bytes": 2168628,
+  "bytes": 2316544,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "22/27"
+  "sections_filled": "27/27"
  },
  "mormonism": {
   "title": "Mormonism / LDS",
   "family": "Restorationist & Adventist",
   "file": "mormonism.pdf",
-  "pages": 57,
-  "bytes": 2356454,
+  "pages": 60,
+  "bytes": 2454589,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "24/27"
+  "sections_filled": "27/27"
  },
  "new-age": {
   "title": "New Age / Spiritual-but-Organized Movements",
   "family": "New movements & the spiritual marketplace",
   "file": "new-age.pdf",
   "pages": 53,
-  "bytes": 2190632,
+  "bytes": 2276451,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "23/27"
+  "sections_filled": "27/27"
  },
  "oriental-orthodoxy": {
   "title": "Oriental Orthodoxy",
   "family": "Christianity",
   "file": "oriental-orthodoxy.pdf",
-  "pages": 37,
-  "bytes": 1677228,
+  "pages": 39,
+  "bytes": 1755686,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "22/27"
+  "sections_filled": "27/27"
  },
  "orthodox-hasidic-judaism": {
   "title": "Orthodox / Hasidic Judaism",
   "family": "Judaism",
   "file": "orthodox-hasidic-judaism.pdf",
-  "pages": 54,
-  "bytes": 2236876,
+  "pages": 55,
+  "bytes": 2328028,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "24/27"
+  "sections_filled": "27/27"
  },
  "pentecostal-charismatic": {
   "title": "Pentecostal & Charismatic",
   "family": "Christianity",
   "file": "pentecostal-charismatic.pdf",
-  "pages": 57,
-  "bytes": 2233528,
+  "pages": 59,
+  "bytes": 2421901,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "23/27"
+  "sections_filled": "27/27"
  },
  "plymouth-brethren": {
   "title": "Plymouth Brethren Christian Church (Exclusive Brethren)",
   "family": "Christianity",
   "file": "plymouth-brethren.pdf",
-  "pages": 35,
-  "bytes": 1572775,
+  "pages": 36,
+  "bytes": 1658194,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "22/27"
+  "sections_filled": "27/27"
  },
  "protestant-evangelical": {
   "title": "Protestant / Evangelical Christianity",
   "family": "Christianity",
   "file": "protestant-evangelical.pdf",
-  "pages": 57,
-  "bytes": 2341214,
+  "pages": 58,
+  "bytes": 2458324,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "24/27"
+  "sections_filled": "27/27"
  },
  "scientology": {
   "title": "Scientology",
   "family": "New movements & the spiritual marketplace",
   "file": "scientology.pdf",
-  "pages": 53,
-  "bytes": 2221716,
+  "pages": 54,
+  "bytes": 2348121,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "24/27"
+  "sections_filled": "27/27"
  },
  "seventh-day-adventism": {
   "title": "Seventh-day Adventism",
   "family": "Restorationist & Adventist",
   "file": "seventh-day-adventism.pdf",
-  "pages": 54,
-  "bytes": 2196516,
+  "pages": 55,
+  "bytes": 2327327,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "23/27"
+  "sections_filled": "27/27"
  },
  "shia-islam": {
   "title": "Shia Islam",
   "family": "Islam",
   "file": "shia-islam.pdf",
-  "pages": 55,
-  "bytes": 2284628,
+  "pages": 57,
+  "bytes": 2530607,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "23/27"
+  "sections_filled": "27/27"
  },
  "shinto": {
   "title": "Shinto",
   "family": "East Asian",
   "file": "shinto.pdf",
   "pages": 52,
-  "bytes": 2091261,
+  "bytes": 2219185,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "22/27"
+  "sections_filled": "27/27"
  },
  "sikhism": {
   "title": "Sikhism",
   "family": "Dharmic",
   "file": "sikhism.pdf",
-  "pages": 53,
-  "bytes": 2158511,
+  "pages": 54,
+  "bytes": 2284918,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "23/27"
+  "sections_filled": "27/27"
  },
  "soka-gakkai": {
   "title": "Soka Gakkai",
   "family": "Buddhism",
   "file": "soka-gakkai.pdf",
-  "pages": 35,
-  "bytes": 1535117,
+  "pages": 36,
+  "bytes": 1599050,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "22/27"
+  "sections_filled": "27/27"
  },
  "sunni-islam": {
   "title": "Sunni Islam",
@@ -303,40 +303,40 @@
   "title": "Taoism / Daoism",
   "family": "East Asian",
   "file": "taoism.pdf",
-  "pages": 53,
-  "bytes": 2099195,
+  "pages": 54,
+  "bytes": 2221005,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "22/27"
+  "sections_filled": "27/27"
  },
  "tibetan-buddhism": {
   "title": "Tibetan Buddhism",
   "family": "Buddhism",
   "file": "tibetan-buddhism.pdf",
-  "pages": 55,
-  "bytes": 2222511,
+  "pages": 57,
+  "bytes": 2315779,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "23/27"
+  "sections_filled": "27/27"
  },
  "unification-church": {
   "title": "Unification Church / Family Federation",
   "family": "New movements & the spiritual marketplace",
   "file": "unification-church.pdf",
-  "pages": 38,
-  "bytes": 1695072,
+  "pages": 39,
+  "bytes": 1765483,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "22/27"
+  "sections_filled": "27/27"
  },
  "zoroastrianism": {
   "title": "Zoroastrianism",
   "family": "Persian-born",
   "file": "zoroastrianism.pdf",
-  "pages": 53,
-  "bytes": 2123054,
+  "pages": 54,
+  "bytes": 2267368,
   "version": "v4",
   "checked": "2026-09-27",
-  "sections_filled": "23/27"
+  "sections_filled": "27/27"
  }
 }

@@ -3529,3 +3529,27 @@ Dubai would follow") and an architecture that imports each religion's MD into th
   as a table, not cards — normalise when filling.
 - **Audit gap found:** the pass-1 claims inventory never included `V3.turning` (Moments in the room).
   Sunni's three are now checked (one correction); the other 26 religions' 78 still need checking.
+
+## Update (2026-09-27, end of day) — every religion filled 27/27; all 34 PDFs rebuilt
+
+- **Coverage: 918/918.** `content/sacred-divide/additions/<id>.md` now exists for all 34 religions;
+  `_coverage.md` shows no ◐ or ⏳. Each addition file carries Branches, Law & state, Money in numbers,
+  Cases (≥3), Voices, Regional cards, Leaving safely and Where to get help, all cited to numbered
+  sources appended to that religion's own Sources list (`sources/<id>.md`, or the Sources list inside
+  `new-traditions/<id>.md` for the 7 new religions).
+- **Method that worked:** UK Charity Commission financial history gives a primary-data chart for almost
+  any tradition with a UK charity — URL `…/charity-details/<id>/financial-history`, where `<id>` is either
+  the charity number (older charities) or the internal organisation number (resolve via
+  `charity-details/?regid=<number>&subid=0`). Used for Thyateira, Hillsong London, KICC, OneSchool Global,
+  LDS GB, Watch Tower Britain, SDA British Union, United Synagogue, BAPS, Bhaktivedanta Manor, Oshwal,
+  English Sangha Trust, Rigpa, SGI-UK, Taoist Tai Chi GB, ZTFE, the UK Bahá'í NSA, Coptic Centre.
+- **Rule kept:** nothing cited that could not be read. Where only a search snippet existed, the claim was
+  cut or softened (logged in each file's `## changed`). Two claims were wrong and are fixed: Unification
+  Church membership (Prusa: claims 1–10m; ≥600k in the 1990s; ~60k official in Japan), and the Dabholkar
+  case (a convict's life sentence was suspended in Aug 2026).
+- **Open pass-1 flags all resolved** (verified or rewritten as reader-facing notes): no "confirm",
+  "replace with", "Add source" or `(verify)` text remains in any exported religion file.
+- **PDFs:** all 34 rebuilt (1,769 pages). Bookmark counter in `sacred-divide-pdf.py` was under-counting
+  (reported 29, tree actually 121) — fixed. The 7 new religions still show their 30 techniques as a
+  table (≈61 bookmarks vs ≈115) — the one remaining normalisation job before final polish.
+- **Not deployed.** The v4 site and PDFs wait for the owner's explicit go-ahead.

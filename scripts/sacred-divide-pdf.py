@@ -340,7 +340,7 @@ def render(rid, html_only=False):
     r = PdfReader(out_pdf)
     links = sum(1 for p in r.pages for a in (p.get('/Annots') or []) if a.get_object().get('/Subtype') == '/Link')
     def count(o):
-        return sum(1 + (count(x) if isinstance(x, list) else 0) for x in o if not isinstance(x, list))
+        return sum(count(x) if isinstance(x, list) else 1 for x in o)
     print(f'{out_pdf}: {len(r.pages)} pages, {links} links, {count(r.outline)} bookmarks')
     # manifest the site's Download button reads: one entry per religion
     man_path = os.path.join(OUTDIR, 'manifest.json')
