@@ -1424,6 +1424,12 @@ Checked 2026-09-27.
 26. Egyptian Streets, "Egypt's Al-Azhar Criticizes Gender Equality in Inheritance, Unlike Tunisia" (Aug 2017 — al-Azhar's deputy on the Tunisian reforms). https://egyptianstreets.com/2017/08/16/egypts-al-azhar-criticizes-gender-equality-in-inheritance-unlike-tunisia/
 27. TIMEP, "The Moudawana: Morocco's Nearly 20-Year Old Family Code" (2023) — judges approved 81% of 32,000 underage-marriage requests in 2019. https://timep.org/2023/07/07/the-moudawana-moroccos-nearly-20-year-old-family-code/
 
+### Where to get help (vetted 2026-09-27; UK numbers unless stated)
+28. Muslim Women's Network Helpline — 0303 330 0288. https://www.mwnuk.co.uk/mwn-helpline
+29. Karma Nirvana (forced marriage and honour-based abuse) — 0800 5999 247. https://karmanirvana.org.uk/
+30. Faith to Faithless (Humanists UK), helpline for people leaving high-control religious groups — 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+31. Ex-Muslims of North America (US/Canada; 501(c)(3), founded 2013). https://exmuslims.org/about-us/
+
 ### Added for the full page (2026-09-27)
 32. *Encyclopaedia Britannica*, "Ibāḍīyyah" (Oman's majority; over 2.5 million). https://www.britannica.com/topic/Ibadiyyah
 33. Saudipedia, "Timeline of the Number of Pilgrims from 1970 to 2025" (GASTAT); GASTAT, Hajj 2026 (1,707,301). https://saudipedia.com/en/timeline-of-the-number-of-pilgrims-from-1970-to-2025 · https://www.stats.gov.sa/en/w/news/194
@@ -1433,12 +1439,6 @@ Checked 2026-09-27.
 37. Humanists International, "Humanists at Risk". https://humanists.international/what-we-do/humanists-at-risk/
 38. Dubai Foundation for Women and Children, "Helpline" (800111). https://www.dfwac.ae/helpline
 39. Constitution of Morocco (2011), Article 41 — the King as Amir al-Mu'minin. https://www.constituteproject.org/constitution/Morocco_2011
-
-### Where to get help (vetted 2026-09-27; UK numbers unless stated)
-28. Muslim Women's Network Helpline — 0303 330 0288. https://www.mwnuk.co.uk/mwn-helpline
-29. Karma Nirvana (forced marriage and honour-based abuse) — 0800 5999 247. https://karmanirvana.org.uk/
-30. Faith to Faithless (Humanists UK), helpline for people leaving high-control religious groups — 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
-31. Ex-Muslims of North America (US/Canada; 501(c)(3), founded 2013). https://exmuslims.org/about-us/
 
 ## 27. What changed on this page {#changed}
 
