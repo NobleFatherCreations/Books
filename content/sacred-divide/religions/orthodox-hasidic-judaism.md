@@ -131,9 +131,9 @@ New York City's investigation into secular instruction in Hasidic boys' yeshivas
 :::
 
 ::: card
-#### 2013–2015 — Nechemya Weberman, and the seats in the courtroom
+#### 2012–2026 — Nechemya Weberman, and the seats in the courtroom
 
-A prominent Satmar counsellor was convicted of sustained sexual abuse of a girl who had been sent to him. Members of the community filled the courtroom in his support; the victim's family faced boycott and pressure.
+A prominent Satmar counsellor was convicted in December 2012 of sustained sexual abuse of a girl who had been sent to him. Members of the community filled the courtroom in his support; the victim's family faced boycott and pressure. His 103-year sentence was cut to 50 in 2013 and, in January 2026, to 18 years after he admitted guilt.
 
 **Why it matters.** The mechanism made visible in one room: the community's enforcement apparatus deployed not against the abuser but against the family that used the courts.
 :::
@@ -1200,7 +1200,7 @@ Sources for this section: [7]
 - **when:** 2012
 - **what:** An unlicensed counselor in a Hasidic community was convicted of sexually abusing a teenage girl. The complainant's family faced community retaliation and boycott for reporting to secular authorities, and supporters of the accused attempted to intimidate witnesses.
 - **record:** New York State court records
-- **outcome:** Conviction and a 103-year sentence, later cut to 50. Several prominent rabbis have since ruled that reporting abuse with a substantial basis is not mesirah — though Agudath Israel's rabbinical board still requires consulting a rabbi first — and in 2021–22 community leaders sought his clemency.
+- **outcome:** Conviction and a 103-year sentence, later cut to 50. Several prominent rabbis have since ruled that reporting abuse with a substantial basis is not mesirah — though Agudath Israel's rabbinical board still requires consulting a rabbi first — and in 2021–22 community leaders sought his clemency. In January 2026 a Brooklyn judge resentenced him to 18 years after he admitted guilt and apologised to the victim.
 - **tactics:** 16, 17, 18
 - **grade:** Documented
 :::

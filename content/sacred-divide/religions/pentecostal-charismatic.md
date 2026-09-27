@@ -128,7 +128,7 @@ Pentecostalism began in the first decade of the twentieth century as a movement 
 ::: card
 #### April 1906 — A dirt street, and a movement nobody authorised
 
-William J. Seymour, the son of formerly enslaved parents and blind in one eye, preached at 312 Azusa Street to a congregation that was Black, white, Latino, and Asian together, in a city and a decade where that was close to illegal. There was no seminary, no denomination, no license.
+William J. Seymour, the son of formerly enslaved parents and blind in one eye, preached at 312 Azusa Street to a congregation that was Black, white, Latino, and Asian together, in a city and a decade where that was rare and widely mocked. There was no seminary, no denomination, no license.
 
 **Why it matters.** The movement's founding principle — the Spirit falls on anyone, bypassing every gatekeeper — was genuinely liberating and is structurally identical to the mechanism that now protects founders from review. One principle, two centuries of consequences.
 :::

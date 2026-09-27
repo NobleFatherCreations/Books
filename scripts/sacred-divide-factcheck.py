@@ -406,6 +406,36 @@ G("converting the Muslim world's most cited seat of learning into an institution
   "converting the Muslim world's most cited seat of learning into an institution whose leadership is appointed under state law. Since 2012 the Grand Imam has been elected by al-Azhar's own Council of Senior Scholars.", 1)
 G('— and why does that trail end at a ministry every time?', '— and why does that trail end at a ministry almost every time?', 1)  # same softening as the apex tell
 
+# ============ Turning points, all 27 religions (sources/_turning-points.md) ============
+G('217,000, and then the number moves', '216,000, and then the number moves', 1)
+G("Days later the head of the bishops' conference disputed the confessional finding.",
+  "Days later the head of the bishops' conference said the seal of confession was \"stronger than the laws of the Republic\", rejecting the report's central reporting recommendation.", 1)
+G('directed that clergy solicitation cases be handled under the pontifical secret, binding participants',
+  'directed that clergy solicitation cases be handled under the secret of the Holy Office, binding participants', 1)
+G('at a meeting arranged in the middle of a war he was losing,', 'at a meeting arranged in the middle of the war,', 1)
+G('in a city and a decade where that was close to illegal.', 'in a city and a decade where that was rare and widely mocked.', 1)
+G("US churches were excluded from the Form 990 disclosure requirement imposed on other tax-exempt charities. No hearing established that churches needed the exclusion; it was carried forward from earlier practice and has stood ever since.",
+  "The annual Form 990 return, required of tax-exempt organisations since 1943, exempted religious bodies from the start. In 1969 Congress narrowed that exemption for everyone else — and kept it for churches. It has stood ever since.", 1)
+SET(None, 'V3.turning.judaism[2]', ['2013–2015', 'The get, and the limits of the courts',
+    'Federal prosecutors in New Jersey convicted rabbis and associates who ran a ring kidnapping and beating husbands to force a get; its leader was sentenced to ten years in 2015.',
+    'The civil law could punish the violence used to break a refusal. The refusal itself — the husband’s unilateral power — stayed beyond any court’s reach, rabbinic or civil.'])
+SET(None, 'V3.turning.orthodox-hasidic-judaism[2][0]', '2012–2026', old='2013–2015')
+G('A prominent Satmar counsellor was convicted of sustained sexual abuse of a girl who had been sent to him. Members of the community filled the courtroom in his support; the victim\'s family faced boycott and pressure.',
+  'A prominent Satmar counsellor was convicted in December 2012 of sustained sexual abuse of a girl who had been sent to him. Members of the community filled the courtroom in his support; the victim\'s family faced boycott and pressure. His 103-year sentence was cut to 50 in 2013 and, in January 2026, to 18 years after he admitted guilt.', 1)
+G('and in 2021–22 community leaders sought his clemency.',
+  'and in 2021–22 community leaders sought his clemency. In January 2026 a Brooklyn judge resentenced him to 18 years after he admitted guilt and apologised to the victim.', 1)
+G('Six days after the Dalai Lama recognised Gedhun Choekyi Nyima', 'Three days after the Dalai Lama recognised Gedhun Choekyi Nyima', 1)
+G('A Governing Body member gave evidence by video link.', 'A Governing Body member, found to be visiting Australia, was subpoenaed and gave evidence in person.', 1)
+SET(None, 'V3.turning.shinto[2][0]', '2017–2024', old='2017–present')
+G("put Jinja Honcho's own governance into Japanese courts, where litigation over its internal conduct has continued.",
+  "put Jinja Honcho's own governance into Japanese courts, where the dismissed staff won (final, 2022) and a rival claim to the presidency was rejected (final, 2024).", 1)
+G('the matter was resolved for the individual without settling the general rule.',
+  'the matter was resolved for the individual without settling the general rule. In 2026 the general question reached a nine-judge constitutional bench, where judgment is reserved.', 1)
+G('with over 4,100 identified child deaths and further unmarked graves confirmed since 2021.',
+  'documenting more than 3,200 child deaths; the national memorial register listed 4,037 names in 2019 and added more than 1,100 in 2025, and potential unmarked graves have been identified since 2021.', 1)
+G('It was the largest mass religious conversion in modern history', 'It was one of the largest mass religious conversions in modern history', 1)
+G('and the religious sanction for caste was never repudiated by any religious authority.', 'and the religious sanction for caste was not repudiated by the religious authorities of the day.', 1)
+
 # ============ Notes that promised "verify" flags, and the reader-facing change log ============
 G("Every structural grade carries its authored basis and is open to dispute; every 'verify' flag marks a figure awaiting a primary source.",
   'Every structural grade carries its authored basis and is open to dispute.', 1)

@@ -139,7 +139,7 @@ Johann Tetzel was selling indulgences with a published tariff and a jingle about
 ::: card
 #### 1969 — The exemption that was never revisited
 
-US churches were excluded from the Form 990 disclosure requirement imposed on other tax-exempt charities. No hearing established that churches needed the exclusion; it was carried forward from earlier practice and has stood ever since.
+The annual Form 990 return, required of tax-exempt organisations since 1943, exempted religious bodies from the start. In 1969 Congress narrowed that exemption for everyone else — and kept it for churches. It has stood ever since.
 
 **Why it matters.** One drafting decision is why an American can read the accounts of a food bank and not of a church with a billion-dollar portfolio. It is a statute, not a law of nature, and it can be amended.
 :::

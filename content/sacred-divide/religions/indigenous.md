@@ -125,7 +125,7 @@ Canada and the United States criminalised central ceremonies for decades. People
 ::: card
 #### 1996 and 2015 — The last school closes; the Commission reports
 
-Canada's last residential school closed in 1996. In 2015 the Truth and Reconciliation Commission documented the system and named it cultural genocide, with over 4,100 identified child deaths and further unmarked graves confirmed since 2021.
+Canada's last residential school closed in 1996. In 2015 the Truth and Reconciliation Commission documented the system and named it cultural genocide, documenting more than 3,200 child deaths; the national memorial register listed 4,037 names in 2019 and added more than 1,100 in 2025, and potential unmarked graves have been identified since 2021.
 
 **Why it matters.** The most thoroughly documented case in this codex of religious institutions operating a state programme against children — and the only page where the codex's usual accountability question points outward at churches and governments rather than inward.
 :::

@@ -131,11 +131,11 @@ Hebrew Union College ordained the first woman rabbi in American Judaism. Elected
 :::
 
 ::: card
-#### 2013–2018 — The get refusers, and the courts that acted
+#### 2013–2015 — The get, and the limits of the courts
 
-A series of prosecutions and civil actions in the US and UK — including criminal convictions over coercive get practices and the use of anti-stalking and coercive-control statutes — established that civil law could reach where rabbinic courts declined to.
+Federal prosecutors in New Jersey convicted rabbis and associates who ran a ring kidnapping and beating husbands to force a get; its leader was sentenced to ten years in 2015.
 
-**Why it matters.** Secular courts doing what religious courts held they could not. The halachic mechanism was always available; what was missing was the will, and outside pressure is what supplied it.
+**Why it matters.** The civil law could punish the violence used to break a refusal. The refusal itself — the husband’s unilateral power — stayed beyond any court’s reach, rabbinic or civil.
 :::
 
 ::: cites

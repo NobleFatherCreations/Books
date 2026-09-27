@@ -121,7 +121,7 @@ c. 200 BCE–500 CE | Dharmashastra literature (Manusmriti); epics; caste codifi
 ::: card
 #### 1927–1932 — Ambedkar burns the Manusmriti; then wins at the table
 
-At Mahad in 1927 Ambedkar publicly burned a copy of the Manusmriti. Five years later, after his hunger-strike confrontation with Gandhi, the Poona Pact settled the electoral question — and the religious sanction for caste was never repudiated by any religious authority.
+At Mahad in 1927 Ambedkar publicly burned a copy of the Manusmriti. Five years later, after his hunger-strike confrontation with Gandhi, the Poona Pact settled the electoral question — and the religious sanction for caste was not repudiated by the religious authorities of the day.
 
 **Why it matters.** Political remedies arrived; doctrinal ones did not. The gap between those two sentences is the whole content of this page's hardest question.
 :::

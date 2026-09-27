@@ -123,7 +123,7 @@ Continuous institutional development from the early church of Rome; papal primac
 ::: card
 #### 1962 — Crimen sollicitationis
 
-A Holy Office instruction directed that clergy solicitation cases be handled under the pontifical secret, binding participants — including, in effect, victims — to silence under threat of excommunication. It was sent to bishops and not published.
+A Holy Office instruction directed that clergy solicitation cases be handled under the secret of the Holy Office, binding participants — including, in effect, victims — to silence under threat of excommunication. It was sent to bishops and not published.
 
 **Why it matters.** Not a failure of a system but the system working. Every national inquiry that followed found bishops who had files and rules for keeping them, and this is the document the rules descended from.
 :::
@@ -137,9 +137,9 @@ Spotlight's first story was about John Geoghan. The second was about the archdio
 :::
 
 ::: card
-#### October 2021 — 217,000, and then the number moves
+#### October 2021 — 216,000, and then the number moves
 
-France's independent CIASE commission reported an estimated 216,000 minors abused by clergy since 1950, rising to around 330,000 including lay church personnel. The Church itself had commissioned it. Days later the head of the bishops' conference disputed the confessional finding.
+France's independent CIASE commission reported an estimated 216,000 minors abused by clergy since 1950, rising to around 330,000 including lay church personnel. The Church itself had commissioned it. Days later the head of the bishops' conference said the seal of confession was "stronger than the laws of the Republic", rejecting the report's central reporting recommendation.
 
 **Why it matters.** An institution paid for the count and then contested it in public within a week. This is what accountability looks like when the accountable party keeps the right to interpret the audit.
 :::

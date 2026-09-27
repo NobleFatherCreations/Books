@@ -131,9 +131,9 @@ The occupation authorities ordered the complete separation of Shinto from the st
 :::
 
 ::: card
-#### 2017–present — The shrine association in court
+#### 2017–2024 — The shrine association in court
 
-A property-sale scandal and a whistleblower's dismissal put Jinja Honcho's own governance into Japanese courts, where litigation over its internal conduct has continued.
+A property-sale scandal and a whistleblower's dismissal put Jinja Honcho's own governance into Japanese courts, where the dismissed staff won (final, 2022) and a rival claim to the presidency was rejected (final, 2024).
 
 **Why it matters.** The shrine world's accountability test is running in open court because no internal body would run it. Note where the venue is.
 :::

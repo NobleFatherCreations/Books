@@ -38,7 +38,7 @@ HTML = re.compile(r'<[^>]+>')
 # where every sentence is a factual claim, whatever its wording
 FACTUAL = re.compile(r'^(profile\.(neutral|origin|authority|money|exit|whoBenefits|timeline|demographics|info|children|gender|'
                      r'moneyTable|exitTable|whoPays|genealogy|roster|differential|victories)|case |apex|regional|sector|compel|'
-                     r'succession|promises|score)')
+                     r'succession|promises|score|turning)')
 
 
 def load(path):
@@ -85,7 +85,7 @@ def main(src, out_dir):
             if c['tradition'] == rid:
                 items += leaves({f: c[f] for f in ('title', 'when', 'what', 'source', 'outcome')}, f"case {c['id']}")
         for name, blob in (('apex', V2['apex']), ('unanswered', V2['unanswered']), ('compel', V3['compel']),
-                           ('revise', V3['revise']), ('phrasebook', V6['language']['per']),
+                           ('revise', V3['revise']), ('turning', V3['turning']), ('phrasebook', V6['language']['per']),
                            ('regional', V6['regions']['cards']), ('score', V7['score'])):
             if rid in blob: items += leaves(blob[rid], name)
         kws = KEYWORDS.get(rid, []) + [r['name']]

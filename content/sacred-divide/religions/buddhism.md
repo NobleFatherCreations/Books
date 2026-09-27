@@ -117,7 +117,7 @@ c. 250 BCE | Ashoka's patronage; missions to Sri Lanka and beyond | Royal sponso
 ::: card
 #### 1956 — Ambedkar converts, with half a million people
 
-At Nagpur, B. R. Ambedkar took refuge with hundreds of thousands of Dalit followers, choosing Buddhism explicitly as an exit from caste. It was the largest mass religious conversion in modern history and it was framed as a liberation from a different religion's hierarchy.
+At Nagpur, B. R. Ambedkar took refuge with hundreds of thousands of Dalit followers, choosing Buddhism explicitly as an exit from caste. It was one of the largest mass religious conversions in modern history and it was framed as a liberation from a different religion's hierarchy.
 
 **Why it matters.** Buddhism entering the modern record as the escape route from another tradition's control system — the codex's clearest illustration that traditions are not uniformly anything.
 :::

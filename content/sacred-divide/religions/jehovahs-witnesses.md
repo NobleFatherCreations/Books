@@ -138,7 +138,7 @@ A body of internal directions instructed elders to keep abuse allegations confid
 ::: card
 #### 2015–2016 — The Royal Commission opens the files
 
-Australia's Royal Commission found records of 1,006 alleged perpetrators in the organisation's own files over six decades, not one of whom had been reported by the organisation to police. A Governing Body member gave evidence by video link.
+Australia's Royal Commission found records of 1,006 alleged perpetrators in the organisation's own files over six decades, not one of whom had been reported by the organisation to police. A Governing Body member, found to be visiting Australia, was subpoenaed and gave evidence in person.
 
 **Why it matters.** The organisation kept the count. It simply never told anyone. That single fact is why that page's unanswered question is phrased the way it is.
 :::

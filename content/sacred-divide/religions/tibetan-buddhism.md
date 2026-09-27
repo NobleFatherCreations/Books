@@ -122,7 +122,7 @@ Buddhism entered Tibet from the 7th century; monastic mass-institutionalization 
 ::: card
 #### May 1995 — A six-year-old disappears
 
-Six days after the Dalai Lama recognised Gedhun Choekyi Nyima as the eleventh Panchen Lama, the child and his family were taken into Chinese custody. He has not been seen publicly since. The state installed its own candidate.
+Three days after the Dalai Lama recognised Gedhun Choekyi Nyima as the eleventh Panchen Lama, the child and his family were taken into Chinese custody. He has not been seen publicly since. The state installed its own candidate.
 
 **Why it matters.** A child was removed from the world because of a recognition ritual he was too young to consent to. Whatever else is disputed on this page, this is not.
 :::

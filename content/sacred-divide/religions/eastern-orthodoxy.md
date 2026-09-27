@@ -127,7 +127,7 @@ Peter the Great replaced the Patriarch of Moscow with a Holy Synod under a lay O
 ::: card
 #### 1943 — Stalin's midnight meeting
 
-In September 1943, at a meeting arranged in the middle of a war he was losing, Stalin permitted the election of a patriarch after two decades of annihilating the clergy. The church that emerged had been reconstituted by the man who had destroyed it.
+In September 1943, at a meeting arranged in the middle of the war, Stalin permitted the election of a patriarch after two decades of annihilating the clergy. The church that emerged had been reconstituted by the man who had destroyed it.
 
 **Why it matters.** The hierarchy that survived was selected for its usefulness. Understanding this is what makes 2022 legible: the alignment is not a betrayal of the institution's form but a continuation of it.
 :::

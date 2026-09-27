@@ -137,7 +137,7 @@ Bombay Parsi Punchayet trustee elections became genuinely contested, fought subs
 ::: card
 #### 2018 — The Supreme Court hears the intermarriage question
 
-India's Supreme Court took up the case of a Parsi woman excluded from religious spaces after marrying outside the community; the matter was resolved for the individual without settling the general rule.
+India's Supreme Court took up the case of a Parsi woman excluded from religious spaces after marrying outside the community; the matter was resolved for the individual without settling the general rule. In 2026 the general question reached a nine-judge constitutional bench, where judgment is reserved.
 
 **Why it matters.** One woman got her answer; the community's own institutions still have not given theirs. The page's unanswered question is exactly this gap.
 :::
