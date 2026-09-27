@@ -52,6 +52,22 @@ Legend: ✅ confirmed · ✏️ corrected · 🔹 interpretive · ⏳ open.
 27. One in Four (Ireland — counselling for adults abused in childhood). https://www.oneinfour.ie/
 28. Voice of the Faithful (lay reform movement, founded 2002). https://www.votf.org/
 
+### Added for the full page (2026-09-27)
+29. katholisch.de, "Katholische Kirche in Deutschland verzeichnet Minus bei Kirchensteuer" (2023: €6.51bn; 2022: €6.84bn). https://katholisch.de/artikel/54584-katholische-kirche-in-deutschland-verzeichnet-minus-bei-kirchensteuer
+30. katholisch.de, "Katholische Kirche verzeichnet leichtes Plus bei Kirchensteuer" (2024). https://katholisch.de/artikel/62823-katholische-kirche-verzeichnet-leichtes-plus-bei-kirchensteuer
+31. Kirche-und-Leben.de, "Kirchensteuer: Minus 330 Millionen Euro für deutsche katholische Kirche" (2021: €6.73bn baseline). https://www.kirche-und-leben.de/artikel/kirchensteuer-katholische-kirche-deutschland-minus-rueckgang-330-millionen-euro
+32. Catholic Standard, "Vatican sees slight increase in donations to pope's charity fund" (Peter's Pence 2023: €48.4m). https://www.cathstan.org/us-world/vatican-sees-slight-increase-in-donations-to-popes-charity-fund
+33. EWTN News, "Peter's Pence collected more than 54 million euros for the pope's mission in 2025". https://www.ewtnnews.com/vatican/peter-s-pence-collected-more-than-54-million-euros-to-the-pope-s-mission-in-2025
+34. The Pillar, "Vatican budget black hole swallows Peter's Pence". https://www.pillarcatholic.com/p/vatican-budget-black-hole-swallows
+35. Vatican Radio, "Marie Collins resigns from Commission for Protection of Minors" (1 Mar 2017). https://www.archivioradiovaticana.va/storico/2017/03/01/marie_collins_resigns_from_commission_for_protection_of_minors/en-1295762
+36. Catholic World Report, "The 23 Eastern Catholic Churches: Ancient traditions in communion with Rome" (Sept 2026). https://www.catholicworldreport.com/2026/09/20/the-23-eastern-catholic-churches-ancient-traditions-in-communion-with-rome/
+37. Congregation for Bishops, decree remitting the excommunications of the four SSPX bishops (21 Jan 2009) — Catholic Culture library. https://www.catholicculture.org/culture/library/view.cfm?recnum=8730
+38. Pope Francis, *Ad charisma tuendum* (motu proprio, 14 July 2022) — Opus Dei. https://www.vatican.va/content/francesco/en/motu_proprio/documents/20220714-motu-proprio-ad-charisma-tuendum.html
+39. Recovering from Religion — helpline (844) 368-2848. https://www.recoveringfromreligion.org/
+40. NAPAC — support line 0808 801 0331. https://napac.org.uk/calling-our-support-line/
+41. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/
+42. RAINN — National Sexual Assault Hotline, 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
+
 ---
 
 ## Claim register

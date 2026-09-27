@@ -6,9 +6,9 @@ family_id: christianity-family
 family_members: [christianity, catholicism, eastern-orthodoxy, oriental-orthodoxy, anglicanism, protestant-evangelical, pentecostal-charismatic, plymouth-brethren]
 version: v4
 checked: 2026-09-27
-sections_filled: 24/27
-missing: [voices, leaving, help]
-partial: [branches, law, money]
+sections_filled: 27/27
+missing: []
+partial: []
 ---
 
 # Catholicism {#top}
@@ -150,15 +150,18 @@ Sources for this section: [9] [10] [25]
 
 ## 6. Branches & variants {#branches}
 
-::: gap
-**Partly documented for Catholicism.** This section is below the page standard and is on the fill list.
-:::
-
 Latin (Roman) Rite plus 23 Eastern Catholic churches; religious orders operate semi-autonomously.
 
 ::: cites
 Sources for this section: [25]
 :::
+
+| Branch | Where | What differs on this page's questions |
+|---|---|---|
+| **Latin (Roman) Church** | Worldwide; by far the largest [36] | The whole apex chain on this page: the pope, the Curia, diocesan bishops [1]. |
+| **23 Eastern Catholic Churches** | Middle East, Eastern Europe, India, Africa and diaspora [36] | Self-governing (*sui iuris*) churches in communion with Rome, with their own liturgies and, in several, married priests [36]. |
+| **Religious orders and prelatures** | Worldwide | Their own governments; in 2022 Opus Dei's prelate lost episcopal rank and its oversight moved to another Vatican office [38]. |
+| **Traditionalists (SSPX)** | Worldwide | Four bishops ordained without papal mandate were excommunicated in 1988; the excommunications were lifted in 2009, but the society's status is still irregular [37]. |
 
 ## 7. Structure {#structure}
 
@@ -213,19 +216,20 @@ Sources for this section: [5] [6] [7] [8] [9] [10] [13] [14] [15] [20]
 
 ## 8. Law & state here {#law}
 
-::: gap
-**Partly documented for Catholicism.** This section is below the page standard and is on the fill list.
-:::
+| Country | What the state does | The accountability question |
+|---|---|---|
+| **Germany** | Collects church tax through the tax office — €6.75bn for the Catholic dioceses in 2025 [20] | Leaving means a formal civil declaration, which ends the tax [20] |
+| **Austria** | The church collects its own contribution, enforced through the civil courts | — |
+| **Ireland** | Mandatory reporting to the child and family agency, with **no** exemption for confession (2015) [17] | The Ryan, Murphy and Cloyne reports [16] |
+| **United States** | No Form 990 for churches; state attorneys general and grand juries [15][18] | 44 dioceses and orders in bankruptcy [11]; a Washington state law requiring priests to report abuse heard in confession was blocked in 2025 [12] |
+| **Philippines** | No divorce law — the only state besides Vatican City [23] | Annulment through church tribunals is the main route out of a marriage [23] |
+| **Vatican City / Holy See** | A sovereign state with its own criminal court, and a UN observer [9][24] | "The First See is judged by no one" (canon 1404) [1] |
 
 ### Who can compel an answer
 
 The only bodies that have ever compelled disclosure here are civil: national commissions of inquiry, grand juries, courts, and charity regulators where dioceses are registered charities. For anything involving a minor, the safeguarding authority and the police outrank every internal process, including canonical ones.
 
 ## 9. Money {#money}
-
-::: gap
-**Partly documented for Catholicism.** This section is below the page standard and is on the fill list.
-:::
 
 ### Where it comes from
 
@@ -331,6 +335,19 @@ The only bodies that have ever compelled disclosure here are civil: national com
 ::: cites
 Sources for this section: [9] [10] [11] [20]
 :::
+
+### Money in numbers
+
+```chart
+{"id":"kist","type":"bar","title":"German Catholic church tax, 2021–2025","unit":"€ billion (nominal)",
+ "series":[["2021",6.73],["2022",6.84],["2023",6.51],["2024",6.63],["2025",6.75]],
+ "note":"Collected for the 27 dioceses by the state tax offices; flat in nominal terms and falling after inflation, as members leave.",
+ "cite":[31,29,30,20]}
+```
+
+- **Peter's Pence**, the pope's charity collection: donations of €48.4m in 2023 [32] and over €54m in 2025 [33]; reporting found most of it goes to the Curia's running costs [34].
+- **APSA**, the Holy See's property and investment office, has published a balance sheet only since 2021 [6]; the Vatican bank (IOR) since 2013 [7].
+- **US dioceses in bankruptcy:** 44 as of March 2026 [11].
 
 ## 10. Genealogy {#genealogy}
 
@@ -1291,9 +1308,10 @@ Sources for this section: [9] [10] [21]
 
 ## 21. Voices from inside {#voices}
 
-::: gap
-**Not yet documented for Catholicism.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+- **Marie Collins.** An Irish survivor who sat on the Pontifical Commission for the Protection of Minors and resigned in 2017, calling the Curia's lack of cooperation "shameful" [35].
+- **Voice of the Faithful.** A lay reform movement founded in 2002, after the Boston revelations [28].
+- **The Sauvé Commission (CIASE).** Commissioned by the French bishops themselves, it published its findings in full [13].
+- **Survivors' networks.** SNAP, founded in 1989, whose members forced much of the record on this page [26].
 
 ## 22. Regional variants {#regional}
 
@@ -1366,15 +1384,27 @@ Sources for this section: [9] [10]
 
 ## 24. Leaving safely here {#leaving}
 
-::: gap
-**Not yet documented for Catholicism.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Practical guidance, not legal advice.
+
+1. **In Germany,** leaving is a formal declaration at the registry office or local court, and it ends the church tax [20].
+2. **Marriage.** A civil divorce does not end a Catholic marriage in church law; remarriage in the church requires an annulment from a church tribunal [23].
+3. **If you were abused,** civil reporting is the first route — in Ireland even what is said in confession must be reported [17]; survivor networks can help [26][27].
+4. **Your records.** Sacramental records (baptism, marriage) are kept permanently in parish registers; leaving does not erase them.
+5. **Find support** that is not run by the church [26][39][40].
 
 ## 25. Where to get help {#help}
 
-::: gap
-**Not yet documented for Catholicism.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Checked 2026-09-27.
+
+| Organization | For | Where | Contact |
+|---|---|---|---|
+| **SNAP** | Survivors of clergy abuse | US and international | Via website [26] |
+| **One in Four** | Adults abused in childhood, including by clergy | Ireland | Via website [27] |
+| **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [40] |
+| **Childhelp** | Child abuse, now or in the past | US | **1-800-422-4453**, 24/7 [41] |
+| **RAINN** | Sexual assault | US | **1-800-656-4673**, 24/7 [42] |
+| **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [39] |
+| **Voice of the Faithful** | Catholics who are staying and pressing for reform | US | Via website [28] |
 
 ## 26. Sources {#sources}
 
@@ -1416,13 +1446,24 @@ Sources for this section: [9] [10]
 27. One in Four (Ireland — counselling for adults abused in childhood). https://www.oneinfour.ie/
 28. Voice of the Faithful (lay reform movement, founded 2002). https://www.votf.org/
 
+### Added for the full page (2026-09-27)
+29. katholisch.de, "Katholische Kirche in Deutschland verzeichnet Minus bei Kirchensteuer" (2023: €6.51bn; 2022: €6.84bn). https://katholisch.de/artikel/54584-katholische-kirche-in-deutschland-verzeichnet-minus-bei-kirchensteuer
+30. katholisch.de, "Katholische Kirche verzeichnet leichtes Plus bei Kirchensteuer" (2024). https://katholisch.de/artikel/62823-katholische-kirche-verzeichnet-leichtes-plus-bei-kirchensteuer
+31. Kirche-und-Leben.de, "Kirchensteuer: Minus 330 Millionen Euro für deutsche katholische Kirche" (2021: €6.73bn baseline). https://www.kirche-und-leben.de/artikel/kirchensteuer-katholische-kirche-deutschland-minus-rueckgang-330-millionen-euro
+32. Catholic Standard, "Vatican sees slight increase in donations to pope's charity fund" (Peter's Pence 2023: €48.4m). https://www.cathstan.org/us-world/vatican-sees-slight-increase-in-donations-to-popes-charity-fund
+33. EWTN News, "Peter's Pence collected more than 54 million euros for the pope's mission in 2025". https://www.ewtnnews.com/vatican/peter-s-pence-collected-more-than-54-million-euros-to-the-pope-s-mission-in-2025
+34. The Pillar, "Vatican budget black hole swallows Peter's Pence". https://www.pillarcatholic.com/p/vatican-budget-black-hole-swallows
+35. Vatican Radio, "Marie Collins resigns from Commission for Protection of Minors" (1 Mar 2017). https://www.archivioradiovaticana.va/storico/2017/03/01/marie_collins_resigns_from_commission_for_protection_of_minors/en-1295762
+36. Catholic World Report, "The 23 Eastern Catholic Churches: Ancient traditions in communion with Rome" (Sept 2026). https://www.catholicworldreport.com/2026/09/20/the-23-eastern-catholic-churches-ancient-traditions-in-communion-with-rome/
+37. Congregation for Bishops, decree remitting the excommunications of the four SSPX bishops (21 Jan 2009) — Catholic Culture library. https://www.catholicculture.org/culture/library/view.cfm?recnum=8730
+38. Pope Francis, *Ad charisma tuendum* (motu proprio, 14 July 2022) — Opus Dei. https://www.vatican.va/content/francesco/en/motu_proprio/documents/20220714-motu-proprio-ad-charisma-tuendum.html
+39. Recovering from Religion — helpline (844) 368-2848. https://www.recoveringfromreligion.org/
+40. NAPAC — support line 0808 801 0331. https://napac.org.uk/calling-our-support-line/
+41. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/
+42. RAINN — National Sexual Assault Hotline, 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
+
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — fact-check pass 1:** **Becciu — every mention** (profile.money[1], timeline[10], roster[3], case becciu, victories[3],
-- **2026-09-27 — fact-check pass 1:** **Kirchensteuer tags** (whoBenefits[2], moneyTable[3][3]) → `[FINANCIAL RECORD: German Bishops' Conference — €6.75bn in 2025]`.
-- **2026-09-27 — fact-check pass 1:** **Roster APSA receipt** → `partially published since 2021`.
-- **2026-09-27 — fact-check pass 1:** **Case kirchensteuer.what** → `Germany collects church tax through the state revenue system … ; Austria's church contribution is collected by the churches themselves but enforced through the civil courts.`
-- **2026-09-27 — fact-check pass 1:** **Regional Poland documented** → `Independent documentary films — notably 'Tell No One' (2019), released two months after the bishops published their first abuse figures — reached tens of millions of viewers and did work no state inquiry had done.`
-- **2026-09-27 — fact-check pass 1:** **Regional US law** → `(the Pennsylvania grand jury, 2018, and inquiries announced by attorneys general in at least fourteen states)`; **documented** → `Some forty US dioceses and religious orders have filed for bankruptcy protection`.
-- **2026-09-27 — fact-check pass 1:** **Size** → `~1.4 billion baptized (2023)`.
+- **2026-09-27 — fact-check pass 1:** Becciu's partial retrial (2026); the Polish bishops' figures came before *Tell No One*; 44 US dioceses and orders in bankruptcy; APSA disclosures since 2021; church tax €6.75bn (2025); Catholic population 1.4 billion.
+- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (church-tax chart, Peter's Pence), Voices from inside, Leaving safely and Where to get help.
 
