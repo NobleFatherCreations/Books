@@ -31,6 +31,15 @@ Legend: ✅ confirmed · ✏️ corrected · 🔹 interpretive · ⏳ open.
 11. *Encyclopaedia Britannica*, "Judaism" — chronology (First Temple; exile 586–539 BCE; Second Temple 516 BCE–70 CE; Yavneh; Mishnah c. 200; Talmud c. 500–600; Hasidism, Haskalah, Reform). https://www.britannica.com/topic/Judaism
 12. Mishnah *Eduyot* 1:5–6 — why minority opinions are recorded (Sefaria). https://www.sefaria.org/Mishnah_Eduyot.1.5
 
+### Added with the full page (2026-09-27)
+13. UK Supreme Court, *R (E) v Governing Body of JFS* [2009] UKSC 15 — case page and press summary (16 Dec 2009; 5–4 on direct discrimination). https://www.supremecourt.uk/cases/uksc-2009-0105.html · https://supremecourt.uk/uploads/Press_Summary_2009_UKSC_15_52b2ccdb06.pdf
+14. Charity Commission for England and Wales, United Synagogue (charity 242552), financial history 2020–2024. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/242552/financial-history
+15. Women of the Wall (since 1988). https://www.womenofthewall.org.il/
+16. ORA — Organization for the Resolution of Agunot; 844-673-5463. https://www.getora.org/
+17. Footsteps — support for people leaving ultra-Orthodox communities; 877-STEPS-55. https://footstepsorg.org/
+18. Jewish Women's Aid — helpline 0808 801 0500 (domestic abuse, sexual violence, gett refusal). https://www.jwa.org.uk/
+19. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
+
 ---
 
 ## Claim register
