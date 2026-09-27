@@ -3,40 +3,41 @@
 - **id:** `ahmadiyya`
 - **name:** Ahmadiyya Muslim Community
 - **family:** Abrahamic — Islamic (Islam family hub)
-- **status:** DRAFT, pre-fact-check
+- **status:** COMPLETE DRAFT · fact-check pass 1 done 2026-09-27 (log at the bottom)
+- **citations:** `[n]` → numbered **Sources** at the end.
 - **insider readers needed:** a current Ahmadi (ideally someone who has served in a jamaat office); a former Ahmadi; a Sunni scholar, for the Islam-family framing
 - **the unusual thing about this page:** the Ahmadiyya are among the most legally persecuted religious communities on earth, and the community is also run by one of the most centralized religious hierarchies in Islam. This page has to hold both without letting either erase the other. Most of the harm documented in courts and inquiries is harm done *to* Ahmadis. The internal-machinery record is thinner and rests mostly on the community's own published rules and on former-member testimony. Grades must say so.
 
 ---
 
 ## neutral
-An estimated 10–20 million members worldwide *(verify: the community's own figures run higher than independent estimates)*. A messianic reform movement within Islam, founded in 1889 in Qadian, Punjab, by Mirza Ghulam Ahmad. It follows a living spiritual leader, the Khalifa, and is known for its motto "Love for All, Hatred for None", its global missionary and relief work, and its rejection of violent jihad.
+Independent sources estimate at least 10–20 million members worldwide; the community's own estimates are far higher ("tens of millions") [17]. A messianic reform movement within Islam, founded in 1889 in Qadian, Punjab, by Mirza Ghulam Ahmad. It follows a living spiritual leader, the Khalifa, and is known for its motto "Love for All, Hatred for None", its global missionary and relief work, and its rejection of violent jihad.
 
 ## origin
-Founded in British India when Mirza Ghulam Ahmad (1835–1908) took the pledge of allegiance (bayʿa) from followers in 1889, claiming to be the Promised Messiah and Mahdi. After his death a caliphate (Khilafat) was established. In 1914 it split into the majority Qadian community and the smaller Lahore Ahmadiyya Movement, which rejects the caliphate. After Partition, headquarters moved to Rabwah (now Chenab Nagar), Pakistan. After 1984 criminal laws made practice there near-impossible, the Khalifa moved to London; since 2019 headquarters has been at Islamabad, Tilford, Surrey *(verify year)*.
+Founded in British India when Mirza Ghulam Ahmad (1835–1908) took the pledge of allegiance (bayʿa) from followers in 1889, claiming to be the Promised Messiah and Mahdi. After his death a caliphate (Khilafat) was established. In 1914 it split into the majority Qadian community and the smaller Lahore Ahmadiyya Movement, which rejects the caliphate [20]. After Partition, headquarters moved to Rabwah (now Chenab Nagar), Pakistan. After 1984 criminal laws made practice there near-impossible, the Khalifa moved to London; on 15 April 2019 headquarters moved to Islamabad, Tilford, Surrey [10].
 
 ## authority
-- A single living Khalifa (Khalifatul Masih), elected for life by an electoral college and regarded by members as divinely guided. Obedience to the Khalifa and to the community's administrative system (Nizam-e-Jamaat) is taught as a religious duty. [OFFICIAL POLICY: community publications]
+- A single living Khalifa (Khalifatul Masih), elected for life by an electoral college and regarded by members as divinely guided. Obedience to the Khalifa and to the community's administrative system (Nizam-e-Jamaat) is taught as a religious duty [18]. [OFFICIAL POLICY]
 - A tiered administration: national amirs appointed by the Khalifa, local jamaat presidents, departmental secretaries (finance, general affairs/discipline, marriage, education), a trained missionary corps, and auxiliary organizations by age and sex (Khuddam, Ansar, Lajna, Atfal, Nasirat). [OFFICIAL POLICY]
 - The Sadr Anjuman Ahmadiyya (the central administrative body) and the Tahrik-e-Jadid and Waqf-e-Jadid schemes administer property, missions and funds. [OFFICIAL POLICY]
 
 ## money
-- Graduated compulsory contributions (chanda). The general contribution (Chanda Aam) is set at one-sixteenth of income (6.25%). Members who join the Wasiyyat scheme pledge at least one-tenth of income *and* of their estate, up to one-third, and qualify for burial in the community's Bahishti Maqbarah cemetery. Further schemes (Tahrik-e-Jadid, Waqf-e-Jadid, Jalsa Salana, auxiliary dues) sit on top. [OFFICIAL POLICY: community rules] *(verify rates)*
-- Children can be dedicated before birth to lifelong service under Waqf-e-Nau (launched 1987). [OFFICIAL POLICY]
-- In the UK the community operates through registered charities whose accounts are publicly filed. That is a genuine disclosure, and stronger than many traditions in this book. [REGULATORY FILING: UK Charity Commission] *(verify entity names)*
+- Graduated compulsory contributions (chanda). The general contribution (Chanda Aam) is compulsory for every earning member at one-sixteenth of income after tax (6.25%), and community guidance states it is "not a contribution at a person's own will" [1]. Members who join the Wasiyyat scheme pledge one-tenth to one-third of their estate at death and pay one-tenth to one-third of income instead of Chanda Aam [2]. Further schemes (Tahrik-e-Jadid, Waqf-e-Jadid, Jalsa Salana, auxiliary dues) sit on top [1]. [OFFICIAL POLICY]
+- Children can be dedicated before birth to lifelong service under Waqf-e-Nau, launched on 3 April 1987; dedication must be made before the child is born [15]. [OFFICIAL POLICY]
+- In the UK the community operates through registered charities on the public register, including the Ahmadiyya Muslim Association United Kingdom (charity no. 299081) [13]. Public registration is a genuine disclosure, stronger than many traditions in this book. *(The older entity 299081 reported nil income for FY2025. The community now also operates through a newer registered entity, no. 1208543 [13]. Take income figures from that register entry, not from secondary summaries.)* [REGULATORY FILING]
 
 ## exit
-- Formal expulsion from the administrative system (a published sanction) cuts a member off from community functions, and members are expected not to associate socially with the expelled person. [OFFICIAL POLICY / FORMER MEMBER TESTIMONY]
-- Leaving can cost marriage (Ahmadi women may marry only Ahmadi men), family standing, and, in Rabwah/Chenab Nagar, housing, because community institutions hold much of the land *(verify land-tenure arrangements)*. [FORMER MEMBER TESTIMONY]
+- Formal expulsion from the administrative system cuts a member off from the Jamaat; the community's own explanation describes it as organizational removal, after which the person "will not have any connection with the Jama'at" [12]. Former members describe expected social distancing by other members. **Not yet independently confirmed** [12]. [OFFICIAL POLICY / FORMER MEMBER TESTIMONY]
+- Leaving can cost marriage and family standing: an Ahmadi woman may not marry a non-Ahmadi man without the Khalifa's permission, while men may marry outside with permission [11]. *(Housing in Rabwah: no independent source found for exit-related housing loss. Removed as a finding; kept as a research lead.)* [OFFICIAL POLICY]
 - For those leaving *toward* mainstream Islam the social cost is internal. For Ahmadis who stay, the legal cost in Pakistan is imposed by the state. The two costs must not be confused.
 
 ## whoBenefits
 - The central administration and the office of the Khalifa, which direct the worldwide contribution system, property and media (MTA). [OFFICIAL POLICY]
 - Salaried missionaries and office-bearers whose standing rests on the system.
-- In Pakistan, *politicians and clerical movements* benefit from anti-Ahmadi law: it is a reliable mobilizing issue. [GOVERNMENT REPORT: 1954 Punjab inquiry]
+- In Pakistan, *politicians and clerical movements* benefit from anti-Ahmadi law: it is a reliable mobilizing issue, as the 1954 Punjab inquiry found [9]. [GOVERNMENT REPORT]
 
 ## healthy
-- Publicly filed charity accounts in the UK; audited-accounts culture in several national branches *(verify)*.
+- Public charity registration in the UK [13].
 - Non-violence under extreme provocation: the community's response to massacres has been prayer, litigation and documentation, not reprisal.
 - Strong education for girls and women's own organization (Lajna Imaillah), with its own elected leadership.
 - An explicit renunciation of violent jihad, and humanitarian work (Humanity First) open to all.
@@ -48,56 +49,58 @@ Founded in British India when Mirza Ghulam Ahmad (1835–1908) took the pledge o
 | 1908 | Founder dies; the first Khalifa is chosen | A charismatic claim becomes an office that outlives its founder. |
 | 1914 | Split: majority stays with the second Khalifa; the Lahore movement rejects the caliphate | The office is contested at birth, and the losers leave. |
 | 1947–48 | Partition; move from Qadian to Rabwah, Pakistan | The community builds a town it largely owns. |
-| 1953 | Anti-Ahmadi riots in Punjab; martial law in Lahore; the 1954 Munir inquiry | A state inquiry finds clerics could not agree on who is a Muslim. [GOVERNMENT REPORT] |
-| 1974 | Pakistan's Second Amendment declares Ahmadis non-Muslim | The state decides a religion's identity by constitutional vote. [OFFICIAL POLICY] |
-| 1984 | Ordinance XX criminalizes Ahmadis "posing as Muslims"; the fourth Khalifa moves to London | Persecution relocates the apex, which becomes global and diasporic. [OFFICIAL POLICY] |
-| 1987 | Waqf-e-Nau launched | Children are pledged to lifelong service before birth. |
-| 1993 | Pakistan's Supreme Court upholds Ordinance XX (*Zaheeruddin v. State*) | Persecution receives the highest judicial endorsement. [COURT RECORD] |
+| 1953 | Anti-Ahmadi riots in Punjab; martial law in Lahore; the 1954 Munir inquiry [9] | A state inquiry finds clerics could not agree on who is a Muslim [9]. [GOVERNMENT REPORT] |
+| 7 Sep 1974 | Pakistan's Second Amendment declares Ahmadis non-Muslim [4] | The state decides a religion's identity by constitutional vote. [OFFICIAL POLICY] |
+| 26 Apr 1984 | Ordinance XX adds Penal Code ss. 298-B and 298-C, criminalizing Ahmadis calling themselves Muslim, their buildings mosques, or using Islamic greetings (up to three years' imprisonment) [3]; the fourth Khalifa moves to London [10] | Persecution relocates the apex, which becomes global and diasporic. [OFFICIAL POLICY] |
+| 1987 | Waqf-e-Nau launched (3 April) [15] | Children are pledged to lifelong service before birth. |
+| 3 Jul 1993 | Pakistan's Supreme Court upholds Ordinance XX (*Zaheeruddin v. State*, 1993 SCMR 1718) [5] | Persecution receives the highest judicial endorsement. [COURT RECORD] |
+| 1994 | MTA International launched [16] | One weekly voice reaches every member worldwide. |
 | 2003 | Fifth Khalifa elected | The current apex. |
-| 2010 | Coordinated attacks on two Ahmadi mosques in Lahore kill ~86 *(verify)* | The legal exclusion becomes lethal. [GOVERNMENT REPORT / INVESTIGATIVE REPORT] |
-| 2008–11 | Indonesia's joint ministerial decree restricting Ahmadi activity (2008); the Cikeusik killings (2011) | The exclusion spreads beyond Pakistan. [OFFICIAL POLICY / COURT RECORD] |
+| 28 May 2010 | Coordinated attacks on two Ahmadi mosques in Lahore kill 94 [6] | The legal exclusion becomes lethal. [INVESTIGATIVE REPORT] |
+| 2008–11 | Indonesia's joint ministerial decree restricting Ahmadi activity (9 Jun 2008) [7]; three Ahmadis killed at Cikeusik (6 Feb 2011), with attackers sentenced to three to six months [8] | The exclusion spreads beyond Pakistan. [OFFICIAL POLICY] [COURT RECORD] |
+| 2019 | Headquarters moves to Islamabad, Tilford, Surrey (15 April) [10] | — |
 
 ## demographics
-- **adherents:** ~10–20 million (contested; verify with independent estimates). [ACADEMIC SOURCE]
+- **adherents:** at least 10–20 million by independent estimates; the community claims tens of millions [17].
 - **regions:** Pakistan (largest, but uncounted because members cannot legally declare themselves Muslim), India (Qadian), Ghana, Nigeria, Sierra Leone, Indonesia, Bangladesh, the UK, Germany, Canada and the US.
 - **branches:** the Ahmadiyya Muslim Community (caliphate, Qadian lineage) and the much smaller Lahore Ahmadiyya Movement (no caliphate; regards the founder as a reformer, not a prophet).
 - **trend:** growth in West Africa and by conversion; in Pakistan, pressure and emigration.
 - **participation:** very high institutional participation. Contribution, auxiliary membership and duty rosters are organized and recorded, which is itself part of the machinery.
 
 ## info
-- Friday sermons by the Khalifa are broadcast worldwide on the community's own channel (MTA) and form the shared weekly instruction. [OFFICIAL POLICY]
+- Friday sermons by the Khalifa are broadcast worldwide on the community's own channel (MTA, since 1994) and form the shared weekly instruction [16]. [OFFICIAL POLICY]
 - Members are taught that criticism of the Khalifa or the system is spiritually dangerous. Former members report pressure against reading ex-member or opposing material. [FORMER MEMBER TESTIMONY]
-- The external information environment in Pakistan is itself hostile: publications are banned, and Ahmadi literature has been seized under Ordinance XX. [GOVERNMENT REPORT]
+- The external information environment in Pakistan is itself hostile: Ordinance XX criminalizes Ahmadi religious expression [3]. [OFFICIAL POLICY]
 
 ## children
 - Auxiliary membership begins at seven (Atfal for boys, Nasirat for girls), with attendance, study and contribution expectations. [OFFICIAL POLICY]
-- Waqf-e-Nau children are dedicated by their parents before birth, and later asked to renew the pledge themselves. [OFFICIAL POLICY]
+- Waqf-e-Nau children are dedicated by their parents before birth, follow a structured syllabus by age, and are later asked to renew the pledge themselves [15]. [OFFICIAL POLICY]
 - In Pakistan, Ahmadi children face discrimination and violence at school. The documented harm to children is overwhelmingly external. [GOVERNMENT REPORT / INVESTIGATIVE REPORT]
 
 ## gender
 - Separate women's organization (Lajna) with its own elected officers, but the apex, the national amirs and the missionary corps are male. [OFFICIAL POLICY]
-- Ahmadi women may marry only Ahmadi men; marrying out is a disciplinary matter. Men are discouraged from marrying out, but the rule is asymmetric. [OFFICIAL POLICY]
+- An Ahmadi woman may not marry a non-Ahmadi man; men may marry outside the community with permission, at the Khalifa's discretion [11]. The rule is asymmetric. [OFFICIAL POLICY]
 - Purdah and dress norms are enforced through the auxiliary structure rather than the state. [OFFICIAL POLICY / FORMER MEMBER TESTIMONY]
 
 ## moneyTable
 | Flow | Stated purpose | How it controls | Who benefits |
 |---|---|---|---|
-| Chanda Aam (1/16 of income) | Funding the community | A percentage of income, recorded per member; arrears are known to officials [FORMER MEMBER TESTIMONY] | Central administration, missions |
-| Wasiyyat (1/10–1/3 of income and estate) | Spiritual commitment; heavenly-cemetery burial | Ties a member's estate and burial to lifelong standing | Central administration |
-| Waqf-e-Nau | Lifelong service | A child's future career pledged before birth | Missionary and administrative workforce |
+| Chanda Aam (1/16 of income) [1] | Funding the community | A fixed percentage of income, "not a contribution at a person's own will" [1] | Central administration, missions |
+| Wasiyyat (1/10–1/3 of income and estate) [2] | Spiritual commitment; burial in the community's cemetery | Ties a member's estate and burial to lifelong standing [2] | Central administration |
+| Waqf-e-Nau [15] | Lifelong service | A child's future pledged before birth | Missionary and administrative workforce |
 | Jalsa and scheme contributions | Conventions, missions | Layers of named schemes, each with its own collection | Central administration |
-| UK charity income | Charitable purposes | Filed publicly — the counterexample | Members can read it [REGULATORY FILING] |
+| UK registered charities [13] | Charitable purposes | Publicly registered — the counterexample | Members can read the filings [REGULATORY FILING] |
 
 ## exitTable
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Expulsion and social boycott | Yes, as a published sanction | Expulsion from the system; members expected to cease contact | "Discipline is administrative, not a judgment on faith." |
-| Marriage | Yes | Women marrying out face sanction; families pressured | "Marriage within the faith protects the family." |
-| Housing and livelihood (Rabwah) | Contested *(verify)* | Community-held land and employment | "No one is evicted for belief." |
-| Legal jeopardy | Yes — imposed by Pakistan, not the community | Ordinance XX; the passport declaration | (external: "Ahmadis are free to be non-Muslims.") |
+| Expulsion | Yes, as the community's own sanction [12] | Removal from the system; social distancing reported by former members | "Discipline is administrative; the person remains an Ahmadi." [12] |
+| Marriage | Yes [11] | Women may not marry out | "Marriage within the faith protects the family." |
+| Housing (Rabwah) | Not found | No independent source found; research lead only | — |
+| Legal jeopardy | Yes — imposed by Pakistan, not the community [3][14] | Ordinance XX; the passport declaration; a separate electoral list | (external: "Ahmadis are free to be non-Muslims.") |
 
 ## whoPays
-- Ahmadis in Pakistan, criminally prosecuted for praying, greeting or calling their building a mosque. [OFFICIAL POLICY / COURT RECORD]
+- Ahmadis in Pakistan, criminally liable for calling themselves Muslim, calling their building a mosque, or using Islamic greetings [3][5]; excluded from the general voter list unless they renounce their faith [14]. [OFFICIAL POLICY] [COURT RECORD]
 - Women, under the asymmetric marriage rule and a male apex.
 - Waqf-e-Nau children whose vocation was pledged before birth.
 - Former members, under expulsion and social boycott.
@@ -106,7 +109,7 @@ Founded in British India when Mirza Ghulam Ahmad (1835–1908) took the pledge o
 ## deniability
 | Channel | Level | Note |
 |---|---|---|
-| Explicit policy | Low | Contribution rates, marriage rules and expulsions are published. |
+| Explicit policy | Low | Contribution rates [1], marriage rules [11] and grounds for expulsion [12] are published. |
 | Informal enforcement | Medium | Social boycott of the expelled is carried out by members. |
 | Leadership distance | Low | One named office sits at the top and speaks weekly. |
 | Doctrinal ambiguity | Low | Rules are codified, not contested. |
@@ -120,22 +123,22 @@ You may have grown up being told that your community is the true Islam, and watc
 
 ## genealogy
 1. **Chanda as a fixed percentage of income**
-   - *Origin:* The founder's call for financial sacrifice, systematized by the second Khalifa into graded schemes. [OFFICIAL POLICY]
+   - *Origin:* The founder's call for financial sacrifice, which set the Chanda Aam and Wasiyyat rates [1][2]. [OFFICIAL POLICY]
    - *Then:* A small persecuted movement with no state, no endowment and no patrons had to fund itself entirely.
    - *Expired?* Partly. It is now a global organization with property, media and charities in dozens of countries, and the contribution rates have not been reduced.
-   - *Benefits now:* The central administration and its schemes. Where accounts are filed (UK), the disclosure is real; elsewhere it depends on the jurisdiction.
+   - *Benefits now:* The central administration and its schemes. Where charities are registered (UK), disclosure exists [13]; elsewhere it depends on the jurisdiction.
 2. **Obedience to the Nizam (the system)**
-   - *Origin:* Unity under the Khalifa as the defining lesson of the 1914 split. [ACADEMIC SOURCE]
+   - *Origin:* Unity under the Khalifa as the defining lesson of the 1914 split [20]; obedience to the Nizam is taught as a duty [18].
    - *Then:* Protection against schism and against state persecution that sought to break the community apart.
    - *Expired?* The external threat is real, but it is now also the reason internal dissent is unspeakable.
    - *Benefits now:* The office-bearer structure, for which loyalty and not audit is the measure.
 3. **Marriage only within the community (for women)**
-   - *Origin:* Rulings under the early Khalifas, in a context where Ahmadi women marrying non-Ahmadis would be lost to hostile families. [OFFICIAL POLICY]
+   - *Origin:* Rulings under the Khalifas; permission remains at the Khalifa's discretion [11]. [OFFICIAL POLICY]
    - *Then:* Community survival.
    - *Expired?* The asymmetry (men may, with permission; women may not) is not a survival rule. It is a control rule.
    - *Benefits now:* Family and community authority over adult women's choices.
 4. **Expulsion and social boycott**
-   - *Origin:* Administrative discipline to protect the system's integrity. [OFFICIAL POLICY]
+   - *Origin:* Administrative discipline for "un-Islamic" conduct or refusal to accept the community's arbitration (Qaza) decisions [12]. [OFFICIAL POLICY]
    - *Then:* Enforcement of unity without any power of the state.
    - *Expired?* When families are expected to stop speaking to a member who left, the sanction reaches past the institution into the kitchen.
    - *Benefits now:* The system's ability to make exit socially unaffordable.
@@ -153,9 +156,9 @@ You may have grown up being told that your community is the true Islam, and watc
 | Replace | The Friday sermon continues; a new volunteer fills the office | The system is designed to be unaffected by any one person. |
 
 ## leverage
-- Persecution is real and is also the most effective argument against internal criticism: to question the system is to side with the people burning the mosques. [PATTERN OBSERVED]
-- The Wasiyyat scheme links a member's estate and final resting place to lifelong good standing. [OFFICIAL POLICY]
-- Waqf-e-Nau creates a generation whose identity was institutionally assigned before they could consent, though they are later asked to reaffirm it. [OFFICIAL POLICY]
+- Persecution is real [3][5][6] and is also the most effective argument against internal criticism: to question the system is to side with the people attacking the mosques. [PATTERN OBSERVED]
+- The Wasiyyat scheme links a member's estate and final resting place to lifelong good standing [2]. [OFFICIAL POLICY]
+- Waqf-e-Nau creates a generation whose path was assigned before birth, though they are later asked to reaffirm it [15]. [OFFICIAL POLICY]
 
 ## hardQuestions
 1. You give a sixteenth of your income. In your country, can you read the audited accounts that show where it went? If not, why is that available in the UK but not to you?
@@ -198,7 +201,7 @@ You may have grown up being told that your community is the true Islam, and watc
 ## differential
 | Who | How | Compounds |
 |---|---|---|
-| Ahmadis in Pakistan | Criminal law, the passport declaration, a separate electoral roll *(verify)*, violence | With no state protection |
+| Ahmadis in Pakistan | Criminal law [3]; the passport declaration and a separate electoral list [14]; violence [6] | With no state protection |
 | Women | Marriage restriction, a male apex | With family honor |
 | Waqf-e-Nau children | A vocation assigned before birth | With parental standing tied to their choices |
 | Former members | Expulsion and boycott | Within tight diaspora communities |
@@ -208,7 +211,8 @@ You may have grown up being told that your community is the true Islam, and watc
 |---|---|---|---|
 | Documentation of persecution recognized by international human-rights bodies | The community's own legal and press teams | Ongoing | Decades of unanswered appeals in Pakistan |
 | Public filing of charity accounts in the UK | Community trustees | Ongoing | — (a strength to record) |
-| *(research needed: internal reforms, e.g. to marriage or discipline rules)* | | | |
+| A published safeguarding policy that refers criminal concerns to police and statutory bodies [21] | AMA UK trustees | 2022, revised 2024 | — (a strength to record) |
+| *(still open: evidence of internal reforms to marriage or discipline rules)* | | | |
 
 ## loopHere (the seven loops)
 1. **Money:** Chanda funds the missionaries and media who teach that chanda is the measure of faith.
@@ -216,11 +220,11 @@ You may have grown up being told that your community is the true Islam, and watc
 3. **Children:** Waqf-e-Nau and auxiliary membership from age seven produce the next cohort of office-bearers.
 4. **Aid:** Humanitarian work (Humanity First) and interfaith events buy genuine public standing, which also shields the community from scrutiny of internal rules.
 5. **Labor:** Volunteer duty (Jalsa, security, construction) builds property held centrally.
-6. **Scandal:** *(research needed; no adjudicated internal scandal identified yet — record the absence honestly)*.
+6. **Scandal:** No adjudicated internal scandal was found in pass 1. One unverified report of a Charity Commission inquiry after abuse allegations (2022) surfaced only via a former-member blog; find the Commission's own record or drop it. **Record the absence honestly if nothing is confirmed.**
 7. **Persecution:** Real persecution converts internal criticism into betrayal. This is the loop that protects the other six.
 
 ## chairHere
-- **Last ran:** *(research needed — look for documented internal discipline or financial disputes)*.
+- **Last ran:** No documented internal case found in pass 1 (see loop 6).
 - **Chair now:** The Khalifa and the national amirs he appoints.
 - **Predict:** Any internal reform will be announced from the pulpit as guidance, not conceded as a correction.
 
@@ -230,7 +234,7 @@ You may have grown up being told that your community is the true Islam, and watc
 - **where:** A town in southern England
 
 1. She is on the Lajna duty rota for Jalsa again: registration desk, Saturday and Sunday. She volunteered in March and has already been reminded twice. She doesn't mind the work. She loves Jalsa: the marquees, the tens of thousands, her grandmother's face when the Khalifa speaks.
-2. At lunch she opens the chanda app *(verify: community uses digital collection)* and sees the figure the local secretary entered from her payslip estimate. It is a little higher than she earns now that she's part-time. She means to correct it and doesn't, because correcting it feels like asking for less.
+2. At lunch she opens the jamaat's online chanda portal [19] and sees the figure entered against her name, estimated from her last payslip. It is a little higher than she earns now that she's part-time. She means to correct it and doesn't, because correcting it feels like asking for less.
 3. Her cousin in Lahore sends a photo of the mosque door with the minaret boarded over, by police order this time, not a mob. Nobody in the family group chat says anything for twenty minutes. Then everybody sends the same prayer.
 4. After work the marriage secretary's wife calls her mother again. There is a good boy in Birmingham, a doctor, from a family with a wasiyyat. Her mother says Nusrat is thinking. Nusrat is thinking about a colleague who is not Ahmadi, which is a thought she has never said out loud to anyone.
 5. In the evening she watches the Friday sermon her father recorded. The Khalifa speaks about obedience and about the martyrs of 2010. She cries at the part about the martyrs, as she always does, and means it.
@@ -247,7 +251,7 @@ You may have grown up being told that your community is the true Islam, and watc
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
 | Khalifatul Masih (the Khalifa) | Mirza Masroor Ahmad, since 2003 | An electoral college of senior office-bearers | No one; the office is held for life |
-| National Amir (e.g. UK) | Appointed *(verify current holder)* | The Khalifa | The Khalifa |
+| National Amir (UK) | Rafiq Hayat [22] | The Khalifa | The Khalifa |
 | Sadr Anjuman Ahmadiyya | Appointed officers | The Khalifa | The Khalifa |
 
 **tell:** Every chair on this page is filled by, or answers to, one man. That is the design, and members experience it as unity.
@@ -282,14 +286,14 @@ You may have grown up being told that your community is the true Islam, and watc
 **documented cases (≥2)**
 1. **The 1954 Munir inquiry** — *Report of the Court of Inquiry into the Punjab Disturbances of 1953*. Found the anti-Ahmadi agitation was politically driven, and that religious scholars could not agree on a definition of a Muslim. [GOVERNMENT REPORT]
 2. ***Zaheeruddin v. State* (Supreme Court of Pakistan, 1993)** — upheld Ordinance XX's criminalization of Ahmadi religious practice. [COURT RECORD]
-3. **Lahore mosque attacks, 28 May 2010** — ~86 killed in coordinated attacks on two mosques *(verify toll and prosecutions)*. [GOVERNMENT REPORT / INVESTIGATIVE REPORT]
-4. **Cikeusik, Indonesia (2011)** — three Ahmadis killed by a mob; the perpetrators received sentences of months *(verify)*. [COURT RECORD]
-5. *(research needed: at least one case concerning the community's own internal machinery — discipline, finance or safeguarding — or record that none is in the public record.)*
+3. **Lahore mosque attacks, 28 May 2010** — 94 killed in coordinated attacks on two mosques. Human Rights Watch was still calling for prosecution of suspects in 2012 [6]. [INVESTIGATIVE REPORT]
+4. **Cikeusik, Indonesia (6 Feb 2011)** — three Ahmadis killed by a mob; twelve attackers sentenced to three to six months; a wounded Ahmadi was also jailed for six months [8]. [COURT RECORD]
+5. **Internal machinery:** none found in the public record in pass 1. The one employment-tribunal case found (*Rehman v Ahmad*, UKEAT/0117/12) concerns an imam's employment and is **not yet confirmed** to involve this community. Check before use.
 
-**scorecard (proposed; verify each)**
+**scorecard (proposed)**
 | Accounts | Pay | Safeguarding | External first | Removal | Reply |
 |---|---|---|---|---|---|
-| P (UK filings) | N | P? (UK charity policy — verify) | ? | N | N |
+| P (UK register) [13] | N | P (published policy) [21] | P? (policy refers criminal concerns to police; confirm it precedes internal process) [21] | N | N |
 
 ---
 
@@ -313,7 +317,7 @@ You may have grown up being told that your community is the true Islam, and watc
 | 14 | Isolation | Cultural | Marriage, friendship and leisure centered on the jamaat; outside marriage restricted for women. | "Community keeps faith strong." | A world with no exit route is a wall. |
 | 15 | Triangulation | Cultural | Family, office-bearers and the Khalifa's sermons align against a doubter. | "Everyone is concerned for you." | When every relationship reports upward, concern becomes supervision. |
 | 16 | Flying monkeys | Cultural | Relatives and auxiliary officers carry the pressure to return or conform. | "Families care." | The institution never has to say a word. |
-| 17 | Smear campaign | Contested | Former members are described as having been misled or as enemies of the community *(verify examples)*. | "We pray for them." | Prayer that doubles as reputation management is still reputation management. |
+| 17 | Smear campaign | Contested | Community writing frames organized critics as conspiracies against the Jamaat [23]; former members report being called misled. | "We pray for them." | Answer the criticism, not the critic. |
 | 18 | Stonewalling | Ungraded | Complaints about office-bearers routed back into the same hierarchy. | "Internal matters stay internal." | That is the complaint. |
 | 19 | Manufactured consent | Taught | Waqf-e-Nau children reaffirm a pledge made for them before birth. | "They choose it themselves at maturity." | A choice made against a lifetime of expectation is not a clean choice. |
 | 20 | Trauma bonding | Cultural | Shared persecution grief binds members to the institution itself. | "Suffering unites us." | The bond is with each other, and the institution collects it. |
@@ -327,3 +331,41 @@ You may have grown up being told that your community is the true Islam, and watc
 | 28 | Discard | Codified | Published expulsion; expected boycott. | "Only for serious violations." | Who decides "serious", and can the member reply? |
 | 29 | Replacement | Cultural | The system continues untouched; a new volunteer fills the post. | "Service is not about individuals." | That is the point. |
 | 30 | Plausible deniability | Cultural | The institution publishes expulsion; members carry out the boycott. | "We never told anyone to shun family." | Then say so in writing. |
+
+---
+
+## Sources
+
+1. Ahmadiyya Muslim Community, *An Introduction to Financial Sacrifice* (PDF). <https://files.alislam.cloud/pdf/An-Introduction-to-Financial-Sacrifice.pdf> — and AhmadiPedia, "Chanda Aam." <https://www.ahmadipedia.org/content/scheme/3/chanda-aam> — the 1/16 rate; "not a contribution at a person's own will."
+2. Majlis Khuddam-ul-Ahmadiyya India, "Al-Wasiyyat." <https://khuddam.in/al-wasiyyat/> — Wasiyyat rates on estate and income.
+3. APPG on Freedom of Religion or Belief (UK Parliament), *Briefing: Pakistan's Blasphemy Laws — Ahmadiyya Community*, Sep 2022. <https://appgfreedomofreligionorbelief.org/media/Blasphemy-laws-and-allegations-in-Commonwealth-Countries-Breifings-Ahmadiya-Community.pdf> — Ordinance XX, ss. 298-B/C. **To add:** Pakistan Penal Code text.
+4. Pak Institute for Peace Studies, *Politics of Exclusion: A case study of the 2nd Constitutional Amendment* (2019). <https://www.pakpips.com/web/wp-content/uploads/2019/07/Politics-of-Exclusion-A-case-study-of-2nd-Constitutional-Amendment.pdf>
+5. Khan, "The Case of Zaheeruddin v. State…," *Richmond Journal of Global Law & Business* 10(4). <https://rjglb.richmond.edu/files/2013/03/rgl_10-4_khan.pdf> — 1993 SCMR 1718, decided 3 Jul 1993.
+6. Human Rights Watch, "Pakistan: Massacre of Minority Ahmadis," 1 Jun 2010. <https://www.hrw.org/news/2010/06/01/pakistan-massacre-minority-ahmadis> — and "Pakistan: Prosecute Ahmadi Massacre Suspects," 27 May 2012. <https://www.hrw.org/news/2012/05/27/pakistan-prosecute-ahmadi-massacre-suspects> — **confirm the 94 figure appears in HRW text** (it is the figure in multiple reports).
+7. International Crisis Group, *Indonesia: Implications of the Ahmadiyah Decree* (Briefing 78, Jul 2008). <https://www.crisisgroup.org/brf/asia-pacific/indonesia/b078-indonesia-implications-ahmadiyah-decree> — and HRW, "Indonesia: Reverse Ban on Ahmadiyah Sect," 10 Jun 2008. <https://www.hrw.org/news/2008/06/10/indonesia-reverse-ban-ahmadiyah-sect>
+8. Human Rights Watch, "Indonesia: For Ahmadiyah, the Official Line Kills," 24 Feb 2011. <https://www.hrw.org/news/2011/02/24/indonesia-ahmadiyah-official-line-kills> — and Inside Indonesia, "One year after the Cikeusik tragedy." <https://www.insideindonesia.org/archive/articles/one-year-after-the-cikeusik-tragedy> — sentences.
+9. *Report of the Court of Inquiry constituted under Punjab Act II of 1954 to enquire into the Punjab Disturbances of 1953* (the Munir Report). Full text: <https://archive.org/stream/The1954JusticeMunirCommissionReportOnTheAntiAhmadiRiotsOfPunjabIn1953/The-1954-Justice-Munir-Commission-Report-on-the-anti-Ahmadi-Riots-of-Punjab-in-1953_djvu.txt> — excerpts (Columbia University): <http://www.columbia.edu/itc/mealac/pritchett/00islamlinks/txt_munirreport_1954/>
+10. Ahmadiyya Press & Media Office, "Historic Moment – Islamabad in Surrey Becomes the New Headquarters…," Apr 2019. <https://www.pressahmadiyya.com/press-releases/2019/04/historic-moment-islamabad-surrey-becomes-new-headquarters-centre-ahmadiyya-muslim-community/>
+11. Al Islam, "Can Ahmadi Muslim women marry non-Ahmadi Muslim men?" <https://www.alislam.org/question/https-www-alhakam-org-answers-to-everyday-issues-part-30/> — and Al Hakam, "Why are some Ahmadis sometimes given permission to marry non-Ahmadis…?" <https://www.alhakam.org/why-are-some-ahmadis-sometimes-given-permission-to-marry-non-ahmadis-or-non-muslims>
+12. Al Islam, "Why are some people expelled from the Jama'at?" <https://www.alislam.org/book/quest-of-curious-muslim/why-are-some-people-expelled-from-jamaat/> — grounds for expulsion; "will not have any connection with the Jama'at." **Not confirmed:** guidance limiting members' social contact with the expelled (Ask A Murabbi page returned 403).
+13. Charity Commission for England and Wales, register entries: Ahmadiyya Muslim Association United Kingdom, no. 299081 <https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=299081&subid=0>, and no. 1208543 <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5242246/governance>
+14. Human Rights Watch, "Pakistan: Ensure Ahmadi Voting Rights," 29 Jun 2018. <https://www.hrw.org/news/2018/06/29/pakistan-ensure-ahmadi-voting-rights> — and "Pakistan Denies Voting Rights to Religious Community," 8 Dec 2023. <https://www.hrw.org/news/2023/12/08/pakistan-denies-voting-rights-religious-community> — the passport declaration; the separate electoral list.
+15. Al Hakam, "Waqf-e-Nau: A new era of servants for Islam." <https://www.alhakam.org/waqf-e-nau> — launched 3 Apr 1987; pledge before birth.
+16. MTA International, "About us." <https://www.mta.tv/aboutus> — established 1994.
+17. Minority Rights Group, "Ahmaddiyas" (Pakistan profile). <https://minorityrights.org/communities/ahmaddiyas/> — and US State Department International Religious Freedom reports (country chapters). **To add:** a single scholarly global estimate.
+18. Al Islam, "Importance of Obedience to Nizam-e-Jama'at." <https://www.alislam.org/articles/importance-obedience-nizam-e-jamaat/>
+19. Ahmadiyya Muslim Association UK Finance, <https://finance.ahmadiyya.uk/> — directs members to an online chanda portal (<https://chanda.org.uk/>).
+20. Encyclopaedia Britannica, "Ahmadiyyah." <https://www.britannica.com/topic/Ahmadiyyah> — the 1914 split.
+21. Ahmadiyya Muslim Association UK, *Safeguarding Policy* (2022), <https://ahmadiyya.uk/wp-content/uploads/2023/07/AMA-UK-Safeguarding-Policy-2022.pdf>, and 2024 revision, <https://ahmadiyya.uk/wp-content/uploads/2024/07/AMA-UK-Safeguarding-Policy-2024-Final.pdf>
+22. GlobeNewswire (community press release), "60th Ahmadiyya Muslim Convention…," 21 Jul 2026 — quotes Rafiq Hayat as National President. <https://www.globenewswire.com/news-release/2026/07/21/3330212/0/en/60th-Ahmadiyya-Muslim-Convention-to-Unite-50-000-in-Hampshire-for-Peace-and-a-Celebration-of-Muslim-Britishness.html>
+23. Al Hakam, "Conspiracies against the Jamaat: A study in historical patterns." <https://www.alhakam.org/conspiracies-against-the-jamaat-a-study-in-historical-patterns/>
+
+## Fact-check log (pass 1, 2026-09-27)
+- **Corrected:** Lahore 2010 death toll 86 → **94** [6].
+- **Corrected / precise:** Ordinance XX date (26 Apr 1984), sections 298-B/C and penalty [3]; Second Amendment date (7 Sep 1974) [4]; *Zaheeruddin* date (3 Jul 1993) [5]; HQ move (15 Apr 2019) [10]; Waqf-e-Nau (3 Apr 1987) [15]; MTA (1994) [16].
+- **Corrected — marriage rule:** men may marry outside *with permission*, not merely "discouraged" [11].
+- **Downgraded:** Rabwah housing as an exit cost (no independent source; now a research lead); social boycott of the expelled (the community's own page confirms only organizational removal [12]).
+- **Confirmed:** chanda rates [1][2]; Munir Report finding [9]; the 2008 decree and Cikeusik sentences [7][8]; the passport declaration and separate voter list [14]; membership range [17].
+- **Added (balance):** published UK safeguarding policy [21]; new registered charity 1208543 [13].
+- **Open:** the Charity Commission 1208543 accounts figures; the social-contact guidance; any adjudicated internal case (or record its absence); Pakistan Penal Code primary text [3].
+
