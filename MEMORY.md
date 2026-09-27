@@ -3508,3 +3508,24 @@ new traditions from `new-traditions/`, and each religion's Sources list as its b
 **Search cap:** a session can hit a 200-WebSearch cap; if so, stop and tell the owner
 (it lifted mid-session on 2026-09-27 and the pass finished).
 Link checking: `curl` every URL; 403/406 from bot-blocking sites is expected, 404 must be fixed.
+
+## Update (2026-09-27, later) — per-religion Markdown + downloadable PDF pipeline
+
+Owner asked, before the redesign: every religion with every section filled; the audit to cover every
+section; and a PDF download per religion, with one polished example (Sunni Islam — "the Islam a sheikh in
+Dubai would follow") and an architecture that imports each religion's MD into the finished PDF design.
+
+- **Skeleton:** 27 sections, identical for all 34 religions (list in `content/sacred-divide/religions/README.md`).
+  Families: 10 hubs — the table is in `scripts/sacred-divide-export-md.py` (FAMILIES).
+- **Pipeline:** `sacred-divide-factcheck.py` → `sacred-divide-export-md.py` (religions/<id>.md, generated,
+  + `_coverage.md`) → `sacred-divide-pdf.py` (Paged.js in Chromium; TOC with page numbers, 121 bookmarks,
+  ~490 links for Sunni). All 34 PDFs build in ~2 min; only `sunni-islam.pdf` + `manifest.json` are committed.
+  Paged.js 0.4.3 and fonts (site's Codex Display/Caps = LM Roman Dunhill/Caps, plus Newsreader) are
+  vendored in `tools/pdf/`. Paged.js needs http (it XHRs the CSS) — `tools/pdf/print.js` serves localhost.
+- **Sunni filled 27/27:** `additions/sunni-islam.md` (sources 19–61 on `sources/sunni-islam.md`).
+- **Coverage (honest):** 674/918 sections at standard. Empty or thin everywhere except Sunni: Branches (◐
+  one-liner), Law & state (◐ compel line only), Money in numbers, Cases (<3 for most), Voices, Regional
+  (11 of 27 have cards), Leaving safely, Where to get help. The 7 new religions' 30 techniques render
+  as a table, not cards — normalise when filling.
+- **Audit gap found:** the pass-1 claims inventory never included `V3.turning` (Moments in the room).
+  Sunni's three are now checked (one correction); the other 26 religions' 78 still need checking.

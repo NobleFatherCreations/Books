@@ -21,3 +21,9 @@ scripts/covers/_work/
 # verify-*.mjs runs. Same reasoning as scripts/covers/_work/ above: an
 # intermediate, never a deliverable.
 /_work/
+
+# Sacred Divide per-religion PDFs are build output (scripts/sacred-divide-pdf.py --all rebuilds
+# all 34 in ~2 minutes); only the reviewed example and the manifest are committed
+library/_undeployed/sacred-divide-pdf/*.pdf
+!library/_undeployed/sacred-divide-pdf/sunni-islam.pdf
+tools/pdf/.build-*.html

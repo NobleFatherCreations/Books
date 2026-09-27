@@ -550,7 +550,7 @@ Criticize clerical rule and you are serving foreign enemies. Object to the moral
 :::
 
 ::: tactic n=9
-#### 9 · Moving The Goalposts {#t-9}
+#### 9 · Moving the Goalposts {#t-9}
 
 *The standard of success keeps shifting so you can never arrive.*
 
@@ -605,7 +605,7 @@ Criticize clerical rule and you are serving foreign enemies. Object to the moral
 :::
 
 ::: tactic n=12
-#### 12 · Darvo {#t-12}
+#### 12 · DARVO {#t-12}
 
 *Deny the wrongdoing. Attack the person who raised it. Reverse victim and offender.*
 

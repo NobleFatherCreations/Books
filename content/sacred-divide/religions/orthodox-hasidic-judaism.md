@@ -567,7 +567,7 @@ Report abuse and you are the danger to the community. Ask about education and yo
 :::
 
 ::: tactic n=9
-#### 9 · Moving The Goalposts {#t-9}
+#### 9 · Moving the Goalposts {#t-9}
 
 *The standard of success keeps shifting so you can never arrive.*
 
@@ -622,7 +622,7 @@ Report abuse and you are the danger to the community. Ask about education and yo
 :::
 
 ::: tactic n=12
-#### 12 · Darvo {#t-12}
+#### 12 · DARVO {#t-12}
 
 *Deny the wrongdoing. Attack the person who raised it. Reverse victim and offender.*
 

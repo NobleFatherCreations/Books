@@ -101,6 +101,14 @@ KEYWORDS = {  # for pulling a religion's rows out of the cross-cutting volumes
 
 
 # ---------------------------------------------------------------- helpers
+SMALL = {'a', 'an', 'the', 'of', 'to', 'and', 'or', 'in', 'on', 'for'}
+
+
+def title_case(t):
+    words = t.lower().split(' ')
+    return ' '.join(w if (i and w in SMALL) else (w[:1].upper() + w[1:]) for i, w in enumerate(words)).replace('Darvo', 'DARVO')
+
+
 def esc_cell(t):
     return str(t).replace('|', '\\|').replace('\n', ' ').strip()
 
@@ -230,7 +238,7 @@ def book_record(B, rid):
         'pipelines': [p for p in D['pipelines'] if rid in p.get('religions', [])],
         'succession': [r for r in V7['succession']['rows'] if any(k in json.dumps(r, ensure_ascii=False) for k in kw)],
         'promises': [r for r in V7['promises']['rows'] if any(k in r[0] for k in kw)],
-        'vol_rows': vol_rows, 'tac_names': {t['order']: t['name'].title() for t in D['tactics']},
+        'vol_rows': vol_rows, 'tac_names': {t['order']: title_case(t['name']) for t in D['tactics']},
         'grade_vocab': {g[0]: g[2] for g in D['gradeVocab']},
     }
 
@@ -342,7 +350,7 @@ def md_religion(B, rid):
                 t, e, g, meta = book['tactics'][n - 1]
                 if not e: continue
                 grade = f"[[{g[0]}]] {g[1]}" + (' *(sourced)*' if g[2] == 'sourced' else '') if g else '[[Ungraded]]'
-                body.append(box('tactic', f"#### {n} · {t['name'].title()} {{#t-{n}}}\n\n*{meta.get('def', '')}*\n\n"
+                body.append(box('tactic', f"#### {n} · {title_case(t['name'])} {{#t-{n}}}\n\n*{meta.get('def', '')}*\n\n"
                                           f"**How it shows here**\n\n{bullets(e['examples'])}\n\n"
                                           f"**The strongest defense.** {' '.join(e['defenses'])}\n\n"
                                           f"**The counter.** {' '.join(e['counters'])}\n\n**Evidence grade.** {grade}", f'n={n}'))
@@ -489,9 +497,32 @@ def md_religion(B, rid):
     return '\n'.join(fm + body) + '\n', status
 
 
+def how_to_read(B):
+    """The shared front matter every religion's PDF opens with: grades, receipt types, method."""
+    D = B['CODEX_DATA']
+    out = ['# How to read this {#how-to-read}', '',
+           'Every religion in The Sacred Divide is laid out the same way, in the same 27 sections, so that any section '
+           'can be compared across religions. This file examines institutions, offices, money and power. It does not '
+           'judge anyone\'s faith or the truth of any belief.', '',
+           '## Evidence grades {#grades}', '',
+           'Each of the 30 techniques carries a grade for how it is established in this tradition.', '']
+    out += [f'- [[{g[0]}]] {g[2]}' for g in D['gradeVocab']]
+    out += ['', '## Receipts {#receipts}', '', 'Bracketed labels such as [OFFICIAL POLICY] name the kind of source a claim rests on.', '']
+    out += [f'- **{t[0]}.** {t[1]}' for t in D['receiptTypes']]
+    out += ['', '## Method {#method}', ''] + [f'- {m}' for m in D['methodology']]
+    out += ['', '## Citations {#citations}', '',
+            'A number in brackets, such as [12], links to item 12 in this religion\'s Sources, at the end of the file. '
+            'Every source was checked for this edition.', '']
+    return '\n'.join(out) + '\n'
+
+
 def main():
     B = P.load(BOOK)
     os.makedirs(OUT, exist_ok=True)
+    open(os.path.join(OUT, '_how-to-read.md'), 'w', encoding='utf-8').write(how_to_read(B))
+    import base64
+    mark = B['CODEX_DATA']['img']['mkLg'].split(',', 1)[1]
+    open(os.path.join(ROOT, 'tools/pdf/mark.png'), 'wb').write(base64.b64decode(mark))
     rows, order = [], [rid for _, _, members in FAMILIES for rid in members]
     for rid in order:
         md, filled = md_religion(B, rid)
