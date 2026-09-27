@@ -375,6 +375,11 @@ You may keep a fast longer than most people in the world have ever fasted, sing 
 16. International Association of Genocide Scholars, resolution recognizing the Assyrian and Greek genocides (Dec 2007) — reported by the European Syriac Union. <https://www.european-syriac-union.org/2007/12/international-genocide-scholars-association-officially-recognizes-assyrian-greek-genocide/> — Armenian National Institute, IAGS affirmation. <https://www.armenian-genocide.org/Affirmation.69/current_category.5/affirmation_detail.html>
 17. Public Orthodoxy, "Ethnicity Tears the Ethiopian Orthodox Tewahdo Church Apart," 10 Feb 2023. <https://publicorthodoxy.org/2023/02/10/ethnicity-tears-the-ethiopian-orthodox-tewahdo-church-apart/> — the May 2021 Tigrayan administration: Wikipedia "Tigrayan Orthodox Tewahedo Church" (finding aid).
 18. Coptic Orthodox Church, "Prayers for the Enthronement of Abune Basilios, the New Patriarch of Eritrea…," 26 Jan 2025. <https://copticorthodox.church/en/2025/01/26/prayers-for-the-enthronement-of-abune-basilios-the-new-patriarch-of-eritrea-with-the-participation-of-a-delegation-from-the-coptic-orthodox-church/>
+19. Charity Commission for England and Wales, The Coptic Orthodox Church Centre (charity 1024592), financial history 2020–2024. <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/1024592/financial-history>
+20. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. <https://humanists.uk/faith-to-faithless/helpline/>
+21. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
+22. International Cultic Studies Association (ICSA). <https://internationalculticstudies.org/>
+23. NAPAC — 0808 801 0331. <https://napac.org.uk/calling-our-support-line/>
 
 ## Fact-check log (pass 1, 2026-09-27)
 - **Corrected:** Egypt 2010. The draft called it a "victory" in which the church refused. In fact the Supreme Constitutional Court overturned the order and confirmed the church's exclusive jurisdiction [4].
