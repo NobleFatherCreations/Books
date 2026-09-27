@@ -22,6 +22,15 @@ Legend: ✅ confirmed · ✏️ corrected · 🔹 interpretive · ⏳ open.
 6. US Embassy Lima, "Health Alert: Do Not Use Ayahuasca/Kambo" (23 Jan 2025) — deaths and assaults at unregulated retreat centers. https://pe.usembassy.gov/health-alert-do-not-use-ayahuasca-kambo/
 7. *Encyclopaedia Britannica*, "New Age movement" — New Thought and Theosophy (Theosophical Society 1875); Krishnamurti's 1929 renunciation; Esalen (1962); est; *A Course in Miracles*; Harmonic Convergence (1987). https://www.britannica.com/topic/New-Age-movement
 
+### Added with the full page (2026-09-27)
+8. *Spokesman-Review* / *Washington Post*, "Paltrow's Goop settles lawsuit over purported health benefits of mineral eggs" (6 Sept 2018). https://www.spokesman.com/stories/2018/sep/06/paltrows-goop-settles-over-lawsuit-over-purported-/
+9. Gulf News, "Gwyneth Paltrow's Goop fined for 'unsubstantiated' claims" (Sept 2018) — $145,000; ten California counties; refunds. https://gulfnews.com/entertainment/hollywood/gwyneth-paltrows-goop-fined-for-unsubstantiated-claims-1.2275822
+10. CBC Radio, *Day 6*, "From NXIVM recruiter to whistleblower: Sarah Edmondson tells her story." https://www.cbc.ca/radio/day6/climate-strikes-impeach-o-meter-fixing-democracy-spoofing-downton-abbey-nxivm-whistleblower-more-1.5297400/from-nxivm-recruiter-to-whistleblower-sarah-edmondson-tells-her-story-1.5297421
+11. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
+12. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
+13. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+14. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
+
 ---
 
 ## Claim register
