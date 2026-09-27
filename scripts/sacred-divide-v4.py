@@ -358,7 +358,7 @@ SH['roster'].append({'entity': 'Popular Mobilization Forces (Iraq)', 'type': 'St
     'holds': 'A state salary line created after Grand Ayatollah Sistani’s 2014 call to arms against ISIS and formalized in law in 2016; factions documented by UN and human-rights investigators committing abuses',
     'sector': 'Who holds guns in your city, and on whose religious call they first mobilized', 'receipt': '[GOVERNMENT REPORT: UN reporting; Iraqi PMF law 2016]'})
 SH['differential'].append({'who': 'Girls in the Dawoodi Bohra community',
-    'how': 'Khatna (female genital cutting), documented in criminal courts — the first US federal FGM prosecution (Detroit, 2017) and convictions reinstated by Australia’s High Court (2019)',
+    'how': 'Khatna (female genital cutting), examined in criminal courts: the first US federal FGM prosecution (Detroit, 2017), whose FGM counts fell when the 1996 federal law was ruled unconstitutional (Congress replaced it in 2021), and Australia’s first FGM prosecution (convictions 2015, quashed on appeal; the High Court clarified the law in 2019; charges dropped in 2020)',
     'compounds': 'With social boycott available against families who refuse — a practice Maharashtra outlawed generally in 2016'})
 log.append('shia: +whoPays (minorities/BICI), +leverage (Hezbollah/AQAH), +roster (PMF), +differential (Bohra khatna)')
 

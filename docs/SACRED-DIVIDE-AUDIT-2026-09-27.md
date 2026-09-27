@@ -78,7 +78,7 @@ entirely Iran.
   - Minorities (Hazara; Saudi Eastern Province; Bahrain, whose own 2011 Independent Commission of Inquiry documented torture and mass dismissals).
   - Hezbollah's welfare network and Al-Qard Al-Hassan (US Treasury designation, 2007).
   - Iraq's Popular Mobilization Forces: born of Sistani's 2014 call to arms, put on the state payroll by a 2016 law, with documented abuses.
-- **Dawoodi Bohra girls and khatna (FGM/C):** the first US federal FGM prosecution (Detroit, 2017), convictions reinstated by Australia's High Court (2019), and social boycott (Maharashtra outlawed social boycott in 2016).
+- **Dawoodi Bohra girls and khatna (FGM/C):** the first US federal FGM prosecution (Detroit, 2017) and Australia's first FGM prosecution (2015 convictions later quashed; High Court clarified the law in 2019; charges dropped 2020 — **corrected 2026-09-27: an earlier version of this note wrongly said the High Court reinstated the convictions**), and social boycott (Maharashtra outlawed social boycott in 2016).
 
 ### Recommended, not done (needs format or wording decisions)
 
