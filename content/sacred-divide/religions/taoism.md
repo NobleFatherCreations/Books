@@ -6,9 +6,9 @@ family_id: east-asian
 family_members: [taoism, confucianism, shinto]
 version: v4
 checked: 2026-09-27
-sections_filled: 22/27
-missing: [cases, voices, regional, leaving, help]
-partial: [branches, law, money]
+sections_filled: 27/27
+missing: []
+partial: []
 ---
 
 # Taoism / Daoism {#top}
@@ -144,11 +144,14 @@ Sources for this section: [7] [9]
 
 ## 6. Branches & variants {#branches}
 
-::: gap
-**Partly documented for Taoism / Daoism.** This section is below the page standard and is on the fill list.
-:::
-
 Quanzhen and Zhengyi as the principal ordination lineages; countless local temple traditions; a distinct Western philosophical/wellness stream largely detached from either.
+
+| Branch | Where | What differs on this page's questions |
+|---|---|---|
+| **Quanzhen** | Monastic; mainland China | Celibate clergy living in temples [7] |
+| **Zhengyi** (Celestial Masters) | Married priests; mainland China and Taiwan | A hereditary Celestial Master line, with rival claimants to the 65th generation since 2008 [7][8] |
+| **Local temple traditions** | China, Taiwan, Southeast Asia | Blend with folk religion; few people identify as Daoist, but 18% of Chinese adults believe in Daoist deities [5] |
+| **Western philosophical and wellness streams** | Europe, North America | Tai chi and qigong societies, often charities with no clergy [12] |
 
 ## 7. Structure {#structure}
 
@@ -198,19 +201,19 @@ Sources for this section: [3] [4] [5] [8]
 
 ## 8. Law & state here {#law}
 
-::: gap
-**Partly documented for Taoism / Daoism.** This section is below the page standard and is on the fill list.
-:::
+| Country | What the law does | The accountability question |
+|---|---|---|
+| **China — registration** | The Regulations on Religious Affairs (in force February 2018) require clergy and venues to register [3]; the China Taoist Association is the state-supervised body (president re-elected December 2025) [4] | At least 120,000 Buddhist and Taoist clergy work within this system [6] |
+| **China — commerce** | Twelve central departments barred companies from investing in, leasing or running Buddhist and Taoist venues in 2017, after a 2012 notice failed [1][2] | Temple tourism is regulated by the same state that profits from it [1][6] |
+| **China — buildings** | Religious statues need approval from religious-affairs authorities [10][11] | Authorities ordered a Laozi statue demolished and another covered in 2018 [10][11] |
+| **China — qigong** | Falun Gong, a qigong movement, was banned in July 1999 [9] | — |
+| **United Kingdom** | Charity law [12] | Tai chi societies file public accounts [12] |
 
 ### Who can compel an answer
 
 In the West: consumer-protection law and the small-claims court — the teacher with an unverifiable lineage has no regulator, but the invoice creates one. In the PRC: the regulator is the Party, which is the finding, not the remedy.
 
 ## 9. Money {#money}
-
-::: gap
-**Partly documented for Taoism / Daoism.** This section is below the page standard and is on the fill list.
-:::
 
 ### Where it comes from
 
@@ -279,6 +282,18 @@ In the West: consumer-protection law and the small-claims court — the teacher 
 ::: cites
 Sources for this section: [1] [2] [6]
 :::
+
+### Money in numbers
+
+```chart
+{"id":"ttcs-gb","type":"bar","title":"Taoist Tai Chi Society of Great Britain: income","unit":"£ thousand, years to 31 December",
+ "series":[["2021",252],["2022",510],["2023",254],["2024",227],["2025",1430]],
+ "note":"A UK charity teaching Taoist tai chi; public because it is registered. Income swings sharply between years.",
+ "cite":[12]}
+```
+
+- **Laojun Mountain:** the 38-metre bronze Laozi statue cost nearly ¥350 million (about $52 million), and the site is a state 5A tourist attraction [10].
+- **China, 2017:** companies were barred from investing in, leasing or running Buddhist and Taoist venues [1][2].
 
 ## 10. Genealogy {#genealogy}
 
@@ -1157,8 +1172,34 @@ The genuine 20th-century destruction of lineages is cited to make credential que
 
 ## 19. Documented cases {#cases}
 
-::: gap
-**Not yet documented for Taoism / Daoism.** This section is on the fill list — see `religions/_coverage.md`.
+::: case
+### The state takes temples out of business (China, 2017)
+- **when:** 2017
+- **what:** Twelve central government departments barred companies from investing in, contracting or running Buddhist and Taoist temples, after a 2012 ten-department notice had failed to stop commercialization [1][2].
+- **record:** Sixth Tone and *South China Morning Post*, November 2017 [1][2]
+- **outcome:** The state reasserted control over temple money; profit-making by outside investors was banned [1][2].
+- **tactics:** 26, 22
+- **grade:** Documented
+:::
+
+::: case
+### The statue under a yellow cloth (China, 2018)
+- **when:** 2018
+- **what:** Officials said the 38-metre Laozi statue at Laojun Mountain in Henan was an "illegal construction" without religious-affairs approval, and threatened to close the whole scenic area; on 11 October 2018 it was covered in yellow cloth [10].
+- **record:** *Bitter Winter*, a religious-liberty magazine, 30 January 2019 [10]
+- **outcome:** The statue, certified by Guinness in 2014 as the world's tallest bronze Laozi, was hidden from view [10].
+- **tactics:** 22
+- **grade:** Documented
+:::
+
+::: case
+### A village statue demolished (China, 2018)
+- **when:** 2018
+- **what:** On 1 October 2018 Xingyang's ethnic and religious affairs committee ordered Laojuntang villagers to destroy their 18-metre Laozi statue within a week; four days later more than 60 government personnel arrived to demolish it [11].
+- **record:** *Bitter Winter*, 13 November 2018 [11]
+- **outcome:** The statue was demolished as an "illegal construction" [11].
+- **tactics:** 22
+- **grade:** Documented
 :::
 
 ## 20. Precedent {#precedent}
@@ -1177,14 +1218,31 @@ Any Western lineage publishing verifiable succession records, checkable before p
 
 ## 21. Voices from inside {#voices}
 
-::: gap
-**Not yet documented for Taoism / Daoism.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+- **The Laojuntang villagers,** ordered to tear down their own statue [11].
+- **The manager of the Laojun Mountain site,** told to cover the statue or see the mountain sealed off [10].
+- **The clergy and believers interviewed by Freedom House,** on how the party-state manages Taoism [6].
+- **Falun Gong practitioners,** from a qigong movement banned in 1999 [9].
 
 ## 22. Regional variants {#regional}
 
-::: gap
-**Not yet documented for Taoism / Daoism.** This section is on the fill list — see `religions/_coverage.md`.
+::: card
+### China
+- **apex:** The China Taoist Association, under state supervision [4].
+- **law:** The 2018 Regulations on Religious Affairs [3]; the 2017 ban on commercialization [1].
+- **documented:** The 2018 statue orders [10][11].
+- **exit:** Belief is rarely formal membership; the state's controls fall on clergy and temples [3][5].
+- **regulator:** The party-state [3][6].
+- **tell:** The regulator here is the source of the pressure, not the remedy.
+:::
+
+::: card
+### United Kingdom and the West
+- **apex:** Societies and teachers, no clergy hierarchy.
+- **law:** Charity and consumer law [12].
+- **documented:** Public charity accounts [12].
+- **exit:** Legally free.
+- **regulator:** The Charity Commission for registered societies [12].
+- **tell:** In the West, Taoism mostly arrives as a class, with an invoice rather than a vow.
 :::
 
 ## 23. The questions {#questions}
@@ -1204,15 +1262,21 @@ So use them the way they were meant to be used. A tradition that says the Dao ca
 
 ## 24. Leaving safely here {#leaving}
 
-::: gap
-**Not yet documented for Taoism / Daoism.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Practical guidance, not legal advice.
+
+1. **Leaving a tai chi or qigong group is legally free;** if you paid for a course or "transmission", ordinary consumer law applies.
+2. **Be wary of health claims:** no practice replaces medical treatment.
+3. **Find support** if a teacher's group has taken over your life [13][14][15].
 
 ## 25. Where to get help {#help}
 
-::: gap
-**Not yet documented for Taoism / Daoism.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Checked 2026-09-27.
+
+| Organization | For | Where | Contact |
+|---|---|---|---|
+| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [13] |
+| **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [14] |
+| **ICSA** | Former members of high-control groups; families | International | Via website [15] |
 
 ## 26. Sources {#sources}
 
@@ -1226,9 +1290,15 @@ So use them the way they were meant to be used. A tradition that says the Dao ca
 8. List of Celestial Masters — the post-2008 succession dispute among mainland and Taiwanese claimants to the 65th generation. https://en.wikipedia.org/wiki/List_of_Celestial_Masters
 9. Falun Gong banned in July 1999 — Britannica, "Falun Gong". https://www.britannica.com/topic/Falun-Gong
 
+### Added with the full page (2026-09-27)
+10. *Bitter Winter* (religious-liberty magazine), "World's Tallest Bronze Statue of Laozi Hidden by State" (30 Jan 2019). https://bitterwinter.org/tallest-bronze-statue-of-laozi-hidden/
+11. *Bitter Winter*, "Lao-Tzu Statue Demolished in Henan" (13 Nov 2018). https://bitterwinter.org/lao-tzu-statue-demolished-in-henan/
+12. Charity Commission for England and Wales, The Taoist Tai Chi Society of Great Britain (charity 1053425), financial history 2021–2025. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/1053425/financial-history
+13. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+14. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
+15. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
+
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — fact-check pass 1:** `money[1]` tag → `[OFFICIAL POLICY: 2017 directive of twelve central agencies barring investors from running temples]`.
-- **2026-09-27 — fact-check pass 1:** `moneyTable[3][3]` tag → same.
-- **2026-09-27 — fact-check pass 1:** `apex.rows[0][1]` → `The state-supervised body through which clergy registration and temple licensing run in the PRC — president Li Guangfu, re-elected in December 2025`.
+- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers, three documented cases, Voices from inside, two regional cards, Leaving safely and Where to get help.
 
