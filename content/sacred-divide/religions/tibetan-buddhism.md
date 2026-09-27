@@ -6,9 +6,9 @@ family_id: buddhism-family
 family_members: [buddhism, tibetan-buddhism, soka-gakkai]
 version: v4
 checked: 2026-09-27
-sections_filled: 23/27
-missing: [voices, regional, leaving, help]
-partial: [branches, law, money]
+sections_filled: 27/27
+missing: []
+partial: []
 ---
 
 # Tibetan Buddhism {#top}
@@ -149,11 +149,15 @@ Sources for this section: [1] [2] [3] [7] [8]
 
 ## 6. Branches & variants {#branches}
 
-::: gap
-**Partly documented for Tibetan Buddhism.** This section is below the page standard and is on the fill list.
-:::
-
 Nyingma, Kagyu, Sakya, Gelug; Bön as a related Tibetan tradition; numerous Western organizations under individual teachers.
+
+| School | Where authority sits | On this page's questions |
+|---|---|---|
+| **Gelug** | The Dalai Lama's school; the Ganden Phodrang since 1642 [8] | The Dalai Lama says the Gaden Phodrang Trust alone will recognize his successor (2025) [4] |
+| **Kagyu** | The Karmapa — the first reincarnation (tulku) line, from the 13th century [8] | Two rival Karmapas were recognized in 1992 [8] |
+| **Nyingma** | Lamas and lineages; the school of Rigpa's founder [1][10] | The Rigpa investigation (2018) [1] |
+| **Sakya** | The Sakya throne-holder [8] | — |
+| **Western organizations** | A founding teacher and a board — Rigpa, Shambhala and others [1][2] | Independent investigations found misconduct in both [1][2] |
 
 ## 7. Structure {#structure}
 
@@ -210,19 +214,18 @@ Sources for this section: [3] [4] [7] [8] [9]
 
 ## 8. Law & state here {#law}
 
-::: gap
-**Partly documented for Tibetan Buddhism.** This section is below the page standard and is on the fill list.
-:::
+| Country | What the law does | The accountability question |
+|---|---|---|
+| **China** | Order No. 5 (2007) requires state approval for the recognition of reincarnated lamas [3] | The Panchen Lama recognized by the Dalai Lama was taken with his family in 1995, aged six, and has not been seen since [7] |
+| **United States** | The Tibetan Policy and Support Act (2020) makes it US policy that succession is for Tibetan Buddhists alone, and authorizes sanctions on Chinese officials who interfere [12][13] | — |
+| **United Kingdom** | Charity law [11] | The Charity Commission permanently removed a Rigpa trustee in 2019 for failing to act on allegations of abuse [11] |
+| **Canada / US** | Civil law; Shambhala's own commissioned investigation [2] | The investigator found sexual misconduct by its leader "more likely than not" in two cases (2019) [2] |
 
 ### Who can compel an answer
 
 Charity regulators over Western dharma organizations — registration is what gave the Charity Commission a statutory inquiry into Rigpa — and civil courts. Lineage authority itself has no external address, which is why the corporate wrapper is the handle.
 
 ## 9. Money {#money}
-
-::: gap
-**Partly documented for Tibetan Buddhism.** This section is below the page standard and is on the fill list.
-:::
 
 ### Where it comes from
 
@@ -291,6 +294,19 @@ Charity regulators over Western dharma organizations — registration is what ga
 ::: cites
 Sources for this section: [3]
 :::
+
+### Money in numbers
+
+```chart
+{"id":"rigpa-uk","type":"bar","title":"Rigpa Fellowship (UK): income","unit":"£ thousand, years to 31 December",
+ "series":[["2020",118],["2021",97],["2022",98],["2023",283],["2024",149]],
+ "note":"The UK charity of the organization whose founder the 2018 investigation examined. Public because it is a registered charity.",
+ "cite":[10]}
+```
+
+- **Rigpa UK, 2024:** income £149,190; spending £199,430 [10].
+- **Empowerment fees, retreats and Western donations** fund both Western centres and exile institutions (see Money above).
+- **China:** state control of reincarnation is the largest power-and-money fact on this page [3].
 
 ## 10. Genealogy {#genealogy}
 
@@ -1248,14 +1264,51 @@ Sources for this section: [5] [6]
 
 ## 21. Voices from inside {#voices}
 
-::: gap
-**Not yet documented for Tibetan Buddhism.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+- **The Rigpa students** whose complaints led to the 2018 investigation and the Charity Commission's inquiry [1][11].
+- **The Dalai Lama in 1993,** who told Western teachers that students should speak to an abusive teacher and, if that fails, make the behaviour public [5].
+- **The first Geshema nuns.** Twenty nuns awarded the highest Gelug degree in 2016, a first for women [6].
+- **Gedhun Choekyi Nyima,** the Panchen Lama who disappeared at six and has been held for over thirty years [7].
 
 ## 22. Regional variants {#regional}
 
-::: gap
-**Not yet documented for Tibetan Buddhism.** This section is on the fill list — see `religions/_coverage.md`.
+::: card
+### China (Tibet)
+- **apex:** The state, through Order No. 5 [3].
+- **law:** State approval of reincarnations [3].
+- **documented:** The disappearance of the Panchen Lama (1995) [7].
+- **exit:** Practice itself is controlled.
+- **regulator:** The state is the controlling party.
+- **tell:** A government that says reincarnation needs its licence.
+:::
+
+::: card
+### India (exile)
+- **apex:** The Dalai Lama; the Central Tibetan Administration [4][6].
+- **law:** Indian law.
+- **documented:** The 2025 succession statement [4]; the 2016 Geshema degrees [6].
+- **exit:** Legally free.
+- **regulator:** Indian courts.
+- **tell:** An exiled institution making its own rules on succession, against a state that claims the right to make them instead.
+:::
+
+::: card
+### United Kingdom
+- **apex:** Each centre's teacher and trustees.
+- **law:** Charity law [11].
+- **documented:** The Rigpa inquiry and the trustee's removal [1][11].
+- **exit:** Legally free.
+- **regulator:** The Charity Commission [11].
+- **tell:** The teacher was beyond any lineage's reach; the trustees were within the regulator's.
+:::
+
+::: card
+### North America
+- **apex:** Shambhala's leadership; each centre's board [2].
+- **law:** Civil law.
+- **documented:** The 2019 Shambhala report [2].
+- **exit:** Legally free.
+- **regulator:** Civil courts and, where they exist, charity regulators.
+- **tell:** The investigation was commissioned by the organization itself, and its findings were made public [2].
 :::
 
 ## 23. The questions {#questions}
@@ -1279,15 +1332,23 @@ Sources for this section: [1] [2]
 
 ## 24. Leaving safely here {#leaving}
 
-::: gap
-**Not yet documented for Tibetan Buddhism.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Practical guidance, not legal advice.
+
+1. **Samaya vows** made to a teacher have no legal force; you can leave a teacher or centre.
+2. **If you were abused,** go to the police; in the UK you can also report a charity to the Charity Commission [11].
+3. **The Dalai Lama's own advice** to students of abusive teachers was to speak up and, if that fails, make it public [5].
+4. **Find support** [14][15][16].
 
 ## 25. Where to get help {#help}
 
-::: gap
-**Not yet documented for Tibetan Buddhism.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Checked 2026-09-27.
+
+| Organization | For | Where | Contact |
+|---|---|---|---|
+| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [14] |
+| **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [15] |
+| **ICSA** | Former members of high-control groups; families | International | Via website [16] |
+| **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [17] |
 
 ## 26. Sources {#sources}
 
@@ -1301,9 +1362,17 @@ Sources for this section: [1] [2]
 8. *Encyclopaedia Britannica*, "Tibetan Buddhism" — first diffusion 7th–9th c.; schools; the Karmapa as the first tulku line (13th c.); the Fifth Dalai Lama and the Ganden Phodrang (1642); 1959; the rival Karmapa recognitions (1992). https://www.britannica.com/topic/Tibetan-Buddhism
 9. Office of His Holiness the Dalai Lama — 91st birthday, 6 July 2026 (in office). https://www.dalailama.com/news/celebrating-his-holiness-the-dalai-lamas-91st-birthday
 
+### Added with the full page (2026-09-27)
+10. Charity Commission for England and Wales, Rigpa Fellowship (charity 279315) — overview (Nyingma teachings) and financial history 2020–2024. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/279315/charity-overview · https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/279315/financial-history
+11. Charity Commission, "Charity regulator removes trustee from Rigpa Fellowship" (23 Sept 2019; withdrawn when the inquiry closed, 25 Nov 2020). https://www.gov.uk/government/news/charity-regulator-removes-trustee-from-rigpa-fellowship
+12. Radio Free Asia, "Trump Signs Tibetan Policy And Support Act Into Law, Prompting Warnings From Beijing" (28 Dec 2020). https://www.rfa.org/english/news/tibet/law-12282020181154.html
+13. USCIRF, "USCIRF Welcomes Enactment of the Tibet Policy and Support Act." https://www.uscirf.gov/release-statements/uscirf-welcomes-enactment-tibet-policy-and-support-act
+14. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+15. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
+16. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
+17. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
+
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — fact-check pass 1:** `timeline[9][1]` → `Independent investigations find abuse by Sogyal Rinpoche (Rigpa, 2018) and sexual misconduct by Sakyong Mipham (Shambhala, 2019)`.
-- **2026-09-27 — fact-check pass 1:** `compel` first sentence → `Charity regulators over Western dharma organizations — registration is what gave the Charity Commission a statutory inquiry into Rigpa — and civil courts.`
-- **2026-09-27 — fact-check pass 1:** `demographics.adherents` → prefix `Estimated`.
+- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (Rigpa UK accounts 2020–2024), Voices from inside, four regional cards, Leaving safely and Where to get help.
 
