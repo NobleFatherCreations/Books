@@ -38,6 +38,26 @@ Legend: ✅ confirmed · ✏️ corrected · 🔹 interpretive · ⏳ open.
 20. KRDO/CNN, "Grand Ayatollah Ali al-Sistani Fast Facts" (updated 22 July 2026 — born 1930, living). https://krdo.com/news/2026/07/22/grand-ayatollah-ali-al-sistani-fast-facts-3/
 21. Nobel Prize, Narges Mohammadi — Peace Prize 2023. https://www.nobelprize.org/prizes/peace/2023/mohammadi/facts/
 
+### Added for the full page (2026-09-27)
+22. *Encyclopaedia Britannica*, "Shiʿi" — Twelvers, Ismailis and Zaydis. https://www.britannica.com/topic/Shii
+23. *Encyclopaedia Britannica*, "Alawite" (recognised as Shia by Musa al-Sadr's 1973 ruling). https://www.britannica.com/topic/Alawite
+24. Iran International, "Iran postpones implementation of new hijab law" (14 Dec 2024), and "Iran says hijab laws remain in force amid debate over enforcement" (Oct 2025). https://www.iranintl.com/en/202412140884 · https://www.iranintl.com/en/202510140652
+25. Human Rights Watch, *Unequal and Unprotected: Women's Rights under Lebanese Personal Status Laws* (19 Jan 2015). https://www.hrw.org/report/2015/01/19/unequal-and-unprotected/womens-rights-under-lebanese-personal-status-laws
+26. Emory University, Islamic Family Law project, "Lebanon" legal profile (Jaʿfari marriage age). https://scholarblogs.emory.edu/islamic-family-law/home/research/legal-profiles/lebanon-lebanese-republic/
+27. Charity Commission, "Regulator launches inquiry into Islamic Centre of England" (Nov 2022); The National, trustees removed (10 May 2023) and charity closes (25 May 2023). https://www.gov.uk/government/news/regulator-launches-inquiry-into-islamic-centre-of-england · https://www.thenationalnews.com/world/uk-news/2023/05/10/trustees-removed-from-iran-run-islamic-centre-of-england/ · https://www.thenationalnews.com/world/uk-news/2023/05/25/islamic-charity-linked-to-iran-shuts-weeks-after-watchdog-tried-to-take-control/
+28. IQNA, "Over 21 Million Pilgrims Attend 2025 Arbaeen in Iraq, Authorities Say" (shrine-authority count). https://iqna.ir/en/news/3494261/over-21-million-pilgrims-attend-2025-arbaeen-in-iraq-authorities-say
+29. *Encyclopaedia Britannica*, "Hossein Ali Montazeri". https://www.britannica.com/biography/Hossein-Ali-Montazeri
+30. Kadivar.com, "A scholar and a dissident" (Special Court for the Clergy, 1999; released July 2000); Committee to Protect Journalists, "Mohsen Kadivar". https://english.kadivar.com/2011/12/02/a-scholar-and-a-dissident/ · https://cpj.org/data/people/mohsen-kadivar/
+31. Organization of Women's Freedom in Iraq (OWFI). https://www.owfi.info/
+32. Iran Human Rights (IHRNGO), "About Us" (Oslo, founded 2005). https://iranhr.net/en/about/
+33. Humanists UK, Faith to Faithless helpline. https://humanists.uk/faith-to-faithless/helpline/
+34. Ex-Muslims of North America, "Support Communities". https://exmuslims.org/community/
+35. Humanists International, "Humanists at Risk". https://humanists.international/what-we-do/humanists-at-risk/
+36. Naseeha Mental Health, "Helpline & Textline". https://www.naseeha.org/helpline-textline
+37. Humanists International, "The right to apostasy in the world"; National Secular Society on the *Freedom of Thought Report* 2021 (Iran among states where apostasy can carry death). https://humanists.international/get-involved/resources/the-right-to-apostasy-in-the-world/ · https://www.secularism.org.uk/news/2021/11/death-sentence-for-apostasy-in-nearly-a-dozen-countries-report-says
+38. Karma Nirvana, national Honour Based Abuse Helpline. https://karmanirvana.org.uk/get-help/helpline/
+39. Grand Ayatollah Sistani, *Islamic Laws*, "Khums" — surplus income and distribution. https://www.sistani.org/english/book/48/2306/ · https://www.sistani.org/english/book/48/2312/
+
 (Khums at 20% of annual surplus, split into *sahm-e Imam* and *sahm-e sadat*, is standard Twelver
 jurisprudence, stated in every marjaʿ's practical manual — e.g. Sistani's *Islamic Laws*, "Khums":
 https://www.sistani.org/english/book/48/2312/ (distribution) and https://www.sistani.org/english/book/48/2306/ (surplus income) .)

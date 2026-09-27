@@ -6,9 +6,9 @@ family_id: islam-family
 family_members: [islam, sunni-islam, shia-islam, ahmadiyya, dawoodi-bohra]
 version: v4
 checked: 2026-09-27
-sections_filled: 23/27
-missing: [voices, regional, leaving, help]
-partial: [branches, cases, law, money]
+sections_filled: 27/27
+missing: []
+partial: []
 ---
 
 # Shia Islam {#top}
@@ -144,11 +144,15 @@ Sources for this section: [1] [17] [19]
 
 ## 6. Branches & variants {#branches}
 
-::: gap
-**Partly documented for Shia Islam.** This section is below the page standard and is on the fill list.
-:::
-
 Twelver (vast majority); Ismaili — Nizari under the Aga Khan, and Mustaʿli, chiefly the Dawoodi Bohras (~1 million) under the Daʿi al-Mutlaq; Zaydi (including the Houthi movement’s base in Yemen); within Twelver, quietist (Najaf) and activist/state (Qom) currents.
+
+| Branch | Where | What differs on this page's questions |
+|---|---|---|
+| **Twelvers (Ithna ʿAshari)** | Iran, Iraq, Azerbaijan, Bahrain, Lebanon, and large communities in Pakistan and India [16][22] | The largest branch. Authority passes to the scholars (marjaʿiyya) while the twelfth Imam is in occultation; in Iran, to one scholar as head of state [1][22]. |
+| **Ismailis — Nizari** | South and Central Asia, East Africa, diaspora [22] | A living, hereditary Imam (the Aga Khan) instead of a scholarly class; dues are paid to the Imamate [22]. |
+| **Ismailis — Mustaʿli / Tayyibi** | South Asia (the Dawoodi Bohra) | Led by a hereditary *dai*; covered on its own page (Dawoodi Bohra). |
+| **Zaydis** | Yemen [22] | The smallest branch, closest to Sunni doctrine; any qualified member of the Prophet's family may claim the imamate [22]. |
+| **Alawites** | Syria [23] | Whether they count as Shia has been debated; recognised as Shia by Musa al-Sadr's 1973 ruling in Lebanon [23]. |
 
 ## 7. Structure {#structure}
 
@@ -207,19 +211,20 @@ Sources for this section: [1] [2] [3] [4] [6] [14] [15] [16] [20]
 
 ## 8. Law & state here {#law}
 
-::: gap
-**Partly documented for Shia Islam.** This section is below the page standard and is on the fill list.
-:::
+| Country | Leaving Islam | Criticizing religion or clergy | Family law | Who holds the religious money and pulpit |
+|---|---|---|---|---|
+| **Iran** | Can carry the death penalty [37] | Clerics are tried in the Special Court for the Clergy — a reformist cleric served 17 months for his writing [30] | Compulsory hijab; a harsher 2023 law was paused in December 2024, but existing rules stayed in force [24]; death is the prescribed penalty for same-sex acts [12] | The Leader, who appoints the custodian of the largest shrine conglomerate [1][6] |
+| **Iraq** | — | — | A 2025 code lets Shia families opt into a Jaʿfari personal-status code that HRW says makes women "second class" [8][13] | The Najaf marjaʿiyya, outside the state; a state-funded militia commission created after a 2014 fatwa [4][19] |
+| **Lebanon** | — | — | No civil marriage; Jaʿfari courts decide Shia marriage, divorce and custody, with no clear minimum marriage age [25][26] | Sect-based religious councils and courts [25] |
+| **Bahrain** | — | Protest in 2011 met with mistreatment the state's own inquiry called torture [10] | — | A Sunni monarchy governing a Shia majority [10] |
+| **Pakistan** | — | — | — | A minority targeted by sectarian killings, as with the Hazara of Balochistan [11] |
+| **United Kingdom** | Free | Free | Religious-only marriage leaves women without status (see Sunni Islam) | The Charity Commission removed the trustees of the Supreme Leader's UK office in 2023 [27] |
 
 ### Who can compel an answer
 
 In diaspora: charity regulators over khums-receiving foundations and centers, and ordinary courts. Inside Iran: no body compels, and that absence is not a gap in this list — it is the section's central finding.
 
 ## 9. Money {#money}
-
-::: gap
-**Partly documented for Shia Islam.** This section is below the page standard and is on the fill list.
-:::
 
 ### Where it comes from
 
@@ -277,6 +282,14 @@ In diaspora: charity regulators over khums-receiving foundations and centers, an
 ::: cites
 Sources for this section: [6] [14] [15]
 :::
+
+### Money in numbers
+
+Khums — a fifth of annual surplus income — is the Shia tradition's defining money flow, and it has no public ledger anywhere [39]. What has numbers:
+
+- **Setad**, the conglomerate under the Supreme Leader's office, was valued at about **$95 billion** by a 2013 Reuters investigation [14].
+- **Astan Quds Razavi**, the Imam Reza shrine's economic empire, is run by a custodian the Leader appoints [6][15].
+- **Arbaeen**, the walk to Karbala, drew about **21 million** people in 2025 by the shrine authorities' own electronic count — a figure no one independently audits [28].
 
 ## 10. Genealogy {#genealogy}
 
@@ -1167,10 +1180,6 @@ Sources for this section: [7]
 
 ## 19. Documented cases {#cases}
 
-::: gap
-**Partly documented for Shia Islam.** This section is below the page standard and is on the fill list.
-:::
-
 ::: case
 ### Death in morality police custody
 
@@ -1184,6 +1193,46 @@ Sources for this section: [7]
 
 ::: cites
 Sources for this section: [9]
+:::
+
+::: case
+### The death in custody (Iran, 2022–2024)
+- **when:** 2022–2024
+- **what:** Mahsa Amini, 22, died in the custody of Tehran's morality police in September 2022 after arrest for her hijab. The UN's independent fact-finding mission found her death unlawful and the state responsible, and found some violations in the crackdown on the protests that followed amounted to crimes against humanity [9].
+- **record:** UN Independent International Fact-Finding Mission on Iran (March 2024) [9]
+- **outcome:** A harsher hijab law passed and was then paused in December 2024 [24].
+- **tactics:** 30, 21, 17
+- **grade:** Documented
+:::
+
+::: case
+### The state's own inquiry (Bahrain, 2011)
+- **when:** 2011
+- **what:** After mainly Shia protests, the Bahrain Independent Commission of Inquiry — set up by the king — found systematic mistreatment of detainees amounting to torture, and mass dismissals of workers [10].
+- **record:** *Report of the Bahrain Independent Commission of Inquiry* (23 Nov 2011) [10]
+- **outcome:** A rare case of a state publishing findings against itself; the report's own recommendations measure what followed [10].
+- **tactics:** 17, 14
+- **grade:** Documented
+:::
+
+::: case
+### The cleric jailed for his writing (Iran, 1999–2000)
+- **when:** 1999–2000
+- **what:** Mohsen Kadivar, a mujtahid who wrote a theological critique of rule by the jurist, was convicted by the Special Court for the Clergy and served about 17 months in Evin Prison [30].
+- **record:** Special Court for the Clergy (April 1999) [30]
+- **outcome:** He left Iran and became a professor of Islamic studies in the United States [30].
+- **tactics:** 17, 18, 6
+- **grade:** Documented
+:::
+
+::: case
+### The Leader's UK office and the charity regulator (United Kingdom, 2022–2023)
+- **when:** 2022–2023
+- **what:** The Charity Commission opened a statutory inquiry into the Islamic Centre of England — the Supreme Leader's representative office in the UK — after its trustees failed to comply with an earlier warning, and in May 2023 removed the trustees [27].
+- **record:** Charity Commission statutory inquiry (opened Nov 2022) [27]
+- **outcome:** The charity closed weeks later [27].
+- **tactics:** 26, 30
+- **grade:** Documented
 :::
 
 ## 20. Precedent {#precedent}
@@ -1206,14 +1255,72 @@ Sources for this section: [18]
 
 ## 21. Voices from inside {#voices}
 
-::: gap
-**Not yet documented for Shia Islam.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+- **Grand Ayatollah Hossein-Ali Montazeri.** Khomeini's designated successor, who in 1988 condemned the execution of thousands of prisoners; he lost the succession and was later under house arrest from 1997 to 2003 [29].
+- **Mohsen Kadivar.** A mujtahid whose critique of *velayat-e faqih* is written from inside Shia jurisprudence, and who was jailed for it [30].
+- **Grand Ayatollah Ali al-Sistani.** The quietist marjaʿ, who holds no state office, condemned the killing of Iraqi protesters in 2019 [19].
+- **Grand Ayatollah Mohammad Hussein Fadlallah.** A senior Lebanese marjaʿ who opposed tatbir, the blade rituals of Ashura [18].
+- **Narges Mohammadi.** An Iranian human-rights defender, imprisoned, awarded the Nobel Peace Prize in 2023 [21].
 
 ## 22. Regional variants {#regional}
 
-::: gap
-**Not yet documented for Shia Islam.** This section is on the fill list — see `religions/_coverage.md`.
+::: card
+### Iran
+- **apex:** The Supreme Leader — Mojtaba Khamenei since March 2026 — chosen by the Assembly of Experts [1][2][3].
+- **law:** Leaving Islam can carry the death penalty [37]; compulsory hijab [24]; same-sex acts punishable by death [12].
+- **documented:** The UN fact-finding mission on the 2022 crackdown [9]; Setad's holdings [14].
+- **exit:** The highest legal risk for Shia on this page.
+- **regulator:** None independent; UN mechanisms report [9].
+- **tell:** The only state on earth where the answer to "who is the top cleric?" is also the answer to "who commands the army?" [1].
+:::
+
+::: card
+### Iraq
+- **apex:** Two poles: the Najaf marjaʿiyya, outside the state, and the parties and armed factions inside it [4][19].
+- **law:** A 2025 amendment lets Shia families choose a Jaʿfari personal-status code [8][13]; the PMF was made a state body by law in 2016 [4].
+- **documented:** Sistani's sermons helped bring down a government in 2019 [19]; HRW on the 2025 code [13].
+- **exit:** Family and community costs; the family code now follows sect [13].
+- **regulator:** Iraq's courts; the Najaf authorities hold moral, not legal, power [19].
+- **tell:** The most powerful Shia voice in Iraq holds no office and cannot be removed — and that is exactly why his word carries.
+:::
+
+::: card
+### Lebanon
+- **apex:** Sect-based religious councils; Jaʿfari courts for Shia personal status [25].
+- **law:** No civil marriage; each sect's courts decide marriage, divorce and custody [25]; the Jaʿfari courts have no clear minimum marriage age [26].
+- **documented:** Human Rights Watch on discrimination in all of Lebanon's religious personal-status systems [25].
+- **exit:** To marry outside the system, couples marry abroad.
+- **regulator:** The religious courts themselves [25].
+- **tell:** A state that assigns every citizen a sect and a sect's court: the exit from religious law is a plane ticket.
+:::
+
+::: card
+### Bahrain
+- **apex:** A Sunni monarchy over a Shia-majority population [10].
+- **law:** —
+- **documented:** The 2011 independent inquiry's findings of torture [10].
+- **exit:** Not a religious-law question here; the cost of dissent is political [10].
+- **regulator:** The inquiry itself was the regulator's work, commissioned by the king [10].
+- **tell:** A government commissioned an inquiry that found against it. That is the precedent; what happened next is the test.
+:::
+
+::: card
+### Pakistan
+- **apex:** Community clerics and trusts; no state religious office for Shia.
+- **law:** Blasphemy and sectarian-hatred laws apply to all Muslims.
+- **documented:** The killing of Hazara Shia in Balochistan [11].
+- **exit:** —
+- **regulator:** Police and courts, whose failure to protect is the finding [11].
+- **tell:** Most of the harm on this card is done to Shia, not by their institutions.
+:::
+
+::: card
+### United Kingdom
+- **apex:** Independent mosques and foundations; the Supreme Leader's representative office until 2023 [27].
+- **law:** Charity law applies to religious charities [27].
+- **documented:** The Charity Commission's removal of the Islamic Centre of England's trustees [27].
+- **exit:** Legally free; support services exist [33][34].
+- **regulator:** The Charity Commission [27].
+- **tell:** The only jurisdiction on this page where a regulator removed the Leader's own trustees — because they were a charity.
 :::
 
 ## 23. The questions {#questions}
@@ -1233,15 +1340,28 @@ You can weep every Muharram and refuse every man who monetizes it. In fact, if t
 
 ## 24. Leaving safely here {#leaving}
 
-::: gap
-**Not yet documented for Shia Islam.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Practical guidance, not legal advice.
+
+1. **Where you are decides the risk.** In Iran leaving Islam can carry the death penalty [37]; in the UK it is legally free [33].
+2. **Do not announce, especially online, in Iran.** Clerics and citizens alike have been prosecuted for what they wrote [30].
+3. **Know your family-law exposure.** In Iraq and Lebanon, marriage, divorce and custody follow sect and are decided by religious courts [13][25].
+4. **Secure documents and money** in your own name before any disclosure.
+5. **If honour or forced marriage is invoked,** use specialist services [31][38].
+6. **Find your people quietly** — vetted ex-Muslim communities, or Muslim peer helplines if you are staying [34][36].
 
 ## 25. Where to get help {#help}
 
-::: gap
-**Not yet documented for Shia Islam.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Checked 2026-09-27. Services change; check the organization's own site.
+
+| Organization | For | Where | Contact |
+|---|---|---|---|
+| **Organization of Women's Freedom in Iraq (OWFI)** | Shelters for women at risk of honour killing and violence | Iraq | Via website [31] |
+| **Iran Human Rights (IHRNGO)** | Death-penalty cases; human-rights defenders | Iran (based in Oslo) | Via website [32] |
+| **Faith to Faithless** (Humanists UK) | People leaving high-control religion | UK | Helpline [33] |
+| **Ex-Muslims of North America** | Vetted private communities; emergency fund | US, Canada | Online application [34] |
+| **Humanists International — Humanists at Risk** | People facing prosecution for apostasy or blasphemy | Global | Casework [35] |
+| **Naseeha** | Muslim peer mental-health helpline | North America | **1-866-627-3342**, 24/7 [36] |
+| **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** [38] |
 
 ## 26. Sources {#sources}
 
@@ -1272,13 +1392,32 @@ You can weep every Muharram and refuse every man who monetizes it. In fact, if t
 20. KRDO/CNN, "Grand Ayatollah Ali al-Sistani Fast Facts" (updated 22 July 2026 — born 1930, living). https://krdo.com/news/2026/07/22/grand-ayatollah-ali-al-sistani-fast-facts-3/
 21. Nobel Prize, Narges Mohammadi — Peace Prize 2023. https://www.nobelprize.org/prizes/peace/2023/mohammadi/facts/
 
+### Added for the full page (2026-09-27)
+22. *Encyclopaedia Britannica*, "Shiʿi" — Twelvers, Ismailis and Zaydis. https://www.britannica.com/topic/Shii
+23. *Encyclopaedia Britannica*, "Alawite" (recognised as Shia by Musa al-Sadr's 1973 ruling). https://www.britannica.com/topic/Alawite
+24. Iran International, "Iran postpones implementation of new hijab law" (14 Dec 2024), and "Iran says hijab laws remain in force amid debate over enforcement" (Oct 2025). https://www.iranintl.com/en/202412140884 · https://www.iranintl.com/en/202510140652
+25. Human Rights Watch, *Unequal and Unprotected: Women's Rights under Lebanese Personal Status Laws* (19 Jan 2015). https://www.hrw.org/report/2015/01/19/unequal-and-unprotected/womens-rights-under-lebanese-personal-status-laws
+26. Emory University, Islamic Family Law project, "Lebanon" legal profile (Jaʿfari marriage age). https://scholarblogs.emory.edu/islamic-family-law/home/research/legal-profiles/lebanon-lebanese-republic/
+27. Charity Commission, "Regulator launches inquiry into Islamic Centre of England" (Nov 2022); The National, trustees removed (10 May 2023) and charity closes (25 May 2023). https://www.gov.uk/government/news/regulator-launches-inquiry-into-islamic-centre-of-england · https://www.thenationalnews.com/world/uk-news/2023/05/10/trustees-removed-from-iran-run-islamic-centre-of-england/ · https://www.thenationalnews.com/world/uk-news/2023/05/25/islamic-charity-linked-to-iran-shuts-weeks-after-watchdog-tried-to-take-control/
+28. IQNA, "Over 21 Million Pilgrims Attend 2025 Arbaeen in Iraq, Authorities Say" (shrine-authority count). https://iqna.ir/en/news/3494261/over-21-million-pilgrims-attend-2025-arbaeen-in-iraq-authorities-say
+29. *Encyclopaedia Britannica*, "Hossein Ali Montazeri". https://www.britannica.com/biography/Hossein-Ali-Montazeri
+30. Kadivar.com, "A scholar and a dissident" (Special Court for the Clergy, 1999; released July 2000); Committee to Protect Journalists, "Mohsen Kadivar". https://english.kadivar.com/2011/12/02/a-scholar-and-a-dissident/ · https://cpj.org/data/people/mohsen-kadivar/
+31. Organization of Women's Freedom in Iraq (OWFI). https://www.owfi.info/
+32. Iran Human Rights (IHRNGO), "About Us" (Oslo, founded 2005). https://iranhr.net/en/about/
+33. Humanists UK, Faith to Faithless helpline. https://humanists.uk/faith-to-faithless/helpline/
+34. Ex-Muslims of North America, "Support Communities". https://exmuslims.org/community/
+35. Humanists International, "Humanists at Risk". https://humanists.international/what-we-do/humanists-at-risk/
+36. Naseeha Mental Health, "Helpline & Textline". https://www.naseeha.org/helpline-textline
+37. Humanists International, "The right to apostasy in the world"; National Secular Society on the *Freedom of Thought Report* 2021 (Iran among states where apostasy can carry death). https://humanists.international/get-involved/resources/the-right-to-apostasy-in-the-world/ · https://www.secularism.org.uk/news/2021/11/death-sentence-for-apostasy-in-nearly-a-dozen-countries-report-says
+38. Karma Nirvana, national Honour Based Abuse Helpline. https://karmanirvana.org.uk/get-help/helpline/
+39. Grand Ayatollah Sistani, *Islamic Laws*, "Khums" — surplus income and distribution. https://www.sistani.org/english/book/48/2306/ · https://www.sistani.org/english/book/48/2312/
+
 (Khums at 20% of annual surplus, split into *sahm-e Imam* and *sahm-e sadat*, is standard Twelver
 jurisprudence, stated in every marjaʿ's practical manual — e.g. Sistani's *Islamic Laws*, "Khums":
 https://www.sistani.org/english/book/48/2312/ (distribution) and https://www.sistani.org/english/book/48/2306/ (surplus income) .)
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — fact-check pass 1:** **Apex, Supreme Leader row** →
-- **2026-09-27 — fact-check pass 1:** **Size** (`neutral` and `demographics.adherents`) → `about 200–260 million (~10–13% of Muslims)`.
-- **2026-09-27 — fact-check pass 1:** **Timeline, last row** — extend `2017–present` with: `2026: the founding generation's Leader is killed in war; the Assembly of Experts chooses his son` (a fact-level addition; no interpretation needed).
+- **2026-09-27 — fact-check pass 1:** the Supreme Leader is Mojtaba Khamenei, chosen in March 2026 after his father was killed; population corrected to 200–260 million; Iraq's 2025 Jaʿfari code added.
+- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers, three new documented cases, Voices from inside, six regional cards, Leaving safely and Where to get help.
 
