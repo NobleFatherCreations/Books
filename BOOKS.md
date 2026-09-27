@@ -85,20 +85,29 @@ finish the book") is missing from the one artifact meant to be kept.
 apply without conflict (calibration/judgment content doesn't call for an anti-progress
 stance the way Loop's does, but confirm, don't assume).
 
-## faith — The Coercive Control Codex **[confirmed]**
+## faith — The Sacred Divide **[confirmed]**
 
-25–27 traditions × tactics matrix, evidence-graded. **Confirmed in the
-book's own text:** *"It will not measure you. No analytics, no tracking,
-no storage, no external requests."* Same self-contained ethos as Loop, even
-more explicit. A related but distinct edition (`library/_undeployed/faith-offline-edition.html`,
-5/8 passes done) adds: *"no engagement mechanics"* full stop, and
-deliberately carries **no shared site chrome at all** (hand-to-person,
-offline, sometimes read by people monitored at home).
+**Name: always "The Sacred Divide"** (user instruction, 2026-09-27). Never
+"The Coercive Control Codex" / "Coercive Control Index" in memory, docs, or
+new content. Lowercase "codex" inside the book's own prose and volume names
+(Children's Codex, Counter-Codex) is left as written.
 
-**Design status (live page):** still has the leaked HOUSE-tab comment
-(fix ready, unshipped). A full redesign exists (`library/_undeployed/sacred-divide-faith-redesign.html`,
-"The Sacred Divide") — parchment + dark theme, three-register tactic
-entries — not deployed, your call pending ("let me look first").
+**What's live (verified by bytes 2026-09-27):** thenobledivide = /faith, the
+faith-index lineage, v3. **27 traditions × 18 acts** (486 pages), 30
+mechanisms (810 graded cells), five districts (Lens · Traditions · 8
+Volumes · 12 Instruments · Your Track with 6 tracks). Islam is three
+entries: Islam (umbrella), Sunni Islam, Shia Islam — no Sufi, Ahmadi or
+Bohra section (recommended additions, see
+`docs/SACRED-DIVIDE-AUDIT-2026-09-27.md`). The book's own text promises *"no
+analytics, no tracking, no storage, no external requests"* — the live file
+nonetheless carries a Cloudflare beacon (removed in the v4 candidate).
+
+**Pending:** v4 candidate at `library/_undeployed/sacred-divide-v4-candidate.html`
+(built by `scripts/sacred-divide-v4.py` from the live file; not deployed).
+`library/faith/index.html` is the OLD non-live lineage until the user
+approves the swap. A separate full redesign
+(`library/_undeployed/sacred-divide-faith-redesign.html`, parchment + dark,
+three-register tactic entries) is still undeployed, user's call.
 
 **Reference adaptation:**
 - Stripe Press — ⚠️ a cover/title moment is fine in spirit, but keep it

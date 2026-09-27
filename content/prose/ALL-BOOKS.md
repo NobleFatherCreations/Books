@@ -25650,7 +25650,7 @@ Inquiries and reports. Often thousands of pages of testimony already gathered an
 
 Their own published policies. Which you can compare against what happened to you — frequently the fastest route to a finding.
 
-This is a completely different evidentiary situation from anything in the rest of this book, and it is under-used because people do not know the documents exist. The Coercive Control Codex in this library contains a public-records toolkit for exactly this, jurisdiction by jurisdiction.
+This is a completely different evidentiary situation from anything in the rest of this book, and it is under-used because people do not know the documents exist. The Sacred Divide in this library contains a public-records toolkit for exactly this, jurisdiction by jurisdiction.
 
 The five structural questions
 
@@ -26133,7 +26133,7 @@ Go and be close to people. Extend a little more than you can prove. Notice what 
 That is the whole skill, and you have it now.
 
 
-# The Coercive Control Codex
+# The Sacred Divide
 
 *(source/projects/faith-index.html, 301,305 words)*
 

@@ -3342,3 +3342,61 @@ and unrelated to this round; verified identical against baseline.
 **content/wook-audits/** holds the cold opens with a video-series running
 order (generated from live source by build-coldopen-reel.py, so it cannot
 drift), the checker's report, and the earlier audit docs.
+
+## Update (2026-09-27) — The Sacred Divide: name, full discrepancy audit, Islamic sections
+
+**Naming rule (user instruction): the faith book is "The Sacred Divide".**
+Not "The Coercive Control Codex", not "Coercive Control Index" — in memory,
+docs, catalogues, other books' menus, and anything new. Renamed in
+sites.json, chapters.json, BOOKS.md, PROJECT-MASTER, content/prose,
+nh-drawer-catalogue.py, extract-prose-master.py, and The Loop / The
+Weighing sources (their menus + two prose mentions in The Weighing; not yet
+redeployed). Older dated audit docs keep the old name as historical record.
+
+**The repo-vs-live question is settled, by bytes.** /faith and
+thenobledivide.netlify.app serve the identical file (3,338,060 bytes). It is
+the faith-index lineage = `_undeployed/faith-offline-edition.html` + v3
+sidebar links + a Cloudflare beacon. `library/faith/index.html` (4.7MB) is
+the old lineage and is NOT live; the 2026-08-31 "matches live" note was
+wrong. The beacon is on the Netlify origin too, so it is not Cloudflare
+edge injection — either baked into the upload or Netlify snippet injection
+(not visible via the MCP connector; check the dashboard).
+
+**Discrepancies found in the live book** (full table in
+`docs/SACRED-DIVIDE-AUDIT-2026-09-27.md`): the old title in ~10 UI spots;
+"25 traditions" in ~13 places (sidebar, matrix label, entry screens, legal
+notice, Annual Asking…); "eleven instruments" (there are 12); "four readers"
+(Your Track has 6); **17 leaked drafting notes** ("Your file defines it
+as…") in tactic text across ~10 traditions; **pasted chat text** in the
+Jainism/Normalization entry ("Got it", "I'll interpret this as: 1. Continue
+13. NORMALIZATION… through the end of the 25-list") plus four Taoism
+examples misfiled there; 27 stray spaces before punctuation. All fixed in
+the v4 candidate, built by `scripts/sacred-divide-v4.py` from the live file
+(every edit asserts its match, so a stale input fails loudly). Verified in
+Chromium at 375/1440, normal + reduced motion: 0 page errors, 0 overflow,
+all 3 Islamic traditions × 18 acts render, new content visible.
+
+**Islamic sections**: corrected overstatements (the Sunni honor-killing
+question claimed no scholar condemns it — replaced with the documented
+qisas/diyat pardon mechanism and Pakistan's 2016 Act; khums "no ledger
+anywhere" softened; tariqa and occultation dating fixed; Iraq 2019 protests
+re-described) and filled gaps (Ahmadi legal specifics; Southeast Asia —
+NU/Muhammadiyah, MUI, Indonesia 2019; Shia outside Iran — PMF, Hezbollah
+welfare/AQAH, Bahrain BICI, Hazara; Dawoodi Bohra khatna court record;
+Morocco 2004 / India 2017 / Tunisia 2017 reforms). Recommended new
+sections: **Ahmadiyya** (first), **Sufi Orders**, and **Dawoodi Bohra** on
+evidence. Missing religions: Anglicanism, Oriental Orthodoxy, Soka Gakkai;
+on record: Unification Church, Iglesia ni Cristo, Shincheonji.
+
+**Two things the auto-mode classifier blocked, not worked around:** moving
+the old `library/faith/index.html` to `_undeployed/` and deleting the
+superseded offline edition (so the swap awaits the user), and two plain
+read-only greps (erratic; didn't retry). Because of the second, drafted
+Error Ledger entries and three documented cases are in the audit doc as
+recommendations rather than in the page — their render/count code wasn't
+confirmed.
+
+**Not deployed. Nothing on Netlify changed.** Deploying v4 = production
+write needing explicit go-ahead; bump sites.json version + on-page entry in
+the same commit when it happens (sites.json → faith → `pendingRelease`
+holds the summary).
