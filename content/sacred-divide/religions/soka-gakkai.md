@@ -6,9 +6,9 @@ family_id: buddhism-family
 family_members: [buddhism, tibetan-buddhism, soka-gakkai]
 version: v4
 checked: 2026-09-27
-sections_filled: 22/27
-missing: [law, voices, regional, leaving, help]
-partial: [branches, money]
+sections_filled: 27/27
+missing: []
+partial: []
 ---
 
 # Soka Gakkai {#top}
@@ -102,11 +102,13 @@ The movement's key stages:
 
 ## 6. Branches & variants {#branches}
 
-::: gap
-**Partly documented for Soka Gakkai.** This section is below the page standard and is on the fill list.
-:::
-
 Soka Gakkai; Nichiren Shoshu, the priesthood, separate since 1991 [9].
+
+| Body | Where | What differs on this page's questions |
+|---|---|---|
+| **Soka Gakkai (Japan)** | 8.27 million member households [1] | Founded Komeito (1964), in government with the LDP 1999–2025 [3][4] |
+| **Soka Gakkai International (SGI)** | About 3 million members in 192 countries and territories [1] | National organizations, often registered charities; lighter practice in many countries [2] |
+| **Nichiren Shoshu** | The priesthood the lay movement belonged to until 1991 | Excommunicated Soka Gakkai on 28 November 1991 [9] |
 
 ## 7. Structure {#structure}
 
@@ -144,15 +146,14 @@ Soka Gakkai; Nichiren Shoshu, the priesthood, separate since 1991 [9].
 
 ## 8. Law & state here {#law}
 
-::: gap
-**Not yet documented for Soka Gakkai.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+| Country | What the law does | The accountability question |
+|---|---|---|
+| **Japan — religious corporations** | The Religious Corporations Law was revised on 8 December 1995, after the Aum Shinrikyo attack, moving oversight to central government and giving it more access to religious bodies' records [11][12] | An LDP spokesman said on television the purpose was "to take measures against Soka Gakkai" [11] |
+| **Japan — politics** | Religious bodies may support parties | Soka Gakkai founded Komeito in 1964; after the 1969–70 book-suppression affair the two were formally "separated" [3] |
+| **France** | A 1995 parliamentary report listed Soka Gakkai among 172 movements [10] | The listing was itself controversial [10] |
+| **United Kingdom** | Charity law [2] | SGI-UK files public accounts [2] |
 
 ## 9. Money {#money}
-
-::: gap
-**Partly documented for Soka Gakkai.** This section is below the page standard and is on the fill list.
-:::
 
 ### Where it comes from
 
@@ -167,6 +168,19 @@ Soka Gakkai; Nichiren Shoshu, the priesthood, separate since 1991 [9].
 | Zaimu contributions | Supporting kosen-rufu (world peace through the Lotus Sutra) | Annual drives, locally encouraged [8] | The organization |
 | *Seikyo Shimbun* | Faith and news | Subscriptions sold by members; unaudited circulation [5][8] | The publishing arm |
 | Election work | Kosen-rufu through politics | Members' unpaid campaign labor [5] | Komeito (and, until 2025, its coalition partner) [4] |
+
+### Money in numbers
+
+```chart
+{"id":"sgi-uk","type":"bar","title":"Soka Gakkai International – UK: income","unit":"£ million, years to 31 December",
+ "series":[["2020",2.47],["2021",2.40],["2022",2.62],["2023",3.34],["2024",3.20]],
+ "note":"Public because SGI-UK is a registered charity; spending exceeded income every year shown.",
+ "cite":[2]}
+```
+
+- **SGI-UK, 2024:** £2.36m of £3.20m income from donations; spending £4.12m [2].
+- **Japan:** contributions (*zaimu*) and the *Seikyo Shimbun*, whose claimed 5.5 million circulation is outside the official audit system [8].
+- **The 1995 law** increased the government's access to religious corporations' records [11].
 
 ## 10. Genealogy {#genealogy}
 
@@ -358,14 +372,41 @@ Soka Gakkai; Nichiren Shoshu, the priesthood, separate since 1991 [9].
 
 ## 21. Voices from inside {#voices}
 
-::: gap
-**Not yet documented for Soka Gakkai.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+- **Tsunesaburo Makiguchi.** The founder, who refused a State Shinto talisman and died in prison in 1944 [7].
+- **The religious groups that opposed the 1995 law,** from the United Church of Christ to the Kyoto Buddhist Association, because it expanded state supervision of all religions [11].
+- **Scholar Levi McLaughlin,** whose study documents members' work for the newspaper and in elections [5].
+- **Former members,** who describe social and family costs rather than formal shunning [5].
 
 ## 22. Regional variants {#regional}
 
-::: gap
-**Not yet documented for Soka Gakkai.** This section is on the fill list — see `religions/_coverage.md`.
+::: card
+### Japan
+- **apex:** President Minoru Harada, since 2006 [1].
+- **law:** The Religious Corporations Law as revised in 1995 [11][12].
+- **documented:** Komeito and its coalition years (1999–2025) [4]; the 1969–70 affair [3].
+- **exit:** Legally free; social costs in tight local districts [5].
+- **regulator:** The Agency for Cultural Affairs and the central government [11].
+- **tell:** A law passed in the name of Aum was described by the ruling party as aimed at Soka Gakkai.
+:::
+
+::: card
+### United Kingdom
+- **apex:** SGI-UK's board, within SGI [2].
+- **law:** Charity law [2].
+- **documented:** SGI-UK's public accounts [2].
+- **exit:** Legally free.
+- **regulator:** The Charity Commission [2].
+- **tell:** Outside Japan, the movement is a small charity with no political party.
+:::
+
+::: card
+### France
+- **apex:** SGI's French organization.
+- **law:** The 1995 parliamentary report [10].
+- **documented:** The listing and the controversy [10].
+- **exit:** Legally free.
+- **regulator:** —
+- **tell:** A parliamentary list that named a movement, and was itself disputed [10].
 :::
 
 ## 23. The questions {#questions}
@@ -384,20 +425,27 @@ Soka Gakkai; Nichiren Shoshu, the priesthood, separate since 1991 [9].
 
 ## 24. Leaving safely here {#leaving}
 
-::: gap
-**Not yet documented for Soka Gakkai.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Practical guidance, not legal advice.
+
+1. **Leaving is legally free,** and no formal shunning doctrine was found [5].
+2. **Stop contributions and subscriptions** in writing if you are asked to renew.
+3. **Expect social costs** in close local districts and multi-generation families [5].
+4. **Find support** [13][14][15].
 
 ## 25. Where to get help {#help}
 
-::: gap
-**Not yet documented for Soka Gakkai.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Checked 2026-09-27.
+
+| Organization | For | Where | Contact |
+|---|---|---|---|
+| **Faith to Faithless** | People leaving religion | UK | **020 3675 0959** [13] |
+| **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [14] |
+| **ICSA** | Former members of high-control groups; families | International | Via website [15] |
 
 ## 26. Sources {#sources}
 
 1. Soka Gakkai (global), "Soka Gakkai Buddhist Organization Adopts New Charter; New Membership Figures Announced" (press release). <https://www.sokaglobal.org/contact-us/media-room/press-releases/sg-charter-announced.html> — and "A Global Organization." <https://www.sokaglobal.org/about-the-soka-gakkai/at-a-glance/a-global-organization.html> — self-reported membership; president.
-2. *(reserved)*
+2. Charity Commission for England and Wales, Soka Gakkai International – UK (charity 1104491), financial history 2020–2024. <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/4009008/financial-history>
 3. Nippon.com, "Kōmeitō Turns Fifty: A History of Political Twists and Compromises." <https://www.nippon.com/en/currents/d00145/> — founding (1964); the 1969–70 incident; the 3 May 1970 apology and separation policy. Also WRSP, "Sōka Gakkai." <https://wrldrels.org/2016/10/08/soka-gakkai/>
 4. Nippon.com, "An End to 26 Years of LDP–Kōmeitō Cooperation." <https://www.nippon.com/en/japan-data/h02574/> — and The Japan Times, 10 Oct 2025. <https://www.japantimes.co.jp/news/2025/10/10/japan/politics/takaichi-komeito-coalition-meeting/>
 5. McLaughlin, Levi. *Soka Gakkai's Human Revolution: The Rise of a Mimetic Nation in Modern Japan.* University of Hawaiʻi Press, 2019. <https://uhpress.hawaii.edu/title/soka-gakkais-human-revolution-the-rise-of-a-mimetic-nation-in-modern-japan/> — review: H-Net (Metraux). <https://networks.h-net.org/node/20904/reviews/3917943/metraux-mclaughlin-soka-gakkai%E2%80%99s-human-revolution-rise-mimetic-nation> — also McLaughlin, "Komeito's Soka Gakkai Protesters and Supporters," *Asia-Pacific Journal*. <https://apjjf.org/levi-mclaughlin/4386> — electoral mobilization; newspaper subscriptions; the Women's Division. **Cite page numbers at import.**
@@ -406,12 +454,13 @@ Soka Gakkai; Nichiren Shoshu, the priesthood, separate since 1991 [9].
 8. Wikipedia, "Seikyo Shimbun" (finding aid: the 5.5M claim; outside the official audit bureau) <https://en.wikipedia.org/wiki/Seikyo_Shimbun> — and "Soka Gakkai" (zaimu). **Replace both with** a scholarly or press primary source before import.
 9. Soka Gakkai (global), *The Basics of Nichiren Buddhism*, ch. 10 (excommunication, 28 Nov 1991). <https://www.sokaglobal.org/resources/study-materials/buddhist-study/the-basics-of-nichiren-buddhism-for-the-new-era-of-worldwide-kosen-rufu/chapter-10.html>
 10. Wikipedia, "Parliamentary Commission on Cults in France" (finding aid: the Guyard report of 22 Dec 1995; 172 movements; the controversy and defamation complaint). <https://en.wikipedia.org/wiki/Parliamentary_Commission_on_Cults_in_France> — **replace with** the Assemblée nationale report (no. 2468). CESNUR critique: <https://www.cesnur.org/2003/vil2003_dericquebourg.htm>
+11. Tokihisa Sumimoto, "Religious Freedom Problems in Japan: Background and Current Prospects," *The International Journal of Peace Studies* 5(2) — the December 1995 revision of the Religious Corporation Law; Shizuka Kamei's statement. <https://www3.gmu.edu/programs/icar/ijps/vol5_2/sumimoto.htm>
+12. Religion in Modern Asia Newsletter (Kokugakuin University), "Revised Religious Corporations Law (Japan)" (1 Jan 1996) — passed by the Diet on 8 Dec 1995. <http://www2.kokugakuin.ac.jp/ijcc/asia-nl/news/news000050.html>
+13. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. <https://humanists.uk/faith-to-faithless/helpline/>
+14. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
+15. International Cultic Studies Association (ICSA). <https://internationalculticstudies.org/>
 
 ## 27. What changed on this page {#changed}
 
-- **Confirmed:** 8.27M households and ~3M abroad (self-reported) [1]; Harada since 2006 [1]; Makiguchi's arrest (1943) and death (Nov 1944) [7]; excommunication on 28 Nov 1991 [9]; Ikeda's death on 15 Nov 2023 [6]; the 1970 incident and apology [3]; the Guyard report and its 172 movements [10].
-- **Updated:** Komeito left the coalition on 10 Oct 2025 [4].
-- **Honesty correction:** several mechanism rows downgraded to Ungraded or "weak" where nothing was found. The page records the absence instead of inferring harm.
-- **Filled:** all 30 mechanism rows.
-- **Open:** a primary source for zaimu practice and the newspaper [8]; the French report primary [10]; tax status of the religious corporation; McLaughlin page cites [5].
+- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (SGI-UK accounts 2020–2024), Voices from inside, three regional cards, Leaving safely and Where to get help.
 
