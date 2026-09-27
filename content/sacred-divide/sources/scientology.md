@@ -29,6 +29,15 @@ Legend: ✅ confirmed · ✏️ corrected · 🔹 interpretive · ⏳ open.
 9. *Encyclopaedia Britannica*, "Scientology" — *Dianetics* (1950); first church 1954; Sea Org (1967); Hubbard's death (1986); Miscavige chairman of RTC since 1987; IRS revocation (1967) and exemption (1993); Lisa McPherson (1995). https://www.britannica.com/topic/Scientology
 10. Lawrence Wright, *Going Clear: Scientology, Hollywood, and the Prison of Belief* (Knopf, 2013) — fair game, disconnection, freeloader debt, Ideal Org campaigns, Debbie Cook's 2012 email. https://www.penguinrandomhouse.com/books/212426/going-clear-by-lawrence-wright/
 
+### Added with the full page (2026-09-27)
+11. JURIST, "France high court upholds Scientology fraud conviction" (16 Oct 2013). https://www.jurist.org/news/2013/10/france-high-court-upholds-scientology-fraud-conviction/
+12. SBS News / AAP, "French court backs Scientology conviction" (17 Oct 2013) — €600,000 fines; "organised fraud". https://www.sbs.com.au/news/article/french-court-backs-scientology-conviction/30vnl6v4j
+13. Global News, "Mike Rinder, one of Scientology's loudest whistleblowers, dies at 69" (Jan 2025). https://globalnews.ca/news/10944000/mike-rinder-scientology-whistleblower-dead/
+14. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
+15. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+16. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
+17. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
+
 ---
 
 ## Claim register

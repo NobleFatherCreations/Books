@@ -6,9 +6,9 @@ family_id: new-movements
 family_members: [scientology, new-age, unification-church]
 version: v4
 checked: 2026-09-27
-sections_filled: 24/27
-missing: [voices, leaving, help]
-partial: [branches, cases, law, money]
+sections_filled: 27/27
+missing: []
+partial: []
 ---
 
 # Scientology {#top}
@@ -144,11 +144,15 @@ Sources for this section: [1] [2] [9] [10]
 
 ## 6. Branches & variants {#branches}
 
-::: gap
-**Partly documented for Scientology.** This section is below the page standard and is on the fill list.
-:::
-
 The corporate church under RTC; the 'independent field' or Free Zone of practitioners operating outside corporate control; Narconon, Applied Scholastics, Criminon and other front-facing programs.
+
+| Branch | Where | What differs on this page's questions |
+|---|---|---|
+| **The Church of Scientology** (under the Religious Technology Center) | Worldwide | David Miscavige, chairman of the RTC since 1987 [9]; the Sea Org, its clergy order, since 1967 [9] |
+| **Independent field / "Free Zone"** | Worldwide, small | Practitioners outside the corporate church |
+| **Associated programmes** | Worldwide | Drug-rehabilitation, education and anti-crime programmes linked to the church |
+
+Census counts are small: 1,854 in England and Wales (2021), about 1,700 in Australia (2016) and 315 in New Zealand (2023) [7][8].
 
 ## 7. Structure {#structure}
 
@@ -199,19 +203,19 @@ Sources for this section: [2] [7] [8] [9]
 
 ## 8. Law & state here {#law}
 
-::: gap
-**Partly documented for Scientology.** This section is below the page standard and is on the fill list.
-:::
+| Country | What the law does | What happened |
+|---|---|---|
+| **United States — tax** | The IRS revoked exemption in 1967 and granted it in 1993 [9] | The church paid $12.5 million under the closing agreement, after it and its members had brought about 2,200 suits against the agency [2] |
+| **United States — arbitration** | Membership contracts include religious arbitration [3][4] | A federal appeals court enforced it against former members (2021) [4]; California's courts refused to for claims arising after members left (2022) [3] |
+| **United States — criminal** | Ordinary criminal law | Eleven church officials were convicted over Operation Snow White (1979) [1]; actor Danny Masterson was sentenced in 2023 for raping two women, both former members [5] |
+| **France** | Fraud law [11][12] | The Paris Celebrity Centre and bookshop were convicted of "organised fraud" in 2009 and fined €600,000; the highest court upheld it in 2013 [11][12] |
+| **Germany** | Domestic intelligence monitoring in several states [6] | Treated as a concern for the constitutional order [6] |
 
 ### Who can compel an answer
 
 The IRS, whose 1993 exemption remains a reviewable decision; consumer-protection authorities; the courts; and the foreign regulators and tribunals that have already ruled on status and conduct in their own jurisdictions.
 
 ## 9. Money {#money}
-
-::: gap
-**Partly documented for Scientology.** This section is below the page standard and is on the fill list.
-:::
 
 ### Where it comes from
 
@@ -293,6 +297,13 @@ The IRS, whose 1993 exemption remains a reviewable decision; consumer-protection
 ::: cites
 Sources for this section: [10]
 :::
+
+### Money in numbers
+
+- **IRS settlement (1993):** $12.5 million [2].
+- **France:** €600,000 in fines for "preying financially on followers" in the 1990s [12].
+- **Auditing and donations:** fixed fees per level and fundraising campaigns (see Money above); former members describe "freeloader" debts for Sea Org members who leave [10].
+- **No public accounts:** as a US church it files no public return [2][9].
 
 ## 10. Genealogy {#genealogy}
 
@@ -1187,10 +1198,6 @@ Sources for this section: [10]
 
 ## 19. Documented cases {#cases}
 
-::: gap
-**Partly documented for Scientology.** This section is below the page standard and is on the fill list.
-:::
-
 ::: case
 ### Operation Snow White
 
@@ -1204,6 +1211,36 @@ Sources for this section: [10]
 
 ::: cites
 Sources for this section: [1]
+:::
+
+::: case
+### Convicted on former members' testimony (United States, 2023)
+- **when:** 2023
+- **what:** Actor Danny Masterson, a prominent Scientologist, was convicted of raping two women; both were former members [5].
+- **record:** NPR, 7 September 2023 [5]
+- **outcome:** Sentenced to 30 years to life; his appeal was pending in 2026 [5].
+- **tactics:** 30, 16, 17
+- **grade:** Documented
+:::
+
+::: case
+### "Organised fraud" (France, 2009–2013)
+- **when:** 2009–2013
+- **what:** Former members said they were pressured into paying large sums for personality tests, "purification" packs and other services [11][12].
+- **record:** Paris criminal court (2009); Cour de cassation, 16 October 2013 [11][12]
+- **outcome:** The Celebrity Centre and bookshop were fined €600,000; the church's religious-freedom appeal was rejected [11][12].
+- **tactics:** 26, 1
+- **grade:** Documented
+:::
+
+::: case
+### Bound by the contract? (United States, 2021–2022)
+- **when:** 2021–2022
+- **what:** Former members who sued the church met arbitration clauses in the agreements they had signed as members [3][4].
+- **record:** *Garcia v. Church of Scientology Flag Service Org.* (11th Cir. 2021) [4]; *Bixler v. Superior Court* (Cal. Ct. App. 2022) [3]
+- **outcome:** One federal court enforced arbitration; California's courts did not for claims arising after members left, and the US Supreme Court declined to intervene [3][4].
+- **tactics:** 30, 18
+- **grade:** Documented
 :::
 
 ## 20. Precedent {#precedent}
@@ -1223,9 +1260,10 @@ Publication of the Religious Technology Center's governance — any named body w
 
 ## 21. Voices from inside {#voices}
 
-::: gap
-**Not yet documented for Scientology.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+- **Mike Rinder.** Former head of the church's Office of Special Affairs and its international spokesman, who left in 2007, co-hosted *Leah Remini: Scientology and the Aftermath*, and died in January 2025 [13].
+- **Leah Remini.** An actor and former member whose series documented former members' accounts [13].
+- **Debbie Cook.** A former senior Sea Org executive whose 2012 email to members criticized the church's fundraising [10].
+- **The women who testified against Danny Masterson** [5].
 
 ## 22. Regional variants {#regional}
 
@@ -1276,15 +1314,24 @@ Sources for this section: [2]
 
 ## 24. Leaving safely here {#leaving}
 
-::: gap
-**Not yet documented for Scientology.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Practical guidance, not legal advice.
+
+1. **Expect "disconnection":** members may be told to cut contact with you [10].
+2. **Keep copies of anything you signed;** arbitration clauses may affect later claims, and courts have split [3][4].
+3. **Sea Org members** may be told they owe "freeloader" debt; it is not a court judgment [10].
+4. **If you were assaulted,** go to the police; former members' testimony has convicted a prominent member [5].
+5. **Find support** [14][15][16][17].
 
 ## 25. Where to get help {#help}
 
-::: gap
-**Not yet documented for Scientology.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Checked 2026-09-27.
+
+| Organization | For | Where | Contact |
+|---|---|---|---|
+| **ICSA** | Former members of high-control groups; families | International | Via website [16] |
+| **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [14] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [15] |
+| **RAINN** | Sexual assault | US | **1-800-656-4673** [17] |
 
 ## 26. Sources {#sources}
 
@@ -1304,9 +1351,16 @@ Sources for this section: [2]
 9. *Encyclopaedia Britannica*, "Scientology" — *Dianetics* (1950); first church 1954; Sea Org (1967); Hubbard's death (1986); Miscavige chairman of RTC since 1987; IRS revocation (1967) and exemption (1993); Lisa McPherson (1995). https://www.britannica.com/topic/Scientology
 10. Lawrence Wright, *Going Clear: Scientology, Hollywood, and the Prison of Belief* (Knopf, 2013) — fair game, disconnection, freeloader debt, Ideal Org campaigns, Debbie Cook's 2012 email. https://www.penguinrandomhouse.com/books/212426/going-clear-by-lawrence-wright/
 
+### Added with the full page (2026-09-27)
+11. JURIST, "France high court upholds Scientology fraud conviction" (16 Oct 2013). https://www.jurist.org/news/2013/10/france-high-court-upholds-scientology-fraud-conviction/
+12. SBS News / AAP, "French court backs Scientology conviction" (17 Oct 2013) — €600,000 fines; "organised fraud". https://www.sbs.com.au/news/article/french-court-backs-scientology-conviction/30vnl6v4j
+13. Global News, "Mike Rinder, one of Scientology's loudest whistleblowers, dies at 69" (Jan 2025). https://globalnews.ca/news/10944000/mike-rinder-scientology-whistleblower-dead/
+14. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
+15. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+16. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
+17. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
+
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — fact-check pass 1:** `demographics.adherents` second sentence → `Census counts are small: 1,854 in England and Wales (2021), about 1,700 in Australia (2016), and 315 in New Zealand (2023).`
-- **2026-09-27 — fact-check pass 1:** `regional[0].law` second sentence → `Arbitration clauses in membership agreements have been enforced against former members in federal court (2021), while California's courts refused to enforce them for claims arising after members left (2022).`
-- **2026-09-27 — fact-check pass 1:** Add a case (optional, adjudicated): `Masterson (2023)` — rape convictions of a prominent member on the testimony of former members, appeal pending.
+- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers, three more documented cases, Voices from inside, Leaving safely and Where to get help.
 
