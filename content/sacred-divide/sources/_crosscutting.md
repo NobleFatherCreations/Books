@@ -20,8 +20,8 @@ which were checked against its own data.
 2. **Stale self-counts.** These count the book itself, and each one was checked against the data.
    - The Sourcing Queue lede says "167 of 750"; the data says 194 of 810.
    - The Guide says "Instruments (11)"; there are 12.
-   - The Guide says "Your Track (4 paths)"; there are 6. The Guide also has slides for tracks 1–4
-     only, with none for Protect or Leaving Safely.
+   - The Guide says "Your Track (4 paths)"; there are 6. (Its four track slides already cover
+     Protect and Leaving Safely inside Tracks 01 and 02, so only the count is wrong.)
    - Follow the Who cites "section 17–19"; the acts are numbered 00–17.
    - The "worst-sourced" list in What Sourced Counts Measure omits four traditions tied at the same count.
 3. **Understated or imprecise facts.**
@@ -232,7 +232,7 @@ Legend: ✅ confirmed · ✏️ corrected · 🔹 interpretive · ⏳ open.
 | V7.gradient.finding | Worst: Sunni, Taoism, Judaism, Shia, Sikhism, Jainism | Sunni 3, Taoism 3, Judaism 4, then **seven traditions tied at 5**: Shia, Sikhism, Jainism, Shinto, Zoroastrianism, Bahá'í, Hare Krishna | ✏️ |
 | V8 guide, Finding things | "The Instruments (11)" | 12 (`INSTRUMENTS`) | ✏️ |
 | V8 guide, Finding things | "Your Track (4 paths)" | 6 (`TRACKS`) | ✏️ |
-| V8 guide, Tracks | Slides for Tracks 01–04 only | 6 tracks | ✏️ add Track 05 (Protect your own faith) and Track 06 (Leaving safely) |
+| V8 guide, Tracks | Slides for Tracks 01–04 | 6 track cards | ✅ Protect and Leaving safely are covered inside the Track 01 and 02 slides |
 | V8 language slide | 105 terms, 20 universal, 85 across 26 traditions | 20 / 85 / 26 | ✅ |
 | V8 regions slide | 27 cards across 11 traditions | 27 / 11 | ✅ |
 | V8 "Volumes (8)"; four standing defects | | 8; 4 | ✅ |
@@ -260,4 +260,4 @@ Legend: ✅ confirmed · ✏️ corrected · 🔹 interpretive · ⏳ open.
 16. `V7.gradient.finding` second sentence → `The worst are Sunni Islam and Taoism, then Judaism, then seven tied: Shia Islam, Sikhism, Jainism, Shinto, Zoroastrianism, Bahá'í and Hare Krishna.`
 17. `V7.promises.rows[1]` status → `Abandoned`; `rows[2][1]` → `2015–16 proceedings; joined the National Redress Scheme in September 2021`; `rows[7]` (Hillsong) status → `Partial` (wording per `pentecostal-charismatic.md`).
 18. `V7.succession.rows[3].current` → `Eleven men, Warwick, New York`; `rows[6].current` → `Erton Köhler, elected July 2025`.
-19. `V8.guide` Finding-things slide → `… The Instruments (12) · Your Track (6 paths).`; add two Track slides: `Track 05 — I want to protect my own faith` → `#/protect`, and `Track 06 — I have decided to leave` → `#/leaving`.
+19. `V8.guide` Finding-things slide → `… The Instruments (12) · Your Track (6 paths).`

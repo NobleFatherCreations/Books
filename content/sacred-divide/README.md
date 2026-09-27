@@ -64,3 +64,7 @@ institutions, Christian Science, ICOC) comes after these pass fact-check.
 - `sources/_officeholders.md` — every named sitting officeholder, re-checked each release.
 - Link check: every URL is fetched; a 403/406 from bot-blocking sites (loc.gov, britannica, justia,
   parliament.uk) is expected and was confirmed by search. A 404 is fixed before commit.
+- **Applying corrections:** `scripts/sacred-divide-factcheck.py` turns every "Corrections to apply in the
+  next build" list into exact-count edits on the v4 candidate, then refreshes the Receipts index
+  (`scripts/sacred_divide_receipts.py`) so its quotes match the edited profiles. Pass 1's lists are all
+  applied (2026-09-27); a new finding goes on its source page first, then into the script.

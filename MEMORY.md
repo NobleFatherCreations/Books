@@ -3470,10 +3470,23 @@ bottom section readers can verify against). Structure, in `content/sacred-divide
 **Pass 1 complete (2026-09-27): all 27 religion pages + `sources/_crosscutting.md`**
 (Follow the Who, records toolkit, Children/Women/Medical/LGBTQ codices, Promise Register,
 Succession Watch, Guide, and the book's counts of itself checked against its own data).
-Every page link-checked (no 404s). Nothing applied to the build yet. **Next:** apply every
-"Corrections to apply in the next build" list (27 pages + cross-cutting) in a v5 build of
-`scripts/sacred-divide-v4.py`, rebuild, regenerate inventories, Playwright-verify, add a
-v5 changeMind entry. Deploy only on the owner's explicit go-ahead.
+Every page link-checked (no 404s).
+
+**Applied (same day):** `scripts/sacred-divide-factcheck.py` builds
+`library/_undeployed/sacred-divide-v4-factchecked.html` from the v4 candidate — 182 exact-count
+edits covering every correction list, plus a markup fix (the Gap Register counted the word
+"verify" in prose as an unchecked figure). It stays **v4** (never deployed): the fact-check is one
+sentence added to the v4 changeMind entry, not a v5. The Receipts page index (`D.receiptIndex`) is
+derived data that was never regenerated; `scripts/sacred_divide_receipts.py` pins each entry to its
+source string and refreshes it after edits (4 entries moved type, the lone [SOURCE NEEDED] dropped).
+Inventories regenerated from the fact-checked file. Playwright: 27 hubs + 162 act pages + 28
+volume/instrument pages × 375/1440 × motion/reduced — 0 page errors, 0 overflow, 0 stuck-opacity,
+0 bracketed verify flags, 18 must-contain checks pass. Note: `library/faith/index.html` is NOT the
+live lineage; the live snapshot the v4 script takes as input lived only in a scratchpad — the
+committed v4 candidate is the reproducible starting point.
+**Next:** deploy only on the owner's explicit go-ahead (bump `sites.json` faith → v4 with a changelog
+entry matching the on-page one, in the same commit). Then the redesign stage: family hubs, the seven
+new traditions from `new-traditions/`, and each religion's Sources list as its bottom section.
 
 **Book errors found so far (must fix before any deploy):**
 - Ali Khamenei killed 28 Feb 2026; **Mojtaba Khamenei** Supreme Leader since 9 Mar 2026.

@@ -100,10 +100,14 @@ entries: Islam (umbrella), Sunni Islam, Shia Islam — no Sufi, Ahmadi or
 Bohra section (recommended additions, see
 `docs/SACRED-DIVIDE-AUDIT-2026-09-27.md`). The book's own text promises *"no
 analytics, no tracking, no storage, no external requests"* — the live file
-nonetheless carries a Cloudflare beacon (removed in the v4 candidate).
+nonetheless carries a Cloudflare beacon (the v4 candidate keeps the visit counter
+and rewrites that copy to say so plainly).
 
-**Pending:** v4 candidate at `library/_undeployed/sacred-divide-v4-candidate.html`
-(built by `scripts/sacred-divide-v4.py` from the live file; not deployed).
+**Pending:** the deploy candidate is
+`library/_undeployed/sacred-divide-v4-factchecked.html`, built in two stages, neither deployed:
+`scripts/sacred-divide-v4.py` (live file → `sacred-divide-v4-candidate.html`: rename, counts, Islam
+pass) then `scripts/sacred-divide-factcheck.py` (→ `-factchecked.html`: 182 edits from fact-check
+pass 1, sources in `content/sacred-divide/sources/`). Still v4 — v4 has never shipped.
 `library/faith/index.html` is the OLD non-live lineage until the user
 approves the swap. A separate full redesign
 (`library/_undeployed/sacred-divide-faith-redesign.html`, parchment + dark,

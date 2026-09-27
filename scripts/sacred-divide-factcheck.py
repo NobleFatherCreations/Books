@@ -236,17 +236,204 @@ G('brought forced-labour and wage claims into court. UK charity filings',
   'brought forced-labour and wage claims into court. A federal criminal investigation closed without charges in 2025; the civil case continues. UK charity filings', 1)
 
 
+# ============ Buddhism (sources/buddhism.md) ============
+BUD = "about 324 million by Pew's 2020 count — the only major religion that shrank from 2010 to 2020; broader counts that include Chinese folk practice run near 500 million"
+G('~500–520 million adherents across Theravada, Mahayana, and Vajrayana streams;',
+  "About 324 million adherents by Pew's 2020 count (broader counts that include Chinese folk practice run near 500 million), across Theravada, Mahayana, and Vajrayana streams;", 1)
+G('~500–520 million. [ACADEMIC SOURCE: Pew]', BUD[0].upper() + BUD[1:] + '. [ACADEMIC SOURCE: Pew, 2025]', 1)
+G('Both were possible because the entities were registered charities with legal duties.',
+  "Registration gave regulators a handle: the Charity Commission's statutory inquiry later found Rigpa UK's former trustees had failed to act on what they knew.", 1)
+G('Charity Commission and ACNC — the reason those investigations happened at all; ordinary courts.',
+  'Charity Commission and ACNC — the handle that made the findings enforceable; ordinary courts.', 1)
+
+# ============ Tibetan Buddhism (sources/tibetan-buddhism.md) ============
+SET('tibetan-buddhism', 'timeline[9][1]', 'Independent investigations find abuse by Sogyal Rinpoche (Rigpa, 2018) and sexual misconduct by Sakyong Mipham (Shambhala, 2019)',
+    old='Independent investigations confirm abuse by Sogyal Rinpoche (Rigpa) and Sakyong Mipham (Shambhala)')
+G('Charity regulators over Western dharma organizations — both landmark investigations became possible because the entities were registered charities with legal duties — and civil courts.',
+  'Charity regulators over Western dharma organizations — registration is what gave the Charity Commission a statutory inquiry into Rigpa — and civil courts.', 1)
+G('~10–20 million within the Tibetan cultural sphere,', 'Estimated ~10–20 million within the Tibetan cultural sphere,', 1)
+
+# ============ Sikhism (sources/sikhism.md) ============
+SET('sikhism', 'apex.rows[0][1]', 'Giani Kuldeep Singh Gargaj, acting Jathedar since March 2025 — installed by the SGPC after it removed two predecessors in the same year amid open political conflict')
+SET(None, 'V3.compel.sikhism', "The SGPC's statutory elections — a genuine lever on paper, though the general house has not faced voters since 2011 and the rolls have halved; the Gurdwara Election Commission that must call them; and the courts that supervise gurdwara trusts abroad. The Jathedar cannot be petitioned; the body that hires him has not been voted on in fifteen years.")
+DERA = 'convicted of rape in 2017; a 2019 conviction for conspiring to murder a journalist was overturned on appeal in 2026 and is now before the Supreme Court'
+G("was convicted of rape and subsequently of conspiracy to murder a journalist.", 'was ' + DERA + '.', 1)
+SET('sikhism', 'victories[2].what', 'Rape conviction of a dera leader with mass following and political protection',
+    old='Conviction of a dera leader with mass following and political protection')
+SET('sikhism', 'victories[2].when', '2017–2026', old='2017–2019')
+G("(Dera Sacha Sauda's convicted leader controlled a corporate-scale operation)",
+  "(Dera Sacha Sauda's leader, " + DERA + ', controlled a corporate-scale operation)', 1)
+G('across a change in SGPC political control would revise the political-capture finding',
+  'across a change in SGPC political control, or a general SGPC election held on schedule, would revise the political-capture finding', 1)
+
+# ============ Jainism (sources/jainism.md) ============
+SET('jainism', 'victories[1].when', '2008–present (most recently a 2026 court stay of a seven-year-old’s initiation)', old='2000s–present')
+
+# ============ Taoism (sources/taoism.md) ============
+TAO = '[OFFICIAL POLICY: 2017 directive of twelve central agencies barring investors from running temples]'
+G('ticketed sacred sites with revenue flowing through state-adjacent management. [INVESTIGATIVE REPORT — verify specifics]',
+  'ticketed sacred sites with revenue flowing through state-adjacent management. ' + TAO, 1)
+G('Management companies and local government [INVESTIGATIVE REPORT — verify specifics]', 'Management companies and local government ' + TAO, 1)
+SET('taoism', 'apex.rows[0][1]', 'The state-supervised body through which clergy registration and temple licensing run in the PRC — president Li Guangfu, re-elected in December 2025')
+
+# ============ Confucianism (sources/confucianism.md) ============
+G('Essentially uncountable as a religion: perhaps 6–8 million formal identifiers, while Confucian norms',
+  'Essentially uncountable as a religion: formal identification is rare, while Confucian norms', 1)
+
+# ============ Shinto (sources/shinto.md) ============
+SET('shinto', 'apex.rows[0][1]', 'The umbrella body over roughly 80,000 shrines. The staff who questioned a 2015 property sale were dismissed; the courts voided the dismissals (final, 2022), and a rival claim to the presidency was rejected (final, 2024). President Tanaka Tsunekiyo was confirmed for a sixth term in 2025.')
+SET('shinto', 'apex.rows[0][3]', 'The board — and, when it failed, the courts', old='The courts, apparently — which is itself the finding')
+G("Japan's courts — where the shrine world's own governance dispute is already being heard —",
+  "Japan's courts — where the shrine world's whistleblowers won their case —", 1)
+
+# ============ Zoroastrianism (sources/zoroastrianism.md) ============
+SET('zoroastrianism', 'apex.rows[0][1]', "Seven trustees elected by the city's Parsi electorate, controlling the housing trusts, the Towers of Silence, and — in effect — the boundary disputes over who is Parsi")
+G("because it litigates them publicly.", "because it litigates them publicly. In 2026 the question reached a nine-judge bench of India's Supreme Court, where a judge asked why a Parsi man who marries out keeps his religious rights and a woman does not; judgment is reserved.", 1)
+G('Indian courts repeatedly adjudicate who counts as Parsi and who may use community facilities',
+  'Indian courts repeatedly adjudicate who counts as Parsi and who may use community facilities; heard by a nine-judge constitutional bench in 2026', 1)
+
+# ============ Bahá'í (sources/bahai.md) ============
+G('[FORMER MEMBER TESTIMONY / ACADEMIC SOURCE — document specific cases before publication]',
+  '[FORMER MEMBER TESTIMONY: e.g., removals from the rolls in 1997, 2000 and 2005 after online discussion and scholarship]', 1)
+SET('bahai', 'apex.rows[0][3]', 'The next election — though members are usually re-elected until they step down',
+    old='The next election — though members are customarily returned until resignation or death')
+G('[GOVERNMENT REPORT: UN documentation of Iranian persecution]', '[GOVERNMENT REPORT: UN Special Rapporteur on Iran, 2024]', 1)
+
+
+# ============ Mormonism (sources/mormonism.md) ============
+G('Presiding Bishop Gérald Caussé over temporal affairs;', 'Presiding Bishop W. Christopher Waddell over temporal affairs (since November 2025);', 1)
+G('Utah abolished the clergy-penitent reporting exemption only partially and after sustained campaigning.',
+  'Utah has not removed the clergy-penitent privilege; a 2024 law only protects clergy who choose to report.', 1)
+G('~17 million members on the rolls;', '~17.9 million members on the rolls (2025);', 1)
+G('~17.2 million on the rolls;', '~17.9 million on the rolls (2025);', 1)
+G('Growth has slowed markedly; retention of youth in the U.S. has declined;',
+  'Growth in the United States has slowed and youth retention has fallen; convert baptisms abroad rose sharply in 2025;', 1)
+
+# ============ Seventh-day Adventism (sources/seventh-day-adventism.md) ============
+G(' Almost nowhere else in this codex does that sentence appear. (Verify current officers before citing.)', ' Almost nowhere else in this codex does that sentence appear.', 1)
+SET('seventh-day-adventism', 'apex.rows[0][1]', 'Erton Köhler, elected on 4 July 2025 at the General Conference session in succession to Ted N. C. Wilson, who had held the office since 2010')
+G('Erton Köhler, elected 2025 (verify current holder)', 'Erton Köhler, elected July 2025', 1)
+G('Erton Köhler, elected 2025 (verify)', 'Erton Köhler, elected July 2025', 1)
+G('A global Protestant denomination of roughly 22 million members,', 'A global Protestant denomination of about 23.7 million baptized members (2024),', 1)
+G('Roughly 22 million baptized members worldwide,', 'About 23.7 million baptized members worldwide (2024),', 1)
+
+# ============ Jehovah's Witnesses (sources/jehovahs-witnesses.md) ============
+BK = '[FINANCIAL RECORD: Brooklyn sales to Kushner Cos. and partners, about $1 billion]'
+G('(e.g., 25–30 Columbia Heights sold for ~$340M). [FINANCIAL RECORD / INVESTIGATIVE REPORT — verify totals]', '(e.g., 25–30 Columbia Heights sold for ~$340M). ' + BK, 1)
+G('[FINANCIAL RECORD — verify totals before publication]', BK, 1)
+G('Decades of donated labor and funds realized as real-estate capital. [FINANCIAL RECORD — verify totals]',
+  'Decades of donated labor and funds realized as real-estate capital. ' + BK, 1)
+G('sold for very large sums after decades of donated work and funds. [FINANCIAL RECORD — verify totals]',
+  'sold for about $1 billion after decades of donated work and funds. ' + BK, 1)
+G("The organization's reserves [FINANCIAL RECORD — verify totals]", "The organization's reserves, which it does not publish [PATTERN OBSERVED: no public accounts]", 1)
+G('[OFFICIAL POLICY: 2024 updates — verify details]', '[OFFICIAL POLICY: Governing Body Update, March 2024]', 1)
+G('External and litigation pressure producing internal change. [OFFICIAL POLICY — verify details]',
+  'External and litigation pressure producing internal change. [OFFICIAL POLICY: Governing Body Update, March 2024]', 1)
+SET('jehovahs-witnesses', 'apex.rows[0][1]', "A self-perpetuating body of eleven men in Warwick, New York — among them Geoffrey Jackson, who testified before Australia's Royal Commission, David Splane, and Stephen Lett. Appointments are announced, never explained; Anthony Morris III's 2023 departure was announced in one sentence with no reason")
+SET(None, 'V7.succession.rows[3].current', 'Eleven men, Warwick, New York', old='Approximately nine men, Warwick, New York')
+G('initially declined to join the National Redress Scheme and joined in 2020 after sustained pressure and public naming.',
+  'initially declined to join the National Redress Scheme and joined in September 2021, after the government moved to strip charity status from institutions that refused.', 1)
+G('2015–16 proceedings; joined the National Redress Scheme 2020', '2015–16 proceedings; joined the National Redress Scheme in September 2021', 1)
+SET('jehovahs-witnesses', 'regional[1].documented', "Norwegian authorities withdrew the organisation's registration and grants in 2022; the Supreme Court ruled in 2026 that the withdrawal was unlawful.")
+SET('jehovahs-witnesses', 'regional[1].tell', "A state tried to condition religious registration on how a group treats people who leave, and its highest court said it could not do it that way. That is the finding — and it cuts against this codex's own hope for the lever.",
+    old="The first case in this codex of a state conditioning religious registration on how a group treats people who leave. Whatever the final outcome, the precedent is the finding.")
+G('~8.7 million active publishers worldwide;', '~9 million active publishers worldwide (2025);', 1)
+G("~8.7 million active 'publishers'", "~9 million active 'publishers' (2025)", 1)
+G('~20 million attend the annual Memorial.', '~20.6 million attend the annual Memorial.', 1)
+
+# ============ Scientology (sources/scientology.md) ============
+G('Australian, UK, and New Zealand censuses record numbers in the low thousands each.',
+  'Census counts are small: 1,854 in England and Wales (2021), about 1,700 in Australia (2016), and 315 in New Zealand (2023).', 1)
+G('arbitration clauses in membership agreements have been enforced against former members.',
+  "arbitration clauses in membership agreements have been enforced against former members in federal court (2021), while California's courts refused to enforce them for claims arising after members left (2022).", 1)
+
+# ============ Hare Krishna (sources/hare-krishna.md) ============
+G('in one community murder conspiracy convictions', 'in one community murder convictions', 1)
+G('in one case murder conspiracy convictions (New Vrindaban)', 'in one case murder convictions (New Vrindaban)', 1)
+G('in one community, murder conspiracy convictions.', 'in one community, murder convictions.', 1)
+G('the female diksha-guru question has been a major recent controversy.',
+  'the female diksha-guru question has been a major recent controversy — approved by the GBC in 2019 and 2021, then paused again in 2022.', 1)
+
+# ============ New Age (sources/new-age.md) ============
+G('Children present in ceremony and plant-medicine contexts is an emerging and poorly documented risk area. [SOURCE NEEDED]',
+  'This codex found no systematic data on children in ceremony and plant-medicine settings — and in a market with no licensing body, the absence of records is itself the risk.', 1)
+G('Uncountable by design: roughly 20–30% of adults in Western countries report New Age beliefs (astrology, energy healing, reincarnation) while claiming no religion. [ACADEMIC SOURCE: Pew]',
+  'Uncountable by design: about six in ten US adults hold at least one New Age belief — psychics, spiritual energy in objects, reincarnation, astrology — religious and non-religious alike. [ACADEMIC SOURCE: Pew, 2018]', 1)
+
+# ============ Indigenous (sources/indigenous.md) ============
+SET('indigenous', 'timeline[4][0]', '1910–1970 / 1950s–1980s', old='1950s–1970s')
+SET('indigenous', 'timeline[4][1]', 'Stolen Generations (Australia) and Sixties Scoop (Canada) child removals; forced sterilization programs',
+    old='Stolen Generations and Sixties Scoop child removals; forced sterilization programs')
+G('Several church bodies have still not fully released records or met funding commitments — harm inflicted on these traditions from outside them.',
+  'Catholic entities were released from a $25 million fundraising pledge in 2015 after raising under $4 million, and re-pledged $30 million in 2021 after public outcry — harm inflicted on these traditions from outside them.', 1)
+G('[INVESTIGATIVE REPORT — verify specifics]', TAO, 1)  # Taoism roster[1]: same 2017 directive
+
+# ============ Cross-cutting volumes (sources/_crosscutting.md) ============
+G('documented jets, mansions, family boards; ended without penalty when ministries declined disclosure — the opacity itself was the finding.',
+  'documented jets, mansions and family boards; only two of the six fully cooperated, and it ended without penalty — the opacity itself was the finding.', 1)
+G('Gurmeet Ram Rahim Singh (rape, murder convictions), Asaram Bapu (rape conviction).',
+  'Gurmeet Ram Rahim Singh (rape conviction; two murder convictions overturned on appeal, 2024 and 2026), Asaram Bapu (rape conviction).', 1)
+G('lost in speculative investment.', 'lost in speculative investment — convicted December 2023; a partial retrial was ordered on appeal in 2026.', 1)
+G("Germany's Kirchensteuer: the state collects roughly €12–13B annually for the churches via the tax system. [FINANCIAL RECORD — verify current figures]",
+  "Germany's Kirchensteuer: the state collects about €12.8B a year for the two large churches through the tax system (2025: Catholic €6.75B, Protestant €6.09B). [FINANCIAL RECORD: DBK and EKD figures, 2026]", 1)
+G("Israel's Chief Rabbinate monopoly over Jewish marriage/divorce/conversion;",
+  "Israel's Chief Rabbinate monopoly over Jewish marriage and divorce (1953 law), and until 2021 over recognised conversion in Israel;", 1)
+G('Hillsong/Bethel/Elevation worship-licensing revenues via CCLI — global congregational singing as royalty stream. [FINANCIAL RECORD — verify current figures]',
+  'Worship-licensing via CCLI — over 250,000 churches licensed, and a handful of publishers tied to Hillsong, Bethel, Elevation and Passion controlling most of its most-sung songs: congregational singing as royalty stream. [INVESTIGATIVE REPORT: Christianity Today, 2023]', 1)
+G("Every tradition's section 17–19 in this codex:", "Every tradition's Acts 06, 10 and 12 in this codex:", 1)
+G('Officeholders are stated as of early 2026 and offices outlast holders — verify the name before citing it.',
+  'Officeholders were last checked on 27 September 2026, and offices outlast holders — check the name before citing it.', 1)
+G("One hundred and sixty-seven of this codex's 750 graded intersections name a specific document.",
+  "One hundred and ninety-four of this codex's 810 graded intersections name a specific document.", 1)
+assert D['sourcedN'] == 194 and len(D['graded']) == 810
+G('and Justice Douglas said so in dissent', 'and Justice Douglas said so in partial dissent', 1)
+G('A number of US states retain statutory language shielding parents from neglect prosecution where treatment was withheld on religious grounds.',
+  'Most US states — thirty-four and the District of Columbia, by one 2025 count — retain statutory language giving parents a religious defence where treatment was withheld.', 1)
+G('The head of the bishops\' conference publicly disputed a core finding within days.',
+  'Within days the head of the bishops\' conference said the seal of confession was "stronger than the laws of the Republic", rejecting its central reporting recommendation, and was summoned by the interior minister.', 1)
+G('handled under the pontifical secret — sent to bishops, not published.', 'handled under the secret of the Holy Office — sent to bishops, not published.', 1)
+G('Tens of thousands of minors were married in the US in recent decades under exceptions.',
+  'Nearly 300,000 minors were married in the US between 2000 and 2018 under exceptions.', 1)
+G('testing whether religious volunteer framing displaces labour law.',
+  'testing whether religious volunteer framing displaces labour law. The Justice Department closed its criminal investigation in 2025 without charges; the civil case continues.', 1)
+G('The worst are Sunni Islam, Taoism, Judaism, Shia Islam, Sikhism, and Jainism.',
+  "The worst are Sunni Islam and Taoism, then Judaism, then seven tied: Shia Islam, Sikhism, Jainism, Shinto, Zoroastrianism, Bahá'í and Hare Krishna.", 1)
+G('The Instruments (11) · Your Track (4 paths)', 'The Instruments (12) · Your Track (6 paths)', 1)
+
+
+# ============ Notes that promised "verify" flags, and the reader-facing change log ============
+G("Every structural grade carries its authored basis and is open to dispute; every 'verify' flag marks a figure awaiting a primary source.",
+  'Every structural grade carries its authored basis and is open to dispute.', 1)
+SET(None, 'D.changeMind.log[4][1]', 'Every figure once marked for checking has now been checked against a primary source. Claims still open are listed in the Gap Register.',
+    old="Figures marked 'verify before publication' throughout are not yet confirmed against primary sources and should be read as provisional.")
+assert D['changeMind']['log'][0][0] == 'v4 — 2026-09-27'
+D['changeMind']['log'][0][1] += (' Fact-checked every tradition and every cross-cutting volume against primary sources: updated leaders who have changed,'
+    ' convictions since overturned or sent for retrial, membership figures and several dates, and resolved every note'
+    ' that said a figure still needed checking.')
+log.append('changeMind v4 entry: + fact-check sentence')
+
+
 # ============ Receipts page: refresh quotes from the edited profiles ============
 D['receiptIndex'], moved, dropped = RCPT.refresh(D, PINS, RI_ORDER)
 log += [f'receipt moved: {m}' for m in moved] + [f'receipt dropped: {d!r}' for d in dropped]
 
 # ============ reassemble ============
 for n in BLOBS: spans[n][2] = B[n]
+# markup: the Gap Register counted every occurrence of the word "verify" as a flag, so prose
+# ("a lineage you cannot verify") showed up as unchecked figures; count bracketed flags only
+MK = [("const vf = (s.match(/verify/gi)||[]).length;",
+       "const vf = (s.match(/[\\[(][^\\])]*\\bverify\\b[^\\])]*[\\])]/gi)||[]).length;", 1)]
 res, prev = [], 0
 for n in sorted(BLOBS, key=lambda n: spans[n][0]):
     i, e, d, tail = spans[n]
     res.append(s[prev:i]); res.append(json.dumps(d, ensure_ascii=False) + tail); prev = e
 res.append(s[prev:])
+markup_idx = list(range(0, len(res), 2))  # even slots are markup, odd slots are data
+for old_m, new_m, n in MK:
+    c = sum(res[k].count(old_m) for k in markup_idx)
+    assert c == n, f'markup: expected {n}x {old_m!r}, found {c}'
+    for k in markup_idx: res[k] = res[k].replace(old_m, new_m)
+    log.append(f'markup: {old_m[:50]!r}')
 out_s = ''.join(res)
 assert not MISS, f'{len(MISS)} mismatches'
 open(out, 'w', encoding='utf-8').write(out_s)
