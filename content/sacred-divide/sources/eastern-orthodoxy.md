@@ -33,6 +33,22 @@ Legend: ✅ confirmed · ✏️ corrected · 🔹 interpretive · ⏳ open.
 16. *Encyclopaedia Britannica*, "Eastern Orthodoxy" — chronology (iconoclasm 726–843; 1054; Peter I's Holy Synod 1721; autocephaly). https://www.britannica.com/topic/Eastern-Orthodoxy
 17. Ukrinform, "Tomos of Autocephaly of Orthodox Church of Ukraine signed two years ago" (signed by Bartholomew on 5 Jan 2019); the Moscow Holy Synod broke communion on 15 Oct 2018 — ICDS, "A Tomos for Ukraine's Orthodox Church: the Final Schism?". https://www.ukrinform.net/rubric-society/3166079-tomos-of-autocephaly-of-orthodox-church-of-ukraine-signed-two-years-ago.html · https://icds.ee/en/a-tomos-for-ukraines-orthodox-church-the-final-schism/
 
+18. Charity Commission for England and Wales, Greek Orthodox Archdiocese of Thyateira and Great Britain (charity 243715), financial history 2020–2024. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/243715/financial-history
+19. *Keep Talking Greece*, "Court acquits all defendants in Vatopedi Monastery land swap" (21 Mar 2017). https://www.keeptalkinggreece.com/2017/03/21/court-acquits-all-defendants-in-vatopedi-monastery-land-swap/
+20. *Balkan Insight*, "Serbian Church Removes Sex Scandal Bishop" (23 Apr 2013). https://balkaninsight.com/2013/04/23/serbian-church-removes-bishop-after-sex-scandal/bi/all-balkan-countries/
+21. Forum 18, "RUSSIA: Patriarchate priest fined for condemning war in Ukraine" (11 Mar 2022). https://www.forum18.org/archive.php?article_id=2725
+22. *First Things*, "Orthodoxy Without Christ" — Sergei Chapnin, fired from the *Journal of the Moscow Patriarchate* (6 Jan 2016). https://firstthings.com/orthodoxy-without-christ-an-interview-with-sergei-chapnin/
+23. ICNL, "Russian Federation Constitutional Court Decisions on Russia's 1997 Law 'On Freedom of Conscience and Religious Associations'" — the preamble's "special role" of Orthodoxy. https://www.icnl.org/resources/research/ijnl/russian-federation-constitutional-court-decisions-on-russias-1997-law-on-freedom-of-conscience-and-religious-associations
+24. Constitution of Greece, Article 3 (University of Minnesota Human Rights Library); OrthodoxWiki, "Old Calendarists" (the 1924 calendar change and the True Orthodox churches). https://hrlibrary.umn.edu/research/greece-constitution.html · https://orthodoxwiki.org/Old_Calendarists
+25. PONARS Eurasia, Beka Chedia, "The Georgian Orthodox Church as a Political Actor in Uncertain Times" (Policy Memo 711, Oct 2021) — 25 million lari a year; the 2002 agreement. https://www.ponarseurasia.org/the-georgian-orthodox-church-as-a-political-actor-in-uncertain-times/
+26. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+27. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
+28. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
+29. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
+30. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/
+31. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
+32. Reuters (via *The Star*), "Banned Russian priest stands by condemnation of 'brother killing brother' in Ukraine" (24 Sep 2024). https://www.thestar.com.my/news/world/2024/09/24/banned-russian-priest-stands-by-condemnation-of-039brother-killing-brother039-in-ukraine
+
 ---
 
 ## Claim register
