@@ -6,9 +6,9 @@ family_id: islam-family
 family_members: [islam, sunni-islam, shia-islam, ahmadiyya, dawoodi-bohra]
 version: v4
 checked: 2026-09-27
-sections_filled: 22/27
-missing: [law, voices, regional, leaving, help]
-partial: [branches, money]
+sections_filled: 27/27
+missing: []
+partial: []
 ---
 
 # Ahmadiyya {#top}
@@ -104,11 +104,12 @@ Founded in British India when Mirza Ghulam Ahmad (1835–1908) took the pledge o
 
 ## 6. Branches & variants {#branches}
 
-::: gap
-**Partly documented for Ahmadiyya.** This section is below the page standard and is on the fill list.
-:::
-
 the Ahmadiyya Muslim Community (caliphate, Qadian lineage) and the much smaller Lahore Ahmadiyya Movement (no caliphate; regards the founder as a reformer, not a prophet).
+
+| Branch | Where | What differs on this page's questions |
+|---|---|---|
+| **Ahmadiyya Muslim Community** (the Khilafat) | Worldwide; headquarters in Surrey, UK, since 2019 [10] | One elected-for-life Khalifa with final authority over doctrine, appointments and discipline [18]. |
+| **Lahore Ahmadiyya Movement** | Pakistan and diaspora; far smaller | Split in 1914 over the caliphate itself, rejecting the office [20] — the community's own internal dissent, a century old. |
 
 ## 7. Structure {#structure}
 
@@ -153,15 +154,13 @@ the Ahmadiyya Muslim Community (caliphate, Qadian lineage) and the much smaller 
 
 ## 8. Law & state here {#law}
 
-::: gap
-**Not yet documented for Ahmadiyya.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+| Country | Status of Ahmadis | What the law does |
+|---|---|---|
+| **Pakistan** | Declared non-Muslim by constitutional amendment (1974) [4] | Ordinance XX (1984) makes it a crime for Ahmadis to "pose as Muslims", call their places of worship mosques, or use Islamic greetings; the Supreme Court upheld it in 1993 [5]; a separate electoral list and a passport declaration against their founder [14]; blasphemy allegations are common [3]. |
+| **Indonesia** | A 2008 joint ministerial decree orders them to stop spreading their teaching [7] | The decree preceded mob violence, including the Cikeusik killings of 2011 [8]. |
+| **United Kingdom** | Legally free; the community's global headquarters | The UK charity files public accounts [13][24] and publishes a safeguarding policy [21]. |
 
 ## 9. Money {#money}
-
-::: gap
-**Partly documented for Ahmadiyya.** This section is below the page standard and is on the fill list.
-:::
 
 ### Where it comes from
 
@@ -178,6 +177,20 @@ the Ahmadiyya Muslim Community (caliphate, Qadian lineage) and the much smaller 
 | Waqf-e-Nau [15] | Lifelong service | A child's future pledged before birth | Missionary and administrative workforce |
 | Jalsa and scheme contributions | Conventions, missions | Layers of named schemes, each with its own collection | Central administration |
 | UK registered charities [13] | Charitable purposes | Publicly registered — the counterexample | Members can read the filings [REGULATORY FILING] |
+
+### Money in numbers
+
+Chanda is a fixed share of income — 1/16 for Chanda Aam, with Wasiyyat pledges of at least 1/10 of income and estate [1][2] — recorded per member [19]. The only public accounts are where charity law requires them.
+
+```chart
+{"id":"amauk","type":"bar","title":"Ahmadiyya Muslim Association UK: income, all from donations","unit":"£ million, year to 30 June",
+ "series":[["2021",26.21],["2022",24.83],["2023",26.41],["2024",29.82]],
+ "note":"The UK charity's accounts are public because the Charity Commission requires them; worldwide accounts are not published.",
+ "cite":[24]}
+```
+
+- **Spending, 2024:** £27.80m, of which £30,000 on governance [24].
+- **Worldwide:** no consolidated accounts are published [13].
 
 ## 10. Genealogy {#genealogy}
 
@@ -402,14 +415,41 @@ the Ahmadiyya Muslim Community (caliphate, Qadian lineage) and the much smaller 
 
 ## 21. Voices from inside {#voices}
 
-::: gap
-**Not yet documented for Ahmadiyya.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+- **Abdus Salam.** An Ahmadi physicist who shared the 1979 Nobel Prize — Pakistan's first. The word "Muslim" was erased from "the first Muslim Nobel Laureate" on his gravestone at Rabwah under Ordinance XX [25].
+- **The Lahore movement.** Rejected the caliphate itself in 1914, and still does [20].
+- **The 1954 Munir inquiry.** Two judges found that the religious scholars who demanded Ahmadis be declared non-Muslim could not agree among themselves on what a Muslim is [9].
+- **Former members.** Describe expulsion and expected boycott by family [12]; their accounts are testimony, graded as such.
 
 ## 22. Regional variants {#regional}
 
-::: gap
-**Not yet documented for Ahmadiyya.** This section is on the fill list — see `religions/_coverage.md`.
+::: card
+### Pakistan
+- **apex:** None of the community's own; the state defines the community's legal identity [4].
+- **law:** The 1974 amendment, Ordinance XX (1984) and blasphemy laws [3][4][5].
+- **documented:** The 2010 Lahore mosque attacks, 94 killed [6]; the erased gravestone [25]; voting exclusion [14].
+- **exit:** Leaving the community is legally easy; staying is criminal in its practice.
+- **regulator:** The courts — which upheld the ordinance [5].
+- **tell:** The clearest case in this book of a state deciding a religion's identity, and then prosecuting its members for disagreeing.
+:::
+
+::: card
+### United Kingdom
+- **apex:** The Khalifa's own headquarters, and a National President [10][22].
+- **law:** Charity law: public accounts and trustees [13][24].
+- **documented:** A published safeguarding policy that refers criminal concerns to police [21].
+- **exit:** Legally free; the costs of leaving are social and family [12].
+- **regulator:** The Charity Commission [13].
+- **tell:** Persecution moved the community's centre into a jurisdiction that requires it to publish accounts — so the most transparent Ahmadiyya institution is the one in exile.
+:::
+
+::: card
+### Indonesia
+- **apex:** Jemaat Ahmadiyah Indonesia, under the Khalifa.
+- **law:** The 2008 joint ministerial decree [7].
+- **documented:** The 2011 Cikeusik killings: three Ahmadis dead; attackers sentenced to three to six months [8].
+- **exit:** —
+- **regulator:** None effective; the decree is the state's position [7].
+- **tell:** A decree that told a minority to be quiet, followed by a mob that killed three of them, followed by sentences of months.
 :::
 
 ## 23. The questions {#questions}
@@ -428,15 +468,25 @@ the Ahmadiyya Muslim Community (caliphate, Qadian lineage) and the much smaller 
 
 ## 24. Leaving safely here {#leaving}
 
-::: gap
-**Not yet documented for Ahmadiyya.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Practical guidance, not legal advice.
+
+1. **Expect social, not legal, costs outside Pakistan.** Expulsion is published, and members may be expected to stop associating with you [12].
+2. **Women face a specific cost:** marriage outside the community is restricted for women, at the Khalifa's discretion [11].
+3. **Waqf-e-Nau pledges were made for you before birth** [15]; you are not legally bound by them.
+4. **In Pakistan,** your legal status as an Ahmadi does not change with leaving, and the risk you face comes from the law and the crowd, not from the community [3].
+5. **Find support** that knows high-control communities [26][27].
 
 ## 25. Where to get help {#help}
 
-::: gap
-**Not yet documented for Ahmadiyya.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Checked 2026-09-27.
+
+| Organization | For | Where | Contact |
+|---|---|---|---|
+| **Faith to Faithless** | People leaving high-control religion | UK | Helpline [26] |
+| **Ex-Muslims of North America** | Vetted private communities | US, Canada | Online [27] |
+| **Muslim Women's Network Helpline** | Women facing abuse or family-law problems | UK | **0303 330 0288** [30] |
+| **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** [28] |
+| **Humanists at Risk** | People prosecuted for blasphemy or apostasy | Global | Casework [29] |
 
 ## 26. Sources {#sources}
 
@@ -463,14 +513,15 @@ the Ahmadiyya Muslim Community (caliphate, Qadian lineage) and the much smaller 
 21. Ahmadiyya Muslim Association UK, *Safeguarding Policy* (2022), <https://ahmadiyya.uk/wp-content/uploads/2023/07/AMA-UK-Safeguarding-Policy-2022.pdf>, and 2024 revision, <https://ahmadiyya.uk/wp-content/uploads/2024/07/AMA-UK-Safeguarding-Policy-2024-Final.pdf>
 22. GlobeNewswire (community press release), "60th Ahmadiyya Muslim Convention…," 21 Jul 2026 — quotes Rafiq Hayat as National President. <https://www.globenewswire.com/news-release/2026/07/21/3330212/0/en/60th-Ahmadiyya-Muslim-Convention-to-Unite-50-000-in-Hampshire-for-Peace-and-a-Celebration-of-Muslim-Britishness.html>
 23. Al Hakam, "Conspiracies against the Jamaat: A study in historical patterns." <https://www.alhakam.org/conspiracies-against-the-jamaat-a-study-in-historical-patterns/>
+24. Charity Commission for England and Wales, Ahmadiyya Muslim Association United Kingdom (299081), "Financial history" — income £26.21m (2021), £24.83m (2022), £26.41m (2023), £29.82m (2024). <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/299081/financial-history>
+25. Al Jazeera, "The first Pakistani Nobel laureate few have heard of" (2019) — the erased word on Abdus Salam's gravestone. <https://www.aljazeera.com/indepth/features/pakistani-nobel-laureate-heard-191027174934452.html>
+26. Humanists UK, Faith to Faithless helpline. <https://humanists.uk/faith-to-faithless/helpline/>
+27. Ex-Muslims of North America, "Support Communities". <https://exmuslims.org/community/>
+28. Karma Nirvana, national Honour Based Abuse Helpline. <https://karmanirvana.org.uk/get-help/helpline/>
+29. Humanists International, "Humanists at Risk". <https://humanists.international/what-we-do/humanists-at-risk/>
+30. Muslim Women's Network UK, helpline (0303 330 0288). <https://www.mwnuk.co.uk/mwn-helpline>
 
 ## 27. What changed on this page {#changed}
 
-- **Corrected:** Lahore 2010 death toll 86 → **94** [6].
-- **Corrected / precise:** Ordinance XX date (26 Apr 1984), sections 298-B/C and penalty [3]; Second Amendment date (7 Sep 1974) [4]; *Zaheeruddin* date (3 Jul 1993) [5]; HQ move (15 Apr 2019) [10]; Waqf-e-Nau (3 Apr 1987) [15]; MTA (1994) [16].
-- **Corrected — marriage rule:** men may marry outside *with permission*, not merely "discouraged" [11].
-- **Downgraded:** Rabwah housing as an exit cost (no independent source; now a research lead); social boycott of the expelled (the community's own page confirms only organizational removal [12]).
-- **Confirmed:** chanda rates [1][2]; Munir Report finding [9]; the 2008 decree and Cikeusik sentences [7][8]; the passport declaration and separate voter list [14]; membership range [17].
-- **Added (balance):** published UK safeguarding policy [21]; new registered charity 1208543 [13].
-- **Open:** the Charity Commission 1208543 accounts figures; the social-contact guidance; any adjudicated internal case (or record its absence); Pakistan Penal Code primary text [3].
+- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (UK accounts 2021–2024), Voices from inside, three regional cards, Leaving safely and Where to get help.
 

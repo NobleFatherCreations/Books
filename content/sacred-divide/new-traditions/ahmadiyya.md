@@ -359,6 +359,13 @@ You may have grown up being told that your community is the true Islam, and watc
 21. Ahmadiyya Muslim Association UK, *Safeguarding Policy* (2022), <https://ahmadiyya.uk/wp-content/uploads/2023/07/AMA-UK-Safeguarding-Policy-2022.pdf>, and 2024 revision, <https://ahmadiyya.uk/wp-content/uploads/2024/07/AMA-UK-Safeguarding-Policy-2024-Final.pdf>
 22. GlobeNewswire (community press release), "60th Ahmadiyya Muslim Convention…," 21 Jul 2026 — quotes Rafiq Hayat as National President. <https://www.globenewswire.com/news-release/2026/07/21/3330212/0/en/60th-Ahmadiyya-Muslim-Convention-to-Unite-50-000-in-Hampshire-for-Peace-and-a-Celebration-of-Muslim-Britishness.html>
 23. Al Hakam, "Conspiracies against the Jamaat: A study in historical patterns." <https://www.alhakam.org/conspiracies-against-the-jamaat-a-study-in-historical-patterns/>
+24. Charity Commission for England and Wales, Ahmadiyya Muslim Association United Kingdom (299081), "Financial history" — income £26.21m (2021), £24.83m (2022), £26.41m (2023), £29.82m (2024). <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/299081/financial-history>
+25. Al Jazeera, "The first Pakistani Nobel laureate few have heard of" (2019) — the erased word on Abdus Salam's gravestone. <https://www.aljazeera.com/indepth/features/pakistani-nobel-laureate-heard-191027174934452.html>
+26. Humanists UK, Faith to Faithless helpline. <https://humanists.uk/faith-to-faithless/helpline/>
+27. Ex-Muslims of North America, "Support Communities". <https://exmuslims.org/community/>
+28. Karma Nirvana, national Honour Based Abuse Helpline. <https://karmanirvana.org.uk/get-help/helpline/>
+29. Humanists International, "Humanists at Risk". <https://humanists.international/what-we-do/humanists-at-risk/>
+30. Muslim Women's Network UK, helpline (0303 330 0288). <https://www.mwnuk.co.uk/mwn-helpline>
 
 ## Fact-check log (pass 1, 2026-09-27)
 - **Corrected:** Lahore 2010 death toll 86 → **94** [6].
