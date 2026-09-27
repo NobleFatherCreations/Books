@@ -3400,3 +3400,37 @@ confirmed.
 write needing explicit go-ahead; bump sites.json version + on-page entry in
 the same commit when it happens (sites.json → faith → `pendingRelease`
 holds the summary).
+
+## Update (2026-09-27, later) — owner decisions, v4 rebuilt, deploy blocked, redesign brief
+
+**Owner decisions (binding for this book, overriding the earlier no-analytics
+stance):** keep the Cloudflare visit counter; reword every "no analytics /
+nothing tracked / nothing stored" claim to what is true (no accounts, no
+cookies, anonymous visit count, place saved on-device only); add a **section
+saver**. CLAUDE.md's "no external requests / no storage" rule is knowingly
+waived here by the owner — don't "fix" it back.
+
+**Section saver** (`#sd-place-js`, injected by `scripts/sacred-divide-v4.py`):
+saves the current route to localStorage `sd-place` as `{h, t}` (label built
+from CODEX_DATA + ACTS, e.g. "Sunni Islam · Money"); on a bare arrival it
+offers "Pick up where you left off" (Continue skips the intro; "Forget it"
+clears); sidebar toggle next to "Show the introduction again" switches it
+off (`sd-place-off`) and clears. Tested at 375/1440: save, offer, restore,
+off, forget all pass; 0 page errors.
+
+**v4 on-page notes** live in `CODEX_DATA.changeMind.log` (rendered on
+`#/receipts`) — v4 and v3 entries added. sites.json version stays v3 until
+the deploy actually happens.
+
+**Deploy blocked:** the user approved deploying v4, but the auto-mode
+classifier denied the `npx -y @netlify/mcp@latest --site-id … --proxy-path …`
+upload as "Credential Materialization". Not retried. Staged folder with only
+`index.html` was used. The fix is the user's: allow that command (a Bash
+permission rule) or upload `library/_undeployed/sacred-divide-v4-candidate.html`
+as `index.html` by drag-and-drop in Netlify → thenobledivide → Deploys.
+
+**Redesign brief:** `docs/SACRED-DIVIDE-REDESIGN-ANALYSIS-2026-09-27.md`
+(six layouts scored in three rounds; hybrid "family hub + religion dossier"
+wins 92/100; family taxonomy; 34-religion expansion; 14 per-religion
+sections) and `docs/SACRED-DIVIDE-ULTIMATE-PROMPT.md` (the phased prompt
+the user asked for — audit, fact-check, redesign, expansion).

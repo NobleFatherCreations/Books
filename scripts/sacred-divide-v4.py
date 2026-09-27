@@ -43,11 +43,96 @@ M = [
     ('twenty-five defender attacks', 'twenty-seven defender attacks', 1),
     ('eleven accountability instruments.</p>', 'twelve accountability instruments.</p>', 1),
     ('Four readers, four different needs.', 'Six readers, six different needs.', 2),
+    # The owner keeps the Cloudflare visit counter (decision 2026-09-27), so every
+    # "nothing is tracked / stored" promise is reworded to what is actually true.
+    ('<p class="wt-line-t">Nothing here is tracked, stored, or sent anywhere. There is no account, no paywall, and no way for anyone to know you were here.</p>',
+     '<p class="wt-line-t">PRIVACY_LINE</p>', 1),
+    ('You can change your mind at any point and nothing is lost, because nothing is being kept.</p>',
+     'You can change your mind at any point and nothing is lost.</p>', 1),
 ]
-# the analytics beacon contradicts the page's own "nothing is tracked" promise
+PRIVACY_LINE = ('There is no account, no paywall, and no cookies. The site keeps an anonymous count of visits, '
+                'and it remembers your place only on this device — you can switch that off from the menu.')
+M = [(o, n.replace('PRIVACY_LINE', PRIVACY_LINE), c) for o, n, c in M]
 BEACON = re.compile(r"<!-- Cloudflare Web Analytics -->.*?<!-- End Cloudflare Web Analytics -->", re.S)
-assert len(BEACON.findall(s)) == 1
-s = BEACON.sub('', s); log.append('markup: removed Cloudflare Web Analytics beacon')
+assert len(BEACON.findall(s)) == 1  # kept on purpose
+
+# Section saver: remembers the last page on this device and offers it back on a bare
+# arrival. localStorage only, wrapped in try/catch; switchable off from the sidebar.
+SAVER = r'''<style id="sd-place-css">
+.sdp{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:2147483000;
+ width:max-content;max-width:calc(100vw - 32px);display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;padding:16px;
+ border-radius:12px;background:#1b1512;color:#f3ede3;border:1px solid rgba(201,162,74,.5);box-shadow:0 8px 32px rgba(0,0,0,.45);font-size:15px;line-height:1.4}
+.sdp-t{flex:1 1 200px;margin:0}
+.sdp-t b{color:#e2c07a;font-weight:600}
+.sdp-b{display:flex;gap:8px}
+.sdp button{font:inherit;cursor:pointer;border-radius:8px;padding:8px 16px;min-height:40px;border:1px solid rgba(201,162,74,.6);background:transparent;color:inherit;transition:background-color .2s ease}
+.sdp button:hover{background:rgba(201,162,74,.18)}
+.sdp button.go{background:#c9a24a;border-color:#c9a24a;color:#15100d}
+.sdp button.go:hover{background:#d8b45e}
+#sdpToggle{font:inherit;background:none;border:0;padding:0;margin:0;color:inherit;cursor:pointer;text-align:left;text-decoration:underline;text-underline-offset:3px}
+@media (prefers-reduced-motion:no-preference){.sdp{animation:sdpIn .25s ease-out}}
+@keyframes sdpIn{from{opacity:0;transform:translate(-50%,8px)}to{opacity:1;transform:translate(-50%,0)}}
+</style>
+<script id="sd-place-js">
+(function(){
+  var K='sd-place', OFF='sd-place-off';
+  function get(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } }
+  function put(k,v){ try{ if(v===null) localStorage.removeItem(k); else localStorage.setItem(k,v); }catch(e){} }
+  function on(){ return get(OFF)!=='1'; }
+  function skip(h){ return !h || h==='#' || h==='#/' || h.indexOf('#/')!==0 || h.indexOf('#/home')===0 || h.indexOf('#/search')===0; }
+  function label(h){
+    var p=h.replace(/^#\//,'').split(/[\/?]/), D=window.CODEX_DATA||{};
+    try{
+      if(p[0]==='r' && D.religions){
+        var r=D.religions.filter(function(x){ return x.id===p[1]; })[0];
+        var a=(p[2] && typeof ACTS!=='undefined') ? ACTS.filter(function(x){ return x.key===p[2]; })[0] : null;
+        if(r) return r.name + (a ? ' · ' + a.name : '');
+      }
+      if(p[0]==='tactic' && D.tactics && D.tactics[+p[1]-1]){
+        var n=D.tactics[+p[1]-1].name.toLowerCase(); return 'Tactic ' + p[1] + ' · ' + n.charAt(0).toUpperCase() + n.slice(1);
+      }
+    }catch(e){}
+    var t=(document.title||'').replace(/^The Sacred Divide\s*[—-]\s*/,'').trim();
+    return t && t!=='The Sacred Divide' ? t : h.replace(/^#\//,'').replace(/[\/-]/g,' ');
+  }
+  function save(){
+    var h=location.hash; if(!on() || skip(h)) return;
+    setTimeout(function(){ if(location.hash===h) put(K, JSON.stringify({h:h, t:label(h)})); }, 80);
+  }
+  function offer(p){
+    var bar=document.createElement('div'); bar.className='sdp'; bar.setAttribute('role','region'); bar.setAttribute('aria-label','Pick up where you left off');
+    var t=document.createElement('p'); t.className='sdp-t'; t.appendChild(document.createTextNode('Pick up where you left off: '));
+    var b=document.createElement('b'); b.textContent=p.t||p.h; t.appendChild(b);
+    var btns=document.createElement('div'); btns.className='sdp-b';
+    var go=document.createElement('button'); go.type='button'; go.className='go'; go.textContent='Continue';
+    var no=document.createElement('button'); no.type='button'; no.textContent='Forget it';
+    btns.appendChild(go); btns.appendChild(no); bar.appendChild(t); bar.appendChild(btns);
+    function done(){ if(bar.parentNode) bar.parentNode.removeChild(bar); }
+    go.addEventListener('click', function(){
+      var wt=document.getElementById('wt'), sk=document.getElementById('wtSkip');
+      if(wt && !wt.hidden && sk) sk.click();
+      location.hash=p.h; done();
+    });
+    no.addEventListener('click', function(){ put(K,null); done(); });
+    document.body.appendChild(bar);
+    addEventListener('hashchange', function(){ if(!skip(location.hash)) done(); });
+  }
+  function toggle(){
+    var anchor=document.getElementById('wtReplay'); if(!anchor || document.getElementById('sdpToggle')) return;
+    var btn=document.createElement('button'); btn.type='button'; btn.id='sdpToggle';
+    function paint(){ btn.textContent = on() ? 'Remembering my place on this device · turn off' : 'Not remembering my place · turn on'; btn.setAttribute('aria-pressed', on()?'true':'false'); }
+    btn.addEventListener('click', function(){ if(on()){ put(OFF,'1'); put(K,null); } else { put(OFF,null); save(); } paint(); });
+    paint(); anchor.parentNode.appendChild(btn);
+  }
+  var saved=null; try{ saved=JSON.parse(get(K)||'null'); }catch(e){}
+  if(on() && saved && saved.h && skip(location.hash) && !skip(saved.h)) offer(saved); else save();
+  addEventListener('hashchange', save);
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', toggle); else toggle();
+})();
+</script>
+'''
+assert s.count('</body>') == 1
+s = s.replace('</body>', SAVER + '</body>'); log.append('markup: added section saver (sd-place)')
 
 # split out blobs so markup edits cannot touch data
 parts, pos, spans = [], 0, {}
@@ -96,6 +181,55 @@ assert g.count('Four readers, four needs') == 1 and g.count('four readers, four 
 V8 = json.loads(g.replace('Four readers, four needs', 'Six readers, six needs').replace('four readers, four needs', 'six readers, six needs'))
 spans['CODEX_V8'] = spans['CODEX_V8'][:2] + (V8,) + spans['CODEX_V8'][3:]
 log.append('V8 guide: four readers -> six readers (2x)')
+
+# ---------- 2b. privacy wording: counter kept, section saver added ----------
+def only(seq, frag):
+    i = [k for k, x in enumerate(seq) if isinstance(x, str) and frag in x]; assert len(i) == 1, frag; return i[0]
+w = D['walk']['steps'][0]['lines']; k = only(w, 'Nothing here is tracked')
+w[k] = PRIVACY_LINE; log.append('walk.welcome: privacy line rewritten')
+for sl in V8['guide']['slides']:
+    for j, b in enumerate(sl.get('body', [])):
+        if '<b>It will not measure you.</b>' in b:
+            sl['body'][j] = ('<b>It will not profile you.</b> No accounts, no cookies, no advertising, no personal data. '
+                             'The only measurement is an anonymous count of visits. Your place is remembered only on your own '
+                             'device, and one tap in the menu turns that off.'); log.append('V8 guide: measure-you bullet rewritten')
+        if 'Nothing is stored, so there is no progress to lose' in b:
+            sl['body'][j] = b.replace('Nothing is stored, so there is no progress to lose and no reason to return except that you want to.',
+                                      'There is no progress to lose and no reason to return except that you want to. If it helps, the book remembers your place on this device.')
+            log.append('V8 guide: nothing-is-stored line rewritten')
+        if 'Nothing is required, nothing is tracked, and nothing is lost' in b:
+            sl['body'][j] = b.replace('Nothing is required, nothing is tracked, and nothing is lost if you close the tab.',
+                                      'Nothing is required, and nothing is lost if you close the tab.'); log.append('V8 guide: go-anywhere line rewritten')
+        if 'You can change it whenever, because nothing is being kept.' in b:
+            sl['body'][j] = b.replace('You can change it whenever, because nothing is being kept.', 'You can change it whenever.'); log.append('V8 guide: track line rewritten')
+g8 = json.dumps(V8, ensure_ascii=False)
+for bad in ('It will not measure you', 'Nothing is stored, so', 'nothing is tracked, and', 'because nothing is being kept'):
+    assert bad not in g8, bad
+def deep_replace(obj, old, new, where):
+    hits = [0]
+    def f(o):
+        if isinstance(o, dict): return {kk: f(v) for kk, v in o.items()}
+        if isinstance(o, list): return [f(v) for v in o]
+        if isinstance(o, str) and old in o: hits[0] += 1; return o.replace(old, new)
+        return o
+    r = f(obj); assert hits[0] == 1, (where, hits[0]); log.append(f'{where}: rewritten'); return r
+D = deep_replace(D, 'Close the tab. Nothing is owed and nothing is tracked.', 'Close the tab. Nothing is owed.', 'how-to-stop')
+V3 = deep_replace(V3, 'zero data sale — the file cannot even see you, so there is nothing to sell.',
+                  'zero data sale — there is no personal data to sell.', 'about.who')
+V3 = deep_replace(V3, 'The file carries no tracking, no accounts, no messaging, and no way to know who reads it, of any age.',
+                  'The file carries no accounts, no messaging, and no personal data; the only measurement is an anonymous count of visits that does not identify who reads it, of any age.', 'about.audit')
+V3 = deep_replace(V3, 'Reader-level measurement is renounced permanently and in writing: no analytics, no tracking, no storage, no exceptions. The people who most need this file are people who cannot afford to be seen reading it, and their safety outranks the project\'s curiosity forever.',
+                  'Reader-level measurement stops at an anonymous count of visits: no cookies, no profiles, no personal data. The people who most need this file are people who cannot afford to be seen reading it, and their safety outranks the project\'s curiosity.', 'about.theory')
+for n, d in (('CODEX_DATA', D), ('CODEX_V3', V3), ('CODEX_V8', V8)):
+    spans[n] = spans[n][:2] + (d,) + spans[n][3:]
+REL = {r['id']: r for r in D['religions']}; TAC = {t['name']: t for t in D['tactics']}
+
+# on-page version entries (CLAUDE.md: patch notes live on the page and in sites.json)
+D['changeMind']['log'][0:0] = [
+    ['v4 — 2026-09-27', 'Renamed throughout to The Sacred Divide. Corrected every out-of-date count (27 traditions, 12 instruments, 6 reader tracks). Removed stray editing notes and a block of text pasted into the Jainism section by mistake. Corrected and expanded the Islam, Sunni and Shia sections: dates, overstated claims, Southeast Asia, Shia communities outside Iran, the Ahmadi and Dawoodi Bohra record, and reforms won by Muslims. The book can now remember your place on this device (switch it off in the menu), and this page now states plainly that the site keeps an anonymous visit count.'],
+    ['v3 — 2026-09-01', 'Links to every Noble Father Creations book added to the menu.'],
+]
+log.append('changeMind.log: +v4, +v3 entries')
 
 # ---------- 3. leaked drafting notes ("your file ...") ----------
 def intro(name, old, new):
@@ -253,7 +387,8 @@ for c in chunks:
     if c in BLOBS: res.append(json.dumps(spans[c][2], ensure_ascii=False) + spans[c][3])
     else: res.append(mk[mi]); mi += 1
 out_s = ''.join(res)
-for bad in ('Coercive Control Codex', 'Coercive Control <span', 'Your file', 'your file', 'cloudflareinsights', 'Got it', '25-list'):
+for bad in ('Coercive Control Codex', 'Coercive Control <span', 'Your file', 'your file', 'Got it', '25-list', 'No analytics, no tracking', 'Nothing here is tracked'):
     assert bad not in out_s, bad
+assert out_s.count('cloudflareinsights') == 1 and out_s.count('id="sd-place-js"') == 1
 open(out, 'w', encoding='utf-8').write(out_s)
 print('\n'.join(log)); print(f'wrote {out} ({len(out_s.encode())} bytes)')
