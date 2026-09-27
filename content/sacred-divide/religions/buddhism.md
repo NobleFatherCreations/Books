@@ -6,9 +6,9 @@ family_id: buddhism-family
 family_members: [buddhism, tibetan-buddhism, soka-gakkai]
 version: v4
 checked: 2026-09-27
-sections_filled: 23/27
-missing: [cases, voices, leaving, help]
-partial: [branches, law, money]
+sections_filled: 27/27
+missing: []
+partial: []
 ---
 
 # Buddhism {#top}
@@ -144,11 +144,16 @@ Sources for this section: [8] [9]
 
 ## 6. Branches & variants {#branches}
 
-::: gap
-**Partly documented for Buddhism.** This section is below the page standard and is on the fill list.
-:::
-
 Theravada (Southeast Asia, Sri Lanka), Mahayana (East Asia — Pure Land, Zen/Chan, Tiantai, Nichiren), Vajrayana (Tibetan and Himalayan; profiled separately).
+
+| Branch | Where | Where authority sits |
+|---|---|---|
+| **Theravada** | Sri Lanka, Thailand, Myanmar, Cambodia, Laos | Monastic orders; in Thailand a Supreme Patriarch named by the king since 2016 [3][4]; full ordination of women is not recognized there [13][14] |
+| **Mahayana** | China, Taiwan, Korea, Japan, Vietnam | Schools and temples (Pure Land, Zen/Chan, Tiantai, Nichiren); in Japan, historic temple registration tied families to temples [9] |
+| **Vajrayana** | Tibet, the Himalayas, Mongolia, and Western centres | Lamas and tulkus (see Tibetan Buddhism) |
+| **Western convert centres** | Europe, North America, Australia | A founding teacher and a board; often registered charities [6] |
+
+About **324 million** Buddhists in 2020, down from 343 million in 2010 — the only major religion to shrink [1][2].
 
 ## 7. Structure {#structure}
 
@@ -199,19 +204,19 @@ Sources for this section: [1] [2] [3] [4] [7]
 
 ## 8. Law & state here {#law}
 
-::: gap
-**Partly documented for Buddhism.** This section is below the page standard and is on the fill list.
-:::
+| Country | What the law does | The accountability question |
+|---|---|---|
+| **Thailand** | A 2016 amendment to the Sangha Act gave the king the power to name the Supreme Patriarch [3] | The National Office of Buddhism charged officials with embezzling temple funds in 2018; a former head was later jailed [5] |
+| **Thailand — discipline** | Monks who break the celibacy rule are disrobed [11][12] | At least nine abbots and senior monks were disrobed in the 2025 blackmail scandal [11][12] |
+| **Myanmar** | — | A UN fact-finding mission documented hate speech, including by nationalist monks, against the Rohingya (2018) [7] |
+| **United Kingdom** | Charity law [6] | The Charity Commission's inquiry into Rigpa found its former trustees had failed to act (2020) [6] |
+| **Japan (history)** | Tokugawa-era temple registration [9] | Zen institutions supported militarism in the 20th century [8] |
 
 ### Who can compel an answer
 
 Charity regulators wherever a center is a registered charity — which is most of the West — and civil courts. In Thailand, the Sangha Supreme Council and, ultimately, the Crown, since the apex is royal by statute.
 
 ## 9. Money {#money}
-
-::: gap
-**Partly documented for Buddhism.** This section is below the page standard and is on the fill list.
-:::
 
 ### Where it comes from
 
@@ -253,6 +258,19 @@ Charity regulators wherever a center is a registered charity — which is most o
 
 **Hidden.** Posthumous-name pricing tiers
 :::
+
+### Money in numbers
+
+```chart
+{"id":"english-sangha-trust","type":"bar","title":"The English Sangha Trust (UK): income","unit":"£ million, years to 31 March",
+ "series":[["2021",11.89],["2022",1.67],["2023",1.74],["2024",3.02],["2025",2.23]],
+ "note":"A UK Theravada monastic charity; almost all donations, with one exceptional year.",
+ "cite":[10]}
+```
+
+- **English Sangha Trust, year to March 2025:** £1.89m of £2.23m income from donations [10].
+- **Thailand, 2025:** the woman at the centre of the blackmail scandal received about 385 million baht over three years, police said [11][12].
+- **Merit economies and funeral fees** — see Money above.
 
 ## 10. Genealogy {#genealogy}
 
@@ -1145,8 +1163,44 @@ Colonial suppression and communist destruction were real, and are cited to make 
 
 ## 19. Documented cases {#cases}
 
-::: gap
-**Not yet documented for Buddhism.** This section is on the fill list — see `religions/_coverage.md`.
+::: case
+### Temple funds embezzled by officials (Thailand, 2018)
+- **when:** 2018
+- **what:** Officials of the National Office of Buddhism were charged with embezzling state funds meant for temples [5].
+- **record:** Buddhistdoor, 2018; UCA News [5]
+- **outcome:** A former head of the office was sentenced to 94 years for fraud [5].
+- **tactics:** 26, 30
+- **grade:** Documented
+:::
+
+::: case
+### The teacher and the trustees (United Kingdom, 2017–2020)
+- **when:** 2017–2020
+- **what:** An independent investigation for Rigpa found that its founder, Sogyal Rinpoche, had abused students [6].
+- **record:** Lewis Silkin report (August 2018); Charity Commission statutory inquiry (concluded November 2020) [6]
+- **outcome:** The regulator found the charity's former trustees had failed to act on what they knew [6].
+- **tactics:** 30, 20, 18
+- **grade:** Documented
+:::
+
+::: case
+### The abbots and the blackmail (Thailand, 2025)
+- **when:** 2025
+- **what:** Police arrested a woman who, they said, had sexual relationships with senior monks and blackmailed them, receiving about 385 million baht over three years; they found more than 80,000 photos and videos [11][12].
+- **record:** Royal Thai Police Central Investigation Bureau, reported July 2025 [11][12]
+- **outcome:** At least nine abbots and senior monks were disrobed [11][12].
+- **tactics:** 30
+- **grade:** Documented
+:::
+
+::: case
+### Monks and hate speech (Myanmar, 2012–2018)
+- **when:** 2012–2018
+- **what:** A UN fact-finding mission documented hate speech against Rohingya Muslims, including by nationalist monks linked to Ma Ba Tha [7].
+- **record:** UN Independent International Fact-Finding Mission on Myanmar, A/HRC/39/64 (2018) [7]
+- **outcome:** Part of the UN's formal record on the violence against the Rohingya [7].
+- **tactics:** 17, 27
+- **grade:** Documented
 :::
 
 ## 20. Precedent {#precedent}
@@ -1170,9 +1224,10 @@ Sources for this section: [9]
 
 ## 21. Voices from inside {#voices}
 
-::: gap
-**Not yet documented for Buddhism.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+- **Dhammananda Bhikkhuni.** Thailand's first fully ordained Theravada nun, who had to go to Sri Lanka for ordination in 2003 [14].
+- **Ajahn Brahm.** Expelled from the Ajahn Chah forest lineage after he helped ordain four women as bhikkhunis in Perth in 2009 [13].
+- **The Rigpa students** whose complaints led to the 2018 investigation [6].
+- **Brian Victoria.** A Zen priest and scholar whose *Zen at War* documented his own tradition's support for militarism [8].
 
 ## 22. Regional variants {#regional}
 
@@ -1219,15 +1274,23 @@ You can keep the practice and drop the man. In fact the tradition tells you to: 
 
 ## 24. Leaving safely here {#leaving}
 
-::: gap
-**Not yet documented for Buddhism.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Practical guidance, not legal advice.
+
+1. **Leaving a Buddhist centre is legally free;** the costs are community, and for residents, housing.
+2. **If a teacher abuses you,** go to the police; if the centre is a UK charity, you can also report to the Charity Commission [6].
+3. **Monks and nuns who disrobe** may need help with housing, work and documents.
+4. **Find support** [15][16][17].
 
 ## 25. Where to get help {#help}
 
-::: gap
-**Not yet documented for Buddhism.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Checked 2026-09-27.
+
+| Organization | For | Where | Contact |
+|---|---|---|---|
+| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [15] |
+| **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [16] |
+| **ICSA** | Former members of high-control groups; families | International | Via website [17] |
+| **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [18] |
 
 ## 26. Sources {#sources}
 
@@ -1241,9 +1304,18 @@ You can keep the practice and drop the man. In fact the tradition tells you to: 
 8. Brian Victoria, *Zen at War* (2nd ed., Rowman & Littlefield, 2006) — Japanese Zen institutions' support for militarism. https://rowman.com/ISBN/9780742539266/Zen-at-War-Second-Edition
 9. *Encyclopaedia Britannica*, "Buddhism" — chronology (first councils; Ashoka c. 268–232 BCE; Pali canon written 1st c. BCE; Nalanda; spread to East Asia; Tokugawa temple registration); the eight *garudhammas*; the lapse of the Theravada bhikkhuni lineage and the 1996 Sarnath revival. https://www.britannica.com/topic/Buddhism
 
+### Added with the full page (2026-09-27)
+10. Charity Commission for England and Wales, The English Sangha Trust Limited (charity 231310), financial history 2021–2025. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/231310/financial-history
+11. Global News, "Thai woman allegedly seduced, blackmailed Buddhist monks" (July 2025) — 80,000 photos and videos; about 385m baht; at least nine abbots and senior monks. https://globalnews.ca/news/11290941/buddhist-monks-blackmail-sexual-relationships-thailand
+12. Gulf News / AP, "Thai police arrest woman who allegedly seduced and blackmailed Buddhist monks" (July 2025). https://gulfnews.com/world/asia/thai-police-arrest-woman-who-allegedly-seduced-and-blackmailed-buddhist-monks-1.500199158
+13. *Lion's Roar*, "The Time Has Come" — the Perth bhikkhuni ordination of 22 Oct 2009 and Ajahn Brahm's expulsion from the Ajahn Chah sangha. https://www.lionsroar.com/the-time-has-come/
+14. *Lion's Roar*, "To Walk Proudly as Buddhist Women: An Interview with Dhammananda Bhikkhuni." https://www.lionsroar.com/to-walk-proudly-as-buddhist-women-an-interview-with-dhammananda-bhikkhuni/
+15. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+16. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
+17. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
+18. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
+
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — fact-check pass 1:** `neutral` and `demographics.adherents` → `about 324 million by Pew's 2020 count — the only major religion that shrank from 2010 to 2020; broader counts that include Chinese folk practice run near 500 million.`
-- **2026-09-27 — fact-check pass 1:** `regional[1].documented` second sentence → `Registration gave regulators a handle: the Charity Commission's statutory inquiry later found Rigpa UK's former trustees had failed to act on what they knew.`
-- **2026-09-27 — fact-check pass 1:** `regional[1].regulator` → `Charity Commission and ACNC — the handle that made the findings enforceable; ordinary courts.`
+- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (English Sangha Trust accounts 2021–2025), four documented cases, Voices from inside, Leaving safely and Where to get help.
 

@@ -22,6 +22,17 @@ Legend: ✅ confirmed · ✏️ corrected · 🔹 interpretive · ⏳ open.
 8. Brian Victoria, *Zen at War* (2nd ed., Rowman & Littlefield, 2006) — Japanese Zen institutions' support for militarism. https://rowman.com/ISBN/9780742539266/Zen-at-War-Second-Edition
 9. *Encyclopaedia Britannica*, "Buddhism" — chronology (first councils; Ashoka c. 268–232 BCE; Pali canon written 1st c. BCE; Nalanda; spread to East Asia; Tokugawa temple registration); the eight *garudhammas*; the lapse of the Theravada bhikkhuni lineage and the 1996 Sarnath revival. https://www.britannica.com/topic/Buddhism
 
+### Added with the full page (2026-09-27)
+10. Charity Commission for England and Wales, The English Sangha Trust Limited (charity 231310), financial history 2021–2025. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/231310/financial-history
+11. Global News, "Thai woman allegedly seduced, blackmailed Buddhist monks" (July 2025) — 80,000 photos and videos; about 385m baht; at least nine abbots and senior monks. https://globalnews.ca/news/11290941/buddhist-monks-blackmail-sexual-relationships-thailand
+12. Gulf News / AP, "Thai police arrest woman who allegedly seduced and blackmailed Buddhist monks" (July 2025). https://gulfnews.com/world/asia/thai-police-arrest-woman-who-allegedly-seduced-and-blackmailed-buddhist-monks-1.500199158
+13. *Lion's Roar*, "The Time Has Come" — the Perth bhikkhuni ordination of 22 Oct 2009 and Ajahn Brahm's expulsion from the Ajahn Chah sangha. https://www.lionsroar.com/the-time-has-come/
+14. *Lion's Roar*, "To Walk Proudly as Buddhist Women: An Interview with Dhammananda Bhikkhuni." https://www.lionsroar.com/to-walk-proudly-as-buddhist-women-an-interview-with-dhammananda-bhikkhuni/
+15. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+16. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
+17. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
+18. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
+
 ---
 
 ## Claim register
