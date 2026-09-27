@@ -45,6 +45,16 @@ Legend: ✅ confirmed as written · ✏️ confirmed after a correction (see *Co
 26. Egyptian Streets, "Egypt's Al-Azhar Criticizes Gender Equality in Inheritance, Unlike Tunisia" (Aug 2017 — al-Azhar's deputy on the Tunisian reforms). https://egyptianstreets.com/2017/08/16/egypts-al-azhar-criticizes-gender-equality-in-inheritance-unlike-tunisia/
 27. TIMEP, "The Moudawana: Morocco's Nearly 20-Year Old Family Code" (2023) — judges approved 81% of 32,000 underage-marriage requests in 2019. https://timep.org/2023/07/07/the-moudawana-moroccos-nearly-20-year-old-family-code/
 
+### Added for the full page (2026-09-27)
+32. *Encyclopaedia Britannica*, "Ibāḍīyyah" (Oman's majority; over 2.5 million). https://www.britannica.com/topic/Ibadiyyah
+33. Saudipedia, "Timeline of the Number of Pilgrims from 1970 to 2025" (GASTAT); GASTAT, Hajj 2026 (1,707,301). https://saudipedia.com/en/timeline-of-the-number-of-pilgrims-from-1970-to-2025 · https://www.stats.gov.sa/en/w/news/194
+34. Musawah, "Where Musawah Began" (Kuala Lumpur, Feb 2009). https://www.musawah.org/advocacy-toolkit/where-musawah-began/
+35. Sisters in Islam, "Who We Are". https://sistersinislam.org/who-we-are/
+36. Naseeha Mental Health, "Helpline & Textline". https://www.naseeha.org/helpline-textline
+37. Humanists International, "Humanists at Risk". https://humanists.international/what-we-do/humanists-at-risk/
+38. Dubai Foundation for Women and Children, "Helpline" (800111). https://www.dfwac.ae/helpline
+39. Constitution of Morocco (2011), Article 41 — the King as Amir al-Mu'minin. https://www.constituteproject.org/constitution/Morocco_2011
+
 ### Where to get help (vetted 2026-09-27; UK numbers unless stated)
 28. Muslim Women's Network Helpline — 0303 330 0288. https://www.mwnuk.co.uk/mwn-helpline
 29. Karma Nirvana (forced marriage and honour-based abuse) — 0800 5999 247. https://karmanirvana.org.uk/
