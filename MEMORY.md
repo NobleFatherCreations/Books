@@ -3467,13 +3467,13 @@ bottom section readers can verify against). Structure, in `content/sacred-divide
   per religion from the v4 candidate (7,214 checkable). Regenerate, never hand-edit.
 - `sources/_officeholders.md` — every named sitting holder; **re-run every release.**
 
-**Done (9 of 27):** islam, sunni-islam, shia-islam, christianity, catholicism,
-eastern-orthodoxy, protestant-evangelical (+ officeholder sweep across all 27).
-**Remaining (18):** pentecostal-charismatic, judaism, orthodox-hasidic-judaism, hinduism,
-buddhism, tibetan-buddhism, sikhism, jainism, taoism, confucianism, shinto, zoroastrianism,
-bahai, mormonism, seventh-day-adventism, jehovahs-witnesses, scientology, hare-krishna,
-new-age, indigenous. Then apply every "Corrections" list in a v5 build of
-`scripts/sacred-divide-v4.py`, rebuild, and re-verify.
+**Pass 1 complete (2026-09-27): all 27 religion pages + `sources/_crosscutting.md`**
+(Follow the Who, records toolkit, Children/Women/Medical/LGBTQ codices, Promise Register,
+Succession Watch, Guide, and the book's counts of itself checked against its own data).
+Every page link-checked (no 404s). Nothing applied to the build yet. **Next:** apply every
+"Corrections to apply in the next build" list (27 pages + cross-cutting) in a v5 build of
+`scripts/sacred-divide-v4.py`, rebuild, regenerate inventories, Playwright-verify, add a
+v5 changeMind entry. Deploy only on the owner's explicit go-ahead.
 
 **Book errors found so far (must fix before any deploy):**
 - Ali Khamenei killed 28 Feb 2026; **Mojtaba Khamenei** Supreme Leader since 9 Mar 2026.
@@ -3483,9 +3483,15 @@ new-age, indigenous. Then apply every "Corrections" list in a v5 build of
 - Poland: the bishops' abuse figures (Mar 2019) came before *Tell No One*, not after.
 - SBC abuser database was **never launched**, shelved Feb 2025 (book says it exists, 3×).
 - Diyanet head is Safi Arpaguş (Sept 2025); JW Governing Body is eleven men, not nine.
-- ~24 reader-visible "(verify …)" notes in the book; 9 resolved so far.
+- Every reader-visible "(verify …)"/"[SOURCE NEEDED]" note now has a resolution queued.
+- Ram Rahim's murder convictions overturned (2024, 2026); Norway Supreme Court ruled FOR
+  the JWs (2026); Jinja Honcho litigation over; no SGPC election since 2011; Pew Buddhists
+  324m; Rabbinate law is 1953; Utah clergy privilege not abolished; LDS Presiding Bishop
+  Waddell; Cho = breach of trust; Macedo never convicted; JW redress Sept 2021.
+- Stale self-counts: "167 of 750" (→194 of 810), Guide "Instruments (11)" (→12), "4 paths"
+  (→6, and Guide lacks Track 05/06 slides), "section 17–19" (acts are 00–17).
 - US *Chiles v. Salazar* (31 Mar 2026) changes the conversion-therapy sentence.
 
-**Session limit hit:** this session used its 200-WebSearch cap partway through.
-Continuing needs a fresh session or a raised `CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION`.
+**Search cap:** a session can hit a 200-WebSearch cap; if so, stop and tell the owner
+(it lifted mid-session on 2026-09-27 and the pass finished).
 Link checking: `curl` every URL; 403/406 from bot-blocking sites is expected, 404 must be fixed.
