@@ -38,6 +38,20 @@ Legend: ✅ confirmed · ✏️ corrected · 🔹 interpretive · ⏳ open.
 18. CCLI — Church Copyright License (royalty distribution to songwriters and publishers). https://ccli.com/
 19. Pew Research Center, *Global Christianity* (2011) — ~584 million Pentecostal and charismatic Christians. https://www.pewresearch.org/religion/2011/12/19/global-christianity-movements-and-denominations/
 
+### Added with the full page (2026-09-27)
+20. Lifeway Research, "Southern Baptists See Attendance and Baptism Gains Amid Membership Declines" (5 May 2026) — 2025 Annual Church Profile: 12,331,954 members; $9.64bn undesignated receipts. https://research.lifeway.com/2026/05/05/southern-baptists-see-attendance-and-baptism-gains-amid-membership-declines/
+21. MinistryWatch, "SBC Membership Drops to Its Lowest Number in 50 Years" (Apr 2025) — 12.7 million in 2024; peak of 16.3 million in 2006. https://ministrywatch.com/sbc-membership-drops-to-its-lowest-number-in-50-years/
+22. *Christianity Today*, "SBC Membership Falls to 47-Year Low, But Church Involvement Is Up" (May 2024) — 12,982,090 members; nearly $800m to missions. https://www.christianitytoday.com/2024/05/southern-baptist-church-decline-sbc-annual-church-profile/
+23. Bloomberg Tax, "IRS Loses Bid to Approve Deal Allowing Church Political Speech" (31 Mar 2026). https://news.bloombergtax.com/daily-tax-report/irs-loses-bid-to-approve-deal-allowing-church-political-speech
+24. Interfaith Alliance, "What is Happening with the Johnson Amendment?" (31 July 2025; updated April 2026) — the July 2025 IRS consent filing in *National Religious Broadcasters v. Long*. https://www.interfaithalliance.org/post/what-is-happening-with-the-johnson-amendment
+25. Baptist News Global, "Newspaper story on sexual abuse in SBC was a long time coming for activist Christa Brown" (11 Feb 2019). https://baptistnews.com/article/newspaper-story-on-sexual-abuse-in-sbc-was-a-long-time-coming-for-activist-christa-brown/
+26. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
+27. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+28. SNAP — Survivors Network of those Abused by Priests. https://www.snapnetwork.org/
+29. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
+30. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/
+31. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
+
 ---
 
 ## Claim register

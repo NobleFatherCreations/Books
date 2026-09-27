@@ -6,9 +6,9 @@ family_id: christianity-family
 family_members: [christianity, catholicism, eastern-orthodoxy, oriental-orthodoxy, anglicanism, protestant-evangelical, pentecostal-charismatic, plymouth-brethren]
 version: v4
 checked: 2026-09-27
-sections_filled: 24/27
-missing: [voices, leaving, help]
-partial: [branches, cases, law, money]
+sections_filled: 27/27
+missing: []
+partial: []
 ---
 
 # Protestant / Evangelical Christianity {#top}
@@ -145,11 +145,15 @@ Sources for this section: [1] [2] [12] [13]
 
 ## 6. Branches & variants {#branches}
 
-::: gap
-**Partly documented for Protestant / Evangelical Christianity.** This section is below the page standard and is on the fill list.
-:::
-
 Mainline (Lutheran, Anglican, Methodist, Presbyterian, Reformed), Baptist, Evangelical, Pentecostal/charismatic, non-denominational and independent networks.
+
+| Branch | Example | Where authority sits |
+|---|---|---|
+| **Mainline** | Lutheran, Methodist, Presbyterian, Reformed | Bishops or elected assemblies; usually a published constitution and a church court |
+| **Baptist** | The Southern Baptist Convention: 12.3 million members in 2025, down from 16.3 million in 2006 [20][21] | Each congregation is autonomous; an annual meeting of messengers votes on the convention's business [7] |
+| **Pentecostal & Charismatic** | Assemblies of God, Hillsong, independent networks; about 584 million worldwide (2011) [19] | Often a founder and a board the founder chose (see Pentecostal & Charismatic) |
+| **Non-denominational and independent** | Megachurches and church-planting networks [12] | The founding pastor and elders the pastor appointed; no one above them [12] |
+| **Parachurch ministries** | Apologetics, broadcast, publishing and relief organizations [1][13] | A board, often of the founder's choosing [1][13] |
 
 ## 7. Structure {#structure}
 
@@ -200,19 +204,17 @@ Sources for this section: [1] [2] [7] [18] [19]
 
 ## 8. Law & state here {#law}
 
-::: gap
-**Partly documented for Protestant / Evangelical Christianity.** This section is below the page standard and is on the fill list.
-:::
+| Country | What the law does | The accountability question |
+|---|---|---|
+| **United States** | Churches are exempt without applying and file no annual return [3]. In July 2025 the IRS agreed in a court filing that a church could endorse candidates to its own congregation; on 31 March 2026 a federal judge dismissed the case, holding that the court could not approve the deal [23][24] | The one rule churches face on politics was nearly given up in a settlement, not by Congress [23][24] |
+| **Australia** | "Basic religious charities" are exempt from financial reporting [4]; a Royal Commission examined churches along with other institutions (2013–2017) [5] | Brian Houston was acquitted in 2023 of concealing his father's child sex offences [15] |
+| **England & Wales** | Churches that are charities file public accounts; serious incidents must be reported, and the Charity Commission can open statutory inquiries [6] | The closest thing to a regulator in this table that a member can use for free [6] |
 
 ### Who can compel an answer
 
 State attorneys general and the IRS on financial matters; civil courts on everything else; and, for Southern Baptist entities, the messengers' annual vote — the rare internal body in this codex with demonstrated teeth.
 
 ## 9. Money {#money}
-
-::: gap
-**Partly documented for Protestant / Evangelical Christianity.** This section is below the page standard and is on the fill list.
-:::
 
 ### Where it comes from
 
@@ -307,6 +309,21 @@ State attorneys general and the IRS on financial matters; civil courts on everyt
 ::: cites
 Sources for this section: [1] [2] [18]
 :::
+
+### Money in numbers
+
+```chart
+{"id":"sbc","type":"bar","title":"Southern Baptist Convention membership","unit":"million members",
+ "series":[["2006 (peak)",16.3],["2023",12.98],["2024",12.7],["2025",12.33]],
+ "note":"From the denomination's own Annual Church Profile; 2025 was the 19th year of decline in a row.",
+ "cite":[21,22,20]}
+```
+
+- **Giving to Southern Baptist churches, 2025:** $9.64 billion in undesignated receipts, reported by the churches themselves [20].
+- **Missions:** nearly $800 million in 2023 [22].
+- **Television ministries:** the Senate inquiry into six ministries (2007–2011) closed without penalties; most did not fully disclose [1][2].
+- **Worship music:** congregations pay licence fees through CCLI, which passes royalties to songwriters and publishers [18].
+- **Money abroad:** 28 US Christian-right groups spent at least $280 million outside the US, 2007–2018 [14].
 
 ## 10. Genealogy {#genealogy}
 
@@ -1200,10 +1217,6 @@ Sources for this section: [12] [13] [14]
 
 ## 19. Documented cases {#cases}
 
-::: gap
-**Partly documented for Protestant / Evangelical Christianity.** This section is below the page standard and is on the fill list.
-:::
-
 ::: case
 ### Guidepost report on the Southern Baptist Convention
 
@@ -1228,6 +1241,36 @@ Sources for this section: [12] [13] [14]
 
 ::: cites
 Sources for this section: [1] [2] [7] [8] [9] [10] [11]
+:::
+
+::: case
+### A megachurch with no one above the founder (United States, 2014)
+- **when:** 2014
+- **what:** Mars Hill Church in Seattle, with about 15 locations, dissolved after its founding pastor resigned amid findings about his leadership [12].
+- **record:** *Christianity Today*, *The Rise and Fall of Mars Hill* [12]
+- **outcome:** The church closed; its structure gave no body above the founder the power to act sooner [12].
+- **tactics:** 5, 28, 29
+- **grade:** Documented
+:::
+
+::: case
+### The apologist's ministry investigates its founder (United States, 2021)
+- **when:** 2021
+- **what:** An investigation commissioned by Ravi Zacharias International Ministries found that its late founder had sexually abused massage therapists over years [13].
+- **record:** Miller & Martin report, February 2021 [13]
+- **outcome:** The finding came only after the founder's death [13].
+- **tactics:** 30, 17, 22
+- **grade:** Documented
+:::
+
+::: case
+### The founder, the father and the court (Australia, 2021–2023)
+- **when:** 2021–2023
+- **what:** Hillsong founder Brian Houston was charged with concealing his father's child sex offences. He resigned from Hillsong in March 2022 and was found not guilty in August 2023 [15].
+- **record:** ABC News (Australia), 17 August 2023 [15]
+- **outcome:** Acquitted. He had already stepped down; the verdict did not restore him [15].
+- **tactics:** 30, 18
+- **grade:** Documented
 :::
 
 ## 20. Precedent {#precedent}
@@ -1256,9 +1299,10 @@ Sources for this section: [9] [10] [11] [16] [17]
 
 ## 21. Voices from inside {#voices}
 
-::: gap
-**Not yet documented for Protestant / Evangelical Christianity.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+- **Christa Brown.** A survivor and retired lawyer who wrote to 18 Baptist leaders in four states in 2004–05 to warn them about the youth minister who had abused her; none offered help [25].
+- **The survivors who built their own database.** In 2026, after the Southern Baptist database was shelved, survivors launched a national Protestant database of accused ministers [10][11].
+- **Alan Chambers.** President of Exodus International, who apologized to gay people and shut the ministry down in 2013 [16].
+- **Joshua Harris.** Author of *I Kissed Dating Goodbye*, who discontinued his own bestseller in 2018 [17].
 
 ## 22. Regional variants {#regional}
 
@@ -1316,15 +1360,26 @@ The people who exposed Mars Hill, Hillsong, and the SBC's own abuse records were
 
 ## 24. Leaving safely here {#leaving}
 
-::: gap
-**Not yet documented for Protestant / Evangelical Christianity.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Practical guidance, not legal advice.
+
+1. **Leaving is legally free.** The costs are social, family and sometimes economic, where the church is also the school, employer or social world.
+2. **If you signed a non-disclosure agreement as staff,** it generally cannot stop you reporting a crime to police; take the agreement to a lawyer.
+3. **Membership covenants.** Some churches ask members to sign one; you can resign membership in writing.
+4. **If you were abused,** go to the police or child-protection services first, not the church.
+5. **Find support** that is not run by a church [26][27][28].
 
 ## 25. Where to get help {#help}
 
-::: gap
-**Not yet documented for Protestant / Evangelical Christianity.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Checked 2026-09-27.
+
+| Organization | For | Where | Contact |
+|---|---|---|---|
+| **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [26] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [27] |
+| **SNAP** | Survivors of clergy abuse, across churches | US and international | Via website [28] |
+| **ICSA** | Former members of high-control groups; families | International | Via website [29] |
+| **Childhelp** | Child abuse | US | **1-800-422-4453** [30] |
+| **RAINN** | Sexual assault | US | **1-800-656-4673** [31] |
 
 ## 26. Sources {#sources}
 
@@ -1353,11 +1408,21 @@ The people who exposed Mars Hill, Hillsong, and the SBC's own abuse records were
 18. CCLI — Church Copyright License (royalty distribution to songwriters and publishers). https://ccli.com/
 19. Pew Research Center, *Global Christianity* (2011) — ~584 million Pentecostal and charismatic Christians. https://www.pewresearch.org/religion/2011/12/19/global-christianity-movements-and-denominations/
 
+### Added with the full page (2026-09-27)
+20. Lifeway Research, "Southern Baptists See Attendance and Baptism Gains Amid Membership Declines" (5 May 2026) — 2025 Annual Church Profile: 12,331,954 members; $9.64bn undesignated receipts. https://research.lifeway.com/2026/05/05/southern-baptists-see-attendance-and-baptism-gains-amid-membership-declines/
+21. MinistryWatch, "SBC Membership Drops to Its Lowest Number in 50 Years" (Apr 2025) — 12.7 million in 2024; peak of 16.3 million in 2006. https://ministrywatch.com/sbc-membership-drops-to-its-lowest-number-in-50-years/
+22. *Christianity Today*, "SBC Membership Falls to 47-Year Low, But Church Involvement Is Up" (May 2024) — 12,982,090 members; nearly $800m to missions. https://www.christianitytoday.com/2024/05/southern-baptist-church-decline-sbc-annual-church-profile/
+23. Bloomberg Tax, "IRS Loses Bid to Approve Deal Allowing Church Political Speech" (31 Mar 2026). https://news.bloombergtax.com/daily-tax-report/irs-loses-bid-to-approve-deal-allowing-church-political-speech
+24. Interfaith Alliance, "What is Happening with the Johnson Amendment?" (31 July 2025; updated April 2026) — the July 2025 IRS consent filing in *National Religious Broadcasters v. Long*. https://www.interfaithalliance.org/post/what-is-happening-with-the-johnson-amendment
+25. Baptist News Global, "Newspaper story on sexual abuse in SBC was a long time coming for activist Christa Brown" (11 Feb 2019). https://baptistnews.com/article/newspaper-story-on-sexual-abuse-in-sbc-was-a-long-time-coming-for-activist-christa-brown/
+26. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
+27. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+28. SNAP — Survivors Network of those Abused by Priests. https://www.snapnetwork.org/
+29. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
+30. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/
+31. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
+
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — fact-check pass 1:** **case guidepost-sbc.outcome** → `The Executive Committee released its list of accused ministers. Messengers voted in 2022 for a public database; none was ever published, and in 2025 the Executive Committee shelved it, citing legal risk. The list had existed for years without being acted upon.`
-- **2026-09-27 — fact-check pass 1:** **victories[0].what** → `The SBC's Guidepost report published in full, and the Executive Committee's list of accused ministers released`; **cost** unchanged.
-- **2026-09-27 — fact-check pass 1:** **V7 promises, SBC row** → status `Abandoned`; text: `Messengers voted for the "Ministry Check" database in 2022. No name was ever published; in February 2025 the Executive Committee said it was no longer a focus, citing legal hurdles. In 2026 survivors launched their own national database instead.`
-- **2026-09-27 — fact-check pass 1:** **leverage[0] tag** → `[INVESTIGATIVE REPORT: openDemocracy, 2020]`.
-- **2026-09-27 — fact-check pass 1:** **Regional Australia law** → `ACNC registration — though churches that qualify as "basic religious charities" are exempt from financial reporting.`
+- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (Southern Baptist membership), three more documented cases, Voices from inside, Leaving safely and Where to get help.
 
