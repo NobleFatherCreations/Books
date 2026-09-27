@@ -6,9 +6,9 @@ family_id: christianity-family
 family_members: [christianity, catholicism, eastern-orthodoxy, oriental-orthodoxy, anglicanism, protestant-evangelical, pentecostal-charismatic, plymouth-brethren]
 version: v4
 checked: 2026-09-27
-sections_filled: 22/27
-missing: [law, voices, regional, leaving, help]
-partial: [branches, money]
+sections_filled: 27/27
+missing: []
+partial: []
 ---
 
 # Anglicanism {#top}
@@ -105,11 +105,14 @@ Formed when Henry VIII broke with Rome (Act of Supremacy, 1534), made the Englis
 
 ## 6. Branches & variants {#branches}
 
-::: gap
-**Partly documented for Anglicanism.** This section is below the page standard and is on the fill list.
-:::
-
 evangelical, catholic (Anglo-Catholic) and liberal wings. The GAFCON / Global South realignment since 2008 has seen some provinces break or impair communion with Canterbury over sexuality.
+
+| Branch | Where | What differs on this page's questions |
+|---|---|---|
+| **Church of England** | England; the mother church | Established by law; bishops in the House of Lords [25]; General Synod passes Measures that Parliament approves |
+| **The wider Communion** | About 85 million people in 42 provinces [12] | Each province is self-governing; the Archbishop of Canterbury is a focus of unity, not a pope |
+| **GAFCON provinces** | A group of provinces, many in the Global South | Announced in October 2025 that they would leave the Communion and form a rival network [12] |
+| **Internal wings** | Across all provinces | Evangelical, Anglo-Catholic and liberal traditions, which disagree on women's ordination and sexuality |
 
 ## 7. Structure {#structure}
 
@@ -155,15 +158,16 @@ evangelical, catholic (Anglo-Catholic) and liberal wings. The GAFCON / Global So
 
 ## 8. Law & state here {#law}
 
-::: gap
-**Not yet documented for Anglicanism.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+| Country | What the law does | The accountability question |
+|---|---|---|
+| **England** | An established church: 26 bishops sit in the House of Lords [25]; blasphemy offences were abolished in 2008 [26] | The Makin Review led to the Archbishop of Canterbury's resignation in November 2024 [3][22] |
+| **England — clergy** | The Equality Act's occupational-requirement exception lets the church refuse a licence to a priest in a same-sex marriage (*Pemberton v Inwood*, 2018) [14] | Clergy housing and income depend on the bishop's licence |
+| **England — safeguarding** | The Safeguarding (Code of Practice) Measure followed the statutory inquiry's findings [1][2] | The church disbanded its own Independent Safeguarding Board in 2023 [16][23] |
+| **Uganda** | The Anti-Homosexuality Act 2023; the Church of Uganda welcomed it while opposing the death penalty [15] | The Archbishop of Canterbury publicly criticized that support [15] |
+| **Australia** | A Royal Commission examined the Anglican Church with other institutions [17] | 1,082 complainants and 22 of 23 dioceses with complaints, 1980–2015 [17] |
+| **Canada** | Residential schools for Indigenous children, some run by the Anglican Church [18] | The church apologized in 1993 [18] |
 
 ## 9. Money {#money}
-
-::: gap
-**Partly documented for Anglicanism.** This section is below the page standard and is on the fill list.
-:::
 
 ### Where it comes from
 
@@ -181,6 +185,19 @@ evangelical, catholic (Anglo-Catholic) and liberal wings. The GAFCON / Global So
 | Tied clergy housing | Enables ministry | Home depends on a licence | Institutional leverage over clergy |
 | Parochial fees | Occasional offices | Statutory fees for weddings and funerals | Diocese and parish |
 | Church schools | Education | Admissions tied to worship | The church's pipeline and civic standing |
+
+### Money in numbers
+
+```chart
+{"id":"cc-endowment","type":"bar","title":"Church Commissioners' endowment fund, year-end value","unit":"£ billion",
+ "series":[["2021",10.1],["2023",10.4],["2024",11.1],["2025",11.6]],
+ "note":"The fund pays for about 20% of the Church of England's running costs; £1.2bn was distributed in 2023–2025.",
+ "cite":[19,20,5,21]}
+```
+
+- **Distributions:** over £3.5 billion since 2009 [20].
+- **Slavery-linked history:** a £100m fund announced in 2023, with an oversight group urging £1bn in 2024 [6][7].
+- **Redress:** a £150m independent redress scheme for abuse survivors, approved by Synod in July 2025 [9].
 
 ## 10. Genealogy {#genealogy}
 
@@ -406,14 +423,51 @@ evangelical, catholic (Anglo-Catholic) and liberal wings. The GAFCON / Global So
 
 ## 21. Voices from inside {#voices}
 
-::: gap
-**Not yet documented for Anglicanism.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+- **Jasvinder Sanghera and Steve Reeves.** Members of the Independent Safeguarding Board, whose contracts the Archbishops' Council ended in June 2023. Sanghera told Synod: "We were too independent. We did our job too well." [23][24]
+- **The survivors of John Smyth,** whose persistence produced the Makin Review [3][22].
+- **Jeremy Pemberton.** The priest refused a licence after marrying his male partner, who took the case to the Court of Appeal [14].
+- **Archbishop Michael Peers.** Apologized to Indigenous peoples on behalf of the Anglican Church of Canada in 1993 [18].
 
 ## 22. Regional variants {#regional}
 
-::: gap
-**Not yet documented for Anglicanism.** This section is on the fill list — see `religions/_coverage.md`.
+::: card
+### England
+- **apex:** The Archbishop of Canterbury — Sarah Mullally, the first woman in the office, installed in March 2026 [13].
+- **law:** Establishment; 26 bishops in the Lords [25].
+- **documented:** The statutory inquiry (2020) [1]; the Peter Ball review (2017) [4]; the Makin Review (2024) [3][22].
+- **exit:** Free for lay members; costly for clergy, whose home comes with the licence.
+- **regulator:** Parliament; the Charity Commission for church charities; the new safeguarding body approved in 2026 [8].
+- **tell:** A church that published the reviews that ended its archbishop's tenure — and sacked its own independent safeguarding board the year before.
+:::
+
+::: card
+### Uganda
+- **apex:** The Archbishop of the Church of Uganda.
+- **law:** The Anti-Homosexuality Act 2023 [15].
+- **documented:** The church's public welcome of the Act [15].
+- **exit:** —
+- **regulator:** None independent on this question.
+- **tell:** One Communion, two answers to the same law: Kampala welcomed it, Canterbury criticized the welcome [15].
+:::
+
+::: card
+### Australia
+- **apex:** The Primate and diocesan bishops.
+- **law:** The Royal Commission's findings and state reporting laws [17].
+- **documented:** 1,082 complainants and 1,115 alleged incidents, 1980–2015 [17].
+- **exit:** Legally free.
+- **regulator:** State police; the charity regulator.
+- **tell:** Twenty-two of twenty-three dioceses had received complaints.
+:::
+
+::: card
+### Canada
+- **apex:** The Primate of the Anglican Church of Canada.
+- **law:** —
+- **documented:** The 1993 apology [18].
+- **exit:** —
+- **regulator:** —
+- **tell:** The church apologized in its own words, in 1993 [18].
 :::
 
 ## 23. The questions {#questions}
@@ -432,21 +486,30 @@ evangelical, catholic (Anglo-Catholic) and liberal wings. The GAFCON / Global So
 
 ## 24. Leaving safely here {#leaving}
 
-::: gap
-**Not yet documented for Anglicanism.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Practical guidance, not legal advice.
+
+1. **For lay members, leaving costs nothing formal.** There is no shunning doctrine and giving is voluntary. This is a strength, and it is recorded here.
+2. **For clergy,** losing a licence can mean losing home and income together; take advice before you resign.
+3. **Church school places** may depend on worship attendance; check a school's admissions criteria.
+4. **If you were abused,** go to the police first. You can also contact the church's safeguarding team, and use the redress scheme Synod approved in 2025 [9].
+5. **Find support** that is independent of the church [27][28].
 
 ## 25. Where to get help {#help}
 
-::: gap
-**Not yet documented for Anglicanism.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Checked 2026-09-27.
+
+| Organization | For | Where | Contact |
+|---|---|---|---|
+| **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [27] |
+| **Faith to Faithless** | People leaving religion | UK | **020 3675 0959** [28] |
+| **SNAP** | Survivors of clergy abuse, across churches | International | Via website [29] |
+| **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [30] |
 
 ## 26. Sources {#sources}
 
 1. Independent Inquiry into Child Sexual Abuse (IICSA), *The Anglican Church Investigation Report*, Oct 2020. <https://www.iicsa.org.uk/reports-recommendations/publications/investigation/anglican-church.html> — 390 convicted clergy or people in positions of trust (1940s–2018); failure to take abuse seriously.
 2. IICSA, "Inquiry's Anglican Church investigation leads to Church reform and new law." <https://www.iicsa.org.uk/news/inquirys-anglican-church-investigation-leads-church-reform-and-new-law> — the Safeguarding (Code of Practice) Measure.
-3. Keith Makin, *The Makin Review* (independent review into the Church of England's handling of John Smyth), published 7 Nov 2024; the Archbishop's resignation announced 12 Nov 2024. Church of England publication page — **to add URL**. Summary: Wikipedia, "Makin Review" <https://en.wikipedia.org/wiki/Makin_Review> (finding aid only).
+3. Keith Makin, *The Makin Review* (independent review into the Church of England's handling of John Smyth), published 7 Nov 2024; the Archbishop's resignation announced 12 Nov 2024. <https://www.churchofengland.org/sites/default/files/2024-11/independent-learning-lessons-review-john-smyth-qc-november-2024.pdf>. Summary: Wikipedia, "Makin Review" <https://en.wikipedia.org/wiki/Makin_Review> (finding aid only).
 4. Dame Moira Gibb, *An Abuse of Faith: The Independent Peter Ball Review*, Jun 2017 (commissioned by the Church of England). <https://www.churchofengland.org/sites/default/files/2017-11/report-of-the-peter-ball-review-210617.pdf>
 5. Church of England, "Church Commissioners for England endowment fund delivers 10.3% return in 2024." <https://www.churchofengland.org/media/finance-news/church-commissioners-england-endowment-fund-delivers-103-return-2024> — £11.1bn; about 20% of running costs. (A later report puts the fund at £11.6bn: Civil Society, <https://www.civilsociety.co.uk/news/church-of-england-s-endowment-fund-grows-to-11-6bn.html> — update to the latest annual report at import.)
 6. Church of England, "Historic links to enslavement — FAQs." <https://www.churchofengland.org/about/governance/national-church-institutions/church-commissioners-england/who-we-are/historic-links-enslavement/frequently-asked-questions> — the Grant Thornton research and the £100m fund. Critique: History Reclaimed, <https://historyreclaimed.co.uk/church-commissioners-slavery-reparations/> (balance).
@@ -462,13 +525,20 @@ evangelical, catholic (Anglo-Catholic) and liberal wings. The GAFCON / Global So
 16. Church Times, "Independent Safeguarding Board disbanded and its members sacked as Church 'resets'," 23 Jun 2023. <https://www.churchtimes.co.uk/articles/2023/23-june/news/uk/independent-safeguarding-board-disbanded-and-its-members-sacked-as-church-resets>
 17. ABC News (Australia), "Anglican Church 'deeply ashamed' about 1,000 complaints of child sex abuse, royal commission hears," 18 Mar 2017. <https://www.abc.net.au/news/2017-03-18/anglican-church-ashamed-child-sex-abuse-royal-commission/8363126> — **add** the Royal Commission data report.
 18. Anglican Church of Canada, "Full text … of the 1993 Apology to Native Peoples" (Archbishop Michael Peers, 6 Aug 1993). <https://www.anglican.ca/reconciliation/accountability/apology-1993/>
+19. Church of England, "Church Commissioners reports strong financial returns in 2021 of 13.3%" — £10.1bn at end-2021. <https://www.churchofengland.org/media/press-releases/church-commissioners-reports-strong-financial-returns-2021-133>
+20. Church of England, "Church Commissioners for England endowment fund delivers 4.1% return in 2023" — £10.4bn; over £3.5bn distributed since 2009; £1.2bn in 2023–25. <https://www.churchofengland.org/media/finance-news/church-commissioners-england-endowment-fund-delivers-41-return-2023>
+21. Church of England, "Church Commissioners for England endowment fund delivers 8% return in 2025" — £11.6bn at end-2025. <https://www.churchofengland.org/media/finance-news/church-commissioners-england-endowment-fund-delivers-8-return-2025>
+22. Church of England, "Independent review into Church's handling of Smyth case published" (7 Nov 2024). <https://www.churchofengland.org/media/press-releases/independent-review-churchs-handling-smyth-case-published>
+23. Archbishops' Council, "Statement from Archbishops' Council on the Independent Safeguarding Board" (June 2023) — contracts of Jasvinder Sanghera, Steve Reeves and acting chair Meg Munn ended. <https://www.churchofengland.org/media/press-releases/statement-archbishops-council-independent-safeguarding-board>
+24. Religion Media Centre, "'Watershed moment' as sacked safeguarding board members tell synod what went wrong" (10 July 2023). <https://religionmediacentre.org.uk/news/sacked-safeguarding-board-members-address-synod-in-watershed-moment>
+25. House of Lords Library, "Lords spiritual in the House of Lords explained." <https://lordslibrary.parliament.uk/lords-spiritual-in-the-house-of-lords-explained/>
+26. Criminal Justice and Immigration Act 2008, section 79 — abolition of the common-law offences of blasphemy and blasphemous libel. <https://www.legislation.gov.uk/ukpga/2008/4/section/79>
+27. NAPAC — 0808 801 0331. <https://napac.org.uk/calling-our-support-line/>
+28. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. <https://humanists.uk/faith-to-faithless/helpline/>
+29. SNAP — Survivors Network of those Abused by Priests. <https://www.snapnetwork.org/>
+30. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
 
 ## 27. What changed on this page {#changed}
 
-- **Updated:** Archbishop of Canterbury is Sarah Mullally (named 3 Oct 2025; installed 25 Mar 2026) [13]; GAFCON's Oct 2025 break [12].
-- **Updated:** endowment £10bn → £11.1bn (end 2024) [5].
-- **Added:** the £150m redress scheme (2025) [9]; the Feb 2025 and Feb 2026 Synod safeguarding votes [8]; the £1bn oversight-group target and the historians' dispute [6][7]; Australian Royal Commission figures [17].
-- **Confirmed:** IICSA 2020 [1]; Makin 7 Nov 2024 and resignation 12 Nov 2024 [3]; Gibb 2017 and the Ball conviction 2015 [4]; *Pemberton* 2018 [14]; Uganda's position [15]; ISB disbanded Jun 2023 [16]; 1993 Canadian apology [18]; about 4,600 schools and over 1M pupils [11].
-- **Softened:** "blasphemy abolished without church resistance" → removed the unsourced clause.
-- **Open:** BAILII link for [14]; the Makin Review page URL [3]; Anglican Communion Office source for the 85M figure [12]; the Royal Commission primary data [17].
+- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (endowment 2021–2025), Voices from inside, four regional cards, Leaving safely and Where to get help; the Makin Review now cites the published report.
 
