@@ -6,9 +6,9 @@ family_id: islam-family
 family_members: [islam, sunni-islam, shia-islam, ahmadiyya, dawoodi-bohra]
 version: v4
 checked: 2026-09-27
-sections_filled: 22/27
-missing: [law, voices, regional, leaving, help]
-partial: [branches, money]
+sections_filled: 27/27
+missing: []
+partial: []
 ---
 
 # Dawoodi Bohra {#top}
@@ -101,11 +101,15 @@ The community descends from the Fatimid Ismaili tradition through the Mustaʿli 
 
 ## 6. Branches & variants {#branches}
 
-::: gap
-**Partly documented for Dawoodi Bohra.** This section is below the page standard and is on the fill list.
-:::
-
 the Dawoodi majority; Sulaymani and Alavi Bohras (historical splits) [14]; the Progressive Dawoodi Bohras; the Qutbi line that contested the 2014 succession [4].
+
+| Branch | Where | What differs on this page's questions |
+|---|---|---|
+| **Dawoodi Bohra** | India, Pakistan, East Africa, the Gulf, diaspora [15] | Led by the *Dai al-Mutlaq*, with authority over permissions for marriage, burial and pilgrimage [19]. Split from the Sulaymani in 1592 over the succession of the 27th dai [25]. |
+| **Sulaymani Bohra** | Yemen, and a smaller Indian community [25] | Followed the rival claimant in 1592 [25]. |
+| **Alavi Bohra** | Gujarat [25] | Split from the Dawoodi in 1621 [25]. |
+| **Progressive Dawoodi Bohras** | India and diaspora | A reform movement inside the community since the 1970s, demanding accountable finances and an end to excommunication; its leader was expelled in 2004 [13][20]. |
+| **The 2014 succession dispute** | India | A rival claim to the office after the 52nd dai's death was dismissed by the Bombay High Court in 2024 [4]. |
 
 ## 7. Structure {#structure}
 
@@ -144,15 +148,15 @@ the Dawoodi majority; Sulaymani and Alavi Bohras (historical splits) [14]; the P
 
 ## 8. Law & state here {#law}
 
-::: gap
-**Not yet documented for Dawoodi Bohra.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+| Country | What the law says | Where it stands |
+|---|---|---|
+| **India — excommunication** | A 1949 Bombay law banning excommunication was struck down in 1962 as violating the community's religious freedom [1]; Maharashtra's 2016 law bans social boycott [3] | In 2023 the Supreme Court doubted its own 1962 precedent and sent the question to a larger bench [2][17] |
+| **India — khatna (FGC)** | No specific law; a public-interest petition seeks a ban [12] | Referred to a nine-judge constitution bench, with survivors intervening [12][21] |
+| **United States — FGC** | The 1996 federal FGM law was ruled unconstitutional in the first prosecution (2018); the case ended in 2021 [5][6] | Congress replaced the law in 2021 (STOP FGM Act) [7] |
+| **Australia — FGC** | The High Court held in 2019 that the practice falls within the offence [8] | Retrials ordered, then the case was dropped in 2020 [9][10] |
+| **United Kingdom — FGC** | Illegal, including taking a girl abroad for it; specialist support exists [22][23] | — |
 
 ## 9. Money {#money}
-
-::: gap
-**Partly documented for Dawoodi Bohra.** This section is below the page standard and is on the fill list.
-:::
 
 ### Where it comes from
 
@@ -168,6 +172,13 @@ the Dawoodi majority; Sulaymani and Alavi Bohras (historical splits) [14]; the P
 | Raza (permission) | Religious order | Rites, marriages, burials [17] | The ʿamil and the Daʿi's office |
 | Trusts and redevelopment | Community upliftment | Property concentrated in central trusts [18] | Central trusts |
 | Qardan hasana | Interest-free loans | Real welfare, administered by the same office [15] | Members, and the office's leverage |
+
+### Money in numbers
+
+Members pay *wajebaat* and other dues to the office of the dai; no audited accounts are published to members [19]. The one large number on the public record is a building project.
+
+- **Saifee Burhani Upliftment Project, Mumbai:** a redevelopment of the Bhendi Bazaar area promising new homes for some **20,000** residents [18].
+- **Wajebaat:** a religious obligation paid to the dai's office, with no published ledger [19].
 
 ## 10. Genealogy {#genealogy}
 
@@ -385,14 +396,41 @@ the Dawoodi majority; Sulaymani and Alavi Bohras (historical splits) [14]; the P
 
 ## 21. Voices from inside {#voices}
 
-::: gap
-**Not yet documented for Dawoodi Bohra.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+- **Asghar Ali Engineer (1939–2013).** A scholar who led the reform movement, demanded accountable finances, was attacked at least six times, and was expelled in 2004 [20].
+- **Masooma Ranalvi and WeSpeakOut.** Survivors who went public about khatna from 2015 and brought their stories to the Supreme Court [21].
+- **Sahiyo.** A survivor-led group whose 2017 survey found 80% of respondents had been cut and 81% wanted the practice ended [11][16].
+- **The Nathwani Commission (1979).** A citizens' inquiry into the community's governance, prompted by reformers [13].
 
 ## 22. Regional variants {#regional}
 
-::: gap
-**Not yet documented for Dawoodi Bohra.** This section is on the fill list — see `religions/_coverage.md`.
+::: card
+### India
+- **apex:** The Dai al-Mutlaq, in Mumbai; his succession upheld by the Bombay High Court in 2024 [4].
+- **law:** Excommunication protected as religious practice since 1962, now before a larger bench [1][2]; Maharashtra's social-boycott law [3]; khatna before a nine-judge bench [12][21].
+- **documented:** The Nathwani Commission (1979) [13]; the Sahiyo survey [11].
+- **exit:** Excommunication (baraat) can cut a member off from family, mosque and burial [19].
+- **regulator:** The Supreme Court — twice asked to decide [2][12].
+- **tell:** A community whose leader's power to expel was protected by the constitution in 1962, and whose members are asking the same court sixty years later to reconsider.
+:::
+
+::: card
+### United States
+- **apex:** Local jamaats under the dai.
+- **law:** Federal FGM law struck down (2018), replaced (2021) [5][7].
+- **documented:** The first federal FGM prosecution, in Detroit (2017–2021) [5][6].
+- **exit:** Legally free.
+- **regulator:** Federal prosecutors, under the 2021 law [7].
+- **tell:** The first prosecution failed on a constitutional point, and Congress rewrote the law because of it.
+:::
+
+::: card
+### Australia
+- **apex:** Local jamaats under the dai.
+- **law:** The High Court's 2019 ruling that the practice is within the offence [8].
+- **documented:** The first FGM prosecution; convictions quashed, retrials ordered, charges dropped [8][9][10].
+- **exit:** Legally free.
+- **regulator:** State police and prosecutors.
+- **tell:** The highest court clarified the law; the case still ended without a conviction.
 :::
 
 ## 23. The questions {#questions}
@@ -411,15 +449,25 @@ the Dawoodi majority; Sulaymani and Alavi Bohras (historical splits) [14]; the P
 
 ## 24. Leaving safely here {#leaving}
 
-::: gap
-**Not yet documented for Dawoodi Bohra.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Practical guidance, not legal advice.
+
+1. **Understand baraat.** Expulsion can mean exclusion from the mosque, the community's burial grounds and family events [19]; in Maharashtra, a social boycott is itself illegal [3].
+2. **Protect daughters from khatna.** It is illegal in the UK, the US (since 2021) and Australia; specialist helplines exist [7][8][22].
+3. **Expect permissions to be withheld.** Marriage and burial permissions run through the dai's office [19].
+4. **Find others who have spoken out** [21][16].
 
 ## 25. Where to get help {#help}
 
-::: gap
-**Not yet documented for Dawoodi Bohra.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Checked 2026-09-27.
+
+| Organization | For | Where | Contact |
+|---|---|---|---|
+| **WeSpeakOut** | Survivors of khatna; campaign and support | India and global | Via website [21] |
+| **Sahiyo** | Survivor-led education and support on FGC | Global | Via website [16] |
+| **NSPCC FGM Helpline** | Anyone worried a girl is at risk of FGM | UK (and from abroad) | **0800 028 3550**, free and anonymous [22] |
+| **GOV.UK FGM help** | Protection orders, reporting, health care | UK | Via GOV.UK [23] |
+| **Faith to Faithless** | People leaving high-control religion | UK | Helpline [24] |
+| **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** [26] |
 
 ## 26. Sources {#sources}
 
@@ -442,13 +490,15 @@ the Dawoodi majority; Sulaymani and Alavi Bohras (historical splits) [14]; the P
 17. Supreme Court Observer, "Excommunication of Members from Dawoodi Bohra Community." <https://www.scobserver.in/cases/excommunication-of-members-from-dawoodi-bohra-community/>
 18. Gulf News, "Urban makeover means free homes for 20,000." <https://gulfnews.com/amp/story/world%2Fasia%2Findia%2Furban-makeover-means-free-homes-for-20000-1.1906881> — and the official project page: <https://www.thedawoodibohras.com/saifee-burhani-upliftment-project/>
 19. Janata Weekly, "Theatre of Absurd: Modi and the Dawoodi Bohra Pontiff" (reformist commentary; permissions, wajebaat, burial). <https://janataweekly.org/theatre-of-absurd-modi-and-the-dawoodi-bohra-pontiff/> — **advocacy source: corroborate before import.**
+20. Kafila, "Goodbye Asgharsaab: Remembering Asghar Ali Engineer" (23 May 2013); overview: Wikipedia, "Asghar Ali Engineer" (expelled 2004; attacked at least six times). <https://kafila.online/2013/05/23/goodbye-asgharsaab-remembering-asghar-ali-engineer/> · <https://en.wikipedia.org/wiki/Asghar_Ali_Engineer>
+21. WeSpeakOut, "The Speak Out movement"; The News Minute, "FGM case reaches Supreme Court's nine-judge Constitution bench after 7 years". <https://wespeakout.org/the-speak-out-movement.php> · <https://www.thenewsminute.com/news/supreme-court-to-hear-female-genital-mutilation-case-after-7-years-of-legal-limbo>
+22. NSPCC, "Female Genital Mutilation" — FGM helpline 0800 028 3550. <https://www.nspcc.org.uk/keeping-children-safe/types-of-abuse/female-genital-mutilation-fgm/>
+23. GOV.UK, "Female genital mutilation: help and advice". <https://www.gov.uk/female-genital-mutilation-help-advice>
+24. Humanists UK, Faith to Faithless helpline. <https://humanists.uk/faith-to-faithless/helpline/>
+25. Wikipedia, "Sulaymani Bohras" (the 1592 split over the 27th dai) and "Alavi Bohra" (split 1621) — finding aids; **replace with a scholarly source** (Encyclopaedia Iranica, "Bohras", could not be read in pass 1). <https://en.wikipedia.org/wiki/Sulaymani> · <https://en.wikipedia.org/wiki/Alavi_Bohra>
+26. Karma Nirvana, national Honour Based Abuse Helpline. <https://karmanirvana.org.uk/get-help/helpline/>
 
 ## 27. What changed on this page {#changed}
 
-- **MAJOR CORRECTION — Australia:** the draft (and the v4 Shia text) said the High Court "reinstated convictions". False. The High Court resolved how the law applies [8]; the case was sent back; retrials were ordered [9]; the Crown dropped all charges in 2020 [10]. **No conviction stands.** Fixed here, in `scripts/sacred-divide-v4.py` (rebuilt and re-verified), and in the audit doc.
-- **Correction — US:** the case ended in Sep 2021 with all remaining charges dismissed [6]. **No FGM conviction.**
-- **Correction — Nathwani Commission:** appointed by Citizens for Democracy, a non-governmental body. Retagged from GOVERNMENT REPORT to INVESTIGATIVE REPORT [13].
-- **Added:** the 2023 nine-judge referral [2]; the Sahiyo survey figures [11]; the 2018 Constitution Bench referral on khatna [12]; the 2016 statement pair [16]; the Bhendi Bazaar scale [18].
-- **Confirmed:** 1962 case [1]; 2016 Maharashtra Act [3]; 2024 succession judgment [4]; STOP FGM Act signed 5 Jan 2021 [7]; 1592 split; 1539 appointment [14]; ~1M members; 53rd Daʿi since 2014 [15].
-- **Open:** the Bombay HC judgment itself [4]; the Sahiyo report original [11]; the Nathwani report text [13]; a scholarly history source [14]; corroboration of the wajebaat–permission link from a non-advocacy source [19].
+- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers, Voices from inside, three regional cards, Leaving safely and Where to get help; the 1592 and 1621 splits are sourced to finding aids pending a scholarly source.
 

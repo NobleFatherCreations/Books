@@ -344,6 +344,13 @@ You may belong to one of the most generous, well-organized communities in this b
 17. Supreme Court Observer, "Excommunication of Members from Dawoodi Bohra Community." <https://www.scobserver.in/cases/excommunication-of-members-from-dawoodi-bohra-community/>
 18. Gulf News, "Urban makeover means free homes for 20,000." <https://gulfnews.com/amp/story/world%2Fasia%2Findia%2Furban-makeover-means-free-homes-for-20000-1.1906881> — and the official project page: <https://www.thedawoodibohras.com/saifee-burhani-upliftment-project/>
 19. Janata Weekly, "Theatre of Absurd: Modi and the Dawoodi Bohra Pontiff" (reformist commentary; permissions, wajebaat, burial). <https://janataweekly.org/theatre-of-absurd-modi-and-the-dawoodi-bohra-pontiff/> — **advocacy source: corroborate before import.**
+20. Kafila, "Goodbye Asgharsaab: Remembering Asghar Ali Engineer" (23 May 2013); overview: Wikipedia, "Asghar Ali Engineer" (expelled 2004; attacked at least six times). <https://kafila.online/2013/05/23/goodbye-asgharsaab-remembering-asghar-ali-engineer/> · <https://en.wikipedia.org/wiki/Asghar_Ali_Engineer>
+21. WeSpeakOut, "The Speak Out movement"; The News Minute, "FGM case reaches Supreme Court's nine-judge Constitution bench after 7 years". <https://wespeakout.org/the-speak-out-movement.php> · <https://www.thenewsminute.com/news/supreme-court-to-hear-female-genital-mutilation-case-after-7-years-of-legal-limbo>
+22. NSPCC, "Female Genital Mutilation" — FGM helpline 0800 028 3550. <https://www.nspcc.org.uk/keeping-children-safe/types-of-abuse/female-genital-mutilation-fgm/>
+23. GOV.UK, "Female genital mutilation: help and advice". <https://www.gov.uk/female-genital-mutilation-help-advice>
+24. Humanists UK, Faith to Faithless helpline. <https://humanists.uk/faith-to-faithless/helpline/>
+25. Wikipedia, "Sulaymani Bohras" (the 1592 split over the 27th dai) and "Alavi Bohra" (split 1621) — finding aids; **replace with a scholarly source** (Encyclopaedia Iranica, "Bohras", could not be read in pass 1). <https://en.wikipedia.org/wiki/Sulaymani> · <https://en.wikipedia.org/wiki/Alavi_Bohra>
+26. Karma Nirvana, national Honour Based Abuse Helpline. <https://karmanirvana.org.uk/get-help/helpline/>
 
 ## Fact-check log (pass 1, 2026-09-27)
 - **MAJOR CORRECTION — Australia:** the draft (and the v4 Shia text) said the High Court "reinstated convictions". False. The High Court resolved how the law applies [8]; the case was sent back; retrials were ordered [9]; the Crown dropped all charges in 2020 [10]. **No conviction stands.** Fixed here, in `scripts/sacred-divide-v4.py` (rebuilt and re-verified), and in the audit doc.
