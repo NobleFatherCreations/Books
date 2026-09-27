@@ -11,7 +11,7 @@ Legend: ✅ confirmed · ✏️ corrected · 🔹 interpretive · ⏳ open.
 
 ## Sources (reader-facing)
 
-1. China Daily, "Guidelines issued to tackle problems in commercialized religion" (23 Nov 2017 — twelve central departments bar companies from investing in, leasing or running Buddhist and Taoist venues; a 2012 ten-department notice had failed). https://www.chinadaily.com.cn/china/2017-11/23/content_34900081.htm
+1. Sixth Tone, "China Bans Big-Bucks Buddhism" (Nov 2017 — twelve central departments bar companies from investing in, leasing or running Buddhist and Taoist venues; a 2012 ten-department notice had failed). https://www.sixthtone.com/news/1001235/china-bans-big-bucks-buddhism
 2. South China Morning Post, "Worship but don't make profits, Beijing warns Buddhists and Taoists" (Nov 2017). https://www.scmp.com/news/china/society/article/2121326/beijing-tightens-grip-religion-ban-profit-making-activities
 3. PRC *Regulations on Religious Affairs* (revised 2017, in force Feb 2018) — registration of clergy and venues (China Law Translate). https://www.chinalawtranslate.com/en/religious-affairs-regulations-2017/
 4. Sina Finance, "中国道教协会新一届领导班子产生" (1 Jan 2026 — Li Guangfu re-elected president at the 11th national congress, 29–30 Dec 2025). https://finance.sina.com.cn/jjxw/2026-01-01/doc-inheumpq8504232.shtml
