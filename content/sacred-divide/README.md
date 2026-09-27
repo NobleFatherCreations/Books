@@ -1,0 +1,54 @@
+# The Sacred Divide — content compilation (pre-fact-check)
+
+**Status: DRAFT DATA, NOT PUBLISHABLE.** Compiled 2026-09-27 by the owner's
+choice to gather the content first, then fact-check it, then redesign.
+Nothing in this folder is in the live book. Every file must go through the
+fact-check phase in `docs/SACRED-DIVIDE-ULTIMATE-PROMPT.md` (Phase 2) before
+a single line is imported.
+
+## Files
+
+| File | What it is |
+|---|---|
+| `new-traditions/ahmadiyya.md` | New religion — Islam family |
+| `new-traditions/anglicanism.md` | New religion — Christianity family |
+| `new-traditions/oriental-orthodoxy.md` | New religion — Christianity family |
+| `new-traditions/dawoodi-bohra.md` | New religion — Islam family |
+| `new-traditions/unification-church.md` | New religion — New movements family |
+| `new-traditions/plymouth-brethren.md` | New religion — Christianity family |
+| `new-traditions/soka-gakkai.md` | New religion — Buddhism family |
+| `existing-traditions-additions.md` | New sections and missing material for the 27 religions already in the book |
+
+These seven are the Priority 1 list (in the analysis doc, fillable to the
+same depth as the existing 27). Priority 2 (Sufi Orders, Iglesia ni Cristo,
+Anabaptist & Plain, Shincheonji, Guru movements, Theravada monastic
+institutions, Christian Science, ICOC) comes after these pass fact-check.
+
+## Conventions (so the files import cleanly later)
+
+- **Same shape as the live data.** Each new-religion file follows the 33
+  fields of a `CODEX_DATA.religions` record, in the book's order, then the
+  cross-references (apex, unanswered question, sector defense, turning
+  points, compel, revise, phrasebook, regional cards, documented cases,
+  scorecard), then the 30 mechanisms with a grade, an example, the defense
+  and the counter.
+- **Receipt tags** as the book uses them: `[COURT RECORD]`,
+  `[GOVERNMENT REPORT]`, `[OFFICIAL POLICY]`, `[FINANCIAL RECORD]`,
+  `[REGULATORY FILING]`, `[ACADEMIC SOURCE]`, `[INVESTIGATIVE REPORT]`,
+  `[LEADERSHIP STATEMENT]`, `[FORMER MEMBER TESTIMONY]`,
+  `[PATTERN OBSERVED]`.
+- **`(verify)`** marks a specific fact (a date, number, name, ruling or
+  outcome) that was compiled from memory and must be confirmed against a
+  primary source. Treat every unmarked fact as *also* needing a source
+  citation. Unmarked means "high confidence", not "checked".
+- **Grades** use the book's vocabulary: Codified, Documented, Taught,
+  Cultural, Contested, Reformed, Ungraded. A grade here is a proposal.
+- **Naming rule:** public record only, offices before persons, nobody named
+  on an unadjudicated allegation, no private individuals. Composite "day"
+  characters are fictional and say so.
+- **Balance rule:** every file carries its healthy practice, its victories,
+  and its strongest defense conceded where it is right. Each one flags
+  where the record of harm is mostly *against* the community rather than
+  *by* its institutions.
+- **Insider reader:** each file names the kind of reviewer it needs before
+  publication.
