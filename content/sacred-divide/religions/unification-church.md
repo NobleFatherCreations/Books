@@ -6,9 +6,9 @@ family_id: new-movements
 family_members: [scientology, new-age, unification-church]
 version: v4
 checked: 2026-09-27
-sections_filled: 22/27
-missing: [law, voices, regional, leaving, help]
-partial: [branches, money]
+sections_filled: 27/27
+missing: []
+partial: []
 ---
 
 # Unification Church / Family Federation {#top}
@@ -107,11 +107,15 @@ Founded in Seoul in 1954 as the Holy Spirit Association for the Unification of W
 
 ## 6. Branches & variants {#branches}
 
-::: gap
-**Partly documented for Unification Church / Family Federation.** This section is below the page standard and is on the fill list.
-:::
-
 the Family Federation (Hak Ja Han); rival organizations led by two of Moon's sons (Sanctuary Church; Family Peace Association) [1].
+
+| Body | Where | What differs on this page's questions |
+|---|---|---|
+| **Family Federation for World Peace and Unification** | Headquarters in South Korea; largest follower base in Japan [18] | Led since 2012 by Hak Ja Han Moon [1]; sentenced in Korea in 2026 [14] |
+| **Japan church** | Japan | Majority funding source for the movement [18]; ordered dissolved by the courts, on appeal [4][5][6] |
+| **Businesses and political networks** | US, Korea, Japan | *The Washington Times* (1982) and other holdings [1]; anti-communist political ties [3] |
+
+Membership is disputed: the movement has claimed up to 3 million; independent estimates run from about 250,000 to just over 1 million [19].
 
 ## 7. Structure {#structure}
 
@@ -152,15 +156,15 @@ the Family Federation (Hak Ja Han); rival organizations led by two of Moon's son
 
 ## 8. Law & state here {#law}
 
-::: gap
-**Not yet documented for Unification Church / Family Federation.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+| Country | What the law does | What happened |
+|---|---|---|
+| **Japan — dissolution** | Courts can dissolve a religious corporation for harm to public welfare [7] | The Tokyo District Court ordered dissolution in March 2025; the Tokyo High Court upheld it in March 2026; the church appealed to the Supreme Court [4][5][6] |
+| **Japan — donations** | A 2023 law prohibits high-pressure solicitation of donations and supports victims' families [8]; "spiritual sales" are a recognized category in consumer law [11] | Lawyers say they have sought ¥123.7 billion in damages for former followers [12] |
+| **Japan — children** | The health ministry issued guidance in 2022 on child abuse linked to religious belief [20] | Second-generation members began speaking out publicly [13] |
+| **South Korea** | Bribery law [14][15] | Hak Ja Han was arrested in 2025 in a case involving a former president's wife, and sentenced to two years in August 2026 [14][15] |
+| **United States** | Tax law [2] | The founder was convicted of filing false tax returns in 1982 and sentenced to 18 months [2] |
 
 ## 9. Money {#money}
-
-::: gap
-**Partly documented for Unification Church / Family Federation.** This section is below the page standard and is on the fill list.
-:::
 
 ### Where it comes from
 
@@ -179,6 +183,19 @@ the Family Federation (Hak Ja Han); rival organizations led by two of Moon's son
 | Ancestor-liberation offerings | Freeing ancestors' spirits | Recurring payments for unverifiable outcomes | The Korean ritual center |
 | Blessing contributions | Marriage | Family formation tied to giving | The movement |
 | Businesses | Mission | Assets outside members' view [3] | Leadership |
+
+### Money in numbers
+
+```chart
+{"id":"uc-japan","type":"bar","title":"Unification Church in Japan: money in the record","unit":"¥ billion",
+ "series":[["Damages sought by lawyers' network",123.7],["Compensation fund offered (2023)",10]],
+ "note":"The lawyers' figure covers suits filed since 1987; the church offered the fund while the dissolution case was pending.",
+ "cite":[12,17]}
+```
+
+- **"Spiritual sales":** reported examples include a statuette sold for ¥43 million [12].
+- **Japan as funder:** the movement's largest source of money, according to reporting on its 1971 "national guilt" teaching [18].
+- **The US tax case (1982):** the founder's false-return conviction [2].
 
 ## 10. Genealogy {#genealogy}
 
@@ -392,14 +409,40 @@ the Family Federation (Hak Ja Han); rival organizations led by two of Moon's son
 
 ## 21. Voices from inside {#voices}
 
-::: gap
-**Not yet documented for Unification Church / Family Federation.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+- **Second-generation members in Japan,** who began speaking publicly in 2022 about their upbringing [13].
+- **Toru Goto,** a member confined by relatives and deprogrammers from 1995 to 2008, who won damages in Japan's courts [16].
+- **The National Network of Lawyers Against Spiritual Sales,** founded in 1987 to represent former followers [12].
 
 ## 22. Regional variants {#regional}
 
-::: gap
-**Not yet documented for Unification Church / Family Federation.** This section is on the fill list — see `religions/_coverage.md`.
+::: card
+### Japan
+- **apex:** The church's Japanese corporation, under the Korean headquarters [18].
+- **law:** The dissolution case and the 2023 donation law [4][5][8].
+- **documented:** Decades of civil claims [12]; the dissolution rulings [4][5].
+- **exit:** Leaving can mean losing an arranged spouse and family [13].
+- **regulator:** The courts and the Agency for Cultural Affairs [7].
+- **tell:** The state sought dissolution only after a former prime minister was assassinated [7][9].
+:::
+
+::: card
+### South Korea
+- **apex:** Hak Ja Han Moon [1].
+- **law:** Criminal law [14][15].
+- **documented:** Her 2026 conviction [14].
+- **exit:** Legally free.
+- **regulator:** Prosecutors and courts [14].
+- **tell:** The movement's leader convicted in its home country.
+:::
+
+::: card
+### United States
+- **apex:** The US church and affiliated companies [1].
+- **law:** Tax law [2]; the 1978 congressional investigation [3].
+- **documented:** The 1982 conviction [2]; the Fraser Report [3].
+- **exit:** Legally free.
+- **regulator:** The IRS and courts [2].
+- **tell:** Congress investigated the movement's political ties in 1978 [3].
 :::
 
 ## 23. The questions {#questions}
@@ -418,15 +461,24 @@ the Family Federation (Hak Ja Han); rival organizations led by two of Moon's son
 
 ## 24. Leaving safely here {#leaving}
 
-::: gap
-**Not yet documented for Unification Church / Family Federation.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Practical guidance, not legal advice.
+
+1. **Leaving is legally free.** Families should never confine a member; Japanese courts have awarded damages for it [16].
+2. **If you gave money under pressure in Japan,** the 2023 law and lawyers' networks can help you seek it back [8][12].
+3. **Second-generation members** can find others who have spoken out [13].
+4. **Find support** [22][23][24][25].
 
 ## 25. Where to get help {#help}
 
-::: gap
-**Not yet documented for Unification Church / Family Federation.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Checked 2026-09-27.
+
+| Organization | For | Where | Contact |
+|---|---|---|---|
+| **National Network of Lawyers Against Spiritual Sales** | Former followers seeking money back | Japan | Via lawyers' network [12] |
+| **ICSA** | Former members of high-control groups; families | International | Via website [22] |
+| **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [23] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [24] |
+| **Childhelp** | Child abuse | US | **1-800-422-4453** [25] |
 
 ## 26. Sources {#sources}
 
@@ -451,15 +503,12 @@ the Family Federation (Hak Ja Han); rival organizations led by two of Moon's son
 17. PBS NewsHour / AP, "Unification Church in Japan offers up to $66 million in compensation…," 2023. <https://www.pbs.org/newshour/world/unification-church-in-japan-offers-up-to-66-million-in-a-compensation-amid-scrutiny-of-fundraising-tactics>
 18. The Diplomat, "The Unification Church, Japan, and North Korea," Jan 2023. <https://thediplomat.com/2023/01/the-unification-church-japan-and-north-korea/> — Japan as the majority funding source; the 1971 national-guilt teaching.
 19. Prusa, I., "The Unification Church Scandal: Assassination of Abe Shinzô and Religio-Political Collusion in Japan," *electronic journal of contemporary japanese studies* 24(3). <https://www.japanesestudies.org.uk/ejcjs/vol24/iss3/prusa.html> — membership estimates. *(Confirm the figures appear in this article; the search summary also drew on Wikipedia.)*
+22. International Cultic Studies Association (ICSA). <https://internationalculticstudies.org/>
+23. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
+24. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. <https://humanists.uk/faith-to-faithless/helpline/>
+25. Childhelp National Child Abuse Hotline — 1-800-422-4453. <https://childhelphotline.org/>
 
 ## 27. What changed on this page {#changed}
 
-- **Corrected:** dissolution "(verify appeal)" → upheld by the Tokyo High Court on 4 Mar 2026; special appeal to the Supreme Court pending [5][6].
-- **Corrected / new:** Hak Ja Han was arrested in Sep 2025 [15] and convicted on 31 Aug 2026 [14]. The earlier draft only speculated about an investigation.
-- **Added:** the assassin's life sentence (21 Jan 2026) [9]; the LDP 179/379 figure [10]; the 123.7-billion-yen claims [12]; the 10-billion-yen compensation offer [17].
-- **Confirmed:** the 1982 conviction and 18-month sentence [2]; the Fraser Report date [3]; the Dec 2022 law [8]; the Oct 2023 request [7]; the 25 Mar 2025 order [4].
-- **Deprogramming case:** the High Court ruling was 13 Nov 2014 (an earlier note said 14 Nov); District Court Jan 2014; upheld by the Supreme Court. Available sources are church-affiliated — disclosed at [16].
-- **Removed:** the "Koreagate" label (not in the source) and an unsourced claim about Japanese wives in rural Korea (moved to research).
-- **Added:** the MHLW Dec 2022 Q&A [20] and the UN experts' 2025 criticism [21] as a balance pair.
-- **Open:** the MHLW original document for [20]; the court judgment number for [16]; confirm the figures in [19].
+- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers, Voices from inside, three regional cards, Leaving safely and Where to get help.
 

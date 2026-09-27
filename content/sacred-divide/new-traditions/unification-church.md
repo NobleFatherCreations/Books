@@ -356,6 +356,10 @@ You may have found here a family, a marriage, and a sense that your life fits in
 17. PBS NewsHour / AP, "Unification Church in Japan offers up to $66 million in compensation…," 2023. <https://www.pbs.org/newshour/world/unification-church-in-japan-offers-up-to-66-million-in-a-compensation-amid-scrutiny-of-fundraising-tactics>
 18. The Diplomat, "The Unification Church, Japan, and North Korea," Jan 2023. <https://thediplomat.com/2023/01/the-unification-church-japan-and-north-korea/> — Japan as the majority funding source; the 1971 national-guilt teaching.
 19. Prusa, I., "The Unification Church Scandal: Assassination of Abe Shinzô and Religio-Political Collusion in Japan," *electronic journal of contemporary japanese studies* 24(3). <https://www.japanesestudies.org.uk/ejcjs/vol24/iss3/prusa.html> — membership estimates. *(Confirm the figures appear in this article; the search summary also drew on Wikipedia.)*
+22. International Cultic Studies Association (ICSA). <https://internationalculticstudies.org/>
+23. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
+24. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. <https://humanists.uk/faith-to-faithless/helpline/>
+25. Childhelp National Child Abuse Hotline — 1-800-422-4453. <https://childhelphotline.org/>
 
 ## Fact-check log (pass 1, 2026-09-27)
 - **Corrected:** dissolution "(verify appeal)" → upheld by the Tokyo High Court on 4 Mar 2026; special appeal to the Supreme Court pending [5][6].
