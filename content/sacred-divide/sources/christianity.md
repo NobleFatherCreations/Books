@@ -32,6 +32,19 @@ Legend: ✅ confirmed · ✏️ corrected · 🔹 interpretive · ⏳ open.
 15. Pew Research Center, *Orthodox Christianity in the 21st Century* (2017) — ~260 million Orthodox Christians. https://www.pewresearch.org/religion/2017/11/08/orthodox-christianity-in-the-21st-century/
 16. *Encyclopaedia Britannica*, "Christianity" — chronology (Constantine's toleration 313; Theodosius' edict of 380; the seven councils 325–787; 1054; 1517). https://www.britannica.com/topic/Christianity
 
+### Added for the full page (2026-09-27)
+17. House of Lords Library, "Lords spiritual in the House of Lords explained" (26 bishops of the established church). https://lordslibrary.parliament.uk/lords-spiritual-in-the-house-of-lords-explained/
+18. katholisch.de, "6,09 Milliarden – Mehr Kirchensteuern für Evangelische Kirche 2025", and "Deutsche Bischofskonferenz veröffentlicht neue Kirchensteuer-Zahlen" (Catholic €6.75bn; total €12.84bn). https://katholisch.de/artikel/68672-609-milliarden-mehr-kirchensteuern-fuer-evangelische-kirche-2025 · https://katholisch.de/artikel/69365-deutsche-bischofskonferenz-veroeffentlicht-neue-kirchensteuer-zahlen
+19. *Christianity Today*, "Southern Baptists Refused to Act on Abuse, Despite Secret List of Pastors" (May 2022). https://www.christianitytoday.com/2022/05/southern-baptist-abuse-investigation-sbc-ec-legal-survivors/
+20. Baptist News Global, "Conflicts of interest and 'dual roles' undermined SBC abuse investigation" (2025). https://baptistnews.com/article/conflicts-of-interest-and-dual-roles-undermined-sbc-abuse-investigation/
+21. Recovering from Religion — helpline (844) 368-2848. https://www.recoveringfromreligion.org/
+22. Humanists UK, Faith to Faithless helpline — 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+23. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
+24. SNAP — Survivors Network of those Abused by Priests. https://www.snapnetwork.org/
+25. NAPAC — support line 0808 801 0331. https://napac.org.uk/calling-our-support-line/
+26. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/
+27. RAINN — National Sexual Assault Hotline, 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
+
 ---
 
 ## Claim register
