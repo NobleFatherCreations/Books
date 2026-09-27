@@ -37,6 +37,17 @@ Legend: ✅ confirmed · ✏️ corrected · 🔹 interpretive · ⏳ open.
 13. QuitMormon (Mark Naugle, founded 2015 — over 140,000 resignations filed by end-2024). https://www.mormonstories.org/mark-naugle-quitmormon-com/
 14. Religion News Service, "How the LDS Church is growing — and shrinking" (6 Apr 2026). https://religionnews.com/2026/04/06/how-the-lds-church-is-growing-and-shrinking/
 
+### Added with the full page (2026-09-27)
+15. Charity Commission for England and Wales, The Church of Jesus Christ of Latter-day Saints (Great Britain) (charity 242451), financial history 2020–2024. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/242451/financial-history
+16. Texas Department of Public Safety, "DPS statement regarding Warren Jeffs convictions" (9 Aug 2011) — life plus 20 years; seven other FLDS members convicted. https://www.dps.texas.gov/sites/default/files/documents/director_staff/public_information/2011/pr080911.pdf
+17. KUER, "Former Bishop Excommunicated From Mormon Church For Protesting Youth Interviews" (16 Sep 2018). https://www.kuer.org/religion/2018-09-16/former-bishop-excommunicated-from-mormon-church-for-protesting-youth-interviews
+18. ABC News, "Mormon Church Excommunicates Kate Kelly, Women's Rights Activist" (23 June 2014). https://abcnews.com/US/mormon-church-excommunicates-kate-kelly-womens-rights-activists/story?id=24264440
+19. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
+20. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+21. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
+22. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/
+23. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
+
 ---
 
 ## Claim register

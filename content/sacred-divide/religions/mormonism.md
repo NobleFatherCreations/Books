@@ -6,9 +6,9 @@ family_id: restorationist
 family_members: [mormonism, jehovahs-witnesses, seventh-day-adventism]
 version: v4
 checked: 2026-09-27
-sections_filled: 24/27
-missing: [voices, leaving, help]
-partial: [branches, cases, law, money]
+sections_filled: 27/27
+missing: []
+partial: []
 ---
 
 # Mormonism / LDS {#top}
@@ -145,11 +145,13 @@ Sources for this section: [1] [2] [4] [9] [11] [12]
 
 ## 6. Branches & variants {#branches}
 
-::: gap
-**Partly documented for Mormonism / LDS.** This section is below the page standard and is on the fill list.
-:::
-
 The Church of Jesus Christ of Latter-day Saints (the overwhelming majority); Community of Christ (formerly RLDS); fundamentalist polygamous groups (FLDS and others) that the main church disavows.
+
+| Branch | Size and place | What differs on this page's questions |
+|---|---|---|
+| **The Church of Jesus Christ of Latter-day Saints** | 17.9 million on the rolls (2025), headquartered in Salt Lake City [8] | A First Presidency and Quorum of the Twelve; tithing tied to temple access [6][10] |
+| **Community of Christ** (formerly RLDS) | Much smaller; Independence, Missouri | Separate since the succession dispute after Joseph Smith's death in 1844 [11] |
+| **Fundamentalist groups (FLDS and others)** | Utah, Arizona, Texas and elsewhere | Still practise polygamy, which the main church abandoned in 1890 [11]; the FLDS leader was sentenced in Texas in 2011 to life plus 20 years for child sexual assault [16] |
 
 ## 7. Structure {#structure}
 
@@ -209,19 +211,19 @@ Sources for this section: [1] [2] [4] [5] [6] [7] [8]
 
 ## 8. Law & state here {#law}
 
-::: gap
-**Partly documented for Mormonism / LDS.** This section is below the page standard and is on the fill list.
-:::
+| Country | What the law does | What happened |
+|---|---|---|
+| **United States — securities** | Investment managers must disclose large equity holdings on Form 13F [1] | The SEC found the church's investment arm hid its portfolio behind 13 shell companies from 1997 to 2019; penalties of $4m and $1m (2023) [1][2] |
+| **United States — Utah** | A 2024 law protects clergy who choose to report abuse; confessions remain privileged [3] | Clergy are still not required to report what they hear in confession [3] |
+| **United States — abuse reporting** | The church runs a help line for bishops staffed by its law firm [4] | An AP investigation and an Arizona lawsuit questioned whether it kept abuse from police; the church called the report a mischaracterization [4] |
+| **United States — Texas** | Child sexual assault prosecutions after the 2008 raid on the FLDS ranch [16] | Warren Jeffs and seven other FLDS members convicted [16] |
+| **United Kingdom** | The church's British charity files public accounts [15] | Its income and spending are public; the worldwide church's are not [1][15] |
 
 ### Who can compel an answer
 
 The SEC has already demonstrated who can compel here. Beyond it: state attorneys general, the IRS, and the courts. No internal body exists with the power — the sustaining vote has never once been a removal mechanism.
 
 ## 9. Money {#money}
-
-::: gap
-**Partly documented for Mormonism / LDS.** This section is below the page standard and is on the fill list.
-:::
 
 ### Where it comes from
 
@@ -292,6 +294,20 @@ The SEC has already demonstrated who can compel here. Beyond it: state attorneys
 ::: cites
 Sources for this section: [1] [2] [10]
 :::
+
+### Money in numbers
+
+```chart
+{"id":"lds-gb","type":"bar","title":"The Church of Jesus Christ of Latter-day Saints (Great Britain): income","unit":"£ million, years to 31 December",
+ "series":[["2020",38.15],["2021",49.76],["2022",51.37],["2023",66.23],["2024",87.83]],
+ "note":"The British charity only; almost all of it is donations. The worldwide church publishes no accounts.",
+ "cite":[15]}
+```
+
+- **The reserve:** by 2018 the portfolio the SEC found hidden had grown to about **$32 billion** [1].
+- **Penalties:** $4 million for Ensign Peak, $1 million for the church (2023) [1].
+- **Great Britain, 2024:** £84.93m of £87.83m income from donations; £61,000 on governance [15].
+- **Tithing:** paying a full tithe is a condition of the temple recommend [10].
 
 ## 10. Genealogy {#genealogy}
 
@@ -1206,10 +1222,6 @@ Sources for this section: [1] [2] [11]
 
 ## 19. Documented cases {#cases}
 
-::: gap
-**Partly documented for Mormonism / LDS.** This section is below the page standard and is on the fill list.
-:::
-
 ::: case
 ### SEC order against Ensign Peak Advisors
 
@@ -1234,6 +1246,36 @@ Sources for this section: [1] [2] [11]
 
 ::: cites
 Sources for this section: [1] [2] [13]
+:::
+
+::: case
+### The bishop who asked for a closed door to open (United States, 2018)
+- **when:** 2017–2018
+- **what:** Sam Young, a former bishop, campaigned for more than a year against one-on-one "worthiness" interviews in which bishops asked children and teenagers about their sexual behaviour, including a 23-day hunger strike [17].
+- **record:** KUER, 16 September 2018 [17]
+- **outcome:** He was excommunicated in September 2018 [17].
+- **tactics:** 17, 28, 30
+- **grade:** Documented
+:::
+
+::: case
+### Excommunicated for asking (United States, 2014)
+- **when:** 2014
+- **what:** Kate Kelly, founder of Ordain Women, led public campaigns for women's ordination to the priesthood [18].
+- **record:** ABC News, 23 June 2014 [18]
+- **outcome:** Excommunicated in absentia in June 2014 [18].
+- **tactics:** 17, 28
+- **grade:** Documented
+:::
+
+::: case
+### The September Six (United States, 1993)
+- **when:** 1993
+- **what:** Church leaders disciplined six scholars and feminists in one month — five excommunicated and one disfellowshipped — including the historian D. Michael Quinn [12].
+- **record:** *The Conversation* [12]
+- **outcome:** An episode that, in *The Conversation*'s words, continues to trouble the church [12].
+- **tactics:** 17, 28, 13
+- **grade:** Documented
 :::
 
 ## 20. Precedent {#precedent}
@@ -1261,9 +1303,10 @@ Member-facing audited financial statements — the practice that existed before 
 
 ## 21. Voices from inside {#voices}
 
-::: gap
-**Not yet documented for Mormonism / LDS.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+- **Sam Young.** Former bishop, excommunicated for campaigning against sexually explicit youth interviews [17].
+- **Kate Kelly.** Founder of Ordain Women, excommunicated in 2014 [18].
+- **D. Michael Quinn.** Historian, excommunicated in 1993 as one of the September Six [12].
+- **Mark Naugle.** A lawyer whose free service, QuitMormon, has filed more than 140,000 resignations since 2015 [13].
 
 ## 22. Regional variants {#regional}
 
@@ -1314,15 +1357,26 @@ Sources for this section: [1] [2]
 
 ## 24. Leaving safely here {#leaving}
 
-::: gap
-**Not yet documented for Mormonism / LDS.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Practical guidance, not legal advice.
+
+1. **You can resign by letter** without a disciplinary council; a lawyer's service can file it for you [13].
+2. **Stop tithing first** if money is a pressure point; the temple recommend depends on it [10].
+3. **Expect family costs,** especially around temple weddings, which only members holding a temple recommend can attend [10].
+4. **If a child is being interviewed alone,** you can refuse or ask to be present.
+5. **If you were abused,** go to the police first; clergy are not required to report what they hear in confession in Utah [3].
+6. **Find support** [19][20][21].
 
 ## 25. Where to get help {#help}
 
-::: gap
-**Not yet documented for Mormonism / LDS.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Checked 2026-09-27.
+
+| Organization | For | Where | Contact |
+|---|---|---|---|
+| **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [19] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [20] |
+| **ICSA** | Former members of high-control groups; families | International | Via website [21] |
+| **Childhelp** | Child abuse | US | **1-800-422-4453** [22] |
+| **RAINN** | Sexual assault | US | **1-800-656-4673** [23] |
 
 ## 26. Sources {#sources}
 
@@ -1346,10 +1400,18 @@ Sources for this section: [1] [2]
 13. QuitMormon (Mark Naugle, founded 2015 — over 140,000 resignations filed by end-2024). https://www.mormonstories.org/mark-naugle-quitmormon-com/
 14. Religion News Service, "How the LDS Church is growing — and shrinking" (6 Apr 2026). https://religionnews.com/2026/04/06/how-the-lds-church-is-growing-and-shrinking/
 
+### Added with the full page (2026-09-27)
+15. Charity Commission for England and Wales, The Church of Jesus Christ of Latter-day Saints (Great Britain) (charity 242451), financial history 2020–2024. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/242451/financial-history
+16. Texas Department of Public Safety, "DPS statement regarding Warren Jeffs convictions" (9 Aug 2011) — life plus 20 years; seven other FLDS members convicted. https://www.dps.texas.gov/sites/default/files/documents/director_staff/public_information/2011/pr080911.pdf
+17. KUER, "Former Bishop Excommunicated From Mormon Church For Protesting Youth Interviews" (16 Sep 2018). https://www.kuer.org/religion/2018-09-16/former-bishop-excommunicated-from-mormon-church-for-protesting-youth-interviews
+18. ABC News, "Mormon Church Excommunicates Kate Kelly, Women's Rights Activist" (23 June 2014). https://abcnews.com/US/mormon-church-excommunicates-kate-kelly-womens-rights-activists/story?id=24264440
+19. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
+20. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+21. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
+22. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/
+23. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
+
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — fact-check pass 1:** `apex.rows[2][1]` → `Presiding Bishop W. Christopher Waddell over temporal affairs (since November 2025); Ensign Peak manages the reserve the SEC found concealed behind thirteen shell companies`.
-- **2026-09-27 — fact-check pass 1:** `regional[0].law` third sentence → `Utah has not removed the clergy-penitent privilege; a 2024 law only protects clergy who choose to report.`
-- **2026-09-27 — fact-check pass 1:** `neutral` and `demographics.adherents` → `~17.9 million on the rolls (2025)`.
-- **2026-09-27 — fact-check pass 1:** `demographics.trend` first sentence → `Growth in the United States has slowed and youth retention has fallen; convert baptisms abroad rose sharply in 2025.`
+- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (British charity accounts 2020–2024), three more documented cases, Voices from inside, Leaving safely and Where to get help.
 
