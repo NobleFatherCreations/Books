@@ -3,14 +3,15 @@
 - **id:** `anglicanism`
 - **name:** Anglicanism / Church of England
 - **family:** Christianity
-- **status:** DRAFT, pre-fact-check
+- **status:** COMPLETE DRAFT · fact-check pass 1 done 2026-09-27 (log at the bottom)
+- **citations:** `[n]` → numbered **Sources** at the end.
 - **insider readers needed:** a serving parish priest; a member of General Synod's House of Laity; a survivor-advocate familiar with the Makin and IICSA reports; a reader from a Global South province
 - **the unusual thing about this page:** for most lay members this is one of the *lowest*-control traditions in the book. There is no shunning, giving is voluntary, and leaving costs nothing formal. The machinery on this page sits in three places: an established church fused with the state; a clergy whose home, income and vocation hang on one bishop's licence; and a safeguarding record that two independent reviews found protected the institution before children. Several rows should come out well, and the page must say so plainly (compare the Seventh-day Adventism page).
 
 ---
 
 ## neutral
-An estimated 85 million people in the Anglican Communion worldwide *(verify; the figure counts baptized affiliates, and active attendance is far lower)*, in around 42 self-governing member churches *(verify)*. The Church of England is the mother church and the established church of England. It is known for a liturgy shared through the Book of Common Prayer, for bishops in apostolic succession, for synodical government, and for holding catholic and protestant traditions in one body.
+About 85 million people in the Anglican Communion worldwide, in 42 member churches (provinces) [12]. The figure counts affiliates; active attendance is far lower (in England, 1.009 million regular worshippers in 2024 [10]). The Church of England is the mother church and the established church of England. It is known for a liturgy shared through the Book of Common Prayer, for bishops in apostolic succession, for synodical government, and for holding catholic and protestant traditions in one body.
 
 ## origin
 Formed when Henry VIII broke with Rome (Act of Supremacy, 1534), made the English crown head of the church, and dissolved the monasteries (1536–41). Doctrine was settled under Elizabeth I (1559 settlement; Thirty-Nine Articles, 1571). The church spread with the British Empire. The worldwide Communion took shape through the Lambeth Conferences from 1867. The member churches are autonomous: the Archbishop of Canterbury is a focus of unity, not a pope.
@@ -22,10 +23,10 @@ Formed when Henry VIII broke with Rome (Act of Supremacy, 1534), made the Englis
 - Parish clergy hold office under Common Tenure. A bishop's licence governs their ministry, their stipend and usually their home. [OFFICIAL POLICY]
 
 ## money
-- The Church Commissioners manage a historic endowment of roughly £10bn *(verify current figure)*, funding bishops, cathedrals, pre-1998 clergy pensions and mission. The accounts are published. [FINANCIAL RECORD]
+- The Church Commissioners manage a historic endowment of £11.1bn at the end of 2024, contributing around 20% of the Church of England's running costs; the accounts are published [5]. [FINANCIAL RECORD]
 - Parishes pay a "parish share" (common fund) to their diocese, largely to fund clergy stipends and housing. Dioceses publish accounts. [FINANCIAL RECORD]
 - Statutory fees for weddings and funerals are set by a Parochial Fees Order. [OFFICIAL POLICY]
-- In 2023 the Commissioners published research tracing part of the endowment's origin (Queen Anne's Bounty) to investment in the South Sea Company and the transatlantic slave trade, and announced a £100m fund. An oversight group later urged it be raised to £1bn *(verify)*. [FINANCIAL RECORD / OFFICIAL POLICY]
+- In January 2023 the Commissioners published research (by Grant Thornton) finding that Queen Anne's Bounty, a forerunner of the endowment, had invested in the South Sea Company while it traded enslaved Africans, and announced a £100m fund [6]. In March 2024 an independent oversight group urged a £1bn target, which the Commissioners accepted [7]. Some historians dispute the research's framing [6]. [FINANCIAL RECORD] [OFFICIAL POLICY]
 
 ## exit
 - For lay members: no formal exit cost. There is no shunning doctrine, no membership roll with sanctions, and giving is voluntary. This should be stated as a strength.
@@ -33,7 +34,7 @@ Formed when Henry VIII broke with Rome (Act of Supremacy, 1534), made the Englis
 - For families in church schools: admissions criteria can favor worshipping families, creating an attendance incentive tied to a child's school place. [OFFICIAL POLICY]
 
 ## whoBenefits
-- The institution's establishment status: bishops in Parliament, coronation, civic ritual, and a quarter of England's primary schools *(verify)*. [OFFICIAL POLICY]
+- The institution's establishment status: bishops in Parliament, coronation, civic ritual, and about 4,600 schools in England educating over a million children [11]. [OFFICIAL POLICY]
 - Senior clergy and the diocesan apparatus, historically protected by a culture of deference that two independent reviews named. [GOVERNMENT REPORT]
 - Endowment beneficiaries, including the historic investment returns now acknowledged as linked to slavery. [FINANCIAL RECORD]
 
@@ -54,14 +55,16 @@ Formed when Henry VIII broke with Rome (Act of Supremacy, 1534), made the Englis
 | 1919–70 | Church Assembly, then General Synod | The laity gain a formal vote. |
 | 1994 / 2014 | Women priests / women bishops | Reform by vote, over decades. |
 | 2008 | Blasphemy offences abolished in England and Wales | The state withdraws its criminal protection of the church. [OFFICIAL POLICY] |
-| 2015–17 | A bishop convicted of misconduct offences; the Gibb review *An Abuse of Faith* | Deference to rank documented. [COURT RECORD / GOVERNMENT REPORT] *(verify: the Gibb review was church-commissioned — tag accordingly)* |
-| 2020 | IICSA report on the Anglican Church | A statutory inquiry finds the church failed to protect children and put its reputation first. [GOVERNMENT REPORT] |
+| 2015–17 | Bishop Peter Ball convicted (2015) of misconduct in public office and indecent assaults; the church-commissioned Gibb review *An Abuse of Faith* (2017) finds the church colluded with him [4] | Deference to rank documented. [COURT RECORD] [INVESTIGATIVE REPORT — church-commissioned] |
+| 2020 | IICSA report [1] on the Anglican Church | A statutory inquiry finds the church failed to protect children and put its reputation first. [GOVERNMENT REPORT] |
 | 2023 | Independent Safeguarding Board disbanded; slavery-links report | Independence promised, then withdrawn under dispute. [OFFICIAL POLICY] |
-| 2024 | Makin Review into John Smyth; Archbishop of Canterbury resigns | The apex accepts responsibility for a failure to act. [GOVERNMENT REPORT — independent review] |
-| 2025–26 | New Archbishop of Canterbury *(verify name and dates)* | First woman in the office *(verify)*. |
+| 2024 | Makin Review [3] into John Smyth; Archbishop of Canterbury resigns | The apex accepts responsibility for a failure to act. [GOVERNMENT REPORT — independent review] |
+| 2025 | Independent redress scheme of £150m approved by Synod (Jul) [9]; Synod endorses an external scrutiny model for safeguarding (Feb) [8] | Money and structure, after the resignation. |
+| 2025–26 | Sarah Mullally named Archbishop of Canterbury (3 Oct 2025); installed 25 Mar 2026 [13]; GAFCON primates announce a break with the Communion (16 Oct 2025) [12] | The first woman in the office, and a split. |
+| Feb 2026 | Synod approves a new national safeguarding charity with a majority-independent board [8] | Independence, again promised, now structured. |
 
 ## demographics
-- **adherents:** Anglican Communion ~85M *(verify)*; Church of England weekly attendance around one million *(verify latest statistics)*.
+- **adherents:** Anglican Communion ~85M in 42 provinces [12]; Church of England: 1.009 million regular worshippers, 581,000 average Sunday attendance (2024) [10].
 - **regions:** England; Nigeria, Uganda and Kenya (the largest provinces by active membership); Australia, Canada, the US (Episcopal Church), South Africa, South Asia.
 - **branches:** evangelical, catholic (Anglo-Catholic) and liberal wings. The GAFCON / Global South realignment since 2008 has seen some provinces break or impair communion with Canterbury over sexuality.
 - **trend:** long decline in England; growth in parts of Africa.
@@ -69,21 +72,21 @@ Formed when Henry VIII broke with Rome (Act of Supremacy, 1534), made the Englis
 
 ## info
 - Not a closed information system: open theological debate, published reports, a free press. This should be recorded.
-- The documented information failure is institutional: the IICSA and Makin findings on knowledge held and not acted on, and records not shared with authorities. [GOVERNMENT REPORT]
+- The documented information failure is institutional: the IICSA [1] and Makin [3] findings on knowledge held and not acted on, and records not shared with authorities. [GOVERNMENT REPORT]
 
 ## children
-- Church schools educate around a million pupils in England *(verify)*; faith-based admissions criteria operate in voluntary-aided schools. [OFFICIAL POLICY]
-- Abuse in church settings (parishes, choirs, camps connected to church networks) and the church's handling of it were examined by IICSA and by the Makin Review. [GOVERNMENT REPORT]
-- In Canada, the Anglican Church ran residential schools for Indigenous children; the church apologized in 1993. [GOVERNMENT REPORT: Truth and Reconciliation Commission of Canada]
+- Church of England schools educate over a million children in about 4,600 schools [11]; faith-based admissions criteria operate in voluntary-aided schools. [OFFICIAL POLICY]
+- Abuse in church settings (parishes, choirs, camps connected to church networks) and the church's handling of it were examined by IICSA [1] and by the Makin Review [3]. [GOVERNMENT REPORT]
+- In Canada, the Anglican Church ran residential schools for Indigenous children; the church apologized in 1993 [18]. [GOVERNMENT REPORT: Truth and Reconciliation Commission of Canada]
 
 ## gender
 - Women can be priests and bishops, but the "five guiding principles" (2014) let parishes request male-only oversight, so a woman's ministry can be formally declined by a parish. [OFFICIAL POLICY]
 - Many Communion provinces do not ordain women. [OFFICIAL POLICY]
 
 ## LGBTQ (for the LGBTQ+ Codex row)
-- Clergy may not enter a same-sex marriage under House of Bishops guidance. A priest who did was refused a licence; the courts upheld the refusal *(verify: the Pemberton case, Court of Appeal 2018)*. [COURT RECORD]
+- Clergy may not enter a same-sex marriage under House of Bishops guidance. A priest who did was refused a licence; the Court of Appeal upheld the refusal under the Equality Act's occupational-requirement exception (*Pemberton v Inwood* [2018] EWCA Civ 564) [14]. [COURT RECORD]
 - Prayers of Love and Faith (2023) allowed blessings of same-sex couples in some services, prompting a realignment threat from GAFCON provinces. [OFFICIAL POLICY]
-- Some provinces have backed criminalizing laws *(verify: Church of Uganda leadership's position on the 2023 Act)*.
+- Some provinces have backed criminalizing laws: the Church of Uganda welcomed the Anti-Homosexuality Act 2023, while opposing its death penalty [15]; the Archbishop of Canterbury publicly criticized that support [15].
 
 ## moneyTable
 | Flow | Stated purpose | How it controls | Who benefits |
@@ -103,7 +106,7 @@ Formed when Henry VIII broke with Rome (Act of Supremacy, 1534), made the Englis
 | School place | Yes | Worship-based admissions | "Most places are open to all." |
 
 ## whoPays
-- Children abused in church settings whose reports were not acted on, per IICSA and the Makin Review. [GOVERNMENT REPORT]
+- Children abused in church settings whose reports were not acted on, per IICSA [1] and the Makin Review [3]. [GOVERNMENT REPORT]
 - Survivors who waited years for response and redress. [GOVERNMENT REPORT]
 - Clergy whose homes depend on a bishop's licence.
 - LGBTQ clergy and couples.
@@ -139,7 +142,7 @@ You may love your parish church: the building, the words of Evensong, the people
 3. **Deference to rank**
    - *Origin:* Hierarchical ecclesiology and class. [ACADEMIC SOURCE]
    - *Then:* Order and stability.
-   - *Expired?* IICSA and Makin found it protected abusers and silenced victims. It is now a documented harm.
+   - *Expired?* IICSA [1] and Makin [3] found it protected abusers and silenced victims. It is now a documented harm.
    - *Benefits now:* Senior figures, historically.
 
 ## cycle (the eight stages, as they appear here)
@@ -148,7 +151,7 @@ You may love your parish church: the building, the words of Evensong, the people
 | Idealize | Belonging through beauty, community and (in evangelical parishes) intensive courses and camps | Warmth is real. Who organized the space it happened in? |
 | Hook | Eternal life, and for clergy, a vocation confirmed by a bishop | The vocation is real. The licence is revocable. |
 | Devalue | Mild for laity. For clergy, parish-share targets and decline narratives. | Who is blamed for the numbers? |
-| Confuse | Survivors reporting abuse met with process, delay and reputation management (per IICSA and Makin) | Was the process for them, or for the institution? |
+| Confuse | Survivors reporting abuse met with process, delay and reputation management (per IICSA [1] and Makin [3]) | Was the process for them, or for the institution? |
 | Isolate | Weak for laity. Strong in closed church-linked camps and choir schools, historically. | Who could a child tell? |
 | Extract | Parish share, fees, the endowment's history, and unpaid lay labor that keeps buildings open | Who holds the title to the building your volunteers maintain? |
 | Discard | Clergy lose licence and home; survivors wait years | Home and work in one signature. |
@@ -175,8 +178,8 @@ You may love your parish church: the building, the words of Evensong, the people
 | Entity | Type | Holder | Holds | Sector | Receipt |
 |---|---|---|---|---|---|
 | Supreme Governor | Constitutional office | The monarch | Formal headship; appointment of bishops on advice | Establishment | [OFFICIAL POLICY] |
-| Archbishop of Canterbury | Primate of All England; Communion focus of unity | *(verify current holder)* | Leadership, Lambeth, appointments influence | National church and Communion | [OFFICIAL POLICY] |
-| Church Commissioners | Endowment manager | Board incl. the First Church Estates Commissioner *(verify)* | ~£10bn endowment | Clergy pensions, bishops, cathedrals | [FINANCIAL RECORD] |
+| Archbishop of Canterbury | Primate of All England; Communion focus of unity | Sarah Mullally (installed 25 Mar 2026) [13] | Leadership, Lambeth, appointments influence | National church and Communion | [OFFICIAL POLICY] |
+| Church Commissioners | Endowment manager | Board incl. the First Church Estates Commissioner (a Crown appointment) | £11.1bn endowment (end 2024) [5] | Clergy pensions, bishops, cathedrals | [FINANCIAL RECORD] |
 | General Synod | Legislature | Elected houses | Measures with force of law | Church law | [OFFICIAL POLICY] |
 | National Safeguarding Team | Safeguarding | Church-employed | Casework and policy | Every allegation | [OFFICIAL POLICY] |
 | Lords Spiritual | Legislative seats | 26 bishops | Votes on national law | Everyone's law | [OFFICIAL POLICY] |
@@ -184,8 +187,8 @@ You may love your parish church: the building, the words of Evensong, the people
 ## language (say versus do)
 | They say | The record shows | Receipt |
 |---|---|---|
-| "Safeguarding is our highest priority." | IICSA found the church's culture put its reputation first; the Makin Review found senior leaders knew and did not act. | [GOVERNMENT REPORT] |
-| "Independent oversight of safeguarding." | The Independent Safeguarding Board was disbanded in 2023 amid dispute. | [OFFICIAL POLICY] *(verify framing)* |
+| "Safeguarding is our highest priority." | IICSA [1] found the church's culture put its reputation first; the Makin Review [3] found senior leaders knew and did not act. | [GOVERNMENT REPORT] |
+| "Independent oversight of safeguarding." | The Independent Safeguarding Board was disbanded and its members dismissed in June 2023 [16]; a new independent charity was approved only in Feb 2026 [8]. | [OFFICIAL POLICY] |
 | "A church for everyone." | Clergy in same-sex marriages are refused licences. | [COURT RECORD] |
 
 ## tiers (the people who operate it)
@@ -208,8 +211,9 @@ You may love your parish church: the building, the words of Evensong, the people
 | What | Who | When | Cost |
 |---|---|---|---|
 | Women ordained priests, then bishops | Synod campaigners over decades | 1994 / 2014 | Decades; some departures |
-| Blasphemy offences abolished | Parliament, without church resistance *(verify)* | 2008 | — |
-| Archbishop resigns after the Makin Review | Survivors and campaigners | 2024 | Survivors' decades of pressure |
+| Blasphemy offences abolished | Parliament (Criminal Justice and Immigration Act 2008) | 2008 | — |
+| £150m redress scheme for abuse survivors | Survivors and Synod [9] | 2025 | Decades of waiting |
+| Archbishop resigns after the Makin Review [3] | Survivors and campaigners | 2024 | Survivors' decades of pressure |
 | Slavery-links research published, with a fund | Church Commissioners | 2023 | Ongoing dispute about scale |
 | Canadian apology for residential schools | Anglican Church of Canada | 1993 | Survivors' lifetimes |
 
@@ -219,12 +223,12 @@ You may love your parish church: the building, the words of Evensong, the people
 3. **Children:** Church schools and choirs recruit families before children can consent.
 4. **Aid:** Civic standing (schools, chaplaincies, food banks) sustains establishment privilege.
 5. **Labor:** Volunteers maintain buildings the diocese holds.
-6. **Scandal:** An archbishop resigns, a review is published, and the structural question of independent oversight is deferred *(verify current state)*.
+6. **Scandal:** An archbishop resigns, a review is published, and the structural question of independent oversight is deferred (ISB disbanded 2023 [16]; Model 3 endorsed 2025; independent charity approved 2026 [8]).
 7. **Persecution:** Largely absent in England. In the Communion, persecution of Anglicans elsewhere is real and is invoked in realignment disputes.
 
 ## chairHere
 - **Last ran:** An independent review found senior leaders knew of serious abuse and did not act for years. The Archbishop resigned.
-- **Chair now:** The new Archbishop of Canterbury and the National Safeguarding Steering Group *(verify)*.
+- **Chair now:** Archbishop Sarah Mullally [13] and the governance of the new national safeguarding charity [8].
 - **Predict:** Fully independent safeguarding will be promised again, phased, and partially delivered.
 
 ## day
@@ -234,7 +238,7 @@ You may love your parish church: the building, the words of Evensong, the people
 
 1. Morning Prayer at seven in the one church that still has heating. Two parishioners and the dog of one of them. She loves this more than any service in the diary, and would not be able to explain that to the diocese.
 2. The parish share letter arrives: the six parishes owe more than they raised last year. The letter is kind and mentions "sustainable patterns of ministry", which everybody knows means merging with the next benefice.
-3. At eleven, safeguarding training on a laptop in the vicarage kitchen. The module references the Makin Review. She thinks about the boy from her own university years who went to those camps, and stops thinking about it.
+3. At eleven, safeguarding training on a laptop in the vicarage kitchen. The module references the Makin Review [3]. She thinks about the boy from her own university years who went to those camps, and stops thinking about it.
 4. Lunch with a churchwarden who wants the roof fixed and the parish share cut, and who asks, not unkindly, whether the vicarage could be sold.
 5. A funeral at two: a man who had not been in church since his wedding. The family are grateful and pay the statutory fee, and she means every word of the committal.
 6. In the evening her husband asks what happens to them if the benefice merges. She says the diocese will find something. He asks where. She realizes she does not know whose decision the house is, and that it is not theirs.
@@ -250,7 +254,7 @@ You may love your parish church: the building, the words of Evensong, the people
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
 | Supreme Governor | The monarch | Hereditary succession | Parliament, by statute |
-| Archbishop of Canterbury | *(verify current holder)* | Crown Nominations Commission → PM → Crown | Resignation; no simple removal procedure *(verify)* |
+| Archbishop of Canterbury | Sarah Mullally, since 2026 [13] | Crown Nominations Commission → PM → Crown | Resignation (as in 2024 [3]); no removal procedure identified in pass 1 |
 | General Synod | Elected houses | Diocesan elections | Elections every five years |
 
 **tell:** This is one of the few apexes in the book that has been corrected from within in living memory. The question is whether the correction becomes structural.
@@ -260,16 +264,16 @@ You may love your parish church: the building, the words of Evensong, the people
 **sector defense**
 - *Attack:* "The church has apologized, commissioned reviews, and an archbishop resigned. What more do you want?"
 - *Concede:* More than most institutions in this book. That is recorded on this page as a strength.
-- *Answer:* Independent oversight, which both the church's own reviewers and the 2024 Jay review recommended *(verify)*, and which the church has repeatedly phased.
+- *Answer:* Independent oversight, which the 2024 Jay review recommended [8], and which the church phased (2025) before approving a new independent charity (2026) [8].
 
 **turning points**
 | Year | Title | What happened | Why it matters |
 |---|---|---|---|
 | 1534 | Supremacy | The crown takes headship of the church. | The origin of establishment. |
-| 2020 | The inquiry | IICSA's Anglican Church report. | A statutory body with compulsory powers found reputation came first. |
-| 2024 | The resignation | The Makin Review; the Archbishop resigns. | The apex bears responsibility, rarely seen anywhere in this book. |
+| 2020 | The inquiry | IICSA [1]'s Anglican Church report. | A statutory body with compulsory powers found reputation came first. |
+| 2024 | The resignation | The Makin Review [3]; the Archbishop resigns. | The apex bears responsibility, rarely seen anywhere in this book. |
 
-**compel:** IICSA (concluded); the Charity Commission, over church charities; employment tribunals and courts, over clergy; police and statutory agencies, on allegations; Parliament, on Measures.
+**compel:** IICSA [1] (concluded); the Charity Commission, over church charities; employment tribunals and courts, over clergy; police and statutory agencies, on allegations; Parliament, on Measures.
 
 **revise:** Statutory, fully independent safeguarding oversight would revise the page's central finding.
 
@@ -280,19 +284,19 @@ You may love your parish church: the building, the words of Evensong, the people
 | "Pastoral reorganization" | Legal process for merging benefices | Makes property decisions administrative | "The building is being decided about elsewhere." |
 | "Lessons learned" | Post-review language | Converts findings into a future tense | "Nobody is being held responsible now." |
 
-**regional cards:** England (establishment; IICSA; Makin); Canada (residential schools; the 1993 apology); Australia (Royal Commission Anglican case studies — *verify*); Uganda/Nigeria (realignment; state law on sexuality — *verify*).
+**regional cards:** England (establishment; IICSA [1]; Makin [3]); Canada (residential schools; the 1993 apology [18]); Australia (Royal Commission: 1,082 complainants about 1,115 alleged incidents, 1980–2015 [17]); Uganda/Nigeria (GAFCON realignment [12]; the Church of Uganda's support for the 2023 Act [15]).
 
 **documented cases**
-1. **IICSA — *The Anglican Church* investigation report (2020).** [GOVERNMENT REPORT]
-2. **Makin Review (2024)** — into the church's handling of a barrister's abuse of boys and young men connected to church camps; led to the Archbishop's resignation. [independent review — tag GOVERNMENT REPORT or INVESTIGATIVE REPORT per house rule]
-3. **Gibb, *An Abuse of Faith* (2017)** — handling of a bishop later convicted *(verify conviction details)*. [independent review]
-4. **Royal Commission into Institutional Responses to Child Sexual Abuse (Australia)** — Anglican case studies *(verify case-study numbers)*. [GOVERNMENT REPORT]
-5. **Clergy licence refusal after a same-sex marriage — Court of Appeal (2018)** *(verify citation)*. [COURT RECORD]
+1. **IICSA [1] — *The Anglican Church* investigation report (2020).** [GOVERNMENT REPORT]
+2. **Makin Review [3] (2024)** — into the church's handling of a barrister's abuse of boys and young men connected to church camps; led to the Archbishop's resignation. [independent review — tag GOVERNMENT REPORT or INVESTIGATIVE REPORT per house rule]
+3. **Gibb, *An Abuse of Faith* (2017)** — church-commissioned review of the handling of Bishop Peter Ball, convicted in 2015 of misconduct in public office and indecent assaults [4]. [INVESTIGATIVE REPORT]
+4. **Royal Commission into Institutional Responses to Child Sexual Abuse (Australia)** — Anglican data: 1,082 complainants, 1,115 alleged incidents (1980–2015); 22 of 23 dioceses received complaints [17]. [GOVERNMENT REPORT]
+5. ***Pemberton v Inwood* [2018] EWCA Civ 564** — licence refusal after a same-sex marriage upheld [14]. [COURT RECORD]
 
 **scorecard (proposed)**
 | Accounts | Pay | Safeguarding | External first | Removal | Reply |
 |---|---|---|---|---|---|
-| P | P? (bishops' stipends published — verify) | P | P? (policy directs to statutory agencies — verify) | N? | P? |
+| P [5] | P? (national stipend levels published; senior pay to confirm) | P | P? (post-IICSA [1] Code of Practice Measure — confirm wording) [2] | N | P? |
 
 ---
 
@@ -311,16 +315,16 @@ You may love your parish church: the building, the words of Evensong, the people
 | 9 | Moving the goalposts | Documented | Independent safeguarding promised, redesigned, phased. | "Getting it right takes time." | Survivors' time is the cost. |
 | 10 | Strategic ambiguity | Taught | Doctrinal breadth lets any position be "one tradition". | "Comprehensiveness." | Breadth also disperses responsibility. |
 | 11 | Projection | Cultural | Critics of process cast as hostile to the church. | "We welcome scrutiny." | Record who was answered, and when. |
-| 12 | DARVO | Documented | Complainants treated as reputational threats (per IICSA and Makin). | "Due process for the accused." | Due process is not a head start. |
+| 12 | DARVO | Documented | Complainants treated as reputational threats (per IICSA [1] and Makin [3]). | "Due process for the accused." | Due process is not a head start. |
 | 13 | Normalization | Documented | Deference to senior clergy normalized. | "Respect for office." | The reviews call it the problem. |
 | 14 | Isolation | Contested | Closed camps and choir environments, historically. | "Formative community." | Who could a child tell? |
 | 15 | Triangulation | Cultural | Complaints routed between parish, diocese and national bodies. | "Proper structures." | Three doors that open onto each other. |
 | 16 | Flying monkeys | Cultural (weak) | Congregational loyalty to accused clergy. | "Presumption of innocence." | Loyalty should not decide the case. |
-| 17 | Smear campaign | Contested | Survivors' credibility questioned in some cases *(verify examples)*. | "Allegations must be tested." | Tested, not discredited. |
-| 18 | Stonewalling | Documented | Delay in responding to survivors (IICSA). | "Complex cases." | Delay is itself a finding. |
+| 17 | Smear campaign | Contested | IICSA [1] found the church failed to take abuse seriously, and survivors' accounts were disbelieved in documented cases [1][4]. | "Allegations must be tested." | Tested, not discredited. |
+| 18 | Stonewalling | Documented | Delay in responding to survivors (IICSA [1]). | "Complex cases." | Delay is itself a finding. |
 | 19 | Manufactured consent | Contested | Clergy sign assent to doctrine and discipline with the house attached. | "Freely taken vows." | Freedom priced in housing. |
 | 20 | Trauma bonding | Ungraded | — | — | Research needed. |
-| 21 | Learned helplessness | Documented | Survivors' repeated failed complaints (IICSA). | "We are improving." | Improvement measured by whom? |
+| 21 | Learned helplessness | Documented | Survivors' repeated failed complaints (IICSA [1]). | "We are improving." | Improvement measured by whom? |
 | 22 | Benevolent control | Taught | Pastoral oversight of clergy lives. | "Care for clergy." | Care that controls a home is power. |
 | 23 | Infantilization | Cultural (weak) | Deference culture. | "Order." | Adults, not children, run parishes. |
 | 24 | Identity erosion | Contested | Clergy identity fused with the post. | "Vocation." | Vocation shouldn't make exit homelessness. |
@@ -330,3 +334,35 @@ You may love your parish church: the building, the words of Evensong, the people
 | 28 | Discard | Codified | Licence withdrawal ends ministry and home. | "Discipline is proportionate." | Two losses in one decision. |
 | 29 | Replacement | Cultural | Benefice merged, post re-advertised. | "Mission needs." | The structure is unaffected by the person. |
 | 30 | Plausible deniability | Documented | "A matter for the diocese." | "Dioceses are autonomous." | The reviews found knowledge at the top. |
+
+---
+
+## Sources
+
+1. Independent Inquiry into Child Sexual Abuse (IICSA), *The Anglican Church Investigation Report*, Oct 2020. <https://www.iicsa.org.uk/reports-recommendations/publications/investigation/anglican-church.html> — 390 convicted clergy or people in positions of trust (1940s–2018); failure to take abuse seriously.
+2. IICSA, "Inquiry's Anglican Church investigation leads to Church reform and new law." <https://www.iicsa.org.uk/news/inquirys-anglican-church-investigation-leads-church-reform-and-new-law> — the Safeguarding (Code of Practice) Measure.
+3. Keith Makin, *The Makin Review* (independent review into the Church of England's handling of John Smyth), published 7 Nov 2024; the Archbishop's resignation announced 12 Nov 2024. Church of England publication page — **to add URL**. Summary: Wikipedia, "Makin Review" <https://en.wikipedia.org/wiki/Makin_Review> (finding aid only).
+4. Dame Moira Gibb, *An Abuse of Faith: The Independent Peter Ball Review*, Jun 2017 (commissioned by the Church of England). <https://www.churchofengland.org/sites/default/files/2017-11/report-of-the-peter-ball-review-210617.pdf>
+5. Church of England, "Church Commissioners for England endowment fund delivers 10.3% return in 2024." <https://www.churchofengland.org/media/finance-news/church-commissioners-england-endowment-fund-delivers-103-return-2024> — £11.1bn; about 20% of running costs. (A later report puts the fund at £11.6bn: Civil Society, <https://www.civilsociety.co.uk/news/church-of-england-s-endowment-fund-grows-to-11-6bn.html> — update to the latest annual report at import.)
+6. Church of England, "Historic links to enslavement — FAQs." <https://www.churchofengland.org/about/governance/national-church-institutions/church-commissioners-england/who-we-are/historic-links-enslavement/frequently-asked-questions> — the Grant Thornton research and the £100m fund. Critique: History Reclaimed, <https://historyreclaimed.co.uk/church-commissioners-slavery-reparations/> (balance).
+7. Church Commissioners, *Oversight Group Recommendations* (Mar 2024). <https://www.churchofengland.org/sites/default/files/2024-03/church-commissioners-for-england-oversight-group-report-to-the-board-of-governors.pdf> — CNN, 4 Mar 2024: <https://www.cnn.com/2024/03/04/business/church-of-england-slavery-fund/index.html>
+8. Church of England, "Synod votes on next steps for independent safeguarding," Feb 2025. <https://www.churchofengland.org/media/press-releases/synod-votes-next-steps-independent-safeguarding> — and Episcopal News Service, "Church of England's General Synod approves motion to strengthen safeguarding," 11 Feb 2026. <https://episcopalnewsservice.org/2026/02/11/church-of-englands-general-synod-approves-motion-to-strengthen-safeguarding/>
+9. Anglican Ink, "Church of England General Synod approves £150 million redress scheme for abuse victims," 14 Jul 2025. <https://anglican.ink/2025/07/14/church-of-england-general-synod-approves-150-million-redress-scheme-for-abuse-victims/> — **upgrade to** the Church of England press release.
+10. Church of England, *Statistics for Mission 2024* press release. <https://www.churchofengland.org/media/press-releases/church-england-attendance-rises-fourth-year>
+11. Church of England, "Church schools and academies." <https://www.churchofengland.org/about/education-and-schools/church-schools-and-academies>
+12. Episcopal News Service, "GAFCON says its members will leave Anglican Communion to form rival network," 17 Oct 2025. <https://episcopalnewsservice.org/2025/10/17/gafcon-says-its-members-will-leave-anglican-communion-to-form-rival-network/> — the 85M / 42 provinces figures appear in Communion descriptions; **cite the Anglican Communion Office** at import.
+13. Episcopal News Service, "Archbishop of Canterbury Sarah Mullally installed…," 25 Mar 2026. <https://episcopalnewsservice.org/2026/03/25/anglican-leaders-gather-for-installation-of-archbishop-of-canterbury-sarah-mullally/> — and Religion News Service, 3 Oct 2025: <https://religionnews.com/2025/10/03/in-historic-appointment-sarah-mullally-will-be-the-first-female-archbishop-of-canterbury/>
+14. *Pemberton v Inwood* [2018] EWCA Civ 564 — summary: Law & Religion UK, 23 Mar 2018. <https://lawandreligionuk.com/2018/03/23/same-sex-marriage-and-c-of-e-clergy-pemberton-v-inwood/> — **add** the BAILII judgment link.
+15. Archbishop of Canterbury, "Statement on the Church of Uganda's support for Anti-Homosexuality Act." <https://www.archbishopofcanterbury.org/news/news-and-statements/statement-church-ugandas-support-anti-homosexuality-act> — Episcopal News Service, 31 May 2023: <https://episcopalnewsservice.org/2023/05/31/anglican-archbishop-thanks-ugandas-leaders-for-nations-harsh-new-anti-lgbtq-law/>
+16. Church Times, "Independent Safeguarding Board disbanded and its members sacked as Church 'resets'," 23 Jun 2023. <https://www.churchtimes.co.uk/articles/2023/23-june/news/uk/independent-safeguarding-board-disbanded-and-its-members-sacked-as-church-resets>
+17. ABC News (Australia), "Anglican Church 'deeply ashamed' about 1,000 complaints of child sex abuse, royal commission hears," 18 Mar 2017. <https://www.abc.net.au/news/2017-03-18/anglican-church-ashamed-child-sex-abuse-royal-commission/8363126> — **add** the Royal Commission data report.
+18. Anglican Church of Canada, "Full text … of the 1993 Apology to Native Peoples" (Archbishop Michael Peers, 6 Aug 1993). <https://www.anglican.ca/reconciliation/accountability/apology-1993/>
+
+## Fact-check log (pass 1, 2026-09-27)
+- **Updated:** Archbishop of Canterbury is Sarah Mullally (named 3 Oct 2025; installed 25 Mar 2026) [13]; GAFCON's Oct 2025 break [12].
+- **Updated:** endowment £10bn → £11.1bn (end 2024) [5].
+- **Added:** the £150m redress scheme (2025) [9]; the Feb 2025 and Feb 2026 Synod safeguarding votes [8]; the £1bn oversight-group target and the historians' dispute [6][7]; Australian Royal Commission figures [17].
+- **Confirmed:** IICSA 2020 [1]; Makin 7 Nov 2024 and resignation 12 Nov 2024 [3]; Gibb 2017 and the Ball conviction 2015 [4]; *Pemberton* 2018 [14]; Uganda's position [15]; ISB disbanded Jun 2023 [16]; 1993 Canadian apology [18]; about 4,600 schools and over 1M pupils [11].
+- **Softened:** "blasphemy abolished without church resistance" → removed the unsourced clause.
+- **Open:** BAILII link for [14]; the Makin Review page URL [3]; Anglican Communion Office source for the 85M figure [12]; the Royal Commission primary data [17].
+
