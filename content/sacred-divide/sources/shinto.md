@@ -16,13 +16,13 @@ Legend: ✅ confirmed · ✏️ corrected · 🔹 interpretive · ⏳ open.
 
 ### Courts
 1. Diamond Online, 「神社本庁が全面敗訴、『内部告発者の懲戒解雇は無効』」 (Mar 2021 — Tokyo District Court voids the disciplinary dismissal of the staff who questioned the 2015 sale of a Kawasaki dormitory; upheld by the Tokyo High Court, Sept 2021; Supreme Court refused appeal, 21 Apr 2022). https://diamond.jp/articles/-/266171
-2. Jiji Press, 「『総長』認めぬ判決確定 人事巡り神社本庁勝訴―最高裁」 (3 Oct 2024 — the rival claimant's case finally rejected). https://www.jiji.com/jc/article?k=2024100300679&g=soc
+2. Tokyo Shimbun, 「神社本庁で前代未聞の内紛 2人が『次期総長』を主張」 (2022–23 background); the rival claim was finally rejected by the Supreme Court on 2 Oct 2024 (see the Jinja Honcho notice, source 3). https://www.tokyo-np.co.jp/article/220715
 3. Jinja Honcho, 「総長指名に関するお知らせ（判決確定及びその後の状況について）」 (official notice after the ruling). https://www.jinjahoncho.or.jp/news/detail/26
 4. Supreme Court of Japan, Ehime *tamagushi* case (Grand Bench, 2 Apr 1997 — public offerings to Yasukuni unconstitutional) and Sorachibuto Shrine case (Grand Bench, 20 Jan 2010 — free municipal land for a shrine unconstitutional) — Japan Times editorial. https://www.japantimes.co.jp/opinion/2010/01/26/editorials/religious-sites-on-public-land/
 
 ### Law and history
 5. Shinto Directive, SCAP (15 Dec 1945), and the Emperor's New Year rescript (1 Jan 1946) — Britannica, "State Shinto". https://www.britannica.com/topic/State-Shinto
-6. Constitution of Japan (1947), Articles 20 and 89 — separation of religion and state. https://japan.kantei.go.jp/constitution_and_government_of_japan/constitution_e.html
+6. Constitution of Japan (1947), Articles 20 and 89 — separation of religion and state. https://www.constituteproject.org/constitution/Japan_1946
 7. *Encyclopaedia Britannica*, "Shinto" — Kojiki (712), Nihon Shoki (720); shinbutsu-shūgō; shinbutsu bunri (1868); Yasukuni (founded 1869); Jinja Honcho (1946); ~80,000 shrines. https://www.britannica.com/topic/Shinto
 8. Nippon.com, "Ultranationalism Lingers Within Shintō's Shadowy Leadership" (Shinto Seiji Renmei, founded 1969; constitutional revision lobbying). https://www.nippon.com/en/in-depth/d01143/
 9. Yasukuni's enshrinement of 14 Class-A war criminals (1978, revealed 1979) — Britannica, "Yasukuni Shrine". https://www.britannica.com/topic/Yasukuni-Shrine
