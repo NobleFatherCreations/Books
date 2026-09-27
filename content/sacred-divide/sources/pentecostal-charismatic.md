@@ -32,6 +32,19 @@ Legend: ✅ confirmed · ✏️ corrected · 🔹 interpretive/pattern · ⏳ op
 19. UNICEF, *Children Accused of Witchcraft: An anthropological study of contemporary practices in Africa* (A. Cimpric, 2010). https://www.unicef.org/nigeria/reports/children-accused-witchcraft
 18. Officeholders (Adeboye, Oyedepo, Macedo in office 2026) — see `_officeholders.md`.
 
+### Added with the full page (2026-09-27)
+20. Charity Commission for England and Wales, Hillsong Church London (charity 1120355), financial history 2020–2024. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/4019447/financial-history
+21. Charity Commission for England and Wales, Kingsway International Christian Centre (charity 1102114), financial history 2021–2025. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/4006064/financial-history
+22. Hillsong Church, "A statement by Hillsong Church in response to the legal proceedings commenced by Anna Crenshaw" (3 May 2024). https://hillsong.com/newsroom/blog/2024/05/a-statement-by-hillsong-church-in-response-to-the-legal-proceedings-commenced-by-anna-crenshaw/
+23. The Gospel Coalition, review of Costi Hinn, *God, Greed, and the (Prosperity) Gospel* (Zondervan, 2019). https://www.thegospelcoalition.org/reviews/god-greed-prosperity-gospel/
+24. *Christian Today*, "Benny Hinn's nephew slams prosperity gospel, reveals why he left affluent lifestyle behind" (10 Apr 2018). https://www.christiantoday.com/news/benny-hinns-nephew-slams-prosperity-gospel-reveals-why-he-left-affluent-lifestyle-behind
+25. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
+26. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+27. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
+28. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
+29. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/
+30. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
+
 ---
 
 ## Claim register
