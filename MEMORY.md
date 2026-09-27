@@ -3454,3 +3454,38 @@ flags, naming and balance rules):
   (law & state, money in numbers, new cases, voices, help, fixes).
 Nothing here is in the book. Next step per the owner: the fact-check phase
 of `docs/SACRED-DIVIDE-ULTIMATE-PROMPT.md`, run on these files.
+
+## Update (2026-09-27, fact-check pass 1) — The Sacred Divide source pages
+
+Owner asked for a deep fact-check plus **a source page per religion** (a numbered
+bottom section readers can verify against). Structure, in `content/sacred-divide/`:
+- `new-traditions/<id>.md` — the seven new religions, complete, each with numbered
+  Sources and a Fact-check log (pass 1 done earlier today).
+- `sources/<id>.md` — one per existing religion: Sources (reader-facing), Claim
+  register (✅/✏️/🔹/⏳), Corrections for the next build, verdicts on the additions leads.
+- `sources/_inventory/` — `scripts/sacred-divide-claims.py` output: every factual sentence
+  per religion from the v4 candidate (7,214 checkable). Regenerate, never hand-edit.
+- `sources/_officeholders.md` — every named sitting holder; **re-run every release.**
+
+**Done (9 of 27):** islam, sunni-islam, shia-islam, christianity, catholicism,
+eastern-orthodoxy, protestant-evangelical (+ officeholder sweep across all 27).
+**Remaining (18):** pentecostal-charismatic, judaism, orthodox-hasidic-judaism, hinduism,
+buddhism, tibetan-buddhism, sikhism, jainism, taoism, confucianism, shinto, zoroastrianism,
+bahai, mormonism, seventh-day-adventism, jehovahs-witnesses, scientology, hare-krishna,
+new-age, indigenous. Then apply every "Corrections" list in a v5 build of
+`scripts/sacred-divide-v4.py`, rebuild, and re-verify.
+
+**Book errors found so far (must fix before any deploy):**
+- Ali Khamenei killed 28 Feb 2026; **Mojtaba Khamenei** Supreme Leader since 9 Mar 2026.
+- al-Azhar's Grand Imam is irremovable (2014 Constitution, Art. 7), chosen by the
+  Council of Senior Scholars since 2012 — the book says the state removes him.
+- Becciu verdict under partial retrial (appeals ruling 17 Mar 2026; retrial from June).
+- Poland: the bishops' abuse figures (Mar 2019) came before *Tell No One*, not after.
+- SBC abuser database was **never launched**, shelved Feb 2025 (book says it exists, 3×).
+- Diyanet head is Safi Arpaguş (Sept 2025); JW Governing Body is eleven men, not nine.
+- ~24 reader-visible "(verify …)" notes in the book; 9 resolved so far.
+- US *Chiles v. Salazar* (31 Mar 2026) changes the conversion-therapy sentence.
+
+**Session limit hit:** this session used its 200-WebSearch cap partway through.
+Continuing needs a fresh session or a raised `CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION`.
+Link checking: `curl` every URL; 403/406 from bot-blocking sites is expected, 404 must be fixed.
