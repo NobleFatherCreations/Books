@@ -6,9 +6,9 @@ family_id: indigenous-family
 family_members: [indigenous]
 version: v4
 checked: 2026-09-27
-sections_filled: 23/27
-missing: [voices, regional, leaving, help]
-partial: [branches, cases, law, money]
+sections_filled: 27/27
+missing: []
+partial: []
 ---
 
 # Indigenous / Folk / Ancestral Religions {#top}
@@ -144,11 +144,16 @@ Sources for this section: [1] [2] [4] [5] [6] [7] [8] [9]
 
 ## 6. Branches & variants {#branches}
 
-::: gap
-**Partly documented for Indigenous / Folk / Ancestral Religions.** This section is below the page standard and is on the fill list.
-:::
-
 Not branches but thousands of distinct nations, languages, and lineages — treating them as one category is itself a colonial artifact this codex acknowledges while using the grouping for practical structure.
+
+Not branches but thousands of distinct nations, languages and lineages. The groupings below are only for navigation.
+
+| Region | Examples | On this page's questions |
+|---|---|---|
+| **North America** | First Nations, Métis, Inuit; Native American and Alaska Native nations | Residential and boarding schools [1][13]; the 1883 ban on ceremonies, lifted by the 1978 Religious Freedom Act [5] |
+| **Australia** | Aboriginal and Torres Strait Islander peoples | Forcible child removals, c. 1910–1970 [4] |
+| **Latin America** | Andean and Amazonian traditions | Ayahuasca tourism and its risks (see New Age) |
+| **Africa and elsewhere** | Ancestral and folk religions | Witchcraft accusations against children [11]; FGM where practised [10] |
 
 ## 7. Structure {#structure}
 
@@ -200,19 +205,19 @@ Sources for this section: [5]
 
 ## 8. Law & state here {#law}
 
-::: gap
-**Partly documented for Indigenous / Folk / Ancestral Religions.** This section is below the page standard and is on the fill list.
-:::
+| Country | What the law does | What happened |
+|---|---|---|
+| **Canada** | The Indian Residential Schools Settlement; a Truth and Reconciliation Commission [1] | The TRC called the system "cultural genocide" and recorded about 3,200 deaths (2015) [1][2]; the Pope apologized in 2022 [14] |
+| **United States** | The 1883 Code of Indian Offenses outlawed ceremonies [5]; the American Indian Religious Freedom Act (1978) and NAGPRA (1990) reversed course [5][6] | The Interior Department confirmed at least 973 children died at 417 federal boarding schools (2024) [13] |
+| **Australia** | A national inquiry into child removals [4] | *Bringing Them Home* was tabled in 1997 [4] |
+| **International** | The UN Declaration on the Rights of Indigenous Peoples (2007) [7] | A standard, not a court |
+| **Appropriation** | Ordinary criminal and consumer law [9] | A self-help teacher was convicted over three deaths at a sweat lodge he ran for paying clients (2011) [9] |
 
 ### Who can compel an answer
 
 This entry refuses the general form of the question, because outside compulsion is the historical wound itself. For frauds selling ceremony to outsiders: consumer-protection law, and the communities' own public repudiations — which are the authority that actually matters.
 
 ## 9. Money {#money}
-
-::: gap
-**Partly documented for Indigenous / Folk / Ancestral Religions.** This section is below the page standard and is on the fill list.
-:::
 
 ### Where it comes from
 
@@ -240,6 +245,12 @@ This entry refuses the general form of the question, because outside compulsion 
 
 **Hidden.** Safety record, training, and benefit-sharing
 :::
+
+### Money in numbers
+
+- **United States:** the government appropriated more than **$23.3 billion** (in 2023 dollars) between 1871 and 1969 for the boarding-school system and related assimilation policies [13].
+- **Canada — the churches:** Catholic entities were released in 2015 from a $25 million fundraising pledge after raising under $4 million, and re-pledged $30 million in 2021 [3]; in 2022 the church said dioceses and orders had paid $50 million [14].
+- **Ceremony for sale:** ayahuasca retreats and paid sweat lodges (see New Age) [9].
 
 ## 10. Genealogy {#genealogy}
 
@@ -1134,10 +1145,6 @@ This is the one tradition where the persecution loop's premise is overwhelming �
 
 ## 19. Documented cases {#cases}
 
-::: gap
-**Partly documented for Indigenous / Folk / Ancestral Religions.** This section is below the page standard and is on the fill list.
-:::
-
 ::: case
 ### Truth and Reconciliation Commission of Canada
 
@@ -1151,6 +1158,46 @@ This is the one tradition where the persecution loop's premise is overwhelming �
 
 ::: cites
 Sources for this section: [1] [2] [3]
+:::
+
+::: case
+### The boarding-school count (United States, 2022–2024)
+- **when:** 2022–2024
+- **what:** The Interior Department's investigation identified 417 federal Indian boarding schools in 37 states or territories, at least 74 burial sites, and at least 973 children who died while attending [13].
+- **record:** *Federal Indian Boarding School Initiative Investigative Report*, Vol. II (July 2024) [13]
+- **outcome:** The department reviewed about 103 million pages of records and held listening sessions with survivors at 12 locations [13].
+- **tactics:** 14, 24, 23
+- **grade:** Documented
+:::
+
+::: case
+### "Bringing Them Home" (Australia, 1997)
+- **when:** 1997
+- **what:** A national inquiry documented the forcible removal of Aboriginal and Torres Strait Islander children from their families, c. 1910–1970 [4].
+- **record:** Australian Human Rights Commission, *Bringing Them Home* (tabled 26 May 1997) [4]
+- **outcome:** The "Stolen Generations" became part of the national record [4].
+- **tactics:** 14, 24
+- **grade:** Documented
+:::
+
+::: case
+### A papal apology (Canada, 2022)
+- **when:** 2022
+- **what:** Speaking at Maskwacis, Alberta, near a former residential school, Pope Francis said: "I humbly beg forgiveness for the evil committed by so many Christians against the Indigenous peoples" [14].
+- **record:** NPR, 25 July 2022 [14]
+- **outcome:** An apology seven years after the TRC's final report; the church's financial record is set out above [1][3][14].
+- **tactics:** 30
+- **grade:** Documented
+:::
+
+::: case
+### Ceremony sold, three dead (United States, 2009–2011)
+- **when:** 2009–2011
+- **what:** James Arthur Ray ran a sweat lodge for paying participants at a Sedona retreat; three died [9].
+- **record:** *State of Arizona v. James Arthur Ray* [9]
+- **outcome:** Convicted of negligent homicide in 2011 [9]; Lakota leaders had condemned the sale of their ceremonies in 1993 [8].
+- **tactics:** 1, 3
+- **grade:** Documented
 :::
 
 ## 20. Precedent {#precedent}
@@ -1175,14 +1222,41 @@ Sources for this section: [1] [2] [6] [7] [8]
 
 ## 21. Voices from inside {#voices}
 
-::: gap
-**Not yet documented for Indigenous / Folk / Ancestral Religions.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+- **The Lakota Summit V,** whose 1993 declaration condemned outsiders who sell Lakota spirituality [8].
+- **The survivors who spoke to the TRC,** whose testimony made the "cultural genocide" finding [1][2].
+- **The survivors heard in the US listening sessions,** at 12 locations, quoted in the Interior report [13].
+- **The families of the National Inquiry into Missing and Murdered Indigenous Women and Girls** [12].
 
 ## 22. Regional variants {#regional}
 
-::: gap
-**Not yet documented for Indigenous / Folk / Ancestral Religions.** This section is on the fill list — see `religions/_coverage.md`.
+::: card
+### Canada
+- **apex:** Each nation's own governance.
+- **law:** The residential-schools settlement and the TRC [1].
+- **documented:** The TRC's final report [1]; the 2022 papal apology [14]; the MMIWG inquiry [12].
+- **exit:** —
+- **regulator:** Courts and the federal government [1][3].
+- **tell:** The harm was done by church and state together [1].
+:::
+
+::: card
+### United States
+- **apex:** Each tribal nation's own governance.
+- **law:** The 1978 Religious Freedom Act and NAGPRA [5][6].
+- **documented:** The 2024 boarding-school report [13].
+- **exit:** —
+- **regulator:** Federal courts and tribal governments.
+- **tell:** More than $23.3 billion (in 2023 dollars) went to the boarding schools and related assimilation policies [13].
+:::
+
+::: card
+### Australia
+- **apex:** Community and land councils.
+- **law:** The *Bringing Them Home* inquiry [4].
+- **documented:** The Stolen Generations [4].
+- **exit:** —
+- **regulator:** —
+- **tell:** Removal policy ran for about sixty years [4].
 :::
 
 ## 23. The questions {#questions}
@@ -1202,15 +1276,22 @@ And still: sovereignty means governing yourselves, which includes the authority 
 
 ## 24. Leaving safely here {#leaving}
 
-::: gap
-**Not yet documented for Indigenous / Folk / Ancestral Religions.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Practical guidance, not legal advice.
+
+1. **For survivors of residential and boarding schools and their families,** Indigenous crisis lines exist [15][16].
+2. **For outsiders:** if a "ceremony" is for sale to anyone who pays, the communities themselves have said it is not theirs to sell [8].
+3. **If a practice harms a child** (FGM, witchcraft accusations), child-protection law applies everywhere [10][11].
+4. **Domestic violence support** run by and for Native people is available in the US [17].
 
 ## 25. Where to get help {#help}
 
-::: gap
-**Not yet documented for Indigenous / Folk / Ancestral Religions.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Checked 2026-09-27.
+
+| Organization | For | Where | Contact |
+|---|---|---|---|
+| **Hope for Wellness Helpline** | Indigenous people, 24/7 | Canada | **1-855-242-3310** [15] |
+| **13YARN** | Aboriginal and Torres Strait Islander people in crisis, 24/7 | Australia | **13 92 76** [16] |
+| **StrongHearts Native Helpline** | Domestic and sexual violence | US | **1-844-762-8483** [17] |
 
 ## 26. Sources {#sources}
 
@@ -1227,8 +1308,14 @@ And still: sovereignty means governing yourselves, which includes the authority 
 11. UNICEF, *Children Accused of Witchcraft* (2010). https://www.unicef.org/nigeria/reports/children-accused-witchcraft
 12. National Inquiry into Missing and Murdered Indigenous Women and Girls (Canada), *Reclaiming Power and Place* (2019). https://www.mmiwg-ffada.ca/final-report/
 
+### Added with the full page (2026-09-27)
+13. US Department of the Interior, *Federal Indian Boarding School Initiative Investigative Report*, Vol. II (30 July 2024) — 417 schools; at least 973 deaths; at least 74 burial sites; more than $23.3bn in appropriations (FY23 dollars), 1871–1969. https://www.bia.gov/sites/default/files/media_document/doi_federal_indian_boarding_school_initiative_investigative_report_vii_final_508_compliant.pdf
+14. NPR, "Pope apologizes for 'evil' committed at Canada's Indigenous residential schools" (25 July 2022). https://www.npr.org/2022/07/25/1113498723/pope-francis-apology-canada-residential-schools-indigenous-children
+15. Indigenous Services Canada, Hope for Wellness Helpline — 1-855-242-3310, 24/7. https://www.sac-isc.gc.ca/eng/1576089519527/1576089566478
+16. 13YARN — 13 92 76, 24/7 crisis support for Aboriginal and Torres Strait Islander people. https://www.13yarn.org.au/
+17. StrongHearts Native Helpline — 1-844-762-8483 (1-844-7NATIVE). https://strongheartshelpline.org/
+
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — fact-check pass 1:** `timeline[4]` → `1910–1970 / 1950s–1980s` with `Stolen Generations (Australia) and Sixties Scoop (Canada) child removals; forced sterilization programs`.
-- **2026-09-27 — fact-check pass 1:** `case trc.outcome` second sentence → `Catholic entities were released from a $25 million fundraising pledge in 2015 after raising under $4 million, and re-pledged $30 million in 2021 after public outcry — harm inflicted on these traditions from outside them.`
+- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers, four documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
 
