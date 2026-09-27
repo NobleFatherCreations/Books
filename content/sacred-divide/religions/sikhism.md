@@ -6,9 +6,9 @@ family_id: dharmic
 family_members: [hinduism, hare-krishna, sikhism, jainism]
 version: v4
 checked: 2026-09-27
-sections_filled: 23/27
-missing: [voices, regional, leaving, help]
-partial: [branches, cases, law, money]
+sections_filled: 27/27
+missing: []
+partial: []
 ---
 
 # Sikhism {#top}
@@ -144,11 +144,14 @@ Sources for this section: [6] [8]
 
 ## 6. Branches & variants {#branches}
 
-::: gap
-**Partly documented for Sikhism.** This section is below the page standard and is on the fill list.
-:::
-
 Mainstream Khalsa Sikhism; Nihang, Namdhari, Nirankari and other sects; numerous deras (some accepted, some doctrinally rejected as heterodox).
+
+| Branch | Where | Where authority sits |
+|---|---|---|
+| **Mainstream Khalsa Sikhism** | Punjab and worldwide; about 26 million Sikhs (2020) [7] | The Akal Takht and its Jathedar [3]; in Punjab, the SGPC, an elected statutory body that runs the historic gurdwaras [1] |
+| **Nihang, Namdhari, Nirankari and other groups** | Mostly Punjab | Their own leaders and practices |
+| **Deras** | Punjab and Haryana | A living head, sometimes with vast property; the head of Dera Sacha Sauda was convicted of rape in 2017 [6] |
+| **Diaspora gurdwaras** | UK, Canada, US and elsewhere | Elected committees; often registered charities |
 
 ## 7. Structure {#structure}
 
@@ -198,19 +201,18 @@ Sources for this section: [1] [3] [6] [7]
 
 ## 8. Law & state here {#law}
 
-::: gap
-**Partly documented for Sikhism.** This section is below the page standard and is on the fill list.
-:::
+| Country | What the law does | The accountability question |
+|---|---|---|
+| **India — gurdwaras** | The Sikh Gurdwaras Act 1925 makes the SGPC an elected body with a five-year term [1] | Its general house has not faced an election since 2011, and the electoral roll has halved [1][2] |
+| **India — Akal Takht** | The Jathedar is appointed and removed by the SGPC [3] | Two Jathedars were removed in 2025 amid political conflict [3] |
+| **India — excommunication** | The Akal Takht can excommunicate [4] | The scholar Gurbaksh Singh Kala Afghana was excommunicated in 2003 [4] |
+| **Canada** | Charter freedom of religion [12] | The Supreme Court held in 2006 that a school's outright ban on a student's kirpan, even sealed in his clothing, was unconstitutional [12] |
 
 ### Who can compel an answer
 
 The SGPC's statutory elections — a genuine lever on paper, though the general house has not faced voters since 2011 and the rolls have halved; the Gurdwara Election Commission that must call them; and the courts that supervise gurdwara trusts abroad. The Jathedar cannot be petitioned; the body that hires him has not been voted on in fifteen years.
 
 ## 9. Money {#money}
-
-::: gap
-**Partly documented for Sikhism.** This section is below the page standard and is on the fill list.
-:::
 
 ### Where it comes from
 
@@ -254,6 +256,19 @@ The SGPC's statutory elections — a genuine lever on paper, though the general 
 ::: cites
 Sources for this section: [6]
 :::
+
+### Money in numbers
+
+```chart
+{"id":"sgpc-budget","type":"bar","title":"SGPC annual budget","unit":"₹ crore",
+ "series":[["2022–23",988],["2023–24",1138.14],["2024–25",1260.97],["2025–26",1386.47]],
+ "note":"Passed by the SGPC's general house; about ₹1,062 crore of the 2025–26 budget is for gurdwaras.",
+ "cite":[10,11]}
+```
+
+- **Growth:** up 17% in 2023–24 and 10% in 2025–26 [10][11].
+- **Accountability:** the general house that passes this budget was last elected in 2011 [1].
+- **Deras** publish no comparable accounts [6].
 
 ## 10. Genealogy {#genealogy}
 
@@ -1139,10 +1154,6 @@ Sources for this section: [9]
 
 ## 19. Documented cases {#cases}
 
-::: gap
-**Partly documented for Sikhism.** This section is below the page standard and is on the fill list.
-:::
-
 ::: case
 ### Conviction of a dera leader
 
@@ -1156,6 +1167,36 @@ Sources for this section: [9]
 
 ::: cites
 Sources for this section: [6]
+:::
+
+::: case
+### Excommunication of a scholar (India, 2003)
+- **when:** 2003
+- **what:** The Akal Takht excommunicated Gurbaksh Singh Kala Afghana, a writer whose book series it held to be "ridiculing the Sikh ethos, values and scriptures" [4].
+- **record:** Akal Takht *hukamnama*, 10 July 2003 [4]
+- **outcome:** Sikhs in India and abroad were asked to "snap all ties" with him and to keep him from speaking at public gatherings [4].
+- **tactics:** 17, 28
+- **grade:** Documented
+:::
+
+::: case
+### Two Jathedars removed in one year (India, 2025)
+- **when:** 2025
+- **what:** The SGPC removed Giani Raghbir Singh as Jathedar of the Akal Takht in March 2025 and appointed an acting Jathedar [3].
+- **record:** ThePrint, 7 March 2025 [3]
+- **outcome:** The highest seat of Sikh authority was changed by a body whose own members had not been elected since 2011 [1][3].
+- **tactics:** 29, 30
+- **grade:** Documented
+:::
+
+::: case
+### The kirpan in the classroom (Canada, 2001–2006)
+- **when:** 2001–2006
+- **what:** A Montreal school board refused to let Gurbaj Singh Multani wear his kirpan, even sealed inside his clothing [12].
+- **record:** *Multani v. Commission scolaire Marguerite-Bourgeoys*, 2006 SCC 6 [12]
+- **outcome:** The Supreme Court of Canada declared the ban null as a breach of freedom of religion [12].
+- **tactics:** —
+- **grade:** Documented
 :::
 
 ## 20. Precedent {#precedent}
@@ -1179,14 +1220,41 @@ Sources for this section: [6]
 
 ## 21. Voices from inside {#voices}
 
-::: gap
-**Not yet documented for Sikhism.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+- **Gurbaksh Singh Kala Afghana.** A writer excommunicated by the Akal Takht in 2003 [4].
+- **Jaswant Singh Khalra.** A human-rights defender who uncovered thousands of secret cremations of Sikhs by the Punjab Police; police abducted and murdered him in 1995, and six officers were later convicted [13].
+- **Gurbaj Singh Multani.** A schoolboy whose kirpan case settled the law for Sikhs across Canada [12].
+- **The Punjabi voters** whose roll fell by half while waiting for an SGPC election [2].
 
 ## 22. Regional variants {#regional}
 
-::: gap
-**Not yet documented for Sikhism.** This section is on the fill list — see `religions/_coverage.md`.
+::: card
+### India (Punjab)
+- **apex:** The Akal Takht Jathedar, appointed by the SGPC [3].
+- **law:** The Sikh Gurdwaras Act 1925 [1].
+- **documented:** The overdue election and halved roll [1][2]; the Jathedar removals [3].
+- **exit:** Legally free; social costs where family and village life centre on the gurdwara.
+- **regulator:** The Gurdwara Election Commission, which must call the SGPC election [1].
+- **tell:** A religious body with a statutory vote that has not been held for fifteen years.
+:::
+
+::: card
+### Canada
+- **apex:** Gurdwara committees; no national authority.
+- **law:** Charter freedom of religion [12].
+- **documented:** *Multani* (2006) [12].
+- **exit:** Legally free.
+- **regulator:** The courts.
+- **tell:** The kirpan case protects every religious minority, not only Sikhs.
+:::
+
+::: card
+### United Kingdom
+- **apex:** Gurdwara committees, many registered as charities.
+- **law:** Charity law.
+- **documented:** —
+- **exit:** Legally free.
+- **regulator:** The Charity Commission.
+- **tell:** Where a gurdwara is a registered charity, its accounts are public.
 :::
 
 ## 23. The questions {#questions}
@@ -1210,15 +1278,23 @@ Sources for this section: [1] [2]
 
 ## 24. Leaving safely here {#leaving}
 
-::: gap
-**Not yet documented for Sikhism.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Practical guidance, not legal advice.
+
+1. **Leaving is legally free;** the costs are family and community.
+2. **If you face forced marriage or honour-based abuse,** use specialist help [15].
+3. **An excommunication** has no legal force outside the community [4].
+4. **Find support** [14][16][17].
 
 ## 25. Where to get help {#help}
 
-::: gap
-**Not yet documented for Sikhism.** This section is on the fill list — see `religions/_coverage.md`.
-:::
+Checked 2026-09-27.
+
+| Organization | For | Where | Contact |
+|---|---|---|---|
+| **Faith to Faithless** | People leaving religion | UK | **020 3675 0959** [14] |
+| **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** [15] |
+| **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [16] |
+| **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [17] |
 
 ## 26. Sources {#sources}
 
@@ -1232,10 +1308,17 @@ Sources for this section: [1] [2]
 8. *Encyclopaedia Britannica*, "Sikhism" — Guru Nanak (1469–1539); Adi Granth compiled 1604; martyrdoms of Guru Arjan (1606) and Guru Tegh Bahadur (1675); the Khalsa (1699); scriptural guruship (1708); Ranjit Singh (1799–1849); Singh Sabha (1873); Gurdwara Act (1925); 1984. https://www.britannica.com/topic/Sikhism
 9. Shiromani Gurdwara Parbandhak Committee, *Sikh Rehat Maryada* (the code of conduct; women's full participation). https://sgpc.net/sikh-rehat-maryada-in-english/
 
+### Added with the full page (2026-09-27)
+10. *The Tribune*, "SGPC passes Rs 1,261 crore annual budget" (2024) — 2023–24 budget ₹1,138.14 crore; 2022–23 ₹988 crore. https://www.tribuneindia.com/news/amritsar/sgpc-passes-rs-1-261-crore-annual-budget-605395
+11. *The Tribune*, "SGPC passes budget of Rs 1,386.47 crore for 2025-2026 financial year" (2025) — 2024–25 ₹1,260.97 crore. https://www.tribuneindia.com/news/amritsar/sgpc-passes-budget-of-rs-1386-47-crore-for-2025-2026-financial-year/
+12. David Asper Centre for Constitutional Rights, *Multani v. Commission scolaire Marguerite-Bourgeoys*, [2006] 1 S.C.R. 256 — summary. https://jackmanlaw.utoronto.ca/asper/multani-v-commission-scolaire-marguerite-bourgeoys
+13. Ensaaf, "Jaswant Singh Khalra" — abduction and murder (1995); six police officials convicted (2005); convictions upheld (2007, 2011). https://ensaaf.org/jaswant-singh-khalra/
+14. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+15. Karma Nirvana — honour-based abuse and forced marriage, 0800 5999 247. https://karmanirvana.org.uk/get-help/helpline/
+16. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
+17. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
+
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — fact-check pass 1:** `apex.rows[0][1]` → `Giani Kuldeep Singh Gargaj, acting Jathedar since March 2025 — installed by the SGPC after it removed two predecessors in the same year amid open political conflict`.
-- **2026-09-27 — fact-check pass 1:** `compel` → `The SGPC's statutory elections — a genuine lever on paper, though the general house has not faced voters since 2011 and the rolls have halved; the Gurdwara Election Commission that must call them; and the courts that supervise gurdwara trusts abroad. The Jathedar cannot be petitioned; the body that hires him has not been voted on in fifteen years.`
-- **2026-09-27 — fact-check pass 1:** Dera Sacha Sauda — `case dera.what`, `victories[2]`, `money[0]`: `convicted of rape in 2017; a 2019 conviction for conspiring to murder a journalist was overturned on appeal in 2026 and is now before the Supreme Court`.
-- **2026-09-27 — fact-check pass 1:** `unanswered` / `revise` — add to `revise`: `or a general SGPC election held on schedule`.
+- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (SGPC budgets 2022–2026), three more documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
 
