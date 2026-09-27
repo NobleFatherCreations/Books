@@ -1,25 +1,31 @@
 #!/usr/bin/env python3
-"""The Sacred Divide — "For Abdurahman" reviewer edition.
+"""The Sacred Divide — expanded reviewer editions.
 
-Builds three expanded, personally-addressed PDFs (Sunni Islam, Judaism, Catholicism) from the
-same source .md files the site uses, reusing scripts/sacred-divide-pdf.py's rendering engine.
-Adds, on top of the standard page:
+Builds three expanded PDFs (Sunni Islam, Judaism, Catholicism) from the same source .md files
+the site uses, reusing scripts/sacred-divide-pdf.py's rendering engine. Adds, on top of the
+standard page:
 
-  - A one-page preface addressed to him, explaining what this copy is and why he has it.
-  - A "note to Abdurahman" box at the top of every one of the 27 sections: what the section is
-    for, and — wherever the source material actually forks from a Quranic principle he would
-    recognise — a plain comparison, offered respectfully, not as a claim about his own practice.
+  - A one-page preface explaining what this copy is and why the reader has it.
+  - A personal-note box at the top of every one of the 27 sections: what the section is for,
+    and — wherever the source material actually forks from a Quranic principle — a plain
+    comparison, offered respectfully, not as a claim about any individual reader's own practice.
   - On the Sunni Islam copy only: a "Salafi/Sunni methodology point" box on the sections where a
     salaf-centred, evidence-over-taqlid reading sharpens the question (branches, structure, law,
     genealogy, techniques, regional).
   - The six "hard questions" each expanded into a card: the question, why it is asked, and a
     concrete example already documented on the page. The Sunni Islam copy adds a seventh,
     Salafi-lens question.
-  - Larger, bolder, truer-black type; new accent colours for the two box kinds
-    (tools/pdf/sacred-divide-personal.css, loaded after the base stylesheet).
+  - Larger, bolder, truer-black type, generous spacing, and new accent colours for the two box
+    kinds (tools/pdf/sacred-divide-personal.css, loaded after the base stylesheet). Boxes are
+    allowed to break across a page rather than jump whole, so pages fill instead of leaving gaps.
+
+The Sunni Islam and Judaism copies are addressed by name to Abdurahman Afia (see RECIPIENT
+below). The Catholicism copy is a generic reviewer edition — no name, no personal biography —
+because it goes to a different reader.
 
 Usage: python3 scripts/sacred-divide-pdf-abdurahman.py
-Output: library/_undeployed/sacred-divide-pdf/personal/<id>-for-abdurahman.pdf
+Output: library/_undeployed/sacred-divide-pdf/personal/<id>-for-abdurahman.pdf (named copies)
+        library/_undeployed/sacred-divide-pdf/personal/catholicism-review-copy.pdf (generic)
 """
 import importlib.util
 import json
@@ -42,7 +48,9 @@ e, inline, md_to_html = sdp.e, sdp.inline, sdp.md_to_html
 front_matter, sources_ids, score_cells, grade_bar = sdp.front_matter, sdp.sources_ids, sdp.score_cells, sdp.grade_bar
 SRC = sdp.SRC
 
-RECIPIENT = "Abdurahman Afia"
+# Per-copy recipient. Catholicism goes to a different reader — no name, no personal biography.
+RECIPIENT = {'sunni-islam': "Abdurahman Afia", 'judaism': "Abdurahman Afia", 'catholicism': None}
+NOTE_LABEL = {'sunni-islam': "A note to Abdurahman", 'judaism': "A note to Abdurahman", 'catholicism': "A note for the reviewer"}
 
 # ================================================================== reviewer content
 # One "note to Abdurahman" per section (27), one Salafi box on selected sections (Sunni copy
@@ -59,9 +67,9 @@ You built a public life on the claim that the Quran corrects rather than merely 
 You are not being asked to review this as a Jewish reader would. You're being asked for what you actually bring: a convert's outsider clarity, a Quran-formed sense of where revelation and institution can part ways, and 25 years of watching how religious authority behaves under state power in the Gulf — which turns out to be directly useful here, since a state-run rabbinate is one of this page's central subjects. The Quran affirms Musa (peace be upon him) and the Torah he brought (2:87, 5:44) while also naming specific moments where communities that received it are said to have altered or obscured parts of what they were given (2:75, 4:46) — again, a claim about transmission and human institutions, not a verdict on individual people. That is the only lens this copy uses, applied consistently, the same way it's applied to the Islamic pages elsewhere in the project.
 
 Where the page shows a rabbinic court, a state monopoly, or a communal rule that has drifted from what even the tradition's own reformers say the Torah requires, the note says so plainly and invites your comparison — because a fair, accurate treatment of another Abrahamic tradition is also, on your own terms, a form of honoring the God you both ultimately answer to.""",
-    'catholicism': """This is the Catholicism page in the same 27-section standard as the rest of the project, with nothing added that isn't sourced on the page itself — what's new here is a note before each section addressed to you, and the six hard questions expanded into full cards with a worked example under each.
+    'catholicism': """This is the Catholicism page in the same 27-section standard as the rest of the project, with nothing added that isn't sourced on the page itself — what's new here is a note before each section explaining what that section is doing, and the six hard questions expanded into full cards with a worked example under each.
 
-The ask is the same as for the Judaism copy: not a Catholic reader's review, but yours — a convert who spent two years testing every tradition at Speakers' Corner before choosing one, and who has spent 25 years explaining Islam to people who'd only ever encountered caricatures of it. That second experience is directly relevant here, because a great deal of what this page documents is the gap between the caricature of Catholicism (uniformly corrupt) and the actual record (real reform, real courage, real cover-up, held together in the same institution) — the same kind of gap you've spent a career correcting from the other side. The Quran affirms 'Isa (peace be upon him) and the Injil as genuine revelation (3:3, 5:46) while also describing specific ways later communities are said to have altered what they received or set up intermediaries the original message didn't require (9:31, 5:77) — a claim, again, about institutions and transmission, offered here as a lens, not a verdict on any Catholic reader's faith.
+The ask of a reviewer here is straightforward: not agreement, and not a defense of the institution or a case against it — just an honest check on whether the page is accurate and fair. A great deal of what this page documents is the gap between a flattened caricature of Catholicism (uniformly corrupt, or uniformly innocent) and the actual, sourced record: real reform, real courage, real cover-up, held together in the same institution across the same centuries. Getting that balance right — naming what works before naming what doesn't, and never asserting a claim the page can't point to a source for — is the whole discipline of this project, applied here the same way it's applied to every other tradition in the book.
 
 Where the page shows a monopoly, a secrecy rule, or a celibacy discipline the Church's own historians trace to a property question rather than a spiritual one, the note names the comparison plainly, in the same voice used throughout — because getting this page right matters to the Catholics who will read it too.""",
 }
@@ -213,7 +221,7 @@ QUESTIONS_CATHOLIC = [
     {'why': "This is a logic test applied to a stated doctrine, in the same spirit as the Salafi/Sunni test of daleel over custom used elsewhere in this project: if a rule is spiritually necessary, no valid exception should exist; if valid exceptions exist, the rule is a discipline, which is a different — and more honest — thing to call it.",
      'example': "Eastern Catholic churches, in full communion with Rome, ordain married men as priests. Their sacraments are recognized as fully valid by the Latin Church. That single fact settles the logic of the question on the record already, whatever any individual reader concludes from it."},
     {'why': "The closing question targets the fusion of institution and God themselves — a rule that equates criticizing the former with betraying the latter forecloses examination of the institution specifically by raising the cost of asking to the maximum possible level.",
-     'example': "The same fusion appears in slightly different form in every tradition this project documents — including, from the other direction, in the ultimatum you were given at eighteen, where leaving one household's version of faith was framed as leaving faith itself rather than as the specific, separable choice it actually was."},
+     'example': "The same fusion appears in slightly different form in every tradition this project documents: a family or a community frames leaving one specific institution's version of faith as leaving faith itself, rather than as the narrower, separable choice it actually is."},
 ]
 
 
@@ -226,8 +234,8 @@ def build_personal_notes(rid):
 
 
 # ================================================================== rendering
-def note_box(md_text, kind='abdurahman'):
-    return f'<div class="box {kind}">' + md_to_html(md_text) + '</div>'
+def note_box(md_text, kind, label):
+    return f'<div class="box {kind}"><span class="lbl">{e(label)}</span>' + md_to_html(md_text) + '</div>'
 
 
 def render_hardq_section(content, expansions, extra=None):
@@ -238,14 +246,16 @@ def render_hardq_section(content, expansions, extra=None):
     items = [it.strip().replace('\n', ' ') for it in re.findall(r'^\d+\.\s+(.*?)(?=^\d+\.\s|\Z)', list_block, re.M | re.S)]
     n_total = len(items) + (1 if extra else 0)
     cards = []
+    # .qhead (label + question) is its own break-inside:avoid unit so a page break can only ever
+    # land inside the why/example prose, never orphan the label above an empty rest-of-page.
     for i, (qtext, exp) in enumerate(zip(items, expansions), 1):
-        cards.append(f'<div class="box hardq"><div class="qn">Question {i} of {n_total}</div>'
-                      f'<div class="qtext">{inline(e(qtext))}</div>'
+        cards.append(f'<div class="box hardq"><div class="qhead"><div class="qn">Question {i} of {n_total}</div>'
+                      f'<div class="qtext">{inline(e(qtext))}</div></div>'
                       f'<h4>Why this is asked</h4><p>{inline(e(exp["why"]))}</p>'
                       f'<h4 class="ex">Example already on this page</h4><p>{inline(e(exp["example"]))}</p></div>')
     if extra:
-        cards.append(f'<div class="box hardq"><div class="qn">Question {n_total} of {n_total} · Salafi/Sunni lens, added for this copy</div>'
-                      f'<div class="qtext">{inline(e(extra["q"]))}</div>'
+        cards.append(f'<div class="box hardq"><div class="qhead"><div class="qn">Question {n_total} of {n_total} · Salafi/Sunni lens, added for this copy</div>'
+                      f'<div class="qtext">{inline(e(extra["q"]))}</div></div>'
                       f'<h4>Why this is asked</h4><p>{inline(e(extra["why"]))}</p>'
                       f'<h4 class="ex">Example already on this page</h4><p>{inline(e(extra["example"]))}</p></div>')
     return ''.join(cards) + md_to_html(rest)
@@ -287,12 +297,12 @@ def build_html_personal(rid):
             lead = (grade_bar(counts) if counts else '') + (f'<h3 id="techniques-index">All thirty at a glance</h3><div class="tgrid">{grid}</div>' if grid else '')
             h = re.sub(r'(</p>)', r'\1' + lead.replace('\\', '\\\\'), h, count=1) if lead else h
 
-        # -------- reviewer layer: note to Abdurahman, then (Sunni copy) a Salafi point
+        # -------- reviewer layer: a personal note, then (Sunni copy only) a Salafi point
         extra_html = ''
         if slug in notes:
-            extra_html += note_box(notes[slug], 'abdurahman')
+            extra_html += note_box(notes[slug], 'note-a', NOTE_LABEL[rid])
         if slug in salafi:
-            extra_html += note_box(salafi[slug], 'salafi')
+            extra_html += note_box(salafi[slug], 'salafi', "A Salafi/Sunni methodology point")
         h = extra_html + h
 
         subs = re.findall(r'<h3 id="([\w-]+)">(.*?)</h3>', h)
@@ -317,16 +327,19 @@ def build_html_personal(rid):
     if len(blurb) > 260: blurb = blurb[:257].rsplit(' ', 1)[0] + '…'
 
     preface_html = md_to_html(PREFACE[rid])
+    recipient = RECIPIENT[rid]
+    for_line = f'<div class="for">Prepared for <b>{e(recipient)}</b> — for his review</div>' if recipient else ''
     cover = (f'<div class="cover"><div class="band"></div><img class="mark" src="mark.png" alt="">'
              f'<div class="eyebrow">The Sacred Divide</div>'
-             f'<div class="for">Prepared for <b>{e(RECIPIENT)}</b> — for his review</div>'
+             f'{for_line}'
              f'<h1>{e(name)}</h1>'
              f'<div class="family">{e(meta.get("family", ""))} family</div><div class="rule"></div>'
              f'<div class="tagline">Honor the faith · Name the machinery</div><div class="blurb">{e(blurb)}</div>'
              f'<div class="meta"><span>{e(meta.get("version", ""))} · checked {e(meta.get("checked", ""))}</span><span>{SITE}</span></div></div>')
     preface = (f'<div class="front preface"><h1 id="preface">A note before you read</h1>{preface_html}</div>')
-    doc = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{e(name)} — for {e(RECIPIENT)} — The Sacred Divide</title>
-<meta name="author" content="Noble Father Creations"><meta name="subject" content="{e(name)}: expanded review copy prepared for {e(RECIPIENT)}">
+    title_suffix = f' — for {e(recipient)}' if recipient else ' — expanded review copy'
+    doc = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{e(name)}{title_suffix} — The Sacred Divide</title>
+<meta name="author" content="Noble Father Creations"><meta name="subject" content="{e(name)}: expanded review copy{' prepared for ' + e(recipient) if recipient else ''}">
 <link rel="stylesheet" href="sacred-divide.css">
 <link rel="stylesheet" href="sacred-divide-personal.css">
 <script>window.PagedConfig = {{ auto: true, after: () => {{ window.__paged = true; }} }};</script>
@@ -343,17 +356,19 @@ def build_html_personal(rid):
 def render_personal(rid):
     os.makedirs(OUTDIR, exist_ok=True)
     doc, name, meta = build_html_personal(rid)
+    recipient = RECIPIENT[rid]
+    slug = 'for-abdurahman' if recipient else 'review-copy'
     page = os.path.join(TOOLS, f'.build-abd-{rid}.html')
     open(page, 'w', encoding='utf-8').write(doc)
-    out_pdf = os.path.join(OUTDIR, f'{rid}-for-abdurahman.pdf')
+    out_pdf = os.path.join(OUTDIR, f'{rid}-{slug}.pdf')
     subprocess.run(['node', os.path.join(TOOLS, 'print.js'), page, out_pdf, name], check=True)
     from pypdf import PdfReader, PdfWriter
     r = PdfReader(out_pdf)
     w = PdfWriter(clone_from=r)
-    w.add_metadata({'/Title': f'{name} — expanded review copy for {RECIPIENT} — The Sacred Divide',
+    w.add_metadata({'/Title': f'{name} — expanded review copy' + (f' for {recipient}' if recipient else '') + ' — The Sacred Divide',
                     '/Author': 'Noble Father Creations',
-                    '/Subject': f'{name}: full record, with a note to {RECIPIENT} before every section and expanded hard questions.',
-                    '/Keywords': f'The Sacred Divide; {name}; {meta.get("family", "")}; for {RECIPIENT}'})
+                    '/Subject': f'{name}: full record' + (f', with a note to {recipient} before every section' if recipient else ', with a note before every section') + ' and expanded hard questions.',
+                    '/Keywords': f'The Sacred Divide; {name}; {meta.get("family", "")}' + (f'; for {recipient}' if recipient else '')})
     marks = json.load(open(out_pdf.replace('.pdf', '.marks.json')))
     os.remove(out_pdf.replace('.pdf', '.marks.json'))
     w._root_object.pop('/Outlines', None)

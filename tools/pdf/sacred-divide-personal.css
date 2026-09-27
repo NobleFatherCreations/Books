@@ -1,31 +1,45 @@
-/* The Sacred Divide — "For Abdurahman" review edition overrides.
-   Loaded AFTER sacred-divide.css. Bigger, bolder, truer-black body type; new accent
-   colours for the reviewer callouts (a note addressed to him, and — Sunni/Salafi only —
-   a Salafi-methodology point) layered onto the base design, not replacing it. */
+/* The Sacred Divide — expanded review-edition overrides.
+   Loaded AFTER sacred-divide.css. Bigger, bolder, truer-black body type; generous spacing so
+   pages read as full rather than sparse; new accent colours for the reviewer callouts (a
+   personal note, and — Sunni/Salafi copy only — a Salafi-methodology point) layered onto the
+   base design, not replacing it. Boxes are allowed to break across a page (rather than forcing
+   a whole card to the next page) so a page fills to the bottom instead of leaving a gap. */
 
 :root {
   --ink: #0A0A0A;            /* body text: true-black, not the base parchment ink */
-  --note: #1D3D5C;           /* deep indigo-blue — "A note to Abdurahman" */
+  --note: #1D3D5C;           /* deep indigo-blue — the personal-note box */
   --note-bg: #EEF3F7;
   --salafi: #1E5B3C;         /* deep pine green — Salafi-methodology points */
   --salafi-bg: #EEF5EF;
 }
 
-/* -------------------------------------------------------------- bigger, bolder body type */
-html { font-size: 12.2pt; line-height: 1.62; }
+/* -------------------------------------------------------------- bigger, bolder, fuller body type */
+html { font-size: 13.4pt; line-height: 1.72; }
 body { font-weight: 470; }
-p { margin: 0 0 .7em; }
+p { margin: 0 0 .85em; }
 strong { font-weight: 800; color: #000; }
-li { margin: .28em 0; }
-h3 { font-size: 17.5pt; margin-top: 7.5mm; }
-h4 { font-size: 10pt; }
-section.sec > h2 { font-size: 33pt; }
-.lede { font-size: 14pt; }
-table { font-size: 9.8pt; line-height: 1.5; }
-thead th { font-size: 7.6pt; }
-.case li strong:first-child, .card li strong:first-child { min-width: 22mm; }
-.tl .e { font-size: 12.5pt; }
-.tl .r { font-size: 10pt; }
+ul, ol { margin: .3em 0 .9em; }
+li { margin: .34em 0; }
+h3 { font-size: 18.5pt; margin-top: 8.5mm; margin-bottom: 3.5mm; }
+h4 { font-size: 10.4pt; margin-top: 4mm; }
+section.sec > h2 { font-size: 34pt; margin-bottom: 6.5mm; }
+.lede { font-size: 15pt; line-height: 1.55; }
+table { font-size: 10.4pt; line-height: 1.58; }
+thead th { font-size: 8.1pt; }
+td { padding: 2.2mm 2.4mm; }
+.case li strong:first-child, .card li strong:first-child { min-width: 23mm; }
+.tl .e { font-size: 13pt; }
+.tl .r { font-size: 10.6pt; }
+.tl li { padding-bottom: 3.4mm; }
+/* The base stylesheet keeps every box (.card, .case, .tell, .stage, .tactic, .gap …) together
+   with break-inside:avoid, which is right for the standard one-download-button PDF but, once
+   these longer review copies add note/Salafi/hardq boxes ahead of them, was pushing whole
+   boxes to the next page and leaving the previous one half-empty. Let boxes fill the page and
+   wrap naturally here; a card splitting across a page is a smaller cost than a half-blank page. */
+.box { margin: 0 0 5mm; break-inside: auto; }
+.card { padding: 4.5mm 6mm 3mm; }
+.case { padding: 4mm 6mm 3mm; }
+.tl { break-inside: auto; }
 
 /* -------------------------------------------------------------- cover: reviewer strip */
 .cover .for { position: absolute; top: 90mm; width: 100%; text-align: center; font: 8pt var(--caps);
@@ -34,32 +48,40 @@ thead th { font-size: 7.6pt; }
 
 /* -------------------------------------------------------------- preface page */
 .preface { break-after: page; }
-.preface h1 { font: 30pt/1.1 var(--display); color: var(--curtain); margin: 0 0 5mm; }
-.preface p { font-size: 11.3pt; line-height: 1.68; color: #141310; margin-bottom: 3.2mm; }
+.preface h1 { font: 30pt/1.1 var(--display); color: var(--curtain); margin: 0 0 6mm; }
+.preface p { font-size: 12.8pt; line-height: 1.74; color: #141310; margin-bottom: 4.5mm; }
 
-/* -------------------------------------------------------------- "A note to Abdurahman" */
-.box.abdurahman { background: var(--note-bg); border: none; border-left: 3.2pt solid var(--note);
-  border-radius: 0 1.5mm 1.5mm 0; padding: 4mm 6mm 3mm; margin: 0 0 4.5mm; }
-.box.abdurahman::before { content: "A note to Abdurahman"; display: block; font: 8pt var(--caps);
-  letter-spacing: .18em; text-transform: uppercase; color: var(--note); margin-bottom: 1.6mm; }
-.box.abdurahman p { font-size: 10.6pt; line-height: 1.56; color: #14202B; }
-.box.abdurahman p:last-child { margin-bottom: 0; }
-.box.abdurahman strong { color: var(--note); font-weight: 750; }
+/* -------------------------------------------------------------- the personal-note box
+   No break-inside:avoid here on purpose: a short note that doesn't fit the remainder of a
+   page should flow onto the next one rather than shove the whole box down and leave the
+   current page half-empty. The left border and background continue across the fragment. */
+.box.note-a { background: var(--note-bg); border: none; border-left: 3.2pt solid var(--note);
+  border-radius: 0 1.5mm 1.5mm 0; padding: 4.5mm 7mm 3.5mm; margin: 0 0 5.5mm;
+  break-inside: auto; } /* base sacred-divide.css sets .box{break-inside:avoid} — undo it here */
+.box.note-a .lbl { display: block; font: 8.3pt var(--caps); letter-spacing: .18em; text-transform: uppercase;
+  color: var(--note); margin-bottom: 2mm; }
+.box.note-a p { font-size: 11.8pt; line-height: 1.62; color: #14202B; }
+.box.note-a p:last-child { margin-bottom: 0; }
+.box.note-a strong { color: var(--note); font-weight: 750; }
 
-/* -------------------------------------------------------------- "A Salafi/Sunni point" */
+/* -------------------------------------------------------------- "A Salafi/Sunni point" (Sunni copy only) */
 .box.salafi { background: var(--salafi-bg); border: none; border-left: 3.2pt solid var(--salafi);
-  border-radius: 0 1.5mm 1.5mm 0; padding: 4mm 6mm 3mm; margin: 0 0 4.5mm; }
-.box.salafi::before { content: "A Salafi/Sunni methodology point"; display: block; font: 8pt var(--caps);
-  letter-spacing: .16em; text-transform: uppercase; color: var(--salafi); margin-bottom: 1.6mm; }
-.box.salafi p { font-size: 10.6pt; line-height: 1.56; color: #12251A; }
+  border-radius: 0 1.5mm 1.5mm 0; padding: 4.5mm 7mm 3.5mm; margin: 0 0 5.5mm; break-inside: auto; }
+.box.salafi .lbl { display: block; font: 8.3pt var(--caps); letter-spacing: .16em; text-transform: uppercase;
+  color: var(--salafi); margin-bottom: 2mm; }
+.box.salafi p { font-size: 11.8pt; line-height: 1.62; color: #12251A; }
 .box.salafi p:last-child { margin-bottom: 0; }
 .box.salafi strong { color: var(--salafi); font-weight: 750; }
 
-/* -------------------------------------------------------------- expanded hard questions */
+/* -------------------------------------------------------------- expanded hard questions
+   Same reasoning: allow a card to break across pages rather than forcing the whole thing
+   (question + why + example) to jump, which is what left big gaps below short cards before. */
 .hardq { background: #fff; border: .8pt solid var(--line); border-top: 3pt solid var(--curtain-deep);
-  border-radius: 1.5mm; padding: 5mm 7mm 4mm; margin: 0 0 6mm; break-inside: avoid; }
-.hardq .qn { font: 8pt var(--caps); letter-spacing: .2em; color: var(--gilt-ink); text-transform: uppercase; margin-bottom: 1.5mm; }
-.hardq .qtext { font: italic 16.5pt/1.4 var(--display); color: var(--curtain-deep); margin: 0 0 4mm; }
-.hardq h4 { color: var(--note); margin-top: 2mm; }
+  border-radius: 1.5mm; padding: 6mm 8mm 5mm; margin: 0 0 7mm; break-inside: auto; }
+.hardq .qhead { break-inside: avoid; }
+.hardq .qn { font: 8.3pt var(--caps); letter-spacing: .2em; color: var(--gilt-ink); text-transform: uppercase; margin-bottom: 2mm; }
+.hardq .qtext { font: italic 17.5pt/1.42 var(--display); color: var(--curtain-deep); margin: 0 0 4.5mm; }
+.hardq h4 { color: var(--note); margin-top: 2.5mm; break-after: avoid; break-inside: avoid; }
 .hardq h4.ex { color: var(--salafi); }
-.hardq p { font-size: 10.2pt; line-height: 1.55; }
+.hardq h4 + p { break-before: avoid; }
+.hardq p { font-size: 11.4pt; line-height: 1.6; orphans: 2; widows: 2; }
