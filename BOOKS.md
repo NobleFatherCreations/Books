@@ -126,6 +126,8 @@ three-register tactic entries) is still undeployed, user's call.
 
 **PDF edition (2026-09-27):** every religion has all 27 sections filled and sourced (918/918); a printable PDF per religion builds from `content/sacred-divide/religions/<id>.md` (`scripts/sacred-divide-pdf.py --all`), with a manifest for the site's Download button. Not yet deployed.
 
+**Expanded edition + redesign (2026-09-28, undeployed):** every religion page now carries reader narration: a "Before you read" note and a "Why this matters to you" caption on each of the 27 sections, and the 6 hard questions expanded (why it's asked, an example already on the page). Source: `content/sacred-divide/narration/<id>.md` + `scripts/sacred_divide_narration.py`. Same text in the expanded PDFs (`scripts/sacred-divide-pdf-expanded.py`) and in the one-page-scroll redesign (`scripts/sacred-divide-site.py` → `library/_undeployed/sacred-divide-redesign/`: family home, one scroll page per tradition, section jump menu, family arrows that keep your section, PDF downloads at top). The redesign honours this book's stance: no progress bar, no storage, no external requests.
+
 ## children — Playground Protectors **[from review doc]**
 
 Kids' book on manipulation/tricky people, written for two audiences at

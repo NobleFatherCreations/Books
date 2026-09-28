@@ -26,4 +26,10 @@ scripts/covers/_work/
 # all 34 in ~2 minutes); only the reviewed example and the manifest are committed
 library/_undeployed/sacred-divide-pdf/*.pdf
 !library/_undeployed/sacred-divide-pdf/sunni-islam.pdf
+# Expanded editions (scripts/sacred-divide-pdf-expanded.py --all, ~6 minutes for 34): the three
+# pages under outside review are committed as examples; the rest rebuild from source
+library/_undeployed/sacred-divide-pdf/expanded/*.pdf
+!library/_undeployed/sacred-divide-pdf/expanded/sunni-islam-expanded.pdf
+!library/_undeployed/sacred-divide-pdf/expanded/judaism-expanded.pdf
+!library/_undeployed/sacred-divide-pdf/expanded/catholicism-expanded.pdf
 tools/pdf/.build-*.html

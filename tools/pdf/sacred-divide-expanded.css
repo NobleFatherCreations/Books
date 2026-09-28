@@ -1,0 +1,16 @@
+/* The Sacred Divide — expanded edition. Loaded after sacred-divide.css and sacred-divide-personal.css.
+   Adds the "Why this matters to you" caption that closes every section: the one reader-facing box,
+   so it takes the page's single accent (the curtain red) and a heavier weight than the quieter
+   "Before you read" note that opens the section. */
+
+.box.intro { margin-top: 0; }
+.box.intro p { font-size: 11.2pt; }
+
+.box.foryou { background: #F7EFE9; border: none; border-left: 3.6pt solid var(--curtain-deep);
+  border-radius: 0 1.5mm 1.5mm 0; padding: 5mm 7.5mm 4mm; margin: 7mm 0 2mm; break-inside: auto; }
+.box.foryou .lbl { display: block; font: 8.6pt var(--caps); letter-spacing: .18em; text-transform: uppercase;
+  color: var(--curtain-deep); margin-bottom: 2.2mm; break-after: avoid; }
+.box.foryou p { font-size: 12.2pt; line-height: 1.62; color: #1A1311; orphans: 2; widows: 2; }
+.box.foryou p:last-child { margin-bottom: 0; }
+.box.foryou strong { color: #000; font-weight: 750; }
+.box.foryou em { color: var(--curtain-deep); }

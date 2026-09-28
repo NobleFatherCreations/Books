@@ -152,7 +152,7 @@ def _score_sentence(sc):
     if no:
         s += f"The scorecard finds no public evidence of {_join(no)}."
     if yes:
-        s += f" It does find {_join(yes)} — credit where it is due."
+        s += (" It does find " if no else "The scorecard finds ") + f"{_join_and(yes)}, and that deserves credit."
     return s.strip()
 
 
@@ -171,13 +171,20 @@ def _default_foryou(rid, slug):
     uq = g.get('The unanswered question', '')
     money = g.get('Money in one line', '')
     leave = g.get('Leaving in one line', '')
-    chosen = g.get('Chosen by / removable by', '')
+    chosen_raw = g.get('Chosen by / removable by', '')
+    cb, _, rb = chosen_raw.partition(' / ')
+    cb, rb = cb.strip().rstrip('.'), rb.strip().rstrip('.')
+    # quote the table's own cells rather than re-parse them into a sentence: they are free text
+    chosen = (f"answer to who chooses the top office is \"{cb}\", and to who can remove its holder, \"{rb}\"" if cb and rb and rb.strip('— ') else
+              (f"answer to who chooses the top office is \"{cb}\"" if cb else ''))
     D = {
         'at-a-glance': (
-            (f"Read the \"Chosen by / removable by\" row as though it described the board of a pension fund holding your savings: **{chosen}**. Would you accept that arrangement there? " if chosen else
-             "Read the top of this table as though it described a pension fund holding your savings: who runs it, and who could remove them? ")
-            + (_score_sentence(sc) + " Each \"No\" is something the institution could publish tomorrow. Ask yourself why it hasn't." if _score_sentence(sc) else
-               "Where the scorecard cannot be filled in, that is itself the finding: there is no single office to ask.")),
+            (f"There is no single office at the top here. The glance table's {chosen}. That can protect people from a distant hierarchy. It can also mean there is no one to appeal to when the people closest to you are wrong. If that happened to you, who would you go to?"
+             if chosen and sc and all(v == '?' for v in sc.values()) else
+             (f"The glance table's {chosen}. Read that as though it described the board of a pension fund holding your savings. Would you accept the arrangement there? " if chosen else
+              "Read the top of this table as though it described a pension fund holding your savings: who runs it, and who could remove them? ")
+             + (_score_sentence(sc) + (" Each \"No\" is something the institution could publish tomorrow. Ask yourself why it hasn't." if 'N' in sc.values() else "") if _score_sentence(sc) else
+                "Where the scorecard cannot be filled in, that is itself the finding: there is no single office to ask."))),
         'a-day-inside': (
             "Did any moment in that day feel familiar: a cost nobody questions, a door nobody can see how to open? The section of this page that explains that moment is the one to read first. "
             "If nothing felt familiar, ask whether that's because it isn't your life, or because the patterns have become normal to you."),
@@ -194,7 +201,7 @@ def _default_foryou(rid, slug):
             f"If you know one community of {name}, you know one community. Most bad generalizations about a religion, and most unfair defenses of it, come from treating one branch as the whole. "
             "Which branch is the one you picture when you hear the name? Is that picture yours, or one you were given by news coverage or by the community itself?"),
         'structure': (
-            (f"The practical question for you: **{chosen}**. " if chosen else "The practical question for you is who chooses the top office, and who could remove its holder. ")
+            (f"This page's {chosen}. " if chosen else "The practical question for you is who chooses the top office, and who could remove its holder. ")
             + "If the person at the top made a serious mistake that affected your family, where exactly would you take the complaint, and who has the power to act on it? If the answer is \"nobody\", then the rest of this page is about what happens in that gap."),
         'law': (
             "Your rights inside this tradition depend partly on which passport you hold. The same question, whether you can leave, marry or speak freely, gets different answers in different states. "

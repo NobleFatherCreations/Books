@@ -3553,3 +3553,32 @@ Dubai would follow") and an architecture that imports each religion's MD into th
   (reported 29, tree actually 121) — fixed. The 7 new religions still show their 30 techniques as a
   table (≈61 bookmarks vs ≈115) — the one remaining normalisation job before final polish.
 - **Not deployed.** The v4 site and PDFs wait for the owner's explicit go-ahead.
+
+## Update (2026-09-28) — reader narration, expanded PDFs for all 34, one-page-scroll redesign begun
+
+- **Narration layer:** `scripts/sacred_divide_narration.py` + `content/sacred-divide/narration/<id>.md`
+  (all 34). Three layers per page, addressed to no one by name: a "Before you read" note opening each
+  of the 27 sections (generic, in the module); a "Why this matters to you" caption closing each section
+  (hand-written for structure / law / money / cost / who-gets-hurt on every religion; the other 22
+  sections use data-driven defaults that quote the page's own glance table, scorecard, regions and help
+  list); and why/example expansions for all 6 hard questions on every page (hand-written). Rule kept:
+  every fact in a caption is on that religion's page (checked section-by-section with a grep helper),
+  or is a named, well-known study (Tajfel 1971, Arkes & Blumer 1985, Hasher et al. 1977).
+  The Salafi layer and anything about Abdurahman stay ONLY in the named review copies.
+- **Expanded PDFs:** `scripts/sacred-divide-pdf-expanded.py --all` (~6 min) →
+  `library/_undeployed/sacred-divide-pdf/expanded/<id>-expanded.pdf` (46–100 pp; 95 MB for all 34).
+  Uses the review-copy typography + `tools/pdf/sacred-divide-expanded.css`. Only Sunni, Judaism and
+  Catholicism are committed (plus manifest); the rest rebuild from source.
+- **Redesign (undeployed):** `scripts/sacred-divide-site.py` → `library/_undeployed/sacred-divide-redesign/`
+  (index + 34 pages, ~420 KB each, fonts subset + inlined). Family home with 10 numbered family cards;
+  one scroll page per religion; jump menu (rail ≥1100px, bottom sheet on phones); family bar whose
+  arrows re-aim on scroll to land on the SAME section in the sibling tradition; standard + expanded PDF
+  downloads at the top; THE HOUSE drawer via `scripts/nf-install-chrome.py` (not hand-pasted).
+  Links: default relative for local preview; deploy with `--base /faith/ --pdf-base /faith/pdf/`
+  (the /x vs /x/ relative-path trap). **No reading-progress bar** — BOOKS.md records that this book
+  refuses one; I added one by reflex and removed it. Verified: 35 pages × (375, 1440, reduced motion),
+  0 page errors, 0 external requests, 0 horizontal overflow, nothing stuck at opacity 0.
+- **Bug worth remembering:** IntersectionObserver fades can leave elements invisible after a fast
+  fling (element jumps from below to above the viewport between frames, no intersection change is
+  ever reported). The redesign uses a rAF-throttled scroll check instead, plus reveal-all at page end.
+- **Not deployed.** Nothing here ships without the owner's explicit go-ahead.
