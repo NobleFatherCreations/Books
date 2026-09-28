@@ -105,14 +105,14 @@ def overrides(rid):
 # ---------------------------------------------------------------- "Before you read" — generic, unpersonalized
 INTROS = {
     'at-a-glance': "The whole page on one screen: how big {name} is, who sits at the top, how that person is chosen and whether anyone can remove them, where the money comes from, and what leaving costs. The disclosure scorecard underneath asks six yes-or-no questions any charity or public company would be expected to answer. Every later section expands one of these rows.",
-    'a-day-inside': "One ordinary day, told from inside. The person is a composite built from documented patterns, not a real individual. The point is to make the structure visible at human scale: phrases like \"removal mechanism\" or \"giving record\" are easy to read past, but a Tuesday organised around them is not.",
+    'a-day-inside': "One ordinary day, told from inside. The person is a composite built from documented patterns, not a real individual. The point is to make the structure visible at human scale: phrases like \"removal mechanism\" or \"giving record\" are easy to read past, but a Tuesday organized around them is not.",
     'forefront': "The page's thesis in one place. First, the single question the documented record could not answer. Then the widest gap between what the institution says and what the record shows, one cost of leaving set beside how it is officially denied, and the strongest objection to this whole page, answered rather than dismissed.",
-    'healthy': "What genuinely works in {name}, stated first and separately from any critique. That is a standing rule of this book: no tradition is reduced to its worst documented moments. Anything criticised later is measured against the best of what is described here.",
+    'healthy': "What genuinely works in {name}, stated first and separately from any critique. That is a standing rule of this book: no tradition is reduced to its worst documented moments. Anything criticized later is measured against the best of what is described here.",
     'history': "A dated timeline and a few moments where the direction changed. Dates matter because they show that most rules had a beginning. A rule that began in a particular year, for a particular reason, is a rule that can be examined, and sometimes retired.",
     'branches': "{name} is not one bloc. This section maps the main branches and variants, so that nothing documented about one community is read as true of all of them.",
-    'structure': "The organisational chart: how many people and institutions there are, where authority sits, who holds the top office, and who holds what beneath it. The question to keep in mind is simple: if the person at the top got something badly wrong, what written procedure exists to correct or remove them?",
+    'structure': "The organizational chart: how many people and institutions there are, where authority sits, who holds the top office, and who holds what beneath it. The question to keep in mind is simple: if the person at the top got something badly wrong, what written procedure exists to correct or remove them?",
     'law': "What states actually do. That includes how they fund, protect, regulate or enforce the tradition, and which outside body, if any, can compel an answer from it. For most readers, this is where the institution meets their own passport.",
-    'money': "Where the money comes from, how each flow is justified, how it can be used to control, and who benefits. Read it the way you would read any organisation you give to: what is disclosed, what is not, and who decides.",
+    'money': "Where the money comes from, how each flow is justified, how it can be used to control, and who benefits. Read it the way you would read any organization you give to: what is disclosed, what is not, and who decides.",
     'genealogy': "Rules with a history. Each card asks the same three questions: what was this rule originally for, has that reason expired, and who benefits from the rule continuing anyway?",
     'reach': "How far the institution's authority extends into three private areas: what members may read and hear, how children are raised and schooled, and decisions about their own bodies.",
     'techniques': "A fixed checklist of thirty influence and control patterns from research on coercive control and social psychology, applied here to institutions rather than to individual people. Every entry carries an evidence grade. The grade matters more than the name of the technique: Codified or Documented means there is a paper trail; Contested means the claim is disputed.",
@@ -128,7 +128,7 @@ INTROS = {
     'regional': "The same tradition under different governments. What a member can say, leave, marry or inherit depends heavily on the state, and these cards show how differently it plays out.",
     'questions': "The six questions the documented record could not resolve. Each is expanded below: why it is being asked, and a concrete example already on this page that it points back to.",
     'leaving': "Practical, non-theological guidance for someone who needs to step back or step away safely. It is a safety document, not an argument.",
-    'help': "Organisations that can help, each checked directly against its own site, with the date of the check. Nothing here is endorsed beyond that check.",
+    'help': "Organizations that can help, each checked directly against its own site, with the date of the check. Nothing here is endorsed beyond that check.",
     'sources': "Every numbered citation on this page, with a named, checkable source. Spot-check a few before trusting the rest; that is the honest way to read any page in this book, including this one.",
     'changed': "A dated log of corrections to this page. Mistakes are logged publicly rather than quietly edited away.",
 }
@@ -191,7 +191,7 @@ def _default_foryou(rid, slug):
             "Pick one rule that shapes your week and look for it on the timeline. If it has a start date, it was decided by people at a particular moment, for reasons of that moment. "
             "Were you taught it as timeless? What would it mean for you if it turned out to be younger than your grandparents' grandparents?"),
         'branches': (
-            f"If you know one community of {name}, you know one community. Most bad generalisations about a religion, and most unfair defences of it, come from treating one branch as the whole. "
+            f"If you know one community of {name}, you know one community. Most bad generalizations about a religion, and most unfair defenses of it, come from treating one branch as the whole. "
             "Which branch is the one you picture when you hear the name? Is that picture yours, or one you were given by news coverage or by the community itself?"),
         'structure': (
             (f"The practical question for you: **{chosen}**. " if chosen else "The practical question for you is who chooses the top office, and who could remove its holder. ")
@@ -240,7 +240,7 @@ def _default_foryou(rid, slug):
             "Every change described here was once called impossible by someone inside the tradition. "
             "When you are told something \"can't change\", it is fair to ask: can't, or won't? And who decided?"),
         'voices': (
-            "Were these people traitors, or the most loyal members their tradition had? Most were treated as the first at the time, and some are honoured as the second now. "
+            "Were these people traitors, or the most loyal members their tradition had? Most were treated as the first at the time, and some are honored as the second now. "
             "If someone in your community raised one of these questions tomorrow, how would they be treated, and by you?"),
         'regional': (
             (f"This page covers {_join_and(f['regions'])}. " if f['regions'] else "")
