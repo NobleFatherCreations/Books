@@ -79,4 +79,4 @@ Checked 2026-09-27.
 | **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** [26] |
 
 ## changed
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers, Voices from inside, three regional cards, Leaving safely and Where to get help; the 1592 and 1621 splits are sourced to finding aids pending a scholarly source.
+- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers, Voices from inside, three regional cards, Leaving safely and Where to get help; the 1592 and 1621 splits are sourced to reference summaries.

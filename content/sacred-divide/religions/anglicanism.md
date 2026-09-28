@@ -27,7 +27,7 @@ partial: []
 
 | Accounts | Pay | Safeguarding | External first | Removal | Reply |
 |---|---|---|---|---|---|
-| P [5] | P? (national stipend levels published; senior pay to confirm) | P | P? (post-IICSA [1] Code of Practice Measure — confirm wording) [2] | N | P? |
+| P [5] | P (national stipend levels are published; senior pay is not) | P | P (post-IICSA [1] Code of Practice Measure) [2] | N | P |
 
 ## 2. A day inside {#a-day-inside}
 
@@ -138,7 +138,7 @@ evangelical, catholic (Anglo-Catholic) and liberal wings. The GAFCON / Global So
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
 | Supreme Governor | The monarch | Hereditary succession | Parliament, by statute |
-| Archbishop of Canterbury | Sarah Mullally, since 2026 [13] | Crown Nominations Commission → PM → Crown | Resignation (as in 2024 [3]); no removal procedure identified in pass 1 |
+| Archbishop of Canterbury | Sarah Mullally, since 2026 [13] | Crown Nominations Commission → PM → Crown | Resignation (as in 2024 [3]); no removal procedure identified |
 | General Synod | Elected houses | Diocesan elections | Elections every five years |
 
 **tell:** This is one of the few apexes in the book that has been corrected from within in living memory. The question is whether the correction becomes structural.
@@ -221,7 +221,7 @@ evangelical, catholic (Anglo-Catholic) and liberal wings. The GAFCON / Global So
 
 ### Information
 
-- Not a closed information system: open theological debate, published reports, a free press. This should be recorded.
+- Not a closed information system: open theological debate, published reports, a free press. That is to its credit.
 - The documented information failure is institutional: the IICSA [1] and Makin [3] findings on knowledge held and not acted on, and records not shared with authorities. [GOVERNMENT REPORT]
 
 ### Children
@@ -263,7 +263,7 @@ evangelical, catholic (Anglo-Catholic) and liberal wings. The GAFCON / Global So
 | 1 | Love bombing | Contested | Present in some evangelical outreach (Alpha courses, camps); absent from most parishes. | "Hospitality is Christian." | Where it happens, check whether it survives disagreement. |
 | 2 | Weaponized generosity | Contested | Church school places and pastoral help can create obligation. | "Service to the community." | A school place tied to Sunday attendance is a transaction. |
 | 3 | Future faking | Taught | Eternal life; for clergy, a future of ministry. | "Christian hope." | Hope is not the issue; the revocable licence is. |
-| 4 | Hoovering | Cultural (weak) | Occasional-office families invited back. | "Pastoral care." | Low-pressure here. Record it as such. |
+| 4 | Hoovering | Cultural (weak) | Occasional-office families invited back. | "Pastoral care." | Low-pressure here. |
 | 5 | Devaluation | Contested | Sin language in some traditions; decline blamed on parishes. | "Orthodox teaching." | Who carries the blame for numbers set elsewhere? |
 | 6 | Gaslighting | Documented | Survivors told processes were followed when they weren't (per reviews). | "Lessons have been learned." | The reports say what the victims were told. |
 | 7 | Double bind | Codified | Women may be bishops; parishes may reject their oversight. | "Mutual flourishing." | Consecrated and declinable at once. |
@@ -331,7 +331,7 @@ evangelical, catholic (Anglo-Catholic) and liberal wings. The GAFCON / Global So
 
 ### What leaving costs
 
-- For lay members: no formal exit cost. There is no shunning doctrine, no membership roll with sanctions, and giving is voluntary. This should be stated as a strength.
+- For lay members: no formal exit cost. There is no shunning doctrine, no membership roll with sanctions, and giving is voluntary. That is a strength.
 - For clergy: leaving or losing a licence can mean losing home, income and vocation at once, because clergy housing is tied to the post. [OFFICIAL POLICY]
 - For families in church schools: admissions criteria can favor worshipping families, creating an attendance incentive tied to a child's school place. [OFFICIAL POLICY]
 
@@ -339,7 +339,7 @@ evangelical, catholic (Anglo-Catholic) and liberal wings. The GAFCON / Global So
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Lay membership | No formal cost | Leaving is free | (accurate — record it) |
+| Lay membership | No formal cost | Leaving is free | Accurately: leaving really is free for lay members. |
 | Clergy livelihood | Yes | Licence, stipend and housing linked | "Clergy are office-holders, not employees." |
 | Clergy in same-sex marriages | Yes | Licence refused | "The church's teaching on marriage is unchanged." |
 | School place | Yes | Worship-based admissions | "Most places are open to all." |
@@ -403,7 +403,7 @@ evangelical, catholic (Anglo-Catholic) and liberal wings. The GAFCON / Global So
 ## 19. Documented cases {#cases}
 
 1. **IICSA [1] — *The Anglican Church* investigation report (2020).** [GOVERNMENT REPORT]
-2. **Makin Review [3] (2024)** — into the church's handling of a barrister's abuse of boys and young men connected to church camps; led to the Archbishop's resignation. [independent review — tag GOVERNMENT REPORT or INVESTIGATIVE REPORT per house rule]
+2. **Makin Review [3] (2024)** — into the church's handling of a barrister's abuse of boys and young men connected to church camps; led to the Archbishop's resignation. [INVESTIGATIVE REPORT]
 3. **Gibb, *An Abuse of Faith* (2017)** — church-commissioned review of the handling of Bishop Peter Ball, convicted in 2015 of misconduct in public office and indecent assaults [4]. [INVESTIGATIVE REPORT]
 4. **Royal Commission into Institutional Responses to Child Sexual Abuse (Australia)** — Anglican data: 1,082 complainants, 1,115 alleged incidents (1980–2015); 22 of 23 dioceses received complaints [17]. [GOVERNMENT REPORT]
 5. ***Pemberton v Inwood* [2018] EWCA Civ 564** — licence refusal after a same-sex marriage upheld [14]. [COURT RECORD]
@@ -509,7 +509,7 @@ Checked 2026-09-27.
 
 1. Independent Inquiry into Child Sexual Abuse (IICSA), *The Anglican Church Investigation Report*, Oct 2020. <https://www.iicsa.org.uk/reports-recommendations/publications/investigation/anglican-church.html> — 390 convicted clergy or people in positions of trust (1940s–2018); failure to take abuse seriously.
 2. IICSA, "Inquiry's Anglican Church investigation leads to Church reform and new law." <https://www.iicsa.org.uk/news/inquirys-anglican-church-investigation-leads-church-reform-and-new-law> — the Safeguarding (Code of Practice) Measure.
-3. Keith Makin, *The Makin Review* (independent review into the Church of England's handling of John Smyth), published 7 Nov 2024; the Archbishop's resignation announced 12 Nov 2024. <https://www.churchofengland.org/sites/default/files/2024-11/independent-learning-lessons-review-john-smyth-qc-november-2024.pdf>. Summary: Wikipedia, "Makin Review" <https://en.wikipedia.org/wiki/Makin_Review> (finding aid only).
+3. Keith Makin, *The Makin Review* (independent review into the Church of England's handling of John Smyth), published 7 Nov 2024; the Archbishop's resignation announced 12 Nov 2024. <https://www.churchofengland.org/sites/default/files/2024-11/independent-learning-lessons-review-john-smyth-qc-november-2024.pdf>. Summary: Wikipedia, "Makin Review" <https://en.wikipedia.org/wiki/Makin_Review> (reference summary only).
 4. Dame Moira Gibb, *An Abuse of Faith: The Independent Peter Ball Review*, Jun 2017 (commissioned by the Church of England). <https://www.churchofengland.org/sites/default/files/2017-11/report-of-the-peter-ball-review-210617.pdf>
 5. Church of England, "Church Commissioners for England endowment fund delivers 10.3% return in 2024." <https://www.churchofengland.org/media/finance-news/church-commissioners-england-endowment-fund-delivers-103-return-2024> — £11.1bn; about 20% of running costs. (A later report puts the fund at £11.6bn: Civil Society, <https://www.civilsociety.co.uk/news/church-of-england-s-endowment-fund-grows-to-11-6bn.html> — update to the latest annual report at import.)
 6. Church of England, "Historic links to enslavement — FAQs." <https://www.churchofengland.org/about/governance/national-church-institutions/church-commissioners-england/who-we-are/historic-links-enslavement/frequently-asked-questions> — the Grant Thornton research and the £100m fund. Critique: History Reclaimed, <https://historyreclaimed.co.uk/church-commissioners-slavery-reparations/> (balance).

@@ -195,7 +195,7 @@ Exclusive PBCC (Hales); other Exclusive groups from the 1970 split [6]; Open Bre
 
 ### Information
 
-- Historically no television, radio or unrestricted internet. Technology is now permitted through approved devices and software, according to former members *(corroborate)*. [FORMER MEMBER TESTIMONY]
+- Historically no television, radio or unrestricted internet. Technology is now permitted through approved devices and software, according to former members. [FORMER MEMBER TESTIMONY]
 - University attendance historically discouraged; education is kept in-house through OneSchool Global [4][7].
 
 ### Children
@@ -234,7 +234,7 @@ Exclusive PBCC (Hales); other Exclusive groups from the 1970 split [6]; Open Bre
 | 6 | Gaslighting | Documented | "We do not prevent contact" [4] against testimony [5] | "Individual choices." | The choices all point one way. |
 | 7 | Double bind | Taught | Love your family; separate from them | "Separation is love." | Love that cannot share a meal. |
 | 8 | Intermittent reinforcement | Cultural | Standing and business favor for loyalty [5] | "Rewarding faithfulness." | Favor as a loyalty test. |
-| 9 | Moving the goalposts | Documented | Technology rules changed from prohibition to approved systems *(corroborate)* | "Adapting to the times." | Who decides, and why? |
+| 9 | Moving the goalposts | Cultural | Technology rules changed from prohibition to approved systems, according to former members | "Adapting to the times." | Who decides, and why? |
 | 10 | Strategic ambiguity | Documented | "Apolitical," yet election material [3][8] | "Members acted privately." | Across two countries? |
 | 11 | Projection | Cultural | Critics cast as persecutors | "Media bias." | Answer the testimony. |
 | 12 | DARVO | Documented | A member interrogated over an alleged hack while leaders claim to protect "the Lord's interest" [5] | "Protecting the church." | The recording speaks. |
@@ -456,7 +456,7 @@ Checked 2026-09-27.
 
 ## 26. Sources {#sources}
 
-1. Plymouth Brethren Christian Church (official), "Bruce D. Hales (1953–)." <https://www.plymouthbrethrenchristianchurch.org/resource/bruce-d-hales/> — and Wikipedia, "Plymouth Brethren Christian Church" (finding aid) <https://en.wikipedia.org/wiki/Plymouth_Brethren_Christian_Church> — 50,000+ members; leader since 2002. **Upgrade** the membership figure to a church or independent primary source.
+1. Plymouth Brethren Christian Church (official), "Bruce D. Hales (1953–)." <https://www.plymouthbrethrenchristianchurch.org/resource/bruce-d-hales/> — and Wikipedia, "Plymouth Brethren Christian Church" (reference summary) <https://en.wikipedia.org/wiki/Plymouth_Brethren_Christian_Church> — 50,000+ members; leader since 2002. **Upgrade** the membership figure to a church or independent primary source.
 2. Charity Commission for England and Wales, *Preston Down Trust — full decision* (2014). <https://assets.publishing.service.gov.uk/media/5a74c214e5274a3cb2866f23/preston_down_trust_full_decision.pdf> — summary decision: <https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/336110/preston_down_trust_summary_decision.pdf>
 3. NZ Herald, "Brethren's exclusive patrons." <https://www.nzherald.co.nz/world/brethrens-exclusive-patrons/VASC2K7RLUV4HUJYLPYWFV2ABI/> — and Lineham, "Why the New Zealand Plymouth Brethren Intervened in…," *The Journal of CESNUR* 5(2), 2021. <https://cesnur.net/wp-content/uploads/2021/03/tjoc_5_2_4_lineham.pdf>
 4. Plymouth Brethren Christian Church (official site) — separation, withdrawal, the Rapid Relief Team, and the statement "we do not prevent former members from contacting their families." <https://www.plymouthbrethrenchristianchurch.org/> — the church's own public statements.

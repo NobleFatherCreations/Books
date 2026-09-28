@@ -31,13 +31,13 @@ The movement's key stages:
 - A registered religious corporation in Japan, subject to the Religious Corporations Law as revised in 1995 [11].
 
 ## money
-- Financial contributions (zaimu, 財務) solicited from members; former members and commentators describe the major annual drives as larger in the past [8]. *(Needs a scholarly or primary source for current practice.)*
+- Financial contributions (zaimu, 財務) solicited from members; former members and commentators describe the major annual drives as larger in the past [8]. Current practice is not established from a primary source.
 - The daily *Seikyo Shimbun* has long claimed a circulation of about 5.5 million. That figure is unverifiable: the paper is outside Japan's official circulation-audit system [8]. Members' work selling subscriptions is documented in scholarship [5].
 - Publishing, cultural centres and Soka University [1].
 
 ## exit
 - The main costs of leaving are social (tight local districts) and familial (multi-generational membership) [5]. [PATTERN OBSERVED]
-- **No formal shunning doctrine was found in pass 1.** Record the lower formal exit cost as a relative strength.
+- **No formal shunning doctrine was found.** That lower formal exit cost is a relative strength.
 
 ## whoBenefits
 - The organization, and the party it founded, Komeito (founded 1964) [3].
@@ -79,7 +79,7 @@ The movement's key stages:
 - A strong mentor–disciple framing around Ikeda [6].
 
 ## children
-- Multi-generational membership and youth-division activities [5]. No documented harms specific to children found in pass 1.
+- Multi-generational membership and youth-division activities [5]. No documented harms specific to children was found.
 
 ## gender
 - A large, influential Women's Division, central to local organization and electoral work, per scholarship [5]. Top leadership has historically been male.
@@ -136,7 +136,7 @@ You may chant every morning and feel your life change. You may have marched for 
 | Hook | Human revolution: happiness through chanting and practice | Benefits promised, attributed, never audited. |
 | Devalue | Unhappiness attributed to insufficient practice | Who decides what is "insufficient"? |
 | Confuse | "Separate" from the party, yet campaigning for it [3][5] | Which is it? |
-| Isolate | Weak compared with other pages in this book | Record it honestly. |
+| Isolate | Weak compared with other pages in this book | Weak here, and worth saying so. |
 | Extract | Contributions, newspaper sales, election labor [5][8] | Whose time funds whose seats? |
 | Discard | No formal mechanism found | — |
 | Replace | The district continues | — |
@@ -190,7 +190,7 @@ You may chant every morning and feel your life change. You may have marched for 
 
 ## loopHere (the seven loops)
 1. **Money:** Contributions and newspaper sales fund the organization that teaches their value [5][8].
-2. **Fear:** Weak. Record as weak.
+2. **Fear:** Weak.
 3. **Children:** Multi-generational membership [5].
 4. **Aid:** Peace work and UN status build legitimacy.
 5. **Labor:** Election labor built political power [5].
@@ -254,7 +254,7 @@ You may chant every morning and feel your life change. You may have marched for 
 **documented cases**
 1. **The 1969–70 "publication obstruction incident" and Ikeda's apology of 3 May 1970** [3]. [ACADEMIC SOURCE]
 2. **The 1995 French National Assembly report (Guyard)** [10]. [GOVERNMENT REPORT — contested]
-3. *(No adjudicated case concerning internal coercion found in pass 1. Record the absence.)*
+3. *No adjudicated case concerning internal coercion was found.*
 
 ---
 
@@ -275,13 +275,13 @@ You may chant every morning and feel your life change. You may have marched for 
 | 11 | Projection | Cultural | Critics cast as enemies of peace | "Persecution by rivals." | Critics include scholars [5]. |
 | 12 | DARVO | Contested | The 1970 apology denied any intent to obstruct speech [3] | "No intent." | The pressure was documented [3]. |
 | 13 | Normalization | Cultural | Campaigning as ordinary faith practice [5] | "Engaged Buddhism." | Engagement with one party only. |
-| 14 | Isolation | Cultural (weak) | Social life centered on the district | "Community." | Weak here. Record it. |
+| 14 | Isolation | Cultural (weak) | Social life centered on the district | "Community." | Weak here. |
 | 15 | Triangulation | Cultural | Family, district and mentor align | "Shared purpose." | — |
 | 16 | Flying monkeys | Cultural | Members contact friends for votes | "Sharing our values." | The friend becomes a target. |
 | 17 | Smear campaign | Contested | The 1969–70 pressure on a critic's publisher [3] | "Defending our reputation." | Reputation is defended by answers. |
 | 18 | Stonewalling | Cultural | Accounts not published to members in Japan; national charities abroad publish theirs [2] | "Private religious matters." | Members pay; members may ask. |
 | 19 | Manufactured consent | Cultural | Votes "freely" given within organized drives [5] | "Citizens choose." | Choosing inside a quota. |
-| 20 | Trauma bonding | Ungraded | — | — | Nothing found; record the absence. |
+| 20 | Trauma bonding | Ungraded | — | — | Nothing found. |
 | 21 | Learned helplessness | Ungraded | — | — | Nothing found. |
 | 22 | Benevolent control | Taught | Guidance from district leaders | "Encouragement." | Guidance you can decline is fine. |
 | 23 | Infantilization | Ungraded | — | — | Nothing found. |
@@ -289,7 +289,7 @@ You may chant every morning and feel your life change. You may have marched for 
 | 25 | Spiritual bypassing | Cultural | Illness or crisis answered with "chant more" | "Faith gives strength." | Chanting is not a treatment. |
 | 26 | Financial control | Cultural | Zaimu; newspaper subscriptions [5][8] | "Voluntary support." | Publish the accounts. |
 | 27 | Manufactured crisis | Cultural | Election urgency | "Every vote counts." | Urgency on a schedule. |
-| 28 | Discard | Ungraded | No formal mechanism found | — | Record the absence. |
+| 28 | Discard | Ungraded | No formal mechanism found | — | None found. |
 | 29 | Replacement | Ungraded | — | — | — |
 | 30 | Plausible deniability | Documented | "Members vote freely"; "the party is separate" [3][5] | "Formal separation." | Organized by the religion's own structure [5]. |
 
@@ -304,9 +304,9 @@ You may chant every morning and feel your life change. You may have marched for 
 5. McLaughlin, Levi. *Soka Gakkai's Human Revolution: The Rise of a Mimetic Nation in Modern Japan.* University of Hawaiʻi Press, 2019. <https://uhpress.hawaii.edu/title/soka-gakkais-human-revolution-the-rise-of-a-mimetic-nation-in-modern-japan/> — review: H-Net (Metraux). <https://networks.h-net.org/node/20904/reviews/3917943/metraux-mclaughlin-soka-gakkai%E2%80%99s-human-revolution-rise-mimetic-nation> — also McLaughlin, "Komeito's Soka Gakkai Protesters and Supporters," *Asia-Pacific Journal*. <https://apjjf.org/levi-mclaughlin/4386> — electoral mobilization; newspaper subscriptions; the Women's Division. **Cite page numbers at import.**
 6. Soka Gakkai (global), "Passing of President Ikeda." <https://www.sokaglobal.org/in-society/news/passing-of-president-ikeda.html> — Tricycle obituary. <https://tricycle.org/article/daisaku-ikeda-dies/>
 7. Tsunesaburo Makiguchi Website, "Biography." <https://www.tmakiguchi.org/biography.html> — Introvigne, "The Detention of Tsunesaburo Makiguchi and Josei Toda," *The Journal of CESNUR* 9(5), 2025. <https://cesnur.net/wp-content/uploads/2025/09/tjoc_9_5_6_introvigne.pdf>
-8. Wikipedia, "Seikyo Shimbun" (finding aid: the 5.5M claim; outside the official audit bureau) <https://en.wikipedia.org/wiki/Seikyo_Shimbun> — and "Soka Gakkai" (zaimu). **Replace both with** a scholarly or press primary source before import.
+8. Wikipedia, "Seikyo Shimbun" (reference summary: the 5.5M claim; outside the official audit bureau) <https://en.wikipedia.org/wiki/Seikyo_Shimbun> — and "Soka Gakkai" (zaimu). These are reference summaries, so the claims that rest on them are stated cautiously on this page.
 9. Soka Gakkai (global), *The Basics of Nichiren Buddhism*, ch. 10 (excommunication, 28 Nov 1991). <https://www.sokaglobal.org/resources/study-materials/buddhist-study/the-basics-of-nichiren-buddhism-for-the-new-era-of-worldwide-kosen-rufu/chapter-10.html>
-10. Wikipedia, "Parliamentary Commission on Cults in France" (finding aid: the Guyard report of 22 Dec 1995; 172 movements; the controversy and defamation complaint). <https://en.wikipedia.org/wiki/Parliamentary_Commission_on_Cults_in_France> — the Assemblée nationale report is no. 2468. CESNUR critique: <https://www.cesnur.org/2003/vil2003_dericquebourg.htm>
+10. Wikipedia, "Parliamentary Commission on Cults in France" (reference summary: the Guyard report of 22 Dec 1995; 172 movements; the controversy and defamation complaint). <https://en.wikipedia.org/wiki/Parliamentary_Commission_on_Cults_in_France> — the Assemblée nationale report is no. 2468. CESNUR critique: <https://www.cesnur.org/2003/vil2003_dericquebourg.htm>
 11. Tokihisa Sumimoto, "Religious Freedom Problems in Japan: Background and Current Prospects," *The International Journal of Peace Studies* 5(2) — the December 1995 revision of the Religious Corporation Law; Shizuka Kamei's statement. <https://www3.gmu.edu/programs/icar/ijps/vol5_2/sumimoto.htm>
 12. Religion in Modern Asia Newsletter (Kokugakuin University), "Revised Religious Corporations Law (Japan)" (1 Jan 1996) — passed by the Diet on 8 Dec 1995. <http://www2.kokugakuin.ac.jp/ijcc/asia-nl/news/news000050.html>
 13. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. <https://humanists.uk/faith-to-faithless/helpline/>

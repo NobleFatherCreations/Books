@@ -66,6 +66,13 @@ def arg(flag, default):
 BASE = arg('--base', '')                                   # '' = relative (local preview)
 PDF_BASE = arg('--pdf-base', '../sacred-divide-pdf/')
 EXT = arg('--ext', '.html')
+OUT = arg('--out', OUT)
+LIVE = '--live' in sys.argv[1:]
+# The owner's standing decision for the live site (sites.json, 2026-09-27): keep Cloudflare's
+# anonymous visit counter and state it plainly. Added to the live build only, never to previews.
+BEACON = ('<script defer type="module" src="https://static.cloudflareinsights.com/beacon.min.js" '
+          'data-cf-beacon=\'{"token": "c8d1aea530814aea8c7a92baa2accef3"}\'></script>')
+VERSION, RELEASED = 'v4', '2026-09-28'
 
 
 def e(t):
@@ -818,7 +825,19 @@ def pullq(h):
     return h[:m.start(3)] + new_p + h[m.end(3):], re.sub(r'<[^>]+>', '', q.group(1)).strip()
 
 
+GRADE_WORDS = ('Codified', 'Documented', 'Taught', 'Cultural', 'Contested', 'Reformed', 'Ungraded')
+
+
+def grade_chips(h):
+    def cell(mm):
+        g = mm.group(1)
+        return f'<td><span class="chip g-{g.lower()}">{g}</span>{mm.group(2)}</td>'
+    return re.sub(r'<td>(' + '|'.join(GRADE_WORDS) + r')((?:\s*\([^)<]*\))?)</td>', cell, h)
+
+
 def polish(slug, h):
+    if slug == 'techniques':
+        h = grade_chips(h)
     if slug == 'at-a-glance':
         h = seals(dossier(h))
     if slug == 'a-day-inside':
@@ -840,6 +859,7 @@ def page(title, desc, body, slug, fonts):
 <style>{fonts}</style>
 <style>{CSS}</style>
 <style>{REFINE_CSS}</style>
+<style>{TREE_CSS if slug == 'index' else ''}</style>
 <style id="nf-chrome-css">{css_chrome}</style>
 </head><body>
 <a class="skip" href="#main">Skip to the reading</a>
@@ -848,6 +868,7 @@ def page(title, desc, body, slug, fonts):
 <script>{JS}</script>
 <script>{TOOLS_JS}</script>
 <script id="nf-chrome-js">{js_chrome}</script>
+{BEACON if LIVE else ''}
 </body></html>'''
 
 
@@ -987,28 +1008,100 @@ def ledger():
             f'<div class="tw"><table><thead><tr><th scope="col">Tradition</th>{heads}</tr></thead><tbody>{"".join(rows)}</tbody></table></div></section>')
 
 
-def index_page():
-    cards = []
-    for n, (fid, fname, members) in enumerate(FAMILIES, 1):
-        items = ''.join(f'<li><a href="{href(m)}"><span class="nm">{e(narr.facts(m)["title"])}</span>'
-                        f'<span class="uq">{e(unanswered(m))}</span></a></li>' for m in members)
-        cards.append(f'<article class="family reveal" id="{fid}"><div class="fnum">Family {n:02d} · {len(members)} tradition{"s" if len(members) != 1 else ""}</div>'
-                     f'<h2>{e(fname)}</h2><ol>{items}</ol></article>')
+def tree():
     total = sum(len(m) for _, _, m in FAMILIES)
-    body = f'''<main id="main">
-<div class="home-hero"><div class="eyebrow">Noble Father Creations</div><h1>The Sacred Divide</h1>
-<p class="lead">Honor the faith. Name the machinery. {total} traditions in {len(FAMILIES)} families, each held to the same 27-section standard and the same rule: nothing goes in that can't be traced to a source.</p>
-<ul class="how">
-<li><b>One page per tradition</b>Read it top to bottom, or jump straight to a section. Every page has the same 27 sections in the same order.</li>
-<li><b>Why it matters to you</b>Each section closes with a short note on where the finding touches an ordinary reader, and a question worth asking.</li>
-<li><b>Compare, section by section</b>Every section has a Compare button: the same section from other traditions slides in beside it, and follows you as you scroll.</li>
-</ul></div>
-<div class="families">{"".join(cards)}</div>
+    branches = []
+    for n, (fid, fname, members) in enumerate(FAMILIES, 1):
+        leaves = ''.join(f'<li><a href="{href(m)}">{e(narr.facts(m)["title"])}</a></li>' for m in members)
+        branches.append(f'<li class="branch reveal" id="{fid}"><div class="node"><span class="fnum">Family {n:02d}</span>'
+                        f'<h3>{e(fname)}</h3><ol class="leaves">{leaves}</ol></div></li>')
+    return (f'<section class="tree" id="families" aria-labelledby="h-tree"><div class="root"><span class="seal-sm" aria-hidden="true"></span>'
+            f'<h2 id="h-tree">The family tree</h2><p>{total} traditions · {len(FAMILIES)} families</p></div>'
+            f'<ol class="branches">{"".join(branches)}</ol></section>')
+
+
+TREE_CSS = r"""
+.home-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;max-width:1240px;margin:0 auto;padding:16px 24px}
+.home-bar .brand{font:400 18px/1 var(--display);color:var(--ink);text-decoration:none}
+.entrance{max-width:1240px;margin:0 auto;padding:clamp(64px,12vh,136px) 24px 72px;text-align:center}
+.entrance .eyebrow{display:block}
+.entrance h1{font:400 clamp(52px,9vw,120px)/1.02 var(--display);margin:24px auto 40px;color:#F6EFE4;letter-spacing:-.015em;text-wrap:balance}
+.entrance .statement{font:400 clamp(21px,2.5vw,27px)/1.55 var(--serif);color:var(--ink);max-width:36ch;margin:0 auto 24px;text-wrap:pretty}
+.entrance .statement em{color:var(--acc-bright)}
+.entrance .standard{font:italic 400 clamp(18px,2vw,21px)/1.5 var(--serif);color:var(--ink2);max-width:40ch;margin:0 auto 48px}
+.entrance .down{display:inline-flex;flex-direction:column;align-items:center;gap:12px;color:var(--ink3);text-decoration:none;font:600 12px/1 var(--serif);letter-spacing:.22em;text-transform:uppercase}
+.entrance .down::after{content:"";width:1px;height:64px;background:linear-gradient(var(--acc),transparent)}
+.entrance .down:hover{color:var(--acc-bright)}
+.tree{position:relative;max-width:1120px;margin:0 auto;padding:0 24px 120px}
+.tree .root{position:relative;text-align:center;margin:0 auto 56px;padding:24px 0 0}
+.tree .root h2{font:400 clamp(32px,4vw,44px)/1.1 var(--display);margin:16px 0 8px;color:#F6EFE4}
+.tree .root p{margin:0;font:600 12px/1 var(--serif);letter-spacing:.22em;text-transform:uppercase;color:var(--acc)}
+.seal-sm{display:inline-block;width:18px;height:18px;transform:rotate(45deg);border:1px solid var(--acc);box-shadow:0 0 0 4px var(--bg),0 0 0 5px rgba(201,163,91,.4)}
+.branches{list-style:none;margin:0;padding:0;position:relative}
+.branches::before{content:"";position:absolute;left:50%;top:-40px;bottom:0;width:1px;
+  background:linear-gradient(rgba(201,163,91,.7),rgba(201,163,91,.35) 85%,transparent)}
+.branch{position:relative;width:calc(50% - 48px);margin:0 0 40px}
+.branch:nth-child(odd){margin-right:auto} .branch:nth-child(even){margin-left:auto}
+.branch::before{content:"";position:absolute;top:44px;width:48px;height:1px;background:rgba(201,163,91,.5)}
+.branch:nth-child(odd)::before{right:-48px} .branch:nth-child(even)::before{left:-48px}
+.branch::after{content:"";position:absolute;top:39px;width:10px;height:10px;transform:rotate(45deg);background:var(--bg);border:1px solid var(--acc)}
+.branch:nth-child(odd)::after{right:-54px} .branch:nth-child(even)::after{left:-54px}
+.node{background:var(--surface);border:1px solid var(--line2);border-radius:16px;padding:28px 28px 20px;transition:border-color .25s var(--ease),transform .25s var(--ease)}
+.node:hover{border-color:var(--line);transform:translateY(-2px)}
+@media (prefers-reduced-motion:reduce){.node,.node:hover{transition:none;transform:none}}
+.node .fnum{font:600 12px/1 var(--serif);letter-spacing:.24em;text-transform:uppercase;color:var(--acc);font-variant-numeric:lining-nums}
+.node h3{font:400 clamp(26px,2.6vw,32px)/1.15 var(--display);margin:12px 0 16px;color:#F6EFE4}
+.leaves{list-style:none;margin:0;padding:0 0 0 16px;border-left:1px solid var(--line)}
+.leaves li{position:relative;margin:0}
+.leaves li::before{content:"";position:absolute;left:-16px;top:50%;width:10px;height:1px;background:var(--line)}
+.leaves a{display:block;padding:8px 8px;margin:0 -8px 0 0;border-radius:8px;text-decoration:none;color:var(--ink);font:400 20px/1.3 var(--display);
+  transition:background .2s var(--ease),color .2s var(--ease)}
+.leaves a:hover{background:var(--acc-soft);color:var(--acc-bright)}
+@media (max-width:760px){
+  .branches::before{left:0;top:-24px}
+  .branch,.branch:nth-child(odd),.branch:nth-child(even){width:calc(100% - 32px);margin:0 0 24px 32px}
+  .branch:nth-child(odd)::before,.branch:nth-child(even)::before{left:-32px;right:auto;width:32px}
+  .branch:nth-child(odd)::after,.branch:nth-child(even)::after{left:-5px;right:auto;margin-left:-32px}
+  .tree .root{text-align:left;margin-bottom:40px}
+  .node{padding:24px 20px 16px}
+}
+.updates{max-width:1240px;margin:0 auto;padding:48px 24px 120px;border-top:1px solid var(--line2);color:var(--ink2)}
+.updates h2{font:600 12px/1 var(--serif);letter-spacing:.2em;text-transform:uppercase;color:var(--ink3);margin:0 0 16px}
+.updates .ver{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:4px 14px;color:var(--acc);font-size:14px;letter-spacing:.06em;margin:0 0 16px}
+.updates ul{max-width:70ch;padding-left:20px;font-size:16px} .updates li{margin:0 0 8px}
+.updates .privacy{max-width:70ch;font-size:15px;color:var(--ink3)}
+"""
+
+UPDATES = [
+    "A new edition: one page for each of 34 traditions, grouped into 10 families, every page built on the same 27 sections.",
+    "Every section now opens with a short note on what it shows, and closes with a note on why it matters to you.",
+    "Compare any section side by side with the same section from other traditions.",
+    "Tap a citation to read its source in place. Every page has a quick-exit button.",
+    "Each tradition can be downloaded as a PDF, in a standard or an expanded edition.",
+    "Fact-check corrections are applied throughout; each page lists its own in \"What changed on this page\".",
+]
+
+
+def index_page():
+    total = sum(len(m) for _, _, m in FAMILIES)
+    updates = ''.join(f'<li>{e(u)}</li>' for u in UPDATES)
+    privacy = ('This site keeps an anonymous visit count (Cloudflare Web Analytics, which sets no cookies). '
+               'Nothing you read, compare or print is stored, and no page asks who you are.') if LIVE else \
+              'Preview build: no visit counter. The live build adds only an anonymous visit count.'
+    body = f'''<header class="home-bar"><a class="brand" href="{home()}">The Sacred Divide</a>
+<a class="qx" href="https://www.google.com/search?q=weather" rel="noreferrer" data-quick-exit title="Leaves this page at once (or press Escape twice)">Quick exit</a></header>
+<main id="main">
+<section class="entrance" aria-labelledby="h-entrance"><span class="eyebrow">Noble Father Creations</span>
+<h1 id="h-entrance">The Sacred Divide</h1>
+<p class="statement">Faith is honored here. What is examined is the institution built around it: <em>who holds power, where the money goes, what leaving costs, and who is protected when something goes wrong.</em></p>
+<p class="standard">{total} traditions, one standard, and nothing that can't be traced to a source.</p>
+<a class="down" href="#families">Begin with the family tree</a></section>
+{tree()}
 {ledger()}
-<footer class="colophon" id="updates"><h2>About this edition</h2>
-<p><span class="badge">Redesign preview</span> Built from the v4 fact-checked record. Every page is self-contained: no trackers, no external requests, and it works offline. Each page offers the standard PDF and an expanded PDF with the same narration.</p></footer>
+<footer class="updates" id="updates" aria-labelledby="h-updates"><h2 id="h-updates">Updates</h2>
+<span class="ver">{VERSION} — {RELEASED}</span><ul>{updates}</ul><p class="privacy">{privacy}</p></footer>
 </main>'''
-    return page('The Sacred Divide — Noble Father Creations', 'How institutional power works inside 34 religious traditions: one sourced page each, with a note on why each finding matters to you.', body, 'index', '{FONTS}')
+    return page('The Sacred Divide — Noble Father Creations', 'How institutional power works inside 34 religious traditions, each held to one standard and every claim sourced.', body, 'index', '{FONTS}')
 
 
 def main():

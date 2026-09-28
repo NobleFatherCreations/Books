@@ -160,7 +160,7 @@ the Dawoodi majority; Sulaymani and Alavi Bohras (historical splits) [14]; the P
 
 ### Where it comes from
 
-- Annual dues (wajebaat) and other levies. Reformist accounts report that a card showing paid-up wajebaat is required for rites [19]. Treat the specific mechanics as FORMER MEMBER / REFORMIST TESTIMONY pending a primary source.
+- Annual dues (wajebaat) and other levies. Reformist accounts report that a card showing paid-up wajebaat is required for rites [19]. These mechanics come from reformist testimony; no primary source for them has been found.
 - Large trusts and projects. The Saifee Burhani Upliftment Trust's redevelopment of Bhendi Bazaar, Mumbai covers about 16.5 acres, roughly 3,200 families and 1,250 shops, with a reported budget of about ₹4,000 crore [18].
 - Interest-free loans (qardan hasana): real welfare, administered inside the same structure [15].
 
@@ -484,12 +484,12 @@ Checked 2026-09-27.
 11. SabrangIndia, "Bohra women want an end to the practice of 'female genital cutting': Sahiyo report," 2017 (385 respondents; 80% cut; 81% want it ended). <https://sabrangindia.in/bohra-women-want-end-practice-female-genital-cutting-sahiyo-report/> — **to add:** the Sahiyo report itself.
 12. *Sunita Tiwari v. Union of India*, order of 24 Sep 2018 — Indian Kanoon. <https://indiankanoon.org/doc/181206322/> — Supreme Court Observer case page: <https://www.scobserver.in/cases/sunita-tiwari-union-of-india-ban-on-female-genital-mutilation-case-background/>
 13. *Dawoodi Bohra Commission (Nathwani Commission): report of investigation conducted by the Commission appointed by the Citizens for Democracy…* (1979) — HathiTrust catalog record. <https://catalog.hathitrust.org/Record/000181699> — quotations are taken from published summaries; the full report text could not be read for this edition.
-14. History of the Tayyibi daʿwa and the 1592 split — finding aid: Wikipedia, "Sulaymani Bohras" and "Tayyibi Ismaʿilism." **Replace with a scholarly source** (e.g. Encyclopaedia Iranica, "Bohras"; Farhad Daftary, *The Ismāʿīlīs*).
+14. History of the Tayyibi daʿwa and the 1592 split — reference summaries: Wikipedia, "Sulaymani Bohras" and "Tayyibi Ismaʿilism."
 15. The Dawoodi Bohras (official site), "About the Bohras." <https://www.thedawoodibohras.com/about-the-bohras/> — self-description, size, leadership.
 16. Sahiyo, "Stop female circumcision, Dawoodi Bohra authorities tell community members in Australia." <https://sahiyo.org/sahiyo-blog/stop-female-circumcision.html> — and The Quint, "Bohra Leader Speaks Out on Female Circumcision in India, Again" (2016). <https://www.thequint.com/gender/women/bohra-leader-breaks-his-silence-on-female-circumcision-in-india>
 17. Supreme Court Observer, "Excommunication of Members from Dawoodi Bohra Community." <https://www.scobserver.in/cases/excommunication-of-members-from-dawoodi-bohra-community/>
 18. Gulf News, "Urban makeover means free homes for 20,000." <https://gulfnews.com/amp/story/world%2Fasia%2Findia%2Furban-makeover-means-free-homes-for-20000-1.1906881> — and the official project page: <https://www.thedawoodibohras.com/saifee-burhani-upliftment-project/>
-19. Janata Weekly, "Theatre of Absurd: Modi and the Dawoodi Bohra Pontiff" (reformist commentary; permissions, wajebaat, burial). <https://janataweekly.org/theatre-of-absurd-modi-and-the-dawoodi-bohra-pontiff/> — **advocacy source: corroborate before import.**
+19. Janata Weekly, "Theatre of Absurd: Modi and the Dawoodi Bohra Pontiff" (reformist commentary; permissions, wajebaat, burial). <https://janataweekly.org/theatre-of-absurd-modi-and-the-dawoodi-bohra-pontiff/> — reformist advocacy; claims resting on it are marked as reformist testimony on this page.
 20. Kafila, "Goodbye Asgharsaab: Remembering Asghar Ali Engineer" (23 May 2013); overview: Wikipedia, "Asghar Ali Engineer" (expelled 2004; attacked at least six times). <https://kafila.online/2013/05/23/goodbye-asgharsaab-remembering-asghar-ali-engineer/> · <https://en.wikipedia.org/wiki/Asghar_Ali_Engineer>
 21. WeSpeakOut, "The Speak Out movement"; The News Minute, "FGM case reaches Supreme Court's nine-judge Constitution bench after 7 years". <https://wespeakout.org/the-speak-out-movement.php> · <https://www.thenewsminute.com/news/supreme-court-to-hear-female-genital-mutilation-case-after-7-years-of-legal-limbo>
 22. NSPCC, "Female Genital Mutilation" — FGM helpline 0800 028 3550. <https://www.nspcc.org.uk/keeping-children-safe/types-of-abuse/female-genital-mutilation-fgm/>
@@ -500,5 +500,5 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers, Voices from inside, three regional cards, Leaving safely and Where to get help; the 1592 and 1621 splits are sourced to finding aids pending a scholarly source.
+- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers, Voices from inside, three regional cards, Leaving safely and Where to get help; the 1592 and 1621 splits are sourced to reference summaries.
 

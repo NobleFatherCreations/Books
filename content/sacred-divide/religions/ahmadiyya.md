@@ -27,7 +27,7 @@ partial: []
 
 | Accounts | Pay | Safeguarding | External first | Removal | Reply |
 |---|---|---|---|---|---|
-| P (UK register) [13] | N | P (published policy) [21] | P? (policy refers criminal concerns to police; confirm it precedes internal process) [21] | N | N |
+| P (UK register) [13] | N | P (published policy) [21] | P (the published policy refers criminal concerns to police; it does not say whether that happens before any internal process) [21] | N | N |
 
 ## 2. A day inside {#a-day-inside}
 
@@ -292,7 +292,7 @@ Chanda is a fixed share of income — 1/16 for Chanda Aam, with Wasiyyat pledges
 3. **Children:** Waqf-e-Nau and auxiliary membership from age seven produce the next cohort of office-bearers.
 4. **Aid:** Humanitarian work (Humanity First) and interfaith events buy genuine public standing, which also shields the community from scrutiny of internal rules.
 5. **Labor:** Volunteer duty (Jalsa, security, construction) builds property held centrally.
-6. **Scandal:** No adjudicated internal scandal was found in pass 1. One unverified report of a Charity Commission inquiry after abuse allegations (2022) surfaced only via a former-member blog; find the Commission's own record or drop it. **Record the absence honestly if nothing is confirmed.**
+6. **Scandal:** No adjudicated internal scandal was found. A report of a 2022 Charity Commission inquiry after abuse allegations appears only on a former-member blog. It is not relied on here, because the Commission's own record of it has not been found.
 7. **Persecution:** Real persecution converts internal criticism into betrayal. This is the loop that protects the other six.
 
 ## 14. Say versus do {#say-do}
@@ -307,7 +307,7 @@ Chanda is a fixed share of income — 1/16 for Chanda Aam, with Wasiyyat pledges
 
 ### Accountability or theatre?
 
-- **Last ran:** No documented internal case found in pass 1 (see loop 6).
+- **Last ran:** No documented internal case found (see loop 6).
 - **Chair now:** The Khalifa and the national amirs he appoints.
 - **Predict:** Any internal reform will be announced from the pulpit as guidance, not conceded as a correction.
 
@@ -400,7 +400,7 @@ Chanda is a fixed share of income — 1/16 for Chanda Aam, with Wasiyyat pledges
 2. ***Zaheeruddin v. State* (Supreme Court of Pakistan, 1993)** — upheld Ordinance XX's criminalization of Ahmadi religious practice. [COURT RECORD]
 3. **Lahore mosque attacks, 28 May 2010** — 94 killed in coordinated attacks on two mosques. Human Rights Watch was still calling for prosecution of suspects in 2012 [6]. [INVESTIGATIVE REPORT]
 4. **Cikeusik, Indonesia (6 Feb 2011)** — three Ahmadis killed by a mob; twelve attackers sentenced to three to six months; a wounded Ahmadi was also jailed for six months [8]. [COURT RECORD]
-5. **Internal machinery:** none found in the public record in pass 1. The one employment-tribunal case found (*Rehman v Ahmad*, UKEAT/0117/12) concerns an imam's employment and is **not yet confirmed** to involve this community. Check before use.
+5. **Internal machinery:** none found in the public record.
 
 ## 20. Precedent {#precedent}
 
