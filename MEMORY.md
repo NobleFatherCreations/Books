@@ -3582,3 +3582,25 @@ Dubai would follow") and an architecture that imports each religion's MD into th
   fling (element jumps from below to above the viewport between frames, no intersection change is
   ever reported). The redesign uses a rAF-throttled scroll check instead, plus reveal-all at page end.
 - **Not deployed.** Nothing here ships without the owner's explicit go-ahead.
+
+## Update (2026-09-28, later) — refinement pass + compare layer on the redesign
+
+- **Owner's call:** outside dependencies are not crucial for The Sacred Divide; small-detail luxury is
+  wanted, information stays the focal point. Took the advice to stay on the static generator (no
+  React/Vite/Tailwind/Framer app) and to skip the filesystem + puppeteer MCP servers. BOOKS.md updated.
+- **Added to `scripts/sacred-divide-site.py`:** dossier glance (dl + unanswered-question pull quote);
+  scorecard as six stamped seals; drop cap on A day inside; docket cases (place · year eyebrow, label
+  column); help table → contact cards with `tel:` links (vanity numbers converted by keypad); closing
+  question of each caption as a pull-question (794 of 918); outlined section numerals + hairline gilt
+  rule with a diamond; paper grain; evidence stamp in the hero; source pop-ups on every citation;
+  Quick exit (button, or Escape twice; `location.replace` keeps the page out of Back); "Questions to
+  take with you" list with print-only CSS; the disclosure ledger (34 × 6) on the home page.
+- **Compare layer (the horizontal axis):** a Compare button on every section opens the same section
+  from other traditions — side pane on desktop, pull-up sheet on phones — as scroll-snap cards you
+  swipe or arrow through; family siblings by default, any tradition via the picker; the page's own
+  scroll re-aims every card to the section you're reading; state lives in the URL (`?vs=<id>#<section>`),
+  never storage. Cards are fetched from the sibling page and their ids stripped / anchors re-pointed.
+  **Needs http(s)** — from file:// it shows a link instead. Test with `python3 -m http.server` in the folder.
+- **Rejected on evidence:** `content-visibility:auto` made section jumps land one section early on
+  phones (estimated heights); removed. A stacking rule for the grain briefly un-pinned the compare panel
+  and the rail — caught in screenshots, fixed.

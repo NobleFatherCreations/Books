@@ -113,6 +113,15 @@ approves the swap. A separate full redesign
 (`library/_undeployed/sacred-divide-faith-redesign.html`, parchment + dark,
 three-register tactic entries) is still undeployed, user's call.
 
+**Design stance, updated by the owner (2026-09-28):** the no-outside-dependencies rule is not
+crucial for this project, and "polished, small-detail luxury" is wanted — *with the information kept
+the focal point*. Read that as: refined material details that serve the evidence (dossier layout for
+the glance, the scorecard as stamped seals, docket-style cases, contact cards with tap-to-call, source
+pop-ups, outlined section numerals, hairline gilt rules with a diamond ornament, faint paper grain,
+pull-questions), not decoration for its own sake. Still no progress bar, no tracking, no storage.
+The owner accepted the advice to keep building on the static generator rather than a React/Vite app,
+and to skip the filesystem/puppeteer MCP servers (redundant with native file access and Playwright).
+
 **Reference adaptation:**
 - Stripe Press — ⚠️ a cover/title moment is fine in spirit, but keep it
   restrained — this book's whole design language (per Sacred Divide's own
