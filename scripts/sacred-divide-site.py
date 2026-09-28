@@ -836,6 +836,7 @@ def page(title, desc, body, slug, fonts):
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}"><meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#141010">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%23141010%27/%3E%3Cpath d=%27M16 5 27 16 16 27 5 16z%27 fill=%27none%27 stroke=%27%23C9A35B%27 stroke-width=%272%27/%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%273%27 fill=%27%23C9A35B%27/%3E%3C/svg%3E">
 <style>{fonts}</style>
 <style>{CSS}</style>
 <style>{REFINE_CSS}</style>
