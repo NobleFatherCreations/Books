@@ -19,6 +19,11 @@ partial: []
 |  |  |
 |---|---|
 | Size | at least 10–20 million by independent estimates; the community claims tens of millions [17]. |
+| Who's in charge | Khalifatul Masih (the Khalifa) — Mirza Masroor Ahmad, since 2003 |
+| Chosen by / removable by | An electoral college of senior office-bearers / No one; the office is held for life |
+| Money in one line | Compulsory graded contributions: one-sixteenth of income after tax for every earning member, and more under the Wasiyyat scheme [1]. |
+| Leaving in one line | Expulsion cuts a person off from the Jamaat, which says they "will not have any connection" with it afterwards [12]. |
+| The unanswered question | If the Khalifa errs, what written procedure corrects him — and why is there none? |
 | Family | Islam — islam, sunni-islam, shia-islam, ahmadiyya, dawoodi-bohra |
 | Last checked | 2026-09-27 |
 :::
@@ -48,6 +53,12 @@ partial: []
 
 ::: lede
 You may have grown up being told that your community is the true Islam, and watched the state of Pakistan write into its constitution that you are not a Muslim at all. You may have buried someone killed for praying. Nothing on this page takes that away or weighs it lightly. This page is about something else: what the system you belong to asks of you, who decides, and what happens to the people who stop saying yes.
+:::
+
+### The unanswered question
+
+::: question
+If the Khalifa errs, what written procedure corrects him — and why is there none?
 :::
 
 ### The strongest objection, answered
@@ -98,10 +109,6 @@ Founded in British India when Mirza Ghulam Ahmad (1835–1908) took the pledge o
 | 1974 | A parliament defines a faith | Pakistan's National Assembly declared Ahmadis non-Muslim by constitutional amendment. | The clearest case in this book of a state deciding a religion's identity. |
 | 1984 | The apex moves to London | After Ordinance XX, the fourth Khalifa left Pakistan. | Persecution globalized the institution and moved its center into a jurisdiction with charity regulation. |
 
-**compel:** In the UK and other charity-law jurisdictions, the charity regulator over community charities, and the civil courts for employment and property. In Pakistan, the courts are the persecutor, not a remedy.
-
-**revise:** Published, audited worldwide accounts, and a written procedure for appeal against expulsion, would revise this page's findings on disclosure and exit.
-
 ## 6. Branches & variants {#branches}
 
 the Ahmadiyya Muslim Community (caliphate, Qadian lineage) and the much smaller Lahore Ahmadiyya Movement (no caliphate; regards the founder as a reformer, not a prophet).
@@ -137,9 +144,9 @@ the Ahmadiyya Muslim Community (caliphate, Qadian lineage) and the much smaller 
 | National Amir (UK) | Rafiq Hayat [22] | The Khalifa | The Khalifa |
 | Sadr Anjuman Ahmadiyya | Appointed officers | The Khalifa | The Khalifa |
 
-**tell:** Every chair on this page is filled by, or answers to, one man. That is the design, and members experience it as unity.
-
-**unanswered:** If the Khalifa errs, what written procedure corrects him — and why is there none?
+::: tell
+Every chair on this page is filled by, or answers to, one man. That is the design, and members experience it as unity.
+:::
 
 ### Who holds what
 
@@ -159,6 +166,10 @@ the Ahmadiyya Muslim Community (caliphate, Qadian lineage) and the much smaller 
 | **Pakistan** | Declared non-Muslim by constitutional amendment (1974) [4] | Ordinance XX (1984) makes it a crime for Ahmadis to "pose as Muslims", call their places of worship mosques, or use Islamic greetings; the Supreme Court upheld it in 1993 [5]; a separate electoral list and a passport declaration against their founder [14]; blasphemy allegations are common [3]. |
 | **Indonesia** | A 2008 joint ministerial decree orders them to stop spreading their teaching [7] | The decree preceded mob violence, including the Cikeusik killings of 2011 [8]. |
 | **United Kingdom** | Legally free; the community's global headquarters | The UK charity files public accounts [13][24] and publishes a safeguarding policy [21]. |
+
+### Who can compel an answer
+
+In the UK and other charity-law jurisdictions, the charity regulator over community charities, and the civil courts for employment and property. In Pakistan, the courts are the persecutor, not a remedy.
 
 ## 9. Money {#money}
 
@@ -319,8 +330,6 @@ Chanda is a fixed share of income — 1/16 for Chanda Aam, with Wasiyyat pledges
 | Itaat | Obedience | A real spiritual virtue, also the standard against which every question is measured | "Your question is disobedience." |
 | Chanda | Financial sacrifice | Converts a fixed percentage into devotion | "Your faith has a rate." |
 
-**regional cards:** Pakistan (the state as persecutor; Ordinance XX; the passport declaration); United Kingdom (charity regulation; the community's global HQ); Indonesia (the 2008 decree; MUI fatwas).
-
 ## 15. Cost & cover {#cost}
 
 ### What leaving costs
@@ -412,6 +421,10 @@ Chanda is a fixed share of income — 1/16 for Chanda Aam, with Wasiyyat pledges
 | Public filing of charity accounts in the UK | Community trustees | Ongoing | — (a strength to record) |
 | A published safeguarding policy that refers criminal concerns to police and statutory bodies [21] | AMA UK trustees | 2022, revised 2024 | — (a strength to record) |
 | *(still open: evidence of internal reforms to marriage or discipline rules)* | | | |
+
+### What would change this page
+
+Published, audited worldwide accounts, and a written procedure for appeal against expulsion, would revise this page's findings on disclosure and exit.
 
 ## 21. Voices from inside {#voices}
 

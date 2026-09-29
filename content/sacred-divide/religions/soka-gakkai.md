@@ -19,9 +19,20 @@ partial: []
 |  |  |
 |---|---|
 | Size | 8.27M households (Japan, self-reported); ~3M outside Japan [1]. |
+| Who's in charge | President — Minoru Harada, since 2006 [1] |
+| Chosen by / removable by | Organizational process / Internal |
+| Money in one line | Member contributions (zaimu) and subscriptions to the daily Seikyo Shimbun, whose claimed 5.5 million circulation is unaudited [8]. |
+| Leaving in one line | No formal shunning; the cost is social and familial, in tight local districts and multi-generational families [5]. |
+| The unanswered question | Who decides which candidate is kosen-rufu? |
 | Family | Buddhism — buddhism, tibetan-buddhism, soka-gakkai |
 | Last checked | 2026-09-27 |
 :::
+
+### Disclosure scorecard
+
+| Accounts | Pay | Safeguarding | External first | Removal | Reply |
+|---|---|---|---|---|---|
+| P (the UK charity files public accounts; the Japanese organization's are not public) [2] | N | P (the UK branch publishes safeguarding procedures) [16] | N (UK procedure: police for immediate danger; other allegations go first to an internal safeguarding team) [16] | P (a four-year presidential term, renewed by a selection committee; no mid-term removal procedure found) [17] | N |
 
 ## 2. A day inside {#a-day-inside}
 
@@ -42,6 +53,12 @@ partial: []
 
 ::: lede
 You may chant every morning and feel your life change. You may have marched for nuclear disarmament. Your movement's founder died in a prison cell rather than bow to a state god. This page asks what happens when a religion builds a political party, and whose unpaid work turns out the votes.
+:::
+
+### The unanswered question
+
+::: question
+Who decides which candidate is kosen-rufu?
 :::
 
 ### The strongest objection, answered
@@ -96,10 +113,6 @@ The movement's key stages:
 | 1970 | The apology | A publisher pressured; Ikeda's apology; separation adopted [3]. | The religion–party question named. |
 | 2025 | The exit | Komeito leaves government [4]. | Twenty-six years in power end. |
 
-**compel:** Japan's Religious Corporations Act; tax authorities; elections.
-
-**revise:** Published accounts, an audited newspaper circulation, and a public statement that members' votes are their own.
-
 ## 6. Branches & variants {#branches}
 
 Soka Gakkai; Nichiren Shoshu, the priesthood, separate since 1991 [9].
@@ -133,8 +146,6 @@ Soka Gakkai; Nichiren Shoshu, the priesthood, separate since 1991 [9].
 | President | Minoru Harada, since 2006 [1] | Organizational process | Internal |
 | Mentor (honorary president) | Vacant since Nov 2023 [6] | — | — |
 
-**unanswered:** Who decides which candidate is kosen-rufu?
-
 ### Who holds what
 
 | Entity | Type | Holder | Holds | Sector | Receipt |
@@ -152,6 +163,10 @@ Soka Gakkai; Nichiren Shoshu, the priesthood, separate since 1991 [9].
 | **Japan — politics** | Religious bodies may support parties | Soka Gakkai founded Komeito in 1964; after the 1969–70 book-suppression affair the two were formally "separated" [3] |
 | **France** | A 1995 parliamentary report listed Soka Gakkai among 172 movements [10] | The listing was itself controversial [10] |
 | **United Kingdom** | Charity law [2] | SGI-UK files public accounts [2] |
+
+### Who can compel an answer
+
+Japan's Religious Corporations Act; tax authorities; elections.
 
 ## 9. Money {#money}
 
@@ -360,6 +375,8 @@ Soka Gakkai; Nichiren Shoshu, the priesthood, separate since 1991 [9].
 2. **The 1995 French National Assembly report (Guyard)** [10]. [GOVERNMENT REPORT — contested]
 3. *No adjudicated case concerning internal coercion was found.*
 
+---
+
 ## 20. Precedent {#precedent}
 
 ### It has been broken before
@@ -369,6 +386,10 @@ Soka Gakkai; Nichiren Shoshu, the priesthood, separate since 1991 [9].
 | Public apology and a formal separation policy [3] | The organization, under public pressure | 1970 | — |
 | Peace and anti-nuclear advocacy | Members | Ongoing | — |
 | Komeito's exit from the coalition over fundraising reform [4] | Komeito | 2025 | Its governing role |
+
+### What would change this page
+
+Published accounts, an audited newspaper circulation, and a public statement that members' votes are their own.
 
 ## 21. Voices from inside {#voices}
 
@@ -459,8 +480,11 @@ Checked 2026-09-27.
 13. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. <https://humanists.uk/faith-to-faithless/helpline/>
 14. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
 15. International Cultic Studies Association (ICSA). <https://internationalculticstudies.org/>
+16. SGI-UK, *Adults at risk protection guidelines and procedures* (2024–2025). <https://members.sgi-uk.org/sites/default/files/AdultsAtRiskProtectionGuidelinesAndProcedures2024_2025.pdf>
+17. Soka Gakkai (global), "Minoru Harada Reappointed as Soka Gakkai President" (26 Oct 2023): reappointed by the Soka Gakkai President Selection Committee; "The term of president is four years"; the term began 18 Nov 2023. <https://www.sokaglobal.org/in-society/news/soka-gakkai-president-reappointed.html>
 
 ## 27. What changed on this page {#changed}
 
 - **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (SGI-UK accounts 2020–2024), Voices from inside, three regional cards, Leaving safely and Where to get help.
+- **2026-09-29 — scorecard added:** safeguarding, police-first reporting and removal are rated from SGI-UK's published procedures and the organization's own 2023 announcement of the president's term [16][17]; accounts from the UK charity register [2]; leaders' pay and on-the-record replies to critics are not established from any public source.
 

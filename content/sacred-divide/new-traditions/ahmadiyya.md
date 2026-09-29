@@ -258,6 +258,10 @@ You may have grown up being told that your community is the true Islam, and watc
 
 **unanswered:** If the Khalifa errs, what written procedure corrects him — and why is there none?
 
+**money line:** Compulsory graded contributions: one-sixteenth of income after tax for every earning member, and more under the Wasiyyat scheme [1].
+
+**leaving line:** Expulsion cuts a person off from the Jamaat, which says they "will not have any connection" with it afterwards [12].
+
 **sector defense**
 - *Attack:* "You are adding fuel to the fire of people who kill us."
 - *Concede:* The persecution is real, lethal, legally codified in Pakistan, and documented on this very page before anything else. No criticism here lessens it.

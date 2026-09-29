@@ -19,6 +19,11 @@ partial: []
 |  |  |
 |---|---|
 | Size | Anglican Communion ~85M in 42 provinces [12]; Church of England: 1.009 million regular worshippers, 581,000 average Sunday attendance (2024) [10]. |
+| Who's in charge | Supreme Governor — The monarch |
+| Chosen by / removable by | Hereditary succession / Parliament, by statute |
+| Money in one line | A published £11.1bn endowment [5], the parish share paid to dioceses for clergy stipends and housing, and statutory fees for weddings and funerals. |
+| Leaving in one line | Free for lay members; for clergy, losing a licence can mean losing home, income and vocation at once. |
+| The unanswered question | Who, fully outside the church, now holds the power to compel it on safeguarding? |
 | Family | Christianity — christianity, catholicism, eastern-orthodoxy, oriental-orthodoxy, anglicanism, protestant-evangelical, pentecostal-charismatic, plymouth-brethren |
 | Last checked | 2026-09-27 |
 :::
@@ -48,6 +53,12 @@ partial: []
 
 ::: lede
 You may love your parish church: the building, the words of Evensong, the people who turned up with casseroles when your mother died. Nothing here is about that. This page is about three things that live above your pew: a church fused with a state, a clergy whose roof depends on a bishop's signature, and a safeguarding record that the church's own commissioned reviewers called a failure. The church published those reports. That counts, and it is recorded here.
+:::
+
+### The unanswered question
+
+::: question
+Who, fully outside the church, now holds the power to compel it on safeguarding?
 :::
 
 ### The strongest objection, answered
@@ -99,10 +110,6 @@ Formed when Henry VIII broke with Rome (Act of Supremacy, 1534), made the Englis
 | 2020 | The inquiry | IICSA [1]'s Anglican Church report. | A statutory body with compulsory powers found reputation came first. |
 | 2024 | The resignation | The Makin Review [3]; the Archbishop resigns. | The apex bears responsibility, rarely seen anywhere in this book. |
 
-**compel:** IICSA [1] (concluded); the Charity Commission, over church charities; employment tribunals and courts, over clergy; police and statutory agencies, on allegations; Parliament, on Measures.
-
-**revise:** Statutory, fully independent safeguarding oversight would revise the page's central finding.
-
 ## 6. Branches & variants {#branches}
 
 evangelical, catholic (Anglo-Catholic) and liberal wings. The GAFCON / Global South realignment since 2008 has seen some provinces break or impair communion with Canterbury over sexuality.
@@ -141,9 +148,9 @@ evangelical, catholic (Anglo-Catholic) and liberal wings. The GAFCON / Global So
 | Archbishop of Canterbury | Sarah Mullally, since 2026 [13] | Crown Nominations Commission → PM → Crown | Resignation (as in 2024 [3]); no removal procedure identified |
 | General Synod | Elected houses | Diocesan elections | Elections every five years |
 
-**tell:** This is one of the few apexes in the book that has been corrected from within in living memory. The question is whether the correction becomes structural.
-
-**unanswered:** Who, fully outside the church, now holds the power to compel it on safeguarding?
+::: tell
+This is one of the few apexes in the book that has been corrected from within in living memory. The question is whether the correction becomes structural.
+:::
 
 ### Who holds what
 
@@ -166,6 +173,10 @@ evangelical, catholic (Anglo-Catholic) and liberal wings. The GAFCON / Global So
 | **Uganda** | The Anti-Homosexuality Act 2023; the Church of Uganda welcomed it while opposing the death penalty [15] | The Archbishop of Canterbury publicly criticized that support [15] |
 | **Australia** | A Royal Commission examined the Anglican Church with other institutions [17] | 1,082 complainants and 22 of 23 dioceses with complaints, 1980–2015 [17] |
 | **Canada** | Residential schools for Indigenous children, some run by the Anglican Church [18] | The church apologized in 1993 [18] |
+
+### Who can compel an answer
+
+IICSA [1] (concluded); the Charity Commission, over church charities; employment tribunals and courts, over clergy; police and statutory agencies, on allegations; Parliament, on Measures.
 
 ## 9. Money {#money}
 
@@ -325,8 +336,6 @@ evangelical, catholic (Anglo-Catholic) and liberal wings. The GAFCON / Global So
 | "Pastoral reorganization" | Legal process for merging benefices | Makes property decisions administrative | "The building is being decided about elsewhere." |
 | "Lessons learned" | Post-review language | Converts findings into a future tense | "Nobody is being held responsible now." |
 
-**regional cards:** England (establishment; IICSA [1]; Makin [3]); Canada (residential schools; the 1993 apology [18]); Australia (Royal Commission: 1,082 complainants about 1,115 alleged incidents, 1980–2015 [17]); Uganda/Nigeria (GAFCON realignment [12]; the Church of Uganda's support for the 2023 Act [15]).
-
 ## 15. Cost & cover {#cost}
 
 ### What leaving costs
@@ -420,6 +429,10 @@ evangelical, catholic (Anglo-Catholic) and liberal wings. The GAFCON / Global So
 | Archbishop resigns after the Makin Review [3] | Survivors and campaigners | 2024 | Survivors' decades of pressure |
 | Slavery-links research published, with a fund | Church Commissioners | 2023 | Ongoing dispute about scale |
 | Canadian apology for residential schools | Anglican Church of Canada | 1993 | Survivors' lifetimes |
+
+### What would change this page
+
+Statutory, fully independent safeguarding oversight would revise the page's central finding.
 
 ## 21. Voices from inside {#voices}
 

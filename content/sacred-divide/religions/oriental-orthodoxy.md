@@ -19,9 +19,20 @@ partial: []
 |  |  |
 |---|---|
 | Size | about 60–70M (72M in a 2020 estimate cited by reference works) [1]. |
+| Who's in charge | Coptic Pope of Alexandria — Tawadros II, since 2012 [6] |
+| Chosen by / removable by | Electoral shortlist, then altar lot [6] / Death; no removal procedure |
+| Money in one line | Church land, monasteries and diaspora giving; in India two factions litigated for decades over about 1,100 churches [3]. |
+| Leaving in one line | In Egypt marriage and divorce run through the church and there is no civil marriage, so a failed marriage can have no way out [4]. |
+| The unanswered question | When the state removes a patriarch, who in the church says no? |
 | Family | Christianity — christianity, catholicism, eastern-orthodoxy, oriental-orthodoxy, anglicanism, protestant-evangelical, pentecostal-charismatic, plymouth-brethren |
 | Last checked | 2026-09-27 |
 :::
+
+### Disclosure scorecard
+
+| Accounts | Pay | Safeguarding | External first | Removal | Reply |
+|---|---|---|---|---|---|
+| P (rated on the Coptic Orthodox Church's UK body, which files public accounts; most churches in this family publish none) [24] | P (the UK filing discloses its highest earners in pay bands) [24] | P (declares a safeguarding policy to the regulator; its text is not published) [24] | N | N | N |
 
 ## 2. A day inside {#a-day-inside}
 
@@ -42,6 +53,12 @@ partial: []
 
 ::: lede
 You may keep a fast longer than most people in the world have ever fasted, sing a liturgy older than most nations, and belong to a church that has buried more of its martyrs than any page in this book can count. Nothing here makes light of that. This page is about what happens when a church survives by bargaining with states, and about who pays the price of the bargain inside it.
+:::
+
+### The unanswered question
+
+::: question
+When the state removes a patriarch, who in the church says no?
 :::
 
 ### The strongest objection, answered
@@ -109,10 +126,6 @@ These churches separated from Rome and Constantinople after the Council of Chalc
 | 1975–79 | The Derg | Land nationalized; the Patriarch executed [5]. | How quickly a state church becomes a state target. |
 | 2006 | Eritrea | A government removed a patriarch [2]. | State capture in its plainest form. |
 
-**compel:** Egyptian courts (personal status; confirmed the church's jurisdiction [4]); Indian courts (property [3]); Armenian criminal courts [12][13]; in Eritrea, nothing domestic. International bodies (USCIRF, UN) report without power to compel [2].
-
-**revise:** A civil-marriage option in Egypt; patriarchal selection and discipline free of state capture.
-
 ## 6. Branches & variants {#branches}
 
 six autocephalous churches in communion, plus internal splits (Malankara Orthodox and Jacobite [3]; Ethiopian regional crises [7]; the Tigrayan church's formation of its own administration in May 2021 after the Tigray war [17]).
@@ -158,9 +171,9 @@ six autocephalous churches in communion, plus internal splits (Malankara Orthodo
 | Eritrean Patriarch | Abune Basilios, since 2025 [18] | Synod under government oversight | Government, in practice (2006) [2] |
 | Catholicos of All Armenians | Karekin II, since 1999 [13][15] | National Ecclesiastical Assembly (two-thirds lay) [15] | No church procedure; now facing criminal trial [13] |
 
-**tell:** In at least two of these churches the removal column's real answer is "the government", and in a third the government is trying.
-
-**unanswered:** When the state removes a patriarch, who in the church says no?
+::: tell
+In at least two of these churches the removal column's real answer is "the government", and in a third the government is trying.
+:::
 
 ### Who holds what
 
@@ -181,6 +194,10 @@ six autocephalous churches in communion, plus internal splits (Malankara Orthodo
 | **Ethiopia** | The Derg nationalized rural land in 1975, including the church's [5] | The state settled the 2023 synod schism [7] |
 | **Armenia** | Criminal cases against senior clergy and the Catholicos, 2025–26 [12][13] | Twenty-five bishops publicly backed the Catholicos [13] |
 | **India** | Secular courts decide church property: the Supreme Court gave the Malankara Orthodox faction the right to administer about 1,100 churches (2017) [3] | Kerala's government has said it cannot implement the ruling [3] |
+
+### Who can compel an answer
+
+Egyptian courts (personal status; confirmed the church's jurisdiction [4]); Indian courts (property [3]); Armenian criminal courts [12][13]; in Eritrea, nothing domestic. International bodies (USCIRF, UN) report without power to compel [2].
 
 ## 9. Money {#money}
 
@@ -337,8 +354,6 @@ Most of these churches publish no accounts. In the UK, diaspora bodies registere
 | "Obedience to the fathers" | Deference to clergy | Ends lay questions | "Don't ask the bishop." |
 | "Unity of the church" | Communion | Invoked against dissent in splits [7] | "Your complaint divides us." |
 
-**regional cards:** Egypt [4][8][9][10]; Ethiopia [5][7]; Eritrea [2]; Armenia [12][13]; India [3].
-
 ## 15. Cost & cover {#cost}
 
 ### What leaving costs
@@ -421,7 +436,8 @@ Most of these churches publish no accounts. In the UK, diaspora bodies registere
 4. **Murder of Bishop Epiphanius (2018); former monk executed (2021); accomplice's sentence reduced to life** [11]. [COURT RECORD]
 5. **Armenia: archbishop sentenced to two years (Oct 2025) [12]; trial of the Catholicos and six bishops (2026)** [13]. [COURT RECORD]
 
-**scorecard (proposed):** mostly N, pending per-church research.
+
+---
 
 ## 20. Precedent {#precedent}
 
@@ -433,6 +449,10 @@ Most of these churches publish no accounts. In the UK, diaspora bodies registere
 | Supreme Court resolves Malankara ownership [3] | Litigants | 2017 | Decades; clashes; slow implementation |
 | Church-construction law replaces presidential approval [8] | Egyptian parliament | 2016 | Criticized as still restrictive [8] |
 | Bishops publicly back the Catholicos against state pressure [13] | Armenian bishops | 2025–26 | Prosecution of clergy |
+
+### What would change this page
+
+A civil-marriage option in Egypt; patriarchal selection and discipline free of state capture.
 
 ## 21. Voices from inside {#voices}
 
@@ -553,8 +573,10 @@ Checked 2026-09-27.
 21. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
 22. International Cultic Studies Association (ICSA). <https://internationalculticstudies.org/>
 23. NAPAC — 0808 801 0331. <https://napac.org.uk/calling-our-support-line/>
+24. Charity Commission for England and Wales, register entry: Coptic Orthodox Church Foundation for the Archdiocese of the United Kingdom and the Republic of Ireland, charity no. 265418 (accounts for the year to 30 Sep 2025; income £1,577,227; employees with total benefits over £60,000: two at £70k–£80k, one at £90k–£100k; declared policies include "Safeguarding policy and procedures"). <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/265418/full-print>
 
 ## 27. What changed on this page {#changed}
 
 - **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (UK Coptic accounts 2020–2024), Voices from inside, five regional cards, Leaving safely and Where to get help.
+- **2026-09-29 — scorecard added:** rated on the Coptic Orthodox Church's UK body, whose accounts, pay bands and declared safeguarding policy are on the charity register [24]; police-first reporting, a removal procedure and on-the-record replies are not established from any public source for any church in this family.
 

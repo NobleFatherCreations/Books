@@ -19,9 +19,20 @@ partial: []
 |  |  |
 |---|---|
 | Size | about 1 million [15]. |
+| Who's in charge | Daʿi al-Mutlaq — Mufaddal Saifuddin, since 2014 [15] |
+| Chosen by / removable by | Designation (nass) by the predecessor; contested, upheld by the Bombay High Court in 2024 (appeal filed) [4] / No one |
+| Money in one line | Annual dues (wajebaat) and levies, large community trusts [18], and interest-free loans run inside the same structure [15]. |
+| Leaving in one line | Excommunication (baraat) carries social boycott, including denial of mosque access and community burial [17]. |
+| The unanswered question | Why can a funeral need permission? |
 | Family | Islam — islam, sunni-islam, shia-islam, ahmadiyya, dawoodi-bohra |
 | Last checked | 2026-09-27 |
 :::
+
+### Disclosure scorecard
+
+| Accounts | Pay | Safeguarding | External first | Removal | Reply |
+|---|---|---|---|---|---|
+| P (UK community charities file public accounts, e.g. Anjuman-e-Burhani, London) [27] | N | P (the London charity declares a safeguarding policy to the regulator; its text is not published) [27] | N | N | N |
 
 ## 2. A day inside {#a-day-inside}
 
@@ -42,6 +53,12 @@ partial: []
 
 ::: lede
 You may belong to one of the most generous, well-organized communities in this book: loans without interest, a kitchen that feeds everyone, and a prayer life that shapes every day. Nothing here dismisses that. This page is about a permission system that can reach from your wedding to your grave, and about a practice done to little girls that courts in three countries have examined.
+:::
+
+### The unanswered question
+
+::: question
+Why can a funeral need permission?
 :::
 
 ### The strongest objection, answered
@@ -95,10 +112,6 @@ The community descends from the Fatimid Ismaili tradition through the Mustaʿli 
 | 2019–20 | Canberra, then Sydney | The High Court clarified the law [8]; retrials were ordered [9], then charges dropped [10]. | The law was fixed; this case was not. |
 | 2023 | Constitutional morality | The Supreme Court referred the 1962 precedent to nine judges [2]. | The central protection is back in question. |
 
-**compel:** Indian courts ([1][2][12]) and Maharashtra's boycott law [3]; criminal courts abroad ([5]–[10]); charity regulators over diaspora trusts.
-
-**revise:** A written, universal renunciation of khatna; published accounts; and an appeal procedure for baraat.
-
 ## 6. Branches & variants {#branches}
 
 the Dawoodi majority; Sulaymani and Alavi Bohras (historical splits) [14]; the Progressive Dawoodi Bohras; the Qutbi line that contested the 2014 succession [4].
@@ -136,8 +149,6 @@ the Dawoodi majority; Sulaymani and Alavi Bohras (historical splits) [14]; the P
 |---|---|---|---|
 | Daʿi al-Mutlaq | Mufaddal Saifuddin, since 2014 [15] | Designation (nass) by the predecessor; contested, upheld by the Bombay High Court in 2024 (appeal filed) [4] | No one |
 
-**unanswered:** Why can a funeral need permission?
-
 ### Who holds what
 
 | Entity | Type | Holder | Holds | Sector | Receipt |
@@ -155,6 +166,10 @@ the Dawoodi majority; Sulaymani and Alavi Bohras (historical splits) [14]; the P
 | **United States — FGC** | The 1996 federal FGM law was ruled unconstitutional in the first prosecution (2018); the case ended in 2021 [5][6] | Congress replaced the law in 2021 (STOP FGM Act) [7] |
 | **Australia — FGC** | The High Court held in 2019 that the practice falls within the offence [8] | Retrials ordered, then the case was dropped in 2020 [9][10] |
 | **United Kingdom — FGC** | Illegal, including taking a girl abroad for it; specialist support exists [22][23] | — |
+
+### Who can compel an answer
+
+Indian courts ([1][2][12]) and Maharashtra's boycott law [3]; criminal courts abroad ([5]–[10]); charity regulators over diaspora trusts.
 
 ## 9. Money {#money}
 
@@ -299,8 +314,6 @@ Members pay *wajebaat* and other dues to the office of the dai; no audited accou
 | Baraat | Excommunication | Social death [17] | "No one may know you." |
 | Misaq | Oath of allegiance | Allegiance before adulthood [13] | "You promised as a child." |
 
-**regional cards:** India [1][2][3][12]; United States [5][6][7]; Australia [8][9][10].
-
 ## 15. Cost & cover {#cost}
 
 ### What leaving costs
@@ -380,7 +393,8 @@ Members pay *wajebaat* and other dues to the office of the dai; no audited accou
 5. **Bombay High Court succession judgment, 23 Apr 2024** [4]. [COURT RECORD]
 6. **Nathwani Commission report (1979)** [13]. [INVESTIGATIVE REPORT — non-governmental]
 
-**scorecard (proposed):** Accounts N? · Pay N · Safeguarding ? · External first ? · Removal N · Reply N
+
+---
 
 ## 20. Precedent {#precedent}
 
@@ -393,6 +407,10 @@ Members pay *wajebaat* and other dues to the office of the dai; no audited accou
 | High Court of Australia clarifies the law [8] | NSW prosecutors | 2019 | No convictions followed [10] |
 | Maharashtra social-boycott law [3] | Reformers and legislators | 2016 | — |
 | Excommunication precedent sent for reconsideration [2] | Reformist petitioners | 2023 | Decades of litigation |
+
+### What would change this page
+
+A written, universal renunciation of khatna; published accounts; and an appeal procedure for baraat.
 
 ## 21. Voices from inside {#voices}
 
@@ -497,8 +515,10 @@ Checked 2026-09-27.
 24. Humanists UK, Faith to Faithless helpline. <https://humanists.uk/faith-to-faithless/helpline/>
 25. Wikipedia, "Sulaymani Bohras" (the 1592 split over the 27th dai) and "Alavi Bohra" (split 1621) — reference works; no scholarly source on these dates could be read for this edition. <https://en.wikipedia.org/wiki/Sulaymani> · <https://en.wikipedia.org/wiki/Alavi_Bohra>
 26. Karma Nirvana, national Honour Based Abuse Helpline. <https://karmanirvana.org.uk/get-help/helpline/>
+27. Charity Commission for England and Wales, register entry: Anjuman-e-Burhani (London), charity no. 1078595 (accounts and trustees' annual report for the year to 31 Dec 2024, received on time; declared policies include "Safeguarding policy and procedures"). <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/3957573/full-print>
 
 ## 27. What changed on this page {#changed}
 
 - **2026-09-27 — full page:** added Branches, Law & state, Money in numbers, Voices from inside, three regional cards, Leaving safely and Where to get help; the 1592 and 1621 splits are sourced to reference summaries.
+- **2026-09-29 — scorecard added:** accounts and safeguarding are rated from the UK charity register [27]; leaders' pay, police-first reporting, a removal procedure and on-the-record replies are not established from any public source.
 

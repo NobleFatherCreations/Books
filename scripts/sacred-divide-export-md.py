@@ -158,7 +158,9 @@ def xref_parts(md):
     """Split a new-tradition Cross-references block on its **label** lines."""
     parts, cur, buf = {}, None, []
     for line in md.splitlines():
-        m = re.match(r'^\*\*([a-z][a-z ()≥0-9]+?)\*\*:?\s*(.*)$', line)
+        # labels are written both as **label** and **label:** — the colon-inside form used to be
+        # skipped, which silently dropped every new tradition's unanswered question and tell line
+        m = re.match(r'^\*\*([a-z][a-z ()≥0-9]+?):?\*\*:?\s*(.*)$', line)
         if m:
             if cur: parts[cur] = '\n'.join(buf).strip()
             cur = m.group(1).split(' (')[0].strip()
@@ -400,8 +402,21 @@ def md_religion(B, rid):
     elif new:
         # the 7 new religions: their own fields, slotted into the same skeleton
         dem = new.get('demographics', '')
-        glance = [['Size', (re.search(r'\*\*adherents:\*\*\s*(.*)', dem) or [None, ''])[1]], ['Family', f'{fname} — ' + ', '.join(members)],
-                  ['The unanswered question', xr.get('unanswered', '')], ['Last checked', CHECKED]]
+        # the same rows the older pages carry, read from this page's own authority table and its
+        # money and leaving sections (first point, first sentence, citations kept)
+        apex_row = next(iter(re.findall(r'^\| (?!Office|---)([^|]+) \| ([^|]+) \| ([^|]+) \| ([^|]+) \|\s*$', xr.get('apex', ''), re.M)), None)
+        def first_point(md):
+            b = next((l[2:] for l in md.splitlines() if l.startswith('- ')), '')
+            b = re.sub(r'\s*\*\([^)]*\)\*', '', b).strip()
+            m2 = re.match(r'(.+?[.!?](?:\s*\[\d+\])*)(?=\s+[A-Z(]|$)', b)
+            return (m2.group(1) if m2 else b).strip()
+        glance = [['Size', (re.search(r'\*\*adherents:\*\*\s*(.*)', dem) or [None, ''])[1]]]
+        if apex_row:
+            glance += [["Who's in charge", f'{apex_row[0].strip()} — {apex_row[1].strip()}'],
+                       ['Chosen by / removable by', f'{apex_row[2].strip()} / {apex_row[3].strip()}']]
+        glance += [['Money in one line', xr.get('money line') or first_point(new.get('money', ''))],
+                   ['Leaving in one line', xr.get('leaving line') or first_point(new.get('exit', ''))],
+                   ['The unanswered question', xr.get('unanswered', '')], ['Family', f'{fname} — ' + ', '.join(members)], ['Last checked', CHECKED]]
         put('at-a-glance', box('glance', table(['', ''], [g for g in glance if g[1]])))
         if xr.get('scorecard'): put('at-a-glance', '### Disclosure scorecard\n\n' + xr['scorecard'])
         put('a-day-inside', new.get('day', ''))
@@ -442,7 +457,8 @@ def md_religion(B, rid):
         put('cases', xr.get('documented cases', ''))
         sub('precedent', 'It has been broken before', new.get('victories', ''))
         if xr.get('revise'): sub('precedent', 'What would change this page', xr['revise'])
-        if xr.get('regional cards'): put('regional', box('gap', 'Proposed cards, not yet written: ' + xr['regional cards']))
+        # (the old 'proposed regional cards' note is a planning list, not reader content; the finished
+        #  cards come from additions/<id>.md)
         put('questions', new.get('hardQuestions', ''))
         sub('questions', 'In closing', new.get('closing', ''))
 

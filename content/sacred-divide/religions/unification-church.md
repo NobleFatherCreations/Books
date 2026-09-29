@@ -19,6 +19,11 @@ partial: []
 |  |  |
 |---|---|
 | Size | disputed. Claims have ranged from one to ten million; at least 600,000 in the 1990s; about 60,000 official members in Japan, since declining [19]. |
+| Who's in charge | True Mother — Hak Ja Han Moon — sentenced to two years, Aug 2026 [14] |
+| Chosen by / removable by | Doctrinal succession / No internal procedure |
+| Money in one line | Donations, including "spiritual sales" in Japan: ordinary goods sold at extreme prices by invoking ancestral karma [12]. |
+| Leaving in one line | Leaving can mean losing an arranged spouse, family and community, especially for second-generation members [13]. |
+| The unanswered question | Why did the donations require courts to recover them? |
 | Family | New movements & the spiritual marketplace — scientology, new-age, unification-church |
 | Last checked | 2026-09-27 |
 :::
@@ -48,6 +53,12 @@ partial: []
 
 ::: lede
 You may have found here a family, a marriage, and a sense that your life fits inside God's history. Some of what you felt was real. This page is about what Japanese courts found was done with that feeling, what a Korean court found was done with church money, and what happened to the children whose parents gave everything.
+:::
+
+### The unanswered question
+
+::: question
+Why did the donations require courts to recover them?
 :::
 
 ### The strongest objection, answered
@@ -101,10 +112,6 @@ Founded in Seoul in 1954 as the Holy Spirit Association for the Unification of W
 | 2022 | The assassination | A family's ruin became a national question [9]. | Private harm becomes public fact. |
 | 2026 | Upheld; convicted | The Tokyo High Court upheld dissolution [5]; a Seoul court convicted the leader [14]. | Findings at both ends of the organization. |
 
-**compel:** Japanese civil courts and the Religious Corporations Act [4]; Japan's 2022 donations law [8]; Korean prosecutors and courts [14]; US federal courts, historically [2].
-
-**revise:** Published finances, and an independently verified end to solicitation practices.
-
 ## 6. Branches & variants {#branches}
 
 the Family Federation (Hak Ja Han); rival organizations led by two of Moon's sons (Sanctuary Church; Family Peace Association) [1].
@@ -143,8 +150,6 @@ Membership is disputed: claims have ranged from one to ten million; one scholarl
 | True Mother | Hak Ja Han Moon — sentenced to two years, Aug 2026 [14] | Doctrinal succession | No internal procedure |
 | Family Federation, Japan (legal corporation) | In liquidation after the High Court ruling [5] | — | A court: the Supreme Court special appeal is pending [6] |
 
-**unanswered:** Why did the donations require courts to recover them?
-
 ### Who holds what
 
 | Entity | Type | Holder | Holds | Sector | Receipt |
@@ -163,6 +168,10 @@ Membership is disputed: claims have ranged from one to ten million; one scholarl
 | **Japan — children** | The health ministry issued guidance in 2022 on child abuse linked to religious belief [20] | Second-generation members began speaking out publicly [13] |
 | **South Korea** | Bribery law [14][15] | Hak Ja Han was arrested in 2025 in a case involving a former president's wife, and sentenced to two years in August 2026 [14][15] |
 | **United States** | Tax law [2] | The founder was convicted of filing false tax returns in 1982 and sentenced to 18 months [2] |
+
+### Who can compel an answer
+
+Japanese civil courts and the Religious Corporations Act [4]; Japan's 2022 donations law [8]; Korean prosecutors and courts [14]; US federal courts, historically [2].
 
 ## 9. Money {#money}
 
@@ -315,8 +324,6 @@ Membership is disputed: claims have ranged from one to ten million; one scholarl
 | Blessing | Matched marriage | Family formed by the institution | "We choose your spouse." |
 | Lineage | God's restored bloodline | Makes exit a crime against your descendants | "Leaving damns your line." |
 
-**regional cards:** Japan (dissolution [4][5]; donations law [8]; spiritual sales [11][12]); South Korea (the 2026 conviction [14]); United States (1982 conviction [2]; Fraser Report [3]).
-
 ## 15. Cost & cover {#cost}
 
 ### What leaving costs
@@ -406,6 +413,10 @@ Membership is disputed: claims have ranged from one to ten million; one scholarl
 | Donation-solicitation law | Japanese Diet [8] | 2022 | Prompted by an assassination |
 | Dissolution ordered and upheld | Japanese government and courts [4][5] | 2025–26 | — |
 | Deprogramming ruled unlawful | A member confined for twelve years [16] | 2014 | Twelve years of his life |
+
+### What would change this page
+
+Published finances, and an independently verified end to solicitation practices.
 
 ## 21. Voices from inside {#voices}
 
@@ -497,8 +508,8 @@ Checked 2026-09-27.
 13. The Japan Times, "Second generation of Unification Church followers begin to speak out," 24 Oct 2022. <https://www.japantimes.co.jp/news/2022/10/24/national/second-generation-church/>
 14. AP via US News, "South Korea's Unification Church Leader Hak Ja Han Sentenced to 2 Years for Corruption," 31 Aug 2026. <https://www.usnews.com/news/world/articles/2026-08-31/south-koreas-unification-church-leader-hak-ja-han-sentenced-to-2-years-for-corruption>
 15. CNN, "Unification Church leader arrested in bribery case involving former South Korean president's wife," 22 Sep 2025. <https://www.cnn.com/2025/09/22/asia/unification-church-leader-arrested-bribery-case-south-korea-intl-hnk>
-16. Toru Goto confinement case: Tokyo District Court (Jan 2014); Tokyo High Court (13 Nov 2014); upheld by the Supreme Court. Reported by *The Washington Times*, 31 Jan 2014 <https://www.washingtontimes.com/news/2014/jan/31/man-wins-landmark-lawsuit-on-religious-oppression/>. **Disclosure:** the *Washington Times* was founded by the movement [1], and the other accounts found are church-sympathetic (Bitter Winter). The court outcome is not disputed; the judgment number has not yet been located in Japanese court records. USCIRF's Japan page notes the deprogramming reports: <https://www.uscirf.gov/publications/did-you-knowjapan>
-20. Ministry of Health, Labour and Welfare (Japan), Q&A on responding to child abuse related to religious beliefs, 27 Dec 2022. Official summary (Japanese), now hosted by the Children and Families Agency: <https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/fdf4848a-9194-4b7c-b228-1b7ed4847d58/cadea23b/20230401_policies_jidougyakutai_hourei-tsuuchi_175.pdf>
+16. Toru Goto confinement case: Tokyo District Court (Jan 2014); Tokyo High Court (13 Nov 2014); upheld by the Supreme Court. Reported by *The Washington Times*, 31 Jan 2014 <https://www.washingtontimes.com/news/2014/jan/31/man-wins-landmark-lawsuit-on-religious-oppression/>. **Disclosure:** the *Washington Times* was founded by the movement [1], and the other accounts found are church-sympathetic (Bitter Winter). The court outcome is not disputed. Tokyo High Court judgment of 13 Nov 2014, case no. 平成26年(ネ)第1143号, on appeal from Tokyo District Court case no. 平成23年(ワ)第2796号, as given in the judgment header reproduced by Japanese Wikipedia, "統一教会信徒の拉致監禁問題" <https://ja.wikipedia.org/wiki/統一教会信徒の拉致監禁問題>, which also records, quoting the US State Department's 2015 religious-freedom report, that the Supreme Court dismissed the defendants' appeal on 29 Sep 2015 and that the award totalled ¥22 million. USCIRF's Japan page notes the deprogramming reports: <https://www.uscirf.gov/publications/did-you-knowjapan>
+20. Ministry of Health, Labour and Welfare (Japan), Child and Family Bureau Director's notice 子発1227第1号, "Q&A on responding to child abuse related to religious beliefs", 27 Dec 2022 (15 pp.), now hosted by the Children and Families Agency: <https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/fdf4848a-9194-4b7c-b228-1b7ed4847d58/58d27fc6/20230401_policies_jidougyakutai_hourei-tsuuchi_155.pdf> — official summary: <https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/fdf4848a-9194-4b7c-b228-1b7ed4847d58/cadea23b/20230401_policies_jidougyakutai_hourei-tsuuchi_175.pdf>
 21. OHCHR, "Japan: UN experts concerned by continued stigmatisation of religious minorities," Oct 2025. <https://www.ohchr.org/en/press-releases/2025/10/japan-un-experts-concerned-continued-stigmatisation-religious-minorities>
 17. PBS NewsHour / AP, "Unification Church in Japan offers up to $66 million in compensation…," 2023. <https://www.pbs.org/newshour/world/unification-church-in-japan-offers-up-to-66-million-in-a-compensation-amid-scrutiny-of-fundraising-tactics>
 18. The Diplomat, "The Unification Church, Japan, and North Korea," Jan 2023. <https://thediplomat.com/2023/01/the-unification-church-japan-and-north-korea/> — Japan as the majority funding source; the 1971 national-guilt teaching.
@@ -511,4 +522,5 @@ Checked 2026-09-27.
 ## 27. What changed on this page {#changed}
 
 - **2026-09-27 — full page:** added Branches, Law & state, Money in numbers, Voices from inside, three regional cards, Leaving safely and Where to get help.
+- **2026-09-29 — sources completed:** the Tokyo High Court case number for the confinement ruling [16], the health ministry's original 2022 notice [20], and the membership figures, checked against the article they come from [19].
 

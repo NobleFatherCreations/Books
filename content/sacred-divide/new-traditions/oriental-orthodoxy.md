@@ -281,6 +281,10 @@ You may keep a fast longer than most people in the world have ever fasted, sing 
 
 **unanswered:** When the state removes a patriarch, who in the church says no?
 
+**money line:** Church land, monasteries and diaspora giving; in India two factions litigated for decades over about 1,100 churches [3].
+
+**leaving line:** In Egypt marriage and divorce run through the church and there is no civil marriage, so a failed marriage can have no way out [4].
+
 **sector defense**
 - *Attack:* "You are criticizing persecuted Christians."
 - *Concede:* These churches are among the most persecuted institutions in this book. The bombings are recorded first [9][10].
@@ -313,9 +317,14 @@ You may keep a fast longer than most people in the world have ever fasted, sing 
 4. **Murder of Bishop Epiphanius (2018); former monk executed (2021); accomplice's sentence reduced to life** [11]. [COURT RECORD]
 5. **Armenia: archbishop sentenced to two years (Oct 2025) [12]; trial of the Catholicos and six bishops (2026)** [13]. [COURT RECORD]
 
-**scorecard (proposed):** mostly N, pending per-church research.
 
 ---
+
+
+**scorecard**
+| Accounts | Pay | Safeguarding | External first | Removal | Reply |
+|---|---|---|---|---|---|
+| P (rated on the Coptic Orthodox Church's UK body, which files public accounts; most churches in this family publish none) [24] | P (the UK filing discloses its highest earners in pay bands) [24] | P (declares a safeguarding policy to the regulator; its text is not published) [24] | N | N | N |
 
 ## The 30 mechanisms (grades vary by church; "Contested" where they do)
 
@@ -379,6 +388,7 @@ You may keep a fast longer than most people in the world have ever fasted, sing 
 21. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
 22. International Cultic Studies Association (ICSA). <https://internationalculticstudies.org/>
 23. NAPAC — 0808 801 0331. <https://napac.org.uk/calling-our-support-line/>
+24. Charity Commission for England and Wales, register entry: Coptic Orthodox Church Foundation for the Archdiocese of the United Kingdom and the Republic of Ireland, charity no. 265418 (accounts for the year to 30 Sep 2025; income £1,577,227; employees with total benefits over £60,000: two at £70k–£80k, one at £90k–£100k; declared policies include "Safeguarding policy and procedures"). <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/265418/full-print>
 
 ## Fact-check log (pass 1, 2026-09-27)
 - **Corrected:** Egypt 2010. The draft called it a "victory" in which the church refused. In fact the Supreme Constitutional Court overturned the order and confirmed the church's exclusive jurisdiction [4].

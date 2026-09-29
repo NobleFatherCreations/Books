@@ -228,6 +228,10 @@ You may chant every morning and feel your life change. You may have marched for 
 
 **unanswered:** Who decides which candidate is kosen-rufu?
 
+**money line:** Member contributions (zaimu) and subscriptions to the daily Seikyo Shimbun, whose claimed 5.5 million circulation is unaudited [8].
+
+**leaving line:** No formal shunning; the cost is social and familial, in tight local districts and multi-generational families [5].
+
 **sector defense**
 - *Attack:* "Persecuted since the war, smeared by rivals, tabloids and a French blacklist."
 - *Concede:* The founder died in prison [7]. The French report was contested and led to a defamation complaint against its chair [10].
@@ -257,6 +261,12 @@ You may chant every morning and feel your life change. You may have marched for 
 3. *No adjudicated case concerning internal coercion was found.*
 
 ---
+
+
+**scorecard**
+| Accounts | Pay | Safeguarding | External first | Removal | Reply |
+|---|---|---|---|---|---|
+| P (the UK charity files public accounts; the Japanese organization's are not public) [2] | N | P (the UK branch publishes safeguarding procedures) [16] | N (UK procedure: police for immediate danger; other allegations go first to an internal safeguarding team) [16] | P (a four-year presidential term, renewed by a selection committee; no mid-term removal procedure found) [17] | N |
 
 ## The 30 mechanisms (many rows expected to grade weak; record them honestly)
 
@@ -312,6 +322,8 @@ You may chant every morning and feel your life change. You may have marched for 
 13. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. <https://humanists.uk/faith-to-faithless/helpline/>
 14. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
 15. International Cultic Studies Association (ICSA). <https://internationalculticstudies.org/>
+16. SGI-UK, *Adults at risk protection guidelines and procedures* (2024–2025). <https://members.sgi-uk.org/sites/default/files/AdultsAtRiskProtectionGuidelinesAndProcedures2024_2025.pdf>
+17. Soka Gakkai (global), "Minoru Harada Reappointed as Soka Gakkai President" (26 Oct 2023): reappointed by the Soka Gakkai President Selection Committee; "The term of president is four years"; the term began 18 Nov 2023. <https://www.sokaglobal.org/in-society/news/soka-gakkai-president-reappointed.html>
 
 ## Fact-check log (pass 1, 2026-09-27)
 - **Confirmed:** 8.27M households and ~3M abroad (self-reported) [1]; Harada since 2006 [1]; Makiguchi's arrest (1943) and death (Nov 1944) [7]; excommunication on 28 Nov 1991 [9]; Ikeda's death on 15 Nov 2023 [6]; the 1970 incident and apology [3]; the Guyard report and its 172 movements [10].

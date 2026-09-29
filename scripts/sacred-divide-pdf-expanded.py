@@ -115,6 +115,13 @@ def build_sections(rid):
                 k[0] += 1
                 return f'<h3 id="{slug}-{k[0]}">{m.group(1)}</h3>'
             h = re.sub(r'<h3>(.*?)</h3>', add_id, h)
+        # short tables (the scorecard, most ledgers) never split across a page; see sacred-divide-expanded.css
+        def tag_table(m):
+            body = m.group(1)
+            head = re.search(r'<tr>(.*?)</tr>', body, flags=re.S)
+            cls = (['short'] if body.count('<tr>') <= 9 else []) + (['wide'] if head and head.group(1).count('<th') >= 6 else [])
+            return (f'<table class="{" ".join(cls)}">' if cls else '<table>') + body + '</table>'
+        h = re.sub(r'<table>(.*?)</table>', tag_table, h, flags=re.S)
         subs = re.findall(r'<h3 id="([\w-]+)">(.*?)</h3>', h)
         intro, fy = narr.intro(rid, slug), narr.foryou(rid, slug)
         h = (intro_box(intro) if intro else '') + h + (foryou_box(fy) if fy else '')
@@ -122,7 +129,7 @@ def build_sections(rid):
     return out, meta
 
 
-PREFACE = """This is the expanded edition of the {name} page of *The Sacred Divide*. Every fact in it is the same as in the standard edition, and every one is sourced on the page. What this edition adds is narration.
+PREFACE = """This is the full record of {name} from *The Sacred Divide*: the same 27 sections as the website, every fact sourced, with the same reader narration.
 
 **Before each section**, a short box says what the section is built to show, so you know what you are looking at before you read the detail.
 
@@ -153,17 +160,28 @@ def build_html(rid):
     if len(blurb) > 260:
         blurb = blurb[:257].rsplit(' ', 1)[0] + '…'
     cover = (f'<div class="cover"><div class="band"></div><img class="mark" src="mark.png" alt="">'
-             f'<div class="eyebrow">The Sacred Divide</div><div class="for">Expanded edition · <b>with reader narration</b></div>'
+             f'<div class="eyebrow">The Sacred Divide</div><div class="for">The full record · <b>with reader narration</b></div>'
              f'<h1>{e(name)}</h1><div class="family">{e(meta.get("family", ""))} family</div><div class="rule"></div>'
              f'<div class="tagline">Honor the faith · Name the machinery</div><div class="blurb">{e(blurb)}</div>'
              f'<div class="meta"><span>{e(meta.get("version", ""))} · checked {e(meta.get("checked", ""))}</span><span>{SITE}</span></div></div>')
     preface = f'<div class="front preface"><h1 id="preface">How this edition works</h1>{md_to_html(PREFACE.replace("{name}", name))}</div>'
-    doc = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{e(name)} — expanded edition — The Sacred Divide</title>
+    doc = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{e(name)} — The Sacred Divide</title>
 <meta name="author" content="Noble Father Creations"><meta name="subject" content="{e(name)}: the full record, expanded with reader narration">
 <link rel="stylesheet" href="sacred-divide.css">
 <link rel="stylesheet" href="sacred-divide-personal.css">
 <link rel="stylesheet" href="sacred-divide-expanded.css">
-<script>window.PagedConfig = {{ auto: true, after: () => {{ window.__paged = true; }} }};</script>
+<script>
+// print.js lays the book out, measures it, and reloads with ?snug=<section ids>&brk=<table numbers> when a
+// section spills a few lines onto a page of its own or a table's header row is left alone at a page foot.
+window.PagedConfig = {{ auto: true, before: () => {{
+  const q = new URLSearchParams(location.search), list = k => (q.get(k) || '').split(',').filter(Boolean);
+  list('snug').forEach(v => {{ const [id, lvl] = v.split(':'), s = document.getElementById(id); if (s) s.classList.add(lvl === '2' ? 'snug2' : 'snug'); }});
+  const tables = document.querySelectorAll('table');
+  tables.forEach((t, i) => t.dataset.ti = i);
+  list('brk').forEach(i => {{ const t = tables[+i]; if (!t) return; const p = t.previousElementSibling;
+    (p && /^H[34]$/.test(p.tagName) ? p : t).classList.add('newpage'); }});
+}}, after: () => {{ window.__paged = true; }} }};
+</script>
 <script src="paged.polyfill.js"></script></head><body>
 {cover}
 {preface}
@@ -186,9 +204,9 @@ def render(rid, html_only=False):
     subprocess.run(['node', os.path.join(TOOLS, 'print.js'), page, out_pdf, name], check=True)
     from pypdf import PdfReader, PdfWriter
     w = PdfWriter(clone_from=PdfReader(out_pdf))
-    w.add_metadata({'/Title': f'{name} — expanded edition — The Sacred Divide', '/Author': 'Noble Father Creations',
+    w.add_metadata({'/Title': f'{name} — The Sacred Divide', '/Author': 'Noble Father Creations',
                     '/Subject': f'The full record for {name}, with a note before and a "why this matters to you" caption after every section, and expanded hard questions.',
-                    '/Keywords': f'The Sacred Divide; {name}; {meta.get("family", "")}; {meta.get("version", "")}; expanded edition'})
+                    '/Keywords': f'The Sacred Divide; {name}; {meta.get("family", "")}; {meta.get("version", "")}'})
     marks = json.load(open(out_pdf.replace('.pdf', '.marks.json')))
     os.remove(out_pdf.replace('.pdf', '.marks.json'))
     w._root_object.pop('/Outlines', None)

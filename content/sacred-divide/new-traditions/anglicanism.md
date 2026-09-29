@@ -261,6 +261,10 @@ You may love your parish church: the building, the words of Evensong, the people
 
 **unanswered:** Who, fully outside the church, now holds the power to compel it on safeguarding?
 
+**money line:** A published £11.1bn endowment [5], the parish share paid to dioceses for clergy stipends and housing, and statutory fees for weddings and funerals.
+
+**leaving line:** Free for lay members; for clergy, losing a licence can mean losing home, income and vocation at once.
+
 **sector defense**
 - *Attack:* "The church has apologized, commissioned reviews, and an archbishop resigned. What more do you want?"
 - *Concede:* More than most institutions in this book. That is recorded on this page as a strength.

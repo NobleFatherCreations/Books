@@ -237,6 +237,10 @@ You may have grown up in the warmest, most organized family life you have ever s
 
 **unanswered:** May a withdrawn parent eat with their children?
 
+**money line:** A network of about 3,000 member businesses centred on UBT, with combined turnover the church's own material puts at about A$22 billion a year [5].
+
+**leaving line:** Being "withdrawn from" means separation from family who stay; one former member told the ABC, "I have no contact with my mum" [5].
+
 **sector defense**
 - *Attack:* "Anti-religious media bias against a peaceful minority."
 - *Concede:* The fellowship is peaceful, charitable [4] and, in England, met the regulator's conditions [2].
@@ -270,6 +274,12 @@ You may have grown up in the warmest, most organized family life you have ever s
 5. **ANAO audit request: public funds to OneSchool Global** [7]. [GOVERNMENT REPORT — check status]
 
 ---
+
+
+**scorecard**
+| Accounts | Pay | Safeguarding | External first | Removal | Reply |
+|---|---|---|---|---|---|
+| P (local UK meeting-hall trusts file public accounts, e.g. Preston Down Trust) [16] | N | P (a policy exists and was strengthened on the Charity Commission's advice; its text is not published) [17] | N | N | P (answered some questions on the record in 2025; declined others, citing legal proceedings) [18] |
 
 ## The 30 mechanisms
 
@@ -325,6 +335,9 @@ You may have grown up in the warmest, most organized family life you have ever s
 13. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. <https://humanists.uk/faith-to-faithless/helpline/>
 14. International Cultic Studies Association (ICSA). <https://internationalculticstudies.org/>
 15. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
+16. Charity Commission for England and Wales, register entry: Preston Down Trust, charity no. 1155382 (accounts and trustees' annual report for the year to 5 April 2025, received on time). <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5043270/full-print>
+17. Charity Commission, *Plymouth Brethren Gospel Hall Trusts: group case report* (published 29 Aug 2017; archived 23 Jan 2020): "the safeguarding policy needed strengthening in some areas … PBCC has since acted on our regulatory advice". <https://www.gov.uk/government/publications/plymouth-brethren-gospel-hall-trusts-group-case-report/plymouth-brethren-gospel-hall-trusts>
+18. Plymouth Brethren Christian Church, *Response to Four Corners questions* (September 2025). <https://www.plymouthbrethrenchristianchurch.org/wp-content/uploads/2025/09/plymouth-brethren-christian-church-statement.pdf>
 
 ## Fact-check log (pass 1, 2026-09-27)
 - **Confirmed:** 50,000+ members and Hales as leader since 2002 [1]; Preston Down refusal (Jun 2012) and registration (Jan 2014) [2]; NZ 2005 pamphlets [3]; AEC 2004 material [8]; the 1970 schism of ~8,000 [6].

@@ -80,3 +80,4 @@ Checked 2026-09-27.
 
 ## changed
 - **2026-09-27 — full page:** added Branches, Law & state, Money in numbers, Voices from inside, three regional cards, Leaving safely and Where to get help; the 1592 and 1621 splits are sourced to reference summaries.
+- **2026-09-29 — scorecard added:** accounts and safeguarding are rated from the UK charity register [27]; leaders' pay, police-first reporting, a removal procedure and on-the-record replies are not established from any public source.

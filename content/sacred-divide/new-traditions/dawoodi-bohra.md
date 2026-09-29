@@ -249,6 +249,10 @@ You may belong to one of the most generous, well-organized communities in this b
 
 **unanswered:** Why can a funeral need permission?
 
+**money line:** Annual dues (wajebaat) and levies, large community trusts [18], and interest-free loans run inside the same structure [15].
+
+**leaving line:** Excommunication (baraat) carries social boycott, including denial of mosque access and community burial [17].
+
 **sector defense**
 - *Attack:* "A small minority singled out by outsiders."
 - *Concede:* Bohras are a minority within a minority, and anti-Shia hostility is real.
@@ -282,9 +286,14 @@ You may belong to one of the most generous, well-organized communities in this b
 5. **Bombay High Court succession judgment, 23 Apr 2024** [4]. [COURT RECORD]
 6. **Nathwani Commission report (1979)** [13]. [INVESTIGATIVE REPORT — non-governmental]
 
-**scorecard (proposed):** Accounts N? · Pay N · Safeguarding ? · External first ? · Removal N · Reply N
 
 ---
+
+
+**scorecard**
+| Accounts | Pay | Safeguarding | External first | Removal | Reply |
+|---|---|---|---|---|---|
+| P (UK community charities file public accounts, e.g. Anjuman-e-Burhani, London) [27] | N | P (the London charity declares a safeguarding policy to the regulator; its text is not published) [27] | N | N | N |
 
 ## The 30 mechanisms
 
@@ -351,6 +360,7 @@ You may belong to one of the most generous, well-organized communities in this b
 24. Humanists UK, Faith to Faithless helpline. <https://humanists.uk/faith-to-faithless/helpline/>
 25. Wikipedia, "Sulaymani Bohras" (the 1592 split over the 27th dai) and "Alavi Bohra" (split 1621) — reference works; no scholarly source on these dates could be read for this edition. <https://en.wikipedia.org/wiki/Sulaymani> · <https://en.wikipedia.org/wiki/Alavi_Bohra>
 26. Karma Nirvana, national Honour Based Abuse Helpline. <https://karmanirvana.org.uk/get-help/helpline/>
+27. Charity Commission for England and Wales, register entry: Anjuman-e-Burhani (London), charity no. 1078595 (accounts and trustees' annual report for the year to 31 Dec 2024, received on time; declared policies include "Safeguarding policy and procedures"). <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/3957573/full-print>
 
 ## Fact-check log (pass 1, 2026-09-27)
 - **MAJOR CORRECTION — Australia:** the draft (and the v4 Shia text) said the High Court "reinstated convictions". False. The High Court resolved how the law applies [8]; the case was sent back; retrials were ordered [9]; the Crown dropped all charges in 2020 [10]. **No conviction stands.** Fixed here, in `scripts/sacred-divide-v4.py` (rebuilt and re-verified), and in the audit doc.

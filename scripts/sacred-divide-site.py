@@ -10,7 +10,7 @@ Generates, from the same content/sacred-divide/religions/*.md the PDFs use:
                   (scripts/sacred_divide_narration.py — the same text the expanded PDFs carry).
                   A section jump menu (a rail on wide screens, a sheet on phones); a persistent
                   family bar whose arrows go to the previous/next tradition in the same family AND
-                  land on the section you are reading; PDF downloads (standard + expanded) at the top.
+                  land on the section you are reading; the PDF download (one edition: the full record with this narration) at the top.
 
 House rules honoured: every page is self-contained (fonts subset and inlined as base64, CSS and JS
 inline, no external requests, no storage); dark theme; one accent (the brass shared with the
@@ -64,7 +64,14 @@ def arg(flag, default):
 
 
 BASE = arg('--base', '')                                   # '' = relative (local preview)
-PDF_BASE = arg('--pdf-base', '../sacred-divide-pdf/')
+PDF_BASE = arg('--pdf-base', '../sacred-divide-pdf/expanded/')
+# One PDF edition only: the full record with the reader narration. The live build publishes each as
+# pdf/<id>.pdf (--pdf-flat); the local preview links the build output, <id>-expanded.pdf.
+PDF_FLAT = '--pdf-flat' in sys.argv[1:]
+
+
+def pdf_href(rid):
+    return f'{PDF_BASE}{rid}.pdf' if PDF_FLAT else f'{PDF_BASE}{rid}-expanded.pdf'
 EXT = arg('--ext', '.html')
 OUT = arg('--out', OUT)
 LIVE = '--live' in sys.argv[1:]
@@ -72,7 +79,9 @@ LIVE = '--live' in sys.argv[1:]
 # anonymous visit counter and state it plainly. Added to the live build only, never to previews.
 BEACON = ('<script defer type="module" src="https://static.cloudflareinsights.com/beacon.min.js" '
           'data-cf-beacon=\'{"token": "c8d1aea530814aea8c7a92baa2accef3"}\'></script>')
-VERSION, RELEASED = 'v4', '2026-09-28'
+VERSION, RELEASED = 'v4', '2026-09-29'
+# the earlier single-page codex, published alongside as the reference edition (live: <base>codex)
+CODEX_HREF = f'{BASE}codex{EXT}' if LIVE else '../sacred-divide-v4-factchecked.html'
 
 
 def e(t):
@@ -933,9 +942,7 @@ def religion_page(rid, fam_name, members, fnum, man_std, man_exp):
         cut = max(blurb.rfind('. ', 0, 240), blurb.rfind('? ', 0, 240))
         blurb = blurb[:cut + 1] if cut > 80 else blurb[:237].rsplit(' ', 1)[0] + '…'
     std, ex = man_std.get(rid, {}), man_exp.get(rid, {})
-    dl = (f'<a class="btn solid" href="{PDF_BASE}{rid}.pdf" download>{ICON["down"]}Download the full record'
-          f'{" · " + str(std.get("pages")) + " pp" if std.get("pages") else ""}</a>'
-          f'<a class="btn" href="{PDF_BASE}expanded/{rid}-expanded.pdf" download>{ICON["down"]}Expanded edition'
+    dl = (f'<a class="btn solid" href="{pdf_href(rid)}" download>{ICON["down"]}Download the full record (PDF)'
           f'{" · " + str(ex.get("pages")) + " pp" if ex.get("pages") else ""}</a>')
     fam_links = ' · '.join((f'<a href="{href(m)}" aria-current="page">{e(title_of[m])}</a>' if m == rid else f'<a href="{href(m)}">{e(title_of[m])}</a>') for m in members)
     famnav = ''
@@ -972,7 +979,7 @@ def religion_page(rid, fam_name, members, fnum, man_std, man_exp):
     body = f'''<header class="bar"><a class="home" href="{home()}">The Sacred Divide</a>
 <span class="where">{e(name)} · <b>At a glance</b></span>
 <a class="qx" href="https://www.google.com/search?q=weather" rel="noreferrer" data-quick-exit title="Leaves this page at once (or press Escape twice)">Quick exit</a>
-<a class="btn" href="{PDF_BASE}{rid}.pdf" download aria-label="Download the {e(name)} PDF">{ICON["down"]}<span>PDF</span></a></header>
+<a class="btn" href="{pdf_href(rid)}" download aria-label="Download the {e(name)} PDF">{ICON["down"]}<span>PDF</span></a></header>
 <div class="wrap">
 <aside class="rail" aria-label="Sections on this page"><h2>On this page</h2><ol class="toc">{toc}</ol></aside>
 <main id="main">
@@ -1065,6 +1072,9 @@ TREE_CSS = r"""
   .tree .root{text-align:left;margin-bottom:40px}
   .node{padding:24px 20px 16px}
 }
+.refband{max-width:760px;margin:0 auto 96px;padding:24px 28px;border:1px solid var(--line);border-radius:16px;text-align:center;color:var(--ink2);font-size:17px}
+.refband p{margin:0}
+@media (max-width:760px){.refband{margin:0 16px 72px}}
 .updates{max-width:1240px;margin:0 auto;padding:48px 24px 120px;border-top:1px solid var(--line2);color:var(--ink2)}
 .updates h2{font:600 12px/1 var(--serif);letter-spacing:.2em;text-transform:uppercase;color:var(--ink3);margin:0 0 16px}
 .updates .ver{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:4px 14px;color:var(--acc);font-size:14px;letter-spacing:.06em;margin:0 0 16px}
@@ -1077,8 +1087,9 @@ UPDATES = [
     "Every section now opens with a short note on what it shows, and closes with a note on why it matters to you.",
     "Compare any section side by side with the same section from other traditions.",
     "Tap a citation to read its source in place. Every page has a quick-exit button.",
-    "Each tradition can be downloaded as a PDF, in a standard or an expanded edition.",
+    "Each tradition can be downloaded as a PDF: the full record, with the same notes and captions as the page.",
     "Fact-check corrections are applied throughout; each page lists its own in \"What changed on this page\".",
+    "The earlier single-page codex stays available as the reference edition, with its volumes, instruments and methodology.",
 ]
 
 
@@ -1097,6 +1108,8 @@ def index_page():
 <p class="standard">{total} traditions, one standard, and nothing that can't be traced to a source.</p>
 <a class="down" href="#families">Begin with the family tree</a></section>
 {tree()}
+<aside class="refband"><p>Looking for the volumes, the instruments, the glossary or the methodology? They are in the
+<a href="{CODEX_HREF}">reference edition</a>: the earlier single-page codex, fact-checked and kept whole while its material moves into these pages.</p></aside>
 {ledger()}
 <footer class="updates" id="updates" aria-labelledby="h-updates"><h2 id="h-updates">Updates</h2>
 <span class="ver">{VERSION} — {RELEASED}</span><ul>{updates}</ul><p class="privacy">{privacy}</p></footer>

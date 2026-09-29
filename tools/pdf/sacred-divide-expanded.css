@@ -14,3 +14,29 @@
 .box.foryou p:last-child { margin-bottom: 0; }
 .box.foryou strong { color: #000; font-weight: 750; }
 .box.foryou em { color: var(--curtain-deep); }
+
+/* Tables: a short table (up to eight body rows, e.g. the disclosure scorecard) is kept whole on one
+   page; a long one may split between rows, but never leaves its header row alone at a page foot. */
+table.short, table.score { break-inside: avoid; }
+thead { break-after: avoid; }
+tbody tr:first-child, tbody tr:nth-child(2) { break-before: avoid; }
+h3 + table, h3 + .tw, h4 + table { break-before: avoid; }
+h2, h3, h4 { break-after: avoid; }
+
+/* A table of six or more columns sets a size smaller, so none runs past the right margin. */
+table.wide { font-size: 7.8pt; }
+table.wide th { letter-spacing: .08em; }
+table.wide .rcpt { font-size: 6.2pt; letter-spacing: .04em; }
+
+/* Set by print.js after a trial layout (see the PagedConfig note in the build): a table whose header
+   row was stranded starts a fresh page, and a section that spilled a few lines onto a page of its
+   own is set a touch tighter so it closes on its last full page. */
+.newpage { break-before: page; }
+section.sec.snug p, section.sec.snug li { line-height: 1.44; }
+section.sec.snug .box.foryou { margin-top: 5mm; padding: 4mm 7mm 3.2mm; }
+section.sec.snug .box.foryou p { font-size: 11.8pt; line-height: 1.52; }
+section.sec.snug2 p, section.sec.snug2 li { line-height: 1.38; }
+section.sec.snug2 .box { margin-top: 3mm; margin-bottom: 3mm; }
+section.sec.snug2 .box.foryou { margin-top: 4mm; padding: 3.5mm 6.5mm 3mm; }
+section.sec.snug2 .box.foryou p { font-size: 11.4pt; line-height: 1.46; }
+section.sec.snug2 table { line-height: 1.3; }

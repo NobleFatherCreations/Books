@@ -19,9 +19,20 @@ partial: []
 |  |  |
 |---|---|
 | Size | 50,000+ [1]. |
+| Who's in charge | Worldwide leader — Bruce D. Hales, since 2002 [1] |
+| Chosen by / removable by | Recognition within the fellowship (succeeded his father) [1] / No procedure |
+| Money in one line | A network of about 3,000 member businesses centred on UBT, with combined turnover the church's own material puts at about A$22 billion a year [5]. |
+| Leaving in one line | Being "withdrawn from" means separation from family who stay; one former member told the ABC, "I have no contact with my mum" [5]. |
+| The unanswered question | May a withdrawn parent eat with their children? |
 | Family | Christianity — christianity, catholicism, eastern-orthodoxy, oriental-orthodoxy, anglicanism, protestant-evangelical, pentecostal-charismatic, plymouth-brethren |
 | Last checked | 2026-09-27 |
 :::
+
+### Disclosure scorecard
+
+| Accounts | Pay | Safeguarding | External first | Removal | Reply |
+|---|---|---|---|---|---|
+| P (local UK meeting-hall trusts file public accounts, e.g. Preston Down Trust) [16] | N | P (a policy exists and was strengthened on the Charity Commission's advice; its text is not published) [17] | N | N | P (answered some questions on the record in 2025; declined others, citing legal proceedings) [18] |
 
 ## 2. A day inside {#a-day-inside}
 
@@ -42,6 +53,12 @@ partial: []
 
 ::: lede
 You may have grown up in the warmest, most organized family life you have ever seen, and eaten every meal of your life with people who share your faith. This page is about the rule that decides who may sit at that table, and what happens to a mother or father when they are no longer allowed to.
+:::
+
+### The unanswered question
+
+::: question
+May a withdrawn parent eat with their children?
 :::
 
 ### The strongest objection, answered
@@ -87,10 +104,6 @@ The Brethren movement began in Dublin and Plymouth in the 1820s–30s and split 
 | 1970 | Aberdeen | Roughly 8,000 leave over the leader's conduct [6]. | The leader is protected; the members leave. |
 | 2014 | The regulator | Public-benefit changes extracted [2]. | The state's leverage is charitable status. |
 
-**compel:** Charity regulators [2]; electoral commissions [8]; tax authorities [9]; national audit offices [7]; family courts.
-
-**revise:** A written guarantee that no member is separated from family, and published business-network accounts.
-
 ## 6. Branches & variants {#branches}
 
 Exclusive PBCC (Hales); other Exclusive groups from the 1970 split [6]; Open Brethren (separate — do not conflate).
@@ -125,8 +138,6 @@ Exclusive PBCC (Hales); other Exclusive groups from the 1970 split [6]; Open Bre
 |---|---|---|---|
 | Worldwide leader | Bruce D. Hales, since 2002 [1] | Recognition within the fellowship (succeeded his father) [1] | No procedure |
 
-**unanswered:** May a withdrawn parent eat with their children?
-
 ### Who holds what
 
 | Entity | Type | Holder | Holds | Sector | Receipt |
@@ -145,6 +156,10 @@ Exclusive PBCC (Hales); other Exclusive groups from the 1970 split [6]; Open Bre
 | **Australia — tax** | The Taxation Office can raid and audit [9] | It raided businesses associated with the church's business-services firm on 19 March 2024 [9] |
 | **Australia — schools** | OneSchool Global's entities are registered charities and receive public funds [7] | A request for the National Audit Office to review those funds is on its register [7] |
 | **New Zealand** | Electoral law on campaign material [3] | Pamphlets attacking Labour and the Greens were distributed in 2005 without disclosed origin [3] |
+
+### Who can compel an answer
+
+Charity regulators [2]; electoral commissions [8]; tax authorities [9]; national audit offices [7]; family courts.
 
 ## 9. Money {#money}
 
@@ -291,8 +306,6 @@ Exclusive PBCC (Hales); other Exclusive groups from the 1970 split [6]; Open Bre
 | "Shut up" | Suspended | Isolation pending review [4] | "Wait alone." |
 | "Separation" | Holiness | Governs meals and friendship [4] | "Don't eat with them." |
 
-**regional cards:** Australia [5][7][8][9]; New Zealand [3]; United Kingdom [2].
-
 ## 15. Cost & cover {#cost}
 
 ### What leaving costs
@@ -371,6 +384,8 @@ Exclusive PBCC (Hales); other Exclusive groups from the 1970 split [6]; Open Bre
 4. **ATO raid on UBT-associated businesses (19 Mar 2024)** [9]. [INVESTIGATIVE REPORT — no charges known]
 5. **ANAO audit request: public funds to OneSchool Global** [7]. [GOVERNMENT REPORT — check status]
 
+---
+
 ## 20. Precedent {#precedent}
 
 ### It has been broken before
@@ -380,6 +395,10 @@ Exclusive PBCC (Hales); other Exclusive groups from the 1970 split [6]; Open Bre
 | Public-benefit changes extracted by a regulator [2] | Charity Commission | 2014 | — |
 | Election material exposed [3][8] | Journalists; the Australian Electoral Commission | 2004–07 | — |
 | Former members' testimony broadcast nationally [5] | Former members | 2025 | Threats and surveillance reported [5] |
+
+### What would change this page
+
+A written guarantee that no member is separated from family, and published business-network accounts.
 
 ## 21. Voices from inside {#voices}
 
@@ -471,8 +490,12 @@ Checked 2026-09-27.
 13. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. <https://humanists.uk/faith-to-faithless/helpline/>
 14. International Cultic Studies Association (ICSA). <https://internationalculticstudies.org/>
 15. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
+16. Charity Commission for England and Wales, register entry: Preston Down Trust, charity no. 1155382 (accounts and trustees' annual report for the year to 5 April 2025, received on time). <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5043270/full-print>
+17. Charity Commission, *Plymouth Brethren Gospel Hall Trusts: group case report* (published 29 Aug 2017; archived 23 Jan 2020): "the safeguarding policy needed strengthening in some areas … PBCC has since acted on our regulatory advice". <https://www.gov.uk/government/publications/plymouth-brethren-gospel-hall-trusts-group-case-report/plymouth-brethren-gospel-hall-trusts>
+18. Plymouth Brethren Christian Church, *Response to Four Corners questions* (September 2025). <https://www.plymouthbrethrenchristianchurch.org/wp-content/uploads/2025/09/plymouth-brethren-christian-church-statement.pdf>
 
 ## 27. What changed on this page {#changed}
 
 - **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (OneSchool Global UK accounts 2020–2024), Voices from inside, three regional cards, Leaving safely and Where to get help.
+- **2026-09-29 — scorecard added:** accounts, safeguarding and on-the-record replies are rated from the charity register, the Charity Commission's 2017 case report and the church's own 2025 response [16][17][18]; leaders' pay, police-first reporting and a removal procedure are not established from any public source.
 
