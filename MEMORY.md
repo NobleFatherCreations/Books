@@ -3604,3 +3604,10 @@ Dubai would follow") and an architecture that imports each religion's MD into th
 - **Rejected on evidence:** `content-visibility:auto` made section jumps land one section early on
   phones (estimated heights); removed. A stacking rule for the grain briefly un-pinned the compare panel
   and the rail — caught in screenshots, fixed.
+
+## 2026-09-29 — Sacred Divide: one PDF edition, layout-audited, deployed as v4
+- **One PDF per tradition** (the full record with narration), served flat at `/faith/pdf/<id>.pdf`. The standard edition is retired everywhere (site, sites.json, wording).
+- **PDF layout fitting lives in `tools/pdf/print.js`:** trial layouts find a section whose last lines spill onto their own page (tightened through `snug`/`snug2`/`snug3` classes, set via `?snug=` in the Paged.js `before` hook) and a table whose header row is stranded (moved to a new page via `?brk=`). Six-column tables get `table.wide`. Result: 34 PDFs, 2,742 pp, no overflow, stranded header, lone table header or spill page. `tools/pdf/audit.js` does NOT apply the fitting, so its "tail" flags are stale — read the `fitted:` line in the build log instead.
+- **Mistake caught:** the shared section builder now emits `<table class="short|wide">`, which silently bypassed the site's table wrapper (375px overflow on 30+ pages). The site strips those classes; keep that in mind whenever the PDF builder's HTML changes.
+- Sources completed for Plymouth Brethren, Soka Gakkai, Dawoodi Bohra, Oriental Orthodoxy (scorecards + register entries) and Unification Church (court and ministry citations). No music autoplay exists on any faith page.
+- Reference edition kept at `/faith/codex` (comment-stripped `_undeployed/sacred-divide-v4-factchecked.html`).

@@ -918,6 +918,7 @@ def religion_page(rid, fam_name, members, fnum, man_std, man_exp):
     toc = ''.join(f'<li><a href="#{slug}"><span class="n">{int(num):02d}</span><span>{e(t)}</span></a></li>' for num, t, slug, _h, _s in sections)
     secs, takeaway = [], []
     for num, t, slug, h, _subs in sections:
+        h = re.sub(r'<table class="(?:short|wide|short wide)">', '<table>', h)   # print-only table classes
         h, q = polish(slug, wrap_tables(h))
         if q:
             takeaway.append((slug, t, q))
