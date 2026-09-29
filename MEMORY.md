@@ -3621,3 +3621,15 @@ Dubai would follow") and an architecture that imports each religion's MD into th
 - Repro of prompt's seeded defects on v4 Markdown: ligature glyphs present (284 in catholicism.md); `tactics: 2, 26` mislabel in the
   church-tax case confirmed; "12 sourced" NOT reproduced (11); collapsed-cell and glued-citation defects absent from the Markdown.
 - Open: storage/beacon stance, extend-vs-replace the Compare layer, Error 2 status.
+
+## 2026-09-29 — Sacred Divide v5: owner decisions (delegated to the agent)
+- **Compare layer:** EXTEND the v4 layer (fetch-and-repoint cards, `?vs=` URL state, family bar). Add: labelled sibling row, section/stage anchoring,
+  side-by-side scroll-synced mode, per-section evidence-depth badges, "thin because the evidence does not exist" notice. Never rank.
+- **Error 2 (11 vs 12 sourced):** CLOSED. v4 catholicism.md has exactly 11 `(sourced)` markers = §01's "11 of 30". Not a defect in this build.
+- **Storage:** owner overrides the no-storage rule. Allowed: localStorage for per-volume reading position and the YOUR CONTEXT country choice only,
+  never transmitted, wrapped in try/catch, page must work without it. Service worker: deferred (proxy-path risk); revisit at the web QA checkpoint.
+  Reading-progress rail: allowed (segmented by the 27 sections).
+- **Analytics beacon:** unchanged from v4 (flagged in START-HERE); not touched this round.
+- **Axe MCP:** plugin installed but the server connection closes because no credential is set (needs an Axe DevTools account with MCP access;
+  OAuth login must be run by the owner on their own machine). `mcp-generate-instructions` NOT run: it would write Axe tool instructions into
+  CLAUDE.md that fail without credentials. A11y gates use local axe-core, pa11y, Lighthouse and veraPDF instead (see tools/sacred-divide-build).
