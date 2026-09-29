@@ -3611,3 +3611,13 @@ Dubai would follow") and an architecture that imports each religion's MD into th
 - **Mistake caught:** the shared section builder now emits `<table class="short|wide">`, which silently bypassed the site's table wrapper (375px overflow on 30+ pages). The site strips those classes; keep that in mind whenever the PDF builder's HTML changes.
 - Sources completed for Plymouth Brethren, Soka Gakkai, Dawoodi Bohra, Oriental Orthodoxy (scorecards + register entries) and Unification Church (court and ministry citations). No music autoplay exists on any faith page.
 - Reference edition kept at `/faith/codex` (comment-stripped `_undeployed/sacred-divide-v4-factchecked.html`).
+
+## 2026-09-29 — Sacred Divide v5 redesign: kickoff decisions
+- Work branch `claude/sacred-divide-v5-redesign`, cut from the v4 branch (`f673e73c`). Nothing deployed.
+- **Print page size switched from A4 to US Letter** (v4 PDFs are A4, 34 files, 2,742 pp, all tagged/bookmarked).
+- Path chosen: keep the Python generator + Paged.js pipeline and redo the design layer (shared tokens, sidenote margin,
+  §13 loop diagrams, per-volume themes, comparator UI), not an Astro rebuild.
+- Build tooling manifest: `tools/sacred-divide-build/` (npm + pip + apt). Plugins queued for the owner to enable: see SETUP.md there.
+- Repro of prompt's seeded defects on v4 Markdown: ligature glyphs present (284 in catholicism.md); `tactics: 2, 26` mislabel in the
+  church-tax case confirmed; "12 sourced" NOT reproduced (11); collapsed-cell and glued-citation defects absent from the Markdown.
+- Open: storage/beacon stance, extend-vs-replace the Compare layer, Error 2 status.

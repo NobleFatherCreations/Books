@@ -1,0 +1,28 @@
+{
+  "name": "sacred-divide-build-tools",
+  "private": true,
+  "description": "Build-time only. Nothing here ships to the live pages; output is inlined SVG/CSS.",
+  "devDependencies": {
+    "pagedjs": "^0.4.3",
+    "playwright-core": "^1.63.0",
+    "@playwright/mcp": "latest",
+    "@axe-core/playwright": "^4.13.0",
+    "pa11y": "^10.0.0",
+    "lighthouse": "^13.5.0",
+    "d3": "*",
+    "@observablehq/plot": "*",
+    "vega": "*",
+    "vega-lite": "*",
+    "mermaid": "*",
+    "@mermaid-js/mermaid-cli": "*",
+    "@fontsource/eb-garamond": "*",
+    "@fontsource/cardo": "*",
+    "@fontsource/newsreader": "*",
+    "@fontsource/noto-sans-devanagari": "*",
+    "@fontsource/noto-naskh-arabic": "*",
+    "@fontsource/noto-serif-hebrew": "*",
+    "@fontsource/noto-sans-gurmukhi": "*",
+    "@fontsource/noto-serif-sc": "*",
+    "@fontsource/noto-sans-thai": "*"
+  }
+}
