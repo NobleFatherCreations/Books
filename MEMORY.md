@@ -3633,3 +3633,8 @@ Dubai would follow") and an architecture that imports each religion's MD into th
 - **Axe MCP:** plugin installed but the server connection closes because no credential is set (needs an Axe DevTools account with MCP access;
   OAuth login must be run by the owner on their own machine). `mcp-generate-instructions` NOT run: it would write Axe tool instructions into
   CLAUDE.md that fail without credentials. A11y gates use local axe-core, pa11y, Lighthouse and veraPDF instead (see tools/sacred-divide-build).
+- **CORRECTION (same day):** the earlier note "ligature glyphs present (284 in catholicism.md)" was WRONG. It came from `grep` running in a C locale,
+  which matched raw bytes shared with curly quotes/dashes. A Unicode-aware scan (U+FB00–FB06) finds zero ligature codepoints in the 34 Markdown
+  files and in PDF text. `scripts/sacred_divide_repair.py` stays as a guard (logs to `logs/repair-log/`), but there is no ligature defect in v4.
+- **Fixed:** v4 label bug where `tactics: 2` in §19 cases displayed loop names (`TACTIC_NAMES` in `scripts/sacred-divide-pdf.py` also matched the
+  §13 loop cards and overwrote techniques 1–7). Now scoped to the §12 techniques section. Site + PDFs must be rebuilt to pick it up.

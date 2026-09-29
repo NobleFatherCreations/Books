@@ -239,7 +239,10 @@ def build_html(rid):
     VALID = {int(n) for n in re.findall(r'^\s*(\d+)\.\s', src_part.group(1), re.M)} if src_part else set()
 
     global TACTIC_NAMES
-    TACTIC_NAMES = {int(n): re.sub(r'\s*\{#.*', '', t) for n, t in re.findall(r'^#### (\d+) · (.+)$', body, re.M)}
+    # Only the 30 technique headings (section 12). The loop cards in section 13 use the same '#### N · name'
+    # shape and used to overwrite entries 1-7 with loop names (v4 bug: 'tactics: 2' read 'Fear to Dependence to Fear').
+    tech = re.search(r'^## \d+\. The 30 techniques \{#techniques\}\n(.*?)(?=^## \d+\.)', body, re.S | re.M)
+    TACTIC_NAMES = {int(n): re.sub(r'\s*\{#.*', '', t) for n, t in re.findall(r'^#### (\d+) · (.+)$', tech.group(1) if tech else body, re.M)}
     # split into the 27 sections
     parts = re.split(r'^## (\d+)\. (.+?) \{#([\w-]+)\}\s*$', body, flags=re.M)
     sections = [(parts[i], parts[i + 1], parts[i + 2], parts[i + 3]) for i in range(1, len(parts), 4)]

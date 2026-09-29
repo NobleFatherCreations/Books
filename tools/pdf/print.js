@@ -27,14 +27,14 @@ const TYPES = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascrip
   // table moved to a fresh page (?brk=). Pages without the hook in their PagedConfig ignore the query.
   const snug = new Map(), brk = new Set();
   let issues = null;
-  for (let pass = 0; pass < 5; pass++) {
+  for (let pass = 0; pass < (process.env.NOFIT ? 1 : 5); pass++) {
     const q = new URLSearchParams();
     if (snug.size) q.set('snug', [...snug].map(([id, l]) => `${id}:${l}`).join(','));
     if (brk.size) q.set('brk', [...brk].join(','));
     await page.goto(url + (q.toString() ? '?' + q : ''));
     await page.waitForFunction(() => window.__paged === true, null, { timeout: 600000 });
     await page.evaluate(() => document.fonts.ready);
-    issues = await page.evaluate(() => {
+    issues = await page.evaluate((TAIL) => {
       const out = { tails: [], lone: [] }, pages = [...document.querySelectorAll('.pagedjs_page')];
       pages.forEach((pg, i) => {
         const area = pg.querySelector('.pagedjs_page_content'); if (!area) return;
@@ -42,11 +42,11 @@ const TYPES = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascrip
         const leaf = [...area.querySelectorAll('*')].filter(e => { const b = e.getBoundingClientRect(); return b.height > 0 && (!e.children.length || e.tagName === 'P' || e.tagName === 'TR'); });
         const fill = (leaf.reduce((m, e) => Math.max(m, e.getBoundingClientRect().bottom), box.top) - box.top) / box.height;
         const sec = area.querySelector('section.sec');
-        if (fill < 0.15 && text && !pg.querySelector('section.sec > h2, .front h1, .cover') && sec) out.tails.push({ page: i + 1, id: sec.dataset.id || sec.id });
+        if (fill < TAIL && text && !pg.querySelector('section.sec > h2, .front h1, .cover') && sec) out.tails.push({ page: i + 1, id: sec.dataset.id || sec.id });
         area.querySelectorAll('table[data-ti]').forEach(t => { if (t.querySelector('thead') && !t.querySelector('tbody tr')) out.lone.push({ page: i + 1, ti: t.dataset.ti }); });
       });
       return out;
-    });
+    }, parseFloat(process.env.TAILFILL) || 0.15);
     let changed = false;
     for (const t of issues.tails) { const l = snug.get(t.id) || 0; if (t.id && l < 3) { snug.set(t.id, l + 1); changed = true; } }
     for (const t of issues.lone) if (!brk.has(t.ti)) { brk.add(t.ti); changed = true; }

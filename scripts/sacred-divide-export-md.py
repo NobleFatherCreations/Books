@@ -24,6 +24,8 @@ Markdown conventions the PDF renderer relies on (see content/sacred-divide/relig
 Usage: python3 scripts/sacred-divide-export-md.py [book.html]
 """
 import json, os, re, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import sacred_divide_repair as REPAIR
 from datetime import date
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -542,6 +544,9 @@ def main():
     rows, order = [], [rid for _, _, members in FAMILIES for rid in members]
     for rid in order:
         md, filled = md_religion(B, rid)
+        md, rcounts, rcand = REPAIR.apply(md)
+        os.makedirs(os.path.join(ROOT, 'logs/repair-log'), exist_ok=True)
+        open(os.path.join(ROOT, f'logs/repair-log/{rid}.md'), 'w', encoding='utf-8').write(REPAIR.log(rid, rcounts, rcand))
         open(os.path.join(OUT, f'{rid}.md'), 'w', encoding='utf-8').write(md)
         rows.append((rid, filled))
     head = ['Religion'] + [str(SLUG_N[s]) for s, _ in SECTIONS] + ['Filled']

@@ -83,7 +83,8 @@ def build_sections(rid):
     meta, body = sdp.front_matter(raw)
     src_part = re.search(r'^## \d+\. Sources \{#sources\}\n(.*?)(?=^## \d+\.)', body, re.S | re.M)
     sdp.VALID = {int(n) for n in re.findall(r'^\s*(\d+)\.\s', src_part.group(1), re.M)} if src_part else set()
-    sdp.TACTIC_NAMES = {int(n): re.sub(r'\s*\{#.*', '', t) for n, t in re.findall(r'^#### (\d+) · (.+)$', body, re.M)}
+    tech = re.search(r'^## \d+\. The 30 techniques \{#techniques\}\n(.*?)(?=^## \d+\.)', body, re.S | re.M)  # §12 only; §13 loop cards share the heading shape
+    sdp.TACTIC_NAMES = {int(n): re.sub(r'\s*\{#.*', '', t) for n, t in re.findall(r'^#### (\d+) · (.+)$', tech.group(1) if tech else body, re.M)}
     parts = re.split(r'^## (\d+)\. (.+?) \{#([\w-]+)\}\s*$', body, flags=re.M)
     out = []
     for i in range(1, len(parts), 4):
