@@ -38,5 +38,32 @@
         ]
       }
     ]
-  }
+  },
+  "enabledPlugins": {
+    "example-skills@anthropic-agent-skills": true,
+    "document-skills@anthropic-agent-skills": true,
+    "design@knowledge-work-plugins": true,
+    "axe-accessibility@deque": true
+  },
+  "extraKnownMarketplaces": {
+    "anthropic-agent-skills": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills"
+      }
+    },
+    "knowledge-work-plugins": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/knowledge-work-plugins"
+      }
+    },
+    "deque": {
+      "source": {
+        "source": "github",
+        "repo": "dequelabs/axe-accessibility"
+      }
+    }
+  },
+  "description": "Wookbook project configuration: session initialization + design quality checks"
 }
