@@ -1330,7 +1330,7 @@ Checked 2026-09-27.
 |---|---|---|---|
 | **ICSA** | Former members of high-control groups; families | International | Via website [16] |
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [14] |
-| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [15] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [15] |
 | **RAINN** | Sexual assault | US | **1-800-656-4673** [17] |
 
 ## 26. Sources {#sources}
@@ -1356,7 +1356,7 @@ Checked 2026-09-27.
 12. SBS News / AAP, "French court backs Scientology conviction" (17 Oct 2013) — €600,000 fines; "organised fraud". https://www.sbs.com.au/news/article/french-court-backs-scientology-conviction/30vnl6v4j
 13. Global News, "Mike Rinder, one of Scientology's loudest whistleblowers, dies at 69" (Jan 2025). https://globalnews.ca/news/10944000/mike-rinder-scientology-whistleblower-dead/
 14. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
-15. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+15. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 16. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 17. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
 

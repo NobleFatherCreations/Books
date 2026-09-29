@@ -1341,7 +1341,7 @@ Checked 2026-09-27.
 | Organization | For | Where | Contact |
 |---|---|---|---|
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [21] |
-| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [22] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [22] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [23] |
 | **SNAP** | Survivors of clergy abuse, across churches | US and international | Via website [24] |
 | **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [25] |
@@ -1378,7 +1378,7 @@ Checked 2026-09-27.
 19. *Christianity Today*, "Southern Baptists Refused to Act on Abuse, Despite Secret List of Pastors" (May 2022). https://www.christianitytoday.com/2022/05/southern-baptist-abuse-investigation-sbc-ec-legal-survivors/
 20. Baptist News Global, "Conflicts of interest and 'dual roles' undermined SBC abuse investigation" (2025). https://baptistnews.com/article/conflicts-of-interest-and-dual-roles-undermined-sbc-abuse-investigation/
 21. Recovering from Religion — helpline (844) 368-2848. https://www.recoveringfromreligion.org/
-22. Humanists UK, Faith to Faithless helpline — 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+22. Humanists UK, Faith to Faithless helpline — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 23. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 24. SNAP — Survivors Network of those Abused by Priests. https://www.snapnetwork.org/
 25. NAPAC — support line 0808 801 0331. https://napac.org.uk/calling-our-support-line/

@@ -18,13 +18,13 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | ~220–260 million. [ACADEMIC SOURCE: Pew] |
-| Who's in charge | Ecumenical Patriarch of Constantinople — Bartholomew I, since 1991 — first among equals, without command over the other fourteen churches |
+| Size | Eastern Orthodoxy has ~220–260 million adherents. [ACADEMIC SOURCE: Pew] |
+| Who's in charge | The Ecumenical Patriarch of Constantinople, the senior bishop of the Orthodox churches, seated in Istanbul, is Bartholomew I, in office since 1991. He is first among equals, without command over the other fourteen churches. |
 | Chosen by / removable by | The Holy Synod / The Synod, in theory |
-| Money in one line | Candle sales, ritual fees (baptisms, weddings, funerals, house blessings), diaspora remittances, state funding in several countries. |
-| Leaving in one line | In majority-Orthodox societies, leaving reads as ethnic betrayal — faith and nationality are fused ('to be Serbian is to be Orthodox'). |
+| Money in one line | The money comes from candle sales, ritual fees (for baptisms, weddings, funerals and house blessings), diaspora remittances, and state funding in several countries. |
+| Leaving in one line | In majority-Orthodox societies, leaving reads as ethnic betrayal, because faith and nationality are fused ('to be Serbian is to be Orthodox'). |
 | The unanswered question | A patriarch blessed an invasion from the pulpit. Which synod holds the authority to say no to him — and why has it never been used? |
-| Evidence | 6 of 30 techniques sourced to a named document; grades: Cultural 19, Taught 5, Codified 4, Documented 2 |
+| Evidence | Six of the 30 techniques are sourced to a named document. The grades are Cultural 19, Taught 5, Codified 4 and Documented 2. |
 | Family | Christianity — christianity, catholicism, eastern-orthodoxy, oriental-orthodoxy, anglicanism, protestant-evangelical, pentecostal-charismatic, plymouth-brethren |
 | Last checked | 2026-09-27 |
 :::
@@ -43,11 +43,11 @@ partial: []
 
 Fasting, so oatmeal and black coffee, and a small satisfaction in it that he suspects is exactly the wrong kind of satisfaction. He has been Orthodox for three years. Before that he was nothing in particular, and before that a Baptist teenager, and the difference between then and now is that now there is a shape to the day.
 
-He texts Father Nikodemos about whether he can take the antibiotic during the fast. He has already taken it. He is asking retroactively, which he understands is not how it works.
+He texts Father Nikodemos, his priest, about whether he can take the antibiotic during the fast. He has already taken it. He is asking retroactively, which he understands is not how it works.
 
-At work he keeps a tab open to a forum where converts argue about jurisdictions. Someone posts a photo from a cathedral abroad, a patriarch, a public statement about a war. The thread splits — some saying the man is a hierarch and it is not for us, some saying priests have been suspended for objecting. Ben reads all of it. He types a reply and deletes it. Then he types it again and deletes it again.
+At work he keeps a tab open to a forum where converts argue about jurisdictions. Someone posts a photo from a cathedral abroad, a patriarch, a public statement about a war. The thread splits — some saying the man is a hierarch (a senior bishop) and it is not for us, some saying priests have been suspended for objecting. Ben reads all of it. He types a reply and deletes it. Then he types it again and deletes it again.
 
-His spiritual father told him in October to stop seeing Jared, his friend from before, because Jared was pulling him back into old habits. Ben has followed this. He has not spoken to Jared in eleven weeks and he cannot fully reconstruct the reasoning, only that he was told, and that being told was itself a kind of relief.
+His spiritual father (the priest who hears his confession and guides his decisions) told him in October to stop seeing Jared, his friend from before, because Jared was pulling him back into old habits. Ben has followed this. He has not spoken to Jared in eleven weeks and he cannot fully reconstruct the reasoning, only that he was told, and that being told was itself a kind of relief.
 
 Vespers. Candles, chant, the smell of the place. Something in him unclenches that only unclenches here, and he means it, and he would not trade it. Afterward, coffee hour, and a man he half-knows says something about the West being spiritually bankrupt, and Ben nods, and later cannot remember whether he agreed.
 
@@ -88,24 +88,27 @@ A patriarch blessed an invasion from the pulpit. Which synod holds the authority
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-~220–260 million adherents across autocephalous national churches (Russian, Greek, Serbian, Romanian, etc.), emphasizing liturgy, iconography, monasticism, and continuity with the ancient church.
+The tradition has ~220–260 million adherents across autocephalous (self-governing) national churches, among them the Russian, Greek, Serbian and Romanian churches. It emphasizes liturgy, iconography, monasticism and continuity with the ancient church.
 :::
 
-- Parishes and jurisdictions that resisted state capture (dissident priests in Russia sanctioned for opposing the war). [INVESTIGATIVE REPORT]
-- The tradition's own safeguards: conciliarity, the laity's historical role in rejecting false councils.
+Healthy practice here looks like parishes and jurisdictions that resisted state capture, among them the dissident priests in Russia who were sanctioned for opposing the war. [INVESTIGATIVE REPORT]
+
+The tradition has its own safeguards. Conciliarity teaches that the faith is guarded by the whole people, and the laity have historically rejected false councils. No single office can bind every church.
+
+Some of that standard is already on the record. In March 2022 more than 1,200 Orthodox theologians and scholars signed a declaration calling the "Russian World" teaching behind the war a heresy [15]. Fr Alexei Uminsky refused to recite the prayer for victory and was defrocked in 2024 [10]. Fr Ioann Burdin preached against the war and was fined by the state and banned by the church [21][32]. In the United Kingdom, the Greek Orthodox Archdiocese of Thyateira files public accounts as a registered charity [18]. Each is a place where members or institutions met the standard this page applies, and each is recorded here as credit.
 
 ## 5. History {#history}
 
-Shared roots with Catholicism; the Great Schism (1054) formalized the East–West split; Byzantine 'symphonia' bound church and emperor; Ottoman and then communist rule made national churches instruments of both survival and state management.
+Eastern Orthodoxy shares its roots with Catholicism, and the Great Schism of 1054 formalized the split between East and West. In Byzantium, 'symphonia' bound church and emperor together. Ottoman and then communist rule made the national churches instruments both of survival and of state management.
 
 ### Timeline
 
 ```timeline
-1st–4th c. | Shared apostolic origins; patriarchates of Constantinople, Alexandria, Antioch, Jerusalem | Authority is plural from the start — conciliar, not monarchical.
+1st–4th c. | Shared apostolic origins; patriarchates (churches headed by a patriarch) of Constantinople, Alexandria, Antioch, Jerusalem | Authority is plural from the start — conciliar, not monarchical.
 330–1453 | Byzantine 'symphonia' of emperor and church | The template of throne-and-altar cooperation that still shapes the tradition.
 726–843 | Iconoclast controversies resolved in favor of icons | Liturgical aesthetics become doctrinally central — and later, a powerful recruitment surface.
 1054 | Great Schism | Independence from Rome preserved conciliarity and left each national church exposed to its own state.
-1453–1821 | Ottoman millet system | The Patriarch becomes an administrator of a subject population — survival through political usefulness.
+1453–1821 | Ottoman millet system (rule of each religious community through its own leaders) | The Patriarch becomes an administrator of a subject population — survival through political usefulness.
 1721 | Peter I abolishes the Russian patriarchate, installs a state Synod | Church governance is absorbed into a government ministry for two centuries.
 1917–1991 | Soviet persecution; millions of believers and clergy repressed; infiltration of hierarchy | Genuine martyrdom alongside documented state co-option — both facts are real. [ACADEMIC SOURCE]
 1991–2010s | Post-Soviet restoration; property restitution; state alliance rebuilt | Institutional wealth and political privilege reconstructed rapidly. [INVESTIGATIVE REPORT]
@@ -119,9 +122,9 @@ Shared roots with Catholicism; the Great Schism (1054) formalized the East–Wes
 ::: card
 #### 1721 — The Tsar abolishes the Patriarchate
 
-Peter the Great replaced the Patriarch of Moscow with a Holy Synod under a lay Ober-Procurator appointed by the crown. The Russian Church had no patriarch again for nearly two hundred years.
+Peter the Great replaced the Patriarch of Moscow with a Holy Synod (a standing council of bishops) under a lay Ober-Procurator, an official appointed by the crown to supervise it. The Russian Church had no patriarch again for nearly two hundred years.
 
-**Why it matters.** The template for state capture in this tradition. What returned in the twentieth century was not the pre-1721 church but the synodal arrangement with a new state attached.
+**Why it matters.** It set the template for state capture in this tradition. What returned in the twentieth century was not the pre-1721 church but the synodal arrangement (government by a council of bishops) with a new state attached.
 :::
 
 ::: card
@@ -135,7 +138,7 @@ In September 1943, at a meeting arranged in the middle of the war, Stalin permit
 ::: card
 #### 2022 — The pulpit and the invasion
 
-Patriarch Kirill preached in support of the invasion of Ukraine. Priests who signed an open letter calling for reconciliation were suspended and in cases defrocked. The patriarch faced no synodal process of any kind.
+Patriarch Kirill preached in support of the invasion of Ukraine. Priests who signed an open letter calling for reconciliation were suspended and in some cases defrocked. The patriarch faced no synodal process of any kind.
 
 **Why it matters.** The clearest demonstration in this codex of accountability running in exactly one direction — downward, quickly, and only against dissent.
 :::
@@ -146,15 +149,15 @@ Sources for this section: [10] [11] [16] [17]
 
 ## 6. Branches & variants {#branches}
 
-Autocephalous national churches (Constantinople, Moscow, Romanian, Greek, Serbian, and others), each self-governing; Old Calendarist splinters.
+The tradition is made up of autocephalous national churches (Constantinople, Moscow, Romanian, Greek, Serbian and others), each of them self-governing. Old Calendarist groups have split away from them.
 
 | Branch | Where | What differs on this page's questions |
 |---|---|---|
-| **Ecumenical Patriarchate of Constantinople** | Istanbul; Mount Athos; much of the diaspora, including the UK [16][18] | First among equals; claims the right to grant autocephaly, and used it for Ukraine in 2019 [17]. |
-| **Moscow Patriarchate** | Russia, Belarus, and parishes abroad; the largest by far [13] | Broke communion with Constantinople in 2018 [17]; its patriarch is sanctioned by the UK and others [1][2]. |
-| **Other ancient and national churches** | Alexandria, Antioch, Jerusalem; Serbia, Romania, Bulgaria, Georgia, Cyprus, Greece, Poland, Albania, the Czech Lands and Slovakia [16] | Each governed by its own synod; several are funded or salaried by their state [7][25]. |
-| **Orthodox Church of Ukraine** | Ukraine | Granted autocephaly by Constantinople on 5 January 2019; not recognized by Moscow [17]. |
-| **Old Calendarists** | Greece and diaspora | Broke away when the Church of Greece adopted the revised calendar in 1924; outside communion with the canonical churches [24]. |
+| **Ecumenical Patriarchate of Constantinople** | Istanbul; Mount Athos; much of the diaspora, including the UK [16][18] | It is first among equals. It claims the right to grant autocephaly, and used it for Ukraine in 2019 [17]. |
+| **Moscow Patriarchate** | Russia, Belarus, and parishes abroad; the largest by far [13] | It broke communion (ended shared worship and sacraments) with Constantinople in 2018 [17], and its patriarch is sanctioned by the UK and others [1][2]. |
+| **Other ancient and national churches** | Alexandria, Antioch, Jerusalem; Serbia, Romania, Bulgaria, Georgia, Cyprus, Greece, Poland, Albania, the Czech Lands and Slovakia [16] | Each is governed by its own synod, and several are funded by their state or have clergy on its payroll [7][25]. |
+| **Orthodox Church of Ukraine** | Ukraine | Constantinople granted it autocephaly on 5 January 2019. Moscow does not recognize it [17]. |
+| **Old Calendarists** | Greece and diaspora | They broke away when the Church of Greece adopted the revised calendar in 1924, and they are outside communion with the canonical churches (those the main Orthodox churches recognize) [24]. |
 
 Pew counts about **260 million** Orthodox Christians worldwide (2017) [13].
 
@@ -164,15 +167,15 @@ Pew counts about **260 million** Orthodox Christians worldwide (2017) [13].
 
 |  |  |
 |---|---|
-| Adherents | ~220–260 million. [ACADEMIC SOURCE: Pew] |
-| Regions | Russia (largest by far), Ukraine, Romania, Greece, Serbia, Bulgaria, Georgia, Ethiopia's related Oriental tradition, plus Western diaspora. |
-| Trend | Nominal identity high in post-Soviet states, active practice much lower; notable convert growth in North America and Western Europe, especially among young men. |
-| Participation | Extreme identity/practice gap: Russia reports ~70%+ Orthodox identity with single-digit weekly attendance. National identity, not institutional submission, is what most adherents are reporting. [ACADEMIC SOURCE] |
+| Adherents | Eastern Orthodoxy has ~220–260 million adherents. [ACADEMIC SOURCE: Pew] |
+| Regions | Russia has by far the largest population. The tradition is also concentrated in Ukraine, Romania, Greece, Serbia, Bulgaria and Georgia, with a diaspora in the West. Ethiopia's related Oriental tradition is listed alongside it. |
+| Trend | Nominal identity is high in post-Soviet states, and active practice is much lower. Convert numbers are growing notably in North America and Western Europe, especially among young men. |
+| Participation | The gap between identity and practice is extreme. Russia reports ~70%+ Orthodox identity with single-digit weekly attendance. National identity, not institutional submission, is what most adherents are reporting. [ACADEMIC SOURCE] |
 
 ### Authority
 
-- Patriarchs and synods per national church; bishops must be monks; the elder/spiritual-father (starets/geronda) system creates intense personal authority with no external oversight. [PATTERN OBSERVED]
-- Monastic centers (e.g., Athos) exert outsized doctrinal gravity.
+- Each national church is governed by its patriarch and synod, and its bishops must be monks. The elder or spiritual-father system (starets in Russian, geronda in Greek) creates intense personal authority with no external oversight. [PATTERN OBSERVED]
+- Monastic centers such as Mount Athos in Greece exert outsized doctrinal gravity.
 
 ### The top of the chain
 
@@ -182,9 +185,9 @@ Fifteen self-governing churches, each with its own apex — and not one lay vote
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| Ecumenical Patriarch of Constantinople | Bartholomew I, since 1991 — first among equals, without command over the other fourteen churches | The Holy Synod | The Synod, in theory |
-| Patriarch of Moscow and All Rus' | Kirill — Vladimir Gundyayev — since 2009; blessed the invasion of Ukraine from the pulpit and has been personally sanctioned by several governments; the EU renewed its attempt to sanction him in 2026 | A local council and synod | No realistic mechanism while aligned with the state. Priests who publicly opposed the war were suspended and defrocked; the patriarch who blessed it was not |
-| Your jurisdiction's synod of bishops | Celibate monastics, by canon — every voting seat in every synod | Bishops elect bishops | Bishops |
+| Ecumenical Patriarch of Constantinople | Bartholomew I, since 1991. He is first among equals, without command over the other fourteen churches. | The Holy Synod | The Synod, in theory |
+| Patriarch of Moscow and All Rus' | Kirill (Vladimir Gundyayev), since 2009. He blessed the invasion of Ukraine from the pulpit and has been personally sanctioned by several governments. The EU renewed its attempt to sanction him in 2026. | A local council and synod | There is no realistic mechanism while he is aligned with the state. Priests who publicly opposed the war were suspended and defrocked; the patriarch who blessed it was not |
+| Your jurisdiction's synod of bishops | Celibate monastics hold every voting seat in every synod, by canon. | Bishops elect bishops | Bishops remove bishops |
 
 ::: tell
 Decentralization is offered as the defense. Read it as the finding: fifteen separate rooms, each with the same locked door, and no door anywhere with a member's hand on the handle.
@@ -194,11 +197,11 @@ Decentralization is offered as the defense. Read it as the finding: fifteen sepa
 
 | Entity | Type | Holder | Holds | Why it matters to you | Receipt |
 |---|---|---|---|---|---|
-| The Moscow Patriarchate | National church | Patriarch and Holy Synod | The largest Orthodox jurisdiction, restored property, and state alignment | Whether your son's war is blessed | [LEADERSHIP STATEMENT: recorded public statements on the invasion of Ukraine] |
-| Ecumenical Patriarchate of Constantinople | Primatial see | Ecumenical Patriarch | Canonical primacy and the authority to grant autocephaly | Which church your parish belongs to, decided geopolitically | [OFFICIAL POLICY: 2018–19 Ukrainian autocephaly] |
-| State clergy payroll (Greece) | Statutory revenue | Greek state budget | Salaries for Orthodox clergy from public funds | Public money underwriting positions much of the public disagrees with | [OFFICIAL POLICY] |
-| Monastic centres and elder figures | Charismatic authority | Abbots and individual startsi | Unaudited donations and total personal influence over families | Your marriage, your medicine, and your children's schooling, by blessing | [PATTERN OBSERVED / FORMER MEMBER TESTIMONY] |
-| Post-Soviet restitution and commercial concessions | Assets | Patriarchal economic administration | Property and commercial privileges granted in the 1990s | The wealth that makes political criticism structurally impossible | [INVESTIGATIVE REPORT: Moskovsky Komsomolets, 1997; OSW, 2012] |
+| The Moscow Patriarchate | National church | Patriarch and Holy Synod | The largest Orthodox jurisdiction, restored property, and state alignment | It decides whether your son's war is blessed. | [LEADERSHIP STATEMENT: recorded public statements on the invasion of Ukraine] |
+| Ecumenical Patriarchate of Constantinople | Primatial see (the seat of the senior bishop) | Ecumenical Patriarch | Canonical primacy and the authority to grant autocephaly | It decides, on geopolitical grounds, which church your parish belongs to. | [OFFICIAL POLICY: 2018–19 Ukrainian autocephaly] |
+| State clergy payroll (Greece) | Statutory revenue | Greek state budget | Salaries for Orthodox clergy from public funds | Public money underwrites positions much of the public disagrees with. | [OFFICIAL POLICY] |
+| Monastic centres and elder figures | Charismatic authority | Abbots and individual startsi | Unaudited donations and total personal influence over families | Your marriage, your medicine and your children's schooling can depend on their blessing. | [PATTERN OBSERVED / FORMER MEMBER TESTIMONY] |
+| Post-Soviet restitution and commercial concessions | Assets | Patriarchal economic administration | Property and commercial privileges granted in the 1990s | This is the wealth that makes political criticism structurally impossible. | [INVESTIGATIVE REPORT: Moskovsky Komsomolets, 1997; OSW, 2012] |
 
 ::: cites
 Sources for this section: [1] [4] [7] [10] [11] [13] [16]
@@ -211,18 +214,18 @@ Sources for this section: [1] [4] [7] [10] [11] [13] [16]
 | **Russia** | The 1997 religion law's preamble recognizes "the special role of Orthodoxy" in Russian history [23]; since 2022, "discrediting" the armed forces is an offence — used against a priest for a sermon [21] | The state protects the patriarch; the church disciplines the priests who disagree with the state [10][21] |
 | **Ukraine** | Law No. 3894-IX (2024) allows courts to ban religious bodies affiliated with the Russian Orthodox Church [5] | UN experts warned in 2025 of persecution of the Ukrainian Orthodox Church [6] |
 | **Greece** | The constitution names Orthodoxy "the prevailing religion" (Article 3) [24]; the state pays about 10,000 clergy salaries [7] | A 2018 deal to move clergy off the state payroll was rejected by the Holy Synod and dropped [7] |
-| **Georgia** | A 2002 agreement under which the state compensates the church for Soviet-era losses; the Patriarchate receives 25 million lari a year from the state budget [25] | Extra state money for church events on top, such as at least 890,000 lari for one feast-day celebration [25] |
-| **United Kingdom** | Dioceses registered as charities file public accounts [18] | The Charity Commission — the only body in this table that can require an Orthodox diocese to publish its books |
+| **Georgia** | A 2002 agreement commits the state to compensate the church for Soviet-era losses, and the Patriarchate receives 25 million lari a year from the state budget [25] | The state also pays extra for church events, such as at least 890,000 lari for one feast-day celebration [25] |
+| **United Kingdom** | Dioceses registered as charities file public accounts [18] | The Charity Commission is the only body in this table that can require an Orthodox diocese to publish its books |
 
 ### Who can compel an answer
 
-Civil courts, and charity regulators in diaspora jurisdictions where parishes and archdioceses are registered. No synodal structure has ever compelled a state-aligned hierarch — which is exactly why the outside bodies are the ones to name.
+Civil courts can, and so can charity regulators in diaspora jurisdictions where parishes and archdioceses are registered. No synodal structure has ever compelled a state-aligned hierarch — which is exactly why the outside bodies are the ones to name.
 
 ## 9. Money {#money}
 
 ### Where it comes from
 
-- Candle sales, ritual fees (baptisms, weddings, funerals, house blessings), diaspora remittances, state funding in several countries.
+- The money comes from candle sales, ritual fees (for baptisms, weddings, funerals and house blessings), diaspora remittances, and state funding in several countries.
 - The Russian Orthodox Church's post-Soviet property restitution and state-granted commercial privileges built major institutional wealth. [INVESTIGATIVE REPORT: duty-free tobacco and alcohol imports through the Department for External Church Relations, 1994–97]
 - Greece pays Orthodox clergy salaries from the state budget. [OFFICIAL POLICY]
 
@@ -230,23 +233,23 @@ Civil courts, and charity regulators in diaspora jurisdictions where parishes an
 
 | Flow | Stated purpose | How it controls | Who benefits |
 |---|---|---|---|
-| Candle, icon, and prayer-request sales | Parish upkeep and commemoration | Micro-payments for prayer and blessing monetize access to the sacred | Parishes, dioceses, monastic workshops |
-| Ritual fees (baptism, wedding, funeral, house blessing) | Clergy support | Life-passage events become priced; the poor negotiate for rites | Clergy and parish |
-| State salaries and restitution (Greece, Russia, Georgia) | Cultural heritage and public service | Fiscal dependence makes political criticism structurally impossible | Hierarchy; the state buys legitimacy [OFFICIAL POLICY] |
-| Monastery economies and pilgrimage | Monastic life and hospitality | Elder-figures accumulate donations with no audit and immense personal authority | Monastic houses, individual elders |
+| Candle, icon, and prayer-request sales | Parish upkeep and commemoration | Micro-payments for prayer and blessing monetize access to the sacred | Parishes, dioceses and monastic workshops benefit. |
+| Ritual fees (baptism, wedding, funeral, house blessing) | Clergy support | Life-passage events become priced; the poor negotiate for rites | Clergy and the parish benefit. |
+| State salaries and restitution (Greece, Russia, Georgia) | Cultural heritage and public service | Fiscal dependence makes political criticism structurally impossible | The hierarchy benefits, and the state buys legitimacy [OFFICIAL POLICY] |
+| Monastery economies and pilgrimage | Monastic life and hospitality | Elder-figures accumulate donations with no audit and immense personal authority | Monastic houses and individual elders benefit. |
 
 ### Pipelines this tradition shares
 
 ::: card
 #### Ritual fee ladder
 
-**Source.** Life passages — birth, marriage, death, blessing
+**Source.** The fees come from life passages: birth, marriage, death and blessing.
 
 **Path.** Officiant → Parish or temple → Diocesan or central share
 
-**Disclosed.** Suggested offerings
+**Disclosed.** Suggested offerings are disclosed.
 
-**Hidden.** Negotiation, waiver practice, and who is refused
+**Hidden.** Negotiation, waiver practice and who is refused stay hidden.
 :::
 
 ::: card
@@ -274,59 +277,59 @@ Sources for this section: [7] [8] [9]
  "cite":[18]}
 ```
 
-- **Georgia:** 25 million lari (about $8 million) a year from the state budget to the Patriarchate [25].
-- **Greece:** about 10,000 Orthodox clergy on the state payroll [7].
-- **Russia:** no published accounts; the one detailed record of the Patriarchate's commercial income is the 1990s reporting on duty-free tobacco and alcohol imports [8][9].
-- **Thyateira, 2024:** spending £1.88m against income of £1.13m; £935,680 of the income came from donations and legacies [18].
+- **Georgia:** The Patriarchate receives 25 million lari (about $8 million) a year from the state budget [25].
+- **Greece:** About 10,000 Orthodox clergy are on the state payroll [7].
+- **Russia:** There are no published accounts. The one detailed record of the Patriarchate's commercial income is the 1990s reporting on duty-free tobacco and alcohol imports [8][9].
+- **Thyateira, 2024:** Spending was £1.88m against income of £1.13m, and £935,680 of the income came from donations and legacies [18].
 
 ## 10. Genealogy {#genealogy}
 
 ::: card
 #### Symphonia — the throne-and-altar partnership
 
-**Origin.** Byzantine political theology from the 4th century: emperor and church as two hands of one body. [ACADEMIC SOURCE]
+**Origin.** It began as Byzantine political theology in the 4th century, which saw emperor and church as two hands of one body. [ACADEMIC SOURCE]
 
 **What it was for.** In a world where the state was the only guarantor of survival, alignment kept the church alive and the empire coherent. Under Ottoman and Soviet rule, cooperation was sometimes the literal condition of continued existence.
 
 **Why that reason expired.** Survival is no longer at stake in states where the church is dominant. What remains is a hierarchy structurally unable to criticize a government that pays its salaries and restored its property — and in 2022, unwilling to refuse to bless an invasion. [LEADERSHIP STATEMENT]
 
-**Who benefits now.** The state, which buys sacred legitimacy at negligible cost. And the hierarchy, which receives property, monopoly, and protection. The bill is paid by the parishioners whose sons are sent, and by the Ukrainians on the other end.
+**Who benefits now.** The state benefits, buying sacred legitimacy at negligible cost. So does the hierarchy, which receives property, monopoly and protection. The bill is paid by the parishioners whose sons are sent, and by the Ukrainians on the other end.
 :::
 
 ::: card
 #### Obedience to the spiritual father
 
-**Origin.** Desert monasticism, 4th–5th centuries: a novice submits totally to an elder to break self-will. [ACADEMIC SOURCE]
+**Origin.** It began in the desert monasticism of the 4th and 5th centuries, where a novice submitted totally to an elder to break self-will. [ACADEMIC SOURCE]
 
-**What it was for.** A voluntary, time-bound, mutually chosen relationship between two monks in a monastery, with a community of other monks watching.
+**What it was for.** It was a voluntary, time-bound, mutually chosen relationship between two monks in a monastery, with a community of other monks watching.
 
 **Why that reason expired.** Transplanted onto laypeople — with marriages, careers, children, and mortgages — it becomes an unregulated authority over decisions the elder has no competence in and no accountability for. There is no appeal, no review, and often no other elder within a thousand miles.
 
-**Who benefits now.** Individual priests and elders who acquire total influence over families with no oversight structure whatsoever. This is the tradition's least visible and least deniable risk.
+**Who benefits now.** Individual priests and elders benefit, acquiring total influence over families with no oversight structure whatsoever. This is the tradition's least visible and least deniable risk.
 :::
 
 ::: card
 #### Ethnic-religious fusion
 
-**Origin.** National churches consolidated under Ottoman millet administration and 19th-century nationalism: to be Serbian, Greek, Russian, or Romanian is to be Orthodox. [ACADEMIC SOURCE]
+**Origin.** The national churches consolidated under Ottoman millet administration and 19th-century nationalism, until to be Serbian, Greek, Russian or Romanian was to be Orthodox. [ACADEMIC SOURCE]
 
 **What it was for.** Under foreign rule, the church was the only institution preserving language, law, and identity. The fusion was a survival mechanism against erasure.
 
 **Why that reason expired.** These are now independent states with their own governments, universities, and armies. The fusion no longer preserves anything — it just makes leaving the church indistinguishable from betraying your nation and your dead.
 
-**Who benefits now.** Nationalist politicians, who inherit a ready-made moral constituency. And hierarchs, who become untouchable because criticizing them reads as treason.
+**Who benefits now.** Nationalist politicians benefit, inheriting a ready-made moral constituency. So do hierarchs, who become untouchable because criticizing them reads as treason.
 :::
 
 ::: card
 #### Menstrual and purity restrictions
 
-**Origin.** Ancient Near Eastern and Levitical purity frameworks, absorbed into custom rather than canon. [ACADEMIC SOURCE]
+**Origin.** The restrictions come from ancient Near Eastern and Levitical purity frameworks, absorbed into custom rather than canon. [ACADEMIC SOURCE]
 
 **What it was for.** Ritual purity systems ordered sacred space in societies without any concept of germ theory or physiology.
 
-**Why that reason expired.** We know what menstruation is. No canon requires the restriction; it survives as parish custom — which is precisely what makes it undeniable and unaccountable at once.
+**Why that reason expired.** We know what menstruation is. No canon requires the restriction; it survives as parish custom, which is what makes it deniable and unaccountable at once.
 
-**Who benefits now.** Nobody, materially. That is the point worth noticing: some control persists purely because it was never examined, and because the people it excludes have no standing to raise it.
+**Who benefits now.** Nobody benefits materially. Some control persists only because it was never examined, and because the people it excludes have no standing to raise it.
 :::
 
 ## 11. Reach {#reach}
@@ -339,16 +342,16 @@ Sources for this section: [7] [8] [9]
 
 ### Children
 
-- Infant baptism and chrismation; infant communion — full initiation long before consent.
+- Infants are baptized and chrismated (anointed with holy oil, the Orthodox rite that corresponds to confirmation) and receive communion, so full initiation comes long before consent.
 - Godparent systems and parish schooling build dense obligation networks around a child.
 - Fasting disciplines and early confession introduce bodily and conscience regulation in childhood; in nationalist contexts, catechism and patriotic education merge. [PATTERN OBSERVED]
 
 ### Bodies
 
-- Male-only priesthood and episcopate; bishops must be celibate monks — governance is monastic and male. [OFFICIAL POLICY]
+- The priesthood and the episcopate (the order of bishops) are male-only, and bishops must be celibate monks, so governance is monastic and male. [OFFICIAL POLICY]
 - Menstrual restrictions on communion and church entry persist in many parishes as custom rather than canon — the deniability is the point. [PATTERN OBSERVED]
-- Divorce is permitted by economy but granted by episcopal discretion; remarriage is penitential.
-- Strong anti-LGBTQ positioning, in Russia converging with state law criminalizing 'propaganda.' [OFFICIAL POLICY / GOVERNMENT REPORT]
+- Divorce is permitted by economy (oikonomia, the discretion to relax a rule in a particular case) but granted at the bishop's discretion, and a second marriage is treated as an act of repentance.
+- The church takes a strongly anti-LGBTQ position, which in Russia converges with state law criminalizing 'propaganda'. [OFFICIAL POLICY / GOVERNMENT REPORT]
 
 ## 12. The 30 techniques {#techniques}
 
@@ -379,7 +382,7 @@ Incense, chant, icons, fasting, ancientness. Online you are told you have found 
 
 **The counter.** Beauty can be real and still be used as bait. Incense does not cancel control. Chanting does not make obedience harmless. If the aesthetic lowers your defenses before authority claims are disclosed, the beauty is functioning as seduction.
 
-**Evidence grade.** [[Cultural]] Convert welcome and parish hospitality are local and, in the online convert world, entirely informal.
+**Evidence grade.** [[Cultural]] The enchantment and online affirmation described here are local parish and online practice; no written rule directs them.
 :::
 
 ::: tactic n=2
@@ -406,7 +409,7 @@ Incense, chant, icons, fasting, ancientness. Online you are told you have found 
 ::: stage
 **You are given a future that cannot be verified, and a rope for whenever you drift toward the door.**
 
-Theosis, the unbroken Church, communion with the saints across two millennia — verifiable never. And retrieval through your spiritual father: return to the chalice, your soul is in danger out there.
+Theosis (union with God), the unbroken Church, communion with the saints across two millennia: none of it can be verified. And retrieval runs through your spiritual father: return to the chalice, your soul is in danger out there.
 
 *What it asks of you:* You were offered the fullness of the faith on the condition that you never audit the men holding it.
 :::
@@ -427,7 +430,7 @@ Theosis, the unbroken Church, communion with the saints across two millennia —
 
 **The counter.** A transformative ideal becomes future faking when the institution uses its vastness to prevent accountability. If every failure is blamed on the believer’s passions, pride, lack of obedience, lack of fasting, lack of humility, or insufficient submission to a spiritual father, then the promise never has to be tested. The cure is always real. The patient is always the problem.
 
-**Evidence grade.** [[Taught]] Theosis and the danger of leaving the Church are taught continuously; retrieval runs through the spiritual father, not through policy.
+**Evidence grade.** [[Taught]] Theosis and the Church as a lifelong hospital for the soul are taught doctrine; using that promise to deflect questions from the institution is pastoral practice.
 :::
 
 ::: tactic n=4
@@ -440,7 +443,7 @@ Theosis, the unbroken Church, communion with the saints across two millennia —
 - When someone leaves Orthodoxy, they may be told they are abandoning the fullness of the faith, the ancient Church, the saints, the sacraments, and the spiritual hospital.
 - Converts may be especially targeted: “You know too much now to go back,” “You found the true Church,” “Leaving after illumination is spiritually dangerous.”
 - A priest, godparent, or convert friend may contact them with concern framed as spiritual care but loaded with implied disaster: pride, delusion, demonic attack, Western rationalism, spiritual sickness.
-- The sensory nostalgia is powerful: Pascha, chant, icons, incense, fasting cycles, feast days, and the feeling of ancient belonging are used to draw the person back emotionally before the original questions are addressed.
+- The sensory nostalgia is powerful: Pascha (Easter), chant, icons, incense, fasting cycles, feast days, and the feeling of ancient belonging are used to draw the person back emotionally before the original questions are addressed.
 
 **The strongest defense.** Orthodoxy views the Church as healing. Calling someone back is like urging a sick person not to leave treatment.
 
@@ -494,7 +497,7 @@ The fast was not kept strictly enough. The confession was not thorough enough. Y
 
 **The counter.** A hospital that calls every refusal of treatment a symptom has removed consent. If the priest, parish, or tradition gets to diagnose your objection as illness, then you are not being healed. You are being interpreted into submission.
 
-**Evidence grade.** [[Taught]] Unworthiness and the need for confession are catechetical teaching, delivered pastorally rather than administered.
+**Evidence grade.** [[Taught]] The terms used to reinterpret a member's experience (pride, the passions, prelest) are taught spiritual teaching; applying them to a member's perception is pastoral practice.
 :::
 
 ::: tactic n=7
@@ -512,7 +515,7 @@ The fast was not kept strictly enough. The confession was not thorough enough. Y
 
 **The counter.** Medicine that cannot be refused is not medicine. When the same tradition that prescribes obedience also defines every attempt to withdraw as the disease itself, the patient has no exit that does not confirm the diagnosis.
 
-**Evidence grade.** [[Taught]] Unworthiness and the need for confession are catechetical teaching, delivered pastorally rather than administered.
+**Evidence grade.** [[Taught]] Both halves of the bind are taught: obedience to the spiritual father as the cure for pride, and prelest as the name for misplaced doubt. How they are combined is pastoral practice.
 :::
 
 ### Stage 4 · Confuse {#stage-4}
@@ -540,7 +543,7 @@ Question a priest and you are told your discernment is prelest — spiritual del
 
 **The counter.** The teaching warns against it; the structure can still run on it. If consolation reliably follows compliance and drought reliably follows independence — and both are interpreted by the same authority — sobriety is the label on an intermittent schedule.
 
-**Evidence grade.** [[Cultural]] Prelest as a diagnosis for a member's doubt has no canonical basis and no appeal mechanism, which is precisely what makes it effective.
+**Evidence grade.** [[Cultural]] Whether communion is blessed or withheld, and how a spiritual father alternates tenderness and severity, is decided by the individual priest; no published rule governs either.
 :::
 
 ::: tactic n=9
@@ -550,7 +553,7 @@ Question a priest and you are told your discernment is prelest — spiritual del
 
 **How it shows here**
 
-- Converts are first told, “Come and see.” Then they must become catechumens, fast, confess, obey a priest, adopt an Orthodox calendar, reject Western habits, and internalize suspicion of their previous religious instincts.
+- Converts are first told, “Come and see.” Then they must become catechumens (people under instruction before reception into the Church), fast, confess, obey a priest, adopt an Orthodox calendar, reject Western habits, and internalize suspicion of their previous religious instincts.
 - If someone follows fasting rules, they may then be told they are doing it pridefully. If they do not follow them, they lack discipline. Either way, they are wrong.
 - A person obeys their spiritual father, but if harm results, the next goalpost is humility: “You misunderstood obedience,” “You obeyed externally but not spiritually.”
 
@@ -558,7 +561,7 @@ Question a priest and you are told your discernment is prelest — spiritual del
 
 **The counter.** Lifelong healing becomes control when no amount of effort can establish basic trust in your own judgment. If every outcome proves you need more obedience, the hospital has no discharge door.
 
-**Evidence grade.** [[Cultural]] Prelest as a diagnosis for a member's doubt has no canonical basis and no appeal mechanism, which is precisely what makes it effective.
+**Evidence grade.** [[Cultural]] The shifting standards described here are applied by the individual priest and spiritual father; no written rule fixes when a standard has been met.
 :::
 
 ::: tactic n=10
@@ -576,7 +579,7 @@ Question a priest and you are told your discernment is prelest — spiritual del
 
 **The counter.** Personal medicine becomes strategic ambiguity when the priest’s discretion replaces transparent standards. If rules are undefined until you violate them, pastoral flexibility has become control by fog.
 
-**Evidence grade.** [[Cultural]] Prelest as a diagnosis for a member's doubt has no canonical basis and no appeal mechanism, which is precisely what makes it effective.
+**Evidence grade.** [[Cultural]] 'Ask your priest' and the principle of economy leave the standard to clerical discretion, which section 15 records as applied case by case with no published standard.
 :::
 
 ::: tactic n=11
@@ -595,7 +598,7 @@ Question a priest and you are told your discernment is prelest — spiritual del
 
 **The counter.** Humility that only flows downward is not humility. If priests and traditions cannot be questioned without diagnosing the questioner as proud, then Orthodoxy is projecting institutional arrogance onto individual conscience.
 
-**Evidence grade.** [[Cultural]] Prelest as a diagnosis for a member's doubt has no canonical basis and no appeal mechanism, which is precisely what makes it effective.
+**Evidence grade.** [[Cultural]] Accusing critics of pride while authority declines to answer is observed in parish and online practice; no written rule directs it.
 :::
 
 ::: tactic n=12
@@ -614,7 +617,7 @@ Question a priest and you are told your discernment is prelest — spiritual del
 
 **The counter.** Obedience becomes DARVO when it is used to reverse harm. If the person naming clerical abuse becomes the arrogant one, while the authority figure becomes the victim of disrespect, then humility has been turned upside down.
 
-**Evidence grade.** [[Cultural]] Prelest as a diagnosis for a member's doubt has no canonical basis and no appeal mechanism, which is precisely what makes it effective.
+**Evidence grade.** [[Cultural]] Recasting a complaint about clergy as the complainant's pride or illness is observed pastoral practice; no written rule directs it and no appeal mechanism exists.
 :::
 
 ::: tactic n=13
@@ -633,7 +636,7 @@ Question a priest and you are told your discernment is prelest — spiritual del
 
 **The counter.** Ancient discipline can still train people out of self-trust. If the believer becomes used to overriding hunger, doubt, discomfort, or moral alarm because the Church calls it healing, then normalization has replaced discernment.
 
-**Evidence grade.** [[Cultural]] Prelest as a diagnosis for a member's doubt has no canonical basis and no appeal mechanism, which is precisely what makes it effective.
+**Evidence grade.** [[Cultural]] Fasting cycles, long liturgies and prayers of unworthiness are prescribed discipline; how hard they are pressed on a convert is set by the parish and the spiritual father.
 :::
 
 ### Stage 5 · Isolate {#stage-5}
@@ -662,7 +665,7 @@ Your spiritual father's blessing governs your decisions. Your parish is your soc
 
 **The counter.** Ancientness does not justify enclosure. If the convert must distrust nearly every outside source to remain stable in the faith, then the tradition is not merely healing modern fragmentation. It is replacing the person’s world with a controlled one.
 
-**Evidence grade.** [[Codified]] Sacramental mediation and the monastic episcopate are canonical; ethnic-national fusion is cultural and separately noted.
+**Evidence grade.** [[Codified]] Teaching converts to distrust outside sources and to bring doubts only to the priest is parish and online practice; no canon directs it.
 :::
 
 ::: tactic n=15
@@ -682,7 +685,7 @@ Your spiritual father's blessing governs your decisions. Your parish is your soc
 
 **The counter.** Guidance becomes triangulation when the only approved guides are loyal to the structure you are questioning. If your concern about authority must be processed through authority, the circle is already closed.
 
-**Evidence grade.** [[Codified]] Sacramental mediation and the requirement that bishops be celibate monks are canonical. *(sourced)*
+**Evidence grade.** [[Codified]] Sacramental mediation through the priest is canonical; the other intermediaries named here (spiritual fathers, godparents, the parish echoing concern) operate by custom. *(sourced)*
 :::
 
 ### Stage 6 · Extract {#stage-6}
@@ -711,7 +714,7 @@ Candles, prayer requests, ritual fees for every passage of your life. Monastery 
 
 **The counter.** Guidance becomes FLYING MONKEY pressure when everyone around the person has the same diagnostic script. If every concern is processed through priest, godparent, tradition, and accusation of pride, then the community is not helping the person think. It is surrounding them until they stop.
 
-**Evidence grade.** [[Cultural]] Ritual fees, monastery donations, and elder authority operate by custom, with each parish and monastery setting its own terms.
+**Evidence grade.** [[Cultural]] The pressure described here comes from priests, godparents, parishioners and online converts acting by custom; no bishop's directive for it is recorded.
 :::
 
 ::: tactic n=17
@@ -730,7 +733,7 @@ Candles, prayer requests, ritual fees for every passage of your life. Monastery 
 
 **The counter.** Warning against delusion becomes smear when it is used to discredit anyone who names institutional harm. If every critic is proud, the institution never has to repent.
 
-**Evidence grade.** [[Cultural]] Ritual fees, monastery donations, and elder authority operate by custom, with each parish and monastery setting its own terms.
+**Evidence grade.** [[Cultural]] Recasting leavers and critics as proud or deluded is parish and online practice with no written rule; the church court's heresy conviction of Fr Ioann Burdin (section 19) is the one formal instance on this page.
 :::
 
 ::: tactic n=18
@@ -749,7 +752,7 @@ Candles, prayer requests, ritual fees for every passage of your life. Monastery 
 
 **The counter.** Pastoral care becomes stonewalling when the person harmed by authority is required to submit again to authority for resolution. A locked door does not become healing because incense is burning behind it.
 
-**Evidence grade.** [[Cultural]] Ritual fees, monastery donations, and elder authority operate by custom, with each parish and monastery setting its own terms.
+**Evidence grade.** [[Cultural]] Sending a complaint back to the priest it concerns, and slow or absent replies from bishops and councils, is practice rather than rule; the scorecard finds no on-the-record replies.
 :::
 
 ::: tactic n=19
@@ -768,7 +771,7 @@ Candles, prayer requests, ritual fees for every passage of your life. Monastery 
 
 **The counter.** Time alone does not equal consent. If the process gradually teaches the convert to distrust their own judgment and depend on priestly interpretation, then the final yes may be ceremonial confirmation of a dependency already installed.
 
-**Evidence grade.** [[Cultural]] Ritual fees, monastery donations, and elder authority operate by custom, with each parish and monastery setting its own terms.
+**Evidence grade.** [[Cultural]] The stages of reception (catechesis, then chrismation) are prescribed; the conditioning of the convert's judgment described here is parish practice.
 :::
 
 ::: tactic n=20
@@ -787,7 +790,7 @@ Candles, prayer requests, ritual fees for every passage of your life. Monastery 
 
 **The counter.** Therapy becomes TRAUMA BONDING when the patient is never allowed to question the doctor. If the Church diagnoses every objection as pride and then offers itself as cure, the hospital has become the attachment system.
 
-**Evidence grade.** [[Cultural]] Ritual fees, monastery donations, and elder authority operate by custom, with each parish and monastery setting its own terms.
+**Evidence grade.** [[Cultural]] The language of the Church as a hospital is pastoral teaching; the attachment it produces is observed in parish life, and no rule directs it.
 :::
 
 ::: tactic n=21
@@ -825,7 +828,7 @@ Candles, prayer requests, ritual fees for every passage of your life. Monastery 
 
 **The counter.** A hospital becomes BENEVOLENT CONTROL when the patient cannot refuse treatment without being diagnosed as sicker. If the priest controls both the diagnosis and the cure, healing has become dependency.
 
-**Evidence grade.** [[Cultural]] Menstrual restrictions on communion and church entry persist as parish custom with no canonical basis — unattributable by design. *(sourced)*
+**Evidence grade.** [[Cultural]] Clerical direction framed as medicine for the soul is pastoral practice with no canonical mandate and no appeal structure (section 11). *(sourced)*
 :::
 
 ::: tactic n=23
@@ -844,7 +847,7 @@ Candles, prayer requests, ritual fees for every passage of your life. Monastery 
 
 **The counter.** Spiritual fatherhood becomes INFANTILIZATION when the adult must keep returning to a priest to know what they think, feel, or choose. If independence is pride by default, maturity has been defined out of reach.
 
-**Evidence grade.** [[Cultural]] Ritual fees, monastery donations, and elder authority operate by custom, with each parish and monastery setting its own terms.
+**Evidence grade.** [[Cultural]] The spiritual-father relationship that places an adult in the role of patient or child is custom, with no canonical mandate and no appeal structure (section 11).
 :::
 
 ::: tactic n=24
@@ -864,7 +867,7 @@ Candles, prayer requests, ritual fees for every passage of your life. Monastery 
 
 **The counter.** Healing becomes IDENTITY EROSION when the person’s own perception is treated as disease. If the Church calls every independent instinct a symptom and every obedience a cure, the self is not being healed. It is being overwritten.
 
-**Evidence grade.** [[Cultural]] Ritual fees, monastery donations, and elder authority operate by custom, with each parish and monastery setting its own terms.
+**Evidence grade.** [[Cultural]] The replacement of a convert's former identity happens through parish and online convert culture; no written rule requires it.
 :::
 
 ::: tactic n=25
@@ -884,7 +887,7 @@ Candles, prayer requests, ritual fees for every passage of your life. Monastery 
 
 **The counter.** Humility becomes SPIRITUAL BYPASSING when it silences the harmed. If the person wounded by authority must repent faster than authority must answer, humility has become misdirection.
 
-**Evidence grade.** [[Cultural]] Ritual fees, monastery donations, and elder authority operate by custom, with each parish and monastery setting its own terms.
+**Evidence grade.** [[Cultural]] Answering harm with calls to humility, repentance and prayer is pastoral practice; no written rule directs it.
 :::
 
 ::: tactic n=26
@@ -903,7 +906,7 @@ Candles, prayer requests, ritual fees for every passage of your life. Monastery 
 
 **The counter.** Support becomes FINANCIAL CONTROL when spiritual legitimacy is tied to giving, buying, or donating. If poverty, hesitation, or financial limits are treated as lack of zeal, ancient worship has become an expensive identity system.
 
-**Evidence grade.** [[Codified]] State salaries for Orthodox clergy in Greece, and post-Soviet property restitution in Russia, are matters of published law. *(sourced)*
+**Evidence grade.** [[Codified]] The giving described here (stewardship, candles, icons, monastery donations) runs by parish and monastic custom; the money in this tradition that rests on published law is state funding, recorded in sections 8 and 9. *(sourced)*
 :::
 
 ### Stage 7 · Discard {#stage-7}
@@ -932,7 +935,7 @@ Denial of communion, loss of the elder's blessing, and for converts, expulsion f
 
 **The counter.** Healing becomes MANUFACTURED CRISIS when every outside influence is framed as disease and every exit as death. If the Church must keep the world terrifying to keep people inside, the hospital metaphor has become a panic room.
 
-**Evidence grade.** [[Codified]] Denial of communion and of Orthodox burial are canonical acts; the war-related clergy discipline is separately documented.
+**Evidence grade.** [[Codified]] Framing the modern West as disease and departure as danger is taught in pastoral language and repeated in parish and online culture; no canon sets it out.
 :::
 
 ::: tactic n=28
@@ -951,7 +954,7 @@ Denial of communion, loss of the elder's blessing, and for converts, expulsion f
 
 **The counter.** Grief becomes DISCARD when it erases the person’s actual reasons. If departure is automatically diagnosed as pride or delusion, the person has not been heard. They have been filed under pathology.
 
-**Evidence grade.** [[Documented]] Suspension and defrocking of clergy who publicly opposed the war. *(sourced)*
+**Evidence grade.** [[Documented]] Clergy who publicly opposed the war were suspended and defrocked, as recorded in section 19; the discarding of lay converts described here is observed practice. *(sourced)*
 :::
 
 ### Stage 8 · Replace {#stage-8}
@@ -980,7 +983,7 @@ Converts leave and are quietly rewritten as unstable, prideful, never truly Orth
 
 **The counter.** The Church remaining becomes REPLACEMENT when individual harm is treated as spiritually irrelevant. If every wounded convert can be exchanged for a fresh one, ancientness has become institutional turnover.
 
-**Evidence grade.** [[Cultural]] Authority attributed to the Church's own inerrancy, with no structure through which a laity could hold a hierarch to it.
+**Evidence grade.** [[Cultural]] A parish continuing with new converts after others leave is observed practice; no written rule directs it.
 :::
 
 ::: tactic n=30
@@ -1000,51 +1003,167 @@ Converts leave and are quietly rewritten as unstable, prideful, never truly Orth
 
 **The counter.** Decentralization becomes PLAUSIBLE DENIABILITY when no one is responsible but everyone is expected to submit. Telling people to obey and then blaming them for obeying wrongly is a perfect trap. A hospital that diagnoses every exit as pride or delusion cannot deny that it is controlling the patient.
 
-**Evidence grade.** [[Documented]] Patriarchal endorsement of the invasion of Ukraine, in recorded public statements. *(sourced)*
+**Evidence grade.** [[Documented]] Local harm disowned as 'one priest' or 'local culture' is observed practice; the documented record behind the grade is the patriarch's recorded endorsement of the invasion, and the absence of any church process against him (sections 5 and 19). *(sourced)*
 :::
 
 ## 13. The loops {#loops}
+
+::: lede
+The seven loops below show how the practices connect, so that each step makes the next one easier and the last step feeds the first. The loops are analysis built from findings recorded elsewhere on this page [PATTERN OBSERVED]; each step names the section or technique where its fact is recorded.
+:::
 
 ::: card
 #### 1 · Money to Doctrine to Money
 
 Every rite of your life is priced at the door, and the fee funds the diocese that sets what the rites require.
+
+**How it runs.**
+
+1. Every life passage (baptism, wedding, funeral, house blessing) carries a ritual fee, and candles, icons and prayer requests are sold in the parish (section 9).
+2. The fees are presented as suggested offerings; negotiation, waivers and who is refused are not disclosed (section 9, ritual fee ladder).
+3. The money moves from the officiant to the parish, and a share goes up to the diocese or the centre (section 9).
+4. The hierarchy that receives that share also sets what the rites require and who may receive them. Bishops elect bishops, and no layperson votes in any synod (section 7).
+5. Converts are encouraged to buy books, icons, prayer ropes and pilgrimages as signs of deepening identity, and giving is framed as humility and love for the Church (technique 26).
+
+**Techniques that feed it.** [26 · Financial Control](#t-26), [2 · Weaponized Generosity](#t-2), [10 · Strategic Ambiguity](#t-10).
+
+**Why it closes.** The person paying for a rite cannot see where the money goes. The scorecard finds no public accounts and no published pay (section 1), and parish councils are asked to operate without published accounts (section 18). The office that sets the price also sets the requirement.
+
+**Where it could be broken, and by whom.** It weakens wherever accounts are published. In the United Kingdom the Greek Orthodox Archdiocese of Thyateira files public accounts because charity law requires it (sections 8 and 9), and section 20 records diaspora parishes with elected boards and published accounts. A parishioner can ask for a parish's accounts before paying a fee. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 9 lists fees for baptisms, weddings, funerals and house blessings, and records that "the poor negotiate for rites".
 :::
 
 ::: card
 #### 2 · Fear to Dependence to Fear
 
 Salvation anxiety and prelest diagnosis make the spiritual father the only assessor of your own perception.
+
+**How it runs.**
+
+1. The believer is taught that the ordinary self is sick with the passions and pride, and that the Church is a hospital where the healing lasts a lifetime (techniques 3 and 5).
+2. Doubt about a priest or the tradition is diagnosed as prelest, spiritual delusion (techniques 6 and 7).
+3. Because the believer's own perception is now suspect, the spiritual father assesses it, and his blessing is required for major decisions (section 11; technique 7).
+4. Relief comes through confession, liturgy and the priest's blessing, and communion may be blessed or withheld pending confession (techniques 8 and 20).
+5. Every attempt at independence is read as a further symptom, so the need for the spiritual father returns (technique 21).
+
+**Techniques that feed it.** [5 · Devaluation](#t-5), [6 · Gaslighting](#t-6), [7 · Double Bind](#t-7), [8 · Intermittent Reinforcement](#t-8), [21 · Learned Helplessness](#t-21).
+
+**Why it closes.** The authority that names the illness is the only one allowed to judge the cure. A member who disputes the diagnosis has, by its own terms, confirmed it. There is no appeal above a spiritual father (section 14).
+
+**Where it could be broken, and by whom.** It weakens where a believer can take a concern to someone outside the relationship: another priest, a bishop who will hear it, or a professional who answers to a professional body, as section 24 advises for medical and marital decisions. It also weakens where priests keep prelest for its original meaning and do not apply it to a layperson's disagreement (section 14, Words used here). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** In the composite day in section 2, Ben has not spoken to his friend Jared in eleven weeks because his spiritual father told him to stop, and "he cannot fully reconstruct the reasoning, only that he was told".
 :::
 
 ::: card
 #### 3 · Children to Members to Children
 
-Godparent networks, parish schools, and fasting discipline attach identity in infancy; ethnic fusion makes leaving national betrayal.
+Godparent networks, parish schools and fasting discipline attach identity in infancy, and ethnic fusion makes leaving a national betrayal.
+
+**How it runs.**
+
+1. Infants are baptized, chrismated and given communion, so full initiation comes long before consent (section 11).
+2. Godparent systems and parish schooling build dense obligation networks around the child (section 11).
+3. Fasting disciplines and early confession regulate the body and the conscience in childhood, and in nationalist contexts catechism and patriotic education merge (section 11).
+4. Where faith and nationality are fused, the child grows into an identity in which leaving the church reads as betraying the nation (sections 10 and 15).
+5. That adult brings the next child to the font, into the same networks.
+
+**Techniques that feed it.** [19 · Manufactured Consent](#t-19), [13 · Normalization / Desensitization](#t-13), [24 · Identity Erosion](#t-24), [16 · Flying Monkeys](#t-16).
+
+**Why it closes.** Initiation comes before consent. By the time the person can weigh the choice, refusing it costs family and nation as well as faith.
+
+**Where it could be broken, and by whom.** It weakens where church and national identity are separated in law and in schooling, a matter for governments and parents, and where a family can decline a practice without losing standing in the parish. Section 10 notes that in independent states the fusion no longer preserves language or identity. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 15 records that in majority-Orthodox societies leaving reads as ethnic betrayal, because "to be Serbian is to be Orthodox".
 :::
 
 ::: card
 #### 4 · Aid to Legitimacy to Leverage to Aid
 
 State salaries and restitution buy institutional security, and institutional security is repaid in political legitimacy.
+
+**How it runs.**
+
+1. States fund the church. Greece pays about 10,000 clergy salaries, Georgia gives the Patriarchate 25 million lari a year, and Russia granted post-Soviet property restitution and commercial privileges (sections 8 and 9).
+2. The funding gives the hierarchy security, and section 9 records that fiscal dependence makes political criticism structurally impossible.
+3. The hierarchy repays the state in legitimacy. In 2022 the Patriarch of Moscow blessed the invasion of Ukraine from the pulpit (sections 5 and 16).
+4. The state protects the patriarch, and the church disciplines the priests who disagree. A priest fined under the 2022 "discrediting" law was later banned from serving by a church court (sections 8 and 19).
+5. The funding continues. When Greece tried in 2018 to move clergy off the state payroll, the Holy Synod rejected the deal and the payroll stayed (sections 8 and 22).
+
+**Techniques that feed it.** [26 · Financial Control](#t-26), [28 · Discard](#t-28), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** Each side holds what the other needs: the state supplies money and protection, and the church supplies sacred legitimacy. Section 10 traces this to symphonia, emperor and church as "two hands of one body". With no lay vote in any synod (section 7), no one inside can decline the exchange.
+
+**Where it could be broken, and by whom.** It weakens where a government ends the funding or attaches conditions to it by law, as Greece attempted in 2018 (section 8). It also weakens if a synod disciplines a state-aligned hierarch, the change section 20 names as the one that would revise this finding. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 16 records the Moscow Patriarchate receiving property restitution, commercial advantages and monopoly protection while blessing state policy, including the invasion of Ukraine.
 :::
 
 ::: card
 #### 5 · Unpaid Labor to Assets to Power to More Labor
 
-Parishioners build and maintain; dioceses and monasteries hold; elders receive donations no one audits.
+Parishioners build and maintain the parishes, dioceses and monasteries hold them, and elders receive donations no one audits.
+
+**How it runs.**
+
+1. Lay people carry the parish. Choir directors, catechists and iconographers carry the beauty that draws converts in, and parish councils manage the money (section 18).
+2. Their giving, through candles, fees, stewardship pledges, festivals and building funds, sustains the buildings and the clergy (section 9; technique 26).
+3. What they build is held above them, and parish councils are asked to operate without published accounts (section 18).
+4. Monastery economies and pilgrimage bring donations to elder-figures, with no audit and immense personal authority (section 9).
+5. That authority reaches back into the lives of those who give: their marriages, their medicine and their children's schooling, by blessing (section 7).
+
+**Techniques that feed it.** [26 · Financial Control](#t-26), [2 · Weaponized Generosity](#t-2), [22 · Benevolent Control](#t-22), [23 · Infantilization](#t-23).
+
+**Why it closes.** The people who give and build hold no office that controls what they built, and there is no lay vote in any synod (section 7). Money and labor flow upward, and authority flows back down.
+
+**Where it could be broken, and by whom.** It weakens where parishes elect their boards and publish their accounts, as some diaspora parishes do (section 20), and where charity law requires publication, as in the United Kingdom (section 8). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 7 lists monastic centres and elder figures as holding "unaudited donations and total personal influence over families".
 :::
 
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
 A scandal produces a transfer to a monastery, not a governance change — and the elder system has no procedure to change.
+
+**How it runs.**
+
+1. Misconduct surfaces from outside the church's own process. In the Kačavenda case, leaked video and recorded telephone calls were published (section 19).
+2. The hierarch leaves on terms that name no wrongdoing. His resignation had been offered citing health, and he denied wrongdoing (section 19).
+3. No finding follows; the report records no criminal proceedings (section 19).
+4. Lower down, a complaint is sent back to the priest it concerns, and bishops and councils may respond slowly or not at all (technique 18).
+5. The structure is unchanged. Patriarchs and synods keep lifetime tenure with no lay recall, and the scorecard finds no written removal procedure (sections 1 and 14).
+
+**Techniques that feed it.** [18 · Silent Treatment / Stonewalling](#t-18), [30 · Plausible Deniability](#t-30), [25 · Spiritual Bypassing](#t-25), [12 · DARVO](#t-12).
+
+**Why it closes.** The departure of one person answers the scandal without touching the structure. The elder and spiritual-father system runs on custom, with no canonical mandate and no appeal structure (section 11), so there is no written procedure that a scandal could force anyone to change.
+
+**Where it could be broken, and by whom.** Section 20 names the change that would break it: a synod disciplining a hierarch through a process it uses. Where no synod acts, civil courts and, in diaspora jurisdictions, charity regulators can compel answers (section 8). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Bishop Vasilije Kačavenda offered to resign in November 2012, citing health, and was asked to stay on. His resignation was accepted on 22 April 2013, after the recordings were published (section 19).
 :::
 
 ::: card
 #### 7 · Persecution to Solidarity to Insulation to Unaccountability
 
 Soviet martyrdom, which was real and enormous, is invoked to make present-day criticism look like the same attack.
+
+**How it runs.**
+
+1. The persecution was real: millions of believers and clergy were repressed across the Soviet century (sections 3 and 5).
+2. The institution presents itself as the ancient persecuted Church (technique 12).
+3. Critics and people who name harm are cast as proud, Westernized or infected by rationalism (techniques 11, 12 and 17).
+4. Members close ranks. Priests, godparents and online converts echo the same concern (technique 16), and the modern West is framed as an existential threat (technique 27).
+5. The criticism is received as one more attack, and nothing inside changes; there is no mechanism by which the whole people can correct a hierarch (section 14).
+
+**Techniques that feed it.** [17 · Smear Campaign](#t-17), [11 · Projection](#t-11), [12 · DARVO](#t-12), [16 · Flying Monkeys](#t-16), [27 · Manufactured Crisis](#t-27).
+
+**Why it closes.** The real history of martyrdom lends weight to the claim that criticism is persecution, so each new criticism can be read as further proof of hostility.
+
+**Where it could be broken, and by whom.** It weakens when the criticism comes from inside. Section 3 answers the charge of Western bias with the tradition's own doctrine of conciliarity, and the clergy who objected to the war were Orthodox priests. More than 1,200 Orthodox theologians and scholars signed the March 2022 declaration against the "Russian World" teaching (section 21). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 11 records that online convert culture frames Western scholarship, therapy and ecumenism as spiritual dangers.
 :::
 
 ## 14. Say versus do {#say-do}
@@ -1059,9 +1178,9 @@ Soviet martyrdom, which was real and enormous, is invoked to make present-day cr
 
 ### Accountability or theatre?
 
-**Last time the chair ran.** Clergy disciplined for opposing the war while no hierarch was disciplined for endorsing it.
+**Last time the chair ran.** Clergy were disciplined for opposing the war, while no hierarch was disciplined for endorsing it.
 
-**Who holds the chair now.** Patriarchs and synods with lifetime tenure and no lay recall mechanism.
+**Who holds the chair now.** Patriarchs and synods hold it, with lifetime tenure and no lay recall mechanism.
 
 **Prediction.** The next controversy will be met with a canonical technicality, and the objecting priest will be the one who loses his parish.
 
@@ -1069,26 +1188,26 @@ Soviet martyrdom, which was real and enormous, is invoked to make present-day cr
 
 | Term | What it means inside | What it does | Said plainly |
 |---|---|---|---|
-| Obedience (to a spiritual father) | Submission to one's confessor or elder. | A monastic discipline transplanted to lay life, where it can extend a confessor's authority to marriage, money, and medical decisions. | 'Ask him before you decide anything.' |
-| Prelest | Spiritual delusion — mistaking one's own imagination for genuine experience. | A real and sophisticated concept. As an instrument it is the standard diagnosis for a layperson who reaches a conclusion the priest did not. | 'You thought something and I am calling it a spiritual illness.' |
-| Canonical territory | The jurisdiction a church claims over a region. | Frames what is fundamentally an administrative and political dispute as a matter of divine order, which removes it from ordinary argument. | 'This is our territory and that is a theological fact.' |
-| Blessing (as permission) | A priest's or bishop's sanction for an action. | Converts ordinary adult decisions into things requiring clearance — and makes the withholding of clearance unappealable. | 'You need permission, and there is nobody to appeal to.' |
+| Obedience (to a spiritual father) | The believer submits to a confessor or elder. | It is a monastic discipline transplanted to lay life, where it can extend a confessor's authority to marriage, money, and medical decisions. | 'Ask him before you decide anything.' |
+| Prelest | It names spiritual delusion, the mistaking of one's own imagination for genuine experience. | It is a real and sophisticated concept. As an instrument it is the standard diagnosis for a layperson who reaches a conclusion the priest did not. | 'You thought something and I am calling it a spiritual illness.' |
+| Canonical territory | It is the jurisdiction a church claims over a region. | Frames what is fundamentally an administrative and political dispute as a matter of divine order, which removes it from ordinary argument. | 'This is our territory and that is a theological fact.' |
+| Blessing (as permission) | It is a priest's or bishop's sanction for an action. | Converts ordinary adult decisions into things requiring clearance — and makes the withholding of clearance unappealable. | 'You need permission, and there is nobody to appeal to.' |
 
 ## 15. Cost & cover {#cost}
 
 ### What leaving costs
 
 - In majority-Orthodox societies, leaving reads as ethnic betrayal — faith and nationality are fused ('to be Serbian is to be Orthodox').
-- Loss of sacraments, burial, and the spiritual father's blessing; converts who leave lose the entire adopted world.
+- Leaving can mean the loss of the sacraments, of Orthodox burial and of the spiritual father's blessing, and converts who leave lose the entire adopted world.
 
 ### The ledger of exit
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
 | Ethnic and family identity | Yes | Leaving reads as national betrayal where faith and nationality are fused | “That's culture, not the Church.” |
-| Sacraments and burial | Yes | Denial of communion and Orthodox funeral rites | “Canonical order, not punishment.” |
+| Sacraments and burial | Yes | Communion and Orthodox funeral rites can be denied. | “Canonical order, not punishment.” |
 | Convert community loss | Yes | Converts lose the entire adopted social world, often including online identity | “Nobody asked them to make us their whole life.” |
-| Spiritual threat | Common | Warnings of losing grace, salvation, or the protection of the spiritual father | “Pastoral concern.” |
+| Spiritual threat | Common | Those who leave are warned that they will lose grace, salvation or the protection of the spiritual father. | “Pastoral concern.” |
 
 ### How the cost is denied
 
@@ -1096,7 +1215,7 @@ Soviet martyrdom, which was real and enormous, is invoked to make present-day cr
 |---|---|---|
 | Explicit policy | Medium | Canons exist, but much practice runs on custom and episcopal discretion. |
 | Informal enforcement | High | Parish gossip, spiritual-father pressure, and convert-community policing do the work. |
-| Leadership distance | High | No central authority; each autocephalous church disclaims the others' conduct. |
+| Leadership distance | High | There is no central authority, and each autocephalous church disclaims the others' conduct. |
 | Doctrinal ambiguity | High | 'Economy' allows any rule to be relaxed or enforced case by case, with no published standard. |
 | Cultural outsourcing | High | Menstrual bans, gender roles, and nationalism are all attributed to local culture. |
 | Volunteer enforcement | High | Lay zealots and online converts enforce far beyond what any bishop states. |
@@ -1107,8 +1226,8 @@ Soviet martyrdom, which was real and enormous, is invoked to make present-day cr
 
 ### Who benefits
 
-- National governments that harness the church for legitimacy — the Moscow Patriarchate's alignment with Kremlin policy, including blessing the invasion of Ukraine, is the clearest modern case of throne-and-altar exchange: the state gets sacred legitimacy, the hierarchy gets property, protection, and monopoly. [INVESTIGATIVE REPORT / LEADERSHIP STATEMENT: Patriarch Kirill's public statements]
-- Hierarchs with lifetime tenure; elder-monks with charismatic followings and zero auditability.
+- National governments that harness the church for legitimacy benefit. The Moscow Patriarchate's alignment with Kremlin policy, including blessing the invasion of Ukraine, is the clearest modern case of throne-and-altar exchange: the state gets sacred legitimacy, and the hierarchy gets property, protection and monopoly. [INVESTIGATIVE REPORT / LEADERSHIP STATEMENT: Patriarch Kirill's public statements]
+- Hierarchs with lifetime tenure benefit, and so do elder-monks with charismatic followings and zero auditability.
 
 ### Money out, leverage back
 
@@ -1118,11 +1237,11 @@ Soviet martyrdom, which was real and enormous, is invoked to make present-day cr
 
 ### Who pays
 
-- Women, excluded from governance and subject to purity customs no canon requires.
-- LGBTQ people, where church teaching has been converted into criminal law.
-- Dissenting clergy in Russia, who lost livelihood and standing for opposing the war.
-- Converts, whose total identity investment makes exit catastrophic.
-- Ukrainians, for whom a church jurisdiction became an instrument of invasion.
+- Women pay, excluded from governance and subject to purity customs no canon requires.
+- LGBTQ people pay, where church teaching has been converted into criminal law.
+- Dissenting clergy in Russia pay, having lost livelihood and standing for opposing the war.
+- Converts pay, because their total identity investment makes exit catastrophic.
+- Ukrainians pay, because for them a church jurisdiction became an instrument of invasion.
 
 ::: cites
 Sources for this section: [1] [4]
@@ -1132,13 +1251,15 @@ Sources for this section: [1] [4]
 
 ### Where the weight lands
 
+The costs in section 15 do not fall evenly. They fall hardest where a person has the least power inside the institution and the fewest places to go outside it. The table names who carries the most, how, and what makes it worse.
+
 | Who | How | What it compounds with |
 |---|---|---|
-| Women | Excluded from governance; menstrual restrictions imposed by custom no canon requires | Where the parish is also the family's only social world |
-| LGBTQ people in Russia | Church teaching converted into criminal statute | With state enforcement and no domestic legal recourse |
-| Dissenting clergy | Suspension, defrocking, and loss of livelihood for opposing the war | With emigration as the only alternative |
-| Converts | Total identity and social investment in a single parish with no fallback | Where an unaccountable spiritual father governs their household decisions |
-| Ukrainians | A church jurisdiction operating as an instrument of invasion | For parishes forced to choose between allegiance and community |
+| Women | They are excluded from governance and held to menstrual restrictions imposed by custom no canon requires. | The harm compounds where the parish is also the family's only social world. |
+| LGBTQ people in Russia | Church teaching has been converted into criminal statute. | It compounds with state enforcement and the lack of any domestic legal recourse. |
+| Dissenting clergy | They face suspension, defrocking and loss of livelihood for opposing the war. | It compounds where emigration is the only alternative. |
+| Converts | They have invested their whole identity and social life in a single parish, with no fallback. | It compounds where an unaccountable spiritual father governs their household decisions. |
+| Ukrainians | A church jurisdiction has operated as an instrument of invasion. | It compounds for parishes forced to choose between allegiance and community. |
 
 ::: cites
 Sources for this section: [10] [11]
@@ -1146,12 +1267,14 @@ Sources for this section: [10] [11]
 
 ## 18. The middle tiers {#tiers}
 
+Most of the institution's work is done below the synod, by people who see decisions without making them. Parish priests, parish councils, the lay people who carry the liturgy and teaching, and convert clergy in the diaspora each carry part of the load, and each stands at one point where the next decision could be declined. The table sets out what each tier does, what it sees, what it is asked to do and where it could refuse.
+
 | Role | Does | Sees | Is asked to | Could refuse |
 |---|---|---|---|---|
-| Parish priests | Serves, hears confessions, and absorbs the bishop's decisions | That his livelihood depends on a hierarch he cannot question | To echo synodal positions | To read a synodal statement he believes is false |
-| Parish councils | Manages the money in most jurisdictions | Candle and fee revenue, and where it goes upward | To keep it in the family | To operate without published accounts |
-| Choir directors, catechists, iconographers | Carries the beauty that draws every convert in | Which converts are struggling under an elder's demands | To stay out of pastoral matters | To pretend that an elder's instruction about medication is a spiritual matter |
-| Convert clergy in the diaspora | Holds the fastest-growing part of the tradition | The online radicalization pipeline arriving in their parishes | To defer to old-world hierarchies | To let prelest language be used to silence a parishioner's legitimate complaint |
+| Parish priests | Serve, hear confessions, and absorb the bishop's decisions | That his livelihood depends on a hierarch he cannot question | Echo synodal positions | Read a synodal statement he believes is false |
+| Parish councils | Manage the money in most jurisdictions | Candle and fee revenue, and where it goes upward | Keep it in the family | Operate without published accounts |
+| Choir directors, catechists, iconographers | Carry the beauty that draws every convert in | Which converts are struggling under an elder's demands | Stay out of pastoral matters | Pretend that an elder's instruction about medication is a spiritual matter |
+| Convert clergy in the diaspora | Hold the fastest-growing part of the tradition | The online radicalization pipeline arriving in their parishes | Defer to old-world hierarchies | Let prelest language be used to silence a parishioner's legitimate complaint |
 
 ## 19. Documented cases {#cases}
 
@@ -1170,7 +1293,7 @@ Sources for this section: [10] [11]
 - **when:** 2024
 - **what:** Fr Alexei Uminsky, a well-known Moscow priest, was defrocked in January 2024 after refusing to recite the patriarch's prayer for the victory of "Holy Rus" [10].
 - **record:** Meduza, 13 January 2024 [10]
-- **outcome:** Removed from the priesthood; RFE/RL has documented similar cases since [11].
+- **outcome:** He was removed from the priesthood, and RFE/RL has documented similar cases since [11].
 - **tactics:** 28, 29, 21
 - **grade:** Documented
 :::
@@ -1211,9 +1334,9 @@ Sources for this section: [10] [11]
 
 | What | Who | When | What it cost |
 |---|---|---|---|
-| Russian priests who publicly opposed the war | Serving clergy, at immediate personal cost | 2022–present | Suspension, defrocking, prosecution, exile |
-| Ukrainian autocephaly recognized | Ukrainian bishops and the Ecumenical Patriarchate | 2018–19 | Rupture of communion with Moscow |
-| Diaspora parishes with elected boards and published accounts | Lay councils asserting conciliar practice | Ongoing | Friction with old-world jurisdictions |
+| Russian priests who publicly opposed the war | Serving clergy, at immediate personal cost | 2022–present | They faced suspension, defrocking, prosecution and exile. |
+| Ukrainian autocephaly recognized | Ukrainian bishops and the Ecumenical Patriarchate | 2018–19 | It cost a rupture of communion with Moscow. |
+| Diaspora parishes with elected boards and published accounts | Lay councils asserting conciliar practice | Ongoing | It brings friction with old-world jurisdictions. |
 
 ### What would change this page
 
@@ -1225,50 +1348,50 @@ Sources for this section: [17]
 
 ## 21. Voices from inside {#voices}
 
-- **The signatories of the "Russian World" declaration.** More than 1,200 Orthodox theologians and scholars who, in March 2022, called the teaching behind the war a heresy [15].
-- **Fr Alexei Uminsky.** Defrocked in 2024 for refusing the prayer for victory [10].
-- **Fr Ioann Burdin.** Fined by the state and banned by the church for a sermon against the war [21][32].
-- **Sergei Chapnin.** The former editor of the Patriarchate's own journal, dismissed in 2015 for criticizing its direction [22].
+- **The signatories of the "Russian World" declaration.** More than 1,200 Orthodox theologians and scholars signed the declaration in March 2022. It called the teaching behind the war a heresy [15].
+- **Fr Alexei Uminsky.** A well-known Moscow priest, he refused to recite the patriarch's prayer for the victory of "Holy Rus" and was defrocked in January 2024 [10].
+- **Fr Ioann Burdin.** A parish priest in Kostroma diocese, he preached against the invasion, citing "Thou shalt not kill". The state fined him and a church court later banned him from serving [21][32].
+- **Sergei Chapnin.** The executive editor of the *Journal of the Moscow Patriarchate*, he was dismissed in December 2015 after publicly criticizing the Patriarchate's direction [22].
 
 ## 22. Regional variants {#regional}
 
 ::: card
 ### Russia
-- **apex:** Patriarch Kirill, since 2009; sanctioned by the UK and others [1][2].
-- **law:** The 1997 religion law's "special role" preamble [23]; the 2022 offence of "discrediting" the army [21].
-- **documented:** Burdin, Uminsky, and the anti-war clergy RFE/RL has tracked [10][11][21][32].
+- **apex:** Patriarch Kirill has led the church since 2009 and is sanctioned by the UK and others [1][2].
+- **law:** The 1997 religion law's preamble gives Orthodoxy a "special role" [23], and since 2022 "discrediting" the army has been an offence [21].
+- **documented:** The record covers Burdin, Uminsky and the anti-war clergy RFE/RL has tracked [10][11][21][32].
 - **exit:** Leaving the church is legally free; opposing it publicly on the war is not [21].
-- **regulator:** None independent; the state and the church act together [11].
+- **regulator:** There is no independent regulator; the state and the church act together [11].
 - **tell:** The priests who were punished for the war were punished twice — once by the court, once by the church.
 :::
 
 ::: card
 ### Ukraine
-- **apex:** Two churches: the Orthodox Church of Ukraine (autocephalous since 2019) and the Ukrainian Orthodox Church, formerly under Moscow [17].
-- **law:** Law No. 3894-IX (2024) [5].
-- **documented:** UN experts' 2025 warning of persecution [6].
-- **exit:** Legally free; the question is which church a parish may belong to.
-- **regulator:** The state religious-affairs service and the courts [5].
-- **tell:** A country at war legislating which church its citizens may belong to — and the UN warning that the law itself is the risk.
+- **apex:** There are two churches: the Orthodox Church of Ukraine, autocephalous since 2019, and the Ukrainian Orthodox Church, formerly under Moscow [17].
+- **law:** Law No. 3894-IX (2024) allows courts to ban religious bodies affiliated with the Russian Orthodox Church [5].
+- **documented:** In 2025 UN experts warned of persecution of the Ukrainian Orthodox Church [6].
+- **exit:** Leaving is legally free; the question is which church a parish may belong to.
+- **regulator:** The state religious-affairs service and the courts act as regulators [5].
+- **tell:** A country at war is legislating which church its citizens may belong to, and the UN has warned that the law itself is the risk.
 :::
 
 ::: card
 ### Greece
-- **apex:** The Holy Synod of the Church of Greece; Athos under Constantinople [16].
-- **law:** Orthodoxy as "the prevailing religion" [24]; clergy on the state payroll [7].
-- **documented:** The Vatopedi land exchange [19]; the scrapped 2018 payroll deal [7].
-- **exit:** Legally free.
-- **regulator:** The government, which pays the clergy [7].
+- **apex:** The Holy Synod of the Church of Greece leads the church, and Mount Athos is under Constantinople [16].
+- **law:** The constitution names Orthodoxy "the prevailing religion" [24], and clergy are on the state payroll [7].
+- **documented:** The record covers the Vatopedi land exchange [19] and the scrapped 2018 payroll deal [7].
+- **exit:** Leaving is legally free.
+- **regulator:** The government, which pays the clergy, is the regulator [7].
 - **tell:** When a government tried to take clergy off the payroll, the synod said no, and the payroll stayed.
 :::
 
 ::: card
 ### Georgia
-- **apex:** The Catholicos-Patriarch.
-- **law:** The 2002 agreement; the budget line [25].
-- **documented:** 25 million lari a year, and extra grants for church events [25].
-- **exit:** Legally free; socially, church and nation are fused.
-- **regulator:** Parliament, which votes the budget line.
+- **apex:** The Catholicos-Patriarch (the title of the head of the Georgian church) leads it.
+- **law:** A 2002 agreement governs the state's compensation to the church, and a line in the state budget funds it [25].
+- **documented:** The church receives 25 million lari a year, and extra grants for church events [25].
+- **exit:** Leaving is legally free, but socially church and nation are fused.
+- **regulator:** Parliament votes the budget line.
 - **tell:** The state compensates one church for what an earlier state took, from the budget, every year.
 :::
 
@@ -1303,7 +1426,7 @@ Checked 2026-09-27.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [26] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [26] |
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [27] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [28] |
 | **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [29] |
@@ -1343,7 +1466,7 @@ Checked 2026-09-27.
 23. ICNL, "Russian Federation Constitutional Court Decisions on Russia's 1997 Law 'On Freedom of Conscience and Religious Associations'" — the preamble's "special role" of Orthodoxy. https://www.icnl.org/resources/research/ijnl/russian-federation-constitutional-court-decisions-on-russias-1997-law-on-freedom-of-conscience-and-religious-associations
 24. Constitution of Greece, Article 3 (University of Minnesota Human Rights Library); OrthodoxWiki, "Old Calendarists" (the 1924 calendar change and the True Orthodox churches). https://hrlibrary.umn.edu/research/greece-constitution.html · https://orthodoxwiki.org/Old_Calendarists
 25. PONARS Eurasia, Beka Chedia, "The Georgian Orthodox Church as a Political Actor in Uncertain Times" (Policy Memo 711, Oct 2021) — 25 million lari a year; the 2002 agreement. https://www.ponarseurasia.org/the-georgian-orthodox-church-as-a-political-actor-in-uncertain-times/
-26. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+26. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 27. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 28. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 29. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/

@@ -514,7 +514,7 @@ Checked 2026-09-27.
 | Organization | For | Where | Contact |
 |---|---|---|---|
 | **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [27] |
-| **Faith to Faithless** | People leaving religion | UK | **020 3675 0959** [28] |
+| **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; set hours, see website) [28] |
 | **SNAP** | Survivors of clergy abuse, across churches | International | Via website [29] |
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [30] |
 
@@ -547,7 +547,7 @@ Checked 2026-09-27.
 25. House of Lords Library, "Lords spiritual in the House of Lords explained." <https://lordslibrary.parliament.uk/lords-spiritual-in-the-house-of-lords-explained/>
 26. Criminal Justice and Immigration Act 2008, section 79 — abolition of the common-law offences of blasphemy and blasphemous libel. <https://www.legislation.gov.uk/ukpga/2008/4/section/79>
 27. NAPAC — 0808 801 0331. <https://napac.org.uk/calling-our-support-line/>
-28. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. <https://humanists.uk/faith-to-faithless/helpline/>
+28. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). <https://humanists.uk/faith-to-faithless/helpline/>
 29. SNAP — Survivors Network of those Abused by Priests. <https://www.snapnetwork.org/>
 30. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
 

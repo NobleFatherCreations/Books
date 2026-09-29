@@ -1291,7 +1291,7 @@ Checked 2026-09-27.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving religion | UK | **020 3675 0959** [14] |
+| **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; set hours, see website) [14] |
 | **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** [15] |
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [16] |
 | **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [17] |
@@ -1313,7 +1313,7 @@ Checked 2026-09-27.
 11. *The Tribune*, "SGPC passes budget of Rs 1,386.47 crore for 2025-2026 financial year" (2025) — 2024–25 ₹1,260.97 crore. https://www.tribuneindia.com/news/amritsar/sgpc-passes-budget-of-rs-1386-47-crore-for-2025-2026-financial-year/
 12. David Asper Centre for Constitutional Rights, *Multani v. Commission scolaire Marguerite-Bourgeoys*, [2006] 1 S.C.R. 256 — summary. https://jackmanlaw.utoronto.ca/asper/multani-v-commission-scolaire-marguerite-bourgeoys
 13. Ensaaf, "Jaswant Singh Khalra" — abduction and murder (1995); six police officials convicted (2005); convictions upheld (2007, 2011). https://ensaaf.org/jaswant-singh-khalra/
-14. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+14. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 15. Karma Nirvana — honour-based abuse and forced marriage, 0800 5999 247. https://karmanirvana.org.uk/get-help/helpline/
 16. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 17. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/

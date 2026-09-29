@@ -543,7 +543,7 @@ Checked 2026-09-27.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [20] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [20] |
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [21] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [22] |
 | **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [23] |
@@ -569,7 +569,7 @@ Checked 2026-09-27.
 17. Public Orthodoxy, "Ethnicity Tears the Ethiopian Orthodox Tewahdo Church Apart," 10 Feb 2023. <https://publicorthodoxy.org/2023/02/10/ethnicity-tears-the-ethiopian-orthodox-tewahdo-church-apart/> — the May 2021 Tigrayan administration: Wikipedia "Tigrayan Orthodox Tewahedo Church" (reference summary).
 18. Coptic Orthodox Church, "Prayers for the Enthronement of Abune Basilios, the New Patriarch of Eritrea…," 26 Jan 2025. <https://copticorthodox.church/en/2025/01/26/prayers-for-the-enthronement-of-abune-basilios-the-new-patriarch-of-eritrea-with-the-participation-of-a-delegation-from-the-coptic-orthodox-church/>
 19. Charity Commission for England and Wales, The Coptic Orthodox Church Centre (charity 1024592), financial history 2020–2024. <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/1024592/financial-history>
-20. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. <https://humanists.uk/faith-to-faithless/helpline/>
+20. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). <https://humanists.uk/faith-to-faithless/helpline/>
 21. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
 22. International Cultic Studies Association (ICSA). <https://internationalculticstudies.org/>
 23. NAPAC — 0808 801 0331. <https://napac.org.uk/calling-our-support-line/>

@@ -1375,7 +1375,7 @@ Checked 2026-09-27.
 | Organization | For | Where | Contact |
 |---|---|---|---|
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [26] |
-| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [27] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [27] |
 | **SNAP** | Survivors of clergy abuse, across churches | US and international | Via website [28] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [29] |
 | **Childhelp** | Child abuse | US | **1-800-422-4453** [30] |
@@ -1416,7 +1416,7 @@ Checked 2026-09-27.
 24. Interfaith Alliance, "What is Happening with the Johnson Amendment?" (31 July 2025; updated April 2026) — the July 2025 IRS consent filing in *National Religious Broadcasters v. Long*. https://www.interfaithalliance.org/post/what-is-happening-with-the-johnson-amendment
 25. Baptist News Global, "Newspaper story on sexual abuse in SBC was a long time coming for activist Christa Brown" (11 Feb 2019). https://baptistnews.com/article/newspaper-story-on-sexual-abuse-in-sbc-was-a-long-time-coming-for-activist-christa-brown/
 26. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
-27. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+27. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 28. SNAP — Survivors Network of those Abused by Priests. https://www.snapnetwork.org/
 29. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 30. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/

@@ -6,6 +6,8 @@ Evidence for each Catholicism item is in `logs/fact-check/catholicism.md` (F-num
 
 ## P1 · Critical (factually exposed, or breaks the codex's own rules)
 
+0. **[26 volumes, §25 and §26 — APPLIED, needs sign-off]** Faith to Faithless listed as 020 3675 0959 → the helpline is freephone **0800 448 0748**, open on set days only (Humanists UK, checked 2026-09-29) → a wrong help-line number in the section people use in a crisis. Because of the real-world risk, this one correction has been applied (edits ALL-F01, ALL-F02); reject it in `_all.json` if you disagree. Opening hours differ between Humanists UK pages, so the text says "set hours, see website" rather than stating them.
+
 1. **[Catholicism §1, §3, §20 — the thesis question]** "Who above the rank of bishop has ever lost office for keeping them sealed?" → Cardinal Law resigned as Archbishop of Boston in 2002 over his cover-up, and the pope accepted it (F5). Proposed wording: "Cardinal Law resigned in 2002 under public pressure. Which bishop has ever been removed by Rome, under a published rule, for keeping the files sealed?" → The volume's central question currently has a known counter-example, which a hostile reader will use to dismiss the whole page.
 2. **[Catholicism §14]** "Rome removed not one bishop for having done the transferring" → in 2021 the Holy See sanctioned two Polish bishops after Vos estis inquiries, though both had already resigned (F6). Proposed: "Rome has sanctioned bishops after they resigned, but has removed none from office for the transferring itself." → The claim is defensible only in its narrowest reading.
 3. **[Catholicism §8, §9]** "44 dioceses and orders in bankruptcy" / "US dioceses in bankruptcy: 44" → 44 dioceses and religious organisations have *filed* since 2004; 15 cases are pending (F2). Proposed §9: "US dioceses and religious orders that have filed for bankruptcy since 2004: 44 as of March 2026 (15 still pending) [11]." Match §8 and §22 to it. → The same figure appears three ways in one volume, and two of them overstate.
@@ -16,6 +18,9 @@ Evidence for each Catholicism item is in `logs/fact-check/catholicism.md` (F-num
    - 16 Flying Monkeys, 29 Replacement — graded **Codified**, but the behaviour is community practice with no written rule (points to **Cultural**).
    - 17 Smear Campaign — graded **Codified**, but its basis is inquiry findings (points to **Documented**).
    The §1 tally (Codified 18, Documented 9, Cultural 2, Reformed 1) changes with any regrade.
+
+## Per-volume discrepancy files
+Eastern Orthodoxy: `discrepancies/eastern-orthodoxy.md` (P1 4, P2 9, P3 7). Headline items: Pew's ~260 million includes Oriental Orthodoxy (Eastern alone ~208 million); Georgia's Ilia II died in March 2026 and Shio III was elected in May; the EU dropped Kirill from its 21st sanctions package in July 2026; four technique grades stronger than their basis.
 
 ## P2 · Structural (inconsistent, incomplete, or weakens comparison)
 

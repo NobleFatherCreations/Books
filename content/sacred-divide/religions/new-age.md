@@ -1313,7 +1313,7 @@ Checked 2026-09-27.
 |---|---|---|---|
 | **ICSA** | Former members of high-control groups; families | International | Via website [12] |
 | **Recovering from Religion** | People questioning or leaving belief systems | US and online | **(844) 368-2848** [11] |
-| **Faith to Faithless** | People leaving high-control groups | UK | **020 3675 0959** [13] |
+| **Faith to Faithless** | People leaving high-control groups | UK | **0800 448 0748** (freephone; set hours, see website) [13] |
 | **RAINN** | Sexual assault | US | **1-800-656-4673** [14] |
 
 ## 26. Sources {#sources}
@@ -1332,7 +1332,7 @@ Checked 2026-09-27.
 10. CBC Radio, *Day 6*, "From NXIVM recruiter to whistleblower: Sarah Edmondson tells her story." https://www.cbc.ca/radio/day6/climate-strikes-impeach-o-meter-fixing-democracy-spoofing-downton-abbey-nxivm-whistleblower-more-1.5297400/from-nxivm-recruiter-to-whistleblower-sarah-edmondson-tells-her-story-1.5297421
 11. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 12. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
-13. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 14. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
 
 ## 27. What changed on this page {#changed}

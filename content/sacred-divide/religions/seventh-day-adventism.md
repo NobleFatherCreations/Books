@@ -1264,7 +1264,7 @@ Checked 2026-09-27.
 | Organization | For | Where | Contact |
 |---|---|---|---|
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [14] |
-| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [15] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [15] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [16] |
 | **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [17] |
 
@@ -1286,7 +1286,7 @@ Checked 2026-09-27.
 12. *Encyclopedia of Seventh-day Adventists*, "Davenport Scandal" — $71m missing; $17.8m in loans and $3.3m interest outstanding from church entities; the unpublished 624-page report. https://encyclopedia.adventist.org/assets/pdf/article-8IUU.pdf
 13. *EEOC v. Pacific Press Publishing Ass'n*, 676 F.2d 1272 (9th Cir. 1982) — full text. https://law.resource.org/pub/us/case/reporter/F2/676/676.F2d.1272.80-4189.html
 14. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
-15. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+15. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 16. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 17. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
 

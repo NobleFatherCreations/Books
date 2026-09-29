@@ -1274,7 +1274,7 @@ Checked 2026-09-27.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [13] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [13] |
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [14] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [15] |
 
@@ -1294,7 +1294,7 @@ Checked 2026-09-27.
 10. *Bitter Winter* (religious-liberty magazine), "World's Tallest Bronze Statue of Laozi Hidden by State" (30 Jan 2019). https://bitterwinter.org/tallest-bronze-statue-of-laozi-hidden/
 11. *Bitter Winter*, "Lao-Tzu Statue Demolished in Henan" (13 Nov 2018). https://bitterwinter.org/lao-tzu-statue-demolished-in-henan/
 12. Charity Commission for England and Wales, The Taoist Tai Chi Society of Great Britain (charity 1053425), financial history 2021–2025. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/1053425/financial-history
-13. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 14. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 15. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 

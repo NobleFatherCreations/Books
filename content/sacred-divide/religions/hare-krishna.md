@@ -1310,7 +1310,7 @@ Checked 2026-09-27.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [13] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [13] |
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [14] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [15] |
 | **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [16] |
@@ -1332,7 +1332,7 @@ Checked 2026-09-27.
 10. *The Shillong Times*, "Hare Krishna temple dispute: ISKCON Bengaluru chief hails Supreme Court verdict as 'historic'" (16 May 2025). https://theshillongtimes.com/2025/05/16/hare-krishna-temple-dispute-iskcon-bengaluru-chief-hails-supreme-court-verdict-as-historic/
 11. Bar & Bench, "Supreme Court delivers split verdict in ISKCON Mumbai's review plea over Bengaluru temple ownership" (8 Nov 2025). https://www.barandbench.com/news/supreme-court-delivers-split-verdict-in-iskcon-mumbais-review-plea-over-bengaluru-temple-ownership
 12. *Publishers Weekly*, review of Nori J. Muster, *Betrayal of the Spirit* (University of Illinois Press, 1997); and Muster, "Writing Betrayal of the Spirit," ICSA e-library. https://www.publishersweekly.com/978-0-252-02263-0 · https://www.icsahome.com/elibrary/topics/articles/writing-betrayal-of-the-spirit-muster-it-4-3
-13. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 14. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 15. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 16. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/

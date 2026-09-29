@@ -1259,7 +1259,7 @@ Checked 2026-09-27.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving religion | UK | **020 3675 0959** [10] |
+| **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; set hours, see website) [10] |
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [11] |
 | **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [12] |
 
@@ -1276,7 +1276,7 @@ Checked 2026-09-27.
 ### Further sources
 8. Charity Commission for England and Wales, Oshwal Association of the UK (charity 267037), financial history 2021–2025. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/267037/financial-history
 9. India TV, "Gujarat: Digambar Jainmuni Shantisagar Maharaj sentenced to 10 years in jail for rape of 19-year-old" (5 Apr 2025). https://www.indiatvnews.com/gujarat/gujarat-digambar-jainmuni-shantisagar-maharaj-sentenced-to-10-years-in-jail-for-rape-of-19-year-old-2025-04-05-984097
-10. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+10. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 11. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 12. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
 

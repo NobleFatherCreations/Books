@@ -1287,7 +1287,7 @@ Checked 2026-09-27.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [15] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [15] |
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [16] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [17] |
 | **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [18] |
@@ -1310,7 +1310,7 @@ Checked 2026-09-27.
 12. Gulf News / AP, "Thai police arrest woman who allegedly seduced and blackmailed Buddhist monks" (July 2025). https://gulfnews.com/world/asia/thai-police-arrest-woman-who-allegedly-seduced-and-blackmailed-buddhist-monks-1.500199158
 13. *Lion's Roar*, "The Time Has Come" — the Perth bhikkhuni ordination of 22 Oct 2009 and Ajahn Brahm's expulsion from the Ajahn Chah sangha. https://www.lionsroar.com/the-time-has-come/
 14. *Lion's Roar*, "To Walk Proudly as Buddhist Women: An Interview with Dhammananda Bhikkhuni." https://www.lionsroar.com/to-walk-proudly-as-buddhist-women-an-interview-with-dhammananda-bhikkhuni/
-15. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+15. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 16. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 17. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 18. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/

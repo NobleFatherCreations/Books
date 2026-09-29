@@ -1383,7 +1383,7 @@ Checked 2026-09-27.
 | **Muslim Women's Network Helpline** | Muslim women facing abuse, forced marriage, or family-law problems | UK | **0303 330 0288** [28] |
 | **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** [29] |
 | **UK Forced Marriage Unit** | Forced marriage, including British nationals abroad | UK / abroad | Via GOV.UK [11] |
-| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [30] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [30] |
 | **Ex-Muslims of North America** | Vetted private communities; emergency fund | US, Canada | Online [31] |
 | **Naseeha** | Muslim peer mental-health helpline | North America | **1-866-627-3342** [36] |
 | **Humanists at Risk** | People prosecuted for apostasy or blasphemy | Global | Casework [37] |
@@ -1427,7 +1427,7 @@ Checked 2026-09-27.
 ### Where to get help (vetted 2026-09-27; UK numbers unless stated)
 28. Muslim Women's Network Helpline — 0303 330 0288. https://www.mwnuk.co.uk/mwn-helpline
 29. Karma Nirvana (forced marriage and honour-based abuse) — 0800 5999 247. https://karmanirvana.org.uk/
-30. Faith to Faithless (Humanists UK), helpline for people leaving high-control religious groups — 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+30. Faith to Faithless (Humanists UK), helpline for people leaving high-control religious groups — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 31. Ex-Muslims of North America (US/Canada; 501(c)(3), founded 2013). https://exmuslims.org/about-us/
 
 ### Further sources

@@ -1255,7 +1255,7 @@ Checked 2026-09-27.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving religion | UK | **020 3675 0959** [13] |
+| **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; set hours, see website) [13] |
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [14] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [15] |
 | **Humanists at Risk** | People persecuted for belief | Global | Casework [16] |
@@ -1281,7 +1281,7 @@ Checked 2026-09-27.
 ### Further sources
 11. Charity Commission for England and Wales, National Spiritual Assembly of the Baha'is of the United Kingdom (charity 250851), financial history 2020–2025. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/250851/financial-history
 12. USCIRF, "USCIRF Condemns Sentencing of Baha'i Women in Iran" (2022) — Mahvash Sabet and Fariba Kamalabadi, ten years each after an hour-long trial; earlier ten-year terms 2008–2018. https://www.uscirf.gov/release-statements/uscirf-condemns-sentencing-bahai-women-iran
-13. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 14. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 15. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 16. Humanists International — Humanists at Risk. https://humanists.international/what-we-do/humanists-at-risk/

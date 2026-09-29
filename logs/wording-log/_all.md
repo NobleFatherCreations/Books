@@ -1,6 +1,6 @@
 # Wording log — _all
 
-9 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/_all.json`, then rebuild. Nothing else changes.
+11 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/_all.json`, then rebuild. Nothing else changes.
 
 ## Edition and version narration removed (7)
 
@@ -115,4 +115,30 @@
 > Each is set out below: why it is being asked, and a concrete example
 
 *Reason:* 'Expanded' reads as a note about the document's own production; 'set out' says what the reader will find.
+
+## Proofreading (typos, punctuation, agreement) (2)
+
+### ALL-F01 · md · proposed · build: applied 26 time(s) across 26 volume(s)
+
+**Before**
+
+> **020 3675 0959**
+
+**After**
+
+> **0800 448 0748** (freephone; set hours, see website)
+
+*Reason:* Help-line number was wrong in 26 volumes. Humanists UK lists the Faith to Faithless helpline as freephone 0800 448 0748, open on set days only (checked 2026-09-29, humanists.uk/faith-to-faithless/helpline). Applied because a wrong help-line number can do real harm; flagged in DISCREPANCIES for sign-off.
+
+### ALL-F02 · md · proposed · build: applied 26 time(s) across 26 volume(s)
+
+**Before**
+
+> — (?:helpline )?020 3675 0959\.
+
+**After**
+
+> — helpline 0800 448 0748 (freephone; set hours).
+
+*Reason:* Same correction in the Sources entry.
 

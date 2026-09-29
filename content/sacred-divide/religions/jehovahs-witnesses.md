@@ -1363,7 +1363,7 @@ Checked 2026-09-27.
 | Organization | For | Where | Contact |
 |---|---|---|---|
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [18] |
-| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [19] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [19] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [20] |
 | **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [21] |
 | **Childhelp** | Child abuse | US | **1-800-422-4453** [22] |
@@ -1397,7 +1397,7 @@ Checked 2026-09-27.
 16. Reveal, "California court guts child abuse ruling against Jehovah's Witnesses" (2015). https://revealnews.org/article/california-court-guts-child-abuse-ruling-against-jehovahs-witnesses/
 17. *The Japan Times*, "Many children of Jehovah's Witnesses experience abuse, Japan report says" (21 Nov 2023). https://www.japantimes.co.jp/news/2023/11/21/japan/society/jehovahs-witnesses-survey-abuse/
 18. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
-19. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+19. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 20. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 21. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
 22. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/

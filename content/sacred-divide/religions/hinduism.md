@@ -1354,7 +1354,7 @@ Checked 2026-09-27.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [20] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [20] |
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [21] |
 | **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** [22] |
 | **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [23] |
@@ -1387,7 +1387,7 @@ Checked 2026-09-27.
 17. The News Minute, "Endorsement to exile: How Bindhu Ammini, who entered Sabarimala, had to leave Kerala." https://www.thenewsminute.com/kerala/bindhu-ammini-the-woman-who-entered-sabarimala-and-was-forced-to-leave-kerala
 18. Scroll, "Narendra Dabholkar murder: Two convicted, three acquitted by Pune court" (10 May 2024). https://scroll.in/latest/1067708/narendra-dabholkar-murder-two-convicted-three-acquitted-by-pune-court
 19. News Arena India, "HC grants bail to Dabholkar murder convict" (18 Aug 2026 — life sentence of Sachin Andure suspended). https://newsarenaindia.com/nation/hc-grants-bail-to-dabholkar-murder-convict/84802
-20. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+20. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 21. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 22. Karma Nirvana — honour-based abuse and forced marriage, 0800 5999 247. https://karmanirvana.org.uk/get-help/helpline/
 23. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/

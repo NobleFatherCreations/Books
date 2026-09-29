@@ -1373,7 +1373,7 @@ Checked 2026-09-27.
 | Organization | For | Where | Contact |
 |---|---|---|---|
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [19] |
-| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [20] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [20] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [21] |
 | **Childhelp** | Child abuse | US | **1-800-422-4453** [22] |
 | **RAINN** | Sexual assault | US | **1-800-656-4673** [23] |
@@ -1406,7 +1406,7 @@ Checked 2026-09-27.
 17. KUER, "Former Bishop Excommunicated From Mormon Church For Protesting Youth Interviews" (16 Sep 2018). https://www.kuer.org/religion/2018-09-16/former-bishop-excommunicated-from-mormon-church-for-protesting-youth-interviews
 18. ABC News, "Mormon Church Excommunicates Kate Kelly, Women's Rights Activist" (23 June 2014). https://abcnews.com/US/mormon-church-excommunicates-kate-kelly-womens-rights-activists/story?id=24264440
 19. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
-20. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+20. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 21. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 22. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/
 23. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/

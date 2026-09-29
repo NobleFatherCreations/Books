@@ -1287,7 +1287,7 @@ Checked 2026-09-27.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving religion | UK | **020 3675 0959** [11] |
+| **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; set hours, see website) [11] |
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [12] |
 | **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** [13] |
 | **Humanists at Risk** | People persecuted for belief or apostasy | Global | Casework [14] |
@@ -1306,7 +1306,7 @@ Checked 2026-09-27.
 ### Further sources
 9. Constitution of the Islamic Republic of Iran (1979, rev. 1989), Articles 13 and 64 — Constitute Project. https://www.constituteproject.org/constitution/Iran_1989
 10. Charity Commission for England and Wales, Zoroastrian Trust Funds of Europe (Incorporated) (charity 277185), financial history 2021–2025. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/277185/financial-history
-11. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+11. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 12. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 13. Karma Nirvana — honour-based abuse and forced marriage, 0800 5999 247. https://karmanirvana.org.uk/get-help/helpline/
 14. Humanists International — Humanists at Risk. https://humanists.international/what-we-do/humanists-at-risk/

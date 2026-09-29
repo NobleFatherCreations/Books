@@ -85,5 +85,26 @@
   "before": "Each is expanded below: why it is being asked, and a concrete example",
   "after": "Each is set out below: why it is being asked, and a concrete example",
   "reason": "'Expanded' reads as a note about the document's own production; 'set out' says what the reader will find."
+ },
+ {
+  "id": "ALL-F01",
+  "scope": "md",
+  "type": "proof",
+  "count": "any",
+  "before": "**020 3675 0959**",
+  "after": "**0800 448 0748** (freephone; set hours, see website)",
+  "reason": "Help-line number was wrong in 26 volumes. Humanists UK lists the Faith to Faithless helpline as freephone 0800 448 0748, open on set days only (checked 2026-09-29, humanists.uk/faith-to-faithless/helpline). Applied because a wrong help-line number can do real harm; flagged in DISCREPANCIES for sign-off.",
+  "status": "proposed"
+ },
+ {
+  "id": "ALL-F02",
+  "scope": "md",
+  "type": "proof",
+  "count": "any",
+  "regex": true,
+  "before": "— (?:helpline )?020 3675 0959\\.",
+  "after": "— helpline 0800 448 0748 (freephone; set hours).",
+  "reason": "Same correction in the Sources entry.",
+  "status": "proposed"
  }
 ]

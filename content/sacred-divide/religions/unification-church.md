@@ -488,7 +488,7 @@ Checked 2026-09-27.
 | **National Network of Lawyers Against Spiritual Sales** | Former followers seeking money back | Japan | Via lawyers' network [12] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [22] |
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [23] |
-| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [24] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [24] |
 | **Childhelp** | Child abuse | US | **1-800-422-4453** [25] |
 
 ## 26. Sources {#sources}
@@ -516,7 +516,7 @@ Checked 2026-09-27.
 19. Prusa, I., "The Unification Church Scandal: Assassination of Abe Shinzô and Religio-Political Collusion in Japan," *electronic journal of contemporary japanese studies* 24(3). <https://www.japanesestudies.org.uk/ejcjs/vol24/iss3/prusa.html> — membership: claims of one to ten million; at least 600,000 in the 1990s; about 60,000 official members in Japan.
 22. International Cultic Studies Association (ICSA). <https://internationalculticstudies.org/>
 23. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
-24. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. <https://humanists.uk/faith-to-faithless/helpline/>
+24. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). <https://humanists.uk/faith-to-faithless/helpline/>
 25. Childhelp National Child Abuse Hotline — 1-800-422-4453. <https://childhelphotline.org/>
 
 ## 27. What changed on this page {#changed}

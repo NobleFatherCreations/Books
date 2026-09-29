@@ -1345,7 +1345,7 @@ Checked 2026-09-27.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [14] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [14] |
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [15] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [16] |
 | **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [17] |
@@ -1367,7 +1367,7 @@ Checked 2026-09-27.
 11. Charity Commission, "Charity regulator removes trustee from Rigpa Fellowship" (23 Sept 2019; withdrawn when the inquiry closed, 25 Nov 2020). https://www.gov.uk/government/news/charity-regulator-removes-trustee-from-rigpa-fellowship
 12. Radio Free Asia, "Trump Signs Tibetan Policy And Support Act Into Law, Prompting Warnings From Beijing" (28 Dec 2020). https://www.rfa.org/english/news/tibet/law-12282020181154.html
 13. USCIRF, "USCIRF Welcomes Enactment of the Tibet Policy and Support Act." https://www.uscirf.gov/release-statements/uscirf-welcomes-enactment-tibet-policy-and-support-act
-14. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+14. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 15. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 16. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 17. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/

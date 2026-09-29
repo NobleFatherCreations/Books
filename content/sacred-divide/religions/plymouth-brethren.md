@@ -469,7 +469,7 @@ Checked 2026-09-27.
 | Organization | For | Where | Contact |
 |---|---|---|---|
 | **Olive Leaf Network** | Former members of high-demand religious groups | Australia, New Zealand, international | Via website [12] |
-| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [13] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [13] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [14] |
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [15] |
 
@@ -487,7 +487,7 @@ Checked 2026-09-27.
 10. Charity Commission for England and Wales, OneSchool Global UK (charity 1181301), financial history 2020–2024. <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5101925/financial-history>
 11. *Express* (NZ), "Craig Hoyle: Finding Freedom After The Exclusive Brethren" (11 Oct 2024) — interview on his memoir *Excommunicated*. <https://gayexpress.co.nz/2024/10/craig-hoyle-finding-freedom-after-the-exclusive-brethren/>
 12. Olive Leaf Network — aid and advocacy for former members of high-demand religious groups (Australia, New Zealand, international). <https://oliveleafnetwork.org/>
-13. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. <https://humanists.uk/faith-to-faithless/helpline/>
+13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). <https://humanists.uk/faith-to-faithless/helpline/>
 14. International Cultic Studies Association (ICSA). <https://internationalculticstudies.org/>
 15. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
 16. Charity Commission for England and Wales, register entry: Preston Down Trust, charity no. 1155382 (accounts and trustees' annual report for the year to 5 April 2025, received on time). <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5043270/full-print>

@@ -1272,7 +1272,7 @@ Checked 2026-09-27.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving religion | UK | **020 3675 0959** [14] |
+| **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; set hours, see website) [14] |
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [15] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [16] |
 
@@ -1296,7 +1296,7 @@ Checked 2026-09-27.
 ### Further sources
 12. Diamond Online, 「神社本庁が全面敗訴、『内部告発者の懲戒解雇は無効』」 (2021) — the sale chain: ¥184m (Oct 2015), ¥212.4m (Nov 2015), ¥305m (six months later); Takao Ina's December 2016 complaint and August 2017 dismissal. https://diamond.jp/articles/-/266171
 13. NPR, "'Samurai Sword' Attack At Tokyo Shrine Leaves 3 Dead" (8 Dec 2017). https://www.npr.org/sections/thetwo-way/2017/12/08/569336750/samurai-sword-attack-at-tokyo-shrine-leaves-3-dead
-14. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+14. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 15. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 16. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 

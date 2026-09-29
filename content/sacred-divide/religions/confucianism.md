@@ -1262,7 +1262,7 @@ Checked 2026-09-27.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving religious or cultural control | UK | **020 3675 0959** [13] |
+| **Faith to Faithless** | People leaving religious or cultural control | UK | **0800 448 0748** (freephone; set hours, see website) [13] |
 | **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** [14] |
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [15] |
 
@@ -1282,7 +1282,7 @@ Checked 2026-09-27.
 10. IntechOpen, "The Abolition of the Hoju System and Intergenerational Conflict in South Korea" — the March 2005 Constitutional Court ruling; individual registration from 1 Jan 2008. https://www.intechopen.com/chapters/1233172
 11. National Human Rights Commission of Korea, "The Hoju System is Unconstitutional and a Violation of Human Rights" (11 Mar 2003). https://www.humanrights.go.kr/site/program/board/basicboard/view?currentpage=46&menuid=002002001&pagesize=10&searchcategory=policy&boardtypeid=7003&boardid=7000525
 12. Gulf News / AFP, "Grandmother, 77, wins first China neglect case" (July 2013). https://gulfnews.com/world/oceania/grandmother-77-wins-first-china-neglect-case-1.1204505
-13. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 14. Karma Nirvana — honour-based abuse and forced marriage, 0800 5999 247. https://karmanirvana.org.uk/get-help/helpline/
 15. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 

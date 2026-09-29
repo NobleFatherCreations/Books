@@ -1317,7 +1317,7 @@ Checked 2026-09-27.
 | Organization | For | Where | Contact |
 |---|---|---|---|
 | **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [25] |
-| **Faith to Faithless** | People leaving high-control religion | UK | **020 3675 0959** [26] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [26] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [27] |
 | **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [28] |
 | **Childhelp** | Child abuse | US | **1-800-422-4453** [29] |
@@ -1355,7 +1355,7 @@ Checked 2026-09-27.
 23. The Gospel Coalition, review of Costi Hinn, *God, Greed, and the (Prosperity) Gospel* (Zondervan, 2019). https://www.thegospelcoalition.org/reviews/god-greed-prosperity-gospel/
 24. *Christian Today*, "Benny Hinn's nephew slams prosperity gospel, reveals why he left affluent lifestyle behind" (10 Apr 2018). https://www.christiantoday.com/news/benny-hinns-nephew-slams-prosperity-gospel-reveals-why-he-left-affluent-lifestyle-behind
 25. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
-26. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
+26. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 27. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 28. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
 29. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/
