@@ -53,6 +53,21 @@ const TYPES = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascrip
     if (!changed) break;
   }
   if (snug.size || brk.size) console.log(`fitted: ${JSON.stringify([...snug])} tightened, ${brk.size} table(s) moved; left: ${issues.tails.length} short tail(s) ${JSON.stringify(issues.tails.map(t => t.page))}, ${issues.lone.length} lone header(s)`);
+  // per-page report for the whitespace pass: foot gap, section, and which top-level blocks start on the page
+  const report = await page.evaluate(() => [...document.querySelectorAll('.pagedjs_page')].map((pg, i) => {
+    const area = pg.querySelector('.pagedjs_page_content'); if (!area) return { n: i + 1 };
+    const box = area.getBoundingClientRect();
+    const leaf = [...area.querySelectorAll('*')].filter(e => { const b = e.getBoundingClientRect(); return b.height > 0 && b.width > 0 && (!e.children.length || e.tagName === 'P' || e.tagName === 'TR'); });
+    let last = [...leaf, ...area.querySelectorAll('.consequence, .primer, .card, .case, .stage, .tactic, .hardq, .pullquote, .datum, .stagerow, table, figure, .loop')].reduce((m, e) => Math.max(m, e.getBoundingClientRect().bottom), box.top);
+    const gpq = area.querySelector('.pullquote'); if (gpq) last = Math.max(last, gpq.getBoundingClientRect().bottom);
+    const dark = !!pg.querySelector('.opener-page, .cover, .divider-page');
+    const secEl = area.querySelector('section[data-sec]'); const sec = secEl ? 'sec-' + secEl.dataset.sec : null;
+    const blocks = [...area.querySelectorAll('[data-ci]')].map(e => ({ sec: e.closest('section[data-sec]') ? 'sec-' + e.closest('section[data-sec]').dataset.sec : null, ci: +e.dataset.ci, split: e.hasAttribute('data-split-from') }));
+    const pq = area.querySelector('.pullquote');
+    return { n: i + 1, foot: dark ? 0 : (box.bottom - last) / box.height, footPt: box.bottom - last, dark, sec, blocks, pq: !!pq, pqLast: pq ? pq.dataset.grown === '1' : null };
+  }));
+  fs.writeFileSync(out.replace(/\.pdf$/, '.pages.json'), JSON.stringify(report));
+  if (process.env.DEBUGPQ) console.log(JSON.stringify(await page.evaluate(() => [...document.querySelectorAll('.pullquote')].map(e => { const pg = e.closest('.pagedjs_page'); const r = e.getBoundingClientRect(); return { page: pg && pg.dataset.pageNumber, top: r.top - pg.getBoundingClientRect().top, h: r.height, grown: e.dataset.grown, n: pg.querySelectorAll('p').length }; }))));
   const pages = await page.evaluate(() => document.querySelectorAll('.pagedjs_page').length);
   // where each heading landed, for the PDF bookmark tree (Paged.js pages are .pagedjs_page, 1-based)
   const marks = await page.evaluate(() => [...document.querySelectorAll('h1[id], h2[id], h3[id], h4[id^="t-"]')].map(h => {

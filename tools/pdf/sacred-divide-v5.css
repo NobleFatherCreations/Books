@@ -1,6 +1,6 @@
-/* The Sacred Divide v5.1 — print stylesheet, US Letter.
+/* The Sacred Divide v5.2 — print stylesheet, US Letter. Baseline 19pt, body 12.5/19, measure 132mm.
    HARD LIMITS (checked by scripts/sacred-divide-v5-qa.py):
-   - 5 base colours + 2 derived tints. - 7 type sizes (plus the 180pt section numeral, a graphic). - rules 0.4pt or 2pt only.
+   - 5 base colours + 2 derived tints. - 9 type sizes (cover 96, display 72, H1 54, H2 30, H3 17, body 12.5, small 10, micro 8.5, numeral 240). - rules 0.4pt or 2pt only.
    - Body EB Garamond 11/17. Real small caps (smcp/c2sc) and old-style figures (onum) come from the full OTF, not the subset web files.
    Volume identity = --accent + --display only (Catholicism: both from this file). Everything else is shared. */
 
@@ -15,14 +15,16 @@
   --band: #F5F0E3;  /* derived: ink 3% on cream */ --primer: #F4EEDC;  /* derived */
   --accent: var(--oxblood);
   --display: "EBG", Georgia, serif; --text: "EBG", Georgia, serif;
-  /* the 7 sizes */
-  --fs-display: 72pt; --lh-display: 68pt;  --fs-h1: 44pt; --lh-h1: 46pt;  --fs-h2: 26pt; --lh-h2: 32pt;
-  --fs-h3: 16pt; --lh-h3: 22pt;  --fs-body: 11pt; --lh-body: 17pt;  --fs-small: 9pt; --lh-small: 14pt;  --fs-micro: 7.5pt; --lh-micro: 11pt;
-  --measure: 108mm; --side: 52mm; --gut: 6mm;
+  /* the 9 sizes: cover 96 / display 72 / H1 54 / H2 30 (also the pullquote) / H3 17 / body 12.5 / small 10 / micro 8.5 / numeral 240 */
+  --fs-cover: 96pt; --lh-cover: 88pt; --fs-display: 72pt; --lh-display: 76pt;
+  --fs-h1: 54pt; --lh-h1: 57pt; --fs-h2: 30pt; --lh-h2: 38pt; --fs-h3: 17pt; --lh-h3: 19pt;
+  --fs-body: 12.5pt; --lh-body: 19pt; --fs-small: 10pt; --lh-small: 19pt; --fs-micro: 8.5pt; --lh-micro: 19pt; --fs-numeral: 240pt; --lh-numeral: 190pt;
+  --u: 19pt; /* the baseline grid: everything vertical is a multiple of 19pt */
+  --measure: 124mm; --side: 44mm; --gut: 6mm;
   --hair: .4pt; --heavy: 2pt;
 }
 
-@page { size: letter; margin: 20mm 22mm 24mm 28mm; background: var(--cream);
+@page { size: letter; margin: 20mm 18mm 24mm 24mm; background: var(--cream);
   @top-left { content: "The Sacred Divide  ·  " string(religion); font: 400 var(--fs-micro)/var(--lh-micro) var(--text); font-variant-caps: all-small-caps; letter-spacing: .18em; color: var(--ink); vertical-align: bottom; padding-bottom: 6mm; }
   @top-right { content: string(section); font: 400 var(--fs-micro)/var(--lh-micro) var(--text); font-variant-caps: all-small-caps; letter-spacing: .18em; color: var(--accent); vertical-align: bottom; padding-bottom: 6mm; }
   @bottom-left { content: "noblefathercreations.com/faith"; font: 400 var(--fs-micro)/var(--lh-micro) var(--text); font-variant-caps: all-small-caps; letter-spacing: .18em; color: var(--ink); vertical-align: bottom; padding-bottom: 10mm; }
@@ -49,26 +51,26 @@ table, .chip, .matrix, .datum, .datapage { font-variant-numeric: lining-nums tab
 .cover { page: cover; background: var(--ink); display: flex; flex-direction: column; align-items: center; }
 .cover .band { position: absolute; left: 0; right: 0; top: 0; height: 8mm; background: var(--accent); }
 .cover .orn { margin-top: 32mm; width: 58mm; height: 58mm; }
-.cover .eyebrow { margin-top: 14mm; font: 700 var(--fs-micro)/var(--lh-micro) var(--text); letter-spacing: .5em; padding-left: .5em; text-transform: uppercase; color: var(--gold); }
-.cover .for { margin-top: 6pt; font: 400 var(--fs-micro)/var(--lh-micro) var(--text); letter-spacing: .26em; text-transform: uppercase; color: var(--rule); }
-.cover h1 { margin: 16mm 18mm 0; text-align: center; font: 400 var(--fs-display)/var(--lh-display) var(--display); letter-spacing: -.02em; color: var(--cream); string-set: religion content(text); }
-.cover .family { margin-top: 10mm; font: italic 400 var(--fs-h3)/var(--lh-h3) var(--display); color: var(--gold); }
+.cover .eyebrow { margin-top: 12mm; font: 700 var(--fs-small)/var(--lh-small) var(--text); letter-spacing: .22em; padding-left: .22em; text-transform: uppercase; color: var(--gold); }
+.cover .for { margin-top: 0; font: 400 var(--fs-small)/var(--lh-small) var(--text); letter-spacing: .22em; text-transform: uppercase; color: var(--rule); }
+.cover h1 { margin: 14mm 14mm 0; text-align: center; font: 400 var(--fs-cover)/var(--lh-cover) var(--display); letter-spacing: -.025em; color: var(--cream); string-set: religion content(text); }
+.cover .family { margin-top: 10mm; font: italic 400 var(--fs-h3)/var(--lh-h3) var(--display); font-size: var(--fs-h3); color: var(--gold); }
 .cover .rule { margin-top: 8mm; width: 36mm; border-top: var(--hair) solid var(--gold); }
-.cover .tagline { margin-top: 8mm; font: 700 var(--fs-micro)/var(--lh-micro) var(--text); letter-spacing: .3em; padding-left: .3em; text-transform: uppercase; color: var(--rule); }
-.cover .blurb { margin: 12mm 30mm 0; text-align: center; font: italic 400 var(--fs-body)/var(--lh-body) var(--text); color: var(--rule); }
-.cover .meta { position: absolute; bottom: 14mm; left: 22mm; right: 22mm; display: flex; justify-content: space-between; font: 400 var(--fs-micro)/var(--lh-micro) var(--text); letter-spacing: .18em; text-transform: uppercase; color: var(--rule); }
+.cover .tagline { margin-top: 8mm; font: 700 var(--fs-small)/var(--lh-small) var(--text); letter-spacing: .22em; padding-left: .22em; text-transform: uppercase; color: var(--rule); }
+.cover .blurb { margin: 12mm auto 0; max-width: 118mm; text-align: center; font: 400 var(--fs-body)/var(--lh-body) var(--text); font-style: normal; color: var(--rule); }
+.cover .meta { position: absolute; bottom: 14mm; left: 24mm; right: 18mm; display: flex; justify-content: space-between; font: 400 var(--fs-micro)/var(--lh-micro) var(--text); letter-spacing: .18em; text-transform: uppercase; color: var(--rule); }
 
 .opener-page { page: opener; background: var(--ink); }
-.opener-page h2 { margin: 0; position: absolute; left: 28mm; right: 22mm; top: 78mm; }
-.opener-page h2 .num { display: block; font: 400 180pt/150pt var(--display); font-variant-numeric: lining-nums; color: var(--gold); letter-spacing: -.03em; margin-left: -6pt; }
-.opener-page h2 .t { display: block; margin-top: 28pt; font: 400 var(--fs-h1)/var(--lh-h1) var(--display); letter-spacing: -.015em; color: var(--cream); string-set: section content(text); max-width: 150mm; }
-.opener-page .orn-rule { position: absolute; left: 28mm; width: 40mm; bottom: 52mm; border-top: var(--heavy) solid var(--accent); }
+.opener-page h2 { margin: 0; position: absolute; left: 24mm; right: 18mm; top: 58mm; }
+.opener-page h2 .num { display: block; font: 400 var(--fs-numeral)/var(--lh-numeral) var(--display); font-variant-numeric: lining-nums; color: var(--gold); letter-spacing: -.03em; margin-left: -8pt; }
+.opener-page h2 .t { display: block; margin-top: 38pt; font: 400 var(--fs-h1)/var(--lh-h1) var(--display); letter-spacing: -.015em; color: var(--cream); string-set: section content(text); max-width: 160mm; }
+.opener-page .orn-rule { position: absolute; left: 24mm; width: 40mm; bottom: 52mm; border-top: var(--heavy) solid var(--accent); }
 .divider-page { page: divider; background: var(--accent); display: flex; align-items: center; justify-content: center; }
 .divider-page svg { width: 92mm; height: 92mm; }
 
 /* ---------------------------------------------------------------- front matter */
 .front { page: front; }
-.front h1 { font: 400 var(--fs-h1)/var(--lh-h1) var(--display); letter-spacing: -.015em; color: var(--ink); margin: 0 0 var(--lh-h2); padding-top: 8pt; border-top: var(--heavy) solid var(--accent); width: 40mm; box-sizing: content-box; string-set: section content(text); }
+.front h1 { font: 400 var(--fs-h1)/var(--lh-h1) var(--display); letter-spacing: -.015em; color: var(--ink); margin: 0 0 var(--lh-h1); padding-top: 8pt; border-top: var(--heavy) solid var(--accent); width: 40mm; box-sizing: content-box; string-set: section content(text); }
 .front h1 { width: auto; border-top: none; padding-top: 0; }
 .front h1::before { content: ""; display: block; width: 40mm; border-top: var(--heavy) solid var(--accent); margin-bottom: 8mm; }
 .toc { break-after: page; }
@@ -91,7 +93,7 @@ h3 { font: 600 var(--fs-h2)/var(--lh-h2) var(--text); letter-spacing: -.005em; c
 h3::before { content: ""; display: block; width: 24pt; border-top: var(--heavy) solid var(--accent); margin-bottom: 12pt; }
 h4 { font: 700 var(--fs-h3)/var(--lh-h3) var(--text); font-variant-caps: all-small-caps; letter-spacing: .06em; color: var(--accent); margin: var(--lh-h3) 0 6pt; break-after: avoid; }
 h3.look4, h2.look4 { font: 700 var(--fs-h3)/var(--lh-h3) var(--text); font-variant-caps: all-small-caps; letter-spacing: .06em; color: var(--accent); margin: var(--lh-h3) 0 6pt; } h3.look4::before, h2.look4::before { content: none; }
-.dc { float: left; font: 400 var(--fs-h1)/34pt var(--display); color: var(--accent); padding: 5pt 8pt 0 0; height: 40pt; }
+.dc { float: left; font: 400 var(--fs-h1)/46pt var(--display); color: var(--accent); padding: 6pt 10pt 0 0; height: 57pt; }
 .sr-first { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 
 /* ---------------------------------------------------------------- the five box components */
@@ -101,22 +103,28 @@ h3.look4, h2.look4 { font: 700 var(--fs-h3)/var(--lh-h3) var(--text); font-varia
 .card[data-split-from]::before, .case[data-split-from]::before, .hardq[data-split-from]::before { content: "Continued"; display: block; font: 700 var(--fs-micro)/var(--lh-micro) var(--text); letter-spacing: .18em; text-transform: uppercase; color: var(--accent); margin-bottom: 8pt; }
 .card[data-split-to]::after, .case[data-split-to]::after, .hardq[data-split-to]::after { content: "Continues on the next page"; display: block; font: italic 400 var(--fs-small)/var(--lh-small) var(--text); margin: 4pt 0 8pt; }
 /* 1 PRIMER: cream-tint fill, 2pt oxblood top rule, roman, at most 55 words */
-.primer { width: var(--measure); box-sizing: border-box; background: var(--primer); border-top: var(--heavy) solid var(--accent); padding: 12pt 16pt 1pt; margin: 0 0 var(--lh-h1); break-inside: avoid; }
+.primer { width: var(--measure); box-sizing: border-box; background: var(--primer); border-top: var(--heavy) solid var(--accent); padding: 19pt 19pt 0; margin: 0 0 38pt; break-inside: avoid; }
 .primer .lbl, .afterword .lbl, .consequence .lbl { display: block; font: 700 var(--fs-micro)/var(--lh-micro) var(--text); letter-spacing: .18em; text-transform: uppercase; color: var(--accent); margin-bottom: 6pt; }
 .primer p { margin: 0 0 var(--lh-body); padding: 0; }
 .lead-in { margin: 0 0 var(--lh-h1); } .lead-in .lbl { display: block; font: 700 var(--fs-micro)/var(--lh-micro) var(--text); letter-spacing: .18em; text-transform: uppercase; color: var(--accent); margin-bottom: 6pt; }
-/* 2 CONSEQUENCE: ink fill, cream text, gold label; when it closes a section it grows to the page foot */
-.consequence { background: var(--ink); color: var(--cream); padding: 20pt 24pt 4pt; margin: var(--lh-h1) 0 0; break-inside: avoid; display: block; }
-.consequence .lbl { color: var(--gold); } .consequence p { font: 400 var(--fs-h3)/var(--lh-h3) var(--text); max-width: 120mm; margin: 0 0 var(--lh-body); }
-.consequence.fill { display: flex; flex-direction: column; justify-content: center; }
-/* consequence text too long for the box (>55 words) is body text under a rule */
-.afterword { border-top: var(--heavy) solid var(--accent); padding-top: 12pt; margin: var(--lh-h1) 0 0; }
-/* 3 PULLQUOTE: no fill, no rule, hangs left into the margin */
+/* 2 CONSEQUENCE: ink fill, cream text, gold label. It fits its content: no fixed height, 19pt padding.
+   --short (<=60 words): 17pt on a 38pt line. --long (61-180 words): body size in two columns, 8mm gutter, gold hairline between. */
+.consequence { background: var(--ink); color: var(--cream); padding: 19pt 24pt 0; margin: 38pt 0 0; break-inside: avoid; display: block; }
+.consequence .lbl { color: var(--gold); }
+.consequence--short p { font: 400 var(--fs-h3)/38pt var(--text); max-width: 120mm; margin: 0 0 19pt; }
+.consequence--long .cols { column-count: 2; column-gap: 8mm; column-rule: var(--hair) solid var(--gold); padding-bottom: 19pt; }
+.consequence--long p { font: 400 var(--fs-body)/var(--lh-body) var(--text); margin: 0 0 19pt; hyphens: auto; }
+.consequence--long p:last-child { margin-bottom: 0; }
+.consequence--long .lbl { margin-bottom: 19pt; }
+/* an approved pullquote: 30/38 oxblood roman, hanging 12mm into the outer margin, quote at 38% of the void, the rest empty by design */
+.pullquote { break-inside: avoid; margin: 0; padding: 0; position: relative; }
+.pullquote p { font: 400 var(--fs-h2)/var(--lh-h2) var(--display); color: var(--accent); letter-spacing: -.01em; margin: 0 0 0 -12mm; max-width: 118mm; hyphens: manual; text-wrap: balance; }
+.pullquote .lbl { display: block; font: 700 var(--fs-micro)/var(--lh-micro) var(--text); letter-spacing: .18em; text-transform: uppercase; color: var(--ink); margin: 0 0 19pt -12mm; }
 .quote-page { margin: 40pt 0 40pt; }
-.quote-page p { font: 400 var(--fs-h1)/var(--lh-h1) var(--display); letter-spacing: -.015em; color: var(--accent); margin: 0 0 0 -12mm; max-width: 150mm; hyphens: manual; }
+.quote-page p { font: 400 var(--fs-h2)/var(--lh-h2) var(--display); letter-spacing: -.01em; color: var(--accent); margin: 0 0 0 -12mm; max-width: 150mm; hyphens: manual; }
 .quote-page .lbl { display: block; font: 700 var(--fs-micro)/var(--lh-micro) var(--text); letter-spacing: .18em; text-transform: uppercase; color: var(--ink); margin: 0 0 var(--lh-h3) -12mm; }
 /* 4 DATUM: fixed square, gold hairline, one number + one caption */
-.datum { box-sizing: border-box; width: 29mm; height: 25mm; border: var(--hair) solid var(--gold); padding: 5pt 6pt; display: flex; flex-direction: column; justify-content: space-between; }
+.datum { box-sizing: border-box; width: 34mm; height: 34mm; border: var(--hair) solid var(--gold); padding: 6pt 8pt; display: flex; flex-direction: column; justify-content: space-between; }
 .datum b { font: 400 var(--fs-h1)/var(--lh-h1) var(--display); color: var(--accent); font-variant-numeric: lining-nums; }
 .datum span { font: 700 var(--fs-micro)/var(--lh-micro) var(--text); letter-spacing: .12em; text-transform: uppercase; }
 /* 5 CAUTION: 2pt gold bar, no fill, roman */
@@ -124,7 +132,7 @@ h3.look4, h2.look4 { font: 700 var(--fs-h3)/var(--lh-h3) var(--text); font-varia
 .tell::before { content: "The tell"; display: block; font: 700 var(--fs-micro)/var(--lh-micro) var(--text); letter-spacing: .18em; text-transform: uppercase; color: var(--accent); margin-bottom: 4pt; }
 .gap { font-size: var(--fs-small); line-height: var(--lh-small); }
 .lede { font: 400 var(--fs-h3)/var(--lh-h3) var(--text); color: var(--ink); border-left: var(--heavy) solid var(--gold); padding: 0 0 0 14pt; margin: 0 0 var(--lh-h2); max-width: var(--measure); }
-.question { font: 400 var(--fs-h1)/var(--lh-h1) var(--display); letter-spacing: -.015em; color: var(--accent); margin: 0; }
+.question { font: 400 var(--fs-h2)/var(--lh-h2) var(--display); letter-spacing: -.01em; color: var(--accent); margin: 0; }
 .cites { font: 400 var(--fs-small)/var(--lh-small) var(--text); border-top: var(--hair) solid var(--rule); padding-top: 6pt; margin-top: var(--lh-h3); }
 
 .card, .case { background: var(--band); border-top: var(--heavy) solid var(--accent); padding: 14pt 16pt 2pt; }
@@ -138,8 +146,8 @@ h3.look4, h2.look4 { font: 700 var(--fs-h3)/var(--lh-h3) var(--text); font-varia
 .tactic { border-top: var(--heavy) solid var(--accent); padding: 14pt 0 0; margin: 0 0 var(--lh-h1); break-inside: auto; }
 .tactic > h4 { font: 600 var(--fs-h2)/var(--lh-h2) var(--text); font-variant-caps: normal; letter-spacing: -.005em; color: var(--ink); margin: 0 0 6pt; break-after: avoid; }
 .tactic > p, .tactic > ul { max-width: var(--measure); } .tactic > p, .tactic li { break-inside: avoid; }
-.tactic p.gradenote { float: right; clear: right; width: var(--side); margin: 0 0 12pt 0; padding: 0 0 0 10pt; border-left: var(--hair) solid var(--ink); font: 400 var(--fs-small)/var(--lh-small) var(--text); max-width: none; }
-.tactic p.gradenote strong { display: block; font: 700 var(--fs-micro)/var(--lh-micro) var(--text); letter-spacing: .18em; text-transform: uppercase; color: var(--accent); margin-bottom: 4pt; }
+section .tactic p.gradenote { border-left: var(--heavy) solid var(--gold); padding: 0 0 0 14pt; margin: 0 0 19pt; font: 400 var(--fs-body)/var(--lh-body) var(--text); max-width: var(--measure); break-inside: avoid; }
+section .tactic p.gradenote strong { display: block; font: 700 var(--fs-micro)/var(--lh-micro) var(--text); letter-spacing: .18em; text-transform: uppercase; color: var(--accent); }
 .tactic[data-split-from]::before { content: "Continued"; display: block; font: 700 var(--fs-micro)/var(--lh-micro) var(--text); letter-spacing: .18em; text-transform: uppercase; color: var(--accent); margin-bottom: 8pt; }
 .tactic[data-split-to]::after { content: "Continues on the next page"; display: block; font: italic 400 var(--fs-small)/var(--lh-small) var(--text); margin-top: 8pt; }
 .keep { break-inside: avoid; } .newpage { break-before: page; }
@@ -156,7 +164,7 @@ table[data-split-from] thead th:first-child::after { content: " (continued)"; te
 .glance { break-inside: auto; } .glance table { break-inside: auto; table-layout: fixed; font-size: var(--fs-body); line-height: var(--lh-body); } .glance thead { display: none; }
 .glance td:first-child { width: 44mm; font: 700 var(--fs-micro)/var(--lh-micro) var(--text); letter-spacing: .18em; text-transform: uppercase; color: var(--accent); padding-top: 9pt; }
 /* disclosure scorecard: a labelled 6x1 matrix with a legend */
-table.matrix { table-layout: fixed; margin: 0 0 12pt; } table.matrix th { text-align: center; height: 2.4em; padding: 6pt 2pt; border-bottom: var(--hair) solid var(--ink); }
+table.matrix { table-layout: fixed; margin: 0 0 12pt; } table.matrix th { text-align: center; height: 38pt; padding: 0 2pt 4pt; border-bottom: var(--hair) solid var(--ink); vertical-align: bottom; line-height: 12pt; }
 table.matrix td { text-align: center; padding: 14pt 4pt; font: 700 var(--fs-micro)/var(--lh-micro) var(--text); letter-spacing: .18em; text-transform: uppercase; border: var(--hair) solid var(--ink); background: var(--cream) !important; }
 table.matrix td.sY { background: var(--ink) !important; color: var(--cream); } table.matrix td.sP { background: var(--rule) !important; color: var(--ink); }
 table.matrix td.sN { color: var(--accent); border: var(--heavy) solid var(--accent); } table.matrix td.sQ { border-style: dotted; }
@@ -227,14 +235,19 @@ section.sec.snug p { margin-bottom: 14pt; } section.sec.snug2 p { margin-bottom:
 .hardq .qn { font: 700 var(--fs-micro)/var(--lh-micro) var(--text); letter-spacing: .18em; text-transform: uppercase; color: var(--accent); margin-bottom: 6pt; }
 .hardq .qtext { font: 700 var(--fs-h3)/var(--lh-h3) var(--text); margin-bottom: 10pt; max-width: var(--measure); }
 .hardq h4 { margin-top: 10pt; } .hardq p { max-width: var(--measure); }
-.consequence.fill p { margin-left: 0; }
 
 /* band opener: full-bleed ink block at the top of the section's first page (used for short sections; long ones get a full dark page) */
-.opener-band { position: relative; margin: -20mm -22mm 36pt -28mm; height: 116mm; background: var(--ink); color: var(--cream); overflow: hidden; break-after: avoid; }
-.opener-band h2 { margin: 0; position: absolute; left: 28mm; right: 22mm; top: 22mm; }
-.opener-band h2 .num { display: block; font: 400 180pt/140pt var(--display); font-variant-numeric: lining-nums; color: var(--gold); letter-spacing: -.03em; margin-left: -6pt; }
-.opener-band h2 .t { display: block; margin-top: 20pt; font: 400 var(--fs-h1)/var(--lh-h1) var(--display); letter-spacing: -.015em; color: var(--cream); string-set: section content(text); max-width: 150mm; }
-.opener-band .orn-rule { position: absolute; left: 28mm; width: 24mm; bottom: 12mm; border-top: var(--heavy) solid var(--accent); }
-.consequence.long p { font: 400 var(--fs-body)/var(--lh-body) var(--text); max-width: var(--measure); }
-.consequence.long.fill { justify-content: center; }
-.consequence.long { padding: 24pt 28pt 8pt; }
+.opener-band { position: relative; margin: -20mm -18mm 38pt -24mm; height: 158mm; background: var(--ink); color: var(--cream); overflow: hidden; break-after: avoid; }
+.opener-band h2 { margin: 0; position: absolute; left: 24mm; right: 18mm; top: 26pt; }
+.opener-band h2 .num { display: block; font: 400 var(--fs-numeral)/var(--lh-numeral) var(--display); font-variant-numeric: lining-nums; color: var(--gold); letter-spacing: -.03em; margin-left: -8pt; }
+.opener-band h2 .t { display: block; margin-top: 19pt; font: 400 var(--fs-h1)/var(--lh-h1) var(--display); letter-spacing: -.015em; color: var(--cream); string-set: section content(text); max-width: 160mm; }
+.opener-band .orn-rule { position: absolute; left: 24mm; width: 24mm; bottom: 19pt; border-top: var(--heavy) solid var(--accent); }
+
+.ftitle { font: 700 var(--fs-h3)/var(--lh-h3) var(--text); font-variant-caps: all-small-caps; letter-spacing: .06em; color: var(--accent); margin: 0 0 12pt; }
+figure.fig figcaption { font: 400 var(--fs-small)/var(--lh-small) var(--text); margin-top: 6pt; max-width: var(--measure); }
+figure.fig svg { display: block; max-width: 100%; height: auto; }
+.cells { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.datum { width: 32mm; height: 32mm; }
+.stagerow { padding: 2pt 0; }
+.datapage h3 { font-size: var(--fs-h2); }
+figure.fig.flow { break-inside: auto; } figure.fig.flow svg.row { break-inside: avoid; margin-bottom: 6pt; }

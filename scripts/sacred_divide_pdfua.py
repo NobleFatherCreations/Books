@@ -62,9 +62,25 @@ def fix_lists(pdf):
     return n
 
 
-def run(path):
+def fill_alts(pdf, alts):
+    """Give any Figure that Chromium left without /Alt the next label from `alts` (document order)."""
+    root = pdf.Root.get('/StructTreeRoot'); it = iter(alts); n = 0
+    def walk(e):
+        nonlocal n
+        if not isinstance(e, pikepdf.Dictionary): return
+        if e.get('/S') == '/Figure' and '/Alt' not in e:
+            a = next(it, None)
+            if a: e.Alt = pikepdf.String(a); n += 1
+        k = e.get('/K')
+        for c in ([] if k is None else (list(k) if isinstance(k, pikepdf.Array) else [k])): walk(c)
+    if root is not None: walk(root)
+    return n
+
+
+def run(path, alts=()):
     with pikepdf.open(path, allow_overwriting_input=True) as pdf:
         w = sum(artifact_wrap(p, pdf) for p in pdf.pages)
         li = fix_lists(pdf)
+        fa = fill_alts(pdf, alts)
         pdf.save(path)
-    return w, li
+    return w, li, fa
