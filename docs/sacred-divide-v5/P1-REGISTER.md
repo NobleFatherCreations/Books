@@ -1,7 +1,7 @@
 # P1 register — every critical item across the edited volumes
 
 One line per item: where it is and what is wrong. The proposed wording, the evidence and the reason are in the per-volume file linked beside each volume. Catholicism's items are in `DISCREPANCIES.md`. Nothing listed here has been changed in the text unless the item says so.
-**26 P1 items** across 6 volumes, plus Catholicism.
+**30 P1 items** across 7 volumes, plus Catholicism.
 
 
 ## anglicanism (4) — [full file](discrepancies/anglicanism.md)
@@ -40,6 +40,13 @@ One line per item: where it is and what is wrong. The proposed wording, the evid
 - **[§7 top of the chain, "Where the law reached instead"; §5 card October 1989; §23 In closing]** "Criminal courts and state commissions acted every single time, and never an internal body", "because no church body could or would", and "Not one internal body ever has" contradict §7 Authority, §19 case 1 and §21. Those record that the Assemblies of God defrocked Jim Bakker in 1987, two years before his conviction, and 
 - **[§1 disclosure scorecard]** Accounts **N** and Removal **N** are contradicted by the page (F28). §8 and §9 record that UK charity churches (Hillsong Church London, KICC) file public accounts. §7 records that the Assemblies of God and the Church of God in Christ elect leaders who can be voted out. By the scorecard's own key ("P: true of some parts of the tradition, or true in some jurisdictions"), both should be **P
 - **[§12 evidence-weighting rule]** No grade rationale in this volume was reused from another technique. Every note under "Evidence grade" describes its own entry, so no rationale was rewritten. Several notes, read as written, point to a different grade than the chip: - **8 Intermittent Reinforcement**, **Taught**: "standard broadcast practice across the sector". Practice, not teaching
+
+## plymouth-brethren (4) — [full file](discrepancies/plymouth-brethren.md)
+
+- **[§12 technique 26 counter; §14 say-do row 3]** "Not a Brethren business — a business owned by Brethren." [5] and "Not a Brethren business." [5] are printed as direct quotations, but neither wording appears in the three ABC reports cited as [5] (F8). The church's recorded words are: "This would be like suggesting that a business owned by a Catholic person, is a Catholic business. It's not true," and "The church does
+- **[§8 Australia — schools; §9 Where it comes from; §14 Last ran; §16; §19 case 5; source [7]]** The ANAO request is presented as open ("is on the ANAO's register"). The Acting Auditor-General declined it on 14 August 2024 for the 2024–25 work program (F12). Source [7]'s editor's note "check whether the ANAO request led to an audit" was printing to readers and has been removed (PB-P006), which leaves [7] supporting th
+- **[§5 timeline; §6; §10; §12 technique 18; §21; narration q6]** "roughly 8,000 people left" after the Aberdeen incident is not found in any source read (F17). Source [6]'s Evangelical Times article gives no number; the other [6] document was unreachable. Proposed: keep the figure only if the discourses.org.uk account states it; otherwise "many assemblies left; in Scotland, about 200 of 3,000 members stayed with the l
+- **[§26 source 1]** The editor's instruction "**Upgrade** the membership figure to a church or independent primary source" was printing and has been removed (PB-P004). With it gone, the church page cited in [1] (the Hales biography) states no membership figure; "50,000+" rests on Wikipedia alone (F2). Proposed: cite the church's own "about us" figure (reported as just over 55,000) and say "more than 50,000" or "about 
 
 ## protestant-evangelical (4) — [full file](discrepancies/protestant-evangelical.md)
 
