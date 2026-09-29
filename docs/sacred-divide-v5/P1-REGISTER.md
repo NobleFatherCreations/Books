@@ -1,7 +1,7 @@
 # P1 register — every critical item across the edited volumes
 
 One line per item: where it is and what is wrong. The proposed wording, the evidence and the reason are in the per-volume file linked beside each volume. Catholicism's items are in `DISCREPANCIES.md`. Nothing listed here has been changed in the text unless the item says so.
-**15 P1 items** across 4 volumes, plus Catholicism.
+**19 P1 items** across 5 volumes, plus Catholicism.
 
 
 ## anglicanism (4) — [full file](discrepancies/anglicanism.md)
@@ -30,4 +30,11 @@ One line per item: where it is and what is wrong. The proposed wording, the evid
 - **[§5 timeline 2025–26; §19 case 5]** "one sentenced to two years (Oct 2025)" / "archbishop sentenced to two years (Oct 2025)"
 - **[§1 Leaving; §8 Egypt; §15; §23 Q1; narration "for-you law"]** "there is no civil marriage, so a failed marriage can have no way out" is true of current law, but the page omits the draft Personal Status Law for Christians approved by the cabinet on 22 April 2026 and referred to parliament on 4 May 2026, which adds divorce and annulment provisions for all Christian denominations (F9). Proposed addition to §8 Egypt: 
 - **[§5 2010 row; §15 bullet 3; §20 row 1; §21 Coptic man]** "The Supreme Constitutional Court then held that marital matters belong to the church, because Egypt does not recognize civil marriage"
+
+## protestant-evangelical (4) — [full file](discrepancies/protestant-evangelical.md)
+
+- **[§1 unanswered question; §3; §11 Information; §12 technique 18 grade; §14 say-do row 2; §15 ledger; §23 question 2]** The NDA claim ("departing staff at multiple large churches signed non-disclosure agreements covering leadership conduct") carries only a generic [INVESTIGATIVE REPORT] receipt, and no §26 entry supports it. It is the volume's thesis question and the whole basis of technique 18's **Documented** grade
+- **[§1 Size; §7 Adherents]** "~800 million–1 billion, including ~600M+ Pentecostal/charismatic"
+- **[§1 Evidence row; §12 *(sourced)* markers]** "8 of 30 techniques sourced to a named document"
+- **[§12 — evidence-weighting rule]** Once each technique carries its own rationale (grades unchanged; rationales corrected under PE-R002 … R030), these grades do not match their entries: - **13 Normalization / Desensitization**: graded **Reformed**. The basis is the repudiation of purity texts (one author on the page, Harris [17]) and ex-gay closures [16]; the entry itself describes worship conditioning, pastors' clai
 
