@@ -1,7 +1,7 @@
 # P1 register — every critical item across the edited volumes
 
 One line per item: where it is and what is wrong. The proposed wording, the evidence and the reason are in the per-volume file linked beside each volume. Catholicism's items are in `DISCREPANCIES.md`. Nothing listed here has been changed in the text unless the item says so.
-**19 P1 items** across 5 volumes, plus Catholicism.
+**26 P1 items** across 6 volumes, plus Catholicism.
 
 
 ## anglicanism (4) — [full file](discrepancies/anglicanism.md)
@@ -30,6 +30,16 @@ One line per item: where it is and what is wrong. The proposed wording, the evid
 - **[§5 timeline 2025–26; §19 case 5]** "one sentenced to two years (Oct 2025)" / "archbishop sentenced to two years (Oct 2025)"
 - **[§1 Leaving; §8 Egypt; §15; §23 Q1; narration "for-you law"]** "there is no civil marriage, so a failed marriage can have no way out" is true of current law, but the page omits the draft Personal Status Law for Christians approved by the cabinet on 22 April 2026 and referred to parliament on 4 May 2026, which adds divorce and annulment provisions for all Christian denominations (F9). Proposed addition to §8 Egypt: 
 - **[§5 2010 row; §15 bullet 3; §20 row 1; §21 Coptic man]** "The Supreme Constitutional Court then held that marital matters belong to the church, because Egypt does not recognize civil marriage"
+
+## pentecostal-charismatic (7) — [full file](discrepancies/pentecostal-charismatic.md)
+
+- **[§1 unanswered question; §3 question box; forefront narration]** "closed four years later"
+- **[§19 case 5 outcome; §21 Anna Crenshaw; §26 [22]]** "The case settled as trial was due to begin in April 2024"
+- **[§8 UK row; §19 case 4 "A regulator takes over a church (United Kingdom, 2005)"; §26 source 9; law narration]** Two Charity Commission inquiries are merged (F8). The 2002–2005 inquiry found "serious misconduct and mismanagement", and control passed to KPMG early in it. The PDF cited as [9] is the 2016 report on the 2011–2016 inquiry: "mismanagement" over a £5m investment, an interim manager from 31 January 2014 to 
+- **[§26 source 18, edited]** The entry pointed readers to an internal file ("see `_officeholders.md`"), a build marker. PC-P007 converts it to a proper entry with the one URL that file records (ThisDay, 1 March 2026, Adeboye) and puts items 18 and 19 in order. Oyedepo and Macedo still have no URL. Proposed additions: Leadership (2026) for Oyedepo, https://leadership.ng/oyedepo-urges-christians-to-get-pvcs-determine-wh
+- **[§7 top of the chain, "Where the law reached instead"; §5 card October 1989; §23 In closing]** "Criminal courts and state commissions acted every single time, and never an internal body", "because no church body could or would", and "Not one internal body ever has" contradict §7 Authority, §19 case 1 and §21. Those record that the Assemblies of God defrocked Jim Bakker in 1987, two years before his conviction, and 
+- **[§1 disclosure scorecard]** Accounts **N** and Removal **N** are contradicted by the page (F28). §8 and §9 record that UK charity churches (Hillsong Church London, KICC) file public accounts. §7 records that the Assemblies of God and the Church of God in Christ elect leaders who can be voted out. By the scorecard's own key ("P: true of some parts of the tradition, or true in some jurisdictions"), both should be **P
+- **[§12 evidence-weighting rule]** No grade rationale in this volume was reused from another technique. Every note under "Evidence grade" describes its own entry, so no rationale was rewritten. Several notes, read as written, point to a different grade than the chip: - **8 Intermittent Reinforcement**, **Taught**: "standard broadcast practice across the sector". Practice, not teaching
 
 ## protestant-evangelical (4) — [full file](discrepancies/protestant-evangelical.md)
 
