@@ -263,7 +263,7 @@ Chanda is a fixed share of income — 1/16 for Chanda Aam, with Wasiyyat pledges
 
 ### All thirty, graded
 
-| # | Mechanism | Proposed grade | How it appears here | The defense | The counter |
+| # | Mechanism | Grade | How it appears here | The defense | The counter |
 |---|---|---|---|---|---|
 | 1 | Love bombing | Cultural | Converts are embraced by a global family, with the Khalifa's name, an instant role, and hospitality. | "Welcoming converts is a duty." | Warmth is not the issue; whether it survives the first unpaid chanda is. |
 | 2 | Weaponized generosity | Cultural | Community help (jobs, housing, marriage introductions) arrives through the same structure that records your contributions. | "We look after our own." | Care that runs through the finance secretary's ledger is not unconditional. |
@@ -536,5 +536,5 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (UK accounts 2021–2024), Voices from inside, three regional cards, Leaving safely and Where to get help.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers (UK accounts 2021–2024), Voices from inside, three regional cards, Leaving safely and Where to get help.
 

@@ -577,6 +577,6 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (UK Coptic accounts 2020–2024), Voices from inside, five regional cards, Leaving safely and Where to get help.
-- **2026-09-29 — scorecard added:** rated on the Coptic Orthodox Church's UK body, whose accounts, pay bands and declared safeguarding policy are on the charity register [24]; police-first reporting, a removal procedure and on-the-record replies are not established from any public source for any church in this family.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers (UK Coptic accounts 2020–2024), Voices from inside, five regional cards, Leaving safely and Where to get help.
+- **2026-09-29:** Disclosure scorecard added: rated on the Coptic Orthodox Church's UK body, whose accounts, pay bands and declared safeguarding policy are on the charity register [24]; police-first reporting, a removal procedure and on-the-record replies are not established from any public source for any church in this family.
 

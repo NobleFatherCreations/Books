@@ -269,7 +269,7 @@ IICSA [1] (concluded); the Charity Commission, over church charities; employment
 
 ### All thirty, graded
 
-| # | Mechanism | Proposed grade | How it appears here | The defense | The counter |
+| # | Mechanism | Grade | How it appears here | The defense | The counter |
 |---|---|---|---|---|---|
 | 1 | Love bombing | Contested | Present in some evangelical outreach (Alpha courses, camps); absent from most parishes. | "Hospitality is Christian." | Where it happens, check whether it survives disagreement. |
 | 2 | Weaponized generosity | Contested | Church school places and pastoral help can create obligation. | "Service to the community." | A school place tied to Sunday attendance is a transaction. |
@@ -553,5 +553,5 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (endowment 2021–2025), Voices from inside, four regional cards, Leaving safely and Where to get help; the Makin Review now cites the published report.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers (endowment 2021–2025), Voices from inside, four regional cards, Leaving safely and Where to get help; the Makin Review now cites the published report.
 

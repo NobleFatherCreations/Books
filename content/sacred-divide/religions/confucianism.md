@@ -1277,7 +1277,7 @@ Checked 2026-09-27.
 7. Confucius Institutes, first opened 2004 (Seoul) — Britannica, "Confucius Institute". https://www.britannica.com/topic/Confucius-Institute
 8. Susan Mann, *Precious Records: Women in China's Long Eighteenth Century* (Stanford UP, 1997) — widow-chastity honours; and Dorothy Ko, *Cinderella's Sisters: A Revisionist History of Footbinding* (UC Press, 2005). https://www.sup.org/books/title/?id=2621
 
-### Added with the full page (2026-09-27)
+### Further sources
 9. *Christian Science Monitor*, "South Korea Ends a Taboo, Strikes Blow for True Love" (4 Aug 1997) — the Constitutional Court's ruling against the same-surname, same-origin marriage ban. https://www.csmonitor.com/1997/0804/080497.intl.intl.2.html
 10. IntechOpen, "The Abolition of the Hoju System and Intergenerational Conflict in South Korea" — the March 2005 Constitutional Court ruling; individual registration from 1 Jan 2008. https://www.intechopen.com/chapters/1233172
 11. National Human Rights Commission of Korea, "The Hoju System is Unconstitutional and a Violation of Human Rights" (11 Mar 2003). https://www.humanrights.go.kr/site/program/board/basicboard/view?currentpage=46&menuid=002002001&pagesize=10&searchcategory=policy&boardtypeid=7003&boardid=7000525
@@ -1288,5 +1288,5 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers, three documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers, three documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
 

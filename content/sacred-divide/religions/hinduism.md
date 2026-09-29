@@ -1380,7 +1380,7 @@ Checked 2026-09-27.
 12. Patrick Olivelle, *Manu's Code of Law* (Oxford UP, 2005) — dating of the Manusmriti (2nd–3rd c. CE). https://global.oup.com/academic/product/manus-code-of-law-9780195171464
 13. *Encyclopaedia Britannica*, "Hinduism" — Vedic, Upanishadic, epic/Puranic and bhakti periods; Brahmo and Arya Samaj; Hindu Mahasabha (1915) and RSS (1925); Ayodhya 1992. https://www.britannica.com/topic/Hinduism
 
-### Added with the full page (2026-09-27)
+### Further sources
 14. Charity Commission for England and Wales, Bochasanwasi Shri Akshar Purushottam Swaminarayan Sanstha (charity 1143083), financial history 2020–2024. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5015316/financial-history
 15. CalMatters, "Newsom blocks a bill to ban caste discrimination in California" (Oct 2023). https://calmatters.org/politics/2023/10/caste-discrimination-newsom/
 16. NPR / Associated Press, "Seattle becomes the first U.S. city to ban caste discrimination" (22 Feb 2023; 6–1 vote). https://www.npr.org/2023/02/22/1158687243/seattle-becomes-the-first-u-s-city-to-ban-caste-discrimination
@@ -1394,5 +1394,5 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (BAPS UK accounts 2020–2024), four documented cases, Voices from inside, Leaving safely and Where to get help.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers (BAPS UK accounts 2020–2024), four documented cases, Voices from inside, Leaving safely and Where to get help.
 

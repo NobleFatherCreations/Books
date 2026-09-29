@@ -1348,7 +1348,7 @@ Checked 2026-09-27.
 19. UNICEF, *Children Accused of Witchcraft: An anthropological study of contemporary practices in Africa* (A. Cimpric, 2010). https://www.unicef.org/nigeria/reports/children-accused-witchcraft
 18. Officeholders (Adeboye, Oyedepo, Macedo in office 2026) — see `_officeholders.md`.
 
-### Added with the full page (2026-09-27)
+### Further sources
 20. Charity Commission for England and Wales, Hillsong Church London (charity 1120355), financial history 2020–2024. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/4019447/financial-history
 21. Charity Commission for England and Wales, Kingsway International Christian Centre (charity 1102114), financial history 2021–2025. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/4006064/financial-history
 22. Hillsong Church, "A statement by Hillsong Church in response to the legal proceedings commenced by Anna Crenshaw" (3 May 2024). https://hillsong.com/newsroom/blog/2024/05/a-statement-by-hillsong-church-in-response-to-the-legal-proceedings-commenced-by-anna-crenshaw/
@@ -1363,5 +1363,5 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (Hillsong London accounts 2020–2024), five documented cases, Voices from inside, Leaving safely and Where to get help.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers (Hillsong London accounts 2020–2024), five documented cases, Voices from inside, Leaving safely and Where to get help.
 

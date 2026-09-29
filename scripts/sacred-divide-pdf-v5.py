@@ -293,10 +293,10 @@ def build_html(rid):
     blurb = re.sub(r'<[^>]+>', '', lede.group(1)) if lede else ''
     if len(blurb) > 260: blurb = blurb[:257].rsplit(' ', 1)[0] + '…'
     cover = (f'<div class="cover"><div class="band"></div>{rose()}<div class="eyebrow">The Sacred Divide</div>'
-             f'<div class="for">The full record · with reader narration</div><h1>{e(name)}</h1><div class="family">{e(meta.get("family", ""))} family</div>'
+             f'<div class="for">The full record</div><h1>{e(name)}</h1><div class="family">{e(meta.get("family", ""))} family</div>'
              f'<div class="rule"></div><div class="tagline">Honor the faith · Name the machinery</div><div class="blurb">{e(blurb)}</div>'
-             f'<div class="meta"><span>v5 draft · text checked {e(meta.get("checked", ""))}</span><span>{ex.SITE}</span></div></div>')
-    preface = f'<div class="front preface"><h1 id="preface">How this edition works</h1>{ex.md_to_html(ex.PREFACE.replace("{name}", name))}</div>'
+             f'<div class="meta"><span>Text checked {e(meta.get("checked", ""))}</span><span>{ex.SITE}</span></div></div>')
+    preface = f'<div class="front preface"><h1 id="preface">Before you begin</h1>{ex.md_to_html(ex.PREFACE.replace("{name}", name))}</div>'
     colophon = ('<div class="front colophon"><h1 id="colophon">Colophon</h1><p>Set in EB Garamond (SIL Open Font License), regular, italic and bold, with true small capitals and old-style figures in text and lining tabular figures in tables. '
                 'Laid out with Paged.js in Chromium from the same Markdown that feeds the website. US Letter, single-sided, tagged for accessibility and checked against PDF/UA-1 with veraPDF. '
                 f'Built {date.today().isoformat()}. Text checked {e(meta.get("checked", ""))}.</p><p>Palette: ink, oxblood, gold, cream, rule. Seven type sizes. Rules of 0.4 pt and 2 pt only.</p></div>')

@@ -80,6 +80,7 @@ def hardq_cards(content, expansions):
 def build_sections(rid):
     """[(num, title, slug, body_html, subs)] with narration placed before/after each section body."""
     raw = open(os.path.join(SRC, f'{rid}.md'), encoding='utf-8').read()
+    narr.EDITS.reset(rid, 'narration')
     meta, body = sdp.front_matter(raw)
     src_part = re.search(r'^## \d+\. Sources \{#sources\}\n(.*?)(?=^## \d+\.)', body, re.S | re.M)
     sdp.VALID = {int(n) for n in re.findall(r'^\s*(\d+)\.\s', src_part.group(1), re.M)} if src_part else set()
@@ -127,18 +128,19 @@ def build_sections(rid):
         intro, fy = narr.intro(rid, slug), narr.foryou(rid, slug)
         h = (intro_box(intro) if intro else '') + h + (foryou_box(fy) if fy else '')
         out.append((num, title, slug, h, subs))
+    narr.EDITS.check(rid, {'narration'})
     return out, meta
 
 
-PREFACE = """This is the full record of {name} from *The Sacred Divide*: the same 27 sections as the website, every fact sourced, with the same reader narration.
+PREFACE = """This is the record of {name} in *The Sacred Divide*. It has 27 sections, the same 27 used for every tradition, so that any section can be set beside the same section for another. Every fact is sourced.
 
-**Before each section**, a short box says what the section is built to show, so you know what you are looking at before you read the detail.
+**Before each section**, a short note says what the section is built to show, so you know what you are looking at before you read the detail.
 
-**After each section**, a box headed *Why this matters to you* points at the part of the section most likely to touch an ordinary reader: a member, a donor, a parent, a voter, someone thinking about leaving, or someone outside forming an opinion. It usually ends with a question. The questions are not rhetorical traps. They are the ones a careful reader would ask anyway.
+**After each section**, a note headed *Why this matters to you* points at the part of the section most likely to touch an ordinary reader: a member, a donor, a parent, a voter, someone thinking about leaving, or someone outside forming an opinion. It usually ends with a question. The questions are not traps. They are the ones a careful reader would ask anyway.
 
-**The hard questions** in section 23 are expanded into cards: the question, why it is being asked, and an example already documented on this page.
+**The hard questions** in section 23 are set out one at a time: the question, why it is asked, and an example already documented in this record.
 
-Where a narration box states a fact, it is taken from this page's own tables and cited sources, or, in a few places, from a well-known research finding named in the text. If you find something wrong, the *What changed* section at the end explains how corrections are logged."""
+Where a note states a fact, the fact comes from this record's own tables and cited sources or, in a few places, from a well-known research finding named in the text. Corrections are logged, with their dates, in the last section, *What changed on this page*."""
 
 
 def build_html(rid):
@@ -161,11 +163,11 @@ def build_html(rid):
     if len(blurb) > 260:
         blurb = blurb[:257].rsplit(' ', 1)[0] + '…'
     cover = (f'<div class="cover"><div class="band"></div><img class="mark" src="mark.png" alt="">'
-             f'<div class="eyebrow">The Sacred Divide</div><div class="for">The full record · <b>with reader narration</b></div>'
+             f'<div class="eyebrow">The Sacred Divide</div><div class="for">The full record</div>'
              f'<h1>{e(name)}</h1><div class="family">{e(meta.get("family", ""))} family</div><div class="rule"></div>'
              f'<div class="tagline">Honor the faith · Name the machinery</div><div class="blurb">{e(blurb)}</div>'
              f'<div class="meta"><span>{e(meta.get("version", ""))} · checked {e(meta.get("checked", ""))}</span><span>{SITE}</span></div></div>')
-    preface = f'<div class="front preface"><h1 id="preface">How this edition works</h1>{md_to_html(PREFACE.replace("{name}", name))}</div>'
+    preface = f'<div class="front preface"><h1 id="preface">Before you begin</h1>{md_to_html(PREFACE.replace("{name}", name))}</div>'
     doc = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{e(name)} — The Sacred Divide</title>
 <meta name="author" content="Noble Father Creations"><meta name="subject" content="{e(name)}: the full record, expanded with reader narration">
 <link rel="stylesheet" href="sacred-divide.css">
@@ -206,7 +208,7 @@ def render(rid, html_only=False):
     from pypdf import PdfReader, PdfWriter
     w = PdfWriter(clone_from=PdfReader(out_pdf))
     w.add_metadata({'/Title': f'{name} — The Sacred Divide', '/Author': 'Noble Father Creations',
-                    '/Subject': f'The full record for {name}, with a note before and a "why this matters to you" caption after every section, and expanded hard questions.',
+                    '/Subject': f'The full record for {name}: 27 sections, sourced.',
                     '/Keywords': f'The Sacred Divide; {name}; {meta.get("family", "")}; {meta.get("version", "")}'})
     marks = json.load(open(out_pdf.replace('.pdf', '.marks.json')))
     os.remove(out_pdf.replace('.pdf', '.marks.json'))

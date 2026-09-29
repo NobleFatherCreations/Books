@@ -1303,7 +1303,7 @@ Checked 2026-09-27.
 7. Bombay Parsi Punchayet — board of trustees elected by the city's Parsi residents (25,000+ electorate); Election Commission scheme. https://bombayparsipunchayet.org/election-commission/
 8. *Encyclopaedia Iranica* / Britannica, "Zoroastrianism" — Zarathustra's contested dating; Achaemenid (550–330 BCE) and Sasanian (224–651) empires; the migration to Gujarat; the abolition of the jizya on Iranian Zoroastrians (1882). https://www.britannica.com/topic/Zoroastrianism
 
-### Added with the full page (2026-09-27)
+### Further sources
 9. Constitution of the Islamic Republic of Iran (1979, rev. 1989), Articles 13 and 64 — Constitute Project. https://www.constituteproject.org/constitution/Iran_1989
 10. Charity Commission for England and Wales, Zoroastrian Trust Funds of Europe (Incorporated) (charity 277185), financial history 2021–2025. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/277185/financial-history
 11. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
@@ -1313,5 +1313,5 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (ZTFE accounts 2021–2025), two more documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers (ZTFE accounts 2021–2025), two more documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
 

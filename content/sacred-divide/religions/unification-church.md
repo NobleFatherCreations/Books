@@ -521,6 +521,6 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers, Voices from inside, three regional cards, Leaving safely and Where to get help.
-- **2026-09-29 — sources completed:** the Tokyo High Court case number for the confinement ruling [16], the health ministry's original 2022 notice [20], and the membership figures, checked against the article they come from [19].
+- **2026-09-27:** Added Branches, Law & state, Money in numbers, Voices from inside, three regional cards, Leaving safely and Where to get help.
+- **2026-09-29:** Sources completed: the Tokyo High Court case number for the confinement ruling [16], the health ministry's original 2022 notice [20], and the membership figures, checked against the article they come from [19].
 

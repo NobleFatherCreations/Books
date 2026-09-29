@@ -485,6 +485,6 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (SGI-UK accounts 2020–2024), Voices from inside, three regional cards, Leaving safely and Where to get help.
-- **2026-09-29 — scorecard added:** safeguarding, police-first reporting and removal are rated from SGI-UK's published procedures and the organization's own 2023 announcement of the president's term [16][17]; accounts from the UK charity register [2]; leaders' pay and on-the-record replies to critics are not established from any public source.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers (SGI-UK accounts 2020–2024), Voices from inside, three regional cards, Leaving safely and Where to get help.
+- **2026-09-29:** Disclosure scorecard added: safeguarding, police-first reporting and removal are rated from SGI-UK's published procedures and the organization's own 2023 announcement of the president's term [16][17]; accounts from the UK charity register [2]; leaders' pay and on-the-record replies to critics are not established from any public source.
 

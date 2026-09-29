@@ -1,0 +1,89 @@
+[
+ {
+  "id": "ALL-M01",
+  "scope": "md",
+  "type": "meta",
+  "regex": true,
+  "count": "any",
+  "before": "(?m)^- \\*\\*(\\d{4}-\\d\\d-\\d\\d) — full page:\\*\\* added ",
+  "after": "- **\\1:** Added ",
+  "reason": "Changelog entries described an internal build step ('full page'). Kept the dated record, in reader language."
+ },
+ {
+  "id": "ALL-M02",
+  "scope": "md",
+  "type": "meta",
+  "regex": true,
+  "count": "any",
+  "before": "(?m)^- \\*\\*(\\d{4}-\\d\\d-\\d\\d) — fact-check pass 1:\\*\\* ",
+  "after": "- **\\1:** Checked against the sources and corrected: ",
+  "reason": "'Fact-check pass 1' is internal process language."
+ },
+ {
+  "id": "ALL-M03",
+  "scope": "md",
+  "type": "meta",
+  "regex": true,
+  "count": "any",
+  "before": "(?m)^- \\*\\*(\\d{4}-\\d\\d-\\d\\d) — sources completed:\\*\\* ",
+  "after": "- **\\1:** Sources completed: ",
+  "reason": "Reader-facing wording for the corrections log."
+ },
+ {
+  "id": "ALL-M04",
+  "scope": "md",
+  "type": "meta",
+  "regex": true,
+  "count": "any",
+  "before": "(?m)^- \\*\\*(\\d{4}-\\d\\d-\\d\\d) — scorecard added:\\*\\* ",
+  "after": "- **\\1:** Disclosure scorecard added: ",
+  "reason": "Reader-facing wording for the corrections log."
+ },
+ {
+  "id": "ALL-M05",
+  "scope": "md",
+  "type": "meta",
+  "regex": true,
+  "count": "any",
+  "before": "(?m)^### Added (?:for|with) the full page \\(\\d{4}-\\d\\d-\\d\\d\\)(?: — [^\\n]*)?$",
+  "after": "### Further sources",
+  "reason": "Source-list subheading named an internal build ('the full page'). The date of addition is kept in section 27."
+ },
+ {
+  "id": "ALL-M06",
+  "scope": "md",
+  "type": "meta",
+  "regex": true,
+  "count": "any",
+  "before": "(could (?:not )?be read) for this edition\\.",
+  "after": "\\1.",
+  "reason": "Removes edition language ('for this edition'); the stated limit on the source is kept."
+ },
+ {
+  "id": "ALL-M07",
+  "scope": "howto",
+  "type": "meta",
+  "count": 1,
+  "before": "A number in brackets, such as [12], links to item 12 in this religion's Sources, at the end of the file. Every source was checked for this edition.",
+  "after": "A number in brackets, such as [12], links to item 12 in this religion's Sources, near the end. Every source was checked, and the date of the last check is shown at the top.",
+  "reason": "'The file' and 'this edition' are build language. The last-checked date is already shown in each At a glance table."
+ },
+ {
+  "id": "ALL-L01",
+  "scope": "md",
+  "type": "label",
+  "count": "any",
+  "before": "| # | Mechanism | Proposed grade | How it appears here |",
+  "after": "| # | Mechanism | Grade | How it appears here |",
+  "reason": "'Proposed grade' is drafting language left on a published table (ahmadiyya, anglicanism)."
+ },
+ {
+  "id": "ALL-N01",
+  "scope": "narration",
+  "type": "clarity",
+  "count": "any",
+  "before": "Each is expanded below: why it is being asked, and a concrete example",
+  "after": "Each is set out below: why it is being asked, and a concrete example",
+  "reason": "'Expanded' reads as a note about the document's own production; 'set out' says what the reader will find."
+ }
+]

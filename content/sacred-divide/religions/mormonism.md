@@ -1400,7 +1400,7 @@ Checked 2026-09-27.
 13. QuitMormon (Mark Naugle, founded 2015 — over 140,000 resignations filed by end-2024). https://www.mormonstories.org/mark-naugle-quitmormon-com/
 14. Religion News Service, "How the LDS Church is growing — and shrinking" (6 Apr 2026). https://religionnews.com/2026/04/06/how-the-lds-church-is-growing-and-shrinking/
 
-### Added with the full page (2026-09-27)
+### Further sources
 15. Charity Commission for England and Wales, The Church of Jesus Christ of Latter-day Saints (Great Britain) (charity 242451), financial history 2020–2024. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/242451/financial-history
 16. Texas Department of Public Safety, "DPS statement regarding Warren Jeffs convictions" (9 Aug 2011) — life plus 20 years; seven other FLDS members convicted. https://www.dps.texas.gov/sites/default/files/documents/director_staff/public_information/2011/pr080911.pdf
 17. KUER, "Former Bishop Excommunicated From Mormon Church For Protesting Youth Interviews" (16 Sep 2018). https://www.kuer.org/religion/2018-09-16/former-bishop-excommunicated-from-mormon-church-for-protesting-youth-interviews
@@ -1413,5 +1413,5 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (British charity accounts 2020–2024), three more documented cases, Voices from inside, Leaving safely and Where to get help.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers (British charity accounts 2020–2024), three more documented cases, Voices from inside, Leaving safely and Where to get help.
 

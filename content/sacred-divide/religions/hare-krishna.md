@@ -1327,7 +1327,7 @@ Checked 2026-09-27.
 7. *Encyclopaedia Britannica*, "Hare Krishna" — Chaitanya (1486–1534); Prabhupada; ISKCON incorporated 1966; GBC 1970; Prabhupada's death 1977; the eleven zonal acharyas. https://www.britannica.com/topic/Hare-Krishna
 8. ISKCON Child Protection Office (established 1997–98). https://iskconcpo.org/
 
-### Added with the full page (2026-09-27)
+### Further sources
 9. Charity Commission for England and Wales, International Society for Krishna Consciousness Bhaktivedanta Manor (charity 1157877), financial history 2020–2024. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5042329/financial-history
 10. *The Shillong Times*, "Hare Krishna temple dispute: ISKCON Bengaluru chief hails Supreme Court verdict as 'historic'" (16 May 2025). https://theshillongtimes.com/2025/05/16/hare-krishna-temple-dispute-iskcon-bengaluru-chief-hails-supreme-court-verdict-as-historic/
 11. Bar & Bench, "Supreme Court delivers split verdict in ISKCON Mumbai's review plea over Bengaluru temple ownership" (8 Nov 2025). https://www.barandbench.com/news/supreme-court-delivers-split-verdict-in-iskcon-mumbais-review-plea-over-bengaluru-temple-ownership
@@ -1340,5 +1340,5 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (Bhaktivedanta Manor accounts 2020–2024), two more documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers (Bhaktivedanta Manor accounts 2020–2024), two more documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
 

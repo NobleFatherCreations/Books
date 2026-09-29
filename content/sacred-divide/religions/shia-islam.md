@@ -1392,7 +1392,7 @@ Checked 2026-09-27. Services change; check the organization's own site.
 20. KRDO/CNN, "Grand Ayatollah Ali al-Sistani Fast Facts" (updated 22 July 2026 — born 1930, living). https://krdo.com/news/2026/07/22/grand-ayatollah-ali-al-sistani-fast-facts-3/
 21. Nobel Prize, Narges Mohammadi — Peace Prize 2023. https://www.nobelprize.org/prizes/peace/2023/mohammadi/facts/
 
-### Added for the full page (2026-09-27)
+### Further sources
 22. *Encyclopaedia Britannica*, "Shiʿi" — Twelvers, Ismailis and Zaydis. https://www.britannica.com/topic/Shii
 23. *Encyclopaedia Britannica*, "Alawite" (recognised as Shia by Musa al-Sadr's 1973 ruling). https://www.britannica.com/topic/Alawite
 24. Iran International, "Iran postpones implementation of new hijab law" (14 Dec 2024), and "Iran says hijab laws remain in force amid debate over enforcement" (Oct 2025). https://www.iranintl.com/en/202412140884 · https://www.iranintl.com/en/202510140652
@@ -1418,6 +1418,6 @@ https://www.sistani.org/english/book/48/2312/ (distribution) and https://www.sis
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — fact-check pass 1:** the Supreme Leader is Mojtaba Khamenei, chosen in March 2026 after his father was killed; population corrected to 200–260 million; Iraq's 2025 Jaʿfari code added.
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers, three new documented cases, Voices from inside, six regional cards, Leaving safely and Where to get help.
+- **2026-09-27:** Checked against the sources and corrected: the Supreme Leader is Mojtaba Khamenei, chosen in March 2026 after his father was killed; population corrected to 200–260 million; Iraq's 2025 Jaʿfari code added.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers, three new documented cases, Voices from inside, six regional cards, Leaving safely and Where to get help.
 

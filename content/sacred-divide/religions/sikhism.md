@@ -1308,7 +1308,7 @@ Checked 2026-09-27.
 8. *Encyclopaedia Britannica*, "Sikhism" — Guru Nanak (1469–1539); Adi Granth compiled 1604; martyrdoms of Guru Arjan (1606) and Guru Tegh Bahadur (1675); the Khalsa (1699); scriptural guruship (1708); Ranjit Singh (1799–1849); Singh Sabha (1873); Gurdwara Act (1925); 1984. https://www.britannica.com/topic/Sikhism
 9. Shiromani Gurdwara Parbandhak Committee, *Sikh Rehat Maryada* (the code of conduct; women's full participation). https://sgpc.net/sikh-rehat-maryada-in-english/
 
-### Added with the full page (2026-09-27)
+### Further sources
 10. *The Tribune*, "SGPC passes Rs 1,261 crore annual budget" (2024) — 2023–24 budget ₹1,138.14 crore; 2022–23 ₹988 crore. https://www.tribuneindia.com/news/amritsar/sgpc-passes-rs-1-261-crore-annual-budget-605395
 11. *The Tribune*, "SGPC passes budget of Rs 1,386.47 crore for 2025-2026 financial year" (2025) — 2024–25 ₹1,260.97 crore. https://www.tribuneindia.com/news/amritsar/sgpc-passes-budget-of-rs-1386-47-crore-for-2025-2026-financial-year/
 12. David Asper Centre for Constitutional Rights, *Multani v. Commission scolaire Marguerite-Bourgeoys*, [2006] 1 S.C.R. 256 — summary. https://jackmanlaw.utoronto.ca/asper/multani-v-commission-scolaire-marguerite-bourgeoys
@@ -1320,5 +1320,5 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (SGPC budgets 2022–2026), three more documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers (SGPC budgets 2022–2026), three more documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
 

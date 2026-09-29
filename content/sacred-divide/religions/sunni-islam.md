@@ -1447,7 +1447,7 @@ Checked 2026-09-27. Numbers and services change; check the organization's own si
 17. Tempo, NU congress elects Yahya Cholil Staquf over the incumbent (24 Dec 2021). https://en.tempo.co/read/1542799/nahdlatul-ulama-congress-elects-yahya-cholil-staquf-as-chairperson
 18. CNBC Indonesia, "Data & Fakta: Organisasi Massa Islam di RI" (LSI Denny JA survey, 2023 — ~57% of Indonesians identify with NU, ~6% with Muhammadiyah). https://www.cnbcindonesia.com/research/20250329201011-128-622800/data-fakta-organisasi-massa-islam-di-ri-nu-atau-muhammadiyah
 
-### Added for the full page (2026-09-27) — law, cases, money, voices, help
+### Further sources
 19. United Arab Emirates, Federal Decree-Law No. 31 of 2021 (Crimes and Penalties Law), in force 2 January 2022 — official text. https://uaelegislation.gov.ae/en/legislations/1529/download
 20. End Blasphemy Laws, "United Arab Emirates" — Article 312; hudud crimes removed from the penal code by Federal Decree-Law 15 of 2020. https://end-blasphemy-laws.org/countries/middle-east-and-north-africa/united-arab-emirates/
 21. UAE Cabinet, "Cabinet approves formation of 'UAE Council for Fatwa'" (2018; chaired by Abdallah bin Bayyah). https://uaecabinet.ae/en/news/cabinet-approves-formation-of-uae-council-for-fatwa
@@ -1499,6 +1499,6 @@ each: https://www.britannica.com/topic/Sunni)
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — fact-check pass 1:** al-Azhar's Grand Imam is elected and irremovable, not state-appointed; Diyanet head named (Safi Arpaguş) and mosque count updated; population corrected to 1.7–1.8 billion; the "trail ends at a ministry every time" line softened.
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers, six documented cases, Voices from inside, eight regional cards, Leaving safely and Where to get help; the 1961 al-Azhar turning point now notes the 2012 change.
+- **2026-09-27:** Checked against the sources and corrected: al-Azhar's Grand Imam is elected and irremovable, not state-appointed; Diyanet head named (Safi Arpaguş) and mosque count updated; population corrected to 1.7–1.8 billion; the "trail ends at a ministry every time" line softened.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers, six documented cases, Voices from inside, eight regional cards, Leaving safely and Where to get help; the 1961 al-Azhar turning point now notes the 2012 change.
 

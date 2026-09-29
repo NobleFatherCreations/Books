@@ -1273,7 +1273,7 @@ Checked 2026-09-27.
 6. *Encyclopaedia Britannica*, "Jainism" — Mahavira (traditional dates 599–527 BCE), 24 tirthankaras, Śvetāmbara/Digambara division and the Digambara position that women cannot attain liberation without rebirth as men; *anekantavada*; *sallekhana*. https://www.britannica.com/topic/Jainism
 7. Padmanabh S. Jaini, *Gender and Salvation: Jaina Debates on the Spiritual Liberation of Women* (University of California Press, 1991). https://www.ucpress.edu/book/9780520068209/gender-and-salvation
 
-### Added with the full page (2026-09-27)
+### Further sources
 8. Charity Commission for England and Wales, Oshwal Association of the UK (charity 267037), financial history 2021–2025. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/267037/financial-history
 9. India TV, "Gujarat: Digambar Jainmuni Shantisagar Maharaj sentenced to 10 years in jail for rape of 19-year-old" (5 Apr 2025). https://www.indiatvnews.com/gujarat/gujarat-digambar-jainmuni-shantisagar-maharaj-sentenced-to-10-years-in-jail-for-rape-of-19-year-old-2025-04-05-984097
 10. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
@@ -1282,5 +1282,5 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (Oshwal Association accounts 2021–2025), three documented cases, Voices from inside, two regional cards, Leaving safely and Where to get help.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers (Oshwal Association accounts 2021–2025), three documented cases, Voices from inside, two regional cards, Leaving safely and Where to get help.
 

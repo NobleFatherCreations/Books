@@ -496,6 +496,6 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (OneSchool Global UK accounts 2020–2024), Voices from inside, three regional cards, Leaving safely and Where to get help.
-- **2026-09-29 — scorecard added:** accounts, safeguarding and on-the-record replies are rated from the charity register, the Charity Commission's 2017 case report and the church's own 2025 response [16][17][18]; leaders' pay, police-first reporting and a removal procedure are not established from any public source.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers (OneSchool Global UK accounts 2020–2024), Voices from inside, three regional cards, Leaving safely and Where to get help.
+- **2026-09-29:** Disclosure scorecard added: accounts, safeguarding and on-the-record replies are rated from the charity register, the Charity Commission's 2017 case report and the church's own 2025 response [16][17][18]; leaders' pay, police-first reporting and a removal procedure are not established from any public source.
 

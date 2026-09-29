@@ -1293,7 +1293,7 @@ Checked 2026-09-27.
 10. Imperial Household Agency / Jingu — Sayako Kuroda appointed Saishu (supreme priestess) of Ise, 2017. https://en.wikipedia.org/wiki/Sayako_Kuroda
 11. UNESCO, "Sacred Island of Okinoshima" (2017) — women barred from landing. https://whc.unesco.org/en/list/1535/
 
-### Added with the full page (2026-09-27)
+### Further sources
 12. Diamond Online, 「神社本庁が全面敗訴、『内部告発者の懲戒解雇は無効』」 (2021) — the sale chain: ¥184m (Oct 2015), ¥212.4m (Nov 2015), ¥305m (six months later); Takao Ina's December 2016 complaint and August 2017 dismissal. https://diamond.jp/articles/-/266171
 13. NPR, "'Samurai Sword' Attack At Tokyo Shrine Leaves 3 Dead" (8 Dec 2017). https://www.npr.org/sections/thetwo-way/2017/12/08/569336750/samurai-sword-attack-at-tokyo-shrine-leaves-3-dead
 14. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
@@ -1302,5 +1302,5 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (the dormitory sale chain), three documented cases, Voices from inside, two regional cards, Leaving safely and Where to get help.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers (the dormitory sale chain), three documented cases, Voices from inside, two regional cards, Leaving safely and Where to get help.
 

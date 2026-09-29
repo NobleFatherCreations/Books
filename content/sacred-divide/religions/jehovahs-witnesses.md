@@ -1390,7 +1390,7 @@ Checked 2026-09-27.
 ### History
 12. *Encyclopaedia Britannica*, "Jehovah's Witnesses" — Russell (1870s; *Zion's Watch Tower* 1879); Rutherford; the name (1931); Nazi persecution; blood (1945); 1975; the Governing Body (1971). https://www.britannica.com/topic/Jehovahs-Witnesses
 
-### Added with the full page (2026-09-27)
+### Further sources
 13. Charity Commission for England and Wales, Watch Tower Bible and Tract Society of Britain (charity 1077961), financial history 2021–2025. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/3966490/financial-history
 14. Charity Commission, "Watchdog reports on investigation into Watch Tower Bible and Tract Society of Britain" (4 Aug 2023; marked withdrawn on GOV.UK, 10 Sept 2026). https://www.gov.uk/government/news/watchdog-reports-on-investigation-into-watch-tower-bible-and-tract-society-of-britain
 15. Courthouse News Service, "Court Guts Victim's Award in Church Molestation Case" (14 Apr 2015). https://www.courthousenews.com/court-guts-victims-award-in-church-molestation-case/
@@ -1404,5 +1404,5 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (British charity accounts 2021–2025), three more documented cases, Voices from inside, Leaving safely and Where to get help.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers (British charity accounts 2021–2025), three more documented cases, Voices from inside, Leaving safely and Where to get help.
 

@@ -1347,7 +1347,7 @@ Checked 2026-09-27.
 9. *Encyclopaedia Britannica*, "Hasidism" — the Baal Shem Tov (d. 1760); the Vilna Gaon's 1772 ban; dynastic courts; Agudath Israel founded 1912 (Katowice). https://www.britannica.com/topic/Hasidism
 10. Jerusalem Post, "Donald Trump gathering produces unlikely reunion of Satmar Rebbes" (Sept 2026 — both Teitelbaum brothers still lead their factions). https://www.jpost.com/diaspora/article-907562
 
-### Added with the full page (2026-09-27)
+### Further sources
 11. New York Focus, "New York's Ultra-Orthodox Yeshivas Challenge New State Education…" (24 Feb 2025) — more than $1bn in government funding over four years; the 2022 Regents substantial-equivalency rules; YAFFED. https://nysfocus.com/2025/02/24/new-york-yeshivas-education-funding-debate
 12. NY1, "Mayor and governor take passive approach to Hasidic school system exposé" (12 Sept 2022) — the *New York Times* investigation; Naftuli Moster, YAFFED founder. https://ny1.com/nyc/all-boroughs/politics/2022/09/12/mayor-and-governor-take-passive-approach-to-hasidic-school-system-expos-
 13. Israel Democracy Institute, "Budget Allocation to the Ultra-Orthodox Education System Under 2025 Coalition Agreements" (3 Apr 2025). https://en.idi.org.il/articles/58949
@@ -1359,5 +1359,5 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers, a third documented case, Voices from inside, Leaving safely and Where to get help.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers, a third documented case, Voices from inside, Leaving safely and Where to get help.
 

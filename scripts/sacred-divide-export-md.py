@@ -26,6 +26,7 @@ Usage: python3 scripts/sacred-divide-export-md.py [book.html]
 import json, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sacred_divide_repair as REPAIR
+import sacred_divide_edits as EDITS
 from datetime import date
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -537,7 +538,7 @@ def how_to_read(B):
 def main():
     B = P.load(BOOK)
     os.makedirs(OUT, exist_ok=True)
-    open(os.path.join(OUT, '_how-to-read.md'), 'w', encoding='utf-8').write(how_to_read(B))
+    open(os.path.join(OUT, '_how-to-read.md'), 'w', encoding='utf-8').write(EDITS.apply(how_to_read(B), '_howto', 'howto')); EDITS.check('_howto', {'howto'})
     import base64
     mark = B['CODEX_DATA']['img']['mkLg'].split(',', 1)[1]
     open(os.path.join(ROOT, 'tools/pdf/mark.png'), 'wb').write(base64.b64decode(mark))
@@ -545,6 +546,7 @@ def main():
     for rid in order:
         md, filled = md_religion(B, rid)
         md, rcounts, rcand = REPAIR.apply(md)
+        md = EDITS.apply(md, rid, 'md'); EDITS.check(rid, {'md'})
         os.makedirs(os.path.join(ROOT, 'logs/repair-log'), exist_ok=True)
         open(os.path.join(ROOT, f'logs/repair-log/{rid}.md'), 'w', encoding='utf-8').write(REPAIR.log(rid, rcounts, rcand))
         open(os.path.join(OUT, f'{rid}.md'), 'w', encoding='utf-8').write(md)

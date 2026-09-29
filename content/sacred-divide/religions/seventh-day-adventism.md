@@ -1281,7 +1281,7 @@ Checked 2026-09-27.
 9. Seventh-day Adventist Church, *28 Fundamental Beliefs* — No. 24, "Christ's Ministry in the Heavenly Sanctuary". https://www.adventist.org/beliefs/
 10. Loma Linda and the Adventist Health Studies (a Blue Zone). https://adventisthealthstudy.org/
 
-### Added with the full page (2026-09-27)
+### Further sources
 11. Charity Commission for England and Wales, British Union Conference of Seventh-day Adventists (charity 1044071), financial history 2020–2024. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/1044071/financial-history
 12. *Encyclopedia of Seventh-day Adventists*, "Davenport Scandal" — $71m missing; $17.8m in loans and $3.3m interest outstanding from church entities; the unpublished 624-page report. https://encyclopedia.adventist.org/assets/pdf/article-8IUU.pdf
 13. *EEOC v. Pacific Press Publishing Ass'n*, 676 F.2d 1272 (9th Cir. 1982) — full text. https://law.resource.org/pub/us/case/reporter/F2/676/676.F2d.1272.80-4189.html
@@ -1292,5 +1292,5 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (British Union Conference accounts 2020–2024), three documented cases, Voices from inside, Leaving safely and Where to get help.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers (British Union Conference accounts 2020–2024), three documented cases, Voices from inside, Leaving safely and Where to get help.
 

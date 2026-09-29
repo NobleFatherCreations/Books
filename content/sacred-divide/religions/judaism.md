@@ -1346,7 +1346,7 @@ Checked 2026-09-27.
 11. *Encyclopaedia Britannica*, "Judaism" — chronology (First Temple; exile 586–539 BCE; Second Temple 516 BCE–70 CE; Yavneh; Mishnah c. 200; Talmud c. 500–600; Hasidism, Haskalah, Reform). https://www.britannica.com/topic/Judaism
 12. Mishnah *Eduyot* 1:5–6 — why minority opinions are recorded (Sefaria). https://www.sefaria.org/Mishnah_Eduyot.1.5
 
-### Added with the full page (2026-09-27)
+### Further sources
 13. UK Supreme Court, *R (E) v Governing Body of JFS* [2009] UKSC 15 — case page and press summary (16 Dec 2009; 5–4 on direct discrimination). https://www.supremecourt.uk/cases/uksc-2009-0105.html · https://supremecourt.uk/uploads/Press_Summary_2009_UKSC_15_52b2ccdb06.pdf
 14. Charity Commission for England and Wales, United Synagogue (charity 242552), financial history 2020–2024. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/242552/financial-history
 15. Women of the Wall (since 1988). https://www.womenofthewall.org.il/
@@ -1357,5 +1357,5 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (United Synagogue accounts 2020–2024), three documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers (United Synagogue accounts 2020–2024), three documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
 

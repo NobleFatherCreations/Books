@@ -1278,7 +1278,7 @@ Checked 2026-09-27.
 9. Center for Human Rights in Iran, "Arrests, Imprisonments of Baha'i Soar" (Nov 2024). https://iranhumanrights.org/2024/11/arrests-imprisonments-of-bahai-soar-as-irans-war-on-religious-minority-intensifies/
 10. Bahá'í Institute for Higher Education (founded 1987 after university exclusion). https://en.wikipedia.org/wiki/Bah%C3%A1%CA%BC%C3%AD_Institute_for_Higher_Education
 
-### Added with the full page (2026-09-27)
+### Further sources
 11. Charity Commission for England and Wales, National Spiritual Assembly of the Baha'is of the United Kingdom (charity 250851), financial history 2020–2025. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/250851/financial-history
 12. USCIRF, "USCIRF Condemns Sentencing of Baha'i Women in Iran" (2022) — Mahvash Sabet and Fariba Kamalabadi, ten years each after an hour-long trial; earlier ten-year terms 2008–2018. https://www.uscirf.gov/release-statements/uscirf-condemns-sentencing-bahai-women-iran
 13. Faith to Faithless (Humanists UK) — helpline 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
@@ -1288,5 +1288,5 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (UK national assembly accounts 2020–2025), three documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers (UK national assembly accounts 2020–2025), three documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
 

@@ -1372,7 +1372,7 @@ Checked 2026-09-27.
 15. Pew Research Center, *Orthodox Christianity in the 21st Century* (2017) — ~260 million Orthodox Christians. https://www.pewresearch.org/religion/2017/11/08/orthodox-christianity-in-the-21st-century/
 16. *Encyclopaedia Britannica*, "Christianity" — chronology (Constantine's toleration 313; Theodosius' edict of 380; the seven councils 325–787; 1054; 1517). https://www.britannica.com/topic/Christianity
 
-### Added for the full page (2026-09-27)
+### Further sources
 17. House of Lords Library, "Lords spiritual in the House of Lords explained" (26 bishops of the established church). https://lordslibrary.parliament.uk/lords-spiritual-in-the-house-of-lords-explained/
 18. katholisch.de, "6,09 Milliarden – Mehr Kirchensteuern für Evangelische Kirche 2025", and "Deutsche Bischofskonferenz veröffentlicht neue Kirchensteuer-Zahlen" (Catholic €6.75bn; total €12.84bn). https://katholisch.de/artikel/68672-609-milliarden-mehr-kirchensteuern-fuer-evangelische-kirche-2025 · https://katholisch.de/artikel/69365-deutsche-bischofskonferenz-veroeffentlicht-neue-kirchensteuer-zahlen
 19. *Christianity Today*, "Southern Baptists Refused to Act on Abuse, Despite Secret List of Pastors" (May 2022). https://www.christianitytoday.com/2022/05/southern-baptist-abuse-investigation-sbc-ec-legal-survivors/
@@ -1387,6 +1387,6 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — fact-check pass 1:** openDemocracy figures now cited; "uniquely among charities" softened; Catholics 1.4 billion; *Chiles v. Salazar* (2026) added; Mullally installed March 2026.
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers, four documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
+- **2026-09-27:** Checked against the sources and corrected: openDemocracy figures now cited; "uniquely among charities" softened; Catholics 1.4 billion; *Chiles v. Salazar* (2026) added; Mullally installed March 2026.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers, four documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
 

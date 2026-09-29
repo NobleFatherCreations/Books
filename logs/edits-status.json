@@ -1,0 +1,2184 @@
+{
+ "_howto": [
+  {
+   "id": "ALL-M07",
+   "scope": "howto",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "christianity": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "catholicism": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W001",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W002",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-G001",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W003",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W004",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W005",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-G002",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-G003",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-G004",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W006",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W007",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W008",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W009",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W010",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W011",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-P001",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-G005",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-G006",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-G007",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-G008",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-G009",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W012",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W013",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-G010",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-G011",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-G012",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W014",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-G013",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-R002",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-R004",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-R006",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-R007",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-R008",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-R009",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-R010",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-R011",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-R013",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-R016",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-R017",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-R020",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-R021",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-R024",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-R029",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-L001",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-L002",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-L003",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-L004",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-L005",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-L006",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-L007",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-L008",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W015",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W016",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W017",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W018",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W019",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W020",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W021",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-P002",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-P003",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-P004",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-P005",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-P006",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W022",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W023",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W024",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W025",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W026",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W027",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W028",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W029",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W030",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-G014",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W031",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W032",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W033",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-W034",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-N001",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CATH-N002",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "eastern-orthodoxy": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "oriental-orthodoxy": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "anglicanism": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "protestant-evangelical": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "pentecostal-charismatic": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "plymouth-brethren": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "mormonism": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "jehovahs-witnesses": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "seventh-day-adventism": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "islam": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "sunni-islam": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "shia-islam": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "ahmadiyya": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "dawoodi-bohra": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 2,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "judaism": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "orthodox-hasidic-judaism": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "hinduism": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "hare-krishna": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "sikhism": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "jainism": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "buddhism": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "tibetan-buddhism": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "soka-gakkai": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "taoism": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "confucianism": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "shinto": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "zoroastrianism": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "bahai": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "scientology": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "new-age": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "unification-church": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ],
+ "indigenous": [
+  {
+   "id": "ALL-M01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M04",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-M05",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-M06",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-L01",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-N01",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  }
+ ]
+}

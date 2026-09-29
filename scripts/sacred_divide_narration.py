@@ -29,6 +29,7 @@ File format (content/sacred-divide/narration/<id>.md):
 """
 import os
 import re
+import sacred_divide_edits as EDITS
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -275,20 +276,19 @@ def _default_foryou(rid, slug):
 # ---------------------------------------------------------------- public API
 def intro(rid, slug):
     o = overrides(rid)['intro']
-    if slug in o:
-        return o[slug]
-    t = INTROS.get(slug, '')
-    return t.replace('{name}', facts(rid)['title'])
+    t = o[slug] if slug in o else INTROS.get(slug, '').replace('{name}', facts(rid)['title'])
+    return EDITS.apply(t, rid, 'narration') if t else t
 
 
 def foryou(rid, slug):
     o = overrides(rid)['for-you']
-    return o[slug] if slug in o else _default_foryou(rid, slug)
+    t = o[slug] if slug in o else _default_foryou(rid, slug)
+    return EDITS.apply(t, rid, 'narration') if t else t
 
 
 def questions(rid):
     """{n: {'why', 'example'}} — hand-written; missing ones fall back to a pointer to the page."""
-    return overrides(rid)['q']
+    return {n: {k: EDITS.apply(v, rid, 'narration') for k, v in q.items()} for n, q in overrides(rid)['q'].items()}
 
 
 def coverage():

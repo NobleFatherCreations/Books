@@ -1430,7 +1430,7 @@ Checked 2026-09-27.
 30. Faith to Faithless (Humanists UK), helpline for people leaving high-control religious groups — 020 3675 0959. https://humanists.uk/faith-to-faithless/helpline/
 31. Ex-Muslims of North America (US/Canada; 501(c)(3), founded 2013). https://exmuslims.org/about-us/
 
-### Added for the full page (2026-09-27)
+### Further sources
 32. *Encyclopaedia Britannica*, "Ibāḍīyyah" (Oman's majority; over 2.5 million). https://www.britannica.com/topic/Ibadiyyah
 33. Saudipedia, "Timeline of the Number of Pilgrims from 1970 to 2025" (GASTAT); GASTAT, Hajj 2026 (1,707,301). https://saudipedia.com/en/timeline-of-the-number-of-pilgrims-from-1970-to-2025 · https://www.stats.gov.sa/en/w/news/194
 34. Musawah, "Where Musawah Began" (Kuala Lumpur, Feb 2009). https://www.musawah.org/advocacy-toolkit/where-musawah-began/
@@ -1442,6 +1442,6 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — fact-check pass 1:** al-Azhar's Grand Imam is elected and irremovable; the Saudi Grand Mufti's appointment date confirmed; the apostasy and waqf labels now cite sources; population corrected to about 2 billion.
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers, four documented cases, Voices from inside, two regional cards, Leaving safely and Where to get help.
+- **2026-09-27:** Checked against the sources and corrected: al-Azhar's Grand Imam is elected and irremovable; the Saudi Grand Mufti's appointment date confirmed; the apostasy and waqf labels now cite sources; population corrected to about 2 billion.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers, four documented cases, Voices from inside, two regional cards, Leaving safely and Where to get help.
 

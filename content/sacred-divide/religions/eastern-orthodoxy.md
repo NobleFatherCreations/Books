@@ -1353,5 +1353,5 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (Thyateira accounts 2020–2024), five documented cases, Voices from inside, four regional cards, Leaving safely and Where to get help.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers (Thyateira accounts 2020–2024), five documented cases, Voices from inside, four regional cards, Leaving safely and Where to get help.
 

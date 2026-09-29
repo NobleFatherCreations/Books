@@ -1308,7 +1308,7 @@ Checked 2026-09-27.
 11. UNICEF, *Children Accused of Witchcraft* (2010). https://www.unicef.org/nigeria/reports/children-accused-witchcraft
 12. National Inquiry into Missing and Murdered Indigenous Women and Girls (Canada), *Reclaiming Power and Place* (2019). https://www.mmiwg-ffada.ca/final-report/
 
-### Added with the full page (2026-09-27)
+### Further sources
 13. US Department of the Interior, *Federal Indian Boarding School Initiative Investigative Report*, Vol. II (30 July 2024) — 417 schools; at least 973 deaths; at least 74 burial sites; more than $23.3bn in appropriations (FY23 dollars), 1871–1969. https://www.bia.gov/sites/default/files/media_document/doi_federal_indian_boarding_school_initiative_investigative_report_vii_final_508_compliant.pdf
 14. NPR, "Pope apologizes for 'evil' committed at Canada's Indigenous residential schools" (25 July 2022). https://www.npr.org/2022/07/25/1113498723/pope-francis-apology-canada-residential-schools-indigenous-children
 15. Indigenous Services Canada, Hope for Wellness Helpline — 1-855-242-3310, 24/7. https://www.sac-isc.gc.ca/eng/1576089519527/1576089566478
@@ -1317,5 +1317,5 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers, four documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers, four documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
 

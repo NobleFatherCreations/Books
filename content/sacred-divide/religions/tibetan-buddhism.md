@@ -1362,7 +1362,7 @@ Checked 2026-09-27.
 8. *Encyclopaedia Britannica*, "Tibetan Buddhism" — first diffusion 7th–9th c.; schools; the Karmapa as the first tulku line (13th c.); the Fifth Dalai Lama and the Ganden Phodrang (1642); 1959; the rival Karmapa recognitions (1992). https://www.britannica.com/topic/Tibetan-Buddhism
 9. Office of His Holiness the Dalai Lama — 91st birthday, 6 July 2026 (in office). https://www.dalailama.com/news/celebrating-his-holiness-the-dalai-lamas-91st-birthday
 
-### Added with the full page (2026-09-27)
+### Further sources
 10. Charity Commission for England and Wales, Rigpa Fellowship (charity 279315) — overview (Nyingma teachings) and financial history 2020–2024. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/279315/charity-overview · https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/279315/financial-history
 11. Charity Commission, "Charity regulator removes trustee from Rigpa Fellowship" (23 Sept 2019; withdrawn when the inquiry closed, 25 Nov 2020). https://www.gov.uk/government/news/charity-regulator-removes-trustee-from-rigpa-fellowship
 12. Radio Free Asia, "Trump Signs Tibetan Policy And Support Act Into Law, Prompting Warnings From Beijing" (28 Dec 2020). https://www.rfa.org/english/news/tibet/law-12282020181154.html
@@ -1374,5 +1374,5 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (Rigpa UK accounts 2020–2024), Voices from inside, four regional cards, Leaving safely and Where to get help.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers (Rigpa UK accounts 2020–2024), Voices from inside, four regional cards, Leaving safely and Where to get help.
 

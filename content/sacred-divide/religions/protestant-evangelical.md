@@ -1408,7 +1408,7 @@ Checked 2026-09-27.
 18. CCLI — Church Copyright License (royalty distribution to songwriters and publishers). https://ccli.com/
 19. Pew Research Center, *Global Christianity* (2011) — ~584 million Pentecostal and charismatic Christians. https://www.pewresearch.org/religion/2011/12/19/global-christianity-movements-and-denominations/
 
-### Added with the full page (2026-09-27)
+### Further sources
 20. Lifeway Research, "Southern Baptists See Attendance and Baptism Gains Amid Membership Declines" (5 May 2026) — 2025 Annual Church Profile: 12,331,954 members; $9.64bn undesignated receipts. https://research.lifeway.com/2026/05/05/southern-baptists-see-attendance-and-baptism-gains-amid-membership-declines/
 21. MinistryWatch, "SBC Membership Drops to Its Lowest Number in 50 Years" (Apr 2025) — 12.7 million in 2024; peak of 16.3 million in 2006. https://ministrywatch.com/sbc-membership-drops-to-its-lowest-number-in-50-years/
 22. *Christianity Today*, "SBC Membership Falls to 47-Year Low, But Church Involvement Is Up" (May 2024) — 12,982,090 members; nearly $800m to missions. https://www.christianitytoday.com/2024/05/southern-baptist-church-decline-sbc-annual-church-profile/
@@ -1424,5 +1424,5 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (Southern Baptist membership), three more documented cases, Voices from inside, Leaving safely and Where to get help.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers (Southern Baptist membership), three more documented cases, Voices from inside, Leaving safely and Where to get help.
 

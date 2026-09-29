@@ -1304,7 +1304,7 @@ Checked 2026-09-27.
 8. Brian Victoria, *Zen at War* (2nd ed., Rowman & Littlefield, 2006) — Japanese Zen institutions' support for militarism. https://rowman.com/ISBN/9780742539266/Zen-at-War-Second-Edition
 9. *Encyclopaedia Britannica*, "Buddhism" — chronology (first councils; Ashoka c. 268–232 BCE; Pali canon written 1st c. BCE; Nalanda; spread to East Asia; Tokugawa temple registration); the eight *garudhammas*; the lapse of the Theravada bhikkhuni lineage and the 1996 Sarnath revival. https://www.britannica.com/topic/Buddhism
 
-### Added with the full page (2026-09-27)
+### Further sources
 10. Charity Commission for England and Wales, The English Sangha Trust Limited (charity 231310), financial history 2021–2025. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/231310/financial-history
 11. Global News, "Thai woman allegedly seduced, blackmailed Buddhist monks" (July 2025) — 80,000 photos and videos; about 385m baht; at least nine abbots and senior monks. https://globalnews.ca/news/11290941/buddhist-monks-blackmail-sexual-relationships-thailand
 12. Gulf News / AP, "Thai police arrest woman who allegedly seduced and blackmailed Buddhist monks" (July 2025). https://gulfnews.com/world/asia/thai-police-arrest-woman-who-allegedly-seduced-and-blackmailed-buddhist-monks-1.500199158
@@ -1317,5 +1317,5 @@ Checked 2026-09-27.
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27 — full page:** added Branches, Law & state, Money in numbers (English Sangha Trust accounts 2021–2025), four documented cases, Voices from inside, Leaving safely and Where to get help.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers (English Sangha Trust accounts 2021–2025), four documented cases, Voices from inside, Leaving safely and Where to get help.
 
