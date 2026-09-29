@@ -1372,7 +1372,7 @@ Checked 2026-09-27.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [19] |
+| **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** [19] |
 | **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [20] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [21] |
 | **Childhelp** | Child abuse | US | **1-800-422-4453** [22] |

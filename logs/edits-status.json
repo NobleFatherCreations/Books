@@ -67,6 +67,960 @@
    "scope": "md",
    "found": 1,
    "state": "applied"
+  },
+  {
+   "id": "CHR-W001",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G001",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W002",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G002",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W003",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G003",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G004",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G005",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G006",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W004",
+   "scope": "md",
+   "found": 2,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W005",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W006",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G007",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G008",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G009",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W007",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G010",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W008",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G011",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G012",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G013",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W009",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W010",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W011",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W012",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W013",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W014",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G014",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W015",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W016",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G015",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G016",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-P001",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G017",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W017",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G018",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W018",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G019",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W019",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G020",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W020",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G021",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W021",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G022",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W022",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-P002",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W023",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W024",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W025",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W026",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W027",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W028",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W029",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W030",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W031",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W032",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-P003",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W033",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G023",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W034",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W035",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W036",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W037",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G024",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W038",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G025",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-P004",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G026",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G027",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G028",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G029",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G030",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G031",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G032",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G033",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G034",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G035",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G036",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W039",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-R002",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-R003",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-R004",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-R006",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-R007",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-R008",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-R009",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-R010",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-R011",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-R012",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-R015",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-R016",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-R017",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-R018",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-R019",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-R021",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-R024",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-R025",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-R027",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-R029",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-R030",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W040",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W041",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W042",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-L001",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-L002",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-L003",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-L004",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-L005",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-L006",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-L007",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-L008",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W043",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W044",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W045",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W046",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W047",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W048",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W049",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W050",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W051",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W052",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W053",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W054",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W055",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W056",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W057",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W058",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W059",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W060",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W061",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-P005",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-P006",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-P007",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-P008",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W062",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W063",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W064",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W065",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W066",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W067",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W068",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W069",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W070",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W071",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W072",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W073",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W074",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W075",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W076",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W077",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-G037",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W078",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W079",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W080",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W081",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-W082",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-N001",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "CHR-N002",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "catholicism": [
@@ -603,6 +1557,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F03",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "eastern-orthodoxy": [
@@ -1574,6 +2534,12 @@
   },
   {
    "id": "ALL-F02",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
    "scope": "md",
    "found": 1,
    "state": "applied"
@@ -2573,6 +3539,12 @@
   {
    "id": "OO-N002",
    "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
+   "scope": "md",
    "found": 1,
    "state": "applied"
   }
@@ -3651,6 +4623,12 @@
    "scope": "narration",
    "found": 1,
    "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "protestant-evangelical": [
@@ -3710,6 +4688,12 @@
   },
   {
    "id": "ALL-F02",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
    "scope": "md",
    "found": 1,
    "state": "applied"
@@ -3775,6 +4759,12 @@
    "scope": "md",
    "found": 1,
    "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "plymouth-brethren": [
@@ -3834,6 +4824,12 @@
   },
   {
    "id": "ALL-F02",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
    "scope": "md",
    "found": 1,
    "state": "applied"
@@ -3899,6 +4895,12 @@
    "scope": "md",
    "found": 1,
    "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "jehovahs-witnesses": [
@@ -3958,6 +4960,12 @@
   },
   {
    "id": "ALL-F02",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
    "scope": "md",
    "found": 1,
    "state": "applied"
@@ -4023,6 +5031,12 @@
    "scope": "md",
    "found": 1,
    "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "islam": [
@@ -4085,6 +5099,12 @@
    "scope": "md",
    "found": 1,
    "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
   }
  ],
  "sunni-islam": [
@@ -4144,6 +5164,12 @@
   },
   {
    "id": "ALL-F02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-F03",
    "scope": "md",
    "found": 0,
    "state": "no-op"
@@ -4209,6 +5235,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
   }
  ],
  "ahmadiyya": [
@@ -4268,6 +5300,12 @@
   },
   {
    "id": "ALL-F02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-F03",
    "scope": "md",
    "found": 0,
    "state": "no-op"
@@ -4333,6 +5371,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
   }
  ],
  "judaism": [
@@ -4392,6 +5436,12 @@
   },
   {
    "id": "ALL-F02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-F03",
    "scope": "md",
    "found": 0,
    "state": "no-op"
@@ -4457,6 +5507,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F03",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
   }
  ],
  "hinduism": [
@@ -4516,6 +5572,12 @@
   },
   {
    "id": "ALL-F02",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
    "scope": "md",
    "found": 1,
    "state": "applied"
@@ -4581,6 +5643,12 @@
    "scope": "md",
    "found": 1,
    "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "sikhism": [
@@ -4640,6 +5708,12 @@
   },
   {
    "id": "ALL-F02",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
    "scope": "md",
    "found": 1,
    "state": "applied"
@@ -4705,6 +5779,12 @@
    "scope": "md",
    "found": 1,
    "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "buddhism": [
@@ -4764,6 +5844,12 @@
   },
   {
    "id": "ALL-F02",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
    "scope": "md",
    "found": 1,
    "state": "applied"
@@ -4829,6 +5915,12 @@
    "scope": "md",
    "found": 1,
    "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "soka-gakkai": [
@@ -4888,6 +5980,12 @@
   },
   {
    "id": "ALL-F02",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
    "scope": "md",
    "found": 1,
    "state": "applied"
@@ -4953,6 +6051,12 @@
    "scope": "md",
    "found": 1,
    "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "confucianism": [
@@ -5012,6 +6116,12 @@
   },
   {
    "id": "ALL-F02",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
    "scope": "md",
    "found": 1,
    "state": "applied"
@@ -5077,6 +6187,12 @@
    "scope": "md",
    "found": 1,
    "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "zoroastrianism": [
@@ -5136,6 +6252,12 @@
   },
   {
    "id": "ALL-F02",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
    "scope": "md",
    "found": 1,
    "state": "applied"
@@ -5201,6 +6323,12 @@
    "scope": "md",
    "found": 1,
    "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "scientology": [
@@ -5260,6 +6388,12 @@
   },
   {
    "id": "ALL-F02",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
    "scope": "md",
    "found": 1,
    "state": "applied"
@@ -5325,6 +6459,12 @@
    "scope": "md",
    "found": 1,
    "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "unification-church": [
@@ -5387,6 +6527,12 @@
    "scope": "md",
    "found": 1,
    "state": "applied"
+  },
+  {
+   "id": "ALL-F03",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "indigenous": [
@@ -5446,6 +6592,12 @@
   },
   {
    "id": "ALL-F02",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-F03",
    "scope": "md",
    "found": 0,
    "state": "no-op"

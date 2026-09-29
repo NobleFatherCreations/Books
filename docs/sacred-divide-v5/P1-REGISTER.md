@@ -1,7 +1,7 @@
 # P1 register — every critical item across the edited volumes
 
 One line per item: where it is and what is wrong. The proposed wording, the evidence and the reason are in the per-volume file linked beside each volume. Catholicism's items are in `DISCREPANCIES.md`. Nothing listed here has been changed in the text unless the item says so.
-**11 P1 items** across 3 volumes, plus Catholicism.
+**15 P1 items** across 4 volumes, plus Catholicism.
 
 
 ## anglicanism (4) — [full file](discrepancies/anglicanism.md)
@@ -10,6 +10,13 @@ One line per item: where it is and what is wrong. The proposed wording, the evid
 - **[§26 sources 5 and 12]** Two source entries carry editor instructions that print to the reader: source 5 "— update to the latest annual report at import.", source 12 "**cite the Anglican Communion Office** at import." Proposed source 5: drop the parenthesis and cite the 2025 results as its own entry (already source [21]). Proposed source 12 addition: "Anglican Communion, 'Member Churches'. https://www.anglicancommu
 - **[§23 In closing, item 1; §7 narration (for-you structure)]** Credited the church's own synods with abolishing blasphemy law; Parliament did it (Criminal Justice and Immigration Act 2008, s.79), as §5, §8 and §20 of the same page say (F18). **Changed in wording** (ANG-W133, ANG-N002) to match the page; listed here so the owner can confirm or reject the two edits. → A factual error in the page's closing argument, con
 - **[§12 — grade basis, table format]** §12 in this volume is a table, not cards, so there is no reused grade note to rewrite. Read against each row's own content, these grades do not fit their basis (grades unchanged): - **17 Smear campaign**: graded **Contested**, but the cell itself cites IICSA's finding that survivors were disbelieved in documented cases [1][4]. The basis points to **Documented**. - **6 Gaslighting
+
+## christianity (4) — [full file](discrepancies/christianity.md)
+
+- **[§14 say-do row 3; §16 "Money out" bullet 3; §8 US row; §1/§3 unanswered question; q1 narration]** "the only charitable exemption from public financial disclosure in U.S. law", "uniquely exempt", "the only charities most Americans cannot look up", "The one charitable sector legally exempt" are all wrong as stated. §6033(a)(3)(A) also excuses the religious activities of religious orders, integrated auxiliaries and c
+- **[§22 United States, regulator]** "the IRS only for affiliated entities that file [2]"
+- **[§21 Rachael Denhollander]** "in 2025 questions were raised about her dual roles [19][20]." Source [20] (Baptist News Global, 16 Dec 2025) reports allegations against her, which she denied after publication (F11). The entry names a private individual beside unresolved allegations, without her response, in a section meant to honour insiders who spoke up. Proposed: "An abuse survivor and lawyer, she advised the South
+- **[§12 evidence-weighting rule]** Once each technique carries its own rationale (grades unchanged; rationales corrected under CHR-R002 … R030), these grades no longer match what their entries support: - **18 Stonewalling**, graded **Taught**. Leaving complaints unanswered is practice, not teaching. §19 tags the Makin Review (Documented) to it. That points to **Documented**, or to **Cultural** for the congregational h
 
 ## eastern-orthodoxy (4) — [full file](discrepancies/eastern-orthodoxy.md)
 

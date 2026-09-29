@@ -1288,7 +1288,7 @@ Checked 2026-09-27.
 | Organization | For | Where | Contact |
 |---|---|---|---|
 | **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; set hours, see website) [11] |
-| **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [12] |
+| **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** [12] |
 | **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** [13] |
 | **Humanists at Risk** | People persecuted for belief or apostasy | Global | Casework [14] |
 

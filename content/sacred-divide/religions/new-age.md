@@ -1312,7 +1312,7 @@ Checked 2026-09-27.
 | Organization | For | Where | Contact |
 |---|---|---|---|
 | **ICSA** | Former members of high-control groups; families | International | Via website [12] |
-| **Recovering from Religion** | People questioning or leaving belief systems | US and online | **(844) 368-2848** [11] |
+| **Recovering from Religion** | People questioning or leaving belief systems | US, Canada and online | **(844) 368-2848** [11] |
 | **Faith to Faithless** | People leaving high-control groups | UK | **0800 448 0748** (freephone; set hours, see website) [13] |
 | **RAINN** | Sexual assault | US | **1-800-656-4673** [14] |
 

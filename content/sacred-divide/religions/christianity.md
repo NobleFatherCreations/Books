@@ -18,13 +18,13 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | ~2.3–2.4 billion (largest religious family on earth). [ACADEMIC SOURCE: Pew, World Religion Database] |
-| Who's in charge | Bishop of Rome (1.4 billion Catholics) — Leo XIV — Robert Francis Prevost, elected May 2025 after the death of Francis |
+| Size | Christianity has ~2.3–2.4 billion adherents, the largest religious family on earth. [ACADEMIC SOURCE: Pew, World Religion Database] |
+| Who's in charge | No one leads Christianity as a whole. The largest single office is the Bishop of Rome (the pope), who leads 1.4 billion Catholics; it is held by Leo XIV (Robert Francis Prevost), elected in May 2025 after the death of Francis. |
 | Chosen by / removable by | A conclave of cardinals, every one appointed by a previous pope / No body on earth. Canon law contains no removal procedure for a pope |
-| Money in one line | Tithes and offerings (often taught as 10% pre-tax), building campaigns, missions funds, book/media sales, school tuition. |
-| Leaving in one line | Loss of community and social network; family strain; in high-control congregations, formal shunning or 'church discipline' announcements. |
+| Money in one line | The money comes from tithes and offerings (often taught as 10% pre-tax), building campaigns, missions funds, book and media sales, and school tuition. |
+| Leaving in one line | Leaving can cost a person their community and social network and strain their family, and in high-control congregations it can bring formal shunning or 'church discipline' (a formal process of censure that can end in expulsion) announcements. |
 | The unanswered question | The one charitable sector legally exempt from public accounts refuses to file voluntarily. What, exactly, would disclosure cost — and to whom? |
-| Evidence | 6 of 30 techniques sourced to a named document; grades: Taught 21, Cultural 8, Codified 1 |
+| Evidence | Six of the 30 techniques are sourced to a named document. The grades are Taught 21, Cultural 8 and Codified 1. |
 | Family | Christianity — christianity, catholicism, eastern-orthodoxy, oriental-orthodoxy, anglicanism, protestant-evangelical, pentecostal-charismatic, plymouth-brethren |
 | Last checked | 2026-09-27 |
 :::
@@ -43,9 +43,9 @@ partial: []
 
 She wakes at 4:52 without the alarm, which has been happening for about a year now. Nine minutes of lying still, then the thought arrives that she should be using this time to pray, and then the second thought, that noticing she should be praying instead of praying is its own kind of failure. She gets up.
 
-The tithe envelope is on the counter where she left it Sunday. Two hundred and forty dollars, which is ten percent, which is also the car insurance. She has done this arithmetic four times and it comes out the same way each time. Pastor Rick preached on Malachi three weeks ago — *will a man rob God* — and she remembers the particular way the room went quiet. She puts the envelope in her purse.
+The tithe envelope is on the counter where she left it Sunday. Two hundred and forty dollars, which is ten percent, which is also the car insurance. She has done this arithmetic four times and it comes out the same way each time. Pastor Rick preached on Malachi (the Old Testament book that calls withholding the tithe robbing God) three weeks ago — *will a man rob God* — and she remembers the particular way the room went quiet. She puts the envelope in her purse.
 
-At 7:15 she texts her small-group leader that she is doing fine. She is not doing fine. But Marla will pray about it, and Marla will mention it to Denise, and Denise's husband is on the elder board, and Dana has watched what happens to a woman in this church who becomes someone people are concerned about.
+At 7:15 she texts her small-group leader (the church member who leads her weekly home Bible-study group) that she is doing fine. She is not doing fine. But Marla will pray about it, and Marla will mention it to Denise, and Denise's husband is on the elder board (the lay leaders who govern the church), and Dana has watched what happens to a woman in this church who becomes someone people are concerned about.
 
 Lunch. She eats in her car so she can read something on her phone that she would not open at her desk — an article about a church in another state, a pastor, a settlement, non-disclosure agreements. Her chest does something. She closes it. On the drive back she prays for the woman in the article and then, without deciding to, prays for forgiveness for reading it.
 
@@ -69,39 +69,43 @@ The one charitable sector legally exempt from public accounts refuses to file vo
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| We are a family here. | Families do not have a membership covenant, a discipline procedure, or a category of person who is announced from the front and then not spoken to. | [PATTERN OBSERVED] |
+| We are a family here. | Families do not have a membership covenant (a signed agreement setting out a member's obligations to the church), a discipline procedure, or a category of person who is announced from the front and then not spoken to. | [PATTERN OBSERVED] |
 
 ### One cost of leaving, beside its denial
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Family and community loss | Often | Cooling of relationships; formal 'church discipline' announcements in high-control congregations | “Nobody is stopping them — that's their choice.” |
+| Family and community loss | Often | Relationships cool, and high-control congregations make formal 'church discipline' announcements. | “Nobody is stopping them — that's their choice.” |
 
 ### The strongest objection, answered
 
 **The objection.** You are generalizing from two billion people and thousands of denominations.
 
-**What is true in it.** A fair charge. There is no single Christian institution, and a Quaker meeting, a Coptic parish, and a Texas megachurch have almost nothing structurally in common. Any claim that treats them as one body is wrong.
+**What is true in it.** It is a fair charge. There is no single Christian institution, and a Quaker meeting, a Coptic parish, and a Texas megachurch have almost nothing structurally in common. Any claim that treats them as one body is wrong.
 
 **The answer.** So this profile names structures rather than the faith: the independent church with a founder-appointed board, the disclosure exemption, the specific policy. Where a claim applies only to some branches it says so, and the health section names the congregations that pass. If a sentence here reads as a claim about all Christians, it is a defect.
 
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-The world's largest religious family (~2.3–2.4 billion adherents), centered on the life, death, and resurrection of Jesus of Nazareth. Spans thousands of denominations from Catholic and Orthodox to Protestant, Pentecostal, and independent churches.
+Christianity is the world's largest religious family (~2.3–2.4 billion adherents), centered on the life, death, and resurrection of Jesus of Nazareth. It spans thousands of denominations, from Catholic and Orthodox to Protestant, Pentecostal (churches centered on the gifts of the Holy Spirit, such as healing and speaking in tongues) and independent churches.
 :::
 
-- Congregations with published budgets, independent boards, term-limited leadership, and outside abuse reporting.
-- Denominations that commissioned independent abuse investigations (e.g., the SBC's 2022 Guidepost report — commissioned under member pressure, but published). [INVESTIGATIVE REPORT]
-- Traditions of dissent from within: abolitionists, Confessing Church, sanctuary movements.
+Healthy practice here looks like congregations that publish their budgets, have independent boards and term-limited leadership, and report abuse to outside authorities.
+
+Some denominations have commissioned independent abuse investigations and published them. The Southern Baptist Convention (SBC) commissioned the 2022 report by Guidepost Solutions, an independent investigations firm, under pressure from its members, and the report was published [8]. [INVESTIGATIVE REPORT]
+
+The tradition has its own history of dissent from within: the abolitionists, the Confessing Church (German Protestants who resisted Nazi control of the churches) and the sanctuary movements.
+
+Some of that standard is already on the record. Evangelical journalists at *Christianity Today* reported in depth on the collapse of Mars Hill, a church in their own movement [11], and MinistryWatch, an evangelical watchdog, has rated ministries on donor transparency since 1998 [10]. Each is a place where members of the tradition met the standard this page applies, and each is recorded here as credit.
 
 ::: cites
-Sources for this section: [8]
+Sources for this section: [8] [10] [11]
 :::
 
 ## 5. History {#history}
 
-1st-century Roman Judea; the Jesus movement within Second Temple Judaism; canonized scriptures and creeds formed across the 2nd–4th centuries; became Roman imperial religion under Constantine and Theodosius (4th c.), fusing spiritual and state authority for the first time at scale.
+Christianity began in 1st-century Roman Judea as the Jesus movement within Second Temple Judaism (the Judaism of the period before the Jerusalem Temple was destroyed in 70 CE). Its scriptures and creeds took shape across the 2nd–4th centuries. Under Constantine and Theodosius (4th c.) it became the Roman imperial religion, fusing spiritual and state authority for the first time at scale.
 
 ### Timeline
 
@@ -109,9 +113,9 @@ Sources for this section: [8]
 c. 30–33 CE | The Jesus movement begins in Roman Judea | A spiritual claim exists with no institution, no clergy, and no treasury.
 c. 33–70 CE | Apostolic mission across the Mediterranean; house churches | Growth requires coordination — the first authority disputes appear (Acts 15, Galatians).
 c. 50–120 CE | Letters and gospels written and circulated | Texts become the reference point; whoever interprets them acquires leverage.
-c. 100–250 CE | Bishops, presbyters, and deacons formalize; persecution episodes | Leadership becomes an office rather than a charisma — offices outlive people.
+c. 100–250 CE | Bishops, presbyters (elders, the office that became the priesthood), and deacons formalize; persecution episodes | Leadership becomes an office rather than a charisma — offices outlive people.
 313–380 CE | Constantine's toleration; Theodosius makes Christianity the imperial religion | The single most consequential event in this codex: spiritual authority fuses with state coercion.
-325–787 CE | Ecumenical councils define creed and canon | Belief becomes standardized and dissent becomes prosecutable heresy.
+325–787 CE | Ecumenical councils (councils of bishops from across the church, called to settle doctrine) define creed and canon | Belief becomes standardized and dissent becomes prosecutable heresy.
 1054 / 1517 | East–West Schism; Protestant Reformation | Authority disputes become permanent institutional divisions.
 1500s–1900s | Colonial-era missions worldwide | The faith spreads bound to empire, trade, and land seizure.
 1900s | Pentecostalism, radio and television ministry, the megachurch | Charisma scales; a single leader can now reach millions with no bishop above him.
@@ -125,7 +129,7 @@ c. 100–250 CE | Bishops, presbyters, and deacons formalize; persecution episod
 
 Constantine summoned the bishops to Nicaea and paid their travel out of the imperial treasury. Men who had been an illegal sect within living memory arrived at a state council on the state's coin, to settle doctrine under the eye of an emperor who had not yet been baptised.
 
-**Why it matters.** The moment a persecuted movement acquired the machinery of the state that had persecuted it. Everything the codex documents about Christian institutional power descends from this arrangement, not from the Sermon on the Mount.
+**Why it matters.** It was the moment a persecuted movement acquired the machinery of the state that had persecuted it. Everything the codex documents about Christian institutional power descends from this arrangement, not from the Sermon on the Mount.
 :::
 
 ::: card
@@ -150,7 +154,7 @@ Sources for this section: [16]
 
 ## 6. Branches & variants {#branches}
 
-Catholic (~1.4B), Protestant/Evangelical/Pentecostal (~800M–1B), Orthodox (~220–260M), plus Restorationist and independent movements.
+The main branches are Catholic (~1.4B), Protestant, Evangelical and Pentecostal (~800M–1B) and Orthodox (~220–260M), plus Restorationist (movements that aim to restore what they see as the church of the apostles) and independent movements.
 
 ::: cites
 Sources for this section: [14] [15]
@@ -158,12 +162,12 @@ Sources for this section: [14] [15]
 
 | Branch | Size | Where authority sits |
 |---|---|---|
-| **Catholic** | ~1.4 billion baptized [14] | A pope, "judged by no one" [5] |
-| **Eastern Orthodox** | ~260 million with Oriental Orthodox [15] | Self-governing national churches and their synods |
-| **Oriental Orthodox** | Within the Orthodox total [15] | Coptic, Ethiopian, Armenian, Syriac and other patriarchates |
-| **Anglican** | A worldwide communion | Bishops and synods; in England, an established church with 26 bishops in the House of Lords [17] |
-| **Protestant / Evangelical** | Hundreds of millions, across thousands of bodies | From elected conventions to independent congregations with no one above the pastor |
-| **Pentecostal & Charismatic** | The fastest-growing segment | Often a founder and a board the founder appoints |
+| **Catholic** | The Catholic Church counts ~1.4 billion baptized members [14]. | Authority sits with a pope, who is "judged by no one" [5]. |
+| **Eastern Orthodox** | Together with the Oriental Orthodox, they number ~260 million [15]. | Authority sits with self-governing national churches and their synods (governing councils of bishops). |
+| **Oriental Orthodox** | They are counted within the Orthodox total [15]. | Authority sits with the Coptic, Ethiopian, Armenian, Syriac and other patriarchates (self-governing churches, each under its own head). |
+| **Anglican** | The Anglican churches form a worldwide communion. | Authority sits with bishops and synods. In England the church is established (recognized in law as the state church), with 26 bishops in the House of Lords [17]. |
+| **Protestant / Evangelical** | They number hundreds of millions, across thousands of bodies. | Authority ranges from elected conventions to independent congregations with no one above the pastor. |
+| **Pentecostal & Charismatic** | It is the fastest-growing segment. | Authority often sits with a founder and a board the founder appoints. |
 
 Christians number about **2.3 billion** (2020), the largest religious family on earth [13].
 
@@ -173,16 +177,16 @@ Christians number about **2.3 billion** (2020), the largest religious family on 
 
 |  |  |
 |---|---|
-| Adherents | ~2.3–2.4 billion (largest religious family on earth). [ACADEMIC SOURCE: Pew, World Religion Database] |
-| Regions | Latin America, sub-Saharan Africa, Europe, North America, rapidly growing in Asia (China, South Korea, Philippines). |
-| Trend | Declining institutional affiliation in Western Europe and North America; strong growth in sub-Saharan Africa and parts of Asia. Pentecostal/charismatic Christianity is the fastest-growing segment. |
-| Participation | Enormous gap between identity and institutional participation: many countries report majority Christian identity with single-digit weekly attendance. Adherent counts overstate how many people are actually under institutional authority. |
+| Adherents | Christianity has ~2.3–2.4 billion adherents, the largest religious family on earth. [ACADEMIC SOURCE: Pew, World Religion Database] |
+| Regions | Christians are concentrated in Latin America, sub-Saharan Africa, Europe and North America, and their numbers are growing rapidly in Asia (China, South Korea, the Philippines). |
+| Trend | Institutional affiliation is declining in Western Europe and North America, and growth is strong in sub-Saharan Africa and parts of Asia. Pentecostal and charismatic Christianity is the fastest-growing segment. |
+| Participation | The gap between identity and institutional participation is enormous: many countries report majority Christian identity with single-digit weekly attendance. Adherent counts overstate how many people are actually under institutional authority. |
 
 ### Authority
 
-- Varies by branch: episcopal hierarchies (bishops), presbyterian councils, congregational votes, or unaccountable founder-pastors.
+- Authority varies by branch. It may sit with episcopal hierarchies (governed by bishops), presbyterian councils (governed by elected elders), congregational votes, or unaccountable founder-pastors.
 - In practice, authority concentrates wherever one office controls doctrine, membership, discipline, and money simultaneously — the highest-risk configuration is the independent church with a founder who answers to a board he appointed.
-- Gatekeeping powers: baptism, communion, membership standing, marriage officiation, burial, and the label 'in good standing.'
+- The gatekeeping powers are baptism, communion, membership standing, marriage officiation, burial, and the label 'in good standing.'
 
 ### The top of the chain
 
@@ -192,10 +196,10 @@ There is no single chair. Christianity's apex is a set of thrones plus a vacuum 
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| Bishop of Rome (1.4 billion Catholics) | Leo XIV — Robert Francis Prevost, elected May 2025 after the death of Francis | A conclave of cardinals, every one appointed by a previous pope | No body on earth. Canon law contains no removal procedure for a pope |
-| Ecumenical Patriarch of Constantinople | Bartholomew I, in the office since 1991 | The Holy Synod of the Phanar | A synod, in theory; in modern practice, never |
-| Archbishop of Canterbury (Anglican Communion) | Sarah Mullally — confirmed in January and installed in March 2026, the first woman in the office, filling the vacancy left when Justin Welby resigned in 2024 over the Smyth safeguarding review | The Crown Nominations Commission | Effectively resignation only — and the resignation that created this vacancy is the record's rare counterexample |
-| Most of Protestantism | Nobody above the congregation | — | — The vacancy is not freedom: it means the only court above the pastor is the board the pastor appointed |
+| Bishop of Rome (1.4 billion Catholics) | Leo XIV (Robert Francis Prevost) was elected in May 2025 after the death of Francis. | A conclave of cardinals chooses him, and every one of them was appointed by a previous pope. | No body on earth can remove him. Canon law contains no removal procedure for a pope. |
+| Ecumenical Patriarch of Constantinople (the senior bishop of the Eastern Orthodox churches, seated in Istanbul) | Bartholomew I has held the office since 1991. | The Holy Synod of the Phanar (the patriarchate's governing council of bishops) elects him. | In theory a synod can remove him; in modern practice none has. |
+| Archbishop of Canterbury (Anglican Communion) | Sarah Mullally was confirmed in January and installed in March 2026. She is the first woman in the office, and filled the vacancy left when Justin Welby resigned in 2024 over the Smyth safeguarding review. | The Crown Nominations Commission (a Church of England committee of bishops, clergy and lay members) nominates the candidate. | In effect the holder leaves only by resigning, and the resignation that created this vacancy is the record's rare counterexample. |
+| Most of Protestantism | Nobody sits above the congregation. | — | The vacancy is not freedom: it means the only court above the pastor is the board the pastor appointed |
 
 ::: tell
 Two failure modes, side by side: thrones nobody can remove, and pulpits nobody above can review. Both are answered by the same question — who can say no to this office, and when did they last do it?
@@ -205,12 +209,12 @@ Two failure modes, side by side: thrones nobody can remove, and pulpits nobody a
 
 | Entity | Type | Holder | Holds | Why it matters to you | Receipt |
 |---|---|---|---|---|---|
-| The independent church with a founder-appointed board | Governance form | Founding or senior pastor | Doctrine, membership, discipline, and the budget, simultaneously | Whether your family belongs, and who decides | [PATTERN OBSERVED: the highest-risk configuration identified across documented collapses] |
-| IRS §501(c)(3) with the §6033 church exemption | Statutory privilege | Every U.S. congregation automatically | Full charitable status with no obligation to file the public Form 990 almost every other charity files | Your right to see where your giving went | [OFFICIAL POLICY: Internal Revenue Code] |
-| IRC §107 parsonage allowance | Statutory privilege | Ordained clergy | Housing value excludable from taxable income | The public subsidy inside your pastor's compensation | [OFFICIAL POLICY: Internal Revenue Code §107] |
-| Christian broadcasting and publishing conglomerates | Commercial | Corporate boards and author-leaders | Distribution of what most believers read and hear about their own faith | What you are taught, and by whom it is monetized | [FINANCIAL RECORD: publicly filed corporate accounts] |
-| CCLI and worship licensing | Commercial | Licensing clearinghouse and megachurch labels | Royalties every time a congregation sings a catalogued song | Your Sunday morning as another church's revenue line | [FINANCIAL RECORD: CCLI licensing system] |
-| Political voter-guide and mobilization operations | Political | Advocacy directors and party operatives | Congregational trust converted into turnout and donor data | Your vote, harvested through your pew | [INVESTIGATIVE REPORT] |
+| The independent church with a founder-appointed board | Governance form | The founding or senior pastor holds it. | The pastor controls doctrine, membership, discipline and the budget at once. | It decides whether your family belongs, and who makes that decision. | [PATTERN OBSERVED: the highest-risk configuration identified across documented collapses] |
+| IRS §501(c)(3) (the tax-code section that confers charitable status) with the §6033 church exemption | Statutory privilege | Every U.S. congregation holds it automatically. | It gives full charitable status with no obligation to file the public Form 990 that almost every other charity files. | It decides whether you can see where your giving went. | [OFFICIAL POLICY: Internal Revenue Code] |
+| IRC §107 parsonage allowance (the tax-free housing allowance for clergy) | Statutory privilege | Ordained clergy receive it. | The value of clergy housing is excluded from taxable income. | It is the public subsidy inside your pastor's compensation. | [OFFICIAL POLICY: Internal Revenue Code §107] |
+| Christian broadcasting and publishing conglomerates | Commercial | Corporate boards and author-leaders control them. | They control the distribution of what most believers read and hear about their own faith. | They shape what you are taught, and who makes money from it. | [FINANCIAL RECORD: publicly filed corporate accounts] |
+| CCLI (Christian Copyright Licensing International) and worship licensing | Commercial | A licensing clearinghouse and megachurch record labels hold it. | They collect royalties every time a congregation sings a catalogued song. | Your Sunday morning becomes another church's revenue line. | [FINANCIAL RECORD: CCLI licensing system] |
+| Political voter-guide and mobilization operations | Political | Advocacy directors and party operatives run them. | They convert congregational trust into turnout and donor data. | Your vote is harvested through your pew. | [INVESTIGATIVE REPORT] |
 
 ::: cites
 Sources for this section: [5] [6] [7] [13]
@@ -220,93 +224,93 @@ Sources for this section: [5] [6] [7] [13]
 
 | Country | What the law does | The accountability question |
 |---|---|---|
-| **United States** | Churches are tax-exempt without applying and file no public Form 990 [1][2]; clergy housing allowances are tax-free [3] | Churches are the only charities most Americans cannot look up; the Supreme Court held in 2026 that bans on conversion talk therapy face strict scrutiny [4] |
-| **England** | An established church; 26 bishops sit in the House of Lords by law [17] | The Archbishop of Canterbury resigned in 2024 after a review of the Smyth abuse [6] |
-| **Germany** | The state collects church tax for the Catholic and Protestant churches — €12.84bn in 2025 [18] | Members leave by formal civil declaration |
-| **Vatican City** | A sovereign state whose head "is judged by no one" [5] | See Catholicism |
+| **United States** | Churches are tax-exempt without applying and file no public Form 990 [1][2], and clergy housing allowances are tax-free [3]. | Churches are the only charities most Americans cannot look up; the Supreme Court held in 2026 that bans on conversion talk therapy (counseling that tries to change a person's sexual orientation or gender identity) face strict scrutiny [4]. |
+| **England** | The Church of England is an established church, and 26 of its bishops sit in the House of Lords by law [17]. | The Archbishop of Canterbury resigned in 2024 after a review of the Smyth abuse [6] |
+| **Germany** | The state collects church tax (Kirchensteuer, a surcharge on registered members' income tax) for the Catholic and Protestant churches: €12.84bn in 2025 [18]. | Members leave by making a formal civil declaration. |
+| **Vatican City** | It is a sovereign state whose head "is judged by no one" [5]. | See Catholicism |
 
 ### Who can compel an answer
 
-State charity regulators and attorneys general in the U.S., the Charity Commission for England and Wales, and civil safeguarding authorities. Congregational polity means the civil bodies are usually the only bodies — there is no bishop to appeal to, so the regulator is the appeal.
+State charity regulators and attorneys general in the U.S. can compel an answer, as can the Charity Commission for England and Wales and civil safeguarding authorities. Congregational polity (government of each church by its own members) means the civil bodies are usually the only bodies — there is no bishop to appeal to, so the regulator is the appeal.
 
 ## 9. Money {#money}
 
 ### Where it comes from
 
-- Tithes and offerings (often taught as 10% pre-tax), building campaigns, missions funds, book/media sales, school tuition.
+- The money comes from tithes and offerings (often taught as 10% pre-tax), building campaigns, missions funds, book and media sales, and school tuition.
 - In the U.S., churches are automatically tax-exempt and — unlike almost every other US charity — exempt from filing public Form 990 disclosures. [OFFICIAL POLICY: IRS §501(c)(3), §6033 church exemption]
 - Clergy housing allowances are excludable from taxable income. [OFFICIAL POLICY: IRC §107 parsonage allowance]
-- The structural result: the least financially transparent charitable sector in American law.
+- The structural result is the least financially transparent charitable sector in American law.
 
 ### Follow the money
 
 | Flow | Stated purpose | How it controls | Who benefits |
 |---|---|---|---|
-| Tithes and offerings (often taught as 10%) | Support mission and staff | Becomes a worthiness and loyalty test; guilt-driven giving from members who cannot afford it | Institution, clergy salaries, building debt |
-| Building campaigns and capital pledges | Facilities for ministry | Multi-year pledges bind members financially to an institution they may want to leave | Institution, construction and consulting vendors |
-| Unpaid volunteer labor | Service and gifting | Extraction: paid leadership, unpaid workforce; hours that crowd out outside life | Institution and its salaried staff |
-| Media, books, conferences, worship licensing | Teaching and resources | Captive-audience sales; pastor's personal IP monetized through the congregation | Individual leaders, publishers, labels |
+| Tithes and offerings (often taught as 10%) | They are said to support mission and staff. | Giving becomes a test of worthiness and loyalty, and members who cannot afford it give out of guilt. | The money goes to the institution, clergy salaries and building debt. |
+| Building campaigns and capital pledges | They are said to fund facilities for ministry. | Multi-year pledges bind members financially to an institution they may want to leave. | The institution and its construction and consulting vendors benefit. |
+| Unpaid volunteer labor | It is framed as service and the use of spiritual gifts. | It works as extraction: the leadership is paid and the workforce is not, and the hours crowd out life outside the church. | The institution and its salaried staff benefit. |
+| Media, books, conferences, worship licensing | They are offered as teaching and resources. | They are sold to a captive audience, and the pastor's personal intellectual property is monetized through the congregation. | Individual leaders, publishers and record labels benefit. |
 
 ### Pipelines this tradition shares
 
 ::: card
 #### Tithe to reserve fund
 
-**Source.** Member's income, taught as obligation
+**Source.** The money comes from members' income, and giving it is taught as an obligation.
 
 **Path.** Congregation → Denominational assessment or central treasury → Investment arm → Commercial subsidiaries and reserves
 
-**Disclosed.** Aggregate 'we use funds wisely' statements
+**Disclosed.** Only aggregate 'we use funds wisely' statements are disclosed.
 
-**Hidden.** Portfolio size, compensation, holdings
+**Hidden.** Portfolio size, compensation and holdings are hidden.
 :::
 
 ::: card
 #### State church tax
 
-**Source.** Registered members' taxable income
+**Source.** The tax is levied on registered members' taxable income.
 
 **Path.** National revenue service → Diocesan or church treasury → Institutional operations
 
-**Disclosed.** Total receipts in some jurisdictions
+**Disclosed.** Total receipts are disclosed in some jurisdictions.
 
-**Hidden.** Allocation and asset positions
+**Hidden.** Allocation and asset positions are hidden.
 :::
 
 ::: card
 #### Worship licensing
 
-**Source.** Congregations singing copyrighted material
+**Source.** The money comes from congregations that sing copyrighted material.
 
 **Path.** Licensing clearinghouse → Label owned by the originating church → Founder's estate and publishing
 
-**Disclosed.** Nothing to the congregations paying
+**Disclosed.** Nothing is disclosed to the congregations that pay.
 
-**Hidden.** Royalty flows to individuals
+**Hidden.** Royalty flows to individuals are hidden.
 :::
 
 ::: card
 #### School tuition to family leverage
 
-**Source.** Parents funding religious education
+**Source.** Parents pay for religious education.
 
 **Path.** School → Institutional network → Employment and standing leverage over the family
 
-**Disclosed.** Fee schedules
+**Disclosed.** Fee schedules are disclosed.
 
-**Hidden.** Conduct conditions attached to enrolment
+**Hidden.** The conduct conditions attached to enrolment are hidden.
 :::
 
 ::: card
 #### Aid to policy leverage
 
-**Source.** Donor congregations and public grants
+**Source.** The money comes from donor congregations and public grants.
 
 **Path.** Faith-based development organization → Recipient government or community → Legislative and protocol influence
 
-**Disclosed.** Programme outcomes
+**Disclosed.** Programme outcomes are disclosed.
 
-**Hidden.** Conditions and advocacy spending
+**Hidden.** Conditions and advocacy spending are hidden.
 :::
 
 ::: cites
@@ -322,8 +326,8 @@ Sources for this section: [1] [2] [3]
  "cite":[18]}
 ```
 
-- **Money abroad:** 28 US Christian-right groups spent at least **$280m** outside the US between 2007 and 2018 [9].
-- **What the US does not publish:** there are no church Form 990s, so no national total of church income exists [1][2]. MinistryWatch rates US ministries on donor transparency [10].
+- **Money abroad:** Between 2007 and 2018, 28 US Christian-right groups spent at least **$280m** outside the US [9].
+- **What the US does not publish:** There are no church Form 990s, so no national total of church income exists [1][2]. MinistryWatch rates US ministries on donor transparency [10].
 
 ## 10. Genealogy {#genealogy}
 
@@ -336,7 +340,7 @@ Sources for this section: [1] [2] [3]
 
 **Why that reason expired.** You live under courts, contracts, and cameras. The social function hell was built to perform is now performed by law. What remains is the residue: a threat installed in children before they can evaluate it, doing nothing but making exit feel like suicide.
 
-**Who benefits now.** Whoever needs your attendance and your money more than they need your consent. The pastor whose salary depends on giving units. The institution whose retention rate depends on your fear that leaving is fatal.
+**Who benefits now.** Anyone who needs your attendance and your money more than they need your consent benefits. So does the pastor whose salary depends on giving units, and the institution whose retention rate depends on your fear that leaving is fatal.
 :::
 
 ::: card
@@ -346,33 +350,33 @@ Sources for this section: [1] [2] [3]
 
 **What it was for.** A specific tribe was barred from owning land, so the community fed them. It was a redistribution mechanism with a defined and auditable beneficiary.
 
-**Why that reason expired.** There is no Levitical tribe, no temple, and no agrarian barter economy. Modern churches are corporations with salaried executives, and — unlike almost every other American charity — they are exempt from filing the public Form 990 that other nonprofits must file. [OFFICIAL POLICY: IRS §6033]
+**Why that reason expired.** There is no Levitical tribe (the priestly tribe of Levi, which the tithe supported), no temple, and no agrarian barter economy. Modern churches are corporations with salaried executives, and — unlike almost every other American charity — they are exempt from filing the public Form 990 that other nonprofits must file. [OFFICIAL POLICY: IRS §6033]
 
-**Who benefits now.** Senior pastors whose compensation is set by boards they appointed. Denominational headquarters funded by assessments. Publishers and media arms selling into a captive audience. You are asked to fund all of it on faith, and denied the books.
+**Who benefits now.** Senior pastors benefit when their compensation is set by boards they appointed. So do denominational headquarters funded by assessments, and publishers and media arms selling into a captive audience. You are asked to fund all of it on faith, and denied the books.
 :::
 
 ::: card
 #### 'Touch not the Lord's anointed' — leader immunity
 
-**Origin.** A line about a specific Israelite king, lifted from its narrative and generalized into a rule protecting clergy from criticism. [ACADEMIC SOURCE]
+**Origin.** The rule began as a line about a specific Israelite king, lifted from its narrative and generalized into a rule protecting clergy from criticism. [ACADEMIC SOURCE]
 
-**What it was for.** Dynastic stability in an ancient monarchy, where a challenge to the king meant civil war.
+**What it was for.** It served dynastic stability in an ancient monarchy, where a challenge to the king meant civil war.
 
 **Why that reason expired.** Your pastor is not a divinely appointed monarch and a complaint about him is not a coup. Every functioning institution on earth has an appeals process. This doctrine exists to ensure yours does not.
 
-**Who benefits now.** Any leader who would not survive scrutiny. The rule's entire utility is that it converts an accusation into a sin — which means the more serious the accusation, the more effectively it fires.
+**Who benefits now.** Any leader who would not survive scrutiny benefits. The rule's entire utility is that it converts an accusation into a sin — which means the more serious the accusation, the more effectively it fires.
 :::
 
 ::: card
 #### Wifely submission and male headship
 
-**Origin.** First-century household codes reflecting Greco-Roman patriarchal structure, written into letters and later read as timeless command. [ACADEMIC SOURCE]
+**Origin.** The teaching comes from first-century household codes (the lists of duties for husbands, wives, children and slaves in several New Testament letters), which reflected Greco-Roman patriarchal structure and were later read as timeless command. [ACADEMIC SOURCE]
 
 **What it was for.** In a world where women could not own property, testify, or divorce, these texts described the existing legal order and in places softened it.
 
 **Why that reason expired.** Women now hold property, vote, testify, and leave. Retaining the hierarchy after removing the legal context keeps only the part that harms: a wife with no doctrinal standing to refuse.
 
-**Who benefits now.** Husbands who want compliance without persuasion, and institutions that gain a private enforcement layer — a home in which someone else does the disciplining for free.
+**Who benefits now.** Husbands who want compliance without persuasion benefit, and so do institutions that gain a private enforcement layer — a home in which someone else does the disciplining for free.
 :::
 
 ::: cites
@@ -389,14 +393,14 @@ Sources for this section: [1] [2]
 
 ### Children
 
-- Infant baptism or infant dedication attaches identity before any capacity to consent; confirmation and 'age of accountability' altar calls arrive during childhood.
-- Hell teaching directed at children is the most consequential mechanism in this row: fear of eternal punishment installed before abstract reasoning develops is not a belief a child chose. [PATTERN OBSERVED]
-- Youth groups, camps, purity pledges, and 'accountability partners' create early sexual surveillance; children in some traditions confess to adults who hold community authority over their families.
+- Infant baptism or infant dedication (a service presenting a baby to God, used where infants are not baptized) attaches identity before any capacity to consent. Confirmation and 'age of accountability' (the age at which a child is held answerable to God) altar calls (invitations to come forward during a service and make a public commitment) arrive during childhood.
+- Hell teaching directed at children is the most consequential mechanism in this list: fear of eternal punishment installed before abstract reasoning develops is not a belief a child chose. [PATTERN OBSERVED]
+- Youth groups, camps, purity pledges (promises to abstain from sex until marriage), and 'accountability partners' (peers assigned to monitor each other's conduct) create early sexual surveillance; children in some traditions confess to adults who hold community authority over their families.
 
 ### Bodies
 
 - Complementarian teaching (male headship, wifely submission) is doctrine in large swaths of the tradition; where it governs marriage, it removes a woman's structural standing to refuse. [OFFICIAL POLICY: denominational statements]
-- Purity culture attached shame to female bodies specifically, then offered the institution as the remedy for the shame it created. [ACADEMIC SOURCE / FORMER MEMBER TESTIMONY]
+- Purity culture (teaching that made sexual abstinence before marriage a central measure of faithfulness) attached shame to female bodies specifically, then offered the institution as the remedy for the shame it created. [ACADEMIC SOURCE / FORMER MEMBER TESTIMONY]
 - LGBTQ members face exclusion from membership, leadership, or marriage in most conservative bodies; conversion therapy practices have been widely documented and are now restricted in many jurisdictions — though in the US the Supreme Court held in 2026 (Chiles v. Salazar) that bans on conversion talk therapy face strict First Amendment scrutiny. [GOVERNMENT REPORT / INVESTIGATIVE REPORT]
 - Abuse handling: forgiveness pressure, internal 'church discipline' instead of police reporting, and mandatory-reporting failures are documented across denominations. [COURT RECORD / GOVERNMENT REPORT]
 
@@ -444,7 +448,7 @@ You arrive in crisis and are met with overwhelming warmth. God brought you here.
 **How it shows here**
 
 - A church helps with rent, groceries, hospital visits, meals after childbirth, addiction recovery, or marriage counseling. Later, when the person questions doctrine or leadership, the response becomes: “After everything this church has done for you, this is how you act?”
-- Benevolence ministries often come with spiritual framing: “God provided this through the church.” That means gratitude is not merely owed to people — it is owed upward, to God, through the institution.
+- Benevolence ministries (a church's hardship funds for people in need) often come with spiritual framing: “God provided this through the church.” That means gratitude is not merely owed to people — it is owed upward, to God, through the institution.
 - A struggling member receives emotional support from pastors and small groups, but the support quietly assumes continued attendance, serving, tithing, baptism, confession, or submission to church authority.
 - Churches may fund mission trips, youth camps, counseling, childcare, or recovery groups, then use that investment to create loyalty: “This is your family. Don’t abandon your family.”
 
@@ -452,7 +456,7 @@ You arrive in crisis and are met with overwhelming warmth. God brought you here.
 
 **The counter.** Charity does not keep score. If the help remains help even when the recipient disagrees, leaves, stops attending, refuses conversion, refuses tithing, or criticizes leadership, then it is generosity. If the help becomes evidence in a loyalty trial, it was not charity. It was collateral.
 
-**Evidence grade.** [[Cultural]] No denomination mandates how newcomers are welcomed; intensity is congregational culture, which is why it cannot be attributed upward.
+**Evidence grade.** [[Cultural]] Benevolence help is real and widely given; whether it is later cited as a debt of loyalty is congregational practice, and no denomination sets a rule for it.
 :::
 
 ### Stage 2 · Hook {#stage-2}
@@ -460,7 +464,7 @@ You arrive in crisis and are met with overwhelming warmth. God brought you here.
 ::: stage
 **You are given a future that cannot be verified, and a rope for whenever you drift toward the door.**
 
-Heaven, streets of gold, mansions prepared, a reunion with everyone you have buried — and a delivery date after you can no longer report back. Then, whenever you drift, retrieval: we miss you, the pastor asked about you, the enemy attacks the isolated.
+Heaven is promised, with streets of gold, mansions prepared and a reunion with everyone you have buried, and its delivery date falls after you can no longer report back. Then, whenever you drift, retrieval begins: we miss you, the pastor asked about you, the enemy (Satan) attacks the isolated.
 
 *What it asks of you:* Every reward you were promised is scheduled for after the only moment you could verify it. Notice who set that schedule.
 :::
@@ -481,7 +485,7 @@ Heaven, streets of gold, mansions prepared, a reunion with everyone you have bur
 
 **The counter.** Hope becomes future faking when it is used to keep people compliant in present harm. If heaven is used to excuse unanswered abuse, poverty, exploitation, bad leadership, marital misery, or institutional secrecy, then the future reward is not comfort. It is a sedative. A promise that cannot be verified until after death is very convenient for the people collecting obedience before death.
 
-**Evidence grade.** [[Taught]] Eschatological promise and reactivation contact are taught from platform and in published material rather than imposed by rule.
+**Evidence grade.** [[Taught]] Heaven as the reward for enduring present suffering is taught from the pulpit and in published material; no rule imposes it.
 :::
 
 ::: tactic n=4
@@ -500,7 +504,7 @@ Heaven, streets of gold, mansions prepared, a reunion with everyone you have bur
 
 **The counter.** Care asks, “What happened to you?” Hoovering asks, “How do we get you back?” If the church is more interested in restoring attendance than understanding harm, then the concern is not love. It is retention.
 
-**Evidence grade.** [[Taught]] Eschatological promise and reactivation contact are taught from platform and in published material rather than imposed by rule.
+**Evidence grade.** [[Taught]] Warnings against drifting and forsaking the gathering are taught from the pulpit; the follow-up contact described here is congregational practice.
 :::
 
 ### Stage 3 · Devalue {#stage-3}
@@ -529,7 +533,7 @@ The bar moves. You tithed, now tithe with joy. You serve, now serve without reco
 
 **The counter.** That defense is exactly the hook: exalted in theory, degraded in practice. If the person is told they have divine worth but cannot trust their mind, body, heart, conscience, sexuality, or moral judgment without institutional correction, then “image of God” becomes decorative language over a system of self-erasure.
 
-**Evidence grade.** [[Taught]] Human depravity and the unreliability of the heart are taught doctrine across the conservative tradition; enforcement is homiletic, not procedural.
+**Evidence grade.** [[Taught]] Human depravity and the unreliability of the heart are taught doctrine across the conservative tradition; enforcement is homiletic (carried out through preaching), not procedural.
 :::
 
 ::: tactic n=6
@@ -548,7 +552,7 @@ The bar moves. You tithed, now tithe with joy. You serve, now serve without reco
 
 **The counter.** Humility is not the same as self-erasure. If every moral alarm is dismissed as pride, every wound is dismissed as bitterness, and every objection is dismissed as lack of faith, then humility has become a tool for disabling conscience.
 
-**Evidence grade.** [[Taught]] Human depravity and the unreliability of the heart are taught doctrine across the conservative tradition; enforcement is homiletic, not procedural.
+**Evidence grade.** [[Taught]] The replies used to reinterpret a member's experience (bitterness, spiritual attack, 'lean not on your own understanding') are taught from the pulpit and in counsel; no written rule directs them.
 :::
 
 ::: tactic n=7
@@ -566,7 +570,7 @@ The bar moves. You tithed, now tithe with joy. You serve, now serve without reco
 
 **The counter.** Theological paradox is held by the believer freely. A double bind is enforced by an authority against the believer. The test is simple: is there any faithful way to disagree and remain in good standing? If every road leads to guilt, the tension is a cage, not a mystery.
 
-**Evidence grade.** [[Taught]] Human depravity and the unreliability of the heart are taught doctrine across the conservative tradition; enforcement is homiletic, not procedural.
+**Evidence grade.** [[Taught]] Both halves of the bind are taught: test everything against Scripture and confess honestly, while disagreement and doubt are named pride or rebellion. How the two are combined is pastoral practice.
 :::
 
 ### Stage 4 · Confuse {#stage-4}
@@ -587,14 +591,14 @@ You raise a concern and become the problem. You are called divisive, bitter, pri
 **How it shows here**
 
 - Worship is engineered for peaks — some Sundays you leave certain God spoke to you; others you feel nothing, and the dryness is framed as your hidden sin or drifting heart, sending you back next week chasing the return.
-- The pastor's attention lands warmly and randomly: a hallway word, a public commendation — then months of being unseen. Members orbit the platform, working out what earned the light.
+- The pastor's attention lands warmly and randomly: a hallway word, a public commendation — then months of being unseen. Members orbit the platform (the stage from which services are led), working out what earned the light.
 - Answered prayer is God's faithfulness; unanswered prayer is timing, testing, or your unconfessed sin. Every outcome feeds continued play; no outcome ever counts against the machine.
 
 **The strongest defense.** Spiritual seasons are real; God is not a vending machine, and dry seasons mature faith.
 
 **The counter.** Seasons are real. The manipulation is the scoreboard: when every consolation is credited to the system and every desolation is billed to you, the season has been converted into a schedule of reinforcement — and the drought is doing the marketing.
 
-**Evidence grade.** [[Taught]] Doubt framed as spiritual danger is preached continuously; almost none of it appears in any governing document.
+**Evidence grade.** [[Taught]] The readings of spiritual highs and dry seasons, and of answered and unanswered prayer, are taught from the pulpit; no governing document sets them out.
 :::
 
 ::: tactic n=9
@@ -604,7 +608,7 @@ You raise a concern and become the problem. You are called divisive, bitter, pri
 
 **How it shows here**
 
-- You are told, “Just accept Jesus.” Then acceptance becomes baptism, church membership, tithing, serving, submission to leaders, small group attendance, evangelism, purity, correct doctrine, and never “backsliding.”
+- You are told, “Just accept Jesus.” Then acceptance becomes baptism, church membership, tithing, serving, submission to leaders, small group attendance, evangelism, purity, correct doctrine, and never “backsliding” (falling away from faith).
 - You ask a theological question. First they say, “Read the Bible.” You do. Then they say, “You need the Spirit.” You pray. Then they say, “You need humility.” You soften. Then they say, “The fact that you still struggle shows rebellion.”
 - Abuse survivors are told to forgive. When they forgive, they are told to reconcile. When they refuse reconciliation, they are told their forgiveness was not real.
 
@@ -612,7 +616,7 @@ You raise a concern and become the problem. You are called divisive, bitter, pri
 
 **The counter.** Growth is not the problem. The problem is approval that never arrives. If every completed act of obedience only reveals another hidden test, then discipleship has become a treadmill.
 
-**Evidence grade.** [[Taught]] Doubt framed as spiritual danger is preached continuously; almost none of it appears in any governing document.
+**Evidence grade.** [[Taught]] The rising list of expectations (baptism, membership, tithing, serving, forgiveness and then reconciliation) is taught in preaching and discipleship; no document fixes when the standard has been met.
 :::
 
 ::: tactic n=10
@@ -623,14 +627,14 @@ You raise a concern and become the problem. You are called divisive, bitter, pri
 **How it shows here**
 
 - “God’s will” is kept vague enough to justify almost anything: staying in a bad marriage, leaving a job, giving money, forgiving abuse, joining ministry, or remaining silent.
-- Churches say salvation is by grace, but also warn that lack of fruit may prove you were never saved.
+- Churches say salvation is by grace, but also warn that lack of fruit (visible evidence of a changed life) may prove you were never saved.
 - Leaders say submission does not mean abuse, but when abuse is reported, victims are told to submit, forgive, reconcile, or avoid division.
 
 **The strongest defense.** Spiritual life contains mystery; not everything can be reduced to rigid formulas.
 
 **The counter.** Mystery becomes strategic ambiguity when leaders get clarity for your obligations and mystery for their accountability. If rules are clear only when applied downward, vagueness is serving power.
 
-**Evidence grade.** [[Taught]] Doubt framed as spiritual danger is preached continuously; almost none of it appears in any governing document.
+**Evidence grade.** [[Taught]] The open uses of 'God's will', and the warning that a lack of fruit may show a person was never saved, are taught from the pulpit; no governing document defines them.
 :::
 
 ::: tactic n=11
@@ -649,7 +653,7 @@ You raise a concern and become the problem. You are called divisive, bitter, pri
 
 **The counter.** Unity is not silence. If the institution wounds people and then calls the bleeding person divisive for showing the wound, it is projecting its own violence onto the victim.
 
-**Evidence grade.** [[Cultural]] Warnings about outside manipulation are widespread teaching, not policy — unattributable to any single body. *(sourced)*
+**Evidence grade.** [[Cultural]] Accusing critics and wounded members of the division, pride and fear the institution itself produces is observed practice, not policy, and cannot be attributed to any single body. *(sourced)*
 :::
 
 ::: tactic n=12
@@ -668,7 +672,7 @@ You raise a concern and become the problem. You are called divisive, bitter, pri
 
 **The counter.** Protecting against false accusations does not require attacking the wounded. If the institution’s first instinct is to defend its reputation, question the victim’s motives, and frame exposure as division, then unity has become a shield for rot.
 
-**Evidence grade.** [[Taught]] Doubt framed as spiritual danger is preached continuously; almost none of it appears in any governing document.
+**Evidence grade.** [[Taught]] Responses that recast a report of abuse as bitterness, division or an attack by the enemy are preached and repeated in congregations; no governing document directs them.
 :::
 
 ::: tactic n=13
@@ -707,7 +711,7 @@ Your friends are here. Your childcare is here. Your kids' school, your small gro
 
 **How it shows here**
 
-- Christianity can isolate through warnings against “the world,” “bad company,” “unequally yoked” relationships, secular media, non-Christian dating, non-Christian therapy, and friendships that “pull you away from God.”
+- Christianity can isolate through warnings against “the world,” “bad company,” “unequally yoked” relationships (a believer bound, above all in marriage, to a non-believer), secular media, non-Christian dating, non-Christian therapy, and friendships that “pull you away from God.”
 - A believer who starts questioning may be told to stop watching certain videos, stop reading critics, stop spending time with ex-Christians, and instead return to Scripture, prayer, church, and pastoral counsel.
 - The church may frame isolation as protection: secular friends are tempting you, doubters are infecting you, culture is deceiving you, and Satan is using outsiders to separate you from the body of Christ.
 - Even family can be re-ranked. Biological family becomes secondary to “church family,” especially if relatives question the church’s influence.
@@ -736,7 +740,7 @@ Your friends are here. Your childcare is here. Your kids' school, your small gro
 
 **The counter.** Counsel becomes triangulation when every “independent” voice is institutionally pre-loaded to return you to obedience. If every elder, mentor, spouse, friend, and Bible verse points back to the same authority structure, then you are not receiving counsel. You are being surrounded.
 
-**Evidence grade.** [[Taught]] Separation from the world is scriptural teaching applied at congregational discretion, with no denominational rule requiring it.
+**Evidence grade.** [[Taught]] Sending a questioner to elders, mentors and family who repeat the same counsel is taught as seeking godly counsel and carried out at congregational discretion; no denominational rule requires it.
 :::
 
 ### Stage 6 · Extract {#stage-6}
@@ -744,7 +748,7 @@ Your friends are here. Your childcare is here. Your kids' school, your small gro
 ::: stage
 **Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
 
-Ten percent, then offerings, then the building fund, then the mission fund. Volunteer hours that would be a second job. Your mother phoning about your soul because someone at church mentioned you. Your identity dissolved into prayer warrior, man of God, Proverbs 31 woman. Ask where the money goes and hear trust the leadership.
+It starts with ten percent, then offerings, then the building fund, then the mission fund. Volunteer hours add up to a second job. Your mother phones about your soul because someone at church mentioned you. Your identity dissolves into prayer warrior, man of God, Proverbs 31 woman (the ideal wife of Proverbs 31). Ask where the money goes and you hear "trust the leadership".
 
 *What it asks of you:* Add up what you have given in money and unpaid hours over ten years. Then ask what document you were ever shown in return.
 :::
@@ -765,7 +769,7 @@ Ten percent, then offerings, then the building fund, then the mission fund. Volu
 
 **The counter.** Care listens before it corrects. FLYING MONKEYS arrive with a conclusion already installed: return, repent, stop talking, forgive leadership. If the people “checking in” are really delivering the institution’s message, they are not shepherds. They are messengers with soft voices.
 
-**Evidence grade.** [[Taught]] Giving, service, and identity expectations are taught rather than codified — except U.S. financial opacity, which is statutory and separately sourced.
+**Evidence grade.** [[Taught]] Members pressing a critic or survivor to return, forgive and stop talking is taught as pursuing the wandering sheep; the pressure itself is congregational practice with no written rule.
 :::
 
 ::: tactic n=17
@@ -784,7 +788,7 @@ Ten percent, then offerings, then the building fund, then the mission fund. Volu
 
 **The counter.** Protecting unity does not require assassinating the character of the wounded. If the church’s first response to harm is to explain why the victim cannot be trusted, the institution is not defending truth. It is defending itself.
 
-**Evidence grade.** [[Taught]] Giving, service, and identity expectations are taught rather than codified — except U.S. financial opacity, which is statutory and separately sourced.
+**Evidence grade.** [[Taught]] The labels applied to critics and survivors (bitter, divisive, rebellious, under attack) are taught from the pulpit and repeated in congregations; no written rule directs their use.
 :::
 
 ::: tactic n=18
@@ -803,7 +807,7 @@ Ten percent, then offerings, then the building fund, then the mission fund. Volu
 
 **The counter.** Confidentiality protects victims. Stonewalling protects institutions. If “process” produces silence for the harmed and protection for the powerful, it is not due process. It is delay dressed as wisdom.
 
-**Evidence grade.** [[Taught]] Giving, service, and identity expectations are taught rather than codified — except U.S. financial opacity, which is statutory and separately sourced.
+**Evidence grade.** [[Taught]] Leaving complaints unanswered is leadership practice rather than teaching; the Makin Review (section 19) records the Church of England failing to act on abuse for decades.
 :::
 
 ::: tactic n=19
@@ -822,7 +826,7 @@ Ten percent, then offerings, then the building fund, then the mission fund. Volu
 
 **The counter.** A choice made under fear of hell, social loss, spiritual shame, or family disappointment is not clean consent. If the only acceptable yes is public and the no is treated as rebellion, the institution has manufactured agreement.
 
-**Evidence grade.** [[Taught]] Giving, service, and identity expectations are taught rather than codified — except U.S. financial opacity, which is statutory and separately sourced.
+**Evidence grade.** [[Taught]] The teaching that shapes these choices (hell, sacrifice, male headship, forgiveness) is preached and published; the choices it produces are then presented as free.
 :::
 
 ::: tactic n=20
@@ -841,7 +845,7 @@ Ten percent, then offerings, then the building fund, then the mission fund. Volu
 
 **The counter.** Grace becomes TRAUMA BONDING when the institution manufactures the shame it then relieves. If the same system wounds your conscience and then sells itself as the only place you can be clean again, the comfort is part of the chain.
 
-**Evidence grade.** [[Taught]] Hell taught to children alongside divine love, in curricula and from platform, across most of the conservative tradition. *(sourced)*
+**Evidence grade.** [[Taught]] Hell is taught to children alongside divine love, in curricula and from the platform, across most of the conservative tradition. *(sourced)*
 :::
 
 ::: tactic n=21
@@ -860,7 +864,7 @@ Ten percent, then offerings, then the building fund, then the mission fund. Volu
 
 **The counter.** Surrender becomes LEARNED HELPLESSNESS when every human action is labeled pride unless it aligns with leadership. If prayer replaces protection and forgiveness replaces accountability, helplessness has been spiritualized.
 
-**Evidence grade.** [[Taught]] Giving, service, and identity expectations are taught rather than codified — except U.S. financial opacity, which is statutory and separately sourced.
+**Evidence grade.** [[Taught]] The counsel to pray, wait, forgive and trust leadership in place of acting is taught from the pulpit and in pastoral counsel; no written rule requires it.
 :::
 
 ::: tactic n=22
@@ -879,7 +883,7 @@ Ten percent, then offerings, then the building fund, then the mission fund. Volu
 
 **The counter.** Shepherding becomes BENEVOLENT CONTROL when protection removes agency. If care always leads back to obedience, silence, purity, submission, or institutional loyalty, then the shepherd’s staff is also a hook.
 
-**Evidence grade.** [[Taught]] Male headship and wifely submission taught as doctrine in denominational statements; enforcement is congregational. *(sourced)*
+**Evidence grade.** [[Taught]] Male headship and wifely submission are taught as doctrine in denominational statements; enforcement is congregational. *(sourced)*
 :::
 
 ::: tactic n=23
@@ -891,7 +895,7 @@ Ten percent, then offerings, then the building fund, then the mission fund. Volu
 
 - Adult believers are called sheep who need shepherds, children who need spiritual fathers, or immature Christians who must submit to elders.
 - Members are told not to trust their hearts, desires, doubts, or understanding.
-- Women may be treated as needing male covering, protection, or leadership.
+- Women may be treated as needing male covering (spiritual protection and authority held by a husband or male leader), protection, or leadership.
 - Young adults are monitored in dating, sexuality, friendships, money, church attendance, and doctrine as though adulthood does not exist outside pastoral approval.
 
 **The strongest defense.** Christianity uses family and shepherd imagery to describe loving spiritual care.
@@ -918,7 +922,7 @@ Ten percent, then offerings, then the building fund, then the mission fund. Volu
 
 **The counter.** A new identity becomes IDENTITY EROSION when it requires the death of self-trust. If “in Christ” means your anger, body, conscience, grief, sexuality, curiosity, and boundaries must be supervised by the church, then the old self was not redeemed. It was replaced.
 
-**Evidence grade.** [[Taught]] Giving, service, and identity expectations are taught rather than codified — except U.S. financial opacity, which is statutory and separately sourced.
+**Evidence grade.** [[Taught]] The replacement identities (sinner, servant, disciple, the 'biblical worldview') are taught in preaching and discipleship material; no rule imposes them.
 :::
 
 ::: tactic n=25
@@ -938,7 +942,7 @@ Ten percent, then offerings, then the building fund, then the mission fund. Volu
 
 **The counter.** Forgiveness becomes SPIRITUAL BYPASSING when it arrives before truth, safety, accountability, and anger. If the victim must become Christlike before the offender becomes honest, spirituality is protecting the wrong person.
 
-**Evidence grade.** [[Taught]] Giving, service, and identity expectations are taught rather than codified — except U.S. financial opacity, which is statutory and separately sourced.
+**Evidence grade.** [[Taught]] The phrases used to meet harm with forgiveness and hope ('forgive seventy times seven', 'God will use it for good') are taught from the pulpit and in counsel; no written rule directs their use.
 :::
 
 ::: tactic n=26
@@ -986,7 +990,7 @@ When you become inconvenient — a whistleblower, a departing staff member, a me
 
 **The counter.** Spiritual danger becomes MANUFACTURED CRISIS when fear is used to rush obedience. If every disagreement becomes demonic attack and every critique becomes persecution, the church has turned anxiety into governance.
 
-**Evidence grade.** [[Cultural]] Departure is handled by congregations individually; the same act produces expulsion in one church and nothing in another.
+**Evidence grade.** [[Cultural]] Crisis framing (spiritual warfare, end-times prophecy, persecution and culture-war panic) is preached and repeated in congregational culture; no governing body sets it.
 :::
 
 ::: tactic n=28
@@ -1014,7 +1018,7 @@ When you become inconvenient — a whistleblower, a departing staff member, a me
 ::: stage
 **Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to God.**
 
-A new family in your row within a month. A new volunteer on your team. And nobody is responsible for any of it, because every rule was God's, and God does not appear at members' meetings.
+A new family sits in your row within a month, and a new volunteer joins your team. And nobody is responsible for any of it, because every rule was God's, and God does not appear at members' meetings.
 
 *What it asks of you:* They will tell you the rules are not theirs. Ask who wrote the employment contracts, then, and who signs the cheques.
 :::
@@ -1035,7 +1039,7 @@ A new family in your row within a month. A new volunteer on your team. And nobod
 
 **The counter.** Continuity becomes REPLACEMENT when the institution fills your role faster than it repairs your wound. If the machine keeps running by installing another body where yours collapsed, the ministry has revealed what it valued.
 
-**Evidence grade.** [[Cultural]] Replacement and the attribution of authority to Scripture are practice and rhetoric, with no body that could be held to either.
+**Evidence grade.** [[Cultural]] Filling a departed member's roles quickly is congregational practice; no written rule directs it.
 :::
 
 ::: tactic n=30
@@ -1047,7 +1051,7 @@ A new family in your row within a month. A new volunteer on your team. And nobod
 
 - A pastor never explicitly says, “Shun her,” but preaches about wolves, divisive people, bitterness, rebellion, gossip, and protecting the flock. The congregation understands who he means.
 - A church does not officially force unpaid labor, but sermons about sacrifice, spiritual gifts, and “not being a consumer” make exhausted members feel sinful for saying no.
-- Abuse survivors are not formally silenced. They are simply told to follow Matthew 18, avoid gossip, forgive, protect unity, and trust leadership. The institution can later say, “We never told them not to speak.”
+- Abuse survivors are not formally silenced. They are simply told to follow Matthew 18 (the passage that sets out steps for confronting a fellow believer privately before involving the church), avoid gossip, forgive, protect unity, and trust leadership. The institution can later say, “We never told them not to speak.”
 - A woman is not openly commanded to stay in abuse. She is told to honor marriage, submit, forgive, pray, seek counsel, avoid bitterness, and trust God. The pressure is theological, but the church can deny coercion.
 - A queer person is told they are loved, welcome, and made in God’s image — while every pathway to actual belonging requires celibacy, silence, repentance, or identity suppression.
 
@@ -1055,7 +1059,7 @@ A new family in your row within a month. A new volunteer on your team. And nobod
 
 **The counter.** Forgiveness becomes PLAUSIBLE DENIABILITY when it is preached generally but applied strategically to silence victims. “No one forced you” is hollow when leaving means losing friends, family approval, ministry identity, and spiritual safety. If the institution repeatedly produces the same harms while calling each one a local misuse, then “bad leaders” are not an exception. They are the expendable layer protecting the system.
 
-**Evidence grade.** [[Cultural]] Replacement and the attribution of authority to Scripture are practice and rhetoric, with no body that could be held to either.
+**Evidence grade.** [[Cultural]] Attributing authority to Scripture is rhetoric, and the pressure described here is informal by design, so no body can be held to it.
 :::
 
 ::: cites
@@ -1064,46 +1068,162 @@ Sources for this section: [1] [2]
 
 ## 13. The loops {#loops}
 
+::: lede
+The seven loops below show how the practices connect, so that each step makes the next one easier and the last step feeds the first. The loops are analysis built from findings recorded elsewhere on this page [PATTERN OBSERVED]; each step names the section or technique where its fact is recorded.
+:::
+
 ::: card
 #### 1 · Money to Doctrine to Money
 
-Tithing taught as covenant obligation, interpreted by the office that receives it, funding the seminary that trains the next interpreter.
+Tithing is taught as a covenant obligation, the office that receives it interprets it, and the money funds the seminary that trains the next interpreter.
+
+**How it runs.**
+
+1. Tithing is taught as a covenant obligation, often as 10% of pre-tax income (sections 1 and 10).
+2. The obligation is preached by the pastor whose salary it funds; in the composite day, the pastor preached on Malachi's "will a man rob God" (sections 2 and 10).
+3. Giving becomes a test of worthiness and loyalty, and attendance and giving are tracked (sections 9 and 14).
+4. The money pays clergy salaries, building debt and denominational assessments, and in the United States no church files a public Form 990 (sections 7 and 9).
+5. Senior pastors whose pay is set by boards they appointed go on teaching the obligation (sections 10 and 16).
+
+**Techniques that feed it.** [26 · Financial Control](#t-26), [2 · Weaponized Generosity](#t-2), [3 · Future Faking](#t-3), [10 · Strategic Ambiguity](#t-10).
+
+**Why it closes.** The office that teaches the obligation also receives the money and, in the independent church, sets its own pay through a board it appointed. No public return shows where the money went, so the giver funds it on faith and is denied the books (section 10).
+
+**Where it could be broken, and by whom.** It weakens wherever accounts are published. Section 20 names voluntary, audited, member-facing accounts by the major U.S. denominations as the change that would revise this page's financial findings, and section 5 records that the Form 990 exemption is a statute that can be amended. A member can ask for the budget and the senior pastor's total pay before giving. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** In section 2, Dana's tithe envelope holds two hundred and forty dollars, "which is ten percent, which is also the car insurance".
 :::
 
 ::: card
 #### 2 · Fear to Dependence to Fear
 
-Hell taught to children, relief available only through continued participation, and the parents transmit it without any instruction to do so.
+Hell is taught to children, relief is available only through continued participation, and parents transmit it without any instruction to do so.
+
+**How it runs.**
+
+1. Hell teaching reaches children before abstract reasoning develops, through curricula, altar calls and camps (section 11; technique 20).
+2. The believer is taught that the heart is deceitful, and doubt is treated as evidence that something is wrong with the doubter (techniques 5 and 6).
+3. Relief comes from the same pulpit: worship, forgiveness, altar prayer and community (technique 20).
+4. Dry seasons and unanswered prayer are billed to the believer's hidden sin, which sends them back the next week (technique 8).
+5. Parents formed this way answer their own children's questions the same way (section 2).
+
+**Techniques that feed it.** [20 · Trauma Bonding](#t-20), [5 · Devaluation](#t-5), [8 · Intermittent Reinforcement](#t-8), [27 · Manufactured Crisis](#t-27), [13 · Normalization / Desensitization](#t-13).
+
+**Why it closes.** The fear and the relief come from the same source, so each relief renews the need for the next. Section 10 records hell as a threat "installed in children before they can evaluate it", and a threat learned that early does not need the institution to repeat it.
+
+**Where it could be broken, and by whom.** It weakens where a child meets the teaching only when able to weigh it, and where a parent answers a child's question without the threat. That lies with parents, and with the churches that write children's curricula. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** In section 2, Dana's eleven-year-old daughter asks whether her grandfather is in hell and understands from the answer "that the answer is yes and that asking again is not permitted".
 :::
 
 ::: card
 #### 3 · Children to Members to Children
 
 Church schools, homeschool networks, and youth programmes produce adults whose entire framework was supplied by the institution they now fund.
+
+**How it runs.**
+
+1. Infant baptism or infant dedication attaches identity before any capacity to consent (section 11).
+2. Youth groups, camps, purity pledges and accountability partners shape how a child sees their body and their doubts (section 11).
+3. Church-run schools and curricula in some contexts narrow science, history and sexuality education, and the tuition parents pay can carry conduct conditions (sections 9 and 11).
+4. A teenager "chooses" baptism after years of hell teaching, altar calls and family expectation (technique 19).
+5. As adults they give and volunteer, and bring their own children for baptism or dedication (sections 9 and 11).
+
+**Techniques that feed it.** [19 · Manufactured Consent](#t-19), [13 · Normalization / Desensitization](#t-13), [20 · Trauma Bonding](#t-20), [24 · Identity Erosion](#t-24).
+
+**Why it closes.** Each generation is enrolled before it can consent and formed before it can compare, and then it funds the formation of the next. The loop does not need anyone to decide to continue it.
+
+**Where it could be broken, and by whom.** It weakens where commitment waits until a young person can weigh it, and where a young person can hear the strongest case against what they were taught. That choice sits with parents, and with the schools and youth programmes that set the terms. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Technique 19 describes a teenager who "chooses" baptism after years of hell teaching, altar calls, youth-camp emotion and family expectation.
 :::
 
 ::: card
 #### 4 · Aid to Legitimacy to Leverage to Aid
 
 Faith-based aid and hospital networks buy public standing, standing sustains the disclosure exemption, and the exemption raises the revenue.
+
+**How it runs.**
+
+1. Faith-based aid and development organizations hold major humanitarian contracts, and the relief work is real (section 16).
+2. That work earns public standing, and the public funds the tax exemption (section 16).
+3. The exemption gives churches full charitable status without the public Form 990 almost every other charity files (sections 7 and 9).
+4. Money raised without disclosure funds campaigns abroad: 28 US Christian-right groups spent at least $280m outside the US between 2007 and 2018 (sections 9 and 16).
+5. In some contexts aid arrives inside a religious framework that recipients cannot refuse without losing the service (section 16).
+
+**Techniques that feed it.** [2 · Weaponized Generosity](#t-2), [22 · Benevolent Control](#t-22), [26 · Financial Control](#t-26), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** The good work is the source of the standing that keeps the accounts closed, and the closed accounts make it impossible to see how much of the money goes to aid and how much to leverage.
+
+**Where it could be broken, and by whom.** It weakens where donors and governments require conditions and advocacy spending to be disclosed (section 9, aid pipeline), and where Congress amends the exemption; section 5 records that it "is a statute, not a law of nature". This paragraph is analysis, not a documented finding.
+
+**An example from this page.** openDemocracy's 2020 investigation found legal and legislative campaigns against LGBTQ rights and reproductive access funded from the US in African, Eastern European and Latin American countries, framed as family support (section 16).
 :::
 
 ::: card
 #### 5 · Unpaid Labor to Assets to Power to More Labor
 
 Volunteers build the building, the corporation holds the deed, and the asset base secures the next campaign.
+
+**How it runs.**
+
+1. Members give unpaid hours to childcare, worship, setup, youth work and outreach, framed as serving the Lord (techniques 13 and 26).
+2. The leadership is paid and the workforce is not (section 9).
+3. Building campaigns bind members to multi-year pledges (section 9).
+4. The assets are held by the institution, and volunteers have no equity in what their hours build (section 16).
+5. When a volunteer burns out and leaves, the role is refilled and called "God providing" (technique 29).
+
+**Techniques that feed it.** [26 · Financial Control](#t-26), [13 · Normalization / Desensitization](#t-13), [19 · Manufactured Consent](#t-19), [29 · Replacement](#t-29).
+
+**Why it closes.** Value flows one way, from labor to title, and the people who produce it hold no office that decides how it is used. Refusing is treated as spiritual failure (technique 26).
+
+**Where it could be broken, and by whom.** It weakens where a volunteer can say no without loss of standing, and where treasurers and finance volunteers decline to sign off on accounts they have not been allowed to see in full (section 18). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Technique 28 describes a volunteer who gave years of unpaid labor and was removed from ministry after raising concerns.
 :::
 
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
-Founder-pastor falls, church is renamed or dissolved, the same network platforms him again within two years.
+A founder-pastor falls, the church is renamed or dissolved, and the same network platforms him again within two years.
+
+**How it runs.**
+
+1. Allegations about a founder are exposed by journalists or by a later investigation rather than by elders (sections 14 and 19).
+2. By the time findings arrive, the founder has resigned, left or died; the RZIM and Willow Creek findings came after the founders had left or died (section 19).
+3. The church rebrands, dissolves or carries on; Mars Hill's churches closed (section 19).
+4. The architecture stays: founder-pastors of independent churches with boards they appointed and no denomination above them (section 14).
+5. The next case arises in a church with the same structure (section 14, prediction).
+
+**Techniques that feed it.** [18 · Silent Treatment / Stonewalling](#t-18), [12 · DARVO](#t-12), [25 · Spiritual Bypassing](#t-25), [29 · Replacement](#t-29), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** Accountability reaches the individual and stops there. Where no body sits above the pastor, the only court is the board the pastor appointed (section 7), so the structure that produced the case survives it.
+
+**Where it could be broken, and by whom.** Section 7 names the question that would break it: who can say no to this office, and when did they last do it? It weakens where a congregation places an independent body above the pastor, and where state regulators and attorneys general compel an answer, since under congregational polity they are usually the only bodies that can (section 8). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Mars Hill Church in Seattle, with some 15 locations, dissolved in 2014 after its founder resigned, and "no body above the founder had existed to act sooner" (section 19).
 :::
 
 ::: card
 #### 7 · Persecution to Solidarity to Insulation to Unaccountability
 
 Genuine hostility toward Christians in some parts of the world is cited to reclassify domestic financial questions as attacks on the faith.
+
+**How it runs.**
+
+1. Persecution narratives and culture-war panic are preached as spiritual danger (technique 27).
+2. A question about money, abuse or leadership is recast as an attack by the enemy or as persecution (techniques 12 and 27).
+3. The person asking is labeled bitter, divisive or under demonic attack (technique 17).
+4. Members close ranks and carry the message: forgive, stop gossiping, protect unity (technique 16).
+5. The question goes unanswered, and "We have nothing to hide" stands beside an exemption from disclosure (section 14).
+
+**Techniques that feed it.** [27 · Manufactured Crisis](#t-27), [17 · Smear Campaign](#t-17), [16 · Flying Monkeys](#t-16), [11 · Projection](#t-11), [12 · DARVO](#t-12).
+
+**Why it closes.** Each new question can be read as more proof of hostility, so the questions strengthen the solidarity that shields the institution from them.
+
+**Where it could be broken, and by whom.** It weakens when members treat a financial question as a request for a document rather than an attack. Section 20 records people inside the tradition doing this: evangelical journalists investigating their own movement, and MinistryWatch rating ministries on transparency. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Technique 12 describes a congregation told to pray for the pastor's "persecution" while the victim is pressured to stay silent for the sake of the church's witness.
 :::
 
 ## 14. Say versus do {#say-do}
@@ -1118,9 +1238,9 @@ Genuine hostility toward Christians in some parts of the world is cited to recla
 
 ### Accountability or theatre?
 
-**Last time the chair ran.** Mars Hill, Willow Creek, Hillsong, RZIM — four collapses, four removals, four identical architectures left intact.
+**Last time the chair ran.** At Mars Hill, Willow Creek, Hillsong and RZIM there were four collapses and four removals, and four identical architectures were left intact.
 
-**Who holds the chair now.** Founder-pastors of independent churches with boards they appointed and no denomination above them.
+**Who holds the chair now.** Founder-pastors of independent churches hold it, with boards they appointed and no denomination above them.
 
 **Prediction.** The next one will be exposed by journalists rather than elders, the church will rebrand, and the man will be preaching somewhere inside three years.
 
@@ -1128,26 +1248,26 @@ Genuine hostility toward Christians in some parts of the world is cited to recla
 
 | Term | What it means inside | What it does | Said plainly |
 |---|---|---|---|
-| Forgiveness (as an instruction) | Releasing a wrong against you. | Central to the faith. As an instrument it is deployed early, at the victim, and frequently as a substitute for any consequence to the person who caused the harm. | 'Stop pursuing this.' |
-| Reconciliation | Restoration of a broken relationship. | Frequently means restoring the harmed person to proximity with the person who harmed them, before safety and often before acknowledgement. | 'Be near them again.' |
-| Grace (applied selectively) | Unearned favour. | Watch its direction of travel. Extended lavishly to leaders who have caused harm; rarely to members who have caused inconvenience. | 'He is forgiven; you are still a problem.' |
+| Forgiveness (as an instruction) | It means releasing a wrong done against you. | It is central to the faith. As an instrument it is deployed early, at the victim, and frequently as a substitute for any consequence to the person who caused the harm. | 'Stop pursuing this.' |
+| Reconciliation | It means the restoration of a broken relationship. | It frequently means restoring the harmed person to proximity with the person who harmed them, before safety and often before acknowledgement. | 'Be near them again.' |
+| Grace (applied selectively) | It means unearned favour. | Watch its direction of travel. It is extended lavishly to leaders who have caused harm, and rarely to members who have caused inconvenience. | 'He is forgiven; you are still a problem.' |
 
 ## 15. Cost & cover {#cost}
 
 ### What leaving costs
 
-- Loss of community and social network; family strain; in high-control congregations, formal shunning or 'church discipline' announcements.
-- Employment loss where jobs run through the church network (staff, schools, ministries).
-- Spiritual threat framing: hell, apostasy, 'shipwrecked faith.' [VARIES BY COMMUNITY]
+- Leaving can cost a person their community and social network and strain their family, and in high-control congregations it can bring formal shunning or 'church discipline' announcements.
+- People can lose their jobs where employment runs through the church network (staff, schools, ministries).
+- Leaving is framed as a spiritual threat: hell, apostasy (abandoning the faith), 'shipwrecked faith' (a phrase from 1 Timothy 1:19 for faith that has been lost). [VARIES BY COMMUNITY]
 
 ### The ledger of exit
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Family and community loss | Often | Cooling of relationships; formal 'church discipline' announcements in high-control congregations | “Nobody is stopping them — that's their choice.” |
-| Financial and employment loss | Sometimes | Jobs at church, school, or ministry; housing tied to staff roles | “Employment decisions are separate from doctrine.” |
-| Spiritual threat | Commonly | Hell, apostasy, 'shipwrecked faith,' prayers for their return framed as concern | “It's a loving warning, not a threat.” |
-| Reputation damage | Frequently | Pulpit references to divisiveness, bitterness, or 'unresolved sin' | “We only shared prayer requests.” |
+| Family and community loss | Often | Relationships cool, and high-control congregations make formal 'church discipline' announcements. | “Nobody is stopping them — that's their choice.” |
+| Financial and employment loss | Sometimes | People lose jobs at a church, school or ministry, and housing tied to staff roles. | “Employment decisions are separate from doctrine.” |
+| Spiritual threat | Commonly | Leavers are warned of hell, apostasy and 'shipwrecked faith,' and prayers for their return are framed as concern. | “It's a loving warning, not a threat.” |
+| Reputation damage | Frequently | The pulpit refers to leavers' divisiveness, bitterness or 'unresolved sin.' | “We only shared prayer requests.” |
 
 ### How the cost is denied
 
@@ -1166,10 +1286,10 @@ Genuine hostility toward Christians in some parts of the world is cited to recla
 
 ### Who benefits
 
-- Senior/founding pastors of independent churches who control the board that sets their compensation. [PATTERN OBSERVED]
-- Denominational headquarters and agencies funded by assessments on congregations.
-- The Christian media-industrial complex: broadcasting networks, publishing houses, worship-music licensing, conference circuits — revenue streams that require a continuously mobilized, guilt-motivated audience. [INVESTIGATIVE REPORT: see Who Benefits section]
-- Political operations that convert congregational trust into votes and donor lists. [INVESTIGATIVE REPORT]
+- Senior and founding pastors of independent churches benefit when they control the board that sets their compensation. [PATTERN OBSERVED]
+- Denominational headquarters and agencies funded by assessments on congregations benefit.
+- The Christian media-industrial complex benefits: broadcasting networks, publishing houses, worship-music licensing and conference circuits. These revenue streams require a continuously mobilized, guilt-motivated audience. [INVESTIGATIVE REPORT: see Who Benefits section]
+- Political operations benefit, converting congregational trust into votes and donor lists. [INVESTIGATIVE REPORT]
 
 ### Money out, leverage back
 
@@ -1179,12 +1299,12 @@ Genuine hostility toward Christians in some parts of the world is cited to recla
 
 ### Who pays
 
-- Children, who absorb hell teaching and purity shame with no ability to consent or evaluate.
-- Women in complementarian marriages, who lose structural standing to refuse or leave.
-- LGBTQ members, who pay in family, belonging, and in documented cases their safety.
-- Abuse survivors, pressured into forgiveness and internal process rather than police.
-- Poor members who tithe from insufficient income while leadership is salaried.
-- Volunteers whose unpaid hours build assets they will never have equity in.
+- Children pay, absorbing hell teaching and purity shame with no ability to consent or evaluate.
+- Women in complementarian marriages pay, losing structural standing to refuse or leave.
+- LGBTQ members pay in family, belonging and, in documented cases, their safety.
+- Abuse survivors pay, pressured into forgiveness and internal process rather than police.
+- Poor members pay, tithing from insufficient income while leadership is salaried.
+- Volunteers pay with unpaid hours that build assets they will never have equity in.
 
 ::: cites
 Sources for this section: [9]
@@ -1194,22 +1314,26 @@ Sources for this section: [9]
 
 ### Where the weight lands
 
+The costs in section 15 do not fall evenly. They fall hardest where a person has the least power inside the institution and the fewest places to go outside it. The table names who carries the most, how, and what makes it worse.
+
 | Who | How | What it compounds with |
 |---|---|---|
-| Children | Eternal-punishment teaching and purity shame installed before abstract reasoning develops | With a home where the parent's authority and the institution's are the same voice |
-| Women in complementarian marriages | No doctrinal standing to refuse, and counsel that routes back to submission | Catastrophically with financial dependence and no independent income |
-| LGBTQ members and their children | Exclusion from membership, leadership, and family belonging | With being a minor in a household that agrees with the exclusion |
-| Abuse survivors | Forgiveness pressure, internal process, and reporting failures | Where the accused holds the pastoral relationship with the survivor's family |
-| The working poor | Ten percent of a wage that does not cover rent, taught as a test of faith | Where benevolence funds are administered by the same office that set the expectation |
+| Children | They receive eternal-punishment teaching and purity shame before abstract reasoning develops. | The harm compounds in a home where the parent's authority and the institution's are the same voice. |
+| Women in complementarian marriages | They have no doctrinal standing to refuse, and counsel routes them back to submission. | The harm compounds catastrophically with financial dependence and no independent income. |
+| LGBTQ members and their children | They are excluded from membership, leadership and family belonging. | The harm compounds for a minor in a household that agrees with the exclusion. |
+| Abuse survivors | They face pressure to forgive, internal process, and failures to report. | The harm compounds where the accused holds the pastoral relationship with the survivor's family. |
+| The working poor | They are taught to give ten percent of a wage that does not cover rent, as a test of faith. | The harm compounds where benevolence funds are administered by the same office that set the expectation. |
 
 ## 18. The middle tiers {#tiers}
 
+Most of the institution's work is done below the pastor, by people who see the decisions without making them. Small-group leaders, treasurers, youth and children's workers, and elders each carry part of the load, and each stands at one point where the next decision could be declined. The table sets out what each tier does, what it sees, what it is asked to do and where it could refuse.
+
 | Role | Does | Sees | Is asked to | Could refuse |
 |---|---|---|---|---|
-| Small-group and Bible-study leaders | Holds the pastoral relationship with twelve people and reports concerns upward | Who is doubting, whose marriage is failing, who has stopped giving | To 'keep leadership informed' | To pass along a private confidence as a prayer request |
-| Treasurers and finance volunteers | Counts, banks, and reconciles | The compensation line, the discretionary fund, and the gap between the appeal and the need | To treat the numbers as confidential | To sign off on accounts they have not been permitted to see in full |
-| Youth and children's workers | Runs the programme that shapes children before they can evaluate it | Which adults seek unsupervised access | To handle concerns internally first | To accept any policy that routes a disclosure anywhere before the police |
-| Elders and board members | Formally holds the authority the pastor exercises | That they were appointed by the person they oversee | To present unanimity | To vote yes on a budget they cannot explain to the congregation |
+| Small-group and Bible-study leaders | Hold the pastoral relationship with twelve people and report concerns upward | Who is doubting, whose marriage is failing, who has stopped giving | 'Keep leadership informed' | Pass along a private confidence as a prayer request |
+| Treasurers and finance volunteers | Count, bank, and reconcile | The compensation line, the discretionary fund, and the gap between the appeal and the need | Treat the numbers as confidential | Sign off on accounts they have not been permitted to see in full |
+| Youth and children's workers | Run the programme that shapes children before they can evaluate it | Which adults seek unsupervised access | Handle concerns internally first | Accept any policy that routes a disclosure anywhere before the police |
+| Elders and board members | Formally hold the authority the pastor exercises | That they were appointed by the person they oversee | Present unanimity | Vote yes on a budget they cannot explain to the congregation |
 
 ## 19. Documented cases {#cases}
 
@@ -1218,7 +1342,7 @@ Sources for this section: [9]
 - **when:** 2024
 - **what:** The Makin Review found that the Church of England failed to act on abuse by John Smyth, a barrister who ran Christian camps, for decades. The Archbishop of Canterbury, Justin Welby, resigned on 12 November 2024 [6].
 - **record:** *The Makin Review* (Nov 2024) [6]
-- **outcome:** The highest office in the Anglican Communion vacated over a safeguarding failure [6][7].
+- **outcome:** The highest office in the Anglican Communion was vacated over a safeguarding failure [6][7].
 - **tactics:** 30, 18
 - **grade:** Documented
 :::
@@ -1259,9 +1383,9 @@ Sources for this section: [9]
 
 | What | Who | When | What it cost |
 |---|---|---|---|
-| Christianity Today's reporting on Mars Hill and the wider accountability press | Evangelical journalists investigating their own movement | 2014–present | Sustained hostility from the institutions they cover |
-| #ChurchToo and survivor-led accountability networks | Survivors, most of them still believers | 2017–present | Loss of church community for many who spoke |
-| MinistryWatch and financial transparency ratings | Independent evaluators inside the tradition | 1990s–present | Refusal of cooperation by most large ministries |
+| Christianity Today's reporting on Mars Hill and the wider accountability press | Evangelical journalists investigating their own movement | 2014–present | It brought sustained hostility from the institutions they cover. |
+| #ChurchToo and survivor-led accountability networks | Survivors, most of them still believers | 2017–present | Many who spoke lost their church community. |
+| MinistryWatch and financial transparency ratings | Independent evaluators inside the tradition | 1990s–present | Most large ministries refused to cooperate. |
 
 ### What would change this page
 
@@ -1273,40 +1397,41 @@ Sources for this section: [10] [11]
 
 ## 21. Voices from inside {#voices}
 
-- **Rachael Denhollander.** An abuse survivor and lawyer who advised the Southern Baptist task force behind the 2022 investigation; in 2025 questions were raised about her dual roles [19][20].
-- **The survivors of John Smyth,** whose persistence produced the Makin Review [6].
-- **MinistryWatch,** an evangelical watchdog rating ministries on transparency since 1998 [10].
-- **Sarah Mullally,** the first woman to be Archbishop of Canterbury (2026) [7].
+- **Rachael Denhollander.** An abuse survivor and lawyer, she advised the Southern Baptist task force behind the 2022 investigation. In 2025 questions were raised about her dual roles [19][20].
+- **The survivors of John Smyth.** Their persistence produced the Makin Review [6].
+- **MinistryWatch.** An evangelical watchdog, it has rated ministries on transparency since 1998 [10].
+- **The reporters of *The Rise and Fall of Mars Hill*.** Evangelical journalists at *Christianity Today* reported in depth on the collapse of a church in their own movement [11].
+- **Sarah Mullally.** In 2026 she became the first woman to be Archbishop of Canterbury [7].
 
 ## 22. Regional variants {#regional}
 
 ::: card
 ### United States
-- **apex:** None for the whole; every denomination governs itself.
-- **law:** No Form 990 for churches; tax-free housing allowances for clergy [1][2][3].
-- **documented:** Guidepost (2022) [8]; Mars Hill, RZIM and Willow Creek [11][12].
-- **exit:** Legally free; costs are social, family and, where the church is the employer or school, economic.
-- **regulator:** State attorneys general; the IRS only for affiliated entities that file [2].
+- **apex:** There is no apex for the whole; every denomination governs itself.
+- **law:** Churches file no Form 990, and clergy housing allowances are tax-free [1][2][3].
+- **documented:** The record covers the Guidepost investigation (2022) [8] and the Mars Hill, RZIM and Willow Creek findings [11][12].
+- **exit:** Leaving is legally free; the costs are social, family and, where the church is the employer or school, economic.
+- **regulator:** State attorneys general act as regulators, and the IRS does so only for affiliated entities that file [2].
 - **tell:** The country with the most Christians in the world publishes the least about their churches' money.
 :::
 
 ::: card
 ### England
-- **apex:** The Archbishop of Canterbury; the Crown and Parliament in the background [7][17].
-- **law:** An established church; bishops in the Lords [17].
-- **documented:** The Makin Review and the Archbishop's resignation [6].
-- **exit:** Legally free; the church is also a large employer and school provider.
-- **regulator:** The Charity Commission for churches that are charities; Parliament for the establishment.
-- **tell:** The only country where the church's bishops make the law, and where the church's top office fell over a safeguarding review.
+- **apex:** The Archbishop of Canterbury leads the church, with the Crown and Parliament in the background [7][17].
+- **law:** The church is established by law, and its bishops sit in the Lords [17].
+- **documented:** The record covers the Makin Review and the Archbishop's resignation [6].
+- **exit:** Leaving is legally free, though the church is also a large employer and school provider.
+- **regulator:** The Charity Commission regulates churches that are charities, and Parliament oversees the establishment.
+- **tell:** It is the only country where the church's bishops make the law, and where the church's top office fell over a safeguarding review.
 :::
 
 ::: card
 ### Germany
-- **apex:** The Catholic bishops' conference and the Protestant EKD.
-- **law:** State-collected church tax [18].
-- **documented:** €12.84bn collected in 2025 [18].
-- **exit:** A formal civil declaration, which ends the tax.
-- **regulator:** The state that collects the tax; parliamentary questions produce the figures [18].
+- **apex:** The Catholic bishops' conference and the Protestant EKD (Evangelical Church in Germany) lead the two main churches.
+- **law:** The state collects church tax [18].
+- **documented:** The state collected €12.84bn in church tax in 2025 [18].
+- **exit:** Leaving takes a formal civil declaration, which ends the tax.
+- **regulator:** The state that collects the tax is the regulator, and parliamentary questions produce the figures [18].
 - **tell:** Leaving a church here is a government form — and the numbers on the chart are why the churches watch who files it.
 :::
 
@@ -1327,7 +1452,7 @@ You are not being asked to stop praying. You are being asked to stop conflating 
 
 ## 24. Leaving safely here {#leaving}
 
-Practical guidance, not legal advice.
+This is practical guidance, not legal advice.
 
 1. **Leaving is legally free** almost everywhere Christians live; the costs are social, family and sometimes economic (church schools, church employers).
 2. **In Germany,** leaving is a formal civil declaration that ends church tax [18].
@@ -1340,7 +1465,7 @@ Checked 2026-09-27.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [21] |
+| **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** [21] |
 | **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [22] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [23] |
 | **SNAP** | Survivors of clergy abuse, across churches | US and international | Via website [24] |

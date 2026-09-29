@@ -22,6 +22,11 @@ Evidence for each Catholicism item is in `logs/fact-check/catholicism.md` (F-num
 ## Per-volume discrepancy files
 Eastern Orthodoxy: `discrepancies/eastern-orthodoxy.md` (P1 4, P2 9, P3 7). Headline items: Pew's ~260 million includes Oriental Orthodoxy (Eastern alone ~208 million); Georgia's Ilia II died in March 2026 and Shio III was elected in May; the EU dropped Kirill from its 21st sanctions package in July 2026; four technique grades stronger than their basis.
 
+## Shared help-line data (all volumes)
+- **SNAP** is listed as "via website"; an editor reports a toll-free line (1-877-762-7432). Not verified (the SNAP site would not load); not changed.
+- **Faith to Faithless** opening hours differ between Humanists UK pages (Mon/Wed/Thu vs Wed/Thu/Fri). The table says "set hours, see website", which stays accurate either way.
+- **Recovering from Religion** now reads "US, Canada and online" (ALL-F03, verified).
+
 ## P2 · Structural (inconsistent, incomplete, or weakens comparison)
 
 7. **[25 of 34 volumes, §12]** One grade rationale reused under several different techniques (544 techniques in total). Catholicism is corrected in this round (CATH-R002 … R029); the other 24 volumes need the same pass. This is a template-level flaw.

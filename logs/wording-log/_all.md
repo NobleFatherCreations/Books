@@ -1,6 +1,6 @@
 # Wording log — _all
 
-11 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/_all.json`, then rebuild. Nothing else changes.
+12 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/_all.json`, then rebuild. Nothing else changes.
 
 ## Edition and version narration removed (7)
 
@@ -116,7 +116,7 @@
 
 *Reason:* 'Expanded' reads as a note about the document's own production; 'set out' says what the reader will find.
 
-## Proofreading (typos, punctuation, agreement) (2)
+## Proofreading (typos, punctuation, agreement) (3)
 
 ### ALL-F01 · md · proposed · build: applied 26 time(s) across 26 volume(s)
 
@@ -141,4 +141,16 @@
 > — helpline 0800 448 0748 (freephone; set hours).
 
 *Reason:* Same correction in the Sources entry.
+
+### ALL-F03 · md · proposed · build: applied 26 time(s) across 26 volume(s)
+
+**Before**
+
+> (\| \*\*Recovering from Religion\*\* \| [^|]+\| )US and online( \|)
+
+**After**
+
+> \1US, Canada and online\2
+
+*Reason:* Recovering from Religion's hotline takes calls from the US and Canada (recoveringfromreligion.org, checked 2026-09-29).
 

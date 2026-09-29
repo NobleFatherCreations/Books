@@ -1260,7 +1260,7 @@ Checked 2026-09-27.
 | Organization | For | Where | Contact |
 |---|---|---|---|
 | **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; set hours, see website) [10] |
-| **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [11] |
+| **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** [11] |
 | **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [12] |
 
 ## 26. Sources {#sources}

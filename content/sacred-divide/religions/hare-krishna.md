@@ -1311,7 +1311,7 @@ Checked 2026-09-27.
 | Organization | For | Where | Contact |
 |---|---|---|---|
 | **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [13] |
-| **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [14] |
+| **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** [14] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [15] |
 | **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [16] |
 | **Childhelp** | Child abuse | US | **1-800-422-4453** [17] |

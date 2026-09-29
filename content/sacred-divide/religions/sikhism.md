@@ -1293,7 +1293,7 @@ Checked 2026-09-27.
 |---|---|---|---|
 | **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; set hours, see website) [14] |
 | **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** [15] |
-| **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [16] |
+| **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** [16] |
 | **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [17] |
 
 ## 26. Sources {#sources}

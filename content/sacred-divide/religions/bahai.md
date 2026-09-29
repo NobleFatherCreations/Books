@@ -1256,7 +1256,7 @@ Checked 2026-09-27.
 | Organization | For | Where | Contact |
 |---|---|---|---|
 | **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; set hours, see website) [13] |
-| **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [14] |
+| **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** [14] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [15] |
 | **Humanists at Risk** | People persecuted for belief | Global | Casework [16] |
 

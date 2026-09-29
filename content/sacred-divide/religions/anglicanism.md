@@ -672,7 +672,7 @@ Checked 2026-09-27.
 | **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [27] |
 | **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; set hours, see website) [28] |
 | **SNAP** | Survivors of clergy abuse, across churches | International | Via website [29] |
-| **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [30] |
+| **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** [30] |
 
 ## 26. Sources {#sources}
 

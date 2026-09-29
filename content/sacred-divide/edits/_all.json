@@ -106,5 +106,16 @@
   "after": "— helpline 0800 448 0748 (freephone; set hours).",
   "reason": "Same correction in the Sources entry.",
   "status": "proposed"
+ },
+ {
+  "id": "ALL-F03",
+  "scope": "md",
+  "type": "proof",
+  "count": "any",
+  "regex": true,
+  "before": "(\\| \\*\\*Recovering from Religion\\*\\* \\| [^|]+\\| )US and online( \\|)",
+  "after": "\\1US, Canada and online\\2",
+  "reason": "Recovering from Religion's hotline takes calls from the US and Canada (recoveringfromreligion.org, checked 2026-09-29).",
+  "status": "proposed"
  }
 ]

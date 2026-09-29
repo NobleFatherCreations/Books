@@ -487,7 +487,7 @@ Checked 2026-09-27.
 |---|---|---|---|
 | **National Network of Lawyers Against Spiritual Sales** | Former followers seeking money back | Japan | Via lawyers' network [12] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [22] |
-| **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [23] |
+| **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** [23] |
 | **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [24] |
 | **Childhelp** | Child abuse | US | **1-800-422-4453** [25] |
 

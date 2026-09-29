@@ -1526,7 +1526,7 @@ Checked 2026-09-27.
 | **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [40] |
 | **Childhelp** | Child abuse, now or in the past | US | **1-800-422-4453**, 24/7 [41] |
 | **RAINN** | Sexual assault | US | **1-800-656-4673**, 24/7 [42] |
-| **Recovering from Religion** | People questioning or leaving faith | US and online | **(844) 368-2848** [39] |
+| **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** [39] |
 | **Voice of the Faithful** | Catholics who are staying and pressing for reform | US | Via website [28] |
 
 ## 26. Sources {#sources}
