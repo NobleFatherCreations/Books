@@ -27,7 +27,7 @@ const TYPES = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascrip
   // table moved to a fresh page (?brk=). Pages without the hook in their PagedConfig ignore the query.
   const snug = new Map(), brk = new Set();
   let issues = null;
-  for (let pass = 0; pass < 4; pass++) {
+  for (let pass = 0; pass < 5; pass++) {
     const q = new URLSearchParams();
     if (snug.size) q.set('snug', [...snug].map(([id, l]) => `${id}:${l}`).join(','));
     if (brk.size) q.set('brk', [...brk].join(','));
@@ -48,11 +48,11 @@ const TYPES = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascrip
       return out;
     });
     let changed = false;
-    for (const t of issues.tails) { const l = snug.get(t.id) || 0; if (t.id && l < 2) { snug.set(t.id, l + 1); changed = true; } }
+    for (const t of issues.tails) { const l = snug.get(t.id) || 0; if (t.id && l < 3) { snug.set(t.id, l + 1); changed = true; } }
     for (const t of issues.lone) if (!brk.has(t.ti)) { brk.add(t.ti); changed = true; }
     if (!changed) break;
   }
-  if (snug.size || brk.size) console.log(`fitted: ${snug.size} section(s) tightened, ${brk.size} table(s) moved; left: ${issues.tails.length} short tail(s) ${JSON.stringify(issues.tails.map(t => t.page))}, ${issues.lone.length} lone header(s)`);
+  if (snug.size || brk.size) console.log(`fitted: ${JSON.stringify([...snug])} tightened, ${brk.size} table(s) moved; left: ${issues.tails.length} short tail(s) ${JSON.stringify(issues.tails.map(t => t.page))}, ${issues.lone.length} lone header(s)`);
   const pages = await page.evaluate(() => document.querySelectorAll('.pagedjs_page').length);
   // where each heading landed, for the PDF bookmark tree (Paged.js pages are .pagedjs_page, 1-based)
   const marks = await page.evaluate(() => [...document.querySelectorAll('h1[id], h2[id], h3[id], h4[id^="t-"]')].map(h => {

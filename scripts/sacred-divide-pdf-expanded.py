@@ -175,7 +175,7 @@ def build_html(rid):
 // section spills a few lines onto a page of its own or a table's header row is left alone at a page foot.
 window.PagedConfig = {{ auto: true, before: () => {{
   const q = new URLSearchParams(location.search), list = k => (q.get(k) || '').split(',').filter(Boolean);
-  list('snug').forEach(v => {{ const [id, lvl] = v.split(':'), s = document.getElementById(id); if (s) s.classList.add(lvl === '2' ? 'snug2' : 'snug'); }});
+  list('snug').forEach(v => {{ const [id, lvl] = v.split(':'), s = document.getElementById(id); if (s) s.classList.add('snug' + (lvl === '1' ? '' : lvl)); }});
   const tables = document.querySelectorAll('table');
   tables.forEach((t, i) => t.dataset.ti = i);
   list('brk').forEach(i => {{ const t = tables[+i]; if (!t) return; const p = t.previousElementSibling;
