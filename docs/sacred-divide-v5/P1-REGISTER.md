@@ -1,7 +1,7 @@
 # P1 register — every critical item across the edited volumes
 
 One line per item: where it is and what is wrong. The proposed wording, the evidence and the reason are in the per-volume file linked beside each volume. Catholicism's items are in `DISCREPANCIES.md`. Nothing listed here has been changed in the text unless the item says so.
-**30 P1 items** across 7 volumes, plus Catholicism.
+**35 P1 items** across 8 volumes, plus Catholicism.
 
 
 ## anglicanism (4) — [full file](discrepancies/anglicanism.md)
@@ -24,6 +24,14 @@ One line per item: where it is and what is wrong. The proposed wording, the evid
 - **[§1 Size, §4 lede, §7 Adherents, §6 closing line, §7 Regions]** "~220–260 million", and "Pew counts about 260 million Orthodox Christians", are given as the size of Eastern Orthodoxy. Pew's ~260 million includes Oriental Orthodoxy (about 20%, among them Ethiopia's 36 million); Eastern Orthodoxy is about 80%, roughly 208 million (F2). §7 Regions also lists "Ethiopia's related Oriental tradition", which belongs to th
 - **[§7 top of the chain, Kirill row]** "the EU renewed its attempt to sanction him in 2026" is true but stops before the outcome: Kirill was removed from the 21st package at Bulgaria's request, joined by Italy, and the package was agreed on 23 July 2026 without him (F3). Proposed: "The EU put him in a draft sanctions package in June 2026, after Hungary dropped its veto, and removed him in July at Bulgaria's and Italy'
 - **[§12 — evidence-weighting rule]** Once each technique carries its own rationale (grades unchanged; rationales corrected under EO-R001 … R030), these grades are stronger than their entries support: - **14 Isolation**: graded **Codified**. What the entry describes (distrust of outside sources, doubts taken only to the priest, online convert spaces) has no canon behind it. That points to **Cultural**. The old note jus
+
+## mormonism (5) — [full file](discrepancies/mormonism.md)
+
+- **[§3 "widest gap" and §14 say-do row 1; §14 "Last time the chair ran"; §23 Q1; stage 6 text; §16 "Money out"; §9 "Where it comes from"]** "A federal regulator found twenty years of deliberate concealment of a hundred-billion-dollar portfolio" / "A $100 billion concealment" / "fined your Church for hiding a $100 billion portfolio"
+- **[§1 "The unanswered question", §3 question box]** "A hundred-billion-dollar fund was concealed for two decades"
+- **[§7 Authority bullet 1; §10 card 2 "Why that reason expired"; §16 Who pays; §17 row 1; stage 6 text; §23 Q3]** Worthiness interviews of minors are described in the present tense as conducted alone ("an untrained adult male volunteer questions a child alone"; "Why does an untrained volunteer question a twelve-year-old alone about masturbation")
+- **[§5 card "September 1993" "Why it matters"; §14 Words table, "Anti-Mormon" row; §20 Promises row 1; §13 loop 7 step 5 as rebuilt]** "no standing was ever restored" / "The label was retired for the material and never for the people who were disciplined for it"
+- **[§12 — evidence-weighting rule]** Once each technique carries its own rationale (grades unchanged; rationales corrected under LDS-R002 … R029), these grades are stronger than their entries support: - **8 Intermittent Reinforcement** — **Documented**. The entry (recommend expiry, callings released without explanation, reading of spiritual witness) rests on policy and teaching, pointing to **Codified** or **Taught**.
 
 ## oriental-orthodoxy (3) — [full file](discrepancies/oriental-orthodoxy.md)
 
