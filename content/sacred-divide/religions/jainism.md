@@ -18,10 +18,10 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | ~4–5 million, overwhelmingly in India. [ACADEMIC SOURCE: Indian census] |
-| Who's in charge | The acharyas — Heads of the monastic orders — the Terapanth under Acharya Mahashraman; Digambara and Svetambara lineages by seniority and designation — commanding by moral authority rather than office |
+| Size | Jainism has ~4–5 million adherents, overwhelmingly in India. [ACADEMIC SOURCE: Indian census] |
+| Who's in charge | The acharyas (the senior monastic leaders) head the monastic orders. The Terapanth (a Svetambara order that does not worship images) is led by Acharya Mahashraman, and the Digambara (“sky-clad”) and Svetambara (“white-clad”) lineages are led by seniority and designation. They command by moral authority rather than office. |
 | Chosen by / removable by | Lineage designation / Nobody below |
-| Money in one line | Temple trusts with significant wealth; ritual sponsorships auctioned (bidding for rites); community levies; the diamond/trading-community overlap makes religious and business networks one fabric. |
+| Money in one line | The money comes from temple trusts with significant wealth, ritual sponsorships auctioned (bidding for rites), and community levies, and the overlap with the diamond and trading community makes religious and business networks one fabric. |
 | Leaving in one line | Leaving costs marriage networks and business trust simultaneously — the community's commercial integration is the enforcement mechanism. |
 | The unanswered question | A tradition this serious about harm to the smallest insect — who examines the harm to the girl fasting for her family's standing? |
 | Evidence | 5 of 30 techniques sourced to a named document; grades: Cultural 25, Taught 2, Documented 1, Contested 1, Codified 1 |
@@ -41,7 +41,7 @@ partial: []
 
 *Nita · A Tuesday during Paryushan · Ahmedabad*
 
-Day five of the fast. She has done this since she was fourteen. Her body is quiet and her mind is unusually clear and there is something in it that is genuinely not about anyone watching, and she wants that noted.
+Day five of the Paryushan fast (the annual Jain festival of fasting and reflection). She has done this since she was fourteen. Her body is quiet and her mind is unusually clear and there is something in it that is genuinely not about anyone watching, and she wants that noted.
 
 Her daughter Aarti is nine and is on day two. Aarti wants to reach four days because Priya from the building reached four days last year and there was an announcement at the temple. Nita has told her that four is not necessary. Aarti has heard that four is available.
 
@@ -83,31 +83,32 @@ A tradition this serious about harm to the smallest insect — who examines the 
 
 **What is true in it.** The most accurate defense in the codex. There is no clergy with coercive power, no excommunication apparatus, and no enforcement body.
 
-**The answer.** Which is exactly the finding. In a community this small and this commercially interwoven, total visibility makes force unnecessary — religious standing and business credit are the same asset. Anekantavada is the tradition's own instrument for examining that, and it was not meant to be pointed only outward.
+**The answer.** Which is exactly the finding. In a community this small and this commercially interwoven, total visibility makes force unnecessary — religious standing and business credit are the same asset. Anekantavada (the doctrine that reality has many sides and no single view captures it) is the tradition's own instrument for examining that, and it was not meant to be pointed only outward.
 
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-~4–5 million adherents, mostly in India; an ancient path of radical nonviolence (ahimsa), asceticism, and non-absolutism, with an influential lay merchant community.
+Jainism has ~4–5 million adherents, mostly in India. It is an ancient path of radical nonviolence (ahimsa), asceticism and non-absolutism, with an influential lay merchant community.
 :::
 
-- Anekantavada (many-sidedness) as a native anti-dogmatism resource; transparent trusts; the community's genuine philanthropy and low-violence ethic.
+- Healthy practice here draws on anekantavada (many-sidedness), a native anti-dogmatism resource, and on the community's genuine philanthropy and low-violence ethic.
+- Transparent trusts are possible. The Oshwal Association of the UK files public accounts, because charity law requires it [8].
 
 ## 5. History {#history}
 
-Contemporary with early Buddhism; Mahavira (5th c. BCE) as the last of 24 tirthankaras; monastic-lay symbiosis: ascetics depend entirely on laity, laity earn merit by supporting ascetics.
+Jainism is contemporary with early Buddhism. Mahavira (5th c. BCE) is regarded as the last of 24 tirthankaras (the teachers who, in Jain belief, established the path to liberation). Ascetics and laity depend on each other: ascetics depend entirely on laity, and laity earn merit by supporting ascetics.
 
 ### Timeline
 
 ```timeline
 c. 9th–5th c. BCE | Tradition of 24 tirthankaras; Parshvanatha and then Mahavira (c. 599–527 BCE) | Radical nonviolence and asceticism established as a full path outside Vedic priesthood.
-c. 300 BCE–100 CE | Svetambara/Digambara division; Agamas compiled | Institutional split over monastic practice, especially clothing and women's capacity for liberation.
+c. 300 BCE–100 CE | Svetambara/Digambara division; Agamas (the canonical scriptures) compiled | Institutional split over monastic practice, especially clothing and women's capacity for liberation.
 100–1200 CE | Royal patronage in western and southern India; temple building; monastic orders formalize | Wealthy lay patronage creates a durable temple economy.
 1200–1800 | Muslim and then Maratha-era adaptation; merchant communities consolidate | The community's commercial specialization becomes its social infrastructure.
 1800s | Colonial-era reform; print culture; diaspora trading networks | Community identity codified; institutions modernize.
 1900s | Global diaspora (East Africa, UK, US); institutional philanthropy expands | Diaspora wealth funds temples and community institutions internationally.
 1970s–present | Diaspora temple building; animal-welfare and vegetarian advocacy | Ethical influence far larger than the community's size.
-2015 | Rajasthan High Court rules santhara (sallekhana) illegal; Supreme Court stays the ruling | The state and the tradition collide over religious dying and family pressure. [COURT RECORD]
+2015 | Rajasthan High Court rules santhara (sallekhana, the ritual fast toward death) illegal; Supreme Court stays the ruling | The state and the tradition collide over religious dying and family pressure. [COURT RECORD]
 2000s–present | Debates over women's monastic status, caste practice, and business-community insularity | Internal reform pressure in a small, tightly networked community.
 ```
 
@@ -116,7 +117,7 @@ c. 300 BCE–100 CE | Svetambara/Digambara division; Agamas compiled | Instituti
 ::: card
 #### 1974 — The Anuvrat and the ecology of restraint
 
-Acharya Tulsi's Anuvrat movement had by this period taken a monastic discipline and offered it to laypeople as small, voluntary, self-imposed vows with no institutional enforcement.
+Acharya Tulsi's Anuvrat (“small vows”) movement had by this period taken a monastic discipline and offered it to laypeople as small, voluntary, self-imposed vows with no institutional enforcement.
 
 **Why it matters.** Recorded because it is the model: a demanding ethical tradition delivered without a compliance mechanism. It is what the healthy column on this page looks like when a tradition actually builds it.
 :::
@@ -143,13 +144,13 @@ Sources for this section: [2] [3] [6]
 
 ## 6. Branches & variants {#branches}
 
-Svetambara (further divided into Murtipujaka, Sthanakvasi, Terapanth) and Digambara; numerous monastic lineages.
+The Svetambara tradition is further divided into Murtipujaka (image worshippers), Sthanakvasi and Terapanth (orders that do not worship images), and the Digambara tradition stands beside it. There are numerous monastic lineages.
 
 | Branch | Where | What differs on this page's questions |
 |---|---|---|
-| **Śvetāmbara — Murtipujaka** | Gujarat, Rajasthan, diaspora | Temple worship; monks and nuns wear white [6] |
-| **Śvetāmbara — Sthanakvasi and Terapanth** | Rajasthan, Gujarat, diaspora | No image worship; the Terapanth has a single Acharya (Mahashraman, since 2010) [5] |
-| **Digambara** | Karnataka, Maharashtra, Madhya Pradesh | Monks go naked; holds that women cannot attain liberation without rebirth as men [6][7] |
+| **Śvetāmbara — Murtipujaka** | Gujarat, Rajasthan, diaspora | Its members worship images in temples, and its monks and nuns wear white [6] |
+| **Śvetāmbara — Sthanakvasi and Terapanth** | Rajasthan, Gujarat, diaspora | Neither order worships images, and the Terapanth has a single Acharya (Mahashraman, since 2010) [5] |
+| **Digambara** | Karnataka, Maharashtra, Madhya Pradesh | Its monks go naked, and it holds that women cannot attain liberation without rebirth as men [6][7] |
 
 About **4.45 million** Jains in India (2011), with literacy of 94.9%, the highest of any religious community [1].
 
@@ -159,14 +160,14 @@ About **4.45 million** Jains in India (2011), with literacy of 94.9%, the highes
 
 |  |  |
 |---|---|
-| Adherents | ~4–5 million, overwhelmingly in India. [ACADEMIC SOURCE: Indian census] |
-| Regions | Gujarat, Rajasthan, Maharashtra, Karnataka, Madhya Pradesh; diaspora in the UK, US, Kenya, Belgium (Antwerp diamond trade), Canada. |
-| Trend | Small and roughly stable, with very low fertility, high education, and high urbanization; India's most literate and among its wealthiest religious communities. [GOVERNMENT REPORT: census data] |
-| Participation | Unusually high correlation between identity and practice; the community's small size and commercial integration mean social visibility is total — everyone is known. |
+| Adherents | Jainism has ~4–5 million adherents, overwhelmingly in India. [ACADEMIC SOURCE: Indian census] |
+| Regions | Jains are concentrated in Gujarat, Rajasthan, Maharashtra, Karnataka and Madhya Pradesh, with diaspora communities in the UK, US, Kenya, Belgium (Antwerp diamond trade) and Canada. |
+| Trend | The community is small and roughly stable, with very low fertility, high education and high urbanization, and it is India's most literate and among its wealthiest religious communities. [GOVERNMENT REPORT: census data] |
+| Participation | Identity and practice correlate unusually highly, and the community's small size and commercial integration mean social visibility is total: everyone is known. |
 
 ### Authority
 
-- Monastic orders (Svetambara/Digambara lineages) with acharyas; lay temple trusts and caste-community councils; family and community honor systems.
+- Authority sits with the monastic orders (Svetambara and Digambara lineages) and their acharyas, with lay temple trusts and caste-community councils, and with family and community honor systems.
 - Authority is soft but total within community bounds: reputation, marriage networks, and business webs enforce conformity without any formal police. [PATTERN OBSERVED]
 
 ### The top of the chain
@@ -177,9 +178,9 @@ Moral rank commands here, and moral rank is ranked in public — while the wealt
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| The acharyas | Heads of the monastic orders — the Terapanth under Acharya Mahashraman; Digambara and Svetambara lineages by seniority and designation — commanding by moral authority rather than office | Lineage designation | Nobody below |
-| The lay trusts | Temple trusts, among the oldest continuously operating religious endowments in India, holding the temple wealth; donor families holding the auctioned ritual honors | Wealth and standing | Trustee politics |
-| The family table | Where enforcement actually happens: fasting prestige, marriage networks, and community business credit | Birth | — |
+| The acharyas | They head the monastic orders. The Terapanth is led by Acharya Mahashraman, and the Digambara and Svetambara lineages are led by seniority and designation. They command by moral authority rather than office. | Lineage designation | Nobody below |
+| The lay trusts | Temple trusts, among the oldest continuously operating religious endowments in India, hold the temple wealth, and donor families hold the auctioned ritual honors. | Wealth and standing | Trustee politics |
+| The family table | Enforcement actually happens here, through fasting prestige, marriage networks and community business credit. | Birth | — |
 
 ::: tell
 Everyone audits everyone's austerity. Ask instead who audits the trusts, and how long the silence lasts.
@@ -189,11 +190,11 @@ Everyone audits everyone's austerity. Ask instead who audits the trusts, and how
 
 | Entity | Type | Holder | Holds | Why it matters to you | Receipt |
 |---|---|---|---|---|---|
-| Temple trusts | Endowment | Trust boards drawn from prominent donor families | Substantial wealth, and the ritual honors that are auctioned | What proximity to the sacred costs, at public auction | [PATTERN OBSERVED] |
-| Monastic orders and acharyas | Ascetic authority | Senior monastics | Interpretive authority over lay practice, including fasting and renunciation | How long your child fasts, and whether that is your decision | [ACADEMIC SOURCE] |
-| Community business and credit networks | Commercial | Established merchant families | Trust, credit, and marriage access as a single asset | Whether disagreeing costs you your business | [PATTERN OBSERVED] |
-| Community councils and panchayats | Social governance | Community elites | Ritual honors, match networks, and reputation | Everything, because everyone knows everything |  |
-| Diaspora temple and community associations | Institutional | Elected boards | Temples, education, and philanthropy funded by a prosperous diaspora | Community standing abroad, on the same terms |  |
+| Temple trusts | Endowment | Trust boards drawn from prominent donor families | They hold substantial wealth, and the ritual honors that are auctioned. | The trusts show what proximity to the sacred costs, at public auction. | [PATTERN OBSERVED] |
+| Monastic orders and acharyas | Ascetic authority | Senior monastics | They hold interpretive authority over lay practice, including fasting and renunciation. | They bear on how long your child fasts, and on whether that is your decision. | [ACADEMIC SOURCE] |
+| Community business and credit networks | Commercial | Established merchant families | They hold trust, credit and marriage access as a single asset. | The question here is whether disagreeing costs you your business. | [PATTERN OBSERVED] |
+| Community councils and panchayats (traditional community assemblies) | Social governance | Community elites | They hold ritual honors, match networks and reputation. | Everything is at stake, because everyone knows everything. |  |
+| Diaspora temple and community associations | Institutional | Elected boards | They hold temples, education programs and philanthropy funded by a prosperous diaspora. | Community standing abroad works on the same terms. |  |
 
 ::: cites
 Sources for this section: [1] [5]
@@ -206,7 +207,7 @@ Sources for this section: [1] [5]
 | **Santhara (fast unto death)** | The Rajasthan High Court treated it as suicide in 2015 [2] | The Supreme Court stayed that ruling weeks later; the appeal is still pending [3] |
 | **Children's renunciation (diksha)** | No law sets a minimum age; bills have failed since 1955 [4] | A Surat court stayed a seven-year-old girl's initiation in February 2026 on her father's plea [4] |
 | **Abuse by monks** | Ordinary criminal law applies [9] | A Digambar monk was sentenced to ten years for rape in 2025 [9] |
-| **Diaspora** | Charity law in the UK [8] | Community bodies file public accounts [8] |
+| **Diaspora** | Charity law in the UK applies [8] | Community bodies file public accounts [8] |
 
 ### Who can compel an answer
 
@@ -216,30 +217,30 @@ State trust registrars over temple and community trusts, and the courts — whic
 
 ### Where it comes from
 
-- Temple trusts with significant wealth; ritual sponsorships auctioned (bidding for rites); community levies; the diamond/trading-community overlap makes religious and business networks one fabric.
-- Public austerity events generate family status — honor economics as the currency. [ACADEMIC SOURCE]
+- The money comes from temple trusts with significant wealth, ritual sponsorships auctioned (bidding for rites), and community levies, and the overlap with the diamond and trading community makes religious and business networks one fabric.
+- Public austerity events generate family status, and honor is the currency of that economy. [ACADEMIC SOURCE]
 
 ### Follow the money
 
 | Flow | Stated purpose | How it controls | Who benefits |
 |---|---|---|---|
-| Temple trusts and construction donations | Temple building and upkeep | Large trusts with concentrated board control; donor prestige hierarchies | Trust boards, prominent donor families |
-| Auctioned ritual honors (bidding for rites) | Support the temple through devotion | Explicit purchase of religious status — wealth converted directly into sanctity | Temples, and the status of winning families |
-| Monastic support and event sponsorship | Sustain ascetics | Sponsorship is public and ranked; status pressure on families of modest means | Monastic orders, sponsoring families' reputations |
-| Community business networks and credit | Mutual commercial trust | Religious standing and creditworthiness become the same thing — dissent is economically expensive | Established merchant families [PATTERN OBSERVED] |
+| Temple trusts and construction donations | The donations are stated to fund temple building and upkeep. | Large trusts hold concentrated board control, and donor prestige hierarchies shape influence. | Trust boards and prominent donor families benefit. |
+| Auctioned ritual honors (bidding for rites) | The auctions are stated to support the temple through devotion. | They are an explicit purchase of religious status, with wealth converted directly into sanctity. | Temples benefit, and so does the status of winning families. |
+| Monastic support and event sponsorship | Sponsorship is stated to sustain ascetics. | Sponsorship is public and ranked, which puts status pressure on families of modest means. | Monastic orders benefit, as do the reputations of sponsoring families. |
+| Community business networks and credit | The networks are stated to provide mutual commercial trust. | Religious standing and creditworthiness become the same thing, so dissent is economically expensive. | Established merchant families benefit. [PATTERN OBSERVED] |
 
 ### Pipelines this tradition shares
 
 ::: card
 #### Honor and marriage economy
 
-**Source.** Families managing reputation
+**Source.** The source is families managing their reputation.
 
 **Path.** Matchmakers and community brokers → School admission and business trust → Conformity across the whole family
 
-**Disclosed.** Nothing
+**Disclosed.** Nothing is disclosed.
 
-**Hidden.** Everything, because none of it is written
+**Hidden.** Everything is hidden, because none of it is written.
 :::
 
 ::: cites
@@ -263,49 +264,49 @@ Sources for this section: [6]
 ::: card
 #### Purity ranking through austerity
 
-**Origin.** Ancient ascetic practice in which renunciation genuinely was the path, undertaken by monastics who had left everything. [ACADEMIC SOURCE]
+**Origin.** Purity ranking arose from ancient ascetic practice in which renunciation genuinely was the path, undertaken by monastics who had left everything. [ACADEMIC SOURCE]
 
-**What it was for.** Voluntary, radical, and total — for people who had already given up family, property, and status. It ranked no one because everyone practicing had exited the status economy entirely.
+**What it was for.** The practice was voluntary, radical and total, for people who had already given up family, property and status. It ranked no one because everyone practicing had exited the status economy entirely.
 
 **Why that reason expired.** Transplanted into lay life with public visibility, austerity became a competitive display. Families accrue status from a child's fast. That inverts the original meaning completely: renunciation now buys the very status it was meant to abandon.
 
-**Who benefits now.** Family reputation, and community elites who set the standard. The cost falls on children pushed past their limits and families of modest means who cannot compete.
+**Who benefits now.** Family reputation benefits, as do the community elites who set the standard. The cost falls on children pushed past their limits and families of modest means who cannot compete.
 :::
 
 ::: card
 #### Auctioned ritual honors
 
-**Origin.** Temple funding practice in which the right to perform certain rites is bid for. [PATTERN OBSERVED]
+**Origin.** The auction is a temple funding practice in which the right to perform certain rites is bid for. [PATTERN OBSERVED]
 
-**What it was for.** A transparent way to fund temple upkeep from a prosperous merchant community.
+**What it was for.** It was a transparent way to fund temple upkeep from a prosperous merchant community.
 
 **Why that reason expired.** It is the most literal transaction in this codex: wealth converted directly into sanctity, in public, with a price. Non-possession is the tradition's central ethic, and the ritual economy ranks people by possession.
 
-**Who benefits now.** Temple trusts, and the status of the families that win. A community founded on non-attachment now auctions proximity to the sacred.
+**Who benefits now.** Temple trusts benefit, as does the status of the families that win. A community founded on non-attachment now auctions proximity to the sacred.
 :::
 
 ::: card
 #### Digambara doctrine that women cannot attain liberation
 
-**Origin.** Classical sectarian dispute; Svetambara texts disagree. [ACADEMIC SOURCE]
+**Origin.** The doctrine comes from a classical sectarian dispute, and Svetambara texts disagree with it. [ACADEMIC SOURCE]
 
-**What it was for.** Argued from claims about the female body and nudity requirements for final renunciation.
+**What it was for.** It was argued from claims about the female body and nudity requirements for final renunciation.
 
-**Why that reason expired.** The Svetambara position proves the doctrine is contested, not necessary. A metaphysical ceiling on half the population, defended by anatomy, in a tradition whose nuns outnumber its monks.
+**Why that reason expired.** The Svetambara position proves the doctrine is contested, not necessary. It is a metaphysical ceiling on half the population, defended by anatomy, in a tradition whose nuns outnumber its monks.
 
-**Who benefits now.** Male monastic precedence and authority. Nothing else.
+**Who benefits now.** Male monastic precedence and authority benefit. Nothing else does.
 :::
 
 ::: card
 #### Child renunciation (bal diksha)
 
-**Origin.** Long-standing practice of youthful monastic entry. [ACADEMIC SOURCE]
+**Origin.** Youthful monastic entry is a long-standing practice. [ACADEMIC SOURCE]
 
-**What it was for.** Early entry into a lifelong discipline in a world where adult life choices were made young anyway.
+**What it was for.** It allowed early entry into a lifelong discipline in a world where adult life choices were made young anyway.
 
 **Why that reason expired.** A minor cannot meaningfully consent to permanent renunciation of family, property, education, and sexuality. Indian courts and public criticism have raised exactly this, and family honor is an obvious confounding motive. [COURT RECORD / INVESTIGATIVE REPORT]
 
-**Who benefits now.** Monastic orders gaining lifetime members, and families gaining prestige from a child's renunciation.
+**Who benefits now.** Monastic orders benefit by gaining lifetime members, and families benefit by gaining prestige from a child's renunciation.
 :::
 
 ::: cites
@@ -385,7 +386,7 @@ Moral seriousness, radical nonviolence, discipline, and a community that admires
 
 **The counter.** Giving to support ethics is not the problem. The problem is when generosity becomes a hierarchy of purity. If people are valued according to how strictly they fast, donate, renounce, or conform, then generosity no longer liberates. It ranks souls.
 
-**Evidence grade.** [[Cultural]] Community admiration for restraint is the welcome, and it is entirely social.
+**Evidence grade.** [[Cultural]] The support offered through food, networks and ritual life is given informally, and the prestige that giving earns comes from community regard, not from any written rule.
 :::
 
 ### Stage 2 · Hook {#stage-2}
@@ -435,7 +436,7 @@ Liberation through accumulated restraint, karmic purification measured across li
 
 **The counter.** Moral seriousness becomes coercion when it is used to shame ordinary human limits. If someone cannot loosen practice without being treated as violent, impure, selfish, or karmically reckless, then ethics has become a guilt machine.
 
-**Evidence grade.** [[Taught]] Liberation through accumulated austerity is taught doctrine with no timeline and no observer.
+**Evidence grade.** [[Taught]] The claim that laxity accumulates karma is taught doctrine; the guilt, disappointment and prestige that draw a person back are applied by family and community.
 :::
 
 ### Stage 3 · Devalue {#stage-3}
@@ -485,7 +486,7 @@ Not strict enough, not fasting long enough, not pure enough. There is always som
 
 **The counter.** Discipline becomes gaslighting when physical harm is renamed spiritual progress. If the body’s distress is dismissed as attachment, then the body has been stripped of its right to testify.
 
-**Evidence grade.** [[Cultural]] Purity ranking is produced by public visibility in a small community, not by any ruling.
+**Evidence grade.** [[Cultural]] The reply that a person is attached to the body is a conversational reframing, and no document or body requires it.
 :::
 
 ::: tactic n=7
@@ -495,7 +496,7 @@ Not strict enough, not fasting long enough, not pure enough. There is always som
 
 **How it shows here**
 
-- Jains are taught radical nonviolence including speech — so naming a teacher's harm 'violently' is itself a violation. Gentle naming is ignored; forceful naming is himsa.
+- Jains are taught radical nonviolence including speech — so naming a teacher's harm 'violently' is itself a violation. Gentle naming is ignored; forceful naming is himsa (violence, the opposite of ahimsa).
 - Asceticism is the honored path, but a young person questioning pressure toward extreme fasts or renunciation is exhibiting attachment — the very thing the pressure claims to cure.
 - Sallekhana (ritual fasting toward death) must be free of coercion — while family honor accrues visibly to households whose elders undertake it.
 
@@ -503,7 +504,7 @@ Not strict enough, not fasting long enough, not pure enough. There is always som
 
 **The counter.** Self-imposition inside a community that ranks families by austerity is not weightless. When honor flows to the household and the cost lands on one body, 'voluntary' deserves a closer audit.
 
-**Evidence grade.** [[Cultural]] Purity ranking is produced by public visibility in a small community, not by any ruling.
+**Evidence grade.** [[Cultural]] The bind comes from two things together, a nonviolence teaching that extends to speech and an honor economy that rewards austerity, and no body enforces either against a questioner.
 :::
 
 ### Stage 4 · Confuse {#stage-4}
@@ -523,7 +524,7 @@ Question a practice and you are lax, materialistic, insufficiently serious about
 
 **How it shows here**
 
-- Austerity is publicly honored on an irregular schedule — the eight-day faster celebrated this Paryushana, unnoticed next year — and households chase the community's shifting attention with escalating vows.
+- Austerity is publicly honored on an irregular schedule — the eight-day faster celebrated at one Paryushana and unnoticed the next year — and households chase the community's shifting attention with escalating vows.
 - Monastic blessing and notice fall unpredictably on lay families; hosting a revered monk is a jackpot of status that funds years of competitive piety.
 - Karma theory meters outcomes ambiguously: prosperity confirms merit, hardship signals old karma burning off — both readings invoice further austerity and dana (giving).
 
@@ -531,7 +532,7 @@ Question a practice and you are lax, materialistic, insufficiently serious about
 
 **The counter.** The doctrine says soul; the banquet honoring the faster says otherwise. When the community's brightest, least predictable spotlight lands on self-denial, self-denial becomes a lottery ticket — and someone else prints the tickets.
 
-**Evidence grade.** [[Cultural]] Deflecting criticism as laxity, and deploying anekantavada selectively, are conversational rather than institutional.
+**Evidence grade.** [[Cultural]] The unpredictable honoring of austerity and of monastic notice is produced by community attention, not by any schedule or rule.
 :::
 
 ::: tactic n=9
@@ -549,7 +550,7 @@ Question a practice and you are lax, materialistic, insufficiently serious about
 
 **The counter.** Restraint becomes moving the goalposts when ordinary survival is always morally insufficient. If the body can never be innocent, purity becomes an unreachable finish line.
 
-**Evidence grade.** [[Cultural]] Deflecting criticism as laxity, and deploying anekantavada selectively, are conversational rather than institutional.
+**Evidence grade.** [[Cultural]] The rising expectations that follow vegetarianism are produced by community custom and comparison, not by a published standard.
 :::
 
 ::: tactic n=10
@@ -567,7 +568,7 @@ Question a practice and you are lax, materialistic, insufficiently serious about
 
 **The counter.** Voluntary discipline becomes strategic ambiguity when social punishment does the work that doctrine denies doing. If refusal costs dignity, the practice is not merely optional.
 
-**Evidence grade.** [[Cultural]] Deflecting criticism as laxity, and deploying anekantavada selectively, are conversational rather than institutional.
+**Evidence grade.** [[Cultural]] The shifting account of why the dietary and fasting rules apply, and the shame attached to refusal, are social practice; no rule states them.
 :::
 
 ::: tactic n=11
@@ -586,7 +587,7 @@ Question a practice and you are lax, materialistic, insufficiently serious about
 
 **The counter.** Nonviolence loses credibility when it becomes psychologically violent. If a person’s body is shamed in the name of harmlessness, the institution has projected harm onto the one trying to survive.
 
-**Evidence grade.** [[Cultural]] Deflecting criticism as laxity, and deploying anekantavada selectively, are conversational rather than institutional.
+**Evidence grade.** [[Cultural]] Accusing those who relax practice of violence is conversational; it draws on the community's moral vocabulary and is not backed by any ruling.
 :::
 
 ::: tactic n=12
@@ -606,7 +607,7 @@ Question a practice and you are lax, materialistic, insufficiently serious about
 
 **The counter.** Voluntary discipline stops being voluntary when refusal brings shame. If a person cannot protect their body without being accused of violence or impurity, then nonviolence has been reversed into psychological harm.
 
-**Evidence grade.** [[Cultural]] Deflecting criticism as laxity, and deploying anekantavada selectively, are conversational rather than institutional.
+**Evidence grade.** [[Cultural]] The reversal of harm and accusation described here happens in conversation and family pressure, and no ruling or document records it.
 :::
 
 ::: tactic n=13
@@ -705,7 +706,7 @@ Auctioned ritual honors converting wealth directly into sanctity. Temple trusts 
 
 **The counter.** Encouragement becomes FLYING MONKEY behavior when moral pressure is delivered through family and community surveillance. If everyone at the table becomes an inspector of purity, nonviolence has become socially violent.
 
-**Evidence grade.** [[Cultural]] Fasting status, sponsorship prestige, and honor economies are communal; auctioned ritual honors are codified and separately sourced.
+**Evidence grade.** [[Cultural]] The pressure comes from relatives, temple members and friends acting on community norms, and no body directs them.
 :::
 
 ::: tactic n=17
@@ -724,7 +725,7 @@ Auctioned ritual honors converting wealth directly into sanctity. Temple trusts 
 
 **The counter.** Reducing harm becomes smear when the person protecting their own body is painted as morally degraded. If nonviolence produces character assassination, it has contradicted itself.
 
-**Evidence grade.** [[Cultural]] Fasting status, sponsorship prestige, and honor economies are communal; auctioned ritual honors are codified and separately sourced.
+**Evidence grade.** [[Cultural]] The smearing of those who relax practice is done by community members in conversation, and no ruling or document records it.
 :::
 
 ::: tactic n=18
@@ -743,7 +744,7 @@ Auctioned ritual honors converting wealth directly into sanctity. Temple trusts 
 
 **The counter.** Restraint becomes stonewalling when bodily harm cannot be named without being called attachment. If nonviolence cannot hear the body’s protest, it has become violence with clean hands.
 
-**Evidence grade.** [[Cultural]] Fasting status, sponsorship prestige, and honor economies are communal; auctioned ritual honors are codified and separately sourced.
+**Evidence grade.** [[Cultural]] The silence and deflection described are family and temple habits, and no rule requires them.
 :::
 
 ::: tactic n=19
@@ -781,7 +782,7 @@ Auctioned ritual honors converting wealth directly into sanctity. Temple trusts 
 
 **The counter.** Compassion becomes TRAUMA BONDING when the person’s own body is treated as the enemy. If guilt is endless and relief only comes through deeper self-denial, nonviolence has been turned into a cycle of self-harm and approval.
 
-**Evidence grade.** [[Cultural]] Fasting status, sponsorship prestige, and honor economies are communal; auctioned ritual honors are codified and separately sourced.
+**Evidence grade.** [[Cultural]] The cycle of guilt and relief through fasting and vows is a pattern of practice and family approval, and no document records it.
 :::
 
 ::: tactic n=21
@@ -800,7 +801,7 @@ Auctioned ritual honors converting wealth directly into sanctity. Temple trusts 
 
 **The counter.** Moral honesty becomes LEARNED HELPLESSNESS when the person is given no livable way to be good. If ordinary survival is failure, guilt becomes the atmosphere.
 
-**Evidence grade.** [[Cultural]] Fasting status, sponsorship prestige, and honor economies are communal; auctioned ritual honors are codified and separately sourced.
+**Evidence grade.** [[Cultural]] The constant sense of failure follows from the high standard of nonviolence and from the community's response, and no institution enforces it.
 :::
 
 ::: tactic n=22
@@ -819,7 +820,7 @@ Auctioned ritual honors converting wealth directly into sanctity. Temple trusts 
 
 **The counter.** Nonviolence becomes BENEVOLENT CONTROL when it harms the person practicing it. If the community protects insects more tenderly than a member’s body, compassion has become selective.
 
-**Evidence grade.** [[Cultural]] Fasting status, sponsorship prestige, and honor economies are communal; auctioned ritual honors are codified and separately sourced.
+**Evidence grade.** [[Cultural]] The framing of restriction as compassion is family and community custom, and no body requires it.
 :::
 
 ::: tactic n=23
@@ -838,7 +839,7 @@ Auctioned ritual honors converting wealth directly into sanctity. Temple trusts 
 
 **The counter.** Discipline becomes INFANTILIZATION when adults are not trusted with their own bodies. If hunger, illness, or limits are treated as childish weakness, moral seriousness has become bodily control.
 
-**Evidence grade.** [[Contested]] Digambara doctrine holds that women cannot attain liberation in a female body; the Svetambara tradition disagrees. *(sourced)*
+**Evidence grade.** [[Contested]] The contest recorded here is doctrinal: Digambara doctrine holds that women cannot attain liberation in a female body, and the Svetambara tradition disagrees. The entry's own examples, adults corrected over food and fasting, rest on community custom. *(sourced)*
 :::
 
 ::: tactic n=24
@@ -858,7 +859,7 @@ Auctioned ritual honors converting wealth directly into sanctity. Temple trusts 
 
 **The counter.** Ethical identity becomes IDENTITY EROSION when the person can no longer exist without guilt. If being alive feels morally contaminated, the doctrine has not refined the self. It has made the self ashamed of embodiment.
 
-**Evidence grade.** [[Cultural]] Fasting status, sponsorship prestige, and honor economies are communal; auctioned ritual honors are codified and separately sourced.
+**Evidence grade.** [[Cultural]] The identity built on purity, diet and fasting is formed by community regard and family status, not by any institutional role.
 :::
 
 ::: tactic n=25
@@ -878,7 +879,7 @@ Auctioned ritual honors converting wealth directly into sanctity. Temple trusts 
 
 **The counter.** Restraint becomes SPIRITUAL BYPASSING when it ignores harm to the practitioner. If the body’s distress is dismissed as attachment, ethics has bypassed embodiment.
 
-**Evidence grade.** [[Cultural]] Fasting status, sponsorship prestige, and honor economies are communal; auctioned ritual honors are codified and separately sourced.
+**Evidence grade.** [[Cultural]] The reframing of bodily harm as detachment, and of shame as seriousness, is conversational, and no document prescribes it.
 :::
 
 ::: tactic n=26
@@ -897,7 +898,7 @@ Auctioned ritual honors converting wealth directly into sanctity. Temple trusts 
 
 **The counter.** Giving becomes FINANCIAL CONTROL when generosity ranks souls. If moral prestige is tied to public donation, austerity sponsorship, and community visibility, money has become a ladder disguised as compassion.
 
-**Evidence grade.** [[Codified]] Auctioned ritual honors are an explicit temple funding practice with published bidding. *(sourced)*
+**Evidence grade.** [[Codified]] The auctioning of ritual honors is an explicit, openly conducted temple funding practice; the wider pressure to donate and sponsor described in the entry is communal. *(sourced)*
 :::
 
 ### Stage 7 · Discard {#stage-7}
@@ -926,7 +927,7 @@ No formal expulsion — the community simply knows. Marriage prospects, business
 
 **The counter.** Seriousness becomes MANUFACTURED CRISIS when ordinary survival is treated as spiritual disaster. If every meal can become moral panic, ethics has become a fear system.
 
-**Evidence grade.** [[Cultural]] There is no expulsion apparatus; standing simply adjusts, and everyone knows by the end of the week.
+**Evidence grade.** [[Cultural]] Treating a wrong meal or a broken fast as an emergency is family and community reaction, and no rule or body declares it.
 :::
 
 ::: tactic n=28
@@ -975,7 +976,7 @@ Nothing is announced because nothing needs to be — by Thursday everyone knows,
 
 **The counter.** Honor becomes REPLACEMENT when worth is ranked by austerity. If the person with limits is replaced by the person with stricter denial, compassion has been subordinated to performance.
 
-**Evidence grade.** [[Cultural]] Authority attributed to karma and the ascetic tradition, with no body that could be petitioned or held responsible.
+**Evidence grade.** [[Cultural]] The replacement of a less strict person in moral esteem by stricter relatives and ascetics happens through community regard, and no body performs or records it.
 :::
 
 ::: tactic n=30
@@ -1000,46 +1001,162 @@ Nothing is announced because nothing needs to be — by Thursday everyone knows,
 
 ## 13. The loops {#loops}
 
+::: lede
+The seven loops below show how the practices connect, so that each step makes the next one easier and the last step feeds the first. The loops are analysis built from findings recorded elsewhere on this page [PATTERN OBSERVED]; each step names the section where its fact is recorded.
+:::
+
 ::: card
 #### 1 · Money to Doctrine to Money
 
 Auctioned honors convert wealth into sanctity, funding trusts controlled by the families who win them.
+
+**How it runs.**
+
+1. Ritual honors, such as the right to perform a rite, are auctioned to the highest bidder, in public (sections 3 and 9).
+2. Winning converts wealth directly into sanctity and raises the standing of the winning family (sections 9 and 10).
+3. The proceeds fund temple upkeep, and the temple trusts are run by boards drawn from prominent donor families (sections 7 and 10).
+4. Those boards hold the temple wealth and the auctioned honors under concentrated board control (sections 7 and 16).
+5. The families whose standing rests on winning go on bidding, and the next auction follows (sections 2 and 10).
+
+**Techniques that feed it.** [2 · Weaponized Generosity](#t-2), [26 · Financial Control](#t-26), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** The auction turns wealth into standing, and standing belongs to the same donor families whose members sit on the boards that hold the money. One group sets the terms and benefits from them. Temple trusts and auctioned sponsorships in India publish little (section 9), so no outside reader can follow the money.
+
+**Where it could be broken, and by whom.** It weakens wherever the money becomes visible. The Oshwal Association of the UK files public accounts because charity law requires it (sections 8 and 9), and state trust registrars in India can compel an answer from trusts (section 8). A trustee or donor can ask for the proceeds of each auction to be published. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 2 shows the auction at ten o'clock on a day of fasting: the winning figure is read aloud, the winning family is applauded, and “everyone in the hall now knows what everyone in the hall can afford.”
 :::
 
 ::: card
 #### 2 · Fear to Dependence to Fear
 
-Karmic consequence supplies the fear; public austerity supplies the relief; visibility does the enforcing.
+Karmic consequence supplies the fear, public austerity supplies the relief, and visibility does the enforcing.
+
+**How it runs.**
+
+1. Karmic consequence supplies the fear. Perfect nonviolence is impossible in ordinary life, so the believer is always in deficit (technique 3; section 15).
+2. A person who loosens practice may be told they are accumulating karma or are spiritually careless (technique 4).
+3. Public austerity supplies the relief. Guilt eases through fasting, vows, a stricter diet or monastic approval, and the community honors these publicly (technique 20; section 9).
+4. Everyone can see who fasts and who has stopped, so visibility does the enforcing (sections 7 and 11).
+5. The relief does not last, because ordinary life still causes harm, and the guilt returns (technique 20).
+
+**Techniques that feed it.** [3 · Future Faking](#t-3), [4 · Hoovering](#t-4), [20 · Trauma Bonding](#t-20), [21 · Learned Helplessness](#t-21).
+
+**Why it closes.** The fear and its relief come from the same source. The doctrine that makes ordinary life a source of harm also offers fasting and vows as the way to reduce it, and the community that honors the fasting is the one that sees who has stopped.
+
+**Where it could be broken, and by whom.** It weakens where a person can end a fast for health with no cost to standing. Section 20 names this as the change that would revise the austerity findings on this page. That lies with families, pathshala teachers and temple communities (section 18). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** In section 2, Nita tells her nine-year-old daughter that four days of fasting is not necessary, then adds, lightly, “but you were so close.” She lies awake afterwards, hungry and clear-minded, thinking about who the words were for.
 :::
 
 ::: card
 #### 3 · Children to Members to Children
 
-Dietary and fasting identity attaches in infancy; competitive fasting recruits the next generation through praise.
+Dietary and fasting identity attaches in infancy, and competitive fasting recruits the next generation through praise.
+
+**How it runs.**
+
+1. Dietary restriction begins from birth and makes the child's body a site of religious identity from infancy (section 11).
+2. Children fast during festivals such as Paryushan, and the family earns status from it (sections 10 and 11).
+3. Praise rewards the child who fasts longer. In section 2 there was an announcement at the temple, and section 14 records that a child's fast is publicly credited to the family's standing.
+4. Some children take monastic vows as minors, which gives the orders lifetime members and the family prestige (section 10).
+5. Children raised this way become the adults who fast, sponsor and marry within the community (sections 7 and 11), and the practice passes to the next generation.
+
+**Techniques that feed it.** [13 · Normalization / Desensitization](#t-13), [19 · Manufactured Consent](#t-19), [22 · Benevolent Control](#t-22), [23 · Infantilization](#t-23).
+
+**Why it closes.** Each generation takes on the practice before it can weigh the cost, and is praised for doing so. Recruitment runs through family pride, and no institution has to require it.
+
+**Where it could be broken, and by whom.** It weakens where a child's fast or vow is not credited to the family's standing, and where a court is asked to review a minor's initiation (sections 8 and 19). That lies with parents, pathshala teachers (section 18) and the courts. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** In section 19, a father went to court to stop the initiation of his seven-year-old daughter as a nun, and the Surat court stayed it.
 :::
 
 ::: card
 #### 4 · Aid to Legitimacy to Leverage to Aid
 
 Community philanthropy generates standing that protects the trusts and the networks.
+
+**How it runs.**
+
+1. The community gives generously; its philanthropy and animal-welfare influence far exceed its size (sections 16 and 20).
+2. Visible giving earns moral status for donors (techniques 2 and 26; section 16).
+3. Standing protects the trusts and the networks, because religious standing and commercial credit are the same asset (sections 7 and 16).
+4. The protected trusts continue to hold substantial wealth under concentrated board control, and in India they publish little (sections 9 and 16).
+5. That wealth and credit fund further giving, and the next round begins from a stronger position.
+
+**Techniques that feed it.** [2 · Weaponized Generosity](#t-2), [22 · Benevolent Control](#t-22), [26 · Financial Control](#t-26), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** Giving produces standing, and standing protects the bodies that hold the money. The generosity is real, and it is also the source of the legitimacy that shields the institutions behind it.
+
+**Where it could be broken, and by whom.** It weakens where trusts publish accounts, as the Oshwal Association does in the UK (section 9), and where state trust registrars exercise oversight (section 8). That lies with trustees and registrars. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 9 records the Oshwal Association's 2025 income of £2.10m, of which £662,580 came from donations. The accounts are public because UK charity law requires it.
 :::
 
 ::: card
 #### 5 · Unpaid Labor to Assets to Power to More Labor
 
 Lay wealth and labor build temples held by concentrated boards.
+
+**How it runs.**
+
+1. Lay donors and volunteers build and sustain temples and community institutions; wealthy lay patronage created a durable temple economy (sections 5 and 9).
+2. Monastic life also rests on the laity: ascetics depend entirely on laity for support (section 5).
+3. The temples and their wealth are held by trusts under concentrated board control, with boards drawn from prominent donor families (sections 7 and 9).
+4. Donor prestige hierarchies determine influence over those boards (section 16).
+5. Families of modest means, who hold no such influence, compete in a visible sponsorship economy and give more (sections 16 and 17).
+
+**Techniques that feed it.** [2 · Weaponized Generosity](#t-2), [26 · Financial Control](#t-26), [29 · Replacement](#t-29).
+
+**Why it closes.** Labor and wealth move in one direction, toward assets that the boards hold, and those who supply them hold no office over the result.
+
+**Where it could be broken, and by whom.** It weakens where the assets answer to those who supply them: through published trust accounts (section 9) and through state trust registrars (section 8). That lies with trustees and registrars. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 18 describes monastic attendants and lay organizers who support ascetics and arrange public events, and who are asked to maximize participation.
 :::
 
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
-There is no scandal apparatus — reputational adjustment happens silently and nothing is ever recorded.
+There is no scandal apparatus; reputational adjustment happens silently, and nothing is ever recorded.
+
+**How it runs.**
+
+1. A person departs from community expectations by stopping a fast, relaxing diet or questioning purity pressure (sections 12 and 15).
+2. No formal process follows, because there is no excommunication apparatus for ordinary members (section 15).
+3. Standing adjusts at once: marriage prospects, business trust and family standing shift together (technique 28; section 12, stage 7).
+4. Nothing is announced. Section 14 records no public election or removal.
+5. The trusts and acharyas continue unchanged, and the trust accounts remain unpublished (sections 9 and 14).
+
+**Techniques that feed it.** [17 · Smear Campaign](#t-17), [18 · Silent Treatment / Stonewalling](#t-18), [28 · Discard](#t-28), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** Because the adjustment is informal, it leaves no record and no decision-maker to hold to account. Nothing is reformed, because nothing was officially done.
+
+**Where it could be broken, and by whom.** The one case on this page that reached a formal verdict did so through the criminal courts: a Digambar monk sentenced by a sessions court in 2025 (section 19). Police and courts can act where the community does not (section 24), and state trust registrars can compel answers from trusts (section 8). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 14 predicts it: “Nothing will be announced. Standing will adjust, quietly, and the trust accounts will remain unpublished.”
 :::
 
 ::: card
 #### 7 · Persecution to Solidarity to Insulation to Unaccountability
 
 The community's minority status is invoked to make internal criticism seem disloyal to a small, vulnerable people.
+
+**How it runs.**
+
+1. Jains are a small minority: 4.45 million in India in 2011, 0.4% of the population (section 6; source [1]).
+2. The community's small size and commercial integration mean that everyone is known (section 7).
+3. Internal criticism can then be framed as disloyalty to a small people. The page records no instance of this wording; the step follows the loop as stated.
+4. Objections are met with replies such as “Business is business” and “Nothing is compulsory in Jainism” (sections 3 and 15).
+5. The community's practices go unexamined, and the next criticism is met the same way.
+
+**Techniques that feed it.** [11 · Projection](#t-11), [12 · DARVO](#t-12), [16 · Flying Monkeys](#t-16), [17 · Smear Campaign](#t-17).
+
+**Why it closes.** Each criticism can be read as an attack on a vulnerable people, so criticism strengthens the solidarity that shields the community from it.
+
+**Where it could be broken, and by whom.** It weakens where criticism comes from inside, as when anekantavada is used on the community's own certainties (sections 3 and 23), and where courts hear the questions (section 22). That lies with members and the courts. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 3 records the objection “Nobody in this community forces anyone to do anything,” which the page calls the most accurate defense in the codex and then answers.
 :::
 
 ## 14. Say versus do {#say-do}
@@ -1055,9 +1172,9 @@ The community's minority status is invoked to make internal criticism seem dislo
 
 ### Accountability or theatre?
 
-**Last time the chair ran.** Nothing publicly. That is not evidence of absence; it is evidence of a community that resolves everything without records.
+**Last time the chair ran.** It has not run publicly. That is not evidence of absence; it is evidence of a community that resolves everything without records.
 
-**Who holds the chair now.** Trust boards, monastic acharyas, and the marriage-and-credit network.
+**Who holds the chair now.** The chair is held by trust boards, monastic acharyas and the marriage-and-credit network.
 
 **Prediction.** Nothing will be announced. Standing will adjust, quietly, and the trust accounts will remain unpublished.
 
@@ -1065,8 +1182,8 @@ The community's minority status is invoked to make internal criticism seem dislo
 
 | Term | What it means inside | What it does | Said plainly |
 |---|---|---|---|
-| Tapasya | Ascetic practice; austerity. | A profound discipline, and a public scoreboard. The prestige attaching to visible fasting is what converts a spiritual practice into social pressure on the young. | 'Your restraint is being watched and ranked.' |
-| Ahimsa (applied inward) | Non-violence, the tradition's central and most admirable ethic. | Held with extraordinary seriousness toward the smallest creatures. The question the tradition is best equipped to ask itself is whether it extends to the girl fasting for her family's standing. | 'Harm no creature — and here is a harm we have not counted.' |
+| Tapasya | Tapasya means ascetic practice, or austerity. | It is a profound discipline and a public scoreboard. The prestige attaching to visible fasting is what converts a spiritual practice into social pressure on the young. | 'Your restraint is being watched and ranked.' |
+| Ahimsa (applied inward) | Ahimsa means non-violence, the tradition's central and most admirable ethic. | It is held with extraordinary seriousness toward the smallest creatures. The question the tradition is best equipped to ask itself is whether it extends to the girl fasting for her family's standing. | 'Harm no creature — and here is a harm we have not counted.' |
 
 ## 15. Cost & cover {#cost}
 
@@ -1081,7 +1198,7 @@ The community's minority status is invoked to make internal criticism seem dislo
 |---|---|---|---|
 | Marriage and business networks | Yes | Community integration means religious standing and commercial trust are one system | “Business is business.” |
 | Family honor | Yes | Public austerity and dietary conformity are family status; deviation is visible immediately | “No one forces anyone to fast.” |
-| Formal religious sanction | Rare | No excommunication apparatus for ordinary members | Accurately: institutional exit penalties are low. |
+| Formal religious sanction | Rare | There is no excommunication apparatus for ordinary members. | The denial is accurate, since institutional exit penalties are low. |
 | Spiritual framing | Yes | Karmic consequence for harm and laxity; guilt as the primary enforcement | “That is simply what karma means.” |
 
 ### How the cost is denied
@@ -1091,11 +1208,11 @@ The community's minority status is invoked to make internal criticism seem dislo
 | Explicit policy | Medium | Monastic codes and temple rules are written; social enforcement is not. |
 | Informal enforcement | Very high | Reputation within a small, dense community is the entire mechanism. |
 | Leadership distance | High | Monastic orders disclaim lay conduct; trusts disclaim family behavior. |
-| Doctrinal ambiguity | Medium | Anekantavada cuts both ways: genuine humility, and a ready answer that any practice is just one view. |
-| Cultural outsourcing | High | Dowry and caste practice attributed to Indian culture despite non-possession ethics. |
+| Doctrinal ambiguity | Medium | Anekantavada cuts both ways, as genuine humility and as a ready answer that any practice is just one view. |
+| Cultural outsourcing | High | Dowry and caste practice are attributed to Indian culture despite the ethic of non-possession. |
 | Volunteer enforcement | Very high | Families and neighbors enforce; no institution issues instructions. |
 | Sacred secrecy | Low | Practice is highly public — visibility is the enforcement, not secrecy. |
-| Exit cost denial | High | 'Nothing is compulsory in Jainism' — said within a community where everything is observed. |
+| Exit cost denial | High | 'Nothing is compulsory in Jainism' is said within a community where everything is observed. |
 
 ::: cites
 Sources for this section: [2] [3]
@@ -1105,7 +1222,7 @@ Sources for this section: [2] [3]
 
 ### Who benefits
 
-- Trust boards and community elites controlling ritual honors and match networks; families accruing status from members' austerities.
+- Trust boards and community elites control ritual honors and match networks, and families accrue status from members' austerities.
 
 ### Money out, leverage back
 
@@ -1115,23 +1232,25 @@ Sources for this section: [2] [3]
 
 ### Who pays
 
-- Women, under liberation-capacity doctrine, ritual exclusion, and dowry practice.
-- Children pushed into competitive fasting or minor renunciation.
-- Elderly people in contested santhara cases where family honor may shade voluntary dying.
-- Families of modest means, competing in a visible sponsorship economy.
-- Anyone whose independence would cost them the credit and marriage network at once.
+- Women pay, under liberation-capacity doctrine, ritual exclusion and dowry practice.
+- Children pay, pushed into competitive fasting or minor renunciation.
+- Elderly people pay in contested santhara cases, where family honor may shade voluntary dying.
+- Families of modest means pay, competing in a visible sponsorship economy.
+- Anyone whose independence would cost them the credit and marriage network at once pays as well.
 
 ## 17. Who gets hurt most {#who-gets-hurt}
 
 ### Where the weight lands
 
+The costs in section 15 do not fall evenly. They fall on women, on children, on families of modest means, on the elderly in contested santhara cases, and on anyone who dissents. The table names who carries each cost, how, and what makes it worse.
+
 | Who | How | What it compounds with |
 |---|---|---|
-| Women | Liberation-capacity doctrine, ritual exclusion, dowry despite non-possession | With monastic subordination despite outnumbering monks |
-| Children | Competitive fasting for family status, and in some cases minor renunciation | Where refusing would publicly shame the parents |
-| Families of modest means | A visible sponsorship and austerity economy they cannot compete in | In a community where everything is observed |
-| The elderly in contested santhara cases | Voluntary religious dying, shaded by family honor | Where the family gains status from the death |
-| Anyone who dissents | Marriage network and business credit adjust simultaneously | Because they are the same network |
+| Women | Women carry liberation-capacity doctrine, ritual exclusion, and dowry despite non-possession. | This compounds with monastic subordination, despite outnumbering monks. |
+| Children | Children are pushed into competitive fasting for family status, and in some cases into minor renunciation. | This compounds where refusing would publicly shame the parents. |
+| Families of modest means | They cannot compete in a visible sponsorship and austerity economy. | This compounds in a community where everything is observed. |
+| The elderly in contested santhara cases | Their voluntary religious dying is shaded by family honor. | This compounds where the family gains status from the death. |
+| Anyone who dissents | Marriage network and business credit adjust simultaneously. | This happens because they are the same network. |
 
 ### From The Children's Codex
 
@@ -1139,12 +1258,14 @@ Sources for this section: [2] [3]
 
 ## 18. The middle tiers {#tiers}
 
+Much of the work that sustains the community's pressures is done by people in the middle, who see what happens and are asked to go along with it. Trust board members, pathshala (Jain religious school) teachers, matchmakers and community elders, and monastic attendants and lay organizers each stand at one point where the next step could be declined. The table sets out what each role does, what it sees, what it is asked to do and what it could refuse.
+
 | Role | Does | Sees | Is asked to | Could refuse |
 |---|---|---|---|---|
-| Trust board members | Holds and allocates temple wealth | How donor prestige determines influence | To keep accounts internal | To run the honors auction |
-| Pathshala teachers | Teaches children the discipline | Which children are fasting past safety | To praise austerity | To publicly rank children by how long they went without food |
-| Matchmakers and community elders | Runs the network that makes dissent commercially expensive | That religious standing and creditworthiness are the same thing | To maintain standards | To let a family's religious observance affect their business credit |
-| Monastic attendants and lay organizers | Supports ascetics and arranges public events | Where honor and sponsorship pressure lands on modest families | To maximize participation | To publish sponsorship rankings |
+| Trust board members | Hold and allocate temple wealth | How donor prestige determines influence | Keep accounts internal | Run the honors auction |
+| Pathshala teachers | Teach children the discipline | Which children are fasting past safety | Praise austerity | Publicly rank children by how long they went without food |
+| Matchmakers and community elders | Run the network that makes dissent commercially expensive | That religious standing and creditworthiness are the same thing | Maintain standards | Let a family's religious observance affect their business credit |
+| Monastic attendants and lay organizers | Support ascetics and arrange public events | Where honor and sponsorship pressure lands on modest families | Maximize participation | Publish sponsorship rankings |
 
 ## 19. Documented cases {#cases}
 
@@ -1184,9 +1305,9 @@ Sources for this section: [2] [3]
 
 | What | Who | When | What it cost |
 |---|---|---|---|
-| Anekantavada — canonical many-sidedness | The tradition itself | Ancient | None; the strongest native anti-dogmatism principle in this codex |
-| Public criticism and litigation over minor renunciation | Reformers and Indian courts | 2008–present (most recently a 2026 court stay of a seven-year-old’s initiation) | Community backlash |
-| Animal welfare and vegetarian advocacy far exceeding the community's size | Jain institutions | Continuous | None — the truest thing on this page |
+| Anekantavada — canonical many-sidedness | The tradition itself | Ancient | It cost nothing; it is the strongest native anti-dogmatism principle in this codex. |
+| Public criticism and litigation over minor renunciation | Reformers and Indian courts | 2008–present (most recently a 2026 court stay of a seven-year-old’s initiation) | Reformers faced community backlash. |
+| Animal welfare and vegetarian advocacy far exceeding the community's size | Jain institutions | Continuous | It cost nothing; this is the truest thing on this page. |
 
 ### What would change this page
 
@@ -1198,30 +1319,30 @@ Sources for this section: [4] [6]
 
 ## 21. Voices from inside {#voices}
 
-- **Nikhil Soni.** The petitioner who challenged santhara in court [2].
-- **The father in the Surat diksha case,** who asked a court to protect his seven-year-old [4].
-- **The young woman in the Surat rape case,** whose testimony convicted a monk her family revered [9].
-- **Padmanabh S. Jaini.** A Jain scholar whose *Gender and Salvation* (1991) set out the tradition's own debate about whether women can be liberated [7].
+- **Nikhil Soni.** He was the petitioner who challenged santhara in court [2].
+- **The father in the Surat diksha case** asked a court to protect his seven-year-old [4].
+- **The young woman in the Surat rape case.** She is the witness whose testimony convicted a monk her family revered [9].
+- **Padmanabh S. Jaini.** He was a Jain scholar whose *Gender and Salvation* (1991) set out the tradition's own debate about whether women can be liberated [7].
 
 ## 22. Regional variants {#regional}
 
 ::: card
 ### India
 - **apex:** No single authority; Acharyas lead their own orders [5].
-- **law:** Santhara and diksha before the courts [2][3][4].
-- **documented:** The 2015 santhara ruling and stay [2][3]; the 2026 diksha stay [4]; the 2025 rape conviction [9].
+- **law:** Santhara and diksha have come before the courts [2][3][4].
+- **documented:** The record includes the 2015 santhara ruling and stay [2][3], the 2026 diksha stay [4] and the 2025 rape conviction [9].
 - **exit:** Leaving the monastic life is possible; for children initiated young, the question is whether they could choose at all.
-- **regulator:** State trust registrars and the courts.
+- **regulator:** State trust registrars and the courts act as regulators.
 - **tell:** Every question on this page reached a court because the community had no other forum for it.
 :::
 
 ::: card
 ### United Kingdom
-- **apex:** Community associations; no single authority.
-- **law:** Charity law [8].
-- **documented:** The Oshwal Association's accounts [8].
-- **exit:** Legally free.
-- **regulator:** The Charity Commission [8].
+- **apex:** Community associations lead, and no single authority exists.
+- **law:** Charity law applies [8].
+- **documented:** The Oshwal Association's accounts are public [8].
+- **exit:** Exit is legally free.
+- **regulator:** The Charity Commission regulates [8].
 - **tell:** Diaspora Jain bodies publish accounts; Indian temple trusts mostly do not.
 :::
 
