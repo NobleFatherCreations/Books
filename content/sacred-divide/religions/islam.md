@@ -18,13 +18,13 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | About 2 billion (Pew, 2020 data); projected to be the largest religion later this century. [ACADEMIC SOURCE: Pew] |
-| Who's in charge | Grand Imam of al-Azhar — Sheikh Ahmed el-Tayeb, since 2010 |
+| Size | Islam has about 2 billion adherents (Pew, 2020 data) and is projected to be the largest religion later this century. [ACADEMIC SOURCE: Pew] |
+| Who's in charge | The Grand Imam of al-Azhar (the mosque and university in Cairo that is Sunni Islam's most-cited seat of learning) is Sheikh Ahmed el-Tayeb, in office since 2010. |
 | Chosen by / removable by | Since 2012, elected by al-Azhar's Council of Senior Scholars and confirmed by presidential decree / Nobody — Egypt's 2014 Constitution makes the Grand Imam irremovable |
-| Money in one line | Zakat (2.5% obligatory alms), sadaqa, waqf endowments (historically enormous property trusts), hajj economy, halal certification fees, mosque fundraising. |
-| Leaving in one line | Apostasy carries criminal penalties in a number of states — up to death in several — and severe social/familial consequences far more widely. [OFFICIAL POLICY: national penal codes — about ten states, per Humanists International] |
+| Money in one line | The money comes from zakat (2.5% obligatory alms), sadaqa (voluntary charity), waqf endowments (historically enormous property trusts), the hajj economy (the pilgrimage to Mecca), halal certification fees (for certifying goods as religiously permitted) and mosque fundraising. |
+| Leaving in one line | Apostasy (leaving Islam) carries criminal penalties in a number of states, up to death in several, and severe social and family consequences far more widely. [OFFICIAL POLICY: national penal codes — about ten states, per Humanists International] |
 | The unanswered question | If there is no compulsion in religion, why do apostasy statutes still stand — and who benefits from keeping them on the books? |
-| Evidence | 6 of 30 techniques sourced to a named document; grades: Contested 18, Cultural 5, Codified 4, Taught 3 |
+| Evidence | Six of the 30 techniques are sourced to a named document. The grades are Contested 18, Cultural 5, Codified 4 and Taught 3. |
 | Family | Islam — islam, sunni-islam, shia-islam, ahmadiyya, dawoodi-bohra |
 | Last checked | 2026-09-27 |
 :::
@@ -41,7 +41,7 @@ partial: []
 
 *Aliyah · A Tuesday in Ramadan · A European city, a diaspora community*
 
-Suhoor at 4:10, eating standing up at the counter so as not to wake her sister. Then Fajr, and the particular clarity of the early prayer in a quiet flat, which is the best thing in her week and which she would defend against anyone.
+Suhoor (the meal before the day's fast) at 4:10, eating standing up at the counter so as not to wake her sister. Then Fajr (the dawn prayer), and the particular clarity of the early prayer in a quiet flat, which is the best thing in her week and which she would defend against anyone.
 
 On the tram at eight a man looks at her scarf for slightly too long. This is Tuesday. This is also Monday and Thursday. At work nobody says anything and everybody is careful, and the carefulness is its own kind of weather.
 
@@ -49,7 +49,7 @@ Her uncle calls at eleven, which is unusual. He has heard from someone that she 
 
 At lunch her cousin sends a voice note about the community centre — something about the new imam, and a family that has stopped attending, and a boy, and then the note ends with *anyway don't say anything, they'll make it about the mosque and you know how people are right now.* Aliyah listens to it twice and does not reply.
 
-Iftar at her parents' flat, twenty-one people, three generations, food that no restaurant has ever matched. Her nephew falls asleep against her arm. She thinks, as she does every year, that whatever else is true, this is what she would fight for.
+Iftar (the meal that breaks the fast) at her parents' flat, twenty-one people, three generations, food that no restaurant has ever matched. Her nephew falls asleep against her arm. She thinks, as she does every year, that whatever else is true, this is what she would fight for.
 
 Later her mother asks, gently, in the kitchen, whether she has thought about Tariq's proposal. Aliyah says she is thinking. Her mother says that a woman's situation changes after thirty, and that she says this only because she loves her. Aliyah dries a plate. She is thinking that she does not know how to explain that she wants the iftar and not the arrangement, and that there may be nobody in the flat she can say that to.
 
@@ -75,7 +75,7 @@ If there is no compulsion in religion, why do apostasy statutes still stand — 
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Legal jeopardy | Yes, in specific jurisdictions | Apostasy and blasphemy statutes, up to capital penalties in a few states | “No one is executed for belief, only for sedition.” |
+| Legal jeopardy | It is documented in specific jurisdictions. | Apostasy and blasphemy statutes carry penalties up to death in a few states. | “No one is executed for belief, only for sedition.” |
 
 ### The strongest objection, answered
 
@@ -88,27 +88,31 @@ If there is no compulsion in religion, why do apostasy statutes still stand — 
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-About 2 billion Muslims worldwide (Pew, 2020 data); a tradition of submission to God centered on the Qur'an and the example of the Prophet Muhammad, with rich legal, mystical, and intellectual schools.
+There are about 2 billion Muslims worldwide (Pew, 2020 data). Islam is a tradition of submission to God, centered on the Qur'an and the example of the Prophet Muhammad, with rich legal, mystical and intellectual schools.
 :::
 
-- The tradition's own anti-clericalism: no intermediary between believer and God; centuries of scholars refusing state payroll to preserve independence.
-- Reformist and feminist scholarship from within (ijtihad revival); mosques with elected boards and financial transparency.
-- Qur’an 2:256 — “there is no compulsion in religion” — is the tradition’s own standard, and it is the one this page measures the institutions against.
+The tradition has its own anti-clericalism. No intermediary stands between the believer and God, and for centuries scholars refused state payroll to preserve their independence.
+
+Healthy practice here looks like reformist and feminist scholarship from within, in the revival of ijtihad (independent legal reasoning from the sources), and like mosques with elected boards and financial transparency.
+
+Qur’an 2:256, “there is no compulsion in religion”, is the tradition’s own standard, and it is the one this page measures the institutions against.
+
+Some of that standard is already on the record. Musawah, the global movement for equality in Muslim family law, was launched in Kuala Lumpur in 2009 by the Malaysian group Sisters in Islam [34][35]. Nahdlatul Ulama, the world's largest Muslim organization, chose its chair in a contested vote in 2021 [25]. Morocco's 2004 family code set the marriage age at 18 and opened divorce to wives [6]. Indonesia raised the marriage age to 19 for both sexes in 2019 [3], and Tunisia repealed its ban on Muslim women marrying non-Muslim men in 2017 [7]. In India a Muslim woman, Shayara Bano, won the case that struck down instant triple talaq (divorce by a husband pronouncing it three times at once) [2]. Each is a place where members or institutions met the standard this page applies, and each is recorded here as credit.
 
 ## 5. History {#history}
 
-7th-century Arabia; Muhammad's prophetic movement in Mecca and Medina (610–632 CE); rapid expansion under the caliphates fused religious and political authority; classical legal schools (madhhabs) crystallized interpretation; no central 'church' — authority is distributed among scholars, states, and communities.
+Islam began in 7th-century Arabia, with Muhammad's prophetic movement in Mecca and Medina (610–632 CE). Rapid expansion under the caliphates (the states ruled by the Prophet's successors) fused religious and political authority. The classical legal schools (madhhabs) crystallized interpretation. There is no central 'church', and authority is distributed among scholars, states and communities.
 
 ### Timeline
 
 ```timeline
 610–622 CE | Muhammad's prophetic mission in Mecca; persecution of early followers | A movement without a state, defined against elite power.
-622–632 | Hijra to Medina; community becomes a polity | Religion and governance fuse in the founding generation itself — a durable template.
+622–632 | Hijra (the emigration of the Prophet and his followers) to Medina; community becomes a polity | Religion and governance fuse in the founding generation itself — a durable template.
 632–661 | Rashidun caliphate; succession disputes; Qur'an compiled | Political succession and religious authority become inseparable questions.
-661–1258 | Umayyad and Abbasid empires; legal schools (madhhabs) form; hadith sciences develop | Scholars build interpretive authority independent of rulers — a genuine check on power.
-900–1500 | Sufi orders, madrasas, vast waqf endowments | Enormous religious wealth accumulates in trusts with named administrators.
+661–1258 | Umayyad and Abbasid empires; legal schools (madhhabs) form; the sciences of hadith (reports of the Prophet's words and deeds) develop | Scholars build interpretive authority independent of rulers — a genuine check on power.
+900–1500 | Sufi (mystical) orders, madrasas (religious schools), vast waqf endowments | Enormous religious wealth accumulates in trusts with named administrators.
 1500–1900 | Ottoman, Safavid, Mughal empires; state-appointed clerical hierarchies | Religious offices become civil service posts.
-1800s–1924 | Colonial rule; waqf and sharia courts absorbed by colonial states; caliphate abolished | Classical scholarly independence is dismantled and never rebuilt.
+1800s–1924 | Colonial rule; waqf and sharia (Islamic law) courts absorbed by colonial states; caliphate abolished | Classical scholarly independence is dismantled and never rebuilt.
 1920s–1970s | Islamic revival movements; state religious ministries established | Governments become the largest employers of clergy — endorsement for salary.
 1970s–2000s | Oil wealth funds global religious infrastructure; satellite preachers | Interpretation becomes an export market. [ACADEMIC SOURCE]
 2001–present | Securitization of Muslims globally; online authority fragmentation; reform and feminist scholarship | External persecution and internal control operate simultaneously — both must be named honestly. [GOVERNMENT REPORT]
@@ -121,7 +125,7 @@ About 2 billion Muslims worldwide (Pew, 2020 data); a tradition of submission to
 
 With the Umayyad accession, the succession of leadership passed from a contested consultative process to hereditary rule from Damascus. The community's most consequential political question was settled by a family.
 
-**Why it matters.** The moment religious authority and dynastic power fused in this tradition. Both the Sunni and Shia pages descend from this, and so does every modern arrangement where a ministry appoints the scholars.
+**Why it matters.** It was the moment religious authority and dynastic power fused in this tradition. Both the Sunni and Shia pages descend from this, and so does every modern arrangement where a ministry appoints the scholars.
 :::
 
 ::: card
@@ -129,7 +133,7 @@ With the Umayyad accession, the succession of leadership passed from a contested
 
 Muhammad ibn Abd al-Wahhab and Muhammad ibn Saud agreed terms: religious legitimacy for the house, political protection for the doctrine. It was a specific bargain between two named men in one place.
 
-**Why it matters.** The single most consequential religious-political contract of the modern era. Everything about state-appointed scholarship on this page runs back to a deal, which means it was a choice, which means it could have been otherwise.
+**Why it matters.** It was the single most consequential religious-political contract of the modern era. Everything about state-appointed scholarship on this page runs back to a deal, which means it was a choice, which means it could have been otherwise.
 :::
 
 ::: card
@@ -137,12 +141,12 @@ Muhammad ibn Abd al-Wahhab and Muhammad ibn Saud agreed terms: religious legitim
 
 Sheikh Ahmed el-Tayeb of al-Azhar and Pope Francis signed a joint declaration in Abu Dhabi affirming freedom of belief and rejecting religious coercion. It was a real, high-level, published commitment.
 
-**Why it matters.** Worth recording precisely because it makes the unanswered question sharper rather than softer: the same signature, and the apostasy statutes still stand. A document is not a repeal, and the distance between them is the finding.
+**Why it matters.** It is worth recording precisely because it makes the unanswered question sharper rather than softer: the same signature, and the apostasy statutes still stand. A document is not a repeal, and the distance between them is the finding.
 :::
 
 ## 6. Branches & variants {#branches}
 
-Sunni (~85–90%), Shia (~10–13%, mostly Twelver, with Ismaili and Zaydi branches), plus Ibadi (Oman), Ahmadi (persecuted, and excluded by several states from the legal category of Muslim), Turkey’s Alevis, and Sufi orders crossing all of these lines.
+The main branches are Sunni (~85–90%) and Shia (~10–13%). Most Shia are Twelvers, who recognize a line of twelve imams after the Prophet; the Ismaili and Zaydi branches follow other lines of succession. There are also the Ibadi (Oman), the Ahmadi (persecuted, and excluded by several states from the legal category of Muslim) and Turkey’s Alevis (a distinct tradition centered on devotion to Ali), and Sufi orders cross all of these lines.
 
 ::: cites
 Sources for this section: [4] [23]
@@ -150,12 +154,12 @@ Sources for this section: [4] [23]
 
 | Branch | Share and place | What differs on this page's questions |
 |---|---|---|
-| **Sunni** | About 87–90% of Muslims [23] | Authority in four legal schools and in state-appointed or state-funded scholarly bodies (see Sunni Islam). |
-| **Shia** | About 10–13% [23] | A scholarly hierarchy (the marjaʿiyya) and, in Iran, a cleric as head of state (see Shia Islam). |
-| **Ibadi** | Majority in Oman; also Zanzibar and North Africa; over 2.5 million [32] | Close to Sunni practice; historically an elected, not hereditary, imam [32]. |
-| **Ahmadiyya** | A global community with a Khalifa in the UK | Declared non-Muslim by law in Pakistan (see Ahmadiyya). |
-| **Dawoodi Bohra** | South Asia and diaspora | A hereditary *dai* with wide authority over members (see Dawoodi Bohra). |
-| **Sufi orders** | Across every branch | Authority through a living shaykh, in all of the above. |
+| **Sunni** | Sunnis are about 87–90% of Muslims [23]. | Authority sits in four legal schools and in state-appointed or state-funded scholarly bodies (see Sunni Islam). |
+| **Shia** | Shia are about 10–13% of Muslims [23]. | Authority sits with a scholarly hierarchy (the marjaʿiyya, the senior jurists whom believers follow) and, in Iran, with a cleric as head of state (see Shia Islam). |
+| **Ibadi** | Ibadis are the majority in Oman and are also found in Zanzibar and North Africa; they number over 2.5 million [32]. | Their practice is close to Sunni practice, and historically their imam was elected, not hereditary [32]. |
+| **Ahmadiyya** | It is a global community whose Khalifa (its spiritual head) is based in the UK. | Pakistan's law declares its members non-Muslim (see Ahmadiyya). |
+| **Dawoodi Bohra** | The community lives in South Asia and the diaspora. | A hereditary *dai* (the community's supreme religious leader) holds wide authority over members (see Dawoodi Bohra). |
+| **Sufi orders** | Sufi orders are found across every branch. | Authority runs through a living shaykh (the order's spiritual master), in all of the above. |
 
 ## 7. Structure {#structure}
 
@@ -163,14 +167,14 @@ Sources for this section: [4] [23]
 
 |  |  |
 |---|---|
-| Adherents | About 2 billion (Pew, 2020 data); projected to be the largest religion later this century. [ACADEMIC SOURCE: Pew] |
-| Regions | Indonesia (largest), Pakistan, India, Bangladesh, Nigeria, Egypt, Iran, Turkey; substantial European and North American communities. |
-| Trend | Fastest-growing major religion, primarily by fertility and youth demographics rather than conversion. |
-| Participation | Very wide range: from state-enforced observance (Iran, Saudi Arabia) to fully secular self-identification (Turkey, Central Asia, diaspora). Adherent counts say nothing about who is subject to religious authority. |
+| Adherents | Islam has about 2 billion adherents (Pew, 2020 data) and is projected to be the largest religion later this century. [ACADEMIC SOURCE: Pew] |
+| Regions | Indonesia has the largest Muslim population. Other large populations are in Pakistan, India, Bangladesh, Nigeria, Egypt, Iran and Turkey, and there are substantial European and North American communities. |
+| Trend | Islam is the fastest-growing major religion, primarily through fertility and a young population rather than conversion. |
+| Participation | Participation varies very widely, from state-enforced observance (Iran, Saudi Arabia) to fully secular self-identification (Turkey, Central Asia, diaspora). Adherent counts say nothing about who is subject to religious authority. |
 
 ### Authority
 
-- No clergy in the sacramental sense, but effective authority in scholars (ulama), mosque institutions, state religious ministries, and family/community enforcement.
+- Islam has no clergy in the sacramental sense, but effective authority rests with scholars (ulama), mosque institutions, state religious ministries, and enforcement by family and community.
 - In Muslim-majority states, governments license imams, control sermon content, and administer religious law — state capture of religion is the norm, not the exception. [OFFICIAL POLICY: e.g., ministries of religious affairs across the region]
 
 ### The top of the chain
@@ -181,9 +185,9 @@ Sources for this section: [4] [23]
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| Grand Imam of al-Azhar | Sheikh Ahmed el-Tayeb, since 2010 | Since 2012, elected by al-Azhar's Council of Senior Scholars and confirmed by presidential decree | Nobody — Egypt's 2014 Constitution makes the Grand Imam irremovable |
-| Grand Mufti of Saudi Arabia | Sheikh Saleh al-Fawzan — appointed by royal order on 22 October 2025, a month after Abdulaziz Al ash-Sheikh died | The King | The King |
-| Custodian of the Two Holy Mosques | King Salman bin Abdulaziz — hajj licensing, quotas, and both sanctuaries run through this crown | Succession within the House of Saud | Nobody outside the palace |
+| Grand Imam of al-Azhar | Sheikh Ahmed el-Tayeb has held the office since 2010. | Since 2012 the Grand Imam has been elected by al-Azhar's Council of Senior Scholars and confirmed by presidential decree. | Nobody can remove him; Egypt's 2014 Constitution makes the Grand Imam irremovable. |
+| Grand Mufti of Saudi Arabia | Sheikh Saleh al-Fawzan holds the office, the kingdom's highest official authority on religious rulings. He was appointed by royal order on 22 October 2025, a month after Abdulaziz Al ash-Sheikh died. | The King chooses him. | The King can remove him. |
+| Custodian of the Two Holy Mosques | King Salman bin Abdulaziz holds the title, and hajj licensing, quotas, and both sanctuaries (in Mecca and Medina) run through this crown. | The office passes by succession within the House of Saud. | Nobody outside the palace can remove him. |
 
 ::: tell
 Follow any of these chairs upward and you arrive at a state. So 'that's politics, not the religion' is not an exit from this page — it is the page. al-Azhar is the partial exception: its independence was written into the constitution after 2011, and its budget is still a line in the state's.
@@ -193,13 +197,13 @@ Follow any of these chairs upward and you arrive at a state. So 'that's politics
 
 | Entity | Type | Holder | Holds | Why it matters to you | Receipt |
 |---|---|---|---|---|---|
-| National religious affairs ministries | State organ | Government ministers and appointed grand muftis | Licensing of imams, approval of sermon content, and administration of religious property | What is said from your minbar on Friday | [OFFICIAL POLICY: published ministry regulations] |
-| Turkey's Diyanet | State directorate | Presidency of Religious Affairs | One of the largest religious bureaucracies on earth, with a published national budget | Your mosque's staffing, at home and in the diaspora | [OFFICIAL POLICY: published state budget] |
-| Waqf boards | Endowment administration | Government-appointed trustees | Centuries of accumulated property under weak audit | Land your ancestors endowed, administered by people you did not choose | [GOVERNMENT REPORT / ACADEMIC SOURCE] |
-| State zakat boards | Revenue and patronage | Appointed distributors | Obligatory alms distributed at official discretion | Whether a poor family's aid depends on political standing | [GOVERNMENT REPORT] |
-| Hajj licensing and concessions | Commercial monopoly | Host state ministries and licensed operators | Pricing of a once-in-a-lifetime religious obligation | What a duty from God costs after intermediaries | [FINANCIAL RECORD] |
-| Halal and Islamic-finance certification bodies | Commercial gatekeeping | Agency directors and supervising scholars | Fees across ordinary commerce, with scholars advising the firms they certify | The price of your groceries and your mortgage | [FINANCIAL RECORD] |
-| Transnational religious infrastructure funders | Soft power | State and royal foundations | Decades of funded mosques, schools, and translated literature | Which interpretation of Islam reached your city | [ACADEMIC SOURCE] |
+| National religious affairs ministries | State organ | Government ministers and appointed grand muftis | They license imams, approve sermon content and administer religious property. | They decide what is said from your minbar (the mosque's pulpit) on Friday. | [OFFICIAL POLICY: published ministry regulations] |
+| Turkey's Diyanet | State directorate | Presidency of Religious Affairs | It is one of the largest religious bureaucracies on earth, with a published national budget. | It sets your mosque's staffing, at home and in the diaspora. | [OFFICIAL POLICY: published state budget] |
+| Waqf boards | Endowment administration | Government-appointed trustees | They hold centuries of accumulated property under weak audit. | They administer land your ancestors endowed, and you did not choose them. | [GOVERNMENT REPORT / ACADEMIC SOURCE] |
+| State zakat boards | Revenue and patronage | Appointed distributors | They distribute obligatory alms at official discretion. | Their discretion can make a poor family's aid depend on political standing. | [GOVERNMENT REPORT] |
+| Hajj licensing and concessions | Commercial monopoly | Host state ministries and licensed operators | They set the price of a once-in-a-lifetime religious obligation. | They decide what a duty from God costs after intermediaries. | [FINANCIAL RECORD] |
+| Halal and Islamic-finance certification bodies | Commercial gatekeeping | Agency directors and supervising scholars | They collect fees across ordinary commerce, with scholars advising the firms they certify. | Their fees reach the price of your groceries and your mortgage. | [FINANCIAL RECORD] |
+| Transnational religious infrastructure funders | Soft power | State and royal foundations | They have funded mosques, schools, and translated literature for decades. | They shaped which interpretation of Islam reached your city. | [ACADEMIC SOURCE] |
 
 ::: cites
 Sources for this section: [12] [13] [22] [24]
@@ -211,22 +215,22 @@ What Muslims everywhere share is a set of legal questions each state answers dif
 
 | Question | Where it is hardest | Where it has moved |
 |---|---|---|
-| **Leaving Islam** | Can carry the death penalty in about ten states [19] | See the country tables on Sunni Islam and Shia Islam |
-| **Same-sex relations** | The death penalty is prescribed in 7 UN member states and possible in 5 more [20] | — |
-| **Marriage age and guardianship** | Morocco's judges approved 81% of 32,000 underage-marriage requests in 2019 [27] | Indonesia raised the age to 19 (2019) [3]; Morocco's 2004 code set 18 [6] |
-| **Divorce** | — | India's Supreme Court struck down instant triple talaq (2017) [2] |
-| **Interfaith marriage for women** | — | Tunisia repealed its ban on Muslim women marrying non-Muslim men (2017) [7] |
-| **Religious-only marriage in a secular state** | Women left without legal status [8] | The UK review recommended civil registration (2018) [8][9] |
+| **Leaving Islam** | It can carry the death penalty in about ten states [19]. | The country tables on Sunni Islam and Shia Islam show where it has moved. |
+| **Same-sex relations** | The death penalty is prescribed in 7 UN member states and possible in 5 more [20]. | — |
+| **Marriage age and guardianship** | Morocco's judges approved 81% of 32,000 underage-marriage requests in 2019 [27]. | Indonesia raised the age to 19 in 2019 [3], and Morocco's 2004 code set it at 18 [6]. |
+| **Divorce** | — | India's Supreme Court struck down instant triple talaq in 2017 [2]. |
+| **Interfaith marriage for women** | — | Tunisia repealed its ban on Muslim women marrying non-Muslim men in 2017 [7]. |
+| **Religious-only marriage in a secular state** | Women are left without legal status [8]. | The UK review recommended civil registration in 2018 [8][9]. |
 
 ### Who can compel an answer
 
-National charity regulators over mosque and foundation trusts — the Charity Commission has acted repeatedly — plus civil courts; and for the state-appointed offices, the appointing ministries themselves, which answer to whatever their governments answer to.
+National charity regulators can compel an answer from mosque and foundation trusts, and the Charity Commission (the regulator of charities in England and Wales) has acted repeatedly. Civil courts can too. For the state-appointed offices, the appointing ministries themselves can, and they answer to whatever their governments answer to.
 
 ## 9. Money {#money}
 
 ### Where it comes from
 
-- Zakat (2.5% obligatory alms), sadaqa, waqf endowments (historically enormous property trusts), hajj economy, halal certification fees, mosque fundraising.
+- The money comes from zakat (2.5% obligatory alms), sadaqa, waqf endowments (historically enormous property trusts), the hajj economy, halal certification fees and mosque fundraising.
 - State-administered zakat and waqf boards concentrate assets under government-appointed managers with recurring corruption findings. [GOVERNMENT REPORT: e.g., Karnataka State Minorities Commission, 2012, on waqf land]
 - The hajj is a major revenue channel for Saudi Arabia and a licensing economy for agents worldwide. [FINANCIAL RECORD]
 
@@ -234,11 +238,11 @@ National charity regulators over mosque and foundation trusts — the Charity Co
 
 | Flow | Stated purpose | How it controls | Who benefits |
 |---|---|---|---|
-| Zakat (2.5%) and sadaqa | Obligatory alms for the poor | State-administered zakat boards create political patronage; distribution becomes leverage over recipients | Government boards, mosque committees, and genuinely the poor [GOVERNMENT REPORT] |
-| Waqf endowments | Perpetual charitable trusts | Centuries of property under appointed administrators with weak audit; colonial and modern state capture | Waqf boards, ministries, well-connected trustees |
-| Hajj and umrah economy | Fulfilling religious obligation | Licensed agent monopolies and price gouging on a once-in-a-lifetime obligation | Host state revenue, licensed operators [FINANCIAL RECORD] |
-| Halal and Islamic-finance certification | Compliance assurance | Fee-generating gatekeeping over ordinary commerce | Certification bodies, scholars on advisory boards |
-| Mosque and school fundraising | Community infrastructure | Donor influence over imams; foreign funding with doctrinal strings | Boards, funders, and their preferred interpretation [ACADEMIC SOURCE] |
+| Zakat (2.5%) and sadaqa | The stated purpose is obligatory alms for the poor. | State-administered zakat boards create political patronage, and distribution becomes leverage over recipients. | Government boards and mosque committees benefit, and so, genuinely, do the poor [GOVERNMENT REPORT]. |
+| Waqf endowments | They are perpetual charitable trusts. | Centuries of property sit under appointed administrators with weak audit, after colonial and modern state capture. | Waqf boards, ministries and well-connected trustees benefit. |
+| Hajj and umrah (the lesser pilgrimage, made at any time of year) economy | It fulfills a religious obligation. | Licensed agents hold monopolies, and prices are gouged on a once-in-a-lifetime obligation. | Host state revenue and licensed operators benefit [FINANCIAL RECORD]. |
+| Halal and Islamic-finance certification | It gives assurance of compliance. | It is fee-generating gatekeeping over ordinary commerce. | Certification bodies and scholars on advisory boards benefit. |
+| Mosque and school fundraising | It builds community infrastructure. | Donors gain influence over imams, and foreign funding comes with doctrinal strings. | Boards and funders benefit, and so does their preferred interpretation [ACADEMIC SOURCE]. |
 
 ### Pipelines this tradition shares
 
@@ -259,7 +263,7 @@ National charity regulators over mosque and foundation trusts — the Charity Co
 
 **Source.** Ordinary commerce seeking religious compliance
 
-**Path.** Certifying agency → Scholarly or rabbinic supervisors → Advisory positions at certified firms
+**Path.** Certifying agency → Scholarly supervisors → Advisory positions at certified firms
 
 **Disclosed.** Certification status
 
@@ -317,7 +321,7 @@ Zakat, sadaqa and waqf — the obligatory and voluntary giving every branch shar
  "cite":[33]}
 ```
 
-- **Turkey's Diyanet:** ₺91.8bn in the 2024 state budget, up 151% [24] (full series on Sunni Islam).
+- **Turkey's Diyanet:** It received ₺91.8bn in the 2024 state budget, up 151% [24]; the full series is on the Sunni Islam page.
 - **Waqf land:** a 2012 Karnataka commission report on waqf-board land is one of the few official audits of Islamic endowments anywhere [21].
 
 ## 10. Genealogy {#genealogy}
@@ -327,35 +331,35 @@ Zakat, sadaqa and waqf — the obligatory and voluntary giving every branch shar
 
 **Origin.** Classical jurisprudence developed in a context where leaving the community meant defecting to an enemy polity at war — apostasy was legally treated closer to treason than to belief. [ACADEMIC SOURCE]
 
-**What it was for.** Political cohesion in a period when religious identity and citizenship were the same category and defection carried military consequences.
+**What it was for.** It served political cohesion in a period when religious identity and citizenship were the same category and defection carried military consequences.
 
 **Why that reason expired.** There is no unified polity, no war of defection, and religion is not citizenship. The Qur'an itself states there is no compulsion in religion. What remains in the penal codes of a handful of states is a treason law with the word treason removed. [OFFICIAL POLICY]
 
-**Who benefits now.** Governments, who acquire a tool for imprisoning critics under religious cover — and it is used against Muslims, minorities, and personal enemies far more than against actual apostates. [GOVERNMENT REPORT]
+**Who benefits now.** Governments benefit. They acquire a tool for imprisoning critics under religious cover — and it is used against Muslims, minorities, and personal enemies far more than against actual apostates. [GOVERNMENT REPORT]
 :::
 
 ::: card
 #### Male guardianship (wilayah) over adult women
 
-**Origin.** Codified in classical fiqh reflecting societies where women had no independent legal or economic standing. [ACADEMIC SOURCE]
+**Origin.** It was codified in classical fiqh (Islamic jurisprudence), reflecting societies where women had no independent legal or economic standing. [ACADEMIC SOURCE]
 
-**What it was for.** Framed as protection: someone was legally responsible for a woman who could not contract, inherit independently, or seek redress alone.
+**What it was for.** It was framed as protection: someone was legally responsible for a woman who could not contract, inherit independently, or seek redress alone.
 
 **Why that reason expired.** Women now hold degrees, salaries, bank accounts, and passports. Keeping guardianship after removing the disability it addressed converts protection into ownership. Saudi Arabia's own recent reforms concede the point.
 
-**Who benefits now.** Individual men, directly and daily. And states that use family law to keep half the population's mobility and marriage conditional on someone else's signature.
+**Who benefits now.** Individual men benefit, directly and daily. So do states that use family law to keep half the population's mobility and marriage conditional on someone else's signature.
 :::
 
 ::: card
 #### State control of the pulpit
 
-**Origin.** Ottoman and colonial-era absorption of religious offices into state administration; completed by 20th-century religious affairs ministries. [ACADEMIC SOURCE]
+**Origin.** Ottoman and colonial-era states absorbed religious offices into state administration, and 20th-century religious affairs ministries completed the process. [ACADEMIC SOURCE]
 
 **What it was for.** Classical Islam's genuine achievement was scholarly independence — ulama who could rebuke rulers precisely because rulers did not pay them. Colonial and post-colonial states dismantled that on purpose.
 
 **Why that reason expired.** The situation is not expired; it is the live problem. A salaried cleric cannot correct the government that signs his cheque, which means the tradition's own check on tyranny has been disabled.
 
-**Who benefits now.** Governments purchasing legitimacy at civil-service rates. What is lost is the thing that made Islamic scholarship a limit on power rather than an instrument of it.
+**Who benefits now.** Governments benefit, purchasing legitimacy at civil-service rates. What is lost is the thing that made Islamic scholarship a limit on power rather than an instrument of it.
 :::
 
 ::: card
@@ -367,7 +371,7 @@ Zakat, sadaqa and waqf — the obligatory and voluntary giving every branch shar
 
 **Why that reason expired.** A rule enforced by arrest is no longer a religious practice; it is a criminal statute wearing religious clothes. The death of a young woman in morality-police custody in 2022 and the protest wave that followed made that visible to the world, including to devout Iranians. [GOVERNMENT REPORT]
 
-**Who benefits now.** The state, which gains a permanent pretext for policing public space and a highly visible loyalty test. Not God, and not the women.
+**Who benefits now.** The state benefits, gaining a permanent pretext for policing public space and a highly visible loyalty test. Neither God nor the women benefit.
 :::
 
 ::: cites
@@ -391,7 +395,7 @@ Sources for this section: [15]
 ### Bodies
 
 - Guardianship (wilayah) systems and, in Saudi law until recent reforms, male-guardian requirements for major life decisions gave men legal authority over adult women. [OFFICIAL POLICY]
-- Divorce asymmetry: talaq is easier for husbands than khula is for wives in most classical and codified frameworks; custody and inheritance rules are also asymmetric. [OFFICIAL POLICY]
+- Divorce is asymmetric: talaq is easier for husbands than khula (divorce initiated by the wife, usually by returning her dower) is for wives in most classical and codified frameworks; custody and inheritance rules are also asymmetric. [OFFICIAL POLICY]
 - Compulsory hijab enforced by state police (Iran; Afghanistan under the Taliban) is the extreme end — enforcement by morality police is coercion by definition, not modesty. [GOVERNMENT REPORT]
 - Same-sex relations are criminalized in numerous Muslim-majority states, with capital penalties in a few. [OFFICIAL POLICY / GOVERNMENT REPORT]
 - 'Honor'-based violence against women is culturally rather than doctrinally grounded, and is frequently defended in religious language — the outsourcing is itself the tactic. [GOVERNMENT REPORT]
@@ -411,7 +415,7 @@ Thirty named techniques from domestic-abuse and social-psychology research, appl
 
 A convert is embraced fast — meals, gifts, Arabic phrases, iftar invitations, the declaration that Allah guided them specially and their past is wiped clean. The warmth is genuine and it arrives before the dress codes, the marriage pressure, and the correct-scholar lists.
 
-*What it asks of you:* Were you loved as a person, or celebrated as evidence that the dawah is working?
+*What it asks of you:* Were you loved as a person, or celebrated as evidence that the dawah (the invitation to Islam) is working?
 :::
 
 ::: tactic n=1
@@ -421,7 +425,7 @@ A convert is embraced fast — meals, gifts, Arabic phrases, iftar invitations, 
 
 **How it shows here**
 
-- A new convert may be celebrated by the local Muslim community with hugs, meals, gifts, Arabic phrases, invitations to iftar, and declarations that they are now part of the ummah.
+- A new convert may be celebrated by the local Muslim community with hugs, meals, gifts, Arabic phrases, invitations to iftar, and declarations that they are now part of the ummah (the worldwide community of Muslims).
 - The convert is often told their past sins are wiped clean, that they are purer than lifelong Muslims, and that Allah guided them specially.
 - The warmth comes fast. The social expectations often come later: prayer schedule, dress codes, dietary rules, gender norms, Arabic recitation, mosque loyalty, marriage pressure, and suspicion of old friends.
 
@@ -448,7 +452,7 @@ A convert is embraced fast — meals, gifts, Arabic phrases, iftar invitations, 
 
 **The counter.** Obligation to give does not erase coercion in how giving is used. If aid is distributed in a way that makes the recipient socially indebted to religious authorities, or if support vanishes when the person questions doctrine, removes hijab, dates outside expectation, or leaves Islam, the generosity has become a leash.
 
-**Evidence grade.** [[Cultural]] Convert welcome is community practice and varies entirely by mosque and country.
+**Evidence grade.** [[Cultural]] Zakat and sadaqah are real obligations; whether aid given through a mosque is later made conditional on loyalty depends on the community, not on any written rule.
 :::
 
 ### Stage 2 · Hook {#stage-2}
@@ -456,7 +460,7 @@ A convert is embraced fast — meals, gifts, Arabic phrases, iftar invitations, 
 ::: stage
 **You are given a future that cannot be verified, and a rope for whenever you drift toward the door.**
 
-Paradise, rivers, gardens, reunion — verification after death. And retrieval that arrives through your family rather than an institution: Ramadan, your mother's voice, come back for her sake.
+The promise is paradise, rivers, gardens and reunion, verified only after death. The retrieval arrives through your family rather than an institution: Ramadan, your mother's voice, come back for her sake.
 
 *What it asks of you:* The promise is deferred past the only point of verification, and the retrieval is delegated to people who genuinely love you. Both features make it very hard to examine.
 :::
@@ -478,7 +482,7 @@ Paradise, rivers, gardens, reunion — verification after death. And retrieval t
 
 **The counter.** Accountability after death does not excuse unaccountability before death. If paradise and hell are used to keep people obedient to institutions, families, clerics, or states that cannot be questioned safely, then the afterlife becomes political technology. A perfect future judgment is a convenient way to delay imperfect present justice.
 
-**Evidence grade.** [[Contested]] Deferred reward is universal doctrine; retrieval pressure is familial and varies enormously by community and jurisdiction.
+**Evidence grade.** [[Contested]] Paradise and hell as deferred reward and threat are universal doctrine; whether the afterlife is used to silence present questions varies by community and is disputed within the tradition.
 :::
 
 ::: tactic n=4
@@ -488,7 +492,7 @@ Paradise, rivers, gardens, reunion — verification after death. And retrieval t
 
 **How it shows here**
 
-- A Muslim who distances from the mosque or from Islam may be contacted by family, friends, elders, or community members: “Come back to salah,” “Don’t forget Allah,” “The dunya is distracting you.”
+- A Muslim who distances from the mosque or from Islam may be contacted by family, friends, elders, or community members: “Come back to salah,” “Don’t forget Allah,” “The dunya is distracting you.” (Salah is the ritual prayer; the dunya is worldly life.)
 - The emotional pressure often comes through family honor: “You are embarrassing us,” “What will people say?” “Think of your parents.”
 - Fear-based hoovering may invoke death, hell, the grave, Judgment Day, or dying outside Islam.
 - Converts who pull away may be told they were specially guided and are now at risk of throwing away Allah’s mercy.
@@ -498,7 +502,7 @@ Paradise, rivers, gardens, reunion — verification after death. And retrieval t
 
 **The counter.** A reminder becomes coercion when it is backed by shame, family pressure, social exile, or legal fear. If the person cannot say “I no longer believe” without risking their relationships, reputation, safety, or freedom, then the invitation back is not spiritual advice. It is containment.
 
-**Evidence grade.** [[Contested]] Deferred reward is universal doctrine; retrieval pressure is familial and varies enormously by community and jurisdiction.
+**Evidence grade.** [[Contested]] Retrieval pressure comes through family and community and varies enormously by community and jurisdiction; where apostasy is a crime, the pressure is backed by law.
 :::
 
 ### Stage 3 · Devalue {#stage-3}
@@ -506,7 +510,7 @@ Paradise, rivers, gardens, reunion — verification after death. And retrieval t
 ::: stage
 **You are taught that you are broken, that your perception is unreliable, and that both exits from the trap lead back inside.**
 
-Your prayer is not focused enough, your hijab not correct enough, your creed not pure enough, your iman weak. Someone stricter is always available as the standard. Diaspora Muslims get it from both directions at once.
+Your prayer is not focused enough, your hijab not correct enough, your creed not pure enough, your iman (faith) weak. Someone stricter is always available as the standard. Diaspora Muslims get it from both directions at once.
 
 *What it asks of you:* Notice who benefits from you feeling permanently insufficient — and notice it is never you.
 :::
@@ -519,9 +523,9 @@ Your prayer is not focused enough, your hijab not correct enough, your creed not
 **How it shows here**
 
 - Institutional Islam can devalue by emphasizing human weakness, forgetfulness, ingratitude, and need for divine guidance. Verses such as “man was created weak” (Qur’an 4:28) and “man is ungrateful to his Lord” (100:6) are scripture; the institutional move is to use them as a standing verdict on the believer rather than a call to humility.
-- The believer is reminded that Allah knows what they hide, that the nafs is dangerous, that desires mislead, that Shaytan whispers, and that safety lies in submission.
+- The believer is reminded that Allah knows what they hide, that the nafs (the ego, or lower self) is dangerous, that desires mislead, that Shaytan (Satan) whispers, and that safety lies in submission.
 - The word “submission” itself can become psychologically loaded: the ideal person is not self-directed but surrendered.
-- Women may be told their bodies require covering to prevent fitna. Men may be told their desires are so volatile that strict gender boundaries are necessary. Everyone is diminished into a risk category.
+- Women may be told their bodies require covering to prevent fitna (discord or temptation). Men may be told their desires are so volatile that strict gender boundaries are necessary. Everyone is diminished into a risk category.
 - Doubt can be interpreted as arrogance against God, corruption by the dunya, weak iman, or influence from Shaytan.
 
 **The strongest defense.** Islam honors human beings while reminding them they are dependent on God.
@@ -540,14 +544,14 @@ Your prayer is not focused enough, your hijab not correct enough, your creed not
 
 - A Muslim questions a rule and is told, “You are following your desires,” “Your iman is weak,” or “Shaytan is whispering to you.”
 - A woman says hijab, gender separation, or family control feels oppressive, and the answer becomes, “You have internalized Western feminism.”
-- Someone fears hell or Judgment Day because of religious teaching, and the fear is reframed as healthy taqwa rather than spiritual trauma.
+- Someone fears hell or Judgment Day because of religious teaching, and the fear is reframed as healthy taqwa (God-consciousness) rather than spiritual trauma.
 - A person says they no longer believe, and the community treats it as corruption, arrogance, ignorance, or love of dunya rather than a conclusion they reached honestly.
 
 **The strongest defense.** Islam warns against ego, desire, and satanic influence because they can mislead people.
 
 **The counter.** Warnings become gaslighting when they are used to discredit every inconvenient perception. If the only sincere mind is the submissive mind, then questioning is not being answered. It is being pathologized.
 
-**Evidence grade.** [[Taught]] Human weakness and forgetfulness are Qur'anic themes taught homiletically rather than administered.
+**Evidence grade.** [[Taught]] The phrases used to recast doubt (weak iman, following desires, the whispering of Shaytan) come from sermons and instruction; no institution administers them.
 :::
 
 ::: tactic n=7
@@ -565,7 +569,7 @@ Your prayer is not focused enough, your hijab not correct enough, your creed not
 
 **The counter.** An invitation to think that punishes unapproved conclusions is an invitation to arrive, not to travel. Where exit carries penalties, 'no compulsion' describes the brochure, not the building.
 
-**Evidence grade.** [[Taught]] Human weakness and forgetfulness are Qur'anic themes taught homiletically rather than administered.
+**Evidence grade.** [[Taught]] Both halves of the bind are taught: that the faith commands the pursuit of knowledge and admits no compulsion, and that leaving is apostasy. The cost of choosing wrongly is imposed by family and community and, in some states, by law.
 :::
 
 ### Stage 4 · Confuse {#stage-4}
@@ -585,15 +589,15 @@ Raise abuse in a madrasa or a marriage and you are told you are shaming the comm
 
 **How it shows here**
 
-- The sweetness of iman is taught as attainable and elusive — felt in Ramadan, gone by Muharram — and its absence is read as your sins hardening the heart, driving intensified practice to recover a feeling the community defines.
+- The sweetness of iman is taught as attainable and elusive — felt in Ramadan, gone by Muharram (the first month of the Islamic year) — and its absence is read as your sins hardening the heart, driving intensified practice to recover a feeling the community defines.
 - Communal standing warms and cools with visible piety: beard, hijab, mosque attendance, Arabic fluency. The thermostat is never posted; everyone learns it by chill.
-- Du'a answered is Allah's mercy; du'a unanswered is stored reward, divine wisdom, or your doubtful heart — an interpretive frame in which continued practice is the only move that never loses.
+- Du'a (a personal prayer of request) answered is Allah's mercy; du'a unanswered is stored reward, divine wisdom, or your doubtful heart — an interpretive frame in which continued practice is the only move that never loses.
 
 **The strongest defense.** Iman genuinely fluctuates — 'faith increases and decreases' is orthodox teaching, not manipulation.
 
 **The counter.** Fluctuation is human. Manipulation enters when the community meters its warmth to your visible peaks and assigns your valleys to sin — turning an inner season into a public performance review with unpredictable pay.
 
-**Evidence grade.** [[Contested]] Shaming internal criticism as service to Islamophobes is widespread practice, and is actively opposed by reformers within the tradition.
+**Evidence grade.** [[Contested]] That faith increases and decreases is orthodox teaching; whether a community meters its warmth to visible piety is local practice, and the reading is disputed.
 :::
 
 ::: tactic n=9
@@ -603,7 +607,7 @@ Raise abuse in a madrasa or a marriage and you are told you are shaming the comm
 
 **How it shows here**
 
-- A convert is first celebrated for saying the shahada. Then the expectations escalate: pray correctly, learn Arabic sounds, dress properly, fast, avoid old holidays, change friendships, marry appropriately, and stop questioning.
+- A convert is first celebrated for saying the shahada (the declaration of faith). Then the expectations escalate: pray correctly, learn Arabic sounds, dress properly, fast, avoid old holidays, change friendships, marry appropriately, and stop questioning.
 - A woman is told hijab is her choice. If she wears it, the goalpost may move to looser clothing, less makeup, less public visibility, less mixed interaction, and more modest behavior.
 - A doubter is told, “Ask questions.” When they do, they are told their questions show weak iman, arrogance, love of dunya, or influence from Shaytan.
 
@@ -611,7 +615,7 @@ Raise abuse in a madrasa or a marriage and you are told you are shaming the comm
 
 **The counter.** A way of life becomes moving the goalposts when entry is simple but belonging becomes endlessly conditional. If every step of conformity exposes a new defect, the path is less guidance than capture.
 
-**Evidence grade.** [[Contested]] Shaming internal criticism as service to Islamophobes is widespread practice, and is actively opposed by reformers within the tradition.
+**Evidence grade.** [[Contested]] The escalating expectations placed on converts and women are community practice, and how much of them is required is disputed between schools and communities.
 :::
 
 ::: tactic n=10
@@ -629,7 +633,7 @@ Raise abuse in a madrasa or a marriage and you are told you are shaming the comm
 
 **The counter.** That distinction becomes strategic ambiguity when leaders claim credit for culture’s obedience but deny responsibility for culture’s coercion. If pressure works for the religion, the religion cannot disown it only when criticized.
 
-**Evidence grade.** [[Contested]] Shaming internal criticism as service to Islamophobes is widespread practice, and is actively opposed by reformers within the tradition.
+**Evidence grade.** [[Contested]] Whether a given practice is Islam or culture is the disputed question itself; different authorities describe the same practice both ways.
 :::
 
 ::: tactic n=11
@@ -648,7 +652,7 @@ Raise abuse in a madrasa or a marriage and you are told you are shaming the comm
 
 **The counter.** Submission to God becomes projection when human authorities use God-language to protect their control. If the person asking for freedom is called arrogant while the system claims power over belief, body, marriage, and speech, arrogance has been placed on the wrong side.
 
-**Evidence grade.** [[Contested]] Shaming internal criticism as service to Islamophobes is widespread practice, and is actively opposed by reformers within the tradition.
+**Evidence grade.** [[Contested]] Casting critics as arrogant, Westernized or Islamophobic is observed community practice with no written rule behind it, and reformers within the tradition dispute it.
 :::
 
 ::: tactic n=12
@@ -681,13 +685,13 @@ Raise abuse in a madrasa or a marriage and you are told you are shaming the comm
 - A convert gradually accepts increasing regulation: prayer times, Arabic recitation, halal food, Ramadan fasting, gender norms, dress codes, mosque expectations, and family/community scrutiny.
 - Fear of hell, the grave, Judgment Day, and dying in a state of disbelief can become so normal that anxiety is renamed taqwa.
 - Women may be slowly desensitized to modesty surveillance: hijab, loose clothing, lowered gaze, avoiding mixed spaces, marriage pressure, and being told their body affects male behavior.
-- Believers become accustomed to viewing ordinary choices — food, clothing, friendships, sexuality, speech, music, holidays — through halal/haram filters.
+- Believers become accustomed to viewing ordinary choices — food, clothing, friendships, sexuality, speech, music, holidays — through halal/haram (permitted/forbidden) filters.
 
 **The strongest defense.** Islam is a complete way of life; daily practice creates discipline and God-consciousness.
 
 **The counter.** A complete way of life becomes desensitization when there is no area of life where the person is allowed to simply exist. If every ordinary human action becomes a compliance test, the believer has been trained to confuse total regulation with devotion.
 
-**Evidence grade.** [[Contested]] Shaming internal criticism as service to Islamophobes is widespread practice, and is actively opposed by reformers within the tradition.
+**Evidence grade.** [[Contested]] The daily rules themselves are taught practice; whether their accumulation amounts to desensitization is an interpretation the tradition disputes.
 :::
 
 ### Stage 5 · Isolate {#stage-5}
@@ -738,7 +742,7 @@ In diaspora communities the mosque is the entire social base: marriage prospects
 
 **The counter.** Protection becomes triangulation when everyone around the person becomes an enforcement point. If the imam, family, spouse, community, and afterlife are all used to make dissent socially impossible, then guidance has become a net.
 
-**Evidence grade.** [[Contested]] Dietary, dress, and social boundaries are religious requirements in some readings and cultural expectation in others; the disagreement is genuine.
+**Evidence grade.** [[Contested]] The intermediaries named here (family, imam, spouse, community) act by custom rather than written rule, and how far their religious authority reaches is genuinely disputed.
 :::
 
 ### Stage 6 · Extract {#stage-6}
@@ -746,7 +750,7 @@ In diaspora communities the mosque is the entire social base: marriage prospects
 ::: stage
 **Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
 
-Zakat administered by state boards, waqf under appointed trustees, hajj priced by monopoly, halal certification fees at every step of ordinary commerce. Your uncle phoning about family shame. Hijab, diet, and gender separation presented as God's mercy for you. And raise anything and be told you are shaming the community.
+Zakat is administered by state boards and waqf by appointed trustees, the hajj is priced by monopoly, and halal certification fees reach every step of ordinary commerce. Your uncle phones about family shame. Hijab, diet and gender separation are presented as God's mercy for you. Raise anything and you are told you are shaming the community.
 
 *What it asks of you:* Notice that the obligation is precise to the percentage point, and the accounting is unavailable at any percentage.
 :::
@@ -786,7 +790,7 @@ Zakat administered by state boards, waqf under appointed trustees, hajj priced b
 
 **The counter.** Islamophobia is real. But if the word is used to silence internal victims, it becomes a shield for abusers. Criticizing harm inside a community is not the same as hating the community.
 
-**Evidence grade.** [[Contested]] Zakat and hajj are codified and separately sourced; honor enforcement and family pressure are cultural and disputed doctrinally.
+**Evidence grade.** [[Contested]] Labeling apostates and critics as corrupted, Westernized or Islamophobic is community practice with no written rule behind it, and reformers within the tradition dispute it.
 :::
 
 ::: tactic n=18
@@ -805,7 +809,7 @@ Zakat administered by state boards, waqf under appointed trustees, hajj priced b
 
 **The counter.** Avoiding fitna becomes stonewalling when the victim’s speech is treated as the disorder rather than the harm itself. If peace requires the harmed person to disappear, it is not peace. It is containment.
 
-**Evidence grade.** [[Contested]] Zakat and hajj are codified and separately sourced; honor enforcement and family pressure are cultural and disputed doctrinally.
+**Evidence grade.** [[Contested]] Handling abuse privately to avoid fitna is community practice with no written rule behind it, and whether the tradition requires it is disputed.
 :::
 
 ::: tactic n=19
@@ -843,7 +847,7 @@ Zakat administered by state boards, waqf under appointed trustees, hajj priced b
 
 **The counter.** Fear and hope become TRAUMA BONDING when fear is socially enforced and hope is institutionally mediated. If relief only comes after submission to the same community that created the terror, the bond is being reinforced.
 
-**Evidence grade.** [[Contested]] Zakat and hajj are codified and separately sourced; honor enforcement and family pressure are cultural and disputed doctrinally.
+**Evidence grade.** [[Contested]] Fear of hell and relief through repentance are taught doctrine; whether that relief is tied to submission to a community varies by community and is disputed.
 :::
 
 ::: tactic n=21
@@ -862,7 +866,7 @@ Zakat administered by state boards, waqf under appointed trustees, hajj priced b
 
 **The counter.** Trust becomes LEARNED HELPLESSNESS when it teaches people not to act against human control. If every blocked exit is explained as a test from Allah, the institution has made passivity sound pious.
 
-**Evidence grade.** [[Contested]] Zakat and hajj are codified and separately sourced; honor enforcement and family pressure are cultural and disputed doctrinally.
+**Evidence grade.** [[Contested]] Patience and trust in Allah are taught virtues; their use to discourage action against human control is practice that varies by community, and it is disputed.
 :::
 
 ::: tactic n=22
@@ -900,7 +904,7 @@ Zakat administered by state boards, waqf under appointed trustees, hajj priced b
 
 **The counter.** Guidance becomes INFANTILIZATION when adults are not allowed moral adulthood. If a woman, convert, or doubter cannot make choices without being supervised for their own good, protection has become permanent childhood.
 
-**Evidence grade.** [[Contested]] Zakat and hajj are codified and separately sourced; honor enforcement and family pressure are cultural and disputed doctrinally.
+**Evidence grade.** [[Contested]] Male guardianship over adult women is written into some states' law (sections 10 and 11); the supervision of converts and doubters is community practice, and its religious basis is disputed.
 :::
 
 ::: tactic n=24
@@ -920,7 +924,7 @@ Zakat administered by state boards, waqf under appointed trustees, hajj priced b
 
 **The counter.** A complete way of life becomes IDENTITY EROSION when no part of the person remains unregulated. If the self is acceptable only after being filtered through dress, prayer, gender, family, scholars, and community surveillance, dignity has become managed identity.
 
-**Evidence grade.** [[Contested]] Zakat and hajj are codified and separately sourced; honor enforcement and family pressure are cultural and disputed doctrinally.
+**Evidence grade.** [[Contested]] The rules that reach into dress, diet and the daily schedule are taught practice; whether they erode identity or form it is the disputed question.
 :::
 
 ::: tactic n=25
@@ -930,7 +934,7 @@ Zakat administered by state boards, waqf under appointed trustees, hajj priced b
 
 **How it shows here**
 
-- Abuse or family control may be bypassed with sabr, duʿa, qadar, “Allah tests those He loves,” or “Allah knows best.”
+- Abuse or family control may be bypassed with sabr (patience), duʿa, qadar (divine decree), “Allah tests those He loves,” or “Allah knows best.”
 - Women’s suffering may be spiritualized as patience, modesty, obedience, or reward in the akhirah.
 - Doubt may be bypassed as Shaytan, weak iman, or love of dunya.
 - Trauma may be answered with Qur’an recitation or prayer while practical safety is ignored.
@@ -940,7 +944,7 @@ Zakat administered by state boards, waqf under appointed trustees, hajj priced b
 
 **The counter.** Patience becomes SPIRITUAL BYPASSING when it delays protection. If sabr is demanded from the harmed while abusers remain comfortable, religion has turned endurance into a substitute for justice.
 
-**Evidence grade.** [[Contested]] Zakat and hajj are codified and separately sourced; honor enforcement and family pressure are cultural and disputed doctrinally.
+**Evidence grade.** [[Contested]] Sabr, duʿa and qadar are taught virtues; answering abuse with them in place of protection is community practice, and it is disputed within the tradition.
 :::
 
 ::: tactic n=26
@@ -967,7 +971,7 @@ Zakat administered by state boards, waqf under appointed trustees, hajj priced b
 ::: stage
 **You become expensive — too many questions, too much independence — and the urgency ramps up until you are removed.**
 
-Called kafir, munafiq, Westernized, an agent. Family withdrawal, marriage prospects gone, in some jurisdictions legal jeopardy. Custody and inheritance can turn on religious status. [GOVERNMENT REPORT]
+You are called kafir (unbeliever), munafiq (hypocrite), Westernized, an agent. Family withdraws, marriage prospects are gone, and in some jurisdictions there is legal jeopardy. Custody and inheritance can turn on religious status. [GOVERNMENT REPORT]
 
 *What it asks of you:* The cost of leaving is paid privately, by individuals, in family living rooms — which is exactly why institutions can deny it exists.
 :::
@@ -1037,7 +1041,7 @@ The mosque does not shrink. The community absorbs the loss without a ripple. And
 
 **The counter.** Rejoicing becomes REPLACEMENT when new converts are used to erase harmed ones. If the community loves the conversion story more than the convert’s long-term freedom, the person was valued as proof.
 
-**Evidence grade.** [[Cultural]] Authority attributed to divine law, exercised through scholars whose institutional position varies by state.
+**Evidence grade.** [[Cultural]] Replacing those who leave with new conversion stories is community practice; no written rule directs it.
 :::
 
 ::: tactic n=30
@@ -1062,46 +1066,162 @@ The mosque does not shrink. The community absorbs the loss without a ripple. And
 
 ## 13. The loops {#loops}
 
+::: lede
+The seven loops below show how the practices connect, so that each step makes the next one easier and the last step feeds the first. The loops are analysis built from findings recorded elsewhere on this page [PATTERN OBSERVED]; each step names the section or technique where its fact is recorded.
+:::
+
 ::: card
 #### 1 · Money to Doctrine to Money
 
-Zakat and khums are fixed obligations, administered by boards and offices whose accounts a payer can rarely audit, funding the institutions that teach the obligation.
+Zakat and khums (a one-fifth levy on surplus income, paid in Shia Islam) are fixed obligations, administered by boards and offices whose accounts a payer can rarely audit, funding the institutions that teach the obligation.
+
+**How it runs.**
+
+1. Zakat is taught as an obligation at a fixed rate of 2.5%, a pillar of the faith (sections 1 and 9; technique 2).
+2. Where the state runs it, zakat is collected by state boards and distributed by appointed distributors at official discretion (sections 7 and 9).
+3. Collection totals are disclosed, but distribution criteria and discretionary awards are not, and published criteria rarely let a payer trace where their own zakat went (sections 9 and 14).
+4. The same states license the imams, approve the sermons and pay the salaries of the preachers who teach the obligation (sections 7 and 14).
+5. The next sermon teaches the obligation again, and the giving continues.
+
+**Techniques that feed it.** [26 · Financial Control](#t-26), [2 · Weaponized Generosity](#t-2), [3 · Future Faking](#t-3), [15 · Triangulation](#t-15).
+
+**Why it closes.** The obligation is precise to the percentage point, and the accounting is unavailable at any percentage (section 12, stage 6). The preacher who teaches the duty is paid by the state that spends the money, so no step in the circuit answers to the payer.
+
+**Where it could be broken, and by whom.** It weakens wherever distribution is published. A payer can give directly, or ask a mosque or board for last year's accounts before giving. Where a mosque is a registered charity, a regulator can act, as the Charity Commission did at Brighton (sections 8 and 19). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** The say-do table in section 14 sets "Zakat is the right of the poor" beside the record: where the state collects it, distribution is at official discretion.
 :::
 
 ::: card
 #### 2 · Fear to Dependence to Fear
 
-Eternal punishment for apostasy installed early, relief through community belonging, and families transmit it as protection.
+Eternal punishment for apostasy is installed early, relief comes through community belonging, and families transmit it as protection.
+
+**How it runs.**
+
+1. A child is Muslim by birth in the standard legal framing, and religious schooling begins very young (section 11; technique 19).
+2. Fear of hell, the grave, Judgment Day and dying outside Islam becomes so normal that the anxiety is renamed taqwa (technique 13).
+3. Relief comes through prayer, fasting, repentance, the mosque community and the ummah, the same community that carries the warning (technique 20).
+4. When someone drifts, family and community call them back with reminders of death, hell and dying outside Islam, framed as love (techniques 4 and 16; section 15).
+5. Those who stay pass the same warning to their own children as protection.
+
+**Techniques that feed it.** [3 · Future Faking](#t-3), [4 · Hoovering](#t-4), [13 · Normalization / Desensitization](#t-13), [20 · Trauma Bonding](#t-20).
+
+**Why it closes.** The fear and the relief come through the same people. Section 15 records the eternal-punishment framing as "a warning given out of love", so the person who delivers the fear also offers the safety, and leaving means losing both at once (technique 20).
+
+**Where it could be broken, and by whom.** It weakens where a family separates its love from the warning, and where a person can say "I no longer believe" without losing their relationships (technique 4). The tradition's own standard, "there is no compulsion in religion", gives a believer grounds to ask for that (section 4). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 12, stage 2 describes retrieval that arrives through the family rather than an institution: Ramadan, your mother's voice, come back for her sake.
 :::
 
 ::: card
 #### 3 · Children to Members to Children
 
 Hifz schooling and free madrasa education produce adults with religious credentials and no employable alternative.
+
+**How it runs.**
+
+1. A child is Muslim by birth in the standard legal framing (section 11; technique 19).
+2. Qur'an memorization (hifz) schooling begins very young and, in some madrasa systems, substitutes for general education (section 11).
+3. Modesty rules and gender segregation begin at puberty or earlier (section 11).
+4. In residential religious schools, documented abuse meets weak reporting pathways, and the school is often the family's only affordable education (sections 11 and 17).
+5. Families with no affordable alternative send the next generation to the same schools (section 17).
+
+**Techniques that feed it.** [19 · Manufactured Consent](#t-19), [13 · Normalization / Desensitization](#t-13), [23 · Infantilization](#t-23), [2 · Weaponized Generosity](#t-2).
+
+**Why it closes.** Each child is enrolled before they can consent, in a school that is often the family's only affordable option, so the same constraint shapes the choice made for the next child.
+
+**Where it could be broken, and by whom.** It weakens where general education is required alongside religious schooling, and where abuse in a religious school is reported to the police; section 23 asks whether it was. Section 18 names teachers as the tier that could refuse any arrangement that puts community reputation before a child. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 18 records that madrasa and weekend-school teachers see "which children are being beaten, and which families will not report it", and are asked to handle it internally.
 :::
 
 ::: card
 #### 4 · Aid to Legitimacy to Leverage to Aid
 
 Funded mosques and schools abroad buy influence over which interpretation a community receives.
+
+**How it runs.**
+
+1. Gulf states and royal foundations have funded mosques, schools and translated literature across the world for decades, and the buildings are real and needed (sections 7 and 16).
+2. From the 1970s, oil wealth made interpretation an export market (section 5).
+3. The funding comes with doctrinal strings, so communities receive an interpretation along with the infrastructure (sections 9 and 16).
+4. Funders gain influence over the mosque boards that hire and fire imams (sections 9 and 18).
+5. The interpretation that arrived with the money shapes the community, and the funder's standing grows with each project.
+
+**Techniques that feed it.** [2 · Weaponized Generosity](#t-2), [22 · Benevolent Control](#t-22), [26 · Financial Control](#t-26), [15 · Triangulation](#t-15).
+
+**Why it closes.** The aid is needed and the doctrine travels with it, so a community cannot take one without the other. Each funded institution then teaches the interpretation that makes the next grant welcome.
+
+**Where it could be broken, and by whom.** Section 20 records diaspora congregations that funded their mosques locally to refuse strings-attached foreign money, at the cost of slower building and smaller facilities. Section 18 names mosque committees as the tier that could refuse to let a single donor select the interpretation the whole community hears. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 16 records that the buildings are real and needed, and that local communities receive them alongside an interpretation they did not choose: "aid as curriculum".
 :::
 
 ::: card
 #### 5 · Unpaid Labor to Assets to Power to More Labor
 
-Volunteer labor builds the mosque; the board holds the title; the donor selects the imam.
+Volunteer labor builds the mosque, the board holds the title, and the donor selects the imam.
+
+**How it runs.**
+
+1. Mosques and schools are built through community fundraising (section 9).
+2. The mosque committee or trust holds the institution and hires and fires the imam (section 18).
+3. Major donors gain influence over imams, and the committee is asked to keep the donor happy (sections 9 and 18).
+4. The women who organize the women's section run the religious life of half the community from a room with no vote (section 18).
+5. The giving and the work continue, and the decisions stay with the board.
+
+**Techniques that feed it.** [26 · Financial Control](#t-26), [2 · Weaponized Generosity](#t-2), [23 · Infantilization](#t-23), [29 · Replacement](#t-29).
+
+**Why it closes.** The people who produce the institution's resources hold no vote over how they are used. Value flows one way, from the community to the board, and the board and its donors decide how it is used.
+
+**Where it could be broken, and by whom.** Section 4 names mosques with elected boards and financial transparency as healthy practice. Where a mosque is a registered charity, the Charity Commission can act on its governance (sections 19 and 22). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 19 records the Charity Commission's inquiry into the Brighton Mosque and Muslim Community Centre, which disqualified a trustee.
 :::
 
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
 An imam is quietly moved, the committee issues a statement, and no reporting policy is created.
+
+**How it runs.**
+
+1. Abuse in a madrasa or a marriage is raised, and the person raising it is told they are shaming the community or serving Islamophobes (section 12, stage 4; technique 12).
+2. The case is handled as a community matter, and the teacher is relocated rather than reported (section 14).
+3. The victim is told to be patient, avoid fitna and preserve family honor, or to resolve it privately through family or religious mediation (technique 18).
+4. The bodies that handled it, mosque committees and state religious ministries, have no safeguarding requirement (section 14).
+5. The next case surfaces through a secular journalist, the community divides over the reporting, and no policy changes (section 14).
+
+**Techniques that feed it.** [18 · Silent Treatment / Stonewalling](#t-18), [12 · DARVO](#t-12), [25 · Spiritual Bypassing](#t-25), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** Moving the individual answers the complaint without creating a rule, so the next case meets the same empty chair. Section 15 records family privacy and community reputation suppressing reporting.
+
+**Where it could be broken, and by whom.** It weakens where a written policy requires abuse to be reported to the police. Section 23 asks the question that would test it: when a child was abused in a madrasa, was it reported? Section 18 names teachers as the tier that could refuse to handle it internally. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 14 records the last time the chair ran: abuse cases in religious schools were handled as community matters, with the teacher relocated rather than reported.
 :::
 
 ::: card
 #### 7 · Persecution to Solidarity to Insulation to Unaccountability
 
-Genuine surveillance and hostility toward Muslims is used to reclassify internal criticism as collaboration.
+Genuine surveillance and hostility toward Muslims are used to reclassify internal criticism as collaboration.
+
+**How it runs.**
+
+1. Hostility toward Muslims is real, documented and dangerous, and Muslims in the West bear it daily (section 3; section 5, 2001 to the present).
+2. Internal criticism is framed as helping the enemies of Islam, and internal critics are accused of Islamophobia even when they describe real abuse (techniques 11 and 17).
+3. Family and community close ranks, and private doubts are framed as a betrayal of Muslims worldwide (techniques 15 and 16).
+4. Reports of abuse are met with denial and accusations of fitna or of dishonoring the ummah (technique 12).
+5. Nothing inside is examined, and the next critic is met the same way (section 23).
+
+**Techniques that feed it.** [12 · DARVO](#t-12), [17 · Smear Campaign](#t-17), [11 · Projection](#t-11), [27 · Manufactured Crisis](#t-27), [15 · Triangulation](#t-15).
+
+**Why it closes.** Each new instance of outside hostility makes the charge of collaboration more persuasive, so the more real the threat, the more protection it gives against internal scrutiny (section 12, stage 4).
+
+**Where it could be broken, and by whom.** It weakens when criticism comes from inside and cannot be dismissed as hostile. Section 3 notes that the reformers cited on this page are Muslims, and section 21 names Muslim women and organizations who changed family law from within. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** In section 2, Aliyah's cousin ends a voice note: *anyway don't say anything, they'll make it about the mosque and you know how people are right now.*
 :::
 
 ## 14. Say versus do {#say-do}
@@ -1117,9 +1237,9 @@ Genuine surveillance and hostility toward Muslims is used to reclassify internal
 
 ### Accountability or theatre?
 
-**Last time the chair ran.** Abuse cases in religious schools handled as community matters, with the teacher relocated rather than reported.
+**Last time the chair ran.** Abuse cases in religious schools were handled as community matters, with the teacher relocated rather than reported.
 
-**Who holds the chair now.** Mosque committees and state religious ministries with no safeguarding requirement.
+**Who holds the chair now.** Mosque committees and state religious ministries hold it, with no safeguarding requirement.
 
 **Prediction.** The next case will surface through a secular journalist, the community will divide over the reporting rather than the abuse, and no policy will change.
 
@@ -1127,25 +1247,25 @@ Genuine surveillance and hostility toward Muslims is used to reclassify internal
 
 | Term | What it means inside | What it does | Said plainly |
 |---|---|---|---|
-| Fitna | Discord, sedition, or trial within the community. | A genuine and serious theological concept, and also the standard word for someone raising a divisive concern. Its dual meaning is precisely its utility. | 'You are causing a problem by mentioning the problem.' |
-| Adab | Proper conduct and courtesy, particularly toward scholars. | A real and admirable virtue, deployed to make the manner of a question the subject rather than its content. | 'Your tone is now the topic.' |
-| Bid'ah | Innovation in religious matters. | A serious charge that can be applied to reform proposals, including governance and transparency reforms with no doctrinal content whatsoever. | 'Change is illegitimate because it is change.' |
+| Fitna | It means discord, sedition, or trial within the community. | It is a genuine and serious theological concept, and also the standard word for someone raising a divisive concern. Its dual meaning is precisely its utility. | 'You are causing a problem by mentioning the problem.' |
+| Adab | It means proper conduct and courtesy, particularly toward scholars. | It is a real and admirable virtue, deployed to make the manner of a question the subject rather than its content. | 'Your tone is now the topic.' |
+| Bid'ah | It means innovation in religious matters. | It is a serious charge that can be applied to reform proposals, including governance and transparency reforms with no doctrinal content whatsoever. | 'Change is illegitimate because it is change.' |
 
 ## 15. Cost & cover {#cost}
 
 ### What leaving costs
 
-- Apostasy carries criminal penalties in a number of states — up to death in several — and severe social/familial consequences far more widely. [OFFICIAL POLICY: national penal codes — about ten states, per Humanists International]
+- Apostasy carries criminal penalties in a number of states — up to death in several — and severe social and family consequences far more widely. [OFFICIAL POLICY: national penal codes — about ten states, per Humanists International]
 - Marriage, custody, and inheritance law in many jurisdictions is conditioned on religious status.
 
 ### The ledger of exit
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Legal jeopardy | Yes, in specific jurisdictions | Apostasy and blasphemy statutes, up to capital penalties in a few states | “No one is executed for belief, only for sedition.” |
-| Family and marriage | Very often | Loss of family, marriage prospects, and custody; personal-status law conditions rights on religion | “That's family and culture, not Islam.” |
-| Community and reputation | Yes | Labeled kafir, munafiq, or a Western agent; diaspora communities are small and total | “Anyone can believe what they want.” |
-| Spiritual threat | Yes | Eternal punishment framing for apostasy | “It is a warning given out of love.” |
+| Legal jeopardy | It is documented in specific jurisdictions. | Apostasy and blasphemy statutes carry penalties up to death in a few states. | “No one is executed for belief, only for sedition.” |
+| Family and marriage | It is documented very often. | Leavers can lose family, marriage prospects and custody, and personal-status law (the law of marriage, divorce, custody and inheritance) conditions rights on religion. | “That's family and culture, not Islam.” |
+| Community and reputation | It is documented. | Leavers are labeled kafir, munafiq, or a Western agent, and diaspora communities are small and total. | “Anyone can believe what they want.” |
+| Spiritual threat | It is documented. | Apostasy is framed as deserving eternal punishment. | “It is a warning given out of love.” |
 
 ### How the cost is denied
 
@@ -1168,9 +1288,9 @@ Sources for this section: [19]
 
 ### Who benefits
 
-- States that rule through religious legitimacy: official clerical establishments trade endorsement for funding and monopoly (Saudi religious establishment; Egypt's Al-Azhar relationship with the state; Iran below). [ACADEMIC SOURCE]
-- Government religious ministries employing hundreds of thousands and controlling sermon content.
-- Certification and compliance industries (halal, Islamic finance) whose gatekeeping generates fees. [FINANCIAL RECORD]
+- States that rule through religious legitimacy benefit: official clerical establishments trade endorsement for funding and monopoly (the Saudi religious establishment; Egypt's Al-Azhar and its relationship with the state; Iran, covered on the Shia Islam page). [ACADEMIC SOURCE]
+- Government religious ministries benefit, employing hundreds of thousands and controlling sermon content.
+- Certification and compliance industries (halal, Islamic finance) benefit, because their gatekeeping generates fees. [FINANCIAL RECORD]
 
 ### Money out, leverage back
 
@@ -1181,12 +1301,12 @@ Sources for this section: [19]
 
 ### Who pays
 
-- Women, under guardianship, divorce asymmetry, and compulsory dress enforcement.
-- LGBTQ Muslims, facing criminal penalties in many jurisdictions.
-- Religious minorities and dissenters, prosecuted under blasphemy statutes.
-- Ahmadis — declared non-Muslim by Pakistan’s 1974 Second Amendment and criminalized for “posing as Muslims” by Ordinance XX (1984) — and other groups legally excluded from their own religious identity. [OFFICIAL POLICY]
-- Children in unregulated residential religious schools.
-- Muslims in the West, who bear surveillance and hostility from outside while internal critique is treated as betrayal — a double bind this codex names explicitly.
+- Women pay, under guardianship, divorce asymmetry, and compulsory dress enforcement.
+- LGBTQ Muslims pay, facing criminal penalties in many jurisdictions.
+- Religious minorities and dissenters pay, prosecuted under blasphemy statutes.
+- Ahmadis pay — declared non-Muslim by Pakistan’s 1974 Second Amendment and criminalized for “posing as Muslims” by Ordinance XX (1984) — and so do other groups legally excluded from their own religious identity. [OFFICIAL POLICY]
+- Children in unregulated residential religious schools pay.
+- Muslims in the West pay too. They bear surveillance and hostility from outside while internal critique is treated as betrayal — a double bind this codex names explicitly.
 
 ::: cites
 Sources for this section: [3]
@@ -1196,13 +1316,15 @@ Sources for this section: [3]
 
 ### Where the weight lands
 
+The costs in section 15 do not fall evenly. They fall hardest where a person has the least power inside the community and the fewest places to go outside it, and where the state enforces religious law there may be no outside at all. The table names who carries the most, how, and what makes it worse.
+
 | Who | How | What it compounds with |
 |---|---|---|
-| Women | Guardianship, divorce asymmetry, custody and inheritance rules, and in some states enforced dress | Where personal-status law is religious law and there is no civil alternative |
-| LGBTQ Muslims | Criminal penalties in numerous jurisdictions, capital in a few | With family reporting, which removes any private space |
-| Ex-Muslims and doubters | Family loss, marriage collapse, and in specific states legal jeopardy | In diaspora communities small enough that everyone learns immediately |
-| Ahmadis and minority sects | Legally excluded from their own religious identity (Pakistan: Constitution, Second Amendment 1974; Ordinance XX 1984; Indonesia: 2008 joint ministerial decree restricting Ahmadi activity) | With mob violence and no state protection |
-| Children in residential religious schools | Documented abuse with weak reporting pathways | Where the school is also the family's only affordable education |
+| Women | They carry guardianship, divorce asymmetry, custody and inheritance rules, and in some states enforced dress. | The harm compounds where personal-status law is religious law and there is no civil alternative. |
+| LGBTQ Muslims | They face criminal penalties in numerous jurisdictions, capital in a few. | It compounds with family reporting, which removes any private space. |
+| Ex-Muslims and doubters | They face family loss, marriage collapse and, in specific states, legal jeopardy. | It compounds in diaspora communities small enough that everyone learns immediately. |
+| Ahmadis and minority sects | They are legally excluded from their own religious identity (Pakistan: Constitution, Second Amendment 1974; Ordinance XX 1984; Indonesia: 2008 joint ministerial decree restricting Ahmadi activity). | It compounds with mob violence and no state protection. |
+| Children in residential religious schools | They face documented abuse with weak reporting pathways. | It compounds where the school is also the family's only affordable education. |
 
 ::: cites
 Sources for this section: [4]
@@ -1210,13 +1332,15 @@ Sources for this section: [4]
 
 ## 18. The middle tiers {#tiers}
 
+Most of the tradition's institutional work is done below the ministries and boards, by people who see decisions without making them. Imams, mosque committees, madrasa teachers, certification supervisors and the women who organize women's sections each carry part of the load, and each stands at one point where the next decision could be declined. The table sets out what each tier does, what it sees, what it is asked to do and where it could refuse.
+
 | Role | Does | Sees | Is asked to | Could refuse |
 |---|---|---|---|---|
-| Imams on state or committee payroll | Leads prayer and answers the community's questions | That his ruling and the ministry's position are required to coincide | To deliver approved content | To read a sermon he did not write and does not believe |
-| Mosque committee members and major donors' representatives | Hires and fires the imam | How quickly funding shapes doctrine | To keep the donor happy | To let a single donor select the interpretation the whole community hears |
-| Madrasa and weekend-school teachers | Teaches children the tradition | Which children are being beaten, and which families will not report it | To handle it internally | To accept any arrangement that puts community reputation before a child |
-| Certification supervisors | Signs the halal or Sharia-compliance attestation | Which firms shop for a compliant scholar | To sit on the advisory board of a firm they certify | To hold both positions at once |
-| Women's-section organizers and teachers | Runs the actual religious life of half the community | Everything, from a room with no vote | To manage complaints quietly | To counsel a woman to endure violence |
+| Imams on state or committee payroll | Lead prayer and answer the community's questions | That their ruling and the ministry's position are required to coincide | Deliver approved content | Read a sermon he did not write and does not believe |
+| Mosque committee members and major donors' representatives | Hire and fire the imam | How quickly funding shapes doctrine | Keep the donor happy | Let a single donor select the interpretation the whole community hears |
+| Madrasa and weekend-school teachers | Teach children the tradition | Which children are being beaten, and which families will not report it | Handle it internally | Accept any arrangement that puts community reputation before a child |
+| Certification supervisors | Sign the halal or Sharia-compliance attestation | Which firms shop for a compliant scholar | Sit on the advisory board of a firm they certify | Hold both positions at once |
+| Women's-section organizers and teachers | Run the actual religious life of half the community | Everything, from a room with no vote | Manage complaints quietly | Counsel a woman to endure violence |
 
 ## 19. Documented cases {#cases}
 
@@ -1235,7 +1359,7 @@ Sources for this section: [4]
 - **when:** 2016–2018
 - **what:** A government-commissioned independent review, chaired by Prof. Mona Siddiqui, found women using sharia councils to obtain religious divorces, many in marriages never civilly registered and so without legal protection; it recommended requiring civil registration [8][9].
 - **record:** *The Independent Review into the Application of Sharia Law in England and Wales* (Feb 2018) [8][9]
-- **outcome:** Recommendations on civil registration; no statutory change to date [9].
+- **outcome:** The review made recommendations on civil registration, and no statutory change has followed to date [9].
 - **tactics:** 22, 14
 - **grade:** Documented
 :::
@@ -1255,7 +1379,7 @@ Sources for this section: [4]
 - **when:** 2019
 - **what:** Morocco's 2004 family code set the marriage age at 18 but let judges authorise exceptions; in 2019 judges approved 81% of some 32,000 requests to marry a minor [6][27].
 - **record:** Moroccan court statistics, as reported by TIMEP (2023) [27]
-- **outcome:** A reform on paper, and an exception that became the rule in practice [27].
+- **outcome:** The reform held on paper, and the exception became the rule in practice [27].
 - **tactics:** 30, 22
 - **grade:** Documented
 :::
@@ -1266,12 +1390,12 @@ Sources for this section: [4]
 
 | What | Who | When | What it cost |
 |---|---|---|---|
-| Saudi guardianship reforms permitting women to travel and hold documents independently | Sustained internal and international pressure | 2019–present | Imprisonment of several of the women who campaigned for it |
-| Reformist and feminist Islamic scholarship establishing textual grounds for equality | Muslim scholars, mostly women | 1990s–present | Accusations of apostasy and Western capture |
-| Mosques funded locally to refuse strings-attached foreign money | Diaspora congregations | Ongoing | Slower building programmes and smaller facilities |
-| Morocco’s family code (Moudawana) reform: marriage age raised to 18, polygamy restricted, divorce opened to wives, the family placed under joint responsibility of both spouses | Moroccan women’s movement, argued in Islamic legal terms, enacted by the monarchy | 2004 | Two decades of campaigning; judges still grant underage-marriage exemptions |
-| India’s Supreme Court strikes down instant triple talaq (Shayara Bano v. Union of India) | Muslim women petitioners and women’s groups | 2017 | Years of litigation and public opposition within their own communities |
-| Tunisia withdraws the 1973 ban on Muslim women marrying non-Muslim men | Tunisian civil society and the presidency | 2017 | Condemnation from religious establishments abroad |
+| Saudi guardianship reforms permitting women to travel and hold documents independently | Sustained internal and international pressure won it. | 2019–present | Several of the women who campaigned for it were imprisoned. |
+| Reformist and feminist Islamic scholarship establishing textual grounds for equality | Muslim scholars, mostly women | 1990s–present | Its scholars faced accusations of apostasy and of Western capture. |
+| Mosques funded locally to refuse strings-attached foreign money | Diaspora congregations | Ongoing | It meant slower building programmes and smaller facilities. |
+| Morocco’s family code (Moudawana) reform: marriage age raised to 18, polygamy restricted, divorce opened to wives, the family placed under joint responsibility of both spouses | The Moroccan women’s movement argued for it in Islamic legal terms, and the monarchy enacted it. | 2004 | It took two decades of campaigning, and judges still grant underage-marriage exemptions. |
+| India’s Supreme Court strikes down instant triple talaq (Shayara Bano v. Union of India) | Muslim women petitioners and women’s groups | 2017 | It took years of litigation and brought public opposition within their own communities. |
+| Tunisia withdraws the 1973 ban on Muslim women marrying non-Muslim men | Tunisian civil society and the presidency | 2017 | It drew condemnation from religious establishments abroad. |
 
 ### What would change this page
 
@@ -1283,44 +1407,44 @@ Sources for this section: [2] [5] [6] [7] [18] [26] [27]
 
 ## 21. Voices from inside {#voices}
 
-- **Musawah and Sisters in Islam.** The global movement for equality in Muslim family law, launched in Kuala Lumpur in 2009, and the Malaysian group that started it [34][35].
-- **Shayara Bano.** A Muslim woman who took her divorce to the Supreme Court and won [2].
-- **Loujain al-Hathloul.** The Saudi women's-rights activist imprisoned after campaigning to end the driving ban and the guardianship system; released in 2021 [18].
-- **Nahdlatul Ulama.** The world's largest Muslim organization, which elects its leaders in contested votes [25].
-- **Tunisia's reformers.** Won the 2017 repeal of the ban on Muslim women marrying non-Muslims [7].
+- **Musawah and Sisters in Islam.** Musawah is the global movement for equality in Muslim family law, launched in Kuala Lumpur in 2009, and Sisters in Islam is the Malaysian group that started it [34][35].
+- **Shayara Bano.** A Muslim woman, she took her divorce to India's Supreme Court and won [2].
+- **Loujain al-Hathloul.** A Saudi women's-rights activist, she was imprisoned after campaigning to end the driving ban and the guardianship system, and released in 2021 [18].
+- **Nahdlatul Ulama.** The world's largest Muslim organization, it elects its leaders in contested votes [25].
+- **Tunisia's reformers.** They won the 2017 repeal of the ban on Muslim women marrying non-Muslims [7].
 
 ## 22. Regional variants {#regional}
 
 ::: card
 ### Indonesia
 
-- **apex:** No state-appointed grand mufti; Nahdlatul Ulama and Muhammadiyah are mass membership organisations with elected leadership, together representing over a hundred million people.
+- **apex:** There is no state-appointed grand mufti. Nahdlatul Ulama and Muhammadiyah are mass membership organisations with elected leadership, together representing over a hundred million people.
 - **law:** Religious courts have jurisdiction over Muslim family law. Blasphemy provisions exist and have been used. Marriage age was raised to 19 for both sexes in 2019.
 - **documented:** NU and Muhammadiyah leadership elections are genuinely contested and have produced reformist leadership. Both organisations have publicly opposed hardline currents.
 - **exit:** Formal conversion out is legally fraught; social cost varies enormously between Java and Aceh, which operates its own sharia bylaws.
-- **regulator:** The Ministry of Religious Affairs; the national human rights commission (Komnas HAM); the ordinary courts.
+- **regulator:** Complaints can go to the Ministry of Religious Affairs, the national human rights commission (Komnas HAM) or the ordinary courts.
 - **tell:** The world's largest Muslim population runs its two largest religious organisations by membership election. That fact belongs in every discussion of whether Islamic institutions can be accountable — and it is almost never in one.
 :::
 
 ::: card
 ### United Kingdom
 
-- **apex:** No national authority. Mosque trusts, individual scholars, and umbrella bodies with no compulsory jurisdiction.
-- **law:** Charity Commission regulation of mosque trusts, including statutory inquiries and trustee removals. Sharia councils operate as arbitration and mediation bodies without civil jurisdiction over divorce.
+- **apex:** There is no national authority. Authority lies with mosque trusts, individual scholars, and umbrella bodies with no compulsory jurisdiction.
+- **law:** The Charity Commission regulates mosque trusts, including through statutory inquiries and trustee removals. Sharia councils operate as arbitration and mediation bodies without civil jurisdiction over divorce.
 - **documented:** The Charity Commission has intervened in mosque governance disputes. The Siddiqui review (2018) examined sharia councils and recommended civil marriage registration to protect women in religious-only marriages.
-- **exit:** High in some communities and negligible in others; family and marriage consequences dominate over institutional ones.
-- **regulator:** The Charity Commission on trusts and governance; family courts; the police on forced marriage, which has a dedicated unit.
+- **exit:** Exit costs are high in some communities and negligible in others, and family and marriage consequences dominate over institutional ones.
+- **regulator:** The Charity Commission covers trusts and governance, and family courts hear family disputes. The police act on forced marriage, which also has a dedicated unit.
 - **tell:** The gap the Siddiqui review identified — unregistered religious marriage leaving women without legal remedy — is the most actionable finding for a UK reader on this page.
 :::
 
 ::: card
 ### Saudi Arabia
 
-- **apex:** The King as Custodian of the Two Holy Mosques; the Grand Mufti and Council of Senior Scholars, all by royal appointment.
+- **apex:** The King holds the apex as Custodian of the Two Holy Mosques, and the Grand Mufti and the Council of Senior Scholars hold office by royal appointment.
 - **law:** The religious establishment is a branch of the state. Apostasy remains a capital offence in law. The religious police were curtailed in 2016.
-- **documented:** Hajj quota and licensing administration; state control of scholarly appointment; documented detention of clerics who declined to endorse state positions.
-- **exit:** Maximal — legal, not merely social.
-- **regulator:** None available to a member. This card is included precisely because its compel line is empty, and an empty compel line is a finding.
+- **documented:** The record covers hajj quota and licensing administration, state control of scholarly appointment, and the detention of clerics who declined to endorse state positions.
+- **exit:** Exit costs are maximal, and they are legal, not merely social.
+- **regulator:** No regulator is available to a member. This card is included precisely because its compel line is empty, and an empty compel line is a finding.
 - **tell:** Where the religious apex is a branch of the state, 'that's politics, not religion' stops being a defence and becomes the description.
 :::
 
@@ -1330,21 +1454,21 @@ Sources for this section: [3] [8] [9] [10] [11] [14] [16] [17] [19] [25]
 
 ::: card
 ### Morocco
-- **apex:** The King, "Commander of the Faithful" under the 2011 Constitution [39].
+- **apex:** The King holds the apex as "Commander of the Faithful" under the 2011 Constitution [39].
 - **law:** The 2004 family code set the marriage age at 18, made spouses jointly responsible for the family, and restricted polygamy [6].
 - **documented:** Judges approved 81% of underage-marriage requests in 2019 [27].
 - **exit:** —
-- **regulator:** Family courts, whose discretion is the finding [27].
-- **tell:** A progressive statute and a judiciary that routinely grants its exceptions: the reform holds only as far as the judge who applies it.
+- **regulator:** Family courts apply the code, and their discretion is the finding [27].
+- **tell:** Morocco has a progressive statute and a judiciary that routinely grants its exceptions, so the reform holds only as far as the judge who applies it.
 :::
 
 ::: card
 ### India
-- **apex:** None; Muslim personal law is applied by the civil courts.
-- **law:** Instant triple talaq struck down in 2017 [2].
-- **documented:** *Shayara Bano* [2]; waqf-board land audits [21].
-- **exit:** Legally free.
-- **regulator:** The Supreme Court and state waqf boards [2][21].
+- **apex:** There is none; Muslim personal law is applied by the civil courts.
+- **law:** Instant triple talaq was struck down in 2017 [2].
+- **documented:** The record covers *Shayara Bano* [2] and waqf-board land audits [21].
+- **exit:** Leaving is legally free.
+- **regulator:** The Supreme Court and the state waqf boards are the regulators [2][21].
 - **tell:** The largest Muslim minority on earth changed its divorce law through a secular court, on a Muslim woman's petition.
 :::
 
