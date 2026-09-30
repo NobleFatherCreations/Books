@@ -18,12 +18,12 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | Estimates range from several hundred thousand to a few million congregational members; full-time ashram residents number in the low thousands globally. [ACADEMIC SOURCE] |
-| Who's in charge | The Governing Body Commission — Roughly thirty-plus members overseeing ISKCON worldwide since Prabhupada's death in 1977; it approves initiating gurus and — on the record — has suspended and removed them |
+| Size | Estimates range from several hundred thousand to a few million congregational members (devotees who live outside the temple and attend its programs); full-time residents of ashrams (temple communities where devotees live and serve) number in the low thousands globally. [ACADEMIC SOURCE] |
+| Who's in charge | The Governing Body Commission (GBC), the collective council that governs ISKCON (the International Society for Krishna Consciousness), has roughly thirty-plus members who have overseen the movement worldwide since the death of its founder, A.C. Bhaktivedanta Swami Prabhupada, in 1977. It approves initiating gurus (gurus who give formal initiation to disciples) and, on the record, has suspended and removed them. |
 | Chosen by / removable by | Co-option by the GBC / The GBC itself |
-| Money in one line | Book distribution (sankirtana) quotas historically drove aggressive fundraising; temple economies, restaurant chains, festival revenue, donor cultivation; unpaid devotee labor as the base asset. [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT] |
-| Leaving in one line | Leaving costs one's entire community and often years of unpaid labor with no equity; 'bad association' doctrine frames departure as spiritual death. [FORMER MEMBER TESTIMONY] |
-| The unanswered question | The gurukula settlement acknowledged the harm in writing. Which of the structures that produced it were dismantled, rather than renamed? |
+| Money in one line | Book distribution quotas (sankirtana, the public distribution of the founder's books) historically drove aggressive fundraising. The money also comes from temple economies, restaurant chains, festival revenue and donor cultivation, and unpaid devotee labor is the base asset. [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT] |
+| Leaving in one line | Leaving costs one's entire community and often years of unpaid labor with no equity. The 'bad association' doctrine (the teaching that contact with critics and former members is spiritually harmful) frames departure as spiritual death. [FORMER MEMBER TESTIMONY] |
+| The unanswered question | The settlement with the former pupils of the gurukulas (ISKCON's residential boarding schools) acknowledged the harm in writing. Which of the structures that produced it were dismantled, rather than renamed? |
 | Evidence | 5 of 30 techniques sourced to a named document; grades: Documented 10, Cultural 9, Taught 5, Contested 3, Reformed 2, Codified 1 |
 | Family | Dharmic — hinduism, hare-krishna, sikhism, jainism |
 | Last checked | 2026-09-27 |
@@ -41,9 +41,9 @@ partial: []
 
 *Radhika · A Tuesday in Kartik · A temple community in the American Midwest*
 
-Mangala arati at 4:30. Sixteen rounds by seven. The kirtan gets into her chest the way it has since 1994, when she was twenty and it saved her, actually saved her, from something she does not discuss.
+Mangala arati (the dawn worship service) at 4:30. Sixteen rounds (sixteen circuits of a 108-bead string, reciting the Hare Krishna mantra once per bead) by seven. The kirtan (call-and-response devotional chanting) gets into her chest the way it has since 1994, when she was twenty and it saved her, actually saved her, from something she does not discuss.
 
-She is fifty-one. She has cooked for the deities and for the community for twenty-nine years. She has never been paid. She has a room, prasadam, and a community, and no bank account of consequence, no employment record, and no idea what a 401k is.
+She is fifty-one. She has cooked for the deities (the consecrated images of Krishna worshiped in the temple) and for the community for twenty-nine years. She has never been paid. She has a room, prasadam (food first offered to Krishna), and a community, and no bank account of consequence, no employment record, and no idea what a 401k is.
 
 At nine she talks to Bhakti-lata's daughter, who is twenty-four and was in the gurukula in Alachua as a small child, and who is here for a wedding and has not been to a temple in eleven years. The young woman is polite. There is something behind the politeness that Radhika recognizes and cannot look at.
 
@@ -62,7 +62,7 @@ You may have found something genuinely joyful here — the chanting, the food, t
 ### The unanswered question
 
 ::: question
-The gurukula settlement acknowledged the harm in writing. Which of the structures that produced it were dismantled, rather than renamed?
+The settlement with the former pupils of the gurukulas (ISKCON's residential boarding schools) acknowledged the harm in writing. Which of the structures that produced it were dismantled, rather than renamed?
 :::
 
 ### The widest gap between word and record
@@ -75,42 +75,42 @@ The gurukula settlement acknowledged the harm in writing. Which of the structure
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Community and identity | Yes | Total social world; leaving means losing everyone and, for ashram devotees, housing and income at once | “Devotees are free to live as they wish.” |
+| Community and identity | Yes | A devotee's whole social world is lost; leaving means losing everyone and, for ashram devotees, housing and income at once. | “Devotees are free to live as they wish.” |
 
 ### The strongest objection, answered
 
 **The objection.** You are dredging up the 1970s and ignoring forty years of reform.
 
-**What is true in it.** Substantially fair. The zonal guru era ended, residential schooling was largely abandoned, a Child Protection Office was created, and the movement published its own acknowledgment of the abuse — more candor than most institutions in this codex have managed.
+**What is true in it.** The objection is substantially fair. The zonal guru era (the period after 1977 when eleven of Prabhupada's disciples each held initiating authority over a region; see section 5) ended, residential schooling was largely abandoned, a Child Protection Office was created, and the movement published its own acknowledgment of the abuse — more candor than most institutions in this codex have managed.
 
 **The answer.** So the profile grades that as reformed and says so. What remains unsettled is narrower: what reached the specific children, how many are still waiting, and what a devotee leaves with after twenty-five years of unpaid full-time service.
 
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-The International Society for Krishna Consciousness, founded 1966 by A.C. Bhaktivedanta Swami Prabhupada; Gaudiya Vaishnava devotion globalized: chanting, vegetarianism, temple communities, book distribution.
+The International Society for Krishna Consciousness was founded in 1966 by A.C. Bhaktivedanta Swami Prabhupada. It took Gaudiya Vaishnava devotion (the Bengali devotional tradition of Chaitanya, described in section 5) worldwide: chanting, vegetarianism, temple communities and book distribution.
 :::
 
-- Congregational (non-ashram) membership as lower-control mode; second-generation devotees reforming from within; transparent temple boards.
+- What healthy looks like here is congregational (non-ashram) membership, which is a lower-control mode; second-generation devotees reforming the movement from within; and transparent temple boards.
 
 ## 5. History {#history}
 
-1960s New York counterculture meeting a Bengali devotional lineage; explosive growth, then a post-founder succession crisis (the zonal guru era) marked by documented abuses; extensive institutional gurukula child-abuse litigation (Turley case, settled 2005+). [COURT RECORD]
+The movement began when the New York counterculture of the 1960s met a Bengali devotional lineage. Explosive growth was followed by a post-founder succession crisis (the zonal guru era) marked by documented abuses, and then by extensive litigation over child abuse in the gurukulas (the Turley case, settled from 2005 onward). [COURT RECORD]
 
 ### Timeline
 
 ```timeline
-1486–1534 | Chaitanya Mahaprabhu's bhakti movement in Bengal | A devotional tradition emphasizing chanting and explicitly rejecting caste barriers to devotion.
-1896–1965 | Bhaktivedanta Swami Prabhupada's life and training in the Gaudiya Vaishnava line | A single missionary carries the lineage to the West at 69 years old.
-1966 | ISKCON incorporated in New York | Counterculture recruitment into a strict monastic-devotional discipline.
-1968–1977 | Rapid global expansion; gurukula boarding schools founded; book distribution campaigns | Growth outpaces safeguarding entirely.
-1970–1977 | Governing Body Commission created 1970; Prabhupada dies 1977 | Succession left to a committee plus eleven initiating gurus.
-1978–1987 | Zonal ācārya era: the eleven gurus assume near-absolute regional authority | Documented abuses of power, expulsions, and in one case murder convictions (New Vrindaban). [COURT RECORD]
-1980s–1990s | Gurukula abuse becomes known; reform of guru system; many second-generation members leave | The children of the movement pay for its structure.
-1998 | ISKCON publishes an internal acknowledgment of gurukula child abuse | A rare instance of an institution documenting its own harm in print. [OFFICIAL POLICY]
-2000–2008 | Turley litigation on behalf of former gurukula students; settlement following ISKCON bankruptcy filings | Legal accountability with financial restructuring. [COURT RECORD]
-1990s–present | Child Protection Office established; congregational (non-ashram) membership becomes the majority mode | Structural reform that reduced the highest-risk configuration.
-2000s–present | Growth in India and among diaspora Hindus; large temple projects | The movement's center of gravity returns to India.
+1486–1534 | Chaitanya Mahaprabhu's bhakti movement in Bengal | It was a devotional tradition that emphasized chanting and explicitly rejected caste barriers to devotion.
+1896–1965 | Bhaktivedanta Swami Prabhupada's life and training in the Gaudiya Vaishnava line | A single missionary carried the lineage to the West at the age of 69.
+1966 | ISKCON incorporated in New York | Recruitment from the counterculture brought people into a strict monastic-devotional discipline.
+1968–1977 | Rapid global expansion; gurukula boarding schools founded; book distribution campaigns | Growth outpaced safeguarding entirely.
+1970–1977 | Governing Body Commission created 1970; Prabhupada dies 1977 | Succession was left to a committee plus eleven initiating gurus.
+1978–1987 | Zonal ācārya (senior teacher and guru) era: the eleven gurus assume near-absolute regional authority | The era saw documented abuses of power, expulsions, and in one case murder convictions (New Vrindaban). [COURT RECORD]
+1980s–1990s | Gurukula abuse becomes known; reform of guru system; many second-generation members leave | The children of the movement paid for its structure.
+1998 | ISKCON publishes an internal acknowledgment of gurukula child abuse | This was a rare instance of an institution documenting its own harm in print. [OFFICIAL POLICY]
+2000–2008 | Turley litigation on behalf of former gurukula students; settlement following ISKCON bankruptcy filings | The litigation brought legal accountability together with financial restructuring. [COURT RECORD]
+1990s–present | Child Protection Office established; congregational (non-ashram) membership becomes the majority mode | This structural reform reduced the highest-risk configuration.
+2000s–present | Growth in India and among diaspora Hindus; large temple projects | The movement's center of gravity returned to India.
 ```
 
 ### Moments in the room
@@ -120,13 +120,13 @@ The International Society for Krishna Consciousness, founded 1966 by A.C. Bhakti
 
 After Prabhupada's death, eleven disciples assumed initiating-guru authority over geographic zones with near-absolute local power. Within a decade most had been removed, resigned, or fallen amid scandal, and the system was dismantled by the Governing Body Commission.
 
-**Why it matters.** One of the very few cases in this codex of a religious body removing its own top rank — repeatedly. It happened only after catastrophe, and it happened.
+**Why it matters.** This is one of the very few cases in this codex of a religious body removing its own top rank, and it did so repeatedly. It happened only after catastrophe.
 :::
 
 ::: card
 #### 2000–2008 — The gurukula litigation
 
-A lawsuit brought on behalf of former children of ISKCON boarding schools led to a bankruptcy-court settlement and formal acknowledgement of abuse in the movement's schools.
+A lawsuit brought on behalf of former children of ISKCON boarding schools led to a bankruptcy-court settlement and formal acknowledgment of abuse in the movement's schools.
 
 **Why it matters.** The reckoning was purchased in a courtroom, by the children it happened to, decades later. That is the honest sequence and this page states it in that order.
 :::
@@ -136,7 +136,7 @@ A lawsuit brought on behalf of former children of ISKCON boarding schools led to
 
 ISKCON established a central Child Protection Office with investigative and sanctioning powers over its own officials — a structure that did not exist when it was needed.
 
-**Why it matters.** What reform under subpoena actually produces: something real, something partial, and something that arrived too late for the people who forced it.
+**Why it matters.** This is what reform under subpoena actually produces: something real, something partial, and something that arrived too late for the people who forced it.
 :::
 
 ::: cites
@@ -145,13 +145,13 @@ Sources for this section: [1] [3] [7]
 
 ## 6. Branches & variants {#branches}
 
-ISKCON proper; the Gaudiya Math lineages it emerged from; splinter groups (Gaudiya Vaishnava reform bodies, ritvik movements disputing guru succession).
+The branches are ISKCON proper; the Gaudiya Math lineages (the older Gaudiya Vaishnava organizations in India) that it emerged from; and splinter groups, namely Gaudiya Vaishnava reform bodies and ritvik movements (which dispute guru succession).
 
 | Branch | Where | What differs on this page's questions |
 |---|---|---|
-| **ISKCON** | Worldwide; founded 1966, governed by the Governing Body Commission (GBC) since 1970 [7] | Initiating gurus approved by the GBC; women gurus approved in 2019 and 2021, then paused in 2022 [6] |
-| **Ritvik groups** | India (notably ISKCON Bangalore) and elsewhere | Hold that Prabhupada's disciples should initiate only as his representatives, not as gurus in their own right [10] |
-| **Gaudiya Math lineages** | India and worldwide | The older tradition ISKCON came from [7] |
+| **ISKCON** | ISKCON operates worldwide; it was founded in 1966 and has been governed by the Governing Body Commission (GBC) since 1970 [7] | Its initiating gurus are approved by the GBC; women gurus were approved in 2019 and 2021, then paused in 2022 [6] |
+| **Ritvik groups** | Ritvik groups are found in India (notably ISKCON Bangalore) and elsewhere | They hold that Prabhupada's disciples should initiate only as his representatives, not as gurus in their own right [10] |
+| **Gaudiya Math lineages** | The Gaudiya Math lineages are found in India and worldwide | They are the older tradition that ISKCON came from [7] |
 
 ## 7. Structure {#structure}
 
@@ -160,25 +160,25 @@ ISKCON proper; the Gaudiya Math lineages it emerged from; splinter groups (Gaudi
 |  |  |
 |---|---|
 | Adherents | Estimates range from several hundred thousand to a few million congregational members; full-time ashram residents number in the low thousands globally. [ACADEMIC SOURCE] |
-| Regions | India (largest, including major temple projects in Mayapur and Vrindavan), United States, UK, Russia and former USSR, Brazil, South Africa, Australia. |
+| Regions | ISKCON's presence is largest in India (including major temple projects in Mayapur and Vrindavan). It is also present in the United States, the UK, Russia and the former USSR, Brazil, South Africa and Australia. |
 | Trend | The congregational model has grown substantially while ashram residency has shrunk; Indian and diaspora Hindu participation now dominates. |
 | Participation | The distinction matters enormously here: a congregational member attending a temple program on Sundays is in a very different structure from a full-time ashram devotee, and most documented harms occurred in the latter. |
 
 ### Authority
 
-- Governing Body Commission plus initiating gurus; guru surrender doctrine meets committee governance — a hybrid with recurring accountability gaps. [ACADEMIC SOURCE / FORMER MEMBER TESTIMONY]
+- Authority rests on the Governing Body Commission together with the initiating gurus. The guru surrender doctrine (the teaching that a devotee submits completely to the guru) meets committee governance, a hybrid with recurring accountability gaps. [ACADEMIC SOURCE / FORMER MEMBER TESTIMONY]
 
 ### The top of the chain
 
 ::: lede
-A rare structure in this codex: a religious body that has actually disciplined its own top rank — after catastrophe, not before.
+This is a rare structure in this codex: a religious body that has actually disciplined its own top rank, after catastrophe and not before.
 :::
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| The Governing Body Commission | Roughly thirty-plus members overseeing ISKCON worldwide since Prabhupada's death in 1977; it approves initiating gurus and — on the record — has suspended and removed them | Co-option by the GBC | The GBC itself |
-| The initiating gurus | Individual disciple networks operating under GBC law | GBC approval | GBC suspension — it has happened, which is more than most pages in this codex can say |
-| The Bhaktivedanta Book Trust | Controls the founder's texts and the book revenue that funds the movement | Trustee appointment | Trustee process |
+| The Governing Body Commission | It has roughly thirty-plus members overseeing ISKCON worldwide since Prabhupada's death in 1977; it approves initiating gurus and, on the record, has suspended and removed them. | The GBC chooses its members by co-option. | The GBC itself removes them. |
+| The initiating gurus | Each initiating guru leads a network of individual disciples and operates under GBC law. | The GBC approves them. | The GBC can suspend them; it has done so, which is more than most pages in this codex can say. |
+| The Bhaktivedanta Book Trust | It controls the founder's texts and the book revenue that funds the movement. | Its trustees are appointed. | Removal follows a trustee process. |
 
 ::: tell
 The zonal-acharya collapse and the gurukula settlement forced this structure into existence. It is what reform under subpoena looks like: real, partial, and purchased at the children's expense.
@@ -188,12 +188,12 @@ The zonal-acharya collapse and the gurukula settlement forced this structure int
 
 | Entity | Type | Holder | Holds | Why it matters to you | Receipt |
 |---|---|---|---|---|---|
-| The Governing Body Commission | Collective authority | Appointed commissioners | Global governance of the movement and oversight of initiating gurus | Who may initiate you, and who answers for them | [OFFICIAL POLICY] |
-| Initiating gurus | Personal authority | Individually authorized gurus | Surrender relationships and personal donation flows with limited audit | Your obedience, and your dakshina |  |
-| The zonal ācārya era | Historical governance failure | Eleven gurus who assumed near-absolute regional authority after 1977 | Documented abuses of power, expulsions, and in one community murder convictions | Proof that the structure, not the men, was the problem | [COURT RECORD] |
-| The gurukula system | Residential schooling | School administrations | Children separated from parents; abuse documented in litigation and in the movement's own 1998 acknowledgment | A generation of the movement's own children | [COURT RECORD / OFFICIAL POLICY] |
-| Temple corporations and restaurant operations | Commercial-devotional | Temple presidents and boards | Property and revenue built on unpaid devotee labor | Twenty-five years of your work, with no equity |  |
-| The Child Protection Office | Reform institution | Movement-appointed officers | Screening and safeguarding — a genuine reform worth naming as such | Whether the next generation is safer | [OFFICIAL POLICY] |
+| The Governing Body Commission | Collective authority | Appointed commissioners | It holds global governance of the movement and oversight of initiating gurus. | It decides who may initiate you, and who answers for them. | [OFFICIAL POLICY] |
+| Initiating gurus | Personal authority | Individually authorized gurus | They hold surrender relationships and personal donation flows with limited audit. | They receive your obedience and your dakshina (donations offered to the guru). |  |
+| The zonal ācārya era | Historical governance failure | Eleven gurus assumed near-absolute regional authority after 1977. | The era left a record of documented abuses of power, expulsions, and in one community murder convictions. | It is proof that the structure, not the men, was the problem. | [COURT RECORD] |
+| The gurukula system | Residential schooling | School administrations ran them. | They held children separated from their parents; abuse is documented in litigation and in the movement's own 1998 acknowledgment. | They affected a generation of the movement's own children. | [COURT RECORD / OFFICIAL POLICY] |
+| Temple corporations and restaurant operations | Commercial-devotional | Temple presidents and boards | They hold property and revenue built on unpaid devotee labor. | They are built on twenty-five years of your work, with no equity to show for it. |  |
+| The Child Protection Office | Reform institution | Movement-appointed officers | It runs screening and safeguarding, a genuine reform worth naming as such. | It bears on whether the next generation is safer. | [OFFICIAL POLICY] |
 
 ::: cites
 Sources for this section: [4] [5] [7]
@@ -203,29 +203,29 @@ Sources for this section: [4] [5] [7]
 
 | Country | What the law does | What happened |
 |---|---|---|
-| **United States — abuse** | Civil claims and bankruptcy [3] | About 550 former gurukula pupils sued in 2000; after Chapter 11 filings the case settled for $9.5 million in 2005 [3] |
-| **United States — New Vrindaban** | Criminal law [4][5] | A devotee was convicted of two murders (1986, 1991) [4]; the community's leader pleaded guilty to one racketeering count in 1996 [5] |
-| **India — property** | Society registration law and the civil courts [10] | The Supreme Court held in May 2025 that the Bangalore temple belongs to ISKCON Bangalore, not ISKCON Mumbai, ending a 25-year dispute; a review ended in a split decision in November 2025 [10][11] |
-| **United Kingdom** | Charity law [9] | Bhaktivedanta Manor files public accounts [9] |
+| **United States — abuse** | Civil claims and bankruptcy law apply [3] | About 550 former gurukula pupils sued in 2000; after Chapter 11 filings (US bankruptcy reorganization) the case settled for $9.5 million in 2005 [3] |
+| **United States — New Vrindaban** | Criminal law applies [4][5] | A devotee was convicted of two murders (1986, 1991) [4]; the community's leader pleaded guilty to one racketeering count in 1996 [5] |
+| **India — property** | Society registration law and the civil courts apply [10] | The Supreme Court held in May 2025 that the Bangalore temple belongs to ISKCON Bangalore, not ISKCON Mumbai, ending a 25-year dispute; a review ended in a split decision in November 2025 [10][11] |
+| **United Kingdom** | Charity law applies [9] | Bhaktivedanta Manor files public accounts [9] |
 
 ### Who can compel an answer
 
-Charity regulators over individual temples and national bodies; the courts, which is where the gurukula matter was resolved; and the GBC internally — one of the few internal bodies in this codex with a record of actually acting against its own top rank.
+Charity regulators can compel an answer from individual temples and national bodies. The courts can, and they are where the gurukula matter was resolved. The GBC can internally, and it is one of the few internal bodies in this codex with a record of actually acting against its own top rank.
 
 ## 9. Money {#money}
 
 ### Where it comes from
 
-- Book distribution (sankirtana) quotas historically drove aggressive fundraising; temple economies, restaurant chains, festival revenue, donor cultivation; unpaid devotee labor as the base asset. [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT]
+- Book distribution (sankirtana) quotas historically drove aggressive fundraising. The money also comes from temple economies, restaurant chains, festival revenue and donor cultivation, and unpaid devotee labor is the base asset. [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT]
 
 ### Follow the money
 
 | Flow | Stated purpose | How it controls | Who benefits |
 |---|---|---|---|
-| Book distribution (sankirtana) quotas | Spread Prabhupada's teachings | Quota pressure historically produced aggressive and sometimes deceptive fundraising, including airport solicitation | The movement's expansion; individual temple presidents' standing [INVESTIGATIVE REPORT] |
-| Unpaid devotee labor | Devotional service | Full-time labor for room and board with no wages, pension, or equity — the movement's economic base | Temples and institutional assets [FORMER MEMBER TESTIMONY] |
-| Temple donations, life memberships, restaurant and festival revenue | Temple operations and outreach | Substantial revenue with historically weak financial transparency to devotees | Temple administrations, the GBC |
-| Guru dakshina and initiation relationships | Support one's spiritual master | Personal donation flows to individual gurus with limited audit | Initiating gurus |
+| Book distribution (sankirtana) quotas | The stated purpose is to spread Prabhupada's teachings. | Quota pressure historically produced aggressive and sometimes deceptive fundraising, including airport solicitation | The movement's expansion and individual temple presidents' standing benefit. [INVESTIGATIVE REPORT] |
+| Unpaid devotee labor | The stated purpose is devotional service. | Devotees give full-time labor for room and board with no wages, pension, or equity, and this is the movement's economic base. | Temples and institutional assets benefit. [FORMER MEMBER TESTIMONY] |
+| Temple donations, life memberships, restaurant and festival revenue | The stated purpose is temple operations and outreach. | The revenue is substantial, with historically weak financial transparency to devotees. | Temple administrations and the GBC benefit. |
+| Guru dakshina and initiation relationships | The stated purpose is to support one's spiritual master. | Personal donation flows to individual gurus are subject to limited audit. | Initiating gurus benefit. |
 
 ### Pipelines this tradition shares
 
@@ -286,80 +286,80 @@ Charity regulators over individual temples and national bodies; the courts, whic
  "cite":[9]}
 ```
 
-- **Bhaktivedanta Manor, 2024:** £3.88m of £6.55m income from donations; £5.35m spent [9].
-- **The gurukula settlement:** $9.5 million for about 550 claimants (2005) [3].
-- **Book distribution and temple economies** — see Money above.
+- **Bhaktivedanta Manor, 2024:** Donations supplied £3.88m of its £6.55m income, and £5.35m was spent [9].
+- **The gurukula settlement:** The settlement was $9.5 million for about 550 claimants (2005) [3].
+- **Book distribution and temple economies** are described under Money above.
 
 ## 10. Genealogy {#genealogy}
 
 ::: card
 #### Guru surrender as institutional authority
 
-**Origin.** Traditional Gaudiya Vaishnava guru-disciple relationship; radicalized after 1977 in the zonal ācārya era when eleven gurus assumed near-absolute regional authority. [ACADEMIC SOURCE]
+**Origin.** It began as the traditional Gaudiya Vaishnava guru-disciple relationship and was radicalized after 1977, in the zonal ācārya era, when eleven gurus assumed near-absolute regional authority. [ACADEMIC SOURCE]
 
-**What it was for.** Personal apprenticeship in a devotional lineage, in a village-scale setting where the community could observe the relationship.
+**What it was for.** It was for personal apprenticeship in a devotional lineage, in a village-scale setting where the community could observe the relationship.
 
 **Why that reason expired.** Scaled to global organizational authority, surrender to the guru became surrender to a corporate officer. The zonal era produced documented abuses of power, expulsions, and in one community, murder convictions. [COURT RECORD]
 
-**Who benefits now.** Initiating gurus and institutional office-holders. The tradition's own reforms narrowed this — which proves it was structural, not scriptural.
+**Who benefits now.** Initiating gurus and institutional office-holders benefit. The tradition's own reforms narrowed this — which proves it was structural, not scriptural.
 :::
 
 ::: card
 #### Gurukula residential schooling
 
-**Origin.** Founded in the movement's first decade, drawing on an ancient Indian model of residential education. [ACADEMIC SOURCE]
+**Origin.** The gurukulas were founded in the movement's first decade, drawing on an ancient Indian model of residential education. [ACADEMIC SOURCE]
 
-**What it was for.** Devotional education from childhood, in a movement that believed it was building a new civilization.
+**What it was for.** They were for devotional education from childhood, in a movement that believed it was building a new civilization.
 
 **Why that reason expired.** Children were separated from parents into institutions with no safeguarding, minimal secular education, and, as documented in litigation and in the movement's own 1998 acknowledgment, extensive physical, emotional, and sexual abuse. [COURT RECORD / OFFICIAL POLICY]
 
-**Who benefits now.** Nothing now — the model was largely abandoned and a Child Protection Office created. The cost was paid entirely by one generation of children, and that debt is not settled by structural reform.
+**Who benefits now.** No one benefits now; the model was largely abandoned and a Child Protection Office was created. The cost was paid entirely by one generation of children, and that debt is not settled by structural reform.
 :::
 
 ::: card
 #### Book distribution quotas
 
-**Origin.** Sankirtana campaigns in the 1970s, with quotas driving distribution numbers. [INVESTIGATIVE REPORT]
+**Origin.** It began with sankirtana campaigns in the 1970s, with quotas driving distribution numbers. [INVESTIGATIVE REPORT]
 
-**What it was for.** Spreading the founder's translations — genuinely his central instruction.
+**What it was for.** It was for spreading the founder's translations, which was genuinely his central instruction.
 
 **Why that reason expired.** Quota pressure produced aggressive and at times deceptive fundraising, including airport solicitation, with temple presidents' standing tied to numbers. When a spiritual practice is measured in units, it becomes a sales target.
 
-**Who benefits now.** Institutional expansion and the internal standing of local leaders. The devotees doing the soliciting were unpaid.
+**Who benefits now.** Institutional expansion and the internal standing of local leaders benefit. The devotees doing the soliciting were unpaid.
 :::
 
 ::: card
 #### Unpaid devotee labor
 
-**Origin.** Ashram life from the beginning: room and board in exchange for full-time service. [FORMER MEMBER TESTIMONY]
+**Origin.** Ashram life has involved, from the beginning, room and board in exchange for full-time service. [FORMER MEMBER TESTIMONY]
 
-**What it was for.** Renunciate community, in which nobody owned anything and everyone was fed.
+**What it was for.** It was for a renunciate community (one built on giving up personal possessions), in which nobody owned anything and everyone was fed.
 
 **Why that reason expired.** A renunciate owns nothing and the order owns nothing either. Here the organization accumulated substantial temple and property assets while devotees who gave decades left with no savings, no work history, and no equity.
 
-**Who benefits now.** Temple administrations and institutional assets. This is the mechanism that makes exit after twenty years economically catastrophic.
+**Who benefits now.** Temple administrations and institutional assets benefit. This is the mechanism that makes exit after twenty years economically catastrophic.
 :::
 
 ## 11. Reach {#reach}
 
 ### Information
 
-- 'Bad association' doctrine discourages contact with critics, ex-members, and outside interpretations of the scriptures. [OFFICIAL POLICY / FORMER MEMBER TESTIMONY]
-- Guru authority framed as non-different from scripture in some teaching, making criticism of a guru into criticism of God. [PATTERN OBSERVED]
+- The 'bad association' doctrine discourages contact with critics, ex-members, and outside interpretations of the scriptures. [OFFICIAL POLICY / FORMER MEMBER TESTIMONY]
+- In some teaching, guru authority is framed as non-different from scripture, which turns criticism of a guru into criticism of God. [PATTERN OBSERVED]
 - Countervailing fact worth stating: ISKCON published its own acknowledgment of child abuse and created a protection office — more institutional candor than most bodies in this codex have managed. [OFFICIAL POLICY]
 
 ### Children
 
 - Gurukula boarding schools separated young children from parents; physical, emotional, and sexual abuse is documented across multiple locations and was the subject of major litigation. [COURT RECORD]
 - Children were raised on the assumption of lifelong devotional service, with limited secular education in the early decades.
-- Reform: the Child Protection Office, background screening, and a shift away from residential schooling substantially changed the risk structure. [OFFICIAL POLICY]
+- Reform through the Child Protection Office, background screening, and a shift away from residential schooling substantially changed the risk structure. [OFFICIAL POLICY]
 
 ### Bodies
 
 - Prabhupada's recorded statements on women's intelligence and status remain in the movement's canonical literature and are a live internal dispute. [ACADEMIC SOURCE]
-- Women's roles in temple leadership and initiation authority have expanded but remain contested; the female diksha-guru question has been a major recent controversy — approved by the GBC in 2019 and 2021, then paused again in 2022. [OFFICIAL POLICY]
-- Arranged marriages within the movement, celibacy expectations for unmarried devotees, and strict regulation of sexual life (procreation-only in strict practice).
-- Documented sexual misconduct by senior figures with devotee women. [FORMER MEMBER TESTIMONY / COURT RECORD]
+- Women's roles in temple leadership and initiation authority have expanded but remain contested; the female diksha-guru (initiating guru) question has been a major recent controversy — approved by the GBC in 2019 and 2021, then paused again in 2022. [OFFICIAL POLICY]
+- The movement practices arranged marriages, expects celibacy of unmarried devotees, and strictly regulates sexual life (procreation-only in strict practice).
+- Sexual misconduct by senior figures with devotee women is documented. [FORMER MEMBER TESTIMONY / COURT RECORD]
 
 ::: cites
 Sources for this section: [1] [2] [6] [8]
@@ -374,7 +374,7 @@ Thirty named techniques from domestic-abuse and social-psychology research, appl
 ::: stage
 **You arrive with a need and are met with more warmth than you have had in years.**
 
-Chanting, dancing, prasadam, festival color, and the message that Krishna has been waiting for you personally. It is immersive and it is generous.
+The welcome consists of chanting, dancing, prasadam, festival color, and the message that Krishna has been waiting for you personally. It is immersive and it is generous.
 
 *What it asks of you:* The joy was real. It also arrived before the regulations did.
 :::
@@ -394,7 +394,7 @@ Chanting, dancing, prasadam, festival color, and the message that Krishna has be
 
 **The counter.** Free food is beautiful. But if the meal leads into a system where love increases with surrender and decreases with independence, the plate was also a recruitment tool. The sweetness is real. So is the hook.
 
-**Evidence grade.** [[Cultural]] Chanting, prasadam, and festival welcome are immersive local practice.
+**Evidence grade.** [[Cultural]] The welcome the entry describes is ordinary devotional practice at temples; that the stricter demands arrive after attachment is a reported pattern, not a documented one.
 :::
 
 ::: tactic n=2
@@ -413,7 +413,7 @@ Chanting, dancing, prasadam, festival color, and the message that Krishna has be
 
 **The counter.** Feeding people is beautiful. But if the food opens the door to a system where surrender is praised and independence is treated as material contamination, then the meal is doing institutional work. The sweetness is real. So is the strategy.
 
-**Evidence grade.** [[Cultural]] Chanting, prasadam, and festival welcome are immersive local practice.
+**Evidence grade.** [[Cultural]] Free food, chanting and festivals are ordinary temple practice; that they carry an unspoken obligation is the pattern this entry describes, not a documented finding.
 :::
 
 ### Stage 2 · Hook {#stage-2}
@@ -421,7 +421,7 @@ Chanting, dancing, prasadam, festival color, and the message that Krishna has be
 ::: stage
 **You are given a future that cannot be verified, and a rope for whenever you drift toward the door.**
 
-Krishna consciousness, liberation from the material world, eternal service in a spiritual realm — undated, unverifiable. Retrieval comes through festival, prasadam, and the assurance that Krishna never abandons anyone, and neither does the temple.
+The future offered is Krishna consciousness, liberation from the material world, and eternal service in a spiritual realm, all of it undated and unverifiable. Retrieval comes through festival, prasadam, and the assurance that Krishna never abandons anyone, and neither does the temple.
 
 *What it asks of you:* You were told Krishna was waiting for you personally. Ask who was standing beside him holding the schedule.
 :::
@@ -454,7 +454,7 @@ Krishna consciousness, liberation from the material world, eternal service in a 
 **How it shows here**
 
 - Someone leaving ISKCON may be pulled back through prasadam, kirtan, festivals, devotee friendships, guru loyalty, and the sweetness of Krishna devotion.
-- They may hear: “You are in maya,” “Material life is pulling you away,” “Just chant again,” “Come take prasadam,” “Don’t commit offenses.”
+- They may hear: “You are in maya,” “Material life is pulling you away,” “Just chant again,” “Come take prasadam,” “Don’t commit offenses.” (Maya is illusion, the material energy that obscures reality; an offense is a spiritual offense, such as criticizing a devotee or a guru.)
 - The community may frame departure as spiritual forgetfulness, contamination, bad association, or lack of surrender.
 - Former devotees may be urged to resume rounds, attend temple programs, reconnect with the guru, or return to devotional service.
 - If they left due to abuse, burnout, exploitation, or authoritarian leadership, the response may be: “Do not blame Krishna for imperfect devotees.”
@@ -463,7 +463,7 @@ Krishna consciousness, liberation from the material world, eternal service in a 
 
 **The counter.** Joy becomes a hook when every alternative life is dismissed as illusion. If leaving is always maya and returning is always devotion, then the system has rigged the vocabulary so only surrender can sound spiritual.
 
-**Evidence grade.** [[Taught]] Krishna consciousness and liberation from material existence are taught as the deferred goal.
+**Evidence grade.** [[Taught]] The phrases the entry lists for someone who is leaving (maya, offense, bad association) come from the movement's own teaching about departure.
 :::
 
 ### Stage 3 · Devalue {#stage-3}
@@ -471,7 +471,7 @@ Krishna consciousness, liberation from the material world, eternal service in a 
 ::: stage
 **You are taught that you are broken, that your perception is unreliable, and that both exits from the trap lead back inside.**
 
-Rounds not chanted attentively enough, service not surrendered enough, consciousness too material. The standard is total and you are always partial.
+You are told that your rounds are not chanted attentively enough, your service is not surrendered enough, and your consciousness is too material. The standard is total and you are always partial.
 
 *What it asks of you:* Notice that your ordinary human limits were reclassified as spiritual failure.
 :::
@@ -493,7 +493,7 @@ Rounds not chanted attentively enough, service not surrendered enough, conscious
 
 **The counter.** That becomes devaluation when every non-institutional identity is treated as illusion. If the only “real you” is the one that chants, serves, obeys, donates, and submits to the guru structure, then spiritual identity has replaced personal identity.
 
-**Evidence grade.** [[Taught]] Insufficient surrender and material consciousness are taught as the devotee's default condition.
+**Evidence grade.** [[Taught]] The teaching that material life is illusion and that the self before Krishna consciousness is ignorance is part of the movement's doctrine, which is what this grade rests on.
 :::
 
 ::: tactic n=6
@@ -513,7 +513,7 @@ Rounds not chanted attentively enough, service not surrendered enough, conscious
 
 **The counter.** Detachment becomes gaslighting when every ordinary human need is labeled illusion. If only the surrendered self is considered real, then the institution has made personal autonomy look spiritually fake.
 
-**Evidence grade.** [[Taught]] Insufficient surrender and material consciousness are taught as the devotee's default condition.
+**Evidence grade.** [[Taught]] The teaching that doubt and ordinary desire are maya, and that questioning a guru is offense, is taught doctrine; its use against a particular devotee's account is reported, not documented.
 :::
 
 ::: tactic n=7
@@ -527,11 +527,11 @@ Rounds not chanted attentively enough, service not surrendered enough, conscious
 - One must accept a guru to advance, and gurus who later fall are explained as the devotee's poor discernment — the choice was mandatory and its failure is yours.
 - Leaving the association of devotees is spiritual suicide; staying under harmful leadership is surrender. The map marks every road out as a cliff.
 
-**The strongest defense.** Bhakti is the yoga of love; no one can be forced to love God.
+**The strongest defense.** Bhakti (devotion) is the yoga of love; no one can be forced to love God.
 
 **The counter.** Exactly — which is why a system that must monitor, measure, and enforce the love should explain what it is actually cultivating. Love that requires surveillance has already confessed it is something else.
 
-**Evidence grade.** [[Taught]] Insufficient surrender and material consciousness are taught as the devotee's default condition.
+**Evidence grade.** [[Taught]] Each part of the bind (reluctance is maya, a guru is required, leaving devotee association is spiritual suicide) is taught doctrine; combining them into a trap is this entry's analysis.
 :::
 
 ### Stage 4 · Confuse {#stage-4}
@@ -555,11 +555,11 @@ Criticize a guru and it is your envy, your material consciousness, your bad asso
 - A devotee's standing with temple authorities and gurus warms and cools with service hours, book distribution, and visible surrender, on a scale administered as spiritual assessment.
 - Initiation, recommendation, and advancement arrive at authority discretion after years of service whose sufficiency is never defined in advance — the indefiniteness is the tether.
 
-**The strongest defense.** Krishna's reciprocation is personal and sovereign; the Gita itself says 'as they surrender, I reward them.'
+**The strongest defense.** Krishna's reciprocation is personal and sovereign; the Gita (the Bhagavad Gita, a central scripture) itself says 'as they surrender, I reward them.'
 
 **The counter.** Between the devotee and Krishna, that is theology. Between the devotee and the temple authority who claims to read the reciprocation and meter the opportunities, it is management — and management by unpredictable reward has a name.
 
-**Evidence grade.** [[Cultural]] Attributing criticism to envy or bad association is devotional speech; the guru-infallibility question is internally disputed.
+**Evidence grade.** [[Cultural]] Variable devotional experience and discretionary advancement are features of temple practice; no document in this volume sets out the metering the entry describes.
 :::
 
 ::: tactic n=9
@@ -569,7 +569,7 @@ Criticize a guru and it is your envy, your material consciousness, your bad asso
 
 **How it shows here**
 
-- A newcomer chants and enjoys prasadam. Then they must chant rounds, follow regulative principles, accept guru, serve, donate, distribute books, avoid material association, and surrender.
+- A newcomer chants and enjoys prasadam. Then they must chant rounds, follow regulative principles (the rules against eating meat, fish and eggs, taking intoxicants, gambling and illicit sex), accept guru, serve, donate, distribute books, avoid material association, and surrender.
 - If they chant but struggle, they are told to chant more purely. If they serve but burn out, they lack devotion. If they question, they risk offense.
 - Ordinary life is never enough; the real goal keeps moving toward deeper renunciation and institutional service.
 
@@ -577,7 +577,7 @@ Criticize a guru and it is your envy, your material consciousness, your bad asso
 
 **The counter.** Surrender becomes moving the goalposts when every human limit is reclassified as material contamination. If love for Krishna is measured by increasing institutional availability, devotion has become extraction.
 
-**Evidence grade.** [[Cultural]] Attributing criticism to envy or bad association is devotional speech; the guru-infallibility question is internally disputed.
+**Evidence grade.** [[Cultural]] The rising sequence of expectations the entry lists (rounds, regulative principles, service, donations) is a pattern of temple practice, and no written rule in this volume sets it.
 :::
 
 ::: tactic n=10
@@ -595,7 +595,7 @@ Criticize a guru and it is your envy, your material consciousness, your bad asso
 
 **The counter.** That becomes strategic ambiguity when the institution claims sacred authority for obedience but ordinary fallibility for harm. If Krishna is invoked to recruit but separated from the institution when victims speak, ambiguity is doing reputation work.
 
-**Evidence grade.** [[Cultural]] Attributing criticism to envy or bad association is devotional speech; the guru-infallibility question is internally disputed.
+**Evidence grade.** [[Cultural]] The shifting use of 'guru authority' and 'material life' is a pattern in devotional speech, and the guru-infallibility question is disputed within the movement.
 :::
 
 ::: tactic n=11
@@ -614,7 +614,7 @@ Criticize a guru and it is your envy, your material consciousness, your bad asso
 
 **The counter.** If every criticism is called offense and every exit is called maya, the system has projected illusion onto the person escaping it. Sometimes the illusion is not outside the temple. Sometimes it is the holiness used to protect power inside it.
 
-**Evidence grade.** [[Cultural]] Attributing criticism to envy or bad association is devotional speech; the guru-infallibility question is internally disputed.
+**Evidence grade.** [[Cultural]] The accusations of maya and offense the entry describes are devotional speech; whether they amount to projection is this entry's reading of that speech.
 :::
 
 ::: tactic n=12
@@ -634,7 +634,7 @@ Criticize a guru and it is your envy, your material consciousness, your bad asso
 
 **The counter.** Imperfection is not the issue. Reversal is. If victims are blamed for damaging devotion while abusive leaders are protected as servants of Krishna, then holiness is being used to launder institutional harm.
 
-**Evidence grade.** [[Cultural]] Attributing criticism to envy or bad association is devotional speech; the guru-infallibility question is internally disputed.
+**Evidence grade.** [[Cultural]] The sequence of denial, accusation of offense and reversal is a pattern this entry describes from how criticism is answered in devotional speech; this volume cites no court or official record of it.
 :::
 
 ::: tactic n=13
@@ -646,7 +646,7 @@ Criticize a guru and it is your envy, your material consciousness, your bad asso
 
 - Newcomers are slowly normalized into chanting, prasadam, temple schedule, regulated diet, sexual restrictions, guru devotion, service, donations, and separation from material life.
 - Ordinary desires become desensitized into shame: romance, career, family, sex, entertainment, and autonomy are repeatedly labeled maya or sense gratification.
-- Exhaustive devotional labor can become normal because it is framed as seva.
+- Exhaustive devotional labor can become normal because it is framed as seva (devotional service).
 - Guru idealization becomes ordinary through repetition of honorifics, rituals, stories, and senior devotee modeling.
 - The temple becomes the place where depletion is renamed devotion.
 
@@ -654,7 +654,7 @@ Criticize a guru and it is your envy, your material consciousness, your bad asso
 
 **The counter.** Detachment becomes desensitization when people learn to distrust ordinary human needs. If exhaustion, shame, and dependency are repeatedly renamed devotion, the temple has trained the nervous system to accept depletion as holiness.
 
-**Evidence grade.** [[Reformed]] Gurukula residential schooling largely discontinued, a Child Protection Office established, and the movement published its own acknowledgment of the abuse. *(sourced)*
+**Evidence grade.** [[Reformed]] This grade rests on the changes to child-related practice recorded elsewhere on this page: gurukula residential schooling largely discontinued and a Child Protection Office established. This page records no equivalent change to the adult routines this entry describes. *(sourced)*
 :::
 
 ### Stage 5 · Isolate {#stage-5}
@@ -662,7 +662,7 @@ Criticize a guru and it is your envy, your material consciousness, your bad asso
 ::: stage
 **Your world narrows until every voice you hear is inside the system, and everything you came for now runs through a middleman.**
 
-For ashram devotees: housing, food, work, community, and identity all internal. 'Bad association' discourages contact with critics, ex-members, and outside interpretation.
+For ashram devotees, housing, food, work, community, and identity are all internal. The 'bad association' doctrine discourages contact with critics, ex-members, and outside interpretation.
 
 *What it asks of you:* If you left tomorrow, what would you have — in savings, in credentials, in people?
 :::
@@ -698,7 +698,7 @@ For ashram devotees: housing, food, work, community, and identity all internal. 
 - A devotee questioning exploitation may be told by others, “Do not commit offenses,” “Take shelter of guru,” “Chant more,” “Avoid bad association.”
 - The guru becomes the third point: criticism of institutional abuse becomes offense against a spiritual master.
 - Krishna is invoked as witness: leaving temple life is framed as leaving Krishna, not just leaving an organization.
-- Devotees are compared with surrendered saints, pure devotees, brahmacharis, renunciants, and those who gave everything in service.
+- Devotees are compared with surrendered saints, pure devotees, brahmacharis (celibate monastic students), renunciants, and those who gave everything in service.
 - The outside world is triangulated as maya: family, romance, career, sex, entertainment, and autonomy are framed as illusion pulling you away.
 - Prasadam, kirtan, and festivals become emotional triangulators: beautiful experiences are used to pull the person past unresolved harm.
 
@@ -714,7 +714,7 @@ For ashram devotees: housing, food, work, community, and identity all internal. 
 ::: stage
 **Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
 
-Book distribution quotas that drove aggressive and at times deceptive fundraising. Decades of full-time unpaid labor for room and board while the institution accumulated property. Guru donation flows with limited audit. Children in residential schools with no safeguarding. And criticism reframed as envy and material consciousness.
+Book distribution quotas drove aggressive and at times deceptive fundraising. Devotees gave decades of full-time unpaid labor for room and board while the institution accumulated property. Guru donation flows had limited audit. Children were in residential schools with no safeguarding. Criticism was reframed as envy and material consciousness.
 
 *What it asks of you:* Twenty-five years of full-time work produced no savings, no work history, and no equity — because you were never employed, which saved the institution a great deal.
 :::
@@ -735,7 +735,7 @@ Book distribution quotas that drove aggressive and at times deceptive fundraisin
 
 **The counter.** Association becomes FLYING MONKEY pressure when no one can imagine that the institution itself is the problem. If every devotee sent to help translates your boundary into maya, the community has become an echo chamber of surrender.
 
-**Evidence grade.** [[Documented]] Book quotas, unpaid devotee labor, and the property outcome are established in litigation and extensive testimony.
+**Evidence grade.** [[Documented]] The messages the entry lists ('chant more', 'avoid bad association') are the movement's standard vocabulary about doubt; that senior devotees apply them as pressure rests on former-member testimony, not on a court record.
 :::
 
 ::: tactic n=17
@@ -754,7 +754,7 @@ Book distribution quotas that drove aggressive and at times deceptive fundraisin
 
 **The counter.** Guarding against offense becomes smear when it makes victims look spiritually polluted for naming harm. If the critic is always in maya, the institution never has to face reality.
 
-**Evidence grade.** [[Documented]] Book quotas, unpaid devotee labor, and the property outcome are established in litigation and extensive testimony.
+**Evidence grade.** [[Documented]] The labels the entry lists (fallen, envious, in maya) rest on former-member testimony; this volume cites no court finding that they were used as a campaign against leavers.
 :::
 
 ::: tactic n=18
@@ -773,7 +773,7 @@ Book distribution quotas that drove aggressive and at times deceptive fundraisin
 
 **The counter.** Purification becomes stonewalling when it replaces accountability. If exploitation is answered with “chant more,” the institution is using devotion to avoid repair.
 
-**Evidence grade.** [[Documented]] Book quotas, unpaid devotee labor, and the property outcome are established in litigation and extensive testimony.
+**Evidence grade.** [[Documented]] That 'chant more' is the answer to a complaint rests on former-member testimony; this volume cites no record of a specific complaint handled this way.
 :::
 
 ::: tactic n=19
@@ -792,7 +792,7 @@ Book distribution quotas that drove aggressive and at times deceptive fundraisin
 
 **The counter.** Love is not fully voluntary when every alternative is called illusion. If the only real self is the surrendered self, the movement has manufactured consent by discrediting the person who might say no.
 
-**Evidence grade.** [[Documented]] Book quotas, unpaid devotee labor, and the property outcome are established in litigation and extensive testimony.
+**Evidence grade.** [[Documented]] The entry's examples rest on the movement's teaching about offense, maya and service; the documented part is the long unpaid labor recorded in sections 3 and 9.
 :::
 
 ::: tactic n=20
@@ -811,7 +811,7 @@ Book distribution quotas that drove aggressive and at times deceptive fundraisin
 
 **The counter.** Devotion becomes TRAUMA BONDING when the movement first makes ordinary life feel dirty and then offers temple life as purification. If the only relief from shame is deeper surrender, the sweetness is functioning as adhesive.
 
-**Evidence grade.** [[Documented]] Book quotas, unpaid devotee labor, and the property outcome are established in litigation and extensive testimony.
+**Evidence grade.** [[Documented]] The cycle of shame and relief the entry describes is drawn from the movement's teaching about maya and purification; this volume cites no record that shows the cycle directly.
 :::
 
 ::: tactic n=21
@@ -830,7 +830,7 @@ Book distribution quotas that drove aggressive and at times deceptive fundraisin
 
 **The counter.** Purification becomes LEARNED HELPLESSNESS when every need is treated as contamination. If the devotee cannot distinguish exhaustion from ego, the movement has disabled self-protection.
 
-**Evidence grade.** [[Documented]] Book quotas, unpaid devotee labor, and the property outcome are established in litigation and extensive testimony.
+**Evidence grade.** [[Documented]] The entry's examples (told to chant more, taught to distrust ordinary needs) rest on former-member testimony; this volume cites no record that measures the effect.
 :::
 
 ::: tactic n=22
@@ -849,7 +849,7 @@ Book distribution quotas that drove aggressive and at times deceptive fundraisin
 
 **The counter.** Purification becomes BENEVOLENT CONTROL when ordinary needs are treated as contamination. If the temple controls body, time, labor, food, sex, money, and thought in the name of love, devotion has become administration.
 
-**Evidence grade.** [[Documented]] Book quotas, unpaid devotee labor, and the property outcome are established in litigation and extensive testimony.
+**Evidence grade.** [[Documented]] The framing of obedience, diet and unpaid labor as loving purification is the movement's own language; the documented part is the unpaid labor for room and board recorded in sections 3 and 9.
 :::
 
 ::: tactic n=23
@@ -868,7 +868,7 @@ Book distribution quotas that drove aggressive and at times deceptive fundraisin
 
 **The counter.** Transcendence becomes INFANTILIZATION when ordinary adult life is dismissed as lower consciousness. If the only mature person is the surrendered devotee, the movement has redefined adulthood as obedience.
 
-**Evidence grade.** [[Contested]] Statements on women's status remain in canonical literature and are actively disputed within the movement. *(sourced)*
+**Evidence grade.** [[Contested]] Whether surrender and obedience to a guru amounts to treating adult devotees as children is disputed within the movement; the entry's examples rest on its teaching about maya and on former-member accounts. *(sourced)*
 :::
 
 ::: tactic n=24
@@ -888,7 +888,7 @@ Book distribution quotas that drove aggressive and at times deceptive fundraisin
 
 **The counter.** Spiritual identity becomes IDENTITY EROSION when every non-devotional self is dismissed as illusion. If the only real you is the one that serves, chants, obeys, and surrenders, the movement has replaced personhood with devotional utility.
 
-**Evidence grade.** [[Documented]] Book quotas, unpaid devotee labor, and the property outcome are established in litigation and extensive testimony.
+**Evidence grade.** [[Documented]] The replacement of ordinary identity by devotee identity is described in this entry from the movement's own teaching; this volume cites no record that measures it.
 :::
 
 ::: tactic n=25
@@ -908,7 +908,7 @@ Book distribution quotas that drove aggressive and at times deceptive fundraisin
 
 **The counter.** Purification becomes SPIRITUAL BYPASSING when it avoids institutional harm. If the answer to abuse is “chant more,” devotion has been used to step around justice.
 
-**Evidence grade.** [[Documented]] Book quotas, unpaid devotee labor, and the property outcome are established in litigation and extensive testimony.
+**Evidence grade.** [[Documented]] The entry's examples ('chant more' as the answer to abuse) rest on former-member testimony; the abuse itself is documented in litigation and in the movement's own 1998 acknowledgment (sections 5 and 8).
 :::
 
 ::: tactic n=26
@@ -935,7 +935,7 @@ Book distribution quotas that drove aggressive and at times deceptive fundraisin
 ::: stage
 **You become expensive — too many questions, too much independence — and the urgency ramps up until you are removed.**
 
-Loss of community, housing, and income at once; labeled fallen, envious, or contaminated. Decades of unpaid service leave nothing transferable.
+You lose community, housing, and income at once, and you are labeled fallen, envious, or contaminated. Decades of unpaid service leave nothing transferable.
 
 *What it asks of you:* You were not fired, because you were never employed. That distinction saved the institution a great deal of money.
 :::
@@ -956,7 +956,7 @@ Loss of community, housing, and income at once; labeled fallen, envious, or cont
 
 **The counter.** Protection becomes MANUFACTURED CRISIS when ordinary life is treated as contamination. If leaving the temple is framed as falling into maya, crisis has been manufactured around independence.
 
-**Evidence grade.** [[Contested]] Departure costs fall heavily on long-term ashram devotees and lightly on congregational members — a real internal difference.
+**Evidence grade.** [[Contested]] Whether the urgency the entry describes is manufactured is disputed, because the costs of leaving fall heavily on long-term ashram devotees and lightly on congregational members.
 :::
 
 ::: tactic n=28
@@ -1006,7 +1006,7 @@ The temple continues, your service is redistributed, and your years become a cau
 
 **The counter.** Devotion becomes REPLACEMENT when people are valued by service output. If the temple can replace the burned-out devotee with a fresh one while calling the leaver fallen, the sweetness has become a recruitment cycle.
 
-**Evidence grade.** [[Cultural]] Authority attributed to a guru chain terminating in the deceased founder, with the initiating-guru system internally contested.
+**Evidence grade.** [[Cultural]] That a departing devotee's service is quickly reassigned and newcomers arrive is ordinary temple practice; this entry cites no record of a specific case.
 :::
 
 ::: tactic n=30
@@ -1035,46 +1035,160 @@ Sources for this section: [1] [2] [8]
 
 ## 13. The loops {#loops}
 
+::: lede
+The seven loops below show how the practices connect, so that each step makes the next one easier and the last step feeds the first. The loops are analysis built from findings recorded elsewhere on this page [PATTERN OBSERVED]; each step names the section or technique where its fact is recorded.
+:::
+
 ::: card
 #### 1 · Money to Doctrine to Money
 
 Book quotas, temple revenue, and guru dakshina fund the institutions that define what surrender requires.
+
+**How it runs.**
+
+1. Devotees are taught that surrender to the guru and to devotional service is the path to liberation (technique 3; section 7).
+2. The GBC and the initiating gurus set what surrender requires, including service, chanting rounds and donations (sections 7 and 12, technique 22).
+3. Devotees meet the requirement through book distribution quotas, temple donations, guru dakshina and unpaid labor (section 9).
+4. The revenue and labor build temples, restaurants and property titled to the institution, with weak historical financial transparency to the people who built them (sections 9 and 16).
+5. Those institutions again define what surrender requires, and financial limits can be read as lack of devotion (technique 26).
+
+**Techniques that feed it.** [3 · Future Faking](#t-3), [19 · Manufactured Consent](#t-19), [22 · Benevolent Control](#t-22), [26 · Financial Control](#t-26).
+
+**Why it closes.** The bodies that set the terms of surrender also receive the giving and the labor that surrender produces. A devotee cannot see where the money goes, and cannot test the terms without the doubt being treated as offense (techniques 19 and 26).
+
+**Where it could be broken, and by whom.** It weakens wherever the money becomes visible. Bhaktivedanta Manor, as a registered charity, files public accounts (sections 8 and 9), and a devotee can ask a temple for audited accounts (section 23). Publication of temple accounts is in the hands of temple boards and the GBC. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 9 records that quota pressure produced aggressive and at times deceptive fundraising, including airport solicitation, and section 10 records that temple presidents' standing was tied to the numbers.
 :::
 
 ::: card
 #### 2 · Fear to Dependence to Fear
 
-Material illusion and falling down supply the fear; devotional service supplies the relief, supervised by the guru.
+Material illusion and falling down supply the fear, and devotional service supplies the relief, supervised by the guru.
+
+**How it runs.**
+
+1. The newcomer is taught that ordinary life is maya (illusion) and that the self before Krishna consciousness is ignorance (techniques 5 and 24).
+2. Doubt and the desire for ordinary life are labeled maya or offense, so fear attaches to questioning and to leaving (techniques 6 and 27).
+3. The relief on offer is chanting, service, guru approval and temple belonging, and the guru supervises it (techniques 20 and 22).
+4. Leaving is framed as falling down or as spiritual death, so the fear returns whenever the devotee considers leaving (sections 11 and 15, technique 28).
+5. The devotee returns to service for relief, and the cycle repeats (technique 21).
+
+**Techniques that feed it.** [5 · Devaluation](#t-5), [20 · Trauma Bonding](#t-20), [21 · Learned Helplessness](#t-21), [27 · Manufactured Crisis](#t-27).
+
+**Why it closes.** The source of the fear and the source of the relief are the same institution. Each act of relief confirms that the institution is where relief is found, and each doubt is treated as a return of the illusion (techniques 20 and 21).
+
+**Where it could be broken, and by whom.** It weakens wherever a devotee has a life outside the temple. Section 12 records that the costs of leaving fall heavily on long-term ashram devotees and lightly on congregational members (technique 27). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Technique 20 describes a devotee who feels contaminated by maya and then finds relief through chanting, service, guru approval and temple belonging.
 :::
 
 ::: card
 #### 3 · Children to Members to Children
 
-Gurukula schooling produced adults with no secular credentials — the loop was closed once, and reform broke it.
+Gurukula schooling produced adults with no secular credentials, so the loop closed once, and reform broke it.
+
+**How it runs.**
+
+1. Children were sent to residential gurukulas, separated from their parents and given minimal secular education (sections 7 and 10).
+2. They were raised on the assumption of lifelong devotional service (section 11, technique 13).
+3. They reached adulthood without credentials or savings (section 17).
+4. The movement's next generation of children entered the same schools (section 10).
+5. Reform broke the loop: the model was largely abandoned and a Child Protection Office was created (sections 5 and 10, technique 13).
+
+**Techniques that feed it.** [13 · Normalization / Desensitization](#t-13), [14 · Isolation](#t-14), [19 · Manufactured Consent](#t-19).
+
+**Why it closes.** Children formed inside an institution have no other credentials to leave with, so the institution supplied both their formation and their dependence.
+
+**Where it could be broken, and by whom.** It was broken by ending most residential schooling and by creating a Child Protection Office, through reformers and second-generation members (sections 14 and 20). Whether compensation reached the specific children is the unanswered question in section 3. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 17 records second-generation members entering adulthood without credentials or savings, with a childhood the movement has acknowledged but not fully compensated.
 :::
 
 ::: card
 #### 4 · Aid to Legitimacy to Leverage to Aid
 
 Prasadam distribution and charitable work generate genuine standing and local goodwill.
+
+**How it runs.**
+
+1. Prasadam, chanting and festivals are offered freely and warmly (techniques 1 and 2).
+2. The welcome earns the temple genuine standing and local goodwill (this card).
+3. Once the newcomer is attached, expectations of chanting rounds, dietary rules, service and donations arrive (techniques 1 and 2).
+4. The temple's need for labor and devotion continues, so the welcome is extended to new people (technique 29).
+
+**Techniques that feed it.** [1 · Love Bombing](#t-1), [2 · Weaponized Generosity](#t-2), [29 · Replacement](#t-29).
+
+**Why it closes.** The goodwill the welcome earns makes the later demands harder to refuse, and the demands supply the labor that keeps the welcome going.
+
+**Where it could be broken, and by whom.** It weakens where the welcome carries no expectation, as in the congregational mode, where members attend temple programs without living in the ashram (section 7). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Technique 2 describes the person who came for food and song and may slowly become a laborer for the mission.
 :::
 
 ::: card
 #### 5 · Unpaid Labor to Assets to Power to More Labor
 
 Unpaid devotee labor built temples and restaurants held by corporations, and leaving devotees receive nothing.
+
+**How it runs.**
+
+1. Devotees give full-time labor for room and board (sections 3 and 9).
+2. The labor builds temples and restaurants, and the property is held by temple corporations (sections 7 and 9).
+3. Unpaid labor is the movement's economic base (section 9), and ashram devotees depend on the institution for housing and income (sections 3 and 15).
+4. Because leaving costs housing, income and community at once, devotees who would leave have reason to stay and keep giving labor (section 15, technique 28).
+5. A devotee who leaves receives no savings, work history or equity, and a newcomer takes the vacant place (section 3, technique 29).
+
+**Techniques that feed it.** [26 · Financial Control](#t-26), [28 · Discard](#t-28), [29 · Replacement](#t-29).
+
+**Why it closes.** Because the devotee was never employed, the institution pays no wages or pension and owes nothing on exit, so its assets grow while the people who built them leave with nothing (section 12, stage 7).
+
+**Where it could be broken, and by whom.** It weakens wherever the accounts and the title become visible to the people who built the property. Section 23 (questions 3 and 4) asks devotees who holds the property they built and asks temples for audited accounts. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 2 describes a devotee who has cooked for the deities for twenty-nine years without pay, has no bank account of consequence, and has never seen the temple's statement.
 :::
 
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
 The zonal ācāryas were removed and the system was actually changed, which is why this loop is partly broken here.
+
+**How it runs.**
+
+1. Near-absolute regional authority produced documented abuses of power, expulsions and, in one community, murder convictions (sections 5 and 10).
+2. Within a decade most of the eleven gurus had been removed, had resigned or had fallen amid scandal (section 5).
+3. The GBC dismantled the zonal system and reformed the guru system (sections 5 and 20).
+4. The GBC continues to approve and discipline initiating gurus, so authority continues within the same committee (section 7).
+5. On this page the change is recorded as real but partial, and as purchased at the children's expense (sections 3 and 7).
+
+**Techniques that feed it.** [10 · Strategic Ambiguity](#t-10), [15 · Triangulation](#t-15), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** The body that removes a guru is the body that approves the next one, so the correction and the continuity come from the same committee (section 7).
+
+**Where it could be broken, and by whom.** It is already partly broken: the zonal system ended and the GBC has suspended and removed gurus. Section 20 names what would change this page's findings, which is the GBC publishing the full institutional history of the gurukula era in its own official materials. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 5 records eleven disciples assuming zonal authority and most being removed, resigning or falling within a decade, and section 7 records that the GBC chooses and removes its own members.
 :::
 
 ::: card
 #### 7 · Persecution to Solidarity to Insulation to Unaccountability
 
-Anti-cult hostility in the 1970s was real and is invoked to make the second generation's testimony look like an outside attack.
+Anti-cult hostility in the 1970s was real, and it is invoked to make the second generation's testimony look like an outside attack.
+
+**How it runs.**
+
+1. Anti-cult hostility in the 1970s was real (recorded in this card only; no other section of this volume records it).
+2. The hostility reinforces solidarity inside the movement and the 'bad association' teaching against outside contact (section 11, technique 14).
+3. The hostility is invoked so that the testimony of second-generation members is treated as an attack on the movement (section 12, stage 4).
+4. Criticism is answered as offense or envy rather than as a report, so the complaint is not addressed (techniques 11, 12 and 18).
+
+**Techniques that feed it.** [11 · Projection](#t-11), [12 · DARVO](#t-12), [14 · Isolation](#t-14), [18 · Silent Treatment / Stonewalling](#t-18).
+
+**Why it closes.** Each outside attack that was real makes the next criticism easier to dismiss as an attack, and the dismissal removes the need to answer it.
+
+**Where it could be broken, and by whom.** It weakens where criticism is received as a report. The movement's own 1998 acknowledgment of gurukula abuse shows the loop can be interrupted (section 5). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 12 (stage 4) records that children reported abuse and were told they were harming Krishna's mission.
 :::
 
 ## 14. Say versus do {#say-do}
@@ -1092,31 +1206,31 @@ Anti-cult hostility in the 1970s was real and is invoked to make the second gene
 
 **Last time the chair ran.** The zonal ācārya system was dismantled and residential schooling largely ended — a genuine structural change, and rare in this codex.
 
-**Who holds the chair now.** The GBC and individual initiating gurus.
+**Who holds the chair now.** The GBC and individual initiating gurus hold it.
 
-**Prediction.** Better than most. Where reform happened it happened because the children who were harmed became adults who would not stop talking.
+**Prediction.** Prospects here are better than most. Where reform happened it happened because the children who were harmed became adults who would not stop talking.
 
 ### Words used here
 
 | Term | What it means inside | What it does | Said plainly |
 |---|---|---|---|
-| Maya | Illusion; the material energy that obscures reality. | Genuine doctrine, and the standard label for a member's doubts or their family's concerns. | 'What you are noticing is not real.' |
-| Blooping | Leaving the movement and returning to material life. | A dismissive coinage that makes departure a comic failure rather than a decision with reasons. | 'They left and we will not be asking why.' |
+| Maya | It means illusion, the material energy that obscures reality. | It is genuine doctrine, and the standard label for a member's doubts or their family's concerns. | 'What you are noticing is not real.' |
+| Blooping | It means leaving the movement and returning to material life. | It is a dismissive coinage that makes departure a comic failure rather than a decision with reasons. | 'They left and we will not be asking why.' |
 
 ## 15. Cost & cover {#cost}
 
 ### What leaving costs
 
-- Leaving costs one's entire community and often years of unpaid labor with no equity; 'bad association' doctrine frames departure as spiritual death. [FORMER MEMBER TESTIMONY]
+- Leaving costs one's entire community and often years of unpaid labor with no equity. The 'bad association' doctrine frames departure as spiritual death. [FORMER MEMBER TESTIMONY]
 
 ### The ledger of exit
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Community and identity | Yes | Total social world; leaving means losing everyone and, for ashram devotees, housing and income at once | “Devotees are free to live as they wish.” |
-| Economic | Yes | Years or decades of unpaid labor with no savings, credentials, or work history | “Service was offered voluntarily to Krishna.” |
-| Spiritual threat | Yes | Leaving framed as spiritual suicide, falling from the path, or returning to material illusion | “It's a description of consequences.” |
-| Reputation | Moderate | Labeled a fallen devotee, envious, or contaminated by bad association | “We pray for them.” |
+| Community and identity | Yes | A devotee's whole social world is lost; leaving means losing everyone and, for ashram devotees, housing and income at once. | “Devotees are free to live as they wish.” |
+| Economic | Yes | Devotees give years or decades of unpaid labor and leave with no savings, credentials, or work history. | “Service was offered voluntarily to Krishna.” |
+| Spiritual threat | Yes | Leaving is framed as spiritual suicide, falling from the path, or returning to material illusion. | “It's a description of consequences.” |
+| Reputation | Moderate | A leaver is labeled a fallen devotee, envious, or contaminated by bad association. | “We pray for them.” |
 
 ### How the cost is denied
 
@@ -1126,16 +1240,16 @@ Anti-cult hostility in the 1970s was real and is invoked to make the second gene
 | Informal enforcement | High | Devotional peer pressure and guru relationships carry enforcement. |
 | Leadership distance | Medium | The GBC can disclaim individual gurus and temple presidents — and did, extensively, in the zonal era. |
 | Doctrinal ambiguity | Medium | Guru infallibility teaching is contested internally, so any specific claim can be attributed to a faction. |
-| Cultural outsourcing | Medium | Practices defended as authentic Vedic culture rather than institutional choice. |
+| Cultural outsourcing | Medium | Practices are defended as authentic Vedic culture rather than as institutional choice. |
 | Volunteer enforcement | High | Senior devotees managed complaints and protected gurus' reputations. |
-| Sacred secrecy | Low | Unusually low: ISKCON published its own abuse acknowledgment, which is precisely why the record exists. |
+| Sacred secrecy | Low | The level is unusually low, because ISKCON published its own abuse acknowledgment, which is why the record exists. |
 | Exit cost denial | Medium | Freedom to leave is real; the economic cliff after decades of unpaid service is rarely acknowledged. |
 
 ## 16. The ledger {#ledger}
 
 ### Who benefits
 
-- Institutional continuity and guru positions; the movement's assets built on devotee labor.
+- Institutional continuity and guru positions benefit, as do the movement's assets built on devotee labor.
 - Credit where due: ISKCON's own Child Protection Office and published acknowledgment of gurukula abuse exceed many older institutions' candor. [OFFICIAL POLICY]
 
 ### Money out, leverage back
@@ -1146,11 +1260,11 @@ Anti-cult hostility in the 1970s was real and is invoked to make the second gene
 
 ### Who pays
 
-- Gurukula children — the movement's most severely harmed group, documented by its own admission and by litigation. [COURT RECORD]
-- Second-generation members raised without secular education or savings.
-- Women subject to canonical statements about their status and to documented misconduct.
-- Long-term ashram devotees who left with nothing after decades of labor.
-- Members of the zonal ācārya era, subject to near-absolute regional authority.
+- Gurukula children pay. They are the movement's most severely harmed group, documented by its own admission and by litigation. [COURT RECORD]
+- Second-generation members pay, having been raised without secular education or savings.
+- Women pay, as they are subject to canonical statements about their status and to documented misconduct.
+- Long-term ashram devotees pay; they left with nothing after decades of labor.
+- Members of the zonal ācārya era paid, having been subject to near-absolute regional authority.
 
 ::: cites
 Sources for this section: [1] [2] [8]
@@ -1160,23 +1274,27 @@ Sources for this section: [1] [2] [8]
 
 ### Where the weight lands
 
+The harm recorded in the earlier sections does not fall evenly. The gurukula harm is documented in the movement's own journal [1][2] and in the litigation [3]. The table names who carries it, how, and what it compounds with.
+
 | Who | How | What it compounds with |
 |---|---|---|
-| Gurukula children | Physical, emotional, and sexual abuse, documented by litigation and by the movement's own admission | Separated from parents, with minimal secular education |
-| Second-generation members | Adulthood without credentials or savings | With a childhood the movement has acknowledged but not fully compensated |
-| Women devotees | Canonical statements about their status, and documented misconduct by senior figures | In ashram settings with arranged marriages and celibacy expectations |
-| Long-term ashram devotees | Decades of unpaid labor, leaving with nothing | In late middle age with no work history |
-| Those who spoke first | Labeled envious and contaminated before the litigation vindicated them | Losing community years before the acknowledgment came |
+| Gurukula children | They suffered physical, emotional, and sexual abuse, documented by litigation and by the movement's own admission. | They were separated from their parents, with minimal secular education. |
+| Second-generation members | They reached adulthood without credentials or savings. | They also carry a childhood the movement has acknowledged but not fully compensated. |
+| Women devotees | They are subject to canonical statements about their status, and to documented misconduct by senior figures. | This compounds in ashram settings with arranged marriages and celibacy expectations. |
+| Long-term ashram devotees | They give decades of unpaid labor and leave with nothing. | They are then in late middle age with no work history. |
+| Those who spoke first | They were labeled envious and contaminated before the litigation vindicated them. | They lost their community years before the acknowledgment came. |
 
 ## 18. The middle tiers {#tiers}
 
+The institution's routine work is done below the GBC, by people who apply quotas, run schools and temples, and see the consequences. The table sets out, for each of five roles, what it does, what it sees, what it is asked to do and where it could refuse.
+
 | Role | Does | Sees | Is asked to | Could refuse |
 |---|---|---|---|---|
-| Temple presidents | Runs the temple and reports to the GBC | The quotas, the labor, and the finances | To make the numbers | To set a distribution quota |
-| Gurukula teachers and school staff | Educates the movement's children | Which children are being harmed | Historically, to keep it inside | To work in a residential school without external safeguarding |
-| Book distributors (sankirtana devotees) | Fundraises on the street for no pay | What the quota does to honesty | To hit the target | To conceal what the money is for |
-| Pujaris and kitchen devotees | Performs worship and cooks for thousands | Decades passing with no savings | To treat it as service | To serve without a written record of years given |
-| Second-generation devotees | Holds the movement's conscience | What happened to them | To move on | To let the acknowledgment stay on paper |
+| Temple presidents | They run the temple and report to the GBC. | They see the quotas, the labor, and the finances. | Make the numbers | To set a distribution quota |
+| Gurukula teachers and school staff | They educate the movement's children. | They see which children are being harmed. | Historically, keep the harm inside the movement | To work in a residential school without external safeguarding |
+| Book distributors (sankirtana devotees) | They raise funds on the street for no pay. | They see what the quota does to honesty. | Hit the target | To conceal what the money is for |
+| Pujaris (priests who perform the worship) and kitchen devotees | They perform worship and cook for thousands. | They see decades passing with no savings. | Treat it as service | To serve without a written record of years given |
+| Second-generation devotees | They hold the movement's conscience. | They see what happened to them. | Move on | To let the acknowledgment stay on paper |
 
 ## 19. Documented cases {#cases}
 
@@ -1221,11 +1339,11 @@ Sources for this section: [3]
 
 | What | Who | When | What it cost |
 |---|---|---|---|
-| The movement's own published acknowledgment of gurukula abuse | ISKCON itself, in print | 1998 | Reputational, and it is more candor than most institutions here have managed |
-| The Child Protection Office, screening, and the end of most residential schooling | Reformers and second-generation members | 1990s–2000s | Internal conflict |
-| The Turley litigation and settlement | Former gurukula students | 2000–2008 | Years of proceedings and organizational restructuring |
-| Reform of the zonal guru system | The GBC under internal pressure | 1980s | Schism and departures |
-| Chaitanya's own teaching that devotion outranks birth and priestly authority | The tradition's founding figure | 16th century | None; it is corrosive to every mechanism on this page |
+| The movement's own published acknowledgment of gurukula abuse | ISKCON itself, in print | 1998 | It cost the movement reputationally, and it is more candor than most institutions here have managed. |
+| The Child Protection Office, screening, and the end of most residential schooling | Reformers and second-generation members | 1990s–2000s | It cost internal conflict. |
+| The Turley litigation and settlement | Former gurukula students | 2000–2008 | It cost years of proceedings and organizational restructuring. |
+| Reform of the zonal guru system | The GBC under internal pressure | 1980s | It cost schism and departures. |
+| Chaitanya's own teaching that devotion outranks birth and priestly authority | The tradition's founding figure | 16th century | It cost nothing; it is corrosive to every mechanism on this page. |
 
 ### Promises on the record
 
@@ -1243,40 +1361,40 @@ Sources for this section: [1] [2] [3] [8]
 
 ## 21. Voices from inside {#voices}
 
-- **Nori Muster.** A devotee at ISKCON's Los Angeles headquarters from 1978 to 1988, public-relations secretary and editor of the *ISKCON World Review*, who wrote *Betrayal of the Spirit* (1997) [12].
-- **The former gurukula pupils** who sued in 2000 [3].
-- **ISKCON's own researchers,** who published a study of the movement's child abuse in its own journal in 1998 [1][2].
-- **The women devotees** whose path to becoming initiating gurus was approved and then paused [6].
+- **Nori Muster.** She was a devotee at ISKCON's Los Angeles headquarters from 1978 to 1988, public-relations secretary and editor of the *ISKCON World Review*, and she wrote *Betrayal of the Spirit* (1997) [12].
+- **The former gurukula pupils** are those who sued in 2000 [3].
+- **ISKCON's own researchers** published a study of the movement's child abuse in its own journal in 1998 [1][2].
+- **The women devotees** are those whose path to becoming initiating gurus was approved and then paused [6].
 
 ## 22. Regional variants {#regional}
 
 ::: card
 ### United States
-- **apex:** The GBC and regional secretaries [7].
-- **law:** Civil and bankruptcy courts [3]; criminal courts [4][5].
-- **documented:** The gurukula settlement [3]; New Vrindaban [4][5].
-- **exit:** Legally free; the costs are community and, for temple residents, housing and work.
-- **regulator:** The courts.
+- **apex:** The apex is the GBC and its regional secretaries [7].
+- **law:** Civil and bankruptcy courts [3] and criminal courts [4][5] apply the law.
+- **documented:** The documented cases are the gurukula settlement [3] and New Vrindaban [4][5].
+- **exit:** Exit is legally free; the costs are community and, for temple residents, housing and work.
+- **regulator:** The regulator is the courts.
 - **tell:** The movement's biggest reckoning came through a bankruptcy court.
 :::
 
 ::: card
 ### United Kingdom
-- **apex:** The GBC, through national leadership [7].
-- **law:** Charity law [9].
-- **documented:** Bhaktivedanta Manor's public accounts [9].
-- **exit:** Legally free.
-- **regulator:** The Charity Commission [9].
+- **apex:** The apex is the GBC, acting through national leadership [7].
+- **law:** Charity law applies [9].
+- **documented:** The documented record is Bhaktivedanta Manor's public accounts [9].
+- **exit:** Exit is legally free.
+- **regulator:** The regulator is the Charity Commission [9].
 - **tell:** Where a temple is a charity, anyone can read its accounts.
 :::
 
 ::: card
 ### India
-- **apex:** Rival societies, each registered under state law [10].
-- **law:** Society registration and civil courts [10].
-- **documented:** The Bangalore temple judgment [10][11].
-- **exit:** Legally free.
-- **regulator:** The Supreme Court, in the end [10].
+- **apex:** The apex is rival societies, each registered under state law [10].
+- **law:** Society registration law and the civil courts apply [10].
+- **documented:** The documented record is the Bangalore temple judgment [10][11].
+- **exit:** Exit is legally free.
+- **regulator:** The regulator is, in the end, the Supreme Court [10].
 - **tell:** A dispute about spiritual succession was settled as a dispute about property.
 :::
 
