@@ -19,12 +19,12 @@ partial: []
 |  |  |
 |---|---|
 | Size | About 23.7 million baptized members worldwide (2024), with the church's own reporting acknowledging a substantial gap between baptisms recorded and members retained. [OFFICIAL POLICY: GC statistical report] |
-| Who's in charge | General Conference President — Erton Köhler, elected on 4 July 2025 at the General Conference session in succession to Ted N. C. Wilson, who had held the office since 2010 |
-| Chosen by / removable by | Delegates from every division, voting in session roughly every five years / The session — and it has replaced presidents. This row is the strongest in the entire codex |
-| Money in one line | Tithe here is unusually structured and unusually opaque at the point where it matters. Ten percent goes not to the local congregation but upward to the conference, which pays pastors' salaries; the local church is funded separately by offerings. That means the money a member gives is deliberately separated from the church they can see, and pastoral employment depends on a body the congregation does not control. |
+| Who's in charge | The president of the General Conference (the church's world governing body) is Erton Köhler, elected on 4 July 2025 at the General Conference session in succession to Ted N. C. Wilson, who had held the office since 2010. |
+| Chosen by / removable by | Delegates from every division (the church's world regions) choose the president, voting in session roughly every five years / The session can remove the president, and it has replaced presidents. This row is the strongest in the entire codex. |
+| Money in one line | Tithe here is unusually structured and unusually opaque at the point where it matters. Ten percent goes not to the local congregation but upward to the conference (the regional body that employs the pastors of a group of churches), which pays pastors' salaries; the local church is funded separately by offerings. That means the money a member gives is deliberately separated from the church they can see, and pastoral employment depends on a body the congregation does not control. |
 | Leaving in one line | Leaving is legally free and, in the concentrated communities, occupationally expensive: where the hospital, the university, and the school are all Adventist, a change of belief can be a change of career. |
-| The unanswered question | The church commissioned the study, published the finding of extensive literary dependence, and changed nothing about how the prophetic claim is taught. What was the study for? |
-| Evidence | 15 of 30 techniques sourced to a named document; grades: Codified 7, Taught 9, Cultural 12, Reformed 2 |
+| The unanswered question | The church commissioned a study of Ellen White's writings, published its finding of extensive literary dependence (her unattributed borrowing from other authors), and changed nothing about how the prophetic claim is taught. What was the study for? |
+| Evidence | Fifteen of the 30 techniques are sourced to a named document. The grades are Codified 7, Taught 9, Cultural 12 and Reformed 2. |
 | Family | Restorationist & Adventist — mormonism, jehovahs-witnesses, seventh-day-adventism |
 | Last checked | 2026-09-27 |
 :::
@@ -41,15 +41,15 @@ partial: []
 
 *Marisol · A Friday in September · Loma Linda, California*
 
-She closes her laptop at four so the Sabbath does not catch her working, and there is a real peace in that, the kind of peace you cannot buy — a full day where nobody can ask her for anything. She would not trade it. She knows people who envy it and she thinks they are right to.
+She closes her laptop at four so the Sabbath (Saturday, kept from sundown on Friday) does not catch her working, and there is a real peace in that, the kind of peace you cannot buy — a full day where nobody can ask her for anything. She would not trade it. She knows people who envy it and she thinks they are right to.
 
-Her father worked forty years at the hospital and her mother taught at the academy. The tithe went to the conference every month of her childhood and she has never once seen a figure for what the conference did with it, and it has never once occurred to her to ask, and she notices this week that those two facts sit next to each other oddly.
+Her father worked forty years at the hospital and her mother taught at the academy (the Adventist secondary school). The tithe went to the conference every month of her childhood and she has never once seen a figure for what the conference did with it, and it has never once occurred to her to ask, and she notices this week that those two facts sit next to each other oddly.
 
-In Sabbath School someone asks about the investigative judgment — about whether the 1844 date really means what the pioneers said it meant. The teacher says it is settled and moves on, warmly, and the room relaxes, and Marisol notices that the relaxing is the answer.
+In Sabbath School (the weekly Bible-study class) someone asks about the investigative judgment (the doctrine that since 1844 believers' lives have been under review in a heavenly court) — about whether the 1844 date really means what the pioneers said it meant. The teacher says it is settled and moves on, warmly, and the room relaxes, and Marisol notices that the relaxing is the answer.
 
 She looks up Desmond Ford that afternoon, because the name came up once and nobody explained it. A theologian, a hearing at a place called Glacier View in 1980, his ministerial credentials withdrawn. She reads that he kept attending Adventist churches for the rest of his life. She does not know what to do with that and she does not close the tab.
 
-Her cousin's wife is a pastor in a union that ordains women, and the General Conference voted in 2015 that it may not, and there are committees about compliance now, and at family dinner nobody mentions it while everybody knows. Marisol thinks: we have a word for a room where everyone knows and nobody says. She does not say the word.
+Her cousin's wife is a pastor in a union (a regional grouping of conferences) that ordains women, and the General Conference voted in 2015 that it may not, and there are committees about compliance now, and at family dinner nobody mentions it while everybody knows. Marisol thinks: we have a word for a room where everyone knows and nobody says. She does not say the word.
 
 At sundown they sing, and the singing is genuinely beautiful, and her father's face is the face of a man who is where he belongs. Marisol wants that. She also wants to know what happened at Glacier View. She has not yet worked out whether those are two wants or one.
 
@@ -62,7 +62,7 @@ If your health, your education, and your community all came from this church, th
 ### The unanswered question
 
 ::: question
-The church commissioned the study, published the finding of extensive literary dependence, and changed nothing about how the prophetic claim is taught. What was the study for?
+The church commissioned a study of Ellen White's writings, published its finding of extensive literary dependence (her unattributed borrowing from other authors), and changed nothing about how the prophetic claim is taught. What was the study for?
 :::
 
 ### The widest gap between word and record
@@ -75,7 +75,7 @@ The church commissioned the study, published the finding of extensive literary d
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Employment | Sometimes | In Loma Linda, Andrews, and similar concentrations, the church system is the major employer | “Employment is governed by ordinary policy, not belief.” |
+| Employment | Sometimes | In Loma Linda, Andrews (the town around Andrews University in Berrien Springs, Michigan), and similar concentrations, the church system is the major employer | “Employment is governed by ordinary policy, not belief.” |
 
 ### The strongest objection, answered
 
@@ -88,15 +88,17 @@ The church commissioned the study, published the finding of extensive literary d
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-A global Protestant denomination of about 23.7 million baptized members (2024), founded in the aftermath of a failed 1844 date-setting prophecy, distinguished by Saturday Sabbath observance, a health and vegetarianism tradition, one of the world's largest Protestant education and hospital systems, and the prophetic authority of its co-founder Ellen G. White.
+Seventh-day Adventism is a global Protestant denomination of about 23.7 million baptized members (2024). It was founded in the aftermath of a failed 1844 date-setting prophecy, and it is distinguished by Saturday Sabbath observance, a health and vegetarianism tradition, one of the world's largest Protestant education and hospital systems, and the prophetic authority of its co-founder Ellen G. White.
 :::
 
-- An officer who can be voted out, on a published schedule, by delegates the members chose — the practice this tradition already has, and the one most of this codex lacks.
-- A Sabbath School class where the investigative judgment can be questioned and the teacher answers rather than moves on.
-- A history curriculum that includes 1919, the Veltman study, and Glacier View, taught to members as ordinary facts about their own movement.
-- A congregation that can obtain a plain statement of what it sent upward and what was purchased.
-- Health teaching offered as wisdom rather than righteousness, with pastors who notice when diet has become scrupulosity.
-- Ministerial credentials that cannot be withdrawn for asking a question in good faith and in public.
+- Healthy practice here has an officer who can be voted out, on a published schedule, by delegates the members chose. This tradition already has that practice, and most of this codex lacks it.
+- It has a Sabbath School class where the investigative judgment can be questioned and the teacher answers rather than moves on.
+- It has a history curriculum that includes the 1919 Bible Conference, the Veltman study (the church-commissioned study of Ellen White's literary sources), and Glacier View, taught to members as ordinary facts about their own movement.
+- It has congregations that can obtain a plain statement of what they sent upward and what was purchased.
+- It offers health teaching as wisdom rather than righteousness, with pastors who notice when diet has become scrupulosity (obsessive fear of having sinned).
+- It has ministerial credentials that cannot be withdrawn for asking a question in good faith and in public.
+
+Some of that standard is already on the record. In July 2025 delegates in session elected a new president in succession to a fifteen-year incumbent [1]. The 2015 vote on women's ordination was taken openly and its count published [3]. The church commissioned the Veltman study of Ellen White's sources, and its conclusions were published in *Ministry* magazine [5][6]. In the United Kingdom the British Union Conference files public accounts [11], and after the Davenport losses conflict-of-interest forms became a yearly requirement [12]. Each is a place where the institution met the standard this page applies, and each is recorded here as credit.
 
 ## 5. History {#history}
 
@@ -105,19 +107,19 @@ Adventism was born from a specific, dated, public failure. William Miller and hi
 ### Timeline
 
 ```timeline
-22 October 1844 | The Great Disappointment — the Millerite date passes and Christ does not return | The movement's founding falsification, publicly acknowledged. What the movement did next is the subject of the rest of this page.
+22 October 1844 | The Great Disappointment — the Millerite date passes and Christ does not return | It was the movement's founding falsification, and it was publicly acknowledged. What the movement did next is the subject of the rest of this page.
 1844–1850s | Hiram Edson's sanctuary insight; the investigative-judgment doctrine forms; Ellen White's visions begin and confirm it | A failed prediction is relocated to an unobservable realm. The claim survives by becoming untestable — the single most important structural move in this tradition. [ACADEMIC SOURCE]
 1863 | The General Conference of Seventh-day Adventists is organized in Battle Creek, Michigan | The movement chooses representative structure with elected officers — the decision that gives this tradition a genuinely removable apex, unlike most pages in this codex.
 1866–1900s | The Western Health Reform Institute becomes the Battle Creek Sanitarium under John Harvey Kellogg; the health message spreads | The credit side of the ledger begins: a real and early contribution to nutrition, sanitation, and preventive medicine.
-1907 | Kellogg is expelled from the church after doctrinal and institutional conflict; Battle Creek is lost | The first demonstration that the structure would separate from its most famous institution rather than lose control of doctrine.
+1907 | Kellogg is expelled from the church after doctrinal and institutional conflict; Battle Creek is lost | It was the first demonstration that the structure would separate from its most famous institution rather than lose control of doctrine.
 1919 | The Bible Conference debates the nature of Ellen White's inspiration; the transcripts are then filed away and not published for decades | Leaders privately discussed the limits of the prophetic claim and did not tell the members. The transcripts resurfaced in the 1970s. [ACADEMIC SOURCE]
 1970s | Merikay Silver's equal-pay litigation against Pacific Press; the church's denominational pay practices are challenged in US federal court | A member used civil law against the institution's employment practice and the courts engaged. [COURT RECORD]
 1980 | Glacier View: theologian Desmond Ford challenges the investigative-judgment doctrine and has his ministerial credentials withdrawn | The tradition's clearest documented case of what happens to a credentialed insider who tests the load-bearing claim in public. Ford attended Adventist churches for the rest of his life. [OFFICIAL POLICY]
-1982 | Walter Rea publishes The White Lie, documenting extensive unattributed literary borrowing in Ellen White's writings; a church-commissioned study by Fred Veltman later confirms substantial dependence in The Desire of Ages | The institution's own commissioned research confirmed the substance of a critic's charge — a genuinely creditable act, and one whose implications for the prophetic claim were never squarely faced in public. [ACADEMIC SOURCE]
-1980s | The Davenport affair: church entities lose substantial funds in the collapse of a member's investment scheme; internal reviews follow | A financial failure that forced the first serious conflict-of-interest rules on denominational officers. [FINANCIAL RECORD]
+1982 | Walter Rea publishes The White Lie, documenting extensive unattributed literary borrowing in Ellen White's writings; a church-commissioned study by Fred Veltman later confirms substantial dependence in The Desire of Ages (her book on the life of Christ) | The institution's own commissioned research confirmed the substance of a critic's charge — a genuinely creditable act, and one whose implications for the prophetic claim were never squarely faced in public. [ACADEMIC SOURCE]
+1980s | The Davenport affair: church entities lose substantial funds in the collapse of a member's investment scheme; internal reviews follow | It was a financial failure that forced the first serious conflict-of-interest rules on denominational officers. [FINANCIAL RECORD]
 2015 | The General Conference session in San Antonio votes against allowing divisions to authorize the ordination of women | A representative body voted, which is more than most institutions in this codex can say — and it voted to keep an exclusion that several of its own unions had already ended.
 2016–2018 | 'Compliance' committees are established to address unions ordaining women; the mechanism is contested across the church's own governance bodies | The apparatus turns inward on its own elected regional bodies — accountability machinery used to enforce rather than to examine.
-2025 | The General Conference session elects Erton Köhler as president, succeeding Ted N. C. Wilson after fifteen years | A peaceful, contested, scheduled transfer of the highest office. Almost nowhere else in this codex does that sentence appear.
+2025 | The General Conference session elects Erton Köhler as president, succeeding Ted N. C. Wilson after fifteen years | It was a peaceful, contested, scheduled transfer of the highest office. Almost nowhere else in this codex does that sentence appear.
 ```
 
 ### Moments in the room
@@ -127,7 +129,7 @@ Adventism was born from a specific, dated, public failure. William Miller and hi
 
 Thousands had given away property and settled their affairs. The day came and went. What happened next is the movement's founding intellectual act: rather than abandon the date, a group relocated the event to the heavenly sanctuary, where nothing about it could be checked.
 
-**Why it matters.** A public falsification converted into an unobservable claim in a matter of weeks. Every unanswerable conversation on that page descends from this single move.
+**Why it matters.** A public falsification was converted into an unobservable claim in a matter of weeks. Every unanswerable conversation on this page descends from this single move.
 :::
 
 ::: card
@@ -152,14 +154,14 @@ Sources for this section: [1] [3] [4] [5] [6] [7] [8]
 
 ## 6. Branches & variants {#branches}
 
-One unified worldwide organization under the General Conference, plus historical offshoots — Davidians and Branch Davidians among them — which the church disavows and which are frequently and unfairly used to characterize it.
+Seventh-day Adventism is one unified worldwide organization under the General Conference. It also has historical offshoots, among them the Davidians and the Branch Davidians, which the church disavows and which are frequently and unfairly used to characterize it.
 
 | Layer | Size and place | What differs on this page's questions |
 |---|---|---|
-| **General Conference** | 23.7 million baptized members (2024) [2]; president elected at a delegate session (Erton Köhler, 2025) [1] | Delegates vote on church-wide questions — they rejected women's ordination by 1,381 to 977 in 2015 [3] |
-| **Unions and conferences** | Regional bodies, e.g. the British Union Conference [11] | Receive the tithe and pay pastors; in the UK they file public accounts [11] |
-| **Institutions** | Hospitals, universities, publishing houses [10][13] | Separately incorporated; one was held liable as an employer under federal law [13] |
-| **Historical offshoots** | Small groups the church disavows | Not the subject of this page |
+| **General Conference** | It has 23.7 million baptized members (2024) [2], and its president is elected at a delegate session (Erton Köhler, 2025) [1]. | Delegates vote on church-wide questions; in 2015 they rejected women's ordination by 1,381 to 977 [3]. |
+| **Unions and conferences** | They are regional bodies, such as the British Union Conference [11]. | They receive the tithe and pay pastors, and in the UK they file public accounts [11]. |
+| **Institutions** | They include hospitals, universities, and publishing houses [10][13]. | They are separately incorporated, and one was held liable as an employer under federal law [13]. |
+| **Historical offshoots** | They are small groups the church disavows. | They are not the subject of this page. |
 
 ## 7. Structure {#structure}
 
@@ -168,8 +170,8 @@ One unified worldwide organization under the General Conference, plus historical
 |  |  |
 |---|---|
 | Adherents | About 23.7 million baptized members worldwide (2024), with the church's own reporting acknowledging a substantial gap between baptisms recorded and members retained. [OFFICIAL POLICY: GC statistical report] |
-| Regions | Overwhelmingly Global South: Africa (the largest bloc by far), Latin America, the Philippines, and India, with historically significant but proportionally small memberships in North America, Europe, and Australia. |
-| Trend | Growing fast in Africa and Latin America; roughly flat or declining in North America and Europe. The church's own audits have repeatedly found large numbers of members recorded but not retained. |
+| Regions | The membership is overwhelmingly in the Global South: Africa (the largest bloc by far), Latin America, the Philippines, and India. North America, Europe, and Australia have historically significant but proportionally small memberships. |
+| Trend | The church is growing fast in Africa and Latin America and is roughly flat or declining in North America and Europe. The church's own audits have repeatedly found large numbers of members recorded but not retained. |
 | Participation | Sabbath observance makes participation unusually visible and unusually costly — it structures employment, schooling, and social life in a way weekly attendance elsewhere does not. |
 
 ### Authority
@@ -186,11 +188,11 @@ This is the page where the codex's central question gets a good answer. The apex
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| General Conference President | Erton Köhler, elected on 4 July 2025 at the General Conference session in succession to Ted N. C. Wilson, who had held the office since 2010 | Delegates from every division, voting in session roughly every five years | The session — and it has replaced presidents. This row is the strongest in the entire codex |
-| General Conference in session | Several thousand delegates, world-wide | Selected through conferences, unions, and divisions | Its own constituency |
-| The Ellen G. White Estate | A board of trustees, constituted by White's own will and self-perpetuating since | Trustee succession under the terms of the will | Nobody outside the trust. The elected structure does not reach this office — which is exactly where the unreviewable claim is kept |
-| Unions and local conferences | Elected officers and executive committees holding ministerial credentials and employment | Regional constituency meetings | Their constituencies — which is why several unions were able to ordain women against the world vote |
-| Adventist Health and the university systems | Corporate boards with intricate links to church governance | Board appointment | The boards. Executive compensation here is the least-surfaced number in Adventist life |
+| General Conference President | Erton Köhler holds it. He was elected on 4 July 2025 at the General Conference session in succession to Ted N. C. Wilson, who had held the office since 2010. | Delegates from every division choose the president, voting in session roughly every five years. | The session can remove the president, and it has replaced presidents. This row is the strongest in the entire codex. |
+| General Conference in session | Several thousand delegates from around the world sit in it. | They are selected through conferences, unions, and divisions. | It answers to its own constituency. |
+| The Ellen G. White Estate | A board of trustees sits in it, constituted by White's own will and self-perpetuating since. | Trustees are chosen by succession under the terms of the will. | Nobody outside the trust can remove them. The elected structure does not reach this office, which is exactly where the unreviewable claim is kept. |
+| Unions and local conferences | Elected officers and executive committees sit in them and hold ministerial credentials and employment. | Regional constituency meetings choose them. | Their constituencies can remove them, which is why several unions were able to ordain women against the world vote. |
+| Adventist Health and the university systems | Corporate boards sit in them, with intricate links to church governance. | Board members are appointed. | The boards can remove their officers. Executive compensation here is the least-surfaced number in Adventist life. |
 
 ::: tell
 Follow the elected chain and it works. Follow the prophetic claim and it terminates in a trust created by the prophet's own will, answerable to nobody the members elect. One tradition, two structures, and every unanswerable question in it lives in the second one.
@@ -200,19 +202,19 @@ Follow the elected chain and it works. Follow the prophetic claim and it termina
 
 | Entity | Type | Holder | Holds | Why it matters to you | Receipt |
 |---|---|---|---|---|---|
-| General Conference in session | Elected assembly | Delegates from every division, voting roughly every five years | The presidency, the officers, and the Fundamental Beliefs | Who leads the world church | [OFFICIAL POLICY: GC Constitution and Bylaws] |
-| General Conference President | Elected office | Erton Köhler, elected July 2025 | Executive leadership of the world church | Doctrinal direction and appointments | [OFFICIAL POLICY] |
-| Unions and local conferences | Regional governance | Elected officers and executive committees | Ministerial credentials, employment, and church schools | Whether your pastor keeps their job | [OFFICIAL POLICY: Church Manual] |
-| The Ellen G. White Estate | Trust | A board of trustees created by White's own will | Her writings, their publication, and the framing of her authority | How the founding claim is presented to you | [OFFICIAL POLICY] |
-| Adventist Health and the hospital systems | Health corporations | Corporate boards linked to church governance | One of the largest Protestant hospital networks in the world | Your medical care and often your employment | [FINANCIAL RECORD] |
-| The education system | Schools and universities | Conferences, unions, and the General Conference | Thousands of schools and more than a hundred tertiary institutions | Your children's schooling and your own credentials | [OFFICIAL POLICY] |
-| The publishing houses | Media | Denominational corporations | The literature economy and the literature-evangelist workforce | What Adventist material you encounter | [FINANCIAL RECORD] |
+| General Conference in session | Elected assembly | Delegates from every division, voting roughly every five years | The presidency, the officers, and the Fundamental Beliefs | It decides who leads the world church. | [OFFICIAL POLICY: GC Constitution and Bylaws] |
+| General Conference President | Elected office | Erton Köhler, elected July 2025 | Executive leadership of the world church | It sets doctrinal direction and makes appointments. | [OFFICIAL POLICY] |
+| Unions and local conferences | Regional governance | Elected officers and executive committees | Ministerial credentials, employment, and church schools | They decide whether your pastor keeps their job. | [OFFICIAL POLICY: Church Manual] |
+| The Ellen G. White Estate | Trust | A board of trustees created by White's own will | Her writings, their publication, and the framing of her authority | It shapes how the founding claim is presented to you. | [OFFICIAL POLICY] |
+| Adventist Health and the hospital systems | Health corporations | Corporate boards linked to church governance | One of the largest Protestant hospital networks in the world | They provide your medical care and often your employment. | [FINANCIAL RECORD] |
+| The education system | Schools and universities | Conferences, unions, and the General Conference | Thousands of schools and more than a hundred tertiary institutions | It provides your children's schooling and your own credentials. | [OFFICIAL POLICY] |
+| The publishing houses | Media | Denominational corporations | The literature economy and the literature-evangelist workforce (members who sell church books door to door) | They decide what Adventist material you encounter. | [FINANCIAL RECORD] |
 
 ### Succession watch
 
 | Office | Now | Mechanism | Prediction | What would falsify it |
 |---|---|---|---|---|
-| General Conference of Seventh-day Adventists | Erton Köhler, elected July 2025 | Elected in session by delegates, roughly every five years | Included as the control case. The codex predicts the next transfer is scheduled, contested, peaceful, and reported — and that it happens on time. | A postponed, uncontested, or unreported transfer would falsify it. This row exists to demonstrate that the instrument can predict a good outcome as readily as a bad one. |
+| General Conference of Seventh-day Adventists | Erton Köhler, elected July 2025 | Elected in session by delegates, roughly every five years | It is included as the control case. The codex predicts the next transfer is scheduled, contested, peaceful, and reported — and that it happens on time. | A postponed, uncontested, or unreported transfer would falsify it. This row exists to demonstrate that the instrument can predict a good outcome as readily as a bad one. |
 
 ::: cites
 Sources for this section: [1] [2]
@@ -222,14 +224,14 @@ Sources for this section: [1] [2]
 
 | Country | What the law does | What happened |
 |---|---|---|
-| **United States — employment** | Title VII applies to religious employers' non-ministerial staff [13] | The Adventist publishing house Pacific Press was held to have denied a woman allowances paid to men and to have fired her in retaliation for joining a co-worker's discrimination case (1982) [13] |
+| **United States — employment** | Title VII (the federal law against discrimination in employment) applies to religious employers' non-ministerial staff [13] | The Adventist publishing house Pacific Press was held to have denied a woman allowances paid to men and to have fired her in retaliation for joining a co-worker's discrimination case (1982) [13] |
 | **United States — bankruptcy** | Bankruptcy courts and investigators, not church rules, dealt with the Davenport collapse [12] | Church entities had $17.8m in loans outstanding when the developer filed for bankruptcy in 1981 [12] |
-| **United Kingdom** | Charity law [11] | The British Union Conference files public accounts [11] |
+| **United Kingdom** | Charity law applies [11] | The British Union Conference files public accounts [11] |
 | **Worldwide — internal** | The General Conference session is the highest authority, with elected delegates [1][3] | Delegates can and do vote leadership and policy [1][3] |
 
 ### Who can compel an answer
 
-Uniquely in this codex, start inside: the General Conference session, the union constituency meetings, and the elected executive committees are real bodies with real power that members actually select. Outside: charity regulators where entities are registered, education authorities over the school system, health regulators and employment law over the hospital corporations, and the courts — where Merikay Silver's equal-pay litigation established that denominational employment practice is justiciable.
+Uniquely in this codex, start inside: the General Conference session, the union constituency meetings, and the elected executive committees are real bodies with real power that members actually select. Outside, answers can be compelled by charity regulators where entities are registered, education authorities over the school system, health regulators and employment law over the hospital corporations, and the courts, where Merikay Silver's equal-pay litigation established that denominational employment practice is justiciable.
 
 ## 9. Money {#money}
 
@@ -238,18 +240,18 @@ Uniquely in this codex, start inside: the General Conference session, the union 
 - Tithe here is unusually structured and unusually opaque at the point where it matters. Ten percent goes not to the local congregation but upward to the conference, which pays pastors' salaries; the local church is funded separately by offerings. That means the money a member gives is deliberately separated from the church they can see, and pastoral employment depends on a body the congregation does not control.
 - The system is professionally audited by the General Conference Auditing Service, and summary financial reports are produced — this is real, and it puts the tradition ahead of most in this codex. What is not routinely available to an ordinary member is a plain, local answer to a plain question: how much did this congregation send upward last year, and what specifically was it spent on.
 - The health and education systems are enormous revenue enterprises. Their governance is corporate, their relationship to church governance is intricate, and executive compensation in the hospital systems is the single most reliably under-discussed number in Adventist life.
-- Adventist Development and Relief Agency work is substantial and independently evaluated in many jurisdictions — a genuine and checkable credit entry.
+- Adventist Development and Relief Agency (ADRA) work is substantial and independently evaluated in many jurisdictions — a genuine and checkable credit entry.
 
 ### Follow the money
 
 | Flow | Stated purpose | How it controls | Who benefits |
 |---|---|---|---|
-| Tithe (10%) | Supporting the worldwide gospel work through the conference | Medium — the flow is upward and away from local visibility, and it pays the salary of the pastor the congregation did not hire | The conference and union structures |
-| Local church budget offerings | Running the congregation you actually attend | Low — visible, local, and usually reported to the members | The local congregation |
-| Church school tuition | Educating children in the faith | Medium — a substantial recurring cost, and a strong retention mechanism as well as a genuine service | The education system |
-| Health system revenue | Hospital and clinic operations | Medium — large corporate entities whose executive pay is rarely surfaced to members | The health corporations and their executives |
-| Publishing and literature evangelism | Spreading the message and employing colporteurs | Medium — a sales workforce paid on commission, historically with weak labour protections | The publishing houses |
-| ADRA and disaster offerings | Relief and development | Low — independently evaluated in many jurisdictions and among the more checkable flows in this codex | Beneficiaries, substantially and verifiably |
+| Tithe (10%) | Supporting the worldwide gospel work through the conference | Medium — the flow is upward and away from local visibility, and it pays the salary of the pastor the congregation did not hire | The conference and union structures benefit. |
+| Local church budget offerings | Running the congregation you actually attend | Low — visible, local, and usually reported to the members | The local congregation benefits. |
+| Church school tuition | Educating children in the faith | Medium — a substantial recurring cost, and a strong retention mechanism as well as a genuine service | The education system benefits. |
+| Health system revenue | Hospital and clinic operations | Medium — large corporate entities whose executive pay is rarely surfaced to members | The health corporations and their executives benefit. |
+| Publishing and literature evangelism | Spreading the message and employing colporteurs (literature evangelists) | Medium — a sales workforce paid on commission, historically with weak labour protections | The publishing houses benefit. |
+| ADRA and disaster offerings | Relief and development | Low — independently evaluated in many jurisdictions and among the more checkable flows in this codex | The people it serves benefit, substantially and verifiably. |
 
 ::: cites
 Sources for this section: [8]
@@ -260,62 +262,62 @@ Sources for this section: [8]
 ```chart
 {"id":"sda-buc","type":"bar","title":"British Union Conference of Seventh-day Adventists: income","unit":"£ million, years to 31 December",
  "series":[["2020",15.50],["2021",20.43],["2022",17.58],["2023",19.94],["2024",22.25]],
- "note":"The UK union only; its local conferences file separately. Public because charity law requires it.",
+ "note":"The figures cover the UK union only; its local conferences file separately. They are public because charity law requires it.",
  "cite":[11]}
 ```
 
-- **British Union Conference, 2024:** £14.91m of £22.25m income from donations and legacies; spending £19.02m [11].
-- **The Davenport losses:** $17.8 million in loans and $3.3 million in accrued interest outstanding from church entities in 1981 [12].
-- **Tithe** goes to the conference, not the local congregation (see Money above).
+- **British Union Conference, 2024:** Of £22.25m income, £14.91m came from donations and legacies, and spending was £19.02m [11].
+- **The Davenport losses:** Church entities had $17.8 million in loans and $3.3 million in accrued interest outstanding in 1981 [12].
+- **Tithe** goes to the conference, not the local congregation (see "Where it comes from" above).
 
 ## 10. Genealogy {#genealogy}
 
 ::: card
 #### The investigative judgment
 
-**Origin.** Formed in 1844–45 to explain why a publicly announced date had passed with nothing visible happening.
+**Origin.** It formed in 1844–45 to explain why a publicly announced date had passed with nothing visible happening.
 
 **What it was for.** It rescued a devastated community. Thousands of people had given away everything and needed a way to understand the day after — and the reinterpretation gave the disappointment meaning rather than ridicule.
 
 **Why that reason expired.** It works by relocating the event to a place no one can look. A claim built specifically to be unobservable cannot be tested, and when a credentialed theologian tested it anyway in 1980, the response was to withdraw his credentials rather than answer him.
 
-**Who benefits now.** The doctrinal structure and the offices that rest on it. A doctrine that cannot be checked cannot be lost, and the people who administer it cannot be wrong.
+**Who benefits now.** The doctrinal structure and the offices that rest on it benefit. A doctrine that cannot be checked cannot be lost, and the people who administer it cannot be wrong.
 :::
 
 ::: card
 #### Prophetic authority — the writings of Ellen G. White
 
-**Origin.** Visions beginning in 1844 that confirmed the sanctuary reinterpretation and shaped doctrine, diet, education, and health practice.
+**Origin.** It rests on visions, beginning in 1844, that confirmed the sanctuary reinterpretation and shaped doctrine, diet, education, and health practice.
 
-**What it was for.** Cohesion and direction for a scattered, humiliated movement with no leaders, no institutions, and no reason to expect survival. Her health counsel was, in substance, decades ahead of the medicine of her time.
+**What it was for.** It gave cohesion and direction to a scattered, humiliated movement with no leaders, no institutions, and no reason to expect survival. Her health counsel was, in substance, decades ahead of the medicine of her time.
 
 **Why that reason expired.** The church's own commissioned research confirmed extensive literary dependence in her writings. That finding — creditably published — was never squarely reconciled with the authority claim built on them, and the claim continued unchanged.
 
-**Who benefits now.** Whoever cites her to close a discussion. An unreviewable authority is most useful to the person invoking it, which is why it appears at the end of arguments rather than the start.
+**Who benefits now.** Whoever cites her to close a discussion benefits. An unreviewable authority is most useful to the person invoking it, which is why it appears at the end of arguments rather than the start.
 :::
 
 ::: card
 #### Tithe flowing upward to the conference
 
-**Origin.** Nineteenth-century systematic benevolence, designed so that poor congregations could still have trained pastors.
+**Origin.** It began as nineteenth-century systematic benevolence (a plan of regular, proportional giving), designed so that poor congregations could still have trained pastors.
 
-**What it was for.** Genuine solidarity: a rich church's tithe paid for a poor church's pastor, which is a good idea and worked.
+**What it was for.** It was genuine solidarity: a rich church's tithe paid for a poor church's pastor, which is a good idea and worked.
 
 **Why that reason expired.** The solidarity mechanism became a control mechanism. Pastors are employed by the body that receives the money, not the congregation that gives it, so a pastor's livelihood is structurally independent of the people they serve and structurally dependent on the office above them.
 
-**Who benefits now.** Conference and union administration. The mechanism's original beneficiaries — poor congregations — still benefit; so does every officer whose authority over pastors runs through payroll.
+**Who benefits now.** Conference and union administration benefits. The mechanism's original beneficiaries — poor congregations — still benefit; so does every officer whose authority over pastors runs through payroll.
 :::
 
 ::: card
 #### The parallel institution system
 
-**Origin.** Schools, sanitariums, and publishing houses built because Adventists were excluded from, or unwilling to use, the surrounding society's institutions.
+**Origin.** Schools, sanitariums, and publishing houses were built because Adventists were excluded from, or unwilling to use, the surrounding society's institutions.
 
-**What it was for.** Survival and service for a Sabbath-keeping minority that could not take Saturday examinations or Saturday shifts.
+**What it was for.** It provided survival and service for a Sabbath-keeping minority that could not take Saturday examinations or Saturday shifts.
 
 **Why that reason expired.** The exclusion has largely ended; the parallel world has not. A member can now be born, schooled, employed, treated, and buried entirely inside the system — which converts a shelter into an enclosure, and makes leaving a career decision as much as a spiritual one.
 
-**Who benefits now.** The institutional system, which is also one of the largest Protestant employers on earth. Every exit cost on this page runs through it.
+**Who benefits now.** The institutional system benefits, and it is also one of the largest Protestant employers on earth. Every exit cost on this page runs through it.
 :::
 
 ## 11. Reach {#reach}
@@ -331,7 +333,7 @@ Sources for this section: [8]
 
 - The church school system is extensive and often academically strong; it is also the primary retention mechanism, and tuition is a significant recurring cost.
 - Children are taught the investigative judgment — a doctrine in which one's life is under review in a heavenly court — at ages where it reliably produces scrupulosity. This is among the most consistently reported harms in former-member accounts. [FORMER MEMBER TESTIMONY]
-- End-time and persecution teaching aimed at children produces documented anxiety, particularly around the 'time of trouble' and Sunday-law scenarios.
+- End-time and persecution teaching aimed at children produces documented anxiety, particularly around the 'time of trouble' (a period of persecution expected before Christ's return) and Sunday-law scenarios (the expectation that states will one day enforce Sunday worship).
 - Sabbath observance shapes a child's entire social world — no Saturday sport, no Saturday activities — which builds a strong in-group and a narrow out-group by design.
 
 ### Bodies
@@ -367,7 +369,7 @@ A community that will genuinely feed you, visit you in hospital, and hold your S
 **How it shows here**
 
 - Bible studies in your home, meals brought, hospital visits, and a Sabbath community that will hold a full day with you — for many members the genuine best of their week.
-- Rapid absorption into Sabbath School, Pathfinders, and church roles.
+- Rapid absorption into Sabbath School, Pathfinders (the church's youth club), and church roles.
 - A whole social world offered at once, and it is a good one.
 
 **The strongest defense.** This is ordinary Christian fellowship and it is offered without expectation.
@@ -400,7 +402,7 @@ A community that will genuinely feed you, visit you in hospital, and hold your S
 ::: stage
 **You are given a future that cannot be verified, and a rope for whenever you drift toward the door.**
 
-Bible studies leading to a decision, then baptism — often quickly, and often before the investigative judgment, the 1919 conference, the Veltman study, or Glacier View have been mentioned once.
+Bible studies lead to a decision, then to baptism, often quickly and often before the investigative judgment, the 1919 conference, the Veltman study, or Glacier View have been mentioned once.
 
 *What it asks of you:* You committed on the strength of what you were shown. What you were not shown was also chosen.
 :::
@@ -430,7 +432,7 @@ Bible studies leading to a decision, then baptism — often quickly, and often b
 
 **How it shows here**
 
-- Lapsed members visited, revisited, and invited to revival weeks and reaping campaigns.
+- Lapsed members visited, revisited, and invited to revival weeks and reaping campaigns (evangelistic meetings aimed at baptisms).
 - Family and school networks bring drifting members back without anyone needing to be asked.
 - Re-baptism offered as a clean restart.
 
@@ -460,7 +462,7 @@ The investigative judgment: your life is under review in a heavenly court, and t
 
 - The investigative judgment: your record is under review in a heavenly court, and the outcome is not disclosed to you.
 - Health and diet teaching creating a second axis of daily inadequacy.
-- Perfectionist strands teaching that character must be flawless before the close of probation.
+- Perfectionist strands teaching that character must be flawless before the close of probation (the point after which, in Adventist teaching, no one's destiny can change).
 
 **The strongest defense.** The judgment is about vindicating God's character, not about terrorising believers.
 
@@ -544,7 +546,7 @@ Ellen White is a lesser light, subordinate to scripture — and her writings set
 - Standards of dress, diet, and entertainment shift by era while always being presented as timeless.
 - 'Perfection of character' defined differently by different eras of teaching.
 
-**The strongest defense.** Prophetic understanding grows with light; that is our own doctrine of present truth.
+**The strongest defense.** Prophetic understanding grows with light; that is our own doctrine of present truth (doctrine as currently understood, open to growing light).
 
 **The counter.** Present truth is a genuine and honest principle. Apply it consistently: publish what the church now believes it got wrong, and when. A doctrine of growing light that never records a correction is not growing.
 
@@ -628,7 +630,7 @@ Ellen White is a lesser light, subordinate to scripture — and her writings set
 ::: stage
 **Your world narrows until every voice you hear is inside the system, and everything you came for now runs through a middleman.**
 
-Saturday empties the calendar of everything outside: no sport, no Saturday work, no Saturday friendships. Church school, church college, church hospital, church employer. The parallel world was built as shelter and it functions as enclosure.
+Saturday empties the calendar of everything outside: no sport, no Saturday work, no Saturday friendships. Church school, church college, church hospital, and church employer follow. The parallel world was built as shelter and it functions as enclosure.
 
 *What it asks of you:* Nobody instructed you to narrow your life. The architecture did it, which is why this row scores high on deniability.
 :::
@@ -674,7 +676,7 @@ Saturday empties the calendar of everything outside: no sport, no Saturday work,
 ::: stage
 **Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
 
-Tithe flowing past your congregation to the conference that employs your pastor; school tuition; local budget offerings; unpaid institutional labour; and, historically, literature evangelists selling on commission.
+The harvest here is tithe flowing past your congregation to the conference that employs your pastor, school tuition, local budget offerings, unpaid institutional labour, and, historically, the work of literature evangelists selling on commission.
 
 *What it asks of you:* The tithe is audited at the top and opaque at your own doorstep. Ask what your congregation sent and what it bought — that is the whole test.
 :::
@@ -712,7 +714,7 @@ Tithe flowing past your congregation to the conference that employs your pastor;
 
 **The counter.** They do. The specific finding is that a critic's substantive claim was later confirmed by the institution's own commissioned research, and his standing was never restored. Ask what the process is for a critic who turns out to have been right.
 
-**Evidence grade.** [[Taught]] Credential withdrawal following public dissent is documented with named precedent. *(sourced)*
+**Evidence grade.** [[Taught]] The credential actions against Walter Rea and Desmond Ford are on the record (sections 5 and 19); describing critics and independent Adventist media as disloyal is observed practice, with no written rule behind it. *(sourced)*
 :::
 
 ::: tactic n=18
@@ -874,7 +876,7 @@ Tithe flowing past your congregation to the conference that employs your pastor;
 
 **The counter.** They are, and this tradition is ahead of most of the codex here. The gap is local and specific: a member cannot readily learn what their own congregation sent and what it purchased. That number exists. Ask for it in writing.
 
-**Evidence grade.** [[Codified]] Tithe structure flowing to the conference is written policy in the Church Manual. *(sourced)*
+**Evidence grade.** [[Codified]] Tithe structure flowing to the conference is written policy in the Church Manual (the church's book of rules for congregations). *(sourced)*
 :::
 
 ### Stage 7 · Discard {#stage-7}
@@ -914,7 +916,7 @@ Ask about the investigative judgment in public, or hold credentials and publish 
 
 - Credential withdrawal for doctrinal dissent — Glacier View is the named precedent.
 - Employment ending when belief changes in institutional towns.
-- Formal disfellowshipping used rarely, but available.
+- Formal disfellowshipping (removal from church membership) used rarely, but available.
 
 **The strongest defense.** Employment and credentials carry requirements; that is not a discard.
 
@@ -975,46 +977,162 @@ Sources for this section: [8] [9]
 
 ## 13. The loops {#loops}
 
+::: lede
+The seven loops below show how the practices connect, so that each step makes the next one easier and the last step feeds the first. The loops are analysis built from findings recorded elsewhere on this page [PATTERN OBSERVED]; each step names the section or technique where its fact is recorded.
+:::
+
 ::: card
 #### 1 · Money to Doctrine to Money
 
-Members fund the institutions; the institutions employ the members; employment makes belief change costly, which protects the institutions.
+Members fund the institutions, the institutions employ the members, and employment makes belief change costly, which protects the institutions.
+
+**How it runs.**
+
+1. Members give a tenth of their income as tithe, which goes past the local congregation to the conference, and pay school tuition and local offerings besides (section 9).
+2. The conference uses the tithe to pay pastors' salaries and holds their ministerial credentials (sections 7 and 9).
+3. Pastors are asked to teach the doctrinal package as settled and to route difficult questions upward, and credentials can be withdrawn for doctrinal dissent (section 18; technique 28).
+4. The hospitals, schools and universities employ members in towns where the church system is the major employer, so a change of belief can be a change of career (sections 10 and 15).
+5. Members who stay inside keep tithing to the same conference, and the institutions go on employing them (section 9; technique 26).
+
+**Techniques that feed it.** [26 · Financial Control](#t-26), [14 · Isolation](#t-14), [24 · Identity Erosion](#t-24), [28 · Discard](#t-28).
+
+**Why it closes.** The body that receives the money also employs the pastor and, through the institutions, many of the members. A member cannot see what their congregation's tithe bought (section 14), and a member who works in the system cannot change belief without risking the income that pays the tithe.
+
+**Where it could be broken, and by whom.** It weakens wherever the money becomes visible at the level of the congregation. The treasurer's records already hold the figure (technique 18), so a conference could publish each congregation's statement, and a member can ask for it in writing (section 23). It also weakens wherever a member's livelihood does not depend on the church system (section 15). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** In section 2 Marisol's father worked forty years at the hospital, the tithe went to the conference every month of her childhood, and she has never seen a figure for what the conference did with it.
 :::
 
 ::: card
 #### 2 · Fear to Dependence to Fear
 
 An unobservable doctrine cannot generate disconfirming evidence, so every year of no evidence is absorbed as the judgment continuing.
+
+**How it runs.**
+
+1. Children are taught the investigative judgment, in which their lives are under review in a heavenly court, at ages where it reliably produces scrupulosity (section 11).
+2. The outcome of the review is never disclosed, and perfectionist strands teach that character must be flawless before the close of probation (technique 5).
+3. The same church offers assurance, and the assurance is then qualified by the continuing judgment (technique 8).
+4. Relief comes from the institution that installed the fear, weekly (technique 20).
+5. The doctrine was built where nothing can be checked, so no year without evidence can end it, and the vigilance returns (section 10).
+
+**Techniques that feed it.** [5 · Devaluation](#t-5), [8 · Intermittent Reinforcement](#t-8), [20 · Trauma Bonding](#t-20), [21 · Learned Helplessness](#t-21).
+
+**Why it closes.** The fear and the comfort come from one source, and the claim that generates the fear cannot be tested. A member can obtain relief only from the office that keeps the review open.
+
+**Where it could be broken, and by whom.** It weakens where the doctrine is taught with the risk of scrupulosity named aloud and a pastoral practice for the child who cannot stop checking (technique 5), and where the church states what evidence would count against the investigative judgment, which section 20 names as a change that would revise this page. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 14 renders the investigative judgment in plain words: 'You are being assessed and you will not be told the result.'
 :::
 
 ::: card
 #### 3 · Children to Members to Children
 
 Pastors are paid by the conference rather than the congregation, so the people closest to members' doubts answer to the body furthest from them.
+
+**How it runs.**
+
+1. Children go to church schools that are often academically strong, cost their parents substantial recurring tuition and serve as the primary retention mechanism (sections 9 and 11).
+2. They are taught the investigative judgment and end-time teaching at ages that produce scrupulosity and anxiety (section 11).
+3. The curriculum presents the movement's history without the 1919 Bible Conference, the Veltman findings or Glacier View (section 11).
+4. Sabbath observance fills the child's social world inside the church, with no Saturday sport, work or friendships outside it (section 11; technique 14).
+5. Those children become the teachers, pastors and parents who pass on the same curriculum, and the omitted history stays omitted for another generation (sections 12 and 18).
+
+**Techniques that feed it.** [13 · Normalization / Desensitization](#t-13), [23 · Infantilization](#t-23), [14 · Isolation](#t-14), [29 · Replacement](#t-29).
+
+**Why it closes.** What is not taught in year one does not need suppressing in year twenty (section 12, stage 8). Each generation learns the history from teachers who learned it the same way, so the omission renews itself without anyone having to decide it.
+
+**Where it could be broken, and by whom.** Section 18 names the church school teacher's refusal to teach a history they know to be partial as the single highest-leverage refusal on the page. Section 20 names the other break: integrating the 1919 transcripts and the Veltman findings into the standard church-school history curriculum. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** In section 2 Marisol's mother taught at the academy, and Marisol learns about Glacier View only by looking up Desmond Ford herself, because the name came up once and nobody explained it.
 :::
 
 ::: card
 #### 4 · Aid to Legitimacy to Leverage to Aid
 
 End-time teaching predicts persecution, so external criticism is metabolized as prophecy fulfilled rather than information received.
+
+**How it runs.**
+
+1. The church runs hospitals, universities and relief work at scale; ADRA's work is independently evaluated in many jurisdictions (sections 9 and 16).
+2. That work earns real standing: Loma Linda appears in the longevity literature, and the health message anticipated modern nutrition (sections 5 and 16).
+3. The standing is deployed as an answer to governance questions it does not address, such as a withdrawn credential or a congregation's tithe (section 16; technique 2).
+4. The questions go unanswered while the institutions continue under corporate boards whose executive pay is rarely surfaced to members (sections 7 and 9).
+5. Members' offerings, tuition and trust keep funding the institutions and the relief work, and the standing renews (sections 9 and 16).
+
+**Techniques that feed it.** [2 · Weaponized Generosity](#t-2), [22 · Benevolent Control](#t-22), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** The good work is real, so pointing to it is persuasive, and each time it is offered in place of an answer the question it displaced is harder to raise again.
+
+**Where it could be broken, and by whom.** It weakens when members treat the institutions' record and the governance questions as separate ledgers, as section 16 does. The health corporations already file where the law requires (section 22), and a member can ask for executive compensation in writing (section 23). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 16 puts it directly: 'That a hospital system saves lives is not information about whether a theologian's credentials should have been withdrawn, or about what a congregation's tithe purchased.'
 :::
 
 ::: card
 #### 5 · Unpaid Labor to Assets to Power to More Labor
 
 The hospitals and ADRA generate genuine standing, and that standing is deployed to answer governance questions it does not address.
+
+**How it runs.**
+
+1. Adventism ran on female labour, teaching and writing from the beginning (section 11).
+2. The publishing houses were built on literature evangelists paid on commission, historically with weak labour protections, and institutions also draw on unpaid labour (section 9; section 12, stage 6).
+3. At Pacific Press, women were denied allowances paid to men (sections 8 and 19).
+4. The assets that labour built sit in separately incorporated institutions governed by boards and by conferences the workers do not control (sections 6 and 7).
+5. When two women challenged the pay practice, one had her duties reduced and was dismissed, and the practice was examined only when a federal court took the case (sections 8 and 19).
+
+**Techniques that feed it.** [26 · Financial Control](#t-26), [22 · Benevolent Control](#t-22), [28 · Discard](#t-28), [17 · Smear Campaign](#t-17).
+
+**Why it closes.** The people who do the work hold no office over the assets it produces, and the offices that hold the assets set the terms of the work. A worker who contests the terms risks the job that the terms govern.
+
+**Where it could be broken, and by whom.** It was broken once from outside: the federal courts held that Title VII applied to the church's publishing house and affirmed the findings of pay discrimination and retaliation (sections 8 and 19). Section 24 notes that the same law still protects most non-ministerial staff in the United States. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Lorna Tobler, an editorial secretary at Pacific Press, was dismissed after she took part in proceedings brought by her co-worker Merikay Silver (section 19).
 :::
 
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
 A curriculum that omits 1919, Veltman, and Glacier View produces the next generation of teachers who omit them.
+
+**How it runs.**
+
+1. A challenge surfaces in public: Walter Rea's findings on Ellen White's sources, and Desmond Ford's challenge to the investigative judgment at Glacier View in 1980 (sections 5 and 19).
+2. The person is removed. Ford's ministerial credentials were withdrawn and Rea lost his ministerial standing (section 19; technique 17).
+3. A process follows. Glacier View was a specially convened conference, and the church commissioned the Veltman study, which confirmed substantial literary dependence (sections 5 and 19).
+4. The finding is not carried into teaching. The Veltman findings have never been integrated into how the prophetic claim is taught, and Rea's standing was never restored (section 11; technique 17).
+5. The curriculum continues without 1919, Veltman or Glacier View, and the teaching is unchanged (sections 11 and 14).
+
+**Techniques that feed it.** [12 · DARVO](#t-12), [17 · Smear Campaign](#t-17), [18 · Silent Treatment / Stonewalling](#t-18), [29 · Replacement](#t-29), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** The process ends with a decision about the person, so the demand for action is met while the doctrine stays where it was. On finance the same structure has produced real change (section 14); on the founding claim it has not.
+
+**Where it could be broken, and by whom.** Section 20 names what would revise the page: a General Conference statement of what evidence would count against the investigative judgment, integration of the 1919 transcripts and the Veltman findings into the curriculum, and restoration of a critic's standing where the church's own research confirmed his claim. The Davenport case shows the structure can act: conflict-of-interest forms became a yearly requirement (section 19). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Walter Rea lost ministerial standing after publishing findings that the church's own later study substantially confirmed, and his standing was never restored (technique 17).
 :::
 
 ::: card
 #### 7 · Persecution to Solidarity to Insulation to Unaccountability
 
 The parallel institution system makes leaving a career decision, which keeps members inside long after the questions have started.
+
+**How it runs.**
+
+1. The church teaches a coming time of trouble and a Sunday law, a permanent and imminent emergency for a century and a half (section 11; technique 27).
+2. Children absorb the persecution teaching as anxiety, and the Sabbath builds a strong in-group and a narrow out-group (section 11).
+3. The parallel institutions, built when Adventists were excluded, now hold members' schooling, employment and care inside one system (section 10; technique 14).
+4. Critics are described as bitter or faithless, and independent Adventist media as disloyal (techniques 11 and 17).
+5. Questions raised inside are deflected, and the member who keeps asking meets the formal mechanism: credentials withdrawn, employment ended (section 12, stage 7).
+
+**Techniques that feed it.** [27 · Manufactured Crisis](#t-27), [11 · Projection](#t-11), [17 · Smear Campaign](#t-17), [14 · Isolation](#t-14), [16 · Flying Monkeys](#t-16).
+
+**Why it closes.** A community taught to expect persecution reads pressure from outside as confirmation, and the enclosure that once sheltered it leaves few outside voices to hear. Each step reduces the chance that a criticism is received as information.
+
+**Where it could be broken, and by whom.** The independent Adventist press is lively and critical (section 11), and members can read it as their own movement's record rather than an attack. Section 10 notes that the exclusion that justified the enclosure has largely ended. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** In section 2 Marisol's family does not mention the compliance committees at dinner, although everybody knows about them.
 :::
 
 ## 14. Say versus do {#say-do}
@@ -1031,9 +1149,9 @@ The parallel institution system makes leaving a career decision, which keeps mem
 
 ### Accountability or theatre?
 
-**Last time the chair ran.** 1980, at Glacier View — and it ran against the theologian rather than the doctrine. In finance it has run more honestly: the Davenport affair produced real conflict-of-interest rules.
+**Last time the chair ran.** It last ran in 1980, at Glacier View, and it ran against the theologian rather than the doctrine. In finance it has run more honestly: the Davenport affair produced real conflict-of-interest rules.
 
-**Who holds the chair now.** Genuinely occupied: an elected president and elected officers, replaceable in session, most recently in 2025.
+**Who holds the chair now.** The chair is genuinely occupied. An elected president and elected officers hold it, replaceable in session, most recently in 2025.
 
 **Prediction.** On finance and governance, expect a real process with a published outcome — this structure does that. On the founding doctrinal claim, expect the chair to remain empty, because the claim was built where the chair cannot reach.
 
@@ -1041,10 +1159,10 @@ The parallel institution system makes leaving a career decision, which keeps mem
 
 | Term | What it means inside | What it does | Said plainly |
 |---|---|---|---|
-| The Spirit of Prophecy | Ellen G. White's writings. | Formally a 'lesser light' subordinate to scripture; functionally decisive. The gap between the two statuses is where every unanswerable conversation in the tradition happens. | 'This settles it, and I retain the option to say it does not.' |
-| Present truth | Doctrine as currently understood, subject to growing light. | A genuinely honest principle. Watch whether it is ever used to record something the church got wrong, or only to explain change after the fact. | 'Our position moved and we would like that read as progress.' |
-| The investigative judgment | The doctrine that lives are under review in a heavenly court since 1844. | Installs permanent vigilance with no disclosed outcome. Clinicians recognise the resulting presentation and call it scrupulosity. | 'You are being assessed and you will not be told the result.' |
-| Standards | Practices of dress, diet, and entertainment marking faithfulness. | Converts era-specific cultural norms into markers of spiritual condition, applied more intensively to women. | 'What you eat and wear is evidence about your soul.' |
+| The Spirit of Prophecy | The phrase means Ellen G. White's writings. | They are formally a 'lesser light' subordinate to scripture and functionally decisive. The gap between the two statuses is where every unanswerable conversation in the tradition happens. | 'This settles it, and I retain the option to say it does not.' |
+| Present truth | It means doctrine as currently understood, subject to growing light. | It is a genuinely honest principle. Watch whether it is ever used to record something the church got wrong, or only to explain change after the fact. | 'Our position moved and we would like that read as progress.' |
+| The investigative judgment | It is the doctrine that lives have been under review in a heavenly court since 1844. | It installs permanent vigilance with no disclosed outcome. Clinicians recognise the resulting presentation and call it scrupulosity. | 'You are being assessed and you will not be told the result.' |
+| Standards | They are the practices of dress, diet, and entertainment that mark faithfulness. | They convert era-specific cultural norms into markers of spiritual condition, applied more intensively to women. | 'What you eat and wear is evidence about your soul.' |
 
 ::: cites
 Sources for this section: [8]
@@ -1066,7 +1184,7 @@ Sources for this section: [8]
 | Family closeness | Sometimes | Sabbath structures family life; a leaver becomes absent from its central weekly event | “Nobody is disfellowshipped for missing church.” |
 | Community | Yes | Saturday observance builds an all-encompassing social world; leaving empties the calendar | “Our members are free to worship as they choose.” |
 | Formal membership | Mostly free | Disfellowshipping exists but is not automatic for lapse; there is no shunning requirement | “Membership is voluntary” — and on this line the claim substantially holds |
-| Psychological cost | Yes | Investigative-judgment scrupulosity and end-time anxiety, frequently persisting long after departure | “That is a personal matter of conscience.” |
+| Psychological cost | Yes | Investigative-judgment scrupulosity and end-time anxiety frequently persist long after departure | “That is a personal matter of conscience.” |
 | Ministerial career | Yes | Credentials are held by conferences and can be withdrawn for doctrinal dissent | “Credentialing standards apply to everyone equally.” |
 
 ### How the cost is denied
@@ -1075,12 +1193,12 @@ Sources for this section: [8]
 |---|---|---|
 | Explicit policy | Low | The Church Manual, the 28 Fundamental Beliefs, and the Glacier View outcome are documented. |
 | Leadership accountability | Low | Uniquely in this codex, officers are elected in session and have been replaced by vote. This row is the tradition's strongest. |
-| Financial transparency | Medium | Audited and summarized at the top; hard for an individual member to trace at the level of their own congregation. |
+| Financial transparency | Medium | It is audited and summarized at the top, but hard for an individual member to trace at the level of their own congregation. |
 | Doctrinal discipline | Low | Credential withdrawal is a formal, recorded act with a named precedent. |
-| Prophetic authority | High | Formally 'lesser light,' functionally decisive — and the gap between the two is where deniability lives. |
-| Health teaching | Medium | Genuinely beneficial in aggregate; harms appear as individual scrupulosity, which is easy to attribute to the individual. |
-| Gender exclusion | Low | A recorded vote of a representative body. Nothing here is deniable, which is why this row is unusual. |
-| Childhood formation | High | Absorbed at home and school, attributable to no policy and no person. |
+| Prophetic authority | High | It is formally a 'lesser light' and functionally decisive, and the gap between the two is where deniability lives. |
+| Health teaching | Medium | It is genuinely beneficial in aggregate; harms appear as individual scrupulosity, which is easy to attribute to the individual. |
+| Gender exclusion | Low | The exclusion rests on a recorded vote of a representative body. Nothing here is deniable, which is why this row is unusual. |
+| Childhood formation | High | It is absorbed at home and school and attributable to no policy and no person. |
 
 ::: cites
 Sources for this section: [8]
@@ -1090,10 +1208,10 @@ Sources for this section: [8]
 
 ### Who benefits
 
-- The conference and union administrative structures, whose authority over pastors runs through payroll.
-- The health-system corporations and their executives, operating large revenue enterprises with governance that is intricate and rarely surfaced to members.
-- The education system, which is both a genuine service and the movement's principal retention mechanism.
-- The doctrinal structure itself, which rests on a claim built to be unobservable and therefore cannot be lost.
+- The conference and union administrative structures benefit, and their authority over pastors runs through payroll.
+- The health-system corporations and their executives benefit, operating large revenue enterprises with governance that is intricate and rarely surfaced to members.
+- The education system benefits, and it is both a genuine service and the movement's principal retention mechanism.
+- The doctrinal structure itself benefits, because it rests on a claim built to be unobservable and therefore cannot be lost.
 
 ### Money out, leverage back
 
@@ -1103,11 +1221,11 @@ Sources for this section: [8]
 
 ### Who pays
 
-- Members who ask about the investigative judgment in a room where it is settled.
-- Theologians and pastors, who hold credentials that a conference can withdraw — the tradition's real disciplinary lever.
-- Women called to ministry, told by a recorded vote of a representative body that the answer is no.
-- Children carrying scrupulosity from a doctrine in which their lives are under heavenly review.
-- Employees in concentrated Adventist towns, for whom belief and livelihood share an address.
+- Members pay when they ask about the investigative judgment in a room where it is settled.
+- Theologians and pastors pay, because they hold credentials that a conference can withdraw, the tradition's real disciplinary lever.
+- Women called to ministry pay, told by a recorded vote of a representative body that the answer is no.
+- Children pay, carrying scrupulosity from a doctrine in which their lives are under heavenly review.
+- Employees in concentrated Adventist towns pay, because for them belief and livelihood share an address.
 
 ::: cites
 Sources for this section: [10]
@@ -1117,13 +1235,15 @@ Sources for this section: [10]
 
 ### Where the weight lands
 
+The costs in section 15 do not fall evenly. They fall hardest where a person has the least power inside the institution and the fewest places to go outside it. The table names who carries the most, how, and what makes it worse.
+
 | Who | How | What it compounds with |
 |---|---|---|
-| Employed members in Adventist institutions | Belief change becomes a career risk | In Loma Linda, Andrews, and similar single-employer towns |
-| Theologians and credentialed pastors | Doctrinal dissent is answered by credential withdrawal rather than argument | Where the credential is also the visa, the housing, and the pension |
-| Women in ministry | A world vote against ordination, followed by compliance machinery aimed at their own regional bodies | In divisions where the local church supports them and the world church does not |
-| Children in church schools | Investigative judgment and end-time teaching at ages that produce scrupulosity | Where home, school, and church deliver the same message with no outside voice |
-| Members in the Global South | They are the overwhelming majority of the membership and a minority of the institutional wealth and governance staff | Where the local conference depends on funds decided elsewhere |
+| Employed members in Adventist institutions | Belief change becomes a career risk | It compounds in Loma Linda, Andrews, and similar single-employer towns. |
+| Theologians and credentialed pastors | Doctrinal dissent is answered by credential withdrawal rather than argument | It compounds where the credential is also the visa, the housing, and the pension. |
+| Women in ministry | They face a world vote against ordination, followed by compliance machinery aimed at their own regional bodies. | It compounds in divisions where the local church supports them and the world church does not. |
+| Children in church schools | They receive investigative-judgment and end-time teaching at ages that produce scrupulosity. | It compounds where home, school, and church deliver the same message with no outside voice. |
+| Members in the Global South | They are the overwhelming majority of the membership and a minority of the institutional wealth and governance staff | It compounds where the local conference depends on funds decided elsewhere. |
 
 ### From The Children's Codex
 
@@ -1131,13 +1251,15 @@ Sources for this section: [10]
 
 ## 18. The middle tiers {#tiers}
 
+Most of the institution's work is done below the General Conference, by people who see decisions without making them. Local pastors, church school teachers, conference treasurers, hospital administrators and union officers each carry part of the load, and each stands at one point where the next decision could be declined. The table sets out what each tier does, what it sees, what it is asked to do and where it could refuse.
+
 | Role | Does | Sees | Is asked to | Could refuse |
 |---|---|---|---|---|
-| Local pastors | Runs congregations, often several at once, on a conference salary | That their employment depends on the conference, not the congregation | To teach the doctrinal package as settled and to route difficult questions upward | To present the investigative judgment as beyond question when they know the 1919 transcripts exist |
-| Church school teachers | Educates the next generation inside the system | Which parts of Adventist history the curriculum omits | To teach the pioneer narrative without the 1919 conference, the Veltman findings, or Glacier View | To teach a history they know to be partial — the single highest-leverage refusal on this page |
-| Conference treasurers and auditors | Handles tithe flow and institutional accounts | Exactly what each congregation sent and where it went | To report upward in summary form only | To decline to give a congregation a plain statement of its own money |
-| Hospital administrators | Runs large revenue health corporations under church-linked governance | Executive compensation and the true relationship between corporate and church governance | To keep the two ledgers politely separate in public | To let the members who own the church's name see what its name earns |
-| Union and division officers | Governs regionally, holds credentials, sits on committees | Whether compliance machinery is being used to examine or to enforce | To comply | To comply — several unions already have, which is why this row is not hypothetical |
+| Local pastors | Run congregations, often several at once, on a conference salary | That their employment depends on the conference, not the congregation | Teach the doctrinal package as settled and route difficult questions upward | Present the investigative judgment as beyond question when they know the 1919 transcripts exist |
+| Church school teachers | Educate the next generation inside the system | Which parts of Adventist history the curriculum omits | Teach the pioneer narrative without the 1919 conference, the Veltman findings, or Glacier View | Teach a history they know to be partial — the single highest-leverage refusal on this page |
+| Conference treasurers and auditors | Handle tithe flow and institutional accounts | Exactly what each congregation sent and where it went | Report upward in summary form only | Decline to give a congregation a plain statement of its own money |
+| Hospital administrators | Run large revenue health corporations under church-linked governance | Executive compensation and the true relationship between corporate and church governance | Keep the two ledgers politely separate in public | Keep what the church's name earns hidden from the members who own that name |
+| Union and division officers | Govern regionally, hold credentials, sit on committees | Whether compliance machinery is being used to examine or to enforce | Comply | Comply; several unions already have refused, which is why this row is not hypothetical |
 
 ## 19. Documented cases {#cases}
 
@@ -1177,11 +1299,11 @@ Sources for this section: [10]
 
 | What | Who | When | What it cost |
 |---|---|---|---|
-| The 1919 Bible Conference transcripts brought into the open | Adventist historians working in the church's own archives | 1970s | Careers; the researchers who surfaced them were not thanked at the time |
+| The 1919 Bible Conference transcripts brought into the open | Adventist historians working in the church's own archives | 1970s | It cost careers; the researchers who surfaced them were not thanked at the time. |
 | The church commissioning and publishing the Veltman study on literary dependence | The institution itself, under sustained pressure from Walter Rea's findings | 1980s | Rea lost his ministerial standing; the church did the study anyway, which is genuinely to its credit |
-| Merikay Silver's equal-pay litigation | An employee who went to federal court against her own denomination | 1970s | Her career inside the system |
-| Unions proceeding with the ordination of women despite the 2015 world vote | Elected regional bodies acting on their own delegates' authority | 2012 onward | Compliance committees, censure, and years of institutional conflict |
-| A contested, scheduled, peaceful transfer of the world presidency by vote | The General Conference session | 2025 | None — and that sentence is why this tradition is a useful control case for this entire codex |
+| Merikay Silver's equal-pay litigation | An employee who went to federal court against her own denomination | 1970s | It cost her career inside the system. |
+| Unions proceeding with the ordination of women despite the 2015 world vote | Elected regional bodies acting on their own delegates' authority | 2012 onward | It brought compliance committees, censure, and years of institutional conflict. |
+| A contested, scheduled, peaceful transfer of the world presidency by vote | The General Conference session | 2025 | It cost nothing, and that is why this tradition is a useful control case for this entire codex. |
 
 ### What would change this page
 
@@ -1193,10 +1315,10 @@ Sources for this section: [4] [5] [6] [7]
 
 ## 21. Voices from inside {#voices}
 
-- **Merikay Silver and Lorna Tobler.** Two women at the church's publishing house who took equal pay to federal court and won [13].
-- **Desmond Ford.** The theologian whose credentials were withdrawn after Glacier View [8].
-- **Walter Rea.** Author of *The White Lie* (1982), on Ellen White's use of other writers [8]; the church's own commissioned study later found she used others' writings "consciously and intentionally" [5][6].
-- **The 977 delegates** who voted in 2015 to let each world division decide on ordaining women [3].
+- **Merikay Silver and Lorna Tobler.** They were two women at the church's publishing house, Pacific Press, who took equal pay to federal court and won. The court held that Title VII applied to the church's publisher [13].
+- **Desmond Ford.** A credentialed Adventist theologian, he challenged the investigative-judgment doctrine at Glacier View in 1980, and his ministerial credentials were withdrawn [8]. He attended Adventist churches for the rest of his life.
+- **Walter Rea.** He wrote *The White Lie* (1982), on Ellen White's use of other writers, and lost his ministerial standing [8]. The church's own commissioned study later found she used others' writings "consciously and intentionally" [5][6].
+- **The 977 delegates.** In 2015 they voted to let each world division decide on ordaining women; 1,381 delegates voted against [3].
 
 ## 22. Regional variants {#regional}
 
@@ -1205,20 +1327,20 @@ Sources for this section: [4] [5] [6] [7]
 
 - **apex:** The General Conference in Silver Spring, Maryland; unions and local conferences hold credentials.
 - **law:** Church financial exemption applies; the affiliated hospital and education corporations file where required, so their filings are readable even though the church's are not.
-- **documented:** Glacier View (1980) and the credential withdrawal. Merikay Silver's equal-pay litigation. Adventist Health System filings.
-- **exit:** Moderate generally; high in Loma Linda, Berrien Springs and similar single-employer towns.
-- **regulator:** State AGs and the IRS for affiliated entities; the elected General Conference session, which is a genuine internal lever.
+- **documented:** The record covers Glacier View (1980) and the credential withdrawal, Merikay Silver's equal-pay litigation, and Adventist Health System filings.
+- **exit:** Exit costs are moderate generally, and high in Loma Linda, Berrien Springs and similar single-employer towns.
+- **regulator:** State attorneys general and the IRS regulate the affiliated entities, and the elected General Conference session is a genuine internal lever.
 - **tell:** The affiliated-entity filings are the workaround: where a church is exempt, its hospital corporation frequently is not.
 :::
 
 ::: card
 ### Africa (as the membership centre of gravity)
 
-- **apex:** Divisions and unions holding the overwhelming majority of world membership.
-- **law:** Varies enormously; charity and education regulation is generally weaker than in North America.
+- **apex:** Divisions and unions here hold the overwhelming majority of world membership.
+- **law:** The law varies enormously; charity and education regulation is generally weaker than in North America.
 - **documented:** General Conference statistical reports show the membership centre of gravity has moved decisively south while institutional wealth and staffing have not.
-- **exit:** Varies; generally high where church schools and clinics are the available ones.
-- **regulator:** National charity and education regulators; this is a card where the codex's own sourcing is thin and says so.
+- **exit:** Exit costs vary, and are generally high where church schools and clinics are the available ones.
+- **regulator:** National charity and education regulators oversee the church here; this is a card where the codex's own sourcing is thin and says so.
 - **tell:** The majority of this church's members live under the governance of a structure whose institutional resources sit elsewhere. That imbalance is the most under-examined fact about global Adventism.
 :::
 
