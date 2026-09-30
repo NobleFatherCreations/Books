@@ -18,13 +18,13 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | ~25–30 million. [ACADEMIC SOURCE: Pew, Indian census] |
-| Who's in charge | Jathedar of the Akal Takht — the highest temporal seat — Giani Kuldeep Singh Gargaj, acting Jathedar since March 2025 — installed by the SGPC after it removed two predecessors in the same year amid open political conflict |
-| Chosen by / removable by | The SGPC executive — itself won in party-contested elections / The SGPC. And it has removed Jathedars, repeatedly — which is the finding: the panth's highest moral office is hire-and-fire |
-| Money in one line | Golak (donation box) revenues of major gurdwaras are substantial; langar economies; diaspora remittances; dera empires around living gurus (Dera Sacha Sauda's leader, convicted of rape in 2017; a 2019 conviction for conspiring to murder a journalist was overturned on appeal in 2026 and is now before the Supreme Court, controlled a corporate-scale operation). [COURT RECORD / INVESTIGATIVE REPORT] |
-| Leaving in one line | Amritdhari lapse carries community standing costs; family honor economies police marriage and appearance; leaving a dera can mean losing an entire service-and-employment ecosystem. |
+| Size | Sikhs number ~25–30 million. [ACADEMIC SOURCE: Pew, Indian census] |
+| Who's in charge | The Jathedar (the head of a takht, a seat of Sikh religious authority) of the Akal Takht, the highest temporal seat, is Giani Kuldeep Singh Gargaj, acting Jathedar since March 2025. The SGPC (Shiromani Gurdwara Parbandhak Committee, the elected body that runs the historic gurdwaras) installed him after it removed two predecessors in the same year amid open political conflict. |
+| Chosen by / removable by | The SGPC executive chooses the Jathedar, and control of that body is itself won in party-contested elections / The SGPC can remove him, and it has removed Jathedars repeatedly, which is the finding that the panth's (the Sikh community's) highest moral office is hire-and-fire |
+| Money in one line | The money comes from golak (donation box) revenues of major gurdwaras, which are substantial; langar (the free communal kitchen) economies; diaspora remittances; and dera (sect-like movement) empires around living gurus. Dera Sacha Sauda's leader, convicted of rape in 2017, controlled a corporate-scale operation; a 2019 conviction for conspiring to murder a journalist was overturned on appeal in 2026 and is now before the Supreme Court. [COURT RECORD / INVESTIGATIVE REPORT] |
+| Leaving in one line | An Amritdhari (an initiated Sikh) who lapses faces community standing costs; family honor economies police marriage and appearance; and leaving a dera can mean losing an entire service-and-employment ecosystem. |
 | The unanswered question | The Gurus abolished caste five centuries ago. Why do the panth's own matrimonial pages still sort by it — and who profits from the sorting? |
-| Evidence | 5 of 30 techniques sourced to a named document; grades: Cultural 26, Contested 2, Reformed 1, Documented 1 |
+| Evidence | Five of the 30 techniques are sourced to a named document; the grades are Cultural 26, Contested 2, Reformed 1 and Documented 1 |
 | Family | Dharmic — hinduism, hare-krishna, sikhism, jainism |
 | Last checked | 2026-09-27 |
 :::
@@ -39,15 +39,15 @@ partial: []
 
 ## 2. A day inside {#a-day-inside}
 
-*Jasleen · A Tuesday in Vaisakh · Southall, west London*
+*Jasleen · A Tuesday in Vaisakh (the spring month of April–May) · Southall, west London*
 
-Her father does Nitnem at five and the sound of it through the wall is the sound of her entire childhood. She is twenty-four and she can hear him from her old bedroom and she is glad she came home for the week.
+Her father does Nitnem (the daily prayers) at five and the sound of it through the wall is the sound of her entire childhood. She is twenty-four and she can hear him from her old bedroom and she is glad she came home for the week.
 
 At the gurdwara at seven for the langar shift, because her mother volunteers Tuesdays and Jasleen is filling in. Two hundred people will eat here today, anyone at all, no questions, on the same floor. She has thought many times that whatever else her community has got wrong, it got this profoundly right.
 
 In the kitchen the aunties are discussing the committee election. There is money in it — the golak, the hall hire, the building fund — and there are two factions, and one of them took the other to court in 2019. Jasleen listens and does not participate. Nobody publishes accounts. Nobody has ever published accounts.
 
-At eleven her cousin Simran calls, crying, because Simran's parents have found out about her boyfriend, whose family is Ravidasia. Jasleen says all the right things. She does not say the thing she is actually thinking, which is that the Guru Granth Sahib is extremely clear about this and that everyone in both houses can read it, and that it will make no difference whatsoever.
+At eleven her cousin Simran calls, crying, because Simran's parents have found out about her boyfriend, whose family is Ravidasia (followers of the teachings of Guru Ravidas). Jasleen says all the right things. She does not say the thing she is actually thinking, which is that the Guru Granth Sahib (the Sikh scripture) is extremely clear about this and that everyone in both houses can read it, and that it will make no difference whatsoever.
 
 In the afternoon someone mentions a dera leader, and a conviction, and a journalist who was shot, and a man at the next table says that it was all politics. Nobody argues with him. Jasleen thinks about how there is a photograph of that dera leader in her great-uncle's shop in Jalandhar.
 
@@ -75,41 +75,47 @@ The Gurus abolished caste five centuries ago. Why do the panth's own matrimonial
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Formal religious penalty | Rare | No clergy can excommunicate an ordinary member; chhaikka is used mainly against public figures | Accurately: there is little formal exit penalty. |
+| Formal religious penalty | Rare | No clergy can excommunicate an ordinary member; chhaikka (formal excommunication by the Akal Takht) is used mainly against public figures. | The official position is that there is little formal exit penalty, and that is accurate. |
 
 ### The strongest objection, answered
 
-**The objection.** What you are describing is Punjabi culture, not Sikhi.
+**The objection.** What you are describing is Punjabi culture, not Sikhi (the Sikh way of life and faith).
 
-**What is true in it.** Largely true, and this codex agrees explicitly — caste, dowry, and sex selection are all condemned by the tradition's own scripture, which makes them cultural imports rather than religious teaching.
+**What is true in it.** The objection is largely true, and this codex agrees explicitly — caste, dowry, and sex selection are all condemned by the tradition's own scripture, which makes them cultural imports rather than religious teaching.
 
 **The answer.** But that concession creates the sharper question: why does culture win every time it conflicts with the Gurus? The work here is not deconstruction, it is enforcement. Every harm in this profile is already forbidden by your own doctrine.
 
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-~25–30 million Sikhs, homeland in Punjab with a major global diaspora; founded on devotion to one God, equality, honest work, and service; scripture itself (Guru Granth Sahib) is the eternal Guru.
+Sikhs number ~25–30 million, with a homeland in Punjab and a major global diaspora. The tradition is founded on devotion to one God, equality, honest work and service, and its scripture, the Guru Granth Sahib, is the eternal Guru.
 :::
 
-- The tradition's built-in defenses: no priests, congregational scripture access, langar's radical equality; diaspora gurdwaras with elected transparent boards; Sikh institutions confronting dera abuses.
+- The tradition's built-in defenses are that it has no priests, that the congregation has direct access to scripture, and that langar practices radical equality. Diaspora gurdwaras have elected, transparent boards, and Sikh institutions have confronted dera abuses.
+
+Guruship passed to the scripture in 1708, which ended human succession [8]. The Sikh Rehat Maryada (the code of conduct) is published by the SGPC and sets out women's full participation [9].
+
+::: cites
+Sources for this section: [8] [9]
+:::
 
 ## 5. History {#history}
 
-Founded by Guru Nanak (15th–16th c. Punjab); ten human Gurus; martial consolidation under persecution; the Khalsa (1699); scriptural guruship ended human succession — a deliberate anti-clerical design.
+Guru Nanak founded the tradition in Punjab in the 15th and 16th centuries. There were ten human Gurus, and the community consolidated in martial form under persecution. The Khalsa (the order of initiated Sikhs) was created in 1699. Scriptural guruship then ended human succession, a deliberate anti-clerical design.
 
 ### Timeline
 
 ```timeline
-1469–1539 | Guru Nanak's ministry in Punjab; rejection of caste, priestcraft, and ritual monopoly | Founded explicitly as a critique of religious hierarchy — anti-control by design.
-1539–1604 | Successor Gurus; Amritsar founded; Adi Granth compiled 1604 | Scripture is standardized early, reducing interpretive monopoly.
-1606–1675 | Martyrdoms of Guru Arjan and Guru Tegh Bahadur under Mughal rule | Persecution forges a martial, self-defending community.
-1699 | Guru Gobind Singh creates the Khalsa | Collective identity with visible markers and a shared code.
-1708 | Guruship passes to the scripture (Guru Granth Sahib), ending human succession | A deliberate structural safeguard against personality cults — the tradition's core anti-guru move.
-1799–1849 | Sikh Empire under Ranjit Singh; then British annexation | Statehood and its loss; institutions reorganize under colonial law.
-1873–1925 | Singh Sabha reform; Gurdwara Act creates the SGPC | Control of historic gurdwaras becomes a statutory, electable prize — religion enters party politics. [OFFICIAL POLICY]
-1947 | Partition devastates Punjab; mass displacement | Community trauma and diaspora formation.
-1984 | Operation Blue Star; assassination of Indira Gandhi; anti-Sikh massacres | State violence against the community's holiest site; unresolved justice shapes politics to this day. [GOVERNMENT REPORT]
-1990s–present | Global diaspora growth; dera movements expand; Dera Sacha Sauda leader convicted 2017 | Living-guru movements — the very thing scriptural guruship was meant to prevent — become major power centers. [COURT RECORD]
+1469–1539 | Guru Nanak's ministry in Punjab rejected caste, priestcraft and ritual monopoly. | The tradition was founded explicitly as a critique of religious hierarchy, anti-control by design.
+1539–1604 | Successor Gurus led the community, Amritsar was founded, and the Adi Granth (the first compilation of scripture) was compiled in 1604. | Scripture was standardized early, which reduced interpretive monopoly.
+1606–1675 | Guru Arjan and Guru Tegh Bahadur were martyred under Mughal rule. | Persecution forged a martial, self-defending community.
+1699 | Guru Gobind Singh created the Khalsa. | The Khalsa gave the community a collective identity with visible markers and a shared code.
+1708 | Guruship passes to the scripture (Guru Granth Sahib), ending human succession | The change was a deliberate structural safeguard against personality cults, the tradition's core anti-guru move.
+1799–1849 | The Sikh Empire ruled under Ranjit Singh and was then annexed by the British. | The community gained statehood and lost it, and its institutions reorganized under colonial law.
+1873–1925 | The Singh Sabha reform movement ran, and the Gurdwara Act created the SGPC. | Control of historic gurdwaras becomes a statutory, electable prize — religion enters party politics. [OFFICIAL POLICY]
+1947 | Partition devastated Punjab and caused mass displacement. | Partition brought community trauma and diaspora formation.
+1984 | Operation Blue Star took place, Indira Gandhi was assassinated, and there were anti-Sikh massacres. | State violence struck the community's holiest site, and unresolved justice shapes politics to this day. [GOVERNMENT REPORT]
+1990s–present | The global diaspora grew, dera movements expanded, and the Dera Sacha Sauda leader was convicted in 2017. | Living-guru movements — the very thing scriptural guruship was meant to prevent — become major power centers. [COURT RECORD]
 ```
 
 ### Moments in the room
@@ -119,7 +125,7 @@ Founded by Guru Nanak (15th–16th c. Punjab); ten human Gurus; martial consolid
 
 Guru Gobind Singh initiated the first five from different castes and regions, gave them a common surname, and had them initiate him in turn. Caste was abolished by design and by ritual, in public.
 
-**Why it matters.** The clearest founding repudiation of caste anywhere in this codex — which is why this page's unanswered question about caste-sorted matrimonial pages is a question the tradition's own founder already answered.
+**Why it matters.** It is the clearest founding repudiation of caste anywhere in this codex, which is why this page's unanswered question about caste-sorted matrimonial pages is a question the tradition's own tenth Guru already answered.
 :::
 
 ::: card
@@ -127,7 +133,7 @@ Guru Gobind Singh initiated the first five from different castes and regions, ga
 
 The Akali reform movement wrested the historic gurdwaras from hereditary custodians, and the Sikh Gurdwaras Act of 1925 created the SGPC to manage them by election. It was a genuine democratic victory.
 
-**Why it matters.** And it made the golak an electoral prize. The reform that liberated the shrines from priests delivered them to parties — an unintended consequence that is now the page's central accountability problem.
+**Why it matters.** It also made the golak an electoral prize. The reform that liberated the shrines from priests delivered them to parties, an unintended consequence that is now the page's central accountability problem.
 :::
 
 ::: card
@@ -135,7 +141,7 @@ The Akali reform movement wrested the historic gurdwaras from hereditary custodi
 
 Successive holders of the Akal Takht Jathedarship have been installed and removed amid open political conflict, including further turnover in 2025.
 
-**Why it matters.** The panth's highest moral office operating as an appointment of a party executive. Ask who a Jathedar answers to and the honest answer is a headquarters.
+**Why it matters.** The panth's highest moral office operates as an appointment of a party executive. Ask who a Jathedar answers to and the honest answer is a headquarters.
 :::
 
 ::: cites
@@ -144,14 +150,14 @@ Sources for this section: [6] [8]
 
 ## 6. Branches & variants {#branches}
 
-Mainstream Khalsa Sikhism; Nihang, Namdhari, Nirankari and other sects; numerous deras (some accepted, some doctrinally rejected as heterodox).
+The main branches are mainstream Khalsa Sikhism; Nihang, Namdhari, Nirankari and other sects; and numerous deras (some accepted, some doctrinally rejected as heterodox, meaning as departing from accepted doctrine).
 
 | Branch | Where | Where authority sits |
 |---|---|---|
-| **Mainstream Khalsa Sikhism** | Punjab and worldwide; about 26 million Sikhs (2020) [7] | The Akal Takht and its Jathedar [3]; in Punjab, the SGPC, an elected statutory body that runs the historic gurdwaras [1] |
-| **Nihang, Namdhari, Nirankari and other groups** | Mostly Punjab | Their own leaders and practices |
-| **Deras** | Punjab and Haryana | A living head, sometimes with vast property; the head of Dera Sacha Sauda was convicted of rape in 2017 [6] |
-| **Diaspora gurdwaras** | UK, Canada, US and elsewhere | Elected committees; often registered charities |
+| **Mainstream Khalsa Sikhism** | It is found in Punjab and worldwide, with about 26 million Sikhs (2020) [7]. | Authority sits with the Akal Takht and its Jathedar [3]; in Punjab it also sits with the SGPC, an elected statutory body that runs the historic gurdwaras [1]. |
+| **Nihang, Namdhari, Nirankari and other groups** | They are found mostly in Punjab. | Authority sits with their own leaders and practices. |
+| **Deras** | They are found in Punjab and Haryana. | Authority sits with a living head, sometimes with vast property; the head of Dera Sacha Sauda was convicted of rape in 2017 [6]. |
+| **Diaspora gurdwaras** | They are found in the United Kingdom, Canada, the United States and elsewhere. | Authority sits with elected committees, which are often registered charities. |
 
 ## 7. Structure {#structure}
 
@@ -159,14 +165,14 @@ Mainstream Khalsa Sikhism; Nihang, Namdhari, Nirankari and other sects; numerous
 
 |  |  |
 |---|---|
-| Adherents | ~25–30 million. [ACADEMIC SOURCE: Pew, Indian census] |
-| Regions | Punjab, India (majority); significant diaspora in Canada, UK, US, Australia, Malaysia, East Africa, Italy. |
-| Trend | Growing in the diaspora; declining observance of visible markers among some diaspora youth; dera membership substantial among marginalized-caste Punjabis, a fact usually left out of official accounts. [ACADEMIC SOURCE] |
+| Adherents | Sikhs number ~25–30 million. [ACADEMIC SOURCE: Pew, Indian census] |
+| Regions | Sikhs are the majority in Punjab, India, and have significant diaspora communities in Canada, the United Kingdom, the United States, Australia, Malaysia, East Africa and Italy. |
+| Trend | The community is growing in the diaspora, observance of visible markers is declining among some diaspora youth, and dera membership is substantial among marginalized-caste Punjabis, a fact usually left out of official accounts. [ACADEMIC SOURCE] |
 | Participation | Gurdwara attendance is high relative to many traditions, but institutional authority is weak by design — there is no clergy that can excommunicate an individual. |
 
 ### Authority
 
-- No priesthood by design; in practice: gurdwara management committees, the SGPC (statutory body managing historic gurdwaras), jathedars of the takhts, and deras (sect-like guru movements around living masters — doctrinally contested).
+- There is no priesthood by design, but in practice authority sits with gurdwara management committees, the SGPC (statutory body managing historic gurdwaras), jathedars of the takhts (the seats of religious authority), and deras (sect-like guru movements around living masters, doctrinally contested).
 - Committee politics and SGPC elections entangle religious authority with party politics. [ACADEMIC SOURCE / INVESTIGATIVE REPORT]
 
 ### The top of the chain
@@ -177,9 +183,9 @@ A tradition that abolished priesthood grew a political one, and the highest seat
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| Jathedar of the Akal Takht — the highest temporal seat | Giani Kuldeep Singh Gargaj, acting Jathedar since March 2025 — installed by the SGPC after it removed two predecessors in the same year amid open political conflict | The SGPC executive — itself won in party-contested elections | The SGPC. And it has removed Jathedars, repeatedly — which is the finding: the panth's highest moral office is hire-and-fire |
-| SGPC presidency | Annually elected; controls the golak revenues of the historic gurdwaras — the acknowledged prize of the elections | Statutory elections | The next vote |
-| The deras | Parallel thrones with millions of followers and nothing above the throne. Dera Sacha Sauda ran until a criminal court, not the panth, stopped its head | Self-founding | A court, after conviction |
+| Jathedar of the Akal Takht — the highest temporal seat | Giani Kuldeep Singh Gargaj has been acting Jathedar since March 2025; the SGPC installed him after it removed two predecessors in the same year amid open political conflict. | The SGPC executive chooses the Jathedar, and control of that body is itself won in party-contested elections. | The SGPC can remove him, and it has removed Jathedars repeatedly, which is the finding that the panth's highest moral office is hire-and-fire. |
+| SGPC presidency | The president is elected annually and controls the golak revenues of the historic gurdwaras, the acknowledged prize of the elections. | Statutory elections choose the president. | The next vote can remove the president. |
+| The deras | They are parallel thrones with millions of followers and nothing above the throne. Dera Sacha Sauda ran until a criminal court, not the panth, stopped its head. | Deras are self-founding. | A court can remove a dera head, after conviction. |
 
 ::: tell
 Ask who the Jathedar answers to. The honest answer is a party headquarters — and the Gurus' own institution deserves better than that sentence.
@@ -189,11 +195,11 @@ Ask who the Jathedar answers to. The honest answer is a party headquarters — a
 
 | Entity | Type | Holder | Holds | Why it matters to you | Receipt |
 |---|---|---|---|---|---|
-| The SGPC | Statutory body | Elected committee members | Management of historic gurdwaras and their very large donation revenues | Who preaches, and where the golak goes | [OFFICIAL POLICY: Gurdwara Act 1925] |
-| Akal Takht jathedars | Religious authority | Appointed jathedars | Authority to issue edicts and excommunicate public figures | Whether a scholar's research ends his career | [INVESTIGATIVE REPORT] |
-| Dera organizations | Living-guru movements | Dera chiefs and their families; one convicted of rape and of conspiracy to murder a journalist | Corporate-scale operations, housing, employment, and bloc votes | Proof of what the scriptural succession was designed to prevent | [COURT RECORD: Indian court judgments] |
-| Diaspora gurdwara committees | Local governance | Elected factions | Remittance-funded property, contested in litigation and occasionally violence | The hall your community built, and who controls it | [COURT RECORD: diaspora gurdwara disputes] |
-| Family and caste marriage networks | Informal enforcement | Nobody, formally | Enforcement of caste endogamy and appearance norms that the scripture explicitly forbids | Whom your daughter may marry, decided against your own doctrine | [ACADEMIC SOURCE] |
+| The SGPC | It is a statutory body. | Elected committee members hold it. | It holds management of historic gurdwaras and their very large donation revenues. | It determines who preaches and where the golak goes. | [OFFICIAL POLICY: Gurdwara Act 1925] |
+| Akal Takht jathedars | They are a religious authority. | Appointed jathedars hold it. | They hold authority to issue edicts and excommunicate public figures. | It determines whether a scholar's research ends his career. | [INVESTIGATIVE REPORT] |
+| Dera organizations | They are living-guru movements. | Dera chiefs and their families hold them; one chief was convicted of rape, and his 2019 conviction for conspiracy to murder a journalist was overturned on appeal in 2026. | They hold corporate-scale operations, housing, employment and bloc votes. | They are proof of what the scriptural succession was designed to prevent. | [COURT RECORD: Indian court judgments] |
+| Diaspora gurdwara committees | They are local governance bodies. | Elected factions hold them. | They hold remittance-funded property, contested in litigation and occasionally in violence. | They decide who controls the hall your community built. | [COURT RECORD: diaspora gurdwara disputes] |
+| Family and caste marriage networks | They are an informal enforcement network. | Nobody holds them formally. | They enforce caste endogamy and appearance norms that the scripture explicitly forbids. | They decide whom your daughter may marry, against your own doctrine. | [ACADEMIC SOURCE] |
 
 ::: cites
 Sources for this section: [1] [3] [6] [7]
@@ -203,54 +209,54 @@ Sources for this section: [1] [3] [6] [7]
 
 | Country | What the law does | The accountability question |
 |---|---|---|
-| **India — gurdwaras** | The Sikh Gurdwaras Act 1925 makes the SGPC an elected body with a five-year term [1] | Its general house has not faced an election since 2011, and the electoral roll has halved [1][2] |
+| **India — gurdwaras** | The Sikh Gurdwaras Act 1925 makes the SGPC an elected body with a five-year term [1] | Its general house (the SGPC's full assembly) has not faced an election since 2011, and the electoral roll has halved [1][2] |
 | **India — Akal Takht** | The Jathedar is appointed and removed by the SGPC [3] | Two Jathedars were removed in 2025 amid political conflict [3] |
 | **India — excommunication** | The Akal Takht can excommunicate [4] | The scholar Gurbaksh Singh Kala Afghana was excommunicated in 2003 [4] |
-| **Canada** | Charter freedom of religion [12] | The Supreme Court held in 2006 that a school's outright ban on a student's kirpan, even sealed in his clothing, was unconstitutional [12] |
+| **Canada** | The Charter protects freedom of religion [12]. | The Supreme Court held in 2006 that a school's outright ban on a student's kirpan (the dagger Sikhs carry as an article of faith), even sealed in his clothing, was unconstitutional [12]. |
 
 ### Who can compel an answer
 
-The SGPC's statutory elections — a genuine lever on paper, though the general house has not faced voters since 2011 and the rolls have halved; the Gurdwara Election Commission that must call them; and the courts that supervise gurdwara trusts abroad. The Jathedar cannot be petitioned; the body that hires him has not been voted on in fifteen years.
+Three routes can compel an answer. The first is the SGPC's statutory elections, a genuine lever on paper, though the general house has not faced voters since 2011 and the rolls have halved. The second is the Gurdwara Election Commission, which must call them. The third is the courts, which supervise gurdwara trusts abroad. The Jathedar cannot be petitioned; the body that hires him has not been voted on in fifteen years.
 
 ## 9. Money {#money}
 
 ### Where it comes from
 
-- Golak (donation box) revenues of major gurdwaras are substantial; langar economies; diaspora remittances; dera empires around living gurus (Dera Sacha Sauda's leader, convicted of rape in 2017; a 2019 conviction for conspiring to murder a journalist was overturned on appeal in 2026 and is now before the Supreme Court, controlled a corporate-scale operation). [COURT RECORD / INVESTIGATIVE REPORT]
+- The money comes from golak (donation box) revenues of major gurdwaras, which are substantial; langar economies; diaspora remittances; and dera empires around living gurus. Dera Sacha Sauda's leader, convicted of rape in 2017, controlled a corporate-scale operation; a 2019 conviction for conspiring to murder a journalist was overturned on appeal in 2026 and is now before the Supreme Court. [COURT RECORD / INVESTIGATIVE REPORT]
 
 ### Follow the money
 
 | Flow | Stated purpose | How it controls | Who benefits |
 |---|---|---|---|
-| Golak (donation box) offerings | Gurdwara operations and langar | Very large cash flows at historic gurdwaras with contested oversight; committee elections fought over control | Committees, SGPC, and genuinely the langar hall [INVESTIGATIVE REPORT] |
-| Langar and seva | Free food and voluntary service | Genuinely one of the least coercive religious institutions in this codex — the risk is only in labor expectation and honor pressure | The public, and the community's reputation |
-| Diaspora remittances and building funds | Gurdwara construction | Factional control fights over management and, occasionally, litigation and violence over committees | Committee factions [COURT RECORD: diaspora gurdwara disputes] |
-| Dera economies | Support the living guru's mission | Corporate-scale operations with total internal authority and political protection | Dera leadership and their families [COURT RECORD] |
+| Golak (donation box) offerings | The stated purpose is gurdwara operations and langar. | Very large cash flows at historic gurdwaras have contested oversight, and committee elections are fought over control of them. | Committees and the SGPC benefit, and so, genuinely, does the langar hall. [INVESTIGATIVE REPORT] |
+| Langar and seva | The stated purpose is free food and voluntary service. | It is genuinely one of the least coercive religious institutions in this codex, and the risk lies only in labor expectation and honor pressure. | The public benefits, and so does the community's reputation. |
+| Diaspora remittances and building funds | The stated purpose is gurdwara construction. | Factions fight for control over management, and the fights occasionally reach litigation and violence over committees. | Committee factions benefit. [COURT RECORD: diaspora gurdwara disputes] |
+| Dera economies | The stated purpose is to support the living guru's mission. | The operations are corporate in scale, with total internal authority and political protection. | Dera leadership and their families benefit. [COURT RECORD] |
 
 ### Pipelines this tradition shares
 
 ::: card
 #### Dera and ashram economy
 
-**Source.** Devotee giving and unpaid service
+**Source.** The money comes from devotee giving and unpaid service.
 
-**Path.** Living guru's organization → Family-held entities → Political protection
+**Path.** It runs from the living guru's organization to family-held entities and then to political protection.
 
-**Disclosed.** Charitable activity
+**Disclosed.** The organization discloses its charitable activity.
 
-**Hidden.** Asset ownership and personal use
+**Hidden.** It hides asset ownership and personal use.
 :::
 
 ::: card
 #### Honor and marriage economy
 
-**Source.** Families managing reputation
+**Source.** The money and favor come from families managing reputation.
 
-**Path.** Matchmakers and community brokers → School admission and business trust → Conformity across the whole family
+**Path.** It runs from matchmakers and community brokers to school admission and business trust, and on to conformity across the whole family.
 
-**Disclosed.** Nothing
+**Disclosed.** Nothing is disclosed.
 
-**Hidden.** Everything, because none of it is written
+**Hidden.** Everything is hidden, because none of it is written.
 :::
 
 ::: cites
@@ -266,7 +272,7 @@ Sources for this section: [6]
  "cite":[10,11]}
 ```
 
-- **Growth:** up 17% in 2023–24 and 10% in 2025–26 [10][11].
+- **Growth:** the budget rose 17% in 2023–24 and 10% in 2025–26 [10][11].
 - **Accountability:** the general house that passes this budget was last elected in 2011 [1].
 - **Deras** publish no comparable accounts [6].
 
@@ -277,11 +283,11 @@ Sources for this section: [6]
 
 **Origin.** Post-1708, various figures claimed continuing personal guruship despite the scriptural succession; the modern dera phenomenon expanded through the 20th century. [ACADEMIC SOURCE]
 
-**What it was for.** None within Sikh doctrine — this is the precise thing the scriptural guruship was created to prevent. Their appeal is real, though: deras have served marginalized-caste Punjabis whom mainstream gurdwaras treated poorly.
+**What it was for.** It served no purpose within Sikh doctrine; it is the precise thing the scriptural guruship was created to prevent. Their appeal is real, though: deras have served marginalized-caste Punjabis whom mainstream gurdwaras treated poorly.
 
-**Why that reason expired.** It was never legitimate doctrinally, and the outcomes are documented: the leader of one of the largest deras was convicted of rape and of conspiracy to murder. [COURT RECORD]
+**Why that reason expired.** It was never legitimate doctrinally, and the outcomes are documented: the leader of one of the largest deras was convicted of rape in 2017. His 2019 conviction for conspiracy to murder a journalist was overturned on appeal in 2026 and is now before the Supreme Court. [COURT RECORD]
 
-**Who benefits now.** Dera chiefs and their families, running large operations with political protection because their followers vote in blocs.
+**Who benefits now.** Dera chiefs and their families benefit, running large operations with political protection because their followers vote in blocs.
 :::
 
 ::: card
@@ -289,35 +295,35 @@ Sources for this section: [6]
 
 **Origin.** The 1925 Gurdwara Act made control of historic gurdwaras a statutory, electable prize. [OFFICIAL POLICY]
 
-**What it was for.** A genuine reform: it wrested shrines from hereditary custodians who had been treating them as private property.
+**What it was for.** It was a genuine reform: it wrested shrines from hereditary custodians who had been treating them as private property.
 
 **Why that reason expired.** It converted religious authority into an electoral asset. Committee control means control of very large cash flows and of who is allowed to preach, and party politics followed the money in.
 
-**Who benefits now.** Political parties and committee factions. Scholars have been excommunicated for historical research that displeased them. [INVESTIGATIVE REPORT]
+**Who benefits now.** Political parties and committee factions benefit. Scholars have been excommunicated for historical research that displeased them. [INVESTIGATIVE REPORT]
 :::
 
 ::: card
 #### Caste practice inside a tradition that abolished it
 
-**Origin.** Punjabi caste structures that persisted through Sikhism's explicit doctrinal rejection of them. [ACADEMIC SOURCE]
+**Origin.** Punjabi caste structures persisted through Sikhism's explicit doctrinal rejection of them. [ACADEMIC SOURCE]
 
-**What it was for.** Nothing Sikh. Guru Nanak attacked caste directly, and langar exists specifically to break it.
+**What it was for.** It served nothing Sikh. Guru Nanak attacked caste directly, and langar exists specifically to break it.
 
 **Why that reason expired.** It has no doctrinal defense at all, which is why it is always defended as culture. Separate caste-based gurdwaras exist, and inter-caste marriage still triggers family rupture.
 
-**Who benefits now.** Established landowning families and marriage networks. Note that the deniability here is total precisely because doctrine is on your side and practice is not.
+**Who benefits now.** Established landowning families and marriage networks benefit. Note that the deniability here is total precisely because doctrine is on your side and practice is not.
 :::
 
 ::: card
 #### Honor pressure on daughters
 
-**Origin.** Punjabi honor codes surviving alongside a scripture that declares women equal. [ACADEMIC SOURCE]
+**Origin.** Punjabi honor codes survive alongside a scripture that declares women equal. [ACADEMIC SOURCE]
 
-**What it was for.** Kin-group status management, not religion.
+**What it was for.** It served kin-group status management, not religion.
 
 **Why that reason expired.** Punjab's sex ratio became one of the most skewed in India despite unambiguous doctrinal condemnation of female infanticide. The gap between what your scripture says and what your community does is the widest in this codex.
 
-**Who benefits now.** Family reputation economies, and the men whose standing depends on their daughters' compliance.
+**Who benefits now.** Family reputation economies benefit, as do the men whose standing depends on their daughters' compliance.
 :::
 
 ::: cites
@@ -334,8 +340,8 @@ Sources for this section: [1]
 
 ### Children
 
-- Naam karan naming and Amrit initiation are meant to be chosen — initiation is voluntary and typically adolescent or adult, a genuine structural safeguard.
-- Uncut hair and turban for boys begins in early childhood, so visible identity is assigned before consent and carries school-bullying and workplace costs later. [PATTERN OBSERVED]
+- Naam karan (the naming ceremony) and Amrit initiation (the rite of joining the Khalsa) are meant to be chosen. Initiation is voluntary and typically adolescent or adult, a genuine structural safeguard.
+- Uncut hair and a turban for boys begin in early childhood, so visible identity is assigned before consent and carries school-bullying and workplace costs later. [PATTERN OBSERVED]
 - Punjabi schools and camps build identity; family honor expectations around marriage and appearance begin young, particularly for girls.
 
 ### Bodies
@@ -359,7 +365,7 @@ Thirty named techniques from domestic-abuse and social-psychology research, appl
 ::: stage
 **You arrive with a need and are met with more warmth than you have had in years.**
 
-Langar, kirtan, seva, immediate dignity, and belonging to a tradition of protectors. It is one of the genuinely warmest welcomes in this codex and it asks very little at first.
+Langar, kirtan (hymn singing) and seva (voluntary service) give immediate dignity and belonging to a tradition of protectors. It is one of the genuinely warmest welcomes in this codex and it asks very little at first.
 
 *What it asks of you:* The meal really is free. Be honest with yourself about what came after it.
 :::
@@ -379,7 +385,7 @@ Langar, kirtan, seva, immediate dignity, and belonging to a tradition of protect
 
 **The counter.** They can be selfless at the individual level and still function institutionally as attachment. The meal is free. The belonging may not be. If acceptance narrows as soon as someone questions authority, cuts hair, marries outside, or stops attending, then generosity was the door, not the destination.
 
-**Evidence grade.** [[Cultural]] Langar and gurdwara welcome are radically open by design — among the least conditional in the codex.
+**Evidence grade.** [[Cultural]] The welcome at langar is open by design; any condition that later attaches to it comes from family and community expectation, not from a written rule.
 :::
 
 ::: tactic n=2
@@ -398,7 +404,7 @@ Langar, kirtan, seva, immediate dignity, and belonging to a tradition of protect
 
 **The counter.** Langar itself can be beautiful and still exist inside communities that apply pressure elsewhere. The meal may be free. The belonging may not be. If generosity opens the door but conformity keeps you in the room, the institution has separated the food from the freedom.
 
-**Evidence grade.** [[Cultural]] Langar and gurdwara welcome are radically open by design — among the least conditional in the codex.
+**Evidence grade.** [[Cultural]] The hospitality is real and given through the gurdwara; the obligation that can follow is applied by family and community expectation, which no rule sets.
 :::
 
 ### Stage 2 · Hook {#stage-2}
@@ -406,7 +412,7 @@ Langar, kirtan, seva, immediate dignity, and belonging to a tradition of protect
 ::: stage
 **You are given a future that cannot be verified, and a rope for whenever you drift toward the door.**
 
-Union with the divine, the Guru's grace, the honor of the panth — and a promise your tradition deliberately did not put behind a middleman. Retrieval, when it comes, is familial rather than institutional: a wedding, a death, a mother asking you to wear the turban again.
+The offer is union with the divine, the Guru's grace and the honor of the panth, and your tradition deliberately did not put that promise behind a middleman. Retrieval, when it comes, is familial rather than institutional: a wedding, a death, a mother asking you to wear the turban again.
 
 *What it asks of you:* Your tradition removed the human gatekeeper on purpose. Anyone now standing in the gap put themselves there.
 :::
@@ -418,8 +424,8 @@ Union with the divine, the Guru's grace, the honor of the panth — and a promis
 
 **How it shows here**
 
-- Sikhism offers union with God, liberation from ego, escape from haumai, divine remembrance, dignity through seva, and belonging to the Guru’s path.
-- The future promise is both spiritual and communal: live as the Guru taught, serve, remember Naam, uphold justice, and your life becomes meaningful within a holy lineage.
+- Sikhism offers union with God, liberation from ego, escape from haumai (ego), divine remembrance, dignity through seva, and belonging to the Guru’s path.
+- The future promise is both spiritual and communal: live as the Guru taught, serve, remember Naam (the divine Name), uphold justice, and your life becomes meaningful within a holy lineage.
 - Institutional pressure can attach salvation and honor to visible conformity: keeping hair, wearing the articles of faith, marrying appropriately, raising Sikh children, serving the gurdwara, and protecting communal reputation.
 - The believer may be told that present sacrifice preserves future dignity: endure discrimination, family pressure, discipline, and identity burden because the Guru’s way is eternal.
 - Community future-faking appears when children become the proof of faithfulness: your job is to keep the tradition alive through them.
@@ -428,7 +434,7 @@ Union with the divine, the Guru's grace, the honor of the panth — and a promis
 
 **The counter.** Discipline becomes future faking when communal honor replaces personal conscience. If future liberation, family pride, and tradition survival are used to make a person afraid to cut hair, marry freely, question leaders, or leave, then the future being protected is not the soul’s freedom. It is the institution’s continuity.
 
-**Evidence grade.** [[Cultural]] Retrieval is familial: weddings, funerals, and a mother's request. No clergy exists to perform it.
+**Evidence grade.** [[Cultural]] The promise of union with God is the tradition's own teaching; the pressure that ties it to visible conformity is applied by families and community, and no clergy administers it.
 :::
 
 ::: tactic n=4
@@ -448,7 +454,7 @@ Union with the divine, the Guru's grace, the honor of the panth — and a promis
 
 **The counter.** Identity is meaningful only if it is freely held. If history and sacrifice are used to make someone afraid to change, question, marry freely, or leave, then memory is no longer inspiration. It is pressure.
 
-**Evidence grade.** [[Cultural]] Retrieval is familial: weddings, funerals, and a mother's request. No clergy exists to perform it.
+**Evidence grade.** [[Cultural]] The pull back is applied by families and the congregation through weddings, funerals and a mother's request; no clergy performs it.
 :::
 
 ### Stage 3 · Devalue {#stage-3}
@@ -456,9 +462,9 @@ Union with the divine, the Guru's grace, the honor of the panth — and a promis
 ::: stage
 **You are taught that you are broken, that your perception is unreliable, and that both exits from the trap lead back inside.**
 
-Not amritdhari enough, not visibly Sikh enough, not serving enough, marrying wrong. Family honor is the metric more often than doctrine.
+You are told you are not amritdhari enough, not visibly Sikh enough, not serving enough, or marrying wrong. Family honor is the metric more often than doctrine.
 
-*What it asks of you:* Check whether the standard you are failing is in the Granth or in your uncle's opinion.
+*What it asks of you:* Check whether the standard you are failing is in the Granth (the Guru Granth Sahib) or in your uncle's opinion.
 :::
 
 ::: tactic n=5
@@ -478,7 +484,7 @@ Not amritdhari enough, not visibly Sikh enough, not serving enough, marrying wro
 
 **The counter.** Identity becomes devaluation when the person is only praised while carrying it correctly. If love narrows when someone changes appearance, questions authority, or chooses differently, then the identity is not merely sacred. It is conditional worth.
 
-**Evidence grade.** [[Cultural]] Insufficiency is measured against family honor rather than doctrine; the scripture cuts the other way.
+**Evidence grade.** [[Cultural]] The standard a person is judged against is family honor and community expectation, not doctrine, and no institution sets it.
 :::
 
 ::: tactic n=6
@@ -497,7 +503,7 @@ Not amritdhari enough, not visibly Sikh enough, not serving enough, marrying wro
 
 **The counter.** Sacrifice should inspire courage, not silence. If history is used to make people distrust their own need for freedom, then remembrance has become pressure disguised as pride.
 
-**Evidence grade.** [[Cultural]] Insufficiency is measured against family honor rather than doctrine; the scripture cuts the other way.
+**Evidence grade.** [[Cultural]] The doubt is induced in conversation by relatives and community members, and no institutional procedure directs it.
 :::
 
 ::: tactic n=7
@@ -515,7 +521,7 @@ Not amritdhari enough, not visibly Sikh enough, not serving enough, marrying wro
 
 **The counter.** Self-governance without accountability simply relocates the bind from clergy to committee. The absence of priests is not the absence of power — it is power without robes.
 
-**Evidence grade.** [[Cultural]] Insufficiency is measured against family honor rather than doctrine; the scripture cuts the other way.
+**Evidence grade.** [[Cultural]] The bind arises between the tradition's teaching of sovereign conscience and the framing by committees and families that questioning them attacks the Panth; it operates socially, and nothing written requires it.
 :::
 
 ### Stage 4 · Confuse {#stage-4}
@@ -536,14 +542,14 @@ Raise caste and you are importing Western identity politics. Raise a dera abuse 
 **How it shows here**
 
 - Sewa (service) in the gurdwara is its own reward — usually invisible, occasionally spotlit by committee honor or community praise, and the unpredictability of recognition quietly converts devotion into competition.
-- Families feel the sangat's warmth vary with visible conformity — turban, uncut hair, attendance — on an unposted scale enforced by temperature rather than text.
+- Families feel the sangat's (the congregation's) warmth vary with visible conformity — turban, uncut hair, attendance — on an unposted scale enforced by temperature rather than text.
 - Ardas (petition) answered is Guru's grace; unanswered is Guru's will (bhana) to be accepted — a frame where the tradition's genuine wisdom about acceptance also guarantees the practice never registers a loss.
 
 **The strongest defense.** Sikh teaching explicitly condemns ritualism and status-seeking; sewa is meant to be anonymous.
 
 **The counter.** Meant to be — and the ideal is the alibi. Where committees in practice spotlight some sewa and shadow other, the anonymity teaching functions as deniability for a working honor economy.
 
-**Evidence grade.** [[Cultural]] Deflecting caste and dera criticism as Western politics or an attack on a saint is social, and contradicted by the tradition's own texts.
+**Evidence grade.** [[Cultural]] The recognition a person receives varies with how committees and the congregation spotlight some service and not other service; there is no written scale, and the teaching is that service should be anonymous.
 :::
 
 ::: tactic n=9
@@ -553,7 +559,7 @@ Raise caste and you are importing Western identity politics. Raise a dera abuse 
 
 **How it shows here**
 
-- A Sikh participates in gurdwara life. Then expectations expand: keep hair, wear visible identity markers, marry appropriately, raise Sikh children, do seva, preserve Punjabi or panthic identity.
+- A Sikh participates in gurdwara life. Then expectations expand: keep hair, wear visible identity markers, marry appropriately, raise Sikh children, do seva, preserve Punjabi or panthic (of the Sikh community) identity.
 - A person keeps identity markers but questions leadership. The goalpost moves: visible practice is not enough; they must also show loyalty and avoid dishonoring the panth.
 - Someone serves in the community but is still judged for marriage choice, appearance, language, caste-like expectations, or family reputation.
 
@@ -561,7 +567,7 @@ Raise caste and you are importing Western identity politics. Raise a dera abuse 
 
 **The counter.** Commitment becomes moving the goalposts when identity is never accepted as freely lived but constantly audited by family and community. Courage cannot require permanent external approval.
 
-**Evidence grade.** [[Cultural]] Deflecting caste and dera criticism as Western politics or an attack on a saint is social, and contradicted by the tradition's own texts.
+**Evidence grade.** [[Cultural]] The expectations expand through family and community scrutiny of marriage, appearance and loyalty, and no written rule sets them.
 :::
 
 ::: tactic n=10
@@ -579,7 +585,7 @@ Raise caste and you are importing Western identity politics. Raise a dera abuse 
 
 **The counter.** Collective identity becomes strategic ambiguity when the individual is free in theory but punished in practice. If appearance, marriage, and dissent are optional only until someone opts out, the ambiguity is enforcement camouflage.
 
-**Evidence grade.** [[Cultural]] Deflecting caste and dera criticism as Western politics or an attack on a saint is social, and contradicted by the tradition's own texts.
+**Evidence grade.** [[Cultural]] The ambiguity lies in how families and communities describe visible identity as devotion, duty, memory or requirement as the pressure changes, and no authority fixes which it is.
 :::
 
 ::: tactic n=11
@@ -598,7 +604,7 @@ Raise caste and you are importing Western identity politics. Raise a dera abuse 
 
 **The counter.** Courage cannot be preserved by punishing honest dissent. If communal fear is projected onto the person who changes, questions, or leaves, identity has become a container for anxiety rather than freedom.
 
-**Evidence grade.** [[Cultural]] Deflecting caste and dera criticism as Western politics or an attack on a saint is social, and contradicted by the tradition's own texts.
+**Evidence grade.** [[Cultural]] The accusations come from family members and community figures in conversation, and no institution directs them.
 :::
 
 ::: tactic n=12
@@ -618,7 +624,7 @@ Raise caste and you are importing Western identity politics. Raise a dera abuse 
 
 **The counter.** Calling abuse “not real Sikhism” may be theologically convenient, but it does not help the person harmed inside Sikh spaces. If the community uses ideal teachings to deny real patterns, then doctrine is being used as reputation management.
 
-**Evidence grade.** [[Cultural]] Deflecting caste and dera criticism as Western politics or an attack on a saint is social, and contradicted by the tradition's own texts.
+**Evidence grade.** [[Cultural]] The denial and reversal are given by community members in conversation ("That is not Sikhism"), and the tradition's own teaching on equality and justice contradicts the abuses being denied.
 :::
 
 ::: tactic n=13
@@ -637,7 +643,7 @@ Raise caste and you are importing Western identity politics. Raise a dera abuse 
 
 **The counter.** Service and identity become desensitization when refusal costs belonging. If people stop noticing that personal choices are being audited by family and community, pride has become pressure.
 
-**Evidence grade.** [[Cultural]] Deflecting caste and dera criticism as Western politics or an attack on a saint is social, and contradicted by the tradition's own texts.
+**Evidence grade.** [[Cultural]] The normalization happens inside families and congregations through everyday expectation, and no institution mandates it.
 :::
 
 ### Stage 5 · Isolate {#stage-5}
@@ -645,7 +651,7 @@ Raise caste and you are importing Western identity politics. Raise a dera abuse 
 ::: stage
 **Your world narrows until every voice you hear is inside the system, and everything you came for now runs through a middleman.**
 
-For most Sikhs, low — there is no clergy to bind you. In deras, total: housing, employment, and community all internal. In diaspora, gurdwara networks carry marriage and business trust.
+For most Sikhs the isolation is low, because there is no clergy to bind you. In deras it is total, with housing, employment and community all internal. In the diaspora, gurdwara networks carry marriage and business trust.
 
 *What it asks of you:* Ask whether your dependency is on the Guru or on a committee.
 :::
@@ -688,7 +694,7 @@ For most Sikhs, low — there is no clergy to bind you. In deras, total: housing
 
 **The counter.** Collective memory becomes triangulation when it makes personal autonomy feel like betrayal. If the martyrs, parents, children, community, and Gurus are all invoked to control one person’s hair, marriage, or belief, then remembrance has become surveillance.
 
-**Evidence grade.** [[Cultural]] Marriage endogamy and appearance expectations are family-enforced against explicit scriptural equality.
+**Evidence grade.** [[Cultural]] The intermediaries are parents, the congregation, martyr memory and family honor, invoked in conversation, and no institution places them there.
 :::
 
 ### Stage 6 · Extract {#stage-6}
@@ -696,7 +702,7 @@ For most Sikhs, low — there is no clergy to bind you. In deras, total: housing
 ::: stage
 **Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
 
-Golak cash flows at historic gurdwaras fought over in committee elections. Dera economies with total internal authority. Family honor extracting compliance on hair, marriage, and appearance. Raise caste and be told you are importing Western politics; raise dera abuse and be told you are attacking a saint.
+Golak cash flows at historic gurdwaras are fought over in committee elections. Dera economies have total internal authority. Family honor extracts compliance on hair, marriage and appearance. Raise caste and be told you are importing Western politics; raise dera abuse and be told you are attacking a saint.
 
 *What it asks of you:* Your scripture forbids nearly everything extracted from you in its name. Ask the person extracting it to cite a line.
 :::
@@ -736,7 +742,7 @@ Golak cash flows at historic gurdwaras fought over in committee elections. Dera 
 
 **The counter.** Identity becomes smear when anyone who changes or questions is portrayed as weak. If courage is real, the community should be able to face internal criticism without destroying the critic.
 
-**Evidence grade.** [[Cultural]] Honor extraction and dera economies are communal; historic gurdwara finances are statutory and separately sourced.
+**Evidence grade.** [[Cultural]] The smearing is done by family gossip and community opinion, and the institution neither directs nor prevents it.
 :::
 
 ::: tactic n=18
@@ -755,7 +761,7 @@ Golak cash flows at historic gurdwaras fought over in committee elections. Dera 
 
 **The counter.** Unity becomes stonewalling when it requires silence about injustice. If a community founded on dignity cannot answer the people it shames, then reverence has become evasion.
 
-**Evidence grade.** [[Cultural]] Honor extraction and dera economies are communal; historic gurdwara finances are statutory and separately sourced.
+**Evidence grade.** [[Cultural]] The refusal to answer is given by family members and community leaders who tell the questioner to keep the peace, and no written rule requires it.
 :::
 
 ::: tactic n=19
@@ -793,7 +799,7 @@ Golak cash flows at historic gurdwaras fought over in committee elections. Dera 
 
 **The counter.** Dignity becomes TRAUMA BONDING when shame is used to make people return for approval. If love withdraws when identity is lived differently and returns when conformity resumes, the bond is conditional.
 
-**Evidence grade.** [[Cultural]] Honor extraction and dera economies are communal; historic gurdwara finances are statutory and separately sourced.
+**Evidence grade.** [[Cultural]] The shame and the welcome back both come from family and congregation, and no institution designs the cycle.
 :::
 
 ::: tactic n=21
@@ -812,7 +818,7 @@ Golak cash flows at historic gurdwaras fought over in committee elections. Dera 
 
 **The counter.** Dignity becomes LEARNED HELPLESSNESS when personal choice is treated as communal injury. If the only way to be honorable is to disappear into expectation, courage has been inverted.
 
-**Evidence grade.** [[Cultural]] Honor extraction and dera economies are communal; historic gurdwara finances are statutory and separately sourced.
+**Evidence grade.** [[Cultural]] The helplessness is learned through family shame and community gossip, and no rule or office imposes it.
 :::
 
 ::: tactic n=22
@@ -850,7 +856,7 @@ Golak cash flows at historic gurdwaras fought over in committee elections. Dera 
 
 **The counter.** Responsibility becomes INFANTILIZATION when adults are not trusted to carry identity differently. If changing appearance or marrying freely makes the community treat someone like a wayward child, pride has become paternalism.
 
-**Evidence grade.** [[Cultural]] Honor extraction and dera economies are communal; historic gurdwara finances are statutory and separately sourced.
+**Evidence grade.** [[Cultural]] Elders treat adults as immature through family and community custom, and no institution assigns them that role.
 :::
 
 ::: tactic n=24
@@ -870,7 +876,7 @@ Golak cash flows at historic gurdwaras fought over in committee elections. Dera 
 
 **The counter.** Identity becomes IDENTITY EROSION when the person exists mainly as a representative of the group. If your hair, marriage, body, and children are symbols before they are yours, dignity has become collective ownership.
 
-**Evidence grade.** [[Cultural]] Honor extraction and dera economies are communal; historic gurdwara finances are statutory and separately sourced.
+**Evidence grade.** [[Cultural]] The identity role is shaped by family and communal expectation around hair, marriage and service, not by an institutional requirement.
 :::
 
 ::: tactic n=25
@@ -890,7 +896,7 @@ Golak cash flows at historic gurdwaras fought over in committee elections. Dera 
 
 **The counter.** Ideals become SPIRITUAL BYPASSING when they are used to deny practice. If equality is quoted to avoid confronting inequality, the teaching is being used as cover.
 
-**Evidence grade.** [[Cultural]] Honor extraction and dera economies are communal; historic gurdwara finances are statutory and separately sourced.
+**Evidence grade.** [[Cultural]] The spiritual language is used by relatives, committees and leaders who point to Sikh ideals of equality; the ideals are real, and using them as cover is a community practice, not a policy.
 :::
 
 ::: tactic n=26
@@ -917,7 +923,7 @@ Golak cash flows at historic gurdwaras fought over in committee elections. Dera 
 ::: stage
 **You become expensive — too many questions, too much independence — and the urgency ramps up until you are removed.**
 
-Institutionally, little — no clergy can excommunicate you. Familially, severe: cutting hair, marrying out, or leaving a dera can cost you everyone.
+Institutionally the cost is little, because no clergy can excommunicate you. Familially it is severe: cutting hair, marrying out, or leaving a dera can cost you everyone.
 
 *What it asks of you:* Your religion is not punishing you. People are, in its name, and they are counting on you not knowing the difference.
 :::
@@ -938,7 +944,7 @@ Institutionally, little — no clergy can excommunicate you. Familially, severe:
 
 **The counter.** Preservation becomes MANUFACTURED CRISIS when personal change is treated as communal collapse. If one person’s hair, marriage, or dissent is made to carry the weight of the panth, fear has replaced dignity.
 
-**Evidence grade.** [[Contested]] No clergy can excommunicate an ordinary member; chhaikka has been used against public figures, and family rupture does the rest.
+**Evidence grade.** [[Contested]] The urgency is raised by families and community figures around hair, marriage and dissent, and no institution mandates it.
 :::
 
 ::: tactic n=28
@@ -986,7 +992,7 @@ No one can strike you from a roll, so the gurdwara continues and your family qui
 
 **The counter.** Honor becomes REPLACEMENT when it teaches people they are loved for representing the group. If the community can swap one body for another under the turban, the person has been reduced to symbol.
 
-**Evidence grade.** [[Cultural]] Authority is most often attributed to culture and reputation rather than to the Guru — which is the finding.
+**Evidence grade.** [[Cultural]] Families shift pride toward the compliant child and community roles go to those who do not question, and no institution assigns either.
 :::
 
 ::: tactic n=30
@@ -1011,46 +1017,162 @@ No one can strike you from a roll, so the gurdwara continues and your family qui
 
 ## 13. The loops {#loops}
 
+::: lede
+The seven loops below show how the practices connect, so that each step makes the next one easier and the last step feeds the first. The loops are analysis built from findings recorded elsewhere on this page [PATTERN OBSERVED]; each step names the section or technique where its fact is recorded.
+:::
+
 ::: card
 #### 1 · Money to Doctrine to Money
 
 Golak revenue funds committees whose control is a statutory electoral prize, and the elections are fought over the revenue.
+
+**How it runs.**
+
+1. Golak offerings flow into the historic gurdwaras as very large cash flows with contested oversight (section 9).
+2. The 1925 Gurdwara Act made control of those gurdwaras a statutory, electable prize, held through the SGPC (sections 5 and 7).
+3. Committee factions and parties fight SGPC and committee elections for that control, and the SGPC presidency controls the golak revenues (sections 7 and 9).
+4. Committee control decides who is allowed to preach and who is given a platform (sections 10 and 11).
+5. The giving continues, and the next election is fought over the same revenue (section 9).
+
+**Techniques that feed it.** [26 · Financial Control](#t-26), [25 · Spiritual Bypassing](#t-25), [18 · Silent Treatment / Stonewalling](#t-18).
+
+**Why it closes.** The committees that receive the golak also decide who preaches (section 10), and they hold office through elections fought over that revenue (sections 7 and 9). Oversight of those cash flows is contested (section 9).
+
+**Where it could be broken, and by whom.** It weakens wherever the money becomes visible. The general house that passes the SGPC budget has not been elected since 2011 (section 9), and a general election held on schedule would revise the political-capture finding (section 20). A giver can ask the committee for the golak accounts (section 23), and diaspora gurdwaras that have adopted elected boards and published accounts show that it can be done (section 20). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** The SGPC passed a budget of ₹1,386.47 crore for 2025–26, and the general house that passed it was last elected in 2011 (section 9).
 :::
 
 ::: card
 #### 2 · Fear to Dependence to Fear
 
-Family honor rather than doctrine supplies the fear; the community supplies the relief; nobody had to be instructed.
+Family honor rather than doctrine supplies the fear, the community supplies the relief, and nobody had to be instructed.
+
+**How it runs.**
+
+1. Family honor, not doctrine, sets the standard a person is measured against (section 12, stage 3).
+2. A person who cuts hair, removes a turban or marries outside caste or faith meets family rupture (section 15).
+3. Relatives and community members enforce the norms without being asked (section 15, volunteer enforcement; technique 16).
+4. Service, kirtan and langar restore belonging after the guilt, so the same community that caused the distress supplies the relief (technique 20).
+5. The person learns that autonomy causes pain and ends by asking only what will avoid dishonor, which keeps the fear in place (technique 21).
+
+**Techniques that feed it.** [16 · Flying Monkeys](#t-16), [20 · Trauma Bonding](#t-20), [21 · Learned Helplessness](#t-21), [8 · Intermittent Reinforcement](#t-8).
+
+**Why it closes.** The fear and the relief come from the same people. The institution disclaims family and cultural conduct, and there is no clergy to hold responsible (section 15), so no office exists to which a person can appeal.
+
+**Where it could be broken, and by whom.** It weakens where a person tests the standard against the text. Section 12 (stage 3) asks whether the standard is in the Granth or in an uncle's opinion, and section 23 asks the family to cite a line. The relatives who enforce the standard are the people who can stop enforcing it. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** A person who cuts her hair or marries outside expectation may be shamed and then warmly accepted again when she returns, and service restores belonging after guilt (technique 20).
 :::
 
 ::: card
 #### 3 · Children to Members to Children
 
-Appearance markers assigned in infancy, and marriage networks that price a whole family's conformity.
+Appearance markers are assigned in infancy, and marriage networks price a whole family's conformity.
+
+**How it runs.**
+
+1. Uncut hair and a turban for boys begin in early childhood, so visible identity is assigned before consent (section 11).
+2. Punjabi schools and camps build identity, and family honor expectations around marriage and appearance begin young, particularly for girls (section 11).
+3. An adult who cuts hair or marries outside caste or faith meets family rupture (section 15).
+4. Matchmakers and community brokers connect marriage to school admission and business trust, so one person's choice carries the whole family's standing (section 9).
+5. The conforming adult raises the next child inside the same expectations, and the loop repeats.
+
+**Techniques that feed it.** [13 · Normalization / Desensitization](#t-13), [19 · Manufactured Consent](#t-19), [24 · Identity Erosion](#t-24), [23 · Infantilization](#t-23).
+
+**Why it closes.** The marker is assigned before the person can consent, and refusing it later costs family standing and marriage prospects (sections 9 and 15).
+
+**Where it could be broken, and by whom.** It weakens where identity is chosen rather than assigned. Amrit initiation is voluntary and typically adolescent or adult, a safeguard the tradition built deliberately (section 11). Teachers and camp leaders could refuse to teach the honor norms the Gurus condemned (section 18). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Youth who cut their hair bear family rupture over a visible marker assigned in infancy, and boys who were bullied for it are then punished for stopping (sections 16 and 17).
 :::
 
 ::: card
 #### 4 · Aid to Legitimacy to Leverage to Aid
 
 Dera bloc votes buy political protection, and protection sustains the organizations.
+
+**How it runs.**
+
+1. Deras draw devotee giving and unpaid service to a living guru's organization (section 9).
+2. Their followers vote in blocs, which gives the dera leader value to politicians (section 10).
+3. Politicians court the deras and give them political protection (sections 14 and 16).
+4. Protected, a dera runs a corporate-scale operation with total internal authority over housing, employment and community (sections 7, 9 and 12).
+5. Followers who depend on the dera for work and welcome keep voting in blocs, and the exchange repeats.
+
+**Techniques that feed it.** [14 · Isolation](#t-14), [22 · Benevolent Control](#t-22), [26 · Financial Control](#t-26).
+
+**Why it closes.** The dera supplies the votes and the politicians supply the protection, and each side's advantage depends on the other's (section 16). Nothing stands above a dera's throne (section 7).
+
+**Where it could be broken, and by whom.** It weakens where a court acts, as when a criminal court, not the panth, stopped the head of Dera Sacha Sauda (section 7), and where a politician returns a dera's support and says why, which section 23 asks any Sikh political figure to do. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** The head of Dera Sacha Sauda was convicted of rape in 2017, and the organization had operated at corporate scale with political protection and bloc-vote influence (section 19).
 :::
 
 ::: card
 #### 5 · Unpaid Labor to Assets to Power to More Labor
 
-Sangat labor builds and maintains; committees and deras hold.
+The sangat's labor builds and maintains the institutions, and committees and deras hold them.
+
+**How it runs.**
+
+1. Seva is sacred service, so unpaid labor and constant availability are difficult to refuse (technique 13).
+2. The sangat's labor builds and maintains the gurdwaras and runs the langar (sections 9 and 18).
+3. Remittance-funded property and building funds are held by committee factions, and a dera's assets are held in family entities (sections 7 and 9).
+4. Holding the assets gives committees and deras the standing to call for more service: "The sangat needs you" (technique 15).
+5. Refusing service can mark a person as selfish, so the labor continues (technique 19).
+
+**Techniques that feed it.** [13 · Normalization / Desensitization](#t-13), [15 · Triangulation](#t-15), [19 · Manufactured Consent](#t-19), [25 · Spiritual Bypassing](#t-25).
+
+**Why it closes.** The labor is unpaid and sacred, while ownership sits with the committees and dera families who hold the assets (section 9). The people who give the labor have no seat in deciding what is done with what it builds.
+
+**Where it could be broken, and by whom.** It weakens where those who hold the assets publish accounts. Section 18 lists what a committee member could do, to stand on a platform of published accounts, and what a sevadar could do, to refuse to let caste seating reappear near the hall. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 14 says to watch for sewa when it is invoked to obtain unpaid labour for institutions with substantial revenue.
 :::
 
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
 A dera leader is convicted and his organization continues, with no party returning his support.
+
+**How it runs.**
+
+1. A scandal reaches a court, as when the head of Dera Sacha Sauda was convicted of rape in 2017 (section 19).
+2. The removal comes from a criminal court and not from the panth (section 7).
+3. The organization continues operating, and its political patrons are unrepentant (section 14).
+4. Section 14 predicts that the next scandal will be answered with an edict against the person who raised it, and that the golak accounts will still not be published.
+5. No structure changes: the Jathedar cannot be petitioned, and nothing stands above a dera's throne (sections 7 and 8).
+
+**Techniques that feed it.** [12 · DARVO](#t-12), [30 · Plausible Deniability](#t-30), [18 · Silent Treatment / Stonewalling](#t-18), [25 · Spiritual Bypassing](#t-25).
+
+**Why it closes.** The removal of one person answers the scandal without touching the structure that produced it. The dera continues, the patrons stay, and no written procedure forces a change (sections 7 and 14).
+
+**Where it could be broken, and by whom.** It weakens where a politician returns the support and says why (section 23) and where a committee publishes its accounts (sections 18 and 20). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** The head of Dera Sacha Sauda was convicted of rape in 2017. His 2019 conviction for conspiring to murder a journalist was overturned on appeal in 2026 and is now before the Supreme Court, and the organization continued at corporate scale (section 19).
 :::
 
 ::: card
 #### 7 · Persecution to Solidarity to Insulation to Unaccountability
 
-1984 and its unresolved justice are real, and are invoked to make internal criticism look like piling on.
+1984 and its unresolved justice are real, and they are invoked to make internal criticism look like piling on.
+
+**How it runs.**
+
+1. Persecution is documented: the martyrdoms under Mughal rule, and in 1984 Operation Blue Star, the assassination of Indira Gandhi and the anti-Sikh massacres (section 5).
+2. The memory binds the community, and unresolved justice shapes politics to this day (section 5).
+3. An internal critic is told that he is forgetting the sacrifices made for him and dishonoring the panth (techniques 6 and 11).
+4. Criticism of caste, dera abuse or committee finances is turned into division or disloyalty (section 12, stage 4; technique 17).
+5. The committees and deras go unexamined, the grievance stays open, and solidarity is called on again.
+
+**Techniques that feed it.** [6 · Gaslighting](#t-6), [11 · Projection](#t-11), [17 · Smear Campaign](#t-17), [18 · Silent Treatment / Stonewalling](#t-18).
+
+**Why it closes.** The grievance is real and was not caused by the institution, which makes it hard to argue with. Once criticism is framed as disloyalty to the panth, the people best placed to raise an internal problem are the ones discouraged from doing so (techniques 7 and 11).
+
+**Where it could be broken, and by whom.** It weakens where the memory and the institution are kept apart, so that criticism of a committee is not treated as criticism of the panth. Technique 7 names that framing. Those who apply it are family members, elders and committee loyalists (technique 16). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** A person says community honor feels controlling, and the answer becomes, "You are forgetting the sacrifices made for you" (technique 6).
 :::
 
 ## 14. Say versus do {#say-do}
@@ -1066,9 +1188,9 @@ A dera leader is convicted and his organization continues, with no party returni
 
 ### Accountability or theatre?
 
-**Last time the chair ran.** A convicted dera chief's organization continued operating with political patrons unrepentant.
+**Last time the chair ran.** A convicted dera chief's organization continued operating, and its political patrons were unrepentant.
 
-**Who holds the chair now.** Gurdwara committees, jathedars, and dera families.
+**Who holds the chair now.** Gurdwara committees, jathedars and dera families hold it.
 
 **Prediction.** The next scandal will be answered with an edict against the person who raised it, and the golak accounts will still not be published.
 
@@ -1076,35 +1198,35 @@ A dera leader is convicted and his organization continues, with no party returni
 
 | Term | What it means inside | What it does | Said plainly |
 |---|---|---|---|
-| Panthic unity | The solidarity of the community. | A real and hard-won value, invoked to close discussion of the political capture of the panth's own institutions. | 'Not in front of outsiders.' |
-| Sewa | Selfless service. | One of the most genuinely admirable concepts in this codex. Watch only for the case where it is invoked to obtain unpaid labour for institutions with substantial revenue. | 'Work for free for something that is not poor.' |
+| Panthic unity | It means the solidarity of the community. | It is a real and hard-won value, invoked to close discussion of the political capture of the panth's own institutions. | 'Not in front of outsiders.' |
+| Sewa | It means selfless service. | It is one of the most genuinely admirable concepts in this codex. Watch only for the case where it is invoked to obtain unpaid labour for institutions with substantial revenue. | 'Work for free for something that is not poor.' |
 
 ## 15. Cost & cover {#cost}
 
 ### What leaving costs
 
-- Amritdhari lapse carries community standing costs; family honor economies police marriage and appearance; leaving a dera can mean losing an entire service-and-employment ecosystem.
+- An Amritdhari who lapses faces community standing costs; family honor economies police marriage and appearance; and leaving a dera can mean losing an entire service-and-employment ecosystem.
 
 ### The ledger of exit
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Formal religious penalty | Rare | No clergy can excommunicate an ordinary member; chhaikka is used mainly against public figures | Accurately: there is little formal exit penalty. |
-| Family and honor | Yes | Cutting hair, removing turban, marrying outside caste or faith triggers family rupture | “That's Punjabi culture, not Sikhi.” |
-| Community standing | Moderate | Gurdwara social networks, marriage prospects, and business trust in tight diaspora communities | “Everyone is welcome in a gurdwara.” |
-| Dera exit | Yes | Loss of an entire service, housing, and employment ecosystem; labeled traitor to the guru | “Following a saint is voluntary.” |
+| Formal religious penalty | Rare | No clergy can excommunicate an ordinary member; chhaikka is used mainly against public figures. | The official position is that there is little formal exit penalty, and that is accurate. |
+| Family and honor | Yes | Cutting hair, removing a turban, or marrying outside caste or faith triggers family rupture. | “That's Punjabi culture, not Sikhi.” |
+| Community standing | Moderate | Leaving affects gurdwara social networks, marriage prospects and business trust in tight diaspora communities. | “Everyone is welcome in a gurdwara.” |
+| Dera exit | Yes | A person who leaves loses an entire service, housing and employment ecosystem and is labeled a traitor to the guru. | “Following a saint is voluntary.” |
 
 ### How the cost is denied
 
 | Channel | Level | Note |
 |---|---|---|
-| Explicit policy | Medium | Scripture and the Rehat Maryada are published, and they mostly forbid the coercion that occurs. |
+| Explicit policy | Medium | Scripture and the Rehat Maryada (the Sikh code of conduct) are published, and they mostly forbid the coercion that occurs. |
 | Informal enforcement | High | Honor, marriage networks, and community reputation carry nearly everything. |
-| Leadership distance | High | No clergy to hold responsible; committees disclaim family and cultural conduct. |
-| Doctrinal ambiguity | Low | Unusually clear doctrine — which makes the practice gap harder to defend, not easier. |
+| Leadership distance | High | There is no clergy to hold responsible, and committees disclaim family and cultural conduct. |
+| Doctrinal ambiguity | Low | The doctrine is unusually clear, which makes the practice gap harder to defend, not easier. |
 | Cultural outsourcing | Very high | Caste, dowry, and sex selection are all attributed to Punjabi culture rather than Sikhism — a defense that is partly true and wholly convenient. |
 | Volunteer enforcement | High | Relatives and community members enforce appearance and marriage norms. |
-| Sacred secrecy | Low | Congregational openness and public scripture reading limit secrecy — a genuine structural strength. |
+| Sacred secrecy | Low | Congregational openness and public scripture reading limit secrecy, which is a genuine structural strength. |
 | Exit cost denial | Medium | 'No one is forced' is largely true institutionally and much less true within families. |
 
 ::: cites
@@ -1115,42 +1237,46 @@ Sources for this section: [9]
 
 ### Who benefits
 
-- Gurdwara committee power-holders and the parties that capture them; dera chiefs converting devotion into vote banks courted by politicians; family patriarchy borrowing religious sanction. [INVESTIGATIVE REPORT]
+- Those who benefit are gurdwara committee power-holders and the parties that capture them; dera chiefs converting devotion into vote banks courted by politicians; and family patriarchy borrowing religious sanction. [INVESTIGATIVE REPORT]
 
 ### Money out, leverage back
 
-- Dera leaders deliver bloc votes and receive political protection in exchange; convictions arrived only after evidence became unbearable. Devotion converted into electoral currency. [COURT RECORD / INVESTIGATIVE REPORT]
+- Dera leaders deliver bloc votes and receive political protection in exchange; convictions arrived only after evidence became unbearable. Devotion is converted into electoral currency. [COURT RECORD / INVESTIGATIVE REPORT]
 - Control of historic gurdwaras means control of very large donation flows, making religious office a party-political prize with real money attached. [INVESTIGATIVE REPORT]
 - Diaspora gurdwara factions have litigated and occasionally fought over committee control — remittances from abroad are the asset being contested. [COURT RECORD]
 
 ### Who pays
 
-- Girls and women, through dowry, sex-selective abortion, and honor pressure that doctrine explicitly forbids.
-- Dalit Sikhs, facing caste exclusion including separate gurdwaras.
-- Dera followers subjected to documented abuse.
-- Youth who cut their hair, bearing family rupture over a visible marker assigned in infancy.
-- Scholars excommunicated for historical research. [INVESTIGATIVE REPORT]
+- Girls and women pay, through dowry, sex-selective abortion, and honor pressure that doctrine explicitly forbids.
+- Dalit Sikhs (Sikhs from castes formerly treated as untouchable) pay, facing caste exclusion including separate gurdwaras.
+- Dera followers pay, subjected to documented abuse.
+- Youth who cut their hair pay, bearing family rupture over a visible marker assigned in infancy.
+- Scholars pay, excommunicated for historical research. [INVESTIGATIVE REPORT]
 
 ## 17. Who gets hurt most {#who-gets-hurt}
 
 ### Where the weight lands
 
+The costs in section 15 do not fall evenly. Section 16 names the groups that pay, and the table below sets out how the cost reaches each of them and what makes it worse.
+
 | Who | How | What it compounds with |
 |---|---|---|
-| Girls and women | Dowry, sex-selective abortion, and honor pressure — every one of them doctrinally forbidden | Where family standing is the family's only asset |
-| Dalit Sikhs | Caste exclusion including separate gurdwaras, against explicit scripture | With landlessness in rural Punjab |
-| Dera followers | Documented abuse inside total organizations | For marginalized-caste members whose only welcome was the dera |
-| Young people who cut their hair | Family rupture over a marker assigned in infancy | For boys who were bullied for it and then punished for stopping |
-| Scholars | Excommunicated for historical research | With loss of every institutional position |
+| Girls and women | They carry dowry, sex-selective abortion and honor pressure, every one of them doctrinally forbidden. | It compounds where family standing is the family's only asset. |
+| Dalit Sikhs | They face caste exclusion, including separate gurdwaras, against explicit scripture. | It compounds with landlessness in rural Punjab. |
+| Dera followers | They suffer documented abuse inside total organizations. | It compounds for marginalized-caste members whose only welcome was the dera. |
+| Young people who cut their hair | They bear family rupture over a marker assigned in infancy. | It compounds for boys who were bullied for it and then punished for stopping. |
+| Scholars | They are excommunicated for historical research. | It compounds with loss of every institutional position. |
 
 ## 18. The middle tiers {#tiers}
 
+Most of a gurdwara's daily work is done below the Jathedar and the SGPC, by people who carry out decisions they did not write. The table names four middle-tier roles: what each does, what each sees, what each is asked to do, and what each could refuse.
+
 | Role | Does | Sees | Is asked to | Could refuse |
 |---|---|---|---|---|
-| Granthis and kirtanis | Reads scripture and leads worship on modest pay | That committee politics decides who is platformed | To stay out of it | To read for a committee that will not publish accounts |
-| Gurdwara committee members | Controls the golak and the appointments | How much cash moves and how elections are fought | To keep it in the faction | To stand on a platform of published accounts |
-| Langar sevadars | Feeds anyone who walks in — the tradition's finest institution | Who is turned away socially even while being fed | Nothing, and that is the point | To let caste seating reappear anywhere near the hall |
-| Punjabi school teachers and camp leaders | Forms identity in children | Which girls are being policed on appearance and marriage | To reinforce community standards | To teach honor norms the Gurus condemned |
+| Granthis (scripture readers) and kirtanis (hymn singers) | Read scripture and lead worship on modest pay | That committee politics decides who is platformed | Stay out of it | To read for a committee that will not publish accounts |
+| Gurdwara committee members | Control the golak and the appointments | How much cash moves and how elections are fought | Keep it in the faction | To stand on a platform of published accounts |
+| Langar sevadars (volunteers) | Feed anyone who walks in — the tradition's finest institution | Who is turned away socially even while being fed | Do nothing, and that is the point | To let caste seating reappear anywhere near the hall |
+| Punjabi school teachers and camp leaders | Form identity in children | Which girls are being policed on appearance and marriage | Reinforce community standards | To teach honor norms the Gurus condemned |
 
 ## 19. Documented cases {#cases}
 
@@ -1160,7 +1286,7 @@ Sources for this section: [9]
 - **when:** 2017–2019
 - **what:** The head of one of Punjab's largest deras was convicted of rape in 2017; a 2019 conviction for conspiring to murder a journalist was overturned on appeal in 2026 and is now before the Supreme Court. The organization had operated at corporate scale with political protection and bloc-vote influence.
 - **record:** Indian court judgments
-- **outcome:** Imprisonment. Demonstrates the risk of the living-guru model in a tradition whose scripture ended human guruship in 1708.
+- **outcome:** He was imprisoned. The case demonstrates the risk of the living-guru model in a tradition whose scripture ended human guruship in 1708.
 - **tactics:** 12, 22, 28
 - **grade:** Documented
 :::
@@ -1172,7 +1298,7 @@ Sources for this section: [6]
 ::: case
 ### Excommunication of a scholar (India, 2003)
 - **when:** 2003
-- **what:** The Akal Takht excommunicated Gurbaksh Singh Kala Afghana, a writer whose book series it held to be "ridiculing the Sikh ethos, values and scriptures" [4].
+- **what:** In a hukamnama (a formal edict), the Akal Takht excommunicated Gurbaksh Singh Kala Afghana, a writer whose book series it held to be "ridiculing the Sikh ethos, values and scriptures" [4].
 - **record:** Akal Takht *hukamnama*, 10 July 2003 [4]
 - **outcome:** Sikhs in India and abroad were asked to "snap all ties" with him and to keep him from speaking at public gatherings [4].
 - **tactics:** 17, 28
@@ -1205,10 +1331,10 @@ Sources for this section: [6]
 
 | What | Who | When | What it cost |
 |---|---|---|---|
-| Scriptural guruship itself — ending human succession in 1708 | Guru Gobind Singh | 1708 | None, and it is the most deliberate anti-control act in this codex |
-| Langar as radical equality, still functioning daily worldwide | The tradition, continuously | Since the founding | None |
-| Rape conviction of a dera leader with mass following and political protection | Complainants and a journalist who was murdered for reporting | 2017–2026 | A life |
-| Diaspora gurdwaras adopting elected boards and published accounts | Reforming committees | Ongoing | Faction conflict |
+| Scriptural guruship itself — ending human succession in 1708 | Guru Gobind Singh | 1708 | It cost nothing, and it is the most deliberate anti-control act in this codex. |
+| Langar as radical equality, still functioning daily worldwide | The tradition, continuously | Since the founding | It cost nothing. |
+| Rape conviction of a dera leader with mass following and political protection | Complainants and a journalist who was murdered for reporting | 2017–2026 | It cost a life. |
+| Diaspora gurdwaras adopting elected boards and published accounts | Reforming committees | Ongoing | It cost faction conflict. |
 
 ### What would change this page
 
@@ -1220,40 +1346,40 @@ Sources for this section: [6]
 
 ## 21. Voices from inside {#voices}
 
-- **Gurbaksh Singh Kala Afghana.** A writer excommunicated by the Akal Takht in 2003 [4].
-- **Jaswant Singh Khalra.** A human-rights defender who uncovered thousands of secret cremations of Sikhs by the Punjab Police; police abducted and murdered him in 1995, and six officers were later convicted [13].
-- **Gurbaj Singh Multani.** A schoolboy whose kirpan case settled the law for Sikhs across Canada [12].
-- **The Punjabi voters** whose roll fell by half while waiting for an SGPC election [2].
+- **Gurbaksh Singh Kala Afghana.** A writer, he was excommunicated by the Akal Takht in 2003 [4].
+- **Jaswant Singh Khalra.** A human-rights defender, he uncovered thousands of secret cremations of Sikhs by the Punjab Police; police abducted and murdered him in 1995, and six officers were later convicted [13].
+- **Gurbaj Singh Multani.** A schoolboy, he brought the kirpan case that settled the law for Sikhs across Canada [12].
+- **The Punjabi voters** are those whose roll fell by half while waiting for an SGPC election [2].
 
 ## 22. Regional variants {#regional}
 
 ::: card
 ### India (Punjab)
-- **apex:** The Akal Takht Jathedar, appointed by the SGPC [3].
-- **law:** The Sikh Gurdwaras Act 1925 [1].
-- **documented:** The overdue election and halved roll [1][2]; the Jathedar removals [3].
-- **exit:** Legally free; social costs where family and village life centre on the gurdwara.
-- **regulator:** The Gurdwara Election Commission, which must call the SGPC election [1].
-- **tell:** A religious body with a statutory vote that has not been held for fifteen years.
+- **apex:** The Akal Takht Jathedar is the apex, appointed by the SGPC [3].
+- **law:** The Sikh Gurdwaras Act 1925 makes the SGPC an elected body [1].
+- **documented:** The record covers the overdue election and halved roll [1][2] and the Jathedar removals [3].
+- **exit:** Leaving is legally free, but there are social costs where family and village life centre on the gurdwara.
+- **regulator:** The Gurdwara Election Commission is the regulator and must call the SGPC election [1].
+- **tell:** A religious body has a statutory vote that has not been held for fifteen years.
 :::
 
 ::: card
 ### Canada
-- **apex:** Gurdwara committees; no national authority.
-- **law:** Charter freedom of religion [12].
-- **documented:** *Multani* (2006) [12].
-- **exit:** Legally free.
-- **regulator:** The courts.
+- **apex:** Gurdwara committees are the apex, and there is no national authority.
+- **law:** The Charter protects freedom of religion [12].
+- **documented:** The record is *Multani* (2006) [12].
+- **exit:** Leaving is legally free.
+- **regulator:** The courts are the regulator.
 - **tell:** The kirpan case protects every religious minority, not only Sikhs.
 :::
 
 ::: card
 ### United Kingdom
-- **apex:** Gurdwara committees, many registered as charities.
-- **law:** Charity law.
+- **apex:** Gurdwara committees are the apex, and many are registered as charities.
+- **law:** Charity law applies.
 - **documented:** —
-- **exit:** Legally free.
-- **regulator:** The Charity Commission.
+- **exit:** Leaving is legally free.
+- **regulator:** The Charity Commission is the regulator.
 - **tell:** Where a gurdwara is a registered charity, its accounts are public.
 :::
 
@@ -1270,7 +1396,7 @@ Sources for this section: [6]
 
 You have the strongest structural position of any reader of this codex. No priest can absolve you, no clergy can expel you, your scripture is in your hands and read aloud in public, and langar seats everyone on the same floor by design. The machinery in your community is not built into your religion — it was smuggled in alongside it.
 
-Which means your work is not deconstruction. It is enforcement. Every abuse in this profile is already illegal under your own doctrine. You do not need a new belief; you need to hold your community to the one it already claims.
+Which means your work is not deconstruction. It is enforcement. Every abuse in this profile is already forbidden by your own doctrine. You do not need a new belief; you need to hold your community to the one it already claims.
 
 ::: cites
 Sources for this section: [1] [2]
@@ -1283,7 +1409,7 @@ Practical guidance, not legal advice.
 1. **Leaving is legally free;** the costs are family and community.
 2. **If you face forced marriage or honour-based abuse,** use specialist help [15].
 3. **An excommunication** has no legal force outside the community [4].
-4. **Find support** [14][16][17].
+4. **Find support** from the organizations listed in section 25 [14][16][17].
 
 ## 25. Where to get help {#help}
 
