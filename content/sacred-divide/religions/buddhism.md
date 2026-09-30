@@ -18,13 +18,13 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | About 324 million by Pew's 2020 count — the only major religion that shrank from 2010 to 2020; broader counts that include Chinese folk practice run near 500 million. [ACADEMIC SOURCE: Pew, 2025] |
-| Who's in charge | Sangharaja of Thailand — Supreme Patriarch — Somdet Phra Ariyavongsagatanana IX, appointed by the King in 2017; royal appointment of the office is statutory |
-| Chosen by / removable by | The Crown / The Crown |
-| Money in one line | Dana (donation) economies, merit-making (funding temples to improve karma/rebirth), funeral monopolies (Japan's danka system), retreat and course fees in convert Buddhism, mindfulness-industry monetization. |
-| Leaving in one line | Monastics who disrobe in traditional societies face status loss; convert-sangha members leaving scandal-hit centers lose community and years of practice investment. |
-| The unanswered question | The Vinaya prescribes confronting a monk who errs. Why did Western centers need outside investigators to do what the code already required? |
-| Evidence | 6 of 30 techniques sourced to a named document; grades: Taught 14, Cultural 12, Contested 2, Documented 1, Codified 1 |
+| Size | Buddhism had about 324 million adherents by Pew's 2020 count, the only major religion that shrank from 2010 to 2020; broader counts that include Chinese folk practice run near 500 million. [ACADEMIC SOURCE: Pew, 2025] |
+| Who's in charge | In Thailand the Sangharaja (head of the sangha, the Buddhist monastic community), also called the Supreme Patriarch, is Somdet Phra Ariyavongsagatanana IX, appointed by the King in 2017; royal appointment of the office is statutory. |
+| Chosen by / removable by | The Crown chooses the Supreme Patriarch / The Crown can remove the Supreme Patriarch |
+| Money in one line | The money comes from dana (donation) economies, merit-making (funding temples to improve karma and rebirth), funeral monopolies (Japan's danka system, under which each household belongs to one temple), retreat and course fees in convert Buddhism (Buddhism practiced by people who were not born into it), and the monetization of mindfulness. |
+| Leaving in one line | Monastics who disrobe (give up the robes and return to lay life) in traditional societies lose status, and members of convert sanghas (Buddhist communities of converts) who leave scandal-hit centers lose their community and the years of practice they invested. |
+| The unanswered question | The Vinaya (the monastic code) prescribes confronting a monk who errs. Why did Western centers need outside investigators to do what the code already required? |
+| Evidence | Six of the 30 techniques are sourced to a named document. The grades are Taught 14, Cultural 12, Contested 2, Documented 1 and Codified 1. |
 | Family | Buddhism — buddhism, tibetan-buddhism, soka-gakkai |
 | Last checked | 2026-09-27 |
 :::
@@ -41,11 +41,11 @@ partial: []
 
 *Grace · A Tuesday in the practice period · A Zen centre in the Pacific Northwest*
 
-Zazen at 5:30, forty minutes, and the first twenty are agony and the last five are the reason she has organized eleven years of her life around this. That is not a small return. She wants it on the record before anything else.
+Zazen (seated Zen meditation) at 5:30, forty minutes, and the first twenty are agony and the last five are the reason she has organized eleven years of her life around this. That is not a small return. She wants it on the record before anything else.
 
 Work practice: she scrubs the kitchen for two hours. She is a residential student, which means she pays a monthly fee and also works twenty hours a week, and she has never quite been able to say that sentence out loud to her sister without it sounding like something.
 
-At eleven she has dokusan with the teacher. She raises, carefully, the thing about Peter — Peter who is a senior student and who put his hand on the back of a nineteen-year-old's neck at the summer sesshin, twice, and who is on the board. The teacher listens with total attention and then says, gently, that she might look at where her reactivity is arising. She leaves the room and stands in the corridor and cannot locate what she is feeling, and then thinks that not being able to locate it is probably instructive.
+At eleven she has dokusan, the private interview with the teacher. She raises, carefully, the thing about Peter — Peter who is a senior student and who put his hand on the back of a nineteen-year-old's neck at the summer sesshin (a multi-day silent retreat), twice, and who is on the board. The teacher listens with total attention and then says, gently, that she might look at where her reactivity is arising. She leaves the room and stands in the corridor and cannot locate what she is feeling, and then thinks that not being able to locate it is probably instructive.
 
 Lunch is silent. She likes the silence. In the silence she notices that she has decided not to raise it again, and she notices that she reached this decision without any words being said to her, and she notices herself noticing, which is the trap she has never once found the edge of.
 
@@ -69,13 +69,13 @@ The Vinaya prescribes confronting a monk who errs. Why did Western centers need 
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| The dharma is offered freely. | Retreats, trainings, and certifications are priced, and unpaid work-exchange labor sustains the centres. | [PATTERN OBSERVED] |
+| The dharma (the Buddha's teaching) is offered freely. | Retreats, trainings, and certifications are priced, and unpaid work-exchange labor sustains the centres. | [PATTERN OBSERVED] |
 
 ### One cost of leaving, beside its denial
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Monastic status and livelihood | Yes | Disrobing carries stigma in traditional societies; loss of housing, education, and standing | “Anyone may leave the sangha freely — the Buddha permitted it.” |
+| Monastic status and livelihood | Yes | Disrobing carries stigma in traditional societies, and a monastic who disrobes loses housing, education, and standing | “Anyone may leave the sangha freely — the Buddha permitted it.” |
 
 ### The strongest objection, answered
 
@@ -88,14 +88,16 @@ The Vinaya prescribes confronting a monk who errs. Why did Western centers need 
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-About 324 million adherents by Pew's 2020 count (broader counts that include Chinese folk practice run near 500 million), across Theravada, Mahayana, and Vajrayana streams; a path of liberation from suffering through ethics, meditation, and insight.
+Buddhism has about 324 million adherents by Pew's 2020 count (broader counts that include Chinese folk practice run near 500 million), across the Theravada (Southeast Asian and Sri Lankan), Mahayana (East Asian) and Vajrayana (Tibetan and Himalayan) streams. It teaches a path of liberation from suffering through ethics, meditation, and insight.
 :::
 
-- The Vinaya's own accountability design (public confession, expulsion rules for teachers); centers that published independent investigations of teacher misconduct; engaged Buddhism confronting institutional complicity.
+Healthy practice here starts from the Vinaya's own accountability design, which provides public confession and expulsion rules for teachers [9]. It includes centers that commissioned independent investigations of teacher misconduct, and engaged Buddhism (Buddhism applied to social and political questions), which confronts institutional complicity.
+
+Some of that standard is already on the record. Rigpa commissioned the independent Lewis Silkin investigation, whose report of August 2018 is cited on this page [6]. Four women were ordained as bhikkhunis (fully ordained nuns) in Perth in 2009 [13], and Dhammananda Bhikkhuni, ordained in Sri Lanka in 2003, became Thailand's first fully ordained Theravada nun [14]. Thai authorities charged officials of the National Office of Buddhism with embezzling temple funds in 2018 [5]. Each is a place where the tradition met the standard this page applies, and each is recorded here as credit.
 
 ## 5. History {#history}
 
-5th–4th century BCE northern India; Siddhartha Gautama's renunciant movement; monastic institutionalization under royal patronage (Ashoka); spread across Asia adapting to each culture; 20th-century Western transmission created convert sanghas and meditation industries.
+In the 5th to 4th century BCE, Siddhartha Gautama's renunciant movement (a movement of people who gave up household life) began in northern India. Monasticism was institutionalized under royal patronage, notably that of Ashoka. Buddhism spread across Asia and adapted to each culture. In the 20th century, Western transmission created convert sanghas and meditation industries.
 
 ### Timeline
 
@@ -103,11 +105,11 @@ About 324 million adherents by Pew's 2020 count (broader counts that include Chi
 c. 5th–4th c. BCE | Siddhartha Gautama's renunciant movement in northern India | A wandering community with no property, explicitly outside caste and priestly authority.
 c. 400 BCE | First councils; Vinaya (monastic code) established | The tradition writes its own accountability system — public confession, expulsion rules, no hereditary rank.
 c. 250 BCE | Ashoka's patronage; missions to Sri Lanka and beyond | Royal sponsorship arrives, and with it land, buildings, and dependence on rulers.
-1st c. BCE–500 CE | Pali canon written; Mahayana sutras; monastic universities (Nalanda) | Institutional scholarship and endowments; monasteries become major landholders.
-500–1200 CE | Spread to China, Korea, Japan, Tibet, Southeast Asia; Chan/Zen lineages form | Dharma transmission becomes a certified lineage — authority by pedigree.
+1st c. BCE–500 CE | Pali canon (the Theravada scriptures) written; Mahayana sutras; monastic universities (Nalanda) | Institutional scholarship and endowments; monasteries become major landholders.
+500–1200 CE | Spread to China, Korea, Japan, Tibet, Southeast Asia; Chan/Zen lineages (the Chinese and Japanese meditation schools) form | Dharma transmission becomes a certified lineage — authority by pedigree.
 1200–1800 | State Buddhism in Theravada kingdoms; Japan's temple-registration (danka) system | Households compulsorily affiliated to temples; funeral monopoly established. [ACADEMIC SOURCE]
 1800s–1940s | Colonial disruption; Buddhist modernism; Japanese imperial Zen supports militarism | Ethics subordinated to nationalism — documented by the tradition's own later self-criticism. [ACADEMIC SOURCE]
-1950s–1970s | Communist suppression in China, Tibet, Cambodia; Vipassana and Zen reach the West | Transmission to convert cultures with no local accountability structures.
+1950s–1970s | Communist suppression in China, Tibet, Cambodia; Vipassana (insight meditation) and Zen reach the West | Transmission to convert cultures with no local accountability structures.
 1980s–2010s | Western teacher-misconduct scandals across Zen, Vipassana-adjacent, and Tibetan lineages | Charisma without Vinaya produces predictable failure. [INVESTIGATIVE REPORT]
 1990s–present | Mindfulness commercialization; Buddhist nationalism in Myanmar and Sri Lanka | Technique monetized without ethics; monks mobilized for ethnic violence. [GOVERNMENT REPORT]
 ```
@@ -119,13 +121,13 @@ c. 250 BCE | Ashoka's patronage; missions to Sri Lanka and beyond | Royal sponso
 
 At Nagpur, B. R. Ambedkar took refuge with hundreds of thousands of Dalit followers, choosing Buddhism explicitly as an exit from caste. It was one of the largest mass religious conversions in modern history and it was framed as a liberation from a different religion's hierarchy.
 
-**Why it matters.** Buddhism entering the modern record as the escape route from another tradition's control system — the codex's clearest illustration that traditions are not uniformly anything.
+**Why it matters.** It shows Buddhism entering the modern record as the escape route from another tradition's control system, and it is the codex's clearest illustration that traditions are not uniformly anything.
 :::
 
 ::: card
 #### 2017–2019 — The Rigpa letter
 
-Eight senior students wrote publicly to Sogyal Rinpoche alleging abuse; an independent investigation commissioned by Rigpa (the Lewis report) substantially upheld the allegations. It had taken decades and a letter that named the teacher.
+Eight senior students wrote publicly to Sogyal Rinpoche alleging abuse; an independent investigation (the Lewis report), commissioned by Rigpa, the Tibetan Buddhist organization Sogyal Rinpoche founded, substantially upheld the allegations. It had taken decades and a letter that named the teacher.
 
 **Why it matters.** The Vinaya already contained the procedure for confronting a monk who errs. What was missing was anyone willing to apply it to the person it was written for, and outside lawyers supplied the willingness.
 :::
@@ -135,7 +137,7 @@ Eight senior students wrote publicly to Sogyal Rinpoche alleging abuse; an indep
 
 Ashin Wirathu's ultranationalist preaching in Myanmar preceded and accompanied atrocities against the Rohingya; Sri Lankan monastic nationalism produced parallel violence. Monastic authorities largely did not restrain either.
 
-**Why it matters.** Included because a tradition marketed in the West as constitutionally peaceful requires the same instrument as every other page here. Doctrine does not restrain structure; structure restrains structure.
+**Why it matters.** It is included because a tradition marketed in the West as constitutionally peaceful requires the same instrument as every other page here. Doctrine does not restrain structure; structure restrains structure.
 :::
 
 ::: cites
@@ -144,16 +146,16 @@ Sources for this section: [8] [9]
 
 ## 6. Branches & variants {#branches}
 
-Theravada (Southeast Asia, Sri Lanka), Mahayana (East Asia — Pure Land, Zen/Chan, Tiantai, Nichiren), Vajrayana (Tibetan and Himalayan; profiled separately).
+The tradition has three main branches: Theravada (Southeast Asia and Sri Lanka), Mahayana (East Asia, including the Pure Land, Zen/Chan, Tiantai and Nichiren schools) and Vajrayana (Tibetan and Himalayan Buddhism, profiled separately).
 
 | Branch | Where | Where authority sits |
 |---|---|---|
-| **Theravada** | Sri Lanka, Thailand, Myanmar, Cambodia, Laos | Monastic orders; in Thailand a Supreme Patriarch named by the king since 2016 [3][4]; full ordination of women is not recognized there [13][14] |
-| **Mahayana** | China, Taiwan, Korea, Japan, Vietnam | Schools and temples (Pure Land, Zen/Chan, Tiantai, Nichiren); in Japan, historic temple registration tied families to temples [9] |
-| **Vajrayana** | Tibet, the Himalayas, Mongolia, and Western centres | Lamas and tulkus (see Tibetan Buddhism) |
-| **Western convert centres** | Europe, North America, Australia | A founding teacher and a board; often registered charities [6] |
+| **Theravada** | It is practiced in Sri Lanka, Thailand, Myanmar, Cambodia and Laos. | Authority sits with monastic orders. In Thailand a Supreme Patriarch has been named by the king since 2016 [3][4], and full ordination of women is not recognized there [13][14]. |
+| **Mahayana** | It is practiced in China, Taiwan, Korea, Japan and Vietnam. | Authority sits with schools and temples (Pure Land, Zen/Chan, Tiantai, Nichiren). In Japan, historic temple registration tied families to temples [9]. |
+| **Vajrayana** | It is practiced in Tibet, the Himalayas, Mongolia, and Western centres. | Authority sits with lamas (Tibetan teachers) and tulkus (teachers recognized as reincarnations of earlier ones); see Tibetan Buddhism. |
+| **Western convert centres** | They are found in Europe, North America and Australia. | Authority sits with a founding teacher and a board, and the centres are often registered charities [6]. |
 
-About **324 million** Buddhists in 2020, down from 343 million in 2010 — the only major religion to shrink [1][2].
+There were about **324 million** Buddhists in 2020, down from 343 million in 2010, and Buddhism is the only major religion to shrink [1][2].
 
 ## 7. Structure {#structure}
 
@@ -161,15 +163,15 @@ About **324 million** Buddhists in 2020, down from 343 million in 2010 — the o
 
 |  |  |
 |---|---|
-| Adherents | About 324 million by Pew's 2020 count — the only major religion that shrank from 2010 to 2020; broader counts that include Chinese folk practice run near 500 million. [ACADEMIC SOURCE: Pew, 2025] |
-| Regions | China (largest by count), Thailand, Japan, Myanmar, Sri Lanka, Vietnam, Cambodia, South Korea, Taiwan, Tibet, plus convert populations across the West. |
-| Trend | Declining institutional participation in Japan (temple closures, funeral-market erosion); stable in Thailand; growing convert and secular-mindfulness populations in the West. |
-| Participation | Very large gap between cultural Buddhism and practice. Japanese respondents commonly report no religion while maintaining temple funeral affiliation. Convert Buddhism is small in numbers but highly institutionalized, which is where most documented Western abuse cases occur. |
+| Adherents | Buddhism had about 324 million adherents by Pew's 2020 count, the only major religion that shrank from 2010 to 2020; broader counts that include Chinese folk practice run near 500 million. [ACADEMIC SOURCE: Pew, 2025] |
+| Regions | The main Buddhist populations are in China (largest by count), Thailand, Japan, Myanmar, Sri Lanka, Vietnam, Cambodia, South Korea, Taiwan and Tibet, plus convert populations across the West. |
+| Trend | Institutional participation is declining in Japan (temple closures, funeral-market erosion), stable in Thailand, and growing among convert and secular-mindfulness populations in the West. |
+| Participation | There is a very large gap between cultural Buddhism and practice. Japanese respondents commonly report no religion while maintaining temple funeral affiliation. Convert Buddhism is small in numbers but highly institutionalized, which is where most documented Western abuse cases occur. |
 
 ### Authority
 
-- Monastic hierarchies (Theravada sangha councils, state sangha bodies in Thailand/Myanmar), Zen lineages with dharma transmission, meditation-center teachers with charismatic authority.
-- State Buddhism: governments licensing and directing monastic bodies (Thailand's Sangha Act; Myanmar's ma-ba-tha nationalism). [OFFICIAL POLICY / ACADEMIC SOURCE]
+- Authority sits with monastic hierarchies (Theravada sangha councils, state sangha bodies in Thailand/Myanmar), Zen lineages with dharma transmission (the certified handing-on of a teacher's authority), and meditation-center teachers with charismatic authority.
+- In state Buddhism, governments license and direct monastic bodies, as under Thailand's Sangha Act (the Thai law governing the monastic order) and through Myanmar's ma-ba-tha nationalism (the nationalism of a Myanmar monastic network). [OFFICIAL POLICY / ACADEMIC SOURCE]
 
 ### The top of the chain
 
@@ -179,9 +181,9 @@ Where Buddhism is established, the apex is royal; where it is imported, the apex
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| Sangharaja of Thailand — Supreme Patriarch | Somdet Phra Ariyavongsagatanana IX, appointed by the King in 2017; royal appointment of the office is statutory | The Crown | The Crown |
-| Sri Lanka's monastic chapters | The Mahanayaka theros, elected by monks, holding gate authority over higher ordination | Monastic councils | Monastic councils |
-| Western convert centers | The founding teacher plus a board of his own students — the structure the Rigpa and Shambhala investigations found unable to restrain the man at its center | The teacher, effectively | The board the teacher formed. Both investigations were commissioned only after public exposure |
+| Sangharaja of Thailand — Supreme Patriarch | Somdet Phra Ariyavongsagatanana IX holds it; the King appointed him in 2017, and royal appointment of the office is statutory. | The Crown chooses the office holder. | The Crown can remove the office holder. |
+| Sri Lanka's monastic chapters | The Mahanayaka theros (the senior monks who head the chapters) are elected by monks and hold gatekeeping authority over higher ordination. | Monastic councils choose them. | Monastic councils can remove them. |
+| Western convert centers | The founding teacher plus a board of his own students hold it, the structure the Rigpa and Shambhala (a Buddhist organization of Tibetan origin) investigations found unable to restrain the man at its center. | Effectively, the teacher chooses them. | The board the teacher formed can remove him. Both investigations were commissioned only after public exposure. |
 
 ::: tell
 The Vinaya already contains the correction procedure. Every case in the record is a case of that procedure not being applied to the person it was written for.
@@ -206,21 +208,21 @@ Sources for this section: [1] [2] [3] [4] [7]
 
 | Country | What the law does | The accountability question |
 |---|---|---|
-| **Thailand** | A 2016 amendment to the Sangha Act gave the king the power to name the Supreme Patriarch [3] | The National Office of Buddhism charged officials with embezzling temple funds in 2018; a former head was later jailed [5] |
+| **Thailand** | A 2016 amendment to the Sangha Act gave the king the power to name the Supreme Patriarch [3] | Officials of the National Office of Buddhism were charged with embezzling temple funds in 2018; a former head was later jailed [5] |
 | **Thailand — discipline** | Monks who break the celibacy rule are disrobed [11][12] | At least nine abbots and senior monks were disrobed in the 2025 blackmail scandal [11][12] |
 | **Myanmar** | — | A UN fact-finding mission documented hate speech, including by nationalist monks, against the Rohingya (2018) [7] |
-| **United Kingdom** | Charity law [6] | The Charity Commission's inquiry into Rigpa found its former trustees had failed to act (2020) [6] |
-| **Japan (history)** | Tokugawa-era temple registration [9] | Zen institutions supported militarism in the 20th century [8] |
+| **United Kingdom** | Charity law applies to registered centers [6] | The Charity Commission (the regulator of charities in England and Wales) found in its inquiry into Rigpa that its former trustees had failed to act (2020) [6] |
+| **Japan (history)** | Temple registration was compulsory in the Tokugawa era (the period of Tokugawa rule in Japan, 1603 to 1868) [9] | Zen institutions supported militarism in the 20th century [8] |
 
 ### Who can compel an answer
 
-Charity regulators wherever a center is a registered charity — which is most of the West — and civil courts. In Thailand, the Sangha Supreme Council and, ultimately, the Crown, since the apex is royal by statute.
+Charity regulators can compel an answer wherever a center is a registered charity, which is most of the West, and so can civil courts. In Thailand the Sangha Supreme Council can, and ultimately the Crown can, since the apex is royal by statute.
 
 ## 9. Money {#money}
 
 ### Where it comes from
 
-- Dana (donation) economies, merit-making (funding temples to improve karma/rebirth), funeral monopolies (Japan's danka system), retreat and course fees in convert Buddhism, mindfulness-industry monetization.
+- The money comes from dana (donation) economies, merit-making (funding temples to improve karma and rebirth), funeral monopolies (Japan's danka system), retreat and course fees in convert Buddhism, and the monetization of mindfulness.
 - Merit economics is the key mechanism: teaching that giving to the institution purchases karmic benefit converts cosmology into revenue. [ACADEMIC SOURCE]
 
 ### Follow the money
@@ -228,7 +230,7 @@ Charity regulators wherever a center is a registered charity — which is most o
 | Flow | Stated purpose | How it controls | Who benefits |
 |---|---|---|---|
 | Dana (donation) and merit-making | Support monastics; generate merit | Merit economics converts cosmology into revenue: giving buys better rebirth, refusal risks it | Monasteries, temples, monastic hierarchies [ACADEMIC SOURCE] |
-| Funeral and memorial services (Japan's danka system) | Care for the dead and ancestors | Effective monopoly with very high posthumous-name and memorial fees; families cannot easily exit | Temple families and Buddhist sects [ACADEMIC SOURCE] |
+| Funeral and memorial services (Japan's danka system) | Care for the dead and ancestors | The temples hold an effective monopoly, with very high fees for posthumous names (the Buddhist names given to the dead) and memorials, and families cannot easily exit. | Temple families and Buddhist sects [ACADEMIC SOURCE] |
 | Retreat, course, and teacher-training fees (convert Buddhism) | Access to practice and training | Paywalled advancement; unpaid work-exchange labor at retreat centers | Centers, senior teachers, certification pipelines |
 | Mindfulness industry licensing and apps | Secular wellbeing | Technique extracted from its ethical framework and sold at scale with no accountability | Corporations, app companies, individual trainers |
 | Amulets, blessings, merit-transfer rites | Protection and blessing | Micro-transactions on fear and hope; heaviest on the poor | Temples, monks, ritual vendors |
@@ -238,25 +240,25 @@ Charity regulators wherever a center is a registered charity — which is most o
 ::: card
 #### Merit economy
 
-**Source.** Poor households buying a better rebirth
+**Source.** The money comes from poor households buying a better rebirth.
 
-**Path.** Temple or monastery → Monastic hierarchy → Construction and state-aligned sangha bodies
+**Path.** It passes from the temple or monastery to the monastic hierarchy, and then to construction and state-aligned sangha bodies.
 
-**Disclosed.** Nothing
+**Disclosed.** Nothing is disclosed.
 
-**Hidden.** Receipts and personal versus institutional use
+**Hidden.** Receipts, and the split between personal and institutional use, are hidden.
 :::
 
 ::: card
 #### Funeral monopoly
 
-**Source.** Bereaved families with no alternative provider
+**Source.** The money comes from bereaved families who have no alternative provider.
 
-**Path.** Hereditary temple → Sect headquarters → Temple family income
+**Path.** It passes from the hereditary temple to the sect headquarters and on to temple family income.
 
-**Disclosed.** Fee ranges
+**Disclosed.** Fee ranges are disclosed.
 
-**Hidden.** Posthumous-name pricing tiers
+**Hidden.** The pricing tiers for posthumous names are hidden.
 :::
 
 ### Money in numbers
@@ -264,7 +266,7 @@ Charity regulators wherever a center is a registered charity — which is most o
 ```chart
 {"id":"english-sangha-trust","type":"bar","title":"The English Sangha Trust (UK): income","unit":"£ million, years to 31 March",
  "series":[["2021",11.89],["2022",1.67],["2023",1.74],["2024",3.02],["2025",2.23]],
- "note":"A UK Theravada monastic charity; almost all donations, with one exceptional year.",
+ "note":"The English Sangha Trust is a UK Theravada monastic charity. Almost all of its income is donations, with one exceptional year.",
  "cite":[10]}
 ```
 
@@ -283,43 +285,43 @@ Charity regulators wherever a center is a registered charity — which is most o
 
 **Why that reason expired.** Monasteries are now landholders and, in some countries, commercial entities. When giving to an institution is taught to improve your rebirth, refusal becomes cosmically dangerous — which is not generosity, it is a levy on the afterlife, and it falls hardest on the poor.
 
-**Who benefits now.** Monastic hierarchies, temple administrations, and in state-sangha countries, the governments that appoint them.
+**Who benefits now.** Monastic hierarchies and temple administrations benefit, and in state-sangha countries so do the governments that appoint them.
 :::
 
 ::: card
 #### Ego and attachment as diagnostic categories
 
-**Origin.** Core doctrine, ancient and philosophically serious: craving and self-clinging as the roots of suffering. [ACADEMIC SOURCE]
+**Origin.** It is core doctrine, ancient and philosophically serious, that craving and self-clinging are the roots of suffering. [ACADEMIC SOURCE]
 
-**What it was for.** A tool for the practitioner's own examination of their own mind. Self-applied, voluntary, and paired with the Vinaya's public accountability rules for teachers.
+**What it was for.** It was a tool for the practitioner's own examination of their own mind. It was self-applied and voluntary, and it was paired with the Vinaya's public accountability rules for teachers.
 
-**Why that reason expired.** Weaponized when applied by a teacher to a student's complaint. 'That's your ego' converts every grievance into evidence of the grievant's spiritual immaturity. It is unfalsifiable, and in convert communities it enabled decades of documented misconduct. [INVESTIGATIVE REPORT]
+**Why that reason expired.** It is weaponized when a teacher applies it to a student's complaint. 'That's your ego' converts every grievance into evidence of the grievant's spiritual immaturity. It is unfalsifiable, and in convert communities it enabled decades of documented misconduct. [INVESTIGATIVE REPORT]
 
-**Who benefits now.** Any teacher who would not survive scrutiny. The doctrine was designed for you to use on yourself; its abuse is that someone else now uses it on you.
+**Who benefits now.** Any teacher who would not survive scrutiny benefits. The doctrine was designed for you to use on yourself; its abuse is that someone else now uses it on you.
 :::
 
 ::: card
 #### Lapsed full ordination for women
 
-**Origin.** The bhikkhuni lineage lapsed in Theravada centuries ago; the eight garudhammas subordinate nuns to monks regardless of seniority. [OFFICIAL POLICY]
+**Origin.** The bhikkhuni lineage lapsed in Theravada centuries ago, and the eight garudhammas (eight special rules for nuns) subordinate nuns to monks regardless of seniority. [OFFICIAL POLICY]
 
 **What it was for.** Whatever the original rationale, the mechanism now cited is procedural: the lineage cannot be restored because the lineage is broken.
 
 **Why that reason expired.** The Buddha ordained women. Revivals have occurred and are recognized by some sanghas and refused by others, which proves it is a decision, not an impossibility. A procedural objection that produces a permanent exclusion is a policy pretending to be a technicality.
 
-**Who benefits now.** Monastic hierarchies that keep resources, seniority, and authority male. Nuns' institutions remain chronically underfunded. [ACADEMIC SOURCE]
+**Who benefits now.** Monastic hierarchies benefit, because they keep resources, seniority, and authority male. Nuns' institutions remain chronically underfunded. [ACADEMIC SOURCE]
 :::
 
 ::: card
 #### Funeral and memorial monopoly (Japan's danka system)
 
-**Origin.** Tokugawa-era compulsory temple registration of every household. [ACADEMIC SOURCE]
+**Origin.** In the Tokugawa era every household was compelled to register with a temple. [ACADEMIC SOURCE]
 
-**What it was for.** A state surveillance and anti-Christian measure, adopted by temples as a guaranteed income base — the origin is administrative, not spiritual.
+**What it was for.** It was a state surveillance and anti-Christian measure, which temples adopted as a guaranteed income base, so the origin is administrative, not spiritual.
 
 **Why that reason expired.** Compulsory registration ended long ago; the economic structure survived it. Families face very high posthumous-name and memorial fees and cannot easily change temples without abandoning their ancestors' graves.
 
-**Who benefits now.** Hereditary temple families, whose income derives from a compulsory system that no longer legally exists but still functionally does.
+**Who benefits now.** Hereditary temple families benefit, and their income derives from a compulsory system that no longer legally exists but still functionally does.
 :::
 
 ::: cites
@@ -336,16 +338,16 @@ Sources for this section: [9]
 
 ### Children
 
-- Temporary and permanent child ordination in Theravada countries; novice monks as young as 7 in some monastic schools, sometimes as a poverty-relief pathway. [ACADEMIC SOURCE]
+- Child ordination, temporary or permanent, is practiced in Theravada countries, and novice monks are as young as 7 in some monastic schools, sometimes as a poverty-relief pathway. [ACADEMIC SOURCE]
 - Abuse of child novices with weak external oversight is documented in several countries. [INVESTIGATIVE REPORT]
 - Merit teaching directed at children makes family religious spending an obligation of love: withholding is framed as harming ancestors' rebirth.
 
 ### Bodies
 
-- The full bhikkhuni (nun) ordination lineage lapsed in Theravada and its revival is still contested and unrecognized by some national sanghas — women structurally excluded from full monastic status. [OFFICIAL POLICY]
+- The full bhikkhuni (nun) ordination lineage lapsed in Theravada and its revival is still contested and unrecognized by some national sanghas, which leaves women structurally excluded from full monastic status. [OFFICIAL POLICY]
 - The eight garudhammas subordinate nuns to monks regardless of seniority; nuns' institutions are chronically underfunded relative to monks'. [ACADEMIC SOURCE]
 - Teacher–student sexual misconduct across Western Zen and insight communities is among the best-documented harms in convert Buddhism, often framed by perpetrators as teaching. [INVESTIGATIVE REPORT]
-- Some traditional teaching treats female rebirth as karmically inferior — doctrine functioning as gender hierarchy. [ACADEMIC SOURCE]
+- Some traditional teaching treats female rebirth as karmically inferior, and that is doctrine functioning as gender hierarchy. [ACADEMIC SOURCE]
 
 ::: cites
 Sources for this section: [7] [9]
@@ -360,7 +362,7 @@ Thirty named techniques from domestic-abuse and social-psychology research, appl
 ::: stage
 **You arrive with a need and are met with more warmth than you have had in years.**
 
-Calm voices, tea, cushions, compassion language. Your suffering is given a diagnosis — craving, attachment, ignorance — and the center offers the cure. You are told you have good karma and the teacher sees your potential.
+You are met with calm voices, tea, cushions and compassion language. Your suffering is given a diagnosis — craving, attachment, ignorance — and the center offers the cure. You are told you have good karma and the teacher sees your potential.
 
 *What it asks of you:* You arrived in pain and were handed an explanation. Notice who supplied it.
 :::
@@ -399,7 +401,7 @@ Calm voices, tea, cushions, compassion language. Your suffering is given a diagn
 
 **The counter.** Voluntary giving is clean only when refusal has no spiritual penalty. If people are praised as mature when they donate, volunteer, and surrender, but subtly treated as selfish, attached, or ego-driven when they set limits, then dana has become a spiritualized invoice.
 
-**Evidence grade.** [[Cultural]] Center and temple welcome is local practice; convert sanghas set their own tone with no oversight.
+**Evidence grade.** [[Cultural]] Whether help from a center or teacher carries an expected return depends on each center's own practice, and no global authority governs it.
 :::
 
 ### Stage 2 · Hook {#stage-2}
@@ -407,7 +409,7 @@ Calm voices, tea, cushions, compassion language. Your suffering is given a diagn
 ::: stage
 **You are given a future that cannot be verified, and a rope for whenever you drift toward the door.**
 
-Enlightenment, perhaps in this life, perhaps in another — undefined, unfalsifiable, endlessly deferred. And retrieval framed as your own resistance: an invitation to the next retreat, and the suggestion that your absence is itself the attachment.
+You are promised enlightenment, perhaps in this life, perhaps in another, and it is undefined, unfalsifiable and endlessly deferred. If you drift toward the door, your drift is framed as your own resistance: you receive an invitation to the next retreat and the suggestion that your absence is itself the attachment.
 
 *What it asks of you:* A goal with no definition cannot be reached, and a teacher who defines it cannot be wrong about your distance from it.
 :::
@@ -419,7 +421,7 @@ Enlightenment, perhaps in this life, perhaps in another — undefined, unfalsifi
 
 **How it shows here**
 
-- Buddhism can future-fake through enlightenment, nirvana, liberation from suffering, better rebirth, merit, karmic purification, and eventual awakening.
+- Buddhism can future-fake through enlightenment, nirvana (release from the cycle of rebirth), liberation from suffering, better rebirth, merit, karmic purification, and eventual awakening.
 - The seeker enters because they want relief from suffering. The institution offers a path. But the path can stretch indefinitely: more meditation, more retreats, more donations, more discipline, more teacher interviews, more surrender of ego.
 - If practice helps sometimes but not always, the answer is rarely “the method may have limits.” The answer is usually: keep practicing.
 - Enlightenment is difficult to verify externally. A teacher may be treated as awakened, while students are told their inability to see it proves their own obscuration.
@@ -449,7 +451,7 @@ Enlightenment, perhaps in this life, perhaps in another — undefined, unfalsifi
 
 **The counter.** Not all discomfort is spiritual resistance. Sometimes discomfort is the body correctly identifying harm. If every impulse to leave is interpreted as ego, avoidance, or attachment, then the doctrine has converted self-protection into pathology.
 
-**Evidence grade.** [[Taught]] Enlightenment as an undefined and deferred goal is taught doctrine; retrieval framing is teacher practice.
+**Evidence grade.** [[Taught]] The entry rests on the taught idea that leaving is running from suffering or clinging to ego, and on senior students and teachers applying that idea to a student who is leaving.
 :::
 
 ### Stage 3 · Devalue {#stage-3}
@@ -469,7 +471,7 @@ Your practice is shallow, your resistance is ego, your boundary is attachment, y
 
 **How it shows here**
 
-- Institutional Buddhism can devalue by defining ordinary desire as the root of suffering, in a form like: “You are trapped in samsara. Your desires are the disease.”
+- Institutional Buddhism can devalue by defining ordinary desire as the root of suffering, in a form like: “You are trapped in samsara (the cycle of rebirth). Your desires are the disease.”
 - The person’s grief, anger, ambition, attachment, sexuality, and longing may be treated as evidence of ignorance.
 - If someone resists a teacher, community, or doctrine, the resistance can be diagnosed as ego.
 - The self itself may be framed as illusion, which can be liberating philosophically but dangerous institutionally: if the self is illusion, then boundaries can be dismissed as ego-clinging.
@@ -517,7 +519,7 @@ Your practice is shallow, your resistance is ego, your boundary is attachment, y
 
 **The counter.** A true insight can still be aimed. When 'your reaction is the problem' is only ever pointed at the powerless — and never at the teacher's greed or the center's secrecy — the diagnosis has become a muzzle.
 
-**Evidence grade.** [[Taught]] Suffering, craving, and ignorance as the member's condition are core teaching, delivered contemplatively.
+**Evidence grade.** [[Taught]] The bind is built from taught doctrine: students are told to test the teachings, and the same teachings classify negative findings and anger at harm as ego, aversion, or unskillfulness.
 :::
 
 ### Stage 4 · Confuse {#stage-4}
@@ -525,9 +527,9 @@ Your practice is shallow, your resistance is ego, your boundary is attachment, y
 ::: stage
 **The rewards become unpredictable, the standard keeps moving, the answers stop meaning anything, and the accusation gets turned around.**
 
-Report misconduct and hear about your projections, your father issues, your inability to receive skillful means. In documented Western cases, complainants were told the teacher's behavior was advanced teaching. [INVESTIGATIVE REPORT]
+Report misconduct and hear about your projections, your father issues, your inability to receive skillful means (a teacher's adaptation of method to the student). In documented Western cases, complainants were told the teacher's behavior was advanced teaching. [INVESTIGATIVE REPORT]
 
-*What it asks of you:* 'Crazy wisdom' has never once been invoked to explain a teacher doing something inconvenient to himself.
+*What it asks of you:* 'Crazy wisdom' (unconventional teacher behavior presented as teaching) has never once been invoked to explain a teacher doing something inconvenient to himself.
 :::
 
 ::: tactic n=8
@@ -537,7 +539,7 @@ Report misconduct and hear about your projections, your father issues, your inab
 
 **How it shows here**
 
-- Meditation itself reinforces intermittently — some sits open into stillness, most are noise — and centers annex the schedule: breakthroughs credit the method and teacher; dry months indicate your hindrances and need for another retreat.
+- Meditation itself reinforces intermittently — some sits open into stillness, most are noise — and centers annex the schedule: breakthroughs credit the method and teacher; dry months indicate your hindrances (in Buddhist teaching, the mental obstacles to meditation) and need for another retreat.
 - Teacher interviews (dokusan) deliver rare, unpredictable moments of being truly seen, rationed across a sangha that reorganizes its striving around them.
 - Retreats reliably produce openings that fade on re-entry — and the fade is framed not as neurology but as evidence you need the next retreat, at the next price tier.
 
@@ -545,7 +547,7 @@ Report misconduct and hear about your projections, your father issues, your inab
 
 **The counter.** Uneven progress is honest. Billing the peaks to the brand and the plateaus to the student is not — it is the retention model of every subscription that ever ran on hope.
 
-**Evidence grade.** [[Cultural]] Reclassifying complaint as ego is teacher behavior, and the Vinaya in fact prescribes the opposite — which makes it indefensible rather than doctrinal.
+**Evidence grade.** [[Cultural]] Meditation's uneven results are ordinary experience. Crediting the peaks to the teacher and the plateaus to the student, and selling the next retreat, is practice at individual centers.
 :::
 
 ::: tactic n=9
@@ -563,7 +565,7 @@ Report misconduct and hear about your projections, your father issues, your inab
 
 **The counter.** Gradual work becomes moving the goalposts when the method can never be questioned because every failure proves the student needs more method. That is not liberation. That is spiritual recursion.
 
-**Evidence grade.** [[Cultural]] Reclassifying complaint as ego is teacher behavior, and the Vinaya in fact prescribes the opposite — which makes it indefensible rather than doctrinal.
+**Evidence grade.** [[Cultural]] The shifting standard described (retreats, then correction, then donation and labor) is the practice of individual centers and teachers.
 :::
 
 ::: tactic n=10
@@ -581,7 +583,7 @@ Report misconduct and hear about your projections, your father issues, your inab
 
 **The counter.** Subtlety becomes strategic ambiguity when the same word can invalidate any boundary. If ego means whatever the teacher needs it to mean, doctrine has become a solvent for self-protection.
 
-**Evidence grade.** [[Cultural]] Reclassifying complaint as ego is teacher behavior, and the Vinaya in fact prescribes the opposite — which makes it indefensible rather than doctrinal.
+**Evidence grade.** [[Cultural]] The entry describes how centers and teachers use terms such as ego and nonattachment. The terms are doctrine; using them to invalidate any boundary is practice.
 :::
 
 ::: tactic n=11
@@ -600,7 +602,7 @@ Report misconduct and hear about your projections, your father issues, your inab
 
 **The counter.** That teaching becomes projection when aimed only at the less powerful. If the student must examine anger but the teacher does not examine exploitation, then ego has simply put on a robe.
 
-**Evidence grade.** [[Cultural]] Reclassifying complaint as ego is teacher behavior, and the Vinaya in fact prescribes the opposite — which makes it indefensible rather than doctrinal.
+**Evidence grade.** [[Cultural]] The entry describes teachers and sanghas who turn the teaching on ego and anger against critics while exempting themselves. That is behavior at individual centers.
 :::
 
 ::: tactic n=12
@@ -639,7 +641,7 @@ Report misconduct and hear about your projections, your father issues, your inab
 
 **The counter.** Observing emotion is not the same as discrediting it. If repeated practice makes someone unable to recognize anger as a boundary signal, then mindfulness has become emotional anesthesia.
 
-**Evidence grade.** [[Cultural]] Reclassifying complaint as ego is teacher behavior, and the Vinaya in fact prescribes the opposite — which makes it indefensible rather than doctrinal.
+**Evidence grade.** [[Cultural]] Retreat, silence, and interview routines are local practice that can normalize setting aside one's own emotional responses.
 :::
 
 ### Stage 5 · Isolate {#stage-5}
@@ -688,9 +690,9 @@ The sangha becomes your social world, your identity, your practice years. Compla
 
 **The strongest defense.** Buddhist communities rely on teacher, sangha, and dharma as supports for practice.
 
-**The counter.** Support becomes triangulation when all three are used to invalidate harm. If teacher, sangha, and dharma each reinterpret your pain as ego, then the three jewels have been rearranged into a three-sided cage.
+**The counter.** Support becomes triangulation when all three are used to invalidate harm. If teacher, sangha, and dharma each reinterpret your pain as ego, then the three jewels (the Buddha, the dharma and the sangha) have been rearranged into a three-sided cage.
 
-**Evidence grade.** [[Contested]] Insularity is negligible in cultural Buddhism and substantial in residential convert centers.
+**Evidence grade.** [[Contested]] How far the teacher, the sangha, and the lineage insulate a teacher varies, from negligible in cultural Buddhism to substantial in residential convert centers, so the grade is disputed.
 :::
 
 ### Stage 6 · Extract {#stage-6}
@@ -698,7 +700,7 @@ The sangha becomes your social world, your identity, your practice years. Compla
 ::: stage
 **Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
 
-Merit economics converting your rebirth into a donation schedule. Funeral and memorial monopolies charging families who cannot change temples without abandoning their ancestors' graves. Retreat fees and unpaid work-exchange labor. Nuns denied full ordination and resources. Every boundary you set reclassified as attachment.
+Merit economics converts your rebirth into a donation schedule. Funeral and memorial monopolies charge families who cannot change temples without abandoning their ancestors' graves. Centers charge retreat fees and rely on unpaid work-exchange labor. Nuns are denied full ordination and resources. Every boundary you set is reclassified as attachment.
 
 *What it asks of you:* When your refusal to give is framed as spiritual immaturity, generosity has been converted into an obligation with cosmological interest.
 :::
@@ -719,7 +721,7 @@ Merit economics converting your rebirth into a donation schedule. Funeral and me
 
 **The counter.** Help becomes FLYING MONKEY behavior when the group’s emotional advice protects the teacher. If everyone asks the victim to examine anger while no one asks the teacher to examine power, compassion has become enforcement.
 
-**Evidence grade.** [[Taught]] Merit economics and donation expectation are taught; the funeral monopoly and monastic gender rules are codified and separately sourced.
+**Evidence grade.** [[Taught]] The phrases senior students use (“attached to anger,” “don't create division”) draw on taught doctrine; who enforces them is community practice.
 :::
 
 ::: tactic n=17
@@ -738,7 +740,7 @@ Merit economics converting your rebirth into a donation schedule. Funeral and me
 
 **The counter.** Careful speech becomes smear when it sanitizes abuse and pathologizes the victim’s anger. Sometimes anger is not ego. Sometimes it is the last honest witness left in the room.
 
-**Evidence grade.** [[Taught]] Merit economics and donation expectation are taught; the funeral monopoly and monastic gender rules are codified and separately sourced.
+**Evidence grade.** [[Taught]] The labels used against critics (angry, attached, egoic, divisive) come from taught categories of attachment and careful speech; applying them to someone who has left is community practice.
 :::
 
 ::: tactic n=18
@@ -757,7 +759,7 @@ Merit economics converting your rebirth into a donation schedule. Funeral and me
 
 **The counter.** Non-reactivity becomes stonewalling when it protects the teacher from consequences. If the sangha can sit silently with abuse but not act against it, silence has stopped being mindfulness and become complicity.
 
-**Evidence grade.** [[Taught]] Merit economics and donation expectation are taught; the funeral monopoly and monastic gender rules are codified and separately sourced.
+**Evidence grade.** [[Taught]] Non-reactivity, careful speech, and compassionate process are taught values; using them to delay action on a report is practice at individual centers.
 :::
 
 ::: tactic n=19
@@ -776,7 +778,7 @@ Merit economics converting your rebirth into a donation schedule. Funeral and me
 
 **The counter.** Voluntary practice becomes manufactured consent when the system interprets every no as ego. If refusal itself becomes evidence that the student needs more practice, consent has been made circular.
 
-**Evidence grade.** [[Taught]] Merit economics and donation expectation are taught; the funeral monopoly and monastic gender rules are codified and separately sourced.
+**Evidence grade.** [[Taught]] The entry rests on teaching that frames refusal and resistance as ego, and on giving (dana) presented as spiritual practice; the consent that results is shaped at individual centers.
 :::
 
 ::: tactic n=20
@@ -795,7 +797,7 @@ Merit economics converting your rebirth into a donation schedule. Funeral and me
 
 **The counter.** Reducing suffering becomes TRAUMA BONDING when the method repeatedly invalidates the sufferer’s perception. If pain caused by the teacher is treated as the student’s attachment, the relief of “practice” reinforces the abusive frame.
 
-**Evidence grade.** [[Taught]] Merit economics and donation expectation are taught; the funeral monopoly and monastic gender rules are codified and separately sourced.
+**Evidence grade.** [[Taught]] The entry rests on the taught diagnosis of suffering as craving, ego, and attachment, with meditation, sangha, and retreats offered as the relief.
 :::
 
 ::: tactic n=21
@@ -814,7 +816,7 @@ Merit economics converting your rebirth into a donation schedule. Funeral and me
 
 **The counter.** Observation becomes LEARNED HELPLESSNESS when it replaces action. If every protest is meditated into silence, the student has not transcended suffering. They have been trained not to respond to it.
 
-**Evidence grade.** [[Taught]] Merit economics and donation expectation are taught; the funeral monopoly and monastic gender rules are codified and separately sourced.
+**Evidence grade.** [[Taught]] The entry rests on the taught practice of observing reactions and reducing reactivity, which individual teachers apply to a student's repeated objections.
 :::
 
 ::: tactic n=22
@@ -833,7 +835,7 @@ Merit economics converting your rebirth into a donation schedule. Funeral and me
 
 **The counter.** Compassion becomes BENEVOLENT CONTROL when it is used to make harmed people easier to manage. If the teacher receives protection and the victim receives mindfulness instructions, care has become institutional sedation.
 
-**Evidence grade.** [[Taught]] Merit economics and donation expectation are taught; the funeral monopoly and monastic gender rules are codified and separately sourced.
+**Evidence grade.** [[Taught]] The entry rests on taught compassion and discipline language (“this is practice,” “your anger is attachment”), applied by teachers and sanghas to manage harmed students.
 :::
 
 ::: tactic n=23
@@ -852,7 +854,7 @@ Merit economics converting your rebirth into a donation schedule. Funeral and me
 
 **The counter.** Teaching becomes INFANTILIZATION when the student’s perception is always inferior. If the teacher gets to define your anger, boundary, and pain as immaturity, spiritual training has become adult invalidation.
 
-**Evidence grade.** [[Codified]] The lapsed bhikkhuni lineage and the eight garudhammas subordinate nuns to monks regardless of seniority, in the monastic code. *(sourced)*
+**Evidence grade.** [[Codified]] Only one part is codified: the lapsed bhikkhuni lineage and the eight garudhammas subordinate nuns to monks regardless of seniority, in the monastic code. The treatment of students as spiritually immature is teacher practice. *(sourced)*
 :::
 
 ::: tactic n=24
@@ -872,7 +874,7 @@ Merit economics converting your rebirth into a donation schedule. Funeral and me
 
 **The counter.** Non-self becomes IDENTITY EROSION when it is used before a stable self has been respected. If the doctrine dissolves boundaries faster than it builds safety, the person is not liberated from ego. They are separated from agency.
 
-**Evidence grade.** [[Taught]] Merit economics and donation expectation are taught; the funeral monopoly and monastic gender rules are codified and separately sourced.
+**Evidence grade.** [[Taught]] The entry rests on the taught doctrine of non-self and on the treatment of desire, anger, and attachment as problems to transcend.
 :::
 
 ::: tactic n=25
@@ -920,7 +922,7 @@ Merit economics converting your rebirth into a donation schedule. Funeral and me
 ::: stage
 **You become expensive — too many questions, too much independence — and the urgency ramps up until you are removed.**
 
-Quiet exclusion rather than formal expulsion: you stop being invited, stop being trusted, and your years are reframed as a stage you failed to pass.
+You are excluded quietly rather than expelled formally: you stop being invited, stop being trusted, and your years are reframed as a stage you failed to pass.
 
 *What it asks of you:* Non-attachment doctrine makes it awkward for you to even name the loss. That is convenient for someone.
 :::
@@ -932,7 +934,7 @@ Quiet exclusion rather than formal expulsion: you stop being invited, stop being
 
 **How it shows here**
 
-- Buddhist communities may manufacture crisis by framing departure as running from suffering, abandoning precious human birth, damaging karma, or creating division in the sangha.
+- Buddhist communities may manufacture crisis by framing departure as running from suffering, abandoning precious human birth (the teaching that a human life capable of practice is rare), damaging karma, or creating division in the sangha.
 - A student’s anger at abuse becomes an urgent spiritual problem to manage.
 - Criticism of the teacher becomes a crisis for the Dharma.
 - The community may rush the harmed person back into meditation, compassion, or internal process before external accountability occurs.
@@ -941,7 +943,7 @@ Quiet exclusion rather than formal expulsion: you stop being invited, stop being
 
 **The counter.** Carefulness becomes MANUFACTURED CRISIS when the victim’s reaction is treated as more urgent than the teacher’s harm. If anger becomes the emergency and abuse becomes context, the crisis has been manufactured to protect power.
 
-**Evidence grade.** [[Cultural]] Departure is handled by quiet exclusion rather than any procedure, which is why nothing is ever on record.
+**Evidence grade.** [[Cultural]] The entry describes urgency created around departure and criticism (running from suffering, damaging karma, dividing the sangha); this is practice at individual centers.
 :::
 
 ::: tactic n=28
@@ -967,7 +969,7 @@ Quiet exclusion rather than formal expulsion: you stop being invited, stop being
 ### Stage 8 · Replace {#stage-8}
 
 ::: stage
-**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to God.**
+**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority is attributed to the dharma, the lineage, or skillful means.**
 
 You are not expelled; you simply stop being invited, and your years are recast as a stage you failed to pass. And the authority is the dharma itself, or the lineage, or skillful means — none of which can be summoned to explain itself.
 
@@ -990,13 +992,13 @@ You are not expelled; you simply stop being invited, and your years are recast a
 
 **The counter.** Practice becomes REPLACEMENT when new students are welcomed into an unsafe structure. If the cushion is filled before the harm is addressed, the sangha is not continuing the Dharma. It is continuing access to the teacher.
 
-**Evidence grade.** [[Cultural]] Authority attributed to the dharma, the lineage, or skillful means — none of which can be summoned to account.
+**Evidence grade.** [[Cultural]] The entry describes centers filling a critic's place with newcomers who are told nothing; this is practice at individual centers.
 :::
 
 ::: tactic n=30
 #### 30 · Plausible Deniability {#t-30}
 
-*The institution is never responsible, because the authority is attributed to God — who isn't available for cross-examination.*
+*The institution is never responsible, because the authority is attributed to the dharma, the lineage, or skillful means, none of which is available for cross-examination.*
 
 **How it shows here**
 
@@ -1019,46 +1021,162 @@ Sources for this section: [9]
 
 ## 13. The loops {#loops}
 
+::: lede
+The seven loops below show how the practices connect, so that each step makes the next one easier and the last step feeds the first. The loops are analysis built from findings recorded elsewhere on this page [PATTERN OBSERVED]; each step names the section or technique where its fact is recorded.
+:::
+
 ::: card
 #### 1 · Money to Doctrine to Money
 
-Merit teaching converts your rebirth into a donation schedule, taught by the institutions that receive it.
+Merit teaching converts your rebirth into a donation schedule, and it is taught by the institutions that receive the donations.
+
+**How it runs.**
+
+1. Monasteries and temples teach that giving to the institution purchases karmic benefit, which converts cosmology into revenue (sections 9 and 10).
+2. Refusal is framed as spiritual immaturity, and in the genealogy card as cosmically dangerous (section 10; technique 26).
+3. The money passes from poor households to the temple or monastery, then to the monastic hierarchy, then to construction and state-aligned sangha bodies (section 9, merit economy pipeline).
+4. The institutions that receive it benefit: monastic hierarchies, temple administrations and, in state-sangha countries, the governments that appoint them (section 10).
+5. Those same institutions go on teaching merit, and the giving continues.
+
+**Techniques that feed it.** [2 · Weaponized Generosity](#t-2), [3 · Future Faking](#t-3), [19 · Manufactured Consent](#t-19), [26 · Financial Control](#t-26).
+
+**Why it closes.** The institution that teaches that giving improves rebirth is the institution that receives the gift. The receipts, and the split between personal and institutional use, are hidden (section 9), so the giver cannot check the exchange.
+
+**Where it could be broken, and by whom.** It weakens wherever the money becomes visible and refusal carries no penalty. The English Sangha Trust's income is on a public charity register (section 9), which shows that publication is possible; other temple and monastery accounts are in the institutions' hands. A donor can ask to see the accounts before giving (section 23, question 4). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Officials of Thailand's National Office of Buddhism were charged in 2018 with embezzling state funds meant for temples, and a former head of the office was sentenced to 94 years for fraud (sections 8 and 19).
 :::
 
 ::: card
 #### 2 · Fear to Dependence to Fear
 
-Samsara and karmic consequence installed as the diagnosis; relief through practice supervised by the diagnosing teacher.
+Samsara and karmic consequence are installed as the diagnosis, and relief comes through practice supervised by the diagnosing teacher.
+
+**How it runs.**
+
+1. Newcomers arrive in pain and are given a diagnosis (craving, attachment, ignorance), and the center, teacher, lineage or sangha offers the cure (stage 1; technique 1).
+2. Suffering becomes diagnostic: pain proves attachment, anger proves ego and doubt proves ignorance (technique 5).
+3. The cure is practice under the same teacher, and any objection to the teacher is read as ego, aversion or insufficient practice (techniques 6 and 7).
+4. Relief arrives unevenly, and dry months are credited to the student's hindrances and answered with another retreat (technique 8).
+5. A student who starts to leave is told they are running from suffering or clinging to ego (technique 4), and returns to the same teacher to have the diagnosis renewed (technique 20).
+
+**Techniques that feed it.** [4 · Hoovering](#t-4), [5 · Devaluation](#t-5), [8 · Intermittent Reinforcement](#t-8), [20 · Trauma Bonding](#t-20).
+
+**Why it closes.** The only relief on offer comes from the party that names the problem. Every protest is read as confirming the diagnosis, so the student who objects is treated as proving it (technique 7: the assay is welcome as long as the gold always passes).
+
+**Where it could be broken, and by whom.** It weakens where a student can test the teachings against a source outside the center. The Vinaya already prescribes confronting a monk who errs (section 3), and the decision to apply it sits with the center's board and senior students. A student can also seek a view from outside the center before accepting a diagnosis. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** In the day described in section 2, Grace raises her concern about a senior student, and the teacher tells her gently that she might look at where her reactivity is arising.
 :::
 
 ::: card
 #### 3 · Children to Members to Children
 
-Child ordination and temple registration attach identity before evaluation and are transmitted by household.
+Child ordination and temple registration attach identity before evaluation, and they are transmitted by household.
+
+**How it runs.**
+
+1. Children are ordained, temporarily or permanently, in Theravada countries, with novice monks as young as 7 in some monastic schools and sometimes as a poverty-relief pathway (section 11).
+2. In Japan, Tokugawa-era temple registration attached every household to a temple, and funeral and memorial rights follow the registered household (sections 5, 7 and 10).
+3. Merit teaching directed at children makes family religious spending an obligation of love, and withholding is framed as harming ancestors' rebirth (section 11).
+4. Ancestor rites and funeral affiliation follow the household, not the individual (section 15).
+5. The next generation inherits the same affiliation and the same spending, and the cycle continues.
+
+**Techniques that feed it.** [13 · Normalization / Desensitization](#t-13), [19 · Manufactured Consent](#t-19), [26 · Financial Control](#t-26).
+
+**Why it closes.** Each generation is affiliated before it can evaluate the affiliation, and the affiliation is carried by the household rather than by the individual. Leaving would mean abandoning ancestors' graves (section 10).
+
+**Where it could be broken, and by whom.** It weakens where affiliation waits for the individual's own choice. Compulsory registration has ended in Japan (section 10), and the choice to leave the affiliation now sits with families. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** The Japanese funeral monopoly is the clearest case: families face very high fees and cannot easily change temples without abandoning their ancestors' graves (section 10).
 :::
 
 ::: card
 #### 4 · Aid to Legitimacy to Leverage to Aid
 
 State-aligned sangha bodies trade legitimacy for licensing and protection, and the licensing preserves the alignment.
+
+**How it runs.**
+
+1. State sangha councils license monks, supervise monastic discipline and align the monastic order with government (section 7).
+2. In Thailand the King names the Supreme Patriarch under a 2016 amendment to the Sangha Act, and the Crown can remove him (sections 6, 7 and 8).
+3. The state-aligned hierarchy lends the government religious legitimacy and receives governmental privilege in return (section 16).
+4. In Myanmar, nationalist monastic networks have been documented spreading anti-Muslim mobilization with official tolerance (sections 11 and 16).
+5. Licensing keeps the hierarchy dependent on the state, so the exchange continues (section 7: whether your monk can say anything the state dislikes).
+
+**Techniques that feed it.** [22 · Benevolent Control](#t-22), [26 · Financial Control](#t-26), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** Each side holds what the other needs. The state supplies licensing, appointment and protection, the hierarchy supplies legitimacy, and the licence is what keeps the hierarchy aligned.
+
+**Where it could be broken, and by whom.** It weakens where courts and regulators can reach the state-linked bodies. Thai officials of the National Office of Buddhism were charged in 2018 (section 8), and the UN fact-finding mission put the nationalist monks' hate speech on the formal record (section 19). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** The National Office of Buddhism administers Thailand's temple funds, and its former head was sentenced to 94 years for fraud (sections 19 and 22).
 :::
 
 ::: card
 #### 5 · Unpaid Labor to Assets to Power to More Labor
 
 Work-exchange labor and merit donations build centres and temples that the practitioners never own.
+
+**How it runs.**
+
+1. Convert-sangha centers are staffed with unpaid work-exchange labor, and residents pay fees as well (sections 2 and 7).
+2. Retreat, course and teacher-training fees are charged alongside the unpaid labor (section 9).
+3. Together they build the center and its teacher-training pipelines, and the practitioners hold none of the equity (section 7: the equity you do not hold).
+4. Authority over the center sits with the founding teacher and a board of the teacher's own students (section 7).
+5. A student who reports harm and leaves is replaced by new retreatants, and the unpaid labor continues (technique 29).
+
+**Techniques that feed it.** [19 · Manufactured Consent](#t-19), [26 · Financial Control](#t-26), [29 · Replacement](#t-29).
+
+**Why it closes.** Value flows from the students to the center, and authority sits with the teacher and the board. The people who produce the assets hold no office that controls them.
+
+**Where it could be broken, and by whom.** It weakens where labor is scheduled as labor and not as the teaching. Section 18 names this as the point where retreat managers and work-exchange coordinators could refuse. It also weakens where the board answers to someone other than the teacher who formed it. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Grace in section 2 is a residential student who pays a monthly fee and also works twenty hours a week.
 :::
 
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
 A teacher is removed, the lineage continues, the students who reported are gone, and the Vinaya still is not used.
+
+**How it runs.**
+
+1. A student reports harm inside the center and is told to notice aversion, examine projection or not cling to anger (techniques 6 and 12).
+2. The center delays, urges calm process and treats the student's urgency as immaturity, and the student is quietly excluded (techniques 18 and 28).
+3. Exposure comes from outside: at Rigpa, eight senior students wrote publicly, and the investigations at Rigpa and Shambhala were commissioned only after public exposure (sections 5 and 7).
+4. The teacher is removed and the lineage's prestige stays intact, with no Vinaya procedure invoked (section 14, last time the chair ran).
+5. New students arrive and the critics' warnings are drowned out (technique 29), and section 14 predicts that the next case will again be handled by an internal committee.
+
+**Techniques that feed it.** [12 · DARVO](#t-12), [18 · Silent Treatment / Stonewalling](#t-18), [28 · Discard](#t-28), [29 · Replacement](#t-29).
+
+**Why it closes.** Each step closes the complaint without applying the Vinaya procedure, so the structure that produced the case is left unchanged.
+
+**Where it could be broken, and by whom.** Section 20 names the change that would break it: Western centers adopting independent misconduct processes with lay authority over teachers, before a scandal rather than after one. That lies with boards and members. Regulators can reach registered charities, as the Charity Commission did at Rigpa (section 8). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** The Charity Commission's inquiry found that Rigpa's former trustees had failed to act on what they knew (sections 8 and 19).
 :::
 
 ::: card
 #### 7 · Persecution to Solidarity to Insulation to Unaccountability
 
-Colonial suppression and communist destruction were real, and are cited to make internal accountability look like an attack.
+Colonial suppression and communist destruction were real, and they are cited to make internal accountability look like an attack.
+
+**How it runs.**
+
+1. Persecution of Buddhism was real: colonial disruption, and communist suppression in China, Tibet and Cambodia (section 5, timeline).
+2. Criticism of a teacher is then framed as creating division, and the critic as harming the Dharma (techniques 11 and 17).
+3. Members close ranks: senior students ask the complainant to speak compassionately and not to create division (technique 16).
+4. Harm is attributed to Asian culture or, in the West, to individual teachers' personalities, and the structure is not examined (section 15, cultural outsourcing).
+5. Nothing changes inside, and the Vinaya is still not applied (section 14).
+
+**Techniques that feed it.** [11 · Projection](#t-11), [16 · Flying Monkeys](#t-16), [17 · Smear Campaign](#t-17).
+
+**Why it closes.** The more criticism arrives, the more it can be read as a continuation of the earlier hostility, and each reading strengthens the solidarity that shields the institution from the criticism.
+
+**Where it could be broken, and by whom.** It weakens where members read inquiry findings as the institution's own record and not as an outsider's attack. Section 20 records engaged Buddhists, monks and scholars inside those countries, who confront monastic nationalism at the cost of arrest and exile. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 5 records both halves: communist suppression in China, Tibet and Cambodia between the 1950s and the 1970s, and, from the 1990s, monks mobilized for ethnic violence in Myanmar and Sri Lanka. The UN fact-finding mission documented hate speech by nationalist monks against the Rohingya (section 19).
 :::
 
 ## 14. Say versus do {#say-do}
@@ -1074,9 +1192,9 @@ Colonial suppression and communist destruction were real, and are cited to make 
 
 ### Accountability or theatre?
 
-**Last time the chair ran.** Multiple Western teacher scandals: teacher removed, lineage prestige intact, no Vinaya procedure invoked.
+**Last time the chair ran.** In multiple Western teacher scandals, the teacher was removed, the lineage's prestige stayed intact, and no Vinaya procedure was invoked.
 
-**Who holds the chair now.** Lineage holders, centre boards, and state sangha councils.
+**Who holds the chair now.** Lineage holders, centre boards, and state sangha councils hold it.
 
 **Prediction.** The next case will be handled by an internal committee, the term used will be skillful means, and the complainant will leave the community.
 
@@ -1084,24 +1202,24 @@ Colonial suppression and communist destruction were real, and are cited to make 
 
 | Term | What it means inside | What it does | Said plainly |
 |---|---|---|---|
-| Attachment | Clinging that causes suffering. | Correct as doctrine; as a response to a person raising a grievance it renames their legitimate concern as their own spiritual defect. | 'Your objection is your problem.' |
-| Right speech | The precept against harmful, divisive, or false speech. | A genuine ethical commitment routinely invoked to suppress accurate reports of institutional misconduct. | 'Saying true things about us is unethical.' |
-| Skilful means (upaya) | Teaching adapted to the student's capacity. | Legitimate and ancient. It also supplies the standard retrospective justification for conduct that would otherwise require an apology. | 'It looked wrong and it was actually advanced.' |
+| Attachment | Attachment is clinging that causes suffering. | It is correct as doctrine; as a response to a person raising a grievance it renames their legitimate concern as their own spiritual defect. | 'Your objection is your problem.' |
+| Right speech | Right speech is the precept against harmful, divisive, or false speech. | It is a genuine ethical commitment, routinely invoked to suppress accurate reports of institutional misconduct. | 'Saying true things about us is unethical.' |
+| Skilful means (upaya) | Skilful means is teaching adapted to the student's capacity. | It is legitimate and ancient. It also supplies the standard retrospective justification for conduct that would otherwise require an apology. | 'It looked wrong and it was actually advanced.' |
 
 ## 15. Cost & cover {#cost}
 
 ### What leaving costs
 
-- Monastics who disrobe in traditional societies face status loss; convert-sangha members leaving scandal-hit centers lose community and years of practice investment.
+- Monastics who disrobe in traditional societies lose status, and convert-sangha members who leave scandal-hit centers lose their community and the years of practice they invested.
 - For lay Buddhists in traditional societies, exit costs are mostly familial/ritual (funerals, ancestor obligations).
 
 ### The ledger of exit
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Monastic status and livelihood | Yes | Disrobing carries stigma in traditional societies; loss of housing, education, and standing | “Anyone may leave the sangha freely — the Buddha permitted it.” |
-| Community (convert sanghas) | Yes | Years of practice identity and friendship housed entirely in one center | “It's a meditation group, not a church.” |
-| Reframed as spiritual failure | Yes | Departure attributed to ego, resistance, or bad karma | “That's a diagnosis, not a punishment.” |
+| Monastic status and livelihood | Yes | Disrobing carries stigma in traditional societies, and a monastic who disrobes loses housing, education, and standing | “Anyone may leave the sangha freely — the Buddha permitted it.” |
+| Community (convert sanghas) | Yes | Members' years of practice identity and friendship are housed entirely in one center | “It's a meditation group, not a church.” |
+| Reframed as spiritual failure | Yes | Departure is attributed to ego, resistance, or bad karma | “That's a diagnosis, not a punishment.” |
 | Family ritual obligation | Yes in East Asia | Ancestor rites and funeral affiliation follow the household, not the individual | “It's custom, not religion.” |
 
 ### How the cost is denied
@@ -1112,7 +1230,7 @@ Colonial suppression and communist destruction were real, and are cited to make 
 | Informal enforcement | High | Merit anxiety and community expectation replace any written requirement. |
 | Leadership distance | High | No global authority; each lineage and national sangha disclaims the rest. |
 | Doctrinal ambiguity | Very high | 'Skillful means' and 'crazy wisdom' can retroactively justify almost any teacher behavior. |
-| Cultural outsourcing | High | Harms attributed to Asian culture, or in the West to individual teachers' personalities. |
+| Cultural outsourcing | High | Harms are attributed to Asian culture, or in the West to individual teachers' personalities. |
 | Volunteer enforcement | High | Senior students police complaints and manage reputations on the teacher's behalf. |
 | Sacred secrecy | Medium | Private interview traditions and lineage confidentiality shield conduct. |
 | Exit cost denial | High | Non-attachment doctrine makes it awkward to even name what leaving costs. |
@@ -1121,8 +1239,8 @@ Colonial suppression and communist destruction were real, and are cited to make 
 
 ### Who benefits
 
-- State-aligned sangha hierarchies trading legitimacy with governments; temple families in funeral-monopoly systems; celebrity teachers in convert Buddhism whose organizations survived documented abuse through lineage prestige (multiple Zen and Vipassana-adjacent scandals). [INVESTIGATIVE REPORT]
-- The secular mindfulness industry extracting technique while discarding ethics — monetization without accountability. [PATTERN OBSERVED]
+- State-aligned sangha hierarchies benefit, trading legitimacy with governments. So do temple families in funeral-monopoly systems and celebrity teachers in convert Buddhism, whose organizations survived documented abuse through lineage prestige (multiple Zen and Vipassana-adjacent scandals). [INVESTIGATIVE REPORT]
+- The secular mindfulness industry benefits by extracting the technique while discarding the ethics, which is monetization without accountability. [PATTERN OBSERVED]
 
 ### Money out, leverage back
 
@@ -1132,34 +1250,38 @@ Colonial suppression and communist destruction were real, and are cited to make 
 
 ### Who pays
 
-- Nuns and women practitioners, denied full ordination and resources.
-- Child novices, in monastic schools without safeguarding.
-- Students of abusive Western teachers, whose complaints were reframed as ego.
-- Poor families in merit economies, spending on rites they cannot afford.
-- Rohingya Muslims and Sri Lankan Tamils and Muslims, targets of Buddhist nationalist mobilization. [GOVERNMENT REPORT]
-- Japanese families locked into hereditary temple funeral costs.
+- Nuns and women practitioners pay, denied full ordination and resources.
+- Child novices pay, in monastic schools without safeguarding.
+- Students of abusive Western teachers pay, because their complaints were reframed as ego.
+- Poor families in merit economies pay, spending on rites they cannot afford.
+- Rohingya Muslims and Sri Lankan Tamils and Muslims pay, as targets of Buddhist nationalist mobilization. [GOVERNMENT REPORT]
+- Japanese families pay, locked into hereditary temple funeral costs.
 
 ## 17. Who gets hurt most {#who-gets-hurt}
 
 ### Where the weight lands
 
+The costs in section 15 do not fall evenly. They fall hardest where a person has the least power inside the institution and the fewest places to go outside it. The table names who carries the most, how, and what makes it worse.
+
 | Who | How | What it compounds with |
 |---|---|---|
-| Nuns and female practitioners | Denied full ordination, seniority, and resources | In traditions where nuns outnumber monks and are funded least |
-| Child novices | Ordination as poverty relief, with documented abuse and weak oversight | Where the monastery is the only school available |
-| Students of abusive Western teachers | Complaints reclassified as ego and attachment | After a decade of practice identity invested in one centre |
-| Poor families in merit economies | Spending they cannot afford on rites framed as karmic necessity | Where a funeral's cost determines the family's standing |
-| Rohingya Muslims and Sri Lankan minorities | Targets of Buddhist nationalist mobilization | With state complicity and no protection |
+| Nuns and female practitioners | They are denied full ordination, seniority, and resources. | The harm compounds in traditions where nuns outnumber monks and are funded least. |
+| Child novices | They are ordained as poverty relief, with documented abuse and weak oversight. | The harm compounds where the monastery is the only school available. |
+| Students of abusive Western teachers | Their complaints are reclassified as ego and attachment. | The harm compounds after a decade of practice identity invested in one centre. |
+| Poor families in merit economies | They spend money they cannot afford on rites framed as karmic necessity. | The harm compounds where a funeral's cost determines the family's standing. |
+| Rohingya Muslims and Sri Lankan minorities | They are targets of Buddhist nationalist mobilization. | The harm compounds with state complicity and no protection. |
 
 ## 18. The middle tiers {#tiers}
 
+Most of the institution's work is done below the apex, by people who see the decisions without making them. Ordinary monks, centre boards and practice coordinators, retreat managers and work-exchange coordinators, nuns and female teachers, and temple family priests in Japan each carry part of the load, and each stands at one point where the next decision could be declined. The table sets out what each tier does, what it sees, what it is asked to do and where it could refuse.
+
 | Role | Does | Sees | Is asked to | Could refuse |
 |---|---|---|---|---|
-| Ordinary monks | Keeps the tradition alive on almsfood and no property | How the temple's money actually moves | To accept the hierarchy's authority | To participate in merit-selling aimed at the poor |
-| Centre boards and practice coordinators | Runs the convert sangha | Complaints about the teacher arriving and stopping | To protect the lineage's reputation | To handle a misconduct report inside the organization |
-| Retreat managers and work-exchange coordinators | Staffs the centre with unpaid labor | The hours against the fees | To call it practice | To schedule labor as though it were the teaching |
-| Nuns and female teachers | Holds much of the actual instruction with a fraction of the resources | That ordination is closed by procedure, not principle | To be patient | To accept a procedural objection that produces a permanent exclusion |
-| Temple family priests in Japan | Buries the dead of registered households | That the monopoly is administrative, not spiritual | To maintain the tier pricing | To charge by posthumous-name rank |
+| Ordinary monks | Keep the tradition alive on almsfood and no property | How the temple's money actually moves | Accept the hierarchy's authority | Participate in merit-selling aimed at the poor |
+| Centre boards and practice coordinators | Run the convert sangha | Complaints about the teacher arriving and stopping | Protect the lineage's reputation | Handle a misconduct report inside the organization |
+| Retreat managers and work-exchange coordinators | Staff the centre with unpaid labor | The hours against the fees | Call it practice | Schedule labor as though it were the teaching |
+| Nuns and female teachers | Hold much of the actual instruction with a fraction of the resources | That ordination is closed by procedure, not principle | Be patient | Accept a procedural objection that produces a permanent exclusion |
+| Temple family priests in Japan | Bury the dead of registered households | That the monopoly is administrative, not spiritual | Maintain the tier pricing | Charge by posthumous-name rank |
 
 ## 19. Documented cases {#cases}
 
@@ -1198,7 +1320,7 @@ Colonial suppression and communist destruction were real, and are cited to make 
 - **when:** 2012–2018
 - **what:** A UN fact-finding mission documented hate speech against Rohingya Muslims, including by nationalist monks linked to Ma Ba Tha [7].
 - **record:** UN Independent International Fact-Finding Mission on Myanmar, A/HRC/39/64 (2018) [7]
-- **outcome:** Part of the UN's formal record on the violence against the Rohingya [7].
+- **outcome:** It forms part of the UN's formal record on the violence against the Rohingya [7].
 - **tactics:** 17, 27
 - **grade:** Documented
 :::
@@ -1209,10 +1331,10 @@ Colonial suppression and communist destruction were real, and are cited to make 
 
 | What | Who | When | What it cost |
 |---|---|---|---|
-| The Vinaya itself — public confession, expulsion rules, no hereditary rank | The tradition's founders | 24 centuries ago | None, and it is the strongest internal instrument in this codex |
-| Centres that commissioned and published independent investigations of their own teachers | Boards and members who insisted | 2010s | Organizational collapse in several cases |
-| Bhikkhuni ordination revivals recognized by some sanghas | Nuns and supporting monks | 1996–present | Non-recognition and censure from national bodies |
-| Engaged Buddhism confronting monastic nationalism | Monks and scholars inside those countries | Ongoing | Arrest and exile |
+| The Vinaya itself — public confession, expulsion rules, no hereditary rank | The tradition's founders | 24 centuries ago | It cost nothing, and it is the strongest internal instrument in this codex. |
+| Centres that commissioned and published independent investigations of their own teachers | Boards and members who insisted | 2010s | It cost several of them organizational collapse. |
+| Bhikkhuni ordination revivals recognized by some sanghas | Nuns and supporting monks | 1996–present | They were met with non-recognition and censure from national bodies. |
+| Engaged Buddhism confronting monastic nationalism | Monks and scholars inside those countries | Ongoing | They have faced arrest and exile. |
 
 ### What would change this page
 
@@ -1224,32 +1346,32 @@ Sources for this section: [9]
 
 ## 21. Voices from inside {#voices}
 
-- **Dhammananda Bhikkhuni.** Thailand's first fully ordained Theravada nun, who had to go to Sri Lanka for ordination in 2003 [14].
-- **Ajahn Brahm.** Expelled from the Ajahn Chah forest lineage after he helped ordain four women as bhikkhunis in Perth in 2009 [13].
-- **The Rigpa students** whose complaints led to the 2018 investigation [6].
-- **Brian Victoria.** A Zen priest and scholar whose *Zen at War* documented his own tradition's support for militarism [8].
+- **Dhammananda Bhikkhuni.** She is Thailand's first fully ordained Theravada nun, and she had to go to Sri Lanka for ordination in 2003 [14].
+- **Ajahn Brahm.** He was expelled from the Ajahn Chah forest lineage after he helped ordain four women as bhikkhunis in Perth in 2009 [13].
+- **The Rigpa students.** Their complaints led to the 2018 investigation [6].
+- **Brian Victoria.** He is a Zen priest and scholar, and his *Zen at War* documented his own tradition's support for militarism [8].
 
 ## 22. Regional variants {#regional}
 
 ::: card
 ### Thailand
 
-- **apex:** The Supreme Patriarch, appointed by the King; the Sangha Supreme Council.
+- **apex:** The Supreme Patriarch, appointed by the King, and the Sangha Supreme Council hold the apex.
 - **law:** The Sangha Act makes monastic governance a matter of statute. The National Office of Buddhism administers temple funds.
-- **documented:** Temple funding scandals prosecuted by Thai authorities; state intervention in monastic appointments.
-- **exit:** Low for laypeople; high for monastics, whose entire status is administrative.
-- **regulator:** The National Office of Buddhism; the courts; the Crown, ultimately, on the apex.
+- **documented:** Thai authorities have prosecuted temple funding scandals, and the state has intervened in monastic appointments.
+- **exit:** Exit costs are low for laypeople and high for monastics, whose entire status is administrative.
+- **regulator:** The National Office of Buddhism and the courts regulate, and on the apex the Crown does so ultimately.
 - **tell:** Where the apex is royal by statute, monastic accountability is a branch of public administration — with the advantages and the capture that implies.
 :::
 
 ::: card
 ### Western convert centres
 
-- **apex:** The founding teacher and a board of the teacher's own students.
-- **law:** Charity registration in the UK, Australia and Canada; US entities frequently classified as churches and therefore exempt.
-- **documented:** The Lewis report on Rigpa (2018), commissioned after eight senior students wrote publicly; the Shambhala investigations. Registration gave regulators a handle: the Charity Commission's statutory inquiry later found Rigpa UK's former trustees had failed to act on what they knew.
-- **exit:** Low socially; high for residents and staff whose housing and income are inside.
-- **regulator:** Charity Commission and ACNC — the handle that made the findings enforceable; ordinary courts.
+- **apex:** The founding teacher and a board of the teacher's own students hold the apex.
+- **law:** Centers are registered as charities in the UK, Australia and Canada, and US entities are frequently classified as churches and therefore exempt.
+- **documented:** The Lewis report on Rigpa (2018) was commissioned after eight senior students wrote publicly, and the Shambhala investigations are also on record. Registration gave regulators a handle: the Charity Commission's statutory inquiry later found Rigpa UK's former trustees had failed to act on what they knew.
+- **exit:** Exit costs are low socially and high for residents and staff whose housing and income are inside.
+- **regulator:** The Charity Commission and the ACNC (the Australian Charities and Not-for-profits Commission) regulate, and they are the handle that made the findings enforceable. Ordinary courts also have jurisdiction.
 - **tell:** The corporate wrapper is the handle. Lineage authority has no external address; a registered charity does.
 :::
 
@@ -1276,7 +1398,7 @@ You can keep the practice and drop the man. In fact the tradition tells you to: 
 
 Practical guidance, not legal advice.
 
-1. **Leaving a Buddhist centre is legally free;** the costs are community, and for residents, housing.
+1. **Leaving a Buddhist centre is legally free;** the costs are the loss of community and, for residents, of housing.
 2. **If a teacher abuses you,** go to the police; if the centre is a UK charity, you can also report to the Charity Commission [6].
 3. **Monks and nuns who disrobe** may need help with housing, work and documents.
 4. **Find support** [15][16][17].
