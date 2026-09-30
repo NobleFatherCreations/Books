@@ -117,5 +117,35 @@
   "after": "\\1US, Canada and online\\2",
   "reason": "Recovering from Religion's hotline takes calls from the US and Canada (recoveringfromreligion.org, checked 2026-09-29).",
   "status": "proposed"
+ },
+ {
+  "id": "ALL-F04",
+  "scope": "md",
+  "type": "proof",
+  "count": "any",
+  "before": "**0303 330 0288**",
+  "after": "**0800 999 5786** (freephone; Mon–Fri 10am–4pm)",
+  "reason": "Muslim Women's Network helpline number was wrong in the Islam and Ahmadiyya volumes. MWN lists 0800 999 5786 / 0303 999 5786, Monday–Friday 10am–4pm (mwnuk.co.uk/mwn-helpline, checked 2026-09-30). Applied because a wrong help-line number can do real harm; flagged in DISCREPANCIES for sign-off.",
+  "status": "proposed"
+ },
+ {
+  "id": "ALL-F05",
+  "scope": "md",
+  "type": "proof",
+  "count": "any",
+  "before": "Helpline — 0303 330 0288.",
+  "after": "Helpline — 0800 999 5786 (freephone; Mon–Fri 10am–4pm).",
+  "reason": "Same correction in the Sources entries.",
+  "status": "proposed"
+ },
+ {
+  "id": "ALL-F06",
+  "scope": "md",
+  "type": "proof",
+  "count": "any",
+  "before": "helpline (0303 330 0288).",
+  "after": "helpline (0800 999 5786, freephone; Mon–Fri 10am–4pm).",
+  "reason": "Same correction in the Sources entry, bracketed form.",
+  "status": "proposed"
  }
 ]

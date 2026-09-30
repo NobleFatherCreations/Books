@@ -497,7 +497,7 @@ Checked 2026-09-27.
 |---|---|---|---|
 | **Faith to Faithless** | People leaving high-control religion | UK | Helpline [26] |
 | **Ex-Muslims of North America** | Vetted private communities | US, Canada | Online [27] |
-| **Muslim Women's Network Helpline** | Women facing abuse or family-law problems | UK | **0303 330 0288** [30] |
+| **Muslim Women's Network Helpline** | Women facing abuse or family-law problems | UK | **0800 999 5786** (freephone; Mon–Fri 10am–4pm) [30] |
 | **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** [28] |
 | **Humanists at Risk** | People prosecuted for blasphemy or apostasy | Global | Casework [29] |
 
@@ -532,7 +532,7 @@ Checked 2026-09-27.
 27. Ex-Muslims of North America, "Support Communities". <https://exmuslims.org/community/>
 28. Karma Nirvana, national Honour Based Abuse Helpline. <https://karmanirvana.org.uk/get-help/helpline/>
 29. Humanists International, "Humanists at Risk". <https://humanists.international/what-we-do/humanists-at-risk/>
-30. Muslim Women's Network UK, helpline (0303 330 0288). <https://www.mwnuk.co.uk/mwn-helpline>
+30. Muslim Women's Network UK, helpline (0800 999 5786, freephone; Mon–Fri 10am–4pm). <https://www.mwnuk.co.uk/mwn-helpline>
 
 ## 27. What changed on this page {#changed}
 
