@@ -18,13 +18,13 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | About 200–260 million (~10–13% of Muslims). [ACADEMIC SOURCE: Pew] |
-| Who's in charge | Supreme Leader of Iran (velayat-e faqih) — Ayatollah Mojtaba Khamenei, chosen in March 2026 after his father Ali Khamenei — Leader since 1989 — was killed in an air strike on 28 February 2026; constitutional authority over doctrine, courts, media, and the bonyad economies |
-| Chosen by / removable by | The Assembly of Experts — whose candidates his own Guardian Council vets / In theory, that Assembly. In thirty-seven years and two Leaders, never — and it chose the late Leader's son |
-| Money in one line | Khums: a 20% levy on annual surplus income. Half (sahm-e Imam) goes to the marjaʿ’s office as the Imam’s deputy; the other half (sahm-e sadat) is owed to needy descendants of the Prophet and is often routed through the same offices. No audited public accounting is required. [OFFICIAL POLICY: fiqh manuals] |
-| Leaving in one line | In Iran: state apparatus enforces religious compliance (morality policing, apostasy/blasphemy exposure). [GOVERNMENT REPORT: UN human rights reporting] |
+| Size | Shia Islam has about 200–260 million adherents (~10–13% of Muslims). [ACADEMIC SOURCE: Pew] |
+| Who's in charge | The Supreme Leader of Iran, the office created by velayat-e faqih (rule by the senior Islamic jurist), is Ayatollah Mojtaba Khamenei. He was chosen in March 2026 after his father, Ali Khamenei, Leader since 1989, was killed in an air strike on 28 February 2026. The office holds constitutional authority over doctrine, courts, media and the bonyad economies (the holdings of the revolutionary foundations). |
+| Chosen by / removable by | The Assembly of Experts (an elected body of senior clerics) chooses him, and his own Guardian Council (a constitutional council of clerics and jurists) vets its candidates / In theory, that Assembly can remove him. In thirty-seven years and two Leaders it never has, and it chose the late Leader's son. |
+| Money in one line | Khums (the religious 'fifth') is a 20% levy on annual surplus income. Half of it, the sahm-e Imam (the Imam's share), goes to the office of the marjaʿ (a senior jurist whom believers follow) as the deputy of the Imam (the twelfth Imam, held to be in hiding); the other half, the sahm-e sadat (the sayyids' share), is owed to needy descendants of the Prophet and is often routed through the same offices. No audited public accounting is required. [OFFICIAL POLICY: fiqh manuals] |
+| Leaving in one line | In Iran, the state apparatus enforces religious compliance through morality policing and exposure to apostasy and blasphemy charges. [GOVERNMENT REPORT: UN human rights reporting] |
 | The unanswered question | Khums is a sacred obligation and the shrine conglomerates' books are closed. Who audits the deputy of the Imam? |
-| Evidence | 5 of 30 techniques sourced to a named document; grades: Taught 14, Codified 12, Cultural 2, Documented 1, Contested 1 |
+| Evidence | Five of the 30 techniques are sourced to a named document. The grades are Taught 14, Codified 12, Cultural 2, Documented 1 and Contested 1. |
 | Family | Islam — islam, sunni-islam, shia-islam, ahmadiyya, dawoodi-bohra |
 | Last checked | 2026-09-27 |
 :::
@@ -41,7 +41,7 @@ partial: []
 
 *Nasrin · A Tuesday in Muharram · Tehran*
 
-The black banners have been up for a week. She loves Muharram. She has loved it since she was small enough to be carried through it, and the grief in it is not performed for her — it is the realest thing her calendar contains.
+The black banners have been up for a week. She loves Muharram (the month in which the death of Husayn at Karbala is mourned). She has loved it since she was small enough to be carried through it, and the grief in it is not performed for her — it is the realest thing her calendar contains.
 
 She leaves for the university at seven-forty and checks her scarf in the lift mirror, and adjusts it, and checks it again, and this takes eleven seconds and happens every single day of her life and she has never once counted it before.
 
@@ -49,14 +49,14 @@ In the seminar a lecturer says something careful about the economy and then, a b
 
 At lunch her friend Sahar shows her a photograph on a phone held low: a girl they were at school with, in a hospital bed, from the protests in the autumn. Sahar puts the phone away after four seconds. They eat their rice. Nasrin says, eventually, *does her mother know* and Sahar says *her mother is the one who sent it.*
 
-In the evening the majlis. The reciter's voice does the thing it does, and the room breaks, and Nasrin cries the way everyone cries, for Husayn, who stood in front of a ruler who claimed God's authority and refused him and was killed for it. She means every tear.
+In the evening, the majlis (the mourning gathering). The reciter's voice does the thing it does, and the room breaks, and Nasrin cries the way everyone cries, for Husayn, who stood in front of a ruler who claimed God's authority and refused him and was killed for it. She means every tear.
 
 Walking home her father talks about khums, which is due, and about which office they follow, and Nasrin asks — lightly, as a joke almost — whether anyone ever sees where it goes. Her father laughs and says that is not a question one asks. He is a kind man. He is not warning her. He simply does not have the question available, and she watches herself decide not to ask it again.
 
 ## 3. The forefront {#forefront}
 
 ::: lede
-Karbala is in your body. The grief is not manipulation — it is one of the most morally serious things any religion has ever produced: a permanent memorial to refusing a corrupt ruler. Which is exactly why it matters who is standing on it now, and what they are collecting.
+Karbala (the battle of 680 at which Husayn was killed) is in your body. The grief is not manipulation — it is one of the most morally serious things any religion has ever produced: a permanent memorial to refusing a corrupt ruler. Which is exactly why it matters who is standing on it now, and what they are collecting.
 :::
 
 ### The unanswered question
@@ -75,7 +75,7 @@ Khums is a sacred obligation and the shrine conglomerates' books are closed. Who
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| State punishment (Iran) | Yes | Morality policing, apostasy exposure, imprisonment of critics | “These are national security matters.” |
+| State punishment (Iran) | Yes | The state uses morality policing, exposure to apostasy charges and the imprisonment of critics. | “These are national security matters.” |
 
 ### The strongest objection, answered
 
@@ -83,28 +83,31 @@ Khums is a sacred obligation and the shrine conglomerates' books are closed. Who
 
 **What is true in it.** Shia communities are persecuted minorities across much of the Muslim world, and anti-Shia violence is real and current. This codex states that.
 
-**The answer.** The critique offered here is the Najaf critique — the tradition's own senior center rejects clerical rule. And the protesters were Iranian, many of them devout. When the internal dissent is religious, calling it foreign is the tell.
+**The answer.** The critique offered here is the Najaf critique (from the Iraqi shrine and seminary city) — the tradition's own senior center rejects clerical rule. And the protesters were Iranian, many of them devout. When the internal dissent is religious, calling it foreign is the tell.
 
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-~10–13% of Muslims, majority in Iran, Iraq, Azerbaijan, Bahrain; centered on devotion to the Prophet's family and the Imams, with a uniquely structured clerical hierarchy.
+Shia Muslims are ~10–13% of all Muslims and a majority in Iran, Iraq, Azerbaijan and Bahrain. The tradition is centered on devotion to the Prophet's family and the Imams, and has a uniquely structured clerical hierarchy.
 :::
 
-- The quietist school (e.g., Sistani's Najaf) explicitly rejecting clerical rule; Iranian clerics and laity dissenting at enormous personal cost; the tradition's own resource: Karbala as a template for resisting corrupt power, including clerical power.
+- The quietist school (which holds that clerics should not rule the state), such as Grand Ayatollah Ali al-Sistani's in Najaf, explicitly rejects clerical rule.
+- Iranian clerics and laity have dissented at enormous personal cost. Mohsen Kadivar, a jurist, wrote a critique of rule by the jurist from inside Shia jurisprudence [30].
+- Senior clerics, including Ayatollah Khamenei in 1994 and Grand Ayatollah Fadlallah, have prohibited or discouraged tatbir (ritual blade-cutting) [18].
+- The tradition has its own resource in Karbala, a template for resisting corrupt power, including clerical power.
 
 ## 5. History {#history}
 
-Rooted in the succession claim of Ali and the martyrdom of Husayn at Karbala (680 CE); the Twelver clerical hierarchy (marjaʿiyya) developed independent financial power through religious taxes; 1979 Iran fused the hierarchy with a state.
+Shia Islam is rooted in the succession claim of Ali (the Prophet's cousin and son-in-law) and the martyrdom of Husayn at Karbala (680 CE). The Twelver (recognizing twelve Imams) clerical hierarchy, the marjaʿiyya, developed independent financial power through religious taxes. In 1979 Iran fused the hierarchy with a state.
 
 ### Timeline
 
 ```timeline
 632–661 CE | Succession claim of Ali; partisans of the House form | Authority is tied to lineage and designated knowledge, not consensus.
 680 | Karbala: Husayn killed by Umayyad forces | Martyrdom becomes the tradition's emotional and moral center — and a permanent mobilizing engine.
-874–941 | Minor Occultation: four named deputies act for the Twelfth Imam; from 941 the Major Occultation leaves no named deputy | Over the following centuries jurists claim a general deputyship — the clerical class that still governs.
+874–941 | Minor Occultation (the period in which the hidden twelfth Imam was held to act through deputies): four named deputies act for the Twelfth Imam; from 941 the Major Occultation leaves no named deputy | Over the following centuries jurists claim a general deputyship — the clerical class that still governs.
 1501 | Safavid Iran adopts Twelver Shiism as state religion | The tradition acquires a state and a state-funded hierarchy.
-1700s–1800s | Usuli school prevails; marjaʿiyya and khums collection consolidate | Clerics gain an independent revenue stream — self-financing religious power.
+1700s–1800s | Usuli school (which gives qualified jurists authority to derive rulings) prevails; marjaʿiyya and khums collection consolidate | Clerics gain an independent revenue stream — self-financing religious power.
 1890s–1970s | Clerical involvement in Iranian constitutional and nationalist politics | The hierarchy learns to move mass publics.
 1979 | Iranian Revolution; velayat-e faqih installs clerical rule | For the first time, a jurist rules a modern state as a matter of constitutional law. [OFFICIAL POLICY]
 1980s–2000s | Bonyads and shrine conglomerates expand; transnational networks grow | Off-budget religious economies answerable to the Leader alone. [ACADEMIC SOURCE]
@@ -119,7 +122,7 @@ Rooted in the succession claim of Ali and the martyrdom of Husayn at Karbala (68
 
 With the twelfth Imam in hiding, authority passed to deputies and then to the scholarly class. A community without its Imam constructed a working substitute — the marjaʿiyya — that would hold for a thousand years.
 
-**Why it matters.** The origin of an authority structure that is genuinely learned, genuinely plural, and structurally unauditable. Khums flows to a man whose legitimacy rests on emulation, and emulation has no accounts.
+**Why it matters.** It is the origin of an authority structure that is genuinely learned, genuinely plural, and structurally unauditable. Khums flows to a man whose legitimacy rests on emulation, and emulation has no accounts.
 :::
 
 ::: card
@@ -127,7 +130,7 @@ With the twelfth Imam in hiding, authority passed to deputies and then to the sc
 
 Khomeini's velayat-e faqih — a scholarly theory contested by many senior clerics, including quietists in Najaf — was written into the constitution of a state with an army, a treasury, and a judiciary.
 
-**Why it matters.** The moment a disputed theological position acquired coercive power. The dispute did not end; it was simply outvoted by an apparatus.
+**Why it matters.** It was the moment a disputed theological position acquired coercive power. The dispute did not end; it was simply outvoted by an apparatus.
 :::
 
 ::: card
@@ -135,7 +138,7 @@ Khomeini's velayat-e faqih — a scholarly theory contested by many senior cleri
 
 Grand Ayatollah Sistani's Friday sermons in Najaf helped bring down an Iraqi government during the protest movement. He held no office, commanded no army, and was not removable by anyone.
 
-**Why it matters.** The most benign demonstration in this codex of unaccountable authority — used, by most accounts, well. It is included because the codex grades structures, not intentions, and a structure that depends on the character of its occupant is still a structure that depends on the character of its occupant.
+**Why it matters.** It is the most benign demonstration in this codex of unaccountable authority, used, by most accounts, well. It is included because the codex grades structures, not intentions, and a structure that depends on the character of its occupant is still a structure that depends on the character of its occupant.
 :::
 
 ::: cites
@@ -144,15 +147,15 @@ Sources for this section: [1] [17] [19]
 
 ## 6. Branches & variants {#branches}
 
-Twelver (vast majority); Ismaili — Nizari under the Aga Khan, and Mustaʿli, chiefly the Dawoodi Bohras (~1 million) under the Daʿi al-Mutlaq; Zaydi (including the Houthi movement’s base in Yemen); within Twelver, quietist (Najaf) and activist/state (Qom) currents.
+The Twelvers are the vast majority. The Ismailis divide into the Nizari, under the Aga Khan, and the Mustaʿli, chiefly the Dawoodi Bohras (~1 million) under the Daʿi al-Mutlaq (the community's supreme religious leader). The Zaydis include the Houthi movement’s base in Yemen. Within the Twelvers there are quietist (Najaf) and activist or state (Qom) currents.
 
 | Branch | Where | What differs on this page's questions |
 |---|---|---|
 | **Twelvers (Ithna ʿAshari)** | Iran, Iraq, Azerbaijan, Bahrain, Lebanon, and large communities in Pakistan and India [16][22] | The largest branch. Authority passes to the scholars (marjaʿiyya) while the twelfth Imam is in occultation; in Iran, to one scholar as head of state [1][22]. |
-| **Ismailis — Nizari** | South and Central Asia, East Africa, diaspora [22] | A living, hereditary Imam (the Aga Khan) instead of a scholarly class; dues are paid to the Imamate [22]. |
-| **Ismailis — Mustaʿli / Tayyibi** | South Asia (the Dawoodi Bohra) | Led by a hereditary *dai*; covered on its own page (Dawoodi Bohra). |
-| **Zaydis** | Yemen [22] | The smallest branch, closest to Sunni doctrine; any qualified member of the Prophet's family may claim the imamate [22]. |
-| **Alawites** | Syria [23] | Whether they count as Shia has been debated; recognised as Shia by Musa al-Sadr's 1973 ruling in Lebanon [23]. |
+| **Ismailis — Nizari** | South and Central Asia, East Africa, diaspora [22] | They follow a living, hereditary Imam (the Aga Khan) instead of a scholarly class, and dues are paid to the Imamate [22]. |
+| **Ismailis — Mustaʿli / Tayyibi** | South Asia (the Dawoodi Bohra) | They are led by a hereditary *dai* and are covered on their own page (Dawoodi Bohra). |
+| **Zaydis** | Yemen [22] | It is the smallest branch and the closest to Sunni doctrine; any qualified member of the Prophet's family may claim the imamate [22]. |
+| **Alawites** | Syria [23] | Whether they count as Shia has been debated; they were recognised as Shia by the 1973 ruling of Musa al-Sadr, a Lebanese Shia cleric [23]. |
 
 ## 7. Structure {#structure}
 
@@ -160,28 +163,28 @@ Twelver (vast majority); Ismaili — Nizari under the Aga Khan, and Mustaʿli, c
 
 |  |  |
 |---|---|
-| Adherents | About 200–260 million (~10–13% of Muslims). [ACADEMIC SOURCE: Pew] |
-| Regions | Iran (majority), Iraq, Azerbaijan, Bahrain, Lebanon; large minorities in Pakistan, India, Afghanistan, Saudi Arabia's Eastern Province, Kuwait, Yemen (Zaydi). |
-| Trend | Stable to growing with population; the political prestige of clerical rule has declined markedly among young Iranians. [ACADEMIC SOURCE] |
-| Participation | In Iran, state enforcement makes measurement unreliable — declared observance and private practice diverge sharply. Ritual participation (Muharram) far exceeds clerical obedience. |
+| Adherents | Shia Islam has about 200–260 million adherents (~10–13% of Muslims). [ACADEMIC SOURCE: Pew] |
+| Regions | Shia are the majority in Iran and are concentrated in Iraq, Azerbaijan, Bahrain and Lebanon. There are large minorities in Pakistan, India, Afghanistan, Saudi Arabia's Eastern Province, Kuwait and Yemen, where they are Zaydi. |
+| Trend | Numbers are stable to growing with population. The political prestige of clerical rule has declined markedly among young Iranians. [ACADEMIC SOURCE] |
+| Participation | In Iran, state enforcement makes measurement unreliable, because declared observance and private practice diverge sharply. Ritual participation, as in Muharram, far exceeds clerical obedience. |
 
 ### Authority
 
-- The marjaʿiyya: senior ayatollahs whom believers must emulate (taqlid); in Iran, velayat-e faqih places a cleric atop the state itself.
-- Clerical students and networks bound to marjas through stipends funded by religious taxes — a self-financing hierarchy unusual in Islam. [ACADEMIC SOURCE]
+- The marjaʿiyya is made up of senior ayatollahs whom believers must emulate (taqlid, the practice of following a qualified jurist in religious law); in Iran, velayat-e faqih places a cleric atop the state itself.
+- Clerical students and networks are bound to marjas through stipends funded by religious taxes, which makes the hierarchy self-financing, something unusual in Islam. [ACADEMIC SOURCE]
 
 ### The top of the chain
 
 ::: lede
-Two apexes, one constitutional and one charismatic — plus a hereditary third. All three are named, and none can be removed from below.
+There are two apexes, one constitutional and one charismatic, and a hereditary third. All three are named, and none can be removed from below.
 :::
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| Supreme Leader of Iran (velayat-e faqih) | Ayatollah Mojtaba Khamenei, chosen in March 2026 after his father Ali Khamenei — Leader since 1989 — was killed in an air strike on 28 February 2026; constitutional authority over doctrine, courts, media, and the bonyad economies | The Assembly of Experts — whose candidates his own Guardian Council vets | In theory, that Assembly. In thirty-seven years and two Leaders, never — and it chose the late Leader's son |
-| Marjaʿ of Najaf | Grand Ayatollah Ali al-Sistani, born 1930 — khums flows worldwide route through his office, and his succession is the tradition's next great unaudited transfer | Recognition by peers and followers | Nobody. The office ends only with the man |
-| Astan Quds Razavi — the Imam Reza shrine conglomerate | A custodian appointed directly by the Supreme Leader | The Supreme Leader | The Supreme Leader |
-| The Ismaili Imamate | Aga Khan V — Rahim al-Hussaini, who inherited the Imamate on his father's death in February 2025 | Hereditary designation | Nobody |
+| Supreme Leader of Iran (velayat-e faqih) | Ayatollah Mojtaba Khamenei holds it. He was chosen in March 2026 after his father, Ali Khamenei, Leader since 1989, was killed in an air strike on 28 February 2026. The office holds constitutional authority over doctrine, courts, media and the bonyad economies. | The Assembly of Experts chooses him, and his own Guardian Council vets its candidates. | In theory, that Assembly can remove him. In thirty-seven years and two Leaders it never has, and it chose the late Leader's son. |
+| Marjaʿ of Najaf | Grand Ayatollah Ali al-Sistani, born 1930, holds it. Khums flows from around the world route through his office, and his succession will be the tradition's next great unaudited transfer. | He is chosen by recognition from peers and followers. | Nobody can remove him. The office ends only with the man. |
+| Astan Quds Razavi — the Imam Reza shrine conglomerate (the tomb of the eighth Imam, in Mashhad) | A custodian appointed directly by the Supreme Leader holds it. | The Supreme Leader chooses the custodian. | The Supreme Leader can remove the custodian. |
+| The Ismaili Imamate | Aga Khan V, Rahim al-Hussaini, inherited the Imamate on his father's death in February 2025. | The Imam is chosen by hereditary designation. | Nobody can remove him. |
 
 ::: tell
 The circular vetting is the design: the Leader screens the only body that could, on paper, unseat him.
@@ -191,19 +194,19 @@ The circular vetting is the design: the Leader screens the only body that could,
 
 | Entity | Type | Holder | Holds | Why it matters to you | Receipt |
 |---|---|---|---|---|---|
-| Velayat-e faqih — the office of Supreme Leader | Constitutional office | The Supreme Leader | Final authority over the state, the judiciary, the armed forces, and the religious foundations | Your dress, your speech, your internet, and your daughter's arrest record | [OFFICIAL POLICY: Iranian constitution] |
-| Astan Quds Razavi | Shrine conglomerate | A custodian appointed by the Supreme Leader | One of the largest economic entities in Iran, tax-exempt and outside parliamentary oversight | An economy your parliament cannot audit | [ACADEMIC SOURCE / INVESTIGATIVE REPORT] |
-| Bonyads — revolutionary foundations | Off-budget conglomerates | Appointees of the Leader | Industrial, agricultural, and financial holdings under charitable status | Where the country's wealth sits, unexamined | [ACADEMIC SOURCE] |
-| The marjaʿiyya | Clerical hierarchy | Senior ayatollahs, each with an office | Khums receipts — twenty percent of followers' surplus, half payable to the office, unaudited | A fifth of your surplus income, to an account you cannot see | [OFFICIAL POLICY: fiqh manuals] |
-| The Najaf quietist school | Countervailing authority | Senior Najaf marjaʿiyya | The tradition's senior center, which rejects clerical rule | Proof that the state's version is not the religion | [ACADEMIC SOURCE] |
-| Morality enforcement bodies | Police power | State security organs | Statutory authority over public dress and conduct | Whether you get home | [GOVERNMENT REPORT] |
-| Popular Mobilization Forces (Iraq) | State-funded armed network | A commission under the Iraqi prime minister; factions keep their own leaderships, several aligned with Iran | A state salary line created after Grand Ayatollah Sistani’s 2014 call to arms against ISIS and formalized in law in 2016; factions documented by UN and human-rights investigators committing abuses | Who holds guns in your city, and on whose religious call they first mobilized | [GOVERNMENT REPORT: UN reporting; Iraqi PMF law 2016] |
+| Velayat-e faqih — the office of Supreme Leader | Constitutional office | The Supreme Leader | It holds final authority over the state, the judiciary, the armed forces and the religious foundations. | It governs your dress, your speech, your internet and your daughter's arrest record. | [OFFICIAL POLICY: Iranian constitution] |
+| Astan Quds Razavi | Shrine conglomerate | A custodian appointed by the Supreme Leader | It is one of the largest economic entities in Iran, tax-exempt and outside parliamentary oversight. | It is an economy your parliament cannot audit. | [ACADEMIC SOURCE / INVESTIGATIVE REPORT] |
+| Bonyads — revolutionary foundations | Off-budget conglomerates | Appointees of the Leader | They hold industrial, agricultural and financial assets under charitable status. | This is where the country's wealth sits, unexamined. | [ACADEMIC SOURCE] |
+| The marjaʿiyya | Clerical hierarchy | Senior ayatollahs, each with an office | It holds khums receipts, twenty percent of followers' surplus with half payable to the office, and they are unaudited. | A fifth of your surplus income goes to an account you cannot see. | [OFFICIAL POLICY: fiqh manuals] |
+| The Najaf quietist school | Countervailing authority | Senior Najaf marjaʿiyya | It is the tradition's senior center, and it rejects clerical rule. | It is proof that the state's version is not the religion. | [ACADEMIC SOURCE] |
+| Morality enforcement bodies | Police power | State security organs | They hold statutory authority over public dress and conduct. | They decide whether you get home. | [GOVERNMENT REPORT] |
+| Popular Mobilization Forces (Iraq) | State-funded armed network | A commission under the Iraqi prime minister holds it; factions keep their own leaderships, and several are aligned with Iran. | It holds a state salary line created after Grand Ayatollah Sistani’s 2014 call to arms against ISIS and formalized in law in 2016, and UN and human-rights investigators have documented factions committing abuses. | It shows who holds guns in your city, and on whose religious call they first mobilized. | [GOVERNMENT REPORT: UN reporting; Iraqi PMF law 2016] |
 
 ### Succession watch
 
 | Office | Now | Mechanism | Prediction | What would falsify it |
 |---|---|---|---|---|
-| Marjaʿ of Najaf | Grand Ayatollah Ali al-Sistani, born 1930 | Recognition by peers and followers; no procedure, no electorate, no term | The tradition's largest unaudited transfer. The codex predicts a contested, gradual, and partly geopolitical settlement, with khums flows fragmenting between claimants — and no published accounting at any stage from any party. | Publication of accounts by any successor office, or an orderly documented transfer, would falsify it. |
+| Marjaʿ of Najaf | Grand Ayatollah Ali al-Sistani, born 1930 | The successor emerges by recognition from peers and followers, with no procedure, no electorate and no term. | It will be the tradition's largest unaudited transfer. The codex predicts a contested, gradual, and partly geopolitical settlement, with khums flows fragmenting between claimants — and no published accounting at any stage from any party. | Publication of accounts by any successor office, or an orderly documented transfer, would falsify it. |
 
 ::: cites
 Sources for this section: [1] [2] [3] [4] [6] [14] [15] [16] [20]
@@ -213,70 +216,70 @@ Sources for this section: [1] [2] [3] [4] [6] [14] [15] [16] [20]
 
 | Country | Leaving Islam | Criticizing religion or clergy | Family law | Who holds the religious money and pulpit |
 |---|---|---|---|---|
-| **Iran** | Can carry the death penalty [37] | Clerics are tried in the Special Court for the Clergy — a reformist cleric served 17 months for his writing [30] | Compulsory hijab; a harsher 2023 law was paused in December 2024, but existing rules stayed in force [24]; death is the prescribed penalty for same-sex acts [12] | The Leader, who appoints the custodian of the largest shrine conglomerate [1][6] |
-| **Iraq** | — | — | A 2025 code lets Shia families opt into a Jaʿfari personal-status code that HRW says makes women "second class" [8][13] | The Najaf marjaʿiyya, outside the state; a state-funded militia commission created after a 2014 fatwa [4][19] |
-| **Lebanon** | — | — | No civil marriage; Jaʿfari courts decide Shia marriage, divorce and custody, with no clear minimum marriage age [25][26] | Sect-based religious councils and courts [25] |
-| **Bahrain** | — | Protest in 2011 met with mistreatment the state's own inquiry called torture [10] | — | A Sunni monarchy governing a Shia majority [10] |
-| **Pakistan** | — | — | — | A minority targeted by sectarian killings, as with the Hazara of Balochistan [11] |
-| **United Kingdom** | Free | Free | Religious-only marriage leaves women without status (see Sunni Islam) | The Charity Commission removed the trustees of the Supreme Leader's UK office in 2023 [27] |
+| **Iran** | Leaving Islam can carry the death penalty [37]. | Clerics are tried in the Special Court for the Clergy, and a reformist cleric served 17 months for his writing [30]. | Hijab is compulsory; a harsher 2023 law was paused in December 2024, but existing rules stayed in force [24]. Death is the prescribed penalty for same-sex acts [12]. | The Leader holds them, and appoints the custodian of the largest shrine conglomerate [1][6]. |
+| **Iraq** | — | — | A 2025 code lets Shia families opt into a Jaʿfari (Shia school of law) personal-status code that Human Rights Watch says makes women "second class" [8][13]. | The Najaf marjaʿiyya holds them, outside the state; a state-funded militia commission was created after a 2014 fatwa (a jurist's ruling) [4][19]. |
+| **Lebanon** | — | — | There is no civil marriage; Jaʿfari courts decide Shia marriage, divorce and custody, with no clear minimum marriage age [25][26]. | Sect-based religious councils and courts hold them [25]. |
+| **Bahrain** | — | Protest in 2011 was met with mistreatment that the state's own inquiry called torture [10]. | — | A Sunni monarchy governs a Shia majority [10]. |
+| **Pakistan** | — | — | — | Shia are a minority targeted by sectarian killings, as with the Hazara of Balochistan [11]. |
+| **United Kingdom** | Leaving is legally free. | Criticism is legally free. | A religious-only marriage leaves women without legal status (see Sunni Islam). | The Charity Commission removed the trustees of the Supreme Leader's UK office in 2023 [27] |
 
 ### Who can compel an answer
 
-In diaspora: charity regulators over khums-receiving foundations and centers, and ordinary courts. Inside Iran: no body compels, and that absence is not a gap in this list — it is the section's central finding.
+In the diaspora, charity regulators can compel an answer from khums-receiving foundations and centers, and so can ordinary courts. Inside Iran no body compels an answer, and that absence is not a gap in this list — it is the section's central finding.
 
 ## 9. Money {#money}
 
 ### Where it comes from
 
-- Khums: a 20% levy on annual surplus income. Half (sahm-e Imam) goes to the marjaʿ’s office as the Imam’s deputy; the other half (sahm-e sadat) is owed to needy descendants of the Prophet and is often routed through the same offices. No audited public accounting is required. [OFFICIAL POLICY: fiqh manuals]
+- Khums is a 20% levy on annual surplus income. Half of it (sahm-e Imam) goes to the marjaʿ’s office as the Imam’s deputy; the other half (sahm-e sadat) is owed to needy descendants of the Prophet and is often routed through the same offices. No audited public accounting is required. [OFFICIAL POLICY: fiqh manuals]
 - In Iran, bonyads (revolutionary religious foundations) and shrine conglomerates like Astan Quds Razavi control vast tax-exempt economic empires answerable to the Supreme Leader, not parliament. [INVESTIGATIVE REPORT / ACADEMIC SOURCE]
-- Pilgrimage economies: Karbala, Najaf, Mashhad, Qom.
+- Pilgrimage economies form around Karbala, Najaf, Mashhad and Qom.
 
 ### Follow the money
 
 | Flow | Stated purpose | How it controls | Who benefits |
 |---|---|---|---|
-| Khums (20% of surplus), half paid as sahm-e Imam | Support the Imam's portion and the poor | Doctrine-mandated payment directly to a cleric's office with no external audit | Marjaʿ offices, seminaries, clerical networks [OFFICIAL POLICY: fiqh manuals] |
-| Bonyads and shrine conglomerates | Charitable and revolutionary foundations | Tax-exempt commercial empires outside parliamentary oversight | Iran's clerical-security elite [ACADEMIC SOURCE / INVESTIGATIVE REPORT] |
-| Shrine pilgrimage economies (Karbala, Najaf, Mashhad, Qom) | Devotional visitation | Vast unaudited donation flows and adjacent commercial monopolies | Shrine administrations and appointed custodians |
-| Seminary stipends | Support religious study | Financial dependency of thousands of students on the hierarchy's goodwill | The hierarchy's continuity |
+| Khums (20% of surplus), half paid as sahm-e Imam | Support the Imam's portion and the poor | Doctrine mandates payment directly to a cleric's office, with no external audit. | Marjaʿ offices, seminaries and clerical networks benefit [OFFICIAL POLICY: fiqh manuals]. |
+| Bonyads and shrine conglomerates | Charitable and revolutionary foundations | They are tax-exempt commercial empires outside parliamentary oversight. | Iran's clerical-security elite benefits [ACADEMIC SOURCE / INVESTIGATIVE REPORT]. |
+| Shrine pilgrimage economies (Karbala, Najaf, Mashhad, Qom) | Devotional visitation | Vast donation flows go unaudited, alongside adjacent commercial monopolies. | Shrine administrations and appointed custodians benefit. |
+| Seminary stipends | Support religious study | Thousands of students depend financially on the hierarchy's goodwill. | The hierarchy benefits through its own continuity. |
 
 ### Pipelines this tradition shares
 
 ::: card
 #### Khums to clerical network
 
-**Source.** Twenty percent of surplus income
+**Source.** The money is twenty percent of surplus income.
 
 **Path.** Marjaʿ office → Seminary stipends → Student and cleric loyalty
 
-**Disclosed.** Nothing systematically
+**Disclosed.** Nothing is disclosed systematically.
 
-**Hidden.** Receipts, holdings, allocation
+**Hidden.** Receipts, holdings and allocation are hidden.
 :::
 
 ::: card
 #### Pilgrimage economy
 
-**Source.** A religious obligation with a fixed destination
+**Source.** The source is a religious obligation with a fixed destination.
 
 **Path.** Licensed operators → Host state revenue → Concession holders
 
-**Disclosed.** Visa quotas and pricing
+**Disclosed.** Visa quotas and pricing are disclosed.
 
-**Hidden.** Margins and concession awards
+**Hidden.** Margins and concession awards are hidden.
 :::
 
 ::: card
 #### Revolutionary foundation
 
-**Source.** Confiscated and donated assets, plus shrine income
+**Source.** The sources are confiscated and donated assets, plus shrine income.
 
 **Path.** Foundation outside parliamentary oversight → Commercial conglomerate → Clerical-security elite
 
-**Disclosed.** Charitable purpose
+**Disclosed.** Only the charitable purpose is disclosed.
 
-**Hidden.** Holdings, revenue, and beneficiaries
+**Hidden.** Holdings, revenue and beneficiaries are hidden.
 :::
 
 ::: cites
@@ -296,49 +299,49 @@ Khums — a fifth of annual surplus income — is the Shia tradition's defining 
 ::: card
 #### Khums paid directly to a cleric's office
 
-**Origin.** Developed as the Usuli school prevailed in the 18th–19th centuries: half of the 20% levy (sahm-e Imam) goes to the marjaʿ as the Imam's deputy. [OFFICIAL POLICY]
+**Origin.** It developed as the Usuli school prevailed in the 18th–19th centuries, and under it half of the 20% levy (sahm-e Imam) goes to the marjaʿ as the Imam's deputy. [OFFICIAL POLICY]
 
 **What it was for.** With no Imam present and no state support, the hierarchy needed independent funding to remain free of kings. It worked — Shia clergy were financially independent precisely because ordinary people paid them directly.
 
 **Why that reason expired.** The mechanism now funds a hierarchy that in one country *is* the state. Independence from rulers was the entire justification; when the marjaʿ rules the country, the justification is gone and only the revenue remains.
 
-**Who benefits now.** Marjaʿ offices and their networks, unaudited. You pay a fifth of your surplus to an institution that will not show you a ledger.
+**Who benefits now.** Marjaʿ offices and their networks benefit, unaudited. You pay a fifth of your surplus to an institution that will not show you a ledger.
 :::
 
 ::: card
 #### Velayat-e faqih — clerical rule
 
-**Origin.** A minority juristic position elevated to constitutional principle in 1979. [OFFICIAL POLICY]
+**Origin.** It was a minority juristic position, elevated to constitutional principle in 1979. [OFFICIAL POLICY]
 
-**What it was for.** Presented as protection from a corrupt Western-backed monarchy. Many devout people believed it, and the grievance was real.
+**What it was for.** It was presented as protection from a corrupt Western-backed monarchy. Many devout people believed it, and the grievance was real.
 
 **Why that reason expired.** After four decades the question is empirical, not theoretical: the arrangement produced morality police, prison sentences for journalists, and off-budget economic empires. The quietist Najaf school — the tradition's own mainstream — rejects it, which settles the claim that this is simply Shiism.
 
-**Who benefits now.** A clerical-security elite governing bonyads and shrine conglomerates outside parliamentary oversight. [ACADEMIC SOURCE]
+**Who benefits now.** A clerical-security elite benefits, governing bonyads and shrine conglomerates outside parliamentary oversight. [ACADEMIC SOURCE]
 :::
 
 ::: card
 #### Martyrdom devotion as political mobilization
 
-**Origin.** Karbala mourning (680 CE) as devotional and moral practice; converted into state mobilization infrastructure after 1979. [ACADEMIC SOURCE]
+**Origin.** Karbala mourning (680 CE) began as devotional and moral practice and was converted into state mobilization infrastructure after 1979. [ACADEMIC SOURCE]
 
-**What it was for.** Remembering that a righteous man refused an unjust ruler and paid for it. A template for resisting power.
+**What it was for.** It was for remembering that a righteous man refused an unjust ruler and paid for it, as a template for resisting power.
 
-**Why that reason expired.** Inverted. The commemoration of resistance to a corrupt ruler is now administered by the ruler. Grief for Husayn is used to recruit for state projects — an exact reversal of the story's meaning.
+**Why that reason expired.** The meaning has been inverted. The commemoration of resistance to a corrupt ruler is now administered by the ruler. Grief for Husayn is used to recruit for state projects — an exact reversal of the story's meaning.
 
-**Who benefits now.** The state and its military structures. Your tears are a mobilization asset, and the man you weep for died refusing exactly this.
+**Who benefits now.** The state and its military structures benefit. Your tears are a mobilization asset, and the man you weep for died refusing exactly this.
 :::
 
 ::: card
 #### Compulsory hijab and morality policing
 
-**Origin.** State enforcement apparatus built after 1979; no classical precedent for police checking women's hair. [ACADEMIC SOURCE]
+**Origin.** The state built the enforcement apparatus after 1979; there is no classical precedent for police checking women's hair. [ACADEMIC SOURCE]
 
-**What it was for.** None religious. It was a visible loyalty test for a new regime consolidating control of public space.
+**What it was for.** It served no religious purpose. It was a visible loyalty test for a new regime consolidating control of public space.
 
 **Why that reason expired.** A young woman died in custody over it in 2022 and the country rose, including believers. When enforcement kills the person it claims to protect, the claim is finished. [GOVERNMENT REPORT]
 
-**Who benefits now.** The state's control of public space, and the security bodies employed to patrol it.
+**Who benefits now.** The state benefits through its control of public space, and so do the security bodies employed to patrol it.
 :::
 
 ## 11. Reach {#reach}
@@ -357,9 +360,9 @@ Khums — a fifth of annual surplus income — is the Shia tradition's defining 
 
 ### Bodies
 
-- Compulsory hijab enforced by morality police in Iran; the death of Mahsa Amini in custody (2022) and the protest wave that followed made the enforcement machinery undeniable. [GOVERNMENT REPORT]
+- Compulsory hijab is enforced by morality police in Iran; the death of Mahsa Amini in custody (2022) and the protest wave that followed made the enforcement machinery undeniable. [GOVERNMENT REPORT]
 - Temporary marriage (mutʿa) is doctrinally permitted and is used both consensually and, per critics, to legitimize exploitation. [ACADEMIC SOURCE]
-- Legal asymmetries in testimony weight, inheritance, custody, and travel permissions where religious law is state law. [OFFICIAL POLICY]
+- Where religious law is state law, there are legal asymmetries in testimony weight, inheritance, custody and travel permissions. [OFFICIAL POLICY]
 - Same-sex relations are capital offenses under Iranian law. [OFFICIAL POLICY / GOVERNMENT REPORT]
 
 ::: cites
@@ -375,7 +378,7 @@ Thirty named techniques from domestic-abuse and social-psychology research, appl
 ::: stage
 **You arrive with a need and are met with more warmth than you have had in years.**
 
-Majlis, hospitality, family warmth, and the overwhelming moral gravity of Karbala. You are told you have found the persecuted truth that history buried.
+The welcome comes through the majlis, hospitality, family warmth and the overwhelming moral gravity of Karbala. You are told you have found the persecuted truth that history buried.
 
 *What it asks of you:* The grief was sincere. The question is who arrived to administer it.
 :::
@@ -389,7 +392,7 @@ Majlis, hospitality, family warmth, and the overwhelming moral gravity of Karbal
 
 - A seeker may be drawn in through intense hospitality, majlis gatherings, Karbala narratives, mourning rituals, family warmth, and the emotional gravity of Imam Husayn’s martyrdom.
 - The newcomer is often made to feel they have discovered the hidden, persecuted truth behind Islamic history.
-- Devotion to the Ahl al-Bayt can become the emotional center before the convert understands clerical authority, marjaʿ following, sectarian boundaries, ritual obligations, or community surveillance.
+- Devotion to the Ahl al-Bayt (the Prophet's family) can become the emotional center before the convert understands clerical authority, marjaʿ following, sectarian boundaries, ritual obligations, or community surveillance.
 
 **The strongest defense.** Shia hospitality and mourning are sincere expressions of love and remembrance.
 
@@ -405,7 +408,7 @@ Majlis, hospitality, family warmth, and the overwhelming moral gravity of Karbal
 
 **How it shows here**
 
-- Shia communities may welcome seekers through majlis gatherings, mourning rituals, meals, family hospitality, lectures, ziyarat culture, and devotion to the Ahl al-Bayt.
+- Shia communities may welcome seekers through majlis gatherings, mourning rituals, meals, family hospitality, lectures, ziyarat (shrine pilgrimage) culture, and devotion to the Ahl al-Bayt.
 - A convert or returnee can receive deep emotional support by being folded into the story of Karbala: suffering, loyalty, sacrifice, oppression, and sacred grief.
 - That support can later become obligation: loyalty to the community, deference to scholars, marjaʿ authority, sectarian boundaries, ritual participation, and silence around internal abuses.
 - Financial giving through khums, mosque donations, shrine donations, or community relief can be framed as both worship and loyalty.
@@ -414,7 +417,7 @@ Majlis, hospitality, family warmth, and the overwhelming moral gravity of Karbal
 
 **The counter.** Solidarity with the oppressed becomes hollow if it cannot tolerate dissent from within. If the community helps you, then later treats disagreement as betrayal of Husayn, betrayal of the Ahl al-Bayt, or betrayal of the persecuted truth, the generosity has been fused to sacred guilt.
 
-**Evidence grade.** [[Cultural]] Majlis hospitality and devotional welcome are community practice.
+**Evidence grade.** [[Cultural]] The welcome, support and giving described here, and the obligation that follows them, are community practice; no written rule directs them.
 :::
 
 ### Stage 2 · Hook {#stage-2}
@@ -422,7 +425,7 @@ Majlis, hospitality, family warmth, and the overwhelming moral gravity of Karbal
 ::: stage
 **You are given a future that cannot be verified, and a rope for whenever you drift toward the door.**
 
-The intercession of the Imams, reunion with the martyrs, justice finally arriving — after death. And retrieval through Muharram, family, and the moral weight of Husayn himself.
+The future on offer is the intercession of the Imams, reunion with the martyrs and justice finally arriving, after death. Retrieval runs through Muharram, family and the moral weight of Husayn himself.
 
 *What it asks of you:* The most morally serious story your tradition owns is now the instrument that brings you back. Ask who arranged that.
 :::
@@ -436,7 +439,7 @@ The intercession of the Imams, reunion with the martyrs, justice finally arrivin
 
 - Shia Islam offers a future saturated with loyalty, martyrdom, justice, intercession, and the eventual vindication of the oppressed.
 - Karbala becomes not only memory but future orientation: suffer faithfully now, remain loyal now, mourn now, sacrifice now, and divine justice will vindicate the truth.
-- The return or rule of the Mahdi can function as the great deferred correction: history is broken, leadership was usurped, the righteous were oppressed, but the final age will reveal who was right.
+- The return or rule of the Mahdi (the hidden twelfth Imam, expected to return) can function as the great deferred correction: history is broken, leadership was usurped, the righteous were oppressed, but the final age will reveal who was right.
 - Devotion to the Ahl al-Bayt can be tied to future intercession and spiritual safety. Loyalty becomes not merely love but insurance.
 - Institutions can use sacred grief to keep people invested: your pain participates in the cosmic drama, your loyalty matters eternally, your questioning may place you outside the circle of truth.
 
@@ -444,7 +447,7 @@ The intercession of the Imams, reunion with the martyrs, justice finally arrivin
 
 **The counter.** Hope for justice becomes future faking when present authorities borrow the emotional power of martyrdom to demand obedience. If every critique of clerics, rituals, community pressure, or sectarian narratives is treated as betrayal of Husayn, then the future vindication of the oppressed is being used to silence the currently oppressed.
 
-**Evidence grade.** [[Taught]] Intercession of the Imams and the moral weight of Karbala are taught continuously; retrieval is devotional and familial.
+**Evidence grade.** [[Taught]] The intercession of the Imams, the return of the Mahdi and the vindication of the oppressed are taught doctrine; using that promise to hold present loyalty is devotional and communal practice.
 :::
 
 ::: tactic n=4
@@ -456,7 +459,7 @@ The intercession of the Imams, reunion with the martyrs, justice finally arrivin
 
 - A person drifting from Shia community may be pulled back through mourning, majlis, Karbala, loyalty to Imam Husayn, and love for the Ahl al-Bayt.
 - The emotional hook is often sacred grief: “After everything Husayn sacrificed, how can you walk away?”
-- Family or community members may urge return during Muharram, Ashura, Ramadan, Arbaeen, or major gatherings when collective emotion is strongest.
+- Family or community members may urge return during Muharram, Ashura (the tenth of Muharram, the day of Husayn's death), Ramadan, Arbaeen, or major gatherings when collective emotion is strongest.
 - Doubt may be framed as betrayal not merely of Islam but of the oppressed truth, the Imams, the martyrs, and the bloodline of the Prophet.
 - If the person questions clerical authority, ritual practices, or sectarian narratives, the response may be: “You are letting enemies of the Ahl al-Bayt affect you.”
 
@@ -464,7 +467,7 @@ The intercession of the Imams, reunion with the martyrs, justice finally arrivin
 
 **The counter.** Grief becomes hoovering when it is used to override conscience. If returning is framed as loyalty to Husayn and leaving is framed as betrayal of the oppressed, then the person is not being invited back. They are being emotionally cornered by martyrdom.
 
-**Evidence grade.** [[Taught]] Intercession of the Imams and the moral weight of Karbala are taught continuously; retrieval is devotional and familial.
+**Evidence grade.** [[Taught]] The moral weight of Karbala is taught continuously; pulling a drifting member back through it is done by family and community, not by written rule.
 :::
 
 ### Stage 3 · Devalue {#stage-3}
@@ -494,7 +497,7 @@ Your mourning was not sincere enough, your loyalty not tested enough, your commi
 
 **The counter.** Love of the oppressed becomes devaluation when living people are not allowed to name their own oppression. If every personal boundary is crushed under martyrdom memory, then grief is no longer remembrance. It is obedience training.
 
-**Evidence grade.** [[Taught]] Human insufficiency and the need for emulation of a marjaʿ are taught as the ordinary structure of practice.
+**Evidence grade.** [[Taught]] Devotion measured against the sacrifice of the Imams is taught in mourning sermons and devotional life; applying that measure to a member's doubts is communal practice.
 :::
 
 ::: tactic n=6
@@ -513,7 +516,7 @@ Your mourning was not sincere enough, your loyalty not tested enough, your commi
 
 **The counter.** Love becomes gaslighting when it makes criticism impossible. If questioning a living cleric, ritual, or institution is treated as betrayal of martyrs, then sacred history is being used to overwrite present reality.
 
-**Evidence grade.** [[Taught]] Human insufficiency and the need for emulation of a marjaʿ are taught as the ordinary structure of practice.
+**Evidence grade.** [[Taught]] Reverence for the Ahl al-Bayt is taught; recasting criticism of a living cleric as disrespect to them is communal practice, with no written rule.
 :::
 
 ::: tactic n=7
@@ -531,7 +534,7 @@ Your mourning was not sincere enough, your loyalty not tested enough, your commi
 
 **The counter.** Patients may seek second opinions, fire their doctor, and refuse treatment without being called traitors to medicine. When following the expert is mandatory and leaving him is betrayal, the analogy has quietly become a leash.
 
-**Evidence grade.** [[Taught]] Human insufficiency and the need for emulation of a marjaʿ are taught as the ordinary structure of practice.
+**Evidence grade.** [[Taught]] Both halves of the bind are taught: taqlid of a living marjaʿ as the ordinary structure of practice, and Karbala as the model of refusing illegitimate authority.
 :::
 
 ### Stage 4 · Confuse {#stage-4}
@@ -559,7 +562,7 @@ Criticize clerical rule and you are serving foreign enemies. Object to the moral
 
 **The counter.** Sincerity and scheduling coexist. When the community's deepest emotional payouts run through institutional channels on an institutional calendar, and off-schedule grief or doubt earns coolness, love has been given a meter — whoever holds the meter holds the people.
 
-**Evidence grade.** [[Taught]] Framing internal dissent as foreign subversion is delivered from state-aligned pulpits and is contested by the quietist school.
+**Evidence grade.** [[Taught]] The mourning calendar and the intercession of the Imams are taught and observed; how regard rises and falls with ritual visibility is community practice, and no one publishes it.
 :::
 
 ::: tactic n=9
@@ -577,7 +580,7 @@ Criticize clerical rule and you are serving foreign enemies. Object to the moral
 
 **The counter.** Love becomes goalpost-moving when the proof of love keeps expanding until it protects living authority. If questioning today’s leaders is treated as betrayal of martyrs, devotion has been made impossible to complete.
 
-**Evidence grade.** [[Taught]] Framing internal dissent as foreign subversion is delivered from state-aligned pulpits and is contested by the quietist school.
+**Evidence grade.** [[Taught]] Love for the Ahl al-Bayt and following a marjaʿ are taught; the widening demands described here come from local communities, not from written rule.
 :::
 
 ::: tactic n=10
@@ -595,7 +598,7 @@ Criticize clerical rule and you are serving foreign enemies. Object to the moral
 
 **The counter.** Diversity becomes ambiguity when the institution widens meaning for defense and narrows it for discipline. If love for Husayn becomes whatever leaders need it to mean, sacred grief has been made administratively useful.
 
-**Evidence grade.** [[Taught]] Framing internal dissent as foreign subversion is delivered from state-aligned pulpits and is contested by the quietist school.
+**Evidence grade.** [[Taught]] Scholarly plurality among the marājiʿ is taught; narrowing loyalty to one local line is community practice.
 :::
 
 ::: tactic n=11
@@ -614,7 +617,7 @@ Criticize clerical rule and you are serving foreign enemies. Object to the moral
 
 **The counter.** A tradition of resisting oppression loses moral force when it cannot recognize oppression inside itself. If Karbala is used to silence the wounded, the memory of tyranny has been turned into a tool of tyranny.
 
-**Evidence grade.** [[Taught]] Framing internal dissent as foreign subversion is delivered from state-aligned pulpits and is contested by the quietist school.
+**Evidence grade.** [[Taught]] Karbala is taught as the model of resisting oppression; turning it against critics inside the community is communal practice, and in Iran criticism of clerical rule is framed as serving foreign enemies (section 11).
 :::
 
 ::: tactic n=12
@@ -634,7 +637,7 @@ Criticize clerical rule and you are serving foreign enemies. Object to the moral
 
 **The counter.** Protecting sacred memory does not require protecting living abusers. If the language of Karbala is used to silence those harmed by current power, then the memory of the oppressed is being used to defend oppression.
 
-**Evidence grade.** [[Taught]] Framing internal dissent as foreign subversion is delivered from state-aligned pulpits and is contested by the quietist school.
+**Evidence grade.** [[Taught]] Reverence for scholars and the Ahl al-Bayt is taught; turning a complaint into an accusation against the person who raised it is observed community practice, with no written rule.
 :::
 
 ::: tactic n=13
@@ -653,7 +656,7 @@ Criticize clerical rule and you are serving foreign enemies. Object to the moral
 
 **The counter.** Sacred grief becomes desensitization when repeated exposure teaches people to override their own pain, doubts, or boundaries because someone else suffered more. Martyrdom memory should sharpen conscience, not numb it.
 
-**Evidence grade.** [[Taught]] Framing internal dissent as foreign subversion is delivered from state-aligned pulpits and is contested by the quietist school.
+**Evidence grade.** [[Taught]] Muharram mourning, majlis and lamentation are taught and observed from childhood (section 11); the desensitization described here is their cumulative effect.
 :::
 
 ### Stage 5 · Isolate {#stage-5}
@@ -683,7 +686,7 @@ Taqlid routes your practical questions to one office. Seminary students depend o
 
 **The counter.** Protected memory becomes isolation when it prevents people from examining living power. If outsiders are always enemies and insiders must prove loyalty through silence, the community has confused preservation with enclosure.
 
-**Evidence grade.** [[Taught]] Taqlid routes practical questions through a single office by teaching rather than by statute.
+**Evidence grade.** [[Taught]] The history of persecution and loyalty to the Ahl al-Bayt are taught; treating outside sources as enemy influence is communal practice, and in Iran state censorship closes the outside (section 11).
 :::
 
 ::: tactic n=15
@@ -695,7 +698,7 @@ Taqlid routes your practical questions to one office. Seminary students depend o
 
 - Shia triangulation often works through the Ahl al-Bayt, Karbala, marjaʿ authority, clerics, family elders, majlis gatherings, and sacred grief.
 - A doubter may be told, “How can you leave the path of Husayn?” The argument is no longer about the specific issue; it is about loyalty to martyrdom.
-- Clerical authority triangulates through marājiʿ: if you question a ruling, the answer is not personal conscience but deference to a higher religious authority.
+- Clerical authority triangulates through marājiʿ (the plural of marjaʿ): if you question a ruling, the answer is not personal conscience but deference to a higher religious authority.
 - Family and community triangulate during Muharram, Ashura, Arbaeen, and mourning gatherings, where collective emotion makes refusal feel like betrayal.
 - The person is compared to loyal companions of Husayn versus those who abandoned truth under pressure.
 - Criticism of a living institution can be framed as aiding enemies of the Ahl al-Bayt.
@@ -712,7 +715,7 @@ Taqlid routes your practical questions to one office. Seminary students depend o
 ::: stage
 **Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
 
-A fifth of your surplus income to an office that publishes no audited ledger. Bonyads and shrine conglomerates outside parliamentary oversight. Seminary stipends that make dissent economically fatal. Compulsory dress enforced by police. Object and be recast as a foreign agent.
+A fifth of your surplus income goes to an office that publishes no audited ledger. Bonyads and shrine conglomerates sit outside parliamentary oversight. Seminary stipends make dissent economically fatal. Dress is compulsory and enforced by police. Object, and you are recast as a foreign agent.
 
 *What it asks of you:* You pay khums to an institution that will not show you accounts, and the request for accounts is treated as impertinence rather than as a question.
 :::
@@ -733,7 +736,7 @@ A fifth of your surplus income to an office that publishes no audited ledger. Bo
 
 **The counter.** Loyalty becomes FLYING MONKEY pressure when sacred grief is used by living people to silence living harm. If community members invoke martyrs to protect current authority, they are not defending Husayn. They are borrowing his blood to discipline dissent.
 
-**Evidence grade.** [[Codified]] Khums, clerical stipends, and — in Iran — dress enforcement are published obligations; the shrine economies are separately documented.
+**Evidence grade.** [[Codified]] The pressure described here comes from family, majlis organizers, clerics and friends acting by custom; no written directive for it is recorded.
 :::
 
 ::: tactic n=17
@@ -752,7 +755,7 @@ A fifth of your surplus income to an office that publishes no audited ledger. Bo
 
 **The counter.** Sacred memory becomes smear when it is used to discredit living people who report living harm. If criticism of a cleric becomes betrayal of Husayn, the institution has weaponized martyrdom against accountability.
 
-**Evidence grade.** [[Codified]] Khums, clerical stipends, and — in Iran — dress enforcement are published obligations; the shrine economies are separately documented.
+**Evidence grade.** [[Codified]] Recasting critics as disloyal is community practice; the formal instance on this page is the Special Court for the Clergy's conviction of Mohsen Kadivar for his writing (section 19).
 :::
 
 ::: tactic n=18
@@ -771,7 +774,7 @@ A fifth of your surplus income to an office that publishes no audited ledger. Bo
 
 **The counter.** Reverence becomes stonewalling when it makes living leaders unanswerable. If Karbala teaches justice, then silence around present injustice is not devotion. It is betrayal in devotional clothing.
 
-**Evidence grade.** [[Documented]] Bonyads and shrine conglomerates operate outside parliamentary oversight, established in academic and investigative accounts. *(sourced)*
+**Evidence grade.** [[Documented]] Refusing questions about clerics and institutions is community practice; the documented form on this page is the bonyads and shrine conglomerates, which operate outside parliamentary oversight (sections 7 and 9). *(sourced)*
 :::
 
 ::: tactic n=19
@@ -790,7 +793,7 @@ A fifth of your surplus income to an office that publishes no audited ledger. Bo
 
 **The counter.** Love becomes manufactured consent when refusing a community demand is emotionally equated with betraying martyrs. If grief is used to make no unsayable, the yes is not pure devotion. It is sacred pressure.
 
-**Evidence grade.** [[Codified]] Khums, clerical stipends, and — in Iran — dress enforcement are published obligations; the shrine economies are separately documented.
+**Evidence grade.** [[Codified]] Marjaʿ following is taught as responsible devotion; the pressure that shapes ritual participation and silence is familial and communal.
 :::
 
 ::: tactic n=20
@@ -809,7 +812,7 @@ A fifth of your surplus income to an office that publishes no audited ledger. Bo
 
 **The counter.** Sacred grief becomes TRAUMA BONDING when the community uses sorrow to attach people to present authority. If leaving a harmful environment feels like abandoning Husayn, grief has been converted into a leash.
 
-**Evidence grade.** [[Codified]] Khums, clerical stipends, and — in Iran — dress enforcement are published obligations; the shrine economies are separately documented.
+**Evidence grade.** [[Codified]] Karbala mourning is taught and observed; the attachment it produces to present authority is community practice, with no written rule.
 :::
 
 ::: tactic n=21
@@ -828,7 +831,7 @@ A fifth of your surplus income to an office that publishes no audited ledger. Bo
 
 **The counter.** Endurance becomes LEARNED HELPLESSNESS when living people are trained to minimize their pain under sacred suffering. If martyrdom memory silences present abuse, justice has been reversed.
 
-**Evidence grade.** [[Codified]] Khums, clerical stipends, and — in Iran — dress enforcement are published obligations; the shrine economies are separately documented.
+**Evidence grade.** [[Codified]] Minimizing a member's pain against Husayn's suffering is pastoral and family practice; no written rule directs it.
 :::
 
 ::: tactic n=22
@@ -847,7 +850,7 @@ A fifth of your surplus income to an office that publishes no audited ledger. Bo
 
 **The counter.** Loyalty becomes BENEVOLENT CONTROL when living authorities borrow sacred suffering to manage dissent. If care for your soul requires silence about clerical or family control, the protection is protecting power.
 
-**Evidence grade.** [[Codified]] Compulsory dress enforced by state morality police under published Iranian law. *(sourced)*
+**Evidence grade.** [[Codified]] Clerical and family direction framed as protection is pastoral and family practice; the statutory form of it on this page is compulsory dress, enforced by the morality police under published Iranian law (sections 10 and 11). *(sourced)*
 :::
 
 ::: tactic n=23
@@ -866,7 +869,7 @@ A fifth of your surplus income to an office that publishes no audited ledger. Bo
 
 **The counter.** Authority becomes INFANTILIZATION when conscience is never trusted. If adults must remain spiritually dependent on clerics and family elders to be legitimate, devotion has been organized as dependency.
 
-**Evidence grade.** [[Codified]] Khums, clerical stipends, and — in Iran — dress enforcement are published obligations; the shrine economies are separately documented.
+**Evidence grade.** [[Codified]] Taqlid, under which a believer who is not a jurist follows a qualified jurist in practice, is set out in the marājiʿ's practical manuals; the managing of women and young people described here is family and community practice.
 :::
 
 ::: tactic n=24
@@ -886,7 +889,7 @@ A fifth of your surplus income to an office that publishes no audited ledger. Bo
 
 **The counter.** Sacred memory becomes IDENTITY EROSION when it consumes the living person’s voice. If your own pain, doubt, and boundaries must disappear under martyrdom memory, then grief has become an identity machine.
 
-**Evidence grade.** [[Codified]] Khums, clerical stipends, and — in Iran — dress enforcement are published obligations; the shrine economies are separately documented.
+**Evidence grade.** [[Codified]] The devotional identity described here is formed through mourning, ritual and family life; no written rule requires it.
 :::
 
 ::: tactic n=25
@@ -906,7 +909,7 @@ A fifth of your surplus income to an office that publishes no audited ledger. Bo
 
 **The counter.** Karbala becomes SPIRITUAL BYPASSING when it silences the oppressed in the present. If martyrdom memory is used to make living victims endure quietly, the story has been inverted.
 
-**Evidence grade.** [[Codified]] Khums, clerical stipends, and — in Iran — dress enforcement are published obligations; the shrine economies are separately documented.
+**Evidence grade.** [[Codified]] Answering present harm with Karbala is pastoral and communal practice; no written rule directs it.
 :::
 
 ::: tactic n=26
@@ -933,7 +936,7 @@ A fifth of your surplus income to an office that publishes no audited ledger. Bo
 ::: stage
 **You become expensive — too many questions, too much independence — and the urgency ramps up until you are removed.**
 
-Imprisonment, morality policing, apostasy exposure. For clerics and seminarians: stipend, housing, and standing gone at once.
+The removal comes through imprisonment, morality policing and exposure to apostasy charges. Clerics and seminarians lose stipend, housing and standing at once.
 
 *What it asks of you:* The fastest punishments went to the people who said something true in public.
 :::
@@ -954,7 +957,7 @@ Imprisonment, morality policing, apostasy exposure. For clerics and seminarians:
 
 **The counter.** Vigilance becomes MANUFACTURED CRISIS when living dissenters are treated as enemies. If every critique is folded into the cosmic drama of betrayal, sacred history is being used to panic people back into conformity.
 
-**Evidence grade.** [[Taught]] Permanent mobilization framing around Karbala and external threat, delivered from state-aligned pulpits. *(sourced)*
+**Evidence grade.** [[Taught]] Permanent mobilization framing around Karbala and external threat is delivered from state-aligned pulpits. *(sourced)*
 :::
 
 ::: tactic n=28
@@ -1002,7 +1005,7 @@ The majlis continues, the mourning continues, the seat is filled. And the author
 
 **The counter.** Honor becomes REPLACEMENT when public devotion is used to erase private harm. If the more emotional mourner replaces the more honest questioner, grief has become a loyalty audition.
 
-**Evidence grade.** [[Codified]] In Iran, authority is constitutional; elsewhere it rests on the marjaʿ's published standing as the Imam's deputy.
+**Evidence grade.** [[Codified]] Replacing a questioner with a more visibly devoted mourner is community practice; no written rule directs it.
 :::
 
 ::: tactic n=30
@@ -1022,51 +1025,167 @@ The majlis continues, the mourning continues, the seat is filled. And the author
 
 **The counter.** Love becomes PLAUSIBLE DENIABILITY when sacred grief is used to make refusal feel like betrayal. Decentralized clerical authority can diffuse responsibility while preserving deference. Culture cannot be disowned when religious symbolism gives it emotional force.
 
-**Evidence grade.** [[Codified]] Velayat-e faqih is constitutional law in Iran — the control is statutory. *(sourced)*
+**Evidence grade.** [[Codified]] Denying coercion as 'only love' or as culture is observed community practice; the codified basis behind the grade is velayat-e faqih, which is constitutional law in Iran. *(sourced)*
 :::
 
 ## 13. The loops {#loops}
+
+::: lede
+The seven loops below show how the practices connect, so that each step makes the next one easier and the last step feeds the first. The loops are analysis built from findings recorded elsewhere on this page [PATTERN OBSERVED]; each step names the section or technique where its fact is recorded.
+:::
 
 ::: card
 #### 1 · Money to Doctrine to Money
 
 Khums funds the seminaries that train the clerics who teach that khums is owed, to offices that publish nothing.
+
+**How it runs.**
+
+1. Khums is taught as a religious obligation: a fifth of annual surplus income, half of it (the sahm-e Imam) payable to the marjaʿ's office as the Imam's deputy (sections 1 and 9).
+2. The offices receive it with no audited public accounting required (sections 9 and 14).
+3. The money pays seminary stipends, on which thousands of students depend (section 9, khums to clerical network).
+4. Those students become the clerics and prayer leaders who depend on the network for stipend and standing, and who are asked to echo the line (section 18).
+5. They teach the next generation that khums is owed, and taqlid routes the follower's practical questions back to the same office (sections 11 and 14).
+
+**Techniques that feed it.** [26 · Financial Control](#t-26), [2 · Weaponized Generosity](#t-2), [23 · Infantilization](#t-23), [18 · Silent Treatment / Stonewalling](#t-18).
+
+**Why it closes.** The office that receives the money also funds the training of the people who teach the obligation, and taqlid gives the follower no standing to audit the followed, including on the money (section 14). The payer cannot see where the money goes, and the question is treated as one that is not asked (section 2).
+
+**Where it could be broken, and by whom.** It weakens wherever accounts are published. Section 14 records that where a marjaʿ's network runs a registered charity abroad, that charity files accounts, and section 8 names charity regulators as the bodies that can compel an answer in the diaspora. Section 20 names published, audited accounts of a marjaʿ's khums office as a change that would revise this page. A payer can ask for accounts before paying. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** In section 2, Nasrin asks her father whether anyone ever sees where the khums goes, and he says that is not a question one asks.
 :::
 
 ::: card
 #### 2 · Fear to Dependence to Fear
 
-Loss of the Imams' intercession installed as the cost of leaving; relief through devotional participation; parents transmit it.
+Loss of the Imams' intercession is installed as the cost of leaving, relief comes through devotional participation, and parents transmit it.
+
+**How it runs.**
+
+1. The intercession of the Imams and the future vindication of the oppressed are taught continuously (stage 2; technique 3).
+2. Leaving is taught to cost that intercession, with eternal consequence (section 15).
+3. Relief comes through devotional participation: the annual mourning cycle delivers catharsis and belonging on the institution's calendar (technique 8).
+4. Doubt is framed as betrayal of Husayn and the martyrs, so the fear returns whenever a person questions (techniques 4 and 20).
+5. Children are introduced to mourning rituals and grief narratives very young, and the family carries the next generation into the same cycle (section 11; technique 13).
+
+**Techniques that feed it.** [3 · Future Faking](#t-3), [8 · Intermittent Reinforcement](#t-8), [20 · Trauma Bonding](#t-20), [4 · Hoovering](#t-4), [13 · Normalization / Desensitization](#t-13).
+
+**Why it closes.** The relief on offer comes through the same devotional life that defines the cost of leaving. Each season of mourning answers the fear and renews the bond that makes leaving costly.
+
+**Where it could be broken, and by whom.** It weakens where grief for Husayn is held apart from loyalty to present authority. The tradition supplies that separation itself: Karbala as a template for resisting corrupt power, including clerical power (section 4), and senior clerics who ruled against tatbir despite popular resistance (section 20). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Technique 8 describes the unhealed child treated as a test, and the family that gives more nazr (votive offering) the next year.
 :::
 
 ::: card
 #### 3 · Children to Members to Children
 
 State curriculum, seminary stipends, and school dress rules attach identity before evaluation and make dissent unaffordable.
+
+**How it runs.**
+
+1. In Iran, school curricula, hijab rules for girls from age 7 in school and ideological instruction are state-mandated (section 11).
+2. Mourning rituals introduce children to grief narratives very young, and in some contexts children take part in self-flagellation (section 11).
+3. Seminary tracks recruit adolescents into stipend-dependent careers (section 11).
+4. The stipends make independence unaffordable, and dissent ends a career (section 18); a cleric or seminarian who leaves loses stipend, housing and status (section 15).
+5. Those students become the clerics and prayer leaders who form the next generation (section 18).
+
+**Techniques that feed it.** [13 · Normalization / Desensitization](#t-13), [19 · Manufactured Consent](#t-19), [23 · Infantilization](#t-23), [26 · Financial Control](#t-26).
+
+**Why it closes.** Identity is attached before the child can evaluate it, and the career it leads to is paid for by the network the career serves. By the time a seminarian can weigh the teaching, leaving costs livelihood and standing at once.
+
+**Where it could be broken, and by whom.** It weakens where schooling is separated from state ideological instruction, and where a seminarian's support does not depend on silence; section 18 names a stipend conditioned on silence as the point where a student could refuse. Senior clerics' rulings against tatbir show that the hierarchy can withdraw a practice that reaches children (section 20). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 18 records seminary students who study on stipends that make independence unaffordable and who see the financial architecture of loyalty from inside it.
 :::
 
 ::: card
 #### 4 · Aid to Legitimacy to Leverage to Aid
 
 Transnational welfare networks deliver clinics and schools abroad and convert them into political influence.
+
+**How it runs.**
+
+1. Transnational religious-social networks provide clinics, schools and welfare in other countries (section 16).
+2. The provision converts into political influence over those communities (section 16).
+3. In Lebanon, Hezbollah's social network of schools, hospitals and the Al-Qard Al-Hassan lending association delivers real services and binds communities to a party with an armed wing (section 16).
+4. At home, bonyads and shrine conglomerates are tax-exempt, answerable to the Supreme Leader rather than parliament, and financed by devotional giving (sections 9 and 16).
+5. In Iraq, a 2014 religious call to arms became a state salary line for armed factions, several of them aligned with Iran (section 7).
+
+**Techniques that feed it.** [2 · Weaponized Generosity](#t-2), [22 · Benevolent Control](#t-22), [26 · Financial Control](#t-26), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** The services are real, so the people who receive them have reason to stay loyal to the provider, and that loyalty is the influence the services secure. Each step makes the next easier, and the last step returns to the first.
+
+**Where it could be broken, and by whom.** It weakens where a state or another provider offers the same services, and where regulators act on the channel: the US Treasury designated Al-Qard Al-Hassan in 2007 (section 16), and the UK Charity Commission opened a statutory inquiry into the Supreme Leader's UK office (section 19). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 16 records Hezbollah's schools, hospitals and lending association in Lebanon, which deliver real services and bind communities to a party with an armed wing.
 :::
 
 ::: card
 #### 5 · Unpaid Labor to Assets to Power to More Labor
 
 Devotional giving and shrine labor build conglomerates that answer to one appointed office.
+
+**How it runs.**
+
+1. Pilgrims and the devout give at the shrine cities of Karbala, Najaf, Mashhad and Qom, and the donation flows are unaudited (section 9).
+2. Astan Quds Razavi, the Imam Reza shrine conglomerate, is one of the largest economic entities in Iran, tax-exempt and outside parliamentary oversight (section 7).
+3. Its custodian is appointed, and removable, only by the Supreme Leader (section 7). Setad, the conglomerate under the Leader's office, was valued at about $95 billion in 2013 (section 9).
+4. Bonyad and shrine employees administer the accounts and are asked to treat them as charitable (section 18).
+5. The shrines draw further pilgrimage and giving; Arbaeen drew about 21 million people in 2025 (section 9).
+
+**Techniques that feed it.** [26 · Financial Control](#t-26), [18 · Silent Treatment / Stonewalling](#t-18), [2 · Weaponized Generosity](#t-2), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** Those who give hold no office that controls the assets, and the one office that does answers to no parliament; section 14 records that the largest economic entities in the country are exempt from the oversight of the parliament the people elect.
+
+**Where it could be broken, and by whom.** Section 20 names published, independently audited accounts of a major shrine conglomerate as a change that would revise the page's financial findings. That lies with the Supreme Leader, who appoints the custodian; the employees who keep the books are the tier that sees the holdings (section 18). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Arbaeen drew about 21 million people in 2025 by the shrine authorities' own electronic count, a figure no one independently audits (section 9).
 :::
 
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
 An enforcement death produces a temporary relaxation, not a change in the enforcement authority.
+
+**How it runs.**
+
+1. In September 2022 Mahsa Amini, 22, died in the custody of Tehran's morality police after arrest for her hijab (section 19).
+2. The largest protest wave in decades followed, including devout Iranians; the state response included mass arrests and deaths, and the UN fact-finding mission found that some violations in the crackdown amounted to crimes against humanity (section 19).
+3. Enforcement continued with periodic relaxation (section 19).
+4. A harsher hijab law passed and was paused in December 2024, while the existing rules stayed in force (sections 8 and 19).
+5. No senior cleric lost office, and the office of the Supreme Leader, the shrine custodianships and the bonyad boards still hold the chair (section 14).
+
+**Techniques that feed it.** [22 · Benevolent Control](#t-22), [27 · Manufactured Crisis](#t-27), [30 · Plausible Deniability](#t-30), [17 · Smear Campaign](#t-17).
+
+**Why it closes.** The relaxation answers the protest without reaching the authority that sets the rule. The Leader's own Guardian Council vets the candidates of the only body that could, on paper, remove him (section 7).
+
+**Where it could be broken, and by whom.** Section 7 names the Assembly of Experts as the only body that could remove the Leader; in thirty-seven years it never has. Outside Iran, UN mechanisms report but have no power to compel (section 22). Section 14 predicts that the next enforcement death will produce visible leniency, a commission and no change to who holds power. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 14 records it in two sentences: a woman died in the custody of officers enforcing a religious rule, and no senior cleric lost office.
 :::
 
 ::: card
 #### 7 · Persecution to Solidarity to Insulation to Unaccountability
 
 Real persecution of Shia populations elsewhere is invoked to reframe Iranian protesters as foreign agents.
+
+**How it runs.**
+
+1. The persecution of Shia is real and current, from the killing of Hazara in Balochistan to the torture of Bahraini protesters found by the state's own 2011 inquiry (sections 3, 16 and 19).
+2. Criticism of clerical rule is framed as serving foreign enemies (section 11).
+3. Critics inside the community are told they are aiding enemies of the Ahl al-Bayt (techniques 6, 12 and 17).
+4. The devout protester is recast as a Western agent (stage 4), and the state's punishments are described as "national security matters" (section 3).
+5. Findings against the institution are received as hostility, and nothing changes inside.
+
+**Techniques that feed it.** [17 · Smear Campaign](#t-17), [11 · Projection](#t-11), [12 · DARVO](#t-12), [27 · Manufactured Crisis](#t-27), [14 · Isolation](#t-14).
+
+**Why it closes.** The more criticism arrives, the more it can be read as proof of a hostility the community already knows is real. Each finding strengthens the solidarity that protects the institution from the finding.
+
+**Where it could be broken, and by whom.** Section 3 gives the answer the loop cannot absorb: the critique on this page is the Najaf critique, and the protesters were Iranian, many of them devout. It weakens when internal dissent is heard as religious, as with the Najaf rejection of clerical rule and Kadivar's critique from inside Shia jurisprudence (sections 20 and 21). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Mohsen Kadivar, a mujtahid (a jurist qualified to derive rulings) who wrote a theological critique of rule by the jurist, was convicted by the Special Court for the Clergy and served about 17 months in Evin Prison (section 19).
 :::
 
 ## 14. Say versus do {#say-do}
@@ -1084,7 +1203,7 @@ Real persecution of Shia populations elsewhere is invoked to reframe Iranian pro
 
 **Last time the chair ran.** A woman died in the custody of officers enforcing a religious rule. No senior cleric lost office.
 
-**Who holds the chair now.** The office of the Supreme Leader, the shrine custodianships, and the bonyad boards.
+**Who holds the chair now.** The office of the Supreme Leader, the shrine custodianships and the bonyad boards hold it.
 
 **Prediction.** The next enforcement death will produce a period of visible leniency, a commission, and no change to who holds the power.
 
@@ -1092,24 +1211,24 @@ Real persecution of Shia populations elsewhere is invoked to reframe Iranian pro
 
 | Term | What it means inside | What it does | Said plainly |
 |---|---|---|---|
-| Taqlid | Following a qualified jurist in matters of practice. | A coherent and scholarly system. Its accountability property is that the follower has no standing to audit the followed, including on the money. | 'You defer, and deference does not come with a right to ask.' |
-| Khums | The obligatory fifth, half of which goes to the marjaʿ's office. | A religious obligation with no audited public accounts required anywhere in the system. Where a marjaʿ’s network runs a registered charity abroad, that charity files accounts — proof the audit is possible. | 'A fifth of your surplus, and no receipt.' |
+| Taqlid | It means following a qualified jurist in matters of practice. | It is a coherent and scholarly system. Its accountability property is that the follower has no standing to audit the followed, including on the money. | 'You defer, and deference does not come with a right to ask.' |
+| Khums | It is the obligatory fifth, half of which goes to the marjaʿ's office. | It is a religious obligation with no audited public accounts required anywhere in the system. Where a marjaʿ’s network runs a registered charity abroad, that charity files accounts — proof the audit is possible. | 'A fifth of your surplus, and no receipt.' |
 
 ## 15. Cost & cover {#cost}
 
 ### What leaving costs
 
-- In Iran: state apparatus enforces religious compliance (morality policing, apostasy/blasphemy exposure). [GOVERNMENT REPORT: UN human rights reporting]
-- Diaspora and communal costs mirror Sunni patterns; leaving devotional culture reads as betraying Husayn and family dead.
+- In Iran, the state apparatus enforces religious compliance through morality policing and exposure to apostasy and blasphemy charges. [GOVERNMENT REPORT: UN human rights reporting]
+- Diaspora and communal costs mirror Sunni patterns, and leaving devotional culture reads as betraying Husayn and the family's dead.
 
 ### The ledger of exit
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| State punishment (Iran) | Yes | Morality policing, apostasy exposure, imprisonment of critics | “These are national security matters.” |
+| State punishment (Iran) | Yes | The state uses morality policing, exposure to apostasy charges and the imprisonment of critics. | “These are national security matters.” |
 | Family and community | Yes | Devotional culture is family-centered; leaving reads as betraying the martyrs | “Nobody forces belief in Shiism.” |
-| Livelihood | Yes for clerics and seminarians | Loss of stipend, housing, and status | “They chose another path.” |
-| Spiritual threat | Yes | Loss of intercession of the Imams; eternal consequence | “A statement of doctrine, not a threat.” |
+| Livelihood | Yes for clerics and seminarians | Clerics and seminarians lose stipend, housing and status. | “They chose another path.” |
+| Spiritual threat | Yes | Leaving means the loss of the Imams' intercession, with eternal consequence. | “A statement of doctrine, not a threat.” |
 
 ### How the cost is denied
 
@@ -1119,8 +1238,8 @@ Real persecution of Shia populations elsewhere is invoked to reframe Iranian pro
 | Informal enforcement | Medium | Outside Iran, family and community devotion carries the enforcement. |
 | Leadership distance | Medium | Marjaʿ offices can disclaim the state; the state can disclaim any single marjaʿ. |
 | Doctrinal ambiguity | Medium | Quietist versus activist readings let each disown the other's consequences. |
-| Cultural outsourcing | Medium | Enforcement attributed to Iranian culture or to security policy rather than religion. |
-| Volunteer enforcement | High | Basij-style volunteer enforcement and family policing are structural features. |
+| Cultural outsourcing | Medium | Enforcement is attributed to Iranian culture or to security policy rather than religion. |
+| Volunteer enforcement | High | Basij-style (after Iran's volunteer militia) volunteer enforcement and family policing are structural features. |
 | Sacred secrecy | Medium | Clerical courts and shrine finances operate without public disclosure. |
 | Exit cost denial | Medium | Officially belief is free; the penal code and the morality police are the correction. |
 
@@ -1128,9 +1247,9 @@ Real persecution of Shia populations elsewhere is invoked to reframe Iranian pro
 
 ### Who benefits
 
-- The Iranian state and its clerical-security elite: religion as constitution, bonyads as off-budget wealth, martyrdom narrative as mobilization fuel. [ACADEMIC SOURCE / INVESTIGATIVE REPORT]
-- Marjaʿ offices collecting khums with hereditary-adjacent succession of networks.
-- Ritual economies around mourning seasons and shrine cities.
+- The Iranian state and its clerical-security elite benefit, with religion as constitution, bonyads as off-budget wealth and the martyrdom narrative as mobilization fuel. [ACADEMIC SOURCE / INVESTIGATIVE REPORT]
+- Marjaʿ offices benefit, collecting khums, and their networks pass on by hereditary-adjacent succession.
+- Ritual economies around mourning seasons and shrine cities benefit.
 
 ### Money out, leverage back
 
@@ -1141,12 +1260,12 @@ Real persecution of Shia populations elsewhere is invoked to reframe Iranian pro
 
 ### Who pays
 
-- Iranian women, under compulsory dress and unequal personal-status law.
-- Protesters and dissenters, including devout ones, killed and imprisoned since 2017. [GOVERNMENT REPORT]
-- Baháʼís, Sunnis, and other minorities in Iran facing systematic discrimination.
-- LGBTQ Iranians, under capital statutes.
-- Ordinary payers of khums, funding offices they cannot audit.
-- Shia minorities elsewhere — Hazara in Pakistan and Afghanistan, Shia citizens of Saudi Arabia’s Eastern Province and of Bahrain, where the state’s own 2011 Independent Commission of Inquiry documented torture and mass dismissals of protesters. [GOVERNMENT REPORT]
+- Iranian women pay, under compulsory dress and unequal personal-status law.
+- Protesters and dissenters pay, including devout ones, who have been killed and imprisoned since 2017. [GOVERNMENT REPORT]
+- Baháʼís, Sunnis and other minorities in Iran pay, facing systematic discrimination.
+- LGBTQ Iranians pay, under capital statutes.
+- Ordinary payers of khums pay, funding offices they cannot audit.
+- Shia minorities elsewhere pay: the Hazara in Pakistan and Afghanistan, and Shia citizens of Saudi Arabia’s Eastern Province and of Bahrain, where the state’s own 2011 Independent Commission of Inquiry documented torture and mass dismissals of protesters. [GOVERNMENT REPORT]
 
 ::: cites
 Sources for this section: [5] [10] [11]
@@ -1156,14 +1275,16 @@ Sources for this section: [5] [10] [11]
 
 ### Where the weight lands
 
+The costs in section 15 do not fall evenly. They fall hardest where religious law is state law, and on those with the least power inside the community and the fewest places to go outside it. The table names who carries the most, how, and what makes it worse.
+
 | Who | How | What it compounds with |
 |---|---|---|
-| Iranian women | Compulsory dress enforced by police; unequal testimony, inheritance, custody, and travel rights | With imprisonment for protesting it |
-| Protesters, including devout ones | Killed and imprisoned since 2017 | With their families prosecuted for speaking |
-| Bahá'ís, Sunnis, and other minorities in Iran | Systematic exclusion from education, employment, and legal protection | With no domestic recourse of any kind |
-| LGBTQ Iranians | Capital statutes | With family reporting |
-| Ordinary khums payers | A fifth of surplus income to offices that publish no audited accounts | Where asking is treated as impertinence |
-| Girls in the Dawoodi Bohra community | Khatna (female genital cutting), examined in criminal courts: the first US federal FGM prosecution (Detroit, 2017), whose FGM counts fell when the 1996 federal law was ruled unconstitutional (Congress replaced it in 2021), and Australia’s first FGM prosecution (convictions 2015, quashed on appeal; the High Court clarified the law in 2019; charges dropped in 2020) | With social boycott available against families who refuse — a practice Maharashtra outlawed generally in 2016 |
+| Iranian women | Dress is compulsory and enforced by police, and their testimony, inheritance, custody and travel rights are unequal. | It compounds with imprisonment for protesting it. |
+| Protesters, including devout ones | They have been killed and imprisoned since 2017. | It compounds when their families are prosecuted for speaking. |
+| Bahá'ís, Sunnis, and other minorities in Iran | They are systematically excluded from education, employment and legal protection. | It compounds with the lack of any domestic recourse. |
+| LGBTQ Iranians | They face capital statutes. | It compounds when families report them. |
+| Ordinary khums payers | They pay a fifth of surplus income to offices that publish no audited accounts. | It compounds where asking is treated as impertinence. |
+| Girls in the Dawoodi Bohra community | Khatna (female genital cutting) has been examined in criminal courts, in the first US federal FGM prosecution (Detroit, 2017), whose FGM counts fell when the 1996 federal law was ruled unconstitutional (Congress replaced it in 2021), and Australia’s first FGM prosecution (convictions 2015, quashed on appeal; the High Court clarified the law in 2019; charges dropped in 2020). | It compounds with social boycott, available against families who refuse; Maharashtra outlawed social boycott generally in 2016. |
 
 ::: cites
 Sources for this section: [7]
@@ -1171,12 +1292,14 @@ Sources for this section: [7]
 
 ## 18. The middle tiers {#tiers}
 
+Most of the tradition's daily work is done below the marjaʿ and the Leader, by people who see decisions without making them. Neighborhood clerics, seminary students, majlis organizers and the employees of the bonyads and shrines each carry part of the load, and each stands at one point where the next request could be declined. The table sets out what each tier does, what it sees, what it is asked to do and where it could refuse.
+
 | Role | Does | Sees | Is asked to | Could refuse |
 |---|---|---|---|---|
-| Neighborhood clerics and prayer leaders | Serves the community and depends on the network for stipend and standing | That dissent ends a career | To echo the line | To deliver a political sermon |
-| Seminary students | Studies on stipends that make independence unaffordable | The financial architecture of loyalty from inside it | To wait their turn | To accept a stipend conditioned on silence |
-| Majlis organizers and mourning-ritual hosts | Runs the devotional life that carries the whole community | When grief is being harvested for mobilization | To host the approved speaker | To hand the microphone to a state recruiter at a mourning gathering |
-| Bonyad and shrine employees | Administers the accounts | The holdings | To treat it as charitable | To keep books they know will never be published |
+| Neighborhood clerics and prayer leaders | Serve the community and depend on the network for stipend and standing | That dissent ends a career | Echo the line | Deliver a political sermon |
+| Seminary students | Study on stipends that make independence unaffordable | The financial architecture of loyalty from inside it | Wait their turn | Accept a stipend conditioned on silence |
+| Majlis organizers and mourning-ritual hosts | Run the devotional life that carries the whole community | When grief is being harvested for mobilization | Host the approved speaker | Hand the microphone to a state recruiter at a mourning gathering |
+| Bonyad and shrine employees | Administer the accounts | The holdings | Treat them as charitable | Keep books they know will never be published |
 
 ## 19. Documented cases {#cases}
 
@@ -1186,7 +1309,7 @@ Sources for this section: [7]
 - **when:** 2022
 - **what:** A young woman died in the custody of officers enforcing compulsory dress rules, triggering the largest protest wave in decades, including by devout Iranians. State response included mass arrests and deaths.
 - **record:** UN human rights reporting and international documentation
-- **outcome:** Enforcement continued with periodic relaxation. No senior cleric lost office. Established that the enforcement apparatus is statutory rather than devotional.
+- **outcome:** Enforcement continued with periodic relaxation. No senior cleric lost office. The case established that the enforcement apparatus is statutory rather than devotional.
 - **tactics:** 22, 27
 - **grade:** Documented
 :::
@@ -1241,9 +1364,9 @@ Sources for this section: [9]
 
 | What | Who | When | What it cost |
 |---|---|---|---|
-| The Najaf quietist rejection of clerical rule | Senior marjaʿiyya | Sustained | Political marginalization in Iran |
-| Rulings by senior clerics — including a 1994 fatwa by Ayatollah Khamenei and rulings by Grand Ayatollah Fadlallah — prohibiting or discouraging tatbir (blade self-cutting) | Marjaʿ rulings | 1990s onward | Popular resistance |
-| Mass protest by believers against clerical governance | Iranians, many of them devout | 2017–present | Deaths, imprisonment, exile |
+| The Najaf quietist rejection of clerical rule | Senior marjaʿiyya | Sustained | It has cost political marginalization in Iran. |
+| Rulings by senior clerics — including a 1994 fatwa by Ayatollah Khamenei and rulings by Grand Ayatollah Fadlallah — prohibiting or discouraging tatbir (blade self-cutting) | Marjaʿ rulings | 1990s onward | The rulings have met popular resistance. |
+| Mass protest by believers against clerical governance | Iranians, many of them devout | 2017–present | It has cost deaths, imprisonment and exile. |
 
 ### What would change this page
 
@@ -1255,49 +1378,49 @@ Sources for this section: [18]
 
 ## 21. Voices from inside {#voices}
 
-- **Grand Ayatollah Hossein-Ali Montazeri.** Khomeini's designated successor, who in 1988 condemned the execution of thousands of prisoners; he lost the succession and was later under house arrest from 1997 to 2003 [29].
-- **Mohsen Kadivar.** A mujtahid whose critique of *velayat-e faqih* is written from inside Shia jurisprudence, and who was jailed for it [30].
-- **Grand Ayatollah Ali al-Sistani.** The quietist marjaʿ, who holds no state office, condemned the killing of Iraqi protesters in 2019 [19].
-- **Grand Ayatollah Mohammad Hussein Fadlallah.** A senior Lebanese marjaʿ who opposed tatbir, the blade rituals of Ashura [18].
-- **Narges Mohammadi.** An Iranian human-rights defender, imprisoned, awarded the Nobel Peace Prize in 2023 [21].
+- **Grand Ayatollah Hossein-Ali Montazeri.** He was Khomeini's designated successor, and in 1988 he condemned the execution of thousands of prisoners; he lost the succession and was later under house arrest from 1997 to 2003 [29].
+- **Mohsen Kadivar.** He is a mujtahid whose critique of *velayat-e faqih* is written from inside Shia jurisprudence, and he was jailed for it [30].
+- **Grand Ayatollah Ali al-Sistani.** He is the quietist marjaʿ, holds no state office, and condemned the killing of Iraqi protesters in 2019 [19].
+- **Grand Ayatollah Mohammad Hussein Fadlallah.** He was a senior Lebanese marjaʿ who opposed tatbir, the blade rituals of Ashura [18].
+- **Narges Mohammadi.** She is an Iranian human-rights defender who has been imprisoned, and she was awarded the Nobel Peace Prize in 2023 [21].
 
 ## 22. Regional variants {#regional}
 
 ::: card
 ### Iran
-- **apex:** The Supreme Leader — Mojtaba Khamenei since March 2026 — chosen by the Assembly of Experts [1][2][3].
-- **law:** Leaving Islam can carry the death penalty [37]; compulsory hijab [24]; same-sex acts punishable by death [12].
-- **documented:** The UN fact-finding mission on the 2022 crackdown [9]; Setad's holdings [14].
-- **exit:** The highest legal risk for Shia on this page.
-- **regulator:** None independent; UN mechanisms report [9].
-- **tell:** The only state on earth where the answer to "who is the top cleric?" is also the answer to "who commands the army?" [1].
+- **apex:** The Supreme Leader, Mojtaba Khamenei since March 2026, is chosen by the Assembly of Experts [1][2][3].
+- **law:** Leaving Islam can carry the death penalty [37], hijab is compulsory [24], and same-sex acts are punishable by death [12].
+- **documented:** The record includes the UN fact-finding mission on the 2022 crackdown [9] and Setad's holdings [14].
+- **exit:** Leaving carries the highest legal risk for Shia on this page.
+- **regulator:** There is no independent regulator; UN mechanisms report [9].
+- **tell:** It is the only state on earth where the answer to "who is the top cleric?" is also the answer to "who commands the army?" [1].
 :::
 
 ::: card
 ### Iraq
-- **apex:** Two poles: the Najaf marjaʿiyya, outside the state, and the parties and armed factions inside it [4][19].
+- **apex:** There are two poles: the Najaf marjaʿiyya, outside the state, and the parties and armed factions inside it [4][19].
 - **law:** A 2025 amendment lets Shia families choose a Jaʿfari personal-status code [8][13]; the PMF was made a state body by law in 2016 [4].
 - **documented:** Sistani's sermons helped bring down a government in 2019 [19]; HRW on the 2025 code [13].
-- **exit:** Family and community costs; the family code now follows sect [13].
-- **regulator:** Iraq's courts; the Najaf authorities hold moral, not legal, power [19].
+- **exit:** Leaving brings family and community costs, and the family code now follows sect [13].
+- **regulator:** Iraq's courts regulate; the Najaf authorities hold moral, not legal, power [19].
 - **tell:** The most powerful Shia voice in Iraq holds no office and cannot be removed — and that is exactly why his word carries.
 :::
 
 ::: card
 ### Lebanon
-- **apex:** Sect-based religious councils; Jaʿfari courts for Shia personal status [25].
-- **law:** No civil marriage; each sect's courts decide marriage, divorce and custody [25]; the Jaʿfari courts have no clear minimum marriage age [26].
-- **documented:** Human Rights Watch on discrimination in all of Lebanon's religious personal-status systems [25].
+- **apex:** Sect-based religious councils lead, and Jaʿfari courts decide Shia personal status [25].
+- **law:** There is no civil marriage; each sect's courts decide marriage, divorce and custody [25]; the Jaʿfari courts have no clear minimum marriage age [26].
+- **documented:** Human Rights Watch has documented discrimination in all of Lebanon's religious personal-status systems [25].
 - **exit:** To marry outside the system, couples marry abroad.
-- **regulator:** The religious courts themselves [25].
+- **regulator:** The religious courts regulate themselves [25].
 - **tell:** A state that assigns every citizen a sect and a sect's court: the exit from religious law is a plane ticket.
 :::
 
 ::: card
 ### Bahrain
-- **apex:** A Sunni monarchy over a Shia-majority population [10].
+- **apex:** A Sunni monarchy rules over a Shia-majority population [10].
 - **law:** —
-- **documented:** The 2011 independent inquiry's findings of torture [10].
+- **documented:** The 2011 independent inquiry found torture [10].
 - **exit:** Not a religious-law question here; the cost of dissent is political [10].
 - **regulator:** The inquiry itself was the regulator's work, commissioned by the king [10].
 - **tell:** A government commissioned an inquiry that found against it. That is the precedent; what happened next is the test.
@@ -1305,22 +1428,22 @@ Sources for this section: [18]
 
 ::: card
 ### Pakistan
-- **apex:** Community clerics and trusts; no state religious office for Shia.
+- **apex:** Community clerics and trusts lead; there is no state religious office for Shia.
 - **law:** Blasphemy and sectarian-hatred laws apply to all Muslims.
-- **documented:** The killing of Hazara Shia in Balochistan [11].
+- **documented:** The record documents the killing of Hazara Shia in Balochistan [11].
 - **exit:** —
-- **regulator:** Police and courts, whose failure to protect is the finding [11].
+- **regulator:** The police and courts are the regulators, and their failure to protect is the finding [11].
 - **tell:** Most of the harm on this card is done to Shia, not by their institutions.
 :::
 
 ::: card
 ### United Kingdom
-- **apex:** Independent mosques and foundations; the Supreme Leader's representative office until 2023 [27].
+- **apex:** Independent mosques and foundations lead; the Supreme Leader's representative office operated until 2023 [27].
 - **law:** Charity law applies to religious charities [27].
-- **documented:** The Charity Commission's removal of the Islamic Centre of England's trustees [27].
-- **exit:** Legally free; support services exist [33][34].
-- **regulator:** The Charity Commission [27].
-- **tell:** The only jurisdiction on this page where a regulator removed the Leader's own trustees — because they were a charity.
+- **documented:** The Charity Commission removed the Islamic Centre of England's trustees [27].
+- **exit:** Leaving is legally free, and support services exist [33][34].
+- **regulator:** The Charity Commission is the regulator [27].
+- **tell:** It is the only jurisdiction on this page where a regulator removed the Leader's own trustees, because they were a charity.
 :::
 
 ## 23. The questions {#questions}
@@ -1330,7 +1453,7 @@ Sources for this section: [18]
 3. If clerical rule is Islam, why does Najaf — the tradition's senior center — reject it?
 4. A woman died in the custody of officers enforcing a religious rule. Which cleric lost his position over it?
 5. Why are the largest economic entities in a religious state exempt from the parliament its citizens elect?
-6. You were taught that internal criticism serves foreign powers. Notice that this is the exact argument Yazid's court would have made.
+6. You were taught that internal criticism serves foreign powers. Notice that this is the exact argument Yazid's court (the court of the Umayyad caliph whose forces killed Husayn) would have made.
 
 ### In closing
 
@@ -1347,7 +1470,7 @@ Practical guidance, not legal advice.
 3. **Know your family-law exposure.** In Iraq and Lebanon, marriage, divorce and custody follow sect and are decided by religious courts [13][25].
 4. **Secure documents and money** in your own name before any disclosure.
 5. **If honour or forced marriage is invoked,** use specialist services [31][38].
-6. **Find your people quietly** — vetted ex-Muslim communities, or Muslim peer helplines if you are staying [34][36].
+6. **Find your people quietly.** Use vetted ex-Muslim communities, or Muslim peer helplines if you are staying [34][36].
 
 ## 25. Where to get help {#help}
 
@@ -1412,9 +1535,6 @@ Checked 2026-09-27. Services change; check the organization's own site.
 38. Karma Nirvana, national Honour Based Abuse Helpline. https://karmanirvana.org.uk/get-help/helpline/
 39. Grand Ayatollah Sistani, *Islamic Laws*, "Khums" — surplus income and distribution. https://www.sistani.org/english/book/48/2306/ · https://www.sistani.org/english/book/48/2312/
 
-(Khums at 20% of annual surplus, split into *sahm-e Imam* and *sahm-e sadat*, is standard Twelver
-jurisprudence, stated in every marjaʿ's practical manual — e.g. Sistani's *Islamic Laws*, "Khums":
-https://www.sistani.org/english/book/48/2312/ (distribution) and https://www.sistani.org/english/book/48/2306/ (surplus income) .)
 
 ## 27. What changed on this page {#changed}
 
