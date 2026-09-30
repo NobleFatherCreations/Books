@@ -18,13 +18,13 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | Estimated ~10–20 million within the Tibetan cultural sphere, plus several hundred thousand to low millions of convert practitioners globally (estimates vary widely). [ACADEMIC SOURCE] |
-| Who's in charge | The Dalai Lama — Tenzin Gyatso, the 14th, born 1935 — who declared at his 90th birthday in July 2025 that the institution will continue and that his Gaden Phodrang Trust alone holds authority to recognize the 15th |
-| Chosen by / removable by | A recognition ritual controlled by the predecessor's own trust / Nobody. The office is located in the man |
-| Money in one line | Empowerment and teaching fees, retreat economies, center dues, estate endowments; Western sanghas as major funding sources for exile institutions. |
-| Leaving in one line | Leaving after tantric commitment carries taught cosmic consequences ('vajra hell'); whistleblowers in documented cases faced community exile and samaya-breaking accusations. [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT] |
+| Size | Tibetan Buddhism has an estimated ~10–20 million adherents within the Tibetan cultural sphere, plus several hundred thousand to low millions of convert practitioners globally (estimates vary widely). [ACADEMIC SOURCE] |
+| Who's in charge | The Dalai Lama, the most senior lama (teacher) of Tibetan Buddhism, is Tenzin Gyatso, the 14th, born 1935. At his 90th birthday in July 2025 he declared that the institution will continue and that his Gaden Phodrang Trust (the foundation he created) alone holds authority to recognize the 15th. |
+| Chosen by / removable by | The Dalai Lama is chosen by a recognition ritual controlled by the predecessor's own trust / Nobody can remove him. The office is located in the man. |
+| Money in one line | The money comes from empowerment (ritual initiation) and teaching fees, retreat economies, center dues and estate endowments. Western sanghas (communities of practitioners) are major funding sources for exile institutions. |
+| Leaving in one line | Leaving after tantric commitment (the vows of the advanced practices) carries taught cosmic consequences ('vajra hell', the hell realm taught as the penalty for breaking the vows). In documented cases, whistleblowers faced community exile and accusations of breaking samaya (the vow binding student to teacher). [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT] |
 | The unanswered question | Samaya forbids criticizing the lama. Who wrote the exemption for the lama's own conduct — and where is it published? |
-| Evidence | 6 of 30 techniques sourced to a named document; grades: Taught 13, Cultural 7, Codified 7, Documented 3 |
+| Evidence | Six of the 30 techniques are sourced to a named document. The grades are Taught 13, Cultural 7, Codified 7 and Documented 3. |
 | Family | Buddhism — buddhism, tibetan-buddhism, soka-gakkai |
 | Last checked | 2026-09-27 |
 :::
@@ -41,7 +41,7 @@ partial: []
 
 *Martin · A Tuesday in the winter retreat · A dharma centre in the French Alps*
 
-Ngöndro at six. He has completed 400,000 prostrations in his life and he can tell you what that did to his knees and also what it did to something else that he has no vocabulary for outside this room.
+Ngöndro (the preliminary practices of Tibetan tantric training) at six. He has completed 400,000 prostrations in his life and he can tell you what that did to his knees and also what it did to something else that he has no vocabulary for outside this room.
 
 He is fifty-four. He sold a flat in Lyon in 2009 to move here. His pension is what it is. He is not resentful about this — he wants that understood — he made a choice and he would defend it at a dinner party.
 
@@ -51,7 +51,7 @@ At lunch a woman named Ilse, who has been here longer than he has, mentions a st
 
 He took empowerment from the lama in 2011. He remembers the joy of it. He also remembers, and has never told anyone he remembers, that the explanation of what the vow forbade came after the vow, not before.
 
-At night he lies in a small cold room and thinks about a report that was published a few years ago about a different centre and a different teacher, and about the fact that the organization commissioned it itself, and about the sentence in it that used the word samaya. And then he does what he always does with that thought, which is to recognize it as an obscuration and to bring the mind back to the breath. It works. That is the part he cannot get past: it works.
+At night he lies in a small cold room and thinks about a report that was published a few years ago about a different centre and a different teacher, and about the fact that the organization commissioned it itself, and about the sentence in it that used the word samaya. And then he does what he always does with that thought, which is to recognize it as an obscuration (a mental veil, in the tradition's term) and to bring the mind back to the breath. It works. That is the part he cannot get past: it works.
 
 ## 3. The forefront {#forefront}
 
@@ -69,13 +69,13 @@ Samaya forbids criticizing the lama. Who wrote the exemption for the lama's own 
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| Criticizing the guru breaks samaya and endangers you. | The Dalai Lama has repeatedly and publicly instructed students to expose abusive teachers by name. | [LEADERSHIP STATEMENT] |
+| Criticizing the guru (the student's root teacher) breaks samaya and endangers you. | The Dalai Lama has repeatedly and publicly instructed students to expose abusive teachers by name. | [LEADERSHIP STATEMENT] |
 
 ### One cost of leaving, beside its denial
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Spiritual threat (samaya breach) | Yes — doctrinally explicit | Taught consequences including vajra hell for criticizing or leaving the guru | “It's a description of karma, not a threat.” |
+| Spiritual threat (samaya breach) | Yes, it is doctrinally explicit. | The taught consequences include vajra hell for criticizing or leaving the guru. | “It's a description of karma, not a threat.” |
 
 ### The strongest objection, answered
 
@@ -88,18 +88,20 @@ Samaya forbids criticizing the lama. Who wrote the exemption for the lama's own 
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-Vajrayana Buddhism of the Tibetan cultural world and its global diaspora; guru-centered tantric practice, reincarnate-lama (tulku) institutions, and a globally beloved figurehead in the Dalai Lama.
+Tibetan Buddhism is Vajrayana (tantric) Buddhism of the Tibetan cultural world and its global diaspora. It is built on guru-centered tantric practice and reincarnate-lama (tulku) institutions, and it has a globally beloved figurehead in the Dalai Lama.
 :::
 
-- The Dalai Lama's own public statements that students should expose abusive teachers; sanghas that commissioned and published independent investigations; reform teachers making ethics prerequisite to tantra.
+Healthy practice here looks like the Dalai Lama's own public statements that students should expose abusive teachers, sanghas that commissioned and published independent investigations, and reform teachers who make ethics a prerequisite to tantra [5].
+
+Some of that standard is already on the record. In December 2016 the Dalai Lama awarded the geshema (the highest Gelug monastic degree) to 20 nuns, a first for women [6]. The UK charity of Rigpa files public accounts [10]. The Rigpa and Shambhala investigations were commissioned by the organizations themselves [1][2]. Each is recorded here as credit.
 
 ::: cites
-Sources for this section: [5]
+Sources for this section: [1] [2] [5] [6] [10]
 :::
 
 ## 5. History {#history}
 
-Buddhism entered Tibet from the 7th century; monastic mass-institutionalization made lamas Tibet's governing class; the tulku system created reincarnation-based succession of institutional property; the 1959 exile globalized the tradition.
+Buddhism entered Tibet from the 7th century. Monastic mass-institutionalization made lamas Tibet's governing class. The tulku system, in which a recognized child is identified as the reincarnation of a dead lama, created reincarnation-based succession of institutional property. The 1959 exile globalized the tradition.
 
 ### Timeline
 
@@ -107,13 +109,13 @@ Buddhism entered Tibet from the 7th century; monastic mass-institutionalization 
 7th–9th c. CE | Buddhism enters Tibet under royal sponsorship; Padmasambhava tradition | Imported religion allied to monarchy from the outset.
 11th–14th c. | Second diffusion; Sakya, Kagyu, Nyingma, and later Gelug schools form | Competing monastic institutions with land, tenants, and armies.
 1290s–1350s | Tulku (reincarnate lama) system begins with the Karmapa line | Property and authority now pass through recognized rebirth — an institution unique in world religion.
-1642–1950 | Fifth Dalai Lama establishes Ganden Phodrang; monastic government of Tibet | Clergy govern a state; monasteries hold estates and serf-like labor obligations. [ACADEMIC SOURCE]
+1642–1950 | Fifth Dalai Lama establishes Ganden Phodrang (the Dalai Lamas' governing institution); monastic government of Tibet | Clergy govern a state; monasteries hold estates and serf-like labor obligations. [ACADEMIC SOURCE]
 1950–1959 | Chinese annexation; 1959 uprising; Dalai Lama flees to India | The institution is severed from its territory and its economy.
 1960s–1980s | Exile reconstruction; first Western transmission (Trungpa, Sogyal, and others) | Tantric guru relationships transplanted into cultures with no communal checks.
 1966–1976 | Cultural Revolution devastates Tibetan monasteries | Catastrophic external persecution — the context every internal critique must hold alongside.
-1995 | Beijing detains the Dalai Lama's recognized Panchen Lama; installs its own | The state seizes the recognition machinery itself. [GOVERNMENT REPORT]
+1995 | Beijing detains the Dalai Lama's recognized Panchen Lama (the second-ranking lama of the Gelug school); installs its own | The state seizes the recognition machinery itself. [GOVERNMENT REPORT]
 2007 | PRC State Administration for Religious Affairs Order No. 5 requires government approval for reincarnations | A government legislates who may be reborn. [OFFICIAL POLICY]
-2017–2019 | Independent investigations find abuse by Sogyal Rinpoche (Rigpa, 2018) and sexual misconduct by Sakyong Mipham (Shambhala, 2019) | Samaya-based silence documented as the enabling mechanism. [INVESTIGATIVE REPORT]
+2017–2019 | Independent investigations find abuse by Sogyal Rinpoche (founder of Rigpa, 2018) and sexual misconduct by Sakyong Mipham (head of Shambhala, 2019) | Samaya-based silence documented as the enabling mechanism. [INVESTIGATIVE REPORT]
 2011–present | Dalai Lama's succession statements; Beijing insists on its own approval | The next succession is a live geopolitical contest over sacred authority.
 ```
 
@@ -149,15 +151,15 @@ Sources for this section: [1] [2] [3] [7] [8]
 
 ## 6. Branches & variants {#branches}
 
-Nyingma, Kagyu, Sakya, Gelug; Bön as a related Tibetan tradition; numerous Western organizations under individual teachers.
+Tibetan Buddhism has four main schools, the Nyingma, Kagyu, Sakya and Gelug. Bön is a related Tibetan tradition, and there are numerous Western organizations under individual teachers.
 
 | School | Where authority sits | On this page's questions |
 |---|---|---|
-| **Gelug** | The Dalai Lama's school; the Ganden Phodrang since 1642 [8] | The Dalai Lama says the Gaden Phodrang Trust alone will recognize his successor (2025) [4] |
-| **Kagyu** | The Karmapa — the first reincarnation (tulku) line, from the 13th century [8] | Two rival Karmapas were recognized in 1992 [8] |
-| **Nyingma** | Lamas and lineages; the school of Rigpa's founder [1][10] | The Rigpa investigation (2018) [1] |
-| **Sakya** | The Sakya throne-holder [8] | — |
-| **Western organizations** | A founding teacher and a board — Rigpa, Shambhala and others [1][2] | Independent investigations found misconduct in both [1][2] |
+| **Gelug** | Authority sits with the Dalai Lama, whose school this is and whose Ganden Phodrang institution dates from 1642 [8] | The Dalai Lama says the Gaden Phodrang Trust alone will recognize his successor (2025) [4] |
+| **Kagyu** | Authority sits with the Karmapa, whose line is the first reincarnation (tulku) line, from the 13th century [8] | Two rival Karmapas were recognized in 1992 [8] |
+| **Nyingma** | Authority sits with lamas and lineages, and this is the school of Rigpa's founder [1][10] | An independent investigation into Rigpa took place in 2018 [1] |
+| **Sakya** | Authority sits with the Sakya throne-holder [8] | — |
+| **Western organizations** | Authority sits with a founding teacher and a board, as in Rigpa, Shambhala and others [1][2] | Independent investigations found misconduct in both [1][2] |
 
 ## 7. Structure {#structure}
 
@@ -165,14 +167,14 @@ Nyingma, Kagyu, Sakya, Gelug; Bön as a related Tibetan tradition; numerous West
 
 |  |  |
 |---|---|
-| Adherents | Estimated ~10–20 million within the Tibetan cultural sphere, plus several hundred thousand to low millions of convert practitioners globally (estimates vary widely). [ACADEMIC SOURCE] |
-| Regions | Tibet Autonomous Region and Tibetan areas of China, Nepal, Bhutan, Mongolia, Ladakh and Sikkim (India), Russian Buryatia/Kalmykia/Tuva, plus Western convert centers. |
-| Trend | Under heavy state restriction inside China; the exile institutions face funding and succession uncertainty; Western convert numbers plateaued after the scandals of 2017–2019. [PATTERN OBSERVED] |
+| Adherents | Tibetan Buddhism has an estimated ~10–20 million adherents within the Tibetan cultural sphere, plus several hundred thousand to low millions of convert practitioners globally (estimates vary widely). [ACADEMIC SOURCE] |
+| Regions | The tradition is found in the Tibet Autonomous Region and Tibetan areas of China, Nepal, Bhutan, Mongolia, Ladakh and Sikkim (India), Russian Buryatia/Kalmykia/Tuva, plus Western convert centers. |
+| Trend | The tradition is under heavy state restriction inside China, the exile institutions face funding and succession uncertainty, and Western convert numbers plateaued after the scandals of 2017–2019. [PATTERN OBSERVED] |
 | Participation | Convert practitioners are disproportionately represented in documented abuse cases because they enter tantric commitments as adults with no family or village able to intervene. |
 
 ### Authority
 
-- Root-guru authority sealed by samaya vows; tulku estates (labrang) holding property across incarnations; lineage heads with transnational followings.
+- Authority rests on the root guru (the student's principal teacher), sealed by samaya vows; on tulku estates (labrang) that hold property across incarnations; and on lineage heads with transnational followings.
 - The samaya structure — cosmic penalties for criticizing the guru after initiation — is the tradition's highest-risk mechanism, cited across its documented abuse cases (Sogyal Rinpoche/Rigpa independent investigation 2018 [INVESTIGATIVE REPORT]; Shambhala/Sakyong 2019 [INVESTIGATIVE REPORT]).
 
 ### The top of the chain
@@ -183,9 +185,9 @@ The next decade will stage the clearest apex fight in world religion: two govern
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| The Dalai Lama | Tenzin Gyatso, the 14th, born 1935 — who declared at his 90th birthday in July 2025 that the institution will continue and that his Gaden Phodrang Trust alone holds authority to recognize the 15th | A recognition ritual controlled by the predecessor's own trust | Nobody. The office is located in the man |
-| The counter-claim | The People's Republic of China asserts state approval over reincarnation under its 2007 Order No. 5, and maintains its own Panchen Lama — installed after the recognized child, Gedhun Choekyi Nyima, was taken into custody at age six in 1995 and has not been seen since | The state | The state |
-| The Karmapa | Two recognized claimants since 1992 — a live demonstration that recognition follows the recognizers | Rival regents | Nobody |
+| The Dalai Lama | Tenzin Gyatso, the 14th, born 1935, sits in it. At his 90th birthday in July 2025 he declared that the institution will continue and that his Gaden Phodrang Trust alone holds authority to recognize the 15th. | The recognition ritual is controlled by the predecessor's own trust. | Nobody can remove him. The office is located in the man. |
+| The counter-claim | The People's Republic of China asserts state approval over reincarnation under its 2007 Order No. 5, and maintains its own Panchen Lama — installed after the recognized child, Gedhun Choekyi Nyima, was taken into custody at age six in 1995 and has not been seen since | The state chooses the office-holder. | The state can remove the office-holder. |
+| The Karmapa | There have been two recognized claimants since 1992, a live demonstration that recognition follows the recognizers. | Each was chosen by rival regents (senior lamas acting for the lineage). | Nobody can remove either. |
 
 ::: tell
 Whoever wins the coming succession, the outcome is the same: a child appointed to a throne he cannot resign.
@@ -195,18 +197,18 @@ Whoever wins the coming succession, the outcome is the same: a child appointed t
 
 | Entity | Type | Holder | Holds | Why it matters to you | Receipt |
 |---|---|---|---|---|---|
-| PRC State Administration for Religious Affairs | State organ | Chinese government officials | Legal authority to approve recognitions of reincarnate lamas | Who your religion's next leader is, decided by a government | [OFFICIAL POLICY: Order No. 5, 2007] |
-| Tulku estates (labrang) | Inherited institutional property | Estate administrators across incarnations | Property and authority transmitted by recognition rather than by will | A child's entire life, assigned before he can speak on it | [ACADEMIC SOURCE] |
-| Rigpa and its founder | Organization, investigated | Independent investigation commissioned by the organization confirmed abuse by its founder | A global network built on donated labor and fees | Proof that samaya was the enabling mechanism, established on the record | [INVESTIGATIVE REPORT: Lewis Silkin report, 2018] |
-| Shambhala and its leadership | Organization, investigated | Investigation commissioned by the organization found failures to respond to reports | Centres, land, and a decades-long membership | Proof that the structures failed for years while everyone knew | [INVESTIGATIVE REPORT: Wickwire Holm report, 2019] |
-| The detained Panchen Lama recognition | State capture of succession | The child recognized in 1995 has not been seen publicly since | The recognition machinery itself | A six-year-old, disappeared over religious authority | [GOVERNMENT REPORT: UN human rights reporting] |
-| Western sangha funding streams | Revenue | Centre boards and exile institutions | Transnational donation flows with no reporting to donors | Decades of your giving, unaccounted |  |
+| PRC State Administration for Religious Affairs | State organ | Chinese government officials | It holds legal authority to approve recognitions of reincarnate lamas. | A government decides who your religion's next leader is. | [OFFICIAL POLICY: Order No. 5, 2007] |
+| Tulku estates (labrang) | Inherited institutional property | Estate administrators across incarnations | It holds property and authority transmitted by recognition rather than by will. | A child's entire life is assigned before he can speak on it. | [ACADEMIC SOURCE] |
+| Rigpa and its founder | Organization, investigated | Independent investigation commissioned by the organization confirmed abuse by its founder | A global network built on donated labor and fees | This is proof that samaya was the enabling mechanism, established on the record. | [INVESTIGATIVE REPORT: Lewis Silkin report, 2018] |
+| Shambhala and its leadership | Organization, investigated | Investigation commissioned by the organization found failures to respond to reports | Centres, land, and a decades-long membership | This is proof that the structures failed for years while everyone knew. | [INVESTIGATIVE REPORT: Wickwire Holm report, 2019] |
+| The detained Panchen Lama recognition | State capture of succession | The child recognized in 1995 has not been seen publicly since | It holds the recognition machinery itself. | A six-year-old was disappeared over religious authority. | [GOVERNMENT REPORT: UN human rights reporting] |
+| Western sangha funding streams | Revenue | Centre boards and exile institutions | It holds transnational donation flows with no reporting to donors. | Decades of your giving go unaccounted for. |  |
 
 ### Succession watch
 
 | Office | Now | Mechanism | Prediction | What would falsify it |
 |---|---|---|---|---|
-| The Dalai Lama | Tenzin Gyatso, the 14th, born 1935; 2025 statement affirming continuation via his own trust | Recognition ritual controlled by the predecessor's trust; a rival state procedure asserted under PRC Order No. 5 (2007) | Two recognitions, two children, and two governments. The codex predicts both proceed, and that neither child is consulted about either. | A single agreed recognition, or a decision that the institution ends, would falsify it. |
+| The Dalai Lama | Tenzin Gyatso, the 14th, born 1935, is in office, and his 2025 statement affirms continuation via his own trust. | The recognition ritual is controlled by the predecessor's trust, and a rival state procedure is asserted under PRC Order No. 5 (2007). | Two recognitions, two children, and two governments. The codex predicts both proceed, and that neither child is consulted about either. | A single agreed recognition, or a decision that the institution ends, would falsify it. |
 
 ::: cites
 Sources for this section: [3] [4] [7] [8] [9]
@@ -218,75 +220,75 @@ Sources for this section: [3] [4] [7] [8] [9]
 |---|---|---|
 | **China** | Order No. 5 (2007) requires state approval for the recognition of reincarnated lamas [3] | The Panchen Lama recognized by the Dalai Lama was taken with his family in 1995, aged six, and has not been seen since [7] |
 | **United States** | The Tibetan Policy and Support Act (2020) makes it US policy that succession is for Tibetan Buddhists alone, and authorizes sanctions on Chinese officials who interfere [12][13] | — |
-| **United Kingdom** | Charity law [11] | The Charity Commission permanently removed a Rigpa trustee in 2019 for failing to act on allegations of abuse [11] |
-| **Canada / US** | Civil law; Shambhala's own commissioned investigation [2] | The investigator found sexual misconduct by its leader "more likely than not" in two cases (2019) [2] |
+| **United Kingdom** | Charity law applies to registered dharma organizations [11] | The Charity Commission permanently removed a Rigpa trustee in 2019 for failing to act on allegations of abuse [11] |
+| **Canada / US** | Civil law applies, and Shambhala commissioned its own investigation [2] | The investigator found sexual misconduct by its leader "more likely than not" in two cases (2019) [2] |
 
 ### Who can compel an answer
 
-Charity regulators over Western dharma organizations — registration is what gave the Charity Commission a statutory inquiry into Rigpa — and civil courts. Lineage authority itself has no external address, which is why the corporate wrapper is the handle.
+Charity regulators can compel an answer from Western dharma organizations, because registration is what gave the Charity Commission a statutory inquiry into Rigpa, and so can civil courts. Lineage authority itself has no external address, which is why the corporate wrapper is the handle.
 
 ## 9. Money {#money}
 
 ### Where it comes from
 
-- Empowerment and teaching fees, retreat economies, center dues, estate endowments; Western sanghas as major funding sources for exile institutions.
+- The money comes from empowerment and teaching fees, retreat economies, center dues and estate endowments. Western sanghas are major funding sources for exile institutions.
 - China's interest is the largest money-and-power fact: Beijing asserts state control over reincarnation itself (including the next Dalai Lama) to capture the institution's authority. [OFFICIAL POLICY: PRC Order No. 5, 2007]
 
 ### Follow the money
 
 | Flow | Stated purpose | How it controls | Who benefits |
 |---|---|---|---|
-| Empowerments, initiations, and teaching fees | Access to tantric transmission | Paywalled and status-tiered spiritual advancement; escalating levels | Teachers, centers, lineage organizations |
-| Retreat centers and sponsorships | Practice infrastructure | Volunteer labor plus donations building assets students never own | Organizations and teachers personally [INVESTIGATIVE REPORT] |
-| Offerings to lamas and monastery sponsorship | Merit and support of the dharma | Merit framing makes refusal karmically dangerous; no audit of personal versus institutional use | Lamas, tulku estates (labrang), monasteries |
-| Ritual services (long-life pujas, divinations, protection rites) | Blessing and protection | Fee-for-outcome religion aimed at fear and illness | Ritual specialists and institutions |
+| Empowerments, initiations, and teaching fees | The stated purpose is access to tantric transmission. | Spiritual advancement is paywalled and tiered by status, with escalating levels. | Teachers, centers and lineage organizations benefit. |
+| Retreat centers and sponsorships | The stated purpose is practice infrastructure. | Volunteer labor and donations build assets that students never own. | Organizations benefit, and teachers benefit personally. [INVESTIGATIVE REPORT] |
+| Offerings to lamas and monastery sponsorship | The stated purpose is merit and support of the dharma (the Buddhist teachings). | Merit framing makes refusal karmically dangerous, and there is no audit of personal versus institutional use. | Lamas, tulku estates (labrang) and monasteries benefit. |
+| Ritual services (long-life pujas, which are offering rituals; divinations; protection rites) | The stated purpose is blessing and protection. | It is fee-for-outcome religion aimed at fear and illness. | Ritual specialists and institutions benefit. |
 
 ### Pipelines this tradition shares
 
 ::: card
 #### Graded spiritual services
 
-**Source.** Member paying per level of advancement
+**Source.** The money comes from members paying per level of advancement.
 
 **Path.** Local org → Central organization → Real-estate and reserve entities
 
-**Disclosed.** Price lists
+**Disclosed.** Price lists are disclosed.
 
-**Hidden.** Everything downstream of them
+**Hidden.** Everything downstream of the price lists stays hidden.
 :::
 
 ::: card
 #### Merit economy
 
-**Source.** Poor households buying a better rebirth
+**Source.** The money comes from poor households buying a better rebirth.
 
 **Path.** Temple or monastery → Monastic hierarchy → Construction and state-aligned sangha bodies
 
-**Disclosed.** Nothing
+**Disclosed.** Nothing is disclosed.
 
-**Hidden.** Receipts and personal versus institutional use
+**Hidden.** Receipts and personal versus institutional use stay hidden.
 :::
 
 ::: card
 #### Retreat and ceremony tourism
 
-**Source.** Western participants seeking healing
+**Source.** The money comes from Western participants seeking healing.
 
 **Path.** Operator, often not from the source community → Facilitators → Offshore or personal accounts
 
-**Disclosed.** Prices
+**Disclosed.** Prices are disclosed.
 
-**Hidden.** Safety record, training, and benefit-sharing
+**Hidden.** Safety record, training and benefit-sharing stay hidden.
 :::
 
 ::: card
 #### Reincarnation and succession control
 
-**Source.** State authority over religious recognition
+**Source.** The authority comes from the state's control over religious recognition.
 
 **Path.** Government religious affairs body → Approved recognition → Institutional legitimacy and property
 
-**Disclosed.** The regulation itself
+**Disclosed.** The regulation itself is disclosed.
 
 **Hidden.** Nothing — it is published, which is the audacity
 :::
@@ -313,49 +315,49 @@ Sources for this section: [3]
 ::: card
 #### Samaya — vows binding the student to the guru
 
-**Origin.** Indian and Tibetan tantric literature, where transmission of dangerous practices required trust and secrecy. [OFFICIAL POLICY: tantric commentaries]
+**Origin.** Samaya originates in Indian and Tibetan tantric literature, where transmission of dangerous practices required trust and secrecy. [OFFICIAL POLICY: tantric commentaries]
 
 **What it was for.** In a monastic setting with a community of practitioners, senior monks, and a village that knew everyone, the vow bound a relationship that others could observe and correct.
 
 **Why that reason expired.** Transplanted to Western students with no monastery, no village, and no senior monk within a continent, samaya became an isolation device. Students were taught that criticizing the guru risks vajra hell. Both major independent investigations — Rigpa in 2018, Shambhala in 2019 — identified it as the enabling mechanism. [INVESTIGATIVE REPORT]
 
-**Who benefits now.** Abusive teachers, absolutely and uniquely. This mechanism does not require a single enforcer: the student polices themselves, in terror, for free.
+**Who benefits now.** Abusive teachers benefit, absolutely and uniquely. This mechanism does not require a single enforcer: the student polices themselves, in terror, for free.
 :::
 
 ::: card
 #### The tulku system
 
-**Origin.** Began with the Karmapa line in the 13th–14th century as a method of transmitting authority and property across generations. [ACADEMIC SOURCE]
+**Origin.** The system began with the Karmapa line in the 13th–14th century as a method of transmitting authority and property across generations. [ACADEMIC SOURCE]
 
 **What it was for.** A solution to a real institutional problem: celibate leaders cannot produce heirs, so estates and authority needed a succession mechanism. Reincarnation supplied one.
 
 **Why that reason expired.** It is a property-transfer system dressed as metaphysics, and its cost is paid by children. A recognized child is removed from his family and his entire life is assigned before he can speak on it. Beijing then seized the recognition machinery itself, which demonstrates precisely what kind of asset it is. [OFFICIAL POLICY: PRC Order No. 5, 2007]
 
-**Who benefits now.** Labrang estates, lineage institutions, and — now — the Chinese state, which legislated its own approval over who may be reborn.
+**Who benefits now.** Labrang estates and lineage institutions benefit, and now the Chinese state does too, having legislated its own approval over who may be reborn.
 :::
 
 ::: card
 #### 'Crazy wisdom' and skillful means
 
-**Origin.** Hagiographic accounts of unconventional Indian and Tibetan masters, generalized into a category by 20th-century Western transmission. [ACADEMIC SOURCE]
+**Origin.** It originates in hagiographic accounts (devotional biographies) of unconventional Indian and Tibetan masters, which 20th-century Western transmission generalized into a category. [ACADEMIC SOURCE]
 
-**What it was for.** Recognition that a teacher might act unexpectedly to disrupt a student's fixed views.
+**What it was for.** It expressed the recognition that a teacher might act unexpectedly (skillful means, the idea that a teacher may use unconventional methods suited to the student) to disrupt a student's fixed views.
 
 **Why that reason expired.** It became a retroactive justification with no limiting principle. Any conduct — sexual, financial, violent — can be reclassified after the fact as teaching. A doctrine that can excuse anything explains nothing.
 
-**Who benefits now.** The teacher, exclusively. Note that crazy wisdom has never once been used to explain a teacher giving away his own money.
+**Who benefits now.** The teacher benefits, exclusively. Note that crazy wisdom has never once been used to explain a teacher giving away his own money.
 :::
 
 ::: card
 #### Consort practice as access to students' bodies
 
-**Origin.** Tantric literature includes consort practice; its modern deployment by specific teachers is documented in independent investigations. [INVESTIGATIVE REPORT]
+**Origin.** Tantric literature includes consort practice (ritual practice with a sexual partner); its modern deployment by specific teachers is documented in independent investigations. [INVESTIGATIVE REPORT]
 
 **What it was for.** Whatever the textual context, it presupposed advanced practitioners in a supervised environment, not new students in a foreign country.
 
 **Why that reason expired.** Students were taught that refusing a guru's advance endangered their own attainment. That is coercion with a doctrinal enforcement mechanism, and calling it practice does not change what it is.
 
-**Who benefits now.** Named individuals, documented by investigations their own organizations commissioned.
+**Who benefits now.** Named individuals benefit, as documented by investigations their own organizations commissioned.
 :::
 
 ::: cites
@@ -378,7 +380,7 @@ Sources for this section: [1] [2]
 
 ### Bodies
 
-- Male-dominated hierarchy; nuns' institutions historically underfunded, though geshema degrees for nuns were introduced in 2016 — real reform worth naming. [OFFICIAL POLICY]
+- The hierarchy is male-dominated and nuns' institutions have historically been underfunded, though geshema degrees for nuns were introduced in 2016, which is real reform worth naming. [OFFICIAL POLICY]
 - 'Consort' practices have been used by teachers to obtain sex from students under religious framing; the Rigpa and Shambhala investigations documented this pattern. [INVESTIGATIVE REPORT]
 - Students were taught that resisting a guru's sexual advance risked their own spiritual attainment — coercion built directly into doctrine as taught by those teachers. [FORMER MEMBER TESTIMONY]
 
@@ -434,7 +436,7 @@ Robes, mantras, initiations, ancient lineage, secret teachings — and personal 
 
 **The counter.** Merit language becomes coercive when it shields power. If the student gives money, labor, secrecy, and obedience because refusal is framed as spiritual failure or karmic danger, then the offering is not free. It is tribute dressed as devotion.
 
-**Evidence grade.** [[Cultural]] Personal attention from a lama and karmic-connection framing are relational and undocumented.
+**Evidence grade.** [[Cultural]] Blessings, empowerments and teacher access are offered openly, and the obligation that follows from them is unwritten; it arises from guru devotion and merit framing as practiced.
 :::
 
 ### Stage 2 · Hook {#stage-2}
@@ -442,7 +444,7 @@ Robes, mantras, initiations, ancient lineage, secret teachings — and personal 
 ::: stage
 **You are given a future that cannot be verified, and a rope for whenever you drift toward the door.**
 
-Liberation in one lifetime, a rare karmic connection with this teacher, a precious opportunity that may not come again. And retrieval offered as repair of samaya — a route back into the mandala, conditional on recanting.
+Liberation in one lifetime, a rare karmic connection with this teacher, a precious opportunity that may not come again. And retrieval offered as repair of samaya — a route back into the mandala (the circle of the teacher's community), conditional on recanting.
 
 *What it asks of you:* Being told your meeting was destined and rare is the most effective hook in this codex, because it makes leaving into cosmic waste.
 :::
@@ -454,10 +456,10 @@ Liberation in one lifetime, a rare karmic connection with this teacher, a precio
 
 **How it shows here**
 
-- Tibetan Buddhism offers an enormous future architecture: enlightenment, bodhisattva vows, tantric realization, pure lands, reincarnation, bardo navigation, merit accumulation, karmic purification, and guru connection across lifetimes.
+- Tibetan Buddhism offers an enormous future architecture: enlightenment, bodhisattva vows, tantric realization, pure lands, reincarnation, bardo (the state between death and rebirth) navigation, merit accumulation, karmic purification, and guru connection across lifetimes.
 - The student may be told that meeting the lama is unbelievably rare, the result of past-life merit, and possibly the most important opportunity of countless lifetimes.
 - Empowerments and secret teachings create staged future access. You are not ready yet. You need preliminaries, vows, retreats, transmissions, offerings, purification, and guru devotion.
-- If the teacher harms or humiliates students, the future frame absorbs it: this is wrathful compassion, purification, ego-cutting, karmic ripening, or a test of devotion.
+- If the teacher harms or humiliates students, the future frame absorbs it: this is wrathful compassion (harsh conduct understood as compassion), purification, ego-cutting, karmic ripening, or a test of devotion.
 - The payout is cosmic and delayed. If realization does not occur in this life, the connection may bear fruit in future lives. That makes the promise impossible to disprove.
 
 **The strongest defense.** Tantric paths require preparation, secrecy, and devotion because the practices are advanced.
@@ -484,7 +486,7 @@ Liberation in one lifetime, a rare karmic connection with this teacher, a precio
 
 **The counter.** A vow made inside unequal power is not sacred armor for the powerful. If fear of karmic catastrophe is used to pull someone back to an unsafe teacher, then samaya has become a spiritual hostage system.
 
-**Evidence grade.** [[Taught]] Liberation in one lifetime and the rarity of the opportunity are taught as the standard motivational frame.
+**Evidence grade.** [[Taught]] Warnings that leaving breaks samaya and damages future lifetimes are taught as doctrine; the pressure on a leaver to return is applied by the community in practice.
 :::
 
 ### Stage 3 · Devalue {#stage-3}
@@ -534,7 +536,7 @@ Your doubt is obscuration, your discomfort is purification, your resistance is e
 
 **The counter.** That defense is exactly why the danger is so severe. If “ordinary perception” is automatically disqualified, then no abuse can be recognized from inside the system. The teacher becomes untouchable because the victim’s reality is defined as delusion.
 
-**Evidence grade.** [[Codified]] Samaya obligations against criticizing the guru are explicit in tantric literature — an unusual case of the silencing mechanism being textual. *(sourced)*
+**Evidence grade.** [[Codified]] The claim that the student's ordinary perception is too deluded to judge the guru rests on samaya obligations that are explicit in tantric literature; the senior students' reply is practice, not text.
 :::
 
 ::: tactic n=7
@@ -548,11 +550,11 @@ Your doubt is obscuration, your discomfort is purification, your resistance is e
 - Seeing faults in the lama is taught as the student's impure perception. The worse the conduct, the greater the test of pure view. The evidence against him is reframed as evidence about you.
 - Secrecy protects the teachings' power — and, structurally, protects the teacher's conduct from scrutiny. Speak: samaya breaker. Stay silent: accomplice.
 
-**The strongest defense.** Guru yoga is a sophisticated, consensual practice within a mature tradition; Westerners misread it.
+**The strongest defense.** Guru yoga (the practice of devotion to the guru) is a sophisticated, consensual practice within a mature tradition; Westerners misread it.
 
 **The counter.** Consent requires disclosure before the vow, a real exit after it, and the standing to name harm without cosmic threat. Remove those three and the sophistication is indistinguishable from entrapment — as multiple lineages' own reckonings since the 1990s have conceded.
 
-**Evidence grade.** [[Taught]] Obscuration, purification, and the student's insufficiency are taught as the mechanics of the path.
+**Evidence grade.** [[Taught]] The samaya vow, its penalty of vajra hell, and the teaching that faults seen in the lama are the student's impure perception are taught as the terms of the path.
 :::
 
 ### Stage 4 · Confuse {#stage-4}
@@ -580,7 +582,7 @@ Speak and you are a samaya-breaker under demonic influence, endangering yourself
 
 **The counter.** Individualized timing administered with total discretion, zero transparency, and cosmic penalties for doubt is indistinguishable from rationing — and 'compassion' is what every unaccountable schedule calls itself.
 
-**Evidence grade.** [[Codified]] Samaya obligations against criticizing the guru are explicit in tantric literature — a rare case of the silencing mechanism being textual.
+**Evidence grade.** [[Codified]] The timing of empowerments, including withholding them as 'not yet ripe', is set by each lama's discretion and not by any written rule; the crazy-wisdom framing that authorizes wrathful severity is taught, and the samaya text keeps students from objecting.
 :::
 
 ::: tactic n=9
@@ -598,7 +600,7 @@ Speak and you are a samaya-breaker under demonic influence, endangering yourself
 
 **The counter.** Preparation becomes goalpost-moving when the promised clarity is always behind another vow, payment, retreat, or act of surrender. If the teacher controls both the test and the grading, the student never arrives.
 
-**Evidence grade.** [[Codified]] Samaya obligations against criticizing the guru are explicit in tantric literature — a rare case of the silencing mechanism being textual.
+**Evidence grade.** [[Codified]] The sequence of vows, retreats and deeper teachings is set by each teacher; the rule that there is always a further level is taught in practice, and the samaya text bars the student from objecting.
 :::
 
 ::: tactic n=10
@@ -616,7 +618,7 @@ Speak and you are a samaya-breaker under demonic influence, endangering yourself
 
 **The counter.** Advanced method becomes strategic ambiguity when no one can distinguish abuse from wisdom except the person accused of abuse. That is not esoteric depth. That is unreviewable power.
 
-**Evidence grade.** [[Codified]] Samaya obligations against criticizing the guru are explicit in tantric literature — a rare case of the silencing mechanism being textual.
+**Evidence grade.** [[Codified]] Terms such as 'skillful means' and 'pure perception' are taught doctrine whose application is left to each teacher; the ambiguity rests on that teaching, and samaya text bars the student from objecting.
 :::
 
 ::: tactic n=11
@@ -635,7 +637,7 @@ Speak and you are a samaya-breaker under demonic influence, endangering yourself
 
 **The counter.** Pure perception becomes projection when it means seeing the teacher as pure and the victim as contaminated. If the student’s pain is called impurity while the guru’s harm is called wisdom, reality has been reversed completely.
 
-**Evidence grade.** [[Codified]] Samaya obligations against criticizing the guru are explicit in tantric literature — a rare case of the silencing mechanism being textual.
+**Evidence grade.** [[Codified]] Accusing critics of broken samaya or impure perception applies the samaya text, which is explicit in tantric literature, to the person who reports the conduct.
 :::
 
 ::: tactic n=12
@@ -674,7 +676,7 @@ Speak and you are a samaya-breaker under demonic influence, endangering yourself
 
 **The counter.** Trust becomes desensitization when each new violation is introduced as a deeper teaching. If the student must become less alarmed to become more advanced, the path is training them out of self-protection.
 
-**Evidence grade.** [[Codified]] Samaya obligations against criticizing the guru are explicit in tantric literature — a rare case of the silencing mechanism being textual.
+**Evidence grade.** [[Codified]] Students are brought step by step into devotion and samaya by teaching and by the example of senior students; the samaya text is explicit, and the gradual order is taught in practice.
 :::
 
 ### Stage 5 · Isolate {#stage-5}
@@ -754,7 +756,7 @@ Empowerment and initiation fees in escalating tiers. Retreat centers built with 
 
 **The counter.** Protection becomes FLYING MONKEY behavior when senior students protect the lama from accountability. If the community uses vows, karma, and lineage to make the harmed person afraid to speak, devotion has become a containment squad.
 
-**Evidence grade.** [[Taught]] Merit framing on offerings and labor is taught; empowerment fee structures vary by organization and are unpublished.
+**Evidence grade.** [[Taught]] Senior students' enforcement of samaya warnings is community practice; no written rule directs it, and the merit framing that supports it is taught.
 :::
 
 ::: tactic n=17
@@ -773,7 +775,7 @@ Empowerment and initiation fees in escalating tiers. Retreat centers built with 
 
 **The counter.** Lineage integrity becomes smear when it protects the teacher by contaminating the victim. If the person harmed by the lama becomes the danger to the Dharma, reality has been reversed.
 
-**Evidence grade.** [[Taught]] Merit framing on offerings and labor is taught; empowerment fee structures vary by organization and are unpublished.
+**Evidence grade.** [[Taught]] The smearing of critics as samaya-breakers is carried out by communities in practice; no written rule instructs it, and the samaya framing it draws on is taught.
 :::
 
 ::: tactic n=18
@@ -792,7 +794,7 @@ Empowerment and initiation fees in escalating tiers. Retreat centers built with 
 
 **The counter.** Secrecy becomes stonewalling when it shields the powerful from being examined. If only insiders may judge, and insiders are trained to protect the lama, the process is not sacred. It is sealed.
 
-**Evidence grade.** [[Taught]] Merit framing on offerings and labor is taught; empowerment fee structures vary by organization and are unpublished.
+**Evidence grade.** [[Taught]] Senior students' deflection of complaints as too advanced or too secret is community practice; no written rule directs it, and the tantric secrecy it invokes is taught.
 :::
 
 ::: tactic n=19
@@ -811,7 +813,7 @@ Empowerment and initiation fees in escalating tiers. Retreat centers built with 
 
 **The counter.** A vow is not fully informed if the student does not understand the exit cost until after taking it. If leaving later threatens karma, community, lineage, and future lives, the original yes has been retroactively weaponized.
 
-**Evidence grade.** [[Codified]] Tulku recognition assigns a child's entire life course before consent; the practice is institutional and documented. *(sourced)*
+**Evidence grade.** [[Codified]] The vow is explicit in tantric literature, so the commitment itself is codified; that its penalty is explained after it is taken comes from former-member testimony and is not recorded in any rule.
 :::
 
 ::: tactic n=20
@@ -830,7 +832,7 @@ Empowerment and initiation fees in escalating tiers. Retreat centers built with 
 
 **The counter.** Devotion becomes TRAUMA BONDING when the student must interpret injury as blessing to remain spiritually safe. If the person who wounds you also defines your karma, vows, and liberation, the attachment is not freedom. It is spiritual hostage-taking.
 
-**Evidence grade.** [[Taught]] Merit framing on offerings and labor is taught; empowerment fee structures vary by organization and are unpublished.
+**Evidence grade.** [[Taught]] The alternation of severity and blessing is taught through crazy wisdom and samaya, and the soothing after harm is community practice; no written rule directs it.
 :::
 
 ::: tactic n=21
@@ -849,7 +851,7 @@ Empowerment and initiation fees in escalating tiers. Retreat centers built with 
 
 **The counter.** Commitment becomes LEARNED HELPLESSNESS when leaving feels spiritually catastrophic. If the student believes every escape may damage lifetimes of karma, the cage has been extended beyond death.
 
-**Evidence grade.** [[Taught]] Merit framing on offerings and labor is taught; empowerment fee structures vary by organization and are unpublished.
+**Evidence grade.** [[Taught]] The warning that every escape damages karma is taught as doctrine; the repeated invalidation of the student's perception is practiced by senior students and recorded in no rule.
 :::
 
 ::: tactic n=22
@@ -868,7 +870,7 @@ Empowerment and initiation fees in escalating tiers. Retreat centers built with 
 
 **The counter.** Trust becomes BENEVOLENT CONTROL when it removes accountability from the teacher. If the lama can harm and the student is told silence protects their karma, then care has become spiritual blackmail.
 
-**Evidence grade.** [[Taught]] Merit framing on offerings and labor is taught; empowerment fee structures vary by organization and are unpublished.
+**Evidence grade.** [[Taught]] Guru devotion is taught as the highest form of spiritual care, and samaya and secrecy are presented as protective; the control itself is exercised in practice.
 :::
 
 ::: tactic n=23
@@ -887,7 +889,7 @@ Empowerment and initiation fees in escalating tiers. Retreat centers built with 
 
 **The counter.** Humility becomes INFANTILIZATION when the student’s adult perception is permanently disqualified. If the guru is always the knowing parent and the student always the confused child, devotion has become dependency training.
 
-**Evidence grade.** [[Taught]] Merit framing on offerings and labor is taught; empowerment fee structures vary by organization and are unpublished.
+**Evidence grade.** [[Taught]] The teaching that the student's perception is impure and that leaving is like a child betraying a parent is taught as part of guru devotion; no written rule assigns it.
 :::
 
 ::: tactic n=24
@@ -927,7 +929,7 @@ Empowerment and initiation fees in escalating tiers. Retreat centers built with 
 
 **The counter.** Pure perception becomes SPIRITUAL BYPASSING when it makes abuse invisible. If the only spiritually acceptable interpretation protects the lama, then tantra has been used to bypass reality.
 
-**Evidence grade.** [[Taught]] Merit framing on offerings and labor is taught; empowerment fee structures vary by organization and are unpublished.
+**Evidence grade.** [[Taught]] Reinterpreting abuse as wrathful compassion or impure perception is taught as a framework of the path; how it is applied in a given case is each community's practice.
 :::
 
 ::: tactic n=26
@@ -975,7 +977,7 @@ Community exile, spiritual condemnation, and years of donations and unpaid labor
 
 **The counter.** Seriousness becomes MANUFACTURED CRISIS when it blocks accountability. If the student is made to fear cosmic consequences for naming harm, the emergency is being staged around loyalty, not truth.
 
-**Evidence grade.** [[Cultural]] Shunning of whistleblowers as samaya-breakers was carried out by communities, not by any instruction on paper.
+**Evidence grade.** [[Cultural]] The crisis framing around samaya, the lineage and future lives is raised by communities and senior students in practice; no written rule directs it.
 :::
 
 ::: tactic n=28
@@ -1024,7 +1026,7 @@ The community closes over the gap and the whistleblower's decade is reframed as 
 
 **The counter.** Lineage continuity becomes REPLACEMENT when new students are brought into the same power imbalance without truth. If fresh devotion is used to bury old harm, the lineage is feeding on turnover.
 
-**Evidence grade.** [[Documented]] State assertion of authority over reincarnation is published PRC regulation; lineage authority itself is unappealable by design.
+**Evidence grade.** [[Documented]] The replacement of witnesses who spoke by newer devoted students is a pattern of community practice; no source on this page documents it directly, and the investigations cited record the shunning of whistleblowers while the accused continued teaching.
 :::
 
 ::: tactic n=30
@@ -1044,7 +1046,7 @@ The community closes over the gap and the whistleblower's decade is reframed as 
 
 **The counter.** Secrecy becomes PLAUSIBLE DENIABILITY when it hides power. “Examine first” is hollow if, after commitment, leaving is framed as karmic catastrophe. The lineage cannot claim the lama’s authority when recruiting and disown the lama’s harm when exposed.
 
-**Evidence grade.** [[Documented]] PRC Order No. 5 (2007) asserting state approval over reincarnations. *(sourced)*
+**Evidence grade.** [[Documented]] The deniability rests on the lama's authority being absolute in practice and disowned in theory; the 2018 and 2019 investigations record organizations that failed to act on reports, and the leaders' denial of any threat appears on this page only as the official denials in section 15.
 :::
 
 ::: cites
@@ -1053,46 +1055,162 @@ Sources for this section: [1] [2] [3]
 
 ## 13. The loops {#loops}
 
+::: lede
+The seven loops below show how the practices connect, so that each step makes the next one easier and the last step feeds the first. The loops are analysis built from findings recorded elsewhere on this page [PATTERN OBSERVED]; each step names the section where its fact is recorded.
+:::
+
 ::: card
 #### 1 · Money to Doctrine to Money
 
 Empowerments and teachings are priced in tiers, and merit framing makes refusal karmically dangerous.
+
+**How it runs.**
+
+1. Spiritual advancement is paywalled and tiered by status, with escalating levels of empowerment and teaching (section 9).
+2. Offerings to lamas are taught as merit, and refusal is framed as karmic danger (sections 9 and 12, technique 26).
+3. Students give fees, donations and unpaid labor, and the retreat centers they help build are held by organizations, not by the students (section 9).
+4. The income sustains teachers, centers and lineage organizations, and there is no audit of personal versus institutional use of offerings (section 9).
+5. The same teachers and organizations set the next tier and its price, and the giving continues (section 9).
+
+**Techniques that feed it.** [2 · Weaponized Generosity](#t-2), [9 · Moving the Goalposts](#t-9), [26 · Financial Control](#t-26).
+
+**Why it closes.** The body that decides who advances also receives the fees for advancing, and the merit framing makes refusing to pay a spiritual risk. A giver cannot see where the money goes or decline without cost.
+
+**Where it could be broken, and by whom.** It weakens wherever the money becomes visible. Western dharma organizations that are registered charities can be made to answer to a regulator (section 8), and publishing accounts is in each organization's hands. A donor can ask for accounts before giving. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** The graded-services pipeline in section 9 lists price lists as the only thing disclosed and everything downstream of them as hidden. The one set of accounts this page can show, those of Rigpa UK, is public because Rigpa UK is a registered charity (section 9).
 :::
 
 ::: card
 #### 2 · Fear to Dependence to Fear
 
-Vajra hell attached to criticism before the student understands the vow — the fear is installed at initiation.
+Vajra hell is attached to criticism before the student understands the vow, so the fear is installed at initiation.
+
+**How it runs.**
+
+1. The student takes samaya vows, and the penalty for criticizing the teacher is taught before the terms of the vow are explained (section 12, stages 5 and 6, technique 7).
+2. The penalty is taught as cosmic: vajra hell for criticizing or leaving the guru (sections 1 and 15).
+3. Doubt and discomfort are redefined as obscuration, impure perception or ego, so the student stops trusting their own judgment (section 12, stage 3, technique 21).
+4. Senior students enforce silence without any instruction from the lama, and those who report are shunned as samaya-breakers (sections 15 and 19, technique 16).
+5. Fear of leaving deepens dependence on the lama, who offers the way back as repair of samaya on condition of recanting (section 12, stage 2), and the fear is renewed.
+
+**Techniques that feed it.** [4 · Hoovering](#t-4), [7 · Double Bind](#t-7), [16 · Flying Monkeys](#t-16), [21 · Learned Helplessness](#t-21).
+
+**Why it closes.** The threat attaches to the act of complaining, which is the one act that could expose the threat. Each report becomes further evidence of broken samaya.
+
+**Where it could be broken, and by whom.** It weakens where the vow loses its hold. Samaya vows have no legal force, and a student can leave a teacher or centre (section 24). The Dalai Lama's advice to speak to an abusive teacher and, if that fails, make the behaviour public is on the record (sections 21 and 24). A major lineage could publish in its own training materials that samaya does not cover teacher misconduct (section 20). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** In the Rigpa case, whistleblowers had been shunned as samaya-breakers before the investigation's findings were published (section 19).
 :::
 
 ::: card
 #### 3 · Children to Members to Children
 
 Tulku recognition and monastic boarding assign children's lives before consent.
+
+**How it runs.**
+
+1. A child is recognized as a tulku and removed from his family for monastic training, with his life course determined before he can consent (sections 10 and 11).
+2. He is educated in monastic institutions, and monastic boarding schools in exile communities have documented abuse and inadequate safeguarding in some institutions (section 11).
+3. Tulku estates (labrang) hold property and authority that are transmitted by recognition rather than by will (section 7).
+4. Celibate leaders cannot produce heirs, so the estate and the lineage need a successor, and recognition supplies one (section 10).
+5. A new child is recognized and the cycle repeats (section 10).
+
+**Techniques that feed it.** [19 · Manufactured Consent](#t-19), [23 · Infantilization](#t-23), [24 · Identity Erosion](#t-24).
+
+**Why it closes.** Recognition is what transmits the estate, and the recognized child has no route to decline that does not delegitimize the institution (section 17).
+
+**Where it could be broken, and by whom.** It weakens where outside safeguarding reaches the boarding institutions. Section 18 names the point: monastery teachers could accept a boarding institution with external safeguarding. Adopting it is in the institutions' hands. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** In May 1995 the Panchen Lama recognized by the Dalai Lama was taken into Chinese custody three days later, aged six, and has not been seen publicly since (section 5). Beijing then installed its own candidate, which shows what kind of asset the recognition is (section 10).
 :::
 
 ::: card
 #### 4 · Aid to Legitimacy to Leverage to Aid
 
-Exile institutions depend on Western funding; Beijing seeks the recognition machinery; both are legitimacy trades.
+Exile institutions depend on Western funding, and Beijing seeks control of the recognition machinery; both are trades in legitimacy.
+
+**How it runs.**
+
+1. Western sanghas are major funding streams for exile institutions, and devotion generates transnational revenue with no reporting requirement to donors (sections 9 and 16).
+2. In July 2025 the Dalai Lama declared that his Gaden Phodrang Trust alone holds authority to recognize the 15th (sections 1 and 5).
+3. Beijing contests that authority under Order No. 5 (2007) and maintains its own Panchen Lama, installed after the recognized child was taken in 1995 (sections 5, 7 and 8).
+4. The contest draws outside support to the exile side: United States law since 2020 makes succession a matter for Tibetan Buddhists alone and authorizes sanctions on Chinese officials who interfere (section 8).
+5. That support and the donor funding sustain the exile institutions, and the contest continues (sections 7 and 9).
+
+**Techniques that feed it.** [15 · Triangulation](#t-15), [26 · Financial Control](#t-26), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** Each side's claim to legitimacy is what attracts the support that sustains it, and the recognition machinery is the asset both sides are contesting (section 7).
+
+**Where it could be broken, and by whom.** It weakens where funding or recognition is no longer a trade. Reporting to donors is in the exile institutions' hands, and a single agreed recognition, or a decision that the institution ends, would falsify the succession prediction in section 7. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Order No. 5 is published regulation, and the 2025 statement is published by the Dalai Lama's office; each side's claim is public, and each is also a claim on outside support (sections 5 and 9).
 :::
 
 ::: card
 #### 5 · Unpaid Labor to Assets to Power to More Labor
 
 Student labor and donations build centres held by organizations, and whistleblowers leave with nothing.
+
+**How it runs.**
+
+1. Students supply volunteer labor and donations to build retreat centers (section 9).
+2. The centers are held by organizations and teachers, and the students never own what they build (section 9).
+3. The assets give teachers and boards standing over the students who built them, and teachers benefit personally in some documented cases (sections 9 and 16).
+4. Students who leave lose years of donations, unpaid labor and relocated lives, with no equity (section 15).
+5. The cost of leaving keeps students in and keeps the labor coming, and leavers are replaced by newer students (section 12, techniques 26, 28 and 29).
+
+**Techniques that feed it.** [26 · Financial Control](#t-26), [28 · Discard](#t-28), [29 · Replacement](#t-29).
+
+**Why it closes.** What the student has put in is held by the organization, so leaving means abandoning it. Staying means giving more.
+
+**Where it could be broken, and by whom.** It weakens where the assets are accountable to those who built them. Volunteers could work under a written agreement (section 18), and public accounts are a condition of registration for charities (sections 8 and 9). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** The 'Who pays' list in section 16 names long-term Western students who gave decades, savings and labor, and whistleblowers in Rigpa and Shambhala who were shunned for reporting.
 :::
 
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
 The teacher dies or withdraws, the organization restructures, and samaya doctrine is not revised.
+
+**How it runs.**
+
+1. Complaints about a teacher are managed by senior students rather than escalated (section 19).
+2. Whistleblowers are shunned as samaya-breakers while the accused continues to teach (sections 12 and 15).
+3. The organization commissions its own investigation and publishes it (sections 19 and 20).
+4. The teacher withdraws or steps back, and the organization restructures (section 19).
+5. Samaya is still taught unchanged, and the next case is met with another restructuring (section 14).
+
+**Techniques that feed it.** [12 · DARVO](#t-12), [18 · Silent Treatment / Stonewalling](#t-18), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** The teacher and the structure are treated as separate things, so removing the one leaves the other. Samaya doctrine is the mechanism that produced the silence, and it is never the thing revised.
+
+**Where it could be broken, and by whom.** It weakens only if the doctrine itself changes. A major lineage publishing in its own liturgical and training materials that samaya does not cover teacher misconduct would revise the page's central mechanism (section 20). Regulators can also act on registered charities (section 8). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Rigpa's founder had withdrawn from teaching by the time the 2018 report was published, and he died in 2019. The Charity Commission removed a trustee in 2019 (section 8). Implementation of the report's recommendations has been reported as incomplete by former members (section 20).
 :::
 
 ::: card
 #### 7 · Persecution to Solidarity to Insulation to Unaccountability
 
 The attempted destruction of Tibetan Buddhism was real and is invoked to make accountability look like collaboration.
+
+**How it runs.**
+
+1. Tibetan monasteries were devastated in the Cultural Revolution, and Beijing still restricts religious life and claims authority over reincarnation (sections 3, 5 and 11).
+2. The persecution produces solidarity around the tradition and its figurehead (sections 3 and 4).
+3. Criticism of the tradition can then be read as doing China's work (section 3).
+4. Lineage authority has no external address, so little outside scrutiny reaches it (section 8).
+5. Abuse goes unaddressed, and the persecution is invoked again against those who raise it (sections 3 and 14).
+
+**Techniques that feed it.** [11 · Projection](#t-11), [18 · Silent Treatment / Stonewalling](#t-18), [25 · Spiritual Bypassing](#t-25).
+
+**Why it closes.** The threat from outside is real, so an objection from inside can be made to look like the same threat. The solidarity that protects the tradition also protects the teacher.
+
+**Where it could be broken, and by whom.** It weakens where the two are separated. The Dalai Lama has instructed students to expose abusive teachers, and following that instruction is following the summit of the tradition (sections 3 and 14). Charity regulators can reach Western organizations (section 8). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** The page leads with the persecution and Order No. 5 (section 3), and the same page records that the two central abuse findings came from investigations the organizations commissioned themselves.
 :::
 
 ## 14. Say versus do {#say-do}
@@ -1118,8 +1236,8 @@ The attempted destruction of Tibetan Buddhism was real and is invoked to make ac
 | Term | What it means inside | What it does | Said plainly |
 |---|---|---|---|
 | Samaya | The sacred bond between student and teacher. | Breaking it is taught as carrying catastrophic consequence. In documented cases it functioned as a prohibition on reporting a teacher's conduct — a use nobody has published an exemption for. | 'Speaking about him will destroy you.' |
-| Crazy wisdom | Unconventional teacher behaviour understood as skilful means. | Supplies a doctrinal frame in which harmful conduct is reinterpreted as advanced instruction, and the student's distress as their own limitation. | 'What he did was teaching and your reaction is your problem.' |
-| Pure view | The practice of seeing the teacher as enlightened. | A genuine contemplative practice. As an epistemology applied to a teacher's conduct, it makes disconfirming evidence unperceivable by design. | 'Do not believe what you saw.' |
+| Crazy wisdom | Crazy wisdom is unconventional teacher behaviour understood as skilful means. | It supplies a doctrinal frame in which harmful conduct is reinterpreted as advanced instruction, and the student's distress as their own limitation. | 'What he did was teaching and your reaction is your problem.' |
+| Pure view | Pure view is the practice of seeing the teacher as enlightened. | It is a genuine contemplative practice. As an epistemology applied to a teacher's conduct, it makes disconfirming evidence unperceivable by design. | 'Do not believe what you saw.' |
 
 ::: cites
 Sources for this section: [5]
@@ -1135,10 +1253,10 @@ Sources for this section: [5]
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Spiritual threat (samaya breach) | Yes — doctrinally explicit | Taught consequences including vajra hell for criticizing or leaving the guru | “It's a description of karma, not a threat.” |
-| Community and identity | Yes | Whole social world housed in one sangha; whistleblowers were shunned in documented cases | “Members made their own choices.” |
-| Financial loss | Yes | Years of donations, unpaid labor, and relocated lives with no equity | “All giving was voluntary.” |
-| Reputation | Yes | Accused of samaya-breaking, ego, or demonic influence | “Concern for their spiritual welfare.” |
+| Spiritual threat (samaya breach) | Yes, it is doctrinally explicit. | The taught consequences include vajra hell for criticizing or leaving the guru. | “It's a description of karma, not a threat.” |
+| Community and identity | Yes | The student's whole social world is housed in one sangha, and whistleblowers were shunned in documented cases. | “Members made their own choices.” |
+| Financial loss | Yes | Leavers lose years of donations, unpaid labor and relocated lives, with no equity. | “All giving was voluntary.” |
+| Reputation | Yes | Leavers are accused of samaya-breaking, ego or demonic influence. | “Concern for their spiritual welfare.” |
 
 ### How the cost is denied
 
@@ -1148,7 +1266,7 @@ Sources for this section: [5]
 | Informal enforcement | High | Senior students manage complaints, protect access, and isolate dissenters. |
 | Leadership distance | High | Lineage heads disclaim individual teachers; exile institutions disclaim Western organizations. |
 | Doctrinal ambiguity | Very high | 'Crazy wisdom' and 'skillful means' retroactively sanctify anything a teacher did. |
-| Cultural outsourcing | High | Abuse attributed to cultural misunderstanding between Tibetan teachers and Western students. |
+| Cultural outsourcing | High | Abuse is attributed to cultural misunderstanding between Tibetan teachers and Western students. |
 | Volunteer enforcement | High | The inner circle enforces; the lama never issues an instruction. |
 | Sacred secrecy | Very low deniability once named | Tantric secrecy is explicit doctrine and was directly documented as the shield in both major investigations. |
 | Exit cost denial | High | Officially students may leave any time; doctrinally they were taught it could damn them. |
@@ -1157,7 +1275,7 @@ Sources for this section: [5]
 
 ### Who benefits
 
-- Lama estates and lineages; the Chinese state seeking to own the succession machinery; Western organizational structures around charismatic teachers. [INVESTIGATIVE REPORT]
+- Lama estates and lineages benefit, as does the Chinese state, which is seeking to own the succession machinery, and so do Western organizational structures around charismatic teachers. [INVESTIGATIVE REPORT]
 
 ### Money out, leverage back
 
@@ -1166,6 +1284,8 @@ Sources for this section: [5]
 - Empowerment and retreat economies price spiritual advancement in tiers, with students supplying both fees and unpaid labor to build assets they never own. [INVESTIGATIVE REPORT]
 
 ### Who pays
+
+Six groups carry the cost.
 
 - Female students in documented consort-framed abuse cases.
 - Recognized tulku children, whose lives were assigned before consent.
@@ -1178,13 +1298,15 @@ Sources for this section: [5]
 
 ### Where the weight lands
 
+The costs in section 15 do not fall evenly. They fall hardest on people with the least power inside the institution and the fewest places to go outside it. The table names who carries the most, how, and what makes it worse.
+
 | Who | How | What it compounds with |
 |---|---|---|
-| Female students in consort-framed abuse | Taught that refusal endangered their own attainment | With samaya, which made speaking a cosmic risk |
-| Recognized tulku children | Removed from families, life course assigned before consent | With no route to decline that does not delegitimize the institution |
-| Whistleblowers | Shunned as samaya-breakers while the accused continued teaching | After relocating their lives to be near the teacher |
-| Long-term Western students | Decades of donations and labor with no equity | In late middle age with no savings |
-| Tibetans inside China | Severe state restriction of religious life | With the succession itself under state control |
+| Female students in consort-framed abuse | They were taught that refusal endangered their own attainment. | It compounds with samaya, which made speaking a cosmic risk. |
+| Recognized tulku children | They are removed from their families and their life course is assigned before consent. | It compounds with the lack of any route to decline that does not delegitimize the institution. |
+| Whistleblowers | They were shunned as samaya-breakers while the accused continued teaching. | It compounds for those who had relocated their lives to be near the teacher. |
+| Long-term Western students | They gave decades of donations and labor and hold no equity. | It compounds in late middle age with no savings. |
+| Tibetans inside China | They face severe state restriction of religious life. | It compounds with the succession itself being under state control. |
 
 ### From The Children's Codex
 
@@ -1192,12 +1314,14 @@ Sources for this section: [5]
 
 ## 18. The middle tiers {#tiers}
 
+Between the teachers and the students sit people who apply rules they did not write. The table names four middle roles, what each does and sees, what each is asked to do, and what each could refuse.
+
 | Role | Does | Sees | Is asked to | Could refuse |
 |---|---|---|---|---|
-| Centre directors and inner-circle students | Mediates all access to the teacher | Every complaint, because they are where complaints stop | To protect the teacher and the lineage | To be the place a report goes to die |
-| Translators | Holds the only bridge between teacher and student | What is actually being said in both directions | To render devotionally | To soften an instruction they know is coercive |
-| Retreat and land-project volunteers | Builds the centres | Years of labor accruing to an entity they do not own | To treat it as merit | To work without a written agreement |
-| Monastery teachers in exile institutions | Educates recognized children removed from families | Which children are struggling and cannot leave | To maintain the system | To accept a boarding institution with no external safeguarding |
+| Centre directors and inner-circle students | Mediate all access to the teacher | Every complaint, because they are where complaints stop | Protect the teacher and the lineage | To be the place a report goes to die |
+| Translators | Hold the only bridge between teacher and student | What is actually being said in both directions | Render devotionally | To soften an instruction they know is coercive |
+| Retreat and land-project volunteers | Build the centres | Years of labor accruing to an entity they do not own | Treat it as merit | To work without a written agreement |
+| Monastery teachers in exile institutions | Educate recognized children removed from families | Which children are struggling and cannot leave | Maintain the system | To accept a boarding institution with no external safeguarding |
 
 ## 19. Documented cases {#cases}
 
@@ -1244,15 +1368,15 @@ Sources for this section: [1] [2] [3] [7]
 
 | What | Who | When | What it cost |
 |---|---|---|---|
-| Two independent investigations commissioned by the organizations and published | Members and survivors who forced them | 2018–19 | Years of being called samaya-breakers first |
-| The Dalai Lama's public instruction to expose abusive teachers | The tradition's most senior figure | Repeatedly since the 1990s | Largely ignored by the organizations it addressed |
-| Geshema degrees for nuns | Nuns and reforming institutions | 2016 | Centuries of delay |
+| Two independent investigations were commissioned by the organizations and published. | Members and survivors forced them. | 2018–19 | It cost years of being called samaya-breakers first. |
+| The Dalai Lama gave a public instruction to expose abusive teachers. | The tradition's most senior figure gave it. | Repeatedly since the 1990s | It was largely ignored by the organizations it addressed. |
+| Geshema degrees were awarded to nuns. | Nuns and reforming institutions achieved it. | 2016 | It came after centuries of delay. |
 
 ### Promises on the record
 
 | Commitment | Made | Status | Note |
 |---|---|---|---|
-| Rigpa — implementation of the Lewis report recommendations | 2018 | Partial | An independent investigation was commissioned and published, which is more than most institutions in this codex have done. Implementation has been reported as incomplete by former members. |
+| Rigpa committed to implementing the Lewis report recommendations. | 2018 | Partial | An independent investigation was commissioned and published, which is more than most institutions in this codex have done. Implementation has been reported as incomplete by former members. |
 
 ### What would change this page
 
@@ -1264,50 +1388,50 @@ Sources for this section: [5] [6]
 
 ## 21. Voices from inside {#voices}
 
-- **The Rigpa students** whose complaints led to the 2018 investigation and the Charity Commission's inquiry [1][11].
-- **The Dalai Lama in 1993,** who told Western teachers that students should speak to an abusive teacher and, if that fails, make the behaviour public [5].
-- **The first Geshema nuns.** Twenty nuns awarded the highest Gelug degree in 2016, a first for women [6].
-- **Gedhun Choekyi Nyima,** the Panchen Lama who disappeared at six and has been held for over thirty years [7].
+- **The Rigpa students.** Their complaints led to the 2018 investigation and the Charity Commission's inquiry [1][11].
+- **The Dalai Lama in 1993.** He told Western teachers that students should speak to an abusive teacher and, if that fails, make the behaviour public [5].
+- **The first Geshema nuns.** Twenty nuns were awarded the highest Gelug degree in 2016, a first for women [6].
+- **Gedhun Choekyi Nyima.** The Panchen Lama disappeared at six and has been held for over thirty years [7].
 
 ## 22. Regional variants {#regional}
 
 ::: card
 ### China (Tibet)
-- **apex:** The state, through Order No. 5 [3].
-- **law:** State approval of reincarnations [3].
-- **documented:** The disappearance of the Panchen Lama (1995) [7].
+- **apex:** The state holds the apex, through Order No. 5 [3].
+- **law:** The law requires state approval of reincarnations [3].
+- **documented:** The documented case is the disappearance of the Panchen Lama (1995) [7].
 - **exit:** Practice itself is controlled.
 - **regulator:** The state is the controlling party.
-- **tell:** A government that says reincarnation needs its licence.
+- **tell:** The tell is a government that says reincarnation needs its licence.
 :::
 
 ::: card
 ### India (exile)
-- **apex:** The Dalai Lama; the Central Tibetan Administration [4][6].
-- **law:** Indian law.
-- **documented:** The 2025 succession statement [4]; the 2016 Geshema degrees [6].
-- **exit:** Legally free.
-- **regulator:** Indian courts.
-- **tell:** An exiled institution making its own rules on succession, against a state that claims the right to make them instead.
+- **apex:** The apex is the Dalai Lama and the Central Tibetan Administration (the Tibetan government in exile) [4][6].
+- **law:** Indian law applies.
+- **documented:** The documented events are the 2025 succession statement [4] and the 2016 Geshema degrees [6].
+- **exit:** Exit is legally free.
+- **regulator:** The regulator is the Indian courts.
+- **tell:** The tell is an exiled institution making its own rules on succession, against a state that claims the right to make them instead.
 :::
 
 ::: card
 ### United Kingdom
-- **apex:** Each centre's teacher and trustees.
-- **law:** Charity law [11].
-- **documented:** The Rigpa inquiry and the trustee's removal [1][11].
-- **exit:** Legally free.
-- **regulator:** The Charity Commission [11].
+- **apex:** Each centre's teacher and trustees hold the apex.
+- **law:** Charity law applies [11].
+- **documented:** The documented events are the Rigpa inquiry and the trustee's removal [1][11].
+- **exit:** Exit is legally free.
+- **regulator:** The regulator is the Charity Commission [11].
 - **tell:** The teacher was beyond any lineage's reach; the trustees were within the regulator's.
 :::
 
 ::: card
 ### North America
-- **apex:** Shambhala's leadership; each centre's board [2].
-- **law:** Civil law.
-- **documented:** The 2019 Shambhala report [2].
-- **exit:** Legally free.
-- **regulator:** Civil courts and, where they exist, charity regulators.
+- **apex:** Shambhala's leadership and each centre's board hold the apex [2].
+- **law:** Civil law applies.
+- **documented:** The documented event is the 2019 Shambhala report [2].
+- **exit:** Exit is legally free.
+- **regulator:** The regulators are the civil courts and, where they exist, charity regulators.
 - **tell:** The investigation was commissioned by the organization itself, and its findings were made public [2].
 :::
 
@@ -1337,7 +1461,7 @@ Practical guidance, not legal advice.
 1. **Samaya vows** made to a teacher have no legal force; you can leave a teacher or centre.
 2. **If you were abused,** go to the police; in the UK you can also report a charity to the Charity Commission [11].
 3. **The Dalai Lama's own advice** to students of abusive teachers was to speak up and, if that fails, make it public [5].
-4. **Find support** [14][15][16].
+4. **Find support** through the organizations listed in section 25 [14][15][16].
 
 ## 25. Where to get help {#help}
 
