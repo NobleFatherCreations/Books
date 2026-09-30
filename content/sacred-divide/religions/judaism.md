@@ -18,13 +18,13 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | ~15–16 million. [ACADEMIC SOURCE: Pew, DellaPergola demographic studies] |
-| Who's in charge | Chief Rabbinate of Israel — statutory monopoly over Jewish marriage and divorce in Israel, and gatekeeping over Orthodox conversion and most burial — Ashkenazi Chief Rabbi Kalman Ber and Sephardi Chief Rabbi David Yosef, elected 2024 to ten-year terms on state salary |
-| Chosen by / removable by | A 150-member electoral body weighted toward rabbinic insiders / The state that created the monopoly — which has not |
-| Money in one line | Synagogue dues, day-school tuition (a defining family cost), kosher certification fees, federation philanthropy, Israel-linked giving. |
-| Leaving in one line | From liberal communities: low institutional cost. From Orthodox communities: see next profile. |
-| The unanswered question | The rabbinic courts hold the only key to a get. Why has the power to free an agunah never been made an obligation instead of a discretion? |
-| Evidence | 4 of 30 techniques sourced to a named document; grades: Contested 21, Cultural 7, Codified 2 |
+| Size | About 15–16 million people are Jewish worldwide. [ACADEMIC SOURCE: Pew, DellaPergola demographic studies] |
+| Who's in charge | The Chief Rabbinate of Israel holds a statutory monopoly over Jewish marriage and divorce in Israel, and gatekeeping over Orthodox conversion and most burial. Its two heads are Ashkenazi (central and eastern European Jewish) Chief Rabbi Kalman Ber and Sephardi (Spanish, North African and Middle Eastern Jewish) Chief Rabbi David Yosef, elected in 2024 to ten-year terms on a state salary. |
+| Chosen by / removable by | A 150-member electoral body weighted toward rabbinic insiders chooses them / The state that created the monopoly can remove them, and it has not |
+| Money in one line | The money comes from synagogue dues, day-school tuition (a defining family cost), kosher certification fees, giving through federations (the central fundraising bodies of local Jewish communities), and Israel-linked giving. |
+| Leaving in one line | Leaving a liberal community carries a low institutional cost. The cost of leaving an Orthodox community is set out in the profile of Orthodox and Hasidic Judaism. |
+| The unanswered question | The rabbinic courts hold the only key to a get (a Jewish writ of divorce, which only the husband can give). Why has the power to free an agunah (a woman whose husband refuses her a get) never been made an obligation instead of a discretion? |
+| Evidence | Four of the 30 techniques are sourced to a named document. The grades are Contested 21, Cultural 7 and Codified 2. |
 | Family | Judaism — judaism, orthodox-hasidic-judaism |
 | Last checked | 2026-09-27 |
 :::
@@ -39,11 +39,11 @@ partial: []
 
 ## 2. A day inside {#a-day-inside}
 
-*Rachel · A Tuesday in Elul · A North American suburb*
+*Rachel · A Tuesday in Elul (the Hebrew month before the autumn High Holidays of Rosh Hashanah and Yom Kippur) · A North American suburb*
 
 Carpool at 7:20 for the day school, which costs $34,000 a year for two children, which is more than the mortgage. She and David have run these numbers so many times that the numbers have stopped meaning anything and have become a kind of weather they live in.
 
-At the school gate she talks to Shira, who is on her fourth year of a get refusal. Shira's husband will not sign. The beit din has said what it says, which is that it cannot compel him. Shira is thirty-eight and cannot remarry and has stopped explaining this to people because of the particular face they make. Rachel hugs her and drives to work and grips the wheel at a red light.
+At the school gate she talks to Shira, who is on her fourth year of a get refusal. Shira's husband will not sign. The beit din (the rabbinic court) has said what it says, which is that it cannot compel him. Shira is thirty-eight and cannot remarry and has stopped explaining this to people because of the particular face they make. Rachel hugs her and drives to work and grips the wheel at a red light.
 
 Her office is not Jewish and this is restful in a way she does not admit. Nobody here knows what a beit din is. Nobody here would understand that a woman she likes is legally chained to a man by a religious court that has a remedy it declines to use.
 
@@ -56,7 +56,7 @@ At eleven she is doing the tuition spreadsheet again and David says, from the do
 ## 3. The forefront {#forefront}
 
 ::: lede
-Your tradition puts its arguments in the canon. The Talmud preserves the losing opinion on the same page as the winning one — which means you were raised inside a religion that formally believes disagreement belongs in the record. Use that. Almost nothing in this profile asks you to be less Jewish; most of it asks you to be more.
+Your tradition puts its arguments in the canon. The Talmud (the central body of rabbinic law and debate) preserves the losing opinion on the same page as the winning one — which means you were raised inside a religion that formally believes disagreement belongs in the record. Use that. Almost nothing in this profile asks you to be less Jewish; most of it asks you to be more.
 :::
 
 ### The unanswered question
@@ -75,7 +75,7 @@ The rabbinic courts hold the only key to a get. Why has the power to free an agu
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Family and community (liberal streams) | Usually low | Ordinary relational friction; no formal sanction | Accurately: leaving really is low-cost here. |
+| Family and community (liberal streams) | The cost is usually low. | The cost is ordinary relational friction, with no formal sanction. | The denial is accurate: leaving really is low-cost here. |
 
 ### The strongest objection, answered
 
@@ -88,27 +88,27 @@ The rabbinic courts hold the only key to a get. Why has the power to free an agu
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-~15–16 million Jews worldwide, concentrated in Israel and the U.S.; a covenantal tradition of peoplehood, law, text study, and memory spanning Reform to Orthodox expressions.
+Judaism has about 15–16 million adherents worldwide, concentrated in Israel and the United States. It is a covenantal tradition of peoplehood, law, text study and memory, and it spans Reform to Orthodox expressions.
 :::
 
-- Judaism's argument culture: dissent preserved in the canon itself; independent minyanim, denominational pluralism, org-level transparency norms in federation philanthropy; activist rabbis pressuring the get system from within.
+- Judaism's argument culture preserves dissent in the canon itself. The other healthy features are independent minyanim (lay-led prayer groups), denominational pluralism, transparency norms at the organizational level in federation philanthropy, and activist rabbis who pressure the get system from within.
 
 ## 5. History {#history}
 
-Ancient Israelite religion → Second Temple Judaism → rabbinic Judaism after the Temple's destruction (70 CE); the diaspora made community self-governance (kehilla) the institutional form; modernity fragmented practice into denominations; 1948 added a state with an official rabbinate.
+Ancient Israelite religion gave way to Second Temple Judaism, and then to rabbinic Judaism after the Temple's destruction (70 CE). The diaspora made community self-governance (kehilla, the organized local Jewish community) the institutional form. Modernity fragmented practice into denominations, and 1948 added a state with an official rabbinate.
 
 ### Timeline
 
 ```timeline
-c. 1200–586 BCE | Israelite religion; monarchy; First Temple | Priesthood, sacrifice, and a centralized cult tied to a state.
-586–539 BCE | Babylonian exile | Portable religion invented under catastrophe: text, law, and community replace territory.
-516 BCE–70 CE | Second Temple period; sects (Pharisees, Sadducees, Essenes) | Competing authorities; interpretation becomes the contested ground.
-70 CE | Temple destroyed; rabbinic Judaism emerges at Yavneh | Priests are replaced by scholars — authority becomes textual and portable.
-200–600 CE | Mishnah and Talmud compiled | Law codified in an argument format that preserves dissent inside the canon itself.
-600–1500 | Diaspora kehilla self-governance under Muslim and Christian rule | Communities hold real coercive power over members (bans, taxes, courts) as the price of tolerated autonomy.
-1700s–1800s | Hasidism; Haskalah; Reform movement; emancipation | Modernity splits Judaism into denominations with rival authority claims.
-1881–1945 | Mass migration; Zionism; the Holocaust | Catastrophe and statehood reshape every institution and every argument about them.
-1948 | State of Israel; the Mandate's religious-court system continued, and in 1953 statute gave rabbinical courts exclusive jurisdiction over Jewish marriage and divorce | Religious authority acquires state enforcement for the first time in 1,900 years. [OFFICIAL POLICY]
+c. 1200–586 BCE | Israelite religion; monarchy; First Temple | The period had a priesthood, sacrifice, and a centralized cult tied to a state.
+586–539 BCE | Babylonian exile | A portable religion was invented under catastrophe, in which text, law and community replaced territory.
+516 BCE–70 CE | Second Temple period; sects (Pharisees, Sadducees, Essenes) | Authorities competed, and interpretation became the contested ground.
+70 CE | Temple destroyed; rabbinic Judaism emerges at Yavneh | Priests were replaced by scholars, and authority became textual and portable.
+200–600 CE | Mishnah (the earliest written collection of rabbinic law) and Talmud compiled | The law was codified in an argument format that preserves dissent inside the canon itself.
+600–1500 | Diaspora kehilla self-governance under Muslim and Christian rule | Communities held real coercive power over members (bans, taxes, courts) as the price of tolerated autonomy.
+1700s–1800s | Hasidism (a devotional movement led by hereditary spiritual leaders called rebbes); Haskalah (the Jewish Enlightenment); Reform movement; emancipation | Modernity splits Judaism into denominations with rival authority claims.
+1881–1945 | Mass migration; Zionism; the Holocaust | Catastrophe and statehood reshaped every institution and every argument about them.
+1948 | State of Israel; the Mandate's religious-court system continued, and in 1953 statute gave rabbinical courts exclusive jurisdiction over Jewish marriage and divorce | Religious authority acquired state enforcement for the first time in 1,900 years. [OFFICIAL POLICY]
 1970s–present | Feminist and egalitarian movements; ordination of women in liberal denominations; agunah advocacy | Internal reform proceeds precisely where authority is not state-backed.
 ```
 
@@ -117,9 +117,9 @@ c. 1200–586 BCE | Israelite religion; monarchy; First Temple | Priesthood, sac
 ::: card
 #### 1953 — The Rabbinical Courts Jurisdiction Law
 
-Israel's Knesset granted the Chief Rabbinate exclusive statutory jurisdiction over Jewish marriage and divorce. A religious body received state monopoly power over the personal status of citizens, including secular ones.
+Israel's Knesset (parliament) granted the Chief Rabbinate exclusive statutory jurisdiction over Jewish marriage and divorce. A religious body received state monopoly power over the personal status of citizens, including secular ones.
 
-**Why it matters.** The single legislative act behind the agunah crisis. It was passed by a parliament, which means it can be amended by a parliament — a fact this page insists on because it locates the remedy.
+**Why it matters.** It is the single legislative act behind the agunah crisis. It was passed by a parliament, which means it can be amended by a parliament, a fact this page insists on because it locates the remedy.
 :::
 
 ::: card
@@ -127,7 +127,7 @@ Israel's Knesset granted the Chief Rabbinate exclusive statutory jurisdiction ov
 
 Hebrew Union College ordained the first woman rabbi in American Judaism. Elected denominational bodies had debated it, voted, and changed. Conservative Judaism followed in 1985 after its own vote.
 
-**Why it matters.** The natural experiment at the heart of this page: identical scripture, different governance, opposite outcomes. Where the structure was elected, it moved; where it was appointed, it did not.
+**Why it matters.** It is the natural experiment at the heart of this page, with identical scripture, different governance and opposite outcomes. Where the structure was elected, it moved; where it was appointed, it did not.
 :::
 
 ::: card
@@ -135,7 +135,7 @@ Hebrew Union College ordained the first woman rabbi in American Judaism. Elected
 
 Federal prosecutors in New Jersey convicted rabbis and associates who ran a ring kidnapping and beating husbands to force a get; its leader was sentenced to ten years in 2015.
 
-**Why it matters.** The civil law could punish the violence used to break a refusal. The refusal itself — the husband’s unilateral power — stayed beyond any court’s reach, rabbinic or civil.
+**Why it matters.** The civil law could punish the violence used to break a refusal. The refusal itself, the husband’s unilateral power, stayed beyond any court’s reach, rabbinic or civil.
 :::
 
 ::: cites
@@ -144,15 +144,15 @@ Sources for this section: [1] [11]
 
 ## 6. Branches & variants {#branches}
 
-Orthodox (Modern Orthodox and Haredi/Hasidic), Conservative/Masorti, Reform/Progressive, Reconstructionist, secular-cultural, plus Sephardi/Mizrahi and Ethiopian traditions cutting across.
+Judaism has Orthodox (Modern Orthodox, which engages with secular society, and Haredi or ultra-Orthodox, including Hasidic), Conservative/Masorti, Reform/Progressive, Reconstructionist and secular-cultural branches. Sephardi and Mizrahi (Middle Eastern and North African Jewish) and Ethiopian traditions cut across them.
 
 | Branch | Where authority sits | On this page's questions |
 |---|---|---|
-| **Orthodox** (Modern Orthodox, Haredi, Hasidic) | Rabbis and rabbinical courts; in Hasidism a hereditary rebbe | In Israel, Orthodox rabbinical courts hold exclusive jurisdiction over Jewish marriage and divorce [1] |
-| **Conservative / Masorti** | A rabbinical assembly and movement bodies | Its conversions in Israel were recognized for citizenship in 2021 [2] |
-| **Reform / Progressive** | Congregational, with a rabbinical conference | Ordained the first woman rabbi in America in 1972 [9] |
-| **Reconstructionist and secular** | Congregations; many secular Jews belong to none | — |
-| **Sephardi / Mizrahi, Ashkenazi, Ethiopian** | Traditions that cut across the above | Israel has one Sephardi and one Ashkenazi chief rabbi [6] |
+| **Orthodox** (Modern Orthodox, Haredi, Hasidic) | Authority sits with rabbis and rabbinical courts, and in Hasidism with a hereditary rebbe. | In Israel, Orthodox rabbinical courts hold exclusive jurisdiction over Jewish marriage and divorce [1] |
+| **Conservative / Masorti** | Authority sits with a rabbinical assembly and movement bodies. | Its conversions in Israel were recognized for citizenship in 2021 [2] |
+| **Reform / Progressive** | Authority is congregational, with a rabbinical conference. | It ordained the first woman rabbi in America in 1972 [9]. |
+| **Reconstructionist and secular** | Authority sits with congregations, and many secular Jews belong to none. | — |
+| **Sephardi / Mizrahi, Ashkenazi, Ethiopian** | These are traditions that cut across the above. | Israel has one Sephardi and one Ashkenazi chief rabbi [6] |
 
 About **15.8 million** Jews worldwide (2024): 7.3 million in Israel and 6.3 million in the United States [10].
 
@@ -162,15 +162,15 @@ About **15.8 million** Jews worldwide (2024): 7.3 million in Israel and 6.3 mill
 
 |  |  |
 |---|---|
-| Adherents | ~15–16 million. [ACADEMIC SOURCE: Pew, DellaPergola demographic studies] |
-| Regions | Israel (~7M) and the United States (~6M) hold the large majority; France, Canada, UK, Argentina, Russia, Australia follow. |
-| Trend | Overall slow growth; sharp internal shift — Haredi communities grow rapidly by fertility while liberal denominations shrink and intermarry. |
+| Adherents | About 15–16 million people are Jewish worldwide. [ACADEMIC SOURCE: Pew, DellaPergola demographic studies] |
+| Regions | Israel (~7M) and the United States (~6M) hold the large majority, and France, Canada, the United Kingdom, Argentina, Russia and Australia follow. |
+| Trend | Overall growth is slow. Internally the shift is sharp, as Haredi communities grow rapidly by fertility while liberal denominations shrink and intermarry. |
 | Participation | Identity is ethnic, cultural, and religious at once. A large share of Jews worldwide are secular or minimally observant; institutional authority reaches only a fraction, mainly through Israel's personal-status law and Orthodox communal structures. |
 
 ### Authority
 
-- Decentralized: rabbis, communal boards, denominational bodies; no global hierarchy.
-- In Israel, the Chief Rabbinate holds a legal monopoly over Jewish marriage and divorce, and gatekeeping over Orthodox conversion and most burial — state-enforced Orthodox control over personal status for all Jewish citizens. Israel's courts have opened three narrow exits: non-Orthodox conversions performed in Israel count for citizenship (2021), civil burial is a legal right (1996) though scarce, and online civil marriages must be registered (2023). Divorce has no exit. [OFFICIAL POLICY]
+- Authority is decentralized among rabbis, communal boards and denominational bodies, and there is no global hierarchy.
+- In Israel, the Chief Rabbinate holds a legal monopoly over Jewish marriage and divorce, and gatekeeping over Orthodox conversion and most burial. This is state-enforced Orthodox control over personal status for all Jewish citizens. Israel's courts have opened three narrow exits: non-Orthodox conversions performed in Israel count for citizenship (2021), civil burial is a legal right (1996) though scarce, and online civil marriages must be registered (2023). Divorce has no exit. [OFFICIAL POLICY]
 
 ### The top of the chain
 
@@ -180,9 +180,9 @@ Judaism runs the codex's natural experiment: identical scripture, opposite gover
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| Chief Rabbinate of Israel — statutory monopoly over Jewish marriage and divorce in Israel, and gatekeeping over Orthodox conversion and most burial | Ashkenazi Chief Rabbi Kalman Ber and Sephardi Chief Rabbi David Yosef, elected 2024 to ten-year terms on state salary | A 150-member electoral body weighted toward rabbinic insiders | The state that created the monopoly — which has not |
-| The dynastic courts | Rebbes, by inheritance — see the Orthodox / Hasidic page for the named dynasties | Bloodline | Nobody |
-| The liberal denominations | Elected presidents and rotating boards — offices that have actually changed hands under member pressure | Member and clergy votes | The next vote — this codex's working control group |
+| Chief Rabbinate of Israel — statutory monopoly over Jewish marriage and divorce in Israel, and gatekeeping over Orthodox conversion and most burial | The Chief Rabbis are Ashkenazi Chief Rabbi Kalman Ber and Sephardi Chief Rabbi David Yosef, elected in 2024 to ten-year terms on a state salary. | A 150-member electoral body weighted toward rabbinic insiders chooses them. | The state that created the monopoly can remove them, and it has not. |
+| The dynastic courts | Rebbes hold the office by inheritance; the Orthodox / Hasidic page names the dynasties. | Bloodline decides who holds it. | Nobody can remove them. |
+| The liberal denominations | Elected presidents and rotating boards hold these offices, and the offices have actually changed hands under member pressure. | Member and clergy votes choose them. | The next vote can remove them, and this is the codex's working control group. |
 
 ::: tell
 Where the office is elected, the exit costs collapse. That correlation is the sharpest single finding on this page.
@@ -192,12 +192,12 @@ Where the office is elected, the exit costs collapse. That correlation is the sh
 
 | Entity | Type | Holder | Holds | Why it matters to you | Receipt |
 |---|---|---|---|---|---|
-| The Chief Rabbinate of Israel | Statutory monopoly | Chief Rabbis and rabbinical courts | Legal control of Jewish marriage and divorce for all Jewish citizens, and gatekeeping over Orthodox conversion and most burial | Whether you can marry, divorce, or be buried in your own country | [OFFICIAL POLICY: Israeli statute] |
-| Rabbinical courts (batei din) | Judicial | Appointed dayanim | The only remedy for a woman whose husband refuses a get, and the discretion not to use it | Whether a woman is free to remarry, or chained for a decade | [COURT RECORD / ACADEMIC SOURCE] |
-| Religious political parties | Political | Party leaderships | Coalition leverage converted into budgets, exemptions, and control of personal-status law | Public money and public law, negotiated in a coalition agreement | [OFFICIAL POLICY / INVESTIGATIVE REPORT] |
-| Kashrut certifying agencies | Commercial gatekeeping | Agency directors and supervising rabbis | Fee-based certification across an entire food economy, with competing overlapping claims | The price of everything in your kitchen | [FINANCIAL RECORD] |
-| Federations and mega-donors | Philanthropic | Named foundations and their boards | Disproportionate influence over communal policy, institutions, and speech norms | What your community's institutions are permitted to say | [PATTERN OBSERVED] |
-| Day-school networks | Education and finance | School boards | Tuition obligations that reshape a family's entire financial life | Six figures per child, and the leverage that comes with it | [FINANCIAL RECORD] |
+| The Chief Rabbinate of Israel | Statutory monopoly | Chief Rabbis and rabbinical courts | It holds legal control of Jewish marriage and divorce for all Jewish citizens, and gatekeeping over Orthodox conversion and most burial. | It decides whether you can marry, divorce or be buried in your own country. | [OFFICIAL POLICY: Israeli statute] |
+| Rabbinical courts (batei din) | Judicial | Appointed dayanim (rabbinic judges) | They hold the only remedy for a woman whose husband refuses a get, and the discretion not to use it. | They decide whether a woman is free to remarry or chained for a decade. | [COURT RECORD / ACADEMIC SOURCE] |
+| Religious political parties | Political | Party leaderships | They hold coalition leverage, converted into budgets, exemptions and control of personal-status law. | They decide public money and public law, negotiated in a coalition agreement. | [OFFICIAL POLICY / INVESTIGATIVE REPORT] |
+| Kashrut (kosher-food) certifying agencies | Commercial gatekeeping | Agency directors and supervising rabbis | They hold fee-based certification across an entire food economy, with competing overlapping claims. | They affect the price of everything in your kitchen. | [FINANCIAL RECORD] |
+| Federations and mega-donors | Philanthropic | Named foundations and their boards | They hold disproportionate influence over communal policy, institutions and speech norms. | They shape what your community's institutions are permitted to say. | [PATTERN OBSERVED] |
+| Day-school networks | Education and finance | School boards | They set tuition obligations that reshape a family's entire financial life. | Tuition runs to six figures per child, and the leverage comes with it. | [FINANCIAL RECORD] |
 
 ::: cites
 Sources for this section: [1] [4] [6] [10]
@@ -209,7 +209,7 @@ Sources for this section: [1] [4] [6] [10]
 |---|---|---|
 | **Israel** | Rabbinical courts have exclusive jurisdiction over Jewish marriage and divorce (1953) [1]; there is no civil marriage, but marriages performed abroad — including online through Utah — must be registered (2023) [3] | Reform and Conservative conversions count for citizenship (2021) [2]; alternative civil burial exists on paper but is patchily provided [4] |
 | **Israel — divorce** | Since 2021, rabbinical courts can act where a *get* cannot be processed abroad [5] | The husband must still give the *get* |
-| **United States** | Religious divorce is outside civil law; a halakhic prenuptial agreement with binding arbitration is the main protection [7] | The Rabbinical Council of America says no member should officiate without one (2006) [8] |
+| **United States** | Religious divorce is outside civil law; a halakhic (Jewish-law) prenuptial agreement with binding arbitration is the main protection [7] | The Rabbinical Council of America (RCA) says no member should officiate without one (2006) [8] |
 | **United Kingdom** | Equality law applies to faith-school admissions [13] | The Supreme Court held in 2009, 5–4, that a Jewish school had discriminated on grounds of ethnic origin by using the Chief Rabbi's test of Jewish status [13] |
 
 ### Who can compel an answer
@@ -220,66 +220,66 @@ In Israel: the Knesset and the High Court of Justice, which sit over the Rabbina
 
 ### Where it comes from
 
-- Synagogue dues, day-school tuition (a defining family cost), kosher certification fees, federation philanthropy, Israel-linked giving.
+- The money comes from synagogue dues, day-school tuition (a defining family cost), kosher certification fees, federation philanthropy and Israel-linked giving.
 - Kashrut certification is a genuine service and also a gatekeeping revenue economy for certifying agencies. [FINANCIAL RECORD]
 
 ### Follow the money
 
 | Flow | Stated purpose | How it controls | Who benefits |
 |---|---|---|---|
-| Synagogue dues and High Holiday tickets | Fund the congregation | Paid access to worship at the year's most emotionally loaded moment; the poor self-exclude | Congregations (many now offer sliding scales — a real reform) |
-| Day-school tuition | Jewish education | Families locked into six-figure cumulative costs; institutional leverage over parents | Schools and community networks |
-| Kashrut certification | Reliable dietary supervision | Fee-based gatekeeping over an entire food economy; competing agencies with overlapping claims | Certifying agencies and their supervisors [FINANCIAL RECORD] |
-| Federation and mega-donor philanthropy | Communal welfare and Israel support | Large donors shape communal policy and speech norms disproportionately | Institutions and their major funders [PATTERN OBSERVED] |
+| Synagogue dues and High Holiday tickets | The stated purpose is to fund the congregation. | It controls through paid access to worship at the year's most emotionally loaded moment, and the poor exclude themselves. | Congregations benefit, and many now offer sliding scales, which is a real reform. |
+| Day-school tuition | The stated purpose is Jewish education. | Families are locked into six-figure cumulative costs, and the institution gains leverage over parents. | Schools and community networks benefit. |
+| Kashrut certification | The stated purpose is reliable dietary supervision. | It controls through fee-based gatekeeping over an entire food economy, with competing agencies making overlapping claims. | Certifying agencies and their supervisors benefit. [FINANCIAL RECORD] |
+| Federation and mega-donor philanthropy | The stated purpose is communal welfare and Israel support. | Large donors shape communal policy and speech norms disproportionately. | Institutions and their major funders benefit. [PATTERN OBSERVED] |
 
 ### Pipelines this tradition shares
 
 ::: card
 #### Certification fee
 
-**Source.** Ordinary commerce seeking religious compliance
+**Source.** The money comes from ordinary commerce seeking religious compliance.
 
 **Path.** Certifying agency → Scholarly or rabbinic supervisors → Advisory positions at certified firms
 
-**Disclosed.** Certification status
+**Disclosed.** Certification status is disclosed.
 
-**Hidden.** Fee schedules and advisory compensation
+**Hidden.** Fee schedules and advisory compensation stay hidden.
 :::
 
 ::: card
 #### School tuition to family leverage
 
-**Source.** Parents funding religious education
+**Source.** The money comes from parents funding religious education.
 
 **Path.** School → Institutional network → Employment and standing leverage over the family
 
-**Disclosed.** Fee schedules
+**Disclosed.** Fee schedules are disclosed.
 
-**Hidden.** Conduct conditions attached to enrolment
+**Hidden.** Conduct conditions attached to enrolment stay hidden.
 :::
 
 ::: card
 #### Public funding to autonomous curriculum
 
-**Source.** Taxpayers
+**Source.** The money comes from taxpayers.
 
 **Path.** Government education or welfare budget → Religious school network → Curriculum exempted from standards
 
-**Disclosed.** Budget lines
+**Disclosed.** Budget lines are disclosed.
 
-**Hidden.** What is actually taught
+**Hidden.** What is actually taught stays hidden.
 :::
 
 ::: card
 #### Communal trust to conditional welfare
 
-**Source.** Historic endowments and community giving
+**Source.** The money comes from historic endowments and community giving.
 
 **Path.** Trust board → Housing, healthcare, education allocation → Members in good standing
 
-**Disclosed.** Trust deeds, because litigation forced it
+**Disclosed.** Trust deeds are disclosed, because litigation forced it.
 
-**Hidden.** Discretionary decisions
+**Hidden.** Discretionary decisions stay hidden.
 :::
 
 ### Money in numbers
@@ -291,57 +291,57 @@ In Israel: the Knesset and the High Court of Justice, which sit over the Rabbina
  "cite":[14]}
 ```
 
-- **United Synagogue, 2024:** £24.49m of £47.21m income from donations and legacies; spending £49.95m [14].
-- **Where money works as leverage:** in religious divorce, a spouse can withhold the *get*; the prenuptial agreement exists to deter that [7][16].
+- **United Synagogue, 2024:** £24.49m of its £47.21m income came from donations and legacies, and it spent £49.95m [14].
+- **Where money works as leverage:** In religious divorce, a spouse can withhold the *get*, and the prenuptial agreement exists to deter that [7][16].
 
 ## 10. Genealogy {#genealogy}
 
 ::: card
 #### Husband's exclusive power to grant divorce (the get)
 
-**Origin.** Deuteronomic and rabbinic marriage law, in which the man effects the divorce. [ACADEMIC SOURCE]
+**Origin.** It began in Deuteronomic (from the biblical book of Deuteronomy) and rabbinic marriage law, in which the man effects the divorce. [ACADEMIC SOURCE]
 
 **What it was for.** In an ancient legal world where women could not contract, the framework at least required a formal written document rather than mere abandonment — a limit on male power at the time.
 
 **Why that reason expired.** Women now hold every legal capacity men do, except this one. The result is the agunah: a woman chained for years by a spiteful husband while rabbinic courts declare themselves unable to act.
 
-**Who benefits now.** Recalcitrant husbands, who acquire indefinite leverage over a woman's entire future. And courts that retain the sole remedy and decline to use it decisively.
+**Who benefits now.** Recalcitrant husbands benefit, acquiring indefinite leverage over a woman's entire future. So do courts that retain the sole remedy and decline to use it decisively.
 :::
 
 ::: card
 #### State-enforced rabbinic monopoly on personal status (Israel)
 
-**Origin.** Ottoman millet arrangements carried into British Mandate law and then into Israeli statute in 1953. [OFFICIAL POLICY]
+**Origin.** It began in Ottoman millet arrangements (the Ottoman system of ruling each religious community through its own leaders), which were carried into British Mandate law and then into Israeli statute in 1953. [OFFICIAL POLICY]
 
 **What it was for.** Under empires, communal self-governance was how a minority survived with any autonomy at all.
 
 **Why that reason expired.** There is now a sovereign Jewish state with courts and a legislature. Retaining the monopoly means a secular Israeli, or a Reform convert, cannot marry, divorce, or be buried without Orthodox permission — religious authority backed by police power.
 
-**Who benefits now.** The Chief Rabbinate and religious parties, who hold budgets and coalition leverage in exchange for political support. [INVESTIGATIVE REPORT]
+**Who benefits now.** The Chief Rabbinate and religious parties benefit, holding budgets and coalition leverage in exchange for political support. [INVESTIGATIVE REPORT]
 :::
 
 ::: card
 #### Mesirah — the prohibition on informing to secular authorities
 
-**Origin.** Medieval Europe, where handing a Jew to Christian authorities frequently meant torture, expropriation, or death. [ACADEMIC SOURCE]
+**Origin.** It began in medieval Europe, where handing a Jew to Christian authorities frequently meant torture, expropriation or death. [ACADEMIC SOURCE]
 
-**What it was for.** Genuine protection. The gentile courts were not neutral; they were often the danger.
+**What it was for.** It was genuine protection. The gentile courts were not neutral; they were often the danger.
 
-**Why that reason expired.** Completely. Modern police forces in democratic states are not medieval blood-libel tribunals. Applying a rule built for pogrom conditions to a child-abuse allegation in Brooklyn protects only one party, and it is not the child. Rabbis have ruled internally that abuse reporting is not mesirah. [LEADERSHIP STATEMENT]
+**Why that reason expired.** It expired completely. Modern police forces in democratic states are not medieval blood-libel tribunals. Applying a rule built for pogrom conditions to a child-abuse allegation in Brooklyn protects only one party, and it is not the child. Rabbis have ruled internally that abuse reporting is not mesirah. [LEADERSHIP STATEMENT]
 
-**Who benefits now.** Abusers, and institutions whose reputations survive the silence. This is the clearest case in the codex of a genuinely protective rule outliving its threat and becoming the threat.
+**Who benefits now.** Abusers benefit, and so do institutions whose reputations survive the silence. This is the clearest case in the codex of a genuinely protective rule outliving its threat and becoming the threat.
 :::
 
 ::: card
 #### High Holiday tickets and synagogue dues
 
-**Origin.** Voluntary communal taxation in self-governing kehillot, formalized as dues in the modern congregation. [ACADEMIC SOURCE]
+**Origin.** It began as voluntary communal taxation in self-governing kehillot, formalized as dues in the modern congregation. [ACADEMIC SOURCE]
 
 **What it was for.** A community with no state funding taxed itself to pay for schools, burial, welfare, and courts.
 
 **Why that reason expired.** The welfare functions largely moved to the state and to federations, but the pricing remained — and it is heaviest at the year's most emotionally loaded moment. Many congregations now use sliding scales, which is real reform and worth naming.
 
-**Who benefits now.** Congregational budgets. The cost is paid by the people who quietly stop coming because they cannot afford Yom Kippur.
+**Who benefits now.** Congregational budgets benefit. The cost is paid by the people who quietly stop coming because they cannot afford Yom Kippur.
 :::
 
 ::: cites
@@ -358,16 +358,16 @@ Sources for this section: [1]
 
 ### Children
 
-- Circumcision at eight days; naming rites; day-school and supplementary-school education attach identity early.
-- Bar/bat mitzvah at 12–13 marks legal obligation — a genuine coming-of-age rite that also formalizes duty before adult consent.
+- Circumcision at eight days, naming rites, and day-school and supplementary-school education attach identity early.
+- Bar and bat mitzvah (the coming-of-age rite for boys and girls) at 12–13 mark legal obligation. They are a genuine rite of passage that also formalizes duty before adult consent.
 - Day-school tuition is a defining economic pressure on Jewish families, and it binds parents to institutions financially. [FINANCIAL RECORD]
 - Youth movements and Israel trips build identity through peak experience — powerful, and in some programs explicitly designed to shape political and marital choices. [ACADEMIC SOURCE]
 
 ### Bodies
 
 - The agunah problem is the tradition's sharpest live coercion issue: Jewish divorce requires the husband to grant a get, and rabbinic courts control the remedy. Women have been chained for years. [ACADEMIC SOURCE / COURT RECORD]
-- Orthodox women cannot serve as witnesses, judges, or (in most streams) rabbis; mechitza seating and prayer-quorum exclusion are standard.
-- Niddah (menstrual separation) and mikveh practice place intimate life under halachic supervision — experienced by many as meaningful, and as surveillance by others.
+- Orthodox women cannot serve as witnesses, judges, or (in most streams) rabbis; mechitza seating (a partition separating men and women at prayer) and exclusion from the prayer quorum are standard.
+- Niddah (menstrual separation) and mikveh (ritual bath) practice place intimate life under halachic supervision. Many experience this as meaningful, and others as surveillance.
 - Liberal denominations ordain women and LGBTQ clergy and perform same-sex marriage; Orthodoxy generally does not. The contrast is the clearest natural experiment in this codex.
 
 ::: cites
@@ -383,7 +383,7 @@ Thirty named techniques from domestic-abuse and social-psychology research, appl
 ::: stage
 **You arrive with a need and are met with more warmth than you have had in years.**
 
-Shabbat tables, holiday warmth, intellectual seriousness, and the offer of belonging to an ancient people — powerful for anyone who feels rootless.
+The stage offers Shabbat (Sabbath) tables, holiday warmth, intellectual seriousness and the offer of belonging to an ancient people, which is powerful for anyone who feels rootless.
 
 *What it asks of you:* You were offered peoplehood. Notice how much harder that is to leave than a belief.
 :::
@@ -422,7 +422,7 @@ Shabbat tables, holiday warmth, intellectual seriousness, and the offer of belon
 
 **The counter.** Survival explains the structure. It does not automatically purify it. A community built for protection can still punish independence. If help becomes a claim on someone’s choices, marriage, belief, speech, or exit, then the shelter has begun charging rent in obedience.
 
-**Evidence grade.** [[Cultural]] Shabbat hospitality and communal warmth are practice, and among the least institutionally directed in the codex.
+**Evidence grade.** [[Cultural]] The help described (meals, hospital visits, burial societies, hosting) is given by congregations, families and volunteers; whether it later becomes conditional depends on synagogue politics and family pressure, and no written rule sets it.
 :::
 
 ### Stage 2 · Hook {#stage-2}
@@ -430,7 +430,7 @@ Shabbat tables, holiday warmth, intellectual seriousness, and the offer of belon
 ::: stage
 **You are given a future that cannot be verified, and a rope for whenever you drift toward the door.**
 
-The world to come, the redemption, the continuity of a people — none of it dated, all of it weighty. And retrieval that runs through the dead: your grandmother survived so you could be here.
+The promise is the world to come, the redemption and the continuity of a people, none of it dated and all of it weighty. The rope that pulls you back runs through the dead: your grandmother survived so you could be here.
 
 *What it asks of you:* Your ancestors' survival is real and it is yours. It is not a debt payable to any specific institution.
 :::
@@ -472,7 +472,7 @@ The world to come, the redemption, the continuity of a people — none of it dat
 
 **The counter.** Survival does not give a community ownership over an individual’s conscience. When ancestral suffering is used to make someone feel morally trapped in beliefs or practices they no longer hold, memory has become a leash.
 
-**Evidence grade.** [[Cultural]] Continuity and ancestral obligation are invoked familially; no body issues or enforces them.
+**Evidence grade.** [[Cultural]] The pull-back described comes from parents, grandparents, relatives and friends who invoke memory and continuity; no institution issues or enforces it.
 :::
 
 ### Stage 3 · Devalue {#stage-3}
@@ -480,9 +480,9 @@ The world to come, the redemption, the continuity of a people — none of it dat
 ::: stage
 **You are taught that you are broken, that your perception is unreliable, and that both exits from the trap lead back inside.**
 
-Not observant enough, not committed enough, not doing enough for continuity. In liberal communities this is mild; in observant ones it is constant and specific.
+You are told you are not observant enough, not committed enough, not doing enough for continuity. In liberal communities this is mild, and in observant ones it is constant and specific.
 
-*What it asks of you:* Ask whether the standard is halacha or the room's opinion of you.
+*What it asks of you:* Ask whether the standard is halacha (Jewish religious law) or the room's opinion of you.
 :::
 
 ::: tactic n=5
@@ -513,7 +513,7 @@ Not observant enough, not committed enough, not doing enough for continuity. In 
 **How it shows here**
 
 - A Jew says communal pressure feels suffocating, and the response is, “That is just responsibility to your people.”
-- Someone questions endogamy, synagogue politics, Zionism, anti-Zionism, conversion barriers, or inherited trauma narratives, and is told they are self-hating, assimilated, ignorant, or betraying ancestors.
+- Someone questions endogamy (marrying within the group), synagogue politics, Zionism, anti-Zionism, conversion barriers, or inherited trauma narratives, and is told they are self-hating, assimilated, ignorant, or betraying ancestors.
 - A person says, “I do not believe this,” and family responds, “Belief is not the point; you owe continuity.”
 - Moral discomfort is reframed as immaturity about survival.
 
@@ -521,7 +521,7 @@ Not observant enough, not committed enough, not doing enough for continuity. In 
 
 **The counter.** Memory can be true and still be weaponized. If ancestral suffering is used to invalidate present conscience, then history has stopped teaching and started controlling.
 
-**Evidence grade.** [[Contested]] Framing of insufficiency ranges from negligible in liberal denominations to constant in observant ones.
+**Evidence grade.** [[Contested]] The responses quoted (that pressure is just responsibility, that doubters are self-hating or ignorant, that belief is not the point) are family and community reactions that vary between communities, and no body prescribes them.
 :::
 
 ::: tactic n=7
@@ -539,7 +539,7 @@ Not observant enough, not committed enough, not doing enough for continuity. In 
 
 **The counter.** The Talmud preserves dissent; some communal gatekeepers punish it. The measure is not whether argument is praised in the study hall, but what happens to the arguer's standing, family, and children when the argument touches the institution's interests.
 
-**Evidence grade.** [[Codified]] Jewish divorce requires the husband's grant of a get; rabbinic courts hold the only remedy and have declined to compel — the bind is halachic and documented. *(sourced)*
+**Evidence grade.** [[Codified]] The canon's preservation of minority opinions and the conversion test of turning applicants away are written practices; the treatment of dissenters and leavers described here is communal and varies by community. *(sourced)*
 :::
 
 ### Stage 4 · Confuse {#stage-4}
@@ -559,15 +559,15 @@ Raise abuse or institutional politics and you are damaging the community, giving
 
 **How it shows here**
 
-- Communal honor is dispensed in variable portions — aliyot, board seats, shidduch references, the rabbi's regard — and families track an invisible index that responds to observance, donation, and deference.
-- The returnee to observance is feted early ('a holy neshama!'), then graded quietly forever; approval returns at unpredictable intervals, keyed to conformity nobody itemizes.
-- Blessing theology pays intermittently: prosperity confirms the community's path; hardship is a test or a summons to more mitzvot. Either way, the correct response is deeper investment.
+- Communal honor is dispensed in variable portions — aliyot (honors of being called up to the Torah reading), board seats, shidduch (matchmaking) references, the rabbi's regard — and families track an invisible index that responds to observance, donation, and deference.
+- The returnee to observance is feted early ('a holy neshama!', meaning a holy soul), then graded quietly forever; approval returns at unpredictable intervals, keyed to conformity nobody itemizes.
+- Blessing theology pays intermittently: prosperity confirms the community's path; hardship is a test or a summons to more mitzvot (commandments). Either way, the correct response is deeper investment.
 
 **The strongest defense.** Honoring donors and the observant is human social behavior, not a designed schedule.
 
 **The counter.** It is not designed by anyone — which is the point of institutional reinforcement: no designer is needed. The pattern still trains people, and the institution still collects the training. Undesigned does not mean unowned; ask who could randomize the rewards and chooses not to.
 
-**Evidence grade.** [[Contested]] Suppressing internal criticism by invoking antisemitism is a real communal dynamic, and is publicly opposed by Jewish writers and institutions.
+**Evidence grade.** [[Contested]] The rewards described (aliyot, board seats, references, regard) are dispensed informally by rabbis, boards and families, and the entry's own strongest defense concedes that no one designed the schedule.
 :::
 
 ::: tactic n=9
@@ -585,7 +585,7 @@ Raise abuse or institutional politics and you are damaging the community, giving
 
 **The counter.** Intergenerational belonging becomes moving the goalposts when there is always another duty required to prove loyalty to the people. If nothing a person does is enough to be allowed freedom, continuity has become debt.
 
-**Evidence grade.** [[Contested]] Suppressing internal criticism by invoking antisemitism is a real communal dynamic, and is publicly opposed by Jewish writers and institutions.
+**Evidence grade.** [[Contested]] The shifting standards described (holidays, synagogue membership, marrying Jewish, raising Jewish children, communal loyalty) are family and communal expectations that no body sets and that differ between communities.
 :::
 
 ::: tactic n=10
@@ -603,7 +603,7 @@ Raise abuse or institutional politics and you are damaging the community, giving
 
 **The counter.** Complexity becomes strategic ambiguity when identity shifts categories to prevent exit. If it is religion when authority is needed, culture when belief is refused, and peoplehood when guilt is needed, ambiguity has become a net.
 
-**Evidence grade.** [[Contested]] Suppressing internal criticism by invoking antisemitism is a real communal dynamic, and is publicly opposed by Jewish writers and institutions.
+**Evidence grade.** [[Contested]] The shifting categories described (religion, ethnicity, culture, peoplehood) are how Jewish identity is ordinarily described; whether they are used strategically in a given case is the contested question.
 :::
 
 ::: tactic n=11
@@ -622,7 +622,7 @@ Raise abuse or institutional politics and you are damaging the community, giving
 
 **The counter.** Responsibility becomes projection when the person naming harm is blamed for endangering the community. The person exposing the wound is not the wound.
 
-**Evidence grade.** [[Contested]] Suppressing internal criticism by invoking antisemitism is a real communal dynamic, and is publicly opposed by Jewish writers and institutions.
+**Evidence grade.** [[Contested]] The accusations described (betraying continuity, disrespecting ancestors, endangering the people) are responses to dissenters and critics that the entry describes as patterns, not as findings from a named document.
 :::
 
 ::: tactic n=12
@@ -654,14 +654,14 @@ Raise abuse or institutional politics and you are damaging the community, giving
 
 - Communal obligation becomes normalized through holidays, Hebrew school, synagogue life, bar/bat mitzvah expectations, marriage pressure, burial customs, and continuity language.
 - A person may become used to hearing that their individual choices affect ancestors, future children, Jewish survival, and the chain of generations.
-- Outsiders’ hostility can normalize internal silence: “Do not air problems publicly,” “antites will use this,” “protect the community.”
+- Outsiders’ hostility can normalize internal silence: “Do not air problems publicly,” “antisemites will use this,” “protect the community.”
 - Even nonbelieving Jews may be desensitized into participating because refusal feels like betrayal rather than honest difference.
 
 **The strongest defense.** Jewish continuity and communal memory are necessary after centuries of persecution.
 
 **The counter.** Memory becomes desensitization when people stop noticing that guilt is being used as governance. Survival history can be real and still be used to make personal autonomy feel immoral.
 
-**Evidence grade.** [[Contested]] Suppressing internal criticism by invoking antisemitism is a real communal dynamic, and is publicly opposed by Jewish writers and institutions.
+**Evidence grade.** [[Contested]] The normalization described runs through holidays, schooling, family expectation and communal warnings against airing problems publicly; it is a pattern of communal socialization that no body enforces.
 :::
 
 ### Stage 5 · Isolate {#stage-5}
@@ -669,7 +669,7 @@ Raise abuse or institutional politics and you are damaging the community, giving
 ::: stage
 **Your world narrows until every voice you hear is inside the system, and everything you came for now runs through a middleman.**
 
-Day-school tuition, communal networks, and in Israel, legal personal status. In observant communities, marriage prospects and standing run through the same institutions that instruct you.
+The middlemen are day-school tuition, communal networks and, in Israel, legal personal status. In observant communities, marriage prospects and standing run through the same institutions that instruct you.
 
 *What it asks of you:* Add up what your family's Jewish life costs annually. Ask who holds that leverage.
 :::
@@ -712,7 +712,7 @@ Day-school tuition, communal networks, and in Israel, legal personal status. In 
 
 **The counter.** Historical urgency does not erase consent. If ancestors and future children are placed on either side of a person until there is no room for their own conscience, continuity has become triangulation across time.
 
-**Evidence grade.** [[Codified]] Israel's Chief Rabbinate holds a statutory monopoly over Jewish marriage and divorce, and gatekeeping over Orthodox conversion and most burial. *(sourced)*
+**Evidence grade.** [[Codified]] Most intermediaries in this entry (parents, grandparents, rabbis, ancestors, Holocaust memory) act by custom; the one codified intermediary is Israel's Chief Rabbinate, which holds a statutory monopoly over Jewish marriage and divorce and gatekeeping over Orthodox conversion and most burial. *(sourced)*
 :::
 
 ### Stage 6 · Extract {#stage-6}
@@ -720,7 +720,7 @@ Day-school tuition, communal networks, and in Israel, legal personal status. In 
 ::: stage
 **Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
 
-Day-school tuition that reshapes a family's finances. High Holiday tickets at the year's most loaded moment. Kashrut certification fees across an entire food economy. In Israel, personal status routed through the Rabbinate whatever you believe. And the get: a woman's entire future held by a spiteful husband while the court declares itself unable.
+Day-school tuition reshapes a family's finances. High Holiday tickets are priced at the year's most loaded moment. Kashrut certification fees run across an entire food economy. In Israel, personal status is routed through the Rabbinate whatever you believe. And in the get, a woman's entire future is held by a spiteful husband while the court declares itself unable.
 
 *What it asks of you:* An institution that will not compel a man to release his wife has told you precisely where its authority ends and its convenience begins.
 :::
@@ -741,7 +741,7 @@ Day-school tuition that reshapes a family's finances. High Holiday tickets at th
 
 **The counter.** Continuity becomes FLYING MONKEY behavior when community members are used to override individual conscience. If everyone around the person becomes a messenger from ancestors, children, survival, and peoplehood, the person is not being loved. They are being managed through history.
 
-**Evidence grade.** [[Contested]] Tuition, dues, and certification are congregational and commercial; the Rabbinate monopoly and get problem are codified and separately sourced.
+**Evidence grade.** [[Contested]] The pressure described comes from parents, relatives, rabbis and friends acting on their own initiative; the entry describes a pattern, and no body directs it.
 :::
 
 ::: tactic n=17
@@ -760,7 +760,7 @@ Day-school tuition that reshapes a family's finances. High Holiday tickets at th
 
 **The counter.** That danger is real. But silence also protects abusers. If the fear of outsiders is used to smear insiders who name harm, communal survival has been placed above actual people.
 
-**Evidence grade.** [[Contested]] Tuition, dues, and certification are congregational and commercial; the Rabbinate monopoly and get problem are codified and separately sourced.
+**Evidence grade.** [[Contested]] The accusations described (self-hating, assimilated, ignorant, anti-community) are responses to critics and leavers that the entry describes as a pattern, not as a finding from a named document.
 :::
 
 ::: tactic n=18
@@ -779,7 +779,7 @@ Day-school tuition that reshapes a family's finances. High Holiday tickets at th
 
 **The counter.** The danger of antisemitism is real. But using outside hatred to silence inside victims makes the vulnerable pay for the community’s image. A wound hidden for survival still infects the body.
 
-**Evidence grade.** [[Contested]] Tuition, dues, and certification are congregational and commercial; the Rabbinate monopoly and get problem are codified and separately sourced.
+**Evidence grade.** [[Contested]] The refusal to engage described here happens inside communities and institutions, and the entry describes it as a pattern, without a published record of a particular case.
 :::
 
 ::: tactic n=19
@@ -798,7 +798,7 @@ Day-school tuition that reshapes a family's finances. High Holiday tickets at th
 
 **The counter.** Intergenerational identity becomes manufactured consent when the individual is never allowed to choose without being made responsible for ancestors and descendants. If the dead and unborn are placed in the room, the yes is crowded.
 
-**Evidence grade.** [[Contested]] Tuition, dues, and certification are congregational and commercial; the Rabbinate monopoly and get problem are codified and separately sourced.
+**Evidence grade.** [[Contested]] The shaping of choice described here is family and communal expectation; the entry describes a pattern, and no body issues or enforces it.
 :::
 
 ::: tactic n=20
@@ -817,7 +817,7 @@ Day-school tuition that reshapes a family's finances. High Holiday tickets at th
 
 **The counter.** Historical trauma is real. But it becomes TRAUMA BONDING when ancestral pain is used to make individual freedom feel like betrayal. If guilt creates distress and communal compliance relieves it, the attachment is being maintained through inherited fear.
 
-**Evidence grade.** [[Contested]] Tuition, dues, and certification are congregational and commercial; the Rabbinate monopoly and get problem are codified and separately sourced.
+**Evidence grade.** [[Contested]] The bond described runs through collective memory and family ritual; the entry describes a pattern that no body directs and that no source measures.
 :::
 
 ::: tactic n=21
@@ -836,7 +836,7 @@ Day-school tuition that reshapes a family's finances. High Holiday tickets at th
 
 **The counter.** Responsibility becomes LEARNED HELPLESSNESS when the individual is taught that no personal boundary can outweigh history. If the past always wins before the person speaks, agency has been buried under memory.
 
-**Evidence grade.** [[Contested]] Tuition, dues, and certification are congregational and commercial; the Rabbinate monopoly and get problem are codified and separately sourced.
+**Evidence grade.** [[Contested]] The helplessness described comes from repeated family and communal pull-back; the entry describes a pattern, and no body issues or enforces it.
 :::
 
 ::: tactic n=22
@@ -855,7 +855,7 @@ Day-school tuition that reshapes a family's finances. High Holiday tickets at th
 
 **The counter.** Survival becomes BENEVOLENT CONTROL when communal care overrides individual conscience. If your marriage, children, speech, and identity are managed for the group’s future, protection has become possession.
 
-**Evidence grade.** [[Contested]] Tuition, dues, and certification are congregational and commercial; the Rabbinate monopoly and get problem are codified and separately sourced.
+**Evidence grade.** [[Contested]] The care described is framed by families and communities as protection of children and of Jewish survival; whether it works as control is the contested question.
 :::
 
 ::: tactic n=23
@@ -874,7 +874,7 @@ Day-school tuition that reshapes a family's finances. High Holiday tickets at th
 
 **The counter.** Communal identity becomes INFANTILIZATION when adults are told they cannot be trusted with their own belonging. If every personal choice must be supervised by ancestors, children, rabbis, and survival anxiety, autonomy is treated as childishness.
 
-**Evidence grade.** [[Contested]] Tuition, dues, and certification are congregational and commercial; the Rabbinate monopoly and get problem are codified and separately sourced.
+**Evidence grade.** [[Contested]] The treatment described (adults told they cannot grasp the weight of history) occurs in families and communities; the entry describes a pattern that no body prescribes.
 :::
 
 ::: tactic n=24
@@ -894,7 +894,7 @@ Day-school tuition that reshapes a family's finances. High Holiday tickets at th
 
 **The counter.** Intergenerational identity becomes IDENTITY EROSION when the person becomes a vessel for continuity. If your body, children, marriage, grief, and speech are governed by the survival of the people, the self has been drafted into history.
 
-**Evidence grade.** [[Contested]] Tuition, dues, and certification are congregational and commercial; the Rabbinate monopoly and get problem are codified and separately sourced.
+**Evidence grade.** [[Contested]] The erosion described is an effect of communal and family expectation; no body sets it, and no published record measures it.
 :::
 
 ::: tactic n=25
@@ -914,7 +914,7 @@ Day-school tuition that reshapes a family's finances. High Holiday tickets at th
 
 **The counter.** Memory becomes SPIRITUAL BYPASSING when it makes present pain unspeakable. If ancestral suffering is used to dismiss the suffering of living people, history has become an avoidance strategy.
 
-**Evidence grade.** [[Contested]] Tuition, dues, and certification are congregational and commercial; the Rabbinate monopoly and get problem are codified and separately sourced.
+**Evidence grade.** [[Contested]] The bypassing described, in which continuity or the ancestors are cited in place of present pain and abuse, is a pattern of response that the entry describes without a named document.
 :::
 
 ::: tactic n=26
@@ -941,7 +941,7 @@ Day-school tuition that reshapes a family's finances. High Holiday tickets at th
 ::: stage
 **You become expensive — too many questions, too much independence — and the urgency ramps up until you are removed.**
 
-In liberal Judaism, honestly, very little. In observant communities and in Israeli personal status: rejected conversions, denied marriages, communal exclusion. The agunah is the sharpest case — punished by remaining married.
+In liberal Judaism, honestly, there is very little. In observant communities and in Israeli personal status there are rejected conversions, denied marriages and communal exclusion. The agunah is the sharpest case, punished by remaining married.
 
 *What it asks of you:* The asymmetry across denominations is the proof. Where authority is not backed by force, exit is cheap.
 :::
@@ -962,7 +962,7 @@ In liberal Judaism, honestly, very little. In observant communities and in Israe
 
 **The counter.** Real threat becomes MANUFACTURED CRISIS when it is used to suspend personal autonomy. If every private choice is framed as helping assimilation or enemies, survival language has become control language.
 
-**Evidence grade.** [[Contested]] Exit is genuinely low-cost in liberal Judaism and high-cost where authority is state-backed. The asymmetry is the evidence.
+**Evidence grade.** [[Contested]] The crisis language described (assimilation panic, demographic anxiety, antisemitism, 'breaking the chain') comes from communal and family speech; the real threat of antisemitism is the ground on which the technique is contested.
 :::
 
 ::: tactic n=28
@@ -1010,7 +1010,7 @@ In liberal Judaism, honestly: very little happens, and you may go on being Jewis
 
 **The counter.** Continuity becomes REPLACEMENT when people are valued by how well they preserve the group. If the person who leaves is mourned mainly as a broken link, they were being treated as function, not self.
 
-**Evidence grade.** [[Cultural]] Authority is dispersed across denominations with no central body, which is why halachic pluralism functions as its own deniability.
+**Evidence grade.** [[Cultural]] Replacement here is a family and communal habit of contrasting the person who leaves with siblings and peers, and no body carries it out.
 :::
 
 ::: tactic n=30
@@ -1039,46 +1039,162 @@ Sources for this section: [1] [4]
 
 ## 13. The loops {#loops}
 
+::: lede
+The seven loops below show how the practices connect, so that each step makes the next one easier and the last step feeds the first. The loops are analysis built from findings recorded elsewhere on this page [PATTERN OBSERVED]; each step names the section or technique where its fact is recorded.
+:::
+
 ::: card
 #### 1 · Money to Doctrine to Money
 
 Dues, tuition, and certification fees fund the institutions that define the obligations, and the definitions do not shrink.
+
+**How it runs.**
+
+1. Congregations, day schools and certifying agencies charge synagogue dues, tuition and certification fees (section 9).
+2. Those fees fund the institutions that define what a Jewish household is expected to attend, pay for and observe (sections 7 and 9).
+3. The obligations do not shrink. Certification claims overlap, and day-school tuition builds into six-figure cumulative costs (section 9).
+4. The costs bind families to the institutions: tuition binds parents financially, and the school gains leverage over them (sections 9 and 11).
+5. Families who stay go on paying, and the fees fund the next round of obligations.
+
+**Techniques that feed it.** [2 · Weaponized Generosity](#t-2), [22 · Benevolent Control](#t-22), [26 · Financial Control](#t-26).
+
+**Why it closes.** The bodies that set the obligations also collect the fees that sustain them, and the scorecard finds accounts only partly public (section 1, Accounts: P). A family cannot see where the money goes before it decides whether to pay.
+
+**Where it could be broken, and by whom.** It weakens wherever the money becomes visible. The United Synagogue publishes its accounts as a registered charity (section 9), many congregations now offer sliding scales (section 9), and certifiers could disclose the fee schedules and advisory pay that section 9 records as hidden. A family can ask for those before paying. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** The composite day in section 2 shows it at small scale: Rachel and David run the tuition numbers again, $34,000 a year for two children, more than the mortgage, and agree that they could send the girls to public school without either of them meaning it.
 :::
 
 ::: card
 #### 2 · Fear to Dependence to Fear
 
 In observant communities, fear of communal standing does the work; in liberal ones this loop barely runs, which is the evidence.
+
+**How it runs.**
+
+1. Standing in a community is dispensed in variable portions (aliyot, board seats, shidduch references, the rabbi's regard), and families track an invisible index that responds to observance, donation and deference (technique 8).
+2. Doubt or departure is framed as selfishness, assimilation or betrayal of the ancestors (technique 5).
+3. Marriage prospects and standing run through the same institutions that instruct the member (section 12, stage 5; technique 14).
+4. Approval returns at unpredictable intervals, keyed to a conformity nobody itemizes (technique 8).
+5. Fear of losing standing pushes the member toward deeper investment, which raises what there is to lose (technique 8).
+
+**Techniques that feed it.** [5 · Devaluation](#t-5), [7 · Double Bind](#t-7), [8 · Intermittent Reinforcement](#t-8), [14 · Isolation](#t-14).
+
+**Why it closes.** The institutions that hand out standing are the ones that instruct, and the only honored position is inside and agreeing (technique 7). Devaluation creates the need for approval, Intermittent Reinforcement meters it, Isolation removes the alternatives, and the Double Bind makes disagreement costly.
+
+**Where it could be broken, and by whom.** It weakens where leaving costs little. Section 15 records that in liberal communities the institutional cost of leaving is low, and section 12 (stage 7) notes that where authority is not backed by force, exit is cheap. Standing that does not depend on one community's approval breaks the first step. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Technique 8 describes the returnee to observance who is feted early as 'a holy neshama!', then graded quietly forever.
 :::
 
 ::: card
 #### 3 · Children to Members to Children
 
 Day schools and youth movements form identity early, and the tuition binds the parents to the institution financially.
+
+**How it runs.**
+
+1. Circumcision at eight days, naming rites, and day-school and supplementary-school education attach identity early (section 11).
+2. Bar and bat mitzvah at 12–13 formalize legal obligation before adult consent (section 11).
+3. Youth movements and Israel trips build identity through peak experience, in some programs designed to shape political and marital choices (section 11).
+4. Parents pay the tuition, which binds them to the institutions financially (sections 9 and 11).
+5. The tradition asks each generation to marry within and raise Jewish children, and the cycle begins again (technique 3).
+
+**Techniques that feed it.** [3 · Future Faking](#t-3), [13 · Normalization / Desensitization](#t-13), [19 · Manufactured Consent](#t-19), [26 · Financial Control](#t-26).
+
+**Why it closes.** Each generation is placed inside the institutions before it can compare them, and its parents pay to keep it there. Marrying within and raising Jewish children is presented as the way the people survive (technique 3), so the loop continues unless someone decides to stop it.
+
+**Where it could be broken, and by whom.** It weakens where a child's place does not depend on the parents' standing. Section 18 names the refusal open to day-school heads: to let a child's place depend on a parent's communal standing. That choice sits with school heads and boards. A parent can also ask what conditions attach to enrolment. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** In section 2, the girls' entire world is at the school, and everyone they will ever marry is there.
 :::
 
 ::: card
 #### 4 · Aid to Legitimacy to Leverage to Aid
 
 Communal philanthropy and Israel advocacy generate standing that becomes coalition leverage and statutory privilege.
+
+**How it runs.**
+
+1. Communities give real mutual aid: meals after birth or death, hospital visits, burial societies and education funds (technique 2).
+2. Federations and mega-donors fund communal welfare and Israel support (section 9).
+3. That giving earns disproportionate influence over communal policy, institutions and speech norms (sections 7 and 9).
+4. In Israel, religious parties convert a communal bloc vote into state budgets, draft exemptions and control of personal-status law (section 16).
+5. Statute and budgets keep religious authority state-backed, as they have since the 1953 law (sections 5 and 10).
+
+**Techniques that feed it.** [2 · Weaponized Generosity](#t-2), [22 · Benevolent Control](#t-22), [26 · Financial Control](#t-26), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** The aid is the source of the standing, and the standing is what protects the authority that the aid supports. Each step makes the next easier, and the last returns to the first.
+
+**Where it could be broken, and by whom.** Section 5 names the point of intervention: the 1953 law was passed by a parliament and can be amended by one, and section 8 lists the Knesset and the High Court of Justice as the bodies that can compel an answer. Federations and donors could also publish who funds what; that lies with them. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** The 'Who holds what' table in section 7 lists religious political parties as holding coalition leverage converted into budgets, exemptions and control of personal-status law.
 :::
 
 ::: card
 #### 5 · Unpaid Labor to Assets to Power to More Labor
 
 Volunteers and staff build institutions governed by boards drawn from the donor class.
+
+**How it runs.**
+
+1. Members give time as well as money. Community members enforce marriage and observance norms socially, without being asked (section 15; technique 16).
+2. Rabbis, school heads and federation professionals do the institutional work while depending on boards and donors for employment (section 18).
+3. Boards are constituted by major funders (section 14).
+4. Donors shape communal policy and speech norms, and institutions that depend on a handful of funders learn what not to say (section 16).
+5. In some communities social standing tracks philanthropy, school access or donor influence (technique 26), and the institutions go on relying on people who depend on that donor class.
+
+**Techniques that feed it.** [16 · Flying Monkeys](#t-16), [22 · Benevolent Control](#t-22), [26 · Financial Control](#t-26).
+
+**Why it closes.** Those who do the work do not appoint the boards, and those who appoint the boards are the funders. Value flows toward the donor class, and the people who staff the institutions have reason not to cross it.
+
+**Where it could be broken, and by whom.** Section 18 names the refusals available in the middle: a federation professional could refuse to let a single funder set the community's public position, and a rabbi could refuse to treat a get refusal as a private matter. Changing who appoints the boards, which section 14 names, would reach the source. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 14 records the result: institutional abuse cases resolved by the individual's departure, with donor governance unchanged.
 :::
 
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
 An institutional abuse case produces a resignation and a statement; donor structures and governance remain.
+
+**How it runs.**
+
+1. Communal reputation pressure discourages public discussion of abuse and of internal politics, particularly where donors and institutions overlap (section 11).
+2. Reputation management around abuse runs inside the institution, and batei din proceedings are private (section 15).
+3. The case ends with the individual's departure (section 14).
+4. A review or statement follows; section 14 predicts a resignation, a review and no change to who appoints the board.
+5. Donor governance stays unchanged (section 14), and abuse survivors carry the cost (sections 16 and 17).
+
+**Techniques that feed it.** [12 · DARVO](#t-12), [17 · Smear Campaign](#t-17), [18 · Silent Treatment / Stonewalling](#t-18), [25 · Spiritual Bypassing](#t-25), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** Accountability stops at the individual. Removing one person answers the demand for action without reaching the board that appoints and funds the institution, so the structure that produced the case survives it.
+
+**Where it could be broken, and by whom.** Section 14 names what would change it: a change in who appoints the board. Section 8 lists who can compel an answer, which is charity regulators over communal institutions and education authorities over schools, and section 23 (question 5) suggests asking for an institution's abuse-reporting policy in writing. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 17 lists abuse survivors in institutions among those who carry the weight, and notes that the harm compounds where the accused is a major funder.
 :::
 
 ::: card
 #### 7 · Persecution to Solidarity to Insulation to Unaccountability
 
 Antisemitism is real, current, and lethal — and it is the most effective silencer ever handed to a Jewish institution.
+
+**How it runs.**
+
+1. Antisemitism is real, and antisemitic movements have always begun by describing Jewish institutions as sinister (section 3).
+2. Internal criticism is met with the answer that it gives ammunition to antisemites (techniques 12 and 17).
+3. Communal leaders may handle issues internally to avoid antisemitic misuse of the scandal, and members are pressed not to speak publicly (techniques 16 and 18).
+4. With no outside scrutiny, the institution's conduct goes unexamined and reputation outweighs reporting (sections 11 and 16).
+5. The next critic meets the same answer (technique 27).
+
+**Techniques that feed it.** [11 · Projection](#t-11), [12 · DARVO](#t-12), [17 · Smear Campaign](#t-17), [18 · Silent Treatment / Stonewalling](#t-18), [27 · Manufactured Crisis](#t-27).
+
+**Why it closes.** The more real the external threat, the stronger the reason given for silence, and the silence protects the conduct that critics name. The threat is genuine, so the rule is hard to challenge without seeming to ignore it.
+
+**Where it could be broken, and by whom.** Section 3 answers it directly: naming a woman chained by get refusal is not an antisemitic act, and the agunah is named by Orthodox women and their rabbinic advocates. Section 10 records that rabbis have ruled internally that abuse reporting is not mesirah. Both come from inside the community. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Technique 12 quotes the response to a person who names abuse: 'You are giving ammunition to antisemites.'
 :::
 
 ## 14. Say versus do {#say-do}
@@ -1093,9 +1209,9 @@ Antisemitism is real, current, and lethal — and it is the most effective silen
 
 ### Accountability or theatre?
 
-**Last time the chair ran.** Institutional abuse cases resolved by the individual's departure, with donor governance unchanged.
+**Last time the chair ran.** Institutional abuse cases were resolved by the individual's departure, with donor governance unchanged.
 
-**Who holds the chair now.** The Rabbinate's statutory monopoly, and boards constituted by major funders.
+**Who holds the chair now.** The Rabbinate's statutory monopoly holds it, and so do boards constituted by major funders.
 
 **Prediction.** The next case will end with a resignation, a review, and no change to who appoints the board.
 
@@ -1103,9 +1219,9 @@ Antisemitism is real, current, and lethal — and it is the most effective silen
 
 | Term | What it means inside | What it does | Said plainly |
 |---|---|---|---|
-| Get refusal / agunah | A husband withholding a religious divorce, leaving a wife chained. | The tradition's own courts hold the key and have overwhelmingly declined to make its use obligatory. The word names a condition and quietly omits the agent. | 'A man is doing this, and the vocabulary will not say so.' |
-| Lashon hara | Evil speech — true but damaging talk about another. | A serious and genuinely admirable ethical discipline. As an instrument it makes accurate reporting of institutional wrongdoing a sin in itself. | 'It is true and you may not say it.' |
-| Shalom bayis | Peace in the home. | A real value, deployed to keep a woman in a household where the peace is being maintained by her alone. | 'Do not disrupt this, whatever it costs you.' |
+| Get refusal / agunah | The terms mean a husband withholding a religious divorce, leaving a wife chained. | The tradition's own courts hold the key and have overwhelmingly declined to make its use obligatory. The word names a condition and quietly omits the agent. | 'A man is doing this, and the vocabulary will not say so.' |
+| Lashon hara | The term means evil speech, which is true but damaging talk about another. | It is a serious and genuinely admirable ethical discipline. As an instrument it makes accurate reporting of institutional wrongdoing a sin in itself. | 'It is true and you may not say it.' |
+| Shalom bayis | The term means peace in the home. | It is a real value, deployed to keep a woman in a household where the peace is being maintained by her alone. | 'Do not disrupt this, whatever it costs you.' |
 
 ::: cites
 Sources for this section: [3]
@@ -1115,17 +1231,17 @@ Sources for this section: [3]
 
 ### What leaving costs
 
-- From liberal communities: low institutional cost. From Orthodox communities: see next profile.
+- Leaving a liberal community carries a low institutional cost. The cost of leaving an Orthodox community is set out in the profile of Orthodox and Hasidic Judaism.
 - The agunah problem: because Jewish divorce requires the husband's grant of a get, recalcitrant husbands can chain wives indefinitely — rabbinic courts control the remedy. [ACADEMIC SOURCE / COURT RECORD]
 
 ### The ledger of exit
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Family and community (liberal streams) | Usually low | Ordinary relational friction; no formal sanction | Accurately: leaving really is low-cost here. |
+| Family and community (liberal streams) | The cost is usually low. | The cost is ordinary relational friction, with no formal sanction. | The denial is accurate: leaving really is low-cost here. |
 | Personal status (Israel) | Yes | Marriage, divorce, and burial run through the Rabbinate regardless of belief | “It's a civil arrangement, not coercion.” |
-| Marriage freedom (agunah) | Yes | Get refusal; rabbinic courts hold the only remedy | “The court cannot force a husband.” |
-| Conversion recognition | Yes | Non-Orthodox conversions rejected for Israeli personal-status purposes | “Standards, not exclusion.” |
+| Marriage freedom (agunah) | Yes | A husband can refuse a get, and rabbinic courts hold the only remedy. | “The court cannot force a husband.” |
+| Conversion recognition | Yes | Non-Orthodox conversions are rejected for Israeli personal-status purposes. | “Standards, not exclusion.” |
 
 ### How the cost is denied
 
@@ -1148,8 +1264,8 @@ Sources for this section: [1] [4] [5]
 
 ### Who benefits
 
-- Israel's Chief Rabbinate and religious parties: state salaries, budgets, and coalition leverage in exchange for political support. [OFFICIAL POLICY / INVESTIGATIVE REPORT]
-- Certification agencies; communal gatekeepers of conversion and status.
+- Israel's Chief Rabbinate and religious parties benefit, receiving state salaries, budgets and coalition leverage in exchange for political support. [OFFICIAL POLICY / INVESTIGATIVE REPORT]
+- Certification agencies benefit, as do communal gatekeepers of conversion and status.
 
 ### Money out, leverage back
 
@@ -1159,24 +1275,26 @@ Sources for this section: [1] [4] [5]
 
 ### Who pays
 
-- Agunot — women denied divorce, sometimes for decades.
-- Israelis of any belief who cannot marry, divorce, or be buried outside Rabbinate control.
-- Converts whose status is questioned or revoked by later authorities.
-- LGBTQ Jews in Orthodox communities.
-- Families crushed by day-school tuition.
-- Abuse survivors in institutions where donor and communal reputation outweighed reporting.
+- Agunot, the women denied divorce, pay, sometimes for decades.
+- Israelis of any belief pay when they cannot marry, divorce or be buried outside Rabbinate control.
+- Converts pay when their status is questioned or revoked by later authorities.
+- LGBTQ Jews in Orthodox communities pay.
+- Families pay, crushed by day-school tuition.
+- Abuse survivors pay, in institutions where donor and communal reputation outweighed reporting.
 
 ## 17. Who gets hurt most {#who-gets-hurt}
 
 ### Where the weight lands
 
+The costs described in section 15 do not fall evenly. The table names who carries the most, how the weight reaches them, and what makes it worse.
+
 | Who | How | What it compounds with |
 |---|---|---|
-| Agunot | Chained in marriage by a spiteful husband while the only remedy sits unused | With children, poverty, and communal pressure to settle |
-| Israelis of any belief | Marriage, divorce, and burial routed through religious authority regardless of conviction | For LGBTQ couples and non-Orthodox converts, for whom the route simply does not exist |
-| Converts | Status questioned or revoked retroactively by later authorities | For their children, whose Jewishness becomes contingent |
-| Families under tuition load | Six figures per child, structurally, with communal standing attached | On a single income, or with more than three children |
-| Abuse survivors in institutions | Reputation management by bodies dependent on the same donors | Where the accused is a major funder |
+| Agunot | They are chained in marriage by a spiteful husband while the only remedy sits unused. | The harm compounds with children, poverty and communal pressure to settle. |
+| Israelis of any belief | Their marriage, divorce and burial are routed through religious authority regardless of conviction. | It compounds for LGBTQ couples and non-Orthodox converts, for whom the route simply does not exist. |
+| Converts | Their status is questioned or revoked retroactively by later authorities. | It compounds for their children, whose Jewishness becomes contingent. |
+| Families under tuition load | They face six figures per child, structurally, with communal standing attached. | It compounds on a single income, or with more than three children. |
+| Abuse survivors in institutions | They face reputation management by bodies dependent on the same donors. | It compounds where the accused is a major funder. |
 
 ### From The Women's Codex
 
@@ -1188,13 +1306,15 @@ Sources for this section: [1] [4] [5]
 
 ## 18. The middle tiers {#tiers}
 
+Most of the institution's work is done below the top offices, by people who see decisions they did not make. The table names five middle roles, what each does, what each sees, what each is asked to do, and what each could refuse.
+
 | Role | Does | Sees | Is asked to | Could refuse |
 |---|---|---|---|---|
-| Congregational rabbis | Holds the pastoral relationship and depends on the board for employment | Which families the institution cannot afford to upset | To manage rather than escalate | To officiate as though a get refusal were a private matter |
-| Day-school heads and teachers | Educates and depends on tuition and donors | Which families are drowning financially and will not say | To collect | To let a child's place depend on a parent's communal standing |
-| Dayanim and beit din clerks | Administers the get process | Exactly how long a woman has been waiting | To follow precedent | To decline to impose a sanction that is available |
-| Kashrut supervisors | Signs the certification | The fee structure and the duplication | To keep the arrangement | To certify for a firm that also employs them |
-| Federation professionals | Allocates communal funding | Which donor preferences shape which programmes | To avoid controversy | To let a single funder set the community's public position |
+| Congregational rabbis | Hold the pastoral relationship and depend on the board for employment | Which families the institution cannot afford to upset | Manage rather than escalate | To officiate as though a get refusal were a private matter |
+| Day-school heads and teachers | Educate and depend on tuition and donors | Which families are drowning financially and will not say | Collect | To let a child's place depend on a parent's communal standing |
+| Dayanim and beit din clerks | Administer the get process | Exactly how long a woman has been waiting | Follow precedent | To follow precedent by declining to impose a sanction that is available |
+| Kashrut supervisors | Sign the certification | The fee structure and the duplication | Keep the arrangement | To certify for a firm that also employs them |
+| Federation professionals | Allocate communal funding | Which donor preferences shape which programmes | Avoid controversy | To let a single funder set the community's public position |
 
 ## 19. Documented cases {#cases}
 
@@ -1211,7 +1331,7 @@ Sources for this section: [1] [4] [5]
 ::: case
 ### Conversions recognized (Israel, 2021)
 - **when:** 2021
-- **what:** Reform and Conservative converts in Israel had been excluded from citizenship under the Law of Return [2].
+- **what:** Reform and Conservative converts in Israel had been excluded from citizenship under the Law of Return (the Israeli law that lets Jews immigrate and take citizenship) [2].
 - **record:** High Court of Justice, 1 March 2021 (8–1) [2]
 - **outcome:** Their conversions now count for citizenship [2].
 - **tactics:** 14, 24
@@ -1234,10 +1354,10 @@ Sources for this section: [1] [4] [5]
 
 | What | Who | When | What it cost |
 |---|---|---|---|
-| Halachic prenuptial agreements now standard in much of Modern Orthodoxy | Agunah advocates and rabbis who adopted them | 1990s–present | Decades of resistance from senior authorities |
-| Women's ordination in liberal denominations | Reform, Conservative, and Reconstructionist movements | 1972 onward | Permanent breach with Orthodoxy |
-| Sliding-scale and no-ticket High Holiday access | Congregations that decided worship should not be priced | 2000s–present | Real budget pressure |
-| Canonized dissent — the losing opinion preserved on the page | The tradition itself | Two thousand years | None, and it is the tradition's greatest structural asset |
+| Halachic prenuptial agreements now standard in much of Modern Orthodoxy | Agunah advocates and rabbis who adopted them | 1990s–present | It took decades of resistance from senior authorities. |
+| Women's ordination in liberal denominations | Reform, Conservative, and Reconstructionist movements | 1972 onward | It cost a permanent breach with Orthodoxy. |
+| Sliding-scale and no-ticket High Holiday access | Congregations that decided worship should not be priced | 2000s–present | It brought real budget pressure. |
+| Canonized dissent — the losing opinion preserved on the page | The tradition itself | Two thousand years | It cost nothing, and it is the tradition's greatest structural asset. |
 
 ### What would change this page
 
@@ -1249,40 +1369,40 @@ Sources for this section: [7] [8] [9] [12]
 
 ## 21. Voices from inside {#voices}
 
-- **Rabbi Sally Priesand.** The first woman ordained a rabbi in America (1972) [9].
-- **Women of the Wall.** Since 1988, women praying aloud with Torah scrolls, prayer shawls and tefillin at the Western Wall [15].
-- **ORA, the Organization for the Resolution of Agunot.** Advocates for women whose husbands refuse a *get* [16].
-- **The parents in the JFS case,** who took a Jewish school's admissions policy to the Supreme Court [13].
+- **Rabbi Sally Priesand.** She was the first woman ordained a rabbi in America (1972), by Hebrew Union College [9].
+- **Women of the Wall.** Since 1988, these women have prayed aloud at the Western Wall with Torah scrolls, prayer shawls and tefillin (leather prayer boxes worn on the arm and head) [15].
+- **ORA, the Organization for the Resolution of Agunot.** It advocates for women whose husbands refuse a *get* [16].
+- **The parents in the JFS case** took a Jewish school's admissions policy to the Supreme Court, which held, 5–4, that it discriminated on grounds of ethnic origin (section 19) [13].
 
 ## 22. Regional variants {#regional}
 
 ::: card
 ### Israel
-- **apex:** Two chief rabbis, elected for ten years — David Yosef and Kalman Ber (2024) [6].
-- **law:** Exclusive rabbinical jurisdiction over marriage and divorce [1]; recognition of foreign and online marriages [3].
-- **documented:** The 2021 conversions ruling [2]; the 2021 *get* law [5].
+- **apex:** The apex is two chief rabbis, David Yosef and Kalman Ber, elected in 2024 for ten years [6].
+- **law:** Rabbinical courts have exclusive jurisdiction over marriage and divorce [1], and foreign and online marriages are recognized [3].
+- **documented:** The record includes the 2021 conversions ruling [2] and the 2021 *get* law [5].
 - **exit:** Leaving religious life is legally free; marrying outside the Rabbinate means marrying abroad or online [3].
-- **regulator:** The Knesset and the High Court of Justice [2][3].
-- **tell:** A democracy in which the state's own courts keep opening doors the state's own rabbinate holds shut.
+- **regulator:** The regulators are the Knesset and the High Court of Justice [2][3].
+- **tell:** Israel is a democracy in which the state's own courts keep opening doors that the state's own rabbinate holds shut.
 :::
 
 ::: card
 ### United States
-- **apex:** None; each movement and congregation governs itself.
+- **apex:** There is none; each movement and congregation governs itself.
 - **law:** Religious divorce is private; prenuptial agreements are enforced as arbitration [7].
-- **documented:** The RCA's 2006 resolution on prenups [8].
-- **exit:** Legally free; for Haredi communities, see Orthodox & Hasidic Judaism.
-- **regulator:** Civil courts, through arbitration and contract law [7].
+- **documented:** The record is the RCA's 2006 resolution on prenups [8].
+- **exit:** Leaving is legally free; for Haredi communities, see Orthodox & Hasidic Judaism.
+- **regulator:** Civil courts regulate, through arbitration and contract law [7].
 - **tell:** The most effective protection against *get* refusal here is a contract signed before the wedding.
 :::
 
 ::: card
 ### United Kingdom
-- **apex:** The Chief Rabbi for the United Synagogue; separate authorities for other movements [13].
+- **apex:** The Chief Rabbi leads the United Synagogue, and other movements have separate authorities [13].
 - **law:** Equality law applies to Jewish schools [13].
-- **documented:** The JFS judgment (2009) [13]; the United Synagogue's public accounts [14].
-- **exit:** Legally free.
-- **regulator:** The Charity Commission and the courts [13][14].
+- **documented:** The record includes the JFS judgment (2009) [13] and the United Synagogue's public accounts [14].
+- **exit:** Leaving is legally free.
+- **regulator:** The Charity Commission and the courts regulate [13][14].
 - **tell:** A court held that admitting children by descent was, in law, discrimination by ethnic origin [13].
 :::
 
@@ -1313,7 +1433,7 @@ Practical guidance, not legal advice.
 2. **If you are marrying,** sign a halakhic prenuptial agreement [7][8].
 3. **If your spouse refuses a *get*,** get specialist help early [16][18].
 4. **In Israel,** you can marry abroad or online and register the marriage [3].
-5. **Find support** [17][18][19].
+5. **Find support** from the organizations in section 25 [17][18][19].
 
 ## 25. Where to get help {#help}
 
