@@ -18,13 +18,13 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | ~1.1–1.2 billion. [ACADEMIC SOURCE: Pew, Indian census] |
-| Who's in charge | The Shankaracharya seats — Four historic thrones carrying immense prestige and no command; no office speaks for the tradition |
-| Chosen by / removable by | Lineage designation / — |
-| Money in one line | Temple economies: India's richest temples (Tirupati, Padmanabhaswamy, Shirdi) hold assets in the billions; many major temples are administered by state governments — governments literally managing and drawing on temple wealth. [FINANCIAL RECORD / OFFICIAL POLICY: state temple endowment acts] |
+| Size | Hinduism has ~1.1–1.2 billion adherents. [ACADEMIC SOURCE: Pew, Indian census] |
+| Who's in charge | The Shankaracharya seats, four historic monastic thrones (mathas), carry immense prestige and no command, and no office speaks for the tradition. |
+| Chosen by / removable by | Lineage designation / No removal procedure is recorded. |
+| Money in one line | The money sits in temple economies. India's richest temples (Tirupati, Padmanabhaswamy, Shirdi) hold assets in the billions; many major temples are administered by state governments — governments literally managing and drawing on temple wealth. [FINANCIAL RECORD / OFFICIAL POLICY: state temple endowment acts] |
 | Leaving in one line | Caste operates as a birth-assigned enforcement grid; inter-caste marriage still triggers ostracism and violence in documented cases. [GOVERNMENT REPORT / COURT RECORD: honor-killing prosecutions] |
 | The unanswered question | Untouchability has been unconstitutional since 1950. Which religious authority has ever taken responsibility for what doctrine sanctified? |
-| Evidence | 7 of 30 techniques sourced to a named document; grades: Cultural 21, Taught 6, Documented 2, Codified 1 |
+| Evidence | Seven of the 30 techniques are sourced to a named document. The grades are Cultural 21, Taught 6, Documented 2 and Codified 1. |
 | Family | Dharmic — hinduism, hare-krishna, sikhism, jainism |
 | Last checked | 2026-09-27 |
 :::
@@ -41,15 +41,15 @@ partial: []
 
 *Lakshmi · A Tuesday before Diwali · A district town in southern India*
 
-Up at five to sweep the threshold and draw the kolam, which her mother taught her and which she will teach her daughter, and which is the small daily beauty she would defend against any argument in any language.
+Up at five to sweep the threshold and draw the kolam (the pattern traced at the threshold each morning), which her mother taught her and which she will teach her daughter, and which is the small daily beauty she would defend against any argument in any language.
 
-The priest comes at seven for the monthly puja. Two hundred rupees, which is not the problem. The problem is that the amount was two hundred last year and is two hundred and fifty this year and nobody discusses it, and that her husband's family has used this priest for four generations and there is no other priest, because this is his family's right.
+The priest comes at seven for the monthly puja (ritual worship). Two hundred rupees, which is not the problem. The problem is that the amount was two hundred last year and is two hundred and fifty this year and nobody discusses it, and that her husband's family has used this priest for four generations and there is no other priest, because this is his family's right.
 
 At the office a colleague asks, in the way people ask, what her surname is. Lakshmi gives it. She watches the calculation happen behind the woman's eyes and she watches it complete. Nothing changes in the conversation. Everything is now settled.
 
 Her daughter Meena is nineteen and in love with a boy from the wrong street. Lakshmi knows about it because a neighbour told her, kindly, as a warning. She has not told her husband. She lies awake at night doing the arithmetic of what will happen if she tells him and what will happen if she doesn't and both columns end somewhere she cannot look at directly.
 
-At lunch she reads on her phone that the temple trust in the next district has assets worth crores and that the state has moved some of it, and she thinks of the gold bangles her mother-in-law gave to that temple in 1998 for her son's health, and then she stops thinking about it because there is nothing to do with the thought.
+At lunch she reads on her phone that the temple trust in the next district has assets worth crores (a crore is ten million rupees) and that the state has moved some of it, and she thinks of the gold bangles her mother-in-law gave to that temple in 1998 for her son's health, and then she stops thinking about it because there is nothing to do with the thought.
 
 In the evening she lights the lamp and the whole room changes, the way it has changed every evening of her life, and she says the words her grandmother said. Then Meena comes in and asks if she can go out on Saturday and Lakshmi says *with whom* in a voice she has never used with her daughter before, and hears her mother-in-law in it, and hates it, and does not take it back.
 
@@ -75,7 +75,7 @@ Untouchability has been unconstitutional since 1950. Which religious authority h
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Caste standing | Yes | Birth-assigned; inter-caste marriage triggers ostracism and documented violence | “Caste is a social system, not religion.” |
+| Caste standing | Yes | Caste is assigned at birth, and inter-caste marriage triggers ostracism and documented violence. | “Caste is a social system, not religion.” |
 
 ### The strongest objection, answered
 
@@ -83,7 +83,7 @@ Untouchability has been unconstitutional since 1950. Which religious authority h
 
 **What is true in it.** There genuinely is no central authority, no membership, and no body that can excommunicate anyone. And caste practice does vary enormously by region and community.
 
-**The answer.** Decentralization is not an alibi, it is a deniability structure — and the codex says so rather than pretending otherwise. On caste: the text that ranks people is scripture and the constitution that unranked them is not. The anti-caste critique here is Kabir's, Basava's, and Ambedkar's, all of which predate any Western reading.
+**The answer.** Decentralization is a deniability structure, and the codex says so rather than pretending otherwise. On caste: the text that ranks people is scripture and the constitution that unranked them is not. The anti-caste critique here is Kabir's and Basava's (medieval devotional poet-saints) and Ambedkar's (B. R. Ambedkar, the jurist who chaired the drafting committee of India's constitution), all of which predate any Western reading.
 
 ::: cites
 Sources for this section: [8]
@@ -92,28 +92,28 @@ Sources for this section: [8]
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-~1.1–1.2 billion adherents, overwhelmingly in India and Nepal; less a single religion than a civilization of paths — devotional, philosophical, ritual, ascetic — with no founder, no central text, no pope.
+Hinduism has ~1.1–1.2 billion adherents, overwhelmingly in India and Nepal. It is a civilization of paths (devotional, philosophical, ritual and ascetic) with no founder, no central text and no pope.
 :::
 
-- Bhakti's own anti-clerical stream (saints who mocked priestcraft and caste); anti-caste movements from within and without (Ambedkarite critique); temple trusts with published accounts; the tradition's genuine pluralism as a resource against any single authority.
+- Healthy practice here includes the bhakti (devotional) tradition's own anti-clerical stream (saints who mocked priestcraft and caste), anti-caste movements from within and without (the Ambedkarite critique), temple trusts with published accounts, and the tradition's genuine pluralism as a resource against any single authority.
 
 ## 5. History {#history}
 
-Vedic religion (2nd millennium BCE onward) → Upanishadic philosophy → epic and Puranic devotionalism → medieval bhakti movements and temple economies → colonial-era reform and codification → modern guru movements and political Hindutva.
+Vedic religion (the religion of the Vedas, the oldest Hindu scriptures; 2nd millennium BCE onward) → Upanishadic philosophy (the philosophical texts that close the Vedas) → epic and Puranic devotionalism (devotion centered on the epics and the Puranas) → medieval bhakti movements (devotional movements) and temple economies → colonial-era reform and codification → modern guru movements and political Hindutva (Hindu-nationalist politics).
 
 ### Timeline
 
 ```timeline
 c. 1500–500 BCE | Vedic religion; ritual specialists; hymns transmitted orally | Priestly monopoly on ritual language — the original knowledge gatekeeping.
 c. 800–200 BCE | Upanishads; renunciant movements; Buddhism and Jainism emerge in critique | Internal dissent against sacrifice and priestcraft is present from the beginning.
-c. 200 BCE–500 CE | Dharmashastra literature (Manusmriti); epics; caste codified textually | Social hierarchy acquires scriptural sanction — the most consequential control structure in this profile.
+c. 200 BCE–500 CE | Dharmashastra literature (Sanskrit legal and ethical treatises, including the Manusmriti); epics; caste codified textually | Social hierarchy acquires scriptural sanction — the most consequential control structure in this profile.
 500–1500 CE | Temple-building era; vast temple economies; bhakti movements | Enormous institutional wealth alongside devotional movements that explicitly reject caste and priest mediation.
-1500–1800 | Regional kingdoms, temple patronage, matha networks | Monastic and temple institutions become durable landholders.
+1500–1800 | Regional kingdoms, temple patronage, matha (monastic institution) networks | Monastic and temple institutions become durable landholders.
 1757–1947 | Colonial rule; 'Hinduism' codified as a single religion; reform movements (Brahmo Samaj, Arya Samaj) | The category itself is partly a colonial administrative product. [ACADEMIC SOURCE]
 1920s–1947 | Hindu nationalist organizations founded; independence and partition | Religious identity becomes a modern political project.
 1950s–1990s | Constitutional abolition of untouchability; state temple administration; global guru movements | Legal reform proceeds while caste practice persists; Indian states take over major temple funds. [OFFICIAL POLICY]
 1992–present | Ayodhya and the rise of Hindutva to national power | Religious majoritarianism becomes state policy. [INVESTIGATIVE REPORT]
-2010s–present | High-profile godman rape convictions (Ram Rahim 2017, Asaram 2018; upheld or pending on appeal); temple wealth disclosures | Courts document what devotion had shielded. [COURT RECORD]
+2010s–present | High-profile godman (self-styled holy man with a mass following) rape convictions (Ram Rahim 2017, Asaram 2018; upheld or pending on appeal); temple wealth disclosures | Courts document what devotion had shielded. [COURT RECORD]
 ```
 
 ### Moments in the room
@@ -137,7 +137,7 @@ Article 17 of the Indian Constitution abolished untouchability and made its prac
 ::: card
 #### 2017–2018 — A guru is convicted, and a city burns
 
-Gurmeet Ram Rahim Singh of Dera Sacha Sauda was convicted of rape in 2017, and in 2019 of conspiring to murder a journalist — a conviction overturned on appeal in 2026 and now before the Supreme Court. The verdict triggered riots with dozens of deaths. No religious body had ever examined him.
+Gurmeet Ram Rahim Singh of Dera Sacha Sauda (a religious sect based in Sirsa, Haryana) was convicted of rape in 2017, and in 2019 of conspiring to murder a journalist — a conviction overturned on appeal in 2026 and now before the Supreme Court. The verdict triggered riots with dozens of deaths. No religious body had ever examined him.
 
 **Why it matters.** A criminal court was the first institution in decades with both the standing and the will to act. That is not a story about Indian courts; it is a story about the absence of anything above a guru.
 :::
@@ -148,17 +148,17 @@ Sources for this section: [1] [4] [13]
 
 ## 6. Branches & variants {#branches}
 
-Vaishnava, Shaiva, Shakta, Smarta traditions; countless sampradayas, guru lineages, and regional folk forms; philosophical schools from Advaita to Dvaita.
+Vaishnava, Shaiva, Shakta, Smarta traditions; countless sampradayas (traditions of teaching passed down through a line of gurus), guru lineages, and regional folk forms, and philosophical schools from Advaita (non-dualism) to Dvaita (dualism).
 
 | Stream | What it centres on | Where authority sits |
 |---|---|---|
-| **Vaishnava** | Vishnu and his avatars (Krishna, Rama) | Sampradayas and their acharyas; includes Swaminarayan (BAPS) and ISKCON [6][13] |
-| **Shaiva** | Shiva | Monastic orders (mathas) and lineages |
-| **Shakta** | The Goddess | Temples and lineages |
-| **Smarta** | Several deities; Advaita philosophy | The Shankaracharya mathas |
-| **Guru movements** | A living teacher | The guru, often with a trust or company he controls [1][4] |
+| **Vaishnava** | Vaishnava traditions center on Vishnu and his avatars (incarnations such as Krishna and Rama). | Authority sits with the sampradayas and their acharyas (teachers); the stream includes Swaminarayan (BAPS, the Bochasanwasi Shri Akshar Purushottam Swaminarayan Sanstha) and ISKCON (the International Society for Krishna Consciousness) [6][13]. |
+| **Shaiva** | Shaiva traditions center on Shiva. | Authority sits with monastic orders (mathas) and lineages. |
+| **Shakta** | Shakta traditions center on the Goddess. | Authority sits with temples and lineages. |
+| **Smarta** | Smarta traditions center on several deities and on Advaita philosophy. | Authority sits with the Shankaracharya mathas. |
+| **Guru movements** | Guru movements center on a living teacher. | Authority sits with the guru, often with a trust or company he controls [1][4]. |
 
-About **1.2 billion** Hindus, 14.9% of the world's population (2020) [11].
+There are about **1.2 billion** Hindus, 14.9% of the world's population (2020) [11].
 
 ## 7. Structure {#structure}
 
@@ -166,15 +166,15 @@ About **1.2 billion** Hindus, 14.9% of the world's population (2020) [11].
 
 |  |  |
 |---|---|
-| Adherents | ~1.1–1.2 billion. [ACADEMIC SOURCE: Pew, Indian census] |
-| Regions | India (~1.1B), Nepal, Bangladesh, Sri Lanka, Indonesia (Bali), Mauritius, plus diaspora in the US, UK, Canada, South Africa, Caribbean, Gulf states. |
-| Trend | Growing with population; diaspora institutions expanding; Hindutva political mobilization is the major contemporary institutional development. |
+| Adherents | Hinduism has ~1.1–1.2 billion adherents. [ACADEMIC SOURCE: Pew, Indian census] |
+| Regions | Hindus live mainly in India (~1.1B), Nepal, Bangladesh, Sri Lanka, Indonesia (Bali) and Mauritius, with diaspora communities in the US, UK, Canada, South Africa, the Caribbean and the Gulf states. |
+| Trend | The number is growing with the population, diaspora institutions are expanding, and Hindutva political mobilization is the major contemporary institutional development. |
 | Participation | There is no membership, no baptism, and no central authority — which means 'adherent' figures reflect census identity, not institutional submission. Most Hindus are under no religious hierarchy at all; control operates through caste, family, guru relationships, and temple institutions locally. |
 
 ### Authority
 
-- Radically decentralized: brahmin priesthoods, temple trusts, monastic orders (mathas), gurus and godmen, caste councils, family patriarchy.
-- The absence of central authority means control is local and deniable — the guru, the panchayat, the family — while the tradition as a whole disclaims responsibility. [PATTERN OBSERVED]
+- Authority is radically decentralized. It sits with brahmin (priestly-caste) priesthoods, temple trusts, monastic orders (mathas), gurus and godmen, caste councils and family patriarchy.
+- The absence of central authority means control is local and deniable — the guru, the panchayat (village or caste council), the family — while the tradition as a whole disclaims responsibility. [PATTERN OBSERVED]
 
 ### The top of the chain
 
@@ -184,10 +184,10 @@ No apex, by design — which is offered as a defense and reads, on inspection, a
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| The Shankaracharya seats | Four historic thrones carrying immense prestige and no command; no office speaks for the tradition | Lineage designation | — |
-| The state temple boards | Major temple treasuries — Tirupati among them — are administered by government-appointed boards under state endowment acts: politicians appointing the managers of the gods' money | State governments | State governments, at the next election — which is more removability than most chairs in this codex, and worth saying plainly |
-| The guru thrones | Individual empires with nothing above the founder. The rape convictions of Gurmeet Ram Rahim Singh and Asaram Bapu came from criminal courts — because no religious authority exists that could have acted | Self-founding and devotee acclaim | A criminal court, after the harm |
-| The household | The senior generation, enforcing marriage, caste, and ritual compliance | Birth order | Time |
+| The Shankaracharya seats | The four historic thrones carry immense prestige and no command, and no office speaks for the tradition. | Each seat is filled by lineage designation. | No removal procedure is recorded. |
+| The state temple boards | Major temple treasuries — Tirupati among them — are administered by government-appointed boards under state endowment acts: politicians appointing the managers of the gods' money | State governments appoint the boards. | State governments can remove them, at the next election, which is more removability than most chairs in this codex and worth saying plainly. |
+| The guru thrones | Individual empires with nothing above the founder. The rape convictions of Gurmeet Ram Rahim Singh and Asaram Bapu came from criminal courts — because no religious authority exists that could have acted | A guru takes the throne by self-founding and devotee acclaim. | Only a criminal court can remove a guru, and only after the harm. |
+| The household | The senior generation, enforcing marriage, caste, and ritual compliance | Seniority is set by birth order. | Only time removes a household head. |
 
 ::: tell
 When a guru harms, there is no chair above him to appeal to. The first authority able to act is a judge — and by then the question is sentencing, not prevention.
@@ -197,13 +197,13 @@ When a guru harms, there is no chair above him to appeal to. The first authority
 
 | Entity | Type | Holder | Holds | Why it matters to you | Receipt |
 |---|---|---|---|---|---|
-| State temple endowment departments | Government administration | State-appointed executive officers | Administration of India's wealthiest temples and their revenues | Your offering, budgeted by a political administration | [OFFICIAL POLICY: state endowment acts] |
-| Tirupati's governing board (TTD) | Temple trust | Board appointed by state government | Assets in the billions, gold reserves, and tiered darshan pricing | What a better view of the deity costs | [FINANCIAL RECORD] |
-| Hereditary priesthoods | Ritual monopoly | Priestly families by birth | Exclusive right to perform the rites of your birth, marriage, and death | Every life passage, priced by inheritance | [ACADEMIC SOURCE] |
-| Convicted godmen and their organizations | Individual, adjudicated | Public convictions of leaders of major movements for rape; murder convictions in one case were overturned on appeal (2024, 2026) | Corporate-scale operations with political protection and bloc-vote leverage | Proof that devotion at scale defeats scrutiny until a court intervenes | [COURT RECORD: Indian court judgments] |
-| Guru-branded consumer conglomerates | Commercial | Founder-gurus and their trusts | Food, medicine, cosmetics, and media, sold on devotional authority | What is in your kitchen cupboard and your medicine cabinet | [FINANCIAL RECORD: corporate filings] |
-| Religious-nationalist political organizations | Political | Organizational leaderships | Religious identity converted into electoral majority and a definition of national belonging | Whether your neighbor counts as a citizen | [ACADEMIC SOURCE / INVESTIGATIVE REPORT] |
-| Caste councils (khap and jati panchayats) | Informal enforcement | Local elders | Marriage veto, ostracism, and in documented cases violence, with no legal standing | Whom your daughter may marry | [GOVERNMENT REPORT: honor-killing prosecutions] |
+| State temple endowment departments | These are government administrations. | Their executive officers are appointed by the state. | They administer India's wealthiest temples and their revenues. | Your offering is budgeted by a political administration. | [OFFICIAL POLICY: state endowment acts] |
+| Tirupati's governing board (TTD) | The trust is a temple trust. | Its board is appointed by the state government. | It holds assets in the billions, gold reserves, and tiered darshan (the act of seeing a deity) pricing. | The pricing decides what a better view of the deity costs you. | [FINANCIAL RECORD] |
+| Hereditary priesthoods | This is a ritual monopoly. | The holders are priestly families, by birth. | They hold the exclusive right to perform the rites of your birth, marriage and death. | Every life passage is priced by inheritance. | [ACADEMIC SOURCE] |
+| Convicted godmen and their organizations | The type is individual and adjudicated. | Leaders of major movements have been publicly convicted of rape; murder convictions in one case were overturned on appeal (2024, 2026). | They hold corporate-scale operations with political protection and bloc-vote leverage. | They are proof that devotion at scale defeats scrutiny until a court intervenes. | [COURT RECORD: Indian court judgments] |
+| Guru-branded consumer conglomerates | These are commercial businesses. | The holders are founder-gurus and their trusts. | They hold food, medicine, cosmetics and media businesses, sold on devotional authority. | They supply what is in your kitchen cupboard and your medicine cabinet. | [FINANCIAL RECORD: corporate filings] |
+| Religious-nationalist political organizations | These are political organizations. | The holders are organizational leaderships. | They hold religious identity converted into electoral majority and a definition of national belonging. | Their definition of belonging bears on whether your neighbor counts as a citizen. | [ACADEMIC SOURCE / INVESTIGATIVE REPORT] |
+| Caste councils (khap and jati panchayats) | This is informal enforcement. | The holders are local elders. | They hold a marriage veto and the power of ostracism, and in documented cases violence, with no legal standing. | They decide whom your daughter may marry. | [GOVERNMENT REPORT: honor-killing prosecutions] |
 
 ::: cites
 Sources for this section: [1] [4] [10] [11]
@@ -213,69 +213,69 @@ Sources for this section: [1] [4] [10] [11]
 
 | Country | What the law does | The accountability question |
 |---|---|---|
-| **India — caste** | Untouchability abolished by the Constitution (Article 17, 1950) [8] | Dowry deaths still ran to 6,450 in 2022 [9] |
+| **India — caste** | The Constitution abolished untouchability (Article 17, 1950) [8]. | Dowry deaths still ran to 6,450 in 2022 [9]. |
 | **India — temples** | Many large temples are run by state-appointed boards; Tirupati's trust published a white paper in 2022 [10] | Sabarimala's ban on women of menstruating age was struck down in 2018; a nine-judge bench reserved judgment in 2026 [5] |
 | **India — superstition** | Maharashtra's anti-superstition ordinance came four days after Narendra Dabholkar's murder in 2013 [18] | Two men were convicted of his murder in 2024; in August 2026 the High Court suspended one's life sentence and granted bail [18][19] |
-| **United States — labour** | Federal forced-labour law [6][7] | A 2021 lawsuit said the BAPS temple in New Jersey was built with forced labour; federal prosecutors closed their investigation without charges in 2025, and the civil case continues [6][7] |
+| **United States — labour** | Federal forced-labour law is the legal basis of the claims [6][7]. | A 2021 lawsuit said the BAPS temple in New Jersey was built with forced labour; federal prosecutors closed their investigation without charges in 2025, and the civil case continues [6][7] |
 | **United States — caste** | Seattle banned caste discrimination in employment in 2023, the first US city to do so [16] | California's governor vetoed a statewide ban as "unnecessary" in October 2023 [15] |
 
 ### Who can compel an answer
 
-State endowment departments and the Right to Information process for government-administered temple boards; the criminal courts, which are the only authority that has ever stopped a guru; and the ordinary electoral accountability of the politicians who appoint the boards.
+Three routes can compel an answer: state endowment departments and the Right to Information (RTI) process for government-administered temple boards; the criminal courts, which are the only authority that has ever stopped a guru; and the ordinary electoral accountability of the politicians who appoint the boards.
 
 ## 9. Money {#money}
 
 ### Where it comes from
 
-- Temple economies: India's richest temples (Tirupati, Padmanabhaswamy, Shirdi) hold assets in the billions; many major temples are administered by state governments — governments literally managing and drawing on temple wealth. [FINANCIAL RECORD / OFFICIAL POLICY: state temple endowment acts]
-- Guru organizations: donation empires, ashram real estate, branded products, diaspora funding. Documented collapses reveal internal economies of total control: Gurmeet Ram Rahim Singh was convicted of rape in 2017; his two murder convictions were overturned on appeal in 2024 and 2026, the latter now before the Supreme Court. Asaram’s life sentence for raping a minor was upheld in 2026. [COURT RECORD]
-- Ritual fees, pilgrimage economies, caste-linked ritual monopolies.
+- Money comes from temple economies. India's richest temples (Tirupati, Padmanabhaswamy, Shirdi) hold assets in the billions; many major temples are administered by state governments — governments literally managing and drawing on temple wealth. [FINANCIAL RECORD / OFFICIAL POLICY: state temple endowment acts]
+- Guru organizations draw on donation empires, ashram real estate, branded products and diaspora funding. Documented collapses reveal internal economies of total control: Gurmeet Ram Rahim Singh was convicted of rape in 2017; his two murder convictions were overturned on appeal in 2024 and 2026, the latter now before the Supreme Court. Asaram’s life sentence for raping a minor was upheld in 2026. [COURT RECORD]
+- Money also comes from ritual fees, pilgrimage economies and caste-linked ritual monopolies.
 
 ### Follow the money
 
 | Flow | Stated purpose | How it controls | Who benefits |
 |---|---|---|---|
-| Temple donations, hundi collections, gold offerings | Devotion and temple upkeep | Billions in assets; state governments administer and draw on major temple funds | Temple trusts, state endowment departments, priestly establishments [FINANCIAL RECORD] |
-| Ritual fees and priestly services | Life-cycle rites | Hereditary monopoly pricing on birth, marriage, and death rites | Priestly families |
-| Guru dakshina, ashram donations, branded products | Support the guru's mission | Donation empires with no audit; convicted godmen ran corporate-scale operations | Gurus, their families, and organizational insiders [COURT RECORD] |
-| Pilgrimage economies (Tirupati, Kumbh, Char Dham) | Sacred travel | Priced access tiers to darshan — literally paying for a better view of God | Trusts, states, tour operators |
+| Temple donations, hundi (donation-box) collections and gold offerings | The stated purpose is devotion and temple upkeep. | The temples hold billions in assets, and state governments administer and draw on major temple funds. | Temple trusts, state endowment departments and priestly establishments benefit. [FINANCIAL RECORD] |
+| Ritual fees and priestly services | The stated purpose is life-cycle rites. | Hereditary monopoly pricing controls birth, marriage and death rites. | Priestly families benefit. |
+| Guru dakshina (gifts to the teacher), ashram donations and branded products | The stated purpose is to support the guru's mission. | Donation empires operate with no audit, and convicted godmen ran corporate-scale operations. | Gurus, their families and organizational insiders benefit. [COURT RECORD] |
+| Pilgrimage economies (Tirupati, the Kumbh Mela festival, the Char Dham pilgrimage circuit) | The stated purpose is sacred travel. | Access to darshan is priced in tiers, so pilgrims literally pay for a better view of God. | Trusts, states and tour operators benefit. |
 
 ### Pipelines this tradition shares
 
 ::: card
 #### Temple offering to state revenue
 
-**Source.** Devotional offering, hundi, gold
+**Source.** The money comes from devotional offerings, hundi and gold.
 
 **Path.** Temple trust → State endowment department → State general revenue and administration
 
-**Disclosed.** Headline asset figures
+**Disclosed.** Headline asset figures are disclosed.
 
-**Hidden.** Line-item allocation and diversion
+**Hidden.** Line-item allocation and diversion stay hidden.
 :::
 
 ::: card
 #### Pilgrimage economy
 
-**Source.** A religious obligation with a fixed destination
+**Source.** The money comes from a religious obligation with a fixed destination.
 
 **Path.** Licensed operators → Host state revenue → Concession holders
 
-**Disclosed.** Visa quotas and pricing
+**Disclosed.** Visa quotas and pricing are disclosed.
 
-**Hidden.** Margins and concession awards
+**Hidden.** Margins and concession awards stay hidden.
 :::
 
 ::: card
 #### Dera and ashram economy
 
-**Source.** Devotee giving and unpaid service
+**Source.** The money comes from devotee giving and unpaid service.
 
 **Path.** Living guru's organization → Family-held entities → Political protection
 
-**Disclosed.** Charitable activity
+**Disclosed.** Charitable activity is disclosed.
 
-**Hidden.** Asset ownership and personal use
+**Hidden.** Asset ownership and personal use stay hidden.
 :::
 
 ::: card
@@ -311,12 +311,12 @@ Sources for this section: [1] [4] [10]
 ```chart
 {"id":"baps-uk","type":"bar","title":"BAPS Swaminarayan Sanstha (UK): income","unit":"£ million, years to 31 December",
  "series":[["2020",12.77],["2021",16.17],["2022",16.71],["2023",20.67],["2024",16.22]],
- "note":"The UK charity behind the Neasden temple; almost all donations. Public because charity law requires it.",
+ "note":"This is the UK charity behind the Neasden temple. Almost all of its income is donations. Its accounts are public because charity law requires it.",
  "cite":[14]}
 ```
 
-- **Tirupati:** a net worth of ₹2.26 lakh crore and 10.25 tonnes of gold on deposit, in the temple trust's own 2022 white paper [10].
-- **BAPS UK, 2024:** £15.39m of £16.22m income from donations; £15.83m spent [14].
+- **Tirupati:** the temple trust's own 2022 white paper records a net worth of ₹2.26 lakh crore (a lakh crore is one trillion rupees) and 10.25 tonnes of gold on deposit [10].
+- **BAPS UK, 2024:** donations were £15.39m of £16.22m income, and £15.83m was spent [14].
 - **Guru organizations** publish little; their finances surface through courts [1][4].
 
 ## 10. Genealogy {#genealogy}
@@ -324,13 +324,13 @@ Sources for this section: [1] [4] [10]
 ::: card
 #### Caste as birth-assigned hierarchy
 
-**Origin.** Emerging in the Vedic and post-Vedic period, codified textually in Dharmashastra literature including Manusmriti (c. 200 BCE–200 CE). [ACADEMIC SOURCE]
+**Origin.** It emerged in the Vedic and post-Vedic period and was codified textually in Dharmashastra literature, including the Manusmriti (c. 200 BCE–200 CE). [ACADEMIC SOURCE]
 
-**What it was for.** An occupational and ritual division of labor in an agrarian society, sanctified to make it permanent and to make its permanence feel cosmic rather than political.
+**What it was for.** It was an occupational and ritual division of labor in an agrarian society, sanctified to make it permanent and to make its permanence feel cosmic rather than political.
 
 **Why that reason expired.** Untouchability was abolished by India's constitution in 1950. Yet inter-caste marriage still triggers ostracism and documented killings, and separate temples and wells persist. A rule with no legal standing survives on social enforcement alone. [GOVERNMENT REPORT]
 
-**Who benefits now.** Upper-caste families retaining ritual monopolies, land, and marriage networks — and every political operation that mobilizes caste blocs. The cost falls on Dalits, in the tradition's oldest and largest harm.
+**Who benefits now.** Upper-caste families retaining ritual monopolies, land, and marriage networks — and every political operation that mobilizes caste blocs. The cost falls on Dalits (the communities formerly called untouchable), in the tradition's oldest and largest harm.
 :::
 
 ::: card
@@ -338,35 +338,35 @@ Sources for this section: [1] [4] [10]
 
 **Origin.** Karma as ethical causation is ancient and philosophically serious; its application to justify caste position hardens in the classical period. [ACADEMIC SOURCE]
 
-**What it was for.** Made an otherwise indefensible social order intelligible: your position is earned, therefore just, therefore not to be resisted.
+**What it was for.** It made an otherwise indefensible social order intelligible: your position is earned, therefore just, therefore not to be resisted.
 
 **Why that reason expired.** This is the most efficient compliance mechanism ever devised, and it is applied to children. A child taught that her family's poverty is deserved learns not to ask who arranged it.
 
-**Who benefits now.** Everyone above her in the arrangement, and no one else. Bhakti saints attacked this from within the tradition centuries ago — the internal critique is older than the colonial one.
+**Who benefits now.** Everyone above a child in the arrangement benefits, and no one else does. Bhakti saints attacked this from within the tradition centuries ago — the internal critique is older than the colonial one.
 :::
 
 ::: card
 #### Guru surrender (guru-bhakti absolutism)
 
-**Origin.** Ancient teacher-disciple transmission, intensified in medieval sampradayas and industrialized by 20th-century global guru organizations. [ACADEMIC SOURCE]
+**Origin.** It began as ancient teacher-disciple transmission, intensified in medieval sampradayas and industrialized by 20th-century global guru organizations. [ACADEMIC SOURCE]
 
 **What it was for.** Oral transmission of difficult knowledge required trust and long apprenticeship in a village-scale relationship with community visibility.
 
 **Why that reason expired.** Scaled to organizations with millions of followers, real estate empires, and political protection, the same surrender means no follower has standing to question anything. Multiple godmen have been convicted of rape while devotees insisted it was impossible. [COURT RECORD]
 
-**Who benefits now.** Gurus and their families, running corporate-scale operations with donation income, no audit, and vote banks that politicians court.
+**Who benefits now.** Gurus and their families benefit, running corporate-scale operations with donation income, no audit, and vote banks that politicians court.
 :::
 
 ::: card
 #### Temple wealth under state administration
 
-**Origin.** Colonial-era and post-independence state endowment acts placing major temples under government departments. [OFFICIAL POLICY]
+**Origin.** State endowment acts, from the colonial era and after independence, placed major temples under government departments. [OFFICIAL POLICY]
 
-**What it was for.** Framed as protecting temple assets from mismanagement by hereditary trustees — a real problem at the time.
+**What it was for.** It was framed as protecting temple assets from mismanagement by hereditary trustees, a real problem at the time.
 
 **Why that reason expired.** The result is that governments now administer and draw on billions in devotional offerings, while hereditary priesthoods retain ritual monopolies. Devotees fund both and audit neither.
 
-**Who benefits now.** State endowment departments, temple trusts, and priestly families. Your offering enters an account you cannot inspect.
+**Who benefits now.** State endowment departments, temple trusts and priestly families benefit. Your offering enters an account you cannot inspect.
 :::
 
 ::: cites
@@ -383,18 +383,18 @@ Sources for this section: [1] [4] [8] [12]
 
 ### Children
 
-- Samskaras from birth; thread ceremony (upanayana) for upper-caste boys; caste identity assigned at birth and legally recorded.
+- Children pass through samskaras (life-cycle rites) from birth, upper-caste boys receive the thread ceremony (upanayana), and caste identity is assigned at birth and legally recorded.
 - Karma teaching applied to children explains inherited disadvantage as deserved — the single most efficient mechanism for producing acceptance of hierarchy. [PATTERN OBSERVED]
-- Gurukula and ashram schooling has produced documented abuse cases with weak oversight. [COURT RECORD]
+- Gurukula (residential teacher-led) and ashram schooling has produced documented abuse cases with weak oversight. [COURT RECORD]
 - Child marriage persists in some regions despite legal prohibition, defended in traditional framing. [GOVERNMENT REPORT]
 
 ### Bodies
 
 - Menstrual exclusion from temples and kitchens is widespread custom; the Sabarimala litigation made it a constitutional question. [COURT RECORD: Indian Supreme Court 2018]
 - Dowry is illegal and pervasive; dowry-related deaths are recorded in the thousands annually by India's own crime bureau. [GOVERNMENT REPORT]
-- Widow stigma, restrictions on remarriage in some communities, and the historical practice of sati as its extreme form. [ACADEMIC SOURCE]
+- Widows face stigma and, in some communities, restrictions on remarriage, and the historical practice of sati (the burning of a widow on her husband's funeral pyre) was its extreme form. [ACADEMIC SOURCE]
 - Guru sexual abuse of female devotees is documented in multiple criminal convictions. [COURT RECORD]
-- Devadasi dedication of girls to temples persists illegally in some areas. [GOVERNMENT REPORT]
+- Devadasi dedication (the dedication of girls to temple service) persists illegally in some areas. [GOVERNMENT REPORT]
 
 ::: cites
 Sources for this section: [5] [9]
@@ -409,7 +409,7 @@ Thirty named techniques from domestic-abuse and social-psychology research, appl
 ::: stage
 **You arrive with a need and are met with more warmth than you have had in years.**
 
-Yoga, meditation, universal acceptance, all paths valid, cosmic purpose. The soft face arrives first — often with a guru who says he has been waiting for you.
+The tradition offers yoga, meditation, universal acceptance, the claim that all paths are valid, and cosmic purpose. The soft face arrives first — often with a guru who says he has been waiting for you.
 
 *What it asks of you:* You were shown universalism. The caste rules and the guru's authority came later. Ask about the sequence.
 :::
@@ -441,14 +441,14 @@ Yoga, meditation, universal acceptance, all paths valid, cosmic purpose. The sof
 
 - Temples and ashrams may provide food, festivals, spiritual instruction, community support, ritual services, yoga, meditation, and guru guidance.
 - A guru or organization may offer belonging, healing, mantra initiation, vegetarian meals, retreats, and a sense of cosmic purpose.
-- The obligation can appear later through donations, seva, guru dakshina, ritual fees, family pressure, caste expectations, purity rules, or loyalty to the lineage.
+- The obligation can appear later through donations, seva (unpaid service), guru dakshina, ritual fees, family pressure, caste expectations, purity rules, or loyalty to the lineage.
 - In some settings, social aid is tied to birth community, caste networks, temple status, or family honor, making independence costly.
 
 **The strongest defense.** Hindu traditions are diverse, decentralized, and often centered on service, hospitality, and devotion.
 
 **The counter.** Decentralization does not prevent control. It can hide it. When no single institution is responsible, each local authority can say, “This is just tradition.” If food, ritual, healing, or guru access creates debt to a hierarchy, the generosity is still weaponized — even without a central headquarters.
 
-**Evidence grade.** [[Cultural]] Temple, ashram, and guru welcome are entirely local; there is no body that could standardize or be held to it.
+**Evidence grade.** [[Cultural]] The food, festivals, instruction and healing offered by temples and gurus, and the obligations that follow them, are local and customary; no body sets or audits them.
 :::
 
 ### Stage 2 · Hook {#stage-2}
@@ -456,7 +456,7 @@ Yoga, meditation, universal acceptance, all paths valid, cosmic purpose. The sof
 ::: stage
 **You are given a future that cannot be verified, and a rope for whenever you drift toward the door.**
 
-Moksha, better rebirth, the guru's grace, the merit of this pilgrimage — no timeline, no verification, and karmic accounting that explains any disappointment. And retrieval through family illness, festivals, a mother's plea.
+The promises are moksha (release from the cycle of rebirth), better rebirth, the guru's grace and the merit of this pilgrimage, with no timeline, no verification, and karmic accounting that explains any disappointment. Retrieval comes through family illness, festivals and a mother's plea.
 
 *What it asks of you:* A system that can explain every failure as karmic debt can never be shown to have failed. Notice that this is a design property, not a discovery.
 :::
@@ -472,7 +472,7 @@ Moksha, better rebirth, the guru's grace, the merit of this pilgrimage — no ti
 - Present suffering can be explained as past-life karma. Future improvement is promised through devotion, ritual, purity, duty, caste obligation, seva, mantra, temple offerings, or guru obedience.
 - The promise is elastic: if liberation does not happen now, perhaps later; if not this life, another life; if not understood, it is beyond ordinary consciousness.
 - Caste-based systems can weaponize future hope brutally: accept your present station as karmic result, perform your duty, and future births may improve.
-- Guru-centered movements may promise awakening, kundalini transformation, divine realization, or karmic cleansing if the student surrenders long enough.
+- Guru-centered movements may promise awakening, kundalini transformation (a claimed awakening of spiritual energy), divine realization, or karmic cleansing if the student surrenders long enough.
 
 **The strongest defense.** Karma and reincarnation teach moral responsibility across lifetimes, not manipulation.
 
@@ -498,7 +498,7 @@ Moksha, better rebirth, the guru's grace, the merit of this pilgrimage — no ti
 
 **The counter.** Culture can hoover more effectively than an institution because it does not look optional. If saying no to a ritual means betraying family, ancestors, marriage prospects, caste expectations, or cosmic duty, then the pull is coercive even without a central church.
 
-**Evidence grade.** [[Taught]] Moksha, rebirth, and guru grace are taught doctrine; karmic accounting makes any disappointment self-explaining.
+**Evidence grade.** [[Taught]] The warning that leaving means abandoning dharma or creating bad karma is taught; the pull-back itself is applied through family rites and family pressure, not through any institutional procedure.
 :::
 
 ### Stage 3 · Devalue {#stage-3}
@@ -506,7 +506,7 @@ Moksha, better rebirth, the guru's grace, the merit of this pilgrimage — no ti
 ::: stage
 **You are taught that you are broken, that your perception is unreliable, and that both exits from the trap lead back inside.**
 
-Insufficient devotion, insufficient purity, insufficient surrender. Suffering is reframed as karmic debt you have not yet worked off.
+The faults named are insufficient devotion, insufficient purity and insufficient surrender. Suffering is reframed as karmic debt you have not yet worked off.
 
 *What it asks of you:* When your pain is explained as deserved, no one has to fix anything.
 :::
@@ -547,7 +547,7 @@ Insufficient devotion, insufficient purity, insufficient surrender. Suffering is
 
 **The counter.** Complexity becomes gaslighting when it is used to protect hierarchy. If every injustice is explained as karma and every demand is defended as dharma, then cosmic language is being used to make human control look eternal.
 
-**Evidence grade.** [[Taught]] Karma applied to present circumstance is taught continuously and is contested by the tradition's own bhakti and anti-caste currents.
+**Evidence grade.** [[Taught]] Telling a questioner that they do not understand dharma, or that the harm is their karma, uses teachings that are taught continuously; the tradition's own bhakti and anti-caste currents contest that use.
 :::
 
 ::: tactic n=7
@@ -558,14 +558,14 @@ Insufficient devotion, insufficient purity, insufficient surrender. Suffering is
 **How it shows here**
 
 - Seekers are told all paths lead to the One — but leaving this guru's path shows their karma is not ripe. All paths are valid; departure from ours is blindness.
-- Karma explains suffering as self-created — so protesting mistreatment is protesting one's own past actions. Accept it: bondage. Resist it: more karma.
+- Karma explains suffering as self-created — so protesting mistreatment is protesting one's own past actions. Accept it and remain in bondage; resist it and add more karma.
 - The tradition celebrates fierce debate among schools, yet the household or temple authority treats a daughter's or student's disagreement as disrespect to elders — a category with no permitted form.
 
 **The strongest defense.** Hinduism has no central authority; no one can bind anyone. It is the most pluralistic tradition on earth.
 
 **The counter.** Pluralism among institutions does not guarantee freedom within one. The absence of a pope does not mean the absence of a patriarch, a guru, or a panchayat — it means the bind is local, deniable, and everywhere.
 
-**Evidence grade.** [[Taught]] Karma applied to present circumstance is taught continuously and is contested by the tradition's own bhakti and anti-caste currents.
+**Evidence grade.** [[Taught]] The bind rests on two teachings held together, that all paths lead to the One and that suffering is self-created karma; both are taught, and household, guru or temple authority applies the bind locally.
 :::
 
 ### Stage 4 · Confuse {#stage-4}
@@ -586,14 +586,14 @@ Question a guru and it is your ego, your bad karma, your Western contamination. 
 **How it shows here**
 
 - Darshan of a guru or deity is structured scarcity: long queues, brief contact, occasional overwhelming moments — and the rarity is the proof of potency, funding return trips and rising offerings.
-- A guru's attention alternates grace and withdrawal; seniors explain that his ignoring you is itself a teaching. Every output of the man is defined as a payout of the path.
+- A guru's attention alternates grace and withdrawal; seniors explain that his ignoring you is itself a teaching. Whatever the guru does is defined as a reward of the path.
 - Ritual investment pays irregularly — the puja before the exam that went well becomes family legend; the ten that changed nothing are forgotten. Memory curates the wins; the priest collects on the curation.
 
 **The strongest defense.** Grace (kripa) by nature cannot be scheduled; the devotee's longing itself purifies.
 
 **The counter.** Unschedulable grace is theology. A human institution deliberately rationing access, monetizing queues, and teaching that withdrawal is instruction has scheduled the unschedulable — and kept the concession stand.
 
-**Evidence grade.** [[Cultural]] Attributing a devotee's doubt to ego or bad karma is guru practice with no institutional oversight anywhere.
+**Evidence grade.** [[Cultural]] Scarce darshan and a guru's alternation of attention and withdrawal are local practice; no body sets or audits how access is rationed.
 :::
 
 ::: tactic n=9
@@ -611,7 +611,7 @@ Question a guru and it is your ego, your bad karma, your Western contamination. 
 
 **The counter.** Diversity becomes goalpost-moving when every challenge is redirected into another layer of tradition no one is allowed to finish questioning. Complexity can clarify. It can also bury accountability.
 
-**Evidence grade.** [[Cultural]] Attributing a devotee's doubt to ego or bad karma is guru practice with no institutional oversight anywhere.
+**Evidence grade.** [[Cultural]] The shifting demands on a family member or disciple come from parents, caste networks and individual gurus, not from a written standard, so the entry rests on custom.
 :::
 
 ::: tactic n=10
@@ -629,7 +629,7 @@ Question a guru and it is your ego, your bad karma, your Western contamination. 
 
 **The counter.** Subtlety becomes strategic ambiguity when harmful practices become too complex to criticize but simple enough to enforce. If caste, karma, and guru power are clear when controlling people and vague when challenged, the fog is strategic.
 
-**Evidence grade.** [[Cultural]] Attributing a devotee's doubt to ego or bad karma is guru practice with no institutional oversight anywhere.
+**Evidence grade.** [[Cultural]] The shifting descriptions of caste and guru authority are supplied by families and gurus as each criticism arrives; no body defines them, so the entry rests on how they are used.
 :::
 
 ::: tactic n=11
@@ -648,7 +648,7 @@ Question a guru and it is your ego, your bad karma, your Western contamination. 
 
 **The counter.** Complexity does not erase reversal. When hierarchy calls the oppressed impure, gurus call accountability ego, and suffering is blamed on karma, the system is projecting its own disorder onto those beneath it.
 
-**Evidence grade.** [[Cultural]] Attributing a devotee's doubt to ego or bad karma is guru practice with no institutional oversight anywhere.
+**Evidence grade.** [[Cultural]] Accusing critics and disciples of impurity, ego or abandoning dharma is a customary reply used by families, caste networks and gurus; no body directs it.
 :::
 
 ::: tactic n=12
@@ -687,7 +687,7 @@ Question a guru and it is your ego, your bad karma, your Western contamination. 
 
 **The counter.** Tradition becomes desensitization when repetition makes hierarchy feel cosmic. If a person stops noticing that caste, gender, guru power, or family control is human-made, the system has successfully naturalized domination.
 
-**Evidence grade.** [[Cultural]] Attributing a devotee's doubt to ego or bad karma is guru practice with no institutional oversight anywhere.
+**Evidence grade.** [[Cultural]] Normalization runs through family life, elder authority and guru practice from childhood; it rests on custom, not on any written rule.
 :::
 
 ### Stage 5 · Isolate {#stage-5}
@@ -695,7 +695,7 @@ Question a guru and it is your ego, your bad karma, your Western contamination. 
 ::: stage
 **Your world narrows until every voice you hear is inside the system, and everything you came for now runs through a middleman.**
 
-Caste and family determine marriage, employment, and social standing. In guru movements: community, housing, savings, and identity all inside the organization.
+Caste and family determine marriage, employment, and social standing. In guru movements, community, housing, savings and identity all sit inside the organization.
 
 *What it asks of you:* How much of your life is held by people who would withdraw it if you married the wrong person?
 :::
@@ -746,7 +746,7 @@ Caste and family determine marriage, employment, and social standing. In guru mo
 ::: stage
 **Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
 
-Temple offerings in the billions, administered by state departments and priestly families. Priced darshan tiers — paying for a better view of God. Guru donation empires with no audit. Caste determining marriage, work, and standing. Question a guru and it is your ego, your bad karma, your Western contamination.
+Temple offerings in the billions are administered by state departments and priestly families. Darshan is sold in priced tiers, so devotees pay for a better view of God. Guru donation empires operate with no audit. Caste determines marriage, work and standing. Question a guru and it is your ego, your bad karma, your Western contamination.
 
 *What it asks of you:* Ask for Tirupati's audited accounts. The response you get to the request will teach you more than the accounts would.
 :::
@@ -767,7 +767,7 @@ Temple offerings in the billions, administered by state departments and priestly
 
 **The counter.** Guidance becomes FLYING MONKEY behavior when everyone around the person delivers the same message of submission. If parents, priest, astrologer, guru, caste network, and relatives all converge on obedience, the tradition has outsourced coercion to family.
 
-**Evidence grade.** [[Cultural]] Ritual fees, guru donation, and caste obligation are customary; the state-administered temple funds are codified and separately sourced.
+**Evidence grade.** [[Cultural]] Relatives, priests, senior disciples and caste networks press the same message on a dissenter; this is informal community enforcement, and no body directs it.
 :::
 
 ::: tactic n=17
@@ -786,7 +786,7 @@ Temple offerings in the billions, administered by state departments and priestly
 
 **The counter.** Misrepresentation does not erase internal harm. If every critique is dismissed as anti-Hindu, then identity has become a shield against accountability.
 
-**Evidence grade.** [[Cultural]] Ritual fees, guru donation, and caste obligation are customary; the state-administered temple funds are codified and separately sourced.
+**Evidence grade.** [[Cultural]] Labeling critics anti-Hindu, Westernized or egoic is a customary reply used by families, communities and guru circles; no body directs it.
 :::
 
 ::: tactic n=18
@@ -805,7 +805,7 @@ Temple offerings in the billions, administered by state departments and priestly
 
 **The counter.** Complexity becomes stonewalling when it prevents accountability. If the practice is clear enough to enforce but too complex to challenge, the ambiguity is not depth. It is obstruction.
 
-**Evidence grade.** [[Cultural]] Ritual fees, guru donation, and caste obligation are customary; the state-administered temple funds are codified and separately sourced.
+**Evidence grade.** [[Cultural]] Refusals to discuss ("this is tradition", "you do not understand dharma") come from family elders and guru organizations as informal practice; no body sets them.
 :::
 
 ::: tactic n=19
@@ -843,7 +843,7 @@ Temple offerings in the billions, administered by state departments and priestly
 
 **The counter.** Discipline becomes TRAUMA BONDING when obedience is the only way to relieve shame created by the system. If guru, family, caste, or karma first break your self-trust and then offer peace through surrender, attachment is being manufactured.
 
-**Evidence grade.** [[Cultural]] Ritual fees, guru donation, and caste obligation are customary; the state-administered temple funds are codified and separately sourced.
+**Evidence grade.** [[Cultural]] The cycle of shame and relief runs through family, caste, guru and ritual relationships, all informal; the entry rests on how those relationships operate, not on an institutional record.
 :::
 
 ::: tactic n=21
@@ -862,7 +862,7 @@ Temple offerings in the billions, administered by state departments and priestly
 
 **The counter.** Dharma becomes LEARNED HELPLESSNESS when it makes every assigned role feel unavoidable. If the system can explain any suffering as karma and any refusal as ego, then action has been made meaningless.
 
-**Evidence grade.** [[Cultural]] Ritual fees, guru donation, and caste obligation are customary; the state-administered temple funds are codified and separately sourced.
+**Evidence grade.** [[Cultural]] Explaining every objection as karma, dharma or ego is done by families and gurus as habit; no body directs it, so the entry rests on custom.
 :::
 
 ::: tactic n=22
@@ -900,7 +900,7 @@ Temple offerings in the billions, administered by state departments and priestly
 
 **The counter.** Guidance becomes INFANTILIZATION when adults cannot refuse it without shame. If elders, astrologers, caste, and gurus must approve adulthood, the person has been kept socially underage.
 
-**Evidence grade.** [[Cultural]] Ritual fees, guru donation, and caste obligation are customary; the state-administered temple funds are codified and separately sourced.
+**Evidence grade.** [[Cultural]] The treatment of adults as dependent on elders, astrologers, caste networks and gurus is customary; no body requires it.
 :::
 
 ::: tactic n=24
@@ -920,7 +920,7 @@ Temple offerings in the billions, administered by state departments and priestly
 
 **The counter.** Layered identity becomes IDENTITY EROSION when the layers cannot be removed. If caste, family, guru, karma, and dharma define you before you speak, then identity is not unfolding. It is assignment.
 
-**Evidence grade.** [[Cultural]] Ritual fees, guru donation, and caste obligation are customary; the state-administered temple funds are codified and separately sourced.
+**Evidence grade.** [[Cultural]] The roles that replace an individual's identity (caste, family, gender, guru lineage) are conferred by custom and enforced by relatives and communities, not by any single body.
 :::
 
 ::: tactic n=25
@@ -967,7 +967,7 @@ Temple offerings in the billions, administered by state departments and priestly
 ::: stage
 **You become expensive — too many questions, too much independence — and the urgency ramps up until you are removed.**
 
-Ostracism for inter-caste or inter-faith marriage, in documented cases violence. In guru movements: loss of community, savings, and years of unpaid service, labeled a traitor to the lineage.
+Inter-caste or inter-faith marriage brings ostracism and, in documented cases, violence. In guru movements the cost is the loss of community, savings and years of unpaid service, and the departing member is labeled a traitor to the lineage.
 
 *What it asks of you:* The penalty is administered by relatives, which is exactly why no institution has to admit it exists.
 :::
@@ -988,7 +988,7 @@ Ostracism for inter-caste or inter-faith marriage, in documented cases violence.
 
 **The counter.** Meaning becomes MANUFACTURED CRISIS when disagreement is turned into cosmic emergency. If refusal of a marriage, ritual, or guru produces panic about karma, ancestors, and honor, fear is being used to close exits.
 
-**Evidence grade.** [[Cultural]] Ostracism is administered by relatives and caste councils, which is precisely why no institution has ever had to admit it exists.
+**Evidence grade.** [[Cultural]] The panic raised over a refused marriage, a neglected ritual or a criticized guru comes from families and guru circles; no body directs it.
 :::
 
 ::: tactic n=28
@@ -1036,7 +1036,7 @@ There is no roll to be struck from, which is why nothing appears to happen — w
 
 **The counter.** Continuity becomes REPLACEMENT when the person is treated as interchangeable with whoever restores honor. If obedience can replace relationship, the system values compliance over kinship.
 
-**Evidence grade.** [[Cultural]] Authority attributed to eternal dharma, with radical decentralization functioning as the strongest deniability shield in the codex.
+**Evidence grade.** [[Cultural]] Replacing a departed child or disciple with an obedient sibling, another marriage alliance or a new devotee happens inside families and guru organizations; no body directs it.
 :::
 
 ::: tactic n=30
@@ -1065,46 +1065,162 @@ Sources for this section: [5] [8]
 
 ## 13. The loops {#loops}
 
+::: lede
+The seven loops below show how the practices connect, so that each step makes the next one easier and the last step feeds the first. The loops are analysis built from findings recorded elsewhere on this page [PATTERN OBSERVED]; each step names the section or technique where its fact is recorded.
+:::
+
 ::: card
 #### 1 · Money to Doctrine to Money
 
 Ritual fees and offerings fund priesthoods and trusts that define which rites are required and who may perform them.
+
+**How it runs.**
+
+1. Devotees pay ritual fees and priestly fees, make temple offerings, and pay for priced access to darshan (section 9).
+2. Hereditary priesthoods hold the exclusive right to perform the rites of birth, marriage and death, and temple trusts and state endowment departments administer the offerings (section 7).
+3. Ritual obligation becomes open-ended: another puja, another offering, another ceremony (technique 26), and refusing an offering is treated as disrespect or spiritual negligence (technique 30).
+4. Ritual failure is interpreted as the cause of sickness, bad luck or family conflict, which gives the next payment its urgency (technique 27).
+5. The payments continue, the priestly families inherit the monopoly, and the next generation of families pays on the same terms (section 7).
+
+**Techniques that feed it.** [26 · Financial Control](#t-26), [27 · Manufactured Crisis](#t-27), [30 · Plausible Deniability](#t-30), [3 · Future Faking](#t-3).
+
+**Why it closes.** The bodies that receive the payments also hold the right to perform the rites, and the page records that audited accounts are not published (section 14). A giver cannot see where the money goes, and cannot reach the rite without the priest.
+
+**Where it could be broken, and by whom.** It weakens wherever the money becomes visible. Tirupati's trust published a white paper in 2022 (section 9), and the Right to Information process reaches government-administered temple boards (section 8). A donor can ask for the accounts before giving (section 23, question 4). Whether the priestly monopoly on rites can change is a question for the priestly families. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Tirupati's own 2022 white paper records a net worth of ₹2.26 lakh crore and 10.25 tonnes of gold on deposit, while the same trust sells darshan in priced tiers (sections 7 and 9).
 :::
 
 ::: card
 #### 2 · Fear to Dependence to Fear
 
 Karma installed in childhood makes disadvantage self-explaining; relief runs through ritual the family pays for.
+
+**How it runs.**
+
+1. Karma is taught to children, so that a child taught that her family's poverty is deserved learns not to ask who arranged it (sections 10 and 11).
+2. Present suffering is explained as past-life karma, so disadvantage explains itself and the arrangement is not questioned (techniques 5 and 6).
+3. Protest is then read as protest against one's own past actions: accepting the suffering is bondage, and resisting it adds more karma (technique 7).
+4. Relief is offered through devotion, ritual, mantra and the guru's blessing, and the family pays for it (techniques 20 and 26).
+5. Each act of relief confirms the karmic account, and the child grows up to teach it in turn (techniques 21 and 25, section 11).
+
+**Techniques that feed it.** [5 · Devaluation](#t-5), [6 · Gaslighting](#t-6), [7 · Double Bind](#t-7), [20 · Trauma Bonding](#t-20), [21 · Learned Helplessness](#t-21), [25 · Spiritual Bypassing](#t-25).
+
+**Why it closes.** The teaching that explains the suffering also supplies the remedy. A person who doubts the explanation is told the doubt is ego or bad karma (the stage 4 summary in section 12), so the doubt itself becomes the next reason for fear.
+
+**Where it could be broken, and by whom.** The page notes that the tradition's own bhakti and anti-caste currents contest the karmic explanation of inherited disadvantage (technique 5), and section 23 (question 2) asks what karma would say about the family that inherited the land. It weakens wherever a child hears that argument from someone inside the tradition. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 10 records that a child taught that her family's poverty is deserved learns not to ask who arranged it.
 :::
 
 ::: card
 #### 3 · Children to Members to Children
 
 Caste is assigned at birth and legally recorded; ashram schooling and family expectation reproduce it.
+
+**How it runs.**
+
+1. Caste identity is assigned at birth and legally recorded (section 11).
+2. Children pass through samskaras from birth, and upper-caste boys through the thread ceremony (section 11).
+3. Karma teaching applied to children explains inherited disadvantage as deserved, and gurukula and ashram schooling has produced documented abuse cases with weak oversight (section 11, technique 13).
+4. Family honor, caste expectations, astrology and community reputation narrow the field until an arranged marriage appears chosen (technique 19).
+5. The married adults assign caste to their own children and enforce the same rules as the household (section 7).
+
+**Techniques that feed it.** [13 · Normalization / Desensitization](#t-13), [19 · Manufactured Consent](#t-19), [23 · Infantilization](#t-23), [24 · Identity Erosion](#t-24).
+
+**Why it closes.** Each generation is placed in a caste before it can consent, formed by family and school before it can compare, and then enforces the same placement on the next. Nothing in the loop needs a decision to continue it.
+
+**Where it could be broken, and by whom.** It weakens where a family lets a marriage cross caste lines. That choice sits with the household, the one office in section 7 that only time removes. Section 20 names matrimonial platforms dropping caste fields as a change that would revise the page's strongest finding. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 2 shows Lakshmi hearing her mother-in-law's voice in her own when she questions her daughter about Saturday, and she hates it and does not take it back.
 :::
 
 ::: card
 #### 4 · Aid to Legitimacy to Leverage to Aid
 
 Temple wealth and religious-nationalist mobilization trade legitimacy for political protection, which secures the wealth.
+
+**How it runs.**
+
+1. Devotional offerings build large temple assets, and many major temples are administered by state governments that draw on the funds (sections 7 and 9).
+2. Religious-nationalist organizations convert religious identity into an electoral majority and a definition of national belonging, and diaspora funding flows into these projects (section 16).
+3. Godmen with mass followings receive political protection because their followers vote as blocs (section 16).
+4. Convictions come late and only after the evidence becomes impossible to bury (sections 5 and 16).
+5. The protected organizations keep their wealth and their followers, and the donations continue (section 9).
+
+**Techniques that feed it.** [2 · Weaponized Generosity](#t-2), [26 · Financial Control](#t-26), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** Followers vote as blocs, which brings political protection (section 16), and the protected organizations keep their wealth (section 9). Each step depends on the one before it, and the last returns to the first.
+
+**Where it could be broken, and by whom.** It weakens where the ordinary electoral accountability of the politicians who appoint temple boards is used, and where the criminal courts act, which section 8 names as the only authority that has ever stopped a guru. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 5 records that Gurmeet Ram Rahim Singh's 2017 conviction triggered riots with dozens of deaths.
 :::
 
 ::: card
 #### 5 · Unpaid Labor to Assets to Power to More Labor
 
 Devotee labor and donation build guru empires held by founders and their families.
+
+**How it runs.**
+
+1. Devotees give service, donations and labor to a guru's organization, and are asked for more over time: service becomes donation, surrender, secrecy and recruitment (techniques 9 and 26).
+2. The organization holds ashram real estate, branded products and donation income, controlled by the founder and family (sections 7 and 9).
+3. The finances are not audited, and nothing sits above the founder (sections 7 and 9).
+4. Followers vote as blocs, which brings political protection (section 16).
+5. New devotees arrive to serve, donate and praise, and are used to bury old allegations (technique 29).
+
+**Techniques that feed it.** [9 · Moving the Goalposts](#t-9), [26 · Financial Control](#t-26), [24 · Identity Erosion](#t-24), [29 · Replacement](#t-29).
+
+**Why it closes.** The people who produce the assets hold no office that controls them. Value moves from labor to the founder and family (section 10), and new devotees replace those who leave (technique 29).
+
+**Where it could be broken, and by whom.** It weakens where finances are public: section 9 shows that a UK charity's accounts are open because charity law requires it, while guru organizations publish little and their finances surface through courts. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 19 records that workers brought from India sued BAPS, alleging 80-hour weeks building its New Jersey temple for about $450 a month; BAPS disputed the claims.
 :::
 
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
 A godman is convicted, the organization renames itself, and the political parties that courted him do not apologize.
+
+**How it runs.**
+
+1. Criticism of a guru is met as spiritual disqualification, and devotees who report abuse are labeled deluded (section 11, technique 12).
+2. No religious body examines the guru, so the case reaches a criminal court (sections 5 and 7).
+3. The conviction comes late, after the evidence becomes impossible to bury (sections 16 and 19).
+4. The organization continues and its political patrons stay silent (section 14).
+5. The page predicts that the organization will restructure and that no trust will publish accounts (section 14), so the structure that produced the case survives it.
+
+**Techniques that feed it.** [12 · DARVO](#t-12), [18 · Silent Treatment / Stonewalling](#t-18), [29 · Replacement](#t-29), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** Courts remove the man, not the arrangement. Section 7 records that when a guru harms, there is no chair above him to appeal to, and the first authority able to act is a judge.
+
+**Where it could be broken, and by whom.** Section 23 (question 3) asks what a guru's organization changed structurally after the conviction. It weakens only if a body with standing above the guru acts, and section 7 records that none exists; the criminal courts and the electoral accountability of those who court gurus are the routes the page names in section 8. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 19 records that Asaram's life sentence was upheld in 2026 after he had been out on bail since October 2025.
 :::
 
 ::: card
 #### 7 · Persecution to Solidarity to Insulation to Unaccountability
 
 Colonial-era denigration of Hinduism was real, and is invoked to reframe caste criticism as a foreign attack.
+
+**How it runs.**
+
+1. The category 'Hinduism' was codified as a single religion under colonial rule and is partly a colonial administrative product (section 5).
+2. Caste may then be described as colonial distortion, or as culture and not religion, whenever it is criticized (technique 10, section 3).
+3. Critics of caste, guru abuse or family coercion are labeled anti-Hindu, Westernized or colonized (techniques 12 and 17).
+4. Families and guru circles deliver the same message to the critic, and the critic is cast as the offender (techniques 11 and 16).
+5. Nothing changes inside, and the next critic is met the same way.
+
+**Techniques that feed it.** [10 · Strategic Ambiguity](#t-10), [11 · Projection](#t-11), [12 · DARVO](#t-12), [16 · Flying Monkeys](#t-16), [17 · Smear Campaign](#t-17).
+
+**Why it closes.** Every criticism can be read as an attack from outside, so the criticism strengthens the solidarity that protects the arrangement.
+
+**Where it could be broken, and by whom.** Section 20 records the bhakti tradition's own rejection of caste and priestcraft (Kabir, Basava, Ravidas and the Alvars) as coming centuries before any outside critique, which answers the claim that criticism is foreign. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Technique 12 records that a person who challenges caste discrimination or guru abuse may be attacked as anti-Hindu, Westernized, disrespectful or colonized.
 :::
 
 ## 14. Say versus do {#say-do}
@@ -1120,9 +1236,9 @@ Colonial-era denigration of Hinduism was real, and is invoked to reframe caste c
 
 ### Accountability or theatre?
 
-**Last time the chair ran.** Convictions of two mass-following gurus, with their organizations continuing and their political patrons silent.
+**Last time the chair ran.** The last time was the convictions of two mass-following gurus, with their organizations continuing and their political patrons silent.
 
-**Who holds the chair now.** Temple trust boards, hereditary priesthoods, and living gurus with vote banks.
+**Who holds the chair now.** Temple trust boards, hereditary priesthoods and living gurus with vote banks hold it.
 
 **Prediction.** The next case will require a journalist to die or a court to intervene, the organization will restructure, and no trust will publish accounts.
 
@@ -1130,9 +1246,9 @@ Colonial-era denigration of Hinduism was real, and is invoked to reframe caste c
 
 | Term | What it means inside | What it does | Said plainly |
 |---|---|---|---|
-| Karma (as a social explanation) | The moral law of cause and effect across lives. | Profound as metaphysics; as a social account of someone's caste or poverty it converts a structural injustice into a personal deserving. | 'Your position is what you earned.' |
-| Guru-seva / guru-dakshina | Service and offering to the teacher. | Genuine devotional practice, and the mechanism through which unaudited wealth reaches individual gurus with nothing above them. | 'Give to the man, and there is no chair above him to ask.' |
-| Dharma (as duty enforcement) | One's proper role and obligations. | Deployed to make an assigned social position — especially a woman's — feel like a cosmic office rather than a negotiable arrangement. | 'Your place is metaphysical, so stop discussing it.' |
+| Karma (as a social explanation) | The moral law of cause and effect across lives. | It is profound as metaphysics; as a social account of someone's caste or poverty it converts a structural injustice into a personal deserving. | 'Your position is what you earned.' |
+| Guru-seva / guru-dakshina | They are service and offering to the teacher. | They are a genuine devotional practice, and the mechanism through which unaudited wealth reaches individual gurus with nothing above them. | 'Give to the man, and there is no chair above him to ask.' |
+| Dharma (as duty enforcement) | It means one's proper role and obligations. | It is deployed to make an assigned social position — especially a woman's — feel like a cosmic office rather than a negotiable arrangement. | 'Your place is metaphysical, so stop discussing it.' |
 
 ## 15. Cost & cover {#cost}
 
@@ -1145,10 +1261,10 @@ Colonial-era denigration of Hinduism was real, and is invoked to reframe caste c
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Caste standing | Yes | Birth-assigned; inter-caste marriage triggers ostracism and documented violence | “Caste is a social system, not religion.” |
-| Family and marriage | Yes | Honor pressure; documented honor killings prosecuted in Indian courts | “Crime, not culture.” |
-| Guru movement exit | Yes | Loss of community, invested savings, and years of unpaid service; labeled a traitor to the lineage | “Devotion is voluntary.” |
-| Spiritual threat | Yes | Karmic consequence framing; misfortune attributed to abandoning dharma | “It's just how karma works.” |
+| Caste standing | Yes | Caste is assigned at birth, and inter-caste marriage triggers ostracism and documented violence. | “Caste is a social system, not religion.” |
+| Family and marriage | Yes | Families apply honor pressure, and honor killings are documented and prosecuted in Indian courts. | “Crime, not culture.” |
+| Guru movement exit | Yes | Leavers lose community, invested savings and years of unpaid service, and are labeled traitors to the lineage. | “Devotion is voluntary.” |
+| Spiritual threat | Yes | Leaving is framed as carrying karmic consequences, and misfortune is attributed to abandoning dharma. | “It's just how karma works.” |
 
 ### How the cost is denied
 
@@ -1167,8 +1283,8 @@ Colonial-era denigration of Hinduism was real, and is invoked to reframe caste c
 
 ### Who benefits
 
-- Political Hindutva: parties and movements converting religious identity into electoral majority and defining national belonging religiously. [ACADEMIC SOURCE / INVESTIGATIVE REPORT]
-- State governments administering temple funds; hereditary priesthoods with ritual monopolies; godmen with corporate empires and political protection. [INVESTIGATIVE REPORT]
+- Political Hindutva benefits: parties and movements convert religious identity into electoral majority and define national belonging religiously. [ACADEMIC SOURCE / INVESTIGATIVE REPORT]
+- State governments that administer temple funds, hereditary priesthoods with ritual monopolies, and godmen with corporate empires and political protection also benefit. [INVESTIGATIVE REPORT]
 
 ### Money out, leverage back
 
@@ -1179,34 +1295,38 @@ Colonial-era denigration of Hinduism was real, and is invoked to reframe caste c
 
 ### Who pays
 
-- Dalits and lower-caste communities, bearing the tradition's oldest and largest structural harm. [GOVERNMENT REPORT]
-- Women, through dowry, menstrual exclusion, widow stigma, and guru abuse.
-- Inter-caste and inter-faith couples.
-- Children in unregulated ashram schools.
-- Devotees of convicted godmen, who lost savings and years of labor.
-- Religious minorities in India, under majoritarian pressure. [INVESTIGATIVE REPORT]
+- Dalits and lower-caste communities pay, bearing the tradition's oldest and largest structural harm. [GOVERNMENT REPORT]
+- Women pay through dowry, menstrual exclusion, widow stigma and guru abuse.
+- Inter-caste and inter-faith couples pay through ostracism and, in prosecuted cases, killing (section 17).
+- Children in unregulated ashram schools pay through documented abuse with weak oversight (section 17).
+- Devotees of convicted godmen pay, having lost savings and years of labor.
+- Religious minorities in India pay, under majoritarian pressure. [INVESTIGATIVE REPORT]
 
 ## 17. Who gets hurt most {#who-gets-hurt}
 
 ### Where the weight lands
 
+The costs in section 15 do not fall evenly. The table names who carries the most, how they carry it, and what makes it worse.
+
 | Who | How | What it compounds with |
 |---|---|---|
-| Dalits | The tradition's oldest and largest structural harm — exclusion, violence, and separate facilities | With landlessness and local police alignment with dominant castes |
-| Women | Dowry, menstrual exclusion, widow stigma, and documented guru sexual abuse | Catastrophically for Dalit women, who absorb both axes at once |
-| Inter-caste and inter-faith couples | Ostracism and, in prosecuted cases, killing | Where the family's standing depends on the marriage |
-| Children in unregulated ashram schools | Documented abuse with weak oversight | Where the ashram is also the family's spiritual authority |
-| Devotees of convicted godmen | Savings and years of unpaid service, with no recovery | For those who spoke and were exiled before the convictions |
+| Dalits | Dalits carry the tradition's oldest and largest structural harm, including exclusion, violence and separate facilities. | It compounds with landlessness and with local police alignment with dominant castes. |
+| Women | Women face dowry, menstrual exclusion, widow stigma and documented guru sexual abuse. | It compounds catastrophically for Dalit women, who absorb both axes at once. |
+| Inter-caste and inter-faith couples | Couples face ostracism and, in prosecuted cases, killing. | It compounds where the family's standing depends on the marriage. |
+| Children in unregulated ashram schools | Children suffer documented abuse with weak oversight. | It compounds where the ashram is also the family's spiritual authority. |
+| Devotees of convicted godmen | Devotees lose savings and years of unpaid service, with no recovery. | It compounds for those who spoke and were exiled before the convictions. |
 
 ## 18. The middle tiers {#tiers}
 
+Below the temple boards, the guru thrones and the caste councils, the work is done by people who see decisions without making them: salaried priests, trust employees and accountants, ashram managers, caste-council members and family elders, and teachers in religious trusts. The table sets out what each role does, what it sees, what it is asked to do and where it could refuse.
+
 | Role | Does | Sees | Is asked to | Could refuse |
 |---|---|---|---|---|
-| Temple priests on salary | Performs the rites and lives on a fraction of what passes through the hundi | The gap between the offering and the wage | To keep the ritual moving | To operate tiered access that prices proximity to the deity |
-| Temple trust employees and accountants | Handles the money | The allocations and the diversions | To treat it as government business | To close accounts that are never published |
-| Ashram managers and senior devotees | Runs the organization around a living guru | Which complaints arrive and where they go | To protect the guru's reputation | To characterize a devotee's report as envy |
-| Caste-council members and family elders | Enforces the marriage rules that no institution issued | That doctrine is against them | To uphold community standing | To attend the ostracism |
-| Schoolteachers in religious trusts | Teaches children the karmic explanation of their own position | Which children have been told their poverty is deserved | To follow the syllabus | To teach a child that their family's caste is their own fault |
+| Temple priests on salary | Perform the rites and live on a fraction of what passes through the hundi | They see the gap between the offering and the wage. | Keep the ritual moving | To operate tiered access that prices proximity to the deity |
+| Temple trust employees and accountants | Handle the money | They see the allocations and the diversions. | Treat it as government business | To close accounts that are never published |
+| Ashram managers and senior devotees | Run the organization around a living guru | They see which complaints arrive and where they go. | Protect the guru's reputation | To characterize a devotee's report as envy |
+| Caste-council members and family elders | Enforce the marriage rules that no institution issued | They see that doctrine is against them. | Uphold community standing | To attend the ostracism |
+| Schoolteachers in religious trusts | Teach children the karmic explanation of their own position | They see which children have been told their poverty is deserved. | Follow the syllabus | To teach a child that their family's caste is their own fault |
 
 ## 19. Documented cases {#cases}
 
@@ -1216,7 +1336,7 @@ Colonial-era denigration of Hinduism was real, and is invoked to reframe caste c
 - **when:** 2018
 - **what:** India's Supreme Court held that excluding women of menstruating age from a major temple was unconstitutional, converting a question of custom into a question of rights.
 - **record:** Supreme Court of India judgment
-- **outcome:** Judgment met with mass resistance and subsequent review petitions. Demonstrates purity custom operating without doctrinal necessity. A nine-judge bench heard the wider questions in 2026 and has reserved judgment; the 2018 ruling stands meanwhile.
+- **outcome:** The judgment met mass resistance and subsequent review petitions. It demonstrates purity custom operating without doctrinal necessity. A nine-judge bench heard the wider questions in 2026 and has reserved judgment; the 2018 ruling stands meanwhile.
 - **tactics:** 15, 22
 - **grade:** Documented
 :::
@@ -1271,10 +1391,10 @@ Sources for this section: [5]
 
 | What | Who | When | What it cost |
 |---|---|---|---|
-| Rape convictions of major godmen, upheld on appeal | Complainants and journalists, some of whom were killed | 2017–2026 | A journalist's life, and years of intimidation |
-| Constitutional abolition of untouchability and reservation policy | Ambedkar and the anti-caste movement | 1950 | Seventy years of resistance in practice |
-| The bhakti tradition's own rejection of caste and priestcraft | Kabir, Basava, Ravidas, the Alvars | Centuries before any outside critique | Persecution in their own lifetimes |
-| Sabarimala temple entry judgment | Petitioners and the Supreme Court | 2018 | Mass resistance and review petitions |
+| Rape convictions of major godmen were upheld on appeal. | Complainants and journalists brought them, and some of those people were killed. | 2017–2026 | It cost a journalist's life and years of intimidation. |
+| The constitution abolished untouchability and set up reservation policy. | Ambedkar and the anti-caste movement won it. | 1950 | It cost seventy years of resistance in practice. |
+| The bhakti tradition rejected caste and priestcraft from within. | Kabir, Basava, Ravidas and the Alvars (Tamil devotional poet-saints) did so. | It happened centuries before any outside critique. | They suffered persecution in their own lifetimes. |
+| The Supreme Court ruled in favor of temple entry at Sabarimala. | The petitioners and the Supreme Court achieved it. | 2018 | It met mass resistance and review petitions. |
 
 ### What would change this page
 
@@ -1286,10 +1406,10 @@ Sources for this section: [1] [4] [5]
 
 ## 21. Voices from inside {#voices}
 
-- **Bindu Ammini and Kanakadurga.** The first women to enter Sabarimala after the 2018 ruling, on 2 January 2019, under police escort; Bindu Ammini later had to leave Kerala after attacks [17].
-- **Narendra Dabholkar.** Founder of Maharashtra's anti-superstition movement, murdered in 2013 [18].
-- **The campaigners for California's caste bill,** who held a hunger strike at the Capitol in 2023 [15].
-- **The Robbinsville temple workers** who sued [7].
+- **Bindu Ammini and Kanakadurga.** They were the first women to enter Sabarimala after the 2018 ruling, on 2 January 2019, under police escort. Bindu Ammini later had to leave Kerala after attacks [17].
+- **Narendra Dabholkar.** He founded Maharashtra's anti-superstition movement and was murdered in 2013 [18]. The state's anti-superstition ordinance came four days later (section 8).
+- **The campaigners for California's caste bill.** They held a hunger strike at the Capitol in 2023 [15].
+- **The Robbinsville temple workers.** They sued BAPS, alleging forced labor, and BAPS disputed the claims (section 19) [7].
 
 ## 22. Regional variants {#regional}
 
@@ -1297,21 +1417,21 @@ Sources for this section: [1] [4] [5]
 ### India
 
 - **apex:** No apex. Major temples in several states are administered by government-appointed boards under state endowment acts.
-- **law:** State Hindu Religious and Charitable Endowments Acts; the Right to Information Act reaches government-administered temple boards. Article 17 abolished untouchability in 1950.
-- **documented:** Temple treasury administration by state boards; rape convictions of guru figures including Gurmeet Ram Rahim Singh and Asaram Bapu; ongoing litigation over temple entry.
-- **exit:** Family and caste consequences dominate; institutional exit costs are low because there is little institution to exit.
-- **regulator:** State endowment departments — and the RTI process, which is the most usable route on this card; the criminal courts.
-- **tell:** The one major tradition where a member can file a freedom-of-information request about the temple's money and get an answer.
+- **law:** The State Hindu Religious and Charitable Endowments Acts govern major temples, and the Right to Information Act reaches government-administered temple boards. Article 17 abolished untouchability in 1950.
+- **documented:** The record includes temple treasury administration by state boards, rape convictions of guru figures including Gurmeet Ram Rahim Singh and Asaram Bapu, and ongoing litigation over temple entry.
+- **exit:** Family and caste consequences dominate, and institutional exit costs are low because there is little institution to exit.
+- **regulator:** The regulators are the state endowment departments, the RTI process, which is the most usable route on this card, and the criminal courts.
+- **tell:** This is the one major tradition where a member can file a freedom-of-information request about the temple's money and get an answer.
 :::
 
 ::: card
 ### Diaspora (UK, US, Canada)
 
-- **apex:** Individual temple trusts and transnational movements — BAPS, ISKCON, and others.
-- **law:** Charity Commission, IRS 990s for non-church-classified entities, CRA listings. Labour law applies to construction and temple work.
+- **apex:** The apex is individual temple trusts and transnational movements, including BAPS, ISKCON and others.
+- **law:** Oversight comes from the Charity Commission (the charity regulator for England and Wales), IRS 990s (the annual returns filed by US non-profits) for non-church-classified entities, and Canada Revenue Agency (CRA) listings. Labour law applies to construction and temple work.
 - **documented:** US federal litigation concerning workers at a large religious construction project brought forced-labour and wage claims into court. A federal criminal investigation closed without charges in 2025; the civil case continues. UK charity filings for major temple trusts are public.
-- **exit:** Community and marriage consequences; institutional cost is generally low.
-- **regulator:** Charity Commission, CRA, IRS; labour and wage-and-hour authorities.
+- **exit:** The consequences fall on community and marriage, and the institutional cost is generally low.
+- **regulator:** The regulators are the Charity Commission, the CRA and the IRS, together with labour and wage-and-hour authorities.
 - **tell:** Diaspora institutions are frequently more disclosed than their home-country counterparts, because they registered as charities in jurisdictions that require accounts.
 :::
 
@@ -1346,7 +1466,7 @@ Practical guidance, not legal advice.
 2. **Caste discrimination at work** is covered by existing law in some places and expressly in Seattle [15][16].
 3. **If you face a forced marriage or honour-based abuse,** use specialist help [22].
 4. **If you were abused by a guru or temple official,** go to the police; Indian courts have convicted even the most powerful [3][4].
-5. **Find support** [20][21].
+5. **Find support** through the helplines listed in section 25 [20][21].
 
 ## 25. Where to get help {#help}
 
