@@ -3638,3 +3638,15 @@ Dubai would follow") and an architecture that imports each religion's MD into th
   files and in PDF text. `scripts/sacred_divide_repair.py` stays as a guard (logs to `logs/repair-log/`), but there is no ligature defect in v4.
 - **Fixed:** v4 label bug where `tactics: 2` in §19 cases displayed loop names (`TACTIC_NAMES` in `scripts/sacred-divide-pdf.py` also matched the
   §13 loop cards and overwrote techniques 1–7). Now scoped to the §12 techniques section. Site + PDFs must be rebuilt to pick it up.
+
+## 2026-10-03 — Sacred Divide: editing round, first finished volume (protestant-evangelical), playbook
+- Language pass + fact-check done and committed for 31 of 34 volumes (reversible edits in `content/sacred-divide/edits/`). New Age, Unification Church, Indigenous run last.
+- **Protestant/Evangelical (Southern Baptist sector) is the worked example** of "fix every discrepancy, rebuild, ship a PDF and a TikTok series". The whole procedure and the traps are in
+  `docs/sacred-divide-v5/PLAYBOOK-volume-to-pdf-and-tiktok.md`; the agent brief is now in the repo as `docs/sacred-divide-v5/AGENT-BRIEF.md` (it used to live in /tmp and would be lost).
+- Results kept in `exports/`: `pe-1-pdf-and-documents.zip`, `pe-tiktok-posts-01-to-04.zip`, `pe-tiktok-posts-05-to-08.zip`, `pe-tiktok-posts-09-to-11.zip` (each under the 30 MB upload limit).
+- Fix log: `docs/sacred-divide-v5/protestant-evangelical-FIXLOG.md` (42 reversible edits PE-D001–D042; grades regraded, tally now Taught 18 / Cultural 10 / Documented 2).
+- **Bugs found and fixed while building it:** PDF builder inserted hard-coded Catholic pull-quotes into every volume (now per-volume `content/sacred-divide/pullquotes/<id>.json`); loops forced `break-inside: avoid` and left near-empty pages; cover title overflowed on long names.
+- Shared help-line corrections applied globally: Faith to Faithless (ALL-F01/F02), Recovering from Religion region (ALL-F03), Muslim Women's Network helpline 0800 999 5786 (ALL-F04–F06). All logged in DISCREPANCIES.md for sign-off.
+- Template wording still shared by 27 volumes and flagged for one global fix: "attributed to God" in stage 8 / technique 30 (non-theistic traditions rewrote it locally), and the generated "N documented cases … court, regulator or inquiry record" sentence.
+- The full PDF design pass (page breaks) remains paused; roughly a third of pages in the Protestant PDF still have more than 15% blank foot.
+- Agent dispatch history: session/weekly 429s hit four times; each time one agent was sent as a canary after the stated reset before resuming two at a time.

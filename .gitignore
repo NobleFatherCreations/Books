@@ -38,6 +38,4 @@ tools/pdf/.build-*.html
 # library/faith/ (scripts/sacred-divide-site.py --base /faith/ --pdf-base /faith/pdf/ --ext "" --live --out library/faith)
 library/_undeployed/sacred-divide-redesign/
 exports/tiktok-*/
-exports/pe/tiktok/
 exports/sacred-divide-protestant-evangelical-pdf-and-tiktok.zip
-exports/pe-*.zip
