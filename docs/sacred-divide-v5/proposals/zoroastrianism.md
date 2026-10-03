@@ -1,0 +1,18 @@
+# Expansion proposals — Zoroastrianism, awaiting approval (nothing below has been written into the text)
+
+Each proposal names the reader need, the section that fails it, the proposed source and the evidence grade it would carry.
+
+| # | Section | Reader need | Proposed addition | Source | Grade / receipt |
+|---|---|---|---|---|---|
+| E1 | §5, §8, §19, §22 | The Nagpur case lacks the fact that interim arrangements exist elsewhere | "Counsel told the Court that Parsi women who married out had been granted interim permission to pray in Mumbai, Delhi, Kolkata and Pune; Nagpur has one agiary." Name the petitioner (Dina Budhraja) if the owner allows. | LiveLaw, 25 May 2026; Sansa Legal | COURT RECORD · Documented |
+| E2 | §5, §8, §23 | The 2026 bench hearing has dates the reader can check | "The nine-judge bench heard the Sabarimala reference from 7 April to 14 May 2026 and reserved judgment; on 6 May Justice Nagarathna said marriage as a basis of classification appears discriminatory against women." Update when the verdict is delivered (expected about 6 October 2026). | Leaflet, 6 May 2026; Sansa Legal | COURT RECORD · Documented |
+| E3 | §9 | The chart has no membership or fee context; the BPP's own finances are not shown | Add the Bombay Parsi Punchayet's published annual accounts or trust-fund totals, with year. | BPP annual report; Charity Commissioner of Maharashtra filings | FINANCIAL RECORD |
+| E4 | §1, §7 | The Jiyo Parsi count is out of date | "534 births supported since 2014-15, Rs 37.43 crore spent (August 2026)." | IANS, 10 Aug 2026; PIB | GOVERNMENT REPORT · Documented |
+| E5 | §7, §8 | No figure for the Punchayet's electorate beyond "25,000+"; no date of the sitting board | "Seven trustees elected on 29 May 2022; next election due 2027 (if terms are five years)." Confirm the term length. | BPP election commission declaration (2022) | OFFICIAL POLICY |
+| E6 | §6, §7 | Iran's figure is a 2011 census count with no recent estimate | Add a post-2016 Iranian census or demographer estimate with date. | Statistical Centre of Iran; FEZANA | GOVERNMENT REPORT |
+| E7 | §11, §14, §24 | The page quotes "official denials" with no named speaker | Replace with a named statement from the Punchayet, a Vada Dastur or the Nagpur panchayat's reply in court. | Court filings; BPP statements | OFFICIAL POLICY / COURT RECORD |
+| E8 | §11 | Menstrual seclusion and female instructors in Iran carry no source | Cite a scholarly source for each or cut. | Academic source on Parsi/Iranian practice | ACADEMIC SOURCE |
+| E9 | §21 | The voices are a litigant, a petitioner and an electorate; none is a priest or a trustee speaking on the record | A named reformist priest or a former trustee quoted on the record. | Press interviews | FORMER MEMBER TESTIMONY |
+| E10 | §25 | No help line for India or Iran, and none whose remit fits an intermarried Parsi woman | One verified legal-aid or women's rights contact in India (for example a state legal services authority helpline) and one diaspora community welfare line, or a line saying none was found. | NALSA / state legal services authority; FEZANA | — |
+| E11 | §20, §24 | The Mumbai, Delhi, Kolkata and Pune arrangements are evidence that the finding in "What would change this page" is partly met | A row in §20 for the interim consent arrangements, graded Documented. | LiveLaw, 25 May 2026 | COURT RECORD · Documented |
+| E12 | §9 pipeline cards | Two cards are shared template text | Replace "Ritual fee ladder" and "Honor and marriage economy" with cards drawn from §7 and §9 (fire-temple offerings and priestly fees; funerary access) once fee practice is sourced. | Academic or court source on priestly fees | — |

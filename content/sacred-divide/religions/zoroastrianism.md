@@ -18,13 +18,13 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | ~110,000–200,000 worldwide — among the smallest traditions in this codex. [ACADEMIC SOURCE] |
-| Who's in charge | Bombay Parsi Punchayet — Seven trustees elected by the city's Parsi electorate, controlling the housing trusts, the Towers of Silence, and — in effect — the boundary disputes over who is Parsi |
+| Size | The worldwide total is ~110,000–200,000, among the smallest of any tradition in this codex. [ACADEMIC SOURCE] |
+| Who's in charge | The Bombay Parsi Punchayet, the central trust board of the Parsi community in Mumbai, is in charge. Its seven trustees are elected by the city's Parsi (Indian Zoroastrian) electorate and control the housing trusts, the Towers of Silence (the raised structures where Parsis traditionally lay out their dead) and, in effect, the boundary disputes over who is Parsi. |
 | Chosen by / removable by | Community ballot / The next ballot — and trustee fights are fought accordingly |
-| Money in one line | Enormous communal trusts and charitable endowments (housing colonies, hospitals, funds) — benevolence that is also leverage: access conditioned on communal standing and marriage choices. [COURT RECORD: BPP housing/intermarriage litigation] |
+| Money in one line | The community holds enormous communal trusts and charitable endowments (housing colonies, hospitals, funds), a benevolence that is also leverage, because access is conditioned on communal standing and marriage choices. [COURT RECORD: BPP housing/intermarriage litigation] |
 | Leaving in one line | Intermarriage can cost temple access, communal housing, funerary rites (Towers of Silence), and children's initiation — exit penalties administered as boundary maintenance. |
 | The unanswered question | The faith of Zarathustra's free choice — why is the child of a Parsi mother and a non-Parsi father still contested at the temple door? |
-| Evidence | 5 of 30 techniques sourced to a named document; grades: Codified 18, Cultural 12 |
+| Evidence | Five of the 30 techniques are sourced to a named document. The grades are Codified 18 and Cultural 12. |
 | Family | Persian-born — zoroastrianism, bahai |
 | Last checked | 2026-09-27 |
 :::
@@ -41,15 +41,15 @@ partial: []
 
 *Freny · A Tuesday in Meher · A Parsi colony in Mumbai*
 
-Sudreh and kusti at six, the knots and the words, and the fire in her mind that has been kept alight for three thousand years by people who chose to keep it alight. She is fifty-eight and she has never once found this boring.
+Sudreh and kusti (the white undershirt and sacred cord worn by initiated Zoroastrians) at six, the knots and the words, and the fire in her mind that has been kept alight for three thousand years by people who chose to keep it alight. She is fifty-eight and she has never once found this boring.
 
 The flat is a trust flat. Two bedrooms, a fraction of market rent, in a colony with a hospital and a school and a fund for school fees. It is one of the most extraordinary charitable arrangements any community on earth has built, and her grandfather's generation built it, and she says so to anyone who will listen.
 
-Her daughter Zenobia married Rohan in 2019. Rohan is not Parsi. Zenobia's son Kayaan is three and has not had a navjote and will not have one, because Zenobia is the mother and not the father. If Freny's son had married a Hindu girl, the child would be initiated. Freny has done this arithmetic more times than she has done any other arithmetic in her life.
+Her daughter Zenobia married Rohan in 2019. Rohan is not Parsi. Zenobia's son Kayaan is three and has not had a navjote (the initiation ceremony) and will not have one, because Zenobia is the mother and not the father. If Freny's son had married a Hindu girl, the child would be initiated. Freny has done this arithmetic more times than she has done any other arithmetic in her life.
 
 At eleven she goes to the fire temple. Zenobia does not come. Zenobia has not come since 2019, and has never made a scene about it, and has simply stopped, which Freny finds harder than a scene.
 
-At lunch her neighbour mentions the housing list, and a case in the courts, and a priest in the suburbs who performs navjotes for children like Kayaan and who has been told not to. Freny says *hmm* and passes the dhansak. She has the priest's number in her phone. She has had it for two years.
+At lunch her neighbour mentions the housing list, and a case in the courts, and a priest in the suburbs who performs navjotes for children like Kayaan and who has been told not to. Freny says *hmm* and passes the dhansak (a Parsi dish of meat and lentils). She has the priest's number in her phone. She has had it for two years.
 
 At night she sits by the window. She thinks: we are one hundred thousand people and we are getting fewer every year, and everyone says the community must survive. And then she thinks about a three-year-old who cannot enter the building where his great-grandfather's fire is kept, and she cannot make the two thoughts into one thought, and she has stopped expecting to.
 
@@ -75,7 +75,7 @@ The faith of Zarathustra's free choice — why is the child of a Parsi mother an
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Ritual and temple access | Yes | Fire temple entry and funerary rites denied to those deemed outside the community | “These are religious requirements, not punishments.” |
+| Ritual and temple access | Yes | Fire temple entry and funerary rites are denied to those deemed outside the community. | “These are religious requirements, not punishments.” |
 
 ### The strongest objection, answered
 
@@ -92,14 +92,16 @@ Sources for this section: [4] [6]
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-One of the world's oldest continuously practiced religions (~100–200K adherents: Parsis of India, Iranian Zoroastrians, diaspora); ethical dualism of good and evil, fire temples, and the triad of good thoughts, words, deeds.
+Zoroastrianism is one of the world's oldest continuously practiced religions, with ~100–200K adherents (Parsis of India, Iranian Zoroastrians and the diaspora). Its teaching is ethical dualism (the belief that good and evil are opposed and that each person chooses between them). It has fire temples and the triad of good thoughts, good words and good deeds.
 :::
 
-- Reformist associations initiating children of intermarried women; Iranian Zoroastrian acceptance practices; the tradition's own ethic — free moral choice — as internal critique of coerced boundaries.
+Healthy practice here looks like reformist associations that initiate the children of intermarried women, and Iranian Zoroastrian acceptance practices that diverge from Parsi orthodoxy. It also looks like the tradition's own ethic of free moral choice, used as an internal critique of coerced boundaries.
+
+Some of that standard is already on the record. The Bombay Parsi Punchayet's trustees are elected by an electorate of more than 25,000 [7]. Disputes over who counts as Parsi are litigated in open court rather than concealed [4][6]. The Zoroastrian Trust Funds of Europe files public accounts with the Charity Commission [10], and Iran's constitution recognizes Zoroastrians as a minority with one reserved parliamentary seat [9]. Each is a place where the tradition meets the standard this page applies, and each is recorded here as credit.
 
 ## 5. History {#history}
 
-Prophet Zarathustra in ancient Iran (dating contested, ~2nd–1st millennium BCE); imperial religion of Persian empires; reduced to a minority under Islam; the Parsi migration to India built a prosperous, tightly-bounded community.
+The prophet Zarathustra taught in ancient Iran (dating contested, ~2nd–1st millennium BCE). The religion became the imperial religion of the Persian empires and was reduced to a minority under Islam. The Parsi migration to India built a prosperous, tightly-bounded community.
 
 ### Timeline
 
@@ -107,8 +109,8 @@ Prophet Zarathustra in ancient Iran (dating contested, ~2nd–1st millennium BCE
 c. 1500–1000 BCE (contested) | Zarathustra's teaching in ancient Iran | Ethical dualism and individual moral choice — a foundation notably hostile to coercion.
 550–330 BCE | Achaemenid Persian Empire | Royal patronage; the faith of a world empire.
 224–651 CE | Sasanian Empire; Zoroastrianism as state religion with an organized priesthood | State church with heresy enforcement — the tradition's own high-control era. [ACADEMIC SOURCE]
-651–900 CE | Arab conquest; gradual conversion; jizya taxation of remaining Zoroastrians | From establishment to persecuted minority within two centuries.
-8th–10th c. | Migration to Gujarat; the Parsi community forms | Survival strategy: tight endogamy and community boundary maintenance.
+651–900 CE | Arab conquest; gradual conversion; jizya (the poll tax on non-Muslims under Islamic rule) taxation of remaining Zoroastrians | From establishment to persecuted minority within two centuries.
+8th–10th c. | Migration to Gujarat; the Parsi community forms | Survival strategy: tight endogamy (marriage only within the community) and community boundary maintenance.
 1600s–1800s | Parsi commercial prominence under Mughal and then British rule; Bombay Parsi Punchayet established | Enormous communal trusts created — benevolence with governance power. [FINANCIAL RECORD]
 1800s | Priestly reform debates; Iranian Zoroastrians' jizya abolished 1882 | Reform currents emerge in both communities.
 1900s | Demographic decline begins; intermarriage disputes intensify; global diaspora forms | Boundary questions become existential.
@@ -148,14 +150,14 @@ Sources for this section: [4] [6] [8]
 
 ## 6. Branches & variants {#branches}
 
-Parsi (Indian) and Iranian Zoroastrian communities; reformist versus orthodox positions on conversion and intermarriage; Ilm-e-Kshnoom and other currents.
+The main communities are the Parsi (Indian) and Iranian Zoroastrian communities. Reformist and orthodox positions differ on conversion and intermarriage, and other currents include Ilm-e-Kshnoom (an esoteric Parsi school).
 
 | Community | Size and place | What differs on this page's questions |
 |---|---|---|
-| **Parsis (India)** | 57,264 in the 2011 census [1] | Trusts and panchayats decide access to fire temples and Towers of Silence; who counts as Parsi has been litigated since 1908 [4][6][7] |
-| **Iranian Zoroastrians** | Iran's census counted 25,271; demographers estimate fewer [2] | A recognized minority with one reserved seat in parliament [9] |
-| **Diaspora** | UK, North America, Australia; world total about 111,000–122,000 [2] | Community associations and trusts, often registered charities [10] |
-| **Orthodox and reformist currents** | Across all three | Disagree on conversion, and on whether children of women who marry out are Zoroastrian [4] |
+| **Parsis (India)** | The 2011 census counted 57,264 Parsis [1]. | Trusts and panchayats (community councils) decide access to fire temples and Towers of Silence, and who counts as Parsi has been litigated since 1908 [4][6][7]. |
+| **Iranian Zoroastrians** | Iran's census counted 25,271, and demographers estimate fewer [2]. | They are a recognized minority with one reserved seat in parliament [9]. |
+| **Diaspora** | The diaspora lives in the UK, North America and Australia, and the world total is about 111,000–122,000 [2]. | Community associations and trusts organize it, often as registered charities [10]. |
+| **Orthodox and reformist currents** | These currents run across all three communities. | They disagree on conversion, and on whether children of women who marry out are Zoroastrian [4]. |
 
 ## 7. Structure {#structure}
 
@@ -163,15 +165,15 @@ Parsi (Indian) and Iranian Zoroastrian communities; reformist versus orthodox po
 
 |  |  |
 |---|---|
-| Adherents | ~110,000–200,000 worldwide — among the smallest traditions in this codex. [ACADEMIC SOURCE] |
-| Regions | India (Mumbai, Gujarat — the Parsi community, ~50,000–60,000 and falling), Iran (~15,000–25,000), plus North America, UK, Australia, Gulf states. |
-| Trend | Sustained decline: very low fertility, late marriage, high intermarriage, and — decisively — non-acceptance of intermarried women's children in the orthodox Parsi mainstream. Indian government funding has supported fertility programs for the community. [GOVERNMENT REPORT] |
+| Adherents | The worldwide total is ~110,000–200,000, among the smallest of any tradition in this codex. [ACADEMIC SOURCE] |
+| Regions | Zoroastrians live in India (Mumbai and Gujarat, where the Parsi community numbers ~50,000–60,000 and is falling), in Iran (~15,000–25,000), and in North America, the United Kingdom, Australia and the Gulf states. |
+| Trend | The decline is sustained. Its causes are very low fertility, late marriage, high intermarriage and, decisively, non-acceptance of intermarried women's children in the orthodox Parsi mainstream. Indian government funding has supported fertility programs for the community. [GOVERNMENT REPORT] |
 | Participation | Community identity is exceptionally strong; institutional authority over housing, charity, and ritual access makes standing consequential in a way most small communities cannot match. |
 
 ### Authority
 
-- Hereditary priesthood (only sons of priests may be ordained); community panchayats and trusts (notably the Bombay Parsi Punchayet) controlling housing, charity, and communal definition.
-- The core control lever is boundary definition: who counts as Zoroastrian — patrilineal rules excluding intermarried women's children in the Parsi mainstream. [OFFICIAL POLICY: trust rules; litigated in Indian courts — COURT RECORD]
+- The priesthood is hereditary, and only sons of priests may be ordained. Community panchayats and trusts, notably the Bombay Parsi Punchayet, control housing, charity and the definition of the community.
+- The core control lever is the definition of who counts as Zoroastrian, and the Parsi mainstream defines it by patrilineal rules (descent traced through the father) that exclude intermarried women's children. [OFFICIAL POLICY: trust rules; litigated in Indian courts — COURT RECORD]
 
 ### The top of the chain
 
@@ -182,7 +184,7 @@ One of the only elected apexes in this codex — and the elections are fought pr
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
 | Bombay Parsi Punchayet | Seven trustees elected by the city's Parsi electorate, controlling the housing trusts, the Towers of Silence, and — in effect — the boundary disputes over who is Parsi | Community ballot | The next ballot — and trustee fights are fought accordingly |
-| The high priesthood | The Vada Dasturs of the leading fire temples, holding gate authority over navjote and the temple-entry disputes in intermarriage cases | Hereditary and temple appointment | Nobody |
+| The high priesthood | The Vada Dasturs (senior high priests) of the leading fire temples, holding gate authority over navjote and the temple-entry disputes in intermarriage cases | Hereditary and temple appointment | Nobody |
 
 ::: tell
 Zarathustra's own hymns put free choice at the center of the faith. The live disputes at the temple door are over whether a child of the 'wrong' parent may make that choice.
@@ -192,11 +194,11 @@ Zarathustra's own hymns put free choice at the center of the faith. The live dis
 
 | Entity | Type | Holder | Holds | Why it matters to you | Receipt |
 |---|---|---|---|---|---|
-| Communal trust boards | Endowment governance | Elected trustees | Housing, healthcare, education, and welfare, allocated by criteria tied to communal standing | Your flat, your hospital, your child's initiation | [COURT RECORD: housing and initiation litigation] |
-| Hereditary priesthood | Inherited office | Sons of priestly families only | Exclusive right to perform the rites, and a shrinking supply of practitioners | Whether anyone can bury your parents properly | [ACADEMIC SOURCE] |
-| High priests and orthodox authorities | Religious authority | Named senior priests | Determination of who counts, and sanction of reformist priests who initiate intermarried women's children | Whether your child exists religiously | [INVESTIGATIVE REPORT] |
-| Housing colonies (baugs) | Property | Trust allocation committees | Subsidized housing withheld on marriage grounds | Where you live, decided by whom you married | [COURT RECORD] |
-| Funerary institutions | Rites | Community-controlled administration | Access to the Towers of Silence and the last rites | Whether you may bury your own mother | [OFFICIAL POLICY] |
+| Communal trust boards | Endowment governance | Elected trustees | They hold housing, healthcare, education and welfare, and allocate them by criteria tied to communal standing. | They decide your flat, your hospital and your child's initiation. | [COURT RECORD: housing and initiation litigation] |
+| Hereditary priesthood | Inherited office | Sons of priestly families only | They hold the exclusive right to perform the rites, and the supply of practitioners is shrinking. | They decide whether anyone can perform your parents' funeral rites properly. | [ACADEMIC SOURCE] |
+| High priests and orthodox authorities | Religious authority | Named senior priests | They determine who counts, and they sanction reformist priests who initiate intermarried women's children. | They decide whether your child exists religiously. | [INVESTIGATIVE REPORT] |
+| Housing colonies (baugs) | Property | Trust allocation committees | They hold subsidized housing and withhold it on marriage grounds. | Where you live is decided by whom you married. | [COURT RECORD] |
+| Funerary institutions | Rites | Community-controlled administration | They control access to the Towers of Silence and the last rites. | They decide whether you may take part in your own mother's last rites. | [OFFICIAL POLICY] |
 
 ::: cites
 Sources for this section: [1] [2] [7] [8]
@@ -206,11 +208,11 @@ Sources for this section: [1] [2] [7] [8]
 
 | Country | What the law does | The accountability question |
 |---|---|---|
-| **India — who is Parsi** | *Petit v. Jijibhai* (1908) is the foundational ruling [6]; the Gujarat High Court held that a Parsi woman ceases to be Parsi on marrying out [4] | The Supreme Court let Goolrokh Gupta attend her parents' funeral rites (2017) and sent the question to a larger bench [4]; in 2026 it asked the Nagpur panchayat whether a woman who married out could pray at an agiary [5] |
-| **India — trustees** | The Bombay Parsi Punchayet's trustees are elected by an electorate of 25,000+ [7] | One of the few genuinely elected religious authorities in this book [7] |
-| **India — population** | The *Jiyo Parsi* scheme (from 2013–14) funds fertility support; more than 490 births supported [3] | A state programme to slow a community's decline [3] |
+| **India — who is Parsi** | *Petit v. Jijibhai* (1908) is the foundational ruling [6], and the Gujarat High Court held that a Parsi woman ceases to be Parsi on marrying out [4]. | The Supreme Court let Goolrokh Gupta attend her parents' funeral rites (2017) and sent the question to a larger bench [4]. In 2026 it asked the Nagpur panchayat whether a woman who married out could pray at an agiary (a Zoroastrian fire temple) [5]. |
+| **India — trustees** | The Bombay Parsi Punchayet's trustees are elected by an electorate of 25,000+ [7] | It is one of the few genuinely elected religious authorities in this book [7]. |
+| **India — population** | The *Jiyo Parsi* ("Live, Parsi") scheme (from 2013–14) funds fertility support, and more than 490 births have been supported [3]. | It is a state programme to slow a community's decline [3]. |
 | **Iran** | Zoroastrians are a recognized minority (Article 13) and elect one member of parliament (Article 64) [9] | — |
-| **United Kingdom** | Charity law [10] | The Zoroastrian Trust Funds of Europe files public accounts [10] |
+| **United Kingdom** | Charity law governs the community's trusts [10]. | The Zoroastrian Trust Funds of Europe files public accounts [10]. |
 
 ### Who can compel an answer
 
@@ -220,16 +222,16 @@ The community's own trustee elections — one of the few real internal levers in
 
 ### Where it comes from
 
-- Enormous communal trusts and charitable endowments (housing colonies, hospitals, funds) — benevolence that is also leverage: access conditioned on communal standing and marriage choices. [COURT RECORD: BPP housing/intermarriage litigation]
+- The community holds enormous communal trusts and charitable endowments (housing colonies, hospitals, funds), a benevolence that is also leverage, because access is conditioned on communal standing and marriage choices. [COURT RECORD: BPP housing/intermarriage litigation]
 
 ### Follow the money
 
 | Flow | Stated purpose | How it controls | Who benefits |
 |---|---|---|---|
-| Communal trusts and charitable funds (BPP and others) | Housing, healthcare, education, welfare | Access conditioned on communal standing and marriage choices — benevolence as boundary enforcement | Trust boards; and genuinely, community members in need [COURT RECORD] |
-| Housing colonies (baugs) | Affordable community housing | Subsidized housing withheld from those who marry out — the most concrete exit penalty here | Trust boards controlling allocation |
-| Ritual and funerary fees | Priestly services | Hereditary priesthood with limited numbers; funerary access is community-controlled | Priestly families and trusts |
-| Endowment investment income | Perpetual community support | Large historic endowments governed by small elected boards with contested legitimacy | Board members and their constituencies |
+| Communal trusts and charitable funds (BPP and others) | The stated purpose is housing, healthcare, education and welfare. | Access is conditioned on communal standing and marriage choices, so benevolence works as boundary enforcement. | Trust boards benefit and, genuinely, so do community members in need. [COURT RECORD] |
+| Housing colonies (baugs) | The stated purpose is affordable community housing. | Subsidized housing is withheld from those who marry out, which is the most concrete exit penalty here. | The trust boards that control allocation benefit. |
+| Ritual and funerary fees | The stated purpose is priestly services. | The priesthood is hereditary and limited in numbers, and funerary access is community-controlled. | Priestly families and trusts benefit. |
+| Endowment investment income | The stated purpose is perpetual community support. | Large historic endowments are governed by small elected boards whose legitimacy is contested. | Board members and their constituencies benefit. |
 
 ### Pipelines this tradition shares
 
@@ -250,7 +252,7 @@ The community's own trustee elections — one of the few real internal levers in
 
 **Source.** Life passages — birth, marriage, death, blessing
 
-**Path.** Officiant → Parish or temple → Diocesan or central share
+**Path.** Officiant → Fire temple or community trust
 
 **Disclosed.** Suggested offerings
 
@@ -278,9 +280,9 @@ The community's own trustee elections — one of the few real internal levers in
  "cite":[10]}
 ```
 
-- **ZTFE, year to March 2025:** income £478,900; spending £520,180 [10].
-- **India:** the Bombay Parsi Punchayet's trusts control housing and the Towers of Silence (see Money above) [7].
-- **Jiyo Parsi:** a government scheme paying for fertility treatment and support [3].
+- **ZTFE (the Zoroastrian Trust Funds of Europe), year to March 2025:** Income was £478,900 and spending was £520,180 [10].
+- **India:** The Bombay Parsi Punchayet's trusts control housing and the Towers of Silence (see Money above) [7].
+- **Jiyo Parsi:** This is a government scheme that pays for fertility treatment and support [3].
 
 ## 10. Genealogy {#genealogy}
 
@@ -299,9 +301,9 @@ The community's own trustee elections — one of the few real internal levers in
 ::: card
 #### Communal housing and welfare conditioned on standing
 
-**Origin.** Enormous charitable trusts built by prosperous Parsi families in the 18th–19th centuries: housing colonies, hospitals, funds. [FINANCIAL RECORD]
+**Origin.** Prosperous Parsi families built enormous charitable trusts in the 18th–19th centuries: housing colonies, hospitals and funds. [FINANCIAL RECORD]
 
-**What it was for.** Genuine and remarkable philanthropy — a community that took care of its poor better than almost any comparable group.
+**What it was for.** It was genuine and remarkable philanthropy from a community that took care of its poor better than almost any comparable group.
 
 **Why that reason expired.** When access is conditioned on communal standing and marriage choices, benevolence becomes enforcement. A woman who marries out can lose subsidized housing. That is not charity; it is a lever. [COURT RECORD]
 
@@ -311,32 +313,32 @@ The community's own trustee elections — one of the few real internal levers in
 ::: card
 #### Hereditary priesthood
 
-**Origin.** Priesthood restricted to sons of priestly families since antiquity. [ACADEMIC SOURCE]
+**Origin.** The priesthood has been restricted to sons of priestly families since antiquity. [ACADEMIC SOURCE]
 
-**What it was for.** Transmission of complex liturgical knowledge in a family-apprenticeship model.
+**What it was for.** It transmitted complex liturgical knowledge in a family-apprenticeship model.
 
 **Why that reason expired.** With a shrinking population, the priesthood shrinks faster — and heredity means the community cannot recruit ability from outside the priestly families. It is an inheritance structure limiting the supply of the very thing the community needs to survive.
 
-**Who benefits now.** Priestly families' status and ritual monopoly. The cost is a liturgical tradition running out of practitioners.
+**Who benefits now.** Priestly families benefit through their status and ritual monopoly. The cost is a liturgical tradition running out of practitioners.
 :::
 
 ::: card
 #### Funerary and temple access as boundary enforcement
 
-**Origin.** Purity requirements around fire temples and the Towers of Silence. [OFFICIAL POLICY]
+**Origin.** The origin is purity requirements around fire temples and the Towers of Silence. [OFFICIAL POLICY]
 
-**What it was for.** Ritual purity in a tradition with a highly developed purity framework.
+**What it was for.** It served ritual purity in a tradition with a highly developed purity framework.
 
-**Why that reason expired.** It now operates as the final sanction: an intermarried woman may be denied the rites for her own parents. Purity language performing a membership function.
+**Why that reason expired.** It now operates as the final sanction: an intermarried woman may be denied the rites for her own parents. Purity language is performing a membership function.
 
-**Who benefits now.** The boundary itself, and those who administer it.
+**Who benefits now.** The boundary itself benefits, and so do those who administer it.
 :::
 
 ## 11. Reach {#reach}
 
 ### Information
 
-- Priestly authority over ritual correctness; reformist priests who initiate children of intermarried mothers have faced sanction and exclusion from major fire temples. [INVESTIGATIVE REPORT]
+- Priests hold authority over ritual correctness, and reformist priests who initiate children of intermarried mothers have faced sanction and exclusion from major fire temples. [INVESTIGATIVE REPORT]
 - Community disputes are largely public and litigated rather than concealed — an unusual degree of transparency, enforced by Indian courts. [COURT RECORD]
 - Debate over Towers of Silence practice and reform is vigorous and open within the community.
 
@@ -366,7 +368,7 @@ Thirty named techniques from domestic-abuse and social-psychology research, appl
 ::: stage
 **You arrive with a need and are met with more warmth than you have had in years.**
 
-Ancient heritage, sacred fire, pride in one of the world's oldest faiths, and the message that you personally carry the flame forward.
+The welcome is built from ancient heritage, sacred fire, pride in one of the world's oldest faiths, and the message that you personally carry the flame forward.
 
 *What it asks of you:* Being told you are essential to a people's survival is love and a job description at once.
 :::
@@ -413,7 +415,7 @@ Ancient heritage, sacred fire, pride in one of the world's oldest faiths, and th
 ::: stage
 **You are given a future that cannot be verified, and a rope for whenever you drift toward the door.**
 
-The survival of one of the world's oldest faiths, resting partly on you; the flame carried forward; the ancestors' regard. Retrieval requires undoing the marriage or conceding the child's standing.
+The future offered is the survival of one of the world's oldest faiths, resting partly on you, with the flame carried forward and the ancestors' regard. Retrieval requires undoing the marriage or conceding the child's standing.
 
 *What it asks of you:* You were told you are essential to a people's survival. That is love and a job description delivered in the same sentence.
 :::
@@ -435,7 +437,7 @@ The survival of one of the world's oldest faiths, resting partly on you; the fla
 
 **The counter.** Survival becomes future faking when individual lives are treated as fuel for an ancient project. If someone’s marriage, children, identity, or doubts are managed for the sake of a future community they may not freely choose, then preservation has become possession.
 
-**Evidence grade.** [[Cultural]] Communal survival is invoked as obligation, most heavily on women, without any written demand.
+**Evidence grade.** [[Cultural]] The cosmic promise itself (good overcomes evil, souls are judged) is Zoroastrian teaching, while its use as pressure to marry in and keep the community alive is communal custom with no written demand.
 :::
 
 ::: tactic n=4
@@ -455,7 +457,7 @@ The survival of one of the world's oldest faiths, resting partly on you; the fla
 
 **The counter.** Continuity cannot require captivity. If the community’s survival depends on making individuals feel guilty for marrying freely, believing differently, or leaving, then preservation has become possession.
 
-**Evidence grade.** [[Cultural]] Communal survival is invoked as obligation, most heavily on women, without any written demand.
+**Evidence grade.** [[Cultural]] The survival appeals used to pull a person back (“We are so few”, “Preserve the fire”) are spoken by family and community, and no written rule sets them out.
 :::
 
 ### Stage 3 · Devalue {#stage-3}
@@ -505,7 +507,7 @@ Marrying out is failing the community. Not marrying is failing the community. No
 
 **The counter.** Survival concern becomes gaslighting when it makes individuals doubt their right to choose freely. A community can be endangered without turning its members into preservation equipment.
 
-**Evidence grade.** [[Cultural]] Insufficiency is demographic — marrying out, not marrying, not having children — and is enforced by reputation.
+**Evidence grade.** [[Cultural]] The charge that a person who questions the boundary is endangering an ancient faith is made in conversation and enforced by reputation, and no written rule requires it.
 :::
 
 ::: tactic n=7
@@ -523,7 +525,7 @@ Marrying out is failing the community. Not marrying is failing the community. No
 
 **The counter.** Preservation that punishes the preservers' children for loving is not survival strategy; it is the bind institutionalized: stay and shrink, leave and be erased.
 
-**Evidence grade.** [[Cultural]] Insufficiency is demographic — marrying out, not marrying, not having children — and is enforced by reputation.
+**Evidence grade.** [[Cultural]] One half of the bind is the tradition's teaching of free choice and the other is the exclusion of the children of those who marry out; the exclusion is written in trust rules (technique 28), but the way the two are lived together is communal.
 :::
 
 ### Stage 4 · Confuse {#stage-4}
@@ -551,7 +553,7 @@ Raise the double standard and you are attacking a persecuted minority's survival
 
 **The counter.** Gratitude that cools measurably when the young choose differently is a thermostat, and thermostats train. A community may choose this openly — but then it should retire the claim that belonging was unconditional.
 
-**Evidence grade.** [[Cultural]] Placing the community's real persecution in front of an internal double standard is rhetorical, not procedural.
+**Evidence grade.** [[Cultural]] The alternation of warmth and chill that meters belonging arrives as welcome or coolness rather than as policy, so there is no written rule to cite.
 :::
 
 ::: tactic n=9
@@ -569,7 +571,7 @@ Raise the double standard and you are attacking a persecuted minority's survival
 
 **The counter.** Continuity becomes moving the goalposts when membership is never enough unless one’s marriage, children, and future generations also serve the institution. A human life is not a preservation instrument.
 
-**Evidence grade.** [[Cultural]] Placing the community's real persecution in front of an internal double standard is rhetorical, not procedural.
+**Evidence grade.** [[Cultural]] The expansion of expectations from ritual to marriage and then to children is a communal pattern, and nothing written sets the successive standards.
 :::
 
 ::: tactic n=10
@@ -587,7 +589,7 @@ Raise the double standard and you are attacking a persecuted minority's survival
 
 **The counter.** Complexity becomes strategic ambiguity when survival language hides control over marriage, children, and belonging. If the rule changes names depending on who is listening, the ambiguity is protecting gatekeeping.
 
-**Evidence grade.** [[Cultural]] Placing the community's real persecution in front of an internal double standard is rhetorical, not procedural.
+**Evidence grade.** [[Cultural]] How the boundary is named depends on who is asking, and that shifting is communal practice rather than written policy.
 :::
 
 ::: tactic n=11
@@ -606,7 +608,7 @@ Raise the double standard and you are attacking a persecuted minority's survival
 
 **The counter.** Survival anxiety may be real, but projecting it onto one person’s marriage, children, or conscience is still coercion. A human being is not responsible for carrying an entire civilization alone.
 
-**Evidence grade.** [[Cultural]] Placing the community's real persecution in front of an internal double standard is rhetorical, not procedural.
+**Evidence grade.** [[Cultural]] The accusation that a dissenter endangers the faith is made through communal pressure and reputation, and no written rule prescribes it.
 :::
 
 ::: tactic n=12
@@ -626,7 +628,7 @@ Raise the double standard and you are attacking a persecuted minority's survival
 
 **The counter.** Continuity does not justify moral reversal. If a community makes individual autonomy look like an attack on collective survival, then preservation has become a way to deny personal freedom.
 
-**Evidence grade.** [[Cultural]] Placing the community's real persecution in front of an internal double standard is rhetorical, not procedural.
+**Evidence grade.** [[Cultural]] The sequence of denial, attack and reversal is a pattern of communal response to dissent, and no written policy sets it out.
 :::
 
 ::: tactic n=13
@@ -646,7 +648,7 @@ Raise the double standard and you are attacking a persecuted minority's survival
 
 **The counter.** Continuity becomes desensitization when people stop noticing that survival pressure is being placed on private lives. A community’s fear of extinction should not be normalized into control over marriage, children, and belonging.
 
-**Evidence grade.** [[Cultural]] Placing the community's real persecution in front of an internal double standard is rhetorical, not procedural.
+**Evidence grade.** [[Cultural]] Normalization works through upbringing and communal expectation, and nothing written prescribes it.
 :::
 
 ### Stage 5 · Isolate {#stage-5}
@@ -654,7 +656,7 @@ Raise the double standard and you are attacking a persecuted minority's survival
 ::: stage
 **Your world narrows until every voice you hear is inside the system, and everything you came for now runs through a middleman.**
 
-Housing, schools, healthcare, scholarships, and social world — all communal, all excellent, all conditional on standing.
+Housing, schools, healthcare, scholarships and social world are all communal, all excellent, all conditional on standing.
 
 *What it asks of you:* Ask what part of your family's life does not touch a community trust.
 :::
@@ -705,7 +707,7 @@ Housing, schools, healthcare, scholarships, and social world — all communal, a
 ::: stage
 **Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
 
-Communal trusts controlling housing, healthcare, education, and welfare, with eligibility running through standing and marriage choices. Ritual and funerary fees through a hereditary priesthood. And a demographic demand that lands specifically on women as a reproductive expectation.
+Communal trusts control housing, healthcare, education and welfare, with eligibility running through standing and marriage choices. Ritual and funerary fees run through a hereditary priesthood. A demographic demand also lands specifically on women as a reproductive expectation.
 
 *What it asks of you:* Charity that can be withdrawn for whom you married was never charity. It was a lever with excellent public relations.
 :::
@@ -745,7 +747,7 @@ Communal trusts controlling housing, healthcare, education, and welfare, with el
 
 **The counter.** Continuity becomes smear when private freedom is portrayed as communal sabotage. A person is not immoral for refusing to become demographic infrastructure.
 
-**Evidence grade.** [[Codified]] Housing, welfare, and ritual eligibility criteria are documented in trust deeds; the reproductive expectation is cultural.
+**Evidence grade.** [[Codified]] The smears themselves are communal gossip; what is written is the eligibility criteria in trust deeds that give the smear its target.
 :::
 
 ::: tactic n=18
@@ -764,7 +766,7 @@ Communal trusts controlling housing, healthcare, education, and welfare, with el
 
 **The counter.** Care becomes stonewalling when the person affected cannot get a clear answer about belonging. If your marriage, children, burial, and identity depend on rules no one will state plainly, gatekeeping is hiding behind caution.
 
-**Evidence grade.** [[Codified]] Housing, welfare, and ritual eligibility criteria are documented in trust deeds; the reproductive expectation is cultural.
+**Evidence grade.** [[Codified]] The eligibility rules that are withheld in conversation are written in trust deeds, and litigation was needed to make them public.
 :::
 
 ::: tactic n=19
@@ -802,7 +804,7 @@ Communal trusts controlling housing, healthcare, education, and welfare, with el
 
 **The counter.** Survival concern becomes TRAUMA BONDING when communal anxiety is placed on individual bodies. If belonging is restored only when private life serves preservation, the bond is not just heritage. It is fear-relief conditioning.
 
-**Evidence grade.** [[Codified]] Housing, welfare, and ritual eligibility criteria are documented in trust deeds; the reproductive expectation is cultural.
+**Evidence grade.** [[Codified]] The fear and relief around survival are communal; what is written is the trust-deed criteria that make belonging conditional.
 :::
 
 ::: tactic n=21
@@ -821,7 +823,7 @@ Communal trusts controlling housing, healthcare, education, and welfare, with el
 
 **The counter.** Continuity becomes LEARNED HELPLESSNESS when the individual learns that no personal reason can outweigh communal survival. If your life is always too dangerous to let you choose, preservation has become domination.
 
-**Evidence grade.** [[Codified]] Housing, welfare, and ritual eligibility criteria are documented in trust deeds; the reproductive expectation is cultural.
+**Evidence grade.** [[Codified]] The eligibility criteria that members learn they cannot change are written in trust deeds, and the sense of futility is communal.
 :::
 
 ::: tactic n=22
@@ -840,7 +842,7 @@ Communal trusts controlling housing, healthcare, education, and welfare, with el
 
 **The counter.** Continuity becomes BENEVOLENT CONTROL when it claims authority over private life. If marriage, children, and belonging are controlled for survival, the person has become a preservation tool.
 
-**Evidence grade.** [[Codified]] Housing, welfare, and ritual eligibility criteria are documented in trust deeds; the reproductive expectation is cultural.
+**Evidence grade.** [[Codified]] Trust deeds tie welfare and housing to communal standing, which is control through care; the framing as loving concern for heritage is communal.
 :::
 
 ::: tactic n=23
@@ -859,7 +861,7 @@ Communal trusts controlling housing, healthcare, education, and welfare, with el
 
 **The counter.** Responsibility becomes INFANTILIZATION when adults are not trusted with freedom. If every private choice requires community approval because survival is invoked, preservation has become paternalism.
 
-**Evidence grade.** [[Codified]] Priesthood restricted to sons of priestly families, limiting the tradition's own liturgical capacity. *(sourced)*
+**Evidence grade.** [[Codified]] Adults' dependence on the priesthood is built in by the rule that only sons of priestly families may be priests, which is written; the paternalism the entry describes is communal. *(sourced)*
 :::
 
 ::: tactic n=24
@@ -879,7 +881,7 @@ Communal trusts controlling housing, healthcare, education, and welfare, with el
 
 **The counter.** Fragility becomes IDENTITY EROSION when the individual is made responsible for demographic survival. If belonging requires becoming a container for the community’s anxiety, identity has become burden.
 
-**Evidence grade.** [[Codified]] Housing, welfare, and ritual eligibility criteria are documented in trust deeds; the reproductive expectation is cultural.
+**Evidence grade.** [[Codified]] The identity tied to ancestry and the flame is communal, while the eligibility criteria that make it count are written in trust deeds.
 :::
 
 ::: tactic n=25
@@ -899,7 +901,7 @@ Communal trusts controlling housing, healthcare, education, and welfare, with el
 
 **The counter.** Continuity becomes SPIRITUAL BYPASSING when it avoids the person in front of it. If survival language prevents honest discussion of control, preservation has become evasion.
 
-**Evidence grade.** [[Codified]] Housing, welfare, and ritual eligibility criteria are documented in trust deeds; the reproductive expectation is cultural.
+**Evidence grade.** [[Codified]] The use of survival language to avoid questions is conversational and cultural; the criteria it avoids discussing are written in trust deeds.
 :::
 
 ::: tactic n=26
@@ -918,7 +920,7 @@ Communal trusts controlling housing, healthcare, education, and welfare, with el
 
 **The counter.** Preservation becomes FINANCIAL CONTROL when giving is tied to belonging. If people must fund the community to prove loyalty to the flame, identity has become a financial obligation.
 
-**Evidence grade.** [[Codified]] Housing, welfare, and ritual eligibility criteria are documented in trust deeds; the reproductive expectation is cultural.
+**Evidence grade.** [[Codified]] The tie between giving and belonging is communal, and the eligibility criteria for trust housing and welfare are written in trust deeds, though the entry itself describes giving and donor influence.
 :::
 
 ### Stage 7 · Discard {#stage-7}
@@ -926,7 +928,7 @@ Communal trusts controlling housing, healthcare, education, and welfare, with el
 ::: stage
 **You become expensive — too many questions, too much independence — and the urgency ramps up until you are removed.**
 
-Temple entry refused, navjote denied to your children, funerary rites withheld, housing lost. In a community this small, that is nearly everyone you know. [COURT RECORD]
+Temple entry is refused, navjote is denied to your children, funerary rites are withheld and housing is lost. In a community this small, that is nearly everyone you know. [COURT RECORD]
 
 *What it asks of you:* The penalties here are documented in open court filings — the least deniable in the codex.
 :::
@@ -947,7 +949,7 @@ Temple entry refused, navjote denied to your children, funerary rites withheld, 
 
 **The counter.** Genuine concern becomes MANUFACTURED CRISIS when it makes individual freedom feel catastrophic. If every marriage or child becomes an emergency referendum on survival, preservation has become panic governance.
 
-**Evidence grade.** [[Codified]] Temple, funerary, and housing exclusions follow written criteria — the least deniable exit costs in the codex.
+**Evidence grade.** [[Codified]] The crisis framing of intermarriage and conversion is communal rhetoric; the exclusions it is used to justify (temple, funerary and housing) follow written criteria.
 :::
 
 ::: tactic n=28
@@ -973,7 +975,7 @@ Temple entry refused, navjote denied to your children, funerary rites withheld, 
 ### Stage 8 · Replace {#stage-8}
 
 ::: stage
-**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to God.**
+**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to descent and ancient custom.**
 
 In a community of this size, nobody replaces you — which is the tragedy rather than the mercy. The boundary simply closes behind you, and the authority invoked is descent: ancient, inherited, not ours to change.
 
@@ -996,13 +998,13 @@ In a community of this size, nobody replaces you — which is the tragedy rather
 
 **The counter.** Continuity becomes REPLACEMENT when people are valued by reproductive or marital compliance. If the community replaces the free chooser with the preservation performer, belonging has become demographic utility.
 
-**Evidence grade.** [[Codified]] Authority attributed to descent, published in trust instruments and defended by named high priests.
+**Evidence grade.** [[Codified]] The preference for those who marry in is communal; what is written is the descent rule, published in trust instruments and defended by named high priests, which decides whose children count.
 :::
 
 ::: tactic n=30
 #### 30 · Plausible Deniability {#t-30}
 
-*The institution is never responsible, because the authority is attributed to God — who isn't available for cross-examination.*
+*The institution is never responsible, because the authority is attributed to descent and ancient custom, which cannot be cross-examined.*
 
 **How it shows here**
 
@@ -1021,46 +1023,162 @@ In a community of this size, nobody replaces you — which is the tragedy rather
 
 ## 13. The loops {#loops}
 
+::: lede
+The seven loops below show how the practices connect, so that each step makes the next one easier and the last step feeds the first. The loops are analysis built from findings recorded elsewhere on this page [PATTERN OBSERVED]; each step names the section where its fact is recorded.
+:::
+
 ::: card
 #### 1 · Money to Doctrine to Money
 
 Trust wealth funds welfare distributed on criteria set by the boards that hold the wealth.
+
+**How it runs.**
+
+1. Prosperous Parsi families built enormous charitable trusts: housing colonies, hospitals and funds (section 10).
+2. The trust boards hold the assets and set the criteria for who may draw on them, and those criteria are tied to communal standing and marriage choices (sections 7 and 9).
+3. Housing and welfare go to members in good standing and are withheld from those who marry out (sections 9 and 15).
+4. Standing depends on the boundary rule, which excludes the children of women who marry out (sections 7 and 11), so members who want to keep their housing stay inside the rule.
+5. The same boards remain in place to allocate the next round on the same criteria (sections 7 and 9).
+
+**Techniques that feed it.** [2 · Weaponized Generosity](#t-2), [22 · Benevolent Control](#t-22), [26 · Financial Control](#t-26).
+
+**Why it closes.** The boards that hold the wealth also write the eligibility criteria, and the criteria decide who may draw on the wealth. Housing, healthcare and welfare reach members through the trusts, so a member who marries out risks the flat as well as the temple (section 9).
+
+**Where it could be broken, and by whom.** It weakens wherever the criteria become visible. The trust deeds are public because litigation forced it (section 9), the trustees of the Bombay Parsi Punchayet are elected (sections 7 and 8), and a member can ask a trust board for the allocation criteria in writing and see whether marriage appears (section 23, question 3). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** A woman who marries out can lose subsidized housing (section 10), and the composite day in section 2 begins in a trust flat let at a fraction of market rent.
 :::
 
 ::: card
 #### 2 · Fear to Dependence to Fear
 
 Fear is demographic — the flame going out — and relief is conformity, transmitted as duty to the ancestors.
+
+**How it runs.**
+
+1. The community's survival is presented as being at stake: “We are few” and “Our people must survive” (technique 1; section 2).
+2. The fear is attached to private choices. Marrying out, not marrying and not having children are each treated as failing the community (stage 3 in section 12; technique 5).
+3. Relief is offered through conformity: marrying in, raising Zoroastrian children and preserving the fire (techniques 3 and 20).
+4. Conformity is checked by parents, priests and elders and by reputation (techniques 4 and 16).
+5. Each act of conformity confirms that survival depends on such acts, so the fear is renewed for the next generation (techniques 20 and 21).
+
+**Techniques that feed it.** [4 · Hoovering](#t-4), [5 · Devaluation](#t-5), [20 · Trauma Bonding](#t-20), [21 · Learned Helplessness](#t-21).
+
+**Why it closes.** The relief on offer comes from the same community that frames the fear. A member who is told that a private choice endangers the people is relieved only by conforming, and conforming confirms the framing.
+
+**Where it could be broken, and by whom.** It weakens where the survival argument is turned on the rule. Section 14 records that the rule excluding intermarried women's children is a documented driver of the decline, which puts the cause of the fear in the rule and not in the individual. Any member, and any trustee, can raise that record (section 7). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** In section 2, Freny thinks: we are one hundred thousand people and getting fewer every year, and everyone says the community must survive. Her daughter has stopped coming to the fire temple without saying why.
 :::
 
 ::: card
 #### 3 · Children to Members to Children
 
 Navjote eligibility is fixed by parentage, so the boundary reproduces itself in the next generation automatically.
+
+**How it runs.**
+
+1. Eligibility for navjote, the childhood initiation (typically 7–15), depends on parentage (section 11).
+2. A Parsi man's children by a non-Parsi wife are generally accepted, and a Parsi woman's children by a non-Parsi husband are generally not (section 11).
+3. Children refused navjote are refused temple entry by orthodox authorities (section 11).
+4. Children who are initiated grow up in community schools, scholarships and housing colonies that build strong identity and material dependence (section 11).
+5. As adults they marry, and the same rule applies to their own children (sections 11 and 14).
+
+**Techniques that feed it.** [19 · Manufactured Consent](#t-19), [13 · Normalization / Desensitization](#t-13), [28 · Discard](#t-28).
+
+**Why it closes.** The rule is applied at a child's birth, before any choice is made. Section 14 sets the community's claim that its religion is founded on free moral choice beside the record: “A child's religious standing is fixed by a decision made before their birth.” No one has to decide to continue the loop, and it continues unless someone decides to stop.
+
+**Where it could be broken, and by whom.** It weakens where initiation does not depend on parentage. Reformist priests who initiate these children (sections 11 and 20) and Iranian Zoroastrian acceptance practices (section 20) show the loop broken in practice, and the nine-judge bench described in sections 5 and 19 is where the general rule is being decided. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** In section 2, Zenobia's son Kayaan is three, has not had a navjote and cannot enter the building where his great-grandfather's fire is kept.
 :::
 
 ::: card
 #### 4 · Aid to Legitimacy to Leverage to Aid
 
 Community philanthropy generates civic standing that protects the trusts and their criteria.
+
+**How it runs.**
+
+1. Parsi benefactors built hospitals, schools and housing over two centuries (section 20).
+2. The philanthropy is remarkable and real (section 3), and it gives the community civic standing.
+3. That standing is available in answer to criticism: the objection to this page is that it criticizes a community fighting for survival (section 3).
+4. The trusts keep their protected position and keep their criteria, which condition access on communal standing and marriage choices (sections 9 and 10).
+5. Members who benefit from the aid have reason to defend the trusts, and the giving and building continue (section 9).
+
+**Techniques that feed it.** [2 · Weaponized Generosity](#t-2), [22 · Benevolent Control](#t-22), [26 · Financial Control](#t-26), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** The aid is both the source of the community's standing and the thing that standing protects. Each step makes the next easier, and the last returns to the first.
+
+**Where it could be broken, and by whom.** It weakens where the criteria are examined as well as the aid. Indian courts have been asked to decide who counts as Parsi (section 19), and the trust deeds are public because litigation forced it (section 9). The electorate of more than 25,000 that chooses the trustees is also able to ask about the criteria (section 7). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** The colony in section 2 has a hospital, a school and a fund for school fees, and Freny says so to anyone who will listen, while her grandson cannot enter the fire temple.
 :::
 
 ::: card
 #### 5 · Unpaid Labor to Assets to Power to More Labor
 
 Historic benefaction built the assets; small elected boards allocate them.
+
+**How it runs.**
+
+1. Prosperous Parsi families gave money to build the trusts (section 10).
+2. The assets are governed by small elected boards whose legitimacy is contested (section 9).
+3. Those boards allocate housing, healthcare, education and welfare by criteria tied to communal standing (section 7).
+4. Priestly families supply the rites on a hereditary basis and in limited numbers (sections 7 and 9).
+5. Community giving and priestly service continue to flow into institutions that control housing and funerals (sections 7 and 9).
+
+**Techniques that feed it.** [22 · Benevolent Control](#t-22), [23 · Infantilization](#t-23), [26 · Financial Control](#t-26).
+
+**Why it closes.** The people and families who give money and service to the institutions do not hold the offices that control the assets. The boards hold both the assets and the power to define who may use them.
+
+**Where it could be broken, and by whom.** It weakens where the boards' accounts and criteria are public, as the Zoroastrian Trust Funds of Europe's accounts are because charity law requires it (section 9), and where entry to the priesthood is widened (section 10 records that heredity limits the supply of priests). Those choices sit with the trustees and the priestly families. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** The Bombay Parsi Punchayet's trusts control housing and the Towers of Silence (section 9), and the elections for its trustees are fought over who counts as Parsi (section 5).
 :::
 
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
 The boundary dispute is litigated rather than resolved, and the rule survives each judgment.
+
+**How it runs.**
+
+1. A dispute over who counts as Parsi is brought to court (section 19).
+2. The court decides the individual case. In 2017 the Supreme Court let Goolrokh Gupta attend her parents' funeral rites (section 8).
+3. The wider question is sent to a larger bench, and the community's own institutions have not given their answer (sections 5 and 8).
+4. Orthodox practice continues after the rulings (section 14).
+5. The next case is filed, as the Nagpur petition was in 2026 (section 19).
+
+**Techniques that feed it.** [18 · Silent Treatment / Stonewalling](#t-18), [25 · Spiritual Bypassing](#t-25), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** Each judgment settles the case before the court without settling the rule. The rule survives every ruling, and the dispute is carried to the next case.
+
+**Where it could be broken, and by whom.** Section 20 names the change that would break it: the community's own institutions settling temple entry for the children of Parsi mothers, rather than a court doing it. The pending nine-judge bench (sections 5 and 19) could also settle the general question. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 22 records the tell: women who marry out lose access and men who marry out do not, which the 2026 Nagpur petition challenges.
 :::
 
 ::: card
 #### 7 · Persecution to Solidarity to Insulation to Unaccountability
 
 A millennium of genuine persecution is invoked to place the community's survival in front of its daughters.
+
+**How it runs.**
+
+1. The community was persecuted for over a millennium, and Iranian Zoroastrians remain a discriminated minority (section 3).
+2. That history is placed in front of criticism. Raising the double standard is treated as attacking a persecuted minority's survival (stage 4 in section 12).
+3. Members close ranks around survival, and a person who questions the boundary is told they are endangering an ancient faith (techniques 6, 11 and 12).
+4. The rule is defended as preservation, and the person who raised it is cast as selfish or disrespectful (techniques 12 and 17).
+5. The rule stands, and the next criticism meets the same answer.
+
+**Techniques that feed it.** [11 · Projection](#t-11), [12 · DARVO](#t-12), [17 · Smear Campaign](#t-17), [27 · Manufactured Crisis](#t-27).
+
+**Why it closes.** The more history is recalled, the more any criticism can be read as a further attack on a people already attacked. Each criticism strengthens the solidarity that protects the rule from it.
+
+**Where it could be broken, and by whom.** Section 12 states the point where it breaks: persecution from outside does not make a rule inside it just, and both can be true. The loop also weakens because the community litigates in open court (section 3), so the record the criticism rests on is public. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** The strongest objection in section 3 is that this page criticizes a community of a hundred thousand people fighting for survival. The answer there is that the claims are well-evidenced because the community's own disputes are in open court.
 :::
 
 ## 14. Say versus do {#say-do}
@@ -1076,9 +1194,9 @@ A millennium of genuine persecution is invoked to place the community's survival
 
 ### Accountability or theatre?
 
-**Last time the chair ran.** Court rulings on membership, after which the orthodox practice continued.
+**Last time the chair ran.** The last time was a series of court rulings on membership, after which the orthodox practice continued.
 
-**Who holds the chair now.** Trust boards and named high priests — unusually traceable, which is to the community's credit.
+**Who holds the chair now.** Trust boards and named high priests hold it, and they are unusually traceable, which is to the community's credit.
 
 **Prediction.** The next case will be litigated publicly, the judgment will be partial, and the descent rule will outlast the community that keeps it.
 
@@ -1086,8 +1204,8 @@ A millennium of genuine persecution is invoked to place the community's survival
 
 | Term | What it means inside | What it does | Said plainly |
 |---|---|---|---|
-| Panthaki / boundary of the faith | Who counts as within the community. | The operative question in trust, temple-entry, and intermarriage disputes — and the one decided by trustees rather than by priests. | 'Whether you are one of us is an administrative decision.' |
-| Purity | Ritual cleanliness, historically central to practice. | Its modern use in intermarriage disputes attaches a ritual category to a person's parentage. | 'Your parents determine your standing.' |
+| Panthaki / boundary of the faith | The term refers to who counts as within the community. | It is the operative question in trust, temple-entry and intermarriage disputes, and trustees rather than priests decide it. | 'Whether you are one of us is an administrative decision.' |
+| Purity | Purity means ritual cleanliness, which has historically been central to practice. | Its modern use in intermarriage disputes attaches a ritual category to a person's parentage. | 'Your parents determine your standing.' |
 
 ## 15. Cost & cover {#cost}
 
@@ -1099,9 +1217,9 @@ A millennium of genuine persecution is invoked to place the community's survival
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Ritual and temple access | Yes | Fire temple entry and funerary rites denied to those deemed outside the community | “These are religious requirements, not punishments.” |
-| Housing and welfare | Yes | Trust housing and benefits tied to communal standing | “Trust deeds specify beneficiaries.” |
-| Children's status | Yes | Navjote refused to children of intermarried mothers | “Descent rules are ancient.” |
+| Ritual and temple access | Yes | Fire temple entry and funerary rites are denied to those deemed outside the community. | “These are religious requirements, not punishments.” |
+| Housing and welfare | Yes | Trust housing and benefits are tied to communal standing. | “Trust deeds specify beneficiaries.” |
+| Children's status | Yes | Navjote is refused to children of intermarried mothers. | “Descent rules are ancient.” |
 | Family and identity | Yes | In so small a community, exit means losing nearly everyone you know | “Nobody is shunned — they simply married out.” |
 
 ### How the cost is denied
@@ -1112,7 +1230,7 @@ A millennium of genuine persecution is invoked to place the community's survival
 | Informal enforcement | Medium | Community gossip and reputation supplement the formal rules. |
 | Leadership distance | Low | The Punchayet and named high priests make identifiable decisions — accountability is unusually traceable. |
 | Doctrinal ambiguity | Medium | Reformists argue the scriptures support conversion and equality; orthodox authorities disagree, publicly. |
-| Cultural outsourcing | Medium | Framed as descent and heritage rather than religious rule. |
+| Cultural outsourcing | Medium | The boundary is framed as descent and heritage rather than as religious rule. |
 | Volunteer enforcement | Medium | Family pressure around marriage is strong and constant. |
 | Sacred secrecy | Low | Non-Zoroastrians are excluded from some rites, but community governance is remarkably public. |
 | Exit cost denial | Low | The costs are documented in court filings — this community's harms are the best-evidenced and least deniable in the codex. |
@@ -1121,7 +1239,7 @@ A millennium of genuine persecution is invoked to place the community's survival
 
 ### Who benefits
 
-- Trust boards controlling assets and definitions; hereditary priesthood; the boundary itself concentrates power in its gatekeepers even as the community shrinks.
+- Trust boards control the assets and the definitions, and the hereditary priesthood benefits too. The boundary itself concentrates power in its gatekeepers even as the community shrinks.
 
 ### Money out, leverage back
 
@@ -1131,32 +1249,36 @@ A millennium of genuine persecution is invoked to place the community's survival
 
 ### Who pays
 
-- Parsi women who marry out — the single most clearly identifiable class of people harmed in this profile.
-- Their children, denied initiation and temple access.
-- Reformist priests sanctioned for performing those initiations.
-- Iranian Zoroastrians, a persecuted minority under Islamic Republic law. [GOVERNMENT REPORT]
-- The tradition itself, whose boundary rules are a documented driver of its own demographic decline.
+- Parsi women who marry out pay, and they are the single most clearly identifiable class of people harmed in this profile.
+- Their children pay, denied initiation and temple access.
+- Reformist priests pay, sanctioned for performing those initiations.
+- Iranian Zoroastrians pay as a persecuted minority under Islamic Republic law. [GOVERNMENT REPORT]
+- The tradition itself pays, because its boundary rules are a documented driver of its own demographic decline.
 
 ## 17. Who gets hurt most {#who-gets-hurt}
 
 ### Where the weight lands
 
+The costs in section 15 do not fall evenly. They fall hardest on women who marry out and on their children, who had no say in the rule. The table names who carries the most, how, and what makes it worse.
+
 | Who | How | What it compounds with |
 |---|---|---|
-| Parsi women who marry out | Housing, temple access, and funerary rites withdrawn; their children excluded | Where their brothers marrying out lose nothing |
-| Their children | Navjote refused; religious existence denied by parentage | Into adulthood, permanently, with no route in |
-| Reformist priests | Sanctioned and excluded from major fire temples | With loss of the only vocation their family line permits |
-| Iranian Zoroastrians | A discriminated minority under Islamic Republic law | With no domestic protection |
-| The tradition itself | Demographic collapse accelerated by its own boundary rule | Faster than any external pressure has managed |
+| Parsi women who marry out | Housing, temple access and funerary rites are withdrawn from them, and their children are excluded. | It compounds with the fact that their brothers who marry out lose nothing. |
+| Their children | Navjote is refused to them, and their religious existence is denied by parentage. | It compounds with exclusion that continues into adulthood, permanently, with no route in. |
+| Reformist priests | They are sanctioned and excluded from major fire temples. | It compounds with the loss of the only vocation their family line permits. |
+| Iranian Zoroastrians | They are a discriminated minority under Islamic Republic law. | It compounds with the absence of any domestic protection. |
+| The tradition itself | Its demographic collapse is accelerated by its own boundary rule. | It compounds with a decline faster than any external pressure has managed. |
 
 ## 18. The middle tiers {#tiers}
 
+Most of the institution's work is done below the trustees and the high priests, by people who see the decisions without making them. Reformist priests, trust allocation officers, diaspora association officers and priests who perform funerary rites each carry part of the load, and each stands at a point where the next decision could be declined. The table sets out what each tier does, what it sees, what it is asked to do and where it could refuse.
+
 | Role | Does | Sees | Is asked to | Could refuse |
 |---|---|---|---|---|
-| Reformist priests | Performs navjote for children of intermarried mothers | That they are sanctioned for it | To stop | To stop |
-| Trust employees and allocation officers | Administers housing and welfare | Which applications are refused and why | To apply the criteria | To apply a marriage test to a housing decision |
-| Community association officers in the diaspora | Runs temples and programmes abroad | That diaspora practice is often more inclusive than Mumbai's | To defer to orthodox authority | To import an exclusion the local community rejects |
-| Priests performing funerary rites | Buries the dead | Which families are refused | To follow the criteria | To refuse a daughter at her mother's funeral |
+| Reformist priests | They perform navjote for children of intermarried mothers. | They see that they are sanctioned for it. | They are asked to stop. | They could refuse to stop. |
+| Trust employees and allocation officers | They administer housing and welfare. | They see which applications are refused and why. | They are asked to apply the criteria. | They could refuse to apply a marriage test to a housing decision. |
+| Community association officers in the diaspora | They run temples and programmes abroad. | They see that diaspora practice is often more inclusive than Mumbai's. | They are asked to defer to orthodox authority. | They could refuse to import an exclusion the local community rejects. |
+| Priests performing funerary rites | They conduct the funeral rites. | They see which families are refused. | They are asked to follow the criteria. | They could refuse to turn a daughter away at her mother's funeral. |
 
 ## 19. Documented cases {#cases}
 
@@ -1178,7 +1300,7 @@ Sources for this section: [4] [5] [6]
 ::: case
 ### Married out, and shut out (India, 2010–present)
 - **when:** 2010–present
-- **what:** Goolrokh Gupta, a Parsi woman who married a Hindu man under the Special Marriage Act, was barred by the Parsi trust in Valsad from Parsi institutions, and feared she would be kept from her parents' funeral rites; the Gujarat High Court held that she had ceased to be Parsi [4][6].
+- **what:** Goolrokh Gupta, a Parsi woman who married a Hindu man under the Special Marriage Act (the Indian civil marriage law that lets people of different religions marry without conversion), was barred by the Parsi trust in Valsad from Parsi institutions, and feared she would be kept from her parents' funeral rites; the Gujarat High Court held that she had ceased to be Parsi [4][6].
 - **record:** *Goolrokh Gupta v. Burjor Pardiwala* (Supreme Court of India) [4]
 - **outcome:** In 2017 the Supreme Court let her attend her parents' rites; the wider question went to a larger bench [4].
 - **tactics:** 14, 24
@@ -1211,10 +1333,10 @@ Sources for this section: [4] [5] [6]
 
 | What | Who | When | What it cost |
 |---|---|---|---|
-| Reformist initiations of intermarried women's children | Priests who accepted sanction for it | Ongoing | Exclusion from major temples |
-| A century of open litigation over communal boundaries | Community members who went to court | 1908–present | Public conflict — and it is why this community's harms are the best-evidenced here |
-| Iranian Zoroastrian acceptance practices | The Iranian community | Ongoing | Divergence from Parsi orthodoxy |
-| Extraordinary community philanthropy — hospitals, schools, housing | Parsi benefactors | Two centuries | None; genuinely remarkable |
+| Reformist initiations of intermarried women's children | Priests who accepted sanction for it | Ongoing | They were excluded from major temples. |
+| A century of open litigation over communal boundaries | Community members who went to court | 1908–present | It cost public conflict, and it is why this community's harms are the best-evidenced here. |
+| Iranian Zoroastrian acceptance practices | The Iranian community | Ongoing | It cost a divergence from Parsi orthodoxy. |
+| Extraordinary community philanthropy — hospitals, schools, housing | Parsi benefactors | Two centuries | It cost nothing, and it is genuinely remarkable. |
 
 ### What would change this page
 
@@ -1222,45 +1344,46 @@ Temple entry settled for the children of Parsi mothers by the community's own in
 
 ## 21. Voices from inside {#voices}
 
-- **Goolrokh Gupta.** Took her right to mourn her parents to the Supreme Court [4].
-- **The Nagpur petitioner,** who asked to pray in her own community's temple [5].
-- **The Bombay Parsi Punchayet's electorate,** more than 25,000 voters choosing their trustees [7].
+- **Goolrokh Gupta.** She took her right to mourn her parents to the Supreme Court [4].
+- **The Nagpur petitioner** asked to pray in her own community's temple [5].
+- **The Bombay Parsi Punchayet's electorate** is made up of more than 25,000 voters who choose their trustees [7].
+- **Reformist priests** who initiate the children of intermarried women have accepted sanction and exclusion from major fire temples for doing so (sections 11 and 20).
 
 ## 22. Regional variants {#regional}
 
 ::: card
 ### India
-- **apex:** Elected trustees of the Bombay Parsi Punchayet and local panchayats [7].
-- **law:** Trust law and the courts [4][6].
-- **documented:** The *Gupta* and Nagpur cases [4][5].
+- **apex:** The apex is the elected trustees of the Bombay Parsi Punchayet and local panchayats [7].
+- **law:** Trust law and the courts govern the community [4][6].
+- **documented:** The *Gupta* and Nagpur cases document the position [4][5].
 - **exit:** Leaving is free; marrying out can cost a woman access to temples and funeral rites [4].
-- **regulator:** The Supreme Court and India's charity-trust courts [4][5].
+- **regulator:** The Supreme Court and India's charity-trust courts act as regulators [4][5].
 - **tell:** Women who marry out lose access; men who marry out do not — which is exactly what the 2026 petition challenges [5].
 :::
 
 ::: card
 ### Iran
-- **apex:** Community associations and the reserved parliamentary seat [9].
-- **law:** Recognized-minority status [9].
+- **apex:** The apex is the community associations and the reserved parliamentary seat [9].
+- **law:** The law gives Zoroastrians recognized-minority status [9].
 - **documented:** —
 - **exit:** —
-- **regulator:** The state.
+- **regulator:** The state is the regulator.
 - **tell:** The faith's homeland recognizes it, and keeps it small.
 :::
 
 ::: card
 ### United Kingdom
-- **apex:** The Zoroastrian Trust Funds of Europe [10].
-- **law:** Charity law [10].
-- **documented:** Public accounts [10].
-- **exit:** Legally free.
-- **regulator:** The Charity Commission [10].
+- **apex:** The apex is the Zoroastrian Trust Funds of Europe [10].
+- **law:** Charity law governs it [10].
+- **documented:** Public accounts document it [10].
+- **exit:** Leaving is legally free.
+- **regulator:** The Charity Commission is the regulator [10].
 - **tell:** The diaspora's institutions publish their books.
 :::
 
 ## 23. The questions {#questions}
 
-1. A Parsi man's children by an outsider are accepted; a Parsi woman's are not. Ask the high priest who says this is ancient to explain why the ancestor rule tracks the sex of the parent.
+1. A Parsi man's children by an outsider are accepted; a Parsi woman's are not. Ask the high priest who says this is ancient to explain why the descent rule tracks the sex of the parent.
 2. If the community is dying, ask whether the rule that excludes its own grandchildren is preserving it or killing it. Then ask who keeps the rule anyway, and what they retain.
 3. Ask a trust board for the housing allocation criteria in writing. Note whether marriage appears.
 4. Reformist priests who initiate intermarried women's children have been sanctioned. Name what heresy they committed, using your own scriptures.
@@ -1279,7 +1402,7 @@ Practical guidance, not legal advice.
 
 1. **Marrying out** is legal everywhere; in India it can affect a woman's access to fire temples and funeral rites [4].
 2. **Ask before you assume:** some trusts and temples have changed practice; the Supreme Court is still deciding [4][5].
-3. **Find support** [11][12][13].
+3. **Find support** through the organizations listed in section 25 [11][12][13].
 
 ## 25. Where to get help {#help}
 
