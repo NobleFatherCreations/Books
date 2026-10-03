@@ -1,6 +1,6 @@
 # Wording log — catholicism
 
-79 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/catholicism.json`, then rebuild. Nothing else changes.
+124 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/catholicism.json`, then rebuild. Nothing else changes.
 
 ## Fragments completed into sentences (32)
 
@@ -585,7 +585,7 @@
 
 *Reason:* First use of USCCB.
 
-## Proofreading (typos, punctuation, agreement) (8)
+## Proofreading (typos, punctuation, agreement) (6)
 
 ### CATH-P001 · md · §7 · proposed · build: applied
 
@@ -658,30 +658,6 @@
 > | Accept church oversight by men they trained | Transfer congregational assets to diocesan control |
 
 *Reason:* Doubled 'to'; 'ecclesial' replaced with plain 'church'.
-
-### CATH-N001 · narration · §22 · proposed · build: applied
-
-**Before**
-
-> This page covers Ireland, Poland, United States and The Philippines.
-
-**After**
-
-> This page covers Ireland, Poland, the United States and the Philippines.
-
-*Reason:* Country names need 'the'; mid-sentence 'The' lower-cased.
-
-### CATH-N002 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 3 documented cases on this page
-
-**After**
-
-> These are not hypotheticals. Three documented cases on this page
-
-*Reason:* Numeral at the start of a clause spelled out.
 
 ## Evidence-grade notes matched to their technique (15)
 
@@ -1176,4 +1152,623 @@
 > | Role | Does | Sees | Is asked to | Could refuse |
 
 *Reason:* Section 18 was a bare table with no framing, where section 17 had context. Brought to parity without new facts.
+
+## source (2)
+
+### CATH-D001 · md · §26 · proposed · build: applied
+
+**Before**
+
+> 42. RAINN — National Sexual Assault Hotline, 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
+
+**After**
+
+> 42. RAINN — National Sexual Assault Hotline, 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
+> 43. Respicio & Co., "Legal Effect of Church Annulment on Civil Marriage in Philippines" — a church annulment has no civil effect; spouses remain married in law until a civil court declares the marriage void or annuls it under the Family Code. https://www.respicio.ph/commentaries/legal-effect-of-church-annulment-on-civil-marriage-in-philippines
+> 44. CNN, "Pope accepts Cardinal Law's resignation" (13 Dec 2002) — Cardinal Bernard Law resigned as Archbishop of Boston after months of pressure over priests he had reassigned. https://www.cnn.com/2002/LAW/12/13/church.sex.abuse/
+> 45. Catholic World Report, "Vatican sanctions two Polish bishops after 'Vos estis' investigations" (29 Mar 2021) — Archbishop Sławoj Głódź and Bishop Edward Janiak, who had both resigned in 2020, were sanctioned after inquiries into negligence in abuse cases. https://www.catholicworldreport.com/2021/03/29/vatican-sanctions-two-polish-bishops-after-vos-estis-investigations/
+> 46. Code of Canon Law, can. 401 §1 — a diocesan bishop who has completed his seventy-fifth year is requested to present his resignation to the Supreme Pontiff. https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib2-cann368-430_en.html
+> 47. John Jay College of Criminal Justice, *The Causes and Context of Sexual Abuse of Minors by Catholic Priests in the United States, 1950–2010* (2011), commissioned by the US bishops — found that celibacy was not a cause of the abuse crisis. https://www.votf.org/wp-content/uploads/John_Jay_Causes_and_Context_Report.pdf
+> 48. Philippine Statistics Authority, *Religious Affiliation in the Philippines (2020 Census of Population and Housing)* — 85.6 million Roman Catholics, 78.8% of the household population. https://psa.gov.ph/content/religious-affiliation-philippines-2020-census-population-and-housing
+
+*Reason:* Adds the numbered sources the corrected claims need (discrepancy P1-1, P1-2, P1-5, P2-9, P2-10, F16).
+
+### CATH-D002 · md · §26 · proposed · build: applied
+
+**Before**
+
+> 11. Penn State Dickinson Law, *Catholic Dioceses in Bankruptcy* (Prof. Marie T. Reilly) — 44 US Catholic dioceses and orders in chapter 11 as of March 2026.
+
+**After**
+
+> 11. Penn State Dickinson Law, *Catholic Dioceses in Bankruptcy* (Prof. Marie T. Reilly) — as of March 2026, 44 US Catholic religious organisations (dioceses and orders) have sought chapter 11 protection; 29 cases have concluded and 15 are pending.
+
+*Reason:* Source entry restated as the page itself words it (P1-3).
+
+## receipt (28)
+
+### CATH-D003 · md · §1 · proposed · build: applied
+
+**Before**
+
+> | The unanswered question | Every national inquiry found the files existed and were kept. Who above the rank of bishop has ever lost office for keeping them sealed? |
+
+**After**
+
+> | The unanswered question | Every national inquiry found the files existed and were kept. Cardinal Law resigned in 2002 under public pressure [44]. Which bishop has ever been removed by Rome, under a published rule, for keeping the files sealed? |
+
+*Reason:* Thesis question had a known counter-example (Cardinal Law, 2002); reworded as proposed (P1-1, hostile H1).
+
+### CATH-D004 · md · §3 · proposed · build: applied
+
+**Before**
+
+> ::: question
+> Every national inquiry found the files existed and were kept. Who above the rank of bishop has ever lost office for keeping them sealed?
+
+**After**
+
+> ::: question
+> Every national inquiry found the files existed and were kept. Cardinal Law resigned in 2002 under public pressure [44]. Which bishop has ever been removed by Rome, under a published rule, for keeping the files sealed?
+
+*Reason:* Same question, section 3 (P1-1).
+
+### CATH-D005 · md · §3 · proposed · build: applied
+
+**Before**
+
+> ::: cites
+> Sources for this section: [9] [10]
+> :::
+>
+> ## 4. What healthy
+
+**After**
+
+> ::: cites
+> Sources for this section: [9] [10] [44]
+> :::
+>
+> ## 4. What healthy
+
+*Reason:* Cites the Law source in section 3 (P1-1).
+
+### CATH-D006 · md · §14 · proposed · build: applied
+
+**Before**
+
+> **Last time the chair ran.** In every national inquiry, individual priests were laicized (formally returned to the lay state), and Rome removed not one bishop for having done the transferring.
+
+**After**
+
+> **Last time the chair ran.** In every national inquiry, individual priests were laicized (formally returned to the lay state). Cardinal Law resigned as Archbishop of Boston in 2002 under public pressure [44], and in 2021 the Holy See sanctioned two Polish bishops after Vos estis inquiries, though both had already resigned [45]. No bishop is recorded on this page as removed from office by Rome for the transferring itself.
+
+*Reason:* Absolute claim narrowed to what the sources support: resignation under pressure and sanctions after resignation, no recorded removal (P1-2, hostile H2).
+
+### CATH-D007 · md · §14 · proposed · build: applied
+
+**Before**
+
+> ::: cites
+> Sources for this section: [3]
+> :::
+
+**After**
+
+> ::: cites
+> Sources for this section: [3] [44] [45]
+> :::
+
+*Reason:* Cites the new sources in section 14 (P1-2).
+
+### CATH-D008 · md · §23 · proposed · build: applied
+
+**Before**
+
+> 2. Why was a priest credibly accused of abusing children moved to a new parish instead of handed to police, and why has no bishop who did the moving lost his office over it?
+
+**After**
+
+> 2. Why was a priest credibly accused of abusing children moved to a new parish instead of handed to police, and why has Rome never removed a bishop, under a published rule, for doing the moving?
+
+*Reason:* Question implied no bishop ever lost office; Cardinal Law resigned in 2002. Reworded to match the section 1 question (P1-1).
+
+### CATH-D010 · md · §13 · proposed · build: applied
+
+**Before**
+
+> 4. No bishop is removed for the concealment; the Vatican's court has convicted a cardinal of financial crimes but never a bishop for covering up abuse (sections 14 and 19).
+
+**After**
+
+> 4. No bishop is recorded on this page as removed from office by Rome for the concealment (Cardinal Law resigned under pressure in 2002; two Polish bishops were sanctioned in 2021 after they had resigned); the Vatican's court has convicted a cardinal of financial crimes but never a bishop for covering up abuse (sections 14 and 19).
+
+*Reason:* Loop 6 step 4 stated an absolute; it now matches section 14 (P1-1, P1-2).
+
+### CATH-D011 · md · §8 · proposed · build: applied
+
+**Before**
+
+> 44 dioceses and orders in bankruptcy [11];
+
+**After**
+
+> 44 dioceses and religious organisations have filed for bankruptcy protection, with 15 cases still pending (March 2026) [11];
+
+*Reason:* 'In bankruptcy' overstated; 44 have filed and 15 are pending (P1-3, hostile H3).
+
+### CATH-D012 · md · §9 · proposed · build: applied
+
+**Before**
+
+> - **US dioceses in bankruptcy:** 44 as of March 2026 [11].
+
+**After**
+
+> - **US dioceses and religious orders that have filed for bankruptcy:** 44 as of March 2026, with 15 cases still pending [11].
+
+*Reason:* Same figure, stated as filings (P1-3).
+
+### CATH-D013 · md · §22 · proposed · build: applied
+
+**Before**
+
+> Some forty US dioceses and religious orders have filed for bankruptcy protection, which has
+
+**After**
+
+> Forty-four US dioceses and religious organisations have filed for bankruptcy protection, 15 of those cases still pending as of March 2026 [11], which has
+
+*Reason:* Third statement of the figure brought into line (P1-3).
+
+### CATH-D014 · md · §3 · proposed · build: applied
+
+**Before**
+
+> National inquiries in Australia, France, Ireland, and the United States found the institution's own files documenting transfers rather than reports, some after 2002.
+
+**After**
+
+> National inquiries in Australia, France and Ireland, and state grand juries in the United States, found the institution's own files documenting transfers rather than reports, some after 2002.
+
+*Reason:* The page's own section 22 says the US had no federal inquiry (P1-4, hostile H4).
+
+### CATH-D015 · md · §17 · proposed · build: applied
+
+**Before**
+
+> established by four national inquiries
+
+**After**
+
+> established by national inquiries in Australia, France and Ireland and by US state grand juries
+
+*Reason:* Same contradiction in the section 17 table (P1-4).
+
+### CATH-D017 · md · §8 · proposed · build: applied
+
+**Before**
+
+> | Annulment through church tribunals is the main route out of a marriage [23] |
+
+**After**
+
+> | With no divorce law, the legal route out of a marriage is a civil annulment or declaration of nullity; a church annulment is needed to remarry in church but has no civil effect [43] |
+
+*Reason:* A church annulment has no civil effect in the Philippines (P1-5, hostile H5).
+
+### CATH-D025 · md · §12 · proposed · build: applied
+
+**Before**
+
+> **Evidence grade.** [[Documented]] Institutional reversal of victim and offender documented across national inquiries. *(sourced)*
+
+**After**
+
+> **Evidence grade.** [[Documented]] Institutional reversal of victim and offender documented across national inquiries.
+
+*Reason:* Technique 12 names no document: *(sourced)* removed (P1-6).
+
+### CATH-D026 · md · §12 · proposed · build: applied
+
+**Before**
+
+> abolished in 1966. *(sourced)*
+
+**After**
+
+> abolished in 1966 [25]. *(sourced)*
+
+*Reason:* Technique 14 names a document (the Index of Forbidden Books); the source is now cited (P1-6).
+
+### CATH-D027 · md · §12 · proposed · build: applied
+
+**Before**
+
+> Sacramental mediation and reservation of ordination are canon law, published and explicit. *(sourced)*
+
+**After**
+
+> Sacramental mediation and reservation of ordination are canon law (can. 1024 [1]), published and explicit. *(sourced)*
+
+*Reason:* Technique 15 now names the canon (P1-6).
+
+### CATH-D028 · md · §12 · proposed · build: applied
+
+**Before**
+
+> and multiple U.S. grand juries. *(sourced)*
+
+**After**
+
+> and multiple U.S. grand juries [13][14][15]. *(sourced)*
+
+*Reason:* Technique 18 names the inquiries; their sources are now cited (P1-6).
+
+### CATH-D029 · md · §12 · proposed · build: applied
+
+**Before**
+
+> first confession at approximately age seven is prescribed practice. *(sourced)*
+
+**After**
+
+> first confession at approximately age seven is prescribed practice.
+
+*Reason:* Technique 19 names no document: *(sourced)* removed (P1-6).
+
+### CATH-D030 · md · §12 · proposed · build: applied
+
+**Before**
+
+> Contraception and remarriage rules are published doctrine with defined sacramental consequences. *(sourced)*
+
+**After**
+
+> Contraception and remarriage rules are published doctrine with defined sacramental consequences.
+
+*Reason:* Technique 22 names no document: *(sourced)* removed (P1-6).
+
+### CATH-D031 · md · §12 · proposed · build: applied
+
+**Before**
+
+> Ordination reserved to men by canon law, so every governing office that controls doctrine and money is structurally male. *(sourced)*
+
+**After**
+
+> Ordination reserved to men by canon law (can. 1024 [1]), so every governing office that controls doctrine and money is structurally male. *(sourced)*
+
+*Reason:* Technique 23 now names the canon (P1-6).
+
+### CATH-D032 · md · §12 · proposed · build: applied
+
+**Before**
+
+> established across multiple national inquiries. *(sourced)*
+
+**After**
+
+> established across multiple national inquiries.
+
+*Reason:* Technique 25 names no document: *(sourced)* removed (P1-6).
+
+### CATH-D033 · md · §12 · proposed · build: applied
+
+**Before**
+
+> established in bankruptcy court records. *(sourced)*
+
+**After**
+
+> established in bankruptcy court records.
+
+*Reason:* Technique 26 names no document: *(sourced)* removed (P1-6).
+
+### CATH-D034 · md · §12 · proposed · build: applied
+
+**Before**
+
+> Excommunication and denial of sacraments are defined canonical procedures. *(sourced)*
+
+**After**
+
+> Excommunication and denial of sacraments are defined canonical procedures.
+
+*Reason:* Technique 28 names no document: *(sourced)* removed (P1-6).
+
+### CATH-D035 · md · §12 · proposed · build: applied
+
+**Before**
+
+> no other religion possesses. *(sourced)*
+
+**After**
+
+> no other religion possesses.
+
+*Reason:* Technique 30 names no document: *(sourced)* removed (P1-6).
+
+### CATH-D038 · md · §10 · proposed · build: applied
+
+**Before**
+
+> a configuration every abuse inquiry identified as an accountability risk, not a spiritual necessity. Eastern Catholic
+
+**After**
+
+> a configuration that Australia's Royal Commission found had contributed to child sexual abuse when combined with other risk factors, and on which it asked the Holy See to consider voluntary celibacy for diocesan clergy [14]. Other studies disagree: the John Jay study for the US bishops found celibacy was not a cause of the crisis [47]. Eastern Catholic
+
+*Reason:* 'Every abuse inquiry' is not shown by the cited reports; replaced with what the Royal Commission found, and the contrary finding stated (P2-9, hostile H7).
+
+### CATH-D039 · md · §10 · proposed · build: applied
+
+**Before**
+
+> ::: cites
+> Sources for this section: [25]
+> :::
+>
+> ## 11. Reach
+
+**After**
+
+> ::: cites
+> Sources for this section: [25] [14] [47]
+> :::
+>
+> ## 11. Reach
+
+*Reason:* Cites the new sources in section 10 (P2-9).
+
+### CATH-D040 · md · §16 · proposed · build: applied
+
+**Before**
+
+> - Curial and diocesan officials benefit, holding office with lifetime tenure and accountability that is internal only.
+
+**After**
+
+> - Curial and diocesan officials benefit, holding office with accountability that is internal only; diocesan bishops are asked to offer their resignation at 75, and the pope decides whether to accept it [46].
+
+*Reason:* Bishops do not hold lifetime tenure (can. 401 §1) (P2-10, hostile H8).
+
+### CATH-D041 · md · §16 · proposed · build: applied
+
+**Before**
+
+> ::: cites
+> Sources for this section: [20] [24]
+> :::
+
+**After**
+
+> ::: cites
+> Sources for this section: [20] [24] [46]
+> :::
+
+*Reason:* Cites canon 401 in section 16 (P2-10).
+
+## narration (2)
+
+### CATH-D009 · narration · proposed · build: applied
+
+**Before**
+
+> asks why the officials who made it, again and again, kept their offices.
+
+**After**
+
+> asks why the officials who made it, again and again, were not removed under any published rule.
+
+*Reason:* Narration for question 2 followed the old wording (P1-1).
+
+### CATH-D016 · narration · proposed · build: applied
+
+**Before**
+
+> Four national inquiries (Australia, France, Ireland and the United States) established that
+
+**After**
+
+> National inquiries in Australia, France and Ireland, and state grand juries in the United States, established that
+
+*Reason:* Narration repeated the contradiction (P1-4, hostile H14).
+
+## grade (7)
+
+### CATH-D018 · md · §12 · proposed · build: applied
+
+**Before**
+
+> **Evidence grade.** [[Documented]] The rules that meter relief
+
+**After**
+
+> **Evidence grade.** [[Codified]] The rules that meter relief
+
+*Reason:* Technique 8 rests on published rules, not an inquiry finding: regraded Documented to Codified (P1-6).
+
+### CATH-D019 · md · §12 · proposed · build: applied
+
+**Before**
+
+> **Evidence grade.** [[Documented]] The annulment process and the sacramental restrictions
+
+**After**
+
+> **Evidence grade.** [[Codified]] The annulment process and the sacramental restrictions
+
+*Reason:* Technique 9 rests on canon law: regraded Documented to Codified (P1-6).
+
+### CATH-D020 · md · §12 · proposed · build: applied
+
+**Before**
+
+> **Evidence grade.** [[Documented]] The distinction between fixed doctrine and flexible pastoral application is published teaching; how it is applied varies by bishop and parish.
+
+**After**
+
+> **Evidence grade.** [[Cultural]] How doctrine is applied, firmly in one parish and flexibly in the next, varies by bishop and parish and is observed practice; only the distinction between fixed doctrine and pastoral application is published teaching.
+
+*Reason:* Technique 10 describes how doctrine is applied, which is observed practice: regraded Documented to Cultural (P1-6).
+
+### CATH-D021 · md · §12 · proposed · build: applied
+
+**Before**
+
+> **Evidence grade.** [[Documented]] First confession and first communion at about age seven
+
+**After**
+
+> **Evidence grade.** [[Codified]] First confession and first communion at about age seven
+
+*Reason:* Technique 13 rests on prescribed practice and published teaching: regraded Documented to Codified (P1-6).
+
+### CATH-D022 · md · §12 · proposed · build: applied
+
+**Before**
+
+> **Evidence grade.** [[Codified]] The duties the pressure appeals to (Sunday Mass, annual confession, the sacraments of initiation for children) are published obligations; the pressure itself comes from family and parish.
+
+**After**
+
+> **Evidence grade.** [[Cultural]] The pressure comes from family and parish, not from any written rule; it appeals to published obligations (Sunday Mass, annual confession, the sacraments of initiation for children).
+
+*Reason:* Technique 16 is community practice with no written rule: regraded Codified to Cultural (P1-6).
+
+### CATH-D023 · md · §12 · proposed · build: applied
+
+**Before**
+
+> **Evidence grade.** [[Codified]] National inquiries found survivors disbelieved and treated as a danger to the Church's reputation; casting critics as enemies of the Church is observed practice rather than written rule.
+
+**After**
+
+> **Evidence grade.** [[Documented]] National inquiries found survivors disbelieved and treated as a danger to the Church's reputation [13][14][15]; casting critics as enemies of the Church is observed practice rather than written rule.
+
+*Reason:* Technique 17's basis is inquiry findings: regraded Codified to Documented and cited the inquiries (P1-6).
+
+### CATH-D024 · md · §12 · proposed · build: applied
+
+**Before**
+
+> **Evidence grade.** [[Codified]] Parish life continuing without those who leave is observed practice; no written rule directs it.
+
+**After**
+
+> **Evidence grade.** [[Cultural]] Parish life continuing without those who leave is observed practice; no written rule directs it.
+
+*Reason:* Technique 29 is observed practice: regraded Codified to Cultural (P1-6).
+
+## tally (1)
+
+### CATH-D036 · md · §1 · proposed · build: applied
+
+**Before**
+
+> | Evidence | 11 of 30 techniques sourced to a named document; grades: Codified 18, Documented 9, Cultural 2, Reformed 1 |
+
+**After**
+
+> | Evidence | 4 of 30 techniques sourced to a named document; grades: Codified 18, Documented 6, Cultural 5, Reformed 1 |
+
+*Reason:* Tally recomputed from the section 12 chips after the regrades and marker removals (P1-6).
+
+## tags (1)
+
+### CATH-D037 · md · §19 · proposed · build: applied
+
+**Before**
+
+> - **tactics:** 2, 26
+
+**After**
+
+> - **tactics:** 26
+
+*Reason:* Technique 2 (Weaponized Generosity) does not fit a tax case; 26 Financial Control does (P2-8).
+
+## help (1)
+
+### CATH-D042 · md · §25 · proposed · build: applied
+
+**Before**
+
+> | **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [40] |
+
+**After**
+
+> | **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331**, Mon–Thu 10am–9pm, Fri 10am–6pm, closed weekends [40] |
+
+*Reason:* Opening hours added (P3-14; napac.org.uk, checked 2026-10-03).
+
+## figure (1)
+
+### CATH-D043 · md · §22 · proposed · build: applied
+
+**Before**
+
+> in a country of roughly 80 million Catholics with no divorce law.
+
+**After**
+
+> in a country of roughly 86 million Catholics (78.8% of the 2020 census) with no divorce law [48].
+
+*Reason:* Fact-check F16, previously NOT CHECKED: the 2020 census counts 85.6 million Catholics.
+
+## cites (1)
+
+### CATH-D044 · md · §22 · proposed · build: applied
+
+**Before**
+
+> Sources for this section: [11] [15] [16] [17] [18] [19] [22] [23]
+
+**After**
+
+> Sources for this section: [11] [15] [16] [17] [18] [19] [22] [23] [48]
+
+*Reason:* Cites the census source in section 22 (F16).
+
+## Edition and version narration removed (2)
+
+### CATH-D045 · md · proposed · build: applied
+
+**Before**
+
+> checked: 2026-09-27
+
+**After**
+
+> checked: 2026-10-03
+
+*Reason:* Text rechecked after the discrepancy fixes.
+
+### CATH-D046 · md · §1 · proposed · build: applied
+
+**Before**
+
+> | Last checked | 2026-09-27 |
+
+**After**
+
+> | Last checked | 2026-10-03 |
+
+*Reason:* Same.
+
+## changelog (1)
+
+### CATH-D047 · md · §27 · proposed · build: applied
+
+**Before**
+
+> - **2026-09-27:** Checked against the sources and corrected:
+
+**After**
+
+> - **2026-10-03:** Reworded the page's central question, which Cardinal Law's 2002 resignation had answered in part, and narrowed the claim about bishops and removal to what the sources support; corrected the bankruptcy figure (44 have filed, 15 cases are still pending); stopped describing the US grand juries as a national inquiry; corrected the Philippines row (a church annulment has no civil effect there) and the Catholic population figure; replaced two overstated claims about celibacy and bishops' tenure; regraded seven techniques and removed seven unsupported "sourced" markers, so the page now counts four techniques sourced to a named document; removed a technique that did not fit from the church-tax case; added NAPAC's opening hours and six new sources.
+> - **2026-09-27:** Checked against the sources and corrected:
+
+*Reason:* Patch note for this round (CLAUDE.md patch-notes rule).
 

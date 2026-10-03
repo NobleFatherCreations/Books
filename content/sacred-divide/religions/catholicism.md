@@ -5,7 +5,7 @@ family: "Christianity"
 family_id: christianity-family
 family_members: [christianity, catholicism, eastern-orthodoxy, oriental-orthodoxy, anglicanism, protestant-evangelical, pentecostal-charismatic, plymouth-brethren]
 version: v4
-checked: 2026-09-27
+checked: 2026-10-03
 sections_filled: 27/27
 missing: []
 partial: []
@@ -23,10 +23,10 @@ partial: []
 | Chosen by / removable by | A conclave whose every elector was appointed by a previous pope / Nobody. Canon law provides no mechanism to remove a pope; even resignation must be his own free act |
 | Money in one line | The money comes from Peter's Pence, diocesan appeals, parish collections, school systems and hospital networks, and the Church holds one of the largest real-estate portfolios in the world. |
 | Leaving in one line | Leaving can bring excommunication and the denial of the sacraments, and for the devout this is framed as risking eternal loss. |
-| The unanswered question | Every national inquiry found the files existed and were kept. Who above the rank of bishop has ever lost office for keeping them sealed? |
-| Evidence | 11 of 30 techniques sourced to a named document; grades: Codified 18, Documented 9, Cultural 2, Reformed 1 |
+| The unanswered question | Every national inquiry found the files existed and were kept. Cardinal Law resigned in 2002 under public pressure [44]. Which bishop has ever been removed by Rome, under a published rule, for keeping the files sealed? |
+| Evidence | 4 of 30 techniques sourced to a named document; grades: Codified 18, Documented 6, Cultural 5, Reformed 1 |
 | Family | Christianity — christianity, catholicism, eastern-orthodoxy, oriental-orthodoxy, anglicanism, protestant-evangelical, pentecostal-charismatic, plymouth-brethren |
-| Last checked | 2026-09-27 |
+| Last checked | 2026-10-03 |
 :::
 
 ### Disclosure scorecard
@@ -62,14 +62,14 @@ You may have knelt in a building older than your country. You may have felt some
 ### The unanswered question
 
 ::: question
-Every national inquiry found the files existed and were kept. Who above the rank of bishop has ever lost office for keeping them sealed?
+Every national inquiry found the files existed and were kept. Cardinal Law resigned in 2002 under public pressure [44]. Which bishop has ever been removed by Rome, under a published rule, for keeping the files sealed?
 :::
 
 ### The widest gap between word and record
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| Zero tolerance for abuse, since 2002. | National inquiries in Australia, France, Ireland, and the United States found the institution's own files documenting transfers rather than reports, some after 2002. | [GOVERNMENT REPORT] |
+| Zero tolerance for abuse, since 2002. | National inquiries in Australia, France and Ireland, and state grand juries in the United States, found the institution's own files documenting transfers rather than reports, some after 2002. | [GOVERNMENT REPORT] |
 
 ### One cost of leaving, beside its denial
 
@@ -86,7 +86,7 @@ Every national inquiry found the files existed and were kept. Who above the rank
 **The answer.** Nearly every serious claim here rests on findings by governments and the Church's own courts — Australia's Royal Commission, France's CIASE (the Independent Commission on Sexual Abuse in the Church), U.S. grand juries, the Vatican's own conviction of a cardinal. That is not an outsider's characterization. It is the institution's paper, read back.
 
 ::: cites
-Sources for this section: [9] [10]
+Sources for this section: [9] [10] [44]
 :::
 
 ## 4. What healthy looks like here {#healthy}
@@ -224,8 +224,8 @@ Sources for this section: [5] [6] [7] [8] [9] [10] [13] [14] [15] [20]
 | **Germany** | Collects church tax (Kirchensteuer, a surcharge on registered members' income tax) through the tax office — €6.75bn for the Catholic dioceses in 2025 [20] | Leaving means a formal civil declaration, which ends the tax [20] |
 | **Austria** | The church collects its own contribution, enforced through the civil courts | — |
 | **Ireland** | Mandatory reporting to the child and family agency, with **no** exemption for confession (2015) [17] | The Ryan, Murphy and Cloyne reports [16] |
-| **United States** | Churches are exempt from filing Form 990, the public annual return other US charities must file. Scrutiny comes from state attorneys general and grand juries [15][18] | 44 dioceses and orders in bankruptcy [11]; a Washington state law requiring priests to report abuse heard in confession was blocked in 2025 [12] |
-| **Philippines** | No divorce law — the only state besides Vatican City [23] | Annulment through church tribunals is the main route out of a marriage [23] |
+| **United States** | Churches are exempt from filing Form 990, the public annual return other US charities must file. Scrutiny comes from state attorneys general and grand juries [15][18] | 44 dioceses and religious organisations have filed for bankruptcy protection, with 15 cases still pending (March 2026) [11]; a Washington state law requiring priests to report abuse heard in confession was blocked in 2025 [12] |
+| **Philippines** | No divorce law — the only state besides Vatican City [23] | With no divorce law, the legal route out of a marriage is a civil annulment or declaration of nullity; a church annulment is needed to remarry in church but has no civil effect [43] |
 | **Vatican City / Holy See** | A sovereign state with its own criminal court, and a UN observer [9][24] | "The First See is judged by no one" (canon 1404) [1] |
 
 ### Who can compel an answer
@@ -350,7 +350,7 @@ Sources for this section: [9] [10] [11] [20]
 
 - **Peter's Pence**, the annual collection taken for the pope's charity and mission: donations of €48.4m in 2023 [32] and over €54m in 2025 [33]; reporting found most of it goes to the Curia's running costs [34].
 - **APSA**, the Holy See's property and investment office, has published a balance sheet only since 2021 [6]; the Vatican bank (IOR) since 2013 [7].
-- **US dioceses in bankruptcy:** 44 as of March 2026 [11].
+- **US dioceses and religious orders that have filed for bankruptcy:** 44 as of March 2026, with 15 cases still pending [11].
 
 ## 10. Genealogy {#genealogy}
 
@@ -385,7 +385,7 @@ Sources for this section: [9] [10] [11] [20]
 
 **What it was for.** Substantially about property: married priests produced heirs who inherited Church land. Celibacy kept the estate in the institution's hands.
 
-**Why that reason expired.** The property question is settled by modern corporate law. What remains is a structure that concentrates unmarried men with sacramental authority over families — a configuration every abuse inquiry identified as an accountability risk, not a spiritual necessity. Eastern Catholic churches ordain married men, which proves it is discipline, not doctrine.
+**Why that reason expired.** The property question is settled by modern corporate law. What remains is a structure that concentrates unmarried men with sacramental authority over families — a configuration that Australia's Royal Commission found had contributed to child sexual abuse when combined with other risk factors, and on which it asked the Holy See to consider voluntary celibacy for diocesan clergy [14]. Other studies disagree: the John Jay study for the US bishops found celibacy was not a cause of the crisis [47]. Eastern Catholic churches ordain married men, which proves it is discipline, not doctrine.
 
 **Who benefits now.** The institution's asset base and its mobile, dependent, fully controllable workforce. A priest with no family has nowhere else to go.
 :::
@@ -403,7 +403,7 @@ Sources for this section: [9] [10] [11] [20]
 :::
 
 ::: cites
-Sources for this section: [25]
+Sources for this section: [25] [14] [47]
 :::
 
 ## 11. Reach {#reach}
@@ -622,7 +622,7 @@ Survivors were told they misremembered, that they should forgive, that scandal h
 
 **The counter.** The sacrament may be grace; the scheduling is behavior. When relief is real, temporary, and dispensed solely by the institution that also defines the guilt, the theology and the slot machine have the same floor plan.
 
-**Evidence grade.** [[Documented]] The rules that meter relief (confession, absolution and the conditions for receiving communion) are set out in the Catechism and canon law.
+**Evidence grade.** [[Codified]] The rules that meter relief (confession, absolution and the conditions for receiving communion) are set out in the Catechism and canon law.
 :::
 
 ::: tactic n=9
@@ -640,7 +640,7 @@ Survivors were told they misremembered, that they should forgive, that scandal h
 
 **The counter.** Formation becomes moving the goalposts when the only mature conscience is the obedient one. If the standard changes until the institution gets the answer it wanted, conscience was never being formed. It was being domesticated.
 
-**Evidence grade.** [[Documented]] The annulment process and the sacramental restrictions on divorced and remarried Catholics are written in canon law.
+**Evidence grade.** [[Codified]] The annulment process and the sacramental restrictions on divorced and remarried Catholics are written in canon law.
 :::
 
 ::: tactic n=10
@@ -658,7 +658,7 @@ Survivors were told they misremembered, that they should forgive, that scandal h
 
 **The counter.** Balance becomes ambiguity when the institution can sound merciful without surrendering control. If compassion changes tone but not power, it is not mercy. It is public relations with incense.
 
-**Evidence grade.** [[Documented]] The distinction between fixed doctrine and flexible pastoral application is published teaching; how it is applied varies by bishop and parish.
+**Evidence grade.** [[Cultural]] How doctrine is applied, firmly in one parish and flexibly in the next, varies by bishop and parish and is observed practice; only the distinction between fixed doctrine and pastoral application is published teaching.
 :::
 
 ::: tactic n=11
@@ -696,7 +696,7 @@ Survivors were told they misremembered, that they should forgive, that scandal h
 
 **The counter.** Bias may exist, but it does not erase abuse. DARVO begins when the institution makes criticism of its crimes sound like persecution of its holiness. The scandal is not that people found out. The scandal is what happened and who protected it.
 
-**Evidence grade.** [[Documented]] Institutional reversal of victim and offender documented across national inquiries. *(sourced)*
+**Evidence grade.** [[Documented]] Institutional reversal of victim and offender documented across national inquiries.
 :::
 
 ::: tactic n=13
@@ -715,7 +715,7 @@ Survivors were told they misremembered, that they should forgive, that scandal h
 
 **The counter.** Formation becomes desensitization when children and adults are trained to experience surveillance of conscience as spiritual care. If shame becomes familiar enough to feel sacred, the institution has successfully normalized dependence.
 
-**Evidence grade.** [[Documented]] First confession and first communion at about age seven are prescribed practice, and the teaching on sexual sin is published in the Catechism.
+**Evidence grade.** [[Codified]] First confession and first communion at about age seven are prescribed practice, and the teaching on sexual sin is published in the Catechism.
 :::
 
 ### Stage 5 · Isolate {#stage-5}
@@ -744,7 +744,7 @@ Grace runs through the institution. Forgiveness requires a priest. Your marriage
 
 **The counter.** Protecting truth does not require insulating people from criticism. If the Church’s claims can only survive inside Church-approved sources, then formation has become containment.
 
-**Evidence grade.** [[Reformed]] The Index of Forbidden Books, which formally regulated members' reading, was abolished in 1966. *(sourced)*
+**Evidence grade.** [[Reformed]] The Index of Forbidden Books, which formally regulated members' reading, was abolished in 1966 [25]. *(sourced)*
 :::
 
 ::: tactic n=15
@@ -764,7 +764,7 @@ Grace runs through the institution. Forgiveness requires a priest. Your marriage
 
 **The counter.** Connection becomes triangulation when it is used to crush present conscience. If the dead, the saints, the priest, the family, and the institution are all lined up against the person asking one honest question, then tradition has stopped being memory and become a courtroom.
 
-**Evidence grade.** [[Codified]] Sacramental mediation and reservation of ordination are canon law, published and explicit. *(sourced)*
+**Evidence grade.** [[Codified]] Sacramental mediation and reservation of ordination are canon law (can. 1024 [1]), published and explicit. *(sourced)*
 :::
 
 ### Stage 6 · Extract {#stage-6}
@@ -793,7 +793,7 @@ Parish collections, diocesan appeals, school tuition. A permanent examination of
 
 **The counter.** Encouragement becomes FLYING MONKEY behavior when multiple people are mobilized to pull the person back to the very authority structure they are questioning. If every road leads to confession, Mass, priest, sacrament, and silence, then concern has become ecclesiastical pressure.
 
-**Evidence grade.** [[Codified]] The duties the pressure appeals to (Sunday Mass, annual confession, the sacraments of initiation for children) are published obligations; the pressure itself comes from family and parish.
+**Evidence grade.** [[Cultural]] The pressure comes from family and parish, not from any written rule; it appeals to published obligations (Sunday Mass, annual confession, the sacraments of initiation for children).
 :::
 
 ::: tactic n=17
@@ -812,7 +812,7 @@ Parish collections, diocesan appeals, school tuition. A permanent examination of
 
 **The counter.** Prejudice can be real and still be used as cover. If every internal critic is treated as an enemy of the Church, then the institution has made accountability sound like persecution.
 
-**Evidence grade.** [[Codified]] National inquiries found survivors disbelieved and treated as a danger to the Church's reputation; casting critics as enemies of the Church is observed practice rather than written rule.
+**Evidence grade.** [[Documented]] National inquiries found survivors disbelieved and treated as a danger to the Church's reputation [13][14][15]; casting critics as enemies of the Church is observed practice rather than written rule.
 :::
 
 ::: tactic n=18
@@ -831,7 +831,7 @@ Parish collections, diocesan appeals, school tuition. A permanent examination of
 
 **The counter.** Procedure becomes stonewalling when it protects hierarchy from direct moral confrontation. If the victim ages while the file circulates, the institution has converted time into a shield.
 
-**Evidence grade.** [[Documented]] Canonical confidentiality in abuse processing, established by the Australian Royal Commission, France's CIASE, and multiple U.S. grand juries. *(sourced)*
+**Evidence grade.** [[Documented]] Canonical confidentiality in abuse processing, established by the Australian Royal Commission, France's CIASE, and multiple U.S. grand juries [13][14][15]. *(sourced)*
 :::
 
 ::: tactic n=19
@@ -850,7 +850,7 @@ Parish collections, diocesan appeals, school tuition. A permanent examination of
 
 **The counter.** Consent is compromised when the institution controls the meaning of grace, marriage, sin, conscience, and burial. If refusal threatens family legitimacy, spiritual safety, or sacramental belonging, the yes has been shaped before it is spoken.
 
-**Evidence grade.** [[Codified]] Infant baptism enrolls before consent; first confession at approximately age seven is prescribed practice. *(sourced)*
+**Evidence grade.** [[Codified]] Infant baptism enrolls before consent; first confession at approximately age seven is prescribed practice.
 :::
 
 ::: tactic n=20
@@ -907,7 +907,7 @@ Parish collections, diocesan appeals, school tuition. A permanent examination of
 
 **The counter.** Guidance becomes BENEVOLENT CONTROL when the institution claims parental authority over adult conscience. If the Church defines the wound, controls the medicine, and decides when you are spiritually safe, care has become governance.
 
-**Evidence grade.** [[Codified]] Contraception and remarriage rules are published doctrine with defined sacramental consequences. *(sourced)*
+**Evidence grade.** [[Codified]] Contraception and remarriage rules are published doctrine with defined sacramental consequences.
 :::
 
 ::: tactic n=23
@@ -926,7 +926,7 @@ Parish collections, diocesan appeals, school tuition. A permanent examination of
 
 **The counter.** Nurture becomes INFANTILIZATION when adults are never allowed to outgrow supervision. If the institution remains Mother and the priest remains Father forever, the faithful remain children by design.
 
-**Evidence grade.** [[Codified]] Ordination reserved to men by canon law, so every governing office that controls doctrine and money is structurally male. *(sourced)*
+**Evidence grade.** [[Codified]] Ordination reserved to men by canon law (can. 1024 [1]), so every governing office that controls doctrine and money is structurally male. *(sourced)*
 :::
 
 ::: tactic n=24
@@ -966,7 +966,7 @@ Parish collections, diocesan appeals, school tuition. A permanent examination of
 
 **The counter.** Meaning becomes SPIRITUAL BYPASSING when it replaces repair. If suffering is made spiritually useful before the institution stops causing it, theology has become anesthesia.
 
-**Evidence grade.** [[Documented]] Forgiveness pressure and internal handling instead of civil reporting, established across multiple national inquiries. *(sourced)*
+**Evidence grade.** [[Documented]] Forgiveness pressure and internal handling instead of civil reporting, established across multiple national inquiries.
 :::
 
 ::: tactic n=26
@@ -985,7 +985,7 @@ Parish collections, diocesan appeals, school tuition. A permanent examination of
 
 **The counter.** Funding becomes FINANCIAL CONTROL when access to dignity, sacraments, education, or burial feels financially mediated. If families must pay to remain properly Catholic in the eyes of the community, the institution has monetized belonging.
 
-**Evidence grade.** [[Documented]] Diocesan asset transfers ahead of abuse judgments, established in bankruptcy court records. *(sourced)*
+**Evidence grade.** [[Documented]] Diocesan asset transfers ahead of abuse judgments, established in bankruptcy court records.
 :::
 
 ### Stage 7 · Discard {#stage-7}
@@ -1033,7 +1033,7 @@ Excommunication, denial of communion, refusal of Catholic burial. For clergy who
 
 **The counter.** A call to return is not the same as belonging. If the only acceptable return requires silence, submission, confession, and doctrinal surrender, then the Church is not keeping the person. It is keeping the version of them that obeys.
 
-**Evidence grade.** [[Codified]] Excommunication and denial of sacraments are defined canonical procedures. *(sourced)*
+**Evidence grade.** [[Codified]] Excommunication and denial of sacraments are defined canonical procedures.
 :::
 
 ### Stage 8 · Replace {#stage-8}
@@ -1062,7 +1062,7 @@ The parish absorbs the loss without a ripple; a church of 1.4 billion does not n
 
 **The counter.** Mission becomes REPLACEMENT when continuity matters more than accountability. If the Church can replace workers, donors, and wounded families without confronting why they left, permanence has become indifference.
 
-**Evidence grade.** [[Codified]] Parish life continuing without those who leave is observed practice; no written rule directs it.
+**Evidence grade.** [[Cultural]] Parish life continuing without those who leave is observed practice; no written rule directs it.
 :::
 
 ::: tactic n=30
@@ -1082,7 +1082,7 @@ The parish absorbs the loss without a ripple; a church of 1.4 billion does not n
 
 **The counter.** “Pastoral variation” becomes PLAUSIBLE DENIABILITY when local leaders enforce harsh outcomes and the hierarchy later calls them isolated or contextual. Procedure becomes concealment when responsibility disappears into offices, boards, dioceses, and canon law. Consent is compromised when the Church controls access to grace, legitimacy, schooling, marriage, confession, and burial.
 
-**Evidence grade.** [[Codified]] Doctrinal authority located in the magisterium, with the Holy See holding sovereign and diplomatic immunities no other religion possesses. *(sourced)*
+**Evidence grade.** [[Codified]] Doctrinal authority located in the magisterium, with the Holy See holding sovereign and diplomatic immunities no other religion possesses.
 :::
 
 ::: cites
@@ -1215,7 +1215,7 @@ A priest is removed, a bishop retires with honors, the diocese continues, and th
 1. An allegation surfaces, usually through a court, a grand jury or journalists rather than internal process (sections 5 and 22).
 2. The individual priest is removed or laicized (section 14).
 3. A new policy or office is announced; the global 'zero tolerance' commitment has been restated since 2002 and is recorded as partial (section 20).
-4. No bishop is removed for the concealment; the Vatican's court has convicted a cardinal of financial crimes but never a bishop for covering up abuse (sections 14 and 19).
+4. No bishop is recorded on this page as removed from office by Rome for the concealment (Cardinal Law resigned under pressure in 2002; two Polish bishops were sanctioned in 2021 after they had resigned); the Vatican's court has convicted a cardinal of financial crimes but never a bishop for covering up abuse (sections 14 and 19).
 5. The diocese continues as a corporation sole under the same authority, and the files remain (section 14).
 
 **Techniques that feed it.** [18 · Silent Treatment / Stonewalling](#t-18), [12 · DARVO](#t-12), [25 · Spiritual Bypassing](#t-25), [29 · Replacement](#t-29), [30 · Plausible Deniability](#t-30).
@@ -1255,14 +1255,14 @@ Real anti-Catholic hostility, historic and current, is cited to reframe inquiry 
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| Zero tolerance for abuse, since 2002. | National inquiries in Australia, France, Ireland, and the United States found the institution's own files documenting transfers rather than reports, some after 2002. | [GOVERNMENT REPORT] |
+| Zero tolerance for abuse, since 2002. | National inquiries in Australia, France and Ireland, and state grand juries in the United States, found the institution's own files documenting transfers rather than reports, some after 2002. | [GOVERNMENT REPORT] |
 | Peter's Pence supports the Holy Father's charity. | A substantial portion was invested, including in the London property at the centre of a criminal conviction. | [COURT RECORD] |
 | The Church has no worldly power. | It is a sovereign state with diplomatic immunity, UN standing, and concordats binding national governments. | [OFFICIAL POLICY] |
 | Celibacy is essential to the priesthood. | Eastern Catholic churches in full communion ordain married men, which makes it discipline rather than doctrine. | [OFFICIAL POLICY] |
 
 ### Accountability or theatre?
 
-**Last time the chair ran.** In every national inquiry, individual priests were laicized (formally returned to the lay state), and Rome removed not one bishop for having done the transferring.
+**Last time the chair ran.** In every national inquiry, individual priests were laicized (formally returned to the lay state). Cardinal Law resigned as Archbishop of Boston in 2002 under public pressure [44], and in 2021 the Holy See sanctioned two Polish bishops after Vos estis inquiries, though both had already resigned [45]. No bishop is recorded on this page as removed from office by Rome for the transferring itself.
 
 **Who holds the chair now.** Diocesan bishops hold it, with sole corporate authority and no external audit.
 
@@ -1278,7 +1278,7 @@ Real anti-Catholic hostility, historic and current, is cited to reframe inquiry 
 | Filial obedience | The devoted submission owed to church authority. | Frames the withdrawal of an objection as an act of love rather than a defeat. | 'Stop, and feel warm about stopping.' |
 
 ::: cites
-Sources for this section: [3]
+Sources for this section: [3] [44] [45]
 :::
 
 ## 15. Cost & cover {#cost}
@@ -1316,7 +1316,7 @@ Sources for this section: [3]
 ### Who benefits
 
 - The institution itself as a corporate person: sovereignty, diplomatic status, legal immunities, and asset protection unavailable to any other religion. [OFFICIAL POLICY: Lateran Treaty; Holy See UN observer status]
-- Curial and diocesan officials benefit, holding office with lifetime tenure and accountability that is internal only.
+- Curial and diocesan officials benefit, holding office with accountability that is internal only; diocesan bishops are asked to offer their resignation at 75, and the pope decides whether to accept it [46].
 - States that co-govern through concordats — e.g., Germany collects billions annually in church tax on the Church's behalf. [FINANCIAL RECORD: German Bishops' Conference — €6.75bn in 2025]
 
 ### Money out, leverage back
@@ -1336,7 +1336,7 @@ Sources for this section: [3]
 - Nuns and religious sisters pay, because their labor built institutions they never governed. [ACADEMIC SOURCE]
 
 ::: cites
-Sources for this section: [20] [24]
+Sources for this section: [20] [24] [46]
 :::
 
 ## 17. Who gets hurt most {#who-gets-hurt}
@@ -1347,7 +1347,7 @@ The costs in section 15 do not fall evenly. They fall hardest where a person has
 
 | Who | How | What it compounds with |
 |---|---|---|
-| Children in Church institutions | The most heavily documented institutional harm in this codex, established by four national inquiries | Where the family's entire social and educational world was the same institution |
+| Children in Church institutions | The most heavily documented institutional harm in this codex, established by national inquiries in Australia, France and Ireland and by US state grand juries | Where the family's entire social and educational world was the same institution |
 | Women | Excluded from every office that governs their bodies, marriages, and children's sacraments | With poverty, in jurisdictions where Church-run hospitals are the only provider |
 | Divorced and remarried Catholics | Sacramental standing contingent on a tribunal of celibate men | Where the first marriage was abusive and the annulment turns on proving it |
 | LGBTQ Catholics | Doctrinally disordered, excluded from marriage, employed under conduct clauses | For teachers and staff, whose livelihood is the same institution |
@@ -1396,7 +1396,7 @@ Most of the institution's work is done below the bishop, by people who see the d
 - **what:** Germany collects church tax through the state revenue system on behalf of registered religious bodies, generating billions annually; Austria’s church contribution is collected by the churches themselves but enforced through the civil courts. Membership functions as a tax status, and leaving requires a formal civil declaration.
 - **record:** National tax law (published policy)
 - **outcome:** The law is in force. It is a rare case where the exit procedure is literally a government form, and where the institution's revenue depends on members not filing it.
-- **tactics:** 2, 26
+- **tactics:** 26
 - **grade:** Codified
 :::
 
@@ -1465,7 +1465,7 @@ Sources for this section: [9] [10] [21]
 
 - **apex:** The USCCB (United States Conference of Catholic Bishops), which is a conference, not a superior; each diocesan bishop answers only to Rome.
 - **law:** No federal inquiry. Accountability has run through state attorneys general (the Pennsylvania grand jury, 2018, and inquiries announced by attorneys general in at least fourteen states), civil litigation, and diocesan bankruptcies. Churches file no Form 990.
-- **documented:** Boston (2002) established the documentary method. The Pennsylvania grand jury named over 300 priests across six dioceses. Some forty US dioceses and religious orders have filed for bankruptcy protection, which has the effect of consolidating and capping claims.
+- **documented:** Boston (2002) established the documentary method. The Pennsylvania grand jury named over 300 priests across six dioceses. Forty-four US dioceses and religious organisations have filed for bankruptcy protection, 15 of those cases still pending as of March 2026 [11], which has the effect of consolidating and capping claims.
 - **exit:** Exit costs are low in most of the country, and higher in dense ethnic-Catholic communities and where schooling and employment are linked to the parish.
 - **regulator:** State attorneys general are by a wide margin the most effective route in this jurisdiction. State child-protection agencies also take reports. Many states still exempt clergy from mandatory reporting.
 - **tell:** Where a state AG opened a grand jury, records emerged. Where none did, none did. The variable is one elected official's decision.
@@ -1474,7 +1474,7 @@ Sources for this section: [9] [10] [21]
 ::: card
 ### The Philippines
 
-- **apex:** The Catholic Bishops' Conference of the Philippines, in a country of roughly 80 million Catholics with no divorce law.
+- **apex:** The Catholic Bishops' Conference of the Philippines, in a country of roughly 86 million Catholics (78.8% of the 2020 census) with no divorce law [48].
 - **law:** The Philippines is the only state other than Vatican City without divorce. Church influence over reproductive-health legislation has been sustained and documented across decades.
 - **documented:** The reproductive-health law fight (2012, upheld 2014) is the clearest documented case in this codex of a religious body shaping a nation's health policy.
 - **exit:** Exit costs are high, and materially different from the Western pattern: leaving affects marriage, family standing, and in many provinces schooling and employment.
@@ -1483,13 +1483,13 @@ Sources for this section: [9] [10] [21]
 :::
 
 ::: cites
-Sources for this section: [11] [15] [16] [17] [18] [19] [22] [23]
+Sources for this section: [11] [15] [16] [17] [18] [19] [22] [23] [48]
 :::
 
 ## 23. The questions {#questions}
 
 1. If there was nothing to hide, why did it take a government commission — not a synod, not a pope — to produce the documents?
-2. Why was a priest credibly accused of abusing children moved to a new parish instead of handed to police, and why has no bishop who did the moving lost his office over it?
+2. Why was a priest credibly accused of abusing children moved to a new parish instead of handed to police, and why has Rome never removed a bishop, under a published rule, for doing the moving?
 3. The Church has a criminal court capable of convicting a cardinal of financial crimes. Why has it never used that court to convict a bishop of covering up abuse?
 4. Why is a divorced woman denied communion while the man who transferred her daughter's abuser retired with honors?
 5. If celibacy is spiritually necessary, why are married Eastern Catholic priests validly ordained? And if it is not necessary, what is it actually for?
@@ -1523,7 +1523,7 @@ Checked 2026-09-27.
 |---|---|---|---|
 | **SNAP** | Survivors of clergy abuse | US and international | Via website [26] |
 | **One in Four** | Adults abused in childhood, including by clergy | Ireland | Via website [27] |
-| **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [40] |
+| **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331**, Mon–Thu 10am–9pm, Fri 10am–6pm, closed weekends [40] |
 | **Childhelp** | Child abuse, now or in the past | US | **1-800-422-4453**, 24/7 [41] |
 | **RAINN** | Sexual assault | US | **1-800-656-4673**, 24/7 [42] |
 | **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** [39] |
@@ -1544,7 +1544,7 @@ Checked 2026-09-27.
 ### Courts
 9. Vatican City State Tribunal, verdict of 16 Dec 2023 convicting Cardinal Angelo Becciu (embezzlement, aggravated fraud; 5 years 6 months) — Euronews. https://www.euronews.com/2023/12/23/vatican-top-prosecutor-appeals-watershed-fraud-verdict
 10. Vatican Court of Appeal, ruling of 17 Mar 2026 — procedural errors; partial retrial ordered from 22 June 2026; the first-instance verdict remains in place pending it — PBS/AP. https://www.pbs.org/newshour/world/vatican-appeals-tribunal-declares-mistrial-in-trial-of-the-century-against-cardinal
-11. Penn State Dickinson Law, *Catholic Dioceses in Bankruptcy* (Prof. Marie T. Reilly) — 44 US Catholic dioceses and orders in chapter 11 as of March 2026. https://insight.dickinsonlaw.psu.edu/bankruptcy/
+11. Penn State Dickinson Law, *Catholic Dioceses in Bankruptcy* (Prof. Marie T. Reilly) — as of March 2026, 44 US Catholic religious organisations (dioceses and orders) have sought chapter 11 protection; 29 cases have concluded and 15 are pending. https://insight.dickinsonlaw.psu.edu/bankruptcy/
 12. Washington State Standard, "Judge blocks WA requirement for priests to report child abuse disclosed in confession" (18 July 2025); state later agreed not to enforce for confession-only information. https://washingtonstatestandard.com/2025/07/18/judge-blocks-wa-requirement-for-priests-to-report-child-abuse-disclosed-in-confession/
 
 ### Government inquiries
@@ -1584,9 +1584,16 @@ Checked 2026-09-27.
 40. NAPAC — support line 0808 801 0331. https://napac.org.uk/calling-our-support-line/
 41. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/
 42. RAINN — National Sexual Assault Hotline, 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
+43. Respicio & Co., "Legal Effect of Church Annulment on Civil Marriage in Philippines" — a church annulment has no civil effect; spouses remain married in law until a civil court declares the marriage void or annuls it under the Family Code. https://www.respicio.ph/commentaries/legal-effect-of-church-annulment-on-civil-marriage-in-philippines
+44. CNN, "Pope accepts Cardinal Law's resignation" (13 Dec 2002) — Cardinal Bernard Law resigned as Archbishop of Boston after months of pressure over priests he had reassigned. https://www.cnn.com/2002/LAW/12/13/church.sex.abuse/
+45. Catholic World Report, "Vatican sanctions two Polish bishops after 'Vos estis' investigations" (29 Mar 2021) — Archbishop Sławoj Głódź and Bishop Edward Janiak, who had both resigned in 2020, were sanctioned after inquiries into negligence in abuse cases. https://www.catholicworldreport.com/2021/03/29/vatican-sanctions-two-polish-bishops-after-vos-estis-investigations/
+46. Code of Canon Law, can. 401 §1 — a diocesan bishop who has completed his seventy-fifth year is requested to present his resignation to the Supreme Pontiff. https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib2-cann368-430_en.html
+47. John Jay College of Criminal Justice, *The Causes and Context of Sexual Abuse of Minors by Catholic Priests in the United States, 1950–2010* (2011), commissioned by the US bishops — found that celibacy was not a cause of the abuse crisis. https://www.votf.org/wp-content/uploads/John_Jay_Causes_and_Context_Report.pdf
+48. Philippine Statistics Authority, *Religious Affiliation in the Philippines (2020 Census of Population and Housing)* — 85.6 million Roman Catholics, 78.8% of the household population. https://psa.gov.ph/content/religious-affiliation-philippines-2020-census-population-and-housing
 
 ## 27. What changed on this page {#changed}
 
+- **2026-10-03:** Reworded the page's central question, which Cardinal Law's 2002 resignation had answered in part, and narrowed the claim about bishops and removal to what the sources support; corrected the bankruptcy figure (44 have filed, 15 cases are still pending); stopped describing the US grand juries as a national inquiry; corrected the Philippines row (a church annulment has no civil effect there) and the Catholic population figure; replaced two overstated claims about celibacy and bishops' tenure; regraded seven techniques and removed seven unsupported "sourced" markers, so the page now counts four techniques sourced to a named document; removed a technique that did not fit from the church-tax case; added NAPAC's opening hours and six new sources.
 - **2026-09-27:** Checked against the sources and corrected: Becciu's partial retrial (2026); the Polish bishops' figures came before *Tell No One*; 44 US dioceses and orders in bankruptcy; APSA disclosures since 2021; church tax €6.75bn (2025); Catholic population 1.4 billion.
 - **2026-09-27:** Added Branches, Law & state, Money in numbers (church-tax chart, Peter's Pence), Voices from inside, Leaving safely and Where to get help.
 
