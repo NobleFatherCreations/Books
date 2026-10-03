@@ -1,0 +1,1956 @@
+# Wording log — confucianism
+
+144 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/confucianism.json`, then rebuild. Nothing else changes.
+
+## Fragments completed into sentences (95)
+
+### CON-W001 · md · §1 · proposed · build: applied
+
+**Before**
+
+> | Size | Essentially uncountable as a religion: formal identification is rare, while Confucian norms shape family and social life for well over a billion people across East Asia. [ACADEMIC SOURCE] |
+
+**After**
+
+> | Size | Confucianism is essentially uncountable as a religion. Formal identification is rare, while Confucian norms shape family and social life for well over a billion people across East Asia. [ACADEMIC SOURCE] |
+
+*Reason:* Glance cell began with a fragment; it now opens with a subject. The figure is unchanged and is listed for review (no source in this volume gives it).
+
+### CON-W002 · md · §1 · proposed · build: applied
+
+**Before**
+
+> | Who's in charge | The head of the family — The senior generation — the apex, the court, and the enforcement arm in one |
+
+**After**
+
+> | Who's in charge | The head of the family is the senior generation, which is the apex, the court and the enforcement arm in one. |
+
+*Reason:* Glance cell was a chain of fragments joined by dashes; it is now one sentence.
+
+### CON-W003 · md · §1 · proposed · build: applied
+
+**Before**
+
+> | Chosen by / removable by | Birth / Time and funerals |
+
+**After**
+
+> | Chosen by / removable by | Birth decides who holds the office / Only time and funerals remove the holder |
+
+*Reason:* Two bare nouns completed into clauses. The ' / ' separator is kept because the scripts split on it.
+
+### CON-W004 · md · §1 · proposed · build: applied
+
+**Before**
+
+> | Money in one line | Not donation-based; the extraction is labor, deference, and life-choice control within families — eldercare obligations, career and marriage direction, gendered sacrifice. [PATTERN OBSERVED] |
+
+**After**
+
+> | Money in one line | Confucianism is not donation-based. The extraction is labor, deference and life-choice control within families, through eldercare obligations, career and marriage direction, and gendered sacrifice. [PATTERN OBSERVED] |
+
+*Reason:* Glance cell opened with a fragment and ended in a list with no verb; it now reads as sentences.
+
+### CON-W005 · md · §1 · proposed · build: applied
+
+**Before**
+
+> | Evidence | 6 of 30 techniques sourced to a named document; grades: Cultural 22, Codified 7, Documented 1 |
+
+**After**
+
+> | Evidence | Six of the 30 techniques are sourced to a named document. The grades are Cultural 22, Codified 7 and Documented 1. |
+
+*Reason:* Glance cell completed into sentences; numeral at the start spelled out. Tallies unchanged and checked against section 12 (22 + 7 + 1).
+
+### CON-W006 · md · §3 · proposed · build: applied
+
+**Before**
+
+> No membership, no baptism, no doctrine you ever agreed to — and that is exactly why
+
+**After**
+
+> There is no membership, no baptism and no doctrine you ever agreed to, and that is exactly why
+
+*Reason:* Opening list of fragments completed into a sentence.
+
+### CON-W007 · md · §3 · proposed · build: applied
+
+**Before**
+
+> **What is true in it.** Structurally correct. No membership, no doctrine anyone signed, no institution, no clergy — and the tradition was itself violently suppressed within living memory.
+
+**After**
+
+> **What is true in it.** The point is structurally correct. There is no membership, no doctrine anyone signed, no institution and no clergy, and the tradition was itself violently suppressed within living memory.
+
+*Reason:* Two fragments completed into sentences.
+
+### CON-W008 · md · §5 · proposed · build: applied
+
+**Before**
+
+> Confucius (551–479 BCE) and successors; imperial orthodoxy from the Han dynasty; the examination system made Confucian texts the gateway to power for 1,300 years; modern revivals serve both cultural renewal and state ideology.
+
+**After**
+
+> The tradition begins with Confucius (551–479 BCE) and his successors. Imperial orthodoxy followed from the Han dynasty, and the examination system made Confucian texts the gateway to power for 1,300 years. Modern revivals serve both cultural renewal and state ideology.
+
+*Reason:* Semicolon chain of fragments split into complete sentences; dates unchanged.
+
+### CON-W009 · md · §5 · proposed · build: applied
+
+**Before**
+
+> **Why it matters.** The moment a family ethic became a career ladder.
+
+**After**
+
+> **Why it matters.** This was the moment a family ethic became a career ladder.
+
+*Reason:* Opening fragment completed.
+
+### CON-W010 · md · §5 · proposed · build: applied
+
+**Before**
+
+> **Why it matters.** Proof that the structure is not eternal or natural — it was dismantled by force within living memory.
+
+**After**
+
+> **Why it matters.** This is proof that the structure is not eternal or natural, because it was dismantled by force within living memory.
+
+*Reason:* Opening fragment completed.
+
+### CON-W011 · md · §5 · proposed · build: applied
+
+**Before**
+
+> **Why it matters.** The same mechanism, redeployed by a state that spent a decade destroying it.
+
+**After**
+
+> **Why it matters.** This is the same mechanism, redeployed by a state that spent a decade destroying it.
+
+*Reason:* Opening fragment completed.
+
+### CON-W012 · md · §6 · proposed · build: applied
+
+**Before**
+
+> Classical, Neo-Confucian (Zhu Xi and Wang Yangming schools), Korean Seongnihak, Japanese and Vietnamese adaptations, contemporary 'New Confucianism.'
+
+**After**
+
+> The main branches are Classical, Neo-Confucian (the Zhu Xi and Wang Yangming schools), Korean Seongnihak (Korean Neo-Confucianism), Japanese and Vietnamese adaptations, and contemporary 'New Confucianism.'
+
+*Reason:* Opening list completed into a sentence; first use of 'Seongnihak' glossed.
+
+### CON-W013 · md · §6 · proposed · build: applied
+
+**Before**
+
+> | Confucius, Mencius and Xunzi; state orthodoxy from 136 BCE [1] |
+
+**After**
+
+> | The stream rests on Confucius, Mencius and Xunzi, and it became state orthodoxy from 136 BCE [1]. |
+
+*Reason:* Cell completed into a sentence.
+
+### CON-W014 · md · §6 · proposed · build: applied
+
+**Before**
+
+> | Shaped family law — the family-head (*hoju*) system and the same-clan marriage ban — until the courts struck both down [9][10][11] |
+
+**After**
+
+> | Korean Confucianism shaped family law, through the family-head (*hoju*) system and the same-clan marriage ban, until the courts struck both down [9][10][11]. |
+
+*Reason:* Cell completed into a sentence.
+
+### CON-W015 · md · §6 · proposed · build: applied
+
+**Before**
+
+> | Confucius Institutes since 2004 [7] |
+
+**After**
+
+> | Confucius Institutes have operated since 2004 [7]. |
+
+*Reason:* Cell completed into a sentence.
+
+### CON-W016 · md · §7 · proposed · build: applied
+
+**Before**
+
+> | Adherents | Essentially uncountable as a religion: formal identification is rare, while Confucian norms shape family and social life for well over a billion people across East Asia. [ACADEMIC SOURCE] |
+
+**After**
+
+> | Adherents | Confucianism is essentially uncountable as a religion. Formal identification is rare, while Confucian norms shape family and social life for well over a billion people across East Asia. [ACADEMIC SOURCE] |
+
+*Reason:* Cell began with a fragment; it now opens with a subject. Same wording as the section 1 glance row.
+
+### CON-W017 · md · §7 · proposed · build: applied
+
+**Before**
+
+> | Regions | China, Taiwan, Korea, Japan, Vietnam, Singapore, and their diasporas. |
+
+**After**
+
+> | Regions | The tradition is found in China, Taiwan, Korea, Japan, Vietnam, Singapore and their diasporas. |
+
+*Reason:* Bare list completed into a sentence.
+
+### CON-W018 · md · §7 · proposed · build: applied
+
+**Before**
+
+> - No church: authority lives in the family hierarchy, elder–junior relations, teacher–student bonds, and — historically and again today — the state claiming Confucian legitimacy.
+
+**After**
+
+> - There is no church. Authority lives in the family hierarchy, elder–junior relations, teacher–student bonds and, historically and again today, the state claiming Confucian legitimacy.
+
+*Reason:* Opening fragment completed.
+
+### CON-W019 · md · §7 · proposed · build: applied
+
+**Before**
+
+> | The head of the family | The senior generation — the apex, the court, and the enforcement arm in one | Birth | Time and funerals |
+
+**After**
+
+> | The head of the family | The senior generation is the apex, the court and the enforcement arm in one. | Birth decides who holds the office. | Only time and funerals remove the holder. |
+
+*Reason:* Office row cells completed into sentences.
+
+### CON-W020 · md · §7 · proposed · build: applied
+
+**Before**
+
+> | The state | The PRC's curriculum and civilizational messaging, which redeployed filial duty as civic virtue | — | Elections that do not occur |
+
+**After**
+
+> | The state | The PRC's curriculum and civilizational messaging have redeployed filial duty as civic virtue. | No chooser is recorded. | No election can remove it, because none occurs. |
+
+*Reason:* Office row cells completed into sentences.
+
+### CON-W021 · md · §7 · proposed · build: applied
+
+**Before**
+
+> | The ceremonial line | The Kong family's hereditary Sacrificial Official to Confucius — the 79th generation, resident in Taipei — prestige without command | Bloodline | — |
+
+**After**
+
+> | The ceremonial line | The Kong family's hereditary Sacrificial Official to Confucius, of the 79th generation and resident in Taipei, holds prestige without command. | Bloodline decides who holds the office. | No removal is recorded. |
+
+*Reason:* Office row cells completed into sentences.
+
+### CON-W022 · md · §7 · proposed · build: applied
+
+**Before**
+
+> | Domestic authority | Parents and grandparents | Open-ended claims on adult children's income, labor, marriage, and residence | Your career, your spouse, your city, your money |
+
+**After**
+
+> | Domestic authority | Parents and grandparents | They hold open-ended claims on adult children's income, labor, marriage and residence. | It touches your career, your spouse, your city and your money. |
+
+*Reason:* Table cells completed into sentences.
+
+### CON-W023 · md · §7 · proposed · build: applied
+
+**Before**
+
+> | Law | The state | Legal enforcement of filial support, transferring welfare costs to adult children | A duty with a court behind it |
+
+**After**
+
+> | Law | The state | The state legally enforces filial support, which transfers welfare costs to adult children. | It is a duty with a court behind it. |
+
+*Reason:* Table cells completed into sentences.
+
+### CON-W024 · md · §7 · proposed · build: applied
+
+**Before**
+
+> | Governance vocabulary | Government organs | A framework in which dissent is disorder rather than disagreement | Whether your objection is a position or a symptom |
+
+**After**
+
+> | Governance vocabulary | Government organs | They hold a framework in which dissent is disorder rather than disagreement. | It decides whether your objection is treated as a position or as a symptom. |
+
+*Reason:* Table cells completed into sentences.
+
+### CON-W025 · md · §7 · proposed · build: applied
+
+**Before**
+
+> | Commercial | Private education companies and schools | Household spending driven by a child's score as family honor | Your child's childhood |
+
+**After**
+
+> | Commercial | Private education companies and schools | They hold household spending that is driven by treating a child's score as family honor. | It shapes your child's childhood. |
+
+*Reason:* Table cells completed into sentences.
+
+### CON-W026 · md · §7 · proposed · build: applied
+
+**Before**
+
+> | Property and ritual | Senior male lineage members | Ancestral rites, tomb upkeep, and in some regions lineage assets | Whether a daughter counts as continuation |  |
+
+**After**
+
+> | Property and ritual | Senior male lineage members | They hold ancestral rites, tomb upkeep and, in some regions, lineage assets. | It decides whether a daughter counts as continuation. |  |
+
+*Reason:* Table cells completed into sentences.
+
+### CON-W027 · md · §7 · proposed · build: applied
+
+**Before**
+
+> | Workplace | Company management | Overtime as loyalty, obedience as respect, exhaustion as virtue | Your working hours, framed as character |  |
+
+**After**
+
+> | Workplace | Company management | They hold a framework that treats overtime as loyalty, obedience as respect and exhaustion as virtue. | It frames your working hours as character. |  |
+
+*Reason:* Table cells completed into sentences.
+
+### CON-W028 · md · §8 · proposed · build: applied
+
+**Before**
+
+> | **Taiwan** | A state-created ceremonial office for Confucius's descendant [4] | Ceremonial only [4] |
+
+**After**
+
+> | **Taiwan** | The state created a ceremonial office for Confucius's descendant [4]. | The office is ceremonial only [4]. |
+
+*Reason:* Cells completed into sentences.
+
+### CON-W029 · md · §9 · proposed · build: applied
+
+**Before**
+
+> - Not donation-based; the extraction is labor, deference, and life-choice control within families — eldercare obligations, career and marriage direction, gendered sacrifice. [PATTERN OBSERVED]
+
+**After**
+
+> - Confucianism is not donation-based. The extraction is labor, deference and life-choice control within families, through eldercare obligations, career and marriage direction, and gendered sacrifice. [PATTERN OBSERVED]
+
+*Reason:* Bullet opened with a fragment and ended in a list with no verb; same wording as the section 1 glance row.
+
+### CON-W030 · md · §9 · proposed · build: applied
+
+**Before**
+
+> - Ancestor-rite economies and lineage-hall funds in some regions.
+
+**After**
+
+> - Ancestor-rite economies and lineage-hall funds operate in some regions.
+
+*Reason:* Bare noun phrase completed.
+
+### CON-W031 · md · §9 · proposed · build: applied
+
+**Before**
+
+> | Filial support and eldercare obligation | Care for parents | Open-ended claim on adult children's income and labor, now legally enforceable in China | Senior generation; the state, which offloads welfare costs [OFFICIAL POLICY] |
+
+**After**
+
+> | Filial support and eldercare obligation | The stated purpose is care for parents. | It is an open-ended claim on adult children's income and labor, now legally enforceable in China. | The senior generation benefits, and so does the state, which offloads welfare costs. [OFFICIAL POLICY] |
+
+*Reason:* Table cells completed into sentences.
+
+### CON-W032 · md · §9 · proposed · build: applied
+
+**Before**
+
+> | Education and exam spending | Children's advancement | Household resources consumed by tutoring arms races; failure treated as moral fault | Tutoring industry, schools, family status |
+
+**After**
+
+> | Education and exam spending | The stated purpose is children's advancement. | Household resources are consumed by tutoring arms races, and failure is treated as moral fault. | The tutoring industry, schools and family status benefit. |
+
+*Reason:* Table cells completed into sentences.
+
+### CON-W033 · md · §9 · proposed · build: applied
+
+**Before**
+
+> | Ancestor rites, lineage halls, tomb upkeep | Honor the ancestors | Ongoing ritual expenditure controlled by senior males; lineage funds direct family wealth | Lineage elders and trustees |
+
+**After**
+
+> | Ancestor rites, lineage halls, tomb upkeep | The stated purpose is to honor the ancestors. | Senior males control the ongoing ritual expenditure, and lineage funds direct family wealth. | Lineage elders and trustees benefit. |
+
+*Reason:* Table cells completed into sentences.
+
+### CON-W034 · md · §9 · proposed · build: applied
+
+**Before**
+
+> | Wedding and funeral expenditure | Family propriety | Ruinous status spending; refusal reads as disrespect to the dead or the family name | Vendors, and the family's public standing |
+
+**After**
+
+> | Wedding and funeral expenditure | The stated purpose is family propriety. | The spending is ruinous status spending, and refusal reads as disrespect to the dead or the family name. | Vendors benefit, and so does the family's public standing. |
+
+*Reason:* Table cells completed into sentences.
+
+### CON-W035 · md · §9 · proposed · build: applied
+
+**Before**
+
+> **Source.** Families managing reputation
+>
+> **Path.** Matchmakers and community brokers → School admission and business trust → Conformity across the whole family
+>
+> **Disclosed.** Nothing
+>
+> **Hidden.** Everything, because none of it is written
+
+**After**
+
+> **Source.** The source is families managing reputation.
+>
+> **Path.** Matchmakers and community brokers → School admission and business trust → Conformity across the whole family
+>
+> **Disclosed.** Nothing is disclosed.
+>
+> **Hidden.** Everything is hidden, because none of it is written.
+
+*Reason:* Card fields completed into sentences; the path arrows are kept.
+
+### CON-W036 · md · §9 · proposed · build: applied
+
+**Before**
+
+> - **Confucius Institutes:** a state-funded network of language and culture centres abroad since 2004 [7].
+
+**After**
+
+> - **Confucius Institutes:** The Confucius Institutes are a state-funded network of language and culture centres abroad, which have operated since 2004 [7].
+
+*Reason:* Bullet completed into a sentence.
+
+### CON-W037 · md · §10 · proposed · build: applied
+
+**Before**
+
+> **Origin.** Ritual propriety (li) as the ordering of social relations. [ACADEMIC SOURCE]
+
+**After**
+
+> **Origin.** Ritual propriety (li) is the ordering of social relations. [ACADEMIC SOURCE]
+
+*Reason:* Fragment completed.
+
+### CON-W038 · md · §10 · proposed · build: applied
+
+**Before**
+
+> **Who benefits now.** The senior generation, and the state, which offloads its welfare costs onto adult children while calling it virtue.
+
+**After**
+
+> **Who benefits now.** The senior generation benefits, and so does the state, which offloads its welfare costs onto adult children while calling it virtue.
+
+*Reason:* Fragment completed.
+
+### CON-W039 · md · §10 · proposed · build: applied
+
+**Before**
+
+> **Who benefits now.** Whoever is senior in any given room. And abusers, who are protected by the same rule that protects the family's name.
+
+**After**
+
+> **Who benefits now.** Whoever is senior in any given room benefits, and so do abusers, who are protected by the same rule that protects the family's name.
+
+*Reason:* Fragments completed.
+
+### CON-W040 · md · §10 · proposed · build: applied
+
+**Before**
+
+> **Origin.** Ancient lineage rites requiring a male descendant to perform offerings. [ACADEMIC SOURCE]
+
+**After**
+
+> **Origin.** Ancient lineage rites required a male descendant to perform offerings. [ACADEMIC SOURCE]
+
+*Reason:* Fragment completed.
+
+### CON-W041 · md · §10 · proposed · build: applied
+
+**Before**
+
+> **Who benefits now.** Lineage elders and the patrilineal property structure. The cost is paid by
+
+**After**
+
+> **Who benefits now.** Lineage elders and the patrilineal property structure benefit. The cost is paid by
+
+*Reason:* Fragment completed.
+
+### CON-W042 · md · §10 · proposed · build: applied
+
+**Before**
+
+> **Origin.** The imperial examination system (605–1905): thirteen centuries in which memorizing a canon was the sole route to status. [ACADEMIC SOURCE]
+
+**After**
+
+> **Origin.** The imperial examination system (605–1905) ran for thirteen centuries, in which memorizing a canon was the sole route to status. [ACADEMIC SOURCE]
+
+*Reason:* Fragment completed.
+
+### CON-W043 · md · §10 · proposed · build: applied
+
+**Before**
+
+> **Who benefits now.** A tutoring industry of enormous scale, schools competing on rankings, and family status. Not the child.
+
+**After**
+
+> **Who benefits now.** A tutoring industry of enormous scale, schools competing on rankings and family status benefit. The child does not.
+
+*Reason:* Fragments completed.
+
+### CON-W044 · md · §11 · proposed · build: applied
+
+**Before**
+
+> - Corporal punishment normalized as discipline; 'I did this for you' converts childhood investment into lifelong debt.
+
+**After**
+
+> - Corporal punishment is normalized as discipline, and 'I did this for you' converts childhood investment into lifelong debt.
+
+*Reason:* Fragment completed.
+
+### CON-W045 · md · §12 · proposed · build: applied
+
+**Before**
+
+> The family's standing, the ancestors honored, the good name carried forward — a reward that arrives, if it arrives, after you are dead and is enjoyed by others. Retrieval is an illness, a New Year, a grandchild, and the sentence after all we sacrificed.
+
+**After**
+
+> The reward is the family's standing, the ancestors honored and the good name carried forward, and it arrives, if it arrives, after you are dead and is enjoyed by others. Retrieval comes through an illness, a New Year, a grandchild or the sentence after all we sacrificed.
+
+*Reason:* Stage 2 text was a chain of fragments; it now reads as sentences.
+
+### CON-W046 · md · §12 · proposed · build: applied
+
+**Before**
+
+> Never enough. A better score, a better job, a better marriage, a grandchild. The comparison is always to a cousin, and the goalpost is structural.
+
+**After**
+
+> It is never enough. The demand is always for a better score, a better job, a better marriage or a grandchild. The comparison is always to a cousin, and the goalpost is structural.
+
+*Reason:* Stage 3 text opened with fragments.
+
+### CON-W047 · md · §12 · proposed · build: applied
+
+**Before**
+
+> Housing, tuition, marriage introductions, career connections, childcare — all inside the family, all conditional on standing. In state-Confucian framing, add political conformity.
+
+**After**
+
+> Housing, tuition, marriage introductions, career connections and childcare all come from inside the family, and all are conditional on standing. In state-Confucian framing, political conformity is added.
+
+*Reason:* Stage 5 text opened with a fragment.
+
+### CON-W048 · md · §12 · proposed · build: applied
+
+**Before**
+
+> Open-ended claims on your income and labor, now legally enforceable in some jurisdictions. Ruinous wedding and funeral spending as family propriety. Tutoring arms races where a child's score is the family's honor. Eldercare labor falling on daughters-in-law with the least standing. And do not shame the family, which keeps violence and debt indoors.
+
+**After**
+
+> The claims on your income and labor are open-ended, and in some jurisdictions they are now legally enforceable. Wedding and funeral spending is ruinous and is justified as family propriety. Tutoring arms races treat a child's score as the family's honor. Eldercare labor falls on daughters-in-law, who have the least standing. The rule 'do not shame the family' keeps violence and debt indoors.
+
+*Reason:* Stage 6 text was five fragments; completed into sentences with the same content.
+
+### CON-W049 · md · §12 · proposed · build: applied
+
+**Before**
+
+> Withheld support, disinheritance, exclusion from family events, and the informal verdict of unfilial.
+
+**After**
+
+> The consequences are withheld support, disinheritance, exclusion from family events and the informal verdict of unfilial.
+
+*Reason:* Fragment completed.
+
+### CON-W050 · md · §14 · proposed · build: applied
+
+**Before**
+
+> | We did everything for you. | An accounting of a childhood, presented as a debt the child did not incur. |
+
+**After**
+
+> | We did everything for you. | The statement is an accounting of a childhood, presented as a debt the child did not incur. |
+
+*Reason:* Cell completed into a sentence.
+
+### CON-W051 · md · §14 · proposed · build: applied
+
+**Before**
+
+> **Last time the chair ran.** Continuously, invisibly, in every household — there is no chair and no sitter, only the role.
+
+**After**
+
+> **Last time the chair ran.** It runs continuously and invisibly in every household, and there is no chair and no sitter, only the role.
+
+*Reason:* Fragment completed.
+
+### CON-W052 · md · §14 · proposed · build: applied
+
+**Before**
+
+> **Who holds the chair now.** Whoever is senior in the room.
+
+**After**
+
+> **Who holds the chair now.** Whoever is senior in the room holds it.
+
+*Reason:* Fragment completed.
+
+### CON-W053 · md · §14 · proposed · build: applied
+
+**Before**
+
+> | Filial piety (xiao) | Devotion and obedience owed to parents and ancestors. |
+
+**After**
+
+> | Filial piety (xiao) | Filial piety means devotion and obedience owed to parents and ancestors. |
+
+*Reason:* Cell completed into a sentence.
+
+### CON-W054 · md · §14 · proposed · build: applied
+
+**Before**
+
+> | Face (mianzi) | Social standing and reputation. | Converts a family's public image
+
+**After**
+
+> | Face (mianzi) | Face means social standing and reputation. | It converts a family's public image
+
+*Reason:* Cells completed into sentences.
+
+### CON-W055 · md · §15 · proposed · build: applied
+
+**Before**
+
+> - Real costs: inheritance, family standing, and in state-Confucian framing, political suspicion.
+
+**After**
+
+> - The real costs are inheritance, family standing and, in state-Confucian framing, political suspicion.
+
+*Reason:* Fragment completed.
+
+### CON-W056 · md · §15 · proposed · build: applied
+
+**Before**
+
+> | Inheritance and family standing | Yes | Withheld support, disinheritance, exclusion from family events |
+
+**After**
+
+> | Inheritance and family standing | Yes | The person faces withheld support, disinheritance and exclusion from family events. |
+
+*Reason:* Cell completed into a sentence.
+
+### CON-W057 · md · §15 · proposed · build: applied
+
+**Before**
+
+> | Dissent recoded as disruption of harmony |
+
+**After**
+
+> | Dissent is recoded as disruption of harmony. |
+
+*Reason:* Cell completed into a sentence.
+
+### CON-W058 · md · §15 · proposed · build: applied
+
+**Before**
+
+> | Loss of face for the whole family; the person is told their choice harms everyone they love |
+
+**After**
+
+> | The whole family loses face, and the person is told their choice harms everyone they love. |
+
+*Reason:* Cell completed into a sentence.
+
+### CON-W059 · md · §15 · proposed · build: applied
+
+**Before**
+
+> | Exit cost denial | Very high | 'It's just respect for your parents' — said to someone with no legitimate way to say no. |
+
+**After**
+
+> | Exit cost denial | Very high | 'It's just respect for your parents' is said to someone with no legitimate way to say no. |
+
+*Reason:* Cell completed into a sentence.
+
+### CON-W060 · md · §16 · proposed · build: applied
+
+**Before**
+
+> - Senior generations and patriarchs collecting structurally guaranteed deference; states renting the harmony vocabulary to delegitimize dissent; employers importing filial duty into workplace obedience. [ACADEMIC SOURCE]
+
+**After**
+
+> - Senior generations and patriarchs collect structurally guaranteed deference, states rent the harmony vocabulary to delegitimize dissent, and employers import filial duty into workplace obedience. [ACADEMIC SOURCE]
+
+*Reason:* Participial chain completed into a sentence.
+
+### CON-W061 · md · §16 · proposed · build: applied
+
+**Before**
+
+> - Daughters-in-law, who carry eldercare labor with the least standing.
+
+**After**
+
+> - Daughters-in-law pay, because they carry eldercare labor with the least standing.
+
+*Reason:* Fragment completed.
+
+### CON-W062 · md · §16 · proposed · build: applied
+
+**Before**
+
+> - Daughters generally, in son-preference contexts including sex selection.
+
+**After**
+
+> - Daughters generally pay, in son-preference contexts including sex selection.
+
+*Reason:* Fragment completed.
+
+### CON-W063 · md · §16 · proposed · build: applied
+
+**Before**
+
+> - Children under academic and obedience pressure.
+
+**After**
+
+> - Children pay, under academic and obedience pressure.
+
+*Reason:* Fragment completed.
+
+### CON-W064 · md · §16 · proposed · build: applied
+
+**Before**
+
+> - LGBTQ people pressed into heterosexual marriage and reproduction.
+
+**After**
+
+> - LGBTQ people pay, when they are pressed into heterosexual marriage and reproduction.
+
+*Reason:* Fragment completed.
+
+### CON-W065 · md · §16 · proposed · build: applied
+
+**Before**
+
+> - Adult children indefinitely liable for parental support with no reciprocal right of refusal.
+
+**After**
+
+> - Adult children pay, because they are indefinitely liable for parental support with no reciprocal right of refusal.
+
+*Reason:* Fragment completed.
+
+### CON-W066 · md · §16 · proposed · build: applied
+
+**Before**
+
+> - Abuse survivors, silenced by the requirement that nothing shame the family.
+
+**After**
+
+> - Abuse survivors pay, because they are silenced by the requirement that nothing shame the family.
+
+*Reason:* Fragment completed.
+
+### CON-W067 · md · §17 · proposed · build: applied
+
+**Before**
+
+> | Daughters-in-law | The heaviest care labor with the lowest household standing | With no independent income and no exit from a family she married into |
+
+**After**
+
+> | Daughters-in-law | They carry the heaviest care labor with the lowest household standing. | This compounds with having no independent income and no exit from a family she married into. |
+
+*Reason:* Cells completed into sentences.
+
+### CON-W068 · md · §17 · proposed · build: applied
+
+**Before**
+
+> | Daughters generally | Son preference for ancestral rites, and with technology, sex selection | Into skewed ratios across whole regions |
+
+**After**
+
+> | Daughters generally | Son preference for ancestral rites, and with technology, sex selection, falls on them. | This compounds into skewed ratios across whole regions. |
+
+*Reason:* Cells completed into sentences.
+
+### CON-W069 · md · §17 · proposed · build: applied
+
+**Before**
+
+> | Children | Academic pressure as moral duty, with documented mental-health consequences | Where failure is treated as a character defect rather than an outcome |
+
+**After**
+
+> | Children | Academic pressure is treated as moral duty, with documented mental-health consequences. | This compounds where failure is treated as a character defect rather than an outcome. |
+
+*Reason:* Cells completed into sentences.
+
+### CON-W070 · md · §17 · proposed · build: applied
+
+**Before**
+
+> | LGBTQ people | Pressure into heterosexual marriage and reproduction | With no legitimate category for refusal |
+
+**After**
+
+> | LGBTQ people | They are pressed into heterosexual marriage and reproduction. | This compounds with there being no legitimate category for refusal. |
+
+*Reason:* Cells completed into sentences.
+
+### CON-W071 · md · §17 · proposed · build: applied
+
+**Before**
+
+> | Adult children indefinitely | Statutory and moral liability with no reciprocal right | As only children supporting four grandparents |
+
+**After**
+
+> | Adult children indefinitely | They carry statutory and moral liability with no reciprocal right. | This compounds when they are only children supporting four grandparents. |
+
+*Reason:* Cells completed into sentences.
+
+### CON-W072 · md · §18 · proposed · build: applied
+
+**Before**
+
+> | Parents | Transmits the obligation, usually while genuinely sacrificing | That they are also paying it upward | Nothing — by anyone | To present care as a debt |
+
+**After**
+
+> | Parents | They transmit the obligation, usually while genuinely sacrificing. | They see that they are also paying it upward. | Nobody asks them to do anything about it. | They could refuse to present care as a debt. |
+
+*Reason:* Cells completed into sentences; the header 'Is asked to' no longer doubles with a cell beginning 'To'.
+
+### CON-W073 · md · §18 · proposed · build: applied
+
+**Before**
+
+> | Teachers | Converts a score into a family's honor | Which children are breaking | To raise the average | To rank children publicly |
+
+**After**
+
+> | Teachers | They convert a score into a family's honor. | They see which children are breaking. | They are asked to raise the average. | They could refuse to rank children publicly. |
+
+*Reason:* Cells completed into sentences; the header 'Is asked to' no longer doubles with a cell beginning 'To'.
+
+### CON-W074 · md · §18 · proposed · build: applied
+
+**Before**
+
+> | Elder siblings, especially daughters-in-law | Performs the care labor with the least standing | That the obligation runs one way | To be dutiful | To carry it alone and silently |
+
+**After**
+
+> | Elder siblings, especially daughters-in-law | They perform the care labor with the least standing. | They see that the obligation runs one way. | They are asked to be dutiful. | They could refuse to carry it alone and silently. |
+
+*Reason:* Cells completed into sentences; the header 'Is asked to' no longer doubles with a cell beginning 'To'.
+
+### CON-W075 · md · §18 · proposed · build: applied
+
+**Before**
+
+> | Employers and managers | Imports the hierarchy into work | That the vocabulary makes exploitation into respect | To maintain team spirit | To describe unpaid overtime as loyalty |
+
+**After**
+
+> | Employers and managers | They import the hierarchy into work. | They see that the vocabulary turns exploitation into respect. | They are asked to maintain team spirit. | They could refuse to describe unpaid overtime as loyalty. |
+
+*Reason:* Cells completed into sentences; 'makes exploitation into respect' corrected to 'turns exploitation into respect'.
+
+### CON-W076 · md · §20 · proposed · build: applied
+
+**Before**
+
+> | The tradition itself | 4th c. BCE | None, and it is the correction hiding in plain sight |
+
+**After**
+
+> | The tradition itself | 4th c. BCE | It cost nothing, and it is the correction hiding in plain sight. |
+
+*Reason:* Cell completed into a sentence.
+
+### CON-W077 · md · §20 · proposed · build: applied
+
+**Before**
+
+> | Chinese reformers | 1905–1919 | Enormous social upheaval |
+
+**After**
+
+> | Chinese reformers | 1905–1919 | The cost was enormous social upheaval. |
+
+*Reason:* Cell completed into a sentence.
+
+### CON-W078 · md · §20 · proposed · build: applied
+
+**Before**
+
+> | Scholars, mostly women | Late 20th c.–present | Dismissal as inauthentic |
+
+**After**
+
+> | Scholars, mostly women | Late 20th c.–present | The cost has been dismissal of the scholarship as inauthentic. |
+
+*Reason:* Cell completed into a sentence.
+
+### CON-W079 · md · §20 · proposed · build: applied
+
+**Before**
+
+> Hard by design, and the page admits it: documented generational change in family enforcement — surveys, family-law data, cohort studies — is the evidence that would revise findings that live in no document.
+
+**After**
+
+> This is hard by design, and the page admits it. Documented generational change in family enforcement, in surveys, family-law data and cohort studies, is the evidence that would revise findings that live in no document.
+
+*Reason:* Opening fragment completed.
+
+### CON-W080 · md · §21 · proposed · build: applied
+
+**Before**
+
+> - **Mencius,** inside the tradition: a ruler who abandons benevolence forfeits the title [6].
+
+**After**
+
+> - **Mencius,** speaking from inside the tradition, held that a ruler who abandons benevolence forfeits the title [6].
+
+*Reason:* Fragment completed.
+
+### CON-W081 · md · §21 · proposed · build: applied
+
+**Before**
+
+> - **Confucius himself,** on remonstrating gently with one's parents [6].
+
+**After**
+
+> - **Confucius himself** spoke on remonstrating gently with one's parents [6].
+
+*Reason:* Fragment completed.
+
+### CON-W082 · md · §21 · proposed · build: applied
+
+**Before**
+
+> - **Lee Jae-yong and Lee Kyong-ok,** a couple kept from marrying by the same-clan ban until 1997 [9].
+
+**After**
+
+> - **Lee Jae-yong and Lee Kyong-ok** were a couple kept from marrying by the same-clan ban until 1997 [9].
+
+*Reason:* Fragment completed.
+
+### CON-W083 · md · §21 · proposed · build: applied
+
+**Before**
+
+> - **The Korean women's-rights activists** who ended the *hoju* system [10].
+
+**After**
+
+> - **The Korean women's-rights activists** are the people who ended the *hoju* system [10].
+
+*Reason:* Fragment completed.
+
+### CON-W084 · md · §21 · proposed · build: applied
+
+**Before**
+
+> - **Susan Mann and Dorothy Ko,** historians of women's lives under Confucian norms, from widow-chastity honours to footbinding [8].
+
+**After**
+
+> - **Susan Mann and Dorothy Ko** are historians of women's lives under Confucian norms, from widow-chastity honours to footbinding [8].
+
+*Reason:* Fragment completed.
+
+### CON-W085 · md · §22 · proposed · build: applied
+
+**Before**
+
+> - **apex:** None religious; the state promotes Confucian culture [7].
+
+**After**
+
+> - **apex:** No religious apex exists, and the state promotes Confucian culture [7].
+
+*Reason:* Card field completed.
+
+### CON-W086 · md · §22 · proposed · build: applied
+
+**Before**
+
+> - **law:** The 2013 elderly-rights law [3].
+
+**After**
+
+> - **law:** The 2013 elderly-rights law is the relevant law [3].
+
+*Reason:* Card field completed.
+
+### CON-W087 · md · §22 · proposed · build: applied
+
+**Before**
+
+> - **documented:** The first court-ordered visit [12].
+
+**After**
+
+> - **documented:** The first court-ordered visit is documented [12].
+
+*Reason:* Card field completed.
+
+### CON-W088 · md · §22 · proposed · build: applied
+
+**Before**
+
+> - **regulator:** The courts [12].
+
+**After**
+
+> - **regulator:** The courts act as regulator [12].
+
+*Reason:* Card field completed.
+
+### CON-W089 · md · §22 · proposed · build: applied
+
+**Before**
+
+> - **apex:** None; Confucian academies and clan associations.
+
+**After**
+
+> - **apex:** There is no apex, though Confucian academies and clan associations exist.
+
+*Reason:* Card field completed.
+
+### CON-W090 · md · §22 · proposed · build: applied
+
+**Before**
+
+> - **law:** The Civil Code, reformed after court rulings [9][10].
+
+**After**
+
+> - **law:** The Civil Code was reformed after court rulings [9][10].
+
+*Reason:* Card field completed.
+
+### CON-W091 · md · §22 · proposed · build: applied
+
+**Before**
+
+> - **documented:** The 1997 and 2005 rulings [9][10].
+
+**After**
+
+> - **documented:** The 1997 and 2005 rulings are documented [9][10].
+
+*Reason:* Card field completed.
+
+### CON-W092 · md · §22 · proposed · build: applied
+
+**Before**
+
+> - **regulator:** The Constitutional Court [9][10].
+
+**After**
+
+> - **regulator:** The Constitutional Court acted as regulator [9][10].
+
+*Reason:* Card field completed.
+
+### CON-W093 · md · §22 · proposed · build: applied
+
+**Before**
+
+> - **apex:** A ceremonial descendant of Confucius [4].
+> - **law:** A state-created ceremonial office [4].
+
+**After**
+
+> - **apex:** The apex is a ceremonial descendant of Confucius [4].
+> - **law:** The state created a ceremonial office [4].
+
+*Reason:* Card fields completed.
+
+### CON-W094 · md · §22 · proposed · build: applied
+
+**Before**
+
+> - **tell:** A state honour with no power attached.
+
+**After**
+
+> - **tell:** It is a state honour with no power attached.
+
+*Reason:* Card field completed.
+
+### CON-W095 · md · §24 · proposed · build: applied
+
+**Before**
+
+> 4. **Find support** [13][15].
+
+**After**
+
+> 4. **Find support** from services for people leaving religious or cultural control [13][15].
+
+*Reason:* Bare imperative completed.
+
+## Specialist terms glossed on first use (10)
+
+### CON-G001 · md · §1 · proposed · build: applied
+
+**Before**
+
+> | The unanswered question | Remonstrance with erring parents is in the Analects. Why
+
+**After**
+
+> | The unanswered question | Remonstrance (respectful correction of someone in authority) with erring parents is in the Analects (the collected sayings of Confucius). Why
+
+*Reason:* First use of 'remonstrance' and 'Analects' in the volume.
+
+### CON-G002 · md · §3 · proposed · build: applied
+
+**Before**
+
+> | Filial piety is reciprocal duty. | Mencius asserted the duty to remonstrate with an erring superior, and that half of the ethic is almost never taught. | [ACADEMIC SOURCE] |
+>
+> ### One cost
+
+**After**
+
+> | Filial piety (the duty of children to honor, obey and care for their parents) is reciprocal duty. | Mencius (the Confucian philosopher of the 4th century BCE) asserted the duty to remonstrate with an erring superior, and that half of the ethic is almost never taught. | [ACADEMIC SOURCE] |
+>
+> ### One cost
+
+*Reason:* First use of 'filial piety' and 'Mencius'. The same row recurs in section 14, where no further gloss is needed.
+
+### CON-G003 · md · §5 · proposed · build: applied
+
+**Before**
+
+> 4th–3rd c. BCE | Mencius and Xunzi develop rival readings |
+
+**After**
+
+> 4th–3rd c. BCE | Mencius and Xunzi (a rival Confucian thinker) develop rival readings |
+
+*Reason:* First use of 'Xunzi'.
+
+### CON-G004 · md · §5 · proposed · build: applied
+
+**Before**
+
+> 960–1279 | Neo-Confucian synthesis (Zhu Xi); lineage halls and clan rules formalize |
+
+**After**
+
+> 960–1279 | Neo-Confucian synthesis (Zhu Xi, the Song dynasty philosopher who systematized it); lineage halls (clan ancestral halls) and clan rules formalize |
+
+*Reason:* First use of 'Neo-Confucian', 'Zhu Xi' and 'lineage halls'.
+
+### CON-G005 · md · §5 · proposed · build: applied
+
+**Before**
+
+> 1905–1919 | Exams abolished; New Culture Movement attacks
+
+**After**
+
+> 1905–1919 | Exams abolished; New Culture Movement (the early twentieth-century reform movement against traditional culture) attacks
+
+*Reason:* First use of 'New Culture Movement'.
+
+### CON-G006 · md · §5 · proposed · build: applied
+
+**Before**
+
+> 1949–1976 | PRC campaigns against Confucianism, peaking in the Cultural Revolution |
+
+**After**
+
+> 1949–1976 | PRC (People's Republic of China) campaigns against Confucianism, peaking in the Cultural Revolution (the 1966–1976 political campaign against traditional culture) |
+
+*Reason:* First use of 'PRC' and 'Cultural Revolution'.
+
+### CON-G007 · md · §5 · proposed · build: applied
+
+**Before**
+
+> 1980s–2000s | 'Asian values' discourse; Confucius Institutes founded 2004 |
+
+**After**
+
+> 1980s–2000s | 'Asian values' discourse; Confucius Institutes (Chinese language and culture centers abroad) founded 2004 |
+
+*Reason:* First use of 'Confucius Institutes'.
+
+### CON-G008 · md · §5 · proposed · build: applied
+
+**Before**
+
+> including the desecration of the Kong family cemetery at Qufu.
+
+**After**
+
+> including the desecration of the Kong family cemetery at Qufu (the birthplace of Confucius).
+
+*Reason:* First use of 'Qufu'.
+
+### CON-G009 · md · §11 · proposed · build: applied
+
+**Before**
+
+> - The Three Obediences and Four Virtues subordinated women to father, husband, and son in the classical formulation.
+
+**After**
+
+> - The Three Obediences and Four Virtues (the classical rules that placed a woman under her father, her husband and her son in turn) subordinated women to father, husband, and son in the classical formulation.
+
+*Reason:* First use of 'Three Obediences and Four Virtues'.
+
+### CON-G010 · md · §11 · proposed · build: applied
+
+**Before**
+
+> 'cooperative marriages' exist as a documented workaround.
+
+**After**
+
+> 'cooperative marriages' (marriages of convenience that satisfy family expectations) exist as a documented workaround.
+
+*Reason:* First use of 'cooperative marriages'.
+
+## Sentences completed or clarified (7)
+
+### CON-C001 · md · §4 · proposed · build: applied
+
+**Before**
+
+> ::: lede
+> An ethical-social tradition of self-cultivation, ritual propriety, and relational duty that structured East Asian family, education, and governance for two millennia — religion, philosophy, and social operating system at once.
+> :::
+>
+> - The tradition's own corrective: Mencius' right of remonstrance — the duty to correct erring superiors; reciprocity read in both directions; Confucian feminists and reformers reclaiming the ethics from the hierarchy.
+
+**After**
+
+> ::: lede
+> Confucianism is an ethical-social tradition of self-cultivation, ritual propriety and relational duty that structured East Asian family, education and governance for two millennia. It is religion, philosophy and social operating system at once.
+> :::
+>
+> Healthy practice here starts from the tradition's own corrective. Mencius held that a ruler who abandons benevolence forfeits the title, and the Analects tell a child to remonstrate gently with a parent who is in the wrong [6]. Reciprocity is read in both directions, and Confucian feminists and reformers have reclaimed the ethics from the hierarchy.
+>
+> Some of that correction is already on the record in law. South Korea's Constitutional Court overturned the same-clan marriage ban in 1997 [9] and found the *hoju* system unconstitutional in 2005 [10]. The imperial examination system, which ran from 605 until 1905 [2], recruited officials by examination rather than by birth (section 10). Each is a place where the tradition's own reciprocal ethic was applied, and each is recorded here as credit.
+
+*Reason:* Section 4 had one lede fragment and one bullet of fragments, against thirty full entries in section 12. The Method says no tradition is reduced to its worst moments. The expansion uses only facts already sourced in this volume ([2], [6], [9], [10]) and one cross-reference to section 10; nothing new is asserted.
+
+### CON-C002 · md · §17 · proposed · build: applied
+
+**Before**
+
+> ### Where the weight lands
+>
+> | Who | How | What it compounds with |
+
+**After**
+
+> ### Where the weight lands
+>
+> The costs in section 15 do not fall evenly. They fall hardest on daughters-in-law, daughters, children, LGBTQ people and adult children who support their parents, and hardest of all where a person has no independent income and no category in which to refuse. The table names who carries each cost, how, and what makes it worse.
+>
+> | Who | How | What it compounds with |
+
+*Reason:* Section 17 was a bare table. A framing paragraph is added using only the groups the table and section 16 already name.
+
+### CON-C003 · md · §18 · proposed · build: applied
+
+**Before**
+
+> ## 18. The middle tiers {#tiers}
+>
+> | Role | Does | Sees | Is asked to | Could refuse |
+
+**After**
+
+> ## 18. The middle tiers {#tiers}
+>
+> Most of the weight is carried by people in the middle, who see how the obligation works without having written it. Parents, teachers, daughters-in-law and employers each pass part of it on, and each has one step they could decline. The table sets out what each tier does, what it sees, what it is asked to do and where it could refuse.
+>
+> | Role | Does | Sees | Is asked to | Could refuse |
+
+*Reason:* Section 18 was a bare table. A framing paragraph is added using only the roles the table already names.
+
+### CON-N002 · narration · §18 · proposed · build: applied
+
+**Before**
+
+> The people in the middle: local clergy, teachers, officials and volunteers who apply rules they did not write.
+
+**After**
+
+> The people in the middle: parents, teachers, daughters-in-law and employers who apply rules they did not write.
+
+*Reason:* Confucianism has no clergy or volunteers; the roles named here are the ones in section 18.
+
+### CON-N003 · narration · §18 · proposed · build: applied
+
+**Before**
+
+> If you are a local leader, a teacher or a volunteer, this section is about you.
+
+**After**
+
+> If you are a parent, a teacher, a daughter-in-law or an employer, this section is about you.
+
+*Reason:* Same: the roles are those the section 18 table names.
+
+### CON-N004 · narration · §11 · proposed · build: applied
+
+**Before**
+
+> what members may read and hear,
+
+**After**
+
+> what people raised in it may read and hear,
+
+*Reason:* The tradition has no membership (section 7).
+
+### CON-N005 · narration · §22 · proposed · build: applied
+
+**Before**
+
+> What a member can say, leave, marry or inherit depends heavily on the state
+
+**After**
+
+> What a person raised in it can say, leave, marry or inherit depends heavily on the state
+
+*Reason:* The tradition has no membership (section 7).
+
+## Proofreading (typos, punctuation, agreement) (4)
+
+### CON-P001 · md · §10 · proposed · build: applied
+
+**Before**
+
+> **What it was for.** Astonishingly, a meritocratic reform — it opened offices to talent rather than birth in an aristocratic world.
+
+**After**
+
+> **What it was for.** It was a meritocratic reform that opened offices to talent rather than birth in an aristocratic world.
+
+*Reason:* Fragment completed; the adverb 'Astonishingly' removed as editorializing.
+
+### CON-P002 · md · §12 · proposed · build: applied
+
+**Before**
+
+> **Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to God.**
+
+**After**
+
+> **Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority is attributed to filial duty, the ancestors, or the classics.**
+
+*Reason:* Shared-template text named God as the authority. Confucianism has no deity; the authority invoked is filial duty, the ancestors and the classics (sections 3, 10 and 14). Tense also corrected.
+
+### CON-P003 · md · §12 · proposed · build: applied
+
+**Before**
+
+> *The institution is never responsible, because the authority is attributed to God — who isn't available for cross-examination.*
+
+**After**
+
+> *No one is ever responsible, because the authority is attributed to filial duty, the ancestors, or the classics, none of which is available for cross-examination.*
+
+*Reason:* Shared-template technique definition named God as the authority; Confucianism has no deity and no institution (section 7). The technique name and number are unchanged.
+
+### CON-N001 · narration · §19 · proposed · build: applied
+
+**Before**
+
+> These are not hypotheticals. 3 documented cases on this page
+
+**After**
+
+> These are not hypotheticals. Three documented cases on this page
+
+*Reason:* Numeral at the start of a clause spelled out.
+
+## Loops expanded (section 13) (8)
+
+### CON-L001 · md · §13 · proposed · build: applied
+
+**Before**
+
+> ::: card
+> #### 1 · Money to Doctrine to Money
+>
+> Childhood investment is converted into a lifelong claim on income, and the claim is now statutory.
+> :::
+
+**After**
+
+> ::: card
+> #### 1 · Money to Doctrine to Money
+>
+> Childhood investment is converted into a lifelong claim on income, and the claim is now statutory.
+>
+> **How it runs.**
+>
+> 1. Parents invest in a child's upbringing, schooling and marriage, and the investment is later restated as a debt (section 12, techniques 2 and 26).
+> 2. The ethic as practiced makes obedience the child's defining virtue and attaches the obligation at birth (section 11).
+> 3. The debt becomes an open-ended claim on the adult child's income, labor, marriage and residence (section 7).
+> 4. In China the claim is also law. The 2013 elderly-rights law makes adult children liable for parental support, and a court has ordered a visit (sections 8 and 19).
+> 5. The income and labor flow to the senior generation, and the state offloads welfare costs onto households (section 9). The child grows up to make the same claim on the next generation (section 10).
+>
+> **Techniques that feed it.** [2 · Weaponized Generosity](#t-2), [9 · Moving the Goalposts](#t-9), [22 · Benevolent Control](#t-22), [26 · Financial Control](#t-26).
+>
+> **Why it closes.** The family that supplies the investment also sets the terms of repayment, and the repayment funds the next round of investment. The page records no ledger outside the family, and in China a court can now enforce the claim.
+>
+> **Where it could be broken, and by whom.** It weakens where parents present care as a gift and not as a debt, which section 18 lists as a step they could refuse to take. In China the legislature and the courts hold the statutory part of the claim. An adult child can ask what the parents owe in return, as the question in section 12 stage 6 suggests. This paragraph is analysis, not a documented finding.
+>
+> **An example from this page.** A 77-year-old woman sued her daughter and son-in-law, who had stopped visiting her, and the Wuxi court ordered them to visit at least once every two months (section 19) [12].
+> :::
+
+*Reason:* Loop 1 was one compressed sentence. It now shows the mechanism step by step, the techniques that supply it, why it closes, where it could be broken and one example. Every factual step is taken from this volume and points to the section where it is recorded; the break-point paragraph is labelled as analysis.
+
+### CON-L002 · md · §13 · proposed · build: applied
+
+**Before**
+
+> ::: card
+> #### 2 · Fear to Dependence to Fear
+>
+> Shame supplies the fear, family approval supplies the relief, and the same people administer both.
+> :::
+
+**After**
+
+> ::: card
+> #### 2 · Fear to Dependence to Fear
+>
+> Shame supplies the fear, family approval supplies the relief, and the same people administer both.
+>
+> **How it runs.**
+>
+> 1. The rule 'do not shame the family' attaches fear to any disagreement and keeps problems inside the house (sections 10 and 11).
+> 2. Housing, tuition, marriage introductions and childcare all come from inside the family and are conditional on standing, which builds dependence (section 12, stage 5).
+> 3. Approval is given sparingly and unpredictably, and warmth returns when the person complies (section 12, techniques 8 and 20).
+> 4. The relief confirms the dependence, and the next lapse brings the fear back (section 12, technique 21).
+> 5. The person cannot easily name the problem, because the only available category is the bad child (sections 3 and 15).
+>
+> **Techniques that feed it.** [8 · Intermittent Reinforcement](#t-8), [14 · Isolation](#t-14), [20 · Trauma Bonding](#t-20), [27 · Manufactured Crisis](#t-27).
+>
+> **Why it closes.** The people who create the fear are the people who give the relief, so the person has no second source of either. Both are carried in family speech, and no record exists that could be shown to an outsider.
+>
+> **Where it could be broken, and by whom.** It weakens where a person has a source of support outside the family. Section 24 lists specialist help for abuse or forced marriage, and section 25 gives the numbers. Relatives who decline to repeat the verdict of unfilial also break it, though the page records no such case. This paragraph is analysis, not a documented finding.
+>
+> **An example from this page.** In the day inside (section 2), Wei wants to say that he is tired and does not want the tutoring centre. There is nobody to say it to, and the only available sentence is that he is a bad son.
+> :::
+
+*Reason:* Loop 2 was one compressed sentence. It now shows the mechanism step by step, the techniques that supply it, why it closes, where it could be broken and one example. Every factual step is taken from this volume and points to the section where it is recorded; the break-point paragraph is labelled as analysis.
+
+### CON-L003 · md · §13 · proposed · build: applied
+
+**Before**
+
+> ::: card
+> #### 3 · Children to Members to Children
+>
+> Academic and filial formation begins at birth; there is no enrolment because there was never a choice.
+> :::
+
+**After**
+
+> ::: card
+> #### 3 · Children to Members to Children
+>
+> Academic and filial formation begins at birth; there is no enrolment because there was never a choice.
+>
+> **How it runs.**
+>
+> 1. Filial obligation attaches at birth and obedience is the child's defining virtue (section 11).
+> 2. A child's exam result is treated as family honor, and failure is treated as a moral defect (sections 10 and 11).
+> 3. Because obedience has been practiced since childhood, adult choices about career, marriage and residence remain subject to family expectation (section 12, techniques 13 and 23).
+> 4. The adult then raises the next child on the same terms, and the psychology outlived the examination system by a century (section 10).
+>
+> **Techniques that feed it.** [13 · Normalization / Desensitization](#t-13), [19 · Manufactured Consent](#t-19), [23 · Infantilization](#t-23), [24 · Identity Erosion](#t-24).
+>
+> **Why it closes.** The formation happens before the person can evaluate it, so there is no moment of joining to refuse. The same upbringing then produces the next generation of enforcers.
+>
+> **Where it could be broken, and by whom.** It weakens where adults decide to raise their own children on reciprocal terms. Pensions, insurance and healthcare now exist (section 10), so the household no longer has to be the safety net. Teachers could decline to rank children publicly (section 18). This paragraph is analysis, not a documented finding.
+>
+> **An example from this page.** In the day inside (section 2), Wei's mother has found a tutoring centre for his four-year-old daughter without asking him. He is the adult child in one arrangement and the parent in the next.
+> :::
+
+*Reason:* Loop 3 was one compressed sentence. It now shows the mechanism step by step, the techniques that supply it, why it closes, where it could be broken and one example. Every factual step is taken from this volume and points to the section where it is recorded; the break-point paragraph is labelled as analysis.
+
+### CON-L004 · md · §13 · proposed · build: applied
+
+**Before**
+
+> ::: card
+> #### 4 · Aid to Legitimacy to Leverage to Aid
+>
+> The state promotes filial duty and offloads welfare costs onto households, then calls the arrangement virtue.
+> :::
+
+**After**
+
+> ::: card
+> #### 4 · Aid to Legitimacy to Leverage to Aid
+>
+> The state promotes filial duty and offloads welfare costs onto households, then calls the arrangement virtue.
+>
+> **How it runs.**
+>
+> 1. The state promotes filial piety and 'harmonious society' as governance vocabulary (sections 7 and 16).
+> 2. Elder-support obligations are written into law, which transfers the state's welfare costs to adult children (sections 8 and 10).
+> 3. The promotion gives the state a claim to Confucian legitimacy, and harmony language frames dissent as disorder (sections 11 and 14).
+> 4. That framing makes criticism of the arrangement harder, and the households keep absorbing the costs, so the promotion continues (section 16).
+>
+> **Techniques that feed it.** [3 · Future Faking](#t-3), [10 · Strategic Ambiguity](#t-10), [25 · Spiritual Bypassing](#t-25), [26 · Financial Control](#t-26).
+>
+> **Why it closes.** The state gains the credit for supporting the old and keeps the cost off its own books, and the vocabulary it uses makes objection look like disorder. Each step supplies the next.
+>
+> **Where it could be broken, and by whom.** It weakens in the courts and the legislature, which hold the statute (section 8). South Korea's courts took apart its own Confucian family law (sections 8 and 22). Adult children could refuse to describe a legal duty as virtue. This paragraph is analysis, not a documented finding.
+>
+> **An example from this page.** The 2013 elderly-rights law requires adult children to visit and attend to the spiritual needs of parents over 60 [3] (section 8), and the first reported order followed within weeks [12] (section 19).
+> :::
+
+*Reason:* Loop 4 was one compressed sentence. It now shows the mechanism step by step, the techniques that supply it, why it closes, where it could be broken and one example. Every factual step is taken from this volume and points to the section where it is recorded; the break-point paragraph is labelled as analysis.
+
+### CON-L005 · md · §13 · proposed · build: applied
+
+**Before**
+
+> ::: card
+> #### 5 · Unpaid Labor to Assets to Power to More Labor
+>
+> Care labor and lineage upkeep accrue to senior generations and lineage funds, with no equity for the carer.
+> :::
+
+**After**
+
+> ::: card
+> #### 5 · Unpaid Labor to Assets to Power to More Labor
+>
+> Care labor and lineage upkeep accrue to senior generations and lineage funds, with no equity for the carer.
+>
+> **How it runs.**
+>
+> 1. Daughters-in-law carry the heaviest eldercare labor with the least standing (sections 7, 11 and 17).
+> 2. Ancestral rites, tomb upkeep and, in some regions, lineage assets are controlled by senior males (sections 7 and 9).
+> 3. Property, name and ritual obligation pass through sons, so the carer does not accumulate equity or standing (section 10).
+> 4. Without standing she cannot refuse, and the labor continues (section 17).
+>
+> **Techniques that feed it.** [5 · Devaluation](#t-5), [21 · Learned Helplessness](#t-21), [22 · Benevolent Control](#t-22), [26 · Financial Control](#t-26).
+>
+> **Why it closes.** The labor produces value for the lineage and none for the person who gives it, and the person's lack of standing is what keeps her giving it.
+>
+> **Where it could be broken, and by whom.** It weakens where the law removes the structure that assigns standing, as South Korea's courts did to the *hoju* system (section 8), and where families share care labor. Employers and teachers also hold a step they could refuse (section 18). The page records no instance of lineage funds being opened to the carer. This paragraph is analysis, not a documented finding.
+>
+> **An example from this page.** In the day inside (section 2), Wei's wife texts about her mother's hospital appointment and who will take the day off. It will be her, it is always her, and it has never been in question.
+> :::
+
+*Reason:* Loop 5 was one compressed sentence. It now shows the mechanism step by step, the techniques that supply it, why it closes, where it could be broken and one example. Every factual step is taken from this volume and points to the section where it is recorded; the break-point paragraph is labelled as analysis.
+
+### CON-L006 · md · §13 · proposed · build: applied
+
+**Before**
+
+> ::: card
+> #### 6 · Scandal to Removal to Reform Theatre to Continuity
+>
+> There is no scandal apparatus. There is only the unfilial child, discussed at gatherings they are no longer invited to.
+> :::
+
+**After**
+
+> ::: card
+> #### 6 · Scandal to Removal to Reform Theatre to Continuity
+>
+> There is no scandal apparatus. There is only the unfilial child, discussed at gatherings they are no longer invited to.
+>
+> **How it runs.**
+>
+> 1. An adult child departs from an assigned role (section 15).
+> 2. There is no formal process. The response is silence, shame, withdrawn money and exclusion (section 12, techniques 18 and 28).
+> 3. The informal verdict of unfilial is passed in conversation among relatives (section 12, stage 7).
+> 4. A more obedient relative takes the vacated place (section 12, technique 29).
+> 5. Nothing is announced and nothing is reformed, because there is no institution to announce anything (section 14).
+>
+> **Techniques that feed it.** [17 · Smear Campaign](#t-17), [18 · Silent Treatment / Stonewalling](#t-18), [28 · Discard](#t-28), [29 · Replacement](#t-29).
+>
+> **Why it closes.** Because no process exists, no scandal can attach to one, and the household returns to its earlier pattern with the dissenter removed. The page records the form of the cycle, not any instance of a public reckoning.
+>
+> **Where it could be broken, and by whom.** No body exists that could break it. It weakens only through the people at the table, such as a relative who declines to repeat the verdict. Section 8 states that family law reaches only the edge cases. This paragraph is analysis, not a documented finding.
+>
+> **An example from this page.** The ledger of exit (section 15) records withheld support, disinheritance and exclusion from family events as costs of leaving.
+> :::
+
+*Reason:* Loop 6 was one compressed sentence. It now shows the mechanism step by step, the techniques that supply it, why it closes, where it could be broken and one example. Every factual step is taken from this volume and points to the section where it is recorded; the break-point paragraph is labelled as analysis.
+
+### CON-L007 · md · §13 · proposed · build: applied
+
+**Before**
+
+> ::: card
+> #### 7 · Persecution to Solidarity to Insulation to Unaccountability
+>
+> Historic humiliation and the Cultural Revolution's suppression are cited to make criticism of the family ethic seem Western.
+> :::
+
+**After**
+
+> ::: card
+> #### 7 · Persecution to Solidarity to Insulation to Unaccountability
+>
+> Historic humiliation and the Cultural Revolution's suppression are cited to make criticism of the family ethic seem Western.
+>
+> **How it runs.**
+>
+> 1. The tradition was violently suppressed within living memory, including in the Cultural Revolution (sections 3 and 5).
+> 2. A person who objects to the family ethic is called ungrateful, selfish or Westernized (section 12, techniques 4, 12 and 17).
+> 3. The accusation casts the objection as foreign to the tradition, and the objector as the person who disturbs harmony (section 12, techniques 11 and 17; section 14).
+> 4. Because the family ethic has no institution and no policy, nobody is answerable for it (section 15).
+>
+> **Techniques that feed it.** [4 · Hoovering](#t-4), [12 · DARVO](#t-12), [17 · Smear Campaign](#t-17), [30 · Plausible Deniability](#t-30).
+>
+> **Why it closes.** The real history of suppression gives the family ethic a claim to protection, and the accusation of Western corruption turns every objection into a threat to the tradition's survival.
+>
+> **Where it could be broken, and by whom.** It weakens where the tradition's own texts are used in the objection, since the page shows that reciprocal duty is in the Analects and Mencius (section 3). Scholars who reclaim the ethics from the hierarchy do this work (section 20). The page records the accusation and the suppression, but not the two being explicitly linked. This paragraph is analysis, not a documented finding.
+>
+> **An example from this page.** Technique 12 records an adult child who names parental control being attacked as ungrateful, selfish, immature or Westernized, and section 5 records the Cultural Revolution's attack on the tradition.
+> :::
+
+*Reason:* Loop 7 was one compressed sentence. It now shows the mechanism step by step, the techniques that supply it, why it closes, where it could be broken and one example. Every factual step is taken from this volume and points to the section where it is recorded; the break-point paragraph is labelled as analysis.
+
+### CON-L008 · md · §13 · proposed · build: applied
+
+**Before**
+
+> ## 13. The loops {#loops}
+>
+>
+
+**After**
+
+> ## 13. The loops {#loops}
+>
+> ::: lede
+> The seven loops below show how the practices connect, so that each step makes the next one easier and the last step feeds the first. The loops are analysis built from findings recorded elsewhere on this page [PATTERN OBSERVED]; each step names the section where its fact is recorded.
+> :::
+>
+>
+
+*Reason:* Section 13 had no source line. The loops synthesise material sourced in other sections, so they are labelled PATTERN OBSERVED and cross-referenced rather than given sources they do not have.
+
+## Evidence-grade notes matched to their technique (20)
+
+### CON-R001 · md · §12 · proposed · build: applied
+
+**Before**
+
+> Approval for filial and academic performance is the welcome, administered by families.
+
+**After**
+
+> The generosity is parental sacrifice and family investment, later restated as a debt; it is customary in households and recorded in no document.
+
+*Reason:* The note under this technique was a rationale written for a different technique and reused. It now states what this technique's grade actually rests on. The grade is unchanged; where the stated basis points to a different grade, the entry is listed in the discrepancies file for a decision.
+
+### CON-R002 · md · §12 · proposed · build: applied
+
+**Before**
+
+> Family standing and ancestral honor are invoked domestically; there is no institution and never was.
+
+**After**
+
+> The pull-back is family speech such as 'Do not shame the family' and 'Respect your elders'; it is spoken in households and held in no document.
+
+*Reason:* The note under this technique was a rationale written for a different technique and reused. It now states what this technique's grade actually rests on. The grade is unchanged; where the stated basis points to a different grade, the entry is listed in the discrepancies file for a decision.
+
+### CON-R003 · md · §12 · proposed · build: applied
+
+**Before**
+
+> Insufficiency is produced by comparison to a cousin, which no doctrine requires and no body could correct.
+
+**After**
+
+> The gaslighting is spoken inside families, in sentences such as 'You are ungrateful'; it appears in no document and no one is answerable for it.
+
+*Reason:* The note under this technique was a rationale written for a different technique and reused. It now states what this technique's grade actually rests on. The grade is unchanged; where the stated basis points to a different grade, the entry is listed in the discrepancies file for a decision.
+
+### CON-R004 · md · §12 · proposed · build: applied
+
+**Before**
+
+> Insufficiency is produced by comparison to a cousin, which no doctrine requires and no body could correct.
+
+**After**
+
+> The bind arises where the tradition's reciprocal ethic meets one-directional enforcement by family, workplace and custom; that enforcement is customary and written nowhere.
+
+*Reason:* The note under this technique was a rationale written for a different technique and reused. It now states what this technique's grade actually rests on. The grade is unchanged; where the stated basis points to a different grade, the entry is listed in the discrepancies file for a decision.
+
+### CON-R005 · md · §12 · proposed · build: applied
+
+**Before**
+
+> 'After all we sacrificed' and accusations of selfishness are familial speech, entirely unattributable.
+
+**After**
+
+> The rationing of elder approval is a pattern of family behavior; no document records it and no one is answerable for it.
+
+*Reason:* The note under this technique was a rationale written for a different technique and reused. It now states what this technique's grade actually rests on. The grade is unchanged; where the stated basis points to a different grade, the entry is listed in the discrepancies file for a decision.
+
+### CON-R006 · md · §12 · proposed · build: applied
+
+**Before**
+
+> 'After all we sacrificed' and accusations of selfishness are familial speech, entirely unattributable.
+
+**After**
+
+> The shifting standard is set in family conversation, where each fulfilled duty is followed by another; it is customary and attributable to no one.
+
+*Reason:* The note under this technique was a rationale written for a different technique and reused. It now states what this technique's grade actually rests on. The grade is unchanged; where the stated basis points to a different grade, the entry is listed in the discrepancies file for a decision.
+
+### CON-R007 · md · §12 · proposed · build: applied
+
+**Before**
+
+> 'After all we sacrificed' and accusations of selfishness are familial speech, entirely unattributable.
+
+**After**
+
+> The ambiguity lies in everyday use of the words respect, harmony and filial piety, which no authoritative text or body fixes.
+
+*Reason:* The note under this technique was a rationale written for a different technique and reused. It now states what this technique's grade actually rests on. The grade is unchanged; where the stated basis points to a different grade, the entry is listed in the discrepancies file for a decision.
+
+### CON-R008 · md · §12 · proposed · build: applied
+
+**Before**
+
+> 'After all we sacrificed' and accusations of selfishness are familial speech, entirely unattributable.
+
+**After**
+
+> The projection is carried out in family speech that accuses the person who objects of selfishness; it is unattributable and unrecorded.
+
+*Reason:* The note under this technique was a rationale written for a different technique and reused. It now states what this technique's grade actually rests on. The grade is unchanged; where the stated basis points to a different grade, the entry is listed in the discrepancies file for a decision.
+
+### CON-R009 · md · §12 · proposed · build: applied
+
+**Before**
+
+> 'After all we sacrificed' and accusations of selfishness are familial speech, entirely unattributable.
+
+**After**
+
+> The normalization happens through childhood in the household, which no document prescribes and no institution supervises.
+
+*Reason:* The note under this technique was a rationale written for a different technique and reused. It now states what this technique's grade actually rests on. The grade is unchanged; where the stated basis points to a different grade, the entry is listed in the discrepancies file for a decision.
+
+### CON-R010 · md · §12 · proposed · build: applied
+
+**Before**
+
+> Dependency is built through housing, tuition, and introductions — all inside the family, none of it written.
+
+**After**
+
+> The isolation is produced by the family's own use of shame, silence and exclusion; no institution orders it.
+
+*Reason:* The note under this technique was a rationale written for a different technique and reused. It now states what this technique's grade actually rests on. The grade is unchanged; where the stated basis points to a different grade, the entry is listed in the discrepancies file for a decision.
+
+### CON-R011 · md · §12 · proposed · build: applied
+
+**Before**
+
+> Dependency is built through housing, tuition, and introductions — all inside the family, none of it written.
+
+**After**
+
+> The triangulation is done by relatives and by the family name, in questions such as 'What will relatives say?'; it is customary and answerable to no one.
+
+*Reason:* The note under this technique was a rationale written for a different technique and reused. It now states what this technique's grade actually rests on. The grade is unchanged; where the stated basis points to a different grade, the entry is listed in the discrepancies file for a decision.
+
+### CON-R012 · md · §12 · proposed · build: applied
+
+**Before**
+
+> Elder-support obligations are statutory in the PRC; academic pressure, care labor, and status spending are cultural.
+
+**After**
+
+> The smear is family gossip and reputation attack, which is customary. The Codified grade rests on the PRC's statutory elder-support obligation [3], which this entry does not describe.
+
+*Reason:* The note under this technique was a rationale written for a different technique and reused. It now states what this technique's grade actually rests on. The grade is unchanged; where the stated basis points to a different grade, the entry is listed in the discrepancies file for a decision.
+
+### CON-R013 · md · §12 · proposed · build: applied
+
+**Before**
+
+> Elder-support obligations are statutory in the PRC; academic pressure, care labor, and status spending are cultural.
+
+**After**
+
+> The guilt-and-relief cycle is lived inside families and is customary. The Codified grade rests on the PRC's statutory elder-support obligation [3], which this entry does not describe.
+
+*Reason:* The note under this technique was a rationale written for a different technique and reused. It now states what this technique's grade actually rests on. The grade is unchanged; where the stated basis points to a different grade, the entry is listed in the discrepancies file for a decision.
+
+### CON-R014 · md · §12 · proposed · build: applied
+
+**Before**
+
+> Elder-support obligations are statutory in the PRC; academic pressure, care labor, and status spending are cultural.
+
+**After**
+
+> The failed boundaries the entry describes happen in family conflict, which is customary. The Codified grade rests on the PRC's statutory elder-support obligation [3], which this entry does not describe.
+
+*Reason:* The note under this technique was a rationale written for a different technique and reused. It now states what this technique's grade actually rests on. The grade is unchanged; where the stated basis points to a different grade, the entry is listed in the discrepancies file for a decision.
+
+### CON-R015 · md · §12 · proposed · build: applied
+
+**Before**
+
+> Elder-support obligations are statutory in the PRC; academic pressure, care labor, and status spending are cultural.
+
+**After**
+
+> The control is expressed in the language of care, sacrifice and harmony. The Codified grade rests on the PRC's statutory elder-support obligation [3], which writes one filial duty into law; the control the entry describes is otherwise customary.
+
+*Reason:* The note under this technique was a rationale written for a different technique and reused. It now states what this technique's grade actually rests on. The grade is unchanged; where the stated basis points to a different grade, the entry is listed in the discrepancies file for a decision.
+
+### CON-R016 · md · §12 · proposed · build: applied
+
+**Before**
+
+> Elder-support obligations are statutory in the PRC; academic pressure, care labor, and status spending are cultural.
+
+**After**
+
+> The role-based identity the entry describes is customary in families. The Codified grade rests on the PRC's statutory elder-support obligation [3], which this entry does not describe.
+
+*Reason:* The note under this technique was a rationale written for a different technique and reused. It now states what this technique's grade actually rests on. The grade is unchanged; where the stated basis points to a different grade, the entry is listed in the discrepancies file for a decision.
+
+### CON-R017 · md · §12 · proposed · build: applied
+
+**Before**
+
+> Elder-support obligations are statutory in the PRC; academic pressure, care labor, and status spending are cultural.
+
+**After**
+
+> The bypassing is done in everyday family speech that turns abuse into filial piety and silence into respect. The Codified grade rests on the PRC's statutory elder-support obligation [3], which this entry does not describe.
+
+*Reason:* The note under this technique was a rationale written for a different technique and reused. It now states what this technique's grade actually rests on. The grade is unchanged; where the stated basis points to a different grade, the entry is listed in the discrepancies file for a decision.
+
+### CON-R018 · md · §12 · proposed · build: applied
+
+**Before**
+
+> There is no exit category at all — one can only be unfilial, which is the purest form of this deniability.
+
+**After**
+
+> The crisis is raised by relatives through tears, warnings and 'What will people say?'; it is customary and has no author.
+
+*Reason:* The note under this technique was a rationale written for a different technique and reused. It now states what this technique's grade actually rests on. The grade is unchanged; where the stated basis points to a different grade, the entry is listed in the discrepancies file for a decision.
+
+### CON-R019 · md · §12 · proposed · build: applied
+
+**Before**
+
+> No institution, no doctrine, no clergy, nobody to name. The absence is the mechanism rather than an exemption from it.
+
+**After**
+
+> The replacement is a family's emotional reassignment of a place to an obedient relative; no institution, doctrine or clergy is involved.
+
+*Reason:* The note under this technique was a rationale written for a different technique and reused. It now states what this technique's grade actually rests on. The grade is unchanged; where the stated basis points to a different grade, the entry is listed in the discrepancies file for a decision.
+
+### CON-R020 · md · §12 · proposed · build: applied
+
+**Before**
+
+> State promotion of harmony and filial vocabulary as governance framing, established in academic analysis. *(sourced)*
+
+**After**
+
+> The entry describes parents who deny control while money, guilt and approval enforce compliance, which is domestic and customary. The Documented grade rests on academic analysis of state promotion of harmony and filial vocabulary as governance framing, which the entry does not describe. *(sourced)*
+
+*Reason:* The note under this technique was a rationale written for a different technique and reused. It now states what this technique's grade actually rests on. The grade is unchanged; where the stated basis points to a different grade, the entry is listed in the discrepancies file for a decision.
+
