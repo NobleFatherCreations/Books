@@ -1005,18 +1005,6 @@
    "state": "applied"
   },
   {
-   "id": "CHR-N001",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "CHR-N002",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
    "id": "ALL-F03",
    "scope": "md",
    "found": 1,
@@ -1549,18 +1537,6 @@
   {
    "id": "CATH-W034",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "CATH-N001",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "CATH-N002",
-   "scope": "narration",
    "found": 1,
    "state": "applied"
   },
@@ -2547,12 +2523,6 @@
   {
    "id": "EO-L008",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "EO-N001",
-   "scope": "narration",
    "found": 1,
    "state": "applied"
   },
@@ -3581,12 +3551,6 @@
   {
    "id": "OO-W132",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "OO-N001",
-   "scope": "narration",
    "found": 1,
    "state": "applied"
   },
@@ -4685,12 +4649,6 @@
    "state": "applied"
   },
   {
-   "id": "ANG-N001",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
    "id": "ANG-N002",
    "scope": "narration",
    "found": 1,
@@ -5733,18 +5691,6 @@
   {
    "id": "PE-W084",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "PE-N001",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "PE-N002",
-   "scope": "narration",
    "found": 1,
    "state": "applied"
   },
@@ -6933,12 +6879,6 @@
    "state": "applied"
   },
   {
-   "id": "PC-P008",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
    "id": "PC-C002",
    "scope": "narration",
    "found": 1,
@@ -7951,18 +7891,6 @@
   {
    "id": "PB-P006",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "PB-N001",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "PB-N002",
-   "scope": "narration",
    "found": 1,
    "state": "applied"
   },
@@ -9073,18 +9001,6 @@
    "state": "applied"
   },
   {
-   "id": "LDS-N001",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "LDS-N002",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
    "id": "LDS-W110",
    "scope": "md",
    "found": 1,
@@ -10131,12 +10047,6 @@
    "state": "applied"
   },
   {
-   "id": "JW-N001",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
    "id": "JW-N002",
    "scope": "narration",
    "found": 1,
@@ -10939,18 +10849,6 @@
   {
    "id": "SDA-W081",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "SDA-N001",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "SDA-N002",
-   "scope": "narration",
    "found": 1,
    "state": "applied"
   },
@@ -12039,18 +11937,6 @@
   {
    "id": "ISL-W098",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "ISL-N001",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "ISL-N002",
-   "scope": "narration",
    "found": 1,
    "state": "applied"
   },
@@ -13223,18 +13109,6 @@
   {
    "id": "SUN-W111",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "SUN-N001",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "SUN-N002",
-   "scope": "narration",
    "found": 1,
    "state": "applied"
   },
@@ -14415,18 +14289,6 @@
    "scope": "md",
    "found": 1,
    "state": "applied"
-  },
-  {
-   "id": "SHI-N001",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "SHI-N002",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
   }
  ],
  "ahmadiyya": [
@@ -15321,18 +15183,6 @@
   {
    "id": "AHM-P009",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "AHM-N001",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "AHM-N002",
-   "scope": "narration",
    "found": 1,
    "state": "applied"
   },
@@ -16313,18 +16163,6 @@
   {
    "id": "DAW-P004",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "DAW-P005",
-   "scope": "narration",
-   "found": 0,
-   "state": "FAILED (found 0, expected 1)"
-  },
-  {
-   "id": "DAW-P006",
-   "scope": "narration",
    "found": 1,
    "state": "applied"
   },
@@ -17401,18 +17239,6 @@
   {
    "id": "JUD-W095",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "JUD-N001",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "JUD-N002",
-   "scope": "narration",
    "found": 1,
    "state": "applied"
   },
@@ -18555,12 +18381,6 @@
   {
    "id": "HAS-G023",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "HAS-N001",
-   "scope": "narration",
    "found": 1,
    "state": "applied"
   }
@@ -23483,12 +23303,6 @@
    "state": "applied"
   },
   {
-   "id": "BUD-N001",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
    "id": "BUD-N002",
    "scope": "narration",
    "found": 1,
@@ -24303,18 +24117,6 @@
   {
    "id": "TIB-L008",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "TIB-P006",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "TIB-P007",
-   "scope": "narration",
    "found": 1,
    "state": "applied"
   }
@@ -25311,18 +25113,6 @@
    "state": "applied"
   },
   {
-   "id": "SOK-P004",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "SOK-P005",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
    "id": "SOK-P006",
    "scope": "narration",
    "found": 1,
@@ -26267,19 +26057,7 @@
    "state": "applied"
   },
   {
-   "id": "TAO-N001",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
    "id": "TAO-N002",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "TAO-N003",
    "scope": "narration",
    "found": 1,
    "state": "applied"
@@ -27217,12 +26995,6 @@
    "state": "applied"
   },
   {
-   "id": "CON-N001",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
    "id": "CON-N002",
    "scope": "narration",
    "found": 1,
@@ -28137,12 +27909,6 @@
    "state": "applied"
   },
   {
-   "id": "SHN-N001",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
    "id": "SHN-N002",
    "scope": "narration",
    "found": 1,
@@ -28150,12 +27916,6 @@
   },
   {
    "id": "SHN-N003",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "SHN-N004",
    "scope": "narration",
    "found": 1,
    "state": "applied"
@@ -28969,18 +28729,6 @@
   {
    "id": "ZOR-W077",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "ZOR-N001",
-   "scope": "narration",
-   "found": 0,
-   "state": "FAILED (found 0, expected 1)"
-  },
-  {
-   "id": "ZOR-N002",
-   "scope": "narration",
    "found": 1,
    "state": "applied"
   },
@@ -31203,18 +30951,6 @@
    "state": "applied"
   },
   {
-   "id": "SCI-N001",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "SCI-N002",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
    "id": "SCI-N003",
    "scope": "narration",
    "found": 1,
@@ -32287,30 +32023,6 @@
   {
    "id": "NEW-W101",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "NEW-G027",
-   "scope": "md",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "NEW-G028",
-   "scope": "md",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "NEW-N001",
-   "scope": "narration",
-   "found": 1,
-   "state": "applied"
-  },
-  {
-   "id": "NEW-N002",
-   "scope": "narration",
    "found": 1,
    "state": "applied"
   },

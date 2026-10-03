@@ -74,7 +74,8 @@ def check(rid, scopes):
             state = 'applied' if got == want else f'FAILED (found {got}, expected {want})'
         res.append({'id': e['id'], 'scope': e.get('scope', 'md'), 'found': got, 'state': state})
     st = json.load(open(STATUS)) if os.path.exists(STATUS) else {}
-    cur = {r['id']: r for r in st.get(rid, [])}
+    live = {e['id'] for e in load(rid)}
+    cur = {r['id']: r for r in st.get(rid, []) if r['id'] in live}   # drop entries whose edit was removed
     for r in res:
         cur[r['id']] = r
     st[rid] = list(cur.values())
