@@ -1,6 +1,6 @@
 # Wording log — eastern-orthodoxy
 
-152 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/eastern-orthodoxy.json`, then rebuild. Nothing else changes.
+151 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/eastern-orthodoxy.json`, then rebuild. Nothing else changes.
 
 ## Fragments completed into sentences (89)
 
@@ -1343,7 +1343,7 @@
 
 *Reason:* First use of 'Catholicos-Patriarch', glossed; fragment completed.
 
-## Proofreading (typos, punctuation, agreement) (7)
+## Proofreading (typos, punctuation, agreement) (6)
 
 ### EO-P001 · md · §5 · proposed · build: applied
 
@@ -1416,18 +1416,6 @@
 > | Convert clergy in the diaspora | Hold the fastest-growing part of the tradition | The online radicalization pipeline arriving in their parishes | Defer to old-world hierarchies | Let prelest language be used to silence a parishioner's legitimate complaint |
 
 *Reason:* Subject-verb agreement; doubled 'to'.
-
-### EO-N001 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 5 documented cases on this page
-
-**After**
-
-> These are not hypotheticals. Five documented cases on this page
-
-*Reason:* Numeral at the start of a clause spelled out.
 
 ## Sentences completed or clarified (3)
 

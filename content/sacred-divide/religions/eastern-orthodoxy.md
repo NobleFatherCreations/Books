@@ -5,7 +5,7 @@ family: "Christianity"
 family_id: christianity-family
 family_members: [christianity, catholicism, eastern-orthodoxy, oriental-orthodoxy, anglicanism, protestant-evangelical, pentecostal-charismatic, plymouth-brethren]
 version: v4
-checked: 2026-09-27
+checked: 2026-10-03
 sections_filled: 27/27
 missing: []
 partial: []
@@ -18,15 +18,15 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | Eastern Orthodoxy has ~220–260 million adherents. [ACADEMIC SOURCE: Pew] |
+| Size | Eastern Orthodoxy has roughly 208 million adherents; Pew counts nearly 260 million Orthodox Christians when the Oriental churches are included. [ACADEMIC SOURCE: Pew] [13] |
 | Who's in charge | The Ecumenical Patriarch of Constantinople, the senior bishop of the Orthodox churches, seated in Istanbul, is Bartholomew I, in office since 1991. He is first among equals, without command over the other fourteen churches. |
 | Chosen by / removable by | The Holy Synod / The Synod, in theory |
 | Money in one line | The money comes from candle sales, ritual fees (for baptisms, weddings, funerals and house blessings), diaspora remittances, and state funding in several countries. |
 | Leaving in one line | In majority-Orthodox societies, leaving reads as ethnic betrayal, because faith and nationality are fused ('to be Serbian is to be Orthodox'). |
 | The unanswered question | A patriarch blessed an invasion from the pulpit. Which synod holds the authority to say no to him — and why has it never been used? |
-| Evidence | Six of the 30 techniques are sourced to a named document. The grades are Cultural 19, Taught 5, Codified 4 and Documented 2. |
+| Evidence | Two of the 30 techniques are sourced to a named document. The grades are Cultural 22, Taught 6 and Documented 2. |
 | Family | Christianity — christianity, catholicism, eastern-orthodoxy, oriental-orthodoxy, anglicanism, protestant-evangelical, pentecostal-charismatic, plymouth-brethren |
-| Last checked | 2026-09-27 |
+| Last checked | 2026-10-03 |
 :::
 
 ### Disclosure scorecard
@@ -81,14 +81,14 @@ A patriarch blessed an invasion from the pulpit. Which synod holds the authority
 
 **The objection.** You are applying Western categories to a tradition you do not understand, and ignoring genuine Soviet martyrdom.
 
-**What is true in it.** The persecution was real and enormous — clergy and believers murdered in the millions across the Soviet century. Any account omitting that is propaganda.
+**What is true in it.** The persecution was real and enormous — clergy and believers imprisoned, exiled and killed across the Soviet century, the repressed numbering in the millions. Any account omitting that is propaganda.
 
 **The answer.** The sharpest claim here is not Western at all: it is conciliarity, the tradition's own doctrine that the faith is guarded by the whole people. A patriarch blessing a war is measured against Orthodoxy's own standard, and the clergy who objected were Orthodox priests.
 
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-The tradition has ~220–260 million adherents across autocephalous (self-governing) national churches, among them the Russian, Greek, Serbian and Romanian churches. It emphasizes liturgy, iconography, monasticism and continuity with the ancient church.
+The tradition has roughly 208 million adherents [13] across autocephalous (self-governing) national churches, among them the Russian, Greek, Serbian and Romanian churches. It emphasizes liturgy, iconography, monasticism and continuity with the ancient church.
 :::
 
 Healthy practice here looks like parishes and jurisdictions that resisted state capture, among them the dissident priests in Russia who were sanctioned for opposing the war. [INVESTIGATIVE REPORT]
@@ -138,13 +138,13 @@ In September 1943, at a meeting arranged in the middle of the war, Stalin permit
 ::: card
 #### 2022 — The pulpit and the invasion
 
-Patriarch Kirill preached in support of the invasion of Ukraine. Priests who signed an open letter calling for reconciliation were suspended and in some cases defrocked. The patriarch faced no synodal process of any kind.
+Patriarch Kirill preached in support of the invasion of Ukraine. Some of the 293 clergy who signed an open letter calling for reconciliation were prosecuted or disciplined, and priests who refused the prayer for victory were defrocked [10][35]. The patriarch faced no synodal process of any kind.
 
 **Why it matters.** The clearest demonstration in this codex of accountability running in exactly one direction — downward, quickly, and only against dissent.
 :::
 
 ::: cites
-Sources for this section: [10] [11] [16] [17]
+Sources for this section: [10] [11] [16] [17] [35]
 :::
 
 ## 6. Branches & variants {#branches}
@@ -159,7 +159,7 @@ The tradition is made up of autocephalous national churches (Constantinople, Mos
 | **Orthodox Church of Ukraine** | Ukraine | Constantinople granted it autocephaly on 5 January 2019. Moscow does not recognize it [17]. |
 | **Old Calendarists** | Greece and diaspora | They broke away when the Church of Greece adopted the revised calendar in 1924, and they are outside communion with the canonical churches (those the main Orthodox churches recognize) [24]. |
 
-Pew counts about **260 million** Orthodox Christians worldwide (2017) [13].
+Pew counts nearly **260 million** Orthodox Christians worldwide (2017), about four-fifths of them in the Eastern Orthodox churches [13].
 
 ## 7. Structure {#structure}
 
@@ -167,10 +167,10 @@ Pew counts about **260 million** Orthodox Christians worldwide (2017) [13].
 
 |  |  |
 |---|---|
-| Adherents | Eastern Orthodoxy has ~220–260 million adherents. [ACADEMIC SOURCE: Pew] |
-| Regions | Russia has by far the largest population. The tradition is also concentrated in Ukraine, Romania, Greece, Serbia, Bulgaria and Georgia, with a diaspora in the West. Ethiopia's related Oriental tradition is listed alongside it. |
+| Adherents | Eastern Orthodoxy has roughly 208 million adherents; Pew counts nearly 260 million Orthodox Christians when the Oriental churches are included [13]. [ACADEMIC SOURCE: Pew] |
+| Regions | Russia has by far the largest population. The tradition is also concentrated in Ukraine, Romania, Greece, Serbia, Bulgaria and Georgia, with a diaspora in the West. |
 | Trend | Nominal identity is high in post-Soviet states, and active practice is much lower. Convert numbers are growing notably in North America and Western Europe, especially among young men. |
-| Participation | The gap between identity and practice is extreme. Russia reports ~70%+ Orthodox identity with single-digit weekly attendance. National identity, not institutional submission, is what most adherents are reporting. [ACADEMIC SOURCE] |
+| Participation | The gap between identity and practice is extreme. Russia reports ~70%+ Orthodox identity with single-digit weekly attendance. National identity, not institutional submission, is what most adherents are reporting [14]. [ACADEMIC SOURCE: Pew] |
 
 ### Authority
 
@@ -180,13 +180,13 @@ Pew counts about **260 million** Orthodox Christians worldwide (2017) [13].
 ### The top of the chain
 
 ::: lede
-Fifteen self-governing churches, each with its own apex — and not one lay vote anywhere in any of the chains.
+Fifteen self-governing churches by Pew's count [13], each with its own apex — and not one lay vote anywhere in any of the chains.
 :::
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
 | Ecumenical Patriarch of Constantinople | Bartholomew I, since 1991. He is first among equals, without command over the other fourteen churches. | The Holy Synod | The Synod, in theory |
-| Patriarch of Moscow and All Rus' | Kirill (Vladimir Gundyayev), since 2009. He blessed the invasion of Ukraine from the pulpit and has been personally sanctioned by several governments. The EU renewed its attempt to sanction him in 2026. | A local council and synod | There is no realistic mechanism while he is aligned with the state. Priests who publicly opposed the war were suspended and defrocked; the patriarch who blessed it was not |
+| Patriarch of Moscow and All Rus' | Kirill (Vladimir Gundyayev), since 2009. He blessed the invasion of Ukraine from the pulpit and has been personally sanctioned by several governments. The EU put him in a draft sanctions package in June 2026, after Hungary dropped its veto [4], and removed him in July at Bulgaria's request, joined by Italy; the package agreed on 23 July did not include him [33]. In July 2026 his publishing house announced a book by him arguing that war has a "redemptive meaning" [12]. | A local council and synod | There is no realistic mechanism while he is aligned with the state. Priests who publicly opposed the war were suspended and defrocked; the patriarch who blessed it was not |
 | Your jurisdiction's synod of bishops | Celibate monastics hold every voting seat in every synod, by canon. | Bishops elect bishops | Bishops remove bishops |
 
 ::: tell
@@ -199,7 +199,7 @@ Decentralization is offered as the defense. Read it as the finding: fifteen sepa
 |---|---|---|---|---|---|
 | The Moscow Patriarchate | National church | Patriarch and Holy Synod | The largest Orthodox jurisdiction, restored property, and state alignment | It decides whether your son's war is blessed. | [LEADERSHIP STATEMENT: recorded public statements on the invasion of Ukraine] |
 | Ecumenical Patriarchate of Constantinople | Primatial see (the seat of the senior bishop) | Ecumenical Patriarch | Canonical primacy and the authority to grant autocephaly | It decides, on geopolitical grounds, which church your parish belongs to. | [OFFICIAL POLICY: 2018–19 Ukrainian autocephaly] |
-| State clergy payroll (Greece) | Statutory revenue | Greek state budget | Salaries for Orthodox clergy from public funds | Public money underwrites positions much of the public disagrees with. | [OFFICIAL POLICY] |
+| State clergy payroll (Greece) | Statutory revenue | Greek state budget | Salaries for Orthodox clergy from public funds | Public money pays the clergy's salaries. | [OFFICIAL POLICY] |
 | Monastic centres and elder figures | Charismatic authority | Abbots and individual startsi | Unaudited donations and total personal influence over families | Your marriage, your medicine and your children's schooling can depend on their blessing. | [PATTERN OBSERVED / FORMER MEMBER TESTIMONY] |
 | Post-Soviet restitution and commercial concessions | Assets | Patriarchal economic administration | Property and commercial privileges granted in the 1990s | This is the wealth that makes political criticism structurally impossible. | [INVESTIGATIVE REPORT: Moskovsky Komsomolets, 1997; OSW, 2012] |
 
@@ -214,12 +214,12 @@ Sources for this section: [1] [4] [7] [10] [11] [13] [16]
 | **Russia** | The 1997 religion law's preamble recognizes "the special role of Orthodoxy" in Russian history [23]; since 2022, "discrediting" the armed forces is an offence — used against a priest for a sermon [21] | The state protects the patriarch; the church disciplines the priests who disagree with the state [10][21] |
 | **Ukraine** | Law No. 3894-IX (2024) allows courts to ban religious bodies affiliated with the Russian Orthodox Church [5] | UN experts warned in 2025 of persecution of the Ukrainian Orthodox Church [6] |
 | **Greece** | The constitution names Orthodoxy "the prevailing religion" (Article 3) [24]; the state pays about 10,000 clergy salaries [7] | A 2018 deal to move clergy off the state payroll was rejected by the Holy Synod and dropped [7] |
-| **Georgia** | A 2002 agreement commits the state to compensate the church for Soviet-era losses, and the Patriarchate receives 25 million lari a year from the state budget [25] | The state also pays extra for church events, such as at least 890,000 lari for one feast-day celebration [25] |
+| **Georgia** | A 2002 agreement commits the state to compensate the church for Soviet-era losses, and the Patriarchate received 25 million lari a year from the state budget in 2021 [25] | The state also pays extra for church events, such as at least 890,000 lari for one feast-day celebration [25] |
 | **United Kingdom** | Dioceses registered as charities file public accounts [18] | The Charity Commission is the only body in this table that can require an Orthodox diocese to publish its books |
 
 ### Who can compel an answer
 
-Civil courts can, and so can charity regulators in diaspora jurisdictions where parishes and archdioceses are registered. No synodal structure has ever compelled a state-aligned hierarch — which is exactly why the outside bodies are the ones to name.
+Civil courts can, and so can charity regulators in diaspora jurisdictions where parishes and archdioceses are registered. No case is recorded on this page of a synodal structure compelling a state-aligned hierarch — which is exactly why the outside bodies are the ones to name.
 
 ## 9. Money {#money}
 
@@ -257,15 +257,15 @@ Civil courts can, and so can charity regulators in diaspora jurisdictions where 
 
 **Source.** Public revenue
 
-**Path.** Religious affairs ministry → Licensed clergy → Sermon content approval
+**Path.** Public revenue → State budget → Clergy salaries (Greece) or a budget line to the Patriarchate (Georgia)
 
-**Disclosed.** Headcount and budget
+**Disclosed.** The headcount of paid clergy (Greece) [7] and the budget line (Georgia) [25].
 
-**Hidden.** Content directives
+**Hidden.** Not recorded on this page.
 :::
 
 ::: cites
-Sources for this section: [7] [8] [9]
+Sources for this section: [7] [8] [9] [25]
 :::
 
 ### Money in numbers
@@ -277,7 +277,7 @@ Sources for this section: [7] [8] [9]
  "cite":[18]}
 ```
 
-- **Georgia:** The Patriarchate receives 25 million lari (about $8 million) a year from the state budget [25].
+- **Georgia:** The Patriarchate received 25 million lari (about $8 million at 2021 rates) a year from the state budget in 2021 [25].
 - **Greece:** About 10,000 Orthodox clergy are on the state payroll [7].
 - **Russia:** There are no published accounts. The one detailed record of the Patriarchate's commercial income is the 1990s reporting on duty-free tobacco and alcohol imports [8][9].
 - **Thyateira, 2024:** Spending was £1.88m against income of £1.13m, and £935,680 of the income came from donations and legacies [18].
@@ -665,7 +665,7 @@ Your spiritual father's blessing governs your decisions. Your parish is your soc
 
 **The counter.** Ancientness does not justify enclosure. If the convert must distrust nearly every outside source to remain stable in the faith, then the tradition is not merely healing modern fragmentation. It is replacing the person’s world with a controlled one.
 
-**Evidence grade.** [[Codified]] Teaching converts to distrust outside sources and to bring doubts only to the priest is parish and online practice; no canon directs it.
+**Evidence grade.** [[Cultural]] Teaching converts to distrust outside sources and to bring doubts only to the priest is parish and online practice; no canon directs it.
 :::
 
 ::: tactic n=15
@@ -685,7 +685,7 @@ Your spiritual father's blessing governs your decisions. Your parish is your soc
 
 **The counter.** Guidance becomes triangulation when the only approved guides are loyal to the structure you are questioning. If your concern about authority must be processed through authority, the circle is already closed.
 
-**Evidence grade.** [[Codified]] Sacramental mediation through the priest is canonical; the other intermediaries named here (spiritual fathers, godparents, the parish echoing concern) operate by custom. *(sourced)*
+**Evidence grade.** [[Cultural]] Sacramental mediation through the priest is canonical, but the entry describes the other intermediaries (spiritual fathers, godparents, the parish echoing concern), which operate by custom.
 :::
 
 ### Stage 6 · Extract {#stage-6}
@@ -728,12 +728,13 @@ Candles, prayer requests, ritual fees for every passage of your life. Monastery 
 - Someone who reports clerical abuse may be accused of lacking humility or attacking the Church.
 - Converts who leave can be depicted as immature seekers who never understood the fullness of the faith.
 - Parish gossip may recast the person’s concerns as personality defects.
+- A priest who condemned the war was convicted of heresy by a church court and banned from serving [32].
 
 **The strongest defense.** Orthodoxy warns against pride and spiritual delusion because they are real dangers.
 
 **The counter.** Warning against delusion becomes smear when it is used to discredit anyone who names institutional harm. If every critic is proud, the institution never has to repent.
 
-**Evidence grade.** [[Cultural]] Recasting leavers and critics as proud or deluded is parish and online practice with no written rule; the church court's heresy conviction of Fr Ioann Burdin (section 19) is the one formal instance on this page.
+**Evidence grade.** [[Documented]] Recasting leavers and critics as proud or deluded is parish and online practice with no written rule; the church court's heresy conviction of Fr Ioann Burdin (section 19) [32] is a recorded, sourced instance. *(sourced)*
 :::
 
 ::: tactic n=18
@@ -809,7 +810,7 @@ Candles, prayer requests, ritual fees for every passage of your life. Monastery 
 
 **The counter.** Healing becomes LEARNED HELPLESSNESS when the diagnosis can never be satisfied. If every attempt to stand up proves you are spiritually sick, the system has trained you to stay on your knees.
 
-**Evidence grade.** [[Cultural]] Spiritual-father obedience extending to medical, marital, and career decisions is parish practice with no canonical mandate and no appeal structure. *(sourced)*
+**Evidence grade.** [[Cultural]] Spiritual-father obedience extending to medical, marital, and career decisions is parish practice with no canonical mandate and no appeal structure.
 :::
 
 ::: tactic n=22
@@ -828,7 +829,7 @@ Candles, prayer requests, ritual fees for every passage of your life. Monastery 
 
 **The counter.** A hospital becomes BENEVOLENT CONTROL when the patient cannot refuse treatment without being diagnosed as sicker. If the priest controls both the diagnosis and the cure, healing has become dependency.
 
-**Evidence grade.** [[Cultural]] Clerical direction framed as medicine for the soul is pastoral practice with no canonical mandate and no appeal structure (section 11). *(sourced)*
+**Evidence grade.** [[Cultural]] Clerical direction framed as medicine for the soul is pastoral practice with no canonical mandate and no appeal structure (section 11).
 :::
 
 ::: tactic n=23
@@ -906,7 +907,7 @@ Candles, prayer requests, ritual fees for every passage of your life. Monastery 
 
 **The counter.** Support becomes FINANCIAL CONTROL when spiritual legitimacy is tied to giving, buying, or donating. If poverty, hesitation, or financial limits are treated as lack of zeal, ancient worship has become an expensive identity system.
 
-**Evidence grade.** [[Codified]] The giving described here (stewardship, candles, icons, monastery donations) runs by parish and monastic custom; the money in this tradition that rests on published law is state funding, recorded in sections 8 and 9. *(sourced)*
+**Evidence grade.** [[Cultural]] The giving described here (stewardship, candles, icons, monastery donations) runs by parish and monastic custom; the money in this tradition that rests on published law is state funding, recorded in sections 8 and 9.
 :::
 
 ### Stage 7 · Discard {#stage-7}
@@ -935,7 +936,7 @@ Denial of communion, loss of the elder's blessing, and for converts, expulsion f
 
 **The counter.** Healing becomes MANUFACTURED CRISIS when every outside influence is framed as disease and every exit as death. If the Church must keep the world terrifying to keep people inside, the hospital metaphor has become a panic room.
 
-**Evidence grade.** [[Codified]] Framing the modern West as disease and departure as danger is taught in pastoral language and repeated in parish and online culture; no canon sets it out.
+**Evidence grade.** [[Taught]] Framing the modern West as disease and departure as danger is taught in pastoral language and repeated in parish and online culture; no canon sets it out.
 :::
 
 ::: tactic n=28
@@ -949,12 +950,13 @@ Denial of communion, loss of the elder's blessing, and for converts, expulsion f
 - Parish warmth may vanish once the person questions the priest, fasting expectations, confession dynamics, misogyny, or ethnic gatekeeping.
 - The person is no longer a seeker but a cautionary tale about Protestant individualism, rationalism, secularism, or prelest.
 - Spiritual father language turns cold: the patient who refuses treatment is blamed for leaving the hospital.
+- Clergy who criticised the church in public have been removed: Fr Alexei Uminsky was defrocked in January 2024 [10] and Sergei Chapnin was dismissed from the patriarchate's journal in December 2015 [22].
 
 **The strongest defense.** Orthodoxy grieves when people leave the fullness of the Church.
 
 **The counter.** Grief becomes DISCARD when it erases the person’s actual reasons. If departure is automatically diagnosed as pride or delusion, the person has not been heard. They have been filed under pathology.
 
-**Evidence grade.** [[Documented]] Clergy who publicly opposed the war were suspended and defrocked, as recorded in section 19; the discarding of lay converts described here is observed practice. *(sourced)*
+**Evidence grade.** [[Documented]] Clergy who publicly criticised or opposed the war were suspended, defrocked or dismissed, as recorded in section 19 [10][22]; the discarding of lay converts described above is observed practice. *(sourced)*
 :::
 
 ### Stage 8 · Replace {#stage-8}
@@ -1003,7 +1005,7 @@ Converts leave and are quietly rewritten as unstable, prideful, never truly Orth
 
 **The counter.** Decentralization becomes PLAUSIBLE DENIABILITY when no one is responsible but everyone is expected to submit. Telling people to obey and then blaming them for obeying wrongly is a perfect trap. A hospital that diagnoses every exit as pride or delusion cannot deny that it is controlling the patient.
 
-**Evidence grade.** [[Documented]] Local harm disowned as 'one priest' or 'local culture' is observed practice; the documented record behind the grade is the patriarch's recorded endorsement of the invasion, and the absence of any church process against him (sections 5 and 19). *(sourced)*
+**Evidence grade.** [[Cultural]] Local harm disowned as 'one priest' or 'local culture' is observed practice. The patriarch's recorded endorsement of the invasion and the absence of any church process against him (sections 5 and 19) are documented, but they are a different fact from the disowning this entry describes.
 :::
 
 ## 13. The loops {#loops}
@@ -1085,7 +1087,7 @@ State salaries and restitution buy institutional security, and institutional sec
 
 **How it runs.**
 
-1. States fund the church. Greece pays about 10,000 clergy salaries, Georgia gives the Patriarchate 25 million lari a year, and Russia granted post-Soviet property restitution and commercial privileges (sections 8 and 9).
+1. States fund the church. Greece pays about 10,000 clergy salaries, Georgia gave the Patriarchate 25 million lari in 2021, and Russia granted post-Soviet property restitution and commercial privileges (sections 8 and 9).
 2. The funding gives the hierarchy security, and section 9 records that fiscal dependence makes political criticism structurally impossible.
 3. The hierarchy repays the state in legitimacy. In 2022 the Patriarch of Moscow blessed the invasion of Ukraine from the pulpit (sections 5 and 16).
 4. The state protects the patriarch, and the church disciplines the priests who disagree. A priest fined under the 2022 "discrediting" law was later banned from serving by a church court (sections 8 and 19).
@@ -1125,7 +1127,7 @@ Parishioners build and maintain the parishes, dioceses and monasteries hold them
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
-A scandal produces a transfer to a monastery, not a governance change — and the elder system has no procedure to change.
+A scandal ends with one resignation, offered on grounds of health, and no governance change; the elder system has no procedure to change.
 
 **How it runs.**
 
@@ -1233,7 +1235,7 @@ Soviet martyrdom, which was real and enormous, is invoked to make present-day cr
 
 - The Moscow Patriarchate is the clearest current example in this codex of a church trading sacred legitimacy for state privilege: property restitution, commercial advantages, and monopoly protection in exchange for blessing state policy including the invasion of Ukraine. [INVESTIGATIVE REPORT / LEADERSHIP STATEMENT]
 - Church jurisdiction abroad functions as an arm of foreign policy: parishes in other countries become sites of influence, and the 2018–19 rupture with Constantinople over Ukrainian autocephaly was a geopolitical operation conducted in liturgical language. [ACADEMIC SOURCE]
-- Greece pays Orthodox clergy salaries from the state budget; several other states fund or restitute church property. Public money underwrites an institution that publicly opposes policies much of that public voted for. [OFFICIAL POLICY]
+- Greece pays Orthodox clergy salaries from the state budget; several other states fund or restitute church property. Public money underwrites the salaries of its clergy. [OFFICIAL POLICY]
 
 ### Who pays
 
@@ -1294,7 +1296,7 @@ Most of the institution's work is done below the synod, by people who see decisi
 - **what:** Fr Alexei Uminsky, a well-known Moscow priest, was defrocked in January 2024 after refusing to recite the patriarch's prayer for the victory of "Holy Rus" [10].
 - **record:** Meduza, 13 January 2024 [10]
 - **outcome:** He was removed from the priesthood, and RFE/RL has documented similar cases since [11].
-- **tactics:** 28, 29, 21
+- **tactics:** 28
 - **grade:** Documented
 :::
 
@@ -1324,7 +1326,7 @@ Most of the institution's work is done below the synod, by people who see decisi
 - **what:** Vatopedi Monastery on Mount Athos exchanged low-value land for high-value state property in a deal reported to have cost the state more than €100 million; it became a political scandal. Fourteen defendants, including the abbot, were tried [19].
 - **record:** *Keep Talking Greece*, 21 March 2017 [19]
 - **outcome:** All fourteen were acquitted on 21 March 2017: the court found no evidence of intent, as they had carried out government decisions [19].
-- **tactics:** 26, 30
+- **tactics:** 30
 - **grade:** Documented
 :::
 
@@ -1340,7 +1342,7 @@ Most of the institution's work is done below the synod, by people who see decisi
 
 ### What would change this page
 
-A synod disciplining a state-aligned patriarch for conduct the state favors would revise the capture finding. The mechanism exists on paper; one use of it changes this page.
+A synod disciplining a state-aligned patriarch for conduct the state favors would revise the capture finding. No published mechanism exists; one synod acting against a state-aligned patriarch would change this page.
 
 ::: cites
 Sources for this section: [17]
@@ -1387,9 +1389,9 @@ Sources for this section: [17]
 
 ::: card
 ### Georgia
-- **apex:** The Catholicos-Patriarch (the title of the head of the Georgian church) leads it.
+- **apex:** The Catholicos-Patriarch (the title of the head of the Georgian church) is Shio III, elected in May 2026 after the death of Ilia II, who had led the church since 1977 [34].
 - **law:** A 2002 agreement governs the state's compensation to the church, and a line in the state budget funds it [25].
-- **documented:** The church receives 25 million lari a year, and extra grants for church events [25].
+- **documented:** The church received 25 million lari a year in 2021, and extra grants for church events [25].
 - **exit:** Leaving is legally free, but socially church and nation are fused.
 - **regulator:** Parliament votes the budget line.
 - **tell:** The state compensates one church for what an earlier state took, from the budget, every year.
@@ -1399,7 +1401,7 @@ Sources for this section: [17]
 
 1. If your church is the unchanged apostolic faith, why did it require the state's permission to exist in the 20th century — and why does it now require the state's money?
 2. A patriarch blessed an invasion. If that is not a matter on which laypeople may object, name something that is.
-3. Why was a priest who opposed a war disciplined faster than any priest who abused a parishioner?
+3. A priest who refused to recite the prayer for victory in a war was banned and, a week later, defrocked. A bishop whose conduct with young clergy was on tape left only after the recordings were published, citing health. What does the difference in speed tell you?
 4. Your elder has authority over your marriage, your medicine, and your money. Who has authority over your elder?
 5. If menstrual exclusion is not in the canons, who decided it, and why can no one you ask tell you their name?
 6. You were taught that criticism is prelest. Ask yourself what a system gains by making your own perception the first thing you must distrust.
@@ -1452,7 +1454,7 @@ Checked 2026-09-27.
 12. Meduza, "Russian Orthodox Patriarch Kirill writes book on 'redemptive meaning of war'" (29 July 2026). https://meduza.io/en/news/2026/07/29/russian-orthodox-patriarch-kirill-writes-book-on-redemptive-meaning-of-war
 
 ### Scholarship and demography
-13. Pew Research Center, *Orthodox Christianity in the 21st Century* (2017) — ~260 million Orthodox. https://www.pewresearch.org/religion/2017/11/08/orthodox-christianity-in-the-21st-century/
+13. Pew Research Center, *Orthodox Christianity in the 21st Century* (2017) — nearly 260 million Orthodox, of whom about 20% are Oriental Orthodox and about 80% Eastern Orthodox (15 jurisdictions). https://www.pewresearch.org/religion/2017/11/08/orthodox-christianity-in-the-21st-century/
 14. Pew Research Center, *Religious Belief and National Belonging in Central and Eastern Europe* (2017) — Russia: 71% Orthodox, 6% attend weekly. https://www.pewresearch.org/religion/2017/05/10/religious-affiliation/
 15. "A Declaration on the 'Russian World' (Russkii mir) Teaching" (13 Mar 2022; Fordham Orthodox Christian Studies Center and Volos Academy; 1,200+ signatories). https://publicorthodoxy.org/2022/03/13/a-declaration-on-the-russian-world-russkii-mir-teaching/
 16. *Encyclopaedia Britannica*, "Eastern Orthodoxy" — chronology (iconoclasm 726–843; 1054; Peter I's Holy Synod 1721; autocephaly). https://www.britannica.com/topic/Eastern-Orthodoxy
@@ -1473,8 +1475,12 @@ Checked 2026-09-27.
 30. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/
 31. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
 32. Reuters (via *The Star*), "Banned Russian priest stands by condemnation of 'brother killing brother' in Ukraine" (24 Sep 2024). https://www.thestar.com.my/news/world/2024/09/24/banned-russian-priest-stands-by-condemnation-of-039brother-killing-brother039-in-ukraine
+33. Ukrainska Pravda, "Bulgaria confirms Russian Patriarch Kirill removed from EU's 21st Russia sanctions package" (13 July 2026); Ukrainska Pravda, Eurointegration, "Which countries blocked EU's 21st sanctions package" (24 July 2026) — Bulgaria demanded Kirill's removal, Italy joined it, and the package was approved on 23 July 2026 without him. https://www.pravda.com.ua/eng/news/2026/07/13/8043863/ · https://www.eurointegration.com.ua/eng/news/2026/07/24/7242214/
+34. Vatican News, "Shio III is new Catholicos-Patriarch of Orthodox Church in Georgia" (May 2026) — elected by the Holy Synod on 11 May 2026 after the death of Ilia II on 17 March 2026. https://www.vaticannews.va/en/church/news/2026-05/georgia-orthodox-church-shio-iii-ilia-ii-catholicos-patriarch.html
+35. Religion News Service / National Catholic Reporter, "Russian clergy who said 'no' to Putin's war pay a price" (18 July 2025) — the 293 clergy who signed the March 2022 open letter; many faced administrative or criminal charges or, in some cases, church punishment. https://religionnews.com/2025/07/18/these-russian-clergy-who-said-no-to-putins-war-in-ukraine-are-paying-a-price/
 
 ## 27. What changed on this page {#changed}
 
+- **2026-10-03:** Corrected the size figure (Eastern Orthodoxy is about 208 million; the 260 million Pew count includes the Oriental churches), the count of sourced techniques and seven technique grades; recorded that the EU dropped Patriarch Kirill from its July 2026 sanctions package and that Georgia has a new Catholicos-Patriarch; corrected how the Soviet persecution and the 2022 open letter are described; removed the sermon-approval claim from the clergy payroll card, the Greek public-opinion claim and an unsupported comparison in the questions; dated the Georgian budget figure; fixed two case tags and a loop summary.
 - **2026-09-27:** Added Branches, Law & state, Money in numbers (Thyateira accounts 2020–2024), five documented cases, Voices from inside, four regional cards, Leaving safely and Where to get help.
 

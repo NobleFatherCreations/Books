@@ -1737,5 +1737,435 @@
   "reason": "The caption credited parish micro-payments with building 'major institutional wealth'; section 9 attributes that wealth to restitution and commercial privileges. Now matches the page.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "EO-D001",
+  "scope": "md",
+  "type": "source",
+  "before": "https://www.thestar.com.my/news/world/2024/09/24/banned-russian-priest-stands-by-condemnation-of-039brother-killing-brother039-in-ukraine",
+  "after": "https://www.thestar.com.my/news/world/2024/09/24/banned-russian-priest-stands-by-condemnation-of-039brother-killing-brother039-in-ukraine\n33. Ukrainska Pravda, \"Bulgaria confirms Russian Patriarch Kirill removed from EU's 21st Russia sanctions package\" (13 July 2026); Ukrainska Pravda, Eurointegration, \"Which countries blocked EU's 21st sanctions package\" (24 July 2026) — Bulgaria demanded Kirill's removal, Italy joined it, and the package was approved on 23 July 2026 without him. https://www.pravda.com.ua/eng/news/2026/07/13/8043863/ · https://www.eurointegration.com.ua/eng/news/2026/07/24/7242214/\n34. Vatican News, \"Shio III is new Catholicos-Patriarch of Orthodox Church in Georgia\" (May 2026) — elected by the Holy Synod on 11 May 2026 after the death of Ilia II on 17 March 2026. https://www.vaticannews.va/en/church/news/2026-05/georgia-orthodox-church-shio-iii-ilia-ii-catholicos-patriarch.html\n35. Religion News Service / National Catholic Reporter, \"Russian clergy who said 'no' to Putin's war pay a price\" (18 July 2025) — the 293 clergy who signed the March 2022 open letter; many faced administrative or criminal charges or, in some cases, church punishment. https://religionnews.com/2025/07/18/these-russian-clergy-who-said-no-to-putins-war-in-ukraine-are-paying-a-price/",
+  "reason": "New sources 33-35 for the Kirill sanctions outcome, the Georgian patriarch and the open letter (P1-3, P2-6, P3-14).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D002",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Size | Eastern Orthodoxy has ~220–260 million adherents. [ACADEMIC SOURCE: Pew] |",
+  "after": "| Size | Eastern Orthodoxy has roughly 208 million adherents; Pew counts nearly 260 million Orthodox Christians when the Oriental churches are included. [ACADEMIC SOURCE: Pew] [13] |",
+  "reason": "Pew's ~260 million includes Oriental Orthodoxy (about 20%); Eastern Orthodoxy is about 80% (P1-2, F2).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D003",
+  "scope": "md",
+  "type": "fact",
+  "before": "The tradition has ~220–260 million adherents across autocephalous",
+  "after": "The tradition has roughly 208 million adherents [13] across autocephalous",
+  "reason": "Same size correction in the section 4 lede (P1-2).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D004",
+  "scope": "md",
+  "type": "fact",
+  "before": "Pew counts about **260 million** Orthodox Christians worldwide (2017) [13].",
+  "after": "Pew counts nearly **260 million** Orthodox Christians worldwide (2017), about four-fifths of them in the Eastern Orthodox churches [13].",
+  "reason": "Closing line now says what Pew's total covers (P1-2).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D005",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Adherents | Eastern Orthodoxy has ~220–260 million adherents. [ACADEMIC SOURCE: Pew] |",
+  "after": "| Adherents | Eastern Orthodoxy has roughly 208 million adherents; Pew counts nearly 260 million Orthodox Christians when the Oriental churches are included [13]. [ACADEMIC SOURCE: Pew] |",
+  "reason": "Same size correction in the section 7 table (P1-2).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D006",
+  "scope": "md",
+  "type": "fact",
+  "before": "with a diaspora in the West. Ethiopia's related Oriental tradition is listed alongside it.",
+  "after": "with a diaspora in the West.",
+  "reason": "Ethiopia belongs to the separate Oriental Orthodoxy volume (P1-2).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D007",
+  "scope": "md",
+  "type": "source",
+  "before": "— ~260 million Orthodox. https://www.pewresearch.org/religion/2017/11/08/orthodox-christianity-in-the-21st-century/",
+  "after": "— nearly 260 million Orthodox, of whom about 20% are Oriental Orthodox and about 80% Eastern Orthodox (15 jurisdictions). https://www.pewresearch.org/religion/2017/11/08/orthodox-christianity-in-the-21st-century/",
+  "reason": "Source note now records Pew's Eastern/Oriental split (P1-2).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D008",
+  "scope": "md",
+  "type": "fact",
+  "before": "has been personally sanctioned by several governments. The EU renewed its attempt to sanction him in 2026.",
+  "after": "has been personally sanctioned by several governments. The EU put him in a draft sanctions package in June 2026, after Hungary dropped its veto [4], and removed him in July at Bulgaria's request, joined by Italy; the package agreed on 23 July did not include him [33]. In July 2026 his publishing house announced a book by him arguing that war has a \"redemptive meaning\" [12].",
+  "reason": "The old line stopped before the outcome; adds the July removal [33] and cites source 12, previously uncited (P1-3, P3-19).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D009",
+  "scope": "md",
+  "type": "fact",
+  "before": "clergy and believers murdered in the millions across the Soviet century.",
+  "after": "clergy and believers imprisoned, exiled and killed across the Soviet century, the repressed numbering in the millions.",
+  "reason": "Matches the section 5 timeline (\"millions repressed\"); no source supports \"murdered in the millions\" (P2-5, F19).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D010",
+  "scope": "md",
+  "type": "fact",
+  "before": "Priests who signed an open letter calling for reconciliation were suspended and in some cases defrocked.",
+  "after": "Some of the 293 clergy who signed an open letter calling for reconciliation were prosecuted or disciplined, and priests who refused the prayer for victory were defrocked [10][35].",
+  "reason": "Sources document charges and church penalties \"in some cases\", and defrockings for the prayer rather than the letter (P2-6, F18).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D011",
+  "scope": "md",
+  "type": "receipt",
+  "before": "Sources for this section: [10] [11] [16] [17]",
+  "after": "Sources for this section: [10] [11] [16] [17] [35]",
+  "reason": "Cites the new source for the 2022 card (P2-6).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D012",
+  "scope": "md",
+  "type": "fact",
+  "before": "**Path.** Religious affairs ministry → Licensed clergy → Sermon content approval\n\n**Disclosed.** Headcount and budget\n\n**Hidden.** Content directives",
+  "after": "**Path.** Public revenue → State budget → Clergy salaries (Greece) or a budget line to the Patriarchate (Georgia)\n\n**Disclosed.** The headcount of paid clergy (Greece) [7] and the budget line (Georgia) [25].\n\n**Hidden.** Not recorded on this page.",
+  "reason": "The sermon-approval path was a template line with no support for any Orthodox country (P2-7).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D013",
+  "scope": "md",
+  "type": "receipt",
+  "before": "Sources for this section: [7] [8] [9]",
+  "after": "Sources for this section: [7] [8] [9] [25]",
+  "reason": "Cites the Georgia source used in the rewritten card (P2-7).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D014",
+  "scope": "md",
+  "type": "fact",
+  "before": "A scandal produces a transfer to a monastery, not a governance change — and the elder system has no procedure to change.",
+  "after": "A scandal ends with one resignation, offered on grounds of health, and no governance change; the elder system has no procedure to change.",
+  "reason": "The volume records no transfer to a monastery; the loop steps use the Kačavenda case (P2-8).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D015",
+  "scope": "md",
+  "type": "fact",
+  "before": "The mechanism exists on paper; one use of it changes this page.",
+  "after": "No published mechanism exists; one synod acting against a state-aligned patriarch would change this page.",
+  "reason": "The scorecard grades Removal N; the old line contradicted it (P2-9).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D016",
+  "scope": "md",
+  "type": "tag",
+  "before": "- **tactics:** 28, 29, 21",
+  "after": "- **tactics:** 28",
+  "reason": "29 Replacement and 21 Learned Helplessness describe lay converts, not a priest's defrocking (P2-10).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D017",
+  "scope": "md",
+  "type": "tag",
+  "before": "- **tactics:** 26, 30",
+  "after": "- **tactics:** 30",
+  "reason": "26 Financial Control is extraction from members; a state land exchange does not fit (P2-10).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D018",
+  "scope": "md",
+  "type": "fact",
+  "before": "3. Why was a priest who opposed a war disciplined faster than any priest who abused a parishioner?",
+  "after": "3. A priest who refused to recite the prayer for victory in a war was banned and, a week later, defrocked. A bishop whose conduct with young clergy was on tape left only after the recordings were published, citing health. What does the difference in speed tell you?",
+  "reason": "The page records no comparison with an abusive priest; it records Uminsky and Kačavenda (P2-11).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D019",
+  "scope": "md",
+  "type": "fact",
+  "before": "Public money underwrites positions much of the public disagrees with.",
+  "after": "Public money pays the clergy's salaries.",
+  "reason": "No poll or source supports the claim about public opinion (P2-13).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D020",
+  "scope": "md",
+  "type": "fact",
+  "before": "Public money underwrites an institution that publicly opposes policies much of that public voted for.",
+  "after": "Public money underwrites the salaries of its clergy.",
+  "reason": "Same unsourced public-opinion clause cut (P2-13).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D021",
+  "scope": "md",
+  "type": "fact",
+  "before": "The Catholicos-Patriarch (the title of the head of the Georgian church) leads it.",
+  "after": "The Catholicos-Patriarch (the title of the head of the Georgian church) is Shio III, elected in May 2026 after the death of Ilia II, who had led the church since 1977 [34].",
+  "reason": "The office changed hands in 2026 (P3-14, F6).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D022",
+  "scope": "md",
+  "type": "fact",
+  "before": "the Patriarchate receives 25 million lari a year from the state budget [25]",
+  "after": "the Patriarchate received 25 million lari a year from the state budget in 2021 [25]",
+  "reason": "Dated figure was in the present tense (P3-15, F7).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D023",
+  "scope": "md",
+  "type": "fact",
+  "before": "The Patriarchate receives 25 million lari (about $8 million) a year from the state budget [25].",
+  "after": "The Patriarchate received 25 million lari (about $8 million at 2021 rates) a year from the state budget in 2021 [25].",
+  "reason": "Same dating (P3-15).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D024",
+  "scope": "md",
+  "type": "fact",
+  "before": "The church receives 25 million lari a year, and extra grants for church events [25].",
+  "after": "The church received 25 million lari a year in 2021, and extra grants for church events [25].",
+  "reason": "Same dating (P3-15).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D025",
+  "scope": "md",
+  "type": "fact",
+  "before": "Georgia gives the Patriarchate 25 million lari a year,",
+  "after": "Georgia gave the Patriarchate 25 million lari in 2021,",
+  "reason": "Same dating in the loop step (P3-15).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D026",
+  "scope": "md",
+  "type": "fact",
+  "before": "Fifteen self-governing churches, each with its own apex",
+  "after": "Fifteen self-governing churches by Pew's count [13], each with its own apex",
+  "reason": "The count is Pew's and depends on whose list is used (P3-17, F26).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D027",
+  "scope": "md",
+  "type": "receipt",
+  "before": "National identity, not institutional submission, is what most adherents are reporting. [ACADEMIC SOURCE]",
+  "after": "National identity, not institutional submission, is what most adherents are reporting [14]. [ACADEMIC SOURCE: Pew]",
+  "reason": "Cites Pew 2017 (71% Orthodox, 6% weekly), the exact source for the row (P3-19).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D028",
+  "scope": "md",
+  "type": "fact",
+  "before": "No synodal structure has ever compelled a state-aligned hierarch",
+  "after": "No case is recorded on this page of a synodal structure compelling a state-aligned hierarch",
+  "reason": "The absolute had no source (P3-20).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D029",
+  "scope": "md",
+  "type": "grade",
+  "before": "| Evidence | Six of the 30 techniques are sourced to a named document. The grades are Cultural 19, Taught 5, Codified 4 and Documented 2. |",
+  "after": "| Evidence | Two of the 30 techniques are sourced to a named document. The grades are Cultural 22, Taught 6 and Documented 2. |",
+  "reason": "Tally after the regrades below and removal of unsupported *(sourced)* markers (P1-4).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D030",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] Teaching converts to distrust outside sources and to bring doubts only to the priest is parish and online practice; no canon directs it.",
+  "after": "**Evidence grade.** [[Cultural]] Teaching converts to distrust outside sources and to bring doubts only to the priest is parish and online practice; no canon directs it.",
+  "reason": "Regraded Codified to Cultural: the entry's own note says no canon directs it (P1-4, P2-12).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D031",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] Sacramental mediation through the priest is canonical; the other intermediaries named here (spiritual fathers, godparents, the parish echoing concern) operate by custom. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] Sacramental mediation through the priest is canonical, but the entry describes the other intermediaries (spiritual fathers, godparents, the parish echoing concern), which operate by custom.",
+  "reason": "Regraded Codified to Cultural: most of the entry is custom; no named document (P1-4).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D032",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Cultural]] Spiritual-father obedience extending to medical, marital, and career decisions is parish practice with no canonical mandate and no appeal structure. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] Spiritual-father obedience extending to medical, marital, and career decisions is parish practice with no canonical mandate and no appeal structure.",
+  "reason": "Removes *(sourced)*: no document is named (P1-4).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D033",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Cultural]] Clerical direction framed as medicine for the soul is pastoral practice with no canonical mandate and no appeal structure (section 11). *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] Clerical direction framed as medicine for the soul is pastoral practice with no canonical mandate and no appeal structure (section 11).",
+  "reason": "Removes *(sourced)*: no document is named (P1-4).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D034",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] The giving described here (stewardship, candles, icons, monastery donations) runs by parish and monastic custom; the money in this tradition that rests on published law is state funding, recorded in sections 8 and 9. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] The giving described here (stewardship, candles, icons, monastery donations) runs by parish and monastic custom; the money in this tradition that rests on published law is state funding, recorded in sections 8 and 9.",
+  "reason": "Regraded Codified to Cultural and removed *(sourced)*: the entry describes custom (P1-4, P2-12).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D035",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] Framing the modern West as disease and departure as danger is taught in pastoral language and repeated in parish and online culture; no canon sets it out.",
+  "after": "**Evidence grade.** [[Taught]] Framing the modern West as disease and departure as danger is taught in pastoral language and repeated in parish and online culture; no canon sets it out.",
+  "reason": "Regraded Codified to Taught: the entry's own note says it is taught, not codified (P1-4, P2-12).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D036",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Parish gossip may recast the person’s concerns as personality defects.",
+  "after": "- Parish gossip may recast the person’s concerns as personality defects.\n- A priest who condemned the war was convicted of heresy by a church court and banned from serving [32].",
+  "reason": "Adds the documented case so the grade below rests on this entry (P1-4).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D037",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Cultural]] Recasting leavers and critics as proud or deluded is parish and online practice with no written rule; the church court's heresy conviction of Fr Ioann Burdin (section 19) is the one formal instance on this page.",
+  "after": "**Evidence grade.** [[Documented]] Recasting leavers and critics as proud or deluded is parish and online practice with no written rule; the church court's heresy conviction of Fr Ioann Burdin (section 19) [32] is a recorded, sourced instance. *(sourced)*",
+  "reason": "Regraded Cultural to Documented: section 19 tags a documented case to this technique (P1-4).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D038",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Spiritual father language turns cold: the patient who refuses treatment is blamed for leaving the hospital.",
+  "after": "- Spiritual father language turns cold: the patient who refuses treatment is blamed for leaving the hospital.\n- Clergy who criticised the church in public have been removed: Fr Alexei Uminsky was defrocked in January 2024 [10] and Sergei Chapnin was dismissed from the patriarchate's journal in December 2015 [22].",
+  "reason": "Adds the clergy cases that the Documented grade rests on (P1-4).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D039",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] Clergy who publicly opposed the war were suspended and defrocked, as recorded in section 19; the discarding of lay converts described here is observed practice. *(sourced)*",
+  "after": "**Evidence grade.** [[Documented]] Clergy who publicly criticised or opposed the war were suspended, defrocked or dismissed, as recorded in section 19 [10][22]; the discarding of lay converts described above is observed practice. *(sourced)*",
+  "reason": "Cites the sources behind the Documented grade and separates the clergy half from the lay half (P1-4).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D040",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] Local harm disowned as 'one priest' or 'local culture' is observed practice; the documented record behind the grade is the patriarch's recorded endorsement of the invasion, and the absence of any church process against him (sections 5 and 19). *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] Local harm disowned as 'one priest' or 'local culture' is observed practice. The patriarch's recorded endorsement of the invasion and the absence of any church process against him (sections 5 and 19) are documented, but they are a different fact from the disowning this entry describes.",
+  "reason": "Regraded Documented to Cultural: the documented basis did not describe the technique (P1-4, P2-12).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D041",
+  "scope": "md",
+  "type": "meta",
+  "before": "checked: 2026-09-27",
+  "after": "checked: 2026-10-03",
+  "reason": "Text rechecked after the discrepancy fixes.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D042",
+  "scope": "md",
+  "type": "meta",
+  "before": "| Last checked | 2026-09-27 |",
+  "after": "| Last checked | 2026-10-03 |",
+  "reason": "Same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "EO-D043",
+  "scope": "md",
+  "type": "changelog",
+  "before": "- **2026-09-27:** Added Branches,",
+  "after": "- **2026-10-03:** Corrected the size figure (Eastern Orthodoxy is about 208 million; the 260 million Pew count includes the Oriental churches), the count of sourced techniques and seven technique grades; recorded that the EU dropped Patriarch Kirill from its July 2026 sanctions package and that Georgia has a new Catholicos-Patriarch; corrected how the Soviet persecution and the 2022 open letter are described; removed the sermon-approval claim from the clergy payroll card, the Greek public-opinion claim and an unsupported comparison in the questions; dated the Georgian budget figure; fixed two case tags and a loop summary.\n- **2026-09-27:** Added Branches,",
+  "reason": "Patch note for this round (CLAUDE.md patch-notes rule).",
+  "count": 1,
+  "status": "proposed"
  }
 ]
