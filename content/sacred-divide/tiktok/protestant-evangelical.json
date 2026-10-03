@@ -1,230 +1,2858 @@
-[
- {
-  "type": "cover",
-  "style": "dark",
-  "title": "Protestant / Evangelical Christianity",
-  "sub": "How the churches are run, paid for and held to account. A record of institutions, money and power, not of anyone's faith.",
-  "hook": "Swipe for the record →",
-  "foot": "noblefathercreations.com/faith"
- },
- {
-  "type": "big",
-  "style": "light",
-  "kicker": "How big",
-  "big": "800M",
-  "head": "Protestants worldwide",
-  "text": "Pew counted 801 million in 2011. Its 584 million Pentecostal and charismatic Christians span every tradition, Catholics included, so they are not a subset of that total.",
-  "note": "Source: Pew Research Center, Global Christianity (2011).",
-  "foot": "Protestant / Evangelical · The Sacred Divide"
- },
- {
-  "type": "chain",
-  "style": "dark",
-  "kicker": "Who is in charge",
-  "head": "In an independent church, there is no bishop.",
-  "rows": [
-   [
-    "The founder, or the founder's family",
-    "holds the top office"
-   ],
-   [
-    "A board he selected",
-    "chooses with him"
-   ],
-   [
-    "The same board",
-    "is the only body that can remove him"
+{
+ "posts": [
+  {
+   "id": "part-1-structure",
+   "title": "Part 1: Who is in charge",
+   "slides": [
+    {
+     "type": "cover",
+     "series": "Part 1 of 7",
+     "title": "Who is in charge",
+     "sub": "Protestant / Evangelical Christianity: size, structure, history and law. A record of institutions, money and power, not of anyone's faith.",
+     "hook": "Swipe for the record →",
+     "style": "dark"
+    },
+    {
+     "type": "text",
+     "kicker": "What this is",
+     "head": "Institutions, not belief",
+     "paras": [
+      "The Sacred Divide examines institutions, offices, money and power in every religion, laid out the same way so any section can be compared.",
+      "It does not judge anyone's faith or the truth of any belief. Every claim is graded for how it is established, and every figure is sourced and dated."
+     ],
+     "style": "light"
+    },
+    {
+     "type": "big",
+     "style": "light",
+     "kicker": "How big",
+     "big": "800M",
+     "head": "Protestants worldwide",
+     "text": "Pew counted 801 million in 2011, and up to 1 billion on wider definitions. Its 584 million Pentecostal and charismatic Christians span every tradition, Catholics included, so they are not a subset of that total."
+    },
+    {
+     "type": "bullets",
+     "kicker": "Who is in charge",
+     "head": "The founder's chair",
+     "items": [
+      "In most independent churches the top office is the founder's chair, held by the founder or the founder's family.",
+      "Megachurch pulpits (very large churches) have passed to spouses and sons in several churches."
+     ],
+     "style": "dark"
+    },
+    {
+     "type": "chain",
+     "kicker": "Chosen by / removable by",
+     "head": "In an independent church, there is no bishop.",
+     "rows": [
+      [
+       "The founder",
+       "plus a board he selected"
+      ],
+      [
+       "The board he appointed",
+       "is the body that can remove him"
+      ],
+      [
+       "The Senate's Grassley inquiry",
+       "documented this arrangement and could not penetrate it"
+      ]
+     ],
+     "style": "dark"
+    },
+    {
+     "type": "text",
+     "kicker": "Money in one line",
+     "head": "Tithes and seed-faith",
+     "paras": [
+      "Tithing, giving a tenth of income, is preached as a covenant obligation.",
+      "The prosperity gospel, the teaching that faith and giving bring health and wealth, turns giving into an investment product, with seed-faith donations promising divine returns."
+     ],
+     "style": "dark"
+    },
+    {
+     "type": "text",
+     "kicker": "Leaving in one line",
+     "head": "The cost of leaving",
+     "paras": [
+      "Leaving can cost the total social world that megachurches deliberately build: groups, childcare, schools and employment."
+     ],
+     "style": "light"
+    },
+    {
+     "type": "quote",
+     "style": "red",
+     "kicker": "The unanswered question",
+     "quote": "If membership is voluntary and the church has nothing to hide, why did departing staff have to sign non-disclosure agreements?"
+    },
+    {
+     "type": "rows",
+     "kicker": "The evidence",
+     "head": "30 techniques, graded",
+     "rows": [
+      [
+       "2 Documented.",
+       "Court judgment, government inquiry, regulatory action or financial filing."
+      ],
+      [
+       "18 Taught.",
+       "Repeated leadership instruction from the platform, publications or curriculum, without a formal rule."
+      ],
+      [
+       "10 Cultural.",
+       "Community enforcement the institution neither mandates nor prevents."
+      ]
+     ],
+     "note": "Two of the 30 are sourced to a named document.",
+     "style": "dark"
+    },
+    {
+     "type": "rows",
+     "style": "light",
+     "kicker": "Disclosure scorecard",
+     "head": "Six yes-or-no questions",
+     "rows": [
+      [
+       "Accounts: Partial.",
+       "True of some parts of the tradition, or in some jurisdictions."
+      ],
+      [
+       "Pay: No.",
+       "Not established from any public source."
+      ],
+      [
+       "Safeguarding: Partial.",
+       ""
+      ],
+      [
+       "External first: Partial.",
+       ""
+      ],
+      [
+       "Removal: Partial.",
+       ""
+      ],
+      [
+       "Reply: Partial.",
+       ""
+      ]
+     ],
+     "note": "Yes means established from a public source. No means not established from any public source."
+    },
+    {
+     "type": "text",
+     "style": "dark",
+     "kicker": "A day inside",
+     "head": "Tyler, a worship leader",
+     "paras": [
+      "Tyler · A Tuesday in August · A megachurch campus in the American Sun Belt",
+      "Staff prayer at 8:15. Twenty-two people in a circle, and Tyler leads it because the campus pastor (the pastor in charge of one site of a multi-site church) asked him to on Sunday, in front of others, in the way that is not really a question.",
+      "He is the worship leader. He is twenty-nine and has been on staff four years, and last month he signed a new employment agreement that his fiancée's brother, who is a lawyer, read and then read again and then said huh. There is a clause about not making disparaging statements. Tyler signed it because the alternative was not signing it, and this is the only job he has ever had that used what he can do."
+     ]
+    },
+    {
+     "type": "text",
+     "style": "dark",
+     "kicker": "A day inside",
+     "head": "Tuesday, continued",
+     "paras": [
+      "Rehearsal. They run the closing song four times because the campus pastor wants the key change to land under the giving talk. Tyler understands the architecture of this completely. He built parts of it. It works because the songs are good and because people are actually meeting God in the room, and both of those things are true at the same time and he has stopped trying to separate them.",
+      "At lunch he sees a text from Kayla, who was on the creative team until March. She left after something with the executive pastor (the senior staff member who runs the church's operations) that nobody explains the same way twice. Her text says hey are you okay. He types yeah!! and then sits looking at the two exclamation marks."
+     ]
+    },
+    {
+     "type": "text",
+     "style": "dark",
+     "kicker": "A day inside",
+     "head": "Tuesday, continued (cont.)",
+     "paras": [
+      "Small group at seven, at his house, eleven people. A guy named Marcus asks, sideways, whether anyone knows what the building fund is actually at. There is a pause of about two seconds that Tyler feels in his neck. He says he'll ask. He knows he will not ask."
+     ]
+    },
+    {
+     "type": "text",
+     "style": "light",
+     "kicker": "The strongest objection",
+     "head": "You are cherry-picking",
+     "paras": [
+      "The objection. You are cherry-picking megachurch scandals and calling it the whole movement.",
+      "What is true in it. Most congregations are small, poor, and locally accountable, and most pastors earn less than the schoolteachers in their pews.",
+      "The answer. The pattern is what makes it more than cherry-picking: the same architecture appears each time — founder, appointed board, no external oversight. And much of the reporting that exposed it came from the evangelical press itself, which is why the claim is not an outside attack. The Southern Baptist record was first documented at scale by the secular Houston Chronicle and San Antonio Express-News in 2019."
+     ]
+    },
+    {
+     "type": "bullets",
+     "style": "dark",
+     "kicker": "What healthy looks like",
+     "head": "Plural elders, open books",
+     "items": [
+      "Plural elders: authority shared among several elders.",
+      "Open books and outside audits.",
+      "Pastors on published salaries.",
+      "A tradition with its own press, which has exposed its own: Christianity Today reported the rise and fall of Mars Hill and the investigation of RZIM's founder.",
+      "Survivor-led movements such as #ChurchToo have pressed for accountability."
+     ]
+    },
+    {
+     "type": "bullets",
+     "style": "dark",
+     "kicker": "Credit where it is due",
+     "head": "Standards already met",
+     "items": [
+      "Southern Baptist messengers voted for an independent investigation of their own Executive Committee. Its report was published in 2022, and the Executive Committee then released its list of accused ministers.",
+      "Ravi Zacharias International Ministries commissioned an outside investigation of its late founder and made the finding public.",
+      "In 2013 Alan Chambers apologized to gay people and shut down Exodus International.",
+      "In 2018 Joshua Harris discontinued his own bestseller, I Kissed Dating Goodbye.",
+      "In England and Wales, churches that are registered charities file public accounts."
+     ]
+    },
+    {
+     "type": "text",
+     "style": "light",
+     "kicker": "History",
+     "head": "From Reformation to megachurch",
+     "paras": [
+      "The 16th-century Reformation broke the Catholic monopoly with the 'priesthood of all believers' (the teaching that every believer can read, interpret and stand before God without a priest as middleman). Evangelical revivalism in the 18th and 19th centuries built a voluntary, entrepreneurial religion. In the 20th century, Pentecostalism and broadcast media created the megachurch and televangelism models."
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "History · timeline",
+     "head": "Timeline",
+     "rows": [
+      [
+       "1517–1555",
+       "Luther's protest; Reformation spreads under princely protection Breaking Rome's monopoly required state sponsors — new establishments replaced the old."
+      ],
+      [
+       "1530s–1600s",
+       "Confessions written; state churches established; radical reformers persecuted 'Priesthood of all believers' coexists with new coercive orthodoxies."
+      ],
+      [
+       "1730s–1800s",
+       "Great Awakenings; revivalism; voluntary societies Religion becomes entrepreneurial: persuasion, emotion, and audience replace inherited parish."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "History · timeline",
+     "head": "Timeline (cont.)",
+     "rows": [
+      [
+       "1800s",
+       "Global missions bound to colonial expansion; Bible and tract societies Mass media religion begins; conversion becomes a measurable output."
+      ],
+      [
+       "1900–1930",
+       "Pentecostal revival (Azusa Street); fundamentalist–modernist controversy Experience and inerrancy become rival authority bases."
+      ],
+      [
+       "1940s–1970s",
+       "Billy Graham crusades; radio and television ministry; parachurch empires Charisma decouples from any denomination that could discipline it."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "History · timeline",
+     "head": "Timeline (cont.)",
+     "rows": [
+      [
+       "1970s–1990s",
+       "Religious Right mobilization; prosperity gospel; church growth movement Congregations become political constituencies and marketing targets."
+      ],
+      [
+       "1980s–2000s",
+       "Televangelist scandals; Senate (Grassley) inquiry 2007–2011 Financial opacity documented at the federal level with no penalties following."
+      ],
+      [
+       "2010s–present",
+       "Megachurch collapses (Mars Hill, Willow Creek, Hillsong, RZIM); #ChurchToo Same architecture each time: founder, hand-picked board, no external accountability."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "History · timeline",
+     "head": "Timeline (cont.)",
+     "rows": [
+      [
+       "2019",
+       "Houston Chronicle and San Antonio Express-News publish \"Abuse of Faith\" About 380 Southern Baptist leaders and volunteers are shown to have been accused of sexual misconduct since 1998, three years before the denomination's own commissioned investigation."
+      ],
+      [
+       "Present",
+       "Global South Pentecostalism is the growth engine; Western deconstruction wave The tradition's future is African, Latin American, and Asian — with the same structural risks."
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "kicker": "Moments in the room",
+     "head": "1979 — A voter registration list becomes a movement",
+     "paras": [
+      "The Moral Majority (a conservative political organization) organized congregations into a voting bloc, delivering political power to pastors who answered to no bishop and, in the independent churches, to no elected board they had not themselves appointed.",
+      "Political influence arrived at exactly the point in the structure with the least accountability. That combination — maximum reach, minimum review — is the defining feature of this page."
+     ],
+     "style": "dark"
+    },
+    {
+     "type": "text",
+     "kicker": "Moments in the room",
+     "head": "2007–2011 — The Senate asks, and cannot compel",
+     "paras": [
+      "Senator Grassley's Finance Committee sought basic financial information from six media ministries. Several declined to provide it fully. The review closed in 2011 with no penalties and a suggestion that the sector self-regulate.",
+      "It was the most authoritative body that has ever asked, and it asked politely and went away. This is what the church exemption looks like in operation rather than in theory."
+     ],
+     "style": "dark"
+    },
+    {
+     "type": "text",
+     "kicker": "Moments in the room",
+     "head": "May 2022 — The list existed the whole time",
+     "paras": [
+      "Guidepost Solutions, the firm hired to investigate, reported that Southern Baptist executive staff had maintained a private list of accused ministers for years while publicly asserting that the convention's polity (its system of church government) made such a list impossible.",
+      "The impossibility was a claim, not a fact, and the claim was falsified by the institution's own filing cabinet. Nothing structural prevented it; a decision did."
+     ],
+     "style": "dark"
+    },
+    {
+     "type": "rows",
+     "style": "light",
+     "kicker": "Branches & variants",
+     "head": "Where authority sits",
+     "rows": [
+      [
+       "Mainline",
+       "Examples are the Lutheran, Methodist, Presbyterian and Reformed churches. Authority: Authority sits with bishops or elected assemblies, usually under a published constitution with a church court."
+      ],
+      [
+       "Baptist",
+       "The Southern Baptist Convention had 12.3 million members in 2025, down from 16.3 million in 2006. Authority: Each congregation is autonomous; an annual meeting of messengers (voting delegates sent by member churches) votes on the convention's business."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "light",
+     "kicker": "Branches & variants",
+     "head": "Where authority sits (cont.)",
+     "rows": [
+      [
+       "Pentecostal & Charismatic",
+       "Examples are the Assemblies of God, Hillsong and independent networks. Pentecostal and charismatic Christians numbered about 584 million worldwide in 2011. Authority: Authority often sits with a founder and a board the founder chose (see the Pentecostal & Charismatic volume)."
+      ],
+      [
+       "Non-denominational and independent",
+       "Examples are megachurches and church-planting networks (networks that found new congregations). Authority: Authority sits with the founding pastor and the elders the pastor appointed, and no one sits above them."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "light",
+     "kicker": "Branches & variants",
+     "head": "Where authority sits (cont.)",
+     "rows": [
+      [
+       "Parachurch ministries (Christian organizations that work outside any church's structure)",
+       "Examples are apologetics (defense of the faith by argument), broadcast, publishing and relief organizations. Authority: Authority sits with a board, often of the founder's choosing."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Structure",
+     "head": "Size and shape",
+     "rows": [
+      [
+       "Regions",
+       "Its main regions are the United States, Brazil, Nigeria, China, South Korea, Kenya, Guatemala, the Philippines, the UK, Germany and Scandinavia."
+      ],
+      [
+       "Trend",
+       "Mainline decline in the West is steep, while non-denominational and Pentecostal growth is strong globally. In the United States, the growth of the religiously unaffiliated (the 'nones') draws heavily on this population."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Structure",
+     "head": "Size and shape (cont.)",
+     "rows": [
+      [
+       "Participation",
+       "Because membership is voluntary and self-reported, counts swing wildly; megachurch attendance figures are self-published and rarely audited. Deconstruction (re-examining, and often leaving, the beliefs one was raised in) and quiet disaffiliation are widely documented but hard to quantify."
+      ]
+     ]
+    },
+    {
+     "type": "bullets",
+     "style": "light",
+     "kicker": "Structure",
+     "head": "Authority",
+     "items": [
+      "Formal hierarchy is low, and charismatic authority is highly concentrated. The founder-pastor with 'vision,' an appointed board, and no bishop above him is the modern high-risk configuration.",
+      "Celebrity pastors franchise authority through networks, conferences, and 'spiritual covering' relationships (in which a senior leader is said to give a pastor protection and oversight)."
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Structure · the top of the chain",
+     "head": "Who sits in each office",
+     "rows": [
+      [
+       "The founder's chair",
+       "Who: The founder or the founder's family holds it. Megachurch pulpits have passed to spouses and sons in several churches. Chosen by: The founder chooses, with a board he selected. Removable by: The board he appointed can remove him, the arrangement the U.S. Senate's Grassley inquiry documented and could not penetrate."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Structure · the top of the chain",
+     "head": "Who sits in each office (cont.)",
+     "rows": [
+      [
+       "The largest denomination's presidency (Southern Baptist Convention)",
+       "Who: An annually elected president holds it, and the office genuinely rotates. The Guidepost report of 2022 showed what the permanent executive staff did with abuse reports between the elections. Chosen by: Messengers elect the president by vote each June. Removable by: The next vote can remove the president, which is real accountability and rare in this codex."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Structure · the top of the chain",
+     "head": "Who sits in each office (cont.)",
+     "rows": [
+      [
+       "The broadcast and worship-licensing empires",
+       "Who: Family boards hold them; the Senate inquiry documented private aircraft and family-controlled boards at several of the prosperity ministries. Chosen by: The boards choose themselves. Removable by: Only the boards themselves can remove their members."
+      ]
+     ]
+    },
+    {
+     "type": "quote",
+     "style": "red",
+     "kicker": "The tell",
+     "quote": "Ask a member of an independent evangelical church who their bishop is and the answer is nobody — which is marketed as freedom. It also means the only appeal from the pastor is to the men who owe him their seats."
+    },
+    {
+     "type": "rows",
+     "style": "light",
+     "kicker": "Structure · who holds what",
+     "head": "Who holds what",
+     "rows": [
+      [
+       "The six ministries examined by the Senate Finance Committee",
+       "They hold aircraft, high-value parsonages, and boards controlled by founders' families. Why it matters to you: This is what a working-class donor's seed offering purchased."
+      ],
+      [
+       "Megachurch music labels",
+       "They hold catalogs that generate royalties from congregations worldwide. Why it matters to you: It covers every song your church sings on a Sunday."
+      ],
+      [
+       "Christian broadcast networks",
+       "They hold national platforms that convert audience fear into giving. Why it matters to you: It is what your parents watch, and what it asks them for."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "light",
+     "kicker": "Structure · who holds what",
+     "head": "Who holds what (cont.)",
+     "rows": [
+      [
+       "Apostolic and church-planting networks",
+       "They hold 'covering' relationships that confer deference without oversight. Why it matters to you: It decides who your pastor answers to, which is often nobody."
+      ],
+      [
+       "The SBC Executive Committee's private list of accused ministers",
+       "Names were maintained internally while a public registry was publicly opposed. Why it matters to you: It shows whether the man teaching your children was already known."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "light",
+     "kicker": "Structure · who holds what",
+     "head": "Who holds what (cont.)",
+     "rows": [
+      [
+       "Christian legal advocacy organizations",
+       "They run legislative and courtroom campaigns domestically and abroad. Why it matters to you: They shape laws affecting people who never attended your church."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Law & state",
+     "head": "What the law does",
+     "rows": [
+      [
+       "United States",
+       "Churches are exempt without applying and file no annual return. In July 2025 the IRS agreed in a court filing that a church could endorse candidates to its own congregation; on 31 March 2026 a federal judge dismissed the case, holding that the court could not approve the deal. The question: The one rule churches face on politics was nearly given up in a settlement, not by Congress"
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Law & state",
+     "head": "What the law does (cont.)",
+     "rows": [
+      [
+       "Australia",
+       "\"Basic religious charities\" are exempt from financial reporting; a Royal Commission examined churches along with other institutions (2013–2017). The question: Brian Houston was acquitted in 2023 of concealing his father's child sex offences"
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Law & state",
+     "head": "What the law does (cont.)",
+     "rows": [
+      [
+       "England & Wales",
+       "Registered church charities file public accounts; smaller churches in several denominations (income of £100,000 or less) are excepted from registering until 31 March 2031. Serious incidents must be reported, and the Charity Commission can open statutory inquiries. The question: It is the closest thing to a regulator in this table that a member can use for free."
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "style": "light",
+     "kicker": "Law & state",
+     "head": "Who can compel an answer",
+     "paras": [
+      "State attorneys general and the IRS can compel an answer on financial matters, and civil courts on everything else. For Southern Baptist entities, the messengers' annual vote can as well; it is the rare internal body in this codex with demonstrated teeth."
+     ]
+    }
    ]
-  ],
-  "foot": "Protestant / Evangelical · The Sacred Divide"
- },
- {
-  "type": "quote",
-  "style": "red",
-  "kicker": "The unanswered question",
-  "quote": "If membership is voluntary and the church has nothing to hide, why did departing staff have to sign non-disclosure agreements?",
-  "note": "Slide 5 shows where they did.",
-  "foot": "Protestant / Evangelical · The Sacred Divide"
- },
- {
-  "type": "rows",
-  "style": "light",
-  "kicker": "The record",
-  "head": "Non-disclosure agreements, documented at:",
-  "rows": [
-   [
-    "Mars Hill",
-    ""
-   ],
-   [
-    "Harvest Bible Chapel",
-    ""
-   ],
-   [
-    "Hillsong",
-    ""
-   ],
-   [
-    "Willow Creek",
-    ""
-   ],
-   [
-    "Acts 29",
-    ""
-   ],
-   [
-    "Ravi Zacharias International Ministries",
-    ""
+  },
+  {
+   "id": "part-2-money-origins-reach",
+   "title": "Part 2: Money, origins and reach",
+   "slides": [
+    {
+     "type": "cover",
+     "series": "Part 2 of 7",
+     "title": "Money, origins and reach",
+     "sub": "Where the money comes from, where each practice began, and what the institution reaches into.",
+     "hook": "Swipe →",
+     "style": "dark"
+    },
+    {
+     "type": "bullets",
+     "style": "dark",
+     "kicker": "Money",
+     "head": "Where it comes from",
+     "items": [
+      "Tithing is preached as a covenant obligation, and the prosperity gospel turns giving into an investment product, with seed-faith donations promising divine returns.",
+      "The 2007–2011 U.S. Senate (Grassley) inquiry into six television ministries documented private jets, parsonage mansions, and family-controlled boards; most ministries declined full disclosure and the inquiry ended without penalties — itself a demonstration of the sector's opacity.",
+      "Worship music is an industry: megachurch labels (Hillsong, Bethel, Elevation) earn licensing royalties every time congregations worldwide sing their catalog."
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "light",
+     "kicker": "Money · follow the money",
+     "head": "Five flows",
+     "rows": [
+      [
+       "Tithing taught as covenant obligation",
+       "The stated purpose is to fund the mission. Blessing/curse framing (Malachi 3) makes giving a test of faith, and refusal reads as robbing God. The church budget and senior staff compensation benefit."
+      ],
+      [
+       "Seed-faith and prosperity giving",
+       "Givers are told to sow in order to receive God's return. It is sold as an investment product with no return and no accountability, and it is targeted at the poor. Individual preachers and their broadcast operations benefit."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "light",
+     "kicker": "Money · follow the money",
+     "head": "Five flows (cont.)",
+     "rows": [
+      [
+       "Building and vision campaigns",
+       "The stated purpose is growth and facilities. Debt and pledges bind members, and a failed 'vision' is never audited. The institution, the founder's legacy and vendors benefit."
+      ],
+      [
+       "Media, books, conferences, worship licensing",
+       "The stated purpose is resources and teaching. The congregation is the guaranteed first market, and bulk-buying to manufacture bestsellers has been documented. Founders personally, publishers and labels benefit."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "light",
+     "kicker": "Money · follow the money",
+     "head": "Five flows (cont.)",
+     "rows": [
+      [
+       "Unpaid volunteer workforce",
+       "The stated purpose is serving the body (the church community). Volunteers give full-time-equivalent labor with no wage, benefits, or equity while leaders are salaried. The institution and its salaried staff benefit."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "kicker": "Money · pipelines this tradition shares",
+     "head": "Tithe to reserve fund",
+     "rows": [
+      [
+       "Source.",
+       "The money comes from members' income, and giving it is taught as an obligation."
+      ],
+      [
+       "Path.",
+       "Congregation → Denominational assessment or central treasury → Investment arm → Commercial subsidiaries and reserves"
+      ],
+      [
+       "Disclosed.",
+       "Only aggregate 'we use funds wisely' statements are disclosed."
+      ],
+      [
+       "Hidden.",
+       "Portfolio size, compensation and holdings stay hidden."
+      ]
+     ],
+     "style": "dark"
+    },
+    {
+     "type": "rows",
+     "kicker": "Money · pipelines this tradition shares",
+     "head": "Worship licensing",
+     "rows": [
+      [
+       "Source.",
+       "The money comes from congregations singing copyrighted material."
+      ],
+      [
+       "Path.",
+       "Licensing clearinghouse → Label owned by the originating church → Founder's estate and publishing"
+      ],
+      [
+       "Disclosed.",
+       "Nothing is disclosed to the congregations paying."
+      ],
+      [
+       "Hidden.",
+       "Royalty flows to individuals stay hidden."
+      ]
+     ],
+     "style": "dark"
+    },
+    {
+     "type": "rows",
+     "kicker": "Money · pipelines this tradition shares",
+     "head": "Aid to policy leverage",
+     "rows": [
+      [
+       "Source.",
+       "The money comes from donor congregations and public grants."
+      ],
+      [
+       "Path.",
+       "Faith-based development organization → Recipient government or community → Legislative and protocol influence"
+      ],
+      [
+       "Disclosed.",
+       "Program outcomes are disclosed."
+      ],
+      [
+       "Hidden.",
+       "Conditions and advocacy spending stay hidden."
+      ]
+     ],
+     "style": "dark"
+    },
+    {
+     "type": "rows",
+     "kicker": "Money · pipelines this tradition shares",
+     "head": "Publishing and media arm",
+     "rows": [
+      [
+       "Source.",
+       "The money comes from members buying required or recommended material."
+      ],
+      [
+       "Path.",
+       "Institutional publisher → Author-leaders and their estates → Broadcast and conference circuit"
+      ],
+      [
+       "Disclosed.",
+       "Retail prices are disclosed."
+      ],
+      [
+       "Hidden.",
+       "Royalties to serving leaders and bulk-purchase practices stay hidden."
+      ]
+     ],
+     "style": "dark"
+    },
+    {
+     "type": "rows",
+     "kicker": "Money · pipelines this tradition shares",
+     "head": "Legal defense and settlement",
+     "rows": [
+      [
+       "Source.",
+       "The money comes from general funds, which means member giving."
+      ],
+      [
+       "Path.",
+       "Institutional counsel → Settlements and non-disclosure agreements → Reputational continuity"
+      ],
+      [
+       "Disclosed.",
+       "Settlement totals are occasionally disclosed under court order."
+      ],
+      [
+       "Hidden.",
+       "That donations funded the defense stays hidden."
+      ]
+     ],
+     "style": "dark"
+    },
+    {
+     "type": "rows",
+     "kicker": "Money · pipelines this tradition shares",
+     "head": "Political mobilization",
+     "rows": [
+      [
+       "Source.",
+       "The resource is congregational trust and mailing lists."
+      ],
+      [
+       "Path.",
+       "Advocacy or voter-guide operation → Party and donor infrastructure → Legislative outcomes"
+      ],
+      [
+       "Disclosed.",
+       "Issue positions are disclosed."
+      ],
+      [
+       "Hidden.",
+       "Data sharing and coordination stay hidden."
+      ]
+     ],
+     "style": "dark"
+    },
+    {
+     "type": "bars",
+     "kicker": "Money in numbers",
+     "head": "Southern Baptist members",
+     "bars": [
+      [
+       "2006",
+       16.3,
+       "16.3M"
+      ],
+      [
+       "2023",
+       12.98,
+       "12.98M"
+      ],
+      [
+       "2024",
+       12.7,
+       "12.7M"
+      ],
+      [
+       "2025",
+       12.33,
+       "12.33M"
+      ]
+     ],
+     "text": "2025 was the 19th year of decline in a row, from the denomination's own Annual Church Profile.",
+     "style": "dark"
+    },
+    {
+     "type": "bullets",
+     "style": "light",
+     "kicker": "Money in numbers",
+     "head": "Giving, missions and abroad",
+     "items": [
+      "Giving to Southern Baptist churches, 2025: Participating state conventions reported $9.64 billion in undesignated receipts (general giving not earmarked for a particular fund), though not every state convention collects giving data.",
+      "Missions: Southern Baptist members and churches spent nearly $800 million on missions in 2023.",
+      "Television ministries: The Senate inquiry into six ministries (2007–2011) closed without penalties, and most of the six did not fully disclose.",
+      "Worship music: Congregations pay license fees through CCLI (Christian Copyright Licensing International), which passes royalties to songwriters and publishers.",
+      "Money abroad: Between 2007 and 2018, 28 US Christian-right groups spent at least $280 million outside the US."
+     ]
+    },
+    {
+     "type": "rows",
+     "kicker": "Genealogy · where it came from",
+     "head": "Prosperity and seed-faith giving",
+     "rows": [
+      [
+       "Origin.",
+       "20th-century American revivalism fused New Thought abundance ideas with healing ministry and, from the 1950s, television."
+      ],
+      [
+       "What it was for.",
+       "No part of it is older than about a century. This is not an ancient practice with a lapsed rationale — it was engineered as a fundraising mechanism from the start, using Malachi 3's blessing-and-curse framing on a mass audience."
+      ],
+      [
+       "Why that reason expired.",
+       "It was never valid. An investment product that promises returns, keeps no accounts, and blames the buyer's faith when the return does not arrive would be prosecuted as fraud in any other sector."
+      ],
+      [
+       "Who benefits now.",
+       "Named individuals with jets benefit, and so do the broadcast operations around them. The 2007–2011 Senate inquiry examined six ministries, documented the assets and family-controlled boards, and ended without penalties."
+      ]
+     ],
+     "style": "dark"
+    },
+    {
+     "type": "rows",
+     "kicker": "Genealogy · where it came from",
+     "head": "Purity culture",
+     "rows": [
+      [
+       "Origin.",
+       "Purity culture was assembled in the 1990s from abstinence curricula, pledge campaigns, and courtship literature, which makes it roughly thirty years old."
+      ],
+      [
+       "What it was for.",
+       "It was presented as a response to STIs (sexually transmitted infections) and teen pregnancy. Its actual function was to make adolescent sexuality a matter of community surveillance and female responsibility."
+      ],
+      [
+       "Why that reason expired.",
+       "Outcome data did not support the abstinence-pledge model, and the movement's own leaders — including the author of its best-known book — have publicly repudiated it. The framework outlived its own architects' belief in it."
+      ],
+      [
+       "Who benefits now.",
+       "The curriculum industry that sold it benefits, and so does the authority structure it created, a system in which adults question children about their sexual thoughts and call it accountability."
+      ]
+     ],
+     "style": "dark"
+    },
+    {
+     "type": "rows",
+     "kicker": "Genealogy · where it came from",
+     "head": "Spiritual covering and authority language",
+     "rows": [
+      [
+       "Origin.",
+       "It comes from the 1970s shepherding movement (in which each believer submitted to a personal 'shepherd') and later apostolic network models (networks of churches under a leader styled an apostle), so it is decades old, not millennia."
+      ],
+      [
+       "What it was for.",
+       "It was sold as protection from deception for a movement with no hierarchy. In practice it manufactured hierarchy while denying it had one."
+      ],
+      [
+       "Why that reason expired.",
+       "The shepherding movement collapsed publicly amid documented abuse of authority, and its own founders apologized. The vocabulary survived the movement that discredited it."
+      ],
+      [
+       "Who benefits now.",
+       "Founder-pastors benefit, gaining the deference of a bishop with none of the oversight of one. 'Covering' means you may be corrected and may not correct."
+      ]
+     ],
+     "style": "dark"
+    },
+    {
+     "type": "rows",
+     "kicker": "Genealogy · where it came from",
+     "head": "The unaccountable founder-pastor structure",
+     "rows": [
+      [
+       "Origin.",
+       "Reformation congregationalism, radicalized by American voluntarism and 20th-century church-growth strategy."
+      ],
+      [
+       "What it was for.",
+       "Congregational independence was a genuine protest against distant hierarchies imposing clergy on unwilling communities. It was a check on power."
+      ],
+      [
+       "Why that reason expired.",
+       "The reason was inverted completely. A church with a founder, a board he appointed, and no denomination above him has removed every check — the protest against unaccountable authority became the most unaccountable structure in modern Christianity. The collapses repeat with identical architecture: Mars Hill, Willow Creek, Hillsong, RZIM."
+      ],
+      [
+       "Who benefits now.",
+       "The founder benefits personally, through compensation, book royalties from a captive market, real estate, and a platform that outlives any single scandal."
+      ]
+     ],
+     "style": "dark"
+    },
+    {
+     "type": "bullets",
+     "style": "dark",
+     "kicker": "Reach",
+     "head": "Information",
+     "items": [
+      "'Don't read the critics, read your Bible' functions as source restriction while sounding like piety; discernment blogs (sites that police teachers for doctrinal error) and approved-teacher lists channel information.",
+      "Non-disclosure agreements and severance conditions have been documented at multiple large churches and ministries, converting internal criticism into a legal risk.",
+      "'Touch not the Lord's anointed' (a scriptural phrase used to shield leaders from criticism) and 'spirit of Jezebel/Absalom' labels (names of biblical rebels applied to a critic) convert accountability attempts into spiritual offenses."
+     ]
+    },
+    {
+     "type": "bullets",
+     "style": "light",
+     "kicker": "Reach",
+     "head": "Children",
+     "items": [
+      "Child dedication (a ceremony presenting an infant to God and the congregation), children's church, and altar calls (invitations to come forward at the end of a service and make a commitment) aimed at young children secure decisions before the capacity for informed consent.",
+      "Purity pledges, abstinence curricula, and courtship rules place adolescent sexuality under adult community surveillance.",
+      "Youth camps and mission trips produce peak emotional experiences deliberately timed to conversion decisions; homeschool networks in some circles restrict outside information entirely.",
+      "Hell teaching for children, and in some circles corporal-punishment teaching sold as biblical parenting, have documented harms."
+     ]
+    },
+    {
+     "type": "bullets",
+     "style": "dark",
+     "kicker": "Reach",
+     "head": "Bodies",
+     "items": [
+      "Complementarian statements (teaching that men and women have distinct roles, with church and family leadership reserved to men) bar women from preaching and eldership across large denominations and networks; where headship (a husband's authority over his wife) is taught, marital refusal has no doctrinal standing.",
+      "Purity culture's asymmetry is well documented: female modesty is framed as responsibility for male behavior.",
+      "Abuse is handled through pastor-counseled reconciliation instead of reporting, and independent investigations (e.g., the SBC's 2022 Guidepost report) found survivor allegations tracked and resisted rather than addressed."
+     ]
+    },
+    {
+     "type": "bullets",
+     "style": "dark",
+     "kicker": "Reach",
+     "head": "Bodies (cont.)",
+     "items": [
+      "LGBTQ exclusion from membership and leadership is standard in conservative bodies; ex-gay ministries (programs that claimed to change sexual orientation) operated for decades before high-profile closures and apologies."
+     ]
+    }
    ]
-  ],
-  "note": "Source: Religion News Service, 8 Sept 2022, which also lists Hillsong College and Ramsey Solutions.",
-  "foot": "Protestant / Evangelical · The Sacred Divide",
-  "compact": true
- },
- {
-  "type": "bars",
-  "style": "dark",
-  "kicker": "Southern Baptist Convention",
-  "head": "Members, 2006 to 2025",
-  "bars": [
-   [
-    "2006",
-    16.3,
-    "16.3M"
-   ],
-   [
-    "2023",
-    12.98,
-    "12.98M"
-   ],
-   [
-    "2024",
-    12.7,
-    "12.7M"
-   ],
-   [
-    "2025",
-    12.33,
-    "12.33M"
+  },
+  {
+   "id": "part-3-techniques-stages-1-4",
+   "title": "Part 3: Techniques, stages 1 to 4",
+   "slides": [
+    {
+     "type": "cover",
+     "series": "Part 3 of 7",
+     "title": "The 30 techniques, stages 1 to 4",
+     "sub": "Thirty named techniques from domestic-abuse and social-psychology research, applied to institutions, in the eight stages of the cycle. Each is graded for this tradition.",
+     "hook": "Swipe →",
+     "style": "dark"
+    },
+    {
+     "type": "text",
+     "kicker": "The 30 techniques",
+     "head": "How to read them",
+     "paras": [
+      "Thirty named techniques from domestic-abuse and social-psychology research, applied to institutions, in the eight stages of the cycle. Each carries an evidence grade for this tradition.",
+      "Each technique shows how it appears here, gives the institution's strongest defense, then the counter, then an evidence grade: Documented, Taught or Cultural."
+     ],
+     "style": "light"
+    },
+    {
+     "type": "text",
+     "style": "red",
+     "kicker": "Stage 1 of 8",
+     "head": "Idealize",
+     "paras": [
+      "You arrive with a need and are met with more warmth than you have had in years.",
+      "There are parking volunteers, coffee, lights, a band, and within a week a stranger crying with you at the altar. You are assigned a small group, then a serving team, then a membership class. The intimacy is manufactured fast and on purpose.",
+      "What it asks of you: Within a month you had confessed things to people whose last names you didn't know. Ask what that access was for."
+     ]
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 1 · Idealize · technique 1 of 30",
+     "num": "1",
+     "name": "Love Bombing",
+     "defn": "Overwhelming affection on arrival to create emotional dependency before terms are revealed.",
+     "items": [
+      "The newcomer is greeted by parking volunteers, coffee teams, worship music, emotional sermons, altar calls, small group invitations, and instant \"family\" language.",
+      "Evangelical spaces often specialize in rapid intimacy: strangers ask about your trauma, your marriage, your sins, your \"walk with God,\" and your prayer requests within days.",
+      "The system creates an emotional high through worship, lights, music, collective singing, and public vulnerability — then interprets that high as the Holy Spirit confirming the church's message."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 1 · Idealize",
+     "num": "1",
+     "name": "Love Bombing",
+     "defense": "People are just excited to see someone come to Jesus.",
+     "counter": "Excitement is not the issue. The issue is emotional acceleration before informed consent. If a person is pushed to confess, convert, join, serve, tithe, or submit while flooded with music, tears, applause, and belonging, that is not just welcome. That is pressure disguised as revival.",
+     "grade": "Cultural",
+     "why": "Assimilation pipelines are church-growth practice, copied between congregations and mandated by nobody."
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 1 · Idealize · technique 2 of 30",
+     "num": "2",
+     "name": "Weaponized Generosity",
+     "defn": "Giving help that installs unspoken obligation.",
+     "items": [
+      "Evangelical churches often offer free childcare, youth groups, counseling, coffee, meals, recovery programs, men's groups, women's groups, worship nights, and emotional crisis support.",
+      "The newcomer receives not just help but instant assignment: join a small group, serve on a team, attend membership class, give testimony, tithe, volunteer, invite others.",
+      "A church may help someone through addiction, divorce, unemployment, or grief, then later treat disagreement as betrayal: \"We walked with you through your darkest season.\"",
+      "Volunteer-heavy churches often turn gratitude into labor. The person who was helped becomes the person expected to help set up chairs, lead youth, sing on the worship team, host small group, or give money."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 1 · Idealize",
+     "num": "2",
+     "name": "Weaponized Generosity",
+     "defense": "Healthy churches build community. People serve because they want to give back.",
+     "counter": "Giving back is beautiful when it is voluntary. It becomes extraction when gratitude is converted into obligation. If a person cannot say no without being called selfish, lukewarm, rebellious, or spiritually immature, then the church did not create community. It created a debt economy with worship music.",
+     "grade": "Cultural",
+     "why": "Free help (childcare, counseling, recovery programs) and the later expectation to serve are congregational practice; no denomination sets a rule for either."
+    },
+    {
+     "type": "text",
+     "style": "red",
+     "kicker": "Stage 2 of 8",
+     "head": "Hook",
+     "paras": [
+      "You are given a future that cannot be verified, and a rope for whenever you drift toward the door.",
+      "Revival, breakthrough, your best life, God's promises over your household and prophetic words about your calling are never measured and always deferred. And when you drift: a text from the pastor, we miss you, God isn't finished with you.",
+      "What it asks of you: Count the prophecies spoken over you that had a date. Now count the ones that came true. Then ask why the second number is never discussed."
+     ]
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 2 · Hook · technique 3 of 30",
+     "num": "3",
+     "name": "Future Faking",
+     "defn": "Promising a future that keeps you invested but never has to arrive.",
+     "items": [
+      "Evangelicalism often sells a personalized future: God has a plan for your life, a spouse prepared for you, a ministry calling, a breakthrough, a season of favor, a restored family, a revival, a destiny.",
+      "Altar calls and conferences create immediate emotional certainty about future transformation: your addiction will break, your depression will lift, your marriage will heal, your children will come back, your purpose will be revealed.",
+      "Prosperity-adjacent versions promise harvest after seed: give money now, expect blessing later. If the blessing fails to appear, the believer is told to examine faith, obedience, hidden sin, or timing.",
+      "Purity culture future-fakes marriage: stay sexually pure now and God will reward you with a beautiful covenant marriage later. When the marriage is painful, sex is traumatic, or no spouse appears, the system rarely refunds the lost years.",
+      "Revival culture future-fakes national transformation: one more prayer meeting, one more fast, one more election, one more youth movement, one more prophetic word, and the nation will turn back to God."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 2 · Hook",
+     "num": "3",
+     "name": "Future Faking",
+     "defense": "Christians believe God really does have plans, callings, and promises. Encouraging faith is not deception.",
+     "counter": "Encouragement becomes manipulation when leaders make emotionally specific promises they cannot verify. \"God has someone for you,\" \"your breakthrough is coming,\" \"this seed will release blessing,\" and \"revival is about to happen\" keep people invested in systems that fail repeatedly. When failure is always blamed on the believer and never on the promise-maker, the future is fake by design.",
+     "grade": "Taught",
+     "why": "Prosperity and seed-faith promises are taught from platform and broadcast."
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 2 · Hook · technique 4 of 30",
+     "num": "4",
+     "name": "Hoovering",
+     "defn": "Pulling someone back after they've started to leave, through guilt, love, or fear.",
+     "items": [
+      "The hoover often begins softly: \"We just miss your face,\" \"You're still family,\" \"No pressure, but we saved you a seat.\"",
+      "Then it turns theological: \"Don't let church hurt separate you from God,\" \"The enemy wants you isolated,\" \"You're in a dangerous season.\"",
+      "Former volunteers are often pulled through usefulness: \"The youth miss you,\" \"The worship team isn't the same,\" \"You have a calling,\" \"God gave you gifts for the body.\"",
+      "Evangelical leaders may turn your exit into a testimony-in-waiting: \"This is a wilderness season. God will bring you back stronger.\"",
+      "If you left over leadership abuse, they may say, \"No church is perfect,\" converting accountability into a maturity test."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 2 · Hook",
+     "num": "4",
+     "name": "Hoovering",
+     "defense": "Evangelicals genuinely believe community is essential and isolation is spiritually harmful.",
+     "counter": "Community is not the same as captivity. If the solution to harm caused by the church is always \"come back to church,\" then the institution is prescribing the injury as the cure.",
+     "grade": "Taught",
+     "why": "The warnings used to call a leaver back (the enemy wants you isolated, a wilderness season, gifts owed to the body) are taught from the pulpit; the follow-up contact itself is congregational practice."
+    },
+    {
+     "type": "text",
+     "style": "red",
+     "kicker": "Stage 3 of 8",
+     "head": "Devalue",
+     "paras": [
+      "You are taught that you are broken, that your perception is unreliable, and that both exits from the trap lead back inside.",
+      "Tithe, then tithe cheerfully. Serve, then serve without recognition. You are lukewarm, unsubmitted, not all in. The vision is always bigger and your contribution is always the gap.",
+      "What it asks of you: You have never been told you are doing enough. There is a reason the standard is a moving target."
+     ]
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 3 · Devalue · technique 5 of 30",
+     "num": "5",
+     "name": "Devaluation",
+     "defn": "Reducing your sense of worth so you become dependent on the institution for identity.",
+     "items": [
+      "Evangelicalism often devalues through the language of being lost, broken, dead in sin, rebellious, backslidden, lukewarm, worldly, impure, or outside God's will.",
+      "Testimony culture rewards self-denigration: \"I was nothing,\" \"I was filthy,\" \"I was lost,\" \"I destroyed everything,\" \"Only Jesus made me worth anything.\"",
+      "Purity culture teaches especially women and girls that their bodies can make men stumble, that sexual history damages value, and that modesty is proof of spiritual seriousness.",
+      "Calvinist forms intensify this with total depravity: the teaching that \"you cannot even choose good without God choosing you first\" can function as devaluation.",
+      "Worship lyrics and sermons often rehearse unworthiness until the believer feels guilty for having self-respect outside grace."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 3 · Devalue",
+     "num": "5",
+     "name": "Devaluation",
+     "defense": "Evangelicals are emphasizing grace. The point is that God loves people despite sin.",
+     "counter": "Grace that first requires psychological collapse is not merely grace. If the system has to convince people they are worthless so that its rescue feels beautiful, then salvation is being staged like an emotional hostage release.",
+     "grade": "Taught",
+     "why": "Total depravity and unworthiness are preached doctrine; how hard they are pressed is a matter of preaching style."
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 3 · Devalue · technique 6 of 30",
+     "num": "6",
+     "name": "Gaslighting",
+     "defn": "Making you doubt your own experience so you trust the institution's interpretation instead.",
+     "items": [
+      "A member says, \"The pastor manipulated me,\" and leaders answer, \"Touch not the Lord's anointed,\" \"You have a critical spirit,\" or \"You are causing division.\"",
+      "A woman says purity culture damaged her, and the church says, \"You misunderstood biblical modesty.\"",
+      "A gay or trans person says the teaching made them hate themselves, and the response is, \"That is conviction, not shame.\"",
+      "A doubter says, \"The Bible seems contradictory,\" and the answer becomes, \"You just don't want to submit to God.\"",
+      "Emotional worship experiences are used as proof: \"You felt the Spirit. You know this is true.\" Later, if the person reinterprets that experience, they are told they are hardening their heart."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 3 · Devalue",
+     "num": "6",
+     "name": "Gaslighting",
+     "defense": "Churches have to distinguish genuine conviction from worldly rebellion.",
+     "counter": "That distinction becomes abuse when the church always gets to define which is which. If pain means conviction, disagreement means rebellion, and leaving means deception, the system has made itself unfalsifiable.",
+     "grade": "Taught",
+     "why": "The replies used to reinterpret a member's experience ('touch not the Lord's anointed', 'a critical spirit', 'conviction, not shame') are taught from the pulpit and in counsel; no written rule directs them."
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 3 · Devalue · technique 7 of 30",
+     "num": "7",
+     "name": "Double Bind",
+     "defn": "A trap where both options lead to compliance. No exit serves you.",
+     "items": [
+      "Evangelicals are told salvation is by grace alone, not works — yet their standing is continuously measured by attendance, tithing, serving, witnessing, and 'fruit.' Rest in grace and you are lukewarm; strive and you are reminded works save no one.",
+      "Members must be 'authentic and vulnerable' in small group — and what is shared becomes prayer-chain (a network that passes prayer requests among members) information and leadership leverage. Withhold and you are guarded; share and you are exposed.",
+      "Questioning the pastor's 'vision' is quenching the Spirit; following your own leading is deception. The Spirit, somehow, only ever speaks through the platform."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 3 · Devalue",
+     "num": "7",
+     "name": "Double Bind",
+     "defense": "We preach grace; discipleship simply produces visible fruit.",
+     "counter": "If grace is free but belonging is billed weekly in visible performance, the system runs on works while advertising grace. The bind is the business model: the anxiety it creates is resolved only by more participation.",
+     "grade": "Taught",
+     "why": "Both halves of the bind are taught: salvation by grace alone, and standing measured by attendance, giving, serving and 'fruit'. How the two are combined is congregational practice."
+    },
+    {
+     "type": "text",
+     "style": "red",
+     "kicker": "Stage 4 of 8",
+     "head": "Confuse",
+     "paras": [
+      "The rewards become unpredictable, the standard keeps moving, the answers stop meaning anything, and the accusation gets turned around.",
+      "Ask about the budget and you have a spirit of division. Ask about the allegation and you are touching the anointed. Departing staff sign severance conditioned on silence, then are described from the platform as having left in sin.",
+      "What it asks of you: The NDA is not a spiritual practice. Ask why a church needs one."
+     ]
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 4 · Confuse · technique 8 of 30",
+     "num": "8",
+     "name": "Intermittent Reinforcement",
+     "defn": "Unpredictable reward that creates addictive emotional dependency.",
+     "items": [
+      "Production-grade worship delivers a reliable Sunday high that is never quite reliable — and the weeks it fails, the message is 'come expectant,' 'press in,' 'get your heart right.' Attendance becomes a lever pressed for a jackpot God.",
+      "Platform access — worship team, leadership pipeline, the pastor's circle — is granted, revoked, and re-dangled without stated criteria; volunteers double their hours to decode it.",
+      "Prophecy culture pays out intermittently by design: the words that land are testimonies forever; the misses are timing, faith, or your blockage. The hit rate never has to improve, because the near-misses keep the room."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 4 · Confuse",
+     "num": "8",
+     "name": "Intermittent Reinforcement",
+     "defense": "We can't manufacture the Holy Spirit; some services simply carry more anointing.",
+     "counter": "Fog machines, key changes, and build-drop set lists are manufacturing — skillful, budgeted, rehearsed. The honest question is not whether God moves, but why the system takes credit for the peaks and assigns you the valleys.",
+     "grade": "Cultural",
+     "why": "Production-grade worship, unstated criteria for platform access, and the reading of prophetic hits and misses are congregational practice; no governing document sets them."
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 4 · Confuse · technique 9 of 30",
+     "num": "9",
+     "name": "Moving the Goalposts",
+     "defn": "The standard of success keeps shifting so you can never arrive.",
+     "items": [
+      "Salvation is preached as a free gift. Then the believer must prove it through quiet time (daily private prayer and Bible reading), purity, church attendance, doctrinal correctness, evangelism, giving, serving, emotional worship, and public testimony.",
+      "Purity culture says, \"Save sex for marriage.\" Then marriage comes and the person is told they must now be sexually available, emotionally healed, submissive, fruitful, modest, and grateful.",
+      "Someone raises concerns about church abuse. Leaders first demand evidence. Evidence appears. Then they demand tone. Tone improves. Then they demand process. Process is followed. Then they say the person's heart is wrong."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 4 · Confuse",
+     "num": "9",
+     "name": "Moving the Goalposts",
+     "defense": "True faith produces fruit; leaders are discerning spiritual maturity.",
+     "counter": "Discernment becomes goalpost-moving when the evidence is never enough because the institution can always inspect your motives. Once motives become the final battlefield, no one can ever satisfy the court.",
+     "grade": "Cultural",
+     "why": "Escalating expectations of giving and service are cultural rather than codified, which is what makes them deniable."
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 4 · Confuse · technique 10 of 30",
+     "num": "10",
+     "name": "Strategic Ambiguity",
+     "defn": "Language that sounds profound but means nothing specific — functioning as a shutdown to real questions.",
+     "items": [
+      "Evangelical churches say \"relationship, not religion,\" but build detailed expectations around attendance, giving, purity, doctrine, politics, gender, and service.",
+      "Leaders say membership is voluntary, but leaving is framed as drifting, rebellion, offense, or spiritual danger.",
+      "\"Biblical leadership\" is vague enough to mean servant leadership in public and authoritarian control in private."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 4 · Confuse",
+     "num": "10",
+     "name": "Strategic Ambiguity",
+     "defense": "Churches need flexibility because every person's spiritual situation is different.",
+     "counter": "Flexibility becomes strategic ambiguity when leaders refuse definitions until definitions would limit them. If no one can say where pastoral care ends and control begins, the ambiguity is not accidental.",
+     "grade": "Cultural",
+     "why": "The undefined terms described here ('relationship, not religion', voluntary membership, 'biblical leadership') are congregational vocabulary; no governing document defines them."
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 4 · Confuse · technique 11 of 30",
+     "num": "11",
+     "name": "Projection",
+     "defn": "Accusing the outside world of the exact thing the institution practices.",
+     "items": [
+      "Evangelical churches accuse leavers of being offended, rebellious, or wanting to sin, while refusing to examine manipulation, purity shame, authoritarian leadership, or cover-ups.",
+      "Leaders call critics divisive after their own secrecy fractured trust.",
+      "Purity culture accuses women of making men stumble, projecting male responsibility onto female bodies.",
+      "Prosperity or revival preachers blame failed promises on the believer's lack of faith, projecting the failure of the system onto the follower."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 4 · Confuse",
+     "num": "11",
+     "name": "Projection",
+     "defense": "Churches must correct sin and protect biblical truth.",
+     "counter": "Correction becomes projection when it only travels downward. If pastors can diagnose everyone else's sin but cannot name their own exploitation, \"biblical correction\" is just accusation with a microphone.",
+     "grade": "Cultural",
+     "why": "Accusing leavers and critics of offense and division, and blaming failed promises on the believer's faith, is observed practice; no governing document directs it."
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 4 · Confuse · technique 12 of 30",
+     "num": "12",
+     "name": "DARVO",
+     "defn": "Deny the wrongdoing. Attack the person who raised it. Reverse victim and offender.",
+     "items": [
+      "A church member reports manipulation, financial secrecy, sexual misconduct, abusive counseling, or authoritarian leadership. Leaders deny wrongdoing, then accuse the member of gossip, slander, bitterness, or rebellion.",
+      "A pastor caught in misconduct may be framed as \"under attack\" because of his anointing or influence.",
+      "The victim is pressured to forgive quickly, while the leader receives public sympathy, restoration language, and protective prayer.",
+      "If the person leaves, the church says, \"They were offended,\" \"They wanted to sin,\" or \"They could not submit to authority.\"",
+      "Abuse exposure becomes \"division,\" while cover-up becomes \"protecting the church.\""
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 4 · Confuse",
+     "num": "12",
+     "name": "DARVO",
+     "defense": "Church discipline requires care, confidentiality, and avoiding gossip.",
+     "counter": "Confidentiality protects victims. Secrecy protects institutions. If \"do not gossip\" means \"do not warn people,\" then the church has made silence sound biblical.",
+     "grade": "Documented",
+     "why": "The Southern Baptist Convention's 2022 independent report found survivor allegations tracked and resisted."
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 4 · Confuse · technique 13 of 30",
+     "num": "13",
+     "name": "Normalization / Desensitization",
+     "defn": "Practices that would seem extreme to an outsider feel normal to insiders because they were installed before critical evaluation developed.",
+     "items": [
+      "Emotional manipulation becomes normal through worship music, altar calls, dim lighting, repeated choruses, public tears, and sermons that intensify vulnerability before asking for commitment.",
+      "Purity culture desensitizes young people to sexual surveillance: accountability questions, modesty checks, pornography confessions, dating rules, and shame around desire.",
+      "Members become used to pastors speaking with divine certainty: \"God told me,\" \"the Lord put this on my heart,\" \"this is a word for someone.\"",
+      "Repeated volunteer pressure makes burnout feel holy. People stop asking why a church with paid leaders runs on unpaid exhaustion."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 4 · Confuse",
+     "num": "13",
+     "name": "Normalization / Desensitization",
+     "defense": "Evangelical churches encourage passionate worship, holiness, accountability, and service.",
+     "counter": "Passion is not the issue. The issue is conditioning. If people are repeatedly placed in emotionally heightened environments and then asked to surrender, confess, give, serve, or obey, their consent is being softened through ritualized intensity.",
+     "grade": "Cultural",
+     "why": "Worship conditioning, claims of divine certainty and volunteer burnout are congregational practice that no body sets and none has reformed. The repudiation of purity culture by its own authors and the closing of ex-gay ministries bear only on the purity bullet."
+    }
    ]
-  ],
-  "text": "2025 was the 19th year of decline in a row. Source: Lifeway Research, May 2026; the denomination's own Annual Church Profile.",
-  "foot": "Protestant / Evangelical · The Sacred Divide"
- },
- {
-  "type": "rows",
-  "style": "dark",
-  "kicker": "The Southern Baptist record (1 of 2)",
-  "head": "How it came out",
-  "rows": [
-   [
-    "2019.",
-    "Houston Chronicle and San Antonio Express-News: about 380 Southern Baptist leaders and volunteers accused of sexual misconduct since 1998, with more than 700 victims."
-   ],
-   [
-    "2022.",
-    "Independent Guidepost report: Executive Committee staff kept a private list of accused ministers while publicly resisting a registry."
+  },
+  {
+   "id": "part-4-techniques-stages-5-8a",
+   "title": "Part 4: Techniques, stages 5 to 8 (first half)",
+   "slides": [
+    {
+     "type": "cover",
+     "series": "Part 4 of 7",
+     "title": "The 30 techniques, stages 5 to 8",
+     "sub": "Isolate, extract, discard, replace: the techniques that follow, each with its defense, its counter and its evidence grade.",
+     "hook": "Swipe →",
+     "style": "dark"
+    },
+    {
+     "type": "text",
+     "style": "red",
+     "kicker": "Stage 5 of 8",
+     "head": "Isolate",
+     "paras": [
+      "Your world narrows until every voice you hear is inside the system, and everything you came for now runs through a middleman.",
+      "The church holds your friends, your childcare, your kids' school, sometimes your paycheck. Critics are 'discernment blogs,' therapy is 'worldly wisdom,' former members are bitter. The only place to process a doubt about the church is inside the church.",
+      "What it asks of you: Write down everyone you'd still have coffee with in a year if you left tomorrow. Look at the list."
+     ]
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 5 · Isolate · technique 14 of 30",
+     "num": "14",
+     "name": "Isolation",
+     "defn": "Shrinking your world until the only voices you hear are inside the system.",
+     "items": [
+      "Evangelical churches isolate through small groups, purity culture, Christian schooling, homeschooling, youth groups, accountability partners, Christian media ecosystems, and warnings about \"worldly\" influence.",
+      "Young people may be told not to date unbelievers, not to consume secular music or entertainment, not to trust secular universities, and not to build intimate friendships with people who could weaken their faith.",
+      "Deconstruction is treated as contagion. People questioning faith are warned not to listen to exvangelicals (former evangelicals), progressive Christians, atheists, LGBTQ-affirming theologians, or \"bitter\" former members.",
+      "The church may say it is not isolating you because you still go to work or school — but emotionally, spiritually, sexually, intellectually, and socially, it narrows your trusted world to approved believers."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 5 · Isolate",
+     "num": "14",
+     "name": "Isolation",
+     "defense": "Evangelicals are building strong Christian community and protecting believers from harmful ideologies.",
+     "counter": "Community becomes isolation when outside perspectives are treated as infection. If members are safe only when surrounded by church-approved people, church-approved books, church-approved politics, and church-approved relationships, then the community is not strengthening faith. It is reducing oxygen.",
+     "grade": "Taught",
+     "why": "Warnings against critics, secular therapy, and former members are taught continuously; the NDA practice is separately documented."
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 5 · Isolate · technique 15 of 30",
+     "num": "15",
+     "name": "Triangulation",
+     "defn": "Inserting intermediaries between you and the thing you came for, so the institution is always in the middle.",
+     "items": [
+      "Evangelical churches triangulate through small groups, accountability partners, pastors, spouses, ministry teams, prayer chains, and \"concerned friends.\"",
+      "If you question leadership, suddenly several people want coffee with you. Each meeting feels personal, but the message is coordinated: forgive, stop gossiping, trust leadership, don't divide the church.",
+      "Marriage is commonly used: \"Your wife needs you to lead spiritually,\" \"Your husband is concerned,\" \"Your children need to see you in church.\"",
+      "Volunteer roles become triangulation: \"The youth look up to you,\" \"The worship team needs you,\" \"The church family misses your gifts.\"",
+      "Evangelicalism triangulates with \"the world\": if you leave, you are warned that secular friends, liberal media, sexual temptation, bitterness, or deconstruction communities will pull you away from God.",
+      "It triangulates through testimonies: former doubters are showcased as proof that \"faithful people come back.\""
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 5 · Isolate",
+     "num": "15",
+     "name": "Triangulation",
+     "defense": "Healthy churches use community to care for people who are struggling.",
+     "counter": "Care listens. Triangulation coordinates. If multiple people approach you with the same spiritual script and none of them can tolerate the possibility that the church is wrong, then the community is not caring for you. It is managing you.",
+     "grade": "Taught",
+     "why": "Coordinated counsel from small groups, spouses, accountability partners and ministry teams is taught as care and carried out at congregational discretion; no written rule requires it."
+    },
+    {
+     "type": "text",
+     "style": "red",
+     "kicker": "Stage 6 of 8",
+     "head": "Extract",
+     "paras": [
+      "Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.",
+      "Withholding the tithe is framed as robbing God. Seed-faith giving is sold as an investment. Building pledges run for years. Volunteers work full-time-equivalent hours with no wage. Your small-group leader informs leadership about your doubts. Departing staff sign non-disclosure agreements. Ask about the budget and you become a spirit of division.",
+      "What it asks of you: A church that requires legal silence from the people who leave has told you exactly what it believes about its own conduct."
+     ]
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 6 · Extract · technique 16 of 30",
+     "num": "16",
+     "name": "Flying Monkeys",
+     "defn": "The community enforces the institution's norms without being asked — mobilized by culture, not memos.",
+     "items": [
+      "After someone leaves an evangelical church, former friends, ministry teammates, worship leaders, youth pastors, and small-group members begin \"checking in.\"",
+      "The person who reports abuse is approached by people saying: \"You're hurting the church,\" \"You need to forgive,\" \"Have you gone through the proper process?\" \"This is gossip.\"",
+      "If a pastor is criticized, loyal members defend him publicly and privately: \"He has done so much good,\" \"You don't know the whole story,\" \"Touch not the Lord's anointed.\"",
+      "Prayer chains become surveillance networks: private pain is reframed as a \"prayer concern\" and circulated."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 6 · Extract",
+     "num": "16",
+     "name": "Flying Monkeys",
+     "defense": "Church members naturally care when someone is struggling or hurt.",
+     "counter": "Caring people ask what happened. FLYING MONKEYS ask why you are not over it yet. If the entire concern network protects leadership more than the harmed person, the love is being routed through loyalty.",
+     "grade": "Taught",
+     "why": "Members pressing a critic or survivor to forgive, stop 'gossiping' and protect the pastor repeat taught phrases ('touch not the Lord's anointed'); the pressure itself is congregational practice with no written rule."
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 6 · Extract · technique 17 of 30",
+     "num": "17",
+     "name": "Smear Campaign",
+     "defn": "Rewriting your character after departure to protect the institution from the implications of your leaving.",
+     "items": [
+      "Former members are described as offended, deconstructing, worldly, progressive, deceived, rebellious, or wanting sexual freedom.",
+      "Abuse survivors may be accused of exaggerating, gossiping, refusing forgiveness, or attacking a man of God.",
+      "Churches may imply that the person left because they did not want accountability.",
+      "Leaders may tell staff, volunteers, or small-group leaders a sanitized version of events to make the dissenter look unstable."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 6 · Extract",
+     "num": "17",
+     "name": "Smear Campaign",
+     "defense": "Church leaders must warn against false teaching, gossip, and spiritual danger.",
+     "counter": "Warning becomes SMEAR CAMPAIGN when it shifts attention from evidence to character. If the institution cannot answer the claim, it attacks the claimant.",
+     "grade": "Taught",
+     "why": "Warnings against critics and former members are taught from the pulpit. The Mars Hill, Hillsong and RZIM case entries do not record a smear of a named person, so the technique is not graded on them."
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 6 · Extract · technique 18 of 30",
+     "num": "18",
+     "name": "Silent Treatment / Stonewalling",
+     "defn": "Refusing to engage with legitimate questions in order to maintain control.",
+     "items": [
+      "A church says it has handled a complaint \"biblically,\" but refuses to disclose what happened, who investigated, what consequences occurred, or whether victims are safe.",
+      "Leaders ask the harmed person to meet privately, then use the private meeting to pressure forgiveness without changing anything.",
+      "Emails go unanswered. Requests for financial transparency are ignored. Abuse concerns are redirected to elders loyal to the pastor.",
+      "The church keeps worship services upbeat while victims wait in silence."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 6 · Extract",
+     "num": "18",
+     "name": "Silent Treatment / Stonewalling",
+     "defense": "Churches must avoid gossip and protect privacy.",
+     "counter": "Privacy is not the same as secrecy. If the only people protected by silence are leaders, then \"biblical process\" has become a curtain over institutional cowardice.",
+     "grade": "Documented",
+     "why": "Non-disclosure agreements imposed on departing staff at Mars Hill, Harvest Bible Chapel, Hillsong, Willow Creek, Acts 29 and RZIM, among others."
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 6 · Extract · technique 19 of 30",
+     "num": "19",
+     "name": "Manufactured Consent",
+     "defn": "Creating the appearance of choice when the conditions of choice were shaped before you could evaluate them.",
+     "items": [
+      "Altar calls manufacture consent through music, dim lighting, emotional sermons, group pressure, public invitation, and fear of eternal consequences.",
+      "\"Membership covenants\" (written agreements setting out a member's obligations) are signed in communities where leaving later is framed as unfaithfulness or spiritual danger.",
+      "Volunteers \"choose\" to serve after repeated messages that real Christians sacrifice, use their gifts, and do not consume without contributing.",
+      "Youth purity pledges are made before young people can understand adult sexuality, marriage, trauma, consent, or long-term consequences."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 6 · Extract",
+     "num": "19",
+     "name": "Manufactured Consent",
+     "defense": "Evangelical churches invite people to respond freely to God.",
+     "counter": "Emotional intensity plus eternal stakes plus public pressure is not a neutral invitation. If the environment is engineered to make refusal feel like rejecting God, then consent has been manufactured with worship music.",
+     "grade": "Taught",
+     "why": "The appeals that shape these choices (altar calls, membership covenants, calls to serve, purity pledges) are taught and staged from the platform; the choices are then presented as free."
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 6 · Extract · technique 20 of 30",
+     "num": "20",
+     "name": "Trauma Bonding",
+     "defn": "The wound and the bandage come from the same hand.",
+     "items": [
+      "Evangelical spaces alternate intense fear and intense comfort: hell, demons, purity shame, end-times panic — then worship highs, altar prayer, small-group affection, and \"God loves you.\"",
+      "Youth camps can create emotional whiplash: sermons about sin and damnation followed by music, tears, hugs, and public salvation moments.",
+      "Purity culture shames sexuality, then offers restoration through accountability, confession, marriage, or \"redeemed\" identity.",
+      "A church hurts someone, then surrounds them with prayer and emotional warmth if they agree not to leave."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 6 · Extract",
+     "num": "20",
+     "name": "Trauma Bonding",
+     "defense": "Evangelicals preach both sin and grace because both are central to the gospel.",
+     "counter": "Sin and grace become TRAUMA BONDING when terror is used to intensify dependence on the institution's comfort. If the church creates the emotional crisis and then interprets the relief as proof of truth, it has engineered attachment.",
+     "grade": "Taught",
+     "why": "The alternation of fear (hell, demons, purity shame, end-times) and comfort (worship, altar prayer, 'God loves you') is preached and staged in services and camps; no written rule directs it."
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 6 · Extract · technique 21 of 30",
+     "num": "21",
+     "name": "Learned Helplessness",
+     "defn": "Teaching you that your own judgment is unreliable until you stop trusting it entirely.",
+     "items": [
+      "A believer prays for healing, breakthrough, marriage, purity, or deliverance. When nothing changes, they are told to pray harder, have more faith, repent more deeply, or wait on God.",
+      "Church volunteers burn out, ask for relief, and are told the harvest is plentiful but workers are few.",
+      "Abuse reports disappear into elder meetings, private processes, and forgiveness language.",
+      "The person learns that effort does not produce change; it only produces another demand."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 6 · Extract",
+     "num": "21",
+     "name": "Learned Helplessness",
+     "defense": "Faith requires patience and perseverance.",
+     "counter": "Patience becomes LEARNED HELPLESSNESS when it is demanded only from the harmed while leaders remain unaccountable. If nothing changes except the victim's tolerance, perseverance has become captivity.",
+     "grade": "Taught",
+     "why": "The counsel to pray harder, repent more deeply and wait on God, and to take abuse reports to the elders, is taught from the pulpit and in pastoral counsel; no written rule requires it."
+    }
    ]
-  ],
-  "note": "Sources: Houston Chronicle, Feb 2019; Guidepost Solutions, 22 May 2022.",
-  "foot": "Protestant / Evangelical · The Sacred Divide"
- },
- {
-  "type": "rows",
-  "style": "dark",
-  "kicker": "The Southern Baptist record (2 of 2)",
-  "head": "What followed",
-  "rows": [
-   [
-    "2022.",
-    "Messengers vote for a public database of accused ministers. No name is ever published."
-   ],
-   [
-    "2025.",
-    "The Executive Committee shelves it, citing legal hurdles."
-   ],
-   [
-    "Aug 2026.",
-    "Survivors launch ProtestantAccountability.org, with more than 2,700 people listed at launch."
+  },
+  {
+   "id": "part-4-techniques-stages-5-8b",
+   "title": "Part 4: Techniques, stages 5 to 8 (second half)",
+   "slides": [
+    {
+     "type": "cover",
+     "series": "Part 4 of 7",
+     "title": "The 30 techniques, stages 5 to 8",
+     "sub": "Isolate, extract, discard, replace: the techniques that follow, each with its defense, its counter and its evidence grade.",
+     "hook": "Swipe →",
+     "style": "dark"
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 6 · Extract · technique 22 of 30",
+     "num": "22",
+     "name": "Benevolent Control",
+     "defn": "Control wrapped in the language of care, so that resisting the control feels like rejecting the love.",
+     "items": [
+      "Evangelical churches often frame control as accountability: porn accountability, dating accountability, purity accountability, giving accountability, leadership accountability.",
+      "Small groups may monitor members' emotional lives, marriages, doubts, habits, and \"walk with God.\"",
+      "Pastors may say they are protecting the flock from false teaching when discouraging members from reading critics or former members.",
+      "Youth ministries may control sexuality, friendships, media, clothing, and dating under the banner of \"guarding purity.\""
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 6 · Extract",
+     "num": "22",
+     "name": "Benevolent Control",
+     "defense": "Accountability helps believers grow and avoid destructive choices.",
+     "counter": "Accountability becomes BENEVOLENT CONTROL when it flows upward as confession and downward as surveillance. If the member is transparent but leadership is opaque, the system is not mutual care. It is spiritual monitoring.",
+     "grade": "Taught",
+     "why": "Accountability for dating, purity, pornography and giving is taught as discipleship and run through small groups and youth ministries; it is written into almost no governing document."
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 6 · Extract · technique 23 of 30",
+     "num": "23",
+     "name": "Infantilization",
+     "defn": "Positioning the adult believer as permanently childlike and dependent on institutional authority.",
+     "items": [
+      "Adults are told to seek pastoral covering, submit to male headship, obey elders, join accountability groups, and avoid independent interpretation.",
+      "Women may be treated as spiritually equal but practically managed through complementarian roles.",
+      "Youth-group logic follows adults into adulthood: purity rules, accountability questions, emotional dependence on leaders.",
+      "Doubters are called baby Christians, backsliders, or spiritually immature."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 6 · Extract",
+     "num": "23",
+     "name": "Infantilization",
+     "defense": "Spiritual maturity requires accountability and discipleship.",
+     "counter": "Accountability becomes INFANTILIZATION when it prevents autonomy. If maturity always means agreeing with leadership, and disagreement proves immaturity, adulthood has been rigged.",
+     "grade": "Taught",
+     "why": "Submission to male headship and to elders is taught, and some large denominations write complementarian roles into policy. Treating adults as dependants is congregational practice with no written rule."
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 6 · Extract · technique 24 of 30",
+     "num": "24",
+     "name": "Identity Erosion",
+     "defn": "Gradually replacing your identity with a role the institution provides, until you can't separate who you are from where you belong.",
+     "items": [
+      "Evangelical identity can become total: quiet time, purity, testimony, church attendance, spiritual gifts, mission, calling, accountability, worship style, politics, dating, marriage, and parenting.",
+      "\"God has a plan for your life\" can erase the person's own plan.",
+      "Purity culture erodes sexual identity by making the body a public moral object.",
+      "Testimony culture rewards people for narrating their lives as \"before Jesus I was broken; after Jesus I am useful.\"",
+      "The person's emotions are sorted into spiritual categories: peace means God approves, anxiety means lack of trust, desire means flesh, doubt means attack."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 6 · Extract",
+     "num": "24",
+     "name": "Identity Erosion",
+     "defense": "Evangelical faith helps people find purpose and transformation.",
+     "counter": "Purpose becomes IDENTITY EROSION when every part of the person must be converted into ministry material. If your trauma becomes testimony, your body becomes purity evidence, your labor becomes calling, and your doubt becomes enemy attack, the institution has colonized the self.",
+     "grade": "Taught",
+     "why": "The replacement identities (testimony, calling, purity, spiritual categories for emotions) are taught in preaching and discipleship; no rule imposes them."
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 6 · Extract · technique 25 of 30",
+     "num": "25",
+     "name": "Spiritual Bypassing",
+     "defn": "Using spiritual language to avoid engaging with real pain, real questions, and real accountability.",
+     "items": [
+      "Trauma is bypassed into testimony: \"God allowed this so you can help others.\"",
+      "Abuse is bypassed through \"forgive,\" \"pray for them,\" \"don't gossip,\" and \"no church is perfect.\"",
+      "Depression or anxiety may be spiritualized as lack of faith, demonic attack, or insufficient prayer.",
+      "Racism, sexism, homophobia, and abuse may be bypassed through \"the gospel is the answer\" without structural change.",
+      "Worship highs can create temporary relief that substitutes for repair."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 6 · Extract",
+     "num": "25",
+     "name": "Spiritual Bypassing",
+     "defense": "Evangelicals believe God redeems pain and transforms lives.",
+     "counter": "Redemption becomes SPIRITUAL BYPASSING when transformation is demanded from the victim while the system avoids change. If the wound becomes a sermon before it becomes evidence, the church is using spirituality to escape accountability.",
+     "grade": "Taught",
+     "why": "The phrases used to meet harm with forgiveness and hope ('forgive', 'no church is perfect', 'God allowed this so you can help others') are taught from the pulpit and in counsel; no written rule directs their use."
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 6 · Extract · technique 26 of 30",
+     "num": "26",
+     "name": "Financial Control",
+     "defn": "Extracting money through spiritual obligation while offering no transparency about where it goes.",
+     "items": [
+      "Evangelical churches may push tithing, offerings, missions pledges, church plants, conferences, youth camps, books, merch, and paid leadership training.",
+      "Members may be told that failing to tithe robs God, blocks blessing, reveals distrust, or shows a consumer attitude.",
+      "Churches may depend on unpaid volunteer labor while leaders receive salaries, housing allowances, speaking fees, book deals, or platform benefits.",
+      "Financial transparency may be limited while members are expected to give sacrificially."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 6 · Extract",
+     "num": "26",
+     "name": "Financial Control",
+     "defense": "Churches need money and volunteers to serve people and spread the gospel.",
+     "counter": "Mission becomes FINANCIAL CONTROL when the institution demands sacrifice from members but hides its own finances. If transparency flows upward as giving but not downward as accountability, the offering plate is also a power structure.",
+     "grade": "Taught",
+     "why": "Tithing is taught as a covenant obligation with blessing-and-curse framing from the platform."
+    },
+    {
+     "type": "text",
+     "style": "red",
+     "kicker": "Stage 7 of 8",
+     "head": "Discard",
+     "paras": [
+      "You become expensive — too many questions, too much independence — and the urgency ramps up until you are removed.",
+      "You are named from the pulpit, or described precisely enough not to need naming. You are called divisive, bitter, in rebellion. Friends stop replying — not because they were instructed to, but because the story arrived before you did.",
+      "What it asks of you: You have believed one of these stories about someone else. Consider that yours is being told right now, in the same voice."
+     ]
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 7 · Discard · technique 27 of 30",
+     "num": "27",
+     "name": "Manufactured Crisis",
+     "defn": "Creating urgency to suppress critical thinking and generate loyalty.",
+     "items": [
+      "Evangelical spaces may manufacture crisis through revival urgency, altar-call pressure, rapture anxiety, anti-LGBTQ panic, persecution narratives, demonic attack, and \"lost generation\" rhetoric.",
+      "Youth are told that one night, one prayer, one choice, one sexual mistake, or one doubt could alter eternity.",
+      "Fundraising often uses urgency: \"We must act now,\" \"souls are at stake,\" \"this building will reach the city.\"",
+      "Leadership scandals become crises of division rather than crises of accountability."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 7 · Discard",
+     "num": "27",
+     "name": "Manufactured Crisis",
+     "defense": "Evangelicals believe eternal stakes are real and urgent.",
+     "counter": "Urgency becomes MANUFACTURED CRISIS when it is used to override consent, evidence, and time. If people are asked to give, confess, convert, vote, or obey while emotionally flooded, urgency has become a manipulation tool.",
+     "grade": "Taught",
+     "why": "Crisis is preached from the platform: revival urgency, rapture anxiety, persecution narratives and fundraising deadlines are repeated in sermons and appeals. No governing body sets them."
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 7 · Discard · technique 28 of 30",
+     "num": "28",
+     "name": "Discard",
+     "defn": "Removing members who become too costly — too many questions, too much independence, too visible a contradiction.",
+     "items": [
+      "Someone is praised as called, gifted, anointed, or \"on fire\" until they burn out or question leadership.",
+      "A worship leader, youth worker, small-group host, or ministry volunteer may be removed overnight after expressing doubt or naming abuse.",
+      "Churches may say, \"They left because they were offended,\" turning discard into a spiritual diagnosis.",
+      "Former members become sermon illustrations: people who drifted, compromised, deconstructed, or chose the world."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 7 · Discard",
+     "num": "28",
+     "name": "Discard",
+     "defense": "Leaders must protect the flock from confusion and false teaching.",
+     "counter": "Protection becomes DISCARD when the flock is protected from the truth-teller. If someone's years of service disappear the moment they become inconvenient, the church did not love them. It loved their usefulness.",
+     "grade": "Cultural",
+     "why": "Removal is congregational and discretionary; independent polity means there is no appeal and no external standard."
+    },
+    {
+     "type": "text",
+     "style": "red",
+     "kicker": "Stage 8 of 8",
+     "head": "Replace",
+     "paras": [
+      "Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to God.",
+      "Your seat, your team slot, and your row are filled within weeks, and your leaving becomes a sermon illustration about bitterness. The rules were never leadership's: this is what the Bible says, take it up with God.",
+      "What it asks of you: Nobody who says take it up with God has ever handed you God's phone number. They have, however, handed you a giving envelope."
+     ]
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 8 · Replace · technique 29 of 30",
+     "num": "29",
+     "name": "Replacement",
+     "defn": "Your seat is filled before the door closes behind you.",
+     "items": [
+      "A burned-out worship leader is replaced by a younger singer with more enthusiasm.",
+      "A staff member who questions leadership is replaced by someone more loyal and less informed.",
+      "A family leaves over abuse; the church highlights new baptisms and growth statistics.",
+      "A deconstructing member becomes a warning while a new convert becomes proof God is moving."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 8 · Replace",
+     "num": "29",
+     "name": "Replacement",
+     "defense": "Churches should celebrate new life and continue ministry.",
+     "counter": "Celebration becomes REPLACEMENT when new growth is used to bury old harm. If the church points to new members to avoid answering former members, revival has become a distraction from wreckage.",
+     "grade": "Cultural",
+     "why": "Filling a departed member's roles and pointing to new growth is congregational practice; no written rule directs it."
+    },
+    {
+     "type": "tech_a",
+     "style": "dark",
+     "kicker": "Stage 8 · Replace · technique 30 of 30",
+     "num": "30",
+     "name": "Plausible Deniability",
+     "defn": "The institution is never responsible, because the authority is attributed to God — who isn't available for cross-examination.",
+     "items": [
+      "A church says membership is voluntary, but membership covenants, small groups, accountability structures, and leadership culture make exit feel like rebellion.",
+      "Pastors preach against \"gossip\" and \"division\" after abuse allegations, then deny they were referring to the survivor.",
+      "Purity culture is framed as biblical wisdom, but when adults describe sexual trauma from it, leaders say, \"You misunderstood purity.\"",
+      "Churches say giving is voluntary, then preach that not tithing robs God or reveals distrust.",
+      "Leaders say they are not political, then use sermons, voter guides, culture-war language, and \"biblical values\" to guide political behavior without officially endorsing candidates."
+     ]
+    },
+    {
+     "type": "tech_b",
+     "style": "light",
+     "kicker": "Stage 8 · Replace",
+     "num": "30",
+     "name": "Plausible Deniability",
+     "defense": "Churches teach principles; people apply them freely. Accountability is healthy discipleship. No church is perfect.",
+     "counter": "Teaching \"principles\" becomes PLAUSIBLE DENIABILITY when every member knows the expected application but leadership denies commanding it. Accountability is not healthy when members confess upward while leadership remains opaque. \"No church is perfect\" is not a defense against patterned harm. It is a slogan used to lower expectations.",
+     "grade": "Cultural",
+     "why": "Authority is attributed to Scripture by leaders answerable to boards they appointed, and the pressure described here is informal by design, so no body can be held to it."
+    }
    ]
-  ],
-  "note": "Sources: Religion News Service, 2024; The Baptist Paper, 2025; Christianity Today, Sept 2026.",
-  "foot": "Protestant / Evangelical · The Sacred Divide"
- },
- {
-  "type": "big",
-  "style": "light",
-  "kicker": "U.S. Senate inquiry, 2007–2011",
-  "big": "0",
-  "head": "penalties",
-  "text": "Six television ministries were asked for financial records. Most declined full disclosure. The inquiry closed with no penalties and no new law.",
-  "note": "Source: Senate Finance Committee inquiry, via NBC News, Jan 2011.",
-  "foot": "Protestant / Evangelical · The Sacred Divide"
- },
- {
-  "type": "rows",
-  "style": "light",
-  "kicker": "The law",
-  "head": "Who can compel an answer",
-  "rows": [
-   [
-    "United States.",
-    "Churches file no Form 990, the annual public return other charities file. State attorneys general have jurisdiction over charitable assets."
-   ],
-   [
-    "England and Wales.",
-    "Registered church charities file public accounts. Smaller churches in several denominations are excepted from registering until 2031."
+  },
+  {
+   "id": "part-5-loops-say-do-cost",
+   "title": "Part 5: Loops, say versus do, cost",
+   "slides": [
+    {
+     "type": "cover",
+     "series": "Part 5 of 7",
+     "title": "The loops, and the gap between word and record",
+     "sub": "How the practices connect into seven loops, what leaders say against what the record shows, and what leaving costs.",
+     "hook": "Swipe →",
+     "style": "dark"
+    },
+    {
+     "type": "text",
+     "style": "light",
+     "kicker": "The loops",
+     "head": "Seven loops",
+     "paras": [
+      "Each step makes the next one easier, and the last step feeds the first. The loops are analysis built from findings recorded elsewhere, labeled as an observed pattern, not a documented finding."
+     ]
+    },
+    {
+     "type": "steps",
+     "style": "dark",
+     "kicker": "Loop · how it runs",
+     "head": "1 · Money to Doctrine to Money",
+     "intro": "Tithing is framed as robbing God if withheld, it is interpreted by the man whose compensation it sets, and it funds the conference circuit that teaches it.",
+     "items": [
+      "Tithing is taught as a covenant obligation, with Malachi 3's blessing-and-curse framing, so that withholding reads as robbing God.",
+      "The teaching is preached by a pastor whose compensation is set by a board he appointed.",
+      "Members give, and prosperity teaching adds seed-faith gifts that promise a divine return.",
+      "The money pays senior staff, building campaigns, and the media, book and conference operations that carry the same teaching.",
+      "The congregation is the guaranteed first market for those books and conferences, and the teaching returns to the pulpit."
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "light",
+     "kicker": "Loop · why it closes",
+     "head": "1 · Money to Doctrine to Money",
+     "rows": [
+      [
+       "Techniques that feed it.",
+       "26 · Financial Control, 3 · Future Faking, 9 · Moving the Goalposts, 30 · Plausible Deniability."
+      ],
+      [
+       "Why it closes.",
+       "The pastor who teaches the obligation is paid from it, and the board that sets his pay is one he chose. In the United States a church files no annual return, so a giver cannot see how much of the tithe returns to the teacher. When the promised blessing fails to appear, the believer is told to examine faith, obedience, hidden sin or timing, so the failure never reaches the teaching."
+      ],
+      [
+       "Where it could be broken.",
+       "It weakens wherever the books are opened: plural elders, outside audits and published salaries. In England and Wales a church that is a registered charity files public accounts. A member can ask for the budget, the pastor's salary and the housing allowance before giving. This paragraph is analysis, not a documented finding."
+      ],
+      [
+       "An example.",
+       "The Senate inquiry into six television ministries documented private aircraft, high-value parsonages and boards controlled by the founders' families; most of the ministries declined full disclosure, and the inquiry closed without penalties."
+      ]
+     ]
+    },
+    {
+     "type": "steps",
+     "style": "dark",
+     "kicker": "Loop · how it runs",
+     "head": "2 · Fear to Dependence to Fear",
+     "intro": "Hell and rapture anxiety are installed at camp, relief is supplied at the altar, and the altar is inside the building.",
+     "items": [
+      "Hell teaching reaches children, and youth camps produce peak emotional experiences timed to conversion decisions.",
+      "The fear is kept live through rapture anxiety, demonic attack, and the warning that one night, one choice or one doubt could alter eternity.",
+      "Relief comes at the altar through music, tears, hugs and public salvation moments, and the emotional high is read as the Holy Spirit confirming the church's message.",
+      "The high does not last. In the weeks worship fails to deliver, the message is 'come expectant' and 'get your heart right'.",
+      "The next fear sends the member back to the same altar, inside the same building."
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "light",
+     "kicker": "Loop · why it closes",
+     "head": "2 · Fear to Dependence to Fear",
+     "rows": [
+      [
+       "Techniques that feed it.",
+       "27 · Manufactured Crisis, 20 · Trauma Bonding, 8 · Intermittent Reinforcement, 5 · Devaluation."
+      ],
+      [
+       "Why it closes.",
+       "The church that names the danger also runs the room where relief is offered, and it interprets the relief as proof that the teaching is true. A failed Sunday is assigned to the worshipper, never to the service."
+      ],
+      [
+       "Where it could be broken.",
+       "It weakens where the call to commit is separated from the emotional peak. The full record names worship leaders as the tier that could refuse to place the appeal at that peak. It also weakens when a member finds relief outside the building that supplied the fear. This paragraph is analysis, not a documented finding."
+      ],
+      [
+       "An example.",
+       "Technique 20 describes youth camps where sermons on sin and damnation are followed by music, tears, hugs and public salvation moments."
+      ]
+     ]
+    },
+    {
+     "type": "steps",
+     "style": "dark",
+     "kicker": "Loop · how it runs",
+     "head": "3 · Children to Members to Children",
+     "intro": "Youth programs, Christian schools, and homeschool curricula produce adults whose only framework is the institution's.",
+     "items": [
+      "Child dedication, children's church and altar calls aimed at young children secure decisions before the capacity for informed consent.",
+      "Purity pledges, abstinence curricula and courtship rules place adolescent sexuality under adult surveillance.",
+      "Youth camps and mission trips time peak emotional experiences to conversion decisions, and homeschool networks in some circles restrict outside information entirely.",
+      "By adulthood the church supplies friends, childcare, school, a small group and often employment, so leaving costs a total social world.",
+      "Adults formed this way raise their own children inside the same programs, and the cycle begins again."
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "light",
+     "kicker": "Loop · why it closes",
+     "head": "3 · Children to Members to Children",
+     "rows": [
+      [
+       "Techniques that feed it.",
+       "19 · Manufactured Consent, 13 · Normalization / Desensitization, 14 · Isolation, 22 · Benevolent Control."
+      ],
+      [
+       "Why it closes.",
+       "Each stage arrives before the person can weigh it, and by adulthood the institution supplies the framework used to judge the institution. No one has to decide to continue the loop; it continues unless someone decides to stop it."
+      ],
+      [
+       "Where it could be broken.",
+       "It weakens where decisions wait for consent and children hear outside voices. Parents decide enrolment, and the full record names Christian school teachers as able to refuse to teach a curriculum they know to be false. The authors who repudiated purity culture show the curriculum can be withdrawn from inside. This paragraph is analysis, not a documented finding."
+      ],
+      [
+       "An example.",
+       "The full record shows the deconstruction generation, who absorbed purity culture and hell teaching as children and process them as adults, often at the cost of family estrangement."
+      ]
+     ]
+    },
+    {
+     "type": "steps",
+     "style": "dark",
+     "kicker": "Loop · how it runs",
+     "head": "4 · Aid to Legitimacy to Leverage to Aid",
+     "intro": "Relief and mission work buy standing, standing sustains the exemption and political access, and that access protects the exemption.",
+     "items": [
+      "Congregations fund relief, mission and development work, and short-term mission trips move billions in aggregate.",
+      "Faith-based development organizations carry donor and public-grant money to recipient governments and communities.",
+      "The standing becomes leverage abroad: 28 US Christian-right groups spent at least $280 million outside the US between 2007 and 2018, on campaigns framed as pro-family aid.",
+      "At home, congregational trust is organized into voter guides, donor lists and turnout operations, as the Moral Majority first did in 1979.",
+      "The exemption holds. US churches are exempt without applying and file no annual return, and in 2025 the IRS agreed in a court filing that a church could endorse candidates to its own congregation."
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "light",
+     "kicker": "Loop · why it closes",
+     "head": "4 · Aid to Legitimacy to Leverage to Aid",
+     "rows": [
+      [
+       "Techniques that feed it.",
+       "2 · Weaponized Generosity, 30 · Plausible Deniability, 27 · Manufactured Crisis, 26 · Financial Control."
+      ],
+      [
+       "Why it closes.",
+       "The aid earns the standing, the standing secures the exemption and the access, and neither the conditions attached to aid nor the advocacy spending has to be disclosed."
+      ],
+      [
+       "Where it could be broken.",
+       "It weakens where courts and legislators, not settlements, decide the terms of the exemption: in March 2026 a federal judge dismissed the case in which the IRS had agreed to let churches endorse candidates. It also weakens under a disclosure statute; the United Kingdom card names that as the variable. This paragraph is analysis, not a documented finding."
+      ],
+      [
+       "An example.",
+       "The full record shows American evangelical money funding campaigns abroad against LGBTQ rights and reproductive access: \"Recipients get resources; recipient countries get laws their citizens never debated.\""
+      ]
+     ]
+    },
+    {
+     "type": "steps",
+     "style": "dark",
+     "kicker": "Loop · how it runs",
+     "head": "5 · Unpaid Labor to Assets to Power to More Labor",
+     "intro": "Volunteers build the campus, the corporation holds it, and the asset base underwrites the next vision.",
+     "items": [
+      "Volunteers give full-time-equivalent labor with no wage, benefits or equity while leaders are salaried.",
+      "Gratitude for help received is turned into service: setting up chairs, leading youth, singing on the worship team, hosting small groups.",
+      "Building and vision campaigns bind members through debt and pledges, and the assets are titled to the institution.",
+      "A failed vision is never audited, and the next campaign asks for more pledges and more hours.",
+      "Burnout is made to feel holy, and volunteers who ask for relief are told the harvest is plentiful but the workers are few."
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "light",
+     "kicker": "Loop · why it closes",
+     "head": "5 · Unpaid Labor to Assets to Power to More Labor",
+     "rows": [
+      [
+       "Techniques that feed it.",
+       "2 · Weaponized Generosity, 26 · Financial Control, 13 · Normalization / Desensitization, 21 · Learned Helplessness, 29 · Replacement."
+      ],
+      [
+       "Why it closes.",
+       "The people who give the labor hold no stake in what it builds. The full record lists volunteers \"whose unpaid labor funded assets titled to the institution\" among those who pay, and a volunteer who burns out is replaced."
+      ],
+      [
+       "Where it could be broken.",
+       "It weakens when someone asks what the money built and is answered. The full record names elders and deacons as able to refuse to approve a budget line they cannot explain, and to say so publicly. This paragraph is analysis, not a documented finding."
+      ],
+      [
+       "An example.",
+       "In the day-inside story, Marcus asks his small group whether anyone knows what the building fund is actually at. Tyler says he will ask, and knows he will not."
+      ]
+     ]
+    },
+    {
+     "type": "steps",
+     "style": "dark",
+     "kicker": "Loop · how it runs",
+     "head": "6 · Scandal to Removal to Reform Theatre to Continuity",
+     "intro": "The founder falls, the church rebrands or closes, the network platforms him again, and the model is copied by the next church plant (a newly founded congregation).",
+     "items": [
+      "A founder-pastor holds authority with a board he appointed and no one above him.",
+      "Misconduct comes to light through outside investigations and reporting rather than through the board, as at Mars Hill, RZIM and Hillsong.",
+      "The founder resigns or the church dissolves. Mars Hill dissolved in 2014, and the RZIM finding came only after the founder's death.",
+      "A restoration process, administered by the leader's own peers on a timeline nobody outside chose, can return him to ministry.",
+      "The architecture stays in place and recurs: founder, hand-picked board, no external accountability."
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "light",
+     "kicker": "Loop · why it closes",
+     "head": "6 · Scandal to Removal to Reform Theatre to Continuity",
+     "rows": [
+      [
+       "Techniques that feed it.",
+       "18 · Silent Treatment / Stonewalling, 30 · Plausible Deniability, 25 · Spiritual Bypassing, 29 · Replacement, 17 · Smear Campaign."
+      ],
+      [
+       "Why it closes.",
+       "Removing the person meets the demand for action. The structure that allowed the case, a founder with a board he chose and no one above either, survives the case and is copied."
+      ],
+      [
+       "Where it could be broken.",
+       "The full record names one change: releasing departing staff from their non-disclosure agreements. Outside the church, the Charity Commission in England and Wales can open statutory inquiries and remove trustees; inside it, the Southern Baptist messengers' annual vote has shown it can act. This paragraph is analysis, not a documented finding."
+      ],
+      [
+       "An example.",
+       "Mars Hill Church in Seattle, with about 15 locations, dissolved after its founding pastor resigned, and its structure gave no body above the founder the power to act sooner."
+      ]
+     ]
+    },
+    {
+     "type": "steps",
+     "style": "dark",
+     "kicker": "Loop · how it runs",
+     "head": "7 · Persecution to Solidarity to Insulation to Unaccountability",
+     "intro": "Genuine cultural hostility toward evangelicals is cited to convert a question about the budget into an attack on Jesus.",
+     "items": [
+      "Persecution narratives and culture-war panic are preached as spiritual danger.",
+      "A question is recast as division. Ask about the budget and you have a spirit of division; ask about the allegation and you are touching the anointed.",
+      "The person asking is labeled divisive, bitter or in rebellion, often from the platform.",
+      "Members close ranks. Loyal members defend the pastor, and several people ask the questioner for coffee with the same message: forgive, stop gossiping, trust leadership.",
+      "The question goes unanswered, and \"We are financially accountable\" stands beside a Senate inquiry that most of the ministries it examined declined to answer in full."
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "light",
+     "kicker": "Loop · why it closes",
+     "head": "7 · Persecution to Solidarity to Insulation to Unaccountability",
+     "rows": [
+      [
+       "Techniques that feed it.",
+       "27 · Manufactured Crisis, 17 · Smear Campaign, 16 · Flying Monkeys, 11 · Projection, 12 · DARVO."
+      ],
+      [
+       "Why it closes.",
+       "Each new question can be read as more proof of hostility, so the questions strengthen the solidarity that shields the institution from them."
+      ],
+      [
+       "Where it could be broken.",
+       "It weakens when the question comes from inside. The full record notes that much of the reporting that exposed the pattern came from the evangelical press itself, and the full record closes on the tradition's own principle, the priesthood of all believers, as a warrant to examine the books. This paragraph is analysis, not a documented finding."
+      ],
+      [
+       "An example.",
+       "The Guidepost report found that the Southern Baptist Executive Committee had treated survivors as adversaries and liabilities while it kept a private list of accused ministers."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Say versus do",
+     "head": "What they say, what the record shows",
+     "rows": [
+      [
+       "We are financially accountable.",
+       "Most of the ministries examined by a Senate inquiry declined to provide full disclosure, and the inquiry ended without penalties."
+      ],
+      [
+       "We would never silence a victim.",
+       "Departing staff at several large churches, among them Mars Hill, Harvest Bible Chapel, Hillsong and Willow Creek, signed non-disclosure agreements covering leadership conduct."
+      ],
+      [
+       "We have no hierarchy — every believer is a priest.",
+       "Founder-pastors hold more unchecked authority than any bishop in this codex, precisely because there is no hierarchy above them."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Say versus do",
+     "head": "What they say, what the record shows (cont.)",
+     "rows": [
+      [
+       "There is no registry because of legal risk.",
+       "A list of accused ministers was maintained privately while the registry was opposed publicly."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "light",
+     "kicker": "Say versus do",
+     "head": "Accountability or theatre?",
+     "rows": [
+      [
+       "Last time the chair ran.",
+       "There were four major collapses in a decade. Three founders resigned and one had died before the findings. This page records no change in network-level governance."
+      ],
+      [
+       "Who holds the chair now.",
+       "Founder-pastors and network apostles hold it, with appointed boards and no external audit."
+      ],
+      [
+       "Prediction.",
+       "The next fall will be revealed by a podcast, the church will dissolve into a new corporate name, and the model will be taught at a leadership conference within a year."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Say versus do",
+     "head": "Words used here",
+     "rows": [
+      [
+       "Touch not the Lord's anointed",
+       "Inside: It is a scriptural phrase used to shield leaders from criticism. What it does: It is the single most cited verse in this volume, deployed almost exclusively when a leader is under scrutiny and almost never at any other time. Said plainly: 'Do not examine the pastor.'"
+      ],
+      [
+       "Church discipline",
+       "Inside: It is the formal process for addressing a member's sin. What it does: It frequently arrives at the member raising a concern rather than at the conduct the concern was about, which reverses the direction of accountability entirely. Said plainly: 'You raised something and now you are the subject.'"
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Say versus do",
+     "head": "Words used here (cont.)",
+     "rows": [
+      [
+       "Restoration process",
+       "Inside: It is a program that returns a fallen leader to ministry. What it does: It is almost always applied to leaders and almost never to members, and it is typically administered by the leader's own peers on a timeline nobody outside chose. Said plainly: 'He will be back, and the people he harmed do not have a vote on when.'"
+      ],
+      [
+       "Divisive",
+       "Inside: It means causing disunity in the body. What it does: It is a serious charge in congregational polity, applicable to anyone who raises anything in public, and effectively unanswerable. Said plainly: 'You said it where others could hear.'"
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "light",
+     "kicker": "Cost & cover",
+     "head": "The ledger of exit",
+     "rows": [
+      [
+       "Total social world (Yes)",
+       "The church supplied friends, childcare, school, a small group, and often employment. The denial: \"They're free to go anywhere.\""
+      ],
+      [
+       "Reputation (Frequently)",
+       "Departing staff and members are labeled divisive, bitter, or 'in sin' from the platform. The denial: \"We shared only what the congregation needed to know.\""
+      ],
+      [
+       "Employment and NDAs (Documented)",
+       "Staff leave with severance conditioned on silence. The denial: \"Standard HR practice.\""
+      ],
+      [
+       "Spiritual threat (Common)",
+       "Leavers are warned about backsliding, apostasy, losing covering, or eternal consequence. The denial: \"It's love, not manipulation.\""
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Cost & cover",
+     "head": "How the cost is denied",
+     "rows": [
+      [
+       "Explicit policy (Medium)",
+       "Membership covenants and doctrinal statements are written; money and discipline practice often is not."
+      ],
+      [
+       "Informal enforcement (High)",
+       "Access to platform, leadership, and belonging is the currency, and none of it is documented."
+      ],
+      [
+       "Leadership distance (High)",
+       "Independent polity means no bishop, no denomination, and no one to appeal to."
+      ],
+      [
+       "Doctrinal ambiguity (High)",
+       "'Covering,' 'submission,' 'vision,' and 'unity' are defined by whoever is in charge."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Cost & cover",
+     "head": "How the cost is denied (cont.)",
+     "rows": [
+      [
+       "Cultural outsourcing (High)",
+       "Harm is attributed to one bad pastor or to regional culture, never to structure."
+      ],
+      [
+       "Volunteer enforcement (High)",
+       "Small-group leaders and lay elders enforce; senior leadership stays clean."
+      ],
+      [
+       "Sacred secrecy (Medium)",
+       "Elder-board confidentiality and NDAs both function as sacred secrecy with legal teeth."
+      ],
+      [
+       "Exit cost denial (High)",
+       "'The door is unlocked' is said by institutions that built every relationship the person has."
+      ]
+     ]
+    }
    ]
-  ],
-  "note": "Sources: IRS Publication 1828; Charity Commission for England and Wales.",
-  "foot": "Protestant / Evangelical · The Sacred Divide"
- },
- {
-  "type": "rows",
-  "style": "dark",
-  "kicker": "The evidence",
-  "head": "30 control techniques, graded",
-  "rows": [
-   [
-    "2 Documented.",
-    "Court judgment, government inquiry, regulatory action or financial filing."
-   ],
-   [
-    "18 Taught.",
-    "Repeated leadership instruction from the platform, publications or curriculum."
-   ],
-   [
-    "10 Cultural.",
-    "Community enforcement the institution neither mandates nor prevents."
+  },
+  {
+   "id": "part-6-ledger-cases",
+   "title": "Part 6: Ledger, who is hurt, cases",
+   "slides": [
+    {
+     "type": "cover",
+     "series": "Part 6 of 7",
+     "title": "Who benefits, who pays, and the record",
+     "sub": "The ledger of benefit and cost, who is hurt most, the people in the middle tiers, and six documented cases.",
+     "hook": "Swipe →",
+     "style": "dark"
+    },
+    {
+     "type": "bullets",
+     "style": "dark",
+     "kicker": "The ledger",
+     "head": "Who benefits",
+     "items": [
+      "Founder-pastors and their families benefit through compensation set by hand-picked boards, housing allowances (the part of a US minister's pay that is exempt from income tax), book deals sold to captive congregations, and speaking circuits. Documented collapses (Mars Hill, Hillsong, Willow Creek, RZIM) repeatedly reveal the same architecture.",
+      "Christian broadcasting and publishing conglomerates benefit, and their revenue depends on keeping audiences afraid, mobilized, and giving.",
+      "Political operatives benefit by renting evangelical trust through voter-guide operations, donor-list harvesting, and policy shops that convert pulpit access into power."
+     ]
+    },
+    {
+     "type": "bullets",
+     "style": "light",
+     "kicker": "The ledger",
+     "head": "Money out, leverage back",
+     "items": [
+      "American evangelical money funds legislative and legal campaigns abroad against LGBTQ rights and reproductive access, routed through local partners and framed as pro-family aid. Recipients get resources; recipient countries get laws their citizens never debated.",
+      "Worship music is a global licensing economy: every congregation that sings a megachurch's catalog pays royalties through the CCLI system. Your church's Sunday morning is another church's revenue line.",
+      "Congregational trust is harvested for political operations — voter guides, donor lists, and turnout infrastructure built on pulpit access. Your attendance becomes an asset in a market you never entered."
+     ]
+    },
+    {
+     "type": "bullets",
+     "style": "light",
+     "kicker": "The ledger",
+     "head": "Money out, leverage back (cont.)",
+     "items": [
+      "Short-term mission trips move billions in aggregate and are widely criticized in development literature for serving the participants' formation more than the recipients' needs — help structured around the giver."
+     ]
+    },
+    {
+     "type": "bullets",
+     "style": "dark",
+     "kicker": "The ledger",
+     "head": "Who pays",
+     "items": [
+      "Poor and working-class members pay, targeted by prosperity teaching.",
+      "Women in complementarian churches pay, and so do abuse survivors routed into reconciliation.",
+      "LGBTQ members and youth pay, including those subjected to conversion practices (attempts to change sexual orientation or gender identity).",
+      "Church staff pay, because their employment, housing, and reference letters depended on silence.",
+      "Volunteers pay, because their unpaid labor funded assets titled to the institution.",
+      "Children raised in purity culture and hell teaching pay, and they are now the core of the deconstruction generation."
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "light",
+     "kicker": "Who gets hurt most",
+     "head": "Where the weight lands",
+     "rows": [
+      [
+       "Poor and elderly donors",
+       "Prosperity and seed-faith teaching is aimed hardest at those with least. Compounded by: Many give on fixed incomes, via broadcast, with no local relationship to appeal to."
+      ],
+      [
+       "Women in complementarian churches",
+       "They are excluded from teaching and eldership, and abuse is routed to reconciliation. Compounded by: It is worse where the counseling pastor is a friend of the accused."
+      ],
+      [
+       "LGBTQ youth",
+       "They face exclusion and, in past decades, conversion practices. Compounded by: They face it as minors in households that agree with the exclusion."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "light",
+     "kicker": "Who gets hurt most",
+     "head": "Where the weight lands (cont.)",
+     "rows": [
+      [
+       "Church staff",
+       "Their employment, housing, and references are contingent on silence. Compounded by: They have no transferable credentials outside ministry."
+      ],
+      [
+       "The deconstruction generation",
+       "They absorbed purity culture and hell teaching as children and process them as adults. Compounded by: Saying so out loud can bring family estrangement."
+      ]
+     ]
+    },
+    {
+     "type": "bullets",
+     "style": "dark",
+     "kicker": "Who gets hurt most",
+     "head": "From The LGBTQ+ Codex",
+     "items": [
+      "Where traditions reversed — Multiple mainline Protestant denominations, liberal Jewish movements, and Unitarian and Quaker bodies have ordained and married LGBTQ members following votes of their own governing bodies."
+     ]
+    },
+    {
+     "type": "bullets",
+     "style": "dark",
+     "kicker": "Who gets hurt most",
+     "head": "From The Children's Codex",
+     "items": [
+      "Reporting, and the internal-first rule — The Guidepost report on the Southern Baptist Convention (2022) found that executive staff maintained a private list of accused ministers for years while the convention publicly asserted its polity made such a list impossible. The impossibility was a claim; the filing cabinet falsified it."
+     ]
+    },
+    {
+     "type": "text",
+     "style": "light",
+     "kicker": "The middle tiers",
+     "head": "People who carry out the work",
+     "paras": [
+      "Most of the institution's work is done below the founder and the board, by people who see decisions without making them. Small-group leaders, worship leaders, staff, elders and deacons, and Christian school teachers each carry part of the load, and each stands at one point where the next decision could be declined. The table sets out what each tier does, what it sees, what it is asked to do and where it could refuse."
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "The middle tiers",
+     "head": "What each tier sees and could refuse",
+     "rows": [
+      [
+       "Small-group leaders",
+       "Does: Hold the actual pastoral relationships and the flow of information upward. Sees: Every doubt, every marital crisis, every departure before leadership does. Is asked to: Report concerns. Could refuse: Convert a confidence into a report"
+      ],
+      [
+       "Worship leaders and creative staff",
+       "Does: Produce the emotional architecture of the service. Sees: How deliberately the arc is engineered. Is asked to: Build to the giving moment. Could refuse: Place the appeal at the emotional peak"
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "The middle tiers",
+     "head": "What each tier sees and could refuse (cont.)",
+     "rows": [
+      [
+       "Church staff and administrators",
+       "Does: Run the operation on modest salaries. Sees: The compensation gap, the discretionary account, the NDA in their own severance. Is asked to: Sign the NDA. Could refuse: Sign a non-disclosure agreement covering conduct rather than commercial information"
+      ],
+      [
+       "Elders and deacons",
+       "Does: Formally hold authority they were appointed to by the person they oversee. Sees: That unanimity is expected before the meeting starts. Is asked to: Present a united front. Could refuse: Approve a budget line they cannot explain, and say so publicly"
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "The middle tiers",
+     "head": "What each tier sees and could refuse (cont.)",
+     "rows": [
+      [
+       "Christian school teachers",
+       "Does: Educate the next cohort. Sees: Which conduct clauses are enforced and against whom. Is asked to: Model the standard. Could refuse: Teach a curriculum they know to be factually false"
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Documented case",
+     "head": "Guidepost report on the Southern Baptist Convention",
+     "rows": [
+      [
+       "When.",
+       "2022"
+      ],
+      [
+       "What.",
+       "An independent investigation commissioned under pressure from member churches found that the denomination's Executive Committee had maintained a private list of accused ministers while publicly resisting a registry, and had treated survivors as adversaries and liabilities."
+      ],
+      [
+       "Outcome.",
+       "The Executive Committee released its list of accused ministers. Messengers voted in 2022 for a public database; none was ever published, and in 2025 the Executive Committee shelved it, citing legal risk. The list had existed for years without being acted upon."
+      ],
+      [
+       "Evidence grade.",
+       "Documented"
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Documented case",
+     "head": "Senate inquiry into six television ministries",
+     "rows": [
+      [
+       "When.",
+       "2007–2011"
+      ],
+      [
+       "What.",
+       "A U.S. Senate Finance Committee inquiry examined six large broadcast ministries, documenting private aircraft, high-value parsonages, and boards controlled by the founders' families. Most declined to provide full financial disclosure."
+      ],
+      [
+       "Outcome.",
+       "The inquiry concluded without penalties or legislation. The inquiry's principal finding was the sector's opacity — and that opacity remains lawful."
+      ],
+      [
+       "Evidence grade.",
+       "Documented"
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Documented case",
+     "head": "A megachurch with no one above the founder (United States, 2014)",
+     "rows": [
+      [
+       "When.",
+       "2014"
+      ],
+      [
+       "What.",
+       "Mars Hill Church in Seattle, with about 15 locations, dissolved after its founding pastor resigned amid findings about his leadership."
+      ],
+      [
+       "Outcome.",
+       "The church closed; its structure gave no body above the founder the power to act sooner."
+      ],
+      [
+       "Evidence grade.",
+       "Documented"
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Documented case",
+     "head": "The apologist's ministry investigates its founder (United States, 2021)",
+     "rows": [
+      [
+       "When.",
+       "2021"
+      ],
+      [
+       "What.",
+       "An investigation commissioned by Ravi Zacharias International Ministries found that its late founder had sexually abused massage therapists over years."
+      ],
+      [
+       "Outcome.",
+       "The finding came only after the founder's death."
+      ],
+      [
+       "Evidence grade.",
+       "Documented"
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Documented case",
+     "head": "The founder, the father and the court (Australia, 2021–2023)",
+     "rows": [
+      [
+       "When.",
+       "2021–2023"
+      ],
+      [
+       "What.",
+       "Hillsong founder Brian Houston was charged with concealing his father's child sex offences. He resigned from Hillsong in March 2022 and was found not guilty in August 2023."
+      ],
+      [
+       "Outcome.",
+       "Houston was acquitted. He had already stepped down; the verdict did not restore him."
+      ],
+      [
+       "Evidence grade.",
+       "Documented"
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Documented case",
+     "head": "Willow Creek: the elder board and the founder (United States, 2018–2019)",
+     "rows": [
+      [
+       "When.",
+       "2018–2019"
+      ],
+      [
+       "What.",
+       "Bill Hybels, founding pastor of Willow Creek Community Church near Chicago, resigned in April 2018 after former staff accused him of a pattern of sexually inappropriate words and actions. Willow Creek and Hybels first rebutted the claims. An Independent Advisory Group the church appointed reported in February 2019 that the allegations were credible and faulted the elder board."
+      ],
+      [
+       "Outcome.",
+       "The founder had already left; the finding that his accusers were credible came ten months later, from a panel the church chose."
+      ],
+      [
+       "Evidence grade.",
+       "Documented"
+      ]
+     ]
+    }
    ]
-  ],
-  "note": "The codex examines institutions, money and power. It does not judge anyone's faith.",
-  "foot": "Protestant / Evangelical · The Sacred Divide"
- },
- {
-  "type": "help",
-  "style": "red",
-  "kicker": "If this is your story",
-  "head": "Where to get help",
-  "rows": [
-   [
-    "Recovering from Religion",
-    "(844) 368-2848 · US, Canada, online"
-   ],
-   [
-    "Faith to Faithless (UK)",
-    "0800 448 0748 · freephone, set hours"
-   ],
-   [
-    "Childhelp",
-    "1-800-422-4453 · child abuse"
-   ],
-   [
-    "RAINN",
-    "1-800-656-4673 · sexual assault"
+  },
+  {
+   "id": "part-7-change-questions-help",
+   "title": "Part 7: What can change, and what you can do",
+   "slides": [
+    {
+     "type": "cover",
+     "series": "Part 7 of 7",
+     "title": "What can change, and what you can do",
+     "sub": "Precedent for change, voices from inside, three countries, the questions to ask, how to leave safely, and where to get help.",
+     "hook": "Swipe →",
+     "style": "dark"
+    },
+    {
+     "type": "rows",
+     "style": "light",
+     "kicker": "Precedent",
+     "head": "It has been broken before",
+     "rows": [
+      [
+       "The SBC's Guidepost report was published in full, and the Executive Committee's list of accused ministers was released.",
+       "Who: Survivors and member churches forced the motion. When: 2022. Cost: Advocates faced years of denominational resistance and personal attacks."
+      ],
+      [
+       "Purity culture was repudiated by its own principal authors.",
+       "Who: The authors did it themselves, publicly. When: 2016–2019. Cost: Not recorded on this page."
+      ],
+      [
+       "Major ex-gay ministries closed with a public apology.",
+       "Who: Former leaders of those ministries closed them. When: 2013. Cost: Exodus International closed."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Precedent",
+     "head": "Promises on the record",
+     "rows": [
+      [
+       "Southern Baptist Convention — a database of credibly accused ministers",
+       "2022, following the Guidepost report. Status: Abandoned. Messengers voted for the \"Ministry Check\" database in 2022. No name was ever published; in February 2025 the Executive Committee said it was no longer a focus, citing legal hurdles. In August 2026 survivors launched their own national database, ProtestantAccountability.org, with more than 2,700 people accused of committing or covering up church abuse listed at launch."
+      ]
+     ]
+    },
+    {
+     "type": "quote",
+     "style": "red",
+     "kicker": "What would change this page",
+     "quote": "Public, retroactive release of departing staff from their non-disclosure agreements at the movement's flagship churches would revise the concealment findings — and would cost nothing but the concealment."
+    },
+    {
+     "type": "bullets",
+     "style": "light",
+     "kicker": "Voices from inside",
+     "head": "People who spoke",
+     "items": [
+      "Christa Brown. A survivor and retired lawyer, she wrote to 18 Baptist leaders in four states in 2004–05 to warn them about the youth minister who had abused her, and none of them offered help.",
+      "The survivors who built their own database. In 2026, after the Southern Baptist database was shelved, survivors led by Chellee Taylor launched ProtestantAccountability.org in August 2026, a searchable national database of more than 2,700 people accused of committing or covering up church abuse.",
+      "Alan Chambers. As president of Exodus International, an ex-gay ministry, he apologized to gay people and shut the ministry down in 2013.",
+      "Joshua Harris. The author of I Kissed Dating Goodbye, the best-known book of purity culture, he discontinued his own bestseller in 2018."
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Regional variants",
+     "head": "United States",
+     "rows": [
+      [
+       "Apex.",
+       "There is no single apex. Polity is congregational and independent, and the SBC president is elected annually while the executive staff are not."
+      ],
+      [
+       "Law.",
+       "Churches file no Form 990 (the annual public return other US charities must file). State attorneys general have jurisdiction over charitable assets. Many states exempt clergy from mandatory reporting."
+      ],
+      [
+       "Documented.",
+       "The Guidepost report (2022) examined the SBC. The Grassley Senate inquiry (2007–2011) closed without full disclosure. Megachurch NDA controversies have recurred."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Regional variants",
+     "head": "United States (cont.)",
+     "rows": [
+      [
+       "Exit.",
+       "Exit costs are low socially in most of the country, and high where the church is also the school, employer, and social world, which is common in the South and Midwest."
+      ],
+      [
+       "Regulator.",
+       "Complaints go to state attorneys general, and to the IRS for affiliated entities that do file. The SBC messenger vote is a genuine internal lever."
+      ],
+      [
+       "Tell.",
+       "The country with the largest evangelical population has among the weakest religious financial disclosure in the developed world. Those two facts are related."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Regional variants",
+     "head": "United Kingdom",
+     "rows": [
+      [
+       "Apex.",
+       "Authority sits in denominational structures and independent churches. Most are charities, though smaller churches in several denominations are excepted from registration until 2031."
+      ],
+      [
+       "Law.",
+       "The Charity Commission requires annual accounts, publishes trustee names, and can open statutory inquiries and remove trustees. Serious incident reporting is mandatory."
+      ],
+      [
+       "Documented.",
+       "The Commission has opened statutory inquiries into churches over safeguarding and financial management, and has removed trustees."
+      ],
+      [
+       "Exit.",
+       "Exit costs are generally low, and higher in tightly-knit immigrant and diaspora congregations."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Regional variants",
+     "head": "United Kingdom (cont.)",
+     "rows": [
+      [
+       "Regulator.",
+       "The Charity Commission is the most reader-usable regulator in this entire volume. It is free and searchable, and it acts."
+      ],
+      [
+       "Tell.",
+       "The theology and the practices are the same, and the accounts are published. The variable is a disclosure statute."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Regional variants",
+     "head": "Australia",
+     "rows": [
+      [
+       "Apex.",
+       "Authority sits with denominational bodies and independent megachurches, notably in the Hillsong network."
+      ],
+      [
+       "Law.",
+       "Churches register with the ACNC (the Australian Charities and Not-for-profits Commission), though churches that qualify as \"basic religious charities\" are exempt from financial reporting. The Royal Commission (2013–2017) covered institutions across denominations. Mandatory reporting varies by state."
+      ],
+      [
+       "Documented.",
+       "The record includes Royal Commission case studies, the Hillsong disclosures, and Brian Houston's 2022 resignation, followed by a 2023 acquittal on the criminal charge."
+      ]
+     ]
+    },
+    {
+     "type": "rows",
+     "style": "dark",
+     "kicker": "Regional variants",
+     "head": "Australia (cont.)",
+     "rows": [
+      [
+       "Exit.",
+       "Exit costs are low socially, and higher for those employed in church-linked enterprises."
+      ],
+      [
+       "Regulator.",
+       "The ACNC oversees finances and governance. State child-protection authorities and state police are the other routes."
+      ],
+      [
+       "Tell.",
+       "Australia produced the most thorough statutory examination of institutional child abuse anywhere. Its findings are usable by readers in every other jurisdiction."
+      ]
+     ]
+    },
+    {
+     "type": "bullets",
+     "style": "light",
+     "kicker": "The questions",
+     "head": "Six questions to ask",
+     "items": [
+      "If there is nothing to hide, why won't your church publish its budget, your pastor's salary, and its housing allowance — on the website, this week?",
+      "Why does a church that preaches truth-telling require departing staff to sign non-disclosure agreements?",
+      "The last time a leader was accused, who conducted the investigation, who paid them, and did the report get published in full or summarized by the people it examined?",
+      "If the door is unlocked, why does everyone who walks through it lose every friend they had?",
+      "Prosperity teaching says giving produces return. Ask for the data. Then ask why the only reliably enriched party is the person teaching it."
+     ]
+    },
+    {
+     "type": "bullets",
+     "style": "light",
+     "kicker": "The questions",
+     "head": "Six questions to ask (cont.)",
+     "items": [
+      "You were told doubt is dangerous and criticism is divisive. Ask who is protected by those two rules, and notice it is never you."
+     ]
+    },
+    {
+     "type": "text",
+     "style": "dark",
+     "kicker": "In closing",
+     "head": "The priesthood of all believers",
+     "paras": [
+      "Your tradition's founding claim is the priesthood of all believers — that you can read, interpret, and stand before God without a middleman. Take that seriously and the conclusion is unavoidable: you do not need permission to examine your church's books, its process, or its pastor. That is not rebellion against Protestant principle. It is Protestant principle."
+     ]
+    },
+    {
+     "type": "text",
+     "style": "dark",
+     "kicker": "In closing",
+     "head": "The priesthood of all believers (cont.)",
+     "paras": [
+      "The people who exposed Mars Hill, Hillsong, and the SBC's own abuse records were not atheists. They were believers who refused to let loyalty to an institution stand in for loyalty to God. You are allowed to be one of them. You may find it is the most evangelical thing you ever do."
+     ]
+    },
+    {
+     "type": "bullets",
+     "style": "light",
+     "kicker": "Leaving safely",
+     "head": "Practical guidance, not legal advice",
+     "items": [
+      "Leaving is legally free. The costs are social, family and sometimes economic, where the church is also the school, employer or social world.",
+      "If you signed a non-disclosure agreement as staff, it generally cannot stop you reporting a crime to police; take the agreement to a lawyer.",
+      "Membership covenants. Some churches ask members to sign one; you can resign membership in writing.",
+      "If you were abused, go to the police or child-protection services first, not the church.",
+      "Find support that is not run by a church."
+     ]
+    },
+    {
+     "type": "help",
+     "style": "red",
+     "kicker": "If this is your story",
+     "head": "Where to get help",
+     "rows": [
+      [
+       "Recovering from Religion",
+       "(844) 368-2848 · US, Canada and online"
+      ],
+      [
+       "Faith to Faithless (UK)",
+       "0800 448 0748 · freephone, set hours"
+      ],
+      [
+       "SNAP",
+       "Survivors of clergy abuse · snapnetwork.org"
+      ],
+      [
+       "ICSA",
+       "Former members of high-control groups · internationalculticstudies.org"
+      ],
+      [
+       "Childhelp",
+       "1-800-422-4453 · child abuse"
+      ],
+      [
+       "RAINN",
+       "1-800-656-4673 · sexual assault"
+      ]
+     ],
+     "note": "Full record, sources and PDF: noblefathercreations.com/faith"
+    }
    ]
-  ],
-  "note": "Full record, sources and PDF: noblefathercreations.com/faith",
-  "foot": "Protestant / Evangelical · The Sacred Divide"
- }
-]
+  }
+ ]
+}

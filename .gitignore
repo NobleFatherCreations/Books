@@ -37,3 +37,6 @@ tools/pdf/.build-*.html
 # Local preview of the Sacred Divide site (relative links, no visit counter). The live build is
 # library/faith/ (scripts/sacred-divide-site.py --base /faith/ --pdf-base /faith/pdf/ --ext "" --live --out library/faith)
 library/_undeployed/sacred-divide-redesign/
+exports/tiktok-*/
+exports/pe/tiktok/
+exports/sacred-divide-protestant-evangelical-pdf-and-tiktok.zip
