@@ -19,12 +19,12 @@ partial: []
 |  |  |
 |---|---|
 | Size | Extremely difficult to count: perhaps 8–20 million formally identifying, while hundreds of millions of Chinese people participate in practices of Daoist origin without any affiliation. [ACADEMIC SOURCE] |
-| Who's in charge | Chinese Taoist Association — The state-supervised body through which clergy registration and temple licensing run in the PRC — president Li Guangfu, re-elected in December 2025 |
-| Chosen by / removable by | The Party's religious-affairs apparatus / The Party |
-| Money in one line | Temple fees, ritual services (funerals, exorcisms, blessings), fortune-telling and feng shui economies, and the global qigong/wellness course market. |
-| Leaving in one line | Low formal exit costs; the risk zone is master-student capture in small schools where 'transmission' justifies control and fees. |
+| Who's in charge | The Chinese Taoist Association is the state-supervised body through which clergy registration and temple licensing run in the People's Republic of China (PRC). Its president is Li Guangfu, re-elected in December 2025. |
+| Chosen by / removable by | The Chinese Communist Party's religious-affairs apparatus / The Chinese Communist Party |
+| Money in one line | The money comes from temple fees, ritual services (funerals, exorcisms, blessings), fortune-telling, feng shui (the practice of siting buildings and graves by supposed energy flows) and the global market in qigong (breathing and movement exercises) and wellness courses. |
+| Leaving in one line | Formal exit costs are low. The risk is master-student capture in small schools, where 'transmission' (the handing down of a teacher's teachings and authority along a lineage, a chain of teachers and students) is used to justify control and fees. |
 | The unanswered question | If the transmission is real, why can no lineage be verified before the money changes hands? |
-| Evidence | 3 of 30 techniques sourced to a named document; grades: Cultural 29, Codified 1 |
+| Evidence | Three of the 30 techniques are sourced to a named document. The grades are Cultural 29 and Codified 1. |
 | Family | East Asian — taoism, confucianism, shinto |
 | Last checked | 2026-09-27 |
 :::
@@ -45,7 +45,7 @@ Standing practice at dawn on the deck, forty minutes, and afterwards her hands f
 
 She is sixty-one and retired and has spent, at last count, $18,400 across three years — the foundations course, the intensive, the certification track, two private diagnostics.
 
-At eleven, the Zoom with Master Wen. Twelve of them in little squares. He looks at her for a moment and says her liver qi is stagnant and that this is why the shoulder has not resolved. She writes it down. She has written down four different explanations for the shoulder across three years and each one has been superseded by the next, and each supersession has cost between four hundred and twelve hundred dollars.
+At eleven, the Zoom with Master Wen. Twelve of them in little squares. He looks at her for a moment and says her liver qi (in Chinese medicine and Daoist practice, the body's vital energy) is stagnant and that this is why the shoulder has not resolved. She writes it down. She has written down four different explanations for the shoulder across three years and each one has been superseded by the next, and each supersession has cost between four hundred and twelve hundred dollars.
 
 She asks — and she has been building up to this for two weeks — where the lineage comes from. There is a small pause. He smiles and says that the transmission cannot be put into words, and that her need for a document is the Western mind, and that this is itself something to work on. Three people in the squares nod. Ellen says thank you.
 
@@ -69,13 +69,13 @@ If the transmission is real, why can no lineage be verified before the money cha
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| The Dao cannot be captured in words. | Said by people selling words, in graded and priced levels. | [PATTERN OBSERVED] |
+| The Dao (the Way, the tradition's name for the underlying order of things) cannot be captured in words. | Said by people selling words, in graded and priced levels. | [PATTERN OBSERVED] |
 
 ### One cost of leaving, beside its denial
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Formal penalty | Very low | No membership, no excommunication, no shunning apparatus | Accurately: institutional Daoism has among the lowest exit costs here. |
+| Formal penalty | Very low | There is no membership, no excommunication and no shunning apparatus. | Accurately: institutional Daoism has among the lowest exit costs here. |
 
 ### The strongest objection, answered
 
@@ -83,32 +83,32 @@ If the transmission is real, why can no lineage be verified before the money cha
 
 **What is true in it.** The philosophical texts are genuinely the least authoritarian documents in this codex, and the 20th-century destruction of lineages was catastrophic and real.
 
-**The answer.** Zhuangzi's entire project was deflating people claiming spiritual authority. Asking a teacher for a verifiable lineage and a written price list is not Western rigidity — it is the source texts' own attitude, applied to the people currently invoking them.
+**The answer.** The entire project of Zhuangzi, the ancient Daoist philosopher, was deflating people claiming spiritual authority. Asking a teacher for a verifiable lineage and a written price list is not Western rigidity — it is the source texts' own attitude, applied to the people currently invoking them.
 
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-Chinese religious-philosophical tradition of alignment with the Dao; ranges from philosophical texts (Laozi, Zhuangzi) to organized religious lineages, temple networks, ritual masters, and internal-alchemy schools.
+Taoism is a Chinese religious-philosophical tradition of alignment with the Dao. It ranges from philosophical texts (the Daodejing, attributed to the sage Laozi, and the Zhuangzi) to organized religious lineages, temple networks, ritual masters, and internal-alchemy (meditative practice aimed at refining the body's energies) schools.
 :::
 
-- The philosophical stream's own skepticism of authority and artifice — Zhuangzi is a standing rebuke to religious pomposity; teachers with transparent lineage claims and posted prices.
+- Healthy practice here includes the philosophical stream's own skepticism of authority and artifice, in which Zhuangzi is a standing rebuke to religious pomposity, and teachers who make transparent lineage claims and post their prices.
 
 ## 5. History {#history}
 
-Classical texts (~4th c. BCE); organized religious Taoism from the Celestial Masters (2nd c. CE); imperial patronage cycles; suppression and state management in the PRC; global diffusion through qigong, tai chi, and wellness culture.
+The tradition began with classical texts (~4th c. BCE) and took organized religious form with the Celestial Masters (2nd c. CE). It passed through cycles of imperial patronage and, in the PRC, suppression and state management, and it spread globally through qigong, tai chi, and wellness culture.
 
 ### Timeline
 
 ```timeline
 c. 4th–3rd c. BCE | Daodejing and Zhuangzi circulate | A philosophy explicitly skeptical of rulers, hierarchy, and moral posturing.
-142 CE | Celestial Masters movement founded; organized religious Daoism with clergy and dues | Philosophy acquires an institution, a priesthood, and a tax — within four centuries of the texts.
-300–900 CE | Canon formation; Shangqing and Lingbao traditions; imperial patronage cycles | Court favor determines which lineages flourish.
+142 CE | Celestial Masters movement (led by a hereditary line of leaders descended from Zhang Daoling) founded; organized religious Daoism with clergy and dues | Philosophy acquires an institution, a priesthood, and a tax — within four centuries of the texts.
+300–900 CE | Canon formation; Shangqing and Lingbao (two scriptural traditions of early Daoism) traditions; imperial patronage cycles | Court favor determines which lineages flourish.
 1100–1400 | Quanzhen (Complete Perfection) monasticism; Mongol-era patronage | Monastic Daoism institutionalizes; internal alchemy traditions formalize.
 1400–1900 | Temple networks, ritual specialists, folk-religion integration | Daoist ritual becomes the practical religion of village life across China.
 1911–1949 | Republican-era suppression as 'superstition'; temple confiscations | Modernizing states treat the tradition as backwardness.
 1949–1976 | PRC suppression; Cultural Revolution destroys temples and lineages | Massive rupture of transmission — a real persecution that must be stated alongside any critique.
 1957 / 1980s | China Taoist Association established; post-Mao revival under state licensing | Clergy and temples operate by government permission. [OFFICIAL POLICY]
-1980s–2000s | Qigong boom; Falun Gong emerges and is banned in 1999 | Mass practice movements and their suppression — state control of the spiritual field. [GOVERNMENT REPORT]
+1980s–2000s | Qigong boom; Falun Gong (a qigong-based spiritual movement) emerges and is banned in 1999 | Mass practice movements and their suppression — state control of the spiritual field. [GOVERNMENT REPORT]
 1990s–present | Global wellness market absorbs qigong, tai chi, feng shui; temple tourism monetized | Western lineage entrepreneurship with no verifiable accountability. [PATTERN OBSERVED]
 ```
 
@@ -127,7 +127,7 @@ Under Kublai Khan, after court debates between Buddhists and Taoists, an edict o
 
 The Chinese Taoist Association was established under the new state's religious-affairs framework; clergy registration and temple licensing have run through it since.
 
-**Why it matters.** The apex here is a state office, and it has been since. That sentence is the tradition's structure in mainland China, stated plainly.
+**Why it matters.** The apex here is a state office, and it has been one since the Association was founded. That sentence is the tradition's structure in mainland China, stated plainly.
 :::
 
 ::: card
@@ -135,7 +135,7 @@ The Chinese Taoist Association was established under the new state's religious-a
 
 As qigong and internal-arts teaching commercialised in the West, competing Celestial Master claims and unverifiable transmission lines entered a marketplace with no register, no governing body, and no complaints procedure.
 
-**Why it matters.** The one page in this codex where the meaningful accountability body is a small-claims court. Ask for one checkable fact before paying — the response is the entire due diligence.
+**Why it matters.** This is the one page in this codex where the meaningful accountability body is a small-claims court. Ask for one checkable fact before paying — the response is the entire due diligence.
 :::
 
 ::: cites
@@ -144,14 +144,14 @@ Sources for this section: [7] [9]
 
 ## 6. Branches & variants {#branches}
 
-Quanzhen and Zhengyi as the principal ordination lineages; countless local temple traditions; a distinct Western philosophical/wellness stream largely detached from either.
+The principal ordination lineages are Quanzhen and Zhengyi (Orthodox Unity). Beside them are countless local temple traditions and a distinct Western philosophical and wellness stream, largely detached from either.
 
 | Branch | Where | What differs on this page's questions |
 |---|---|---|
-| **Quanzhen** | Monastic; mainland China | Celibate clergy living in temples [7] |
-| **Zhengyi** (Celestial Masters) | Married priests; mainland China and Taiwan | A hereditary Celestial Master line, with rival claimants to the 65th generation since 2008 [7][8] |
-| **Local temple traditions** | China, Taiwan, Southeast Asia | Blend with folk religion; few people identify as Daoist, but 18% of Chinese adults believe in Daoist deities [5] |
-| **Western philosophical and wellness streams** | Europe, North America | Tai chi and qigong societies, often charities with no clergy [12] |
+| **Quanzhen** | Monastic; mainland China | Its clergy are celibate and live in temples [7]. |
+| **Zhengyi** (Celestial Masters) | Married priests; mainland China and Taiwan | It follows a hereditary Celestial Master line, and rival claimants have contested the 65th generation since 2008 [7][8]. |
+| **Local temple traditions** | China, Taiwan, Southeast Asia | These traditions blend with folk religion; few people identify as Daoist, but 18% of Chinese adults believe in Daoist deities [5]. |
+| **Western philosophical and wellness streams** | Europe, North America | These are tai chi and qigong societies, often charities with no clergy [12]. |
 
 ## 7. Structure {#structure}
 
@@ -160,14 +160,14 @@ Quanzhen and Zhengyi as the principal ordination lineages; countless local templ
 |  |  |
 |---|---|
 | Adherents | Extremely difficult to count: perhaps 8–20 million formally identifying, while hundreds of millions of Chinese people participate in practices of Daoist origin without any affiliation. [ACADEMIC SOURCE] |
-| Regions | Mainland China, Taiwan (where temple Daoism is vigorous and unregulated by Beijing), Hong Kong, Singapore, Malaysia, Vietnam, global diaspora. |
-| Trend | State-managed revival in the PRC; strong in Taiwan; the global wellness stream growing fastest and least accountably. |
+| Regions | The tradition is found in mainland China, Taiwan (where temple Daoism is vigorous and unregulated by Beijing), Hong Kong, Singapore, Malaysia, Vietnam and the global diaspora. |
+| Trend | The revival in the PRC is state-managed, the tradition is strong in Taiwan, and the global wellness stream is growing fastest and least accountably. |
 | Participation | The gap between practice and identity is the largest of any tradition here — a person may use feng shui, consult a temple, and practice qigong while reporting no religion at all. |
 
 ### Authority
 
-- Lineage transmission and ritual-master ordination; in the PRC, the state-run Taoist Association licenses clergy and temples — religion under bureaucratic management. [OFFICIAL POLICY]
-- In the diffuse Western market: self-authorized masters with invented or embellished lineages. [PATTERN OBSERVED]
+- Authority rests on lineage transmission and ritual-master ordination. In the PRC, the state-run Taoist Association licenses clergy and temples, which places religion under bureaucratic management. [OFFICIAL POLICY]
+- In the diffuse Western market, authority rests with self-authorized masters who have invented or embellished lineages. [PATTERN OBSERVED]
 
 ### The top of the chain
 
@@ -177,9 +177,9 @@ Two apexes exist, and neither can be appealed by a student: a state license, or 
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| Chinese Taoist Association | The state-supervised body through which clergy registration and temple licensing run in the PRC — president Li Guangfu, re-elected in December 2025 | The Party's religious-affairs apparatus | The Party |
-| The Celestial Master line | The succession most cited in the West is itself disputed among claimants — the lineage cannot agree on who holds it | Contested inheritance | Nobody |
-| The Western teaching market | No register, no governing body, no complaint procedure. The teacher is the apex of a lineage you cannot verify before payment | Self-designation | Refund policy, if any |
+| Chinese Taoist Association | It is the state-supervised body through which clergy registration and temple licensing run in the PRC. Its president is Li Guangfu, re-elected in December 2025. | The Party's religious-affairs apparatus chooses the holder. | The Party can remove the holder. |
+| The Celestial Master line | The succession most cited in the West is itself disputed among claimants — the lineage cannot agree on who holds it | The holder is chosen by contested inheritance. | Nobody can remove the holder. |
+| The Western teaching market | No register, no governing body, no complaint procedure. The teacher is the apex of a lineage you cannot verify before payment | Teachers designate themselves. | Removal is by refund policy, if there is one. |
 
 ::: tell
 Before the first fee changes hands, ask for one thing that can be independently checked. The reaction to that request is the entire due diligence.
@@ -189,11 +189,11 @@ Before the first fee changes hands, ask for one thing that can be independently 
 
 | Entity | Type | Holder | Holds | Why it matters to you | Receipt |
 |---|---|---|---|---|---|
-| China Taoist Association | State-licensed body | Government-approved leadership | Registration of clergy and temples in the PRC | Whether your priest is permitted to exist | [OFFICIAL POLICY] |
-| Temple tourism management companies | Commercial | Management firms and local government | Ticketed access to sacred sites and the revenue from it | Admission to a mountain your ancestors walked up for free | [OFFICIAL POLICY: 2017 directive of twelve central agencies barring investors from running temples] |
-| Ritual service providers | Fee-for-outcome practice | Ritual masters and geomancers | Funerals, exorcisms, and site blessings, priced during crisis | What your grief and your illness cost | [PATTERN OBSERVED] |
-| Western lineage entrepreneurs | Unverifiable credential | Self-certified masters | Escalating course fees and secret transmissions with no external validator | Years of payments for access to your own breath | [PATTERN OBSERVED / FORMER MEMBER TESTIMONY] |
-| Global qigong and wellness certification chains | Commercial pyramid | Original certifiers | Downstream fee shares from everyone they credential | What being allowed to teach costs, forever |  |
+| China Taoist Association | State-licensed body | Its leadership is approved by the government. | It holds the registration of clergy and temples in the PRC. | It determines whether your priest is permitted to exist. | [OFFICIAL POLICY] |
+| Temple tourism management companies | Commercial | Management firms and local government hold it. | It holds ticketed access to sacred sites and the revenue from it. | It decides admission to a mountain your ancestors walked up for free. | [OFFICIAL POLICY: 2017 directive of twelve central agencies barring investors from running temples] |
+| Ritual service providers | Fee-for-outcome practice | Ritual masters and geomancers (practitioners of feng shui) hold it. | It holds funerals, exorcisms and site blessings, priced during crisis. | It sets what your grief and your illness cost. | [PATTERN OBSERVED] |
+| Western lineage entrepreneurs | Unverifiable credential | Self-certified masters hold it. | It holds escalating course fees and secret transmissions with no external validator. | It means years of payments for access to your own breath. | [PATTERN OBSERVED / FORMER MEMBER TESTIMONY] |
+| Global qigong and wellness certification chains | Commercial pyramid | Original certifiers hold it. | It holds downstream fee shares from everyone they credential. | It sets what being allowed to teach costs, forever. |  |
 
 ::: cites
 Sources for this section: [3] [4] [5] [8]
@@ -206,8 +206,8 @@ Sources for this section: [3] [4] [5] [8]
 | **China — registration** | The Regulations on Religious Affairs (in force February 2018) require clergy and venues to register [3]; the China Taoist Association is the state-supervised body (president re-elected December 2025) [4] | At least 120,000 Buddhist and Taoist clergy work within this system [6] |
 | **China — commerce** | Twelve central departments barred companies from investing in, leasing or running Buddhist and Taoist venues in 2017, after a 2012 notice failed [1][2] | Temple tourism is regulated by the same state that profits from it [1][6] |
 | **China — buildings** | Religious statues need approval from religious-affairs authorities [10][11] | Authorities ordered a Laozi statue demolished and another covered in 2018 [10][11] |
-| **China — qigong** | Falun Gong, a qigong movement, was banned in July 1999 [9] | — |
-| **United Kingdom** | Charity law [12] | Tai chi societies file public accounts [12] |
+| **China — qigong** | Falun Gong, a qigong movement, was banned in July 1999 [9] | The state banned the movement outright [9]. |
+| **United Kingdom** | Charity law applies to registered tai chi societies [12]. | Registered tai chi societies file public accounts [12]. |
 
 ### Who can compel an answer
 
@@ -217,66 +217,66 @@ In the West: consumer-protection law and the small-claims court — the teacher 
 
 ### Where it comes from
 
-- Temple fees, ritual services (funerals, exorcisms, blessings), fortune-telling and feng shui economies, and the global qigong/wellness course market.
-- PRC temple tourism monetization: ticketed sacred sites with revenue flowing through state-adjacent management. [OFFICIAL POLICY: 2017 directive of twelve central agencies barring investors from running temples]
+- The money comes from temple fees, ritual services (funerals, exorcisms, blessings), fortune-telling and feng shui economies, and the global qigong and wellness course market.
+- In the PRC, temple tourism is monetized: sacred sites are ticketed, and the revenue flows through state-adjacent management. [OFFICIAL POLICY: 2017 directive of twelve central agencies barring investors from running temples]
 
 ### Follow the money
 
 | Flow | Stated purpose | How it controls | Who benefits |
 |---|---|---|---|
-| Temple offerings, incense, divination, and fortune slips | Blessing, guidance, temple upkeep | Fee-per-answer religion targeting anxiety about health, money, and marriage | Temples, ritual specialists, and in the PRC, state-adjacent management |
-| Ritual services (funerals, exorcisms, geomancy) | Care for the dead; harmony of place | Priced life-crisis services with no standard rates; escalation during grief | Ritual masters and their networks |
-| Qigong, tai chi, and internal-alchemy courses | Health and cultivation | Escalating levels, initiation fees, and secret transmissions — a certification pyramid with no external validator | Teachers and lineage entrepreneurs |
-| Temple tourism and ticketed sacred sites | Heritage preservation | Sacred access converted to admission revenue under management with unclear beneficiaries | Management companies and local government [OFFICIAL POLICY: 2017 directive of twelve central agencies barring investors from running temples] |
+| Temple offerings, incense, divination, and fortune slips | Blessing, guidance, temple upkeep | Fee-per-answer religion targeting anxiety about health, money, and marriage | Temples and ritual specialists benefit, and in the PRC so does state-adjacent management. |
+| Ritual services (funerals, exorcisms, geomancy) | Care for the dead; harmony of place | Priced life-crisis services with no standard rates; escalation during grief | Ritual masters and their networks benefit. |
+| Qigong, tai chi, and internal-alchemy courses | Health and cultivation | Escalating levels, initiation fees, and secret transmissions — a certification pyramid with no external validator | Teachers and lineage entrepreneurs benefit. |
+| Temple tourism and ticketed sacred sites | Heritage preservation | Sacred access converted to admission revenue under management with unclear beneficiaries | Management companies and local government benefit. [OFFICIAL POLICY: 2017 directive of twelve central agencies barring investors from running temples] |
 
 ### Pipelines this tradition shares
 
 ::: card
 #### Graded spiritual services
 
-**Source.** Member paying per level of advancement
+**Source.** Members pay for each level of advancement.
 
 **Path.** Local org → Central organization → Real-estate and reserve entities
 
-**Disclosed.** Price lists
+**Disclosed.** Price lists are disclosed.
 
-**Hidden.** Everything downstream of them
+**Hidden.** Everything downstream of the price lists stays hidden.
 :::
 
 ::: card
 #### Retreat and ceremony tourism
 
-**Source.** Western participants seeking healing
+**Source.** The money comes from Western participants seeking healing.
 
 **Path.** Operator, often not from the source community → Facilitators → Offshore or personal accounts
 
-**Disclosed.** Prices
+**Disclosed.** Prices are disclosed.
 
-**Hidden.** Safety record, training, and benefit-sharing
+**Hidden.** Safety record, training and benefit-sharing stay hidden.
 :::
 
 ::: card
 #### Certification pyramid
 
-**Source.** Practitioners paying to become certifiers
+**Source.** The money comes from practitioners paying to become certifiers.
 
 **Path.** Trainer → Original certifier → Perpetual downstream fee share
 
-**Disclosed.** Course fees
+**Disclosed.** Course fees are disclosed.
 
-**Hidden.** Failure rates and income distribution
+**Hidden.** Failure rates and income distribution stay hidden.
 :::
 
 ::: card
 #### State clerical payroll
 
-**Source.** Public revenue
+**Source.** The money comes from public revenue.
 
 **Path.** Religious affairs ministry → Licensed clergy → Sermon content approval
 
-**Disclosed.** Headcount and budget
+**Disclosed.** Headcount and budget are disclosed.
 
-**Hidden.** Content directives
+**Hidden.** Content directives stay hidden.
 :::
 
 ::: cites
@@ -292,57 +292,57 @@ Sources for this section: [1] [2] [6]
  "cite":[12]}
 ```
 
-- **Laojun Mountain:** the 38-metre bronze Laozi statue cost nearly ¥350 million (about $52 million), and the site is a state 5A tourist attraction [10].
-- **China, 2017:** companies were barred from investing in, leasing or running Buddhist and Taoist venues [1][2].
+- **Laojun Mountain:** The 38-metre bronze Laozi statue cost nearly ¥350 million (about $52 million), and the site is a state 5A tourist attraction (the highest grade in China's national rating of scenic areas) [10].
+- **China, 2017:** Companies were barred from investing in, leasing or running Buddhist and Taoist venues [1][2].
 
 ## 10. Genealogy {#genealogy}
 
 ::: card
 #### Unverifiable lineage transmission
 
-**Origin.** Oral and initiatory transmission in Chinese religious Daoism, with secrecy protecting genuinely difficult and sometimes dangerous practices. [ACADEMIC SOURCE]
+**Origin.** The practice originated in oral and initiatory transmission in Chinese religious Daoism, with secrecy protecting genuinely difficult and sometimes dangerous practices. [ACADEMIC SOURCE]
 
 **What it was for.** In a lineage community, everyone knew who trained whom. Secrecy from outsiders coexisted with total transparency inside.
 
 **Why that reason expired.** In the global market there is no inside. A Western teacher can claim any lineage and no one can check, because checking is framed as disrespect and the records were destroyed in the 20th century anyway.
 
-**Who benefits now.** Anyone willing to claim credentials they do not have. This is the structural vulnerability that defines the modern tradition.
+**Who benefits now.** Anyone willing to claim credentials they do not have benefits. This is the structural vulnerability that defines the modern tradition.
 :::
 
 ::: card
 #### 'You are resisting' — flow language as compliance tool
 
-**Origin.** Classical wu wei: effortless action, non-forcing, alignment with the Dao. Philosophically serious and originally anti-authoritarian. [ACADEMIC SOURCE]
+**Origin.** The origin is classical wu wei (effortless action, non-forcing, alignment with the Dao). It was philosophically serious and originally anti-authoritarian. [ACADEMIC SOURCE]
 
 **What it was for.** Zhuangzi used these ideas to mock rulers, moralists, and religious pomposity. The concept was a weapon against control.
 
 **Why that reason expired.** Inverted entirely. A command phrased as 'stop resisting the flow' is still a command, and it now arrives from the person selling the flow. The most anti-authoritarian vocabulary in Chinese thought became a script for teacher authority.
 
-**Who benefits now.** Teachers whose instructions cannot be refused without the refusal itself becoming evidence of the student's blockage.
+**Who benefits now.** Teachers benefit when their instructions cannot be refused without the refusal itself becoming evidence of the student's blockage.
 :::
 
 ::: card
 #### Energy diagnosis as sole interpretive authority
 
-**Origin.** Traditional Chinese medical and internal-alchemy frameworks describing qi. [ACADEMIC SOURCE]
+**Origin.** The origin is the traditional Chinese medical and internal-alchemy frameworks that describe qi. [ACADEMIC SOURCE]
 
 **What it was for.** A working physiology in a pre-modern medical system, applied by practitioners embedded in accountable communities.
 
 **Why that reason expired.** When only the master can read your qi, only the master can say whether you are improving, and only the master can say what the next payment buys. Your own body is no longer evidence you can access.
 
-**Who benefits now.** The diagnosing teacher, who occupies the position of both physician and salesman with no licensing body in between.
+**Who benefits now.** The diagnosing teacher benefits. He occupies the position of both physician and salesman with no licensing body in between.
 :::
 
 ::: card
 #### State licensing of clergy and temples (PRC)
 
-**Origin.** The China Taoist Association (1957) and post-1980s revival under government registration. [OFFICIAL POLICY]
+**Origin.** The origin is the China Taoist Association (1957) and the post-1980s revival under government registration. [OFFICIAL POLICY]
 
-**What it was for.** Framed as restoring a tradition the state itself had devastated.
+**What it was for.** It was framed as restoring a tradition the state itself had devastated.
 
 **Why that reason expired.** Restoration under permission is management. Clergy are licensed, content is restricted, and sacred sites are ticketed heritage attractions with revenue flowing through state-adjacent administration.
 
-**Who benefits now.** The state, which converts a suppressed religion into managed heritage and tourism income.
+**Who benefits now.** The state benefits, because it converts a suppressed religion into managed heritage and tourism income.
 :::
 
 ## 11. Reach {#reach}
@@ -355,7 +355,7 @@ Sources for this section: [1] [2] [6]
 
 ### Children
 
-- Little formal child initiation in most traditions; children participate in family temple observance and ancestor rites rather than being enrolled.
+- Children receive little formal initiation in most traditions; they participate in family temple observance and ancestor rites rather than being enrolled.
 - Martial-arts and temple training schools for children can be intense, and in some documented commercial schools abusive. [INVESTIGATIVE REPORT]
 - Fortune-telling and horoscope framing applied to children can shape marriage, career, and naming decisions before consent. [PATTERN OBSERVED]
 
@@ -363,7 +363,7 @@ Sources for this section: [1] [2] [6]
 
 - Female priests and Daoist nuns have a genuine historical presence — comparatively strong among traditions in this codex. [ACADEMIC SOURCE]
 - Internal-alchemy literature contains gender-differentiated practice, sometimes framing female bodies as requiring correction.
-- The high-risk zone is the modern teacher–student market: sexual-energy and 'dual cultivation' framings have been used to obtain sex from students. [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT]
+- The high-risk zone is the modern teacher–student market: sexual-energy and 'dual cultivation' (practices involving sexual union, presented as spiritual or energetic cultivation) framings have been used to obtain sex from students. [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT]
 
 ::: cites
 Sources for this section: [3] [7]
@@ -398,7 +398,7 @@ Gentleness, nature, balance, and a master who accepts you exactly as you are —
 
 **The counter.** That is exactly why control hides well inside it. A command sounds softer when phrased as “flow.” A hierarchy sounds gentler when called “lineage.” A demand sounds mystical when called “alignment.” Soft language can still steer the body.
 
-**Evidence grade.** [[Cultural]] Master acceptance and energetic diagnosis are relational, unregulated, and unverifiable.
+**Evidence grade.** [[Cultural]] The warm acceptance and the energetic diagnosis the entry describes are given in private between teacher and student. They are not regulated, and nobody can check them afterward.
 :::
 
 ::: tactic n=2
@@ -408,7 +408,7 @@ Gentleness, nature, balance, and a master who accepts you exactly as you are —
 
 **How it shows here**
 
-- Daoist teachers or communities may offer healing rituals, qi practices, martial arts, meditation, talismans, temple ceremonies, lineage teachings, or promises of balance and vitality.
+- Daoist teachers or communities may offer healing rituals, qi practices, martial arts, meditation, talismans (written charms believed to carry protective power), temple ceremonies, lineage teachings, or promises of balance and vitality.
 - A seeker may receive personal attention: energy diagnosis, herbal advice, spiritual protection, or “alignment” with the Dao.
 - The obligation may appear through payment for teachings, loyalty to a master, purchase of rituals, secrecy, repeated initiations, or dependence on the teacher’s interpretation of one’s energy.
 - “Naturalness” and “flow” can be used to make authority feel gentle: the student is not ordered to obey; they are told to stop resisting.
@@ -417,7 +417,7 @@ Gentleness, nature, balance, and a master who accepts you exactly as you are —
 
 **The counter.** Domination can speak softly. A command wrapped in the language of harmony is still a command. If healing and wisdom are offered in ways that make the seeker dependent on the master, the lineage, or the next paid technique, then the river has a toll booth.
 
-**Evidence grade.** [[Cultural]] Master acceptance and energetic diagnosis are relational, unregulated, and unverifiable.
+**Evidence grade.** [[Cultural]] The help, the diagnosis and the alignment the entry describes are given in private and are not regulated. The obligation they create is unwritten, and nobody can check it.
 :::
 
 ### Stage 2 · Hook {#stage-2}
@@ -447,7 +447,7 @@ Longevity, immortality, alignment, mastery of your own energy — always at the 
 
 **The counter.** Harmony becomes future faking when the teacher controls the definition of alignment. If every disappointment means the student is blocked and every next payment promises deeper access, then the Dao has been turned into a subscription model.
 
-**Evidence grade.** [[Cultural]] The next level and the next transmission are promised individually, with no published curriculum anywhere.
+**Evidence grade.** [[Cultural]] The future the entry describes is promised to each student individually. No curriculum is published, so nobody can check whether any level was ever reached.
 :::
 
 ::: tactic n=4
@@ -467,7 +467,7 @@ Longevity, immortality, alignment, mastery of your own energy — always at the 
 
 **The counter.** Patience becomes manipulation when the teacher defines every exit as imbalance. If the person can never leave without being told they are blocked, unaligned, or spiritually immature, then “flow” has become a velvet rope.
 
-**Evidence grade.** [[Cultural]] The next level and the next transmission are promised individually, with no published curriculum anywhere.
+**Evidence grade.** [[Cultural]] The pull-back the entry describes comes in private conversation, as concern and diagnosis. No written policy or record of it exists.
 :::
 
 ### Stage 3 · Devalue {#stage-3}
@@ -497,7 +497,7 @@ Your qi is blocked, your practice impure, your mind too Western. The problem is 
 
 **The counter.** Harmony becomes devaluation when every disagreement is called resistance. If the teacher can name your boundary as blockage and your skepticism as imbalance, then “flow” has become a gentle word for submission.
 
-**Evidence grade.** [[Cultural]] Blockage and resistance as explanations for the student's condition are the teacher's own vocabulary.
+**Evidence grade.** [[Cultural]] The labels the entry describes (blocked, unbalanced, out of alignment) are the teacher's own vocabulary, applied without any published standard.
 :::
 
 ::: tactic n=6
@@ -517,7 +517,7 @@ Your qi is blocked, your practice impure, your mind too Western. The problem is 
 
 **The counter.** Flexibility that only bends toward the teacher is not harmony. If every no is called resistance and every yes is called alignment, then the Dao has been turned into a vocabulary of compliance.
 
-**Evidence grade.** [[Cultural]] Blockage and resistance as explanations for the student's condition are the teacher's own vocabulary.
+**Evidence grade.** [[Cultural]] The replies the entry describes, such as 'you are resisting the flow', are spoken and not written. They rest on the teacher's own vocabulary, with no published standard.
 :::
 
 ::: tactic n=7
@@ -535,7 +535,7 @@ Your qi is blocked, your practice impure, your mind too Western. The problem is 
 
 **The counter.** That the Dao exceeds language is philosophy. That your objections specifically are the part language cannot handle is convenience. Notice which silences the teacher enforces and which he exempts himself from.
 
-**Evidence grade.** [[Cultural]] Blockage and resistance as explanations for the student's condition are the teacher's own vocabulary.
+**Evidence grade.** [[Cultural]] The double bind the entry describes is built from the teacher's own vocabulary of flow, forcing and readiness. It is spoken, not written.
 :::
 
 ### Stage 4 · Confuse {#stage-4}
@@ -556,14 +556,14 @@ Ask a direct question and you are too rigid, too rational, not ready. In documen
 **How it shows here**
 
 - Energy practices pay out intermittently — some sessions produce warmth, tingling, calm; most produce nothing — and teachers annex the schedule: sensations confirm the transmission, numbness reveals your blockage.
-- A master alternates between treating a student as nearly ready for inner-door teachings and as fundamentally obstructed; the oscillation, never explained, is the curriculum.
+- A master alternates between treating a student as nearly ready for inner-door teachings (teachings reserved for a teacher's inner circle of students) and as fundamentally obstructed; the oscillation, never explained, is the curriculum.
 - Divination and feng-shui services pay clients irregularly by nature — remembered hits, forgotten misses — and each hit is compounding testimony for the practitioner's fee schedule.
 
 **The strongest defense.** Qi cultivation genuinely varies by day, constitution, and season; honest teachers say so.
 
 **The counter.** Honest variability belongs to the body. It stops being honest when the teacher owns all hits and the student owns all misses — an accounting fraud older than the practices themselves.
 
-**Evidence grade.** [[Cultural]] Recasting a direct question as rigidity or Western thinking is conversational and leaves no trace.
+**Evidence grade.** [[Cultural]] The pattern the entry describes is the unpredictable payout of sensations and the teacher's reading of them. It happens in practice sessions and leaves no record.
 :::
 
 ::: tactic n=9
@@ -574,14 +574,14 @@ Ask a direct question and you are too rigid, too rational, not ready. In documen
 **How it shows here**
 
 - A student begins with meditation, qi practice, or martial training. Then they need more forms, more alignment, more lineage access, more correction, more energetic clearing.
-- If they question the teacher, the goalpost moves from technique to temperament: they are too rigid, too intellectual, too yang, too blocked, not flowing.
+- If they question the teacher, the goalpost moves from technique to temperament: they are too rigid, too intellectual, too yang (in Chinese cosmology, the active, assertive principle), too blocked, not flowing.
 - Paid “inner door” teachings can keep moving: the real method is always later, after loyalty, payment, secrecy, or readiness.
 
 **The strongest defense.** Daoist arts require patience, refinement, and subtle correction.
 
 **The counter.** Refinement becomes goalpost-moving when the teacher can always declare the student energetically unready. A path with no measurable arrival can become obedience disguised as flow.
 
-**Evidence grade.** [[Cultural]] Recasting a direct question as rigidity or Western thinking is conversational and leaves no trace.
+**Evidence grade.** [[Cultural]] The shifting standard the entry describes is set by the teacher in conversation. No published curriculum or measure of arrival exists.
 :::
 
 ::: tactic n=10
@@ -618,7 +618,7 @@ Ask a direct question and you are too rigid, too rational, not ready. In documen
 
 **The counter.** Harmony becomes projection when only the student must yield. If the teacher’s control is called flow and the student’s no is called blockage, balance has been weaponized to preserve imbalance.
 
-**Evidence grade.** [[Cultural]] Recasting a direct question as rigidity or Western thinking is conversational and leaves no trace.
+**Evidence grade.** [[Cultural]] The accusation the entry describes is made in conversation, in the teacher's own vocabulary, and leaves no record.
 :::
 
 ::: tactic n=12
@@ -638,7 +638,7 @@ Ask a direct question and you are too rigid, too rational, not ready. In documen
 
 **The counter.** Trust does not mean the teacher gets to define every no as blockage. If the student’s refusal becomes the problem and the teacher’s control becomes wisdom, then harmony has been turned into reversal.
 
-**Evidence grade.** [[Cultural]] Recasting a direct question as rigidity or Western thinking is conversational and leaves no trace.
+**Evidence grade.** [[Cultural]] The reversal the entry describes happens in conversation. No complaint procedure exists to record it.
 :::
 
 ::: tactic n=13
@@ -659,7 +659,7 @@ Ask a direct question and you are too rigid, too rational, not ready. In documen
 
 **The counter.** Subtlety becomes normalization when the student is trained to stop recognizing intrusion as intrusion. If every no is called rigidity and every yes is called harmony, the system has trained compliance into the body.
 
-**Evidence grade.** [[Cultural]] Recasting a direct question as rigidity or Western thinking is conversational and leaves no trace.
+**Evidence grade.** [[Cultural]] The normalization the entry describes builds up over months of practice and conversation, and it leaves no written trace.
 :::
 
 ### Stage 5 · Isolate {#stage-5}
@@ -689,7 +689,7 @@ Only he can assess your progress. The transmission cannot be explained, written,
 
 **The counter.** Gradual transmission becomes isolation when access to truth depends on obedience to one teacher. If outsiders are dismissed as too ignorant to evaluate harm, then secrecy has become insulation.
 
-**Evidence grade.** [[Cultural]] Lineage secrecy and unverifiable credentials are market conditions rather than doctrine.
+**Evidence grade.** [[Cultural]] The isolation the entry describes rests on lineage secrecy and unverifiable credentials, which are market conditions rather than doctrine.
 :::
 
 ::: tactic n=15
@@ -739,7 +739,7 @@ Escalating course and initiation fees with nothing transferable. Ritual services
 
 **The counter.** Correction becomes FLYING MONKEY behavior when senior students enforce the master’s authority with mystical diagnosis. If the person’s refusal is always called blockage by people loyal to the teacher, the Dao has been turned into a chain of command.
 
-**Evidence grade.** [[Cultural]] Escalating fees, initiation costs, and certification pyramids are set individually with no rates, no body, and no recourse.
+**Evidence grade.** [[Cultural]] The enforcement by senior students that the entry describes is informal. No rule requires it and no body records it.
 :::
 
 ::: tactic n=17
@@ -758,7 +758,7 @@ Escalating course and initiation fees with nothing transferable. Ritual services
 
 **The counter.** Subtlety becomes smear when it is used to portray the critic as spiritually defective. If the teacher never has to answer the accusation because the student is “blocked,” the diagnosis is doing reputational damage.
 
-**Evidence grade.** [[Cultural]] Escalating fees, initiation costs, and certification pyramids are set individually with no rates, no body, and no recourse.
+**Evidence grade.** [[Cultural]] The reputational damage the entry describes is spread informally among students. No body records it and there is no recourse.
 :::
 
 ::: tactic n=18
@@ -777,7 +777,7 @@ Escalating course and initiation fees with nothing transferable. Ritual services
 
 **The counter.** Mystery becomes stonewalling when it protects the teacher from ordinary accountability. If the master can take money, obedience, intimacy, or labor clearly, then he can answer clearly when challenged.
 
-**Evidence grade.** [[Cultural]] Escalating fees, initiation costs, and certification pyramids are set individually with no rates, no body, and no recourse.
+**Evidence grade.** [[Cultural]] The silence the entry describes is a refusal to answer in conversation. Nothing obliges a teacher to answer, and no body exists to which a student could appeal.
 :::
 
 ::: tactic n=19
@@ -796,7 +796,7 @@ Escalating course and initiation fees with nothing transferable. Ritual services
 
 **The counter.** Trust is not consent when the teacher controls the language of readiness and imbalance. If every refusal is diagnosed as blockage, the student’s yes has been manufactured through mystical framing.
 
-**Evidence grade.** [[Cultural]] Escalating fees, initiation costs, and certification pyramids are set individually with no rates, no body, and no recourse.
+**Evidence grade.** [[Cultural]] The consent the entry describes is shaped in private by the teacher's own definitions of readiness and resistance. No outside body reviews it.
 :::
 
 ::: tactic n=20
@@ -815,7 +815,7 @@ Escalating course and initiation fees with nothing transferable. Ritual services
 
 **The counter.** Harmony becomes TRAUMA BONDING when the teacher first destabilizes the student with mystical diagnosis and then offers himself as the path back to balance. If peace only returns when the student stops resisting the master, flow has become control.
 
-**Evidence grade.** [[Cultural]] Escalating fees, initiation costs, and certification pyramids are set individually with no rates, no body, and no recourse.
+**Evidence grade.** [[Cultural]] The cycle of diagnosis and relief the entry describes is private between teacher and student. No outside party records or reviews it.
 :::
 
 ::: tactic n=21
@@ -834,7 +834,7 @@ Escalating course and initiation fees with nothing transferable. Ritual services
 
 **The counter.** Subtlety becomes LEARNED HELPLESSNESS when it makes clear action impossible. If the student can never know whether they are resisting control or resisting the Dao, the ambiguity has disabled agency.
 
-**Evidence grade.** [[Cultural]] Escalating fees, initiation costs, and certification pyramids are set individually with no rates, no body, and no recourse.
+**Evidence grade.** [[Cultural]] The loss of judgment the entry describes builds up in private between teacher and student. Nothing in writing and nobody outside the relationship records it.
 :::
 
 ::: tactic n=22
@@ -853,7 +853,7 @@ Escalating course and initiation fees with nothing transferable. Ritual services
 
 **The counter.** Harmony becomes BENEVOLENT CONTROL when the master defines every no as imbalance. If the teacher benefits from your surrender and calls it flow, the Dao has been used to launder control.
 
-**Evidence grade.** [[Cultural]] Escalating fees, initiation costs, and certification pyramids are set individually with no rates, no body, and no recourse.
+**Evidence grade.** [[Cultural]] The control the entry describes is exercised through the teacher's language of harmony and flow. No written rule stands behind it and no outside body checks it.
 :::
 
 ::: tactic n=23
@@ -872,7 +872,7 @@ Escalating course and initiation fees with nothing transferable. Ritual services
 
 **The counter.** Readiness becomes INFANTILIZATION when the teacher controls the timeline forever. If adulthood is suspended until the master says you are ready, the path has become dependency disguised as subtlety.
 
-**Evidence grade.** [[Cultural]] Escalating fees, initiation costs, and certification pyramids are set individually with no rates, no body, and no recourse.
+**Evidence grade.** [[Cultural]] The treatment of students as unready that the entry describes is the teacher's own judgment, applied without any published standard of readiness.
 :::
 
 ::: tactic n=24
@@ -892,7 +892,7 @@ Escalating course and initiation fees with nothing transferable. Ritual services
 
 **The counter.** Harmony becomes IDENTITY EROSION when the teacher defines what harmony means. If your own no is renamed blockage and your surrender is renamed flow, the self has been dissolved into someone else’s vocabulary.
 
-**Evidence grade.** [[Cultural]] Escalating fees, initiation costs, and certification pyramids are set individually with no rates, no body, and no recourse.
+**Evidence grade.** [[Cultural]] The redefinition of identity the entry describes happens through the teacher's own vocabulary, in private. No outside body records it.
 :::
 
 ::: tactic n=25
@@ -912,7 +912,7 @@ Escalating course and initiation fees with nothing transferable. Ritual services
 
 **The counter.** Harmony becomes SPIRITUAL BYPASSING when it avoids accountability. If “flow” always means yielding to the teacher, the Dao has been used to bypass consent.
 
-**Evidence grade.** [[Cultural]] Escalating fees, initiation costs, and certification pyramids are set individually with no rates, no body, and no recourse.
+**Evidence grade.** [[Cultural]] The bypassing the entry describes is done in the teacher's spoken vocabulary of flow and harmony, so no written rule exists to cite.
 :::
 
 ::: tactic n=26
@@ -960,7 +960,7 @@ Access simply ends — no expulsion, no announcement, and no refund. Years of fe
 
 **The counter.** Correction becomes MANUFACTURED CRISIS when the teacher profits from declaring urgency. If every discomfort means you need another ritual, payment, or transmission, the crisis is being used to monetize dependence.
 
-**Evidence grade.** [[Cultural]] Access simply ends: no expulsion, no announcement, no refund, and no institution to appeal to.
+**Evidence grade.** [[Cultural]] The crisis the entry describes is declared by the teacher in conversation. No written rule, record or institution exists to check it against.
 :::
 
 ::: tactic n=28
@@ -977,15 +977,15 @@ Access simply ends — no expulsion, no announcement, and no refund. Years of fe
 
 **The strongest defense.** Traditional training requires respect, patience, and readiness.
 
-**The counter.** Readiness becomes DISCARD when it is revoked after dissent. If the master praises receptivity while obedient and calls the same person blocked when they refuse, the diagnosis is just control changing masks.
+**The counter.** Readiness becomes DISCARD when it is revoked after dissent. If the master praises a student's receptivity while the student obeys and calls the same person blocked when they refuse, the diagnosis is just control changing masks.
 
-**Evidence grade.** [[Cultural]] Access simply ends: no expulsion, no announcement, no refund, and no institution to appeal to.
+**Evidence grade.** [[Cultural]] The ending of access the entry describes happens without expulsion, announcement or refund, and with no institution to appeal to.
 :::
 
 ### Stage 8 · Replace {#stage-8}
 
 ::: stage
-**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to God.**
+**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority is attributed to the Dao or to a lineage.**
 
 Access simply ends — no expulsion, no announcement, no refund, and no institution to appeal to. And the authority is the Dao itself, or the lineage, neither of which can be produced.
 
@@ -1009,13 +1009,13 @@ Access simply ends — no expulsion, no announcement, no refund, and no institut
 
 **The counter.** Readiness becomes REPLACEMENT when it means obedience. If the master discards questioners as blocked and replaces them with compliant seekers, the lineage is not transmitting wisdom. It is selecting submission.
 
-**Evidence grade.** [[Cultural]] Authority attributed to the Dao or an unproduceable lineage. Nothing in this tradition is written down, which is the whole vulnerability.
+**Evidence grade.** [[Cultural]] The replacement the entry describes happens inside private teacher-student arrangements. No register of students or teachers exists to show who was removed.
 :::
 
 ::: tactic n=30
 #### 30 · Plausible Deniability {#t-30}
 
-*The institution is never responsible, because the authority is attributed to God — who isn't available for cross-examination.*
+*The institution is never responsible, because the authority is attributed to the Dao or to a lineage, neither of which is available for cross-examination.*
 
 **How it shows here**
 
@@ -1029,51 +1029,167 @@ Access simply ends — no expulsion, no announcement, no refund, and no institut
 
 **The counter.** Subtlety becomes PLAUSIBLE DENIABILITY when plain questions never receive plain answers. Trust is not consent if the teacher defines every refusal as energetic immaturity. Choice is compromised when the teacher controls the meaning of readiness, progress, and disharmony.
 
-**Evidence grade.** [[Cultural]] Authority attributed to the Dao or an unproduceable lineage. Nothing in this tradition is written down, which is the whole vulnerability.
+**Evidence grade.** [[Cultural]] The deniability the entry describes rests on the Dao or an unproduceable lineage being named as the source of authority, so nobody can be held to account for it.
 :::
 
 ## 13. The loops {#loops}
+
+::: lede
+The seven loops below show how the practices connect, so that each step makes the next one easier and the last step feeds the first. The loops are analysis built from findings recorded elsewhere on this page [PATTERN OBSERVED]; each step names the section or technique where its fact is recorded.
+:::
 
 ::: card
 #### 1 · Money to Doctrine to Money
 
 Escalating fees fund the teacher who defines the levels and assesses your progress toward them.
+
+**How it runs.**
+
+1. A student pays for a graded sequence of courses, intensives and certification tracks, each priced separately (section 2; technique 26).
+2. The teacher alone defines the levels, and the next level and the next transmission are always ahead (techniques 3 and 9).
+3. The teacher also assesses the student's progress, so the same person measures the goal and sells the way to it (section 14).
+4. The fees go to the teacher and, in certification chains, upstream to the original certifier (sections 7 and 9).
+5. The income keeps the school open to sell the same levels to the next student (technique 29).
+
+**Techniques that feed it.** [3 · Future Faking](#t-3), [9 · Moving the Goalposts](#t-9), [26 · Financial Control](#t-26).
+
+**Why it closes.** The person who prices the levels also defines them and judges progress. The page records no register, no governing body and no published rates in the Western teaching market (section 7), so a student has nothing outside the teacher to measure either the progress or the price against.
+
+**Where it could be broken, and by whom.** It weakens wherever the price and the level become checkable before payment. A student can ask for a price list for every level, in writing and in advance (section 23, question 2). In the United Kingdom, tai chi societies registered as charities file public accounts (sections 8 and 9), and consumer law and the small-claims court apply to an invoice (section 8). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Ellen has spent $18,400 across three years on a foundations course, an intensive, a certification track and two private diagnostics, and level three costs a further $4,800 (section 2).
 :::
 
 ::: card
 #### 2 · Fear to Dependence to Fear
 
-Blockage and imbalance supply the diagnosis; only the diagnoser can assess relief; the relief requires payment.
+Blockage and imbalance supply the diagnosis, only the diagnoser can assess relief, and the relief requires payment.
+
+**How it runs.**
+
+1. The teacher names the student's condition as blocked qi, imbalance or resistance (stage 3; technique 5).
+2. Only the teacher can read the student's qi, so only the teacher can say whether the student is improving (sections 2 and 14).
+3. Doubt or a refusal is diagnosed as a further blockage (techniques 6 and 12).
+4. Relief is offered as correction, qi work or secret practice, and each costs money (techniques 20 and 26).
+5. A student who thinks of leaving is told that leaving interrupts the process, so the fear of the condition returns (techniques 4 and 27).
+
+**Techniques that feed it.** [4 · Hoovering](#t-4), [5 · Devaluation](#t-5), [6 · Gaslighting](#t-6), [20 · Trauma Bonding](#t-20), [27 · Manufactured Crisis](#t-27).
+
+**Why it closes.** The person who names the condition is the only one allowed to judge the relief. A student who disputes the diagnosis has, on the teacher's terms, confirmed it. The page finds no outside party to whom the diagnosis can be taken (sections 14 and 15).
+
+**Where it could be broken, and by whom.** It weakens where the student can ask what evidence would ever show the teacher was wrong (section 23, question 3), and where health claims are weighed against medical treatment, since no practice replaces it (section 24). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Master Wen tells Ellen her liver qi is stagnant. She has written down four different explanations for her shoulder across three years, each superseded by the next, and each supersession has cost between four hundred and twelve hundred dollars (section 2).
 :::
 
 ::: card
 #### 3 · Children to Members to Children
 
-Little institutional childhood capture; the risk is master-student capture in adulthood.
+The tradition has little institutional childhood capture; the risk is master-student capture in adulthood.
+
+**How it runs.**
+
+1. Children take part in family temple observance and ancestor rites rather than being enrolled (section 11).
+2. There is no membership to leave later, and the formal penalty for leaving is very low (sections 3 and 15).
+3. Fortune-telling and horoscope framing applied to children can shape marriage, career and naming decisions before consent (section 11).
+4. The capture the page records happens later, in adulthood, in small schools with a master-student relationship (section 15).
+5. Abuse is documented in some commercial martial-arts boarding schools for children, where parents paid for the discipline (section 17).
+
+**Techniques that feed it.** [13 · Normalization / Desensitization](#t-13), [23 · Infantilization](#t-23).
+
+**Why it closes.** This loop closes only weakly. The page records no cycle in which children raised in the tradition are enrolled and in turn enroll their own. What it records is a family practice that leaves little formal hold, and a separate risk that begins when an adult enters a master-student relationship.
+
+**Where it could be broken, and by whom.** The childhood stage has little institutional hold to break. Parents can ask a school for one independently checkable fact before paying, as section 7 advises. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Children in commercial martial-arts boarding schools are listed in section 17 as a group on whom the weight falls, with documented abuse in some institutions.
 :::
 
 ::: card
 #### 4 · Aid to Legitimacy to Leverage to Aid
 
 In the PRC, licensing trades religious existence for state management of heritage and tourism revenue.
+
+**How it runs.**
+
+1. The Cultural Revolution destroyed temples and lineages, and the post-Mao revival came under state licensing (section 5).
+2. The China Taoist Association, founded in 1957, registers clergy and temples (sections 5 and 8).
+3. Clergy and temples operate by government permission (sections 5 and 7).
+4. Sacred sites become ticketed attractions, and the revenue flows through state-adjacent management (section 9).
+5. The same state orders statues covered or demolished when they lack religious-affairs approval (section 19).
+
+**Techniques that feed it.** [22 · Benevolent Control](#t-22), [26 · Financial Control](#t-26).
+
+**Why it closes.** The body that licenses the clergy, the regulator and the beneficiary of the temple revenue are all the party-state. Section 22 puts it this way: the regulator is the source of the pressure, not the remedy.
+
+**Where it could be broken, and by whom.** The page shows the state limiting commercialization from within: in 2017 twelve central departments barred companies from investing in, leasing or running temples (sections 8 and 19). It records no outside body that can compel an answer from the state, and registered clergy could refuse very little safely (section 18). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** The 38-metre Laozi statue at Laojun Mountain cost nearly ¥350 million and the site is a state 5A tourist attraction (section 9). In 2018 officials called the statue an illegal construction and covered it in yellow cloth (section 19).
 :::
 
 ::: card
 #### 5 · Unpaid Labor to Assets to Power to More Labor
 
-Student labor at schools and temples, with no title and no agreement.
+Students labor at schools and temples with no title and no agreement.
+
+**How it runs.**
+
+1. The harvest at stage 6 includes the student's labor, as well as money and silence (section 12, stage 6).
+2. Senior students and assistant instructors gatekeep access and defend the master's reputation (section 18; technique 16).
+3. Certified instructors downstream teach and pay upstream, and are asked to recruit (section 18).
+4. The original certifier takes a downstream fee share from everyone credentialed (section 9).
+5. Beginners who do not know the prior harm refresh the master's authority, and the cycle continues (technique 29).
+
+**Techniques that feed it.** [16 · Flying Monkeys](#t-16), [26 · Financial Control](#t-26), [29 · Replacement](#t-29).
+
+**Why it closes.** The page records the labor of senior students and downstream instructors in the service of a master or certifier, with no title or agreement recorded for them. It records no volume of unpaid labor at schools or temples beyond this, so the loop is stated at the level of the structure.
+
+**Where it could be broken, and by whom.** It weakens at the point section 18 names: a certified instructor could refuse to certify anyone else, and a senior student could refuse to be the buffer between a master and a complaint. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 18 lists certified instructors downstream who teach and pay upstream, see that the pyramid's margin flows away from them, and are asked to recruit.
 :::
 
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
 Access simply ends. There is no scandal apparatus because there is no institution.
+
+**How it runs.**
+
+1. A student's complaint is answered with a diagnosis of blockage (techniques 6 and 12).
+2. Access then simply ends, with no expulsion, no announcement and no refund (stage 7; technique 28).
+3. There is no institution to appeal to (stage 8).
+4. The page predicts that the teacher will relocate, rebrand and resume, because there is no register to be struck from (section 14).
+5. New seekers replace the student and continue the paid teachings (technique 29).
+
+**Techniques that feed it.** [12 · DARVO](#t-12), [28 · Discard](#t-28), [29 · Replacement](#t-29), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** No step in the sequence produces a record. The last time the chair ran, nothing was formal, because there is no body to run it through (section 14), so nothing carries from one case to the next.
+
+**Where it could be broken, and by whom.** It weakens where a record exists that a teacher cannot rebrand away from. A student can ask for one checkable fact before the first fee (section 7), and consumer law and the small-claims court give a student an invoice-based route (section 8). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 14 sets out the pattern: the last time the chair ran, nothing formal happened, and the teacher will relocate, rebrand and resume.
 :::
 
 ::: card
 #### 7 · Persecution to Solidarity to Insulation to Unaccountability
 
 The genuine 20th-century destruction of lineages is cited to make credential questions look like disrespect.
+
+**How it runs.**
+
+1. Texts and lineages were destroyed: Taoist texts in 1281, temple confiscations in the Republican era, and temples and lineages in the Cultural Revolution (sections 5 and 10).
+2. The page treats this as real persecution, and the loss of records as a reason for sympathy with a teacher who cannot show a lineage (section 5).
+3. Questions about lineage are then framed as disrespect (section 10).
+4. A teacher can claim any lineage, because nobody can check it (section 10).
+5. The unverifiable claim is priced as a credential (section 14), and checking it is framed as disrespect (section 10).
+
+**Techniques that feed it.** [10 · Strategic Ambiguity](#t-10), [14 · Isolation](#t-14), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** The history is real, so it cannot be dismissed, and it cannot be checked either. The request for verification is answered with the persecution, which ends the conversation without supplying a record.
+
+**Where it could be broken, and by whom.** Section 5 states the limit: the history deserves sympathy and cannot function as a permanent answer to a paying student. Section 20 names the change that would break the loop, a Western lineage publishing verifiable succession records that can be checked before payment. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Ellen asks where the lineage comes from. Master Wen says the transmission cannot be put into words and that her need for a document is the Western mind (section 2).
 :::
 
 ## 14. Say versus do {#say-do}
@@ -1098,24 +1214,24 @@ The genuine 20th-century destruction of lineages is cited to make credential que
 
 | Term | What it means inside | What it does | Said plainly |
 |---|---|---|---|
-| Lineage transmission | Authority received through an unbroken teacher-to-student line. | In the Western market, an unverifiable claim priced as a credential — with no register anywhere against which to check it. | 'Trust the pedigree you cannot inspect.' |
-| Wu wei | Effortless action; non-forcing. | A subtle and genuine concept, and a convenient answer to any question about accounts, structure, or complaints procedure. | 'Structure would be inauthentic, so there is none.' |
-| Closed-door disciple | A student admitted to inner transmission. | Creates a paid tier of intimacy with the teacher and a hierarchy among students that the teacher alone administers. | 'You may buy proximity, and I decide the price.' |
+| Lineage transmission | It is authority received through an unbroken teacher-to-student line. | In the Western market it is an unverifiable claim priced as a credential, with no register anywhere against which to check it. | 'Trust the pedigree you cannot inspect.' |
+| Wu wei | It means effortless action and non-forcing. | It is a subtle and genuine concept, and a convenient answer to any question about accounts, structure, or complaints procedure. | 'Structure would be inauthentic, so there is none.' |
+| Closed-door disciple | It is a student admitted to inner transmission. | It creates a paid tier of intimacy with the teacher and a hierarchy among students that the teacher alone administers. | 'You may buy proximity, and I decide the price.' |
 
 ## 15. Cost & cover {#cost}
 
 ### What leaving costs
 
-- Low formal exit costs; the risk zone is master-student capture in small schools where 'transmission' justifies control and fees.
+- Formal exit costs are low. The risk is master-student capture in small schools, where 'transmission' is used to justify control and fees.
 
 ### The ledger of exit
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Formal penalty | Very low | No membership, no excommunication, no shunning apparatus | Accurately: institutional Daoism has among the lowest exit costs here. |
-| Master–student capture | Yes in small schools | Years of fees and deference; leaving framed as losing the transmission or damaging one's qi | “The student simply stopped practicing.” |
-| Financial loss | Yes | Escalating course and initiation payments with nothing transferable | “They paid for teaching they received.” |
-| Spiritual framing | Moderate | Misfortune or illness attributed to abandoning practice or offending the master | “That's just how energy works.” |
+| Formal penalty | Very low | There is no membership, no excommunication and no shunning apparatus. | Accurately: institutional Daoism has among the lowest exit costs here. |
+| Master–student capture | Yes in small schools | The student pays years of fees and shows years of deference, and leaving is framed as losing the transmission or damaging one's qi. | “The student simply stopped practicing.” |
+| Financial loss | Yes | Course and initiation payments escalate, and nothing transferable results. | “They paid for teaching they received.” |
+| Spiritual framing | Moderate | Misfortune or illness is attributed to abandoning practice or offending the master. | “That's just how energy works.” |
 
 ### How the cost is denied
 
@@ -1125,16 +1241,16 @@ The genuine 20th-century destruction of lineages is cited to make credential que
 | Informal enforcement | High | Master's approval and lineage standing are the only currency, and both are undocumented. |
 | Leadership distance | Very high | No central body of any kind outside state associations. |
 | Doctrinal ambiguity | Very high | 'Flow,' 'balance,' and 'non-action' can rationalize any instruction or any harm. |
-| Cultural outsourcing | High | Problems attributed to Chinese cultural context or to the student's Western misunderstanding. |
+| Cultural outsourcing | High | Problems are attributed to Chinese cultural context or to the student's Western misunderstanding. |
 | Volunteer enforcement | Medium | Senior students protect the master's reputation and gatekeep access. |
 | Sacred secrecy | High | Unverifiable secret transmission is the core structural weakness. |
-| Exit cost denial | Medium | Institutionally accurate; individually false inside a capture relationship. |
+| Exit cost denial | Medium | The denial is institutionally accurate and individually false inside a capture relationship. |
 
 ## 16. The ledger {#ledger}
 
 ### Who benefits
 
-- The Chinese state managing religion as heritage-tourism and social control; ritual-service providers; Western lineage entrepreneurs monetizing exotic authority.
+- The beneficiaries are the Chinese state, which manages religion as heritage tourism and social control; ritual-service providers; and Western lineage entrepreneurs, who monetize exotic authority.
 
 ### Money out, leverage back
 
@@ -1144,31 +1260,35 @@ The genuine 20th-century destruction of lineages is cited to make credential que
 
 ### Who pays
 
-- Students of self-certified Western masters, financially and sometimes sexually exploited.
-- Grieving and ill people paying for outcome-promising rituals.
-- Falun Gong practitioners and other unregistered groups, under documented state persecution. [GOVERNMENT REPORT]
-- Children in commercial martial-arts boarding schools.
-- Chinese Daoist clergy, whose religious life requires state permission.
+- Students of self-certified Western masters pay, and they are financially and sometimes sexually exploited.
+- Grieving and ill people pay for outcome-promising rituals.
+- Falun Gong practitioners and other unregistered groups bear the cost, under documented state persecution. [GOVERNMENT REPORT]
+- Children in commercial martial-arts boarding schools bear the cost.
+- Chinese Daoist clergy bear the cost, because their religious life requires state permission.
 
 ## 17. Who gets hurt most {#who-gets-hurt}
 
 ### Where the weight lands
 
+The costs set out in sections 11, 15 and 16 do not fall evenly. The table names who carries the most, how, and what makes it worse.
+
 | Who | How | What it compounds with |
 |---|---|---|
-| Students of self-certified masters | Financial and in documented cases sexual exploitation, with no body to report to | Where 'dual cultivation' framing made refusal a spiritual defect |
-| The bereaved and the ill | Outcome-promising ritual priced at the worst moment of their lives | With no standard rates and no recourse |
-| Unregistered practitioners in the PRC | Documented state persecution | With no legal protection whatsoever |
-| Children in commercial martial-arts boarding schools | Documented abuse in some institutions | Where parents paid for the discipline |
+| Students of self-certified masters | They suffer financial exploitation and, in documented cases, sexual exploitation, with no body to report to. | It compounds where 'dual cultivation' framing made refusal a spiritual defect. |
+| The bereaved and the ill | They are sold outcome-promising ritual priced at the worst moment of their lives. | It compounds with the absence of standard rates and of recourse. |
+| Unregistered practitioners in the PRC | They face documented state persecution. | It compounds with the absence of any legal protection. |
+| Children in commercial martial-arts boarding schools | Abuse is documented in some institutions. | It compounds where parents paid for the discipline. |
 
 ## 18. The middle tiers {#tiers}
 
+The table names the people who sit between the apex and the student, what each does and sees, what each is asked to do, and what each could refuse.
+
 | Role | Does | Sees | Is asked to | Could refuse |
 |---|---|---|---|---|
-| Senior students and assistant instructors | Gatekeeps access and defends the master's reputation | Which students are being financially or sexually exploited | To manage it internally | To be the buffer between a master and a complaint |
-| Registered clergy in the PRC | Serves under state licence | Which content is permitted | To operate within approval | Very little safely, and this codex should say so |
-| Ritual practitioners | Serves the bereaved and the ill | How pricing escalates during crisis | Nothing formally | To quote a price to a family during a death |
-| Certified instructors downstream | Teaches and pays upstream | That the pyramid's margin flows away from them | To recruit | To certify anyone else |
+| Senior students and assistant instructors | They gatekeep access and defend the master's reputation. | They see which students are being financially or sexually exploited. | They are asked to manage it internally. | They could refuse to be the buffer between a master and a complaint. |
+| Registered clergy in the PRC | They serve under state licence. | They see which content is permitted. | They are asked to operate within approval. | They could refuse very little safely, and this codex should say so. |
+| Ritual practitioners | They serve the bereaved and the ill. | They see how pricing escalates during crisis. | They are asked nothing formally. | They could refuse to quote a price to a family during a death. |
+| Certified instructors downstream | They teach and pay upstream. | They see that the pyramid's margin flows away from them. | They are asked to recruit. | They could refuse to certify anyone else. |
 
 ## 19. Documented cases {#cases}
 
@@ -1208,9 +1328,9 @@ The genuine 20th-century destruction of lineages is cited to make credential que
 
 | What | Who | When | What it cost |
 |---|---|---|---|
-| The Zhuangzi and Daodejing themselves — the least authoritarian texts in this codex | The tradition's founders | Ancient | None |
-| Teachers publishing verifiable lineage and posted prices | A minority of Western practitioners | Ongoing | Competitive disadvantage against mystique |
-| Historical female priests and Daoist nuns | The tradition, unusually | Historic | None |
+| The Zhuangzi and Daodejing themselves — the least authoritarian texts in this codex | The tradition's founders | Ancient | It cost the founders nothing. |
+| Teachers publishing verifiable lineage and posted prices | A minority of Western practitioners | Ongoing | They face a competitive disadvantage against mystique. |
+| Historical female priests and Daoist nuns | The tradition, unusually | Historic | It cost the tradition nothing. |
 
 ### What would change this page
 
@@ -1218,30 +1338,32 @@ Any Western lineage publishing verifiable succession records, checkable before p
 
 ## 21. Voices from inside {#voices}
 
-- **The Laojuntang villagers,** ordered to tear down their own statue [11].
-- **The manager of the Laojun Mountain site,** told to cover the statue or see the mountain sealed off [10].
-- **The clergy and believers interviewed by Freedom House,** on how the party-state manages Taoism [6].
-- **Falun Gong practitioners,** from a qigong movement banned in 1999 [9].
+The people below appear in the record because of what was done to them, or because they were interviewed about it. None is quoted on this page.
+
+- **The Laojuntang villagers** were ordered to tear down their own statue [11].
+- **The manager of the Laojun Mountain site** was told to cover the statue or see the mountain sealed off [10].
+- **The clergy and believers interviewed by Freedom House** described how the party-state manages Taoism [6].
+- **Falun Gong practitioners** belong to a qigong movement banned in 1999 [9].
 
 ## 22. Regional variants {#regional}
 
 ::: card
 ### China
-- **apex:** The China Taoist Association, under state supervision [4].
-- **law:** The 2018 Regulations on Religious Affairs [3]; the 2017 ban on commercialization [1].
-- **documented:** The 2018 statue orders [10][11].
+- **apex:** The apex is the China Taoist Association, under state supervision [4].
+- **law:** The law is the 2018 Regulations on Religious Affairs [3] and the 2017 ban on commercialization [1].
+- **documented:** The documented cases are the 2018 statue orders [10][11].
 - **exit:** Belief is rarely formal membership; the state's controls fall on clergy and temples [3][5].
-- **regulator:** The party-state [3][6].
+- **regulator:** The regulator is the party-state [3][6].
 - **tell:** The regulator here is the source of the pressure, not the remedy.
 :::
 
 ::: card
 ### United Kingdom and the West
-- **apex:** Societies and teachers, no clergy hierarchy.
-- **law:** Charity and consumer law [12].
-- **documented:** Public charity accounts [12].
-- **exit:** Legally free.
-- **regulator:** The Charity Commission for registered societies [12].
+- **apex:** The apex is societies and teachers, with no clergy hierarchy.
+- **law:** Charity and consumer law apply [12].
+- **documented:** The documented record is public charity accounts [12].
+- **exit:** Leaving is legally free.
+- **regulator:** The regulator is the Charity Commission, for registered societies [12].
 - **tell:** In the West, Taoism mostly arrives as a class, with an invoice rather than a vow.
 :::
 
