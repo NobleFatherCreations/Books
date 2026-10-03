@@ -1589,17 +1589,6 @@
   "after_text": "The entry describes parents who deny control while money, guilt and approval enforce compliance, which is domestic and customary. The Documented grade rests on academic analysis of state promotion of harmony and filial vocabulary as governance framing, which the entry does not describe. *(sourced)*"
  },
  {
-  "id": "CON-N001",
-  "scope": "narration",
-  "type": "proof",
-  "section": 19,
-  "before": "These are not hypotheticals. 3 documented cases on this page",
-  "after": "These are not hypotheticals. Three documented cases on this page",
-  "reason": "Numeral at the start of a clause spelled out.",
-  "count": 1,
-  "status": "proposed"
- },
- {
   "id": "CON-N002",
   "scope": "narration",
   "type": "clarity",

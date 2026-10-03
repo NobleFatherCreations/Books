@@ -1525,17 +1525,6 @@
   "status": "proposed"
  },
  {
-  "id": "SHN-N001",
-  "scope": "narration",
-  "type": "proof",
-  "section": 19,
-  "before": "These are not hypotheticals. 3 documented cases on this page carry a court, regulator or inquiry record.",
-  "after": "These are not hypotheticals. Three documented cases on this page carry a record: two carry a court record and one a press record.",
-  "reason": "Numeral began a sentence; the third case (the Tomioka killing) rests on press reporting, not a court, regulator or inquiry record.",
-  "count": 1,
-  "status": "proposed"
- },
- {
   "id": "SHN-N002",
   "scope": "narration",
   "type": "clarity",
@@ -1554,17 +1543,6 @@
   "before": "Were these people traitors, or the most loyal members their tradition had? Most were treated as the first at the time, and some are honored as the second now. If someone in your community raised one of these questions tomorrow, how would they be treated, and by you?",
   "after": "The people named here are known through what they did in court or what was done to them, and none is quoted. If one of them told you in their own words what happened, which part of this page would that change? If someone in your community raised one of these questions tomorrow, how would they be treated, and by you?",
   "reason": "Shared caption asserted how these people were treated; this section does not record that.",
-  "count": 1,
-  "status": "proposed"
- },
- {
-  "id": "SHN-N004",
-  "scope": "narration",
-  "type": "proof",
-  "section": 22,
-  "before": "This page covers Japan — the Jinja Honcho network and Japan — Yasukuni and the state.",
-  "after": "This page covers Japan only, in two cards: the Jinja Honcho network, and Yasukuni and the state.",
-  "reason": "Run-together card titles read as a single list.",
   "count": 1,
   "status": "proposed"
  },

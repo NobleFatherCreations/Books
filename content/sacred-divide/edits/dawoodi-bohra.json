@@ -1628,28 +1628,6 @@
   "status": "proposed"
  },
  {
-  "id": "DAW-P005",
-  "scope": "narration",
-  "type": "proof",
-  "section": 19,
-  "before": "These are not hypotheticals. 6 documented cases",
-  "after": "These are not hypotheticals. Six documented cases",
-  "reason": "Numeral at the start of a sentence spelled out.",
-  "count": 1,
-  "status": "proposed"
- },
- {
-  "id": "DAW-P006",
-  "scope": "narration",
-  "type": "proof",
-  "section": 22,
-  "before": "This page covers India, United States and Australia.",
-  "after": "This page covers India, the United States and Australia.",
-  "reason": "'The United States' mid-sentence.",
-  "count": 1,
-  "status": "proposed"
- },
- {
   "id": "DAW-W125",
   "scope": "narration",
   "type": "fragment",

@@ -2009,27 +2009,5 @@
   "reason": "An editor's sourcing note had leaked into the reader's source list. It duplicated source 39, which carries the same two URLs and supports the same claim; no numbered source entry is changed.",
   "count": 1,
   "status": "proposed"
- },
- {
-  "id": "SHI-N001",
-  "scope": "narration",
-  "type": "proof",
-  "section": 19,
-  "before": "These are not hypotheticals. 5 documented cases on this page",
-  "after": "These are not hypotheticals. Five documented cases on this page",
-  "reason": "Numeral at the start of a clause spelled out.",
-  "count": 1,
-  "status": "proposed"
- },
- {
-  "id": "SHI-N002",
-  "scope": "narration",
-  "type": "proof",
-  "section": 22,
-  "before": "This page covers Iran, Iraq, Lebanon, Bahrain, Pakistan and United Kingdom.",
-  "after": "This page covers Iran, Iraq, Lebanon, Bahrain, Pakistan and the United Kingdom.",
-  "reason": "Country name needs 'the'.",
-  "count": 1,
-  "status": "proposed"
  }
 ]

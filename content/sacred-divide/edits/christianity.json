@@ -1777,27 +1777,5 @@
   "reason": "Fragment completed into a sentence that stands on its own; meaning unchanged.",
   "count": 1,
   "status": "proposed"
- },
- {
-  "id": "CHR-N001",
-  "scope": "narration",
-  "type": "proof",
-  "section": 19,
-  "before": "These are not hypotheticals. 4 documented cases on this page",
-  "after": "These are not hypotheticals. Four documented cases on this page",
-  "reason": "Numeral at the start of a sentence spelled out.",
-  "count": 1,
-  "status": "proposed"
- },
- {
-  "id": "CHR-N002",
-  "scope": "narration",
-  "type": "proof",
-  "section": 22,
-  "before": "This page covers United States, England and Germany.",
-  "after": "This page covers the United States, England and Germany.",
-  "reason": "'The United States' mid-sentence.",
-  "count": 1,
-  "status": "proposed"
  }
 ]

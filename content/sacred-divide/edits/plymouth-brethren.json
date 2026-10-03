@@ -1694,28 +1694,6 @@
   "status": "proposed"
  },
  {
-  "id": "PB-N001",
-  "scope": "narration",
-  "type": "proof",
-  "section": 19,
-  "before": "These are not hypotheticals. 5 documented cases on this page",
-  "after": "These are not hypotheticals. Five documented cases on this page",
-  "reason": "Numeral starting a sentence.",
-  "count": 1,
-  "status": "proposed"
- },
- {
-  "id": "PB-N002",
-  "scope": "narration",
-  "type": "proof",
-  "section": 22,
-  "before": "This page covers Australia, United Kingdom and New Zealand.",
-  "after": "This page covers Australia, the United Kingdom and New Zealand.",
-  "reason": "'the United Kingdom' needs its article.",
-  "count": 1,
-  "status": "proposed"
- },
- {
   "id": "PB-N003",
   "scope": "narration",
   "type": "clarity",

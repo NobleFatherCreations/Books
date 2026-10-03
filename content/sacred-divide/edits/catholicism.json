@@ -890,27 +890,5 @@
   "reason": "Fragments completed.",
   "count": 1,
   "status": "proposed"
- },
- {
-  "id": "CATH-N001",
-  "scope": "narration",
-  "type": "proof",
-  "section": 22,
-  "before": "This page covers Ireland, Poland, United States and The Philippines.",
-  "after": "This page covers Ireland, Poland, the United States and the Philippines.",
-  "reason": "Country names need 'the'; mid-sentence 'The' lower-cased.",
-  "count": 1,
-  "status": "proposed"
- },
- {
-  "id": "CATH-N002",
-  "scope": "narration",
-  "type": "proof",
-  "section": 19,
-  "before": "These are not hypotheticals. 3 documented cases on this page",
-  "after": "These are not hypotheticals. Three documented cases on this page",
-  "reason": "Numeral at the start of a clause spelled out.",
-  "count": 1,
-  "status": "proposed"
  }
 ]

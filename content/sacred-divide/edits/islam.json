@@ -1894,28 +1894,6 @@
   "status": "proposed"
  },
  {
-  "id": "ISL-N001",
-  "scope": "narration",
-  "type": "proof",
-  "section": 19,
-  "before": "These are not hypotheticals. 4 documented cases on this page",
-  "after": "These are not hypotheticals. Four documented cases on this page",
-  "reason": "Numeral at the start of a sentence spelled out.",
-  "count": 1,
-  "status": "proposed"
- },
- {
-  "id": "ISL-N002",
-  "scope": "narration",
-  "type": "proof",
-  "section": 22,
-  "before": "This page covers Indonesia, United Kingdom, Saudi Arabia, Morocco and India.",
-  "after": "This page covers Indonesia, the United Kingdom, Saudi Arabia, Morocco and India.",
-  "reason": "'The United Kingdom' mid-sentence.",
-  "count": 1,
-  "status": "proposed"
- },
- {
   "id": "ISL-N003",
   "scope": "narration",
   "type": "proof",

@@ -1372,28 +1372,6 @@
   "status": "proposed"
  },
  {
-  "id": "ZOR-N001",
-  "scope": "narration",
-  "type": "proof",
-  "section": 19,
-  "before": "These are not hypotheticals. 4 documented cases",
-  "after": "These are not hypotheticals. Four documented cases",
-  "reason": "Numeral at the start of a sentence spelled out.",
-  "count": 1,
-  "status": "proposed"
- },
- {
-  "id": "ZOR-N002",
-  "scope": "narration",
-  "type": "proof",
-  "section": 22,
-  "before": "This page covers India, Iran and United Kingdom.",
-  "after": "This page covers India, Iran and the United Kingdom.",
-  "reason": "Country name needs 'the'.",
-  "count": 1,
-  "status": "proposed"
- },
- {
   "id": "ZOR-N003",
   "scope": "narration",
   "type": "fragment",

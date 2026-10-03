@@ -1310,27 +1310,5 @@
   "reason": "Fragment completed.",
   "count": 1,
   "status": "proposed"
- },
- {
-  "id": "SDA-N001",
-  "scope": "narration",
-  "type": "proof",
-  "section": 19,
-  "before": "These are not hypotheticals. 3 documented cases on this page",
-  "after": "These are not hypotheticals. Three documented cases on this page",
-  "reason": "Numeral at the start of a clause spelled out.",
-  "count": 1,
-  "status": "proposed"
- },
- {
-  "id": "SDA-N002",
-  "scope": "narration",
-  "type": "proof",
-  "section": 22,
-  "before": "This page covers United States and Africa (as the membership centre of gravity).",
-  "after": "This page covers the United States and Africa, the membership centre of gravity.",
-  "reason": "Country name needs 'the'; the card heading's parenthesis rewritten as an appositive.",
-  "count": 1,
-  "status": "proposed"
  }
 ]

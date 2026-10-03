@@ -1177,17 +1177,6 @@
   "status": "proposed"
  },
  {
-  "id": "TAO-N001",
-  "scope": "narration",
-  "type": "proof",
-  "section": 22,
-  "before": "This page covers China and United Kingdom and the West.",
-  "after": "This page covers China, the United Kingdom and the West.",
-  "reason": "Country names need 'the'; list punctuation.",
-  "count": 1,
-  "status": "proposed"
- },
- {
   "id": "TAO-N002",
   "scope": "narration",
   "type": "fragment",
@@ -1195,17 +1184,6 @@
   "before": "Funerals, exorcisms, blessings, fortune-telling, feng shui and a global market in qigong and wellness courses.",
   "after": "The money comes from funerals, exorcisms, blessings, fortune-telling, feng shui and a global market in qigong and wellness courses.",
   "reason": "Caption opened with a fragment.",
-  "count": 1,
-  "status": "proposed"
- },
- {
-  "id": "TAO-N003",
-  "scope": "narration",
-  "type": "proof",
-  "section": 19,
-  "before": "These are not hypotheticals. 3 documented cases on this page carry a court, regulator or inquiry record.",
-  "after": "These are not hypotheticals. Three documented cases on this page carry a press record.",
-  "reason": "Numeral began a sentence; the three cases rest on news reports (sources 1, 2, 10, 11), not on a court, regulator or inquiry record.",
   "count": 1,
   "status": "proposed"
  },

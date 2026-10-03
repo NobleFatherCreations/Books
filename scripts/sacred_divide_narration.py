@@ -162,7 +162,25 @@ def _join(xs):
 
 
 def _join_and(xs):
+    xs = [_the(x) for x in xs]
     return xs[0] if len(xs) == 1 else ', '.join(xs[:-1]) + ' and ' + xs[-1] if xs else ''
+
+
+# Country names that take "the" mid-sentence.
+_THE = {'United States', 'United Kingdom', 'Philippines', 'Netherlands', 'United Arab Emirates', 'Czech Republic',
+        'Gambia', 'Bahamas', 'Maldives', 'Central African Republic', 'Democratic Republic of the Congo', 'Republic of Ireland'}
+
+
+def _the(name):
+    n = name.strip()
+    return 'the ' + n if n in _THE else n
+
+
+_WORDS = ['No', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve']
+
+
+def _count_words(n):
+    return _WORDS[n] if 0 <= n < len(_WORDS) else str(n)
 
 
 # ---------------------------------------------------------------- "Why this matters to you" — data-driven defaults
@@ -240,7 +258,7 @@ def _default_foryou(rid, slug):
             "If you are a local leader, a teacher or a volunteer, this section is about you. It is not an accusation: most of the people who carry out a rule did not write it. "
             "But the middle tier is also where a rule is most often quietly softened, or quietly enforced. Which do you do, and what would happen to you if you chose differently?"),
         'cases': (
-            (f"These are not hypotheticals. {len(f['cases'])} documented case{'s' if len(f['cases']) != 1 else ''} on this page carry a court, regulator or inquiry record. " if f['cases'] else
+            (f"These are not hypotheticals. {_count_words(len(f['cases']))} documented case{'s' if len(f['cases']) != 1 else ''} on this page rest{'s' if len(f['cases']) == 1 else ''} on a named record. " if f['cases'] else
              "Cases are where \"it could never happen here\" meets a court record. ")
             + "The most common reaction to documented cases is \"that was them, not us.\" "
             "Before settling on that, read the outcome lines. Did anything change in the structure that allowed each case to happen, or did one person leave while the structure stayed?"),

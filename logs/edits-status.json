@@ -16319,8 +16319,8 @@
   {
    "id": "DAW-P005",
    "scope": "narration",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "DAW-P006",
@@ -28975,8 +28975,8 @@
   {
    "id": "ZOR-N001",
    "scope": "narration",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-N002",

@@ -1998,28 +1998,6 @@
   "status": "proposed"
  },
  {
-  "id": "SCI-N001",
-  "scope": "narration",
-  "type": "proof",
-  "section": 22,
-  "before": "This page covers United States and Germany.",
-  "after": "This page covers the United States and Germany.",
-  "reason": "Country name needs 'the'.",
-  "count": 1,
-  "status": "proposed"
- },
- {
-  "id": "SCI-N002",
-  "scope": "narration",
-  "type": "proof",
-  "section": 19,
-  "before": "These are not hypotheticals. 4 documented cases on this page",
-  "after": "These are not hypotheticals. Four documented cases on this page",
-  "reason": "A sentence should not start with a numeral.",
-  "count": 1,
-  "status": "proposed"
- },
- {
   "id": "SCI-N003",
   "scope": "narration",
   "type": "proof",

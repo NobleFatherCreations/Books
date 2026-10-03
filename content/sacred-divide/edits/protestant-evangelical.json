@@ -1798,28 +1798,6 @@
   "status": "proposed"
  },
  {
-  "id": "PE-N001",
-  "scope": "narration",
-  "type": "proof",
-  "section": 19,
-  "before": "These are not hypotheticals. 6 documented cases on this page carry a court, regulator or inquiry record.",
-  "after": "These are not hypotheticals. Six documented cases on this page rest on a court, regulator, inquiry or investigative record.",
-  "reason": "Number spelled out; the case count is now six (Willow Creek added), and \"court, regulator or inquiry record\" overstated the Mars Hill and RZIM cases, which rest on investigative reporting and a commissioned report (D-F31).",
-  "count": 1,
-  "status": "proposed"
- },
- {
-  "id": "PE-N002",
-  "scope": "narration",
-  "type": "proof",
-  "section": 22,
-  "before": "This page covers United States, United Kingdom and Australia.",
-  "after": "This page covers the United States, the United Kingdom and Australia.",
-  "reason": "Country names need 'the'.",
-  "count": 1,
-  "status": "proposed"
- },
- {
   "id": "PE-N003",
   "scope": "narration",
   "type": "proof",

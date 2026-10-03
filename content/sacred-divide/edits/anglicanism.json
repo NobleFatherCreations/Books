@@ -1837,17 +1837,6 @@
   "status": "proposed"
  },
  {
-  "id": "ANG-N001",
-  "scope": "narration",
-  "type": "proof",
-  "section": 19,
-  "before": "These are not hypotheticals. 5 documented cases on this page",
-  "after": "These are not hypotheticals. Five documented cases on this page",
-  "reason": "Numeral at the start of a clause spelled out.",
-  "count": 1,
-  "status": "proposed"
- },
- {
   "id": "ANG-N002",
   "scope": "narration",
   "type": "clarity",

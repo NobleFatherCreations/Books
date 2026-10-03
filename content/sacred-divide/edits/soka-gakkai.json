@@ -1661,28 +1661,6 @@
   "status": "proposed"
  },
  {
-  "id": "SOK-P004",
-  "scope": "narration",
-  "type": "proof",
-  "section": 19,
-  "before": "These are not hypotheticals. 2 documented cases on this page carry a court, regulator or inquiry record.",
-  "after": "These are not hypotheticals. Two documented cases on this page carry an academic or government record.",
-  "reason": "Numeral starting a sentence spelled out. The template said the cases carry a court, regulator or inquiry record; the two cases here are tagged ACADEMIC SOURCE and GOVERNMENT REPORT, and no adjudicated case was found (section 19).",
-  "count": 1,
-  "status": "proposed"
- },
- {
-  "id": "SOK-P005",
-  "scope": "narration",
-  "type": "proof",
-  "section": 22,
-  "before": "This page covers Japan, United Kingdom and France.",
-  "after": "This page covers Japan, the United Kingdom and France.",
-  "reason": "Country name needs 'the' mid-sentence.",
-  "count": 1,
-  "status": "proposed"
- },
- {
   "id": "SOK-P006",
   "scope": "narration",
   "type": "proof",

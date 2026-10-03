@@ -1485,28 +1485,6 @@
   "status": "proposed"
  },
  {
-  "id": "AHM-N001",
-  "scope": "narration",
-  "type": "proof",
-  "section": 19,
-  "before": "These are not hypotheticals. 5 documented cases on this page",
-  "after": "These are not hypotheticals. Five documented cases on this page",
-  "reason": "Numeral at the start of a clause spelled out. The count itself is listed in DISCREPANCIES (section 19 has four cases).",
-  "count": 1,
-  "status": "proposed"
- },
- {
-  "id": "AHM-N002",
-  "scope": "narration",
-  "type": "proof",
-  "section": 22,
-  "before": "This page covers Pakistan, United Kingdom and Indonesia.",
-  "after": "This page covers Pakistan, the United Kingdom and Indonesia.",
-  "reason": "Country name needs 'the'.",
-  "count": 1,
-  "status": "proposed"
- },
- {
   "id": "AHM-N003",
   "scope": "narration",
   "type": "clarity",

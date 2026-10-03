@@ -1589,17 +1589,6 @@
   "status": "proposed"
  },
  {
-  "id": "BUD-N001",
-  "scope": "narration",
-  "type": "proof",
-  "section": 19,
-  "before": "These are not hypotheticals. 4 documented cases on this page",
-  "after": "These are not hypotheticals. Four documented cases on this page",
-  "reason": "Numeral at the start of a clause spelled out.",
-  "count": 1,
-  "status": "proposed"
- },
- {
   "id": "BUD-N002",
   "scope": "narration",
   "type": "fragment",

@@ -1983,16 +1983,5 @@
   "reason": "First use in the volume; short inline gloss added, no new claim.",
   "count": 1,
   "status": "proposed"
- },
- {
-  "id": "HAS-N001",
-  "scope": "narration",
-  "type": "proof",
-  "section": 19,
-  "before": "These are not hypotheticals. 3 documented cases on this page",
-  "after": "These are not hypotheticals. Three documented cases on this page",
-  "reason": "Numeral at the start of a sentence spelled out.",
-  "count": 1,
-  "status": "proposed"
  }
 ]
