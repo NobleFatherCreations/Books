@@ -7,5 +7,14 @@
   "bytes": 1708425,
   "version": "v4",
   "checked": "2026-09-27"
+ },
+ "protestant-evangelical": {
+  "title": "Protestant / Evangelical Christianity",
+  "family": "Christianity",
+  "file": "protestant-evangelical-expanded.pdf",
+  "pages": 164,
+  "bytes": 1792120,
+  "version": "v4",
+  "checked": "2026-10-03"
  }
 }
