@@ -1,0 +1,230 @@
+[
+ {
+  "type": "cover",
+  "style": "dark",
+  "title": "Protestant / Evangelical Christianity",
+  "sub": "How the churches are run, paid for and held to account. A record of institutions, money and power, not of anyone's faith.",
+  "hook": "Swipe for the record →",
+  "foot": "noblefathercreations.com/faith"
+ },
+ {
+  "type": "big",
+  "style": "light",
+  "kicker": "How big",
+  "big": "800M",
+  "head": "Protestants worldwide",
+  "text": "Pew counted 801 million in 2011. Its 584 million Pentecostal and charismatic Christians span every tradition, Catholics included, so they are not a subset of that total.",
+  "note": "Source: Pew Research Center, Global Christianity (2011).",
+  "foot": "Protestant / Evangelical · The Sacred Divide"
+ },
+ {
+  "type": "chain",
+  "style": "dark",
+  "kicker": "Who is in charge",
+  "head": "In an independent church, there is no bishop.",
+  "rows": [
+   [
+    "The founder, or the founder's family",
+    "holds the top office"
+   ],
+   [
+    "A board he selected",
+    "chooses with him"
+   ],
+   [
+    "The same board",
+    "is the only body that can remove him"
+   ]
+  ],
+  "foot": "Protestant / Evangelical · The Sacred Divide"
+ },
+ {
+  "type": "quote",
+  "style": "red",
+  "kicker": "The unanswered question",
+  "quote": "If membership is voluntary and the church has nothing to hide, why did departing staff have to sign non-disclosure agreements?",
+  "note": "Slide 5 shows where they did.",
+  "foot": "Protestant / Evangelical · The Sacred Divide"
+ },
+ {
+  "type": "rows",
+  "style": "light",
+  "kicker": "The record",
+  "head": "Non-disclosure agreements, documented at:",
+  "rows": [
+   [
+    "Mars Hill",
+    ""
+   ],
+   [
+    "Harvest Bible Chapel",
+    ""
+   ],
+   [
+    "Hillsong",
+    ""
+   ],
+   [
+    "Willow Creek",
+    ""
+   ],
+   [
+    "Acts 29",
+    ""
+   ],
+   [
+    "Ravi Zacharias International Ministries",
+    ""
+   ]
+  ],
+  "note": "Source: Religion News Service, 8 Sept 2022, which also lists Hillsong College and Ramsey Solutions.",
+  "foot": "Protestant / Evangelical · The Sacred Divide",
+  "compact": true
+ },
+ {
+  "type": "bars",
+  "style": "dark",
+  "kicker": "Southern Baptist Convention",
+  "head": "Members, 2006 to 2025",
+  "bars": [
+   [
+    "2006",
+    16.3,
+    "16.3M"
+   ],
+   [
+    "2023",
+    12.98,
+    "12.98M"
+   ],
+   [
+    "2024",
+    12.7,
+    "12.7M"
+   ],
+   [
+    "2025",
+    12.33,
+    "12.33M"
+   ]
+  ],
+  "text": "2025 was the 19th year of decline in a row. Source: Lifeway Research, May 2026; the denomination's own Annual Church Profile.",
+  "foot": "Protestant / Evangelical · The Sacred Divide"
+ },
+ {
+  "type": "rows",
+  "style": "dark",
+  "kicker": "The Southern Baptist record (1 of 2)",
+  "head": "How it came out",
+  "rows": [
+   [
+    "2019.",
+    "Houston Chronicle and San Antonio Express-News: about 380 Southern Baptist leaders and volunteers accused of sexual misconduct since 1998, with more than 700 victims."
+   ],
+   [
+    "2022.",
+    "Independent Guidepost report: Executive Committee staff kept a private list of accused ministers while publicly resisting a registry."
+   ]
+  ],
+  "note": "Sources: Houston Chronicle, Feb 2019; Guidepost Solutions, 22 May 2022.",
+  "foot": "Protestant / Evangelical · The Sacred Divide"
+ },
+ {
+  "type": "rows",
+  "style": "dark",
+  "kicker": "The Southern Baptist record (2 of 2)",
+  "head": "What followed",
+  "rows": [
+   [
+    "2022.",
+    "Messengers vote for a public database of accused ministers. No name is ever published."
+   ],
+   [
+    "2025.",
+    "The Executive Committee shelves it, citing legal hurdles."
+   ],
+   [
+    "Aug 2026.",
+    "Survivors launch ProtestantAccountability.org, with more than 2,700 people listed at launch."
+   ]
+  ],
+  "note": "Sources: Religion News Service, 2024; The Baptist Paper, 2025; Christianity Today, Sept 2026.",
+  "foot": "Protestant / Evangelical · The Sacred Divide"
+ },
+ {
+  "type": "big",
+  "style": "light",
+  "kicker": "U.S. Senate inquiry, 2007–2011",
+  "big": "0",
+  "head": "penalties",
+  "text": "Six television ministries were asked for financial records. Most declined full disclosure. The inquiry closed with no penalties and no new law.",
+  "note": "Source: Senate Finance Committee inquiry, via NBC News, Jan 2011.",
+  "foot": "Protestant / Evangelical · The Sacred Divide"
+ },
+ {
+  "type": "rows",
+  "style": "light",
+  "kicker": "The law",
+  "head": "Who can compel an answer",
+  "rows": [
+   [
+    "United States.",
+    "Churches file no Form 990, the annual public return other charities file. State attorneys general have jurisdiction over charitable assets."
+   ],
+   [
+    "England and Wales.",
+    "Registered church charities file public accounts. Smaller churches in several denominations are excepted from registering until 2031."
+   ]
+  ],
+  "note": "Sources: IRS Publication 1828; Charity Commission for England and Wales.",
+  "foot": "Protestant / Evangelical · The Sacred Divide"
+ },
+ {
+  "type": "rows",
+  "style": "dark",
+  "kicker": "The evidence",
+  "head": "30 control techniques, graded",
+  "rows": [
+   [
+    "2 Documented.",
+    "Court judgment, government inquiry, regulatory action or financial filing."
+   ],
+   [
+    "18 Taught.",
+    "Repeated leadership instruction from the platform, publications or curriculum."
+   ],
+   [
+    "10 Cultural.",
+    "Community enforcement the institution neither mandates nor prevents."
+   ]
+  ],
+  "note": "The codex examines institutions, money and power. It does not judge anyone's faith.",
+  "foot": "Protestant / Evangelical · The Sacred Divide"
+ },
+ {
+  "type": "help",
+  "style": "red",
+  "kicker": "If this is your story",
+  "head": "Where to get help",
+  "rows": [
+   [
+    "Recovering from Religion",
+    "(844) 368-2848 · US, Canada, online"
+   ],
+   [
+    "Faith to Faithless (UK)",
+    "0800 448 0748 · freephone, set hours"
+   ],
+   [
+    "Childhelp",
+    "1-800-422-4453 · child abuse"
+   ],
+   [
+    "RAINN",
+    "1-800-656-4673 · sexual assault"
+   ]
+  ],
+  "note": "Full record, sources and PDF: noblefathercreations.com/faith",
+  "foot": "Protestant / Evangelical · The Sacred Divide"
+ }
+]

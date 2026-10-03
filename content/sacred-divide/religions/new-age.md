@@ -18,13 +18,13 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | Uncountable by design: about six in ten US adults hold at least one New Age belief — psychics, spiritual energy in objects, reincarnation, astrology — religious and non-religious alike. [ACADEMIC SOURCE: Pew, 2018] |
-| Who's in charge | The platforms and publishers — The corporate owners of the teacher economy — streaming platforms, publishing houses, festival brands — to whom the teacher answers in conversion rates |
+| Size | New Age has no countable membership by design. About six in ten US adults hold at least one New Age belief (belief in psychics, in spiritual energy in objects, in reincarnation or in astrology), among religious and non-religious adults alike. [ACADEMIC SOURCE: Pew, 2018] |
+| Who's in charge | The platforms and publishers, the corporate owners of the teacher economy (streaming platforms, publishing houses and festival brands), sit at the top, and the teacher answers to them in conversion rates (the share of an audience that buys). |
 | Chosen by / removable by | Ownership / The market |
-| Money in one line | Tiered course funnels ($97 → $997 → $10K masterminds), retreat economies, certification pyramids (paying to become a certified healer who certifies others — MLM logic in spiritual clothing), influencer monetization. [INVESTIGATIVE REPORT: documented cases, e.g., sweat-lodge deaths (James Arthur Ray, convicted 2011 [COURT RECORD]), NXIVM's self-help-to-coercion pipeline [COURT RECORD]) |
-| Leaving in one line | No formal exit — but sunk-cost webs, identity investment ('lightworker'), community loss, and blame-reversal ('you manifested this') tax departure. [FORMER MEMBER TESTIMONY] |
+| Money in one line | The money comes from tiered course funnels ($97 → $997 → $10K masterminds, meaning paid high-end group programs), retreat economies, certification pyramids (paying to become a certified healer who certifies others, which is MLM logic in spiritual clothing; MLM means multi-level marketing) and influencer monetization. [INVESTIGATIVE REPORT: documented cases, e.g., sweat-lodge deaths (a sweat lodge is a heated ceremonial enclosure; James Arthur Ray, convicted 2011 [COURT RECORD]) and NXIVM's self-help-to-coercion pipeline (NXIVM was a self-help organization whose leader was convicted of racketeering and sex trafficking) [COURT RECORD]] |
+| Leaving in one line | There is no formal exit, but sunk costs, identity investment ('lightworker', a person who sees themselves as a spiritual healer or guide), loss of community, and blame reversal ('you manifested this', meaning you caused it yourself by your own thoughts) make departure costly. [FORMER MEMBER TESTIMONY] |
 | The unanswered question | If the healing works, why does the funnel always need another tier? |
-| Evidence | 7 of 30 techniques sourced to a named document; grades: Cultural 19, Taught 10, Documented 1 |
+| Evidence | Seven of the 30 techniques are sourced to a named document. The grades are Cultural 19, Taught 10 and Documented 1. |
 | Family | New movements & the spiritual marketplace — scientology, new-age, unification-church |
 | Last checked | 2026-09-27 |
 :::
@@ -39,17 +39,17 @@ partial: []
 
 ## 2. A day inside {#a-day-inside}
 
-*Brie · A Tuesday in Mercury retrograde · Byron Bay, and Instagram*
+*Brie · A Tuesday in Mercury retrograde (an astrological period popularly blamed for disruption) · Byron Bay, and Instagram*
 
-Breathwork at six, and the ocean, and a genuine steadiness in her body that she did not have at twenty-five and that she built herself, and no one is taking that from her.
+At six there is breathwork (a guided breathing practice), and the ocean, and a genuine steadiness in her body that she did not have at twenty-five and that she built herself, and no one is taking that from her.
 
-She is thirty-three. She is a certified practitioner in three modalities. Two of the certifications require her to pay an annual fee to the person who certified her, and one of them pays her a percentage when she certifies someone else, and she has certified four people.
+She is thirty-three. She is a certified practitioner in three modalities (methods of healing). Two of the certifications require her to pay an annual fee to the person who certified her, and one of them pays her a percentage when she certifies someone else, and she has certified four people.
 
 At ten a client cries on Zoom about her diagnosis and asks whether she should do the protocol her oncologist recommended. Brie says, carefully, that she can't give medical advice, and then says, less carefully, that the body knows, and that fear has a frequency. She has said this before. She believes it, mostly. She thinks about it for the rest of the day.
 
-At one she posts a reel and it does 40,000 views and eleven people DM asking about the container. The container is $2,400. Six years ago she was on $19 an hour in a café and she is not going back, and anybody who has never been broke can keep their opinion.
+At one she posts a reel (a short video) and it does 40,000 views, and eleven people send direct messages asking about the container (her paid group program). The container is $2,400. Six years ago she was on $19 an hour in a café and she is not going back, and anybody who has never been broke can keep their opinion.
 
-At four she gets a message from a woman who did the container in February asking, politely, whether there is a refund policy. There is not. Brie types three versions of a reply and sends the one about integration timelines and the journey being non-linear.
+At four she gets a message from a woman who did the container in February asking, politely, whether there is a refund policy. There is not. Brie types three versions of a reply and sends the one about integration timelines (how long it takes to absorb a healing experience) and the journey being non-linear.
 
 At eleven she lies on the floor with her feet up the wall, which is the only thing that works, and she thinks about the client with the diagnosis. And a thought arrives that she has been outrunning for about a year: that if it goes badly, the framework she teaches has an answer ready — that the woman's fear attracted it — and that the answer is available to Brie and costs Brie nothing. She gets up and puts music on.
 
@@ -69,13 +69,13 @@ If the healing works, why does the funnel always need another tier?
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| You create your own reality. | Which means the assaulted client created hers, and the seller can never be at fault. Ask them to finish the sentence. | [PATTERN OBSERVED] |
+| You create your own reality. | If you create your own reality, the assaulted client created hers, and the seller can never be at fault. Ask them to finish the sentence. | [PATTERN OBSERVED] |
 
 ### One cost of leaving, beside its denial
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Formal penalty | None | There is no membership to lose — the absence of structure is the selling point | Accurately: no institutional exit cost exists. |
+| Formal penalty | None | There is no membership to lose, and the absence of structure is the selling point. | Accurately: no institutional exit cost exists. |
 
 ### The strongest objection, answered
 
@@ -88,27 +88,29 @@ If the healing works, why does the funnel always need another tier?
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-The decentralized economy of coaches, healers, manifestation teachers, plant-medicine circles, wellness influencers, and workshop empires — spirituality as consumer marketplace rather than membership institution.
+New Age is a decentralized economy of coaches, healers, manifestation teachers, plant-medicine circles, wellness influencers and workshop empires. It sells spirituality as a consumer marketplace, with no membership institution behind it.
 :::
 
-- Practitioners with credentials, scope-of-practice honesty, refund policies, and trauma-informed ethics; the marketplace's genuine gift — freedom to explore without membership — when its shadow (freedom from accountability) is named.
+Healthy practice here looks like practitioners who hold credentials, are honest about the scope of what they can treat, publish refund policies and work with trauma-informed ethics (care taken not to re-injure people who have been through trauma). The marketplace has one genuine gift, the freedom to explore without membership. That freedom is healthy when its shadow, freedom from accountability, is named.
+
+Some of that standard is already on the record. Section 20 records a minority of practitioners who have voluntarily adopted credentials, scope-of-practice honesty and refund policies. Section 21 records Sarah Edmondson, a former NXIVM recruiter who became a whistleblower [10], and the Lakota Summit V, whose 1993 declaration condemned the sale of Lakota ceremonies by outsiders [4]. Each is a place where a participant or a community held the market to the standard this page applies, and each is recorded here as credit.
 
 ## 5. History {#history}
 
-Roots in 19th-century New Thought and Theosophy; the human potential movement (Esalen, est) industrialized transformation seminars; the internet completed the conversion of spirituality into scalable content commerce.
+The movement has roots in 19th-century New Thought (a movement teaching that thought shapes health and circumstance) and Theosophy (an esoteric movement whose society was founded in 1875). The human potential movement (a movement from the 1960s promoting personal growth through workshops), with Esalen (a California retreat institute) and est (Erhard Seminars Training), industrialized transformation seminars. The internet then completed the conversion of spirituality into scalable content commerce.
 
 ### Timeline
 
 ```timeline
-1830s–1900s | New Thought, Mesmerism, Spiritualism, Theosophy | Mind-over-matter healing and channeled authority — the template for everything that follows.
+1830s–1900s | New Thought, Mesmerism (healing by a supposed magnetic force), Spiritualism (communication with the dead), Theosophy | Mind-over-matter healing and channeled authority — the template for everything that follows.
 1875–1930s | Theosophical Society; Krishnamurti groomed as World Teacher and then repudiates the role | The founding cautionary tale, delivered by the movement's own designated messiah.
 1962–1970s | Esalen Institute; human potential movement; est trainings | Transformation becomes a purchasable weekend product with high-pressure group dynamics.
-1970s–1980s | Channeling boom, A Course in Miracles, crystals, harmonic convergence 1987 | Mass-market spirituality with no institutions and no accountability.
+1970s–1980s | Channeling boom (people claiming to speak for spirits), A Course in Miracles (a channeled spiritual text), crystals, harmonic convergence 1987 (a mass meditation event) | Mass-market spirituality with no institutions and no accountability.
 1990s | The Secret's precursors; wellness industry forms; MLM-spiritual hybrids emerge | Prosperity thinking without a church — and therefore without even a board.
 2006–2010 | The Secret becomes a global bestseller; James Arthur Ray's sweat lodge kills three (2009); convicted 2011 | Manifestation doctrine's blame-reversal logic reaches lethal consequence. [COURT RECORD]
 2010s | Instagram and YouTube monetize spiritual influence; certification pyramids scale | The teacher's income depends on the follower's aspiration, not on results.
 2017–2021 | NXIVM prosecuted; Keith Raniere convicted 2019; Teal Swan and other online figures scrutinized | Self-help to coercive control pipeline documented in federal court. [COURT RECORD]
-2020–present | Pandemic-era conspirituality; ayahuasca and psychedelic retreat boom; QAnon overlap | Wellness spirituality becomes a vector for medical and political misinformation. [ACADEMIC SOURCE]
+2020–present | Pandemic-era conspirituality (spiritual belief merged with conspiracy theory); ayahuasca (a plant-based psychedelic brew) and psychedelic retreat boom; QAnon (a conspiracy-theory movement) overlap | Wellness spirituality becomes a vector for medical and political misinformation. [ACADEMIC SOURCE]
 ```
 
 ### Moments in the room
@@ -118,21 +120,21 @@ Roots in 19th-century New Thought and Theosophy; the human potential movement (E
 
 Three people died and eighteen were hospitalised after a sweat-lodge event run by self-help figure James Arthur Ray. He was convicted of negligent homicide in 2011.
 
-**Why it matters.** The industry's ceiling, established in a criminal court because no other body existed to establish it. Before those deaths, there was no authority above the seminar leader — and after them, there still is not.
+**Why it matters.** The deaths set the industry's ceiling, and a criminal court established it because no other body existed to do so. Before those deaths there was no authority above the seminar leader, and after them there still is not.
 :::
 
 ::: card
 #### 2017–2021 — NXIVM
 
-A group marketed as an executive-success programme was prosecuted as a racketeering enterprise; its founder received a 120-year sentence, and several associates were convicted.
+A group marketed as an executive-success programme was prosecuted as a racketeering enterprise (an organization used to carry out a pattern of crimes); its founder received a 120-year sentence, and several associates were convicted.
 
-**Why it matters.** A seminar company adjudicated as organised crime. The pipeline from a personal-development workshop to a criminal enterprise ran through ordinary certification tiers, which is why that page tracks tiers.
+**Why it matters.** A seminar company was adjudicated as organised crime. The pipeline from a personal-development workshop to a criminal enterprise ran through ordinary certification tiers, which is why this page tracks tiers.
 :::
 
 ::: card
 #### 2020–2021 — The wellness-to-conspiracy pipeline
 
-Documented migration of large wellness and yoga audiences into medical and electoral disinformation during the pandemic, tracked by academic researchers and journalists in real time.
+Large wellness and yoga audiences were documented migrating into medical and electoral disinformation during the pandemic, tracked by academic researchers and journalists in real time.
 
 **Why it matters.** The absence of an apex was supposed to be the sector's protection against capture. It was, instead, the reason nothing could correct at scale.
 :::
@@ -143,15 +145,15 @@ Sources for this section: [2] [3] [7]
 
 ## 6. Branches & variants {#branches}
 
-No branches — a market. Clusters include manifestation/law of attraction, energy healing (Reiki and others), astrology and tarot, plant medicine, channeling, breathwork, spiritual coaching, and MLM-wellness hybrids.
+New Age has no branches, because it is a market. Its clusters include manifestation and the law of attraction (the belief that thoughts attract matching events), energy healing (Reiki, a hands-on practice of Japanese origin, and others), astrology and tarot, plant medicine, channeling, breathwork, spiritual coaching, and MLM-wellness hybrids.
 
 | Cluster | Examples | Where the risk sits |
 |---|---|---|
-| **Older roots** | New Thought, Theosophy (1875), Esalen (1962) [7] | Largely historical |
-| **Manifestation and coaching** | Law-of-attraction courses, "masterminds", large-group trainings | Escalating course prices; one self-help company, NXIVM, became a criminal enterprise [3] |
-| **Ceremony and plant medicine** | Sweat lodges, ayahuasca and kambo retreats | Physical danger — deaths at a 2009 sweat lodge and at unregulated retreats [2][6] |
-| **Wellness products** | Crystals, "energy" products, supplements | Unproven health claims; regulators have acted [8][9] |
-| **MLM-wellness hybrids** | Supplement and oil sellers | Income claims and recruitment structures [5] |
+| **Older roots** | The older roots are New Thought, Theosophy (1875) and Esalen (1962) [7]. | The risk here is largely historical. |
+| **Manifestation and coaching** | Examples are law-of-attraction courses, "masterminds" and large-group trainings. | Course prices escalate, and one self-help company, NXIVM, became a criminal enterprise [3]. |
+| **Ceremony and plant medicine** | Examples are sweat lodges and ayahuasca and kambo retreats (kambo is a ritual in which a frog's skin secretion is applied to the body). | The risk is physical danger, with deaths at a 2009 sweat lodge and at unregulated retreats [2][6]. |
+| **Wellness products** | Examples are crystals, "energy" products and supplements. | The health claims are unproven, and regulators have acted [8][9]. |
+| **MLM-wellness hybrids** | Examples are supplement and oil sellers. | The risk lies in income claims and recruitment structures [5]. |
 
 About six in ten US adults hold at least one New Age belief, religious and non-religious alike [1].
 
@@ -161,27 +163,27 @@ About six in ten US adults hold at least one New Age belief, religious and non-r
 
 |  |  |
 |---|---|
-| Adherents | Uncountable by design: about six in ten US adults hold at least one New Age belief — psychics, spiritual energy in objects, reincarnation, astrology — religious and non-religious alike. [ACADEMIC SOURCE: Pew, 2018] |
-| Regions | United States, Canada, Western Europe, Australia, New Zealand, Brazil, urban centers globally; substantial diaspora appropriation of Asian and Indigenous practices. |
-| Trend | Growing steadily as institutional religion declines in the West — the fastest-expanding sector in this codex, and the least regulated. |
+| Adherents | New Age has no countable membership by design. About six in ten US adults hold at least one New Age belief (belief in psychics, in spiritual energy in objects, in reincarnation or in astrology), among religious and non-religious adults alike. [ACADEMIC SOURCE: Pew, 2018] |
+| Regions | New Age is concentrated in the United States, Canada, Western Europe, Australia, New Zealand, Brazil and urban centers globally. There is also substantial diaspora appropriation of Asian and Indigenous practices. |
+| Trend | It is growing steadily as institutional religion declines in the West. It is the fastest-expanding sector in this codex, and the least regulated. |
 | Participation | There is no membership at all. Involvement is measured in purchases, and the funnel structure means a small fraction of participants generate most revenue. |
 
 ### Authority
 
-- No institution — which is the sales pitch and the accountability void: authority is charismatic, self-certified, and answerable to no synod, court, or tradition. [PATTERN OBSERVED]
-- Invisible authorities (spirit, the universe, your higher self) that reliably agree with the seller. [PATTERN OBSERVED]
+- There is no institution, which is both the sales pitch and the accountability void. Authority is charismatic, self-certified, and answerable to no synod (a church's governing council), court, or tradition. [PATTERN OBSERVED]
+- Invisible authorities (spirit, the universe, your higher self) reliably agree with the seller. [PATTERN OBSERVED]
 
 ### The top of the chain
 
 ::: lede
-There is no throne here. The top of this food chain is a cap table.
+There is no throne here. The top of this food chain is a cap table (the record of who owns a company).
 :::
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| The platforms and publishers | The corporate owners of the teacher economy — streaming platforms, publishing houses, festival brands — to whom the teacher answers in conversion rates | Ownership | The market |
-| The certification pyramids | Whoever sits atop each training lineage, collecting tolls from every practitioner certified below | Self-founding | The refund policy, if any |
-| The named floor | Where the law reached: James Arthur Ray, convicted after the 2009 sweat-lodge deaths; NXIVM's racketeering convictions — the seminar industry's ceiling, established in court | — | A criminal court, after the harm |
+| The platforms and publishers | The corporate owners of the teacher economy (streaming platforms, publishing houses and festival brands) hold this office, and the teacher answers to them in conversion rates. | Ownership | The market |
+| The certification pyramids | Whoever sits atop each training lineage holds this office and collects tolls from every practitioner certified below. | The holder founded the pyramid. | The only remedy is a refund policy, if there is one. |
+| The named floor | This is where the law reached. James Arthur Ray was convicted after the 2009 sweat-lodge deaths, and there were racketeering convictions in the NXIVM case. Together they are the seminar industry's ceiling, established in court. | — | A criminal court removes them, after the harm. |
 
 ::: tell
 When there is no bishop, the court fills the vacancy — afterward. The absence of an apex does not protect you. It means no one is responsible until someone is dead.
@@ -191,12 +193,12 @@ When there is no bishop, the court fills the vacancy — afterward. The absence 
 
 | Entity | Type | Holder | Holds | Why it matters to you | Receipt |
 |---|---|---|---|---|---|
-| The teacher-entrepreneur | Sole authority | Any individual with an audience | Diagnosis, treatment, pricing, and the framework in which failure is always the customer's | Your money, your grief, and your medical decisions | [PATTERN OBSERVED] |
-| Certification pyramids | Commercial structure | Whoever entered earliest | Downstream fee shares from everyone they credential | What being allowed to practice costs, forever |  |
-| MLM-wellness hybrids | Multi-level marketing | Corporate parents and upline distributors | Documented majority-loss structures wrapped in abundance language | Your savings, sold to you as empowerment | [GOVERNMENT REPORT: regulatory actions] |
-| Retreat and plant-medicine operators | Unregulated service | Private operators, frequently not from the source tradition | High-cost experiences with inadequate screening; deaths documented | Your safety, in a jurisdiction you chose for its absence of rules | [COURT RECORD] |
-| Adjudicated cases | Individual, adjudicated | A retreat operator convicted of negligent homicide after three deaths; a self-improvement founder convicted of racketeering and sex trafficking | Proof of where the frame ends up when nothing constrains it | The outer limit of an industry with no licensing body | [COURT RECORD] |
-| Platforms and algorithms | Distribution | Technology companies | Amplification of whatever converts, taking a cut | What your feed decides you need healing from |  |
+| The teacher-entrepreneur | Sole authority | Any individual with an audience can hold this position. | The teacher holds the diagnosis, the treatment, the pricing, and the framework in which failure is always the customer's. | Your money, your grief, and your medical decisions are involved. | [PATTERN OBSERVED] |
+| Certification pyramids | Commercial structure | Whoever entered earliest holds them. | They hold downstream fee shares from everyone they credential. | They set what being allowed to practice costs, forever. |  |
+| MLM-wellness hybrids | Multi-level marketing | Corporate parents and upline distributors (the distributors above you in the sales chain) hold them. | They hold documented majority-loss structures (arrangements in which most participants lose money) wrapped in abundance language. | Your savings are at stake, and the arrangement is sold to you as empowerment. | [GOVERNMENT REPORT: regulatory actions] |
+| Retreat and plant-medicine operators | Unregulated service | Private operators, frequently not from the source tradition, hold these roles. | They sell high-cost experiences with inadequate screening, and deaths are documented. | Your safety is at stake, in a jurisdiction you chose for its absence of rules. | [COURT RECORD] |
+| Adjudicated cases | Individual, adjudicated | A retreat operator was convicted of negligent homicide after three deaths, and a self-improvement founder was convicted of racketeering and sex trafficking. | These cases are proof of where the frame ends up when nothing constrains it. | They mark the outer limit of an industry with no licensing body. | [COURT RECORD] |
+| Platforms and algorithms | Distribution | Technology companies hold this role. | They amplify whatever converts, and they take a cut. | They shape what your feed decides you need healing from. |  |
 
 ::: cites
 Sources for this section: [1] [2] [3] [5] [6]
@@ -206,43 +208,43 @@ Sources for this section: [1] [2] [3] [5] [6]
 
 | Country | What the law does | What happened |
 |---|---|---|
-| **United States — criminal** | Negligent homicide; racketeering and sex trafficking [2][3] | James Arthur Ray was convicted over three sweat-lodge deaths (2011) [2]; NXIVM's leader was sentenced to 120 years (2020) [3] |
-| **United States — consumer** | False-advertising law [8][9] | Ten California counties settled with Goop in 2018 for $145,000 over unsupported health claims for its jade and rose-quartz eggs and a "flower essence" [8][9] |
-| **United States — MLM** | FTC Act [5] | Herbalife paid $200 million and restructured in 2016 [5] |
-| **Peru** | — | The US Embassy warned in 2025 against ayahuasca and kambo retreats after deaths and assaults [6] |
+| **United States — criminal** | Criminal law on negligent homicide, racketeering and sex trafficking applies [2][3]. | James Arthur Ray was convicted over three sweat-lodge deaths (2011) [2], and NXIVM's leader was sentenced to 120 years (2020) [3]. |
+| **United States — consumer** | False-advertising law applies [8][9]. | Ten California counties settled with Goop (Gwyneth Paltrow's wellness and lifestyle company) in 2018 for $145,000 over unsupported health claims for its jade and rose-quartz eggs and a "flower essence" [8][9]. |
+| **United States — MLM** | The Federal Trade Commission (FTC) Act, which prohibits unfair or deceptive business practices, applies [5]. | Herbalife, a multi-level marketing company that sells nutritional products, paid $200 million and restructured in 2016 [5]. |
+| **Peru** | This page cites no Peruvian statute. | The US Embassy warned in 2025 against ayahuasca and kambo retreats after deaths and assaults [6]. |
 
 ### Who can compel an answer
 
-Consumer-protection agencies, advertising-standards bodies on health and income claims, professional licensing boards wherever clinical language is used without clinical credentials, and the courts — which have already set the industry's ceiling.
+The bodies that can compel an answer are consumer-protection agencies, advertising-standards bodies on health and income claims, professional licensing boards wherever clinical language is used without clinical credentials, and the courts, which have already set the industry's ceiling.
 
 ## 9. Money {#money}
 
 ### Where it comes from
 
-- Tiered course funnels ($97 → $997 → $10K masterminds), retreat economies, certification pyramids (paying to become a certified healer who certifies others — MLM logic in spiritual clothing), influencer monetization. [INVESTIGATIVE REPORT: documented cases, e.g., sweat-lodge deaths (James Arthur Ray, convicted 2011 [COURT RECORD]), NXIVM's self-help-to-coercion pipeline [COURT RECORD])
+- The money comes from tiered course funnels ($97 → $997 → $10K masterminds), retreat economies, certification pyramids (paying to become a certified healer who certifies others, which is MLM logic in spiritual clothing) and influencer monetization. [INVESTIGATIVE REPORT: documented cases, e.g., sweat-lodge deaths (James Arthur Ray, convicted 2011 [COURT RECORD]) and NXIVM's self-help-to-coercion pipeline [COURT RECORD]]
 
 ### Follow the money
 
 | Flow | Stated purpose | How it controls | Who benefits |
 |---|---|---|---|
-| Tiered course funnels ($97 → $997 → $10K+ masterminds) | Progressive transformation | Escalating spend with no defined outcome; sunk cost drives continuation | The teacher-entrepreneur and platform |
-| Certification pyramids | Become a certified practitioner | Pay to be certified, then certify others — MLM logic in spiritual clothing, with the upstream seller taking the margin | Original certifiers [PATTERN OBSERVED] |
-| Retreats and plant-medicine tourism | Deep healing | High-cost, low-regulation settings; medical screening often inadequate; deaths documented | Retreat operators, facilitators [COURT RECORD / INVESTIGATIVE REPORT] |
-| One-to-one coaching and readings | Personal guidance | Unlicensed practice adjacent to psychotherapy with no scope-of-practice limits or insurance | Individual practitioners |
-| MLM-wellness hybrids | Abundance and community | Documented majority-loss structures wrapped in spiritual empowerment language | Upline distributors and the company [GOVERNMENT REPORT: FTC actions] |
+| Tiered course funnels ($97 → $997 → $10K+ masterminds) | The stated purpose is progressive transformation. | Spend escalates with no defined outcome, and sunk cost drives continuation. | The teacher-entrepreneur and the platform benefit. |
+| Certification pyramids | The stated purpose is to become a certified practitioner. | Practitioners pay to be certified and then certify others, which is MLM logic in spiritual clothing, with the upstream seller taking the margin. | The original certifiers benefit. [PATTERN OBSERVED] |
+| Retreats and plant-medicine tourism | The stated purpose is deep healing. | The settings are high-cost and low-regulation, medical screening is often inadequate, and deaths are documented. | Retreat operators and facilitators benefit. [COURT RECORD / INVESTIGATIVE REPORT] |
+| One-to-one coaching and readings | The stated purpose is personal guidance. | The practice is unlicensed and adjacent to psychotherapy, with no scope-of-practice limits or insurance. | Individual practitioners benefit. |
+| MLM-wellness hybrids | The stated purpose is abundance and community. | The structures are documented as majority-loss and are wrapped in spiritual empowerment language. | Upline distributors and the company benefit. [GOVERNMENT REPORT: FTC actions] |
 
 ### Pipelines this tradition shares
 
 ::: card
 #### Graded spiritual services
 
-**Source.** Member paying per level of advancement
+**Source.** The money comes from members paying per level of advancement.
 
 **Path.** Local org → Central organization → Real-estate and reserve entities
 
-**Disclosed.** Price lists
+**Disclosed.** Price lists are disclosed.
 
-**Hidden.** Everything downstream of them
+**Hidden.** Everything downstream of the price lists is hidden.
 :::
 
 ::: card
@@ -260,25 +262,25 @@ Consumer-protection agencies, advertising-standards bodies on health and income 
 ::: card
 #### Retreat and ceremony tourism
 
-**Source.** Western participants seeking healing
+**Source.** The money comes from Western participants seeking healing.
 
 **Path.** Operator, often not from the source community → Facilitators → Offshore or personal accounts
 
-**Disclosed.** Prices
+**Disclosed.** Prices are disclosed.
 
-**Hidden.** Safety record, training, and benefit-sharing
+**Hidden.** The safety record, the training, and the benefit-sharing are hidden.
 :::
 
 ::: card
 #### Certification pyramid
 
-**Source.** Practitioners paying to become certifiers
+**Source.** The money comes from practitioners paying to become certifiers.
 
 **Path.** Trainer → Original certifier → Perpetual downstream fee share
 
-**Disclosed.** Course fees
+**Disclosed.** Course fees are disclosed.
 
-**Hidden.** Failure rates and income distribution
+**Hidden.** Failure rates and income distribution are hidden.
 :::
 
 ::: card
@@ -295,9 +297,9 @@ Consumer-protection agencies, advertising-standards bodies on health and income 
 
 ### Money in numbers
 
-- **Goop (2018):** $145,000 in civil penalties, with refunds offered to some customers [9].
-- **Herbalife (2016):** $200 million to compensate distributors [5].
-- **Course funnels and certification ladders** — see Money above; the market is unregistered, so no totals exist [1].
+- **Goop (2018):** Goop paid $145,000 in civil penalties, and refunds were offered to some customers [9].
+- **Herbalife (2016):** Herbalife paid $200 million to compensate distributors [5].
+- **Course funnels and certification ladders:** These are described under Money above. The market is unregistered, so no totals exist [1].
 
 ## 10. Genealogy {#genealogy}
 
@@ -306,11 +308,11 @@ Consumer-protection agencies, advertising-standards bodies on health and income 
 
 **Origin.** 19th-century New Thought, popularized through 20th-century self-help and mass-marketed from 2006 onward. [ACADEMIC SOURCE]
 
-**What it was for.** A genuine reaction against Calvinist fatalism: the idea that a person's mind and effort matter. That was liberating in its original context.
+**What it was for.** It was a genuine reaction against Calvinist fatalism (the doctrine that God has already decided who is saved), built on the idea that a person's mind and effort matter. That was liberating in its original context.
 
 **Why that reason expired.** Taken to its conclusion, it means the cancer patient attracted the tumor and the assaulted woman manifested the assault. There is no crueler doctrine in this codex, and it is delivered in the language of empowerment.
 
-**Who benefits now.** The teacher, structurally and permanently. In a framework where you create your reality, the seller can never fail — every failure is your vibration. No institution has ever engineered a better immunity.
+**Who benefits now.** The teacher benefits, structurally and permanently. In a framework where you create your reality, the seller can never fail — every failure is your vibration. No institution has ever engineered a better immunity.
 :::
 
 ::: card
@@ -318,11 +320,11 @@ Consumer-protection agencies, advertising-standards bodies on health and income 
 
 **Origin.** Modality certification models expanded through the 1990s–2010s, borrowing structure from multi-level marketing. [PATTERN OBSERVED]
 
-**What it was for.** None older. This is a business architecture, not a lapsed tradition.
+**What it was for.** It had no older purpose. This is a business architecture, not a lapsed tradition.
 
 **Why that reason expired.** It was never a spiritual lineage. You pay to be certified, then certify others, and the person above you takes a margin — with no licensing body, no scope of practice, and no complaints procedure anywhere in the chain.
 
-**Who benefits now.** Whoever entered the pyramid earliest. The people at the bottom are paying for the right to recruit.
+**Who benefits now.** Whoever entered the pyramid earliest benefits. The people at the bottom are paying for the right to recruit.
 :::
 
 ::: card
@@ -334,7 +336,7 @@ Consumer-protection agencies, advertising-standards bodies on health and income 
 
 **Why that reason expired.** An authority that cannot be cross-examined and reliably endorses the seller's recommendation is worse than a bishop, because a bishop can at least be found and asked. 'Spirit told me' is unfalsifiable by construction.
 
-**Who benefits now.** The channel, who holds the only microphone and answers to no synod, no board, and no regulator.
+**Who benefits now.** The channel benefits; they hold the only microphone and answer to no synod, no board, and no regulator.
 :::
 
 ::: card
@@ -342,11 +344,11 @@ Consumer-protection agencies, advertising-standards bodies on health and income 
 
 **Origin.** Energy-frequency framing popularized in late 20th-century spirituality. [PATTERN OBSERVED]
 
-**What it was for.** A metaphor for mood and outlook.
+**What it was for.** It was a metaphor for mood and outlook.
 
-**Why that reason expired.** It became a silencing device: your objection is low vibration, your grief is dense energy, your anger is what attracted this. It performs the exact function that 'you have a spirit of division' performs in a megachurch, with better branding.
+**Why that reason expired.** It became a silencing device: your objection is low vibration (a supposedly negative energetic state), your grief is dense energy, your anger is what attracted this. It performs the exact function that 'you have a spirit of division' performs in a megachurch, with better branding.
 
-**Who benefits now.** Anyone in the room who does not want to be questioned. Which, in an unregulated market, is everyone selling.
+**Who benefits now.** Anyone in the room who does not want to be questioned benefits, which in an unregulated market is everyone selling.
 :::
 
 ## 11. Reach {#reach}
@@ -360,16 +362,16 @@ Consumer-protection agencies, advertising-standards bodies on health and income 
 
 ### Children
 
-- Indigo/starseed/crystal-child labeling attributes special cosmic status to children, sometimes displacing diagnosis and treatment of real developmental or psychiatric needs. [PATTERN OBSERVED]
+- Indigo, starseed and crystal-child labeling (labels for children said to carry special spiritual gifts or origins) attributes special cosmic status to children, sometimes displacing diagnosis and treatment of real developmental or psychiatric needs. [PATTERN OBSERVED]
 - Vaccine refusal and alternative treatment of children's illnesses have produced prosecutions and deaths. [COURT RECORD]
-- Unschooling combined with anti-institutional ideology can leave children without basic educational grounding. [PATTERN OBSERVED]
+- Unschooling (education led by the child's interests, with no fixed curriculum) combined with anti-institutional ideology can leave children without basic educational grounding. [PATTERN OBSERVED]
 - This codex found no systematic data on children in ceremony and plant-medicine settings — and in a market with no licensing body, the absence of records is itself the risk.
 
 ### Bodies
 
 - Divine feminine and sacred masculine framings are marketed heavily, often reproducing rigid gender essentialism under progressive language. [PATTERN OBSERVED]
-- Sexual boundary violations by healers, tantra teachers, and retreat facilitators are widely reported and rarely prosecuted — no license to revoke, no institution to complain to. [INVESTIGATIVE REPORT / FORMER MEMBER TESTIMONY]
-- NXIVM's DOS branding of women is the extreme documented endpoint of coercive control inside a self-improvement frame. [COURT RECORD]
+- Sexual boundary violations by healers, tantra teachers (teachers of sexual-spiritual practice), and retreat facilitators are widely reported and rarely prosecuted — no license to revoke, no institution to complain to. [INVESTIGATIVE REPORT / FORMER MEMBER TESTIMONY]
+- NXIVM's DOS (a secret women's group inside NXIVM) branding of women is the extreme documented endpoint of coercive control inside a self-improvement frame. [COURT RECORD]
 - The audience for wellness and coaching products is predominantly female, and the highest-earning teachers are disproportionately male in the largest programs. [PATTERN OBSERVED]
 
 ::: cites
@@ -397,7 +399,7 @@ You are gifted, empathic, chosen, a starseed, an old soul. Someone says they kne
 
 **How it shows here**
 
-- Seekers are welcomed with language of healing, vibration, trauma release, manifestation, soul family, divine feminine, astrology, plant medicine, breathwork, and “you were meant to be here.”
+- Seekers are welcomed with language of healing, vibration, trauma release, manifestation, soul family (a group said to be bound together across lifetimes), divine feminine, astrology, plant medicine, breathwork, and “you were meant to be here.”
 - The newcomer is often told they are gifted, empathic, chosen, starseeded, blocked, awakening, or surrounded by negative energy that the group can help clear.
 - Love bombing happens through instant cosmic intimacy: “I feel like we’ve known each other in past lives,” “Your energy is powerful,” “This circle is your real family.”
 
@@ -424,7 +426,7 @@ You are gifted, empathic, chosen, a starseed, an old soul. Someone says they kne
 
 **The counter.** A crystal invoice is still an invoice. If a group flatters your wound, names your pain, calls skepticism “blocked energy,” and sells access to your higher self in installments, it has recreated religious dependency without admitting it is religion.
 
-**Evidence grade.** [[Cultural]] Instant cosmic intimacy and chosen-identity framing are sales technique with no institution behind them.
+**Evidence grade.** [[Cultural]] Free circles, readings and introductions are offered as gifts and followed by paid workshops and retreats, a sales sequence that no institution sets or oversees.
 :::
 
 ### Stage 2 · Hook {#stage-2}
@@ -432,7 +434,7 @@ You are gifted, empathic, chosen, a starseed, an old soul. Someone says they kne
 ::: stage
 **You are given a future that cannot be verified, and a rope for whenever you drift toward the door.**
 
-Abundance, awakening, alignment, your highest timeline — measurable never, and every shortfall attributable to your vibration. Retrieval is the next offering, the next container, and the suggestion that leaving was itself the block.
+You are promised abundance, awakening, alignment and your highest timeline. None of it is ever measured, and every shortfall is attributed to your vibration. Retrieval is the next offering, the next container, and the suggestion that leaving was itself the block.
 
 *What it asks of you:* A framework in which every failure is your frequency has made itself permanently unfalsifiable and permanently blameless.
 :::
@@ -444,9 +446,9 @@ Abundance, awakening, alignment, your highest timeline — measurable never, and
 
 **How it shows here**
 
-- New Age systems future-fake through awakening, ascension, 5D consciousness, twin flame union, abundance, manifestation, divine feminine activation, soul mission, starseed destiny, and energetic upgrade.
+- New Age systems future-fake through awakening, ascension, 5D consciousness (a supposed higher plane of awareness), twin flame union (union with a single destined soul partner), abundance, manifestation, divine feminine activation, soul mission, starseed destiny, and energetic upgrade.
 - The seeker is told they are special but blocked. The future self is radiant, healed, abundant, magnetic, intuitive, sexually liberated, financially free, and cosmically aligned.
-- Every failure can be reinterpreted as a stage: purge, shadow work, dark night, ego death, ancestral clearing, karmic release, nervous system reset, integration.
+- Every failure can be reinterpreted as a stage: purge, shadow work (exploring the parts of yourself you deny), dark night, ego death, ancestral clearing, karmic release, nervous system reset, integration.
 - The future arrives through paid containers: retreats, masterminds, coaching packages, certifications, plant medicine ceremonies, breathwork intensives, astrology readings, energy healings.
 - “Your breakthrough is close” becomes the spiritual entrepreneur’s favorite sentence. Close enough to buy the next course. Not close enough to stop buying.
 - Twin flame systems are especially brutal: abuse, abandonment, obsession, and humiliation are reframed as signs of a destined future union.
@@ -465,7 +467,7 @@ Abundance, awakening, alignment, your highest timeline — measurable never, and
 
 **How it shows here**
 
-- Someone leaving a New Age circle, coaching group, twin flame program, plant medicine community, or spiritual mentorship may be told they are blocked, afraid of expansion, resisting abundance, or abandoning their soul contract.
+- Someone leaving a New Age circle, coaching group, twin flame program, plant medicine community, or spiritual mentorship may be told they are blocked, afraid of expansion, resisting abundance, or abandoning their soul contract (a supposed pre-birth agreement).
 - The teacher may return with sudden intimacy: “I felt your energy,” “Your guides told me to reach out,” “You are at a breakthrough point,” “This is your ego trying to keep you small.”
 - If the person stops paying for sessions or courses, they may be told they are sabotaging their healing or dropping out right before transformation.
 - Twin flame groups may hoover brutally: separation is framed as part of the journey, abuse as mirroring, obsession as destiny, and returning as spiritual courage.
@@ -475,7 +477,7 @@ Abundance, awakening, alignment, your highest timeline — measurable never, and
 
 **The counter.** That line is exactly how the trap protects itself. If every impulse to leave is labeled resistance, ego, fear, low vibration, or trauma response, then the person’s boundary has already been discredited before it is spoken.
 
-**Evidence grade.** [[Taught]] Abundance and alignment are taught in bestselling literature and in course material, with no verifiable endpoint.
+**Evidence grade.** [[Taught]] The entry describes teachers and twin flame groups answering a departure with claims of blockage and a sudden return of intimacy; it cites no text that instructs the practice.
 :::
 
 ### Stage 3 · Devalue {#stage-3}
@@ -483,7 +485,7 @@ Abundance, awakening, alignment, your highest timeline — measurable never, and
 ::: stage
 **You are taught that you are broken, that your perception is unreliable, and that both exits from the trap lead back inside.**
 
-Your blocks, your resistance, your unhealed shadow, your scarcity mindset. The next level always addresses what the last one did not.
+You are told the problem is your blocks, your resistance, your unhealed shadow and your scarcity mindset. The next level always addresses what the last one did not.
 
 *What it asks of you:* You have paid repeatedly to fix something that is redefined each time you pay.
 :::
@@ -543,7 +545,7 @@ Your blocks, your resistance, your unhealed shadow, your scarcity mindset. The n
 
 **The counter.** Power is not returned when the individual carries all blame and the teacher keeps all credit and revenue. A frame where the seller can never be at fault is not spirituality's discovery; it is liability's oldest dream.
 
-**Evidence grade.** [[Taught]] Blocks, resistance, and unhealed shadow are taught explicitly as the customer's condition.
+**Evidence grade.** [[Taught]] The paired instructions appear in the movement's own slogans (trust your intuition, only take what resonates, you create your own reality); the entry cites no single text that sets them side by side.
 :::
 
 ### Stage 4 · Confuse {#stage-4}
@@ -565,13 +567,13 @@ You manifested this. Your vibration attracted it. This is your lesson. The perso
 
 - Manifestation teaching is a purpose-built variable-reward loop: visualize, act, and attribute — hits prove the method, misses prove your vibration, and the course catalog resolves the gap.
 - The guru-coach alternates public celebration of a client ('look at her breakthrough!') with public processing of her 'resistance,' and the group learns to crave the spotlight's warm setting.
-- Signs, synchronicities, and angel numbers pay out on ambient randomness harvested as personal messages — an infinite free slot machine whose interpretation manual costs $497.
+- Signs, synchronicities, and angel numbers (repeating number sequences read as messages) pay out on ambient randomness harvested as personal messages — an infinite free slot machine whose interpretation manual costs $497.
 
 **The strongest defense.** We teach people to notice abundance and possibility; attention training has real psychological benefits.
 
 **The counter.** Attention training is real; so is attribution laundering. When the frame guarantees the seller credit for every hit and the buyer blame for every miss, the benefit being trained is the seller's.
 
-**Evidence grade.** [[Taught]] Low-vibration framing and manifestation blame reversal are stated plainly in the movement's own bestsellers.
+**Evidence grade.** [[Taught]] Manifestation teaching reads hits as proof of the method and misses as proof of the student's vibration, with the course catalog as the remedy for the gap; the variable-reward reading is this page's analysis.
 :::
 
 ::: tactic n=9
@@ -626,7 +628,7 @@ You manifested this. Your vibration attracted it. This is your lesson. The perso
 
 **The counter.** That becomes projection when the teacher’s authority is never subject to the same diagnosis. If only the paying client has blocks and the profitable leader only has wisdom, dysfunction is being projected downward.
 
-**Evidence grade.** [[Taught]] Low-vibration framing and manifestation blame reversal are stated plainly in the movement's own bestsellers.
+**Evidence grade.** [[Taught]] The entry describes coaches answering questions about price with a charge of scarcity mindset and answering boundaries with a charge of fear; it cites no text that teaches the accusation, and the basis is observed practice.
 :::
 
 ::: tactic n=12
@@ -666,7 +668,7 @@ You manifested this. Your vibration attracted it. This is your lesson. The perso
 
 **The counter.** Healing becomes desensitization when discomfort is always interpreted in favor of the teacher. If pain, debt, obsession, or boundary collapse is repeatedly renamed growth, the person is being trained to ignore danger.
 
-**Evidence grade.** [[Taught]] Low-vibration framing and manifestation blame reversal are stated plainly in the movement's own bestsellers.
+**Evidence grade.** [[Taught]] The entry describes paid healing, vague diagnoses and reframed boundary violations becoming familiar over time; the vocabulary is taught, but no cited text teaches treating destabilization as a sign of progress.
 :::
 
 ### Stage 5 · Isolate {#stage-5}
@@ -674,7 +676,7 @@ You manifested this. Your vibration attracted it. This is your lesson. The perso
 ::: stage
 **Your world narrows until every voice you hear is inside the system, and everything you came for now runs through a middleman.**
 
-No membership — but sunk costs, identity investment, a community, and a framework in which the outside world is asleep. Critics are fearful, wounded, or attacking your light.
+There is no membership, but there are sunk costs, identity investment, a community, and a framework in which the outside world is asleep. Critics are fearful, wounded, or attacking your light.
 
 *What it asks of you:* There is no institution to leave, so there is also nowhere to complain. That was sold to you as freedom.
 :::
@@ -718,7 +720,7 @@ No membership — but sunk costs, identity investment, a community, and a framew
 
 **The counter.** Reflection becomes triangulation when invisible authorities always validate the leader. If your guides, chart, ancestors, higher self, twin flame, group, and coach all somehow agree that you should pay, stay, forgive, or surrender, then the universe has been conveniently staffed by the sales team.
 
-**Evidence grade.** [[Cultural]] Insularity runs through community identity and the framing of outsiders as asleep — no membership, no boundary rule.
+**Evidence grade.** [[Cultural]] Guides, ancestors, charts and the higher self are named as intermediaries who agree with the teacher; they cannot be questioned, and no institution sets or checks what they are said to confirm.
 :::
 
 ### Stage 6 · Extract {#stage-6}
@@ -726,7 +728,7 @@ No membership — but sunk costs, identity investment, a community, and a framew
 ::: stage
 **Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
 
-Tiered funnels from ninety-seven dollars to ten-thousand-dollar masterminds. Certification pyramids where you pay to certify others. Retreats in unregulated settings with inadequate screening. Unlicensed practice adjacent to psychotherapy with no scope limits. And your objection reclassified as low vibration.
+Tiered funnels run from ninety-seven dollars to ten-thousand-dollar masterminds. In certification pyramids you pay to certify others. Retreats take place in unregulated settings with inadequate screening. Unlicensed practice runs adjacent to psychotherapy with no scope limits. And your objection is reclassified as low vibration.
 
 *What it asks of you:* You have paid repeatedly to fix something that was redefined each time you paid. Ask when the definition will settle.
 :::
@@ -747,7 +749,7 @@ Tiered funnels from ninety-seven dollars to ten-thousand-dollar masterminds. Cer
 
 **The counter.** Support becomes FLYING MONKEY behavior when the group’s only interpretation is that leaving equals resistance. If every friend from the circle repeats the teacher’s diagnosis, they are not supporting healing. They are enforcing the sales funnel.
 
-**Evidence grade.** [[Cultural]] Tiered funnels, certification pyramids, and retreat pricing are individually set with no licensing body; the criminal cases are separately documented.
+**Evidence grade.** [[Cultural]] The entry describes group members, assistants and moderators repeating the teacher's diagnosis to a person who is leaving; no rule or text directs it, and the page cites no case record of it.
 :::
 
 ::: tactic n=17
@@ -766,7 +768,7 @@ Tiered funnels from ninety-seven dollars to ten-thousand-dollar masterminds. Cer
 
 **The counter.** Naming resistance becomes smear when every criticism is converted into pathology. If the teacher profits from diagnosing critics as unhealed, the diagnosis is not insight. It is reputation control.
 
-**Evidence grade.** [[Cultural]] Tiered funnels, certification pyramids, and retreat pricing are individually set with no licensing body; the criminal cases are separately documented.
+**Evidence grade.** [[Cultural]] The entry describes former clients being labeled low vibration, unhealed or toxic after they leave; no rule or text directs it, and the page cites no case record of it.
 :::
 
 ::: tactic n=18
@@ -785,7 +787,7 @@ Tiered funnels from ninety-seven dollars to ten-thousand-dollar masterminds. Cer
 
 **The counter.** Complexity becomes stonewalling when plain questions never get plain answers. If the teacher can state the price clearly but not the accountability clearly, the fog is financial and spiritual protection.
 
-**Evidence grade.** [[Cultural]] Tiered funnels, certification pyramids, and retreat pricing are individually set with no licensing body; the criminal cases are separately documented.
+**Evidence grade.** [[Cultural]] The entry describes plain questions about money, credentials and harm receiving answers about energy and readiness; the basis is observed practice, with no written policy and no case record cited.
 :::
 
 ::: tactic n=19
@@ -804,7 +806,7 @@ Tiered funnels from ninety-seven dollars to ten-thousand-dollar masterminds. Cer
 
 **The counter.** Resonance is not informed consent. If the teacher controls the diagnosis, urgency, spiritual meaning, and group atmosphere, the client’s yes may be produced by vulnerability rather than freedom.
 
-**Evidence grade.** [[Cultural]] Tiered funnels, certification pyramids, and retreat pricing are individually set with no licensing body; the criminal cases are separately documented.
+**Evidence grade.** [[Cultural]] The entry describes consent given under diagnosis, urgency and group pressure, including in altered states; the basis is observed practice, and the page cites no case record of a contested consent.
 :::
 
 ::: tactic n=20
@@ -823,7 +825,7 @@ Tiered funnels from ninety-seven dollars to ten-thousand-dollar masterminds. Cer
 
 **The counter.** Healing becomes TRAUMA BONDING when destabilization is repeatedly caused by the same person selling the relief. If pain always means the process is working and relief always requires another purchase, the bond is commercialized dependency.
 
-**Evidence grade.** [[Cultural]] Tiered funnels, certification pyramids, and retreat pricing are individually set with no licensing body; the criminal cases are separately documented.
+**Evidence grade.** [[Cultural]] The entry describes the same teacher naming the wound and selling the relief, with twin flame groups bonding through abandonment and reunion; the basis is observed practice, with no cited text or case record.
 :::
 
 ::: tactic n=21
@@ -842,7 +844,7 @@ Tiered funnels from ninety-seven dollars to ten-thousand-dollar masterminds. Cer
 
 **The counter.** Layered healing becomes LEARNED HELPLESSNESS when every failed promise becomes the client’s deficiency. If the teacher’s method can never fail, the client is trained to fail themselves.
 
-**Evidence grade.** [[Cultural]] Tiered funnels, certification pyramids, and retreat pricing are individually set with no licensing body; the criminal cases are separately documented.
+**Evidence grade.** [[Cultural]] The entry describes clients told that failure, boundaries and leaving are each their own deficiency until they stop trusting their own no; the basis is observed practice, with no cited text or case record.
 :::
 
 ::: tactic n=22
@@ -861,7 +863,7 @@ Tiered funnels from ninety-seven dollars to ten-thousand-dollar masterminds. Cer
 
 **The counter.** Growth becomes BENEVOLENT CONTROL when the teacher defines every refusal as fear. If the only empowered choice is the one that keeps you paying, staying, or surrendering, empowerment has become a sales script.
 
-**Evidence grade.** [[Cultural]] Tiered funnels, certification pyramids, and retreat pricing are individually set with no licensing body; the criminal cases are separately documented.
+**Evidence grade.** [[Cultural]] The entry describes coaches and teachers framing expensive programs, and any refusal of them, in the language of care and fear; the basis is observed practice, with no written rule or case record cited.
 :::
 
 ::: tactic n=23
@@ -880,7 +882,7 @@ Tiered funnels from ninety-seven dollars to ten-thousand-dollar masterminds. Cer
 
 **The counter.** Support becomes INFANTILIZATION when the teacher profits from keeping the client not ready. If every no proves you are blocked and every yes proves you are growing, the healer has become a spiritual parent with a payment processor.
 
-**Evidence grade.** [[Cultural]] Tiered funnels, certification pyramids, and retreat pricing are individually set with no licensing body; the criminal cases are separately documented.
+**Evidence grade.** [[Cultural]] The entry describes teachers calling adult clients unhealed, blocked or not ready and framing programs as containers the client cannot hold alone; the basis is observed practice, with no written rule or case record cited.
 :::
 
 ::: tactic n=24
@@ -900,7 +902,7 @@ Tiered funnels from ninety-seven dollars to ten-thousand-dollar masterminds. Cer
 
 **The counter.** Meaning becomes IDENTITY EROSION when the framework replaces direct self-knowledge. If your identity is constantly renamed by the person selling the next activation, your self has become a product line.
 
-**Evidence grade.** [[Cultural]] Tiered funnels, certification pyramids, and retreat pricing are individually set with no licensing body; the criminal cases are separately documented.
+**Evidence grade.** [[Cultural]] The entry describes participants renamed as empaths, starseeds, healers or twin flames by the people selling the next activation; the basis is observed practice, and no written rule or case record is cited.
 :::
 
 ::: tactic n=25
@@ -948,7 +950,7 @@ Tiered funnels from ninety-seven dollars to ten-thousand-dollar masterminds. Cer
 ::: stage
 **You become expensive — too many questions, too much independence — and the urgency ramps up until you are removed.**
 
-Access ends, the container closes, the group moves on. No refund, no accountability, no license to revoke. In extreme documented cases: deaths at retreats, and a federal conviction for coercive branding. [COURT RECORD]
+Access ends, the container closes, the group moves on. There is no refund, no accountability, and no license to revoke. In extreme documented cases the result has been deaths at retreats and a federal conviction for coercive branding. [COURT RECORD]
 
 *What it asks of you:* There is no body you can report this to. Consider that this was the selling point.
 :::
@@ -969,7 +971,7 @@ Access ends, the container closes, the group moves on. No refund, no accountabil
 
 **The counter.** Timing becomes MANUFACTURED CRISIS when urgency serves the seller. If every deadline, portal, activation, or breakthrough requires payment now, the crisis is not spiritual. It is marketing with incense.
 
-**Evidence grade.** [[Cultural]] Containers close and access ends with no procedure, no refund, and nowhere to complain.
+**Evidence grade.** [[Cultural]] Ascension windows, portals and twin flame deadlines are described as urgency devices attached to a sale; the entry cites no text that sets them, and the page cites no record of a deadline being enforced.
 :::
 
 ::: tactic n=28
@@ -995,7 +997,7 @@ Access ends, the container closes, the group moves on. No refund, no accountabil
 ### Stage 8 · Replace {#stage-8}
 
 ::: stage
-**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to God.**
+**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority is attributed to spirit, the universe, or your own higher self.**
 
 The container closes, the group moves on, the algorithm supplies the next cohort. And the authority is spirit, the universe, your own higher self — none of which can be located, cross-examined, or held to anything.
 
@@ -1019,13 +1021,13 @@ The container closes, the group moves on, the algorithm supplies the next cohort
 
 **The counter.** Resonance becomes REPLACEMENT when the teacher cycles through wounded people. If every harmed client is “not ready” and every new client is “aligned,” the business model depends on replacing disillusionment with fresh vulnerability.
 
-**Evidence grade.** [[Cultural]] Authority attributed to the universe, guides, or higher self — unfalsifiable by construction and unaccountable by design.
+**Evidence grade.** [[Cultural]] The entry describes departing clients being replaced by new seekers and new testimonials being promoted to drown out earlier warnings; the basis is observed practice, with no cited text or case record.
 :::
 
 ::: tactic n=30
 #### 30 · Plausible Deniability {#t-30}
 
-*The institution is never responsible, because the authority is attributed to God — who isn't available for cross-examination.*
+*The institution is never responsible, because the authority is attributed to spirit, the universe or a higher self, none of which is available for cross-examination.*
 
 **How it shows here**
 
@@ -1044,46 +1046,162 @@ The container closes, the group moves on, the algorithm supplies the next cohort
 
 ## 13. The loops {#loops}
 
+::: lede
+The seven loops below show how the practices connect, so that each step makes the next one easier and the last step feeds the first. The loops are analysis built from findings recorded elsewhere on this page [PATTERN OBSERVED]; each step names the section or technique where its fact is recorded.
+:::
+
 ::: card
 #### 1 · Money to Doctrine to Money
 
 Tiered funnels are priced by the person who defines what you still need, and the definition changes with each purchase.
+
+**How it runs.**
+
+1. A newcomer is welcomed warmly and offered free circles, readings or introductions (techniques 1 and 2).
+2. The course funnel starts at $97 and rises to $997 and then to $10K masterminds (sections 1 and 9).
+3. The teacher defines what the participant still needs, through blocks, resistance and an unhealed shadow (techniques 5 and 9).
+4. Each shortfall is attributed to the participant's vibration or limiting beliefs, and the remedy offered is the next tier (techniques 3 and 6).
+5. The participant pays, the definition of the need changes, and the next tier is offered (technique 9 and section 9).
+
+**Techniques that feed it.** [2 · Weaponized Generosity](#t-2), [3 · Future Faking](#t-3), [9 · Moving the Goalposts](#t-9), [26 · Financial Control](#t-26).
+
+**Why it closes.** The person who defines the need also sets the price and judges whether the remedy worked. Section 14 records the 'guide' as the only person permitted to assess your progress, set the price and define the failure, so no outside measure can end the sequence.
+
+**Where it could be broken, and by whom.** It weakens where the spending becomes visible and testable. A participant can ask for a written refund policy before the next payment and ask what would count as evidence that the method does not work (section 23, questions 2 and 4). Published refund rates, income disclosures and dropout data from the major certification pyramids would revise the funnel findings (section 20). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** In the composite day in section 2, a client who asks whether there is a refund policy for a $2,400 container is told about integration timelines and the journey being non-linear.
 :::
 
 ::: card
 #### 2 · Fear to Dependence to Fear
 
-Blocks and low vibration supply the diagnosis; only the seller can assess relief; failure is always yours.
+Blocks and low vibration supply the diagnosis, only the seller can assess relief, and failure is always yours.
+
+**How it runs.**
+
+1. A participant arrives with a need and is told they are blocked, low vibration or unhealed (technique 5 and section 12).
+2. The teacher alone offers the relief, through paid sessions, retreats or certifications (technique 20).
+3. The teacher alone judges whether the relief worked: a hit proves the method and a miss proves the participant's vibration (technique 8).
+4. Doubt about the teacher is reclassified as fear, resistance or a trauma response (techniques 7 and 12).
+5. The participant trusts their own judgment less and depends more on the teacher, and the cycle returns to the diagnosis (technique 21).
+
+**Techniques that feed it.** [5 · Devaluation](#t-5), [7 · Double Bind](#t-7), [8 · Intermittent Reinforcement](#t-8), [20 · Trauma Bonding](#t-20), [21 · Learned Helplessness](#t-21).
+
+**Why it closes.** Diagnosis, relief and the judgment of relief come from the same person, and every failed outcome is assigned to the participant. Each doubt is told it is a symptom, which strengthens the next round.
+
+**Where it could be broken, and by whom.** It weakens when the participant has a second opinion the teacher does not control. Section 24 says no product or practice replaces medical care, and section 23 asks who benefits from a rule that makes your discernment a defect (question 6). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** In the composite day in section 2, a client with a diagnosis asks whether to follow the protocol her oncologist recommended, and the practitioner says that the body knows and that fear has a frequency.
 :::
 
 ::: card
 #### 3 · Children to Members to Children
 
 Indigo and starseed labeling, unschooling, and treatment refusal reach children with no institution to intervene.
+
+**How it runs.**
+
+1. Children are labeled indigo, starseed or crystal children, which attributes special cosmic status to them (section 11).
+2. The label can displace diagnosis and treatment of real developmental or psychiatric needs (section 11).
+3. Unschooling combined with anti-institutional ideology can leave children without basic educational grounding (section 11).
+4. Vaccine refusal and alternative treatment of children's illnesses are recorded as having produced prosecutions and deaths (section 11).
+5. No institution stands anywhere in the picture to intervene (section 17), and the identity labels a child grows up with are those that technique 24 describes being applied to adults.
+
+**Techniques that feed it.** [13 · Normalization / Desensitization](#t-13), [24 · Identity Erosion](#t-24), [25 · Spiritual Bypassing](#t-25).
+
+**Why it closes.** A child cannot assess the framework they are placed in, and nothing outside the household is positioned to notice. The page records no licensing body, complaints body or institution in the picture (section 17).
+
+**Where it could be broken, and by whom.** It weakens where someone outside the household can see the child. Section 11 records prosecutions in this area, and section 24 says no product or practice replaces medical care. Section 11 also notes that the page found no systematic data on children in ceremony and plant-medicine settings, so a first break is a record that does not yet exist. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 17 lists children among those who carry the weight of this market: denied vaccines, treatment or schooling on ideological grounds. The page cites no individual case.
 :::
 
 ::: card
 #### 4 · Aid to Legitimacy to Leverage to Aid
 
-There is no legal privilege to convert standing into — which is precisely why nothing constrains the harm either.
+There is no legal privilege for a teacher to convert standing into, which is precisely why nothing constrains the harm either.
+
+**How it runs.**
+
+1. Free circles, readings and introductions are offered as help (technique 2).
+2. The help builds trust and a sense of belonging in a 'soul family' (techniques 1 and 2).
+3. The trust is converted into paid workshops, retreats and certifications, presented as the next step of healing (technique 19 and section 9).
+4. The teacher's standing rests on audience and testimonials, which platforms amplify when they convert (sections 5, 7 and 18).
+5. Standing brings new participants, who are offered the same free help. The standing is not a legal privilege, and nothing in the page's record constrains it (sections 7 and 8).
+
+**Techniques that feed it.** [1 · Love Bombing](#t-1), [2 · Weaponized Generosity](#t-2), [19 · Manufactured Consent](#t-19), [29 · Replacement](#t-29).
+
+**Why it closes.** The free help produces the trust that the next paid tier draws on, and the audience that results is the only standing the teacher needs. There is no credential, licence or complaints body to check it (sections 7 and 14).
+
+**Where it could be broken, and by whom.** It weakens where the help is made conditional in writing, for example by asking for a refund policy before the next payment (section 23, question 2), and where a consumer-protection body acts on the claims made (section 8). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** In the composite day in section 2, a reel does 40,000 views and eleven people send messages asking about a container that costs $2,400.
 :::
 
 ::: card
 #### 5 · Unpaid Labor to Assets to Power to More Labor
 
-Affiliate and certification labor is unpaid and recruits the next tier, and the margin flows upstream forever.
+Affiliate labor (promotion done for a referral commission) and certification labor are unpaid and recruit the next tier, and the margin flows upstream forever.
+
+**How it runs.**
+
+1. A practitioner pays to be certified (section 9, certification pyramids).
+2. The practitioner delivers the sessions, pays upstream, and is asked to recruit the next tier (section 18).
+3. Affiliate marketers sell the funnel to their own audience and are asked to post the testimonial (section 18).
+4. Each recruit pays to be certified in turn, so the original certifiers hold a perpetual downstream fee share (sections 7, 9 and 10).
+5. The margin flows upstream, and the recruits' work starts the next round (section 9).
+
+**Techniques that feed it.** [19 · Manufactured Consent](#t-19), [24 · Identity Erosion](#t-24), [26 · Financial Control](#t-26), [29 · Replacement](#t-29).
+
+**Why it closes.** Each practitioner's income depends on certifying others, so the structure grows at the expense of the people at its bottom, who are paying for the right to recruit (section 10).
+
+**Where it could be broken, and by whom.** It weakens where income and dropout data are published (section 20), where practitioners refuse to certify anyone (section 18), and where a regulator acts on recruitment-based pay, as the FTC did with Herbalife (section 8). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Herbalife paid $200 million and restructured in 2016 after the FTC's action against its multi-level marketing operations (sections 8 and 9). The page records no comparable action against a certification pyramid.
 :::
 
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
 There is no removal because there is no institution; the teacher rebrands and reappears.
+
+**How it runs.**
+
+1. A harm becomes public through deaths, a prosecution or a regulator's complaint (sections 5 and 19).
+2. No body can remove the teacher, because there is no license to revoke and no register from which anyone can be struck (sections 7 and 14).
+3. The teacher answers criticism by denying the harm and reversing the blame, or by not answering at all (techniques 12 and 18).
+4. The teacher rebrands, and a new offering appears under a different name (section 14).
+5. The platform keeps its cut and the audience re-forms, and the chair is held by whoever holds the audience (sections 7 and 14).
+
+**Techniques that feed it.** [12 · DARVO](#t-12), [18 · Silent Treatment / Stonewalling](#t-18), [29 · Replacement](#t-29), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** Nothing in the structure can impose a consequence except a court, and a court acts only after the harm (section 7). Without a body that can remove a teacher, a harm is followed only by what a court or regulator imposes afterward.
+
+**Where it could be broken, and by whom.** It weakens where a register or licence exists that can strike a teacher off, which section 14 says does not exist, and where consumer-protection agencies and courts act on the claims made (section 8). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** In the Goop settlement the company paid $145,000 and accepted a ban on unsubstantiated health claims, and it called the settlement an "honest disagreement" (section 19).
 :::
 
 ::: card
 #### 7 · Persecution to Solidarity to Insulation to Unaccountability
 
 Genuine harm done by organized religion is invoked to make scrutiny of the alternative look like a return to it.
+
+**How it runs.**
+
+1. Many participants arrive after organized religion hurt or bored them (section 3).
+2. Their wish for direct experience with no gatekeeper is legitimate (section 3).
+3. Critics of a teacher are reframed as spiritually asleep, wounded, or attacking the teacher's light (section 11).
+4. Fellow participants repeat that reframing to people who question or leave (techniques 16 and 17).
+5. Scrutiny of the teacher is then received as a return to the hierarchy the participant left, and the questions that would apply are not asked (sections 3 and 14).
+
+**Techniques that feed it.** [11 · Projection](#t-11), [16 · Flying Monkeys](#t-16), [17 · Smear Campaign](#t-17), [25 · Spiritual Bypassing](#t-25).
+
+**Why it closes.** The harm done by organized religion is real, and the participant's wariness of institutions is reasonable. The loop uses that wariness to protect a teacher who says they are not an institution.
+
+**Where it could be broken, and by whom.** It weakens when the participant separates the wish for direct experience from the demand for payment. Section 23 closes by asking the reader to extend their instinct one step further, to the person selling access to their own intuition. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 14 sets "There's no hierarchy here" against the record: there is no institution either, which means no credential to check, no complaints body and no refund.
 :::
 
 ## 14. Say versus do {#say-do}
@@ -1092,16 +1210,16 @@ Genuine harm done by organized religion is invoked to make scrutiny of the alter
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| You create your own reality. | Which means the assaulted client created hers, and the seller can never be at fault. Ask them to finish the sentence. | [PATTERN OBSERVED] |
-| I'm not a guru, just a guide. | Said by the only person permitted to assess your progress, set the price, and define the failure. | [PATTERN OBSERVED] |
-| This is ancient wisdom. | From a tradition the seller is accountable to in no way whatsoever. | [INVESTIGATIVE REPORT] |
+| You create your own reality. | If you create your own reality, the assaulted client created hers, and the seller can never be at fault. Ask them to finish the sentence. | [PATTERN OBSERVED] |
+| I'm not a guru, just a guide. | It is said by the only person permitted to assess your progress, set the price, and define the failure. | [PATTERN OBSERVED] |
+| This is ancient wisdom. | The wisdom comes from a tradition to which the seller is in no way accountable. | [INVESTIGATIVE REPORT] |
 | There's no hierarchy here. | There is no institution either, which means no credential to check, no complaints body, and no refund. | [PATTERN OBSERVED] |
 
 ### Accountability or theatre?
 
-**Last time the chair ran.** A conviction, a rebrand, and a new offering under a different name within two years.
+**Last time the chair ran.** A conviction was followed by a rebrand and a new offering under a different name within two years.
 
-**Who holds the chair now.** Whoever holds the audience.
+**Who holds the chair now.** The chair is held by whoever holds the audience.
 
 **Prediction.** The teacher will rebrand, the platform will keep its cut, and there is no register anywhere from which anyone can be struck.
 
@@ -1109,22 +1227,22 @@ Genuine harm done by organized religion is invoked to make scrutiny of the alter
 
 | Term | What it means inside | What it does | Said plainly |
 |---|---|---|---|
-| Low vibration | A negative or unevolved energetic state. | Reframes criticism, grief, illness, and poverty as spiritual failures of the person experiencing them. | 'Your suffering is your fault and your objection is a symptom.' |
-| You manifested this | The doctrine that one's circumstances are self-created. | The most complete victim-blaming instrument in this codex — it reaches illness, assault, and bereavement. | 'That happened because of you.' |
-| Do your own research | An invitation to independent inquiry. | Almost always means the opposite: reject institutional expertise in favour of sources the speaker has selected. | 'Distrust experts and trust me.' |
-| Holding space | Being present with someone's process. | Frequently the reason given for not calling a doctor, a therapist, or the police. | 'We watched and did not intervene.' |
+| Low vibration | It means a negative or unevolved energetic state. | It reframes criticism, grief, illness, and poverty as spiritual failures of the person experiencing them. | 'Your suffering is your fault and your objection is a symptom.' |
+| You manifested this | It is the doctrine that one's circumstances are self-created. | It is the most complete victim-blaming instrument in this codex, and it reaches illness, assault, and bereavement. | 'That happened because of you.' |
+| Do your own research | It is an invitation to independent inquiry. | It almost always means the opposite: reject institutional expertise in favour of sources the speaker has selected. | 'Distrust experts and trust me.' |
+| Holding space | It means being present with someone's process. | It is frequently the reason given for not calling a doctor, a therapist, or the police. | 'We watched and did not intervene.' |
 
 ## 15. Cost & cover {#cost}
 
 ### What leaving costs
 
-- No formal exit — but sunk-cost webs, identity investment ('lightworker'), community loss, and blame-reversal ('you manifested this') tax departure. [FORMER MEMBER TESTIMONY]
+- There is no formal exit, but sunk costs, identity investment ('lightworker'), loss of community, and blame reversal ('you manifested this') make departure costly. [FORMER MEMBER TESTIMONY]
 
 ### The ledger of exit
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Formal penalty | None | There is no membership to lose — the absence of structure is the selling point | Accurately: no institutional exit cost exists. |
+| Formal penalty | None | There is no membership to lose, and the absence of structure is the selling point. | Accurately: no institutional exit cost exists. |
 | Financial | Yes | Course, retreat, and coaching spend is unrecoverable; some participants take on debt | “Everyone chose to invest in themselves.” |
 | Blame reversal | Yes | 'You manifested this,' 'your vibration attracted it' — the framework makes the harmed person the cause | “That's just how energy works.” |
 | Identity and community | Yes | Lightworker/starseed identity and the group's belonging are real losses | “It was never a group, just a community.” |
@@ -1137,16 +1255,16 @@ Genuine harm done by organized religion is invoked to make scrutiny of the alter
 | Informal enforcement | High | Community vibe-policing and fear of being called low-vibration do all the work. |
 | Leadership distance | Total | Every teacher is an independent business; there is no body that could ever be responsible. |
 | Doctrinal ambiguity | Total | 'The universe,' 'energy,' and 'your journey' are infinitely reinterpretable after harm. |
-| Cultural outsourcing | High | Practices attributed to ancient traditions the seller has no accountability to. |
+| Cultural outsourcing | High | Practices are attributed to ancient traditions to which the seller has no accountability. |
 | Volunteer enforcement | High | Followers defend the teacher and attack critics unprompted. |
 | Sacred secrecy | Medium | Initiation levels and closed containers restrict what participants may repeat. |
-| Exit cost denial | High | 'You're free to stop any time' — from a frame where stopping means you weren't ready. |
+| Exit cost denial | High | The statement 'You're free to stop any time' comes from a frame in which stopping means you were not ready. |
 
 ## 16. The ledger {#ledger}
 
 ### Who benefits
 
-- The teacher-entrepreneur, structurally incapable of being at fault within the frame ('you create your reality'); platforms taking their cut; upstream certification sellers. [PATTERN OBSERVED]
+- The teacher-entrepreneur benefits, structurally incapable of being at fault within the frame ('you create your reality'). So do the platforms that take their cut and the upstream certification sellers. [PATTERN OBSERVED]
 
 ### Money out, leverage back
 
@@ -1157,13 +1275,13 @@ Genuine harm done by organized religion is invoked to make scrutiny of the alter
 
 ### Who pays
 
-- People in medical crisis who delayed treatment for alternative protocols.
-- Women subjected to boundary violations by unlicensed healers and facilitators.
-- Participants in unsafe ceremonies and retreats, including fatal cases. [COURT RECORD]
-- MLM participants who lost money in documented majority-loss structures.
-- Children denied vaccines, treatment, or schooling.
-- Indigenous communities whose ceremonies are sold without consent or benefit. [INVESTIGATIVE REPORT]
-- Grieving and traumatized people sold certainty by people with no training.
+- People in medical crisis pay when they delay treatment for alternative protocols.
+- Women pay when they are subjected to boundary violations by unlicensed healers and facilitators.
+- Participants in unsafe ceremonies and retreats pay, including in fatal cases. [COURT RECORD]
+- MLM participants pay when they lose money in documented majority-loss structures.
+- Children pay when they are denied vaccines, treatment, or schooling.
+- Indigenous communities pay when their ceremonies are sold without consent or benefit. [INVESTIGATIVE REPORT]
+- Grieving and traumatized people pay when they are sold certainty by people with no training.
 
 ::: cites
 Sources for this section: [5]
@@ -1173,28 +1291,32 @@ Sources for this section: [5]
 
 ### Where the weight lands
 
+The harms recorded in this volume fall unevenly. Section 11 records the effects on information, children and bodies, section 16 records who pays, and section 22 records the retreat destinations. The table names who carries the most, how, and what makes it worse.
+
 | Who | How | What it compounds with |
 |---|---|---|
-| People in medical crisis | Treatment delayed for alternative protocols | With cancer, where delay is measured in survival |
-| Women | Boundary violations by unlicensed healers, tantra teachers, and facilitators | With no license to revoke and no body to report to |
-| Retreat participants | Unsafe settings, inadequate screening, documented deaths | In foreign jurisdictions with no recourse |
-| MLM participants | Majority-loss structures sold as abundance | Recruited from their own friends and family, who also lose |
-| Children | Denied vaccines, treatment, or schooling on ideological grounds | With no institution anywhere in the picture to intervene |
-| Source communities | Ceremonies sold at Western prices, with no benefit reaching them | By operators claiming an authority nobody granted |
+| People in medical crisis | They delay treatment for alternative protocols. | It compounds with cancer, where delay is measured in survival. |
+| Women | They suffer boundary violations by unlicensed healers, tantra teachers, and facilitators. | It compounds where there is no license to revoke and no body to report to. |
+| Retreat participants | They face unsafe settings, inadequate screening, and documented deaths. | It compounds in foreign jurisdictions with no recourse. |
+| MLM participants | They are sold majority-loss structures as abundance. | It compounds when they recruit their own friends and family, who also lose. |
+| Children | They are denied vaccines, treatment, or schooling on ideological grounds. | It compounds where no institution anywhere in the picture can intervene. |
+| Source communities | Their ceremonies are sold at Western prices, with no benefit reaching them. | It compounds when operators claim an authority nobody granted. |
 
 ### From The Medical Codex
 
-- *Faith healing and delayed diagnosis* — The 2009 Sedona sweat-lodge deaths and the subsequent negligent-homicide conviction — the seminar industry's ceiling, set in a criminal court.
-- *Public health and the community effect* — Documented migration of large wellness and religious audiences into medical disinformation during the pandemic period.
+- *Faith healing and delayed diagnosis* covers the 2009 Sedona sweat-lodge deaths and the subsequent negligent-homicide conviction, the seminar industry's ceiling, set in a criminal court.
+- *Public health and the community effect* covers the documented migration of large wellness and religious audiences into medical disinformation during the pandemic period.
 
 ## 18. The middle tiers {#tiers}
 
+This table sets out four roles in the middle of the teacher economy: the practitioners, moderators, facilitators and affiliate marketers (people who promote a program for a referral commission) who apply its terms to participants. For each role it shows what the person does, what they see, what they are asked to do and what they could refuse.
+
 | Role | Does | Sees | Is asked to | Could refuse |
 |---|---|---|---|---|
-| Downstream certified practitioners | Delivers the sessions and pays upstream | That the margin flows away from them | To recruit the next tier | To certify anyone |
-| Community managers and moderators | Runs the container and polices the vibe | Which participants are in crisis | To keep the energy high | To remove someone for asking a hard question |
-| Retreat facilitators | Holds the room during altered states | Who should never have been admitted | To keep the group moving | To run a ceremony without medical screening |
-| Affiliate marketers | Sells the funnel to their own audience | The conversion data and the refund requests | To post the testimonial | To promote a programme they have not completed |
+| Downstream certified practitioners | They deliver the sessions and pay upstream. | They see that the margin flows away from them. | They are asked to recruit the next tier. | They could refuse to certify anyone. |
+| Community managers and moderators | They run the container and police the vibe. | They see which participants are in crisis. | They are asked to keep the energy high. | They could refuse to remove someone for asking a hard question. |
+| Retreat facilitators | They hold the room during altered states. | They see who should never have been admitted. | They are asked to keep the group moving. | They could refuse to run a ceremony without medical screening. |
+| Affiliate marketers | They sell the funnel to their own audience. | They see the conversion data and the refund requests. | They are asked to post the testimonial. | They could refuse to promote a programme they have not completed. |
 
 ## 19. Documented cases {#cases}
 
@@ -1204,7 +1326,7 @@ Sources for this section: [5]
 - **when:** 2009–2011
 - **what:** Three participants died at a paid retreat run by a self-help figure using an appropriated sweat-lodge format with no relevant training and inadequate safety provision. Participants had been encouraged to override physical distress signals.
 - **record:** Arizona court records
-- **outcome:** Convicted of negligent homicide. Demonstrates the consequence structure of an industry with no licensing body and a doctrine that locates failure in the participant.
+- **outcome:** The retreat leader was convicted of negligent homicide. The case demonstrates the consequence structure of an industry with no licensing body and a doctrine that locates failure in the participant.
 - **tactics:** 12, 26
 - **grade:** Documented
 :::
@@ -1215,7 +1337,7 @@ Sources for this section: [5]
 - **when:** 2018–2020
 - **what:** A personal-development organization was found to have operated a coercive inner structure in which women were branded and required to provide collateral. Federal convictions followed for racketeering and sex trafficking.
 - **record:** U.S. federal court records
-- **outcome:** Founder sentenced to 120 years. The clearest documented pipeline from self-improvement curriculum to coercive control.
+- **outcome:** The founder was sentenced to 120 years. The case is the clearest documented pipeline from self-improvement curriculum to coercive control.
 - **tactics:** 19, 22, 24
 - **grade:** Documented
 :::
@@ -1229,7 +1351,7 @@ Sources for this section: [2] [3]
 - **when:** 2018
 - **what:** Goop marketed jade and rose-quartz eggs as able to balance hormones, regulate menstrual cycles, prevent uterine prolapse and increase bladder control, and a flower-essence blend as helping prevent depression [9].
 - **record:** Settlement with ten California district attorneys, September 2018 [8][9]
-- **outcome:** $145,000 in civil penalties and a ban on unsubstantiated health claims; the company called it an "honest disagreement" [8][9].
+- **outcome:** The company paid $145,000 in civil penalties and accepted a ban on unsubstantiated health claims, and it called the settlement an "honest disagreement" [8][9].
 - **tactics:** 3, 19
 - **grade:** Documented
 :::
@@ -1240,10 +1362,10 @@ Sources for this section: [2] [3]
 
 | What | Who | When | What it cost |
 |---|---|---|---|
-| Criminal convictions in the retreat-death and coercive-branding cases | Prosecutors, survivors, and journalists | 2011, 2019 | Three deaths and years of documented abuse first |
-| Regulatory action against MLM-wellness structures | Consumer protection regulators | Ongoing | Slow, and the structures reconstitute |
-| Practitioners adopting credentials, scope-of-practice honesty, and refund policies | A minority, voluntarily | Ongoing | Competitive disadvantage against people who promise more |
-| Indigenous nations formally denouncing the sale of their ceremonies | Lakota elders and others | 1993 onward | Largely ignored by the market |
+| Criminal convictions were won in the retreat-death and coercive-branding cases. | Prosecutors, survivors, and journalists broke the pattern. | The convictions came in 2011 and 2019. | It took three deaths and years of documented abuse first. |
+| Regulators took action against MLM-wellness structures. | Consumer protection regulators did so. | The action is ongoing. | It is slow, and the structures reconstitute. |
+| Some practitioners have adopted credentials, scope-of-practice honesty, and refund policies. | A minority has done so, voluntarily. | It is ongoing. | It carries a competitive disadvantage against people who promise more. |
+| Indigenous nations have formally denounced the sale of their ceremonies. | Lakota elders and others did so. | It began in 1993 and has continued. | The denunciation has been largely ignored by the market. |
 
 ### What would change this page
 
@@ -1255,29 +1377,29 @@ Sources for this section: [2] [3] [4] [5]
 
 ## 21. Voices from inside {#voices}
 
-- **Sarah Edmondson.** A former NXIVM recruiter turned whistleblower, author of *Scarred* [10].
-- **The Lakota Summit V,** whose 1993 declaration condemned the sale of Lakota ceremonies by outsiders [4].
-- **The families of the Sedona sweat-lodge dead,** whose case produced a conviction [2].
+- **Sarah Edmondson.** She is a former NXIVM recruiter who became a whistleblower and wrote *Scarred* [10].
+- **The Lakota Summit V** issued a 1993 declaration that condemned the sale of Lakota ceremonies by outsiders [4].
+- **The families of the Sedona sweat-lodge dead** are the people whose case produced a conviction [2].
 
 ## 22. Regional variants {#regional}
 
 ::: card
 ### United States
-- **apex:** None; teachers and companies.
-- **law:** Criminal, consumer and FTC law [2][3][5][8].
-- **documented:** Ray (2011) [2]; NXIVM (2019–2020) [3]; Goop (2018) [8][9].
-- **exit:** Legally free; the costs are money, debts to course providers, and relationships inside the group.
-- **regulator:** District attorneys, the FTC and federal prosecutors [3][5][8].
+- **apex:** There is no apex; authority sits with teachers and companies.
+- **law:** Criminal, consumer and FTC law all apply [2][3][5][8].
+- **documented:** The record covers Ray (2011) [2], NXIVM (2019–2020) [3] and Goop (2018) [8][9].
+- **exit:** Leaving is legally free; the costs are money, debts to course providers, and relationships inside the group.
+- **regulator:** District attorneys, the FTC and federal prosecutors act as regulators [3][5][8].
 - **tell:** The industry's ceiling was set by prosecutors, not by any spiritual authority.
 :::
 
 ::: card
 ### Peru and retreat destinations
-- **apex:** Retreat operators.
-- **law:** Local law; little regulation of retreats [6].
-- **documented:** Deaths and assaults at unregulated centres [6].
-- **exit:** —
-- **regulator:** Effectively none; the US Embassy issued a warning [6].
+- **apex:** Retreat operators hold the top position.
+- **law:** Local law applies, and retreats are little regulated [6].
+- **documented:** The record covers deaths and assaults at unregulated centres [6].
+- **exit:** This page records no exit rules for retreat destinations.
+- **regulator:** There is effectively no regulator; the US Embassy issued a warning [6].
 - **tell:** The most dangerous product in this market is sold far from any regulator.
 :::
 

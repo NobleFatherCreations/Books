@@ -1,6 +1,6 @@
 # Wording log — _all
 
-12 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/_all.json`, then rebuild. Nothing else changes.
+15 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/_all.json`, then rebuild. Nothing else changes.
 
 ## Edition and version narration removed (7)
 
@@ -116,7 +116,7 @@
 
 *Reason:* 'Expanded' reads as a note about the document's own production; 'set out' says what the reader will find.
 
-## Proofreading (typos, punctuation, agreement) (3)
+## Proofreading (typos, punctuation, agreement) (6)
 
 ### ALL-F01 · md · proposed · build: applied 26 time(s) across 26 volume(s)
 
@@ -153,4 +153,40 @@
 > \1US, Canada and online\2
 
 *Reason:* Recovering from Religion's hotline takes calls from the US and Canada (recoveringfromreligion.org, checked 2026-09-29).
+
+### ALL-F04 · md · proposed · build: applied 2 time(s) across 2 volume(s)
+
+**Before**
+
+> **0303 330 0288**
+
+**After**
+
+> **0800 999 5786** (freephone; Mon–Fri 10am–4pm)
+
+*Reason:* Muslim Women's Network helpline number was wrong in the Islam and Ahmadiyya volumes. MWN lists 0800 999 5786 / 0303 999 5786, Monday–Friday 10am–4pm (mwnuk.co.uk/mwn-helpline, checked 2026-09-30). Applied because a wrong help-line number can do real harm; flagged in DISCREPANCIES for sign-off.
+
+### ALL-F05 · md · proposed · build: applied 1 time(s) across 1 volume(s)
+
+**Before**
+
+> Helpline — 0303 330 0288.
+
+**After**
+
+> Helpline — 0800 999 5786 (freephone; Mon–Fri 10am–4pm).
+
+*Reason:* Same correction in the Sources entries.
+
+### ALL-F06 · md · proposed · build: applied 1 time(s) across 1 volume(s)
+
+**Before**
+
+> helpline (0303 330 0288).
+
+**After**
+
+> helpline (0800 999 5786, freephone; Mon–Fri 10am–4pm).
+
+*Reason:* Same correction in the Sources entry, bracketed form.
 

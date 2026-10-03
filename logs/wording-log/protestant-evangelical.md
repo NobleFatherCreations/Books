@@ -1,6 +1,6 @@
 # Wording log — protestant-evangelical
 
-161 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/protestant-evangelical.json`, then rebuild. Nothing else changes.
+203 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/protestant-evangelical.json`, then rebuild. Nothing else changes.
 
 ## Specialist terms glossed on first use (35)
 
@@ -1659,13 +1659,13 @@
 
 **Before**
 
-> These are not hypotheticals. 5 documented cases on this page
+> These are not hypotheticals. 6 documented cases on this page carry a court, regulator or inquiry record.
 
 **After**
 
-> These are not hypotheticals. Five documented cases on this page
+> These are not hypotheticals. Six documented cases on this page rest on a court, regulator, inquiry or investigative record.
 
-*Reason:* Numeral at the start of a clause spelled out.
+*Reason:* Number spelled out; the case count is now six (Willow Creek added), and "court, regulator or inquiry record" overstated the Mars Hill and RZIM cases, which rest on investigative reporting and a commissioned report (D-F31).
 
 ### PE-N002 · narration · §22 · proposed · build: applied
 
@@ -2197,7 +2197,7 @@
 
 *Reason:* Loop 7 was one compressed sentence. It now shows the mechanism step by step, the techniques that supply it, why it closes, where it could be broken and one example. Every factual step is taken from this volume and points to the section or technique where it is recorded; the break-point paragraph is labelled as analysis.
 
-## Sentences completed or clarified (2)
+## Sentences completed or clarified (3)
 
 ### PE-W059 · md · §17 · proposed · build: applied
 
@@ -2234,4 +2234,557 @@
 > | Role | Does | Sees | Is asked to | Could refuse |
 
 *Reason:* Section 18 was a bare table with no framing. Brought to parity with section 17 without new facts.
+
+### PE-D038 · md · proposed · build: applied
+
+**Before**
+
+> and non-denominational and independent networks.
+
+**After**
+
+> and non-denominational and independent networks. Pew's Protestant total includes Anglicans and Pentecostals, whom this codex also covers in their own volumes, so figures here overlap with those volumes.
+
+*Reason:* Cross-reference so figures are not double-counted (P3-18).
+
+## source (1)
+
+### PE-D001 · md · proposed · build: applied
+
+**Before**
+
+> 31. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
+
+**After**
+
+> 31. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
+> 32. Religion News Service, Katelyn Beaty, "NDAs are a tool for toxic church cultures" (8 Sept 2022) — non-disclosure agreements in the scandals at Mars Hill, Harvest Bible Chapel, Hillsong, Hillsong College, Willow Creek, Acts 29, Ravi Zacharias International Ministries and Ramsey Solutions. https://religionnews.com/2022/09/08/ndas-are-a-tool-for-toxic-church-cultures/
+> 33. Houston Chronicle and San Antonio Express-News, "Abuse of Faith" (Feb 2019) — about 380 Southern Baptist church leaders and volunteers accused of sexual misconduct since 1998, with more than 700 victims. https://www.houstonchronicle.com/news/investigations/abuse-of-faith/
+> 34. Charity Commission for England and Wales, *Excepted charities* — churches of several denominations with income of £100,000 or less need not register or file annual returns until 31 March 2031. https://www.gov.uk/government/publications/excepted-charities/excepted-charities--2
+> 35. ChurchLeaders, "Report Finds Hybels' Accusers Credible, Elder Board Faulty, Church Faithful" (1 Mar 2019) — the Willow Creek Independent Advisory Group's findings. https://churchleaders.com/news/345430-report-finds-hybels-accusers-credible-elder-board-faulty-willow-creek-church-chicago-faithful.html
+
+*Reason:* Adds the numbered sources that the NDA claim, the 2019 Southern Baptist exposure, the UK excepted-charities rule and the Willow Creek case need (discrepancy P1-1, P2-6; proposals E2, E3, E4, E6).
+
+## receipt (5)
+
+### PE-D002 · md · proposed · build: applied
+
+**Before**
+
+> converting internal criticism into a legal risk. [INVESTIGATIVE REPORT]
+
+**After**
+
+> converting internal criticism into a legal risk [32]. [INVESTIGATIVE REPORT]
+
+*Reason:* Cites the NDA source (P1-1).
+
+### PE-D003 · md · proposed · build: applied
+
+**Before**
+
+> **Evidence grade.** [[Documented]] Non-disclosure agreements imposed on departing staff at multiple large churches and ministries. *(sourced)*
+
+**After**
+
+> **Evidence grade.** [[Documented]] Non-disclosure agreements imposed on departing staff at Mars Hill, Harvest Bible Chapel, Hillsong, Willow Creek, Acts 29 and RZIM, among others [32]. *(sourced)*
+
+*Reason:* Names the churches and the source behind the Documented grade (P1-1).
+
+### PE-D004 · md · proposed · build: applied
+
+**Before**
+
+> Departing staff at multiple large churches signed non-disclosure agreements covering leadership conduct. | [INVESTIGATIVE REPORT] |
+
+**After**
+
+> Departing staff at several large churches, among them Mars Hill, Harvest Bible Chapel, Hillsong and Willow Creek, signed non-disclosure agreements covering leadership conduct [32]. | [INVESTIGATIVE REPORT] |
+
+*Reason:* Names the churches and cites the source (P1-1).
+
+### PE-D005 · md · proposed · build: applied
+
+**Before**
+
+> Staff leave with severance conditioned on silence. | “Standard HR practice.” |
+
+**After**
+
+> Staff leave with severance conditioned on silence [32]. | “Standard HR practice.” |
+
+*Reason:* Cites the NDA source (P1-1).
+
+### PE-D006 · md · proposed · build: applied
+
+**Before**
+
+> Megachurch NDA controversies have recurred.
+
+**After**
+
+> Megachurch NDA controversies have recurred [32].
+
+*Reason:* Cites the NDA source (P1-1).
+
+## fact (20)
+
+### PE-D007 · md · proposed · build: applied
+
+**Before**
+
+> Protestant and evangelical Christianity has ~800 million–1 billion adherents, including ~600M+ Pentecostal/charismatic Christians (those who emphasize gifts of the Holy Spirit such as healing and speaking in tongues). [ACADEMIC SOURCE: Pew, WCD]
+
+**After**
+
+> About 800 million (Pew counted 801 million Protestants in 2011), and up to 1 billion on wider definitions. Pew counts 584 million Pentecostal and charismatic Christians (those who emphasize gifts of the Holy Spirit such as healing and speaking in tongues) across all traditions, Catholic charismatics included, so they are not a subset of the Protestant total [19]. [ACADEMIC SOURCE: Pew, WCD]
+
+*Reason:* The 600M+ figure exceeded the volume's own 584 million and double-counted Catholic and Orthodox charismatics (P1-2, F1).
+
+### PE-D008 · md · proposed · build: applied
+
+**Before**
+
+> The tradition has ~800 million–1 billion adherents, including ~600M+ Pentecostal/charismatic Christians. [ACADEMIC SOURCE: Pew, WCD]
+
+**After**
+
+> About 800 million adherents on Pew's 2011 count of 801 million Protestants, and up to 1 billion on wider definitions. Pew's 584 million Pentecostal and charismatic Christians span all traditions and are not a subset of that total [19]. [ACADEMIC SOURCE: Pew, WCD]
+
+*Reason:* Same correction as PE-D007 in the §7 table (P1-2).
+
+### PE-D017 · md · proposed · build: applied
+
+**Before**
+
+> There were four major collapses in a decade and four removals, and there was no governance change at the network level.
+
+**After**
+
+> There were four major collapses in a decade. Three founders resigned and one had died before the findings. This page records no change in network-level governance.
+
+*Reason:* RZIM's founder was dead before the finding, so he was not removed; Hillsong's board announced a governance review (P2-5, F10).
+
+### PE-D018 · md · proposed · build: applied
+
+**Before**
+
+> | **England & Wales** | Churches that are charities file public accounts; serious incidents must be reported, and the Charity Commission can open statutory inquiries [6] |
+
+**After**
+
+> | **England & Wales** | Registered church charities file public accounts; smaller churches in several denominations (income of £100,000 or less) are excepted from registering until 31 March 2031 [34]. Serious incidents must be reported, and the Charity Commission can open statutory inquiries [6] |
+
+*Reason:* Excepted churches were missing from the UK picture (P2-6, F14, E6).
+
+### PE-D019 · md · proposed · build: applied
+
+**Before**
+
+> - **apex:** Authority sits in denominational structures and independent churches, and most register as charities.
+
+**After**
+
+> - **apex:** Authority sits in denominational structures and independent churches. Most are charities, though smaller churches in several denominations are excepted from registration until 2031 [34].
+
+*Reason:* Same correction in the §22 UK card (P2-6).
+
+### PE-D020 · md · proposed · build: applied
+
+**Before**
+
+> But you were also handed a system with no bishop,
+
+**After**
+
+> But if your church was independent, you were also handed a system with no bishop,
+
+*Reason:* Mainline churches have bishops or published constitutions (§6); the thesis describes the independent wing (P2-7).
+
+### PE-D021 · md · proposed · build: applied
+
+**Before**
+
+> The movement's proudest structural fact — no bishop —
+
+**After**
+
+> The independent churches' proudest structural fact — no bishop —
+
+*Reason:* Same (P2-7).
+
+### PE-D022 · md · proposed · build: applied
+
+**Before**
+
+> Ask an evangelical who their bishop is and the answer is nobody
+
+**After**
+
+> Ask a member of an independent evangelical church who their bishop is and the answer is nobody
+
+*Reason:* Same (P2-7).
+
+### PE-D023 · md · proposed · build: applied
+
+**Before**
+
+> | 2016–2019 | They lost platform and income. |
+
+**After**
+
+> | 2016–2019 | Not recorded on this page. |
+
+*Reason:* No source for the cost; removed rather than asserted (P2-8, F21).
+
+### PE-D024 · md · proposed · build: applied
+
+**Before**
+
+> | 2013 | Those who apologized suffered complete professional collapse. |
+
+**After**
+
+> | 2013 | Exodus International closed [16]. |
+
+*Reason:* The sourced outcome replaces an unsourced claim; Chambers continued to speak and write (P2-8, F21).
+
+### PE-D025 · md · proposed · build: applied
+
+**Before**
+
+> Megachurch (very large church) pulpits pass to spouses and sons like businesses, a succession pattern documented across the movement.
+
+**After**
+
+> Megachurch (very large church) pulpits have passed to spouses and sons in several churches.
+
+*Reason:* No source or example supported "documented across the movement" (P2-9, F22).
+
+### PE-D026 · md · proposed · build: applied
+
+**Before**
+
+> Megachurch pulpits pass to spouses and sons like businesses, a succession pattern documented across the movement.
+
+**After**
+
+> Megachurch pulpits have passed to spouses and sons in several churches.
+
+*Reason:* Same (P2-9).
+
+### PE-D031 · md · proposed · build: applied
+
+**Before**
+
+> And the reporting that exposed it came from the evangelical press itself, which is why the claim is not an outside attack.
+
+**After**
+
+> And much of the reporting that exposed it came from the evangelical press itself, which is why the claim is not an outside attack. The Southern Baptist record was first documented at scale by the secular *Houston Chronicle* and *San Antonio Express-News* in 2019 [33].
+
+*Reason:* The Southern Baptist record was first exposed by secular papers (P2-12, E4).
+
+### PE-D032 · md · proposed · build: applied
+
+**Before**
+
+> Section 3 notes that the reporting that exposed the pattern came from the evangelical press itself,
+
+**After**
+
+> Section 3 notes that much of the reporting that exposed the pattern came from the evangelical press itself,
+
+*Reason:* Same wording change in §15 (P2-12).
+
+### PE-D033 · md · proposed · build: applied
+
+**Before**
+
+> In 2026 survivors launched their own national database instead.
+
+**After**
+
+> In August 2026 survivors launched their own national database, ProtestantAccountability.org, with more than 2,700 people accused of committing or covering up church abuse listed at launch [11].
+
+*Reason:* Names the database and its size (P3-14, E1).
+
+### PE-D034 · md · proposed · build: applied
+
+**Before**
+
+> survivors launched a national Protestant database of accused ministers [10][11].
+
+**After**
+
+> survivors led by Chellee Taylor launched ProtestantAccountability.org in August 2026, a searchable national database of more than 2,700 people accused of committing or covering up church abuse [10][11].
+
+*Reason:* Same (P3-14, E1).
+
+### PE-D035 · md · proposed · build: applied
+
+**Before**
+
+> The churches themselves reported $9.64 billion in undesignated receipts (general giving not earmarked for a particular fund) [20].
+
+**After**
+
+> Participating state conventions reported $9.64 billion in undesignated receipts (general giving not earmarked for a particular fund), though not every state convention collects giving data [20].
+
+*Reason:* Lifeway notes not all state conventions collect giving data (P3-15, F2).
+
+### PE-D036 · md · proposed · build: applied
+
+**Before**
+
+> has the weakest religious financial disclosure in the developed world.
+
+**After**
+
+> has among the weakest religious financial disclosure in the developed world.
+
+*Reason:* An unsourced absolute (P3-16, F23).
+
+### PE-D037 · md · proposed · build: applied
+
+**Before**
+
+> Family boards hold them; the TBN (Trinity Broadcasting Network) litigation and the prosperity ministries' aircraft filings put the governance on the public record.
+
+**After**
+
+> Family boards hold them; the Senate inquiry documented private aircraft and family-controlled boards at several of the prosperity ministries (section 19).
+
+*Reason:* The TBN litigation and aircraft filings had no source on the page; the Senate record does (P3-17).
+
+### PE-D039 · md · proposed · build: applied
+
+**Before**
+
+> Present | Global South Pentecostalism is the growth engine;
+
+**After**
+
+> 2019 | Houston Chronicle and San Antonio Express-News publish "Abuse of Faith" | About 380 Southern Baptist leaders and volunteers are shown to have been accused of sexual misconduct since 1998, three years before the denomination's own commissioned investigation. [INVESTIGATIVE REPORT] [33]
+> Present | Global South Pentecostalism is the growth engine;
+
+*Reason:* Adds the 2019 exposure that forced the Guidepost investigation (E4).
+
+## grade (8)
+
+### PE-D009 · md · proposed · build: applied
+
+**Before**
+
+> | Evidence | Eight of the 30 techniques are sourced to a named document. The grades are Taught 15, Cultural 11, Documented 3 and Reformed 1. |
+
+**After**
+
+> | Evidence | Two of the 30 techniques are sourced to a named document. The grades are Taught 18, Cultural 10 and Documented 2. |
+
+*Reason:* Tally after the regrades below and removal of the unsupported *(sourced)* markers (P1-3, P1-4).
+
+### PE-D010 · md · proposed · build: applied
+
+**Before**
+
+> **Evidence grade.** [[Reformed]] Purity culture's central texts have been publicly repudiated by their own authors, and several ex-gay ministries closed with apologies. *(sourced)*
+
+**After**
+
+> **Evidence grade.** [[Cultural]] Worship conditioning, claims of divine certainty and volunteer burnout are congregational practice that no body sets and none has reformed. The repudiation of purity culture by its own authors and the closing of ex-gay ministries (section 20) bear only on the purity bullet.
+
+*Reason:* Regraded Reformed to Cultural: the entry describes practice that has not been reformed (P1-4).
+
+### PE-D011 · md · proposed · build: applied
+
+**Before**
+
+> **Evidence grade.** [[Documented]] Pulpit characterization of departing staff and members, documented in the Mars Hill, Hillsong, and RZIM investigations. *(sourced)*
+
+**After**
+
+> **Evidence grade.** [[Taught]] Warnings against critics and former members are taught from the pulpit. The Mars Hill, Hillsong and RZIM case entries (section 19) do not record a smear of a named person, so the technique is not graded on them.
+
+*Reason:* Regraded Documented to Taught: none of the three cited case entries records a smear (P1-4).
+
+### PE-D012 · md · proposed · build: applied
+
+**Before**
+
+> **Evidence grade.** [[Cultural]] Treating adults as dependants of their leaders is congregational practice with no written rule; the male headship it draws on is written policy in some large denominations (section 11). *(sourced)*
+
+**After**
+
+> **Evidence grade.** [[Taught]] Submission to male headship and to elders is taught, and some large denominations write complementarian roles into policy (section 11). Treating adults as dependants is congregational practice with no written rule.
+
+*Reason:* Regraded Cultural to Taught; the *(sourced)* marker belonged to a note about founder-pastor structure that the entry does not describe (P1-4).
+
+### PE-D013 · md · proposed · build: applied
+
+**Before**
+
+> **Evidence grade.** [[Cultural]] Crisis framing (revival urgency, rapture anxiety, persecution narratives, fundraising deadlines) is preached and repeated in congregational culture; no governing body sets it.
+
+**After**
+
+> **Evidence grade.** [[Taught]] Crisis is preached from the platform: revival urgency, rapture anxiety, persecution narratives and fundraising deadlines are repeated in sermons and appeals. No governing body sets them.
+
+*Reason:* Regraded Cultural to Taught: the entry describes preached crisis (P1-4).
+
+### PE-D014 · md · proposed · build: applied
+
+**Before**
+
+> **Evidence grade.** [[Taught]] Prosperity and seed-faith promises taught from platform and broadcast, recorded extensively. *(sourced)*
+
+**After**
+
+> **Evidence grade.** [[Taught]] Prosperity and seed-faith promises are taught from platform and broadcast.
+
+*Reason:* Removed *(sourced)*: "recorded sermons" names no sermon (P1-3).
+
+### PE-D015 · md · proposed · build: applied
+
+**Before**
+
+> **Evidence grade.** [[Cultural]] Escalating expectations of giving and service are cultural rather than codified, which is what makes them deniable. *(sourced)*
+
+**After**
+
+> **Evidence grade.** [[Cultural]] Escalating expectations of giving and service are cultural rather than codified, which is what makes them deniable.
+
+*Reason:* Removed *(sourced)*: nothing is cited (P1-3).
+
+### PE-D016 · md · proposed · build: applied
+
+**Before**
+
+> **Evidence grade.** [[Taught]] Tithing taught as covenant obligation with blessing-and-curse framing, recorded extensively from platform. *(sourced)*
+
+**After**
+
+> **Evidence grade.** [[Taught]] Tithing is taught as a covenant obligation with blessing-and-curse framing from the platform.
+
+*Reason:* Removed *(sourced)*: "recorded sermons" names no sermon (P1-3).
+
+## tag (2)
+
+### PE-D027 · md · proposed · build: applied
+
+**Before**
+
+> - **tactics:** 30, 17, 22
+
+**After**
+
+> - **tactics:** 30, 18
+
+*Reason:* Nothing in the RZIM entry supports 17 (Smear) or 22 (Benevolent Control) (P2-10, F30).
+
+### PE-D028 · md · proposed · build: applied
+
+**Before**
+
+> - **tactics:** 5, 28, 29
+
+**After**
+
+> - **tactics:** 28, 29, 23
+
+*Reason:* Devaluation (5) is thin for Mars Hill; the entry's no-oversight finding fits Infantilization (23) (P2-10).
+
+## layout (2)
+
+### PE-D029 · md · proposed · build: applied
+
+**Before**
+
+> ::: cites
+> Sources for this section: [1] [2] [7] [8] [9] [10] [11]
+> :::
+>
+>
+
+**After**
+
+> *(removed)*
+
+*Reason:* Moves the §19 source line to the end of the section so no case follows it (P2-11).
+
+### PE-D030 · md · proposed · build: applied
+
+**Before**
+
+> - **tactics:** 30, 18
+> - **grade:** Documented
+> :::
+>
+> ## 20. Precedent
+
+**After**
+
+> - **tactics:** 30, 18
+> - **grade:** Documented
+> :::
+>
+> ::: case
+> ### Willow Creek: the elder board and the founder (United States, 2018–2019)
+>
+> - **when:** 2018–2019
+> - **what:** Bill Hybels, founding pastor of Willow Creek Community Church near Chicago, resigned in April 2018 after former staff accused him of a pattern of sexually inappropriate words and actions. Willow Creek and Hybels first rebutted the claims. An Independent Advisory Group the church appointed reported in February 2019 that the allegations were credible and faulted the elder board [35].
+> - **record:** Willow Creek Independent Advisory Group report, February 2019 [35]
+> - **outcome:** The founder had already left; the finding that his accusers were credible came ten months later, from a panel the church chose [35].
+> - **tactics:** 18
+> - **grade:** Documented
+> :::
+>
+> ::: cites
+> Sources for this section: [1] [2] [7] [8] [9] [10] [11] [12] [13] [15] [33] [35]
+> :::
+>
+> ## 20. Precedent
+
+*Reason:* Adds the Willow Creek case the volume names in §5, §10 and §14 but never documents (E3), and the §19 source line (P2-11).
+
+## Edition and version narration removed (2)
+
+### PE-D040 · md · proposed · build: applied
+
+**Before**
+
+> checked: 2026-09-27
+
+**After**
+
+> checked: 2026-10-03
+
+*Reason:* Text rechecked after the discrepancy fixes.
+
+### PE-D041 · md · proposed · build: applied
+
+**Before**
+
+> | Last checked | 2026-09-27 |
+
+**After**
+
+> | Last checked | 2026-10-03 |
+
+*Reason:* Same.
+
+## changelog (1)
+
+### PE-D042 · md · proposed · build: applied
+
+**Before**
+
+> - **2026-09-27:** Added Branches,
+
+**After**
+
+> - **2026-10-03:** Corrected the size figures, the count of sourced techniques and four technique grades; named the churches behind the non-disclosure claim and cited a source; added the 2019 Houston Chronicle exposure of Southern Baptist abuse, the Willow Creek case, the UK rule for small churches and the name of the survivors' database; removed claims the sources did not support.
+> - **2026-09-27:** Added Branches,
+
+*Reason:* Patch note for this round (CLAUDE.md patch-notes rule).
 

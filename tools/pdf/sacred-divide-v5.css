@@ -54,6 +54,7 @@ table, .chip, .matrix, .datum, .datapage { font-variant-numeric: lining-nums tab
 .cover .eyebrow { margin-top: 12mm; font: 700 var(--fs-small)/var(--lh-small) var(--text); letter-spacing: .22em; padding-left: .22em; text-transform: uppercase; color: var(--gold); }
 .cover .for { margin-top: 0; font: 400 var(--fs-small)/var(--lh-small) var(--text); letter-spacing: .22em; text-transform: uppercase; color: var(--rule); }
 .cover h1 { margin: 14mm 14mm 0; text-align: center; font: 400 var(--fs-cover)/var(--lh-cover) var(--display); letter-spacing: -.025em; color: var(--cream); string-set: religion content(text); }
+.cover h1.long { font-size: 72pt; line-height: 72pt; margin-top: 10mm; }
 .cover .family { margin-top: 10mm; font: italic 400 var(--fs-h3)/var(--lh-h3) var(--display); font-size: var(--fs-h3); color: var(--gold); }
 .cover .rule { margin-top: 8mm; width: 36mm; border-top: var(--hair) solid var(--gold); }
 .cover .tagline { margin-top: 8mm; font: 700 var(--fs-small)/var(--lh-small) var(--text); letter-spacing: .22em; padding-left: .22em; text-transform: uppercase; color: var(--rule); }
@@ -98,7 +99,7 @@ h3.look4, h2.look4 { font: 700 var(--fs-h3)/var(--lh-h3) var(--text); font-varia
 
 /* ---------------------------------------------------------------- the five box components */
 .box { margin: 0 0 var(--lh-h3); }
-.tell, .stage, .datum, .loop:not(.long) { break-inside: avoid; }
+.tell, .stage, .datum { break-inside: avoid; }
 .card > h3, .case > h3, .hardq .qhead { break-after: avoid; }
 .card[data-split-from]::before, .case[data-split-from]::before, .hardq[data-split-from]::before { content: "Continued"; display: block; font: 700 var(--fs-micro)/var(--lh-micro) var(--text); letter-spacing: .18em; text-transform: uppercase; color: var(--accent); margin-bottom: 8pt; }
 .card[data-split-to]::after, .case[data-split-to]::after, .hardq[data-split-to]::after { content: "Continues on the next page"; display: block; font: italic 400 var(--fs-small)/var(--lh-small) var(--text); margin: 4pt 0 8pt; }
@@ -205,11 +206,14 @@ a.ext { color: var(--ink); text-decoration: underline; text-decoration-thickness
 .dlegend { display: flex; gap: 10pt; flex-wrap: wrap; margin: 0 0 var(--lh-body); }
 
 /* ---------------------------------------------------------------- loops */
-.loop { break-inside: avoid; margin: 0 0 var(--lh-h1); padding: 14pt 0 0; border-top: var(--hair) solid var(--ink); }
+.loop { break-inside: auto; margin: 0 0 var(--lh-h1); padding: 14pt 0 0; border-top: var(--hair) solid var(--ink); }
 .loop > h3 { margin: 0 0 var(--lh-body); font-size: var(--fs-h2); line-height: var(--lh-h2); } .loop > h3::before { content: none; }
-.loop .row { display: flex; gap: 20pt; align-items: flex-start; break-inside: avoid; }
-.loop .row > svg { flex: 0 0 78mm; width: 78mm; height: 64mm; }
-.loop .row > div { flex: 1; } .loop .row > div p { max-width: none; }
+.loop .row { display: block; break-inside: auto; }
+.loop .row::after { content: ''; display: block; clear: both; }
+.loop .row > svg { float: left; width: 78mm; height: 64mm; margin: 0 20pt 8pt 0; }
+.loop .row > div p { max-width: none; }
+.loop > h3 { break-after: avoid; }
+.loop .steps li, .loop p { orphans: 3; widows: 3; }
 .loop.long { break-inside: auto; }
 .loop .steps { counter-reset: st; list-style: none; padding: 0; margin: 0 0 var(--lh-body); }
 .loop .steps li { counter-increment: st; padding-left: 24pt; position: relative; margin-bottom: 6pt; max-width: var(--measure); }

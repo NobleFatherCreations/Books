@@ -107,7 +107,7 @@ def conform_svg(m):
     svg = re.sub(r'width="100%"', f'width="{target_w}pt"', svg, count=1)
     return svg
 
-PQ_TEXT = {
+PQ_TEXT_CATHOLICISM = {
  'at-a-glance': "Every national inquiry found the files existed and were kept.",
  'a-day-inside': "Her son Matteo is at the Catholic school, which is the good school, which costs what it costs.",
  'forefront': "Who above the rank of bishop has ever lost office for keeping them sealed?",
@@ -132,6 +132,11 @@ PQ_TEXT = {
  'questions': "Cardinal Becciu was convicted of financial crimes by the Vatican's own tribunal in 2023, the first cardinal tried there.",
  'leaving': "In Germany, leaving is a formal declaration at the registry office or local court, and it ends the church tax.",
 }
+# Pull-quotes are per volume: Catholicism keeps its approved set; every other volume reads
+# content/sacred-divide/pullquotes/<id>.json (verbatim sentences from that volume) and gets none if the file is absent.
+_PQ_RID = [a for a in sys.argv[1:] if not a.startswith('--')][:1]
+_PQ_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'content/sacred-divide/pullquotes', (_PQ_RID[0] if _PQ_RID else '') + '.json')
+PQ_TEXT = PQ_TEXT_CATHOLICISM if _PQ_RID[:1] == ['catholicism'] else (json.load(open(_PQ_FILE, encoding='utf-8')) if os.path.exists(_PQ_FILE) else {})
 PQ_PLACE = json.loads(os.environ['PQ_PLACE']) if os.environ.get('PQ_PLACE') else {}   # slug -> child index (or -1 = end of section)
 
 def index_children(inner, slug):
@@ -292,9 +297,11 @@ def build_html(rid):
     lede = re.search(r'<div class="box lede">\s*<p>(.*?)</p>', ''.join(secs), re.S)
     blurb = re.sub(r'<[^>]+>', '', lede.group(1)) if lede else ''
     if len(blurb) > 260: blurb = blurb[:257].rsplit(' ', 1)[0] + '…'
+    h1cls = ' class="long"' if len(name) > 24 else ''
+    blurb_html = ('<div class="blurb">' + e(blurb) + '</div>') if blurb else ''
     cover = (f'<div class="cover"><div class="band"></div>{rose()}<div class="eyebrow">The Sacred Divide</div>'
-             f'<div class="for">The full record</div><h1>{e(name)}</h1><div class="family">{e(meta.get("family", ""))} family</div>'
-             f'<div class="rule"></div><div class="tagline">Honor the faith · Name the machinery</div><div class="blurb">{e(blurb)}</div>'
+             f'<div class="for">The full record</div><h1{h1cls}>{e(name)}</h1><div class="family">{e(meta.get("family", ""))} family</div>'
+             f'<div class="rule"></div><div class="tagline">Honor the faith · Name the machinery</div>{blurb_html}'
              f'<div class="meta"><span>Text checked {e(meta.get("checked", ""))}</span><span>{ex.SITE}</span></div></div>')
     preface = f'<div class="front preface"><h1 id="preface">Before you begin</h1>{ex.md_to_html(ex.PREFACE.replace("{name}", name))}</div>'
     colophon = ('<div class="front colophon"><h1 id="colophon">Colophon</h1><p>Set in EB Garamond (SIL Open Font License), regular, italic and bold, with true small capitals and old-style figures in text and lining tabular figures in tables. '
