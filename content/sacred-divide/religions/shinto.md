@@ -19,12 +19,12 @@ partial: []
 |  |  |
 |---|---|
 | Size | Jinja Honcho claims tens of millions of 'adherents' through household shrine affiliation; surveys show only a few percent of Japanese self-identify as Shinto believers. This is the largest counting discrepancy in the codex. [ACADEMIC SOURCE] |
-| Who's in charge | Jinja Honcho — the Association of Shinto Shrines — The umbrella body over roughly 80,000 shrines. The staff who questioned a 2015 property sale were dismissed; the courts voided the dismissals (final, 2022), and a rival claim to the presidency was rejected (final, 2024). President Tanaka Tsunekiyo was confirmed for a sixth term in 2025. |
-| Chosen by / removable by | Shrine-world boards / The board — and, when it failed, the courts |
-| Money in one line | Amulet and fortune sales, ceremony fees (blessings, weddings, groundbreakings), festival funding levies on neighborhoods, corporate purification services. |
-| Leaving in one line | No membership to leave; costs are neighborly and reputational — opting out of shrine festivals or levies marks a household. [VARIES BY COMMUNITY] |
+| Who's in charge | Jinja Honcho, the Association of Shinto Shrines, is the umbrella body over roughly 80,000 shrines. The staff who questioned a 2015 property sale were dismissed; the courts voided the dismissals (final, 2022), and a rival claim to the presidency was rejected (final, 2024). President Tanaka Tsunekiyo was confirmed for a sixth term in 2025. |
+| Chosen by / removable by | Boards within the shrine world choose the president / The board can remove the president, and the courts have decided the disputes where the board failed |
+| Money in one line | The money comes from amulet and fortune sales, ceremony fees (blessings, weddings, groundbreakings), festival funding levies on neighborhoods, and corporate purification services. |
+| Leaving in one line | There is no membership to leave. The costs are neighborly and reputational, since opting out of shrine festivals or levies marks a household. [VARIES BY COMMUNITY] |
 | The unanswered question | If participation is 'just culture' and belief is optional, why does refusal cost belonging? |
-| Evidence | 5 of 30 techniques sourced to a named document; grades: Cultural 28, Reformed 2 |
+| Evidence | Five of the 30 techniques are sourced to a named document. The grades are Cultural 28 and Reformed 2. |
 | Family | East Asian — taoism, confucianism, shinto |
 | Last checked | 2026-09-27 |
 :::
@@ -47,7 +47,7 @@ The neighbourhood association envelope is on the shoe cupboard. Four thousand ye
 
 Keiko is not religious. If a survey asked, she would say none. She goes to the shrine at New Year, she had her daughter blessed at one month, she will have a Buddhist funeral, and none of this feels like belief. It feels like being from here.
 
-At the school her son's class is visiting the shrine on Friday for a seasonal event. There is a form. A mother she knows slightly said last year that her family would prefer not to, and the teacher was very understanding, and the child went anyway, and nobody was unkind at any point in that sequence.
+At school, her son's class is visiting the shrine on Friday for a seasonal event. There is a form. A mother she knows slightly said last year that her family would prefer not to, and the teacher was very understanding, and the child went anyway, and nobody was unkind at any point in that sequence.
 
 In the afternoon on the news there is a story about a minister visiting a certain shrine, and a statement about it being in a private capacity, and a response from a neighbouring country. Keiko's mother, watching with her, says that the dead should be left in peace. Keiko's mother's uncle died in Burma in 1944 and is enshrined there, and Keiko has never once heard her mother say what she thinks about that.
 
@@ -88,28 +88,28 @@ If participation is 'just culture' and belief is optional, why does refusal cost
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-Japan's indigenous tradition of kami veneration, shrine practice, purification, and seasonal festival — largely non-doctrinal, non-congregational, and interwoven with Japanese cultural identity.
+Shinto is Japan's indigenous tradition of kami (spirit-deities) veneration, shrine practice, purification and seasonal festival. It is largely non-doctrinal and non-congregational, and it is interwoven with Japanese cultural identity.
 :::
 
-- Local shrine life as genuine commons: festivals, ecology, continuity without creed; priests and scholars resisting political capture of the tradition.
+- Healthy practice here looks like local shrine life as a genuine commons, with festivals, ecology and continuity without creed, and with priests and scholars resisting political capture of the tradition.
 
 ## 5. History {#history}
 
-Ancient localized kami cults; systematized alongside Buddhism; State Shinto (1868–1945) fused shrine religion with emperor worship and militarized nationalism — the modern era's clearest case of a tradition being weaponized by a state; postwar disestablishment returned shrines to private religious status.
+Shinto began as ancient localized kami cults, which were systematized alongside Buddhism. State Shinto (the state-run system of shrine worship) fused shrine religion with emperor worship and militarized nationalism from 1868 to 1945, and it was the modern era's clearest case of a tradition being weaponized by a state. Postwar disestablishment returned shrines to private religious status.
 
 ### Timeline
 
 ```timeline
-Prehistory–6th c. CE | Local kami veneration; no name, no canon, no clergy class | A landscape of local practice, not an organized religion.
-6th–8th c. | Buddhism arrives; Kojiki (712) and Nihon Shoki (720) compiled | Myth is written down in service of imperial legitimacy — the first political use of the tradition.
-9th–19th c. | Shinbutsu-shūgō: Shinto and Buddhism fused for a millennium | The tradition's boundaries are historically porous — 'pure Shinto' is a modern invention.
-1868 | Meiji Restoration; forced separation of Shinto from Buddhism (shinbutsu bunri) | The state reorganizes religion by decree; Buddhist property destroyed.
-1871–1945 | State Shinto: shrines nationalized, emperor worship compulsory, shrine attendance mandated | The clearest case in this codex of a tradition converted wholesale into a state coercion instrument. [GOVERNMENT REPORT]
-1930s–1945 | Shrine rites integrated into militarism and colonial assimilation policy in Korea and Taiwan | Sacred ritual used to enforce imperial identity on subject populations. [ACADEMIC SOURCE]
-1945–1946 | Occupation Shinto Directive disestablishes State Shinto; emperor renounces divinity | Religion is legally separated from the state and shrines become private bodies.
+Prehistory–6th c. CE | Local kami veneration existed, with no name, no canon and no clergy class | A landscape of local practice, not an organized religion.
+6th–8th c. | Buddhism arrives, and the Kojiki (712) and Nihon Shoki (720), the earliest written chronicles of Japanese myth and imperial descent, are compiled | Myth is written down in service of imperial legitimacy — the first political use of the tradition.
+9th–19th c. | Shinto and Buddhism are fused for a millennium, a blending known as shinbutsu-shūgō | The tradition's boundaries are historically porous — 'pure Shinto' is a modern invention.
+1868 | The Meiji Restoration forces the separation of Shinto from Buddhism (shinbutsu bunri) | The state reorganizes religion by decree; Buddhist property destroyed.
+1871–1945 | Under State Shinto, shrines are nationalized, emperor worship is compulsory and shrine attendance is mandated | The clearest case in this codex of a tradition converted wholesale into a state coercion instrument. [GOVERNMENT REPORT]
+1930s–1945 | Shrine rites are integrated into militarism and into colonial assimilation policy in Korea and Taiwan | Sacred ritual used to enforce imperial identity on subject populations. [ACADEMIC SOURCE]
+1945–1946 | The Occupation's Shinto Directive disestablishes State Shinto, and the emperor renounces divinity | Religion is legally separated from the state and shrines become private bodies.
 1946–present | Association of Shinto Shrines (Jinja Honcho) organizes most shrines | A voluntary umbrella body with real political interests.
-1969–present | Yasukuni Shrine visits by officials; Shinto Seiji Renmei lobbying for constitutional revision | Re-entanglement of shrine and state, contested in Japanese courts. [COURT RECORD]
-2000s–present | Shrine mergers and rural depopulation; ritual tourism growth | Institutional contraction alongside commercial expansion.
+1969–present | Officials visit Yasukuni Shrine (Tokyo's shrine to the war dead), and Shinto Seiji Renmei (the Shinto Political League) lobbies for constitutional revision | Re-entanglement of shrine and state, contested in Japanese courts. [COURT RECORD]
+2000s–present | Shrines merge as rural areas depopulate, and ritual tourism grows | Institutional contraction alongside commercial expansion.
 ```
 
 ### Moments in the room
@@ -144,15 +144,15 @@ Sources for this section: [5] [7] [8]
 
 ## 6. Branches & variants {#branches}
 
-Jinja (shrine) Shinto under Jinja Honcho, Sect Shinto (Tenrikyo and others historically classified separately), Folk and household Shinto, Imperial household rites.
+The main branches are Jinja (shrine) Shinto under Jinja Honcho, Sect Shinto (Tenrikyo, a nineteenth-century Japanese new religion, and others historically classified separately), folk and household Shinto, and imperial household rites.
 
 | Branch | Where | What differs on this page's questions |
 |---|---|---|
-| **Shrine Shinto under Jinja Honcho** | About 80,000 shrines across Japan [7] | An umbrella body founded in 1946 [7], with a political arm, Shinto Seiji Renmei (1969) [8] |
-| **Independent shrines** | Japan | Shrines outside the Jinja Honcho network, which govern themselves |
-| **Yasukuni Shrine** | Tokyo | Independent; enshrined 14 Class-A war criminals in 1978 [9] |
-| **Imperial rites and Ise** | The Imperial Household; Ise Jingu | A supreme priestess of Ise from the imperial family (2017) [10] |
-| **Sect and folk Shinto** | Japan | Tenrikyo and others historically classed separately; household and festival practice |
+| **Shrine Shinto under Jinja Honcho** | It has about 80,000 shrines across Japan [7]. | It is an umbrella body founded in 1946 [7], with a political arm, Shinto Seiji Renmei (1969) [8]. |
+| **Independent shrines** | They are found across Japan. | These are shrines outside the Jinja Honcho network, and they govern themselves. |
+| **Yasukuni Shrine** | It stands in Tokyo. | It is independent, and it enshrined 14 Class-A war criminals (the top-ranked leaders tried for crimes against peace) in 1978 [9]. |
+| **Imperial rites and Ise** | These rites center on the Imperial Household and Ise Jingu. | Ise has a supreme priestess drawn from the imperial family (2017) [10]. |
+| **Sect and folk Shinto** | They are found across Japan. | Tenrikyo and others were historically classed separately, and household and festival practice belong here. |
 
 ## 7. Structure {#structure}
 
@@ -161,14 +161,14 @@ Jinja (shrine) Shinto under Jinja Honcho, Sect Shinto (Tenrikyo and others histo
 |  |  |
 |---|---|
 | Adherents | Jinja Honcho claims tens of millions of 'adherents' through household shrine affiliation; surveys show only a few percent of Japanese self-identify as Shinto believers. This is the largest counting discrepancy in the codex. [ACADEMIC SOURCE] |
-| Regions | Japan almost exclusively; ~80,000 shrines; small diaspora presence. |
-| Trend | Rural shrines closing as villages depopulate; ritual participation persists as custom (New Year visits, weddings, groundbreaking) while belief claims stay very low. |
+| Regions | Shinto is found in Japan almost exclusively, with ~80,000 shrines and a small diaspora presence. |
+| Trend | Rural shrines are closing as villages depopulate, while ritual participation persists as custom (New Year visits, weddings, groundbreaking) and belief claims stay very low. |
 | Participation | Most participants would deny being religious at all. The relevant control question here is not doctrine but social obligation — festivals, levies, and neighborhood expectation. |
 
 ### Authority
 
-- Shrine priesthood (often hereditary), the Association of Shinto Shrines (Jinja Honcho), neighborhood shrine communities.
-- The political risk zone: shrine-network lobbying for constitutional revision and official Yasukuni patronage — re-entangling shrine and state. [INVESTIGATIVE REPORT / ACADEMIC SOURCE]
+- Authority sits with the shrine priesthood (often hereditary), the Association of Shinto Shrines (Jinja Honcho) and neighborhood shrine communities.
+- The political risk zone is shrine-network lobbying for constitutional revision and official Yasukuni patronage, which re-entangles shrine and state. [INVESTIGATIVE REPORT / ACADEMIC SOURCE]
 
 ### The top of the chain
 
@@ -178,9 +178,9 @@ The apex was abolished once already — by occupation order in 1945 — which pr
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| Jinja Honcho — the Association of Shinto Shrines | The umbrella body over roughly 80,000 shrines. The staff who questioned a 2015 property sale were dismissed; the courts voided the dismissals (final, 2022), and a rival claim to the presidency was rejected (final, 2024). President Tanaka Tsunekiyo was confirmed for a sixth term in 2025. | Shrine-world boards | The board — and, when it failed, the courts |
-| Ise Grand Shrine | The Saishū — supreme priestess — is Sayako Kuroda, former imperial princess, since 2017: the imperial line's continuing presence at the tradition's symbolic apex | Imperial family custom | Custom |
-| The neighborhood | The ujiko parish association and the ledger of festival obligations | Residence | Moving away |
+| Jinja Honcho — the Association of Shinto Shrines | The umbrella body over roughly 80,000 shrines. The staff who questioned a 2015 property sale were dismissed; the courts voided the dismissals (final, 2022), and a rival claim to the presidency was rejected (final, 2024). President Tanaka Tsunekiyo was confirmed for a sixth term in 2025. | Boards within the shrine world choose the president. | The board can remove the president, and the courts have decided the disputes where the board failed. |
+| Ise Grand Shrine | The Saishū (supreme priestess) is Sayako Kuroda, a former imperial princess, who has held the post since 2017, which keeps the imperial line present at the tradition's symbolic apex. | Imperial family custom decides the appointment. | Custom governs any removal. |
+| The neighborhood | The ujiko (parishioners by residence) parish association and the ledger of festival obligations sit in it. | Residence in the district makes a household part of it. | Moving away ends it. |
 
 ::: tell
 Nobody commands participation, and everyone knows who didn't participate. Ask who keeps that ledger, and watch how quickly 'nobody' and 'everybody' become the same answer.
@@ -190,12 +190,12 @@ Nobody commands participation, and everyone knows who didn't participate. Ask wh
 
 | Entity | Type | Holder | Holds | Why it matters to you | Receipt |
 |---|---|---|---|---|---|
-| Jinja Honcho — Association of Shinto Shrines | Umbrella body | Association leadership | Coordination of most of Japan's shrines and a political programme | A constitutional agenda funded by amulet sales | [INVESTIGATIVE REPORT] |
-| Shinto Seiji Renmei and allied political networks | Political | Affiliated legislators and organizers | Lobbying for constitutional revision and traditional family provisions | Law, shaped by devotional revenue you never voted to spend | [INVESTIGATIVE REPORT] |
-| Hereditary shrine families | Inherited office | Priest families, ordinarily through sons | Shrine income from amulets, ceremonies, and corporate services | Your wedding, your groundbreaking, your car blessing |  |
-| Neighborhood residents' associations | Informal collection | Your neighbors | Festival levies collected door to door, where refusal is visible | Your household's standing on your own street | [PATTERN OBSERVED] |
-| Yasukuni Shrine | Commemorative institution | Shrine administration | Enshrinement of the war dead including convicted war criminals, and an on-site historical account | What your grandfather's death is made to mean | [COURT RECORD: litigation over official visits] |
-| State Shinto, 1868–1945 | Historical state apparatus | The imperial state | Compulsory shrine worship, imposed domestically and on colonized populations | The proof that 'only culture' is not a safeguard | [GOVERNMENT REPORT] |
+| Jinja Honcho — Association of Shinto Shrines | It is an umbrella body. | Its leadership holds the office. | It coordinates most of Japan's shrines and runs a political programme. | It pursues a constitutional agenda funded by amulet sales. | [INVESTIGATIVE REPORT] |
+| Shinto Seiji Renmei and allied political networks | It is a political network. | Affiliated legislators and organizers hold it. | It lobbies for constitutional revision and traditional family provisions. | It makes law shaped by devotional revenue you never voted to spend. | [INVESTIGATIVE REPORT] |
+| Hereditary shrine families | It is an inherited office. | Priest families hold it, ordinarily through sons. | They hold shrine income from amulets, ceremonies and corporate services. | Their income comes from your wedding, your groundbreaking and your car blessing. |  |
+| Neighborhood residents' associations | It is an informal collection. | Your neighbors hold it. | They hold festival levies collected door to door, where refusal is visible. | They decide your household's standing on your own street. | [PATTERN OBSERVED] |
+| Yasukuni Shrine | It is a commemorative institution. | Shrine administration holds it. | It holds the enshrinement of the war dead including convicted war criminals, and an on-site historical account. | It decides what your grandfather's death is made to mean. | [COURT RECORD: litigation over official visits] |
+| State Shinto, 1868–1945 | It was a historical state apparatus. | The imperial state held it. | It held compulsory shrine worship, imposed domestically and on colonized populations. | It is the proof that 'only culture' is not a safeguard. | [GOVERNMENT REPORT] |
 
 ::: cites
 Sources for this section: [1] [3] [7] [9] [10]
@@ -205,10 +205,10 @@ Sources for this section: [1] [3] [7] [9] [10]
 
 | Question | What the law says | What happened |
 |---|---|---|
-| **Separation of religion and state** | The Constitution (1947), Articles 20 and 89 [6]; the Shinto Directive of 1945 ended State Shinto [5] | The Supreme Court held public offerings to Yasukuni (1997) and free municipal land for a shrine (2010) unconstitutional [4] |
+| **Separation of religion and state** | Articles 20 and 89 of the Constitution (1947) separate religion and state [6], and the Shinto Directive of 1945 ended State Shinto [5] | The Supreme Court held public offerings to Yasukuni (1997) and free municipal land for a shrine (2010) unconstitutional [4] |
 | **Religious corporations** | Shrines are religious corporations under prefectural or national oversight | Jinja Honcho's disputes ended up in the civil courts [1][2][3] |
 | **Employment** | Ordinary employment law applies to shrine bodies [1] | Courts voided Jinja Honcho's dismissal of the staff member who questioned a property sale (2021; final 2022) [1] |
-| **Gender** | — | Women are barred from landing on the sacred island of Okinoshima, a World Heritage site [11] |
+| **Gender** | This page records no law on the question. | Women are barred from landing on the sacred island of Okinoshima, a World Heritage site [11] |
 
 ### Who can compel an answer
 
@@ -218,17 +218,17 @@ Japan's courts — where the shrine world's whistleblowers won their case — an
 
 ### Where it comes from
 
-- Amulet and fortune sales, ceremony fees (blessings, weddings, groundbreakings), festival funding levies on neighborhoods, corporate purification services.
+- The money comes from amulet and fortune sales, ceremony fees (blessings, weddings, groundbreakings), festival funding levies on neighborhoods, and corporate purification services.
 - The 'culture not religion' framing lets participation costs be socially levied without religious-freedom scrutiny. [PATTERN OBSERVED]
 
 ### Follow the money
 
 | Flow | Stated purpose | How it controls | Who benefits |
 |---|---|---|---|
-| Omamori amulets, ema plaques, omikuji fortunes | Blessing and protection | Retailed hope, purchased annually; a large and untaxed devotional economy | Shrines and shrine families |
-| Ceremony fees (weddings, purification, groundbreaking, car blessing) | Ritual services | Corporate and household purification contracts; commercial norms make refusal awkward | Shrines, and priests personally |
-| Neighborhood festival levies (chōnaikai collections) | Community festival costs | Household contributions collected by neighbors — refusal is socially visible and remembered | Local shrine and festival organizations [PATTERN OBSERVED] |
-| Political lobbying by shrine associations | Cultural preservation | Devotional revenue supporting a constitutional-revision agenda most donors never voted on | Political networks [INVESTIGATIVE REPORT] |
+| Omamori amulets (protective charms), ema plaques (wooden votive tablets) and omikuji fortunes (paper fortune slips) | The stated purpose is blessing and protection. | They are retailed hope, purchased annually, in a large and untaxed devotional economy. | Shrines and shrine families benefit. |
+| Ceremony fees (weddings, purification, groundbreaking, car blessing) | The stated purpose is ritual services. | They work through corporate and household purification contracts, and commercial norms make refusal awkward. | Shrines, and priests personally, benefit. |
+| Neighborhood festival levies (collections by the chōnaikai, the neighborhood association) | The stated purpose is community festival costs. | Households contribute through collections made by neighbors, and refusal is socially visible and remembered. | Local shrine and festival organizations benefit. [PATTERN OBSERVED] |
+| Political lobbying by shrine associations | The stated purpose is cultural preservation. | Devotional revenue supports a constitutional-revision agenda most donors never voted on. | Political networks benefit. [INVESTIGATIVE REPORT] |
 
 ### Pipelines this tradition shares
 
@@ -247,13 +247,13 @@ Japan's courts — where the shrine world's whistleblowers won their case — an
 ::: card
 #### Ritual fee ladder
 
-**Source.** Life passages — birth, marriage, death, blessing
+**Source.** The fees come from life passages: birth, marriage, death and blessing.
 
-**Path.** Officiant → Parish or temple → Diocesan or central share
+**Path.** Officiant → Shrine → Shrine family income
 
-**Disclosed.** Suggested offerings
+**Disclosed.** Suggested offerings are disclosed.
 
-**Hidden.** Negotiation, waiver practice, and who is refused
+**Hidden.** Negotiation, waiver practice and who is refused stay hidden.
 :::
 
 ::: card
@@ -277,57 +277,57 @@ Japan's courts — where the shrine world's whistleblowers won their case — an
  "cite":[12]}
 ```
 
-- **The court's view:** the dismissal was void [1][12].
-- **Shrine economies:** amulets, ceremonies and neighbourhood festival levies (see Money above).
+- **The court's view:** The court held the dismissal void [1][12].
+- **Shrine economies:** Shrines raise money through amulets, ceremonies and neighbourhood festival levies (see Money above).
 
 ## 10. Genealogy {#genealogy}
 
 ::: card
 #### State Shinto and emperor worship
 
-**Origin.** Constructed deliberately from 1868, nationalizing shrines and making imperial reverence compulsory; dismantled by directive in 1945. [GOVERNMENT REPORT]
+**Origin.** It was constructed deliberately from 1868, nationalizing shrines and making imperial reverence compulsory, and it was dismantled by directive in 1945. [GOVERNMENT REPORT]
 
 **What it was for.** A modernizing state needed a unifying loyalty for a population that had lived under regional lords. Local kami practice was reorganized into a national ideology from above.
 
 **Why that reason expired.** It ended in legal terms eighty years ago. Its lesson has not: this is the codex's clearest proof that a tradition with no doctrine and no clergy can still be converted into a total coercion instrument within one generation — precisely because there was nothing written to point at and say 'that is not what this says.'
 
-**Who benefits now.** Historically, the imperial state and the military. Today, the political networks that campaign for constitutional revision using shrine legitimacy — and they benefit from your belief that none of this is religion. [INVESTIGATIVE REPORT]
+**Who benefits now.** Historically, the imperial state and the military benefited. Today the political networks that campaign for constitutional revision using shrine legitimacy benefit, and they benefit from your belief that none of this is religion. [INVESTIGATIVE REPORT]
 :::
 
 ::: card
 #### Neighborhood festival levies
 
-**Origin.** Community shrine support collected through neighborhood associations. [PATTERN OBSERVED]
+**Origin.** It began as community shrine support collected through neighborhood associations. [PATTERN OBSERVED]
 
 **What it was for.** A village funding its own festival, where everyone participated and everyone benefited.
 
 **Why that reason expired.** In modern urban Japan, participation is voluntary in law and visible in practice. Declining is not a private act — it is a household decision your neighbors record. And because it is 'culture, not religion,' it evades the religious-freedom protections that would otherwise apply.
 
-**Who benefits now.** Local shrine organizations, and social conformity generally. The 'culture not religion' framing is the mechanism: it lets a religious levy be collected without religious-liberty scrutiny.
+**Who benefits now.** Local shrine organizations benefit, and so does social conformity generally. The 'culture not religion' framing is the mechanism: it lets a religious levy be collected without religious-liberty scrutiny.
 :::
 
 ::: card
 #### Purity exclusion of women (kegare)
 
-**Origin.** Ancient pollution concepts around blood and death. [ACADEMIC SOURCE]
+**Origin.** It comes from ancient kegare (ritual pollution) concepts around blood and death. [ACADEMIC SOURCE]
 
-**What it was for.** Ritual ordering of sacred space in a pre-scientific framework.
+**What it was for.** It served the ritual ordering of sacred space in a pre-scientific framework.
 
 **Why that reason expired.** Some sites still bar women entirely, sustained by custom rather than any doctrine. There is no text to overturn, which means there is also no text to appeal to.
 
-**Who benefits now.** Hereditary male shrine authority, and nothing else. This is control that persists purely because it was never examined.
+**Who benefits now.** Hereditary male shrine authority benefits, and nothing else does. This is control that persists purely because it was never examined.
 :::
 
 ::: card
 #### Yasukuni and the politics of commemoration
 
-**Origin.** Founded 1869 to enshrine the war dead; convicted war criminals enshrined in 1978. [ACADEMIC SOURCE]
+**Origin.** It was founded in 1869 to enshrine the war dead, and convicted war criminals were enshrined there in 1978. [ACADEMIC SOURCE]
 
-**What it was for.** Honoring the dead — an obligation every culture recognizes.
+**What it was for.** It honored the dead, an obligation every culture recognizes.
 
 **Why that reason expired.** Official visits give state endorsement to a specific and contested historical account, and the site's own museum presents it. Grief has been fused to a political claim, so mourning your grandfather now means endorsing something about the war he died in. [COURT RECORD: litigation over official visits]
 
-**Who benefits now.** Nationalist political networks, who acquire a sacred venue where dissent looks like disrespect for the dead.
+**Who benefits now.** Nationalist political networks benefit, acquiring a sacred venue where dissent looks like disrespect for the dead.
 :::
 
 ::: cites
@@ -344,7 +344,7 @@ Sources for this section: [9]
 
 ### Children
 
-- Hatsumiyamairi (first shrine visit) and Shichi-Go-San mark childhood milestones — genuinely light-touch rites with no doctrinal enrollment.
+- Hatsumiyamairi (first shrine visit) and Shichi-Go-San (the 'seven-five-three' festival for children of those ages) mark childhood milestones — genuinely light-touch rites with no doctrinal enrollment.
 - School participation in shrine visits and festivals has produced constitutional litigation over compelled religious activity. [COURT RECORD]
 - Historically, State Shinto compelled schoolchildren to bow to the emperor's portrait and worship at shrines — coercion of children as state policy. [GOVERNMENT REPORT]
 
@@ -448,7 +448,7 @@ Continuity, the ancestors' regard, the household's protection, a good year — n
 **How it shows here**
 
 - A person distancing from Shinto rites, shrine visits, family rituals, or local festivals may be told they are disrespecting ancestors, kami, family tradition, or community harmony.
-- The pull may happen around New Year shrine visits, weddings, funerals, purification rituals, local matsuri, or rites connected to birth and death.
+- The pull may happen around New Year shrine visits, weddings, funerals, purification rituals, local matsuri (shrine festivals), or rites connected to birth and death.
 - Refusal may be treated not as belief difference but as impurity, coldness, disrespect, or rejection of one’s roots.
 - Family may say: “Just come for the ceremony,” “It is not about belief,” “Do it for the ancestors,” making refusal socially difficult.
 - The hoover is cultural: participation is framed as belonging, and nonparticipation as alienation.
@@ -457,7 +457,7 @@ Continuity, the ancestors' regard, the household's protection, a good year — n
 
 **The counter.** “It’s just culture” can be the strongest coercion of all. If the person cannot refuse without being cast as impure, disrespectful, or disconnected from family and place, then culture is functioning as control.
 
-**Evidence grade.** [[Cultural]] Continuity and household protection are implied rather than promised, and are deniable for exactly that reason.
+**Evidence grade.** [[Cultural]] The pull-back comes from relatives and neighbors around New Year, weddings and funerals, in phrases such as 'Just come for the ceremony'; no written rule or office issues it.
 :::
 
 ### Stage 3 · Devalue {#stage-3}
@@ -465,7 +465,7 @@ Continuity, the ancestors' regard, the household's protection, a good year — n
 ::: stage
 **You are taught that you are broken, that your perception is unreliable, and that both exits from the trap lead back inside.**
 
-Rarely doctrinal, almost always social: insufficiently cooperative, insufficiently respectful of tradition, the household that does not participate.
+The devaluation is rarely doctrinal and almost always social. The household is seen as insufficiently cooperative, insufficiently respectful of tradition, or simply as the one that does not participate.
 
 *What it asks of you:* There is no sin here. There is only being the family everyone mentions.
 :::
@@ -507,7 +507,7 @@ Rarely doctrinal, almost always social: insufficiently cooperative, insufficient
 
 **The counter.** Culture can gaslight precisely because it does not announce itself as doctrine. If refusal is pathologized as disrespect, then “it’s just culture” has become a way to deny coercion.
 
-**Evidence grade.** [[Cultural]] There is no doctrine of insufficiency; the pressure is social standing within a place.
+**Evidence grade.** [[Cultural]] The reframing ('It is not belief; it is respect', 'Everyone does this') is spoken by relatives and neighbors; no institution issues it and no text sets it down.
 :::
 
 ::: tactic n=7
@@ -525,7 +525,7 @@ Rarely doctrinal, almost always social: insufficiently cooperative, insufficient
 
 **The counter.** Demandlessness is the mechanism. A system with no formal membership offers no formal way to decline. You cannot resign from what you never joined; you can only be a bad neighbor.
 
-**Evidence grade.** [[Cultural]] There is no doctrine of insufficiency; the pressure is social standing within a place.
+**Evidence grade.** [[Cultural]] The bind is built from the 'culture, not religion' framing and from impurity (kegare) that attaches through no fault; both operate through custom, and neither is set down in any rule.
 :::
 
 ### Stage 4 · Confuse {#stage-4}
@@ -553,7 +553,7 @@ Object to a shrine rite at a school or a company and you are told it is not reli
 
 **The counter.** Hopeful play with a real cashbox and a curated testimony wall is a business model, whatever it is called. Custom does not exempt a variable-reward loop from being one.
 
-**Evidence grade.** [[Cultural]] 'This is not religion' is deployed only when someone declines, and never at any other time.
+**Evidence grade.** [[Cultural]] Omikuji and omamori pay out on chance, and festival honor rotates on unstated criteria; both are customs run by shrines and neighbors, with no rule that states the reward.
 :::
 
 ::: tactic n=9
@@ -571,7 +571,7 @@ Object to a shrine rite at a school or a company and you are told it is not reli
 
 **The counter.** Culture becomes moving the goalposts when participation is first framed as optional respect and then treated as mandatory belonging. If refusal is punished, it was never merely cultural.
 
-**Evidence grade.** [[Cultural]] 'This is not religion' is deployed only when someone declines, and never at any other time.
+**Evidence grade.** [[Cultural]] The expectation rises from 'just for respect' to festivals, rites and ceremonies, and then to the right attitude; family and neighbors set each step, with no written standard.
 :::
 
 ::: tactic n=10
@@ -648,7 +648,7 @@ Object to a shrine rite at a school or a company and you are told it is not reli
 
 **The counter.** Culture becomes desensitization when repetition hides coercion. If people participate because refusal would cost belonging, then the ritual has become a social obedience test.
 
-**Evidence grade.** [[Cultural]] 'This is not religion' is deployed only when someone declines, and never at any other time.
+**Evidence grade.** [[Cultural]] Repetition of shrine visits, festivals and family rites installs the norm from childhood; custom carries it, and no rule is involved.
 :::
 
 ### Stage 5 · Isolate {#stage-5}
@@ -656,7 +656,7 @@ Object to a shrine rite at a school or a company and you are told it is not reli
 ::: stage
 **Your world narrows until every voice you hear is inside the system, and everything you came for now runs through a middleman.**
 
-Not on an institution — on your neighbors, your family, and your position in a place. The shrine is where your community's calendar lives.
+You depend on your neighbors, your family and your position in a place, with no institution in the middle. The shrine is where your community's calendar lives.
 
 *What it asks of you:* You depend on the people who collect for the festival. That is the whole mechanism.
 :::
@@ -699,7 +699,7 @@ Not on an institution — on your neighbors, your family, and your position in a
 
 **The counter.** Culture becomes triangulation when it recruits everyone around you to make refusal impossible. If family, ancestors, shrine, neighbors, and custom all converge on your consent, then “just culture” is doing the work of commandment.
 
-**Evidence grade.** [[Cultural]] Boundaries are geographic and neighborly rather than doctrinal — the shrine is where the local calendar lives.
+**Evidence grade.** [[Cultural]] The intermediaries are family, ancestors and neighbors ('Do it for your parents', 'Do it for the ancestors'); each acts through custom, and none holds a formal office.
 :::
 
 ### Stage 6 · Extract {#stage-6}
@@ -707,7 +707,7 @@ Not on an institution — on your neighbors, your family, and your position in a
 ::: stage
 **Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
 
-Amulets and fortunes retailed annually. Ceremony fees for weddings, purification, groundbreaking, and cars. Neighborhood levies collected by the people who live next to you, so declining is visible and remembered. And shrine-aligned political lobbying funded by devotional revenue.
+Amulets and fortunes are retailed annually. Ceremony fees are charged for weddings, purification, groundbreaking and cars. Neighborhood levies are collected by the people who live next to you, so declining is visible and remembered. Shrine-aligned political lobbying is funded by devotional revenue.
 
 *What it asks of you:* Your household's contribution is collected by a neighbor rather than an institution, which is why refusing it costs more than any doctrine could.
 :::
@@ -747,7 +747,7 @@ Amulets and fortunes retailed annually. Ceremony fees for weddings, purification
 
 **The counter.** Respect becomes smear when refusal is treated as character failure. If saying no makes someone impure or cold, then culture is functioning as coercive reputation control.
 
-**Evidence grade.** [[Cultural]] Amulet sales, ceremony fees, and residents'-association levies are collected by neighbors, which is what makes refusal visible.
+**Evidence grade.** [[Cultural]] The character judgments ('cold', 'impure', 'disrespectful') are passed by relatives and neighbors; no institution issues them.
 :::
 
 ::: tactic n=18
@@ -766,7 +766,7 @@ Amulets and fortunes retailed annually. Ceremony fees for weddings, purification
 
 **The counter.** If refusal causes social coldness, then there is coercion whether or not anyone calls it doctrine. Stonewalling is saying “it’s optional” while punishing the person who opts out.
 
-**Evidence grade.** [[Cultural]] Amulet sales, ceremony fees, and residents'-association levies are collected by neighbors, which is what makes refusal visible.
+**Evidence grade.** [[Cultural]] The silence is household and neighborhood silence after nonparticipation; no one admits that exclusion is happening, and no office is responsible for it.
 :::
 
 ::: tactic n=19
@@ -804,7 +804,7 @@ Amulets and fortunes retailed annually. Ceremony fees for weddings, purification
 
 **The counter.** Belonging becomes TRAUMA BONDING when acceptance is restored only through participation. If refusal makes you feel impure, cold, or disloyal, and ritual compliance makes you safe again, culture is regulating attachment.
 
-**Evidence grade.** [[Cultural]] Amulet sales, ceremony fees, and residents'-association levies are collected by neighbors, which is what makes refusal visible.
+**Evidence grade.** [[Cultural]] The relatives and neighbors who create the pressure also restore acceptance when the person takes part; no institution is involved in the cycle.
 :::
 
 ::: tactic n=21
@@ -823,7 +823,7 @@ Amulets and fortunes retailed annually. Ceremony fees for weddings, purification
 
 **The counter.** Culture creates LEARNED HELPLESSNESS when the rules are denied but the consequences remain. If the person cannot name the pressure because everyone calls it custom, resistance becomes exhausting.
 
-**Evidence grade.** [[Cultural]] Amulet sales, ceremony fees, and residents'-association levies are collected by neighbors, which is what makes refusal visible.
+**Evidence grade.** [[Cultural]] No doctrine is argued that could be challenged, so the person cannot name the pressure; relatives and neighbors voice the denial as custom.
 :::
 
 ::: tactic n=22
@@ -842,7 +842,7 @@ Amulets and fortunes retailed annually. Ceremony fees for weddings, purification
 
 **The counter.** Culture becomes BENEVOLENT CONTROL when refusal is punished while coercion is denied. If “just respect” requires participation, then respect is being used to override consent.
 
-**Evidence grade.** [[Cultural]] Purity exclusions of women persist at some sites as custom, with no doctrine to appeal to in either direction. *(sourced)*
+**Evidence grade.** [[Cultural]] Family and community present participation as respect and care; no written rule stands behind it, only custom and the household's standing. *(sourced)*
 :::
 
 ::: tactic n=23
@@ -861,7 +861,7 @@ Amulets and fortunes retailed annually. Ceremony fees for weddings, purification
 
 **The counter.** Culture becomes INFANTILIZATION when adults are not allowed to define their own conscience. If refusal is treated as childish rudeness, tradition has denied adulthood.
 
-**Evidence grade.** [[Cultural]] Amulet sales, ceremony fees, and residents'-association levies are collected by neighbors, which is what makes refusal visible.
+**Evidence grade.** [[Cultural]] Family elders and community expectation decide what participation means for adults; the authority is custom, with no written rule behind it.
 :::
 
 ::: tactic n=24
@@ -881,7 +881,7 @@ Amulets and fortunes retailed annually. Ceremony fees for weddings, purification
 
 **The counter.** Cultural identity becomes IDENTITY EROSION when the person cannot opt out without becoming alien to family and place. If custom speaks before conscience, the self is absorbed by the village.
 
-**Evidence grade.** [[Cultural]] Amulet sales, ceremony fees, and residents'-association levies are collected by neighbors, which is what makes refusal visible.
+**Evidence grade.** [[Cultural]] Identity is absorbed into family, place and seasonal rites through long participation; the pressure comes through belonging, and no rule is involved.
 :::
 
 ::: tactic n=25
@@ -901,7 +901,7 @@ Amulets and fortunes retailed annually. Ceremony fees for weddings, purification
 
 **The counter.** Culture becomes SPIRITUAL BYPASSING when it prevents honest refusal. If “just culture” is used to avoid discussing coercion, custom has bypassed conscience.
 
-**Evidence grade.** [[Cultural]] Amulet sales, ceremony fees, and residents'-association levies are collected by neighbors, which is what makes refusal visible.
+**Evidence grade.** [[Cultural]] 'It is just culture' and appeals to ancestors are spoken by relatives and neighbors to close off discussion; no institution issues the line.
 :::
 
 ::: tactic n=26
@@ -928,7 +928,7 @@ Amulets and fortunes retailed annually. Ceremony fees for weddings, purification
 ::: stage
 **You become expensive — too many questions, too much independence — and the urgency ramps up until you are removed.**
 
-No expulsion — there is nothing to be expelled from. Only quiet social marking, and in the State Shinto era, imprisonment of Christians and others who refused. [GOVERNMENT REPORT]
+There is no expulsion, because there is nothing to be expelled from. There is only quiet social marking, and in the State Shinto era there was imprisonment of Christians and others who refused. [GOVERNMENT REPORT]
 
 *What it asks of you:* When it needed teeth, it grew them in one generation.
 :::
@@ -949,7 +949,7 @@ No expulsion — there is nothing to be expelled from. Only quiet social marking
 
 **The counter.** Respect becomes MANUFACTURED CRISIS when refusal is treated as social danger. If one person’s no threatens harmony so easily, the harmony was already coercive.
 
-**Evidence grade.** [[Cultural]] There is nothing to be expelled from; the cost is being the household everyone mentions.
+**Evidence grade.** [[Cultural]] No office declares the crisis; the urgency comes from relatives and neighbors who treat one person's refusal as a threat to harmony.
 :::
 
 ::: tactic n=28
@@ -974,7 +974,7 @@ No expulsion — there is nothing to be expelled from. Only quiet social marking
 ### Stage 8 · Replace {#stage-8}
 
 ::: stage
-**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to God.**
+**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority rests with the kami, the ancestors and the way things are done here.**
 
 There is no seat to fill, no roll, no announcement — and in the State Shinto era, the replacement was total: an entire tradition repurposed within one generation. The authority is the kami, the ancestors, the way things are done here.
 
@@ -997,13 +997,13 @@ There is no seat to fill, no roll, no announcement — and in the State Shinto e
 
 **The counter.** Participation becomes REPLACEMENT when belonging is assigned to whoever performs custom. If the family can replace conscience with attendance, culture has become a social sorting system.
 
-**Evidence grade.** [[Cultural]] Authority attributed to kami, ancestors, and local custom — with no text to hold up when the tradition is hijacked.
+**Evidence grade.** [[Cultural]] Relatives who take part take the place of the one who refuses; the replacement is informal, with no roll or announcement.
 :::
 
 ::: tactic n=30
 #### 30 · Plausible Deniability {#t-30}
 
-*The institution is never responsible, because the authority is attributed to God — who isn't available for cross-examination.*
+*The institution is never responsible, because the authority is attributed to the kami, the ancestors and custom, none of which is available for cross-examination.*
 
 **How it shows here**
 
@@ -1022,46 +1022,162 @@ There is no seat to fill, no roll, no announcement — and in the State Shinto e
 
 ## 13. The loops {#loops}
 
+::: lede
+The seven loops below show how the practices connect, so that each step makes the next one easier and the last step feeds the first. The loops are analysis built from findings recorded elsewhere on this page [PATTERN OBSERVED]; each step names the section or technique where its fact is recorded.
+:::
+
 ::: card
 #### 1 · Money to Doctrine to Money
 
-Amulets, fees, and levies fund shrines and an association whose political programme most contributors never endorsed.
+Amulets, fees and levies fund shrines and an association whose political programme most contributors never endorsed.
+
+**How it runs.**
+
+1. Visitors and households pay through amulets and fortunes, ceremony fees, neighborhood festival levies and corporate purification services (section 9).
+2. The money sustains shrines, hereditary shrine families and Jinja Honcho (sections 7 and 9).
+3. Jinja Honcho and its political arm, Shinto Seiji Renmei, lobby for constitutional revision and traditional family provisions (sections 6, 7 and 16).
+4. The 'culture, not religion' framing lets participation costs be levied without religious-freedom scrutiny, and most donors never voted on the agenda their money supports (section 9; technique 10).
+5. Payment stays routine and unquestioned, so the money keeps flowing (techniques 26 and 30).
+
+**Techniques that feed it.** [26 · Financial Control](#t-26), [19 · Manufactured Consent](#t-19), [10 · Strategic Ambiguity](#t-10), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** The payers are told they are giving to culture, so the destination of the money is never put to them as a choice. The scorecard in section 1 finds no public evidence of leaders' pay, so the people who give cannot follow the money to the programme it funds.
+
+**Where it could be broken, and by whom.** It weakens wherever the destination of the money becomes visible to the people who pay. The courts have been the one venue in which Jinja Honcho's own dealings were examined (section 19); a household can ask its shrine and its neighborhood association where its contribution goes. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 9 records devotional revenue that supports 'a constitutional-revision agenda most donors never voted on', and section 7 describes the constitutional agenda as funded by amulet sales.
 :::
 
 ::: card
 #### 2 · Fear to Dependence to Fear
 
-No doctrine of fear; the pressure is neighborly standing, which requires no teaching at all.
+There is no doctrine of fear. The pressure is neighborly standing, which requires no teaching at all.
+
+**How it runs.**
+
+1. A household takes part in festivals, rites and levies as ordinary custom, and nothing is demanded of it (section 12, stages 1 and 2).
+2. Refusal is read as disrespect to ancestors, to parents and to the neighborhood (section 15; technique 4).
+3. The neighborhood ledger records who did not take part, and neighbors and relatives apply the pressure (section 7; technique 16).
+4. The household becomes the one everyone mentions, and no doctrine exists that could be argued with (section 12, stage 3; technique 21).
+5. The household takes part again to restore its standing, and the next collection is made by the same neighbors (sections 9 and 15; technique 20).
+
+**Techniques that feed it.** [4 · Hoovering](#t-4), [16 · Flying Monkeys](#t-16), [20 · Trauma Bonding](#t-20), [21 · Learned Helplessness](#t-21).
+
+**Why it closes.** The pressure comes from the people who live next to the household, so it needs no teaching, no office and no announcement. Acceptance is restored by taking part, which sets up the next season's pressure.
+
+**Where it could be broken, and by whom.** It weakens where one household's refusal is met with ordinary neighborliness, and where officers who collect the levy decline to record who did not pay (section 18 names this as the point where a residents' association officer could refuse). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Keiko's family has given the four thousand yen for twenty-two autumns, and for her there is 'no available version of the sentence' that would decline (section 2).
 :::
 
 ::: card
 #### 3 · Children to Members to Children
 
-Childhood rites are light-touch; school visits and household affiliation do the attaching.
+Childhood rites are light-touch, and school visits and household affiliation do the attaching.
+
+**How it runs.**
+
+1. Hatsumiyamairi and Shichi-Go-San mark childhood milestones, with no doctrinal enrollment (section 11).
+2. Schools take classes to shrine visits and festivals, which has produced constitutional litigation over compelled religious activity (section 11).
+3. A household is counted as ujiko by address, which makes non-participation a visible act (section 14, words used here).
+4. The children grow up taking part as custom, with no moment at which participation was chosen (sections 2 and 12; technique 13).
+5. They then have their own children blessed and send them on the same school visits, and the household stays counted (section 2).
+
+**Techniques that feed it.** [13 · Normalization / Desensitization](#t-13), [19 · Manufactured Consent](#t-19), [24 · Identity Erosion](#t-24), [15 · Triangulation](#t-15).
+
+**Why it closes.** Each generation is brought in by milestones that feel like culture rather than enrollment, so no point arrives at which membership is decided. The loop continues unless a household decides to stop.
+
+**Where it could be broken, and by whom.** It weakens where school participation is made genuinely optional. Section 18 names the point: a schoolteacher arranging a shrine visit could refuse to make participation non-optional, and the litigation recorded in section 11 shows courts being asked to decide it. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** In section 2 Keiko's son's class is visiting the shrine on Friday and there is a form; a family that preferred not to take part last year was met with understanding, and the child went anyway.
 :::
 
 ::: card
 #### 4 · Aid to Legitimacy to Leverage to Aid
 
 Shrine legitimacy is traded for political influence, and influence protects the arrangement.
+
+**How it runs.**
+
+1. Local shrine life is a genuine commons of festivals, trees and continuity, and much of what it gives is real (sections 4 and 20).
+2. That standing gives shrine bodies legitimacy that is rarely disputed, because participation is framed as culture (sections 3 and 9).
+3. Jinja Honcho's political arm converts the legitimacy into lobbying for constitutional revision and official Yasukuni patronage (sections 7, 11 and 16).
+4. The networks that benefit also benefit from the belief that none of this is religion, and the framing keeps the levies free of religious-freedom scrutiny (sections 9 and 10; technique 10).
+5. The standing that results sustains the shrines and the associations again.
+
+**Techniques that feed it.** [2 · Weaponized Generosity](#t-2), [22 · Benevolent Control](#t-22), [10 · Strategic Ambiguity](#t-10), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** The commons that earns the legitimacy is also the channel through which the political programme travels. Because participants sincerely deny that any of it is religion, the legitimacy is never questioned as a religious claim.
+
+**Where it could be broken, and by whom.** It weakens where courts enforce the separation of religion and state. The Supreme Court did so in 1997 and 2010, holding that public offerings to Yasukuni and free municipal land for a shrine were unconstitutional (section 8). This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Section 14 predicts that the next official shrine visit will be described as private, the same account given in the news story in section 2.
 :::
 
 ::: card
 #### 5 · Unpaid Labor to Assets to Power to More Labor
 
 Neighborhood labor and levies maintain shrines held by hereditary families.
+
+**How it runs.**
+
+1. Residents' associations collect festival levies door to door, and local festivals take time, money and labor from households (sections 9 and 12; technique 26).
+2. The levies maintain local shrine and festival organizations (section 9).
+3. The shrines, and the income from amulets, ceremonies and corporate services, remain with hereditary priest families, ordinarily through sons (sections 7 and 9).
+4. Hereditary male shrine authority persists unexamined, and women are excluded at some sites (sections 10 and 17).
+5. The next season's labor and levies are collected the same way (technique 29).
+
+**Techniques that feed it.** [26 · Financial Control](#t-26), [16 · Flying Monkeys](#t-16), [24 · Identity Erosion](#t-24), [29 · Replacement](#t-29).
+
+**Why it closes.** The people who supply the labor and the levies hold no office that controls the shrines. Value flows from households to the families that hold the shrine, and the households are replaced by the next set of neighbors who take part.
+
+**Where it could be broken, and by whom.** It weakens where residents' association officers decline to record who declined (section 18), and where the exclusions that rest on custom are examined, since section 10 notes that there is no text to overturn. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Keiko writes the family name on the envelope each autumn, and Furukawa-san collects it in person and keeps a list (section 2).
 :::
 
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
-There is no apparatus and nothing to remove; the shrine simply continues.
+There is no apparatus and nothing to remove, so the shrine simply continues.
+
+**How it runs.**
+
+1. The 2015 sale of the Jinja Honcho staff dormitory is questioned by a research chief, who raises a complaint in December 2016 (sections 9 and 19).
+2. Jinja Honcho dismisses him in August 2017 and demotes a colleague (section 19; technique 28).
+3. The case is decided by the courts, not by an internal body: the dismissal is declared void in March 2021 and the ruling is final in 2022 (sections 5, 8 and 19).
+4. A dispute over the presidency follows, and the Supreme Court rejects the rival claim on 2 October 2024 (sections 1 and 19).
+5. The association continues under the same president, confirmed for a sixth term in 2025, and section 20 records no structural reform (sections 1 and 20; technique 30).
+
+**Techniques that feed it.** [17 · Smear Campaign](#t-17), [28 · Discard](#t-28), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** The test of the association's accountability was run in open court because no internal body would run it (section 5), and this volume records no removal of anyone in the leadership as a result. The structure that produced the dispute is unchanged.
+
+**Where it could be broken, and by whom.** Section 20 names the change that would break it: governance litigation ending in structural reform and the vindication of the whistleblower. That lies with the association's board and, where the board fails, with the courts. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** Takao Ina, the research chief, won in court, and the association he questioned continues under the same leadership (sections 19 and 21).
 :::
 
 ::: card
 #### 7 · Persecution to Solidarity to Insulation to Unaccountability
 
 Postwar suppression and foreign criticism of Japanese religion are invoked to make historical honesty look like an attack.
+
+**How it runs.**
+
+1. State Shinto was ended by occupation order in 1945, and a neighbouring country responds when officials visit a shrine for the war dead (sections 2 and 5).
+2. The response frames the criticism as an attack: 'That was militarism, not Shinto' (section 15) and 'Yasukuni simply honors the dead' (section 14).
+3. Grief is fused to the political claim, so dissent looks like disrespect for the dead (section 10; technique 25).
+4. Officials' visits are described as private (sections 2 and 14).
+5. The account is not revised, and the next criticism is met the same way (technique 12).
+
+**Techniques that feed it.** [10 · Strategic Ambiguity](#t-10), [12 · DARVO](#t-12), [25 · Spiritual Bypassing](#t-25), [30 · Plausible Deniability](#t-30).
+
+**Why it closes.** The more the record is cited, the more it can be received as hostility from outside. Each protest strengthens the solidarity that keeps the account in place.
+
+**Where it could be broken, and by whom.** It weakens when families of the dead are heard on their own terms. Section 20 records bereaved families bringing litigation over official shrine patronage, and section 17 records Korean and Taiwanese conscripts enshrined without consent. This paragraph is analysis, not a documented finding.
+
+**An example from this page.** In section 2, Keiko's mother says that the dead should be left in peace, and Keiko has never heard her say what she thinks about her uncle's enshrinement.
 :::
 
 ## 14. Say versus do {#say-do}
@@ -1077,9 +1193,9 @@ Postwar suppression and foreign criticism of Japanese religion are invoked to ma
 
 ### Accountability or theatre?
 
-**Last time the chair ran.** 1868 to 1945 — an entire tradition repurposed in one generation, then disestablished from outside.
+**Last time the chair ran.** It ran from 1868 to 1945, when an entire tradition was repurposed in one generation and then disestablished from outside.
 
-**Who holds the chair now.** Jinja Honcho, hereditary shrine families, and the political networks nearby.
+**Who holds the chair now.** Jinja Honcho, hereditary shrine families and the political networks nearby hold it.
 
 **Prediction.** Nothing will be removed, because nothing is formally claimed. The next official shrine visit will be described as private.
 
@@ -1087,15 +1203,15 @@ Postwar suppression and foreign criticism of Japanese religion are invoked to ma
 
 | Term | What it means inside | What it does | Said plainly |
 |---|---|---|---|
-| Ujiko | A shrine's parishioner by residence. | Membership by address rather than belief, which makes non-participation a visible act rather than a private one. | 'You live here, so you are counted, and everyone can see if you are not.' |
-| Meiwaku | Causing trouble or inconvenience to others. | Broad Japanese social vocabulary that in this setting does specific work: it makes declining a festival obligation into an act against neighbours rather than an act of conscience. | 'Refusing would be a burden on other people.' |
-| Just culture, not religion | The standard framing of shrine participation. | Genuinely true for many participants, and it also removes the practice from the category of things one may decline on grounds of belief. | 'Belief is optional, so you have no grounds to opt out.' |
+| Ujiko | An ujiko is a shrine's parishioner by residence. | It makes membership a matter of address rather than belief, which makes non-participation a visible act rather than a private one. | 'You live here, so you are counted, and everyone can see if you are not.' |
+| Meiwaku | It means causing trouble or inconvenience to others. | It is broad Japanese social vocabulary that in this setting does specific work, making declining a festival obligation into an act against neighbours rather than an act of conscience. | 'Refusing would be a burden on other people.' |
+| Just culture, not religion | It is the standard framing of shrine participation. | It is genuinely true for many participants, and it also removes the practice from the category of things one may decline on grounds of belief. | 'Belief is optional, so you have no grounds to opt out.' |
 
 ## 15. Cost & cover {#cost}
 
 ### What leaving costs
 
-- No membership to leave; costs are neighborly and reputational — opting out of shrine festivals or levies marks a household. [VARIES BY COMMUNITY]
+- There is no membership to leave. The costs are neighborly and reputational, since opting out of shrine festivals or levies marks a household. [VARIES BY COMMUNITY]
 
 ### The ledger of exit
 
@@ -1104,26 +1220,26 @@ Postwar suppression and foreign criticism of Japanese religion are invoked to ma
 | Formal membership | None | There is nothing to resign from; household affiliation is nominal | Accurately: there is no exit apparatus. |
 | Neighborhood standing | Yes | Declining festival levies or shrine duties marks a household as uncooperative | “It's a neighborhood association, not a church.” |
 | Family and ancestral duty | Yes | Refusing rites reads as disrespect to ancestors and parents | “It's just tradition.” |
-| Historical state coercion | Yes, 1871–1945 | Compulsory shrine worship, including in colonized Korea and Taiwan | “That was militarism, not Shinto.” |
+| Historical state coercion | Yes, 1871–1945 | Shrine worship was compulsory, including in colonized Korea and Taiwan. | “That was militarism, not Shinto.” |
 
 ### How the cost is denied
 
 | Channel | Level | Note |
 |---|---|---|
-| Explicit policy | Very high deniability | No doctrine, no membership, no rules — nothing written to hold anyone to. |
+| Explicit policy | Very high deniability | There is no doctrine, no membership and no rules, so nothing is written to hold anyone to. |
 | Informal enforcement | Very high | Neighborhood expectation and family duty are the sole mechanisms today. |
 | Leadership distance | High | Jinja Honcho can disclaim any individual shrine, and shrines can disclaim politics. |
-| Doctrinal ambiguity | Total | There is no doctrine at all — the ultimate ambiguity shield. |
+| Doctrinal ambiguity | Total | There is no doctrine at all, which makes it the ultimate ambiguity shield. |
 | Cultural outsourcing | Total | 'It is culture, not religion' is the tradition's own official self-description. |
 | Volunteer enforcement | Very high | Neighborhood associations and relatives collect and expect; no priest asks. |
 | Sacred secrecy | Medium | Imperial rites and some inner shrine practices are closed. |
-| Exit cost denial | High | Perfectly true institutionally; false at the level of the street you live on. |
+| Exit cost denial | High | The denial is perfectly true institutionally and false at the level of the street you live on. |
 
 ## 16. The ledger {#ledger}
 
 ### Who benefits
 
-- Hereditary shrine families; nationalist political networks borrowing sacred legitimacy; historically, the imperial state — the cautionary archetype for every church-state fusion in this codex. [ACADEMIC SOURCE]
+- The beneficiaries are hereditary shrine families and nationalist political networks borrowing sacred legitimacy, and historically the imperial state, which is the cautionary archetype for every church-state fusion in this codex. [ACADEMIC SOURCE]
 
 ### Money out, leverage back
 
@@ -1133,32 +1249,36 @@ Postwar suppression and foreign criticism of Japanese religion are invoked to ma
 
 ### Who pays
 
-- Women, under purity exclusions and shrine-aligned family politics.
-- Non-participating households in tight neighborhoods, socially marked.
-- Japanese Christians and other minorities who resisted compulsory shrine worship — and were imprisoned for it. [GOVERNMENT REPORT]
-- Colonized Koreans and Taiwanese forced into shrine rites under assimilation policy.
-- Anyone whose family history the Yasukuni narrative erases.
+- Women pay, under purity exclusions and shrine-aligned family politics.
+- Non-participating households in tight neighborhoods pay, because they are socially marked.
+- Japanese Christians and other minorities who resisted compulsory shrine worship paid, and they were imprisoned for it. [GOVERNMENT REPORT]
+- Colonized Koreans and Taiwanese paid, because they were forced into shrine rites under assimilation policy.
+- Anyone whose family history the Yasukuni narrative erases pays.
 
 ## 17. Who gets hurt most {#who-gets-hurt}
 
 ### Where the weight lands
 
+The costs in section 15 fall unevenly. The table names who carries the most, how, and what makes it worse.
+
 | Who | How | What it compounds with |
 |---|---|---|
-| Women | Purity exclusions at some sites, sustained by custom with no doctrine to appeal to | With shrine-aligned family politics opposing separate surnames |
-| Non-participating households | Socially marked in tight neighborhoods | For minorities and religious dissenters in small communities |
-| Japanese Christians and others who refused | Imprisoned under State Shinto for declining shrine worship | Historically, and it happened within living memory |
-| Colonized Koreans and Taiwanese | Forced into shrine rites under assimilation policy | With language and name erasure |
-| Families the Yasukuni narrative erases | Their dead conscripted into a political account | For Korean and Taiwanese conscripts enshrined without consent |
+| Women | They face purity exclusions at some sites, sustained by custom with no doctrine to appeal to. | The harm compounds with shrine-aligned family politics opposing separate surnames. |
+| Non-participating households | They are socially marked in tight neighborhoods. | It compounds for minorities and religious dissenters in small communities. |
+| Japanese Christians and others who refused | They were imprisoned under State Shinto for declining shrine worship. | It compounds historically, and it happened within living memory. |
+| Colonized Koreans and Taiwanese | They were forced into shrine rites under assimilation policy. | It compounded with language and name erasure. |
+| Families the Yasukuni narrative erases | Their dead are conscripted into a political account. | It compounds for Korean and Taiwanese conscripts enshrined without consent. |
 
 ## 18. The middle tiers {#tiers}
 
+Most of the work of keeping the arrangement running is done by people who apply expectations they did not write. Shrine priests, residents' association officers, schoolteachers and corporate facilities managers each carry part of it, and each stands at one point where the next step could be declined. The table sets out what each tier does, what it sees, what it is asked to do and what it could refuse.
+
 | Role | Does | Sees | Is asked to | Could refuse |
 |---|---|---|---|---|
-| Shrine priests | Serves the local shrine and the local calendar | The gap between the shrine and the association's politics | To stay affiliated | To let devotional revenue fund a constitutional campaign |
-| Residents' association officers | Collects the levy | Which households cannot pay and which will not | To collect from everyone | To record who declined |
-| Schoolteachers arranging shrine visits | Takes children to rites | That some families object and cannot say so | To treat it as cultural education | To make participation non-optional |
-| Corporate facilities managers | Books purification and groundbreaking rites | That refusal would be awkward rather than illegal | To keep the tradition | To require staff attendance |
+| Shrine priests | Serve the local shrine and the local calendar | The gap between the shrine and the association's politics | Stay affiliated | Let devotional revenue fund a constitutional campaign |
+| Residents' association officers | Collect the levy | Which households cannot pay and which will not | Collect from everyone | Record who declined |
+| Schoolteachers arranging shrine visits | Take children to rites | That some families object and cannot say so | Treat it as cultural education | Make participation non-optional |
+| Corporate facilities managers | Book purification and groundbreaking rites | That refusal would be awkward rather than illegal | Keep the tradition | Require staff attendance |
 
 ## 19. Documented cases {#cases}
 
@@ -1198,9 +1318,9 @@ Postwar suppression and foreign criticism of Japanese religion are invoked to ma
 
 | What | Who | When | What it cost |
 |---|---|---|---|
-| The 1945 Shinto Directive disestablishing State Shinto | Occupation authorities and postwar Japanese constitutionalists | 1945–46 | Imposed rather than chosen, which is part of why the lesson is fragile |
-| Court litigation limiting official shrine patronage | Japanese citizens including bereaved families | 1970s–present | Decades of losing cases |
-| Local shrine life as a genuine commons — festivals, trees, continuity | Neighborhoods | Continuous | None; the truest good on this page |
+| The 1945 Shinto Directive disestablishing State Shinto | Occupation authorities and postwar Japanese constitutionalists | 1945–46 | It was imposed rather than chosen, which is part of why the lesson is fragile. |
+| Court litigation limiting official shrine patronage | Japanese citizens including bereaved families | 1970s–present | It meant decades of losing cases. |
+| Local shrine life as a genuine commons — festivals, trees, continuity | Neighborhoods | Continuous | It cost nothing, and it is the truest good on this page. |
 
 ### What would change this page
 
@@ -1212,29 +1332,29 @@ Sources for this section: [4]
 
 ## 21. Voices from inside {#voices}
 
-- **Takao Ina.** The Jinja Honcho research chief who blew the whistle on the dormitory sale and won in court [1][12].
-- **The Ehime and Sorachibuto plaintiffs,** citizens who took public support for shrines to the Supreme Court and won [4].
-- **The women excluded from Okinoshima,** a World Heritage site closed to them [11].
+- **Takao Ina.** He was the Jinja Honcho research chief who blew the whistle on the dormitory sale and won in court [1][12].
+- **The Ehime and Sorachibuto plaintiffs.** They were citizens who took public support for shrines to the Supreme Court and won [4].
+- **The women excluded from Okinoshima.** Okinoshima is a World Heritage site closed to them [11].
 
 ## 22. Regional variants {#regional}
 
 ::: card
 ### Japan — the Jinja Honcho network
-- **apex:** Jinja Honcho's president and board [3].
-- **law:** The Constitution and religious-corporation law [4][6].
-- **documented:** The dormitory case [1][12]; the presidency dispute [2][3].
-- **exit:** Shrines can leave; individuals rarely "belong" in the first place.
-- **regulator:** The courts [1][3].
+- **apex:** Jinja Honcho's president and board hold the apex [3].
+- **law:** The Constitution and the law on religious corporations govern it [4][6].
+- **documented:** The record covers the dormitory case [1][12] and the presidency dispute [2][3].
+- **exit:** Shrines can leave the network, and individuals rarely "belong" in the first place.
+- **regulator:** The courts act as regulator [1][3].
 - **tell:** The shrine world's governance disputes were settled by judges.
 :::
 
 ::: card
 ### Japan — Yasukuni and the state
-- **apex:** Yasukuni's own priests [9].
-- **law:** Articles 20 and 89 [6].
-- **documented:** The Ehime ruling (1997) [4]; the 1978 enshrinements [9].
-- **exit:** —
-- **regulator:** The Supreme Court [4].
+- **apex:** Yasukuni's own priests hold the apex [9].
+- **law:** Articles 20 and 89 of the Constitution govern it [6].
+- **documented:** The record covers the Ehime ruling (1997) [4] and the 1978 enshrinements [9].
+- **exit:** There is no membership to exit.
+- **regulator:** The Supreme Court acts as regulator [4].
 - **tell:** The constitution forbids public money for shrines; the court has enforced it.
 :::
 
@@ -1251,7 +1371,7 @@ Sources for this section: [4]
 
 Local shrine life is one of the genuinely good things in this codex: a commons, a calendar, trees kept standing, a place that belongs to everyone in the neighborhood and no one in particular. Almost nothing in this profile is aimed at that.
 
-What it is aimed at is the lesson of 1868 to 1945 — that a tradition with nothing written down is the easiest of all to hijack, because there is no text to hold up against the hijacker. Your protection is not doctrine; you have none. Your protection is remembering that it happened, and noticing who is currently standing near the torii with a political program.
+What it is aimed at is the lesson of 1868 to 1945 — that a tradition with nothing written down is the easiest of all to hijack, because there is no text to hold up against the hijacker. Your protection is not doctrine; you have none. Your protection is remembering that it happened, and noticing who is currently standing near the torii (the shrine gate) with a political program.
 
 ::: cites
 Sources for this section: [1] [2] [6]
@@ -1264,7 +1384,7 @@ Practical guidance, not legal advice.
 1. **Shinto has no membership to leave;** the pressure comes from neighbourhood festival levies and shrine-support associations, which you can decline.
 2. **Public bodies may not fund shrine rites;** the Supreme Court has said so twice [4].
 3. **If you work for a shrine body,** employment law protects whistleblowers — the courts voided a dismissal [1].
-4. **Find support** [14][15][16].
+4. **Find support** through the organizations in section 25 [14][15][16].
 
 ## 25. Where to get help {#help}
 
