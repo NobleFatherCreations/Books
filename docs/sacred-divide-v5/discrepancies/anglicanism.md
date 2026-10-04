@@ -1,3 +1,5 @@
+Status 2026-10-03: fixes applied, see anglicanism-FIXLOG.md (deferred items remain open).
+
 # DISCREPANCIES — Anglicanism, awaiting the owner's decision
 
 Format: **[Location]** what is wrong → what it should be (proposed wording) → why it matters. Unless an item says otherwise, nothing below has been changed in the text: each touches the frozen layer (numbers, receipts, grades, source entries) or states a claim the wording pass may not alter.

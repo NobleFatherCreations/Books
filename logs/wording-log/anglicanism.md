@@ -1,6 +1,6 @@
 # Wording log — anglicanism
 
-169 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/anglicanism.json`, then rebuild. Nothing else changes.
+168 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/anglicanism.json`, then rebuild. Nothing else changes.
 
 ## Fragments completed into sentences (130)
 
@@ -1847,7 +1847,7 @@
 
 *Reason:* Fragment completed; first use of 'Archbishops' Council', glossed. Quotation unchanged.
 
-## Proofreading (typos, punctuation, agreement) (6)
+## Proofreading (typos, punctuation, agreement) (5)
 
 ### ANG-P001 · md · §5 · proposed · build: applied
 
@@ -1908,18 +1908,6 @@
 > - **Jeremy Pemberton.** He is the priest who was refused a licence after marrying his male partner, and he took the case to the Court of Appeal [14].
 
 *Reason:* Fragment completed; 'who' could be read as the partner.
-
-### ANG-N001 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 5 documented cases on this page
-
-**After**
-
-> These are not hypotheticals. Five documented cases on this page
-
-*Reason:* Numeral at the start of a clause spelled out.
 
 ## Loops expanded (section 13) (8)
 

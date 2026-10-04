@@ -1846,5 +1846,595 @@
   "reason": "Credited the church's own vote with ending blasphemy law; section 20 records that Parliament abolished it (Criminal Justice and Immigration Act 2008). Colon list also removed.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "ANG-D001",
+  "scope": "md",
+  "type": "source",
+  "before": "30. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>",
+  "after": "30. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>\n31. Clergy Discipline Measure 2003 (<https://www.legislation.gov.uk/ukcm/2003/3/contents>), and IICSA, *The Anglican Church Investigation Report*, B.3.2, \"Procedure under the Clergy Discipline Measure\" (<https://www.iicsa.org.uk/reports-recommendations/publications/investigation/anglican-church/part-b-church-england/b3-clergy-discipline/b32-procedure-under-clergy-discipline-measure.html>) — the Measure applies to bishops and archbishops; tribunal penalties run from a rebuke to removal from office and prohibition from ministry.\n32. Law & Religion UK, \"Complaint against Archbishop of Canterbury dismissed,\" 12 Mar 2026. <https://lawandreligionuk.com/2026/03/12/complaint-against-archbishop-of-canterbury-dismissed/> — a complaint under section 8 of the Clergy Discipline Measure, dismissed by the President of CDM Tribunals on 12 Feb 2026 as vexatious.\n33. Anglican Communion, \"Member Churches.\" <https://www.anglicancommunion.org/structures/member-churches.aspx> — 42 member churches (provinces); about 85 million people.\n34. Church of England, \"Redress scheme.\" <https://www.churchofengland.org/safeguarding/redress-scheme> — the Redress Scheme Measure received Royal Assent in Dec 2025; some parliamentary processes remain; the scheme is expected to open in the latter part of 2026.\n35. Church of England, \"Safeguarding Structures Reform Programme\" (Independent Safeguarding Authority). <https://www.churchofengland.org/safeguarding/safeguarding-structures-reform-programme> — Synod approved the plans in Feb 2026; public consultation ran 16 April to 17 May 2026; the authority is still in the planning phase.\n36. Episcopal News Service, \"Little evidence so far that Anglican leaders plan to join GAFCON in leaving Anglican Communion,\" 23 Oct 2025. <https://episcopalnewsservice.org/2025/10/23/little-evidence-so-far-that-anglican-leaders-plan-to-join-gafcon-in-leaving-anglican-communion/> — the statement was signed by Archbishop Laurent Mbanda as chair of the GAFCON primates' council.",
+  "reason": "New sources 31-36 (items 1, 2, 7, 11, 12).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D002",
+  "scope": "md",
+  "type": "source",
+  "before": "— £11.1bn; about 20% of running costs. (A later report puts the fund at £11.6bn: Civil Society, <https://www.civilsociety.co.uk/news/church-of-england-s-endowment-fund-grows-to-11-6bn.html> — update to the latest annual report at import.)",
+  "after": "— £11.1bn at the end of 2024; about 20% of running costs. The end-2025 figure is in source 21.",
+  "reason": "Item 2: removes build instruction from source 5; end-2025 figure is its own entry [21].",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D003",
+  "scope": "md",
+  "type": "source",
+  "before": "— the 85M / 42 provinces figures appear in Communion descriptions; **cite the Anglican Communion Office** at import.",
+  "after": "— the GAFCON announcement of 16 Oct 2025.",
+  "reason": "Item 2: removes build instruction from source 12; Communion size now cites [33].",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D004",
+  "scope": "md",
+  "type": "source",
+  "before": "<https://www.churchofengland.org/media/press-releases/church-england-attendance-rises-fourth-year>",
+  "after": "<https://www.churchofengland.org/media/press-releases/attendance-church-england-churches-rises-fourth-year-row> (final figures, Oct 2025)",
+  "reason": "Item 10: the old URL is the preliminary release (1.019m / 582,000); the final release gives 1.009m / 581,000.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D005",
+  "scope": "md",
+  "type": "receipt",
+  "before": "The Anglican Communion has ~85M members in 42 provinces (self-governing member churches) [12].",
+  "after": "The Anglican Communion has ~85M members in 42 provinces (self-governing member churches) [33].",
+  "reason": "Item 2: figure now cites the Communion's own page, not a news story.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D059",
+  "scope": "md",
+  "type": "receipt",
+  "before": "- **adherents:** The Anglican Communion has ~85M members in 42 provinces [12].",
+  "after": "- **adherents:** The Anglican Communion has ~85M members in 42 provinces [33].",
+  "reason": "Item 2: same, section 7.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D006",
+  "scope": "md",
+  "type": "receipt",
+  "before": "in 42 member churches (provinces) [12].",
+  "after": "in 42 member churches (provinces) [33].",
+  "reason": "Item 2: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D007",
+  "scope": "md",
+  "type": "receipt",
+  "before": "About 85 million people in 42 provinces [12] |",
+  "after": "About 85 million people in 42 provinces [33] |",
+  "reason": "Item 2: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D008",
+  "scope": "md",
+  "type": "fact",
+  "before": "The holder can resign, as in 2024 [3]; no removal procedure has been identified.",
+  "after": "The holder can resign, as in 2024 [3], or be removed from office under the Clergy Discipline Measure 2003 after a tribunal finding [31]; this page records no archbishop removed under it. A complaint against Archbishop Mullally under the Measure was dismissed in 2026 [32].",
+  "reason": "Item 1: a published removal procedure exists (F1).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D009",
+  "scope": "md",
+  "type": "fact",
+  "before": ") [2] | N | P |",
+  "after": ") [2] | P (the Clergy Discipline Measure 2003 allows removal from office; not used against an archbishop on this page's record) [31] | P |",
+  "reason": "Item 1: scorecard Removal N to P.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D010",
+  "scope": "narration",
+  "type": "fact",
+  "before": "But the scorecard finds no written way to remove the top office, and when an archbishop did go in 2024, it took an independent review to bring that about.",
+  "after": "But a written procedure to remove an archbishop does exist (the Clergy Discipline Measure 2003), and this page records no archbishop removed under it; when an archbishop did go in 2024, he resigned after an independent review.",
+  "reason": "Item 1: narration matched to the corrected scorecard.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D011",
+  "scope": "md",
+  "type": "fact",
+  "before": "a published £11.1bn endowment [5]",
+  "after": "a published £11.6bn endowment (end 2025) [21]",
+  "reason": "Item 9: current value; £11.1bn is the end-2024 figure.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D012",
+  "scope": "md",
+  "type": "fact",
+  "before": "£11.1bn endowment (end 2024) [5]",
+  "after": "£11.6bn endowment (end 2025) [21]",
+  "reason": "Item 9.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D013",
+  "scope": "md",
+  "type": "fact",
+  "before": "manage a historic endowment of £11.1bn at the end of 2024, contributing around 20% of the Church of England's running costs; the accounts are published [5].",
+  "after": "manage a historic endowment of £11.6bn at the end of 2025 (£11.1bn a year earlier) [21][5]. In 2024 it contributed around 20% of the Church of England's running costs; the accounts are published [5].",
+  "reason": "Item 9: current value; the 20% is the 2024 figure.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D014",
+  "scope": "narration",
+  "type": "fact",
+  "before": "The Church Commissioners publish accounts for an £11.1bn endowment",
+  "after": "The Church Commissioners publish accounts for an £11.6bn endowment (end 2025)",
+  "reason": "Item 9: narration.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D015",
+  "scope": "md",
+  "type": "receipt",
+  "before": "[GOVERNMENT REPORT — independent review]",
+  "after": "[INVESTIGATIVE REPORT — church-commissioned, independent]",
+  "reason": "Item 6: the Makin Review was commissioned by the church and is independent of it, not a government report.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D016",
+  "scope": "md",
+  "type": "receipt",
+  "before": "records not shared with the authorities. [GOVERNMENT REPORT]",
+  "after": "records not shared with the authorities. [GOVERNMENT REPORT] [INVESTIGATIVE REPORT — church-commissioned]",
+  "reason": "Item 6: IICSA is a government (statutory) report; Makin is church-commissioned.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D017",
+  "scope": "md",
+  "type": "receipt",
+  "before": "and by the Makin Review [3]. [GOVERNMENT REPORT]",
+  "after": "and by the Makin Review [3]. [GOVERNMENT REPORT] [INVESTIGATIVE REPORT — church-commissioned]",
+  "reason": "Item 6.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D018",
+  "scope": "md",
+  "type": "receipt",
+  "before": "knew and did not act. | [GOVERNMENT REPORT] |",
+  "after": "knew and did not act. | [GOVERNMENT REPORT] [INVESTIGATIVE REPORT — church-commissioned] |",
+  "reason": "Item 6.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D019",
+  "scope": "md",
+  "type": "receipt",
+  "before": "as IICSA [1] and the Makin Review [3] found. [GOVERNMENT REPORT]",
+  "after": "as IICSA [1] and the Makin Review [3] found. [GOVERNMENT REPORT] [INVESTIGATIVE REPORT — church-commissioned]",
+  "reason": "Item 6.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D020",
+  "scope": "md",
+  "type": "fact",
+  "before": "They announced in October 2025 that they would leave the Communion and form a rival network [12].",
+  "after": "In October 2025 the chair of the GAFCON primates' council announced that its members would leave the Communion and form a rival network [12]; a week later, few provinces had publicly confirmed it [36].",
+  "reason": "Item 7: the statement was the chair's; ENS found little public support from other provinces a week later (F7).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D021",
+  "scope": "md",
+  "type": "fact",
+  "before": "primates (the senior archbishops of provinces) announce a break with the Communion (16 Oct 2025) [12] | The office has its first woman holder, and the Communion splits. |",
+  "after": "primates (the senior archbishops of provinces): their council's chair announces that its members will leave the Communion (16 Oct 2025) [12]; few provinces had confirmed it a week later [36] | The office has its first woman holder, and the Communion's unity is put in question. |",
+  "reason": "Item 7: an announcement, not a completed split.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D022",
+  "scope": "md",
+  "type": "fact",
+  "before": "in October 2025 GAFCON announced it would leave the Communion and form a rival network (sections 5 and 6).",
+  "after": "in October 2025 the chair of GAFCON's primates' council announced that its members would leave the Communion and form a rival network (sections 5 and 6).",
+  "reason": "Item 7: same, in loop 7 step 4.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D023",
+  "scope": "md",
+  "type": "fact",
+  "before": "4. The Commissioners traced part of the endowment to the slave trade. Who decides whether £100m is the right answer?",
+  "after": "4. The Commissioners traced part of the endowment to the slave trade and accepted a target of £1bn, to be raised with others. Who decides how much of it comes from the endowment, and who it reaches?",
+  "reason": "Item 8: the question was overtaken by section 9.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D024",
+  "scope": "narration",
+  "type": "fact",
+  "before": "an oversight group's call in 2024 for a £1bn target, which the Commissioners accepted [7].",
+  "after": "an oversight group's call in 2024 for a £1bn target, to be pursued in partnership with others, which the Commissioners accepted [7].",
+  "reason": "Item 8: narration example matched.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D025",
+  "scope": "md",
+  "type": "fact",
+  "before": "an independent oversight group urged a £1bn target, which the Commissioners accepted [7].",
+  "after": "an independent oversight group urged a £1bn target, to be pursued in partnership with others, which the Commissioners accepted [7].",
+  "reason": "Item 8: the target is not a commitment from the endowment alone (F16).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D026",
+  "scope": "md",
+  "type": "fact",
+  "before": "- In July 2025 Synod approved a £150m independent redress scheme for abuse survivors [9].",
+  "after": "- In July 2025 Synod approved a £150m independent redress scheme for abuse survivors [9]. It is expected to open in the latter part of 2026, once remaining parliamentary steps are complete [34].",
+  "reason": "Item 11: scheme is approved but not yet open (F10).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D027",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **Redress:** Synod approved a £150m independent redress scheme for abuse survivors in July 2025 [9].",
+  "after": "- **Redress:** Synod approved a £150m independent redress scheme for abuse survivors in July 2025 [9]; it is expected to open in the latter part of 2026 [34].",
+  "reason": "Item 11.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D028",
+  "scope": "md",
+  "type": "fact",
+  "before": "| £150m redress scheme for abuse survivors | Survivors and Synod [9] | 2025 |",
+  "after": "| £150m redress scheme for abuse survivors (approved 2025; expected to open in late 2026 [34]) | Survivors and Synod [9] | 2025 |",
+  "reason": "Item 11: scheme not yet open.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D029",
+  "scope": "md",
+  "type": "fact",
+  "before": "and use the redress scheme Synod approved in 2025 [9].",
+  "after": "and, once it opens (expected in the latter part of 2026), apply to the national redress scheme Synod approved in 2025 [9][34].",
+  "reason": "Item 11: do not send survivors to a scheme that may not yet take applications.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D030",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **Chair now:** The chair is now held by Archbishop Sarah Mullally [13] and by the governance of the new national safeguarding charity [8].",
+  "after": "- **Chair now:** The chair is now held by Archbishop Sarah Mullally [13] and by the governance of the new national safeguarding charity [8]. The charity, the Church of England Independent Safeguarding Authority, was still in the planning phase after a public consultation that closed on 17 May 2026 [35]; this page records no start date.",
+  "reason": "Item 12: readers should not assume the independent body is already handling cases (F9).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D031",
+  "scope": "md",
+  "type": "fact",
+  "before": "Synod approves a new national safeguarding charity with a majority-independent board [8] |",
+  "after": "Synod approves a new national safeguarding charity with a majority-independent board [8]; its design went to public consultation until 17 May 2026 [35] |",
+  "reason": "Item 12.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D032",
+  "scope": "md",
+  "type": "fact",
+  "before": "and the new safeguarding body approved in 2026 [8].",
+  "after": "and the new safeguarding body approved in 2026, which is still being designed [8][35].",
+  "reason": "Item 12.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D033",
+  "scope": "md",
+  "type": "fact",
+  "before": "Civic standing, earned through schools, chaplaincies and food banks, sustains establishment privilege.",
+  "after": "Civic standing, earned through schools, sustains establishment privilege.",
+  "reason": "Item 13: chaplaincies and food banks are recorded nowhere on the page (F27).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D034",
+  "scope": "md",
+  "type": "fact",
+  "before": "The persecution loop is largely absent in England. In the Communion, persecution of Anglicans elsewhere is real and is invoked in realignment disputes.",
+  "after": "The persecution loop is largely absent in England.",
+  "reason": "Item 13: the persecution claim has no source on the page (F26).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D035",
+  "scope": "md",
+  "type": "fact",
+  "before": "5. The persecution of Anglicans elsewhere is invoked in these disputes; this step is recorded only in this loop's summary, with no source on this page.",
+  "after": "5. Whether persecution of Anglicans elsewhere is invoked in these disputes is not recorded on this page.",
+  "reason": "Item 13: marks the gap instead of asserting it.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D036",
+  "scope": "md",
+  "type": "fact",
+  "before": "It compounds with the provinces that refuse to ordain women at all.",
+  "after": "It compounds with the Communion provinces that do not ordain women (section 11).",
+  "reason": "Item 14: aligned with section 11's wording; a count of provinces was not established.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D037",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Who's in charge | The monarch is Supreme Governor (the formal head) of the Church of England. |",
+  "after": "| Who's in charge | The monarch is Supreme Governor (the formal head) of the Church of England; the Archbishop of Canterbury leads the church and is the Communion's focus of unity. |",
+  "reason": "Item 15: names the operative apex.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D038",
+  "scope": "md",
+  "type": "fact",
+  "before": "educate over a million children in about 4,600 schools",
+  "after": "educate about a million children in about 4,600 schools",
+  "reason": "Item 16: the source says approximately 1 million (F17).",
+  "count": 2,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D039",
+  "scope": "md",
+  "type": "fact",
+  "before": "educating over a million children",
+  "after": "educating about a million children",
+  "reason": "Item 16.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D040",
+  "scope": "md",
+  "type": "fact",
+  "before": "The descendants of enslaved people whose labor generated part of the endowment pay.",
+  "after": "The descendants of enslaved Africans pay: the South Sea Company, in which Queen Anne's Bounty invested, traded them, and that investment lies behind part of the endowment's historic returns [6].",
+  "reason": "Item 17: matches what the cited research found.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D041",
+  "scope": "md",
+  "type": "fact",
+  "before": "| 1919–70 | Church Assembly, then General Synod (the church's national legislature) |",
+  "after": "| 1919–70 | Church Assembly (1919), then General Synod (1970; the church's national legislature) |",
+  "reason": "Item 18: dates given.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D042",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **apex:** The Archbishop of the Church of Uganda leads the church.",
+  "after": "- **apex:** The Archbishop of the Church of Uganda, Stephen Kaziimba Mugalu, leads the church and issued the 2023 statement welcoming the Act [15].",
+  "reason": "Item 19: office-holder named (F15).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D043",
+  "scope": "md",
+  "type": "receipt",
+  "before": "| \"A church for everyone.\" | Clergy in same-sex marriages are refused licences. | [COURT RECORD] |",
+  "after": "| \"A church for everyone.\" | Clergy in same-sex marriages are refused licences [14]. | [COURT RECORD] |",
+  "reason": "Item 20: citation added.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D044",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 2 | Weaponized generosity | Contested | Church school places and pastoral help can create obligation. |",
+  "after": "| 2 | Weaponized generosity | Codified | Church school admissions criteria are published and can favor worshipping families (section 11), which ties a school place to attendance; pastoral help can also create obligation, more softly. |",
+  "reason": "Item 4: published admissions criteria are the basis for Codified.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D045",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 4 | Hoovering | Cultural (weak) | Families who come",
+  "after": "| 4 | Hoovering | Cultural | Weak here: families who come",
+  "reason": "Item 4: qualifier moved out of the chip.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D046",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 16 | Flying monkeys | Cultural (weak) | Congregations show",
+  "after": "| 16 | Flying monkeys | Cultural | Weak here: congregations show",
+  "reason": "Item 4: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D047",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 23 | Infantilization | Cultural (weak) | A culture of deference prevails.",
+  "after": "| 23 | Infantilization | Cultural | Weak here: a culture of deference prevails.",
+  "reason": "Item 4: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D048",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 6 | Gaslighting | Documented | Survivors were told processes had been followed when they had not (per the reviews). |",
+  "after": "| 6 | Gaslighting | Contested | IICSA found the church failed to take abuse seriously [1]; that survivors were told processes had been followed when they had not is not recorded on this page. |",
+  "reason": "Item 4: no named review supported the claim; regraded to what the page can support.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D049",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 13 | Normalization | Documented | Deference to senior clergy was normalized. |",
+  "after": "| 13 | Normalization | Documented | Deference to senior clergy was normalized (IICSA [1]; Gibb [4]). |",
+  "reason": "Item 4: receipt added.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D050",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 17 | Smear campaign | Contested |",
+  "after": "| 17 | Smear campaign | Documented |",
+  "reason": "Item 4: the row cites IICSA [1][4] on survivors being disbelieved.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D051",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 19 | Manufactured consent | Contested | Clergy sign assent to doctrine and discipline with the house attached. |",
+  "after": "| 19 | Manufactured consent | Codified | Clergy must make the Declaration of Assent to doctrine and discipline, with the house attached. |",
+  "reason": "Item 4: assent is a written requirement.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D052",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 21 | Learned helplessness | Documented | Survivors made repeated complaints that failed (IICSA [1]). |",
+  "after": "| 21 | Learned helplessness | Contested | Survivors made repeated complaints that failed (IICSA [1]); the helplessness the technique names is not an inquiry finding. |",
+  "reason": "Item 4: the complaints are documented, the psychological state is not.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D053",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 22 | Benevolent control | Taught | Pastoral oversight extends into clergy lives. |",
+  "after": "| 22 | Benevolent control | Codified | Oversight of clergy lives runs through the bishop's licence and the tied house under Common Tenure. |",
+  "reason": "Item 4: the basis is Common Tenure, not teaching.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D054",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 25 | Spiritual bypassing | Documented | Forgiveness language was urged on survivors (per the reviews). |",
+  "after": "| 25 | Spiritual bypassing | Documented | IICSA recorded evidence that some victims may have been pressured by church workers to forgive their abuser [1]. |",
+  "reason": "Item 4: review named and cited.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D055",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 26 | Financial control | Codified (clergy) / weak (laity) | It works through the parish share and the tied house. |",
+  "after": "| 26 | Financial control | Codified | For clergy it is codified, working through the parish share and the tied house; for laity it is weak. |",
+  "reason": "Item 4: qualifier moved out of the chip.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D056",
+  "scope": "md",
+  "type": "meta",
+  "before": "checked: 2026-09-27",
+  "after": "checked: 2026-10-03",
+  "reason": "Text rechecked after the discrepancy fixes.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D057",
+  "scope": "md",
+  "type": "meta",
+  "before": "| Last checked | 2026-09-27 |",
+  "after": "| Last checked | 2026-10-03 |",
+  "reason": "Same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ANG-D058",
+  "scope": "md",
+  "type": "changelog",
+  "before": "- **2026-09-27:** Added Branches,",
+  "after": "- **2026-10-03:** Corrected the removal rules for the Archbishop of Canterbury (a written procedure exists), the church's size and money figures (£11.6bn at end 2025), the description of the GAFCON announcement, and the status of the redress scheme and the new safeguarding charity, neither of which is open yet. Fixed source labels and links, the question about the slavery fund, two loop summaries and several technique grades; added six sources.\n- **2026-09-27:** Added Branches,",
+  "reason": "Patch note for this round.",
+  "count": 1,
+  "status": "proposed"
  }
 ]
