@@ -1,3 +1,5 @@
+Status 2026-10-03: fixes applied, see islam-FIXLOG.md (deferred items remain open).
+
 # DISCREPANCIES — Islam, awaiting the owner's decision
 
 Format: **[Location]** what is wrong → what it should be (proposed wording) → why it matters. None of the items below has been changed in the text. Each one either touches the frozen layer (numbers, receipts, grades, source entries, case tags, proper nouns, shared help-line data) or makes a claim that the wording pass may not alter.

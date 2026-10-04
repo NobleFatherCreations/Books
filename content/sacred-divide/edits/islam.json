@@ -1925,5 +1925,795 @@
   "reason": "Spelling brought into line with the page ('Qur'an').",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "ISL-D001",
+  "scope": "md",
+  "type": "source",
+  "before": "39. Constitution of Morocco (2011), Article 41 — the King as Amir al-Mu'minin. https://www.constituteproject.org/constitution/Morocco_2011",
+  "after": "39. Constitution of Morocco (2011), Article 41 — the King as Amir al-Mu'minin. https://www.constituteproject.org/constitution/Morocco_2011\n40. RCTI+, \"Muktamar ke-35 NU: pemilihan ketum disepakati lewat mekanisme AHWA\" (30 Aug 2026; 401 of 552 votes for the council method, 150 against, 1 invalid) · Metro TV, \"KH Abdul Hakim Mahfudz resmi terpilih jadi Ketum PBNU 2026–2031\" (nine AHWA members chose him by consensus). https://www.rctiplus.com/news/detail/inews/5462048/muktamar-ke-35-nu--pemilihan-ketum-disepakati-lewat-mekanisme-ahwa · https://www.metrotvnews.com/play/kqYCdePx-kh-abdul-hakim-mahfudz-resmi-terpilih-jadi-ketum-pbnu-2026-2031\n41. Fulcrum, \"Indonesia's Nahdlatul Ulama in Turmoil\" (Dec 2025) — the Supreme Council (Syuriyah) ousted chair Yahya Cholil Staquf in late November 2025; he refused to step down. https://fulcrum.sg/article/commentaries/indonesias-nahdlatul-ulama-in-turmoil/\n42. Pew Research Center, \"7 key changes in the global religious landscape\" (2 Apr 2015) — Muslims near parity with Christians by 2050 · Anadolu Agency on Pew's 2017 update — Muslims projected to outnumber Christians after 2070. https://www.pewresearch.org/short-reads/2015/04/02/7-key-changes-in-the-global-religious-landscape/ · https://aa.com.tr/en/world/muslims-projected-to-outnumber-christians-after-2070/61027\n43. *Encyclopaedia Britannica*, \"Saud dynasty\" — the 1744 alliance between Muhammad ibn Saud and Muhammad ibn Abd al-Wahhab at Diriyah. https://www.britannica.com/topic/Saud-dynasty\n44. Abdullah Saeed and Hassan Saeed, *Freedom of Religion, Apostasy and Islam* (Ashgate, 2004). https://www.cambridge.org/core/journals/ecclesiastical-law-journal/article/freedom-of-religion-apostasy-and-islam-by-abdullah-saeed-and-hassan-saeed-ashgate-publishing-ltd-2004-v-227pp-1750-paperback-isbn-0754630838/53CB90ECA742A648C1D59AE94DEADBF4\n45. Ziba Mir-Hosseini, Mulki Al-Sharmani and Jana Rumminger (eds), *Men in Charge? Rethinking Authority in Muslim Legal Tradition* (Oneworld, 2015) — qiwamah and wilayah. https://www.musawah.org/wp-content/uploads/2022/01/A-Feminist-Readers-Guide-MIC-Print.pdf\n46. Jakob Skovgaard-Petersen, *Defining Islam for the Egyptian State: Muftis and Fatwas of the Dar al-Ifta* (Brill, 1997). https://www.cambridge.org/core/journals/international-journal-of-middle-east-studies/article/jakob-skovgaardpetersen-defining-islam-for-the-egyptian-state-muftis-and-fatwas-of-the-dar-alifta-social-economic-and-political-studies-of-the-middle-east-and-asia-leiden-e-j-brill-1997-pp-431/D224929D77CE59BA7C3054F52A1024DB\n47. Hamideh Sedghi, *Women and Politics in Iran: Veiling, Unveiling, and Reveiling* (Cambridge University Press, 2007). https://www.cambridge.org/core/product/identifier/9780511510380/type/book\n48. Pakistan, Constitution (Second Amendment) Act 1974 — Ahmadis not Muslims for the purposes of the Constitution and law. https://pakistani.org/pakistan/constitution/amendments/2amendment.html\n49. Independent Inquiry into Child Sexual Abuse, *Child protection in religious organisations and settings: Investigation Report* (Sept 2021) — abuse confirmed in mosques and madrasahs; under-reporting; supplementary schools not subject to compulsory minimum standards. https://www.iicsa.org.uk/reports-recommendations/publications/investigation/cp-religious-organisations-settings/executive-summary\n50. Doğruluk Payı, Diyanet 2023 budget ₺35.91bn (initial budget-law allocation). https://www.dogrulukpayi.com/dogruluk-kontrolu/diyanet-isleri-baskanligi-nin-2023-icin-ongorulen-butcesi-35-milyar-910-milyon-653-bin-tl-mi\n51. BirGün, \"Diyanet'in ordusu büyüyor\" — Diyanet personnel 140,185 in 2023; over 140,000 in December 2024. https://www.birgun.net/haber/diyanetin-ordusu-buyuyor-2025te-personele-110-milyarlik-kaynak-585663\n52. Morocco World News, \"Approved reforms in Morocco's Family Code\" (Dec 2024) · lesmre.com, \"Moudawana reform 2026: 8 key changes\" — marriage age stays 18, exceptions at 17 with judicial approval; as of 28 Sept 2026 the text had not been published in the Official Bulletin and the 2004 code remains in force. https://www.moroccoworldnews.com/2024/12/367184/approved-reforms-in-moroccos-family-code-whats-changing · https://www.lesmre.com/en/actualites/moudawana-reform-2026-8-key-changes-mre\n53. UK Government, \"Safeguarding and protecting people for charities and trustees\" (Charity Commission; updated 1 June 2022) — trustees must take reasonable steps to protect from harm people who come into contact with the charity. https://www.gov.uk/guidance/safeguarding-duties-for-charity-trustees\n54. Charity Commission, \"Regulator disqualifies trustee after finding Brighton Mosque poorly managed\" — inquiry opened 3 Aug 2022 after a former trustee's terrorism conviction over a speech at the mosque (Nov 2020); Dr Karim Aboutayab disqualified for 4 years 6 months from 10 July 2024. https://www.gov.uk/government/news/regulator-disqualifies-trustee-after-finding-brighton-mosque-poorly-managed\n55. Wikipedia, \"Ahmed el-Tayeb\" — Grand Imam since 10 March 2010, appointed by presidential decree. https://en.wikipedia.org/wiki/Ahmed_el-Tayeb",
+  "reason": "New sources 40-55 for the fixes below (items 2, 8, 10-12, 13, 16-19, 21, 22).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D002",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **Nahdlatul Ulama.** The world's largest Muslim organization, it elects its leaders in contested votes [25].",
+  "after": "- **Nahdlatul Ulama.** The world's largest Muslim organization, it replaced its chair in a contested vote in 2021 [25]. In November 2025 its supreme council declared the elected chair dismissed, which he refused to accept [41]. In 2026 its congress voted 401 to 150 to have a council of nine senior scholars choose the chair instead of a delegate vote [40].",
+  "reason": "P1-2: the present-tense claim was out of date (F16).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D003",
+  "scope": "md",
+  "type": "fact",
+  "before": "Nahdlatul Ulama and Muhammadiyah are mass membership organisations with elected leadership, together representing over a hundred million people.",
+  "after": "Nahdlatul Ulama and Muhammadiyah are mass membership organisations, together representing over a hundred million people.",
+  "reason": "P1-2: 'elected leadership' no longer holds for NU.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D004",
+  "scope": "md",
+  "type": "fact",
+  "before": "NU and Muhammadiyah leadership elections are genuinely contested and have produced reformist leadership. Both organisations",
+  "after": "Nahdlatul Ulama chose its chair in a contested vote in 2021 [25]. In November 2025 its supreme council declared that chair dismissed, and in 2026 its congress moved the choice of chair from a delegate vote to a council of nine senior scholars [40][41]. Both organisations",
+  "reason": "P1-2: replaces the present-tense 'genuinely contested' claim with the dated record.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D005",
+  "scope": "md",
+  "type": "fact",
+  "before": "The world's largest Muslim population runs its two largest religious organisations by membership election. That fact belongs",
+  "after": "The world's largest Muslim population has two mass religious organisations that choose their leaders through congresses of their members, and one of them has just moved the choice of chair from delegates to a council of senior scholars. That belongs",
+  "reason": "P1-2: tell kept, in the owner's proposed wording.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D006",
+  "scope": "md",
+  "type": "fact",
+  "before": " Islamophobes have never once been the source of an internal critique.",
+  "after": "",
+  "reason": "P1-3: unsourced universal negative, circular; the sentence before it makes the point.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D007",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Contested]] That faith increases and decreases is orthodox teaching; whether a community meters its warmth to visible piety is local practice, and the reading is disputed.",
+  "after": "**Evidence grade.** [[Cultural]] Communal warmth that rises and falls with visible piety is community practice with no written rule behind it. That faith increases and decreases is orthodox teaching, and whether communities use that to control is disputed.",
+  "reason": "P1-4: regraded Contested to Cultural; the entry describes community practice (item 8).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D008",
+  "scope": "md",
+  "type": "grade",
+  "before": "which is why no institution can be held to it. *(sourced)*",
+  "after": "which is why no institution can be held to it.",
+  "reason": "P1-4: removed *(sourced)*; the note names no document (item 16).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D009",
+  "scope": "md",
+  "type": "grade",
+  "before": "adult reconsideration carries family rather than institutional cost. *(sourced)*",
+  "after": "adult reconsideration carries family rather than institutional cost.",
+  "reason": "P1-4: removed *(sourced)*; the note names no document (item 19).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D010",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] Compulsory dress enforced by state morality police in specific jurisdictions. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] Family and community control of clothing, marriage and friendships, presented as care, is practice that no body sets. State enforcement of dress, where it exists, is recorded in sections 11 and 14 and bears on only part of the picture.",
+  "reason": "P1-4: regraded Codified to Cultural; every bullet describes family and community control (item 22).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D011",
+  "scope": "md",
+  "type": "grade",
+  "before": "state-administered zakat boards operate under published regulation. *(sourced)*",
+  "after": "state-administered zakat boards operate under published regulation.",
+  "reason": "P1-4: removed *(sourced)*; the note names no document (item 26).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D012",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] Apostasy and blasphemy penalties in the penal codes of specific states — statutory, published, and jurisdiction-specific. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] Family withdrawal and exclusion after doubt or leaving are community practice with no written rule behind them. Where apostasy is a statutory offence (sections 8 and 15), the penalty bears on only one bullet.",
+  "reason": "P1-4: regraded Codified to Cultural; the entry describes family withdrawal and exclusion (item 28).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D013",
+  "scope": "md",
+  "type": "grade",
+  "before": "penal codes and ministry regulations are public documents. *(sourced)*",
+  "after": "penal codes and ministry regulations are public documents.",
+  "reason": "P1-4: removed *(sourced)*; the note names no document (item 30).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D014",
+  "scope": "md",
+  "type": "grade",
+  "before": "| Evidence | Six of the 30 techniques are sourced to a named document. The grades are Contested 18, Cultural 5, Codified 4 and Taught 3. |",
+  "after": "| Evidence | None of the 30 techniques is sourced to a named document. The grades are Contested 17, Cultural 8, Codified 2 and Taught 3. |",
+  "reason": "Tally after the regrades and removed *(sourced)* markers (P1-4).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D015",
+  "scope": "md",
+  "type": "tag",
+  "before": "- **tactics:** 26, 7",
+  "after": "- **tactics:** 23",
+  "reason": "P2-5: the case records a husband's unilateral divorce; Financial Control and Double Bind are not recorded. 23 (Infantilization) is the one the record supports; 22 is not in the case text.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D016",
+  "scope": "md",
+  "type": "tag",
+  "before": "- **tactics:** 26\n",
+  "after": "- **tactics:** 18\n",
+  "reason": "P2-5: the inquiry concerned governance, not money.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D017",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **what:** The Charity Commission's statutory inquiry into the Brighton Mosque and Muslim Community Centre disqualified a trustee [10].",
+  "after": "- **what:** The Charity Commission opened a statutory inquiry into the Brighton Mosque and Muslim Community Centre in August 2022, after a former trustee was convicted on terrorism charges over a speech made at the mosque in November 2020. In July 2024 it disqualified another trustee, Karim Aboutayab, for four and a half years for failing to resolve a governance dispute within the charity [10][54].",
+  "reason": "P2-5 / E4: says why the inquiry opened and why the trustee was disqualified.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D018",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **record:** Charity Commission inquiry report (2024) [10]",
+  "after": "- **record:** Charity Commission inquiry report (published January 2025) [10]",
+  "reason": "P2-5: the report was published in January 2025 (F14).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D019",
+  "scope": "md",
+  "type": "fact",
+  "before": "being asked to answer for a fifth of humanity.",
+  "after": "being asked to answer for a quarter of humanity.",
+  "reason": "P2-6: source [22] gives 25.6%.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D020",
+  "scope": "md",
+  "type": "fact",
+  "before": "asked to answer for a billion people while",
+  "after": "asked to answer for two billion people while",
+  "reason": "P2-6: the page's own figure is about 2 billion.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D021",
+  "scope": "md",
+  "type": "fact",
+  "before": "The main branches are Sunni (~85–90%)",
+  "after": "The main branches are Sunni (~87–90%)",
+  "reason": "P2-7: matches the table and source [23].",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D022",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Chosen by / removable by | Since 2012, elected by al-Azhar's Council of Senior Scholars and confirmed by presidential decree / Nobody",
+  "after": "| Chosen by / removable by | Appointed by presidential decree in 2010; since 2012 the post has been filled by election by al-Azhar's Council of Senior Scholars, confirmed by presidential decree / Nobody",
+  "reason": "P2-8: the procedure beside his name was not the one used for the current holder.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D023",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Since 2012 the Grand Imam has been elected by al-Azhar's Council of Senior Scholars and confirmed by presidential decree. |",
+  "after": "| Sheikh Ahmed el-Tayeb was appointed by presidential decree in 2010 [55]. Since 2012 the Grand Imam has been elected by al-Azhar's Council of Senior Scholars and confirmed by presidential decree [13]. |",
+  "reason": "P2-8 / E5.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D024",
+  "scope": "md",
+  "type": "fact",
+  "before": "Several states maintain criminal penalties for leaving it, and the scholars on those states' payrolls do not say otherwise.",
+  "after": "Several states maintain criminal penalties for leaving it, and this page records no case of the scholars on those states' payrolls calling for their repeal.",
+  "reason": "P2-9: universal negative about every state-paid scholar; now limited to what the page records.",
+  "count": 2,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D025",
+  "scope": "md",
+  "type": "fact",
+  "before": "and why do the scholars on those states' payrolls not say so?",
+  "after": "and what would it take for the scholars on those states' payrolls to say so?",
+  "reason": "P2-9: the question assumed the universal negative.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D026",
+  "scope": "narration",
+  "type": "fact",
+  "before": "why the scholars paid by those states do not point out the contradiction.",
+  "after": "what it would take for the scholars paid by those states to point out the contradiction.",
+  "reason": "P2-9: narration follows the question.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D027",
+  "scope": "narration",
+  "type": "fact",
+  "before": "and the scholars on those states' payrolls do not say otherwise.",
+  "after": "and this page records no case of the scholars on those states' payrolls calling for their repeal.",
+  "reason": "P2-9: narration example follows the table row.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D028",
+  "scope": "md",
+  "type": "fact",
+  "before": "“No one is executed for belief, only for sedition.”",
+  "after": "Typically put as: no one is executed for belief, only for sedition.",
+  "reason": "P2-10: unattributed quotation marks removed; the cell is a typical paraphrase.",
+  "count": 2,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D029",
+  "scope": "md",
+  "type": "fact",
+  "before": "“That's family and culture, not Islam.”",
+  "after": "Typically put as: that's family and culture, not Islam.",
+  "reason": "P2-10: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D030",
+  "scope": "md",
+  "type": "fact",
+  "before": "“Anyone can believe what they want.”",
+  "after": "Typically put as: anyone can believe what they want.",
+  "reason": "P2-10: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D031",
+  "scope": "md",
+  "type": "fact",
+  "before": "“It is a warning given out of love.”",
+  "after": "Typically put as: it is a warning given out of love.",
+  "reason": "P2-10: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D032",
+  "scope": "md",
+  "type": "fact",
+  "before": "Section 15 records the eternal-punishment framing as \"a warning given out of love\", so",
+  "after": "Section 15 records the eternal-punishment framing as typically put as a warning given out of love, so",
+  "reason": "P2-10: loop 2 quoted the cell as a direct quotation.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D033",
+  "scope": "md",
+  "type": "fact",
+  "before": "It was a specific bargain between two named men in one place.",
+  "after": "It was a specific bargain between two named men in one place [43].",
+  "reason": "P2-11 / F33: sources the pact (Britannica dates it 1744).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D034",
+  "scope": "md",
+  "type": "fact",
+  "before": "**Why it matters.** It was the single most consequential religious-political contract of the modern era. Everything about state-appointed scholarship on this page runs back to a deal, which means it was a choice, which means it could have been otherwise.",
+  "after": "**Why it matters.** Saudi Arabia's state-appointed scholarship runs back to this deal, which means it was a choice, which means it could have been otherwise.",
+  "reason": "P2-11: unsourced superlative removed; the overreach to all state-appointed scholarship narrowed to Saudi Arabia.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D035",
+  "scope": "md",
+  "type": "fact",
+  "before": "closer to treason than to belief. [ACADEMIC SOURCE]",
+  "after": "closer to treason than to belief. [ACADEMIC SOURCE] [44]",
+  "reason": "P2-12 / E7: numbered source.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D036",
+  "scope": "md",
+  "type": "fact",
+  "before": "They acquire a tool for imprisoning critics under religious cover — and it is used against Muslims, minorities, and personal enemies far more than against actual apostates. [GOVERNMENT REPORT]",
+  "after": "They acquire a tool for imprisoning critics under religious cover. Blasphemy charges have also been brought against minorities and in personal quarrels, as in the case of Asia Bibi, acquitted by Pakistan's Supreme Court in 2018 [1]. [COURT RECORD]",
+  "reason": "P2-12 / F28: the unsourced comparative ('far more than against actual apostates') replaced by what the cited judgment supports.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D037",
+  "scope": "md",
+  "type": "fact",
+  "before": "no independent legal or economic standing. [ACADEMIC SOURCE]",
+  "after": "no independent legal or economic standing. [ACADEMIC SOURCE] [45]",
+  "reason": "P2-12 / E7.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D038",
+  "scope": "md",
+  "type": "fact",
+  "before": "completed the process. [ACADEMIC SOURCE]",
+  "after": "completed the process. [ACADEMIC SOURCE] [46]",
+  "reason": "P2-12 / E7.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D039",
+  "scope": "md",
+  "type": "fact",
+  "before": "principally post-1979. [ACADEMIC SOURCE]",
+  "after": "principally post-1979. [ACADEMIC SOURCE] [47]",
+  "reason": "P2-12 / E7.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D040",
+  "scope": "md",
+  "type": "fact",
+  "before": "including to devout Iranians. [GOVERNMENT REPORT]",
+  "after": "including to devout Iranians. [GOVERNMENT REPORT] [15]",
+  "reason": "P2-12: cites the UN fact-finding finding.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D041",
+  "scope": "md",
+  "type": "cites",
+  "before": "Sources for this section: [15]\n",
+  "after": "Sources for this section: [1] [15] [44] [45] [46] [47]\n",
+  "reason": "P2-12: section cites now include the new sources.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D042",
+  "scope": "narration",
+  "type": "fact",
+  "before": "The genealogy section records that these apostasy laws are used against critics, minorities and personal enemies far more than against actual apostates.",
+  "after": "The genealogy section records that these laws give governments a tool for imprisoning critics, and that blasphemy charges have also been brought against minorities and in personal quarrels.",
+  "reason": "P2-12: narration repeated the unsourced comparative.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D043",
+  "scope": "md",
+  "type": "fact",
+  "before": "**Last time the chair ran.** Abuse cases in religious schools were handled as community matters, with the teacher relocated rather than reported.",
+  "after": "**Last time the chair ran.** No single case is named on this page. The pattern observed in religious schools is that abuse is handled as a community matter and the teacher relocated rather than reported. [PATTERN OBSERVED]",
+  "reason": "P2-13 / E9: the row named no case and no source; relabelled as an observed pattern.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D044",
+  "scope": "md",
+  "type": "fact",
+  "before": "**Who holds the chair now.** Mosque committees and state religious ministries hold it, with no safeguarding requirement.",
+  "after": "**Who holds the chair now.** Mosque committees and state religious ministries hold it. In England and Wales the trustees of a mosque registered as a charity have legal safeguarding duties [53], but supplementary schools, including madrasahs, are not subject to compulsory minimum standards [49]. This page records no equivalent rule for unregistered mosque committees or for state ministries.",
+  "reason": "P2-13 / F29: 'no safeguarding requirement' overstated for UK charity mosques.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D045",
+  "scope": "md",
+  "type": "fact",
+  "before": "have no safeguarding requirement (section 14).",
+  "after": "face no safeguarding requirement that this page records for unregistered mosques or ministries (section 14).",
+  "reason": "P2-13: loop 6 step 4 follows the row.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D046",
+  "scope": "md",
+  "type": "fact",
+  "before": "Section 14 records the last time the chair ran: abuse cases in religious schools were handled as community matters, with the teacher relocated rather than reported.",
+  "after": "Section 14 records the pattern observed in religious schools: abuse handled as a community matter, with the teacher relocated rather than reported. It names no single case.",
+  "reason": "P2-13: loop 6 example follows the row.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D047",
+  "scope": "md",
+  "type": "fact",
+  "before": "Zakat and khums (a one-fifth levy on surplus income, paid in Shia Islam) are fixed obligations, administered by boards and offices whose accounts a payer can rarely audit, funding the institutions that teach the obligation.",
+  "after": "Zakat is a fixed obligation, administered where the state runs it by boards whose distribution criteria a payer can rarely trace, and the same states pay the preachers who teach the obligation.",
+  "reason": "P2-14 / X5: khums belongs to the Shia volume and no step records it; summary now matches the steps.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D048",
+  "scope": "md",
+  "type": "fact",
+  "before": "Hifz schooling and free madrasa education produce adults with religious credentials and no employable alternative.",
+  "after": "Hifz schooling begins very young and, in some madrasa systems, substitutes for general education, and families with no affordable alternative send the next generation to the same schools.",
+  "reason": "P2-14: 'free madrasa education' and 'no employable alternative' are recorded nowhere; summary now matches the steps.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D049",
+  "scope": "md",
+  "type": "fact",
+  "before": "Volunteer labor builds the mosque, the board holds the title, and the donor selects the imam.",
+  "after": "Community fundraising builds the mosque, the committee holds it and hires the imam, and major donors gain influence over the imam.",
+  "reason": "P2-14: 'the donor selects the imam' overstated §18; summary now matches the steps.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D050",
+  "scope": "md",
+  "type": "fact",
+  "before": "An imam is quietly moved, the committee issues a statement, and no reporting policy is created.",
+  "after": "A case is handled as a community matter, the teacher is relocated rather than reported, and no reporting policy follows.",
+  "reason": "P2-14: 'an imam is quietly moved' and 'issues a statement' are recorded nowhere; summary now matches the steps.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D051",
+  "scope": "md",
+  "type": "layout",
+  "before": "::: card\n#### Aid to policy leverage\n\n**Source.** Donor congregations and public grants\n\n**Path.** Faith-based development organization → Recipient government or community → Legislative and protocol influence\n\n**Disclosed.** Programme outcomes\n\n**Hidden.** Conditions and advocacy spending\n:::\n\n",
+  "after": "",
+  "reason": "P2-15: shared template card that nothing on this page supports; removed, nothing put in its place.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D052",
+  "scope": "md",
+  "type": "cites",
+  "before": "Sources for this section: [21]\n",
+  "after": "Sources for this section: [21] [24] [33]\n",
+  "reason": "P2-15 / P2-16: lists the sources the section cites.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D053",
+  "scope": "md",
+  "type": "cites",
+  "before": "Sources for this section: [19]\n",
+  "after": "Sources for this section: [1] [19]\n",
+  "reason": "P2-16: [1] supports the death-sentence blasphemy row.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D054",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Government religious ministries benefit, employing hundreds of thousands and controlling sermon content.",
+  "after": "- Government religious ministries benefit, employing very large numbers of clergy (Turkey's Diyanet alone had more than 140,000 personnel in 2023 [51]) and controlling sermon content.",
+  "reason": "P2-16 / F34: 'hundreds of thousands' was unsourced.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D055",
+  "scope": "md",
+  "type": "cites",
+  "before": "Sources for this section: [3]\n",
+  "after": "Sources for this section: [1] [15] [20] [33] [48] [51]\n",
+  "reason": "P2-16: [3] (Indonesian marriage law) supported none of the bullets.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D056",
+  "scope": "md",
+  "type": "cites",
+  "before": "Sources for this section: [4]\n",
+  "after": "Sources for this section: [4] [5] [15] [19] [20] [48] [49]\n",
+  "reason": "P2-16.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D057",
+  "scope": "md",
+  "type": "fact",
+  "before": "the Ahmadi (persecuted, and excluded by several states from the legal category of Muslim)",
+  "after": "the Ahmadi (persecuted, declared non-Muslim by Pakistan's law and restricted in Indonesia [4][48])",
+  "reason": "P2-17: the page documents only Pakistan and Indonesia.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D058",
+  "scope": "md",
+  "type": "cites",
+  "before": "Sources for this section: [4] [23]\n",
+  "after": "Sources for this section: [4] [23] [48]\n",
+  "reason": "P2-17.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D059",
+  "scope": "md",
+  "type": "fact",
+  "before": "and Morocco's 2004 code set it at 18 [6]. |",
+  "after": "and Morocco's 2004 code set it at 18 [6]. A reform approved in December 2024 would keep 18 and set the floor for exceptions at 17; as of 28 September 2026 its text had not been published, and the 2004 code remains in force [52]. |",
+  "reason": "P2-18 / E3: pending reform and its status.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D060",
+  "scope": "md",
+  "type": "fact",
+  "before": "and judges still grant underage-marriage exemptions. |",
+  "after": "and judges still grant underage-marriage exemptions. A 2024 revision would raise the exemption floor to 17 but was still unpublished on 28 September 2026 [52]. |",
+  "reason": "P2-18.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D061",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **documented:** Judges approved 81% of underage-marriage requests in 2019 [27].",
+  "after": "- **documented:** Judges approved 81% of underage-marriage requests in 2019 [27]. A revision approved in December 2024 would raise the exemption floor to 17; as of 28 September 2026 its text had not been published [52].",
+  "reason": "P2-18.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D062",
+  "scope": "md",
+  "type": "fact",
+  "before": "Islam has about 2 billion adherents (Pew, 2020 data) and is projected to be the largest religion later this century. [ACADEMIC SOURCE: Pew]",
+  "after": "Islam has about 2 billion adherents (Pew, 2020 data) [22] and, on Pew's earlier projections, is expected to be nearly as large as Christianity by 2050 and larger after about 2070 [42]. [ACADEMIC SOURCE: Pew]",
+  "reason": "P2-19 / F6: [22] does not contain the projection; Pew 2015 and 2017 added.",
+  "count": 2,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D063",
+  "scope": "md",
+  "type": "layout",
+  "before": "::: cites\nSources for this section: [3] [8] [9] [10] [11] [14] [16] [17] [19] [25]\n:::\n\n",
+  "after": "",
+  "reason": "P2-20: moves the section source line to the end so no card falls outside it.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D064",
+  "scope": "md",
+  "type": "layout",
+  "before": "on a Muslim woman's petition.\n:::\n",
+  "after": "on a Muslim woman's petition.\n:::\n\n::: cites\nSources for this section: [2] [3] [6] [8] [9] [10] [11] [14] [16] [17] [19] [21] [25] [27] [39] [40] [41] [52]\n:::\n",
+  "reason": "P2-20: the source line now follows all five cards.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D065",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **exit:** —\n",
+  "after": "- **exit:** Not recorded on this page.\n",
+  "reason": "P2-20: no exit data is given for Morocco.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D066",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Corporal punishment in some madrasa contexts, and abuse within residential religious schools, is documented and under-prosecuted. [INVESTIGATIVE REPORT]",
+  "after": "- Abuse in religious settings, including mosques and madrasahs, is documented. England and Wales's national inquiry into child sexual abuse found significant under-reporting and no compulsory minimum standards for supplementary schools [49]. [INVESTIGATIVE REPORT]",
+  "reason": "P2-21: the bullet had no numbered source; 'under-prosecuted' and the corporal-punishment claim could not be sourced and were removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D067",
+  "scope": "md",
+  "type": "cites",
+  "before": "Sources for this section: [1] [5] [15] [20]\n",
+  "after": "Sources for this section: [1] [5] [15] [20] [49]\n",
+  "reason": "P2-21.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D068",
+  "scope": "md",
+  "type": "fact",
+  "before": "It received ₺91.8bn in the 2024 state budget, up 151% [24];",
+  "after": "It received ₺91.8bn in the 2024 state budget, against ₺35.9bn in the 2023 budget law, about 2.6 times as much [24][50];",
+  "reason": "P2-22 / X3: same 2023 basis as the Sunni Islam volume (initial budget-law allocation).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D069",
+  "scope": "md",
+  "type": "fact",
+  "before": "[OFFICIAL POLICY: national penal codes — about ten states, per Humanists International]",
+  "after": "[OFFICIAL POLICY: national penal codes — nine states, per Humanists International]",
+  "reason": "P3-23 / F7: the current Freedom of Thought Report lists nine.",
+  "count": 2,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D070",
+  "scope": "md",
+  "type": "fact",
+  "before": "It can carry the death penalty in about ten states [19].",
+  "after": "It can carry the death penalty in nine states [19]: Afghanistan, Brunei, Iran, Malaysia, the Maldives, Mauritania, Qatar, Saudi Arabia and Yemen, in whole or in part of the country.",
+  "reason": "P3-23.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D071",
+  "scope": "md",
+  "type": "fact",
+  "before": "can carry the death penalty in about ten states, and no penalty",
+  "after": "can carry the death penalty in nine states, and no penalty",
+  "reason": "P3-23.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D072",
+  "scope": "narration",
+  "type": "fact",
+  "before": "can carry the death penalty in about ten states and nothing at all in others",
+  "after": "can carry the death penalty in nine states and nothing at all in others",
+  "reason": "P3-23: narration.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D073",
+  "scope": "narration",
+  "type": "fact",
+  "before": "Yet in about ten states leaving Islam",
+  "after": "Yet in nine states leaving Islam",
+  "reason": "P3-23: narration.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D074",
+  "scope": "md",
+  "type": "fact",
+  "before": "The death penalty is prescribed in 7 UN member states and possible in 5 more [20].",
+  "after": "The death penalty is prescribed in 7 UN member states, most of them Muslim-majority, and possible in 5 more [20].",
+  "reason": "P3-24: Uganda is not Muslim-majority.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D075",
+  "scope": "md",
+  "type": "fact",
+  "before": "**0800 5999 247** [29]",
+  "after": "**0800 5999 247** (Mon–Fri 9am–5pm) [29]",
+  "reason": "P3-25 / F18.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D076",
+  "scope": "md",
+  "type": "fact",
+  "before": "**1-866-627-3342** [36]",
+  "after": "**1-866-627-3342** (24/7) [36]",
+  "reason": "P3-25 / F19.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D077",
+  "scope": "md",
+  "type": "meta",
+  "before": "checked: 2026-09-27",
+  "after": "checked: 2026-10-03",
+  "reason": "Text rechecked after the discrepancy fixes.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D078",
+  "scope": "md",
+  "type": "meta",
+  "before": "| Last checked | 2026-09-27 |",
+  "after": "| Last checked | 2026-10-03 |",
+  "reason": "Same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "ISL-D079",
+  "scope": "md",
+  "type": "changelog",
+  "before": "- **2026-09-27:** Checked against the sources and corrected:",
+  "after": "- **2026-10-03:** Updated the Nahdlatul Ulama entry: its 2026 congress moved the choice of chair to a council of nine senior scholars. Corrected the count of states where apostasy can carry death to nine and named them; made the al-Azhar entry say its Grand Imam was appointed in 2010; fixed the size of the Muslim population (a quarter of humanity, two billion) and the Sunni share; and added the pending Moroccan family-code reform. Removed a sentence about critics that had no source, softened claims about scholars and about safeguarding that the record did not support, marked the typical denials as paraphrase, named the Brighton Mosque case's background, dropped an aid-to-influence card the page could not support, rewrote three loop summaries to match their steps, regraded three techniques, removed the unsupported \"sourced\" marks, and added 16 sources and opening hours for two help lines.\n- **2026-09-27:** Checked against the sources and corrected:",
+  "reason": "Patch note for this round.",
+  "count": 1,
+  "status": "proposed"
  }
 ]

@@ -5,7 +5,7 @@ family: "Islam"
 family_id: islam-family
 family_members: [islam, sunni-islam, shia-islam, ahmadiyya, dawoodi-bohra]
 version: v4
-checked: 2026-09-27
+checked: 2026-10-03
 sections_filled: 27/27
 missing: []
 partial: []
@@ -18,15 +18,15 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | Islam has about 2 billion adherents (Pew, 2020 data) and is projected to be the largest religion later this century. [ACADEMIC SOURCE: Pew] |
+| Size | Islam has about 2 billion adherents (Pew, 2020 data) [22] and, on Pew's earlier projections, is expected to be nearly as large as Christianity by 2050 and larger after about 2070 [42]. [ACADEMIC SOURCE: Pew] |
 | Who's in charge | The Grand Imam of al-Azhar (the mosque and university in Cairo that is Sunni Islam's most-cited seat of learning) is Sheikh Ahmed el-Tayeb, in office since 2010. |
-| Chosen by / removable by | Since 2012, elected by al-Azhar's Council of Senior Scholars and confirmed by presidential decree / Nobody — Egypt's 2014 Constitution makes the Grand Imam irremovable |
+| Chosen by / removable by | Appointed by presidential decree in 2010; since 2012 the post has been filled by election by al-Azhar's Council of Senior Scholars, confirmed by presidential decree / Nobody — Egypt's 2014 Constitution makes the Grand Imam irremovable |
 | Money in one line | The money comes from zakat (2.5% obligatory alms), sadaqa (voluntary charity), waqf endowments (historically enormous property trusts), the hajj economy (the pilgrimage to Mecca), halal certification fees (for certifying goods as religiously permitted) and mosque fundraising. |
-| Leaving in one line | Apostasy (leaving Islam) carries criminal penalties in a number of states, up to death in several, and severe social and family consequences far more widely. [OFFICIAL POLICY: national penal codes — about ten states, per Humanists International] |
+| Leaving in one line | Apostasy (leaving Islam) carries criminal penalties in a number of states, up to death in several, and severe social and family consequences far more widely. [OFFICIAL POLICY: national penal codes — nine states, per Humanists International] |
 | The unanswered question | If there is no compulsion in religion, why do apostasy statutes still stand — and who benefits from keeping them on the books? |
-| Evidence | Six of the 30 techniques are sourced to a named document. The grades are Contested 18, Cultural 5, Codified 4 and Taught 3. |
+| Evidence | None of the 30 techniques is sourced to a named document. The grades are Contested 17, Cultural 8, Codified 2 and Taught 3. |
 | Family | Islam — islam, sunni-islam, shia-islam, ahmadiyya, dawoodi-bohra |
-| Last checked | 2026-09-27 |
+| Last checked | 2026-10-03 |
 :::
 
 ### Disclosure scorecard
@@ -56,7 +56,7 @@ Later her mother asks, gently, in the kitchen, whether she has thought about Tar
 ## 3. The forefront {#forefront}
 
 ::: lede
-You may pray five times a day and mean every word. You may also be exhausted by being asked to answer for a billion people while quietly noticing things inside your own community that nobody will name. This section holds both, and it will not pretend the hostility aimed at you from outside makes the problems inside disappear.
+You may pray five times a day and mean every word. You may also be exhausted by being asked to answer for two billion people while quietly noticing things inside your own community that nobody will name. This section holds both, and it will not pretend the hostility aimed at you from outside makes the problems inside disappear.
 :::
 
 ### The unanswered question
@@ -69,21 +69,21 @@ If there is no compulsion in religion, why do apostasy statutes still stand — 
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| There is no compulsion in religion. | Several states maintain criminal penalties for leaving it, and the scholars on those states' payrolls do not say otherwise. | [OFFICIAL POLICY: national penal codes] |
+| There is no compulsion in religion. | Several states maintain criminal penalties for leaving it, and this page records no case of the scholars on those states' payrolls calling for their repeal. | [OFFICIAL POLICY: national penal codes] |
 
 ### One cost of leaving, beside its denial
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Legal jeopardy | It is documented in specific jurisdictions. | Apostasy and blasphemy statutes carry penalties up to death in a few states. | “No one is executed for belief, only for sedition.” |
+| Legal jeopardy | It is documented in specific jurisdictions. | Apostasy and blasphemy statutes carry penalties up to death in a few states. | Typically put as: no one is executed for belief, only for sedition. |
 
 ### The strongest objection, answered
 
 **The objection.** You are feeding people who already want Muslims surveilled and excluded.
 
-**What is true in it.** That hostility is real, documented, and dangerous, and Muslims in the West bear it daily while being asked to answer for a fifth of humanity. This codex says so plainly in the profile itself.
+**What is true in it.** That hostility is real, documented, and dangerous, and Muslims in the West bear it daily while being asked to answer for a quarter of humanity. This codex says so plainly in the profile itself.
 
-**The answer.** And a rule making internal harm unspeakable protects the person who caused it, not the community. The claims here rest on penal codes, ministry regulations, and inquiry findings — and the reformers cited are Muslims. Islamophobes have never once been the source of an internal critique.
+**The answer.** And a rule making internal harm unspeakable protects the person who caused it, not the community. The claims here rest on penal codes, ministry regulations, and inquiry findings — and the reformers cited are Muslims.
 
 ## 4. What healthy looks like here {#healthy}
 
@@ -131,9 +131,9 @@ With the Umayyad accession, the succession of leadership passed from a contested
 ::: card
 #### 1744 — A pact at Diriyah
 
-Muhammad ibn Abd al-Wahhab and Muhammad ibn Saud agreed terms: religious legitimacy for the house, political protection for the doctrine. It was a specific bargain between two named men in one place.
+Muhammad ibn Abd al-Wahhab and Muhammad ibn Saud agreed terms: religious legitimacy for the house, political protection for the doctrine. It was a specific bargain between two named men in one place [43].
 
-**Why it matters.** It was the single most consequential religious-political contract of the modern era. Everything about state-appointed scholarship on this page runs back to a deal, which means it was a choice, which means it could have been otherwise.
+**Why it matters.** Saudi Arabia's state-appointed scholarship runs back to this deal, which means it was a choice, which means it could have been otherwise.
 :::
 
 ::: card
@@ -146,10 +146,10 @@ Sheikh Ahmed el-Tayeb of al-Azhar and Pope Francis signed a joint declaration in
 
 ## 6. Branches & variants {#branches}
 
-The main branches are Sunni (~85–90%) and Shia (~10–13%). Most Shia are Twelvers, who recognize a line of twelve imams after the Prophet; the Ismaili and Zaydi branches follow other lines of succession. There are also the Ibadi (Oman), the Ahmadi (persecuted, and excluded by several states from the legal category of Muslim) and Turkey’s Alevis (a distinct tradition centered on devotion to Ali), and Sufi orders cross all of these lines.
+The main branches are Sunni (~87–90%) and Shia (~10–13%). Most Shia are Twelvers, who recognize a line of twelve imams after the Prophet; the Ismaili and Zaydi branches follow other lines of succession. There are also the Ibadi (Oman), the Ahmadi (persecuted, declared non-Muslim by Pakistan's law and restricted in Indonesia [4][48]) and Turkey’s Alevis (a distinct tradition centered on devotion to Ali), and Sufi orders cross all of these lines.
 
 ::: cites
-Sources for this section: [4] [23]
+Sources for this section: [4] [23] [48]
 :::
 
 | Branch | Share and place | What differs on this page's questions |
@@ -167,7 +167,7 @@ Sources for this section: [4] [23]
 
 |  |  |
 |---|---|
-| Adherents | Islam has about 2 billion adherents (Pew, 2020 data) and is projected to be the largest religion later this century. [ACADEMIC SOURCE: Pew] |
+| Adherents | Islam has about 2 billion adherents (Pew, 2020 data) [22] and, on Pew's earlier projections, is expected to be nearly as large as Christianity by 2050 and larger after about 2070 [42]. [ACADEMIC SOURCE: Pew] |
 | Regions | Indonesia has the largest Muslim population. Other large populations are in Pakistan, India, Bangladesh, Nigeria, Egypt, Iran and Turkey, and there are substantial European and North American communities. |
 | Trend | Islam is the fastest-growing major religion, primarily through fertility and a young population rather than conversion. |
 | Participation | Participation varies very widely, from state-enforced observance (Iran, Saudi Arabia) to fully secular self-identification (Turkey, Central Asia, diaspora). Adherent counts say nothing about who is subject to religious authority. |
@@ -185,7 +185,7 @@ Sources for this section: [4] [23]
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| Grand Imam of al-Azhar | Sheikh Ahmed el-Tayeb has held the office since 2010. | Since 2012 the Grand Imam has been elected by al-Azhar's Council of Senior Scholars and confirmed by presidential decree. | Nobody can remove him; Egypt's 2014 Constitution makes the Grand Imam irremovable. |
+| Grand Imam of al-Azhar | Sheikh Ahmed el-Tayeb has held the office since 2010. | Sheikh Ahmed el-Tayeb was appointed by presidential decree in 2010 [55]. Since 2012 the Grand Imam has been elected by al-Azhar's Council of Senior Scholars and confirmed by presidential decree [13]. | Nobody can remove him; Egypt's 2014 Constitution makes the Grand Imam irremovable. |
 | Grand Mufti of Saudi Arabia | Sheikh Saleh al-Fawzan holds the office, the kingdom's highest official authority on religious rulings. He was appointed by royal order on 22 October 2025, a month after Abdulaziz Al ash-Sheikh died. | The King chooses him. | The King can remove him. |
 | Custodian of the Two Holy Mosques | King Salman bin Abdulaziz holds the title, and hajj licensing, quotas, and both sanctuaries (in Mecca and Medina) run through this crown. | The office passes by succession within the House of Saud. | Nobody outside the palace can remove him. |
 
@@ -215,9 +215,9 @@ What Muslims everywhere share is a set of legal questions each state answers dif
 
 | Question | Where it is hardest | Where it has moved |
 |---|---|---|
-| **Leaving Islam** | It can carry the death penalty in about ten states [19]. | The country tables on Sunni Islam and Shia Islam show where it has moved. |
-| **Same-sex relations** | The death penalty is prescribed in 7 UN member states and possible in 5 more [20]. | — |
-| **Marriage age and guardianship** | Morocco's judges approved 81% of 32,000 underage-marriage requests in 2019 [27]. | Indonesia raised the age to 19 in 2019 [3], and Morocco's 2004 code set it at 18 [6]. |
+| **Leaving Islam** | It can carry the death penalty in nine states [19]: Afghanistan, Brunei, Iran, Malaysia, the Maldives, Mauritania, Qatar, Saudi Arabia and Yemen, in whole or in part of the country. | The country tables on Sunni Islam and Shia Islam show where it has moved. |
+| **Same-sex relations** | The death penalty is prescribed in 7 UN member states, most of them Muslim-majority, and possible in 5 more [20]. | — |
+| **Marriage age and guardianship** | Morocco's judges approved 81% of 32,000 underage-marriage requests in 2019 [27]. | Indonesia raised the age to 19 in 2019 [3], and Morocco's 2004 code set it at 18 [6]. A reform approved in December 2024 would keep 18 and set the floor for exceptions at 17; as of 28 September 2026 its text had not been published, and the 2004 code remains in force [52]. |
 | **Divorce** | — | India's Supreme Court struck down instant triple talaq in 2017 [2]. |
 | **Interfaith marriage for women** | — | Tunisia repealed its ban on Muslim women marrying non-Muslim men in 2017 [7]. |
 | **Religious-only marriage in a secular state** | Women are left without legal status [8]. | The UK review recommended civil registration in 2018 [8][9]. |
@@ -283,18 +283,6 @@ National charity regulators can compel an answer from mosque and foundation trus
 :::
 
 ::: card
-#### Aid to policy leverage
-
-**Source.** Donor congregations and public grants
-
-**Path.** Faith-based development organization → Recipient government or community → Legislative and protocol influence
-
-**Disclosed.** Programme outcomes
-
-**Hidden.** Conditions and advocacy spending
-:::
-
-::: card
 #### State clerical payroll
 
 **Source.** Public revenue
@@ -307,7 +295,7 @@ National charity regulators can compel an answer from mosque and foundation trus
 :::
 
 ::: cites
-Sources for this section: [21]
+Sources for this section: [21] [24] [33]
 :::
 
 ### Money in numbers
@@ -321,7 +309,7 @@ Zakat, sadaqa and waqf — the obligatory and voluntary giving every branch shar
  "cite":[33]}
 ```
 
-- **Turkey's Diyanet:** It received ₺91.8bn in the 2024 state budget, up 151% [24]; the full series is on the Sunni Islam page.
+- **Turkey's Diyanet:** It received ₺91.8bn in the 2024 state budget, against ₺35.9bn in the 2023 budget law, about 2.6 times as much [24][50]; the full series is on the Sunni Islam page.
 - **Waqf land:** a 2012 Karnataka commission report on waqf-board land is one of the few official audits of Islamic endowments anywhere [21].
 
 ## 10. Genealogy {#genealogy}
@@ -329,19 +317,19 @@ Zakat, sadaqa and waqf — the obligatory and voluntary giving every branch shar
 ::: card
 #### Apostasy and blasphemy penalties
 
-**Origin.** Classical jurisprudence developed in a context where leaving the community meant defecting to an enemy polity at war — apostasy was legally treated closer to treason than to belief. [ACADEMIC SOURCE]
+**Origin.** Classical jurisprudence developed in a context where leaving the community meant defecting to an enemy polity at war — apostasy was legally treated closer to treason than to belief. [ACADEMIC SOURCE] [44]
 
 **What it was for.** It served political cohesion in a period when religious identity and citizenship were the same category and defection carried military consequences.
 
 **Why that reason expired.** There is no unified polity, no war of defection, and religion is not citizenship. The Qur'an itself states there is no compulsion in religion. What remains in the penal codes of a handful of states is a treason law with the word treason removed. [OFFICIAL POLICY]
 
-**Who benefits now.** Governments benefit. They acquire a tool for imprisoning critics under religious cover — and it is used against Muslims, minorities, and personal enemies far more than against actual apostates. [GOVERNMENT REPORT]
+**Who benefits now.** Governments benefit. They acquire a tool for imprisoning critics under religious cover. Blasphemy charges have also been brought against minorities and in personal quarrels, as in the case of Asia Bibi, acquitted by Pakistan's Supreme Court in 2018 [1]. [COURT RECORD]
 :::
 
 ::: card
 #### Male guardianship (wilayah) over adult women
 
-**Origin.** It was codified in classical fiqh (Islamic jurisprudence), reflecting societies where women had no independent legal or economic standing. [ACADEMIC SOURCE]
+**Origin.** It was codified in classical fiqh (Islamic jurisprudence), reflecting societies where women had no independent legal or economic standing. [ACADEMIC SOURCE] [45]
 
 **What it was for.** It was framed as protection: someone was legally responsible for a woman who could not contract, inherit independently, or seek redress alone.
 
@@ -353,7 +341,7 @@ Zakat, sadaqa and waqf — the obligatory and voluntary giving every branch shar
 ::: card
 #### State control of the pulpit
 
-**Origin.** Ottoman and colonial-era states absorbed religious offices into state administration, and 20th-century religious affairs ministries completed the process. [ACADEMIC SOURCE]
+**Origin.** Ottoman and colonial-era states absorbed religious offices into state administration, and 20th-century religious affairs ministries completed the process. [ACADEMIC SOURCE] [46]
 
 **What it was for.** Classical Islam's genuine achievement was scholarly independence — ulama who could rebuke rulers precisely because rulers did not pay them. Colonial and post-colonial states dismantled that on purpose.
 
@@ -365,17 +353,17 @@ Zakat, sadaqa and waqf — the obligatory and voluntary giving every branch shar
 ::: card
 #### Compulsory hijab enforcement
 
-**Origin.** Modesty norms are ancient and textually grounded; state enforcement by morality police is a 20th-century invention, principally post-1979. [ACADEMIC SOURCE]
+**Origin.** Modesty norms are ancient and textually grounded; state enforcement by morality police is a 20th-century invention, principally post-1979. [ACADEMIC SOURCE] [47]
 
 **What it was for.** The textual injunction addresses the believer's own conduct. There is no classical apparatus of state police checking women's hair.
 
-**Why that reason expired.** A rule enforced by arrest is no longer a religious practice; it is a criminal statute wearing religious clothes. The death of a young woman in morality-police custody in 2022 and the protest wave that followed made that visible to the world, including to devout Iranians. [GOVERNMENT REPORT]
+**Why that reason expired.** A rule enforced by arrest is no longer a religious practice; it is a criminal statute wearing religious clothes. The death of a young woman in morality-police custody in 2022 and the protest wave that followed made that visible to the world, including to devout Iranians. [GOVERNMENT REPORT] [15]
 
 **Who benefits now.** The state benefits, gaining a permanent pretext for policing public space and a highly visible loyalty test. Neither God nor the women benefit.
 :::
 
 ::: cites
-Sources for this section: [15]
+Sources for this section: [1] [15] [44] [45] [46] [47]
 :::
 
 ## 11. Reach {#reach}
@@ -389,7 +377,7 @@ Sources for this section: [15]
 ### Children
 
 - Children are Muslim by birth in the standard legal framing; Qur'an memorization (hifz) schooling begins very young and can substitute for general education in some madrasa systems. [ACADEMIC SOURCE]
-- Corporal punishment in some madrasa contexts, and abuse within residential religious schools, is documented and under-prosecuted. [INVESTIGATIVE REPORT]
+- Abuse in religious settings, including mosques and madrasahs, is documented. England and Wales's national inquiry into child sexual abuse found significant under-reporting and no compulsory minimum standards for supplementary schools [49]. [INVESTIGATIVE REPORT]
 - Modesty rules and gender segregation begin at puberty or earlier, initiating sexual surveillance of girls specifically. [PATTERN OBSERVED]
 
 ### Bodies
@@ -401,7 +389,7 @@ Sources for this section: [15]
 - 'Honor'-based violence against women is culturally rather than doctrinally grounded, and is frequently defended in religious language — the outsourcing is itself the tactic. [GOVERNMENT REPORT]
 
 ::: cites
-Sources for this section: [1] [5] [15] [20]
+Sources for this section: [1] [5] [15] [20] [49]
 :::
 
 ## 12. The 30 techniques {#techniques}
@@ -597,7 +585,7 @@ Raise abuse in a madrasa or a marriage and you are told you are shaming the comm
 
 **The counter.** Fluctuation is human. Manipulation enters when the community meters its warmth to your visible peaks and assigns your valleys to sin — turning an inner season into a public performance review with unpredictable pay.
 
-**Evidence grade.** [[Contested]] That faith increases and decreases is orthodox teaching; whether a community meters its warmth to visible piety is local practice, and the reading is disputed.
+**Evidence grade.** [[Cultural]] Communal warmth that rises and falls with visible piety is community practice with no written rule behind it. That faith increases and decreases is orthodox teaching, and whether communities use that to control is disputed.
 :::
 
 ::: tactic n=9
@@ -771,7 +759,7 @@ Zakat is administered by state boards and waqf by appointed trustees, the hajj i
 
 **The counter.** Reminder becomes FLYING MONKEY behavior when it is backed by family shame, social monitoring, fear of hell, or threats to belonging. If a person cannot doubt without everyone around them becoming a religious enforcement channel, the community has become a net.
 
-**Evidence grade.** [[Cultural]] Honor enforcement is carried out by relatives with no institutional instruction, which is why no institution can be held to it. *(sourced)*
+**Evidence grade.** [[Cultural]] Honor enforcement is carried out by relatives with no institutional instruction, which is why no institution can be held to it.
 :::
 
 ::: tactic n=17
@@ -828,7 +816,7 @@ Zakat is administered by state boards and waqf by appointed trustees, the hajj i
 
 **The counter.** A doctrine against compulsion does not erase social coercion. If the community makes exit dangerous, refusal shameful, and conformity the price of belonging, then consent exists on paper while pressure governs the body.
 
-**Evidence grade.** [[Cultural]] Religious status attaches at birth in customary and legal framing; adult reconsideration carries family rather than institutional cost. *(sourced)*
+**Evidence grade.** [[Cultural]] Religious status attaches at birth in customary and legal framing; adult reconsideration carries family rather than institutional cost.
 :::
 
 ::: tactic n=20
@@ -885,7 +873,7 @@ Zakat is administered by state boards and waqf by appointed trustees, the hajj i
 
 **The counter.** Protection becomes BENEVOLENT CONTROL when the protected person cannot refuse it. If “for your dignity” means your clothing, marriage, speech, and social life are controlled by others, dignity has been redefined as compliance.
 
-**Evidence grade.** [[Codified]] Compulsory dress enforced by state morality police in specific jurisdictions. *(sourced)*
+**Evidence grade.** [[Cultural]] Family and community control of clothing, marriage and friendships, presented as care, is practice that no body sets. State enforcement of dress, where it exists, is recorded in sections 11 and 14 and bears on only part of the picture.
 :::
 
 ::: tactic n=23
@@ -963,7 +951,7 @@ Zakat is administered by state boards and waqf by appointed trustees, the hajj i
 
 **The counter.** Charity becomes FINANCIAL CONTROL when the receiver’s independence is compromised. If aid is tied to obedience, dress, silence, mosque loyalty, or family compliance, then generosity has become a financial leash.
 
-**Evidence grade.** [[Codified]] Zakat rates and hajj licensing are codified; state-administered zakat boards operate under published regulation. *(sourced)*
+**Evidence grade.** [[Codified]] Zakat rates and hajj licensing are codified; state-administered zakat boards operate under published regulation.
 :::
 
 ### Stage 7 · Discard {#stage-7}
@@ -1012,7 +1000,7 @@ You are called kafir (unbeliever), munafiq (hypocrite), Westernized, an agent. F
 
 **The counter.** Concern becomes DISCARD when love becomes conditional on visible submission. If family and community withdraw basic belonging once belief changes, the issue is not eternal care. It is control over the living.
 
-**Evidence grade.** [[Codified]] Apostasy and blasphemy penalties in the penal codes of specific states — statutory, published, and jurisdiction-specific. *(sourced)*
+**Evidence grade.** [[Cultural]] Family withdrawal and exclusion after doubt or leaving are community practice with no written rule behind them. Where apostasy is a statutory offence (sections 8 and 15), the penalty bears on only one bullet.
 :::
 
 ### Stage 8 · Replace {#stage-8}
@@ -1061,7 +1049,7 @@ The mosque does not shrink. The community absorbs the loss without a ripple. And
 
 **The counter.** A doctrine against compulsion does not erase coercive social enforcement. If “choice” has only one acceptable outcome, it is not free. “Culture, not Islam” becomes PLAUSIBLE DENIABILITY when religious language is used to enforce the culture and religious leaders benefit from the obedience.
 
-**Evidence grade.** [[Codified]] Where religious law is state law, the authority claim is statutory — penal codes and ministry regulations are public documents. *(sourced)*
+**Evidence grade.** [[Codified]] Where religious law is state law, the authority claim is statutory — penal codes and ministry regulations are public documents.
 :::
 
 ## 13. The loops {#loops}
@@ -1073,7 +1061,7 @@ The seven loops below show how the practices connect, so that each step makes th
 ::: card
 #### 1 · Money to Doctrine to Money
 
-Zakat and khums (a one-fifth levy on surplus income, paid in Shia Islam) are fixed obligations, administered by boards and offices whose accounts a payer can rarely audit, funding the institutions that teach the obligation.
+Zakat is a fixed obligation, administered where the state runs it by boards whose distribution criteria a payer can rarely trace, and the same states pay the preachers who teach the obligation.
 
 **How it runs.**
 
@@ -1107,7 +1095,7 @@ Eternal punishment for apostasy is installed early, relief comes through communi
 
 **Techniques that feed it.** [3 · Future Faking](#t-3), [4 · Hoovering](#t-4), [13 · Normalization / Desensitization](#t-13), [20 · Trauma Bonding](#t-20).
 
-**Why it closes.** The fear and the relief come through the same people. Section 15 records the eternal-punishment framing as "a warning given out of love", so the person who delivers the fear also offers the safety, and leaving means losing both at once (technique 20).
+**Why it closes.** The fear and the relief come through the same people. Section 15 records the eternal-punishment framing as typically put as a warning given out of love, so the person who delivers the fear also offers the safety, and leaving means losing both at once (technique 20).
 
 **Where it could be broken, and by whom.** It weakens where a family separates its love from the warning, and where a person can say "I no longer believe" without losing their relationships (technique 4). The tradition's own standard, "there is no compulsion in religion", gives a believer grounds to ask for that (section 4). This paragraph is analysis, not a documented finding.
 
@@ -1117,7 +1105,7 @@ Eternal punishment for apostasy is installed early, relief comes through communi
 ::: card
 #### 3 · Children to Members to Children
 
-Hifz schooling and free madrasa education produce adults with religious credentials and no employable alternative.
+Hifz schooling begins very young and, in some madrasa systems, substitutes for general education, and families with no affordable alternative send the next generation to the same schools.
 
 **How it runs.**
 
@@ -1161,7 +1149,7 @@ Funded mosques and schools abroad buy influence over which interpretation a comm
 ::: card
 #### 5 · Unpaid Labor to Assets to Power to More Labor
 
-Volunteer labor builds the mosque, the board holds the title, and the donor selects the imam.
+Community fundraising builds the mosque, the committee holds it and hires the imam, and major donors gain influence over the imam.
 
 **How it runs.**
 
@@ -1183,14 +1171,14 @@ Volunteer labor builds the mosque, the board holds the title, and the donor sele
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
-An imam is quietly moved, the committee issues a statement, and no reporting policy is created.
+A case is handled as a community matter, the teacher is relocated rather than reported, and no reporting policy follows.
 
 **How it runs.**
 
 1. Abuse in a madrasa or a marriage is raised, and the person raising it is told they are shaming the community or serving Islamophobes (section 12, stage 4; technique 12).
 2. The case is handled as a community matter, and the teacher is relocated rather than reported (section 14).
 3. The victim is told to be patient, avoid fitna and preserve family honor, or to resolve it privately through family or religious mediation (technique 18).
-4. The bodies that handled it, mosque committees and state religious ministries, have no safeguarding requirement (section 14).
+4. The bodies that handled it, mosque committees and state religious ministries, face no safeguarding requirement that this page records for unregistered mosques or ministries (section 14).
 5. The next case surfaces through a secular journalist, the community divides over the reporting, and no policy changes (section 14).
 
 **Techniques that feed it.** [18 · Silent Treatment / Stonewalling](#t-18), [12 · DARVO](#t-12), [25 · Spiritual Bypassing](#t-25), [30 · Plausible Deniability](#t-30).
@@ -1199,7 +1187,7 @@ An imam is quietly moved, the committee issues a statement, and no reporting pol
 
 **Where it could be broken, and by whom.** It weakens where a written policy requires abuse to be reported to the police. Section 23 asks the question that would test it: when a child was abused in a madrasa, was it reported? Section 18 names teachers as the tier that could refuse to handle it internally. This paragraph is analysis, not a documented finding.
 
-**An example from this page.** Section 14 records the last time the chair ran: abuse cases in religious schools were handled as community matters, with the teacher relocated rather than reported.
+**An example from this page.** Section 14 records the pattern observed in religious schools: abuse handled as a community matter, with the teacher relocated rather than reported. It names no single case.
 :::
 
 ::: card
@@ -1230,16 +1218,16 @@ Genuine surveillance and hostility toward Muslims are used to reclassify interna
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| There is no compulsion in religion. | Several states maintain criminal penalties for leaving it, and the scholars on those states' payrolls do not say otherwise. | [OFFICIAL POLICY: national penal codes] |
+| There is no compulsion in religion. | Several states maintain criminal penalties for leaving it, and this page records no case of the scholars on those states' payrolls calling for their repeal. | [OFFICIAL POLICY: national penal codes] |
 | Islam has no clergy and no church between you and God. | Government ministries license the preacher, write or approve the sermon, and pay the salary. | [OFFICIAL POLICY] |
 | Modesty is a personal act of worship. | In specific jurisdictions it is enforced by police, and a young woman died in their custody. | [GOVERNMENT REPORT] |
 | Zakat is the right of the poor. | Where the state collects it, distribution is at official discretion, and published criteria rarely let a payer trace where their own zakat went. | [GOVERNMENT REPORT] |
 
 ### Accountability or theatre?
 
-**Last time the chair ran.** Abuse cases in religious schools were handled as community matters, with the teacher relocated rather than reported.
+**Last time the chair ran.** No single case is named on this page. The pattern observed in religious schools is that abuse is handled as a community matter and the teacher relocated rather than reported. [PATTERN OBSERVED]
 
-**Who holds the chair now.** Mosque committees and state religious ministries hold it, with no safeguarding requirement.
+**Who holds the chair now.** Mosque committees and state religious ministries hold it. In England and Wales the trustees of a mosque registered as a charity have legal safeguarding duties [53], but supplementary schools, including madrasahs, are not subject to compulsory minimum standards [49]. This page records no equivalent rule for unregistered mosque committees or for state ministries.
 
 **Prediction.** The next case will surface through a secular journalist, the community will divide over the reporting rather than the abuse, and no policy will change.
 
@@ -1255,17 +1243,17 @@ Genuine surveillance and hostility toward Muslims are used to reclassify interna
 
 ### What leaving costs
 
-- Apostasy carries criminal penalties in a number of states — up to death in several — and severe social and family consequences far more widely. [OFFICIAL POLICY: national penal codes — about ten states, per Humanists International]
+- Apostasy carries criminal penalties in a number of states — up to death in several — and severe social and family consequences far more widely. [OFFICIAL POLICY: national penal codes — nine states, per Humanists International]
 - Marriage, custody, and inheritance law in many jurisdictions is conditioned on religious status.
 
 ### The ledger of exit
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Legal jeopardy | It is documented in specific jurisdictions. | Apostasy and blasphemy statutes carry penalties up to death in a few states. | “No one is executed for belief, only for sedition.” |
-| Family and marriage | It is documented very often. | Leavers can lose family, marriage prospects and custody, and personal-status law (the law of marriage, divorce, custody and inheritance) conditions rights on religion. | “That's family and culture, not Islam.” |
-| Community and reputation | It is documented. | Leavers are labeled kafir, munafiq, or a Western agent, and diaspora communities are small and total. | “Anyone can believe what they want.” |
-| Spiritual threat | It is documented. | Apostasy is framed as deserving eternal punishment. | “It is a warning given out of love.” |
+| Legal jeopardy | It is documented in specific jurisdictions. | Apostasy and blasphemy statutes carry penalties up to death in a few states. | Typically put as: no one is executed for belief, only for sedition. |
+| Family and marriage | It is documented very often. | Leavers can lose family, marriage prospects and custody, and personal-status law (the law of marriage, divorce, custody and inheritance) conditions rights on religion. | Typically put as: that's family and culture, not Islam. |
+| Community and reputation | It is documented. | Leavers are labeled kafir, munafiq, or a Western agent, and diaspora communities are small and total. | Typically put as: anyone can believe what they want. |
+| Spiritual threat | It is documented. | Apostasy is framed as deserving eternal punishment. | Typically put as: it is a warning given out of love. |
 
 ### How the cost is denied
 
@@ -1281,7 +1269,7 @@ Genuine surveillance and hostility toward Muslims are used to reclassify interna
 | Exit cost denial | Medium | Officially there is no compulsion in religion; the penal codes and family outcomes say otherwise. |
 
 ::: cites
-Sources for this section: [19]
+Sources for this section: [1] [19]
 :::
 
 ## 16. The ledger {#ledger}
@@ -1289,7 +1277,7 @@ Sources for this section: [19]
 ### Who benefits
 
 - States that rule through religious legitimacy benefit: official clerical establishments trade endorsement for funding and monopoly (the Saudi religious establishment; Egypt's Al-Azhar and its relationship with the state; Iran, covered on the Shia Islam page). [ACADEMIC SOURCE]
-- Government religious ministries benefit, employing hundreds of thousands and controlling sermon content.
+- Government religious ministries benefit, employing very large numbers of clergy (Turkey's Diyanet alone had more than 140,000 personnel in 2023 [51]) and controlling sermon content.
 - Certification and compliance industries (halal, Islamic finance) benefit, because their gatekeeping generates fees. [FINANCIAL RECORD]
 
 ### Money out, leverage back
@@ -1309,7 +1297,7 @@ Sources for this section: [19]
 - Muslims in the West pay too. They bear surveillance and hostility from outside while internal critique is treated as betrayal — a double bind this codex names explicitly.
 
 ::: cites
-Sources for this section: [3]
+Sources for this section: [1] [15] [20] [33] [48] [51]
 :::
 
 ## 17. Who gets hurt most {#who-gets-hurt}
@@ -1327,7 +1315,7 @@ The costs in section 15 do not fall evenly. They fall hardest where a person has
 | Children in residential religious schools | They face documented abuse with weak reporting pathways. | It compounds where the school is also the family's only affordable education. |
 
 ::: cites
-Sources for this section: [4]
+Sources for this section: [4] [5] [15] [19] [20] [48] [49]
 :::
 
 ## 18. The middle tiers {#tiers}
@@ -1350,7 +1338,7 @@ Most of the tradition's institutional work is done below the ministries and boar
 - **what:** Shayara Bano, divorced by her husband with a triple pronouncement of talaq, petitioned the Supreme Court. A five-judge bench ruled 3–2 that instant triple talaq was unconstitutional [2].
 - **record:** *Shayara Bano v. Union of India* (2017) [2]
 - **outcome:** The ruling was won by a Muslim woman using the constitution, not by any religious body [2].
-- **tactics:** 26, 7
+- **tactics:** 23
 - **grade:** Documented
 :::
 
@@ -1367,10 +1355,10 @@ Most of the tradition's institutional work is done below the ministries and boar
 ::: case
 ### A mosque trustee disqualified (United Kingdom, 2024)
 - **when:** 2024
-- **what:** The Charity Commission's statutory inquiry into the Brighton Mosque and Muslim Community Centre disqualified a trustee [10].
-- **record:** Charity Commission inquiry report (2024) [10]
+- **what:** The Charity Commission opened a statutory inquiry into the Brighton Mosque and Muslim Community Centre in August 2022, after a former trustee was convicted on terrorism charges over a speech made at the mosque in November 2020. In July 2024 it disqualified another trustee, Karim Aboutayab, for four and a half years for failing to resolve a governance dispute within the charity [10][54].
+- **record:** Charity Commission inquiry report (published January 2025) [10]
 - **outcome:** Where a mosque is a registered charity, a regulator can act — the same tool that removed the trustees of the Supreme Leader's UK office (see Shia Islam).
-- **tactics:** 26
+- **tactics:** 18
 - **grade:** Documented
 :::
 
@@ -1393,7 +1381,7 @@ Most of the tradition's institutional work is done below the ministries and boar
 | Saudi guardianship reforms permitting women to travel and hold documents independently | Sustained internal and international pressure won it. | 2019–present | Several of the women who campaigned for it were imprisoned. |
 | Reformist and feminist Islamic scholarship establishing textual grounds for equality | Muslim scholars, mostly women | 1990s–present | Its scholars faced accusations of apostasy and of Western capture. |
 | Mosques funded locally to refuse strings-attached foreign money | Diaspora congregations | Ongoing | It meant slower building programmes and smaller facilities. |
-| Morocco’s family code (Moudawana) reform: marriage age raised to 18, polygamy restricted, divorce opened to wives, the family placed under joint responsibility of both spouses | The Moroccan women’s movement argued for it in Islamic legal terms, and the monarchy enacted it. | 2004 | It took two decades of campaigning, and judges still grant underage-marriage exemptions. |
+| Morocco’s family code (Moudawana) reform: marriage age raised to 18, polygamy restricted, divorce opened to wives, the family placed under joint responsibility of both spouses | The Moroccan women’s movement argued for it in Islamic legal terms, and the monarchy enacted it. | 2004 | It took two decades of campaigning, and judges still grant underage-marriage exemptions. A 2024 revision would raise the exemption floor to 17 but was still unpublished on 28 September 2026 [52]. |
 | India’s Supreme Court strikes down instant triple talaq (Shayara Bano v. Union of India) | Muslim women petitioners and women’s groups | 2017 | It took years of litigation and brought public opposition within their own communities. |
 | Tunisia withdraws the 1973 ban on Muslim women marrying non-Muslim men | Tunisian civil society and the presidency | 2017 | It drew condemnation from religious establishments abroad. |
 
@@ -1410,7 +1398,7 @@ Sources for this section: [2] [5] [6] [7] [18] [26] [27]
 - **Musawah and Sisters in Islam.** Musawah is the global movement for equality in Muslim family law, launched in Kuala Lumpur in 2009, and Sisters in Islam is the Malaysian group that started it [34][35].
 - **Shayara Bano.** A Muslim woman, she took her divorce to India's Supreme Court and won [2].
 - **Loujain al-Hathloul.** A Saudi women's-rights activist, she was imprisoned after campaigning to end the driving ban and the guardianship system, and released in 2021 [18].
-- **Nahdlatul Ulama.** The world's largest Muslim organization, it elects its leaders in contested votes [25].
+- **Nahdlatul Ulama.** The world's largest Muslim organization, it replaced its chair in a contested vote in 2021 [25]. In November 2025 its supreme council declared the elected chair dismissed, which he refused to accept [41]. In 2026 its congress voted 401 to 150 to have a council of nine senior scholars choose the chair instead of a delegate vote [40].
 - **Tunisia's reformers.** They won the 2017 repeal of the ban on Muslim women marrying non-Muslims [7].
 
 ## 22. Regional variants {#regional}
@@ -1418,12 +1406,12 @@ Sources for this section: [2] [5] [6] [7] [18] [26] [27]
 ::: card
 ### Indonesia
 
-- **apex:** There is no state-appointed grand mufti. Nahdlatul Ulama and Muhammadiyah are mass membership organisations with elected leadership, together representing over a hundred million people.
+- **apex:** There is no state-appointed grand mufti. Nahdlatul Ulama and Muhammadiyah are mass membership organisations, together representing over a hundred million people.
 - **law:** Religious courts have jurisdiction over Muslim family law. Blasphemy provisions exist and have been used. Marriage age was raised to 19 for both sexes in 2019.
-- **documented:** NU and Muhammadiyah leadership elections are genuinely contested and have produced reformist leadership. Both organisations have publicly opposed hardline currents.
+- **documented:** Nahdlatul Ulama chose its chair in a contested vote in 2021 [25]. In November 2025 its supreme council declared that chair dismissed, and in 2026 its congress moved the choice of chair from a delegate vote to a council of nine senior scholars [40][41]. Both organisations have publicly opposed hardline currents.
 - **exit:** Formal conversion out is legally fraught; social cost varies enormously between Java and Aceh, which operates its own sharia bylaws.
 - **regulator:** Complaints can go to the Ministry of Religious Affairs, the national human rights commission (Komnas HAM) or the ordinary courts.
-- **tell:** The world's largest Muslim population runs its two largest religious organisations by membership election. That fact belongs in every discussion of whether Islamic institutions can be accountable — and it is almost never in one.
+- **tell:** The world's largest Muslim population has two mass religious organisations that choose their leaders through congresses of their members, and one of them has just moved the choice of chair from delegates to a council of senior scholars. That belongs in every discussion of whether Islamic institutions can be accountable — and it is almost never in one.
 :::
 
 ::: card
@@ -1448,16 +1436,12 @@ Sources for this section: [2] [5] [6] [7] [18] [26] [27]
 - **tell:** Where the religious apex is a branch of the state, 'that's politics, not religion' stops being a defence and becomes the description.
 :::
 
-::: cites
-Sources for this section: [3] [8] [9] [10] [11] [14] [16] [17] [19] [25]
-:::
-
 ::: card
 ### Morocco
 - **apex:** The King holds the apex as "Commander of the Faithful" under the 2011 Constitution [39].
 - **law:** The 2004 family code set the marriage age at 18, made spouses jointly responsible for the family, and restricted polygamy [6].
-- **documented:** Judges approved 81% of underage-marriage requests in 2019 [27].
-- **exit:** —
+- **documented:** Judges approved 81% of underage-marriage requests in 2019 [27]. A revision approved in December 2024 would raise the exemption floor to 17; as of 28 September 2026 its text had not been published [52].
+- **exit:** Not recorded on this page.
 - **regulator:** Family courts apply the code, and their discretion is the finding [27].
 - **tell:** Morocco has a progressive statute and a judiciary that routinely grants its exceptions, so the reform holds only as far as the judge who applies it.
 :::
@@ -1472,9 +1456,13 @@ Sources for this section: [3] [8] [9] [10] [11] [14] [16] [17] [19] [25]
 - **tell:** The largest Muslim minority on earth changed its divorce law through a secular court, on a Muslim woman's petition.
 :::
 
+::: cites
+Sources for this section: [2] [3] [6] [8] [9] [10] [11] [14] [16] [17] [19] [21] [25] [27] [39] [40] [41] [52]
+:::
+
 ## 23. The questions {#questions}
 
-1. If there is no compulsion in religion, why do several states maintain criminal penalties for leaving it — and why do the scholars on those states' payrolls not say so?
+1. If there is no compulsion in religion, why do several states maintain criminal penalties for leaving it — and what would it take for the scholars on those states' payrolls to say so?
 2. Why is a woman's travel, marriage, or bank account conditional on a man's permission, in an era when she earns her own salary?
 3. When a child was abused in a madrasa, was it reported to police? If not, ask who the silence protected — and whether it was the child.
 4. Why does the state that enforces modesty also imprison the journalists who report on the enforcement?
@@ -1491,7 +1479,7 @@ You can be devout and refuse a salaried cleric's political ruling. You can pray 
 
 Practical guidance, not legal advice. See the country tables on Sunni Islam and Shia Islam.
 
-1. **Check your jurisdiction.** Leaving Islam can carry the death penalty in about ten states, and no penalty in most others [19].
+1. **Check your jurisdiction.** Leaving Islam can carry the death penalty in nine states, and no penalty in most others [19].
 2. **Do not announce, and be careful online.** The laws that punish leaving usually punish saying so.
 3. **Know your family-law exposure.** Marriage, divorce and custody often follow religion; a religious-only marriage may leave you without legal protection [8].
 4. **Secure documents and money** in your own name first.
@@ -1505,11 +1493,11 @@ Checked 2026-09-27.
 | Organization | For | Where | Contact |
 |---|---|---|---|
 | **Muslim Women's Network Helpline** | Muslim women facing abuse, forced marriage, or family-law problems | UK | **0800 999 5786** (freephone; Mon–Fri 10am–4pm) [28] |
-| **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** [29] |
+| **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** (Mon–Fri 9am–5pm) [29] |
 | **UK Forced Marriage Unit** | Forced marriage, including British nationals abroad | UK / abroad | Via GOV.UK [11] |
 | **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [30] |
 | **Ex-Muslims of North America** | Vetted private communities; emergency fund | US, Canada | Online [31] |
-| **Naseeha** | Muslim peer mental-health helpline | North America | **1-866-627-3342** [36] |
+| **Naseeha** | Muslim peer mental-health helpline | North America | **1-866-627-3342** (24/7) [36] |
 | **Humanists at Risk** | People prosecuted for apostasy or blasphemy | Global | Casework [37] |
 | **Dubai Foundation for Women and Children** | Domestic violence, abuse, trafficking | UAE | **800111**, 24/7 [38] |
 
@@ -1563,9 +1551,26 @@ Checked 2026-09-27.
 37. Humanists International, "Humanists at Risk". https://humanists.international/what-we-do/humanists-at-risk/
 38. Dubai Foundation for Women and Children, "Helpline" (800111). https://www.dfwac.ae/helpline
 39. Constitution of Morocco (2011), Article 41 — the King as Amir al-Mu'minin. https://www.constituteproject.org/constitution/Morocco_2011
+40. RCTI+, "Muktamar ke-35 NU: pemilihan ketum disepakati lewat mekanisme AHWA" (30 Aug 2026; 401 of 552 votes for the council method, 150 against, 1 invalid) · Metro TV, "KH Abdul Hakim Mahfudz resmi terpilih jadi Ketum PBNU 2026–2031" (nine AHWA members chose him by consensus). https://www.rctiplus.com/news/detail/inews/5462048/muktamar-ke-35-nu--pemilihan-ketum-disepakati-lewat-mekanisme-ahwa · https://www.metrotvnews.com/play/kqYCdePx-kh-abdul-hakim-mahfudz-resmi-terpilih-jadi-ketum-pbnu-2026-2031
+41. Fulcrum, "Indonesia's Nahdlatul Ulama in Turmoil" (Dec 2025) — the Supreme Council (Syuriyah) ousted chair Yahya Cholil Staquf in late November 2025; he refused to step down. https://fulcrum.sg/article/commentaries/indonesias-nahdlatul-ulama-in-turmoil/
+42. Pew Research Center, "7 key changes in the global religious landscape" (2 Apr 2015) — Muslims near parity with Christians by 2050 · Anadolu Agency on Pew's 2017 update — Muslims projected to outnumber Christians after 2070. https://www.pewresearch.org/short-reads/2015/04/02/7-key-changes-in-the-global-religious-landscape/ · https://aa.com.tr/en/world/muslims-projected-to-outnumber-christians-after-2070/61027
+43. *Encyclopaedia Britannica*, "Saud dynasty" — the 1744 alliance between Muhammad ibn Saud and Muhammad ibn Abd al-Wahhab at Diriyah. https://www.britannica.com/topic/Saud-dynasty
+44. Abdullah Saeed and Hassan Saeed, *Freedom of Religion, Apostasy and Islam* (Ashgate, 2004). https://www.cambridge.org/core/journals/ecclesiastical-law-journal/article/freedom-of-religion-apostasy-and-islam-by-abdullah-saeed-and-hassan-saeed-ashgate-publishing-ltd-2004-v-227pp-1750-paperback-isbn-0754630838/53CB90ECA742A648C1D59AE94DEADBF4
+45. Ziba Mir-Hosseini, Mulki Al-Sharmani and Jana Rumminger (eds), *Men in Charge? Rethinking Authority in Muslim Legal Tradition* (Oneworld, 2015) — qiwamah and wilayah. https://www.musawah.org/wp-content/uploads/2022/01/A-Feminist-Readers-Guide-MIC-Print.pdf
+46. Jakob Skovgaard-Petersen, *Defining Islam for the Egyptian State: Muftis and Fatwas of the Dar al-Ifta* (Brill, 1997). https://www.cambridge.org/core/journals/international-journal-of-middle-east-studies/article/jakob-skovgaardpetersen-defining-islam-for-the-egyptian-state-muftis-and-fatwas-of-the-dar-alifta-social-economic-and-political-studies-of-the-middle-east-and-asia-leiden-e-j-brill-1997-pp-431/D224929D77CE59BA7C3054F52A1024DB
+47. Hamideh Sedghi, *Women and Politics in Iran: Veiling, Unveiling, and Reveiling* (Cambridge University Press, 2007). https://www.cambridge.org/core/product/identifier/9780511510380/type/book
+48. Pakistan, Constitution (Second Amendment) Act 1974 — Ahmadis not Muslims for the purposes of the Constitution and law. https://pakistani.org/pakistan/constitution/amendments/2amendment.html
+49. Independent Inquiry into Child Sexual Abuse, *Child protection in religious organisations and settings: Investigation Report* (Sept 2021) — abuse confirmed in mosques and madrasahs; under-reporting; supplementary schools not subject to compulsory minimum standards. https://www.iicsa.org.uk/reports-recommendations/publications/investigation/cp-religious-organisations-settings/executive-summary
+50. Doğruluk Payı, Diyanet 2023 budget ₺35.91bn (initial budget-law allocation). https://www.dogrulukpayi.com/dogruluk-kontrolu/diyanet-isleri-baskanligi-nin-2023-icin-ongorulen-butcesi-35-milyar-910-milyon-653-bin-tl-mi
+51. BirGün, "Diyanet'in ordusu büyüyor" — Diyanet personnel 140,185 in 2023; over 140,000 in December 2024. https://www.birgun.net/haber/diyanetin-ordusu-buyuyor-2025te-personele-110-milyarlik-kaynak-585663
+52. Morocco World News, "Approved reforms in Morocco's Family Code" (Dec 2024) · lesmre.com, "Moudawana reform 2026: 8 key changes" — marriage age stays 18, exceptions at 17 with judicial approval; as of 28 Sept 2026 the text had not been published in the Official Bulletin and the 2004 code remains in force. https://www.moroccoworldnews.com/2024/12/367184/approved-reforms-in-moroccos-family-code-whats-changing · https://www.lesmre.com/en/actualites/moudawana-reform-2026-8-key-changes-mre
+53. UK Government, "Safeguarding and protecting people for charities and trustees" (Charity Commission; updated 1 June 2022) — trustees must take reasonable steps to protect from harm people who come into contact with the charity. https://www.gov.uk/guidance/safeguarding-duties-for-charity-trustees
+54. Charity Commission, "Regulator disqualifies trustee after finding Brighton Mosque poorly managed" — inquiry opened 3 Aug 2022 after a former trustee's terrorism conviction over a speech at the mosque (Nov 2020); Dr Karim Aboutayab disqualified for 4 years 6 months from 10 July 2024. https://www.gov.uk/government/news/regulator-disqualifies-trustee-after-finding-brighton-mosque-poorly-managed
+55. Wikipedia, "Ahmed el-Tayeb" — Grand Imam since 10 March 2010, appointed by presidential decree. https://en.wikipedia.org/wiki/Ahmed_el-Tayeb
 
 ## 27. What changed on this page {#changed}
 
+- **2026-10-03:** Updated the Nahdlatul Ulama entry: its 2026 congress moved the choice of chair to a council of nine senior scholars. Corrected the count of states where apostasy can carry death to nine and named them; made the al-Azhar entry say its Grand Imam was appointed in 2010; fixed the size of the Muslim population (a quarter of humanity, two billion) and the Sunni share; and added the pending Moroccan family-code reform. Removed a sentence about critics that had no source, softened claims about scholars and about safeguarding that the record did not support, marked the typical denials as paraphrase, named the Brighton Mosque case's background, dropped an aid-to-influence card the page could not support, rewrote three loop summaries to match their steps, regraded three techniques, removed the unsupported "sourced" marks, and added 16 sources and opening hours for two help lines.
 - **2026-09-27:** Checked against the sources and corrected: al-Azhar's Grand Imam is elected and irremovable; the Saudi Grand Mufti's appointment date confirmed; the apostasy and waqf labels now cite sources; population corrected to about 2 billion.
 - **2026-09-27:** Added Branches, Law & state, Money in numbers, four documented cases, Voices from inside, two regional cards, Leaving safely and Where to get help.
 
