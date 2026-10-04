@@ -1869,5 +1869,885 @@
   "reason": "Section 13 had no source line. The loops synthesise material sourced in other sections, so they are labelled PATTERN OBSERVED and cross-referenced rather than given sources they do not have.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "LDS-D001",
+  "scope": "md",
+  "type": "number",
+  "before": "A hundred-billion-dollar fund was concealed for two decades; the penalty was five million dollars and no resignation. On what date do the members see the books?",
+  "after": "A portfolio a whistleblower valued at over a hundred billion dollars was hidden from securities filings for two decades; the penalty was five million dollars and no resignation. On what date do the members see the books?",
+  "reason": "P1-2: attributes the $100B figure to its source (whistleblower); the SEC found about $32B hidden by 2018. Same text in section 1 and the section 3 question box.",
+  "count": 2,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D002",
+  "scope": "md",
+  "type": "number",
+  "before": "| The Church is a careful steward of sacred funds. | A federal regulator found twenty years of deliberate concealment of a hundred-billion-dollar portfolio. | [GOVERNMENT REPORT] |",
+  "after": "| The Church is a careful steward of sacred funds. | A federal regulator found that for over twenty years the Church's investment arm hid a securities portfolio, about $32 billion by 2018, behind thirteen shell companies; a whistleblower put the whole reserve at over $100 billion [27]. | [GOVERNMENT REPORT] |",
+  "reason": "P1-1: the SEC found about $32B, not $100B; the larger figure is the whistleblower's estimate (sections 3 and 14 share this row).",
+  "count": 2,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D003",
+  "scope": "md",
+  "type": "number",
+  "before": "a hundred billion dollars, twenty years, shell companies, five million dollar penalty",
+  "after": "tens of billions of dollars, twenty years, shell companies, five million dollar penalty",
+  "reason": "P1-1: day-inside article summary no longer repeats the unattributed $100B figure.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D004",
+  "scope": "md",
+  "type": "number",
+  "before": "A hundred billion dollars sits in reserve, concealed through shell companies for two decades until a federal regulator intervened.",
+  "after": "A whistleblower put the reserve at over a hundred billion dollars; the SEC found a portfolio of about $32 billion hidden behind shell companies for two decades until a federal regulator intervened.",
+  "reason": "P1-1: stage 6 text.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D005",
+  "scope": "md",
+  "type": "number",
+  "before": "Worthiness interviews of minors are conducted alone by adult male volunteers.",
+  "after": "Worthiness interviews of minors are conducted by adult male volunteers, one adult and one child by default; since 2018 the child may ask for a parent to be present.",
+  "reason": "P1-3: stage 6 text, present tense corrected.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D006",
+  "scope": "md",
+  "type": "number",
+  "before": "while a hundred billion dollars sat in an account you were not permitted to know existed.",
+  "after": "while a reserve that a whistleblower valued at over a hundred billion dollars sat in an account you were not permitted to know existed.",
+  "reason": "P1-1: stage 6 'what it asks of you'.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D007",
+  "scope": "md",
+  "type": "number",
+  "before": "Note the arithmetic the members are left with: twenty years, a hundred billion dollars, five million dollars, and no resignation.",
+  "after": "Note the arithmetic the members are left with: twenty years, about $32 billion, five million dollars, and no resignation.",
+  "reason": "P1-1: the card's own figure.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D008",
+  "scope": "md",
+  "type": "number",
+  "before": "A federal regulator established the concealment as fact.",
+  "after": "The SEC's order, a settlement in which the Church and Ensign Peak neither admitted nor denied the findings, records the concealment.",
+  "reason": "P3-26: makes the no-admission basis visible; SEC order, section II.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D009",
+  "scope": "md",
+  "type": "number",
+  "before": "2019–2023 | Whistleblower reveals Ensign Peak's $100B+ reserve; SEC fines Church and Ensign Peak $5M (Feb 2023) for shell-company concealment | A federal regulator documents two decades of deliberate obfuscation. [GOVERNMENT REPORT: SEC order]\n2018–present | Worthiness-interview reform campaigns; abuse-reporting litigation over the clergy helpline | The reform pressure comes from believing members inside the Church. [COURT RECORD / INVESTIGATIVE REPORT]",
+  "after": "2018–present | Worthiness-interview reform campaigns; June 2018 guidelines let a youth invite a parent or other adult into the interview [25]; abuse-reporting litigation over the clergy helpline | The reform pressure comes from believing members inside the Church, and it won a partial change. [OFFICIAL POLICY / COURT RECORD / INVESTIGATIVE REPORT]\n2019–2023 | Whistleblower alleges a $100B+ Ensign Peak reserve [27]; SEC fines Church and Ensign Peak $5M (Feb 2023), without admission, over a securities portfolio hidden behind shell companies (about $32B by 2018) | A federal regulator documents two decades of concealed filings. [GOVERNMENT REPORT: SEC order]",
+  "reason": "P1-1, P1-3, P2-19: SEC figure attributed; 2018 guidelines added as a partial win (E1); timeline put in date order (2018 before 2019).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D010",
+  "scope": "md",
+  "type": "fact",
+  "before": "Kirtland, Missouri, Nauvoo; polygamy introduced secretly; Smith killed 1844",
+  "after": "Kirtland, Missouri (1838 executive order expelling the Saints), Nauvoo; polygamy introduced secretly; Smith killed at Carthage Jail 1844 [11]",
+  "reason": "P2-8: records the extermination order and Carthage, which loop 7 names.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D011",
+  "scope": "md",
+  "type": "fact",
+  "before": "The essays are the receipt, and no standing was ever restored.",
+  "after": "The essays are the receipt. Two of the six later rejoined the Church (Avraham Gileadi was rebaptized in 1996 and Maxine Hanks in 2012) [29], but no discipline is recorded here as withdrawn on the ground that the history was true.",
+  "reason": "P1-4: 'no standing was ever restored' is contradicted by the rebaptisms.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D012",
+  "scope": "md",
+  "type": "fact",
+  "before": "The label was retired for the material and never for the people who were disciplined for it.",
+  "after": "The label was retired for the material; no discipline is recorded as withdrawn on the ground that the material was true.",
+  "reason": "P1-4: Words table, Anti-Mormon row.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D013",
+  "scope": "md",
+  "type": "fact",
+  "before": "the label is retired for the material and never for the people who were disciplined for it (section 14).",
+  "after": "the label is retired for the material, and no discipline is recorded as withdrawn on the ground that the material was true (section 14).",
+  "reason": "P1-4: loop 7 step 5 repeats the section 14 sentence.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D014",
+  "scope": "md",
+  "type": "fact",
+  "before": "and any restoration of standing to those disciplined for the same material.",
+  "after": "and any withdrawal of discipline on the ground that the material was true (two of the September Six, Avraham Gileadi and Maxine Hanks, were later rebaptized [29]).",
+  "reason": "P1-4: promises table.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D015",
+  "scope": "md",
+  "type": "fact",
+  "before": "An episode that, in *The Conversation*'s words, continues to trouble the church [12].",
+  "after": "An episode that, in *The Conversation*'s words, continues to trouble the church [12]. Avraham Gileadi (1996) and Maxine Hanks (2012) were later rebaptized [29].",
+  "reason": "P1-4: case outcome completed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D016",
+  "scope": "md",
+  "type": "fact",
+  "before": "Ask whether the historians excommunicated in 1993 have been reinstated and thanked.",
+  "after": "Ask whether any discipline was withdrawn because the history was true, and whether the historians excommunicated in 1993 have been thanked.",
+  "reason": "P1-4: question no longer implies nobody was reinstated.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D017",
+  "scope": "md",
+  "type": "number",
+  "before": "It holds a reserve portfolio exceeding $100 billion, built from tithing surplus and concealed through shell entities for over twenty years",
+  "after": "A whistleblower put its reserve at over $100 billion [27]; the SEC found that a securities portfolio of about $32 billion by 2018 was concealed behind shell entities for over twenty years",
+  "reason": "P1-1: section 7 Who holds what.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D018",
+  "scope": "md",
+  "type": "number",
+  "before": "Ensign Peak manages the reserve the SEC found concealed behind thirteen shell companies",
+  "after": "Ensign Peak manages the portfolio the SEC found concealed behind thirteen shell companies",
+  "reason": "P1-1: the SEC found a portfolio, not the whole reserve.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D019",
+  "scope": "md",
+  "type": "number",
+  "before": "A whistleblower disclosure in 2019 revealed a reserve fund exceeding $100 billion built from tithing surplus; in 2023 the SEC fined the Church and Ensign Peak $5 million for using shell LLCs to obscure the portfolio's size for over 20 years.",
+  "after": "A whistleblower in 2019 estimated the reserve at over $100 billion [27]; in 2023 the SEC fined the Church and Ensign Peak $5 million for using shell LLCs to obscure the size of a portfolio that had reached about $32 billion by 2018, for over 20 years.",
+  "reason": "P1-1: section 9 'Where it comes from'.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D020",
+  "scope": "md",
+  "type": "number",
+  "before": "A reserve of $100B+ accumulated from tithing surplus and was concealed through shell LLCs for over 20 years until an SEC enforcement action.",
+  "after": "A whistleblower put the reserve at $100B+ [27]; the SEC found a portfolio of about $32 billion by 2018 concealed through shell LLCs for over 20 years until an SEC enforcement action.",
+  "reason": "P1-1: section 9 table.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D021",
+  "scope": "md",
+  "type": "number",
+  "before": "A whistleblower revealed a reserve exceeding $100 billion accumulated from tithing surplus, and in 2023 the SEC fined the Church and Ensign Peak $5 million for using shell companies to conceal it for over twenty years.",
+  "after": "A whistleblower estimated the reserve at over $100 billion [27], and in 2023 the SEC fined the Church and Ensign Peak $5 million for using shell companies to obscure a portfolio of about $32 billion for over twenty years.",
+  "reason": "P1-1: section 10 card 1.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D022",
+  "scope": "md",
+  "type": "number",
+  "before": "**Last time the chair ran.** A $100 billion concealment produced a $5 million penalty, no resignation, and no disclosure policy.",
+  "after": "**Last time the chair ran.** The concealment of a portfolio the SEC put at about $32 billion produced a $5 million penalty, no resignation, and no disclosure policy.",
+  "reason": "P1-1: section 14.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D023",
+  "scope": "md",
+  "type": "number",
+  "before": "- The $100 billion-plus Ensign Peak reserve was accumulated from tithing surplus and concealed through shell LLCs for over two decades until the SEC's 2023 enforcement action.",
+  "after": "- A whistleblower put the Ensign Peak reserve at $100 billion or more [27]; the SEC found that a portfolio of about $32 billion by 2018 was concealed through shell LLCs for over two decades until its 2023 enforcement action.",
+  "reason": "P1-1: section 16 Money out.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D024",
+  "scope": "md",
+  "type": "number",
+  "before": "while $100B sat in reserve.",
+  "after": "while a reserve a whistleblower estimated at over $100B sat unseen.",
+  "reason": "P1-1: section 16 Who pays.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D025",
+  "scope": "md",
+  "type": "number",
+  "before": "while a hundred billion sat in reserve.",
+  "after": "while a reserve a whistleblower estimated at over a hundred billion sat unseen.",
+  "reason": "P1-1: section 17.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D026",
+  "scope": "md",
+  "type": "number",
+  "before": "A whistleblower disclosure revealed a reserve portfolio exceeding $100 billion built from tithing surplus. The Securities and Exchange Commission found that the Church and its investment arm had used shell companies to obscure the portfolio's size for more than twenty years, and imposed a $5 million penalty.",
+  "after": "A whistleblower alleged in 2019 a reserve of over $100 billion [27]. The Securities and Exchange Commission found that the Church and its investment arm had used shell companies to obscure the size of a securities portfolio that had reached about $32 billion by 2018, for more than twenty years, and imposed a $5 million penalty in a settlement in which neither respondent admitted or denied the findings.",
+  "reason": "P1-1, P3-26: section 19 case.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D027",
+  "scope": "md",
+  "type": "number",
+  "before": "1. A federal regulator fined your Church for hiding a $100 billion portfolio from the people who funded it. Ask why the disclosure required a regulator, and ask which leader was held accountable.",
+  "after": "1. A federal regulator fined your Church for hiding its investment portfolio from disclosure for twenty years. A whistleblower put the reserve at over $100 billion. Ask why the disclosure required a regulator, and ask which leader was held accountable.",
+  "reason": "P1-1: section 23 Q1.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D028",
+  "scope": "md",
+  "type": "number",
+  "before": "And if a hundred billion dollars had to be hidden from you for twenty years,",
+  "after": "And if a portfolio worth tens of billions of dollars had to be hidden from you for twenty years,",
+  "reason": "P1-1: closing paragraph.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D029",
+  "scope": "md",
+  "type": "fact",
+  "before": "which historically included sexually explicit questions and are a point of reform pressure [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT].",
+  "after": "which historically included sexually explicit questions and are a point of reform pressure. Since June 2018 a youth may invite a parent or another adult to be present, an adult should remain nearby, and the questions are shared in advance [25][26] [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT].",
+  "reason": "P1-3: section 7 authority bullet.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D030",
+  "scope": "md",
+  "type": "fact",
+  "before": "It means an untrained adult male volunteer questions a child alone about their sexual thoughts and behavior, with the child's standing",
+  "after": "It means an untrained adult male volunteer may question a child alone about their sexual thoughts and behavior; since 2018 the child may ask for a parent to be present, but the default remains one adult and one child. The child's standing",
+  "reason": "P1-3: section 10 card 2.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D031",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Children pay when they are interviewed alone about their sexuality by adult male leaders.",
+  "after": "- Children pay when they are interviewed about their sexuality by adult male leaders, with a parent present only if the child asks.",
+  "reason": "P1-3: section 16.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D032",
+  "scope": "md",
+  "type": "fact",
+  "before": "They are questioned alone about sexual conduct by an untrained adult volunteer.",
+  "after": "They may be questioned about sexual conduct by an untrained adult volunteer, with a parent present only if the child asks.",
+  "reason": "P1-3: section 17.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D033",
+  "scope": "md",
+  "type": "fact",
+  "before": "Which youth are being interviewed alone and what it does to them",
+  "after": "Which youth are being interviewed, mostly without a parent in the room, and what it does to them",
+  "reason": "P1-3: section 18 consistency.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D034",
+  "scope": "md",
+  "type": "fact",
+  "before": "and the target of an active reform campaign. [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT]",
+  "after": "and the target of an active reform campaign; since 2018 a youth may invite a parent or another adult to be present [25]. [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT]",
+  "reason": "P1-3: section 11.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D035",
+  "scope": "md",
+  "type": "fact",
+  "before": "3. Why does an untrained volunteer question a twelve-year-old alone about masturbation, and what institution that works with children would call that acceptable?",
+  "after": "3. Why may an untrained volunteer still question a twelve-year-old alone about sexual matters, with a parent present only if the child asks, and what institution that works with children would call that acceptable?",
+  "reason": "P1-3: section 23 Q3.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D036",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Worthiness-interview reform campaigns | Believing members and abuse survivors run them | 2018–present | Some organizers were excommunicated |",
+  "after": "| Worthiness-interview reform campaigns | Believing members and abuse survivors run them | 2018–present | Some organizers were excommunicated; the June 2018 guidelines, which let a youth invite a parent or other adult into the interview, were a partial result [25] |",
+  "reason": "P1-3: adds the partial win to the precedent table.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D037",
+  "scope": "md",
+  "type": "number",
+  "before": "has filed more than 140,000 resignations since 2015 [13].",
+  "after": "has filed about 80,000 resignations since 2015, as of a 2021 interview [13].",
+  "reason": "P2-9: source 13 gives about 80,000.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D038",
+  "scope": "md",
+  "type": "number",
+  "before": "13. QuitMormon (Mark Naugle, founded 2015 — over 140,000 resignations filed by end-2024).",
+  "after": "13. QuitMormon (Mark Naugle, founded 2015 — about 80,000 resignations filed through the site and about 57,000 confirmed, in an interview recorded 30 March 2021).",
+  "reason": "P2-9: source entry now states what the source says.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D039",
+  "scope": "md",
+  "type": "fact",
+  "before": "| It cost him his career and his standing |",
+  "after": "| He resigned from Ensign Peak in August 2019 and then filed with the IRS; no further cost is recorded on this page [28] |",
+  "reason": "P2-10.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D040",
+  "scope": "md",
+  "type": "fact",
+  "before": "The First Presidency and the Presiding Bishopric hold it, with lifetime tenure and no member audit right.",
+  "after": "The First Presidency holds it, with lifetime tenure, and the Presiding Bishopric it appoints answers to it; members have no audit right.",
+  "reason": "P2-11: the Presiding Bishopric is not a lifetime office.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D041",
+  "scope": "md",
+  "type": "tag",
+  "before": "- **tactics:** 17, 28, 13\n",
+  "after": "- **tactics:** 17, 28, 6\n",
+  "reason": "P2-12: Normalization does not describe excommunicating historians; the essays later conceded the material, so the denial fits Gaslighting.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D042",
+  "scope": "md",
+  "type": "tag",
+  "before": "- **tactics:** 17, 28, 30\n",
+  "after": "- **tactics:** 17, 28, 18\n",
+  "reason": "P2-12: Plausible Deniability does not fit an excommunication; Stonewalling fits.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D043",
+  "scope": "md",
+  "type": "grade",
+  "before": "- **record:** Former member accounts and the legal service's public record\n- **outcome:** The Church formalized a records-removal process. The workaround existed because the ordinary route did not function.\n- **tactics:** 4, 28\n- **grade:** Documented",
+  "after": "- **record:** Former member accounts, the legal service's own record, and press reporting of the Church's 2019 change [13][24]\n- **outcome:** In 2019 the Church began requiring notarized letters for resignations sent through the service, saying some of the filings were fraudulent [24]. Members said the workaround existed because the ordinary route did not function.\n- **tactics:** 4, 28\n- **grade:** Cultural",
+  "reason": "P2-13: member testimony is not a document of record; the practice is local-leader custom, so Cultural; 2019 change cited.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D044",
+  "scope": "md",
+  "type": "layout",
+  "before": "::: cites\nSources for this section: [1] [2] [13]\n:::\n\n",
+  "after": "",
+  "reason": "P2-13: moves the section 19 source line to the end of the section.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D045",
+  "scope": "md",
+  "type": "layout",
+  "before": "- **tactics:** 17, 28, 6\n- **grade:** Documented\n:::\n\n## 20. Precedent",
+  "after": "- **tactics:** 17, 28, 6\n- **grade:** Documented\n:::\n\n::: cites\nSources for this section: [1] [2] [12] [13] [17] [18] [24] [29]\n:::\n\n## 20. Precedent",
+  "reason": "P2-13: section 19 source line at the end, extended to cover every case.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D046",
+  "scope": "md",
+  "type": "fact",
+  "before": "**Path.** Congregation → Denominational assessment or central treasury → Investment arm → Commercial subsidiaries and reserves",
+  "after": "**Path.** Member → Ward → Church headquarters → Ensign Peak Advisors (reserves) and Deseret Management Corporation (commercial)",
+  "reason": "P2-14: 'denominational assessment' is not an LDS mechanism.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D047",
+  "scope": "md",
+  "type": "fact",
+  "before": "**Path.** Local congregation builds → Title held centrally → Sale or leverage at market value\n\n**Disclosed.** Nothing about proceeds is disclosed.\n\n**Hidden.** Sale values and where the proceeds go are hidden.",
+  "after": "**Path.** Local congregation builds → Title held centrally\n\n**Disclosed.** Not recorded on this page.\n\n**Hidden.** Not recorded on this page.",
+  "reason": "P2-14: sale or leverage of congregation-built property is asserted with no source for this Church.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D048",
+  "scope": "md",
+  "type": "fact",
+  "before": "::: card\n#### Publishing and media arm\n\n**Source.** Members buy required or recommended material.\n\n**Path.** Institutional publisher → Author-leaders and their estates → Broadcast and conference circuit\n\n**Disclosed.** Retail prices are disclosed.\n\n**Hidden.** Royalties to serving leaders and bulk-purchase practices are hidden.\n:::\n\n",
+  "after": "",
+  "reason": "P2-14: unsourced shared card removed (royalties and bulk purchases are not recorded for this Church).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D049",
+  "scope": "md",
+  "type": "fact",
+  "before": "| They hold some of the largest private landholdings in the United States | The land was bought with donations and is disclosed to nobody |  |",
+  "after": "| Farmland Reserve says it is ranching about 365,000 acres in Nebraska, and the Church is estimated to own about 1.7 million acres of American real estate, probably an undercount | The land was bought with donations, and the worldwide church publishes no accounts of what it holds | [INVESTIGATIVE REPORT: Flatwater Free Press, Nov 2023] [31] |",
+  "reason": "P2-15: empty receipt cell filled and the claim restated from the source.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D050",
+  "scope": "md",
+  "type": "fact",
+  "before": "There has been historic litigation on tithing and charitable status.",
+  "after": "In 2014 the European Court of Human Rights held that the UK had not breached the Convention by refusing the Preston temple the business-rates exemption for places of public worship, because the temple is open only to members with a recommend [32].",
+  "reason": "P2-16: names the case.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D051",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Church-funded political campaigns — most visibly California's Proposition 8",
+  "after": "- Church-organized political campaigns — most visibly California's Proposition 8",
+  "reason": "P2-17: the money was overwhelmingly members' own donations.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D052",
+  "scope": "md",
+  "type": "fact",
+  "before": "church-funded campaigns, most visibly California's Proposition 8",
+  "after": "church-organized campaigns, most visibly California's Proposition 8",
+  "reason": "P2-17: loop 4 repeats the phrase.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D053",
+  "scope": "md",
+  "type": "fact",
+  "before": "Leadership benefits, retaining infallibility while changing positions.",
+  "after": "Leadership benefits, keeping its prophetic authority while changing positions.",
+  "reason": "P2-18: the Church does not teach infallibility.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D054",
+  "scope": "md",
+  "type": "number",
+  "before": "build an institution with a nine-figure-plus portfolio and no member disclosure.",
+  "after": "build an institution with a portfolio of tens of billions of dollars and no member disclosure.",
+  "reason": "P2-7: loop 5 summary.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D055",
+  "scope": "md",
+  "type": "number",
+  "before": "controls a nine-figure-plus portfolio with zero",
+  "after": "controls a portfolio of tens of billions of dollars with zero",
+  "reason": "P2-7: section 16.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D056",
+  "scope": "md",
+  "type": "number",
+  "before": "United States (~6.7M, concentrated in Utah, Idaho, Arizona, Nevada and California), Mexico, Brazil, the Philippines, Peru and Nigeria,",
+  "after": "United States (~6.9M at the end of 2025, concentrated in Utah, California, Idaho, Arizona and Texas [30]), Mexico, Brazil, the Philippines and Peru,",
+  "reason": "P3-20: US figure and states from the Church News count; Nigeria's rank could not be confirmed so it is removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D057",
+  "scope": "md",
+  "type": "number",
+  "before": "convert baptisms abroad rose sharply in 2025;",
+  "after": "convert baptisms reached a record 385,490 in 2025 [8];",
+  "reason": "P3-21: the rise is reported Church-wide.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D058",
+  "scope": "md",
+  "type": "source",
+  "before": "7. Presiding Bishop — W. Christopher Waddell since 14 Nov 2025; Gérald Caussé called to the Twelve on 6 Nov 2025. https://en.wikipedia.org/wiki/Presiding_Bishop_%28LDS_Church%29",
+  "after": "7. Church Newsroom, \"New Presiding Bishopric\" (14 Nov 2025 — W. Christopher Waddell, with L. Todd Budge and Sean Douglas; Gérald Caussé called to the Twelve on 6 Nov 2025). https://newsroom.churchofjesuschrist.org/article/new-presiding-bishopric-2025",
+  "reason": "P3-22: Wikipedia replaced by the Church's own announcement (same number).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D059",
+  "scope": "md",
+  "type": "fact",
+  "before": "Retrieval arrives as home teachers (members assigned to visit a household)",
+  "after": "Retrieval arrives as ministering brothers and sisters (members assigned to visit a household)",
+  "reason": "P3-23: home teaching was replaced by ministering in 2018.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D060",
+  "scope": "md",
+  "type": "fact",
+  "before": "It receives two years of full-time unpaid labor per missionary,",
+  "after": "It receives eighteen months to two years of full-time unpaid labor per missionary,",
+  "reason": "P3-24: young women serve 18 months.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D061",
+  "scope": "md",
+  "type": "fact",
+  "before": "families pay for their own children's two years of unpaid full-time work",
+  "after": "families pay for their own children's eighteen months to two years of unpaid full-time work",
+  "reason": "P3-24: section 16.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D062",
+  "scope": "md",
+  "type": "fact",
+  "before": "Missionaries' families pay, self-funding two years of unpaid institutional labor.",
+  "after": "Missionaries' families pay, self-funding eighteen months to two years of unpaid institutional labor.",
+  "reason": "P3-24: section 16.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D063",
+  "scope": "md",
+  "type": "fact",
+  "before": "They self-fund two years of the institution's labor.",
+  "after": "They self-fund eighteen months to two years of the institution's labor.",
+  "reason": "P3-24: section 17.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D064",
+  "scope": "md",
+  "type": "fact",
+  "before": "Families pay for their own children's two years of full-time missionary labor",
+  "after": "Families pay for their own children's eighteen months to two years of full-time missionary labor",
+  "reason": "P3-24: loop 5.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D065",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] Recommend expiry and the extending and releasing of callings are set out in Church policy; the reading of spiritual witness as confirmation or error is taught.",
+  "after": "**Evidence grade.** [[Taught]] Recommend expiry and the extending and releasing of callings are set out in Church policy, but the unpredictability the entry describes comes from how spiritual witness and releases are taught and interpreted, not from a written rule.",
+  "reason": "P1-5, P2-6: technique 8 Documented to Taught; the entry cites no court, regulator or filing.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D066",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The requirements that follow baptism (tithing, callings, temple worthiness) are published policy; the inward escalation of interviews rests on members' accounts.",
+  "after": "**Evidence grade.** [[Codified]] The requirements that follow baptism (tithing, callings, temple worthiness) are published policy; the inward escalation of interviews rests on former members' accounts, not on a document of record.",
+  "reason": "P1-5, P2-6: technique 9 Documented to Codified; no court or regulator record is cited, the requirements are written policy.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D067",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The Church's own essays disavow earlier teachings of its leaders, which puts the shift from prophetic authority to human fallibility on the public record.",
+  "after": "**Evidence grade.** [[Taught]] The Church's own essays and leaders' statements disavow earlier teachings and describe leaders as men of their time; that is published teaching, not a court or regulatory record, and the strategic use of the shift is the entry's reading.",
+  "reason": "P1-5: technique 10; the scale reserves Documented for records outside the institution's own words.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D068",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The description of former members as offended, deceived or wanting to sin is observed practice; no written finding records it.",
+  "after": "**Evidence grade.** [[Cultural]] The description of former members as offended, deceived or wanting to sin is observed practice among members and leaders; no written rule or finding records it.",
+  "reason": "P1-5, P2-6: technique 11 Documented to Cultural.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D069",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] Material once called anti-Mormon was later published in the Gospel Topics essays, so the denial stage is on the public record; the attack on the doubter is observed practice.",
+  "after": "**Evidence grade.** [[Taught]] Material once called anti-Mormon was later published in the Church's own Gospel Topics essays, so the denial stage is on the public record; the attack on the doubter is observed practice, not a written rule.",
+  "reason": "P1-5: technique 12 Documented to Taught.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D070",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] Ministering assignments to visit members are set out in Church policy; the family and ward pressure the entry describes is observed practice.",
+  "after": "**Evidence grade.** [[Cultural]] Ministering assignments are Church policy, but the family and ward pressure the entry describes is custom that the Church neither mandates nor prevents.",
+  "reason": "P1-5: technique 16 Codified to Cultural.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D071",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] The responses the entry records ('continuing revelation', 'the leaders are imperfect but the Church is true') are taught answers, not written rules.",
+  "after": "**Evidence grade.** [[Taught]] The responses the entry records ('continuing revelation', 'the leaders are imperfect but the Church is true') are taught answers, not written rules.",
+  "reason": "P1-5, P2-6: technique 25 Codified to Taught, as its own note says.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D072",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] The teaching that leaving endangers an eternal family is published doctrine; the urgency with which family and bishops respond is observed practice.",
+  "after": "**Evidence grade.** [[Taught]] The teaching that leaving endangers an eternal family is taught doctrine; the urgency with which family and bishops respond is observed practice.",
+  "reason": "P1-5, P2-6: technique 27 Codified to Taught.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D073",
+  "scope": "md",
+  "type": "grade",
+  "before": "loss of temple access. *(sourced)*",
+  "after": "loss of temple access.",
+  "reason": "P1-5: removes *(sourced)* from a technique whose entry names no document.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D074",
+  "scope": "md",
+  "type": "grade",
+  "before": "through a local leader's assessment. *(sourced)*",
+  "after": "through a local leader's assessment.",
+  "reason": "P1-5: removes *(sourced)* from a technique whose entry names no document.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D075",
+  "scope": "md",
+  "type": "grade",
+  "before": "both publicly recorded. *(sourced)*",
+  "after": "both publicly recorded.",
+  "reason": "P1-5: removes *(sourced)* from a technique whose entry names no document.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D076",
+  "scope": "md",
+  "type": "grade",
+  "before": "enrolls children into covenants and tithing expectation. *(sourced)*",
+  "after": "enrolls children into covenants and tithing expectation.",
+  "reason": "P1-5: removes *(sourced)* from a technique whose entry names no document.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D077",
+  "scope": "md",
+  "type": "grade",
+  "before": "taught continuously. *(sourced)*",
+  "after": "taught continuously.",
+  "reason": "P1-5: removes *(sourced)* from a technique whose entry names no document.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D078",
+  "scope": "md",
+  "type": "grade",
+  "before": "rather than the member's own, structurally and repeatedly. *(sourced)*",
+  "after": "rather than the member's own, structurally and repeatedly.",
+  "reason": "P1-5: removes *(sourced)* from a technique whose entry names no document.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D079",
+  "scope": "md",
+  "type": "grade",
+  "before": "taught continuously rather than mandated. *(sourced)*",
+  "after": "taught continuously rather than mandated.",
+  "reason": "P1-5: removes *(sourced)* from a technique whose entry names no document.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D080",
+  "scope": "md",
+  "type": "grade",
+  "before": "recorded as evidence of human authorship. *(sourced)*",
+  "after": "recorded as evidence of human authorship.",
+  "reason": "P1-5: removes *(sourced)* from a technique whose entry names no document.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D081",
+  "scope": "md",
+  "type": "grade",
+  "before": "| Evidence | Twelve of the 30 techniques are sourced to a named document. The grades are Codified 14, Taught 7, Documented 7 and Reformed 2. |",
+  "after": "| Evidence | Four of the 30 techniques are sourced to a named document (6, 13, 18 and 26). The grades are Codified 12, Taught 12, Cultural 2, Documented 2 and Reformed 2. |",
+  "reason": "P1-5: tally after the regrades and removal of unsupported markers; counts match the section 12 chips.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D082",
+  "scope": "md",
+  "type": "source",
+  "before": "23. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/",
+  "after": "23. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/\n24. Salt Lake Tribune, \"The LDS Church adds a new step for members using QuitMormon.com to resign, complains of fraud\" (4 Aug 2019 — notarized letters now required; over 40,000 letters sent since late 2015; delays under the older route). https://www.sltrib.com/religion/2019/08/04/lds-church-adds-new-step/\n25. Salt Lake Tribune, \"Mormon church publicizes revised guidelines for youth interviews\" (20 Jun 2018 — a youth may invite a parent or another adult to be present; questions shared in advance). https://sltrib.com/religion/2018/06/20/mormon-church-publicizes-revised-guidelines-for-youth-interviews\n26. KUTV, \"LDS Church announces new guidelines for interviewing youth\" (June 2018 — a parent or other adult remains in an adjoining room, foyer or hall; a person interviewed may request a parent or other adult's presence). https://kutv.com/news/local/lds-church-announces-new-guidelines-for-interviewing-youth\n27. Washington Post, via Anchorage Daily News, \"Mormon church has misled members on $100 billion tax-exempt investment fund, whistleblower alleges\" (17 Dec 2019 — the whistleblower's estimate of total reserves). https://www.adn.com/nation-world/2019/12/17/mormon-church-has-misled-members-on-100-billion-tax-exempt-investment-fund-whistleblower-alleges/\n28. Deseret News, \"Washington Post: Whistleblower files IRS complaint against LDS Church\" (17 Dec 2019 — David A. Nielsen, former Ensign Peak portfolio manager, resigned in August 2019 before filing; alleged assets of $99 to $101 billion). https://www.deseret.com/utah/2019/12/17/21026182/mormon-lds-church-washington-post-whistleblower-irs-complaint-taxes-ensign-peak\n29. Salt Lake Tribune, \"Why were the 'September Six' censured by the LDS Church and where are they now?\" (3 Sep 2023 — Avraham Gileadi rebaptized 1996; Maxine Hanks rebaptized February 2012). https://www.sltrib.com/religion/2023/09/03/why-were-september-six-censured-by/\n30. Church News, church membership growth by state, United States 2000–2025 (27 Aug 2026 — 6.93 million US members at year-end 2025; Utah, California, Idaho, Arizona, Texas the largest). https://www.thechurchnews.com/members/2026/08/27/church-membership-growth-by-united-states-2000-2025-jesus-christ-latter-day-saints/\n31. Flatwater Free Press, \"Who's buying Nebraska? After shopping spree, Mormon church is top land purchaser\" (Nov 2023 — Farmland Reserve ranching about 365,000 acres in the Sandhills; church estimated to own about 1.7 million acres). https://flatwaterfreepress.org/whos-buying-nebraska-after-shopping-spree-mormon-church-is-top-land-purchaser/\n32. European Court of Human Rights, *The Church of Jesus Christ of Latter-Day Saints v. the United Kingdom*, application 7552/09 (judgment of 4 Mar 2014 — no violation of Article 14 with Article 9 in refusing the Preston temple the places-of-worship rates exemption). https://www.deseret.com/2014/3/5/20536685/temple-tax-european-court-rules-lds-church-must-pay-local-property-tax-for-preston-england-temple/",
+  "reason": "P1-1 to P3-22: new sources 24 to 32 added at the end of section 26; no existing number changed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D083",
+  "scope": "md",
+  "type": "source",
+  "before": "::: cites\nSources for this section: [1] [2] [4] [9] [11] [12]\n:::",
+  "after": "::: cites\nSources for this section: [1] [2] [4] [9] [11] [12] [25] [27] [29]\n:::",
+  "reason": "New sources cited in section 5.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D084",
+  "scope": "md",
+  "type": "source",
+  "before": "::: cites\nSources for this section: [1] [2] [4] [5] [6] [7] [8]\n:::",
+  "after": "::: cites\nSources for this section: [1] [2] [4] [5] [6] [7] [8] [25] [26] [27] [28] [30] [31]\n:::",
+  "reason": "New sources cited in section 7.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D085",
+  "scope": "md",
+  "type": "meta",
+  "before": "checked: 2026-09-27",
+  "after": "checked: 2026-10-03",
+  "reason": "Text rechecked after the discrepancy fixes.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D086",
+  "scope": "md",
+  "type": "meta",
+  "before": "| Last checked | 2026-09-27 |",
+  "after": "| Last checked | 2026-10-03 |",
+  "reason": "Same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D087",
+  "scope": "md",
+  "type": "changelog",
+  "before": "- **2026-09-27:** Added Branches,",
+  "after": "- **2026-10-03:** Corrected the Ensign Peak figures (the SEC found a hidden portfolio of about $32 billion by 2018; the $100 billion figure is a whistleblower's estimate and is now attributed); recorded the June 2018 change that lets a youth invite a parent into a worthiness interview; corrected the September Six outcome (two later rejoined); fixed the QuitMormon figure, the Presiding Bishopric, the missionary service length and the church-funded Proposition 8 wording; regraded eight techniques whose grades were stronger than their entries, with matching counts; removed unsupported claims from the money cards; and added nine sources.\n- **2026-09-27:** Added Branches,",
+  "reason": "Patch note for this round.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "LDS-D088",
+  "scope": "narration",
+  "type": "narration",
+  "before": "questioned alone about sexual matters by an untrained volunteer adult who is also a neighbor and the family's ecclesiastical leader. If you are a parent, you can ask to sit in, or decline on your child's behalf.",
+  "after": "questioned about sexual matters by an untrained volunteer adult who is also a neighbor and the family's ecclesiastical leader, with a parent present only if the child asks. If you are a parent, you can ask to sit in, or decline on your child's behalf.",
+  "reason": "Narration followed the table row rewritten under P1-3.",
+  "count": 1,
+  "status": "proposed"
  }
 ]

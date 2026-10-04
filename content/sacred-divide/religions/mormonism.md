@@ -5,7 +5,7 @@ family: "Restorationist & Adventist"
 family_id: restorationist
 family_members: [mormonism, jehovahs-witnesses, seventh-day-adventism]
 version: v4
-checked: 2026-09-27
+checked: 2026-10-03
 sections_filled: 27/27
 missing: []
 partial: []
@@ -23,10 +23,10 @@ partial: []
 | Chosen by / removable by | Seniority — a queue, not a choice / Nobody. The office ends at death |
 | Money in one line | Tithing (10%) is linked directly to temple worthiness, which makes it salvation-gated revenue. [OFFICIAL POLICY: temple recommend questions] |
 | Leaving in one line | Leaving strains multigenerational LDS families and ends temple participation in relatives' weddings. In the Mormon corridor (the heavily Latter-day Saint region centered on Utah) it carries social and professional costs, and missionary-age youth face identity-scale exit decisions. |
-| The unanswered question | A hundred-billion-dollar fund was concealed for two decades; the penalty was five million dollars and no resignation. On what date do the members see the books? |
-| Evidence | Twelve of the 30 techniques are sourced to a named document. The grades are Codified 14, Taught 7, Documented 7 and Reformed 2. |
+| The unanswered question | A portfolio a whistleblower valued at over a hundred billion dollars was hidden from securities filings for two decades; the penalty was five million dollars and no resignation. On what date do the members see the books? |
+| Evidence | Four of the 30 techniques are sourced to a named document (6, 13, 18 and 26). The grades are Codified 12, Taught 12, Cultural 2, Documented 2 and Reformed 2. |
 | Family | Restorationist & Adventist — mormonism, jehovahs-witnesses, seventh-day-adventism |
-| Last checked | 2026-09-27 |
+| Last checked | 2026-10-03 |
 :::
 
 ### Disclosure scorecard
@@ -51,7 +51,7 @@ At eleven she takes a casserole to a sister in the ward (the local congregation)
 
 In the afternoon her son Cole, who is twelve, has an interview with the bishop. Alone. It is standard. Kimberly sits in the foyer and thinks about the questions she was asked at twelve, and about the fact that she cannot remember whether she was asked them or whether she is remembering someone else's account, and about the specific quality of not wanting to know.
 
-At ten she is on her phone and there is an article about the Ensign Peak settlement (the SEC case against the Church's investment arm) — a hundred billion dollars, twenty years, shell companies, five million dollar penalty. She reads it twice. She puts the phone down. She thinks about the transmission and the orthodontist and about the December meeting, and about the fact that in December nobody will ask Bishop Anderson anything, and that he could not answer it if she did, and that the only person in the entire arrangement who will be asked a question is her.
+At ten she is on her phone and there is an article about the Ensign Peak settlement (the SEC case against the Church's investment arm) — tens of billions of dollars, twenty years, shell companies, five million dollar penalty. She reads it twice. She puts the phone down. She thinks about the transmission and the orthodontist and about the December meeting, and about the fact that in December nobody will ask Bishop Anderson anything, and that he could not answer it if she did, and that the only person in the entire arrangement who will be asked a question is her.
 
 ## 3. The forefront {#forefront}
 
@@ -62,14 +62,14 @@ You may have felt something in a testimony meeting that has never left you, and 
 ### The unanswered question
 
 ::: question
-A hundred-billion-dollar fund was concealed for two decades; the penalty was five million dollars and no resignation. On what date do the members see the books?
+A portfolio a whistleblower valued at over a hundred billion dollars was hidden from securities filings for two decades; the penalty was five million dollars and no resignation. On what date do the members see the books?
 :::
 
 ### The widest gap between word and record
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| The Church is a careful steward of sacred funds. | A federal regulator found twenty years of deliberate concealment of a hundred-billion-dollar portfolio. | [GOVERNMENT REPORT] |
+| The Church is a careful steward of sacred funds. | A federal regulator found that for over twenty years the Church's investment arm hid a securities portfolio, about $32 billion by 2018, behind thirteen shell companies; a whistleblower put the whole reserve at over $100 billion [27]. | [GOVERNMENT REPORT] |
 
 ### One cost of leaving, beside its denial
 
@@ -103,7 +103,7 @@ Joseph Smith founded the Church in 1830, in upstate New York, on new scripture a
 
 ```timeline
 1820–1830 | Joseph Smith's visions; Book of Mormon published; Church organized 1830 | New scripture is joined to living prophetic authority, a claim that makes present leadership unchallengeable.
-1831–1844 | Kirtland, Missouri, Nauvoo; polygamy introduced secretly; Smith killed 1844 | Leaders practice a secret doctrine while publicly denying it, the founding instance of a pattern. [ACADEMIC SOURCE]
+1831–1844 | Kirtland, Missouri (1838 executive order expelling the Saints), Nauvoo; polygamy introduced secretly; Smith killed at Carthage Jail 1844 [11] | Leaders practice a secret doctrine while publicly denying it, the founding instance of a pattern. [ACADEMIC SOURCE]
 1846–1857 | Brigham Young leads migration to Utah; theocratic territorial government | The church is also a state, an economy and a court system.
 1857–1890 | Federal conflict over polygamy; 1890 Manifesto ends the practice officially | Doctrine is reversed under state pressure and reframed as revelation. [OFFICIAL POLICY]
 1890–1950 | Assimilation; tithing systematized; welfare program built | The institution consolidates and puts its finances under discipline.
@@ -111,8 +111,8 @@ Joseph Smith founded the Church in 1830, in upstate New York, on new scripture a
 1978 | Revelation ends the racial priesthood and temple ban | A doctrine held for over a century is reversed, and the prior teaching is later disavowed. [OFFICIAL POLICY]
 1980s–2000s | Correlation (the headquarters program that reviews and standardizes all Church teaching materials) centralizes all curriculum; excommunication of the 'September Six' (1993) | Historians and intellectuals are disciplined for their research. [INVESTIGATIVE REPORT]
 2013–2019 | Gospel Topics essays acknowledge polygamy, race, and translation issues; 2015 exclusion policy on LGBTQ families, reversed 2019 | Transparency arrives under internet pressure, and a major policy is reversed within four years. [OFFICIAL POLICY]
-2019–2023 | Whistleblower reveals Ensign Peak's $100B+ reserve; SEC fines Church and Ensign Peak $5M (Feb 2023) for shell-company concealment | A federal regulator documents two decades of deliberate obfuscation. [GOVERNMENT REPORT: SEC order]
-2018–present | Worthiness-interview reform campaigns; abuse-reporting litigation over the clergy helpline | The reform pressure comes from believing members inside the Church. [COURT RECORD / INVESTIGATIVE REPORT]
+2018–present | Worthiness-interview reform campaigns; June 2018 guidelines let a youth invite a parent or other adult into the interview [25]; abuse-reporting litigation over the clergy helpline | The reform pressure comes from believing members inside the Church, and it won a partial change. [OFFICIAL POLICY / COURT RECORD / INVESTIGATIVE REPORT]
+2019–2023 | Whistleblower alleges a $100B+ Ensign Peak reserve [27]; SEC fines Church and Ensign Peak $5M (Feb 2023), without admission, over a securities portfolio hidden behind shell companies (about $32B by 2018) | A federal regulator documents two decades of concealed filings. [GOVERNMENT REPORT: SEC order]
 ```
 
 ### Moments in the room
@@ -130,7 +130,7 @@ The Church stopped publishing financial statements to its US membership. There w
 
 Six scholars and writers were excommunicated or disfellowshipped (placed under formal church restrictions short of excommunication) within weeks of one another, most for historical and feminist scholarship. Twenty years later the Gospel Topics essays conceded much of the history they had documented.
 
-**Why it matters.** The institution punished people for saying what it would later publish itself. The essays are the receipt, and no standing was ever restored.
+**Why it matters.** The institution punished people for saying what it would later publish itself. The essays are the receipt. Two of the six later rejoined the Church (Avraham Gileadi was rebaptized in 1996 and Maxine Hanks in 2012) [29], but no discipline is recorded here as withdrawn on the ground that the history was true.
 :::
 
 ::: card
@@ -138,11 +138,11 @@ Six scholars and writers were excommunicated or disfellowshipped (placed under f
 
 The Securities and Exchange Commission found that Ensign Peak Advisors had used thirteen shell companies over roughly two decades to obscure the size of the Church's portfolio, and that the Church was aware of and approved the arrangement. The penalty totalled $5 million.
 
-**Why it matters.** A federal regulator established the concealment as fact. Note the arithmetic the members are left with: twenty years, a hundred billion dollars, five million dollars, and no resignation.
+**Why it matters.** The SEC's order, a settlement in which the Church and Ensign Peak neither admitted nor denied the findings, records the concealment. Note the arithmetic the members are left with: twenty years, about $32 billion, five million dollars, and no resignation.
 :::
 
 ::: cites
-Sources for this section: [1] [2] [4] [9] [11] [12]
+Sources for this section: [1] [2] [4] [9] [11] [12] [25] [27] [29]
 :::
 
 ## 6. Branches & variants {#branches}
@@ -162,13 +162,13 @@ The tradition includes The Church of Jesus Christ of Latter-day Saints, which is
 |  |  |
 |---|---|
 | Adherents | The Church counts ~17.9 million members on its rolls (2025). Independent analyses estimate active participation at roughly a third of that, and self-identification in national surveys is far lower than official counts. [OFFICIAL POLICY: Church statistical report / ACADEMIC SOURCE] |
-| Regions | The largest memberships are in the United States (~6.7M, concentrated in Utah, Idaho, Arizona, Nevada and California), Mexico, Brazil, the Philippines, Peru and Nigeria, and missionary work has built a large presence across the Global South. |
-| Trend | Growth in the United States has slowed and youth retention has fallen; convert baptisms abroad rose sharply in 2025; membership rolls include many inactive and unlocatable members, which the Church acknowledges only indirectly. [ACADEMIC SOURCE] |
+| Regions | The largest memberships are in the United States (~6.9M at the end of 2025, concentrated in Utah, California, Idaho, Arizona and Texas [30]), Mexico, Brazil, the Philippines and Peru, and missionary work has built a large presence across the Global South. |
+| Trend | Growth in the United States has slowed and youth retention has fallen; convert baptisms reached a record 385,490 in 2025 [8]; membership rolls include many inactive and unlocatable members, which the Church acknowledges only indirectly. [ACADEMIC SOURCE] |
 | Participation | The rolls/activity gap is one of the largest in this codex — members are recorded from baptism and rarely removed, so official counts substantially overstate the population under institutional authority. |
 
 ### Authority
 
-- The hierarchy is strict. Authority runs from the prophet and apostles, who serve for life and choose their own successors, to stake presidents (who lead a stake, a group of wards) and then to bishops. Worthiness interviews gate temple access, including interviews of minors, which historically included sexually explicit questions and are a point of reform pressure [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT].
+- The hierarchy is strict. Authority runs from the prophet and apostles, who serve for life and choose their own successors, to stake presidents (who lead a stake, a group of wards) and then to bishops. Worthiness interviews gate temple access, including interviews of minors, which historically included sexually explicit questions and are a point of reform pressure. Since June 2018 a youth may invite a parent or another adult to be present, an adult should remain nearby, and the questions are shared in advance [25][26] [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT].
 - Correlation gives headquarters centralized control of all curriculum and messaging. [OFFICIAL POLICY]
 
 ### The top of the chain
@@ -181,7 +181,7 @@ This is the only apex in this codex whose future occupants you can name today. S
 |---|---|---|---|
 | President of the Church | Dallin H. Oaks has held the office since October 2025. He succeeded automatically, by apostolic seniority, on the death of Russell M. Nelson in September 2025, and the queue of likely future presidents is visible decades ahead. | Seniority — a queue, not a choice | Nobody. The office ends at death |
 | The First Presidency and Quorum of the Twelve | Fifteen men hold these offices for life and select their own replacements | Themselves | Themselves |
-| The Presiding Bishopric and Ensign Peak Advisors | Presiding Bishop W. Christopher Waddell has overseen temporal affairs since November 2025. Ensign Peak manages the reserve the SEC found concealed behind thirteen shell companies | The First Presidency | The First Presidency |
+| The Presiding Bishopric and Ensign Peak Advisors | Presiding Bishop W. Christopher Waddell has overseen temporal affairs since November 2025. Ensign Peak manages the portfolio the SEC found concealed behind thirteen shell companies | The First Presidency | The First Presidency |
 | The members | Members sustain (formally approve) their leaders by raised hand twice a year | — | The raised hand has never once removed anyone — and voting 'opposed' triggers a meeting with your bishop |
 
 ::: tell
@@ -193,13 +193,13 @@ You can name this church's probable president in 2045 with fair confidence today
 | Entity | Type | Holder | Holds | Why it matters to you | Receipt |
 |---|---|---|---|---|---|
 | The First Presidency and Quorum of the Twelve | Governing office | Fifteen men hold it for life and choose their own successors | They control doctrine, all appointments and the entire financial apparatus | Their rules decide whether your family is sealed for eternity | [OFFICIAL POLICY: General Handbook] |
-| Ensign Peak Advisors | Investment arm | Its management is appointed by the Church and named in the SEC order | It holds a reserve portfolio exceeding $100 billion, built from tithing surplus and concealed through shell entities for over twenty years | Your ten percent sits in an account you were not told existed | [GOVERNMENT REPORT: SEC administrative order, February 2023] |
+| Ensign Peak Advisors | Investment arm | Its management is appointed by the Church and named in the SEC order | A whistleblower put its reserve at over $100 billion [27]; the SEC found that a securities portfolio of about $32 billion by 2018 was concealed behind shell entities for over twenty years | Your ten percent sits in an account you were not told existed | [GOVERNMENT REPORT: SEC administrative order, February 2023] |
 | Deseret Management Corporation | Commercial holding company | A board appointed by the Church runs it | It holds media, insurance, hospitality and other commercial operations | Your tithing capitalized these businesses | [FINANCIAL RECORD: corporate filings] |
-| Farmland Reserve and Property Reserve | Real estate and agriculture | The Church controls these entities | They hold some of the largest private landholdings in the United States | The land was bought with donations and is disclosed to nobody |  |
+| Farmland Reserve and Property Reserve | Real estate and agriculture | The Church controls these entities | Farmland Reserve says it is ranching about 365,000 acres in Nebraska, and the Church is estimated to own about 1.7 million acres of American real estate, probably an undercount | The land was bought with donations, and the worldwide church publishes no accounts of what it holds | [INVESTIGATIVE REPORT: Flatwater Free Press, Nov 2023] [31] |
 | City Creek Center | Commercial development | The Church's commercial arms developed it | It is a downtown mall, developed while members were asked to sacrifice | It shows what sacrifice was actually funding | [INVESTIGATIVE REPORT] |
 | The temple recommend interview | Access control | Local bishops and stake presidents, who are unpaid volunteers, conduct it | It verifies tithing, and therefore controls access to sealing ordinances | It decides whether you may attend your own daughter's wedding | [OFFICIAL POLICY: temple recommend questions] |
 | The abuse-reporting helpline | Risk management | Attorneys retained by the Church staff it | It is the route a bishop takes when a child discloses abuse | It decides who gets called before the police | [COURT RECORD: litigation over helpline structure] |
-| Missionary self-funding | Labor supply | The Church's missionary department runs it | It receives two years of full-time unpaid labor per missionary, paid for by the missionary's family | Your savings fund your own child's unpaid work | [OFFICIAL POLICY] |
+| Missionary self-funding | Labor supply | The Church's missionary department runs it | It receives eighteen months to two years of full-time unpaid labor per missionary, paid for by the missionary's family | Your savings fund your own child's unpaid work | [OFFICIAL POLICY] |
 
 ### Succession watch
 
@@ -208,7 +208,7 @@ You can name this church's probable president in 2045 with fair confidence today
 | President of the Church of Jesus Christ of Latter-day Saints | Dallin H. Oaks has held the office since October 2025 | Succession follows apostolic seniority, which is arithmetic, not selection | The successor is already knowable from the seniority order of the Quorum of the Twelve, years in advance. The codex predicts: no change to the financial disclosure position at the transfer, because the mechanism that produced the concealment is structural rather than personal. | Publication of member-facing audited accounts within twelve months of any succession would falsify the prediction. |
 
 ::: cites
-Sources for this section: [1] [2] [4] [5] [6] [7] [8]
+Sources for this section: [1] [2] [4] [5] [6] [7] [8] [25] [26] [27] [28] [30] [31]
 :::
 
 ## 8. Law & state here {#law}
@@ -230,7 +230,7 @@ The SEC has already demonstrated who can compel here. Beyond it, state attorneys
 ### Where it comes from
 
 - Tithing (10%) is linked directly to temple worthiness, which makes it salvation-gated revenue. [OFFICIAL POLICY: temple recommend questions]
-- Ensign Peak Advisors is the Church's investment arm. A whistleblower disclosure in 2019 revealed a reserve fund exceeding $100 billion built from tithing surplus; in 2023 the SEC fined the Church and Ensign Peak $5 million for using shell LLCs to obscure the portfolio's size for over 20 years. [FINANCIAL RECORD / GOVERNMENT REPORT: SEC administrative order, Feb 2023]
+- Ensign Peak Advisors is the Church's investment arm. A whistleblower in 2019 estimated the reserve at over $100 billion [27]; in 2023 the SEC fined the Church and Ensign Peak $5 million for using shell LLCs to obscure the size of a portfolio that had reached about $32 billion by 2018, for over 20 years. [FINANCIAL RECORD / GOVERNMENT REPORT: SEC administrative order, Feb 2023]
 - Membership statistics based on the rolls overstate activity, and the finances are not disclosed to the members who fund them. [PATTERN OBSERVED / INVESTIGATIVE REPORT]
 
 ### Follow the money
@@ -238,7 +238,7 @@ The SEC has already demonstrated who can compel here. Beyond it, state attorneys
 | Flow | Stated purpose | How it controls | Who benefits |
 |---|---|---|---|
 | Tithing (10% of income) | It is said to fund the Church's work. | It is directly linked to temple recommend worthiness, and access to the highest ordinances, including family sealings, is conditioned on payment. This is salvation-gated revenue, and it is written policy. [OFFICIAL POLICY] | The corporate church and its investment arms benefit. |
-| Ensign Peak Advisors reserve fund | It is described as prudent reserves for future needs. | A reserve of $100B+ accumulated from tithing surplus and was concealed through shell LLCs for over 20 years until an SEC enforcement action. | The institution benefits, and members were never told [GOVERNMENT REPORT: SEC order, Feb 2023] |
+| Ensign Peak Advisors reserve fund | It is described as prudent reserves for future needs. | A whistleblower put the reserve at $100B+ [27]; the SEC found a portfolio of about $32 billion by 2018 concealed through shell LLCs for over 20 years until an SEC enforcement action. | The institution benefits, and members were never told [GOVERNMENT REPORT: SEC order, Feb 2023] |
 | Missionary self-funding | It is presented as serving a mission. | Families pay for their own children's unpaid full-time labor, so the Church's largest workforce funds itself. | The institution's growth operations benefit. |
 | Commercial holdings (real estate, agribusiness, media, City Creek) | It is presented as stewardship of assets. | Members were asked to sacrifice for a mall development amid tithing rhetoric. | The corporate church benefits [INVESTIGATIVE REPORT] |
 | Unpaid lay clergy and member labor | It is presented as service. | The Church saves enormous operational costs and members gain no equity, while leaders at the top do receive stipends. | The institution benefits. |
@@ -250,7 +250,7 @@ The SEC has already demonstrated who can compel here. Beyond it, state attorneys
 
 **Source.** The money comes from members' income, and giving it is taught as an obligation.
 
-**Path.** Congregation → Denominational assessment or central treasury → Investment arm → Commercial subsidiaries and reserves
+**Path.** Member → Ward → Church headquarters → Ensign Peak Advisors (reserves) and Deseret Management Corporation (commercial)
 
 **Disclosed.** Only aggregate 'we use funds wisely' statements are disclosed.
 
@@ -262,11 +262,11 @@ The SEC has already demonstrated who can compel here. Beyond it, state attorneys
 
 **Source.** Volunteers supply construction, service and administration.
 
-**Path.** Local congregation builds → Title held centrally → Sale or leverage at market value
+**Path.** Local congregation builds → Title held centrally
 
-**Disclosed.** Nothing about proceeds is disclosed.
+**Disclosed.** Not recorded on this page.
 
-**Hidden.** Sale values and where the proceeds go are hidden.
+**Hidden.** Not recorded on this page.
 :::
 
 ::: card
@@ -279,18 +279,6 @@ The SEC has already demonstrated who can compel here. Beyond it, state attorneys
 **Disclosed.** The monthly amount is disclosed.
 
 **Hidden.** The aggregate value of the labor received is hidden.
-:::
-
-::: card
-#### Publishing and media arm
-
-**Source.** Members buy required or recommended material.
-
-**Path.** Institutional publisher → Author-leaders and their estates → Broadcast and conference circuit
-
-**Disclosed.** Retail prices are disclosed.
-
-**Hidden.** Royalties to serving leaders and bulk-purchase practices are hidden.
 :::
 
 ::: cites
@@ -322,7 +310,7 @@ Sources for this section: [1] [2] [10]
 
 **Why that reason expired.** Visibility ended in 1959, when the Church stopped publishing financial statements to U.S. members. The link between payment and access did not end. You are asked for ten percent, told your family's eternal sealing depends on it, and refused the books.
 
-**Who benefits now.** The corporate church and its investment arms benefit. A whistleblower revealed a reserve exceeding $100 billion accumulated from tithing surplus, and in 2023 the SEC fined the Church and Ensign Peak $5 million for using shell companies to conceal it for over twenty years. [GOVERNMENT REPORT: SEC order]
+**Who benefits now.** The corporate church and its investment arms benefit. A whistleblower estimated the reserve at over $100 billion [27], and in 2023 the SEC fined the Church and Ensign Peak $5 million for using shell companies to obscure a portfolio of about $32 billion for over twenty years. [GOVERNMENT REPORT: SEC order]
 :::
 
 ::: card
@@ -332,7 +320,7 @@ Sources for this section: [1] [2] [10]
 
 **What it was for.** They provided pastoral oversight in small frontier wards, where the bishop was the community's known and accountable leader.
 
-**Why that reason expired.** It means an untrained adult male volunteer questions a child alone about their sexual thoughts and behavior, with the child's standing in their family's religion depending on the answers. Reform campaigns run by believing members target exactly this. No other institution that works with children would permit this structure.
+**Why that reason expired.** It means an untrained adult male volunteer may question a child alone about their sexual thoughts and behavior; since 2018 the child may ask for a parent to be present, but the default remains one adult and one child. The child's standing in their family's religion depending on the answers. Reform campaigns run by believing members target exactly this. No other institution that works with children would permit this structure.
 
 **Who benefits now.** The institution benefits, through control of sexual conformity enforced without paid staff. The cost is borne by children, and by adults who report lasting sexual shame. [FORMER MEMBER TESTIMONY]
 :::
@@ -358,7 +346,7 @@ Sources for this section: [1] [2] [10]
 
 **Why that reason expired.** In practice it means positions held for over a century (the racial priesthood ban) or four years (the 2015 policy excluding children of same-sex couples from baptism) can be reversed without anyone being wrong, and without accounting to the families harmed in between.
 
-**Who benefits now.** Leadership benefits, retaining infallibility while changing positions. The cost was paid by Black members for 126 years and by LGBTQ families for four.
+**Who benefits now.** Leadership benefits, keeping its prophetic authority while changing positions. The cost was paid by Black members for 126 years and by LGBTQ families for four.
 :::
 
 ## 11. Reach {#reach}
@@ -373,7 +361,7 @@ Sources for this section: [1] [2] [10]
 ### Children
 
 - Baptism at age 8 — designated the 'age of accountability' — enrolls children into covenants and tithing expectations before adolescence.
-- One-on-one worthiness interviews of minors by adult male leaders, historically including sexually explicit questioning, are the sharpest child-safeguarding issue here and the target of an active reform campaign. [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT]
+- One-on-one worthiness interviews of minors by adult male leaders, historically including sexually explicit questioning, are the sharpest child-safeguarding issue here and the target of an active reform campaign; since 2018 a youth may invite a parent or another adult to be present [25]. [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT]
 - Youth are expected to plan for missions from childhood; missionary service at 18–19 involves surrendered communication, assigned companions, and controlled schedules at a formative age.
 - Temple garments (sacred underclothing worn by members who have made temple covenants), chastity teaching, and 'For the Strength of Youth' (the Church's published standards for teenagers) standards regulate dress and dating from early adolescence.
 
@@ -445,7 +433,7 @@ Missionaries who remember your name, help you move, teach that families can be t
 ::: stage
 **You are given a future that cannot be verified, and a rope for whenever you drift toward the door.**
 
-Families together forever, the Celestial Kingdom (the highest degree of heaven in LDS teaching), eternal increase and your own worlds make up the largest promise in this codex, deliverable after death and conditional on continuous compliance. Retrieval arrives as home teachers (members assigned to visit a household), a bishop's call, and your mother's tears.
+Families together forever, the Celestial Kingdom (the highest degree of heaven in LDS teaching), eternal increase and your own worlds make up the largest promise in this codex, deliverable after death and conditional on continuous compliance. Retrieval arrives as ministering brothers and sisters (members assigned to visit a household), a bishop's call, and your mother's tears.
 
 *What it asks of you:* The reward is your family, held in escrow, released on terms the institution sets and can revise.
 :::
@@ -585,7 +573,7 @@ Material later published by the Church itself was previously called anti-Mormon 
 
 **The counter.** A reward whose criteria are unstatable, whose timing is unpredictable, and whose interpreter is the institution is the textbook schedule — the doctrine that 'release is not demotion' exists precisely because every member's nervous system says otherwise.
 
-**Evidence grade.** [[Documented]] Recommend expiry and the extending and releasing of callings are set out in Church policy; the reading of spiritual witness as confirmation or error is taught.
+**Evidence grade.** [[Taught]] Recommend expiry and the extending and releasing of callings are set out in Church policy, but the unpredictability the entry describes comes from how spiritual witness and releases are taught and interpreted, not from a written rule.
 :::
 
 ::: tactic n=9
@@ -603,7 +591,7 @@ Material later published by the Church itself was previously called anti-Mormon 
 
 **The counter.** Commitment becomes moving the goalposts when the Church defines every new requirement as the next proof of a testimony it already claimed you had. The finish line keeps retreating toward institutional totality.
 
-**Evidence grade.** [[Documented]] The requirements that follow baptism (tithing, callings, temple worthiness) are published policy; the inward escalation of interviews rests on members' accounts.
+**Evidence grade.** [[Codified]] The requirements that follow baptism (tithing, callings, temple worthiness) are published policy; the inward escalation of interviews rests on former members' accounts, not on a document of record.
 :::
 
 ::: tactic n=10
@@ -621,7 +609,7 @@ Material later published by the Church itself was previously called anti-Mormon 
 
 **The counter.** Imperfection becomes strategic ambiguity when leaders claim divine authority for commands and human fallibility for consequences. If prophecy is binding before harm and contextual after harm, ambiguity is preserving authority without responsibility.
 
-**Evidence grade.** [[Documented]] The Church's own essays disavow earlier teachings of its leaders, which puts the shift from prophetic authority to human fallibility on the public record.
+**Evidence grade.** [[Taught]] The Church's own essays and leaders' statements disavow earlier teachings and describe leaders as men of their time; that is published teaching, not a court or regulatory record, and the strategic use of the shift is the entry's reading.
 :::
 
 ::: tactic n=11
@@ -640,7 +628,7 @@ Material later published by the Church itself was previously called anti-Mormon 
 
 **The counter.** If the institution must explain away leavers as morally defective instead of engaging their evidence, it is projecting its own fear of scrutiny onto them. The person who finds the hidden room did not build the hidden room.
 
-**Evidence grade.** [[Documented]] The description of former members as offended, deceived or wanting to sin is observed practice; no written finding records it.
+**Evidence grade.** [[Cultural]] The description of former members as offended, deceived or wanting to sin is observed practice among members and leaders; no written rule or finding records it.
 :::
 
 ::: tactic n=12
@@ -660,7 +648,7 @@ Material later published by the Church itself was previously called anti-Mormon 
 
 **The counter.** If the institution controls the story, then blames people for feeling betrayed when they find missing chapters, that is DARVO. The betrayal is not the discovery. The betrayal is the concealment.
 
-**Evidence grade.** [[Documented]] Material once called anti-Mormon was later published in the Gospel Topics essays, so the denial stage is on the public record; the attack on the doubter is observed practice.
+**Evidence grade.** [[Taught]] Material once called anti-Mormon was later published in the Church's own Gospel Topics essays, so the denial stage is on the public record; the attack on the doubter is observed practice, not a written rule.
 :::
 
 ::: tactic n=13
@@ -732,7 +720,7 @@ Ward, calling and family narrow it, and in the Mormon corridor so do employment 
 
 **The counter.** Family concern becomes triangulation when doctrine makes the institution the condition of eternal togetherness. If your spouse, children, parents, dead ancestors, bishop, temple, and afterlife are all used to pull you back, then family has been turned into a retention system.
 
-**Evidence grade.** [[Codified]] Temple recommend interviews gate access to the highest ordinances through a local leader's assessment. *(sourced)*
+**Evidence grade.** [[Codified]] Temple recommend interviews gate access to the highest ordinances through a local leader's assessment.
 :::
 
 ### Stage 6 · Extract {#stage-6}
@@ -740,9 +728,9 @@ Ward, calling and family narrow it, and in the Mormon corridor so do employment 
 ::: stage
 **Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
 
-Ten percent is verified in an interview and required for temple access. A hundred billion dollars sits in reserve, concealed through shell companies for two decades until a federal regulator intervened. Missionary labor is funded by the missionary's own family. Worthiness interviews of minors are conducted alone by adult male volunteers. Ask about the finances and be told the question reflects on your faith.
+Ten percent is verified in an interview and required for temple access. A whistleblower put the reserve at over a hundred billion dollars; the SEC found a portfolio of about $32 billion hidden behind shell companies for two decades until a federal regulator intervened. Missionary labor is funded by the missionary's own family. Worthiness interviews of minors are conducted by adult male volunteers, one adult and one child by default; since 2018 the child may ask for a parent to be present. Ask about the finances and be told the question reflects on your faith.
 
-*What it asks of you:* You were asked to sacrifice for a mall while a hundred billion dollars sat in an account you were not permitted to know existed.
+*What it asks of you:* You were asked to sacrifice for a mall while a reserve that a whistleblower valued at over a hundred billion dollars sat in an account you were not permitted to know existed.
 :::
 
 ::: tactic n=16
@@ -761,7 +749,7 @@ Ten percent is verified in an interview and required for temple access. A hundre
 
 **The counter.** Ministering becomes FLYING MONKEY pressure when it functions as retention. If the same visits always lead back to bishop, tithing, temple, garments, testimony, and family eternity, then cookies are carrying doctrine.
 
-**Evidence grade.** [[Codified]] Ministering assignments to visit members are set out in Church policy; the family and ward pressure the entry describes is observed practice.
+**Evidence grade.** [[Cultural]] Ministering assignments are Church policy, but the family and ward pressure the entry describes is custom that the Church neither mandates nor prevents.
 :::
 
 ::: tactic n=17
@@ -780,7 +768,7 @@ Ten percent is verified in an interview and required for temple access. A hundre
 
 **The counter.** Warning becomes SMEAR CAMPAIGN when it explains away evidence by attacking the person who found it. If the institution must make leavers morally suspect to keep members from listening, the smear is doing doctrinal labor.
 
-**Evidence grade.** [[Documented]] Excommunication of historians in 1993 and of a women's-ordination advocate in 2014, both publicly recorded. *(sourced)*
+**Evidence grade.** [[Documented]] Excommunication of historians in 1993 and of a women's-ordination advocate in 2014, both publicly recorded.
 :::
 
 ::: tactic n=18
@@ -818,7 +806,7 @@ Ten percent is verified in an interview and required for temple access. A hundre
 
 **The counter.** Voluntary is not the same as unpressured. If saying no risks disappointing family, losing temple status, damaging marriage, or threatening eternal belonging, the yes has been manufactured by the covenant system itself.
 
-**Evidence grade.** [[Codified]] Baptism at eight, designated the age of accountability, enrolls children into covenants and tithing expectation. *(sourced)*
+**Evidence grade.** [[Codified]] Baptism at eight, designated the age of accountability, enrolls children into covenants and tithing expectation.
 :::
 
 ::: tactic n=20
@@ -837,7 +825,7 @@ Ten percent is verified in an interview and required for temple access. A hundre
 
 **The counter.** Hope becomes TRAUMA BONDING when the institution places itself between love and eternity. If fear of losing family is relieved only by loyalty to the Church, the family bond has been routed through institutional control.
 
-**Evidence grade.** [[Taught]] Eternal-family teaching pairs the highest promise in the codex with the loss of it — taught continuously. *(sourced)*
+**Evidence grade.** [[Taught]] Eternal-family teaching pairs the highest promise in the codex with the loss of it — taught continuously.
 :::
 
 ::: tactic n=21
@@ -856,7 +844,7 @@ Ten percent is verified in an interview and required for temple access. A hundre
 
 **The counter.** Trust becomes LEARNED HELPLESSNESS when answers never arrive but obedience is always due. If continuing revelation only moves from the top down, members are trained to wait instead of act.
 
-**Evidence grade.** [[Taught]] Worthiness assessed by another person's judgment rather than the member's own, structurally and repeatedly. *(sourced)*
+**Evidence grade.** [[Taught]] Worthiness assessed by another person's judgment rather than the member's own, structurally and repeatedly.
 :::
 
 ::: tactic n=22
@@ -914,7 +902,7 @@ Ten percent is verified in an interview and required for temple access. A hundre
 
 **The counter.** Purpose becomes IDENTITY EROSION when the institution owns the map of the self. If your underwear, money, marriage, family eternity, time, thoughts, doubts, and future are all Church-mediated, identity has been centralized.
 
-**Evidence grade.** [[Taught]] Identity fused to calling and covenant, taught continuously rather than mandated. *(sourced)*
+**Evidence grade.** [[Taught]] Identity fused to calling and covenant, taught continuously rather than mandated.
 :::
 
 ::: tactic n=25
@@ -934,7 +922,7 @@ Ten percent is verified in an interview and required for temple access. A hundre
 
 **The counter.** Faith becomes SPIRITUAL BYPASSING when unanswered questions are actually unanswered injuries. If testimony is used to step over evidence and pain, belief has become avoidance.
 
-**Evidence grade.** [[Codified]] The responses the entry records ('continuing revelation', 'the leaders are imperfect but the Church is true') are taught answers, not written rules.
+**Evidence grade.** [[Taught]] The responses the entry records ('continuing revelation', 'the leaders are imperfect but the Church is true') are taught answers, not written rules.
 :::
 
 ::: tactic n=26
@@ -982,7 +970,7 @@ Leavers are excluded from relatives' temple weddings, pay a social and professio
 
 **The counter.** Eternal concern becomes MANUFACTURED CRISIS when it turns belief change into family catastrophe. If love is routed through institutional loyalty, doubt becomes an emergency because the doctrine made it one.
 
-**Evidence grade.** [[Codified]] The teaching that leaving endangers an eternal family is published doctrine; the urgency with which family and bishops respond is observed practice.
+**Evidence grade.** [[Taught]] The teaching that leaving endangers an eternal family is taught doctrine; the urgency with which family and bishops respond is observed practice.
 :::
 
 ::: tactic n=28
@@ -1002,7 +990,7 @@ Leavers are excluded from relatives' temple weddings, pay a social and professio
 
 **The counter.** Grief becomes DISCARD when the person is treated as a threat to eternal family rather than a human being with reasons. If love remains only for the version that returns, the institution owns the family bond.
 
-**Evidence grade.** [[Codified]] Church discipline procedure with defined consequences including loss of temple access. *(sourced)*
+**Evidence grade.** [[Codified]] Church discipline procedure with defined consequences including loss of temple access.
 :::
 
 ### Stage 8 · Replace {#stage-8}
@@ -1052,7 +1040,7 @@ A new convert is baptized in your ward the month you leave, your calling is reas
 
 **The counter.** Agency under eternal-family pressure is not neutral. “Inspired when obeyed, imperfect when harmful” is PLAUSIBLE DENIABILITY built into authority. Voluntary commitments are compromised when social, familial, and eternal consequences make saying no unbearable.
 
-**Evidence grade.** [[Reformed]] The racial priesthood ban, held 126 years and reversed in 1978 with the prior teaching later disavowed — reversibility recorded as evidence of human authorship. *(sourced)*
+**Evidence grade.** [[Reformed]] The racial priesthood ban, held 126 years and reversed in 1978 with the prior teaching later disavowed — reversibility recorded as evidence of human authorship.
 :::
 
 ::: cites
@@ -1141,7 +1129,7 @@ Welfare and disaster relief buy standing; standing sustains exemption and politi
 1. The Church runs genuine welfare and disaster-relief operations (section 4).
 2. That work earns standing with members and with the public.
 3. The Church files no Form 990, and its investment arm's holdings were hidden from securities regulators from 1997 to 2019 (sections 8 and 22).
-4. Standing becomes political reach: church-funded campaigns, most visibly California's Proposition 8, mobilized member money and volunteer labor into legislation affecting non-members (section 16).
+4. Standing becomes political reach: church-organized campaigns, most visibly California's Proposition 8, mobilized member money and volunteer labor into legislation affecting non-members (section 16).
 5. The revenue stays protected and undisclosed, and it funds the Church's work, including the next round of welfare and relief (section 9).
 
 **Techniques that feed it.** [2 · Weaponized Generosity](#t-2), [22 · Benevolent Control](#t-22), [26 · Financial Control](#t-26), [30 · Plausible Deniability](#t-30).
@@ -1156,12 +1144,12 @@ Welfare and disaster relief buy standing; standing sustains exemption and politi
 ::: card
 #### 5 · Unpaid Labor to Assets to Power to More Labor
 
-Unpaid lay clergy, member labor, and family-funded missionaries build an institution with a nine-figure-plus portfolio and no member disclosure.
+Unpaid lay clergy, member labor, and family-funded missionaries build an institution with a portfolio of tens of billions of dollars and no member disclosure.
 
 **How it runs.**
 
 1. Lay clergy serve unpaid, and bishops carry a full-time-equivalent pastoral load on top of a job (sections 9 and 18).
-2. Families pay for their own children's two years of full-time missionary labor (sections 7 and 9).
+2. Families pay for their own children's eighteen months to two years of full-time missionary labor (sections 7 and 9).
 3. Members accept callings, clean buildings and run the welfare and children's work of the Church (section 18; technique 26).
 4. The savings and the tithing build a portfolio whose hidden securities holdings the SEC found had reached about $32 billion by 2018, with no member equity and no member disclosure (section 9).
 5. Callings are refilled as they are vacated, and the institution calls the next generation of volunteers and missionaries (technique 29).
@@ -1208,7 +1196,7 @@ Historic persecution — Missouri, the extermination order, Carthage — is real
 2. Critical material is labeled anti-Mormon, and members are counseled against it (sections 11 and 14).
 3. Members close ranks: those who raise the material are described as offended, deceived or wanting to sin, and family and ward reach out to bring them back (techniques 6, 16 and 17).
 4. Scholars who documented the history were excommunicated in 1993, and campaigners for women's ordination and for interview reform in 2014 and 2018 (section 19).
-5. When the Church later publishes the same material, the label is retired for the material and never for the people who were disciplined for it (section 14).
+5. When the Church later publishes the same material, the label is retired for the material, and no discipline is recorded as withdrawn on the ground that the material was true (section 14).
 
 **Techniques that feed it.** [17 · Smear Campaign](#t-17), [11 · Projection](#t-11), [16 · Flying Monkeys](#t-16), [12 · DARVO](#t-12), [6 · Gaslighting](#t-6).
 
@@ -1225,7 +1213,7 @@ Historic persecution — Missouri, the extermination order, Carthage — is real
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| The Church is a careful steward of sacred funds. | A federal regulator found twenty years of deliberate concealment of a hundred-billion-dollar portfolio. | [GOVERNMENT REPORT] |
+| The Church is a careful steward of sacred funds. | A federal regulator found that for over twenty years the Church's investment arm hid a securities portfolio, about $32 billion by 2018, behind thirteen shell companies; a whistleblower put the whole reserve at over $100 billion [27]. | [GOVERNMENT REPORT] |
 | That material is anti-Mormon propaganda. | Much of it was published by the Church itself from 2013 onward, after the internet made concealment untenable. | [OFFICIAL POLICY: Gospel Topics essays] |
 | The prophet cannot lead the Church astray. | The racial priesthood ban was held for 126 years, reversed, and the prior teaching later disavowed — with nobody identified as having been wrong. | [OFFICIAL POLICY] |
 | The 2015 policy was revelation. | It was reversed in 2019, with no accounting to the families harmed in between. | [OFFICIAL POLICY] |
@@ -1233,9 +1221,9 @@ Historic persecution — Missouri, the extermination order, Carthage — is real
 
 ### Accountability or theatre?
 
-**Last time the chair ran.** A $100 billion concealment produced a $5 million penalty, no resignation, and no disclosure policy.
+**Last time the chair ran.** The concealment of a portfolio the SEC put at about $32 billion produced a $5 million penalty, no resignation, and no disclosure policy.
 
-**Who holds the chair now.** The First Presidency and the Presiding Bishopric hold it, with lifetime tenure and no member audit right.
+**Who holds the chair now.** The First Presidency holds it, with lifetime tenure, and the Presiding Bishopric it appoints answers to it; members have no audit right.
 
 **Prediction.** The next financial revelation will come from a regulator or a whistleblower, the response will be a legal settlement, and members will still not see the books.
 
@@ -1244,7 +1232,7 @@ Historic persecution — Missouri, the extermination order, Carthage — is real
 | Term | What it means inside | What it does | Said plainly |
 |---|---|---|---|
 | Worthy / worthiness | It means fitness to hold a recommend or an office, assessed in interview. | It turns a financial and behavioural compliance check into a statement about a person's spiritual condition — and links it, in practice, to attending your own child's wedding. | 'Have you paid and complied? We will call the answer your worthiness.' |
-| Anti-Mormon | It means material hostile to the Church. | It was applied for decades to historical claims the Church itself later published in the Gospel Topics essays. The label was retired for the material and never for the people who were disciplined for it. | 'This is true and I would rather you did not read it.' |
+| Anti-Mormon | It means material hostile to the Church. | It was applied for decades to historical claims the Church itself later published in the Gospel Topics essays. The label was retired for the material; no discipline is recorded as withdrawn on the ground that the material was true. | 'This is true and I would rather you did not read it.' |
 | Faith crisis | It means a member's loss of confidence, usually after encountering history. | It locates the problem in the member's faith rather than in the information. The word does the work of the whole cycle in two syllables. | 'You found out something accurate and we will call your reaction the event.' |
 | Sustain | It is the raised-hand vote supporting leaders. | It is presented as consent. It has never removed anyone, and voting opposed triggers a private meeting. | 'Please perform agreement.' |
 | Milk before meat | It means doctrine is disclosed progressively as a member matures. | It is a principle of teaching used to justify the sequencing of disclosure, with the institution deciding both what is meat and when you are ready. | 'We will tell you later, and we choose when later is.' |
@@ -1286,24 +1274,24 @@ Sources for this section: [13]
 
 ### Who benefits
 
-- The corporate church benefits. A self-perpetuating leadership controls a nine-figure-plus portfolio with zero member-facing financial disclosure since 1959 (U.S.). [FINANCIAL RECORD / INVESTIGATIVE REPORT]
+- The corporate church benefits. A self-perpetuating leadership controls a portfolio of tens of billions of dollars with zero member-facing financial disclosure since 1959 (U.S.). [FINANCIAL RECORD / INVESTIGATIVE REPORT]
 - Church-owned commercial arms in real estate, media and agribusiness benefit; the City Creek mall development, for example, was funded amid tithing rhetoric. [INVESTIGATIVE REPORT]
 
 ### Money out, leverage back
 
-- The $100 billion-plus Ensign Peak reserve was accumulated from tithing surplus and concealed through shell LLCs for over two decades until the SEC's 2023 enforcement action. Members funded it, were told to sacrifice for it, and were never shown it. [GOVERNMENT REPORT]
-- Church-funded political campaigns — most visibly California's Proposition 8 — mobilized member money and volunteer labor into legislation affecting non-members' civil status. [INVESTIGATIVE REPORT]
-- Missionary labor is self-funded: families pay for their own children's two years of unpaid full-time work for the institution. The largest workforce in the Church funds itself. [OFFICIAL POLICY]
+- A whistleblower put the Ensign Peak reserve at $100 billion or more [27]; the SEC found that a portfolio of about $32 billion by 2018 was concealed through shell LLCs for over two decades until its 2023 enforcement action. Members funded it, were told to sacrifice for it, and were never shown it. [GOVERNMENT REPORT]
+- Church-organized political campaigns — most visibly California's Proposition 8 — mobilized member money and volunteer labor into legislation affecting non-members' civil status. [INVESTIGATIVE REPORT]
+- Missionary labor is self-funded: families pay for their own children's eighteen months to two years of unpaid full-time work for the institution. The largest workforce in the Church funds itself. [OFFICIAL POLICY]
 - The abuse-reporting helpline routes bishops to Church attorneys rather than to police; litigation has argued this structure prioritized institutional liability over children. [COURT RECORD]
 
 ### Who pays
 
-- Children pay when they are interviewed alone about their sexuality by adult male leaders.
+- Children pay when they are interviewed about their sexuality by adult male leaders, with a parent present only if the child asks.
 - Abuse survivors pay when their reports are routed through a legal-liability helpline. [COURT RECORD]
 - Women pay, excluded from all governing authority and disciplined for advocating inclusion.
 - LGBTQ members and their children pay, especially under the 2015–2019 policy.
-- Poor tithe-payers pay, because for them 10% is the difference between rent and eviction, while $100B sat in reserve.
-- Missionaries' families pay, self-funding two years of unpaid institutional labor.
+- Poor tithe-payers pay, because for them 10% is the difference between rent and eviction, while a reserve a whistleblower estimated at over $100B sat unseen.
+- Missionaries' families pay, self-funding eighteen months to two years of unpaid institutional labor.
 - Members who gave decades of money to books they were not permitted to see pay too.
 
 ::: cites
@@ -1318,12 +1306,12 @@ The costs in section 15 do not fall evenly. They fall hardest where a person has
 
 | Who | How | What it compounds with |
 |---|---|---|
-| Children in worthiness interviews | They are questioned alone about sexual conduct by an untrained adult volunteer. | The harm compounds where the interviewer is also the family's ecclesiastical leader and neighbor. |
+| Children in worthiness interviews | They may be questioned about sexual conduct by an untrained adult volunteer, with a parent present only if the child asks. | The harm compounds where the interviewer is also the family's ecclesiastical leader and neighbor. |
 | Abuse survivors | Their disclosures are routed through a legal-liability helpline. | It compounds where the bishop is a friend of the accused. |
 | Women | They are excluded from all governing authority and disciplined for advocating inclusion. | It compounds with large families, a single income and no institutional standing. |
 | LGBTQ members and their children | The 2015 policy labeled them apostates and barred their children from baptism | It fell hardest on minors in believing households during those four years. |
-| Poor tithe-payers | Ten percent is verified in an interview while a hundred billion sat in reserve. | It compounds where paying it means missing rent and not paying means missing a wedding. |
-| Missionaries' families | They self-fund two years of the institution's labor. | It compounds when several children serve consecutively. |
+| Poor tithe-payers | Ten percent is verified in an interview while a reserve a whistleblower estimated at over a hundred billion sat unseen. | It compounds where paying it means missing rent and not paying means missing a wedding. |
+| Missionaries' families | They self-fund eighteen months to two years of the institution's labor. | It compounds when several children serve consecutively. |
 
 ### From The Children's Codex
 
@@ -1338,7 +1326,7 @@ Most of the Church's work is done below the First Presidency by unpaid members w
 |---|---|---|---|---|
 | Bishops | Carry an unpaid, untrained, full-time-equivalent pastoral load on top of a job | Every family's finances, marriage, and disclosures — and that the helpline routes to lawyers | Call the helpline first | Call anyone before the police when a child discloses abuse |
 | Ward clerks and finance clerks | Record tithing and reconcile the ward's money | That the money leaves and never comes back as an account | Keep records confidential | Verify tithing status for an interview |
-| Youth leaders and seminary teachers | Form adolescents | Which youth are being interviewed alone and what it does to them | Support the interview process | Leave a minor alone with an adult for a sexual-conduct interview |
+| Youth leaders and seminary teachers | Form adolescents | Which youth are being interviewed, mostly without a parent in the room, and what it does to them | Support the interview process | Leave a minor alone with an adult for a sexual-conduct interview |
 | Relief Society and Primary (the children's organization) presidencies | Run the actual welfare and children's work of the Church | That every decision is subject to priesthood approval | Operate under supervision | Accept a budget they may not set |
 | Mission presidents and missionaries | Deliver the growth on family-funded, unpaid labor | The teaching sequence, and what is disclosed when | Follow the lesson order | Invite baptism before disclosing tithing and temple obligations |
 
@@ -1348,7 +1336,7 @@ Most of the Church's work is done below the First Presidency by unpaid members w
 ### SEC order against Ensign Peak Advisors
 
 - **when:** February 2023
-- **what:** A whistleblower disclosure revealed a reserve portfolio exceeding $100 billion built from tithing surplus. The Securities and Exchange Commission found that the Church and its investment arm had used shell companies to obscure the portfolio's size for more than twenty years, and imposed a $5 million penalty.
+- **what:** A whistleblower alleged in 2019 a reserve of over $100 billion [27]. The Securities and Exchange Commission found that the Church and its investment arm had used shell companies to obscure the size of a securities portfolio that had reached about $32 billion by 2018, for more than twenty years, and imposed a $5 million penalty in a settlement in which neither respondent admitted or denied the findings.
 - **record:** SEC administrative order (regulatory action)
 - **outcome:** Penalty paid. No leadership change announced. Members had been asked to sacrifice for building projects throughout the period of concealment.
 - **tactics:** 18, 26, 30
@@ -1360,14 +1348,10 @@ Most of the Church's work is done below the First Presidency by unpaid members w
 
 - **when:** 2015–present
 - **what:** Members reported that resignation requests were routed through local leaders who delayed or attempted to dissuade them. A pro bono legal service was established to submit resignations directly on members' behalf.
-- **record:** Former member accounts and the legal service's public record
-- **outcome:** The Church formalized a records-removal process. The workaround existed because the ordinary route did not function.
+- **record:** Former member accounts, the legal service's own record, and press reporting of the Church's 2019 change [13][24]
+- **outcome:** In 2019 the Church began requiring notarized letters for resignations sent through the service, saying some of the filings were fraudulent [24]. Members said the workaround existed because the ordinary route did not function.
 - **tactics:** 4, 28
-- **grade:** Documented
-:::
-
-::: cites
-Sources for this section: [1] [2] [13]
+- **grade:** Cultural
 :::
 
 ::: case
@@ -1376,7 +1360,7 @@ Sources for this section: [1] [2] [13]
 - **what:** Sam Young, a former bishop, campaigned for more than a year against one-on-one "worthiness" interviews in which bishops asked children and teenagers about their sexual behaviour, including a 23-day hunger strike [17].
 - **record:** KUER, 16 September 2018 [17]
 - **outcome:** He was excommunicated in September 2018 [17].
-- **tactics:** 17, 28, 30
+- **tactics:** 17, 28, 18
 - **grade:** Documented
 :::
 
@@ -1395,9 +1379,13 @@ Sources for this section: [1] [2] [13]
 - **when:** 1993
 - **what:** Church leaders disciplined six scholars and feminists in one month — five excommunicated and one disfellowshipped — including the historian D. Michael Quinn [12].
 - **record:** *The Conversation* [12]
-- **outcome:** An episode that, in *The Conversation*'s words, continues to trouble the church [12].
-- **tactics:** 17, 28, 13
+- **outcome:** An episode that, in *The Conversation*'s words, continues to trouble the church [12]. Avraham Gileadi (1996) and Maxine Hanks (2012) were later rebaptized [29].
+- **tactics:** 17, 28, 6
 - **grade:** Documented
+:::
+
+::: cites
+Sources for this section: [1] [2] [12] [13] [17] [18] [24] [29]
 :::
 
 ## 20. Precedent {#precedent}
@@ -1407,16 +1395,16 @@ Sources for this section: [1] [2] [13]
 | What | Who | When | What it cost |
 |---|---|---|---|
 | The Gospel Topics essays acknowledging polygamy's scope, the race ban's origins, and translation methods | Historians and members who would not stop asking forced it | 2013 onward | The 1993 excommunications came first |
-| The SEC enforcement action | A whistleblower who had worked inside Ensign Peak brought it about | 2019–2023 | It cost him his career and his standing |
+| The SEC enforcement action | A whistleblower who had worked inside Ensign Peak brought it about | 2019–2023 | He resigned from Ensign Peak in August 2019 and then filed with the IRS; no further cost is recorded on this page [28] |
 | Reversal of the 2015 exclusion policy | Members, including believing ones, who documented the harm to families pressed for it | 2019 | Children were denied baptism for four years first |
-| Worthiness-interview reform campaigns | Believing members and abuse survivors run them | 2018–present | Some organizers were excommunicated |
+| Worthiness-interview reform campaigns | Believing members and abuse survivors run them | 2018–present | Some organizers were excommunicated; the June 2018 guidelines, which let a youth invite a parent or other adult into the interview, were a partial result [25] |
 | The 1978 revelation ending the racial priesthood ban | Sustained internal and external pressure brought it | 1978 | It came only after 126 years of exclusion |
 
 ### Promises on the record
 
 | Commitment | Made | Status | Note |
 |---|---|---|---|
-| The Church of Jesus Christ of Latter-day Saints — accuracy and openness about history | 2013 onward, via the Gospel Topics essays | Kept, narrowly | The essays were published and conceded material previously labelled hostile. Two things remain undone and are recorded here as separate entries: financial disclosure to members, and any restoration of standing to those disciplined for the same material. |
+| The Church of Jesus Christ of Latter-day Saints — accuracy and openness about history | 2013 onward, via the Gospel Topics essays | Kept, narrowly | The essays were published and conceded material previously labelled hostile. Two things remain undone and are recorded here as separate entries: financial disclosure to members, and any withdrawal of discipline on the ground that the material was true (two of the September Six, Avraham Gileadi and Maxine Hanks, were later rebaptized [29]). |
 | The Church of Jesus Christ of Latter-day Saints — financial transparency to members | No commitment has been made | Silent | Included deliberately as a null entry. Publication ceased in 1959 with no stated principle and no end date, and no commitment to resume has ever been given. A register that only records broken promises misses the institutions that never made one. |
 
 ### What would change this page
@@ -1428,7 +1416,7 @@ Member-facing audited financial statements — the practice that existed before 
 - **Sam Young.** A former bishop, he campaigned for more than a year against sexually explicit youth interviews, including a 23-day hunger strike, and was excommunicated in September 2018 [17].
 - **Kate Kelly.** The founder of Ordain Women, she led public campaigns for women's ordination to the priesthood and was excommunicated in absentia in June 2014 [18].
 - **D. Michael Quinn.** A historian, he was excommunicated in 1993 as one of the September Six, the six scholars and feminists disciplined that month [12].
-- **Mark Naugle.** A lawyer, he runs QuitMormon, a free service that has filed more than 140,000 resignations since 2015 [13].
+- **Mark Naugle.** A lawyer, he runs QuitMormon, a free service that has filed about 80,000 resignations since 2015, as of a 2021 interview [13].
 
 ## 22. Regional variants {#regional}
 
@@ -1448,7 +1436,7 @@ Member-facing audited financial statements — the practice that existed before 
 
 - **apex:** The apex is an area presidency reporting to Salt Lake City, and the UK entity is a registered charity.
 - **law:** Charity Commission registration means published accounts for the UK entity — a level of disclosure unavailable to American members of the same church.
-- **documented:** UK charity filings are public and searchable. There has been historic litigation on tithing and charitable status.
+- **documented:** UK charity filings are public and searchable. In 2014 the European Court of Human Rights held that the UK had not breached the Convention by refusing the Preston temple the business-rates exemption for places of public worship, because the temple is open only to members with a recommend [32].
 - **exit:** The exit cost is low socially; the community is small and dispersed, so the total-network effect does not apply.
 - **regulator:** The regulator is the Charity Commission, and a UK member can read filings that a Utah member cannot.
 - **tell:** This is the single most useful comparison in this volume: identical institution, identical doctrine, one jurisdiction requires accounts and one does not.
@@ -1460,10 +1448,10 @@ Sources for this section: [3]
 
 ## 23. The questions {#questions}
 
-1. A federal regulator fined your Church for hiding a $100 billion portfolio from the people who funded it. Ask why the disclosure required a regulator, and ask which leader was held accountable.
+1. A federal regulator fined your Church for hiding its investment portfolio from disclosure for twenty years. A whistleblower put the reserve at over $100 billion. Ask why the disclosure required a regulator, and ask which leader was held accountable.
 2. If tithing is a spiritual principle, ask why access to your daughter's sealing depends on your having paid it.
-3. Why does an untrained volunteer question a twelve-year-old alone about masturbation, and what institution that works with children would call that acceptable?
-4. Material the Church now publishes was called anti-Mormon lies when members raised it. Ask whether the historians excommunicated in 1993 have been reinstated and thanked.
+3. Why may an untrained volunteer still question a twelve-year-old alone about sexual matters, with a parent present only if the child asks, and what institution that works with children would call that acceptable?
+4. Material the Church now publishes was called anti-Mormon lies when members raised it. Ask whether any discipline was withdrawn because the history was true, and whether the historians excommunicated in 1993 have been thanked.
 5. The 2015 policy was revelation, then reversed in 2019. Ask what happened to the families in between, and who apologized to them.
 6. If a bishop learns a child is being abused and calls a Church attorney instead of the police, ask plainly who that call was protecting.
 
@@ -1471,7 +1459,7 @@ Sources for this section: [3]
 
 Your own scripture says a prophet is only a prophet when acting as such, and your own tradition insists you seek personal confirmation rather than take a leader's word. That is not a loophole. It is the mechanism your religion gave you for exactly this situation, and the people using it — the transparency advocates, the interview reformers, the members who forced the essays — are not enemies of the Church. They are the reason it changed at all.
 
-You can keep the family, the covenants, and the God, and refuse to fund an institution that will not show you the ledger. Asking a question is not apostasy. And if a hundred billion dollars had to be hidden from you for twenty years, the honest question is not whether you are worthy of the temple. It is whether they were worthy of your paycheck.
+You can keep the family, the covenants, and the God, and refuse to fund an institution that will not show you the ledger. Asking a question is not apostasy. And if a portfolio worth tens of billions of dollars had to be hidden from you for twenty years, the honest question is not whether you are worthy of the temple. It is whether they were worthy of your paycheck.
 
 ::: cites
 Sources for this section: [1] [2]
@@ -1511,7 +1499,7 @@ Checked 2026-09-27.
 ### The Church's own records
 5. Church News, "President Russell M. Nelson dies at 101" (27 Sept 2025). https://www.thechurchnews.com/leaders/2025/09/28/president-russell-m-nelson-dies-101/
 6. Church News, "President Dallin H. Oaks announced as 18th President of the Church, names counselors" (14 Oct 2025 — Eyring and Christofferson). https://www.thechurchnews.com/leaders/2025/10/14/president-dallin-oaks-named-prophet-announces-new-first-presidency-eyring-christofferson/
-7. Presiding Bishop — W. Christopher Waddell since 14 Nov 2025; Gérald Caussé called to the Twelve on 6 Nov 2025. https://en.wikipedia.org/wiki/Presiding_Bishop_%28LDS_Church%29
+7. Church Newsroom, "New Presiding Bishopric" (14 Nov 2025 — W. Christopher Waddell, with L. Todd Budge and Sean Douglas; Gérald Caussé called to the Twelve on 6 Nov 2025). https://newsroom.churchofjesuschrist.org/article/new-presiding-bishopric-2025
 8. Newsroom, *2025 Statistical Report* (4 Apr 2026 — 17,887,212 members; 385,490 convert baptisms). https://newsroom.churchofjesuschrist.org/article/2025-statistical-report
 9. Gospel Topics essays (2013–2015) — "Race and the Priesthood", "Plural Marriage in Kirtland and Nauvoo", "Book of Mormon Translation". https://www.churchofjesuschrist.org/study/manual/gospel-topics-essays/race-and-the-priesthood?lang=eng
 10. General Handbook — temple recommend questions (tithing) and interviews of youth. https://www.churchofjesuschrist.org/study/manual/general-handbook?lang=eng
@@ -1519,7 +1507,7 @@ Checked 2026-09-27.
 ### History and reporting
 11. *Encyclopaedia Britannica*, "Church of Jesus Christ of Latter-day Saints" — 1830; Kirtland, Missouri, Nauvoo; 1844; Utah; 1890 Manifesto; 1978 revelation. https://www.britannica.com/topic/Church-of-Jesus-Christ-of-Latter-day-Saints
 12. The Conversation, "How September 1993, when Latter-day Saints leaders disciplined six dissidents, continues to trouble the church" (five excommunicated, one disfellowshipped, including the historian D. Michael Quinn); ABC News, "Mormon Church Excommunicates Kate Kelly" (23 June 2014). https://theconversation.com/how-september-1993-when-latter-day-saints-leaders-disciplined-six-dissidents-continues-to-trouble-the-church-213059 · https://abcnews.com/US/mormon-church-excommunicates-kate-kelly-womens-rights-activists/story?id=24264440
-13. QuitMormon (Mark Naugle, founded 2015 — over 140,000 resignations filed by end-2024). https://www.mormonstories.org/mark-naugle-quitmormon-com/
+13. QuitMormon (Mark Naugle, founded 2015 — about 80,000 resignations filed through the site and about 57,000 confirmed, in an interview recorded 30 March 2021). https://www.mormonstories.org/mark-naugle-quitmormon-com/
 14. Religion News Service, "How the LDS Church is growing — and shrinking" (6 Apr 2026). https://religionnews.com/2026/04/06/how-the-lds-church-is-growing-and-shrinking/
 
 ### Further sources
@@ -1532,8 +1520,18 @@ Checked 2026-09-27.
 21. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 22. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/
 23. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
+24. Salt Lake Tribune, "The LDS Church adds a new step for members using QuitMormon.com to resign, complains of fraud" (4 Aug 2019 — notarized letters now required; over 40,000 letters sent since late 2015; delays under the older route). https://www.sltrib.com/religion/2019/08/04/lds-church-adds-new-step/
+25. Salt Lake Tribune, "Mormon church publicizes revised guidelines for youth interviews" (20 Jun 2018 — a youth may invite a parent or another adult to be present; questions shared in advance). https://sltrib.com/religion/2018/06/20/mormon-church-publicizes-revised-guidelines-for-youth-interviews
+26. KUTV, "LDS Church announces new guidelines for interviewing youth" (June 2018 — a parent or other adult remains in an adjoining room, foyer or hall; a person interviewed may request a parent or other adult's presence). https://kutv.com/news/local/lds-church-announces-new-guidelines-for-interviewing-youth
+27. Washington Post, via Anchorage Daily News, "Mormon church has misled members on $100 billion tax-exempt investment fund, whistleblower alleges" (17 Dec 2019 — the whistleblower's estimate of total reserves). https://www.adn.com/nation-world/2019/12/17/mormon-church-has-misled-members-on-100-billion-tax-exempt-investment-fund-whistleblower-alleges/
+28. Deseret News, "Washington Post: Whistleblower files IRS complaint against LDS Church" (17 Dec 2019 — David A. Nielsen, former Ensign Peak portfolio manager, resigned in August 2019 before filing; alleged assets of $99 to $101 billion). https://www.deseret.com/utah/2019/12/17/21026182/mormon-lds-church-washington-post-whistleblower-irs-complaint-taxes-ensign-peak
+29. Salt Lake Tribune, "Why were the 'September Six' censured by the LDS Church and where are they now?" (3 Sep 2023 — Avraham Gileadi rebaptized 1996; Maxine Hanks rebaptized February 2012). https://www.sltrib.com/religion/2023/09/03/why-were-september-six-censured-by/
+30. Church News, church membership growth by state, United States 2000–2025 (27 Aug 2026 — 6.93 million US members at year-end 2025; Utah, California, Idaho, Arizona, Texas the largest). https://www.thechurchnews.com/members/2026/08/27/church-membership-growth-by-united-states-2000-2025-jesus-christ-latter-day-saints/
+31. Flatwater Free Press, "Who's buying Nebraska? After shopping spree, Mormon church is top land purchaser" (Nov 2023 — Farmland Reserve ranching about 365,000 acres in the Sandhills; church estimated to own about 1.7 million acres). https://flatwaterfreepress.org/whos-buying-nebraska-after-shopping-spree-mormon-church-is-top-land-purchaser/
+32. European Court of Human Rights, *The Church of Jesus Christ of Latter-Day Saints v. the United Kingdom*, application 7552/09 (judgment of 4 Mar 2014 — no violation of Article 14 with Article 9 in refusing the Preston temple the places-of-worship rates exemption). https://www.deseret.com/2014/3/5/20536685/temple-tax-european-court-rules-lds-church-must-pay-local-property-tax-for-preston-england-temple/
 
 ## 27. What changed on this page {#changed}
 
+- **2026-10-03:** Corrected the Ensign Peak figures (the SEC found a hidden portfolio of about $32 billion by 2018; the $100 billion figure is a whistleblower's estimate and is now attributed); recorded the June 2018 change that lets a youth invite a parent into a worthiness interview; corrected the September Six outcome (two later rejoined); fixed the QuitMormon figure, the Presiding Bishopric, the missionary service length and the church-funded Proposition 8 wording; regraded eight techniques whose grades were stronger than their entries, with matching counts; removed unsupported claims from the money cards; and added nine sources.
 - **2026-09-27:** Added Branches, Law & state, Money in numbers (British charity accounts 2020–2024), three more documented cases, Voices from inside, Leaving safely and Where to get help.
 

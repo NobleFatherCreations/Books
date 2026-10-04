@@ -1,6 +1,6 @@
 # Wording log — mormonism
 
-168 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/mormonism.json`, then rebuild. Nothing else changes.
+166 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/mormonism.json`, then rebuild. Nothing else changes.
 
 ## Fragments completed into sentences (108)
 
@@ -1654,7 +1654,7 @@
 
 *Reason:* First use of 'fast offerings', glossed.
 
-## Proofreading (typos, punctuation, agreement) (8)
+## Proofreading (typos, punctuation, agreement) (6)
 
 ### LDS-P001 · md · §12 · proposed · build: applied
 
@@ -1727,30 +1727,6 @@
 > | Deliver the growth on family-funded, unpaid labor | The teaching sequence, and what is disclosed when | Follow the lesson order | Invite baptism before disclosing tithing and temple obligations |
 
 *Reason:* Subject-verb agreement; doubled 'to'.
-
-### LDS-N001 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 5 documented cases on this page
-
-**After**
-
-> These are not hypotheticals. Five documented cases on this page
-
-*Reason:* Numeral at the start of a clause spelled out.
-
-### LDS-N002 · narration · §22 · proposed · build: applied
-
-**Before**
-
-> This page covers United States (Utah corridor) and United Kingdom.
-
-**After**
-
-> This page covers the United States (Utah corridor) and the United Kingdom.
-
-*Reason:* Country names need 'the'.
 
 ## Sentences completed or clarified (2)
 
