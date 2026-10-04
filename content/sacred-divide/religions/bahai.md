@@ -5,7 +5,7 @@ family: "Persian-born"
 family_id: persian
 family_members: [zoroastrianism, bahai]
 version: v4
-checked: 2026-09-27
+checked: 2026-10-03
 sections_filled: 27/27
 missing: []
 partial: []
@@ -18,15 +18,15 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | The Faith claims ~5–8 million members; independent estimates are lower, and enrollment figures include inactive members. [ACADEMIC SOURCE] |
+| Size | The Bahá'í International Community states up to 8 million members; other estimates run from 5 to 7 million [23]. Enrollment figures include inactive members. |
 | Who's in charge | The Universal House of Justice has nine members, elected every five years by the members of the national assemblies (the elected national governing bodies). The most recent election was in 2023 and the next is due in 2028. The Bahá'í World Centre publishes the membership. The House's decisions are held to be doctrinally guided, and women are ineligible by standing ruling. |
 | Chosen by / removable by | National-assembly members meet in international convention and elect the House / The next election can remove a member, though members are usually re-elected until they step down |
 | Money in one line | The Faith's funds accept donations from members only (a genuine integrity feature), and Huqúqu'lláh (the "Right of God", 19% on surplus wealth) is paid to the Faith's center. [OFFICIAL POLICY] |
-| Leaving in one line | Ordinary resignation is administratively simple; the high cost is reserved for organized dissent — covenant-breaker designation (a formal status for a member who challenges the authority of the Covenant) severs even family association. [OFFICIAL POLICY / FORMER MEMBER TESTIMONY] |
+| Leaving in one line | Ordinary resignation is administratively simple; the high cost is reserved for organized dissent — covenant-breaker designation (a formal status for a member who challenges the authority of the Covenant) means members are expected to avoid the person, relatives included, under guidance the Faith publishes [17]. [OFFICIAL POLICY / FORMER MEMBER TESTIMONY] |
 | The unanswered question | Only men may sit on the House of Justice, in a faith that teaches the equality of the sexes. Who is permitted to ask why — and where is the answer filed? |
-| Evidence | Five of the 30 techniques are sourced to a named document. The grades are Codified 22, Taught 4, Cultural 2 and Contested 2. |
+| Evidence | None of the 30 techniques is sourced to a named document. The grades are Cultural 20, Taught 5, Contested 3 and Codified 2. |
 | Family | The Faith belongs to the Persian-born family of traditions, with Zoroastrianism. |
-| Last checked | 2026-09-27 |
+| Last checked | 2026-10-03 |
 :::
 
 ### Disclosure scorecard
@@ -51,7 +51,7 @@ In the afternoon she teaches a children's class — six kids, a rug, songs about
 
 At six she reads an essay a Bahá'í academic abroad has written about the Faith's early history. It is careful and it is accurate and it has not been through review, and there was a note attached about that, and Sepideh does not know what she thinks. She thinks the essay is good. She thinks the review policy exists. She holds both.
 
-At night she and her mother count the cemetery. The graves were bulldozed in 2021 and it is not clear whether they will be allowed to bury her grandmother where her grandfather is. Sepideh prays for the officials by name, because the Writings (the Bahá'í scripture) say to, and she does it without irony, and then she lies down and thinks: everything trying to erase us is outside this room. That is true and it is nearly the whole story. Nearly.
+At night she and her mother count the cemetery. Agents took over the cemetery in 2021 and graves were razed in 2024, and it is not clear whether they will be allowed to bury her grandmother where her grandfather is. Sepideh prays for the officials by name, because the Writings (the Bahá'í scripture) say to, and she does it without irony, and then she lies down and thinks: everything trying to erase us is outside this room. That is true and it is nearly the whole story. Nearly.
 
 ## 3. The forefront {#forefront}
 
@@ -79,7 +79,7 @@ Only men may sit on the House of Justice, in a faith that teaches the equality o
 
 ### The strongest objection, answered
 
-**The objection.** Bahá'ís are executed and imprisoned in Iran. Criticism of this Faith punches down.
+**The objection.** Bahá'ís have been executed in Iran and are imprisoned there. Criticism of this Faith punches down.
 
 **What is true in it.** Entirely true, and this profile leads with it. This community is far more often the target of coercion than its author, and its structural safeguards — no clergy, elected bodies, member-only funding — are genuine and unusual.
 
@@ -88,7 +88,7 @@ Only men may sit on the House of Justice, in a faith that teaches the equality o
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-The Faith claims ~5–8 million members worldwide. It is a 19th-century religion that teaches the oneness of God, religion and humanity, with a global elected administrative order and no clergy.
+The Bahá'í International Community states up to 8 million members worldwide [23]. It is a 19th-century religion that teaches the oneness of God, religion and humanity, with a global elected administrative order and no clergy.
 :::
 
 - The absence of clergy, the elected administration, member-only funding and the ideal of consultation (group decision-making by open discussion) are real structural safeguards, and most members experience a service-oriented, non-authoritarian community life.
@@ -108,7 +108,7 @@ Baháʼu'lláh founded the Faith in 19th-century Iran and Ottoman exile, out of 
 1892–1921 | ʻAbduʼl-Bahá leads; Western expansion begins | The Faith becomes global and interracial early, well ahead of its era.
 1921–1957 | Shoghi Effendi as Guardian (the appointed head of the Faith after ʻAbduʼl-Bahá); administrative order built | Elected institutions replace clergy, a deliberate structural anti-clericalism.
 1957–1963 | Interregnum; Universal House of Justice first elected 1963 | Authority becomes fully institutional and elected; Covenant-breaker designations are used against rival claimants. [OFFICIAL POLICY]
-1979–present | Islamic Republic persecution: executions, imprisonment, university exclusion, cemetery desecration | Baháʼís are one of the most systematically persecuted religious minorities in the world today. [GOVERNMENT REPORT: UN Special Rapporteur reporting]
+1979–present | Islamic Republic persecution: more than 200 executed or killed after 1979, the last reported execution in 1998 [19]; since then arrest, imprisonment, university exclusion, cemetery desecration | Baháʼís are one of the most systematically persecuted religious minorities in the world today. [GOVERNMENT REPORT: UN Special Rapporteur reporting]
 1980s–1990s | Bahá'í Institute for Higher Education founded after university bans; faculty arrested | A community builds an underground university because the state bars its youth from education. [GOVERNMENT REPORT]
 1990s–2000s | Disputes over pre-publication review and academic freedom; some scholars disenrolled or resign | The tradition's internal control question surfaces around its own historians. [ACADEMIC SOURCE / FORMER MEMBER TESTIMONY]
 2000s–present | Ruhi/Institute process (the Faith's sequence of study-circle courses) global expansion; continued Iranian persecution | The Faith grows through structured study circles, and the persecution continues.
@@ -125,11 +125,11 @@ Members of the national assemblies convened and elected the nine-member Universa
 :::
 
 ::: card
-#### 1979–1988 — The Iranian executions
+#### 1979–1998 — The Iranian executions
 
-Following the revolution, Bahá'ís in Iran faced executions, imprisonment, property seizure, and exclusion from higher education. The persecution is thoroughly documented by UN bodies and continues.
+Following the revolution, more than 200 Bahá'ís in Iran were executed or killed, and the last reported execution was in 1998 [19]. Persecution has continued as arrest, imprisonment, property seizure, exclusion from work and higher education, and the razing of graves; as of 11 June 2026, 63 Bahá'ís were detained for their beliefs [20]. It is thoroughly documented by UN bodies.
 
-**Why it matters.** Recorded first and plainly, because this page's later questions about internal governance must not be readable as ammunition for a state that is killing people. Real persecution and internal critique are both true, and the codex refuses to trade one for the other.
+**Why it matters.** Recorded first and plainly, because this page's later questions about internal governance must not be readable as ammunition for a state that executed more than 200 of them and still imprisons them. Real persecution and internal critique are both true, and the codex refuses to trade one for the other.
 :::
 
 ::: card
@@ -141,7 +141,7 @@ As Bahá'í academics published historical work outside the review process, seve
 :::
 
 ::: cites
-Sources for this section: [3] [4] [7] [8] [9] [10]
+Sources for this section: [3] [4] [7] [8] [9] [10] [19] [20] [22]
 :::
 
 ## 6. Branches & variants {#branches}
@@ -160,15 +160,15 @@ The Faith is overwhelmingly a single unified body, and the Covenant structure ha
 
 |  |  |
 |---|---|
-| Adherents | The Faith claims ~5–8 million adherents; independent estimates are lower, and enrollment figures include inactive members. [ACADEMIC SOURCE] |
-| Regions | Baháʼís live mainly in India (the largest claimed population), Iran (the historic center, now severely persecuted), the United States, Kenya, DR Congo, Bolivia, Vietnam and Papua New Guinea. |
+| Adherents | The Bahá'í International Community states up to 8 million adherents; other estimates run from 5 to 7 million [23]. Enrollment figures include inactive members. |
+| Regions | Country figures vary by source, and the order of this list is not taken from any source on this page. Baháʼís live in countries including India, Iran (the historic center, now severely persecuted), the United States, Kenya, DR Congo, Bolivia, Vietnam and Papua New Guinea. |
 | Trend | Growth is steady but slower than mid-20th-century projections, and there is a large gap between enrollment rolls and active participation, which the Faith acknowledges internally. [PATTERN OBSERVED] |
 | Participation | Enrollment counts overstate activity considerably. Most members experience a service-oriented, non-authoritarian community life; the high-control mechanisms activate almost exclusively around organized dissent. |
 
 ### Authority
 
 - Elected assemblies (local and national) sit under the Universal House of Justice. There is no campaigning and no clergy, and also no appeal beyond the system.
-- The Covenant doctrine enforces unity through the category of 'covenant-breaker,' a person whom members must shun. It is the tradition's principal high-control mechanism. [OFFICIAL POLICY]
+- The Covenant doctrine enforces unity through the category of 'covenant-breaker,' a person whom members are expected to avoid under published guidance [17]. It is the tradition's principal high-control mechanism. [OFFICIAL POLICY]
 - Members' writings about the Faith are subject to pre-publication review. [OFFICIAL POLICY]
 
 ### The top of the chain
@@ -180,7 +180,7 @@ On paper, the House of Justice is the most electoral apex in this codex. The aud
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
 | The Universal House of Justice | It has nine members, elected every five years by the members of the national assemblies. The most recent election was in 2023 and the next is due in 2028. The Bahá'í World Centre publishes the membership. The House's decisions are held to be doctrinally guided, and women are ineligible by standing ruling. | National-assembly members meet in international convention and elect it. | The next election can remove a member, though members are usually re-elected until they step down. |
-| National Spiritual Assemblies | Each has nine members, elected annually without nominations or campaigning. | A community ballot chooses them. | They are removed at the annual election. |
+| National Spiritual Assemblies | Each has nine members, elected annually without nominations or campaigning. | Delegates, who are themselves elected by the community, choose them [1]. | They are removed at the annual election. |
 
 ::: tell
 An election held under review of publications and a unity norm is an election without information about its candidates — and an election without information is a confirmation.
@@ -193,19 +193,19 @@ An election held under review of publications and a unity norm is an election wi
 | The Universal House of Justice | Elected supreme institution | Its nine elected members are men only. | It holds final authority over doctrine, administration and the Faith's global plans. | Every institutional decision rests with it, and there is no appeal beyond it. | [OFFICIAL POLICY] |
 | National and local Spiritual Assemblies | Elected administration | Each is a nine-member elected body. | They hold control over membership standing, community activity and administrative sanction. | They decide your voting rights and your standing. | [OFFICIAL POLICY] |
 | Pre-publication review | Information policy | Reviewing bodies hold it. | They hold approval of members' writing about their own religion before it is published. | They decide what you are permitted to publish about your own faith. | [OFFICIAL POLICY] |
-| Covenant-breaker designation | Sanction | The institutions impose it. | It holds a requirement that members sever contact entirely, including with family. | It decides whether your mother may speak to you. | [OFFICIAL POLICY] |
-| Huqúqu'lláh administration | Revenue | The Faith's central funds receive it. | It holds nineteen percent of members' surplus wealth, which is privately assessed and not audited for members. | It amounts to a fifth of your savings. | [OFFICIAL POLICY] |
-| The Islamic Republic of Iran | External persecutor | Iranian state organs act as the persecutor. | It carries out executions, imprisonment, university exclusion and cemetery desecration. | This is the most important fact on this page — this community is far more often coercion's target than its author. | [GOVERNMENT REPORT: UN documentation] |
+| Covenant-breaker designation | Sanction | The institutions impose it. | It holds an expectation, set out in published guidance [17], that members avoid personal relations and correspondence with the designated person, relatives included, and meet them only with a national assembly's permission; contact needed to conclude business is allowed. | It decides how freely your mother may associate with you. | [OFFICIAL POLICY] |
+| Huqúqu'lláh administration | Revenue | The Faith's central funds receive it. | It holds nineteen percent of members' surplus wealth, and no public source on this page shows whether it is accounted for to members. | It is nineteen percent of what remains of your wealth after necessary expenses. | [OFFICIAL POLICY] |
+| The Islamic Republic of Iran | External persecutor | Iranian state organs act as the persecutor. | It executed more than 200 Bahá'ís after 1979 [19] and now carries out arrest, imprisonment, university exclusion and cemetery desecration. | This is the most important fact on this page — this community is far more often coercion's target than its author. | [GOVERNMENT REPORT: UN documentation] |
 
 ::: cites
-Sources for this section: [1] [2] [3] [8] [9]
+Sources for this section: [1] [2] [3] [8] [9] [17] [18] [19] [20]
 :::
 
 ## 8. Law & state here {#law}
 
 | Country | What the law does | The accountability question |
 |---|---|---|
-| **Iran** | Baháʼís are not a recognized minority; community administration is prosecuted as membership of a "deviated sect" [8][12] | Two former leaders were sentenced in 2022 to a second ten-year term after an hour-long trial [12]; arrests and imprisonments rose sharply in 2024 [9] |
+| **Iran** | Baháʼís are not a recognized minority; community administration is prosecuted as membership of a "deviated sect" [8][12] | Two former leaders were sentenced in 2022 to a second ten-year term after an hour-long trial [12]; arrests and imprisonments rose sharply in 2024 [9]; 63 Bahá'ís were detained as of June 2026 [20] |
 | **Iran — education** | Baháʼís are excluded from universities [10] | The community founded its own Institute for Higher Education in 1987 [10] |
 | **United Kingdom** | Charity law governs the national assembly [11] | The national assembly files public accounts [11] |
 | **Internal** | Members may be removed from the rolls by the institutions [5][6][7] | Scholars and online critics were removed in 1997, 2000 and 2005 [5][6][7] |
@@ -225,7 +225,7 @@ The elections themselves can compel an answer at every level, as can charity reg
 | Flow | Stated purpose | How it controls | Who benefits |
 |---|---|---|---|
 | Bahá'í Funds (members-only contributions) | They support the Faith's work. | They are genuinely a safeguard: refusing outside money prevents donor capture — and giving amounts are confidential. | The institutions benefit, and no individual clergy salary exists. [OFFICIAL POLICY] |
-| Huqúqu'lláh (19% of surplus wealth) | It is the Right of God, paid to the Faith's head. | It is a substantial obligatory payment, though privately assessed and not enforced by audit. | The proceeds go to the Universal House of Justice's funds. |
+| Huqúqu'lláh (19% of surplus wealth) | It is the Right of God, paid to the Faith's head. | It is a substantial obligatory payment, though no source on this page records how it is assessed or accounted for. | The proceeds go to the Universal House of Justice's funds. |
 | Volunteer service and pioneering (moving to another place to teach the Faith) | They spread the Faith. | Committed members are expected to give substantial unpaid labor and to relocate. | The institutional expansion plans benefit. |
 | Institute materials and training | They support the study circles. | Costs are modest, and commercial extraction is low compared with most traditions here. | The Faith's publishing arms benefit. |
 
@@ -249,13 +249,13 @@ Sources for this section: [3]
 ## 10. Genealogy {#genealogy}
 
 ::: card
-#### Covenant-breaker designation and mandatory shunning
+#### Covenant-breaker designation and required avoidance
 
 **Origin.** The designation was established in the Faith's early succession disputes to prevent the schisms that fractured earlier religions. [OFFICIAL POLICY]
 
 **What it was for.** The designation answered a genuine and understandable problem: the founder watched rival claimants tear at the community and wrote in a mechanism to protect unity.
 
-**Why that reason expired.** It works — the Faith is unusually unified. But the price is a policy requiring members to sever contact with a designated person including their own family. Unity purchased by mandated shunning is not unity; it is the appearance of unity with the disagreement removed from view.
+**Why that reason expired.** It works — the Faith is unusually unified. But the price is published guidance that members avoid a designated person, relatives included [17]. Unity purchased by required avoidance is not unity; it is the appearance of unity with the disagreement removed from view.
 
 **Who benefits now.** The administrative order benefits, through its continuity and narrative control. The cost is paid by designated individuals and by their relatives, who must choose.
 :::
@@ -275,11 +275,11 @@ Sources for this section: [3]
 ::: card
 #### Exclusion of women from the Universal House of Justice
 
-**Origin.** The rule is stated in the authoritative texts without explanation, in a religion whose central social teaching is the equality of men and women. [OFFICIAL POLICY]
+**Origin.** The rule is stated in the authoritative texts, which give the reason as "a wisdom of the Lord God's, which will erelong be made manifest" [18], in a religion whose central social teaching is the equality of men and women. [OFFICIAL POLICY]
 
-**What it was for.** No purpose is given. That is itself the notable fact.
+**What it was for.** The texts say the reason is a wisdom to be made manifest later, and no published text says what it is. That is itself the notable fact.
 
-**Why that reason expired.** The Faith taught women's equality in 19th-century Iran, at real cost, and was right decades ahead of its neighbors. The single exclusion sits inside that record unexplained, which means it is defended by authority alone.
+**Why that reason expired.** The Faith taught women's equality in 19th-century Iran, at real cost, and was right decades ahead of its neighbors. The single exclusion sits inside that record with its stated reason deferred to the future, which means it is defended by authority alone.
 
 **Who benefits now.** Nothing identifiable benefits, materially. It is the cleanest example in the codex of a rule sustained purely because questioning it is out of bounds.
 :::
@@ -301,7 +301,7 @@ Sources for this section: [3]
 ### Information
 
 - Pre-publication review requires members to submit manuscripts about the Faith to institutional review before publishing — an explicit, written information control unusual among modern religions. [OFFICIAL POLICY]
-- Covenant-breaker designation obliges members to shun the designated person entirely, including family — the sharpest sanction in the system. [OFFICIAL POLICY]
+- Covenant-breaker designation obliges members to avoid personal relations with the designated person, relatives included, under published guidance [17] — the sharpest sanction in the system. [OFFICIAL POLICY]
 - Partisan political involvement is prohibited, which protects unity and also removes members from ordinary civic contestation. [OFFICIAL POLICY]
 
 ### Children
@@ -313,12 +313,12 @@ Sources for this section: [3]
 ### Bodies
 
 - Equality of men and women is explicit scripture and is practiced substantially in community life — one of the strongest positions in this codex.
-- The exception: women are ineligible for the Universal House of Justice, the highest institution. Doctrinally unexplained, and the clearest internal inequality. [OFFICIAL POLICY]
+- The exception: women are ineligible for the Universal House of Justice, the highest institution. The stated reason is deferred to the future [18], and it is the clearest internal inequality. [OFFICIAL POLICY]
 - Chastity outside heterosexual marriage is required; same-sex marriage is not recognized, and LGBTQ members must remain celibate to stay in good standing. [OFFICIAL POLICY]
 - Divorce is permitted after a year of patience, which is comparatively unrestrictive.
 
 ::: cites
-Sources for this section: [3] [8] [9]
+Sources for this section: [3] [8] [9] [17] [18]
 :::
 
 ## 12. The 30 techniques {#techniques}
@@ -469,7 +469,7 @@ Insufficiency is framed as disunity rather than deficiency. You are not insuffic
 
 **The counter.** Consultation is not real if the conclusion must preserve institutional harmony. If independent investigation is praised only until it produces public disagreement, then unity has become a method for controlling perception.
 
-**Evidence grade.** [[Codified]] Pre-publication review requires institutional approval of members' writing about the Faith. *(sourced)*
+**Evidence grade.** [[Cultural]] The gaslighting described is a conversational pattern in community practice; pre-publication review is the policy background, but no document records the responses the entry describes.
 :::
 
 ::: tactic n=7
@@ -515,7 +515,7 @@ Persistent dissent is reframed as a threat to the Covenant. The subject becomes 
 
 **The counter.** Forbidding the pursuit of status does not abolish the economy of it; it drives the economy into weather — felt warmth, felt distance — where nothing can be appealed because nothing was ever said.
 
-**Evidence grade.** [[Codified]] The grade rests on the published covenant doctrine and review policy behind the entry; the unpredictable regard it describes is informal and no document records it.
+**Evidence grade.** [[Cultural]] The unpredictable regard the entry describes is informal and no document records it; the covenant doctrine and review policy are only the background to it.
 :::
 
 ::: tactic n=9
@@ -533,7 +533,7 @@ Persistent dissent is reframed as a threat to the Covenant. The subject becomes 
 
 **The counter.** Service becomes moving the goalposts when unity is praised during inquiry but demanded during dissent. If investigation is free only before commitment, the freedom was recruitment language.
 
-**Evidence grade.** [[Codified]] The grade rests on the published covenant doctrine and review policy; the shifting standard the entry describes is a pattern in practice and is not a written rule.
+**Evidence grade.** [[Cultural]] The shifting standard the entry describes is a pattern in practice and is not a written rule; the covenant doctrine and review policy are only the background to it.
 :::
 
 ::: tactic n=10
@@ -551,7 +551,7 @@ Persistent dissent is reframed as a threat to the Covenant. The subject becomes 
 
 **The counter.** Unity becomes strategic ambiguity when agreement is voluntary in language but mandatory in consequence. If investigation is celebrated only until it challenges administration, freedom has a closing date.
 
-**Evidence grade.** [[Codified]] The grade rests on the published covenant doctrine, which the entry sets against the language of independent investigation; the ambiguity is an interpretation of the two.
+**Evidence grade.** [[Contested]] The entry is an interpretation of two published positions, independent investigation and covenant loyalty; members and critics read the relation between them differently.
 :::
 
 ::: tactic n=11
@@ -570,7 +570,7 @@ Persistent dissent is reframed as a threat to the Covenant. The subject becomes 
 
 **The counter.** Consultation becomes projection when criticism itself is defined as the problem. If unity requires the harmed person to soften, wait, rephrase, or disappear, then disunity did not come from the critic. It came from the system that made honesty unsafe.
 
-**Evidence grade.** [[Codified]] The grade rests on the published covenant doctrine and review policy; accusing critics of disunity is described as a pattern in practice, not as stated policy.
+**Evidence grade.** [[Cultural]] Accusing critics of disunity is described as a pattern in practice, not as stated policy; the covenant doctrine is only the background to it.
 :::
 
 ::: tactic n=12
@@ -590,7 +590,7 @@ Persistent dissent is reframed as a threat to the Covenant. The subject becomes 
 
 **The counter.** Unity is not proven by suppressing conflict. If the person naming harm is treated as the source of disharmony, then the institution is not practicing peace. It is managing optics.
 
-**Evidence grade.** [[Codified]] The grade rests on the published covenant doctrine and review policy; the sequence of denial, attack and reversal is described as a pattern in practice, not as a written procedure.
+**Evidence grade.** [[Cultural]] The sequence of denial, attack and reversal is described as a pattern in practice, not as a written procedure.
 :::
 
 ::: tactic n=13
@@ -610,7 +610,7 @@ Persistent dissent is reframed as a threat to the Covenant. The subject becomes 
 
 **The counter.** Unity becomes desensitization when members become accustomed to muting moral alarm in order to protect harmony. If dissent must be softened until it no longer threatens power, consultation has become compliance rehearsal.
 
-**Evidence grade.** [[Codified]] The grade rests on the published covenant doctrine and review policy; the normalizing effect of service expectations is described as a pattern in practice, not as a written rule.
+**Evidence grade.** [[Cultural]] The normalizing effect of service expectations is described as a pattern in practice, not as a written rule.
 :::
 
 ### Stage 5 · Isolate {#stage-5}
@@ -640,7 +640,7 @@ The isolation is moderate and runs through community, service, study circles and
 
 **The counter.** Soft isolation is still isolation if dissent has nowhere safe to go. If disagreement must be processed only through channels committed to preserving unity, then unity has become a velvet wall.
 
-**Evidence grade.** [[Contested]] Ordinary community life is service-oriented and open; the shunning mechanism activates only around designated dissent. *(sourced)*
+**Evidence grade.** [[Contested]] Ordinary community life is service-oriented and open; the avoidance guidance applies only around designated dissent.
 :::
 
 ::: tactic n=15
@@ -661,7 +661,7 @@ The isolation is moderate and runs through community, service, study circles and
 
 **The counter.** Consultation becomes triangulation when the institution, the community, and the future of humanity are all placed against the individual’s dissent. If every concern must be softened to protect unity, then unity is being used as the third party in the room.
 
-**Evidence grade.** [[Contested]] Ordinary community life is open and interfaith; the severance mechanism activates only around designated dissent.
+**Evidence grade.** [[Contested]] Routing concerns through assemblies and consultation is read by members as the Faith's method and by critics as placing the institution between the member and the question; the avoidance guidance applies only around designated dissent.
 :::
 
 ### Stage 6 · Extract {#stage-6}
@@ -669,7 +669,7 @@ The isolation is moderate and runs through community, service, study circles and
 ::: stage
 **Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
 
-The harvest includes nineteen percent of surplus wealth to the Faith's centre, privately assessed with no member-facing audit; substantial unpaid service and pioneering relocation; and pre-publication review, which requires you to submit your own writing about your own religion before publishing it.
+The harvest includes nineteen percent of surplus wealth to the Faith's centre, with no public source on this page showing whether it is accounted for to members; substantial unpaid service and pioneering relocation; and pre-publication review, which requires you to submit your own writing about your own religion before publishing it.
 
 *What it asks of you:* A faith that teaches independent investigation of truth cannot also hold approval rights over your conclusions. Both cannot be operating.
 :::
@@ -690,7 +690,7 @@ The harvest includes nineteen percent of surplus wealth to the Faith's centre, p
 
 **The counter.** Consultation becomes FLYING MONKEY behavior when every person sent to “help” is committed to preserving institutional unity over the dissenter’s concern. If unity always wins before the conversation begins, the helpers are not neutral.
 
-**Evidence grade.** [[Codified]] Community enforcement is informal and carried out by members. The grade rests on the published rule that members must avoid a designated covenant-breaker.
+**Evidence grade.** [[Cultural]] Community enforcement is informal and carried out by members, and no document directs it; the published guidance that members avoid a designated covenant-breaker is the background to it.
 :::
 
 ::: tactic n=17
@@ -709,7 +709,7 @@ The harvest includes nineteen percent of surplus wealth to the Faith's centre, p
 
 **The counter.** Unity becomes smear when dissenters are characterized as spiritually defective. If the institution cannot tolerate public criticism without diagnosing the critic’s soul, unity is functioning as image protection.
 
-**Evidence grade.** [[Codified]] The characterizing of critics described here is practice and is not written down. The grade rests on the published covenant-breaker designation, the formal status applied to organized dissent.
+**Evidence grade.** [[Cultural]] The characterizing of critics described here is practice and is not written down; covenant-breaker designation, the formal status applied to organized dissent, is the background to it.
 :::
 
 ::: tactic n=18
@@ -728,7 +728,7 @@ The harvest includes nineteen percent of surplus wealth to the Faith's centre, p
 
 **The counter.** Consultation becomes stonewalling when it absorbs dissent without changing anything. If unity requires the complaint to lose its teeth before it is heard, the process is not consultation. It is neutralization.
 
-**Evidence grade.** [[Codified]] The redirection into consultation is described as a pattern in practice. The grade rests on the published structure that provides no appeal outside the institutions (sections 7 and 22).
+**Evidence grade.** [[Cultural]] The redirection into consultation is described as a pattern in practice, and no document prescribes it; the published structure provides no appeal outside the institutions (sections 7 and 22).
 :::
 
 ::: tactic n=19
@@ -747,7 +747,7 @@ The harvest includes nineteen percent of surplus wealth to the Faith's centre, p
 
 **The counter.** Investigation is not fully free if dissent becomes disunity after enrollment. If the system celebrates your search only while it leads inward, then consent was manufactured by front-loading freedom and back-loading obedience.
 
-**Evidence grade.** [[Codified]] The grade rests on the published review and covenant rules that members meet after enrolling; the account of how consent is shaped describes a sequence in practice and is not a written policy.
+**Evidence grade.** [[Cultural]] The account of how consent is shaped describes a sequence in practice and is not a written policy; the review and covenant rules members meet after enrolling are the background to it.
 :::
 
 ::: tactic n=20
@@ -766,7 +766,7 @@ The harvest includes nineteen percent of surplus wealth to the Faith's centre, p
 
 **The counter.** Unity becomes TRAUMA BONDING when dissent creates shame and service restores worth. If the price of feeling spiritually clean is muting your moral alarm, the attachment is being maintained through harmony pressure.
 
-**Evidence grade.** [[Codified]] Trauma bonding is described as a pattern in practice, with no document behind it. The grade rests on the published covenant-breaker designation and review policy that the entry treats as the sanctions behind it.
+**Evidence grade.** [[Cultural]] Trauma bonding is described as a pattern in practice, with no document behind it.
 :::
 
 ::: tactic n=21
@@ -785,7 +785,7 @@ The harvest includes nineteen percent of surplus wealth to the Faith's centre, p
 
 **The counter.** Consultation becomes LEARNED HELPLESSNESS when it absorbs dissent without effect. If the process always returns the person to service and silence, unity has become a mechanism for exhausting objection.
 
-**Evidence grade.** [[Codified]] Learned helplessness is described as a pattern in practice. The grade rests on the absence of any appeal beyond the institutions, which the published structure states (sections 7 and 22).
+**Evidence grade.** [[Cultural]] Learned helplessness is described as a pattern in practice; the published structure provides no appeal beyond the institutions (sections 7 and 22), which the entry treats as its background.
 :::
 
 ::: tactic n=22
@@ -804,7 +804,7 @@ The harvest includes nineteen percent of surplus wealth to the Faith's centre, p
 
 **The counter.** Unity becomes BENEVOLENT CONTROL when dissent is softened until harmless. If peace requires suppressing moral alarm, unity is not healing the conflict. It is managing the critic.
 
-**Evidence grade.** [[Codified]] The grade rests on the published rules on unity and partisan politics that the entry cites; control through noble ideals is described as a pattern in practice.
+**Evidence grade.** [[Cultural]] Control through noble ideals is described as a pattern in practice, with no written rule behind it; the published rules on unity and partisan politics are the background to it.
 :::
 
 ::: tactic n=23
@@ -823,7 +823,7 @@ The harvest includes nineteen percent of surplus wealth to the Faith's centre, p
 
 **The counter.** Maturity becomes INFANTILIZATION when it means never publicly disagreeing with authority. If adult dissent is treated as impatience, unity has become parental correction.
 
-**Evidence grade.** [[Codified]] Women are ineligible for the Universal House of Justice — the single stated exclusion inside a religion whose central social teaching is equality. *(sourced)*
+**Evidence grade.** [[Cultural]] Treating adult dissent as impatience or immaturity is described as community practice; no written rule treats adult members as children.
 :::
 
 ::: tactic n=24
@@ -843,7 +843,7 @@ The harvest includes nineteen percent of surplus wealth to the Faith's centre, p
 
 **The counter.** Service identity becomes IDENTITY EROSION when the person cannot dissent without feeling spiritually selfish. If the self must shrink to preserve the ideal of unity, the project has become larger than the person.
 
-**Evidence grade.** [[Codified]] The grade rests on the published restriction on partisan political involvement and the covenant doctrine; the absorption of identity into service is described as a pattern in practice.
+**Evidence grade.** [[Cultural]] The absorption of identity into service is described as a pattern in practice; the restriction on partisan political involvement is the background to it.
 :::
 
 ::: tactic n=25
@@ -863,7 +863,7 @@ The harvest includes nineteen percent of surplus wealth to the Faith's centre, p
 
 **The counter.** Unity becomes SPIRITUAL BYPASSING when it suppresses necessary conflict. If peace requires silence about harm, the peace is not spiritual maturity. It is managed avoidance.
 
-**Evidence grade.** [[Codified]] The grade rests on the published covenant doctrine and the nonpartisanship rule that the entry cites; bypassing through unity language is described as a pattern in practice.
+**Evidence grade.** [[Cultural]] Bypassing through unity language is described as a pattern in practice; the covenant doctrine and the nonpartisanship rule are the background to it.
 :::
 
 ::: tactic n=26
@@ -882,7 +882,7 @@ The harvest includes nineteen percent of surplus wealth to the Faith's centre, p
 
 **The counter.** Voluntary giving becomes FINANCIAL CONTROL when refusal feels like betraying humanity’s progress. If service to a global ideal makes personal limits feel selfish, the institution has moralized extraction.
 
-**Evidence grade.** [[Codified]] Huqúqu'lláh at nineteen percent of surplus wealth is stated obligation; member-only funding is a genuine anti-capture safeguard. *(sourced)*
+**Evidence grade.** [[Codified]] Huqúqu'lláh at nineteen percent of surplus wealth is a stated obligation; member-only funding is a genuine anti-capture safeguard.
 :::
 
 ### Stage 7 · Discard {#stage-7}
@@ -890,7 +890,7 @@ The harvest includes nineteen percent of surplus wealth to the Faith's centre, p
 ::: stage
 **You become expensive — too many questions, too much independence — and the urgency ramps up until you are removed.**
 
-Ordinary resignation is genuinely easy and low-cost. Covenant-breaker designation is the opposite: total severance including family. Loss of voting rights sits between them.
+Ordinary resignation is genuinely easy and low-cost. Covenant-breaker designation is the opposite: members are expected to avoid the person, relatives included, under published guidance [17]. Loss of voting rights sits between them.
 
 *What it asks of you:* The gap between those two exits tells you exactly what the system is protecting.
 :::
@@ -911,7 +911,7 @@ Ordinary resignation is genuinely easy and low-cost. Covenant-breaker designatio
 
 **The counter.** Unity becomes MANUFACTURED CRISIS when disagreement is treated as danger. If criticism threatens the project so severely that it must be softened or contained, unity has become a fear-based control system.
 
-**Evidence grade.** [[Codified]] Covenant-breaker designation and its shunning requirement are stated policy; the crisis framing around disunity is described as a pattern in practice.
+**Evidence grade.** [[Taught]] Covenant-breaker designation and the avoidance guidance around it are published, but the crisis framing around disunity is described as a pattern in practice and is not written down.
 :::
 
 ::: tactic n=28
@@ -931,7 +931,7 @@ Ordinary resignation is genuinely easy and low-cost. Covenant-breaker designatio
 
 **The counter.** Unity becomes DISCARD when dissenters are gently removed from warmth. If public disagreement makes someone spiritually suspect, unity is not inclusion. It is conditional politeness.
 
-**Evidence grade.** [[Codified]] Covenant-breaker designation and the shunning requirement are stated policy. *(sourced)*
+**Evidence grade.** [[Codified]] Covenant-breaker designation and the guidance that members avoid the designated person are published.
 :::
 
 ### Stage 8 · Replace {#stage-8}
@@ -939,7 +939,7 @@ Ordinary resignation is genuinely easy and low-cost. Covenant-breaker designatio
 ::: stage
 **Your seat is filled before the door shuts, and nobody is responsible for any of it because the decisions belong to institutions held to be guided.**
 
-Ordinary resignation genuinely costs little and relationships usually survive. Covenant-breaker designation is the opposite: total severance including family, performed by members, instructed by policy.
+Ordinary resignation genuinely costs little and relationships usually survive. Covenant-breaker designation is the opposite: members are expected to avoid the person, relatives included, carried out by members under published guidance [17].
 
 *What it asks of you:* The gap between those two exits is the exact measure of what the system protects. It is not doctrine. It is agreement.
 :::
@@ -960,7 +960,7 @@ Ordinary resignation genuinely costs little and relationships usually survive. C
 
 **The counter.** Service becomes REPLACEMENT when people are valued by capacity. If the community moves smoothly from one exhausted servant to another without asking why people burn out, unity has become a staffing model.
 
-**Evidence grade.** [[Codified]] The grade rests on the published constitution of the elected institutions; the replacement of departing members by new volunteers is described as a pattern in practice.
+**Evidence grade.** [[Cultural]] The replacement of departing members by new volunteers is described as a pattern in practice; the published constitution of the elected institutions is only the background to it.
 :::
 
 ::: tactic n=30
@@ -980,7 +980,7 @@ Ordinary resignation genuinely costs little and relationships usually survive. C
 
 **The counter.** Consultation becomes PLAUSIBLE DENIABILITY when dissent is accepted only after being softened. No clergy does not mean no power. Unity is coercive when disagreement must disappear to prove spiritual maturity.
 
-**Evidence grade.** [[Codified]] The grade rests on the published constitution that locates authority in named elected institutions; the claim that unity language lets those institutions deny suppressing dissent is an interpretation of practice.
+**Evidence grade.** [[Cultural]] The published constitution locates authority in named elected institutions, which makes them traceable and cuts against deniability; the claim that unity language lets those institutions deny suppressing dissent is an interpretation of practice.
 :::
 
 ::: cites
@@ -996,19 +996,19 @@ The seven loops below show how the practices connect, so that each step makes th
 ::: card
 #### 1 · Money to Doctrine to Money
 
-Huqúqu'lláh and Fund contributions are member-only, which is a real safeguard, but the accounting is still not member-facing.
+Huqúqu'lláh and Fund contributions are member-only, which is a real safeguard, but no public source shows whether the accounting is member-facing.
 
 **How it runs.**
 
 1. The Faith asks members for Huqúqu'lláh, 19% of surplus wealth, the Right of God, paid to the Faith's head (section 9).
 2. Funds accept contributions from members only, so no outside donor shapes the institutions (sections 9 and 16).
 3. The Universal House of Justice holds final authority over doctrine, administration and the Faith's global plans, and Huqúqu'lláh is paid into its funds (sections 7 and 9).
-4. Huqúqu'lláh is privately assessed and not enforced by audit, and giving amounts are confidential, so no member-facing accounting exists (sections 9 and 16).
+4. No source on this page records how Huqúqu'lláh is accounted for to members, and giving amounts are confidential, so a member-facing accounting is not established (sections 9 and 16).
 5. The money supports the institutions and their expansion plans, which members are then asked to serve through unpaid labor and pioneering (section 9), and the giving continues.
 
 **Techniques that feed it.** [26 · Financial Control](#t-26), [3 · Future Faking](#t-3), [22 · Benevolent Control](#t-22).
 
-**Why it closes.** The body that sets the obligation also receives the payment and holds final authority over doctrine. The refusal of outside money protects the Faith from donors and leaves members without a view of how their own payments are used.
+**Why it closes.** The body that sets the obligation also receives the payment and holds final authority over doctrine. The refusal of outside money protects the Faith from donors and leaves open whether members can see how their own payments are used.
 
 **Where it could be broken, and by whom.** It weakens wherever the money becomes visible. National assemblies registered as charities file public accounts, as the UK assembly does (section 8); whether Huqúqu'lláh is accounted for to members is in the institutions' hands. A member can ask for the accounting (section 23, question 4). This paragraph is analysis, not a documented finding.
 
@@ -1154,8 +1154,8 @@ Iranian persecution is real and severe, and it makes any internal criticism feel
 | They say | The record shows | Receipt |
 |---|---|---|
 | Independent investigation of truth is a core principle. | Members must submit writing about the Faith for institutional review before publishing. | [OFFICIAL POLICY] |
-| Men and women are spiritually equal. | Women are ineligible for the Universal House of Justice, with no explanation given. | [OFFICIAL POLICY] |
-| There is no clergy and no shunning. | Covenant-breaker designation requires total severance, performed by members and instructed by policy. | [OFFICIAL POLICY] |
+| Men and women are spiritually equal. | Women are ineligible for the Universal House of Justice, with the reason given as a wisdom to be made manifest later [18]. | [OFFICIAL POLICY] |
+| There is no clergy. | Covenant-breaker designation brings an expectation that members avoid the person, relatives included, carried out by members under published guidance [17]. | [OFFICIAL POLICY] |
 | Consultation resolves disagreement. | Persistent organized dissent is treated as a covenant matter rather than a consultative one. | [FORMER MEMBER TESTIMONY] |
 
 ### Accountability or theatre?
@@ -1170,7 +1170,7 @@ Iranian persecution is real and severe, and it makes any internal criticism feel
 
 | Term | What it means inside | What it does | Said plainly |
 |---|---|---|---|
-| Covenant-breaker | A covenant-breaker is one who challenges the authority of the Covenant. | It is the tradition's most serious status, and it requires shunning. It is applied to challenges to institutional authority rather than to belief. | 'You disputed the leadership and must now be avoided.' |
+| Covenant-breaker | A covenant-breaker is one who challenges the authority of the Covenant. | It is the tradition's most serious status, and members are expected to avoid the person. It is applied to challenges to institutional authority rather than to belief. | 'You disputed the leadership and must now be avoided.' |
 | Review | Review is the pre-publication examination of members' writings about the faith. | It means an electorate cannot read unreviewed material about its own institutions — which makes an election without candidate information into a confirmation. | 'You may not read that before you vote.' |
 | Unity | Unity is the central principle of the faith. | It is genuinely central and genuinely beautiful. As a procedural instrument it makes disagreement itself the offence, independent of what the disagreement is about. | 'Disagreeing is the problem, not what you disagreed with.' |
 
@@ -1178,7 +1178,7 @@ Iranian persecution is real and severe, and it makes any internal criticism feel
 
 ### What leaving costs
 
-- Ordinary resignation is administratively simple; the high cost is reserved for organized dissent — covenant-breaker designation severs even family association. [OFFICIAL POLICY / FORMER MEMBER TESTIMONY]
+- Ordinary resignation is administratively simple; the high cost is reserved for organized dissent — covenant-breaker designation means members are expected to avoid the person, relatives included, under guidance the Faith publishes [17]. [OFFICIAL POLICY / FORMER MEMBER TESTIMONY]
 - Scholars publishing critical history have faced review pressure and disenrollment episodes. [FORMER MEMBER TESTIMONY: e.g., removals from the rolls in 1997, 2000 and 2005 after online discussion and scholarship]
 
 ### The ledger of exit
@@ -1186,7 +1186,7 @@ Iranian persecution is real and severe, and it makes any internal criticism feel
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
 | Ordinary resignation | Documented as low cost. | Withdrawal is administrative, and members generally retain relationships. | Accurately: simple resignation is genuinely low-cost. |
-| Covenant-breaker designation | Documented as severe. | Total shunning follows, including by immediate family, as mandated by policy. | “It's spiritual protection of unity, not punishment.” |
+| Covenant-breaker designation | Documented as severe. | Members are expected to avoid the person, including relatives, under published guidance [17]. | “It's spiritual protection of unity, not punishment.” |
 | Loss of voting rights (administrative sanction) | Yes, documented. | It applies for serious moral or covenant issues and leaves the person a member without participation. | “A remedial measure.” |
 | Scholarly cost | Documented cases exist. | Review requirements and pressure fall on historians publishing critical work. | “Review only checks accuracy of representation.” |
 
@@ -1194,17 +1194,17 @@ Iranian persecution is real and severe, and it makes any internal criticism feel
 
 | Channel | Level | Note |
 |---|---|---|
-| Explicit policy | Very low | Shunning, review, and eligibility rules are all published — this tradition documents its own control mechanisms unusually openly. |
+| Explicit policy | Very low | The avoidance guidance, review, and eligibility rules are all published — this tradition documents its own control mechanisms unusually openly. |
 | Informal enforcement | Medium | Enforcement is informal and rests on community expectation around participation and unity discourse. |
 | Leadership distance | Low | Authority is clearly located in named elected institutions; accountability is traceable. |
 | Doctrinal ambiguity | Low | Written scripture and interpretive authority are explicit; little room for retroactive reinterpretation. |
 | Cultural outsourcing | Low | The Faith is global and multi-ethnic, so harms cannot easily be blamed on one culture. |
-| Volunteer enforcement | High | Shunning is carried out by ordinary members and relatives, as instructed. |
+| Volunteer enforcement | High | Avoidance is carried out by ordinary members and relatives, as the guidance directs. |
 | Sacred secrecy | Low | Institutional decisions on individuals are private, but doctrine and policy are public. |
 | Exit cost denial | Low | The Faith openly states what covenant-breaking entails — no denial is attempted. |
 
 ::: cites
-Sources for this section: [4] [7]
+Sources for this section: [4] [7] [17]
 :::
 
 ## 16. The ledger {#ledger}
@@ -1216,20 +1216,20 @@ Sources for this section: [4] [7]
 
 ### Money out, leverage back
 
-- The clearest fact here runs the other way: the Iranian state persecutes Bahá'ís systematically — executions, imprisonment, exclusion from universities, cemetery desecration — using religion as an instrument against a defenseless minority. This community is far more often coercion's target than its author. [GOVERNMENT REPORT]
+- The clearest fact here runs the other way: the Iranian state persecutes Bahá'ís systematically — executions after 1979, and now imprisonment, exclusion from universities, cemetery desecration — using religion as an instrument against a defenseless minority. This community is far more often coercion's target than its author. [GOVERNMENT REPORT]
 - Funds accept contributions from members only, which genuinely prevents donor capture — an anti-leverage design worth naming as a model. [OFFICIAL POLICY]
-- Huqúqu'lláh (19% of surplus wealth) flows to the Faith's central institutions, privately assessed, with no member-facing audit. [OFFICIAL POLICY]
+- Huqúqu'lláh (19% of surplus wealth) flows to the Faith's central institutions; whether it is accounted for to members is not established from any public source. [OFFICIAL POLICY]
 
 ### Who pays
 
-- Iranian Bahá'ís pay: they are executed, imprisoned and barred from higher education by the state. This community is far more often the victim of coercion than its author. [GOVERNMENT REPORT]
-- Designated covenant-breakers and their families pay, because policy severs them from other members.
+- Iranian Bahá'ís pay: more than 200 were executed after 1979, and they are now imprisoned and barred from higher education by the state. This community is far more often the victim of coercion than its author. [GOVERNMENT REPORT]
+- Designated covenant-breakers and their families pay, because published guidance keeps other members at a distance from them.
 - LGBTQ members pay, because they are required to be celibate for life.
 - Women pay, because they are ineligible for the highest institution.
 - Bahá'í scholars pay when their critical historical work meets review pressure.
 
 ::: cites
-Sources for this section: [3] [8] [9]
+Sources for this section: [3] [8] [9] [17] [19] [20]
 :::
 
 ## 17. Who gets hurt most {#who-gets-hurt}
@@ -1240,15 +1240,15 @@ The costs in section 15 do not fall evenly. They fall hardest where a person has
 
 | Who | How | What it compounds with |
 |---|---|---|
-| Iranian Bahá'ís | They are executed, imprisoned and barred from higher education, and their cemeteries are destroyed. | The harm is compounded by the state, not the Faith, and it is the largest harm on this page. |
-| Designated covenant-breakers | They face total severance, including from family, by policy. | The harm compounds for their relatives, who must choose. |
+| Iranian Bahá'ís | More than 200 were executed after 1979; today they are imprisoned and barred from higher education, and graves in their cemeteries have been razed. | The harm is compounded by the state, not the Faith, and it is the largest harm on this page. |
+| Designated covenant-breakers | Members are expected to avoid them, relatives included, under published guidance. | The harm compounds for their relatives, who must choose. |
 | LGBTQ members | Lifelong celibacy is required for good standing. | It compounds with the absence of any doctrinal path to reconsideration. |
-| Women | They are ineligible for the highest institution, inside a religion that taught equality early and at real cost. | It compounds with the absence of any stated reason to engage. |
+| Women | They are ineligible for the highest institution, inside a religion that taught equality early and at real cost. | It compounds with the absence of any published account of what the stated reason is. |
 | Bahá'í historians | They face review pressure and disenrollment episodes over critical work. | It compounds with loss of community as well as career. |
 
 ### From The Women's Codex
 
-- *Office and ordination* — The Universal House of Justice: women are ineligible by standing ruling in a faith whose founding teaching includes the equality of the sexes, with no published reasoning.
+- *Office and ordination* — The Universal House of Justice: women are ineligible by standing ruling in a faith whose founding teaching includes the equality of the sexes, with the stated reason deferred to the future [18].
 
 ## 18. The middle tiers {#tiers}
 
@@ -1279,14 +1279,14 @@ Most of the institution's work is done below the House of Justice, by people who
 - **what:** Juan Cole, a historian of the Middle East, resigned from the Faith after being warned over his statements on an online discussion list [4].
 - **record:** Juan R. I. Cole, personal statement [4]
 - **outcome:** He resigned in 1996 [4].
-- **tactics:** 17, 19
+- **tactics:** 17, 28
 - **grade:** Documented
 :::
 
 ::: case
 ### A second decade in prison (Iran, 2008–2022)
 - **when:** 2008–2022
-- **what:** Mahvash Sabet and Fariba Kamalabadi, former members of the "Yaran" who administered Iran's Baháʼí community, served ten years from 2008 to 2018 [12].
+- **what:** Mahvash Sabet and Fariba Kamalabadi, former members of the "Yaran" who administered Iran's Baháʼí community, served ten years from 2008 to 2017 [12][21].
 - **record:** USCIRF statement, 2022 [12]
 - **outcome:** In 2022, after an hour-long trial in Tehran's Revolutionary Court, both were sentenced to another ten years [12].
 - **tactics:** —
@@ -1299,7 +1299,7 @@ Most of the institution's work is done below the House of Justice, by people who
 
 | What | Who | When | What it cost |
 |---|---|---|---|
-| Member-only funding, which structurally prevents donor capture | The Faith's own design | From the founding | It cost slower growth, and it is a genuine model other traditions should copy. |
+| Member-only funding, which structurally prevents donor capture | The Faith's own design | From the founding | This page records no source for any cost in growth, and it is a genuine model other traditions should copy. |
 | Racial and gender equality taught in 19th-century Iran at real cost | The early community | 1860s onward | It cost executions. |
 | The Bahá'í Institute for Higher Education, built because the state barred members from university | Bahá'í academics in Iran | 1987–present | Faculty were repeatedly arrested. |
 | No clergy, elected administration, and consultation as method | The administrative order's design | 20th century | It cost nothing, and that is why this section is short. |
@@ -1352,17 +1352,17 @@ Four voices appear in the record this page cites. Two belong to people in Iran, 
 ## 23. The questions {#questions}
 
 1. Your Faith teaches independent investigation of truth. Explain pre-publication review of members' writing about the Faith.
-2. If a designated covenant-breaker's family must shun them, ask which teaching about unity requires a mother to stop speaking to her son.
+2. If a designated covenant-breaker's relatives are expected to avoid them, ask which teaching about unity asks a mother to hold apart from her son.
 3. Women's equality is central scripture. Ask an institution to explain the one exclusion without invoking its own authority.
 4. Ask for the accounting of Huqúqu'lláh. Note whether the question is answered or reframed as a spiritual matter.
 5. A scholar publishes accurate history the institutions dislike. Describe the process by which he is heard rather than removed.
-6. You were taught that unity is the highest value. Ask whether unity that requires shunning is unity or only silence.
+6. You were taught that unity is the highest value. Ask whether unity that asks members to avoid one another is unity or only silence.
 
 ### In closing
 
 Your religion built real safeguards most traditions in this codex lack: no clergy, elected bodies, member-only funding, consultation as a method, and a documented history of getting race and gender right early and at cost. Those are not small. They are why this profile is short.
 
-But a faith confident in its own truth does not need to review what its historians write, and unity that requires a family to stop speaking is not the unity Baháʼu'lláh described — it is the appearance of it. Your tradition teaches you to investigate independently. That instruction was not meant to stop at the institutions' door.
+But a faith confident in its own truth does not need to review what its historians write, and unity that asks relatives to avoid one another is not the unity Baháʼu'lláh described — it is the appearance of it. Your tradition teaches you to investigate independently. That instruction was not meant to stop at the institutions' door.
 
 ## 24. Leaving safely here {#leaving}
 
@@ -1375,12 +1375,12 @@ Practical guidance, not legal advice.
 
 ## 25. Where to get help {#help}
 
-Checked 2026-09-27.
+Checked 2026-10-03.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; set hours, see website) [13] |
-| **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** [14] |
+| **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; Wednesday 10:00–13:00, Thursday 16:00–19:00, Friday 08:00–11:00) [13] |
+| **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848**; the service says it tries to offer a 24-hour chat and call service; UK +44 20 3807 4583, Australia +61 2 8203 7137 [14] |
 | **ICSA** | Former members of high-control groups; families | International | Contact is through its website [15] |
 | **Humanists at Risk** | People persecuted for belief | Global | Contact is by casework request through its website [16] |
 
@@ -1389,6 +1389,8 @@ Checked 2026-09-27.
 ### The Faith's own records
 1. Universal House of Justice, *Electoral Process* — nine members, elected every five years by national assembly members, no nominations or campaigning. https://universalhouseofjustice.bahai.org/electoral-process/
 2. Bahá'í World News Service, "Universal House of Justice elected" (29 Apr 2023 — 13th International Convention; next due 2028). https://news.bahai.org/story/1661/13th-convention-universal-house-of-justice-elected
+
+### Reference work, not the Faith's own records
 3. *Encyclopaedia Britannica*, "Baháʼí Faith" — the Báb (1844); Baháʼu'lláh's declaration (1863); ʻAkka; ʻAbduʼl-Bahá (1892–1921); Shoghi Effendi (1921–57); the House first elected 1963; Huqúqu'lláh (19% of surplus); women ineligible for the House. https://www.britannica.com/topic/Bahai-Faith
 
 ### Dissent and review (primary accounts)
@@ -1400,17 +1402,25 @@ Checked 2026-09-27.
 ### Persecution in Iran
 8. UN Special Rapporteur on Iran (Mai Sato), report on the persecution of Baháʼís (2024) — Baháʼí International Community summary. https://www.bic.org/news/bahais-face-extreme-and-persistent-persecution-iran-un-special-rapporteur-releases-final-report
 9. Center for Human Rights in Iran, "Arrests, Imprisonments of Baha'i Soar" (Nov 2024). https://iranhumanrights.org/2024/11/arrests-imprisonments-of-bahai-soar-as-irans-war-on-religious-minority-intensifies/
-10. Bahá'í Institute for Higher Education (founded 1987 after university exclusion). https://en.wikipedia.org/wiki/Bah%C3%A1%CA%BC%C3%AD_Institute_for_Higher_Education
+10. Wikipedia, "Baháʼí Institute for Higher Education" (founded 1987 after university exclusion; a tertiary source). https://en.wikipedia.org/wiki/Bah%C3%A1%CA%BC%C3%AD_Institute_for_Higher_Education
 
 ### Further sources
 11. Charity Commission for England and Wales, National Spiritual Assembly of the Baha'is of the United Kingdom (charity 250851), financial history 2020–2025. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/250851/financial-history
-12. USCIRF, "USCIRF Condemns Sentencing of Baha'i Women in Iran" (2022) — Mahvash Sabet and Fariba Kamalabadi, ten years each after an hour-long trial; earlier ten-year terms 2008–2018. https://www.uscirf.gov/release-statements/uscirf-condemns-sentencing-bahai-women-iran
-13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
+12. USCIRF, "USCIRF Condemns Sentencing of Baha'i Women in Iran" (2022) — Mahvash Sabet and Fariba Kamalabadi, ten years each after an hour-long trial; earlier ten-year terms 2008–2017 (see [21]). https://www.uscirf.gov/release-statements/uscirf-condemns-sentencing-bahai-women-iran
+13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Wednesday 10:00–13:00, Thursday 16:00–19:00, Friday 08:00–11:00). https://humanists.uk/faith-to-faithless/helpline/
 14. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 15. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 16. Humanists International — Humanists at Risk. https://humanists.international/what-we-do/humanists-at-risk/
+17. Compilation, "Non-association with Covenant-breakers" (Bahá'í Library Online) — no personal relations or correspondence with a designated covenant-breaker; meetings only with permission; contact needed for business allowed. https://bahai-library.com/compilation_non-association_covenant_breakers
+18. Universal House of Justice, message of 31 May 1988 on the membership of the House — confined to men "for a wisdom of the Lord God's, which will erelong be made manifest". https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/19880531_001/1
+19. Iran Human Rights Documentation Center, "Blocked from Progress: Persecution of Iran's Baha'i Community since 1979" — more than 200 Bahá'ís executed or killed after 1979; the last reported execution found, Ruhollah Rowhani, 1998. https://iranhrdc.org/blocked-from-progress-persecution-of-irans-bahai-community-since-1979/
+20. IranWire, "63 Baha'is detained across Iran solely for their beliefs" — 63 detained as of 11 June 2026, 15 more under electronic monitoring. https://iranwire.com/en/features/153616-63-bahais-detained-across-iran-solely-for-their-beliefs/
+21. Bahá'í World News Service, "Mahvash Sabet's ten-year sentence comes to an end" (19 Sept 2017) — release in 2017 after ten years' imprisonment. https://news.bahai.org/story/1198/
+22. Bahá'í International Community, "More than 30 Baha'i graves razed by Iranian authorities at Tehran mass gravesite" (March 2024) — agents took over the cemetery in 2021; graves razed in 2024. https://www.bic.org/news/more-30-bahai-graves-razed-iranian-authorities-tehran-mass-gravesite
+23. Bahaipedia, "Number of Baha'is in the world" (a wiki) — quotes the Bahá'í International Community's "up to 8 million" and other estimates of 5 to 7 million. https://bahaipedia.org/Number_of_Baha%27is_in_the_world
 
 ## 27. What changed on this page {#changed}
 
+- **2026-10-03:** Corrected the account of covenant-breaker designation to say members are expected to avoid the person under published guidance, not that all contact is severed. Added the stated reason for the ruling that only men may sit on the House of Justice. Corrected the Iran section: more than 200 Bahá'ís were executed after 1979, the last reported execution was in 1998, and the repression now is imprisonment and similar measures (63 detained as of June 2026). Fixed the release date of Mahvash Sabet and Fariba Kamalabadi (2017) and the date the cemetery graves were razed (2024). Corrected how national assemblies are elected and what Huqúqu'lláh is a percentage of, and removed claims about its accounting that no source supports. Regraded twenty technique entries to match their evidence and removed the "sourced" marks. Added the help-line hours and seven new sources.
 - **2026-09-27:** Added Branches, Law & state, Money in numbers (UK national assembly accounts 2020–2025), three documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
 
