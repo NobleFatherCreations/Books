@@ -5,7 +5,7 @@ family: "Christianity"
 family_id: christianity-family
 family_members: [christianity, catholicism, eastern-orthodoxy, oriental-orthodoxy, anglicanism, protestant-evangelical, pentecostal-charismatic, plymouth-brethren]
 version: v4
-checked: 2026-09-27
+checked: 2026-10-03
 sections_filled: 27/27
 missing: []
 partial: []
@@ -18,22 +18,22 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | The movement has roughly 600 million adherents globally when classical Pentecostals (members of the denominations that grew out of the early-twentieth-century revivals, such as the Assemblies of God), charismatics inside other denominations (Catholics and mainline Protestants who adopt Pentecostal practice), and independent neo-charismatic churches (independent churches with Pentecostal practice and no Pentecostal denomination) are counted together. That makes it the second-largest Christian grouping after Catholicism, and the fastest-growing. [ACADEMIC SOURCE] |
+| Size | Pew counted 584 million Pentecostal and charismatic Christians in 2011, about a quarter of the world's Christians [14], when classical Pentecostals (members of the denominations that grew out of the early-twentieth-century revivals, such as the Assemblies of God), charismatics inside other denominations (Catholics and mainline Protestants who adopt Pentecostal practice), and independent neo-charismatic churches (independent churches with Pentecostal practice and no Pentecostal denomination) are counted together. That count includes charismatic Catholics, so it is not a subset of Protestantism, and it is the fastest-growing part of Christianity. [ACADEMIC SOURCE] |
 | Who's in charge | In the founder's ministry, the dominant form worldwide, the founder is in charge personally. Enoch Adeboye leads Nigeria's Redeemed Christian Church of God and David Oyedepo leads Living Faith Church Worldwide; Edir Macedo leads Brazil's Universal Church of the Kingdom of God and also owns the Record television network. |
 | Chosen by / removable by | Founders appoint themselves, and growth is taken as their validation / Nobody can remove them. No public record identifies any body with the power to remove any of them |
 | Money in one line | This is the tradition where the codex's financial chapter is not an inference. The teaching states the mechanism out loud: money given to the ministry is a seed, and the seed produces a harvest. Giving is not framed as duty, gratitude, or solidarity. It is framed as an investment with a promised return, delivered by God, brokered by the ministry. |
 | Leaving in one line | Leaving is legally free and socially expensive, and the expense is concentrated in exactly the places where the movement is strongest: immigrant communities, diaspora congregations, and towns where the church is also the school, the clinic, the credit network, and the employer. |
-| The unanswered question | A US Senate committee asked six ministries for basic financial information and closed four years later without full answers and without penalties. If the seed produces the harvest, what exactly is the difficulty in publishing the accounts? |
-| Evidence | Twelve of the 30 techniques are sourced to a named document. The grades are Codified 4, Taught 12 and Cultural 14. |
+| The unanswered question | A US Senate committee asked six ministries for basic financial information and closed its inquiry three years later without full answers and without penalties. If the seed produces the harvest, what exactly is the difficulty in publishing the accounts? |
+| Evidence | Three of the 30 techniques are sourced to a named document. The grades are Documented 2, Taught 10 and Cultural 18. |
 | Family | Christianity — christianity, catholicism, eastern-orthodoxy, oriental-orthodoxy, anglicanism, protestant-evangelical, pentecostal-charismatic, plymouth-brethren |
-| Last checked | 2026-09-27 |
+| Last checked | 2026-10-03 |
 :::
 
 ### Disclosure scorecard
 
 | Accounts | Pay | Safeguarding | External first | Removal | Reply |
 |---|---|---|---|---|---|
-| N | N | N | N | N | N |
+| P | N | N | N | P | N |
 
 **Y** Yes — established from a public source · **P** Partial — true of some parts of the tradition, or true in some jurisdictions · **N** No — not established from any public source · **?** Not assessable — no institutional apex exists to assess
 
@@ -62,7 +62,7 @@ If you were filled with the Spirit in a room full of people singing, that happen
 ### The unanswered question
 
 ::: question
-A US Senate committee asked six ministries for basic financial information and closed four years later without full answers and without penalties. If the seed produces the harvest, what exactly is the difficulty in publishing the accounts?
+A US Senate committee asked six ministries for basic financial information and closed its inquiry three years later without full answers and without penalties. If the seed produces the harvest, what exactly is the difficulty in publishing the accounts?
 :::
 
 ### The widest gap between word and record
@@ -79,7 +79,7 @@ A US Senate committee asked six ministries for basic financial information and c
 
 ### The strongest objection, answered
 
-**The objection.** You are describing a handful of American televangelists and smearing six hundred million people, most of them poor, most of them in churches that have never asked anyone for a seed.
+**The objection.** You are describing a handful of American televangelists and smearing hundreds of millions of people, most of them poor, most of them in churches that have never asked anyone for a seed.
 
 **What is true in it.** That objection is largely correct and this page concedes it in full. Most Pentecostal congregations on earth are small, poor, locally led, and run by pastors who are not paid enough. The movement's founding was genuinely radical, its relief work is enormous and real, and the empires are a minority of the churches even though they are a majority of the broadcast.
 
@@ -92,7 +92,7 @@ Sources for this section: [8]
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-Pentecostal and charismatic Christianity is the world's fastest-growing religious movement. It counts roughly 600 million people across classical Pentecostal denominations, independent charismatic churches, and prosperity ministries (ministries that teach that faith and giving are rewarded with health and wealth), and it is defined by direct experience of the Holy Spirit, healing, prophecy, and speaking in tongues (speech in a language the speaker does not know, understood as prayer given by the Spirit).
+Pentecostal and charismatic Christianity is the world's fastest-growing religious movement. Pew counted about 584 million people in 2011 across classical Pentecostal denominations, independent charismatic churches, and prosperity ministries (ministries that teach that faith and giving are rewarded with health and wealth), and it is defined by direct experience of the Holy Spirit, healing, prophecy, and speaking in tongues (speech in a language the speaker does not know, understood as prayer given by the Spirit).
 :::
 
 - A healthy church publishes annual accounts, independently audited, and gives them to members without being asked. A minority of Pentecostal churches do this, and it is the single clearest marker on this page.
@@ -116,7 +116,7 @@ Pentecostalism began in the first decade of the twentieth century as a movement 
 1960s–1970s | Kenneth Hagin systematizes Word of Faith teaching, drawing on E. W. Kenyon; 'seed faith' enters mass circulation through Oral Roberts | The theological engine is installed: giving is reframed from duty into investment, with a guaranteed return. A promise that cannot fail is a promise that cannot be audited.
 1987–1989 | The collapse of PTL (Praise The Lord, Jim Bakker's television ministry); Jim Bakker convicted in 1989 on fraud and conspiracy charges over lifetime-partnership lodging sold many times over | The first proof that the instrument was legally actionable — and that it took a federal prosecution, not a church body, to establish it. [COURT RECORD]
 1980s–2000s | Explosive growth outside the West: the Redeemed Christian Church of God and Living Faith in Nigeria, the Universal Church of the Kingdom of God in Brazil, Yoido Full Gospel in Seoul | The movement's centre of gravity leaves America. So does most Western scrutiny of it.
-2007–2011 | US Senate Finance Committee inquiry under Senator Charles Grassley into six large media ministries; the 2011 review closes without penalties, and several ministries decline to provide full information | The clearest demonstration in this codex of the church financial exemption in operation: a US Senate committee asked, and could not compel. [GOVERNMENT REPORT]
+2007–2011 | US Senate Finance Committee inquiry under Senator Charles Grassley into six large media ministries; the 2011 review closes without penalties, and several ministries decline to provide full information | The clearest demonstration in this codex of the church financial exemption in operation: a US Senate committee asked, and did not use its power to compel; staff said the committee lacked the time and resources to enforce subpoenas [31]. [GOVERNMENT REPORT]
 2014 | Cho Yong-gi, founder of Yoido Full Gospel Church in Seoul — for decades the largest congregation on earth — is convicted of breach of trust involving church funds and given a suspended sentence | A founder convicted in a criminal court while the church continued. The conviction came from the state; the congregation was not the mechanism. [COURT RECORD]
 2014 | A guesthouse of the Synagogue Church of All Nations collapses in Lagos, killing more than a hundred people, most of them foreign pilgrims | A mass-casualty event inside the pilgrimage economy, and a coroner's process that ran into obstruction. [GOVERNMENT REPORT]
 2017 | South Africa's CRL Rights Commission (the Commission for the Promotion and Protection of the Rights of Cultural, Religious and Linguistic Communities) publishes its report on the commercialisation of religion, documenting the sale of anointed products and 'miracle' practices, and recommending a peer-review licensing system | A state human-rights commission naming the instrument in public and proposing regulation — and the proposal being fought by churches across the spectrum, including ones with no stake in the abuses. [GOVERNMENT REPORT]
@@ -139,7 +139,7 @@ William J. Seymour, the son of formerly enslaved parents and blind in one eye, p
 
 Jim Bakker was convicted on fraud and conspiracy charges over PTL lodging partnerships sold far in excess of the accommodation that existed. The case was built by prosecutors after reporters at the Charlotte Observer kept publishing against a readership that was also the donor base.
 
-**Why it matters.** It was the first proof that the instrument was legally actionable, and that it took a federal prosecution to establish it, because no church body could or would.
+**Why it matters.** It was the first proof that the instrument was legally actionable, and that it took a federal prosecution to establish it, because no church body had acted on the partnerships themselves. The Assemblies of God had defrocked him two years earlier, over sexual misconduct rather than the scheme [1].
 :::
 
 ::: card
@@ -178,7 +178,7 @@ Pew counted about **584 million** Pentecostal and charismatic Christians in 2011
 
 |  |  |
 |---|---|
-| Adherents | The movement has roughly 600 million adherents globally when classical Pentecostals, charismatics inside other denominations, and independent neo-charismatic churches are counted together. That makes it the second-largest Christian grouping after Catholicism, and the fastest-growing. [ACADEMIC SOURCE] |
+| Adherents | Pew counted 584 million Pentecostal and charismatic Christians in 2011, about a quarter of the world's Christians [14], when classical Pentecostals, charismatics inside other denominations, and independent neo-charismatic churches are counted together. That count includes charismatic Catholics, so it is not a subset of Protestantism, and it is the fastest-growing part of Christianity. [ACADEMIC SOURCE] |
 | Regions | The largest populations are in Brazil, Nigeria, the United States, the Democratic Republic of the Congo, the Philippines, Kenya, Ghana, South Korea, Guatemala, and Indonesia, and the movement has a rapidly growing presence across Latin America and sub-Saharan Africa. |
 | Trend | The movement is growing fast in the Global South and among immigrant communities in the West. The independent sector grows fastest of all, which means the fastest-growing part of the movement is the part with the least external accountability. |
 | Participation | Attendance is unusually high relative to nominal identification — this is a movement of participants rather than census Christians. That is a genuine strength, and it also means the population under actual institutional authority is far larger here than the headline numbers suggest elsewhere in this codex. |
@@ -198,10 +198,10 @@ There is no apex, and that is not an accident of history — it is the movement'
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
 | The founder's ministry — the dominant form worldwide | The founder holds it personally. Enoch Adeboye leads Nigeria's Redeemed Christian Church of God and David Oyedepo leads Living Faith Church Worldwide; Edir Macedo leads Brazil's Universal Church of the Kingdom of God and also owns the Record television network. | Founders appoint themselves, and growth is taken as their validation. | Nobody can remove them. No public record identifies any body with the power to remove any of them. |
-| Assemblies of God General Superintendent | It is an elected office, held on renewable terms by vote of the General Council. | Credentialed ministers elect the holder in council. | The next election can remove the holder. It is a genuine mechanism, genuinely used, and the reason the classical denominations belong in a different row from the empires. |
-| Church of God in Christ Presiding Bishop | It is an elected office of the largest historically Black Pentecostal denomination. | The General Assembly elects the holder. | The General Assembly can remove the holder. |
+| Assemblies of God General Superintendent | Doug Clay holds this elected office, which is held on renewable terms by vote of the General Council. He was re-elected in August 2025 [36]. | Credentialed ministers elect the holder in council. | The next election can remove the holder. It is a genuine mechanism, genuinely used, and the reason the classical denominations belong in a different row from the empires. |
+| Church of God in Christ Presiding Bishop | J. Drew Sheard holds this elected office of the largest historically Black Pentecostal denomination. The General Assembly re-elected him on 12 November 2024 for a four-year term [37]. | The General Assembly elects the holder. | The General Assembly can remove the holder. |
 | The covering relationship | A senior pastor holds authority over a junior one. It is the movement's real org chart and appears in no constitution anywhere. | The junior pastor submits personally, and nothing is written down. | The senior party can end it unilaterally, at any time and for any reason. |
-| Where the law reached instead | The law reached the movement through a US federal conviction of a broadcast ministry founder in 1989, a breach-of-trust conviction of a Seoul megachurch founder in 2014, and a South African state commission report in 2017. | — | Criminal courts and state commissions acted every single time, and never an internal body. |
+| Where the law reached instead | The law reached the movement through a US federal conviction of a broadcast ministry founder in 1989, a breach-of-trust conviction of a Seoul megachurch founder in 2014, and a South African state commission report in 2017. | — | Criminal courts and state commissions acted every single time, and never an internal body of an independent ministry. |
 
 ::: tell
 Ask a prosperity congregation who can remove their founder and the sentence has no object. Then note that the same question asked of the Assemblies of God has a real answer, in the same movement, under the same theology. The difference is a constitution, and it is the only variable that changed.
@@ -223,7 +223,7 @@ Ask a prosperity congregation who can remove their founder and the sentence has 
 
 | Office | Now | Mechanism | Prediction | What would falsify it |
 |---|---|---|---|---|
-| The prosperity megachurch founders | Several major Nigerian, Brazilian, and Korean founders are now in their eighth decade. | Nothing is written; in practice, succession runs through the family. | The codex predicts succession to spouses and sons in the majority of cases, with no congregational vote anywhere, and property and media assets remaining in family ownership through the transfer. | A single major independent ministry transferring to a non-family successor chosen by a body the members elected would falsify it. |
+| The prosperity megachurch founders | Several major Nigerian and Brazilian founders are now in their seventies and eighties. The one Korean case on this page ran differently: Cho Yong-gi, who died in 2021, stepped down in 2008 and appointed Lee Young-hoon as his successor [35]. The sources this page uses do not say whether Lee is related to him or how members took part, so the case is recorded here and not counted as a test of the prediction. | Nothing is written; in practice, succession runs through the family. | The codex predicts succession to spouses and sons in the majority of cases, with no congregational vote anywhere, and property and media assets remaining in family ownership through the transfer. | A single major independent ministry transferring to a non-family successor chosen by a body the members elected would falsify it. |
 
 ::: cites
 Sources for this section: [1] [2] [3] [5] [14] [17] [18]
@@ -234,7 +234,7 @@ Sources for this section: [1] [2] [3] [5] [14] [17] [18]
 | Country | What the law does | What happened |
 |---|---|---|
 | **United States** | Churches file no public return; the Senate's inquiry into six media ministries (2007–2011) closed without penalties [4] | Jim Bakker's fraud conviction came through the criminal courts, not church regulation [3] |
-| **United Kingdom** | Churches that are charities file public accounts; the Charity Commission can appoint an interim manager [9] | It did so at Kingsway International Christian Centre after a 2005 inquiry [9] |
+| **United Kingdom** | Churches that are charities file public accounts; the Charity Commission can appoint an interim manager [9] | It did so at Kingsway International Christian Centre in 2014, during an inquiry that ran from 2011 to 2016 [9] |
 | **Australia** | The charity regulator, the ACNC (Australian Charities and Not-for-profits Commission), can accept compliance agreements [10] | Hillsong entered agreements and an undertaking in December 2024 [10] |
 | **South Korea** | Breach of trust and tax evasion are criminal offences for pastors as for anyone [5] | The founder of the world's largest congregation was convicted in 2014 [5] |
 | **Nigeria** | Section 839 of the 2020 companies law lets the state suspend trustees of charitable bodies, including churches [11] | The Christian Association of Nigeria opposed it [11] |
@@ -252,7 +252,7 @@ Several bodies can compel an answer: charity regulators where the ministry is re
 - This is the tradition where the codex's financial chapter is not an inference. The teaching states the mechanism out loud: money given to the ministry is a seed, and the seed produces a harvest. Giving is not framed as duty, gratitude, or solidarity. It is framed as an investment with a promised return, delivered by God, brokered by the ministry.
 - The instrument's defining property is that it cannot fail. If the harvest arrives, the seed worked. If it does not, the seed was too small, the faith was weak, or the timing is God's. There is no observable outcome that counts against the promise — which is the exact definition of an unfalsifiable financial claim, and in any other sector it would be a regulated one.
 - Layered above the tithe are first fruits (often a full month's income in January), prophetic and 'covenant' offerings, building funds, seed offerings taken during the sermon that teaches seed offerings, and, in the documented worst cases, the sale of anointed oil, water, stickers, and bracelets.
-- The scale is enormous and largely unexamined. In the United States churches file no public Form 990 (the annual return other US charities must make public). In Nigeria and Brazil, the largest ministries own universities, broadcast networks, banks, and airlines. The Senate Finance Committee inquiry of 2007–2011 remains the most serious attempt at scrutiny anywhere, and it ended without penalties and without full disclosure. [GOVERNMENT REPORT]
+- The scale is enormous and largely unexamined. In the United States churches file no public Form 990 (the annual return other US charities must make public). In Nigeria and Brazil, the largest ministries own universities and broadcast networks. The Senate Finance Committee inquiry of 2007–2011 remains the most serious attempt at scrutiny anywhere, and it ended without penalties and without full disclosure. [GOVERNMENT REPORT]
 
 ### Follow the money
 
@@ -281,7 +281,7 @@ Sources for this section: [4]
 - **Hillsong Church London, 2024:** Donations made up £9.26m of its £10.61m income [20].
 - **Kingsway International Christian Centre (UK), year to March 2025:** Income was £6.47m, of which £5.96m came from donations, and spending was £6.76m [21].
 - **PTL "lifetime partnerships":** They were the scheme behind Jim Bakker's 1989 conviction on 24 counts of fraud and conspiracy [3].
-- **Yoido Full Gospel Church:** A court found a ₩13.1 billion loss to the church in the breach-of-trust case against its founder [5].
+- **Yoido Full Gospel Church:** A court found a ₩13.15 billion loss to the church in the breach-of-trust case against its founder [5].
 
 ## 10. Genealogy {#genealogy}
 
@@ -350,7 +350,7 @@ Sources for this section: [16]
 
 - Children in prosperity congregations absorb the arithmetic early: the family's poverty is a spiritual diagnosis. That is a heavy thing to teach a child about their own parents.
 - School fees are one of the most commonly documented casualties of seed-faith giving, which means the instrument's cost frequently lands on a specific child's education. [FORMER MEMBER TESTIMONY]
-- Deliverance practices (prayer to drive out evil spirits) applied to children — for disobedience, illness, or in the documented worst cases accusations of witchcraft — have produced criminal prosecutions and are the subject of standing UNICEF and NGO campaigns in several countries. [GOVERNMENT REPORT]
+- Deliverance practices (prayer to drive out evil spirits) applied to children — for disobedience, illness, or in the documented worst cases accusations of witchcraft — have produced criminal prosecutions and are the subject of standing UNICEF and NGO campaigns in several countries; UNICEF's study of children accused of witchcraft in Africa documents the practice [19]. [GOVERNMENT REPORT]
 - Where the church runs the school and charges the fees, the same institution receiving the family's offerings decides the child's academic future.
 
 ### Bodies
@@ -361,7 +361,7 @@ Sources for this section: [16]
 - The vulnerability is structural rather than doctrinal: a private prophetic relationship between a powerful man and a person in crisis, with no chaperone requirement, no records, and no complaints process.
 
 ::: cites
-Sources for this section: [15] [17]
+Sources for this section: [15] [17] [19]
 :::
 
 ## 12. The 30 techniques {#techniques}
@@ -439,7 +439,7 @@ A prophetic word spoken over you about your future — a business, a husband, a 
 
 **The counter.** Then keep the register. Write the prophecies down with dates and check them in a year — the practice scripture itself prescribes for testing a prophet. A prophetic office that will not keep score is not exercising faith; it is avoiding measurement.
 
-**Evidence grade.** [[Taught]] Prophetic promise of specific outcomes is preached, recorded, and sold by the ministries themselves. *(sourced)*
+**Evidence grade.** [[Taught]] Prophetic promise of specific outcomes is preached, recorded, and sold by the ministries themselves.
 :::
 
 ::: tactic n=4
@@ -485,7 +485,7 @@ The delay is diagnosed: there is a spirit of poverty, a generational curse, an u
 
 **The counter.** Notice the closed circuit: the person who diagnoses the condition also sells the cure and also defines whether the cure worked. In any other sector that arrangement is regulated. Ask what outcome would count as the remedy having failed.
 
-**Evidence grade.** [[Taught]] Spiritual diagnosis of poverty and illness is explicit pulpit teaching on published recordings. *(sourced)*
+**Evidence grade.** [[Taught]] Spiritual diagnosis of poverty and illness is explicit pulpit teaching on published recordings.
 :::
 
 ::: tactic n=6
@@ -521,7 +521,7 @@ The delay is diagnosed: there is a spirit of poverty, a generational curse, an u
 
 **The counter.** Force is not the mechanism and never was. The mechanism is that both available answers are read as evidence for the same conclusion. Ask what a person could do that would be read as legitimate caution rather than as unbelief. If there is no such action, that is the double bind, named.
 
-**Evidence grade.** [[Taught]] The giving/faith bind is stated openly in seed-faith teaching. *(sourced)*
+**Evidence grade.** [[Taught]] The giving/faith bind is stated openly in seed-faith teaching.
 :::
 
 ### Stage 4 · Confuse {#stage-4}
@@ -549,7 +549,7 @@ Prophecies that half-land are celebrated and the misses are not counted. The tea
 
 **The counter.** Publish the denominator. Testimony without a denominator is a survivorship record presented as a success rate — and the ministry knows the denominator, because it collects the prayer requests.
 
-**Evidence grade.** [[Taught]] Selective testimony without follow-up is standard broadcast practice across the sector.
+**Evidence grade.** [[Cultural]] Selective testimony without follow-up is standard broadcast practice across the sector, not a written rule or a taught doctrine.
 :::
 
 ::: tactic n=9
@@ -567,7 +567,7 @@ Prophecies that half-land are celebrated and the misses are not counted. The tea
 
 **The counter.** Agreed — which is precisely why they should not be preached as ones. The appeal promised a return. If the promise is not a promise, the appeal should stop making it, and the recordings should be withdrawn.
 
-**Evidence grade.** [[Taught]] Post-hoc conditions on the promise are explicit in the teaching itself. *(sourced)*
+**Evidence grade.** [[Taught]] Post-hoc conditions on the promise are explicit in the teaching itself.
 :::
 
 ::: tactic n=10
@@ -585,7 +585,7 @@ Prophecies that half-land are celebrated and the misses are not counted. The tea
 
 **The counter.** Then remove the tiers and stop calling givers forward by amount. Ambiguity that reliably resolves upward is not humility about amounts; it is a pricing strategy.
 
-**Evidence grade.** [[Taught]] Undefined 'significant seed' language is preached and recorded. *(sourced)*
+**Evidence grade.** [[Taught]] Undefined 'significant seed' language is preached and recorded.
 :::
 
 ::: tactic n=11
@@ -621,7 +621,7 @@ Prophecies that half-land are celebrated and the misses are not counted. The tea
 
 **The counter.** It is not imaginary, and this codex records real persecution where it exists. But a South African state human-rights commission, a US Senate committee, and a Korean criminal court and Brazilian prosecutors are not persecution. Answer the finding, not the messenger.
 
-**Evidence grade.** [[Taught]] 'Touch not mine anointed' and persecution framing are explicit pulpit teaching. *(sourced)*
+**Evidence grade.** [[Taught]] 'Touch not mine anointed' and persecution framing are explicit pulpit teaching.
 :::
 
 ::: tactic n=13
@@ -637,9 +637,9 @@ Prophecies that half-land are celebrated and the misses are not counted. The tea
 
 **The strongest defense.** Every church takes an offering.
 
-**The counter.** Every church does. Not every church closes the doors, calls the amounts aloud, or sells oil. Those specific practices were documented by a state commission — and the reason each felt normal is that it arrived one step at a time.
+**The counter.** Every church does. Not every church closes the doors, calls the amounts aloud, or sells oil. The sale of oil and water was documented by a state commission [7], and the door-closing and calling givers by amount appear in former-member testimony (section 14) — and the reason each felt normal is that it arrived one step at a time.
 
-**Evidence grade.** [[Codified]] Door-closing during offerings, calling givers by amount, and the sale of anointed products were documented by a state human-rights commission. *(sourced)*
+**Evidence grade.** [[Documented]] The sale of anointed products is documented in a state human-rights commission's report [7]. Door-closing during offerings and calling givers by amount are recorded in former-member testimony, not in any written rule. *(sourced)*
 :::
 
 ### Stage 5 · Isolate {#stage-5}
@@ -685,7 +685,7 @@ Old friends are 'not going where you're going.' Family who question the giving a
 
 **The counter.** Celebration does not require the amounts to be audible. Ask why the comparison is always financial and always public, and who benefits from a room that is competing.
 
-**Evidence grade.** [[Taught]] Public comparison of givers by amount is an observable, recorded practice.
+**Evidence grade.** [[Cultural]] Public comparison of givers by amount is an observable practice that varies by ministry, not a written rule.
 :::
 
 ### Stage 6 · Extract {#stage-6}
@@ -747,9 +747,9 @@ Seed offerings, first fruits, prophetic offerings, building funds, partnership t
 
 **The strongest defense.** Financial matters are handled by the board and are not congregational business.
 
-**The counter.** Then the board should publish, as most registered charities in most jurisdictions must. Note that a US Senate committee asked and did not get full answers either — which tells you the silence is a policy, not an oversight.
+**The counter.** Then the board should publish, as most registered charities in most jurisdictions must. Note that a US Senate committee asked and did not get full answers from four of the six ministries [31] — which tells you the silence is a policy, not an oversight.
 
-**Evidence grade.** [[Codified]] Non-disclosure to a US Senate committee is documented in the committee's own published review. *(sourced)*
+**Evidence grade.** [[Documented]] Non-disclosure to a US Senate committee is documented in the committee's published review of the six ministries [4][31]. *(sourced)*
 :::
 
 ::: tactic n=19
@@ -821,7 +821,7 @@ Seed offerings, first fruits, prophetic offerings, building funds, partnership t
 
 **The counter.** Care that cannot be declined without penalty is not care. Ask what happens socially and financially to the member who politely says no to the direction. That answer is the whole measurement.
 
-**Evidence grade.** [[Taught]] Spiritual fatherhood and covering are taught explicitly across the sector. *(sourced)*
+**Evidence grade.** [[Taught]] Spiritual fatherhood and covering are taught explicitly across the sector.
 :::
 
 ::: tactic n=23
@@ -875,7 +875,7 @@ Seed offerings, first fruits, prophetic offerings, building funds, partnership t
 
 **The counter.** Where that is genuinely true it is excellent, and this codex says so. The documented harm is the specific case where prayer replaces the doctor, the therapist, or the police. Ask what this church's written practice is when someone discloses violence — and whether it exists in writing at all.
 
-**Evidence grade.** [[Taught]] Deliverance offered in place of medical and psychological care is explicit practice in documented cases.
+**Evidence grade.** [[Cultural]] Deliverance offered in place of medical and psychological care is recorded in testimony; no ministry's written practice is cited for it.
 :::
 
 ::: tactic n=26
@@ -893,7 +893,7 @@ Seed offerings, first fruits, prophetic offerings, building funds, partnership t
 
 **The counter.** It built it, and the title deed says who owns it — a public document in most countries. Ask for the audited accounts and the land registry entry. Both requests are ordinary in any other organisation that asks the poor for money.
 
-**Evidence grade.** [[Codified]] Seed faith, first fruits, partnership tiers, and priced anointed products are documented in ministries' own materials and in a state commission report. *(sourced)*
+**Evidence grade.** [[Taught]] Seed faith, first fruits and partnership tiers are taught in the ministries' own materials. The sale of anointed products is documented separately in a state commission's report [7]. *(sourced)*
 :::
 
 ### Stage 7 · Discard {#stage-7}
@@ -921,7 +921,7 @@ You run out of money, or you ask about the accounts, or the promised harvest is 
 
 **The counter.** Real bills have invoices. Ask for the invoice, and ask what happened to last year's emergency — whether the building was in fact lost, and if not, where that money went.
 
-**Evidence grade.** [[Taught]] Deadline-driven emergency appeals are recorded and broadcast. *(sourced)*
+**Evidence grade.** [[Taught]] Deadline-driven emergency appeals are recorded and broadcast.
 :::
 
 ::: tactic n=28
@@ -985,11 +985,11 @@ New converts fill the row within a month. Your testimony stays on the website. N
 
 **The counter.** Trust is not the opposite of records; it is what records make possible. This tradition's deniability is unusually low on the money teaching, because the ministries record and sell the appeals themselves — and unusually high on everything conducted privately. Both facts belong in the same sentence.
 
-**Evidence grade.** [[Codified]] The absence of rolls, minutes, constitutions, and accounts in the independent sector is a documented structural fact. *(sourced)*
+**Evidence grade.** [[Cultural]] The absence of rolls, minutes and constitutions in much of the independent sector is a structural feature of founder-owned ministries, not a written rule.
 :::
 
 ::: cites
-Sources for this section: [4]
+Sources for this section: [4] [7] [31]
 :::
 
 ## 13. The loops {#loops}
@@ -1127,7 +1127,7 @@ Junior pastors under covering cannot criticise senior ones without losing their 
 
 **Where it could be broken, and by whom.** Section 14 names the difference as a constitution: in the classical denominations an elected superintendent or presiding bishop can be voted out, and a credential can be revoked. Section 18 names the credentialing officer who could refuse to renew a credential while a safeguarding complaint is unresolved. This paragraph is analysis, not a documented finding.
 
-**An example from this page.** Cho Yong-gi was convicted in 2014 of breach of trust causing Yoido Full Gospel Church a loss of ₩13.1 billion. He received a suspended sentence, and the church continued (sections 19 and 20).
+**An example from this page.** Cho Yong-gi was convicted in 2014 of breach of trust causing Yoido Full Gospel Church a loss of ₩13.15 billion. He received a suspended sentence, and the church continued (sections 19 and 20).
 :::
 
 ::: card
@@ -1228,7 +1228,7 @@ Sources for this section: [4] [8]
 
 - Founders and their families benefit. They own the ministries, the property, the media, and increasingly the succession.
 - The conference and speaker circuit benefits. It is a genuine international economy in which platform access is traded between ministries.
-- The ministries' commercial arms benefit. The universities, banks, broadcasters, and publishers are capitalised by offerings and owned privately.
+- The ministries' commercial arms benefit. The universities, broadcasters, and publishers are capitalised by offerings and owned privately.
 - Politicians in several countries benefit, trading access and favourable regulation for the endorsement of congregations numbering in the millions.
 
 ### Money out, leverage back
@@ -1290,7 +1290,7 @@ Most of a ministry's work is done below the founder, by people who see how the m
 ::: case
 ### The world's largest congregation and its founder (South Korea, 2014)
 - **when:** 2014
-- **what:** Cho Yong-gi, founder of Yoido Full Gospel Church, was convicted of breach of trust and tax evasion causing the church a loss of ₩13.1 billion [5].
+- **what:** Cho Yong-gi, founder of Yoido Full Gospel Church, was convicted of breach of trust and tax evasion causing the church a loss of ₩13.15 billion [5].
 - **record:** *Korea Times*, 20 February 2014 [5]
 - **outcome:** He was sentenced to three years' imprisonment, suspended for five, and fined ₩5 billion [5].
 - **tactics:** 26, 30
@@ -1308,22 +1308,22 @@ Most of a ministry's work is done below the founder, by people who see how the m
 :::
 
 ::: case
-### A regulator takes over a church (United Kingdom, 2005)
-- **when:** 2005
-- **what:** A Charity Commission inquiry into Kingsway International Christian Centre, a London Pentecostal church, found misconduct and mismanagement [9].
-- **record:** Charity Commission inquiry report [9]
-- **outcome:** Control passed to an interim manager appointed by the regulator [9].
+### A regulator steps in at a church (United Kingdom, 2011–2016)
+- **when:** 2011–2016
+- **what:** A Charity Commission inquiry into Kingsway International Christian Centre, a London Pentecostal church, found mismanagement in the administration of the charity after £5 million of its funds was invested by a former trustee [9].
+- **record:** Charity Commission inquiry report, 14 December 2016 [9]
+- **outcome:** The Commission appointed an interim manager on 31 January 2014. The manager worked alongside the trustees until 14 May 2015, and the trustees kept running the church's religious activities [9].
 - **tactics:** 26
 - **grade:** Documented
 :::
 
 ::: case
-### A student's lawsuit (Australia, 2020–2024)
-- **when:** 2020–2024
+### A student's lawsuit (Australia, 2020 onward)
+- **when:** 2020 onward
 - **what:** Anna Crenshaw, a student at Hillsong College, was indecently assaulted by a Hillsong staff member, who pleaded guilty in January 2020; no conviction was recorded. She sued two Hillsong entities and the man in the NSW Supreme Court in 2022 [22].
-- **record:** Hillsong Church statement, 3 May 2024 [22]
-- **outcome:** The case settled as trial was due to begin in April 2024; Hillsong said it "has never disputed the assault occurred" [22].
-- **tactics:** 22, 30
+- **record:** Hillsong Church statement, 3 May 2024 [22]; Roys Report, May 2024 [32]; The Other Cheek, 6 July 2024 [33]
+- **outcome:** An in-principle settlement reached as the April 2024 trial opened fell through in May 2024, when she refused a non-disclosure clause [32]. Her claim against the staff member settled in July 2024. Her claim against Hillsong continued, with trial listed for February 2025; its final outcome is not recorded on this page [33]. Hillsong said it "has never disputed the assault occurred" [22].
+- **tactics:** 30
 - **grade:** Documented
 :::
 
@@ -1343,20 +1343,20 @@ Most of a ministry's work is done below the founder, by people who see how the m
 
 | Commitment | Made | Status | Note |
 |---|---|---|---|
-| Hillsong — independent review and governance reform | 2022 onward | Partial | Hillsong commissioned two governance reviews by a former ACNC assistant commissioner, set board term limits and a 40% women target, and entered compliance agreements with the ACNC in December 2024. The founder-era questions the reviews were asked to answer have not all been answered publicly. |
+| Hillsong — independent review and governance reform | 2022 onward | Partial | Hillsong commissioned two governance reviews by a former ACNC assistant commissioner, set board term limits and a 40% women target, and entered compliance agreements with the ACNC in December 2024. The founder-era questions the reviews were asked to answer have not all been answered publicly.Sources: the Hillsong Australia board report of December 2022 [34] and Hillsong's statement on the ACNC [10]. |
 
 ### What would change this page
 
 Any of the major prosperity ministries publishing audited accounts including founder compensation and the title deeds of its properties — voluntarily, without a subpoena — would revise this page's central financial findings at the root. A register of prophecies with dates and outcomes would revise the rest.
 
 ::: cites
-Sources for this section: [3] [5]
+Sources for this section: [3] [5] [10] [34]
 :::
 
 ## 21. Voices from inside {#voices}
 
 - **Costi Hinn.** The nephew of the faith-healer Benny Hinn, he worked his uncle's crusades, left the prosperity movement, and wrote *God, Greed, and the (Prosperity) Gospel* (2019) [23][24].
-- **Anna Crenshaw.** She was a student at Hillsong College when a Hillsong staff member indecently assaulted her; he pleaded guilty in 2020. In 2022 she took Hillsong to court over its handling of the assault [22].
+- **Anna Crenshaw.** She was a student at Hillsong College when a Hillsong staff member indecently assaulted her; he pleaded guilty in 2020. In 2022 she took Hillsong to court over its handling of the assault [22]. A settlement in principle in April 2024 fell through over a non-disclosure clause, and her claim against Hillsong continued after her claim against the staff member settled in July 2024 [32][33].
 - **The former disciples of T. B. Joshua.** More than 30 of them described abuse at the Synagogue Church of All Nations to BBC Africa Eye in 2024 [13].
 - **The Assemblies of God presbyters of 1987–88.** These elected officials, who oversee the denomination's ministers, used their own credentialing process against the movement's biggest stars [1][2].
 
@@ -1412,7 +1412,7 @@ Sources for this section: [6] [7] [8] [11] [17]
 
 The Spirit you felt in that room is not the subject of this page, and no part of it has argued that your experience was manufactured. The movement that produced it began among the poorest people in America and gave authority to a Black preacher in 1906 when no institution in the country would. That inheritance is real and it belongs to you.
 
-What this page argues is narrower and harder: that a specific financial instrument was grafted onto that inheritance in the middle of the last century, that it is taught out loud on recordings the ministries themselves sell, that it cannot fail by design, and that the people it extracts most from are the people with the least. A Senate committee, a state human-rights commission, and criminal courts on three continents have all touched it. Not one internal body ever has.
+What this page argues is narrower and harder: that a specific financial instrument was grafted onto that inheritance in the middle of the last century, that it is taught out loud on recordings the ministries themselves sell, that it cannot fail by design, and that the people it extracts most from are the people with the least. A Senate committee, a state human-rights commission, and courts and prosecutors on four continents have all touched it. Not one internal body has ever acted on the instrument itself.
 
 You do not have to leave to test any of this. The title deed is public. The accounts either exist or they do not. Ask for them once, calmly, and watch what happens to the temperature of the room — because in a healthy church that question is answered with a document, and nobody's face changes.
 
@@ -1451,11 +1451,11 @@ Checked 2026-09-27.
 2. *Christianity Today*, "Why the Assemblies Dismissed Swaggart" (May 1988). https://www.christianitytoday.com/1988/05/why-assemblies-dismissed-swaggart/
 3. Jim Bakker convicted on 24 counts of fraud and conspiracy, 5 Oct 1989 (PTL "lifetime partnerships") — UPI archive. https://www.upi.com/Archives/1989/10/05/Bakker-convicted-on-all-24-fraud-and-conspiracy-counts/6239623563200/
 4. US Senate Finance Committee review of six media ministries (Grassley), 2007–6 Jan 2011 — NBC News. https://www.nbcnews.com/id/wbna40960871
-5. *Korea Times*, "Pastor Cho gets suspended jail term" (20 Feb 2014 — breach of trust and tax evasion; ₩13.1bn loss to Yoido Full Gospel Church; 3 years suspended for 5, ₩5bn fine). https://www.koreatimes.co.kr/southkorea/20140220/pastor-cho-gets-suspended-jail-term
+5. *Korea Times*, "Pastor Cho gets suspended jail term" (20 Feb 2014 — breach of trust and tax evasion; ₩13.15bn loss to Yoido Full Gospel Church; 3 years suspended for 5, ₩5bn fine). https://www.koreatimes.co.kr/southkorea/20140220/pastor-cho-gets-suspended-jail-term
 6. Vanguard, "Building Collapse: How coroner indicted T.B. Joshua's Synagogue church" (July 2015 — 116 dead on 12 Sept 2014; "criminal negligence"; Joshua the only summoned witness who refused to testify). https://www.vanguardngr.com/2015/07/building-collapse-how-coroner-indicted-joshuas-synagogue-church/
-7. CRL Rights Commission (South Africa), *Report of the Hearings on the Commercialisation of Religion and Abuse of People's Belief Systems* (2017) — overview. https://www.crlcommission.org.za/
+7. CRL Rights Commission (South Africa), *Report on the Commercialisation of Religion and Abuse of People's Belief Systems* (2017) — documents the sale of water, oils and other items to congregants; proposes peer-review committees and registration of religious practitioners through umbrella bodies. https://pmg.org.za/files/170627Believe_Systems.pdf
 8. The Rio Times, "Statute of Limitations Bars Sentencing of Church Founder Macedo" — São Paulo prosecutors' 2009 charges expired without verdict; never convicted. https://www.riotimesonline.com/criminal-charges-against-universal-churchs-founder-edir-macedo-prescribe/
-9. Charity Commission for England and Wales, inquiry report on Kingsway International Christian Centre (2005 — misconduct and mismanagement; control transferred to an interim manager). https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/577308/kingsway_international_christian_centre.pdf
+9. Charity Commission for England and Wales, inquiry report on Kingsway International Christian Centre (published 14 December 2016; inquiry 2011–2016 — mismanagement in the administration of the charity over a £5 million investment; interim manager in post 31 January 2014 to 14 May 2015, working alongside trustees who kept running the charity's religious activities). https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/577308/kingsway_international_christian_centre.pdf
 10. Hillsong Church, "A Statement … in relation to the ACNC" (Dec 2024 — compliance agreements and an undertaking resolving the ACNC's inquiries). https://hillsong.com/newsroom/blog/2024/12/a-statement-by-hillsong-church-in-relation-to-the-acnc/
 11. TheCable, "CAMA 2020: On the contentious Section 839" — Nigeria's power to suspend trustees of religious bodies, opposed by the Christian Association of Nigeria. https://www.thecable.ng/cama-2020-on-the-contentious-section-839/
 12. ABC News (Australia), Brian Houston acquitted of concealing his father's abuse (17 Aug 2023). https://www.abc.net.au/news/2023-08-17/brian-houston-verdict-hillsong-concealing-child-sexual-abuse/102739578
@@ -1466,13 +1466,13 @@ Checked 2026-09-27.
 15. *Encyclopaedia Britannica*, "Pentecostalism" — Parham's Topeka school (1901); Azusa Street (1906) under William J. Seymour, son of formerly enslaved parents; Assemblies of God organized at Hot Springs, Arkansas (1914); Aimee Semple McPherson's Foursquare Church (incorporated 1927). https://www.britannica.com/topic/Pentecostalism
 16. Kate Bowler, *Blessed: A History of the American Prosperity Gospel* (Oxford UP, 2013) — Kenyon → Hagin → Word of Faith; Oral Roberts and "seed faith". https://global.oup.com/academic/product/blessed-9780190280376
 17. Grupo Record — owned by Edir Macedo since 1989. https://en.wikipedia.org/wiki/Grupo_Record
-18. Officeholders in office in 2026: Enoch Adeboye (Redeemed Christian Church of God), David Oyedepo (Living Faith Church Worldwide) and Edir Macedo (Universal Church of the Kingdom of God). Adeboye: *ThisDay* (Lagos), 1 Mar 2026. https://www.thisdaylive.com/2026/03/01/tinubu-wife-felicitate-rccg-general-overseer-pastor-enoch-adeboye-at-84/
+18. Officeholders in office in 2026: Enoch Adeboye (Redeemed Christian Church of God), David Oyedepo (Living Faith Church Worldwide) and Edir Macedo (Universal Church of the Kingdom of God). Adeboye: *ThisDay* (Lagos), 1 Mar 2026. https://www.thisdaylive.com/2026/03/01/tinubu-wife-felicitate-rccg-general-overseer-pastor-enoch-adeboye-at-84/ Oyedepo: *Leadership* (Nigeria), 2026, https://leadership.ng/oyedepo-urges-christians-to-get-pvcs-determine-who-governs-them/. Macedo: Portal de Prefeitura, July 2026, https://portaldeprefeitura.com.br/religiao/igreja-universal-marca-presenca-em-151-paises/624337/
 19. UNICEF, *Children Accused of Witchcraft: An anthropological study of contemporary practices in Africa* (A. Cimpric, 2010). https://www.unicef.org/nigeria/reports/children-accused-witchcraft
 
 ### Further sources
 20. Charity Commission for England and Wales, Hillsong Church London (charity 1120355), financial history 2020–2024. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/4019447/financial-history
 21. Charity Commission for England and Wales, Kingsway International Christian Centre (charity 1102114), financial history 2021–2025. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/4006064/financial-history
-22. Hillsong Church, "A statement by Hillsong Church in response to the legal proceedings commenced by Anna Crenshaw" (3 May 2024). https://hillsong.com/newsroom/blog/2024/05/a-statement-by-hillsong-church-in-response-to-the-legal-proceedings-commenced-by-anna-crenshaw/
+22. Hillsong Church, "A statement by Hillsong Church in response to the legal proceedings commenced by Anna Crenshaw" (3 May 2024); it predates the collapse of the April 2024 settlement, for which see [32] and [33]. https://hillsong.com/newsroom/blog/2024/05/a-statement-by-hillsong-church-in-response-to-the-legal-proceedings-commenced-by-anna-crenshaw/
 23. The Gospel Coalition, review of Costi Hinn, *God, Greed, and the (Prosperity) Gospel* (Zondervan, 2019). https://www.thegospelcoalition.org/reviews/god-greed-prosperity-gospel/
 24. *Christian Today*, "Benny Hinn's nephew slams prosperity gospel, reveals why he left affluent lifestyle behind" (10 Apr 2018). https://www.christiantoday.com/news/benny-hinns-nephew-slams-prosperity-gospel-reveals-why-he-left-affluent-lifestyle-behind
 25. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
@@ -1481,8 +1481,16 @@ Checked 2026-09-27.
 28. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
 29. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/
 30. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
+31. *Christianity Today*, report on the end of the Grassley investigation into six ministries (Jan 2011) — a three-year probe; four of the six did not provide full information; staff did not issue subpoenas, citing the committee's time and resources. https://christianitytoday.com/news/2011/january/grassley-investigation-ends-with-no-penalty-for.html
+32. The Roys Report, "Abuse victim Crenshaw rejects Hillsong settlement over NDA" (May 2024) — the in-principle settlement of 29 April 2024 and her refusal of a non-disclosure clause. https://roysreport.com/abuse-victim-crenshaw-rejects-hillsong-settlement-over-nda/
+33. The Other Cheek, "Anna Crenshaw settles with Jason Mays but not the Hillsong Church" (6 Jul 2024) — claim against the staff member settled 5 July 2024; claim against Hillsong continued, trial set for February 2025. https://theothercheek.com.au/anna-crenshaw-settles-with-jason-mays-but-not-the-hillsong-church/
+34. Hillsong Church, Australia Board Report (Dec 2022) — the governance review assisted by Murray Baird and Nick Barnett. https://cdn.hillsong.com/wp-content/uploads/2022/12/09022544/1.-Australia-Board-Report-1.pdf
+35. *Korea JoongAng Daily*, "Rev. Cho Yong-gi, 85, founder of Yoido Full Gospel Church, dies" (Sept 2021) — Cho stepped down in 2008 and appointed Lee Young-hoon as his successor. https://www.koreajoongangdaily.com/korea/rev-cho-yong-gi-85-founder-of-yoido-full-gospel-church-dies/11088233
+36. Assemblies of God, *AG News*, "Business Sessions Begin with Key Elections and Reports" (Aug 2025) — Doug Clay re-elected General Superintendent at the 61st General Council. https://news.ag.org/en/articles/news/2025/08/business-sessions-begin-with-key-elections-and-reports
+37. Church of God in Christ, "General Assembly Reelects Bishop J. Drew Sheard as Presiding Bishop" (12 Nov 2024). https://www.cogic.org/blog/2024/11/12
 
 ## 27. What changed on this page {#changed}
 
+- **2026-10-03:** Corrected the length of the Senate inquiry to three years, the status of Anna Crenshaw's case against Hillsong, and the dates and findings of the Charity Commission's action at Kingsway International Christian Centre. Rewrote claims that no internal body had ever acted, since the Assemblies of God removed Jim Bakker and Jimmy Swaggart. Corrected the size of the movement against Pew's count, the disclosure scorecard, the ages of the founders, and seven technique grades; removed the claim that a state commission documented door-closing and calling givers by amount, and the unsourced banks and airlines; named the current Assemblies of God and Church of God in Christ leaders; linked the South African commission's report; and added seven sources.
 - **2026-09-27:** Added Branches, Law & state, Money in numbers (Hillsong London accounts 2020–2024), five documented cases, Voices from inside, Leaving safely and Where to get help.
 

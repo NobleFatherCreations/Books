@@ -1,3 +1,5 @@
+Status 2026-10-03: fixes applied, see pentecostal-charismatic-FIXLOG.md (deferred items remain open).
+
 # DISCREPANCIES — Pentecostal & Charismatic, awaiting the owner's decision
 
 Format: **[Location]** what is wrong → what it should be (proposed wording) → why it matters. Except where an item says an edit was made, nothing below has been changed in the text; every item touches the frozen layer (numbers, receipts, grades, source entries, case tags, proper nouns) or asserts a claim the wording pass may not alter.

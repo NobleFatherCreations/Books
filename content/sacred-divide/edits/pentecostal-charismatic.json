@@ -1549,5 +1549,555 @@
   "reason": "Overstated: section 8 says churches file no public return, not no return at all.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "PC-D001",
+  "scope": "md",
+  "type": "fact",
+  "before": "A US Senate committee asked six ministries for basic financial information and closed four years later without full answers and without penalties.",
+  "after": "A US Senate committee asked six ministries for basic financial information and closed its inquiry three years later without full answers and without penalties.",
+  "reason": "P1-1 (F3): the inquiry opened in November 2007 and the review was released on 6 January 2011, just over three years. Covers the §1 glance row and the §3 question box.",
+  "count": 2,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D002",
+  "scope": "narration",
+  "type": "fact",
+  "before": "closed four years later without full answers or penalties.",
+  "after": "closed three years later without full answers or penalties.",
+  "reason": "P1-1 (F3): narration repeats the question; same correction.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D003",
+  "scope": "md",
+  "type": "fact",
+  "before": "::: case\n### A student's lawsuit (Australia, 2020–2024)\n- **when:** 2020–2024\n- **what:** Anna Crenshaw, a student at Hillsong College, was indecently assaulted by a Hillsong staff member, who pleaded guilty in January 2020; no conviction was recorded. She sued two Hillsong entities and the man in the NSW Supreme Court in 2022 [22].\n- **record:** Hillsong Church statement, 3 May 2024 [22]\n- **outcome:** The case settled as trial was due to begin in April 2024; Hillsong said it \"has never disputed the assault occurred\" [22].\n- **tactics:** 22, 30\n- **grade:** Documented\n:::",
+  "after": "::: case\n### A student's lawsuit (Australia, 2020 onward)\n- **when:** 2020 onward\n- **what:** Anna Crenshaw, a student at Hillsong College, was indecently assaulted by a Hillsong staff member, who pleaded guilty in January 2020; no conviction was recorded. She sued two Hillsong entities and the man in the NSW Supreme Court in 2022 [22].\n- **record:** Hillsong Church statement, 3 May 2024 [22]; Roys Report, May 2024 [32]; The Other Cheek, 6 July 2024 [33]\n- **outcome:** An in-principle settlement reached as the April 2024 trial opened fell through in May 2024, when she refused a non-disclosure clause [32]. Her claim against the staff member settled in July 2024. Her claim against Hillsong continued, with trial listed for February 2025; its final outcome is not recorded on this page [33]. Hillsong said it \"has never disputed the assault occurred\" [22].\n- **tactics:** 30\n- **grade:** Documented\n:::",
+  "reason": "P1-2 and P2-13 (F11, F26): the case was reported as settled on the church's own statement; the later record shows the settlement collapsed and the claim against Hillsong continued. Tag 22 (Benevolent Control) dropped: nothing in the case shows it.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D004",
+  "scope": "md",
+  "type": "fact",
+  "before": "In 2022 she took Hillsong to court over its handling of the assault [22].",
+  "after": "In 2022 she took Hillsong to court over its handling of the assault [22]. A settlement in principle in April 2024 fell through over a non-disclosure clause, and her claim against Hillsong continued after her claim against the staff member settled in July 2024 [32][33].",
+  "reason": "P1-2 (F11): §21 now matches the corrected §19 case.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D005",
+  "scope": "md",
+  "type": "source",
+  "before": "22. Hillsong Church, \"A statement by Hillsong Church in response to the legal proceedings commenced by Anna Crenshaw\" (3 May 2024). https://hillsong.com/newsroom/blog/2024/05/a-statement-by-hillsong-church-in-response-to-the-legal-proceedings-commenced-by-anna-crenshaw/",
+  "after": "22. Hillsong Church, \"A statement by Hillsong Church in response to the legal proceedings commenced by Anna Crenshaw\" (3 May 2024); it predates the collapse of the April 2024 settlement, for which see [32] and [33]. https://hillsong.com/newsroom/blog/2024/05/a-statement-by-hillsong-church-in-response-to-the-legal-proceedings-commenced-by-anna-crenshaw/",
+  "reason": "P1-2: flags that source 22 predates the later events.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D006",
+  "scope": "md",
+  "type": "fact",
+  "before": "| It did so at Kingsway International Christian Centre after a 2005 inquiry [9] |",
+  "after": "| It did so at Kingsway International Christian Centre in 2014, during an inquiry that ran from 2011 to 2016 [9] |",
+  "reason": "P1-3 (F8): source 9 is the 2016 report on the 2011–2016 inquiry, not the 2005 one.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D007",
+  "scope": "md",
+  "type": "fact",
+  "before": "::: case\n### A regulator takes over a church (United Kingdom, 2005)\n- **when:** 2005\n- **what:** A Charity Commission inquiry into Kingsway International Christian Centre, a London Pentecostal church, found misconduct and mismanagement [9].\n- **record:** Charity Commission inquiry report [9]\n- **outcome:** Control passed to an interim manager appointed by the regulator [9].\n- **tactics:** 26\n- **grade:** Documented\n:::",
+  "after": "::: case\n### A regulator steps in at a church (United Kingdom, 2011–2016)\n- **when:** 2011–2016\n- **what:** A Charity Commission inquiry into Kingsway International Christian Centre, a London Pentecostal church, found mismanagement in the administration of the charity after £5 million of its funds was invested by a former trustee [9].\n- **record:** Charity Commission inquiry report, 14 December 2016 [9]\n- **outcome:** The Commission appointed an interim manager on 31 January 2014. The manager worked alongside the trustees until 14 May 2015, and the trustees kept running the church's religious activities [9].\n- **tactics:** 26\n- **grade:** Documented\n:::",
+  "reason": "P1-3 (F8), option (b): the cited report covers the 2011–2016 inquiry, so the card is redated to it and its findings and outcome rewritten to what that report says (interim manager worked alongside the trustees).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D008",
+  "scope": "md",
+  "type": "source",
+  "before": "9. Charity Commission for England and Wales, inquiry report on Kingsway International Christian Centre (2005 — misconduct and mismanagement; control transferred to an interim manager).",
+  "after": "9. Charity Commission for England and Wales, inquiry report on Kingsway International Christian Centre (published 14 December 2016; inquiry 2011–2016 — mismanagement in the administration of the charity over a £5 million investment; interim manager in post 31 January 2014 to 14 May 2015, working alongside trustees who kept running the charity's religious activities).",
+  "reason": "P1-3 (F8): the entry now describes the document the URL actually leads to.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D009",
+  "scope": "narration",
+  "type": "fact",
+  "before": "and the Charity Commission once appointed an interim manager to run a London Pentecostal church.",
+  "after": "and the Charity Commission once appointed an interim manager to work alongside the trustees of a London Pentecostal church.",
+  "reason": "P1-3: the report says the trustees kept running the church; 'to run' was wrong.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D010",
+  "scope": "md",
+  "type": "source",
+  "before": "18. Officeholders in office in 2026: Enoch Adeboye (Redeemed Christian Church of God), David Oyedepo (Living Faith Church Worldwide) and Edir Macedo (Universal Church of the Kingdom of God). Adeboye: *ThisDay* (Lagos), 1 Mar 2026. https://www.thisdaylive.com/2026/03/01/tinubu-wife-felicitate-rccg-general-overseer-pastor-enoch-adeboye-at-84/",
+  "after": "18. Officeholders in office in 2026: Enoch Adeboye (Redeemed Christian Church of God), David Oyedepo (Living Faith Church Worldwide) and Edir Macedo (Universal Church of the Kingdom of God). Adeboye: *ThisDay* (Lagos), 1 Mar 2026. https://www.thisdaylive.com/2026/03/01/tinubu-wife-felicitate-rccg-general-overseer-pastor-enoch-adeboye-at-84/ Oyedepo: *Leadership* (Nigeria), 2026, https://leadership.ng/oyedepo-urges-christians-to-get-pvcs-determine-who-governs-them/. Macedo: Portal de Prefeitura, July 2026, https://portaldeprefeitura.com.br/religiao/igreja-universal-marca-presenca-em-151-paises/624337/",
+  "reason": "P1-4 (F10): Oyedepo and Macedo had no URL; the two 2026 reports from the fact check are added.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D011",
+  "scope": "md",
+  "type": "fact",
+  "before": "Criminal courts and state commissions acted every single time, and never an internal body. |",
+  "after": "Criminal courts and state commissions acted every single time, and never an internal body of an independent ministry. |",
+  "reason": "P1-5 (F27): the Assemblies of God defrocked Bakker and dismissed Swaggart; the claim is limited to independent ministries.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D012",
+  "scope": "md",
+  "type": "fact",
+  "before": "because no church body could or would.",
+  "after": "because no church body had acted on the partnerships themselves. The Assemblies of God had defrocked him two years earlier, over sexual misconduct rather than the scheme [1].",
+  "reason": "P1-5 (F27): the card contradicted §7 and §19.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D013",
+  "scope": "md",
+  "type": "fact",
+  "before": "A Senate committee, a state human-rights commission, and criminal courts on three continents have all touched it. Not one internal body ever has.",
+  "after": "A Senate committee, a state human-rights commission, and courts and prosecutors on four continents have all touched it. Not one internal body has ever acted on the instrument itself.",
+  "reason": "P1-5 and P3-18 (F27): internal bodies did act on the two preachers' conduct; 'criminal courts on three continents' also overstated (the Brazilian charges expired without a verdict and the Nigerian case was a coroner's inquest).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D014",
+  "scope": "md",
+  "type": "tally",
+  "before": "| N | N | N | N | N | N |",
+  "after": "| P | N | N | N | P | N |",
+  "reason": "P1-6 (F28): by the scorecard's own key, Accounts and Removal are P (UK charity churches file public accounts, §8–§9; the Assemblies of God and Church of God in Christ elect leaders who can be voted out, §7). Safeguarding and External first stay N: nothing on the page establishes a published safeguarding policy with an external reporting route.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D015",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Taught]] Prophetic promise of specific outcomes is preached, recorded, and sold by the ministries themselves. *(sourced)*",
+  "after": "**Evidence grade.** [[Taught]] Prophetic promise of specific outcomes is preached, recorded, and sold by the ministries themselves.",
+  "reason": "P1-7: removed *(sourced)*; no document is named (technique 3).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D016",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Taught]] Spiritual diagnosis of poverty and illness is explicit pulpit teaching on published recordings. *(sourced)*",
+  "after": "**Evidence grade.** [[Taught]] Spiritual diagnosis of poverty and illness is explicit pulpit teaching on published recordings.",
+  "reason": "P1-7: removed *(sourced)*; no recording is named (technique 5).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D017",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Taught]] The giving/faith bind is stated openly in seed-faith teaching. *(sourced)*",
+  "after": "**Evidence grade.** [[Taught]] The giving/faith bind is stated openly in seed-faith teaching.",
+  "reason": "P1-7: removed *(sourced)* (technique 7).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D018",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Taught]] Selective testimony without follow-up is standard broadcast practice across the sector.",
+  "after": "**Evidence grade.** [[Cultural]] Selective testimony without follow-up is standard broadcast practice across the sector, not a written rule or a taught doctrine.",
+  "reason": "P1-7: the note describes practice, not teaching; regraded Taught to Cultural (technique 8).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D019",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Taught]] Post-hoc conditions on the promise are explicit in the teaching itself. *(sourced)*",
+  "after": "**Evidence grade.** [[Taught]] Post-hoc conditions on the promise are explicit in the teaching itself.",
+  "reason": "P1-7: removed *(sourced)* (technique 9).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D020",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Taught]] Undefined 'significant seed' language is preached and recorded. *(sourced)*",
+  "after": "**Evidence grade.** [[Taught]] Undefined 'significant seed' language is preached and recorded.",
+  "reason": "P1-7: removed *(sourced)* (technique 10).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D021",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Taught]] 'Touch not mine anointed' and persecution framing are explicit pulpit teaching. *(sourced)*",
+  "after": "**Evidence grade.** [[Taught]] 'Touch not mine anointed' and persecution framing are explicit pulpit teaching.",
+  "reason": "P1-7: removed *(sourced)* (technique 12).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D022",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] Door-closing during offerings, calling givers by amount, and the sale of anointed products were documented by a state human-rights commission. *(sourced)*",
+  "after": "**Evidence grade.** [[Documented]] The sale of anointed products is documented in a state human-rights commission's report [7]. Door-closing during offerings and calling givers by amount are recorded in former-member testimony, not in any written rule. *(sourced)*",
+  "reason": "P1-7: a commission's finding is a record of practice, not a written rule; regraded Codified to Documented, naming the report, and the note no longer says the commission documented the door-closing (technique 13).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D023",
+  "scope": "md",
+  "type": "fact",
+  "before": "Those specific practices were documented by a state commission — and the reason each felt normal is that it arrived one step at a time.",
+  "after": "The sale of oil and water was documented by a state commission [7], and the door-closing and calling givers by amount appear in former-member testimony (section 14) — and the reason each felt normal is that it arrived one step at a time.",
+  "reason": "P1-7: the counter said a commission documented all three practices; the commission report supports only the sale of products.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D024",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Taught]] Public comparison of givers by amount is an observable, recorded practice.",
+  "after": "**Evidence grade.** [[Cultural]] Public comparison of givers by amount is an observable practice that varies by ministry, not a written rule.",
+  "reason": "P1-7: practice, not teaching; Taught to Cultural (technique 15).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D025",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] Non-disclosure to a US Senate committee is documented in the committee's own published review. *(sourced)*",
+  "after": "**Evidence grade.** [[Documented]] Non-disclosure to a US Senate committee is documented in the committee's published review of the six ministries [4][31]. *(sourced)*",
+  "reason": "P1-7: documented, not written as a rule; Codified to Documented (technique 18).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D026",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Taught]] Spiritual fatherhood and covering are taught explicitly across the sector. *(sourced)*",
+  "after": "**Evidence grade.** [[Taught]] Spiritual fatherhood and covering are taught explicitly across the sector.",
+  "reason": "P1-7: removed *(sourced)* (technique 22).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D027",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Taught]] Deliverance offered in place of medical and psychological care is explicit practice in documented cases.",
+  "after": "**Evidence grade.** [[Cultural]] Deliverance offered in place of medical and psychological care is recorded in testimony; no ministry's written practice is cited for it.",
+  "reason": "P1-7: no case is cited, so the 'documented cases' basis did not hold; Taught to Cultural (technique 25).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D028",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] Seed faith, first fruits, partnership tiers, and priced anointed products are documented in ministries' own materials and in a state commission report. *(sourced)*",
+  "after": "**Evidence grade.** [[Taught]] Seed faith, first fruits and partnership tiers are taught in the ministries' own materials. The sale of anointed products is documented separately in a state commission's report [7]. *(sourced)*",
+  "reason": "P1-7: 'Codified' fit neither half; the teaching is Taught, and the commission report supports the sale of products. Technique 26.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D029",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Taught]] Deadline-driven emergency appeals are recorded and broadcast. *(sourced)*",
+  "after": "**Evidence grade.** [[Taught]] Deadline-driven emergency appeals are recorded and broadcast.",
+  "reason": "P1-7: removed *(sourced)* (technique 27).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D030",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] The absence of rolls, minutes, constitutions, and accounts in the independent sector is a documented structural fact. *(sourced)*\n:::\n\n::: cites\nSources for this section: [4]\n:::",
+  "after": "**Evidence grade.** [[Cultural]] The absence of rolls, minutes and constitutions in much of the independent sector is a structural feature of founder-owned ministries, not a written rule.\n:::\n\n::: cites\nSources for this section: [4] [7] [31]\n:::",
+  "reason": "P1-7: an absence is not a written rule and no document is named; Codified to Cultural, *(sourced)* removed (technique 30). Section source line extended for [7] and [31].",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D031",
+  "scope": "md",
+  "type": "tally",
+  "before": "| Evidence | Twelve of the 30 techniques are sourced to a named document. The grades are Codified 4, Taught 12 and Cultural 14. |",
+  "after": "| Evidence | Three of the 30 techniques are sourced to a named document. The grades are Documented 2, Taught 10 and Cultural 18. |",
+  "reason": "P1-7: tally recomputed from the §12 chips after the regrades.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D032",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Size | The movement has roughly 600 million adherents globally when classical Pentecostals (members of the denominations that grew out of the early-twentieth-century revivals, such as the Assemblies of God), charismatics inside other denominations (Catholics and mainline Protestants who adopt Pentecostal practice), and independent neo-charismatic churches (independent churches with Pentecostal practice and no Pentecostal denomination) are counted together. That makes it the second-largest Christian grouping after Catholicism, and the fastest-growing. [ACADEMIC SOURCE] |",
+  "after": "| Size | Pew counted 584 million Pentecostal and charismatic Christians in 2011, about a quarter of the world's Christians [14], when classical Pentecostals (members of the denominations that grew out of the early-twentieth-century revivals, such as the Assemblies of God), charismatics inside other denominations (Catholics and mainline Protestants who adopt Pentecostal practice), and independent neo-charismatic churches (independent churches with Pentecostal practice and no Pentecostal denomination) are counted together. That count includes charismatic Catholics, so it is not a subset of Protestantism, and it is the fastest-growing part of Christianity. [ACADEMIC SOURCE] |",
+  "reason": "P2-9 (F1): 'second-largest Christian grouping after Catholicism' does not hold, because the count spans Catholic charismatics and is smaller than Protestantism taken together; wording follows the Protestant / Evangelical volume's size fix.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D033",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Adherents | The movement has roughly 600 million adherents globally when classical Pentecostals, charismatics inside other denominations, and independent neo-charismatic churches are counted together. That makes it the second-largest Christian grouping after Catholicism, and the fastest-growing. [ACADEMIC SOURCE] |",
+  "after": "| Adherents | Pew counted 584 million Pentecostal and charismatic Christians in 2011, about a quarter of the world's Christians [14], when classical Pentecostals, charismatics inside other denominations, and independent neo-charismatic churches are counted together. That count includes charismatic Catholics, so it is not a subset of Protestantism, and it is the fastest-growing part of Christianity. [ACADEMIC SOURCE] |",
+  "reason": "P2-9 (F1): same correction in §7.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D034",
+  "scope": "md",
+  "type": "fact",
+  "before": "It counts roughly 600 million people across classical Pentecostal denominations",
+  "after": "Pew counted about 584 million people in 2011 across classical Pentecostal denominations",
+  "reason": "P2-9: §4 lede aligned to Pew's 584 million.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D035",
+  "scope": "md",
+  "type": "fact",
+  "before": "smearing six hundred million people, most of them poor",
+  "after": "smearing hundreds of millions of people, most of them poor",
+  "reason": "P2-9: §3 objection aligned to the 584 million figure.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D036",
+  "scope": "md",
+  "type": "fact",
+  "before": "a US Senate committee asked, and could not compel. [GOVERNMENT REPORT]",
+  "after": "a US Senate committee asked, and did not use its power to compel; staff said the committee lacked the time and resources to enforce subpoenas [31]. [GOVERNMENT REPORT]",
+  "reason": "P2-10 (F4): 'could not compel' overstated the record.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D037",
+  "scope": "md",
+  "type": "fact",
+  "before": "a US Senate committee asked and did not get full answers either — which tells you",
+  "after": "a US Senate committee asked and did not get full answers from four of the six ministries [31] — which tells you",
+  "reason": "P2-10 (F3, F4): states what the review recorded.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D038",
+  "scope": "md",
+  "type": "fact",
+  "before": "| The prosperity megachurch founders | Several major Nigerian, Brazilian, and Korean founders are now in their eighth decade. |",
+  "after": "| The prosperity megachurch founders | Several major Nigerian and Brazilian founders are now in their seventies and eighties. The one Korean case on this page ran differently: Cho Yong-gi, who died in 2021, stepped down in 2008 and appointed Lee Young-hoon as his successor [35]. The sources this page uses do not say whether Lee is related to him or how members took part, so the case is recorded here and not counted as a test of the prediction. |",
+  "reason": "P2-11 (F9): Adeboye is 84 and Macedo 81 (ninth decade), Oyedepo 72; Cho died in 2021 and his church passed to a named successor in 2008, which the row now records.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D039",
+  "scope": "md",
+  "type": "fact",
+  "before": "in several countries. [GOVERNMENT REPORT]",
+  "after": "in several countries; UNICEF's study of children accused of witchcraft in Africa documents the practice [19]. [GOVERNMENT REPORT]",
+  "reason": "P2-12: source 19 was cited nowhere.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D040",
+  "scope": "md",
+  "type": "fact",
+  "before": "::: cites\nSources for this section: [15] [17]\n:::",
+  "after": "::: cites\nSources for this section: [15] [17] [19]\n:::",
+  "reason": "P2-12: §11 source line now includes [19].",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D041",
+  "scope": "md",
+  "type": "fact",
+  "before": "the largest ministries own universities, broadcast networks, banks, and airlines.",
+  "after": "the largest ministries own universities and broadcast networks.",
+  "reason": "P2-14 (F20): banks and airlines have no source in the volume.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D042",
+  "scope": "md",
+  "type": "fact",
+  "before": "The universities, banks, broadcasters, and publishers are capitalised by offerings",
+  "after": "The universities, broadcasters, and publishers are capitalised by offerings",
+  "reason": "P2-14: same unsourced 'banks' removed from §16.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D043",
+  "scope": "md",
+  "type": "source",
+  "before": "| Hillsong — independent review and governance reform | 2022 onward | Partial | Hillsong commissioned two governance reviews by a former ACNC assistant commissioner, set board term limits and a 40% women target, and entered compliance agreements with the ACNC in December 2024. The founder-era questions the reviews were asked to answer have not all been answered publicly. |",
+  "after": "| Hillsong — independent review and governance reform | 2022 onward | Partial | Hillsong commissioned two governance reviews by a former ACNC assistant commissioner, set board term limits and a 40% women target, and entered compliance agreements with the ACNC in December 2024. The founder-era questions the reviews were asked to answer have not all been answered publicly.Sources: the Hillsong Australia board report of December 2022 [34] and Hillsong's statement on the ACNC [10]. |",
+  "reason": "P2-15 (F14): the row cited no source.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D044",
+  "scope": "md",
+  "type": "fact",
+  "before": "::: cites\nSources for this section: [3] [5]\n:::",
+  "after": "::: cites\nSources for this section: [3] [5] [10] [34]\n:::",
+  "reason": "P2-15: §20 source line extended.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D045",
+  "scope": "md",
+  "type": "source",
+  "before": "7. CRL Rights Commission (South Africa), *Report of the Hearings on the Commercialisation of Religion and Abuse of People's Belief Systems* (2017) — overview. https://www.crlcommission.org.za/",
+  "after": "7. CRL Rights Commission (South Africa), *Report on the Commercialisation of Religion and Abuse of People's Belief Systems* (2017) — documents the sale of water, oils and other items to congregants; proposes peer-review committees and registration of religious practitioners through umbrella bodies. https://pmg.org.za/files/170627Believe_Systems.pdf",
+  "reason": "P2-16 (F18): the entry linked the commission's home page; it now links the report itself, hosted by the Parliamentary Monitoring Group.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D046",
+  "scope": "md",
+  "type": "fact",
+  "before": "A court found a ₩13.1 billion loss",
+  "after": "A court found a ₩13.15 billion loss",
+  "reason": "P3-19 (F6): the court's figure is ₩13.15bn; the page truncated it (§9).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D047",
+  "scope": "md",
+  "type": "fact",
+  "before": "causing the church a loss of ₩13.1 billion [5]",
+  "after": "causing the church a loss of ₩13.15 billion [5]",
+  "reason": "P3-19 (F6): the court's figure is ₩13.15bn; the page truncated it (§19).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D048",
+  "scope": "md",
+  "type": "fact",
+  "before": "loss of ₩13.1 billion. He received",
+  "after": "loss of ₩13.15 billion. He received",
+  "reason": "P3-19 (F6): the court's figure is ₩13.15bn; the page truncated it (§13 loop 6).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D049",
+  "scope": "md",
+  "type": "fact",
+  "before": "₩13.1bn loss to Yoido",
+  "after": "₩13.15bn loss to Yoido",
+  "reason": "P3-19 (F6): the court's figure is ₩13.15bn; the page truncated it (§26 [5]).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D050",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Assemblies of God General Superintendent | It is an elected office, held on renewable terms by vote of the General Council. |",
+  "after": "| Assemblies of God General Superintendent | Doug Clay holds this elected office, which is held on renewable terms by vote of the General Council. He was re-elected in August 2025 [36]. |",
+  "reason": "P3-23: names the current holder.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D051",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Church of God in Christ Presiding Bishop | It is an elected office of the largest historically Black Pentecostal denomination. |",
+  "after": "| Church of God in Christ Presiding Bishop | J. Drew Sheard holds this elected office of the largest historically Black Pentecostal denomination. The General Assembly re-elected him on 12 November 2024 for a four-year term [37]. |",
+  "reason": "P3-23: names the current holder.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D052",
+  "scope": "md",
+  "type": "source",
+  "before": "30. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/",
+  "after": "30. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/\n31. *Christianity Today*, report on the end of the Grassley investigation into six ministries (Jan 2011) — a three-year probe; four of the six did not provide full information; staff did not issue subpoenas, citing the committee's time and resources. https://christianitytoday.com/news/2011/january/grassley-investigation-ends-with-no-penalty-for.html\n32. The Roys Report, \"Abuse victim Crenshaw rejects Hillsong settlement over NDA\" (May 2024) — the in-principle settlement of 29 April 2024 and her refusal of a non-disclosure clause. https://roysreport.com/abuse-victim-crenshaw-rejects-hillsong-settlement-over-nda/\n33. The Other Cheek, \"Anna Crenshaw settles with Jason Mays but not the Hillsong Church\" (6 Jul 2024) — claim against the staff member settled 5 July 2024; claim against Hillsong continued, trial set for February 2025. https://theothercheek.com.au/anna-crenshaw-settles-with-jason-mays-but-not-the-hillsong-church/\n34. Hillsong Church, Australia Board Report (Dec 2022) — the governance review assisted by Murray Baird and Nick Barnett. https://cdn.hillsong.com/wp-content/uploads/2022/12/09022544/1.-Australia-Board-Report-1.pdf\n35. *Korea JoongAng Daily*, \"Rev. Cho Yong-gi, 85, founder of Yoido Full Gospel Church, dies\" (Sept 2021) — Cho stepped down in 2008 and appointed Lee Young-hoon as his successor. https://www.koreajoongangdaily.com/korea/rev-cho-yong-gi-85-founder-of-yoido-full-gospel-church-dies/11088233\n36. Assemblies of God, *AG News*, \"Business Sessions Begin with Key Elections and Reports\" (Aug 2025) — Doug Clay re-elected General Superintendent at the 61st General Council. https://news.ag.org/en/articles/news/2025/08/business-sessions-begin-with-key-elections-and-reports\n37. Church of God in Christ, \"General Assembly Reelects Bishop J. Drew Sheard as Presiding Bishop\" (12 Nov 2024). https://www.cogic.org/blog/2024/11/12",
+  "reason": "New sources 31–37 for the corrections above (appended at the end; no source renumbered).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D053",
+  "scope": "md",
+  "type": "meta",
+  "before": "checked: 2026-09-27",
+  "after": "checked: 2026-10-03",
+  "reason": "Text rechecked after the discrepancy fixes.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D054",
+  "scope": "md",
+  "type": "meta",
+  "before": "| Last checked | 2026-09-27 |",
+  "after": "| Last checked | 2026-10-03 |",
+  "reason": "Same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PC-D055",
+  "scope": "md",
+  "type": "changelog",
+  "before": "- **2026-09-27:** Added Branches,",
+  "after": "- **2026-10-03:** Corrected the length of the Senate inquiry to three years, the status of Anna Crenshaw's case against Hillsong, and the dates and findings of the Charity Commission's action at Kingsway International Christian Centre. Rewrote claims that no internal body had ever acted, since the Assemblies of God removed Jim Bakker and Jimmy Swaggart. Corrected the size of the movement against Pew's count, the disclosure scorecard, the ages of the founders, and seven technique grades; removed the claim that a state commission documented door-closing and calling givers by amount, and the unsourced banks and airlines; named the current Assemblies of God and Church of God in Christ leaders; linked the South African commission's report; and added seven sources.\n- **2026-09-27:** Added Branches,",
+  "reason": "Patch note for this round (CLAUDE.md patch-notes rule).",
+  "count": 1,
+  "status": "proposed"
  }
 ]

@@ -1,6 +1,6 @@
 # Wording log — pentecostal-charismatic
 
-142 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/pentecostal-charismatic.json`, then rebuild. Nothing else changes.
+141 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/pentecostal-charismatic.json`, then rebuild. Nothing else changes.
 
 ## Specialist terms glossed on first use (21)
 
@@ -1521,7 +1521,7 @@
 
 *Reason:* Card field was a fragment; it now reads as a sentence on its own.
 
-## Proofreading (typos, punctuation, agreement) (8)
+## Proofreading (typos, punctuation, agreement) (7)
 
 ### PC-P001 · md · §9 · proposed · build: applied
 
@@ -1608,18 +1608,6 @@
 > 19. UNICEF, *Children Accused of Witchcraft: An anthropological study of contemporary practices in Africa* (A. Cimpric, 2010). https://www.unicef.org/nigeria/reports/children-accused-witchcraft
 
 *Reason:* Build marker: source 18 pointed readers to an internal file (`_officeholders.md`). It now names the check and the one URL that file records; Oyedepo and Macedo still lack a URL (see DISCREPANCIES). Items 18 and 19 were out of order and are now in order.
-
-### PC-P008 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 5 documented cases on this page
-
-**After**
-
-> These are not hypotheticals. Five documented cases on this page
-
-*Reason:* Numeral at the start of a clause spelled out.
 
 ## Loops expanded (section 13) (8)
 
