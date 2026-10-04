@@ -1,3 +1,5 @@
+Status 2026-10-03: fixes applied, see soka-gakkai-FIXLOG.md (deferred items remain open).
+
 # DISCREPANCIES — Soka Gakkai, awaiting the owner's decision
 
 Format: **[Location]** what is wrong → proposed wording → why it matters. Nothing below has been changed in the text; every item touches the frozen layer (numbers, dates, grades, source entries), moves loop text, or would soften a claim the wording pass may not weaken.

@@ -1670,5 +1670,585 @@
   "reason": "Wrong section named: the list is under 'What would change this page' in section 20 (Precedent), not History.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "SOKF-D001",
+  "scope": "md",
+  "type": "source",
+  "before": "17. Soka Gakkai (global), \"Minoru Harada Reappointed as Soka Gakkai President\" (26 Oct 2023): reappointed by the Soka Gakkai President Selection Committee; \"The term of president is four years\"; the term began 18 Nov 2023. <https://www.sokaglobal.org/in-society/news/soka-gakkai-president-reappointed.html>",
+  "after": "17. Soka Gakkai (global), \"Minoru Harada Reappointed as Soka Gakkai President\" (26 Oct 2023): reappointed by the Soka Gakkai President Selection Committee; \"The term of president is four years\"; the term began 18 Nov 2023. <https://www.sokaglobal.org/in-society/news/soka-gakkai-president-reappointed.html>\n18. Nippon.com, \"Komeito to appoint former policy chief Okamoto as new leader\" (30 Sep 2026) — Komeito described as an opposition party; lower-house members who had moved to the Centrist Reform Alliance returned to Komeito after the Alliance disbanded; Toshiko Takeya succeeded by Mitsunari Okamoto. <https://www.nippon.com/en/news/yjj2026093000114/>\n19. Wikipedia, \"Komeito\" (reference summary) — junior coalition partner of the LDP from 1999 to 2025 except 2009–12, when it was in opposition; agreed in January 2026 to merge its lower-house members with the Constitutional Democratic Party into the Centrist Reform Alliance, which won 49 seats in the 2026 election. <https://en.wikipedia.org/wiki/Komeito>",
+  "reason": "Adds numbered sources for the corrected coalition years and for Komeito's 2026 position (P1-1, P1-2).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D002",
+  "scope": "md",
+  "type": "claim",
+  "before": "| 1999 | Komeito enters a coalition with the Liberal Democratic Party (LDP) [4]. | Komeito spends twenty-six years in government. |",
+  "after": "| 1999 | Komeito enters a coalition with the Liberal Democratic Party (LDP) [4]. | The partnership lasts twenty-six years, about twenty-three of them in government; Komeito was in opposition from 2009 to 2012 [4][19]. |",
+  "reason": "P1-1: the 26 years count the LDP–Komeito cooperation, not continuous government (fact-check F4).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D003",
+  "scope": "md",
+  "type": "claim",
+  "before": "| Twenty-six years in power end. |",
+  "after": "| A twenty-six-year partnership with the governing party ends. |",
+  "reason": "P1-1: \"in power\" for the whole span is wrong (F4).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D004",
+  "scope": "md",
+  "type": "claim",
+  "before": "which was in government with the LDP 1999–2025 [3][4]. |",
+  "after": "which was the LDP's coalition partner from 1999 to 2025, apart from 2009–12 in opposition [3][4][19]. |",
+  "reason": "P1-1.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D005",
+  "scope": "md",
+  "type": "claim",
+  "before": "A party in national government for 26 years [4] is not",
+  "after": "A party in a governing coalition for most of 26 years [4][19] is not",
+  "reason": "P1-1.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D006",
+  "scope": "md",
+  "type": "claim",
+  "before": "  - Komeito governed in coalition with the Liberal Democratic Party from 1999 until it withdrew on 10 October 2025 [4].",
+  "after": "  - Komeito was the Liberal Democratic Party's coalition partner from 1999 until it withdrew on 10 October 2025, apart from 2009–12 in opposition [4][19].",
+  "reason": "P1-1.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D007",
+  "scope": "md",
+  "type": "claim",
+  "before": "Komeito and its coalition years (1999–2025) [4]",
+  "after": "Komeito and its coalition years (1999–2025, except 2009–12) [4][19]",
+  "reason": "P1-1.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D008",
+  "scope": "narration",
+  "type": "claim",
+  "before": "which governed in coalition for twenty-six years until October 2025.",
+  "after": "which was the LDP's partner for twenty-six years, about twenty-three of them in government, until October 2025.",
+  "reason": "P1-1: narration repeated \"governed ... for twenty-six years\".",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D009",
+  "scope": "narration",
+  "type": "claim",
+  "before": "Komeito's twenty-six years in coalition with the LDP (1999–2025).",
+  "after": "Komeito's twenty-six years of partnership with the LDP (1999–2025), about twenty-three of them in government.",
+  "reason": "P1-1: matches the corrected timeline row.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D010",
+  "scope": "md",
+  "type": "claim",
+  "before": "| Party leadership holds it (Tetsuo Saito, 2025) [4]. |",
+  "after": "| The party leader holds it. Tetsuo Saito led it in 2025 [4]. In January 2026 its lower-house members joined the Centrist Reform Alliance, which disbanded in September 2026; Komeito, now in opposition, decided on 30 September 2026 to appoint Mitsunari Okamoto as its leader [18][19]. |",
+  "reason": "P1-2: the page stopped at 2025; Saito no longer leads Komeito (F5).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D011",
+  "scope": "md",
+  "type": "claim",
+  "before": "| Oct 2025 | Komeito leaves the coalition, citing political-fundraising reform [4]. | Komeito leaves government. |",
+  "after": "| Oct 2025 | Komeito leaves the coalition, citing political-fundraising reform [4]. | Komeito leaves government. |\n| 2026 | Komeito's lower-house members join the Centrist Reform Alliance in January; the Alliance disbands in September and they return [18][19]. | Komeito is an opposition party. |",
+  "reason": "P1-2: adds Komeito's 2026 position to the timeline.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D012",
+  "scope": "md",
+  "type": "claim",
+  "before": "- Households are strained by contributions [8].",
+  "after": "- How far contributions strain households is not established on this page; no primary or scholarly source for it was found.",
+  "reason": "P1-3: Source 8 is a reference summary and the page itself says current contribution practice is not established from a primary source (F20).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D013",
+  "scope": "md",
+  "type": "claim",
+  "before": "- **1930:** The educators Tsunesaburo Makiguchi and Josei Toda founded the movement as a lay group within Nichiren Shoshu (the Japanese Nichiren school whose priesthood the lay group followed).",
+  "after": "- **1930:** The educators Tsunesaburo Makiguchi and Josei Toda founded the movement as the Soka Kyoiku Gakkai, an education reform society [7]. It later aligned with Nichiren Shoshu (the Japanese Nichiren school whose priesthood the lay group followed) [9].",
+  "reason": "P1-4: the founding sources describe an education reform society; a lay-body link with the priesthood is not shown for 1930 (F9).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D014",
+  "scope": "md",
+  "type": "claim",
+  "before": "| 1930 | Two educators found the movement. | It begins as a lay reform movement. |",
+  "after": "| 1930 | Two educators found the movement as an education reform society [7]. | It begins as an educators' society, not yet a Buddhist lay body. |",
+  "reason": "P1-4: matches the corrected 1930 line.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D015",
+  "scope": "md",
+  "type": "claim",
+  "before": "The French report was contested and led to a defamation complaint against its chair [10].",
+  "after": "The 1999 French report, which discusses Soka Gakkai, was contested: it led to a defamation complaint against the commission president, Jacques Guyard, who was discharged in 2001 on the ground of good faith [10].",
+  "reason": "P1-5: the complaint followed the 1999 report, and Guyard's outcome is stated (F14).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D016",
+  "scope": "md",
+  "type": "claim",
+  "before": "| 1995 | France's parliamentary (Guyard) report lists Soka Gakkai among 172 movements [10] | It is a state classification abroad, itself controversial [10]. |",
+  "after": "| 1995–99 | France's parliamentary commission (chair: Jacques Guyard) publishes a 1995 report listing 172 movements and a 1999 report that discusses Soka Gakkai [10] | It is a state classification abroad, itself controversial [10]. |",
+  "reason": "P1-5: Soka Gakkai is named in the 1999 report, not shown on the 1995 list (F13).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D017",
+  "scope": "md",
+  "type": "claim",
+  "before": "| **France** | A 1995 parliamentary report listed Soka Gakkai among 172 movements [10] | The listing was itself controversial [10] |",
+  "after": "| **France** | A 1995 parliamentary report listed 172 movements, and the commission's 1999 report discussed Soka Gakkai [10] | The commission's work was itself controversial: a defamation complaint against its president ended in 2001 with his discharge on the ground of good faith [10] |",
+  "reason": "P1-5.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D018",
+  "scope": "md",
+  "type": "claim",
+  "before": "2. **The 1995 French National Assembly report (Guyard)** [10]. [GOVERNMENT REPORT — contested]",
+  "after": "2. **The 1999 French National Assembly commission report (Guyard), which discusses Soka Gakkai** [10]. [GOVERNMENT REPORT — contested]",
+  "reason": "P1-5.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D019",
+  "scope": "md",
+  "type": "claim",
+  "before": "- **law:** The relevant text is the 1995 parliamentary report [10].",
+  "after": "- **law:** The relevant texts are the 1995 and 1999 parliamentary reports [10].",
+  "reason": "P1-5.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D020",
+  "scope": "md",
+  "type": "claim",
+  "before": "- **documented:** The documented record is the listing and the controversy [10].",
+  "after": "- **documented:** The documented record is the 1999 report's discussion of Soka Gakkai and the controversy [10].",
+  "reason": "P1-5.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D021",
+  "scope": "md",
+  "type": "claim",
+  "before": "- **tell:** It is a parliamentary list that named a movement and was itself disputed [10].",
+  "after": "- **tell:** It is a parliamentary report that discussed a movement and was itself disputed [10].",
+  "reason": "P1-5.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D022",
+  "scope": "md",
+  "type": "source",
+  "before": "(reference summary: the Guyard report of 22 Dec 1995; 172 movements; the controversy and defamation complaint).",
+  "after": "(reference summary: the Guyard report of 22 Dec 1995 listing 172 movements; the 1999 report, which discusses Soka Gakkai; the controversy and the defamation complaint against Guyard, discharged in 2001 on the ground of good faith).",
+  "reason": "P1-5 and P3-31: source note now says what the summary supports.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D023",
+  "scope": "md",
+  "type": "claim",
+  "before": "- **tell:** Outside Japan, the movement is a small charity with no political party.",
+  "after": "- **tell:** Outside Japan, the movement is organized as national bodies, such as the registered charity SGI-UK [2], and has no political party.",
+  "reason": "P2-6: \"a small charity\" does not describe about 3 million members in 192 countries and territories (F21).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D024",
+  "scope": "md",
+  "type": "claim",
+  "before": "- **tell:** A law passed in the name of Aum was described by the ruling party as aimed at Soka Gakkai.",
+  "after": "- **tell:** A law passed in the name of Aum was described by an LDP spokesman as aimed at Soka Gakkai [11].",
+  "reason": "P2-7: one spokesman said it (F12).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D025",
+  "scope": "md",
+  "type": "claim",
+  "before": "| Size | Soka Gakkai self-reports 8.27M households in Japan and ~3M members outside Japan [1]. |",
+  "after": "| Size | Soka Gakkai self-reports 8.27M households in Japan and ~3M members outside Japan (2021 announcement) [1]. |",
+  "reason": "P2-8: the figures date from a 2021 press release (F1).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D026",
+  "scope": "md",
+  "type": "claim",
+  "before": "- **adherents:** Soka Gakkai self-reports 8.27M households in Japan and ~3M members outside Japan [1].",
+  "after": "- **adherents:** Soka Gakkai self-reports 8.27M households in Japan and ~3M members outside Japan (2021 announcement) [1].",
+  "reason": "P2-8.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D027",
+  "scope": "md",
+  "type": "claim",
+  "before": "in Japan and around 3 million members elsewhere, in 192 countries and territories [1].",
+  "after": "in Japan and around 3 million members elsewhere, in 192 countries and territories (2021 announcement) [1].",
+  "reason": "P2-8.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D028",
+  "scope": "md",
+  "type": "claim",
+  "before": "| It has 8.27 million member households [1]. |",
+  "after": "| It has 8.27 million member households (2021 announcement) [1]. |",
+  "reason": "P2-8.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D029",
+  "scope": "md",
+  "type": "claim",
+  "before": "| It has about 3 million members in 192 countries and territories [1]. |",
+  "after": "| It has about 3 million members in 192 countries and territories (2021 announcement) [1]. |",
+  "reason": "P2-8.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D030",
+  "scope": "md",
+  "type": "claim",
+  "before": "has long claimed a circulation of about 5.5 million.",
+  "after": "claimed a circulation of about 5.5 million in 1997 [8].",
+  "reason": "P2-9: the claim dates from 1997 per the cited summary (F15).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D031",
+  "scope": "md",
+  "type": "claim",
+  "before": "whose claimed 5.5 million circulation is unaudited [8].",
+  "after": "whose claimed 5.5 million circulation (a 1997 claim) is unaudited [8].",
+  "reason": "P2-9.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D032",
+  "scope": "md",
+  "type": "claim",
+  "before": "whose claimed 5.5 million circulation is outside the official audit system [8].",
+  "after": "whose claimed 5.5 million circulation (a 1997 claim) is outside the official audit system [8].",
+  "reason": "P2-9.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D033",
+  "scope": "narration",
+  "type": "claim",
+  "before": "claims a circulation of about 5.5 million,",
+  "after": "claimed a circulation of about 5.5 million in 1997,",
+  "reason": "P2-9: narration stated the claim as present-day.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D034",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 22 | Benevolent control | Taught | District leaders give guidance. |",
+  "after": "| 22 | Benevolent control | Cultural | District leaders give guidance. |",
+  "reason": "P2-12: the row describes district leaders' practice, not teaching; regraded Taught to Cultural.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D035",
+  "scope": "md",
+  "type": "claim",
+  "before": "| Doctrinal ambiguity | Low | — |",
+  "after": "| Doctrinal ambiguity | Not assessed | No source on this page supports a level. |",
+  "reason": "P2-13: unsupported level removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D036",
+  "scope": "md",
+  "type": "claim",
+  "before": "| Cultural outsourcing | Low | — |",
+  "after": "| Cultural outsourcing | Not assessed | No source on this page supports a level. |",
+  "reason": "P2-13.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D037",
+  "scope": "md",
+  "type": "claim",
+  "before": "| Volunteer enforcement | High | — |",
+  "after": "| Volunteer enforcement | High | Local leaders organize meetings and campaigns and are asked to hit targets and deliver votes (section 18) [5]. |",
+  "reason": "P2-13: note added from section 18.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D038",
+  "scope": "md",
+  "type": "claim",
+  "before": "| Sacred secrecy | Medium | — |",
+  "after": "| Sacred secrecy | Not assessed | No source on this page supports a level. |",
+  "reason": "P2-13.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D039",
+  "scope": "md",
+  "type": "claim",
+  "before": "| Exit cost denial | Low | — |",
+  "after": "| Exit cost denial | Not assessed | The ledger of exit records only \"Practice is voluntary\" as a denial; no source supports a level. |",
+  "reason": "P2-13.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D040",
+  "scope": "md",
+  "type": "claim",
+  "before": "- **regulator:** The regulators are the Agency for Cultural Affairs and the central government [11].",
+  "after": "- **regulator:** The regulator is the central government, to which the 1995 revision moved oversight [11].",
+  "reason": "P2-17: source 11 does not name the Agency for Cultural Affairs.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D041",
+  "scope": "md",
+  "type": "claim",
+  "before": "| Mentor (honorary president) | The office has been vacant since Nov 2023 [6]. | — | — |",
+  "after": "| Mentor (honorary president) | Daisaku Ikeda held the title from 1979 until his death on 15 November 2023 [6]. This page does not record a successor. | — | — |",
+  "reason": "P2-18: vacancy is not sourced (F7).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D042",
+  "scope": "md",
+  "type": "claim",
+  "before": "In Japan, the Religious Corporations Act, the tax authorities",
+  "after": "In Japan, the Religious Corporations Law, the tax authorities",
+  "reason": "P3-20: one statute, one name (source 11 uses \"Law\").",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D043",
+  "scope": "md",
+  "type": "claim",
+  "before": "- **trend:** Membership is aging in Japan and growing in some countries abroad.",
+  "after": "- **trend:** No source on this page establishes the direction of membership; the figures above date from 2021.",
+  "reason": "P3-24: uncited trend claim replaced.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D044",
+  "scope": "md",
+  "type": "claim",
+  "before": " Top leadership has historically been male.",
+  "after": " This page has no source on the gender of its top leadership.",
+  "reason": "P3-24: uncited claim replaced.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D045",
+  "scope": "md",
+  "type": "claim",
+  "before": "- In many countries the practice is light-touch and voluntary.",
+  "after": "- Where it operates as a registered charity, as SGI-UK does, its accounts are public [2].",
+  "reason": "P3-25: uncited claim replaced with the sourced fact.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D046",
+  "scope": "md",
+  "type": "claim",
+  "before": "| It consists of national organizations, often registered charities, with lighter practice in many countries [2]. |",
+  "after": "| It consists of national organizations; SGI-UK, for one, is a registered charity [2]. |",
+  "reason": "P3-25: the \"lighter practice\" claim had no source.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D047",
+  "scope": "md",
+  "type": "claim",
+  "before": "- **Predict:** The post-Ikeda authority question will be settled administratively, without a member vote.",
+  "after": "- **Predict:** The post-Ikeda authority question is likely to be settled administratively: the president is reappointed by a selection committee, and no member vote is recorded [17]. This is a prediction, not a finding.",
+  "reason": "P3-22: unsourced prediction now rests on the reappointment record and is labelled.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D048",
+  "scope": "md",
+  "type": "claim",
+  "before": "- **Chair now:** The president and the executive hold the chair, after Ikeda [1][6].",
+  "after": "- **Chair now:** The president, Minoru Harada, holds the chair, after Ikeda [1][6].",
+  "reason": "P3-23: \"the executive\" was never defined.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D049",
+  "scope": "md",
+  "type": "claim",
+  "before": "| Isolate | Isolation is weak here compared with other pages in this book. | Is isolation weak here, as the page says? |",
+  "after": "| Isolate | Isolation is weak here: social life is centered on the district, but no formal shunning was found [5]. | How much of your social life runs through the district? |",
+  "reason": "P3-28: the cell read as a note to the editor.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D050",
+  "scope": "narration",
+  "type": "claim",
+  "before": "why the organization chooses not to have it verified.",
+  "after": "why the paper is outside the official audit system.",
+  "reason": "P3-30: the page does not document a choice.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D051",
+  "scope": "md",
+  "type": "claim",
+  "before": "These are reference summaries, so the claims that rest on them are stated cautiously on this page.",
+  "after": "These are reference summaries, so the claims that rest on them are limited on this page to what the summaries state.",
+  "reason": "P3-31: the note overstated how cautiously the claims are stated.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D052",
+  "scope": "md",
+  "type": "help",
+  "before": "(freephone; set hours, see website) [13]",
+  "after": "(freephone; Wed 10:00–13:00, Thu 16:00–19:00, Fri 08:00–11:00) [13]",
+  "reason": "P3-32: hours added from humanists.uk, checked 2026-10-03.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D053",
+  "scope": "md",
+  "type": "help",
+  "before": "**(844) 368-2848** [14]",
+  "after": "**(844) 368-2848** (aims to offer a 24-hour service; no fixed hotline hours are published) [14]",
+  "reason": "P3-32: hours position stated from recoveringfromreligion.org, checked 2026-10-03.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D054",
+  "scope": "md",
+  "type": "help",
+  "before": "Checked 2026-09-27.",
+  "after": "Checked 2026-10-03.",
+  "reason": "P3-32.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D055",
+  "scope": "md",
+  "type": "source",
+  "before": "(freephone; set hours). <https://humanists.uk",
+  "after": "(freephone; Wed 10:00–13:00, Thu 16:00–19:00, Fri 08:00–11:00). <https://humanists.uk",
+  "reason": "P3-32.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D056",
+  "scope": "md",
+  "type": "meta",
+  "before": "checked: 2026-09-27",
+  "after": "checked: 2026-10-03",
+  "reason": "Text rechecked after the discrepancy fixes.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D057",
+  "scope": "md",
+  "type": "meta",
+  "before": "| Last checked | 2026-09-27 |",
+  "after": "| Last checked | 2026-10-03 |",
+  "reason": "Same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SOKF-D058",
+  "scope": "md",
+  "type": "changelog",
+  "before": "- **2026-09-27:** Added Branches,",
+  "after": "- **2026-10-03:** Corrected the \"twenty-six years in government\" claim: the partnership with the governing party lasted twenty-six years, about twenty-three in government, with Komeito in opposition from 2009 to 2012. Added Komeito's 2026 position (the January merger into the Centrist Reform Alliance, its September end, and the new leader). Corrected the 1930 founding (an education society, later aligned with Nichiren Shoshu) and the French reports (Soka Gakkai is discussed in the 1999 report, and the complaint against the commission president followed that report). Removed an unsupported claim that households are strained by contributions, the unsourced membership trend, the vacancy claim for the honorary presidency and the Agency for Cultural Affairs as a named regulator. Dated the membership figures (2021) and the newspaper claim (1997), regraded one technique, replaced five unsupported levels in the cost table, and added opening hours for two help lines. Sources 18 and 19 are new.\n- **2026-09-27:** Added Branches,",
+  "reason": "Patch note for this round (CLAUDE.md patch-notes rule).",
+  "count": 1,
+  "status": "proposed"
  }
 ]

@@ -5,7 +5,7 @@ family: "Buddhism"
 family_id: buddhism-family
 family_members: [buddhism, tibetan-buddhism, soka-gakkai]
 version: v4
-checked: 2026-09-27
+checked: 2026-10-03
 sections_filled: 27/27
 missing: []
 partial: []
@@ -18,14 +18,14 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | Soka Gakkai self-reports 8.27M households in Japan and ~3M members outside Japan [1]. |
+| Size | Soka Gakkai self-reports 8.27M households in Japan and ~3M members outside Japan (2021 announcement) [1]. |
 | Who's in charge | The president is Minoru Harada, in office since 2006 [1]. |
 | Chosen by / removable by | Organizational process / Internal |
-| Money in one line | The money comes from member contributions (zaimu, the organization's term for its financial contributions) and from subscriptions to the daily Seikyo Shimbun (the organization's own newspaper), whose claimed 5.5 million circulation is unaudited [8]. |
+| Money in one line | The money comes from member contributions (zaimu, the organization's term for its financial contributions) and from subscriptions to the daily Seikyo Shimbun (the organization's own newspaper), whose claimed 5.5 million circulation (a 1997 claim) is unaudited [8]. |
 | Leaving in one line | There is no formal shunning; the cost of leaving is social and familial, felt in tight local districts and multi-generational families [5]. |
 | The unanswered question | Who decides which candidate is kosen-rufu (the movement's term for the widespread propagation of the Lotus Sutra for world peace)? |
 | Family | Buddhism — buddhism, tibetan-buddhism, soka-gakkai |
-| Last checked | 2026-09-27 |
+| Last checked | 2026-10-03 |
 :::
 
 ### Disclosure scorecard
@@ -64,25 +64,25 @@ Who decides which candidate is kosen-rufu?
 ### The strongest objection, answered
 
 - *Attack:* "Persecuted since the war, smeared by rivals, tabloids and a French blacklist."
-- *Concede:* The founder died in prison [7]. The French report was contested and led to a defamation complaint against its chair [10].
+- *Concede:* The founder died in prison [7]. The 1999 French report, which discusses Soka Gakkai, was contested: it led to a defamation complaint against the commission president, Jacques Guyard, who was discharged in 2001 on the ground of good faith [10].
 - *Answer:* The findings here rest on the organization's own 1970 apology [3] and on university-press scholarship about its electoral work [5], not on tabloids or blacklists.
 
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-Soka Gakkai reports 8.27 million member households in Japan and around 3 million members elsewhere, in 192 countries and territories [1]. It is a lay Buddhist organization practising the chanting of Nam-myoho-renge-kyo in the tradition of the 13th-century teacher Nichiren. It is known for peace, culture and education work (Soka University, UN-affiliated NGO activity) and a strong local discussion-meeting culture [1].
+Soka Gakkai reports 8.27 million member households in Japan and around 3 million members elsewhere, in 192 countries and territories (2021 announcement) [1]. It is a lay Buddhist organization practising the chanting of Nam-myoho-renge-kyo in the tradition of the 13th-century teacher Nichiren. It is known for peace, culture and education work (Soka University, UN-affiliated NGO activity) and a strong local discussion-meeting culture [1].
 :::
 
 - The organization carries out peace, anti-nuclear and education activism.
 - The founder refused to bow to State Shinto (the state-sponsored form of Shinto promoted in wartime Japan), at the cost of his life [7].
 - It has been a lay-led religion without priestly fees since the 1991 break [9].
 - The organization made a public apology in 1970 and adopted a formal policy separating religion and party after the scandal [3].
-- In many countries the practice is light-touch and voluntary.
+- Where it operates as a registered charity, as SGI-UK does, its accounts are public [2].
 
 ## 5. History {#history}
 
 The movement's key stages:
-- **1930:** The educators Tsunesaburo Makiguchi and Josei Toda founded the movement as a lay group within Nichiren Shoshu (the Japanese Nichiren school whose priesthood the lay group followed).
+- **1930:** The educators Tsunesaburo Makiguchi and Josei Toda founded the movement as the Soka Kyoiku Gakkai, an education reform society [7]. It later aligned with Nichiren Shoshu (the Japanese Nichiren school whose priesthood the lay group followed) [9].
 - **1943–44:** Makiguchi was arrested in 1943 for refusing to accept a State Shinto talisman and died in prison in November 1944 [7].
 - **1950s:** Under Toda, the movement grew explosively through aggressive conversion (shakubuku).
 - **1960–2023:** Daisaku Ikeda led the movement from 1960, founded Soka Gakkai International (SGI, the network of Soka Gakkai organizations outside Japan) in 1975, was honorary president from 1979, and died on 15 November 2023 [6].
@@ -93,17 +93,18 @@ The movement's key stages:
 
 | Date | Event | Reading |
 |---|---|---|
-| 1930 | Two educators found the movement. | It begins as a lay reform movement. |
+| 1930 | Two educators found the movement as an education reform society [7]. | It begins as an educators' society, not yet a Buddhist lay body. |
 | 1943–44 | Makiguchi arrested for refusing a Shinto talisman; dies in prison, Nov 1944 [7] | Refusing the state is the founding story. |
 | 1950s | Toda leads a mass-conversion drive. | The movement grows through aggressive shakubuku. |
 | 1964 | Komeito (the Clean Government Party) is founded [3]. | A religion acquires a party. |
 | 1969–70 | The publisher, distributors and bookstores of a critic's book are pressured; Ikeda makes a formal apology (3 May 1970); a policy of separating religion and party follows [3]. | Church–state questions are raised in public. |
 | 1975 | SGI is founded. | The movement expands globally. |
 | 1991 | Nichiren Shoshu excommunicates the organization (28 Nov) [9]. | A lay organization loses its priesthood and keeps its members. |
-| 1995 | France's parliamentary (Guyard) report lists Soka Gakkai among 172 movements [10] | It is a state classification abroad, itself controversial [10]. |
-| 1999 | Komeito enters a coalition with the Liberal Democratic Party (LDP) [4]. | Komeito spends twenty-six years in government. |
+| 1995–99 | France's parliamentary commission (chair: Jacques Guyard) publishes a 1995 report listing 172 movements and a 1999 report that discusses Soka Gakkai [10] | It is a state classification abroad, itself controversial [10]. |
+| 1999 | Komeito enters a coalition with the Liberal Democratic Party (LDP) [4]. | The partnership lasts twenty-six years, about twenty-three of them in government; Komeito was in opposition from 2009 to 2012 [4][19]. |
 | 2023 | Ikeda dies on 15 Nov [6]. | The mentor era ends. |
 | Oct 2025 | Komeito leaves the coalition, citing political-fundraising reform [4]. | Komeito leaves government. |
+| 2026 | Komeito's lower-house members join the Centrist Reform Alliance in January; the Alliance disbands in September and they return [18][19]. | Komeito is an opposition party. |
 
 ### Moments in the room
 
@@ -111,7 +112,7 @@ The movement's key stages:
 |---|---|---|---|
 | 1944 | The prison | The founder died refusing the state [7]. | It is the standard the page applies. |
 | 1970 | The apology | A publisher was pressured, Ikeda apologized, and a separation policy was adopted [3]. | It named the religion–party question. |
-| 2025 | The exit | Komeito leaves government [4]. | Twenty-six years in power end. |
+| 2025 | The exit | Komeito leaves government [4]. | A twenty-six-year partnership with the governing party ends. |
 
 ## 6. Branches & variants {#branches}
 
@@ -119,18 +120,18 @@ Soka Gakkai and Nichiren Shoshu, the priesthood, have been separate since 1991 [
 
 | Body | Where | What differs on this page's questions |
 |---|---|---|
-| **Soka Gakkai (Japan)** | It has 8.27 million member households [1]. | It founded Komeito (1964), which was in government with the LDP 1999–2025 [3][4]. |
-| **Soka Gakkai International (SGI)** | It has about 3 million members in 192 countries and territories [1]. | It consists of national organizations, often registered charities, with lighter practice in many countries [2]. |
+| **Soka Gakkai (Japan)** | It has 8.27 million member households (2021 announcement) [1]. | It founded Komeito (1964), which was the LDP's coalition partner from 1999 to 2025, apart from 2009–12 in opposition [3][4][19]. |
+| **Soka Gakkai International (SGI)** | It has about 3 million members in 192 countries and territories (2021 announcement) [1]. | It consists of national organizations; SGI-UK, for one, is a registered charity [2]. |
 | **Nichiren Shoshu** | It is the priesthood the lay movement belonged to until 1991. | It excommunicated Soka Gakkai on 28 November 1991 [9]. |
 
 ## 7. Structure {#structure}
 
 ### Size and shape
 
-- **adherents:** Soka Gakkai self-reports 8.27M households in Japan and ~3M members outside Japan [1].
+- **adherents:** Soka Gakkai self-reports 8.27M households in Japan and ~3M members outside Japan (2021 announcement) [1].
 - **regions:** The organization is present in Japan, the United States, Brazil, Korea, Taiwan, Europe and India [1].
 - **branches:** Soka Gakkai and Nichiren Shoshu, the priesthood, have been separate since 1991 [9].
-- **trend:** Membership is aging in Japan and growing in some countries abroad.
+- **trend:** No source on this page establishes the direction of membership; the figures above date from 2021.
 - **participation:** Local activity in Japan is high, centering on meetings, the newspaper and election work [5].
 
 ### Authority
@@ -144,14 +145,14 @@ Soka Gakkai and Nichiren Shoshu, the priesthood, have been separate since 1991 [
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
 | President | Minoru Harada has held the office since 2006 [1]. | The president is chosen by an organizational process. | Removal is internal. |
-| Mentor (honorary president) | The office has been vacant since Nov 2023 [6]. | — | — |
+| Mentor (honorary president) | Daisaku Ikeda held the title from 1979 until his death on 15 November 2023 [6]. This page does not record a successor. | — | — |
 
 ### Who holds what
 
 | Entity | Type | Holder | Holds | Sector | Receipt |
 |---|---|---|---|---|---|
 | Soka Gakkai | It is a religious corporation. | President Minoru Harada holds it [1]. | It holds the organization and its assets. | It operates in your district. | [OFFICIAL POLICY] |
-| Komeito | It is a political party. | Party leadership holds it (Tetsuo Saito, 2025) [4]. | It holds seats in the Diet (Japan's parliament). | It acts in national law. | [OFFICIAL POLICY] |
+| Komeito | It is a political party. | The party leader holds it. Tetsuo Saito led it in 2025 [4]. In January 2026 its lower-house members joined the Centrist Reform Alliance, which disbanded in September 2026; Komeito, now in opposition, decided on 30 September 2026 to appoint Mitsunari Okamoto as its leader [18][19]. | It holds seats in the Diet (Japan's parliament). | It acts in national law. | [OFFICIAL POLICY] |
 | *Seikyo Shimbun* | It is a daily newspaper. | The organization holds it. | It carries members' main news. | It supplies what you read. | [ACADEMIC SOURCE] [5][8] |
 | Soka University | It is an educational institution. | The organization holds it. | It holds the university itself. | — | [OFFICIAL POLICY] |
 
@@ -161,19 +162,19 @@ Soka Gakkai and Nichiren Shoshu, the priesthood, have been separate since 1991 [
 |---|---|---|
 | **Japan — religious corporations** | The Religious Corporations Law was revised on 8 December 1995, after the attack by Aum Shinrikyo (the religious group that released sarin gas on the Tokyo subway in 1995), moving oversight to central government and giving it more access to religious bodies' records [11][12] | An LDP spokesman said on television the purpose was "to take measures against Soka Gakkai" [11] |
 | **Japan — politics** | Religious bodies may support parties. | Soka Gakkai founded Komeito in 1964; after the 1969–70 book-suppression affair the two were formally "separated" [3] |
-| **France** | A 1995 parliamentary report listed Soka Gakkai among 172 movements [10] | The listing was itself controversial [10] |
+| **France** | A 1995 parliamentary report listed 172 movements, and the commission's 1999 report discussed Soka Gakkai [10] | The commission's work was itself controversial: a defamation complaint against its president ended in 2001 with his discharge on the ground of good faith [10] |
 | **United Kingdom** | Charity law governs it [2]. | SGI-UK files public accounts [2] |
 
 ### Who can compel an answer
 
-In Japan, the Religious Corporations Act, the tax authorities and elections can compel an answer.
+In Japan, the Religious Corporations Law, the tax authorities and elections can compel an answer.
 
 ## 9. Money {#money}
 
 ### Where it comes from
 
 - The organization solicits financial contributions (zaimu, 財務) from members. Former members and commentators describe the major annual drives as larger in the past [8]. Current practice is not established from a primary source.
-- The daily *Seikyo Shimbun* has long claimed a circulation of about 5.5 million. That figure is unverifiable: the paper is outside Japan's official circulation-audit system [8]. Members' work selling subscriptions is documented in scholarship [5].
+- The daily *Seikyo Shimbun* claimed a circulation of about 5.5 million in 1997 [8]. That figure is unverifiable: the paper is outside Japan's official circulation-audit system [8]. Members' work selling subscriptions is documented in scholarship [5].
 - Income also comes from publishing, cultural centres and Soka University [1].
 
 ### Follow the money
@@ -194,7 +195,7 @@ In Japan, the Religious Corporations Act, the tax authorities and elections can 
 ```
 
 - **SGI-UK, 2024:** £2.36m of its £3.20m income came from donations, and it spent £4.12m [2].
-- **Japan:** The money comes from contributions (*zaimu*) and the *Seikyo Shimbun*, whose claimed 5.5 million circulation is outside the official audit system [8].
+- **Japan:** The money comes from contributions (*zaimu*) and the *Seikyo Shimbun*, whose claimed 5.5 million circulation (a 1997 claim) is outside the official audit system [8].
 - **The 1995 law** increased the government's access to religious corporations' records [11].
 
 ## 10. Genealogy {#genealogy}
@@ -202,7 +203,7 @@ In Japan, the Religious Corporations Act, the tax authorities and elections can 
 1. **A religion with a party**
    - *Origin:* The rule began with Toda's and Ikeda's vision of kosen-rufu, which included politics, and Komeito was founded in 1964 [3].
    - *Then:* It gave protection from a hostile state, in memory of the founder's death in prison [7].
-   - *Expired?* A party in national government for 26 years [4] is not a persecuted minority's shield.
+   - *Expired?* A party in a governing coalition for most of 26 years [4][19] is not a persecuted minority's shield.
    - *Benefits now:* The party gains legislative power and the organization gains standing.
 2. **The mentor–disciple relationship**
    - *Origin:* It began in Nichiren's teaching, reframed around Ikeda [6].
@@ -223,7 +224,7 @@ In Japan, the Religious Corporations Act, the tax authorities and elections can 
 
 ### Bodies
 
-- The Women's Division is large and influential, and central to local organization and electoral work, per scholarship [5]. Top leadership has historically been male.
+- The Women's Division is large and influential, and central to local organization and electoral work, per scholarship [5]. This page has no source on the gender of its top leadership.
 
 ## 12. The 30 techniques {#techniques}
 
@@ -235,7 +236,7 @@ In Japan, the Religious Corporations Act, the tax authorities and elections can 
 | Hook | The doctrine of human revolution (personal transformation) promises happiness through chanting and practice. | Why are the promised benefits attributed to practice but never audited? |
 | Devalue | Unhappiness is attributed to insufficient practice. | Who decides what is "insufficient"? |
 | Confuse | The organization is "separate" from the party, yet campaigns for it [3][5]. | Which is it? |
-| Isolate | Isolation is weak here compared with other pages in this book. | Is isolation weak here, as the page says? |
+| Isolate | Isolation is weak here: social life is centered on the district, but no formal shunning was found [5]. | How much of your social life runs through the district? |
 | Extract | Members give contributions, newspaper sales and election labor [5][8]. | Whose time funds whose seats? |
 | Discard | No formal mechanism was found. | — |
 | Replace | The district continues. | — |
@@ -265,7 +266,7 @@ In Japan, the Religious Corporations Act, the tax authorities and elections can 
 | 19 | Manufactured consent | Cultural | Votes are "freely" given within organized drives [5]. | "Citizens choose." | The choice is made inside a quota. |
 | 20 | Trauma bonding | Ungraded | No instance of this technique was found. | — | Nothing was found. |
 | 21 | Learned helplessness | Ungraded | No instance of this technique was found. | — | Nothing was found. |
-| 22 | Benevolent control | Taught | District leaders give guidance. | "Encouragement." | Guidance you can decline is fine. |
+| 22 | Benevolent control | Cultural | District leaders give guidance. | "Encouragement." | Guidance you can decline is fine. |
 | 23 | Infantilization | Ungraded | No instance of this technique was found. | — | Nothing was found. |
 | 24 | Identity erosion | Cultural | Selfhood is framed through the mentor–disciple bond [6]. | "Inspiration." | Whose life is it? |
 | 25 | Spiritual bypassing | Cultural | Illness or crisis is answered with "chant more". | "Faith gives strength." | Chanting is not a treatment. |
@@ -444,8 +445,8 @@ The founder's martyrdom [7] and the 1991 excommunication [9].
 ### Accountability or theatre?
 
 - **Last ran:** A critic's book was pressured; the organization apologized and formally separated from the party [3].
-- **Chair now:** The president and the executive hold the chair, after Ikeda [1][6].
-- **Predict:** The post-Ikeda authority question will be settled administratively, without a member vote.
+- **Chair now:** The president, Minoru Harada, holds the chair, after Ikeda [1][6].
+- **Predict:** The post-Ikeda authority question is likely to be settled administratively: the president is reappointed by a selection committee, and no member vote is recorded [17]. This is a prediction, not a finding.
 
 ### Words used here
 
@@ -477,18 +478,18 @@ The founder's martyrdom [7] and the 1991 excommunication [9].
 | Explicit policy | Medium | Party ties are public, and mobilization is informal [5]. |
 | Informal enforcement | High | Election work is carried by members [5]. |
 | Leadership distance | High | The organization has been formally "separate" from Komeito since 1970 [3]. |
-| Doctrinal ambiguity | Low | — |
-| Cultural outsourcing | Low | — |
-| Volunteer enforcement | High | — |
-| Sacred secrecy | Medium | — |
-| Exit cost denial | Low | — |
+| Doctrinal ambiguity | Not assessed | No source on this page supports a level. |
+| Cultural outsourcing | Not assessed | No source on this page supports a level. |
+| Volunteer enforcement | High | Local leaders organize meetings and campaigns and are asked to hit targets and deliver votes (section 18) [5]. |
+| Sacred secrecy | Not assessed | No source on this page supports a level. |
+| Exit cost denial | Not assessed | The ledger of exit records only "Practice is voluntary" as a denial; no source supports a level. |
 
 ## 16. The ledger {#ledger}
 
 ### Who benefits
 
 - The organization benefits, and so does the party it founded, Komeito (founded 1964) [3].
-  - Komeito governed in coalition with the Liberal Democratic Party from 1999 until it withdrew on 10 October 2025 [4].
+  - Komeito was the Liberal Democratic Party's coalition partner from 1999 until it withdrew on 10 October 2025, apart from 2009–12 in opposition [4][19].
   - The two were formally "separated" in 1970 after the book-suppression scandal [3].
 - The organization's publishing and institutional enterprises benefit too [5].
 
@@ -499,7 +500,7 @@ The founder's martyrdom [7] and the 1991 excommunication [9].
 ### Who pays
 
 - Members pay, pressed into election work and subscription sales [5].
-- Households are strained by contributions [8].
+- How far contributions strain households is not established on this page; no primary or scholarly source for it was found.
 
 ## 17. Who gets hurt most {#who-gets-hurt}
 
@@ -523,7 +524,7 @@ Local leaders carry the organization's meetings, campaigns and drives [5]. Distr
 ## 19. Documented cases {#cases}
 
 1. **The 1969–70 "publication obstruction incident" and Ikeda's apology of 3 May 1970** [3]. [ACADEMIC SOURCE]
-2. **The 1995 French National Assembly report (Guyard)** [10]. [GOVERNMENT REPORT — contested]
+2. **The 1999 French National Assembly commission report (Guyard), which discusses Soka Gakkai** [10]. [GOVERNMENT REPORT — contested]
 3. *No adjudicated case concerning internal coercion was found.*
 
 ---
@@ -555,10 +556,10 @@ This page would change with published accounts, an audited newspaper circulation
 ### Japan
 - **apex:** The apex is President Minoru Harada, in office since 2006 [1].
 - **law:** The law is the Religious Corporations Law as revised in 1995 [11][12].
-- **documented:** The documented record covers Komeito and its coalition years (1999–2025) [4] and the 1969–70 affair [3].
+- **documented:** The documented record covers Komeito and its coalition years (1999–2025, except 2009–12) [4][19] and the 1969–70 affair [3].
 - **exit:** Exit is legally free, with social costs in tight local districts [5].
-- **regulator:** The regulators are the Agency for Cultural Affairs and the central government [11].
-- **tell:** A law passed in the name of Aum was described by the ruling party as aimed at Soka Gakkai.
+- **regulator:** The regulator is the central government, to which the 1995 revision moved oversight [11].
+- **tell:** A law passed in the name of Aum was described by an LDP spokesman as aimed at Soka Gakkai [11].
 :::
 
 ::: card
@@ -568,17 +569,17 @@ This page would change with published accounts, an audited newspaper circulation
 - **documented:** The documented record is SGI-UK's public accounts [2].
 - **exit:** Exit is legally free.
 - **regulator:** The regulator is the Charity Commission [2].
-- **tell:** Outside Japan, the movement is a small charity with no political party.
+- **tell:** Outside Japan, the movement is organized as national bodies, such as the registered charity SGI-UK [2], and has no political party.
 :::
 
 ::: card
 ### France
 - **apex:** The apex is SGI's French organization.
-- **law:** The relevant text is the 1995 parliamentary report [10].
-- **documented:** The documented record is the listing and the controversy [10].
+- **law:** The relevant texts are the 1995 and 1999 parliamentary reports [10].
+- **documented:** The documented record is the 1999 report's discussion of Soka Gakkai and the controversy [10].
 - **exit:** Exit is legally free.
 - **regulator:** —
-- **tell:** It is a parliamentary list that named a movement and was itself disputed [10].
+- **tell:** It is a parliamentary report that discussed a movement and was itself disputed [10].
 :::
 
 ## 23. The questions {#questions}
@@ -606,12 +607,12 @@ Practical guidance, not legal advice.
 
 ## 25. Where to get help {#help}
 
-Checked 2026-09-27.
+Checked 2026-10-03.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; set hours, see website) [13] |
-| **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** [14] |
+| **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; Wed 10:00–13:00, Thu 16:00–19:00, Fri 08:00–11:00) [13] |
+| **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** (aims to offer a 24-hour service; no fixed hotline hours are published) [14] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [15] |
 
 ## 26. Sources {#sources}
@@ -623,19 +624,22 @@ Checked 2026-09-27.
 5. McLaughlin, Levi. *Soka Gakkai's Human Revolution: The Rise of a Mimetic Nation in Modern Japan.* University of Hawaiʻi Press, 2019. <https://uhpress.hawaii.edu/title/soka-gakkais-human-revolution-the-rise-of-a-mimetic-nation-in-modern-japan/> — review: H-Net (Metraux). <https://networks.h-net.org/node/20904/reviews/3917943/metraux-mclaughlin-soka-gakkai%E2%80%99s-human-revolution-rise-mimetic-nation> — also McLaughlin, "Komeito's Soka Gakkai Protesters and Supporters," *Asia-Pacific Journal*. <https://apjjf.org/levi-mclaughlin/4386> — electoral mobilization; newspaper subscriptions; the Women's Division.
 6. Soka Gakkai (global), "Passing of President Ikeda." <https://www.sokaglobal.org/in-society/news/passing-of-president-ikeda.html> — Tricycle obituary. <https://tricycle.org/article/daisaku-ikeda-dies/>
 7. Tsunesaburo Makiguchi Website, "Biography." <https://www.tmakiguchi.org/biography.html> — Introvigne, "The Detention of Tsunesaburo Makiguchi and Josei Toda," *The Journal of CESNUR* 9(5), 2025. <https://cesnur.net/wp-content/uploads/2025/09/tjoc_9_5_6_introvigne.pdf>
-8. Wikipedia, "Seikyo Shimbun" (reference summary: the 5.5M claim; outside the official audit bureau) <https://en.wikipedia.org/wiki/Seikyo_Shimbun> — and "Soka Gakkai" (zaimu). These are reference summaries, so the claims that rest on them are stated cautiously on this page.
+8. Wikipedia, "Seikyo Shimbun" (reference summary: the 5.5M claim; outside the official audit bureau) <https://en.wikipedia.org/wiki/Seikyo_Shimbun> — and "Soka Gakkai" (zaimu). These are reference summaries, so the claims that rest on them are limited on this page to what the summaries state.
 9. Soka Gakkai (global), *The Basics of Nichiren Buddhism*, ch. 10 (excommunication, 28 Nov 1991). <https://www.sokaglobal.org/resources/study-materials/buddhist-study/the-basics-of-nichiren-buddhism-for-the-new-era-of-worldwide-kosen-rufu/chapter-10.html>
-10. Wikipedia, "Parliamentary Commission on Cults in France" (reference summary: the Guyard report of 22 Dec 1995; 172 movements; the controversy and defamation complaint). <https://en.wikipedia.org/wiki/Parliamentary_Commission_on_Cults_in_France> — the Assemblée nationale report is no. 2468. CESNUR critique: <https://www.cesnur.org/2003/vil2003_dericquebourg.htm>
+10. Wikipedia, "Parliamentary Commission on Cults in France" (reference summary: the Guyard report of 22 Dec 1995 listing 172 movements; the 1999 report, which discusses Soka Gakkai; the controversy and the defamation complaint against Guyard, discharged in 2001 on the ground of good faith). <https://en.wikipedia.org/wiki/Parliamentary_Commission_on_Cults_in_France> — the Assemblée nationale report is no. 2468. CESNUR critique: <https://www.cesnur.org/2003/vil2003_dericquebourg.htm>
 11. Tokihisa Sumimoto, "Religious Freedom Problems in Japan: Background and Current Prospects," *The International Journal of Peace Studies* 5(2) — the December 1995 revision of the Religious Corporation Law; Shizuka Kamei's statement. <https://www3.gmu.edu/programs/icar/ijps/vol5_2/sumimoto.htm>
 12. Religion in Modern Asia Newsletter (Kokugakuin University), "Revised Religious Corporations Law (Japan)" (1 Jan 1996) — passed by the Diet on 8 Dec 1995. <http://www2.kokugakuin.ac.jp/ijcc/asia-nl/news/news000050.html>
-13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). <https://humanists.uk/faith-to-faithless/helpline/>
+13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Wed 10:00–13:00, Thu 16:00–19:00, Fri 08:00–11:00). <https://humanists.uk/faith-to-faithless/helpline/>
 14. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
 15. International Cultic Studies Association (ICSA). <https://internationalculticstudies.org/>
 16. SGI-UK, *Adults at risk protection guidelines and procedures* (2024–2025). <https://members.sgi-uk.org/sites/default/files/AdultsAtRiskProtectionGuidelinesAndProcedures2024_2025.pdf>
 17. Soka Gakkai (global), "Minoru Harada Reappointed as Soka Gakkai President" (26 Oct 2023): reappointed by the Soka Gakkai President Selection Committee; "The term of president is four years"; the term began 18 Nov 2023. <https://www.sokaglobal.org/in-society/news/soka-gakkai-president-reappointed.html>
+18. Nippon.com, "Komeito to appoint former policy chief Okamoto as new leader" (30 Sep 2026) — Komeito described as an opposition party; lower-house members who had moved to the Centrist Reform Alliance returned to Komeito after the Alliance disbanded; Toshiko Takeya succeeded by Mitsunari Okamoto. <https://www.nippon.com/en/news/yjj2026093000114/>
+19. Wikipedia, "Komeito" (reference summary) — junior coalition partner of the LDP from 1999 to 2025 except 2009–12, when it was in opposition; agreed in January 2026 to merge its lower-house members with the Constitutional Democratic Party into the Centrist Reform Alliance, which won 49 seats in the 2026 election. <https://en.wikipedia.org/wiki/Komeito>
 
 ## 27. What changed on this page {#changed}
 
+- **2026-10-03:** Corrected the "twenty-six years in government" claim: the partnership with the governing party lasted twenty-six years, about twenty-three in government, with Komeito in opposition from 2009 to 2012. Added Komeito's 2026 position (the January merger into the Centrist Reform Alliance, its September end, and the new leader). Corrected the 1930 founding (an education society, later aligned with Nichiren Shoshu) and the French reports (Soka Gakkai is discussed in the 1999 report, and the complaint against the commission president followed that report). Removed an unsupported claim that households are strained by contributions, the unsourced membership trend, the vacancy claim for the honorary presidency and the Agency for Cultural Affairs as a named regulator. Dated the membership figures (2021) and the newspaper claim (1997), regraded one technique, replaced five unsupported levels in the cost table, and added opening hours for two help lines. Sources 18 and 19 are new.
 - **2026-09-27:** Added Branches, Law & state, Money in numbers (SGI-UK accounts 2020–2024), Voices from inside, three regional cards, Leaving safely and Where to get help.
 - **2026-09-29:** Disclosure scorecard added: safeguarding, police-first reporting and removal are rated from SGI-UK's published procedures and the organization's own 2023 announcement of the president's term [16][17]; accounts from the UK charity register [2]; leaders' pay and on-the-record replies to critics are not established from any public source.
 
