@@ -44433,6 +44433,582 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "NEWF-D001",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D002",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D003",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D004",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D005",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D006",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D007",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D008",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D009",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D010",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D011",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D012",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D013",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D014",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D015",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D016",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D017",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D018",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D019",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D020",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D021",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D022",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D023",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D024",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D025",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D026",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D027",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D028",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D029",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D030",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D031",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D032",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D033",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D034",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D035",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D036",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D037",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D038",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D039",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D040",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D041",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D042",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D043",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D044",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D045",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D046",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D047",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D048",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D049",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D050",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D051",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D052",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D053",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D054",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D055",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D056",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D057",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D058",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D059",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D060",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D061",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D062",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D063",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D064",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D065",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D066",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D067",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D068",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D069",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D070",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D071",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D072",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D073",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D074",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D075",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D076",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D077",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D078",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D079",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D080",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D081",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D082",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D083",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D084",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D085",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D086",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D087",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D088",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D089",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D090",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D091",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D092",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D093",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D094",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D095",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "NEWF-D096",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "unification-church": [

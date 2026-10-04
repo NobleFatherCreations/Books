@@ -1,3 +1,5 @@
+Status 2026-10-03: fixes applied, see new-age-FIXLOG.md (deferred items remain open).
+
 # DISCREPANCIES — New Age / Spiritual-but-Organized Movements, awaiting the owner's decision
 
 Format: **[Location]** wrong → proposed wording → why it matters. Nothing below has been changed in the text; each item touches the frozen layer (figures, dates, grades, receipts, sources), moves loop text, or would soften a claim the wording pass may not weaken.
