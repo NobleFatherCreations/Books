@@ -5,7 +5,7 @@ family: "Islam"
 family_id: islam-family
 family_members: [islam, sunni-islam, shia-islam, ahmadiyya, dawoodi-bohra]
 version: v4
-checked: 2026-09-27
+checked: 2026-10-03
 sections_filled: 27/27
 missing: []
 partial: []
@@ -20,12 +20,12 @@ partial: []
 |---|---|
 | Size | The community has about 1 million members [15]. |
 | Who's in charge | The Daʿi al-Mutlaq (the community's supreme religious leader) is Mufaddal Saifuddin, in office since 2014 [15]. |
-| Chosen by / removable by | Designation (nass) by the predecessor; contested, upheld by the Bombay High Court in 2024 (appeal filed) [4] / No one |
+| Chosen by / removable by | Designation (nass) by the predecessor; contested, upheld by the Bombay High Court in 2024 (appeal pending before a Division Bench) [4][31] / No one |
 | Money in one line | The community is funded by annual dues (wajebaat) and levies and by large community trusts [18], and interest-free loans run inside the same structure [15]. |
 | Leaving in one line | Excommunication (baraat) carries social boycott, including denial of mosque access and community burial [17]. |
 | The unanswered question | Why can a funeral need permission? |
 | Family | Islam — islam, sunni-islam, shia-islam, ahmadiyya, dawoodi-bohra |
-| Last checked | 2026-09-27 |
+| Last checked | 2026-10-03 |
 :::
 
 ### Disclosure scorecard
@@ -74,15 +74,15 @@ The community has about one million members [15], mostly in India (Gujarat, Maha
 :::
 
 - The community runs an effective welfare system of interest-free loans, housing and community kitchens [15][18].
-- Literacy and commercial education are strong, including for women.
-- Community authorities in Australia, Canada and the United Kingdom told members to obey laws against khatna (female genital cutting, FGC) [16].
+- The community's own site describes literacy as very high, with no gap between girls and boys; no independent figure is recorded on this page [33].
+- The Sydney community authority (Anjuman-e-Burhani) told members in February 2016 to obey Australian law against khatna (female genital cutting, FGC), and the Daʿi's office directed Bohra trusts abroad to follow local bans [16].
 - Survivor-led reform comes from inside the community, through Sahiyo, WeSpeakOut and the Progressive Dawoodi Bohras [11].
 
 The Saifee Burhani Upliftment Trust's redevelopment of the Bhendi Bazaar area of Mumbai promises new homes for some 20,000 residents [18]. The community's own interest-free loans are recorded as real welfare in section 9 [15].
 
 ## 5. History {#history}
 
-The community descends from the Fatimid Ismaili tradition (the Ismaili caliphate of medieval Egypt) through the Mustaʿli line and the Tayyibi line in Yemen (successive lines of Ismaili succession). After the Imam al-Tayyib's concealment in the 12th century, authority passed to the Daʿi al-Mutlaq [14]. In 1539 the 23rd Daʿi appointed an Indian successor, and the daʿwa's headquarters (the daʿwa is the community's organized mission, headed by the Daʿi) moved to Gujarat in the 1560s [14]. A 1592 succession dispute split the Dawoodi (mainly Indian) from the Sulaymani (mainly Yemeni) [14]. The 53rd Daʿi, Mufaddal Saifuddin, has led since 2014 [15]. His succession was challenged in court and upheld in 2024 [4].
+The community descends from the Fatimid Ismaili tradition (the Ismaili caliphate of medieval Egypt) through the Mustaʿli line and the Tayyibi line in Yemen (successive lines of Ismaili succession). After the Imam al-Tayyib's concealment in the 12th century, authority passed to the Daʿi al-Mutlaq [14]. In 1539 the 23rd Daʿi appointed an Indian successor, and the daʿwa's headquarters (the daʿwa is the community's organized mission, headed by the Daʿi) moved to Gujarat in the 1560s [14]. A 1592 succession dispute split the Dawoodi (mainly Indian) from the Sulaymani (mainly Yemeni) [14]. The 53rd Daʿi, Mufaddal Saifuddin, has led since 2014 [15]. His succession was challenged in court and upheld in 2024, and an appeal is pending before a Division Bench [4][31].
 
 ### Timeline
 
@@ -97,14 +97,15 @@ The community descends from the Fatimid Ismaili tradition (the Ismaili caliphate
 | 2014 | 52nd Daʿi dies; succession challenged in court [4] | The office's transfer goes to litigation. |
 | 2015 | Australia's first FGM (female genital mutilation) prosecution: three convicted in the Supreme Court of New South Wales (NSW) [10] | The trial ended in three convictions. |
 | 2016 | Maharashtra social-boycott law [3]; the Daʿi publicly describes female circumcision as a religious rite [16] | The legislature and the pulpit move in opposite directions. |
-| 2017 | Detroit: the first US federal FGM prosecution [5]; Sahiyo survey (80% of 385 respondents cut) [11] | The practice enters courtrooms and data. |
+| 2017 | Detroit: the first US federal FGM prosecution [5]; Sahiyo online survey (80% of 385 respondents cut) [11][28] | The practice enters courtrooms and data. |
 | 2018 | US judge rules the 1996 federal FGM law unconstitutional and dismisses the FGM counts [5]; NSW appeal court quashes the Australian convictions [10]; India's Supreme Court refers the khatna petition to a Constitution Bench (a bench of five or more judges that hears constitutional questions) [12] | The three jurisdictions reach three different outcomes. |
-| 2019 | High Court of Australia clarifies that the law covers the practice [8] | The High Court answers the legal question. |
-| 2020 | NSW orders retrials [9]; the Crown then drops all charges [10] | No Australian conviction stands. |
+| 2019 | High Court of Australia allows the Crown's appeals and holds that the law covers the practice [8] | The High Court answers the legal question. |
+| 2020 | NSW orders retrials [9]; the Crown abandons the proceedings before any retrial [10] | No Australian conviction stands. |
 | Jan 2021 | STOP FGM Act signed in the US [7] | The law is rewritten after the case. |
-| Sep 2021 | Remaining US charges dismissed [6] | No US FGM conviction stands. |
+| Sep 2021 | Remaining US charges (conspiracy, false statements, witness tampering) dismissed; the judge found a vindictive prosecution [6][32] | No US FGM conviction stands. |
 | 2023 | Supreme Court refers the excommunication question to nine judges [2] | The 1962 ruling is in doubt. |
-| 2024 | Bombay High Court dismisses the succession challenge; appeal filed [4] | A secular court confirms the religious apex. |
+| 2024 | Bombay High Court dismisses the succession challenge [4][30]; the appeal is admitted by a Division Bench in December and remains pending [31] | A secular court confirms the religious apex. |
+| 2026 | The nine-judge bench hearing the Sabarimala reference reserves judgment (14 May) [29] | The excommunication and khatna questions wait on it; no judgment had been reported when this page was last checked. |
 
 ### Moments in the room
 
@@ -116,7 +117,7 @@ The community descends from the Fatimid Ismaili tradition (the Ismaili caliphate
 
 ## 6. Branches & variants {#branches}
 
-The community has a Dawoodi majority, two historical splits (the Sulaymani and Alavi Bohras) [14], the Progressive Dawoodi Bohras, and the Qutbi line that contested the 2014 succession [4].
+The community has a Dawoodi majority, two historical splits (the Sulaymani and Alavi Bohras) [14][25], the Progressive Dawoodi Bohras, and the Qutbi line that contested the 2014 succession [4].
 
 | Branch | Where | What differs on this page's questions |
 |---|---|---|
@@ -124,7 +125,7 @@ The community has a Dawoodi majority, two historical splits (the Sulaymani and A
 | **Sulaymani Bohra** | Yemen, and a smaller Indian community [25] | Followed the rival claimant in 1592 [25]. |
 | **Alavi Bohra** | Gujarat [25] | Split from the Dawoodi in 1621 [25]. |
 | **Progressive Dawoodi Bohras** | India and diaspora | They are a reform movement inside the community since the 1970s, demanding accountable finances and an end to excommunication, and their leader was expelled in 2004 [13][20]. |
-| **The 2014 succession dispute** | India | A rival claim to the office after the 52nd dai's death was dismissed by the Bombay High Court in 2024 [4]. |
+| **The 2014 succession dispute** | India | A rival claim to the office after the 52nd dai's death was dismissed by the Bombay High Court in 2024, and an appeal is pending [4][31]. |
 
 ## 7. Structure {#structure}
 
@@ -132,15 +133,15 @@ The community has a Dawoodi majority, two historical splits (the Sulaymani and A
 
 - **adherents:** The community has about 1 million adherents [15].
 - **regions:** The community is found in India (Mumbai, Surat, Gujarat), Pakistan (Karachi), East Africa, the Gulf, the United Kingdom, the United States, Canada and Australia.
-- **branches:** The community has a Dawoodi majority, two historical splits (the Sulaymani and Alavi Bohras) [14], the Progressive Dawoodi Bohras, and the Qutbi line that contested the 2014 succession [4].
-- **trend:** The community is stable and prosperous, with a strong diaspora.
+- **branches:** The community has a Dawoodi majority, two historical splits (the Sulaymani and Alavi Bohras) [14][25], the Progressive Dawoodi Bohras, and the Qutbi line that contested the 2014 succession [4].
+- **trend:** No independent figure for growth or prosperity is recorded on this page; the community describes itself as a worldwide body of about 1 million members [15].
 - **participation:** Participation is very high and institutionally recorded through the oath of allegiance (misaq), dues and functions [13][19].
 
 ### Authority
 
 - One Daʿi al-Mutlaq holds authority over religious and communal life [15].
 - Local communities (jamaats) are run by ʿamils appointed by the Daʿi. Permission (raza) is required for religious functions and life-cycle rites. Reform sources and litigants describe permission depending on paid dues [17][19].
-- An oath of allegiance (misaq) is taken before adulthood. The 1979 Nathwani Commission, appointed by the civil-society group Citizens for Democracy, called it "the main instrument" of control over the community [13].
+- An oath of allegiance (misaq) is taken before adulthood. The 1979 Nathwani Commission, appointed by the civil-society group Citizens for Democracy, is reported, in published summaries of its findings, to have called it "the main instrument" of control over the community [13].
 - The central administration (Dawat-e-Hadiyah) holds trusts, property and institutions [15].
 
 ### The top of the chain
@@ -151,7 +152,7 @@ One office, above every permission. A secular court confirmed who holds it.
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| Daʿi al-Mutlaq | Mufaddal Saifuddin, since 2014 [15] | Designation (nass) by the predecessor; contested, upheld by the Bombay High Court in 2024 (appeal filed) [4] | No one |
+| Daʿi al-Mutlaq | Mufaddal Saifuddin, since 2014 [15] | Designation (nass) by the predecessor; contested, upheld by the Bombay High Court in 2024 (appeal pending before a Division Bench) [4][31] | No one |
 
 ### Who holds what
 
@@ -165,10 +166,10 @@ One office, above every permission. A secular court confirmed who holds it.
 
 | Country | What the law says | Where it stands |
 |---|---|---|
-| **India — excommunication** | A 1949 Bombay law banning excommunication was struck down in 1962 as violating the community's religious freedom [1]; Maharashtra's 2016 law bans social boycott [3] | In 2023 the Supreme Court doubted its own 1962 precedent and sent the question to a larger bench [2][17] |
-| **India — khatna (FGC)** | India has no specific law on khatna, and a public-interest petition seeks a ban [12]. | The petition was referred to a nine-judge constitution bench, with survivors intervening [12][21]. |
+| **India — excommunication** | A 1949 Bombay law banning excommunication was struck down in 1962 as violating the community's religious freedom [1]; Maharashtra's 2016 law bans social boycott [3] | In 2023 the Supreme Court doubted its own 1962 precedent and sent the question to a larger bench, which reserved judgment in May 2026 [2][17][29] |
+| **India — khatna (FGC)** | India has no specific law on khatna, and a public-interest petition seeks a ban [12]. | The petition was referred to a nine-judge constitution bench, which reserved judgment on the reference in May 2026, with survivors intervening [12][21][29]. |
 | **United States — FGC** | The 1996 federal FGM law was ruled unconstitutional in the first prosecution (2018); the case ended in 2021 [5][6] | Congress replaced the law in 2021 (STOP FGM Act) [7] |
-| **Australia — FGC** | The High Court held in 2019 that the practice falls within the offence [8] | Retrials ordered, then the case was dropped in 2020 [9][10] |
+| **Australia — FGC** | The High Court held in 2019 that the practice falls within the offence [8] | Retrials ordered, then the Crown abandoned the case before any retrial in 2020 [9][10] |
 | **United Kingdom — FGC** | It is illegal, including taking a girl abroad for it, and specialist support exists [22][23]. | No prosecution involving the community is recorded on this page for the United Kingdom. |
 
 ### Who can compel an answer
@@ -180,7 +181,7 @@ Indian courts ([1][2][12]) and Maharashtra's boycott law [3] can compel an answe
 ### Where it comes from
 
 - The community collects annual dues (wajebaat) and other levies. Reformist accounts report that a card showing paid-up wajebaat is required for rites [19]. These mechanics come from reformist testimony; no primary source for them has been found.
-- The community runs large trusts and projects. The Saifee Burhani Upliftment Trust's redevelopment of Bhendi Bazaar, Mumbai covers about 16.5 acres, roughly 3,200 families and 1,250 shops, with a reported budget of about ₹4,000 crore [18].
+- The community runs large trusts and projects. The Saifee Burhani Upliftment Trust's redevelopment of Bhendi Bazaar, Mumbai covers about 16.5 acres, roughly 3,200 families and 1,250 shops, with an estimated cost of about ₹4,000 crore (Rs 40 billion) [18].
 - Interest-free loans (qardan hasana) are real welfare, administered inside the same structure [15].
 
 ### Follow the money
@@ -226,8 +227,8 @@ Members pay *wajebaat* and other dues to the office of the dai; no audited accou
 
 ### Children
 
-- **Khatna** (female genital cutting, usually around age seven): in Sahiyo's 2017 survey of 385 women, 80% said they had been cut, and 81% wanted the practice to end [11].
-- In India a petition to ban khatna is pending before a Constitution Bench; the community's defense argued it is an essential religious practice [12].
+- **Khatna** (female genital cutting, most often at six or seven): in Sahiyo's 2017 online survey of 385 women, 80% said they had been cut, and 81% wanted the practice to end [11][28].
+- In India a petition to ban khatna is pending, referred to a nine-judge Constitution Bench that reserved judgment on the reference in May 2026 [29]; the community's defense argued it is an essential religious practice [12].
 - The misaq is taken before adulthood [13].
 
 ### Bodies
@@ -246,7 +247,7 @@ Members pay *wajebaat* and other dues to the office of the dai; no audited accou
 | Devalue | Unpaid dues and questions are treated as breaches of the oath [13]. | Who decided what loyalty costs? |
 | Confuse | Khatna is called a "religious rite" at home, and members are told to "follow the law" abroad [16]. | Which is it? |
 | Isolate | Business, marriage and burial all take place inside the community [13]. | Where is outside? |
-| Extract | The office collects dues, permissions and loyalty [19]. | What does each permission cost? |
+| Extract | Reformist accounts say the office collects dues, permissions and loyalty [19]. | What does each permission cost? |
 | Discard | Baraat and boycott discard members [1][13][17]. | The 1962 ruling upheld the power, and the 2023 referral doubted it [2]. |
 | Replace | The office continues, as the court confirmed [4]. | The structure outlives every dissenter. |
 
@@ -256,34 +257,34 @@ Members pay *wajebaat* and other dues to the office of the dai; no audited accou
 |---|---|---|---|---|---|
 | 1 | Love bombing | Cultural | The community offers a warm, total embrace. | "Brotherhood." | Does it survive a question? |
 | 2 | Weaponized generosity | Documented | Loans and housing come from the office that disciplines [15][18]. | "Welfare." | Welfare that follows standing can be withdrawn with it. |
-| 3 | Future faking | Taught | Salvation is taught as coming through allegiance to the Daʿi. | "Faith." | It is unverifiable, and it is exclusive. |
+| 3 | Future faking | Cultural | Salvation is taught as coming through allegiance to the Daʿi. | "Faith." | It is unverifiable, and it is exclusive. |
 | 4 | Hoovering | Cultural | Families pull back those who drift. | "Family concern." | Concern that arrives with the ʿamil's message is enforcement. |
 | 5 | Devaluation | Documented | Breaches of the misaq are framed as spiritual failure [13]. | "Loyalty is a virtue." | Loyalty that cannot be withdrawn is capture. |
 | 6 | Gaslighting | Documented | Khatna is minimized as harmless against survivors' testimony [11]. | "It's minor." | Of the survey's respondents, 81% want it ended [11]. |
-| 7 | Double bind | Codified | An oath is sworn before adulthood and binds for life [13]. | "A sacred covenant." | A covenant made at thirteen is not an adult's choice. |
+| 7 | Double bind | Documented | An oath is sworn before adulthood and binds for life [13]. | "A sacred covenant." | A covenant made before adulthood is not an adult's choice. |
 | 8 | Intermittent reinforcement | Cultural | Favor and permissions go to loyal families. | "Rewarding devotion." | Permission as reward teaches obedience. |
 | 9 | Moving the goalposts | Documented | Khatna is a "religious rite" at home and "follow the law" abroad [16]. | "Local law differs." | The girls' bodies do not. |
-| 10 | Strategic ambiguity | Documented | Khatna's status is left unrenounced in writing everywhere [16]. | "It is a private family matter." | Then renounce it publicly. |
+| 10 | Strategic ambiguity | Contested | No written renunciation of khatna covering every country is recorded on this page [16]. | "It is a private family matter." | Then renounce it publicly. |
 | 11 | Projection | Cultural | Reformers are labelled divisive [13]. | "Unity matters." | The division is the boycott. |
 | 12 | DARVO | Documented | Survivors who speak out are accused of defaming the community [11]. | "Protecting our name." | The name is protected by ending the practice. |
-| 13 | Normalization | Documented | Khatna at seven is treated as a family rite [11]. | "Tradition." | Tradition is not consent. |
+| 13 | Normalization | Documented | Khatna, most often at six or seven, is treated as a family rite [11][28]. | "Tradition." | Tradition is not consent. |
 | 14 | Isolation | Documented | Business, marriage and burial take place inside the community [13]. | "Community life." | It is a world with no outside door. |
 | 15 | Triangulation | Cultural | The mother-in-law, the ʿamil and the community align. | "Everyone agrees." | Everyone in the triangle is inside. |
 | 16 | Flying monkeys | Documented | Boycotts are enforced by members [13]. | "Members choose." | The institution never has to act. |
-| 17 | Smear campaign | Documented | Reformers are vilified and assaulted, per the 1979 testimony [13]. | "Individuals acted." | The Commission heard hundreds of accounts [13]. |
+| 17 | Smear campaign | Documented | Reformers are vilified and assaulted, per the 1979 testimony [13]. | "Individuals acted." | The Commission recorded reformists' testimony of boycott and assault [13]. |
 | 18 | Stonewalling | Documented | Litigation ran for decades before any reconsideration [1][2]. | "The courts decided." | The courts are now deciding again [2]. |
-| 19 | Manufactured consent | Codified | The misaq is taken before adulthood [13]. | "Freely sworn." | It is sworn by a child. |
+| 19 | Manufactured consent | Documented | The misaq is taken before adulthood [13]. | "Freely sworn." | It is sworn by a child. |
 | 20 | Trauma bonding | Cultural | Shared grief (Muharram) and belonging bind members to the office. | "Faith unites us." | Members are united with each other, not with the ʿamil. |
-| 21 | Learned helplessness | Documented | Every life event needs permission [17][19]. | "Order." | Order that cannot be refused teaches people not to try. |
-| 22 | Benevolent control | Taught | Permissions are framed as spiritual care. | "Guidance." | Guidance that can refuse a funeral is power. |
+| 21 | Learned helplessness | Contested | Reformist accounts say every life event needs permission [17][19]. | "Order." | Order that cannot be refused teaches people not to try. |
+| 22 | Benevolent control | Cultural | Permissions are framed as spiritual care. | "Guidance." | Guidance that can refuse a funeral is power. |
 | 23 | Infantilization | Documented | Adults seek permission for life events [17]. | "Humility." | Adults don't need a slip to marry or to bury. |
 | 24 | Identity erosion | Cultural | Selfhood is fused with allegiance. | "Faith is identity." | If it cannot leave, it was assigned. |
 | 25 | Spiritual bypassing | Cultural | Harm is answered with calls for loyalty. | "Trust the Daʿi." | Trust is not a remedy. |
-| 26 | Financial control | Documented | Dues are tied to permissions [19]. | "Religious obligation." | Publish the accounts. |
+| 26 | Financial control | Contested | Reformist accounts tie dues to permissions [19]. | "Religious obligation." | Publish the accounts. |
 | 27 | Manufactured crisis | Cultural | Outside threats are cited against reformers. | "We are under attack." | The reformers are family. |
 | 28 | Discard | Documented | Members are discarded through baraat [1][13][17]. | "Only for grave breaches." | Who decides, and can you reply? |
 | 29 | Replacement | Cultural | The office and the community continue unchanged [4]. | "The community endures." | It endures without the ones it removed. |
-| 30 | Plausible deniability | Documented | The phrase "families decide khatna" places the decision with families. | "The institution does not perform it." | It has defended it in court [12] and from the pulpit [16]. |
+| 30 | Plausible deniability | Contested | Responsibility is placed with families and individual cutters rather than the institution; no source on this page records that framing. | "The institution does not perform it." | It has defended it in court [12] and from the pulpit [16]. |
 
 ## 13. The loops {#loops}
 
@@ -338,11 +339,11 @@ The fear of losing the Daʿi's favor, and with it burial in the community, keeps
 ::: card
 #### 3 · Children
 
-The oath (misaq) is taken before adulthood [13], and khatna is done around age seven [11].
+The oath (misaq) is taken before adulthood [13], and khatna is most often done at six or seven [28].
 
 **How it runs.**
 
-1. Khatna is performed on girls around age seven, before consent is possible (sections 11 and 17).
+1. Khatna is performed on girls, most often at six or seven, before consent is possible (sections 11 and 17).
 2. The misaq, an oath of allegiance, is taken before adulthood (section 7).
 3. The oath binds for life, and breaches of it are framed as spiritual failure (section 12, techniques 5 and 7).
 4. The girls grow up in a community where khatna is attributed to mothers and grandmothers (section 15).
@@ -382,18 +383,18 @@ Welfare and redevelopment build loyalty and public standing [18].
 ::: card
 #### 5 · Labor
 
-Community labor for events and trusts keeps the institution running.
+Participation in religious functions and trusts is recorded on this page (sections 2 and 7); whether it amounts to unpaid or organised labor is not recorded on this page.
 
 **How it runs.**
 
 1. Participation is very high and institutionally recorded (section 7).
 2. The community holds religious functions, such as the Muharram majlis, on a large scale (section 2).
 3. Trusts run redevelopment, loans and welfare (sections 7 and 9).
-4. The events and trusts depend on that participation.
+4. How far the events and trusts depend on that participation is not recorded on this page.
 
 **Techniques that feed it.** [20 · Trauma Bonding](#techniques), [1 · Love Bombing](#techniques), [15 · Triangulation](#techniques).
 
-**Why it closes.** Belonging is expressed through service to the same institutions that grant standing, so contributing and belonging cannot be separated.
+**Why it closes.** Belonging is expressed through participation in the same institutions that grant standing, so participating and belonging are hard to separate (analysis; the page does not document labor as such).
 
 **Where it could be broken, and by whom.** It weakens where service is voluntary and standing does not depend on it. No section of this page documents unpaid labor in detail, so the steps above follow the functions the page does record. Members decide how much they give; the office decides whether standing depends on it. This paragraph is analysis, not a documented finding.
 
@@ -473,7 +474,7 @@ Anti-Shia and anti-minority hostility is invoked against reformers.
 
 - Excommunication (baraat) carries social boycott, including denial of mosque access and community burial [17].
   - The Bombay Prevention of Excommunication Act (1949) outlawed it. The Supreme Court of India struck the Act down in 1962 as infringing the community's right to manage its religious affairs [1].
-  - In 2023 a Constitution Bench doubted that ruling, holding that excommunication must be tested against "constitutional morality", and referred the question to the nine-judge bench hearing the Sabarimala matters [2].
+  - In 2023 a Constitution Bench doubted that ruling, holding that excommunication must be tested against "constitutional morality", and referred the question to the nine-judge bench hearing the Sabarimala matters [2]. That bench reserved judgment on 14 May 2026 [29].
 - Maharashtra's 2016 Act criminalizes social boycott generally [3].
 
 ### The ledger of exit
@@ -507,7 +508,7 @@ Anti-Shia and anti-minority hostility is invoked against reformers.
 
 ### Money out, leverage back
 
-- Every life event is a point of permission [17][19].
+- Reformist accounts describe every life event as a point of permission [17][19].
 - Welfare is administered by the same office that disciplines [15].
 - Excommunication has had constitutional protection since 1962, now under review [1][2].
 
@@ -545,9 +546,9 @@ Below the Daʿi, the work of permission and discipline is done by people who see
 
 1. ***Sardar Syedna Taher Saifuddin Saheb v. State of Bombay* (SC India, 9 Jan 1962)** [1]; **referral to a nine-judge bench (2023)** [2]. [COURT RECORD]
 2. ***United States v. Nagarwala* (E.D. Mich., 2017–21)** — FGM counts dismissed (2018) after the 1996 law was held unconstitutional [5]; remaining charges dismissed Sep 2021 [6]. [COURT RECORD]
-3. ***The Queen v A2; Magennis; Vaziri* [2019] HCA 35** [8] → **[2020] NSWCCA 7** (retrials ordered) [9] → charges dropped, 2020 [10]. [COURT RECORD]
+3. ***The Queen v A2; Magennis; Vaziri* [2019] HCA 35** [8] → **[2020] NSWCCA 7** (retrials ordered) [9] → charges abandoned by the Crown before any retrial, 2020 [10]. [COURT RECORD]
 4. ***Sunita Tiwari v. Union of India*** — referred to a Constitution Bench, 24 Sep 2018 [12]. [COURT RECORD]
-5. **Bombay High Court succession judgment, 23 Apr 2024** [4]. [COURT RECORD]
+5. **Bombay High Court succession judgment, 23 Apr 2024** (Suit No. 337 of 2014) [4][30]; appeal pending before a Division Bench [31]. [COURT RECORD]
 6. **Nathwani Commission report (1979)** [13]. [INVESTIGATIVE REPORT — non-governmental]
 
 
@@ -573,15 +574,15 @@ Three changes would revise this page: a written, universal renunciation of khatn
 
 - **Asghar Ali Engineer (1939–2013).** He was a scholar who led the reform movement, demanded accountable finances, was attacked at least six times, and was expelled in 2004 [20].
 - **Masooma Ranalvi and WeSpeakOut.** They are survivors who went public about khatna from 2015 and brought their stories to the Supreme Court [21].
-- **Sahiyo.** It is a survivor-led group whose 2017 survey found 80% of respondents had been cut and 81% wanted the practice ended [11][16].
+- **Sahiyo.** It is a survivor-led group whose 2017 survey found 80% of respondents had been cut and 81% wanted the practice ended [11][16][28].
 - **The Nathwani Commission (1979).** It was a citizens' inquiry into the community's governance, prompted by reformers [13].
 
 ## 22. Regional variants {#regional}
 
 ::: card
 ### India
-- **apex:** The Dai al-Mutlaq sits in Mumbai, and the Bombay High Court upheld his succession in 2024, with an appeal filed [4].
-- **law:** Excommunication has been protected as religious practice since 1962 and is now before a larger bench [1][2]; Maharashtra has a social-boycott law [3]; and khatna is before a nine-judge bench [12][21].
+- **apex:** The Dai al-Mutlaq sits in Mumbai, and the Bombay High Court upheld his succession in 2024, and an appeal is pending before a Division Bench [4][31].
+- **law:** Excommunication has been protected as religious practice since 1962 and is now before a nine-judge bench that reserved judgment in May 2026 [1][2][29]; Maharashtra has a social-boycott law [3]; and khatna is before a nine-judge bench [12][21].
 - **documented:** The Nathwani Commission (1979) [13] and the Sahiyo survey [11] document it.
 - **exit:** Excommunication (baraat) can cut a member off from family, mosque and burial [19].
 - **regulator:** The Supreme Court is the regulator, and it has twice been asked to decide [2][12].
@@ -595,14 +596,14 @@ Three changes would revise this page: a written, universal renunciation of khatn
 - **documented:** The first federal FGM prosecution took place in Detroit (2017–2021) [5][6].
 - **exit:** Members are legally free to leave.
 - **regulator:** Federal prosecutors act as regulator under the 2021 law [7].
-- **tell:** The first prosecution failed on a constitutional point, and Congress rewrote the law because of it.
+- **tell:** The first prosecution failed on a constitutional point, the later charges were dismissed as a vindictive prosecution [6][32], and Congress rewrote the law because of it.
 :::
 
 ::: card
 ### Australia
 - **apex:** Local jamaats sit under the dai.
 - **law:** The High Court ruled in 2019 that the practice is within the offence [8].
-- **documented:** The first FGM prosecution ended with convictions quashed, retrials ordered and charges dropped [8][9][10].
+- **documented:** The 2015 convictions were quashed on appeal in 2018; the High Court allowed the Crown's appeals in 2019, retrials were ordered and the Crown abandoned the case [8][9][10].
 - **exit:** Members are legally free to leave.
 - **regulator:** State police and prosecutors act as regulator.
 - **tell:** The highest court clarified the law; the case still ended without a conviction.
@@ -627,22 +628,22 @@ Three changes would revise this page: a written, universal renunciation of khatn
 Practical guidance, not legal advice.
 
 1. **Understand baraat.** Expulsion can mean exclusion from the mosque, the community's burial grounds and family events [19]; in Maharashtra, a social boycott is itself illegal [3].
-2. **Protect daughters from khatna.** It is illegal in the United Kingdom, the United States (since 2021) and Australia; specialist helplines exist [7][8][22].
+2. **Protect daughters from khatna.** It is illegal in the United Kingdom, the United States (federal law re-enacted in 2021) and Australia; specialist helplines exist [7][8][22].
 3. **Expect permissions to be withheld.** Marriage and burial permissions run through the dai's office [19].
 4. **Find others who have spoken out** [21][16].
 
 ## 25. Where to get help {#help}
 
-Checked 2026-09-27.
+Checked 2026-10-03.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
 | **WeSpeakOut** | Survivors of khatna; campaign and support | India and global | Contact is through the website [21]. |
 | **Sahiyo** | Survivor-led education and support on FGC | Global | Contact is through the website [16]. |
-| **NSPCC FGM Helpline** | Anyone worried a girl is at risk of FGM | UK (and from abroad) | **0800 028 3550**, free and anonymous [22] |
+| **NSPCC FGM Helpline** | Anyone worried a girl is at risk of FGM | UK (and from abroad) | **0800 028 3550**, free and anonymous; open 24 hours [22] |
 | **GOV.UK FGM help** | Protection orders, reporting, health care | UK | Contact is through the GOV.UK page [23]. |
-| **Faith to Faithless** | People leaving high-control religion | UK | Helpline [24] |
-| **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** [26] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [24] |
+| **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** (Mon–Fri, 9am–5pm; not a 24-hour line) [26] |
 
 ## 26. Sources {#sources}
 
@@ -656,7 +657,7 @@ Checked 2026-09-27.
 8. *The Queen v A2; The Queen v Magennis; The Queen v Vaziri* [2019] HCA 35 (16 Oct 2019). <https://www.hcourt.gov.au/sites/default/files/eresources/2019/HCA/35.pdf>
 9. Supreme Court of NSW, Justice R.A. Hulme, "Court of Criminal Appeal Round-up 2020" (discussing *A2 v R; Magennis v R; Vaziri v R* [2020] NSWCCA 7 — retrials ordered). <https://supremecourt.nsw.gov.au/documents/Publications/Speeches/2021-Speeches/Hulme_20210407.pdf>
 10. Illawarra Mercury / AAP, "Case dropped against trio accused of female genital mutilation in Wollongong," Mar 2020. <https://www.illawarramercury.com.au/story/6671992/case-dropped-against-trio-accused-of-female-genital-mutilation-in-wollongong/>
-11. SabrangIndia, "Bohra women want an end to the practice of 'female genital cutting': Sahiyo report," 2017 (385 respondents; 80% cut; 81% want it ended). <https://sabrangindia.in/bohra-women-want-end-practice-female-genital-cutting-sahiyo-report/>
+11. SabrangIndia, "Bohra women want an end to the practice of 'female genital cutting': Sahiyo report," 2017 (80% cut; 81% want it ended; the article does not state the sample size, which the full report gives as 385 women [28]). <https://sabrangindia.in/bohra-women-want-end-practice-female-genital-cutting-sahiyo-report/>
 12. *Sunita Tiwari v. Union of India*, order of 24 Sep 2018 — Indian Kanoon. <https://indiankanoon.org/doc/181206322/> — Supreme Court Observer case page: <https://www.scobserver.in/cases/sunita-tiwari-union-of-india-ban-on-female-genital-mutilation-case-background/>
 13. *Dawoodi Bohra Commission (Nathwani Commission): report of investigation conducted by the Commission appointed by the Citizens for Democracy…* (1979) — HathiTrust catalog record. <https://catalog.hathitrust.org/Record/000181699> — quotations are taken from published summaries; the full report text could not be read.
 14. History of the Tayyibi daʿwa and the 1592 split — reference summaries: Wikipedia, "Sulaymani Bohras" and "Tayyibi Ismaʿilism."
@@ -673,9 +674,16 @@ Checked 2026-09-27.
 25. Wikipedia, "Sulaymani Bohras" (the 1592 split over the 27th dai) and "Alavi Bohra" (split 1621) — reference works; no scholarly source on these dates could be read. <https://en.wikipedia.org/wiki/Sulaymani> · <https://en.wikipedia.org/wiki/Alavi_Bohra>
 26. Karma Nirvana, national Honour Based Abuse Helpline. <https://karmanirvana.org.uk/get-help/helpline/>
 27. Charity Commission for England and Wales, register entry: Anjuman-e-Burhani (London), charity no. 1078595 (accounts and trustees' annual report for the year to 31 Dec 2024, received on time; declared policies include "Safeguarding policy and procedures"). <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/3957573/full-print>
+28. Sahiyo, *Understanding Female Genital Cutting in the Dawoodi Bohra Community: An Exploratory Study* (online survey of 385 Dawoodi Bohra women, July 2015 to January 2016; corrected edition Dec 2018), listed on Sahiyo's resources page. <https://sahiyo.org/resources/sahiyo-resources.html> — the age at cutting (66% of respondents cut at six or seven) is reported by The News Minute, "'It scarred me for life': Dawoodi Bohra women speak out." <https://www.thenewsminute.com/news/it-scarred-me-life-dawoodi-bohra-women-speak-out-trauma-female-genital-cutting-57050>
+29. LiveLaw, "Sabarimala Reference: Supreme Court 9-Judge Bench Reserves Verdict After 16 Days Hearing," 14 May 2026. <https://www.livelaw.in/top-stories/supreme-court-sabarimala-reference-verdict-reserved-534228> — no judgment had been reported when searched in October 2026.
+30. *Taher Fakhruddin Saheb v. Mufaddal Burhanuddin Saifuddin*, Suit No. 337 of 2014, Bombay High Court (G.S. Patel J), 23 Apr 2024, 2024:BHC-OS:6579 — Indian Kanoon. <https://indiankanoon.org/doc/47458418/>
+31. LiveLaw, "Retired Bombay HC Judge, Family Face Threats and Attack Over Dawoodi Bohra Succession Verdict" (the judgment "is currently under challenge before a Division Bench"). <https://www.livelaw.in/amp/top-stories/retired-bombay-hc-judge-gs-patel-family-face-threats-and-attack-over-dawoodi-bohra-succession-verdict-537106> — and the Division Bench order of 17 Dec 2024 in Appeal No. 139 of 2024, as recorded in Wikipedia, "Taher Fakhruddin." <https://en.wikipedia.org/wiki/Taher_Fakhruddin>
+32. Michigan Public, "Judge dismisses charges in investigation of female genital mutilation," 29 Sep 2021. <https://www.michiganpublic.org/criminal-justice-legal-system/2021-09-29/judges-dismisses-charges-in-investigation-of-female-genital-mutilation>
+33. The Dawoodi Bohras (official site), "Dawoodi Bohra Women" — the community's own description of literacy and education; self-description, not independently checked. <https://www.thedawoodibohras.com/dawoodi-bohra-women/>
 
 ## 27. What changed on this page {#changed}
 
+- **2026-10-03:** Corrected the claim about community notices abroad to the one notice on record (Sydney, February 2016); regraded eight techniques whose evidence did not fit their grade and removed an unsourced quotation; replaced "around age seven" with the survey's six or seven; named the survey report, the succession judgment and the court reports behind several claims; recorded that the nine-judge bench reserved judgment in May 2026 and that the succession appeal is pending before a Division Bench; added the reason the 2021 Detroit charges were dismissed; said plainly that this page does not document unpaid labor; corrected help-line hours and the Faith to Faithless number.
 - **2026-09-27:** Added Branches, Law & state, Money in numbers, Voices from inside, three regional cards, Leaving safely and Where to get help; the 1592 and 1621 splits are sourced to reference summaries.
 - **2026-09-29:** Disclosure scorecard added: accounts and safeguarding are rated from the UK charity register [27]; leaders' pay, police-first reporting, a removal procedure and on-the-record replies are not established from any public source.
 

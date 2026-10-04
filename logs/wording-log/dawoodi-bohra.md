@@ -1,6 +1,6 @@
 # Wording log — dawoodi-bohra
 
-154 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/dawoodi-bohra.json`, then rebuild. Nothing else changes.
+152 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/dawoodi-bohra.json`, then rebuild. Nothing else changes.
 
 ## Fragments completed into sentences (125)
 
@@ -1674,7 +1674,7 @@
 
 *Reason:* SBUT is used here before it is named in section 9.
 
-## Proofreading (typos, punctuation, agreement) (8)
+## Proofreading (typos, punctuation, agreement) (6)
 
 ### DAW-P001 · md · §7 · proposed · build: applied
 
@@ -1725,30 +1725,6 @@
 > (385 respondents; 80% cut; 81% want it ended). <https://sabrangindia.in/bohra-women-want-end-practice-female-genital-cutting-sahiyo-report/>
 
 *Reason:* Build note printed in the source list ('to add') removed. The cited article does not state the sample size of 385; that is listed in the discrepancies file.
-
-### DAW-P005 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 6 documented cases
-
-**After**
-
-> These are not hypotheticals. Six documented cases
-
-*Reason:* Numeral at the start of a sentence spelled out.
-
-### DAW-P006 · narration · §22 · proposed · build: applied
-
-**Before**
-
-> This page covers India, United States and Australia.
-
-**After**
-
-> This page covers India, the United States and Australia.
-
-*Reason:* 'The United States' mid-sentence.
 
 ### DAW-P007 · narration · §23 · proposed · build: applied
 
