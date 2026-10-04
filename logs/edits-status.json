@@ -42349,6 +42349,1008 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "SCIF-D001",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D002",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D003",
+   "scope": "md",
+   "found": 2,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D004",
+   "scope": "md",
+   "found": 2,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D005",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D006",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D007",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D008",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D009",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D010",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D011",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D012",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D013",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D014",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D015",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D016",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D017",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D018",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D019",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D020",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D021",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D022",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D023",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D024",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D025",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D026",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D027",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D028",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D029",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D030",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D031",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D032",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D033",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D034",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D035",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D036",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D037",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D038",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D039",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D040",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D041",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D042",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D043",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D044",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D045",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D046",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D047",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D048",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D049",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D050",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D051",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D052",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D053",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D054",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D055",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D056",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D057",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D058",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D059",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D060",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D061",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D062",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D063",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D064",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D065",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D066",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D067",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D068",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D069",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D070",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D071",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D072",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D073",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D074",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D075",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D076",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D077",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D078",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D079",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D080",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D081",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D082",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D083",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D084",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D085",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D086",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D087",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D088",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D089",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D090",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D091",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D092",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D093",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D094",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D095",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D096",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D097",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D098",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D099",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D100",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D101",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D102",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D103",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D104",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D105",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D106",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D107",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D108",
+   "scope": "md",
+   "found": 2,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D109",
+   "scope": "md",
+   "found": 3,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D110",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D111",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D112",
+   "scope": "md",
+   "found": 2,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D113",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D114",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D115",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D116",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D117",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D118",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D119",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D120",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D121",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D122",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D123",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D124",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D125",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D126",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D127",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D128",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D129",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D130",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D131",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D132",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D133",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D134",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D135",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D136",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D137",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D138",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D139",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D140",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D141",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D142",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D143",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D144",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D145",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D146",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D147",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D148",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D149",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D150",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D151",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D152",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D153",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D154",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D155",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D156",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D157",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D158",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D159",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D160",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D161",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D162",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D163",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D164",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D165",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D166",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SCIF-D167",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "new-age": [

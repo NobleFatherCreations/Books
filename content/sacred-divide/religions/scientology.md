@@ -5,7 +5,7 @@ family: "New movements & the spiritual marketplace"
 family_id: new-movements
 family_members: [scientology, new-age, unification-church]
 version: v4
-checked: 2026-09-27
+checked: 2026-10-03
 sections_filled: 27/27
 missing: []
 partial: []
@@ -18,15 +18,15 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | The organization has claimed millions; independent estimates and census data suggest tens of thousands of active members worldwide — one of the largest claim/reality gaps in this codex. Census counts are small: 1,854 in England and Wales (2021), about 1,700 in Australia (2016), and 315 in New Zealand (2023). [GOVERNMENT REPORT: national census data] |
+| Size | The organization has claimed millions. No audited worldwide figure is cited on this page, and census counts record self-identification, not active membership. Census counts are small: 1,854 in England and Wales (2021), about 1,700 in Australia (2016) and 1,655 in 2021 [24], and 315 in New Zealand (2023). [GOVERNMENT REPORT: national census data] |
 | Who's in charge | David Miscavige has been Chairman of the Board of the Religious Technology Center (RTC) since 1987. RTC holds the trademarks and 'the tech' (the church's term for Hubbard's methods) itself, which makes its chairman the apex regardless of church presidencies. |
 | Chosen by / removable by | He assumed control after L. Ron Hubbard's death / No public record identifies any person or body with the power to remove him. In a corporate structure this thoroughly lawyered, that absence is itself the finding. |
-| Money in one line | Scientology is the most explicitly priced spiritual path in this codex. It sets fixed fees per level of auditing (the church's one-to-one counseling sessions), and the fees escalate to hundreds of thousands of dollars toward the upper levels. The International Association of Scientologists (IAS), the church's membership body, also raises funds beyond the price of services. [FINANCIAL RECORD / FORMER MEMBER TESTIMONY] |
-| Leaving in one line | The disconnection policy (cutting contact with a declared person) severs members from family declared 'suppressive' (labeled an enemy of the church). Sea Org members (the church's full-time staff order) who left were historically billed 'freeloader debt' (an invoice for training received). Litigation and surveillance of prominent critics are extensively documented. [COURT RECORD / INVESTIGATIVE REPORT] |
+| Money in one line | Scientology is the most explicitly priced spiritual path in this codex. It sets fixed fees per level of auditing (the church's one-to-one counseling sessions), and former members estimate that the fees reach hundreds of thousands of dollars toward the upper levels. The International Association of Scientologists (IAS), the church's membership body, also raises funds beyond the price of services. [FINANCIAL RECORD / FORMER MEMBER TESTIMONY] |
+| Leaving in one line | According to the founder's policy letters as quoted by former members and in reporting [10], the disconnection policy (cutting contact with a declared person) requires members to cut contact with family declared 'suppressive' (labeled an enemy of the church); the church says disconnection is voluntary [27]. Former Sea Org members (the church's full-time staff order) say they were billed 'freeloader debt' (an invoice for training received) on leaving [10]. Litigation against critics is a matter of court record; surveillance and harassment of critics are described by former members and in reporting. [COURT RECORD / INVESTIGATIVE REPORT / FORMER MEMBER TESTIMONY] |
 | The unanswered question | The church charges fixed prices for spiritual advancement and has had one chairman since 1987. Name the body and the procedure that could remove him. |
-| Evidence | Twelve of the 30 techniques are sourced to a named document. The grades are Codified 27 and Documented 3. |
+| Evidence | None of the 30 techniques is sourced to a named document. The grades are Codified 20, Documented 1 and Contested 9. |
 | Family | New movements & the spiritual marketplace — scientology, new-age, unification-church |
-| Last checked | 2026-09-27 |
+| Last checked | 2026-10-03 |
 :::
 
 ### Disclosure scorecard
@@ -56,7 +56,7 @@ At 11:50 in the berthing (the staff dormitory) he does the arithmetic he does no
 ## 3. The forefront {#forefront}
 
 ::: lede
-You may have taken a course that genuinely helped you concentrate, or handle a crisis, or stop drinking. That can be true. What is also true is that everything in this profile comes from the organization's own written policies and from court records — not from critics' opinions. Read it as documents, not as attack.
+You may have taken a course that genuinely helped you concentrate, or handle a crisis, or stop drinking. That can be true. What is also true is that most of what follows comes from court records, the organization's own written policies and published reporting; where a claim rests on former members' accounts, its receipt says so. Read it as documents, not as attack.
 :::
 
 ### The unanswered question
@@ -69,13 +69,13 @@ The church charges fixed prices for spiritual advancement and has had one chairm
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| Disconnection is a personal choice about toxic relationships. | Disconnection is set out in the founder's policy letters, which remain the organization's binding scripture. | [OFFICIAL POLICY] |
+| The church says disconnection is a personal choice about relationships [27]. | According to the founder's policy letters as quoted by former members and in reporting [10], members are required to cut contact with those declared suppressive. | [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT] |
 
 ### One cost of leaving, beside its denial
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Family (disconnection) | Yes — written policy | Members must sever contact with those declared suppressive, including parents, spouses, and children | “Disconnection is a personal choice about toxic relationships.” |
+| Family (disconnection) | Reported by former members and in reporting | According to the founder's policy letters as quoted by former members and in reporting [10], members are required to cut contact with those declared suppressive, family included | The church says disconnection is a personal choice [27]. |
 
 ### The strongest objection, answered
 
@@ -83,12 +83,12 @@ The church charges fixed prices for spiritual advancement and has had one chairm
 
 **What is true in it.** The organization did face genuine government hostility in its early decades, and members' beliefs are entitled to the same protection as anyone's.
 
-**The answer.** Every central claim here is either the founder's own policy letters — fair game (Hubbard's term for a declared enemy of the church), suppressive person, disconnection, freeloader debt — or a court record, including eleven federal convictions for infiltrating government agencies. The doctrine is not what is being examined. The procedure manual is.
+**The answer.** Every central claim here is attributed, in its receipt, to a court record, a policy letter, a news report or former members' accounts. The practices at issue are fair game (Hubbard's term for a declared enemy of the church), suppressive person, disconnection and freeloader debt; the court record includes eleven federal convictions arising from the infiltration of government agencies [26]. The doctrine is not what is being examined. The procedure is.
 
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-Scientology was founded by L. Ron Hubbard from Dianetics (his 1950 self-help system). It offers a graded path of auditing and training ('The Bridge') sold through churches and missions (smaller outreach churches). Its membership figures are contested: independent estimates run to tens of thousands of active members, against institutional claims of millions.
+Scientology was founded by L. Ron Hubbard from Dianetics (his 1950 self-help system). It offers a graded path of auditing and training ('The Bridge') sold through churches and missions (smaller outreach churches). Its membership figures are contested: the church has claimed millions, while census counts in the countries cited here run from the hundreds to the low thousands.
 :::
 
 - Independent-field Scientologists (practitioners outside the church's corporate control) demonstrate that the technique can be separated from the institution. Whistleblowers, many of whom still value parts of their experience, model leaving with integrity.
@@ -97,20 +97,20 @@ Section 3 records that a course may have helped a member concentrate, handle a c
 
 ## 5. History {#history}
 
-Scientology began in the United States in the 1950s, when self-help psychotherapy was rebranded as a religion (1953). Decades of conflict with governments followed. The 1993 IRS agreement granted full tax exemption after a campaign that included thousands of lawsuits against the agency. [INVESTIGATIVE REPORT: reported settlement terms; GOVERNMENT REPORT context]
+Scientology began in the United States in the 1950s, out of Dianetics, Hubbard's 1950 self-help system; the first church was founded in 1954 [9]. Decades of conflict with governments followed. The 1993 IRS agreement granted full tax exemption after a campaign that included thousands of lawsuits against the agency. [INVESTIGATIVE REPORT: reported settlement terms; GOVERNMENT REPORT context]
 
 ### Timeline
 
 ```timeline
-1950 | Dianetics: The Modern Science of Mental Health published | A commercial self-help system with paid practitioners — the business model precedes the religion.
-1952–1954 | Hubbard reframes the practice as Scientology; first Church founded 1954 | Religious status brings tax and legal advantages to an existing fee structure. [ACADEMIC SOURCE]
-1960s | Sea Org founded; policies on 'suppressive persons' and 'fair game' written | The founder established an internal security apparatus in writing. [OFFICIAL POLICY: Hubbard policy letters]
-1967 | IRS revokes tax exemption | Two decades of litigation follow.
-1973–1979 | Operation Snow White: infiltration of federal agencies; 11 senior Scientologists convicted including Hubbard's wife | The largest documented infiltration of the U.S. government by a private organization. [COURT RECORD]
+1950 | Dianetics: The Modern Science of Mental Health published | A self-help system sold before any church existed; critics argue the business model preceded the religion.
+1952–1954 | Hubbard reframes the practice as Scientology; first Church founded 1954 | The church was founded in 1954; its religious status carries the tax and legal protections that apply to churches [9].
+1960s | Sea Org founded; policies on 'suppressive persons' and 'fair game' written | The founder established an internal security apparatus in writing; in October 1968 he issued a letter ending the practice of declaring people 'fair game', and the church and critics differ on whether the policies behind it ended [19]. [OFFICIAL POLICY: Hubbard policy letters]
+1967 | IRS revokes tax exemption | More than two decades of litigation follow.
+1973–1979 | Operation Snow White: infiltration of federal agencies; 11 senior Scientologists convicted including Hubbard's wife | Eleven senior members were convicted in 1979, and Hubbard was named an unindicted co-conspirator [26]. [COURT RECORD]
 1986 | Hubbard dies; David Miscavige consolidates control of the Religious Technology Center | Authority passes to trademark control — the 'tech' is intellectual property.
-1993 | IRS grants full tax exemption after a campaign including thousands of suits against the agency and its personnel | The exemption was obtained through litigation pressure rather than ordinary review. [INVESTIGATIVE REPORT]
-1995–2000s | Lisa McPherson case (a church member who died in Clearwater, Florida, in 1995) and litigation; internet critics targeted | The 'fair game' pattern is documented in modern litigation. [COURT RECORD]
-2009–2015 | Mass defections of senior executives; investigative journalism and documentaries; Debbie Cook email | Former executives publicly documented the internal disciplinary apparatus (the Hole, an office building at the church's international base where former executives say they were confined; forced abortions alleged; disconnection). [INVESTIGATIVE REPORT / FORMER MEMBER TESTIMONY]
+1993 | IRS grants full tax exemption after a campaign including thousands of suits against the agency and its personnel | The exemption was granted in a 1993 closing agreement, after the church and its members had brought about 2,200 suits against the agency and its officials [2]. [INVESTIGATIVE REPORT]
+1995–2000s | Lisa McPherson case (a church member who died in Clearwater, Florida, in 1995) and litigation; internet critics targeted | Former members and critics describe a 'fair game' pattern; the church says Hubbard cancelled the label in 1968 [19]. A Texas appeals court held in 2015 that officials had no free-speech right to stalk Monique Rathbun, who had never been a member [20]. [FORMER MEMBER TESTIMONY / COURT RECORD]
+2007–2015 | Mass defections of senior executives; investigative journalism and documentaries; Debbie Cook email | Former executives publicly documented the internal disciplinary apparatus (the Hole, an office building at the church's international base where former executives say they were confined; forced abortions alleged; disconnection). [INVESTIGATIVE REPORT / FORMER MEMBER TESTIMONY]
 2010s–present | Membership decline widely reported while real-estate acquisition continues; 'Ideal Org' campaigns (drives to renovate and expand local churches) | The membership base is shrinking while the property portfolio expands. [INVESTIGATIVE REPORT]
 ```
 
@@ -119,9 +119,9 @@ Scientology began in the United States in the 1950s, when self-help psychotherap
 ::: card
 #### 1967–1993 — The exemption, lost and regained
 
-The IRS revoked the church's tax exemption in 1967. What followed included years of litigation and, as established in the Church's own subsequent disclosures and court records, extensive private investigation of officials. In 1993 the exemption was restored in a closing agreement whose terms were not initially made public.
+The IRS revoked the church's tax exemption in 1967. What followed included years of litigation and, as the New York Times reported in 1997, private detectives investigating agency personnel [2]. In 1993 the exemption was restored in a closing agreement whose terms were not initially made public.
 
-**Why it matters.** The regulator's decision was reversed after a campaign against the regulator. The 1993 agreement is a reviewable administrative decision, which is why the list in section 8 of bodies that can compel an answer starts with the IRS.
+**Why it matters.** The exemption was restored in 1993, after the church and its members had brought about 2,200 suits against the agency and its officials [2]. The 1993 agreement is a closing agreement with the IRS, final unless fraud, malfeasance or misrepresentation of a material fact is shown [18], and the IRS is the party to it, which is why the list in section 8 of bodies that can compel an answer starts with the IRS.
 :::
 
 ::: card
@@ -129,7 +129,7 @@ The IRS revoked the church's tax exemption in 1967. What followed included years
 
 An FBI raid uncovered a large-scale infiltration of US government agencies; eleven senior officials, including the founder's wife, were convicted. The founder was named an unindicted co-conspirator.
 
-**Why it matters.** This was the largest documented infiltration of the US government by a private organisation, and it was prosecuted and convicted. It is on the public record and it is not testimony.
+**Why it matters.** The convictions are on the public record and are not testimony; they show what eleven senior officials did [26].
 :::
 
 ::: card
@@ -137,11 +137,11 @@ An FBI raid uncovered a large-scale infiltration of US government agencies; elev
 
 David Miscavige consolidated control of the Religious Technology Center following Hubbard's death. No public record since identifies any person or body with the power to remove him.
 
-**Why it matters.** He has held the office for thirty-eight years with no published removal procedure. Every other apex in this codex at least names the body that theoretically could act.
+**Why it matters.** He has held the office for thirty-nine years with no published removal procedure. Every other apex in this codex at least names the body that theoretically could act.
 :::
 
 ::: cites
-Sources for this section: [1] [2] [9] [10]
+Sources for this section: [1] [2] [9] [10] [18] [19] [20] [26]
 :::
 
 ## 6. Branches & variants {#branches}
@@ -154,7 +154,7 @@ The branches are the corporate church under RTC; the 'independent field' or Free
 | **Independent field / "Free Zone"** | Worldwide, but small | Its practitioners work outside the corporate church. |
 | **Associated programmes** | Worldwide | These are drug-rehabilitation, education and anti-crime programmes linked to the church. |
 
-Census counts are small: 1,854 in England and Wales (2021), about 1,700 in Australia (2016) and 315 in New Zealand (2023) [7][8].
+Census counts are small: 1,854 in England and Wales (2021), about 1,700 in Australia (2016) and 1,655 in 2021 [24] and 315 in New Zealand (2023) [7][8].
 
 ## 7. Structure {#structure}
 
@@ -162,10 +162,10 @@ Census counts are small: 1,854 in England and Wales (2021), about 1,700 in Austr
 
 |  |  |
 |---|---|
-| Adherents | The organization has claimed millions; independent estimates and census data suggest tens of thousands of active members worldwide — one of the largest claim/reality gaps in this codex. Census counts are small: 1,854 in England and Wales (2021), about 1,700 in Australia (2016), and 315 in New Zealand (2023). [GOVERNMENT REPORT: national census data] |
+| Adherents | The organization has claimed millions. No audited worldwide figure is cited on this page, and census counts record self-identification, not active membership. Census counts are small: 1,854 in England and Wales (2021), about 1,700 in Australia (2016) and 1,655 in 2021 [24], and 315 in New Zealand (2023). [GOVERNMENT REPORT: national census data] |
 | Regions | The church is concentrated in the United States (Los Angeles and Clearwater, Florida), the United Kingdom, Australia, Canada, South Africa, Taiwan, Israel, Hungary and Italy, and is small elsewhere. |
 | Trend | Active membership has declined, which is well documented, while the church continues to accumulate assets; second-generation retention is poor. [INVESTIGATIVE REPORT] |
-| Participation | Nearly all participants are institutionally active — there is no cultural or nominal Scientology population. Everyone counted is inside the fee structure. |
+| Participation | Nearly all active participants are inside the fee structure; census figures also count lapsed members. |
 
 ### Authority
 
@@ -180,7 +180,7 @@ One man has held the chair since 1987, and no mechanism for removing him is visi
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
 | Chairman of the Board, Religious Technology Center | David Miscavige has held it since 1987. RTC holds the trademarks and 'the tech' itself, which makes its chairman the apex regardless of church presidencies. | He assumed control after L. Ron Hubbard's death. | No public record identifies any person or body with the power to remove him. In a corporate structure this thoroughly lawyered, that absence is itself the finding. |
-| Church of Scientology International | A president fronts the church publicly; the organization chart above that office is not published. | RTC chooses the holder. | RTC can remove the holder. |
+| Church of Scientology International | A president fronts the church publicly; the organization chart above that office is not published. | Not recorded on this page. | Not recorded on this page. |
 
 ::: tell
 Ask the accountability question here and the sentence has no object: removable by whom, under what procedure, recorded where? The silence is complete, and it is the exhibit.
@@ -191,16 +191,16 @@ Ask the accountability question here and the sentence has no object: removable b
 | Entity | Type | Holder | Holds | Why it matters to you | Receipt |
 |---|---|---|---|---|---|
 | Religious Technology Center | Trademark and doctrinal control | David Miscavige, Chairman of the Board, holds it. | It holds the trademarks, the technology, and total centralized authority. | Everything depends on it, by written policy. | [FINANCIAL RECORD: corporate filings / COURT RECORD] |
-| Church of Spiritual Technology | Archival and asset entity | Organizational trustees hold it. | It holds the copyrights and the archival projects. | It owns the texts themselves, as property. |  |
-| Author Services Inc. | Commercial | Organizational management holds it. | It holds the literary and estate interests of the founder. | It is where the royalties go. |  |
-| The Bridge to Total Freedom price schedule | Published fee structure | Local orgs and advanced organizations administer it. | It sets fixed prices per level, escalating into six figures. | It shows what spiritual advancement costs, in dollars, in writing. | [FINANCIAL RECORD / FORMER MEMBER TESTIMONY] |
-| Front organizations | Undisclosed affiliation | Programme directors who are organizational officers run them. | They run drug rehabilitation, education, and criminal-justice programmes that enter schools, prisons, and public health systems. | Programmes in your child's school appear with the affiliation omitted. | [INVESTIGATIVE REPORT] |
-| The Sea Org | Staff order | Organizational management runs it. | It holds billion-year contracts, nominal stipends, and freeloader debt invoiced on departure. | It imposes an exit fee, the only one in this codex. | [FORMER MEMBER TESTIMONY / COURT RECORD] |
-| The 1993 IRS exemption | Tax status | The organization holds it. | It is a full charitable exemption obtained after a litigation campaign against the agency and its personnel. | It means your taxes subsidize a fixed-price service business. | [INVESTIGATIVE REPORT] |
-| Operation Snow White convictions | Adjudicated conduct | Eleven senior members were convicted, including the founder's wife. | It was the largest documented infiltration of the U.S. federal government by a private organization. | It is proof of what the policy authorizes. | [COURT RECORD] |
+| Church of Spiritual Technology | Archival and asset entity | Organizational trustees hold it. | Named here as a church entity; this page cites no source for its holdings. | Not established on this page. | — |
+| Author Services Inc. | Commercial | Organizational management holds it. | Named here as a church entity; this page cites no source for its holdings. | Not established on this page. | — |
+| The Bridge to Total Freedom fee schedule | Fee structure the church calls fixed donations | Local orgs and advanced organizations administer it. | It sets fixed donations per level [25]; former members describe them escalating into six figures [10]. | According to former members and reporting, it shows what spiritual advancement costs in dollars. | [COURT RECORD / FORMER MEMBER TESTIMONY] |
+| Front organizations | Affiliated programmes | Programme directors who are organizational officers run them. | They run drug rehabilitation, education, and criminal-justice programmes that operate in schools, prisons, and public health settings. | Some programmes have been alleged to operate without naming their link to the church; this page names no report. | [PATTERN OBSERVED] |
+| The Sea Org | Staff order | Organizational management runs it. | It holds billion-year contracts, nominal stipends, and freeloader debt invoiced on departure. | Former staff say it imposes an exit fee [10]. | [FORMER MEMBER TESTIMONY / COURT RECORD] |
+| The 1993 IRS exemption | Tax status | The organization holds it. | It is a full tax exemption, granted in a closing agreement after the church and its members had brought about 2,200 suits against the agency and its officials [2]. | Like any church's exemption, it is a public tax benefit; this page records no published accounts for the church. | [INVESTIGATIVE REPORT] |
+| Operation Snow White convictions | Adjudicated conduct | Eleven senior members were convicted, including the founder's wife. | Eleven senior members were convicted in 1979 of crimes arising from the infiltration of U.S. federal agencies [26]. | The convictions show what eleven senior officials did. | [COURT RECORD] |
 
 ::: cites
-Sources for this section: [2] [7] [8] [9]
+Sources for this section: [2] [7] [8] [9] [24] [25] [26]
 :::
 
 ## 8. Law & state here {#law}
@@ -209,26 +209,26 @@ Sources for this section: [2] [7] [8] [9]
 |---|---|---|
 | **United States — tax** | The IRS revoked exemption in 1967 and granted it in 1993 [9] | The church paid $12.5 million under the closing agreement, after it and its members had brought about 2,200 suits against the agency [2] |
 | **United States — arbitration** | Membership contracts include religious arbitration [3][4] | A federal appeals court enforced it against former members (2021) [4]; California's courts refused to for claims arising after members left (2022) [3] |
-| **United States — criminal** | Ordinary criminal law applies. | Eleven church officials were convicted over Operation Snow White (1979) [1]. Actor Danny Masterson was sentenced in 2023 for raping two women, both former members, and his appeal is pending [5]. |
+| **United States — criminal** | Ordinary criminal law applies. | Eleven church officials were convicted over Operation Snow White (1979) [1][26]. Actor Danny Masterson was sentenced in 2023 for raping two women, both former members, and his appeal was set for oral argument in June 2026 [21]. |
 | **France** | Fraud law applies [11][12]. | The Paris Celebrity Centre and bookshop were convicted of "organised fraud" in 2009 and fined €600,000; the highest court upheld it in 2013 [11][12] |
-| **Germany** | The domestic intelligence service monitors it in several states [6]. | It is treated as a concern for the constitutional order [6]. |
+| **Germany** | In labour law the Federal Labour Court (1995) treated Scientology organisations as commercial [6]. | The federal constitutional-protection office ended its separate nationwide observation of Scientology on 15 May 2026; Bavaria continues to monitor it [22][23]. |
 
 ### Who can compel an answer
 
-The IRS can compel an answer, because its 1993 exemption remains a reviewable decision. So can consumer-protection authorities, the courts, and the foreign regulators and tribunals that have already ruled on status and conduct in their own jurisdictions.
+The IRS is the first body that can ask: it is the party to the 1993 closing agreement, which is final unless fraud, malfeasance or misrepresentation of a material fact is shown [18]. So can consumer-protection authorities, the courts, and the foreign regulators and tribunals that have already ruled on status and conduct in their own jurisdictions.
 
 ## 9. Money {#money}
 
 ### Where it comes from
 
-- Scientology is the most explicitly priced spiritual path in this codex. It sets fixed fees per auditing level, and the fees escalate to hundreds of thousands of dollars toward the upper levels. The IAS also raises funds beyond the price of services. [FINANCIAL RECORD / FORMER MEMBER TESTIMONY]
+- Scientology is the most explicitly priced spiritual path in this codex. It sets fixed fees per auditing level, and former members estimate that the fees reach hundreds of thousands of dollars toward the upper levels. The IAS also raises funds beyond the price of services. [FINANCIAL RECORD / FORMER MEMBER TESTIMONY]
 - Real-estate 'Ideal Org' campaigns extract further capital from membership. [INVESTIGATIVE REPORT]
 
 ### Follow the money
 
 | Flow | Stated purpose | How it controls | Who benefits |
 |---|---|---|---|
-| Auditing and course fees by level | The stated purpose is spiritual advancement up the Bridge. | It is the most explicitly priced salvation in this codex, with fixed price lists escalating to six figures for upper levels. | The corporate church benefits. [FINANCIAL RECORD / FORMER MEMBER TESTIMONY] |
+| Auditing and course fees by level | The stated purpose is spiritual advancement up the Bridge. | It is the most explicitly priced salvation in this codex, with fixed donations set out in schedules [25] that former members describe escalating to six figures for upper levels [10]. | The corporate church benefits. [FINANCIAL RECORD / FORMER MEMBER TESTIMONY] |
 | International Association of Scientologists donations | The stated purpose is to defend and expand the religion. | Giving is status-tiered (patron levels), with heavy event pressure well beyond service costs. | IAS funds and the central organization benefit. |
 | 'Ideal Org' building campaigns | The stated purpose is model churches worldwide. | Members are pressured into loans and second mortgages for buildings that remain organizational property. | The organization's real-estate portfolio benefits. [INVESTIGATIVE REPORT] |
 | Sea Org labor | The stated purpose is dedicated religious service. | The labor is full-time, at nominal weekly stipends, under billion-year contracts. | The organization benefits exclusively. |
@@ -239,13 +239,13 @@ The IRS can compel an answer, because its 1993 exemption remains a reviewable de
 ::: card
 #### Unpaid labor to titled property
 
-**Source.** The labor is volunteer construction, service and administration.
+**Source.** The source is members' donations and loans for building campaigns.
 
-**Path.** Local congregation builds → Title held centrally → Sale or leverage at market value
+**Path.** Local members fund 'Ideal Org' buildings → Buildings remain organizational property
 
-**Disclosed.** Nothing is disclosed about proceeds.
+**Disclosed.** This page records no proceeds.
 
-**Hidden.** Sale values and their destination stay hidden.
+**Hidden.** This page records no sale of Ideal Org property.
 :::
 
 ::: card
@@ -255,21 +255,21 @@ The IRS can compel an answer, because its 1993 exemption remains a reviewable de
 
 **Path.** Local org → Central organization → Real-estate and reserve entities
 
-**Disclosed.** Price lists are disclosed.
+**Disclosed.** The donation levels are set out in schedules [25]; this page does not show them published.
 
-**Hidden.** Everything downstream of them stays hidden.
+**Hidden.** This page records no accounts for what happens downstream.
 :::
 
 ::: card
 #### Front organization
 
-**Source.** The source is public institutions and unaware participants.
+**Source.** The source is public institutions and programme participants.
 
-**Path.** Unbranded programme → Parent religious organization → Recruitment and legitimacy
+**Path.** Programme → Parent religious organization → Recruitment and legitimacy
 
 **Disclosed.** Programme materials are disclosed.
 
-**Hidden.** The affiliation stays hidden.
+**Hidden.** Whether the affiliation is named in each setting is not recorded on this page.
 :::
 
 ::: card
@@ -277,11 +277,11 @@ The IRS can compel an answer, because its 1993 exemption remains a reviewable de
 
 **Source.** The source is members buying required or recommended material.
 
-**Path.** Institutional publisher → Author-leaders and their estates → Broadcast and conference circuit
+**Path.** Institutional publisher → Entities holding the founder's literary interests
 
 **Disclosed.** Retail prices are disclosed.
 
-**Hidden.** Royalties to serving leaders and bulk-purchase practices stay hidden.
+**Hidden.** This page records no royalty flows.
 :::
 
 ::: card
@@ -289,15 +289,15 @@ The IRS can compel an answer, because its 1993 exemption remains a reviewable de
 
 **Source.** The source is general funds, that is, member giving.
 
-**Path.** Institutional counsel → Settlements and non-disclosure agreements → Reputational continuity
+**Path.** Institutional counsel → Settlements → Reputational continuity
 
 **Disclosed.** Settlement totals are occasionally disclosed under court order.
 
-**Hidden.** That donations funded the defense stays hidden.
+**Hidden.** Whether donations funded the defense is not recorded on this page.
 :::
 
 ::: cites
-Sources for this section: [10]
+Sources for this section: [10] [25]
 :::
 
 ### Money in numbers
@@ -305,18 +305,18 @@ Sources for this section: [10]
 - **IRS settlement (1993):** The church paid $12.5 million [2].
 - **France:** The Celebrity Centre and its bookshop were fined €600,000 for "preying financially on followers" in the 1990s [12].
 - **Auditing and donations:** Fees are fixed per level and fundraising campaigns run alongside them (see Money above), and former members describe "freeloader" debts for Sea Org members who leave [10].
-- **No public accounts:** As a church in the United States it files no public return [2][9].
+- **No public accounts on this page:** Sources [2] and [9] do not address whether the church files a public return, and this page cites no published accounts.
 
 ## 10. Genealogy {#genealogy}
 
 ::: card
 #### Fixed-price spiritual advancement
 
-**Origin.** Dianetics (1950) was a commercial practice with paid practitioners; religious status followed in 1953. The pricing preceded the religion. [ACADEMIC SOURCE]
+**Origin.** Dianetics was published in 1950 and the first church was founded in 1954 [9]. Critics argue that the fee structure preceded the religion.
 
-**What it was for.** There is no earlier tradition to appeal to. This was designed as a fee structure from the first year.
+**What it was for.** There is no earlier tradition to appeal to; critics argue it was designed as a fee structure from the first year.
 
-**Why that reason expired.** It was never a spiritual rationale. Every other tradition in this codex can at least point to an origin — a temple to build, a mendicant to feed. Here the price list is the founding document, escalating to six figures for upper levels.
+**Why that reason expired.** Critics argue it was never a spiritual rationale. Every other tradition in this codex can at least point to an origin — a temple to build, a mendicant to feed. Critics argue that here the fee structure is the founding document; former members describe it escalating to six figures for upper levels [10].
 
 **Who benefits now.** The corporate church benefits. It holds a monopoly on a product it defines, prices, and certifies, with full tax exemption. [FINANCIAL RECORD]
 :::
@@ -328,7 +328,7 @@ Sources for this section: [10]
 
 **What it was for.** It was presented as protecting a member's spiritual progress from hostile influences.
 
-**Why that reason expired.** It requires severing contact with parents, spouses, and children who are deemed suppressive — including for the act of asking questions. The organization publicly denies disconnection is required while its own policy letters instruct it. [FORMER MEMBER TESTIMONY / COURT RECORD]
+**Why that reason expired.** Former members and reporting say it requires severing contact with parents, spouses and children who are deemed suppressive, including for the act of asking questions [10]. The church says disconnection is voluntary [27]. [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT]
 
 **Who benefits now.** The organization benefits. It removes every relationship capable of offering a member an outside perspective.
 :::
@@ -340,7 +340,7 @@ Sources for this section: [10]
 
 **What it was for.** It was framed as defending the religion from persecution, and there was genuine early government hostility.
 
-**Why that reason expired.** Whatever the original grievance, the documented conduct includes infiltration of federal agencies, private investigators deployed against journalists, and litigation as attrition. The 1993 tax exemption followed a campaign including thousands of suits against the IRS and its personnel. [INVESTIGATIVE REPORT]
+**Why that reason expired.** Whatever the original grievance, the record includes the Snow White convictions, and former members and reporters describe private investigators deployed against critics and journalists and litigation as attrition [10]. The 1993 tax exemption followed a campaign including thousands of suits against the IRS and its personnel. [INVESTIGATIVE REPORT]
 
 **Who benefits now.** The organization benefits through immunity from scrutiny, funded by revenue the exemption protects.
 :::
@@ -352,7 +352,7 @@ Sources for this section: [10]
 
 **What it was for.** It was a committed religious order, comparable in framing to monastic vows.
 
-**Why that reason expired.** Monastic orders do not bill departing members. Former staff describe recruitment as minors, decades of labor at nominal stipends, and 'freeloader debt' invoiced on exit — a fee for leaving. That is not a vow; it is an indenture with a cancellation charge. [FORMER MEMBER TESTIMONY]
+**Why that reason expired.** Former staff describe recruitment as minors, decades of labor at nominal stipends and 'freeloader debt' invoiced on exit [10]. This page cites no response from the church to that description. [FORMER MEMBER TESTIMONY]
 
 **Who benefits now.** The organization benefits through its operating costs, which are staffed by a workforce that cannot afford to leave.
 :::
@@ -364,23 +364,21 @@ Sources for this section: [10]
 - 'Entheta' (the church's term for critical or negative material) and 'suppressive' classifications formally prohibit engaging with critical material, and internet filtering has been distributed to members. [OFFICIAL POLICY / INVESTIGATIVE REPORT]
 - Knowledge reports require members to report each other's doubts and deviations in writing — peer surveillance as written procedure. [OFFICIAL POLICY]
 - Confessional (auditing) folders contain members' most sensitive disclosures; former members allege their use for pressure. [FORMER MEMBER TESTIMONY]
-- Extensive litigation, private investigators, and harassment of critics and journalists are documented across decades. [COURT RECORD / INVESTIGATIVE REPORT]
+- Litigation against critics is a matter of court record; former members and reporters describe private investigators and harassment of critics and journalists across decades, and a Texas appeals court held in 2015 that officials had no free-speech right to stalk a critic's wife who had never been a member [20]. [COURT RECORD / INVESTIGATIVE REPORT]
 
 ### Children
 
-- Cadet Org (the Sea Org's program for children) and Sea Org recruitment of minors, with billion-year contracts signed by teenagers, is documented; child labor allegations have been raised in multiple jurisdictions. [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT]
+- Cadet Org (the Sea Org's program for children) and Sea Org recruitment of minors, with billion-year contracts signed by teenagers, are described by former members and in reporting [10]; child labor allegations have been raised, and this page records no finding on them. [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT]
 - Second-generation members raised inside report limited outside education and social contact. [FORMER MEMBER TESTIMONY]
-- Disconnection has been applied to minors' relationships with parents deemed suppressive. [FORMER MEMBER TESTIMONY]
+- Former members report that disconnection has been applied to minors' relationships with parents deemed suppressive. [FORMER MEMBER TESTIMONY]
 
 ### Bodies
 
 - Former Sea Org members have alleged pressure to abort pregnancies to maintain service availability — allegations reported by multiple independent former members and denied by the organization. [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT]
-- Leadership is male-dominated at the top, despite formal equality in doctrine.
-- Hubbard's writings on homosexuality (classified at the bottom of the 'tone scale', his ranking of emotional states) informed decades of practice; the organization's current position is officially non-discriminatory. [ACADEMIC SOURCE]
-- Reporting sexual assault to police rather than internal Ethics has been discouraged, per multiple former members and litigation. [COURT RECORD / FORMER MEMBER TESTIMONY]
+- Multiple former members say that reporting sexual assault to police rather than internal Ethics was discouraged, and the same is alleged in the civil suit *Bixler et al.*; these are allegations, and this page records no finding. [FORMER MEMBER TESTIMONY]
 
 ::: cites
-Sources for this section: [5] [10]
+Sources for this section: [5] [10] [20]
 :::
 
 ## 12. The 30 techniques {#techniques}
@@ -423,7 +421,6 @@ You are offered a free personality test that finds your ruin (the area of life t
 **How it shows here**
 
 - Scientology often begins with free or low-cost entry points: personality tests, stress tests, introductory lectures, basic courses, or promises to help with anxiety, relationships, work, or trauma.
-- The pattern begins with free or low-cost introductory auditing and courses, followed by steeply rising costs for advancement.
 - The early generosity creates the feeling of discovery: “Finally, someone understands my problem. Finally, there is a technology that can fix it.”
 - Once invested, the person faces escalating payments for auditing, courses, materials, ethics handling, Bridge progress, and status.
 - Help is targeted to the person’s “ruin,” meaning the gift is not random kindness. It is aimed at the wound most likely to produce dependence.
@@ -432,7 +429,7 @@ You are offered a free personality test that finds your ruin (the area of life t
 
 **The counter.** Voluntary payment is compromised when the institution first maps your vulnerability, offers the only solution, discourages outside criticism, and escalates costs after emotional investment. The first test is cheap because the real product is dependence.
 
-**Evidence grade.** [[Codified]] The free and low-cost entry offers and the rising prices of the later services are fixed in the organization's own course sequence and price lists.
+**Evidence grade.** [[Codified]] The free and low-cost entry offers and the sequence of paid services that follows are the organization's own course structure; the prices are reported by former members and in reporting [10].
 :::
 
 ### Stage 2 · Hook {#stage-2}
@@ -454,16 +451,15 @@ You are offered Going Clear (reaching the state of Clear, which the church defin
 
 - Scientology future-fakes through “Clear,” Operating Thetan levels, total freedom, spiritual power, heightened ability, removal of engrams (painful memories that Scientology says the reactive mind stores), and escape from the reactive mind (the part of the mind Scientology says drives irrational behavior).
 - The promise is staged like a commercial ladder: one course leads to another, one auditing package to another, one level to another.
-- The promised future is built as a ladder — “Going Clear,” then the Operating Thetan levels — with always one more level to purchase.
 - The person is told their current limitations come from hidden mental or spiritual material that only the technology can address.
 - Each breakthrough becomes proof that the next level is worth buying. Each failure means more auditing is needed.
-- The future is monetized with unusual precision. Freedom has invoices, routing forms, registrars, ethics cycles, and price lists.
+- The future is monetized with unusual precision. Freedom has invoices, routing forms, registrars, ethics cycles, and fixed donation schedules [25].
 
 **The strongest defense.** People continue Scientology services because they experience wins and want more progress.
 
 **The counter.** A “win” is the perfect hook because it proves just enough to keep the person buying. If total freedom is always ahead, never externally verifiable, and always requires the next paid step, then the Bridge is not a bridge. It is a conveyor belt.
 
-**Evidence grade.** [[Codified]] The Bridge to Total Freedom is a published sequence of levels with published prices and no demonstrated endpoint. *(sourced)*
+**Evidence grade.** [[Codified]] The Bridge to Total Freedom is the organization's own sequence of levels; the prices are reported by former members and in reporting [10], and the church calls the charges fixed donations [25].
 :::
 
 ::: tactic n=4
@@ -483,7 +479,7 @@ You are offered Going Clear (reaching the state of Clear, which the church defin
 
 **The counter.** Help is not help when the system defines leaving as evidence of spiritual defect or enemy influence. If every exit must be audited, handled, corrected, or punished, then the person was never free. They were managed.
 
-**Evidence grade.** [[Codified]] Ethics handling of doubt and the declaration of a leaver as a suppressive person are set out in the founder's policy letters; the calls, visits and offers of further courses described above are reported practice.
+**Evidence grade.** [[Contested]] The handling of doubt and the declaration of a leaver as a suppressive person are described as written policy [10]; the calls, visits and offers of further courses described above are reported by former members, and this page cites no church response.
 :::
 
 ### Stage 3 · Devalue {#stage-3}
@@ -513,7 +509,7 @@ You are told your case (your burden of unresolved mental material) is not flat, 
 
 **The counter.** Self-improvement becomes devaluation when the institution first convinces you that your mind is untrustworthy and then sells itself as the only repair system. If every objection proves you need more processing, the diagnosis is unfalsifiable — and profitable.
 
-**Evidence grade.** [[Codified]] The reactive mind and pre-clear status define the member by what has not yet been purchased. *(sourced)*
+**Evidence grade.** [[Codified]] The reactive mind and pre-clear status are the organization's own categories, and they define the member by what has not yet been purchased.
 :::
 
 ::: tactic n=6
@@ -533,7 +529,7 @@ You are told your case (your burden of unresolved mental material) is not flat, 
 
 **The counter.** A method becomes gaslighting when it never allows the method itself to be the problem. If every objection proves the objector needs more handling, then the system has built a perfect mirror that only reflects guilt back at the victim.
 
-**Evidence grade.** [[Codified]] The founder's texts define the member's mind as reactive until corrected by the tech, and the Stage 4 summary records, as official policy, that doubt is treated as the member's own case.
+**Evidence grade.** [[Codified]] The founder's texts define the member's mind as reactive until corrected by the tech, and the Stage 4 summary records that doubt is treated as the member's own case.
 :::
 
 ::: tactic n=7
@@ -579,7 +575,7 @@ Doubt is your own case. Criticism means you have overts (harmful acts you have c
 
 **The counter.** The success stories are the payout schedule's receipts. A ladder where relief is real, temporary, priced, and always one rung short of done is not a bridge; it is a toll road shaped like one.
 
-**Evidence grade.** [[Codified]] The ladder of levels and prices and the weekly statistics schedule are the organization's own written structure; the euphoric wins and the variable confirmation inside sessions are reported by members.
+**Evidence grade.** [[Contested]] The ladder of levels and the weekly statistics schedule are the organization's own structure; the euphoric wins, the variable confirmation inside sessions and the pricing of each rung are reported by members, and this page cites no church response.
 :::
 
 ::: tactic n=9
@@ -597,7 +593,7 @@ Doubt is your own case. Criticism means you have overts (harmful acts you have c
 
 **The counter.** Progression becomes moving the goalposts when freedom is always one paid level away. If failure always means buying more of the cure, the bridge is a conveyor belt.
 
-**Evidence grade.** [[Codified]] The sequence of courses, auditing and Operating Thetan levels, each with its own price, is the organization's own written structure, which makes the next level always the next purchase.
+**Evidence grade.** [[Codified]] The sequence of courses, auditing and Operating Thetan levels is the organization's own structure, which makes the next level always the next step.
 :::
 
 ::: tactic n=10
@@ -615,7 +611,7 @@ Doubt is your own case. Criticism means you have overts (harmful acts you have c
 
 **The counter.** Multipurpose identity becomes strategic ambiguity when the organization changes categories to gain protection and avoid accountability. If it sells therapy, claims religion, enforces discipline, and denies coercion, the ambiguity is not richness. It is armor.
 
-**Evidence grade.** [[Codified]] The organization's own materials present it as religion, self-help and applied philosophy, and the policy letters on disconnection are archived beside the public denial that disconnection is required.
+**Evidence grade.** [[Codified]] The organization's own materials present it as religion, self-help and applied philosophy; the church says disconnection is voluntary [27], while the policy letters as quoted by former members and in reporting require it [10].
 :::
 
 ::: tactic n=11
@@ -634,7 +630,7 @@ Doubt is your own case. Criticism means you have overts (harmful acts you have c
 
 **The counter.** That is projection in its purest form. If everyone who threatens the organization’s control is labeled suppressive, the label does not reveal danger. It conceals it.
 
-**Evidence grade.** [[Documented]] The Documented grade rests on the court record of Operation Snow White, in which eleven senior members were convicted of infiltrating federal agencies; the labeling of critics as suppressive persons is set out in the policy letters. *(sourced)*
+**Evidence grade.** [[Codified]] The labeling of critics as suppressive persons is described as set out in the founder's policy letters [10]. The Operation Snow White convictions show infiltration, not the accusation of critics for the organization's own conduct, and are not the basis of this grade.
 :::
 
 ::: tactic n=12
@@ -654,7 +650,7 @@ Doubt is your own case. Criticism means you have overts (harmful acts you have c
 
 **The counter.** Defense is not the same as retaliation. When criticism is answered by character assassination, disconnection, intimidation, or accusations of hidden crimes, the organization is not defending truth. It is reversing the crime scene.
 
-**Evidence grade.** [[Codified]] The labeling of critics as suppressive persons and the handling of complaints through Ethics are set out in written policy; the denial and reversal of blame in individual cases rests on member accounts. *(sourced)*
+**Evidence grade.** [[Contested]] The labeling of critics as suppressive persons and the handling of complaints through Ethics are described as written policy [10]; the denial and reversal of blame in individual cases rests on member accounts.
 :::
 
 ::: tactic n=13
@@ -674,7 +670,7 @@ Doubt is your own case. Criticism means you have overts (harmful acts you have c
 
 **The counter.** Structure becomes desensitization when invasive practices are repeated until they feel normal. If a person gets used to confession files, disconnection threats, and endless payments as spiritual progress, control has become routine.
 
-**Evidence grade.** [[Codified]] Entheta classification and knowledge reports are written procedure requiring members to report one another.
+**Evidence grade.** [[Codified]] Entheta classification and knowledge reports are described as written procedure requiring members to report one another [10].
 :::
 
 ### Stage 5 · Isolate {#stage-5}
@@ -682,7 +678,7 @@ Doubt is your own case. Criticism means you have overts (harmful acts you have c
 ::: stage
 **Your world narrows until every voice you hear is inside the system, and everything you came for now runs through a middleman.**
 
-Your world consists of courses, Ethics, knowledge reports, and a vocabulary no outsider understands. Critical material is entheta. Staff and Sea Org members have no outside income, credentials, or contacts.
+Your world consists of courses, Ethics, knowledge reports, and a vocabulary no outsider understands. Critical material is entheta. Former Sea Org members describe having no outside income, credentials or contacts [10].
 
 *What it asks of you:* You cannot discuss your doubts with anyone who is not required to report them.
 :::
@@ -704,7 +700,7 @@ Your world consists of courses, Ethics, knowledge reports, and a vocabulary no o
 
 **The counter.** That is the logic of isolation. If anyone who threatens the organization’s control can be labeled suppressive, then disconnection is not protection. It is a mechanism for cutting the member off from rescue.
 
-**Evidence grade.** [[Codified]] Disconnection and Suppressive Person handling are set out in the founder's policy letters, which remain the organization's scripture. *(sourced)*
+**Evidence grade.** [[Codified]] Disconnection and Suppressive Person handling are described as set out in the founder's policy letters, which remain the organization's scripture [10].
 :::
 
 ::: tactic n=15
@@ -726,7 +722,7 @@ Your world consists of courses, Ethics, knowledge reports, and a vocabulary no o
 
 **The counter.** A barrier-identification system becomes triangulation when every doubt is assigned to a third cause the organization controls. If your concern is never allowed to be about Scientology itself, but always about your engrams, crimes, words, or connections, the system has made reality inaccessible except through itself.
 
-**Evidence grade.** [[Codified]] Disconnection is set out in policy letters, which the organization denies while the letters remain archived.
+**Evidence grade.** [[Codified]] Disconnection is described as set out in policy letters [10]; the church says it is voluntary [27].
 :::
 
 ### Stage 6 · Extract {#stage-6}
@@ -734,9 +730,9 @@ Your world consists of courses, Ethics, knowledge reports, and a vocabulary no o
 ::: stage
 **Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
 
-Fixed price lists escalate into six figures. Donations are status-tiered beyond the cost of services. Members are pressed into loans and mortgages for buildings that stay organizational property. Sea Org labor is paid at nominal stipends under billion-year contracts. Your spouse writes knowledge reports about you. Auditing folders contain your most sensitive disclosures.
+Former members describe fixed charges escalating into six figures [10]. Donations are status-tiered beyond the cost of services. Members are pressed into loans and mortgages for buildings that stay organizational property. Sea Org labor is paid at nominal stipends under billion-year contracts. Your spouse writes knowledge reports about you. Auditing folders contain your most sensitive disclosures.
 
-*What it asks of you:* You were charged a fee to leave. There is no other institution in this codex that invoices departure, and it is written in policy.
+*What it asks of you:* Former staff say they were charged a fee to leave [10].
 :::
 
 ::: tactic n=16
@@ -774,7 +770,7 @@ Fixed price lists escalate into six figures. Donations are status-tiered beyond 
 
 **The counter.** Defense becomes smear when the organization attacks the person instead of the evidence. If every critic is suppressive, the label is not a warning. It is a reputation weapon.
 
-**Evidence grade.** [[Documented]] Fair game practice and litigation against critics established in court records across decades. *(sourced)*
+**Evidence grade.** [[Documented]] A Texas appeals court held in 2015 that officials had no free-speech right to stalk Monique Rathbun, who had never been a member [20]; the wider pattern of attacking critics rests on former members' accounts and reporting [10], and the church says Hubbard cancelled the label 'fair game' in 1968 [19].
 :::
 
 ::: tactic n=18
@@ -793,7 +789,7 @@ Fixed price lists escalate into six figures. Donations are status-tiered beyond 
 
 **The counter.** Procedure becomes stonewalling when it never allows Scientology itself to be the source. If every complaint is converted into a defect in the complainer, the institution has built a wall out of therapy-like process.
 
-**Evidence grade.** [[Documented]] Sustained non-response on matters of public concern, and litigation against those who ask, in court records. *(sourced)*
+**Evidence grade.** [[Contested]] Former members and critics describe sustained non-response to questions and litigation against those who ask; no court record is named here, and this page cites no church response.
 :::
 
 ::: tactic n=19
@@ -812,7 +808,7 @@ Fixed price lists escalate into six figures. Donations are status-tiered beyond 
 
 **The counter.** A sale is not clean consent when vulnerability is mapped, criticism is discouraged, costs escalate, and exit threatens relationships. If the system creates the problem, sells the cure, and controls the exit, consent is manufactured.
 
-**Evidence grade.** [[Codified]] The personality test that identifies the prospect's ruin is a written entry procedure; the billion-year Sea Org contracts, including those signed by minors, are documented in former staff testimony and organizational documents. *(sourced)*
+**Evidence grade.** [[Codified]] The personality test that identifies the prospect's ruin is described as a written entry procedure.
 :::
 
 ::: tactic n=20
@@ -831,7 +827,7 @@ Fixed price lists escalate into six figures. Donations are status-tiered beyond 
 
 **The counter.** Improvement becomes TRAUMA BONDING when the organization repeatedly creates or amplifies distress that only its paid system can relieve. If freedom always requires the next level, the relief is part of the trap.
 
-**Evidence grade.** [[Codified]] The Bridge's levels and prices are the organization's written structure, so the sequence of distress, payment and relief follows a fixed schedule; the experience of that cycle is reported by members.
+**Evidence grade.** [[Contested]] The Bridge's levels are the organization's structure; the sequence of distress, payment and relief, and the prices, are reported by members, and this page cites no church response.
 :::
 
 ::: tactic n=21
@@ -850,7 +846,7 @@ Fixed price lists escalate into six figures. Donations are status-tiered beyond 
 
 **The counter.** Procedures create LEARNED HELPLESSNESS when they never allow the procedure itself to be questioned. If every failed cure means more cure, the person is trapped inside a diagnostic loop.
 
-**Evidence grade.** [[Codified]] Standard tech forbids interpretation, locating assessment of the member's own mind in the organization. *(sourced)*
+**Evidence grade.** [[Codified]] Standard tech is described as forbidding interpretation, locating assessment of the member's own mind in the organization.
 :::
 
 ::: tactic n=22
@@ -869,7 +865,7 @@ Fixed price lists escalate into six figures. Donations are status-tiered beyond 
 
 **The counter.** Improvement becomes BENEVOLENT CONTROL when the system defines the problem, sells the cure, and controls the exit. If “help” requires money, secrecy, loyalty, and disconnection, it is not freedom. It is managed dependence.
 
-**Evidence grade.** [[Codified]] The fee schedules, IAS status tiers and Ideal Org campaigns through which payment is framed as investment in liberation are documented, as are the disconnection policy letters through which exclusion is framed as protection.
+**Evidence grade.** [[Contested]] Fee schedules, IAS status tiers and Ideal Org campaigns are described by former members and in reporting [10], and the disconnection policy through which exclusion is framed as protection is described in the policy letters as quoted there; whether they are framed as the entry says is read differently by members and critics.
 :::
 
 ::: tactic n=23
@@ -908,7 +904,7 @@ Fixed price lists escalate into six figures. Donations are status-tiered beyond 
 
 **The counter.** Discovery becomes IDENTITY EROSION when the institution owns the language of the self. If your memories, motives, flaws, relationships, and progress are all processed through Scientology categories, identity has been captured by the tech.
 
-**Evidence grade.** [[Codified]] Identity denominated in OT level and organizational rank, by written procedure. *(sourced)*
+**Evidence grade.** [[Codified]] Identity denominated in OT level and organizational rank, by written procedure.
 :::
 
 ::: tactic n=25
@@ -928,7 +924,7 @@ Fixed price lists escalate into six figures. Donations are status-tiered beyond 
 
 **The counter.** Progress becomes SPIRITUAL BYPASSING when the system can never be the problem. If every wound points back to the wounded person’s case, the tech has bypassed accountability completely.
 
-**Evidence grade.** [[Codified]] Reactive mind, engrams, overts and withholds are the organization's own defined categories, and the fee schedules, IAS status tiers and Ideal Org campaigns through which financial pressure is called investment in freedom are documented.
+**Evidence grade.** [[Codified]] Reactive mind, engrams, overts and withholds are the organization's own defined categories.
 :::
 
 ::: tactic n=26
@@ -947,7 +943,7 @@ Fixed price lists escalate into six figures. Donations are status-tiered beyond 
 
 **The counter.** Payment becomes FINANCIAL CONTROL when benefits are always incomplete and the next step always costs more. If total freedom is sold in installments, the Bridge is a billing structure with spiritual language.
 
-**Evidence grade.** [[Codified]] Fixed published price lists per level, plus freeloader debt invoiced to departing staff. *(sourced)*
+**Evidence grade.** [[Contested]] The church calls its charges fixed donations set out in schedules [25]; the escalating totals and the freeloader debt invoiced to departing staff are described by former staff and in reporting [10], and this page cites no church response.
 :::
 
 ### Stage 7 · Discard {#stage-7}
@@ -955,9 +951,9 @@ Fixed price lists escalate into six figures. Donations are status-tiered beyond 
 ::: stage
 **You become expensive — too many questions, too much independence — and the urgency ramps up until you are removed.**
 
-You are declared suppressive, disconnected from family and billed freeloader debt, and in documented cases you are surveilled and litigated against. [COURT RECORD]
+You are declared suppressive and, former members say, disconnected from family and billed freeloader debt; litigation against critics is a matter of court record [10]. [COURT RECORD / FORMER MEMBER TESTIMONY]
 
-*What it asks of you:* You are charged money for leaving. Say that out loud.
+*What it asks of you:* Former staff say they are charged money for leaving.
 :::
 
 ::: tactic n=27
@@ -976,7 +972,7 @@ You are declared suppressive, disconnected from family and billed freeloader deb
 
 **The counter.** Handling becomes MANUFACTURED CRISIS when the organization defines every problem as requiring more organization. If the same system diagnoses the emergency and sells the cure, urgency is a sales technique.
 
-**Evidence grade.** [[Codified]] The declaration of a suppressive person is a defined procedure with defined consequences, and doubt treated as suppressive influence is handled through it; the urgency in the sales approach rests on member accounts.
+**Evidence grade.** [[Contested]] The declaration of a suppressive person is described as a defined procedure with defined consequences; the claimed conduct, urgency in the sales approach and doubt treated as suppressive influence, rests on member accounts, and this page cites no church response.
 :::
 
 ::: tactic n=28
@@ -996,7 +992,7 @@ You are declared suppressive, disconnected from family and billed freeloader deb
 
 **The counter.** Protection becomes DISCARD when every critic becomes suppressive. If the organization must exile dissent to preserve itself, the label is not a safety tool. It is a disposal mechanism.
 
-**Evidence grade.** [[Codified]] Declaration of Suppressive Person is a defined procedure with defined consequences. *(sourced)*
+**Evidence grade.** [[Codified]] Declaration of Suppressive Person is described as a defined procedure with defined consequences [10].
 :::
 
 ### Stage 8 · Replace {#stage-8}
@@ -1004,7 +1000,7 @@ You are declared suppressive, disconnected from family and billed freeloader deb
 ::: stage
 **Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to Hubbard's writings.**
 
-A new recruit takes your course slot the next day. And the authority is Hubbard's technology, applied standardly, which cannot be interpreted, questioned, or amended by anyone alive.
+And the authority is Hubbard's technology, applied standardly, which cannot be interpreted, questioned, or amended by anyone alive.
 
 *What it asks of you:* A dead man's policy letters cannot be cross-examined. That is not a limitation of the system; it is the reason it works.
 :::
@@ -1025,7 +1021,7 @@ A new recruit takes your course slot the next day. And the authority is Hubbard'
 
 **The counter.** Service becomes REPLACEMENT when former members are demonized and new members are used as proof of health. If every critic is suppressive and every recruit is success, replacement is part of narrative control.
 
-**Evidence grade.** [[Codified]] The declaration of a leaver as a suppressive person is a defined procedure with defined consequences; the filling of the seat by newer recruits is stated in this entry without a source.
+**Evidence grade.** [[Contested]] The declaration of a leaver as a suppressive person is described as a defined procedure with defined consequences; that newer recruits fill the seat is stated in this entry without a source.
 :::
 
 ::: tactic n=30
@@ -1073,7 +1069,7 @@ Salvation is explicitly priced by the organization that defines the levels, and 
 
 **Where it could be broken, and by whom.** It weakens wherever the money becomes visible. Publication of the organization's accounts would show where the payments go, and that is in the organization's hands. A member can ask what the next level cost and who set that price, and can ask for audited statements (section 23). This paragraph is analysis, not a documented finding.
 
-**An example from this page.** The Bridge to Total Freedom price schedule is recorded as fixed prices per level, escalating into six figures (section 7). In France, former members said they were pressured into paying large sums for personality tests, "purification" packs and other services (section 19).
+**An example from this page.** The Bridge to Total Freedom price schedule is recorded as fixed prices per level, escalating into six figures (section 7). In France, a court found the Celebrity Centre and bookshop guilty of organised fraud for preying financially on followers (section 19).
 :::
 
 ::: card
@@ -1108,7 +1104,7 @@ Cadet Org and second-generation upbringing limit outside education and contact; 
 1. Children are raised inside the organization, and Cadet Org and Sea Org recruit minors (section 11).
 2. Second-generation members report limited outside education and social contact (sections 11 and 17).
 3. Teenagers have signed billion-year contracts (section 11).
-4. As adults they have no outside credentials, contacts or savings, which makes leaving costly, and departing staff are billed freeloader debt (sections 9, 17 and 18).
+4. As adults, former staff say, they have few outside credentials, contacts or savings, which makes leaving costly, and they say departing staff are billed freeloader debt (sections 9, 17 and 18).
 5. They remain as staff or members, and their own children are raised inside.
 
 **Techniques that feed it.** [14 · Isolation](#t-14), [19 · Manufactured Consent](#t-19), [23 · Infantilization](#t-23), [24 · Identity Erosion](#t-24).
@@ -1123,23 +1119,23 @@ Cadet Org and second-generation upbringing limit outside education and contact; 
 ::: card
 #### 4 · Aid to Legitimacy to Leverage to Aid
 
-Tax exemption obtained by litigation converts public subsidy into litigation capacity, which protects the exemption.
+An exemption restored after a litigation campaign, and revenue that funds more litigation, which protects the exemption.
 
 **How it runs.**
 
 1. The IRS revoked the church's tax exemption in 1967, and the church and its members brought about 2,200 suits against the agency (sections 5 and 8).
 2. In 1993 the exemption was restored in a closing agreement, and the church paid $12.5 million (sections 5 and 8).
-3. Section 16 records the exemption as a public subsidy of an organization that sells its services at fixed prices.
+3. Section 16 records the exemption as a public tax benefit held by an organization that charges fixed donations for its services.
 4. The revenue funds counsel and the litigation against critics (sections 9 and 16).
 5. Litigation and legal capacity protect the organization from scrutiny, and the exemption is retained.
 
 **Techniques that feed it.** [11 · Projection](#t-11), [12 · DARVO](#t-12), [17 · Smear Campaign](#t-17), [18 · Silent Treatment / Stonewalling](#t-18), [26 · Financial Control](#t-26).
 
-**Why it closes.** The exemption protects the revenue, the revenue funds the litigation, and the litigation defends the organization against the scrutiny that could revisit the exemption. Section 16 records the exemption as a subsidy that is not accompanied by any public accounts.
+**Why it closes.** The exemption protects the revenue, the revenue funds the litigation, and the litigation defends the organization against the scrutiny that could revisit the exemption. Section 16 records the exemption alongside the absence of published accounts on this page.
 
 **Where it could be broken, and by whom.** It weakens wherever the flow becomes visible. The scorecard in section 1 finds no public accounts, so publication of accounts is in the organization's hands. Section 8 lists the IRS and the courts as the bodies able to compel an answer. This paragraph is analysis, not a documented finding.
 
-**An example from this page.** Section 5 records extensive private investigation of officials alongside the litigation, and section 8 records the $12.5 million paid under the 1993 closing agreement.
+**An example from this page.** Section 5 records the 1997 New York Times report of private detectives investigating agency personnel alongside the litigation, and section 8 records the $12.5 million paid under the 1993 closing agreement.
 :::
 
 ::: card
@@ -1150,10 +1146,10 @@ Sea Org labor at nominal pay builds a real-estate portfolio the staff never own,
 **How it runs.**
 
 1. Sea Org members sign billion-year contracts, some as minors (sections 10 and 11).
-2. They work full-time at nominal weekly stipends and have no outside income, credentials or contacts (section 9 and the Stage 5 summary in section 12).
+2. Former staff describe full-time work at nominal weekly stipends and having no outside income, credentials or contacts (section 9 and the Stage 5 summary in section 12).
 3. Their labor staffs the organization, and Ideal Org campaigns add member loans and mortgages for buildings that remain organizational property (section 9).
 4. The real-estate portfolio grows while membership declines (sections 5 and 7).
-5. A member who leaves is billed freeloader debt for training received, and a newer recruit fills the seat (section 12, technique 29).
+5. Former staff say a member who leaves is billed freeloader debt for training received (section 9).
 
 **Techniques that feed it.** [19 · Manufactured Consent](#t-19), [26 · Financial Control](#t-26), [28 · Discard](#t-28), [29 · Replacement](#t-29).
 
@@ -1214,10 +1210,12 @@ Early government hostility was genuine and is invoked to reframe every subsequen
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| Disconnection is a personal choice about toxic relationships. | Disconnection is set out in the founder's policy letters, which remain the organization's binding scripture. | [OFFICIAL POLICY] |
-| We are a religion, not a business. | Every level of spiritual advancement has a published price, and departing staff are invoiced for training received. | [FINANCIAL RECORD] |
-| We only defend ourselves against attacks. | Eleven members were convicted of infiltrating federal agencies, and private investigators have been deployed against journalists. | [COURT RECORD] |
-| Auditing is confidential. | Former members allege folder contents were used as leverage against them. | [FORMER MEMBER TESTIMONY] |
+| The church says disconnection is a personal choice about relationships [27]. | According to the founder's policy letters as quoted by former members and in reporting [10], members are required to cut contact with those declared suppressive. | [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT] |
+| The church describes itself as a religion, not a business. | The church charges fixed donations for auditing and training, set out in schedules, and in 1989 the US Supreme Court held that payments for them were not deductible charitable contributions [25]. Former staff say departing staff are invoiced for training received [10]. | [COURT RECORD / FORMER MEMBER TESTIMONY] |
+| The church says it only defends itself against attacks. | Eleven members were convicted in 1979 over the infiltration of federal agencies [26]; former members and reporters describe private investigators deployed against critics and journalists [10]. | [COURT RECORD / FORMER MEMBER TESTIMONY] |
+| The church says auditing is confidential. | Former members allege folder contents were used as leverage against them. | [FORMER MEMBER TESTIMONY] |
+
+The first column paraphrases positions the church is reported to hold; apart from disconnection [27], this page cites no church statement for them.
 
 ### Accountability or theatre?
 
@@ -1225,7 +1223,7 @@ Early government hostility was genuine and is invoked to reframe every subsequen
 
 **Who holds the chair now.** David Miscavige holds it, as Chairman of the Board of the Religious Technology Center.
 
-**Prediction.** There will be no removal. Total centralization means the chair and the sitter are the same, which is why nothing has changed in forty years.
+**Prediction.** No removal is likely while the governance stays unpublished. Total centralization means the chair and the sitter are the same, which may be why nothing recorded on this page has changed since 1987.
 
 ### Words used here
 
@@ -1233,39 +1231,39 @@ Early government hostility was genuine and is invoked to reframe every subsequen
 |---|---|---|---|
 | Suppressive person (SP) | A suppressive person is one declared an enemy of the organisation. | A formal declaration triggers disconnection. It converts a person into a status, and the status is administered rather than argued. | 'You are now someone your family may not speak to.' |
 | Potential trouble source (PTS) | A potential trouble source is one connected to a suppressive person. | It makes association itself a condition requiring remedy, which is how disconnection reaches people who did nothing. | 'Your relationship with them is a problem you must fix.' |
-| Disconnection | Disconnection means ending contact with a declared person. | It is the practice, named plainly in internal materials and denied in public statements — a rare case where the term itself is the evidence. | 'Stop speaking to your family.' |
+| Disconnection | Disconnection means ending contact with a declared person. | Former members and reporting describe it as the practice, named in the founder's policy letters [10]; the church says it is voluntary [27]. | 'Stop speaking to your family.' |
 | Knowledge report | A knowledge report is a written report on another member's conduct. | It institutionalises lateral surveillance and makes not reporting an offence in itself. | 'Report your friends, and failing to is also an offence.' |
 
 ## 15. Cost & cover {#cost}
 
 ### What leaving costs
 
-- The disconnection policy severs members from 'suppressive' family. Sea Org members who left were historically billed 'freeloader debt'. Litigation and surveillance of prominent critics are extensively documented. [COURT RECORD / INVESTIGATIVE REPORT]
+- According to the founder's policy letters as quoted by former members and in reporting [10], the disconnection policy requires members to cut contact with 'suppressive' family; the church says it is voluntary [27]. Former Sea Org members say they were billed 'freeloader debt' on leaving [10]. Litigation against critics is a matter of court record; surveillance and harassment are described by former members and in reporting. [COURT RECORD / INVESTIGATIVE REPORT / FORMER MEMBER TESTIMONY]
 
 ### The ledger of exit
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Family (disconnection) | Yes — written policy | Members must sever contact with those declared suppressive, including parents, spouses, and children | “Disconnection is a personal choice about toxic relationships.” |
-| Financial | Yes | Departing staff are billed freeloader debt, and advance payments are not refunded. | “Contractual obligations.” |
-| Harassment and surveillance | Documented | Private investigators, litigation and public smearing are directed at prominent critics. | “We simply respond to attacks with our rights.” |
-| Confidential disclosures | Alleged | Auditing folder contents are alleged to have been used as leverage against former members. | “Confessional confidentiality is absolute.” |
+| Family (disconnection) | Reported by former members and in reporting | According to the founder's policy letters as quoted by former members and in reporting [10], members are required to cut contact with those declared suppressive, family included | The church says disconnection is a personal choice [27]. |
+| Financial | Reported | Former staff say they are billed freeloader debt on leaving [10], and former members say they could not recover advance payments. | The church's position on these charges is not cited on this page. |
+| Harassment and surveillance | Partly court-recorded | Former members and reporters describe private investigators, litigation and public smearing directed at critics [10]; a Texas appeals court held in 2015 that officials had no free-speech right to stalk a critic's wife who had never been a member [20]. | The church's position is not cited on this page. |
+| Confidential disclosures | Alleged | Auditing folder contents are alleged to have been used as leverage against former members. | The church's position is not cited on this page. |
 
 ### How the cost is denied
 
 | Channel | Level | Note |
 |---|---|---|
-| Explicit policy | Extremely low | Hubbard's policy letters — fair game, suppressive person doctrine, disconnection, freeloader debt — are the organization's own scripture and are archived. |
+| Explicit policy | Extremely low | Hubbard's policy letters are the organization's own scripture; reporting and former members cite them for fair game, suppressive person doctrine, disconnection and freeloader debt [10], and the church says Hubbard cancelled the label 'fair game' in 1968 [19]. |
 | Informal enforcement | Low | Enforcement is formal: Ethics officers, committees of evidence, and written procedure. |
 | Leadership distance | Low | Total centralization under RTC makes 'a local leader went rogue' structurally unavailable. |
 | Doctrinal ambiguity | Very low | 'Standard tech' explicitly forbids interpretation — the doctrine's rigidity is itself the receipt. |
 | Cultural outsourcing | Very low | There is no ethnic or cultural context to attribute anything to. |
 | Volunteer enforcement | Medium | Members write knowledge reports on each other, and perform disconnection themselves. |
 | Sacred secrecy | Low | Upper-level materials are secret and copyrighted, and have repeatedly entered court records. |
-| Exit cost denial | High | The organization denies that disconnection is required while its own policy letters instruct it — a documented contradiction. |
+| Exit cost denial | High | The church says disconnection is voluntary [27]; former members and reporting say the policy letters require it [10]. This page treats the contradiction as reported, not adjudicated. |
 
 ::: cites
-Sources for this section: [10]
+Sources for this section: [10] [19] [27]
 :::
 
 ## 16. The ledger {#ledger}
@@ -1276,20 +1274,20 @@ Sources for this section: [10]
 
 ### Money out, leverage back
 
-- Full tax exemption obtained after a litigation campaign against the IRS means the public subsidizes an organization that sells its services at fixed prices and discloses nothing. [INVESTIGATIVE REPORT / FINANCIAL RECORD]
-- Front groups — drug rehabilitation, education, criminal-justice programs — enter schools, prisons, and public health systems without disclosing their affiliation, which is influence conditional on nondisclosure. [INVESTIGATIVE REPORT]
+- The church's full tax exemption was granted in 1993, after the church and its members had brought about 2,200 suits against the IRS [2]. Like any church's exemption, it is a public tax benefit, and this page records no published accounts for the church. [INVESTIGATIVE REPORT / FINANCIAL RECORD]
+- Programmes linked to the church (drug rehabilitation, education, criminal-justice programs) operate in schools, prisons, and public health settings; some have been alleged to do so without naming the link, though this page names no report. [PATTERN OBSERVED]
 - 'Ideal Org' campaigns pressed members into loans and mortgages for buildings that remain organizational property. [INVESTIGATIVE REPORT]
-- Eleven senior members were convicted of infiltrating U.S. federal agencies — the largest documented infiltration of a government by a private organization. [COURT RECORD]
+- Eleven senior members were convicted in 1979 of crimes arising from the infiltration of U.S. federal agencies [26]. [COURT RECORD]
 
 ### Who pays
 
 - Sea Org members pay, including those recruited as minors, who work decades at nominal pay.
 - Second-generation members pay, having been raised without outside education or contacts.
 - Women who allege coerced abortions to maintain service eligibility pay.
-- Disconnected families pay when they are severed by policy.
+- Disconnected families pay when, former members say, they are severed by policy.
 - Members who mortgaged homes for building campaigns and course levels pay.
 - Critics, journalists and defectors pay when they are subjected to documented harassment campaigns.
-- U.S. taxpayers pay, in the narrow sense that a fee-charging organization holds full tax exemption. [FINANCIAL RECORD]
+- U.S. taxpayers bear the cost of the exemption only in the narrow sense that applies to every exempt organization: the tax is not collected. [FINANCIAL RECORD]
 
 ## 17. Who gets hurt most {#who-gets-hurt}
 
@@ -1302,8 +1300,8 @@ The costs recorded in sections 9, 11 and 15 do not fall evenly. They fall hardes
 | Sea Org members, including those recruited as minors | They give decades of labor at nominal pay under a billion-year contract. | It compounds with the lack of outside credentials, contacts or savings. |
 | Second-generation members | They are raised inside with limited outside education and contact. | It compounds with disconnection applied to their own parents. |
 | Women alleging coerced abortion | Multiple former members allege pressure to remain available for service. | It compounds with life inside a total institution with no external route. |
-| Disconnected families | Contact is severed by policy. | It compounds where both a parent and a child are members and one is declared. |
-| Members who mortgaged homes | Building campaigns and course levels are funded by personal debt. | It compounds with the absence of a refund route and with freeloader debt on exit. |
+| Disconnected families | Former members say contact is severed by policy. | It compounds where both a parent and a child are members and one is declared. |
+| Members who mortgaged homes | Building campaigns and course levels are funded by personal debt. | It compounds with advance payments that former members say they could not recover, and with freeloader debt on exit as former staff describe it. |
 | Critics and journalists | They face documented harassment, surveillance and litigation as attrition. | It compounds over decades, against individuals with no comparable resources. |
 
 ## 18. The middle tiers {#tiers}
@@ -1316,7 +1314,7 @@ The organization's rules are applied by people in the middle tiers, who see deci
 | Auditors | Hold the most intimate disclosures any member makes | The folders | Maintain the tech | Let a folder leave the auditing room |
 | Ethics officers | Administer the internal disciplinary apparatus | Who is declared and why | Handle the situation | Process a knowledge report about someone's doubts |
 | Sea Org staff | Run the organization for nominal pay under a billion-year contract | Everything | Stay | Very little safely, and this codex should say so plainly |
-| Front-group programme staff | Deliver rehabilitation and education programmes in public institutions | That the affiliation is not disclosed | Not mention it | Enter a school or prison without disclosing who runs the programme |
+| Front-group programme staff | Deliver rehabilitation and education programmes in public institutions | Whether the people served are told who runs the programme | Not recorded on this page | Not recorded on this page |
 
 ## 19. Documented cases {#cases}
 
@@ -1324,15 +1322,15 @@ The organization's rules are applied by people in the middle tiers, who see deci
 ### Operation Snow White
 
 - **when:** 1977–1979
-- **what:** Federal investigation established that the organization had infiltrated U.S. government agencies, stealing documents and planting operatives, in the largest documented infiltration of the federal government by a private organization. Eleven senior members were convicted, including the founder's wife.
+- **what:** Eleven senior members of the organization, including the founder's wife, were convicted of obstruction of justice, burglary of government offices and theft of documents and government property, in a campaign to infiltrate U.S. government agencies [26].
 - **record:** U.S. federal court records
-- **outcome:** Convictions and prison sentences. The organization obtained full tax exemption fourteen years later, following a litigation campaign against the IRS.
-- **tactics:** 11, 17
+- **outcome:** Convictions and prison sentences.
+- **tactics:** 17
 - **grade:** Documented
 :::
 
 ::: cites
-Sources for this section: [1]
+Sources for this section: [1] [21] [26]
 :::
 
 ::: case
@@ -1340,15 +1338,15 @@ Sources for this section: [1]
 - **when:** 2023
 - **what:** Actor Danny Masterson, a prominent Scientologist, was convicted of raping two women; both were former members [5].
 - **record:** NPR, 7 September 2023 [5]
-- **outcome:** He was sentenced to 30 years to life, and his appeal was pending in 2026 [5].
-- **tactics:** 30, 16, 17
+- **outcome:** He was sentenced to 30 years to life on 7 September 2023 [5]. His appeal was set for oral argument before the California Second District Court of Appeal on 25 June 2026; this page records no ruling on it [21]. What the accusers allege the church did afterwards is the subject of a separate civil suit, *Bixler et al.*, in which no finding has been made on that point; the criminal case was against one man.
+- **tactics:** —
 - **grade:** Documented
 :::
 
 ::: case
 ### "Organised fraud" (France, 2009–2013)
 - **when:** 2009–2013
-- **what:** Former members said they were pressured into paying large sums for personality tests, "purification" packs and other services [11][12].
+- **what:** The court found the Celebrity Centre and bookshop guilty of organised fraud for preying financially on followers in the 1990s, in a case that included complaints about large sums paid for personality tests, "purification" packs and other services [11][12].
 - **record:** Paris criminal court (2009); Cour de cassation, 16 October 2013 [11][12]
 - **outcome:** The Celebrity Centre and bookshop were fined €600,000; the church's religious-freedom appeal was rejected [11][12].
 - **tactics:** 26, 1
@@ -1360,8 +1358,8 @@ Sources for this section: [1]
 - **when:** 2021–2022
 - **what:** Former members who sued the church met arbitration clauses in the agreements they had signed as members [3][4].
 - **record:** *Garcia v. Church of Scientology Flag Service Org.* (11th Cir. 2021) [4]; *Bixler v. Superior Court* (Cal. Ct. App. 2022) [3]
-- **outcome:** One federal court enforced arbitration; California's courts did not for claims arising after members left, and the US Supreme Court declined to intervene [3][4].
-- **tactics:** 30, 18
+- **outcome:** One federal court enforced arbitration in *Garcia*; California's courts did not for claims arising after members left in *Bixler*, and the California Supreme Court denied review in April 2022 [3][4].
+- **tactics:** 18
 - **grade:** Documented
 :::
 
@@ -1371,8 +1369,8 @@ Sources for this section: [1]
 
 | What | Who | When | What it cost |
 |---|---|---|---|
-| Mass defection of senior executives who then testified publicly | Former officials, including some who had run the apparatus | 2009–present | They were disconnected from their own families. |
-| Operation Snow White convictions | Federal prosecutors | 1979 | It cost the public nothing; the organization obtained exemption fourteen years later. |
+| Mass defection of senior executives who then testified publicly | Former officials, including some who had run the apparatus | 2007–present | They were disconnected from their own families. |
+| Operation Snow White convictions | Federal prosecutors | 1979 | The convicted officials served prison sentences [26]. |
 | The independent field practicing outside corporate control | Former members who kept the technique and refused the structure | 1980s–present | They were declared suppressive. |
 | Sustained investigative journalism and documentary work | Reporters who were surveilled for it | 1990s–present | They were met with private investigators and litigation. |
 
@@ -1385,7 +1383,7 @@ Publication of the Religious Technology Center's governance — any named body w
 - **Mike Rinder.** He was head of the church's Office of Special Affairs (its legal and public-affairs office) and its international spokesman. He left in 2007, co-hosted *Leah Remini: Scientology and the Aftermath*, and died in January 2025 [13].
 - **Leah Remini.** She is an actor and former member whose series documented former members' accounts [13].
 - **Debbie Cook.** She is a former senior Sea Org executive, and her 2012 email to members criticized the church's fundraising [10].
-- **The women who testified against Danny Masterson.** They are former members whose testimony led to his conviction; his appeal is pending [5].
+- **The women who testified against Danny Masterson.** They are former members whose testimony led to his conviction; his appeal was set for oral argument in June 2026 [21].
 
 ## 22. Regional variants {#regional}
 
@@ -1396,23 +1394,23 @@ Publication of the Religious Technology Center's governance — any named body w
 - **law:** The tax exemption was restored in 1993 by closing agreement. The church has an extensive litigation history; arbitration clauses in membership agreements have been enforced against former members in federal court (2021), while California's courts refused to enforce them for claims arising after members left (2022).
 - **documented:** The Operation Snow White convictions (1979), the 1993 closing agreement, and sustained investigative reporting and documentary work are documented.
 - **exit:** The cost of exit is very high: disconnection, plus in documented cases financial and legal pressure.
-- **regulator:** The regulators are the IRS, whose 1993 decision remains a reviewable administrative act, state consumer-protection authorities, and the courts.
-- **tell:** The exemption is an administrative decision, not a constitutional rule. That distinction is the whole content of the line on who can compel an answer.
+- **regulator:** The regulators are the IRS, which is the party to the 1993 closing agreement (final unless fraud, malfeasance or misrepresentation of a material fact is shown [18]), state consumer-protection authorities, and the courts.
+- **tell:** The exemption rests on a closing agreement with the IRS [18], not on a constitutional rule.
 :::
 
 ::: card
 ### Germany
 
 - **apex:** The apex is the same, with no religious recognition.
-- **law:** It is not recognised as a religion, is treated as a commercial enterprise and is monitored by the domestic intelligence service in several states. Consumer-protection and commercial law apply fully.
-- **documented:** Federal and state monitoring reports are documented, as are employment-law restrictions on members in some public bodies, which are themselves controversial.
+- **law:** In labour law the Federal Labour Court (1995) treated Scientology organisations as commercial [6]. The federal constitutional-protection office ended its separate nationwide observation of Scientology on 15 May 2026, and Bavaria continues to monitor it [22][23]. Consumer-protection and commercial law apply fully.
+- **documented:** Monitoring by the federal office until May 2026, and by Bavaria since, is reported [22][23]. This page cites no source for employment-law restrictions on members.
 - **exit:** The cost of exit is high socially, and the legal environment is materially more favourable to leavers than in the US.
 - **regulator:** The regulators are consumer-protection authorities and the ordinary commercial courts.
-- **tell:** It is the same organisation, classified as a religion in one country and an enterprise in another. Which frame is applied determines every question a regulator may ask.
+- **tell:** It is the same organisation, exempt as a church in the United States and treated as commercial in German labour law. Which frame is applied determines every question a regulator may ask.
 :::
 
 ::: cites
-Sources for this section: [3] [4] [6]
+Sources for this section: [3] [4] [6] [22] [23]
 :::
 
 ## 23. The questions {#questions}
@@ -1426,7 +1424,7 @@ Sources for this section: [3] [4] [6]
 
 ### In closing
 
-Independent-field practitioners use the same techniques outside corporate control, without disconnection, without escalating prices, without Ethics officers. Their existence answers the only question that matters: if the value is in the technique, it does not require the organization. If the organization insists it does, then what it is protecting is not your case.
+Independent-field practitioners (section 6) use the technique outside corporate control; this page cites no source on whether they practise disconnection, escalating prices or Ethics officers. Their existence answers the only question that matters: if the value is in the technique, it does not require the organization. If the organization insists it does, then what it is protecting is not your case.
 
 You were told the outside world is aberrated and that critics have crimes. Consider instead the possibility that people who love you were declared suppressive because they asked you a question — and that your only barrier to answering it was a fee schedule and a policy letter.
 
@@ -1441,28 +1439,28 @@ Practical guidance, not legal advice.
 1. **Expect "disconnection":** members may be told to cut contact with you [10].
 2. **Keep copies of anything you signed;** arbitration clauses may affect later claims, and courts have split [3][4].
 3. **Sea Org members** may be told they owe "freeloader" debt; it is not a court judgment [10].
-4. **If you were assaulted,** go to the police; former members' testimony has convicted a prominent member, whose appeal is pending [5].
+4. **If you were assaulted,** go to the police; former members' testimony convicted a prominent member in 2023, whose appeal was set for oral argument in June 2026 [21].
 5. **Find support** from the organizations listed in section 25 [14][15][16][17].
 
 ## 25. Where to get help {#help}
 
-Checked 2026-09-27.
+Checked 2026-10-03.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **ICSA** | Former members of high-control groups; families | International | Via website [16] |
-| **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** [14] |
-| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [15] |
-| **RAINN** | Sexual assault | US | **1-800-656-4673** [17] |
+| **ICSA** | Former members of high-control groups; families | International | Contact is through its website [16] |
+| **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848**; the service says it tries to offer a 24-hour chat and call service; UK +44 20 3807 4583, Australia +61 2 8203 7137 [14] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; Wednesday 10:00–13:00, Thursday 16:00–19:00, Friday 08:00–11:00) [15] |
+| **RAINN** | Sexual assault | US | **1-800-656-4673** (free, confidential, 24 hours a day) [17] |
 
 ## 26. Sources {#sources}
 
 ### Courts and government
-1. *United States v. Mary Sue Hubbard et al.* — Operation Snow White; eleven Church officials convicted (1979). Britannica, "Operation Snow White". https://www.britannica.com/event/Operation-Snow-White
+1. *United States v. Mary Sue Hubbard et al.* — Operation Snow White; eleven Church officials convicted (1979). Britannica, "Operation Snow White" (the page returned 404 when fetched on 3 Oct 2026; see source 26 for the convictions).
 2. New York Times (D. Frantz), "Scientology Paid Government $12.5 Million Under Terms of Agreement" (31 Dec 1997 — the 1993 IRS closing agreement; the Church and members had brought about 2,200 suits against the agency). https://www.cs.cmu.edu/~dst/Cowen/essays/ny311297.html
-3. *Bixler v. Superior Court* (Cal. Ct. App. 2022) — former members not bound to the Church's religious arbitration for post-departure claims; US Supreme Court denied certiorari — Horvitz & Levy summary. https://www.horvitzlevy.com/supreme-court-allows-scientology-lawsuit-to-proceed-in-civil-court-rather-than-religious-arbitration/
+3. *Bixler v. Superior Court* (Cal. Ct. App. 2022) — former members not bound to the Church's religious arbitration for post-departure claims; California Supreme Court denied review on 20 April 2022 — Horvitz & Levy summary. https://www.horvitzlevy.com/supreme-court-allows-scientology-lawsuit-to-proceed-in-civil-court-rather-than-religious-arbitration/
 4. *Garcia v. Church of Scientology Flag Service Org.* (11th Cir. 2021) — arbitration enforced against former members — The New Republic. https://newrepublic.com/article/167166/scientology-supreme-court-danny-masterson-religious-arbitration
-5. NPR, "Actor Danny Masterson sentenced to 30 years to life in prison for rape" (7 Sept 2023 — victims were former members; appeal pending in 2026). https://www.npr.org/2023/09/07/1198160934/actor-danny-masterson-sentenced-to-30-years-to-life-in-prison-for-rape
+5. NPR, "Actor Danny Masterson sentenced to 30 years to life in prison for rape" (7 Sept 2023 — victims were former members). https://www.npr.org/2023/09/07/1198160934/actor-danny-masterson-sentenced-to-30-years-to-life-in-prison-for-rape
 6. German Federal Labour Court (1995) and state Verfassungsschutz monitoring — Scientology status by country. https://en.wikipedia.org/wiki/Scientology_status_by_country
 
 ### Census and demography
@@ -1478,11 +1476,22 @@ Checked 2026-09-27.
 12. SBS News / AAP, "French court backs Scientology conviction" (17 Oct 2013) — €600,000 fines; "organised fraud". https://www.sbs.com.au/news/article/french-court-backs-scientology-conviction/30vnl6v4j
 13. Global News, "Mike Rinder, one of Scientology's loudest whistleblowers, dies at 69" (Jan 2025). https://globalnews.ca/news/10944000/mike-rinder-scientology-whistleblower-dead/
 14. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
-15. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
+15. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Wednesday 10:00–13:00, Thursday 16:00–19:00, Friday 08:00–11:00). https://humanists.uk/faith-to-faithless/helpline/
 16. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 17. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
+18. 26 U.S.C. §7121, closing agreements — an approved agreement "shall be final and conclusive" and, except on a showing of fraud, malfeasance or misrepresentation of a material fact, the case may not be reopened as to the matters agreed (read 2026-10-03). https://www.law.cornell.edu/uscode/text/26/7121
+19. Wikipedia, "Fair game (Scientology)" — Hubbard's HCOPL of 21 October 1968, "Cancellation of Fair Game" ("The practice of declaring people FAIR GAME will cease"); the church's reading that only the label was rescinded; sociologist Roy Wallis's view that this reading is contradicted by the words on the page and by actions taken against opponents (read 2026-10-03). https://en.wikipedia.org/wiki/Fair_game_(Scientology)
+20. ABA Journal, "Texas woman drops lawsuit against Church of Scientology" — the Texas Third Court of Appeals held in 2015 that officials had no free-speech right to stalk Monique Rathbun, who was never a member; she dropped the suit before the Texas Supreme Court, citing resources (read 2026-10-03). https://www.abajournal.com/news/article/texas_woman_drops_lawsuit_against_church_of_scientology_citing_lack_of_reso
+21. Tony Ortega, "Oral arguments hearing in Danny Masterson's criminal appeal set for June 25" (17 May 2026) — the direct criminal appeal set for oral argument before the Second Appellate District (read 2026-10-03). https://tonyortega.org/2026/05/17/oral-arguments-hearing-in-danny-mastersons-criminal-appeal-set-for-june-25/
+22. Handelsblatt, "Verfassungsschutz beendet bundesweite Beobachtung von Scientology" (15 May 2026) — the federal office ended its nationwide observation of Scientology, saying the organization had lost relevance at federal level (read 2026-10-03). https://www.handelsblatt.com/politik/deutschland/inlandsgeheimdienst-verfassungsschutz-beendet-bundesweite-beobachtung-von-scientology/100225282.html
+23. evangelisch.de, "Bayerischer Verfassungsschutz behält Scientology weiter im Blick" (16 May 2026) — Bavaria continues observation (reached through the fact-check log; page not opened for this pass). https://www.evangelisch.de/inhalte/255535/16-05-2026/bayerischer-verfassungsschutz-behaelt-scientology-weiter-im-blick
+24. Tony Ortega, "Australia gained 2 million people between 2016 and 2021 and lost 26 Scientologists" (1 July 2022) — 2021 census count of 1,655 (reached through the fact-check log; page not opened for this pass). https://tonyortega.org/2022/07/01/australia-gained-2-million-people-between-2016-and-2021-and-lost-26-scientologists/
+25. *Hernandez v. Commissioner*, 490 U.S. 680 (1989) — the Church charges a "fixed donation," also known as a "price" or a "fixed contribution," for auditing and training, "set forth in schedules"; payments for them were held not deductible as charitable contributions (read 2026-10-03). https://caselaw.findlaw.com/us-supreme-court/490/680.html
+26. Wikipedia, "Operation Snow White" — eleven senior members, including Mary Sue Hubbard, convicted in 1979 of obstruction of justice, burglary of government offices and theft of documents and government property; Hubbard named an unindicted co-conspirator (read 2026-10-03, convictions only; the page's descriptions of scale are not relied on). https://en.wikipedia.org/wiki/Operation_Snow_White
+27. Mike Rinder's blog, "Personal choice vs Scientology policy" — a critic's blog summarising the church's position that disconnection is a personal choice (reached through a search summary; page not opened for this pass; no church statement is cited). https://www.mikerindersblog.org/personal-choice-vs-scientology-policy/
 
 ## 27. What changed on this page {#changed}
 
+- **2026-10-03:** Corrected the size figures and the dates of several items; replaced claims the sources did not support with what they do say, and marked where the page relies on former members' accounts rather than court records. Removed the ranking of Operation Snow White and the claims about published prices, front programmes and the effect of the 1993 tax agreement. Added the court ruling on the harassment of a critic, the church's 1968 position on "fair game", the 1989 Supreme Court description of its fixed donations, the current German position, the status of the Masterson appeal and the Australian 2021 census count. Regraded nine techniques to Contested where the evidence was former members' reports rather than written policy or court records, moved one from Documented to Codified, and removed the "sourced" mark from all twelve techniques that carried it, since none names a document.
 - **2026-09-27:** Added Branches, Law & state, Money in numbers, three more documented cases, Voices from inside, Leaving safely and Where to get help.
 
