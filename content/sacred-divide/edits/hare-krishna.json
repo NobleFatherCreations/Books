@@ -1995,5 +1995,725 @@
   "reason": "Section 13 had no source line. The loops synthesise material sourced in other sections, so they are labelled PATTERN OBSERVED and cross-referenced rather than given sources they do not have.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "HK-D001",
+  "scope": "md",
+  "type": "fact",
+  "before": "women gurus were approved in 2019 and 2021, then paused in 2022 [6] |",
+  "after": "women gurus were approved in 2019 and 2021 and paused in November 2022; in February 2026 the GBC resolved that, until the question is satisfactorily resolved, qualified women be recognized as siksa-gurus (instructing gurus) only, with the exception of Narayani Devi Dasi, who remains diksa-guru (initiating guru) of her current disciples [6][18] |",
+  "reason": "P1-1: the page reported the 2022 pause as the current position; the GBC resolution of 14 Feb 2026 replaced it.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D002",
+  "scope": "md",
+  "type": "fact",
+  "before": "approved by the GBC in 2019 and 2021, then paused again in 2022. [OFFICIAL POLICY]",
+  "after": "approved by the GBC in 2019 and 2021, paused in November 2022, and in February 2026 limited by a GBC resolution: until the question is satisfactorily resolved, qualified women are to be recognized as siksa-gurus (instructing gurus) only, with the exception of Narayani Devi Dasi, who remains diksa-guru (initiating guru) of her current disciples [18]. [OFFICIAL POLICY]",
+  "reason": "P1-1: same, in the Bodies section.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D003",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **The women devotees** are those whose path to becoming initiating gurus was approved and then paused [6].",
+  "after": "- **The women devotees** are those whose path to becoming initiating gurus was approved in 2019 and 2021, paused in 2022, and in February 2026 limited to siksa-guru status, apart from one exception [6][18].",
+  "reason": "P1-1: same, in Voices.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D004",
+  "scope": "md",
+  "type": "receipt",
+  "before": "Sources for this section: [1] [2] [6] [8]\n:::\n\n## 12.",
+  "after": "Sources for this section: [1] [2] [6] [8] [18]\n:::\n\n## 12.",
+  "reason": "P1-1: cites the new source.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D005",
+  "scope": "narration",
+  "type": "proof",
+  "before": "women gurus were approved in 2019 and 2021, then paused in 2022.",
+  "after": "women gurus were approved in 2019 and 2021, paused in 2022, and in February 2026 limited to siksa-guru status, with one exception.",
+  "reason": "P1-1: narration repeated the superseded 2022 position.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D006",
+  "scope": "md",
+  "type": "fact",
+  "before": "ISKCON Mumbai, ending a 25-year dispute; a review ended in a split decision in November 2025 [10][11] |",
+  "after": "ISKCON Mumbai, after a 25-year dispute; Mumbai's review petition produced a split decision in November 2025, and on 17 August 2026 the Chief Justice said the Court would consider a fresh bench, so the review remains pending [10][11][19] |",
+  "reason": "P1-2: the dispute was described as ended; the review is still pending (F3, F4).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D007",
+  "scope": "md",
+  "type": "fact",
+  "before": "### The temple two ISKCONs claimed (India, 2000–2025)\n- **when:** 2000–2025",
+  "after": "### The temple two ISKCONs claimed (India, 2000 to the present)\n- **when:** 2000 to the present (review pending)",
+  "reason": "P1-2: the case is not closed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D008",
+  "scope": "md",
+  "type": "fact",
+  "before": "Supreme Court of India, 16 May 2025 [10]; review, November 2025 [11]",
+  "after": "Supreme Court of India, 16 May 2025 [10]; review, November 2025 [11]; hearing, 17 August 2026 [19]",
+  "reason": "P1-2: adds the August 2026 hearing.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D009",
+  "scope": "md",
+  "type": "fact",
+  "before": "the review petition produced a split verdict [10][11].",
+  "after": "the review petition produced a split verdict in November 2025, and on 17 August 2026 the Chief Justice said the Court would consider a fresh bench, so the review is still pending [10][11][19].",
+  "reason": "P1-2.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D010",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **documented:** The documented record is the Bangalore temple judgment [10][11].",
+  "after": "- **documented:** The documented record is the Bangalore temple judgment and the pending review [10][11][19].",
+  "reason": "P1-2.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D011",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **tell:** A dispute about spiritual succession was settled as a dispute about property.",
+  "after": "- **tell:** A dispute about spiritual succession was fought as a dispute about property, and the review is still pending.",
+  "reason": "P1-2: 'settled' overstated.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D012",
+  "scope": "md",
+  "type": "fact",
+  "before": "About 550 former gurukula pupils sued in 2000; after Chapter 11 filings (US bankruptcy reorganization) the case settled for $9.5 million in 2005 [3]",
+  "after": "A suit filed in Texas in 2000 by 92 former gurukula pupils led, through ISKCON's Chapter 11 filings (US bankruptcy reorganization), to a $9.5 million settlement in 2005 covering about 450 victims [3]",
+  "reason": "P1-3: the 2000 suit had about 90 plaintiffs; the larger figure is the bankruptcy claimants, and the source says about 450 (F7).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D013",
+  "scope": "md",
+  "type": "fact",
+  "before": "The settlement was $9.5 million for about 550 claimants (2005) [3].",
+  "after": "The settlement was $9.5 million for about 450 victims (2005), with individual payments from $2,500 to $50,000 [3].",
+  "reason": "P1-3.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D014",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **The former gurukula pupils** are those who sued in 2000 [3].",
+  "after": "- **The former gurukula pupils** are the 92 who sued in Texas in 2000 and the larger group of victims who claimed in the later bankruptcy [3].",
+  "reason": "P1-3.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D015",
+  "scope": "md",
+  "type": "source",
+  "before": "(26 May 2005 — suit filed June 2000 by Windle Turley; Chapter 11 filings 2002; ~550 claimants)",
+  "after": "(26 May 2005 — suit filed in Texas in June 2000 by Windle Turley for 92 former students; Chapter 11 filings 2002; payout ordered 24 May 2005 by a California bankruptcy court to about 450 victims, $2,500 to $50,000 each)",
+  "reason": "P1-3 / P3-24: the source's own figures replace '~550 claimants'.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D016",
+  "scope": "narration",
+  "type": "proof",
+  "before": "About 550 former gurukula pupils sued in 2000, and after Chapter 11 filings the case settled for $9.5 million in 2005.",
+  "after": "A suit by 92 former gurukula pupils in 2000 led, through Chapter 11 filings, to a $9.5 million settlement in 2005 covering about 450 victims.",
+  "reason": "P1-3: narration repeated the wrong count.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D017",
+  "scope": "narration",
+  "type": "proof",
+  "before": "that about 550 former gurukula pupils sued in 2000, and that after Chapter 11 filings the case settled for $9.5 million in 2005 [3].",
+  "after": "that a suit by 92 former gurukula pupils in 2000 led, through Chapter 11 filings, to a $9.5 million settlement in 2005 covering about 450 victims [3].",
+  "reason": "P1-3.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D018",
+  "scope": "md",
+  "type": "fact",
+  "before": "### Pipelines this tradition shares\n\n::: card\n#### Unpaid labor to titled property\n\n**Source.** Volunteer construction, service, administration\n\n**Path.** Local congregation builds → Title held centrally → Sale or leverage at market value\n\n**Disclosed.** Nothing about proceeds\n\n**Hidden.** Sale values and their destination\n:::\n\n::: card\n#### Dera and ashram economy\n\n**Source.** Devotee giving and unpaid service\n\n**Path.** Living guru's organization → Family-held entities → Political protection\n\n**Disclosed.** Charitable activity\n\n**Hidden.** Asset ownership and personal use\n:::\n\n::: card\n#### Publishing and media arm\n\n**Source.** Members buying required or recommended material\n\n**Path.** Institutional publisher → Author-leaders and their estates → Broadcast and conference circuit\n\n**Disclosed.** Retail prices\n\n**Hidden.** Royalties to serving leaders and bulk-purchase practices\n:::\n\n::: card\n#### Legal defense and settlement\n\n**Source.** General funds, i.e. member giving\n\n**Path.** Institutional counsel → Settlements and non-disclosure agreements → Reputational continuity\n\n**Disclosed.** Occasionally settlement totals under court order\n\n**Hidden.** That donations funded the defense\n:::",
+  "after": "### Pipelines this tradition shares\n\nNo shared pipeline cards are shown for this tradition. The four standard cards did not fit it, and nothing on this page sources them; the flows this page does source are in the table above and in the Bhaktivedanta Manor figures below.",
+  "reason": "P1-4: removes four unsupported shared-template cards (incl. 'Dera and ashram economy').",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D019",
+  "scope": "md",
+  "type": "fact",
+  "before": "A devotee was convicted of two murders (1986, 1991) [4]",
+  "after": "A devotee was convicted of two murders: Charles St. Denis (killed 1983; convicted 1986) and Steve Bryant (killed 1986; convicted 1991) [4]",
+  "reason": "P2-5: bracketed years were conviction years.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D020",
+  "scope": "md",
+  "type": "fact",
+  "before": "### New Vrindaban (United States, 1986–1996)\n- **when:** 1986–1996",
+  "after": "### New Vrindaban (United States, 1983–1996)\n- **when:** 1983–1996",
+  "reason": "P2-5: the span starts with the first killing.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D021",
+  "scope": "md",
+  "type": "fact",
+  "before": "At the New Vrindaban community in West Virginia, a devotee, Thomas Drescher, was convicted of murdering two men, Charles St. Denis (1986) and Steve Bryant (1991) [4].",
+  "after": "Thomas Drescher, a devotee of the New Vrindaban community in West Virginia, was convicted of murdering two men: Charles St. Denis (killed 1983; convicted 1986) and Steve Bryant (killed 1986; convicted 1991) [4]. Bryant, who had left the community's faction and made public allegations of corruption, was shot in Los Angeles [4].",
+  "reason": "P2-5: killing years beside conviction years; places the Bryant killing correctly (UPI, source 4).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D022",
+  "scope": "md",
+  "type": "fact",
+  "before": "The zonal-acharya collapse and the gurukula settlement forced this structure into existence.",
+  "after": "The zonal-acharya collapse and the gurukula settlement forced the reform of the guru system and the creation of the Child Protection Office.",
+  "reason": "P2-6: the GBC dates from 1970, before both.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D023",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Ritvik groups are found in India (notably ISKCON Bangalore) and elsewhere | They hold that Prabhupada's disciples should initiate only as his representatives, not as gurus in their own right [10] |",
+  "after": "| Ritvik groups are found in India and elsewhere | They hold that Prabhupada's disciples should initiate only as his representatives, not as gurus in their own right. In the Bangalore dispute (section 19), ISKCON Bangalore, an independent registered society, took the view that disciples act as Prabhupada's representatives [10] |",
+  "reason": "P2-7: ISKCON Bangalore is not called a ritvik group by the source (F6).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D024",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **ISKCON's own researchers** published a study of the movement's child abuse in its own journal in 1998 [1][2].",
+  "after": "- **The researchers** E. Burke Rochford and Jennifer Heinlein published a study of the movement's child abuse in ISKCON's own journal in 1998 [1]; a second article on ISKCON's response appeared in the same issue [2].",
+  "reason": "P2-8: 'own researchers' overstated; the journal is ISKCON's, the authors are not shown to be its researchers (F14).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D025",
+  "scope": "md",
+  "type": "fact",
+  "before": "| The Bhaktivedanta Book Trust | It controls the founder's texts and the book revenue that funds the movement. | Its trustees are appointed. | Removal follows a trustee process. |",
+  "after": "| The Bhaktivedanta Book Trust | Prabhupada founded it in 1972 to hold and publish his books; its stated purpose is to spend book-sale proceeds on printing his books and building ISKCON centers [21]. | Prabhupada named its first trustees in the 1972 agreement; how later trustees are chosen is not recorded on this page. | Not recorded on this page. Prabhupada wrote in 1970 that its trustees are also GBC members but that its function does not depend on the GBC [21]. |",
+  "reason": "P2-9: replaces two unsourced claims with what the Trust's own history states.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D026",
+  "scope": "md",
+  "type": "fact",
+  "before": "Temple administrations and the GBC benefit.",
+  "after": "Temple administrations benefit.",
+  "reason": "P2-9: the GBC as a beneficiary of temple donations has no source.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D027",
+  "scope": "md",
+  "type": "tag",
+  "before": "- **tactics:** 13, 25, 28",
+  "after": "- **tactics:** 25",
+  "reason": "P2-10: 13 and 28 are not supported by the gurukula case text; 25 is supported by the added sentence citing source 1.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D028",
+  "scope": "md",
+  "type": "fact",
+  "before": "The movement had already published an internal acknowledgment of gurukula abuse in 1998.",
+  "after": "The movement had already published an internal acknowledgment of gurukula abuse in 1998. Its own journal also records leaders and staff dismissing or silencing reports of abuse in the schools [1].",
+  "reason": "P2-10: gives the case text a basis for tag 25.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D029",
+  "scope": "md",
+  "type": "receipt",
+  "before": "Sources for this section: [3]\n:::\n\n::: case\n### New Vrindaban",
+  "after": "Sources for this section: [1] [3]\n:::\n\n::: case\n### New Vrindaban",
+  "reason": "P2-10: cites source 1 in the case.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D030",
+  "scope": "md",
+  "type": "tag",
+  "before": "- **tactics:** 30, 16",
+  "after": "- **tactics:** —",
+  "reason": "P2-10: nothing in the New Vrindaban text supports 30 or 16.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D031",
+  "scope": "md",
+  "type": "tag",
+  "before": "- **tactics:** 26",
+  "after": "- **tactics:** —",
+  "reason": "P2-10: the Bangalore source records a property ruling, not money taken from members.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D032",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Reformed]] This grade rests on the changes to child-related practice recorded elsewhere on this page: gurukula residential schooling largely discontinued and a Child Protection Office established. This page records no equivalent change to the adult routines this entry describes. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] The routines the entry describes (the chanting schedule, regulated diet, service) are ordinary temple practice; that they are installed so as to dull judgment is this entry's reading. The reform recorded elsewhere on this page (the end of most residential schooling and the Child Protection Office) concerns children, and this page records no equivalent change to the adult routines.",
+  "reason": "P2-12: Reformed rested on child-related reform; the entry describes adult normalization. Unsourced (sourced) mark removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D033",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Reformed]] Congregational membership is now the majority mode; residential ashram life, where most documented harm occurred, has contracted sharply. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] Temple life, devotee association and warnings against 'materialistic' contact are ordinary practice; that they narrow a member's world is this entry's reading. ISKCON's own count is about a million congregational members against about 10,000 temple members [20], so full residential life is not the typical case, but this page records no change to the teaching itself.",
+  "reason": "P2-12: no reform of the isolating teaching is recorded; the (sourced) mark named no document for the grade.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D034",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] Initiating-guru authority combined with Governing Body oversight, with documented accountability gaps in the zonal era. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] Being routed through guru, temple president and senior devotees is ordinary devotional practice, and the entry's examples ('Take shelter of guru', 'Avoid bad association') are devotional vocabulary reported by former members; this page cites no document that shows the pressure. The GBC's written authority over initiating gurus is a structure, not the social pressure this entry describes.",
+  "reason": "P2-12: Codified described the guru-and-GBC structure, not the entry.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D035",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The messages the entry lists ('chant more', 'avoid bad association') are the movement's standard vocabulary about doubt; that senior devotees apply them as pressure rests on former-member testimony, not on a court record.",
+  "after": "**Evidence grade.** [[Cultural]] 'Chant more' and 'avoid bad association' are the movement's standard vocabulary about doubt, and senior devotees answering a doubter with them is ordinary community practice; that it works as organized pressure rests on former-member testimony, and this page cites no court or official record of it.",
+  "reason": "P2-11: the litigation basis speaks only to technique 26.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D036",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The labels the entry lists (fallen, envious, in maya) rest on former-member testimony; this volume cites no court finding that they were used as a campaign against leavers.",
+  "after": "**Evidence grade.** [[Taught]] The labels the entry lists (fallen, envious, in maya) come from the movement's own teaching about offense and departure; their use as a campaign against leavers rests on former-member testimony, and this page cites no court finding.",
+  "reason": "P2-11.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D037",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] That 'chant more' is the answer to a complaint rests on former-member testimony; this volume cites no record of a specific complaint handled this way.",
+  "after": "**Evidence grade.** [[Cultural]] Answering a complaint with 'chant more' or 'avoid offenses' is ordinary devotional vocabulary used by members; that it replaces an answer rests on former-member testimony, and this page cites no record of a specific complaint handled this way.",
+  "reason": "P2-11.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D038",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The entry's examples rest on the movement's teaching about offense, maya and service; the documented part is the long unpaid labor recorded in sections 3 and 9.",
+  "after": "**Evidence grade.** [[Taught]] The entry's examples rest on the movement's teaching about offense, maya and service. The long unpaid labor recorded in sections 3 and 9 is reported by former members, and this page cites no court record that establishes it.",
+  "reason": "P2-11.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D039",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The cycle of shame and relief the entry describes is drawn from the movement's teaching about maya and purification; this volume cites no record that shows the cycle directly.",
+  "after": "**Evidence grade.** [[Taught]] The cycle of shame and relief the entry describes is drawn from the movement's teaching about maya and purification; this page cites no record that shows the cycle directly.",
+  "reason": "P2-11.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D040",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The entry's examples (told to chant more, taught to distrust ordinary needs) rest on former-member testimony; this volume cites no record that measures the effect.",
+  "after": "**Evidence grade.** [[Taught]] The teaching that ordinary needs are contamination is the movement's doctrine; the entry's examples (told to chant more) rest on former-member testimony, and this page cites no record that measures the effect.",
+  "reason": "P2-11.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D041",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The framing of obedience, diet and unpaid labor as loving purification is the movement's own language; the documented part is the unpaid labor for room and board recorded in sections 3 and 9.",
+  "after": "**Evidence grade.** [[Taught]] The framing of obedience, diet and unpaid labor as loving purification is the movement's own language; that the unpaid labor for room and board is a burden rests on former-member accounts (sections 3 and 9), not on a court record.",
+  "reason": "P2-11.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D042",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The replacement of ordinary identity by devotee identity is described in this entry from the movement's own teaching; this volume cites no record that measures it.",
+  "after": "**Evidence grade.** [[Taught]] The replacement of ordinary identity by devotee identity is described from the movement's own teaching (the soul's identity as servant of Krishna); this page cites no record that measures it.",
+  "reason": "P2-11.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D043",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The entry's examples ('chant more' as the answer to abuse) rest on former-member testimony; the abuse itself is documented in litigation and in the movement's own 1998 acknowledgment (sections 5 and 8).",
+  "after": "**Evidence grade.** [[Documented]] ISKCON's own journal records leaders and staff dismissing or silencing reports of abuse in the gurukulas [1], and the abuse itself is documented in litigation and in the movement's 1998 acknowledgment (sections 5 and 8); the 'chant more' wording of the entry's examples comes from former-member testimony. *(sourced)*",
+  "reason": "P2-11: the grade now rests on a named document [1] about the response to abuse, not only on the abuse.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D044",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] Book distribution quotas and unpaid devotee labor, established in litigation and extensive former-member accounts. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] Full-time unpaid service for room and board is described by former members, and temples depend on donations and book sales; that this amounts to extraction without transparency is this entry's reading. Book quotas and unpaid labor rest on former-member and press accounts, and this page cites no court record that establishes them.",
+  "reason": "P2-11: the litigation basis (the gurukula case) does not reach quotas or unpaid labor; (sourced) removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D045",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Contested]] Whether surrender and obedience to a guru amounts to treating adult devotees as children is disputed within the movement; the entry's examples rest on its teaching about maya and on former-member accounts. *(sourced)*",
+  "after": "**Evidence grade.** [[Contested]] Whether surrender and obedience to a guru amounts to treating adult devotees as children is disputed within the movement; the entry's examples rest on its teaching about maya and on former-member accounts, and this page cites no document on the point.",
+  "reason": "P2-12: new basis for the Contested grade; (sourced) removed because no document is named.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D046",
+  "scope": "md",
+  "type": "grade",
+  "before": "| Evidence | 5 of 30 techniques sourced to a named document; grades: Documented 10, Cultural 9, Taught 5, Contested 3, Reformed 2, Codified 1 |",
+  "after": "| Evidence | 1 of 30 techniques sourced to a named document; grades: Documented 1, Cultural 15, Taught 11, Contested 3 |",
+  "reason": "P2-11/12: tally recomputed from the section 12 chips.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D047",
+  "scope": "md",
+  "type": "clarity",
+  "before": "**The answer.** So the profile grades that as reformed and says so.",
+  "after": "**The answer.** So the profile records those reforms (sections 5 and 20) and says so. None of the thirty techniques is graded Reformed, because the reforms changed the guru system and the schools, not the adult routines those entries describe.",
+  "reason": "P2-12: no technique is graded Reformed any more.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D048",
+  "scope": "md",
+  "type": "loop",
+  "before": "5. Reform broke the loop: the model was largely abandoned and a Child Protection Office was created (sections 5 and 10, technique 13).",
+  "after": "5. Reform broke the loop: the model was largely abandoned and a Child Protection Office was created (sections 5 and 10).",
+  "reason": "P2-12: technique 13 is no longer graded as the reform.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D049",
+  "scope": "md",
+  "type": "loop",
+  "before": "Prasadam distribution and charitable work generate genuine standing and local goodwill.\n\n**How it runs.**",
+  "after": "Prasadam distribution and charitable work generate genuine standing and local goodwill. This page records no leverage step in this loop: what the temple does with that standing is not recorded on this page.\n\n**How it runs.**",
+  "reason": "P2-13: the title promises a leverage step the steps never record.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D050",
+  "scope": "md",
+  "type": "loop",
+  "before": "Anti-cult hostility in the 1970s was real, and it is invoked to make the second generation's testimony look like an outside attack.",
+  "after": "Anti-cult hostility toward the movement from the mid-1970s is recorded in ISKCON's own journal [22]. This page reads it as invoked to make the second generation's testimony look like an outside attack; no cited document shows it used that way.",
+  "reason": "P2-14: the premise gets a source; the invoking step is marked as the page's reading.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D051",
+  "scope": "md",
+  "type": "loop",
+  "before": "1. Anti-cult hostility in the 1970s was real (recorded in this card only; no other section of this volume records it).",
+  "after": "1. From the mid-1970s, anti-cult groups in the United States questioned ISKCON, and deprogrammers kidnapped some devotees, as ISKCON's own journal records [22] (recorded in this card only; no other section of this volume records it).",
+  "reason": "P2-14.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D052",
+  "scope": "md",
+  "type": "fact",
+  "before": "1978–1987 | Zonal ācārya",
+  "after": "1977–1987 | Zonal ācārya",
+  "reason": "P2-15: the card says 1977–1987.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D053",
+  "scope": "md",
+  "type": "fact",
+  "before": "1896–1965 | Bhaktivedanta Swami Prabhupada's life and training in the Gaudiya Vaishnava line |",
+  "after": "1896–1977 | Bhaktivedanta Swami Prabhupada's life, his training in the Gaudiya Vaishnava line and his mission in the West |",
+  "reason": "P2-15: the row ended before his death.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D054",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Appointed commissioners |",
+  "after": "| Co-opted commissioners |",
+  "reason": "P2-15: the office table says co-option.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D055",
+  "scope": "narration",
+  "type": "proof",
+  "before": "(1978–1987)",
+  "after": "(1977–1987)",
+  "reason": "P2-15: narration repeated the old date.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D056",
+  "scope": "md",
+  "type": "fact",
+  "before": "### One cost of leaving, beside its denial\n\n| Cost | Documented? | Detail | The official denial |",
+  "after": "### One cost of leaving, beside its denial\n\n| Cost | Documented? | Detail | A typical reply (composite, not a quoted statement) |",
+  "reason": "P2-16: the quotations have no citation; marked as composites.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D057",
+  "scope": "md",
+  "type": "fact",
+  "before": "### The ledger of exit\n\n| Cost | Documented? | Detail | The official denial |",
+  "after": "### The ledger of exit\n\n| Cost | Documented? | Detail | A typical reply (composite, not a quoted statement) |",
+  "reason": "P2-16.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D058",
+  "scope": "md",
+  "type": "fact",
+  "before": "Doctrinal texts and initiation vows are published; abuse was never policy, but the residential structure was.",
+  "after": "Doctrinal texts and initiation vows are published. The movement's own journal describes abuse in the residential schools it ran [1][2]; this page cites no statement on whether it was ever policy.",
+  "reason": "P2-16: 'abuse was never policy' had no source.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D059",
+  "scope": "md",
+  "type": "fact",
+  "before": "Estimates range from several hundred thousand to a few million congregational members (devotees who live outside the temple and attend its programs); full-time residents of ashrams (temple communities where devotees live and serve) number in the low thousands globally. [ACADEMIC SOURCE]",
+  "after": "ISKCON itself says it has about a million congregational members (devotees who live outside the temple and attend its programs) and about 10,000 temple members (full-time residents of ashrams, the temple communities where devotees live and serve) worldwide; this page found no independent count [20]. [LEADERSHIP STATEMENT]",
+  "reason": "P3-17: the size estimate had no citation; replaced with the movement's own figures from a cited factsheet.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D060",
+  "scope": "md",
+  "type": "fact",
+  "before": "Estimates range from several hundred thousand to a few million congregational members; full-time ashram residents number in the low thousands globally. [ACADEMIC SOURCE]",
+  "after": "ISKCON itself says it has about a million congregational members and about 10,000 temple members (full-time ashram residents) worldwide; this page found no independent count [20]. [LEADERSHIP STATEMENT]",
+  "reason": "P3-17.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D061",
+  "scope": "md",
+  "type": "clarity",
+  "before": "And your movement did something almost no institution in this codex has done: it published an acknowledgment of what happened to its own children.",
+  "after": "And your movement did something few institutions in this codex have done: it published an acknowledgment of what happened to its own children, with more candor than most have managed.",
+  "reason": "P3-18: 'almost no institution' sat beside 'more candor than most'.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D062",
+  "scope": "md",
+  "type": "receipt",
+  "before": "They receive your obedience and your dakshina (donations offered to the guru). |  |",
+  "after": "They receive your obedience and your dakshina (donations offered to the guru). | [OFFICIAL POLICY / PATTERN OBSERVED] |",
+  "reason": "P3-20: empty receipt on the initiating-gurus row.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D063",
+  "scope": "md",
+  "type": "receipt",
+  "before": "They are built on twenty-five years of your work, with no equity to show for it. |  |",
+  "after": "They are built on twenty-five years of your work, with no equity to show for it. | [FORMER MEMBER TESTIMONY] |",
+  "reason": "P3-20: empty receipt on the temple-corporations row.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D064",
+  "scope": "md",
+  "type": "fact",
+  "before": "The cost was paid entirely by one generation of children, and that debt is not settled by structural reform.",
+  "after": "The cost fell on one generation of children, and that debt is not settled by structural reform.",
+  "reason": "P3-21: 'entirely' is unsourced.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D065",
+  "scope": "md",
+  "type": "fact",
+  "before": "They are then in late middle age with no work history.",
+  "after": "They are then left with no work history.",
+  "reason": "P3-21: 'late middle age' is unsourced.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D066",
+  "scope": "md",
+  "type": "fact",
+  "before": "Many still chant. They simply refused to let an institution's reputation matter more than a child's account of what happened to them. That is not envy. On your own theology, it may be the most devotional act in your movement's history.",
+  "after": "This page does not record how many of them still chant. They simply refused to let an institution's reputation matter more than a child's account of what happened to them. That is not envy. On your own theology, it can be read as a devotional act.",
+  "reason": "P3-23: unsourced assertions removed or qualified.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D067",
+  "scope": "md",
+  "type": "meta",
+  "before": "checked: 2026-09-27",
+  "after": "checked: 2026-10-03",
+  "reason": "Text rechecked after the discrepancy fixes.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D068",
+  "scope": "md",
+  "type": "meta",
+  "before": "| Last checked | 2026-09-27 |",
+  "after": "| Last checked | 2026-10-03 |",
+  "reason": "Same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D069",
+  "scope": "md",
+  "type": "changelog",
+  "before": "- **2026-09-27:** Added Branches,",
+  "after": "- **2026-10-03:** Updated the women-gurus ruling (February 2026) and the Bangalore temple case, which is still before the Supreme Court. Corrected the gurukula lawsuit figures (92 pupils sued; about 450 victims shared the settlement), the years of the New Vrindaban killings and the dates of the zonal era. Re-graded nine techniques whose evidence was former-member testimony rather than a court record, so the page now counts one technique as sourced to a named document. Replaced the unsourced size estimate with ISKCON's own figures, rewrote the Book Trust row from its own history, removed four generic money cards that did not fit, and marked the stock replies to critics as composites.\n- **2026-09-27:** Added Branches,",
+  "reason": "Patch note for this round (CLAUDE.md patch-notes rule).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D070",
+  "scope": "md",
+  "type": "source",
+  "before": "17. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/",
+  "after": "17. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/\n18. ISKCON News, \"Statement from the Executive Committee of the ISKCON GBC on Vaisnavi Diksa Gurus\" (14 Feb 2026) — qualified Vaisnavis to be recognized only as siksa-gurus until the question is resolved, except Narayani Devi Dasi, who remains diksa-guru of her current disciples. https://iskconnews.org/statement-from-the-executive-committee-of-the-iskcon-gbc-on-vaisnavi-diksa-gurus/\n19. Verdictum, report of the Supreme Court hearing of 17 Aug 2026 on ISKCON Mumbai's review of the Bengaluru temple judgment — the Chief Justice, Surya Kant, said \"We will consider this\" when asked to constitute a fresh bench. https://www.verdictum.in/supreme-court/plea-on-bengaluru-iskcon-temples-verdict-review-1620014\n20. Religion Media Centre, \"Factsheet: Iskcon and the Hare Krishna movement\" (3 July 2019) — ISKCON's own figures of about a million congregational members and 10,000 temple members worldwide. https://religionmediacentre.org.uk/factsheets/iskcon-factsheet/\n21. Bhaktivedanta Book Trust, \"History\" — founded by Prabhupada in 1972 to hold and publish his books; proceeds used for printing his books and building ISKCON centers; Prabhupada's 1970 statement that its trustees are also GBC members but its function does not depend on the GBC. https://bbt.info/history/\n22. Anuttama Dasa, introduction to the panel \"Can Cultic Groups Change: The Case of ISKCON\", *ISKCON Communications Journal* 7:2 (Dec 1999) — anti-cult groups from the mid-1970s, and deprogrammers' kidnapping of devotees. https://www.iskconcommunications.org/iskcon-journal/vol-7/can-cultic-groups-change-the-case-of-iskcon\n23. *Encyclopaedia Britannica*, \"Bhaktipada\" — accepted a plea deal on federal racketeering charges in 1996 and served eight years. https://www.britannica.com/biography/Bhaktipada",
+  "reason": "Adds sources 18-23 at the end of section 26 (P1-1, P1-2, P3-17, P2-9, P2-14, P3-24).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D071",
+  "scope": "md",
+  "type": "receipt",
+  "before": "the community's leader pleaded guilty to one racketeering count in 1996 [5]",
+  "after": "the community's leader pleaded guilty to one racketeering count in 1996 [5][23]",
+  "reason": "P3-24: second source for the 1996 plea.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "HK-D072",
+  "scope": "md",
+  "type": "receipt",
+  "before": "he pleaded guilty to one racketeering count in 1996 [5].",
+  "after": "he pleaded guilty to one racketeering count in 1996 [5][23].",
+  "reason": "P3-24.",
+  "count": 1,
+  "status": "proposed"
  }
 ]

@@ -1,3 +1,5 @@
+Status 2026-10-03: fixes applied, see hare-krishna-FIXLOG.md (deferred items remain open).
+
 # DISCREPANCIES — Hare Krishna / ISKCON, awaiting the owner's decision
 
 Format: **[Location]** what is wrong → proposed wording → why it matters. Nothing below has been changed in the text; each item touches the frozen layer (numbers, dates, receipts, grades, source entries, case tags) or asserts a claim the wording pass may not alter.
