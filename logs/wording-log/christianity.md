@@ -1,6 +1,6 @@
 # Wording log — christianity
 
-158 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/christianity.json`, then rebuild. Nothing else changes.
+156 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/christianity.json`, then rebuild. Nothing else changes.
 
 ## Fragments completed into sentences (77)
 
@@ -1491,7 +1491,7 @@
 
 *Reason:* Fragment completed; first prose use of 'EKD', expanded.
 
-## Proofreading (typos, punctuation, agreement) (9)
+## Proofreading (typos, punctuation, agreement) (7)
 
 ### CHR-P001 · md · §7 · proposed · build: applied
 
@@ -1576,30 +1576,6 @@
 > | Formally hold the authority the pastor exercises | That they were appointed by the person they oversee | Present unanimity | Vote yes on a budget they cannot explain to the congregation |
 
 *Reason:* Subject-verb agreement; doubled 'to'.
-
-### CHR-N001 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 4 documented cases on this page
-
-**After**
-
-> These are not hypotheticals. Four documented cases on this page
-
-*Reason:* Numeral at the start of a sentence spelled out.
-
-### CHR-N002 · narration · §22 · proposed · build: applied
-
-**Before**
-
-> This page covers United States, England and Germany.
-
-**After**
-
-> This page covers the United States, England and Germany.
-
-*Reason:* 'The United States' mid-sentence.
 
 ## Sentences completed or clarified (3)
 
