@@ -2009,5 +2009,645 @@
   "reason": "An editor's sourcing note had leaked into the reader's source list. It duplicated source 39, which carries the same two URLs and supports the same claim; no numbered source entry is changed.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "SHI-D001",
+  "scope": "md",
+  "type": "source",
+  "before": "39. Grand Ayatollah Sistani, *Islamic Laws*, \"Khums\" — surplus income and distribution. https://www.sistani.org/english/book/48/2306/ · https://www.sistani.org/english/book/48/2312/",
+  "after": "39. Grand Ayatollah Sistani, *Islamic Laws*, \"Khums\" — surplus income and distribution. https://www.sistani.org/english/book/48/2306/ · https://www.sistani.org/english/book/48/2312/\n40. Charity Commission, \"Charity regulator appoints interim manager to the Islamic Centre of England\" (4 May 2023) — the interim manager has all the trustees' powers and is appointed to the exclusion of the trustees. https://www.gov.uk/government/news/charity-regulator-appoints-interim-manager-to-the-islamic-centre-of-england\n41. Charity Commission, \"Regulator orders reform to governance at Islamic Centre of England\" (16 May 2025) — a section 84 order on governance; the statutory inquiry continues; the interim manager has been discharged; the requirement that one trustee be the Supreme Leader's UK representative was removed from the governing document. https://www.gov.uk/government/news/regulator-orders-reform-to-governance-at-islamic-centre-of-england\n42. Third Sector, \"Charity under inquiry reopens after settling insurance issue\" (Aug 2023), and Charity Times, \"Mosque run by under-investigation charity reopens\" — the mosque, closed since 23 May 2023 over insurance, reopened at the end of July 2023. https://www.thirdsector.co.uk/charity-inquiry-reopens-settling-insurance-issue/governance/article/1831822 · https://www.charitytimes.com/ct/Mosque-run-by-under-investigation-charity-reopens.php\n43. NPR, \"Judge Says Federal Law Against Female Genital Mutilation Violates U.S. Constitution\" (21 Nov 2018). https://www.npr.org/2018/11/21/669945997/judge-says-federal-law-against-female-genital-mutilation-violates-u-s-constituti\n44. The Detroit News, \"Female genital mutilation case tossed following yearslong fight\" (28 Sep 2021). https://www.detroitnews.com/story/news/local/detroit-city/2021/09/28/female-genital-mutilation-case-tossed-following-years-long-fight/5898796001/\n45. GovTrack, *STOP FGM Act of 2020* (H.R. 6100), signed 5 Jan 2021. https://www.govtrack.us/congress/bills/116/hr6100\n46. *The Queen v A2; The Queen v Magennis; The Queen v Vaziri* [2019] HCA 35 (16 Oct 2019). https://www.hcourt.gov.au/sites/default/files/eresources/2019/HCA/35.pdf\n47. Supreme Court of NSW, Justice R.A. Hulme, \"Court of Criminal Appeal Round-up 2020\" (discussing *A2 v R; Magennis v R; Vaziri v R* [2020] NSWCCA 7 — retrials ordered). https://supremecourt.nsw.gov.au/documents/Publications/Speeches/2021-Speeches/Hulme_20210407.pdf\n48. Illawarra Mercury / AAP, \"Case dropped against trio accused of female genital mutilation in Wollongong\" (Mar 2020). https://www.illawarramercury.com.au/story/6671992/case-dropped-against-trio-accused-of-female-genital-mutilation-in-wollongong/\n49. Al Jazeera, \"Iran sentences Nobel laureate Mohammadi to seven more years in prison\" (8 Feb 2026) — arrested 12 December at a memorial in Mashhad; six years for \"gathering and collusion\", one and a half for propaganda, two years' internal exile; the verdict can be appealed. https://www.aljazeera.com/news/2026/2/8/iran-sentences-nobel-laureate-mohammadi-to-seven-more-years-in-prison\n50. WUNC / NPR, \"Despite Mideast wars, 20 million gather in Iraq for Shia pilgrimage\" (10 Aug 2026). https://www.wunc.org/2026-08-10/despite-mideast-wars-20-million-gather-in-iraq-for-shia-pilgrimage",
+  "reason": "Adds sources [40]-[50] for the Islamic Centre of England notices, the two FGM case chains, Narges Mohammadi's 2026 sentence and Arbaeen 2026 (discrepancy items 1, 2, 16, 22).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D002",
+  "scope": "md",
+  "type": "source",
+  "before": "The National, trustees removed (10 May 2023) and charity closes (25 May 2023).",
+  "after": "The National, reports of the interim manager's appointment (10 May 2023) and the mosque's closure (25 May 2023).",
+  "reason": "Source [27] is described by what it reports, not by the headline's word 'removed' (item 1).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D003",
+  "scope": "md",
+  "type": "fact",
+  "before": "| The Charity Commission removed the trustees of the Supreme Leader's UK office in 2023 [27] |",
+  "after": "| The Charity Commission appointed an interim manager to run the Supreme Leader's UK office in place of its trustees in 2023 [27][40] |",
+  "reason": "Item 1: the Commission appointed an interim manager to the exclusion of the trustees on 4 May 2023; it did not remove them.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D004",
+  "scope": "md",
+  "type": "fact",
+  "before": "in May 2023 removed the trustees [27].",
+  "after": "in May 2023 appointed an interim manager to run the charity in place of its trustees [27][40].",
+  "reason": "Item 1: §19 case 'what'.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D005",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **record:** Charity Commission statutory inquiry (opened Nov 2022) [27]",
+  "after": "- **record:** Charity Commission statutory inquiry (opened Nov 2022) [27]; interim manager appointed 4 May 2023 [40]; section 84 order, 16 May 2025 [41]",
+  "reason": "Item 1: adds the two Commission notices to the case record.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D006",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **outcome:** The charity closed weeks later [27].",
+  "after": "- **outcome:** The mosque closed in May 2023 over insurance and reopened at the end of July 2023 [42]. In May 2025 the Commission ordered governance reforms and discharged the interim manager; the inquiry remains open [41].",
+  "reason": "Item 1: the charity did not close; the mosque closed temporarily over insurance and reopened; the 2025 order and open inquiry added (fact-check F13).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D007",
+  "scope": "md",
+  "type": "fact",
+  "before": "### The Leader's UK office and the charity regulator (United Kingdom, 2022–2023)\n- **when:** 2022–2023",
+  "after": "### The Leader's UK office and the charity regulator (United Kingdom, 2022–2025)\n- **when:** 2022–2025",
+  "reason": "Item 1: the case now runs to the May 2025 order.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D008",
+  "scope": "md",
+  "type": "fact",
+  "before": "the Supreme Leader's representative office operated until 2023 [27].",
+  "after": "the Islamic Centre of England, the Supreme Leader's representative office, is a registered charity whose governing document required one trustee to be his UK representative until the Charity Commission removed that requirement in 2025 [27][41].",
+  "reason": "Item 1: 'operated until 2023' was wrong; the office still operates and the 2025 order changed its governing document.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D009",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **documented:** The Charity Commission removed the Islamic Centre of England's trustees [27].",
+  "after": "- **documented:** The Charity Commission appointed an interim manager to the Islamic Centre of England in place of its trustees in May 2023, and ordered governance reforms in May 2025 [27][40][41].",
+  "reason": "Item 1: §22 UK documented line.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D010",
+  "scope": "md",
+  "type": "fact",
+  "before": "a regulator removed the Leader's own trustees, because they were a charity.",
+  "after": "a regulator took the Leader's own office out of its trustees' hands, because it was a charity.",
+  "reason": "Item 1: §22 UK tell, wording proposed in the discrepancy list.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D011",
+  "scope": "md",
+  "type": "layout",
+  "before": "::: case\n### Death in morality police custody\n\n- **when:** 2022\n- **what:** A young woman died in the custody of officers enforcing compulsory dress rules, triggering the largest protest wave in decades, including by devout Iranians. State response included mass arrests and deaths.\n- **record:** UN human rights reporting and international documentation\n- **outcome:** Enforcement continued with periodic relaxation. No senior cleric lost office. The case established that the enforcement apparatus is statutory rather than devotional.\n- **tactics:** 22, 27\n- **grade:** Documented\n:::\n\n::: cites\nSources for this section: [9]\n:::\n\n",
+  "after": "",
+  "reason": "Item 7: removes the duplicate first Amini case (and the source line that sat between the first and second cases); its outcome line and tags move into the Amini case below.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D012",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **outcome:** A harsher hijab law passed and was then paused in December 2024 [24].\n- **tactics:** 30, 21, 17",
+  "after": "- **outcome:** A harsher hijab law passed and was then paused in December 2024 [24]. Enforcement continued with periodic relaxation, and no senior cleric lost office.\n- **tactics:** 30, 17, 22, 27",
+  "reason": "Items 7 and 8: merges the duplicate case's outcome and tags; drops tag 21 (Learned Helplessness), which nothing in the case text supports.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D013",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **tactics:** 17, 14\n",
+  "after": "- **tactics:** —\n",
+  "reason": "Item 8: the Bahrain case is about a Sunni monarchy's treatment of Shia protesters, not a technique used by the Shia institution; no tag.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D014",
+  "scope": "md",
+  "type": "layout",
+  "before": "- **tactics:** 26, 30\n- **grade:** Documented\n:::\n\n## 20. Precedent {#precedent}",
+  "after": "- **tactics:** 26, 30\n- **grade:** Documented\n:::\n\n::: cites\nSources for this section: [9] [10] [24] [27] [30] [40] [41] [42]\n:::\n\n## 20. Precedent {#precedent}",
+  "reason": "Item 7: source line placed at the end of §19 and extended to the sources the cases cite.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D015",
+  "scope": "md",
+  "type": "fact",
+  "before": "in the first US federal FGM prosecution (Detroit, 2017), whose FGM counts fell when the 1996 federal law was ruled unconstitutional (Congress replaced it in 2021), and Australia’s first FGM prosecution (convictions 2015, quashed on appeal; the High Court clarified the law in 2019; charges dropped in 2020).",
+  "after": "in the first US federal FGM prosecution (Detroit, 2017), whose FGM counts were dismissed in November 2018 when the 1996 federal law was ruled unconstitutional (Congress replaced it in 2021) and whose remaining charges were dismissed in September 2021 [43][44][45], and in Australia’s first FGM prosecution (convictions in 2015, quashed on appeal in 2018; the High Court allowed the Crown’s appeals and clarified the law in 2019; retrials were ordered in 2020, and the Crown then abandoned the case) [46][47][48].",
+  "reason": "Item 2: gives the verified chain for both cases and sources them; replaces 'charges dropped in 2020' with the retrial-then-abandoned sequence (Bohra volume fact-check F3, F4).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D016",
+  "scope": "md",
+  "type": "fact",
+  "before": "Maharashtra outlawed social boycott generally in 2016. |",
+  "after": "Maharashtra outlawed social boycott generally by an Act dated 2016 that received assent in 2017 [7]. |",
+  "reason": "Item 23: date and source.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D017",
+  "scope": "md",
+  "type": "layout",
+  "before": "::: cites\nSources for this section: [7]\n:::",
+  "after": "::: cites\nSources for this section: [7] [43] [44] [45] [46] [47] [48]\n:::",
+  "reason": "Item 2: source line extended.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D018",
+  "scope": "md",
+  "type": "fact",
+  "before": "it has no public ledger anywhere [39]. What has numbers:",
+  "after": "it has no required public ledger [39]; where a marjaʿ’s network runs a registered charity abroad, that charity files accounts (section 14). What has numbers:",
+  "reason": "Item 3: 'no public ledger anywhere' contradicted section 14 and source [39] says nothing about ledgers.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D019",
+  "scope": "md",
+  "type": "fact",
+  "before": "is owed to needy descendants of the Prophet and is often routed through the same offices. No audited public accounting is required. [OFFICIAL POLICY: fiqh manuals] |",
+  "after": "is owed to needy descendants of the Prophet. No audited public accounting is required. [OFFICIAL POLICY: fiqh manuals] |",
+  "reason": "Item 12: 'often routed through the same offices' has no source; the sadat share may go directly to a needy sayyid [39].",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D020",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Khums is a 20% levy on annual surplus income. Half of it (sahm-e Imam) goes to the marjaʿ’s office as the Imam’s deputy; the other half (sahm-e sadat) is owed to needy descendants of the Prophet and is often routed through the same offices. No audited public accounting is required. [OFFICIAL POLICY: fiqh manuals]",
+  "after": "- Khums is a 20% levy, chiefly on annual surplus income. Half of it (sahm-e Imam) is paid to the marjaʿ’s office, or spent with its permission, as the Imam’s deputy; the other half (sahm-e sadat) is owed to needy descendants of the Prophet [39]. No audited public accounting is required. [OFFICIAL POLICY: fiqh manuals]",
+  "reason": "Item 12: states the khums rule as Sistani's Islamic Laws gives it; removes the unsourced routing claim.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D021",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Size | Shia Islam has about 200–260 million adherents (~10–13% of Muslims). [ACADEMIC SOURCE: Pew] |",
+  "after": "| Size | Shia Islam has about 200–260 million adherents. That applies Pew’s estimate of 10–13% of Muslims [16] to the current Muslim population; Pew’s own 2009 count was 154–200 million. [ACADEMIC SOURCE: Pew] |",
+  "reason": "Item 5: the range is a derivation, not a figure Pew published (fact-check F8).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D022",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Adherents | Shia Islam has about 200–260 million adherents (~10–13% of Muslims). [ACADEMIC SOURCE: Pew] |",
+  "after": "| Adherents | Shia Islam has about 200–260 million adherents. That applies Pew’s estimate of 10–13% of Muslims [16] to the current Muslim population; Pew’s own 2009 count was 154–200 million. [ACADEMIC SOURCE: Pew] |",
+  "reason": "Item 5: same, §7.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D023",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Who's in charge | The Supreme Leader of Iran, the office created by velayat-e faqih (rule by the senior Islamic jurist), is Ayatollah Mojtaba Khamenei. He was chosen in March 2026 after his father, Ali Khamenei, Leader since 1989, was killed in an air strike on 28 February 2026. The office holds constitutional authority over doctrine, courts, media and the bonyad economies (the holdings of the revolutionary foundations). |",
+  "after": "| Who's in charge | There are two apexes. In Iran, the Supreme Leader holds the office created by velayat-e faqih (rule by the senior Islamic jurist): Ayatollah Mojtaba Khamenei, chosen in March 2026 after his father, Ali Khamenei, Leader since 1989, was killed in an air strike on 28 February 2026. The office holds constitutional authority over doctrine, courts, media and the bonyad economies (the holdings of the revolutionary foundations). In Najaf, Grand Ayatollah Ali al-Sistani, among the most widely followed senior jurists, holds no office. |",
+  "reason": "Item 6: the first row answered 'who is in charge' for Iran only; §7 names two apexes.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D024",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **exit:** Leaving brings family and community costs, and the family code now follows sect [13].",
+  "after": "- **exit:** Leaving brings family and community costs; Shia families may now opt into a Jaʿfari family code [8][13].",
+  "reason": "Item 9: the Jaʿfari code is opt-in (fact-check F11, F12).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D025",
+  "scope": "md",
+  "type": "fact",
+  "before": "3. **Know your family-law exposure.** In Iraq and Lebanon, marriage, divorce and custody follow sect and are decided by religious courts [13][25].",
+  "after": "3. **Know your family-law exposure.** In Lebanon, marriage, divorce and custody are decided by each sect’s religious courts [25]; in Iraq, Shia families may opt into a Jaʿfari code [13].",
+  "reason": "Item 9: Iraq's personal-status courts are state courts; Lebanon's are religious.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D026",
+  "scope": "md",
+  "type": "fact",
+  "before": "**Source.** The source is a religious obligation with a fixed destination.\n\n**Path.** Licensed operators → Host state revenue → Concession holders\n\n**Disclosed.** Visa quotas and pricing are disclosed.\n\n**Hidden.** Margins and concession awards are hidden.",
+  "after": "**Source.** Devotional visitation to the shrine cities.\n\n**Path.** Pilgrims → Shrine administrations → Appointed custodians\n\n**Disclosed.** Headcounts, as with Arbaeen (21 million in 2025 [28]).\n\n**Hidden.** Donation totals and any concession awards are not recorded on this page.",
+  "reason": "Item 10: the card was the Hajj template (obligation, licensed operators, visa quotas); ziyara to the shrine cities is recommended, not obligatory, and no visa or concession record is on the page.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D027",
+  "scope": "md",
+  "type": "receipt",
+  "before": "move enormous unaudited sums through administrations appointed from above. [FINANCIAL RECORD]",
+  "after": "move large donation flows through administrations appointed from above, and no published accounts of those flows are cited on this page.",
+  "reason": "Item 11: the label FINANCIAL RECORD contradicted the point (no record exists); the receipt is removed and the claim qualified.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D028",
+  "scope": "md",
+  "type": "fact",
+  "before": "Devotional giving and shrine labor build conglomerates that answer to one appointed office.",
+  "after": "Devotional giving and shrine income build conglomerates that answer to one appointed office.",
+  "reason": "Item 13: no shrine labour is recorded anywhere in the volume; the steps run on giving and income.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D029",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Cost | Documented? | Detail | The official denial |",
+  "after": "| Cost | Documented? | Detail | The usual denial |",
+  "reason": "Item 14: the four denials are unsourced, so the column is labelled as usual denials, not official statements.",
+  "count": 2,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D030",
+  "scope": "md",
+  "type": "fact",
+  "before": "| “These are national security matters.” |",
+  "after": "| These are national security matters. |",
+  "reason": "Item 14: quotation marks dropped (no speaker or source).",
+  "count": 2,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D031",
+  "scope": "md",
+  "type": "fact",
+  "before": "| “Nobody forces belief in Shiism.” |",
+  "after": "| Nobody forces belief in Shiism. |",
+  "reason": "Item 14: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D032",
+  "scope": "md",
+  "type": "fact",
+  "before": "| “They chose another path.” |",
+  "after": "| They chose another path. |",
+  "reason": "Item 14: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D033",
+  "scope": "md",
+  "type": "fact",
+  "before": "| “A statement of doctrine, not a threat.” |",
+  "after": "| A statement of doctrine, not a threat. |",
+  "reason": "Item 14: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D034",
+  "scope": "md",
+  "type": "fact",
+  "before": "Shia are the majority in Iran and are concentrated in Iraq, Azerbaijan, Bahrain and Lebanon.",
+  "after": "Shia are the majority in Iran, Iraq, Azerbaijan and Bahrain, and are concentrated in Lebanon.",
+  "reason": "Item 15: §4 says Shia are a majority in four countries; §7 now agrees.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D035",
+  "scope": "md",
+  "type": "fact",
+  "before": "and she was awarded the Nobel Peace Prize in 2023 [21].",
+  "after": "and she was awarded the Nobel Peace Prize in 2023 [21]. She was re-arrested in December 2025 and sentenced in February 2026 to a further seven and a half years in prison, a verdict that can be appealed [49].",
+  "reason": "Item 16: current status (fact-check F18).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D036",
+  "scope": "md",
+  "type": "fact",
+  "before": "**What it was for.** It served no religious purpose. It was a visible loyalty test for a new regime consolidating control of public space.",
+  "after": "**What it was for.** The state’s stated purpose was religious. Critics describe it in practice as a visible loyalty test for a new regime consolidating control of public space.",
+  "reason": "Item 17: 'no religious purpose' was asserted without a source, against the state's own justification; now attributed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D037",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Shia are a minority targeted by sectarian killings, as with the Hazara of Balochistan [11]. |",
+  "after": "| Community clerics and trusts; no state religious office for Shia (see section 22). |",
+  "reason": "Item 18: the cell described persecution, not who holds the money and pulpit; persecution stays in section 22 [11].",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D038",
+  "scope": "md",
+  "type": "fact",
+  "before": "It is the smallest branch and the closest to Sunni doctrine;",
+  "after": "It is the branch closest to Sunni doctrine;",
+  "reason": "Item 24: 'smallest branch' conflicts with the Alawite row; the size claim is dropped.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D039",
+  "scope": "md",
+  "type": "fact",
+  "before": "They are led by a hereditary *dai* and are covered",
+  "after": "They are led by a *dai* who succeeds by his predecessor’s designation (nass) and are covered",
+  "reason": "Item 24: the Dawoodi Bohra dai is designated, not strictly hereditary.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D040",
+  "scope": "md",
+  "type": "fact",
+  "before": "where the answer to \"who is the top cleric?\" is also",
+  "after": "where the answer to \"who holds the top clerical office?\" is also",
+  "reason": "Item 25: the Leader is no longer among the senior marājiʿ by scholarly rank.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D041",
+  "scope": "md",
+  "type": "fact",
+  "before": "Clerics and citizens alike have been prosecuted for what they wrote [30].",
+  "after": "A cleric was convicted for what he wrote [30], and the UN fact-finding mission found crimes against humanity among the violations in the 2022 crackdown on protesters [9].",
+  "reason": "Item 26: [30] documents one cleric; the claim about citizens is restated to what [9] records.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D042",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Helpline [33] |",
+  "after": "| **0800 448 0748** (freephone; set hours, see website) [33] |",
+  "reason": "Item 27: the Faith to Faithless row printed no number; the row clearly refers to Faith to Faithless (ALL-F01).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D043",
+  "scope": "md",
+  "type": "fact",
+  "before": "**0800 5999 247** [38] |",
+  "after": "**0800 5999 247** (Mon–Fri 9am–5pm) [38] |",
+  "reason": "Item 27: Karma Nirvana's hours (fact-check F25).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D044",
+  "scope": "md",
+  "type": "fact",
+  "before": "by the shrine authorities' own electronic count — a figure no one independently audits [28].",
+  "after": "by the shrine authorities' own electronic count — a figure no one independently audits [28]. The 2026 pilgrimage drew about 20 million, during the regional war [50].",
+  "reason": "Item 22: 2026 figure.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D045",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Taught]] Reverence for the Ahl al-Bayt is taught; recasting criticism of a living cleric as disrespect to them is communal practice, with no written rule.",
+  "after": "**Evidence grade.** [[Cultural]] Recasting criticism of a living cleric as disrespect to the Ahl al-Bayt is communal practice, with no written rule; the reverence it draws on is taught, but the conduct is not.",
+  "reason": "Item 4: Taught → Cultural; the conduct is communal practice.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D046",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Taught]] Love for the Ahl al-Bayt and following a marjaʿ are taught; the widening demands described here come from local communities, not from written rule.",
+  "after": "**Evidence grade.** [[Cultural]] The widening demands described here come from local communities, not from written rule; the love for the Ahl al-Bayt and marjaʿ following that they draw on are taught.",
+  "reason": "Item 4: Taught → Cultural.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D047",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Taught]] Reverence for scholars and the Ahl al-Bayt is taught; turning a complaint into an accusation against the person who raised it is observed community practice, with no written rule.",
+  "after": "**Evidence grade.** [[Cultural]] Turning a complaint into an accusation against the person who raised it is observed community practice, with no written rule; the reverence for scholars and the Ahl al-Bayt it draws on is taught.",
+  "reason": "Item 4: Taught → Cultural.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D048",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] The pressure described here comes from family, majlis organizers, clerics and friends acting by custom; no written directive for it is recorded.",
+  "after": "**Evidence grade.** [[Cultural]] The pressure described here comes from family, majlis organizers, clerics and friends acting by custom; no written directive for it is recorded.",
+  "reason": "Item 4: Codified → Cultural.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D049",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] Recasting critics as disloyal is community practice; the formal instance on this page is the Special Court for the Clergy's conviction of Mohsen Kadivar for his writing (section 19).",
+  "after": "**Evidence grade.** [[Documented]] Recasting critics as disloyal is community practice; the court record on this page is the Special Court for the Clergy's conviction of Mohsen Kadivar for his writing (section 19) [30]. *(sourced)*",
+  "reason": "Item 4: Codified → Documented; the entry's own basis is a court record, and §19 tags the Kadivar case to it.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D050",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] Refusing questions about clerics and institutions is community practice; the documented form on this page is the bonyads and shrine conglomerates, which operate outside parliamentary oversight (sections 7 and 9). *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] Refusing questions about clerics and institutions is community practice, and no written rule directs it. The bonyads and shrine conglomerates operate outside parliamentary oversight (sections 7 and 9), but that is a structure of institutions, not the conduct this entry describes.",
+  "reason": "Item 4: Documented → Cultural; the entry describes refusing questions about clerics. *(sourced)* removed because no document is named.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D051",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] Marjaʿ following is taught as responsible devotion; the pressure that shapes ritual participation and silence is familial and communal.",
+  "after": "**Evidence grade.** [[Taught]] Marjaʿ following is taught as responsible devotion; the pressure that shapes ritual participation and silence is familial and communal.",
+  "reason": "Item 4: Codified → Taught.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D052",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] Karbala mourning is taught and observed; the attachment it produces to present authority is community practice, with no written rule.",
+  "after": "**Evidence grade.** [[Taught]] Karbala mourning is taught and observed; the attachment it produces to present authority is community practice, with no written rule.",
+  "reason": "Item 4: Codified → Taught.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D053",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] Minimizing a member's pain against Husayn's suffering is pastoral and family practice; no written rule directs it.",
+  "after": "**Evidence grade.** [[Cultural]] Minimizing a member's pain against Husayn's suffering is pastoral and family practice; no written rule directs it.",
+  "reason": "Item 4: Codified → Cultural.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D054",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] Clerical and family direction framed as protection is pastoral and family practice; the statutory form of it on this page is compulsory dress, enforced by the morality police under published Iranian law (sections 10 and 11). *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] Clerical and family direction framed as protection is pastoral and family practice, and no written rule directs it. Compulsory dress, enforced by the morality police under Iranian law (sections 10 and 11), is a statutory counterpart that this entry does not describe.",
+  "reason": "Item 4: Codified → Cultural; *(sourced)* removed because no document is named.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D055",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] The devotional identity described here is formed through mourning, ritual and family life; no written rule requires it.",
+  "after": "**Evidence grade.** [[Cultural]] The devotional identity described here is formed through mourning, ritual and family life; no written rule requires it.",
+  "reason": "Item 4: Codified → Cultural.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D056",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] Answering present harm with Karbala is pastoral and communal practice; no written rule directs it.",
+  "after": "**Evidence grade.** [[Cultural]] Answering present harm with Karbala is pastoral and communal practice; no written rule directs it.",
+  "reason": "Item 4: Codified → Cultural.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D057",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] Khums, including the portion payable to the marjaʿ, is set out in published fiqh manuals. *(sourced)*",
+  "after": "**Evidence grade.** [[Codified]] Khums, including the portion payable to the marjaʿ, is set out in published fiqh manuals (Sistani, *Islamic Laws* [39]). *(sourced)*",
+  "reason": "Item 4: grade kept; the named document [39] is now cited.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D058",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Taught]] Permanent mobilization framing around Karbala and external threat is delivered from state-aligned pulpits. *(sourced)*",
+  "after": "**Evidence grade.** [[Taught]] Permanent mobilization framing around Karbala and external threat is delivered from state-aligned pulpits; no document is named for it on this page.",
+  "reason": "Item 4: grade kept; *(sourced)* removed because no document is named.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D059",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] Replacing a questioner with a more visibly devoted mourner is community practice; no written rule directs it.",
+  "after": "**Evidence grade.** [[Cultural]] Replacing a questioner with a more visibly devoted mourner is community practice; no written rule directs it.",
+  "reason": "Item 4: Codified → Cultural.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D060",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] Denying coercion as 'only love' or as culture is observed community practice; the codified basis behind the grade is velayat-e faqih, which is constitutional law in Iran. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] Denying coercion as 'only love' or as culture is observed community practice, and no written rule directs it. Velayat-e faqih is constitutional law in Iran, but it is the structure of authority (section 10), not the denial this entry describes.",
+  "reason": "Item 4: Codified → Cultural; *(sourced)* removed because no document is named.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D061",
+  "scope": "md",
+  "type": "grade",
+  "before": "| Evidence | Five of the 30 techniques are sourced to a named document. The grades are Taught 14, Codified 12, Cultural 2, Documented 1 and Contested 1. |",
+  "after": "| Evidence | Two of the 30 techniques are sourced to a named document (17 and 26). The grades are Taught 13, Codified 2, Cultural 13, Documented 1 and Contested 1. |",
+  "reason": "Item 4: tally recomputed from the §12 chips after the regrades.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D062",
+  "scope": "md",
+  "type": "meta",
+  "before": "checked: 2026-09-27",
+  "after": "checked: 2026-10-03",
+  "reason": "Text rechecked after the discrepancy fixes.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D063",
+  "scope": "md",
+  "type": "meta",
+  "before": "| Last checked | 2026-09-27 |",
+  "after": "| Last checked | 2026-10-03 |",
+  "reason": "Same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHI-D064",
+  "scope": "md",
+  "type": "changelog",
+  "before": "- **2026-09-27:** Checked against the sources and corrected:",
+  "after": "- **2026-10-03:** Corrected the account of the Islamic Centre of England (the Charity Commission appointed an interim manager rather than removing the trustees, the mosque reopened, and the inquiry is still open); gave sourced, correct accounts of the two female genital cutting prosecutions; changed the khums claims to match the source; regraded eight techniques and recounted the grades; named the second apex of authority in the first table; corrected the Iraq family-law and pilgrimage statements; added Narges Mohammadi's 2026 sentence, the 2026 Arbaeen figure and the Faith to Faithless number; merged a duplicated case and removed claims the sources did not support.\n- **2026-09-27:** Checked against the sources and corrected:",
+  "reason": "Patch note for this round (CLAUDE.md patch-notes rule).",
+  "count": 1,
+  "status": "proposed"
  }
 ]

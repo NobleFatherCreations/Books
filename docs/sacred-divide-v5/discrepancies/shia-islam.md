@@ -1,5 +1,7 @@
 # DISCREPANCIES — Shia Islam, awaiting the owner's decision
 
+Status 2026-10-03: fixes applied, see shia-islam-FIXLOG.md (deferred items remain open).
+
 Format: **[Location]** what is wrong → what it should be (proposed wording) → why it matters. Nothing below has been changed in the text; every item touches the frozen layer (numbers, receipts, grades, source entries, case tags, quotations) or asserts a claim the wording pass may not alter or soften.
 Evidence for each item is in `logs/fact-check/shia-islam.md` (F-numbers). Omissions are in `docs/sacred-divide-v5/proposals/shia-islam.md`.
 

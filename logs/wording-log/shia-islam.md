@@ -1,6 +1,6 @@
 # Wording log — shia-islam
 
-178 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/shia-islam.json`, then rebuild. Nothing else changes.
+176 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/shia-islam.json`, then rebuild. Nothing else changes.
 
 ## Fragments completed into sentences (111)
 
@@ -1671,7 +1671,7 @@
 
 *Reason:* First use of Yazid glossed from the section 5 timeline.
 
-## Proofreading (typos, punctuation, agreement) (9)
+## Proofreading (typos, punctuation, agreement) (7)
 
 ### SHI-P001 · md · §7 · proposed · build: applied
 
@@ -1761,30 +1761,6 @@
 >
 
 *Reason:* An editor's sourcing note had leaked into the reader's source list. It duplicated source 39, which carries the same two URLs and supports the same claim; no numbered source entry is changed.
-
-### SHI-N001 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 5 documented cases on this page
-
-**After**
-
-> These are not hypotheticals. Five documented cases on this page
-
-*Reason:* Numeral at the start of a clause spelled out.
-
-### SHI-N002 · narration · §22 · proposed · build: applied
-
-**Before**
-
-> This page covers Iran, Iraq, Lebanon, Bahrain, Pakistan and United Kingdom.
-
-**After**
-
-> This page covers Iran, Iraq, Lebanon, Bahrain, Pakistan and the United Kingdom.
-
-*Reason:* Country name needs 'the'.
 
 ## Evidence-grade notes matched to their technique (25)
 
