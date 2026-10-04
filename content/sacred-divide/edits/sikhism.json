@@ -1794,5 +1794,535 @@
   "reason": "Section 13 had no source line. The loops synthesise material sourced in other sections, so they are labelled PATTERN OBSERVED and cross-referenced rather than given sources they do not have.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "SIK-D001",
+  "scope": "md",
+  "type": "proof",
+  "before": "elected body that runs the historic gurdwaras) installed him after it removed two predecessors in the same year amid open political conflict.",
+  "after": "elected body that runs the historic gurdwaras) installed him after it removed his predecessor, Giani Raghbir Singh, on 7 March 2025 amid open political conflict [3].",
+  "reason": "P1-1: the source records one Akal Takht removal, not two.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D002",
+  "scope": "md",
+  "type": "proof",
+  "before": "the SGPC installed him after it removed two predecessors in the same year amid open political conflict.",
+  "after": "the SGPC installed him after it removed his predecessor, Giani Raghbir Singh, on 7 March 2025 amid open political conflict [3].",
+  "reason": "P1-1: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D003",
+  "scope": "md",
+  "type": "proof",
+  "before": "Two Jathedars were removed in 2025 amid political conflict [3]",
+  "after": "The Jathedar, Giani Raghbir Singh, was removed on 7 March 2025 amid political conflict [3]",
+  "reason": "P1-1: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D004",
+  "scope": "md",
+  "type": "proof",
+  "before": "### Two Jathedars removed in one year (India, 2025)",
+  "after": "### The Jathedar of the Akal Takht removed (India, 2025)",
+  "reason": "P1-1 / P2: title claimed two removals; the case records one.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D005",
+  "scope": "md",
+  "type": "proof",
+  "before": "and the Jathedar removals [3].",
+  "after": "and the Jathedar removal [3].",
+  "reason": "P1-1: one removal.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D006",
+  "scope": "narration",
+  "type": "proof",
+  "before": "It removed two in 2025.",
+  "after": "It removed one, Giani Raghbir Singh, in March 2025.",
+  "reason": "P1-1: narration repeated the two-removals claim.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D007",
+  "scope": "md",
+  "type": "proof",
+  "before": "Diaspora gurdwaras have elected, transparent boards, and Sikh institutions have confronted dera abuses.",
+  "after": "Diaspora gurdwaras are run by elected committees, many of them registered charities (in England and Wales, accounts are public above the filing threshold [18]). This page does not record which diaspora gurdwaras publish their accounts. Sikh institutions have confronted dera abuses.",
+  "reason": "P1-3: 'transparent boards' contradicted the scene and the accountability argument; claim narrowed to what a source supports.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D008",
+  "scope": "md",
+  "type": "proof",
+  "before": "and there are two factions, and one of them took the other to court in 2019. Jasleen listens and does not participate. Nobody publishes accounts. Nobody has ever published accounts.",
+  "after": "and there are two factions who have not spoken since the last vote. Jasleen listens and does not participate. She has never seen the accounts, and she has never heard of anyone being shown them.",
+  "reason": "P1-3 / P2: scene asserted an unsourced court case and 'nobody has ever published accounts'; now one person's experience.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D009",
+  "scope": "md",
+  "type": "proof",
+  "before": "| Diaspora gurdwaras adopting elected boards and published accounts | Reforming committees | Ongoing | It cost faction conflict. |",
+  "after": "| Diaspora gurdwaras registered as charities, which must file public accounts above the income threshold in England and Wales [18] | Not recorded on this page | Ongoing | Not recorded on this page. This page names no gurdwara that has made the change. |",
+  "reason": "P1-3: the row claimed an adopted practice with no named case or source.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D010",
+  "scope": "md",
+  "type": "proof",
+  "before": "and diaspora gurdwaras that have adopted elected boards and published accounts show that it can be done (section 20).",
+  "after": "and a registered diaspora gurdwara charity must file accounts publicly above the income threshold (section 20); this page does not name one that does.",
+  "reason": "P1-3: loop 1 repeated the unsupported claim.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D011",
+  "scope": "md",
+  "type": "proof",
+  "before": "- **tell:** Where a gurdwara is a registered charity, its accounts are public.",
+  "after": "- **tell:** Where a gurdwara is a registered charity in England and Wales, it must file accounts with the Charity Commission above the income threshold [18]; Scottish charities answer to a different regulator, OSCR.",
+  "reason": "P3: 'accounts are public' overstated; threshold and jurisdiction added.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D012",
+  "scope": "md",
+  "type": "proof",
+  "before": "- **regulator:** The Charity Commission is the regulator.",
+  "after": "- **regulator:** The Charity Commission is the regulator in England and Wales.",
+  "reason": "P3: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D013",
+  "scope": "md",
+  "type": "proof",
+  "before": "- **when:** 2017–2019\n- **what:** The head of one of Punjab's largest deras was convicted of rape in 2017; a 2019 conviction for conspiring to murder a journalist was overturned on appeal in 2026 and is now before the Supreme Court.",
+  "after": "- **when:** 2017–2026\n- **what:** The head of Dera Sacha Sauda, which is headquartered at Sirsa in Haryana with a large following in Punjab, was convicted of rape in 2017 [6]. A 2019 conviction for conspiring to murder a journalist was overturned on appeal on 7 March 2026 and is now before the Supreme Court [6].",
+  "reason": "P2: dates and geography; the murder conviction is shown as overturned.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D014",
+  "scope": "md",
+  "type": "proof",
+  "before": "- **tactics:** 12, 22, 28\n- **grade:** Documented",
+  "after": "- **tactics:** —\n- **grade:** Documented",
+  "reason": "P3: DARVO, Benevolent Control and Discard do not describe a rape conviction; no technique on this page is described by the case text.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D015",
+  "scope": "md",
+  "type": "proof",
+  "before": "the leader of one of the largest deras was convicted of rape in 2017.",
+  "after": "the leader of Dera Sacha Sauda was convicted of rape in 2017.",
+  "reason": "P3: 'one of the largest' was unsourced.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D016",
+  "scope": "md",
+  "type": "proof",
+  "before": "| Complainants and a journalist who was murdered for reporting | 2017–2026 | It cost a life. |",
+  "after": "| Two women followers who complained, and the journalist Ram Chander Chhatrapati, who published an anonymous letter about the allegations and was shot in 2002 [6] | 2002–2026 | It cost a life. The 2019 conviction for his murder was overturned on appeal in March 2026; that appeal did not concern the 2017 rape conviction [6]. |",
+  "reason": "P2: the row implied the murder conviction stands.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D017",
+  "scope": "md",
+  "type": "proof",
+  "before": "the budget rose 17% in 2023–24 and 10% in 2025–26 [10][11].",
+  "after": "the budget rose about 15% in 2023–24 (₹988 to ₹1,138.14 crore), about 11% in 2024–25 and about 10% in 2025–26 [10][11].",
+  "reason": "P2: 988 to 1,138.14 is 15.2%, not 17%; the 2024–25 step is added from the same figures.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D018",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Contested]] The urgency is raised by families and community figures around hair, marriage and dissent, and no institution mandates it.",
+  "after": "**Evidence grade.** [[Cultural]] The urgency is raised by families and community figures around hair, marriage and dissent, and no institution mandates it.",
+  "reason": "P2: the entry's own basis is custom enforced by families, not a practice opposed elsewhere in the tradition.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D019",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Reformed]] Amrit initiation is voluntary and typically adolescent or adult — a genuine structural safeguard the tradition built deliberately. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] The pressure described here comes from family honor, community pride and martyr memory, and no written rule sets it. Amrit initiation is voluntary and typically adolescent or adult, a safeguard that sits beside this pressure and does not remove it.",
+  "reason": "P2: the safeguard is not evidence that the technique was reformed; (sourced) removed because no document is named.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D020",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] Golak revenues at historic gurdwaras are contested in statutory SGPC elections, with control of funds the acknowledged prize. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] The pressure described here comes from family, wedding and business-network expectation, and no institution sets it. The contested golak revenues at historic gurdwaras (section 9) are a separate matter and are not evidence for these bullets.",
+  "reason": "P2: the Documented basis (golak) and the entry's content (family and business pressure) covered different things; (sourced) removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D021",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Contested]] No clergy can excommunicate an ordinary member; chhaikka has been used against public figures and scholars. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] The discard described here is the withdrawal of family and community respect, and no institution mandates it. The one institutional discard is chhaikka, used by the Akal Takht against public figures and scholars such as Kala Afghana (section 19) [4]; it does not reach ordinary members.",
+  "reason": "P2: the basis (chhaikka against public figures) did not match the family-level bullets; regraded to the bullets' basis.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D022",
+  "scope": "md",
+  "type": "grade",
+  "before": "is family-enforced and doctrinally contradicted by the tradition's own scripture. *(sourced)*",
+  "after": "is family-enforced and doctrinally contradicted by the tradition's own scripture.",
+  "reason": "Brief step 6: (sourced) removed, no document is named.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D023",
+  "scope": "md",
+  "type": "grade",
+  "before": "are family-enforced and contradicted by the tradition's own scripture. *(sourced)*",
+  "after": "are family-enforced and contradicted by the tradition's own scripture.",
+  "reason": "Brief step 6: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D024",
+  "scope": "md",
+  "type": "grade",
+  "before": "| Evidence | Five of the 30 techniques are sourced to a named document; the grades are Cultural 26, Contested 2, Reformed 1 and Documented 1 |",
+  "after": "| Evidence | None of the 30 techniques is sourced to a named document; all 30 are graded Cultural |",
+  "reason": "Tally recomputed after the regrades (30 Cultural, 0 sourced).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D025",
+  "scope": "md",
+  "type": "proof",
+  "before": "Every harm in this profile is already forbidden by your own doctrine.",
+  "after": "Most of the harms in this profile are already forbidden by your own doctrine.",
+  "reason": "P3: 'every' overstated.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D026",
+  "scope": "md",
+  "type": "proof",
+  "before": "Every abuse in this profile is already forbidden by your own doctrine.",
+  "after": "Most of the abuses in this profile are already forbidden by your own doctrine; others, such as how a committee keeps its accounts, are not addressed in scripture and have to be asked for.",
+  "reason": "P3: not every item is addressed by scripture.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D027",
+  "scope": "md",
+  "type": "proof",
+  "before": "You have the strongest structural position of any reader of this codex.",
+  "after": "In structural terms your tradition gives you an unusual position among the readers of this codex.",
+  "reason": "P3: 'strongest of any reader' was opinion.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D028",
+  "scope": "md",
+  "type": "proof",
+  "before": "nobody is responsible for any of it because the authority was attributed to God.**",
+  "after": "nobody is responsible for any of it because the authority was attributed to culture and family honor.**",
+  "reason": "Brief step 9: theistic template wording replaced with this tradition's own account (the stage text says the authority invoked is culture and honor).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D029",
+  "scope": "md",
+  "type": "proof",
+  "before": "*The institution is never responsible, because the authority is attributed to God — who isn't available for cross-examination.*",
+  "after": "*The institution is never responsible, because the authority is attributed to culture and family honor, which no one can cross-examine.*",
+  "reason": "Brief step 9: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D030",
+  "scope": "md",
+  "type": "proof",
+  "before": "and the electoral roll has halved [1][2]",
+  "after": "and the electoral roll has fallen by almost half, about 46% (roughly 52 lakh voters in 2011 to 27.9 lakh in 2024) [1][2]",
+  "reason": "P3: the page's own figures give 46%, not half.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D031",
+  "scope": "md",
+  "type": "proof",
+  "before": "and the rolls have halved.",
+  "after": "and the rolls have fallen by almost half.",
+  "reason": "P3: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D032",
+  "scope": "md",
+  "type": "proof",
+  "before": "whose roll fell by half while waiting",
+  "after": "whose roll fell by almost half while waiting",
+  "reason": "P3: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D033",
+  "scope": "md",
+  "type": "proof",
+  "before": "overdue election and halved roll [1][2]",
+  "after": "overdue election and the roll that fell by almost half [1][2]",
+  "reason": "P3: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D034",
+  "scope": "narration",
+  "type": "proof",
+  "before": "and the electoral roll has halved.",
+  "after": "and the electoral roll has fallen by almost half.",
+  "reason": "P3: same, in narration.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D035",
+  "scope": "md",
+  "type": "proof",
+  "before": "he brought the kirpan case that settled the law for Sikhs across Canada [12].",
+  "after": "he brought the kirpan case in which the Supreme Court of Canada held that a total ban on a sealed kirpan at school was unconstitutional [12].",
+  "reason": "P3: the ruling concerned a school ban.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D036",
+  "scope": "md",
+  "type": "proof",
+  "before": "police abducted and murdered him in 1995, and six officers were later convicted [13].",
+  "after": "police abducted and murdered him in 1995, and six officers were convicted at trial; on appeal in 2007 five convictions were upheld and one officer was acquitted [13].",
+  "reason": "P3: the Ensaaf source records the sixth acquittal.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D037",
+  "scope": "md",
+  "type": "source",
+  "before": "six police officials convicted (2005); convictions upheld (2007, 2011).",
+  "after": "six police officials convicted (2005); on appeal five convictions upheld and one officer acquitted (2007); Supreme Court upheld (2011).",
+  "reason": "P3: source note corrected to match Ensaaf.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D038",
+  "scope": "md",
+  "type": "proof",
+  "before": "3. **An excommunication** has no legal force outside the community [4].",
+  "after": "3. **An excommunication** is a religious sanction issued by the Akal Takht [4]. This page cites no legal source on its legal effect, so take advice if one is used against you.",
+  "reason": "P2/P3: source [4] reports the edict and does not address legal effect.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D039",
+  "scope": "md",
+  "type": "proof",
+  "before": "operate on living-guru authority, courted by every political party.",
+  "after": "operate on living-guru authority and are courted by political parties.",
+  "reason": "P3: unsourced universal.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D040",
+  "scope": "md",
+  "type": "proof",
+  "before": "convictions arrived only after evidence became unbearable.",
+  "after": "the rape conviction of 2017 concerned assaults from 2002.",
+  "reason": "P3: editorial phrasing replaced with the sourced fact [6].",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D041",
+  "scope": "md",
+  "type": "proof",
+  "before": "with no party returning his support.",
+  "after": "with no party publicly withdrawing its support.",
+  "reason": "P3: 'returning' was ambiguous.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D042",
+  "scope": "md",
+  "type": "proof",
+  "before": "Appearance markers are assigned in infancy,",
+  "after": "Appearance markers are assigned in early childhood,",
+  "reason": "P3: section 11 says early childhood; the other places now agree.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D043",
+  "scope": "md",
+  "type": "proof",
+  "before": "a visible marker assigned in infancy, and boys who",
+  "after": "a visible marker assigned in early childhood, and boys who",
+  "reason": "P3: section 11 says early childhood; the other places now agree.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D044",
+  "scope": "md",
+  "type": "proof",
+  "before": "bearing family rupture over a visible marker assigned in infancy.",
+  "after": "bearing family rupture over a visible marker assigned in early childhood.",
+  "reason": "P3: section 11 says early childhood; the other places now agree.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D045",
+  "scope": "md",
+  "type": "proof",
+  "before": "a marker assigned in infancy.",
+  "after": "a marker assigned in early childhood.",
+  "reason": "P3: section 11 says early childhood; the other places now agree.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D046",
+  "scope": "md",
+  "type": "proof",
+  "before": "#### Dera and ashram economy",
+  "after": "#### Dera economy",
+  "reason": "P3: 'ashram' is not a Sikh term.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D047",
+  "scope": "md",
+  "type": "proof",
+  "before": "**Disclosed.** The organization discloses its charitable activity.\n\n**Hidden.** It hides asset ownership and personal use.",
+  "after": "**Disclosed.** Not recorded on this page.\n\n**Hidden.** Not recorded on this page.",
+  "reason": "Brief step 9: shared-template lines this page does not support.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D048",
+  "scope": "md",
+  "type": "source",
+  "before": "6. Dera Sacha Sauda head: rape conviction (2017) and the March 2026 acquittal in the Chhatrapati murder case — see the Hinduism page, sources 1–3. https://www.newsgram.com/law-order/2026/03/07/punjab-haryana-hc-acquits-gurmeet-ram-rahim-chhatrapati-murder-case",
+  "after": "6. Newsgram, \"Punjab and Haryana HC acquits Gurmeet Ram Rahim in Chhatrapati murder case\" (7 Mar 2026) — Dera Sacha Sauda head: special CBI court rape conviction (2017); life sentence for the murder of Ram Chander Chhatrapati (2019) overturned by the High Court on 7 March 2026; dera headquartered at Sirsa, Haryana. https://www.newsgram.com/law-order/2026/03/07/punjab-haryana-hc-acquits-gurmeet-ram-rahim-chhatrapati-murder-case",
+  "reason": "P2: source 6 pointed to another page; now cites the report directly.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D049",
+  "scope": "md",
+  "type": "source",
+  "before": "17. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/",
+  "after": "17. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/\n18. GOV.UK, Charity Commission, \"Charity reporting and accounting: the essentials\" (CC15d) — charities with income over £25,000 file their annual report and accounts with the Commission, and every charity must make its accounts available on request; the Commission regulates England and Wales. https://www.gov.uk/government/publications/charity-accounts/charity-reporting-and-accounting-the-essentials-november-2016-cc15d--2",
+  "reason": "New source for the diaspora accounts and UK charity edits.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D050",
+  "scope": "md",
+  "type": "meta",
+  "before": "checked: 2026-09-27",
+  "after": "checked: 2026-10-03",
+  "reason": "Text rechecked after the discrepancy fixes.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D051",
+  "scope": "md",
+  "type": "meta",
+  "before": "| Last checked | 2026-09-27 |",
+  "after": "| Last checked | 2026-10-03 |",
+  "reason": "Same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D052",
+  "scope": "md",
+  "type": "changelog",
+  "before": "- **2026-09-27:** Added Branches,",
+  "after": "- **2026-10-03:** Corrected the Akal Takht Jathedar removal (one removal, in March 2025, not two) and the dera leader's case, which now says his 2019 murder-conspiracy conviction was overturned and that the dera is headquartered in Haryana. Removed the claim that diaspora gurdwara boards are transparent and the unsourced court case in the opening scene. Fixed the SGPC budget growth percentage and the electoral-roll fall (about 46%, not half). Re-graded four techniques whose evidence was family pressure rather than a document, so the page now counts no technique as sourced to a named document. Rewrote the Khalra appeal outcome, the Canadian kirpan ruling and the note on legal effect of excommunication, and replaced a source that pointed to another page.\n- **2026-09-27:** Added Branches,",
+  "reason": "Patch note for this round (CLAUDE.md patch-notes rule).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SIK-D053",
+  "scope": "narration",
+  "type": "proof",
+  "before": "the conviction of a large Punjab dera's head for rape in 2017",
+  "after": "the conviction for rape in 2017 of the head of Dera Sacha Sauda, a dera based in Haryana with a large following in Punjab",
+  "reason": "P3: geography of the dera.",
+  "count": 1,
+  "status": "proposed"
  }
 ]

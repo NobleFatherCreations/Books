@@ -5,7 +5,7 @@ family: "Dharmic"
 family_id: dharmic
 family_members: [hinduism, hare-krishna, sikhism, jainism]
 version: v4
-checked: 2026-09-27
+checked: 2026-10-03
 sections_filled: 27/27
 missing: []
 partial: []
@@ -19,14 +19,14 @@ partial: []
 |  |  |
 |---|---|
 | Size | Sikhs number ~25–30 million. [ACADEMIC SOURCE: Pew, Indian census] |
-| Who's in charge | The Jathedar (the head of a takht, a seat of Sikh religious authority) of the Akal Takht, the highest temporal seat, is Giani Kuldeep Singh Gargaj, acting Jathedar since March 2025. The SGPC (Shiromani Gurdwara Parbandhak Committee, the elected body that runs the historic gurdwaras) installed him after it removed two predecessors in the same year amid open political conflict. |
+| Who's in charge | The Jathedar (the head of a takht, a seat of Sikh religious authority) of the Akal Takht, the highest temporal seat, is Giani Kuldeep Singh Gargaj, acting Jathedar since March 2025. The SGPC (Shiromani Gurdwara Parbandhak Committee, the elected body that runs the historic gurdwaras) installed him after it removed his predecessor, Giani Raghbir Singh, on 7 March 2025 amid open political conflict [3]. |
 | Chosen by / removable by | The SGPC executive chooses the Jathedar, and control of that body is itself won in party-contested elections / The SGPC can remove him, and it has removed Jathedars repeatedly, which is the finding that the panth's (the Sikh community's) highest moral office is hire-and-fire |
 | Money in one line | The money comes from golak (donation box) revenues of major gurdwaras, which are substantial; langar (the free communal kitchen) economies; diaspora remittances; and dera (sect-like movement) empires around living gurus. Dera Sacha Sauda's leader, convicted of rape in 2017, controlled a corporate-scale operation; a 2019 conviction for conspiring to murder a journalist was overturned on appeal in 2026 and is now before the Supreme Court. [COURT RECORD / INVESTIGATIVE REPORT] |
 | Leaving in one line | An Amritdhari (an initiated Sikh) who lapses faces community standing costs; family honor economies police marriage and appearance; and leaving a dera can mean losing an entire service-and-employment ecosystem. |
 | The unanswered question | The Gurus abolished caste five centuries ago. Why do the panth's own matrimonial pages still sort by it — and who profits from the sorting? |
-| Evidence | Five of the 30 techniques are sourced to a named document; the grades are Cultural 26, Contested 2, Reformed 1 and Documented 1 |
+| Evidence | None of the 30 techniques is sourced to a named document; all 30 are graded Cultural |
 | Family | Dharmic — hinduism, hare-krishna, sikhism, jainism |
-| Last checked | 2026-09-27 |
+| Last checked | 2026-10-03 |
 :::
 
 ### Disclosure scorecard
@@ -45,7 +45,7 @@ Her father does Nitnem (the daily prayers) at five and the sound of it through t
 
 At the gurdwara at seven for the langar shift, because her mother volunteers Tuesdays and Jasleen is filling in. Two hundred people will eat here today, anyone at all, no questions, on the same floor. She has thought many times that whatever else her community has got wrong, it got this profoundly right.
 
-In the kitchen the aunties are discussing the committee election. There is money in it — the golak, the hall hire, the building fund — and there are two factions, and one of them took the other to court in 2019. Jasleen listens and does not participate. Nobody publishes accounts. Nobody has ever published accounts.
+In the kitchen the aunties are discussing the committee election. There is money in it — the golak, the hall hire, the building fund — and there are two factions who have not spoken since the last vote. Jasleen listens and does not participate. She has never seen the accounts, and she has never heard of anyone being shown them.
 
 At eleven her cousin Simran calls, crying, because Simran's parents have found out about her boyfriend, whose family is Ravidasia (followers of the teachings of Guru Ravidas). Jasleen says all the right things. She does not say the thing she is actually thinking, which is that the Guru Granth Sahib (the Sikh scripture) is extremely clear about this and that everyone in both houses can read it, and that it will make no difference whatsoever.
 
@@ -83,7 +83,7 @@ The Gurus abolished caste five centuries ago. Why do the panth's own matrimonial
 
 **What is true in it.** The objection is largely true, and this codex agrees explicitly — caste, dowry, and sex selection are all condemned by the tradition's own scripture, which makes them cultural imports rather than religious teaching.
 
-**The answer.** But that concession creates the sharper question: why does culture win every time it conflicts with the Gurus? The work here is not deconstruction, it is enforcement. Every harm in this profile is already forbidden by your own doctrine.
+**The answer.** But that concession creates the sharper question: why does culture win every time it conflicts with the Gurus? The work here is not deconstruction, it is enforcement. Most of the harms in this profile are already forbidden by your own doctrine.
 
 ## 4. What healthy looks like here {#healthy}
 
@@ -91,7 +91,7 @@ The Gurus abolished caste five centuries ago. Why do the panth's own matrimonial
 Sikhs number ~25–30 million, with a homeland in Punjab and a major global diaspora. The tradition is founded on devotion to one God, equality, honest work and service, and its scripture, the Guru Granth Sahib, is the eternal Guru.
 :::
 
-- The tradition's built-in defenses are that it has no priests, that the congregation has direct access to scripture, and that langar practices radical equality. Diaspora gurdwaras have elected, transparent boards, and Sikh institutions have confronted dera abuses.
+- The tradition's built-in defenses are that it has no priests, that the congregation has direct access to scripture, and that langar practices radical equality. Diaspora gurdwaras are run by elected committees, many of them registered charities (in England and Wales, accounts are public above the filing threshold [18]). This page does not record which diaspora gurdwaras publish their accounts. Sikh institutions have confronted dera abuses.
 
 Guruship passed to the scripture in 1708, which ended human succession [8]. The Sikh Rehat Maryada (the code of conduct) is published by the SGPC and sets out women's full participation [9].
 
@@ -183,7 +183,7 @@ A tradition that abolished priesthood grew a political one, and the highest seat
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| Jathedar of the Akal Takht — the highest temporal seat | Giani Kuldeep Singh Gargaj has been acting Jathedar since March 2025; the SGPC installed him after it removed two predecessors in the same year amid open political conflict. | The SGPC executive chooses the Jathedar, and control of that body is itself won in party-contested elections. | The SGPC can remove him, and it has removed Jathedars repeatedly, which is the finding that the panth's highest moral office is hire-and-fire. |
+| Jathedar of the Akal Takht — the highest temporal seat | Giani Kuldeep Singh Gargaj has been acting Jathedar since March 2025; the SGPC installed him after it removed his predecessor, Giani Raghbir Singh, on 7 March 2025 amid open political conflict [3]. | The SGPC executive chooses the Jathedar, and control of that body is itself won in party-contested elections. | The SGPC can remove him, and it has removed Jathedars repeatedly, which is the finding that the panth's highest moral office is hire-and-fire. |
 | SGPC presidency | The president is elected annually and controls the golak revenues of the historic gurdwaras, the acknowledged prize of the elections. | Statutory elections choose the president. | The next vote can remove the president. |
 | The deras | They are parallel thrones with millions of followers and nothing above the throne. Dera Sacha Sauda ran until a criminal court, not the panth, stopped its head. | Deras are self-founding. | A court can remove a dera head, after conviction. |
 
@@ -209,14 +209,14 @@ Sources for this section: [1] [3] [6] [7]
 
 | Country | What the law does | The accountability question |
 |---|---|---|
-| **India — gurdwaras** | The Sikh Gurdwaras Act 1925 makes the SGPC an elected body with a five-year term [1] | Its general house (the SGPC's full assembly) has not faced an election since 2011, and the electoral roll has halved [1][2] |
-| **India — Akal Takht** | The Jathedar is appointed and removed by the SGPC [3] | Two Jathedars were removed in 2025 amid political conflict [3] |
+| **India — gurdwaras** | The Sikh Gurdwaras Act 1925 makes the SGPC an elected body with a five-year term [1] | Its general house (the SGPC's full assembly) has not faced an election since 2011, and the electoral roll has fallen by almost half, about 46% (roughly 52 lakh voters in 2011 to 27.9 lakh in 2024) [1][2] |
+| **India — Akal Takht** | The Jathedar is appointed and removed by the SGPC [3] | The Jathedar, Giani Raghbir Singh, was removed on 7 March 2025 amid political conflict [3] |
 | **India — excommunication** | The Akal Takht can excommunicate [4] | The scholar Gurbaksh Singh Kala Afghana was excommunicated in 2003 [4] |
 | **Canada** | The Charter protects freedom of religion [12]. | The Supreme Court held in 2006 that a school's outright ban on a student's kirpan (the dagger Sikhs carry as an article of faith), even sealed in his clothing, was unconstitutional [12]. |
 
 ### Who can compel an answer
 
-Three routes can compel an answer. The first is the SGPC's statutory elections, a genuine lever on paper, though the general house has not faced voters since 2011 and the rolls have halved. The second is the Gurdwara Election Commission, which must call them. The third is the courts, which supervise gurdwara trusts abroad. The Jathedar cannot be petitioned; the body that hires him has not been voted on in fifteen years.
+Three routes can compel an answer. The first is the SGPC's statutory elections, a genuine lever on paper, though the general house has not faced voters since 2011 and the rolls have fallen by almost half. The second is the Gurdwara Election Commission, which must call them. The third is the courts, which supervise gurdwara trusts abroad. The Jathedar cannot be petitioned; the body that hires him has not been voted on in fifteen years.
 
 ## 9. Money {#money}
 
@@ -236,15 +236,15 @@ Three routes can compel an answer. The first is the SGPC's statutory elections, 
 ### Pipelines this tradition shares
 
 ::: card
-#### Dera and ashram economy
+#### Dera economy
 
 **Source.** The money comes from devotee giving and unpaid service.
 
 **Path.** It runs from the living guru's organization to family-held entities and then to political protection.
 
-**Disclosed.** The organization discloses its charitable activity.
+**Disclosed.** Not recorded on this page.
 
-**Hidden.** It hides asset ownership and personal use.
+**Hidden.** Not recorded on this page.
 :::
 
 ::: card
@@ -272,7 +272,7 @@ Sources for this section: [6]
  "cite":[10,11]}
 ```
 
-- **Growth:** the budget rose 17% in 2023–24 and 10% in 2025–26 [10][11].
+- **Growth:** the budget rose about 15% in 2023–24 (₹988 to ₹1,138.14 crore), about 11% in 2024–25 and about 10% in 2025–26 [10][11].
 - **Accountability:** the general house that passes this budget was last elected in 2011 [1].
 - **Deras** publish no comparable accounts [6].
 
@@ -285,7 +285,7 @@ Sources for this section: [6]
 
 **What it was for.** It served no purpose within Sikh doctrine; it is the precise thing the scriptural guruship was created to prevent. Their appeal is real, though: deras have served marginalized-caste Punjabis whom mainstream gurdwaras treated poorly.
 
-**Why that reason expired.** It was never legitimate doctrinally, and the outcomes are documented: the leader of one of the largest deras was convicted of rape in 2017. His 2019 conviction for conspiracy to murder a journalist was overturned on appeal in 2026 and is now before the Supreme Court. [COURT RECORD]
+**Why that reason expired.** It was never legitimate doctrinally, and the outcomes are documented: the leader of Dera Sacha Sauda was convicted of rape in 2017. His 2019 conviction for conspiracy to murder a journalist was overturned on appeal in 2026 and is now before the Supreme Court. [COURT RECORD]
 
 **Who benefits now.** Dera chiefs and their families benefit, running large operations with political protection because their followers vote in blocs.
 :::
@@ -723,7 +723,7 @@ Golak cash flows at historic gurdwaras are fought over in committee elections. D
 
 **The counter.** Community care becomes FLYING MONKEY pressure when identity is enforced through shame. If relatives, elders, and community members converge on someone’s hair, marriage, body, or silence, they are not protecting dignity. They are policing it.
 
-**Evidence grade.** [[Cultural]] Honor pressure on appearance and marriage is family-enforced and doctrinally contradicted by the tradition's own scripture. *(sourced)*
+**Evidence grade.** [[Cultural]] Honor pressure on appearance and marriage is family-enforced and doctrinally contradicted by the tradition's own scripture.
 :::
 
 ::: tactic n=17
@@ -780,7 +780,7 @@ Golak cash flows at historic gurdwaras are fought over in committee elections. D
 
 **The counter.** Commitment is free only if refusal is safe. If changing appearance, marrying freely, or criticizing leadership costs belonging and honor, the community has manufactured consent around identity.
 
-**Evidence grade.** [[Reformed]] Amrit initiation is voluntary and typically adolescent or adult — a genuine structural safeguard the tradition built deliberately. *(sourced)*
+**Evidence grade.** [[Cultural]] The pressure described here comes from family honor, community pride and martyr memory, and no written rule sets it. Amrit initiation is voluntary and typically adolescent or adult, a safeguard that sits beside this pressure and does not remove it.
 :::
 
 ::: tactic n=20
@@ -837,7 +837,7 @@ Golak cash flows at historic gurdwaras are fought over in committee elections. D
 
 **The counter.** Identity becomes BENEVOLENT CONTROL when it is not freely held. If love and honor depend on maintaining appearance, marriage expectations, and silence, dignity has become conditional approval.
 
-**Evidence grade.** [[Cultural]] Appearance and marriage expectations are family-enforced and contradicted by the tradition's own scripture. *(sourced)*
+**Evidence grade.** [[Cultural]] Appearance and marriage expectations are family-enforced and contradicted by the tradition's own scripture.
 :::
 
 ::: tactic n=23
@@ -915,7 +915,7 @@ Golak cash flows at historic gurdwaras are fought over in committee elections. D
 
 **The counter.** Service becomes FINANCIAL CONTROL when generosity turns into expectation. If family honor, business ties, marriage networks, and gurdwara standing depend on compliance, the community has made money a quiet enforcer.
 
-**Evidence grade.** [[Documented]] Golak revenues at historic gurdwaras are contested in statutory SGPC elections, with control of funds the acknowledged prize. *(sourced)*
+**Evidence grade.** [[Cultural]] The pressure described here comes from family, wedding and business-network expectation, and no institution sets it. The contested golak revenues at historic gurdwaras (section 9) are a separate matter and are not evidence for these bullets.
 :::
 
 ### Stage 7 · Discard {#stage-7}
@@ -944,7 +944,7 @@ Institutionally the cost is little, because no clergy can excommunicate you. Fam
 
 **The counter.** Preservation becomes MANUFACTURED CRISIS when personal change is treated as communal collapse. If one person’s hair, marriage, or dissent is made to carry the weight of the panth, fear has replaced dignity.
 
-**Evidence grade.** [[Contested]] The urgency is raised by families and community figures around hair, marriage and dissent, and no institution mandates it.
+**Evidence grade.** [[Cultural]] The urgency is raised by families and community figures around hair, marriage and dissent, and no institution mandates it.
 :::
 
 ::: tactic n=28
@@ -963,13 +963,13 @@ Institutionally the cost is little, because no clergy can excommunicate you. Fam
 
 **The counter.** Dignity becomes DISCARD when personal change makes love withdraw. If the community’s respect depends on visible conformity, then identity is not freely honored. It is policed.
 
-**Evidence grade.** [[Contested]] No clergy can excommunicate an ordinary member; chhaikka has been used against public figures and scholars. *(sourced)*
+**Evidence grade.** [[Cultural]] The discard described here is the withdrawal of family and community respect, and no institution mandates it. The one institutional discard is chhaikka, used by the Akal Takht against public figures and scholars such as Kala Afghana (section 19) [4]; it does not reach ordinary members.
 :::
 
 ### Stage 8 · Replace {#stage-8}
 
 ::: stage
-**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to God.**
+**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to culture and family honor.**
 
 No one can strike you from a roll, so the gurdwara continues and your family quietly reorganizes. And the authority invoked is not even religious most of the time — it is culture, honor, what people will say.
 
@@ -998,7 +998,7 @@ No one can strike you from a roll, so the gurdwara continues and your family qui
 ::: tactic n=30
 #### 30 · Plausible Deniability {#t-30}
 
-*The institution is never responsible, because the authority is attributed to God — who isn't available for cross-examination.*
+*The institution is never responsible, because the authority is attributed to culture and family honor, which no one can cross-examine.*
 
 **How it shows here**
 
@@ -1038,7 +1038,7 @@ Golak revenue funds committees whose control is a statutory electoral prize, and
 
 **Why it closes.** The committees that receive the golak also decide who preaches (section 10), and they hold office through elections fought over that revenue (sections 7 and 9). Oversight of those cash flows is contested (section 9).
 
-**Where it could be broken, and by whom.** It weakens wherever the money becomes visible. The general house that passes the SGPC budget has not been elected since 2011 (section 9), and a general election held on schedule would revise the political-capture finding (section 20). A giver can ask the committee for the golak accounts (section 23), and diaspora gurdwaras that have adopted elected boards and published accounts show that it can be done (section 20). This paragraph is analysis, not a documented finding.
+**Where it could be broken, and by whom.** It weakens wherever the money becomes visible. The general house that passes the SGPC budget has not been elected since 2011 (section 9), and a general election held on schedule would revise the political-capture finding (section 20). A giver can ask the committee for the golak accounts (section 23), and a registered diaspora gurdwara charity must file accounts publicly above the income threshold (section 20); this page does not name one that does. This paragraph is analysis, not a documented finding.
 
 **An example from this page.** The SGPC passed a budget of ₹1,386.47 crore for 2025–26, and the general house that passed it was last elected in 2011 (section 9).
 :::
@@ -1068,7 +1068,7 @@ Family honor rather than doctrine supplies the fear, the community supplies the 
 ::: card
 #### 3 · Children to Members to Children
 
-Appearance markers are assigned in infancy, and marriage networks price a whole family's conformity.
+Appearance markers are assigned in early childhood, and marriage networks price a whole family's conformity.
 
 **How it runs.**
 
@@ -1084,7 +1084,7 @@ Appearance markers are assigned in infancy, and marriage networks price a whole 
 
 **Where it could be broken, and by whom.** It weakens where identity is chosen rather than assigned. Amrit initiation is voluntary and typically adolescent or adult, a safeguard the tradition built deliberately (section 11). Teachers and camp leaders could refuse to teach the honor norms the Gurus condemned (section 18). This paragraph is analysis, not a documented finding.
 
-**An example from this page.** Youth who cut their hair bear family rupture over a visible marker assigned in infancy, and boys who were bullied for it are then punished for stopping (sections 16 and 17).
+**An example from this page.** Youth who cut their hair bear family rupture over a visible marker assigned in early childhood, and boys who were bullied for it are then punished for stopping (sections 16 and 17).
 :::
 
 ::: card
@@ -1134,7 +1134,7 @@ The sangat's labor builds and maintains the institutions, and committees and der
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
-A dera leader is convicted and his organization continues, with no party returning his support.
+A dera leader is convicted and his organization continues, with no party publicly withdrawing its support.
 
 **How it runs.**
 
@@ -1184,7 +1184,7 @@ A dera leader is convicted and his organization continues, with no party returni
 | Sikhism rejects caste absolutely. | Caste-based gurdwaras exist, and inter-caste marriage still ends families. | [ACADEMIC SOURCE] |
 | Women are fully equal in Sikhi. | Women are largely absent from senior committee and kirtan roles at the historic gurdwaras. | [PATTERN OBSERVED] |
 | Female infanticide is a grave sin. | Punjab developed one of India's most skewed sex ratios. | [GOVERNMENT REPORT] |
-| The Guru Granth Sahib is the only Guru. | Deras with millions of followers operate on living-guru authority, courted by every political party. | [COURT RECORD] |
+| The Guru Granth Sahib is the only Guru. | Deras with millions of followers operate on living-guru authority and are courted by political parties. | [COURT RECORD] |
 
 ### Accountability or theatre?
 
@@ -1241,7 +1241,7 @@ Sources for this section: [9]
 
 ### Money out, leverage back
 
-- Dera leaders deliver bloc votes and receive political protection in exchange; convictions arrived only after evidence became unbearable. Devotion is converted into electoral currency. [COURT RECORD / INVESTIGATIVE REPORT]
+- Dera leaders deliver bloc votes and receive political protection in exchange; the rape conviction of 2017 concerned assaults from 2002. Devotion is converted into electoral currency. [COURT RECORD / INVESTIGATIVE REPORT]
 - Control of historic gurdwaras means control of very large donation flows, making religious office a party-political prize with real money attached. [INVESTIGATIVE REPORT]
 - Diaspora gurdwara factions have litigated and occasionally fought over committee control — remittances from abroad are the asset being contested. [COURT RECORD]
 
@@ -1250,7 +1250,7 @@ Sources for this section: [9]
 - Girls and women pay, through dowry, sex-selective abortion, and honor pressure that doctrine explicitly forbids.
 - Dalit Sikhs (Sikhs from castes formerly treated as untouchable) pay, facing caste exclusion including separate gurdwaras.
 - Dera followers pay, subjected to documented abuse.
-- Youth who cut their hair pay, bearing family rupture over a visible marker assigned in infancy.
+- Youth who cut their hair pay, bearing family rupture over a visible marker assigned in early childhood.
 - Scholars pay, excommunicated for historical research. [INVESTIGATIVE REPORT]
 
 ## 17. Who gets hurt most {#who-gets-hurt}
@@ -1264,7 +1264,7 @@ The costs in section 15 do not fall evenly. Section 16 names the groups that pay
 | Girls and women | They carry dowry, sex-selective abortion and honor pressure, every one of them doctrinally forbidden. | It compounds where family standing is the family's only asset. |
 | Dalit Sikhs | They face caste exclusion, including separate gurdwaras, against explicit scripture. | It compounds with landlessness in rural Punjab. |
 | Dera followers | They suffer documented abuse inside total organizations. | It compounds for marginalized-caste members whose only welcome was the dera. |
-| Young people who cut their hair | They bear family rupture over a marker assigned in infancy. | It compounds for boys who were bullied for it and then punished for stopping. |
+| Young people who cut their hair | They bear family rupture over a marker assigned in early childhood. | It compounds for boys who were bullied for it and then punished for stopping. |
 | Scholars | They are excommunicated for historical research. | It compounds with loss of every institutional position. |
 
 ## 18. The middle tiers {#tiers}
@@ -1283,11 +1283,11 @@ Most of a gurdwara's daily work is done below the Jathedar and the SGPC, by peop
 ::: case
 ### Conviction of a dera leader
 
-- **when:** 2017–2019
-- **what:** The head of one of Punjab's largest deras was convicted of rape in 2017; a 2019 conviction for conspiring to murder a journalist was overturned on appeal in 2026 and is now before the Supreme Court. The organization had operated at corporate scale with political protection and bloc-vote influence.
+- **when:** 2017–2026
+- **what:** The head of Dera Sacha Sauda, which is headquartered at Sirsa in Haryana with a large following in Punjab, was convicted of rape in 2017 [6]. A 2019 conviction for conspiring to murder a journalist was overturned on appeal on 7 March 2026 and is now before the Supreme Court [6]. The organization had operated at corporate scale with political protection and bloc-vote influence.
 - **record:** Indian court judgments
 - **outcome:** He was imprisoned. The case demonstrates the risk of the living-guru model in a tradition whose scripture ended human guruship in 1708.
-- **tactics:** 12, 22, 28
+- **tactics:** —
 - **grade:** Documented
 :::
 
@@ -1306,7 +1306,7 @@ Sources for this section: [6]
 :::
 
 ::: case
-### Two Jathedars removed in one year (India, 2025)
+### The Jathedar of the Akal Takht removed (India, 2025)
 - **when:** 2025
 - **what:** The SGPC removed Giani Raghbir Singh as Jathedar of the Akal Takht in March 2025 and appointed an acting Jathedar [3].
 - **record:** ThePrint, 7 March 2025 [3]
@@ -1333,8 +1333,8 @@ Sources for this section: [6]
 |---|---|---|---|
 | Scriptural guruship itself — ending human succession in 1708 | Guru Gobind Singh | 1708 | It cost nothing, and it is the most deliberate anti-control act in this codex. |
 | Langar as radical equality, still functioning daily worldwide | The tradition, continuously | Since the founding | It cost nothing. |
-| Rape conviction of a dera leader with mass following and political protection | Complainants and a journalist who was murdered for reporting | 2017–2026 | It cost a life. |
-| Diaspora gurdwaras adopting elected boards and published accounts | Reforming committees | Ongoing | It cost faction conflict. |
+| Rape conviction of a dera leader with mass following and political protection | Two women followers who complained, and the journalist Ram Chander Chhatrapati, who published an anonymous letter about the allegations and was shot in 2002 [6] | 2002–2026 | It cost a life. The 2019 conviction for his murder was overturned on appeal in March 2026; that appeal did not concern the 2017 rape conviction [6]. |
+| Diaspora gurdwaras registered as charities, which must file public accounts above the income threshold in England and Wales [18] | Not recorded on this page | Ongoing | Not recorded on this page. This page names no gurdwara that has made the change. |
 
 ### What would change this page
 
@@ -1347,9 +1347,9 @@ Sources for this section: [6]
 ## 21. Voices from inside {#voices}
 
 - **Gurbaksh Singh Kala Afghana.** A writer, he was excommunicated by the Akal Takht in 2003 [4].
-- **Jaswant Singh Khalra.** A human-rights defender, he uncovered thousands of secret cremations of Sikhs by the Punjab Police; police abducted and murdered him in 1995, and six officers were later convicted [13].
-- **Gurbaj Singh Multani.** A schoolboy, he brought the kirpan case that settled the law for Sikhs across Canada [12].
-- **The Punjabi voters** are those whose roll fell by half while waiting for an SGPC election [2].
+- **Jaswant Singh Khalra.** A human-rights defender, he uncovered thousands of secret cremations of Sikhs by the Punjab Police; police abducted and murdered him in 1995, and six officers were convicted at trial; on appeal in 2007 five convictions were upheld and one officer was acquitted [13].
+- **Gurbaj Singh Multani.** A schoolboy, he brought the kirpan case in which the Supreme Court of Canada held that a total ban on a sealed kirpan at school was unconstitutional [12].
+- **The Punjabi voters** are those whose roll fell by almost half while waiting for an SGPC election [2].
 
 ## 22. Regional variants {#regional}
 
@@ -1357,7 +1357,7 @@ Sources for this section: [6]
 ### India (Punjab)
 - **apex:** The Akal Takht Jathedar is the apex, appointed by the SGPC [3].
 - **law:** The Sikh Gurdwaras Act 1925 makes the SGPC an elected body [1].
-- **documented:** The record covers the overdue election and halved roll [1][2] and the Jathedar removals [3].
+- **documented:** The record covers the overdue election and the roll that fell by almost half [1][2] and the Jathedar removal [3].
 - **exit:** Leaving is legally free, but there are social costs where family and village life centre on the gurdwara.
 - **regulator:** The Gurdwara Election Commission is the regulator and must call the SGPC election [1].
 - **tell:** A religious body has a statutory vote that has not been held for fifteen years.
@@ -1379,8 +1379,8 @@ Sources for this section: [6]
 - **law:** Charity law applies.
 - **documented:** —
 - **exit:** Leaving is legally free.
-- **regulator:** The Charity Commission is the regulator.
-- **tell:** Where a gurdwara is a registered charity, its accounts are public.
+- **regulator:** The Charity Commission is the regulator in England and Wales.
+- **tell:** Where a gurdwara is a registered charity in England and Wales, it must file accounts with the Charity Commission above the income threshold [18]; Scottish charities answer to a different regulator, OSCR.
 :::
 
 ## 23. The questions {#questions}
@@ -1394,9 +1394,9 @@ Sources for this section: [6]
 
 ### In closing
 
-You have the strongest structural position of any reader of this codex. No priest can absolve you, no clergy can expel you, your scripture is in your hands and read aloud in public, and langar seats everyone on the same floor by design. The machinery in your community is not built into your religion — it was smuggled in alongside it.
+In structural terms your tradition gives you an unusual position among the readers of this codex. No priest can absolve you, no clergy can expel you, your scripture is in your hands and read aloud in public, and langar seats everyone on the same floor by design. The machinery in your community is not built into your religion — it was smuggled in alongside it.
 
-Which means your work is not deconstruction. It is enforcement. Every abuse in this profile is already forbidden by your own doctrine. You do not need a new belief; you need to hold your community to the one it already claims.
+Which means your work is not deconstruction. It is enforcement. Most of the abuses in this profile are already forbidden by your own doctrine; others, such as how a committee keeps its accounts, are not addressed in scripture and have to be asked for. You do not need a new belief; you need to hold your community to the one it already claims.
 
 ::: cites
 Sources for this section: [1] [2]
@@ -1408,7 +1408,7 @@ Practical guidance, not legal advice.
 
 1. **Leaving is legally free;** the costs are family and community.
 2. **If you face forced marriage or honour-based abuse,** use specialist help [15].
-3. **An excommunication** has no legal force outside the community [4].
+3. **An excommunication** is a religious sanction issued by the Akal Takht [4]. This page cites no legal source on its legal effect, so take advice if one is used against you.
 4. **Find support** from the organizations listed in section 25 [14][16][17].
 
 ## 25. Where to get help {#help}
@@ -1429,7 +1429,7 @@ Checked 2026-09-27.
 3. ThePrint, "Giani Raghbir Singh removed as Jathedar of Akal Takht; Kuldeep Singh appointed as acting Jathedar" (7 Mar 2025). https://theprint.in/india/giani-raghbir-singh-removed-as-jathedar-of-akal-takht-kuldeep-singh-appointed-as-acting-jathedar/2538170/
 4. Akal Takht *hukamnama* excommunicating Gurbaksh Singh Kala Afghana (10 July 2003) — WWRN report. https://wwrn.org/articles/3907/
 5. Census of India 2011 — Punjab child sex ratio 846 girls per 1,000 boys (798 in 2001) — World Bank Punjab gender brief. https://documents1.worldbank.org/curated/en/392981504172754967/pdf/119257-BRI-P157572-Punjab-Gender.pdf
-6. Dera Sacha Sauda head: rape conviction (2017) and the March 2026 acquittal in the Chhatrapati murder case — see the Hinduism page, sources 1–3. https://www.newsgram.com/law-order/2026/03/07/punjab-haryana-hc-acquits-gurmeet-ram-rahim-chhatrapati-murder-case
+6. Newsgram, "Punjab and Haryana HC acquits Gurmeet Ram Rahim in Chhatrapati murder case" (7 Mar 2026) — Dera Sacha Sauda head: special CBI court rape conviction (2017); life sentence for the murder of Ram Chander Chhatrapati (2019) overturned by the High Court on 7 March 2026; dera headquartered at Sirsa, Haryana. https://www.newsgram.com/law-order/2026/03/07/punjab-haryana-hc-acquits-gurmeet-ram-rahim-chhatrapati-murder-case
 7. Pew Research Center, *How the Global Religious Landscape Changed From 2010 to 2020* (2025) — Sikhs ~26 million. https://www.pewresearch.org/religion/2025/06/09/how-the-global-religious-landscape-changed-from-2010-to-2020/
 8. *Encyclopaedia Britannica*, "Sikhism" — Guru Nanak (1469–1539); Adi Granth compiled 1604; martyrdoms of Guru Arjan (1606) and Guru Tegh Bahadur (1675); the Khalsa (1699); scriptural guruship (1708); Ranjit Singh (1799–1849); Singh Sabha (1873); Gurdwara Act (1925); 1984. https://www.britannica.com/topic/Sikhism
 9. Shiromani Gurdwara Parbandhak Committee, *Sikh Rehat Maryada* (the code of conduct; women's full participation). https://sgpc.net/sikh-rehat-maryada-in-english/
@@ -1438,13 +1438,15 @@ Checked 2026-09-27.
 10. *The Tribune*, "SGPC passes Rs 1,261 crore annual budget" (2024) — 2023–24 budget ₹1,138.14 crore; 2022–23 ₹988 crore. https://www.tribuneindia.com/news/amritsar/sgpc-passes-rs-1-261-crore-annual-budget-605395
 11. *The Tribune*, "SGPC passes budget of Rs 1,386.47 crore for 2025-2026 financial year" (2025) — 2024–25 ₹1,260.97 crore. https://www.tribuneindia.com/news/amritsar/sgpc-passes-budget-of-rs-1386-47-crore-for-2025-2026-financial-year/
 12. David Asper Centre for Constitutional Rights, *Multani v. Commission scolaire Marguerite-Bourgeoys*, [2006] 1 S.C.R. 256 — summary. https://jackmanlaw.utoronto.ca/asper/multani-v-commission-scolaire-marguerite-bourgeoys
-13. Ensaaf, "Jaswant Singh Khalra" — abduction and murder (1995); six police officials convicted (2005); convictions upheld (2007, 2011). https://ensaaf.org/jaswant-singh-khalra/
+13. Ensaaf, "Jaswant Singh Khalra" — abduction and murder (1995); six police officials convicted (2005); on appeal five convictions upheld and one officer acquitted (2007); Supreme Court upheld (2011). https://ensaaf.org/jaswant-singh-khalra/
 14. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 15. Karma Nirvana — honour-based abuse and forced marriage, 0800 5999 247. https://karmanirvana.org.uk/get-help/helpline/
 16. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 17. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
+18. GOV.UK, Charity Commission, "Charity reporting and accounting: the essentials" (CC15d) — charities with income over £25,000 file their annual report and accounts with the Commission, and every charity must make its accounts available on request; the Commission regulates England and Wales. https://www.gov.uk/government/publications/charity-accounts/charity-reporting-and-accounting-the-essentials-november-2016-cc15d--2
 
 ## 27. What changed on this page {#changed}
 
+- **2026-10-03:** Corrected the Akal Takht Jathedar removal (one removal, in March 2025, not two) and the dera leader's case, which now says his 2019 murder-conspiracy conviction was overturned and that the dera is headquartered in Haryana. Removed the claim that diaspora gurdwara boards are transparent and the unsourced court case in the opening scene. Fixed the SGPC budget growth percentage and the electoral-roll fall (about 46%, not half). Re-graded four techniques whose evidence was family pressure rather than a document, so the page now counts no technique as sourced to a named document. Rewrote the Khalra appeal outcome, the Canadian kirpan ruling and the note on legal effect of excommunication, and replaced a source that pointed to another page.
 - **2026-09-27:** Added Branches, Law & state, Money in numbers (SGPC budgets 2022–2026), three more documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
 

@@ -1,5 +1,7 @@
 # Discrepancies — Sikhism (2026-09-30)
 
+Status 2026-10-03: fixes applied, see sikhism-FIXLOG.md (deferred items remain open).
+
 Nothing below has been reworded weaker. Items already corrected in `content/sacred-divide/edits/sikhism.json` are marked as applied.
 
 ## P1
