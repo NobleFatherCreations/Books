@@ -1,6 +1,6 @@
 # Wording log — orthodox-hasidic-judaism
 
-176 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/orthodox-hasidic-judaism.json`, then rebuild. Nothing else changes.
+175 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/orthodox-hasidic-judaism.json`, then rebuild. Nothing else changes.
 
 ## Fragments completed into sentences (118)
 
@@ -1714,7 +1714,7 @@
 
 *Reason:* First use in the volume; short inline gloss added, no new claim.
 
-## Proofreading (typos, punctuation, agreement) (5)
+## Proofreading (typos, punctuation, agreement) (4)
 
 ### HAS-P001 · md · §1 · proposed · build: applied
 
@@ -1763,18 +1763,6 @@
 > | Melamdim (teachers of young boys) and yeshiva teachers | They teach boys for ten hours a day. | They see which children cannot read, and which are being hurt. | They are asked to keep it inside. | They could refuse to teach a curriculum that leaves a child unable to fill out a job application. |
 
 *Reason:* Cells were fragments read together with the column header ("Is asked to" + "To …" doubled the infinitive); completed as full sentences. The verb "Teaches" also disagreed with the plural role. "Melamdim" glossed.
-
-### HAS-N001 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 3 documented cases on this page
-
-**After**
-
-> These are not hypotheticals. Three documented cases on this page
-
-*Reason:* Numeral at the start of a sentence spelled out.
 
 ## Evidence-grade notes matched to their technique (20)
 

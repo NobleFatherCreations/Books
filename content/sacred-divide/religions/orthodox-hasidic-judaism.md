@@ -5,7 +5,7 @@ family: "Judaism"
 family_id: judaism-family
 family_members: [judaism, orthodox-hasidic-judaism]
 version: v4
-checked: 2026-09-27
+checked: 2026-10-03
 sections_filled: 27/27
 missing: []
 partial: []
@@ -18,15 +18,15 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | The Haredi (ultra-Orthodox) population is estimated at ~2–2.5 million and is doubling roughly every 20 years. The Orthodox population as a whole, including Modern Orthodox Jews, is larger. [ACADEMIC SOURCE] |
+| Size | Israel's Haredi (ultra-Orthodox) population is about 1.45 million (14.3% of Israelis) in the Israel Democracy Institute's 2025 report [20] and has been doubling roughly every 17 years [8]; no source on this page gives a worldwide total (UNVERIFIED). The Orthodox population as a whole, including Modern Orthodox Jews, is larger. [ACADEMIC SOURCE] |
 | Who's in charge | Power sits with the rebbe's court. A rebbe is the hereditary spiritual head of a Hasidic (pietist, rebbe-led) dynasty. The named dynasties are Satmar, split since 2006 between the brothers Aaron Teitelbaum (Kiryas Joel) and Zalman Teitelbaum (Williamsburg); Ger, under Yaakov Aryeh Alter; and Belz, under Yissachar Dov Rokeach. Chabad has left its chair empty since 1994 and governs by board instead. |
 | Chosen by / removable by | The rebbe is chosen by bloodline, settled where necessary by succession fights / No one can remove him, and no procedure exists or has ever existed |
 | Money in one line | The money comes from communal economies (tuition, kosher premiums, ritual costs and wedding economies) and from charitable funds (gemachs, or interest-free loan funds) that also create dependency webs. |
 | Leaving in one line | Leaving carries among the highest exit costs of any Western religious community. Leavers routinely lose their spouse, their children (in custody battles where the community funds the observant parent), their parents, their siblings and their employment, and because they were denied a secular education, they often lack marketable skills. [INVESTIGATIVE REPORT / COURT RECORD: documented custody cases; org: Footsteps] |
 | The unanswered question | If the community is voluntary, why did it take state investigators to establish what its own schools were not teaching its own children? |
-| Evidence | Nine of the 30 techniques are sourced to a named document. The grades are Cultural 22, Codified 4 and Documented 4. |
+| Evidence | Seven of the 30 techniques are sourced to a named document. The grades are Cultural 23, Codified 2 and Documented 5. |
 | Family | Judaism — judaism, orthodox-hasidic-judaism |
-| Last checked | 2026-09-27 |
+| Last checked | 2026-10-03 |
 :::
 
 ### Disclosure scorecard
@@ -45,7 +45,7 @@ Up at 5:40. Six children, the oldest fifteen, the youngest nine months. Lunches,
 
 Yossi is thirteen. He reads Hebrew beautifully. He also cannot do long division and does not know what a continent is, and last week he asked her what a résumé was because he heard the word on a delivery man's radio. She said she would explain later. She did not explain later.
 
-At ten she takes the baby to the clinic and passes the shop where the sign about the modesty guidelines is taped inside the door. Two months ago the committee spoke to Devorah Feldman's husband about Devorah's wig, and then Devorah's husband lost three accounts, and nobody said the two things were connected because nobody had to.
+At ten she takes the baby to the clinic and passes the shop where the sign about the modesty guidelines is taped inside the door. Two months ago the committee spoke to Devorah Rosen's husband about Devorah's wig, and then Devorah's husband lost three accounts, and nobody said the two things were connected because nobody had to.
 
 At two her sister calls about Malka. Malka is twenty-two and is not going to shidduchim meetings (the arranged introductions to prospective husbands) and has been seen without stockings, and the family is worried, and the way her sister says *worried* means: this will affect the younger girls. Chava says she'll talk to her. She will.
 
@@ -56,7 +56,7 @@ At 11:15 the house is finally quiet. She sits at the kitchen table with tea she 
 ## 3. The forefront {#forefront}
 
 ::: lede
-You may have the warmest community in the Western world. Real mutual aid, neighbors who show up, almost no loneliness — those things are true and this codex will not pretend otherwise. But you also live in the one community here where identity and institution are the same object, which means the cost of a single honest question is higher for you than for almost anyone else reading this.
+You may have the warmest community in the Western world. Many accounts describe real mutual aid, neighbors who show up and little loneliness, and this codex will not pretend otherwise; no source on this page measures them. But you also live in the one community here where identity and institution are the same object, which means the cost of a single honest question is higher for you than for almost anyone else reading this.
 :::
 
 ### The unanswered question
@@ -75,13 +75,13 @@ If the community is voluntary, why did it take state investigators to establish 
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Leaving costs a person their family, spouse and children. | Yes, this cost is documented. | Divorce and custody proceedings occur in which the community funds the observant parent, and the shunning is total. | “Family estrangement is their own doing.” |
+| Leaving costs a person their family, spouse and children. | Yes, this cost is documented. | Divorce and custody proceedings occur in which the community funds the observant parent, and leavers report shunning that is total. | “Family estrangement is their own doing.” |
 
 ### The strongest objection, answered
 
 **The objection.** Outsiders romanticize leaving and cannot see what the community gives.
 
-**What is true in it.** The objection is accurate on this point. The mutual aid is extraordinary, loneliness is nearly absent, and secular accounts of Haredi life are frequently condescending and wrong.
+**What is true in it.** The objection is accurate on this point. Many accounts describe extraordinary mutual aid and little loneliness, though no source on this page measures either, and secular accounts of Haredi life are frequently condescending and wrong.
 
 **The answer.** The claims here come from inside: rabbis ruling that abuse reporting is not mesirah (the prohibition on informing to secular authorities), parents fighting for English literacy, court records in custody cases. The ask is narrow — that a child can read, can tell someone, and can leave without losing his mother. A community loses nothing worth keeping by granting it.
 
@@ -93,7 +93,7 @@ Orthodox / Hasidic Judaism consists of traditionalist and ultra-Orthodox (Haredi
 
 Healthy practice here looks like communities that strengthen secular education and abuse reporting. It includes internal reformers, among them rabbis who have ruled that abuse reporting is not mesirah. It includes support organizations for leavers and for those who stay. It also includes the warmth, mutual aid and low loneliness that critics should acknowledge.
 
-Some of that standard is already on the record. Rabbi Elyashiv permitted reporting abuse where there is a substantial basis [6]. Footsteps, founded in December 2003 by Malkie Schwartz to help people leaving ultra-Orthodox life, has served about 2,700 people [7]. Each is a place where members or institutions met the standard this page applies, and each is recorded here as credit.
+Some of that standard is already on the record. Rabbi Elyashiv permitted reporting abuse where there is a substantial basis [6]. Footsteps, founded in December 2003 by Malkie Schwartz to help people leaving ultra-Orthodox life, has served nearly 3,000 people [7]. Each is a place where members or institutions met the standard this page applies, and each is recorded here as credit.
 
 ## 5. History {#history}
 
@@ -109,7 +109,7 @@ Hasidism arose in 18th-century Eastern Europe around charismatic rebbes and dyna
 1939–1945 | The Holocaust destroys the European heartland | Reconstruction is driven by an explicit mandate: rebuild population and insulate from the outside world.
 1946–1970s | Rebuilding in Brooklyn, Jerusalem, Bnei Brak, Montreal, London | Total communities designed deliberately — schools, housing, employment, marriage inside one boundary.
 1977–present | Israeli coalition politics gives Haredi parties leverage over budgets and draft exemptions | State funding sustains a full-time-study economic model. [OFFICIAL POLICY]
-1990s–present | Explosive demographic growth; global Chabad emissary network | The fastest-growing Jewish segment by far.
+1990s–present | Explosive demographic growth; global Chabad emissary network [23] | The fastest-growing Jewish segment by far.
 2000s–present | Abuse prosecutions (Nechemya Weberman and others); mesirah taboo challenged from within | Reporting to police becomes a live internal fight. [COURT RECORD]
 2012–present | New York yeshiva secular-education investigations; Footsteps and OTD (off the derech, "off the path", meaning former members) networks grow | Education standards and exit support become public policy questions. [GOVERNMENT REPORT / INVESTIGATIVE REPORT]
 ```
@@ -127,7 +127,7 @@ The US Supreme Court exempted Old Order Amish children from compulsory schooling
 ::: card
 #### 2015–2023 — A city investigates its own yeshivas
 
-New York City's investigation into secular instruction in Hasidic boys' yeshivas took years, faced sustained political resistance, and eventually found the overwhelming majority of the schools examined were not providing substantially equivalent instruction.
+New York City's investigation into secular instruction in Hasidic boys' yeshivas took years, faced sustained political resistance, and eventually found 18 of the 39 schools examined not substantially equivalent; 14 of those findings still need the state's affirmation [4].
 
 **Why it matters.** The state established what a community's own institutions would not: what its children were being taught. The length of the delay is the finding as much as the result.
 :::
@@ -141,7 +141,7 @@ A prominent Satmar counsellor was convicted in December 2012 of sustained sexual
 :::
 
 ::: cites
-Sources for this section: [1] [2] [3] [4] [9]
+Sources for this section: [1] [2] [3] [4] [9] [23]
 :::
 
 ## 6. Branches & variants {#branches}
@@ -155,7 +155,7 @@ The main branches are the Hasidic dynasties (Satmar, Ger, Belz, Vizhnitz, Chabad
 | **Sephardi Haredi** | Sephardi Haredi communities are found in Israel. | Authority sits with rabbis aligned with the Shas party. |
 | **Modern Orthodox** | Modern Orthodox communities are found worldwide. | Authority is far more open in this category, which is covered on the Judaism page. |
 
-Israel's Haredi population was **1.39 million** (13.9%) in 2024, growing about 4% a year [8].
+Israel's Haredi population was **1.39 million** (13.9%) in 2024 [8] and about 1.45 million (14.3%) in the Israel Democracy Institute's 2025 report [20], growing about 4% a year [8].
 
 ## 7. Structure {#structure}
 
@@ -163,7 +163,7 @@ Israel's Haredi population was **1.39 million** (13.9%) in 2024, growing about 4
 
 |  |  |
 |---|---|
-| Adherents | The Haredi (ultra-Orthodox) population is estimated at ~2–2.5 million and is doubling roughly every 20 years. The Orthodox population as a whole, including Modern Orthodox Jews, is larger. [ACADEMIC SOURCE] |
+| Adherents | Israel's Haredi (ultra-Orthodox) population is about 1.45 million (14.3% of Israelis) in the Israel Democracy Institute's 2025 report [20] and has been doubling roughly every 17 years [8]; no source on this page gives a worldwide total (UNVERIFIED). The Orthodox population as a whole, including Modern Orthodox Jews, is larger. [ACADEMIC SOURCE] |
 | Regions | The main regions are Israel (Jerusalem, Bnei Brak, Beit Shemesh), New York (Brooklyn and Rockland and Orange counties), Montreal, London (Stamford Hill), Antwerp and Melbourne. |
 | Trend | Haredi communities have the highest fertility of any Western religious group, averaging 6–7 children in core communities, and are projected to reshape Jewish demography and Israeli politics within decades. [ACADEMIC SOURCE] |
 | Participation | Unlike most entries in this codex, identity and institutional participation are nearly identical here — which is exactly why exit costs are so high. |
@@ -181,7 +181,7 @@ The apex is a throne, held for life, passed by blood — and beneath it, the rea
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| The rebbe's court | The named dynasties sit here: Satmar, split since 2006 between the brothers Aaron Teitelbaum (Kiryas Joel) and Zalman Teitelbaum (Williamsburg); Ger, under Yaakov Aryeh Alter; and Belz, under Yissachar Dov Rokeach. Chabad has left its chair empty since 1994 and governs by board instead. | The rebbe is chosen by bloodline, settled where necessary by succession fights. | No one can remove him, and no procedure exists or has ever existed. |
+| The rebbe's court | The named dynasties sit here: Satmar, split since 2006 between the brothers Aaron Teitelbaum (Kiryas Joel) and Zalman Teitelbaum (Williamsburg) [10][22]; Ger, under Yaakov Aryeh Alter; and Belz, under Yissachar Dov Rokeach. Chabad has left its chair empty since 1994 and governs by board instead. | The rebbe is chosen by bloodline, settled where necessary by succession fights. | No one can remove him, and no procedure exists or has ever existed. |
 | The Council of Torah Sages (Agudath Israel) | The seats are held by senior rebbes and roshei yeshiva (heads of yeshivas). | Members are chosen by co-option (existing members select new ones). | No one can remove them. |
 | The community's working enforcers | The enforcers are matchmakers, school admission committees and modesty committees, which are unlisted, unappointed and unappealable. | No one formally chooses them, which is the point. | No one can remove them. |
 
@@ -197,18 +197,18 @@ The person who can end your child's marriage prospects has no office, no name on
 | Haredi political parties | They are political actors. | Party leaderships hold this power. | They hold bloc votes, which they convert into study stipends, draft exemptions and curriculum autonomy. | They decide whether your son will be taught English. | [OFFICIAL POLICY / GOVERNMENT REPORT] |
 | Yeshiva networks receiving public funding | They are educational institutions. | School administrations hold this power. | They hold public money alongside exemption from secular-education standards. | They decide your son's literacy, and therefore his ability to ever leave. | [GOVERNMENT REPORT: New York State and City education findings] |
 | Modesty committees (vaad hatznius) | They are informal enforcers. | Self-constituted community figures hold this power. | They run pressure campaigns against women, families and businesses, with no mandate and no appeal. | They decide what you wear, and whether your husband keeps his customers. | [INVESTIGATIVE REPORT] |
-| Gemachs and communal charity funds | They provide welfare and leverage. | Community machers (influential figures) hold this power. | They hold interest-free credit, which is genuine aid and a dependency web at once. | They decide whether your family eats if you disagree publicly. |  |
+| Gemachs and communal charity funds | They provide welfare and leverage. | Community machers (influential figures) hold this power. | They hold interest-free credit, which is genuine aid and a dependency web at once. | They can decide whether a family receives aid, and by community accounts standing counts in that decision. | [PATTERN OBSERVED] |
 | Shidduch brokers and school admissions committees | They are gatekeepers. | Matchmakers and school heads hold this power. | They hold your children's marriage and education prospects, contingent on the whole family's conformity. | They decide your daughter's future, priced against your compliance. | [PATTERN OBSERVED] |
 
 ::: cites
-Sources for this section: [8] [10]
+Sources for this section: [8] [10] [20] [22]
 :::
 
 ## 8. Law & state here {#law}
 
 | Country | What the law does | What happened |
 |---|---|---|
-| **New York — schools** | Private schools must give an education "substantially equivalent" to public schools; since 2022 local authorities must make that determination for every private school [11] | The city's investigation found 18 yeshivas failing in 2023 [4]; the schools had received more than $1 billion in government funding over four years [11][12] |
+| **New York — schools** | Private schools must give an education "substantially equivalent" to public schools. In 2022 the Board of Regents adopted rules on how that is decided; a state trial court in Albany struck down parts of them, an appeals court reinstated them, and on 18 June 2025 the Court of Appeals upheld the challenged provisions [11][19] | The city's Department of Education found 18 of 39 yeshivas examined not substantially equivalent in 2023, and the state must still affirm 14 of those findings [4]. Separately, a 2022 *New York Times* investigation found that about 100 Hasidic schools had received more than $1 billion in government funding over four years [11][12][21] |
 | **New York — abuse** | Criminal law applies whatever the community's rules on informing (*mesirah*) [1] | Nechemya Weberman was convicted on 59 counts in 2012; community leaders later sought clemency for him [1][2] |
 | **Israel — military service** | The High Court ruled unanimously in 2024 that the army must draft Haredi men and cut funding to yeshivas whose students do not comply [5] | The blanket exemption had lasted decades [5] |
 | **Israel — funding** | Coalition agreements fund Haredi schools, yeshivas and kollels [13] | The Israel Democracy Institute found irregular funding and weakened parliamentary oversight in the 2025 budget [13] |
@@ -231,7 +231,7 @@ Those who can compel an answer are state education authorities (the substantial-
 |---|---|---|---|
 | Tuition, ritual costs, kosher premiums | The stated purpose is religious life and education. | Very large family costs entrench dependence on communal aid and donors. | Schools, dynastic institutions and suppliers benefit. |
 | Israeli state stipends for full-time study | The stated purpose is to support Torah scholarship. | Public funding sustains a model that leaves men without employable credentials and without exit options. | Institutions, political parties and the study economy benefit. [OFFICIAL POLICY] |
-| Gemachs (interest-free loan funds) and charity networks | The stated purpose is genuine mutual aid. | Aid is conditioned on standing, and dependency webs make dissent economically fatal. | Communal power brokers benefit, and so do the genuinely needy. |
+| Gemachs (interest-free loan funds) and charity networks | The stated purpose is genuine mutual aid. | Aid is said to be conditioned on standing, and dependency webs can make dissent costly [PATTERN OBSERVED]. | Communal power brokers benefit, and so do the genuinely needy. |
 | Dynastic real estate and institutional assets | The stated purpose is community infrastructure. | Succession fights over control of buildings and schools reveal the property nature of authority. | Rebbe families and boards benefit. [COURT RECORD: dynastic litigation] |
 
 ### Pipelines this tradition shares
@@ -258,30 +258,6 @@ Those who can compel an answer are state education authorities (the substantial-
 **Disclosed.** Budget lines are disclosed.
 
 **Hidden.** What is actually taught is not disclosed.
-:::
-
-::: card
-#### Communal trust to conditional welfare
-
-**Source.** Historic endowments and community giving fund it.
-
-**Path.** Trust board → Housing, healthcare, education allocation → Members in good standing
-
-**Disclosed.** Trust deeds are disclosed, because litigation forced it.
-
-**Hidden.** Discretionary decisions are not disclosed.
-:::
-
-::: card
-#### Political mobilization
-
-**Source.** Congregational trust and mailing lists supply it.
-
-**Path.** Advocacy or voter-guide operation → Party and donor infrastructure → Legislative outcomes
-
-**Disclosed.** Issue positions are disclosed.
-
-**Hidden.** Data sharing and coordination are not disclosed.
 :::
 
 ::: card
@@ -338,7 +314,7 @@ Those who can compel an answer are state education authorities (the substantial-
 
 **Why that reason expired.** A child who reaches adulthood without English literacy or arithmetic has not been given a value; he has been given a locked door. State investigations have documented the deficit. This is the mechanism that makes every other exit cost enforceable.
 
-**Who benefits now.** The community's retention rate benefits, directly and measurably. A man who cannot fill out a job application in English is not choosing to stay.
+**Who benefits now.** The community's retention rate benefits. A man who cannot fill out a job application in English is not choosing to stay.
 :::
 
 ::: card
@@ -367,10 +343,10 @@ Sources for this section: [6]
 
 ### Children
 
-- Childhood is a total institution. Children attend religious school from age 3, gender-segregated, and their curriculum, dress, language (Yiddish in many communities) and marriage pathway are all determined for them.
+- Childhood is a total institution. Children attend religious school from age 3, gender-segregated, and their curriculum, dress, language (Yiddish in many communities) and marriage pathway are all determined for them. [PATTERN OBSERVED]
 - Arranged introductions (shidduchim) begin at 18–20, and family reputation determines match quality, so a child's entire future depends on parental conformity. [PATTERN OBSERVED]
 - Children of leavers are the most exposed group in this codex: custody cases in which community funds support the observant parent are documented. [COURT RECORD]
-- Corporal punishment and abuse occur in some schools, with reporting suppressed by mesirah norms. [COURT RECORD]
+- Corporal punishment was regularly used in the Hasidic schools examined by a 2022 *New York Times* investigation [21], and abuse reporting has been suppressed by mesirah norms [6]. [INVESTIGATIVE REPORT]
 
 ### Bodies
 
@@ -380,7 +356,7 @@ Sources for this section: [6]
 - Get refusal (a husband's refusal to grant a religious divorce) is weaponized, niddah (the laws of ritual separation during and after menstruation) is supervised, and LGBTQ members face expulsion or conversion-therapy referral. [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT]
 
 ::: cites
-Sources for this section: [3] [4] [7]
+Sources for this section: [3] [4] [6] [7] [21]
 :::
 
 ## 12. The 30 techniques {#techniques}
@@ -481,7 +457,7 @@ The hook is the world to come, the merit of your children's learning, and the ch
 
 **The counter.** Concern becomes coercion when the entire ecosystem is weaponized. If leaving means losing family, marriage prospects, education support, livelihood, language, and your children’s place in the world, then “come back” is not an invitation. It is a survival demand.
 
-**Evidence grade.** [[Cultural]] Retrieval operates through children, weddings, and parents — the most effective mechanism in the codex and the least documentable.
+**Evidence grade.** [[Cultural]] Retrieval operates through children, weddings, and parents, and leaves little documentation.
 :::
 
 ### Stage 3 · Devalue {#stage-3}
@@ -549,7 +525,7 @@ Someone is always frummer (more religiously observant). Chumras (added stringenc
 
 **The counter.** A wall that kept enemies out is doing different work when it keeps the wounded in. When 'peace' is achievable only through the suffering person's silence, the community has purchased its calm with her captivity.
 
-**Evidence grade.** [[Codified]] Only the entry's third example, shalom bayit (household peace) as a wife's duty, rests on halachic marriage law; the teen's doubts and the baal teshuva's treatment are conveyed by teaching and social response. *(sourced)*
+**Evidence grade.** [[Cultural]] Only the entry's third example, shalom bayit (household peace) as a wife's duty, draws on halachic marriage law; the teen's doubts and the baal teshuva's treatment are conveyed by teaching and social response. The entry names no document that sets any of them out.
 :::
 
 ### Stage 4 · Confuse {#stage-4}
@@ -652,7 +628,7 @@ Report abuse and you are the danger to the community. Ask about education and yo
 
 **The counter.** “Handling internally” becomes DARVO when the same community that produced the harm controls the narrative, the rabbinic approval, the marriage market, the schools, and the family pressure. A closed system cannot police itself by silencing the person it harmed.
 
-**Evidence grade.** [[Cultural]] The responses described (denial, then accusations that the reporter is corrupted or unstable) are social reactions by families, neighbors and leaders. Retaliation against a reporting family is recorded in the Weberman case in section 19, which is tagged to techniques 16, 17 and 18, not to this one.
+**Evidence grade.** [[Documented]] Retaliation against a family that reported abuse, with boycott and attempted intimidation of witnesses, is recorded in the Weberman case in section 19, which is tagged to this technique. The wider pattern of denial and accusation (that the reporter is off the derech, corrupted or unstable) is social reaction in family and community speech, and no ruling prescribes it; the grade rests on the case. *(sourced)*
 :::
 
 ::: tactic n=13
@@ -701,7 +677,7 @@ Housing, employment, schooling, credit, language and marriage all sit inside one
 
 **The counter.** Preservation becomes isolation when people are denied the tools needed to leave freely. If a person lacks education, money, secular literacy, outside relationships, and family support, then the community has not simply preserved identity. It has engineered dependency.
 
-**Evidence grade.** [[Codified]] Published rabbinic proclamations on internet use, secular media, and specific publications. *(sourced)*
+**Evidence grade.** [[Codified]] Published rabbinic proclamations on internet use, secular media, and specific publications. They cover only the information-control part of the entry; the structural isolation it mostly describes (schools, marriage networks, neighborhood) rests on custom. *(sourced)*
 :::
 
 ::: tactic n=15
@@ -722,7 +698,7 @@ Housing, employment, schooling, credit, language and marriage all sit inside one
 
 **The counter.** Care becomes triangulation when a person is made responsible for everyone else’s social survival. If your clothing, education, doubts, or exit are treated as threats to siblings, parents, children, and future marriages, then the community has turned your life into communal property.
 
-**Evidence grade.** [[Codified]] The entry describes pressure applied through relatives, matchmakers and rabbis; it cites no published ruling that sets out this mediation, so its basis is custom.
+**Evidence grade.** [[Cultural]] The entry describes pressure applied through relatives, matchmakers and rabbis; it cites no published ruling that sets out this mediation, so its basis is custom.
 :::
 
 ### Stage 6 · Extract {#stage-6}
@@ -751,7 +727,7 @@ The harvest takes these forms: tuition, kosher premiums and ritual costs that re
 
 **The counter.** Intervention becomes FLYING MONKEY pressure when the entire ecosystem is mobilized against one person’s autonomy. If rabbis, parents, schools, matchmakers, neighbors, and marriage markets all speak with one voice, the person is not being counseled. They are being cornered.
 
-**Evidence grade.** [[Cultural]] Shidduch and school-admission consequences are administered by families and community brokers, never by instruction. *(sourced)*
+**Evidence grade.** [[Cultural]] Shidduch and school-admission consequences are administered by families and community brokers, never by instruction; no document is named.
 :::
 
 ::: tactic n=17
@@ -770,7 +746,7 @@ The harvest takes these forms: tuition, kosher premiums and ritual costs that re
 
 **The counter.** Reputation becomes smear when the person naming harm is treated as more dangerous than the harm itself. If protecting shidduchim matters more than protecting victims, the community has made image into an idol.
 
-**Evidence grade.** [[Cultural]] The labels described (off the derech, unstable, immodest, attention-seeking) are applied through gossip and family talk, and no ruling prescribes them. The retaliation against the Weberman reporting family in section 19, which is tagged to this technique, is documented separately.
+**Evidence grade.** [[Documented]] The labels described (off the derech, unstable, immodest, attention-seeking) are applied through gossip and family talk, and no ruling prescribes them. The retaliation against the Weberman reporting family in section 19, which is tagged to this technique, is recorded in court records, and the grade rests on that case. *(sourced)*
 :::
 
 ::: tactic n=18
@@ -865,7 +841,7 @@ The harvest takes these forms: tuition, kosher premiums and ritual costs that re
 
 **The counter.** Protection becomes BENEVOLENT CONTROL when people are denied the tools to leave. If education, information, marriage, income, and belonging are all controlled “for your good,” care has become captivity.
 
-**Evidence grade.** [[Cultural]] Modesty committees operate without formal institutional mandate, which is precisely what makes them unattributable. *(sourced)*
+**Evidence grade.** [[Cultural]] Modesty committees operate without formal institutional mandate, which is precisely what makes them unattributable; no document is named.
 :::
 
 ::: tactic n=23
@@ -904,7 +880,7 @@ The harvest takes these forms: tuition, kosher premiums and ritual costs that re
 
 **The counter.** Preservation becomes IDENTITY EROSION when the community supplies the entire self and punishes alternatives. If a person cannot imagine themselves outside the system, that is not merely strong identity. It is identity captivity.
 
-**Evidence grade.** [[Cultural]] Identity fused to community through dress, language, schooling, and marriage networks — comprehensive, and nowhere mandated in writing. *(sourced)*
+**Evidence grade.** [[Cultural]] Identity fused to community through dress, language, schooling, and marriage networks — comprehensive, and nowhere mandated in writing; no document is named.
 :::
 
 ::: tactic n=25
@@ -953,7 +929,7 @@ The harvest takes these forms: tuition, kosher premiums and ritual costs that re
 
 This stage carries the highest exit costs in this codex: the person loses spouse, children (in custody battles the community funds), parents, siblings, housing and employment, and has no secular credentials to fall back on. [COURT RECORD]
 
-*What it asks of you:* This is not estrangement. It is a system with a documented enforcement budget.
+*What it asks of you:* This is not estrangement. It is a system with documented enforcement.
 :::
 
 ::: tactic n=27
@@ -972,7 +948,7 @@ This stage carries the highest exit costs in this codex: the person loses spouse
 
 **The counter.** Protection becomes MANUFACTURED CRISIS when information itself is treated as contamination. If the community must make curiosity feel catastrophic, it is not protecting holiness. It is protecting control.
 
-**Evidence grade.** [[Documented]] The entry describes urgency framed in family and community talk around the internet, secular education, immodesty and leaving; the court records of custody cases (sections 3 and 15) bear on technique 28, not on the framing described here.
+**Evidence grade.** [[Cultural]] The entry describes urgency framed in family and community talk around the internet, secular education, immodesty and leaving; the court records of custody cases (sections 3 and 15) bear on technique 28, not on the framing described here.
 :::
 
 ::: tactic n=28
@@ -991,7 +967,7 @@ This stage carries the highest exit costs in this codex: the person loses spouse
 
 **The counter.** Preservation becomes DISCARD when the person who leaves is treated as contamination. If love collapses because someone changes clothes, beliefs, education, or marriage path, the community loved the role more than the person.
 
-**Evidence grade.** [[Documented]] Custody proceedings in which community funds supported the observant parent, in court records. *(sourced)*
+**Evidence grade.** [[Documented]] Custody proceedings in which community funds supported the observant parent, in court records. The grade rests on that custody half; the loss of warmth, school access and marriage prospects described in the bullets is social practice. *(sourced)*
 :::
 
 ### Stage 8 · Replace {#stage-8}
@@ -1162,7 +1138,7 @@ Community labor builds institutions held by dynastic courts, and succession is l
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
-An abuser is convicted, the community rallies to him, and no reporting policy is adopted.
+An abuser is convicted, the community rallies to him, and the rule that a rabbi must be consulted first is not recorded as changed.
 
 **How it runs.**
 
@@ -1184,7 +1160,7 @@ An abuser is convicted, the community rallies to him, and no reporting policy is
 ::: card
 #### 7 · Persecution to Solidarity to Insulation to Unaccountability
 
-The Holocaust and current antisemitism are real, and are invoked to make internal reform look like an attack from outside.
+The Holocaust was real, and the insulation built in response now works as a barrier to outside scrutiny.
 
 **How it runs.**
 
@@ -1245,7 +1221,7 @@ Sources for this section: [9]
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Leaving costs a person their family, spouse and children. | Yes, this cost is documented. | Divorce and custody proceedings occur in which the community funds the observant parent, and the shunning is total. | “Family estrangement is their own doing.” |
+| Leaving costs a person their family, spouse and children. | Yes, this cost is documented. | Divorce and custody proceedings occur in which the community funds the observant parent, and leavers report shunning that is total. | “Family estrangement is their own doing.” |
 | Leaving costs a person their employment and housing. | Yes, this cost is documented. | Jobs, housing and credit run through the community, and the leaver has no secular credentials to fall back on. | “Nobody fired them for leaving.” |
 | Leaving is made harder by an education deficit. | Yes, this cost is documented. | Limited secular schooling makes independent life materially difficult. | “Our education is excellent — in Torah.” |
 | Leaving is made harder by limits in language and social skills. | Yes, this cost is documented. | A Yiddish-first upbringing and cultural insulation compound isolation on exit. | “That's heritage, not control.” |
@@ -1297,7 +1273,7 @@ The costs recorded in section 15 do not fall evenly. The table names who carries
 | Who | How | What it compounds with |
 |---|---|---|
 | People who leave (OTD) | They lose spouse, children, parents, housing, employment and credentials in one step. | This compounds where custody is contested and the community funds one side. |
-| Women | They face modesty policing, get refusal and reproductive decisions mediated rabbinically. | It compounds with eight children and no secular education or independent income. |
+| Women | They face modesty policing, get refusal and reproductive decisions mediated rabbinically. | It compounds with six or more children and no secular education or independent income. |
 | Boys denied secular education | They bear a permanent economic penalty imposed before consent. | It compounds into a marriage and family they cannot support independently. |
 | Abuse survivors | They face mesirah pressure and communal retaliation against the reporting family. | It compounds where the accused's family controls school admissions. |
 | LGBTQ community members | They face expulsion or referral to conversion practices. | It compounds for adolescents in a total community with no outside contact. |
@@ -1308,7 +1284,7 @@ The costs recorded in section 15 do not fall evenly. The table names who carries
 
 ### From The Children's Codex
 
-- *Education* — In the New York yeshiva investigation of 2015–2023, after years of political resistance, the city's investigation found the overwhelming majority of Hasidic boys' yeshivas examined were not providing instruction substantially equivalent to public schooling. The length of the delay is a finding in its own right.
+- *Education* — In the New York yeshiva investigation of 2015–2023, after years of political resistance, the city found 18 of the 39 Hasidic boys' yeshivas it examined not substantially equivalent to public schooling, and 14 of those findings still need the state's affirmation [4]. The length of the delay is a finding in its own right.
 
 ## 18. The middle tiers {#tiers}
 
@@ -1331,7 +1307,7 @@ Much of the community's daily enforcement is carried out by people who hold no o
 - **what:** An unlicensed counselor in a Hasidic community was convicted of sexually abusing a teenage girl. The complainant's family faced community retaliation and boycott for reporting to secular authorities, and supporters of the accused attempted to intimidate witnesses.
 - **record:** The record is New York State court records.
 - **outcome:** Conviction and a 103-year sentence, later cut to 50. Several prominent rabbis have since ruled that reporting abuse with a substantial basis is not mesirah — though Agudath Israel's rabbinical board still requires consulting a rabbi first — and in 2021–22 community leaders sought his clemency. In January 2026 a Brooklyn judge resentenced him to 18 years after he admitted guilt and apologised to the victim.
-- **tactics:** 16, 17, 18
+- **tactics:** 12, 16, 17, 18
 - **grade:** Documented
 :::
 
@@ -1339,15 +1315,11 @@ Much of the community's daily enforcement is carried out by people who hold no o
 ### New York yeshiva education investigations
 
 - **when:** 2015–present
-- **what:** State and city investigations examined whether Hasidic boys' schools receiving public funding provided the substantially equivalent secular instruction required by law. Multiple schools were found not to be teaching basic English and mathematics.
+- **what:** State and city investigations examined whether Hasidic boys' schools receiving public funding provided the substantially equivalent secular instruction required by law. Multiple schools were found not to provide substantially equivalent instruction.
 - **record:** The record is the findings of the New York City and State Education Departments.
 - **outcome:** The outcome was prolonged political resistance and litigation. The education deficit is the mechanism that makes every other exit cost enforceable.
 - **tactics:** 14, 21
 - **grade:** Documented
-:::
-
-::: cites
-Sources for this section: [1] [2] [3] [4] [6]
 :::
 
 ::: case
@@ -1356,8 +1328,12 @@ Sources for this section: [1] [2] [3] [4] [6]
 - **what:** For decades Haredi yeshiva students were exempt from military service that other Jewish Israelis must perform [5].
 - **record:** High Court of Justice, 25 June 2024 (unanimous) [5]
 - **outcome:** The court ruled there was no legal basis for the blanket exemption, ordered the army to draft Haredi men, and cut funding to yeshivas whose students do not comply [5].
-- **tactics:** 22, 14
+- **tactics:** 26
 - **grade:** Documented
+:::
+
+::: cites
+Sources for this section: [1] [2] [3] [4] [5] [6]
 :::
 
 ## 20. Precedent {#precedent}
@@ -1368,8 +1344,8 @@ Sources for this section: [1] [2] [3] [4] [6]
 |---|---|---|---|
 | Rabbis issued rulings that reporting abuse is not mesirah. | It was done by prominent poskim, publicly. | The period is 2000s–present. | The cost was sustained communal resistance. |
 | A conviction was obtained despite organized witness intimidation. | It was done by a teenage complainant and her family. | The year was 2012. | The cost was boycott and exile from their community. |
-| State education investigations forced the curriculum question into public view. | It was done by former students and advocacy organizations. | The period is 2015–2023, and continuing at the state level. | The cost was political attack and personal vilification. |
-| Support organizations were built for people leaving, and for those staying. | It was done by former members who built them. | The period is 2003–present. | The cost was everything they had before. |
+| State education investigations forced the curriculum question into public view. | It was done by former students and advocacy organizations. | The period is 2015–2023, and continuing at the state level. | The cost was political attack. |
+| Support organizations were built for people leaving, and for those staying. | It was done by former members who built them. | The period is 2003–present. | The cost was loss of their standing in the community. |
 
 ### What would change this page
 
@@ -1381,7 +1357,7 @@ Sources for this section: [3] [4] [6] [7]
 
 ## 21. Voices from inside {#voices}
 
-- **Malkie Schwartz.** Schwartz founded Footsteps in December 2003 to help people leaving ultra-Orthodox life; it has served about 2,700 people [7].
+- **Malkie Schwartz.** Schwartz founded Footsteps in December 2003 to help people leaving ultra-Orthodox life; it has served nearly 3,000 people [7].
 - **Naftuli Moster.** Moster founded Young Advocates for a Fair Education (YAFFED), which campaigns for secular education in Hasidic yeshivas [12].
 - **The young woman who testified against Nechemya Weberman.** Her case led to his conviction on 59 counts [1].
 - **Rabbis who permit reporting abuse.** They permit it where there is a substantial basis, against the rule that a rabbi must be asked first; Rabbi Elyashiv is the rabbi named in the source [6].
@@ -1393,7 +1369,7 @@ Sources for this section: [3] [4] [6] [7]
 
 - **apex:** The apex is the dynastic courts: Satmar in Williamsburg and Kiryas Joel, and Ger, Bobov and others in Borough Park.
 - **law:** The law sets substantial-equivalency requirements for private schools, and the state education department's enforcement has been contested politically and litigated for a decade.
-- **documented:** The city's investigation found 2 of 28 examined yeshivas meeting the standard (2019); its final 2023 determinations found 18 failing. Bloc-voting influence on state education policy is documented in reporting.
+- **documented:** The city's investigation found 2 of 28 examined yeshivas meeting the standard (2019); its 2023 determinations found 18 of 39 not substantially equivalent, 14 of them awaiting state affirmation [4].
 - **exit:** Exit costs are among the highest in this codex, because language, education, employment, housing and family are all inside the community.
 - **regulator:** The regulators are the NY State Education Department on substantial equivalency, ACS (the Administration for Children's Services) on child welfare, and the courts on custody.
 - **tell:** The tell is the gap between a legal standard existing and a legal standard being enforced, measured in decades and in individual children's literacy.
@@ -1425,7 +1401,7 @@ Sources for this section: [3] [4] [5]
 
 ### In closing
 
-There are people inside your community doing this work already — rabbis who ruled that reporting is not informing, parents fighting for English literacy, mothers who chose their abused child over their standing. They did not leave. They stayed and refused. That is the model, and it is available to you.
+There are people inside your community doing this work already — rabbis who ruled that reporting is not informing and parents fighting for English literacy. They did not leave. They stayed and refused. That is the model, and it is available to you.
 
 Nothing here asks you to stop covering your hair or to eat treif (non-kosher food). It asks one thing: that a child in your community be able to read, and be able to tell someone, and be able to leave if he must — and that none of those three cost him his mother. If the community can give a child that, it loses nothing worth keeping.
 
@@ -1445,11 +1421,12 @@ Checked 2026-09-27.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Footsteps** | People leaving ultra-Orthodox communities | US | **877-STEPS-55** [14] |
+| **Footsteps** | People leaving ultra-Orthodox communities | US | **877-STEPS-55** (general contact line, not a crisis line) [14] |
 | **ORA** | People facing *get* refusal | US and international | **844-673-5463** [15] |
-| **Jewish Women's Aid** | Domestic abuse, sexual violence, *get* refusal | UK | **0808 801 0500** [16] |
-| **Childhelp** | Child abuse | US | **1-800-422-4453** [17] |
-| **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [18] |
+| **Jewish Women's Aid** | Domestic abuse, sexual violence, *get* refusal | UK | **0808 801 0500** (Mon–Thu 9:30am–9:30pm) [16] |
+| **Childhelp** | Child abuse | US | **1-800-422-4453** (24 hours) [17] |
+| **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** (Mon–Thu 10am–9pm, Fri 10am–6pm) [18] |
+| **Hillel — The Right to Choose** | People leaving Haredi life | Israel | Hotline; number and hours not verified for this page, see hillel.org.il [24] |
 
 ## 26. Sources {#sources}
 
@@ -1462,7 +1439,7 @@ Checked 2026-09-27.
 
 ### Community sources
 6. The Forward, "Agudath Israel: Abuse Claims Go to Rabbis" (2011 — its rabbinical board requires consulting a rabbi first; R. Elyashiv permitted reporting where there is *raglayim la-davar*, a substantial basis). https://forward.com/news/156692/agudath-israel-abuse-claims-go-to-rabbis/
-7. Footsteps — founded December 2003 by Malkie Schwartz; ~2,700 people served. https://www.footstepsorg.org/about-us/
+7. Footsteps — founded December 2003 by Malkie Schwartz; the organisation's own site (checked 2026-10-03) says it has served nearly 3,000 people. https://www.footstepsorg.org/about-us/
 
 ### Demography and history
 8. Israel Democracy Institute, *Statistical Report on Ultra-Orthodox Society in Israel 2024* — 1.39 million (13.9%), fertility ~6.5, growth ~4.2%/yr (≈17-year doubling). https://en.idi.org.il/articles/58484
@@ -1478,8 +1455,15 @@ Checked 2026-09-27.
 16. Jewish Women's Aid — helpline 0808 801 0500. https://www.jwa.org.uk/
 17. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/
 18. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
+19. Court of Appeals of the State of New York, *Matter of Parents for Educ. & Religious Liberty in Schs. v Young* (18 June 2025) — upheld the Board of Regents' 2022 substantial-equivalency regulations, affirming an Appellate Division decision that had reversed a trial-court ruling striking down parts of them; the provisions do not require parents to unenroll children or authorize school closures. https://www.nycourts.gov/CTAPPs/Decisions/2025/Jun25/56opn25-Decision.pdf
+20. Israel Democracy Institute, *Annual Statistical Report on Ultra-Orthodox (Haredi) Society in Israel 2025* — about 1.45 million people (14.3% of Israelis), up 50% in a decade from 950,000. https://en.idi.org.il/publications/63300
+21. Journalist's Resource, account of the *New York Times* investigation of more than 100 Hasidic boys' schools (Sept 2022) — little instruction in core subjects, regular corporal punishment, more than $1bn in public money over four years. https://journalistsresource.org/education/hasidic-religious-private-schools-goldsmith-how-they-did-it/
+22. World Jewish Congress, "Leader of ultra-Orthodox Jewish movement in New York dies" (25 April 2006) — the death of the Satmar Rebbe, Moses Teitelbaum, aged 91, the event after which the dynasty divided. https://www.worldjewishcongress.org/en/news/leader-of-ultra-orthodox-jewish-movement-in-new-york-dies
+23. JTA, "Chabad Shluchim Return 'Home' From 108 Countries" (27 Nov 2019) — Chabad's emissaries gather in New York from 108 countries. https://www.jta.org/2019/11/27/ny/rebbes-emissaries-have-eyes-that-see-in-the-dark
+24. Hillel — The Right to Choose (Israel) — support for people leaving Haredi life, including an anonymous hotline; the number and hours were not verified for this page. https://hillel.org.il/
 
 ## 27. What changed on this page {#changed}
 
+- **2026-10-03:** Corrected the New York school figures (the city found 18 of 39 yeshivas examined not substantially equivalent, and 14 of those findings still need state affirmation) and brought the state's school rules up to date with the June 2025 court ruling. Updated the Haredi population and Footsteps figures, softened several absolute statements about shunning, mutual aid and costs, removed two money cards that did not fit this tradition, and re-graded five techniques so each grade matches what its entry shows. Added six sources, hours for three help lines, and an Israeli support organisation.
 - **2026-09-27:** Added Branches, Law & state, Money in numbers, a third documented case, Voices from inside, Leaving safely and Where to get help.
 

@@ -1,4 +1,5 @@
 # DISCREPANCIES — Orthodox / Hasidic Judaism, awaiting the owner's decision
+Status 2026-10-03: fixes applied, see orthodox-hasidic-judaism-FIXLOG.md (deferred items remain open).
 
 Format: **[Location]** what is wrong → proposed wording → why it matters. Nothing below has been changed in the text; every item touches the frozen layer (numbers, receipts, grades, source entries, case tags) or asserts a claim the wording pass may not alter or soften.
 Evidence is in `logs/fact-check/orthodox-hasidic-judaism.md` (F-numbers). Omissions are in `docs/sacred-divide-v5/proposals/orthodox-hasidic-judaism.md`.
