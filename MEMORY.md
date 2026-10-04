@@ -3650,3 +3650,8 @@ Dubai would follow") and an architecture that imports each religion's MD into th
 - Template wording still shared by 27 volumes and flagged for one global fix: "attributed to God" in stage 8 / technique 30 (non-theistic traditions rewrote it locally), and the generated "N documented cases … court, regulator or inquiry record" sentence.
 - The full PDF design pass (page breaks) remains paused; roughly a third of pages in the Protestant PDF still have more than 15% blank foot.
 - Agent dispatch history: session/weekly 429s hit four times; each time one agent was sent as a canary after the stated reset before resuming two at a time.
+
+## 2026-10-04 — Parked for the design pass (owner asked to log in global memory)
+- Inspiration sites: Savee.com, Landdddding.com, Motionin.design. Notes, screenshots and the storyboard example are in `docs/design-ideas/README.md`.
+- HyperFrames skills (heygen-com/hyperframes) installed globally in `~/.claude/skills/` (telemetry disabled; inspected first). The owner's example: ask Claude to storyboard a beat sheet, then render the motion piece through the skill. Explore for animated section openers and promo clips once the content/PDF work is done.
+- `~/.claude/skills/` does not persist across fresh containers; re-run the install command in `docs/design-ideas/README.md` in a new session.
