@@ -1310,5 +1310,485 @@
   "reason": "Fragment completed.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "SDA-D001",
+  "scope": "md",
+  "type": "fact",
+  "before": "the institution withdrew his credentials instead of answering him.",
+  "after": "the institution reaffirmed the doctrine in published statements and withdrew his credentials; it has never said what evidence would have counted against it [18].",
+  "reason": "Glacier View produced published consensus statements, so 'instead of answering him' and 'no published finding' were wrong; the defensible claim is that no falsification criterion was stated (P1-1, F10).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D002",
+  "scope": "md",
+  "type": "fact",
+  "before": "The chair ran — against the man, not the doctrine. A published finding about Ford exists; no published finding about the doctrine does. That asymmetry is the page's central exhibit.",
+  "after": "The chair ran — against the man, not the doctrine. The committee published consensus statements reaffirming the doctrine and a statement of where Ford's views differed from them; the only binding action it produced was against the man. That asymmetry is the page's central exhibit.",
+  "reason": "Replaces the claim that no finding about the doctrine was published (P1-1, F10).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D003",
+  "scope": "md",
+  "type": "fact",
+  "before": "the response was to withdraw his credentials rather than answer him.",
+  "after": "the response was to reaffirm the doctrine in published statements and withdraw his credentials, without saying what evidence would count against it.",
+  "reason": "Same correction in the genealogy card (P1-1).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D004",
+  "scope": "md",
+  "type": "fact",
+  "before": "The process produced a decision about the man and no published decision about the doctrine. Ask which of those the challenge was actually about.",
+  "after": "The process produced a reaffirmation of the doctrine and a decision about the man; it did not publish what evidence would have counted against the doctrine. Ask which of those the challenge was actually about.",
+  "reason": "Same correction in technique 12's counter (P1-1).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D005",
+  "scope": "md",
+  "type": "fact",
+  "before": "It last ran in 1980, at Glacier View, and it ran against the theologian rather than the doctrine.",
+  "after": "It last ran in 1980, at Glacier View, and it ran against the theologian: the committee reaffirmed the doctrine and the only binding action fell on the man.",
+  "reason": "Same correction in 'Last time the chair ran' (P1-1).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D006",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **record:** *Encyclopedia of Seventh-day Adventists* [8]\n- **outcome:** His ministerial credentials were withdrawn [8].",
+  "after": "- **record:** *Adventist Record*, \"1975–1980: Towards Glacier View and its aftermath\" (24 Aug 2023) [18]; *Encyclopedia of Seventh-day Adventists* [8]\n- **outcome:** The committee published consensus statements on Christ's ministry in the heavenly sanctuary and on the role of Ellen G. White's writings, and a statement of the main differences between Ford's views and that consensus [18]. His ministerial credentials were withdrawn [8].",
+  "reason": "Adds the published statements to the case and replaces the home-page record line with a named article (P1-1, P2-14).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D007",
+  "scope": "md",
+  "type": "fact",
+  "before": "| A board of trustees sits in it, constituted by White's own will and self-perpetuating since. | Trustees are chosen by succession under the terms of the will. | Nobody outside the trust can remove them. The elected structure does not reach this office, which is exactly where the unreviewable claim is kept. |",
+  "after": "| A board of 15 trustees sits in it, constituted by White's own will. Five are life trustees; the other ten serve terms tied to General Conference terms [19]. | Life trustees fill vacancies under the terms of the will, and the General Conference Executive Committee fills them if the trustees do not [19]. | This page records no way for members to remove trustees by vote. The elected structure reaches the office only through the General Conference, which funds the Estate and receives the royalties from White's books [19]. |",
+  "reason": "The row said nobody outside the trust could remove trustees and the elected structure did not reach it; the White Estate's own account shows term trustees tied to the General Conference, GC funding and GC royalties (P1-2, F9).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D008",
+  "scope": "md",
+  "type": "fact",
+  "before": "it terminates in a trust created by the prophet's own will, answerable to nobody the members elect.",
+  "after": "it terminates in a trust created by the prophet's own will, funded by the General Conference but not answerable to any member vote.",
+  "reason": "Matching change to the tell (P1-2).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D009",
+  "scope": "md",
+  "type": "fact",
+  "before": "Divisions and unions here hold the overwhelming majority of world membership.",
+  "after": "Divisions and unions here hold the largest share of world membership: the three African divisions report about 11.6 million of 24.4 million members (2025), nearly half [20].",
+  "reason": "'Overwhelming majority' is refuted by the church's own statistics; replaced with the figures (P1-3, F7).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D010",
+  "scope": "md",
+  "type": "fact",
+  "before": "It cost careers; the researchers who surfaced them were not thanked at the time.",
+  "after": "Not recorded on this page. The transcripts were found in December 1974 by the General Conference's own archivist, F. Donald Yost, and excerpts were published in *Spectrum* in May 1979 [4].",
+  "reason": "The cost claim had no source and the sourced facts point the other way (P1-4, F12, F13).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D011",
+  "scope": "md",
+  "type": "loop",
+  "before": "Pastors are paid by the conference rather than the congregation, so the people closest to members' doubts answer to the body furthest from them.",
+  "after": "Children schooled inside the church absorb its teaching and its omitted history, and grow up to teach the same curriculum to the next generation.",
+  "reason": "Card 3's summary described pastor pay, which its steps never record; rewritten to match the steps (P2-5).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D012",
+  "scope": "md",
+  "type": "loop",
+  "before": "End-time teaching predicts persecution, so external criticism is metabolized as prophecy fulfilled rather than information received.",
+  "after": "The church's hospitals and relief work earn real standing, and that standing is offered in place of answers to governance questions.",
+  "reason": "Card 4's summary described persecution framing, which its steps never record; rewritten to match the steps (P2-5).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D013",
+  "scope": "md",
+  "type": "loop",
+  "before": "The hospitals and ADRA generate genuine standing, and that standing is deployed to answer governance questions it does not address.",
+  "after": "Women's and commissioned labour built the church's institutions, and the offices that hold those institutions set the terms of the work.",
+  "reason": "Card 5's summary described aid and standing; rewritten to match its steps on labour (P2-5).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D014",
+  "scope": "md",
+  "type": "loop",
+  "before": "A curriculum that omits 1919, Veltman, and Glacier View produces the next generation of teachers who omit them.",
+  "after": "A critic is removed, a study is commissioned, and the teaching does not change.",
+  "reason": "Card 6's summary described the curriculum; rewritten to match its steps on removal and process (P2-5).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D015",
+  "scope": "md",
+  "type": "loop",
+  "before": "The parallel institution system makes leaving a career decision, which keeps members inside long after the questions have started.",
+  "after": "Teaching that expects persecution, and institutions that enclose members, lead criticism to be read as confirmation rather than information.",
+  "reason": "Card 7's summary described career cost; rewritten to match its steps on persecution teaching (P2-5).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D016",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Taught]] The credential actions against Walter Rea and Desmond Ford are on the record (sections 5 and 19); describing critics and independent Adventist media as disloyal is observed practice, with no written rule behind it. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] The credential actions against Walter Rea and Desmond Ford are on the record (sections 5 and 19), but they are credential decisions, not a documented campaign against character; describing critics and independent Adventist media as disloyal is observed practice, with no written rule behind it.",
+  "reason": "The entry's own basis is observed practice, not taught doctrine; no document is named, so the sourced marker goes (P2-6).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D017",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Taught]] The reframing of Glacier View as a personnel matter is documented in the institution's own materials.",
+  "after": "**Evidence grade.** [[Cultural]] The reframing of Glacier View as a personnel matter is how it is retold; no institutional document is named for it on this page.",
+  "reason": "No material is named, so 'documented' is not supported; observed practice (P2-7).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D018",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Taught]] The gap between the formal and operational status of the prophetic claim is the deniability, and it is nowhere written down.",
+  "after": "**Evidence grade.** [[Cultural]] The gap between the formal and operational status of the prophetic claim is the deniability, and because it is nowhere written down it is observed practice rather than taught doctrine.",
+  "reason": "A gap that is not written and not taught as doctrine is cultural (P2-8).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D019",
+  "scope": "md",
+  "type": "grade",
+  "before": "| Evidence | Fifteen of the 30 techniques are sourced to a named document. The grades are Codified 7, Taught 9, Cultural 12 and Reformed 2. |",
+  "after": "| Evidence | Fourteen of the 30 techniques are sourced to a named document. The grades are Codified 7, Taught 6, Cultural 15 and Reformed 2. |",
+  "reason": "Tally after regrading techniques 12, 17 and 30 and removing one sourced marker (P2-6, 7, 8).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D020",
+  "scope": "md",
+  "type": "fact",
+  "before": "in 2015 they rejected women's ordination by 1,381 to 977 [3].",
+  "after": "in 2015 they voted 1,381 to 977 not to let divisions authorize the ordination of women [3].",
+  "reason": "The motion was about division authorization, as §5, §11 and §21 already say (P2-9, F8).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D021",
+  "scope": "narration",
+  "type": "fact",
+  "before": "Merikay Silver's equal-pay case against Pacific Press ended in a federal ruling that she had been denied allowances paid to men and fired in retaliation.",
+  "after": "two women at Pacific Press, Merikay Silver and Lorna Tobler, took the church's publishing house to federal court; in 1982 the appeals court upheld findings that Tobler had been denied allowances paid to men and fired in retaliation.",
+  "reason": "The 1982 ruling concerned Lorna Tobler's claims (P2-10, F17).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D022",
+  "scope": "md",
+  "type": "fact",
+  "before": "Title VII still protects most non-ministerial staff in the US [13].",
+  "after": "Title VII still protects most non-ministerial staff in the US against sex discrimination and retaliation [13], but religious employers may lawfully prefer members of their own faith [21].",
+  "reason": "Section 702 of Title VII exempts religious employers' preference for co-religionists, so it gives little protection against dismissal for a change of belief (P2-11, F22).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D023",
+  "scope": "md",
+  "type": "fact",
+  "before": "Section 24 notes that the same law still protects most non-ministerial staff in the United States.",
+  "after": "Section 24 notes that the same law still protects most non-ministerial staff in the United States against sex discrimination and retaliation, though religious employers may prefer members of their own faith.",
+  "reason": "Loop 5 repeated the overstated protection (P2-11).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D024",
+  "scope": "md",
+  "type": "fact",
+  "before": "It was a financial failure that forced the first serious conflict-of-interest rules on denominational officers.",
+  "after": "It was a financial failure that led the church to enforce conflict-of-interest declarations at every level of the denomination.",
+  "reason": "Source [12] says such forms existed before and became more widespread and strictly enforced (P2-12, F19).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D025",
+  "scope": "md",
+  "type": "fact",
+  "before": "and that it happens on time.",
+  "after": "and that it happens on time. The last session, due in 2020, met in 2022 after a pandemic postponement [22].",
+  "reason": "The control case's test should state the one time the schedule slipped (P2-13, F3).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D026",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Size | About 23.7 million baptized members worldwide (2024), with",
+  "after": "| Size | About 24.4 million baptized members worldwide (2025), with",
+  "reason": "2025 total is 24,372,139 (P3-16, F4).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D027",
+  "scope": "md",
+  "type": "fact",
+  "before": "of about 23.7 million baptized members (2024). It was founded",
+  "after": "of about 24.4 million baptized members (2025). It was founded",
+  "reason": "Same (P3-16).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D028",
+  "scope": "md",
+  "type": "fact",
+  "before": "It has 23.7 million baptized members (2024) [2], and",
+  "after": "It has 24.4 million baptized members (2025) [20], and",
+  "reason": "Same (P3-16).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D029",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Adherents | About 23.7 million baptized members worldwide (2024), with",
+  "after": "| Adherents | About 24.4 million baptized members worldwide (2025), with",
+  "reason": "Same (P3-16).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D030",
+  "scope": "md",
+  "type": "fact",
+  "before": "[\"2024\",22.25]],",
+  "after": "[\"2024\",22.25],[\"2025\",23.27]],",
+  "reason": "Charity Commission register now shows 2025 (P3-17, F20).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D031",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **British Union Conference, 2024:** Of £22.25m income, £14.91m came from donations and legacies, and spending was £19.02m [11].",
+  "after": "- **British Union Conference, 2025:** Of £23.27m income, £16.16m came from donations and legacies, and spending was £20.29m [11]. In 2024 income was £22.25m, of which £14.91m came from donations and legacies, and spending was £19.02m.",
+  "reason": "Latest year added; 2024 kept for comparison (P3-17).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D032",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Walter Rea lost ministerial standing after publishing findings the church's own later study substantially confirmed.",
+  "after": "- Walter Rea lost his church employment in 1980, after his findings were reported in the press; the church's own later study substantially confirmed them.",
+  "reason": "He was dismissed after a newspaper report, two years before *The White Lie* (P3-19, F15).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D033",
+  "scope": "md",
+  "type": "fact",
+  "before": "Rea lost his ministerial standing; the church did the study anyway",
+  "after": "Rea lost his church employment in 1980, after his findings were reported in the press; the church did the study anyway",
+  "reason": "Same (P3-19).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D034",
+  "scope": "md",
+  "type": "fact",
+  "before": "on Ellen White's use of other writers, and lost his ministerial standing [8].",
+  "after": "on Ellen White's use of other writers, having lost his church employment in 1980 after a newspaper reported his findings [8].",
+  "reason": "Same (P3-19).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D035",
+  "scope": "md",
+  "type": "fact",
+  "before": "Ford's ministerial credentials were withdrawn and Rea lost his ministerial standing (section 19; technique 17).",
+  "after": "Ford's ministerial credentials were withdrawn and Rea lost his church employment in 1980 (section 19; technique 17).",
+  "reason": "Same, in loop 6 (P3-19).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D036",
+  "scope": "md",
+  "type": "fact",
+  "before": "Walter Rea lost ministerial standing after publishing findings that the church's own later study substantially confirmed, and his standing was never restored (technique 17).",
+  "after": "Walter Rea lost his church employment in 1980, after his findings were reported in the press; the church's own later study substantially confirmed them, and his standing was never restored (technique 17).",
+  "reason": "Same, loop 6 example (P3-19).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D037",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Unions proceeding with the ordination of women despite the 2015 world vote |",
+  "after": "| Unions ordaining women, before and after the 2015 world vote |",
+  "reason": "The unions began in 2012, before the vote (P3-20).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D038",
+  "scope": "md",
+  "type": "tag",
+  "before": "- **tactics:** 17, 28, 26",
+  "after": "- **tactics:** 26, 28",
+  "reason": "The court record describes pay discrimination and retaliatory dismissal; nothing in the case text supports Smear Campaign (17) (P3-21).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D039",
+  "scope": "md",
+  "type": "fact",
+  "before": "executive pay is rarely surfaced to members | The health corporations",
+  "after": "executive pay is public in tax filings where the entity files but rarely surfaced to members | The health corporations",
+  "reason": "Entities that file Form 990 publish top executive pay; section 22 already says their filings are readable (P3-22, F31).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D040",
+  "scope": "md",
+  "type": "fact",
+  "before": "corporate boards whose executive pay is rarely surfaced to members (sections 7 and 9)",
+  "after": "corporate boards whose executive pay is public in tax filings where the entity files but rarely surfaced to members (sections 7 and 9)",
+  "reason": "Same, loop 4 (P3-22).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D041",
+  "scope": "md",
+  "type": "source",
+  "before": "17. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/",
+  "after": "17. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/\n18. *Adventist Record*, \"1975–1980: Towards Glacier View and its aftermath\" (24 Aug 2023) — the Sanctuary Review Committee's consensus statements on the heavenly sanctuary and on the role of Ellen G. White's writings, and its statement of the differences between Ford's views and the consensus. https://record.adventistchurch.com/2023/08/24/1975-1980-towards-glacier-view-and-its-aftermath/\n19. Ellen G. White Estate, \"What is the Ellen G. White Estate?\" — 15 trustees, five of them life members; the other ten serve terms matching General Conference terms; the General Conference funds the Estate and holds the royalties from White's books; the General Conference Executive Committee fills vacancies if the trustees do not. https://whiteestate.org/about/issues1/about-egw/estate/\n20. General Conference Office of Archives, Statistics and Research, *2026 Annual Statistical Report* (advance release) — 24,372,139 members at 31 Dec 2025; East-Central Africa 5,995,839, Southern Africa-Indian Ocean 4,542,514, West-Central Africa 1,099,312. https://adventistatlas.org/\n21. Title VII of the Civil Rights Act, 42 U.S.C. §2000e-1(a) — the religious-organization exemption. https://www.law.cornell.edu/uscode/text/42/2000e-1\n22. Spectrum, \"How Wilson was elected: a case study in reform\" (2022) — the General Conference session due in 2020 was held in 2022. https://spectrummagazine.org/news/2022/how-wilson-was-elected-case-study-reform",
+  "reason": "Adds the numbered sources the Glacier View, White Estate, membership, Title VII and session-date corrections need.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D042",
+  "scope": "md",
+  "type": "source",
+  "before": "11. Charity Commission for England and Wales, British Union Conference of Seventh-day Adventists (charity 1044071), financial history 2020–2024.",
+  "after": "11. Charity Commission for England and Wales, British Union Conference of Seventh-day Adventists (charity 1044071), financial history 2020–2025.",
+  "reason": "Source now covers 2025 (P3-17).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D043",
+  "scope": "md",
+  "type": "clarity",
+  "before": "Sources for this section: [1] [3] [4] [5] [6] [7] [8]\n",
+  "after": "Sources for this section: [1] [3] [4] [5] [6] [7] [8] [18]\n",
+  "reason": "New source [18] cited in this section.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D044",
+  "scope": "md",
+  "type": "clarity",
+  "before": "Sources for this section: [1] [2]\n",
+  "after": "Sources for this section: [1] [2] [19] [20] [22]\n",
+  "reason": "New sources cited in this section.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D045",
+  "scope": "md",
+  "type": "clarity",
+  "before": "Sources for this section: [2]\n",
+  "after": "Sources for this section: [2] [20]\n",
+  "reason": "New source [20] cited in this section.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D046",
+  "scope": "md",
+  "type": "meta",
+  "before": "checked: 2026-09-27",
+  "after": "checked: 2026-10-03",
+  "reason": "Text rechecked after the discrepancy fixes.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D047",
+  "scope": "md",
+  "type": "meta",
+  "before": "| Last checked | 2026-09-27 |",
+  "after": "| Last checked | 2026-10-03 |",
+  "reason": "Same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SDA-D048",
+  "scope": "md",
+  "type": "changelog",
+  "before": "- **2026-09-27:** Added Branches,",
+  "after": "- **2026-10-03:** Corrected the account of Glacier View, which did publish statements reaffirming the doctrine; corrected how the Ellen G. White Estate's trustees are chosen and funded; updated the membership figure to 24.4 million (2025) and the Africa figure to nearly half; removed an unsupported claim about the 1919 transcripts; regraded three techniques and corrected the count of sourced ones; rewrote five loop summaries to match their steps; corrected which woman the 1982 court ruling concerned, the 2015 vote wording, Walter Rea's dismissal, the Title VII advice and the conflict-of-interest rules; added the 2025 British accounts and the 2022 session date.\n- **2026-09-27:** Added Branches,",
+  "reason": "Patch note for this round (CLAUDE.md patch-notes rule).",
+  "count": 1,
+  "status": "proposed"
  }
 ]

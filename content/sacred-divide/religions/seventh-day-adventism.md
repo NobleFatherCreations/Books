@@ -5,7 +5,7 @@ family: "Restorationist & Adventist"
 family_id: restorationist
 family_members: [mormonism, jehovahs-witnesses, seventh-day-adventism]
 version: v4
-checked: 2026-09-27
+checked: 2026-10-03
 sections_filled: 27/27
 missing: []
 partial: []
@@ -18,15 +18,15 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | About 23.7 million baptized members worldwide (2024), with the church's own reporting acknowledging a substantial gap between baptisms recorded and members retained. [OFFICIAL POLICY: GC statistical report] |
+| Size | About 24.4 million baptized members worldwide (2025), with the church's own reporting acknowledging a substantial gap between baptisms recorded and members retained. [OFFICIAL POLICY: GC statistical report] |
 | Who's in charge | The president of the General Conference (the church's world governing body) is Erton Köhler, elected on 4 July 2025 at the General Conference session in succession to Ted N. C. Wilson, who had held the office since 2010. |
 | Chosen by / removable by | Delegates from every division (the church's world regions) choose the president, voting in session roughly every five years / The session can remove the president, and it has replaced presidents. This row is the strongest in the entire codex. |
 | Money in one line | Tithe here is unusually structured and unusually opaque at the point where it matters. Ten percent goes not to the local congregation but upward to the conference (the regional body that employs the pastors of a group of churches), which pays pastors' salaries; the local church is funded separately by offerings. That means the money a member gives is deliberately separated from the church they can see, and pastoral employment depends on a body the congregation does not control. |
 | Leaving in one line | Leaving is legally free and, in the concentrated communities, occupationally expensive: where the hospital, the university, and the school are all Adventist, a change of belief can be a change of career. |
 | The unanswered question | The church commissioned a study of Ellen White's writings, published its finding of extensive literary dependence (her unattributed borrowing from other authors), and changed nothing about how the prophetic claim is taught. What was the study for? |
-| Evidence | Fifteen of the 30 techniques are sourced to a named document. The grades are Codified 7, Taught 9, Cultural 12 and Reformed 2. |
+| Evidence | Fourteen of the 30 techniques are sourced to a named document. The grades are Codified 7, Taught 6, Cultural 15 and Reformed 2. |
 | Family | Restorationist & Adventist — mormonism, jehovahs-witnesses, seventh-day-adventism |
-| Last checked | 2026-09-27 |
+| Last checked | 2026-10-03 |
 :::
 
 ### Disclosure scorecard
@@ -83,12 +83,12 @@ The church commissioned a study of Ellen White's writings, published its finding
 
 **What is true in it.** Most of that is true and this page records it as true — several rows here come out better than anywhere else in the codex. The officers are elected and have been replaced by vote. There is no shunning doctrine. The church commissioned research into its own founder's writings and published findings that hurt. Loma Linda is in the longevity literature.
 
-**The answer.** None of which touches the specific finding: a claim was made in 1844, publicly falsified, and then relocated to a place where it could not be checked — and when a credentialed theologian checked it anyway, the institution withdrew his credentials instead of answering him. Every other item on this page grows in that shade. A church this well-governed and this transparent about its money is precisely the one that could answer the question, which is why it is worth asking here rather than dismissing.
+**The answer.** None of which touches the specific finding: a claim was made in 1844, publicly falsified, and then relocated to a place where it could not be checked — and when a credentialed theologian checked it anyway, the institution reaffirmed the doctrine in published statements and withdrew his credentials; it has never said what evidence would have counted against it [18]. Every other item on this page grows in that shade. A church this well-governed and this transparent about its money is precisely the one that could answer the question, which is why it is worth asking here rather than dismissing.
 
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-Seventh-day Adventism is a global Protestant denomination of about 23.7 million baptized members (2024). It was founded in the aftermath of a failed 1844 date-setting prophecy, and it is distinguished by Saturday Sabbath observance, a health and vegetarianism tradition, one of the world's largest Protestant education and hospital systems, and the prophetic authority of its co-founder Ellen G. White.
+Seventh-day Adventism is a global Protestant denomination of about 24.4 million baptized members (2025). It was founded in the aftermath of a failed 1844 date-setting prophecy, and it is distinguished by Saturday Sabbath observance, a health and vegetarianism tradition, one of the world's largest Protestant education and hospital systems, and the prophetic authority of its co-founder Ellen G. White.
 :::
 
 - Healthy practice here has an officer who can be voted out, on a published schedule, by delegates the members chose. This tradition already has that practice, and most of this codex lacks it.
@@ -116,7 +116,7 @@ Adventism was born from a specific, dated, public failure. William Miller and hi
 1970s | Merikay Silver's equal-pay litigation against Pacific Press; the church's denominational pay practices are challenged in US federal court | A member used civil law against the institution's employment practice and the courts engaged. [COURT RECORD]
 1980 | Glacier View: theologian Desmond Ford challenges the investigative-judgment doctrine and has his ministerial credentials withdrawn | The tradition's clearest documented case of what happens to a credentialed insider who tests the load-bearing claim in public. Ford attended Adventist churches for the rest of his life. [OFFICIAL POLICY]
 1982 | Walter Rea publishes The White Lie, documenting extensive unattributed literary borrowing in Ellen White's writings; a church-commissioned study by Fred Veltman later confirms substantial dependence in The Desire of Ages (her book on the life of Christ) | The institution's own commissioned research confirmed the substance of a critic's charge — a genuinely creditable act, and one whose implications for the prophetic claim were never squarely faced in public. [ACADEMIC SOURCE]
-1980s | The Davenport affair: church entities lose substantial funds in the collapse of a member's investment scheme; internal reviews follow | It was a financial failure that forced the first serious conflict-of-interest rules on denominational officers. [FINANCIAL RECORD]
+1980s | The Davenport affair: church entities lose substantial funds in the collapse of a member's investment scheme; internal reviews follow | It was a financial failure that led the church to enforce conflict-of-interest declarations at every level of the denomination. [FINANCIAL RECORD]
 2015 | The General Conference session in San Antonio votes against allowing divisions to authorize the ordination of women | A representative body voted, which is more than most institutions in this codex can say — and it voted to keep an exclusion that several of its own unions had already ended.
 2016–2018 | 'Compliance' committees are established to address unions ordaining women; the mechanism is contested across the church's own governance bodies | The apparatus turns inward on its own elected regional bodies — accountability machinery used to enforce rather than to examine.
 2025 | The General Conference session elects Erton Köhler as president, succeeding Ted N. C. Wilson after fifteen years | It was a peaceful, contested, scheduled transfer of the highest office. Almost nowhere else in this codex does that sentence appear.
@@ -145,11 +145,11 @@ At the Bible Conference, senior leaders discussed candidly among themselves the 
 
 Desmond Ford, a credentialed Adventist theologian, presented a documented challenge to the investigative-judgment doctrine at a specially convened conference. His ministerial credentials were withdrawn. He attended Adventist churches for the rest of his life.
 
-**Why it matters.** The chair ran — against the man, not the doctrine. A published finding about Ford exists; no published finding about the doctrine does. That asymmetry is the page's central exhibit.
+**Why it matters.** The chair ran — against the man, not the doctrine. The committee published consensus statements reaffirming the doctrine and a statement of where Ford's views differed from them; the only binding action it produced was against the man. That asymmetry is the page's central exhibit.
 :::
 
 ::: cites
-Sources for this section: [1] [3] [4] [5] [6] [7] [8]
+Sources for this section: [1] [3] [4] [5] [6] [7] [8] [18]
 :::
 
 ## 6. Branches & variants {#branches}
@@ -158,7 +158,7 @@ Seventh-day Adventism is one unified worldwide organization under the General Co
 
 | Layer | Size and place | What differs on this page's questions |
 |---|---|---|
-| **General Conference** | It has 23.7 million baptized members (2024) [2], and its president is elected at a delegate session (Erton Köhler, 2025) [1]. | Delegates vote on church-wide questions; in 2015 they rejected women's ordination by 1,381 to 977 [3]. |
+| **General Conference** | It has 24.4 million baptized members (2025) [20], and its president is elected at a delegate session (Erton Köhler, 2025) [1]. | Delegates vote on church-wide questions; in 2015 they voted 1,381 to 977 not to let divisions authorize the ordination of women [3]. |
 | **Unions and conferences** | They are regional bodies, such as the British Union Conference [11]. | They receive the tithe and pay pastors, and in the UK they file public accounts [11]. |
 | **Institutions** | They include hospitals, universities, and publishing houses [10][13]. | They are separately incorporated, and one was held liable as an employer under federal law [13]. |
 | **Historical offshoots** | They are small groups the church disavows. | They are not the subject of this page. |
@@ -169,7 +169,7 @@ Seventh-day Adventism is one unified worldwide organization under the General Co
 
 |  |  |
 |---|---|
-| Adherents | About 23.7 million baptized members worldwide (2024), with the church's own reporting acknowledging a substantial gap between baptisms recorded and members retained. [OFFICIAL POLICY: GC statistical report] |
+| Adherents | About 24.4 million baptized members worldwide (2025), with the church's own reporting acknowledging a substantial gap between baptisms recorded and members retained. [OFFICIAL POLICY: GC statistical report] |
 | Regions | The membership is overwhelmingly in the Global South: Africa (the largest bloc by far), Latin America, the Philippines, and India. North America, Europe, and Australia have historically significant but proportionally small memberships. |
 | Trend | The church is growing fast in Africa and Latin America and is roughly flat or declining in North America and Europe. The church's own audits have repeatedly found large numbers of members recorded but not retained. |
 | Participation | Sabbath observance makes participation unusually visible and unusually costly — it structures employment, schooling, and social life in a way weekly attendance elsewhere does not. |
@@ -190,12 +190,12 @@ This is the page where the codex's central question gets a good answer. The apex
 |---|---|---|---|
 | General Conference President | Erton Köhler holds it. He was elected on 4 July 2025 at the General Conference session in succession to Ted N. C. Wilson, who had held the office since 2010. | Delegates from every division choose the president, voting in session roughly every five years. | The session can remove the president, and it has replaced presidents. This row is the strongest in the entire codex. |
 | General Conference in session | Several thousand delegates from around the world sit in it. | They are selected through conferences, unions, and divisions. | It answers to its own constituency. |
-| The Ellen G. White Estate | A board of trustees sits in it, constituted by White's own will and self-perpetuating since. | Trustees are chosen by succession under the terms of the will. | Nobody outside the trust can remove them. The elected structure does not reach this office, which is exactly where the unreviewable claim is kept. |
+| The Ellen G. White Estate | A board of 15 trustees sits in it, constituted by White's own will. Five are life trustees; the other ten serve terms tied to General Conference terms [19]. | Life trustees fill vacancies under the terms of the will, and the General Conference Executive Committee fills them if the trustees do not [19]. | This page records no way for members to remove trustees by vote. The elected structure reaches the office only through the General Conference, which funds the Estate and receives the royalties from White's books [19]. |
 | Unions and local conferences | Elected officers and executive committees sit in them and hold ministerial credentials and employment. | Regional constituency meetings choose them. | Their constituencies can remove them, which is why several unions were able to ordain women against the world vote. |
 | Adventist Health and the university systems | Corporate boards sit in them, with intricate links to church governance. | Board members are appointed. | The boards can remove their officers. Executive compensation here is the least-surfaced number in Adventist life. |
 
 ::: tell
-Follow the elected chain and it works. Follow the prophetic claim and it terminates in a trust created by the prophet's own will, answerable to nobody the members elect. One tradition, two structures, and every unanswerable question in it lives in the second one.
+Follow the elected chain and it works. Follow the prophetic claim and it terminates in a trust created by the prophet's own will, funded by the General Conference but not answerable to any member vote. One tradition, two structures, and every unanswerable question in it lives in the second one.
 :::
 
 ### Who holds what
@@ -214,10 +214,10 @@ Follow the elected chain and it works. Follow the prophetic claim and it termina
 
 | Office | Now | Mechanism | Prediction | What would falsify it |
 |---|---|---|---|---|
-| General Conference of Seventh-day Adventists | Erton Köhler, elected July 2025 | Elected in session by delegates, roughly every five years | It is included as the control case. The codex predicts the next transfer is scheduled, contested, peaceful, and reported — and that it happens on time. | A postponed, uncontested, or unreported transfer would falsify it. This row exists to demonstrate that the instrument can predict a good outcome as readily as a bad one. |
+| General Conference of Seventh-day Adventists | Erton Köhler, elected July 2025 | Elected in session by delegates, roughly every five years | It is included as the control case. The codex predicts the next transfer is scheduled, contested, peaceful, and reported — and that it happens on time. The last session, due in 2020, met in 2022 after a pandemic postponement [22]. | A postponed, uncontested, or unreported transfer would falsify it. This row exists to demonstrate that the instrument can predict a good outcome as readily as a bad one. |
 
 ::: cites
-Sources for this section: [1] [2]
+Sources for this section: [1] [2] [19] [20] [22]
 :::
 
 ## 8. Law & state here {#law}
@@ -249,7 +249,7 @@ Uniquely in this codex, start inside: the General Conference session, the union 
 | Tithe (10%) | Supporting the worldwide gospel work through the conference | Medium — the flow is upward and away from local visibility, and it pays the salary of the pastor the congregation did not hire | The conference and union structures benefit. |
 | Local church budget offerings | Running the congregation you actually attend | Low — visible, local, and usually reported to the members | The local congregation benefits. |
 | Church school tuition | Educating children in the faith | Medium — a substantial recurring cost, and a strong retention mechanism as well as a genuine service | The education system benefits. |
-| Health system revenue | Hospital and clinic operations | Medium — large corporate entities whose executive pay is rarely surfaced to members | The health corporations and their executives benefit. |
+| Health system revenue | Hospital and clinic operations | Medium — large corporate entities whose executive pay is public in tax filings where the entity files but rarely surfaced to members | The health corporations and their executives benefit. |
 | Publishing and literature evangelism | Spreading the message and employing colporteurs (literature evangelists) | Medium — a sales workforce paid on commission, historically with weak labour protections | The publishing houses benefit. |
 | ADRA and disaster offerings | Relief and development | Low — independently evaluated in many jurisdictions and among the more checkable flows in this codex | The people it serves benefit, substantially and verifiably. |
 
@@ -261,12 +261,12 @@ Sources for this section: [8]
 
 ```chart
 {"id":"sda-buc","type":"bar","title":"British Union Conference of Seventh-day Adventists: income","unit":"£ million, years to 31 December",
- "series":[["2020",15.50],["2021",20.43],["2022",17.58],["2023",19.94],["2024",22.25]],
+ "series":[["2020",15.50],["2021",20.43],["2022",17.58],["2023",19.94],["2024",22.25],["2025",23.27]],
  "note":"The figures cover the UK union only; its local conferences file separately. They are public because charity law requires it.",
  "cite":[11]}
 ```
 
-- **British Union Conference, 2024:** Of £22.25m income, £14.91m came from donations and legacies, and spending was £19.02m [11].
+- **British Union Conference, 2025:** Of £23.27m income, £16.16m came from donations and legacies, and spending was £20.29m [11]. In 2024 income was £22.25m, of which £14.91m came from donations and legacies, and spending was £19.02m.
 - **The Davenport losses:** Church entities had $17.8 million in loans and $3.3 million in accrued interest outstanding in 1981 [12].
 - **Tithe** goes to the conference, not the local congregation (see "Where it comes from" above).
 
@@ -279,7 +279,7 @@ Sources for this section: [8]
 
 **What it was for.** It rescued a devastated community. Thousands of people had given away everything and needed a way to understand the day after — and the reinterpretation gave the disappointment meaning rather than ridicule.
 
-**Why that reason expired.** It works by relocating the event to a place no one can look. A claim built specifically to be unobservable cannot be tested, and when a credentialed theologian tested it anyway in 1980, the response was to withdraw his credentials rather than answer him.
+**Why that reason expired.** It works by relocating the event to a place no one can look. A claim built specifically to be unobservable cannot be tested, and when a credentialed theologian tested it anyway in 1980, the response was to reaffirm the doctrine in published statements and withdraw his credentials, without saying what evidence would count against it.
 
 **Who benefits now.** The doctrinal structure and the offices that rest on it benefit. A doctrine that cannot be checked cannot be lost, and the people who administer it cannot be wrong.
 :::
@@ -602,9 +602,9 @@ Ellen White is a lesser light, subordinate to scripture — and her writings set
 
 **The strongest defense.** The church responded to a genuine doctrinal challenge through its established process.
 
-**The counter.** It did, and the process was real — which makes the outcome more informative, not less. The process produced a decision about the man and no published decision about the doctrine. Ask which of those the challenge was actually about.
+**The counter.** It did, and the process was real — which makes the outcome more informative, not less. The process produced a reaffirmation of the doctrine and a decision about the man; it did not publish what evidence would have counted against the doctrine. Ask which of those the challenge was actually about.
 
-**Evidence grade.** [[Taught]] The reframing of Glacier View as a personnel matter is documented in the institution's own materials.
+**Evidence grade.** [[Cultural]] The reframing of Glacier View as a personnel matter is how it is retold; no institutional document is named for it on this page.
 :::
 
 ::: tactic n=13
@@ -706,7 +706,7 @@ The harvest here is tithe flowing past your congregation to the conference that 
 
 **How it shows here**
 
-- Walter Rea lost ministerial standing after publishing findings the church's own later study substantially confirmed.
+- Walter Rea lost his church employment in 1980, after his findings were reported in the press; the church's own later study substantially confirmed them.
 - Desmond Ford's credentials withdrawn; his continued attendance at Adventist churches rarely mentioned.
 - Independent Adventist media characterised as disloyal.
 
@@ -714,7 +714,7 @@ The harvest here is tithe flowing past your congregation to the conference that 
 
 **The counter.** They do. The specific finding is that a critic's substantive claim was later confirmed by the institution's own commissioned research, and his standing was never restored. Ask what the process is for a critic who turns out to have been right.
 
-**Evidence grade.** [[Taught]] The credential actions against Walter Rea and Desmond Ford are on the record (sections 5 and 19); describing critics and independent Adventist media as disloyal is observed practice, with no written rule behind it. *(sourced)*
+**Evidence grade.** [[Cultural]] The credential actions against Walter Rea and Desmond Ford are on the record (sections 5 and 19), but they are credential decisions, not a documented campaign against character; describing critics and independent Adventist media as disloyal is observed practice, with no written rule behind it.
 :::
 
 ::: tactic n=18
@@ -968,7 +968,7 @@ The seat fills, the school teaches the same curriculum, and the omitted history 
 
 **The counter.** Much of it genuinely is, and that gives this tradition unusually low deniability on governance — a real strength. The deniability concentrates in one place: the distance between what the prophetic claim is formally said to be and what it actually does in a room. That distance has never been written down, which is what makes it useful.
 
-**Evidence grade.** [[Taught]] The gap between the formal and operational status of the prophetic claim is the deniability, and it is nowhere written down.
+**Evidence grade.** [[Cultural]] The gap between the formal and operational status of the prophetic claim is the deniability, and because it is nowhere written down it is observed practice rather than taught doctrine.
 :::
 
 ::: cites
@@ -1028,7 +1028,7 @@ An unobservable doctrine cannot generate disconfirming evidence, so every year o
 ::: card
 #### 3 · Children to Members to Children
 
-Pastors are paid by the conference rather than the congregation, so the people closest to members' doubts answer to the body furthest from them.
+Children schooled inside the church absorb its teaching and its omitted history, and grow up to teach the same curriculum to the next generation.
 
 **How it runs.**
 
@@ -1050,14 +1050,14 @@ Pastors are paid by the conference rather than the congregation, so the people c
 ::: card
 #### 4 · Aid to Legitimacy to Leverage to Aid
 
-End-time teaching predicts persecution, so external criticism is metabolized as prophecy fulfilled rather than information received.
+The church's hospitals and relief work earn real standing, and that standing is offered in place of answers to governance questions.
 
 **How it runs.**
 
 1. The church runs hospitals, universities and relief work at scale; ADRA's work is independently evaluated in many jurisdictions (sections 9 and 16).
 2. That work earns real standing: Loma Linda appears in the longevity literature, and the health message anticipated modern nutrition (sections 5 and 16).
 3. The standing is deployed as an answer to governance questions it does not address, such as a withdrawn credential or a congregation's tithe (section 16; technique 2).
-4. The questions go unanswered while the institutions continue under corporate boards whose executive pay is rarely surfaced to members (sections 7 and 9).
+4. The questions go unanswered while the institutions continue under corporate boards whose executive pay is public in tax filings where the entity files but rarely surfaced to members (sections 7 and 9).
 5. Members' offerings, tuition and trust keep funding the institutions and the relief work, and the standing renews (sections 9 and 16).
 
 **Techniques that feed it.** [2 · Weaponized Generosity](#t-2), [22 · Benevolent Control](#t-22), [30 · Plausible Deniability](#t-30).
@@ -1072,7 +1072,7 @@ End-time teaching predicts persecution, so external criticism is metabolized as 
 ::: card
 #### 5 · Unpaid Labor to Assets to Power to More Labor
 
-The hospitals and ADRA generate genuine standing, and that standing is deployed to answer governance questions it does not address.
+Women's and commissioned labour built the church's institutions, and the offices that hold those institutions set the terms of the work.
 
 **How it runs.**
 
@@ -1086,7 +1086,7 @@ The hospitals and ADRA generate genuine standing, and that standing is deployed 
 
 **Why it closes.** The people who do the work hold no office over the assets it produces, and the offices that hold the assets set the terms of the work. A worker who contests the terms risks the job that the terms govern.
 
-**Where it could be broken, and by whom.** It was broken once from outside: the federal courts held that Title VII applied to the church's publishing house and affirmed the findings of pay discrimination and retaliation (sections 8 and 19). Section 24 notes that the same law still protects most non-ministerial staff in the United States. This paragraph is analysis, not a documented finding.
+**Where it could be broken, and by whom.** It was broken once from outside: the federal courts held that Title VII applied to the church's publishing house and affirmed the findings of pay discrimination and retaliation (sections 8 and 19). Section 24 notes that the same law still protects most non-ministerial staff in the United States against sex discrimination and retaliation, though religious employers may prefer members of their own faith. This paragraph is analysis, not a documented finding.
 
 **An example from this page.** Lorna Tobler, an editorial secretary at Pacific Press, was dismissed after she took part in proceedings brought by her co-worker Merikay Silver (section 19).
 :::
@@ -1094,12 +1094,12 @@ The hospitals and ADRA generate genuine standing, and that standing is deployed 
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
-A curriculum that omits 1919, Veltman, and Glacier View produces the next generation of teachers who omit them.
+A critic is removed, a study is commissioned, and the teaching does not change.
 
 **How it runs.**
 
 1. A challenge surfaces in public: Walter Rea's findings on Ellen White's sources, and Desmond Ford's challenge to the investigative judgment at Glacier View in 1980 (sections 5 and 19).
-2. The person is removed. Ford's ministerial credentials were withdrawn and Rea lost his ministerial standing (section 19; technique 17).
+2. The person is removed. Ford's ministerial credentials were withdrawn and Rea lost his church employment in 1980 (section 19; technique 17).
 3. A process follows. Glacier View was a specially convened conference, and the church commissioned the Veltman study, which confirmed substantial literary dependence (sections 5 and 19).
 4. The finding is not carried into teaching. The Veltman findings have never been integrated into how the prophetic claim is taught, and Rea's standing was never restored (section 11; technique 17).
 5. The curriculum continues without 1919, Veltman or Glacier View, and the teaching is unchanged (sections 11 and 14).
@@ -1110,13 +1110,13 @@ A curriculum that omits 1919, Veltman, and Glacier View produces the next genera
 
 **Where it could be broken, and by whom.** Section 20 names what would revise the page: a General Conference statement of what evidence would count against the investigative judgment, integration of the 1919 transcripts and the Veltman findings into the curriculum, and restoration of a critic's standing where the church's own research confirmed his claim. The Davenport case shows the structure can act: conflict-of-interest forms became a yearly requirement (section 19). This paragraph is analysis, not a documented finding.
 
-**An example from this page.** Walter Rea lost ministerial standing after publishing findings that the church's own later study substantially confirmed, and his standing was never restored (technique 17).
+**An example from this page.** Walter Rea lost his church employment in 1980, after his findings were reported in the press; the church's own later study substantially confirmed them, and his standing was never restored (technique 17).
 :::
 
 ::: card
 #### 7 · Persecution to Solidarity to Insulation to Unaccountability
 
-The parallel institution system makes leaving a career decision, which keeps members inside long after the questions have started.
+Teaching that expects persecution, and institutions that enclose members, lead criticism to be read as confirmation rather than information.
 
 **How it runs.**
 
@@ -1149,7 +1149,7 @@ The parallel institution system makes leaving a career decision, which keeps mem
 
 ### Accountability or theatre?
 
-**Last time the chair ran.** It last ran in 1980, at Glacier View, and it ran against the theologian rather than the doctrine. In finance it has run more honestly: the Davenport affair produced real conflict-of-interest rules.
+**Last time the chair ran.** It last ran in 1980, at Glacier View, and it ran against the theologian: the committee reaffirmed the doctrine and the only binding action fell on the man. In finance it has run more honestly: the Davenport affair produced real conflict-of-interest rules.
 
 **Who holds the chair now.** The chair is genuinely occupied. An elected president and elected officers hold it, replaceable in session, most recently in 2025.
 
@@ -1279,7 +1279,7 @@ Most of the institution's work is done below the General Conference, by people w
 - **what:** Lorna Tobler, an editorial secretary at Pacific Press, filed discrimination charges; her duties were reduced after she took part in proceedings brought by her co-worker Merikay Silver, and she was dismissed [13].
 - **record:** *EEOC v. Pacific Press Publishing Ass'n*, 676 F.2d 1272 (9th Cir. 1982) [13]
 - **outcome:** The court held Title VII applied and affirmed the findings of pay discrimination and retaliation [13].
-- **tactics:** 17, 28, 26
+- **tactics:** 26, 28
 - **grade:** Documented
 :::
 
@@ -1287,8 +1287,8 @@ Most of the institution's work is done below the General Conference, by people w
 ### Glacier View (1980)
 - **when:** 1980
 - **what:** Desmond Ford, a credentialed theologian, challenged the investigative-judgment doctrine at a specially convened conference [8].
-- **record:** *Encyclopedia of Seventh-day Adventists* [8]
-- **outcome:** His ministerial credentials were withdrawn [8].
+- **record:** *Adventist Record*, "1975–1980: Towards Glacier View and its aftermath" (24 Aug 2023) [18]; *Encyclopedia of Seventh-day Adventists* [8]
+- **outcome:** The committee published consensus statements on Christ's ministry in the heavenly sanctuary and on the role of Ellen G. White's writings, and a statement of the main differences between Ford's views and that consensus [18]. His ministerial credentials were withdrawn [8].
 - **tactics:** 17, 28
 - **grade:** Documented
 :::
@@ -1299,10 +1299,10 @@ Most of the institution's work is done below the General Conference, by people w
 
 | What | Who | When | What it cost |
 |---|---|---|---|
-| The 1919 Bible Conference transcripts brought into the open | Adventist historians working in the church's own archives | 1970s | It cost careers; the researchers who surfaced them were not thanked at the time. |
-| The church commissioning and publishing the Veltman study on literary dependence | The institution itself, under sustained pressure from Walter Rea's findings | 1980s | Rea lost his ministerial standing; the church did the study anyway, which is genuinely to its credit |
+| The 1919 Bible Conference transcripts brought into the open | Adventist historians working in the church's own archives | 1970s | Not recorded on this page. The transcripts were found in December 1974 by the General Conference's own archivist, F. Donald Yost, and excerpts were published in *Spectrum* in May 1979 [4]. |
+| The church commissioning and publishing the Veltman study on literary dependence | The institution itself, under sustained pressure from Walter Rea's findings | 1980s | Rea lost his church employment in 1980, after his findings were reported in the press; the church did the study anyway, which is genuinely to its credit |
 | Merikay Silver's equal-pay litigation | An employee who went to federal court against her own denomination | 1970s | It cost her career inside the system. |
-| Unions proceeding with the ordination of women despite the 2015 world vote | Elected regional bodies acting on their own delegates' authority | 2012 onward | It brought compliance committees, censure, and years of institutional conflict. |
+| Unions ordaining women, before and after the 2015 world vote | Elected regional bodies acting on their own delegates' authority | 2012 onward | It brought compliance committees, censure, and years of institutional conflict. |
 | A contested, scheduled, peaceful transfer of the world presidency by vote | The General Conference session | 2025 | It cost nothing, and that is why this tradition is a useful control case for this entire codex. |
 
 ### What would change this page
@@ -1317,7 +1317,7 @@ Sources for this section: [4] [5] [6] [7]
 
 - **Merikay Silver and Lorna Tobler.** They were two women at the church's publishing house, Pacific Press, who took equal pay to federal court and won. The court held that Title VII applied to the church's publisher [13].
 - **Desmond Ford.** A credentialed Adventist theologian, he challenged the investigative-judgment doctrine at Glacier View in 1980, and his ministerial credentials were withdrawn [8]. He attended Adventist churches for the rest of his life.
-- **Walter Rea.** He wrote *The White Lie* (1982), on Ellen White's use of other writers, and lost his ministerial standing [8]. The church's own commissioned study later found she used others' writings "consciously and intentionally" [5][6].
+- **Walter Rea.** He wrote *The White Lie* (1982), on Ellen White's use of other writers, having lost his church employment in 1980 after a newspaper reported his findings [8]. The church's own commissioned study later found she used others' writings "consciously and intentionally" [5][6].
 - **The 977 delegates.** In 2015 they voted to let each world division decide on ordaining women; 1,381 delegates voted against [3].
 
 ## 22. Regional variants {#regional}
@@ -1336,7 +1336,7 @@ Sources for this section: [4] [5] [6] [7]
 ::: card
 ### Africa (as the membership centre of gravity)
 
-- **apex:** Divisions and unions here hold the overwhelming majority of world membership.
+- **apex:** Divisions and unions here hold the largest share of world membership: the three African divisions report about 11.6 million of 24.4 million members (2025), nearly half [20].
 - **law:** The law varies enormously; charity and education regulation is generally weaker than in North America.
 - **documented:** General Conference statistical reports show the membership centre of gravity has moved decisively south while institutional wealth and staffing have not.
 - **exit:** Exit costs vary, and are generally high where church schools and clinics are the available ones.
@@ -1345,7 +1345,7 @@ Sources for this section: [4] [5] [6] [7]
 :::
 
 ::: cites
-Sources for this section: [2]
+Sources for this section: [2] [20]
 :::
 
 ## 23. The questions {#questions}
@@ -1374,7 +1374,7 @@ Sources for this section: [4] [7]
 Practical guidance, not legal advice.
 
 1. **Leaving is legally free.** You can ask your local church in writing to remove your name.
-2. **If you work for a church institution,** get advice on your employment rights first; Title VII still protects most non-ministerial staff in the US [13].
+2. **If you work for a church institution,** get advice on your employment rights first; Title VII still protects most non-ministerial staff in the US against sex discrimination and retaliation [13], but religious employers may lawfully prefer members of their own faith [21].
 3. **Children in Adventist schools** can move schools; the costs are social.
 4. **If you were abused,** go to the police first.
 5. **Find support** [14][15][16].
@@ -1404,15 +1404,21 @@ Checked 2026-09-27.
 10. Loma Linda and the Adventist Health Studies (a Blue Zone). https://adventisthealthstudy.org/
 
 ### Further sources
-11. Charity Commission for England and Wales, British Union Conference of Seventh-day Adventists (charity 1044071), financial history 2020–2024. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/1044071/financial-history
+11. Charity Commission for England and Wales, British Union Conference of Seventh-day Adventists (charity 1044071), financial history 2020–2025. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/1044071/financial-history
 12. *Encyclopedia of Seventh-day Adventists*, "Davenport Scandal" — $71m missing; $17.8m in loans and $3.3m interest outstanding from church entities; the unpublished 624-page report. https://encyclopedia.adventist.org/assets/pdf/article-8IUU.pdf
 13. *EEOC v. Pacific Press Publishing Ass'n*, 676 F.2d 1272 (9th Cir. 1982) — full text. https://law.resource.org/pub/us/case/reporter/F2/676/676.F2d.1272.80-4189.html
 14. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 15. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
 16. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 17. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
+18. *Adventist Record*, "1975–1980: Towards Glacier View and its aftermath" (24 Aug 2023) — the Sanctuary Review Committee's consensus statements on the heavenly sanctuary and on the role of Ellen G. White's writings, and its statement of the differences between Ford's views and the consensus. https://record.adventistchurch.com/2023/08/24/1975-1980-towards-glacier-view-and-its-aftermath/
+19. Ellen G. White Estate, "What is the Ellen G. White Estate?" — 15 trustees, five of them life members; the other ten serve terms matching General Conference terms; the General Conference funds the Estate and holds the royalties from White's books; the General Conference Executive Committee fills vacancies if the trustees do not. https://whiteestate.org/about/issues1/about-egw/estate/
+20. General Conference Office of Archives, Statistics and Research, *2026 Annual Statistical Report* (advance release) — 24,372,139 members at 31 Dec 2025; East-Central Africa 5,995,839, Southern Africa-Indian Ocean 4,542,514, West-Central Africa 1,099,312. https://adventistatlas.org/
+21. Title VII of the Civil Rights Act, 42 U.S.C. §2000e-1(a) — the religious-organization exemption. https://www.law.cornell.edu/uscode/text/42/2000e-1
+22. Spectrum, "How Wilson was elected: a case study in reform" (2022) — the General Conference session due in 2020 was held in 2022. https://spectrummagazine.org/news/2022/how-wilson-was-elected-case-study-reform
 
 ## 27. What changed on this page {#changed}
 
+- **2026-10-03:** Corrected the account of Glacier View, which did publish statements reaffirming the doctrine; corrected how the Ellen G. White Estate's trustees are chosen and funded; updated the membership figure to 24.4 million (2025) and the Africa figure to nearly half; removed an unsupported claim about the 1919 transcripts; regraded three techniques and corrected the count of sourced ones; rewrote five loop summaries to match their steps; corrected which woman the 1982 court ruling concerned, the 2015 vote wording, Walter Rea's dismissal, the Title VII advice and the conflict-of-interest rules; added the 2025 British accounts and the 2022 session date.
 - **2026-09-27:** Added Branches, Law & state, Money in numbers (British Union Conference accounts 2020–2024), three documented cases, Voices from inside, Leaving safely and Where to get help.
 

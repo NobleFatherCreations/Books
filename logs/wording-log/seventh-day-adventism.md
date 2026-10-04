@@ -1,6 +1,6 @@
 # Wording log — seventh-day-adventism
 
-121 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/seventh-day-adventism.json`, then rebuild. Nothing else changes.
+119 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/seventh-day-adventism.json`, then rebuild. Nothing else changes.
 
 ## Specialist terms glossed on first use (22)
 
@@ -1262,7 +1262,7 @@
 
 *Reason:* Fragment completed.
 
-## Proofreading (typos, punctuation, agreement) (9)
+## Proofreading (typos, punctuation, agreement) (7)
 
 ### SDA-P001 · md · §5 · proposed · build: applied
 
@@ -1347,30 +1347,6 @@
 > | Union and division officers | Govern regionally, hold credentials, sit on committees | Whether compliance machinery is being used to examine or to enforce | Comply | Comply; several unions already have refused, which is why this row is not hypothetical |
 
 *Reason:* Subject-verb agreement; doubled 'to'; 'already have' completed so it is clear what the unions have done.
-
-### SDA-N001 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 3 documented cases on this page
-
-**After**
-
-> These are not hypotheticals. Three documented cases on this page
-
-*Reason:* Numeral at the start of a clause spelled out.
-
-### SDA-N002 · narration · §22 · proposed · build: applied
-
-**Before**
-
-> This page covers United States and Africa (as the membership centre of gravity).
-
-**After**
-
-> This page covers the United States and Africa, the membership centre of gravity.
-
-*Reason:* Country name needs 'the'; the card heading's parenthesis rewritten as an appositive.
 
 ## Evidence-grade notes matched to their technique (1)
 
