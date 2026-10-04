@@ -38239,8 +38239,8 @@
   {
    "id": "ALL-M01",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "no-op"
   },
   {
    "id": "ALL-M02",
@@ -38263,8 +38263,8 @@
   {
    "id": "ALL-M05",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "no-op"
   },
   {
    "id": "ALL-M06",
@@ -38281,26 +38281,26 @@
   {
    "id": "ALL-N01",
    "scope": "narration",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "no-op"
   },
   {
    "id": "ALL-F01",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "no-op"
   },
   {
    "id": "ALL-F02",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "no-op"
   },
   {
    "id": "ALL-F03",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "no-op"
   },
   {
    "id": "ALL-F04",
@@ -38323,728 +38323,1196 @@
   {
    "id": "ZOR-W001",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-G001",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W002",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W003",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-G002",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-G003",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-G004",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W004",
    "scope": "md",
-   "found": 2,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 2)"
   },
   {
    "id": "ZOR-W005",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W006",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-G005",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-G006",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W007",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W008",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W009",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W010",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W011",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W012",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W013",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W014",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W015",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W016",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-G007",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W017",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W018",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W019",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W020",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W021",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-G008",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W022",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-G009",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W023",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W024",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W025",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W026",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W027",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W028",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W029",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W030",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W031",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W032",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W033",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W034",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W035",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W036",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W037",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W038",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W039",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W040",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W041",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W042",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W043",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W044",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W045",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W046",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W047",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-P001",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-P002",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-R003",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-R004",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-R006",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-R007",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-R008",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-R009",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-R010",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-R011",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-R012",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-R013",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-R017",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-R018",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-R020",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-R021",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-R022",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-R024",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-R025",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-R026",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-R023",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-R027",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-R029",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-L001",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-L002",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-L003",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-L004",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-L005",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-L006",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-L007",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-L008",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W048",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W049",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W050",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W051",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W052",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W053",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W054",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W055",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W056",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W057",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W058",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W059",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-G010",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W060",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W061",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W062",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W063",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W064",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W065",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W066",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W067",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W068",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W069",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W070",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W071",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W072",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W073",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W074",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W075",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W076",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-P003",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-W077",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ZOR-N003",
    "scope": "narration",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "ALL-F07",
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ZORF-D001",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D002",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D003",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D004",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D005",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D006",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D007",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 2)"
+  },
+  {
+   "id": "ZORF-D008",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D009",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D010",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D011",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 2)"
+  },
+  {
+   "id": "ZORF-D012",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D013",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D014",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D015",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D016",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D017",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D018",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D019",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D020",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D021",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D022",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D023",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D024",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D025",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D026",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D027",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D028",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D029",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D030",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D031",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D032",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 2)"
+  },
+  {
+   "id": "ZORF-D033",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D034",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D035",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D036",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D037",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D038",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D039",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D040",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D041",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D042",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D043",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D044",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D045",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D046",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D047",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D048",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D049",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D050",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D051",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D052",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D053",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D054",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D055",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D056",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D057",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D058",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D059",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D060",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D061",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D062",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D063",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D064",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D065",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D066",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D067",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D068",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D069",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D070",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D071",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D072",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D073",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D074",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D075",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D076",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D077",
+   "scope": "md",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
+  },
+  {
+   "id": "ZORF-D078",
+   "scope": "narration",
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   }
  ],
  "bahai": [
