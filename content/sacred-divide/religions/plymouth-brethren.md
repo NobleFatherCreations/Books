@@ -5,7 +5,7 @@ family: "Christianity"
 family_id: christianity-family
 family_members: [christianity, catholicism, eastern-orthodoxy, oriental-orthodoxy, anglicanism, protestant-evangelical, pentecostal-charismatic, plymouth-brethren]
 version: v4
-checked: 2026-09-27
+checked: 2026-10-03
 sections_filled: 27/27
 missing: []
 partial: []
@@ -25,7 +25,8 @@ partial: []
 | Leaving in one line | Being "withdrawn from" (excommunicated) means separation from family who stay; one former member told the ABC (the Australian Broadcasting Corporation), "I have no contact with my mum" [5]. |
 | The unanswered question | May a withdrawn parent eat with their children? |
 | Family | Christianity — christianity, catholicism, eastern-orthodoxy, oriental-orthodoxy, anglicanism, protestant-evangelical, pentecostal-charismatic, plymouth-brethren |
-| Last checked | 2026-09-27 |
+| Evidence | Ten of the 30 techniques are Documented and seven are Taught. The grades are Cultural 13, Documented 10 and Taught 7. |
+| Last checked | 2026-10-03 |
 :::
 
 ### Disclosure scorecard
@@ -65,7 +66,7 @@ May a withdrawn parent eat with their children?
 
 - *Attack:* "Anti-religious media bias against a peaceful minority."
 - *Concede:* The fellowship is peaceful, charitable [4] and, in England, met the regulator's conditions [2].
-- *Answer:* Family separation is attested by former members across countries [5]. A charity regulator found public benefit unproven before the changes [2]. The electoral material was examined by an electoral commission [8].
+- *Answer:* Family separation is attested by former members across countries [5]. A charity regulator found public benefit unproven before the changes [2]. The 2004 electoral material was examined by an electoral commission, which found the spending disclosed in a third-party return [8].
 
 ## 4. What healthy looks like here {#healthy}
 
@@ -74,14 +75,14 @@ The church has more than 50,000 members, mainly in Australia, New Zealand, the U
 :::
 
 - Members have strong families, practice mutual aid and give generous disaster relief [4].
-- Members run competent businesses that also employ outsiders.
+- Members run competent businesses that also employ outsiders; the church's own account, relayed by Wikipedia, is about 56,000 non-member staff [1].
 - In England the church accepted a deed of variation (a legal amendment to its trust deeds) committing its trusts to public benefit, including public access to worship [2].
 - Its UK meeting-hall trusts and its UK school charity file public accounts [10][16].
 - Some families stay in contact with relatives who have left, and the church says it issues no formal guidance on how families should respond [4].
 
 ## 5. History {#history}
 
-The Brethren movement began in Dublin and Plymouth in the 1820s–30s and split into Open and Exclusive branches in 1848. Among the Exclusives, a line of leaders centralized authority and intensified separation, especially under James Taylor Jr. (leader to 1970) [6]. The leader's conduct in Aberdeen in July 1970, and the movement's refusal to investigate it, caused the largest schism in its history: roughly 8,000 people left [6]. Bruce D. Hales, a Sydney businessman, has led since 2002, succeeding his father [1].
+The Brethren movement began in Dublin and Plymouth in the 1820s–30s and split into Open and Exclusive branches in 1848. Among the Exclusives, a line of leaders centralized authority and intensified separation, especially under James Taylor Jr. (leader to 1970) [6]. The leader's conduct in Aberdeen in July 1970, and the movement's refusal to investigate it, caused the largest schism in its history; in Scotland only about 200 of 3,000 members stayed with the leader [6][19]. Bruce D. Hales, a Sydney businessman, has led since 2002, succeeding his father [1].
 
 ### Timeline
 
@@ -90,9 +91,10 @@ The Brethren movement began in Dublin and Plymouth in the 1820s–30s and split 
 | 1820s–30s | The Brethren movement begins. | It is a lay, anti-clerical renewal. |
 | 1848 | The movement splits into Open and Exclusive branches. | Separation becomes the defining doctrine. |
 | 1959–70 | Separation is intensified under James Taylor Jr. [6] | Meals, associations and professions are restricted. |
-| Jul 1970 | The "Aberdeen incident" takes place, and roughly 8,000 leave [6]. | The leader's authority is protected by a refusal to investigate. |
+| Jul 1970 | The "Aberdeen incident" takes place, and many members leave; in Scotland only about 200 of 3,000 stay with the leader [6][19]. | The leader's authority is protected by a refusal to investigate. |
 | 2002 | Bruce D. Hales becomes leader [1]. | He holds the top office today. |
 | 2004 | The Australian Electoral Commission examines seven pamphlets and ads linked to the Brethren [8]. | Material linked to a church whose members do not vote appears in an election. |
+| Jun–Aug 2026 | The parliament's electoral matters committee names the church a "significant third party" in the 2025 Australian federal election and hears from its director on 21 August; he denies the allegations [22]. | The question raised in 2004 returns. |
 | 2005 | Election pamphlets attacking Labour and the Greens are distributed in New Zealand without disclosed origin [3]. | The pattern is repeated across borders. |
 | 2012–14 | The Charity Commission refuses (2012), then registers (2014), the Preston Down Trust [2]. | A regulator extracts public-benefit commitments. |
 | Mar 2024 | The ATO (Australian Taxation Office) raids UBT-associated businesses [9]. | The business hub comes under tax scrutiny. |
@@ -103,7 +105,7 @@ The Brethren movement began in Dublin and Plymouth in the 1820s–30s and split 
 | Year | Title | What happened | Why it matters |
 |---|---|---|---|
 | 1848 | The split | Separation becomes doctrine. | It is the founding choice. |
-| 1970 | Aberdeen | Roughly 8,000 leave over the leader's conduct [6]. | The leader is protected; the members leave. |
+| 1970 | Aberdeen | Many members leave over the leader's conduct; in Scotland about 200 of 3,000 stay with him [6][19]. | The leader is protected; the members leave. |
 | 2014 | The regulator | A regulator extracts public-benefit changes [2]. | The state's leverage is charitable status. |
 
 ## 6. Branches & variants {#branches}
@@ -113,7 +115,7 @@ The Exclusive branch led by Bruce D. Hales is the Plymouth Brethren Christian Ch
 | Branch | Where | What differs on this page's questions |
 |---|---|---|
 | **Plymouth Brethren Christian Church (Hales)** | It is present in Australia, New Zealand, the UK and the Americas and has more than 50,000 members [1]. | It has had one worldwide leader since 2002, and it practices separation, "shutting up" (temporary suspension) and "withdrawal" (excommunication) [1][4]. |
-| **Other Exclusive groups** | They are small fellowships formed in the 1970 split [6]. | Roughly 8,000 people left over the leader's conduct in Aberdeen and the refusal to investigate it [6]. |
+| **Other Exclusive groups** | They are small fellowships formed in the 1970 split [6]. | Many people left over the leader's conduct in Aberdeen and the refusal to investigate it [6]. |
 | **Open Brethren** | Worldwide | It has been a separate, congregational movement since 1848 and is not the subject of this page. |
 
 ## 7. Structure {#structure}
@@ -121,7 +123,7 @@ The Exclusive branch led by Bruce D. Hales is the Plymouth Brethren Christian Ch
 ### Size and shape
 
 - **adherents:** The church has more than 50,000 members [1].
-- **regions:** Members live in Australia (the largest community), New Zealand, the UK, the US and Canada, with smaller communities elsewhere [1].
+- **regions:** Members live in the UK, Australia, New Zealand, the US and Canada, with smaller communities elsewhere [1].
 - **branches:** The PBCC is the Exclusive branch led by Hales; other Exclusive groups date from the 1970 split [6]; the Open Brethren are a separate movement.
 - **trend:** Membership is stable through births, and conversion is low.
 - **participation:** Participation is near-total. Members attend multiple meetings a week, and life is arranged around the fellowship.
@@ -156,23 +158,23 @@ A movement that began as anti-clerical now has one "Man of God".
 | Country | What the law does | What happened |
 |---|---|---|
 | **England & Wales** | Charities must show public benefit [2] | The Charity Commission refused the Preston Down Trust in 2012, then registered it in 2014 after the trust committed to public benefit, including public access to worship [2] |
-| **Australia — elections** | Campaign material must be authorized [8] | The Electoral Commission examined seven pamphlets and ads linked to the Brethren in 2004 [8] |
-| **Australia — tax** | The Taxation Office can raid and audit [9] | It raided businesses associated with the church's business-services firm on 19 March 2024 [9] |
-| **Australia — schools** | OneSchool Global's entities are registered charities and receive public funds [7] | A request for the National Audit Office to review those funds is on its register [7] |
+| **Australia — elections** | Campaign material must be authorized [8] | The Electoral Commission examined seven pamphlets and ads linked to the Brethren in 2004 and found the spending disclosed in a third-party return, with no outstanding obligation [8] |
+| **Australia — tax** | The Taxation Office can raid and audit [9] | It raided businesses associated with the church's business-services firm on 19 March 2024 [9][20] |
+| **Australia — schools** | OneSchool Global's entities are registered charities and receive public funds [7] | In 2024 a senator asked the National Audit Office to review those funds; it declined to include the audit in its 2024–25 work program [7][21] |
 | **New Zealand** | Electoral law governs campaign material [3]. | Pamphlets attacking Labour and the Greens were distributed in 2005 without disclosed origin [3] |
 
 ### Who can compel an answer
 
-Charity regulators [2], electoral commissions [8], tax authorities [9], national audit offices [7] and family courts can compel an answer.
+Charity regulators [2], electoral commissions [8], tax authorities [9] and national audit offices [7] can compel an answer.
 
 ## 9. Money {#money}
 
 ### Where it comes from
 
 - **A business network.** The ABC's Four Corners (2025) described an internationally connected network of about 3,000 companies centered on UBT (Universal Business Team), a member-business services firm. The church's own material has put combined member-business turnover at about A$22 billion a year [5].
-- **Australian Taxation Office raid.** The ATO raided businesses associated with UBT on 19 March 2024 [9].
+- **Australian Taxation Office raid.** The ATO raided businesses associated with UBT on 19 March 2024 [9][20].
 - **Charitable status.** Gospel-hall trusts hold meeting property. In England, the Charity Commission refused the Preston Down Trust registration in June 2012 for insufficient public benefit, then registered it in January 2014 after the trust adopted a deed of variation [2].
-- **Schools.** OneSchool Global runs schools for members' children; its Australian entities are registered charities [7]. A request to the Australian National Audit Office to review the public funds allocated to OneSchool Global is on the ANAO's register [7].
+- **Schools.** OneSchool Global runs schools for members' children; its Australian entities are registered charities [7]. In July 2024 a senator asked the Australian National Audit Office (ANAO) to review the public funds allocated to OneSchool Global; in August 2024 the Acting Auditor-General declined to include the audit in the 2024–25 work program [7][21].
 - **Relief.** The Rapid Relief Team is a visible public-good arm [4].
 
 ### Follow the money
@@ -181,7 +183,7 @@ Charity regulators [2], electoral commissions [8], tax authorities [9], national
 |---|---|---|---|
 | UBT and the business network | Its stated purpose is business support. | It connects about 3,000 companies [5] and provides employment inside the fellowship. | The network's leadership benefits. |
 | Gospel-hall trusts | They hold property for worship. | The property is charity-registered and held under deeds [2]. | The fellowship benefits. |
-| OneSchool Global | Its stated purpose is education. | Children are schooled inside the fellowship, and an audit of its public funds has been requested [7]. | The fellowship benefits. |
+| OneSchool Global | Its stated purpose is education. | Children are schooled inside the fellowship, and an audit of its public funds was requested in 2024 and declined [7][21]. | The fellowship benefits. |
 | Campaign material | No purpose is stated. | It seeks influence on elections [3][8]. | The fellowship's policy interests benefit. |
 
 ### Money in numbers
@@ -245,36 +247,36 @@ Charity regulators [2], electoral commissions [8], tax authorities [9], national
 
 | # | Mechanism | Grade | How it appears here | The defense | The counter |
 |---|---|---|---|---|---|
-| 1 | Love bombing | Cultural (weak) | Most members are born in, and there are few converts. | "We are family." | The belonging is never offered as a choice. |
+| 1 | Love bombing | Cultural | Most members are born in, and there are few converts. | "We are family." | The belonging is never offered as a choice. |
 | 2 | Weaponized generosity | Documented | The business network provides help and employment [5]. | "Brethren help each other." | Help that ends with withdrawal is a leash. |
 | 3 | Future faking | Taught | Salvation is promised inside the fellowship. | "Faith." | The promise requires staying. |
 | 4 | Hoovering | Cultural | Those who leave are pressed to repent and return. | "We want them back." | They are taken back only on the institution's terms. |
 | 5 | Devaluation | Taught | Worldliness is treated as defilement [4]. | "Holiness." | It is a holiness that makes your mother unclean. |
-| 6 | Gaslighting | Documented | The church says "We do not prevent contact" [4], and testimony says otherwise [5]. | "Individual choices." | The choices all point one way. |
+| 6 | Gaslighting | Documented | The church says "we do not prevent former members from contacting their families" [5], and testimony says otherwise [5]. | "Individual choices." | The choices all point one way. |
 | 7 | Double bind | Taught | Members are told to love their family and to separate from them. | "Separation is love." | It is a love that cannot share a meal. |
 | 8 | Intermittent reinforcement | Cultural | Loyalty is rewarded with standing and business favor [5]. | "Rewarding faithfulness." | Favor works as a loyalty test. |
 | 9 | Moving the goalposts | Cultural | Technology rules changed from prohibition to approved systems, according to former members | "Adapting to the times." | Who decides, and why? |
 | 10 | Strategic ambiguity | Documented | The church calls itself "apolitical," yet members produced election material [3][8]. | "Members acted privately." | Did they act privately across two countries? |
 | 11 | Projection | Cultural | Critics are cast as persecutors. | "Media bias." | Answer the testimony. |
 | 12 | DARVO | Documented | A member was interrogated over an alleged hack while leaders claimed to protect "the Lord's interest" [5]. | "Protecting the church." | The recording speaks. |
-| 13 | Normalization | Documented | Separation begins at birth [4]. | "Our way of life." | Children didn't choose it. |
+| 13 | Normalization | Taught | Separation begins at birth [4]. | "Our way of life." | Children didn't choose it. |
 | 14 | Isolation | Documented | Meals, media and schools are kept inside [4][7]. | "Holiness." | It is a world with no outside. |
 | 15 | Triangulation | Cultural | Family, priests and employers are aligned. | "Everyone cares." | Everyone in the triangle is inside. |
 | 16 | Flying monkeys | Documented | Families enforce separation [5] | "Individual conscience." | It is a conscience that always matches the rule. |
-| 17 | Smear campaign | Contested | Former members are investigated and pressured [5]. | "Protecting privacy and property." | Private investigators are not pastoral care. |
-| 18 | Stonewalling | Documented | In 1970 the leader was not investigated [6]. | "God's judgment, not ours." | It became the members' judgment; 8,000 left. |
+| 17 | Smear campaign | Documented | Former members are investigated and pressured; the ABC reported surveillance by private investigators, with phone records [5]. | "Protecting privacy and property." | Private investigators are not pastoral care. |
+| 18 | Stonewalling | Documented | In 1970 the leader was not investigated [6]. | "God's judgment, not ours." | It became the members' judgment; many left. |
 | 19 | Manufactured consent | Cultural | Members are born into assent. | "They choose to stay." | The choice to stay is made against losing everyone. |
 | 20 | Trauma bonding | Cultural | Belonging and fear of withdrawal alternate | "Discipline restores." | Restoration comes through the threat of loss. |
 | 21 | Learned helplessness | Cultural | Every door leads to the same network [5] | "Trust the fellowship." | The network is the door. |
 | 22 | Benevolent control | Taught | Separation is presented as protection from evil. | "For your good." | It is protection you cannot refuse. |
-| 23 | Infantilization | Cultural | Adults' technology, education and friendships are managed [4]. | "Guidance." | Adults don't need approval to read. |
+| 23 | Infantilization | Cultural | Adults' friendships are governed by the rule of separation [4], and their technology and education are managed, according to former members (section 11). | "Guidance." | Adults don't need approval to read. |
 | 24 | Identity erosion | Taught | The self is defined by the fellowship. | "Our identity in Christ." | If it cannot leave, it was assigned. |
 | 25 | Spiritual bypassing | Cultural | Grief over separated families is attributed to God's will. | "Trust the Lord." | Trust is not reunion. |
-| 26 | Financial control | Documented | Control runs through the business network [5] and UBT [9]. | "Separate businesses." | "Not a Brethren business." [5] |
+| 26 | Financial control | Documented | Control runs through the business network [5] and UBT [9]. | "Separate businesses." | "The church does not run any businesses." [5] |
 | 27 | Manufactured crisis | Cultural | Outside scrutiny is treated as spiritual attack. | "The world hates us." | The world is asking questions. |
-| 28 | Discard | Documented | The sanction is withdrawal [4][5]. | "Disciplinary, not punitive." | Ask the children. |
+| 28 | Discard | Taught | The sanction is withdrawal [4][5]. | "Disciplinary, not punitive." | Ask the children. |
 | 29 | Replacement | Cultural | Family life continues without the withdrawn | "The fellowship endures." | It endures without them. |
-| 30 | Plausible deniability | Documented | The church's answer was "Mr Hales neither authorised nor knew." [5] | "Leaders cannot know everything." | Then publish the rules. |
+| 30 | Plausible deniability | Documented | The church's answer was that Mr Hales "neither authorised nor knew" the interrogation [5]. | "Leaders cannot know everything." | Then publish the rules. |
 
 ## 13. The loops {#loops}
 
@@ -285,7 +287,7 @@ The seven loops below show how the practices connect, so that each step makes th
 ::: card
 #### 1 · Money
 
-The business network and the trusts fund the fellowship [2][5].
+Members' businesses, the gospel-hall trusts and the schools all sit inside the same fellowship; the page does not record how money passes between them [2][5][7].
 
 **How it runs.**
 
@@ -343,7 +345,7 @@ Children are born into the fellowship and schooled inside it [7].
 
 **Why it closes.** The fellowship's numbers depend on births, and the children born into it are schooled inside it. If a parent is withdrawn from, the child can be separated from that parent (section 11), so a child's family, school and future all sit on the same side of the line.
 
-**Where it could be broken, and by whom.** It weakens where the schools answer to someone outside the fellowship. OneSchool Global's entities are registered charities that receive public funds, and an audit of those funds was requested from the Australian National Audit Office (sections 8 and 9). A parent can move a child to another school (section 24). This paragraph is analysis, not a documented finding.
+**Where it could be broken, and by whom.** It weakens where the schools answer to someone outside the fellowship. OneSchool Global's entities are registered charities that receive public funds, and an audit of those funds was requested from the Australian National Audit Office, which declined it (sections 8 and 9). A parent can move a child to another school (section 24). This paragraph is analysis, not a documented finding.
 
 **An example from this page.** In section 2, Ruth's nephew is at her table tonight because he stayed, and nobody mentions his father.
 :::
@@ -373,7 +375,7 @@ The Rapid Relief Team and school funding build legitimacy [4][7].
 ::: card
 #### 5 · Labor
 
-Member businesses feed the network [5].
+Many members work in member businesses, and leaving can cost the job together with family and community [5].
 
 **How it runs.**
 
@@ -402,7 +404,7 @@ In 1970 the institution protected the leader rather than investigate him [6]. In
 1. A question reaches the leader: his conduct in Aberdeen in July 1970, or a senior figure's 2025 interrogation of a member in the leader's name (sections 5 and 7).
 2. The institution does not examine the leader. In 1970 it refused to investigate, and in 2025 it said Mr Hales "neither authorised nor knew" (techniques 18 and 30).
 3. There is no procedure for removing the leader (section 7, The top of the chain).
-4. Those who object leave: roughly 8,000 in 1970 (section 5).
+4. Those who object leave: in 1970 only about 200 of 3,000 Scottish members stayed with the leader (section 5).
 5. The leadership continues, and the chair of any accountability process is the worldwide leader himself (section 14).
 
 **Techniques that feed it.** [12 · DARVO](#techniques), [18 · Stonewalling](#techniques), [30 · Plausible deniability](#techniques).
@@ -425,7 +427,7 @@ Media investigation is framed as persecution.
 2. Critics are cast as persecutors, and the charge is media bias (technique 11; section 3).
 3. Outside scrutiny is treated as spiritual attack (technique 27).
 4. Former members who left or criticized the church have described surveillance by private investigators and threats (section 15; technique 17).
-5. Inside, the investigation is heard as more evidence of hostility, and the testimony goes unanswered (technique 11).
+5. Inside, the investigation can be heard as more evidence of hostility; in 2025 the church answered some questions on the record and declined others (section 1, Disclosure scorecard; technique 11).
 
 **Techniques that feed it.** [11 · Projection](#techniques), [16 · Flying monkeys](#techniques), [17 · Smear campaign](#techniques), [27 · Manufactured crisis](#techniques).
 
@@ -443,13 +445,13 @@ Media investigation is framed as persecution.
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| "We do not vote; we are apolitical." | Members produced election material in Australia (2004) and New Zealand (2005) [3][8]. | [GOVERNMENT REPORT] [INVESTIGATIVE REPORT] |
-| "We do not prevent former members from contacting their families." [4] | Former members describe total separation [5]. | [INVESTIGATIVE REPORT] |
-| "Not a Brethren business — a business owned by Brethren." [5] | Members' businesses form a network of about 3,000 companies centered on UBT [5]. | [INVESTIGATIVE REPORT] |
+| "We do not vote; we are apolitical." | Members produced election material in Australia (2004) and New Zealand (2005) [3][8]. In 2026 a parliamentary committee named the church a "significant third party" in the 2025 federal election; the church's director denied the allegations [22]. | [GOVERNMENT REPORT] [INVESTIGATIVE REPORT] |
+| "We do not prevent former members from contacting their families." [5] | Former members describe total separation [5]. | [INVESTIGATIVE REPORT] |
+| "The church does not run any businesses and does not employ anyone." [5] | Members' businesses form a network of about 3,000 companies centered on UBT [5]. | [INVESTIGATIVE REPORT] |
 
 ### Accountability or theatre?
 
-- **Last ran:** Accountability last ran when a national broadcaster documented the network [5], the tax office raided it [9] and an audit of the schools was requested [7].
+- **Last ran:** Accountability last ran when a national broadcaster documented the network [5], the tax office raided it [9]. An audit of the schools was requested in 2024, but the National Audit Office declined it [7][21].
 - **Chair now:** The worldwide leader holds the chair [1].
 - **Predict:** Change is likely to come through regulators, courts and tax authorities, and not through doctrine.
 
@@ -466,7 +468,7 @@ Media investigation is framed as persecution.
 ### What leaving costs
 
 - Discipline includes being "shut up" (temporary) and "withdrawn from" (excommunicated). Former members describe total separation from relatives who remain [4][5]. One former member told the ABC: "I have no contact with my siblings, I have no contact with my mum" [5].
-- The PBCC denies it: "we do not prevent former members from contacting their families" [4]. It issues no formal guidance on how families should respond, and some families stay in contact [4].
+- The PBCC denies it: "we do not prevent former members from contacting their families" [5]. It issues no formal guidance on how families should respond, and some families stay in contact [4].
 - Leaving can also mean losing employment in member businesses and one's entire social world [5].
 - Former members who left or criticized the church have described surveillance by private investigators and threats [5].
 
@@ -474,7 +476,7 @@ Media investigation is framed as persecution.
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Family separation | Yes (testimony, national broadcaster) [5] | Spouses, children and parents are separated. | "We do not prevent former members from contacting their families." [4] |
+| Family separation | Yes (testimony, national broadcaster) [5] | Spouses, children and parents are separated. | "We do not prevent former members from contacting their families." [5] |
 | Employment | Yes [5] | A job in a member business can be lost. | — |
 | Community | Yes [5] | The loss of community is total. | — |
 | Intimidation | Reported [5] | Former members report private investigators and threats. | The leader "neither authorised nor knew" [5] |
@@ -485,12 +487,12 @@ Media investigation is framed as persecution.
 |---|---|---|
 | Explicit policy | Medium | Separation is public doctrine; family separation is framed as individual choice [4]. |
 | Informal enforcement | High | Families carry it [4][5]. |
-| Leadership distance | High | "Mr Hales neither authorised nor knew." [5] |
+| Leadership distance | High | Mr Hales "neither authorised nor knew" the interrogation [5]. |
 | Doctrinal ambiguity | Low | — |
 | Cultural outsourcing | Low | — |
 | Volunteer enforcement | High | — |
 | Sacred secrecy | High | Discipline is unpublished. |
-| Exit cost denial | High | "We do not prevent … contact." [4] |
+| Exit cost denial | High | "We do not prevent … contact." [5] |
 
 ## 16. The ledger {#ledger}
 
@@ -542,7 +544,7 @@ Discipline is carried out locally [4]. Local priests, the senior figures who han
 2. **Australian Electoral Commission advice on Brethren-linked 2004 election material** [8]. [GOVERNMENT REPORT]
 3. **New Zealand 2005 election pamphlets** [3]. [INVESTIGATIVE REPORT]
 4. **ATO raid on UBT-associated businesses (19 Mar 2024)** [9]. [INVESTIGATIVE REPORT — no charges known]
-5. **ANAO audit request: public funds to OneSchool Global** [7]. [GOVERNMENT REPORT]
+5. **ANAO audit request: public funds to OneSchool Global (Jul 2024; declined Aug 2024)** [7][21]. [GOVERNMENT REPORT]
 
 ---
 
@@ -553,7 +555,7 @@ Discipline is carried out locally [4]. Local priests, the senior figures who han
 | What | Who | When | Cost |
 |---|---|---|---|
 | A regulator extracted public-benefit changes [2]. | Charity Commission | 2014 | — |
-| Election material was exposed [3][8]. | Journalists; the Australian Electoral Commission | 2004–07 | — |
+| Election material was examined; the AEC found the 2004 spending disclosed [8], and the 2005 New Zealand pamphlets were reported by journalists [3]. | Journalists; the Australian Electoral Commission | 2004–07 | — |
 | Former members' testimony was broadcast nationally [5]. | Former members | 2025 | Threats and surveillance reported [5] |
 
 ### What would change this page
@@ -564,7 +566,7 @@ A written guarantee that no member is separated from family, and published accou
 
 - **Craig Hoyle.** He is a New Zealand journalist who was "shut up" after coming out to his younger siblings, who were removed from the family home that night; he wrote the memoir *Excommunicated* (2023) [11].
 - **The former members who spoke to Four Corners (2025).** One said: "I have no contact with my siblings, I have no contact with my mum" [5].
-- **The people who left in 1970.** Roughly 8,000 walked out after the Aberdeen incident [6].
+- **The people who left in 1970.** Many walked out after the Aberdeen incident; in Scotland only about 200 of 3,000 members stayed with the leader [6][19].
 - **The former member who left five children behind.** He told the ABC that he left five children when he left the church [5].
 
 ## 22. Regional variants {#regional}
@@ -603,7 +605,7 @@ A written guarantee that no member is separated from family, and published accou
 
 1. If a parent is withdrawn from, may their children eat with them?
 2. Who decides a withdrawal, and can the person reply?
-3. Why does a church whose members do not vote produce election material [3][8]?
+3. Why does a church whose members do not vote produce election material [3][8], and why did a parliamentary committee in 2026 ask it about the 2025 federal election [22]?
 4. Who controls the business network, and why did the tax office raid it [9]?
 5. Why did a charity regulator find public benefit unproven in 2012 [2]?
 6. In 1970 the movement chose not to investigate its leader [6]. What has changed in how the leader is held to account?
@@ -617,7 +619,7 @@ A written guarantee that no member is separated from family, and published accou
 
 Practical guidance, not legal advice.
 
-1. **Expect to be "shut up" or "withdrawn from".** Former members describe total separation from relatives who stay [4][5]; the church says it does not prevent contact [4].
+1. **Expect to be "shut up" or "withdrawn from".** Former members describe total separation from relatives who stay [4][5]; the church says it does not prevent contact [5].
 2. **Plan work and money first.** Many members work in member businesses; leaving can cost your job [5].
 3. **Children in OneSchool Global** can move to another school; ask your local education authority.
 4. **If you are threatened or followed,** report it to the police; former members have described surveillance and threats [5].
@@ -636,11 +638,11 @@ Checked 2026-09-27.
 
 ## 26. Sources {#sources}
 
-1. Plymouth Brethren Christian Church (official), "Bruce D. Hales (1953–)." <https://www.plymouthbrethrenchristianchurch.org/resource/bruce-d-hales/> — and Wikipedia, "Plymouth Brethren Christian Church" (reference summary) <https://en.wikipedia.org/wiki/Plymouth_Brethren_Christian_Church> — 50,000+ members; leader since 2002.
+1. Plymouth Brethren Christian Church (official), "Bruce D. Hales (1953–)." <https://www.plymouthbrethrenchristianchurch.org/resource/bruce-d-hales/> — and Wikipedia, "Plymouth Brethren Christian Church" (reference summary) <https://en.wikipedia.org/wiki/Plymouth_Brethren_Christian_Church> — leader since 2002 (church biography page). The "over 50,000" membership figure is the church's own, as relayed by Wikipedia's summary; the biography page itself states no membership figure.
 2. Charity Commission for England and Wales, *Preston Down Trust — full decision* (2014). <https://assets.publishing.service.gov.uk/media/5a74c214e5274a3cb2866f23/preston_down_trust_full_decision.pdf> — summary decision: <https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/336110/preston_down_trust_summary_decision.pdf>
 3. NZ Herald, "Brethren's exclusive patrons." <https://www.nzherald.co.nz/world/brethrens-exclusive-patrons/VASC2K7RLUV4HUJYLPYWFV2ABI/> — and Lineham, "Why the New Zealand Plymouth Brethren Intervened in…," *The Journal of CESNUR* 5(2), 2021. <https://cesnur.net/wp-content/uploads/2021/03/tjoc_5_2_4_lineham.pdf>
-4. Plymouth Brethren Christian Church (official site) — separation, withdrawal, the Rapid Relief Team, and the statement "we do not prevent former members from contacting their families." <https://www.plymouthbrethrenchristianchurch.org/> — the church's own public statements.
-5. ABC News (Australia), "These Plymouth Brethren members stepped out of line, then the threats and intimidation started," 16 Sep 2025. <https://www.abc.net.au/news/2025-09-16/exclusive-brethren-plymouth-former-members-threats-four-corners/105766026> — and Four Corners, "Big Brethren," 15 Sep 2025. <https://www.abc.net.au/news/2025-09-15/big-brethren/105776410> — also ABC, "Former members describe leaving…," 19 Nov 2024. <https://www.abc.net.au/news/2024-11-19/leaving-the-plymouth-brethren-christian-church-in-australia/104323648>
+4. Plymouth Brethren Christian Church (official site) — separation, withdrawal, the Rapid Relief Team, and the church's own account of its discipline. <https://www.plymouthbrethrenchristianchurch.org/> — the church's own public statements.
+5. ABC News (Australia), "These Plymouth Brethren members stepped out of line, then the threats and intimidation started," 16 Sep 2025. <https://www.abc.net.au/news/2025-09-16/exclusive-brethren-plymouth-former-members-threats-four-corners/105766026> — and Four Corners, "Big Brethren," 15 Sep 2025. <https://www.abc.net.au/news/2025-09-15/big-brethren/105776410> — also ABC, "Former members describe leaving…," 19 Nov 2024. <https://www.abc.net.au/news/2024-11-19/leaving-the-plymouth-brethren-christian-church-in-australia/104323648> — that report quotes a church spokesperson: "we do not prevent former members from contacting their families," and the church's reply to Four Corners ("The church does not run any businesses and does not employ anyone.").
 6. "The Aberdeen Incident, July 1970" (historical account). <https://www.discourses.org.uk/History/TheAberdeenIncident.pdf> — and Evangelical Times, "Exclusive Brethren – Taylorites." <https://www.evangelical-times.org/concerning-cults-exclusive-brethren-taylorites/> — The allegations against the then-leader were never adjudicated, so this page describes the institution's response, not the allegations.
 7. Australian National Audit Office, "Review of public funds allocated towards the OneSchool Global schools" (request). <https://www.anao.gov.au/work/request/review-of-public-funds-allocated-towards-the-oneschool-global-schools> — ACNC register, OneSchool Global Australia Ltd. <https://www.acnc.gov.au/charity/charities/af7ab78b-3aaf-e811-a95e-000d3ad24c60>
 8. Australian Electoral Commission, "Exclusive Brethren" (compliance advice). <https://www.aec.gov.au/parties_and_representatives/compliance/AEC_Advice/exclusive.htm>
@@ -654,9 +656,14 @@ Checked 2026-09-27.
 16. Charity Commission for England and Wales, register entry: Preston Down Trust, charity no. 1155382 (accounts and trustees' annual report for the year to 5 April 2025, received on time). <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5043270/full-print>
 17. Charity Commission, *Plymouth Brethren Gospel Hall Trusts: group case report* (published 29 Aug 2017; archived 23 Jan 2020): "the safeguarding policy needed strengthening in some areas … PBCC has since acted on our regulatory advice". <https://www.gov.uk/government/publications/plymouth-brethren-gospel-hall-trusts-group-case-report/plymouth-brethren-gospel-hall-trusts>
 18. Plymouth Brethren Christian Church, *Response to Four Corners questions* (September 2025). <https://www.plymouthbrethrenchristianchurch.org/wp-content/uploads/2025/09/plymouth-brethren-christian-church-statement.pdf>
+19. Wikipedia, "Plymouth Brethren Christian Church" and "Exclusive Brethren" — the 1970 division: in Scotland about 200 of 3,000 members stayed with the leader. <https://en.wikipedia.org/wiki/Exclusive_Brethren>
+20. Baucher Consulting, notes on the Exclusive Brethren and UBT — the ATO "no notice raid" on premises associated with UBT on 19 March (2024). <https://baucher.tax/tag/exclusive-bretheren/>
+21. Australian National Audit Office, correspondence from Senator David Shoebridge (26 Jul 2024) and the Acting Auditor-General's reply (14 Aug 2024) declining to include the audit in the 2024–25 work program <https://anao.gov.au/sites/default/files/2024-07/Correspondence%20from%20Senator%20David%20Shoebridge%20%28PDF%29_0.pdf> — and Rationalist Society of Australia, "Audit Office turns down request to examine use of public funds at Exclusive Brethren schools" (5 Nov 2024). <https://rationalist.com.au/audit-office-turns-down-request-to-examine-use-of-public-funds-at-exclusive-brethren-schools/>
+22. AAP via *The Canberra Times*, "Church may be forced to front election influence probe" <https://www.canberratimes.com.au/story/9299228/church-may-be-forced-to-front-election-influence-probe/> — *The Mandarin*, "Brethren and Advance to face parliament this month" (June 2026; both named "significant third parties" in the interim report) <https://www.themandarin.com.au/317894-brethren-and-advance-to-face-parliament-this-month/> — AAP via *The Canberra Times*, hearing of 21 August 2026. <https://www.canberratimes.com.au/story/9334600/church-sects-political-interference-a-complete-lie/>
 
 ## 27. What changed on this page {#changed}
 
+- **2026-10-03:** Corrected a quotation about the church's businesses to the church's own words and moved the sentence about contact with families to the report that carries it. Added that the National Audit Office declined the request to audit OneSchool Global, that the Electoral Commission found the 2004 spending disclosed, and the 2026 parliamentary hearing on the 2025 federal election. Removed a figure for how many people left in 1970 that no source supports. Regraded four techniques, added an Evidence summary, and corrected the membership note, the list of countries and some wording.
 - **2026-09-27:** Added Branches, Law & state, Money in numbers (OneSchool Global UK accounts 2020–2024), Voices from inside, three regional cards, Leaving safely and Where to get help.
 - **2026-09-29:** Disclosure scorecard added: accounts, safeguarding and on-the-record replies are rated from the charity register, the Charity Commission's 2017 case report and the church's own 2025 response [16][17][18]; leaders' pay, police-first reporting and a removal procedure are not established from any public source.
 

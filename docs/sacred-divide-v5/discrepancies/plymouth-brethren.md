@@ -1,3 +1,5 @@
+Status 2026-10-03: fixes applied, see plymouth-brethren-FIXLOG.md (deferred items remain open).
+
 # DISCREPANCIES — Plymouth Brethren Christian Church, awaiting the owner's decision
 
 Format: **[Location]** what is wrong → what it should be (proposed wording) → why it matters. Nothing below has been changed in the text unless an edit ID is named; every item touches the frozen layer (numbers, dates, quotations, receipts, grades, source entries) or asserts a claim the wording pass may not alter.

@@ -1747,5 +1747,495 @@
   "reason": "The question appears in sections 1 and 3, not in the structure section.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "PB-D001",
+  "scope": "md",
+  "type": "fact",
+  "before": "| \"Not a Brethren business — a business owned by Brethren.\" [5] | Members' businesses form a network of about 3,000 companies centered on UBT [5]. | [INVESTIGATIVE REPORT] |",
+  "after": "| \"The church does not run any businesses and does not employ anyone.\" [5] | Members' businesses form a network of about 3,000 companies centered on UBT [5]. | [INVESTIGATIVE REPORT] |",
+  "reason": "P1-1: the printed quotation does not appear in the ABC reports; replaced with the church's recorded words (ABC, 15 Sep 2025).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D002",
+  "scope": "md",
+  "type": "fact",
+  "before": "| \"Not a Brethren business.\" [5] |",
+  "after": "| \"The church does not run any businesses.\" [5] |",
+  "reason": "P1-1: technique 26 counter now quotes the church's recorded words.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D003",
+  "scope": "md",
+  "type": "fact",
+  "before": "| A request for the National Audit Office to review those funds is on its register [7] |",
+  "after": "| In 2024 a senator asked the National Audit Office to review those funds; it declined to include the audit in its 2024–25 work program [7][21] |",
+  "reason": "P1-2: the request was declined on 14 Aug 2024; the page presented it as open.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D004",
+  "scope": "md",
+  "type": "fact",
+  "before": "A request to the Australian National Audit Office to review the public funds allocated to OneSchool Global is on the ANAO's register [7].",
+  "after": "In July 2024 a senator asked the Australian National Audit Office (ANAO) to review the public funds allocated to OneSchool Global; in August 2024 the Acting Auditor-General declined to include the audit in the 2024–25 work program [7][21].",
+  "reason": "P1-2: outcome of the ANAO request added.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D005",
+  "scope": "md",
+  "type": "fact",
+  "before": "and an audit of its public funds has been requested [7]. | The fellowship benefits. |",
+  "after": "and an audit of its public funds was requested in 2024 and declined [7][21]. | The fellowship benefits. |",
+  "reason": "P1-2: audit request described as declined.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D006",
+  "scope": "md",
+  "type": "fact",
+  "before": "the tax office raided it [9] and an audit of the schools was requested [7].",
+  "after": "the tax office raided it [9]. An audit of the schools was requested in 2024, but the National Audit Office declined it [7][21].",
+  "reason": "P1-2: the \"Last ran\" line no longer implies an audit under way.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D007",
+  "scope": "md",
+  "type": "fact",
+  "before": "and an audit of those funds was requested from the Australian National Audit Office (sections 8 and 9).",
+  "after": "and an audit of those funds was requested from the Australian National Audit Office, which declined it (sections 8 and 9).",
+  "reason": "P1-2: loop 3 states the outcome of the audit request.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D008",
+  "scope": "md",
+  "type": "fact",
+  "before": "**ANAO audit request: public funds to OneSchool Global** [7]. [GOVERNMENT REPORT]",
+  "after": "**ANAO audit request: public funds to OneSchool Global (Jul 2024; declined Aug 2024)** [7][21]. [GOVERNMENT REPORT]",
+  "reason": "P1-2: case 5 states that the request was declined.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D009",
+  "scope": "md",
+  "type": "fact",
+  "before": "caused the largest schism in its history: roughly 8,000 people left [6].",
+  "after": "caused the largest schism in its history; in Scotland only about 200 of 3,000 members stayed with the leader [6][19].",
+  "reason": "P1-3: the 8,000 figure is not found in any source read; replaced with the figure the record supports.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D010",
+  "scope": "md",
+  "type": "fact",
+  "before": "and roughly 8,000 leave [6]. | The leader's authority",
+  "after": "and many members leave; in Scotland only about 200 of 3,000 stay with the leader [6][19]. | The leader's authority",
+  "reason": "P1-3: timeline row, unsourced 8,000 removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D011",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Roughly 8,000 leave over the leader's conduct [6]. |",
+  "after": "| Many members leave over the leader's conduct; in Scotland about 200 of 3,000 stay with him [6][19]. |",
+  "reason": "P1-3: moments row, unsourced 8,000 removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D012",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Roughly 8,000 people left over the leader's conduct in Aberdeen and the refusal to investigate it [6]. |",
+  "after": "| Many people left over the leader's conduct in Aberdeen and the refusal to investigate it [6]. |",
+  "reason": "P1-3: branches table, unsourced 8,000 removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D013",
+  "scope": "md",
+  "type": "fact",
+  "before": "It became the members' judgment; 8,000 left. |",
+  "after": "It became the members' judgment; many left. |",
+  "reason": "P1-3 and P3-19: technique 18 counter, unsourced 8,000 removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D014",
+  "scope": "md",
+  "type": "loop",
+  "before": "4. Those who object leave: roughly 8,000 in 1970 (section 5).",
+  "after": "4. Those who object leave: in 1970 only about 200 of 3,000 Scottish members stayed with the leader (section 5).",
+  "reason": "P1-3: loop 6 step 4, unsourced 8,000 removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D015",
+  "scope": "md",
+  "type": "fact",
+  "before": "Roughly 8,000 walked out after the Aberdeen incident [6].",
+  "after": "Many walked out after the Aberdeen incident; in Scotland only about 200 of 3,000 members stayed with the leader [6][19].",
+  "reason": "P1-3: voices entry, unsourced 8,000 removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D016",
+  "scope": "narration",
+  "type": "fact",
+  "before": "after which roughly 8,000 people left over the leader's conduct and the refusal to investigate it [6].",
+  "after": "after which many people left over the leader's conduct and the refusal to investigate it; in Scotland only about 200 of 3,000 members stayed with him [6].",
+  "reason": "P1-3: narration q6.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D017",
+  "scope": "md",
+  "type": "source",
+  "before": "— 50,000+ members; leader since 2002.",
+  "after": "— leader since 2002 (church biography page). The \"over 50,000\" membership figure is the church's own, as relayed by Wikipedia's summary; the biography page itself states no membership figure.",
+  "reason": "P1-4: the source note now says where the membership figure actually comes from.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D018",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 1 | Love bombing | Cultural (weak) |",
+  "after": "| 1 | Love bombing | Cultural |",
+  "reason": "P2-6: \"Cultural (weak)\" is not a codex grade; graded Cultural.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D019",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 17 | Smear campaign | Contested | Former members are investigated and pressured [5]. |",
+  "after": "| 17 | Smear campaign | Documented | Former members are investigated and pressured; the ABC reported surveillance by private investigators, with phone records [5]. |",
+  "reason": "P2-7: regraded Contested to Documented; the ABC documents the surveillance.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D020",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 28 | Discard | Documented |",
+  "after": "| 28 | Discard | Taught |",
+  "reason": "P2-7: withdrawal is the church's own published discipline [4], a teaching.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D021",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 13 | Normalization | Documented |",
+  "after": "| 13 | Normalization | Taught |",
+  "reason": "P2-7: the basis is the church's own statement of separation [4], a teaching.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D022",
+  "scope": "md",
+  "type": "grade",
+  "before": "| Adults' technology, education and friendships are managed [4]. |",
+  "after": "| Adults' friendships are governed by the rule of separation [4], and their technology and education are managed, according to former members (section 11). |",
+  "reason": "P2-7: [4] supports only the friendship rule; the other two rest on former members' accounts, so the grade stays Cultural.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D023",
+  "scope": "md",
+  "type": "fact",
+  "before": "| 2005 | Election pamphlets attacking Labour",
+  "after": "| Jun–Aug 2026 | The parliament's electoral matters committee names the church a \"significant third party\" in the 2025 Australian federal election and hears from its director on 21 August; he denies the allegations [22]. | The question raised in 2004 returns. |\n| 2005 | Election pamphlets attacking Labour",
+  "reason": "P2-8: the 2025–26 parliamentary inquiry added to the timeline.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D024",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Members produced election material in Australia (2004) and New Zealand (2005) [3][8]. |",
+  "after": "| Members produced election material in Australia (2004) and New Zealand (2005) [3][8]. In 2026 a parliamentary committee named the church a \"significant third party\" in the 2025 federal election; the church's director denied the allegations [22]. |",
+  "reason": "P2-8: the later record added to the say-do row.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D025",
+  "scope": "md",
+  "type": "fact",
+  "before": "3. Why does a church whose members do not vote produce election material [3][8]?",
+  "after": "3. Why does a church whose members do not vote produce election material [3][8], and why did a parliamentary committee in 2026 ask it about the 2025 federal election [22]?",
+  "reason": "P2-8: question brought up to date.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D026",
+  "scope": "md",
+  "type": "fact",
+  "before": "The electoral material was examined by an electoral commission [8].",
+  "after": "The 2004 electoral material was examined by an electoral commission, which found the spending disclosed in a third-party return [8].",
+  "reason": "P2-9: the AEC's finding added.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D027",
+  "scope": "md",
+  "type": "fact",
+  "before": "| The Electoral Commission examined seven pamphlets and ads linked to the Brethren in 2004 [8] |",
+  "after": "| The Electoral Commission examined seven pamphlets and ads linked to the Brethren in 2004 and found the spending disclosed in a third-party return, with no outstanding obligation [8] |",
+  "reason": "P2-9: AEC finding added to the law table.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D028",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Election material was exposed [3][8]. | Journalists; the Australian Electoral Commission |",
+  "after": "| Election material was examined; the AEC found the 2004 spending disclosed [8], and the 2005 New Zealand pamphlets were reported by journalists [3]. | Journalists; the Australian Electoral Commission |",
+  "reason": "P2-9: the AEC cleared the 2004 spending; \"exposed\" overstated it.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D029",
+  "scope": "md",
+  "type": "fact",
+  "before": "The church says \"We do not prevent contact\" [4], and testimony says otherwise [5].",
+  "after": "The church says \"we do not prevent former members from contacting their families\" [5], and testimony says otherwise [5].",
+  "reason": "P2-10: the statement is in the ABC report, part of [5], not on the church home page.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D030",
+  "scope": "md",
+  "type": "fact",
+  "before": "| \"We do not prevent former members from contacting their families.\" [4] |",
+  "after": "| \"We do not prevent former members from contacting their families.\" [5] |",
+  "reason": "P2-10: say-do row and ledger denial cite the ABC report where the sentence appears.",
+  "count": 2,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D031",
+  "scope": "md",
+  "type": "fact",
+  "before": "The PBCC denies it: \"we do not prevent former members from contacting their families\" [4].",
+  "after": "The PBCC denies it: \"we do not prevent former members from contacting their families\" [5].",
+  "reason": "P2-10.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D032",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Exit cost denial | High | \"We do not prevent … contact.\" [4] |",
+  "after": "| Exit cost denial | High | \"We do not prevent … contact.\" [5] |",
+  "reason": "P2-10.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D033",
+  "scope": "md",
+  "type": "fact",
+  "before": "the church says it does not prevent contact [4].",
+  "after": "the church says it does not prevent contact [5].",
+  "reason": "P2-10: leaving-safely step.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D034",
+  "scope": "md",
+  "type": "source",
+  "before": "and the statement \"we do not prevent former members from contacting their families.\" <https://www.plymouthbrethrenchristianchurch.org/>",
+  "after": "and the church's own account of its discipline. <https://www.plymouthbrethrenchristianchurch.org/>",
+  "reason": "P2-10: the quoted statement is from the ABC report, not this page.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D035",
+  "scope": "md",
+  "type": "source",
+  "before": "<https://www.abc.net.au/news/2024-11-19/leaving-the-plymouth-brethren-christian-church-in-australia/104323648>\n6.",
+  "after": "<https://www.abc.net.au/news/2024-11-19/leaving-the-plymouth-brethren-christian-church-in-australia/104323648> — that report quotes a church spokesperson: \"we do not prevent former members from contacting their families,\" and the church's reply to Four Corners (\"The church does not run any businesses and does not employ anyone.\").\n6.",
+  "reason": "P2-10 and P1-1: source 5 now records the two church statements it supplies.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D036",
+  "scope": "md",
+  "type": "fact",
+  "before": "Members live in Australia (the largest community), New Zealand, the UK, the US and Canada, with smaller communities elsewhere [1].",
+  "after": "Members live in the UK, Australia, New Zealand, the US and Canada, with smaller communities elsewhere [1].",
+  "reason": "P2-11: \"Australia (largest)\" is not supported; the church-site breakdown reported puts the UK first.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D037",
+  "scope": "md",
+  "type": "loop",
+  "before": "The business network and the trusts fund the fellowship [2][5].",
+  "after": "Members' businesses, the gospel-hall trusts and the schools all sit inside the same fellowship; the page does not record how money passes between them [2][5][7].",
+  "reason": "P2-12: loop 1 summary claimed funding the steps never record.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D038",
+  "scope": "md",
+  "type": "loop",
+  "before": "Member businesses feed the network [5].",
+  "after": "Many members work in member businesses, and leaving can cost the job together with family and community [5].",
+  "reason": "P2-12: loop 5 summary; the volume records nothing about unpaid labor.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D039",
+  "scope": "md",
+  "type": "loop",
+  "before": "5. Inside, the investigation is heard as more evidence of hostility, and the testimony goes unanswered (technique 11).",
+  "after": "5. Inside, the investigation can be heard as more evidence of hostility; in 2025 the church answered some questions on the record and declined others (section 1, Disclosure scorecard; technique 11).",
+  "reason": "P2-12: step 5 asserted an unanswered testimony the volume does not record.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D040",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Members run competent businesses that also employ outsiders.",
+  "after": "- Members run competent businesses that also employ outsiders; the church's own account, relayed by Wikipedia, is about 56,000 non-member staff [1].",
+  "reason": "P3-16: cited the figure.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D041",
+  "scope": "md",
+  "type": "fact",
+  "before": "tax authorities [9], national audit offices [7] and family courts can compel an answer.",
+  "after": "tax authorities [9] and national audit offices [7] can compel an answer.",
+  "reason": "P3-17: \"family courts\" has no citation or case on this page.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D042",
+  "scope": "md",
+  "type": "fact",
+  "before": "The church's answer was \"Mr Hales neither authorised nor knew.\" [5] |",
+  "after": "The church's answer was that Mr Hales \"neither authorised nor knew\" the interrogation [5]. |",
+  "reason": "P3-18: \"Mr Hales\" moved outside the quotation marks, as the ABC reports it.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D043",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Leadership distance | High | \"Mr Hales neither authorised nor knew.\" [5] |",
+  "after": "| Leadership distance | High | Mr Hales \"neither authorised nor knew\" the interrogation [5]. |",
+  "reason": "P3-18: same correction.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D044",
+  "scope": "md",
+  "type": "fact",
+  "before": "on 19 March 2024 [9] |",
+  "after": "on 19 March 2024 [9][20] |",
+  "reason": "P3-20: date confirmed by a second source.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D045",
+  "scope": "md",
+  "type": "fact",
+  "before": "businesses associated with UBT on 19 March 2024 [9].\n- **Charitable",
+  "after": "businesses associated with UBT on 19 March 2024 [9][20].\n- **Charitable",
+  "reason": "P3-20.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D046",
+  "scope": "md",
+  "type": "source",
+  "before": "18. Plymouth Brethren Christian Church, *Response to Four Corners questions* (September 2025). <https://www.plymouthbrethrenchristianchurch.org/wp-content/uploads/2025/09/plymouth-brethren-christian-church-statement.pdf>",
+  "after": "18. Plymouth Brethren Christian Church, *Response to Four Corners questions* (September 2025). <https://www.plymouthbrethrenchristianchurch.org/wp-content/uploads/2025/09/plymouth-brethren-christian-church-statement.pdf>\n19. Wikipedia, \"Plymouth Brethren Christian Church\" and \"Exclusive Brethren\" — the 1970 division: in Scotland about 200 of 3,000 members stayed with the leader. <https://en.wikipedia.org/wiki/Exclusive_Brethren>\n20. Baucher Consulting, notes on the Exclusive Brethren and UBT — the ATO \"no notice raid\" on premises associated with UBT on 19 March (2024). <https://baucher.tax/tag/exclusive-bretheren/>\n21. Australian National Audit Office, correspondence from Senator David Shoebridge (26 Jul 2024) and the Acting Auditor-General's reply (14 Aug 2024) declining to include the audit in the 2024–25 work program <https://anao.gov.au/sites/default/files/2024-07/Correspondence%20from%20Senator%20David%20Shoebridge%20%28PDF%29_0.pdf> — and Rationalist Society of Australia, \"Audit Office turns down request to examine use of public funds at Exclusive Brethren schools\" (5 Nov 2024). <https://rationalist.com.au/audit-office-turns-down-request-to-examine-use-of-public-funds-at-exclusive-brethren-schools/>\n22. AAP via *The Canberra Times*, \"Church may be forced to front election influence probe\" <https://www.canberratimes.com.au/story/9299228/church-may-be-forced-to-front-election-influence-probe/> — *The Mandarin*, \"Brethren and Advance to face parliament this month\" (June 2026; both named \"significant third parties\" in the interim report) <https://www.themandarin.com.au/317894-brethren-and-advance-to-face-parliament-this-month/> — AAP via *The Canberra Times*, hearing of 21 August 2026. <https://www.canberratimes.com.au/story/9334600/church-sects-political-interference-a-complete-lie/>",
+  "reason": "Adds the sources the corrected claims need (P1-2, P1-3, P2-8, P3-20).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D047",
+  "scope": "md",
+  "type": "meta",
+  "before": "checked: 2026-09-27",
+  "after": "checked: 2026-10-03",
+  "reason": "Last-checked date.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D048",
+  "scope": "md",
+  "type": "meta",
+  "before": "| Last checked | 2026-09-27 |",
+  "after": "| Evidence | Ten of the 30 techniques are Documented and seven are Taught. The grades are Cultural 13, Documented 10 and Taught 7. |\n| Last checked | 2026-10-03 |",
+  "reason": "Last-checked glance row; P2-6: Evidence row added, matching the section 12 grade column after the regrades.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "PB-D049",
+  "scope": "md",
+  "type": "changelog",
+  "before": "## 27. What changed on this page {#changed}\n\n",
+  "after": "## 27. What changed on this page {#changed}\n\n- **2026-10-03:** Corrected a quotation about the church's businesses to the church's own words and moved the sentence about contact with families to the report that carries it. Added that the National Audit Office declined the request to audit OneSchool Global, that the Electoral Commission found the 2004 spending disclosed, and the 2026 parliamentary hearing on the 2025 federal election. Removed a figure for how many people left in 1970 that no source supports. Regraded four techniques, added an Evidence summary, and corrected the membership note, the list of countries and some wording.\n",
+  "reason": "Dated bullet describing this round.",
+  "count": 1,
+  "status": "proposed"
  }
 ]

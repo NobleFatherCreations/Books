@@ -1,6 +1,6 @@
 # Wording log — plymouth-brethren
 
-161 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/plymouth-brethren.json`, then rebuild. Nothing else changes.
+159 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/plymouth-brethren.json`, then rebuild. Nothing else changes.
 
 ## Fragments completed into sentences (127)
 
@@ -1710,7 +1710,7 @@
 
 *Reason:* First use of 'the Lord's Supper', glossed.
 
-## Proofreading (typos, punctuation, agreement) (8)
+## Proofreading (typos, punctuation, agreement) (6)
 
 ### PB-P001 · md · §7 · proposed · build: applied
 
@@ -1785,30 +1785,6 @@
 > *(removed)*
 
 *Reason:* An editor's instruction ('check whether …') was printing in the source list. Removed; the ANAO declined the request (see DISCREPANCIES).
-
-### PB-N001 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 5 documented cases on this page
-
-**After**
-
-> These are not hypotheticals. Five documented cases on this page
-
-*Reason:* Numeral starting a sentence.
-
-### PB-N002 · narration · §22 · proposed · build: applied
-
-**Before**
-
-> This page covers Australia, United Kingdom and New Zealand.
-
-**After**
-
-> This page covers Australia, the United Kingdom and New Zealand.
-
-*Reason:* 'the United Kingdom' needs its article.
 
 ## Sentences completed or clarified (5)
 
