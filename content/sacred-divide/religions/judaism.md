@@ -5,7 +5,7 @@ family: "Judaism"
 family_id: judaism-family
 family_members: [judaism, orthodox-hasidic-judaism]
 version: v4
-checked: 2026-09-27
+checked: 2026-10-03
 sections_filled: 27/27
 missing: []
 partial: []
@@ -18,22 +18,22 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | About 15–16 million people are Jewish worldwide. [ACADEMIC SOURCE: Pew, DellaPergola demographic studies] |
+| Size | About 15.8 million people are Jewish worldwide (2024), counting people who are Jewish by religion, ethnicity or upbringing. [ACADEMIC SOURCE: DellaPergola, Jewish Agency] |
 | Who's in charge | The Chief Rabbinate of Israel holds a statutory monopoly over Jewish marriage and divorce in Israel, and gatekeeping over Orthodox conversion and most burial. Its two heads are Ashkenazi (central and eastern European Jewish) Chief Rabbi Kalman Ber and Sephardi (Spanish, North African and Middle Eastern Jewish) Chief Rabbi David Yosef, elected in 2024 to ten-year terms on a state salary. |
 | Chosen by / removable by | A 150-member electoral body weighted toward rabbinic insiders chooses them / The state that created the monopoly can remove them, and it has not |
 | Money in one line | The money comes from synagogue dues, day-school tuition (a defining family cost), kosher certification fees, giving through federations (the central fundraising bodies of local Jewish communities), and Israel-linked giving. |
 | Leaving in one line | Leaving a liberal community carries a low institutional cost. The cost of leaving an Orthodox community is set out in the profile of Orthodox and Hasidic Judaism. |
-| The unanswered question | The rabbinic courts hold the only key to a get (a Jewish writ of divorce, which only the husband can give). Why has the power to free an agunah (a woman whose husband refuses her a get) never been made an obligation instead of a discretion? |
-| Evidence | Four of the 30 techniques are sourced to a named document. The grades are Contested 21, Cultural 7 and Codified 2. |
+| The unanswered question | The rabbinic courts hold the only key to a get (a Jewish writ of divorce, which only the husband can give). Israel's rabbinical courts have held statutory sanctions against refusers since 1995 and apply them in some cases; diaspora courts have none. Why has the power to free an agunah (a woman whose husband refuses her a get) never been made an obligation instead of a discretion? |
+| Evidence | None of the 30 techniques is sourced to a named document. The grades are Contested 22 and Cultural 8; none is graded Codified. |
 | Family | Judaism — judaism, orthodox-hasidic-judaism |
-| Last checked | 2026-09-27 |
+| Last checked | 2026-10-03 |
 :::
 
 ### Disclosure scorecard
 
 | Accounts | Pay | Safeguarding | External first | Removal | Reply |
 |---|---|---|---|---|---|
-| P | P | Y | Y | P | Y |
+| P | P | P | P | P | P |
 
 **Y** Yes — established from a public source · **P** Partial — true of some parts of the tradition, or true in some jurisdictions · **N** No — not established from any public source · **?** Not assessable — no institutional apex exists to assess
 
@@ -62,20 +62,20 @@ Your tradition puts its arguments in the canon. The Talmud (the central body of 
 ### The unanswered question
 
 ::: question
-The rabbinic courts hold the only key to a get. Why has the power to free an agunah never been made an obligation instead of a discretion?
+The rabbinic courts hold the only key to a get. Israel's rabbinical courts have held statutory sanctions against refusers since 1995 and apply them in some cases; diaspora courts have none. Why has the power to free an agunah never been made an obligation instead of a discretion?
 :::
 
 ### The widest gap between word and record
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| A rabbinical court cannot compel a man to grant a get. | Courts hold sanctions they decline to apply, and where civil courts have applied pressure, gets have followed. | [COURT RECORD] |
+| A rabbinical court cannot compel a man to grant a get. | Diaspora courts have no statutory sanctions, and this page records no figure for how often they use the communal ones. Israel's rabbinical courts have held statutory sanctions since 1995 (a bar on leaving the country, loss of a passport or licence, imprisonment) [20] and apply them in some cases: the rabbinate's get unit sanctioned 135 male refusers in 2024, down from 209 in 2023 [21]. | [OFFICIAL POLICY] |
 
 ### One cost of leaving, beside its denial
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Family and community (liberal streams) | The cost is usually low. | The cost is ordinary relational friction, with no formal sanction. | The denial is accurate: leaving really is low-cost here. |
+| Family and community (liberal streams) | Yes, and it is usually low. | The cost is ordinary relational friction, with no formal sanction. | The denial is accurate: leaving really is low-cost here. |
 
 ### The strongest objection, answered
 
@@ -88,7 +88,7 @@ The rabbinic courts hold the only key to a get. Why has the power to free an agu
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-Judaism has about 15–16 million adherents worldwide, concentrated in Israel and the United States. It is a covenantal tradition of peoplehood, law, text study and memory, and it spans Reform to Orthodox expressions.
+Judaism has about 15.8 million adherents worldwide, concentrated in Israel and the United States. It is a covenantal tradition of peoplehood, law, text study and memory, and it spans Reform to Orthodox expressions.
 :::
 
 - Judaism's argument culture preserves dissent in the canon itself. The other healthy features are independent minyanim (lay-led prayer groups), denominational pluralism, transparency norms at the organizational level in federation philanthropy, and activist rabbis who pressure the get system from within.
@@ -108,7 +108,7 @@ c. 1200–586 BCE | Israelite religion; monarchy; First Temple | The period had 
 600–1500 | Diaspora kehilla self-governance under Muslim and Christian rule | Communities held real coercive power over members (bans, taxes, courts) as the price of tolerated autonomy.
 1700s–1800s | Hasidism (a devotional movement led by hereditary spiritual leaders called rebbes); Haskalah (the Jewish Enlightenment); Reform movement; emancipation | Modernity splits Judaism into denominations with rival authority claims.
 1881–1945 | Mass migration; Zionism; the Holocaust | Catastrophe and statehood reshaped every institution and every argument about them.
-1948 | State of Israel; the Mandate's religious-court system continued, and in 1953 statute gave rabbinical courts exclusive jurisdiction over Jewish marriage and divorce | Religious authority acquired state enforcement for the first time in 1,900 years. [OFFICIAL POLICY]
+1948 | State of Israel; the Mandate's religious-court system continued, and in 1953 statute gave rabbinical courts exclusive jurisdiction over Jewish marriage and divorce | Religious authority acquired the enforcement of a modern state. [OFFICIAL POLICY]
 1970s–present | Feminist and egalitarian movements; ordination of women in liberal denominations; agunah advocacy | Internal reform proceeds precisely where authority is not state-backed.
 ```
 
@@ -117,7 +117,7 @@ c. 1200–586 BCE | Israelite religion; monarchy; First Temple | The period had 
 ::: card
 #### 1953 — The Rabbinical Courts Jurisdiction Law
 
-Israel's Knesset (parliament) granted the Chief Rabbinate exclusive statutory jurisdiction over Jewish marriage and divorce. A religious body received state monopoly power over the personal status of citizens, including secular ones.
+Israel's Knesset (parliament) granted the rabbinical courts exclusive statutory jurisdiction over Jewish marriage and divorce. A religious body received state monopoly power over the personal status of citizens, including secular ones.
 
 **Why it matters.** It is the single legislative act behind the agunah crisis. It was passed by a parliament, which means it can be amended by a parliament, a fact this page insists on because it locates the remedy.
 :::
@@ -125,7 +125,7 @@ Israel's Knesset (parliament) granted the Chief Rabbinate exclusive statutory ju
 ::: card
 #### 1972 — Sally Priesand is ordained
 
-Hebrew Union College ordained the first woman rabbi in American Judaism. Elected denominational bodies had debated it, voted, and changed. Conservative Judaism followed in 1985 after its own vote.
+Hebrew Union College ordained the first woman rabbi in American Judaism. Elected denominational bodies had debated it, voted, and changed. Conservative Judaism followed in 1985, after its seminary faculty voted in October 1983 to admit women [26].
 
 **Why it matters.** It is the natural experiment at the heart of this page, with identical scripture, different governance and opposite outcomes. Where the structure was elected, it moved; where it was appointed, it did not.
 :::
@@ -133,13 +133,13 @@ Hebrew Union College ordained the first woman rabbi in American Judaism. Elected
 ::: card
 #### 2013–2015 — The get, and the limits of the courts
 
-Federal prosecutors in New Jersey convicted rabbis and associates who ran a ring kidnapping and beating husbands to force a get; its leader was sentenced to ten years in 2015.
+Federal prosecutors in New Jersey convicted rabbis and associates who ran a ring kidnapping and beating husbands to force a get; its leader, Rabbi Mendel Epstein, was convicted in April 2015 and sentenced to ten years that December [22].
 
 **Why it matters.** The civil law could punish the violence used to break a refusal. The refusal itself, the husband’s unilateral power, stayed beyond any court’s reach, rabbinic or civil.
 :::
 
 ::: cites
-Sources for this section: [1] [11]
+Sources for this section: [1] [11] [22] [26]
 :::
 
 ## 6. Branches & variants {#branches}
@@ -162,15 +162,15 @@ About **15.8 million** Jews worldwide (2024): 7.3 million in Israel and 6.3 mill
 
 |  |  |
 |---|---|
-| Adherents | About 15–16 million people are Jewish worldwide. [ACADEMIC SOURCE: Pew, DellaPergola demographic studies] |
-| Regions | Israel (~7M) and the United States (~6M) hold the large majority, and France, Canada, the United Kingdom, Argentina, Russia and Australia follow. |
+| Adherents | About 15.8 million people are Jewish worldwide (2024), counting people who are Jewish by religion, ethnicity or upbringing. [ACADEMIC SOURCE: DellaPergola, Jewish Agency] [10] |
+| Regions | Israel (7.3 million) and the United States (6.3 million) hold the large majority, and France, Canada, the United Kingdom, Argentina, Russia and Australia follow. |
 | Trend | Overall growth is slow. Internally the shift is sharp, as Haredi communities grow rapidly by fertility while liberal denominations shrink and intermarry. |
 | Participation | Identity is ethnic, cultural, and religious at once. A large share of Jews worldwide are secular or minimally observant; institutional authority reaches only a fraction, mainly through Israel's personal-status law and Orthodox communal structures. |
 
 ### Authority
 
 - Authority is decentralized among rabbis, communal boards and denominational bodies, and there is no global hierarchy.
-- In Israel, the Chief Rabbinate holds a legal monopoly over Jewish marriage and divorce, and gatekeeping over Orthodox conversion and most burial. This is state-enforced Orthodox control over personal status for all Jewish citizens. Israel's courts have opened three narrow exits: non-Orthodox conversions performed in Israel count for citizenship (2021), civil burial is a legal right (1996) though scarce, and online civil marriages must be registered (2023). Divorce has no exit. [OFFICIAL POLICY]
+- In Israel, the Chief Rabbinate holds a legal monopoly over Jewish marriage and divorce, and gatekeeping over Orthodox conversion and most burial. This is state-enforced Orthodox control over personal status for all Jewish citizens. Israel's courts and legislature have opened three narrow exits: non-Orthodox conversions performed in Israel count for citizenship (2021), civil burial is a legal right (1996) though scarce, and online civil marriages must be registered (2023). Divorce has no exit. [OFFICIAL POLICY]
 
 ### The top of the chain
 
@@ -180,7 +180,7 @@ Judaism runs the codex's natural experiment: identical scripture, opposite gover
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| Chief Rabbinate of Israel — statutory monopoly over Jewish marriage and divorce in Israel, and gatekeeping over Orthodox conversion and most burial | The Chief Rabbis are Ashkenazi Chief Rabbi Kalman Ber and Sephardi Chief Rabbi David Yosef, elected in 2024 to ten-year terms on a state salary. | A 150-member electoral body weighted toward rabbinic insiders chooses them. | The state that created the monopoly can remove them, and it has not. |
+| Chief Rabbinate of Israel — statutory monopoly over Jewish marriage and divorce in Israel, and gatekeeping over Orthodox conversion and most burial | The Chief Rabbis are Ashkenazi Chief Rabbi Kalman Ber and Sephardi Chief Rabbi David Yosef, elected in 2024 to ten-year terms on a state salary. | A 150-member electoral body, 80 of them rabbis in official positions and 70 public representatives, chooses them; 140 members voted in 2024 [24][6]. | The state that created the monopoly can remove them, and it has not. |
 | The dynastic courts | Rebbes hold the office by inheritance; the Orthodox / Hasidic page names the dynasties. | Bloodline decides who holds it. | Nobody can remove them. |
 | The liberal denominations | Elected presidents and rotating boards hold these offices, and the offices have actually changed hands under member pressure. | Member and clergy votes choose them. | The next vote can remove them, and this is the codex's working control group. |
 
@@ -195,19 +195,19 @@ Where the office is elected, the exit costs collapse. That correlation is the sh
 | The Chief Rabbinate of Israel | Statutory monopoly | Chief Rabbis and rabbinical courts | It holds legal control of Jewish marriage and divorce for all Jewish citizens, and gatekeeping over Orthodox conversion and most burial. | It decides whether you can marry, divorce or be buried in your own country. | [OFFICIAL POLICY: Israeli statute] |
 | Rabbinical courts (batei din) | Judicial | Appointed dayanim (rabbinic judges) | They hold the only remedy for a woman whose husband refuses a get, and the discretion not to use it. | They decide whether a woman is free to remarry or chained for a decade. | [COURT RECORD / ACADEMIC SOURCE] |
 | Religious political parties | Political | Party leaderships | They hold coalition leverage, converted into budgets, exemptions and control of personal-status law. | They decide public money and public law, negotiated in a coalition agreement. | [OFFICIAL POLICY / INVESTIGATIVE REPORT] |
-| Kashrut (kosher-food) certifying agencies | Commercial gatekeeping | Agency directors and supervising rabbis | They hold fee-based certification across an entire food economy, with competing overlapping claims. | They affect the price of everything in your kitchen. | [FINANCIAL RECORD] |
+| Kashrut (kosher-food) certifying agencies | Commercial gatekeeping | Agency directors and supervising rabbis | They hold fee-based certification across an entire food economy, through competing agencies. | They affect the price of everything in your kitchen. | [PATTERN OBSERVED] |
 | Federations and mega-donors | Philanthropic | Named foundations and their boards | They hold disproportionate influence over communal policy, institutions and speech norms. | They shape what your community's institutions are permitted to say. | [PATTERN OBSERVED] |
-| Day-school networks | Education and finance | School boards | They set tuition obligations that reshape a family's entire financial life. | Tuition runs to six figures per child, and the leverage comes with it. | [FINANCIAL RECORD] |
+| Day-school networks | Education and finance | School boards | They set tuition obligations that reshape a family's entire financial life. | Over the school years tuition can run to six figures per child, and the leverage comes with it. | [FINANCIAL RECORD] |
 
 ::: cites
-Sources for this section: [1] [4] [6] [10]
+Sources for this section: [1] [4] [6] [10] [24]
 :::
 
 ## 8. Law & state here {#law}
 
 | Country | What the law does | The accountability question |
 |---|---|---|
-| **Israel** | Rabbinical courts have exclusive jurisdiction over Jewish marriage and divorce (1953) [1]; there is no civil marriage, but marriages performed abroad — including online through Utah — must be registered (2023) [3] | Reform and Conservative conversions count for citizenship (2021) [2]; alternative civil burial exists on paper but is patchily provided [4] |
+| **Israel** | Rabbinical courts have exclusive jurisdiction over Jewish marriage and divorce (1953) [1]; there is no civil marriage, but marriages performed abroad have been registrable since the Funk-Schlesinger ruling of the early 1960s [23], and online marriages through Utah must be registered too (2023) [3] | Reform and Conservative conversions count for citizenship (2021) [2]; alternative civil burial exists on paper but is patchily provided [4] |
 | **Israel — divorce** | Since 2021, rabbinical courts can act where a *get* cannot be processed abroad [5] | The husband must still give the *get* |
 | **United States** | Religious divorce is outside civil law; a halakhic (Jewish-law) prenuptial agreement with binding arbitration is the main protection [7] | The Rabbinical Council of America (RCA) says no member should officiate without one (2006) [8] |
 | **United Kingdom** | Equality law applies to faith-school admissions [13] | The Supreme Court held in 2009, 5–4, that a Jewish school had discriminated on grounds of ethnic origin by using the Chief Rabbi's test of Jewish status [13] |
@@ -221,7 +221,7 @@ In Israel: the Knesset and the High Court of Justice, which sit over the Rabbina
 ### Where it comes from
 
 - The money comes from synagogue dues, day-school tuition (a defining family cost), kosher certification fees, federation philanthropy and Israel-linked giving.
-- Kashrut certification is a genuine service and also a gatekeeping revenue economy for certifying agencies. [FINANCIAL RECORD]
+- Kashrut certification is a genuine service and also a gatekeeping revenue economy for certifying agencies. [PATTERN OBSERVED]
 
 ### Follow the money
 
@@ -229,7 +229,7 @@ In Israel: the Knesset and the High Court of Justice, which sit over the Rabbina
 |---|---|---|---|
 | Synagogue dues and High Holiday tickets | The stated purpose is to fund the congregation. | It controls through paid access to worship at the year's most emotionally loaded moment, and the poor exclude themselves. | Congregations benefit, and many now offer sliding scales, which is a real reform. |
 | Day-school tuition | The stated purpose is Jewish education. | Families are locked into six-figure cumulative costs, and the institution gains leverage over parents. | Schools and community networks benefit. |
-| Kashrut certification | The stated purpose is reliable dietary supervision. | It controls through fee-based gatekeeping over an entire food economy, with competing agencies making overlapping claims. | Certifying agencies and their supervisors benefit. [FINANCIAL RECORD] |
+| Kashrut certification | The stated purpose is reliable dietary supervision. | It controls through fee-based gatekeeping over an entire food economy, with competing agencies. | Certifying agencies and their supervisors benefit. [PATTERN OBSERVED] |
 | Federation and mega-donor philanthropy | The stated purpose is communal welfare and Israel support. | Large donors shape communal policy and speech norms disproportionately. | Institutions and their major funders benefit. [PATTERN OBSERVED] |
 
 ### Pipelines this tradition shares
@@ -243,7 +243,7 @@ In Israel: the Knesset and the High Court of Justice, which sit over the Rabbina
 
 **Disclosed.** Certification status is disclosed.
 
-**Hidden.** Fee schedules and advisory compensation stay hidden.
+**Hidden.** Not recorded on this page: it cites no fee schedule or advisory pay.
 :::
 
 ::: card
@@ -251,35 +251,11 @@ In Israel: the Knesset and the High Court of Justice, which sit over the Rabbina
 
 **Source.** The money comes from parents funding religious education.
 
-**Path.** School → Institutional network → Employment and standing leverage over the family
+**Path.** School → Institutional network → Leverage over the family
 
-**Disclosed.** Fee schedules are disclosed.
+**Disclosed.** Not recorded on this page.
 
-**Hidden.** Conduct conditions attached to enrolment stay hidden.
-:::
-
-::: card
-#### Public funding to autonomous curriculum
-
-**Source.** The money comes from taxpayers.
-
-**Path.** Government education or welfare budget → Religious school network → Curriculum exempted from standards
-
-**Disclosed.** Budget lines are disclosed.
-
-**Hidden.** What is actually taught stays hidden.
-:::
-
-::: card
-#### Communal trust to conditional welfare
-
-**Source.** The money comes from historic endowments and community giving.
-
-**Path.** Trust board → Housing, healthcare, education allocation → Members in good standing
-
-**Disclosed.** Trust deeds are disclosed, because litigation forced it.
-
-**Hidden.** Discretionary decisions stay hidden.
+**Hidden.** Not recorded on this page.
 :::
 
 ### Money in numbers
@@ -303,9 +279,9 @@ In Israel: the Knesset and the High Court of Justice, which sit over the Rabbina
 
 **What it was for.** In an ancient legal world where women could not contract, the framework at least required a formal written document rather than mere abandonment — a limit on male power at the time.
 
-**Why that reason expired.** Women now hold every legal capacity men do, except this one. The result is the agunah: a woman chained for years by a spiteful husband while rabbinic courts declare themselves unable to act.
+**Why that reason expired.** Women now hold every legal capacity men do, except this one. The result is the agunah: a woman chained for years by a spiteful husband while diaspora rabbinic courts, which have no statutory sanctions, declare themselves unable to act.
 
-**Who benefits now.** Recalcitrant husbands benefit, acquiring indefinite leverage over a woman's entire future. So do courts that retain the sole remedy and decline to use it decisively.
+**Who benefits now.** Recalcitrant husbands benefit, acquiring indefinite leverage over a woman's entire future. So do courts that retain the sole remedy: in the diaspora they have no statutory sanctions, and in Israel they apply those they have in some cases [21].
 :::
 
 ::: card
@@ -327,7 +303,7 @@ In Israel: the Knesset and the High Court of Justice, which sit over the Rabbina
 
 **What it was for.** It was genuine protection. The gentile courts were not neutral; they were often the danger.
 
-**Why that reason expired.** It expired completely. Modern police forces in democratic states are not medieval blood-libel tribunals. Applying a rule built for pogrom conditions to a child-abuse allegation in Brooklyn protects only one party, and it is not the child. Rabbis have ruled internally that abuse reporting is not mesirah. [LEADERSHIP STATEMENT]
+**Why that reason expired.** It expired completely. Modern police forces in democratic states are not medieval blood-libel tribunals. Applying a rule built for pogrom conditions to a child-abuse allegation in Brooklyn protects only one party, and it is not the child. In 2011 the Rabbinical Council of America ruled that the prohibition of mesirah does not apply to child abuse, which it said must be referred to the secular authorities immediately; Agudath Israel said instead that a threshold applies and the facts go first to a rabbi [25]. [LEADERSHIP STATEMENT]
 
 **Who benefits now.** Abusers benefit, and so do institutions whose reputations survive the silence. This is the clearest case in the codex of a genuinely protective rule outliving its threat and becoming the threat.
 :::
@@ -345,7 +321,7 @@ In Israel: the Knesset and the High Court of Justice, which sit over the Rabbina
 :::
 
 ::: cites
-Sources for this section: [1]
+Sources for this section: [1] [21] [25]
 :::
 
 ## 11. Reach {#reach}
@@ -361,7 +337,7 @@ Sources for this section: [1]
 - Circumcision at eight days, naming rites, and day-school and supplementary-school education attach identity early.
 - Bar and bat mitzvah (the coming-of-age rite for boys and girls) at 12–13 mark legal obligation. They are a genuine rite of passage that also formalizes duty before adult consent.
 - Day-school tuition is a defining economic pressure on Jewish families, and it binds parents to institutions financially. [FINANCIAL RECORD]
-- Youth movements and Israel trips build identity through peak experience — powerful, and in some programs explicitly designed to shape political and marital choices. [ACADEMIC SOURCE]
+- Youth movements and Israel trips build identity through peak experience, which is powerful. [PATTERN OBSERVED]
 
 ### Bodies
 
@@ -539,7 +515,7 @@ You are told you are not observant enough, not committed enough, not doing enoug
 
 **The counter.** The Talmud preserves dissent; some communal gatekeepers punish it. The measure is not whether argument is praised in the study hall, but what happens to the arguer's standing, family, and children when the argument touches the institution's interests.
 
-**Evidence grade.** [[Codified]] The canon's preservation of minority opinions and the conversion test of turning applicants away are written practices; the treatment of dissenters and leavers described here is communal and varies by community. *(sourced)*
+**Evidence grade.** [[Contested]] The treatment described (questioning celebrated and then punished, converts turned away, leavers mourned and dissenters called divisive) is communal practice that varies by community; no body prescribes it, and the entry names no document.
 :::
 
 ### Stage 4 · Confuse {#stage-4}
@@ -691,7 +667,7 @@ The middlemen are day-school tuition, communal networks and, in Israel, legal pe
 
 **The counter.** Survival does not justify making individual conscience subordinate to the group. If someone cannot step outside communal expectations without being treated as a demographic loss, then identity has become a boundary wall.
 
-**Evidence grade.** [[Contested]] Boundary maintenance ranges from negligible in liberal denominations to substantial in observant ones — generalizing across Judaism misuses this grade. *(sourced)*
+**Evidence grade.** [[Contested]] Boundary maintenance ranges from negligible in liberal denominations to substantial in observant ones — generalizing across Judaism misuses this grade.
 :::
 
 ::: tactic n=15
@@ -712,7 +688,7 @@ The middlemen are day-school tuition, communal networks and, in Israel, legal pe
 
 **The counter.** Historical urgency does not erase consent. If ancestors and future children are placed on either side of a person until there is no room for their own conscience, continuity has become triangulation across time.
 
-**Evidence grade.** [[Codified]] Most intermediaries in this entry (parents, grandparents, rabbis, ancestors, Holocaust memory) act by custom; the one codified intermediary is Israel's Chief Rabbinate, which holds a statutory monopoly over Jewish marriage and divorce and gatekeeping over Orthodox conversion and most burial. *(sourced)*
+**Evidence grade.** [[Cultural]] The intermediaries in this entry (parents, grandparents, rabbis, ancestors, Holocaust memory) act by custom, and no body issues or enforces them.
 :::
 
 ### Stage 6 · Extract {#stage-6}
@@ -720,9 +696,9 @@ The middlemen are day-school tuition, communal networks and, in Israel, legal pe
 ::: stage
 **Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
 
-Day-school tuition reshapes a family's finances. High Holiday tickets are priced at the year's most loaded moment. Kashrut certification fees run across an entire food economy. In Israel, personal status is routed through the Rabbinate whatever you believe. And in the get, a woman's entire future is held by a spiteful husband while the court declares itself unable.
+Day-school tuition reshapes a family's finances. High Holiday tickets are priced at the year's most loaded moment. Kashrut certification fees run across an entire food economy. In Israel, personal status is routed through the Rabbinate whatever you believe. And in the get, a woman's entire future is held by a spiteful husband while the court, in the diaspora, declares itself unable.
 
-*What it asks of you:* An institution that will not compel a man to release his wife has told you precisely where its authority ends and its convenience begins.
+*What it asks of you:* An institution that does not always compel a man to release his wife has told you precisely where its authority ends and its convenience begins.
 :::
 
 ::: tactic n=16
@@ -933,7 +909,7 @@ Day-school tuition reshapes a family's finances. High Holiday tickets are priced
 
 **The counter.** Communal support becomes FINANCIAL CONTROL when participation costs become identity costs. If belonging to the people requires financial performance, community has become a paywall around heritage.
 
-**Evidence grade.** [[Cultural]] Synagogue dues and High Holiday ticketing are congregational practice; many communities have moved to sliding scales, which is real reform. *(sourced)*
+**Evidence grade.** [[Cultural]] Synagogue dues and High Holiday ticketing are congregational practice; many communities have moved to sliding scales, which is real reform.
 :::
 
 ### Stage 7 · Discard {#stage-7}
@@ -943,7 +919,7 @@ Day-school tuition reshapes a family's finances. High Holiday tickets are priced
 
 In liberal Judaism, honestly, there is very little. In observant communities and in Israeli personal status there are rejected conversions, denied marriages and communal exclusion. The agunah is the sharpest case, punished by remaining married.
 
-*What it asks of you:* The asymmetry across denominations is the proof. Where authority is not backed by force, exit is cheap.
+*What it asks of you:* The asymmetry across denominations is the pattern to notice. Where authority is not backed by force, exit is cheap.
 :::
 
 ::: tactic n=27
@@ -1052,7 +1028,7 @@ Dues, tuition, and certification fees fund the institutions that define the obli
 
 1. Congregations, day schools and certifying agencies charge synagogue dues, tuition and certification fees (section 9).
 2. Those fees fund the institutions that define what a Jewish household is expected to attend, pay for and observe (sections 7 and 9).
-3. The obligations do not shrink. Certification claims overlap, and day-school tuition builds into six-figure cumulative costs (section 9).
+3. The obligations do not shrink. Certification keeps charging fees, and day-school tuition builds into six-figure cumulative costs (section 9).
 4. The costs bind families to the institutions: tuition binds parents financially, and the school gains leverage over them (sections 9 and 11).
 5. Families who stay go on paying, and the fees fund the next round of obligations.
 
@@ -1060,7 +1036,7 @@ Dues, tuition, and certification fees fund the institutions that define the obli
 
 **Why it closes.** The bodies that set the obligations also collect the fees that sustain them, and the scorecard finds accounts only partly public (section 1, Accounts: P). A family cannot see where the money goes before it decides whether to pay.
 
-**Where it could be broken, and by whom.** It weakens wherever the money becomes visible. The United Synagogue publishes its accounts as a registered charity (section 9), many congregations now offer sliding scales (section 9), and certifiers could disclose the fee schedules and advisory pay that section 9 records as hidden. A family can ask for those before paying. This paragraph is analysis, not a documented finding.
+**Where it could be broken, and by whom.** It weakens wherever the money becomes visible. The United Synagogue publishes its accounts as a registered charity (section 9), many congregations now offer sliding scales (section 9), and certifiers could publish their fee schedules and advisory pay, which this page does not record. A family can ask for those before paying. This paragraph is analysis, not a documented finding.
 
 **An example from this page.** The composite day in section 2 shows it at small scale: Rachel and David run the tuition numbers again, $34,000 a year for two children, more than the mortgage, and agree that they could send the girls to public school without either of them meaning it.
 :::
@@ -1068,7 +1044,7 @@ Dues, tuition, and certification fees fund the institutions that define the obli
 ::: card
 #### 2 · Fear to Dependence to Fear
 
-In observant communities, fear of communal standing does the work; in liberal ones this loop barely runs, which is the evidence.
+In observant communities, fear of communal standing does the work; in liberal communities the institutional cost of leaving is low, and the loop barely runs.
 
 **How it runs.**
 
@@ -1096,7 +1072,7 @@ Day schools and youth movements form identity early, and the tuition binds the p
 
 1. Circumcision at eight days, naming rites, and day-school and supplementary-school education attach identity early (section 11).
 2. Bar and bat mitzvah at 12–13 formalize legal obligation before adult consent (section 11).
-3. Youth movements and Israel trips build identity through peak experience, in some programs designed to shape political and marital choices (section 11).
+3. Youth movements and Israel trips build identity through peak experience (section 11).
 4. Parents pay the tuition, which binds them to the institutions financially (sections 9 and 11).
 5. The tradition asks each generation to marry within and raise Jewish children, and the cycle begins again (technique 3).
 
@@ -1132,9 +1108,9 @@ Communal philanthropy and Israel advocacy generate standing that becomes coaliti
 :::
 
 ::: card
-#### 5 · Unpaid Labor to Assets to Power to More Labor
+#### 5 · Donations to Boards to Deference to Donations
 
-Volunteers and staff build institutions governed by boards drawn from the donor class.
+Donor-dominated boards govern the institutions, and the staff who depend on them learn what not to say.
 
 **How it runs.**
 
@@ -1146,7 +1122,7 @@ Volunteers and staff build institutions governed by boards drawn from the donor 
 
 **Techniques that feed it.** [16 · Flying Monkeys](#t-16), [22 · Benevolent Control](#t-22), [26 · Financial Control](#t-26).
 
-**Why it closes.** Those who do the work do not appoint the boards, and those who appoint the boards are the funders. Value flows toward the donor class, and the people who staff the institutions have reason not to cross it.
+**Why it closes.** Those who do the work do not appoint the boards, and those who appoint the boards are the funders. The people who staff the institutions have reason not to cross them.
 
 **Where it could be broken, and by whom.** Section 18 names the refusals available in the middle: a federation professional could refuse to let a single funder set the community's public position, and a rabbi could refuse to treat a get refusal as a private matter. Changing who appoints the boards, which section 14 names, would reach the source. This paragraph is analysis, not a documented finding.
 
@@ -1192,7 +1168,7 @@ Antisemitism is real, current, and lethal — and it is the most effective silen
 
 **Why it closes.** The more real the external threat, the stronger the reason given for silence, and the silence protects the conduct that critics name. The threat is genuine, so the rule is hard to challenge without seeming to ignore it.
 
-**Where it could be broken, and by whom.** Section 3 answers it directly: naming a woman chained by get refusal is not an antisemitic act, and the agunah is named by Orthodox women and their rabbinic advocates. Section 10 records that rabbis have ruled internally that abuse reporting is not mesirah. Both come from inside the community. This paragraph is analysis, not a documented finding.
+**Where it could be broken, and by whom.** Section 3 answers it directly: naming a woman chained by get refusal is not an antisemitic act, and the agunah is named by Orthodox women and their rabbinic advocates. Section 10 records that the Rabbinical Council of America ruled in 2011 that mesirah does not apply to reporting child abuse. Both come from inside the community. This paragraph is analysis, not a documented finding.
 
 **An example from this page.** Technique 12 quotes the response to a person who names abuse: 'You are giving ammunition to antisemites.'
 :::
@@ -1203,9 +1179,9 @@ Antisemitism is real, current, and lethal — and it is the most effective silen
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| A rabbinical court cannot compel a man to grant a get. | Courts hold sanctions they decline to apply, and where civil courts have applied pressure, gets have followed. | [COURT RECORD] |
-| Israel is a democracy with religious freedom. | A secular or Reform Jew cannot legally marry in the country without Orthodox rabbinic authority — the one exit is a civil marriage conducted online from abroad, which the state must register (2023). | [OFFICIAL POLICY] |
-| Kashrut supervision protects consumers. | Competing agencies generate overlapping fees on the same product without improving reliability. | [FINANCIAL RECORD] |
+| A rabbinical court cannot compel a man to grant a get. | Diaspora courts have no statutory sanctions, and this page records no figure for how often they use the communal ones. Israel's rabbinical courts have held statutory sanctions since 1995 (a bar on leaving the country, loss of a passport or licence, imprisonment) [20] and apply them in some cases: the rabbinate's get unit sanctioned 135 male refusers in 2024, down from 209 in 2023 [21]. | [OFFICIAL POLICY] |
+| Israel is a democracy with religious freedom. | A secular or Reform Jew cannot legally marry in the country without Orthodox rabbinic authority. The exits are a civil marriage abroad, which has been registrable since the Funk-Schlesinger ruling of the early 1960s [23], or an online marriage through Utah law, which the state must register (2023) [3]. | [OFFICIAL POLICY] |
+| Kashrut supervision protects consumers. | Certification is a paid service run by competing agencies. This page cites no fee schedule or agency filing, so whether the fees improve or fail to improve reliability is not established here. | [PATTERN OBSERVED] |
 
 ### Accountability or theatre?
 
@@ -1219,12 +1195,12 @@ Antisemitism is real, current, and lethal — and it is the most effective silen
 
 | Term | What it means inside | What it does | Said plainly |
 |---|---|---|---|
-| Get refusal / agunah | The terms mean a husband withholding a religious divorce, leaving a wife chained. | The tradition's own courts hold the key and have overwhelmingly declined to make its use obligatory. The word names a condition and quietly omits the agent. | 'A man is doing this, and the vocabulary will not say so.' |
+| Get refusal / agunah | The terms mean a husband withholding a religious divorce, leaving a wife chained. | The tradition's own courts hold the remedy, and its use has not been made an obligation: diaspora courts have no statutory sanctions, and Israel's apply theirs in some cases. The word names a condition and quietly omits the agent. | 'A man is doing this, and the vocabulary will not say so.' |
 | Lashon hara | The term means evil speech, which is true but damaging talk about another. | It is a serious and genuinely admirable ethical discipline. As an instrument it makes accurate reporting of institutional wrongdoing a sin in itself. | 'It is true and you may not say it.' |
 | Shalom bayis | The term means peace in the home. | It is a real value, deployed to keep a woman in a household where the peace is being maintained by her alone. | 'Do not disrupt this, whatever it costs you.' |
 
 ::: cites
-Sources for this section: [3]
+Sources for this section: [3] [20] [21] [23]
 :::
 
 ## 15. Cost & cover {#cost}
@@ -1238,7 +1214,7 @@ Sources for this section: [3]
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Family and community (liberal streams) | The cost is usually low. | The cost is ordinary relational friction, with no formal sanction. | The denial is accurate: leaving really is low-cost here. |
+| Family and community (liberal streams) | Yes, and it is usually low. | The cost is ordinary relational friction, with no formal sanction. | The denial is accurate: leaving really is low-cost here. |
 | Personal status (Israel) | Yes | Marriage, divorce, and burial run through the Rabbinate regardless of belief | “It's a civil arrangement, not coercion.” |
 | Marriage freedom (agunah) | Yes | A husband can refuse a get, and rabbinic courts hold the only remedy. | “The court cannot force a husband.” |
 | Conversion recognition | Yes | Non-Orthodox conversions are rejected for Israeli personal-status purposes. | “Standards, not exclusion.” |
@@ -1271,14 +1247,14 @@ Sources for this section: [1] [4] [5]
 
 - Israel's religious parties convert a communal bloc vote into state budgets, draft exemptions, and control of personal status law for all Jewish citizens regardless of belief — religious authority purchased with coalition arithmetic. [OFFICIAL POLICY / INVESTIGATIVE REPORT]
 - Major donors and federations shape communal policy and speech norms disproportionately; institutions dependent on a handful of funders learn what not to say. [PATTERN OBSERVED]
-- Kashrut certification is a genuine service and a fee economy with competing agencies whose overlapping claims generate revenue rather than clarity. [FINANCIAL RECORD]
+- Kashrut certification is a genuine service and a fee economy with competing agencies; this page cites no filing that shows what the fees yield. [PATTERN OBSERVED]
 
 ### Who pays
 
 - Agunot, the women denied divorce, pay, sometimes for decades.
 - Israelis of any belief pay when they cannot marry, divorce or be buried outside Rabbinate control.
 - Converts pay when their status is questioned or revoked by later authorities.
-- LGBTQ Jews in Orthodox communities pay.
+- LGBTQ Jews pay: Orthodoxy generally does not ordain or marry them (section 11), and in Israel they have no route to marry through the Rabbinate (section 17).
 - Families pay, crushed by day-school tuition.
 - Abuse survivors pay, in institutions where donor and communal reputation outweighed reporting.
 
@@ -1293,12 +1269,12 @@ The costs described in section 15 do not fall evenly. The table names who carrie
 | Agunot | They are chained in marriage by a spiteful husband while the only remedy sits unused. | The harm compounds with children, poverty and communal pressure to settle. |
 | Israelis of any belief | Their marriage, divorce and burial are routed through religious authority regardless of conviction. | It compounds for LGBTQ couples and non-Orthodox converts, for whom the route simply does not exist. |
 | Converts | Their status is questioned or revoked retroactively by later authorities. | It compounds for their children, whose Jewishness becomes contingent. |
-| Families under tuition load | They face six figures per child, structurally, with communal standing attached. | It compounds on a single income, or with more than three children. |
+| Families under tuition load | Over the school years their tuition can run to six figures per child (the family in section 2 pays $34,000 a year for two), with communal standing attached. | It compounds with each additional child. |
 | Abuse survivors in institutions | They face reputation management by bodies dependent on the same donors. | It compounds where the accused is a major funder. |
 
 ### From The Women's Codex
 
-- *Divorce and religious captivity* — The agunah: rabbinic courts hold the key to a get and have overwhelmingly declined to make its use mandatory.
+- *Divorce and religious captivity* — The agunah: rabbinic courts hold the key to a get; outside Israel they have no statutory sanctions, and Israel's courts apply theirs in some cases.
 
 ### From The LGBTQ+ Codex
 
@@ -1312,8 +1288,8 @@ Most of the institution's work is done below the top offices, by people who see 
 |---|---|---|---|---|
 | Congregational rabbis | Hold the pastoral relationship and depend on the board for employment | Which families the institution cannot afford to upset | Manage rather than escalate | To officiate as though a get refusal were a private matter |
 | Day-school heads and teachers | Educate and depend on tuition and donors | Which families are drowning financially and will not say | Collect | To let a child's place depend on a parent's communal standing |
-| Dayanim and beit din clerks | Administer the get process | Exactly how long a woman has been waiting | Follow precedent | To follow precedent by declining to impose a sanction that is available |
-| Kashrut supervisors | Sign the certification | The fee structure and the duplication | Keep the arrangement | To certify for a firm that also employs them |
+| Dayanim and beit din clerks | Administer the get process | Exactly how long a woman has been waiting | Follow precedent | In Israel, to follow precedent by declining to impose a sanction that the 1995 law makes available |
+| Kashrut supervisors | Sign the certification | The fee structure | Keep the arrangement | To certify for a firm that also employs them |
 | Federation professionals | Allocate communal funding | Which donor preferences shape which programmes | Avoid controversy | To let a single funder set the community's public position |
 
 ## 19. Documented cases {#cases}
@@ -1324,7 +1300,7 @@ Most of the institution's work is done below the top offices, by people who see 
 - **what:** JFS, a Jewish faith school in London, refused a boy whose mother was Jewish by conversion, because the Office of the Chief Rabbi did not recognize him as Jewish [13].
 - **record:** *R (E) v Governing Body of JFS* [2009] UKSC 15 [13]
 - **outcome:** The Supreme Court held, 5–4, that this was direct discrimination on grounds of ethnic origin; the majority said it was not calling anyone racist [13].
-- **tactics:** 14, 24
+- **tactics:** 9, 19
 - **grade:** Documented
 :::
 
@@ -1334,7 +1310,7 @@ Most of the institution's work is done below the top offices, by people who see 
 - **what:** Reform and Conservative converts in Israel had been excluded from citizenship under the Law of Return (the Israeli law that lets Jews immigrate and take citizenship) [2].
 - **record:** High Court of Justice, 1 March 2021 (8–1) [2]
 - **outcome:** Their conversions now count for citizenship [2].
-- **tactics:** 14, 24
+- **tactics:** 9, 19
 - **grade:** Documented
 :::
 
@@ -1344,7 +1320,7 @@ Most of the institution's work is done below the top offices, by people who see 
 - **what:** Couples who could not or would not marry through the Rabbinate married online under Utah law [3].
 - **record:** *Times of Israel*, March 2023 [3]
 - **outcome:** The Supreme Court ordered Israel to register those marriages [3].
-- **tactics:** 22
+- **tactics:** 14
 - **grade:** Documented
 :::
 
@@ -1361,7 +1337,7 @@ Most of the institution's work is done below the top offices, by people who see 
 
 ### What would change this page
 
-A binding halachic mechanism ending get-refusal as leverage — adopted by the same courts that currently decline to impose one — would revise this page's hardest section.
+A binding halachic mechanism ending get-refusal as leverage — adopted by the same courts, which outside Israel have no statutory sanctions and in Israel apply theirs in some cases — would revise this page's hardest section.
 
 ::: cites
 Sources for this section: [7] [8] [9] [12]
@@ -1398,7 +1374,7 @@ Sources for this section: [7] [8] [9] [12]
 
 ::: card
 ### United Kingdom
-- **apex:** The Chief Rabbi leads the United Synagogue, and other movements have separate authorities [13].
+- **apex:** Chief Rabbi Ephraim Mirvis leads the United Synagogue, and other movements have separate authorities [13][27].
 - **law:** Equality law applies to Jewish schools [13].
 - **documented:** The record includes the JFS judgment (2009) [13] and the United Synagogue's public accounts [14].
 - **exit:** Leaving is legally free.
@@ -1408,8 +1384,8 @@ Sources for this section: [7] [8] [9] [12]
 
 ## 23. The questions {#questions}
 
-1. A woman has been refused a get for six years. Name the rabbinic authority who has publicly declared her husband's conduct a violation and imposed a consequence. If you cannot, ask why not.
-2. If mesirah does not apply to child abuse — and prominent rabbis have said it does not — why do families who call the police still lose their standing?
+1. A woman has been refused a get for six years. Name the rabbinic authority who has publicly declared her husband's conduct a violation and imposed a consequence. If you cannot, ask why not. In Israel, where the courts have held statutory sanctions since 1995 [20], ask which sanctions they have applied in her case.
+2. If mesirah does not apply to child abuse — the Rabbinical Council of America said so in 2011 [25] — what happens to the families who call the police? Ask the people in your own community who have done it.
 3. In a sovereign Jewish state, why does a secular Jew need Orthodox permission to marry, and which voter chose that?
 4. Why is a conversion valid in one country and void in another, and whose authority does that difference actually serve?
 5. If your community's institutions have nothing to hide, ask for the abuse-reporting policy in writing. Note how long it takes.
@@ -1422,7 +1398,7 @@ The most Jewish response available to this material is argument, not offense. Yo
 Keep the arguing. Keep the Shabbat table. And notice that the parts of Judaism where exit is cheapest are also the parts where nobody had to be coerced into staying — which tells you something about what the coercion was ever for.
 
 ::: cites
-Sources for this section: [2] [3]
+Sources for this section: [2] [3] [20] [25]
 :::
 
 ## 24. Leaving safely here {#leaving}
@@ -1441,10 +1417,10 @@ Checked 2026-09-27.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Footsteps** | People leaving ultra-Orthodox communities | US | **877-STEPS-55** [17] |
-| **ORA** | People facing *get* refusal | US and international | **844-673-5463** [16] |
-| **Jewish Women's Aid** | Domestic abuse, sexual violence and *get* refusal | UK | **0808 801 0500** [18] |
-| **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** [19] |
+| **ORA** | People facing *get* refusal | US and international | **844-673-5463** (1-844-OSF-LINE, its divorce resource line) [16] |
+| **Footsteps** | People leaving ultra-Orthodox communities | US | **877-STEPS-55** (Footsteps states no hours) [17] |
+| **Jewish Women's Aid** | Domestic abuse, sexual violence and *get* refusal | UK | **0808 801 0500** (Monday to Thursday, 09:30–21:30) [18] |
+| **NAPAC** | Adult survivors of childhood abuse | UK | **0808 801 0331** (Monday to Thursday, 10:00–21:00; Friday, 10:00–18:00) [19] |
 
 ## 26. Sources {#sources}
 
@@ -1474,8 +1450,17 @@ Checked 2026-09-27.
 17. Footsteps — support for people leaving ultra-Orthodox communities; 877-STEPS-55. https://footstepsorg.org/
 18. Jewish Women's Aid — helpline 0808 801 0500 (domestic abuse, sexual violence, gett refusal). https://www.jwa.org.uk/
 19. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
+20. Library of Congress Law blog, "Releasing Israeli Agunot from the Chains of Marriage" (May 2017) — the Rabbinical Courts (Enforcement of Divorce Decisions) Law, 5755-1995: orders barring departure from the country, seizure of property, blocking of passports, refusal of licences, and imprisonment of five years, extendable to ten. https://blogs.loc.gov/law/2017/05/releasing-israeli-agunot-from-the-chains-of-marriage/
+21. *Times of Israel*, "Amid war, divorce rates jumped 6.5% last year, rabbinate says" (4 Feb 2025) — the rabbinate's get unit imposed sanctions on 135 male and 8 female refusers in 2024 (209 and 6 in 2023). https://www.timesofisrael.com/amid-war-divorces-rates-jumped-6-5-last-year-rabbinate-says/
+22. *Boston Globe*, "Rabbi gets decade in prison for divorce coercion ring" (15 Dec 2015) — Rabbi Mendel Epstein, convicted in April 2015 of conspiracy to commit kidnapping, sentenced in Trenton federal court to ten years. https://www.bostonglobe.com/news/nation/2015/12/15/rabbi-gets-decade-prison-for-divorce-coercion-ring/ApWLCdgDfvhz1oXYJYTy6I/story.html
+23. Cardozo Israeli Supreme Court Project, *Funk-Schlesinger v. Minister of Interior* (early 1960s) — a civil marriage performed abroad must be registered in the population registry. https://versa.cardozo.yu.edu/opinions/funk-schlesinger-v-minister-interior
+24. Israel Democracy Institute, "The Procedure for Electing Israel's Chief Rabbis" — the electoral assembly has 150 members: 80 rabbis holding official positions and 70 public representatives. https://en.idi.org.il/articles/54978
+25. Jewish Telegraphic Agency, "Orthodox groups clarify positions on reporting child abuse" (26 July 2011) — the Rabbinical Council of America: the prohibition of mesirah does not apply, and abuse must be referred to the secular authorities immediately; Agudath Israel: a threshold applies, and the facts go first to a rabbi. https://www.jta.org/2011/07/26/lifestyle/orthodox-groups-clarify-positions-on-reporting-child-abuse
+26. Jewish Women's Archive, "Amy Eilberg Ordained as First Female Conservative Rabbi" (12 May 1985) — after the Jewish Theological Seminary faculty voted on 24 October 1983 to admit women. https://jwa.org/thisweek/may/12/1985/amy-eilberg
+27. Wikipedia, "Ephraim Mirvis" — Chief Rabbi of the United Hebrew Congregations of the Commonwealth since 1 September 2013. https://en.wikipedia.org/wiki/Ephraim_Mirvis
 
 ## 27. What changed on this page {#changed}
 
+- **2026-10-03:** Corrected how this page describes Israel's rabbinical courts: since 1995 they have held legal sanctions against husbands who refuse a divorce, and they apply them in some cases; the claim that courts decline to act now covers diaspora courts only. Corrected the routes around Israel's marriage monopoly (marriages abroad are registrable as well as online ones), the 1953 law (it gave jurisdiction to the rabbinical courts) and the origin of the 1996 burial law. Removed three credits on the scorecard that the page did not support, regraded two techniques that rested on custom rather than law, and dropped claims about youth programs, kosher fees and school and trust pipelines that had no source. Added sources for the 1995 law, the kidnapping-ring conviction, the 1985 Conservative ordination, the 2011 rabbinical statements on reporting abuse, the electoral body that chooses the Chief Rabbis, and the UK Chief Rabbi; made the population figures match across the page.
 - **2026-09-27:** Added Branches, Law & state, Money in numbers (United Synagogue accounts 2020–2024), three documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
 

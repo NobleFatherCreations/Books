@@ -1,6 +1,6 @@
 # Wording log — judaism
 
-164 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/judaism.json`, then rebuild. Nothing else changes.
+162 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/judaism.json`, then rebuild. Nothing else changes.
 
 ## Fragments completed into sentences (95)
 
@@ -1544,7 +1544,7 @@
 
 *Reason:* Fragment completed. First use of 'tefillin', glossed.
 
-## Proofreading (typos, punctuation, agreement) (9)
+## Proofreading (typos, punctuation, agreement) (7)
 
 ### JUD-P001 · md · §12 · proposed · build: applied
 
@@ -1617,30 +1617,6 @@
 > | Federation professionals | Allocate communal funding | Which donor preferences shape which programmes | Avoid controversy |
 
 *Reason:* Subject-verb agreement; doubled 'to'. 'programmes' left as written (spelling noted in discrepancies).
-
-### JUD-N001 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 3 documented cases on this page
-
-**After**
-
-> These are not hypotheticals. Three documented cases on this page
-
-*Reason:* Numeral at the start of a sentence spelled out.
-
-### JUD-N002 · narration · §22 · proposed · build: applied
-
-**Before**
-
-> This page covers Israel, United States and United Kingdom.
-
-**After**
-
-> This page covers Israel, the United States and the United Kingdom.
-
-*Reason:* Country names need 'the'.
 
 ### JUD-N003 · narration · §25 · proposed · build: applied
 
