@@ -136,7 +136,8 @@ PQ_TEXT_CATHOLICISM = {
 # content/sacred-divide/pullquotes/<id>.json (verbatim sentences from that volume) and gets none if the file is absent.
 _PQ_RID = [a for a in sys.argv[1:] if not a.startswith('--')][:1]
 _PQ_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'content/sacred-divide/pullquotes', (_PQ_RID[0] if _PQ_RID else '') + '.json')
-PQ_TEXT = PQ_TEXT_CATHOLICISM if _PQ_RID[:1] == ['catholicism'] else (json.load(open(_PQ_FILE, encoding='utf-8')) if os.path.exists(_PQ_FILE) else {})
+PQ_TEXT = dict(PQ_TEXT_CATHOLICISM) if _PQ_RID[:1] == ['catholicism'] else {}
+if os.path.exists(_PQ_FILE): PQ_TEXT.update(json.load(open(_PQ_FILE, encoding='utf-8')))   # per-volume file overrides stale entries
 PQ_PLACE = json.loads(os.environ['PQ_PLACE']) if os.environ.get('PQ_PLACE') else {}   # slug -> child index (or -1 = end of section)
 
 def index_children(inner, slug):
