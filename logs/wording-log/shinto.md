@@ -1,8 +1,8 @@
 # Wording log — shinto
 
-140 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/shinto.json`, then rebuild. Nothing else changes.
+138 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/shinto.json`, then rebuild. Nothing else changes.
 
-## Proofreading (typos, punctuation, agreement) (9)
+## Proofreading (typos, punctuation, agreement) (7)
 
 ### SHN-P001 · md · §1 · proposed · build: applied
 
@@ -87,30 +87,6 @@
 > | Corporate facilities managers | Book purification and groundbreaking rites | That refusal would be awkward rather than illegal | Keep the tradition | Require staff attendance |
 
 *Reason:* Doubled 'Is asked to' + 'To' / 'Could refuse' + 'To' removed; verbs agree with the plural role; the column headers carry the sense.
-
-### SHN-N001 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 3 documented cases on this page carry a court, regulator or inquiry record.
-
-**After**
-
-> These are not hypotheticals. Three documented cases on this page carry a record: two carry a court record and one a press record.
-
-*Reason:* Numeral began a sentence; the third case (the Tomioka killing) rests on press reporting, not a court, regulator or inquiry record.
-
-### SHN-N004 · narration · §22 · proposed · build: applied
-
-**Before**
-
-> This page covers Japan — the Jinja Honcho network and Japan — Yasukuni and the state.
-
-**After**
-
-> This page covers Japan only, in two cards: the Jinja Honcho network, and Yasukuni and the state.
-
-*Reason:* Run-together card titles read as a single list.
 
 ## Fragments completed into sentences (99)
 

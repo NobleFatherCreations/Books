@@ -1,6 +1,6 @@
 # Wording log — new-age
 
-167 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/new-age.json`, then rebuild. Nothing else changes.
+165 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/new-age.json`, then rebuild. Nothing else changes.
 
 ## Fragments completed into sentences (101)
 
@@ -1576,7 +1576,7 @@
 
 *Reason:* First use of 'angel numbers', glossed.
 
-## Proofreading (typos, punctuation, agreement) (10)
+## Proofreading (typos, punctuation, agreement) (8)
 
 ### NEW-P001 · md · §5 · proposed · build: applied
 
@@ -1661,30 +1661,6 @@
 > | Affiliate marketers | They sell the funnel to their own audience. | They see the conversion data and the refund requests. | They are asked to post the testimonial. | They could refuse to promote a programme they have not completed. |
 
 *Reason:* Cells were fragments, and the singular verbs ('Delivers', 'Runs') disagreed with plural subjects; the header 'Is asked to' plus a cell beginning 'To' also doubled the word. Each cell now stands alone.
-
-### NEW-N001 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 3 documented cases on this page
-
-**After**
-
-> These are not hypotheticals. Three documented cases on this page
-
-*Reason:* Numeral at the start of a clause spelled out.
-
-### NEW-N002 · narration · §22 · proposed · build: applied
-
-**Before**
-
-> This page covers United States and Peru and retreat destinations.
-
-**After**
-
-> This page covers the United States, and Peru and other retreat destinations.
-
-*Reason:* Country name needs 'the'; the card title read as a list item.
 
 ### NEW-N003 · narration · §23 · proposed · build: applied
 

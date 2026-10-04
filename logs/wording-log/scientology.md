@@ -1,6 +1,6 @@
 # Wording log — scientology
 
-182 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/scientology.json`, then rebuild. Nothing else changes.
+180 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/scientology.json`, then rebuild. Nothing else changes.
 
 ## Specialist terms glossed on first use (32)
 
@@ -1734,7 +1734,7 @@
 
 *Reason:* The parenthesis was a list of fragments.
 
-## Proofreading (typos, punctuation, agreement) (13)
+## Proofreading (typos, punctuation, agreement) (11)
 
 ### SCI-P001 · md · §5 · proposed · build: applied
 
@@ -1855,30 +1855,6 @@
 > That distinction is the whole content of the line on who can compel an answer.
 
 *Reason:* 'The compel line' referred to a layout label that is not on this page.
-
-### SCI-N001 · narration · §22 · proposed · build: applied
-
-**Before**
-
-> This page covers United States and Germany.
-
-**After**
-
-> This page covers the United States and Germany.
-
-*Reason:* Country name needs 'the'.
-
-### SCI-N002 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 4 documented cases on this page
-
-**After**
-
-> These are not hypotheticals. Four documented cases on this page
-
-*Reason:* A sentence should not start with a numeral.
 
 ### SCI-N003 · narration · §3 · proposed · build: applied
 

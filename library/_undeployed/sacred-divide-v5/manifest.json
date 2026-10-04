@@ -8,6 +8,15 @@
   "version": "v4",
   "checked": "2026-09-27"
  },
+ "judaism": {
+  "title": "Judaism",
+  "family": "Judaism",
+  "file": "judaism-expanded.pdf",
+  "pages": 152,
+  "bytes": 1644723,
+  "version": "v4",
+  "checked": "2026-09-27"
+ },
  "protestant-evangelical": {
   "title": "Protestant / Evangelical Christianity",
   "family": "Christianity",

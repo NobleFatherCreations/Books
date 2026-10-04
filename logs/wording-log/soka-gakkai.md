@@ -1,6 +1,6 @@
 # Wording log — soka-gakkai
 
-154 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/soka-gakkai.json`, then rebuild. Nothing else changes.
+152 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/soka-gakkai.json`, then rebuild. Nothing else changes.
 
 ## Fragments completed into sentences (128)
 
@@ -1935,7 +1935,7 @@
 
 *Reason:* Loop was one compressed line. It now shows the mechanism step by step, the techniques that supply it, why it closes, where it could be broken and one example. Every factual step is taken from this volume and points to the section where it is recorded; the break-point paragraph is labelled as analysis. Technique links point to #techniques because section 12 here is a table without per-technique anchors.
 
-## Proofreading (typos, punctuation, agreement) (6)
+## Proofreading (typos, punctuation, agreement) (4)
 
 ### SOK-P001 · md · §15 · proposed · build: applied
 
@@ -1972,30 +1972,6 @@
 > — electoral mobilization; newspaper subscriptions; the Women's Division.
 
 *Reason:* Build instruction 'Cite page numbers at import.' was printed in the Sources list. Removed; the missing page numbers are recorded as a discrepancy.
-
-### SOK-P004 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 2 documented cases on this page carry a court, regulator or inquiry record.
-
-**After**
-
-> These are not hypotheticals. Two documented cases on this page carry an academic or government record.
-
-*Reason:* Numeral starting a sentence spelled out. The template said the cases carry a court, regulator or inquiry record; the two cases here are tagged ACADEMIC SOURCE and GOVERNMENT REPORT, and no adjudicated case was found (section 19).
-
-### SOK-P005 · narration · §22 · proposed · build: applied
-
-**Before**
-
-> This page covers Japan, United Kingdom and France.
-
-**After**
-
-> This page covers Japan, the United Kingdom and France.
-
-*Reason:* Country name needs 'the' mid-sentence.
 
 ### SOK-P006 · narration · §23 · proposed · build: applied
 

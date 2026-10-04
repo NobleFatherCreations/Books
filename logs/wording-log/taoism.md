@@ -1,6 +1,6 @@
 # Wording log — taoism
 
-147 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/taoism.json`, then rebuild. Nothing else changes.
+145 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/taoism.json`, then rebuild. Nothing else changes.
 
 ## Fragments completed into sentences (89)
 
@@ -1270,7 +1270,7 @@
 
 *Reason:* First use of 'yang' glossed.
 
-## Proofreading (typos, punctuation, agreement) (6)
+## Proofreading (typos, punctuation, agreement) (4)
 
 ### TAO-P001 · md · §5 · proposed · build: applied
 
@@ -1319,30 +1319,6 @@
 > If the master praises a student's receptivity while the student obeys and calls the same person blocked when they refuse
 
 *Reason:* Missing subject: 'while obedient' left unclear who is obedient.
-
-### TAO-N001 · narration · §22 · proposed · build: applied
-
-**Before**
-
-> This page covers China and United Kingdom and the West.
-
-**After**
-
-> This page covers China, the United Kingdom and the West.
-
-*Reason:* Country names need 'the'; list punctuation.
-
-### TAO-N003 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 3 documented cases on this page carry a court, regulator or inquiry record.
-
-**After**
-
-> These are not hypotheticals. Three documented cases on this page carry a press record.
-
-*Reason:* Numeral began a sentence; the three cases rest on news reports (sources 1, 2, 10, 11), not on a court, regulator or inquiry record.
 
 ## Sentences completed or clarified (5)
 

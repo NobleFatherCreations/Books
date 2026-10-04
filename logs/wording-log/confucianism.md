@@ -1,6 +1,6 @@
 # Wording log — confucianism
 
-144 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/confucianism.json`, then rebuild. Nothing else changes.
+143 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/confucianism.json`, then rebuild. Nothing else changes.
 
 ## Fragments completed into sentences (95)
 
@@ -1392,7 +1392,7 @@
 
 *Reason:* The tradition has no membership (section 7).
 
-## Proofreading (typos, punctuation, agreement) (4)
+## Proofreading (typos, punctuation, agreement) (3)
 
 ### CON-P001 · md · §10 · proposed · build: applied
 
@@ -1429,18 +1429,6 @@
 > *No one is ever responsible, because the authority is attributed to filial duty, the ancestors, or the classics, none of which is available for cross-examination.*
 
 *Reason:* Shared-template technique definition named God as the authority; Confucianism has no deity and no institution (section 7). The technique name and number are unchanged.
-
-### CON-N001 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 3 documented cases on this page
-
-**After**
-
-> These are not hypotheticals. Three documented cases on this page
-
-*Reason:* Numeral at the start of a clause spelled out.
 
 ## Loops expanded (section 13) (8)
 

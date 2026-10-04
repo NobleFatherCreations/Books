@@ -1,6 +1,6 @@
 # Wording log — buddhism
 
-142 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/buddhism.json`, then rebuild. Nothing else changes.
+141 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/buddhism.json`, then rebuild. Nothing else changes.
 
 ## Fragments completed into sentences (73)
 
@@ -1274,7 +1274,7 @@
 
 *Reason:* Card field completed; first use of 'ACNC', glossed.
 
-## Proofreading (typos, punctuation, agreement) (11)
+## Proofreading (typos, punctuation, agreement) (10)
 
 ### BUD-P001 · md · §7 · proposed · build: applied
 
@@ -1395,18 +1395,6 @@
 > the costs are the loss of community and, for residents, of housing.
 
 *Reason:* Elliptical clause completed.
-
-### BUD-N001 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 4 documented cases on this page
-
-**After**
-
-> These are not hypotheticals. Four documented cases on this page
-
-*Reason:* Numeral at the start of a clause spelled out.
 
 ## Evidence-grade notes matched to their technique (20)
 

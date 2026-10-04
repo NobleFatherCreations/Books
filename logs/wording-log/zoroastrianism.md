@@ -1,6 +1,6 @@
 # Wording log — zoroastrianism
 
-122 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/zoroastrianism.json`, then rebuild. Nothing else changes.
+120 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/zoroastrianism.json`, then rebuild. Nothing else changes.
 
 ## Fragments completed into sentences (76)
 
@@ -1069,7 +1069,7 @@
 
 *Reason:* First use of 'Special Marriage Act'.
 
-## Proofreading (typos, punctuation, agreement) (5)
+## Proofreading (typos, punctuation, agreement) (3)
 
 ### ZOR-P001 · md · §12 · proposed · build: applied
 
@@ -1106,30 +1106,6 @@
 > to explain why the descent rule tracks the sex of the parent.
 
 *Reason:* 'Ancestor rule' is not a term used anywhere else on the page; the rule is the descent rule (section 14).
-
-### ZOR-N001 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 4 documented cases
-
-**After**
-
-> These are not hypotheticals. Four documented cases
-
-*Reason:* Numeral at the start of a sentence spelled out.
-
-### ZOR-N002 · narration · §22 · proposed · build: applied
-
-**Before**
-
-> This page covers India, Iran and United Kingdom.
-
-**After**
-
-> This page covers India, Iran and the United Kingdom.
-
-*Reason:* Country name needs 'the'.
 
 ## Evidence-grade notes matched to their technique (21)
 

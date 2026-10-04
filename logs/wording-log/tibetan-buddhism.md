@@ -1,6 +1,6 @@
 # Wording log — tibetan-buddhism
 
-122 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/tibetan-buddhism.json`, then rebuild. Nothing else changes.
+120 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/tibetan-buddhism.json`, then rebuild. Nothing else changes.
 
 ## Fragments completed into sentences (69)
 
@@ -1160,7 +1160,7 @@
 
 *Reason:* First use of guru yoga, glossed.
 
-## Proofreading (typos, punctuation, agreement) (7)
+## Proofreading (typos, punctuation, agreement) (5)
 
 ### TIB-P001 · md · §18 · proposed · build: applied
 
@@ -1227,30 +1227,6 @@
 > | Monastery teachers in exile institutions | Educate recognized children removed from families | Which children are struggling and cannot leave | Maintain the system | To accept a boarding institution with no external safeguarding |
 
 *Reason:* Verb agreement (plural subject); header "Is asked to" already supplies "to".
-
-### TIB-P006 · narration · §22 · proposed · build: applied
-
-**Before**
-
-> This page covers China (Tibet), India (exile), United Kingdom and North America.
-
-**After**
-
-> This page covers China (Tibet), India (exile), the United Kingdom and North America.
-
-*Reason:* Country name needs "the".
-
-### TIB-P007 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 3 documented cases on this page
-
-**After**
-
-> These are not hypotheticals. Three documented cases on this page
-
-*Reason:* Numeral at the start of a clause spelled out.
 
 ## Evidence-grade notes matched to their technique (21)
 

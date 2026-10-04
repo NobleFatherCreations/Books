@@ -1,6 +1,6 @@
 # Wording log — protestant-evangelical
 
-203 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/protestant-evangelical.json`, then rebuild. Nothing else changes.
+201 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/protestant-evangelical.json`, then rebuild. Nothing else changes.
 
 ## Specialist terms glossed on first use (35)
 
@@ -1497,7 +1497,7 @@
 
 *Reason:* Fragments completed.
 
-## Proofreading (typos, punctuation, agreement) (15)
+## Proofreading (typos, punctuation, agreement) (13)
 
 ### PE-P001 · md · §5 · proposed · build: applied
 
@@ -1654,30 +1654,6 @@
 > | Christian school teachers | Educate the next cohort | Which conduct clauses are enforced and against whom | Model the standard | Teach a curriculum they know to be factually false |
 
 *Reason:* Subject-verb agreement; doubled 'to'.
-
-### PE-N001 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 6 documented cases on this page carry a court, regulator or inquiry record.
-
-**After**
-
-> These are not hypotheticals. Six documented cases on this page rest on a court, regulator, inquiry or investigative record.
-
-*Reason:* Number spelled out; the case count is now six (Willow Creek added), and "court, regulator or inquiry record" overstated the Mars Hill and RZIM cases, which rest on investigative reporting and a commissioned report (D-F31).
-
-### PE-N002 · narration · §22 · proposed · build: applied
-
-**Before**
-
-> This page covers United States, United Kingdom and Australia.
-
-**After**
-
-> This page covers the United States, the United Kingdom and Australia.
-
-*Reason:* Country names need 'the'.
 
 ### PE-N003 · narration · §9 · proposed · build: applied
 
