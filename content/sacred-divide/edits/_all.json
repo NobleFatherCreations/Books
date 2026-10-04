@@ -157,5 +157,15 @@
   "after": "A small raised number in the text links to the matching item in this religion's Sources, near the end.",
   "reason": "The bracketed example was converted into a link and printed blank in the PDF; the sentence now describes the raised number without an inline example.",
   "status": "proposed"
+ },
+ {
+  "id": "ALL-F07",
+  "scope": "md",
+  "type": "proof",
+  "count": "any",
+  "before": "Vetted private communities",
+  "after": "Local affiliate support groups (listed on its site)",
+  "reason": "Ex-Muslims of North America says it no longer runs support communities directly; its site lists local affiliate groups (checked 2026-10-04 in the Ahmadiyya fix pass). Shared help-line row.",
+  "status": "proposed"
  }
 ]

@@ -1,3 +1,5 @@
+Status 2026-10-03: fixes applied, see ahmadiyya-FIXLOG.md (deferred items remain open).
+
 # DISCREPANCIES — Ahmadiyya, awaiting the owner's decision
 
 Format: **[Location]** what is wrong → what it should be (proposed wording) → why it matters. Nothing below has been changed in the text unless the item says so; every open item touches the frozen layer (numbers, dates, receipts, grades, quotations, source entries) or asserts a claim the wording pass may not alter.

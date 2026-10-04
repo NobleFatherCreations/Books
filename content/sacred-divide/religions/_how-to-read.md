@@ -40,5 +40,5 @@ Bracketed labels such as [OFFICIAL POLICY] name the kind of source a claim rests
 
 ## Citations {#citations}
 
-A number in brackets, such as [12], links to item 12 in this religion's Sources, near the end. Every source was checked, and the date of the last check is shown at the top.
+A small raised number in the text links to the matching item in this religion's Sources, near the end. Every source was checked, and the date of the last check is shown at the top.
 

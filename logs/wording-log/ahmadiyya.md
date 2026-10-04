@@ -1,6 +1,6 @@
 # Wording log — ahmadiyya
 
-138 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/ahmadiyya.json`, then rebuild. Nothing else changes.
+136 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/ahmadiyya.json`, then rebuild. Nothing else changes.
 
 ## Fragments completed into sentences (103)
 
@@ -1418,7 +1418,7 @@
 
 *Reason:* Cells completed; first use of 'AMA UK', glossed.
 
-## Proofreading (typos, punctuation, agreement) (11)
+## Proofreading (typos, punctuation, agreement) (9)
 
 ### AHM-P001 · md · §7 · proposed · build: applied
 
@@ -1529,30 +1529,6 @@
 >  (country chapters).
 
 *Reason:* An editor's to-do note was printing in the source list; removed. The source entry is unchanged.
-
-### AHM-N001 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 5 documented cases on this page
-
-**After**
-
-> These are not hypotheticals. Five documented cases on this page
-
-*Reason:* Numeral at the start of a clause spelled out. The count itself is listed in DISCREPANCIES (section 19 has four cases).
-
-### AHM-N002 · narration · §22 · proposed · build: applied
-
-**Before**
-
-> This page covers Pakistan, United Kingdom and Indonesia.
-
-**After**
-
-> This page covers Pakistan, the United Kingdom and Indonesia.
-
-*Reason:* Country name needs 'the'.
 
 ## Loops expanded (section 13) (8)
 

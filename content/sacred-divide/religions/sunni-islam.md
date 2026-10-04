@@ -1529,7 +1529,7 @@ This is practical guidance, not legal advice. Where you are matters more than wh
 3. **Secure documents and money first.** Keep your passport, identity documents and a bank account in your own name; in Saudi Arabia, women over 21 may now hold their own passport [25].
 4. **Know your family-law exposure.** Marriage and custody often follow religion: a court dissolved one scholar's marriage for apostasy, and Malaysia routes the question to syariah courts [27][31]. Take legal advice before any disclosure if children are involved.
 5. **Plan for your safety if honour is invoked.** Specialist services exist for forced marriage and honour-based abuse [44][46].
-6. **Find your people quietly.** Vetted private communities for ex-Muslims exist, and so do helplines for Muslims who are staying [42][43][45].
+6. **Find your people quietly.** Local affiliate support groups (listed on its site) for ex-Muslims exist, and so do helplines for Muslims who are staying [42][43][45].
 
 ## 25. Where to get help {#help}
 
@@ -1540,7 +1540,7 @@ Checked 2026-09-27. Numbers and services change; check the organization's own si
 | **Dubai Foundation for Women and Children** | Domestic violence, child abuse, trafficking; emergency shelter | Dubai, UAE | 24-hour helpline **800111**; SMS 5111 [46] |
 | **Karma Nirvana** | Honour-based abuse and forced marriage | UK | Helpline **0800 5999 247** [44] |
 | **Faith to Faithless** (Humanists UK) | People leaving high-control religion, including Islam | UK | Helpline **0800 448 0748** (freephone; set hours, see website) and peer support [42] |
-| **Ex-Muslims of North America** | Vetted private communities; emergency fund | US, Canada | Online application [43] |
+| **Ex-Muslims of North America** | Local affiliate support groups (listed on its site); emergency fund | US, Canada | Online application [43] |
 | **Naseeha** | Muslim peer mental-health helpline (for people staying, too) | North America | **1-866-627-3342**, call or chat, 24/7 [45] |
 | **Sisters in Islam — Telenisa** | Free legal advice on Islamic family law for women | Malaysia | Tue–Thu 10:00–17:00, phone +603 7960 3357 [41] |
 | **Musawah** | Equality in Muslim family law; research and advocacy | Global | Online [40] |
