@@ -31155,6 +31155,324 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "BUDF-D001",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D002",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D003",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D004",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D005",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D006",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D007",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D008",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D009",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D010",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D011",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D012",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D013",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D014",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D015",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D016",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D017",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D018",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D019",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D020",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D021",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D022",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D023",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D024",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D025",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D026",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D028",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D029",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D030",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D031",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D032",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D033",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D034",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D035",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D036",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D037",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D038",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D039",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D040",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D041",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D042",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D045",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D047",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D048",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D049",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D050",
+   "scope": "md",
+   "found": 2,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D051",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D052",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D053",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D054",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D055",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D056",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D057",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "tibetan-buddhism": [

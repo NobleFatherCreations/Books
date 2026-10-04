@@ -1,3 +1,5 @@
+Status 2026-10-03: fixes applied, see buddhism-FIXLOG.md (deferred items remain open).
+
 # DISCREPANCIES — Buddhism, awaiting the owner's decision
 
 Format: **[Location]** what is wrong → what it should be (proposed wording) → why it matters. Nothing below has been changed in the text; every item touches the frozen layer (numbers, receipts, grades, source entries, case tags), moves loop text, or asserts a claim the wording pass may not soften.
