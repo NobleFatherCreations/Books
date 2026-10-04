@@ -5,7 +5,7 @@ family: "Dharmic"
 family_id: dharmic
 family_members: [hinduism, hare-krishna, sikhism, jainism]
 version: v4
-checked: 2026-09-27
+checked: 2026-10-03
 sections_filled: 27/27
 missing: []
 partial: []
@@ -21,12 +21,12 @@ partial: []
 | Size | Hinduism has ~1.1–1.2 billion adherents. [ACADEMIC SOURCE: Pew, Indian census] |
 | Who's in charge | The Shankaracharya seats, four historic monastic thrones (mathas), carry immense prestige and no command, and no office speaks for the tradition. |
 | Chosen by / removable by | Lineage designation / No removal procedure is recorded. |
-| Money in one line | The money sits in temple economies. India's richest temples (Tirupati, Padmanabhaswamy, Shirdi) hold assets in the billions; many major temples are administered by state governments — governments literally managing and drawing on temple wealth. [FINANCIAL RECORD / OFFICIAL POLICY: state temple endowment acts] |
+| Money in one line | The money sits in temple economies. Tirupati, one of India's richest temples, recorded a net worth of ₹2.26 lakh crore in its own 2022 white paper (section 9); many major temples are administered by state governments — governments literally managing and drawing on temple wealth. [FINANCIAL RECORD / OFFICIAL POLICY: state temple endowment acts] |
 | Leaving in one line | Caste operates as a birth-assigned enforcement grid; inter-caste marriage still triggers ostracism and violence in documented cases. [GOVERNMENT REPORT / COURT RECORD: honor-killing prosecutions] |
 | The unanswered question | Untouchability has been unconstitutional since 1950. Which religious authority has ever taken responsibility for what doctrine sanctified? |
-| Evidence | Seven of the 30 techniques are sourced to a named document. The grades are Cultural 21, Taught 6, Documented 2 and Codified 1. |
+| Evidence | Two of the 30 techniques are sourced to a named document. The grades are Cultural 24, Taught 6, Documented 0 and Codified 0. |
 | Family | Dharmic — hinduism, hare-krishna, sikhism, jainism |
-| Last checked | 2026-09-27 |
+| Last checked | 2026-10-03 |
 :::
 
 ### Disclosure scorecard
@@ -83,7 +83,7 @@ Untouchability has been unconstitutional since 1950. Which religious authority h
 
 **What is true in it.** There genuinely is no central authority, no membership, and no body that can excommunicate anyone. And caste practice does vary enormously by region and community.
 
-**The answer.** Decentralization is a deniability structure, and the codex says so rather than pretending otherwise. On caste: the text that ranks people is scripture and the constitution that unranked them is not. The anti-caste critique here is Kabir's and Basava's (medieval devotional poet-saints) and Ambedkar's (B. R. Ambedkar, the jurist who chaired the drafting committee of India's constitution), all of which predate any Western reading.
+**The answer.** Decentralization is a deniability structure, and the codex says so rather than pretending otherwise. On caste: the text that ranks people is scripture and the constitution that unranked them is not. The anti-caste critique here is Kabir's and Basava's (medieval devotional poet-saints), which predate any Western reading, and Ambedkar's (B. R. Ambedkar, the jurist who chaired the drafting committee of India's constitution), made from inside India.
 
 ::: cites
 Sources for this section: [8]
@@ -131,19 +131,19 @@ At Mahad in 1927 Ambedkar publicly burned a copy of the Manusmriti. Five years l
 
 Article 17 of the Indian Constitution abolished untouchability and made its practice punishable. It was drafted under Ambedkar's chairmanship of the drafting committee.
 
-**Why it matters.** The state acted and no religious authority did. Seventy-five years later, matrimonial platforms still sort by caste — which is why this page's compel column points at courts and endowment departments rather than at any temple.
+**Why it matters.** The state acted, and no religious authority is recorded on this page as acting. That is why this page's compel column points at courts and endowment departments rather than at any temple.
 :::
 
 ::: card
 #### 2017–2018 — A guru is convicted, and a city burns
 
-Gurmeet Ram Rahim Singh of Dera Sacha Sauda (a religious sect based in Sirsa, Haryana) was convicted of rape in 2017, and in 2019 of conspiring to murder a journalist — a conviction overturned on appeal in 2026 and now before the Supreme Court. The verdict triggered riots with dozens of deaths. No religious body had ever examined him.
+Gurmeet Ram Rahim Singh of Dera Sacha Sauda (a religious sect based in Sirsa, Haryana, that draws on Sikh, Hindu and other traditions) was convicted of rape in 2017, and in 2019 of conspiring to murder a journalist — a conviction overturned on appeal in 2026 and now before the Supreme Court. The verdict triggered riots in which dozens died [25]. No religious body is recorded on this page as having examined him.
 
 **Why it matters.** A criminal court was the first institution in decades with both the standing and the will to act. That is not a story about Indian courts; it is a story about the absence of anything above a guru.
 :::
 
 ::: cites
-Sources for this section: [1] [4] [13]
+Sources for this section: [1] [4] [13] [24] [25]
 :::
 
 ## 6. Branches & variants {#branches}
@@ -184,7 +184,7 @@ No apex, by design — which is offered as a defense and reads, on inspection, a
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| The Shankaracharya seats | The four historic thrones carry immense prestige and no command, and no office speaks for the tradition. | Each seat is filled by lineage designation. | No removal procedure is recorded. |
+| The Shankaracharya seats | The four historic thrones carry immense prestige and no command, and no office speaks for the tradition. Occupancy of the Jyotir Math seat has been disputed in court since 2020, and in October 2022 the Supreme Court stayed one claimant's installation [32]. | Each seat is filled by lineage designation. | No removal procedure is recorded. |
 | The state temple boards | Major temple treasuries — Tirupati among them — are administered by government-appointed boards under state endowment acts: politicians appointing the managers of the gods' money | State governments appoint the boards. | State governments can remove them, at the next election, which is more removability than most chairs in this codex and worth saying plainly. |
 | The guru thrones | Individual empires with nothing above the founder. The rape convictions of Gurmeet Ram Rahim Singh and Asaram Bapu came from criminal courts — because no religious authority exists that could have acted | A guru takes the throne by self-founding and devotee acclaim. | Only a criminal court can remove a guru, and only after the harm. |
 | The household | The senior generation, enforcing marriage, caste, and ritual compliance | Seniority is set by birth order. | Only time removes a household head. |
@@ -200,13 +200,13 @@ When a guru harms, there is no chair above him to appeal to. The first authority
 | State temple endowment departments | These are government administrations. | Their executive officers are appointed by the state. | They administer India's wealthiest temples and their revenues. | Your offering is budgeted by a political administration. | [OFFICIAL POLICY: state endowment acts] |
 | Tirupati's governing board (TTD) | The trust is a temple trust. | Its board is appointed by the state government. | It holds assets in the billions, gold reserves, and tiered darshan (the act of seeing a deity) pricing. | The pricing decides what a better view of the deity costs you. | [FINANCIAL RECORD] |
 | Hereditary priesthoods | This is a ritual monopoly. | The holders are priestly families, by birth. | They hold the exclusive right to perform the rites of your birth, marriage and death. | Every life passage is priced by inheritance. | [ACADEMIC SOURCE] |
-| Convicted godmen and their organizations | The type is individual and adjudicated. | Leaders of major movements have been publicly convicted of rape; murder convictions in one case were overturned on appeal (2024, 2026). | They hold corporate-scale operations with political protection and bloc-vote leverage. | They are proof that devotion at scale defeats scrutiny until a court intervenes. | [COURT RECORD: Indian court judgments] |
+| Convicted godmen and their organizations | The type is individual and adjudicated. | Leaders of major movements have been publicly convicted of rape; murder convictions in two cases were overturned on appeal (2024, 2026). | They hold corporate-scale operations with political protection and bloc-vote leverage. | They are proof that devotion at scale defeats scrutiny until a court intervenes. | [COURT RECORD: Indian court judgments] |
 | Guru-branded consumer conglomerates | These are commercial businesses. | The holders are founder-gurus and their trusts. | They hold food, medicine, cosmetics and media businesses, sold on devotional authority. | They supply what is in your kitchen cupboard and your medicine cabinet. | [FINANCIAL RECORD: corporate filings] |
 | Religious-nationalist political organizations | These are political organizations. | The holders are organizational leaderships. | They hold religious identity converted into electoral majority and a definition of national belonging. | Their definition of belonging bears on whether your neighbor counts as a citizen. | [ACADEMIC SOURCE / INVESTIGATIVE REPORT] |
 | Caste councils (khap and jati panchayats) | This is informal enforcement. | The holders are local elders. | They hold a marriage veto and the power of ostracism, and in documented cases violence, with no legal standing. | They decide whom your daughter may marry. | [GOVERNMENT REPORT: honor-killing prosecutions] |
 
 ::: cites
-Sources for this section: [1] [4] [10] [11]
+Sources for this section: [1] [4] [10] [11] [32]
 :::
 
 ## 8. Law & state here {#law}
@@ -214,10 +214,10 @@ Sources for this section: [1] [4] [10] [11]
 | Country | What the law does | The accountability question |
 |---|---|---|
 | **India — caste** | The Constitution abolished untouchability (Article 17, 1950) [8]. | Dowry deaths still ran to 6,450 in 2022 [9]. |
-| **India — temples** | Many large temples are run by state-appointed boards; Tirupati's trust published a white paper in 2022 [10] | Sabarimala's ban on women of menstruating age was struck down in 2018; a nine-judge bench reserved judgment in 2026 [5] |
+| **India — temples** | Many large temples are run by state-appointed boards; Tirupati's trust published a white paper in 2022 [10] | Sabarimala's ban on women of menstruating age was struck down in 2018; a nine-judge bench reserved judgment on 14 May 2026, and the verdict is expected in October 2026 [5][26] |
 | **India — superstition** | Maharashtra's anti-superstition ordinance came four days after Narendra Dabholkar's murder in 2013 [18] | Two men were convicted of his murder in 2024; in August 2026 the High Court suspended one's life sentence and granted bail [18][19] |
 | **United States — labour** | Federal forced-labour law is the legal basis of the claims [6][7]. | A 2021 lawsuit said the BAPS temple in New Jersey was built with forced labour; federal prosecutors closed their investigation without charges in 2025, and the civil case continues [6][7] |
-| **United States — caste** | Seattle banned caste discrimination in employment in 2023, the first US city to do so [16] | California's governor vetoed a statewide ban as "unnecessary" in October 2023 [15] |
+| **United States — caste** | Seattle banned caste discrimination in employment, housing and public accommodation in 2023, the first US city to do so [16][28] | California's governor vetoed a statewide ban as "unnecessary" in October 2023 [15] |
 
 ### Who can compel an answer
 
@@ -227,7 +227,7 @@ Three routes can compel an answer: state endowment departments and the Right to 
 
 ### Where it comes from
 
-- Money comes from temple economies. India's richest temples (Tirupati, Padmanabhaswamy, Shirdi) hold assets in the billions; many major temples are administered by state governments — governments literally managing and drawing on temple wealth. [FINANCIAL RECORD / OFFICIAL POLICY: state temple endowment acts]
+- Money comes from temple economies. Tirupati, one of India's richest temples, recorded a net worth of ₹2.26 lakh crore in its own 2022 white paper [10]; many major temples are administered by state governments — governments literally managing and drawing on temple wealth. [FINANCIAL RECORD / OFFICIAL POLICY: state temple endowment acts]
 - Guru organizations draw on donation empires, ashram real estate, branded products and diaspora funding. Documented collapses reveal internal economies of total control: Gurmeet Ram Rahim Singh was convicted of rape in 2017; his two murder convictions were overturned on appeal in 2024 and 2026, the latter now before the Supreme Court. Asaram’s life sentence for raping a minor was upheld in 2026. [COURT RECORD]
 - Money also comes from ritual fees, pilgrimage economies and caste-linked ritual monopolies.
 
@@ -255,18 +255,6 @@ Three routes can compel an answer: state endowment departments and the Right to 
 :::
 
 ::: card
-#### Pilgrimage economy
-
-**Source.** The money comes from a religious obligation with a fixed destination.
-
-**Path.** Licensed operators → Host state revenue → Concession holders
-
-**Disclosed.** Visa quotas and pricing are disclosed.
-
-**Hidden.** Margins and concession awards stay hidden.
-:::
-
-::: card
 #### Dera and ashram economy
 
 **Source.** The money comes from devotee giving and unpaid service.
@@ -278,32 +266,8 @@ Three routes can compel an answer: state endowment departments and the Right to 
 **Hidden.** Asset ownership and personal use stay hidden.
 :::
 
-::: card
-#### Ritual fee ladder
-
-**Source.** Life passages — birth, marriage, death, blessing
-
-**Path.** Officiant → Parish or temple → Diocesan or central share
-
-**Disclosed.** Suggested offerings
-
-**Hidden.** Negotiation, waiver practice, and who is refused
-:::
-
-::: card
-#### Political mobilization
-
-**Source.** Congregational trust and mailing lists
-
-**Path.** Advocacy or voter-guide operation → Party and donor infrastructure → Legislative outcomes
-
-**Disclosed.** Issue positions
-
-**Hidden.** Data sharing and coordination
-:::
-
 ::: cites
-Sources for this section: [1] [4] [10]
+Sources for this section: [1] [4] [10] [27]
 :::
 
 ### Money in numbers
@@ -315,7 +279,7 @@ Sources for this section: [1] [4] [10]
  "cite":[14]}
 ```
 
-- **Tirupati:** the temple trust's own 2022 white paper records a net worth of ₹2.26 lakh crore (a lakh crore is one trillion rupees) and 10.25 tonnes of gold on deposit [10].
+- **Tirupati:** the temple trust's own 2022 white paper records a net worth of ₹2.26 lakh crore (a lakh crore is one trillion rupees) and 10.25 tonnes of gold on deposit [10] (Business Today's report of the same white paper gives 10.3 tonnes [27]).
 - **BAPS UK, 2024:** donations were £15.39m of £16.22m income, and £15.83m was spent [14].
 - **Guru organizations** publish little; their finances surface through courts [1][4].
 
@@ -324,7 +288,7 @@ Sources for this section: [1] [4] [10]
 ::: card
 #### Caste as birth-assigned hierarchy
 
-**Origin.** It emerged in the Vedic and post-Vedic period and was codified textually in Dharmashastra literature, including the Manusmriti (c. 200 BCE–200 CE). [ACADEMIC SOURCE]
+**Origin.** It emerged in the Vedic and post-Vedic period and was codified textually in Dharmashastra literature, including the Manusmriti (2nd–3rd century CE, per [12]). [ACADEMIC SOURCE]
 
 **What it was for.** It was an occupational and ritual division of labor in an agrarian society, sanctified to make it permanent and to make its permanence feel cosmic rather than political.
 
@@ -352,7 +316,7 @@ Sources for this section: [1] [4] [10]
 
 **What it was for.** Oral transmission of difficult knowledge required trust and long apprenticeship in a village-scale relationship with community visibility.
 
-**Why that reason expired.** Scaled to organizations with millions of followers, real estate empires, and political protection, the same surrender means no follower has standing to question anything. Multiple godmen have been convicted of rape while devotees insisted it was impossible. [COURT RECORD]
+**Why that reason expired.** Scaled to organizations with mass followings, real estate empires, and political protection, the same surrender means no follower has standing to question anything. Multiple godmen have been convicted of rape while devotees insisted it was impossible. [COURT RECORD]
 
 **Who benefits now.** Gurus and their families benefit, running corporate-scale operations with donation income, no audit, and vote banks that politicians court.
 :::
@@ -668,7 +632,7 @@ Question a guru and it is your ego, your bad karma, your Western contamination. 
 
 **The counter.** Misrepresentation exists, but diversity cannot be used as an escape hatch for abuse. If every internal critique is dismissed as anti-Hindu or Western corruption, then identity has replaced accountability.
 
-**Evidence grade.** [[Documented]] Rape convictions of high-profile godmen, after sustained devotee denial. *(sourced)*
+**Evidence grade.** [[Cultural]] Calling a guru's abuse accusation "ego" or "testing", and labeling critics anti-Hindu or Westernized, is a customary reply used by families, communities and guru circles; no body directs it. The godmen's rape convictions are on the court record (section 19), but that record does not itself show the reply.
 :::
 
 ::: tactic n=13
@@ -738,7 +702,7 @@ Caste and family determine marriage, employment, and social standing. In guru mo
 
 **The counter.** Decentralized control is still control. If parents, caste, priest, astrologer, guru, ancestors, and karma all point toward the same submission, the lack of a single pope does not make the pressure free.
 
-**Evidence grade.** [[Cultural]] Priestly ritual mediation and guru surrender are traditional practice with no central body that could be held to them. *(sourced)*
+**Evidence grade.** [[Cultural]] Priestly ritual mediation and guru surrender are traditional practice with no central body that could be held to them.
 :::
 
 ### Stage 6 · Extract {#stage-6}
@@ -824,7 +788,7 @@ Temple offerings in the billions are administered by state departments and pries
 
 **The counter.** They do not automatically eliminate it. But consent is manufactured when refusal brings shame, exile, dishonor, or spiritual blame. If the family builds the maze and then says you chose the path, the choice is compromised.
 
-**Evidence grade.** [[Cultural]] Caste is birth-assigned and socially enforced; untouchability has been unconstitutional since 1950, which makes the persistence cultural rather than legal. *(sourced)*
+**Evidence grade.** [[Cultural]] Caste is birth-assigned and socially enforced; untouchability has been unconstitutional since 1950, which makes the persistence cultural rather than legal [8]. *(sourced)*
 :::
 
 ::: tactic n=20
@@ -881,7 +845,7 @@ Temple offerings in the billions are administered by state departments and pries
 
 **The counter.** Dharma becomes BENEVOLENT CONTROL when it makes hierarchy feel loving. If the person cannot refuse family, caste, or guru authority without being accused of ego or dishonor, guidance has become a sacred leash.
 
-**Evidence grade.** [[Documented]] Menstrual temple exclusion adjudicated by India's Supreme Court in the Sabarimala judgment, establishing it as custom rather than necessity. *(sourced)*
+**Evidence grade.** [[Cultural]] Family control and guru authority framed as dharma and care are customary and applied by relatives and gurus; no body directs them. The Sabarimala case (section 19) shows a purity custom operating without doctrinal necessity [5], but it concerns one temple and does not describe family or guru control framed as love.
 :::
 
 ::: tactic n=23
@@ -940,7 +904,7 @@ Temple offerings in the billions are administered by state departments and pries
 
 **The counter.** Karma becomes SPIRITUAL BYPASSING when it explains injustice instead of confronting it. If suffering people are told their pain is spiritually deserved, cosmic language has become moral evasion.
 
-**Evidence grade.** [[Taught]] Karmic explanation of inherited disadvantage, taught widely and disputed by the tradition's own bhakti and anti-caste currents. *(sourced)*
+**Evidence grade.** [[Taught]] Karmic explanation of inherited disadvantage, taught widely and disputed by the tradition's own bhakti and anti-caste currents.
 :::
 
 ::: tactic n=26
@@ -959,7 +923,7 @@ Temple offerings in the billions are administered by state departments and pries
 
 **The counter.** Duty becomes FINANCIAL CONTROL when money secures obedience. If refusing a ritual, guru, caste expectation, or marriage plan risks family support or spiritual guilt, financial dependence has been sanctified.
 
-**Evidence grade.** [[Codified]] State endowment acts place major temple funds under government administration; hereditary ritual monopolies are customary law. *(sourced)*
+**Evidence grade.** [[Cultural]] Ritual fees, guru offerings, pilgrimage costs and family finances are set by custom and by individual priests, gurus and families. State endowment acts do place major temple funds under government administration (section 8), but that is administration, not a rule that secures obedience, and hereditary ritual monopolies are customary rather than codified.
 :::
 
 ### Stage 7 · Discard {#stage-7}
@@ -1007,13 +971,13 @@ Inter-caste or inter-faith marriage brings ostracism and, in documented cases, v
 
 **The counter.** Obligation becomes DISCARD when love is withdrawn for refusing assigned identity. If family belonging depends on fulfilling caste, ritual, marriage, or guru expectations, the person is not loved as self. They are retained as function.
 
-**Evidence grade.** [[Cultural]] Ostracism for inter-caste and inter-faith marriage is family and panchayat enforced; honor killings are prosecuted as crimes. *(sourced)*
+**Evidence grade.** [[Cultural]] Ostracism for inter-caste and inter-faith marriage is family and panchayat enforced; honor killings are prosecuted as crimes, and the Supreme Court has ordered states to act against them [31]. *(sourced)*
 :::
 
 ### Stage 8 · Replace {#stage-8}
 
 ::: stage
-**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to God.**
+**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to eternal dharma.**
 
 There is no roll to be struck from, which is why nothing appears to happen — while your family quietly rearranges itself around your absence. And the authority is dharma: eternal, impersonal, and not ours to change.
 
@@ -1042,7 +1006,7 @@ There is no roll to be struck from, which is why nothing appears to happen — w
 ::: tactic n=30
 #### 30 · Plausible Deniability {#t-30}
 
-*The institution is never responsible, because the authority is attributed to God — who isn't available for cross-examination.*
+*The institution is never responsible, because the authority is attributed to eternal dharma, which is not available for cross-examination.*
 
 **How it shows here**
 
@@ -1060,7 +1024,7 @@ There is no roll to be struck from, which is why nothing appears to happen — w
 :::
 
 ::: cites
-Sources for this section: [5] [8]
+Sources for this section: [5] [8] [31]
 :::
 
 ## 13. The loops {#loops}
@@ -1084,7 +1048,7 @@ Ritual fees and offerings fund priesthoods and trusts that define which rites ar
 
 **Techniques that feed it.** [26 · Financial Control](#t-26), [27 · Manufactured Crisis](#t-27), [30 · Plausible Deniability](#t-30), [3 · Future Faking](#t-3).
 
-**Why it closes.** The bodies that receive the payments also hold the right to perform the rites, and the page records that audited accounts are not published (section 14). A giver cannot see where the money goes, and cannot reach the rite without the priest.
+**Why it closes.** The bodies that receive the payments also hold the right to perform the rites, and the page records no published audited accounts (section 14). A giver cannot see where the money goes, and cannot reach the rite without the priest.
 
 **Where it could be broken, and by whom.** It weakens wherever the money becomes visible. Tirupati's trust published a white paper in 2022 (section 9), and the Right to Information process reaches government-administered temple boards (section 8). A donor can ask for the accounts before giving (section 23, question 4). Whether the priestly monopoly on rites can change is a question for the priestly families. This paragraph is analysis, not a documented finding.
 
@@ -1182,7 +1146,7 @@ Devotee labor and donation build guru empires held by founders and their familie
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
-A godman is convicted, the organization renames itself, and the political parties that courted him do not apologize.
+A godman is convicted, the organization continues, and the political patrons who courted him stay silent.
 
 **How it runs.**
 
@@ -1204,7 +1168,7 @@ A godman is convicted, the organization renames itself, and the political partie
 ::: card
 #### 7 · Persecution to Solidarity to Insulation to Unaccountability
 
-Colonial-era denigration of Hinduism was real, and is invoked to reframe caste criticism as a foreign attack.
+The category 'Hinduism' is partly a colonial administrative product, and caste criticism is then reframed as a foreign attack.
 
 **How it runs.**
 
@@ -1218,7 +1182,7 @@ Colonial-era denigration of Hinduism was real, and is invoked to reframe caste c
 
 **Why it closes.** Every criticism can be read as an attack from outside, so the criticism strengthens the solidarity that protects the arrangement.
 
-**Where it could be broken, and by whom.** Section 20 records the bhakti tradition's own rejection of caste and priestcraft (Kabir, Basava, Ravidas and the Alvars) as coming centuries before any outside critique, which answers the claim that criticism is foreign. This paragraph is analysis, not a documented finding.
+**Where it could be broken, and by whom.** Section 20 records the bhakti tradition's own rejection of caste and priestcraft (Kabir, Basava, Ravidas and the Alvars) as coming centuries before any colonial critique, which answers the claim that criticism is foreign. This paragraph is analysis, not a documented finding.
 
 **An example from this page.** Technique 12 records that a person who challenges caste discrimination or guru abuse may be attacked as anti-Hindu, Westernized, disrespectful or colonized.
 :::
@@ -1231,8 +1195,8 @@ Colonial-era denigration of Hinduism was real, and is invoked to reframe caste c
 |---|---|---|
 | Hinduism has no dogma, no church, and no excommunication. | True institutionally, and irrelevant to the person disowned by their family for an inter-caste marriage. | [GOVERNMENT REPORT] |
 | Caste is a social system, not a religious one. | The text that ranks people is scripture; the constitution that unranked them is not. | [ACADEMIC SOURCE] |
-| Temple wealth belongs to the deity and the devotees. | It is administered by state departments and drawn on by governments, and audited accounts are not published. | [OFFICIAL POLICY / FINANCIAL RECORD] |
-| A true guru is beyond such accusations. | Two leaders of movements with tens of millions of followers were convicted, while devotees insisted it was impossible. | [COURT RECORD] |
+| Temple wealth belongs to the deity and the devotees. | It is administered by state departments and drawn on by governments, and no audited annual accounts are recorded on this page. | [OFFICIAL POLICY / FINANCIAL RECORD] |
+| A true guru is beyond such accusations. | Two leaders of movements with mass followings were convicted, while devotees insisted it was impossible. | [COURT RECORD] |
 
 ### Accountability or theatre?
 
@@ -1336,8 +1300,8 @@ Below the temple boards, the guru thrones and the caste councils, the work is do
 - **when:** 2018
 - **what:** India's Supreme Court held that excluding women of menstruating age from a major temple was unconstitutional, converting a question of custom into a question of rights.
 - **record:** Supreme Court of India judgment
-- **outcome:** The judgment met mass resistance and subsequent review petitions. It demonstrates purity custom operating without doctrinal necessity. A nine-judge bench heard the wider questions in 2026 and has reserved judgment; the 2018 ruling stands meanwhile.
-- **tactics:** 15, 22
+- **outcome:** The judgment met mass resistance and subsequent review petitions. It demonstrates purity custom operating without doctrinal necessity. A nine-judge bench heard the wider questions in 2026 and reserved judgment on 14 May 2026, with the verdict expected in October 2026 [26]; the 2018 ruling stands meanwhile.
+- **tactics:** 22
 - **grade:** Documented
 :::
 
@@ -1350,7 +1314,7 @@ Sources for this section: [5]
 - **when:** 2017–2026
 - **what:** Gurmeet Ram Rahim Singh, head of the Dera Sacha Sauda, was convicted of rape on 25 August 2017 and is serving 20 years [3]. His two murder convictions were overturned by the High Court in 2024 and 2026 [1][2].
 - **record:** Punjab & Haryana High Court judgments [1][2]; Outlook India [3]
-- **outcome:** The rape sentence stands; the victim's family appealed the 2026 acquittal to the Supreme Court [2].
+- **outcome:** The rape sentence stands, and his appeal against the rape conviction is pending [24]; the victim's family appealed the 2026 acquittal to the Supreme Court [2].
 - **tactics:** 30, 12, 16
 - **grade:** Documented
 :::
@@ -1360,7 +1324,7 @@ Sources for this section: [5]
 - **when:** 2026
 - **what:** Asaram, a spiritual leader with a large following, was serving a life sentence for raping a minor and had been out on bail since October 2025 [4].
 - **record:** Rajasthan High Court, 27 May 2026 [4]
-- **outcome:** The High Court upheld the life sentence and cancelled bail, while acquitting him on gang-rape and conspiracy counts [4].
+- **outcome:** The High Court upheld the life sentence and cancelled bail, while acquitting him on gang-rape and conspiracy counts [4]. The Supreme Court refused him bail on 30 June 2026 and issued notice to Rajasthan on his appeal [30].
 - **tactics:** 30, 12
 - **grade:** Documented
 :::
@@ -1371,7 +1335,7 @@ Sources for this section: [5]
 - **what:** Workers brought from India on religious visas sued BAPS, alleging they worked 80-hour weeks building its temple in Robbinsville, New Jersey, for about $450 a month, most of it paid into accounts in India; BAPS disputed the claims [7].
 - **record:** CNN, 12 May 2021 [7]; Religion News Service, 19 September 2025 [6]
 - **outcome:** The Justice Department closed its investigation without charges; the civil case continues [6].
-- **tactics:** 26, 2
+- **tactics:** 26
 - **grade:** Contested
 :::
 
@@ -1380,8 +1344,8 @@ Sources for this section: [5]
 - **when:** 2013–2026
 - **what:** Narendra Dabholkar, who campaigned against superstition and exploitative "godmen", was shot dead in Pune on 20 August 2013 [18].
 - **record:** Scroll, 10 May 2024 [18]; News Arena India, 18 August 2026 [19]
-- **outcome:** Two men were convicted in 2024 and three acquitted [18]; in 2026 the High Court suspended one convict's life sentence and granted him bail [19].
-- **tactics:** 17
+- **outcome:** Two men were convicted in 2024 and three acquitted [18]; in 2026 the High Court suspended one convict's life sentence and granted him bail [19], calling the identification evidence "extremely weak" and finding "fair chances" of acquittal on appeal [29].
+- **tactics:** none recorded
 - **grade:** Documented
 :::
 
@@ -1391,14 +1355,14 @@ Sources for this section: [5]
 
 | What | Who | When | What it cost |
 |---|---|---|---|
-| Rape convictions of major godmen were upheld on appeal. | Complainants and journalists brought them, and some of those people were killed. | 2017–2026 | It cost a journalist's life and years of intimidation. |
-| The constitution abolished untouchability and set up reservation policy. | Ambedkar and the anti-caste movement won it. | 1950 | It cost seventy years of resistance in practice. |
-| The bhakti tradition rejected caste and priestcraft from within. | Kabir, Basava, Ravidas and the Alvars (Tamil devotional poet-saints) did so. | It happened centuries before any outside critique. | They suffered persecution in their own lifetimes. |
+| Asaram's rape conviction was upheld on appeal in 2026 [4]; Gurmeet Ram Rahim Singh's appeal against his rape conviction is pending [24]. | Complainants and journalists brought them, and some of those people were killed. | 2017–2026 | It cost a journalist's life and years of intimidation. |
+| The constitution abolished untouchability and set up reservation policy. | Ambedkar and the anti-caste movement won it. | 1950 | It cost seventy-six years of resistance in practice, from 1950 to 2026. |
+| The bhakti tradition rejected caste and priestcraft from within. | Kabir, Basava, Ravidas and the Alvars (Tamil devotional poet-saints) did so. | It happened in the medieval period, centuries before any colonial critique. | No persecution of them is recorded on this page. |
 | The Supreme Court ruled in favor of temple entry at Sabarimala. | The petitioners and the Supreme Court achieved it. | 2018 | It met mass resistance and review petitions. |
 
 ### What would change this page
 
-Matrimonial platforms dropping caste fields under community pressure rather than statute would revise the strongest cultural-enforcement finding on this page.
+If matrimonial platforms dropped caste fields under community pressure rather than statute, that would revise the strongest cultural-enforcement finding on this page.
 
 ::: cites
 Sources for this section: [1] [4] [5]
@@ -1410,6 +1374,8 @@ Sources for this section: [1] [4] [5]
 - **Narendra Dabholkar.** He founded Maharashtra's anti-superstition movement and was murdered in 2013 [18]. The state's anti-superstition ordinance came four days later (section 8).
 - **The campaigners for California's caste bill.** They held a hunger strike at the Capitol in 2023 [15].
 - **The Robbinsville temple workers.** They sued BAPS, alleging forced labor, and BAPS disputed the claims (section 19) [7].
+- **Kabir, Basava and the Alvars.** Medieval devotional poets who rejected caste and priestly mediation from inside the tradition (section 20) [13].
+- **B. R. Ambedkar.** He burned the Manusmriti at Mahad in 1927 and chaired the committee that drafted the constitution that abolished untouchability (section 5) [8].
 
 ## 22. Regional variants {#regional}
 
@@ -1421,7 +1387,7 @@ Sources for this section: [1] [4] [5]
 - **documented:** The record includes temple treasury administration by state boards, rape convictions of guru figures including Gurmeet Ram Rahim Singh and Asaram Bapu, and ongoing litigation over temple entry.
 - **exit:** Family and caste consequences dominate, and institutional exit costs are low because there is little institution to exit.
 - **regulator:** The regulators are the state endowment departments, the RTI process, which is the most usable route on this card, and the criminal courts.
-- **tell:** This is the one major tradition where a member can file a freedom-of-information request about the temple's money and get an answer.
+- **tell:** Government-administered temple boards fall under the Right to Information Act, so a member can file a request about the temple's money.
 :::
 
 ::: card
@@ -1443,14 +1409,14 @@ Sources for this section: [6] [7]
 
 1. Untouchability has been illegal since 1950. Ask why your village, or your family, still has two sets of cups.
 2. If karma explains a Dalit child's poverty, explain what it says about the family that inherited the land.
-3. Two godmen with tens of millions of followers were convicted of rape. Name one thing their organizations changed structurally afterward.
-4. Tirupati holds assets in the billions. Ask for the audited accounts. Note who tells you the question is disrespectful.
+3. Two godmen with mass followings were convicted of rape. Name one thing their organizations changed structurally afterward.
+4. Tirupati's own 2022 white paper records a net worth of ₹2.26 lakh crore. Ask for the audited accounts. Note who tells you the question is disrespectful.
 5. If a guru cannot be questioned, then a guru cannot be wrong — so on what basis would you ever detect one who was?
 6. You were taught that caste is culture, not religion. Ask why the text that ranks people is scripture and the constitution that unranked them is not.
 
 ### In closing
 
-The strongest critique of everything in this profile was written inside your tradition, centuries before any outsider arrived. Kabir mocked priestcraft. Basava rejected caste. Nammalvar and the bhakti poets said God does not check your birth. That lineage is yours, and it is older than the machinery.
+The strongest critique of everything in this profile was written inside your tradition, centuries before any colonial critic. Kabir mocked priestcraft. Basava rejected caste. Nammalvar and the bhakti poets said God does not check your birth. That lineage is yours, and it is older than the machinery.
 
 You do not have to stop lighting the lamp to stop funding a man. You do not have to abandon dharma to notice that someone has been selling it. Decentralization means no one can excommunicate you — which means you, more than almost any reader of this codex, are already free to refuse. The only thing holding the arrangement together is that so few people ask.
 
@@ -1511,8 +1477,18 @@ Checked 2026-09-27.
 21. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 22. Karma Nirvana — honour-based abuse and forced marriage, 0800 5999 247. https://karmanirvana.org.uk/get-help/helpline/
 23. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
+24. Scroll, "Ram Rahim Singh moves High Court against conviction in rape cases" (25 Sept 2017; appeal filed against the 25 Aug 2017 conviction; no decision on it is recorded on this page). https://scroll.in/latest/851868/ram-rahim-singh-moves-high-court-against-conviction-in-rape-cases
+25. The Tribune, "8 years after death of 37 in Panchkula riots, no conviction yet" (25 Aug 2025 — at least 37 killed in Panchkula after the 2017 verdict, and six in Sirsa). https://www.tribuneindia.com/news/top-headlines/8-years-after-death-of-37-in-pkula-riots-no-conviction-yet
+26. LiveLaw, Sabarimala nine-judge reference (11 Aug 2026 — verdict reserved on 14 May 2026 after a 16-day hearing; decision expected in October). https://www.livelaw.in/top-stories/supreme-court-sabarimala-reference-9-judge-decision-likely-in-october-bodh-gaya-temple-act-constitutionality-challenge-deferred-545383
+27. Business Today, "Tirupati temple trust reveals 10.3 ton gold, FDs worth Rs 5,300 cr and Rs 15,938 cr cash as its assets" (6 Nov 2022 — total assets Rs 2.26 lakh crore). https://www.businesstoday.in/amp/latest/trends/story/tirupati-temple-trust-reveals-103-ton-gold-fds-worth-rs-5300-cr-and-rs-15938-cr-cash-as-its-assets-351997-2022-11-06
+28. Morgan Lewis, "Seattle Becomes First US Jurisdiction to Add Caste as a Protected Class" (March 2023 — covers employment, public accommodation and housing; effective 25 March 2023). https://www.morganlewis.com/pubs/2023/03/seattle-becomes-first-us-jurisdiction-to-add-caste-as-a-protected-class
+29. LiveLaw, "Narendra Dabholkar Murder Case: Bombay High Court Grants Bail To Alleged Shooter Sachin Andure" (18 Aug 2026). https://www.livelaw.in/high-court/bombay-high-court/bombay-high-court-grants-bail-sachin-andure-shooter-dr-narendra-dabholkar-murder-case-546228
+30. The Quint, "Supreme Court refuses bail to Asaram" (30 June 2026 — notice issued to Rajasthan on his appeal). https://www.thequint.com/news/breaking-news/supreme-court-refuses-bail-asaram-state-reply
+31. Supreme Court of India, *Shakti Vahini v. Union of India* (27 Mar 2018) — directions to states on preventing honour killings. https://clpr.org.in/wp-content/uploads/2024/12/69.-Shakti_Vahini_vs_Union_of_India_UOI_and_Ors_270320SC20182703181639515COM562832.pdf
+32. Mediascan, "Jyotish Peeth Shankaracharya Controversy: A Complex Battle of Tradition, Law, and Recognition" (case 3010/2020; Supreme Court stay of October 2022 on one claimant's installation; secondary source). https://mediascan.in/jyotish-peeth-shankaracharya-controversy-a-complex-battle-of-tradition-law-and-recognition/
 
 ## 27. What changed on this page {#changed}
 
-- **2026-09-27:** Added Branches, Law & state, Money in numbers (BAPS UK accounts 2020–2024), four documented cases, Voices from inside, Leaving safely and Where to get help.
+- **2026-10-03:** Corrected the count of murder convictions overturned, the status of the rape appeals, the follower figures, the sourced-technique count and the grades of three techniques; added sources for the riot toll, the Sabarimala schedule, the Seattle law and the honor-killing directions; removed template cards that did not fit Hinduism; and softened claims the sources did not support.
+- **2026-09-27:** Added Branches, Law & state, Money in numbers (BAPS UK accounts 2020–2024), five documented cases, Voices from inside, Leaving safely and Where to get help.
 
