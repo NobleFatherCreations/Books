@@ -5,7 +5,7 @@ family: "East Asian"
 family_id: east-asian
 family_members: [taoism, confucianism, shinto]
 version: v4
-checked: 2026-09-27
+checked: 2026-10-03
 sections_filled: 27/27
 missing: []
 partial: []
@@ -18,15 +18,15 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | Confucianism is essentially uncountable as a religion. Formal identification is rare, while Confucian norms shape family and social life for well over a billion people across East Asia. [ACADEMIC SOURCE] |
+| Size | Confucianism is essentially uncountable as a religion, and Pew makes no estimate of the number of Confucians in China. Pew reports that three-quarters of Chinese adults visited a family gravesite in the past year, and that about two-thirds said moral renewal would need to rely at least partly on the Confucian tradition (a 2015 survey question) [5]. [ACADEMIC SOURCE] |
 | Who's in charge | The head of the family is the senior generation, which is the apex, the court and the enforcement arm in one. |
 | Chosen by / removable by | Birth decides who holds the office / Only time and funerals remove the holder |
 | Money in one line | Confucianism is not donation-based. The extraction is labor, deference and life-choice control within families, through eldercare obligations, career and marriage direction, and gendered sacrifice. [PATTERN OBSERVED] |
 | Leaving in one line | There is no membership to resign — which is the trap: one can only be a bad child, a bad student, a disharmonious element. Dissent has no legitimate category. |
-| The unanswered question | Remonstrance (respectful correction of someone in authority) with erring parents is in the Analects (the collected sayings of Confucius). Why is the duty to obey taught everywhere and the duty to correct taught nowhere? |
-| Evidence | Six of the 30 techniques are sourced to a named document. The grades are Cultural 22, Codified 7 and Documented 1. |
+| The unanswered question | Remonstrance (respectful correction of someone in authority) with erring parents is in the Analects (the collected sayings of Confucius). Why is the duty to obey usually taught and the duty to correct rarely taught? |
+| Evidence | One of the 30 techniques (26, the PRC elderly-rights law of 2013) is sourced to a named document. The grades are Cultural 29 and Codified 1. |
 | Family | East Asian — taoism, confucianism, shinto |
-| Last checked | 2026-09-27 |
+| Last checked | 2026-10-03 |
 :::
 
 ### Disclosure scorecard
@@ -56,20 +56,20 @@ At 11:20 he sits on the edge of the bed with his phone. He wants to say to someb
 ## 3. The forefront {#forefront}
 
 ::: lede
-There is nothing here to leave. There is no membership, no baptism and no doctrine you ever agreed to, and that is exactly why this may be the hardest section in the codex to read honestly. You were not recruited. You were raised. And the machinery is your family, which means naming it feels like betrayal before you have even finished the sentence.
+There is nothing here to leave. There is no membership, no initiation and no doctrine you ever agreed to, and that is exactly why this may be the hardest section in the codex to read honestly. You were not recruited. You were raised. And the machinery is your family, which means naming it feels like betrayal before you have even finished the sentence.
 :::
 
 ### The unanswered question
 
 ::: question
-Remonstrance with erring parents is in the Analects. Why is the duty to obey taught everywhere and the duty to correct taught nowhere?
+Remonstrance with erring parents is in the Analects. Why is the duty to obey usually taught and the duty to correct rarely taught?
 :::
 
 ### The widest gap between word and record
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| Filial piety (the duty of children to honor, obey and care for their parents) is reciprocal duty. | Mencius (the Confucian philosopher of the 4th century BCE) asserted the duty to remonstrate with an erring superior, and that half of the ethic is almost never taught. | [ACADEMIC SOURCE] |
+| Filial piety (the duty of children to honor, obey and care for their parents) is reciprocal duty. | The Analects (4.18) tell a child to remonstrate gently with a parent who is wrong, and Mencius (the Confucian philosopher of the 4th century BCE) held that a ruler who fails his people forfeits the right to rule (1B.8) [6]. The duty to obey is usually taught; the duty to correct is rarely taught, though this page cites no study of what is taught. | [ACADEMIC SOURCE] |
 
 ### One cost of leaving, beside its denial
 
@@ -83,7 +83,7 @@ Remonstrance with erring parents is in the Analects. Why is the duty to obey tau
 
 **What is true in it.** The point is structurally correct. There is no membership, no doctrine anyone signed, no institution and no clergy, and the tradition was itself violently suppressed within living memory.
 
-**The answer.** That absence is the finding, not a defense: it is the purest ownerless control in the codex. And the correction is textual. Mencius asserted the duty to remonstrate with an erring superior and the ruler's forfeiture of legitimacy. The one-directional version was a political edit.
+**The answer.** That absence is the finding, not a defense: it is the purest ownerless control in the codex. And the correction is textual. The Analects (4.18) tell a child to remonstrate gently with a parent who is wrong, and Mencius (1B.8) held that a ruler who abandons benevolence forfeits the title [6]. The one-directional version is the one this page finds practiced in families; no source on this page says who made it so. [PATTERN OBSERVED]
 
 ::: cites
 Sources for this section: [6]
@@ -121,7 +121,7 @@ The tradition begins with Confucius (551–479 BCE) and his successors. Imperial
 ### Moments in the room
 
 ::: card
-#### 134 BCE — The examinations
+#### 136 BCE — The examinations
 
 Emperor Wu of Han established Confucian classics as the basis of official recruitment. Filial and hierarchical ethics became the curriculum of state advancement.
 
@@ -133,7 +133,7 @@ Emperor Wu of Han established Confucian classics as the basis of official recrui
 
 The Cultural Revolution attacked Confucian tradition directly, including the desecration of the Kong family cemetery at Qufu (the birthplace of Confucius). A generation was mobilised against filial hierarchy itself.
 
-**Why it matters.** This is proof that the structure is not eternal or natural, because it was dismantled by force within living memory. What returned, returned by choice, which means it can be chosen differently.
+**Why it matters.** This is proof that the structure is not eternal or natural, because it was dismantled by force within living memory. What returned was promoted by the state, and what the state promotes can be examined.
 :::
 
 ::: card
@@ -158,9 +158,9 @@ The main branches are Classical, Neo-Confucian (the Zhu Xi and Wang Yangming sch
 | **Neo-Confucian** | China, then Korea, Japan and Vietnam | Zhu Xi's synthesis became the basis of the civil-service examinations, which ran until 1905 [1][2] |
 | **Korean Confucianism** | Korea | Korean Confucianism shaped family law, through the family-head (*hoju*) system and the same-clan marriage ban, until the courts struck both down [9][10][11]. |
 | **Ceremonial lineage** | Taiwan | A descendant of Confucius holds a ceremonial office created in 1935 [4] |
-| **New Confucianism and state promotion** | China and abroad | Confucius Institutes have operated since 2004 [7]. |
+| **New Confucianism and state promotion** | China and abroad | Confucius Institutes first opened in 2004 [7]; in the United States the number fell from about 100 to fewer than five by July 2023 [17]. |
 
-Formal identification as "Confucian" is rare; Confucian-origin family practice is widespread [5].
+Pew makes no estimate of the number of Confucians in China; it reports that three-quarters of Chinese adults visited a family gravesite in the past year [5].
 
 ## 7. Structure {#structure}
 
@@ -168,9 +168,9 @@ Formal identification as "Confucian" is rare; Confucian-origin family practice i
 
 |  |  |
 |---|---|
-| Adherents | Confucianism is essentially uncountable as a religion. Formal identification is rare, while Confucian norms shape family and social life for well over a billion people across East Asia. [ACADEMIC SOURCE] |
+| Adherents | Confucianism is essentially uncountable as a religion, and Pew makes no estimate of the number of Confucians in China. Pew reports that three-quarters of Chinese adults visited a family gravesite in the past year, and that about two-thirds said moral renewal would need to rely at least partly on the Confucian tradition (a 2015 survey question) [5]. [ACADEMIC SOURCE] |
 | Regions | The tradition is found in China, Taiwan, Korea, Japan, Vietnam, Singapore and their diasporas. |
-| Trend | Formal religious identification is negligible and stable; cultural and state-sponsored influence is rising in China. Urbanization and low fertility are eroding the multigenerational household the ethic assumes. |
+| Trend | No trend in formal identification is recorded on this page; state-sponsored promotion of Confucian culture is rising in China. Urbanization and low fertility are eroding the multigenerational household the ethic assumes. |
 | Participation | There is no membership to hold. This entry documents a control grammar embedded in families, schools, and workplaces — which is exactly why it is the hardest pattern in this codex to refuse. |
 
 ### Authority
@@ -188,7 +188,7 @@ The purest case in the codex: total enforcement, zero addresses. The only office
 |---|---|---|---|
 | The head of the family | The senior generation is the apex, the court and the enforcement arm in one. | Birth decides who holds the office. | Only time and funerals remove the holder. |
 | The state | The PRC's curriculum and civilizational messaging have redeployed filial duty as civic virtue. | No chooser is recorded. | No election can remove it, because none occurs. |
-| The ceremonial line | The Kong family's hereditary Sacrificial Official to Confucius, of the 79th generation and resident in Taipei, holds prestige without command. | Bloodline decides who holds the office. | No removal is recorded. |
+| The ceremonial line | The Kong family's hereditary Sacrificial Official to Confucius, of the 79th generation, holds prestige without command. | Descent from Confucius, with the holder appointed (the office was created by the ROC state in 1935) [4]. | No removal is recorded. |
 
 ::: tell
 You cannot subpoena a dinner table. That sentence is why this tradition scores maximum deniability, and why the harm inside it is the hardest in this codex to name out loud.
@@ -202,8 +202,8 @@ You cannot subpoena a dinner table. That sentence is why this tradition scores m
 | Statutory elder-support obligations | Law | The state | The state legally enforces filial support, which transfers welfare costs to adult children. | It is a duty with a court behind it. | [OFFICIAL POLICY: PRC elderly rights law] |
 | State harmony and filial-values promotion | Governance vocabulary | Government organs | They hold a framework in which dissent is disorder rather than disagreement. | It decides whether your objection is treated as a position or as a symptom. | [ACADEMIC SOURCE] |
 | The tutoring and examination industry | Commercial | Private education companies and schools | They hold household spending that is driven by treating a child's score as family honor. | It shapes your child's childhood. | [ACADEMIC SOURCE] |
-| Lineage halls and clan funds | Property and ritual | Senior male lineage members | They hold ancestral rites, tomb upkeep and, in some regions, lineage assets. | It decides whether a daughter counts as continuation. |  |
-| Employers importing filial hierarchy | Workplace | Company management | They hold a framework that treats overtime as loyalty, obedience as respect and exhaustion as virtue. | It frames your working hours as character. |  |
+| Lineage halls and clan funds | Property and ritual | Senior male lineage members | They hold ancestral rites, tomb upkeep and, in some regions, lineage assets. | It decides whether a daughter counts as continuation. | [PATTERN OBSERVED] |
+| Employers importing filial hierarchy | Workplace | Company management | They hold a framework that treats overtime as loyalty, obedience as respect and exhaustion as virtue. | It frames your working hours as character. | [PATTERN OBSERVED] |
 
 ::: cites
 Sources for this section: [3] [4] [5]
@@ -213,8 +213,8 @@ Sources for this section: [3] [4] [5]
 
 | Country | What the law does | What happened |
 |---|---|---|
-| **China** | The 2013 elderly-rights law requires adult children to visit and attend to the "spiritual needs" of parents over 60 [3] | In the first case, a Wuxi court ordered a woman to visit her 77-year-old mother at least once every two months [12] |
-| **South Korea — family head** | The *hoju* system made a man the legal head of every family [10] | The Constitutional Court found it unconstitutional in March 2005; it was replaced by individual registration on 1 January 2008 [10][11] |
+| **China** | The 2013 elderly-rights law requires adult children to visit and attend to the "spiritual needs" of parents over 60 [3] | In the first case, a Wuxi court ordered a couple to visit the woman's 77-year-old mother at least once every two months and on at least two national holidays [12] |
+| **South Korea — family head** | The *hoju* system made a man the legal head of every family [10] | The Constitutional Court found it unconstitutional on 3 February 2005 [16]; the National Assembly repealed it in March 2005 [10], and it was replaced by individual registration on 1 January 2008 [10][11] |
 | **South Korea — marriage** | Article 809 banned marriage between people of the same surname and clan origin [9] | The Constitutional Court overturned the ban in July 1997 [9] |
 | **Taiwan** | The state created a ceremonial office for Confucius's descendant [4]. | The office is ceremonial only [4]. |
 
@@ -245,11 +245,11 @@ The honest answer: no body compels a family, and most of what this page document
 
 **Source.** The source is families managing reputation.
 
-**Path.** Matchmakers and community brokers → School admission and business trust → Conformity across the whole family
+**Path.** Matchmakers and community brokers → School admission and business trust → Conformity across the whole family [PATTERN OBSERVED]
 
-**Disclosed.** Nothing is disclosed.
+**Disclosed.** Not recorded on this page.
 
-**Hidden.** Everything is hidden, because none of it is written.
+**Hidden.** Not recorded on this page.
 :::
 
 ### Money in numbers
@@ -257,7 +257,7 @@ The honest answer: no body compels a family, and most of what this page document
 Confucianism has no donation economy of its own; its costs are paid in family labour, deference and life choices (see Money above).
 
 - **Eldercare by law (China):** adult children who neglect parents can be ordered by a court to visit [3][12].
-- **Confucius Institutes:** The Confucius Institutes are a state-funded network of language and culture centres abroad, which have operated since 2004 [7].
+- **Confucius Institutes:** Confucius Institutes first opened in 2004 [7]. Until 2020 they were overseen and funded in part by Hanban, an office affiliated with the PRC Ministry of Education, which was renamed the Center for Language Education and Cooperation in 2020; in the United States the number fell from about 100 to fewer than five by July 2023 [17].
 - **Lineage halls and ancestral rites** hold family funds in some regions (see Money above).
 
 ## 10. Genealogy {#genealogy}
@@ -271,7 +271,7 @@ Confucianism has no donation economy of its own; its costs are paid in family la
 
 **Why that reason expired.** There are now pensions, insurance, and healthcare systems. But the obligation remained and expanded, and in China it became statutory — adult children legally liable for parental support. The safety net became a lien.
 
-**Who benefits now.** The senior generation benefits, and so does the state, which offloads its welfare costs onto adult children while calling it virtue. Mencius asserted the duty to remonstrate with an erring superior — that half of the ethic simply vanished, and its disappearance was not accidental.
+**Who benefits now.** The senior generation benefits, and so does the state, which offloads its welfare costs onto adult children while calling it virtue. The Analects tell a child to remonstrate gently with a parent who is wrong (4.18) [6]. In practice that half of the ethic is rarely taught, and no source on this page says why. [PATTERN OBSERVED]
 :::
 
 ::: card
@@ -293,7 +293,7 @@ Confucianism has no donation economy of its own; its costs are paid in family la
 
 **What it was for.** Continuity of the lineage in a system where property, name, and ritual obligation passed through sons.
 
-**Why that reason expired.** When ultrasound arrived, a ritual requirement for sons became a demand for the elimination of daughters. Skewed sex ratios across the region are the measurable output of a metaphysical preference. [GOVERNMENT REPORT]
+**Why that reason expired.** When ultrasound arrived, a ritual requirement for sons became a demand for the elimination of daughters. Son preference, which the rite's demand for a male descendant feeds, is one documented driver of prenatal sex selection. UNFPA reports sex ratios at birth of 110 to 120 male births per 100 female in many Asian countries, against a biological level of 104 to 106 [18]. [GOVERNMENT REPORT]
 
 **Who benefits now.** Lineage elders and the patrilineal property structure benefit. The cost is paid by daughters who were never born and by the women who were pressured into it.
 :::
@@ -328,7 +328,7 @@ Confucianism has no donation economy of its own; its costs are paid in family la
 ### Bodies
 
 - The Three Obediences and Four Virtues (the classical rules that placed a woman under her father, her husband and her son in turn) subordinated women to father, husband, and son in the classical formulation. [ACADEMIC SOURCE]
-- Patrilineal ancestor ritual makes sons religiously necessary — a demand structure implicated in son preference and, with modern technology, sex-selective abortion. [GOVERNMENT REPORT]
+- Patrilineal ancestor ritual makes sons religiously necessary — a demand structure implicated in son preference and, with modern technology, sex-selective abortion [18]. [GOVERNMENT REPORT]
 - Widow chastity was honored with imperial commemoration; remarriage stigmatized.
 - Daughters-in-law occupy the lowest household position while carrying the heaviest care labor — the most widely documented cost in this profile. [ACADEMIC SOURCE]
 - LGBTQ people face family pressure to marry and produce heirs; 'cooperative marriages' (marriages of convenience that satisfy family expectations) exist as a documented workaround. [INVESTIGATIVE REPORT]
@@ -529,7 +529,7 @@ Object and you are ungrateful, selfish, individualistic, Westernized. Your own m
 
 **The strongest defense.** Reserved praise reflects cultural humility, not strategy; effusiveness is considered shallow.
 
-**The counter.** Reserve is a style; starvation is a schedule. When approval is the scarcest resource in a child's world and released without pattern, the style has behavioral consequences the culture's own literature on filial grief records at length.
+**The counter.** Reserve is a style; starvation is a schedule. When approval is the scarcest resource in a child's world and released without pattern, the style has behavioral consequences, though this page cites no study of them.
 
 **Evidence grade.** [[Cultural]] The rationing of elder approval is a pattern of family behavior; no document records it and no one is answerable for it.
 :::
@@ -706,7 +706,7 @@ The claims on your income and labor are open-ended, and in some jurisdictions th
 
 **The counter.** Interdependence becomes FLYING MONKEY pressure when every relative becomes an agent of compliance. If the whole family system exists to push one person back into role, concern has become collective coercion.
 
-**Evidence grade.** [[Cultural]] Enforcement is entirely familial and social; there is no institution to hold responsible, which is the purest form of this deniability. *(sourced)*
+**Evidence grade.** [[Cultural]] Enforcement is entirely familial and social; there is no institution to hold responsible, which is the purest form of this deniability.
 :::
 
 ::: tactic n=17
@@ -725,7 +725,7 @@ The claims on your income and labor are open-ended, and in some jurisdictions th
 
 **The counter.** Concern becomes smear when the person’s character is attacked for wanting autonomy. If the family must ruin someone’s reputation to preserve harmony, the harmony was already false.
 
-**Evidence grade.** [[Codified]] The smear is family gossip and reputation attack, which is customary. The Codified grade rests on the PRC's statutory elder-support obligation [3], which this entry does not describe.
+**Evidence grade.** [[Cultural]] The smear is family gossip and reputation attack, which is customary and recorded in no document.
 :::
 
 ::: tactic n=18
@@ -744,7 +744,7 @@ The claims on your income and labor are open-ended, and in some jurisdictions th
 
 **The counter.** Avoidance becomes stonewalling when the same people are always expected to swallow the truth. Harmony that depends on silence from the lower-status person is not peace. It is emotional governance.
 
-**Evidence grade.** [[Cultural]] 'Do not shame the family' operates as an information rule keeping abuse, debt, and illness inside the household. *(sourced)*
+**Evidence grade.** [[Cultural]] 'Do not shame the family' operates as an information rule keeping abuse, debt, and illness inside the household; no document records it.
 :::
 
 ::: tactic n=19
@@ -763,7 +763,7 @@ The claims on your income and labor are open-ended, and in some jurisdictions th
 
 **The counter.** Mutual duty is not the issue. Consent is manufactured when duty flows downward as pressure and upward as obedience. If the cost of no is losing family love, yes is not free.
 
-**Evidence grade.** [[Cultural]] There is no membership to consent to or withdraw from, which is the mechanism rather than an exemption from it. *(sourced)*
+**Evidence grade.** [[Cultural]] There is no membership to consent to or withdraw from, which is the mechanism rather than an exemption from it.
 :::
 
 ::: tactic n=20
@@ -782,7 +782,7 @@ The claims on your income and labor are open-ended, and in some jurisdictions th
 
 **The counter.** Gratitude becomes TRAUMA BONDING when love is withdrawn to enforce duty. If the child must surrender autonomy to feel loved again, family affection has become intermittent reinforcement.
 
-**Evidence grade.** [[Codified]] The guilt-and-relief cycle is lived inside families and is customary. The Codified grade rests on the PRC's statutory elder-support obligation [3], which this entry does not describe.
+**Evidence grade.** [[Cultural]] The guilt-and-relief cycle is lived inside families and is customary; no document records it.
 :::
 
 ::: tactic n=21
@@ -801,7 +801,7 @@ The claims on your income and labor are open-ended, and in some jurisdictions th
 
 **The counter.** Compromise becomes LEARNED HELPLESSNESS when only one side ever compromises. If every boundary ends in guilt and every disagreement ends in hierarchy, the family has trained surrender.
 
-**Evidence grade.** [[Codified]] The failed boundaries the entry describes happen in family conflict, which is customary. The Codified grade rests on the PRC's statutory elder-support obligation [3], which this entry does not describe.
+**Evidence grade.** [[Cultural]] The failed boundaries the entry describes happen in family conflict, which is customary and recorded in no document.
 :::
 
 ::: tactic n=22
@@ -820,7 +820,7 @@ The claims on your income and labor are open-ended, and in some jurisdictions th
 
 **The counter.** Interdependence becomes BENEVOLENT CONTROL when one side is always directing and the other always yielding. If love requires obedience, family care has become ownership with tears.
 
-**Evidence grade.** [[Codified]] The control is expressed in the language of care, sacrifice and harmony. The Codified grade rests on the PRC's statutory elder-support obligation [3], which writes one filial duty into law; the control the entry describes is otherwise customary.
+**Evidence grade.** [[Cultural]] The control is expressed in the language of care, sacrifice and harmony, which is customary. The PRC elder-support statute [3] writes one filial duty into law (technique 26), but the entry describes the family's language of care, not that statute.
 :::
 
 ::: tactic n=23
@@ -839,7 +839,7 @@ The claims on your income and labor are open-ended, and in some jurisdictions th
 
 **The counter.** Filial piety becomes INFANTILIZATION when adulthood never arrives. If parents can always override an adult child because they once sacrificed for them, care has become lifelong ownership.
 
-**Evidence grade.** [[Cultural]] Adult children addressed and treated as juniors indefinitely; no institution exists to hold to it. *(sourced)*
+**Evidence grade.** [[Cultural]] Adult children addressed and treated as juniors indefinitely; no institution exists to hold to it.
 :::
 
 ::: tactic n=24
@@ -859,7 +859,7 @@ The claims on your income and labor are open-ended, and in some jurisdictions th
 
 **The counter.** Relational identity becomes IDENTITY EROSION when role consumes personhood. If you are only allowed to exist as dutiful child, respectable spouse, obedient junior, or family representative, relation has become replacement.
 
-**Evidence grade.** [[Codified]] The role-based identity the entry describes is customary in families. The Codified grade rests on the PRC's statutory elder-support obligation [3], which this entry does not describe.
+**Evidence grade.** [[Cultural]] The role-based identity the entry describes is customary in families and recorded in no document.
 :::
 
 ::: tactic n=25
@@ -879,7 +879,7 @@ The claims on your income and labor are open-ended, and in some jurisdictions th
 
 **The counter.** Harmony becomes SPIRITUAL BYPASSING when it hides hierarchy. If peace requires the harmed person to stay quiet, harmony is not moral order. It is avoidance with manners.
 
-**Evidence grade.** [[Codified]] The bypassing is done in everyday family speech that turns abuse into filial piety and silence into respect. The Codified grade rests on the PRC's statutory elder-support obligation [3], which this entry does not describe.
+**Evidence grade.** [[Cultural]] The bypassing is done in everyday family speech that turns abuse into filial piety and silence into respect; no document records it.
 :::
 
 ::: tactic n=26
@@ -898,7 +898,7 @@ The claims on your income and labor are open-ended, and in some jurisdictions th
 
 **The counter.** Responsibility becomes FINANCIAL CONTROL when parental support becomes lifelong ownership. If money given to raise a child becomes a claim over the adult’s future, family has become a debt system.
 
-**Evidence grade.** [[Codified]] Elder-support obligations written into statute in the PRC, making filial duty legally enforceable. *(sourced)*
+**Evidence grade.** [[Codified]] Elder-support obligations written into statute in the PRC, making filial duty legally enforceable: the amended Law on the Protection of the Rights and Interests of Elderly People, in force 1 July 2013 [3]. *(sourced)*
 :::
 
 ### Stage 7 · Discard {#stage-7}
@@ -995,7 +995,7 @@ You cannot be expelled because you were never enrolled; you can only be the unfi
 
 **The counter.** Advice becomes PLAUSIBLE DENIABILITY when refusal produces punishment. Gratitude becomes ownership when parental sacrifice is used as lifelong debt. Love that requires compliance is not guidance. It is governance with family language.
 
-**Evidence grade.** [[Documented]] The entry describes parents who deny control while money, guilt and approval enforce compliance, which is domestic and customary. The Documented grade rests on academic analysis of state promotion of harmony and filial vocabulary as governance framing, which the entry does not describe. *(sourced)*
+**Evidence grade.** [[Cultural]] The entry describes parents who deny control while money, guilt and approval enforce compliance, which is domestic and customary; no document records it.
 :::
 
 ## 13. The loops {#loops}
@@ -1007,7 +1007,7 @@ The seven loops below show how the practices connect, so that each step makes th
 ::: card
 #### 1 · Money to Doctrine to Money
 
-Childhood investment is converted into a lifelong claim on income, and the claim is now statutory.
+Childhood investment is converted into a lifelong claim on income, and in China the claim is now statutory.
 
 **How it runs.**
 
@@ -1112,7 +1112,7 @@ Care labor and lineage upkeep accrue to senior generations and lineage funds, wi
 :::
 
 ::: card
-#### 6 · Scandal to Removal to Reform Theatre to Continuity
+#### 6 · Departure to Verdict to Replacement to Continuity
 
 There is no scandal apparatus. There is only the unfilial child, discussed at gatherings they are no longer invited to.
 
@@ -1136,7 +1136,7 @@ There is no scandal apparatus. There is only the unfilial child, discussed at ga
 ::: card
 #### 7 · Persecution to Solidarity to Insulation to Unaccountability
 
-Historic humiliation and the Cultural Revolution's suppression are cited to make criticism of the family ethic seem Western.
+The tradition was suppressed within living memory, and people who object to the family ethic are called Westernized. That the two are linked is not recorded on this page.
 
 **How it runs.**
 
@@ -1147,7 +1147,7 @@ Historic humiliation and the Cultural Revolution's suppression are cited to make
 
 **Techniques that feed it.** [4 · Hoovering](#t-4), [12 · DARVO](#t-12), [17 · Smear Campaign](#t-17), [30 · Plausible Deniability](#t-30).
 
-**Why it closes.** The real history of suppression gives the family ethic a claim to protection, and the accusation of Western corruption turns every objection into a threat to the tradition's survival.
+**Why it closes.** If the two are linked, the history of suppression gives the family ethic a claim to protection, and the accusation of Western corruption turns every objection into a threat to the tradition's survival. The page records the parts, not the link.
 
 **Where it could be broken, and by whom.** It weakens where the tradition's own texts are used in the objection, since the page shows that reciprocal duty is in the Analects and Mencius (section 3). Scholars who reclaim the ethics from the hierarchy do this work (section 20). The page records the accusation and the suppression, but not the two being explicitly linked. This paragraph is analysis, not a documented finding.
 
@@ -1160,7 +1160,7 @@ Historic humiliation and the Cultural Revolution's suppression are cited to make
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| Filial piety is reciprocal duty. | Mencius asserted the duty to remonstrate with an erring superior, and that half of the ethic is almost never taught. | [ACADEMIC SOURCE] |
+| Filial piety is reciprocal duty. | The Analects (4.18) tell a child to remonstrate gently with a parent who is wrong, and Mencius held that a ruler who fails his people forfeits the right to rule (1B.8) [6]. The duty to obey is usually taught; the duty to correct is rarely taught, though this page cites no study of what is taught. | [ACADEMIC SOURCE] |
 | This is culture, not religion, so it cannot be coercive. | There is no institution to hold responsible, which is what makes it the most durable control system in the codex. | [ACADEMIC SOURCE] |
 | We only want harmony. | Harmony language is used by a state to reclassify disagreement as disorder. | [ACADEMIC SOURCE] |
 | We did everything for you. | The statement is an accounting of a childhood, presented as a debt the child did not incur. | [PATTERN OBSERVED] |
@@ -1177,7 +1177,7 @@ Historic humiliation and the Cultural Revolution's suppression are cited to make
 
 | Term | What it means inside | What it does | Said plainly |
 |---|---|---|---|
-| Filial piety (xiao) | Filial piety means devotion and obedience owed to parents and ancestors. | The Analects also contain a duty to remonstrate with erring parents. Universally the obedience is taught; almost nowhere is the remonstrance. | 'Obey — and the part of the tradition that says you may object was left out.' |
+| Filial piety (xiao) | Filial piety means devotion and obedience owed to parents and ancestors. | The Analects also contain a duty to remonstrate with erring parents. Usually the obedience is taught; rarely is the remonstrance. | 'Obey — and the part of the tradition that says you may object was left out.' |
 | Face (mianzi) | Face means social standing and reputation. | It converts a family's public image into an interest that outranks an individual member's welfare. | 'What people would think is more important than what happened to you.' |
 
 ::: cites
@@ -1223,7 +1223,7 @@ Sources for this section: [6]
 
 - The Chinese state promotes filial piety and 'harmonious society' as governance vocabulary, converting a family ethic into a compliance frame in which dissent is disorder rather than disagreement. [ACADEMIC SOURCE]
 - Elder-support obligations have been written into law, transferring the state's welfare costs to adult children under the language of virtue. [OFFICIAL POLICY]
-- Confucius Institutes and cultural diplomacy export the harmony vocabulary internationally as soft power. [ACADEMIC SOURCE]
+- Confucius Institutes teach Chinese language and culture abroad and are supported by Chinese entities affiliated with the PRC government [17]. That they also export the harmony vocabulary as soft power is an interpretation this page does not source. [PATTERN OBSERVED]
 - Employers import filial duty into workplace hierarchy: overtime as loyalty, obedience as respect, exhaustion as virtue. [PATTERN OBSERVED]
 
 ### Who pays
@@ -1257,7 +1257,7 @@ Most of the weight is carried by people in the middle, who see how the obligatio
 |---|---|---|---|---|
 | Parents | They transmit the obligation, usually while genuinely sacrificing. | They see that they are also paying it upward. | Nobody asks them to do anything about it. | They could refuse to present care as a debt. |
 | Teachers | They convert a score into a family's honor. | They see which children are breaking. | They are asked to raise the average. | They could refuse to rank children publicly. |
-| Elder siblings, especially daughters-in-law | They perform the care labor with the least standing. | They see that the obligation runs one way. | They are asked to be dutiful. | They could refuse to carry it alone and silently. |
+| Elder siblings and daughters-in-law | They perform the care labor with the least standing. | They see that the obligation runs one way. | They are asked to be dutiful. | They could refuse to carry it alone and silently. |
 | Employers and managers | They import the hierarchy into work. | They see that the vocabulary turns exploitation into respect. | They are asked to maintain team spirit. | They could refuse to describe unpaid overtime as loyalty. |
 
 ## 19. Documented cases {#cases}
@@ -1276,7 +1276,7 @@ Most of the weight is carried by people in the middle, who see how the obligatio
 ### The family head abolished (South Korea, 2005–2008)
 - **when:** 2005–2008
 - **what:** Women's-rights activists and the National Human Rights Commission challenged the *hoju* system, which made a man the legal head of each family [10][11].
-- **record:** Constitutional Court of Korea, March 2005 [10]; National Human Rights Commission opinion, 2003 [11]
+- **record:** Constitutional Court of Korea, 3 February 2005 [16]; National Assembly repeal, March 2005 [10]; National Human Rights Commission opinion, 2003 [11]
 - **outcome:** Found unconstitutional; replaced with individual registration from 1 January 2008 [10].
 - **tactics:** 23, 24
 - **grade:** Documented
@@ -1285,10 +1285,10 @@ Most of the weight is carried by people in the middle, who see how the obligatio
 ::: case
 ### Married to someone of the same clan (South Korea, 1997)
 - **when:** 1997
-- **what:** Tens of thousands of couples who shared a surname and ancestral seat could not legally marry [9].
+- **what:** About 200,000 couples who shared a surname and ancestral seat were unable to register their marriages [9].
 - **record:** Constitutional Court of Korea, 16 July 1997; *Christian Science Monitor*, 4 August 1997 [9]
 - **outcome:** The court overturned the ban [9].
-- **tactics:** 14
+- **tactics:** 22, 24
 - **grade:** Documented
 :::
 
@@ -1298,7 +1298,7 @@ Most of the weight is carried by people in the middle, who see how the obligatio
 
 | What | Who | When | What it cost |
 |---|---|---|---|
-| Mencius on remonstrance and the forfeiture of a ruler's legitimacy | The tradition itself | 4th c. BCE | It cost nothing, and it is the correction hiding in plain sight. |
+| Mencius on remonstrance and the forfeiture of a ruler's legitimacy | The tradition itself | 4th c. BCE | What it cost is not recorded on this page. |
 | Abolition of the examination system and the New Culture critique | Chinese reformers | 1905–1919 | The cost was enormous social upheaval. |
 | Confucian feminist scholarship reclaiming the ethics from the hierarchy | Scholars, mostly women | Late 20th c.–present | The cost has been dismissal of the scholarship as inauthentic. |
 
@@ -1310,11 +1310,11 @@ This is hard by design, and the page admits it. Documented generational change i
 Sources for this section: [6]
 :::
 
-## 21. Voices from inside {#voices}
+## 21. Voices and witnesses {#voices}
 
 - **Mencius,** speaking from inside the tradition, held that a ruler who abandons benevolence forfeits the title [6].
-- **Confucius himself** spoke on remonstrating gently with one's parents [6].
-- **Lee Jae-yong and Lee Kyong-ok** were a couple kept from marrying by the same-clan ban until 1997 [9].
+- **Confucius himself** is recorded in the Analects (4.18) as saying, in Legge's translation: "In serving his parents, a son may remonstrate with them, but gently" [6].
+- **Lee Jae-yong and Lee Kyong-ok** were a couple who married for love despite the same-clan ban and could not register the marriage until the ban was overturned in 1997 [9].
 - **The Korean women's-rights activists** are the people who ended the *hoju* system [10].
 - **Susan Mann and Dorothy Ko** are historians of women's lives under Confucian norms, from widow-chastity honours to footbinding [8].
 
@@ -1332,12 +1332,12 @@ Sources for this section: [6]
 
 ::: card
 ### South Korea
-- **apex:** There is no apex, though Confucian academies and clan associations exist.
+- **apex:** There is no apex.
 - **law:** The Civil Code was reformed after court rulings [9][10].
 - **documented:** The 1997 and 2005 rulings are documented [9][10].
 - **exit:** —
 - **regulator:** The Constitutional Court acted as regulator [9][10].
-- **tell:** The country where Confucian family law was most codified is where its courts took it apart.
+- **tell:** Family law shaped by Confucian practice, the family-head system and the same-clan marriage ban, was taken apart by the country's own courts [9][10].
 :::
 
 ::: card
@@ -1352,7 +1352,7 @@ Sources for this section: [6]
 
 ## 23. The questions {#questions}
 
-1. Mencius said a son must remonstrate with an erring father. Ask whoever taught you obedience why they left that part out.
+1. Confucius said a son should remonstrate gently with his parents (Analects 4.18). Ask whoever taught you obedience whether they ever taught that part.
 2. If duty is reciprocal, name the obligation your parents owe you that they would accept being held to.
 3. 'Do not shame the family' has kept violence, debt, and abuse inside houses for centuries. Ask who that rule protects, in your specific family.
 4. If sons are required for ancestor rites, ask what happened to the daughters — and ask whether anyone lit a lamp for them.
@@ -1361,7 +1361,7 @@ Sources for this section: [6]
 
 ### In closing
 
-Your tradition's actual texts are better than what was done with them. Confucius described relationships in both directions. Mencius said a ruler who fails his people forfeits the right to rule — and that a son must argue with a father who is wrong. The one-way version you inherited is a political edit, made by states that found reciprocity inconvenient.
+Your tradition's actual texts are better than what was done with them. Confucius described relationships in both directions. Confucius said a son should remonstrate gently with parents who are wrong (Analects 4.18), and Mencius said a ruler who fails his people forfeits the right to rule (1B.8). The one-way version you inherited is the one most often taught; this page cites no source for who made it so.
 
 You can honor your parents and decline to be governed by them. You can care for them in old age and refuse to marry whom they choose. That is not the abandonment of filial piety. Read Mencius: it is the fulfillment of it, and the version you were taught is the counterfeit.
 
@@ -1376,12 +1376,12 @@ Practical guidance, not legal advice.
 
 ## 25. Where to get help {#help}
 
-Checked 2026-09-27.
+Checked 2026-10-03.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving religious or cultural control | UK | **0800 448 0748** (freephone; set hours, see website) [13] |
-| **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** [14] |
+| **Faith to Faithless** | People leaving religious or cultural control | UK | **0800 448 0748** (freephone; Mon 10am–1pm, Wed 10am–1pm, Thu 4–7pm) [13] |
+| **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** (Mon–Fri 9am–5pm) [14] |
 | **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** [15] |
 
 ## 26. Sources {#sources}
@@ -1390,21 +1390,25 @@ Checked 2026-09-27.
 2. *Encyclopaedia Britannica*, "Chinese examination system" — 605 to its abolition in 1905. https://www.britannica.com/topic/Chinese-examination-system
 3. CNN, "New Chinese law: Visit your parents" (2 July 2013 — the amended Law on the Protection of the Rights and Interests of Elderly People). https://edition.cnn.com/2013/07/02/world/asia/china-elderly-law/index.html
 4. Kung Tsui-chang, 79th-generation descendant, Sacrificial Official to Confucius since 25 Sept 2009 (office created by the ROC in 1935; ceremonial only). https://en.wikipedia.org/wiki/Kung_Tsui-chang
-5. Pew Research Center, *Measuring Religion in China* (2023) — formal Confucian identification is rare; Confucian-origin family practice is widespread. https://www.pewresearch.org/religion/2023/08/30/confucianism-taoism-and-chinese-folk-religions/
+5. Pew Research Center, *Measuring Religion in China* (2023) — Pew does not analyze Confucianism as a religious affiliation and makes no estimate of the number of Confucians in China; three-quarters of Chinese adults visited a family gravesite in the past year; about two-thirds said moral renewal would rely at least partly on the Confucian tradition (2015 question). https://www.pewresearch.org/religion/2023/08/30/confucianism-taoism-and-chinese-folk-religions/
 6. *Analects* 4.18 (remonstrating gently with parents) and *Mencius* 1B.8 (a ruler who abandons benevolence forfeits the title) — Chinese Text Project. https://ctext.org/analects/li-ren · https://ctext.org/mengzi/liang-hui-wang-ii
-7. Confucius Institutes, first opened 2004 (Seoul) — Britannica, "Confucius Institute". https://www.britannica.com/topic/Confucius-Institute
+7. Confucius Institutes, first opened 2004 — Britannica, "Confucius Institute" (the link returned HTTP 404 when checked on 2026-10-03; see [17], which dates the first U.S. institute to 2004). https://www.britannica.com/topic/Confucius-Institute
 8. Susan Mann, *Precious Records: Women in China's Long Eighteenth Century* (Stanford UP, 1997) — widow-chastity honours; and Dorothy Ko, *Cinderella's Sisters: A Revisionist History of Footbinding* (UC Press, 2005). https://www.sup.org/books/title/?id=2621
 
 ### Further sources
 9. *Christian Science Monitor*, "South Korea Ends a Taboo, Strikes Blow for True Love" (4 Aug 1997) — the Constitutional Court's ruling against the same-surname, same-origin marriage ban. https://www.csmonitor.com/1997/0804/080497.intl.intl.2.html
-10. IntechOpen, "The Abolition of the Hoju System and Intergenerational Conflict in South Korea" — the March 2005 Constitutional Court ruling; individual registration from 1 Jan 2008. https://www.intechopen.com/chapters/1233172
+10. IntechOpen, "The Abolition of the Hoju System and Intergenerational Conflict in South Korea" — the March 2005 repeal of the system; individual registration from 1 Jan 2008. https://www.intechopen.com/chapters/1233172
 11. National Human Rights Commission of Korea, "The Hoju System is Unconstitutional and a Violation of Human Rights" (11 Mar 2003). https://www.humanrights.go.kr/site/program/board/basicboard/view?currentpage=46&menuid=002002001&pagesize=10&searchcategory=policy&boardtypeid=7003&boardid=7000525
 12. Gulf News / AFP, "Grandmother, 77, wins first China neglect case" (July 2013). https://gulfnews.com/world/oceania/grandmother-77-wins-first-china-neglect-case-1.1204505
-13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
+13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Mon 10am–1pm, Wed 10am–1pm, Thu 4–7pm). https://humanists.uk/faith-to-faithless/helpline/
 14. Karma Nirvana — honour-based abuse and forced marriage, 0800 5999 247. https://karmanirvana.org.uk/get-help/helpline/
 15. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
+16. Wikipedia, "Hoju" — the Constitutional Court of Korea held the hoju system incompatible with Article 36(1) of the Constitution on 3 February 2005; replaced by the Family Relations Register in 2008 (read 2026-10-03). https://en.wikipedia.org/wiki/Hoju
+17. U.S. Government Accountability Office, GAO-24-105981, "Confucius Institutes" — first U.S. institute established in 2004; about 100 U.S. schools once hosted one and fewer than five were in operation as of July 2023; until 2020 overseen and funded in part by Hanban, affiliated with the PRC Ministry of Education, renamed the Center for Language Education and Cooperation in 2020. https://www.gao.gov/assets/d24105981.pdf
+18. UNFPA Asia and Pacific Regional Office, Christophe Z. Guilmoto, "Sex Imbalances at Birth: Current trends, consequences and policy implications" (2012) — sex ratios at birth of 110 to 120 male births per 100 female in many Asian countries, against a biological level of 104 to 106; the decline in the share of girls is caused to a large extent by prenatal sex selection. https://asiapacific.unfpa.org/sites/default/files/pub-pdf/Sex%20Imbalances%20at%20Birth.pdf
 
 ## 27. What changed on this page {#changed}
 
+- **2026-10-03:** Corrected who said what on remonstrance: it is Confucius (Analects 4.18) who tells a son to correct his parents gently, and Mencius who says a ruler who fails his people forfeits the right to rule; the claims that the one-way version was a deliberate political edit are gone. Fixed the date of the Korean court ruling on the family-head system (3 February 2005), the number of couples under the same-clan marriage ban (about 200,000), the Wuxi order (it ran against the couple and included holidays) and the 136 BCE date. Replaced the unsourced population claim with what Pew actually reports, and brought the Confucius Institutes lines up to date. Regraded seven techniques whose grades rested on a law or analysis the entries do not describe: 29 techniques are now customary and one, financial control, is graded as written into law. Rewrote the sex-ratio claim, two loop summaries and the title of one loop, three case and regional lines, and the help-line hours. Sources 16 to 18 are new; the Britannica link for source 7 still does not open.
 - **2026-09-27:** Added Branches, Law & state, Money in numbers, three documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
 
