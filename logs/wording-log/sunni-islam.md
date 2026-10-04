@@ -1,6 +1,6 @@
 # Wording log — sunni-islam
 
-183 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/sunni-islam.json`, then rebuild. Nothing else changes.
+181 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/sunni-islam.json`, then rebuild. Nothing else changes.
 
 ## Fragments completed into sentences (110)
 
@@ -1795,7 +1795,7 @@
 
 *Reason:* Fragment completed; missing article restored; first use of 'Komnas Perempuan', glossed with its full name.
 
-## Proofreading (typos, punctuation, agreement) (8)
+## Proofreading (typos, punctuation, agreement) (6)
 
 ### SUN-P001 · md · §8 · proposed · build: applied
 
@@ -1880,30 +1880,6 @@
 > | Hold the property and hire the staff | How foreign funding arrives with expectations | Take the money | Accept funding conditioned on curriculum |
 
 *Reason:* Subject-verb agreement; doubled 'to'.
-
-### SUN-N001 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 6 documented cases on this page
-
-**After**
-
-> These are not hypotheticals. Six documented cases on this page
-
-*Reason:* Numeral at the start of a clause spelled out.
-
-### SUN-N002 · narration · §22 · proposed · build: applied
-
-**Before**
-
-> This page covers United Arab Emirates, Saudi Arabia, Egypt, Turkey, Pakistan, Indonesia, Malaysia and United Kingdom.
-
-**After**
-
-> This page covers the United Arab Emirates, Saudi Arabia, Egypt, Turkey, Pakistan, Indonesia, Malaysia and the United Kingdom.
-
-*Reason:* Country names need 'the'.
 
 ## Evidence-grade notes matched to their technique (20)
 

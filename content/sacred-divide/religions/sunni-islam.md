@@ -5,7 +5,7 @@ family: "Islam"
 family_id: islam-family
 family_members: [islam, sunni-islam, shia-islam, ahmadiyya, dawoodi-bohra]
 version: v4
-checked: 2026-09-27
+checked: 2026-10-03
 sections_filled: 27/27
 missing: []
 partial: []
@@ -20,13 +20,13 @@ partial: []
 |---|---|
 | Size | Sunni Islam has about 1.7–1.8 billion adherents (roughly 87–90% of Muslims). [ACADEMIC SOURCE: Pew] |
 | Who's in charge | No single office leads Sunni Islam. Its most cited seat of learning is al-Azhar in Cairo, headed by Grand Imam Ahmed el-Tayeb, who was appointed by the president in 2010. |
-| Chosen by / removable by | Since a 2012 law, the Council of Senior Scholars elects the Grand Imam / Nobody can remove him, because the 2014 Constitution makes the office irremovable |
+| Chosen by / removable by | Since a 2012 law, the Council of Senior Scholars is to elect the Grand Imam, but the current holder was appointed by the president in 2010, before that law, and this page records no election under it / Nobody can remove him, because the 2014 Constitution makes the office irremovable |
 | Money in one line | Sunni institutions draw on the same giving as Islam generally, and add state salaries for clerics, Gulf endowments for institutions abroad, and the media economies of celebrity preachers. |
 | Leaving in one line | Community and family enforcement typically exceeds institutional enforcement; leaving or liberalizing costs marriage prospects, family standing, and in diaspora communities, one's entire social base. [VARIES BY COMMUNITY] |
 | The unanswered question | Who accredits the scholars who decide who counts as a scholar — and why does that trail end at a ministry almost every time? |
-| Evidence | 3 of 30 techniques sourced to a named document; grades: Cultural 15, Taught 11, Contested 4 |
+| Evidence | None of the 30 techniques is sourced to a named document; grades: Cultural 15, Taught 12, Contested 3 |
 | Family | Islam — islam, sunni-islam, shia-islam, ahmadiyya, dawoodi-bohra |
-| Last checked | 2026-09-27 |
+| Last checked | 2026-10-03 |
 :::
 
 ### Disclosure scorecard
@@ -69,7 +69,7 @@ Who accredits the scholars who decide who counts as a scholar — and why does t
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| Scholars are independent of rulers. | Colonial and modern states seized the endowments that funded independence and replaced them with salaries. | [ACADEMIC SOURCE] |
+| Scholars are independent of rulers. | States took over the endowments that funded scholarly independence and replaced them with salaries. Egypt's nationalization of waqf property after 1952 is the documented case [66]. | [ACADEMIC SOURCE] |
 
 ### One cost of leaving, beside its denial
 
@@ -93,12 +93,12 @@ Sunni Muslims are ~87–90% of all Muslims. Authority lies in the Qur'an, the Su
 
 Healthy practice here looks like independent scholars who keep the classical tradition of distance from rulers, and communities that fund their mosques locally to avoid foreign money with strings attached. It also looks like debate cultures in which disagreement between the legal schools models legitimate pluralism.
 
-Indonesia’s Nahdlatul Ulama and Muhammadiyah — mass-membership organizations with genuinely contested leadership elections, together representing well over a hundred million people — show that accountable Sunni institutions exist at scale.
+Indonesia’s Nahdlatul Ulama and Muhammadiyah — mass-membership organizations that choose their own leaders rather than having them appointed by the state, together representing well over a hundred million people — show that accountable Sunni institutions exist at scale.
 
-Some of that standard is already on the record. Nahdlatul Ulama replaced its chair through a contested vote in 2021 [17]. In 2017 the Indonesian Congress of Women Ulama (KUPI) issued fatwas declaring child marriage harmful and its prevention obligatory [37]. Sisters in Islam has run Telenisa, a free legal clinic on Islamic family law for women, since 2003 [41], and initiated Musawah, the global movement for equality in Muslim family law, in 2009 [40]. Turkey publishes the Diyanet's budget as a line in the state budget [32][33]. Each is a place where the tradition met the standard this page applies, and each is recorded here as credit.
+Some of that standard is already on the record. Nahdlatul Ulama replaced its chair through a contested delegate vote in 2021 [17]. In 2017 the Indonesian Congress of Women Ulama (KUPI) issued fatwas declaring child marriage harmful and its prevention obligatory [37]. Sisters in Islam has run Telenisa, a free legal clinic on Islamic family law for women, since 2003 [41], and initiated Musawah, the global movement for equality in Muslim family law, in 2009 [40]. Turkey publishes the Diyanet's budget as a line in the state budget [32][33]. Each is a place where the tradition met the standard this page applies, and each is recorded here as credit. The NU vote has since been overtaken: in November 2025 NU’s supreme council declared its elected chair dismissed, and a January 2026 plenary restored him [62]. In August 2026 its congress voted 401 to 150 to have the chair chosen by a nine-member council of senior scholars rather than by delegates, and that council chose Abdul Hakim Mahfudz by consensus [63]. NU no longer picks its chair by delegate vote.
 
 ::: cites
-Sources for this section: [17] [18]
+Sources for this section: [17] [18] [32] [33] [37] [40] [41] [62] [63] [64]
 :::
 
 ## 5. History {#history}
@@ -133,7 +133,7 @@ The Abbasid caliph al-Ma'mun imposed a doctrinal test on scholars. Ahmad ibn Han
 ::: card
 #### 1961 — The university is nationalised
 
-Egypt's Law 103 reorganised al-Azhar under state control, converting the Muslim world's most cited seat of learning into an institution whose leadership is appointed under state law. Since 2012 the Grand Imam has been elected by al-Azhar's own Council of Senior Scholars.
+Egypt's Law 103 reorganised al-Azhar under state control, converting the Muslim world's most cited seat of learning into an institution whose leadership is appointed under state law. Since 2012 the law has given the choice of Grand Imam to al-Azhar's own Council of Senior Scholars; the current Grand Imam was appointed by the president in 2010.
 
 **Why it matters.** This was the moment the trail from 'who accredits the scholars' to 'a ministry' was formally paved. Before this, the answer was contested; after it, it was administrative.
 :::
@@ -163,7 +163,7 @@ Sunni Islam has four legal schools, and theological currents that range from the
 | **Salafi and Wahhabi currents** | Arabian origin, spread globally through Gulf-funded institutions (see Money) | These currents put direct reading of the texts ahead of the four schools' accumulated rulings, and the 1744 Saudi–Wahhabi pact joined the current to a state [57]. |
 | **Deobandi and Barelvi movements** | South Asia and its diaspora; Deoband founded 1867 [58] | They are rival South Asian seminary networks, and their disputes have at times turned violent [58][59]. |
 | **Sufi orders** | Everywhere; strongest in Africa, the Balkans, South and Southeast Asia | Authority runs through a living shaykh (a spiritual master), and the 2016 Grozny conference defined orthodoxy to include Sufism and exclude Salafism [48]. |
-| **Mass organizations** | Indonesia: Nahdlatul Ulama (~57% identify) and Muhammadiyah (~6%) [18] | They hold contested internal elections, the counterexample to state-appointed authority [17]. |
+| **Mass organizations** | Indonesia: Nahdlatul Ulama (~57% identify) and Muhammadiyah (~6%) [18] | Muhammadiyah elects its leaders by delegate ballot at its congress [64]. Nahdlatul Ulama elected its chair by delegate vote in 2021 [17], but in 2026 its congress voted 401 to 150 to have a nine-member council of senior scholars choose the chair, and that council chose by consensus [63]. Both choose their own leaders, which is the counterexample to state-appointed authority. |
 
 ## 7. Structure {#structure}
 
@@ -189,9 +189,9 @@ The scholarly class defines orthodoxy; states appoint the scholarly class. Hold 
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| al-Azhar (Cairo) — the tradition's most cited seat of learning | Grand Imam Ahmed el-Tayeb, appointed by the president in 2010, holds it. | Since a 2012 law, the Council of Senior Scholars elects the Grand Imam. | Nobody can remove him; the 2014 Constitution makes the office irremovable. |
+| al-Azhar (Cairo) — the tradition's most cited seat of learning | Grand Imam Ahmed el-Tayeb, appointed by the president in 2010, holds it. | Since a 2012 law, the Council of Senior Scholars elects the Grand Imam; the current holder was appointed by the president in 2010, before that law, and this page records no election under it. | Nobody can remove him; the 2014 Constitution makes the office irremovable. |
 | Saudi Council of Senior Scholars | The Grand Mufti, Saleh al-Fawzan since 2025, chairs it, and every member sits by royal appointment. | Members are chosen by royal decree. | Members are removable by royal decree. |
-| Turkey's Diyanet (the Presidency of Religious Affairs) | Safi Arpaguş has headed it since he was appointed by presidential decree in September 2025. The Diyanet drafts the Friday sermon read in some 90,000 mosques. | The Turkish presidency appoints its head. | The Turkish presidency can remove its head. |
+| Turkey's Diyanet (the Presidency of Religious Affairs) | Safi Arpaguş has headed it since he was appointed by presidential decree in September 2025. The Diyanet drafts the Friday sermon read in some 93,000 mosques [12]. | The Turkish presidency appoints its head. | The Turkish presidency can remove its head. |
 
 ::: tell
 Ask who accredits the scholars who decide who counts as a scholar. The trail ends at a ministry almost every time — al-Azhar, made irremovable by Egypt's 2014 constitution, is the partial exception, and its budget is still a state line.
@@ -206,7 +206,7 @@ Ask who accredits the scholars who decide who counts as a scholar. The trail end
 | Transnational madrasa networks | Education | Network leaderships and funders | They offer free schooling for the poor and hold a lifetime pipeline of dependent graduates. | It bears on whether a boy from a poor family can ever earn a living outside religion. | [ACADEMIC SOURCE] |
 | Gulf religious foundations | Funding | State and royal charitable bodies | They hold decades of exported mosque, school and publishing infrastructure. | The books in your local mosque's library may be theirs. | [ACADEMIC SOURCE] |
 | Satellite and platform preachers | Media | Individual celebrity scholars and their companies | They hold audiences larger than any classical scholar ever had, with no ijaza (a teacher's licence to transmit religious knowledge) required. | They may be who your teenager takes their religion from. | [PATTERN OBSERVED] |
-| Majelis Ulama Indonesia (MUI) | Semi-official scholarly council | Council leadership drawn from the major Islamic organizations, state-funded | It issues nationally influential fatwas, including a 2005 fatwa declaring Ahmadiyya outside Islam and ruling against pluralism and liberalism, and it keeps a role in halal (permissible under Islamic law) certification. | It bears on whether a minority mosque in your district is tolerated, and on who certifies your food. | [OFFICIAL POLICY / ACADEMIC SOURCE] |
+| Majelis Ulama Indonesia (MUI) | Semi-official scholarly council | Council leadership drawn from the major Islamic organizations, state-funded | It issues nationally influential fatwas, including two 2005 fatwas, one declaring Ahmadiyya outside Islam and one ruling against pluralism, liberalism and secularism, and it keeps a role in halal (permissible under Islamic law) certification. | It bears on whether a minority mosque in your district is tolerated, and on who certifies your food. | [OFFICIAL POLICY / ACADEMIC SOURCE] |
 
 ::: cites
 Sources for this section: [6] [7] [8] [9] [10] [11] [12] [15] [16]
@@ -219,9 +219,9 @@ Sunni Islam has no single legal regime; each state supplies its own. This table 
 | Country | Leaving Islam | Criticizing Islam | Who controls the pulpit and the fatwa |
 |---|---|---|---|
 | **Saudi Arabia** | Leaving Islam is punishable by death under the kingdom's application of Islamic law [50]. | Criticism is prosecuted, and clerics who declined to back state positions have been detained since 2017 [13][51]. | The Grand Mufti and the Council of Senior Scholars control them, by royal order [10]. |
-| **United Arab Emirates** | Hudud crimes (offences whose penalties are fixed in scripture), the basis for a death sentence for apostasy, were removed from the penal code in 2020 [20]; human-rights monitors still list apostasy as a risk [50]. | Criticizing Islam is a crime: publicly offending Islam's sacred beliefs or rites carries at least one year (Art. 312) [19][20]. | Awqaf (the General Authority of Islamic Affairs, Endowments and Zakat) writes one Friday sermon for every mosque [24], and the UAE Council for Fatwa is the official fatwa authority [21]. |
+| **United Arab Emirates** | Hudud crimes (offences whose penalties are fixed in scripture), the basis for a death sentence for apostasy, were removed from the penal code in 2020 [69]; human-rights monitors still list apostasy as a risk [50]. | Criticizing Islam is a crime: Decree-Law 34/2023 sets a minimum of one year for insulting religions or their rites (Art. 4) [65]. The matching article of the 2021 Crimes and Penalties Law [19] is not confirmed on this page. | Awqaf (the General Authority of Islamic Affairs, Endowments and Zakat) writes one Friday sermon for every mosque [24], and the UAE Council for Fatwa is the official fatwa authority [21]. |
 | **Egypt** | Leaving Islam is not a crime in the penal code, but courts have dissolved a marriage on apostasy grounds [27]. | "Contempt of religion" carries up to five years (Art. 98(f)) and is actively prosecuted [26]. | Authority sits with al-Azhar's Grand Imam, irremovable since 2014 [8][9]. |
-| **Turkey** | Leaving Islam carries no penalty. | Publicly insulting religious values carries six months to a year (Art. 216(3)), and the law has been used against critics [61]. | The Diyanet, a state presidency, drafts the sermon for some 90,000 mosques [11][12] |
+| **Turkey** | Leaving Islam carries no penalty. | Publicly insulting religious values carries six months to a year (Art. 216(3)), and the law has been used against critics [61]. | The Diyanet, a state presidency, drafts the sermon for some 93,000 mosques [11][12] |
 | **Pakistan** | Apostasy is not codified as a crime, but Pakistan is listed among countries where expressing it can bring a death sentence [50]. | Defiling the Prophet's name carries a mandatory death sentence (s. 295-C) [28]. | Federal and provincial religious bodies share it, and there is no single mufti. |
 | **Indonesia** | Leaving Islam is not a crime, but publicly inciting others to have no religion carries up to 2 years under the new Criminal Code, in force since 2 January 2026 [30]. | Blasphemy carries up to 3 years (Art. 300) [30], and a sitting governor was jailed for blasphemy in 2017 [29]. | MUI issues fatwas; the state now runs halal certification [6][7] |
 | **Malaysia** | Leaving Islam is a matter for the state syariah courts (Malaysia's Islamic courts), and the civil courts decline jurisdiction (Lina Joy, 2007) [31]. | Criticizing Islam is an offence under state syariah enactments. | State religious councils and muftis control them. |
@@ -295,7 +295,7 @@ Charity regulators oversee mosque trusts and endowments, education authorities o
 
 **Disclosed.** Headcount and budget are disclosed.
 
-**Hidden.** Content directives are hidden.
+**Hidden.** How the sermon is drafted, and who approves it, is hidden.
 :::
 
 ::: card
@@ -315,9 +315,9 @@ Charity regulators oversee mosque trusts and endowments, education authorities o
 Most Sunni money is never published: zakat to individuals, sadaqa (voluntary charity), madrasa fees, and foreign institutional funding have no public ledger. Two state-run flows do publish numbers.
 
 ```chart
-{"id":"diyanet","type":"bar","title":"Turkey's Diyanet: central-budget allocation","unit":"billion lira (nominal)",
+{"id":"diyanet","type":"bar","title":"Turkey's Diyanet: central-budget figures","unit":"billion lira (nominal)",
  "series":[["2023",35.9],["2024",91.8],["2025",130.1],["2026",174.4]],
- "note":"Nominal lira during years of high inflation; the rise is real but smaller in constant terms.",
+ "note":"Nominal lira during years of high inflation; the rise is real but smaller in constant terms. 2023 is the allocation in the budget law, before supplementary transfers. 2025 is the figure the Diyanet requested and the government proposed to parliament; the enacted figure is not recorded on this page. 2024 and 2026 are as reported for the central budget.",
  "cite":[34,35,32,33]}
 ```
 
@@ -328,7 +328,7 @@ Most Sunni money is never published: zakat to individuals, sadaqa (voluntary cha
  "cite":[36]}
 ```
 
-- **Diyanet:** ₺35.9bn (2023) → ₺91.8bn (2024) → ₺130.1bn (2025) → ₺174.4bn (2026) [32][33][34][35].
+- **Diyanet:** ₺35.9bn (2023, budget law) → ₺91.8bn (2024) → ₺130.1bn (2025, requested and proposed) → ₺174.4bn (2026) [32][33][34][35].
 - **Hajj:** 2,489,406 pilgrims in 2019; 1,000 in 2020; 1,673,230 in 2025; 1,707,301 in 2026 [36].
 
 ## 10. Genealogy {#genealogy}
@@ -340,7 +340,7 @@ Most Sunni money is never published: zakat to individuals, sadaqa (voluntary cha
 
 **What it was for.** Classical madhhab scholarship was independent because waqf endowments paid for it, not rulers. That independence let scholars rebuke kings — a genuine constitutional check.
 
-**Why that reason expired.** Colonial states seized the endowments and modern states replaced them with salaries. The check is gone, and nothing replaced it.
+**Why that reason expired.** States took over the endowments and replaced them with salaries; Egypt's nationalization of waqf property after 1952 is the documented case [66]. The check is gone, and nothing replaced it.
 
 **Who benefits now.** Governments benefit, obtaining religious endorsement for policy at the price of a civil-service wage. The loss is yours: there is now no institution that can tell a ruler he is wrong.
 :::
@@ -392,7 +392,7 @@ Most Sunni money is never published: zakat to individuals, sadaqa (voluntary cha
 ### Children
 
 - Maktab (elementary Qur'an school) and madrasa instruction begins in early childhood, and in some systems full-time hifz displaces literacy, numeracy and employable skills. [ACADEMIC SOURCE]
-- Physical abuse is documented, and so, in some residential madrasas, is sexual abuse with weak reporting pathways. [INVESTIGATIVE REPORT]
+- Physical abuse is documented, and so, in some residential madrasas, is sexual abuse with weak reporting pathways [67]. [INVESTIGATIVE REPORT]
 - Gender segregation and modesty enforcement begin young; girls' schooling is curtailed in specific contexts, the extreme case being the Taliban's bans. [GOVERNMENT REPORT]
 
 ### Bodies
@@ -403,7 +403,7 @@ Most Sunni money is never published: zakat to individuals, sadaqa (voluntary cha
 - Domestic-violence verses and hadith are contested internally; conservative readings have been used to counsel women to endure. [ACADEMIC SOURCE / FORMER MEMBER TESTIMONY]
 
 ::: cites
-Sources for this section: [13] [14]
+Sources for this section: [13] [14] [67]
 :::
 
 ## 12. The 30 techniques {#techniques}
@@ -483,7 +483,7 @@ The future on offer is Paradise and the pleasure of Allah, deliverable after dea
 
 **The counter.** Protection becomes future faking when salvation anxiety is used to keep people dependent on gatekeepers. If every ordinary decision is loaded with afterlife consequence, the believer never matures. The scholar becomes the map, the mosque becomes the checkpoint, and paradise remains the reward for staying inside the approved lane.
 
-**Evidence grade.** [[Cultural]] Salvation framed as staying with the saved group under approved scholars is carried by community preaching, with no body that issues the promise or answers for it.
+**Evidence grade.** [[Taught]] Salvation framed as staying with the saved group under approved scholars is preached and taught in sermons and study circles, without a body that issues the promise or answers for it.
 :::
 
 ::: tactic n=4
@@ -770,7 +770,7 @@ Major donors to mosque building funds quietly select the imam. Free madrasa educ
 
 **The counter.** Seeking knowledge becomes FLYING MONKEY pressure when “qualified” means “guaranteed to return you to obedience.” If every friend, teacher, imam, and relative sends you back to the same approved authorities, scholarship is being used as crowd control.
 
-**Evidence grade.** [[Taught]] The instruction to 'ask a scholar' is taught; the convergence of family, imam, friends and online teachers on that instruction is community practice.
+**Evidence grade.** [[Cultural]] Family, imam, friends and online teachers converging on the doubter is community enforcement; no body directs it or answers for it.
 :::
 
 ::: tactic n=17
@@ -865,7 +865,7 @@ Major donors to mosque building funds quietly select the imam. Free madrasa educ
 
 **The counter.** Humility becomes LEARNED HELPLESSNESS when no amount of learning permits moral agency. If the believer can never become qualified enough to object, scholarship has become a ceiling.
 
-**Evidence grade.** [[Contested]] Deference to scholars over personal judgment varies enormously by school, country, and community, and is actively disputed internally. *(sourced)*
+**Evidence grade.** [[Contested]] Deference to scholars over personal judgment varies enormously by school, country, and community, and is actively disputed internally.
 :::
 
 ::: tactic n=22
@@ -884,7 +884,7 @@ Major donors to mosque building funds quietly select the imam. Free madrasa educ
 
 **The counter.** Scholarship becomes BENEVOLENT CONTROL when it narrows the believer’s options before they can think. If only approved authorities are safe and all dissent is desire, care has become intellectual containment.
 
-**Evidence grade.** [[Contested]] Guardianship over an adult woman's marriage is required by some schools and expressly not by the Hanafi position — the disagreement is the evidence. *(sourced)*
+**Evidence grade.** [[Taught]] Presenting dependence on approved scholars as protection from misguidance is repeated in institutional teaching, without a written rule.
 :::
 
 ::: tactic n=23
@@ -962,7 +962,7 @@ Major donors to mosque building funds quietly select the imam. Free madrasa educ
 
 **The counter.** Preservation becomes FINANCIAL CONTROL when money buys religious influence or silence. If donors shape authority and the dependent cannot safely disagree, the community has made obedience economically practical.
 
-**Evidence grade.** [[Cultural]] Major-donor influence over mosque appointments and sermon content is a widely reported pattern with no governing rule. *(sourced)*
+**Evidence grade.** [[Cultural]] Major-donor influence over mosque appointments and sermon content is a widely reported pattern with no governing rule.
 :::
 
 ### Stage 7 · Discard {#stage-7}
@@ -1122,7 +1122,7 @@ Madrasa pipelines produce adults who cannot earn outside religious employment, w
 1. Free schooling draws children from poor families into maktab and madrasa instruction from early childhood (sections 9 and 11).
 2. In some systems full-time hifz displaces literacy, numeracy and employable skills (section 11).
 3. Boys in hifz-only schooling reach adulthood with no employable credential, which makes exit financially impossible (section 17).
-4. Physical abuse, and in some residential madrasas sexual abuse, goes with weak reporting pathways, and cases have been handled by relocation (sections 11 and 14).
+4. Physical abuse, and in some residential madrasas sexual abuse, goes with weak reporting pathways, and families have been pressed to forgive the cleric (sections 11 and 14).
 5. The graduate's family is honored for having a hafiz, and the institutions are staffed by graduates who cannot work anywhere else (sections 2 and 10).
 
 **Techniques that feed it.** [13 · Normalization / Desensitization](#t-13), [19 · Manufactured Consent](#t-19), [2 · Weaponized Generosity](#t-2), [23 · Infantilization](#t-23).
@@ -1159,7 +1159,7 @@ Exported religious infrastructure buys soft power for funding states, which sust
 ::: card
 #### 5 · Unpaid Labor to Assets to Power to More Labor
 
-Volunteer labor and donated land build the institution, and boards and networks hold it.
+Members' donations build the mosque, boards hold the property, and major donors gain an informal veto over imams and sermon content.
 
 **How it runs.**
 
@@ -1171,7 +1171,7 @@ Volunteer labor and donated land build the institution, and boards and networks 
 
 **Techniques that feed it.** [26 · Financial Control](#t-26), [19 · Manufactured Consent](#t-19), [16 · Flying Monkeys](#t-16).
 
-**Why it closes.** The people who give and do the work hold no office over what they built, and the boards and donors who do hold it decide who leads prayer and what is preached.
+**Why it closes.** The people who give hold no office over what they built, and the boards and donors who do hold it decide who leads prayer and what is preached.
 
 **Where it could be broken, and by whom.** It weakens where charity regulators oversee mosque trusts and endowments (section 8), and where boards publish who funds the mosque and on what terms. This lies with community boards and donors. This paragraph is analysis, not a documented finding.
 
@@ -1181,19 +1181,19 @@ Volunteer labor and donated land build the institution, and boards and networks 
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
-A teacher is moved, the community closes ranks, and no reporting policy is written.
+Families are pressed to forgive, the community closes ranks, and no reporting policy is written.
 
 **How it runs.**
 
 1. Physical abuse, and in some residential madrasas sexual abuse, is documented, with weak reporting pathways (section 11).
-2. Madrasa abuse cases have been handled by relocation, and the family that reported lost standing (section 14).
+2. Families of abused children have been pressed to forgive the cleric, and clerics have escaped conviction despite police reports (section 14).
 3. Imams may avoid addressing abuse publicly to prevent scandal, and women who report misconduct may be told to bring witnesses, preserve modesty and let elders handle it privately (technique 18).
 4. Family honor suppresses abuse reporting decisively (section 15, How the cost is denied).
-5. Network leaderships and state ministries hold the chair with no safeguarding obligation, and the school reopens (section 14).
+5. In Pakistan no central body governs the madrasas or can investigate allegations, and the page predicts the school will reopen under a new head (section 14).
 
 **Techniques that feed it.** [18 · Silent Treatment / Stonewalling](#t-18), [12 · DARVO](#t-12), [25 · Spiritual Bypassing](#t-25), [17 · Smear Campaign](#t-17).
 
-**Why it closes.** The cost of the case falls on the family that reported it, so the next family has a reason not to report. Moving the teacher meets the demand for action without any rule being written.
+**Why it closes.** The pressure to forgive falls on the family that reported, so the next family has a reason not to report, and no rule is written.
 
 **Where it could be broken, and by whom.** Section 18 names madrasa teachers as able to refuse to teach in an institution with no external reporting route. Section 23 asks whether abuse in a religious school was reported to police. Outside that, section 14 predicts the next case will come from an outside journalist. This paragraph is analysis, not a documented finding.
 
@@ -1228,15 +1228,15 @@ Anti-Muslim hostility is genuine and is used to make any internal criticism into
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| Scholars are independent of rulers. | Colonial and modern states seized the endowments that funded independence and replaced them with salaries. | [ACADEMIC SOURCE] |
+| Scholars are independent of rulers. | States took over the endowments that funded scholarly independence and replaced them with salaries. Egypt's nationalization of waqf property after 1952 is the documented case [66]. | [ACADEMIC SOURCE] |
 | We follow the consensus of the scholars. | The consensus cited is usually one school's position, and the disagreeing schools are not mentioned. | [ACADEMIC SOURCE] |
 | Honor violence has nothing to do with Islam. | The statement is correct, and many scholars say so plainly. The mechanism is legal, not doctrinal: where qisas-and-diyat law (retaliation, or compensation paid to the victim's heirs) lets a victim’s heirs pardon a killer, a family that kills one of its own can also forgive itself. Pakistan narrowed this only in 2016. | [OFFICIAL POLICY: Criminal Law (Amendment) (Offences in the Name or Pretext of Honour) Act 2016, Pakistan] |
 
 ### Accountability or theatre?
 
-**Last time the chair ran.** Madrasa abuse cases were handled by relocation, and the family that reported lost standing.
+**Last time the chair ran.** Families of abused children have been pressed to "forgive" the cleric, and police say clerics have escaped conviction despite police reports [67].
 
-**Who holds the chair now.** Network leaderships and state ministries hold it, with no safeguarding obligation.
+**Who holds the chair now.** In Pakistan no central body governs the madrasas, and none can investigate or respond to abuse allegations [67].
 
 **Prediction.** The next case will be reported by an outside journalist, the argument will be about the journalist, and the school will reopen under a new head.
 
@@ -1249,7 +1249,7 @@ Anti-Muslim hostility is genuine and is used to make any internal criticism into
 | Fitnah in the ranks | Discord raised within the community. | The specific form used against internal reformers, as distinct from external critics. | 'Raising this here is the offence.' |
 
 ::: cites
-Sources for this section: [1]
+Sources for this section: [1] [66] [67]
 :::
 
 ## 15. Cost & cover {#cost}
@@ -1355,17 +1355,17 @@ Most of the tradition's daily work is done below the councils and ministries, by
 - **what:** Social-media figure Qandeel Baloch was killed by her brother in July 2016. He was sentenced to life in 2019; in February 2022 the Lahore High Court freed him after their parents pardoned him — although a 2016 law had removed the heirs' pardon for honour killings, the protection applies only when a court classifies the killing as one [1][2][3].
 - **record:** Lahore High Court (14 Feb 2022) [3]
 - **outcome:** The loophole the 2016 reform left open was used against its own headline case [2][3].
-- **tactics:** 30, 24
+- **tactics:** 30
 - **grade:** Documented
 :::
 
 ::: case
-### The cleric detained for silence (Saudi Arabia, 2017–present)
+### The cleric facing the death penalty (Saudi Arabia, 2017–present)
 - **when:** 2017–present
-- **what:** Salman al-Awda, one of the kingdom's best-known scholars, was arrested in September 2017 after declining to publicly back the state's position on Qatar. Prosecutors sought the death penalty on 37 charges in 2018; in 2025 he remained in solitary confinement with his trial repeatedly postponed [13][14][51].
+- **what:** Salman al-Awda, one of the kingdom's best-known scholars, was arrested in September 2017 after declining to publicly back the state's position on Qatar. Prosecutors sought the death penalty on 37 charges in 2018; in 2025 he remained in solitary confinement with his trial repeatedly postponed [13][14][51]. The charges included Muslim Brotherhood affiliation and calls for government reform [68].
 - **record:** Specialized Criminal Court proceedings, as reported by Human Rights Watch and Amnesty [14][51]
-- **outcome:** The case is unresolved.
-- **tactics:** 18, 17, 21
+- **outcome:** Unresolved as of the last public report (Amnesty, 2025) [51].
+- **tactics:** 18, 17
 - **grade:** Documented
 :::
 
@@ -1415,19 +1415,19 @@ Sources for this section: [4] [5]
 - **Sisters in Islam and Musawah.** Sisters in Islam is a Malaysian group that has worked for women's rights from inside the Islamic framework since the 1980s. It initiated Musawah, the global movement for equality in Muslim family law, launched in Kuala Lumpur in February 2009 [40][41].
 - **Khaled Abou El Fadl.** He is a jurist trained in Egypt and Kuwait who argues, in *Speaking in God's Name* (2001), that authorities misuse divine law against women and others [38].
 - **Abdullahi Ahmed An-Na'im.** He argues in *Islam and the Secular State* (2008) that sharia can only be followed freely, never enforced by a state [39].
-- **Salman al-Awda.** He is a scholar whose silence on a state policy is the charge he faces [13][51].
+- **Salman al-Awda.** Arrested in 2017 after declining to publicly back the state's position on Qatar, he faces a death-penalty prosecution on 37 charges, including Muslim Brotherhood affiliation and calls for government reform; as of 2025 his trial had been repeatedly postponed [13][14][51][68].
 - **Nasr Hamid Abu Zayd.** Kept publishing after a court declared him an apostate [27].
-- **Nahdlatul Ulama.** The world's largest Muslim organization replaced its chair through a contested vote in 2021 — an internal lever that works [17].
+- **Nahdlatul Ulama.** The world's largest Muslim organization replaced its chair through a contested delegate vote in 2021 [17]. In November 2025 its supreme council declared that chair dismissed, and a January 2026 plenary restored him [62]; in August 2026 its congress moved the choice of chair from a delegate vote to a nine-member council of senior scholars [63].
 
 ## 22. Regional variants {#regional}
 
 ::: card
 ### United Arab Emirates
 - **apex:** Awqaf (the General Authority of Islamic Affairs, Endowments and Zakat) issues one Friday sermon for every mosque, at a time fixed nationwide since January 2026 [24]. The UAE Council for Fatwa, formed in 2018 and chaired by Abdallah bin Bayyah, is the official fatwa authority and supervises fatwas by other bodies [21].
-- **law:** Blasphemy is a crime (Art. 312, 2021 Crimes and Penalties Law) [19][20]. Hudud — the basis for a death sentence for apostasy — were removed from the penal code in 2020 [20]. The 2024 Personal Status Law (in force April 2025) sets marriage at 18, lets a court marry an adult woman over her guardian's objection, and extends maternal custody to 18 [22][23].
+- **law:** Blasphemy is a crime: Decree-Law 34/2023 sets a minimum of one year for insulting religions or their rites (Art. 4) [65]; the matching article of the 2021 Crimes and Penalties Law [19] is not confirmed on this page. Hudud — the basis for a death sentence for apostasy — were removed from the penal code in 2020 [69]. The 2024 Personal Status Law (in force April 2025) sets marriage at 18, lets a court marry an adult woman over her guardian's objection, and extends maternal custody to 18 [22][23].
 - **documented:** Reform has come by decree, fast and real, and the sermon, the fatwa and the family court all sit inside government [21][22][24].
-- **exit:** The law punishes public acts — offending Islam's beliefs or rites in public — so disclosure, not belief, is the legal event [19][20].
-- **regulator:** Complaints go to the federal and emirate courts and to Awqaf. For abuse, the Dubai Foundation for Women and Children runs a 24-hour helpline, 800111 [46].
+- **exit:** The provisions cited here punish insulting religion or its rites, not private belief, so disclosure, not belief, is usually the legal event [65].
+- **regulator:** Complaints go to the federal and emirate courts and to Awqaf. For abuse in Dubai, the Dubai Foundation for Women and Children runs a 24-hour helpline, 800111 [46].
 - **tell:** The Gulf's most reform-minded family law and its most centralized pulpit are the same fact: the reforms arrive by decree, and so could their reversal.
 :::
 
@@ -1443,7 +1443,7 @@ Sources for this section: [4] [5]
 
 ::: card
 ### Egypt
-- **apex:** The apex is the Grand Imam of al-Azhar, elected by its Council of Senior Scholars and irremovable under the 2014 Constitution [8][9].
+- **apex:** The apex is the Grand Imam of al-Azhar, Ahmed el-Tayeb, appointed by the president in 2010. Since 2012 the law gives the choice of a Grand Imam to al-Azhar's Council of Senior Scholars, and the 2014 Constitution makes the office irremovable [8][9].
 - **law:** The principles of sharia are the main source of legislation (Art. 2); "contempt of religion" carries up to five years (Art. 98(f)) [8][26].
 - **documented:** Blasphemy prosecutions of converts and Christians continued into 2026 [26]; a court once dissolved a scholar's marriage for apostasy [27].
 - **exit:** Leaving carries no criminal penalty, but personal-status law follows religion, as a court showed when it dissolved a scholar's marriage [27].
@@ -1455,7 +1455,7 @@ Sources for this section: [4] [5]
 ### Turkey
 - **apex:** The apex is the Diyanet, headed by Safi Arpaguş since September 2025 [11].
 - **law:** A secular constitution with a state religious presidency; the Diyanet's budget is a line in the state budget [32][33]; insulting religious values carries up to a year (Art. 216(3)) [61].
-- **documented:** The Diyanet has a budget of ₺174.4bn for 2026 [33] and a domestic network of some 90,000 mosques [12].
+- **documented:** The Diyanet has a budget of ₺174.4bn for 2026 [33] and a domestic network of some 93,000 mosques [12].
 - **exit:** Leaving carries no legal penalty; the costs are social and familial.
 - **regulator:** Parliament votes the budget; that is the lever [32][33].
 - **tell:** A secular republic runs one of the largest mosque payrolls in the world — and publishes it, which is more than most religious bodies do.
@@ -1465,7 +1465,7 @@ Sources for this section: [4] [5]
 ### Pakistan
 - **apex:** There is no single mufti; the state's religious courts and councils share authority.
 - **law:** Defiling the Prophet's name carries a mandatory death sentence (s. 295-C) [28]. For honour killings, the 2016 law removed the heirs' pardon, but only where a court classifies the killing as honour-based [1][2].
-- **documented:** The record includes the Asia Bibi acquittal (2018) and the Qandeel Baloch pardon (2022) [3][28].
+- **documented:** The record includes the Asia Bibi acquittal (2018) and the acquittal of Qandeel Baloch's brother after their parents' pardon (2022) [3][28].
 - **exit:** Leaving carries a very high legal risk; even the 2018 acquittal was met with nationwide protests [28].
 - **regulator:** The superior courts — which acquitted Asia Bibi — are the working check [28].
 - **tell:** The highest court overturned a blasphemy death sentence, and the country shut down in protest. The law is only half the machinery; the crowd is the other half.
@@ -1473,12 +1473,12 @@ Sources for this section: [4] [5]
 
 ::: card
 ### Indonesia
-- **apex:** There is no state mufti; MUI issues fatwas, and the two mass organizations elect their leaders [6][17][18].
+- **apex:** There is no state mufti; MUI issues fatwas [6]. The two mass organizations choose their own leaders: Muhammadiyah by delegate ballot [64], and Nahdlatul Ulama, since its August 2026 congress, through a nine-member council of senior scholars rather than a delegate vote [17][63]. Their followings are given in [18].
 - **law:** The 2023 Criminal Code (in force January 2026) keeps blasphemy (up to 3 years) and adds up to 2 years for publicly inciting others to have no religion [30]. The minimum marriage age has been 19 since 2019 [4].
 - **documented:** Religious courts' dispensations for underage marriage rose from 23,126 (2019) to 64,211 (2020) [5], and a governor was jailed for blasphemy in 2017 [29].
 - **exit:** Leaving is legally possible between recognised religions; atheism is socially and legally exposed [30].
 - **regulator:** Oversight rests with the religious courts, the Constitutional Court (which heard the child brides' petition) and Komnas Perempuan (the National Commission on Violence against Women) [4][5].
-- **tell:** The world's largest Muslim country has the world's largest Muslim organizations that elect their leaders — and a religious court that grants tens of thousands of child-marriage dispensations.
+- **tell:** The world's largest Muslim country has the world's largest Muslim organizations, which choose their own leaders — and a religious court that grants tens of thousands of child-marriage dispensations.
 :::
 
 ::: card
@@ -1524,8 +1524,8 @@ Sources for this section: [1] [2]
 
 This is practical guidance, not legal advice. Where you are matters more than what you believe — read the Law & state table first.
 
-1. **Check your jurisdiction.** In some countries on this page leaving, or saying so, is a crime; in others it is legally free [20][26][28][30][50].
-2. **Do not announce.** The laws on this page punish public acts — declaring, insulting, inciting — so disclosure, not belief, is usually the legal event [19][26][30].
+1. **Check your jurisdiction.** In some countries on this page leaving, or saying so, is a crime; in others it is legally free [69][26][28][30][50].
+2. **Do not announce.** The laws on this page punish public acts — declaring, insulting, inciting — so disclosure, not belief, is usually the legal event [65][26][30].
 3. **Secure documents and money first.** Keep your passport, identity documents and a bank account in your own name; in Saudi Arabia, women over 21 may now hold their own passport [25].
 4. **Know your family-law exposure.** Marriage and custody often follow religion: a court dissolved one scholar's marriage for apostasy, and Malaysia routes the question to syariah courts [27][31]. Take legal advice before any disclosure if children are involved.
 5. **Plan for your safety if honour is invoked.** Specialist services exist for forced marriage and honour-based abuse [44][46].
@@ -1537,12 +1537,12 @@ Checked 2026-09-27. Numbers and services change; check the organization's own si
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Dubai Foundation for Women and Children** | Domestic violence, child abuse, trafficking; emergency shelter | UAE | 24-hour helpline **800111**; SMS 5111 [46] |
+| **Dubai Foundation for Women and Children** | Domestic violence, child abuse, trafficking; emergency shelter | Dubai, UAE | 24-hour helpline **800111**; SMS 5111 [46] |
 | **Karma Nirvana** | Honour-based abuse and forced marriage | UK | Helpline **0800 5999 247** [44] |
-| **Faith to Faithless** (Humanists UK) | People leaving high-control religion, including Islam | UK | Helpline and peer support [42] |
+| **Faith to Faithless** (Humanists UK) | People leaving high-control religion, including Islam | UK | Helpline **0800 448 0748** (freephone; set hours, see website) and peer support [42] |
 | **Ex-Muslims of North America** | Vetted private communities; emergency fund | US, Canada | Online application [43] |
-| **Naseeha** | Muslim peer mental-health helpline (for people staying, too) | North America | **1-866-627-3342**, call or text, 24/7 [45] |
-| **Sisters in Islam — Telenisa** | Free legal advice on Islamic family law for women | Malaysia | Legal clinic, Tue–Thu [41] |
+| **Naseeha** | Muslim peer mental-health helpline (for people staying, too) | North America | **1-866-627-3342**, call or chat, 24/7 [45] |
+| **Sisters in Islam — Telenisa** | Free legal advice on Islamic family law for women | Malaysia | Tue–Thu 10:00–17:00, phone +603 7960 3357 [41] |
 | **Musawah** | Equality in Muslim family law; research and advocacy | Global | Online [40] |
 | **Humanists International — Humanists at Risk** | People facing prosecution for apostasy or blasphemy | Global | Casework [52] |
 
@@ -1572,7 +1572,7 @@ Checked 2026-09-27. Numbers and services change; check the organization's own si
 
 ### Further sources
 19. United Arab Emirates, Federal Decree-Law No. 31 of 2021 (Crimes and Penalties Law), in force 2 January 2022 — official text. https://uaelegislation.gov.ae/en/legislations/1529/download
-20. End Blasphemy Laws, "United Arab Emirates" — Article 312; hudud crimes removed from the penal code by Federal Decree-Law 15 of 2020. https://end-blasphemy-laws.org/countries/middle-east-and-north-africa/united-arab-emirates/
+20. End Blasphemy Laws, "United Arab Emirates" — quotes Article 312 of the repealed 1987 Penal Code; as fetched, it does not mention the 2021 law or the 2020 amendments. https://end-blasphemy-laws.org/countries/middle-east-and-north-africa/united-arab-emirates/
 21. UAE Cabinet, "Cabinet approves formation of 'UAE Council for Fatwa'" (2018; chaired by Abdallah bin Bayyah). https://uaecabinet.ae/en/news/cabinet-approves-formation-of-uae-council-for-fatwa
 22. United Arab Emirates, Federal Decree-Law No. 41 of 2024 (Personal Status Law), in force 15 April 2025 — official text; summary: Gulf Today (15 Apr 2025). https://uaelegislation.gov.ae/en/legislations/2770/download · https://www.gulftoday.ae/news/2025/04/15/new-personal-status-law-introduced-in-uae-here-are-the-details
 23. LY Lawyers, "New UAE Personal Status Law: Marriage and Role of Guardian" — Article 24: a court may proceed over a guardian's objection. https://lylawyers.com/new-uae-personal-status-law-marriage-and-role-of-guardian/
@@ -1614,6 +1614,14 @@ Checked 2026-09-27. Numbers and services change; check the organization's own si
 59. *Encyclopaedia Britannica*, "Barelwi school". https://www.britannica.com/topic/Barelwi-school
 60. OHCHR, "Positive steps for women in Saudi Arabia 'guardianship' system welcomed but more needed, say UN experts" (Aug 2019). https://www.ohchr.org/en/press-releases/2019/08/positive-steps-women-saudi-arabia-guardianship-system-welcomed-more-needed
 61. USCIRF, *Issue Update: Blasphemy Charges in Turkey* (2022) — Penal Code Art. 216(3). https://www.uscirf.gov/sites/default/files/2022-12/2022%20Turkey%20Charges%20for%20Blasphemy%20and%20Insulting%20Religious%20Values%20v2.pdf
+62. Bisnis.com, "Rais Aam Miftahul Akhyar ambil alih PBNU usai Gus Yahya dimakzulkan dari Ketum" (26 Nov 2025) — the Syuriyah circular declaring the elected chair dismissed from 26 Nov 2025; Investortrust, "Pleno putuskan Gus Yahya jadi Ketum PBNU lagi" (Jan 2026) — the plenary that restored him. https://kabar24.bisnis.com/read/20251126/15/1931931/gus-yahya-dipecat-dari-ketua-umum-pbnu-rais-aam-ambil-alih-kekosongan · https://investortrust.id/national/92991/pleno-putuskan-gus-yahya-jadi-ketum-pbnu-lagi-dan-pulihkan-struktur-pengurus
+63. RM.id, "401 suara setuju, Muktamar NU ketok palu pemilihan ketum lewat AHWA" (30 Aug 2026) — the 35th Congress vote to have the chair chosen by the nine-member AHWA council; NU Online, "Profil Gus Kikin yang terpilih jadi ketum PBNU hasil Muktamar ke-35" (Sept 2026) — Abdul Hakim Mahfudz chosen by the AHWA by consensus on 31 Aug 2026. https://rm.id/baca-berita/nasional/323867/401-suara-setuju-muktamar-nu-ketok-palu-pemilihan-ketum-lewat-ahwa · https://nu.or.id/nasional/profil-gus-kikin-yang-terpilih-jadi-ketum-pbnu-hasil-muktamar-ke-35-roL9u
+64. The Jakarta Post, "Haedar Nashir extends reign as Muhammadiyah chief at national congress" (20 Nov 2022) — the chair re-elected by congress delegates at the 48th Muktamar, Surakarta. https://newgelora.thejakartapost.com/indonesia/2022/11/20/haedar-nashir-extends-reign-as-muhammadiyah-chief-at-national-congress
+65. Mondaq, "UAE introduces new laws against religious defamation and extremism" — Federal Decree-Law 34/2023 on combating discrimination, hatred and extremism, Article 4: blasphemy, disrespect or insult directed at God, religions, holy rites, places or prophets carries a minimum of one year and a fine of AED 250,000 to 1,000,000. https://www.mondaq.com/discrimination-disability-sexual-harassment/1490134/uae-introduces-new-laws-against-religious-defamation-and-extremism
+66. A. Rashied Omar, "Al-Azhar: beyond the Politics of State Patronage", Contending Modernities (1 Mar 2011) — Egypt's nationalization of waqf property after 1952 left al-Azhar dependent on the state and its scholars salaried. https://contendingmodernities.nd.edu/global-currents/al-azhar-beyond-the-politics-of-state-patronage/
+67. Associated Press investigation, "Child Sex Abuse Rampant In Pakistan Religious Schools" (reported by RFE/RL, 14 Apr 2020) — families coerced into "forgiving" clerics, clerics escaping convictions despite police reports, and no central body that governs madrasas or can investigate abuse allegations. https://www.rferl.org/a/child-sex-abuse-rampant-in-pakistan-religious-schools-ap-investigation-shows/30552655.html
+68. Amnesty International, "Saudi Arabia: Prominent reformist cleric faces death sentence for his peaceful activism" (2019) — 37 counts, including Muslim Brotherhood affiliation and calls for government reform; arrested 7 Sept 2017 hours after a tweet urging an end to the Qatar stand-off. https://www.amnesty.org/en/latest/news/2019/07/saudi-arabia-prominent-reformist-cleric-faces-death-sentence-for-his-peaceful-activism/
+69. United Arab Emirates, Federal Decree-Law No. 15 of 2020 amending the Penal Code (Federal Law 3 of 1987), Article 1 as replaced — Islamic Sharia applies only to retribution and blood-money crimes; other crimes are set by the codes. https://www.moj.gov.ae/assets/2021/Federal Decree Law No. (15) of 2020 Concerning the Penal Code.pdf.aspx
 
 (Standard chronology — the four legal schools' founders, Abu Hanifa d. 767, Malik d. 795, al-Shafiʿi d. 820,
 Ibn Hanbal d. 855; al-Bukhari d. 870 and Muslim d. 875; the Saudi–Wahhabi pact of 1744; the Muslim
@@ -1622,6 +1630,7 @@ each: https://www.britannica.com/topic/Sunni)
 
 ## 27. What changed on this page {#changed}
 
+- **2026-10-03:** Updated the Nahdlatul Ulama example: its chair was declared dismissed in 2025 and restored, and in 2026 its congress moved the choice of chair from delegates to a council of senior scholars. Corrected how the Grand Imam of al-Azhar came to office, the case of Salman al-Awda, the UAE blasphemy citation, the 2025 Diyanet budget figure, the number of mosques in Turkey, the Indonesian fatwas, and a claim about madrasa abuse that the sources did not support; added sources for each, regraded three techniques, and fixed two help-line entries.
 - **2026-09-27:** Checked against the sources and corrected: al-Azhar's Grand Imam is elected and irremovable, not state-appointed; Diyanet head named (Safi Arpaguş) and mosque count updated; population corrected to 1.7–1.8 billion; the "trail ends at a ministry every time" line softened.
 - **2026-09-27:** Added Branches, Law & state, Money in numbers, six documented cases, Voices from inside, eight regional cards, Leaving safely and Where to get help; the 1961 al-Azhar turning point now notes the 2012 change.
 
