@@ -1392,5 +1392,645 @@
   "reason": "The day inside describes Nita, a mother of a nine-year-old, so she is not a young woman; the young man's sentence had a broken construction.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "JAIN-D001",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Contested]] The contest recorded here is doctrinal: Digambara doctrine holds that women cannot attain liberation in a female body, and the Svetambara tradition disagrees. The entry's own examples, adults corrected over food and fasting, rest on community custom. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] The correction of adults over food, fasting and temple attendance is family and community custom, and no body requires it. The doctrinal dispute over women's liberation is recorded in sections 10 and 14, not in this entry.",
+  "reason": "P1-1: technique 23 regraded Contested to Cultural, the grade the entry's own basis supports; (sourced) removed, no document named.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D002",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] The auctioning of ritual honors is an explicit, openly conducted temple funding practice; the wider pressure to donate and sponsor described in the entry is communal. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] The auctions are conducted openly and the bids are read aloud (section 2), but this page cites no document that codifies them. The wider pressure to donate, sponsor and meet wedding costs runs by custom.",
+  "reason": "P1-1: technique 26 regraded Codified to Cultural; no document codifies the auctions and the entry also describes custom; (sourced) removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D003",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] Minor renunciation has been publicly criticized and litigated in India as a consent problem. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] The pressure described here, praise for austerity and shame for refusal, is family and community custom, and no document requires it. Minor renunciation has been litigated in India as a consent problem (section 8), but that concerns initiation, not the dietary pressure this entry describes.",
+  "reason": "P1-1: technique 19 regraded Documented to Cultural; the entry's bullets are about dietary restraint, and only one touches the litigated matter; (sourced) removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D004",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Cultural]] Competitive childhood fasting is driven by family status with no institutional requirement. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] Competitive childhood fasting is driven by family status with no institutional requirement.",
+  "reason": "P1-1: (sourced) removed from technique 13, which names no document.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D005",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Cultural]] Community integration of religious standing and commercial credit makes dissent expensive without any enforcement body. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] Community integration of religious standing and commercial credit makes dissent expensive without any enforcement body.",
+  "reason": "P1-1: (sourced) removed from technique 14, which names no document.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D006",
+  "scope": "md",
+  "type": "grade",
+  "before": "| Evidence | 5 of 30 techniques sourced to a named document; grades: Cultural 25, Taught 2, Documented 1, Contested 1, Codified 1 |",
+  "after": "| Evidence | None of the 30 techniques is sourced to a named document; grades: Cultural 28, Taught 2 |",
+  "reason": "Tally recomputed after the regrades (Cultural 28, Taught 2; no technique sourced to a named document).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D007",
+  "scope": "md",
+  "type": "fact",
+  "before": "#### 1974 — The Anuvrat and the ecology of restraint",
+  "after": "#### 1949 — The Anuvrat movement",
+  "reason": "P1-2: Anuvrat dates from 1 March 1949, not 1974 [13].",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D008",
+  "scope": "md",
+  "type": "fact",
+  "before": "Acharya Tulsi's Anuvrat (“small vows”) movement had by this period taken a monastic discipline and offered it to laypeople as small, voluntary, self-imposed vows with no institutional enforcement.",
+  "after": "Acharya Tulsi launched the Anuvrat (“small vows”) movement on 1 March 1949 at Sardarshahar, taking a monastic discipline and offering it to laypeople as small, voluntary vows [13]. This page records no enforcement mechanism for them.",
+  "reason": "P1-2: date and description now rest on a source [13]; the unsourced 'no institutional enforcement' claim is reduced to what the page records.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D009",
+  "scope": "md",
+  "type": "fact",
+  "before": "Recorded because it is the model: a demanding ethical tradition delivered without a compliance mechanism. It is what the healthy column on this page looks like when a tradition actually builds it.",
+  "after": "Recorded as one example of what the healthy column on this page could look like: a demanding ethical discipline offered to laypeople as voluntary vows.",
+  "reason": "P1-2: 'the model' overstated what the source supports.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D010",
+  "scope": "md",
+  "type": "fact",
+  "before": "Sources for this section: [2] [3] [6]",
+  "after": "Sources for this section: [2] [3] [4] [6] [13]",
+  "reason": "P1-2 and P2-10: cites added for the Anuvrat card and the litigation card.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D011",
+  "scope": "md",
+  "type": "fact",
+  "before": "A Surat court stayed a seven-year-old girl's initiation in February 2026 on her father's plea [4]",
+  "after": "A Surat family court stayed a seven-year-old girl's initiation in December 2025 on her father's plea, before a ceremony set for 8 February 2026 [4][17]. This page records no later order.",
+  "reason": "P1-3: the stay was granted in December 2025 [17]; 8 February 2026 was the planned ceremony. The Tribune report [4] shows no later order.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D012",
+  "scope": "md",
+  "type": "fact",
+  "before": "### A seven-year-old's initiation stopped (India, 2026)\n- **when:** 2026",
+  "after": "### A seven-year-old's initiation stopped (India, 2025–2026)\n- **when:** December 2025 (ceremony planned for 8 February 2026)",
+  "reason": "P1-3: dates corrected.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D013",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **record:** *The Tribune*, February 2026 [4]\n- **outcome:** The Surat court stayed the diksha [4].",
+  "after": "- **record:** *The Tribune*, February 2026 [4]; *The Week* (PTI), 10 December 2025 [17]\n- **outcome:** The Surat family court stayed the diksha in December 2025 [4][17].",
+  "reason": "P1-3: dates and court corrected; second source added.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D014",
+  "scope": "md",
+  "type": "fact",
+  "before": "(most recently a 2026 court stay of a seven-year-old’s initiation)",
+  "after": "(most recently a December 2025 court stay of a seven-year-old’s initiation)",
+  "reason": "P1-3.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D015",
+  "scope": "md",
+  "type": "fact",
+  "before": "the 2026 diksha stay [4]",
+  "after": "the December 2025 diksha stay [4]",
+  "reason": "P1-3.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D016",
+  "scope": "md",
+  "type": "fact",
+  "before": "as a father did in 2026 [4]",
+  "after": "as a father did in 2025 [4]",
+  "reason": "P1-3.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D017",
+  "scope": "narration",
+  "type": "fact",
+  "before": "In 2026 a Surat court stayed a seven-year-old girl's initiation on her father's plea.",
+  "after": "In December 2025 a Surat family court stayed a seven-year-old girl's initiation on her father's plea, before a ceremony set for 8 February 2026.",
+  "reason": "P1-3: narration repeated the wrong date.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D018",
+  "scope": "narration",
+  "type": "fact",
+  "before": "a Surat court stayed a seven-year-old girl's initiation in 2026 [4].",
+  "after": "a Surat family court stayed a seven-year-old girl's initiation in December 2025 [4].",
+  "reason": "P1-3: narration q4 example.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D019",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **tell:** Every question on this page reached a court because the community had no other forum for it.",
+  "after": "- **tell:** Three of the questions on this page, santhara, child initiation and abuse by a monk, have reached a court.",
+  "reason": "P1-4: overstated causal claim replaced with what the page records.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D020",
+  "scope": "md",
+  "type": "fact",
+  "before": "The most accurate defense in the codex. There is no clergy with coercive power, no excommunication apparatus, and no enforcement body.",
+  "after": "The most accurate defense in the codex, and accurate for the monastic orders: nothing in them enforces lay conformity. It is not accurate for every community body. Caste and community councils have imposed social boycotts on Jain families, and Maharashtra legislated against the practice in 2016 [14][15].",
+  "reason": "P1-5: the no-enforcement claim qualified; boycott case and statute cited.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D021",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Formal religious sanction | Rare | There is no excommunication apparatus for ordinary members. | The denial is accurate, since institutional exit penalties are low. |",
+  "after": "| Formal religious sanction | Rare | The monastic orders have no excommunication apparatus for ordinary members, but community councils have imposed boycotts on families [14][15]. | The denial is accurate for the monastic orders, since their exit penalties are low. |",
+  "reason": "P1-5: same qualification in the ledger of exit.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D022",
+  "scope": "md",
+  "type": "fact",
+  "before": "because there is no excommunication apparatus for ordinary members (section 15)",
+  "after": "because the monastic orders have no excommunication apparatus for ordinary members (section 15)",
+  "reason": "P1-5: loop 6 step 2 matched to the qualified claim.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D023",
+  "scope": "md",
+  "type": "fact",
+  "before": "[[Cultural]] There is no expulsion apparatus; standing simply adjusts, and everyone knows by the end of the week.",
+  "after": "[[Cultural]] The monastic orders have no expulsion apparatus for lay members; standing simply adjusts, and everyone knows by the end of the week. Community councils have imposed formal boycotts in some cases (section 15).",
+  "reason": "P1-5: technique 28 basis matched to the qualified claim; grade unchanged.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D024",
+  "scope": "md",
+  "type": "fact",
+  "before": "There is no scandal apparatus; reputational adjustment happens silently, and nothing is ever recorded.",
+  "after": "Ordinary lapses are adjusted silently and go unrecorded; where a crime is involved, the courts act.",
+  "reason": "P2-6: summary no longer contradicts the conviction recorded in sections 8 and 19.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D025",
+  "scope": "md",
+  "type": "fact",
+  "before": "The community's minority status is invoked to make internal criticism seem disloyal to a small, vulnerable people.",
+  "after": "The community's minority status could be invoked to make internal criticism seem disloyal to a small, vulnerable people. The page records no instance of this, so the loop is its reading, not a documented finding.",
+  "reason": "P2-7: gap marked in the loop summary (step 3 already says so).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D026",
+  "scope": "md",
+  "type": "proof",
+  "before": "nobody is responsible for any of it because the authority was attributed to God.**",
+  "after": "nobody is responsible for any of it because the authority was attributed to karma and the ascetic tradition.**",
+  "reason": "P2-8: non-theistic tradition; the stage text itself names karma and the ascetic tradition as the authority.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D027",
+  "scope": "md",
+  "type": "proof",
+  "before": "*The institution is never responsible, because the authority is attributed to God — who isn't available for cross-examination.*",
+  "after": "*The institution is never responsible, because the authority is attributed to karma and the ascetic tradition, which no one can cross-examine.*",
+  "reason": "P2-8: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D028",
+  "scope": "md",
+  "type": "tag",
+  "before": "- **tactics:** 13, 25",
+  "after": "- **tactics:** 7, 25",
+  "reason": "P2-9: Double Bind (sallekhana must be free of coercion) fits better than technique 13.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D029",
+  "scope": "md",
+  "type": "tag",
+  "before": "- **tactics:** 22, 24",
+  "after": "- **tactics:** 19, 22",
+  "reason": "P2-9: Manufactured Consent fits the diksha litigation better than Identity Erosion.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D030",
+  "scope": "md",
+  "type": "tag",
+  "before": "- **tactics:** 30, 20",
+  "after": "- **tactics:** —",
+  "reason": "P2-9: Plausible Deniability and Trauma Bonding do not describe a rape conviction, and 15 and 22 fit it no better; no technique is described by the case text (as in the Sikhism volume).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D031",
+  "scope": "md",
+  "type": "fact",
+  "before": "#### 2016–2017 — The child renunciants reach the courts",
+  "after": "#### 2008–2025 — The child renunciants reach the courts",
+  "reason": "P2-10: one date range for one litigation (§20 says 2008–present).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D032",
+  "scope": "md",
+  "type": "fact",
+  "before": "Cases concerning the initiation of minors into monastic life reached Indian courts, raising whether a child can consent to a lifelong renunciation.\n",
+  "after": "Cases concerning the initiation of minors into monastic life reached Indian courts, beginning with a Bombay High Court observation in 2008 and including the Surat stay of December 2025 [4], raising whether a child can consent to a lifelong renunciation.\n",
+  "reason": "P2-10: dated and cited.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D033",
+  "scope": "md",
+  "type": "source",
+  "before": "The Federal on earlier Bombay High Court observations (2008, 2011)",
+  "after": "The Federal on the earlier Bombay High Court observation (2008)",
+  "reason": "P2-10: The Federal dates the observation to 2008; the 2011 date is not supported.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D034",
+  "scope": "md",
+  "type": "fact",
+  "before": "The Terapanth (a Svetambara order that does not worship images) is led by Acharya Mahashraman, and the Digambara (“sky-clad”) and Svetambara (“white-clad”) lineages are led by seniority and designation.",
+  "after": "The Terapanth, a Svetambara (“white-clad”) order that does not worship images, is led by Acharya Mahashraman. The other Svetambara lineages and the Digambara (“sky-clad”) lineages are led by seniority and designation.",
+  "reason": "P2-11: the Terapanth is itself Svetambara.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D035",
+  "scope": "md",
+  "type": "fact",
+  "before": "The Terapanth is led by Acharya Mahashraman, and the Digambara and Svetambara lineages are led by seniority and designation.",
+  "after": "The Terapanth, itself a Svetambara order, is led by Acharya Mahashraman, and the other Svetambara lineages and the Digambara lineages are led by seniority and designation.",
+  "reason": "P2-11: same, §7 row.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D036",
+  "scope": "md",
+  "type": "fact",
+  "before": "Temple trusts, among the oldest continuously operating religious endowments in India, hold the temple wealth, and",
+  "after": "Temple trusts hold the temple funds, and",
+  "reason": "P2-12: unsourced 'oldest continuously operating' clause cut.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D037",
+  "scope": "md",
+  "type": "fact",
+  "before": "They hold substantial wealth, and the ritual honors that are auctioned.",
+  "after": "They hold temple funds and the ritual honors that are auctioned.",
+  "reason": "P2-12: 'substantial wealth' has no source.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D038",
+  "scope": "md",
+  "type": "fact",
+  "before": "from temple trusts with significant wealth,",
+  "after": "from temple trusts,",
+  "reason": "P2-12: unsourced 'significant wealth' cut (glance and §9).",
+  "count": 2,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D039",
+  "scope": "md",
+  "type": "fact",
+  "before": "Large trusts hold concentrated board control, and donor prestige hierarchies shape influence.",
+  "after": "Trust boards are drawn from prominent donor families, and donor prestige hierarchies shape influence.",
+  "reason": "P2-12: 'concentrated board control' unsourced.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D040",
+  "scope": "md",
+  "type": "fact",
+  "before": "Temple trusts under concentrated boards.",
+  "after": "Temple trusts run by boards of prominent donor families.",
+  "reason": "P2-12.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D041",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **Temple trusts and auctioned ritual sponsorships** in India publish little (see Money above).",
+  "after": "- **Temple trusts and auctioned ritual sponsorships** in India: this page names no trust and cites no accounts for one, so it cannot say what they publish.",
+  "reason": "P2-12: 'publish little' unsourced.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D042",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Temple trusts hold substantial wealth under concentrated board control, with donor prestige hierarchies determining influence. [PATTERN OBSERVED]",
+  "after": "- Temple trusts are run by boards drawn from prominent donor families, with donor prestige hierarchies determining influence. This page names no trust and cites no accounts for one. [PATTERN OBSERVED]",
+  "reason": "P2-12.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D043",
+  "scope": "md",
+  "type": "fact",
+  "before": "- The community's genuine philanthropy and animal-welfare influence far exceeds its size — worth stating plainly, because it is the truest thing on this page. [ACADEMIC SOURCE]",
+  "after": "- The community's philanthropy and animal-welfare advocacy are widely known and worth stating plainly; this page does not measure their reach.",
+  "reason": "P2-12: 'far exceeds its size' has no source.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D044",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Animal welfare and vegetarian advocacy far exceeding the community's size | Jain institutions | Continuous | It cost nothing; this is the truest thing on this page. |",
+  "after": "| Animal welfare and vegetarian advocacy | Jain institutions | Continuous | It cost nothing; this page does not measure its reach. |",
+  "reason": "P2-12.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D045",
+  "scope": "md",
+  "type": "fact",
+  "before": "Ethical influence far larger than the community's size.",
+  "after": "Animal-welfare and vegetarian advocacy reaches beyond the community; this page does not measure how far.",
+  "reason": "P2-12 (timeline).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D046",
+  "scope": "md",
+  "type": "fact",
+  "before": "4. Those boards hold the temple wealth and the auctioned honors under concentrated board control (sections 7 and 16).",
+  "after": "4. Those boards hold the temple funds and the auctioned honors (sections 7 and 16).",
+  "reason": "P2-12 (loop 1).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D047",
+  "scope": "md",
+  "type": "fact",
+  "before": "Temple trusts and auctioned sponsorships in India publish little (section 9), so no outside reader can follow the money.",
+  "after": "This page cites no accounts for Indian temple trusts or auction proceeds (section 9), so it cannot say how far an outside reader could follow the money.",
+  "reason": "P2-12 (loop 1).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D048",
+  "scope": "md",
+  "type": "fact",
+  "before": "1. The community gives generously; its philanthropy and animal-welfare influence far exceed its size (sections 16 and 20).",
+  "after": "1. The community gives generously and is known for philanthropy and animal-welfare advocacy (sections 16 and 20).",
+  "reason": "P2-12 (loop 4).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D049",
+  "scope": "md",
+  "type": "fact",
+  "before": "4. The protected trusts continue to hold substantial wealth under concentrated board control, and in India they publish little (sections 9 and 16).",
+  "after": "4. The protected trusts continue under boards drawn from donor families, and this page cites no accounts for them in India (sections 9 and 16).",
+  "reason": "P2-12 (loop 4).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D050",
+  "scope": "md",
+  "type": "fact",
+  "before": "Lay wealth and labor build temples held by concentrated boards.",
+  "after": "Lay wealth and labor build temples held by donor-family boards.",
+  "reason": "P2-12 (loop 5).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D051",
+  "scope": "md",
+  "type": "fact",
+  "before": "are held by trusts under concentrated board control, with boards drawn from prominent donor families (sections 7 and 9).",
+  "after": "are held by trusts, with boards drawn from prominent donor families (sections 7 and 9).",
+  "reason": "P2-12 (loop 5).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D052",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **tell:** Diaspora Jain bodies publish accounts; Indian temple trusts mostly do not.",
+  "after": "- **tell:** Diaspora Jain bodies in the UK publish accounts [8]; this page records no accounts for Indian temple trusts.",
+  "reason": "P2-12 (§22).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D053",
+  "scope": "md",
+  "type": "fact",
+  "before": "Moral rank has no regulator; the money always does.",
+  "after": "Moral rank has no regulator; trust money has the registrars.",
+  "reason": "P3-21: 'the money always does' overstated.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D054",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **Oshwal Association, 2025:** £662,580 of £2.10m income from donations; £1.74m spent [8].",
+  "after": "- **Oshwal Association, 2025:** £2.10m income and about £1.7m spent [8][16]. This page does not record the share that came from donations.",
+  "reason": "P2-13: 2025 income and spending confirmed on OpenCharities [16]; the £662,580 and £1.74m figures could not be confirmed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D055",
+  "scope": "md",
+  "type": "fact",
+  "before": "2025 income of £2.10m, of which £662,580 came from donations.",
+  "after": "2025 income of £2.10m.",
+  "reason": "P2-13 (loop 4 example).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D056",
+  "scope": "md",
+  "type": "fact",
+  "before": "Matchmakers and community brokers → School admission and business trust → Conformity across the whole family",
+  "after": "Matchmakers and community brokers → Marriage access and business credit → Conformity across the whole family",
+  "reason": "P2-14: 'school admission' is recorded nowhere; marriage access and credit are recorded in §7 and §15.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D057",
+  "scope": "md",
+  "type": "fact",
+  "before": "whose testimony convicted a monk her family revered [9]",
+  "after": "whose testimony, with other evidence, convicted a monk her family revered [9]",
+  "reason": "P2-15: the court also relied on other witnesses, the medical report and CCTV.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D058",
+  "scope": "md",
+  "type": "fact",
+  "before": "he separated her from her father and brother and raped her [9]",
+  "after": "he went to the room where she was alone and raped her [9]",
+  "reason": "P2-15: 'separated' was an inference.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D059",
+  "scope": "md",
+  "type": "fact",
+  "before": "go to the police; courts have convicted monks [9].",
+  "after": "go to the police; a court has convicted a monk [9].",
+  "reason": "P2-15: one conviction recorded.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D060",
+  "scope": "md",
+  "type": "fact",
+  "before": "a child's hunger or a widow's silence",
+  "after": "a child's hunger or a woman's silence",
+  "reason": "P3-20: widows are not discussed anywhere in the volume.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D061",
+  "scope": "md",
+  "type": "source",
+  "before": "12. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/",
+  "after": "12. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/\n13. Acharya Tulsi — launched the Anuvrat (“small vows”) movement on 1 March 1949 at Sardarshahar. https://en.wikipedia.org/wiki/Acharya_Tulsi\n14. Navbharat Live, report of a social boycott of a Jain family in Thane, Maharashtra, over a son's inter-caste or inter-faith marriage (8 Jun 2026); the family's police complaint invokes the 2016 Act. https://navbharatlive.com/maharashtra/thane/thane-social-boycott-case-jain-family-intercaste-marriage-issue-1783666.html\n15. The Maharashtra Protection of People from Social Boycott (Prevention, Prohibition and Redressal) Act, 2016 — makes social boycott a criminal offence. https://www.indiacode.nic.in/handle/123456789/19703\n16. OpenCharities, Oshwal Association of the UK (charity 267037) — income about £2.1m and spending about £1.7m for 2025; income about £1.9m for 2024. https://opencharities.uk/ew/267037\n17. The Week / PTI, Surat family court grants interim stay on a seven-year-old girl's diksha (10 Dec 2025). https://www.theweek.in/wire-updates/national/2025/12/10/lgb1-gj-court-daughter-monk.html",
+  "reason": "New sources 13–17 for the Anuvrat date, the boycott case and statute, the 2025 Oshwal figures and the December 2025 stay.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D062",
+  "scope": "md",
+  "type": "meta",
+  "before": "checked: 2026-09-27",
+  "after": "checked: 2026-10-03",
+  "reason": "Text rechecked after the discrepancy fixes.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D063",
+  "scope": "md",
+  "type": "meta",
+  "before": "| Last checked | 2026-09-27 |",
+  "after": "| Last checked | 2026-10-03 |",
+  "reason": "Same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "JAIN-D064",
+  "scope": "md",
+  "type": "changelog",
+  "before": "- **2026-09-27:** Added Branches,",
+  "after": "- **2026-10-03:** Corrected the date of the Surat court stay on a child's initiation (December 2025, not February 2026) and the date of the Anuvrat movement (1949). Said plainly that community councils have imposed social boycotts on Jain families, and cited the Maharashtra law against them. Removed or qualified claims about temple trusts, philanthropy and the Terapanth that the page could not support, and dropped an unconfirmed donations figure. Re-graded three techniques whose evidence was custom rather than a document, so the page now counts none as sourced to a named document. Corrected the closing line of the India card, the wording of the monk-conviction case, the case tags and the loop summaries, and made the final authority line fit a tradition without a creator god.\n- **2026-09-27:** Added Branches,",
+  "reason": "Patch note for this round (CLAUDE.md patch-notes rule).",
+  "count": 1,
+  "status": "proposed"
  }
 ]
