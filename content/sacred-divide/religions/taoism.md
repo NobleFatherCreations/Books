@@ -5,7 +5,7 @@ family: "East Asian"
 family_id: east-asian
 family_members: [taoism, confucianism, shinto]
 version: v4
-checked: 2026-09-27
+checked: 2026-10-03
 sections_filled: 27/27
 missing: []
 partial: []
@@ -18,15 +18,15 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | Extremely difficult to count: perhaps 8–20 million formally identifying, while hundreds of millions of Chinese people participate in practices of Daoist origin without any affiliation. [ACADEMIC SOURCE] |
+| Size | Extremely difficult to count: fewer than 0.5% of Chinese adults identify as Taoist, yet 18% say they believe in immortals and 47% in fengshui, so belief and practice run far beyond formal identification [5]. [ACADEMIC SOURCE] |
 | Who's in charge | The Chinese Taoist Association is the state-supervised body through which clergy registration and temple licensing run in the People's Republic of China (PRC). Its president is Li Guangfu, re-elected in December 2025. |
-| Chosen by / removable by | The Chinese Communist Party's religious-affairs apparatus / The Chinese Communist Party |
+| Chosen by / removable by | Elected at the Association's national congress, under state supervision [4] / Not recorded on this page |
 | Money in one line | The money comes from temple fees, ritual services (funerals, exorcisms, blessings), fortune-telling, feng shui (the practice of siting buildings and graves by supposed energy flows) and the global market in qigong (breathing and movement exercises) and wellness courses. |
 | Leaving in one line | Formal exit costs are low. The risk is master-student capture in small schools, where 'transmission' (the handing down of a teacher's teachings and authority along a lineage, a chain of teachers and students) is used to justify control and fees. |
 | The unanswered question | If the transmission is real, why can no lineage be verified before the money changes hands? |
-| Evidence | Three of the 30 techniques are sourced to a named document. The grades are Cultural 29 and Codified 1. |
+| Evidence | None of the 30 techniques is sourced to a named document. All 30 are graded Cultural; none is graded Codified. |
 | Family | East Asian — taoism, confucianism, shinto |
-| Last checked | 2026-09-27 |
+| Last checked | 2026-10-03 |
 :::
 
 ### Disclosure scorecard
@@ -56,7 +56,7 @@ In the evening her daughter calls from Denver and asks, carefully, how much leve
 ## 3. The forefront {#forefront}
 
 ::: lede
-You may have come to this through breath, movement, or a book that told you to stop striving — and found something true. But this is also the tradition where almost nothing is written down, no one can be verified, and 'you are resisting the flow' can be said to you by a man charging four thousand dollars for the next level. Softness is not the same as safety.
+You may have come to this through breath, movement, or a book that told you to stop striving — and found something true. But this is also the tradition where almost nothing about the teacher-student relationship is written down, no one can be verified, and 'you are resisting the flow' can be said to you by a man charging four thousand eight hundred dollars for the next level. Softness is not the same as safety.
 :::
 
 ### The unanswered question
@@ -69,7 +69,7 @@ If the transmission is real, why can no lineage be verified before the money cha
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| The Dao (the Way, the tradition's name for the underlying order of things) cannot be captured in words. | Said by people selling words, in graded and priced levels. | [PATTERN OBSERVED] |
+| The Dao (the Way, the tradition's name for the underlying order of things) cannot be captured in words. | Said by some of the people selling words, in graded and priced levels. | [PATTERN OBSERVED] |
 
 ### One cost of leaving, beside its denial
 
@@ -101,7 +101,7 @@ The tradition began with classical texts (~4th c. BCE) and took organized religi
 
 ```timeline
 c. 4th–3rd c. BCE | Daodejing and Zhuangzi circulate | A philosophy explicitly skeptical of rulers, hierarchy, and moral posturing.
-142 CE | Celestial Masters movement (led by a hereditary line of leaders descended from Zhang Daoling) founded; organized religious Daoism with clergy and dues | Philosophy acquires an institution, a priesthood, and a tax — within four centuries of the texts.
+142 CE | Celestial Masters movement (led by a hereditary line of leaders descended from Zhang Daoling) founded; organized religious Daoism with clergy and dues | Philosophy acquires an institution, a priesthood, and a tax — within about five centuries of the texts.
 300–900 CE | Canon formation; Shangqing and Lingbao (two scriptural traditions of early Daoism) traditions; imperial patronage cycles | Court favor determines which lineages flourish.
 1100–1400 | Quanzhen (Complete Perfection) monasticism; Mongol-era patronage | Monastic Daoism institutionalizes; internal alchemy traditions formalize.
 1400–1900 | Temple networks, ritual specialists, folk-religion integration | Daoist ritual becomes the practical religion of village life across China.
@@ -117,7 +117,7 @@ c. 4th–3rd c. BCE | Daodejing and Zhuangzi circulate | A philosophy explicitly
 ::: card
 #### 1281 — The books are burned
 
-Under Kublai Khan, after court debates between Buddhists and Taoists, an edict ordered the destruction of Taoist texts other than the Daodejing. A large part of the written tradition was lost.
+Under Kublai Khan, after court debates between Buddhists and Taoists, an edict ordered the Daoist canon and its printing blocks burned; one account says the Daodejing alone was spared [16]. A large part of the written tradition was lost.
 
 **Why it matters.** Lineage in this tradition is thin partly because a state destroyed the records. That history is why 'we cannot verify the lineage' deserves sympathy — and why it cannot function as a permanent answer to a paying student.
 :::
@@ -135,11 +135,11 @@ The Chinese Taoist Association was established under the new state's religious-a
 
 As qigong and internal-arts teaching commercialised in the West, competing Celestial Master claims and unverifiable transmission lines entered a marketplace with no register, no governing body, and no complaints procedure.
 
-**Why it matters.** This is the one page in this codex where the meaningful accountability body is a small-claims court. Ask for one checkable fact before paying — the response is the entire due diligence.
+**Why it matters.** On this page, the meaningful accountability body in the West is a small-claims court. Ask for one checkable fact before paying — the response is the entire due diligence.
 :::
 
 ::: cites
-Sources for this section: [7] [9]
+Sources for this section: [7] [9] [16]
 :::
 
 ## 6. Branches & variants {#branches}
@@ -150,7 +150,7 @@ The principal ordination lineages are Quanzhen and Zhengyi (Orthodox Unity). Bes
 |---|---|---|
 | **Quanzhen** | Monastic; mainland China | Its clergy are celibate and live in temples [7]. |
 | **Zhengyi** (Celestial Masters) | Married priests; mainland China and Taiwan | It follows a hereditary Celestial Master line, and rival claimants have contested the 65th generation since 2008 [7][8]. |
-| **Local temple traditions** | China, Taiwan, Southeast Asia | These traditions blend with folk religion; few people identify as Daoist, but 18% of Chinese adults believe in Daoist deities [5]. |
+| **Local temple traditions** | China, Taiwan, Southeast Asia | These traditions blend with folk religion; few people identify as Daoist, but 18% of Chinese adults say they believe in immortals [5]. |
 | **Western philosophical and wellness streams** | Europe, North America | These are tai chi and qigong societies, often charities with no clergy [12]. |
 
 ## 7. Structure {#structure}
@@ -159,7 +159,7 @@ The principal ordination lineages are Quanzhen and Zhengyi (Orthodox Unity). Bes
 
 |  |  |
 |---|---|
-| Adherents | Extremely difficult to count: perhaps 8–20 million formally identifying, while hundreds of millions of Chinese people participate in practices of Daoist origin without any affiliation. [ACADEMIC SOURCE] |
+| Adherents | Extremely difficult to count: fewer than 0.5% of Chinese adults identify as Taoist, yet 18% say they believe in immortals and 47% in fengshui, so belief and practice run far beyond formal identification [5]. [ACADEMIC SOURCE] |
 | Regions | The tradition is found in mainland China, Taiwan (where temple Daoism is vigorous and unregulated by Beijing), Hong Kong, Singapore, Malaysia, Vietnam and the global diaspora. |
 | Trend | The revival in the PRC is state-managed, the tradition is strong in Taiwan, and the global wellness stream is growing fastest and least accountably. |
 | Participation | The gap between practice and identity is the largest of any tradition here — a person may use feng shui, consult a temple, and practice qigong while reporting no religion at all. |
@@ -177,7 +177,7 @@ Two apexes exist, and neither can be appealed by a student: a state license, or 
 
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
-| Chinese Taoist Association | It is the state-supervised body through which clergy registration and temple licensing run in the PRC. Its president is Li Guangfu, re-elected in December 2025. | The Party's religious-affairs apparatus chooses the holder. | The Party can remove the holder. |
+| Chinese Taoist Association | It is the state-supervised body through which clergy registration and temple licensing run in the PRC. Its president is Li Guangfu, re-elected in December 2025. | The president is elected at the Association's national congress, under state supervision [4]. | This page does not record who can remove the holder. |
 | The Celestial Master line | The succession most cited in the West is itself disputed among claimants — the lineage cannot agree on who holds it | The holder is chosen by contested inheritance. | Nobody can remove the holder. |
 | The Western teaching market | No register, no governing body, no complaint procedure. The teacher is the apex of a lineage you cannot verify before payment | Teachers designate themselves. | Removal is by refund policy, if there is one. |
 
@@ -189,11 +189,11 @@ Before the first fee changes hands, ask for one thing that can be independently 
 
 | Entity | Type | Holder | Holds | Why it matters to you | Receipt |
 |---|---|---|---|---|---|
-| China Taoist Association | State-licensed body | Its leadership is approved by the government. | It holds the registration of clergy and temples in the PRC. | It determines whether your priest is permitted to exist. | [OFFICIAL POLICY] |
-| Temple tourism management companies | Commercial | Management firms and local government hold it. | It holds ticketed access to sacred sites and the revenue from it. | It decides admission to a mountain your ancestors walked up for free. | [OFFICIAL POLICY: 2017 directive of twelve central agencies barring investors from running temples] |
+| China Taoist Association | State-licensed body | It is state-supervised [4]; this page does not record how its leadership is approved. | It holds the registration of clergy and temples in the PRC. | It determines whether your priest is permitted to exist. | [OFFICIAL POLICY] |
+| Temple tourism management companies | Commercial | Management companies and local officials hold it. | It holds ticketed access to sacred sites; Freedom House found average admission of 6 yuan outside scenic parks and 59 yuan inside them [6]. | It decides admission to a mountain your ancestors walked up for free. | [INVESTIGATIVE REPORT / OFFICIAL POLICY: 2017 directive of twelve central agencies barring investors from running temples] |
 | Ritual service providers | Fee-for-outcome practice | Ritual masters and geomancers (practitioners of feng shui) hold it. | It holds funerals, exorcisms and site blessings, priced during crisis. | It sets what your grief and your illness cost. | [PATTERN OBSERVED] |
-| Western lineage entrepreneurs | Unverifiable credential | Self-certified masters hold it. | It holds escalating course fees and secret transmissions with no external validator. | It means years of payments for access to your own breath. | [PATTERN OBSERVED / FORMER MEMBER TESTIMONY] |
-| Global qigong and wellness certification chains | Commercial pyramid | Original certifiers hold it. | It holds downstream fee shares from everyone they credential. | It sets what being allowed to teach costs, forever. |  |
+| Western lineage entrepreneurs | Unverifiable credential | Self-certified masters hold it. | It holds escalating course fees and secret transmissions with no external validator. | It means years of payments for access to your own breath. | [PATTERN OBSERVED] |
+| Global qigong and wellness certification chains | Commercial pyramid | Original certifiers hold it. | It holds downstream fee shares from everyone they credential. | It sets what being allowed to teach costs, forever. | [PATTERN OBSERVED] |
 
 ::: cites
 Sources for this section: [3] [4] [5] [8]
@@ -203,11 +203,11 @@ Sources for this section: [3] [4] [5] [8]
 
 | Country | What the law does | The accountability question |
 |---|---|---|
-| **China — registration** | The Regulations on Religious Affairs (in force February 2018) require clergy and venues to register [3]; the China Taoist Association is the state-supervised body (president re-elected December 2025) [4] | At least 120,000 Buddhist and Taoist clergy work within this system [6] |
-| **China — commerce** | Twelve central departments barred companies from investing in, leasing or running Buddhist and Taoist venues in 2017, after a 2012 notice failed [1][2] | Temple tourism is regulated by the same state that profits from it [1][6] |
+| **China — registration** | The Regulations on Religious Affairs (in force February 2018) require clergy and venues to register [3]; the China Taoist Association is the state-supervised body (president re-elected December 2025) [4] | On 2014 data, at least 120,000 Buddhist and Taoist clergy work within this system [6] |
+| **China — commerce** | Twelve central departments barred companies from investing in, leasing or running Buddhist and Taoist venues in 2017, after a 2012 notice failed [1][2] | Temple tourism is regulated by the same state whose local officials have sought a share of its revenue [1][6] |
 | **China — buildings** | Religious statues need approval from religious-affairs authorities [10][11] | Authorities ordered a Laozi statue demolished and another covered in 2018 [10][11] |
 | **China — qigong** | Falun Gong, a qigong movement, was banned in July 1999 [9] | The state banned the movement outright [9]. |
-| **United Kingdom** | Charity law applies to registered tai chi societies [12]. | Registered tai chi societies file public accounts [12]. |
+| **United Kingdom** | Charity law applies to registered tai chi societies [12]. | One registered charity, the Taoist Tai Chi Society of Great Britain, files public accounts [12]. |
 
 ### Who can compel an answer
 
@@ -218,41 +218,41 @@ In the West: consumer-protection law and the small-claims court — the teacher 
 ### Where it comes from
 
 - The money comes from temple fees, ritual services (funerals, exorcisms, blessings), fortune-telling and feng shui economies, and the global qigong and wellness course market.
-- In the PRC, temple tourism is monetized: sacred sites are ticketed, and the revenue flows through state-adjacent management. [OFFICIAL POLICY: 2017 directive of twelve central agencies barring investors from running temples]
+- In the PRC, temple tourism is monetized: sacred sites are ticketed, with average admission of 6 yuan outside scenic parks and 59 yuan inside them, and local officials and developers have sought a share of the revenue [6]. This page does not record where the ticket revenue finally goes. [INVESTIGATIVE REPORT] A 2017 directive barred outside investors from running temples [1][2]. [OFFICIAL POLICY]
 
 ### Follow the money
 
 | Flow | Stated purpose | How it controls | Who benefits |
 |---|---|---|---|
-| Temple offerings, incense, divination, and fortune slips | Blessing, guidance, temple upkeep | Fee-per-answer religion targeting anxiety about health, money, and marriage | Temples and ritual specialists benefit, and in the PRC so does state-adjacent management. |
+| Temple offerings, incense, divination, and fortune slips | Blessing, guidance, temple upkeep | Fee-per-answer religion targeting anxiety about health, money, and marriage | Temples and ritual specialists benefit. |
 | Ritual services (funerals, exorcisms, geomancy) | Care for the dead; harmony of place | Priced life-crisis services with no standard rates; escalation during grief | Ritual masters and their networks benefit. |
 | Qigong, tai chi, and internal-alchemy courses | Health and cultivation | Escalating levels, initiation fees, and secret transmissions — a certification pyramid with no external validator | Teachers and lineage entrepreneurs benefit. |
-| Temple tourism and ticketed sacred sites | Heritage preservation | Sacred access converted to admission revenue under management with unclear beneficiaries | Management companies and local government benefit. [OFFICIAL POLICY: 2017 directive of twelve central agencies barring investors from running temples] |
+| Temple tourism and ticketed sacred sites | Heritage preservation | Sacred access converted to admission revenue under management with unclear beneficiaries | Local officials and developers have sought a share of the revenue [6]. [INVESTIGATIVE REPORT / OFFICIAL POLICY: 2017 directive of twelve central agencies barring investors from running temples] |
 
 ### Pipelines this tradition shares
 
 ::: card
 #### Graded spiritual services
 
-**Source.** Members pay for each level of advancement.
+**Source.** Students pay for each course, initiation or certification level (section 2).
 
-**Path.** Local org → Central organization → Real-estate and reserve entities
+**Path.** Student → Teacher → In certification chains, the original certifier
 
-**Disclosed.** Price lists are disclosed.
+**Disclosed.** Not recorded on this page; no published rate list is recorded.
 
-**Hidden.** Everything downstream of the price lists stays hidden.
+**Hidden.** Where the fees go beyond the teacher stays hidden.
 :::
 
 ::: card
-#### Retreat and ceremony tourism
+#### Temple admission
 
-**Source.** The money comes from Western participants seeking healing.
+**Source.** The money comes from visitors paying admission to sacred sites.
 
-**Path.** Operator, often not from the source community → Facilitators → Offshore or personal accounts
+**Path.** Visitor → Ticketed site → Management companies and local officials
 
-**Disclosed.** Prices are disclosed.
+**Disclosed.** Admission prices are charged openly; Freedom House found average admission of 6 yuan outside scenic parks and 59 yuan inside them [6].
 
-**Hidden.** Safety record, training and benefit-sharing stay hidden.
+**Hidden.** Who finally receives the ticket revenue stays unclear.
 :::
 
 ::: card
@@ -267,18 +267,6 @@ In the West: consumer-protection law and the small-claims court — the teacher 
 **Hidden.** Failure rates and income distribution stay hidden.
 :::
 
-::: card
-#### State clerical payroll
-
-**Source.** The money comes from public revenue.
-
-**Path.** Religious affairs ministry → Licensed clergy → Sermon content approval
-
-**Disclosed.** Headcount and budget are disclosed.
-
-**Hidden.** Content directives stay hidden.
-:::
-
 ::: cites
 Sources for this section: [1] [2] [6]
 :::
@@ -287,8 +275,8 @@ Sources for this section: [1] [2] [6]
 
 ```chart
 {"id":"ttcs-gb","type":"bar","title":"Taoist Tai Chi Society of Great Britain: income","unit":"£ thousand, years to 31 December",
- "series":[["2021",252],["2022",510],["2023",254],["2024",227],["2025",1430]],
- "note":"A UK charity teaching Taoist tai chi; public because it is registered. Income swings sharply between years.",
+ "series":[["2021",252],["2022",510],["2023",254],["2024",227]],
+ "note":"A UK charity teaching Taoist tai chi; public because it is registered. Income swings sharply between years. Accounts for 2025 are not shown because they could not be confirmed.",
  "cite":[12]}
 ```
 
@@ -340,7 +328,7 @@ Sources for this section: [1] [2] [6]
 
 **What it was for.** It was framed as restoring a tradition the state itself had devastated.
 
-**Why that reason expired.** Restoration under permission is management. Clergy are licensed, content is restricted, and sacred sites are ticketed heritage attractions with revenue flowing through state-adjacent administration.
+**Why that reason expired.** Restoration under permission is management. Clergy are licensed, content is restricted, and sacred sites are ticketed heritage attractions, with local officials and developers seeking a share of the revenue [6].
 
 **Who benefits now.** The state benefits, because it converts a suppressed religion into managed heritage and tourism income.
 :::
@@ -356,14 +344,14 @@ Sources for this section: [1] [2] [6]
 ### Children
 
 - Children receive little formal initiation in most traditions; they participate in family temple observance and ancestor rites rather than being enrolled.
-- Martial-arts and temple training schools for children can be intense, and in some documented commercial schools abusive. [INVESTIGATIVE REPORT]
+- Martial-arts and temple training schools for children can be intense, and abuse in commercial schools is a risk; this page cites no report of a case. [PATTERN OBSERVED]
 - Fortune-telling and horoscope framing applied to children can shape marriage, career, and naming decisions before consent. [PATTERN OBSERVED]
 
 ### Bodies
 
 - Female priests and Daoist nuns have a genuine historical presence — comparatively strong among traditions in this codex. [ACADEMIC SOURCE]
 - Internal-alchemy literature contains gender-differentiated practice, sometimes framing female bodies as requiring correction.
-- The high-risk zone is the modern teacher–student market: sexual-energy and 'dual cultivation' (practices involving sexual union, presented as spiritual or energetic cultivation) framings have been used to obtain sex from students. [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT]
+- The high-risk zone is the modern teacher–student market: sexual-energy and 'dual cultivation' (practices involving sexual union, presented as spiritual or energetic cultivation) framings can be used to pressure students into sex; this page cites no report of a case. [PATTERN OBSERVED]
 
 ::: cites
 Sources for this section: [3] [7]
@@ -543,7 +531,7 @@ Your qi is blocked, your practice impure, your mind too Western. The problem is 
 ::: stage
 **The rewards become unpredictable, the standard keeps moving, the answers stop meaning anything, and the accusation gets turned around.**
 
-Ask a direct question and you are too rigid, too rational, not ready. In documented cases, sexual-energy and dual-cultivation framings were used to obtain sex, and refusal was recast as blockage. [FORMER MEMBER TESTIMONY]
+Ask a direct question and you are too rigid, too rational, not ready. Sexual-energy and dual-cultivation framings can be used to pressure students into sex, with refusal recast as blockage; this page cites no report of a case. [PATTERN OBSERVED]
 
 *What it asks of you:* Anything that makes your 'no' into a symptom is not a spiritual teaching.
 :::
@@ -561,7 +549,7 @@ Ask a direct question and you are too rigid, too rational, not ready. In documen
 
 **The strongest defense.** Qi cultivation genuinely varies by day, constitution, and season; honest teachers say so.
 
-**The counter.** Honest variability belongs to the body. It stops being honest when the teacher owns all hits and the student owns all misses — an accounting fraud older than the practices themselves.
+**The counter.** Honest variability belongs to the body. It stops being honest when the teacher owns all hits and the student owns all misses — the teacher keeps the ledger and the student cannot audit it.
 
 **Evidence grade.** [[Cultural]] The pattern the entry describes is the unpredictable payout of sensations and the teacher's reading of them. It happens in practice sessions and leaves no record.
 :::
@@ -599,7 +587,7 @@ Ask a direct question and you are too rigid, too rational, not ready. In documen
 
 **The counter.** Poetry becomes strategic ambiguity when the metaphor always benefits the master. If your no is blockage and their demand is flow, the Dao has been turned into a fog bank around authority.
 
-**Evidence grade.** [[Cultural]] Unverifiable lineage and 'the transmission cannot be explained' are market conditions rather than doctrine. *(sourced)*
+**Evidence grade.** [[Cultural]] The vague terms the entry names ('flow', 'energy blockage') are used in spoken instruction and leave no record. That they are used to shut down questions is a pattern observed, and this page cites no document for it.
 :::
 
 ::: tactic n=11
@@ -710,15 +698,15 @@ Only he can assess your progress. The transmission cannot be explained, written,
 
 **The counter.** Correction becomes triangulation when the teacher invokes invisible forces to outrank the student’s perception. If your no is diagnosed as imbalance by the same person who benefits from your yes, the Dao has been drafted into manipulation.
 
-**Evidence grade.** [[Codified]] In the PRC, clergy registration and temple licensing place mediation of the tradition under state administration. *(sourced)*
+**Evidence grade.** [[Cultural]] The mediation the entry describes, by senior students, lineage claims and the teacher's diagnosis, is informal. No rule governs it (PRC clergy registration covers licensed clergy, not students within a lineage) and no body records it.
 :::
 
 ### Stage 6 · Extract {#stage-6}
 
 ::: stage
-**Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
+**Now the harvest: your labor, your money, your identity, your silence, your capacity to trust yourself.**
 
-Escalating course and initiation fees with nothing transferable. Ritual services priced during illness and bereavement. Certification pyramids where the upstream seller takes a margin on every practitioner. And in the PRC, licensed clergy and ticketed sacred sites with revenue flowing through state-adjacent management.
+Escalating course and initiation fees with nothing transferable. Ritual services priced during illness and bereavement. Certification pyramids where the upstream seller takes a margin on every practitioner. And in the PRC, licensed clergy and ticketed sacred sites where local officials and developers seek a share of the revenue.
 
 *What it asks of you:* You paid repeatedly for access to your own breath, from a man whose credentials cannot be checked by anyone.
 :::
@@ -931,7 +919,7 @@ Escalating course and initiation fees with nothing transferable. Ritual services
 
 **The counter.** Transmission becomes FINANCIAL CONTROL when the next level is always paywalled and the teacher defines your blockage. If the person selling the cure also diagnoses the defect, the Dao has become a toll road.
 
-**Evidence grade.** [[Cultural]] Escalating course and initiation pricing in the global wellness market, with no licensing body and no published rates. *(sourced)*
+**Evidence grade.** [[Cultural]] The escalating course and initiation pricing the entry describes is set privately by each teacher, with no licensing body and no published rates. This page cites no price document.
 :::
 
 ### Stage 7 · Discard {#stage-7}
@@ -1055,7 +1043,7 @@ Escalating fees fund the teacher who defines the levels and assesses your progre
 
 **Why it closes.** The person who prices the levels also defines them and judges progress. The page records no register, no governing body and no published rates in the Western teaching market (section 7), so a student has nothing outside the teacher to measure either the progress or the price against.
 
-**Where it could be broken, and by whom.** It weakens wherever the price and the level become checkable before payment. A student can ask for a price list for every level, in writing and in advance (section 23, question 2). In the United Kingdom, tai chi societies registered as charities file public accounts (sections 8 and 9), and consumer law and the small-claims court apply to an invoice (section 8). This paragraph is analysis, not a documented finding.
+**Where it could be broken, and by whom.** It weakens wherever the price and the level become checkable before payment. A student can ask for a price list for every level, in writing and in advance (section 23, question 2). In the United Kingdom, a registered tai chi charity, the Taoist Tai Chi Society of Great Britain, files public accounts (sections 8 and 9), and consumer law and the small-claims court apply to an invoice (section 8). This paragraph is analysis, not a documented finding.
 
 **An example from this page.** Ellen has spent $18,400 across three years on a foundations course, an intensive, a certification track and two private diagnostics, and level three costs a further $4,800 (section 2).
 :::
@@ -1093,7 +1081,7 @@ The tradition has little institutional childhood capture; the risk is master-stu
 2. There is no membership to leave later, and the formal penalty for leaving is very low (sections 3 and 15).
 3. Fortune-telling and horoscope framing applied to children can shape marriage, career and naming decisions before consent (section 11).
 4. The capture the page records happens later, in adulthood, in small schools with a master-student relationship (section 15).
-5. Abuse is documented in some commercial martial-arts boarding schools for children, where parents paid for the discipline (section 17).
+5. Abuse in commercial martial-arts boarding schools for children is named as a risk, with no case cited, where parents paid for the discipline (section 17).
 
 **Techniques that feed it.** [13 · Normalization / Desensitization](#t-13), [23 · Infantilization](#t-23).
 
@@ -1101,7 +1089,7 @@ The tradition has little institutional childhood capture; the risk is master-stu
 
 **Where it could be broken, and by whom.** The childhood stage has little institutional hold to break. Parents can ask a school for one independently checkable fact before paying, as section 7 advises. This paragraph is analysis, not a documented finding.
 
-**An example from this page.** Children in commercial martial-arts boarding schools are listed in section 17 as a group on whom the weight falls, with documented abuse in some institutions.
+**An example from this page.** Children in commercial martial-arts boarding schools are listed in section 17 as a group on whom the weight falls, with abuse named as a risk and no case cited.
 :::
 
 ::: card
@@ -1114,12 +1102,12 @@ In the PRC, licensing trades religious existence for state management of heritag
 1. The Cultural Revolution destroyed temples and lineages, and the post-Mao revival came under state licensing (section 5).
 2. The China Taoist Association, founded in 1957, registers clergy and temples (sections 5 and 8).
 3. Clergy and temples operate by government permission (sections 5 and 7).
-4. Sacred sites become ticketed attractions, and the revenue flows through state-adjacent management (section 9).
+4. Sacred sites become ticketed attractions, and local officials and developers seek a share of the revenue (section 9).
 5. The same state orders statues covered or demolished when they lack religious-affairs approval (section 19).
 
 **Techniques that feed it.** [22 · Benevolent Control](#t-22), [26 · Financial Control](#t-26).
 
-**Why it closes.** The body that licenses the clergy, the regulator and the beneficiary of the temple revenue are all the party-state. Section 22 puts it this way: the regulator is the source of the pressure, not the remedy.
+**Why it closes.** The body that licenses the clergy and the regulator are the party-state, and local officials are reported to seek a share of the temple revenue. Section 22 puts it this way: the regulator is the source of the pressure, not the remedy.
 
 **Where it could be broken, and by whom.** The page shows the state limiting commercialization from within: in 2017 twelve central departments barred companies from investing in, leasing or running temples (sections 8 and 19). It records no outside body that can compel an answer from the state, and registered clergy could refuse very little safely (section 18). This paragraph is analysis, not a documented finding.
 
@@ -1129,7 +1117,7 @@ In the PRC, licensing trades religious existence for state management of heritag
 ::: card
 #### 5 · Unpaid Labor to Assets to Power to More Labor
 
-Students labor at schools and temples with no title and no agreement.
+The page records senior students and downstream instructors working for a master or certifier. Unpaid labor at schools or temples is not recorded on this page.
 
 **How it runs.**
 
@@ -1198,7 +1186,7 @@ The genuine 20th-century destruction of lineages is cited to make credential que
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| The Dao cannot be captured in words. | Said by people selling words, in graded and priced levels. | [PATTERN OBSERVED] |
+| The Dao cannot be captured in words. | Said by some of the people selling words, in graded and priced levels. | [PATTERN OBSERVED] |
 | Lineage must be protected by secrecy. | Which conveniently makes every credential in the global market unverifiable. | [PATTERN OBSERVED] |
 | There is no hierarchy here, only flow. | Only the master can read your qi, assess your progress, and say what the next payment buys. | [PATTERN OBSERVED] |
 
@@ -1254,16 +1242,16 @@ The genuine 20th-century destruction of lineages is cited to make credential que
 
 ### Money out, leverage back
 
-- The Chinese state manages Daoism as licensed heritage: clergy registered, temples ticketed, and sacred sites operated as tourism assets under state-adjacent administration. [OFFICIAL POLICY / INVESTIGATIVE REPORT]
+- The Chinese state manages Daoism as licensed heritage: clergy registered, temples ticketed, and sacred sites operated as tourism assets, with local officials and developers seeking a share of the revenue. [OFFICIAL POLICY / INVESTIGATIVE REPORT]
 - The global wellness market monetizes qigong, tai chi, and feng shui through certification pyramids in which the upstream certifier profits from every practitioner they license. [PATTERN OBSERVED]
 - Ritual services priced during illness and bereavement extract most from people least able to evaluate the claim. [PATTERN OBSERVED]
 
 ### Who pays
 
-- Students of self-certified Western masters pay, and they are financially and sometimes sexually exploited.
+- Students of self-certified Western masters pay, and they are exposed to financial and sexual exploitation.
 - Grieving and ill people pay for outcome-promising rituals.
 - Falun Gong practitioners and other unregistered groups bear the cost, under documented state persecution. [GOVERNMENT REPORT]
-- Children in commercial martial-arts boarding schools bear the cost.
+- Children in commercial martial-arts boarding schools are at risk; this page cites no report of a case.
 - Chinese Daoist clergy bear the cost, because their religious life requires state permission.
 
 ## 17. Who gets hurt most {#who-gets-hurt}
@@ -1274,10 +1262,10 @@ The costs set out in sections 11, 15 and 16 do not fall evenly. The table names 
 
 | Who | How | What it compounds with |
 |---|---|---|
-| Students of self-certified masters | They suffer financial exploitation and, in documented cases, sexual exploitation, with no body to report to. | It compounds where 'dual cultivation' framing made refusal a spiritual defect. |
+| Students of self-certified masters | They face financial exploitation and the risk of sexual exploitation, with no body to report to. | It compounds where 'dual cultivation' framing can make refusal a spiritual defect. |
 | The bereaved and the ill | They are sold outcome-promising ritual priced at the worst moment of their lives. | It compounds with the absence of standard rates and of recourse. |
 | Unregistered practitioners in the PRC | They face documented state persecution. | It compounds with the absence of any legal protection. |
-| Children in commercial martial-arts boarding schools | Abuse is documented in some institutions. | It compounds where parents paid for the discipline. |
+| Children in commercial martial-arts boarding schools | Abuse is a risk; this page cites no report of a case. | It compounds where parents paid for the discipline. |
 
 ## 18. The middle tiers {#tiers}
 
@@ -1285,7 +1273,7 @@ The table names the people who sit between the apex and the student, what each d
 
 | Role | Does | Sees | Is asked to | Could refuse |
 |---|---|---|---|---|
-| Senior students and assistant instructors | They gatekeep access and defend the master's reputation. | They see which students are being financially or sexually exploited. | They are asked to manage it internally. | They could refuse to be the buffer between a master and a complaint. |
+| Senior students and assistant instructors | They gatekeep access and defend the master's reputation. | They see which students are under financial or sexual pressure. | They are asked to manage it internally. | They could refuse to be the buffer between a master and a complaint. |
 | Registered clergy in the PRC | They serve under state licence. | They see which content is permitted. | They are asked to operate within approval. | They could refuse very little safely, and this codex should say so. |
 | Ritual practitioners | They serve the bereaved and the ill. | They see how pricing escalates during crisis. | They are asked nothing formally. | They could refuse to quote a price to a family during a death. |
 | Certified instructors downstream | They teach and pay upstream. | They see that the pyramid's margin flows away from them. | They are asked to recruit. | They could refuse to certify anyone else. |
@@ -1298,7 +1286,7 @@ The table names the people who sit between the apex and the student, what each d
 - **what:** Twelve central government departments barred companies from investing in, contracting or running Buddhist and Taoist temples, after a 2012 ten-department notice had failed to stop commercialization [1][2].
 - **record:** Sixth Tone and *South China Morning Post*, November 2017 [1][2]
 - **outcome:** The state reasserted control over temple money; profit-making by outside investors was banned [1][2].
-- **tactics:** 26, 22
+- **tactics:** —
 - **grade:** Documented
 :::
 
@@ -1308,7 +1296,7 @@ The table names the people who sit between the apex and the student, what each d
 - **what:** Officials said the 38-metre Laozi statue at Laojun Mountain in Henan was an "illegal construction" without religious-affairs approval, and threatened to close the whole scenic area; on 11 October 2018 it was covered in yellow cloth [10].
 - **record:** *Bitter Winter*, a religious-liberty magazine, 30 January 2019 [10]
 - **outcome:** The statue, certified by Guinness in 2014 as the world's tallest bronze Laozi, was hidden from view [10].
-- **tactics:** 22
+- **tactics:** —
 - **grade:** Documented
 :::
 
@@ -1318,7 +1306,7 @@ The table names the people who sit between the apex and the student, what each d
 - **what:** On 1 October 2018 Xingyang's ethnic and religious affairs committee ordered Laojuntang villagers to destroy their 18-metre Laozi statue within a week; four days later more than 60 government personnel arrived to demolish it [11].
 - **record:** *Bitter Winter*, 13 November 2018 [11]
 - **outcome:** The statue was demolished as an "illegal construction" [11].
-- **tactics:** 22
+- **tactics:** —
 - **grade:** Documented
 :::
 
@@ -1343,7 +1331,6 @@ The people below appear in the record because of what was done to them, or becau
 - **The Laojuntang villagers** were ordered to tear down their own statue [11].
 - **The manager of the Laojun Mountain site** was told to cover the statue or see the mountain sealed off [10].
 - **The clergy and believers interviewed by Freedom House** described how the party-state manages Taoism [6].
-- **Falun Gong practitioners** belong to a qigong movement banned in 1999 [9].
 
 ## 22. Regional variants {#regional}
 
@@ -1378,7 +1365,7 @@ The people below appear in the record because of what was done to them, or becau
 
 ### In closing
 
-Your tradition's founding texts are the least authoritarian documents in this entire codex. Zhuangzi's whole project was deflating people who claimed spiritual authority. Laozi says the sage does not accumulate. Every mechanism on this page is something the source texts would have laughed at.
+Your tradition's founding texts are the least authoritarian documents in this entire codex. Zhuangzi's whole project was deflating people who claimed spiritual authority. Laozi says the sage does not accumulate. Every mechanism of teacher authority on this page is something the source texts would have laughed at.
 
 So use them the way they were meant to be used. A tradition that says the Dao cannot be captured in words is a poor foundation for anyone claiming to own the words. Keep the practice, keep the philosophy, and stop paying men for access to your own breath.
 
@@ -1392,12 +1379,12 @@ Practical guidance, not legal advice.
 
 ## 25. Where to get help {#help}
 
-Checked 2026-09-27.
+Checked 2026-10-03.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [13] |
-| **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** [14] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; Wed 10am–1pm, Thu 4–7pm, Fri 8–11am) [13] |
+| **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** (aims to offer a 24-hour service) [14] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [15] |
 
 ## 26. Sources {#sources}
@@ -1406,7 +1393,7 @@ Checked 2026-09-27.
 2. South China Morning Post, "Worship but don't make profits, Beijing warns Buddhists and Taoists" (Nov 2017). https://www.scmp.com/news/china/society/article/2121326/beijing-tightens-grip-religion-ban-profit-making-activities
 3. PRC *Regulations on Religious Affairs* (revised 2017, in force Feb 2018) — registration of clergy and venues (China Law Translate). https://www.chinalawtranslate.com/en/religious-affairs-regulations-2017/
 4. Sina Finance, "中国道教协会新一届领导班子产生" (1 Jan 2026 — Li Guangfu re-elected president at the 11th national congress, 29–30 Dec 2025). https://finance.sina.com.cn/jjxw/2026-01-01/doc-inheumpq8504232.shtml
-5. Pew Research Center, *Measuring Religion in China* (30 Aug 2023) — few identify as Daoist; 18% believe in Daoist deities; 47% believe in fengshui (CFPS 2018). https://www.pewresearch.org/religion/2023/08/30/confucianism-taoism-and-chinese-folk-religions/
+5. Pew Research Center, *Measuring Religion in China* (30 Aug 2023) — few identify as Daoist (fewer than 0.5%, CGSS 2018 and 2021); 18% say they believe in immortals; 47% believe in fengshui (CFPS 2018). https://www.pewresearch.org/religion/2023/08/30/confucianism-taoism-and-chinese-folk-religions/
 6. Freedom House, *The Battle for China's Spirit: Chinese Buddhism and Taoism* (2017). https://freedomhouse.org/report/2017/battle-china-spirit-chinese-buddhism-taoism
 7. *Encyclopaedia Britannica*, "Daoism" — Daodejing and Zhuangzi (4th–3rd c. BCE); the Celestial Masters (traditional date 142 CE); Shangqing and Lingbao; Quanzhen; Republican anti-superstition campaigns; the China Taoist Association (1957); the Cultural Revolution. https://www.britannica.com/topic/Daoism
 8. List of Celestial Masters — the post-2008 succession dispute among mainland and Taiwanese claimants to the 65th generation. https://en.wikipedia.org/wiki/List_of_Celestial_Masters
@@ -1415,12 +1402,14 @@ Checked 2026-09-27.
 ### Further sources
 10. *Bitter Winter* (religious-liberty magazine), "World's Tallest Bronze Statue of Laozi Hidden by State" (30 Jan 2019). https://bitterwinter.org/tallest-bronze-statue-of-laozi-hidden/
 11. *Bitter Winter*, "Lao-Tzu Statue Demolished in Henan" (13 Nov 2018). https://bitterwinter.org/lao-tzu-statue-demolished-in-henan/
-12. Charity Commission for England and Wales, The Taoist Tai Chi Society of Great Britain (charity 1053425), financial history 2021–2025. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/1053425/financial-history
-13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
+12. Charity Commission for England and Wales, The Taoist Tai Chi Society of Great Britain (charity 1053425), financial history 2021–2024. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/1053425/financial-history
+13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Wed 10am–1pm, Thu 4–7pm, Fri 8–11am). https://humanists.uk/faith-to-faithless/helpline/
 14. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 15. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
+16. Early Tibet (blog), "Phagpa's Arrow, or Buddhists vs Daoists" (30 Sep 2008) — after the 1281 debate "the entire Daoist canon (except for the Daodejing) was burned". The post cites no source for the event; other accounts found by search describe the 1281 burning of the printed canon and its blocks but do not confirm the Daodejing exemption. https://earlytibet.com/2008/09/30/phagpas-arrow
 
 ## 27. What changed on this page {#changed}
 
+- **2026-10-03:** Corrected the technique tally: none of the 30 techniques is now counted as sourced to a named document, and the one graded as state-codified is graded as custom, because it describes what teachers and students do to each other. Removed claims of documented sexual exploitation and child abuse that had no source behind them, and said instead that this page cites no report of a case. Fixed the 'four centuries' and '$4,800' figures, the 1281 edict (the sparing of the Daodejing is now attributed to one account), and Pew's wording on belief in immortals. Replaced the unsourced adherent range with Pew's figures. Stopped saying the Party chooses and removes the Association's president, and reworded the temple-ticket revenue claims to what Freedom House reports. Rewrote two of the pipeline cards and removed a third that the page could not support; removed the 2025 charity income figure, which could not be confirmed; re-worded the case tags and the Falun Gong entry under voices; added help-line hours. Source 16 is new.
 - **2026-09-27:** Added Branches, Law & state, Money in numbers, three documented cases, Voices from inside, two regional cards, Leaving safely and Where to get help.
 

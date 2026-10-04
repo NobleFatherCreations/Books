@@ -1674,5 +1674,685 @@
   "reason": "Loop 7 was one compressed line. It now shows the mechanism step by step, the techniques that supply it, why it closes, where it could be broken and one example. Every factual step is taken from this volume and points to the section or technique where it is recorded; the break-point paragraph is labelled as analysis.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "TAOF-D001",
+  "scope": "md",
+  "type": "grade",
+  "before": "| Evidence | Three of the 30 techniques are sourced to a named document. The grades are Cultural 29 and Codified 1. |",
+  "after": "| Evidence | None of the 30 techniques is sourced to a named document. All 30 are graded Cultural; none is graded Codified. |",
+  "reason": "P1-1/P1-3: tally recomputed from the section 12 chips after technique 15 is regraded and the three unsupported (sourced) marks are removed (30 Cultural).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D002",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Cultural]] Unverifiable lineage and 'the transmission cannot be explained' are market conditions rather than doctrine. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] The vague terms the entry names ('flow', 'energy blockage') are used in spoken instruction and leave no record. That they are used to shut down questions is a pattern observed, and this page cites no document for it.",
+  "reason": "P1-1/P2-2: technique 10 named no document; the old note described lineage claims, not the entry's claim about vague language. Mark removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D003",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Cultural]] Escalating course and initiation pricing in the global wellness market, with no licensing body and no published rates. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] The escalating course and initiation pricing the entry describes is set privately by each teacher, with no licensing body and no published rates. This page cites no price document.",
+  "reason": "P1-1: technique 26 named no document. Mark removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D004",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] In the PRC, clergy registration and temple licensing place mediation of the tradition under state administration. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] The mediation the entry describes, by senior students, lineage claims and the teacher's diagnosis, is informal. No rule governs it (PRC clergy registration covers licensed clergy, not students within a lineage) and no body records it.",
+  "reason": "P1-3: the entry describes students and teachers acting on one another, which no state rule governs; regraded Codified to Cultural and mark removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D005",
+  "scope": "md",
+  "type": "receipt",
+  "before": "- Martial-arts and temple training schools for children can be intense, and in some documented commercial schools abusive. [INVESTIGATIVE REPORT]",
+  "after": "- Martial-arts and temple training schools for children can be intense, and abuse in commercial schools is a risk; this page cites no report of a case. [PATTERN OBSERVED]",
+  "reason": "P1-2: no source entry supports 'documented' abuse; receipt changed to PATTERN OBSERVED.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D006",
+  "scope": "md",
+  "type": "receipt",
+  "before": "framings have been used to obtain sex from students. [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT]",
+  "after": "framings can be used to pressure students into sex; this page cites no report of a case. [PATTERN OBSERVED]",
+  "reason": "P1-2: no source entry supports the claim; reworded and receipt changed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D007",
+  "scope": "md",
+  "type": "receipt",
+  "before": "In documented cases, sexual-energy and dual-cultivation framings were used to obtain sex, and refusal was recast as blockage. [FORMER MEMBER TESTIMONY]",
+  "after": "Sexual-energy and dual-cultivation framings can be used to pressure students into sex, with refusal recast as blockage; this page cites no report of a case. [PATTERN OBSERVED]",
+  "reason": "P1-2: stage 4 text drops 'documented cases'.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D008",
+  "scope": "md",
+  "type": "receipt",
+  "before": "[PATTERN OBSERVED / FORMER MEMBER TESTIMONY] |",
+  "after": "[PATTERN OBSERVED] |",
+  "reason": "P1-2: no testimony is cited in section 26.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D009",
+  "scope": "md",
+  "type": "fact",
+  "before": "Students of self-certified Western masters pay, and they are financially and sometimes sexually exploited.",
+  "after": "Students of self-certified Western masters pay, and they are exposed to financial and sexual exploitation.",
+  "reason": "P1-2: section 16 stated exploitation as established.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D010",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Children in commercial martial-arts boarding schools bear the cost.",
+  "after": "- Children in commercial martial-arts boarding schools are at risk; this page cites no report of a case.",
+  "reason": "P1-2: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D011",
+  "scope": "md",
+  "type": "fact",
+  "before": "They suffer financial exploitation and, in documented cases, sexual exploitation, with no body to report to. | It compounds where 'dual cultivation' framing made refusal a spiritual defect.",
+  "after": "They face financial exploitation and the risk of sexual exploitation, with no body to report to. | It compounds where 'dual cultivation' framing can make refusal a spiritual defect.",
+  "reason": "P1-2: section 17 row 1.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D012",
+  "scope": "md",
+  "type": "fact",
+  "before": "Abuse is documented in some institutions. | It compounds where parents paid for the discipline.",
+  "after": "Abuse is a risk; this page cites no report of a case. | It compounds where parents paid for the discipline.",
+  "reason": "P1-2: section 17 row 4.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D013",
+  "scope": "md",
+  "type": "fact",
+  "before": "They see which students are being financially or sexually exploited.",
+  "after": "They see which students are under financial or sexual pressure.",
+  "reason": "P1-2: section 18 repeated the established-abuse claim.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D014",
+  "scope": "md",
+  "type": "fact",
+  "before": "5. Abuse is documented in some commercial martial-arts boarding schools for children, where parents paid for the discipline (section 17).",
+  "after": "5. Abuse in commercial martial-arts boarding schools for children is named as a risk, with no case cited, where parents paid for the discipline (section 17).",
+  "reason": "P1-2: loop 3 step 5.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D015",
+  "scope": "md",
+  "type": "fact",
+  "before": "as a group on whom the weight falls, with documented abuse in some institutions.",
+  "after": "as a group on whom the weight falls, with abuse named as a risk and no case cited.",
+  "reason": "P1-2: loop 3 example.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D016",
+  "scope": "narration",
+  "type": "claim",
+  "before": "financial and, in documented cases, sexual exploitation with no body to report to, where \"dual cultivation\" framing turned refusal into a spiritual defect.",
+  "after": "financial exploitation and the risk of sexual exploitation, with no body to report to, where \"dual cultivation\" framing can make refusal a spiritual defect.",
+  "reason": "P1-2: narration repeated 'documented cases'.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D017",
+  "scope": "narration",
+  "type": "claim",
+  "before": "records financial and, in documented cases, sexual exploitation of students, \"where 'dual cultivation' framing made refusal a spiritual defect.\"",
+  "after": "records the risk of financial and sexual exploitation of students, where 'dual cultivation' framing can make refusal a spiritual defect.",
+  "reason": "P1-2: question 5 example.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D018",
+  "scope": "md",
+  "type": "fact",
+  "before": "within four centuries of the texts.",
+  "after": "within about five centuries of the texts.",
+  "reason": "P1-4: c. 4th-3rd c. BCE to 142 CE is four and a half to five and a half centuries (F11).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D019",
+  "scope": "md",
+  "type": "fact",
+  "before": "a man charging four thousand dollars for the next level",
+  "after": "a man charging four thousand eight hundred dollars for the next level",
+  "reason": "P1-5: section 2 gives level three as $4,800 (F12).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D020",
+  "scope": "md",
+  "type": "fact",
+  "before": "this is also the tradition where almost nothing is written down, no one can be verified,",
+  "after": "this is also the tradition where almost nothing about the teacher-student relationship is written down, no one can be verified,",
+  "reason": "P2-1: the Daodejing, the Zhuangzi and the canon are written down; section 3 lede overstated it. Technique 29's note already makes no such claim.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D021",
+  "scope": "md",
+  "type": "fact",
+  "before": "Said by people selling words, in graded and priced levels.",
+  "after": "Said by some of the people selling words, in graded and priced levels.",
+  "reason": "P2-11: generalised from the Western market to everyone, including the texts' authors.",
+  "count": 2,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D022",
+  "scope": "narration",
+  "type": "claim",
+  "before": "said by people selling words, in graded and priced levels",
+  "after": "said by some of the people selling words, in graded and priced levels",
+  "reason": "P2-11: questions 2 and 6 quote the row.",
+  "count": 2,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D023",
+  "scope": "md",
+  "type": "loop",
+  "before": "Students labor at schools and temples with no title and no agreement.",
+  "after": "The page records senior students and downstream instructors working for a master or certifier. Unpaid labor at schools or temples is not recorded on this page.",
+  "reason": "P2-3: summary described something the steps never record; steps and title not moved.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D024",
+  "scope": "md",
+  "type": "receipt",
+  "before": "| Management firms and local government hold it. | It holds ticketed access to sacred sites and the revenue from it. | It decides admission to a mountain your ancestors walked up for free. | [OFFICIAL POLICY: 2017 directive of twelve central agencies barring investors from running temples] |",
+  "after": "| Management companies and local officials hold it. | It holds ticketed access to sacred sites; Freedom House found average admission of 6 yuan outside scenic parks and 59 yuan inside them [6]. | It decides admission to a mountain your ancestors walked up for free. | [INVESTIGATIVE REPORT / OFFICIAL POLICY: 2017 directive of twelve central agencies barring investors from running temples] |",
+  "reason": "P2-5: the directive supports the investor ban, not the ticketing and revenue claims; admission prices added from Freedom House [6].",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D025",
+  "scope": "md",
+  "type": "receipt",
+  "before": "- In the PRC, temple tourism is monetized: sacred sites are ticketed, and the revenue flows through state-adjacent management. [OFFICIAL POLICY: 2017 directive of twelve central agencies barring investors from running temples]",
+  "after": "- In the PRC, temple tourism is monetized: sacred sites are ticketed, with average admission of 6 yuan outside scenic parks and 59 yuan inside them, and local officials and developers have sought a share of the revenue [6]. This page does not record where the ticket revenue finally goes. [INVESTIGATIVE REPORT] A 2017 directive barred outside investors from running temples [1][2]. [OFFICIAL POLICY]",
+  "reason": "P2-5: receipt now matches each claim.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D026",
+  "scope": "md",
+  "type": "fact",
+  "before": "Temples and ritual specialists benefit, and in the PRC so does state-adjacent management.",
+  "after": "Temples and ritual specialists benefit.",
+  "reason": "P2-5: no source shows state-adjacent management benefiting from offerings.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D027",
+  "scope": "md",
+  "type": "receipt",
+  "before": "| Management companies and local government benefit. [OFFICIAL POLICY: 2017 directive of twelve central agencies barring investors from running temples] |",
+  "after": "| Local officials and developers have sought a share of the revenue [6]. [INVESTIGATIVE REPORT / OFFICIAL POLICY: 2017 directive of twelve central agencies barring investors from running temples] |",
+  "reason": "P2-5: money table row 4.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D028",
+  "scope": "md",
+  "type": "fact",
+  "before": "sacred sites are ticketed heritage attractions with revenue flowing through state-adjacent administration.",
+  "after": "sacred sites are ticketed heritage attractions, with local officials and developers seeking a share of the revenue [6].",
+  "reason": "P2-5: same claim in genealogy card 4.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D029",
+  "scope": "md",
+  "type": "fact",
+  "before": "licensed clergy and ticketed sacred sites with revenue flowing through state-adjacent management.",
+  "after": "licensed clergy and ticketed sacred sites where local officials and developers seek a share of the revenue.",
+  "reason": "P2-5: same claim in stage 6.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D030",
+  "scope": "md",
+  "type": "fact",
+  "before": "sacred sites operated as tourism assets under state-adjacent administration.",
+  "after": "sacred sites operated as tourism assets, with local officials and developers seeking a share of the revenue.",
+  "reason": "P2-5: same claim in section 16.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D031",
+  "scope": "md",
+  "type": "fact",
+  "before": "4. Sacred sites become ticketed attractions, and the revenue flows through state-adjacent management (section 9).",
+  "after": "4. Sacred sites become ticketed attractions, and local officials and developers seek a share of the revenue (section 9).",
+  "reason": "P2-5: loop 4 step 1 matched.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D032",
+  "scope": "md",
+  "type": "fact",
+  "before": "The body that licenses the clergy, the regulator and the beneficiary of the temple revenue are all the party-state.",
+  "after": "The body that licenses the clergy and the regulator are the party-state, and local officials are reported to seek a share of the temple revenue.",
+  "reason": "P2-5: loop 4 analysis matched to the source.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D033",
+  "scope": "md",
+  "type": "fact",
+  "before": "Temple tourism is regulated by the same state that profits from it [1][6]",
+  "after": "Temple tourism is regulated by the same state whose local officials have sought a share of its revenue [1][6]",
+  "reason": "P2-5: section 8 row.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D034",
+  "scope": "md",
+  "type": "receipt",
+  "before": "It sets what being allowed to teach costs, forever. |  |",
+  "after": "It sets what being allowed to teach costs, forever. | [PATTERN OBSERVED] |",
+  "reason": "P2-6: empty receipt cell.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D035",
+  "scope": "md",
+  "type": "fact",
+  "before": "::: card\n#### Graded spiritual services\n\n**Source.** Members pay for each level of advancement.\n\n**Path.** Local org → Central organization → Real-estate and reserve entities\n\n**Disclosed.** Price lists are disclosed.\n\n**Hidden.** Everything downstream of the price lists stays hidden.\n:::",
+  "after": "::: card\n#### Graded spiritual services\n\n**Source.** Students pay for each course, initiation or certification level (section 2).\n\n**Path.** Student → Teacher → In certification chains, the original certifier\n\n**Disclosed.** Not recorded on this page; no published rate list is recorded.\n\n**Hidden.** Where the fees go beyond the teacher stays hidden.\n:::",
+  "reason": "P2-7: no central organization or reserve entity is described; path rebuilt from the money table and section 2.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D036",
+  "scope": "md",
+  "type": "fact",
+  "before": "::: card\n#### Retreat and ceremony tourism\n\n**Source.** The money comes from Western participants seeking healing.\n\n**Path.** Operator, often not from the source community → Facilitators → Offshore or personal accounts\n\n**Disclosed.** Prices are disclosed.\n\n**Hidden.** Safety record, training and benefit-sharing stay hidden.\n:::",
+  "after": "::: card\n#### Temple admission\n\n**Source.** The money comes from visitors paying admission to sacred sites.\n\n**Path.** Visitor → Ticketed site → Management companies and local officials\n\n**Disclosed.** Admission prices are charged openly; Freedom House found average admission of 6 yuan outside scenic parks and 59 yuan inside them [6].\n\n**Hidden.** Who finally receives the ticket revenue stays unclear.\n:::",
+  "reason": "P2-7: shamanic-retreat template with offshore accounts replaced by the temple-tourism flow the money table records.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D037",
+  "scope": "md",
+  "type": "fact",
+  "before": "::: card\n#### State clerical payroll\n\n**Source.** The money comes from public revenue.\n\n**Path.** Religious affairs ministry → Licensed clergy → Sermon content approval\n\n**Disclosed.** Headcount and budget are disclosed.\n\n**Hidden.** Content directives stay hidden.\n:::\n\n",
+  "after": "",
+  "reason": "P2-7: no source says the PRC pays Taoist clergy; sermon approval and budget disclosure are unsupported. Card removed, no replacement invented.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D038",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **Falun Gong practitioners** belong to a qigong movement banned in 1999 [9].\n",
+  "after": "",
+  "reason": "P2-8: Falun Gong practitioners are not Daoist and the bullet names no voice. Real first-person voices remain open (see FIXLOG).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D039",
+  "scope": "md",
+  "type": "fact",
+  "before": "This is the one page in this codex where the meaningful accountability body is a small-claims court.",
+  "after": "On this page, the meaningful accountability body in the West is a small-claims court.",
+  "reason": "P2-9: unverifiable superlative about other volumes.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D040",
+  "scope": "md",
+  "type": "fact",
+  "before": "Every mechanism on this page is something the source texts would have laughed at.",
+  "after": "Every mechanism of teacher authority on this page is something the source texts would have laughed at.",
+  "reason": "P2-10: PRC licensing, ticketing and statue orders are not teacher authority and the texts say nothing about them.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D041",
+  "scope": "md",
+  "type": "fact",
+  "before": "Registered tai chi societies file public accounts [12].",
+  "after": "One registered charity, the Taoist Tai Chi Society of Great Britain, files public accounts [12].",
+  "reason": "P2-12: the claim rests on one charity.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D042",
+  "scope": "md",
+  "type": "fact",
+  "before": "In the United Kingdom, tai chi societies registered as charities file public accounts (sections 8 and 9)",
+  "after": "In the United Kingdom, a registered tai chi charity, the Taoist Tai Chi Society of Great Britain, files public accounts (sections 8 and 9)",
+  "reason": "P2-12: loop 1 matched.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D043",
+  "scope": "narration",
+  "type": "claim",
+  "before": "tai chi societies registered as charities file public accounts.",
+  "after": "a registered tai chi charity files public accounts.",
+  "reason": "P2-12: law box matched.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D044",
+  "scope": "md",
+  "type": "fact",
+  "before": "[\"2024\",227],[\"2025\",1430]]",
+  "after": "[\"2024\",227]]",
+  "reason": "P2-13: the 2025 figure could not be confirmed (register page returned 403; searches show no 2025 filing). Removed rather than asserted.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D045",
+  "scope": "md",
+  "type": "fact",
+  "before": "\"note\":\"A UK charity teaching Taoist tai chi; public because it is registered. Income swings sharply between years.\"",
+  "after": "\"note\":\"A UK charity teaching Taoist tai chi; public because it is registered. Income swings sharply between years. Accounts for 2025 are not shown because they could not be confirmed.\"",
+  "reason": "P2-13: note.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D046",
+  "scope": "md",
+  "type": "source",
+  "before": "financial history 2021–2025.",
+  "after": "financial history 2021–2024.",
+  "reason": "P2-13: source note matched to the figures shown.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D047",
+  "scope": "md",
+  "type": "fact",
+  "before": "Extremely difficult to count: perhaps 8–20 million formally identifying, while hundreds of millions of Chinese people participate in practices of Daoist origin without any affiliation. [ACADEMIC SOURCE]",
+  "after": "Extremely difficult to count: fewer than 0.5% of Chinese adults identify as Taoist, yet 18% say they believe in immortals and 47% in fengshui, so belief and practice run far beyond formal identification [5]. [ACADEMIC SOURCE]",
+  "reason": "P2-14: the 8-20 million range had no source and does not fit Pew's under-0.5% (F8); replaced with Pew's figures [5].",
+  "count": 2,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D048",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Chosen by / removable by | The Chinese Communist Party's religious-affairs apparatus / The Chinese Communist Party |",
+  "after": "| Chosen by / removable by | Elected at the Association's national congress, under state supervision [4] / Not recorded on this page |",
+  "reason": "P2-15: source 4 reports a congress election; nothing cited shows the Party removes the president (F2).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D049",
+  "scope": "md",
+  "type": "fact",
+  "before": "| The Party's religious-affairs apparatus chooses the holder. | The Party can remove the holder. |",
+  "after": "| The president is elected at the Association's national congress, under state supervision [4]. | This page does not record who can remove the holder. |",
+  "reason": "P2-15: section 7 office table.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D050",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Its leadership is approved by the government. |",
+  "after": "| It is state-supervised [4]; this page does not record how its leadership is approved. |",
+  "reason": "P2-15: same unsupported claim in section 7 'Who holds what'.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D051",
+  "scope": "narration",
+  "type": "claim",
+  "before": "and the glance table says the Party chooses and removes its leaders.",
+  "after": "and the glance table says its president is elected at a national congress under state supervision.",
+  "reason": "P2-15: narration repeated the claim.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D052",
+  "scope": "md",
+  "type": "fact",
+  "before": "an edict ordered the destruction of Taoist texts other than the Daodejing. A large part",
+  "after": "an edict ordered the Daoist canon and its printing blocks burned; one account says the Daodejing alone was spared [16]. A large part",
+  "reason": "P2-16: edict scope sourced to [16]; the Daodejing exemption appears in one uncited account only, so it is attributed, not asserted.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D053",
+  "scope": "md",
+  "type": "fact",
+  "before": "Sources for this section: [7] [9]\n",
+  "after": "Sources for this section: [7] [9] [16]\n",
+  "reason": "P2-16: cite line.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D054",
+  "scope": "md",
+  "type": "fact",
+  "before": "18% of Chinese adults believe in Daoist deities [5]",
+  "after": "18% of Chinese adults say they believe in immortals [5]",
+  "reason": "P2-17: Pew's wording (F7).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D055",
+  "scope": "md",
+  "type": "source",
+  "before": "few identify as Daoist; 18% believe in Daoist deities;",
+  "after": "few identify as Daoist (fewer than 0.5%, CGSS 2018 and 2021); 18% say they believe in immortals;",
+  "reason": "P2-17/P2-14: source 5 note matched to Pew's wording and figure.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D056",
+  "scope": "md",
+  "type": "tag",
+  "before": "- **tactics:** 26, 22\n- **grade:** Documented",
+  "after": "- **tactics:** —\n- **grade:** Documented",
+  "reason": "P2-19: a state ban on outside investors is not Financial Control or Benevolent Control by an institution.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D057",
+  "scope": "md",
+  "type": "tag",
+  "before": "- **tactics:** 22\n- **grade:** Documented",
+  "after": "- **tactics:** —\n- **grade:** Documented",
+  "reason": "P2-19: a demolition or covering order is not control wrapped in the language of care.",
+  "count": 2,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D058",
+  "scope": "md",
+  "type": "fact",
+  "before": "your silence, your children's schooling, your capacity",
+  "after": "your silence, your capacity",
+  "reason": "P3-2: nothing in the volume supports 'children's schooling'.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D059",
+  "scope": "md",
+  "type": "fact",
+  "before": " — an accounting fraud older than the practices themselves.",
+  "after": " — the teacher keeps the ledger and the student cannot audit it.",
+  "reason": "P3-3: rhetorical and unsupported.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D060",
+  "scope": "md",
+  "type": "fact",
+  "before": "At least 120,000 Buddhist and Taoist clergy work within this system [6]",
+  "after": "On 2014 data, at least 120,000 Buddhist and Taoist clergy work within this system [6]",
+  "reason": "P3-4: figure dated (F5).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D061",
+  "scope": "md",
+  "type": "fact",
+  "before": "(freephone; set hours, see website) [13]",
+  "after": "(freephone; Wed 10am–1pm, Thu 4–7pm, Fri 8–11am) [13]",
+  "reason": "P3-6: hours from Humanists UK helpline page as read in the 2026-10-03 fact-check (F18).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D062",
+  "scope": "md",
+  "type": "source",
+  "before": "(freephone; set hours). https://humanists.uk",
+  "after": "(freephone; Wed 10am–1pm, Thu 4–7pm, Fri 8–11am). https://humanists.uk",
+  "reason": "P3-6: source 13 matched.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D063",
+  "scope": "md",
+  "type": "fact",
+  "before": "**(844) 368-2848** [14]",
+  "after": "**(844) 368-2848** (aims to offer a 24-hour service) [14]",
+  "reason": "P3-6: Recovering from Religion site wording (F19).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D064",
+  "scope": "md",
+  "type": "meta",
+  "before": "Checked 2026-09-27.",
+  "after": "Checked 2026-10-03.",
+  "reason": "Help lines rechecked in the 2026-10-03 fact-check (F18, F19).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D065",
+  "scope": "md",
+  "type": "source",
+  "before": "15. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/",
+  "after": "15. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/\n16. Early Tibet (blog), \"Phagpa's Arrow, or Buddhists vs Daoists\" (30 Sep 2008) — after the 1281 debate \"the entire Daoist canon (except for the Daodejing) was burned\". The post cites no source for the event; other accounts found by search describe the 1281 burning of the printed canon and its blocks but do not confirm the Daodejing exemption. https://earlytibet.com/2008/09/30/phagpas-arrow",
+  "reason": "New source [16] for the 1281 edict (P2-16).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D066",
+  "scope": "md",
+  "type": "meta",
+  "before": "checked: 2026-09-27",
+  "after": "checked: 2026-10-03",
+  "reason": "Text rechecked after the discrepancy fixes.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D067",
+  "scope": "md",
+  "type": "meta",
+  "before": "| Last checked | 2026-09-27 |",
+  "after": "| Last checked | 2026-10-03 |",
+  "reason": "Same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TAOF-D068",
+  "scope": "md",
+  "type": "changelog",
+  "before": "- **2026-09-27:** Added Branches,",
+  "after": "- **2026-10-03:** Corrected the technique tally: none of the 30 techniques is now counted as sourced to a named document, and the one graded as state-codified is graded as custom, because it describes what teachers and students do to each other. Removed claims of documented sexual exploitation and child abuse that had no source behind them, and said instead that this page cites no report of a case. Fixed the 'four centuries' and '$4,800' figures, the 1281 edict (the sparing of the Daodejing is now attributed to one account), and Pew's wording on belief in immortals. Replaced the unsourced adherent range with Pew's figures. Stopped saying the Party chooses and removes the Association's president, and reworded the temple-ticket revenue claims to what Freedom House reports. Rewrote two of the pipeline cards and removed a third that the page could not support; removed the 2025 charity income figure, which could not be confirmed; re-worded the case tags and the Falun Gong entry under voices; added help-line hours. Source 16 is new.\n- **2026-09-27:** Added Branches,",
+  "reason": "Patch note for this round (CLAUDE.md patch-notes rule).",
+  "count": 1,
+  "status": "proposed"
  }
 ]

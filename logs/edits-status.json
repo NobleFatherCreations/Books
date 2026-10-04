@@ -35133,6 +35133,414 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "TAOF-D001",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D002",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D003",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D004",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D005",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D006",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D007",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D008",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D009",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D010",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D011",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D012",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D013",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D014",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D015",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D018",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D019",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D020",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D021",
+   "scope": "md",
+   "found": 2,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D023",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D024",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D025",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D026",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D027",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D028",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D029",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D030",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D031",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D032",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D033",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D034",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D035",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D036",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D037",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D038",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D039",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D040",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D041",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D042",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D044",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D045",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D046",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D047",
+   "scope": "md",
+   "found": 2,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D048",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D049",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D050",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D052",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D053",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D054",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D055",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D056",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D057",
+   "scope": "md",
+   "found": 2,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D058",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D059",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D060",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D061",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D062",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D063",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D064",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D065",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D066",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D067",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D068",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D016",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D017",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D022",
+   "scope": "narration",
+   "found": 2,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D043",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "TAOF-D051",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "confucianism": [
