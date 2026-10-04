@@ -1,6 +1,6 @@
 # Wording log — oriental-orthodoxy
 
-156 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/oriental-orthodoxy.json`, then rebuild. Nothing else changes.
+155 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/oriental-orthodoxy.json`, then rebuild. Nothing else changes.
 
 ## Fragments completed into sentences (130)
 
@@ -1732,7 +1732,7 @@
 
 *Reason:* Fragment completed; first use of 'episcopate', glossed.
 
-## Proofreading (typos, punctuation, agreement) (6)
+## Proofreading (typos, punctuation, agreement) (5)
 
 ### OO-P001 · md · §7 · proposed · build: applied
 
@@ -1795,18 +1795,6 @@
 > - **Eritrea:** Practicing outside state-registered faiths
 
 *Reason:* American spelling; capital after the bold label, as in the Egypt bullet.
-
-### OO-N001 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 5 documented cases on this page
-
-**After**
-
-> These are not hypotheticals. Five documented cases on this page
-
-*Reason:* Numeral at the start of a clause spelled out.
 
 ## Loops expanded (section 13) (8)
 

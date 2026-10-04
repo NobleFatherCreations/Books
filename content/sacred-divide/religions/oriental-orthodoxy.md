@@ -5,7 +5,7 @@ family: "Christianity"
 family_id: christianity-family
 family_members: [christianity, catholicism, eastern-orthodoxy, oriental-orthodoxy, anglicanism, protestant-evangelical, pentecostal-charismatic, plymouth-brethren]
 version: v4
-checked: 2026-09-27
+checked: 2026-10-03
 sections_filled: 27/27
 missing: []
 partial: []
@@ -22,10 +22,11 @@ partial: []
 | Who's in charge | Each of the six churches has its own head. The Coptic Pope of Alexandria, Tawadros II, has led the Coptic Orthodox Church since 2012 [6]. |
 | Chosen by / removable by | Electoral shortlist, then altar lot [6] / Death; no removal procedure |
 | Money in one line | The money comes from church land, monasteries and diaspora giving, and in India two factions litigated for decades over about 1,100 churches [3]. |
-| Leaving in one line | In Egypt marriage and divorce run through the church and there is no civil marriage, so a failed marriage can have no way out [4]. |
+| Leaving in one line | In Egypt marriage and divorce run through the church and there is no civil marriage, so under current law a failed marriage can have no way out; a draft law before parliament would add provisions on divorce and annulment [4][26]. |
 | The unanswered question | When the state removes a patriarch, who in the church says no? |
+| Evidence | Seven of the 30 techniques are Documented and one is Codified. The grades are Cultural 16, Contested 3, Taught 3, Documented 7 and Codified 1. |
 | Family | Christianity — christianity, catholicism, eastern-orthodoxy, oriental-orthodoxy, anglicanism, protestant-evangelical, pentecostal-charismatic, plymouth-brethren |
-| Last checked | 2026-09-27 |
+| Last checked | 2026-10-03 |
 :::
 
 ### Disclosure scorecard
@@ -70,7 +71,7 @@ When the state removes a patriarch, who in the church says no?
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-Oriental Orthodoxy has about 60–70 million faithful [1] in six autocephalous (self-governing) churches. The Ethiopian Orthodox Tewahedo Church is by far the largest; estimates range from about 36 to 50+ million [1]. The others are the Coptic Orthodox Church, the Armenian Apostolic Church, the Eritrean Orthodox Tewahedo Church (about 2 million) [2], the Syriac Orthodox Church and the Malankara Orthodox Syrian Church of India.
+Oriental Orthodoxy has about 60–70 million faithful [1] in six autocephalous (self-governing) churches. The Ethiopian Orthodox Tewahedo Church is by far the largest; estimates range from about 36 to 60 million [1]. The others are the Coptic Orthodox Church, the Armenian Apostolic Church, the Eritrean Orthodox Tewahedo Church (about 2 to 3 million) [1], the Syriac Orthodox Church and the Malankara Orthodox Syrian Church of India.
 
 They are among the oldest Christian churches, known for ancient liturgies (Coptic, Ge'ez, Classical Armenian, Syriac), long fasting calendars, monasticism, and survival as minorities.
 :::
@@ -79,7 +80,7 @@ They are among the oldest Christian churches, known for ancient liturgies (Copti
 - Their monasteries historically offered refuge and education.
 - The Coptic Church runs welfare and schools where the state provides little.
 - The Armenian Church gives the laity real power: two-thirds of the assembly that elects the Catholicos (the church's supreme patriarch) are lay delegates [15].
-- Twenty-five Armenian bishops publicly backed their Catholicos against state pressure [13]. Solidarity against the state is also a check.
+- Twenty-five Armenian bishops publicly backed their Catholicos against state pressure [13][30]. Solidarity against the state is also a check.
 
 Some of that standard is already on the record. The Coptic Orthodox Church's UK body files public accounts with the charity regulator, discloses its highest earners in pay bands and declares a safeguarding policy [24]. Abune Antonios, Eritrea's patriarch, refused to excommunicate members of a Sunday-school renewal movement and called for the release of prisoners, and he was removed for it [2]. Each is a place where the institution met the standard this page applies, and each is recorded here as credit.
 
@@ -102,8 +103,8 @@ These churches separated from Rome and Constantinople after the Council of Chalc
 | 1915–23 | The Armenian Genocide and the genocide of Assyrian/Syriac and Greek Christians are carried out. The International Association of Genocide Scholars recognized all three (2007); scholarly estimates are about 1.5M Armenians and 250,000–500,000 Assyrians killed [16] | Communities, clergy and property are destroyed. [ACADEMIC SOURCE] |
 | 1959 | The Ethiopian church gains its own patriarch | The largest church becomes autocephalous. |
 | 1975–79 | The Derg (the military government that took power in the 1974 revolution) nationalizes rural land (1975) [5] and arrests the Patriarch (1976), who is executed in 1979 [5] | The state church becomes a state target in five years. |
-| 2006 | The Eritrean Patriarch is removed and placed under house arrest [2] | It is the plainest state capture of a patriarchate in this book. |
-| 2010 | Egyptian courts split on Coptic remarriage; the Supreme Constitutional Court sides with the church [4] | The state confirms the church's control over marriage. |
+| 2006 | The Eritrean Patriarch is notified of his removal and house arrest (Jan 2006) and is taken to an undisclosed location in May 2007 [2] | It is the plainest state capture of a patriarchate in this book. |
+| 2010 | Egypt's Supreme Administrative Court orders the church to license remarriage; the Supreme Constitutional Court halts the order's enforcement [4] | The state leaves the church's control over marriage in place. |
 | 1 Jan 2011 | A church bombing in Alexandria kills 23 [9] | — |
 | 2012 | The Coptic Pope is chosen by altar lot [6] | — |
 | 2016 | Egypt passes its church-construction law (Law 80) [8] | The state regulates where Christians may pray; local authorities, not the president, now approve church building [8]. |
@@ -112,7 +113,7 @@ These churches separated from Rome and Constantinople after the Council of Chalc
 | 2018–21 | The abbot of St Macarius Monastery is murdered, and a former monk is executed for it in 2021 [11] | Violence inside a monastery is prosecuted by the state. |
 | Feb 2022 | The Eritrean Patriarch dies after 15+ years' house arrest [2] | — |
 | Jan–Feb 2023 | A breakaway Oromia synod splits the Ethiopian church; about 30 people are killed, and the prime minister brokers a settlement [7] | Ethnic politics enters the synod, and the state settles it. |
-| 2025–26 | Armenia arrests archbishops (Jun 2025), and one is sentenced to two years (Oct 2025) [12]; the Catholicos and six bishops go on trial (Aug 2026) [13] | A state moves against its national church. |
+| 2025–26 | Armenia arrests archbishops (Jun 2025); one is sentenced to two years (Oct 2025), a verdict overturned on appeal in June 2026 [12][25]; the Catholicos and six bishops go on trial (Aug 2026) [13] | A state moves against its national church. |
 
 ### Moments in the room
 
@@ -128,10 +129,10 @@ The six autocephalous churches are in communion with one another. There are also
 
 | Church | Where | How its head is chosen, and who else has a hand |
 |---|---|---|
-| **Ethiopian Orthodox Tewahedo** | Ethiopia and diaspora; by far the largest [1] | The Holy Synod chooses the patriarch. The prime minister brokered the 2023 settlement of an Oromia synod schism [7], and the Tigrayan church set up its own administration in 2021 [17]. |
+| **Ethiopian Orthodox Tewahedo** | Ethiopia and diaspora; by far the largest [1] | An electoral college of church representatives elects the patriarch (806 electors in 2013) [28]. The prime minister brokered the 2023 settlement of an Oromia synod schism [7], and the Tigrayan church set up its own administration in 2021 [17]. |
 | **Coptic Orthodox** | Egypt and diaspora | A blindfolded boy draws one of three shortlisted names at the altar, as in 2012 [6]. |
 | **Armenian Apostolic** | Armenia and diaspora | The Catholicos is elected for life by an assembly that is about two-thirds lay [15]. He went on trial in 2026 [13]. |
-| **Eritrean Orthodox Tewahedo** | Eritrea; about 2 million [2] | The government backed the removal of its patriarch in 2006 [2], and a new patriarch was enthroned in 2025 [18]. |
+| **Eritrean Orthodox Tewahedo** | Eritrea; about 2 to 3 million [1] | The government backed the removal of its patriarch in 2006 [2], and a new patriarch was enthroned in 2025 [18]. |
 | **Syriac Orthodox** | Syria, Iraq, Lebanon, Turkey, India and diaspora | A patriarch governs with a synod; in India, the Jacobite faction answers to him [3]. |
 | **Malankara Orthodox Syrian** | Kerala, India | It is governed by a 1934 constitution, which the Supreme Court upheld in 2017 [3]. |
 
@@ -165,7 +166,7 @@ Six thrones, one question: which of them answers to a government?
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
 | Coptic Pope of Alexandria | Tawadros II, since 2012 [6] | Electors draw up a shortlist, and an altar lot makes the final choice [6] | Only death ends the office; there is no removal procedure |
-| Ethiopian Patriarch | Abune Mathias (Abune, "our father", is the title of a patriarch or bishop) [7] | The Holy Synod chooses him | The Synod can remove him, though this is contested, and the state has removed and executed a patriarch before [5] |
+| Ethiopian Patriarch | Abune Mathias (Abune, "our father", is the title of a patriarch or bishop) [7] | An electoral college elected him in 2013 (806 electors) [28] | The Synod can remove him, though this is contested, and the state has removed and executed a patriarch before [5] |
 | Eritrean Patriarch | Abune Basilios, since 2025 [18] | The synod chooses him, under government oversight | In practice the government can remove the patriarch, as it did in 2006 [2] |
 | Catholicos of All Armenians | Karekin II, since 1999 [13][15] | The National Ecclesiastical Assembly, two-thirds of it lay, elects him [15] | No church procedure exists; he is now facing criminal trial [13] |
 
@@ -187,15 +188,15 @@ In at least two of these churches the removal column's real answer is "the gover
 
 | Country | What the law does | The accountability question |
 |---|---|---|
-| **Egypt** | Personal-status law is religious: the Coptic Church controls divorce and remarriage for Copts, and the Supreme Constitutional Court upheld that in 2010 [4]; a 2016 law (Law 80) regulates building and repairing churches [8] | A Copt in a failed marriage has no civil route out [4] |
+| **Egypt** | Personal-status law is religious: the Coptic Church controls divorce and remarriage for Copts, and in 2010 the Supreme Constitutional Court halted an order that would have overridden it [4]; a 2016 law (Law 80) regulates building and repairing churches [8] | Under current law a Copt in a failed marriage has no civil route out [4]. In 2026 the government sent parliament a unified personal-status law for Christians, with new provisions on divorce and annulment; it had not passed as of September 2026 [26] |
 | **Eritrea** | Only state-registered faiths may practice; the state removed the Orthodox patriarch in 2006 [2] | He died in 2022 after more than 15 years under house arrest [2] |
 | **Ethiopia** | The Derg nationalized rural land in 1975, including the church's [5] | The state settled the 2023 synod schism [7] |
-| **Armenia** | Criminal cases against senior clergy and the Catholicos, 2025–26 [12][13] | Twenty-five bishops publicly backed the Catholicos [13] |
-| **India** | Secular courts decide church property: the Supreme Court gave the Malankara Orthodox faction the right to administer about 1,100 churches (2017) [3] | Kerala's government has said it cannot implement the ruling [3] |
+| **Armenia** | Criminal cases against senior clergy, 2025–26 [12]; the Catholicos and six bishops are charged with obstructing enforcement of a court order concerning a bishop he had removed (Article 507) [13] | Twenty-five bishops publicly backed the Catholicos [13][30] |
+| **India** | Secular courts decide church property: the Supreme Court gave the Malankara Orthodox faction the right to administer about 1,100 churches (2017) [3] | In 2024 Kerala's government told the courts it was unable to implement the ruling [3]; in 2026 it proposed mediation by the Chief Minister over six churches [27] |
 
 ### Who can compel an answer
 
-Egyptian courts can compel an answer on personal status, and they confirmed the church's jurisdiction [4]. Indian courts can on property [3], and Armenian criminal courts have brought cases against clergy [12][13]. In Eritrea no domestic body can. International bodies such as USCIRF (the US Commission on International Religious Freedom) and the UN report without power to compel [2].
+Egyptian courts can compel an answer on personal status, and in 2010 the Supreme Constitutional Court halted an order against the church [4]. Indian courts can on property [3], and Armenian criminal courts have brought cases against clergy [12][13]. In Eritrea no domestic body can. International bodies such as USCIRF (the US Commission on International Religious Freedom) and the UN report without power to compel [2].
 
 ## 9. Money {#money}
 
@@ -205,7 +206,7 @@ Egyptian courts can compel an answer on personal status, and they confirmed the 
 - In Ethiopia the church lost all its land when the Derg nationalized rural land in March 1975. Estimates of prior church holdings range from 10 to 20% of cultivated land [5].
 - The 2023 Ethiopian settlement allocated funding and resources to churches in Oromia [7], so money is part of how schisms are settled.
 - In India, the Malankara Orthodox and Jacobite factions litigated for decades. In 2017 the Supreme Court gave the Orthodox faction the right to administer about 1,100 churches [3].
-- Financial disclosure is generally minimal and jurisdiction-dependent. Diaspora parishes registered as charities (UK, US) file accounts.
+- Financial disclosure is generally minimal and jurisdiction-dependent. Diaspora parishes registered as charities in the UK file public accounts; in the US, churches are generally exempt from public filing [29].
 
 ### Follow the money
 
@@ -235,14 +236,14 @@ Most of these churches publish no accounts. In the UK, diaspora bodies registere
 ## 10. Genealogy {#genealogy}
 
 1. **Church control of marriage and divorce (Egypt)**
-   - *Origin:* Personal-status systems delegated family law to each religious community. [ACADEMIC SOURCE]
+   - *Origin:* Personal-status systems delegated family law to each religious community; Egypt's derives from the Ottoman millet system [31]. [ACADEMIC SOURCE]
    - *Then:* The system gave each community autonomy, and protection from majority family law.
-   - *Expired?* With no civil-marriage alternative, the state's highest court confirmed that the church alone decides [4]. Autonomy becomes control over members with no exit.
+   - *Expired?* With no civil-marriage alternative, the state's highest constitutional court halted an order that would have made the church license remarriage [4]. Autonomy becomes control over members with no exit.
    - *Benefits now:* The clerical hierarchy benefits.
 2. **The patriarch as the state's interlocutor**
    - *Origin:* The community head answers to the ruler for the community. [ACADEMIC SOURCE]
    - *Then:* The arrangement secured the community's survival.
-   - *Expired?* It lets states manage millions through one office. Eritrea removed its patriarch for refusing to excommunicate a youth movement and for demanding prisoners' release [2]. Ethiopia's prime minister settled a schism [7]. Armenia's government prosecutes its Catholicos [13].
+   - *Expired?* It lets states manage millions through one office. Eritrea removed its patriarch for refusing to excommunicate a youth movement and for demanding prisoners' release [2]. Ethiopia's prime minister settled a schism [7]. Armenia has charged its Catholicos with obstructing enforcement of a court order [13].
    - *Benefits now:* States benefit, and so does whichever faction the state favors.
 3. **Purity rules**
    - *Origin:* The rules come from Levitical purity traditions preserved in early canons (church laws) [14].
@@ -287,7 +288,7 @@ Most of these churches publish no accounts. In the UK, diaspora bodies registere
 
 | # | Mechanism | Grade | How it appears here | The defense | The counter |
 |---|---|---|---|---|---|
-| 1 | Love bombing | Cultural (weak) | Belonging comes through the ethnic community rather than through recruitment. | "We are a people." | The belonging is never offered as a choice. |
+| 1 | Love bombing | Cultural | Belonging comes through the ethnic community rather than through recruitment. | "We are a people." | The belonging is never offered as a choice. |
 | 2 | Weaponized generosity | Contested | The church provides welfare where the state is absent. | "Charity." | Help that is the only help creates debt. |
 | 3 | Future faking | Taught | Salvation is promised through the church's sacraments. | "Orthodox faith." | Access is controlled by the office. |
 | 4 | Hoovering | Cultural | Family and priests recall the lapsed at feasts and fasts | "Pastoral care." | Care that costs identity if refused is pressure. |
@@ -295,7 +296,7 @@ Most of these churches publish no accounts. In the UK, diaspora bodies registere
 | 6 | Gaslighting | Cultural | Complaints about clergy are framed as weak faith. | "Respect the fathers." | Respect is not an answer. |
 | 7 | Double bind | Codified | Marriage is holy, and a failed one cannot end [4] | "A sacrament is permanent." | Permanent for whom? |
 | 8 | Intermittent reinforcement | Cultural | Clergy show favor to the observant. | "Rewarding devotion." | Favor rationed by conformity trains conformity. |
-| 9 | Moving the goalposts | Contested | Divorce grounds were narrowed to adultery [4]. | "Restoring canon." | Narrowed for whom? |
+| 9 | Moving the goalposts | Documented | Divorce grounds were narrowed to adultery [4]. | "Restoring canon." | Narrowed for whom? |
 | 10 | Strategic ambiguity | Cultural | Purity rules are called "custom" and enforced like doctrine [14]. | "Tradition." | The rules are enforced like doctrine and defended as custom. |
 | 11 | Projection | Cultural | Critics are cast as agents of hostile outsiders. | "We are besieged." | The siege is real; the accusation is misplaced. |
 | 12 | DARVO | Contested | Spouses seeking divorce are framed as destroying families. | "Protecting marriage." | Protecting which spouse? |
@@ -303,8 +304,8 @@ Most of these churches publish no accounts. In the UK, diaspora bodies registere
 | 14 | Isolation | Cultural | Minority identity makes the church the whole world | "Survival." | Survival can become a wall. |
 | 15 | Triangulation | Cultural | Family, priest and community align on marriage and fasting | "Everyone agrees." | Everyone in the triangle is inside. |
 | 16 | Flying monkeys | Cultural | Relatives enforce return and conformity | "Family duty." | The office never has to speak. |
-| 17 | Smear campaign | Contested | Dissenting movements are labeled divisive; the Eritrean Sunday-school movement, for example, was targeted for excommunication [2]. | "Protecting unity." | It is a unity that requires excommunicating children's teachers. |
-| 18 | Stonewalling | Documented | The church refused to comply with a remarriage order [4]. | "God's law above courts." | And then the court agreed [4]. |
+| 17 | Smear campaign | Documented | Dissenting movements are labeled divisive; the Eritrean Sunday-school movement, for example, was targeted for excommunication [2]. | "Protecting unity." | It is a unity that requires excommunicating children's teachers. |
+| 18 | Stonewalling | Documented | The church refused to comply with a remarriage order [4]. | "God's law above courts." | And then the top court halted the order [4]. |
 | 19 | Manufactured consent | Cultural | Infant baptism confers a lifelong identity. | "Grace." | The identity comes before any choice. |
 | 20 | Trauma bonding | Cultural | Shared martyrdom memory [9][10] binds members to the hierarchy | "We suffered together." | Members suffered together with each other, not only with the office. |
 | 21 | Learned helplessness | Documented | In Egypt there is no civil route out of church marriage rules [4]. | "It is our law." | A law with no exit teaches people to stop asking. |
@@ -312,10 +313,10 @@ Most of these churches publish no accounts. In the UK, diaspora bodies registere
 | 23 | Infantilization | Cultural | Laity defer to clergy on family decisions | "Humility." | Adults decide their own marriages. |
 | 24 | Identity erosion | Cultural | Church, ethnicity and self are fused. | "We are one people." | Then leaving means ceasing to exist. |
 | 25 | Spiritual bypassing | Cultural | Suffering in marriage is called "a cross to bear". | "Patience." | Patience is asked only of the harmed. |
-| 26 | Financial control | Contested | The church takes fees and receives unreported diaspora remittances, and schisms have been settled with funding [7]. | "Supporting the church." | Publish what is sent and settled. |
+| 26 | Financial control | Contested | The church takes fees, and schisms have been settled with funding [7]; no figures for diaspora remittances are recorded on this page. | "Supporting the church." | Publish what is sent and settled. |
 | 27 | Manufactured crisis | Cultural | Outside threats are cited to end internal debate. | "The danger is real." | The threats are real, and they are used. |
-| 28 | Discard | Codified | Members face excommunication, and priests who obey courts are threatened with defrocking [4]. | "Canonical discipline." | The discipline is aimed at obedience to a court. |
-| 29 | Replacement | Cultural | Rival synods and bishops are appointed in schisms [7]. | "Order restored." | Order is restored by replacing people. |
+| 28 | Discard | Documented | Members face excommunication, and priests who obey courts are threatened with defrocking [4]. | "Canonical discipline." | The discipline is aimed at obedience to a court. |
+| 29 | Replacement | Documented | Rival synods and bishops are appointed in schisms [7]. | "Order restored." | Order is restored by replacing people. |
 | 30 | Plausible deniability | Documented | Patriarchates cite the state; states cite the church [2][13] | "It is their internal matter." | Both hold the pen. |
 
 ## 13. The loops {#loops}
@@ -349,7 +350,7 @@ Sacramental access funds the clergy who administer it.
 ::: card
 #### 2 · Fear
 
-Salvation is taught to come through the church's sacraments, and excommunication is treated as spiritual death.
+Salvation is taught to come through the church's sacraments, and members face excommunication and, for priests who obey a court, the threat of defrocking.
 
 **How it runs.**
 
@@ -365,7 +366,7 @@ Salvation is taught to come through the church's sacraments, and excommunication
 
 **Where it could be broken, and by whom.** It weakens where church and ethnic belonging can be separated; in the diaspora, leaving is legally free (section 24). It also weakens where clergy stop treating fasting failure and impurity as unworthiness, which is in the hands of parish priests and bishops. This paragraph is analysis, not a documented finding.
 
-**An example from this page.** When a court ordered the church in 2010 to license a divorced man's remarriage, the Pope refused and threatened to defrock priests who complied (section 15).
+**An example from this page.** When a court ordered the church in 2010 to license remarriages, the Pope refused and threatened to defrock priests who complied (section 15).
 :::
 
 ::: card
@@ -393,7 +394,7 @@ Baptism, fasting and Sunday school fuse faith and ethnic identity before choice.
 ::: card
 #### 4 · Aid
 
-Church welfare in weak states buys loyalty and state tolerance, and state settlements buy the church's quiet [7].
+Church welfare in weak states creates debt and loyalty, and state settlements of schisms come with funding [7].
 
 **How it runs.**
 
@@ -415,7 +416,7 @@ Church welfare in weak states buys loyalty and state tolerance, and state settle
 ::: card
 #### 5 · Labor
 
-Monastic and parish labor sustains the institution.
+The church takes labor as well as fees and loyalty; this page records little more about monastic or parish labor than that and the diaspora boards of section 18.
 
 **How it runs.**
 
@@ -484,13 +485,13 @@ This is the strongest loop on this page. Real martyrdom [9][10] makes internal c
 
 | They say | The record shows | Receipt |
 |---|---|---|
-| "The church is independent of the state." | Eritrea removed a patriarch [2]; Ethiopia's prime minister brokered a synod deal [7]; Armenia prosecutes its Catholicos [13]. | [GOVERNMENT REPORT] [COURT RECORD] |
-| "Marriage is protected." | Divorced Copts cannot remarry without church permission, confirmed by the highest court [4]. | [COURT RECORD] |
-| "We are one church." | Kerala's property dispute ran for decades, and implementation still stalls after 2017 [3]. | [COURT RECORD] |
+| "The church is independent of the state." | Eritrea removed a patriarch [2]; Ethiopia's prime minister brokered a synod deal [7]; Armenia has charged its Catholicos with obstructing enforcement of a court order [13]. | [GOVERNMENT REPORT] [COURT RECORD] |
+| "Marriage is protected." | Divorced Copts cannot remarry without church permission, left in place when the highest constitutional court halted a 2010 order against the church [4]. | [COURT RECORD] |
+| "We are one church." | Kerala's property dispute ran for decades; implementation was still stalled in 2024, and in 2026 the state proposed mediation [3][27]. | [COURT RECORD] |
 
 ### Accountability or theatre?
 
-- **Last ran:** A government removed a patriarch [2]. Another government settled a schism [7]. A third is prosecuting a Catholicos [13].
+- **Last ran:** A government removed a patriarch [2]. Another government settled a schism [7]. A third has charged a Catholicos with obstructing enforcement of a court order [13].
 - **Chair now:** The patriarchs and holy synods hold it, together with the governments they depend on.
 - **Predict:** The next state–church confrontation will be framed by both sides as defending the faith.
 
@@ -507,9 +508,10 @@ This is the strongest loop on this page. Real martyrdom [9][10] makes internal c
 ### What leaving costs
 
 - **Egypt: marriage and divorce go through the church.** The Coptic Church permits divorce essentially only for adultery and controls permission to remarry [4]:
-  - 2010: the Supreme Administrative Court ordered the Pope to license a divorced man's remarriage.
+  - 2010: the Supreme Administrative Court ordered the Pope to license the remarriage of divorced men.
   - The Pope refused and threatened to defrock priests who complied.
-  - The Supreme Constitutional Court then held that marital matters belong to the church, because Egypt does not recognize civil marriage without a religious ceremony [4].
+  - The Supreme Constitutional Court then halted the order's enforcement, leaving marital matters with the church; Egypt has no civil marriage outside a religious ceremony [4].
+  - In 2026 the government sent parliament a unified personal-status law for Christians, with new provisions on divorce and annulment; it had not passed as of September 2026 [26].
 - **Eritrea:** Practicing outside state-registered faiths risks detention, and the Orthodox church itself is under state control [2].
 - **Minority communities:** where church and ethnic identity coincide, leaving carries high social and family costs.
 
@@ -561,7 +563,7 @@ This is the strongest loop on this page. Real martyrdom [9][10] makes internal c
 
 ### Where the weight lands
 
-The costs in section 15 do not fall evenly. They fall hardest where a person has the least power inside the institution and the fewest places to go outside it: a Coptic woman whose marriage has failed and who has no civil route out [4], or a believer in Eritrea, where practice outside the registered faiths risks detention [2]. The table names who carries the most, how, and what makes it worse.
+The costs in section 15 do not fall evenly. They fall hardest where a person has the least power inside the institution and the fewest places to go outside it: a Coptic woman whose marriage has failed and who has no civil route out under current law [4], or a believer in Eritrea, where practice outside the registered faiths risks detention [2]. The table names who carries the most, how, and what makes it worse.
 
 | Who | How | Compounds |
 |---|---|---|
@@ -584,9 +586,9 @@ Most of the institution's work is done below the patriarch and synod, by people 
 
 1. **Eritrean Patriarch Antonios: removal (2006) and death in custody (9 Feb 2022)** [2]. [GOVERNMENT REPORT]
 2. ***K.S. Varghese v. St. Peter's & Paul's Syrian Orthodox Church* (SC India, 3 Jul 2017)** [3]. [COURT RECORD]
-3. **Egyptian Supreme Administrative Court (2010), overturned by the Supreme Constitutional Court** [4]. [COURT RECORD]
+3. **Egyptian Supreme Administrative Court (2010), its order halted by the Supreme Constitutional Court** [4]. [COURT RECORD]
 4. **Murder of Bishop Epiphanius (2018); former monk executed (2021); accomplice's sentence reduced to life** [11]. [COURT RECORD]
-5. **Armenia: archbishop sentenced to two years (Oct 2025) [12]; trial of the Catholicos and six bishops (2026)** [13]. [COURT RECORD]
+5. **Armenia: archbishop sentenced to two years (Oct 2025), verdict overturned and retrial ordered (Jun 2026) [12][25]; trial of the Catholicos and six bishops (2026)** [13]. [COURT RECORD]
 
 
 ---
@@ -597,10 +599,10 @@ Most of the institution's work is done below the patriarch and synod, by people 
 
 | What | Who | When | Cost |
 |---|---|---|---|
-| Egyptian courts order a remarriage license (later overturned) [4] | Litigants | 2010 | The Supreme Constitutional Court reversed it |
+| Egyptian courts order a remarriage license (later halted) [4] | Litigants | 2010 | The Supreme Constitutional Court halted its enforcement |
 | Supreme Court resolves Malankara ownership [3] | Litigants | 2017 | It took decades and brought clashes, and implementation is slow |
 | Church-construction law replaces presidential approval [8] | Egyptian parliament | 2016 | The law has been criticized as still restrictive [8] |
-| Bishops publicly back the Catholicos against state pressure [13] | Armenian bishops | 2025–26 | Clergy are being prosecuted |
+| Bishops publicly back the Catholicos against state pressure [13][30] | Armenian bishops | 2025–26 | Clergy are being prosecuted |
 
 ### What would change this page
 
@@ -609,8 +611,8 @@ A civil-marriage option in Egypt would change this page, and so would patriarcha
 ## 21. Voices from inside {#voices}
 
 - **Abune Antonios.** Eritrea's patriarch, he was removed in 2006 after refusing, among other things, to excommunicate members of a Sunday-school renewal movement, and he died under house arrest in 2022 [2].
-- **The twenty-five Armenian bishops.** They publicly backed their Catholicos against the government in 2025–26 [13].
-- **The Coptic man who asked the courts to let him remarry.** The Supreme Administrative Court agreed in 2010; the Pope refused, and the Supreme Constitutional Court sided with the church [4].
+- **The twenty-five Armenian bishops.** They publicly backed their Catholicos against the government in 2025–26 [13][30].
+- **The Coptic men who asked the courts to let them remarry.** The Supreme Administrative Court agreed in 2010; the Pope refused, and the Supreme Constitutional Court halted the order's enforcement [4].
 - **The Oromia bishops of 2023.** Their break over language and representation forced the church and the government to the table [7][17].
 
 ## 22. Regional variants {#regional}
@@ -621,7 +623,7 @@ A civil-marriage option in Egypt would change this page, and so would patriarcha
 - **law:** The church controls personal status [4], and the 2016 church-construction law governs church building [8].
 - **documented:** The record includes the 2011 Alexandria and 2017 Palm Sunday bombings [9][10], the 2018 monastery murder [11] and the remarriage cases [4].
 - **exit:** Leaving the church can mean leaving the only lawful route to marriage and divorce available to you [4].
-- **regulator:** The courts regulate, and they returned marriage to the church [4].
+- **regulator:** The courts regulate, and the Supreme Constitutional Court halted an order against the church [4].
 - **tell:** This is a minority church that needs the state's protection, in a state that leaves the church in charge of Christian marriage.
 :::
 
@@ -632,7 +634,7 @@ A civil-marriage option in Egypt would change this page, and so would patriarcha
 - **documented:** The record includes the 1979 execution of Patriarch Theophilos [5], the 2023 schism and settlement [7] and the Tigrayan church's separate administration [17].
 - **exit:** Where church and ethnicity coincide, leaving carries family costs.
 - **regulator:** In practice the federal government regulates the church [7].
-- **tell:** The largest Oriental church has twice had its future decided in the prime minister's office.
+- **tell:** The largest Oriental church has had its future decided by the state twice: by the Derg in the 1970s and in the prime minister's office in 2023.
 :::
 
 ::: card
@@ -649,7 +651,7 @@ A civil-marriage option in Egypt would change this page, and so would patriarcha
 ### Armenia
 - **apex:** The Catholicos of All Armenians leads the church; Karekin II was elected in 1999 [15].
 - **law:** The state has brought criminal prosecutions against clergy in 2025–26 [12][13].
-- **documented:** The record documents the 2026 trial of the Catholicos and six bishops [13].
+- **documented:** The record documents the 2026 trial of the Catholicos and six bishops, charged with obstructing enforcement of a court order [13].
 - **exit:** Leaving is legally free.
 - **regulator:** The courts regulate, under a government in open conflict with the church [12].
 - **tell:** Here the pressure runs the other way: a national church with an elected, largely lay assembly, facing a state that wants its leader gone.
@@ -662,17 +664,17 @@ A civil-marriage option in Egypt would change this page, and so would patriarcha
 - **documented:** The record documents decades of litigation over about 1,100 churches [3].
 - **exit:** Leaving is legally free.
 - **regulator:** The courts and the state government regulate [3].
-- **tell:** The judgment settled ownership on paper, and the state says it cannot enforce it.
+- **tell:** The judgment settled ownership on paper, and the state told the courts in 2024 that it could not enforce it, and in 2026 proposed mediation [3][27].
 :::
 
 ## 23. The questions {#questions}
 
-1. If a Coptic woman cannot end a failed marriage and remarry in her church, and her state offers no civil marriage [4], whose protection is the rule?
+1. If a Coptic woman cannot end a failed marriage and remarry in her church, and her state offers no civil marriage under current law [4] (a 2026 draft law with divorce and annulment provisions had not passed as of September 2026 [26]), whose protection is the rule?
 2. When a government removes a patriarch [2], what does "autocephaly" mean?
 3. Who owns the church you pray in, and why did it take a Supreme Court to decide [3]?
 4. If women may not enter church for weeks after giving birth to a daughter [14], who decided the body God made is unclean?
 5. What does the diaspora parish send home, and who accounts for it?
-6. The martyrs refused to bend to rulers. When a prime minister brokers your synod's peace [7] or prosecutes your Catholicos [13], who is bending?
+6. The martyrs refused to bend to rulers. When a prime minister brokers your synod's peace [7] or charges your Catholicos with defying a court order [13], who is bending?
 
 ### In closing
 
@@ -726,9 +728,17 @@ Checked 2026-09-27.
 22. International Cultic Studies Association (ICSA). <https://internationalculticstudies.org/>
 23. NAPAC — 0808 801 0331. <https://napac.org.uk/calling-our-support-line/>
 24. Charity Commission for England and Wales, register entry: Coptic Orthodox Church Foundation for the Archdiocese of the United Kingdom and the Republic of Ireland, charity no. 265418 (accounts for the year to 30 Sep 2025; income £1,577,227; employees with total benefits over £60,000: two at £70k–£80k, one at £90k–£100k; declared policies include "Safeguarding policy and procedures"). <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/265418/full-print>
+25. Hetq, "Appeals Court Overturns Archbishop Ajapahyan's Guilty Verdict; Orders New Trial," 25 Jun 2026 — the Criminal Appeals Court overturned the October 2025 verdict, sent the case back for a new trial and lifted his house arrest. <https://hetq.am/en/article/182287>
+26. Library of Congress, Global Legal Monitor, "Egypt: Two Bills Introduced to Regulate Personal Status of Muslims and Christians," 20 May 2026 — <https://www.loc.gov/item/global-legal-monitor/2026-05-20/egypt-two-bills-introduced-to-regulate-personal-status-of-muslims-and-christians> — and Middle East Observer, "Egypt unifies Christian family law," 27 Apr 2026: <https://meobserver.news/life-style/2026/04/27/egypt-unifies-christian-family-law/> — the draft law, approved by the cabinet on 22 Apr 2026 and referred to parliament, with provisions on divorce and annulment; no passage found as of Sept 2026.
+27. Bar & Bench, "CM VD Satheesan to mediate Jacobite-Orthodox church dispute: Kerala government to Kerala High Court," 10 Aug 2026 — the state's 2026 proposal of mediation over six Malankara churches. <https://www.barandbench.com/news/litigation/cm-vd-satheesan-to-mediate-jacobite-orthodox-church-dispute-kerala-government-to-kerala-high-court>
+28. Wikipedia, "Abune Mathias" (reference summary) — elected patriarch on 28 Feb 2013 with 500 of the 806 votes cast by a college of electors representing sections of the Church. <https://en.wikipedia.org/wiki/Abune_Mathias>
+29. Church Law & Tax, "Form 990: Does Your Church Need to File This IRS Form?" (reviewed 2 Jan 2025) — churches are generally not required to file Form 990 (Internal Revenue Code section 6033). <https://www.churchlawandtax.com/understand-taxes/clergy/qa-when-should-our-church-file-a-form-990/>
+30. Caucasian Knot, "Bishops called on Armenian authorities to stop persecution of clergy," 21 Feb 2026 — the joint statement of 25 bishops meeting in St. Pölten, Austria, 17–19 Feb 2026. <https://www.eng.kavkaz-uzel.media/articles/72995>
+31. Yehya Badr, "Religion, Colonialism and Legal Pluralism: The Story and Legacy of the Egyptian Choice of Law Rules for Personal Status," *Indiana Journal of Global Legal Studies* 31(1), 2024 — Egyptian personal status derives from Islamic Shariah and the Ottoman millet system. <https://conflictoflaws.net/2024/badr-on-religion-colonialism-and-legal-pluralism-the-story-and-legacy-of-the-egyptian-choice-of-law-rules-for-personal-status-international-and-interpersonal-conflicts-of-law/>
 
 ## 27. What changed on this page {#changed}
 
+- **2026-10-03:** An Armenian archbishop's two-year sentence is now shown as overturned on appeal in June 2026, and the charge against the Catholicos and six bishops is stated (obstructing enforcement of a court order). Egypt's 2010 court action is described as the sources give it: the Supreme Constitutional Court halted an order against the church. The 2026 draft law that would add divorce and annulment provisions for Egyptian Christians, and Kerala's 2026 mediation proposal, are noted. Four technique grades were corrected, the "Cultural (weak)" grade was replaced, and an Evidence row now sums the grades. Membership, patriarch-election and diaspora-filing statements were corrected, and seven sources were added.
 - **2026-09-27:** Added Branches, Law & state, Money in numbers (UK Coptic accounts 2020–2024), Voices from inside, five regional cards, Leaving safely and Where to get help.
 - **2026-09-29:** Disclosure scorecard added: rated on the Coptic Orthodox Church's UK body, whose accounts, pay bands and declared safeguarding policy are on the charity register [24]; police-first reporting, a removal procedure and on-the-record replies are not established from any public source for any church in this family.
 

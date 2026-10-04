@@ -1703,5 +1703,605 @@
   "reason": "'Until a 2017 ruling' implied the dispute ended; sections 8, 14 and 22 record that implementation still stalls [3].",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "OO-D001",
+  "scope": "md",
+  "type": "source",
+  "before": "\"Safeguarding policy and procedures\"). <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/265418/full-print>",
+  "after": "\"Safeguarding policy and procedures\"). <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/265418/full-print>\n25. Hetq, \"Appeals Court Overturns Archbishop Ajapahyan's Guilty Verdict; Orders New Trial,\" 25 Jun 2026 — the Criminal Appeals Court overturned the October 2025 verdict, sent the case back for a new trial and lifted his house arrest. <https://hetq.am/en/article/182287>\n26. Library of Congress, Global Legal Monitor, \"Egypt: Two Bills Introduced to Regulate Personal Status of Muslims and Christians,\" 20 May 2026 — <https://www.loc.gov/item/global-legal-monitor/2026-05-20/egypt-two-bills-introduced-to-regulate-personal-status-of-muslims-and-christians> — and Middle East Observer, \"Egypt unifies Christian family law,\" 27 Apr 2026: <https://meobserver.news/life-style/2026/04/27/egypt-unifies-christian-family-law/> — the draft law, approved by the cabinet on 22 Apr 2026 and referred to parliament, with provisions on divorce and annulment; no passage found as of Sept 2026.\n27. Bar & Bench, \"CM VD Satheesan to mediate Jacobite-Orthodox church dispute: Kerala government to Kerala High Court,\" 10 Aug 2026 — the state's 2026 proposal of mediation over six Malankara churches. <https://www.barandbench.com/news/litigation/cm-vd-satheesan-to-mediate-jacobite-orthodox-church-dispute-kerala-government-to-kerala-high-court>\n28. Wikipedia, \"Abune Mathias\" (reference summary) — elected patriarch on 28 Feb 2013 with 500 of the 806 votes cast by a college of electors representing sections of the Church. <https://en.wikipedia.org/wiki/Abune_Mathias>\n29. Church Law & Tax, \"Form 990: Does Your Church Need to File This IRS Form?\" (reviewed 2 Jan 2025) — churches are generally not required to file Form 990 (Internal Revenue Code section 6033). <https://www.churchlawandtax.com/understand-taxes/clergy/qa-when-should-our-church-file-a-form-990/>\n30. Caucasian Knot, \"Bishops called on Armenian authorities to stop persecution of clergy,\" 21 Feb 2026 — the joint statement of 25 bishops meeting in St. Pölten, Austria, 17–19 Feb 2026. <https://www.eng.kavkaz-uzel.media/articles/72995>\n31. Yehya Badr, \"Religion, Colonialism and Legal Pluralism: The Story and Legacy of the Egyptian Choice of Law Rules for Personal Status,\" *Indiana Journal of Global Legal Studies* 31(1), 2024 — Egyptian personal status derives from Islamic Shariah and the Ottoman millet system. <https://conflictoflaws.net/2024/badr-on-religion-colonialism-and-legal-pluralism-the-story-and-legacy-of-the-egyptian-choice-of-law-rules-for-personal-status-international-and-interpersonal-conflicts-of-law/>",
+  "reason": "New sources 25-31 for the fixes below.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D002",
+  "scope": "md",
+  "type": "fix",
+  "before": "Armenia arrests archbishops (Jun 2025), and one is sentenced to two years (Oct 2025) [12]; the Catholicos",
+  "after": "Armenia arrests archbishops (Jun 2025); one is sentenced to two years (Oct 2025), a verdict overturned on appeal in June 2026 [12][25]; the Catholicos",
+  "reason": "P1-1: the conviction was overturned on 25 Jun 2026 and sent for retrial; the timeline presented it as standing.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D003",
+  "scope": "md",
+  "type": "fix",
+  "before": "**Armenia: archbishop sentenced to two years (Oct 2025) [12]; trial of the Catholicos and six bishops (2026)** [13].",
+  "after": "**Armenia: archbishop sentenced to two years (Oct 2025), verdict overturned and retrial ordered (Jun 2026) [12][25]; trial of the Catholicos and six bishops (2026)** [13].",
+  "reason": "P1-1: case 5 recorded a vacated conviction as standing.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D004",
+  "scope": "md",
+  "type": "fix",
+  "before": "and the Supreme Constitutional Court upheld that in 2010 [4]; a 2016 law",
+  "after": "and in 2010 the Supreme Constitutional Court halted an order that would have overridden it [4]; a 2016 law",
+  "reason": "P1-3: the sources read record that the court halted implementation, not a merits ruling.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D005",
+  "scope": "md",
+  "type": "fix",
+  "before": "| A Copt in a failed marriage has no civil route out [4] |",
+  "after": "| Under current law a Copt in a failed marriage has no civil route out [4]. In 2026 the government sent parliament a unified personal-status law for Christians, with new provisions on divorce and annulment; it had not passed as of September 2026 [26] |",
+  "reason": "P1-2: the draft Personal Status Law for Christians (cabinet 22 Apr 2026, to parliament 4 May 2026) was missing.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D006",
+  "scope": "md",
+  "type": "fix",
+  "before": "so a failed marriage can have no way out [4]. |",
+  "after": "so under current law a failed marriage can have no way out; a draft law before parliament would add provisions on divorce and annulment [4][26]. |",
+  "reason": "P1-2: the headline cost of leaving now notes the pending reform.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D007",
+  "scope": "md",
+  "type": "fix",
+  "before": "If a Coptic woman cannot end a failed marriage and remarry in her church, and her state offers no civil marriage [4], whose protection is the rule?",
+  "after": "If a Coptic woman cannot end a failed marriage and remarry in her church, and her state offers no civil marriage under current law [4] (a 2026 draft law with divorce and annulment provisions had not passed as of September 2026 [26]), whose protection is the rule?",
+  "reason": "P1-2: question 1 notes the pending reform.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D008",
+  "scope": "md",
+  "type": "fix",
+  "before": "who has no civil route out [4], or a believer in Eritrea",
+  "after": "who has no civil route out under current law [4], or a believer in Eritrea",
+  "reason": "P1-2: qualifies the present-tense claim in section 17.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D009",
+  "scope": "md",
+  "type": "fix",
+  "before": "| 2010 | Egyptian courts split on Coptic remarriage; the Supreme Constitutional Court sides with the church [4] | The state confirms the church's control over marriage. |",
+  "after": "| 2010 | Egypt's Supreme Administrative Court orders the church to license remarriage; the Supreme Constitutional Court halts the order's enforcement [4] | The state leaves the church's control over marriage in place. |",
+  "reason": "P1-3: the sources record a halt of enforcement, not a merits holding.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D010",
+  "scope": "md",
+  "type": "fix",
+  "before": "  - 2010: the Supreme Administrative Court ordered the Pope to license a divorced man's remarriage.\n  - The Pope refused and threatened to defrock priests who complied.\n  - The Supreme Constitutional Court then held that marital matters belong to the church, because Egypt does not recognize civil marriage without a religious ceremony [4].",
+  "after": "  - 2010: the Supreme Administrative Court ordered the Pope to license the remarriage of divorced men.\n  - The Pope refused and threatened to defrock priests who complied.\n  - The Supreme Constitutional Court then halted the order's enforcement, leaving marital matters with the church; Egypt has no civil marriage outside a religious ceremony [4].\n  - In 2026 the government sent parliament a unified personal-status law for Christians, with new provisions on divorce and annulment; it had not passed as of September 2026 [26].",
+  "reason": "P1-3 and P1-2: the court action is stated as the sources give it (the ruling concerned two men), and the pending law is added.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D011",
+  "scope": "md",
+  "type": "fix",
+  "before": "and they confirmed the church's jurisdiction [4].",
+  "after": "and in 2010 the Supreme Constitutional Court halted an order against the church [4].",
+  "reason": "P1-3: the court halted the order; it is not recorded as confirming jurisdiction on the merits.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D012",
+  "scope": "md",
+  "type": "fix",
+  "before": "the state's highest court confirmed that the church alone decides [4]",
+  "after": "the state's highest constitutional court halted an order that would have made the church license remarriage [4]",
+  "reason": "P1-3: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D013",
+  "scope": "md",
+  "type": "fix",
+  "before": "confirmed by the highest court [4]. | [COURT RECORD] |",
+  "after": "left in place when the highest constitutional court halted a 2010 order against the church [4]. | [COURT RECORD] |",
+  "reason": "P1-3: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D014",
+  "scope": "md",
+  "type": "fix",
+  "before": "**Egyptian Supreme Administrative Court (2010), overturned by the Supreme Constitutional Court** [4]",
+  "after": "**Egyptian Supreme Administrative Court (2010), its order halted by the Supreme Constitutional Court** [4]",
+  "reason": "P1-3: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D015",
+  "scope": "md",
+  "type": "fix",
+  "before": "Egyptian courts order a remarriage license (later overturned) [4] | Litigants | 2010 | The Supreme Constitutional Court reversed it |",
+  "after": "Egyptian courts order a remarriage license (later halted) [4] | Litigants | 2010 | The Supreme Constitutional Court halted its enforcement |",
+  "reason": "P1-3: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D016",
+  "scope": "md",
+  "type": "fix",
+  "before": "- **The Coptic man who asked the courts to let him remarry.** The Supreme Administrative Court agreed in 2010; the Pope refused, and the Supreme Constitutional Court sided with the church [4].",
+  "after": "- **The Coptic men who asked the courts to let them remarry.** The Supreme Administrative Court agreed in 2010; the Pope refused, and the Supreme Constitutional Court halted the order's enforcement [4].",
+  "reason": "P1-3: two men were litigants; the court halted enforcement.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D017",
+  "scope": "md",
+  "type": "fix",
+  "before": "| \"God's law above courts.\" | And then the court agreed [4]. |",
+  "after": "| \"God's law above courts.\" | And then the top court halted the order [4]. |",
+  "reason": "P1-3: technique 18 counter said the court agreed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D018",
+  "scope": "md",
+  "type": "fix",
+  "before": "and they returned marriage to the church [4].",
+  "after": "and the Supreme Constitutional Court halted an order against the church [4].",
+  "reason": "P1-3: Egypt regulator line.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D019",
+  "scope": "md",
+  "type": "fix",
+  "before": "the church in 2010 to license a divorced man's remarriage, the Pope refused",
+  "after": "the church in 2010 to license remarriages, the Pope refused",
+  "reason": "P1-3: the ruling concerned two men, not one.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D020",
+  "scope": "narration",
+  "type": "clarity",
+  "before": "In 2010 the Supreme Constitutional Court confirmed that arrangement. So a Coptic woman in a failed marriage has no civil route out. If you are Egyptian, did you know that the courts, not only the church, closed that door?",
+  "after": "In 2010 the Supreme Constitutional Court halted an order that would have overridden that arrangement. So, under current law, a Coptic woman in a failed marriage has no civil route out, though a draft law before parliament would add provisions on divorce and annulment. If you are Egyptian, did you know that the courts, not only the church, have been part of this?",
+  "reason": "P1-2 and P1-3: narration matches the corrected facts.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D021",
+  "scope": "narration",
+  "type": "clarity",
+  "before": "divorced Copts cannot remarry without church permission, as confirmed by Egypt's highest court [4]",
+  "after": "divorced Copts cannot remarry without church permission, and in 2010 Egypt's Supreme Constitutional Court halted an order against that rule [4]",
+  "reason": "P1-3: narration.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D022",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 1 | Love bombing | Cultural (weak) |",
+  "after": "| 1 | Love bombing | Cultural |",
+  "reason": "P2-5: \"Cultural (weak)\" is not one of the codex grades.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D023",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 9 | Moving the goalposts | Contested |",
+  "after": "| 9 | Moving the goalposts | Documented |",
+  "reason": "P2-6: the narrowing of divorce grounds is documented by source [4] (Egypt Independent: in 1971 Pope Shenouda III abolished the 1938 bylaws).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D024",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 17 | Smear campaign | Contested |",
+  "after": "| 17 | Smear campaign | Documented |",
+  "reason": "P2-6: the Eritrean Sunday-school example is documented by USCIRF [2].",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D025",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 28 | Discard | Codified |",
+  "after": "| 28 | Discard | Documented |",
+  "reason": "P2-6: the basis is a threat reported in the press [4], not a published rule.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D026",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 29 | Replacement | Cultural |",
+  "after": "| 29 | Replacement | Documented |",
+  "reason": "P2-6: rival synods and bishops in the 2023 schism are documented [7].",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D027",
+  "scope": "md",
+  "type": "fix",
+  "before": "The church takes fees and receives unreported diaspora remittances, and schisms have been settled with funding [7].",
+  "after": "The church takes fees, and schisms have been settled with funding [7]; no figures for diaspora remittances are recorded on this page.",
+  "reason": "P2-6: the remittances are not documented; the row now says so. Grade stays Contested (settlements documented, remittances not).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D028",
+  "scope": "md",
+  "type": "grade",
+  "before": "| Family | Christianity — christianity, catholicism, eastern-orthodoxy, oriental-orthodoxy,",
+  "after": "| Evidence | Seven of the 30 techniques are Documented and one is Codified. The grades are Cultural 16, Contested 3, Taught 3, Documented 7 and Codified 1. |\n| Family | Christianity — christianity, catholicism, eastern-orthodoxy, oriental-orthodoxy,",
+  "reason": "P2-5: adds the Evidence row, with the tally recomputed from the section 12 grade cells.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D029",
+  "scope": "md",
+  "type": "fix",
+  "before": "| Criminal cases against senior clergy and the Catholicos, 2025–26 [12][13] |",
+  "after": "| Criminal cases against senior clergy, 2025–26 [12]; the Catholicos and six bishops are charged with obstructing enforcement of a court order concerning a bishop he had removed (Article 507) [13] |",
+  "reason": "P2-7: the page never said what the charge is.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D030",
+  "scope": "md",
+  "type": "fix",
+  "before": "Armenia's government prosecutes its Catholicos [13]",
+  "after": "Armenia has charged its Catholicos with obstructing enforcement of a court order [13]",
+  "reason": "P2-7.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D031",
+  "scope": "md",
+  "type": "fix",
+  "before": "Armenia prosecutes its Catholicos [13]. | [GOVERNMENT REPORT]",
+  "after": "Armenia has charged its Catholicos with obstructing enforcement of a court order [13]. | [GOVERNMENT REPORT]",
+  "reason": "P2-7.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D032",
+  "scope": "md",
+  "type": "fix",
+  "before": "A third is prosecuting a Catholicos [13].",
+  "after": "A third has charged a Catholicos with obstructing enforcement of a court order [13].",
+  "reason": "P2-7.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D033",
+  "scope": "md",
+  "type": "fix",
+  "before": "the 2026 trial of the Catholicos and six bishops [13].",
+  "after": "the 2026 trial of the Catholicos and six bishops, charged with obstructing enforcement of a court order [13].",
+  "reason": "P2-7.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D034",
+  "scope": "md",
+  "type": "fix",
+  "before": "or prosecutes your Catholicos [13], who is bending?",
+  "after": "or charges your Catholicos with defying a court order [13], who is bending?",
+  "reason": "P2-7.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D035",
+  "scope": "narration",
+  "type": "clarity",
+  "before": "Armenia prosecutes its Catholicos. If you",
+  "after": "Armenia has charged its Catholicos with obstructing a court order. If you",
+  "reason": "P2-7: narration.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D036",
+  "scope": "narration",
+  "type": "clarity",
+  "before": "and Armenia prosecutes its Catholicos [13]",
+  "after": "and Armenia has charged its Catholicos with obstructing a court order [13]",
+  "reason": "P2-7: narration.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D037",
+  "scope": "md",
+  "type": "fix",
+  "before": "The largest Oriental church has twice had its future decided in the prime minister's office.",
+  "after": "The largest Oriental church has had its future decided by the state twice: by the Derg in the 1970s and in the prime minister's office in 2023.",
+  "reason": "P2-8: the page records one prime-ministerial intervention (2023); the 1975-79 events were the Derg's.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D038",
+  "scope": "md",
+  "type": "fix",
+  "before": "Diaspora parishes registered as charities (UK, US) file accounts.",
+  "after": "Diaspora parishes registered as charities in the UK file public accounts; in the US, churches are generally exempt from public filing [29].",
+  "reason": "P2-9: US churches are generally exempt from filing Form 990.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D039",
+  "scope": "narration",
+  "type": "clarity",
+  "before": "Diaspora parishes registered as charities in the UK or US file accounts.",
+  "after": "Diaspora parishes registered as charities in the UK file public accounts; in the US, churches are generally exempt from public filing.",
+  "reason": "P2-9: narration.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D040",
+  "scope": "narration",
+  "type": "clarity",
+  "before": "records that diaspora parishes registered as charities in the UK and US file accounts, but that",
+  "after": "records that diaspora parishes registered as charities in the UK file public accounts and that US churches are generally exempt from public filing, but that",
+  "reason": "P2-9: narration.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D041",
+  "scope": "md",
+  "type": "fix",
+  "before": "| Kerala's government has said it cannot implement the ruling [3] |",
+  "after": "| In 2024 Kerala's government told the courts it was unable to implement the ruling [3]; in 2026 it proposed mediation by the Chief Minister over six churches [27] |",
+  "reason": "P2-10: the statement is a 2024 position; the 2026 mediation proposal is added.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D042",
+  "scope": "md",
+  "type": "fix",
+  "before": "Kerala's property dispute ran for decades, and implementation still stalls after 2017 [3].",
+  "after": "Kerala's property dispute ran for decades; implementation was still stalled in 2024, and in 2026 the state proposed mediation [3][27].",
+  "reason": "P2-10.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D043",
+  "scope": "md",
+  "type": "fix",
+  "before": "the state says it cannot enforce it.",
+  "after": "the state told the courts in 2024 that it could not enforce it, and in 2026 proposed mediation [3][27].",
+  "reason": "P2-10.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D044",
+  "scope": "md",
+  "type": "fix",
+  "before": "*Origin:* Personal-status systems delegated family law to each religious community. [ACADEMIC SOURCE]",
+  "after": "*Origin:* Personal-status systems delegated family law to each religious community; Egypt's derives from the Ottoman millet system [31]. [ACADEMIC SOURCE]",
+  "reason": "P2-11: the receipt now has a numbered citation.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D045",
+  "scope": "md",
+  "type": "loop",
+  "before": "#### 5 · Labor\n\nMonastic and parish labor sustains the institution.",
+  "after": "#### 5 · Labor\n\nThe church takes labor as well as fees and loyalty; this page records little more about monastic or parish labor than that and the diaspora boards of section 18.",
+  "reason": "P2-12: the summary claimed more than the steps record.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D046",
+  "scope": "md",
+  "type": "loop",
+  "before": "#### 2 · Fear\n\nSalvation is taught to come through the church's sacraments, and excommunication is treated as spiritual death.",
+  "after": "#### 2 · Fear\n\nSalvation is taught to come through the church's sacraments, and members face excommunication and, for priests who obey a court, the threat of defrocking.",
+  "reason": "P2-12: \"treated as spiritual death\" is not recorded on this page.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D047",
+  "scope": "md",
+  "type": "loop",
+  "before": "Church welfare in weak states buys loyalty and state tolerance, and state settlements buy the church's quiet [7].",
+  "after": "Church welfare in weak states creates debt and loyalty, and state settlements of schisms come with funding [7].",
+  "reason": "P2-12: \"buy the church's quiet\" is not recorded; the steps record welfare, debt and funded settlements.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D048",
+  "scope": "md",
+  "type": "fix",
+  "before": "estimates range from about 36 to 50+ million [1]",
+  "after": "estimates range from about 36 to 60 million [1]",
+  "reason": "P3-14: aligned with source [1]'s own note (36-60M).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D049",
+  "scope": "md",
+  "type": "fix",
+  "before": "Eritrean Orthodox Tewahedo Church (about 2 million) [2]",
+  "after": "Eritrean Orthodox Tewahedo Church (about 2 to 3 million) [1]",
+  "reason": "P3-15: USCIRF [2] gives no membership figure; [1] gives 2-3 million.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D050",
+  "scope": "md",
+  "type": "fix",
+  "before": "| Eritrea; about 2 million [2] |",
+  "after": "| Eritrea; about 2 to 3 million [1] |",
+  "reason": "P3-15.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D051",
+  "scope": "md",
+  "type": "fix",
+  "before": "| The Holy Synod chooses the patriarch. The prime minister",
+  "after": "| An electoral college of church representatives elects the patriarch (806 electors in 2013) [28]. The prime minister",
+  "reason": "P3-16: Abune Mathias was elected by an electoral college, not by the Synod alone.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D052",
+  "scope": "md",
+  "type": "fix",
+  "before": "| The Holy Synod chooses him |",
+  "after": "| An electoral college elected him in 2013 (806 electors) [28] |",
+  "reason": "P3-16.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D053",
+  "scope": "md",
+  "type": "fix",
+  "before": "| 2006 | The Eritrean Patriarch is removed and placed under house arrest [2] |",
+  "after": "| 2006 | The Eritrean Patriarch is notified of his removal and house arrest (Jan 2006) and is taken to an undisclosed location in May 2007 [2] |",
+  "reason": "P3-17: the removal and the detention fall in different years.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D054",
+  "scope": "md",
+  "type": "fix",
+  "before": "publicly backed their Catholicos against state pressure [13]. Solidarity",
+  "after": "publicly backed their Catholicos against state pressure [13][30]. Solidarity",
+  "reason": "P3-20: neutral second source for the 25 bishops.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D055",
+  "scope": "md",
+  "type": "fix",
+  "before": "| Twenty-five bishops publicly backed the Catholicos [13] |",
+  "after": "| Twenty-five bishops publicly backed the Catholicos [13][30] |",
+  "reason": "P3-20.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D056",
+  "scope": "md",
+  "type": "fix",
+  "before": "They publicly backed their Catholicos against the government in 2025–26 [13].",
+  "after": "They publicly backed their Catholicos against the government in 2025–26 [13][30].",
+  "reason": "P3-20.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D057",
+  "scope": "md",
+  "type": "fix",
+  "before": "| Bishops publicly back the Catholicos against state pressure [13] |",
+  "after": "| Bishops publicly back the Catholicos against state pressure [13][30] |",
+  "reason": "P3-20.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D058",
+  "scope": "md",
+  "type": "meta",
+  "before": "checked: 2026-09-27",
+  "after": "checked: 2026-10-03",
+  "reason": "Meta: checked date.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D059",
+  "scope": "md",
+  "type": "meta",
+  "before": "| Last checked | 2026-09-27 |",
+  "after": "| Last checked | 2026-10-03 |",
+  "reason": "Meta: glance row.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "OO-D060",
+  "scope": "md",
+  "type": "meta",
+  "before": "## 27. What changed on this page {#changed}\n\n",
+  "after": "## 27. What changed on this page {#changed}\n\n- **2026-10-03:** An Armenian archbishop's two-year sentence is now shown as overturned on appeal in June 2026, and the charge against the Catholicos and six bishops is stated (obstructing enforcement of a court order). Egypt's 2010 court action is described as the sources give it: the Supreme Constitutional Court halted an order against the church. The 2026 draft law that would add divorce and annulment provisions for Egyptian Christians, and Kerala's 2026 mediation proposal, are noted. Four technique grades were corrected, the \"Cultural (weak)\" grade was replaced, and an Evidence row now sums the grades. Membership, patriarch-election and diaspora-filing statements were corrected, and seven sources were added.\n",
+  "reason": "Meta: dated patch note.",
+  "count": 1,
+  "status": "proposed"
  }
 ]
