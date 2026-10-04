@@ -5,7 +5,7 @@ family: "Restorationist & Adventist"
 family_id: restorationist
 family_members: [mormonism, jehovahs-witnesses, seventh-day-adventism]
 version: v4
-checked: 2026-09-27
+checked: 2026-10-03
 sections_filled: 27/27
 missing: []
 partial: []
@@ -24,9 +24,9 @@ partial: []
 | Money in one line | The money comes from voluntary donations, and the real asset is unpaid member labor (preaching hours, construction, Bethel service, meaning work at a branch office or the world headquarters) and real estate. The sale of the Brooklyn headquarters properties realized on the order of $1B+ (25–30 Columbia Heights alone sold for ~$340M). [FINANCIAL RECORD: Brooklyn sales to Kushner Cos. and partners, about $1 billion] |
 | Leaving in one line | The exit penalties are among the most severe formalized in this codex. Disfellowshipped (formally expelled) and disassociated (formally resigned) members are shunned by family and all Witnesses, and this is documented as organizational policy, not personal choice. [OFFICIAL POLICY / GOVERNMENT REPORT] |
 | The unanswered question | The organization's own files held one thousand and six alleged perpetrators, and none was reported. Who above the elder level answered for the policy that kept it that way? |
-| Evidence | Fourteen of the 30 techniques are sourced to a named document. The grades are Codified 21, Taught 4, Documented 4 and Reformed 1. |
+| Evidence | Three of the 30 techniques are sourced to a named document. The grades are Codified 18, Taught 7, Documented 3 and Cultural 2. |
 | Family | Restorationist & Adventist — mormonism, jehovahs-witnesses, seventh-day-adventism |
-| Last checked | 2026-09-27 |
+| Last checked | 2026-10-03 |
 :::
 
 ### Disclosure scorecard
@@ -43,7 +43,7 @@ partial: []
 
 Study at seven with tea, this week's Watchtower (the study magazine), the highlighting she has done since 1987. Thirty-eight years in the truth (the Witnesses' own term for their faith). She has never been lonely, never been without a hall full of people who would drive four hours for her, and any account of her life that leaves this out is a lie.
 
-Service (door-to-door preaching) at ten with Sister Prentice. Four doors, three not in, one polite. Donna reports her hours at the end of the month, as she has every month since she was nineteen.
+Service (door-to-door preaching) at ten with Sister Prentice. Four doors, three not in, one polite. Donna reports at the end of the month whether she took part in the preaching, as she has every month since she was nineteen. Until November 2023 she reported her hours as well.
 
 Her son Michael was disfellowshipped in 2019. He is thirty-one and lives in Leeds. She has not spoken to him properly in six years. When he called at Christmas she said *I can't* and put the phone down and then sat on the stairs for two hours. The elders did not instruct her to do that specifically. She had read what she had read for thirty years, and she knew.
 
@@ -134,7 +134,7 @@ The US Supreme Court held that schoolchildren could not be compelled to salute t
 
 A body of internal directions instructed elders to keep abuse allegations confidential within the organization and applied the scriptural two-witness requirement to child sexual abuse allegations, which in practice meant most reports could not be established.
 
-**Why it matters.** It applied a scriptural rule about property disputes to a crime that has no second witness by design. It is written down, which is why the deniability here is the lowest in the codex.
+**Why it matters.** It applied a scriptural rule written for accusations of any wrongdoing (Deuteronomy 19:15: "for any iniquity, or for any sin"), the verse the organization cites, to a crime that has no second witness by design. It is written down, which is why the deniability here is the lowest in the codex.
 :::
 
 ::: card
@@ -179,7 +179,7 @@ Jehovah's Witnesses are a single worldwide organization, with no denominations i
 ### The top of the chain
 
 ::: lede
-Eight million members hold zero votes, at any level, and never have.
+Nine million members hold zero votes, at any level, and never have.
 :::
 
 | Office | Who sits in it now | Chosen by | Removable by |
@@ -221,21 +221,21 @@ Sources for this section: [1] [6] [7] [9] [10] [11]
 | **Australia** | A Royal Commission had powers to compel documents [1] | The organization's own files named 1,006 alleged perpetrators since 1950, none reported by it to police [1]; it joined the National Redress Scheme in 2021 [2] |
 | **England & Wales** | The organization's British charity is regulated under charity law [14] | A nine-year Charity Commission inquiry (2014–2023) found the trustees "not as straightforward or transparent as they should have been" about who held safeguarding responsibility [14] |
 | **United States** | Courts can impose civil liability for abuse [15][16] | A 2012 jury awarded Candace Conti $28 million; on appeal the court held there was no duty to warn the congregation and cut the award to $2.8 million [15][16] |
-| **Norway** | State registration and grants are conditioned on compliance with the law [3] | The state withdrew both in 2022; the Supreme Court held in 2026 that the withdrawal was invalid [3] |
+| **Norway** | State registration and grants are conditioned on compliance with the law [3] | The state withdrew both in 2022; the Supreme Court held in 2026, by three votes to two, that the withdrawal was invalid [3] |
 | **Russia** | The Supreme Court declared the organization "extremist" in 2017 [5] | Its 395 local organizations were liquidated [5] |
-| **Japan** | Child-welfare law applies. | A 2023 report by lawyers supporting former members found 81% of respondents had been made to carry a blood-refusal card [17] |
+| **Japan** | Child-welfare law applies. | A 2023 report by lawyers supporting former members found more than three-quarters of respondents had been made to carry a blood-refusal card [17] |
 | **United States (1943)** | *West Virginia v. Barnette* held that schoolchildren cannot be forced to salute the flag [4] | A Witness family won a landmark free-speech case [4] |
 
 ### Who can compel an answer
 
-Child-safeguarding authorities and the courts can, and the Royal Commission is the working model. So can charity regulators, whose registration decisions in Europe show the lever moves in both directions.
+Child-safeguarding authorities and the courts can, and the Royal Commission is the working model. So can state registration authorities, whose decisions in Europe show the lever moves in both directions.
 
 ## 9. Money {#money}
 
 ### Where it comes from
 
 - The money comes from voluntary donations, and the real asset is unpaid member labor (preaching hours, construction, Bethel service) and real estate. The sale of the Brooklyn headquarters properties realized on the order of $1B+ (e.g., 25–30 Columbia Heights sold for ~$340M). [FINANCIAL RECORD: Brooklyn sales to Kushner Cos. and partners, about $1 billion]
-- Congregations' local funds and halls are titled to the organization. [OFFICIAL POLICY]
+- In many countries, congregations' local funds and halls are titled to the organization or a national trust; in England and Wales more than 1,000 congregations merged into the Kingdom Hall Trust in 2022 [25]. [FINANCIAL RECORD: Charity Commission merger data]
 
 ### Follow the money
 
@@ -243,23 +243,11 @@ Child-safeguarding authorities and the courts can, and the Royal Commission is t
 |---|---|---|---|
 | Voluntary donations (no collection plate) | They are presented as support for the worldwide work. | Giving is genuinely low-pressure at the point of giving; the extraction is labor and assets, not guilt-driven cash. | The Watch Tower corporate structure benefits. |
 | Unpaid member labor: preaching hours, construction, Bethel service | It is presented as sacred service. | Billions of hours of free labor build assets titled to the organization, and Bethel workers receive small stipends. | The organization benefits exclusively [INVESTIGATIVE REPORT] |
-| Kingdom Hall property titling and sales | Kingdom Halls (the congregations' meeting places) are presented as places of worship. | Local congregations fundraise and build, and the organization holds title and has sold consolidated properties for large sums. | Watch Tower entities benefit [FINANCIAL RECORD] |
+| Kingdom Hall property titling and sales | Kingdom Halls (the congregations' meeting places) are presented as places of worship. | Local congregations fundraise and build, in many countries the organization or a national trust holds title, and the organization has sold consolidated properties for large sums. | Watch Tower entities benefit [FINANCIAL RECORD] |
 | Headquarters real-estate portfolio | It is presented as meeting administrative needs. | Brooklyn holdings were acquired cheaply through donated funds and labor and sold at peak market value. | The proceeds go to the organization's reserves, which it does not publish [PATTERN OBSERVED: no public accounts] |
 | Education discouragement | It is presented as a focus on ministry. | It reduces members' outside earning capacity and exit options while increasing available volunteer hours. | The organization's labor supply benefits [LEADERSHIP STATEMENT] |
 
 ### Pipelines this tradition shares
-
-::: card
-#### Tithe to reserve fund
-
-**Source.** Member's income, taught as obligation
-
-**Path.** Congregation → Denominational assessment or central treasury → Investment arm → Commercial subsidiaries and reserves
-
-**Disclosed.** Aggregate 'we use funds wisely' statements
-
-**Hidden.** Portfolio size, compensation, holdings
-:::
 
 ::: card
 #### Unpaid labor to titled property
@@ -268,33 +256,21 @@ Child-safeguarding authorities and the courts can, and the Royal Commission is t
 
 **Path.** Local congregation builds → Title held centrally → Sale or leverage at market value
 
-**Disclosed.** Nothing is disclosed about proceeds.
+**Disclosed.** The sale prices of the Brooklyn properties were reported in the press [10][11].
 
-**Hidden.** Sale values and their destination stay hidden.
-:::
-
-::: card
-#### Missionary self-funding
-
-**Source.** The missionary's own family
-
-**Path.** Family savings → Central missionary department → Institutional growth operations
-
-**Disclosed.** The monthly amount
-
-**Hidden.** Aggregate value of the labor received
+**Hidden.** The destination of the proceeds.
 :::
 
 ::: card
 #### Legal defense and settlement
 
-**Source.** The money comes from general funds, which means member giving.
+**Source.** Not recorded on this page; the worldwide organization publishes no accounts.
 
-**Path.** Institutional counsel → Settlements and non-disclosure agreements → Reputational continuity
+**Path.** Institutional counsel → Settlements → Reputational continuity
 
 **Disclosed.** Settlement totals are occasionally disclosed under court order.
 
-**Hidden.** The fact that donations funded the defense stays hidden.
+**Hidden.** Not recorded on this page: how much of the cost came from donations.
 :::
 
 ::: cites
@@ -311,6 +287,7 @@ Sources for this section: [10] [11]
 ```
 
 - **Britain, year to August 2024:** Of £120.65m income, £114.04m came from donations, and £111.08m was spent [13].
+- **Britain, year to August 2025:** Income fell to £38.46m, and £78.17m was spent [13].
 - **Brooklyn:** Kushner Cos. and partners paid about $1 billion for the former headquarters properties [10][11].
 - **Unpaid labor:** Preaching, construction and branch service are done by volunteers (see Follow the money above).
 
@@ -359,7 +336,7 @@ Sources for this section: [10] [11]
 
 **What it was for.** It was a conscience position on a scriptural command.
 
-**Why that reason expired.** The doctrine has been repeatedly adjusted — fractions permitted, components debated — which demonstrates it is interpretive, not absolute. Meanwhile it is applied to children, requiring court intervention. A position flexible enough to be revised should be flexible enough to spare a child.
+**Why that reason expired.** The doctrine has been repeatedly adjusted — fractions permitted, components debated, and in March 2026 members were allowed to decide whether their own blood may be drawn, stored and reinfused while transfusion of others' blood stays prohibited [26] — which demonstrates it is interpretive, not absolute. Meanwhile it is applied to children, requiring court intervention. A position flexible enough to be revised should be flexible enough to spare a child.
 
 **Who benefits now.** Doctrinal distinctiveness benefits, and so does the demonstration of total obedience. The cost is measured in specific patients.
 :::
@@ -490,7 +467,7 @@ Paradise on earth, resurrection of your dead, an end to suffering — and it has
 
 **The counter.** Love that requires institutional reinstatement before your mother can speak to you is not love. It is relational blackmail with religious paperwork.
 
-**Evidence grade.** [[Reformed]] The 2024 adjustment permitting greeting of disfellowshipped attendees at meetings is a material softening under external pressure. *(sourced)*
+**Evidence grade.** [[Codified]] Reinstatement after disfellowshipping is published procedure (attend meetings quietly, meet the elders, show repentance, wait). The 2024 Governing Body Update [8] permits only a greeting at meetings, and family contact outside that is still usually cut (section 24), so the practice described here has not materially changed. *(sourced)*
 :::
 
 ### Stage 3 · Devalue {#stage-3}
@@ -498,9 +475,9 @@ Paradise on earth, resurrection of your dead, an end to suffering — and it has
 ::: stage
 **You are taught that you are broken, that your perception is unreliable, and that both exits from the trap lead back inside.**
 
-Hours are counted and reported monthly. Your service is compared to others'. You are never a good enough publisher, and the metric is literally recorded.
+Until November 2023 every publisher's hours were counted and reported monthly, and pioneers still report them. Your service is compared to others'. You are never a good enough publisher, and for pioneers the metric is literally recorded [24].
 
-*What it asks of you:* You submit a productivity report on your faith. Consider what kind of institution requires that.
+*What it asks of you:* Pioneers submit a productivity report on their faith, and every publisher still reports whether they took part. Consider what kind of institution requires that.
 :::
 
 ::: tactic n=5
@@ -558,7 +535,7 @@ Hours are counted and reported monthly. Your service is compared to others'. You
 
 **The counter.** Discipline whose penalty is the loss of one's entire family is not motivation; it is hostage-taking with a doctrinal permit. A choice priced at everything you love is not a choice — it is a ransom note with a signature line.
 
-**Evidence grade.** [[Codified]] Each bind is built from published rules: study limited to Watch Tower publications, the duty to report serious sin to elders, and disassociation announced with the same shunning as disfellowshipping. *(sourced)*
+**Evidence grade.** [[Codified]] Each bind is built from published rules: study limited to Watch Tower publications, the duty to report serious sin to elders, and disassociation announced with the same shunning as disfellowshipping.
 :::
 
 ### Stage 4 · Confuse {#stage-4}
@@ -578,15 +555,15 @@ Failed predictions become 'our own expectations.' Doctrine changes are 'new ligh
 
 **How it shows here**
 
-- Congregational standing is continuously variable — commendation from the platform, 'encouragement' visits, privileges extended and quietly removed — recalculated monthly from field-service reports and meeting attendance.
+- Congregational standing is continuously variable — commendation from the platform, 'encouragement' visits, privileges extended and quietly removed — recalculated from monthly field-service reports (hours for pioneers; since November 2023 only whether they took part for other publishers [24]) and meeting attendance.
 - Privileges (microphones, carts, parts, appointments) function as an explicit token economy dispensed at elder discretion; publishers can rarely predict which month brings advancement or removal.
 - Armageddon's ever-imminence is itself intermittent reinforcement at civilization scale: dates and expectations raised, adjusted, renewed — the payout always close enough to keep pressing and never close enough to verify.
 
 **The strongest defense.** Privileges reflect spiritual qualification per Scripture; adjustments are loving oversight, not rewards and punishments.
 
-**The counter.** A system that measures hours, records them centrally, and meters privileges to the numbers has published its own reinforcement schedule — the only dispute is whether to use the behavioral name for it.
+**The counter.** A system that records pioneers' hours and every publisher's monthly participation, and meters privileges to the numbers, has published its own reinforcement schedule — the only dispute is whether to use the behavioral name for it.
 
-**Evidence grade.** [[Codified]] Monthly field-service reports are a published requirement; which privileges are extended or removed is left to the elders' discretion.
+**Evidence grade.** [[Codified]] Monthly field-service reports are a published requirement (hours for pioneers; since November 2023 only participation for other publishers [24]); which privileges are extended or removed is left to the elders' discretion.
 :::
 
 ::: tactic n=9
@@ -641,7 +618,7 @@ Failed predictions become 'our own expectations.' Doctrine changes are 'new ligh
 
 **The counter.** Purity becomes projection when the organization calls the critic dangerous for revealing what the organization did. If family rupture is blamed on the person who left rather than the rule commanding avoidance, cruelty has been projected onto the victim.
 
-**Evidence grade.** [[Codified]] The labels applied to former members (apostate, bad association) and the warning against independent thinking appear in published material; the rest of the entry describes how members apply them.
+**Evidence grade.** [[Taught]] The labels applied to former members (apostate, bad association) and the warning against independent thinking are repeated in published material without a formal rule for how to use them; the accusations and blame the entry describes are how members apply them.
 :::
 
 ::: tactic n=12
@@ -661,7 +638,7 @@ Failed predictions become 'our own expectations.' Doctrine changes are 'new ligh
 
 **The counter.** Discipline becomes DARVO when the organization creates the punishment and then blames the victim for suffering it. If your mother shuns you because the religion tells her to, the rupture was not caused by your honesty. It was caused by the rule.
 
-**Evidence grade.** [[Documented]] Australia's Royal Commission found 1,006 alleged perpetrators recorded internally and no reports made by the organization to police. *(sourced)*
+**Evidence grade.** [[Taught]] The labels applied to those who raise concerns (apostate, bad association) are repeated in published material; the denial, attack and reversal of roles that the entry describes is how members and elders apply them, and this page cites no document that records that sequence. The Royal Commission's finding of no reports to police concerns non-reporting, not this sequence.
 :::
 
 ::: tactic n=13
@@ -711,7 +688,7 @@ Members keep no birthdays, holidays or school celebrations, form no outside frie
 
 **The counter.** Separation becomes isolation when it is enforced through fear, information control, and family loss. If the organization can make your mother stop speaking to you, it is not merely encouraging holiness. It is controlling your oxygen supply.
 
-**Evidence grade.** [[Taught]] Restriction on holidays, birthdays, and outside friendship is taught continuously in publications rather than issued as a single rule. *(sourced)*
+**Evidence grade.** [[Taught]] Restriction on holidays, birthdays, and outside friendship is taught continuously in publications rather than issued as a single rule.
 :::
 
 ::: tactic n=15
@@ -741,7 +718,7 @@ Members keep no birthdays, holidays or school celebrations, form no outside frie
 ::: stage
 **Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
 
-Preaching hours are reported monthly like a productivity metric. Kingdom Halls are built by members and titled to the organization. Brooklyn property, acquired through donated funds and labor, was sold at peak value. Higher education is discouraged, which produces more available hours and fewer exit options at once. And abuse allegations require a second witness.
+Pioneers report preaching hours monthly like a productivity metric, and every publisher reports whether they took part. Kingdom Halls are built by members and, in many countries, titled to the organization or a national trust. Brooklyn property, acquired through donated funds and labor, was sold at peak value. Higher education is discouraged, which produces more available hours and fewer exit options at once. And abuse allegations require a second witness.
 
 *What it asks of you:* A single policy took your working hours and your ability to ever leave. Ask which other institution has achieved both with one instruction.
 :::
@@ -781,7 +758,7 @@ Preaching hours are reported monthly like a productivity metric. Kingdom Halls a
 
 **The counter.** Spiritual cleanliness becomes smear when it requires making critics radioactive. If members are forbidden to hear the other side, the organization is not protecting truth. It is protecting its narrative.
 
-**Evidence grade.** [[Codified]] Public announcement of disfellowshipping is prescribed procedure, not local practice. *(sourced)*
+**Evidence grade.** [[Codified]] Public announcement of disfellowshipping is prescribed procedure, not local practice.
 :::
 
 ::: tactic n=18
@@ -800,7 +777,7 @@ Preaching hours are reported monthly like a productivity metric. Kingdom Halls a
 
 **The counter.** “Wait on Jehovah” becomes stonewalling when it means never holding the organization accountable. If leaders can change doctrine but members cannot question the changes, silence is not faith. It is submission.
 
-**Evidence grade.** [[Documented]] Repeated refusal to disclose the two-witness rule's application, examined across multiple national inquiries and court proceedings. *(sourced)*
+**Evidence grade.** [[Cultural]] Telling a questioner to "wait on Jehovah" and redirecting them to approved publications is how elders respond in practice; this page cites no published instruction or record that directs it.
 :::
 
 ::: tactic n=19
@@ -819,7 +796,7 @@ Preaching hours are reported monthly like a productivity metric. Kingdom Halls a
 
 **The counter.** Consent is manufactured when family access and survival hope depend on obedience. If leaving costs everyone you love, staying is not simply belief. It is hostage adaptation.
 
-**Evidence grade.** [[Codified]] Baptism of minors makes them subject to disfellowshipping and shunning before adulthood. *(sourced)*
+**Evidence grade.** [[Codified]] Baptism of minors makes them subject to disfellowshipping and shunning before adulthood.
 :::
 
 ::: tactic n=20
@@ -838,7 +815,7 @@ Preaching hours are reported monthly like a productivity metric. Kingdom Halls a
 
 **The counter.** Discipline becomes TRAUMA BONDING when pain is intentionally used to make return feel like rescue. If the same organization cuts off family contact and then restores it after compliance, it has engineered the wound and the cure.
 
-**Evidence grade.** [[Codified]] The community that will shun a member entirely is the only community policy permits them to have. *(sourced)*
+**Evidence grade.** [[Codified]] The community that will shun a member entirely is the only community policy permits them to have.
 :::
 
 ::: tactic n=21
@@ -857,7 +834,7 @@ Preaching hours are reported monthly like a productivity metric. Kingdom Halls a
 
 **The counter.** Discipline becomes LEARNED HELPLESSNESS when the organization controls family access, truth sources, and reinstatement. If the only path out of pain is obedience to the people administering it, helplessness has been engineered.
 
-**Evidence grade.** [[Codified]] The instruction to study only approved material, and the characterization of independent thinking, are published. *(sourced)*
+**Evidence grade.** [[Codified]] The instruction to study only approved material, and the characterization of independent thinking, are published.
 :::
 
 ::: tactic n=22
@@ -876,7 +853,7 @@ Preaching hours are reported monthly like a productivity metric. Kingdom Halls a
 
 **The counter.** Love becomes BENEVOLENT CONTROL when it withdraws itself to force compliance. If family affection is restored only through organizational reinstatement, discipline has become emotional coercion.
 
-**Evidence grade.** [[Codified]] Shunning and the avoidance of apostate material are published as loving discipline and spiritual protection. *(sourced)*
+**Evidence grade.** [[Codified]] Shunning and the avoidance of apostate material are published as loving discipline and spiritual protection.
 :::
 
 ::: tactic n=23
@@ -915,7 +892,7 @@ Preaching hours are reported monthly like a productivity metric. Kingdom Halls a
 
 **The counter.** Hope becomes IDENTITY EROSION when the organization replaces the person’s entire world. If outside identity is demonized and inside identity is conditional on obedience, the self has been narrowed to organizational loyalty.
 
-**Evidence grade.** [[Taught]] Separation from "the world", and a life ordered around meetings, field service and Governing Body direction, are taught continuously in publications. *(sourced)*
+**Evidence grade.** [[Taught]] Separation from "the world", and a life ordered around meetings, field service and Governing Body direction, are taught continuously in publications.
 :::
 
 ::: tactic n=25
@@ -935,7 +912,7 @@ Preaching hours are reported monthly like a productivity metric. Kingdom Halls a
 
 **The counter.** New light becomes SPIRITUAL BYPASSING when it avoids accountability for old certainty. If harm caused by yesterday’s doctrine is erased by today’s update, revelation is being used to bypass responsibility.
 
-**Evidence grade.** [[Codified]] The 'new light' teaching and the description of shunning as loving discipline are published; answering harm with 'wait on Jehovah' is pastoral practice.
+**Evidence grade.** [[Taught]] The 'new light' teaching and the description of shunning as loving discipline are repeated in published material; answering harm with 'wait on Jehovah' is pastoral practice rather than a written rule.
 :::
 
 ::: tactic n=26
@@ -954,7 +931,7 @@ Preaching hours are reported monthly like a productivity metric. Kingdom Halls a
 
 **The counter.** Simplicity becomes FINANCIAL CONTROL when members are discouraged from building independent resources while the organization receives their time, labor, and loyalty. If exit leaves people socially and economically stranded, dependence has been engineered.
 
-**Evidence grade.** [[Codified]] Kingdom Hall property is titled to the organization by policy; congregations fundraise and build. *(sourced)*
+**Evidence grade.** [[Documented]] In England and Wales more than 1,000 congregations merged into the Kingdom Hall Trust in 2022, which now controls their funds and property [25]; title-holding differs by country, and congregations fundraise and build. *(sourced)*
 :::
 
 ### Stage 7 · Discard {#stage-7}
@@ -983,7 +960,7 @@ It takes three elders, a private judicial committee and an announcement. Then yo
 
 **The counter.** Sincerity does not erase MANUFACTURED CRISIS. If every generation is kept urgent and every doubt is treated as fatal, fear becomes the organization’s renewable fuel.
 
-**Evidence grade.** [[Documented]] Predictions of imminent end published with dates since 1914, verifiable in the organization's own archive. *(sourced)*
+**Evidence grade.** [[Documented]] Predictions of the imminent end were published with dates, among them the 1966 book *Life Everlasting—In Freedom of the Sons of God*, whose chronology ended 6,000 years of human history in 1975 [23]. *(sourced)*
 :::
 
 ::: tactic n=28
@@ -1003,7 +980,7 @@ It takes three elders, a private judicial committee and an announcement. Then yo
 
 **The counter.** Discipline becomes DISCARD when love is withdrawn to force compliance. If family contact depends on organizational approval, the person was not merely corrected. They were socially deleted.
 
-**Evidence grade.** [[Codified]] Disfellowshipping procedure and the requirement that members shun are set out in the organization's own published instructions to elders and members. *(sourced)*
+**Evidence grade.** [[Codified]] Disfellowshipping procedure and the requirement that members shun are set out in the organization's own published instructions to elders and members.
 :::
 
 ### Stage 8 · Replace {#stage-8}
@@ -1025,7 +1002,7 @@ Your territory is reassigned, your Bible study transferred, and three elders ann
 
 - A disfellowshipped person is replaced socially by loyal congregation association.
 - Family members may redirect emotional energy toward those “in the truth.”
-- A publisher who stops field service is replaced by others reporting hours and loyalty.
+- A publisher who stops field service is replaced by others who keep preaching and show loyalty.
 - The organization continues emphasizing growth, meetings, and paradise while the discarded person is absent.
 - The replacement is not always one person; it is the congregation itself.
 
@@ -1033,7 +1010,7 @@ Your territory is reassigned, your Bible study transferred, and three elders ann
 
 **The counter.** Association becomes REPLACEMENT when family love is transferred to organizational loyalty. If a person can be socially replaced by anyone “in good standing,” then the relationship was subordinated to status.
 
-**Evidence grade.** [[Codified]] The shunning instruction that removes the person from congregation life is published; the filling of their place in the congregation is observed practice.
+**Evidence grade.** [[Cultural]] The shunning instruction (technique 28) is published, but the filling of the person's place in the congregation is observed practice that no published instruction directs.
 :::
 
 ::: tactic n=30
@@ -1069,12 +1046,12 @@ The seven loops below show how the practices connect, so that each step makes th
 ::: card
 #### 1 · Money to Doctrine to Money
 
-Donations are modest. The extraction is labor and property, and the halls members build are titled centrally.
+Donations are modest. The extraction is labor and property, and in many countries the halls members build are titled centrally.
 
 **How it runs.**
 
 1. Giving is voluntary, with no collection plate, and is presented as support for the worldwide work (section 9).
-2. Congregations fundraise for and build their own Kingdom Halls, and the halls are titled to the organization (sections 9 and 16; technique 26).
+2. Congregations fundraise for and build their own Kingdom Halls, and in many countries the halls are titled to the organization or a national trust (sections 9 and 16; technique 26).
 3. The organization holds the title and has consolidated and sold properties without member consultation (section 16).
 4. The worldwide organization publishes no accounts, and its reserves are not disclosed (sections 1 and 9).
 5. The Governing Body, which sets doctrine and policy for every congregation, presents the preaching and building as sacred service, and the labor and giving continue (sections 6 and 9).
@@ -1129,7 +1106,7 @@ Baptism of minors makes them subject to shunning, education discouragement remov
 
 **Where it could be broken, and by whom.** It weakens where baptism waits for adulthood and where young members complete their education. That decision sits with parents, and with the Governing Body that sets the policy. Norway's attempt to tie registration to children's rights is the one state action on this page, and its Supreme Court held the withdrawal invalid (sections 8 and 22). This paragraph is analysis, not a documented finding.
 
-**An example from this page.** A 2023 report by lawyers supporting former members in Japan found that 81% of respondents had been made to carry a blood-refusal card; the report was built from the accounts of second-generation former members (sections 8 and 21).
+**An example from this page.** A 2023 report by lawyers supporting former members in Japan found that more than three-quarters of respondents had been made to carry a blood-refusal card; the report was built from the accounts of second-generation former members (sections 8 and 21).
 :::
 
 ::: card
@@ -1162,7 +1139,7 @@ Preaching hours, construction, and Bethel service produce a property portfolio r
 **How it runs.**
 
 1. Members give unpaid labor: preaching, the construction of halls, and Bethel service for a small stipend (sections 9 and 18).
-2. The buildings are titled to the organization, not to the congregations that built them (sections 9 and 16).
+2. In many countries the buildings are titled to the organization or a national trust, not to the congregations that built them (sections 9 and 16).
 3. Headquarters holdings acquired through donated funds and labor are sold at peak market value; the Brooklyn properties sold for about $1 billion (sections 9 and 16).
 4. The proceeds go to reserves the organization does not publish (section 9).
 5. The discouragement of higher education keeps members' hours available for the work, and the labor continues (sections 9 and 16).
@@ -1230,7 +1207,7 @@ Genuine persecution — Nazi camps, Russian bans — is real and is invoked to m
 | We have always protected children. | A government commission found 1,006 alleged perpetrators recorded internally and none reported by the organization to police. | [GOVERNMENT REPORT] |
 | We never set dates. | Publications pointed to specific years, and members sold homes and forwent education accordingly. | [INVESTIGATIVE REPORT] |
 | Higher education is a personal choice. | It was discouraged from convention platforms for decades, and the members who complied are now elderly without savings. | [LEADERSHIP STATEMENT] |
-| The blood doctrine is unchangeable. | It has been revised repeatedly on fractions and components. | [OFFICIAL POLICY] |
+| The blood doctrine is unchangeable. | It has been revised repeatedly on fractions and components, most recently in March 2026 on storing and reinfusing one's own blood [26]. | [OFFICIAL POLICY] |
 
 ### Accountability or theatre?
 
@@ -1246,9 +1223,9 @@ Genuine persecution — Nazi camps, Russian bans — is real and is invoked to m
 |---|---|---|---|
 | Disfellowshipped | A member is formally expelled following a judicial committee. | It triggers shunning by every member including immediate family. The clinical word conceals that its subject is usually a family relationship, and sometimes a teenager's. | 'Your family will stop speaking to you.' |
 | Theocratic warfare | It means withholding truth from those not entitled to it. | It supplies a doctrinal basis for incomplete disclosure to outsiders, including in some documented contexts to authorities. | 'We are permitted not to tell you everything.' |
-| Two witnesses | It is the evidentiary standard applied to accusations. | It applies a scriptural rule about property disputes to a category of crime that has no second witness by design, which means most allegations can never be established. | 'Unless someone else watched, this did not happen.' |
+| Two witnesses | It is the evidentiary standard applied to accusations. | It applies a scriptural rule written for accusations of any wrongdoing (Deuteronomy 19:15: "for any iniquity, or for any sin") to a category of crime that has no second witness by design, which means most allegations can never be established. | 'Unless someone else watched, this did not happen.' |
 | Independent thinking | It is reasoning that departs from the organization's teaching. | It names the faculty itself as the danger. Few phrases in this volume are as structurally revealing. | 'Do not think about this on your own.' |
-| The faithful and discreet slave | It is the Governing Body, as the channel of spiritual instruction. | It locates interpretive authority in a body of about nine self-appointing men, which makes disagreement with them disagreement with God. | 'Nine men, and you may not question them.' |
+| The faithful and discreet slave | It is the Governing Body, as the channel of spiritual instruction. | It locates interpretive authority in a body of eleven self-appointing men, which makes disagreement with them disagreement with God. | 'Eleven men, and you may not question them.' |
 
 ::: cites
 Sources for this section: [1]
@@ -1292,7 +1269,7 @@ Sources for this section: [1]
 ### Money out, leverage back
 
 - Unpaid member labor — preaching hours, Kingdom Hall construction, Bethel service — built a real-estate portfolio titled to the organization. The Brooklyn headquarters properties sold for about $1 billion after decades of donated work and funds. [FINANCIAL RECORD: Brooklyn sales to Kushner Cos. and partners, about $1 billion]
-- Congregations fundraise and build their own halls; the organization holds the title and has consolidated and sold properties without member consultation. [FINANCIAL RECORD]
+- Congregations fundraise and build their own halls; in many countries the organization or a national trust holds the title, and the organization has consolidated and sold properties without member consultation. [FINANCIAL RECORD]
 - Discouraging education produces a workforce with more available hours and fewer exit options simultaneously, so a single policy achieves both. [LEADERSHIP STATEMENT]
 - The organization is genuinely persecuted in Russia and elsewhere, which is real and wrong, and does not answer for the internal record. [GOVERNMENT REPORT]
 
@@ -1336,7 +1313,8 @@ Most of the organization's work is done below the Governing Body, by people who 
 |---|---|---|---|---|
 | Elders | Serve unpaid and untrained, and are required to sit in judgment on their neighbors' sexual lives | The instruction letters, the case files, and the fact that a child's allegation will fail | Follow the two-witness rule and keep certain records off site | Convene a judicial committee on a child abuse allegation instead of calling the police |
 | Ministerial servants | Run the practical operation of the hall | Who is struggling and who is about to be announced | Support the elders | Read the announcement |
-| Pioneers (members who commit to a monthly target of preaching hours) and regular publishers | Report hours monthly, which is the organization's productivity metric | That the report is a performance record | Keep the average up | Submit a report at all, and see what happens |
+| Pioneers (members who commit to a monthly target of preaching hours) | Report hours monthly, which is the organization's productivity metric | That the report is a performance record | Keep the average up | Submit a report at all, and see what happens |
+| Regular publishers | Report each month whether they preached; since November 2023 they no longer report hours [24] | That the report records participation | Keep reporting that they took part | Leave the report blank |
 | Bethel volunteers | Staff the organization for a nominal stipend | The property and publishing operation from inside | Treat it as sacred service | Work without a written record of the years given |
 | Parents | Perform the shunning of their own children | That they were instructed | Be loyal to Jehovah rather than to their child | Put the phone down on their own child |
 
@@ -1349,7 +1327,7 @@ Most of the organization's work is done below the Governing Body, by people who 
 - **what:** Australia's Royal Commission into Institutional Responses to Child Sexual Abuse examined the organization's own case files and found 1,006 alleged perpetrators recorded since 1950. The organization had not reported any of them to police. The two-witness rule was found to make allegations effectively unprovable, and women were required to present accounts to all-male judicial committees.
 - **record:** Royal Commission report, Case Study 29 (government inquiry)
 - **outcome:** The organization declined to sign the National Redress Scheme initially and maintained the evidentiary rule. The files existed throughout; the reports did not.
-- **tactics:** 12, 18, 28
+- **tactics:** 18, 30
 - **grade:** Documented
 :::
 
@@ -1402,7 +1380,7 @@ Sources for this section: [1]
 
 | Commitment | Made | Status | Note |
 |---|---|---|---|
-| Jehovah's Witnesses — responses to the Australian Royal Commission recommendations | 2015–16 proceedings; joined the National Redress Scheme in September 2021 | Partial | Redress-scheme participation followed sustained public pressure and naming. The two-witness requirement and the internal-first reporting structure the Commission criticized have not been publicly abandoned. |
+| Jehovah's Witnesses — responses to the Australian Royal Commission recommendations | 2015–16 proceedings; joined the National Redress Scheme in September 2021 | Partial | Redress-scheme participation followed sustained public pressure and naming. The two-witness requirement and the internal-first reporting structure the Commission criticized have not been publicly abandoned. Since the organization's 2018–2019 child-protection policy, its published position is that elders comply with mandatory-reporting laws and that victims and parents may report to the authorities [27]; the two-witness rule still governs congregational action. |
 
 ### What would change this page
 
@@ -1414,9 +1392,9 @@ Sources for this section: [4] [8]
 
 ## 21. Voices from inside {#voices}
 
-- **Candace Conti.** She won the largest single-victim verdict against a religious body in US history at the time, before it was cut on appeal [16].
+- **Candace Conti.** Her $28 million verdict was described by her lawyer as the largest for a single victim in a religious child-abuse case in the country, before it was cut on appeal [28][16].
 - **The second-generation former members in Japan.** Raised in the faith by Witness parents, they gave the accounts that formed the 2023 lawyers' report [17].
-- **The Barnette family.** They were Witnesses whose children's refusal to salute the flag produced a landmark ruling for everyone's freedom of conscience [4].
+- **The Barnett family (the court record spells it Barnette).** They were Witnesses whose children's refusal to salute the flag produced a landmark ruling for everyone's freedom of conscience [4].
 - **Survivors who gave evidence to Case Study 29.** They testified against files kept by the organization itself [1].
 
 ## 22. Regional variants {#regional}
@@ -1437,7 +1415,7 @@ Sources for this section: [4] [8]
 
 - **apex:** The national body leads the organization there, under Warwick.
 - **law:** State registration confers financial support and marriage-solemnization rights, conditioned on compliance with law including children's rights.
-- **documented:** Norwegian authorities withdrew the organization's registration and grants in 2022; the Supreme Court ruled in 2026 that the withdrawal was unlawful.
+- **documented:** Norwegian authorities withdrew the organization's registration and grants in 2022; the Supreme Court ruled in 2026, by three votes to two, that the withdrawal was unlawful; the majority also found that shunning did not amount to undue pressure in breach of article 9 of the European Convention on Human Rights [3].
 - **exit:** Exit costs are very high socially, as everywhere; the difference is that here the state took a position on the practice.
 - **regulator:** The county governor and the Ministry of Children and Families regulate, and the courts decide.
 - **tell:** A state tried to condition religious registration on how a group treats people who leave, and its highest court said it could not do it that way. That is the finding — and it cuts against this codex's own hope for the lever.
@@ -1451,7 +1429,7 @@ Sources for this section: [2] [3]
 
 1. A government commission found 1,006 alleged abusers in the organization's own files and no reports to police. Ask why the files existed and the calls did not.
 2. If shunning is a personal decision by individual members, ask why it is described in the organization's own publications as required.
-3. The greeting policy changed in 2024. Ask what that proves about the forty years before it.
+3. The greeting policy changed in 2024. Ask what that proves about the seventy years before it.
 4. The year 1975 came and went. Ask what the organization has ever done for the members who sold their homes.
 5. The blood doctrine has been revised repeatedly. Ask why it cannot be revised once more for a child.
 6. You were taught that reading criticism endangers your relationship with God. Ask who else it endangers, and be specific.
@@ -1473,7 +1451,7 @@ Practical guidance, not legal advice.
 1. **Know the two exits.** Being removed (formerly disfellowshipped) or formally disassociating both lead to shunning by members, including family [1][8]; some people "fade" quietly instead.
 2. **Since 2024** members may greet removed people at meetings [8]; family contact outside that is still usually cut.
 3. **Update your medical directive.** If you carry a blood-refusal card, replace it with your current wishes and tell your doctor [17].
-4. **If you were abused,** go to the police first; elders' records do not replace a police report [1].
+4. **If you were abused,** go to the police first; elders' records do not replace a police report [1]. The organization's published policy says victims and parents may report to the authorities [27].
 5. **Find others who have left** [18][19][20].
 
 ## 25. Where to get help {#help}
@@ -1500,7 +1478,7 @@ Checked 2026-09-27.
 ### The organization's own records
 6. *2025 Service Year Report* — peak 9,205,326; average 9,047,083 publishers; Memorial attendance 20,635,015. https://www.jw.org/en/library/books/2025-Service-Year-Report-of-Jehovahs-Witnesses-Worldwide/2025-Grand-Totals/
 7. jw.org, "What Is the Governing Body of Jehovah's Witnesses?" — current list of eleven members. https://www.jw.org/en/jehovahs-witnesses/faq/governing-body-jw-helpers/
-8. 2024 Governing Body Update #2 (15 Mar 2024) — members may greet removed individuals at meetings; elders to visit; "disfellowshipped" becomes "removed from the congregation" (*Watchtower*, Aug 2024) — summary. https://en.wikipedia.org/wiki/Jehovah%27s_Witnesses_congregational_discipline
+8. *The Watchtower* (Study Edition), August 2024, study article 35, "Help for Those Who Are Removed From the Congregation" — each Christian may use a Bible-trained conscience on greeting a removed person and welcoming them to a meeting; follows Governing Body Update #2 (March 2024). https://www.jw.org/en/library/magazines/watchtower-study-august-2024/
 9. Anthony Morris III "no longer serving" on the Governing Body (announced 22 Feb 2023; no reason given) — report. https://jwfiles.com/article/anthony-morris-removed-governing-body-2023/
 
 ### Property
@@ -1521,8 +1499,15 @@ Checked 2026-09-27.
 20. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 21. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
 22. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/
+23. *Life Everlasting—In Freedom of the Sons of God* (Watch Tower Bible and Tract Society, 1966) — chronology ending 6,000 years of human history in 1975, with the comment that the date might see the start of Christ's millennial rule; the 1975 material is collected at https://watchtowerdocuments.org/1975-new-info/
+24. NBC News / Religion News Service, "Timekeepers no more" (Nov 2023) — from November 2023 publishers report only whether they took part in the ministry; pioneers and others in special service still record hours; announced by Samuel Herd at the October 2023 annual meeting. https://www.nbcnews.com/news/religion/timekeepers-no-rank-file-jehovahs-witnesses-say-goodbye-tracking-prose-rcna126582
+25. Fundraising UK, "Charity Commission data shows mass merger of over 1,000 Jehovah's Witness congregations" — congregation charities merged into the Kingdom Hall Trust (charity 275946), registered with the Charity Commission on 4 March 2022; the trust controls their funds and property. https://fundraising.co.uk/?p=318863
+26. Associated Press, "Jehovah's Witnesses ease policy on transfusions a bit" (20 Mar 2026), via The Mining Journal — members may decide whether their own blood may be drawn, stored and reinfused; transfusion of others' blood remains prohibited. https://www.miningjournal.net/features/2026/03/jehovahs-witnesses-ease-policy-on-transfusions-a-bit
+27. Jehovah's Witnesses, summary of relevant religious beliefs and practices provided to the Royal Commission of Inquiry into Abuse in Care (New Zealand), 1 Dec 2021 — elders comply with mandatory-reporting laws; the congregation tells people they have the right to report. https://www.abuseincare.org.nz/__data/assets/pdf_file/0024/28374/summary-of-jehovahs-witnesses-relevant-religious-beliefs-and-practices-provided-to-the-royal-commission-on-1-december-2021.pdf
+28. KTAR / Associated Press, "Calif. jury awards $28M in Jehovah's Witness sex abuse case" (2012) — her attorney called it the largest jury verdict for a single victim in a religious child-abuse case in the country. https://ktar.com/national-news/calif-jury-awards-28m-in-jehovahs-sex-abuse-case/106531/?nid=64
 
 ## 27. What changed on this page {#changed}
 
+- **2026-10-03:** Corrected how preaching-hour reporting is described (since November 2023 only pioneers report hours), the Governing Body and membership numbers, and the scriptural basis given for the two-witness rule. Removed two money cards that did not describe this organization and corrected two others. Regraded seven techniques and removed "sourced" marks that named no document. Narrowed the claim that congregation halls are titled to the organization and cited the UK Kingdom Hall Trust merger. Attributed the largest-verdict claim to Candace Conti's lawyer. Added the 2018–2019 reporting policy, the three-to-two Norway vote, the March 2026 blood-policy change and Britain's 2025 spending. Replaced a Wikipedia source with The Watchtower and added six sources.
 - **2026-09-27:** Added Branches, Law & state, Money in numbers (British charity accounts 2021–2025), three more documented cases, Voices from inside, Leaving safely and Where to get help.
 

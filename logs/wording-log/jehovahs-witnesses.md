@@ -1,6 +1,6 @@
 # Wording log — jehovahs-witnesses
 
-161 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/jehovahs-witnesses.json`, then rebuild. Nothing else changes.
+160 edits. Reject any one by setting `"status": "rejected"` on its entry in `content/sacred-divide/edits/jehovahs-witnesses.json`, then rebuild. Nothing else changes.
 
 ## Fragments completed into sentences (106)
 
@@ -1472,7 +1472,7 @@
 
 *Reason:* Fragments completed; first use of 'ACNC', glossed.
 
-## Proofreading (typos, punctuation, agreement) (16)
+## Proofreading (typos, punctuation, agreement) (15)
 
 ### JW-P001 · md · §3 · proposed · build: applied
 
@@ -1641,18 +1641,6 @@
 > 4. The year 1975 came and went.
 
 *Reason:* Numeral at the start of a sentence.
-
-### JW-N001 · narration · §19 · proposed · build: applied
-
-**Before**
-
-> These are not hypotheticals. 4 documented cases on this page
-
-**After**
-
-> These are not hypotheticals. Four documented cases on this page
-
-*Reason:* Numeral at the start of a clause spelled out.
 
 ### JW-N002 · narration · §8 · proposed · build: applied
 
