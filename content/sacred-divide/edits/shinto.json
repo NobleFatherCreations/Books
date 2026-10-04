@@ -1567,5 +1567,675 @@
   "reason": "The caption quoted the two glance cells verbatim; they are now full sentences, so the quotation marks made it read awkwardly.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "SHNF-D001",
+  "scope": "md",
+  "type": "grade",
+  "before": "| Evidence | Five of the 30 techniques are sourced to a named document. The grades are Cultural 28 and Reformed 2. |",
+  "after": "| Evidence | None of the 30 techniques is sourced to a named document. All 30 are graded Cultural; none is graded Reformed. |",
+  "reason": "P1-1/P1-2: tally recomputed from the section 12 chips after techniques 11 and 19 are regraded and the five unsupported (sourced) marks removed (30 Cultural).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D002",
+  "scope": "md",
+  "type": "grade",
+  "before": "visible refusal, unattributable pressure. *(sourced)*",
+  "after": "visible refusal, unattributable pressure.",
+  "reason": "P1-1: technique 2 names no document; mark removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D003",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Reformed]] State Shinto's compulsory rites were imposed on colonized populations and disestablished by directive in 1945. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] The accusation of disrespect, impurity or coldness comes from relatives and neighbors when someone declines; no office issues it and no written rule sets it down.",
+  "reason": "P1-1/P1-2: the entry describes present-day pressure from relatives and neighbors, not State Shinto's compulsory rites, so Reformed did not match; regraded Cultural on the entry's own basis and mark removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D004",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Reformed]] State Shinto's compulsory emperor worship and shrine attendance were disestablished by directive in 1945. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] The appearance of choice comes from custom: relatives and neighbors treat attendance as respect and refusal as awkward, and no written rule requires either.",
+  "reason": "P1-1/P1-2: same as technique 11; the entry describes present-day pressure, so regraded Cultural and mark removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D005",
+  "scope": "md",
+  "type": "grade",
+  "before": "only custom and the household's standing. *(sourced)*",
+  "after": "only custom and the household's standing.",
+  "reason": "P1-1: technique 22 names no document; mark removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D006",
+  "scope": "md",
+  "type": "grade",
+  "before": "the highest-deniability configuration in the codex. *(sourced)*",
+  "after": "the highest-deniability configuration in the codex.",
+  "reason": "P1-1: technique 30 names no document; mark removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D007",
+  "scope": "md",
+  "type": "fact",
+  "before": "The single most dangerous religious capture in modern history happened here, in a tradition",
+  "after": "One of the most severe cases of a state capturing a religious tradition happened here, in a tradition",
+  "reason": "P1-3: superlative with no comparison behind it (F13).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D008",
+  "scope": "md",
+  "type": "fact",
+  "before": "compulsory emperor worship within a single generation.",
+  "after": "compulsory emperor worship within about seven decades.",
+  "reason": "P1-3: State Shinto ran 1868-1945, longer than a generation (F13).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D009",
+  "scope": "md",
+  "type": "fact",
+  "before": "It ended in legal terms eighty years ago.",
+  "after": "It ended in legal terms more than eighty years ago.",
+  "reason": "P3-23: 1945 to 2026 is 81 years; 'more than eighty' stays true.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D010",
+  "scope": "md",
+  "type": "fact",
+  "before": "total coercion instrument within one generation",
+  "after": "total coercion instrument within about seven decades",
+  "reason": "P1-3: same as the section 3 lede (F13).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D011",
+  "scope": "md",
+  "type": "fact",
+  "before": "*What it asks of you:* When it needed teeth, it grew them in one generation.",
+  "after": "*What it asks of you:* When it needed teeth, it grew them over about seven decades.",
+  "reason": "P1-3: same wording problem, stage 7.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D012",
+  "scope": "md",
+  "type": "fact",
+  "before": "an entire tradition repurposed within one generation.",
+  "after": "an entire tradition repurposed over about seven decades.",
+  "reason": "P1-3: same wording problem, stage 8.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D013",
+  "scope": "md",
+  "type": "fact",
+  "before": "when an entire tradition was repurposed in one generation and then disestablished from outside.",
+  "after": "when an entire tradition was repurposed over about seven decades and then disestablished from outside.",
+  "reason": "P1-3: section 14, 'Last time the chair ran'.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D014",
+  "scope": "md",
+  "type": "fact",
+  "before": "5. In one generation this tradition was converted into compulsory emperor worship.",
+  "after": "5. Within about seven decades this tradition was converted into compulsory emperor worship.",
+  "reason": "P1-3: section 23 question 5 repeated the same span.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D015",
+  "scope": "narration",
+  "type": "claim",
+  "before": "If the tradition was turned into compulsory emperor worship within a generation,",
+  "after": "If the tradition was turned into compulsory emperor worship within about seven decades,",
+  "reason": "P1-3: narration for question 5 matched to the changed question.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D016",
+  "scope": "md",
+  "type": "fact",
+  "before": "where the dismissed staff won (final, 2022)",
+  "after": "where the dismissed research chief won (final, 2022)",
+  "reason": "P1-5: one official was dismissed and a colleague demoted (section 19, source 12); 'staff' in the plural was loose.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D017",
+  "scope": "md",
+  "type": "fact",
+  "before": "The staff who questioned a 2015 property sale were dismissed; the courts voided the dismissals (final, 2022), and a rival claim to the presidency was rejected (final, 2024). President Tanaka Tsunekiyo was confirmed for a sixth term in 2025. |\n| Chosen by",
+  "after": "The research chief who questioned a 2015 property sale was dismissed and a colleague demoted; the courts voided the dismissal (final, 2022), and a rival claim to the presidency was rejected (final, 2024). President Tanaka Tsunekiyo was confirmed for a sixth term in 2025. |\n| Chosen by",
+  "reason": "P1-5: section 19 and source 12 record one dismissal and one demotion; sections 8 and 24 already say 'the dismissal'. Glance row.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D018",
+  "scope": "md",
+  "type": "fact",
+  "before": "| The umbrella body over roughly 80,000 shrines. The staff who questioned a 2015 property sale were dismissed; the courts voided the dismissals (final, 2022),",
+  "after": "| The umbrella body over roughly 80,000 shrines. The research chief who questioned a 2015 property sale was dismissed and a colleague demoted; the courts voided the dismissal (final, 2022),",
+  "reason": "P1-5: same correction, section 7 top-of-chain table.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D019",
+  "scope": "md",
+  "type": "fact",
+  "before": "'It is culture, not religion' is the tradition's own official self-description.",
+  "after": "'It is culture, not religion' is how many participants describe it.",
+  "reason": "P1-4: section 8 says shrines are religious corporations and no cited source has Jinja Honcho calling Shinto non-religious (F14).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D020",
+  "scope": "md",
+  "type": "fact",
+  "before": "in a large and untaxed devotional economy.",
+  "after": "in a large devotional economy.",
+  "reason": "P1-6: commercial activity of religious corporations is taxable and no source is cited for 'untaxed' (F15).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D021",
+  "scope": "md",
+  "type": "fact",
+  "before": "It pursues a constitutional agenda funded by amulet sales. |",
+  "after": "It pursues a constitutional agenda; how that agenda is funded is not recorded on this page. |",
+  "reason": "P1-7: source 8 (Nippon.com), read 2026-10-03, describes Shinto Seiji Renmei as the association's political arm but does not say how it is funded.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D022",
+  "scope": "md",
+  "type": "fact",
+  "before": "It makes law shaped by devotional revenue you never voted to spend.",
+  "after": "It lobbies to shape the law; whether devotional revenue pays for that is not recorded on this page.",
+  "reason": "P1-7: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D023",
+  "scope": "md",
+  "type": "fact",
+  "before": "Devotional revenue supports a constitutional-revision agenda most donors never voted on.",
+  "after": "Shrine associations lobby for constitutional revision; how that lobbying is funded is not recorded on this page.",
+  "reason": "P1-7: same, section 9 money table.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D024",
+  "scope": "md",
+  "type": "fact",
+  "before": "Shrine-aligned political lobbying is funded by devotional revenue.",
+  "after": "Shrine-aligned political lobbying is carried out by the association's political arm; how it is funded is not recorded on this page.",
+  "reason": "P1-7: same, stage 6.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D025",
+  "scope": "md",
+  "type": "fact",
+  "before": "Let devotional revenue fund a constitutional campaign |",
+  "after": "Lend the shrine's standing to a constitutional campaign |",
+  "reason": "P1-7: the funding link is not shown; the table's point (what a priest could refuse) now rests on the shrine's standing, which section 16 documents.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D026",
+  "scope": "md",
+  "type": "loop",
+  "before": "Amulets, fees and levies fund shrines and an association whose political programme most contributors never endorsed.",
+  "after": "Amulets, fees and levies pay for shrines; this page does not show whether any of that money reaches the association's political programme.",
+  "reason": "P1-7: loop summary described a funding link the volume never records.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D027",
+  "scope": "md",
+  "type": "loop",
+  "before": "2. The money sustains shrines, hereditary shrine families and Jinja Honcho (sections 7 and 9).",
+  "after": "2. The money sustains shrines and hereditary shrine families; whether any of it reaches Jinja Honcho is not recorded on this page (sections 7 and 9).",
+  "reason": "P1-7/P1-10: remittance to Jinja Honcho is not established in the volume.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D028",
+  "scope": "md",
+  "type": "loop",
+  "before": "and most donors never voted on the agenda their money supports (section 9; technique 10).",
+  "after": "and the page does not show whether donors know of the agenda, because how it is funded is not recorded (section 9; technique 10).",
+  "reason": "P1-7: step 4 asserted a funding link.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D029",
+  "scope": "md",
+  "type": "loop",
+  "before": "Section 9 records devotional revenue that supports 'a constitutional-revision agenda most donors never voted on', and section 7 describes the constitutional agenda as funded by amulet sales.",
+  "after": "Section 9 records lobbying by shrine associations for constitutional revision, and says how that lobbying is funded is not recorded on this page.",
+  "reason": "P1-7: example matched to the corrected sections 7 and 9.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D030",
+  "scope": "narration",
+  "type": "claim",
+  "before": "If you buy amulets or pay festival levies, your money supports this body.",
+  "after": "Amulets and festival levies pay for shrines; this page does not show how much, if any, reaches this body.",
+  "reason": "P1-7: narration claimed the buyer's money supports Jinja Honcho.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D031",
+  "scope": "narration",
+  "type": "claim",
+  "before": "The money table adds one line most shrine visitors don't know: devotional revenue that supports \"a constitutional-revision agenda most donors never voted on.\" When you buy an omamori, part of the system you are funding also lobbies. Would you still buy it",
+  "after": "The money table adds one line most shrine visitors don't know: shrine associations lobby for constitutional revision, and this page does not show how that lobbying is funded. Would you still buy an omamori",
+  "reason": "P1-7: narration repeated the funding claim.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D032",
+  "scope": "md",
+  "type": "fact",
+  "before": "It compounds for Korean and Taiwanese conscripts enshrined without consent. |",
+  "after": "It compounds for Korean and Taiwanese conscripts enshrined without consulting their families [17][18]. |",
+  "reason": "P1-8/F17: claim had no source; bereaved Taiwanese and Korean families have taken it to court (sources 17 and 18). Wording follows source 17.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D033",
+  "scope": "md",
+  "type": "loop",
+  "before": "section 17 records Korean and Taiwanese conscripts enshrined without consent.",
+  "after": "section 17 records Korean and Taiwanese conscripts enshrined without consulting their families.",
+  "reason": "P1-8: loop 7 wording matched to section 17.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D034",
+  "scope": "md",
+  "type": "fact",
+  "before": "::: card\n#### Funeral monopoly\n\n**Source.** Bereaved families with no alternative provider\n\n**Path.** Hereditary temple → Sect headquarters → Temple family income\n\n**Disclosed.** Fee ranges\n\n**Hidden.** Posthumous-name pricing tiers\n:::\n\n",
+  "after": "",
+  "reason": "P2-11: the card described Buddhist temples; section 2 says the funeral is Buddhist, and the volume records no Shinto funeral income. Removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D035",
+  "scope": "md",
+  "type": "fact",
+  "before": "**Source.** Congregational trust and mailing lists\n\n**Path.** Advocacy or voter-guide operation → Party and donor infrastructure → Legislative outcomes\n\n**Disclosed.** Issue positions\n\n**Hidden.** Data sharing and coordination\n:::",
+  "after": "**Source.** Shrine standing and the Shinto Seiji Renmei's lobbying network [8]\n\n**Path.** Jinja Honcho → Shinto Seiji Renmei → legislators [8]\n\n**Disclosed.** Issue positions\n\n**Hidden.** How the lobbying is funded is not recorded on this page.\n:::",
+  "reason": "P2-12: the page documents lobbying by the association's political arm, not mailing lists or data sharing; unsupported lines replaced with what source 8 records.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D036",
+  "scope": "md",
+  "type": "fact",
+  "before": "| It meant decades of losing cases. |",
+  "after": "| It meant decades of litigation, with Supreme Court wins in 1997 and 2010 [4]. |",
+  "reason": "P2-13: section 8 records plaintiffs winning in 1997 and 2010.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D037",
+  "scope": "md",
+  "type": "fact",
+  "before": "The shrine world's governance litigation ending in structural reform and the vindication of the whistleblower would revise this page's accountability finding.",
+  "after": "Structural reform of the association's governance, following the court rulings, would revise this page's accountability finding. The whistleblower's dismissal has already been voided.",
+  "reason": "P2-14: section 19 records the court voiding the dismissal (final 2022), so that condition is already met.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D038",
+  "scope": "md",
+  "type": "loop",
+  "before": "governance litigation ending in structural reform and the vindication of the whistleblower. That lies",
+  "after": "structural reform of the association's governance. That lies",
+  "reason": "P2-14: loop 6 matched to section 20.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D039",
+  "scope": "md",
+  "type": "source",
+  "before": "10. Imperial Household Agency / Jingu — Sayako Kuroda appointed Saishu (supreme priestess) of Ise, 2017. https://en.wikipedia.org/wiki/Sayako_Kuroda",
+  "after": "10. Wikipedia, \"Sayako Kuroda\" — appointed Saishu (supreme priestess) of Ise Jingu, 2017 (replaced Atsuko Ikeda on 19 June 2017). https://en.wikipedia.org/wiki/Sayako_Kuroda",
+  "reason": "P2-15: the label named the Imperial Household Agency but the URL is Wikipedia; relabeled to match what was read on 2026-10-03.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D040",
+  "scope": "md",
+  "type": "source",
+  "before": "(Mar 2021 — Tokyo District Court voids the disciplinary dismissal of the staff who questioned the 2015 sale of a Kawasaki dormitory; upheld by the Tokyo High Court, Sept 2021; Supreme Court refused appeal, 21 Apr 2022).",
+  "after": "(Mar 2021 — Tokyo District Court voids the disciplinary dismissal of the research chief who questioned the 2015 sale of a Kawasaki dormitory; the later appeal steps are reported in source 19).",
+  "reason": "P2-16/F6: a March 2021 article cannot report the 2021-22 appeal steps; annotation limited to what it reports and the later steps moved to a new source.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D041",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **record:** Tokyo District Court (March 2021), upheld on appeal and final in 2022 [1][12]",
+  "after": "- **record:** Tokyo District Court (March 2021), upheld on appeal and final in 2022 [1][12][19]",
+  "reason": "P2-16: cites the new source for the final step.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D042",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **tactics:** 17, 28, 30",
+  "after": "- **tactics:** 28, 30",
+  "reason": "P2-17/F26: the case text records dismissal and denial, not a smear campaign; tactic 17 dropped.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D043",
+  "scope": "md",
+  "type": "loop",
+  "before": "**Techniques that feed it.** [17 · Smear Campaign](#t-17), [28 · Discard](#t-28), [30 · Plausible Deniability](#t-30).",
+  "after": "**Techniques that feed it.** [28 · Discard](#t-28), [30 · Plausible Deniability](#t-30).",
+  "reason": "P2-17: loop 6 steps cite only techniques 28 and 30; the smear-campaign link is dropped to match the case tags.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D044",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Jinja Honcho's disputes ended up in the civil courts [1][2][3] |",
+  "after": "| Jinja Honcho's disputes ended up in the civil courts [1][2][3]. Separately, the Unification Church (now the Family Federation) was ordered dissolved as a religious corporation for unlawful solicitation of donations: Tokyo District Court, March 2025; upheld by the Tokyo High Court, 4 March 2026 [20]; final at the Supreme Court, 23 June 2026, the first dissolution of a religious corporation confirmed on grounds of civil-law wrongdoing [21]. This page records no such order against a Shinto body. |",
+  "reason": "P2-20/F18: the row understated recent use of the law; added the Unification Church dissolution from the proposals, with sources 20 and 21.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D045",
+  "scope": "md",
+  "type": "fact",
+  "before": "and in the State Shinto era there was imprisonment of Christians and others who refused. [GOVERNMENT REPORT]",
+  "after": "and in the State Shinto era there was imprisonment of Christians and others who refused [22]. [ACADEMIC SOURCE]",
+  "reason": "P2-21: the receipt named a government report with no source entry; source 22 (Sumimoto) records Christians arrested and Soka Gakkai's founders imprisoned for rejecting compulsory State Shinto worship. Receipt changed to match.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D046",
+  "scope": "md",
+  "type": "fact",
+  "before": "and they were imprisoned for it. [GOVERNMENT REPORT]",
+  "after": "and they were imprisoned for it [22]. [ACADEMIC SOURCE]",
+  "reason": "P2-21: section 16, same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D047",
+  "scope": "md",
+  "type": "fact",
+  "before": "| They were imprisoned under State Shinto for declining shrine worship. |",
+  "after": "| They were imprisoned under State Shinto for declining shrine worship [22]. |",
+  "reason": "P2-21: section 17, source added.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D048",
+  "scope": "md",
+  "type": "fact",
+  "before": "This is the largest counting discrepancy in the codex. [ACADEMIC SOURCE] |\n| Regions",
+  "after": "The two counts differ by a wide margin. [ACADEMIC SOURCE] |\n| Regions",
+  "reason": "P3-22/F27: cross-volume superlative that was not checked; section 7 Adherents row.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D049",
+  "scope": "md",
+  "type": "fact",
+  "before": "This is the largest counting discrepancy in the codex. [ACADEMIC SOURCE] |\n| Who's in charge",
+  "after": "The two counts differ by a wide margin. [ACADEMIC SOURCE] |\n| Who's in charge",
+  "reason": "P3-22/F27: section 1 Size row.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D050",
+  "scope": "md",
+  "type": "fact",
+  "before": "| It is independent, and it enshrined 14 Class-A war criminals",
+  "after": "| It is independent of Jinja Honcho [23], and it enshrined 14 Class-A war criminals",
+  "reason": "P3-24/F10: 'Independent' had no source; source 23 states Yasukuni has been an independent religious corporation since 1946.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D051",
+  "scope": "md",
+  "type": "fact",
+  "before": "\"note\":\"Within about six months the price rose by more than ¥120 million; the staff member who questioned the sale was dismissed, and the courts voided the dismissal.\"",
+  "after": "\"note\":\"The final sale came about six months after the second, at more than ¥120 million above the first price; the research chief who questioned the sale was dismissed, and the courts voided the dismissal.\"",
+  "reason": "P3-25/F3: the source's six months follow the second sale, not the first.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D052",
+  "scope": "md",
+  "type": "source",
+  "before": "16. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/",
+  "after": "16. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/\n17. Nobumasa Tanaka, \"Yasukuni Shrine and the Double Genocide of Taiwan's Indigenous Atayal: new court verdict\", *Asia-Pacific Journal: Japan Focus* — the Osaka District Court (13 May 2004) dismissed the Taiwanese plaintiffs' petition; the article states that nearly 50,000 Taiwanese and Korean soldiers who died in Japanese uniforms were enshrined at Yasukuni \"without consultation with family members\". https://www.cambridge.org/core/journals/asia-pacific-journal/article/yasukuni-shrine-and-the-double-genocide-of-taiwans-indigenous-atayal-new-court-verdict/EE8C2C20B136FF482CE2A0473DAEF354",
+  "reason": "P1-8/F17: new source for the Korean and Taiwanese enshrinement claim. Appended at the end of section 26; no existing source renumbered.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D053",
+  "scope": "md",
+  "type": "source",
+  "before": "17. Nobumasa Tanaka, \"Yasukuni Shrine and the Double Genocide of Taiwan's Indigenous Atayal: new court verdict\", *Asia-Pacific Journal: Japan Focus* — the Osaka District Court (13 May 2004) dismissed the Taiwanese plaintiffs' petition; the article states that nearly 50,000 Taiwanese and Korean soldiers who died in Japanese uniforms were enshrined at Yasukuni \"without consultation with family members\". https://www.cambridge.org/core/journals/asia-pacific-journal/article/yasukuni-shrine-and-the-double-genocide-of-taiwans-indigenous-atayal-new-court-verdict/EE8C2C20B136FF482CE2A0473DAEF354",
+  "after": "17. Nobumasa Tanaka, \"Yasukuni Shrine and the Double Genocide of Taiwan's Indigenous Atayal: new court verdict\", *Asia-Pacific Journal: Japan Focus* — the Osaka District Court (13 May 2004) dismissed the Taiwanese plaintiffs' petition; the article states that nearly 50,000 Taiwanese and Korean soldiers who died in Japanese uniforms were enshrined at Yasukuni \"without consultation with family members\". https://www.cambridge.org/core/journals/asia-pacific-journal/article/yasukuni-shrine-and-the-double-genocide-of-taiwans-indigenous-atayal-new-court-verdict/EE8C2C20B136FF482CE2A0473DAEF354\n18. The Korea Times, \"Families of World War II Korean conscripts file lawsuit seeking removal of names from Yasukuni Shrine\" (23 Dec 2025) — ten relatives sue in the Seoul Central District Court, saying their relatives were enshrined without permission; two earlier suits in Japanese courts were dismissed on statute-of-limitations grounds. https://www.koreatimes.co.kr/southkorea/law-crime/20251223/families-of-world-war-ii-korean-conscripts-file-lawsuit-seeking-removal-of-names-from-yasukuni-shrine",
+  "reason": "P1-8/F17: Korean families' suits. Appended at the end of section 26; no existing source renumbered.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D054",
+  "scope": "md",
+  "type": "source",
+  "before": "18. The Korea Times, \"Families of World War II Korean conscripts file lawsuit seeking removal of names from Yasukuni Shrine\" (23 Dec 2025) — ten relatives sue in the Seoul Central District Court, saying their relatives were enshrined without permission; two earlier suits in Japanese courts were dismissed on statute-of-limitations grounds. https://www.koreatimes.co.kr/southkorea/law-crime/20251223/families-of-world-war-ii-korean-conscripts-file-lawsuit-seeking-removal-of-names-from-yasukuni-shrine",
+  "after": "18. The Korea Times, \"Families of World War II Korean conscripts file lawsuit seeking removal of names from Yasukuni Shrine\" (23 Dec 2025) — ten relatives sue in the Seoul Central District Court, saying their relatives were enshrined without permission; two earlier suits in Japanese courts were dismissed on statute-of-limitations grounds. https://www.koreatimes.co.kr/southkorea/law-crime/20251223/families-of-world-war-ii-korean-conscripts-file-lawsuit-seeking-removal-of-names-from-yasukuni-shrine\n19. Shinano Mainichi Shimbun (Kyodo), 「解雇無効確定も出勤拒む　神社本庁「対応を調整」」 (25 Apr 2022) — reports that the judgment voiding the dismissal became final in April 2022 and that Jinja Honcho said it was adjusting its response. https://www.shinmai.co.jp/news/article/CNTS2022042500644",
+  "reason": "P2-16/F6: appeal steps of the dormitory case. Appended at the end of section 26; no existing source renumbered.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D055",
+  "scope": "md",
+  "type": "source",
+  "before": "19. Shinano Mainichi Shimbun (Kyodo), 「解雇無効確定も出勤拒む　神社本庁「対応を調整」」 (25 Apr 2022) — reports that the judgment voiding the dismissal became final in April 2022 and that Jinja Honcho said it was adjusting its response. https://www.shinmai.co.jp/news/article/CNTS2022042500644",
+  "after": "19. Shinano Mainichi Shimbun (Kyodo), 「解雇無効確定も出勤拒む　神社本庁「対応を調整」」 (25 Apr 2022) — reports that the judgment voiding the dismissal became final in April 2022 and that Jinja Honcho said it was adjusting its response. https://www.shinmai.co.jp/news/article/CNTS2022042500644\n20. Adnkronos, \"Tokyo High Court upholds Unification Church dissolution order\" (4 Mar 2026) — the March 2025 dissolution order is upheld; the article calls it the first such dissolution based on a group's illegal acts under the Civil Code and reports 1,559 victims and about ¥20.4 billion in unlawfully solicited donations. https://english.adnkronos.com/2026/03/04/tokyo-high-court-upholds-unification-church-dissolution-order/",
+  "reason": "P2-20/F18: Unification Church, High Court. Appended at the end of section 26; no existing source renumbered.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D056",
+  "scope": "md",
+  "type": "source",
+  "before": "20. Adnkronos, \"Tokyo High Court upholds Unification Church dissolution order\" (4 Mar 2026) — the March 2025 dissolution order is upheld; the article calls it the first such dissolution based on a group's illegal acts under the Civil Code and reports 1,559 victims and about ¥20.4 billion in unlawfully solicited donations. https://english.adnkronos.com/2026/03/04/tokyo-high-court-upholds-unification-church-dissolution-order/",
+  "after": "20. Adnkronos, \"Tokyo High Court upholds Unification Church dissolution order\" (4 Mar 2026) — the March 2025 dissolution order is upheld; the article calls it the first such dissolution based on a group's illegal acts under the Civil Code and reports 1,559 victims and about ¥20.4 billion in unlawfully solicited donations. https://english.adnkronos.com/2026/03/04/tokyo-high-court-upholds-unification-church-dissolution-order/\n21. Kyunghyang Shinmun (English edition), \"Supreme Court of Japan finalizes dissolution order for former Unification Church\" (23 Jun 2026) — the order is final; the court found the organization had for about 50 years since 1973 systematically continued unlawful solicitation of donations; reported as the first confirmed dissolution of a religious corporation on civil-tort grounds. https://www.khan.co.kr/en/article/202606232320007",
+  "reason": "P2-20/F18: Unification Church, Supreme Court. Appended at the end of section 26; no existing source renumbered.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D057",
+  "scope": "md",
+  "type": "source",
+  "before": "21. Kyunghyang Shinmun (English edition), \"Supreme Court of Japan finalizes dissolution order for former Unification Church\" (23 Jun 2026) — the order is final; the court found the organization had for about 50 years since 1973 systematically continued unlawful solicitation of donations; reported as the first confirmed dissolution of a religious corporation on civil-tort grounds. https://www.khan.co.kr/en/article/202606232320007",
+  "after": "21. Kyunghyang Shinmun (English edition), \"Supreme Court of Japan finalizes dissolution order for former Unification Church\" (23 Jun 2026) — the order is final; the court found the organization had for about 50 years since 1973 systematically continued unlawful solicitation of donations; reported as the first confirmed dissolution of a religious corporation on civil-tort grounds. https://www.khan.co.kr/en/article/202606232320007\n22. Tokihisa Sumimoto, \"Religious Freedom Problems in Japan: Background and Current Prospects\", *International Journal for Peace Studies* — \"Some Christian teachers and students were arrested and died in prison\"; Soka Gakkai's cofounders Makiguchi and Toda were imprisoned for rejecting compulsory worship of the emperor and State Shinto, and Makiguchi died in prison in 1944. https://www3.gmu.edu/programs/icar/ijps/vol5_2/sumimoto.htm",
+  "reason": "P2-21/F-imprisonment: named source. Appended at the end of section 26; no existing source renumbered.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D058",
+  "scope": "md",
+  "type": "source",
+  "before": "22. Tokihisa Sumimoto, \"Religious Freedom Problems in Japan: Background and Current Prospects\", *International Journal for Peace Studies* — \"Some Christian teachers and students were arrested and died in prison\"; Soka Gakkai's cofounders Makiguchi and Toda were imprisoned for rejecting compulsory worship of the emperor and State Shinto, and Makiguchi died in prison in 1944. https://www3.gmu.edu/programs/icar/ijps/vol5_2/sumimoto.htm",
+  "after": "22. Tokihisa Sumimoto, \"Religious Freedom Problems in Japan: Background and Current Prospects\", *International Journal for Peace Studies* — \"Some Christian teachers and students were arrested and died in prison\"; Soka Gakkai's cofounders Makiguchi and Toda were imprisoned for rejecting compulsory worship of the emperor and State Shinto, and Makiguchi died in prison in 1944. https://www3.gmu.edu/programs/icar/ijps/vol5_2/sumimoto.htm\n23. Wikipedia, \"Yasukuni Shrine\" — privately funded and operated since 1946, when it became an individual religious corporation independent of the Association of Shinto Shrines. https://en.wikipedia.org/wiki/Yasukuni_Shrine",
+  "reason": "P3-24/F10: Yasukuni independence. Appended at the end of section 26; no existing source renumbered.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D059",
+  "scope": "md",
+  "type": "source",
+  "before": "23. Wikipedia, \"Yasukuni Shrine\" — privately funded and operated since 1946, when it became an individual religious corporation independent of the Association of Shinto Shrines. https://en.wikipedia.org/wiki/Yasukuni_Shrine",
+  "after": "23. Wikipedia, \"Yasukuni Shrine\" — privately funded and operated since 1946, when it became an individual religious corporation independent of the Association of Shinto Shrines. https://en.wikipedia.org/wiki/Yasukuni_Shrine\n24. TELL Lifeline (Tokyo English Lifeline) — 0800-300-8355, toll-free, English only; hours as printed on its page on 2026-10-03: Saturday 09:00 to Monday 23:00 (continuous), Tuesday to Thursday 09:00–23:00, Friday 09:00–02:00. https://telljp.com/lifeline/",
+  "reason": "P3-27(a)/F24: Japan line. Appended at the end of section 26; no existing source renumbered.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D060",
+  "scope": "md",
+  "type": "fact",
+  "before": "(freephone; set hours, see website) [14] |",
+  "after": "(freephone; Wed 10am–1pm, Thu 4–7pm, Fri 8–11am) [14] |",
+  "reason": "P3-27(b): hours from Humanists UK helpline page as read in the 2026-10-03 fact-check (F21).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D061",
+  "scope": "md",
+  "type": "source",
+  "before": "(freephone; set hours). https://humanists.uk",
+  "after": "(freephone; Wed 10am–1pm, Thu 4–7pm, Fri 8–11am). https://humanists.uk",
+  "reason": "P3-27(b): source 14 matched.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D062",
+  "scope": "md",
+  "type": "fact",
+  "before": "**(844) 368-2848** [15] |",
+  "after": "**(844) 368-2848** (aims to offer a 24-hour service) [15] |",
+  "reason": "P3-27(c): Recovering from Religion site wording (F22).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D063",
+  "scope": "md",
+  "type": "fact",
+  "before": "| **ICSA** | Former members of high-control groups; families | International | Via website [16] |",
+  "after": "| **ICSA** | Former members of high-control groups; families | International | Via website [16] |\n| **TELL Lifeline** | Anyone in Japan who needs to talk, in English; not specific to religion | Japan | **0800-300-8355** (toll-free; English only; Sat 9am to Mon 11pm, Tue–Thu 9am–11pm, Fri 9am–2am) [24] |",
+  "reason": "P3-27(a)/F24: none of the three lines serves Japan; TELL Lifeline number and hours read on its own page 2026-10-03. Yorisoi Hotline not added: its hours vary by day and were read only on a third-party wiki page.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D064",
+  "scope": "md",
+  "type": "meta",
+  "before": "Checked 2026-09-27.",
+  "after": "Checked 2026-10-03. No Japanese-language line has been checked for this page; the TELL line is English only.",
+  "reason": "P3-27: date updated and the gap stated.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D065",
+  "scope": "md",
+  "type": "meta",
+  "before": "checked: 2026-09-27",
+  "after": "checked: 2026-10-03",
+  "reason": "Text rechecked after the discrepancy fixes.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D066",
+  "scope": "md",
+  "type": "meta",
+  "before": "| Last checked | 2026-09-27 |",
+  "after": "| Last checked | 2026-10-03 |",
+  "reason": "Same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D067",
+  "scope": "md",
+  "type": "changelog",
+  "before": "- **2026-09-27:** Added Branches,",
+  "after": "- **2026-10-03:** Corrected the technique tally: none of the 30 techniques is now counted as sourced to a named document, and the two graded as reformed are graded as custom, because their entries describe present-day pressure from relatives and neighbors. Replaced \"the single most dangerous capture in modern history\" and \"within one generation\" with wording the record supports. Stopped saying that amulet sales fund the shrine association's constitutional campaign, which no source on this page shows; the page now says how it is funded is not recorded. Corrected the account of the dormitory case (one research chief was dismissed and a colleague demoted; the court voided the dismissal), the claim that \"it is culture, not religion\" is the tradition's official self-description, and the claim that the amulet trade is untaxed. Added sources for the Korean and Taiwanese enshrinement claim, for the imprisonment of Christians and others who refused State Shinto worship, for Yasukuni's independence from the association, and for the final steps of the dormitory case; added the Unification Church dissolution to the law section; removed a funeral card that described Buddhist temples and rewrote the political-mobilization card; dropped the smear-campaign tag from the dormitory case; added help-line hours and an English-language line for Japan. Sources 17 to 24 are new.\n- **2026-09-27:** Added Branches,",
+  "reason": "Patch note for this round (CLAUDE.md patch-notes rule).",
+  "count": 1,
+  "status": "proposed"
  }
 ]

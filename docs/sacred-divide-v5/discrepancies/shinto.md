@@ -1,3 +1,5 @@
+Status 2026-10-03: fixes applied, see shinto-FIXLOG.md (deferred items remain open).
+
 # DISCREPANCIES — Shinto, awaiting the owner's decision
 
 Format: **[Location]** what is wrong → proposed wording → why it matters. Nothing below has been changed in the text unless stated; every item touches the frozen layer, moves loop text, or asserts a claim the wording pass may not soften. Evidence is in `logs/fact-check/shinto.md` (F-numbers). Omissions are in `docs/sacred-divide-v5/proposals/shinto.md`.
