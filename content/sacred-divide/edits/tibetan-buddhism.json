@@ -1381,5 +1381,895 @@
   "reason": "Section 13 had no lede or source line. The loops synthesise material sourced in other sections, so they are labelled PATTERN OBSERVED and cross-referenced rather than given sources they do not have.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "TIBF-D001",
+  "scope": "md",
+  "type": "template",
+  "before": "**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to God.**",
+  "after": "**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to the lineage.**",
+  "reason": "P1-1: Tibetan Buddhism is non-theistic; the stage's own body names the lineage, the deity and the guru as buddha.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D002",
+  "scope": "md",
+  "type": "template",
+  "before": "*The institution is never responsible, because the authority is attributed to God — who isn't available for cross-examination.*",
+  "after": "*The institution is never responsible, because the authority is attributed to the lineage, the deity or the guru as buddha, none of whom is available for cross-examination.*",
+  "reason": "P1-1: same template leak in technique 30's tagline.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D003",
+  "scope": "md",
+  "type": "claim",
+  "before": "| Criticizing the guru (the student's root teacher) breaks samaya and endangers you. | The Dalai Lama has repeatedly and publicly instructed students to expose abusive teachers by name. | [LEADERSHIP STATEMENT] |",
+  "after": "| Criticizing the guru (the student's root teacher) breaks samaya and endangers you. | The Dalai Lama has publicly told students to expose abusive teachers: after a 1993 meeting with him, Western teachers agreed that a student should confront an abusive teacher and, if he does not reform, make the conduct public, and in a later talk the Dalai Lama said such teachers' names should be published [5][18]. | [LEADERSHIP STATEMENT] |",
+  "reason": "P1-3: 'repeatedly' is not shown; source [5] records the 1993 meeting and one later talk (which does say to publish names), and the Network's open letter [18] records the confront-then-publicize agreement.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D004",
+  "scope": "md",
+  "type": "claim",
+  "before": "The Dalai Lama has publicly instructed students to expose abusive teachers by name. Following that instruction is not doing Beijing's work; it is following the summit of the tradition.",
+  "after": "The Dalai Lama has publicly told students to expose abusive teachers and, in a later talk, said their names should be published [5]. Following that advice is not doing Beijing's work; it is following the summit of the tradition.",
+  "reason": "P1-3: same claim in the strongest-objection answer, reduced to what the source records.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D005",
+  "scope": "md",
+  "type": "claim",
+  "before": "| Criticizing the guru breaks samaya and endangers you. | The Dalai Lama has repeatedly and publicly instructed students to expose abusive teachers by name. | [LEADERSHIP STATEMENT] |",
+  "after": "| Criticizing the guru breaks samaya and endangers you. | The Dalai Lama has publicly told students to expose abusive teachers: after a 1993 meeting with him, Western teachers agreed that a student should confront an abusive teacher and, if he does not reform, make the conduct public, and in a later talk the Dalai Lama said such teachers' names should be published [5][18]. | [LEADERSHIP STATEMENT] |",
+  "reason": "P1-3: same claim in the say-versus-do table.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D006",
+  "scope": "md",
+  "type": "claim",
+  "before": "The Dalai Lama himself has repeatedly told students to expose abusive teachers — publicly, by name. That instruction",
+  "after": "The Dalai Lama himself has told students to expose abusive teachers: he told Western teachers to make the conduct public, and in a later talk said their names should be published [5][18]. That instruction",
+  "reason": "P1-3: closing line, same claim.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D007",
+  "scope": "narration",
+  "type": "claim",
+  "before": "the page records that the Dalai Lama himself has publicly told students to expose abusive teachers by name.",
+  "after": "the page records that the Dalai Lama told Western teachers to make an abusive teacher's conduct public, and said in a later talk that such teachers' names should be published.",
+  "reason": "P1-3: narration for the cost box repeats the claim.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D008",
+  "scope": "md",
+  "type": "date",
+  "before": "| Two rival Karmapas were recognized in 1992 [8] |",
+  "after": "| Two rival Karmapas were recognized, in 1992 and 1994 [8][21] |",
+  "reason": "P1-4: Trinley Thaye Dorje was recognized in 1994, not 1992.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D009",
+  "scope": "md",
+  "type": "date",
+  "before": "There have been two recognized claimants since 1992, a live demonstration that recognition follows the recognizers. | Each was chosen by rival regents (senior lamas acting for the lineage).",
+  "after": "There have been two recognized claimants since 1994, the first recognized in 1992, a live demonstration that recognition follows the recognizers. | Each was chosen by rival regents (senior lamas acting for the lineage): Situ and Gyaltsab Rinpoches for the 1992 claimant, Shamar Rinpoche for the 1994 claimant [21].",
+  "reason": "P1-4: dates corrected. 'Regents' kept: Shamar Rinpoche was one of the four regents of the Karma Kagyu search group (Karmapa controversy page), so the discrepancy file's objection to the word is not borne out.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D010",
+  "scope": "md",
+  "type": "source",
+  "before": "the rival Karmapa recognitions (1992)",
+  "after": "the first of the rival Karmapa recognitions (1992)",
+  "reason": "P1-4: Britannica note repeated 1992 as the date of the rival recognitions.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D011",
+  "scope": "md",
+  "type": "claim",
+  "before": "two governments preparing two rival children for one throne.",
+  "after": "two competing procedures for one throne, one set by the Dalai Lama's Trust and one claimed by the Chinese state.",
+  "reason": "P1-5: the Trust is not a government and no child is known to be prepared; the 2025 statement names a procedure only.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D012",
+  "scope": "md",
+  "type": "claim",
+  "before": "Two governments now hold competing procedures for appointing a child to an office he cannot resign.",
+  "after": "The Dalai Lama's Trust and the Chinese state now hold competing procedures for appointing a child to an office he cannot resign.",
+  "reason": "P1-5: same error in the 2025 statement card.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D013",
+  "scope": "md",
+  "type": "claim",
+  "before": "Two recognitions, two children, and two governments. The codex predicts",
+  "after": "Two recognitions, two children, and two competing authorities. The codex predicts",
+  "reason": "P1-5: same error in the succession-watch prediction (still labelled a prediction).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D014",
+  "scope": "md",
+  "type": "claim",
+  "before": "Two states now maintain competing procedures for appointing a child to an office he cannot resign.",
+  "after": "The Dalai Lama's Trust and the Chinese state now maintain competing procedures for appointing a child to an office he cannot resign.",
+  "reason": "P1-5: same error in the quoted Children's Codex line.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D015",
+  "scope": "md",
+  "type": "claim",
+  "before": "| This is proof that samaya was the enabling mechanism, established on the record. |",
+  "after": "| The report confirmed abuse by the founder and found senior figures who knew and did not act; it records students taught that breaking samaya meant vajra hell and feeling pressure to keep it [19]. |",
+  "reason": "P1-6: Rigpa row reduced to what the report (full text read) records.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D016",
+  "scope": "md",
+  "type": "claim",
+  "before": "Investigation commissioned by the organization found failures to respond to reports",
+  "after": "Investigation commissioned by the organization found misconduct by its leader more likely than not in two cases",
+  "reason": "P1-6: holder cell for Shambhala matched to source [2].",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D017",
+  "scope": "md",
+  "type": "claim",
+  "before": "| This is proof that the structures failed for years while everyone knew. |",
+  "after": "| The Interim Board that released the report said Shambhala's Care and Conduct structures and reporting processes had not been adequate [20]. |",
+  "reason": "P1-6: 'everyone knew' is not in the report; replaced by the Interim Board's own statement.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D018",
+  "scope": "md",
+  "type": "claim",
+  "before": "the tradition's highest-risk mechanism, cited across its documented abuse cases (Sogyal Rinpoche/Rigpa independent investigation 2018 [INVESTIGATIVE REPORT]; Shambhala/Sakyong 2019 [INVESTIGATIVE REPORT]).",
+  "after": "the tradition's highest-risk mechanism. The Sogyal Rinpoche/Rigpa independent investigation of 2018 records it [INVESTIGATIVE REPORT]; the Shambhala/Sakyong investigation of 2019 found a power imbalance between the leader and his students, and no source cited on this page shows it naming samaya [INVESTIGATIVE REPORT].",
+  "reason": "P1-6: 'cited across its documented abuse cases' narrowed to the case where samaya is recorded.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D019",
+  "scope": "md",
+  "type": "claim",
+  "before": "Both major independent investigations — Rigpa in 2018, Shambhala in 2019 — identified it as the enabling mechanism. [INVESTIGATIVE REPORT]",
+  "after": "The Rigpa investigation of 2018 recorded that witnesses were taught that breaking samaya meant vajra hell and that many felt pressure to keep it [19]; the Shambhala investigation of 2019 found a power imbalance, and this page does not show that it names samaya. [INVESTIGATIVE REPORT]",
+  "reason": "P1-6: same claim in the genealogy card.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D020",
+  "scope": "md",
+  "type": "claim",
+  "before": "| Sacred secrecy | Very low deniability once named | Tantric secrecy is explicit doctrine and was directly documented as the shield in both major investigations. |",
+  "after": "| Sacred secrecy | Very low | Deniability is very low once the practice is named. Tantric secrecy is explicit doctrine, and the Rigpa report records witnesses who felt they would be breaking samaya by speaking to the investigator [19]. |",
+  "reason": "P1-6 and P3-11: the level cell was not a level; 'both major investigations' replaced by what the Rigpa report records.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D021",
+  "scope": "md",
+  "type": "claim",
+  "before": "It identified samaya — the vow binding student to guru — as central to the silence, and found that senior students had managed complaints rather than escalating them.",
+  "after": "It recorded that witnesses were taught that breaking samaya — the vow binding student to guru — meant vajra hell and that many felt pressure to keep it, found that senior individuals in Rigpa knew of the abuse and failed to act, and found evidence that proactive steps had been taken to discredit those raising concerns [19].",
+  "reason": "P1-6: Rigpa case text matched to the full report.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D022",
+  "scope": "md",
+  "type": "layout",
+  "before": "2017–2019 | Independent investigations find abuse by Sogyal Rinpoche (founder of Rigpa, 2018) and sexual misconduct by Sakyong Mipham (head of Shambhala, 2019) | Samaya-based silence documented as the enabling mechanism. [INVESTIGATIVE REPORT]\n2011–present | Dalai Lama's succession statements; Beijing insists on its own approval | The next succession is a live geopolitical contest over sacred authority.",
+  "after": "2011–present | Dalai Lama's succession statements; Beijing insists on its own approval | The next succession is a live geopolitical contest over sacred authority.\n2017–2019 | Independent investigations find abuse by Sogyal Rinpoche (founder of Rigpa, 2018) and sexual misconduct by Sakyong Mipham (head of Shambhala, 2019) | The Rigpa report records samaya as a pressure to stay silent; the Shambhala report records a power imbalance. [INVESTIGATIVE REPORT]",
+  "reason": "P1-6 and P3-2: samaya line matched to the reports; the 2011 row moved into date order.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D023",
+  "scope": "md",
+  "type": "date",
+  "before": "1290s–1350s | Tulku",
+  "after": "13th c. | Tulku",
+  "reason": "P3-1: one date for the start of the tulku system (13th century, as source [8] and section 6).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D024",
+  "scope": "md",
+  "type": "date",
+  "before": "in the 13th–14th century as a method",
+  "after": "in the 13th century as a method",
+  "reason": "P3-1: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D025",
+  "scope": "md",
+  "type": "date",
+  "before": "11th–14th c. | Second diffusion",
+  "after": "11th–15th c. | Second diffusion",
+  "reason": "P3-2: the Gelug school dates from the 15th century.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D026",
+  "scope": "md",
+  "type": "spelling",
+  "before": "Fifth Dalai Lama establishes Ganden Phodrang",
+  "after": "Fifth Dalai Lama establishes Gaden Phodrang",
+  "reason": "P3-3: one spelling (the Dalai Lama's office uses Gaden); source [8] keeps Britannica's own spelling.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D027",
+  "scope": "md",
+  "type": "spelling",
+  "before": "whose Ganden Phodrang institution dates",
+  "after": "whose Gaden Phodrang institution dates",
+  "reason": "P3-3: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D028",
+  "scope": "md",
+  "type": "tag",
+  "before": "- **tactics:** 6, 12, 28\n- **grade:** Documented",
+  "after": "- **tactics:** 6, 28\n- **grade:** Documented",
+  "reason": "Consistency with the regrade of technique 12: the Shambhala report is not shown to document DARVO.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D029",
+  "scope": "md",
+  "type": "tag",
+  "before": "- **tactics:** 15, 30\n- **grade:** Codified",
+  "after": "- **tactics:** —\n- **grade:** Codified",
+  "reason": "P3-6: Triangulation and Plausible Deniability do not describe a state regulation; no technique is described by the case text.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D030",
+  "scope": "md",
+  "type": "claim",
+  "before": "- **outcome:** Leader stepped back from administrative duties. Organizational restructuring followed.",
+  "after": "- **outcome:** Leader stepped back from teaching and administrative duties in July 2018 [22], resumed teaching in late 2019 and stepped aside from the Shambhala organization in February 2022 [23]. Organizational restructuring followed.",
+  "reason": "P2-2: the Sakyong stepped back from teaching as well; later status added from dated sources.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D031",
+  "scope": "md",
+  "type": "claim",
+  "before": "found the community's structures had failed to respond to reports over many years.",
+  "after": "found misconduct by its leader \"more likely than not\" in two cases [2]. The Interim Board that released the report said Shambhala's Care and Conduct structures and reporting processes had not been adequate [20].",
+  "reason": "P1-6/P2-2: the finding attributed to the investigator was the Interim Board's statement; both now attributed correctly.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D032",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] The claim that the student's ordinary perception is too deluded to judge the guru rests on samaya obligations that are explicit in tantric literature; the senior students' reply is practice, not text.",
+  "after": "**Evidence grade.** [[Taught]] The teaching that a student's ordinary perception is too deluded to judge the guru comes from samaya obligations that are explicit in tantric literature and is taught as part of guru devotion; the senior students' reply that the student is misperceiving is community practice, not text.",
+  "reason": "P2-1: regraded Codified to Taught; the entry describes teaching and senior students' reinterpretation, not a rule.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D033",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] The timing of empowerments, including withholding them as 'not yet ripe', is set by each lama's discretion and not by any written rule; the crazy-wisdom framing that authorizes wrathful severity is taught, and the samaya text keeps students from objecting.",
+  "after": "**Evidence grade.** [[Taught]] The timing of empowerments, including withholding them as 'not yet ripe', is set by each lama's discretion and not by any written rule; the crazy-wisdom framing that authorizes wrathful severity is taught, and the samaya teaching discourages students from objecting.",
+  "reason": "P2-1: regraded Codified to Taught; the entry runs on lama discretion and teaching.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D034",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] The sequence of vows, retreats and deeper teachings is set by each teacher; the rule that there is always a further level is taught in practice, and the samaya text bars the student from objecting.",
+  "after": "**Evidence grade.** [[Taught]] The sequence of vows, retreats and deeper teachings is set by each teacher; the rule that there is always a further level is taught in practice, and the samaya teaching discourages the student from objecting.",
+  "reason": "P2-1: regraded Codified to Taught.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D035",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] Terms such as 'skillful means' and 'pure perception' are taught doctrine whose application is left to each teacher; the ambiguity rests on that teaching, and samaya text bars the student from objecting.",
+  "after": "**Evidence grade.** [[Taught]] Terms such as 'skillful means' and 'pure perception' are taught doctrine whose application is left to each teacher; the ambiguity rests on that teaching, and the samaya teaching discourages the student from objecting.",
+  "reason": "P2-1: regraded Codified to Taught.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D036",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] Accusing critics of broken samaya or impure perception applies the samaya text, which is explicit in tantric literature, to the person who reports the conduct.",
+  "after": "**Evidence grade.** [[Taught]] Accusing critics of broken samaya or impure perception applies a taught framework to the person who reports the conduct; the samaya obligation is explicit in tantric literature, but no written rule directs the accusation, which is community practice.",
+  "reason": "P2-1: regraded Codified to Taught; the accusation is practice, as in techniques 6 and 17.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D037",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] Students are brought step by step into devotion and samaya by teaching and by the example of senior students; the samaya text is explicit, and the gradual order is taught in practice.",
+  "after": "**Evidence grade.** [[Taught]] Students are brought step by step into devotion and samaya by teaching and by the example of senior students; the samaya obligation is explicit in tantric literature, but the gradual order is taught in practice, not set by a written rule.",
+  "reason": "P2-1: regraded Codified to Taught.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D038",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Taught]] Senior students' enforcement of samaya warnings is community practice; no written rule directs it, and the merit framing that supports it is taught.",
+  "after": "**Evidence grade.** [[Cultural]] Senior students' enforcement of samaya warnings is community practice, set by no written rule; the merit framing it draws on is taught.",
+  "reason": "P2-1: regraded Taught to Cultural, the basis used for techniques 27 and 28.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D039",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Taught]] The smearing of critics as samaya-breakers is carried out by communities in practice; no written rule instructs it, and the samaya framing it draws on is taught.",
+  "after": "**Evidence grade.** [[Cultural]] The smearing of critics as samaya-breakers is carried out by communities in practice, set by no written rule; the samaya framing it draws on is taught.",
+  "reason": "P2-1: regraded Taught to Cultural.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D040",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Taught]] Senior students' deflection of complaints as too advanced or too secret is community practice; no written rule directs it, and the tantric secrecy it invokes is taught.",
+  "after": "**Evidence grade.** [[Cultural]] Senior students' deflection of complaints as too advanced or too secret is community practice, set by no written rule; the tantric secrecy it invokes is taught.",
+  "reason": "P2-1: regraded Taught to Cultural.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D041",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Codified]] The vow is explicit in tantric literature, so the commitment itself is codified; that its penalty is explained after it is taken comes from former-member testimony and is not recorded in any rule.",
+  "after": "**Evidence grade.** [[Taught]] The vow is explicit in tantric literature, but that its penalty is explained after it is taken comes from former-member testimony and is a matter of teaching practice, not of any rule.",
+  "reason": "P2-1: regraded Codified to Taught; the late explanation rests on testimony.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D042",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The replacement of witnesses who spoke by newer devoted students is a pattern of community practice; no source on this page documents it directly, and the investigations cited record the shunning of whistleblowers while the accused continued teaching.",
+  "after": "**Evidence grade.** [[Cultural]] The replacement of witnesses who spoke by newer devoted students is community practice, set by no rule; no source on this page documents it directly, and the cases on this page record whistleblowers shunned while the accused continued teaching.",
+  "reason": "P2-1: regraded Documented to Cultural; no source on the page records replacement of witnesses.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D043",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The deniability rests on the lama's authority being absolute in practice and disowned in theory; the 2018 and 2019 investigations record organizations that failed to act on reports, and the leaders' denial of any threat appears on this page only as the official denials in section 15.",
+  "after": "**Evidence grade.** [[Cultural]] The deniability rests on the lama's authority being absolute in practice and disowned in theory, which is organizational practice set by no rule; the 2018 and 2019 investigations record organizations that failed to act on reports, but the leaders' denial of any threat appears on this page only as the official denials in section 15.",
+  "reason": "P2-1: regraded Documented to Cultural; the investigations record failure to act, not the deniability itself.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D044",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] Rigpa 2018 and Shambhala 2019 independent investigations, commissioned by the organizations themselves. *(sourced)*",
+  "after": "**Evidence grade.** [[Documented]] The Rigpa independent investigation of 2018, commissioned by the organization itself, found that proactive steps had been taken to discredit those raising concerns and judged a letter to a complainant to be an attempt at silencing him [19]. The Shambhala report is not shown on this page to document this response. *(sourced)*",
+  "reason": "P2-1: kept Documented but rested on the Rigpa report alone (full text read); the Shambhala report is not shown to document DARVO.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D045",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Cultural]] Identity built around guru relationship and lineage position, with no written requirement. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] Identity built around guru relationship and lineage position, with no written requirement.",
+  "reason": "Grades rule: '(sourced)' removed from a technique that names no document.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D046",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Taught]] Merit framing on offerings to lamas and monasteries, taught rather than fixed by rule. *(sourced)*",
+  "after": "**Evidence grade.** [[Taught]] Merit framing on offerings to lamas and monasteries, taught rather than fixed by rule.",
+  "reason": "Grades rule: '(sourced)' removed from a technique that names no document.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D047",
+  "scope": "md",
+  "type": "grade",
+  "before": "| Evidence | Six of the 30 techniques are sourced to a named document. The grades are Taught 13, Cultural 7, Codified 7 and Documented 3. |",
+  "after": "| Evidence | One of the 30 techniques is sourced to a named document. The grades are Taught 17, Cultural 12 and Documented 1; none is graded Codified. |",
+  "reason": "Tally recomputed from the section 12 chips after the regrades (17 + 12 + 1 = 30; only technique 12 carries a source mark).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D048",
+  "scope": "md",
+  "type": "claim",
+  "before": "to 20 nuns, a first for women [6].",
+  "after": "to 20 nuns, the first awarded to Tibetan nuns [6].",
+  "reason": "P2-3: a woman earned the degree in 2011; the 2016 awards were the first to Tibetan nuns.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D049",
+  "scope": "md",
+  "type": "claim",
+  "before": "though geshema degrees for nuns were introduced in 2016, which is real reform worth naming.",
+  "after": "though geshema degrees were first awarded to Tibetan nuns in 2016, which is real reform worth naming.",
+  "reason": "P2-3: same correction in section 11.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D050",
+  "scope": "md",
+  "type": "claim",
+  "before": "in 2016, a first for women [6].",
+  "after": "in 2016, the first awarded to Tibetan nuns [6].",
+  "reason": "P2-3: same correction in section 21.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D051",
+  "scope": "md",
+  "type": "claim",
+  "before": "The Panchen Lama disappeared at six and has been held for over thirty years [7].",
+  "after": "The Panchen Lama disappeared at six and has not been seen publicly for over thirty years, so there is no public account from him [7].",
+  "reason": "P2-4: sources say disappeared; China says he lives as a private citizen. A disappeared child has no public voice.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D052",
+  "scope": "md",
+  "type": "claim",
+  "before": "- The 1995 Panchen Lama, detained since childhood.",
+  "after": "- The 1995 Panchen Lama, taken into custody as a child and not seen publicly since.",
+  "reason": "P2-4: 'detained since childhood' asserts a continuing detention the sources cannot show.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D053",
+  "scope": "md",
+  "type": "claim",
+  "before": "At his 90th birthday in July 2025 he declared",
+  "after": "In July 2025, days before his 90th birthday, he declared",
+  "reason": "P2-5: the statement is dated 2 July 2025; the birthday was 6 July.",
+  "count": 2,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D054",
+  "scope": "md",
+  "type": "claim",
+  "before": "#### July 2025 — The ninetieth birthday statement",
+  "after": "#### July 2025 — The succession statement",
+  "reason": "P2-5: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D055",
+  "scope": "md",
+  "type": "claim",
+  "before": "| Repeatedly since the 1990s | It was largely ignored by the organizations it addressed. |",
+  "after": "| 1993, and in a later talk | This page does not record whether the organizations it addressed acted on it. |",
+  "reason": "P2-6: no source for 'largely ignored'; 'repeatedly' not shown.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D056",
+  "scope": "md",
+  "type": "claim",
+  "before": "| Partial | An independent investigation was commissioned and published, which is more than most institutions in this codex have done. Implementation has been reported as incomplete by former members. |",
+  "after": "| Not recorded | An independent investigation was commissioned and published, which is more than most institutions in this codex have done. This page does not record how far the recommendations were implemented. |",
+  "reason": "P2-6: no source for 'incomplete by former members'; status and note changed to what the page can show.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D057",
+  "scope": "md",
+  "type": "claim",
+  "before": "Implementation of the report's recommendations has been reported as incomplete by former members (section 20).",
+  "after": "This page does not record whether the report's recommendations were fully implemented (section 20).",
+  "reason": "P2-6: loop 6 example repeated the unsourced claim.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D058",
+  "scope": "md",
+  "type": "claim",
+  "before": "| Participation | Convert practitioners are disproportionately represented in documented abuse cases because they enter tantric commitments as adults with no family or village able to intervene. |",
+  "after": "| Participation | The abuse cases documented on this page, Rigpa and Shambhala, involve Western students who took tantric commitments as adults; whether convert practitioners are over-represented among abuse cases is not established here. |",
+  "reason": "P2-7: unsourced causal claim replaced by what the page records.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D059",
+  "scope": "md",
+  "type": "claim",
+  "before": "| It holds transnational donation flows with no reporting to donors. | Decades of your giving go unaccounted for. |  |",
+  "after": "| It holds donation flows from Western students to centers and exile institutions. | Whether your giving is accounted for depends on whether the center publishes accounts; this page cites public accounts only for Rigpa UK [10]. | [PATTERN OBSERVED] |",
+  "reason": "P2-8: the claim 'no reporting to donors' had no source and Rigpa UK's accounts are public [10]; receipt cell filled.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D060",
+  "scope": "md",
+  "type": "claim",
+  "before": "1. Western sanghas are major funding streams for exile institutions, and devotion generates transnational revenue with no reporting requirement to donors (sections 9 and 16).",
+  "after": "1. Western sanghas are major funding streams for exile institutions (sections 9 and 16).",
+  "reason": "P2-8: loop 4 step 1 repeated the unsourced claim.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D061",
+  "scope": "md",
+  "type": "loop",
+  "before": "Exile institutions depend on Western funding, and Beijing seeks control of the recognition machinery; both are trades in legitimacy.",
+  "after": "Western funding sustains the exile institutions, and the contest over who recognizes the next Dalai Lama draws outside support to the exile side.",
+  "reason": "P2-10: summary rewritten to match the steps the loop records; the 'trade in legitimacy' claim was analysis.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D062",
+  "scope": "md",
+  "type": "pipeline",
+  "before": "**Path.** Local org → Central organization → Real-estate and reserve entities",
+  "after": "**Path.** Student → Teacher, center or lineage organization (this page records no central organization)",
+  "reason": "P2-9: shared-template path replaced by the flow in the money table.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D063",
+  "scope": "md",
+  "type": "pipeline",
+  "before": "**Source.** The money comes from poor households buying a better rebirth.\n\n**Path.** Temple or monastery → Monastic hierarchy → Construction and state-aligned sangha bodies\n\n**Disclosed.** Nothing is disclosed.",
+  "after": "**Source.** The money comes from donors giving offerings for merit.\n\n**Path.** Donor → Lama, monastery or tulku estate (labrang)\n\n**Disclosed.** This page records no accounts for offerings to lamas or monasteries.",
+  "reason": "P2-9: shared-template source, path and 'Nothing is disclosed' replaced by the money table's flow.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D064",
+  "scope": "md",
+  "type": "pipeline",
+  "before": "**Hidden.** Nothing — it is published, which is the audacity",
+  "after": "**Hidden.** Nothing: the regulation is published.",
+  "reason": "P2-9: editorial phrase removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D065",
+  "scope": "md",
+  "type": "pipeline",
+  "before": "#### Retreat and ceremony tourism\n\n**Source.** The money comes from Western participants seeking healing.\n\n**Path.** Operator, often not from the source community → Facilitators → Offshore or personal accounts\n\n**Disclosed.** Prices are disclosed.\n\n**Hidden.** Safety record, training and benefit-sharing stay hidden.",
+  "after": "#### Retreat centers and student labor\n\n**Source.** The money comes from volunteer labor and donations given to build retreat centers.\n\n**Path.** Students → Retreat center → Assets held by the organization or teacher\n\n**Disclosed.** The stated purpose, practice infrastructure.\n\n**Hidden.** Who holds title to the centers and what they earn is not recorded on this page.",
+  "reason": "P1-2: the shared-template card accused offshore or personal accounts with no source; replaced by the retreat-centre flow already in the money table.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D066",
+  "scope": "md",
+  "type": "claim",
+  "before": "£199,430",
+  "after": "£199,431",
+  "reason": "P3-4: the Charity Commission register shows £199,431.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D067",
+  "scope": "md",
+  "type": "claim",
+  "before": "But it also contains the single most effective silencing mechanism in this entire codex — one that",
+  "after": "But it also contains a silencing mechanism that",
+  "reason": "P3-7: superlative with no comparison in the volume.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D068",
+  "scope": "md",
+  "type": "claim",
+  "before": "is the most effective hook in this codex, because it makes leaving into cosmic waste.",
+  "after": "is a strong hook, because it makes leaving into cosmic waste.",
+  "reason": "P3-7: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D069",
+  "scope": "md",
+  "type": "claim",
+  "before": "— the most effective information-control mechanism documented in this codex, because it operates",
+  "after": "— an information-control mechanism that operates",
+  "reason": "P3-7: same superlative in section 11.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D070",
+  "scope": "md",
+  "type": "claim",
+  "before": "**Samaya vows** made to a teacher have no legal force; you can leave",
+  "after": "**Samaya vows** made to a teacher have no legal force in most jurisdictions; you can leave",
+  "reason": "P3-8: stated without jurisdiction.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D071",
+  "scope": "md",
+  "type": "claim",
+  "before": "Samaya vows have no legal force, and a student can leave",
+  "after": "Samaya vows have no legal force in most jurisdictions, and a student can leave",
+  "reason": "P3-8: same in loop 2.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D072",
+  "scope": "md",
+  "type": "help",
+  "before": "(freephone; set hours, see website) [14]",
+  "after": "(freephone; Wed 10:00–13:00, Thu 16:00–19:00, Fri 08:00–11:00) [14]",
+  "reason": "P2-11: hours added from humanists.uk, checked 2026-10-03.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D073",
+  "scope": "md",
+  "type": "help",
+  "before": "**(844) 368-2848** [15]",
+  "after": "**(844) 368-2848** (aims to answer 24 hours a day; chat also available) [15]",
+  "reason": "P2-11: hours added from recoveringfromreligion.org, checked 2026-10-03.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D074",
+  "scope": "md",
+  "type": "help",
+  "before": "**0808 801 0331** [17]",
+  "after": "**0808 801 0331** (free; Mon–Thu 10am–9pm, Fri 10am–6pm, closed weekends) [17]",
+  "reason": "P2-11: hours added from napac.org.uk, checked 2026-10-03.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D075",
+  "scope": "md",
+  "type": "help",
+  "before": "14. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours).",
+  "after": "14. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Wed 10:00–13:00, Thu 16:00–19:00, Fri 08:00–11:00).",
+  "reason": "P2-11: source note matched.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D076",
+  "scope": "md",
+  "type": "meta",
+  "before": "Checked 2026-09-27.",
+  "after": "Checked 2026-10-03.",
+  "reason": "Help lines re-read on the organizations' pages.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D077",
+  "scope": "md",
+  "type": "cites",
+  "before": "Sources for this section: [3] [4] [7] [8] [9]",
+  "after": "Sources for this section: [3] [4] [7] [8] [9] [10] [19] [20] [21]",
+  "reason": "New sources cited in section 7.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D078",
+  "scope": "md",
+  "type": "cites",
+  "before": "Sources for this section: [1] [2]\n:::\n\n## 11.",
+  "after": "Sources for this section: [1] [2] [19]\n:::\n\n## 11.",
+  "reason": "New source cited in section 10.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D079",
+  "scope": "md",
+  "type": "cites",
+  "before": "Sources for this section: [5]\n:::\n\n## 15.",
+  "after": "Sources for this section: [5] [18]\n:::\n\n## 15.",
+  "reason": "New source cited in section 14.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D080",
+  "scope": "md",
+  "type": "cites",
+  "before": "Sources for this section: [1] [2] [3] [7]\n:::",
+  "after": "Sources for this section: [1] [2] [3] [7] [19] [20] [22] [23]\n:::",
+  "reason": "New sources cited in section 19.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D081",
+  "scope": "md",
+  "type": "cites",
+  "before": "Sources for this section: [1] [2]\n:::\n\n## 24.",
+  "after": "Sources for this section: [1] [2] [5] [18]\n:::\n\n## 24.",
+  "reason": "New sources cited in section 23.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D082",
+  "scope": "md",
+  "type": "source",
+  "before": "17. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/",
+  "after": "17. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/\n18. Network for Western Buddhist Teachers, \"An Open Letter\" (summary of the March 1993 Dharamsala conference with the Dalai Lama) — students should confront a teacher's unethical conduct and, if there is no sign of reform, \"should not hesitate to publicize\" it. Source [5] records a later talk in which the Dalai Lama said to publish such teachers' names in newspapers. https://studybuddhism.com/en/tibetan-buddhism/about-buddhism/misconceptions-about-buddhism/an-open-letter-from-the-network-for-western-buddhist-teachers\n19. Lewis Silkin LLP, full independent report for Rigpa (Aug 2018) — witnesses taught that a samaya breaker is condemned to vajra hell and felt pressure to keep samaya; senior individuals aware and failed to act; \"proactive steps have been taken to discredit those raising concerns\". https://info-buddhism.com/PDF/Lewis-Silkin-report.pdf\n20. Shambhala Interim Board, letter releasing the Wickwire Holm report (3 Feb 2019) — the Care and Conduct structures and other reporting processes \"have not been adequate\". https://shambhala.report/wp-content/uploads/2019/02/2-3-19-WH-Report-Final-Package.pdf\n21. Wikipedia, \"Trinley Thaye Dorje\" and \"Karmapa controversy\" — Ogyen Trinley Dorje recognized 1992 (Dalai Lama's letter 30 June 1992); Trinley Thaye Dorje recognized by Shamar Rinpoche in 1994; Shamar Rinpoche, Tai Situ and Gyaltsab Rinpoches were among the four regents of the 1992 search. https://en.wikipedia.org/wiki/Trinley_Thaye_Dorje · https://en.wikipedia.org/wiki/Karmapa_controversy\n22. CBC / Canadian Press, \"Shambhala leader steps aside amid sexual misconduct allegations\" (9 Jul 2018) — the Sakyong steps back from administrative and teaching responsibilities during the investigation. https://www.cbc.ca/news/canada/nova-scotia/sakyong-mipham-rinpoche-shambhala-international-investigation-1.4739516\n23. Wikipedia, \"Sakyong Mipham\" — resumed teaching in late 2019; stepped aside from the Shambhala organization in February 2022. https://en.wikipedia.org/wiki/Sakyong_Mipham",
+  "reason": "New sources 18–23 for the 1993 instruction, the Rigpa and Shambhala findings, the Karmapa dates and the Sakyong's later status.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D083",
+  "scope": "narration",
+  "type": "claim",
+  "before": "with \"samaya-based silence documented as the enabling mechanism.\"",
+  "after": "with the Rigpa report recording samaya as a pressure to stay silent and the Shambhala report recording a power imbalance.",
+  "reason": "P1-6: question 1 quoted the timeline row that was corrected.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D084",
+  "scope": "narration",
+  "type": "claim",
+  "before": "investigation identified samaya as central, and that whistleblowers",
+  "after": "investigation recorded witnesses taught that breaking samaya meant vajra hell, and that whistleblowers",
+  "reason": "P1-6: question 2 repeated the corrected case wording.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D085",
+  "scope": "narration",
+  "type": "claim",
+  "before": "the tradition's highest-risk mechanism, cited across its documented abuse cases.",
+  "after": "the tradition's highest-risk mechanism, recorded in the Rigpa investigation.",
+  "reason": "P1-6: question 4 repeated the corrected structure bullet.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D086",
+  "scope": "narration",
+  "type": "claim",
+  "before": "beside the record: \"The Dalai Lama has repeatedly and publicly instructed students to expose abusive teachers by name.\"",
+  "after": "beside the record that the Dalai Lama told Western teachers to make an abusive teacher's conduct public and said in a later talk that such teachers' names should be published.",
+  "reason": "P1-3: question 6 quoted the corrected say-versus-do row.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D087",
+  "scope": "md",
+  "type": "meta",
+  "before": "checked: 2026-09-27",
+  "after": "checked: 2026-10-03",
+  "reason": "Text rechecked after the discrepancy fixes.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D088",
+  "scope": "md",
+  "type": "meta",
+  "before": "| Last checked | 2026-09-27 |",
+  "after": "| Last checked | 2026-10-03 |",
+  "reason": "Same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "TIBF-D089",
+  "scope": "md",
+  "type": "changelog",
+  "before": "- **2026-09-27:** Added Branches,",
+  "after": "- **2026-10-03:** Fixed the closing lines that said the authority was attributed to God: this tradition names the lineage, the deity and the guru as buddha. Corrected what the page says the Dalai Lama told students about exposing abusive teachers (a 1993 meeting and a later talk), the years of the two Karmapa recognitions (1992 and 1994), the date of his succession statement (July 2025, days before his 90th birthday) and the nuns' geshema degree. Replaced the claim that both investigations named samaya as the cause with what the Rigpa report records, and said plainly what the Shambhala material does and does not show, including the leader's later status. Re-graded twelve techniques whose evidence was teaching or custom rather than a written rule, so the page now counts one technique as sourced to a named document. Removed an offshore-accounts card and several unsourced claims about donors, convert students and unfulfilled recommendations, and added opening hours for three help lines. Sources 18 to 23 are new.\n- **2026-09-27:** Added Branches,",
+  "reason": "Patch note for this round (CLAUDE.md patch-notes rule).",
+  "count": 1,
+  "status": "proposed"
  }
 ]
