@@ -2041,8 +2041,8 @@
   "section": 25,
   "before": "| Vetted private communities | US, Canada | Online [27] |",
   "after": "| Local affiliate support groups (listed on its site) | US, Canada | Online [27] |",
-  "reason": "Shared item: EXMNA says it no longer runs support communities directly and lists local affiliate groups.",
-  "count": 1,
+  "reason": "Shared item: EXMNA says it no longer runs support communities directly and lists local affiliate groups. (Also applied globally by _all.json; kept as a no-op duplicate.)",
+  "count": "any",
   "status": "proposed"
  },
  {

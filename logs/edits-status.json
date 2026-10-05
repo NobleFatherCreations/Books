@@ -20386,7 +20386,7 @@
    "id": "AHM-D050",
    "scope": "md",
    "found": 0,
-   "state": "FAILED (found 0, expected 1)"
+   "state": "no-op"
   },
   {
    "id": "AHM-D051",
@@ -29027,6 +29027,24 @@
    "scope": "md",
    "found": 1,
    "state": "applied"
+  },
+  {
+   "id": "SIK-D006",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SIK-D034",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SIK-D053",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "jainism": [
@@ -30215,6 +30233,18 @@
   {
    "id": "JAIN-D064",
    "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "JAIN-D017",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "JAIN-D018",
+   "scope": "narration",
    "found": 1,
    "state": "applied"
   }
@@ -31473,6 +31503,36 @@
    "scope": "md",
    "found": 1,
    "state": "applied"
+  },
+  {
+   "id": "BUDF-D027",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D043",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D044",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D046",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "BUDF-D058",
+   "scope": "narration",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "tibetan-buddhism": [
@@ -31521,8 +31581,8 @@
   {
    "id": "ALL-N01",
    "scope": "narration",
-   "found": 0,
-   "state": "no-op"
+   "found": 1,
+   "state": "applied"
   },
   {
    "id": "ALL-F01",
@@ -32867,8 +32927,8 @@
   {
    "id": "ALL-N01",
    "scope": "narration",
-   "found": 0,
-   "state": "no-op"
+   "found": 1,
+   "state": "applied"
   },
   {
    "id": "ALL-F01",
@@ -38281,8 +38341,8 @@
   {
    "id": "ALL-N01",
    "scope": "narration",
-   "found": 0,
-   "state": "no-op"
+   "found": 1,
+   "state": "applied"
   },
   {
    "id": "ALL-F01",
@@ -39037,8 +39097,8 @@
   {
    "id": "ZOR-N003",
    "scope": "narration",
-   "found": 0,
-   "state": "FAILED (found 0, expected 1)"
+   "found": 1,
+   "state": "applied"
   },
   {
    "id": "ALL-F07",
@@ -39512,7 +39572,7 @@
    "id": "ZORF-D078",
    "scope": "narration",
    "found": 0,
-   "state": "FAILED (found 0, expected 1)"
+   "state": "no-op"
   }
  ],
  "bahai": [
@@ -39561,8 +39621,8 @@
   {
    "id": "ALL-N01",
    "scope": "narration",
-   "found": 0,
-   "state": "no-op"
+   "found": 1,
+   "state": "applied"
   },
   {
    "id": "ALL-F01",
