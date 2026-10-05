@@ -260,6 +260,8 @@ def build_html(rid):
     toc, secs = [], []
     stats = {'primer': 0, 'lead': 0, 'consequence': 0, 'afterword': 0}
     for num, title, slug, h, subs in secs_data:
+        # Chromium leaves an empty table cell out of the tag tree, which makes the row one cell short (PDF/UA 7.2); a dash keeps the cell
+        h = re.sub(r'<td>\s*</td>', '<td>\u2014</td>', h)
         if slug == 'loops': h = loops_html(rid, h)
         if slug == 'techniques':
             h = tactics_html(h)
