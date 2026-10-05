@@ -130,7 +130,7 @@
   "family": "Restorationist & Adventist",
   "file": "jehovahs-witnesses-expanded.pdf",
   "pages": 157,
-  "bytes": 1747058,
+  "bytes": 1747396,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -170,12 +170,138 @@
   "version": "v4",
   "checked": "2026-10-03"
  },
+ "orthodox-hasidic-judaism": {
+  "title": "Orthodox / Hasidic Judaism",
+  "family": "Judaism",
+  "file": "orthodox-hasidic-judaism-expanded.pdf",
+  "pages": 152,
+  "bytes": 1639580,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "pentecostal-charismatic": {
+  "title": "Pentecostal & Charismatic",
+  "family": "Christianity",
+  "file": "pentecostal-charismatic-expanded.pdf",
+  "pages": 166,
+  "bytes": 1798598,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "plymouth-brethren": {
+  "title": "Plymouth Brethren Christian Church (Exclusive Brethren)",
+  "family": "Christianity",
+  "file": "plymouth-brethren-expanded.pdf",
+  "pages": 108,
+  "bytes": 1331794,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
  "protestant-evangelical": {
   "title": "Protestant / Evangelical Christianity",
   "family": "Christianity",
   "file": "protestant-evangelical-expanded.pdf",
   "pages": 164,
-  "bytes": 1792120,
+  "bytes": 1791629,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "scientology": {
+  "title": "Scientology",
+  "family": "New movements & the spiritual marketplace",
+  "file": "scientology-expanded.pdf",
+  "pages": 157,
+  "bytes": 1736736,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "seventh-day-adventism": {
+  "title": "Seventh-day Adventism",
+  "family": "Restorationist & Adventist",
+  "file": "seventh-day-adventism-expanded.pdf",
+  "pages": 155,
+  "bytes": 1674751,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "shia-islam": {
+  "title": "Shia Islam",
+  "family": "Islam",
+  "file": "shia-islam-expanded.pdf",
+  "pages": 156,
+  "bytes": 1832594,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "shinto": {
+  "title": "Shinto",
+  "family": "East Asian",
+  "file": "shinto-expanded.pdf",
+  "pages": 146,
+  "bytes": 1581844,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "sikhism": {
+  "title": "Sikhism",
+  "family": "Dharmic",
+  "file": "sikhism-expanded.pdf",
+  "pages": 147,
+  "bytes": 1576023,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "soka-gakkai": {
+  "title": "Soka Gakkai",
+  "family": "Buddhism",
+  "file": "soka-gakkai-expanded.pdf",
+  "pages": 104,
+  "bytes": 1225650,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "sunni-islam": {
+  "title": "Sunni Islam",
+  "family": "Islam",
+  "file": "sunni-islam-expanded.pdf",
+  "pages": 170,
+  "bytes": 1973228,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "taoism": {
+  "title": "Taoism / Daoism",
+  "family": "East Asian",
+  "file": "taoism-expanded.pdf",
+  "pages": 145,
+  "bytes": 1541857,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "tibetan-buddhism": {
+  "title": "Tibetan Buddhism",
+  "family": "Buddhism",
+  "file": "tibetan-buddhism-expanded.pdf",
+  "pages": 153,
+  "bytes": 1678786,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "unification-church": {
+  "title": "Unification Church / Family Federation",
+  "family": "New movements & the spiritual marketplace",
+  "file": "unification-church-expanded.pdf",
+  "pages": 109,
+  "bytes": 1488655,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "zoroastrianism": {
+  "title": "Zoroastrianism",
+  "family": "Persian-born",
+  "file": "zoroastrianism-expanded.pdf",
+  "pages": 146,
+  "bytes": 1580280,
   "version": "v4",
   "checked": "2026-10-03"
  }
