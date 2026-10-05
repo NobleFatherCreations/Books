@@ -342,7 +342,7 @@ window.PagedConfig = {{ auto: true, before: () => {{
     doc = re.sub(r'<h([1-6])((?: [^>]*)?)>(.*?)</h\1>', lvl, doc, flags=re.S)
     doc = re.sub(r'<figure class="fig">(.*?)</figure>', lambda m: '<figure class="fig" role="img" aria-label="' + re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', m.group(1)))[:300].strip().replace('"', '') + '">' + m.group(1) + '</figure>', doc, flags=re.S)
     doc = re.sub(r'<svg[^>]*viewBox="0 0 [\d.]+ [\d.]+"[^>]*width="100%"[^>]*>.*?</svg>', conform_svg, doc, flags=re.S)
-    alts = [re.search(r'aria-label="([^"]*)"', t).group(1) for t in re.findall(r'<svg[^>]*>', doc) if 'width="374pt"' in t and 'aria-label=' in t]
+    alts = [(lambda a: a.group(1) or a.group(2))(re.search(r'aria-label=(?:"([^"]*)"|\'([^\']*)\')', t)) for t in re.findall(r'<svg[^>]*>', doc) if 'width="374pt"' in t and 'aria-label=' in t]
     json.dump(alts, open(os.path.join(ROOT, 'library/_undeployed/sacred-divide-v5', f'{rid}.alts.json'), 'w'))
     print('narration boxes:', stats)
     return doc, name, meta
