@@ -1,21 +1,174 @@
 {
+ "ahmadiyya": {
+  "title": "Ahmadiyya",
+  "family": "Islam",
+  "file": "ahmadiyya-expanded.pdf",
+  "pages": 113,
+  "bytes": 1406723,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "anglicanism": {
+  "title": "Anglicanism",
+  "family": "Christianity",
+  "file": "anglicanism-expanded.pdf",
+  "pages": 112,
+  "bytes": 1476711,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "bahai": {
+  "title": "Baháʼí Faith",
+  "family": "Persian-born",
+  "file": "bahai-expanded.pdf",
+  "pages": 148,
+  "bytes": 1625096,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "buddhism": {
+  "title": "Buddhism",
+  "family": "Buddhism",
+  "file": "buddhism-expanded.pdf",
+  "pages": 152,
+  "bytes": 1618924,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
  "catholicism": {
   "title": "Catholicism",
   "family": "Christianity",
   "file": "catholicism-expanded.pdf",
-  "pages": 159,
-  "bytes": 1708425,
+  "pages": 172,
+  "bytes": 1849211,
   "version": "v4",
-  "checked": "2026-09-27"
+  "checked": "2026-10-03"
+ },
+ "christianity": {
+  "title": "Christianity",
+  "family": "Christianity",
+  "file": "christianity-expanded.pdf",
+  "pages": 160,
+  "bytes": 1842641,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "confucianism": {
+  "title": "Confucianism",
+  "family": "East Asian",
+  "file": "confucianism-expanded.pdf",
+  "pages": 147,
+  "bytes": 1573946,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "dawoodi-bohra": {
+  "title": "Dawoodi Bohra",
+  "family": "Islam",
+  "file": "dawoodi-bohra-expanded.pdf",
+  "pages": 106,
+  "bytes": 1537220,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "eastern-orthodoxy": {
+  "title": "Eastern Orthodoxy",
+  "family": "Christianity",
+  "file": "eastern-orthodoxy-expanded.pdf",
+  "pages": 156,
+  "bytes": 1715142,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "hare-krishna": {
+  "title": "Hare Krishna / ISKCON",
+  "family": "Dharmic",
+  "file": "hare-krishna-expanded.pdf",
+  "pages": 147,
+  "bytes": 1609889,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "hinduism": {
+  "title": "Hinduism",
+  "family": "Dharmic",
+  "file": "hinduism-expanded.pdf",
+  "pages": 157,
+  "bytes": 1725461,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "indigenous": {
+  "title": "Indigenous / Folk / Ancestral Religions",
+  "family": "Indigenous & folk",
+  "file": "indigenous-expanded.pdf",
+  "pages": 154,
+  "bytes": 1678304,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "islam": {
+  "title": "Islam",
+  "family": "Islam",
+  "file": "islam-expanded.pdf",
+  "pages": 166,
+  "bytes": 1878307,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "jainism": {
+  "title": "Jainism",
+  "family": "Dharmic",
+  "file": "jainism-expanded.pdf",
+  "pages": 144,
+  "bytes": 1533796,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "jehovahs-witnesses": {
+  "title": "Jehovah's Witnesses",
+  "family": "Restorationist & Adventist",
+  "file": "jehovahs-witnesses-expanded.pdf",
+  "pages": 157,
+  "bytes": 1747058,
+  "version": "v4",
+  "checked": "2026-10-03"
  },
  "judaism": {
   "title": "Judaism",
   "family": "Judaism",
   "file": "judaism-expanded.pdf",
-  "pages": 152,
-  "bytes": 1644723,
+  "pages": 150,
+  "bytes": 1678577,
   "version": "v4",
-  "checked": "2026-09-27"
+  "checked": "2026-10-03"
+ },
+ "mormonism": {
+  "title": "Mormonism / LDS",
+  "family": "Restorationist & Adventist",
+  "file": "mormonism-expanded.pdf",
+  "pages": 164,
+  "bytes": 1806536,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "new-age": {
+  "title": "New Age / Spiritual-but-Organized Movements",
+  "family": "New movements & the spiritual marketplace",
+  "file": "new-age-expanded.pdf",
+  "pages": 149,
+  "bytes": 1620852,
+  "version": "v4",
+  "checked": "2026-10-03"
+ },
+ "oriental-orthodoxy": {
+  "title": "Oriental Orthodoxy",
+  "family": "Christianity",
+  "file": "oriental-orthodoxy-expanded.pdf",
+  "pages": 112,
+  "bytes": 1552143,
+  "version": "v4",
+  "checked": "2026-10-03"
  },
  "protestant-evangelical": {
   "title": "Protestant / Evangelical Christianity",
