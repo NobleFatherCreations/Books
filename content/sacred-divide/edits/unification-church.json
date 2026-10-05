@@ -1835,5 +1835,1091 @@
   "reason": "Partial thought completed into a sentence that stands alone. Meaning and every figure unchanged.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "UNIF-D001",
+  "scope": "md",
+  "type": "fact",
+  "before": "A Seoul court sentenced her to two years in August 2026 [14]. |",
+  "after": "A Seoul court sentenced her to two years in August 2026, a first-instance ruling the church said it will appeal [14][27]. |",
+  "reason": "P1-2: the Seoul verdict is a first-instance ruling and the church said it will appeal (AP; UPI).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D002",
+  "scope": "md",
+  "type": "fact",
+  "before": "including \"spiritual sales\" in Japan, which are ordinary goods sold at extreme prices by invoking ancestral karma (the claim that ancestors' suffering burdens the living) [12]. |",
+  "after": "including \"spiritual sales\" in Japan, which Japan's lawyers' network and a scholarly account describe as goods sold at extreme prices by invoking ancestral karma (the claim that ancestors' suffering burdens the living) [12][19]. |",
+  "reason": "P1-4: an allegation attributed to the lawyers' network and to Prusa, not stated in the page's own voice.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D003",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Family | New movements & the spiritual marketplace —",
+  "after": "| Evidence | The 30 techniques are graded Documented 8, Taught 7, Cultural 14 and Contested 1. |\n| Family | New movements & the spiritual marketplace —",
+  "reason": "P3-35: the volume had no Evidence tally row; added, matching the section 12 grade cells after items 10.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D004",
+  "scope": "md",
+  "type": "fact",
+  "before": "The kidnappings were real and wrong, and a Japanese court said so [16].",
+  "after": "The confinement of a member for twelve years was real and wrong, and a Japanese court said so [16].",
+  "reason": "P1-9: the page documents one court case (Goto); the plural generalized from one judgment.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D005",
+  "scope": "md",
+  "type": "fact",
+  "before": "- *Answer:* The dissolution rests on decades of civil findings about how money was solicited [4][5]. The Korean conviction is for bribery and embezzlement [14]. Neither is about belief.",
+  "after": "- *Answer:* Japan's courts based the dissolution on decades of civil findings about how money was solicited [4][5], and the Supreme Court held that it does not violate the constitutional guarantee of religious freedom [26]. The church and UN experts dispute the breadth of the \"public welfare\" ground [21][30]. The Korean conviction, a first-instance ruling the church said it will appeal, is for bribery and embezzlement [14][27].",
+  "reason": "P1-3 and P1-1: \"Neither is about belief\" was the page's own voice; replaced with the courts' holding and the contested \"public welfare\" ground (OHCHR, 1 Oct 2025; UN Human Rights Committee, 2014).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D006",
+  "scope": "md",
+  "type": "fact",
+  "before": "Korea's courts convicted its leader [14].",
+  "after": "A Korean court convicted its leader at first instance [14].",
+  "reason": "P1-2: first-instance status.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D007",
+  "scope": "md",
+  "type": "fact",
+  "before": "- The church made its own compensation offer in 2023 [17] and took part in collective mediation with donation victims [5]. The court judged these insufficient, but they are real steps.",
+  "after": "- The church made its own compensation offer in 2023, of up to 10 billion yen [17]. This page cites no source on how the courts weighed it.",
+  "reason": "P2-16: the mediation claim and the court's judgment on it are not in the cited source [5] and could not be located; removed rather than asserted.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D008",
+  "scope": "md",
+  "type": "fact",
+  "before": "The movement reached Japan in 1959 [12] and",
+  "after": "The movement reached Japan in 1958 or 1959, depending on the source [12][19], and",
+  "reason": "P3-26: France 24 says 1959, Prusa says 1958.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D009",
+  "scope": "md",
+  "type": "fact",
+  "before": "| 1959 | The church's mission to Japan began [12] |",
+  "after": "| 1958–59 | The church's mission to Japan began; France 24 gives 1959 [12] and a scholarly account gives 1958 [19] |",
+  "reason": "P3-26: sources differ.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D010",
+  "scope": "md",
+  "type": "fact",
+  "before": "found that 179 of 379 lawmakers had ties to the church [10] | The survey counts the political shield. |",
+  "after": "found that 179 of 379 lawmakers had ties to the church (the Japan Times headline counts 121 with \"substantial ties\") [10] | The survey counts the political ties. |",
+  "reason": "P3-27 and P1-5: the 121 and 179 figures reconciled; \"shield\" had no source.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D011",
+  "scope": "md",
+  "type": "fact",
+  "before": "| The finding stands on appeal. |\n| 31 Aug 2026 | Seoul Central District Court sentences Hak Ja Han to two years for bribery, political-funds violations and embezzlement [14] | The leader was convicted. |",
+  "after": "| The finding stands on appeal. |\n| Jun 2026 | The Supreme Court rejects the church's special appeal, ruling that the dissolution order does not violate the constitutional guarantee of religious freedom [26] | The dissolution is final. |\n| 22 Jul 2026 | The liquidator reports assets of over 83.4 billion yen at dissolution, 45 billion yen in cash and deposits, and more than 250 properties, including church facilities and parking lots, handed over [28] | The liquidation is under way. |\n| 31 Aug 2026 | Seoul Central District Court sentences Hak Ja Han to two years for bribery, political-funds violations and embezzlement; the church said it will appeal [14][27] | The leader was convicted at first instance. |",
+  "reason": "P1-1, P2-14 and P1-2: Supreme Court finalization (Kyunghyang Shinmun, 23 Jun 2026), liquidator figures (Barrier Free Japan, 23 Jul 2026), and first-instance status of the Seoul verdict.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D012",
+  "scope": "md",
+  "type": "fact",
+  "before": "| 2026 | Upheld; convicted | The Tokyo High Court upheld dissolution [5]; a Seoul court convicted the leader [14]. |",
+  "after": "| 2026 | Upheld; final; convicted | The Tokyo High Court upheld dissolution [5] and the Supreme Court made it final [26]; a Seoul court convicted the leader at first instance [14]. |",
+  "reason": "P1-1, P1-2.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D013",
+  "scope": "md",
+  "type": "fact",
+  "before": "who was sentenced in Korea in 2026 [14] |",
+  "after": "who was sentenced at first instance in Korea in 2026, a ruling the church said it will appeal [14][27] |",
+  "reason": "P1-2.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D014",
+  "scope": "md",
+  "type": "fact",
+  "before": "| It is the majority funding source for the movement [18] and has been ordered dissolved by the courts, a ruling under appeal [4][5][6] |",
+  "after": "| According to experts cited in reporting, it is the majority funding source for the movement [18]. The courts ordered it dissolved, and the Supreme Court made that final in June 2026 [4][5][26] |",
+  "reason": "P1-1 (the appeal is no longer pending) and P2-12 (attributed form for the funding claim).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D015",
+  "scope": "md",
+  "type": "fact",
+  "before": "Japan (largest financial base) [18], the United States, the Philippines and elsewhere.",
+  "after": "Japan (reported largest financial base) [18], the United States and elsewhere.",
+  "reason": "P3-28 and P2-12: the Philippines has no source; funding claim attributed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D016",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **trend:** The church has been dissolved as a religious corporation in Japan, pending the Supreme Court [5][6]. Its leader has been convicted in Korea [14]. The first generation is aging.",
+  "after": "- **trend:** The church has been dissolved as a religious corporation in Japan, and the Supreme Court made that final in June 2026 [5][26]. Its leader was convicted at first instance in Korea, and the church said it will appeal [14][27].",
+  "reason": "P1-1, P1-2, P3-29: \"an aging first generation\" had no source and was removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D017",
+  "scope": "md",
+  "type": "fact",
+  "before": "A True Mother has been convicted in Seoul, and a Japanese corporation has been dissolved in Tokyo. Both courts reached the office, not a scapegoat.",
+  "after": "A Seoul court has convicted the True Mother at first instance, and Japanese courts have dissolved the corporation in Tokyo. Courts in both countries reached the leadership or the corporation itself.",
+  "reason": "P3-30 and P1-2.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D018",
+  "scope": "md",
+  "type": "fact",
+  "before": "Hak Ja Han Moon holds the office, and a Seoul court sentenced her to two years in August 2026 [14]. |",
+  "after": "Hak Ja Han Moon holds the office, and a Seoul court sentenced her to two years in August 2026, a first-instance ruling the church said it will appeal [14][27]. |",
+  "reason": "P1-2.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D019",
+  "scope": "md",
+  "type": "fact",
+  "before": "| A court can remove it, and the Supreme Court special appeal is pending [6]. |",
+  "after": "| A court removed it: the Supreme Court rejected the church's special appeal in June 2026, which made the dissolution final [26]. |",
+  "reason": "P1-1.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D020",
+  "scope": "md",
+  "type": "fact",
+  "before": "Hak Ja Han Moon holds it (convicted Aug 2026 [14]).",
+  "after": "Hak Ja Han Moon holds it (convicted at first instance, Aug 2026 [14]).",
+  "reason": "P1-2.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D021",
+  "scope": "md",
+  "type": "fact",
+  "before": "| It holds the largest donation base [18]. |",
+  "after": "| According to reporting, it holds the largest donation base [18]. |",
+  "reason": "P2-12.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D022",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Korean headquarters and ritual center | It is the headquarters. | The movement holds it. | It holds the ancestor-liberation rites (offerings said to free ancestors' spirits) and central funds. | It reaches your ancestors. | [INVESTIGATIVE REPORT] |",
+  "after": "| Korean headquarters | It is the headquarters. | The movement holds it. | It receives central funds; a scholarly account says Japan-based ventures sent it 10 billion yen a month in the 1980s [19]. | It receives what Japan raises. | [ACADEMIC SOURCE] [19] |",
+  "reason": "P1-7: the \"ritual center\" holding ancestor-liberation rites has no source; the row now states what Prusa [19] records about funds reaching the Korean headquarters.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D023",
+  "scope": "md",
+  "type": "fact",
+  "before": "the Tokyo High Court upheld it in March 2026; the church appealed to the Supreme Court [4][5][6] |",
+  "after": "the Tokyo High Court upheld it in March 2026; the Supreme Court rejected the church's special appeal in June 2026, which made the dissolution final [4][5][6][26] |",
+  "reason": "P1-1.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D024",
+  "scope": "md",
+  "type": "fact",
+  "before": "| A 2023 law prohibits high-pressure solicitation",
+  "after": "| A law enacted in December 2022 prohibits high-pressure solicitation",
+  "reason": "P2-13: the law is dated December 2022 throughout (enacted 10 Dec 2022).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D025",
+  "scope": "md",
+  "type": "fact",
+  "before": "and sentenced to two years in August 2026 [14][15] |",
+  "after": "and sentenced to two years in August 2026, a first-instance ruling the church said it will appeal [14][15][27] |",
+  "reason": "P1-2.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D026",
+  "scope": "md",
+  "type": "fact",
+  "before": "Japan's 2022 donations law [8]",
+  "after": "Japan's donations law (enacted December 2022) [8]",
+  "reason": "P2-13.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D027",
+  "scope": "md",
+  "type": "fact",
+  "before": "are one source of money. \"Spiritual sales\" means selling ordinary goods at extreme prices by invoking ancestral karma. Reported examples include a 43-million-yen statuette [12].",
+  "after": "are one source of money. Japan's lawyers' network and a scholarly account describe \"spiritual sales\" as the sale of goods at extreme prices as remedies for ancestral karma [12][19]. Reported examples include a 43-million-yen statuette that Japanese believers were told would absolve them or their ancestors [12].",
+  "reason": "P1-4: attributed to the network and Prusa, with the France 24 wording for the statuette.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D028",
+  "scope": "md",
+  "type": "fact",
+  "before": "| They are recurring payments for unverifiable outcomes. | The Korean ritual center benefits. |",
+  "after": "| A scholarly account says missionaries offered channels to the spirit world in return for a sizable donation [19]; this page records no way to verify the outcome. | Not recorded on this page. |",
+  "reason": "P1-7: \"recurring\" and \"Korean ritual center\" had no source; now what Prusa [19] says.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D029",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Family formation is tied to giving. | The movement benefits. |",
+  "after": "| Not recorded on this page: no source is cited for payments tied to the Blessing. | Not recorded on this page. |",
+  "reason": "P1-7: no source for the Blessing contributions row; qualified.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D030",
+  "scope": "md",
+  "type": "fact",
+  "before": "[\"Compensation fund offered (2023)\",10]",
+  "after": "[\"Compensation fund offered, up to (2023)\",10]",
+  "reason": "P1-8: reports give a range of 6 to 10 billion yen; the chart value is the ceiling.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D031",
+  "scope": "md",
+  "type": "fact",
+  "before": "*Expired?* International matches move spouses across borders into dependency.",
+  "after": "*Expired?* International matches move spouses across borders: by February 2023 some 13,000 Japanese women had married Korean men through mass weddings, and more than half of them moved to Korea [19]. Former members' testimony describes dependency; this page cites no named account.",
+  "reason": "P2-18 and P1-6: the number is Prusa's; the dependency claim is labelled testimony.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D032",
+  "scope": "md",
+  "type": "fact",
+  "before": "and in 2026 a criminal conviction in Korea [14].",
+  "after": "and in 2026 a first-instance criminal conviction in Korea [14].",
+  "reason": "P1-2.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D033",
+  "scope": "md",
+  "type": "fact",
+  "before": "UN human-rights experts later criticized related materials for risking the conflation of legitimate religious practice with abuse [21].",
+  "after": "UN human-rights experts later criticized materials distributed to children in 2025, which they said risk conflating legitimate religious practice with abuse and appear to target Jehovah's Witnesses in particular [21].",
+  "reason": "P2-15: the experts' statement concerned 2025 pamphlets aimed chiefly at Jehovah's Witnesses, not Unification Church children.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D034",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Women matched and moved abroad for marriage face language and legal dependency. [FORMER MEMBER TESTIMONY]",
+  "after": "- By February 2023, some 13,000 Japanese women had married Korean men through the mass weddings, and more than half of them moved to Korea [19]. Former members' testimony, which this page does not cite by name, says women matched and moved abroad face language and legal dependency. [FORMER MEMBER TESTIMONY]",
+  "reason": "P1-6: the claim had no [n]; the number is sourced to Prusa and the dependency claim stays labelled testimony.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D035",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Idealize | Workshops, warmth and an urgent world mission appear. |",
+  "after": "| Idealize | Friendly recruiters appear, often without naming the church [19]. |",
+  "reason": "P1-10: recruitment workshops had no source; now what Prusa [19] records.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D036",
+  "scope": "md",
+  "type": "fact",
+  "before": "| A court ruling is not a persecution. |",
+  "after": "| The Supreme Court held that the dissolution order does not violate religious freedom [26]. |",
+  "reason": "P1-3: a flat assertion replaced by the court holding.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D037",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 1 | Love bombing | Documented | Intensive recruitment workshops and warmth come before the donation teachings [3][12] |",
+  "after": "| 1 | Love bombing | Documented | A scholarly account describes recruiters approaching strangers in a friendly way while hiding the church's name, aimed at their personal and financial worries [19] |",
+  "reason": "P1-10: [3] and [12] do not record recruitment in Japan; Prusa [19] does, so Documented is kept on that basis.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D038",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 9 | Moving the goalposts | Documented | Donation campaigns succeed one another, with ever-higher offerings [12] |",
+  "after": "| 9 | Moving the goalposts | Cultural | France 24 quotes a source describing daily pressure to donate, with karma attached to money [12]; this page cites no record of rising amounts |",
+  "reason": "P1-10: no cited source records campaigns or rising offerings; regraded Documented to Cultural.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D039",
+  "scope": "md",
+  "type": "grade",
+  "before": "| 19 | Manufactured consent | Documented | Marriages are matched, and the second generation's \"choice\" is made within that arrangement [13] |",
+  "after": "| 19 | Manufactured consent | Taught | Marriages are matched through the Blessing [1], and a second-generation member's \"choice\" is made inside that arrangement |",
+  "reason": "P1-10: [13] does not document the \"choice\"; the basis is the doctrine of the Blessing [1]; regraded Documented to Taught.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D040",
+  "scope": "md",
+  "type": "fact",
+  "before": "| 10 | Strategic ambiguity | Documented | \"Donations\" are solicited as sales of goods [11][12] |",
+  "after": "| 10 | Strategic ambiguity | Documented | The lawyers' network and legal analysis describe \"donations\" as solicited through sales of goods [11][12] |",
+  "reason": "P1-4.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D041",
+  "scope": "md",
+  "type": "fact",
+  "before": "The kidnappings were real [16]; so are the donation claims [12].",
+  "after": "The confinement of a member for twelve years was real [16]; so are the donation claims [12].",
+  "reason": "P1-9.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D042",
+  "scope": "md",
+  "type": "fact",
+  "before": "The suffering was real for the kidnapped [16], not for the treasury.",
+  "after": "The suffering was real for the member who was confined [16], not for the treasury.",
+  "reason": "P1-9.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D043",
+  "scope": "md",
+  "type": "fact",
+  "before": "| 18 | Stonewalling | Documented | Refunds are resisted until litigation or mediation [5][12] |",
+  "after": "| 18 | Stonewalling | Documented | Recovery has run through lawsuits by the lawyers' network [12]; this page cites no source that refunds were refused |",
+  "reason": "P2-16: the mediation and refusal claims are not in the cited sources; reduced to what [12] records.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D044",
+  "scope": "md",
+  "type": "fact",
+  "before": "Section 8 records Japan's 2023 donations law",
+  "after": "Section 8 records Japan's donations law (enacted December 2022)",
+  "reason": "P2-13.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D045",
+  "scope": "md",
+  "type": "loop",
+  "before": "Peace events and political relationships buy legitimacy [10][14].",
+  "after": "Peace events and political relationships are read here as buying legitimacy; the page records the ties, not their effect [10][14].",
+  "reason": "P1-5: summary matched to what the steps record.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D046",
+  "scope": "md",
+  "type": "loop",
+  "before": "4. Political relationships shielded the movement in Japan for decades, and the movement gave gifts to political figures in Korea (section 16).",
+  "after": "4. The movement had ties to 179 of 379 Liberal Democratic Party lawmakers in Japan, and a Seoul court found at first instance that it gave gifts to political figures in Korea (section 16).",
+  "reason": "P1-5.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D047",
+  "scope": "md",
+  "type": "loop",
+  "before": "5. The legitimacy and protection they brought sustain the movement (section 10).",
+  "after": "5. On this page's analysis, the relationships give the movement legitimacy and protection; the page records the ties, not their effect (section 10).",
+  "reason": "P1-5.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D048",
+  "scope": "md",
+  "type": "loop",
+  "before": " so each has a reason to keep the relationship. The legitimacy it brings is then used to answer criticism.",
+  "after": " so each has a reason to keep the relationship.",
+  "reason": "P1-5: the claim that legitimacy is used to answer criticism has no source.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D049",
+  "scope": "md",
+  "type": "loop",
+  "before": "In Korea, the leader was convicted in 2026 of giving bribes and illegal political funds (section 16 [14]).",
+  "after": "In Korea, a court convicted the leader at first instance in 2026 of giving bribes and illegal political funds (section 16 [14]).",
+  "reason": "P1-2.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D050",
+  "scope": "md",
+  "type": "loop",
+  "before": "3. Refunds are resisted until litigation or mediation (technique 18).",
+  "after": "3. Recovery has run through lawsuits rather than refunds (technique 18).",
+  "reason": "P2-16: matched to technique 18.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D051",
+  "scope": "md",
+  "type": "loop",
+  "before": "dissolution is ordered in 2025 and upheld in 2026 (sections 5 and 14).",
+  "after": "dissolution is ordered in 2025, upheld in 2026 and made final by the Supreme Court in June 2026 (sections 5 and 14).",
+  "reason": "P1-1.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D052",
+  "scope": "md",
+  "type": "loop",
+  "before": "Section 3 concedes the kidnappings and answers",
+  "after": "Section 3 concedes the twelve-year confinement of a member and answers",
+  "reason": "P1-9.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D053",
+  "scope": "md",
+  "type": "loop",
+  "before": "3. The money flows to headquarters, with Japan as the largest source (sections 7 and 9).",
+  "after": "3. The money flows to headquarters, with Japan reported as the largest source (sections 7 and 9).",
+  "reason": "P2-12.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D054",
+  "scope": "md",
+  "type": "loop",
+  "before": "4. The money flows to headquarters, with Japan as the largest source (sections 7 and 9).",
+  "after": "4. The money flows to headquarters, with Japan reported as the largest source (sections 7 and 9).",
+  "reason": "P2-12.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D055",
+  "scope": "md",
+  "type": "fact",
+  "before": "| The dissolution rests on civil-law findings about fundraising, not belief [4]. |",
+  "after": "| The courts based the dissolution on civil-law findings about fundraising [4], and the Supreme Court held that it does not violate religious freedom [26]; the church and UN experts dispute the breadth of the \"public welfare\" ground [21][30]. |",
+  "reason": "P1-3.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D056",
+  "scope": "md",
+  "type": "fact",
+  "before": "a Korean court convicted the leader [14].",
+  "after": "a Korean court convicted the leader at first instance [14].",
+  "reason": "P1-2.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D057",
+  "scope": "md",
+  "type": "fact",
+  "before": "with the Japanese entity in liquidation pending a Supreme Court special appeal [6].",
+  "after": "with the Japanese entity in liquidation after the Supreme Court made the dissolution final [26].",
+  "reason": "P1-1.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D058",
+  "scope": "md",
+  "type": "fact",
+  "before": "Watch whether assets move before liquidation.",
+  "after": "Liquidation is under way: the liquidator reported assets of over 83.4 billion yen at dissolution and 45 billion yen in cash and deposits by 22 July 2026 [28]. Watch whether assets move to affiliated bodies during liquidation.",
+  "reason": "P2-14: the prediction was out of date.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D059",
+  "scope": "md",
+  "type": "fact",
+  "before": "The practice declined after the UN Human Rights Committee urged Japan in 2014 to prevent coercion over belief [16].",
+  "after": "In 2014 the UN Human Rights Committee recorded concern at reports of abductions and forced confinement of converts to new religious movements by family members, and asked Japan to guarantee freedom from coercion [30].",
+  "reason": "P1-9: \"declined after\" was a sequence no source states; replaced with what the Committee recorded.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D060",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Donations are lost and are recovered only by lawsuit or mediation. |",
+  "after": "| Donations are lost, and the lawyers' network has sought recovery through lawsuits [12]; the church's 2023 offer was a separate step [17]. |",
+  "reason": "P2-16.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D061",
+  "scope": "md",
+  "type": "fact",
+  "before": "funded mainly from Japan [18].",
+  "after": "funded mainly from Japan, according to experts cited in reporting [18].",
+  "reason": "P2-12.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D062",
+  "scope": "md",
+  "type": "fact",
+  "before": "  - In South Korea, the leader was convicted in 2026 of giving bribes and illegal political funds [14].",
+  "after": "  - In South Korea, a court convicted the leader at first instance in 2026 of giving bribes and illegal political funds; the church said it will appeal [14][27].",
+  "reason": "P1-2.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D063",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Political relationships shielded the movement in Japan for decades [10], and the movement gave gifts to political figures in Korea [14].",
+  "after": "- Political relationships existed between the movement and 179 of 379 Liberal Democratic Party lawmakers in 2022 [10], and a Seoul court found at first instance that the movement gave gifts to political figures in Korea [14].",
+  "reason": "P1-5: source 10 documents ties, not a shielding effect.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D064",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Japanese families are impoverished by donations [9][12].",
+  "after": "- Japanese families have been reported impoverished by donations; in one reported case a mother who donated nearly 100 million yen later declared bankruptcy [9][12].",
+  "reason": "P2-17.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D065",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Matched spouses pay, especially women moved abroad.",
+  "after": "- Former members' testimony says matched spouses pay, especially women moved abroad; this page cites no named account.",
+  "reason": "P2-18 and P1-6.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D066",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Japanese elderly and families | They are hurt through donations. | The harm compounds into bankruptcy [9][12]. |",
+  "after": "| Japanese elderly and families | They are hurt through donations; a scholarly account says elderly people and housewives are the most vulnerable to the fortune-telling and ancestor-worship approach [19]. | The harm has compounded into bankruptcy in at least one reported case [9][12]. |",
+  "reason": "P2-17.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D067",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Matched spouses abroad | They are hurt through isolation. | The harm compounds through language and legal dependency. |",
+  "after": "| Matched spouses abroad | Former members' testimony says they are hurt through isolation. | The same testimony says the harm compounds through language and legal dependency; this page cites no named account. |",
+  "reason": "P2-18.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D068",
+  "scope": "md",
+  "type": "fact",
+  "before": "what it is asked to do and what it could refuse.",
+  "after": "what it is asked to do and what it could refuse. These rows are analysis, not documented findings; the page cites no source for what each role does, sees or is asked to do, apart from the liaisons' row.",
+  "reason": "P2-18.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D069",
+  "scope": "md",
+  "type": "fact",
+  "before": "; the special appeal to the Supreme Court is pending [6]. [COURT RECORD]",
+  "after": "; the Supreme Court rejected the special appeal in June 2026, which made the dissolution final [26]. [COURT RECORD]",
+  "reason": "P1-1.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D070",
+  "scope": "md",
+  "type": "fact",
+  "before": "embezzlement and sentenced her to two years [14]. [COURT RECORD]",
+  "after": "embezzlement and sentenced her to two years [14]. It is a first-instance ruling, and the church said it will appeal [27]. [COURT RECORD]",
+  "reason": "P1-2.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D071",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Dissolution ordered and upheld | The Japanese government and courts did it [4][5]. | It happened in 2025 and 2026. | — |",
+  "after": "| Dissolution ordered, upheld and made final | The Japanese government and courts did it [4][5][26]. | It happened between 2025 and June 2026. | — |",
+  "reason": "P1-1.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D072",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **The National Network of Lawyers Against Spiritual Sales** was founded in 1987 to represent former followers [12].",
+  "after": "- **The National Network of Lawyers Against Spiritual Sales** was founded in 1987 to represent former followers [12].\n\nOnly the second-generation members speak from inside the movement. Goto was a member confined by his relatives, and the lawyers' network is an outside body. This page cites no other insider account.",
+  "reason": "P2-22.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D073",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **law:** The dissolution case and the 2023 donation law apply [4][5][8].",
+  "after": "- **law:** The dissolution case and the donations law enacted in December 2022 apply [4][5][8].",
+  "reason": "P2-13.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D074",
+  "scope": "md",
+  "type": "fact",
+  "before": "and the dissolution rulings [4][5] are documented.",
+  "after": "and the dissolution rulings [4][5][26] are documented.",
+  "reason": "P1-1.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D075",
+  "scope": "md",
+  "type": "fact",
+  "before": "The courts and the Agency for Cultural Affairs regulate it [7].",
+  "after": "The courts and the education ministry regulate it [7].",
+  "reason": "P2-23: source 7 names the education ministry.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D076",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **documented:** Her 2026 conviction is documented [14].",
+  "after": "- **documented:** Her 2026 first-instance conviction is documented [14]; the church said it will appeal [27].",
+  "reason": "P1-2.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D077",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **tell:** The movement's leader was convicted in its home country.",
+  "after": "- **tell:** The movement's leader was convicted in its home country at first instance.",
+  "reason": "P1-2.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D078",
+  "scope": "md",
+  "type": "fact",
+  "before": "why did the church offer 10 billion yen for compensation [17] and still lose its legal status on appeal [5]?",
+  "after": "why did the church offer up to 10 billion yen for compensation [17] and still lose its legal status, a loss the Supreme Court made final [5][26]?",
+  "reason": "P1-8 and P1-1.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D079",
+  "scope": "md",
+  "type": "fact",
+  "before": "Why did a Seoul court convict the True Mother of bribery",
+  "after": "Why did a Seoul court convict the True Mother, at first instance, of bribery",
+  "reason": "P1-2.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D080",
+  "scope": "md",
+  "type": "fact",
+  "before": "The deprogrammers who confined members were wrong, and a court said so [16].",
+  "after": "The deprogrammers who confined a member for twelve years were wrong, and a court said so [16].",
+  "reason": "P1-9.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D081",
+  "scope": "md",
+  "type": "fact",
+  "before": "Many already have, in court.",
+  "after": "Some have already sought it through lawsuits [12].",
+  "reason": "P2-21: no count is cited for \"many\".",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D082",
+  "scope": "md",
+  "type": "fact",
+  "before": "2. **If you gave money under pressure in Japan,** the 2023 law and lawyers' networks can help you seek it back [8][12].",
+  "after": "2. **If you gave money under pressure in Japan,** the law enacted in December 2022 and lawyers' networks can help you seek it back [8][12]; Houterasu, a government-backed legal aid body, runs a free consultation line for spiritual-sales harm [29].",
+  "reason": "P2-13 and P2-25a.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D083",
+  "scope": "md",
+  "type": "fact",
+  "before": "Checked 2026-09-27.",
+  "after": "Checked 2026-10-03.",
+  "reason": "Help lines re-read 2026-10-03.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D084",
+  "scope": "md",
+  "type": "fact",
+  "before": "| **ICSA** |",
+  "after": "| **Houterasu (Japan Legal Support Center), spiritual-sales consultation line** | Victims of \"spiritual sales\" and their families | Japan | **0120-005931** (toll-free in Japan; weekdays 9:30 to 17:00, not weekends, holidays or year-end; from abroad 050-3383-0010, call charges apply). The service page is in Japanese. [29] |\n| **ICSA** |",
+  "reason": "P2-25a: the Japan line printed no contact; Houterasu page read 2026-10-03.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D085",
+  "scope": "md",
+  "type": "fact",
+  "before": "**(844) 368-2848** [23] |",
+  "after": "**(844) 368-2848** (the service aims to be available 24 hours and also offers web chat) [23] |",
+  "reason": "P2-25c: recoveringfromreligion.org read 2026-10-03.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D086",
+  "scope": "md",
+  "type": "fact",
+  "before": "**1-800-422-4453** [25] |",
+  "after": "**1-800-422-4453** (24 hours; text \"GO\" to 800.422.4453 or use the website chat) [25] |",
+  "reason": "P2-25e: childhelphotline.org read 2026-10-03.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D087",
+  "scope": "md",
+  "type": "source",
+  "before": "25. Childhelp National Child Abuse Hotline — 1-800-422-4453. <https://childhelphotline.org/>",
+  "after": "25. Childhelp National Child Abuse Hotline — 1-800-422-4453. <https://childhelphotline.org/>\n26. Kyunghyang Shinmun (English edition), \"Supreme Court of Japan finalizes dissolution order for former Unification Church,\" 23 Jun 2026. <https://www.khan.co.kr/en/article/202606232320007> — the Supreme Court dismissed the special appeal (reported 23 June; the decision is dated 22 June in the article), held that the order does not violate the constitutional guarantee of religious freedom, and found that the organization had for about 50 years since 1973 systematically continued unlawful solicitation of donations.\n27. United Press International, \"Unification Church leader Hak Ja Han sentenced to 2 years in prison,\" 31 Aug 2026. <https://www.upi.com/Top_News/World-News/2026/08/31/church-leader-hak-ja-han-ani-graft-law-violation/9941788222382/> — \"The church said it would appeal.\"\n28. Barrier Free Japan, \"Former Unification Church's assets at time of dissolution exceeded 83.4 billion yen, liquidator announces,\" 23 Jul 2026. <https://barrierfreejapan.com/2026/07/23/former-unification-churchs-assets-at-time-of-dissolution-exceeded-83-4-billion-yen-liquidator-announces/> — the liquidator's announcement of 22 July 2026.\n29. Houterasu (Japan Legal Support Center), consultation line for harm from \"spiritual sales\" (霊感商法等被害), 0120-005931, weekdays 9:30 to 17:00. <https://www.houterasu.or.jp/site/reikan-higai/>\n30. UN Human Rights Committee, Concluding observations on the sixth periodic report of Japan, 2014 (CCPR/C/JPN/CO/6). <https://hrlibrary.umn.edu/hrcommittee/japan2014.html> — concern that the concept of \"public welfare\" is vague and open-ended; concern at reports of abductions and forced confinement of converts to new religious movements.",
+  "reason": "P1-1, P1-2, P1-3, P2-14, P2-25a: new sources 26 to 30, appended at the end; none renumbered.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D088",
+  "scope": "md",
+  "type": "layout",
+  "regex": true,
+  "before": "(20\\. [^\\n]*\\n21\\. [^\\n]*\\n)(17\\. [^\\n]*\\n18\\. [^\\n]*\\n19\\. [^\\n]*\\n)",
+  "after": "\\2\\1",
+  "reason": "P3-31: sources 17 to 19 now print before 20 and 21; numbers unchanged.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D089",
+  "scope": "md",
+  "type": "meta",
+  "before": "checked: 2026-09-27",
+  "after": "checked: 2026-10-03",
+  "reason": "Text rechecked after the discrepancy fixes.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D090",
+  "scope": "md",
+  "type": "meta",
+  "before": "| Last checked | 2026-09-27 |",
+  "after": "| Last checked | 2026-10-03 |",
+  "reason": "Text rechecked after the discrepancy fixes.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D091",
+  "scope": "md",
+  "type": "changelog",
+  "before": "- **2026-09-27:** Added Branches,",
+  "after": "- **2026-10-03:** Updated the Japanese dissolution case: the Supreme Court rejected the church's appeal in June 2026, so the dissolution is final, and the liquidator's July 2026 figures were added. The Seoul verdict against Hak Ja Han is now marked as a first-instance ruling that the church said it will appeal. Statements the sources only attribute to others, such as the description of \"spiritual sales\", the political ties in Japan and the claim that neither case concerns belief, are now attributed, and the page notes that the church and UN experts dispute the \"public welfare\" ground. Removed claims the sources did not support: a Korean \"ritual center\", Blessing payments, an aging first generation, the Philippines, and the church's collective mediation. Added sources for the women who moved to Korea after matching and for the recruitment and ancestor-offering practices, regraded two techniques, added an Evidence row, corrected the compensation offer to \"up to 10 billion yen\", the date of the donations law and the education ministry's role, and added the government-backed Japanese consultation line.\n- **2026-09-27:** Added Branches,",
+  "reason": "Patch note for this round (CLAUDE.md patch-notes rule).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D092",
+  "scope": "md",
+  "type": "changelog",
+  "before": "- **2026-09-27:** Added Branches, Law & state, Money in numbers, Voices from inside, three regional cards, Leaving safely and Where to get help.",
+  "after": "- **2026-09-27:** Sections on branches, law, money figures, voices from inside, regional cards, leaving safely and help lines were completed.",
+  "reason": "P3-32: the entry described the build, not a change a reader would notice.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D093",
+  "scope": "narration",
+  "type": "fact",
+  "section": 7,
+  "before": "In August 2026 a Seoul court sentenced her to two years for bribery, political-funds violations and embezzlement. The scorecard",
+  "after": "In August 2026 a Seoul court sentenced her to two years for bribery, political-funds violations and embezzlement; it was a first-instance ruling, and the church said it will appeal. The scorecard",
+  "reason": "P1-2.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D094",
+  "scope": "narration",
+  "type": "fact",
+  "section": 8,
+  "before": "Japan has gone further than any other country in this book. After former Prime Minister Abe was assassinated in 2022 by a man who blamed the church for ruining his family, a 2023 law banned high-pressure solicitation of donations. The Tokyo District Court ordered the church's religious corporation dissolved in 2025, and the Tokyo High Court upheld that in 2026. If you are Japanese, a court has now found that how this church raised money harmed the public welfare.",
+  "after": "Japan's courts and legislature have acted against this church. After former Prime Minister Abe was assassinated in 2022 by a man who blamed the church for ruining his family, a law enacted in December 2022 banned high-pressure solicitation of donations. The Tokyo District Court ordered the church's religious corporation dissolved in 2025, the Tokyo High Court upheld that in 2026, and the Supreme Court made it final in June 2026. If you are Japanese, the courts have found that how this church raised money harmed the public welfare, though the church and UN experts dispute that ground.",
+  "reason": "P3-36 (cross-volume superlative removed), P2-13, P1-1.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D095",
+  "scope": "narration",
+  "type": "fact",
+  "section": 9,
+  "before": "Donations in Japan were solicited by appealing to ancestral karma, and",
+  "after": "Japan's lawyers' network and a scholarly account describe donations in Japan as solicited by appealing to ancestral karma, and",
+  "reason": "P1-4.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D096",
+  "scope": "narration",
+  "type": "fact",
+  "section": 9,
+  "before": "Ancestor-liberation payments buy outcomes that no one can verify.",
+  "after": "A scholarly account says missionaries offered channels to the spirit world in return for a sizable donation, and no outcome can be verified.",
+  "reason": "P1-7.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D097",
+  "scope": "narration",
+  "type": "fact",
+  "section": 17,
+  "before": "elderly Japanese and their families, pushed into bankruptcy by donations;",
+  "after": "elderly Japanese and their families, who in at least one reported case were pushed into bankruptcy by donations;",
+  "reason": "P2-17.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D098",
+  "scope": "narration",
+  "type": "fact",
+  "section": 17,
+  "before": "and spouses matched abroad, isolated by language and by legal dependency.",
+  "after": "and spouses matched abroad, who former members say are isolated by language and by legal dependency.",
+  "reason": "P2-18.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D099",
+  "scope": "narration",
+  "type": "fact",
+  "section": 18,
+  "before": "local clergy, teachers, officials and volunteers who apply rules they did not write",
+  "after": "local solicitors, workshop leaders, matching officials and church liaisons to politicians, whose roles this page sets out as analysis",
+  "reason": "Shared-template wording named roles that do not appear in the section 18 table.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D100",
+  "scope": "narration",
+  "type": "fact",
+  "section": 18,
+  "before": "If you are a local leader, a teacher or a volunteer, this section is about you.",
+  "after": "If you are a solicitor, a workshop leader, a matching official or a church liaison, this section is about you.",
+  "reason": "Shared-template wording replaced with the roles in the section 18 table.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D101",
+  "scope": "narration",
+  "type": "fact",
+  "section": 21,
+  "before": "People from inside Unification Church / Family Federation who raised the hard question publicly, often at real cost. They answer the objection that criticism only ever comes from outsiders.",
+  "after": "Voices recorded on this page: second-generation members who spoke publicly, a member confined by his relatives, and a lawyers' network that speaks for former followers. Only the second-generation members spoke from inside the movement.",
+  "reason": "P2-22.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D102",
+  "scope": "narration",
+  "type": "fact",
+  "section": 23,
+  "before": "The history section records that the Tokyo High Court upheld dissolution in March 2026 [5].",
+  "after": "The history section records that the Tokyo High Court upheld dissolution in March 2026 [5] and that the Supreme Court made it final in June 2026 [26].",
+  "reason": "P1-1.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D103",
+  "scope": "narration",
+  "type": "fact",
+  "section": 23,
+  "before": "The money table lists ancestor-liberation offerings: \"recurring payments for unverifiable outcomes,\" paid to the Korean ritual center.",
+  "after": "The money table lists ancestor-liberation offerings, for which a scholarly account says missionaries offered channels to the spirit world in return for a sizable donation [19]; the page records no way to verify the outcome.",
+  "reason": "P1-7.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D104",
+  "scope": "narration",
+  "type": "fact",
+  "section": 23,
+  "before": "A criminal conviction of the leader for misusing church money is a finding about the institution, not about belief.",
+  "after": "A criminal conviction of the leader for misusing church money is a court finding about the institution's conduct, not about belief. The Seoul verdict is a first-instance ruling, and the church said it will appeal.",
+  "reason": "P1-2.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D105",
+  "scope": "narration",
+  "type": "fact",
+  "section": 23,
+  "before": "sentenced Hak Ja Han to two years for bribery, political-funds violations and embezzlement [14].",
+  "after": "sentenced Hak Ja Han to two years for bribery, political-funds violations and embezzlement [14], and that the church said it will appeal [27].",
+  "reason": "P1-2.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D106",
+  "scope": "narration",
+  "type": "fact",
+  "section": 23,
+  "before": "the kidnappings of members were wrong, and so was the donation solicitation.",
+  "after": "the confinement of a member for twelve years was wrong, and so was the donation solicitation.",
+  "reason": "P1-9.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "UNIF-D107",
+  "scope": "narration",
+  "type": "fact",
+  "section": 23,
+  "before": "concedes that \"the kidnappings were real and wrong, and a Japanese court said so\" [16], and answers that the dissolution \"rests on decades of civil findings about how money was solicited.\"",
+  "after": "concedes that \"the confinement of a member for twelve years was real and wrong, and a Japanese court said so\" [16], and answers that Japan's courts based the dissolution on \"decades of civil findings about how money was solicited.\"",
+  "reason": "P1-9, P1-3.",
+  "count": 1,
+  "status": "proposed"
  }
 ]

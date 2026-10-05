@@ -1,3 +1,5 @@
+Status 2026-10-03: fixes applied, see unification-church-FIXLOG.md (deferred items remain open).
+
 # DISCREPANCIES — Unification Church / Family Federation, awaiting the owner's decision
 
 Format: **[Location]** what is wrong → proposed wording → why it matters. Nothing below has been changed in the text unless stated. Evidence is in `logs/fact-check/unification-church.md` (F-numbers). Additions are in `docs/sacred-divide-v5/proposals/unification-church.md`. This volume is litigation- and prosecution-sensitive; contested claims are listed as P1 where the page states an allegation or a court holding as fact.
