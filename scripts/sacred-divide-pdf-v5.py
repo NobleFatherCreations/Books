@@ -245,6 +245,7 @@ def datapage(h):
         if st: cur = [int(st), sname, []]; rows.append(cur)
         elif tn: last = [int(tn), tname, 'ungraded']; (cur[2] if cur else rows.append([0, '', []]) or rows[-1][2]).append(last)
         elif g and last is not None and last[2] == 'ungraded': last[2] = g
+    if not any(r[2] for r in rows): return ''   # table-format volumes have no technique cards to map; an empty heading page is worse than none
     counts = {}
     for r in rows:
         for t in r[2]: counts[t[2]] = counts.get(t[2], 0) + 1
