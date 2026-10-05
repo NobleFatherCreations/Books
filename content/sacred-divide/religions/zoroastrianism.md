@@ -1398,7 +1398,7 @@ Checked 2026-10-03. No help line for India or Iran has been checked.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; Wed 10am–1pm, Thu 4–7pm, Fri 8–11am) [11] |
+| **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time) [11] |
 | **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** (aims to offer a 24-hour service) [12] |
 | **Karma Nirvana** | Honour-based abuse and forced marriage (fits this tradition only where a marriage is coerced) | UK | **0800 5999 247** (free; Mon–Fri 9am–5pm) [13] |
 | **Humanists at Risk** | People persecuted for belief or apostasy | Global | Casework [14] |

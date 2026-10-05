@@ -1380,7 +1380,7 @@ Checked 2026-10-03.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving religious or cultural control | UK | **0800 448 0748** (freephone; Mon 10am–1pm, Wed 10am–1pm, Thu 4–7pm) [13] |
+| **Faith to Faithless** | People leaving religious or cultural control | UK | **0800 448 0748** (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time) [13] |
 | **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** (Mon–Fri 9am–5pm) [14] |
 | **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** [15] |
 

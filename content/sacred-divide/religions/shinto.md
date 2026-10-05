@@ -206,7 +206,7 @@ Sources for this section: [1] [3] [7] [9] [10]
 | Question | What the law says | What happened |
 |---|---|---|
 | **Separation of religion and state** | Articles 20 and 89 of the Constitution (1947) separate religion and state [6], and the Shinto Directive of 1945 ended State Shinto [5] | The Supreme Court held public offerings to Yasukuni (1997) and free municipal land for a shrine (2010) unconstitutional [4] |
-| **Religious corporations** | Shrines are religious corporations under prefectural or national oversight | Jinja Honcho's disputes ended up in the civil courts [1][2][3]. Separately, the Unification Church (now the Family Federation) was ordered dissolved as a religious corporation for unlawful solicitation of donations: Tokyo District Court, March 2025; upheld by the Tokyo High Court, 4 March 2026 [20]; final at the Supreme Court, 23 June 2026, the first dissolution of a religious corporation confirmed on grounds of civil-law wrongdoing [21]. This page records no such order against a Shinto body. |
+| **Religious corporations** | Shrines are religious corporations under prefectural or national oversight | Jinja Honcho's disputes ended up in the civil courts [1][2][3]. Separately, the Unification Church (now the Family Federation) was ordered dissolved as a religious corporation for unlawful solicitation of donations: Tokyo District Court, March 2025; upheld by the Tokyo High Court, 4 March 2026 [20]; final when the Supreme Court dismissed the special appeal on 22 June 2026 (reported on the 23rd), the first dissolution of a religious corporation confirmed on grounds of civil-law wrongdoing [21]. This page records no such order against a Shinto body. |
 | **Employment** | Ordinary employment law applies to shrine bodies [1] | Courts voided Jinja Honcho's dismissal of the staff member who questioned a property sale (2021; final 2022) [1] |
 | **Gender** | This page records no law on the question. | Women are barred from landing on the sacred island of Okinoshima, a World Heritage site [11] |
 
@@ -1380,7 +1380,7 @@ Checked 2026-10-03. No Japanese-language line has been checked for this page; th
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; Wed 10am–1pm, Thu 4–7pm, Fri 8–11am) [14] |
+| **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time) [14] |
 | **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** (aims to offer a 24-hour service) [15] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [16] |
 | **TELL Lifeline** | Anyone in Japan who needs to talk, in English; not specific to religion | Japan | **0800-300-8355** (toll-free; English only; Sat 9am to Mon 11pm, Tue–Thu 9am–11pm, Fri 9am–2am) [24] |

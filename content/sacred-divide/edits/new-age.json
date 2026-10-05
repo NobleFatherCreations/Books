@@ -2865,8 +2865,8 @@
   "section": 25,
   "before": "(freephone; set hours, see website) [13]",
   "after": "(freephone; Wednesday 10:00–13:00, Thursday 16:00–19:00, Friday 08:00–11:00 UK time) [13]",
-  "reason": "Item 30.",
-  "count": 1,
+  "reason": "Item 30. (Superseded by global ALL-F08, which sets the verified Faith to Faithless hours; kept as a no-op.)",
+  "count": "any",
   "status": "proposed"
  },
  {

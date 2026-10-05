@@ -1379,7 +1379,7 @@ Checked 2026-10-03.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; Wednesday 10:00–13:00, Thursday 16:00–19:00, Friday 08:00–11:00) [13] |
+| **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time) [13] |
 | **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848**; the service says it tries to offer a 24-hour chat and call service; UK +44 20 3807 4583, Australia +61 2 8203 7137 [14] |
 | **ICSA** | Former members of high-control groups; families | International | Contact is through its website [15] |
 | **Humanists at Risk** | People persecuted for belief | Global | Contact is by casework request through its website [16] |

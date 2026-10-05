@@ -644,7 +644,7 @@ Checked 2026-10-03.
 | **Houterasu (Japan Legal Support Center), spiritual-sales consultation line** | Victims of "spiritual sales" and their families | Japan | **0120-005931** (toll-free in Japan; weekdays 9:30 to 17:00, not weekends, holidays or year-end; from abroad 050-3383-0010, call charges apply). The service page is in Japanese. [29] |
 | **ICSA** | Former members of high-control groups; families | International | Contact is through its website [22]. |
 | **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** (the service aims to be available 24 hours and also offers web chat) [23] |
-| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [24] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time) [24] |
 | **Childhelp** | Child abuse | US | **1-800-422-4453** (24 hours; text "GO" to 800.422.4453 or use the website chat) [25] |
 
 ## 26. Sources {#sources}

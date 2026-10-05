@@ -2164,8 +2164,8 @@
   "type": "fact",
   "before": "(freephone; set hours, see website) [14] |",
   "after": "(freephone; Wed 10am–1pm, Thu 4–7pm, Fri 8–11am) [14] |",
-  "reason": "P3-27(b): hours from Humanists UK helpline page as read in the 2026-10-03 fact-check (F21).",
-  "count": 1,
+  "reason": "P3-27(b): hours from Humanists UK helpline page as read in the 2026-10-03 fact-check (F21). (Superseded by global ALL-F08, which sets the verified Faith to Faithless hours; kept as a no-op.)",
+  "count": "any",
   "status": "proposed"
  },
  {
@@ -2235,6 +2235,17 @@
   "before": "- **2026-09-27:** Added Branches,",
   "after": "- **2026-10-03:** Corrected the technique tally: none of the 30 techniques is now counted as sourced to a named document, and the two graded as reformed are graded as custom, because their entries describe present-day pressure from relatives and neighbors. Replaced \"the single most dangerous capture in modern history\" and \"within one generation\" with wording the record supports. Stopped saying that amulet sales fund the shrine association's constitutional campaign, which no source on this page shows; the page now says how it is funded is not recorded. Corrected the account of the dormitory case (one research chief was dismissed and a colleague demoted; the court voided the dismissal), the claim that \"it is culture, not religion\" is the tradition's official self-description, and the claim that the amulet trade is untaxed. Added sources for the Korean and Taiwanese enshrinement claim, for the imprisonment of Christians and others who refused State Shinto worship, for Yasukuni's independence from the association, and for the final steps of the dormitory case; added the Unification Church dissolution to the law section; removed a funeral card that described Buddhist temples and rewrote the political-mobilization card; dropped the smear-campaign tag from the dormitory case; added help-line hours and an English-language line for Japan. Sources 17 to 24 are new.\n- **2026-09-27:** Added Branches,",
   "reason": "Patch note for this round (CLAUDE.md patch-notes rule).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D068",
+  "scope": "md",
+  "type": "fact",
+  "section": 8,
+  "before": "final at the Supreme Court, 23 June 2026,",
+  "after": "final when the Supreme Court dismissed the special appeal on 22 June 2026 (reported on the 23rd),",
+  "reason": "Cross-volume check: the Kyunghyang article [21] says the appeal was dismissed 'the previous day' and was reported on 23 June; the volume gave the report date as the ruling date. Matches the Unification Church volume's 'June 2026'.",
   "count": 1,
   "status": "proposed"
  }

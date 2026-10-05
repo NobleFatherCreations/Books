@@ -1748,8 +1748,8 @@
   "type": "fact",
   "before": "(freephone; set hours, see website) [11] |",
   "after": "(freephone; Wed 10am–1pm, Thu 4–7pm, Fri 8–11am) [11] |",
-  "reason": "P3-26: hours from the Humanists UK helpline page as read in the 2026-10-03 fact-check (F23).",
-  "count": 1,
+  "reason": "P3-26: hours from the Humanists UK helpline page as read in the 2026-10-03 fact-check (F23). (Superseded by global ALL-F08, which sets the verified Faith to Faithless hours; kept as a no-op.)",
+  "count": "any",
   "status": "proposed"
  },
  {

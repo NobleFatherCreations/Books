@@ -2237,8 +2237,8 @@
   "type": "fragment",
   "section": 25,
   "before": "| **Faith to Faithless** | People leaving high-control religion | UK | Helpline [24] |",
-  "after": "| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [24] |",
-  "reason": "Discrepancy 16: the row printed no number. Humanists UK lists 0800 448 0748, open Wednesday to Friday on set hours (checked 2026-10-04). The number proposed in the discrepancy list (0800 999 5786) belongs to Muslim Women's Network, not Faith to Faithless.",
+  "after": "| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time) [24] |",
+  "reason": "Discrepancy 16: the row printed no number. Humanists UK lists 0800 448 0748, open Wednesday to Friday on set hours (checked 2026-10-04). The number proposed in the discrepancy list (0800 999 5786) belongs to Muslim Women's Network, not Faith to Faithless. Hours verified first-hand 2026-10-05 (humanists.uk/faith-to-faithless).",
   "count": 1,
   "status": "proposed"
  },

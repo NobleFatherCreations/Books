@@ -2631,8 +2631,8 @@
   "type": "help",
   "section": 25,
   "before": "| Helpline and peer support [42] |",
-  "after": "| Helpline **0800 448 0748** (freephone; set hours, see website) and peer support [42] |",
-  "reason": "Adds the number, in the same form as the shared help-line correction (F20).",
+  "after": "| Helpline **0800 448 0748** (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time) and peer support [42] |",
+  "reason": "Adds the number, in the same form as the shared help-line correction (F20). Hours verified first-hand 2026-10-05 (humanists.uk/faith-to-faithless).",
   "count": 1,
   "status": "proposed"
  },

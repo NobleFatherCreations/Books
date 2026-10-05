@@ -2321,8 +2321,8 @@
   "section": 25,
   "before": "(freephone; set hours, see website) [13]",
   "after": "(freephone; Mon 10am–1pm, Wed 10am–1pm, Thu 4–7pm) [13]",
-  "reason": "item 30: hours read on the programme's helpline page 2026-10-03 (Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00).",
-  "count": 1,
+  "reason": "item 30: hours read on the programme's helpline page 2026-10-03 (Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00). (Superseded by global ALL-F08, which sets the verified Faith to Faithless hours; kept as a no-op.)",
+  "count": "any",
   "status": "proposed"
  },
  {

@@ -2051,8 +2051,8 @@
   "type": "fact",
   "section": 25,
   "before": "| UK | Helpline [26] |",
-  "after": "| UK | **0800 448 0748** (freephone; set hours, see website) [26] |",
-  "reason": "Aligned with the Sunni and Islam volumes, which print the number.",
+  "after": "| UK | **0800 448 0748** (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time) [26] |",
+  "reason": "Aligned with the Sunni and Islam volumes, which print the number. Hours verified first-hand 2026-10-05 (humanists.uk/faith-to-faithless).",
   "count": 1,
   "status": "proposed"
  },

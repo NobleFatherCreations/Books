@@ -1413,7 +1413,7 @@ Checked 2026-10-03.
 |---|---|---|---|
 | **ICSA** | Former members of high-control groups; families | International | Contact is through its website; no phone number is printed here [12] |
 | **Recovering from Religion** | People questioning or leaving belief systems | US, Canada and online | **(844) 368-2848** (US and Canada; UK +44 20 3807 4583; Australia +61 2 8203 7137; text chat that tries to offer a 24-hour service, no phone hours listed) [11] |
-| **Faith to Faithless** | People leaving high-control groups | UK | **0800 448 0748** (freephone; Wednesday 10:00–13:00, Thursday 16:00–19:00, Friday 08:00–11:00 UK time) [13] |
+| **Faith to Faithless** | People leaving high-control groups | UK | **0800 448 0748** (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time) [13] |
 | **RAINN** | Sexual assault | US | **1-800-656-4673** (free, confidential, 24 hours a day) [14] |
 
 ## 26. Sources {#sources}

@@ -1495,7 +1495,7 @@ Checked 2026-09-27.
 | **Muslim Women's Network Helpline** | Muslim women facing abuse, forced marriage, or family-law problems | UK | **0800 999 5786** (freephone; Mon–Fri 10am–4pm) [28] |
 | **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** (Mon–Fri 9am–5pm) [29] |
 | **UK Forced Marriage Unit** | Forced marriage, including British nationals abroad | UK / abroad | Via GOV.UK [11] |
-| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [30] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time) [30] |
 | **Ex-Muslims of North America** | Local affiliate support groups (listed on its site); emergency fund | US, Canada | Online [31] |
 | **Naseeha** | Muslim peer mental-health helpline | North America | **1-866-627-3342** (24/7) [36] |
 | **Humanists at Risk** | People prosecuted for apostasy or blasphemy | Global | Casework [37] |

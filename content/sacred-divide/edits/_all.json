@@ -167,5 +167,26 @@
   "after": "Local affiliate support groups (listed on its site)",
   "reason": "Ex-Muslims of North America says it no longer runs support communities directly; its site lists local affiliate groups (checked 2026-10-04 in the Ahmadiyya fix pass). Shared help-line row.",
   "status": "proposed"
+ },
+ {
+  "id": "ALL-F08",
+  "scope": "md",
+  "type": "proof",
+  "count": "any",
+  "regex": true,
+  "before": "(\\*\\*0800 448 0748\\*\\* \\(freephone; )[^)]*\\)",
+  "after": "\\1Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time)",
+  "reason": "Faith to Faithless hours read first-hand from humanists.uk/faith-to-faithless on 2026-10-05: Monday 10:00-13:00, Wednesday 10:00-13:00, Thursday 16:00-19:00. Replaces the 'set hours, see website' placeholder and the wrong Wed/Thu/Fri (Fri 8-11) version in several volumes. Shared help-line row.",
+  "status": "proposed"
+ },
+ {
+  "id": "ALL-F09",
+  "scope": "md",
+  "type": "proof",
+  "count": "any",
+  "before": "(freephone; set hours, see website)",
+  "after": "(freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time)",
+  "reason": "Same verified Faith to Faithless hours as ALL-F08, for rows whose layout the ALL-F08 pattern does not match (Humanists UK variants).",
+  "status": "proposed"
  }
 ]

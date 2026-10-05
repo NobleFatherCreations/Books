@@ -642,7 +642,7 @@ Checked 2026-10-03.
 | **Sahiyo** | Survivor-led education and support on FGC | Global | Contact is through the website [16]. |
 | **NSPCC FGM Helpline** | Anyone worried a girl is at risk of FGM | UK (and from abroad) | **0800 028 3550**, free and anonymous; open 24 hours [22] |
 | **GOV.UK FGM help** | Protection orders, reporting, health care | UK | Contact is through the GOV.UK page [23]. |
-| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [24] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time) [24] |
 | **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** (Mon–Fri, 9am–5pm; not a 24-hour line) [26] |
 
 ## 26. Sources {#sources}

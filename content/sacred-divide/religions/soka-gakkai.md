@@ -611,7 +611,7 @@ Checked 2026-10-03.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; Wed 10:00–13:00, Thu 16:00–19:00, Fri 08:00–11:00) [13] |
+| **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time) [13] |
 | **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** (aims to offer a 24-hour service; no fixed hotline hours are published) [14] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [15] |
 

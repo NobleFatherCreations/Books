@@ -657,7 +657,7 @@ Checked 2026-09-27.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
-| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [26] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time) [26] |
 | **Ex-Muslims of North America** | Local affiliate support groups (listed on its site) | US, Canada | Online [27] |
 | **Muslim Women's Network Helpline** | Women facing abuse or family-law problems | UK | **0800 999 5786** (freephone; Mon–Fri 10am–4pm) [30] |
 | **Karma Nirvana** | Honour-based abuse, forced marriage | UK | **0800 5999 247** (Mon–Fri 9am–5pm) [28] |

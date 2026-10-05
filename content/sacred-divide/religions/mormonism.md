@@ -1483,7 +1483,7 @@ Checked 2026-09-27.
 | Organization | For | Where | Contact |
 |---|---|---|---|
 | **Recovering from Religion** | People questioning or leaving faith | US, Canada and online | **(844) 368-2848** [19] |
-| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [20] |
+| **Faith to Faithless** | People leaving high-control religion | UK | **0800 448 0748** (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time) [20] |
 | **ICSA** | Former members of high-control groups; families | International | Via website [21] |
 | **Childhelp** | Child abuse | US | **1-800-422-4453** [22] |
 | **RAINN** | Sexual assault | US | **1-800-656-4673** [23] |

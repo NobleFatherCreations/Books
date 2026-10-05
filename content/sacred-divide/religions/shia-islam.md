@@ -1469,7 +1469,7 @@ Checked 2026-09-27. Services change; check the organization's own site.
 |---|---|---|---|
 | **Organization of Women's Freedom in Iraq (OWFI)** | Shelters for women at risk of honour killing and violence | Iraq | Via website [31] |
 | **Iran Human Rights (IHRNGO)** | Death-penalty cases; human-rights defenders | Iran (based in Oslo) | Via website [32] |
-| **Faith to Faithless** (Humanists UK) | People leaving high-control religion | UK | **0800 448 0748** (freephone; set hours, see website) [33] |
+| **Faith to Faithless** (Humanists UK) | People leaving high-control religion | UK | **0800 448 0748** (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time) [33] |
 | **Ex-Muslims of North America** | Local affiliate support groups (listed on its site); emergency fund | US, Canada | Online application [34] |
 | **Humanists International — Humanists at Risk** | People facing prosecution for apostasy or blasphemy | Global | Casework [35] |
 | **Naseeha** | Muslim peer mental-health helpline | North America | **1-866-627-3342**, 24/7 [36] |

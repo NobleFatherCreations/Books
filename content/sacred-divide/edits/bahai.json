@@ -2489,8 +2489,8 @@
   "section": 25,
   "before": "| **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; set hours, see website) [13] |",
   "after": "| **Faith to Faithless** | People leaving religion | UK | **0800 448 0748** (freephone; Wednesday 10:00–13:00, Thursday 16:00–19:00, Friday 08:00–11:00) [13] |",
-  "reason": "P3-17: hours are published on the service's page (read 2026-10-03).",
-  "count": 1,
+  "reason": "P3-17: hours are published on the service's page (read 2026-10-03). (Superseded by global ALL-F08, which sets the verified Faith to Faithless hours; kept as a no-op.)",
+  "count": "any",
   "status": "proposed"
  },
  {
