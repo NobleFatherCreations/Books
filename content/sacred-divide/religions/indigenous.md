@@ -5,7 +5,7 @@ family: "Indigenous & folk"
 family_id: indigenous-family
 family_members: [indigenous]
 version: v4
-checked: 2026-09-27
+checked: 2026-10-03
 sections_filled: 27/27
 missing: []
 partial: []
@@ -18,15 +18,15 @@ partial: []
 ::: glance
 |  |  |
 |---|---|
-| Size | Several hundred million people practice Indigenous, folk, or ancestral traditions, often alongside a world religion; syncretism (the blending of more than one tradition) is the norm, not the exception. [ACADEMIC SOURCE] |
+| Size | This page cites no count: the number depends on how Indigenous, folk and ancestral practice is defined, and many people practice alongside a world religion; syncretism (the blending of more than one tradition) is common. [PATTERN OBSERVED] |
 | Who's in charge | Authority lives locally, with elders, societies, families and councils. By this codex's own rule, no private individual is named on this page. |
 | Chosen by / removable by | Community and kinship / Community and kinship |
 | Money in one line | Money comes from ceremony fees, healing payments, initiation costs and offerings. In the commercialized layer it comes from ayahuasca tourism (retreats built on a plant-based brew used in Amazonian traditions), retreat industries and appropriated ceremony sold at Western price points, and revenue frequently bypasses source communities. [INVESTIGATIVE REPORT] |
-| Leaving in one line | Where tradition, family, and ethnicity are one fabric, questioning practice reads as betraying identity itself; misfortune attribution ('the ancestors are angry') taxes refusal without any explicit threat. [PATTERN OBSERVED] |
+| Leaving in one line | In some communities, where tradition, family, and ethnicity are one fabric, questioning practice can read as betraying identity itself; misfortune attribution ('the ancestors are angry') taxes refusal without any explicit threat. This page names no community. [PATTERN OBSERVED] |
 | The unanswered question | Protection from outsiders is owed and overdue. Who protects the insider from the elder? |
-| Evidence | Six of the 30 techniques are sourced to a named document, and the grades are Documented 14, Cultural 13 and Contested 3. |
+| Evidence | None of the 30 techniques is sourced to a named document. The grades are Cultural 27 and Contested 3. |
 | Family | This volume belongs to the Indigenous and folk family. |
-| Last checked | This page was last checked on 2026-09-27. |
+| Last checked | This page was last checked on 2026-10-03. |
 :::
 
 ### Disclosure scorecard
@@ -39,7 +39,7 @@ partial: []
 
 ## 2. A day inside {#a-day-inside}
 
-*Tanya · A Tuesday in berry season · A First Nation in northern Canada, and the town an hour south*
+*Tanya · A Tuesday in berry season · A First Nation in northern Canada, and the town an hour south · a composite character, not a real person*
 
 Up at six, coffee, and she watches the light come over the water where her grandmother's grandmother's people watched it come over the water, and there is no sentence in English that gets this right so she has stopped trying.
 
@@ -56,7 +56,7 @@ At night she sits on the step. She thinks: everything that nearly destroyed us c
 ## 3. The forefront {#forefront}
 
 ::: lede
-Almost everything done to your traditions was done from outside — bans, boarding schools, stolen children, unmarked graves. That fact frames this entire page and does not disappear from it. What follows tries to hold two truths that are usually kept apart: that the largest harm came from colonizers and missionaries, and that a community can also be harmed by one of its own.
+Much of the documented harm to Indigenous peoples in Canada, the United States and Australia was done from outside — bans, boarding schools, stolen children, potential unmarked graves. That fact frames this entire page and does not disappear from it. What follows tries to hold two truths that are usually kept apart: that the largest harm this page records came from colonizers and missionaries, and that a community can also be harmed from within, a claim this page raises as an allegation and for which it cites no case.
 :::
 
 ### The unanswered question
@@ -75,20 +75,20 @@ Protection from outsiders is owed and overdue. Who protects the insider from the
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Identity and kinship | Yes | Tradition, family, and ethnicity are one fabric; questioning practice can read as betraying the people who survived genocide | “Culture isn't something you leave.” |
+| Identity and kinship | Yes | Tradition, family, and ethnicity are one fabric; questioning practice can read as betraying the people who survived cultural genocide | “Culture isn't something you leave.” |
 
 ### The strongest objection, answered
 
 **The objection.** Any criticism of these traditions continues a colonial project that nearly destroyed them.
 
-**What is true in it.** The largest harm in this profile was inflicted from outside, by other religions' institutions, and is documented by national commissions including unmarked graves. That framing is not a preamble; it is the substance.
+**What is true in it.** The largest harm in this profile was inflicted from outside, by other religions' institutions, and is documented by national commissions; potential unmarked graves have been identified since 2021, most not yet excavated. That framing is not a preamble; it is the substance.
 
-**The answer.** Sovereignty includes the authority to hold your own accountable. Protection from outsiders and protection from insiders are not opposites — nations that built their own protocols for ceremony, research, and safeguarding demonstrate that. The codex names the bind rather than resolving it, because it is real.
+**The answer.** Sovereignty includes the authority to hold your own accountable. Protection from outsiders and protection from insiders need not be opposites. Some First Nations have built their own protocols for research, for example the OCAP principles of ownership, control, access and possession [21]; this page cites no ceremony or safeguarding protocol, so it offers the idea as a direction, not as demonstrated. The codex names the bind rather than resolving it, because it is real.
 
 ## 4. What healthy looks like here {#healthy}
 
 ::: lede
-Hundreds of millions of people practice Indigenous, folk, and ancestral traditions worldwide — land-based, orally transmitted, kinship-woven lifeways that survived colonization, missionary suppression, and extraction.
+Indigenous, folk, and ancestral traditions are practiced worldwide (this page cites no count) — land-based, orally transmitted, kinship-woven lifeways that survived colonization, missionary suppression, and extraction.
 :::
 
 - Healthy practice here has community-accountable eldership, nations setting their own protocols for ceremony and research, and revival movements that pair sovereignty with internal accountability, so that people are protected from outsiders and also from abuse by insiders.
@@ -102,31 +102,31 @@ No founding moment: these are the oldest continuous religious forms on earth. Th
 
 ```timeline
 Deep time–present | Continuous land-based traditions predating all other entries in this codex | There is no founding date; the relevant history is what was done to these traditions.
-1400s–1800s | Colonial conquest; forced conversion; ceremony criminalized across the Americas, Africa, Oceania | Religious suppression as state policy on a global scale. [GOVERNMENT REPORT]
-1876–1996 | Residential and boarding school systems in Canada, the US, and Australia | Children removed from families to destroy language and ceremony; mass graves later identified. [GOVERNMENT REPORT: Canada's TRC 2015]
-1883–1978 | Bans on the Sun Dance (a ceremony of several Plains nations) and the Potlatch (a ceremonial gift-giving feast of Pacific Northwest Coast nations); the US 'Religious Crimes Code' (the 1883 Code of Indian Offenses, rules that Congress never passed into law); the American Indian Religious Freedom Act, passed only in 1978 | Ceremony was literally illegal within living memory. [OFFICIAL POLICY]
-1910–1970 / 1950s–1980s | Stolen Generations (Australia: Aboriginal and Torres Strait Islander children removed from their families) and Sixties Scoop (Canada: Indigenous children removed from their families into child welfare and adoption) child removals; forced sterilization programs | Reproductive and family destruction as policy. [GOVERNMENT REPORT]
+1400s–1800s | Colonial conquest and missionary activity | The cases of religious suppression as state policy that this page sources are in Canada, the United States and Australia (below); it cites no source for other regions. [PATTERN OBSERVED]
+1830s–1996 | Residential schools in Canada (from the 1830s; the last closed in 1996), federal boarding schools in the US (the Interior Department report covers 1819–1969), and missions and children's homes in Australia | Children removed from families to destroy language and ceremony. Canada's TRC (2015) documented the Canadian system; potential unmarked graves have been identified since 2021, most not yet excavated. [GOVERNMENT REPORT: Canada's TRC 2015]
+1883–1978 | In Canada, the Potlatch (a ceremonial gift-giving feast of Pacific Northwest Coast nations) was banned by the Indian Act from 1885 to 1951 [18], and the Sun Dance (a ceremony of several Plains nations) from 1895 [19]. In the US, the Interior Department's 1883 Code of Indian Offenses (the 'Religious Crimes Code'), which Congress never passed into law, banned ceremonies; NARF dates the ban to 1978, when the American Indian Religious Freedom Act passed [5] | Ceremony was illegal within living memory: by statute in Canada, by Interior Department rule in the US. [OFFICIAL POLICY]
+1910–1970 / 1950s–1980s | Stolen Generations (Australia: Aboriginal and Torres Strait Islander children removed from their families) and Sixties Scoop (Canada: Indigenous children removed from their families into child welfare and adoption) child removals | Family destruction as policy in Australia [4]; the Sixties Scoop is not separately sourced on this page, and it cites no source for forced sterilization, which is therefore not recorded here. [GOVERNMENT REPORT: Bringing Them Home]
 1970s–1990s | Revival movements; land claims; repatriation laws (the Native American Graves Protection and Repatriation Act, NAGPRA 1990) | Legal recognition begins; ancestral remains and objects returned.
 1990s–2000s | 'Plastic shaman' (an outsider who sells ceremony while claiming Indigenous authority) commercialization; Lakota declaration of war on exploiters (1993) | Indigenous nations formally object to the sale of their ceremonies. [OFFICIAL POLICY: Lakota Declaration]
 2007 | UN Declaration on the Rights of Indigenous Peoples adopted | International framework for cultural and religious self-determination. [OFFICIAL POLICY]
-2009 | Three deaths at James Arthur Ray's 'sweat lodge' (a heated enclosure used for ceremony) in Sedona; conviction 2011 | Appropriated ceremony run by an untrained outsider kills participants. [COURT RECORD]
+2009 | Three deaths at James Arthur Ray's 'sweat lodge' (a heated enclosure used for ceremony) in Sedona; conviction 2011 | Three participants died at a sweat lodge an outsider ran for paying clients, and he was convicted of negligent homicide; whether it was appropriation is a characterization, not a court ruling. [COURT RECORD]
 2015–present | Canada's TRC findings; ayahuasca and psychedelic tourism boom; internal accountability movements | Revival now navigates both external extraction and internal accountability. [GOVERNMENT REPORT]
 ```
 
 ### Moments in the room
 
 ::: card
-#### 1883–1951 — The Potlatch and Sun Dance bans
+#### 1883–1978 — Bans on ceremony in Canada and the United States
 
-Canada and the United States criminalised central ceremonies for decades. People were imprisoned and regalia confiscated; some of it sits in museums still.
+Canada banned the Potlatch (1885–1951) and the Sun Dance (from 1895) by law [18][19]; the US Interior Department's 1883 Code of Indian Offenses banned ceremonies without an act of Congress, and NARF dates the ban to 1978 [5]. People were prosecuted under the Canadian ban and regalia was surrendered or confiscated.
 
-**Why it matters.** This page inverts the codex's usual question. The apex here was imposed from outside, by statute, and its harms are the documented ones.
+**Why it matters.** This page inverts the codex's usual question. The apex here was imposed from outside, by statute in Canada and by administrative rule in the US, and its harms are the documented ones.
 :::
 
 ::: card
 #### 1996 and 2015 — The last school closes; the Commission reports
 
-Canada's last residential school closed in 1996. In 2015 the Truth and Reconciliation Commission documented the system and named it cultural genocide, documenting more than 3,200 child deaths; the national memorial register listed 4,037 names in 2019 and added more than 1,100 in 2025, and potential unmarked graves have been identified since 2021.
+Canada's last residential school closed in 1996. In 2015 the Truth and Reconciliation Commission documented the system and named it cultural genocide, recording at least 3,200 deaths of children who attended (the register records deaths, which include illness, not only abuse); the national memorial register, begun in 2019, added more than 1,100 verified names in 2025, and potential unmarked graves have been identified since 2021, most not yet excavated.
 
 **Why it matters.** This is the most thoroughly documented case in this codex of religious institutions operating a state programme against children, and the only page where the codex's usual accountability question points outward at churches and governments rather than inward.
 :::
@@ -134,13 +134,13 @@ Canada's last residential school closed in 1996. In 2015 the Truth and Reconcili
 ::: card
 #### 1993 and after — The Declaration of War against Exploiters of Lakota Spirituality
 
-Lakota leaders issued a formal declaration against non-Native sale of ceremony. It has been reissued and reaffirmed since, and remains routinely ignored by the retreat industry.
+Lakota leaders issued a formal declaration against non-Native sale of ceremony. This page cites no later reissue of it and no measure of its effect.
 
 **Why it matters.** This is a case where authority in this tradition spoke in public, in its own name. The 'Who can compel an answer' part of this page's law section defers to it, because the communities' own repudiations are the authority that matters.
 :::
 
 ::: cites
-Sources for this section: [1] [2] [4] [5] [6] [7] [8] [9]
+Sources for this section: [1] [2] [4] [5] [6] [7] [8] [9] [18] [19]
 :::
 
 ## 6. Branches & variants {#branches}
@@ -152,7 +152,7 @@ These are not branches. They are thousands of distinct nations, languages, and l
 | **North America** | First Nations, Métis, Inuit; Native American and Alaska Native nations | The page's questions here are residential and boarding schools [1][13] and the 1883 ban on ceremonies, which the 1978 Religious Freedom Act lifted [5]. |
 | **Australia** | Aboriginal and Torres Strait Islander peoples | The page's question here is forcible child removals, c. 1910–1970 [4]. |
 | **Latin America** | Andean and Amazonian traditions | The page's question here is ayahuasca tourism and its risks (see New Age). |
-| **Africa and elsewhere** | Ancestral and folk religions | The page's questions here are witchcraft accusations against children [11] and FGM (female genital mutilation, also called female genital cutting) where it is practised [10]. |
+| **Africa and elsewhere** | Ancestral and folk religions | The page's questions here are witchcraft accusations against children [11] and FGM (female genital mutilation, also called female genital cutting), which is a social practice found in communities of several religions and none and is recorded here only where it is defended as tradition [10]. |
 
 ## 7. Structure {#structure}
 
@@ -160,10 +160,10 @@ These are not branches. They are thousands of distinct nations, languages, and l
 
 |  |  |
 |---|---|
-| Adherents | Several hundred million people practice Indigenous, folk, or ancestral traditions, often alongside a world religion — syncretism is the norm, not the exception. [ACADEMIC SOURCE] |
+| Adherents | This page cites no count: the number depends on how Indigenous, folk and ancestral practice is defined, and many people practice alongside a world religion. [PATTERN OBSERVED] |
 | Regions | The traditions are practiced in Sub-Saharan Africa (traditional religions and Yoruba-derived diaspora traditions), the Americas (First Nations, Native American, Amazonian, Andean, Mesoamerican), Australia (Aboriginal), Pacific Islands, Siberia, Southeast Asia, the Arctic. |
 | Trend | Many nations are seeing revival and language recovery, and at the same time face pressure from extraction industries, missionary activity, and commercial appropriation. |
-| Participation | Most practitioners are also Christian, Muslim, or Buddhist. Institutional authority is generally local and kinship-based, with no hierarchy above the community — which cuts both ways. |
+| Participation | In many regions practitioners also follow a world religion such as Christianity, Islam or Buddhism; this page cites no figure. Where authority is local and kinship-based there is no hierarchy above the community, which cuts both ways. It varies between peoples. |
 
 ### Authority
 
@@ -179,7 +179,7 @@ No apex — and here, unlike everywhere else in this codex, naming one would rep
 | Office | Who sits in it now | Chosen by | Removable by |
 |---|---|---|---|
 | Where authority actually lives | Authority lives locally, with elders, societies, families and councils. By this codex's own rule, no private individual is named on this page. | The community and its kinship networks choose who holds it. | The community and its kinship networks remove who holds it. |
-| Where power concentrates anyway | State-recognized councils control recognition and funds, and, outside the communities, a non-Indigenous retreat economy sells ceremony back to the world. | State statute sets the councils, and market ownership sets the retreat economy. | Elections and courts remove council members, and the market decides the retreat economy. |
+| Where power concentrates anyway | In Canada the federal Indian Act sets who has Indian status and funds bands to administer registration [20]; this page names no council and makes no finding about how any council uses funds. Outside the communities, a non-Indigenous retreat economy sells ceremony back to the world. | In Canada, the Indian Act sets status [20]; market ownership sets the retreat economy. | Not recorded on this page for councils; the market decides the retreat economy. |
 | The record | The residential-school findings stand as the documented result of an outside apex imposed on these traditions by force | — | — |
 
 ::: tell
@@ -191,30 +191,30 @@ Everywhere else this codex asks: who is at the top? Here the question inverts: w
 | Entity | Type | Holder | Holds | Why it matters to you | Receipt |
 |---|---|---|---|---|---|
 | Churches that operated residential and mission schools | External institution | The holders are named denominations under government contract. | They hold records and, in documented cases, unmet settlement commitments. | Your family's history is still held by the institution that took it. | [GOVERNMENT REPORT: Truth and Reconciliation Commission of Canada] |
-| Colonial and successor states | Government | The holders are national governments. | They hold a century of statutory bans on ceremony, with religious freedom restored only in 1978 in the United States. | It decided whether your grandparents could pray legally. | [OFFICIAL POLICY] |
+| Colonial and successor states | Government | The holders are national governments. | They hold the legacy of bans on ceremony: Canada's statutory bans on the Potlatch (1885–1951) and the Sun Dance (from 1895) [18][19], and the US Interior Department's 1883 rules, which NARF dates to 1978 [5]. | It decided whether your grandparents could pray legally. | [OFFICIAL POLICY] |
 | Ayahuasca and retreat operators | Commercial | The holders are private operators, frequently non-Indigenous. | They hold very large revenues at Western price points, with source communities bypassed. | Your ceremony is sold to strangers and nothing returns to you. | [INVESTIGATIVE REPORT] |
-| 'Plastic shamans' | Appropriation | The holders are untrained outsiders selling ceremony; one was convicted of negligent homicide after three deaths. | They hold ceremony as a product, formally denounced by Indigenous nations. | Your tradition's name appears on someone else's invoice. | [COURT RECORD / OFFICIAL POLICY: Lakota Declaration 1993] |
+| 'Plastic shamans' | Appropriation | The holders are outsiders who sell ceremony, which Indigenous nations have formally denounced; one was convicted of negligent homicide after three deaths, and the court ruled on the deaths, not on appropriation. | They hold ceremony as a product. | Your tradition's name appears on someone else's invoice. | [COURT RECORD / OFFICIAL POLICY: Lakota Declaration 1993] |
 | Extractive researchers and licensors | Academic and commercial | The holders are universities, publishers and corporations. | They hold knowledge published, patented, or licensed without consent or benefit-sharing. | What your community knows is owned by someone else. | [ACADEMIC SOURCE] |
-| Individual ceremonial figures without community accountability | Internal authority | The holders are specific individuals in specific communities. | They hold access to ceremony where they may be the only route, and where reporting means accusing kin. | This is the one internal harm this page must name. | [FORMER MEMBER TESTIMONY] |
-| Nations that built their own protocols | Sovereign governance | The holders are tribal councils and cultural authorities. | They hold research, ceremony, and safeguarding protocols set by the community itself. | They are proof that protection from outsiders and protection from insiders are not opposites. | [OFFICIAL POLICY: nation-level research and cultural protocols] |
+| Ceremonial figures without community accountability | Internal authority | Ceremonial figures in some communities; the page names no person, people or nation. | They may hold access to ceremony where they are the only route, and where reporting would mean accusing kin. | Abuse by ceremonial leaders has been reported in some communities; this page cites no case, and the claim is an allegation, not a finding. | [PATTERN OBSERVED] |
+| First Nations research protocols | Sovereign governance | The First Nations Information Governance Centre set out the OCAP principles (ownership, control, access and possession) for First Nations data [21]. | They hold the principles by which First Nations assert control over research data about them. | They are this page's one named example that communities set their own terms; the page cites no ceremony or safeguarding protocol. | [OFFICIAL POLICY: OCAP] |
 
 ::: cites
-Sources for this section: [5]
+Sources for this section: [5] [20] [21]
 :::
 
 ## 8. Law & state here {#law}
 
 | Country | What the law does | What happened |
 |---|---|---|
-| **Canada** | Canada has the Indian Residential Schools Settlement and a Truth and Reconciliation Commission [1]. | The TRC called the system "cultural genocide" and recorded about 3,200 deaths (2015) [1][2]; the Pope apologized in 2022 [14] |
-| **United States** | The 1883 Code of Indian Offenses outlawed ceremonies [5]; the American Indian Religious Freedom Act (1978) and NAGPRA (1990) reversed course [5][6] | The Interior Department confirmed at least 973 children died at 417 federal boarding schools (2024) [13] |
+| **Canada** | Canada has the Indian Residential Schools Settlement and a Truth and Reconciliation Commission [1]. The Indian Act banned the Potlatch (1885–1951) [18] and the Sun Dance (from 1895) [19]. | The TRC called the system "cultural genocide" and recorded at least 3,200 deaths (2015) [1][2]; the Pope apologized in 2022 [14] |
+| **United States** | The 1883 Code of Indian Offenses, an Interior Department rule that Congress never passed into law, outlawed ceremonies [5]; the American Indian Religious Freedom Act (1978) and NAGPRA (1990) reversed course [5][6] | The Interior Department confirmed at least 973 children died at federal boarding schools; it listed 417 such schools (2024) [13] |
 | **Australia** | A national inquiry examined child removals [4]. | *Bringing Them Home* was tabled in 1997 [4] |
 | **International** | The UN Declaration on the Rights of Indigenous Peoples (2007) [7] | It sets a standard and is not enforced by a court. |
 | **Appropriation** | Ordinary criminal and consumer law applies [9]. | A self-help teacher was convicted over three deaths at a sweat lodge he ran for paying clients (2011) [9] |
 
 ### Who can compel an answer
 
-This entry refuses the general form of the question, because outside compulsion is the historical wound itself. For frauds selling ceremony to outsiders, the available routes are consumer-protection law and the communities' own public repudiations, which are the authority that actually matters.
+This entry refuses the general form of the question, because outside compulsion is the historical wound itself. For the sale of ceremony to outsiders, the available routes are consumer-protection law and the communities' own public repudiations, which are the authority that actually matters.
 
 ## 9. Money {#money}
 
@@ -228,7 +228,7 @@ This entry refuses the general form of the question, because outside compulsion 
 |---|---|---|---|
 | Ceremony offerings, healing payments, initiation costs | The stated purpose is reciprocity with the healer and the tradition. | In context this is genuine reciprocity, and the risk arises where a gatekeeper sets escalating prices for necessary healing. | Practitioners and their communities benefit. |
 | Ayahuasca and retreat tourism | The stated purpose is healing for outsiders. | Control comes through very high Western price points, screening and safety are often inadequate, and deaths are documented. | Retreat operators, often non-Indigenous, benefit, and source communities are frequently bypassed. [INVESTIGATIVE REPORT] |
-| 'Plastic shaman' workshops and sold ceremony | The stated purpose is spiritual teaching. | Control comes through appropriated ritual sold by untrained outsiders, and Indigenous nations have formally denounced it. | Outside entrepreneurs benefit. [OFFICIAL POLICY: Lakota Declaration] |
+| 'Plastic shaman' workshops and sold ceremony | The stated purpose is spiritual teaching. | Control comes through ritual sold by outsiders, and Indigenous nations have formally denounced it. | Outside entrepreneurs benefit. [OFFICIAL POLICY: Lakota Declaration] |
 | Extractive research and cultural licensing | The stated purpose is documentation and preservation. | Control comes through knowledge published, patented, or licensed without community consent or benefit-sharing. | Universities, corporations and publishers benefit. [ACADEMIC SOURCE] |
 
 ### Pipelines this tradition shares
@@ -248,7 +248,7 @@ This entry refuses the general form of the question, because outside compulsion 
 ### Money in numbers
 
 - **United States:** the government appropriated more than **$23.3 billion** (in 2023 dollars) between 1871 and 1969 for the boarding-school system and related assimilation policies [13].
-- **Canada — the churches:** Catholic entities were released in 2015 from a $25 million fundraising pledge after raising under $4 million, and re-pledged $30 million in 2021 [3]; in 2022 the church said dioceses and orders had paid $50 million [14].
+- **Canada — the churches:** Catholic entities were released in 2015 from a $25 million fundraising pledge after raising under $4 million, and re-pledged $30 million in 2021 [3]; in 2022 the church said dioceses and orders had provided more than $50 million in cash and in-kind contributions [14].
 - **Ceremony for sale:** Ayahuasca retreats and paid sweat lodges are sold to outsiders (see New Age) [9].
 
 ## 10. Genealogy {#genealogy}
@@ -256,7 +256,7 @@ This entry refuses the general form of the question, because outside compulsion 
 ::: card
 #### Missionary and residential schooling
 
-**Origin.** Church-run residential and boarding schools operating from the 1870s in Canada, the U.S., and Australia — the last closing within living memory. [GOVERNMENT REPORT: Canada's TRC]
+**Origin.** Church-run residential and boarding schools: in Canada from the 1830s, in the US (the Interior Department report covers 1819–1969), and in Australia as missions and children's homes — the last Canadian school closing in 1996, within living memory. [GOVERNMENT REPORT: Canada's TRC]
 
 **What it was for.** Stated as civilizing and Christianizing; in practice, the explicit destruction of language, ceremony, and family.
 
@@ -284,9 +284,9 @@ This entry refuses the general form of the question, because outside compulsion 
 
 **What it was for.** In an intact community, that concentration was checked by everyone knowing everyone — accountability was total precisely because the community was small and permanent.
 
-**Why that reason expired.** Where colonization broke communities, dispersed families, and severed knowledge chains, the checks broke with them. What remains is authority without the community structure that used to regulate it — and abuse by a ceremonial figure is nearly impossible to report when he is also your uncle and the only healer for two hundred miles.
+**Why that reason expired.** Where colonization broke communities, dispersed families, and severed knowledge chains, the checks broke with them. What remains, in some communities, is authority without the community structure that used to regulate it — and abuse by a ceremonial figure, where it occurs, would be very hard to report when he is also your uncle and the only healer for a long distance. This page cites no case.
 
-**Who benefits now.** Specific individuals, in specific communities. Naming this is not colonial; refusing to name it protects the same people the boarding schools protected.
+**Who benefits now.** Where such abuse occurs, the individuals responsible; this page cites no case. Naming the possibility is not colonial.
 :::
 
 ::: card
@@ -294,15 +294,15 @@ This entry refuses the general form of the question, because outside compulsion 
 
 **Origin.** Expanded from the 1960s counterculture onward; Lakota elders issued a formal declaration against exploiters in 1993. [OFFICIAL POLICY]
 
-**What it was for.** None. This is theft with incense.
+**What it was for.** None stated. Indigenous nations have denounced the sale of their ceremonies [8].
 
-**Why that reason expired.** It was never legitimate, and Indigenous nations have said so in writing. Untrained outsiders sell ceremony at Western prices — in one documented case with three deaths and a criminal conviction. [COURT RECORD]
+**Why that reason expired.** Indigenous nations have denounced it in writing [8]. Outsiders have sold ceremony at Western prices — in one documented case, three participants died and the organizer was convicted of negligent homicide [9]; the court ruled on the deaths, not on appropriation. [COURT RECORD]
 
 **Who benefits now.** Non-Indigenous entrepreneurs, retreat operators, and the wellness industry. Source communities generally see none of it.
 :::
 
 ::: cites
-Sources for this section: [5]
+Sources for this section: [5] [8] [9]
 :::
 
 ## 11. Reach {#reach}
@@ -318,16 +318,16 @@ Sources for this section: [5]
 
 - Initiation and coming-of-age rites are typically communal and consensual within tradition; the practice at issue is where they are conducted without the young person's real ability to decline. [VARIES BY COMMUNITY]
 - The overwhelming documented harm to Indigenous children in this profile was inflicted by outside religious institutions: residential and mission schools, with confirmed deaths and unmarked graves. [GOVERNMENT REPORT]
-- Female genital cutting occurs in some traditional contexts and is defended in cultural terms; it is a documented harm to children regardless of framing. [GOVERNMENT REPORT: WHO]
-- Child witchcraft accusations in parts of West and Central Africa, often at the intersection of traditional belief and Pentecostal deliverance ministries (churches that perform rites to expel spirits believed to cause illness or misfortune), have led to abandonment and violence. [GOVERNMENT REPORT / INVESTIGATIVE REPORT]
+- Female genital mutilation is a social practice found in communities of several religions and none, and WHO states that no religious scripts prescribe it [10]. It is recorded here only where it is defended as tradition, and it is a documented harm to girls regardless of framing. [GOVERNMENT REPORT: WHO]
+- Child witchcraft accusations in parts of West and Central Africa have led to abandonment and violence. UNICEF describes the causes as cultural, social, economic and political [11]; this page does not rank the role of traditional belief against that of deliverance ministries (churches that perform rites to expel spirits believed to cause illness or misfortune). [GOVERNMENT REPORT]
 
 ### Bodies
 
 - Many traditions were and are matrilineal, with women holding ceremonial and political authority — the colonial imposition of patriarchy is itself a documented harm. [ACADEMIC SOURCE]
 - Two-spirit (a term some Native people use for gender-diverse roles) and third-gender roles were recognized in numerous nations and were specifically targeted by missionaries. [ACADEMIC SOURCE]
-- Control patterns that do appear internally in some communities include arranged or early marriage, menstrual restriction, and elder authority over women's choices. [VARIES BY COMMUNITY]
-- Abuse by ceremonial leaders is documented and structurally hard to report where the leader is also kin, healer, and community authority. [FORMER MEMBER TESTIMONY]
-- Missing and murdered Indigenous women is the overwhelming gendered harm here, and its source is external. [GOVERNMENT REPORT]
+- Some observers describe elder authority over women's choices, arranged or early marriage and menstrual restriction as control patterns in some communities. This page names no people and cites no source for them, so they are recorded as unverified; arranged marriage and menstrual observance are not by themselves coercion. [VARIES BY COMMUNITY]
+- Abuse by ceremonial leaders has been reported in some communities; this page cites no case, and the claim is an allegation, not a finding. Where a leader is also kin, healer and community authority, reporting would be structurally hard. [PATTERN OBSERVED]
+- The National Inquiry into Missing and Murdered Indigenous Women and Girls found that violence against Indigenous women and girls has colonial and patriarchal roots and amounts to genocide [12]. [GOVERNMENT REPORT]
 
 ::: cites
 Sources for this section: [10] [11] [12]
@@ -335,7 +335,7 @@ Sources for this section: [10] [11] [12]
 
 ## 12. The 30 techniques {#techniques}
 
-Thirty named techniques from domestic-abuse and social-psychology research, applied to institutions, in the eight stages of the cycle. Each carries an evidence grade for this tradition.
+Thirty named techniques from domestic-abuse and social-psychology research, applied to institutions, in the eight stages of the cycle. Each carries an evidence grade for this tradition. For this volume the thirty entries are a framework applied to Indigenous, folk and ancestral traditions as a group. They describe patterns that may occur in some communities, not findings about any named people; the page names no nation or organization for them and cites no source for the internal patterns, which is why most are graded Cultural. "Elders, shamans, healers" is a generic list of roles, not a claim about any one people.
 
 ### Stage 1 · Idealize {#stage-1}
 
@@ -381,7 +381,7 @@ The offer comes through ceremony, ancestry, land, songs, elders, and the promise
 
 **The counter.** Oppression by outsiders does not make internal coercion sacred. A tradition can deserve protection from erasure and still require accountability. If generosity restores identity but then uses that identity to demand silence, the ancestors have been turned into debt collectors.
 
-**Evidence grade.** [[Contested]] The help and generosity are reciprocity within tradition, so whether they become leverage is disputed; the extraction the page documents is by outside commercial operators, not by elders or healers. *(sourced)*
+**Evidence grade.** [[Contested]] The help and generosity are reciprocity within tradition, so whether they become leverage is disputed; the extraction the page documents is by outside commercial operators, not by elders or healers.
 :::
 
 ### Stage 2 · Hook {#stage-2}
@@ -389,7 +389,7 @@ The offer comes through ceremony, ancestry, land, songs, elders, and the promise
 ::: stage
 **You are given a future that cannot be verified, and a rope for whenever you drift toward the door.**
 
-The promise is restoration of what was taken, connection to land and ancestors, and healing across generations, and unlike almost everything else in this codex it is substantially real. Retrieval is a ceremony, a funeral, an appeal to what your grandparents survived to give you.
+The promise is restoration of what was taken, connection to land and ancestors, and healing across generations, and unlike almost everything else in this codex it is substantially real. Recovery comes through a ceremony, a funeral, an appeal to what your grandparents survived to give you.
 
 *What it asks of you:* What you were offered is your own inheritance, which is why refusing any part of it feels like refusing yourself.
 :::
@@ -520,7 +520,7 @@ Raise harm and you are betraying the people, doing the colonizer's work, airing 
 
 **How it shows here**
 
-- Divination systems pay out intermittently by construction — some readings land uncannily, most are ambiguous — and landing readings become the practitioner's reputation while ambiguous ones become the client's unreadiness.
+- Where divination is practiced, readings can pay out intermittently — some land, most are ambiguous — and landing readings can become the practitioner's reputation while ambiguous ones become the client's unreadiness.
 - Ancestral favor is metered through the interpreter: good fortune confirms the offerings worked; misfortune means more is required. The ancestors, notably, invoice only through the living.
 - An elder's or healer's regard — protection, inclusion, initiation timing — arrives unpredictably, teaching the reconnecting seeker that standing is weather made by someone else.
 
@@ -623,7 +623,7 @@ Raise harm and you are betraying the people, doing the colonizer's work, airing 
 
 **The counter.** Survival does not make every internal practice safe. If people are trained to accept fear, secrecy, payment, silence, or submission because ancestors are invoked, then restoration has become desensitization.
 
-**Evidence grade.** [[Documented]] The grade rests on the residential and mission school systems established by Canada's Truth and Reconciliation Commission and comparable inquiries, which were harm inflicted from outside the tradition; the internal normalization described in the bullets has no document of its own on this page. *(sourced)*
+**Evidence grade.** [[Cultural]] The residential and mission school systems documented by Canada's Truth and Reconciliation Commission were harm inflicted from outside the tradition; the internal normalization described in the bullets is a pattern for which the page cites no document or case.
 :::
 
 ### Stage 5 · Isolate {#stage-5}
@@ -633,7 +633,7 @@ Raise harm and you are betraying the people, doing the colonizer's work, airing 
 
 Tradition, family, ethnicity, and community are one fabric. In dispersed communities, a single elder or healer may be the only access point to any of it.
 
-*What it asks of you:* When one person is your culture's only door, that person has more power than any bishop in this book.
+*What it asks of you:* When one person is your culture's only door, that person holds a great deal of power over you.
 :::
 
 ::: tactic n=14
@@ -653,7 +653,7 @@ Tradition, family, ethnicity, and community are one fabric. In dispersed communi
 
 **The counter.** Secrecy can protect sacred knowledge, but it can also protect abuse. If a living person cannot ask for help, name harm, or consult outsiders without being accused of betraying ancestors, then the tradition has turned survival into containment.
 
-**Evidence grade.** [[Documented]] The grade rests on the criminalization of ceremony by outside governments, with the Potlatch and Sun Dance bans and the U.S. Religious Crimes Code lasting until religious freedom was restored in 1978; the internal isolation described in the bullets is a pattern for which the page cites no document. *(sourced)*
+**Evidence grade.** [[Cultural]] The bans on ceremony were imposed by outside governments; the internal isolation described in the bullets is a pattern for which the page cites no document or case.
 :::
 
 ::: tactic n=15
@@ -675,7 +675,7 @@ Tradition, family, ethnicity, and community are one fabric. In dispersed communi
 
 **The counter.** Continuity becomes triangulation when ancestors, spirits, elders, land, secrecy, and colonial trauma are all used to overpower the living person’s consent. A tradition can deserve protection from erasure while still needing protection against abuse inside it.
 
-**Evidence grade.** [[Documented]] The grade rests on the century of bans on ceremony imposed by outside governments, which isolated communities from their own practice; the intermediaries described in the bullets (elders, spirits, secrecy) are a pattern for which the page cites no document.
+**Evidence grade.** [[Cultural]] The bans on ceremony imposed by outside governments isolated communities from their own practice; the intermediaries described in the bullets (elders, spirits, secrecy) are a pattern for which the page cites no document or case.
 :::
 
 ### Stage 6 · Extract {#stage-6}
@@ -704,7 +704,7 @@ Where control appears internally, ceremony fees and initiation costs are set by 
 
 **The counter.** Continuity becomes FLYING MONKEY behavior when community members use ancestors, spirits, land, and identity to pressure silence. A tradition can deserve survival without turning its people into enforcement agents.
 
-**Evidence grade.** [[Documented]] The grade rests on the documented external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations); the community enforcement described in the bullets is a pattern within communities that the page does not document with a case.
+**Evidence grade.** [[Cultural]] The the external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations) is recorded elsewhere on this page as an outside harm, but the community enforcement described in the bullets is a pattern within communities for which the page records no case or document.
 :::
 
 ::: tactic n=17
@@ -723,7 +723,7 @@ Where control appears internally, ceremony fees and initiation costs are set by 
 
 **The counter.** Protection becomes smear when it destroys people who ask for accountability. A tradition can be defended from outsiders without branding internal victims as traitors to the ancestors.
 
-**Evidence grade.** [[Documented]] The grade rests on documented cases of churches that operated residential schools withholding records and settlement funding; the smearing of internal critics described in the bullets is a pattern for which the page records no case. *(sourced)*
+**Evidence grade.** [[Cultural]] Churches that operated residential schools have in documented cases withheld records and settlement funding, which is harm by outside institutions; the smearing of internal critics described in the bullets is a pattern for which the page records no case.
 :::
 
 ::: tactic n=18
@@ -742,7 +742,7 @@ Where control appears internally, ceremony fees and initiation costs are set by 
 
 **The counter.** Secrecy can protect sacred knowledge, but it can also protect predators. If a living person cannot ask for clarity without being accused of betraying ancestors, the silence is not sacred. It is dangerous.
 
-**Evidence grade.** [[Documented]] The grade rests on the documented external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations); the stonewalling described in the bullets is a pattern within communities that the page does not document with a case.
+**Evidence grade.** [[Cultural]] The the external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations) is recorded elsewhere on this page as an outside harm, but the stonewalling described in the bullets is a pattern within communities for which the page records no case or document.
 :::
 
 ::: tactic n=19
@@ -761,7 +761,7 @@ Where control appears internally, ceremony fees and initiation costs are set by 
 
 **The counter.** Trust is not consent when people cannot know what they are entering, cannot question elders, and cannot leave without spiritual fear. Ancestors should not be used to manufacture agreement from the living.
 
-**Evidence grade.** [[Documented]] The grade rests on the documented external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations); the manufactured consent described in the bullets is a pattern within communities that the page does not document with a case.
+**Evidence grade.** [[Cultural]] The the external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations) is recorded elsewhere on this page as an outside harm, but the manufactured consent described in the bullets is a pattern within communities for which the page records no case or document.
 :::
 
 ::: tactic n=20
@@ -780,7 +780,7 @@ Where control appears internally, ceremony fees and initiation costs are set by 
 
 **The counter.** Restoration becomes TRAUMA BONDING when fear of disconnection is used to secure obedience. If ancestors are invoked to create dread and ritual authority is offered as relief, the living are being bonded through sacred fear.
 
-**Evidence grade.** [[Documented]] The grade rests on the documented external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations); the trauma bonding described in the bullets is a pattern within communities that the page does not document with a case.
+**Evidence grade.** [[Cultural]] The the external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations) is recorded elsewhere on this page as an outside harm, but the trauma bonding described in the bullets is a pattern within communities for which the page records no case or document.
 :::
 
 ::: tactic n=21
@@ -799,7 +799,7 @@ Where control appears internally, ceremony fees and initiation costs are set by 
 
 **The counter.** Respect becomes LEARNED HELPLESSNESS when questioning is treated as betrayal. If the person cannot ask, leave, or refuse without fearing ancestors, spirits, or identity loss, the tradition has made agency unsafe.
 
-**Evidence grade.** [[Documented]] The grade rests on the documented external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations); the learned helplessness described in the bullets is a pattern within communities that the page does not document with a case.
+**Evidence grade.** [[Cultural]] The the external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations) is recorded elsewhere on this page as an outside harm, but the learned helplessness described in the bullets is a pattern within communities for which the page records no case or document.
 :::
 
 ::: tactic n=22
@@ -818,7 +818,7 @@ Where control appears internally, ceremony fees and initiation costs are set by 
 
 **The counter.** Protection becomes BENEVOLENT CONTROL when it makes questioning unsafe. If ancestors, spirits, and elders are invoked to prevent consent, clarity, or exit, care for tradition has become control over the living.
 
-**Evidence grade.** [[Documented]] The grade rests on the documented external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations); the benevolent control described in the bullets is a pattern within communities that the page does not document with a case.
+**Evidence grade.** [[Cultural]] The the external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations) is recorded elsewhere on this page as an outside harm, but the benevolent control described in the bullets is a pattern within communities for which the page records no case or document.
 :::
 
 ::: tactic n=23
@@ -837,7 +837,7 @@ Where control appears internally, ceremony fees and initiation costs are set by 
 
 **The counter.** Elder guidance becomes INFANTILIZATION when it denies adult consent. If a person cannot ask, refuse, or leave without being treated as spiritually childish or culturally defective, tradition has become paternal control.
 
-**Evidence grade.** [[Documented]] The grade rests on the documented external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations); the infantilization described in the bullets is a pattern within communities that the page does not document with a case.
+**Evidence grade.** [[Cultural]] The the external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations) is recorded elsewhere on this page as an outside harm, but the infantilization described in the bullets is a pattern within communities for which the page records no case or document.
 :::
 
 ::: tactic n=24
@@ -857,7 +857,7 @@ Where control appears internally, ceremony fees and initiation costs are set by 
 
 **The counter.** Restoration becomes IDENTITY EROSION when the recovered identity is controlled by others. If becoming whole requires surrendering your boundaries, questions, and consent to elders or spirits, the identity has not been restored. It has been reassigned.
 
-**Evidence grade.** [[Documented]] The grade rests on the documented external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations); the identity erosion described in the bullets is a pattern within communities that the page does not document with a case.
+**Evidence grade.** [[Cultural]] The the external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations) is recorded elsewhere on this page as an outside harm, but the identity erosion described in the bullets is a pattern within communities for which the page records no case or document.
 :::
 
 ::: tactic n=25
@@ -877,7 +877,7 @@ Where control appears internally, ceremony fees and initiation costs are set by 
 
 **The counter.** Protection becomes SPIRITUAL BYPASSING when it avoids internal harm. If the ancestors are invoked to silence the living, tradition has bypassed its own moral responsibility.
 
-**Evidence grade.** [[Documented]] The grade rests on the documented external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations); the spiritual bypassing described in the bullets is a pattern within communities that the page does not document with a case.
+**Evidence grade.** [[Cultural]] The the external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations) is recorded elsewhere on this page as an outside harm, but the spiritual bypassing described in the bullets is a pattern within communities for which the page records no case or document.
 :::
 
 ::: tactic n=26
@@ -896,7 +896,7 @@ Where control appears internally, ceremony fees and initiation costs are set by 
 
 **The counter.** Support becomes FINANCIAL CONTROL when spiritual fear drives payment. If the living must pay to stay protected, authentic, or connected to ancestors, money has become a toll booth between the person and belonging.
 
-**Evidence grade.** [[Documented]] The grade rests on retreat tourism and appropriated ceremony sold at Western prices, with source communities bypassed and formally denounced by Indigenous nations; the offerings, initiation fees and healer payments described in the bullets are not documented on this page as coercive. *(sourced)*
+**Evidence grade.** [[Cultural]] Retreat tourism and appropriated ceremony sold at Western prices, with source communities bypassed, are recorded elsewhere on this page as an outside harm; the offerings, initiation fees and healer payments described in the bullets are not documented on this page as coercive.
 :::
 
 ### Stage 7 · Discard {#stage-7}
@@ -995,7 +995,7 @@ In small communities nobody replaces you; the absence is simply felt. And the au
 
 **The counter.** Secrecy becomes PLAUSIBLE DENIABILITY when it protects unsafe authority. Elder guidance is not above consent. Protection from outsiders must not become protection from accountability to insiders.
 
-**Evidence grade.** [[Cultural]] Authority is attributed to ancestors who cannot be consulted, in an oral tradition with no written text against which a living claimant can be checked; the page treats this as how the tradition is structured, not as a documented case. *(sourced)*
+**Evidence grade.** [[Cultural]] Authority is attributed to ancestors who cannot be consulted, in an oral tradition with no written text against which a living claimant can be checked; the page treats this as how the tradition is structured, not as a documented case.
 :::
 
 ::: cites
@@ -1025,7 +1025,7 @@ Where internal control appears, a gatekeeper prices access to culture that is th
 
 **Why it closes.** The person who sets the price also interprets the misfortune, and no written rule or outside body checks either (sections 7 and 15). A person cannot reach the ceremony without the gatekeeper, and cannot test the interpretation against a text.
 
-**Where it could be broken, and by whom.** It weakens where costs are known in advance and set by the community rather than by one gatekeeper, as in the nations that set their own protocols for ceremony (sections 3 and 7). A person can ask what a ceremony costs and who set the price before taking part. This paragraph is analysis, not a documented finding.
+**Where it could be broken, and by whom.** It weakens where costs are known in advance and set by the community rather than by one gatekeeper; this page cites no ceremony protocol that does this (sections 3 and 7). A person can ask what a ceremony costs and who set the price before taking part. This paragraph is analysis, not a documented finding.
 
 **An example from this page.** Section 12, technique 26, records that misfortune may be interpreted as requiring another ritual, offering, cleansing, or payment.
 :::
@@ -1069,7 +1069,7 @@ The loop was broken violently from outside: children removed to destroy transmis
 
 **Why it closes.** The removal ended transmission at the point where a community renews itself, and its effects fall on the next generation. The page records the damage as present-tense (section 10).
 
-**Where it could be broken, and by whom.** It is being broken from within by language teaching and revival (sections 2 and 4) and by nations setting their own safeguarding protocols (section 3). Full release of school records by the churches and governments that hold them is in their hands (sections 14 and 19). This paragraph is analysis, not a documented finding.
+**Where it could be broken, and by whom.** It is being broken from within by language teaching and revival (sections 2 and 4); this page cites no nation's safeguarding protocol (section 3). Full release of school records by the churches and governments that hold them is in their hands (sections 14 and 19). This paragraph is analysis, not a documented finding.
 
 **An example from this page.** In the day described in section 2, a language teacher is teaching words back to the grandchildren of people who could not speak the language because it was beaten out of them. The teacher is a composite character.
 :::
@@ -1121,14 +1121,14 @@ Retreat and appropriation economies extract labor, knowledge, and revenue with n
 ::: card
 #### 6 · Scandal to Removal to Reform Theatre to Continuity
 
-Institutions apologized, individuals were named, and records remain unreleased.
+Institutions apologized and made pledges, and records remain unreleased in documented cases.
 
 **How it runs.**
 
 1. Findings emerge: the Truth and Reconciliation Commission in 2015, unmarked graves identified from 2021, and the 2024 US boarding-school report (sections 5 and 19).
 2. Institutions apologize and pledge: the Pope apologized in 2022 and Catholic entities re-pledged $30 million in 2021 (sections 9 and 19).
 3. Records remain unreleased in documented cases and settlement commitments remain unmet (section 14).
-4. The next disclosure comes from ground-penetrating radar rather than an archive, and the institution expresses sorrow again (section 14).
+4. Further disclosures may come from ground-penetrating radar rather than an archive, and institutions may express sorrow again (section 14; analysis, not a finding).
 5. The institutions continue to hold what the next inquiry will need.
 
 **Techniques that feed it.** [17 · Smear Campaign](#t-17), [18 · Silent Treatment / Stonewalling](#t-18), [30 · Plausible Deniability](#t-30).
@@ -1170,28 +1170,28 @@ This is the one tradition where the persecution loop's premise is overwhelming �
 |---|---|---|
 | We have apologized and moved forward. | Records remain unreleased in documented cases, and settlement commitments have gone unmet. | [GOVERNMENT REPORT] |
 | This retreat honors indigenous tradition. | Ask which community authorized it. Then ask that community. | [OFFICIAL POLICY: Lakota Declaration] |
-| Criticizing anything here continues colonialism. | Said sometimes by outsiders profiting from the tradition, and sometimes by insiders who would not survive scrutiny. | [PATTERN OBSERVED] |
+| Criticizing anything here continues colonialism. | This is the objection the page answers in section 3; it names no one who says it and attributes no motive. | [PATTERN OBSERVED] |
 | Sacred knowledge must be protected by secrecy. | True, and the same secrecy can shield one individual from the community's own accountability. | [PATTERN OBSERVED] |
 
 ### Accountability or theatre?
 
-**Last time the chair ran.** Apologies issued, individuals named, records still withheld and settlements still unmet.
+**Last time the chair ran.** Apologies and pledges issued, records still withheld in documented cases and settlements still unmet in documented cases.
 
 **Who holds the chair now.** The denominations that hold the records, and the states that contracted them.
 
-**Prediction.** The next disclosure will come from ground-penetrating radar rather than an archive, and the institution will express sorrow again.
+**Prediction (analysis, not a finding).** Further disclosures may come from ground-penetrating radar rather than from an archive, and institutions may express sorrow again.
 
 ## 15. Cost & cover {#cost}
 
 ### What leaving costs
 
-- Where tradition, family, and ethnicity are one fabric, questioning practice reads as betraying identity itself; misfortune attribution ('the ancestors are angry') taxes refusal without any explicit threat. [PATTERN OBSERVED]
+- In some communities, where tradition, family, and ethnicity are one fabric, questioning practice can read as betraying identity itself; misfortune attribution ('the ancestors are angry') taxes refusal without any explicit threat. This page names no community. [PATTERN OBSERVED]
 
 ### The ledger of exit
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Identity and kinship | Yes | Tradition, family, and ethnicity are one fabric; questioning practice can read as betraying the people who survived genocide | “Culture isn't something you leave.” |
+| Identity and kinship | Yes | Tradition, family, and ethnicity are one fabric; questioning practice can read as betraying the people who survived cultural genocide | “Culture isn't something you leave.” |
 | Misfortune attribution | Yes | Illness or bad luck attributed to neglecting ancestors or ceremony | “That's simply how the world works.” |
 | Community standing | Varies | In small communities, dissent from a respected elder is socially expensive | “Elders are respected, not obeyed.” |
 | Colonial double bind | Structural | Criticizing internal harm risks being weaponized by outsiders who caused the greater harm — the hardest bind in this codex | Not a denial: a genuine dilemma the codex names rather than resolves. |
@@ -1220,13 +1220,13 @@ This is the one tradition where the persecution loop's premise is overwhelming �
 - Ayahuasca and psychedelic retreat tourism generates very large revenues, frequently operated by non-Indigenous entrepreneurs, with source communities bypassed and safety screening inadequate. [INVESTIGATIVE REPORT]
 - Extractive research and cultural licensing have published, patented, and monetized knowledge without community consent or benefit-sharing. [ACADEMIC SOURCE]
 - Churches that operated residential schools have in documented cases failed to release records or fully fund settlements they agreed to — leverage exercised by withholding. [GOVERNMENT REPORT]
-- Child witchcraft accusations at the intersection of traditional belief and imported deliverance ministries have led to abandonment and violence, with the imported element frequently the driver. [GOVERNMENT REPORT]
+- Child witchcraft accusations in parts of West and Central Africa have led to abandonment and violence; UNICEF describes cultural, social, economic and political causes and does not rank them [11]. [GOVERNMENT REPORT]
 
 ### Who pays
 
 - Indigenous children in residential and mission schools — the largest documented religious harm in this profile, inflicted from outside. [GOVERNMENT REPORT]
-- Girls subjected to cutting or early marriage in specific traditional contexts.
-- Children accused of witchcraft in syncretic deliverance contexts.
+- Girls subjected to FGM where it is defended as tradition (a social practice found across religions [10]).
+- Children accused of witchcraft in parts of West and Central Africa.
 - Women and young people abused by ceremonial figures who are also kin and authority.
 - Source communities whose ceremonies generate Western revenue they never see.
 - Retreat participants harmed in unregulated settings.
@@ -1241,8 +1241,8 @@ The table below sets out who carries the heaviest weight and what each harm comp
 | Who | How | What it compounds with |
 |---|---|---|
 | Children in residential and mission schools | This is the largest documented religious harm in this profile; it was inflicted from outside, and thousands of deaths are recorded. | It compounds across generations in language loss and child-welfare overrepresentation. |
-| Girls subjected to cutting or early marriage | The harm occurs in specific traditional contexts and is defended in cultural terms. | It compounds where the practitioner is also kin. |
-| Children accused of witchcraft | They suffer abandonment and violence, at the intersection of traditional belief and imported deliverance ministries. | It compounds where the imported element is the driver. |
+| Girls subjected to FGM where it is defended as tradition | FGM is a social practice found in communities of several religions and none; it is recorded here only where it is defended as tradition [10]. | It compounds where the practitioner is also kin. |
+| Children accused of witchcraft | They suffer abandonment and violence; UNICEF links the practice to cultural, social, economic and political causes [11]. | It compounds with the economic and political pressures UNICEF describes [11]. |
 | Young people harmed by ceremonial figures | Harm is nearly impossible to report where the figure is uncle, healer, and authority at once. | It compounds in dispersed communities with no alternative access to culture. |
 | Source communities | Their ceremony is monetized abroad and nothing returns to them. | It compounds while their own members cannot afford to travel to gatherings. |
 | Two-spirit people | Their roles were specifically targeted by missionaries and are not fully restored. | It compounds with imported patriarchy now defended as tradition. |
@@ -1271,7 +1271,7 @@ The table lists four roles in communities and research, what each does, what eac
 - **what:** A national commission documented the residential school system, largely operated by churches under government contract, which removed Indigenous children from families to eliminate language and ceremony. It recorded thousands of deaths and characterized the system as cultural genocide.
 - **record:** TRC final report (government inquiry)
 - **outcome:** 94 Calls to Action issued. Catholic entities were released from a $25 million fundraising pledge in 2015 after raising under $4 million, and re-pledged $30 million in 2021 after public outcry — harm inflicted on these traditions from outside them.
-- **tactics:** 13, 14, 19
+- **tactics:** 13, 14, 24
 - **grade:** Documented
 :::
 
@@ -1282,7 +1282,7 @@ Sources for this section: [1] [2] [3]
 ::: case
 ### The boarding-school count (United States, 2022–2024)
 - **when:** 2022–2024
-- **what:** The Interior Department's investigation identified 417 federal Indian boarding schools in 37 states or territories, at least 74 burial sites, and at least 973 children who died while attending [13].
+- **what:** The Interior Department's investigation identified 417 federal Indian boarding schools in 37 states or territories, at least 74 burial sites, and at least 973 children who died while attending some of them [13].
 - **record:** *Federal Indian Boarding School Initiative Investigative Report*, Vol. II (July 2024) [13]
 - **outcome:** The department reviewed about 103 million pages of records and held listening sessions with survivors at 12 locations [13].
 - **tactics:** 14, 24, 23
@@ -1304,7 +1304,7 @@ Sources for this section: [1] [2] [3]
 - **when:** 2022
 - **what:** Speaking at Maskwacis, Alberta, near a former residential school, Pope Francis said: "I humbly beg forgiveness for the evil committed by so many Christians against the Indigenous peoples" [14].
 - **record:** NPR, 25 July 2022 [14]
-- **outcome:** An apology seven years after the TRC's final report; the church's financial record is set out above [1][3][14].
+- **outcome:** An apology seven years after the TRC's final report; the church's financial record is set out above [1][3][14]. The apology attributes the evil to "so many Christians"; tagging it as Plausible Deniability (30) is this codex's reading, not a finding of any inquiry.
 - **tactics:** 30
 - **grade:** Documented
 :::
@@ -1313,9 +1313,9 @@ Sources for this section: [1] [2] [3]
 ### Ceremony sold, three dead (United States, 2009–2011)
 - **when:** 2009–2011
 - **what:** James Arthur Ray ran a sweat lodge for paying participants at a Sedona retreat; three died [9].
-- **record:** *State of Arizona v. James Arthur Ray* [9]
-- **outcome:** Convicted of negligent homicide in 2011 [9]; Lakota leaders had condemned the sale of their ceremonies in 1993 [8].
-- **tactics:** 1, 3
+- **record:** CNN's report of the verdict in *State of Arizona v. James Arthur Ray* [9]; KJZZ [22]
+- **outcome:** Convicted of negligent homicide in 2011 [9][22]; the court ruled on the deaths, not on appropriation. Lakota leaders had condemned the sale of their ceremonies in 1993 [8].
+- **tactics:** 26
 - **grade:** Documented
 :::
 
@@ -1327,16 +1327,16 @@ Sources for this section: [1] [2] [3]
 |---|---|---|---|
 | The Truth and Reconciliation Commission and its 94 Calls to Action | Survivors who testified about their own childhoods | 2008–2015 | It cost survivors the public reliving of their childhoods, on the record. |
 | The American Indian Religious Freedom Act and repatriation legislation | Decades of Indigenous political organizing | 1978, 1990 | A century of illegality came first. |
-| The Lakota declaration against exploiters of sacred ceremony | Lakota elders | 1993 | The declaration has been largely ignored by the market it addressed. |
+| The Lakota declaration against exploiters of sacred ceremony | Lakota elders | 1993 | This page cites no measure of the declaration's effect. |
 | The UN Declaration on the Rights of Indigenous Peoples | Indigenous delegations over two decades | 2007 | It met sustained state resistance. |
-| Nations setting their own ceremony, research, and safeguarding protocols | Tribal governments | Ongoing | No cost is recorded, and it is the answer to the whole bind. |
+| First Nations setting their own research protocols (OCAP) | First Nations Information Governance Centre | Since 1998 | No cost is recorded. This is an example, not the answer to the whole bind, which the page names and does not resolve. |
 
 ### What would change this page
 
 This page revises when its own subjects say it errs. The standing invitation to community reviewers takes precedence over every other editorial rule on it.
 
 ::: cites
-Sources for this section: [1] [2] [6] [7] [8]
+Sources for this section: [1] [2] [6] [7] [8] [21]
 :::
 
 ## 21. Voices from inside {#voices}
@@ -1389,9 +1389,9 @@ Sources for this section: [1] [2] [6] [7] [8]
 
 ### In closing
 
-Your traditions are the only ones in this codex that were nearly exterminated by another religion's institutions, and the accounting for that is nowhere near complete. Nothing on this page reduces that, and anyone who quotes it to excuse what was done to your family has misread it deliberately.
+Many Indigenous nations were targeted by the institutions of other religions, and the accounting for that is nowhere near complete. Nothing on this page reduces that, and anyone who quotes it to excuse what was done to your family has misread it deliberately.
 
-And still: sovereignty means governing yourselves, which includes the authority to hold your own accountable. Protection from outsiders and protection from insiders are not opposites — nations that have built their own protocols for ceremony, research, and safeguarding have shown that. The most anti-colonial thing available is a community that does not need anyone's permission to protect its own children.
+And still: sovereignty means governing yourselves, which includes the authority to hold your own accountable. Protection from outsiders and protection from insiders need not be opposites; some nations have built their own protocols for research, and a community can build them for ceremony and safeguarding as well. The most anti-colonial thing available is a community that does not need anyone's permission to protect its own children.
 
 ## 24. Leaving safely here {#leaving}
 
@@ -1399,22 +1399,22 @@ Practical guidance, not legal advice.
 
 1. **For survivors of residential and boarding schools and their families,** Indigenous crisis lines exist [15][16].
 2. **For outsiders:** if a "ceremony" is for sale to anyone who pays, the communities themselves have said it is not theirs to sell [8].
-3. **If a practice harms a child** (FGM, witchcraft accusations), child-protection law applies everywhere [10][11].
+3. **If a practice harms a child** (FGM, witchcraft accusations), child-protection law may apply where you live; local child-protection services or the police are the people to ask [10][11].
 4. **Domestic violence support** run by and for Native people is available in the US [17].
 
 ## 25. Where to get help {#help}
 
-Checked 2026-09-27.
+Checked 2026-10-03.
 
 | Organization | For | Where | Contact |
 |---|---|---|---|
 | **Hope for Wellness Helpline** | Indigenous people, 24/7 | Canada | **1-855-242-3310** [15] |
 | **13YARN** | Aboriginal and Torres Strait Islander people in crisis, 24/7 | Australia | **13 92 76** [16] |
-| **StrongHearts Native Helpline** | Domestic and sexual violence | US | **1-844-762-8483** [17] |
+| **StrongHearts Native Helpline** | Domestic and sexual violence, 24/7 by call or text | US | **1-844-762-8483** [17] |
 
 ## 26. Sources {#sources}
 
-1. Truth and Reconciliation Commission of Canada, *Final Report* (2015) — "cultural genocide"; ~3,200 recorded deaths; 94 Calls to Action; the last schools closed in 1996 — Government of Canada Publications. https://publications.gc.ca/site/eng/9.807830/publication.html
+1. Truth and Reconciliation Commission of Canada, *Final Report* (2015) — "cultural genocide"; at least 3,200 recorded deaths (which include illness, not only abuse); 94 Calls to Action; the last schools closed in 1996 — Government of Canada Publications. https://publications.gc.ca/site/eng/9.807830/publication.html
 2. CBC News, "Residential schools findings point to 'cultural genocide,' commission chair says" (2 June 2015). https://www.cbc.ca/news/politics/residential-schools-findings-point-to-cultural-genocide-commission-chair-says-1.3093580
 3. CBC News, "'Where is their soul?': Inside the failed push to make Catholic Church pay for its residential school abuses" (2021 — $25m in-kind fundraising pledge released by a Saskatchewan court in 2015 after less than $4m raised; bishops' $30m pledge in 2021). https://www.cbc.ca/news/canada/saskatoon/church-residential-school-compensation-1.6082935
 4. Australian Human Rights Commission, *Bringing Them Home* (tabled 26 May 1997) — forcible removals c. 1910–1970 — National Museum of Australia. https://digital-classroom.nma.gov.au/learning-modules/rights-and-freedoms-defining-moments-1945-present/121-1997-bringing-them-home-report-stolen-generations
@@ -1422,7 +1422,7 @@ Checked 2026-09-27.
 6. Native American Graves Protection and Repatriation Act (1990) — National Park Service. https://www.nps.gov/subjects/nagpra/index.htm
 7. United Nations, *Declaration on the Rights of Indigenous Peoples* (General Assembly, 13 Sept 2007). https://www.un.org/development/desa/indigenouspeoples/declaration-on-the-rights-of-indigenous-peoples.html
 8. Lakota Summit V, "Declaration of War Against Exploiters of Lakota Spirituality" (10 June 1993). https://www.spiritprotection.org/post/declaration-of-war-against-exploiters-of-lakota-spirituality-1993
-9. CNN, "James Ray found guilty of negligent homicide in sweat lodge case" (22 June 2011). http://www.cnn.com/2011/CRIME/06/22/arizona.sweat.lodge.verdict/
+9. CNN, "James Ray found guilty of negligent homicide in sweat lodge case" (22 June 2011). https://www.cnn.com/2011/CRIME/06/22/arizona.sweat.lodge.verdict/
 10. World Health Organization, *Female genital mutilation* fact sheet. https://www.who.int/news-room/fact-sheets/detail/female-genital-mutilation
 11. UNICEF, *Children Accused of Witchcraft* (2010). https://www.unicef.org/nigeria/reports/children-accused-witchcraft
 12. National Inquiry into Missing and Murdered Indigenous Women and Girls (Canada), *Reclaiming Power and Place* (2019). https://www.mmiwg-ffada.ca/final-report/
@@ -1433,8 +1433,14 @@ Checked 2026-09-27.
 15. Indigenous Services Canada, Hope for Wellness Helpline — 1-855-242-3310, 24/7. https://www.sac-isc.gc.ca/eng/1576089519527/1576089566478
 16. 13YARN — 13 92 76, 24/7 crisis support for Aboriginal and Torres Strait Islander people. https://www.13yarn.org.au/
 17. StrongHearts Native Helpline — 1-844-762-8483 (1-844-7NATIVE). https://strongheartshelpline.org/
+18. The Canadian Encyclopedia, "Potlatch Ban" — Indian Act amendment of 1884, in force 1 January 1885, repealed in 1951. https://thecanadianencyclopedia.ca/en/article/potlatch-ban
+19. Gladue Centre, University of Saskatchewan, "Vankoughnet Requests the Statutory Abolishment of the Sun Dance" — 1895 Indian Act amendment prohibiting the Sun Dance and Thirst Dance. https://gladue.usask.ca/node/2580
+20. Indigenous Services Canada, "Contributions to Indian Bands for Registration Administration" — Indian status determined under the Indian Act; bands funded to administer registration. https://www.sac-isc.gc.ca/eng/1386259183292
+21. First Nations Information Governance Centre, "OCAP" — the First Nations principles of ownership, control, access and possession of First Nations data (established 1998). https://fnigc.ca/ocap-training/
+22. KJZZ, "James Arthur Ray, convicted of negligent homicide at Sedona sweat lodge, dies" (6 Jan 2025) — conviction in 2011 on three counts after three deaths. https://www.kjzz.org/kjzz-news/2025-01-06/james-arthur-ray-convicted-of-negligent-homicide-at-sedona-sweat-lodge-dies
 
 ## 27. What changed on this page {#changed}
 
+- **2026-10-03:** Regraded the techniques whose grades rested on harm done from outside (none is now graded Documented, and none is sourced to a named document); stated that the thirty techniques are a framework for Indigenous, folk and ancestral traditions as a group, not findings about any named people; labelled the claim of abuse by ceremonial leaders as an allegation with no case cited; corrected the dates and wording on the bans on ceremony in Canada and the United States, the graves, the count of recorded deaths and the church's payments; corrected the statements on female genital mutilation, child witchcraft accusations and the missing and murdered women and girls inquiry; removed claims no source supported, and named and sourced two examples (Canada's Indian Act and the OCAP research principles).
 - **2026-09-27:** Added Branches, Law & state, Money in numbers, four documented cases, Voices from inside, three regional cards, Leaving safely and Where to get help.
 

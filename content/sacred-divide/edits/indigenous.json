@@ -1606,5 +1606,995 @@
   "reason": "'High-demand' does not describe this volume's subject.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "INDF-D001",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The grade rests on the residential and mission school systems established by Canada's Truth and Reconciliation Commission and comparable inquiries, which were harm inflicted from outside the tradition; the internal normalization described in the bullets has no document of its own on this page. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] The residential and mission school systems documented by Canada's Truth and Reconciliation Commission were harm inflicted from outside the tradition; the internal normalization described in the bullets is a pattern for which the page cites no document or case.",
+  "reason": "Item 1 (P1): technique 13 was graded Documented on an external record while the bullets describe internal conduct; regraded to Cultural, and the unsupported \"(sourced)\" marker removed where it was present.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D002",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The grade rests on the criminalization of ceremony by outside governments, with the Potlatch and Sun Dance bans and the U.S. Religious Crimes Code lasting until religious freedom was restored in 1978; the internal isolation described in the bullets is a pattern for which the page cites no document. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] The bans on ceremony were imposed by outside governments; the internal isolation described in the bullets is a pattern for which the page cites no document or case.",
+  "reason": "Item 1 (P1): technique 14 was graded Documented on an external record while the bullets describe internal conduct; regraded to Cultural, and the unsupported \"(sourced)\" marker removed where it was present.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D003",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The grade rests on the century of bans on ceremony imposed by outside governments, which isolated communities from their own practice; the intermediaries described in the bullets (elders, spirits, secrecy) are a pattern for which the page cites no document.",
+  "after": "**Evidence grade.** [[Cultural]] The bans on ceremony imposed by outside governments isolated communities from their own practice; the intermediaries described in the bullets (elders, spirits, secrecy) are a pattern for which the page cites no document or case.",
+  "reason": "Item 1 (P1): technique 15 was graded Documented on an external record while the bullets describe internal conduct; regraded to Cultural, and the unsupported \"(sourced)\" marker removed where it was present.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D004",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The grade rests on documented cases of churches that operated residential schools withholding records and settlement funding; the smearing of internal critics described in the bullets is a pattern for which the page records no case. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] Churches that operated residential schools have in documented cases withheld records and settlement funding, which is harm by outside institutions; the smearing of internal critics described in the bullets is a pattern for which the page records no case.",
+  "reason": "Item 1 (P1): technique 17 was graded Documented on an external record while the bullets describe internal conduct; regraded to Cultural, and the unsupported \"(sourced)\" marker removed where it was present.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D005",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The grade rests on retreat tourism and appropriated ceremony sold at Western prices, with source communities bypassed and formally denounced by Indigenous nations; the offerings, initiation fees and healer payments described in the bullets are not documented on this page as coercive. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] Retreat tourism and appropriated ceremony sold at Western prices, with source communities bypassed, are recorded elsewhere on this page as an outside harm; the offerings, initiation fees and healer payments described in the bullets are not documented on this page as coercive.",
+  "reason": "Item 1 (P1): technique 26 was graded Documented on an external record while the bullets describe internal conduct; regraded to Cultural, and the unsupported \"(sourced)\" marker removed where it was present.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D006",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The grade rests on the documented external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations); the community enforcement described in the bullets is a pattern within communities that the page does not document with a case.",
+  "after": "**Evidence grade.** [[Cultural]] The the external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations) is recorded elsewhere on this page as an outside harm, but the community enforcement described in the bullets is a pattern within communities for which the page records no case or document.",
+  "reason": "Item 1 (P1): technique 16 was graded Documented on an external record while the bullets describe internal conduct; regraded to Cultural, and the unsupported \"(sourced)\" marker removed where it was present.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D007",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The grade rests on the documented external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations); the stonewalling described in the bullets is a pattern within communities that the page does not document with a case.",
+  "after": "**Evidence grade.** [[Cultural]] The the external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations) is recorded elsewhere on this page as an outside harm, but the stonewalling described in the bullets is a pattern within communities for which the page records no case or document.",
+  "reason": "Item 1 (P1): technique 18 was graded Documented on an external record while the bullets describe internal conduct; regraded to Cultural, and the unsupported \"(sourced)\" marker removed where it was present.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D008",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The grade rests on the documented external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations); the manufactured consent described in the bullets is a pattern within communities that the page does not document with a case.",
+  "after": "**Evidence grade.** [[Cultural]] The the external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations) is recorded elsewhere on this page as an outside harm, but the manufactured consent described in the bullets is a pattern within communities for which the page records no case or document.",
+  "reason": "Item 1 (P1): technique 19 was graded Documented on an external record while the bullets describe internal conduct; regraded to Cultural, and the unsupported \"(sourced)\" marker removed where it was present.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D009",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The grade rests on the documented external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations); the trauma bonding described in the bullets is a pattern within communities that the page does not document with a case.",
+  "after": "**Evidence grade.** [[Cultural]] The the external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations) is recorded elsewhere on this page as an outside harm, but the trauma bonding described in the bullets is a pattern within communities for which the page records no case or document.",
+  "reason": "Item 1 (P1): technique 20 was graded Documented on an external record while the bullets describe internal conduct; regraded to Cultural, and the unsupported \"(sourced)\" marker removed where it was present.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D010",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The grade rests on the documented external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations); the learned helplessness described in the bullets is a pattern within communities that the page does not document with a case.",
+  "after": "**Evidence grade.** [[Cultural]] The the external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations) is recorded elsewhere on this page as an outside harm, but the learned helplessness described in the bullets is a pattern within communities for which the page records no case or document.",
+  "reason": "Item 1 (P1): technique 21 was graded Documented on an external record while the bullets describe internal conduct; regraded to Cultural, and the unsupported \"(sourced)\" marker removed where it was present.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D011",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The grade rests on the documented external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations); the benevolent control described in the bullets is a pattern within communities that the page does not document with a case.",
+  "after": "**Evidence grade.** [[Cultural]] The the external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations) is recorded elsewhere on this page as an outside harm, but the benevolent control described in the bullets is a pattern within communities for which the page records no case or document.",
+  "reason": "Item 1 (P1): technique 22 was graded Documented on an external record while the bullets describe internal conduct; regraded to Cultural, and the unsupported \"(sourced)\" marker removed where it was present.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D012",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The grade rests on the documented external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations); the infantilization described in the bullets is a pattern within communities that the page does not document with a case.",
+  "after": "**Evidence grade.** [[Cultural]] The the external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations) is recorded elsewhere on this page as an outside harm, but the infantilization described in the bullets is a pattern within communities for which the page records no case or document.",
+  "reason": "Item 1 (P1): technique 23 was graded Documented on an external record while the bullets describe internal conduct; regraded to Cultural, and the unsupported \"(sourced)\" marker removed where it was present.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D013",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The grade rests on the documented external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations); the identity erosion described in the bullets is a pattern within communities that the page does not document with a case.",
+  "after": "**Evidence grade.** [[Cultural]] The the external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations) is recorded elsewhere on this page as an outside harm, but the identity erosion described in the bullets is a pattern within communities for which the page records no case or document.",
+  "reason": "Item 1 (P1): technique 24 was graded Documented on an external record while the bullets describe internal conduct; regraded to Cultural, and the unsupported \"(sourced)\" marker removed where it was present.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D014",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Documented]] The grade rests on the documented external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations); the spiritual bypassing described in the bullets is a pattern within communities that the page does not document with a case.",
+  "after": "**Evidence grade.** [[Cultural]] The the external extraction (retreat tourism, appropriated ceremony and unconsented research, formally denounced by Indigenous nations) is recorded elsewhere on this page as an outside harm, but the spiritual bypassing described in the bullets is a pattern within communities for which the page records no case or document.",
+  "reason": "Item 1 (P1): technique 25 was graded Documented on an external record while the bullets describe internal conduct; regraded to Cultural, and the unsupported \"(sourced)\" marker removed where it was present.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D015",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Contested]] The help and generosity are reciprocity within tradition, so whether they become leverage is disputed; the extraction the page documents is by outside commercial operators, not by elders or healers. *(sourced)*",
+  "after": "**Evidence grade.** [[Contested]] The help and generosity are reciprocity within tradition, so whether they become leverage is disputed; the extraction the page documents is by outside commercial operators, not by elders or healers.",
+  "reason": "Item 1 (P1): technique 2 names no source document, so \"(sourced)\" is removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D016",
+  "scope": "md",
+  "type": "grade",
+  "before": "**Evidence grade.** [[Cultural]] Authority is attributed to ancestors who cannot be consulted, in an oral tradition with no written text against which a living claimant can be checked; the page treats this as how the tradition is structured, not as a documented case. *(sourced)*",
+  "after": "**Evidence grade.** [[Cultural]] Authority is attributed to ancestors who cannot be consulted, in an oral tradition with no written text against which a living claimant can be checked; the page treats this as how the tradition is structured, not as a documented case.",
+  "reason": "Item 1 (P1): technique 30 names no source document, so \"(sourced)\" is removed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D017",
+  "scope": "md",
+  "type": "grade",
+  "before": "| Evidence | Six of the 30 techniques are sourced to a named document, and the grades are Documented 14, Cultural 13 and Contested 3. |",
+  "after": "| Evidence | None of the 30 techniques is sourced to a named document. The grades are Cultural 27 and Contested 3. |",
+  "reason": "Item 1 (P1): tally after the regrades (grep of the 30 grade chips: Cultural 27, Contested 3, Documented 0).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D018",
+  "scope": "md",
+  "type": "fact",
+  "before": "Each carries an evidence grade for this tradition.\n",
+  "after": "Each carries an evidence grade for this tradition. For this volume the thirty entries are a framework applied to Indigenous, folk and ancestral traditions as a group. They describe patterns that may occur in some communities, not findings about any named people; the page names no nation or organization for them and cites no source for the internal patterns, which is why most are graded Cultural. \"Elders, shamans, healers\" is a generic list of roles, not a claim about any one people.\n",
+  "reason": "Item 3 (P1): the entries generalise across thousands of nations; labelled as a framework.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D019",
+  "scope": "md",
+  "type": "receipt",
+  "before": "| Individual ceremonial figures without community accountability | Internal authority | The holders are specific individuals in specific communities. | They hold access to ceremony where they may be the only route, and where reporting means accusing kin. | This is the one internal harm this page must name. | [FORMER MEMBER TESTIMONY] |",
+  "after": "| Ceremonial figures without community accountability | Internal authority | Ceremonial figures in some communities; the page names no person, people or nation. | They may hold access to ceremony where they are the only route, and where reporting would mean accusing kin. | Abuse by ceremonial leaders has been reported in some communities; this page cites no case, and the claim is an allegation, not a finding. | [PATTERN OBSERVED] |",
+  "reason": "Item 2 (P1): no named case or source; relabelled as an allegation (F19).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D020",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Abuse by ceremonial leaders is documented and structurally hard to report where the leader is also kin, healer, and community authority. [FORMER MEMBER TESTIMONY]",
+  "after": "- Abuse by ceremonial leaders has been reported in some communities; this page cites no case, and the claim is an allegation, not a finding. Where a leader is also kin, healer and community authority, reporting would be structurally hard. [PATTERN OBSERVED]",
+  "reason": "Item 2 (P1): \"documented\" with no case or source.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D021",
+  "scope": "md",
+  "type": "fact",
+  "before": "What remains is authority without the community structure that used to regulate it — and abuse by a ceremonial figure is nearly impossible to report when he is also your uncle and the only healer for two hundred miles.",
+  "after": "What remains, in some communities, is authority without the community structure that used to regulate it — and abuse by a ceremonial figure, where it occurs, would be very hard to report when he is also your uncle and the only healer for a long distance. This page cites no case.",
+  "reason": "Item 2 (P1): qualifies the unsourced internal-abuse claim.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D022",
+  "scope": "md",
+  "type": "fact",
+  "before": "**Who benefits now.** Specific individuals, in specific communities. Naming this is not colonial; refusing to name it protects the same people the boarding schools protected.",
+  "after": "**Who benefits now.** Where such abuse occurs, the individuals responsible; this page cites no case. Naming the possibility is not colonial.",
+  "reason": "Items 2 and 12: deletes the unsourced comparison with the boarding schools and the unsupported attribution.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D023",
+  "scope": "md",
+  "type": "fact",
+  "before": "that a community can also be harmed by one of its own.",
+  "after": "that a community can also be harmed from within, a claim this page raises as an allegation and for which it cites no case.",
+  "reason": "Item 2: qualifies the lede (see item 8).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D024",
+  "scope": "md",
+  "type": "fact",
+  "before": "*Tanya · A Tuesday in berry season · A First Nation in northern Canada, and the town an hour south*",
+  "after": "*Tanya · A Tuesday in berry season · A First Nation in northern Canada, and the town an hour south · a composite character, not a real person*",
+  "reason": "Item 32 (P3): labels the composite in the section itself.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D025",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Leaving in one line | Where tradition, family, and ethnicity are one fabric, questioning practice reads as betraying identity itself; misfortune attribution ('the ancestors are angry') taxes refusal without any explicit threat. [PATTERN OBSERVED] |",
+  "after": "| Leaving in one line | In some communities, where tradition, family, and ethnicity are one fabric, questioning practice can read as betraying identity itself; misfortune attribution ('the ancestors are angry') taxes refusal without any explicit threat. This page names no community. [PATTERN OBSERVED] |",
+  "reason": "Item 3 (P1): qualified; one pattern is not asserted for all Indigenous peoples.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D026",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Where tradition, family, and ethnicity are one fabric, questioning practice reads as betraying identity itself; misfortune attribution ('the ancestors are angry') taxes refusal without any explicit threat. [PATTERN OBSERVED]",
+  "after": "- In some communities, where tradition, family, and ethnicity are one fabric, questioning practice can read as betraying identity itself; misfortune attribution ('the ancestors are angry') taxes refusal without any explicit threat. This page names no community. [PATTERN OBSERVED]",
+  "reason": "Item 3 (P1): same, section 15.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D027",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Control patterns that do appear internally in some communities include arranged or early marriage, menstrual restriction, and elder authority over women's choices. [VARIES BY COMMUNITY]",
+  "after": "- Some observers describe elder authority over women's choices, arranged or early marriage and menstrual restriction as control patterns in some communities. This page names no people and cites no source for them, so they are recorded as unverified; arranged marriage and menstrual observance are not by themselves coercion. [VARIES BY COMMUNITY]",
+  "reason": "Item 3 (P1): unsourced generalisation.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D028",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Participation | Most practitioners are also Christian, Muslim, or Buddhist. Institutional authority is generally local and kinship-based, with no hierarchy above the community — which cuts both ways. |",
+  "after": "| Participation | In many regions practitioners also follow a world religion such as Christianity, Islam or Buddhism; this page cites no figure. Where authority is local and kinship-based there is no hierarchy above the community, which cuts both ways. It varies between peoples. |",
+  "reason": "Items 3 and 22: unsourced generalisation.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D029",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Divination systems pay out intermittently by construction — some readings land uncannily, most are ambiguous — and landing readings become the practitioner's reputation while ambiguous ones become the client's unreadiness.",
+  "after": "- Where divination is practiced, readings can pay out intermittently — some land, most are ambiguous — and landing readings can become the practitioner's reputation while ambiguous ones become the client's unreadiness.",
+  "reason": "Item 22: unsourced generalisation across all traditions.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D030",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Size | Several hundred million people practice Indigenous, folk, or ancestral traditions, often alongside a world religion; syncretism (the blending of more than one tradition) is the norm, not the exception. [ACADEMIC SOURCE] |",
+  "after": "| Size | This page cites no count: the number depends on how Indigenous, folk and ancestral practice is defined, and many people practice alongside a world religion; syncretism (the blending of more than one tradition) is common. [PATTERN OBSERVED] |",
+  "reason": "Item 21: no source in the sources list supports the size (F18).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D031",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Adherents | Several hundred million people practice Indigenous, folk, or ancestral traditions, often alongside a world religion — syncretism is the norm, not the exception. [ACADEMIC SOURCE] |",
+  "after": "| Adherents | This page cites no count: the number depends on how Indigenous, folk and ancestral practice is defined, and many people practice alongside a world religion. [PATTERN OBSERVED] |",
+  "reason": "Item 21: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D032",
+  "scope": "md",
+  "type": "fact",
+  "before": "Hundreds of millions of people practice Indigenous, folk, and ancestral traditions worldwide — land-based, orally transmitted, kinship-woven lifeways that survived colonization, missionary suppression, and extraction.",
+  "after": "Indigenous, folk, and ancestral traditions are practiced worldwide (this page cites no count) — land-based, orally transmitted, kinship-woven lifeways that survived colonization, missionary suppression, and extraction.",
+  "reason": "Item 21: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D033",
+  "scope": "md",
+  "type": "fact",
+  "before": "1400s–1800s | Colonial conquest; forced conversion; ceremony criminalized across the Americas, Africa, Oceania | Religious suppression as state policy on a global scale. [GOVERNMENT REPORT]",
+  "after": "1400s–1800s | Colonial conquest and missionary activity | The cases of religious suppression as state policy that this page sources are in Canada, the United States and Australia (below); it cites no source for other regions. [PATTERN OBSERVED]",
+  "reason": "Item 20: receipt had no supporting source; narrowed to the sourced countries.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D034",
+  "scope": "md",
+  "type": "fact",
+  "before": "1876–1996 | Residential and boarding school systems in Canada, the US, and Australia | Children removed from families to destroy language and ceremony; mass graves later identified. [GOVERNMENT REPORT: Canada's TRC 2015]",
+  "after": "1830s–1996 | Residential schools in Canada (from the 1830s; the last closed in 1996), federal boarding schools in the US (the Interior Department report covers 1819–1969), and missions and children's homes in Australia | Children removed from families to destroy language and ceremony. Canada's TRC (2015) documented the Canadian system; potential unmarked graves have been identified since 2021, most not yet excavated. [GOVERNMENT REPORT: Canada's TRC 2015]",
+  "reason": "Items 4 and 35: \"mass graves\" replaced; dates matched to the sources (F4).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D035",
+  "scope": "md",
+  "type": "fact",
+  "before": "1883–1978 | Bans on the Sun Dance (a ceremony of several Plains nations) and the Potlatch (a ceremonial gift-giving feast of Pacific Northwest Coast nations); the US 'Religious Crimes Code' (the 1883 Code of Indian Offenses, rules that Congress never passed into law); the American Indian Religious Freedom Act, passed only in 1978 | Ceremony was literally illegal within living memory. [OFFICIAL POLICY]",
+  "after": "1883–1978 | In Canada, the Potlatch (a ceremonial gift-giving feast of Pacific Northwest Coast nations) was banned by the Indian Act from 1885 to 1951 [18], and the Sun Dance (a ceremony of several Plains nations) from 1895 [19]. In the US, the Interior Department's 1883 Code of Indian Offenses (the 'Religious Crimes Code'), which Congress never passed into law, banned ceremonies; NARF dates the ban to 1978, when the American Indian Religious Freedom Act passed [5] | Ceremony was illegal within living memory: by statute in Canada, by Interior Department rule in the US. [OFFICIAL POLICY]",
+  "reason": "Item 9: statute versus administrative rule; dates separated by country (F11, F12).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D036",
+  "scope": "md",
+  "type": "fact",
+  "before": "1910–1970 / 1950s–1980s | Stolen Generations (Australia: Aboriginal and Torres Strait Islander children removed from their families) and Sixties Scoop (Canada: Indigenous children removed from their families into child welfare and adoption) child removals; forced sterilization programs | Reproductive and family destruction as policy. [GOVERNMENT REPORT]",
+  "after": "1910–1970 / 1950s–1980s | Stolen Generations (Australia: Aboriginal and Torres Strait Islander children removed from their families) and Sixties Scoop (Canada: Indigenous children removed from their families into child welfare and adoption) child removals | Family destruction as policy in Australia [4]; the Sixties Scoop is not separately sourced on this page, and it cites no source for forced sterilization, which is therefore not recorded here. [GOVERNMENT REPORT: Bringing Them Home]",
+  "reason": "Item 20: forced sterilization had no source in the sources list; removed rather than asserted.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D037",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Appropriated ceremony run by an untrained outsider kills participants. [COURT RECORD]",
+  "after": "| Three participants died at a sweat lodge an outsider ran for paying clients, and he was convicted of negligent homicide; whether it was appropriation is a characterization, not a court ruling. [COURT RECORD]",
+  "reason": "Item 14: separates the ruling from the characterization.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D038",
+  "scope": "md",
+  "type": "fact",
+  "before": "Canada and the United States criminalised central ceremonies for decades. People were imprisoned and regalia confiscated; some of it sits in museums still.\n\n**Why it matters.** This page inverts the codex's usual question. The apex here was imposed from outside, by statute, and its harms are the documented ones.",
+  "after": "Canada banned the Potlatch (1885–1951) and the Sun Dance (from 1895) by law [18][19]; the US Interior Department's 1883 Code of Indian Offenses banned ceremonies without an act of Congress, and NARF dates the ban to 1978 [5]. People were prosecuted under the Canadian ban and regalia was surrendered or confiscated.\n\n**Why it matters.** This page inverts the codex's usual question. The apex here was imposed from outside, by statute in Canada and by administrative rule in the US, and its harms are the documented ones.",
+  "reason": "Item 9: statutory in Canada, administrative in the US.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D039",
+  "scope": "md",
+  "type": "fact",
+  "before": "#### 1883–1951 — The Potlatch and Sun Dance bans",
+  "after": "#### 1883–1978 — Bans on ceremony in Canada and the United States",
+  "reason": "Item 9: the old heading joined two countries.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D040",
+  "scope": "md",
+  "type": "fact",
+  "before": "In 2015 the Truth and Reconciliation Commission documented the system and named it cultural genocide, documenting more than 3,200 child deaths; the national memorial register listed 4,037 names in 2019 and added more than 1,100 in 2025, and potential unmarked graves have been identified since 2021.",
+  "after": "In 2015 the Truth and Reconciliation Commission documented the system and named it cultural genocide, recording at least 3,200 deaths of children who attended (the register records deaths, which include illness, not only abuse); the national memorial register, begun in 2019, added more than 1,100 verified names in 2025, and potential unmarked graves have been identified since 2021, most not yet excavated.",
+  "reason": "Items 4, 10: \"more than 3,200\" to \"at least 3,200\"; unverified 4,037 deleted; deaths versus abuse stated.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D041",
+  "scope": "md",
+  "type": "fact",
+  "before": "It has been reissued and reaffirmed since, and remains routinely ignored by the retreat industry.\n",
+  "after": "This page cites no later reissue of it and no measure of its effect.\n",
+  "reason": "Item 15: unsourced claim.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D042",
+  "scope": "md",
+  "type": "fact",
+  "before": "| The declaration has been largely ignored by the market it addressed. |",
+  "after": "| This page cites no measure of the declaration's effect. |",
+  "reason": "Item 15: unsourced claim.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D043",
+  "scope": "md",
+  "type": "receipt",
+  "before": "Sources for this section: [1] [2] [4] [5] [6] [7] [8] [9]",
+  "after": "Sources for this section: [1] [2] [4] [5] [6] [7] [8] [9] [18] [19]",
+  "reason": "New sources [18] and [19] used in this section.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D044",
+  "scope": "md",
+  "type": "fact",
+  "before": "Almost everything done to your traditions was done from outside — bans, boarding schools, stolen children, unmarked graves. That fact frames this entire page and does not disappear from it. What follows tries to hold two truths that are usually kept apart: that the largest harm came from colonizers and missionaries,",
+  "after": "Much of the documented harm to Indigenous peoples in Canada, the United States and Australia was done from outside — bans, boarding schools, stolen children, potential unmarked graves. That fact frames this entire page and does not disappear from it. What follows tries to hold two truths that are usually kept apart: that the largest harm this page records came from colonizers and missionaries,",
+  "reason": "Item 8 (P2): thesis aligned with the three countries the sources cover.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D045",
+  "scope": "md",
+  "type": "fact",
+  "before": "The largest harm in this profile was inflicted from outside, by other religions' institutions, and is documented by national commissions including unmarked graves.",
+  "after": "The largest harm in this profile was inflicted from outside, by other religions' institutions, and is documented by national commissions; potential unmarked graves have been identified since 2021, most not yet excavated.",
+  "reason": "Items 4, 8: matches the graves wording.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D046",
+  "scope": "md",
+  "type": "fact",
+  "before": "Protection from outsiders and protection from insiders are not opposites — nations that built their own protocols for ceremony, research, and safeguarding demonstrate that. The codex names the bind rather than resolving it, because it is real.",
+  "after": "Protection from outsiders and protection from insiders need not be opposites. Some First Nations have built their own protocols for research, for example the OCAP principles of ownership, control, access and possession [21]; this page cites no ceremony or safeguarding protocol, so it offers the idea as a direction, not as demonstrated. The codex names the bind rather than resolving it, because it is real.",
+  "reason": "Items 16, 17 (P2): names a source; settles the contradiction with section 20 in favour of \"names the bind\".",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D047",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Where power concentrates anyway | State-recognized councils control recognition and funds, and, outside the communities, a non-Indigenous retreat economy sells ceremony back to the world. | State statute sets the councils, and market ownership sets the retreat economy. | Elections and courts remove council members, and the market decides the retreat economy. |",
+  "after": "| Where power concentrates anyway | In Canada the federal Indian Act sets who has Indian status and funds bands to administer registration [20]; this page names no council and makes no finding about how any council uses funds. Outside the communities, a non-Indigenous retreat economy sells ceremony back to the world. | In Canada, the Indian Act sets status [20]; market ownership sets the retreat economy. | Not recorded on this page for councils; the market decides the retreat economy. |",
+  "reason": "Item 16 (P2): anonymous claim replaced by a named, sourced one.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D048",
+  "scope": "md",
+  "type": "receipt",
+  "before": "| Nations that built their own protocols | Sovereign governance | The holders are tribal councils and cultural authorities. | They hold research, ceremony, and safeguarding protocols set by the community itself. | They are proof that protection from outsiders and protection from insiders are not opposites. | [OFFICIAL POLICY: nation-level research and cultural protocols] |\n\n::: cites\nSources for this section: [5]",
+  "after": "| First Nations research protocols | Sovereign governance | The First Nations Information Governance Centre set out the OCAP principles (ownership, control, access and possession) for First Nations data [21]. | They hold the principles by which First Nations assert control over research data about them. | They are this page's one named example that communities set their own terms; the page cites no ceremony or safeguarding protocol. | [OFFICIAL POLICY: OCAP] |\n\n::: cites\nSources for this section: [5] [20] [21]",
+  "reason": "Items 16, 17: names one protocol with a source.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D049",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Nations setting their own ceremony, research, and safeguarding protocols | Tribal governments | Ongoing | No cost is recorded, and it is the answer to the whole bind. |",
+  "after": "| First Nations setting their own research protocols (OCAP) | First Nations Information Governance Centre | Since 1998 | No cost is recorded. This is an example, not the answer to the whole bind, which the page names and does not resolve. |",
+  "reason": "Item 17 (P2) and 16: resolves the contradiction with section 3.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D050",
+  "scope": "md",
+  "type": "receipt",
+  "before": "Sources for this section: [1] [2] [6] [7] [8]",
+  "after": "Sources for this section: [1] [2] [6] [7] [8] [21]",
+  "reason": "New source [21].",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D051",
+  "scope": "md",
+  "type": "fact",
+  "before": "It weakens where costs are known in advance and set by the community rather than by one gatekeeper, as in the nations that set their own protocols for ceremony (sections 3 and 7).",
+  "after": "It weakens where costs are known in advance and set by the community rather than by one gatekeeper; this page cites no ceremony protocol that does this (sections 3 and 7).",
+  "reason": "Item 16: loop named nations that the page does not name.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D052",
+  "scope": "md",
+  "type": "fact",
+  "before": "It is being broken from within by language teaching and revival (sections 2 and 4) and by nations setting their own safeguarding protocols (section 3).",
+  "after": "It is being broken from within by language teaching and revival (sections 2 and 4); this page cites no nation's safeguarding protocol (section 3).",
+  "reason": "Item 16: same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D053",
+  "scope": "md",
+  "type": "fact",
+  "before": "Your traditions are the only ones in this codex that were nearly exterminated by another religion's institutions, and the accounting for that is nowhere near complete.",
+  "after": "Many Indigenous nations were targeted by the institutions of other religions, and the accounting for that is nowhere near complete.",
+  "reason": "Item 7 (P1): unsourced superlative across volumes.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D054",
+  "scope": "md",
+  "type": "fact",
+  "before": "Protection from outsiders and protection from insiders are not opposites — nations that have built their own protocols for ceremony, research, and safeguarding have shown that.",
+  "after": "Protection from outsiders and protection from insiders need not be opposites; some nations have built their own protocols for research, and a community can build them for ceremony and safeguarding as well.",
+  "reason": "Item 16: unsourced claim about nations.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D055",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Missing and murdered Indigenous women is the overwhelming gendered harm here, and its source is external. [GOVERNMENT REPORT]",
+  "after": "- The National Inquiry into Missing and Murdered Indigenous Women and Girls found that violence against Indigenous women and girls has colonial and patriarchal roots and amounts to genocide [12]. [GOVERNMENT REPORT]",
+  "reason": "Item 5 (P1): the inquiry does not say the source is external.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D056",
+  "scope": "md",
+  "type": "fact",
+  "before": "and FGM (female genital mutilation, also called female genital cutting) where it is practised [10].",
+  "after": "and FGM (female genital mutilation, also called female genital cutting), which is a social practice found in communities of several religions and none and is recorded here only where it is defended as tradition [10].",
+  "reason": "Item 6 (P1): WHO says no religious scripts prescribe it.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D057",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Female genital cutting occurs in some traditional contexts and is defended in cultural terms; it is a documented harm to children regardless of framing. [GOVERNMENT REPORT: WHO]",
+  "after": "- Female genital mutilation is a social practice found in communities of several religions and none, and WHO states that no religious scripts prescribe it [10]. It is recorded here only where it is defended as tradition, and it is a documented harm to girls regardless of framing. [GOVERNMENT REPORT: WHO]",
+  "reason": "Item 6.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D058",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Girls subjected to cutting or early marriage in specific traditional contexts.",
+  "after": "- Girls subjected to FGM where it is defended as tradition (a social practice found across religions [10]).",
+  "reason": "Item 6, 3: early marriage unsourced.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D059",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Girls subjected to cutting or early marriage | The harm occurs in specific traditional contexts and is defended in cultural terms. | It compounds where the practitioner is also kin. |",
+  "after": "| Girls subjected to FGM where it is defended as tradition | FGM is a social practice found in communities of several religions and none; it is recorded here only where it is defended as tradition [10]. | It compounds where the practitioner is also kin. |",
+  "reason": "Item 6.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D060",
+  "scope": "narration",
+  "type": "narration",
+  "before": "Then girls subjected to cutting or early marriage in specific contexts.",
+  "after": "Then girls subjected to FGM where it is defended as tradition, a practice found across several religions.",
+  "reason": "Item 6: narration matched.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D061",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Child witchcraft accusations in parts of West and Central Africa, often at the intersection of traditional belief and Pentecostal deliverance ministries (churches that perform rites to expel spirits believed to cause illness or misfortune), have led to abandonment and violence. [GOVERNMENT REPORT / INVESTIGATIVE REPORT]",
+  "after": "- Child witchcraft accusations in parts of West and Central Africa have led to abandonment and violence. UNICEF describes the causes as cultural, social, economic and political [11]; this page does not rank the role of traditional belief against that of deliverance ministries (churches that perform rites to expel spirits believed to cause illness or misfortune). [GOVERNMENT REPORT]",
+  "reason": "Item 28 (P2): UNICEF does not rank the causes (F15).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D062",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Child witchcraft accusations at the intersection of traditional belief and imported deliverance ministries have led to abandonment and violence, with the imported element frequently the driver. [GOVERNMENT REPORT]",
+  "after": "- Child witchcraft accusations in parts of West and Central Africa have led to abandonment and violence; UNICEF describes cultural, social, economic and political causes and does not rank them [11]. [GOVERNMENT REPORT]",
+  "reason": "Item 28.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D063",
+  "scope": "md",
+  "type": "fact",
+  "before": "- Children accused of witchcraft in syncretic deliverance contexts.",
+  "after": "- Children accused of witchcraft in parts of West and Central Africa.",
+  "reason": "Item 28.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D064",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Children accused of witchcraft | They suffer abandonment and violence, at the intersection of traditional belief and imported deliverance ministries. | It compounds where the imported element is the driver. |",
+  "after": "| Children accused of witchcraft | They suffer abandonment and violence; UNICEF links the practice to cultural, social, economic and political causes [11]. | It compounds with the economic and political pressures UNICEF describes [11]. |",
+  "reason": "Item 28.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D065",
+  "scope": "md",
+  "type": "fact",
+  "before": "3. **If a practice harms a child** (FGM, witchcraft accusations), child-protection law applies everywhere [10][11].",
+  "after": "3. **If a practice harms a child** (FGM, witchcraft accusations), child-protection law may apply where you live; local child-protection services or the police are the people to ask [10][11].",
+  "reason": "Item 36 (P3): \"everywhere\" untested.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D066",
+  "scope": "md",
+  "type": "fact",
+  "before": "They hold a century of statutory bans on ceremony, with religious freedom restored only in 1978 in the United States.",
+  "after": "They hold the legacy of bans on ceremony: Canada's statutory bans on the Potlatch (1885–1951) and the Sun Dance (from 1895) [18][19], and the US Interior Department's 1883 rules, which NARF dates to 1978 [5].",
+  "reason": "Item 9: \"century of statutory bans\" fits neither country.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D067",
+  "scope": "md",
+  "type": "fact",
+  "before": "| **Canada** | Canada has the Indian Residential Schools Settlement and a Truth and Reconciliation Commission [1]. | The TRC called the system \"cultural genocide\" and recorded about 3,200 deaths (2015) [1][2]; the Pope apologized in 2022 [14] |",
+  "after": "| **Canada** | Canada has the Indian Residential Schools Settlement and a Truth and Reconciliation Commission [1]. The Indian Act banned the Potlatch (1885–1951) [18] and the Sun Dance (from 1895) [19]. | The TRC called the system \"cultural genocide\" and recorded at least 3,200 deaths (2015) [1][2]; the Pope apologized in 2022 [14] |",
+  "reason": "Items 9, 10.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D068",
+  "scope": "md",
+  "type": "fact",
+  "before": "The 1883 Code of Indian Offenses outlawed ceremonies [5];",
+  "after": "The 1883 Code of Indian Offenses, an Interior Department rule that Congress never passed into law, outlawed ceremonies [5];",
+  "reason": "Item 9.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D069",
+  "scope": "md",
+  "type": "fact",
+  "before": "The Interior Department confirmed at least 973 children died at 417 federal boarding schools (2024) [13]",
+  "after": "The Interior Department confirmed at least 973 children died at federal boarding schools; it listed 417 such schools (2024) [13]",
+  "reason": "Item 27 (P2): the deaths were at some of the 417 (F5).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D070",
+  "scope": "md",
+  "type": "fact",
+  "before": "and at least 973 children who died while attending [13].",
+  "after": "and at least 973 children who died while attending some of them [13].",
+  "reason": "Item 27.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D071",
+  "scope": "md",
+  "type": "fact",
+  "before": "For frauds selling ceremony to outsiders,",
+  "after": "For the sale of ceremony to outsiders,",
+  "reason": "Item 39 (P3): characterization of sellers.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D072",
+  "scope": "md",
+  "type": "fact",
+  "before": "in 2022 the church said dioceses and orders had paid $50 million [14].",
+  "after": "in 2022 the church said dioceses and orders had provided more than $50 million in cash and in-kind contributions [14].",
+  "reason": "Item 11 (P2): \"paid\" dropped \"in-kind\" and \"more than\" (F8).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D073",
+  "scope": "md",
+  "type": "fact",
+  "before": "| The holders are untrained outsiders selling ceremony; one was convicted of negligent homicide after three deaths. | They hold ceremony as a product, formally denounced by Indigenous nations.",
+  "after": "| The holders are outsiders who sell ceremony, which Indigenous nations have formally denounced; one was convicted of negligent homicide after three deaths, and the court ruled on the deaths, not on appropriation. | They hold ceremony as a product.",
+  "reason": "Item 14: ruling versus characterization.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D074",
+  "scope": "md",
+  "type": "fact",
+  "before": "Control comes through appropriated ritual sold by untrained outsiders, and Indigenous nations have formally denounced it.",
+  "after": "Control comes through ritual sold by outsiders, and Indigenous nations have formally denounced it.",
+  "reason": "Item 14.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D075",
+  "scope": "md",
+  "type": "fact",
+  "before": "Church-run residential and boarding schools operating from the 1870s in Canada, the U.S., and Australia — the last closing within living memory.",
+  "after": "Church-run residential and boarding schools: in Canada from the 1830s, in the US (the Interior Department report covers 1819–1969), and in Australia as missions and children's homes — the last Canadian school closing in 1996, within living memory.",
+  "reason": "Item 35 (P3): dates matched to the sources.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D076",
+  "scope": "md",
+  "type": "fact",
+  "before": "**What it was for.** None. This is theft with incense.",
+  "after": "**What it was for.** None stated. Indigenous nations have denounced the sale of their ceremonies [8].",
+  "reason": "Item 13 (P2): \"theft\" is a characterization no court ruled on.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D077",
+  "scope": "md",
+  "type": "fact",
+  "before": "**Why that reason expired.** It was never legitimate, and Indigenous nations have said so in writing. Untrained outsiders sell ceremony at Western prices — in one documented case with three deaths and a criminal conviction. [COURT RECORD]",
+  "after": "**Why that reason expired.** Indigenous nations have denounced it in writing [8]. Outsiders have sold ceremony at Western prices — in one documented case, three participants died and the organizer was convicted of negligent homicide [9]; the court ruled on the deaths, not on appropriation. [COURT RECORD]",
+  "reason": "Items 13, 14.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D078",
+  "scope": "md",
+  "type": "receipt",
+  "before": "Source communities generally see none of it.\n:::\n\n::: cites\nSources for this section: [5]",
+  "after": "Source communities generally see none of it.\n:::\n\n::: cites\nSources for this section: [5] [8] [9]",
+  "reason": "Cites [8] and [9] now used in section 10.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D079",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Said sometimes by outsiders profiting from the tradition, and sometimes by insiders who would not survive scrutiny. | [PATTERN OBSERVED] |",
+  "after": "| This is the objection the page answers in section 3; it names no one who says it and attributes no motive. | [PATTERN OBSERVED] |",
+  "reason": "Item 25: unsourced accusation of motive.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D080",
+  "scope": "md",
+  "type": "fact",
+  "before": "**Last time the chair ran.** Apologies issued, individuals named, records still withheld and settlements still unmet.",
+  "after": "**Last time the chair ran.** Apologies and pledges issued, records still withheld in documented cases and settlements still unmet in documented cases.",
+  "reason": "Item 18: no individual is named on the page.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D081",
+  "scope": "md",
+  "type": "fact",
+  "before": "**Prediction.** The next disclosure will come from ground-penetrating radar rather than an archive, and the institution will express sorrow again.",
+  "after": "**Prediction (analysis, not a finding).** Further disclosures may come from ground-penetrating radar rather than from an archive, and institutions may express sorrow again.",
+  "reason": "Item 26: forecast stated as fact.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D082",
+  "scope": "md",
+  "type": "fact",
+  "before": "Institutions apologized, individuals were named, and records remain unreleased.",
+  "after": "Institutions apologized and made pledges, and records remain unreleased in documented cases.",
+  "reason": "Item 18.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D083",
+  "scope": "md",
+  "type": "fact",
+  "before": "4. The next disclosure comes from ground-penetrating radar rather than an archive, and the institution expresses sorrow again (section 14).",
+  "after": "4. Further disclosures may come from ground-penetrating radar rather than an archive, and institutions may express sorrow again (section 14; analysis, not a finding).",
+  "reason": "Item 26.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D084",
+  "scope": "md",
+  "type": "fact",
+  "before": "questioning practice can read as betraying the people who survived genocide",
+  "after": "questioning practice can read as betraying the people who survived cultural genocide",
+  "reason": "Item 19 (P2): only \"cultural genocide\" is tied to the TRC.",
+  "count": 2,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D085",
+  "scope": "md",
+  "type": "fact",
+  "before": "Retrieval is a ceremony, a funeral, an appeal to what your grandparents survived to give you.",
+  "after": "Recovery comes through a ceremony, a funeral, an appeal to what your grandparents survived to give you.",
+  "reason": "Item 33 (P3): unclear word.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D086",
+  "scope": "md",
+  "type": "fact",
+  "before": "When one person is your culture's only door, that person has more power than any bishop in this book.",
+  "after": "When one person is your culture's only door, that person holds a great deal of power over you.",
+  "reason": "Item 34 (P3): comparison with other volumes unsupported.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D087",
+  "scope": "md",
+  "type": "tag",
+  "before": "- **tactics:** 13, 14, 19",
+  "after": "- **tactics:** 13, 14, 24",
+  "reason": "Item 24 (P2): 19 was graded on retreat extraction, unrelated to the schools.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D088",
+  "scope": "md",
+  "type": "tag",
+  "before": "- **tactics:** 1, 3",
+  "after": "- **tactics:** 26",
+  "reason": "Item 24: the Ray entries 1 and 3 describe reconnecting people; the case records paying participants.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D089",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **outcome:** An apology seven years after the TRC's final report; the church's financial record is set out above [1][3][14].",
+  "after": "- **outcome:** An apology seven years after the TRC's final report; the church's financial record is set out above [1][3][14]. The apology attributes the evil to \"so many Christians\"; tagging it as Plausible Deniability (30) is this codex's reading, not a finding of any inquiry.",
+  "reason": "Item 24: labels the tag as the codex reading.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D090",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **record:** *State of Arizona v. James Arthur Ray* [9]",
+  "after": "- **record:** CNN's report of the verdict in *State of Arizona v. James Arthur Ray* [9]; KJZZ [22]",
+  "reason": "Item 29 (P2): the source is a news report, not the docket.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D091",
+  "scope": "md",
+  "type": "fact",
+  "before": "- **outcome:** Convicted of negligent homicide in 2011 [9]; Lakota leaders",
+  "after": "- **outcome:** Convicted of negligent homicide in 2011 [9][22]; the court ruled on the deaths, not on appropriation. Lakota leaders",
+  "reason": "Item 14.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D092",
+  "scope": "md",
+  "type": "fact",
+  "before": "| **StrongHearts Native Helpline** | Domestic and sexual violence | US |",
+  "after": "| **StrongHearts Native Helpline** | Domestic and sexual violence, 24/7 by call or text | US |",
+  "reason": "Help lines: hours missing (F24).",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D093",
+  "scope": "md",
+  "type": "meta",
+  "before": "Checked 2026-09-27.",
+  "after": "Checked 2026-10-03.",
+  "reason": "Help-line check date.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D094",
+  "scope": "md",
+  "type": "meta",
+  "before": "checked: 2026-09-27",
+  "after": "checked: 2026-10-03",
+  "reason": "Text rechecked after the discrepancy fixes.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D095",
+  "scope": "md",
+  "type": "meta",
+  "before": "| Last checked | This page was last checked on 2026-09-27. |",
+  "after": "| Last checked | This page was last checked on 2026-10-03. |",
+  "reason": "Same.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D096",
+  "scope": "md",
+  "type": "source",
+  "before": "1. Truth and Reconciliation Commission of Canada, *Final Report* (2015) — \"cultural genocide\"; ~3,200 recorded deaths;",
+  "after": "1. Truth and Reconciliation Commission of Canada, *Final Report* (2015) — \"cultural genocide\"; at least 3,200 recorded deaths (which include illness, not only abuse);",
+  "reason": "Item 10: matches the wording used in the text.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D097",
+  "scope": "md",
+  "type": "source",
+  "before": "http://www.cnn.com/2011/CRIME/06/22/arizona.sweat.lodge.verdict/",
+  "after": "https://www.cnn.com/2011/CRIME/06/22/arizona.sweat.lodge.verdict/",
+  "reason": "Item 29: http URL.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D098",
+  "scope": "md",
+  "type": "source",
+  "before": "17. StrongHearts Native Helpline — 1-844-762-8483 (1-844-7NATIVE). https://strongheartshelpline.org/",
+  "after": "17. StrongHearts Native Helpline — 1-844-762-8483 (1-844-7NATIVE). https://strongheartshelpline.org/\n18. The Canadian Encyclopedia, \"Potlatch Ban\" — Indian Act amendment of 1884, in force 1 January 1885, repealed in 1951. https://thecanadianencyclopedia.ca/en/article/potlatch-ban\n19. Gladue Centre, University of Saskatchewan, \"Vankoughnet Requests the Statutory Abolishment of the Sun Dance\" — 1895 Indian Act amendment prohibiting the Sun Dance and Thirst Dance. https://gladue.usask.ca/node/2580\n20. Indigenous Services Canada, \"Contributions to Indian Bands for Registration Administration\" — Indian status determined under the Indian Act; bands funded to administer registration. https://www.sac-isc.gc.ca/eng/1386259183292\n21. First Nations Information Governance Centre, \"OCAP\" — the First Nations principles of ownership, control, access and possession of First Nations data (established 1998). https://fnigc.ca/ocap-training/\n22. KJZZ, \"James Arthur Ray, convicted of negligent homicide at Sedona sweat lodge, dies\" (6 Jan 2025) — conviction in 2011 on three counts after three deaths. https://www.kjzz.org/kjzz-news/2025-01-06/james-arthur-ray-convicted-of-negligent-homicide-at-sedona-sweat-lodge-dies",
+  "reason": "New sources for items 9, 14, 16, 29.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "INDF-D099",
+  "scope": "md",
+  "type": "changelog",
+  "before": "- **2026-09-27:** Added Branches,",
+  "after": "- **2026-10-03:** Regraded the techniques whose grades rested on harm done from outside (none is now graded Documented, and none is sourced to a named document); stated that the thirty techniques are a framework for Indigenous, folk and ancestral traditions as a group, not findings about any named people; labelled the claim of abuse by ceremonial leaders as an allegation with no case cited; corrected the dates and wording on the bans on ceremony in Canada and the United States, the graves, the count of recorded deaths and the church's payments; corrected the statements on female genital mutilation, child witchcraft accusations and the missing and murdered women and girls inquiry; removed claims no source supported, and named and sourced two examples (Canada's Indian Act and the OCAP research principles).\n- **2026-09-27:** Added Branches,",
+  "reason": "Patch note for this round.",
+  "count": 1,
+  "status": "proposed"
  }
 ]

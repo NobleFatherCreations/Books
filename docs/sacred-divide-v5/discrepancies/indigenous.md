@@ -1,3 +1,5 @@
+Status 2026-10-03: fixes applied, see indigenous-FIXLOG.md (deferred items remain open).
+
 # DISCREPANCIES — Indigenous / Folk / Ancestral Religions, awaiting the owner's decision
 
 Format: **[Location]** what is wrong → what it should be (proposed wording) → why it matters. Nothing below has been changed in the text unless it says "Fixed in IND-…"; every item touches the frozen layer (numbers, receipts, grades, source entries, case tags) or asserts a claim the wording pass may not weaken.
