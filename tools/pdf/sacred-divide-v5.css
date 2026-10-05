@@ -255,3 +255,6 @@ figure.fig svg { display: block; max-width: 100%; height: auto; }
 .stagerow { padding: 2pt 0; }
 .datapage h3 { font-size: var(--fs-h2); }
 figure.fig.flow { break-inside: auto; } figure.fig.flow svg.row { break-inside: avoid; margin-bottom: 6pt; }
+
+/* notes under the disclosure scorecard (cells that carry a source or a qualification) */
+ul.score-notes { list-style: none; margin: 0 0 12pt; padding: 0; font-size: var(--fs-micro); line-height: var(--lh-micro); } ul.score-notes li { margin: 0 0 4pt; padding: 0; }

@@ -225,7 +225,8 @@ def sources_ids(sec_html):
 
 def score_cells(h):
     def row(m):
-        return re.sub(r'<td>([YPN?])</td>', lambda c: f'<td class="s{c.group(1) if c.group(1) != "?" else "Q"}">{c.group(1)}</td>', m.group(0))
+        # a cell is a bare grade letter, or a letter followed by its note ("P (UK register) [13]"); keep the note in a span
+        return re.sub(r'<td>([YPN?])((?:\s.*?)?)</td>', lambda c: f'<td class="s{c.group(1) if c.group(1) != "?" else "Q"}">{c.group(1)}' + (f'<span class="sn">{c.group(2).strip()}</span>' if c.group(2).strip() else '') + '</td>', m.group(0), flags=re.S)
     return re.sub(r'<table>(\s*<thead>\s*<tr>\s*<th>Accounts</th>.*?)</table>', lambda m: '<table class="score">' + row(m)[7:], h, flags=re.S)
 
 

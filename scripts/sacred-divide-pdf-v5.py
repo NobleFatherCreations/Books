@@ -220,12 +220,19 @@ def words(html): return len(re.sub(r'<[^>]+>', ' ', html).split())
 
 def matrix_html(h):
     def one(m):
-        heads = re.findall(r'<th>(.*?)</th>', m.group(0)); cells = re.findall(r'<td class="s(\w)">(.*?)</td>', m.group(0))
+        heads = re.findall(r'<th>(.*?)</th>', m.group(0)); cells = re.findall(r'<td class="s(\w)">(.*?)</td>', m.group(0), flags=re.S)
         word = {'Y': 'Yes', 'P': 'Partial', 'N': 'No', '?': 'Not assessable'}
-        cls = {'Y': 'sY', 'P': 'sP', 'N': 'sN', '?': 'sQ'}
+        cls = {'Y': 'sY', 'P': 'sP', 'N': 'sN', 'Q': 'sQ', '?': 'sQ'}
         th = ''.join(f'<th scope="col">{hh}</th>' for hh in heads)
-        td = ''.join(f'<td class="{cls.get(t, "sQ")}">{word.get(t, t)}</td>' for _, t in cells)
-        return f'<table class="matrix short"><thead><tr>{th}</tr></thead><tbody><tr>{td}</tr></tbody></table>'
+        td, notes = '', []
+        for i, (c, inner) in enumerate(cells):
+            sn = re.search(r'<span class="sn">(.*?)</span>', inner, re.S)
+            td += f'<td class="{cls.get(c, "sQ")}">{word.get("?" if c == "Q" else c, c)}</td>'
+            if sn and i < len(heads):
+                note = re.sub(r'^\((.*?)\)((?:\s*(?:\[\d+\]|<sup.*?</sup>|<a .*?</a>))*)$', r'\1\2', sn.group(1).strip(), flags=re.S)
+                notes.append(f'<li><strong>{heads[i]}:</strong> {note}</li>')
+        tbl = f'<table class="matrix short"><thead><tr>{th}</tr></thead><tbody><tr>{td}</tr></tbody></table>'
+        return tbl + (f'<ul class="score-notes">{"".join(notes)}</ul>' if notes else '')
     h = re.sub(r'<table class="score">.*?</table>', one, h, flags=re.S)
     return re.sub(r'(</table>)\s*<p>(<strong>Y</strong>)', r'\1<p class="legend">\2', h)
 
