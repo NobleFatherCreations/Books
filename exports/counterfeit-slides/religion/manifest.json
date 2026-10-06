@@ -1,0 +1,458 @@
+[
+ {
+  "n": 1,
+  "file": "001-cover.png",
+  "title": "Series cover",
+  "scale": 0.84
+ },
+ {
+  "n": 2,
+  "file": "002-pairs.png",
+  "title": "Original vs copy",
+  "scale": 0.84
+ },
+ {
+  "n": 3,
+  "file": "003-stages.png",
+  "title": "The eight steps",
+  "scale": 0.84
+ },
+ {
+  "n": 4,
+  "file": "004-techniques-1.png",
+  "title": "Thirty techniques 1/2",
+  "scale": 0.7399999999999999
+ },
+ {
+  "n": 5,
+  "file": "005-techniques-2.png",
+  "title": "Thirty techniques 2/2",
+  "scale": 0.7399999999999999
+ },
+ {
+  "n": 6,
+  "file": "006-scale.png",
+  "title": "It does not stop at people",
+  "scale": 0.84
+ },
+ {
+  "n": 7,
+  "file": "007-religion-cover.png",
+  "title": "Religion cover",
+  "scale": 0.84
+ },
+ {
+  "n": 8,
+  "file": "008-grades.png",
+  "title": "How to read the grades",
+  "scale": 0.84
+ },
+ {
+  "n": 9,
+  "file": "009-religion-christianity-1.png",
+  "title": "Christianity (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 10,
+  "file": "010-religion-christianity-2.png",
+  "title": "Christianity (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 11,
+  "file": "011-religion-anglicanism-1.png",
+  "title": "Anglicanism (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 12,
+  "file": "012-religion-anglicanism-2.png",
+  "title": "Anglicanism (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 13,
+  "file": "013-religion-catholicism-1.png",
+  "title": "Catholicism (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 14,
+  "file": "014-religion-catholicism-2.png",
+  "title": "Catholicism (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 15,
+  "file": "015-religion-eastern-orthodoxy-1.png",
+  "title": "Eastern Orthodoxy (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 16,
+  "file": "016-religion-eastern-orthodoxy-2.png",
+  "title": "Eastern Orthodoxy (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 17,
+  "file": "017-religion-oriental-orthodoxy-1.png",
+  "title": "Oriental Orthodoxy (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 18,
+  "file": "018-religion-oriental-orthodoxy-2.png",
+  "title": "Oriental Orthodoxy (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 19,
+  "file": "019-religion-pentecostal-charismatic-1.png",
+  "title": "Pentecostal & Charismatic (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 20,
+  "file": "020-religion-pentecostal-charismatic-2.png",
+  "title": "Pentecostal & Charismatic (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 21,
+  "file": "021-religion-plymouth-brethren-1.png",
+  "title": "Plymouth Brethren Christian Church (Exclusive Brethren) (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 22,
+  "file": "022-religion-plymouth-brethren-2.png",
+  "title": "Plymouth Brethren Christian Church (Exclusive Brethren) (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 23,
+  "file": "023-religion-protestant-evangelical-1.png",
+  "title": "Protestant / Evangelical Christianity (1/2)",
+  "scale": 1.24
+ },
+ {
+  "n": 24,
+  "file": "024-religion-protestant-evangelical-2.png",
+  "title": "Protestant / Evangelical Christianity (2/2)",
+  "scale": 1.24
+ },
+ {
+  "n": 25,
+  "file": "025-religion-jehovahs-witnesses-1.png",
+  "title": "Jehovah's Witnesses (1/2)",
+  "scale": 1.28
+ },
+ {
+  "n": 26,
+  "file": "026-religion-jehovahs-witnesses-2.png",
+  "title": "Jehovah's Witnesses (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 27,
+  "file": "027-religion-mormonism-1.png",
+  "title": "Mormonism / LDS (1/2)",
+  "scale": 1.26
+ },
+ {
+  "n": 28,
+  "file": "028-religion-mormonism-2.png",
+  "title": "Mormonism / LDS (2/2)",
+  "scale": 1.26
+ },
+ {
+  "n": 29,
+  "file": "029-religion-seventh-day-adventism-1.png",
+  "title": "Seventh-day Adventism (1/2)",
+  "scale": 1.28
+ },
+ {
+  "n": 30,
+  "file": "030-religion-seventh-day-adventism-2.png",
+  "title": "Seventh-day Adventism (2/2)",
+  "scale": 1.28
+ },
+ {
+  "n": 31,
+  "file": "031-religion-judaism-1.png",
+  "title": "Judaism (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 32,
+  "file": "032-religion-judaism-2.png",
+  "title": "Judaism (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 33,
+  "file": "033-religion-orthodox-hasidic-judaism-1.png",
+  "title": "Orthodox / Hasidic Judaism (1/2)",
+  "scale": 1.24
+ },
+ {
+  "n": 34,
+  "file": "034-religion-orthodox-hasidic-judaism-2.png",
+  "title": "Orthodox / Hasidic Judaism (2/2)",
+  "scale": 1.24
+ },
+ {
+  "n": 35,
+  "file": "035-religion-islam-1.png",
+  "title": "Islam (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 36,
+  "file": "036-religion-islam-2.png",
+  "title": "Islam (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 37,
+  "file": "037-religion-ahmadiyya-1.png",
+  "title": "Ahmadiyya (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 38,
+  "file": "038-religion-ahmadiyya-2.png",
+  "title": "Ahmadiyya (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 39,
+  "file": "039-religion-dawoodi-bohra-1.png",
+  "title": "Dawoodi Bohra (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 40,
+  "file": "040-religion-dawoodi-bohra-2.png",
+  "title": "Dawoodi Bohra (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 41,
+  "file": "041-religion-shia-islam-1.png",
+  "title": "Shia Islam (1/2)",
+  "scale": 1.26
+ },
+ {
+  "n": 42,
+  "file": "042-religion-shia-islam-2.png",
+  "title": "Shia Islam (2/2)",
+  "scale": 1.26
+ },
+ {
+  "n": 43,
+  "file": "043-religion-sunni-islam-1.png",
+  "title": "Sunni Islam (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 44,
+  "file": "044-religion-sunni-islam-2.png",
+  "title": "Sunni Islam (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 45,
+  "file": "045-religion-hinduism-1.png",
+  "title": "Hinduism (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 46,
+  "file": "046-religion-hinduism-2.png",
+  "title": "Hinduism (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 47,
+  "file": "047-religion-hare-krishna-1.png",
+  "title": "Hare Krishna / ISKCON (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 48,
+  "file": "048-religion-hare-krishna-2.png",
+  "title": "Hare Krishna / ISKCON (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 49,
+  "file": "049-religion-jainism-1.png",
+  "title": "Jainism (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 50,
+  "file": "050-religion-jainism-2.png",
+  "title": "Jainism (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 51,
+  "file": "051-religion-sikhism-1.png",
+  "title": "Sikhism (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 52,
+  "file": "052-religion-sikhism-2.png",
+  "title": "Sikhism (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 53,
+  "file": "053-religion-buddhism-1.png",
+  "title": "Buddhism (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 54,
+  "file": "054-religion-buddhism-2.png",
+  "title": "Buddhism (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 55,
+  "file": "055-religion-soka-gakkai-1.png",
+  "title": "Soka Gakkai (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 56,
+  "file": "056-religion-soka-gakkai-2.png",
+  "title": "Soka Gakkai (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 57,
+  "file": "057-religion-tibetan-buddhism-1.png",
+  "title": "Tibetan Buddhism (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 58,
+  "file": "058-religion-tibetan-buddhism-2.png",
+  "title": "Tibetan Buddhism (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 59,
+  "file": "059-religion-confucianism-1.png",
+  "title": "Confucianism (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 60,
+  "file": "060-religion-confucianism-2.png",
+  "title": "Confucianism (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 61,
+  "file": "061-religion-shinto-1.png",
+  "title": "Shinto (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 62,
+  "file": "062-religion-shinto-2.png",
+  "title": "Shinto (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 63,
+  "file": "063-religion-taoism-1.png",
+  "title": "Taoism / Daoism (1/2)",
+  "scale": 1.28
+ },
+ {
+  "n": 64,
+  "file": "064-religion-taoism-2.png",
+  "title": "Taoism / Daoism (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 65,
+  "file": "065-religion-bahai-1.png",
+  "title": "Bah\u00e1\u02bc\u00ed Faith (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 66,
+  "file": "066-religion-bahai-2.png",
+  "title": "Bah\u00e1\u02bc\u00ed Faith (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 67,
+  "file": "067-religion-zoroastrianism-1.png",
+  "title": "Zoroastrianism (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 68,
+  "file": "068-religion-zoroastrianism-2.png",
+  "title": "Zoroastrianism (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 69,
+  "file": "069-religion-new-age-1.png",
+  "title": "New Age / Spiritual-but-Organized Movements (1/2)",
+  "scale": 1.22
+ },
+ {
+  "n": 70,
+  "file": "070-religion-new-age-2.png",
+  "title": "New Age / Spiritual-but-Organized Movements (2/2)",
+  "scale": 1.22
+ },
+ {
+  "n": 71,
+  "file": "071-religion-scientology-1.png",
+  "title": "Scientology (1/2)",
+  "scale": 1.28
+ },
+ {
+  "n": 72,
+  "file": "072-religion-scientology-2.png",
+  "title": "Scientology (2/2)",
+  "scale": 1.28
+ },
+ {
+  "n": 73,
+  "file": "073-religion-unification-church-1.png",
+  "title": "Unification Church / Family Federation (1/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 74,
+  "file": "074-religion-unification-church-2.png",
+  "title": "Unification Church / Family Federation (2/2)",
+  "scale": 1.3
+ },
+ {
+  "n": 75,
+  "file": "075-religion-indigenous-1.png",
+  "title": "Indigenous / Folk / Ancestral Religions (1/2)",
+  "scale": 1.24
+ },
+ {
+  "n": 76,
+  "file": "076-religion-indigenous-2.png",
+  "title": "Indigenous / Folk / Ancestral Religions (2/2)",
+  "scale": 1.24
+ }
+]

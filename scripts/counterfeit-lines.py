@@ -4,6 +4,10 @@
   counterfeit-lines.py inputs     write content/counterfeit/in-*.json (items whose source sentence is too long for one slide row)
   counterfeit-lines.py check F    check content/counterfeit/out-F.json against its input (length, one sentence, no new facts)
   counterfeit-lines.py merge      write content/counterfeit/lines.json (short sources kept verbatim + checked agent output)
+  counterfeit-lines.py inputs2    write the round-2 inputs: in-l1..l4 (institutional + civilizational examples, 25 sectors),
+                                  in-n1 (the 4 sectors the book gives no per-technique examples for: lines AUTHORED from the sector
+                                  narrative, flagged as such), in-c1 (The Mirror and The Body chapters, one line per technique)
+  counterfeit-lines.py sense TAG  spaCy full-sentence heuristics on one out-TAG.json
 
 Religion source: the first bullet of each technique's "How it shows here" (card volumes) or the "How it appears here" cell (table volumes).
 Fractal source: the individual-level example of each technique in each sector (library/fractal/index.html data blob).
@@ -72,13 +76,14 @@ def words(s):
     return [w[:5] for w in re.findall(r"[a-z0-9']+", s.lower()) if w not in STOP and len(w) > 2]
 
 
-def problems(line, src):
+def problems(line, src, authored=False):
     p = []
     if len(line) > MAXLEN: p.append(f'{len(line)} chars (max {MAXLEN})')
     if not line or line[-1] not in '.”"': p.append('does not end with a full stop')
     if len(re.findall(r'[.!?](?:["”]?\s+[A-Z“"])', line)) > 0: p.append('more than one sentence')
     if '…' in line or '...' in line: p.append('ellipsis')
     if re.search(r'\[\d', line): p.append('citation marker')
+    if authored: return p
     sw = set(words(src)); lw = words(line)
     new = [w for w in lw if w not in sw]
     if lw and len(new) / len(lw) > 0.45: p.append('too many words not in the source: ' + ', '.join(sorted(set(new))[:6]))
@@ -102,6 +107,44 @@ def cmd_inputs():
     print('religion lines to condense:', sum(len(v) for v in pending_r.values()), 'of', 34 * 30, '| fractal:', sum(len(v) for v in pending_f.values()), 'of', sum(len(d['src']) for d in F.values()))
 
 
+LEVELS = {'ind': 'Individual', 'inst': 'Institutional', 'civ': 'Civilizational'}
+
+
+def closing_sources():
+    """The Mirror (each technique turned on yourself) and The Body (each technique's somatic signature): the text under each technique heading."""
+    C = {c['slug']: c for c in fractal_blob()['closings']}; out = {}
+    for s in ('mirror', 'body'):
+        cur = None; d = {}
+        for x in C[s]['blocks']:
+            if x['t'] == 'tech': cur = x['n']; d[cur] = []
+            elif x['t'] in ('h', 'stage'): cur = None
+            elif cur and x['t'] == 'p': d[cur].append(re.sub(r'<[^>]+>', '', x['x']))
+        assert len(d) == 30, (s, len(d))
+        out[s] = {n: clean(' '.join(v)) for n, v in d.items()}
+    return out
+
+
+def cmd_inputs2():
+    names = canon(); o = fractal_blob(); full = [s for s in o['sectors'] if s['techs'] and s['num'] != 1]
+    items = {f"{s['num']}-{lv}": {'sector': s['short'], 'level': LEVELS[lv], 'lines': {str(t['num']): {'technique': names[t['num'] - 1], 'source': clean(t[lv])} for t in s['techs']}}
+             for s in full for lv in ('inst', 'civ')}
+    keys = list(items); per = -(-len(keys) // 4)
+    for i in range(4):
+        json.dump({'kind': 'fractal', 'items': {k: items[k] for k in keys[i * per:(i + 1) * per]}}, open(os.path.join(OUT, f'in-l{i + 1}.json'), 'w'), indent=1, ensure_ascii=False)
+    gap = [s for s in o['sectors'] if not s['techs']]
+    json.dump({'kind': 'fractal', 'authored': True,
+               'note': 'The Fractal gives these sectors a narrative but no per-technique examples. Lines here are written new from the narrative, the sector\'s controls/impulse and each technique\'s definition, so they are flagged as authored, not quoted.',
+               'items': {f"{s['num']}-{lv}": {'sector': s['short'], 'level': LEVELS[lv], 'controls': s['controls'], 'impulse': s['impulse'], 'narrative': clean(s['narrative']),
+                                              'lines': {str(n): {'technique': names[n - 1], 'source': o['essence'][str(n)]} for n in range(1, 31)}}
+                         for s in gap for lv in LEVELS}}, open(os.path.join(OUT, 'in-n1.json'), 'w'), indent=1, ensure_ascii=False)
+    C = closing_sources()
+    json.dump({'kind': 'fractal', 'items': {
+        'mirror': {'sector': 'The Mirror (the technique turned on yourself; write in the second person, "You ...")', 'lines': {str(n): {'technique': names[n - 1], 'source': s} for n, s in C['mirror'].items()}},
+        'body': {'sector': 'The Body (the technique as the body feels it: its somatic signature; prefer the "Somatic Signature" passage)', 'lines': {str(n): {'technique': names[n - 1], 'source': s} for n, s in C['body'].items()}}}},
+        open(os.path.join(OUT, 'in-c1.json'), 'w'), indent=1, ensure_ascii=False)
+    print('l1-l4:', len(keys) * 30, 'lines; n1:', len(gap) * 90, 'authored lines; c1: 60 lines')
+
+
 def items_of(inp):
     d = json.load(open(inp, encoding='utf-8'))
     if d['kind'] == 'religion':
@@ -114,11 +157,11 @@ def items_of(inp):
 
 def cmd_check(tag):
     inp = os.path.join(OUT, f'in-{tag}.json'); outp = os.path.join(OUT, f'out-{tag}.json')
-    out = json.load(open(outp, encoding='utf-8')); bad = 0; n = 0
+    out = json.load(open(outp, encoding='utf-8')); bad = 0; n = 0; au = json.load(open(inp, encoding='utf-8')).get('authored', False)
     for a, b, src in items_of(inp):
         n += 1; line = out.get(a, {}).get(b)
         if line is None: print('MISSING', a, b); bad += 1; continue
-        pr = problems(line, src)
+        pr = problems(line, src, au)
         if pr: bad += 1; print(f'{a} #{b}: {line!r} -> ' + '; '.join(pr))
     print(f'{n} lines checked, {bad} with problems')
     return bad
@@ -129,6 +172,12 @@ def cmd_merge():
     res['religions'] = {rid: {str(n): s for n, s in d.items()} for rid, d in res['religions'].items()}
     res['fractal'] = {k: {str(n): s for n, s in d.items()} for k, d in res['fractal'].items()}
     miss = 0
+    for tag in ['l1', 'l2', 'l3', 'l4', 'n1', 'c1']:   # round 2: other scales, the gap sectors, The Mirror and The Body
+        p = os.path.join(OUT, f'out-{tag}.json')
+        if not os.path.exists(p): continue
+        for a, d in json.load(open(p, encoding='utf-8')).items():
+            if a in ('mirror', 'body'): res.setdefault(a, {}).update(d); continue
+            num, lv = a.split('-'); res.setdefault('fractal' if lv == 'ind' else 'fractal_' + lv, {}).setdefault(num, {}).update(d)
     for tag in ['r1', 'r2', 'r3', 'r4', 'f1', 'f2']:
         p = os.path.join(OUT, f'out-{tag}.json')
         if not os.path.exists(p): continue
@@ -161,6 +210,16 @@ def sense_flags(nlp, line):
     return f
 
 
+def cmd_sense_tag(tag):
+    import spacy
+    nlp = spacy.load('en_core_web_sm'); n = bad = 0
+    for a, d in json.load(open(os.path.join(OUT, f'out-{tag}.json'), encoding='utf-8')).items():
+        for b, line in sorted(d.items(), key=lambda kv: int(kv[0])):
+            n += 1; fl = sense_flags(nlp, line)
+            if fl: bad += 1; print(f'{a} #{b}: {line!r} -> ' + '; '.join(fl))
+    print(f'{n} lines examined, {bad} flagged')
+
+
 def cmd_sense():
     import spacy
     nlp = spacy.load('en_core_web_sm'); R = religion_sources(); F = fractal_sources()
@@ -181,4 +240,5 @@ def cmd_sense():
 
 
 if __name__ == '__main__':
-    {'inputs': cmd_inputs, 'merge': cmd_merge, 'sense': cmd_sense}.get(sys.argv[1], lambda: cmd_check(sys.argv[2]))()
+    if sys.argv[1] == 'sense' and len(sys.argv) > 2: cmd_sense_tag(sys.argv[2])
+    else: {'inputs': cmd_inputs, 'inputs2': cmd_inputs2, 'merge': cmd_merge, 'sense': cmd_sense}.get(sys.argv[1], lambda: cmd_check(sys.argv[2]))()

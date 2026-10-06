@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
 """The Counterfeit — one-page TikTok slides (1080x1920 PNG), one idea per slide, one font (Inter).
 
-Order: series cover -> original vs copy -> the eight steps -> the thirty techniques (3 slides) -> scale
-       -> religion cover -> how to read the grades -> 34 religion slides (each shows all 30 techniques, graded)
-       -> "everywhere else" cover -> 29 sector slides from The Fractal (the religion/spirituality sector is already in the
-       religion set, so it is skipped) -> Mother Earth (last).
+Two decks, one video each:
+  religion/  series cover -> original vs copy -> the eight steps -> the thirty techniques (2) -> scale -> religion cover
+             -> how to read the grades -> 34 religions x 2 slides (15 graded techniques per slide)
+  fractal/   "everywhere else" cover -> the eight steps -> the thirty techniques (2) -> the three levels
+             -> 29 sectors (the religion/spirituality sector is the religion deck), each as level 1 Individual (2 slides),
+                level 2 Institutional (2), level 3 Civilizational (2) before the next sector
+             -> The Mirror (the techniques turned on yourself, 2) -> The Body (the somatic signature, 2) -> Mother Earth (last).
 
 Data comes from the repo, not from memory: content/sacred-divide/religions/*.md (grades) and content/prose/fractal.md (sectors).
-Usage: counterfeit-slides.py [--only N,M]      Output: exports/counterfeit-slides/NN-slug.png + manifest.json"""
+Usage: counterfeit-slides.py [religion|fractal] [--only N,M]   Output: exports/counterfeit-slides/<deck>/NNN-slug.png + manifest.json"""
 import html, json, os, re, sys
 from playwright.sync_api import sync_playwright
 
@@ -122,32 +125,6 @@ def religions(canon):
     return rows
 
 
-def sentences(text):
-    return [s.strip() for s in re.split(r'(?<=[.!?”"])\s+(?=[A-Z“"])', text) if s.strip()]
-
-
-def sectors():
-    t = open(os.path.join(ROOT, 'content/prose/fractal.md'), encoding='utf-8').read()
-    sec = t[t.index('## The thirty sectors'):]
-    parts = re.split(r'\n### Sector (\d+): (.+)\n', sec)
-    out = []
-    for k in range(1, len(parts), 3):
-        n, name, body = int(parts[k]), parts[k + 1].strip(), parts[k + 2]
-        ctrl = re.search(r'\*Controls: (.+?)\*', body).group(1).strip()
-        tech = re.search(r'\*\*Technique: (.+?)\*\* — (.+)', body)
-        story = re.sub(r'\s+', ' ', body[body.index(tech.group(0)) + len(tech.group(0)):].split('\n---')[0]).strip()
-        ss = sentences(story)
-        head, i = [], 0
-        while i < len(ss) and len(' '.join(head)) < 330: head.append(ss[i]); i += 1
-        while len(' '.join(head)) > 520 and len(head) > 1: head.pop()
-        tail = [s for s in ss[i:] if len(s.split()) >= 5 and s[-1] in '.!?”"' and s[0] in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ“"']
-        close = tail[-1] if tail else ''
-        out.append({'n': n, 'name': name.title().replace('&', '&').replace(' Of ', ' of ').replace(' And ', ' and '),
-                    'raw': name, 'controls': ctrl, 'tech': tech.group(1).strip(), 'defn': tech.group(2).strip(),
-                    'open': ' '.join(head), 'close': close})
-    return out
-
-
 # ---------------------------------------------------------------------------------------------- slide html
 CSS = f"""
 @font-face {{ font-family: Inter; src: url('file://{FONTS}/Inter-Regular.woff2'); font-weight: 400; }}
@@ -197,6 +174,8 @@ h2 {{ font-size: calc(76px*var(--s)); line-height: 1.05; font-weight: 800; lette
 .r30 .ix {{ flex: none; width: calc(26px*var(--s)); color: var(--gold); font-weight: 700; font-size: calc(18px*var(--s)); padding-top: calc(3px*var(--s)); }}
 .r30 b {{ font-weight: 700; color: var(--text); }} .r30 span.t {{ color: #D9D1BE; }}
 .hd {{ margin-bottom: calc(10px*var(--s)); }}
+.lvl {{ margin: calc(14px*var(--s)) 0 calc(10px*var(--s)); font-size: calc(23px*var(--s)); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--mute); }}
+.lvl span {{ color: var(--text); background: var(--rule); padding: calc(4px*var(--s)) calc(12px*var(--s)); border-radius: 4px; }}
 """
 
 
@@ -251,29 +230,40 @@ def s_grades():
                 f'<div style="margin-top:18px">{rows}</div><div class="sub" style="font-size:calc(30px*var(--s))">A grade says what kind of source backs it, not how bad it is.</div>')
 
 
-def s_religion(r, canon, lines):
+def s_religion(r, canon, lines, part):
+    """One half (15 graded techniques) of a religion; two slides per religion keep the text large enough to read."""
     from collections import Counter
-    rows = ''.join(f'<div class="r30"><span class="dot" style="background:{GCOL[g]}"></span><div><b>{e(canon[i])}.</b> <span class="t">{e(lines[str(i + 1)])}</span></div></div>' for i, g in enumerate(r['grades']))
+    idx = range(part * 15, part * 15 + 15)
+    rows = ''.join(f'<div class="r30"><span class="dot" style="background:{GCOL[r["grades"][i]]}"></span><span class="ix">{i + 1}</span><div><b>{e(canon[i])}.</b> <span class="t">{e(lines[str(i + 1)])}</span></div></div>' for i in idx)
     c = Counter(r['grades'])
     leg = ''.join(f'<span><i style="background:{GCOL[g]}"></i>{g} {c[g]}</span>' for g, _, _ in GRADES if c.get(g))
-    return page(f'<div class="kick" style="font-size:calc(24px*var(--s))">{e(r["family"])}</div><h2 style="font-size:calc(56px*var(--s));margin-top:6px">{e(r["title"])}</h2>'
-                f'<div class="a hd" style="font-size:calc(24px*var(--s));margin-top:6px">How each of the 30 techniques shows up here</div>{rows}<div class="legend" style="margin-top:calc(12px*var(--s));font-size:calc(21px*var(--s))">{leg}</div>', cls='box30')
+    return page(f'<div class="kick" style="font-size:calc(24px*var(--s))">{e(r["family"])} · part {part + 1} of 2</div><h2 style="font-size:calc(56px*var(--s));margin-top:6px">{e(r["title"])}</h2>'
+                f'<div class="a hd" style="font-size:calc(25px*var(--s));margin-top:6px">How techniques {part * 15 + 1}–{part * 15 + 15} of 30 show up here</div>{rows}'
+                f'<div class="legend" style="margin-top:calc(14px*var(--s));font-size:calc(21px*var(--s))">{leg}</div>', cls='box30', base_scale=1.3)
 
 
-def s_sector30(num, name, controls, canon, lines, k, total, part):
-    """One half (15 techniques) of a sector's thirty one-sentence examples; two slides per sector keep the text large enough to read."""
+def s_sector30(name, controls, canon, lines, k, total, level, part):
+    """One half (15 techniques) of one sector at one level of scale: two slides per level, three levels per sector."""
+    lv, (tag, gloss) = level
     idx = range(part * 15, part * 15 + 15)
     rows = ''.join(f'<div class="r30"><span class="ix">{i + 1}</span><div><b>{e(canon[i])}.</b> <span class="t">{e(lines[str(i + 1)])}</span></div></div>' for i in idx)
-    return page(f'<div class="kick" style="font-size:calc(24px*var(--s))">Everywhere else · {k} of {total} · part {part + 1} of 2</div><h2 style="font-size:calc(56px*var(--s));margin-top:6px">{e(name)}</h2>'
-                f'<div class="a hd" style="font-size:calc(25px*var(--s));margin-top:6px;color:var(--gold);font-weight:600">Controls: {e(controls)}</div>{rows}', cls='box30', base_scale=1.3)
+    return page(f'<div class="kick" style="font-size:calc(24px*var(--s))">Everywhere else · {k} of {total}</div><h2 style="font-size:calc(56px*var(--s));margin-top:6px">{e(name)}</h2>'
+                f'<div class="a" style="font-size:calc(25px*var(--s));margin-top:6px;color:var(--gold);font-weight:600">Controls: {e(controls)}</div>'
+                f'<div class="lvl"><span>Level {lv} of 3 · {e(tag)}</span> · part {part + 1} of 2</div>{rows}', cls='box30', base_scale=1.3)
 
 
-def s_sector(s):
-    q = f'“{e(s["open"])}”' + (f'<br><br>…“{e(s["close"])}”' if s['close'] else '')
-    return page(f'<div class="kick">Everywhere else · {s["n"] - 1} of 29</div><h2 style="font-size:calc(86px*var(--s))">{e(s["name"])}</h2>'
-                f'<div class="ctrl" style="font-size:calc(50px*var(--s))">Controls: {e(s["controls"])}</div><div class="rule" style="margin:30px 0 24px"></div>'
-                f'<div class="lab" style="font-size:calc(28px*var(--s))">The technique</div><div class="tech" style="font-size:calc(76px*var(--s))">{e(s["tech"])}</div><div class="defn" style="font-size:calc(46px*var(--s))">{e(s["defn"])}</div>'
-                f'<div class="quote" style="font-size:calc(40px*var(--s));margin-top:calc(26px*var(--s))">{q}</div>')
+def s_closing30(kick, title, sub, canon, lines, part):
+    idx = range(part * 15, part * 15 + 15)
+    rows = ''.join(f'<div class="r30"><span class="ix">{i + 1}</span><div><b>{e(canon[i])}.</b> <span class="t">{e(lines[str(i + 1)])}</span></div></div>' for i in idx)
+    return page(f'<div class="kick" style="font-size:calc(24px*var(--s))">{e(kick)} · part {part + 1} of 2</div><h2 style="font-size:calc(56px*var(--s));margin-top:6px">{e(title)}</h2>'
+                f'<div class="a hd" style="font-size:calc(25px*var(--s));margin-top:6px;color:var(--gold);font-weight:600">{e(sub)}</div>{rows}', cls='box30', base_scale=1.3)
+
+
+def s_levels(scales):
+    rows = ''.join(f'<div class="row"><div class="b" style="font-size:calc(60px*var(--s));margin:0"><span class="num">{i}</span>&nbsp; {e(s["tag"])}</div>'
+                   f'<div class="a" style="font-size:calc(38px*var(--s));margin-top:10px">{e(s["gloss"])}</div></div>' for i, s in enumerate(scales, 1))
+    return page('<div class="kick">Three levels of scale</div><h2>Every sector, three times over.</h2>'
+                f'<div style="margin-top:24px">{rows}</div><div class="big" style="margin-top:60px">Each place you live: <em>level 1, then 2, then 3.</em></div>')
 
 
 def s_earth():
@@ -297,30 +287,50 @@ def load_lines():
             'fractal': {k: {n: cut(t) for n, t in v['src'].items()} for k, v in src['fractal'].items()}}, False
 
 
-def fractal_sectors():
+def fractal_blob():
     import importlib.util
     spec = importlib.util.spec_from_file_location('cl', os.path.join(ROOT, 'scripts/counterfeit-lines.py')); cl = importlib.util.module_from_spec(spec); spec.loader.exec_module(cl)
-    return [x for x in cl.fractal_blob()['sectors'] if x['num'] != 1]
+    return cl.fractal_blob()
 
 
-def build_slides():
-    canon = canon_techniques(); rel = religions(canon); story = {x['n']: x for x in sectors()}; fsec = fractal_sectors()
-    lines, ready = load_lines()
-    assert len(rel) == 34 and len(fsec) == 29, (len(rel), len(fsec))
+def build_religion():
+    canon = canon_techniques(); rel = religions(canon); lines, ready = load_lines()
+    assert len(rel) == 34, len(rel)
     L = [('cover', 'Series cover', s_cover()), ('pairs', 'Original vs copy', s_pairs()), ('stages', 'The eight steps', s_stages())]
     L += [(f'techniques-{i + 1}', f'Thirty techniques {i + 1}/2', s_techniques(i, canon)) for i in range(2)]
     L += [('scale', 'It does not stop at people', s_scale()),
           ('religion-cover', 'Religion cover', s_cover2('Part one', 'Religion', 'The same thirty techniques, graded in 34 traditions.')),
           ('grades', 'How to read the grades', s_grades())]
-    L += [(f'religion-{r["id"]}', r['title'], s_religion(r, canon, lines['religions'][r['id']])) for r in rel]
-    L += [('elsewhere-cover', 'Everywhere else cover', s_cover2('Part two', 'Everywhere<br>else', 'The same cycle, in 29 more places you live.'))]
+    for r in rel:
+        L += [(f'religion-{r["id"]}-{p + 1}', f'{r["title"]} ({p + 1}/2)', s_religion(r, canon, lines['religions'][r['id']], p)) for p in (0, 1)]
+    print('lines slide-ready:', ready)
+    return L
+
+
+def build_fractal():
+    canon = canon_techniques(); blob = fractal_blob(); lines, ready = load_lines()
+    fsec = [x for x in blob['sectors'] if x['num'] != 1]
+    assert len(fsec) == 29, len(fsec)
+    levels = [(i, (s['tag'], s['gloss'])) for i, s in enumerate(blob['scales'], 1)]
+    keyof = {'ind': 'fractal', 'inst': 'fractal_inst', 'civ': 'fractal_civ'}
+    L = [('elsewhere-cover', 'Everywhere else cover', s_cover2('The Counterfeit · Part two', 'Everywhere<br>else', 'The same cycle, in 29 more places you live, at three levels of scale.')),
+         ('stages', 'The eight steps', s_stages())]
+    L += [(f'techniques-{i + 1}', f'Thirty techniques {i + 1}/2', s_techniques(i, canon)) for i in range(2)]
+    L += [('levels', 'Three levels of scale', s_levels(blob['scales']))]
+    missing = []
     for k, x in enumerate(fsec, 1):
         slug = f'sector-{x["num"]:02d}-{re.sub("[^a-z]+", "-", x["short"].lower()).strip("-")}'
-        if x['techs']:
-            for part in (0, 1): L.append((f'{slug}-{part + 1}', f'{x["short"]} ({part + 1}/2)', s_sector30(x['num'], x['short'], x['controls'], canon, lines['fractal'][str(x['num'])], k, 29, part)))
-        else: L.append((slug, x['short'] + ' (story)', s_sector(story[x['num']])))   # the book has no technique-by-technique examples for this sector
+        for (lv, tg), key in zip(levels, ('ind', 'inst', 'civ')):
+            ln = lines.get(keyof[key], {}).get(str(x['num']))
+            if not ln or len(ln) < 30: missing.append(f'{x["num"]}-{key}'); continue
+            for p in (0, 1):
+                L.append((f'{slug}-l{lv}-{p + 1}', f'{x["short"]} level {lv} ({p + 1}/2)', s_sector30(x['short'], x['controls'], canon, ln, k, 29, (lv, tg), p)))
+    for key, kick, title, sub in (('mirror', 'The closing chapters · The Mirror', 'The pattern inside you', 'Each technique, turned on yourself.'),
+                                  ('body', 'The closing chapters · The Body', 'What the body feels', 'Each technique’s somatic signature.')):
+        if key not in lines: missing.append(key); continue
+        L += [(f'{key}-{p + 1}', f'{title} ({p + 1}/2)', s_closing30(kick, title, sub, canon, lines[key], p)) for p in (0, 1)]
     L += [('mother-earth', 'Mother Earth', s_earth())]
-    print('lines slide-ready:' , ready)
+    print('lines slide-ready:', ready, '| missing line sets:', missing or 'none')
     return L
 
 
@@ -330,23 +340,28 @@ FIT = """() => { const b = document.querySelector('.box'); let s = parseFloat(ge
 
 
 def main():
+    decks = [d for d in ('religion', 'fractal') if d in sys.argv] or ['religion', 'fractal']
     only = None
     if '--only' in sys.argv: only = {int(x) for x in sys.argv[sys.argv.index('--only') + 1].split(',')}
-    L = build_slides(); os.makedirs(OUT, exist_ok=True); man = []
     with sync_playwright() as p:
         br = p.chromium.launch(executable_path='/opt/pw-browsers/chromium-1194/chrome-linux/chrome', args=['--no-sandbox'])
         pg = br.new_page(viewport={'width': 1080, 'height': 1920})
-        for i, (slug, title, h) in enumerate(L, 1):
-            fn = f'{i:02d}-{slug}.png'
-            if only is None or i in only:
-                pg.set_content(h, wait_until='load'); pg.evaluate('document.fonts.ready'); pg.wait_for_timeout(60)
-                s = pg.evaluate(FIT); pg.screenshot(path=os.path.join(OUT, fn))
-            else: s = None
-            man.append({'n': i, 'file': fn, 'title': title, 'scale': s})
+        for deck in decks:
+            L = (build_religion if deck == 'religion' else build_fractal)(); d = os.path.join(OUT, deck); os.makedirs(d, exist_ok=True); man = []
+            if only is None:
+                for f in os.listdir(d):
+                    if f.endswith('.png'): os.remove(os.path.join(d, f))
+            for i, (slug, title, h) in enumerate(L, 1):
+                fn = f'{i:03d}-{slug}.png'
+                if only is None or i in only:
+                    pg.set_content(h, wait_until='load'); pg.evaluate('document.fonts.ready'); pg.wait_for_timeout(60)
+                    s = pg.evaluate(FIT); pg.screenshot(path=os.path.join(d, fn))
+                else: s = None
+                man.append({'n': i, 'file': fn, 'title': title, 'scale': s})
+            json.dump(man, open(os.path.join(d, 'manifest.json'), 'w'), indent=1)
+            small = [m for m in man if m['scale'] is not None and m['scale'] < 0.8]
+            print(deck, len(man), 'slides;', 'shrunk below 80%:', [(m['n'], m['scale']) for m in small] or 'none')
         br.close()
-    json.dump(man, open(os.path.join(OUT, 'manifest.json'), 'w'), indent=1)
-    small = [m for m in man if m['scale'] is not None and m['scale'] < 0.8]
-    print(len(man), 'slides;', 'shrunk below 80%:', [(m['n'], m['scale']) for m in small] or 'none')
 
 
 if __name__ == '__main__':
