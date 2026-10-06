@@ -3700,3 +3700,8 @@ Dubai would follow") and an architecture that imports each religion's MD into th
 - **Further PDF/UA fixes:** figure alt text now matched by the title on the figure's page (Sunni Islam Hajj chart lost its alt); chart SVGs carry a <title>.
 - **HyperFrames:** install denied twice by the auto-mode classifier (persistence, then untrusted code), even with the owner's chat approval. Needs a Bash permission rule in the owner's settings.
 - All 34 PDFs pass PDF/UA-1; zips regenerated in exports/ (pdfs-1/2/3-of-3 and text-and-fixlogs).
+
+## 2026-10-06 — TikTok counterfeit slide series
+- 98 slides (1080x1920) in exports/counterfeit-slides/ from scripts/counterfeit-slides.py; lines in content/counterfeit/lines.json (sentence-checked via scripts/counterfeit-lines.py). Local MP4: exports/counterfeit-slideshow.mp4 (scripts/counterfeit-video.py).
+- Canva design DAHXQJayN1o: all 98 images placed on pages 1-98 inside OPEN transaction 4062765011663368530 (uncommitted; needs user approval). Pages 99-100 are blank extras to delete via merge-designs, then export mp4.
+- Known: religion slides ~19px text; Technology/Dating/Intelligence/Child Welfare sectors have no technique data (single story slide each).
