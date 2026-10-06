@@ -261,8 +261,8 @@ ul.score-notes { list-style: none; margin: 0 0 12pt; padding: 0; font-size: var(
 
 /* compact flowing band opener: a dark band with the gold numeral beside the title. It flows with the text, so a section can
    start part-way down a page instead of forcing a new one (the old 158 mm band left half-empty pages at every section end). */
-.opener-band { margin: 38pt -18mm 30pt -24mm; height: auto; padding: 24pt 18mm 22pt 24mm; break-inside: avoid; break-after: avoid; display: block; }
+.opener-band { margin: 28pt -18mm 22pt -24mm; height: auto; padding: 16pt 18mm 14pt 24mm; break-inside: avoid; break-after: avoid; display: block; }
 .opener-band h2 { position: static; display: flex; align-items: baseline; gap: 24pt; margin: 0; }
 .opener-band h2 .num { font-size: var(--fs-display); line-height: var(--lh-display); margin-left: 0; letter-spacing: -.03em; }
-.opener-band h2 .t { margin-top: 0; font-size: var(--fs-h1); line-height: var(--lh-h1); max-width: 120mm; }
+.opener-band h2 .t { margin-top: 0; font-size: var(--fs-h2); line-height: var(--lh-h2); max-width: 130mm; }
 .opener-band .orn-rule { display: none; }
