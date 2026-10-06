@@ -11,6 +11,12 @@
    "scope": "howto",
    "found": 1,
    "state": "applied"
+  },
+  {
+   "id": "ALL-G01",
+   "scope": "howto",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "christianity": [
@@ -31809,6 +31815,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "BUDF-D059",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "tibetan-buddhism": [
@@ -35913,6 +35925,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "TAOF-D069",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "confucianism": [
@@ -38635,6 +38653,24 @@
    "scope": "md",
    "found": 1,
    "state": "applied"
+  },
+  {
+   "id": "SHNF-D069",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SHNF-D070",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "SHNF-D071",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "zoroastrianism": [
@@ -39927,6 +39963,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ZORF-D079",
+   "scope": "md",
+   "found": 3,
+   "state": "applied"
   }
  ],
  "bahai": [
@@ -45421,7 +45463,7 @@
   {
    "id": "NEWF-D092",
    "scope": "md",
-   "found": 1,
+   "found": 2,
    "state": "applied"
   },
   {
@@ -48733,6 +48775,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "INDF-D100",
+   "scope": "md",
+   "found": 2,
+   "state": "applied"
   }
  ]
 }

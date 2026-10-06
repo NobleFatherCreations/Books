@@ -2354,5 +2354,15 @@
   "reason": "Patch note for this round (CLAUDE.md patch-notes rule).",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "TAOF-D069",
+  "scope": "md",
+  "type": "fact",
+  "before": "**Disclosed.** Course fees are disclosed.",
+  "after": "**Disclosed.** Not recorded on this page; no published rate list is recorded for Western teaching.",
+  "reason": "Open-source check 2026-10-06: the card contradicted technique 26 and section 7, which record no published rates.",
+  "count": 1,
+  "status": "proposed"
  }
 ]

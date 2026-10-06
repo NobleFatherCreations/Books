@@ -139,7 +139,7 @@ Bombay Parsi Punchayet trustee elections became genuinely contested, fought subs
 ::: card
 #### 2017 — The Supreme Court hears the intermarriage question
 
-India's Supreme Court took up the case of a Parsi woman excluded from religious spaces after marrying outside the community; the matter was resolved for the individual without settling the general rule. In 2026 the general question reached a nine-judge constitutional bench, which reserved judgment on 14 May 2026; at the last check on 3 October 2026 no verdict had been reported, and press reports expected one by about 6 October [16].
+India's Supreme Court took up the case of a Parsi woman excluded from religious spaces after marrying outside the community; the matter was resolved for the individual without settling the general rule. In 2026 the general question reached a nine-judge constitutional bench, which reserved judgment on 14 May 2026; at the last check on 6 October 2026 no verdict had been reported, and press reports expected one by about 6 October [16].
 
 **Why it matters.** One woman got her answer; the community's own institutions still have not given theirs. The page's unanswered question is exactly this gap.
 :::
@@ -208,7 +208,7 @@ Sources for this section: [1] [2] [7] [8]
 
 | Country | What the law does | The accountability question |
 |---|---|---|
-| **India — who is Parsi** | *Petit v. Jijibhai* (1908) is the foundational ruling [6], and the Gujarat High Court held that a Parsi woman ceases to be Parsi on marrying out [4]. | The Supreme Court let Goolrokh Gupta attend her parents' funeral rites (2017) and sent the question to a larger bench [4]. That nine-judge bench reserved judgment on 14 May 2026, and no verdict had been reported at the last check on 3 October 2026 [16]. In 2026 it asked the Nagpur panchayat whether a woman who married out could pray at an agiary (a Zoroastrian fire temple) [5]. |
+| **India — who is Parsi** | *Petit v. Jijibhai* (1908) is the foundational ruling [6], and the Gujarat High Court held that a Parsi woman ceases to be Parsi on marrying out [4]. | The Supreme Court let Goolrokh Gupta attend her parents' funeral rites (2017) and sent the question to a larger bench [4]. That nine-judge bench reserved judgment on 14 May 2026, and no verdict had been reported at the last check on 6 October 2026 [16]. In 2026 it asked the Nagpur panchayat whether a woman who married out could pray at an agiary (a Zoroastrian fire temple) [5]. |
 | **India — trustees** | The Bombay Parsi Punchayet's trustees are elected by an electorate of 25,000+ [7] | It is one of the few genuinely elected religious authorities in this book [7]. |
 | **India — population** | The *Jiyo Parsi* ("Live, Parsi") scheme (from 2013–14) funds fertility support, and 534 births have been supported since 2014–15, according to a ministerial reply in August 2026 [17]. | It is a state programme to slow a community's decline [3]. |
 | **Iran** | Zoroastrians are a recognized minority (Article 13) and elect one member of parliament (Article 64) [9] | Not established from any public source. |
@@ -1276,7 +1276,7 @@ Most of the institution's work is done below the trustees and the high priests, 
 - **when:** 1908–present
 - **what:** Indian courts have repeatedly been asked to determine who counts as Parsi, including whether children of Parsi women who married outside the community may be initiated and whether such women retain access to communal housing and funerary rites.
 - **record:** Indian court records across a century
-- **outcome:** Mixed rulings; the patrilineal asymmetry persists in orthodox practice. The community's harms are the best-evidenced in this codex because it litigates them publicly. In 2026 the question reached a nine-judge bench of India's Supreme Court, where a judge asked why a Parsi man who marries out keeps his religious rights and a woman does not; judgment was reserved on 14 May 2026 and, at the last check on 3 October 2026, no verdict had been reported [16].
+- **outcome:** Mixed rulings; the patrilineal asymmetry persists in orthodox practice. The community's harms are the best-evidenced in this codex because it litigates them publicly. In 2026 the question reached a nine-judge bench of India's Supreme Court, where a judge asked why a Parsi man who marries out keeps his religious rights and a woman does not; judgment was reserved on 14 May 2026 and, at the last check on 6 October 2026, no verdict had been reported [16].
 - **tactics:** 2, 15, 28
 - **grade:** Documented
 :::

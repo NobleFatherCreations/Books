@@ -2241,5 +2241,15 @@
   "reason": "P2-13: narration repeated the 'never audited' absolute.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "BUDF-D059",
+  "scope": "md",
+  "type": "fact",
+  "before": "**Disclosed.** Nothing is disclosed.\n\n**Hidden.** Receipts, and the split between personal and institutional use, are hidden.",
+  "after": "**Disclosed.** Not recorded on this page for temple giving in Asia. The only public accounts this page cites are the English Sangha Trust's charity-register entry (section 9).\n\n**Hidden.** This page records no receipts and no split between personal and institutional use.",
+  "reason": "Open-source check 2026-10-06: 'Nothing is disclosed' was absolute while section 9 cites a public charity register; the 'hidden' line asserted what the page does not source.",
+  "count": 1,
+  "status": "proposed"
  }
 ]

@@ -2161,5 +2161,15 @@
   "reason": "P3-20: narration quotes the section 3 question. (Source md already carries the corrected question; kept as a no-op.)",
   "count": "any",
   "status": "proposed"
+ },
+ {
+  "id": "ZORF-D079",
+  "scope": "md",
+  "type": "fact",
+  "before": "last check on 3 October 2026",
+  "after": "last check on 6 October 2026",
+  "count": 3,
+  "reason": "Open-source check 2026-10-06: judgment in the nine-judge reference (Sabarimala, Parsi women, Dawoodi Bohra) still reserved since 14 May 2026; no verdict reported.",
+  "status": "proposed"
  }
 ]

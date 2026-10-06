@@ -75,7 +75,7 @@ Protection from outsiders is owed and overdue. Who protects the insider from the
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Identity and kinship | Yes | Tradition, family, and ethnicity are one fabric; questioning practice can read as betraying the people who survived cultural genocide | “Culture isn't something you leave.” |
+| Identity and kinship | Not documented on this page | Tradition, family, and ethnicity are one fabric; questioning practice can read as betraying the people who survived cultural genocide | “Culture isn't something you leave.” |
 
 ### The strongest objection, answered
 
@@ -1191,7 +1191,7 @@ This is the one tradition where the persecution loop's premise is overwhelming �
 
 | Cost | Documented? | Detail | The official denial |
 |---|---|---|---|
-| Identity and kinship | Yes | Tradition, family, and ethnicity are one fabric; questioning practice can read as betraying the people who survived cultural genocide | “Culture isn't something you leave.” |
+| Identity and kinship | Not documented on this page | Tradition, family, and ethnicity are one fabric; questioning practice can read as betraying the people who survived cultural genocide | “Culture isn't something you leave.” |
 | Misfortune attribution | Yes | Illness or bad luck attributed to neglecting ancestors or ceremony | “That's simply how the world works.” |
 | Community standing | Varies | In small communities, dissent from a respected elder is socially expensive | “Elders are respected, not obeyed.” |
 | Colonial double bind | Structural | Criticizing internal harm risks being weaponized by outsiders who caused the greater harm — the hardest bind in this codex | Not a denial: a genuine dilemma the codex names rather than resolves. |

@@ -273,7 +273,7 @@ Japan's courts — where the shrine world's whistleblowers won their case — an
 ::: card
 #### State Shinto and emperor worship
 
-**Origin.** It was constructed deliberately from 1868, nationalizing shrines and making imperial reverence compulsory, and it was dismantled by directive in 1945. [GOVERNMENT REPORT]
+**Origin.** It was constructed deliberately from 1868, nationalizing shrines and making imperial reverence compulsory, and the Allied occupation's Shinto Directive of 15 December 1945 ended government sponsorship and support of it [25][26]. [GOVERNMENT REPORT]
 
 **What it was for.** A modernizing state needed a unifying loyalty for a population that had lived under regional lords. Local kami practice was reorganized into a national ideology from above.
 
@@ -334,7 +334,7 @@ Sources for this section: [9]
 
 - Hatsumiyamairi (first shrine visit) and Shichi-Go-San (the 'seven-five-three' festival for children of those ages) mark childhood milestones — genuinely light-touch rites with no doctrinal enrollment.
 - School participation in shrine visits and festivals has produced constitutional litigation over compelled religious activity. [COURT RECORD]
-- Historically, State Shinto compelled schoolchildren to bow to the emperor's portrait and worship at shrines — coercion of children as state policy. [GOVERNMENT REPORT]
+- Historically, State Shinto compelled schoolchildren to bow to the emperor's portrait and worship at shrines — coercion of children as state policy [26]. [ACADEMIC SOURCE]
 
 ### Bodies
 
@@ -1416,6 +1416,8 @@ Checked 2026-10-03. No Japanese-language line has been checked for this page; th
 22. Tokihisa Sumimoto, "Religious Freedom Problems in Japan: Background and Current Prospects", *International Journal for Peace Studies* — "Some Christian teachers and students were arrested and died in prison"; Soka Gakkai's cofounders Makiguchi and Toda were imprisoned for rejecting compulsory worship of the emperor and State Shinto, and Makiguchi died in prison in 1944. https://www3.gmu.edu/programs/icar/ijps/vol5_2/sumimoto.htm
 23. Wikipedia, "Yasukuni Shrine" — privately funded and operated since 1946, when it became an individual religious corporation independent of the Association of Shinto Shrines. https://en.wikipedia.org/wiki/Yasukuni_Shrine
 24. TELL Lifeline (Tokyo English Lifeline) — 0800-300-8355, toll-free, English only; hours as printed on its page on 2026-10-03: Saturday 09:00 to Monday 23:00 (continuous), Tuesday to Thursday 09:00–23:00, Friday 09:00–02:00. https://telljp.com/lifeline/
+25. GHQ of the Allied Powers, "Abolition of Governmental Sponsorship, Support, Perpetuation, Control, and Dissemination of State Shinto" (the Shinto Directive, SCAPIN-448), 15 Dec 1945, reprinted in *Contemporary Religions in Japan* 1(2), 85–89 (1960). Read through its Wikipedia summary, which cites the Nanzan University copy of the full text. It prohibits public funds for shrines and clergy and ends government sponsorship of State Shinto. https://en.wikipedia.org/wiki/Shinto_Directive
+26. Wikipedia, "State Shinto" (retrieved 2026-10-06) — state teaching of Shinto in public schools, including ceremonies involving the emperor's portrait and compulsory class trips to shrines, citing Donald Keene; State Shinto from the Meiji era to 1945. A secondary summary; Keene is the underlying scholarly source. https://en.wikipedia.org/wiki/State_Shinto
 
 ## 27. What changed on this page {#changed}
 

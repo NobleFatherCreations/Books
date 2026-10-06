@@ -2248,5 +2248,34 @@
   "reason": "Cross-volume check: the Kyunghyang article [21] says the appeal was dismissed 'the previous day' and was reported on 23 June; the volume gave the report date as the ruling date. Matches the Unification Church volume's 'June 2026'.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "SHNF-D069",
+  "scope": "md",
+  "type": "fact",
+  "before": "and it was dismantled by directive in 1945. [GOVERNMENT REPORT]",
+  "after": "and the Allied occupation's Shinto Directive of 15 December 1945 ended government sponsorship and support of it [25][26]. [GOVERNMENT REPORT]",
+  "reason": "Open-source check 2026-10-06: receipt had no source entry. Directive (SCAPIN-448) read via its Wikipedia summary; primary text at Nanzan University.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D070",
+  "scope": "md",
+  "type": "fact",
+  "before": "coercion of children as state policy. [GOVERNMENT REPORT]",
+  "after": "coercion of children as state policy [26]. [ACADEMIC SOURCE]",
+  "reason": "Open-source check 2026-10-06: the claim rests on Keene via Wikipedia's State Shinto article, not on a government report, so the receipt label is changed.",
+  "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "SHNF-D071",
+  "scope": "md",
+  "type": "source",
+  "before": "https://telljp.com/lifeline/\n",
+  "after": "https://telljp.com/lifeline/\n25. GHQ of the Allied Powers, \"Abolition of Governmental Sponsorship, Support, Perpetuation, Control, and Dissemination of State Shinto\" (the Shinto Directive, SCAPIN-448), 15 Dec 1945, reprinted in *Contemporary Religions in Japan* 1(2), 85–89 (1960). Read through its Wikipedia summary, which cites the Nanzan University copy of the full text. It prohibits public funds for shrines and clergy and ends government sponsorship of State Shinto. https://en.wikipedia.org/wiki/Shinto_Directive\n26. Wikipedia, \"State Shinto\" (retrieved 2026-10-06) — state teaching of Shinto in public schools, including ceremonies involving the emperor's portrait and compulsory class trips to shrines, citing Donald Keene; State Shinto from the Meiji era to 1945. A secondary summary; Keene is the underlying scholarly source. https://en.wikipedia.org/wiki/State_Shinto\n",
+  "count": 1,
+  "status": "proposed"
  }
 ]

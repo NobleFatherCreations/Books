@@ -188,5 +188,15 @@
   "after": "(freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time)",
   "reason": "Same verified Faith to Faithless hours as ALL-F08, for rows whose layout the ALL-F08 pattern does not match (Humanists UK variants).",
   "status": "proposed"
+ },
+ {
+  "id": "ALL-G01",
+  "scope": "howto",
+  "type": "proof",
+  "count": 1,
+  "before": "Real in effect, unattributable by design — the highest-deniability grade.",
+  "after": "Real in effect, unattributable by design — the highest-deniability grade. A volume graded mostly Cultural has not been cleared of anything: it means the page names no document that makes the institution responsible. Cultural does not mean minor, and it is not a finding of absence.",
+  "reason": "Owner asked for the best rating frame (2026-10-06). Decision: keep the six-grade scale and the strict rule (a grade above Cultural needs a named policy, court or government record, or leadership teaching); add a reader note so an all-Cultural volume is not read as 'nothing found'.",
+  "status": "proposed"
  }
 ]

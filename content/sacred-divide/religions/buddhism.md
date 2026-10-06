@@ -244,9 +244,9 @@ Charity regulators can compel an answer wherever a center is a registered charit
 
 **Path.** It passes from the temple or monastery to the monastic hierarchy, and then to construction and state-aligned sangha bodies.
 
-**Disclosed.** Nothing is disclosed.
+**Disclosed.** Not recorded on this page for temple giving in Asia. The only public accounts this page cites are the English Sangha Trust's charity-register entry (section 9).
 
-**Hidden.** Receipts, and the split between personal and institutional use, are hidden.
+**Hidden.** This page records no receipts and no split between personal and institutional use.
 :::
 
 ::: card

@@ -2596,5 +2596,15 @@
   "reason": "Patch note for this round.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "INDF-D100",
+  "scope": "md",
+  "type": "fact",
+  "before": "| Identity and kinship | Yes |",
+  "after": "| Identity and kinship | Not documented on this page |",
+  "count": "any",
+  "reason": "Open-source check 2026-10-06: 'Yes' had no source on the page; the detail is an experience described by community members and the page cites no study.",
+  "status": "proposed"
  }
 ]

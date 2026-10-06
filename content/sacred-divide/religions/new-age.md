@@ -252,11 +252,11 @@ The bodies that can compel an answer are consumer-protection agencies, advertisi
 
 **Source.** The money comes from Western participants seeking healing.
 
-**Path.** Operator, often not from the source community → Facilitators → Offshore or personal accounts
+**Path.** Operator, often not from the source community → Facilitators → where the money ends up is not recorded on this page
 
-**Disclosed.** Prices are disclosed.
+**Disclosed.** Not recorded on this page.
 
-**Hidden.** The safety record, the training, and the benefit-sharing are hidden.
+**Hidden.** This page records no safety record, training standard or benefit-sharing arrangement. The sweat-lodge case in section 19 is the one documented safety failure it cites.
 :::
 
 ::: card

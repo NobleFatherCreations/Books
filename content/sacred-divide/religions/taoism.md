@@ -262,7 +262,7 @@ In the West: consumer-protection law and the small-claims court — the teacher 
 
 **Path.** Trainer → Original certifier → Perpetual downstream fee share
 
-**Disclosed.** Course fees are disclosed.
+**Disclosed.** Not recorded on this page; no published rate list is recorded for Western teaching.
 
 **Hidden.** Failure rates and income distribution stay hidden.
 :::

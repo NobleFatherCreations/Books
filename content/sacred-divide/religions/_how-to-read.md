@@ -9,7 +9,7 @@ Each of the 30 techniques carries a grade for how it is established in this trad
 - [[Codified]] Written policy, published rule, contractual requirement, or a procedure the institution has confirmed in its own documents. The strongest grade and the hardest to deny.
 - [[Documented]] Established by court judgment, government inquiry, regulatory action, or financial filing. Not the institution's own words, but a body with subpoena power.
 - [[Taught]] Repeated leadership instruction from platform, publication, or curriculum, without a formal rule. Deniable as emphasis rather than policy.
-- [[Cultural]] Community enforcement the institution neither mandates nor prevents. Real in effect, unattributable by design — the highest-deniability grade.
+- [[Cultural]] Community enforcement the institution neither mandates nor prevents. Real in effect, unattributable by design — the highest-deniability grade. A volume graded mostly Cultural has not been cleared of anything: it means the page names no document that makes the institution responsible. Cultural does not mean minor, and it is not a finding of absence.
 - [[Contested]] Occurs in some parts of the tradition and is actively opposed in others. Generalizing this grade across a whole tradition is a misuse of it.
 - [[Reformed]] Documented historically and materially changed since — policy withdrawn, practice ended, or independent oversight accepted. Recorded because omitting it would be dishonest.
 - [[Ungraded]] Present in the source material without a grade assigned yet. Read as an unverified pattern claim, not as a finding.

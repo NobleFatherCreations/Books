@@ -2877,7 +2877,7 @@
   "before": "**1-800-656-4673** [14]",
   "after": "**1-800-656-4673** (free, confidential, 24 hours a day) [14]",
   "reason": "Item 30 (from search summaries; RAINN page refused automated access).",
-  "count": 1,
+  "count": 2,
   "status": "proposed"
  },
  {
@@ -2922,6 +2922,16 @@
   "after": "Voices recorded on this page: one former insider, a community that denounced the sale of its ceremonies, and the families of the dead. Only the first spoke from inside a movement.",
   "reason": "Narration matched to item 17.",
   "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "NEWF-D092",
+  "scope": "md",
+  "type": "fact",
+  "before": "**Path.** Operator, often not from the source community → Facilitators → Offshore or personal accounts\n\n**Disclosed.** Prices are disclosed.\n\n**Hidden.** The safety record, the training, and the benefit-sharing are hidden.",
+  "after": "**Path.** Operator, often not from the source community → Facilitators → where the money ends up is not recorded on this page\n\n**Disclosed.** Not recorded on this page.\n\n**Hidden.** This page records no safety record, training standard or benefit-sharing arrangement. The sweat-lodge case in section 19 is the one documented safety failure it cites.",
+  "reason": "Open-source check 2026-10-06: 'offshore or personal accounts' and the 'hidden' claims had no source on the page.",
+  "count": 2,
   "status": "proposed"
  }
 ]
