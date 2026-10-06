@@ -1,0 +1,446 @@
+[
+ {
+  "n": 1,
+  "file": "01-cover.png",
+  "title": "Series cover",
+  "scale": 1
+ },
+ {
+  "n": 2,
+  "file": "02-pairs.png",
+  "title": "Original vs copy",
+  "scale": 1
+ },
+ {
+  "n": 3,
+  "file": "03-stages.png",
+  "title": "The eight steps",
+  "scale": 1
+ },
+ {
+  "n": 4,
+  "file": "04-techniques-1.png",
+  "title": "Thirty techniques 1/3",
+  "scale": 0.96
+ },
+ {
+  "n": 5,
+  "file": "05-techniques-2.png",
+  "title": "Thirty techniques 2/3",
+  "scale": 0.94
+ },
+ {
+  "n": 6,
+  "file": "06-techniques-3.png",
+  "title": "Thirty techniques 3/3",
+  "scale": 0.98
+ },
+ {
+  "n": 7,
+  "file": "07-scale.png",
+  "title": "It does not stop at people",
+  "scale": 1
+ },
+ {
+  "n": 8,
+  "file": "08-religion-cover.png",
+  "title": "Religion cover",
+  "scale": 1
+ },
+ {
+  "n": 9,
+  "file": "09-grades.png",
+  "title": "How to read the grades",
+  "scale": 1
+ },
+ {
+  "n": 10,
+  "file": "10-religion-christianity.png",
+  "title": "Christianity",
+  "scale": 1
+ },
+ {
+  "n": 11,
+  "file": "11-religion-anglicanism.png",
+  "title": "Anglicanism",
+  "scale": 1
+ },
+ {
+  "n": 12,
+  "file": "12-religion-catholicism.png",
+  "title": "Catholicism",
+  "scale": 1
+ },
+ {
+  "n": 13,
+  "file": "13-religion-eastern-orthodoxy.png",
+  "title": "Eastern Orthodoxy",
+  "scale": 1
+ },
+ {
+  "n": 14,
+  "file": "14-religion-oriental-orthodoxy.png",
+  "title": "Oriental Orthodoxy",
+  "scale": 1
+ },
+ {
+  "n": 15,
+  "file": "15-religion-pentecostal-charismatic.png",
+  "title": "Pentecostal & Charismatic",
+  "scale": 1
+ },
+ {
+  "n": 16,
+  "file": "16-religion-plymouth-brethren.png",
+  "title": "Plymouth Brethren Christian Church (Exclusive Brethren)",
+  "scale": 0.96
+ },
+ {
+  "n": 17,
+  "file": "17-religion-protestant-evangelical.png",
+  "title": "Protestant / Evangelical Christianity",
+  "scale": 1
+ },
+ {
+  "n": 18,
+  "file": "18-religion-jehovahs-witnesses.png",
+  "title": "Jehovah's Witnesses",
+  "scale": 1
+ },
+ {
+  "n": 19,
+  "file": "19-religion-mormonism.png",
+  "title": "Mormonism / LDS",
+  "scale": 1
+ },
+ {
+  "n": 20,
+  "file": "20-religion-seventh-day-adventism.png",
+  "title": "Seventh-day Adventism",
+  "scale": 1
+ },
+ {
+  "n": 21,
+  "file": "21-religion-judaism.png",
+  "title": "Judaism",
+  "scale": 1
+ },
+ {
+  "n": 22,
+  "file": "22-religion-orthodox-hasidic-judaism.png",
+  "title": "Orthodox / Hasidic Judaism",
+  "scale": 1
+ },
+ {
+  "n": 23,
+  "file": "23-religion-islam.png",
+  "title": "Islam",
+  "scale": 1
+ },
+ {
+  "n": 24,
+  "file": "24-religion-ahmadiyya.png",
+  "title": "Ahmadiyya",
+  "scale": 1
+ },
+ {
+  "n": 25,
+  "file": "25-religion-dawoodi-bohra.png",
+  "title": "Dawoodi Bohra",
+  "scale": 1
+ },
+ {
+  "n": 26,
+  "file": "26-religion-shia-islam.png",
+  "title": "Shia Islam",
+  "scale": 1
+ },
+ {
+  "n": 27,
+  "file": "27-religion-sunni-islam.png",
+  "title": "Sunni Islam",
+  "scale": 1
+ },
+ {
+  "n": 28,
+  "file": "28-religion-hinduism.png",
+  "title": "Hinduism",
+  "scale": 1
+ },
+ {
+  "n": 29,
+  "file": "29-religion-hare-krishna.png",
+  "title": "Hare Krishna / ISKCON",
+  "scale": 1
+ },
+ {
+  "n": 30,
+  "file": "30-religion-jainism.png",
+  "title": "Jainism",
+  "scale": 1
+ },
+ {
+  "n": 31,
+  "file": "31-religion-sikhism.png",
+  "title": "Sikhism",
+  "scale": 1
+ },
+ {
+  "n": 32,
+  "file": "32-religion-buddhism.png",
+  "title": "Buddhism",
+  "scale": 1
+ },
+ {
+  "n": 33,
+  "file": "33-religion-soka-gakkai.png",
+  "title": "Soka Gakkai",
+  "scale": 1
+ },
+ {
+  "n": 34,
+  "file": "34-religion-tibetan-buddhism.png",
+  "title": "Tibetan Buddhism",
+  "scale": 1
+ },
+ {
+  "n": 35,
+  "file": "35-religion-confucianism.png",
+  "title": "Confucianism",
+  "scale": 1
+ },
+ {
+  "n": 36,
+  "file": "36-religion-shinto.png",
+  "title": "Shinto",
+  "scale": 1
+ },
+ {
+  "n": 37,
+  "file": "37-religion-taoism.png",
+  "title": "Taoism / Daoism",
+  "scale": 1
+ },
+ {
+  "n": 38,
+  "file": "38-religion-bahai.png",
+  "title": "Bah\u00e1\u02bc\u00ed Faith",
+  "scale": 1
+ },
+ {
+  "n": 39,
+  "file": "39-religion-zoroastrianism.png",
+  "title": "Zoroastrianism",
+  "scale": 1
+ },
+ {
+  "n": 40,
+  "file": "40-religion-new-age.png",
+  "title": "New Age / Spiritual-but-Organized Movements",
+  "scale": 1
+ },
+ {
+  "n": 41,
+  "file": "41-religion-scientology.png",
+  "title": "Scientology",
+  "scale": 1
+ },
+ {
+  "n": 42,
+  "file": "42-religion-unification-church.png",
+  "title": "Unification Church / Family Federation",
+  "scale": 1
+ },
+ {
+  "n": 43,
+  "file": "43-religion-indigenous.png",
+  "title": "Indigenous / Folk / Ancestral Religions",
+  "scale": 1
+ },
+ {
+  "n": 44,
+  "file": "44-elsewhere-cover.png",
+  "title": "Everywhere else cover",
+  "scale": 1
+ },
+ {
+  "n": 45,
+  "file": "45-sector-02-politics-government.png",
+  "title": "Politics & Government",
+  "scale": 1
+ },
+ {
+  "n": 46,
+  "file": "46-sector-03-media-information.png",
+  "title": "Media & Information",
+  "scale": 1
+ },
+ {
+  "n": 47,
+  "file": "47-sector-04-education.png",
+  "title": "Education",
+  "scale": 1
+ },
+ {
+  "n": 48,
+  "file": "48-sector-05-healthcare-medicine.png",
+  "title": "Healthcare & Medicine",
+  "scale": 1
+ },
+ {
+  "n": 49,
+  "file": "49-sector-06-finance-economics.png",
+  "title": "Finance & Economics",
+  "scale": 0.98
+ },
+ {
+  "n": 50,
+  "file": "50-sector-07-technology.png",
+  "title": "Technology",
+  "scale": 1
+ },
+ {
+  "n": 51,
+  "file": "51-sector-08-family-relationships.png",
+  "title": "Family & Relationships",
+  "scale": 0.9199999999999999
+ },
+ {
+  "n": 52,
+  "file": "52-sector-09-legal-justice-system.png",
+  "title": "Legal & Justice System",
+  "scale": 1
+ },
+ {
+  "n": 53,
+  "file": "53-sector-10-corporate-workplace.png",
+  "title": "Corporate & Workplace",
+  "scale": 0.96
+ },
+ {
+  "n": 54,
+  "file": "54-sector-11-military-security.png",
+  "title": "Military & Security",
+  "scale": 1
+ },
+ {
+  "n": 55,
+  "file": "55-sector-12-entertainment-culture.png",
+  "title": "Entertainment & Culture",
+  "scale": 1
+ },
+ {
+  "n": 56,
+  "file": "56-sector-13-new-age-spirituality-wellness.png",
+  "title": "New Age Spirituality & Wellness",
+  "scale": 1
+ },
+ {
+  "n": 57,
+  "file": "57-sector-14-food-agriculture.png",
+  "title": "Food & Agriculture",
+  "scale": 0.9199999999999999
+ },
+ {
+  "n": 58,
+  "file": "58-sector-15-housing-real-estate.png",
+  "title": "Housing & Real Estate",
+  "scale": 1
+ },
+ {
+  "n": 59,
+  "file": "59-sector-16-sports-athletics.png",
+  "title": "Sports & Athletics",
+  "scale": 1
+ },
+ {
+  "n": 60,
+  "file": "60-sector-17-science-academia.png",
+  "title": "Science & Academia",
+  "scale": 1
+ },
+ {
+  "n": 61,
+  "file": "61-sector-18-non-profit-ngo-industry.png",
+  "title": "Non-Profit / Ngo Industry",
+  "scale": 0.98
+ },
+ {
+  "n": 62,
+  "file": "62-sector-19-beauty-fashion-body-image.png",
+  "title": "Beauty, Fashion & Body Image",
+  "scale": 0.9199999999999999
+ },
+ {
+  "n": 63,
+  "file": "63-sector-20-dating-sexuality-romance.png",
+  "title": "Dating, Sexuality & Romance",
+  "scale": 0.9199999999999999
+ },
+ {
+  "n": 64,
+  "file": "64-sector-21-intelligence-surveillance.png",
+  "title": "Intelligence & Surveillance",
+  "scale": 1
+ },
+ {
+  "n": 65,
+  "file": "65-sector-22-child-welfare-foster-care-adoption.png",
+  "title": "Child Welfare, Foster Care & Adoption",
+  "scale": 1
+ },
+ {
+  "n": 66,
+  "file": "66-sector-23-aging-death-end-of-life.png",
+  "title": "Aging, Death & End-Of-Life",
+  "scale": 1
+ },
+ {
+  "n": 67,
+  "file": "67-sector-24-energy-environment-natural-resources.png",
+  "title": "Energy, Environment & Natural Resources",
+  "scale": 0.96
+ },
+ {
+  "n": 68,
+  "file": "68-sector-25-transportation-mobility.png",
+  "title": "Transportation & Mobility",
+  "scale": 1
+ },
+ {
+  "n": 69,
+  "file": "69-sector-26-mental-health-therapy.png",
+  "title": "Mental Health & Therapy",
+  "scale": 0.98
+ },
+ {
+  "n": 70,
+  "file": "70-sector-27-pharmaceutical-industry.png",
+  "title": "Pharmaceutical Industry",
+  "scale": 0.9199999999999999
+ },
+ {
+  "n": 71,
+  "file": "71-sector-28-insurance-industry.png",
+  "title": "Insurance Industry",
+  "scale": 1
+ },
+ {
+  "n": 72,
+  "file": "72-sector-29-incarceration-prison-industry.png",
+  "title": "Incarceration & Prison Industry",
+  "scale": 1
+ },
+ {
+  "n": 73,
+  "file": "73-sector-30-immigration-borders-displacement.png",
+  "title": "Immigration, Borders & Displacement",
+  "scale": 1
+ },
+ {
+  "n": 74,
+  "file": "74-mother-earth.png",
+  "title": "Mother Earth",
+  "scale": 0.98
+ }
+]
