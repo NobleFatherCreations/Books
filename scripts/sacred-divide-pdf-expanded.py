@@ -121,7 +121,7 @@ def build_sections(rid):
         def tag_table(m):
             body = m.group(1)
             head = re.search(r'<tr>(.*?)</tr>', body, flags=re.S)
-            cls = (['short'] if body.count('<tr>') <= 9 else []) + (['wide'] if head and head.group(1).count('<th') >= 6 else [])
+            cls = (['short'] if body.count('<tr>') <= int(os.environ.get('SHORTROWS', '9')) else []) + (['wide'] if head and head.group(1).count('<th') >= 6 else [])
             return (f'<table class="{" ".join(cls)}">' if cls else '<table>') + body + '</table>'
         h = re.sub(r'<table>(.*?)</table>', tag_table, h, flags=re.S)
         subs = re.findall(r'<h3 id="([\w-]+)">(.*?)</h3>', h)
