@@ -200,8 +200,8 @@ h2 {{ font-size: calc(76px*var(--s)); line-height: 1.05; font-weight: 800; lette
 """
 
 
-def page(inner, mid=False, cls=''):
-    base = '<style>:root{--s:1}</style>' if cls == 'box30' else ''
+def page(inner, mid=False, cls='', base_scale=1):
+    base = f'<style>:root{{--s:{base_scale}}}</style>' if cls == 'box30' else ''
     return f'<!doctype html><meta charset="utf-8"><style>{CSS}</style>{base}<div class="box{" mid" if mid else ""}{" " + cls if cls else ""}">{inner}</div>'
 
 
@@ -260,10 +260,12 @@ def s_religion(r, canon, lines):
                 f'<div class="a hd" style="font-size:calc(24px*var(--s));margin-top:6px">How each of the 30 techniques shows up here</div>{rows}<div class="legend" style="margin-top:calc(12px*var(--s));font-size:calc(21px*var(--s))">{leg}</div>', cls='box30')
 
 
-def s_sector30(num, name, controls, canon, lines, k, total):
-    rows = ''.join(f'<div class="r30"><span class="ix">{i + 1}</span><div><b>{e(canon[i])}.</b> <span class="t">{e(lines[str(i + 1)])}</span></div></div>' for i in range(30))
-    return page(f'<div class="kick" style="font-size:calc(24px*var(--s))">Everywhere else · {k} of {total}</div><h2 style="font-size:calc(56px*var(--s));margin-top:6px">{e(name)}</h2>'
-                f'<div class="a hd" style="font-size:calc(25px*var(--s));margin-top:6px;color:var(--gold);font-weight:600">Controls: {e(controls)}</div>{rows}', cls='box30')
+def s_sector30(num, name, controls, canon, lines, k, total, part):
+    """One half (15 techniques) of a sector's thirty one-sentence examples; two slides per sector keep the text large enough to read."""
+    idx = range(part * 15, part * 15 + 15)
+    rows = ''.join(f'<div class="r30"><span class="ix">{i + 1}</span><div><b>{e(canon[i])}.</b> <span class="t">{e(lines[str(i + 1)])}</span></div></div>' for i in idx)
+    return page(f'<div class="kick" style="font-size:calc(24px*var(--s))">Everywhere else · {k} of {total} · part {part + 1} of 2</div><h2 style="font-size:calc(56px*var(--s));margin-top:6px">{e(name)}</h2>'
+                f'<div class="a hd" style="font-size:calc(25px*var(--s));margin-top:6px;color:var(--gold);font-weight:600">Controls: {e(controls)}</div>{rows}', cls='box30', base_scale=1.3)
 
 
 def s_sector(s):
@@ -314,7 +316,8 @@ def build_slides():
     L += [('elsewhere-cover', 'Everywhere else cover', s_cover2('Part two', 'Everywhere<br>else', 'The same cycle, in 29 more places you live.'))]
     for k, x in enumerate(fsec, 1):
         slug = f'sector-{x["num"]:02d}-{re.sub("[^a-z]+", "-", x["short"].lower()).strip("-")}'
-        if x['techs']: L.append((slug, x['short'], s_sector30(x['num'], x['short'], x['controls'], canon, lines['fractal'][str(x['num'])], k, 29)))
+        if x['techs']:
+            for part in (0, 1): L.append((f'{slug}-{part + 1}', f'{x["short"]} ({part + 1}/2)', s_sector30(x['num'], x['short'], x['controls'], canon, lines['fractal'][str(x['num'])], k, 29, part)))
         else: L.append((slug, x['short'] + ' (story)', s_sector(story[x['num']])))   # the book has no technique-by-technique examples for this sector
     L += [('mother-earth', 'Mother Earth', s_earth())]
     print('lines slide-ready:' , ready)

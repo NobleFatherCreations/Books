@@ -65,7 +65,7 @@ def fractal_sources():
 
 
 def good(s):
-    return len(s) <= MAXLEN and s[-1] in '.”"' and s[0].isupper() and len(re.findall(r'[.!?](?:\s+[A-Z“"]|$)', s)) <= 1 and '…' not in s and ' — ' not in s[:0]
+    return len(s) <= MAXLEN and s[-1] in '.”"' and s.lstrip('"“‘\'')[:1].isupper() and len(re.findall(r'[.!?](?:\s+[A-Z“"]|$)', s)) <= 1 and '…' not in s and ' — ' not in s[:0]
 
 
 def words(s):
@@ -135,13 +135,50 @@ def cmd_merge():
         out = json.load(open(p, encoding='utf-8')); key = 'religions' if tag[0] == 'r' else 'fractal'
         for a, d in out.items():
             for b, line in d.items(): res[key][a][b] = line
+    fxp = os.path.join(OUT, 'fixes.json')   # hand fixes after a human read of every line; applied last
+    if os.path.exists(fxp):
+        for key, d in json.load(open(fxp, encoding='utf-8')).items():
+            for a, dd in d.items():
+                for b, line in dd.items(): res[key][a][b] = line
     for key in res:
         for a, d in res[key].items():
             for b, line in d.items():
-                if not good(line): miss += 1
+                if not good(line): miss += 1; print('not slide-ready:', key, a, b, repr(line))
     json.dump(res, open(os.path.join(OUT, 'lines.json'), 'w'), indent=1, ensure_ascii=False)
     print('merged; lines still not slide-ready:', miss)
 
 
+def sense_flags(nlp, line):
+    """Heuristics for "a full sentence that makes sense": a subject and a finite/main verb, no dangling last word, balanced quotes."""
+    doc = nlp(line); f = []
+    toks = [t for t in doc if not t.is_punct]
+    if len(toks) < 4: f.append('too short')
+    if not any(t.pos_ in ('VERB', 'AUX') for t in toks): f.append('no verb')
+    elif not any(t.dep_ in ('nsubj', 'nsubjpass', 'expl', 'csubj') for t in toks) and not (toks and toks[0].pos_ == 'VERB' and toks[0].tag_ == 'VB'): f.append('no subject')
+    if toks and toks[-1].pos_ in ('ADP', 'CCONJ', 'SCONJ', 'DET', 'PART', 'AUX') and toks[-1].text.lower() not in ('off', 'up', 'out', 'back', 'in', 'on'): f.append('ends on ' + toks[-1].text)
+    if line.count('"') % 2 or line.count('“') != line.count('”') or line.count('(') != line.count(')'): f.append('unbalanced quotes/brackets')
+    if re.search(r'\s[,.;:]|,,|\.\.|, ?\.|\band\.|\bor\.|\bthe\.', line): f.append('stray punctuation')
+    return f
+
+
+def cmd_sense():
+    import spacy
+    nlp = spacy.load('en_core_web_sm'); R = religion_sources(); F = fractal_sources()
+    res = {'religions': {k: {str(n): t for n, t in v.items()} for k, v in R.items()}, 'fractal': {str(k): {str(n): t for n, t in v['src'].items()} for k, v in F.items()}}
+    for tag in ['r1', 'r2', 'r3', 'r4', 'f1', 'f2']:
+        p = os.path.join(OUT, f'out-{tag}.json')
+        if os.path.exists(p):
+            for a, d in json.load(open(p, encoding='utf-8')).items():
+                for b, line in d.items(): res['religions' if tag[0] == 'r' else 'fractal'][a][str(b)] = line
+    n = bad = 0
+    for key in res:
+        for a, d in res[key].items():
+            for b, line in sorted(d.items(), key=lambda kv: int(kv[0])):
+                if key == 'fractal' and len(line) > MAXLEN: continue      # not yet condensed
+                n += 1; fl = sense_flags(nlp, line)
+                if fl: bad += 1; print(f'{key[:3]} {a} #{b}: {line!r} -> ' + '; '.join(fl))
+    print(f'{n} lines examined, {bad} flagged for a human read')
+
+
 if __name__ == '__main__':
-    {'inputs': cmd_inputs, 'merge': cmd_merge}.get(sys.argv[1], lambda: cmd_check(sys.argv[2]))()
+    {'inputs': cmd_inputs, 'merge': cmd_merge, 'sense': cmd_sense}.get(sys.argv[1], lambda: cmd_check(sys.argv[2]))()

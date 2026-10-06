@@ -1,0 +1,71 @@
+{
+ "religions": {
+  "seventh-day-adventism": {
+   "1": "Members get Bible studies at home, meals, hospital visits and a full-day Sabbath community.",
+   "2": "The church network offers practical help: jobs in the system, school places, hospital access.",
+   "3": "Prophetic certainty about a Sunday law has been imminent for a century and a half.",
+   "8": "Assurance is offered and then qualified by the judgment, so peace is always provisional.",
+   "12": "Glacier View is retold as a theologian's failure, not a doctrine's examination.",
+   "13": "Fifty years without available transcripts are absorbed as normal archival practice.",
+   "15": "Members compare each other on diet, dress and Sabbath strictness.",
+   "20": "Judgment anxiety is relieved weekly by the same church's assurance teaching.",
+   "22": "Health teaching that is genuinely good for you is enforced as righteousness.",
+   "23": "Members are told historical and theological questions are for scholars, not for them.",
+   "24": "Sabbath, diet, education, employment, marriage and social life all sit inside one system.",
+   "25": "Depression is answered with diet, prayer and Bible study rather than treatment.",
+   "26": "Tithe flows past the local congregation to the conference that employs the pastor.",
+   "27": "The time of trouble and the Sunday law are presented as a permanent, imminent emergency.",
+   "28": "Credentials are withdrawn for doctrinal dissent, and Glacier View is the named precedent."
+  },
+  "anglicanism": {
+   "1": "It appears in some evangelical outreach, such as Alpha courses, but not in most parishes.",
+   "14": "Historically, isolation happened in closed camps and choir environments."
+  },
+  "christianity": {
+   "16": "The pastor does not confront; small-group leaders and \"concerned friends\" text instead."
+  },
+  "hinduism": {
+   "10": "Caste may be called spiritual order, social custom or irrelevant ideal, depending on criticism.",
+   "13": "Ritual, caste expectations and purity rules feel normal because family life embeds them."
+  },
+  "indigenous": {
+   "8": "Readings that land build the practitioner's reputation; ambiguous ones blame the client."
+  },
+  "jainism": {
+   "10": "Dietary rules are called discipline, family expectation or purity, depending on audience."
+  },
+  "judaism": {
+   "7": "Intermarriage or non-observance turns a questioner who wrestles into one who is lost."
+  },
+  "pentecostal-charismatic": {
+   "1": "Newcomers get prayer by name, a ride home, a meal and an invitation to serve.",
+   "3": "A specific prophetic word says this year is yours and the business will open.",
+   "7": "Those who give beyond their means are praised; those who give less are quietly marked.",
+   "13": "Doors are closed during the offering, and givers are called forward by amount.",
+   "15": "Givers are compared in public: whoever sows at this level, come forward.",
+   "23": "Adult members are addressed as spiritual children, with no path to adult standing.",
+   "26": "Giving runs through seed faith, first fruits, prophetic offerings and building funds.",
+   "27": "Emergencies recur with deadlines: the property will be lost, the window closes Sunday.",
+   "30": "There is no membership roll, no minutes, no constitution and no published accounts.",
+   "10": "The call to \"sow a significant seed\" never defines \"significant,\" so members compete upward."
+  },
+  "sikhism": {
+   "10": "Visible identity may be called devotion, communal duty or family honor, depending on pressure."
+  },
+  "unification-church": {
+   "22": "Marriage and life decisions are guided \"for the lineage.\"",
+   "30": "The conduct is attributed to \"individual members' excesses.\""
+  }
+ },
+ "fractal": {
+  "6": {
+   "13": "The first statement showing three hundred dollars in interest angers you; the twelfth does not."
+  },
+  "10": {
+   "13": "The first 10 p.m. email alarmed you; by the hundredth you no longer noticed."
+  },
+  "28": {
+   "8": "The dental cleaning is covered, but the crown is not, nor is the ambulance after the ER."
+  }
+ }
+}
