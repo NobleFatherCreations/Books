@@ -1,0 +1,887 @@
+{
+ "kind": "religion",
+ "items": {
+  "anglicanism": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "It is present in some evangelical outreach (Alpha courses, an introductory course on Christianity run over shared meals; camps) and absent from most parishes."
+   },
+   "2": {
+    "technique": "Weaponized Generosity",
+    "source": "Church school admissions criteria are published and can favor worshipping families (section 11), which ties a school place to attendance; pastoral help can also create obligation, more softly."
+   },
+   "6": {
+    "technique": "Gaslighting",
+    "source": "IICSA found the church failed to take abuse seriously; that survivors were told processes had been followed when they had not is not recorded on this page."
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "IICSA found the church failed to take abuse seriously, and survivors' accounts were disbelieved in documented cases."
+   },
+   "20": {
+    "technique": "Trauma Bonding",
+    "source": "—"
+   },
+   "21": {
+    "technique": "Learned Helplessness",
+    "source": "Survivors made repeated complaints that failed (IICSA); the helplessness the technique names is not an inquiry finding."
+   },
+   "22": {
+    "technique": "Benevolent Control",
+    "source": "Oversight of clergy lives runs through the bishop's licence and the tied house under Common Tenure."
+   },
+   "25": {
+    "technique": "Spiritual Bypassing",
+    "source": "IICSA recorded evidence that some victims may have been pressured by church workers to forgive their abuser."
+   },
+   "26": {
+    "technique": "Financial Control",
+    "source": "For clergy it is codified, working through the parish share and the tied house; for laity it is weak."
+   }
+  },
+  "christianity": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "A visitor walks into church during grief, divorce, addiction recovery, loneliness, or family collapse. Suddenly everyone says, “God brought you here,” “We’ve been praying for someone like you,” “You’re home now.”"
+   },
+   "2": {
+    "technique": "Weaponized Generosity",
+    "source": "A church helps with rent, groceries, hospital visits, meals after childbirth, addiction recovery, or marriage counseling. Later, when the person questions doctrine or leadership, the response becomes: “After everything this church has done for you, this is how you act?”"
+   },
+   "3": {
+    "technique": "Future Faking",
+    "source": "Heaven is presented as the ultimate deferred reward: no more tears, no more death, reunion with loved ones, streets of gold, mansions prepared, eternal joy in God’s presence."
+   },
+   "4": {
+    "technique": "Hoovering",
+    "source": "After you stop attending, the texts begin: “We miss you,” “The pastor asked about you,” “We haven’t seen you in church,” “Is everything okay spiritually?” Your absence is treated less like a personal decision and more like a spiritual emergency."
+   },
+   "5": {
+    "technique": "Devaluation",
+    "source": "Christianity often begins by telling the person they are a sinner before God, sometimes this bluntly: “You are a sinner. The heart is deceitful. Without God you are nothing.”"
+   },
+   "6": {
+    "technique": "Gaslighting",
+    "source": "A person says, “This church hurt me,” and the answer becomes, “Don’t let bitterness take root,” “You need to forgive,” or “The enemy wants to divide the body.”"
+   },
+   "7": {
+    "technique": "Double Bind",
+    "source": "Members are told to 'test everything against Scripture' — but arriving at a different conclusion than the pastor proves they tested it wrongly, pridefully, or under demonic influence."
+   },
+   "8": {
+    "technique": "Intermittent Reinforcement",
+    "source": "Worship is engineered for peaks — some Sundays you leave certain God spoke to you; others you feel nothing, and the dryness is framed as your hidden sin or drifting heart, sending you back next week chasing the return."
+   },
+   "9": {
+    "technique": "Moving the Goalposts",
+    "source": "You are told, “Just accept Jesus.” Then acceptance becomes baptism, church membership, tithing, serving, submission to leaders, small group attendance, evangelism, purity, correct doctrine, and never “backsliding” (falling away from faith)."
+   },
+   "10": {
+    "technique": "Strategic Ambiguity",
+    "source": "“God’s will” is kept vague enough to justify almost anything: staying in a bad marriage, leaving a job, giving money, forgiving abuse, joining ministry, or remaining silent."
+   },
+   "11": {
+    "technique": "Projection",
+    "source": "Churches accuse wounded members of being “divisive” after leadership created division through abuse, favoritism, secrecy, or authoritarian control."
+   },
+   "12": {
+    "technique": "DARVO",
+    "source": "A survivor reports pastoral abuse, coercive counseling, sexual misconduct, financial exploitation, or spiritual control. The church first says, “That is not what happened,” then says the survivor is bitter, unforgiving, or under attack from the enemy."
+   },
+   "13": {
+    "technique": "Normalization",
+    "source": "A believer is slowly trained to accept weekly self-denigration: “I am broken,” “I am sinful,” “I am nothing without God,” “my heart is deceitful.” At first it wounds; later it sounds like worship."
+   },
+   "14": {
+    "technique": "Isolation",
+    "source": "Christianity can isolate through warnings against “the world,” “bad company,” “unequally yoked” relationships (a believer bound, above all in marriage, to a non-believer), secular media, non-Christian dating, non-Christian therapy, and friendships that “pull you away from God.”"
+   },
+   "15": {
+    "technique": "Triangulation",
+    "source": "A church triangulates through “mature believers.” If you question leadership, you are sent to an elder, mentor, small-group leader, pastor’s wife, accountability partner, or “older Christian” who all repeat the same conclusion: submit, forgive, stay, trust God."
+   },
+   "16": {
+    "technique": "Flying Monkeys",
+    "source": "A pastor does not confront the critic directly. Instead, small-group leaders, prayer partners, elders, women’s ministry leaders, youth volunteers, and “concerned friends” start texting: “We miss you,” “Are you okay spiritually?” “Please don’t let bitterness win.”"
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "A church labels a critic bitter, divisive, rebellious, offended, spiritually immature, or under demonic attack."
+   },
+   "18": {
+    "technique": "Silent Treatment",
+    "source": "A member reports abuse, manipulation, financial secrecy, or pastoral misconduct. Leaders say they are “looking into it,” then weeks or months pass with no meaningful update."
+   },
+   "19": {
+    "technique": "Manufactured Consent",
+    "source": "A teenager “chooses” baptism after years of hell teaching, altar calls, youth-camp emotion, family expectation, and fear of being unsaved."
+   },
+   "20": {
+    "technique": "Trauma Bonding",
+    "source": "The church teaches that you are sinful, broken, depraved, or lost — then gives you worship, forgiveness, hugs, altar prayer, community, and “the peace of God.”"
+   },
+   "21": {
+    "technique": "Learned Helplessness",
+    "source": "A member asks hard questions and is told to pray, read Scripture, submit, wait, forgive, and stop doubting. None of it resolves the issue."
+   },
+   "22": {
+    "technique": "Benevolent Control",
+    "source": "Church leaders tell members not to date unbelievers, read certain books, attend certain events, or listen to critics because they are “guarding their hearts.”"
+   },
+   "23": {
+    "technique": "Infantilization",
+    "source": "Adult believers are called sheep who need shepherds, children who need spiritual fathers, or immature Christians who must submit to elders."
+   },
+   "24": {
+    "technique": "Identity Erosion",
+    "source": "The believer’s identity is replaced with religious categories: sinner, saved, servant, disciple, sheep, witness, warrior, bride of Christ, child of God."
+   },
+   "25": {
+    "technique": "Spiritual Bypassing",
+    "source": "Abuse is bypassed with “forgive seventy times seven,” “God will use it for good,” “vengeance is the Lord’s,” or “don’t let bitterness take root.”"
+   },
+   "26": {
+    "technique": "Financial Control",
+    "source": "Churches may pressure members to tithe, give offerings, support missions, fund building campaigns, sponsor pastors, pay for conferences, and volunteer endless unpaid labor."
+   },
+   "27": {
+    "technique": "Manufactured Crisis",
+    "source": "Churches may manufacture crisis through hell, demons, spiritual warfare, end-times prophecy, persecution narratives, culture-war panic, and warnings that children are being stolen by the world."
+   },
+   "28": {
+    "technique": "Discard",
+    "source": "A church that once called someone “family” quietly stops inviting them after they question abuse, money, doctrine, or leadership."
+   },
+   "29": {
+    "technique": "Replacement",
+    "source": "A volunteer leaves after burnout; the church immediately recruits someone else and calls it “God providing.”"
+   },
+   "30": {
+    "technique": "Plausible Deniability",
+    "source": "A pastor never explicitly says, “Shun her,” but preaches about wolves, divisive people, bitterness, rebellion, gossip, and protecting the flock. The congregation understands who he means."
+   }
+  },
+  "hare-krishna": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "Newcomers are drawn through chanting, dancing, prasadam, temple meals, colorful worship, music, community, and the promise of joyful devotion."
+   },
+   "2": {
+    "technique": "Weaponized Generosity",
+    "source": "ISKCON often offers prasadam, chanting, festivals, music, temple community, books, spiritual friendship, and a joyful devotional atmosphere."
+   },
+   "3": {
+    "technique": "Future Faking",
+    "source": "ISKCON future-fakes through Krishna consciousness, return to Godhead, liberation from material life, devotional ecstasy, spiritual identity, and eternal service to Krishna."
+   },
+   "4": {
+    "technique": "Hoovering",
+    "source": "Someone leaving ISKCON may be pulled back through prasadam, kirtan, festivals, devotee friendships, guru loyalty, and the sweetness of Krishna devotion."
+   },
+   "5": {
+    "technique": "Devaluation",
+    "source": "ISKCON can devalue ordinary identity by calling material life illusion, worldly attachment, maya, sense gratification, or forgetfulness of Krishna."
+   },
+   "7": {
+    "technique": "Double Bind",
+    "source": "Devotees are taught Krishna wants loving voluntary service — and that reluctance is maya (illusion). The love must be freely given, and its absence is diagnosed, corrected, and supervised."
+   },
+   "8": {
+    "technique": "Intermittent Reinforcement",
+    "source": "Ecstatic kirtan reliably-unreliably delivers transcendence — some nights the room lifts, some nights it doesn't — and the tradition's own explanation (Krishna reveals himself when he chooses) annexes the variability as proof."
+   },
+   "9": {
+    "technique": "Moving the Goalposts",
+    "source": "A newcomer chants and enjoys prasadam. Then they must chant rounds, follow regulative principles (the rules against eating meat, fish and eggs, taking intoxicants, gambling and illicit sex), accept guru, serve, donate, distribute books, avoid material association, and surrender."
+   },
+   "10": {
+    "technique": "Strategic Ambiguity",
+    "source": "Guru authority is personal devotion when attractive, institutional hierarchy when enforced, and individual imperfection when abuse is exposed."
+   },
+   "11": {
+    "technique": "Projection",
+    "source": "ISKCON communities may accuse leavers of being captured by maya while the institution creates illusion through guru idealization and spiritual hierarchy."
+   },
+   "12": {
+    "technique": "DARVO",
+    "source": "A devotee reports guru abuse, temple exploitation, child mistreatment, financial pressure, or authoritarian control. The response may deny the problem or call it isolated imperfection."
+   },
+   "13": {
+    "technique": "Normalization",
+    "source": "Newcomers are slowly normalized into chanting, prasadam, temple schedule, regulated diet, sexual restrictions, guru devotion, service, donations, and separation from material life."
+   },
+   "14": {
+    "technique": "Isolation",
+    "source": "ISKCON can isolate through temple life, guru devotion, chanting commitments, regulated diet, sexual restrictions, devotional service, book distribution, and warnings against materialistic association."
+   },
+   "15": {
+    "technique": "Triangulation",
+    "source": "ISKCON triangulates through guru, temple president, senior devotees, scriptures, Krishna, prasadam, chanting, devotee association, and fear of maya."
+   },
+   "16": {
+    "technique": "Flying Monkeys",
+    "source": "A questioning devotee may be approached by senior devotees, temple leaders, guru representatives, friends, and service partners."
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "Former devotees may be labeled fallen, offensive, envious, in maya, bad association, contaminated, or lacking surrender."
+   },
+   "18": {
+    "technique": "Silent Treatment",
+    "source": "A devotee questions guru authority, temple exploitation, abuse, or burnout and is told to chant more, avoid offenses, take prasadam, serve, and stop associating with critics."
+   },
+   "19": {
+    "technique": "Manufactured Consent",
+    "source": "Newcomers “choose” devotional life after being immersed in chanting, prasadam, community warmth, guru reverence, and devaluation of material life."
+   },
+   "20": {
+    "technique": "Trauma Bonding",
+    "source": "ISKCON can bond through sweetness and shame: chanting, prasadam, kirtan, festivals, guru devotion — paired with devaluation of material life, sexuality, autonomy, and outside relationships."
+   },
+   "21": {
+    "technique": "Learned Helplessness",
+    "source": "A devotee burns out and is told to chant more, serve more purely, avoid offenses, and surrender."
+   },
+   "22": {
+    "technique": "Benevolent Control",
+    "source": "Guru obedience, temple service, chanting rounds, sexual restriction, diet, and separation from material life are framed as loving purification."
+   },
+   "23": {
+    "technique": "Infantilization",
+    "source": "Devotees may be treated as fallen or spiritually immature if they desire ordinary family, romance, career, sexuality, or autonomy."
+   },
+   "24": {
+    "technique": "Identity Erosion",
+    "source": "Devotee identity replaces ordinary identity: servant of Krishna, follower of guru, chanter, temple servant, renunciate, surrendered soul."
+   },
+   "26": {
+    "technique": "Financial Control",
+    "source": "ISKCON financial control may appear through donations, book distribution, temple labor, guru offerings, festival fundraising, food service, and unpaid devotional work."
+   },
+   "27": {
+    "technique": "Manufactured Crisis",
+    "source": "ISKCON may manufacture crisis around maya, bad association, guru offense, material contamination, failed chanting, sexual desire, and leaving devotional service."
+   },
+   "28": {
+    "technique": "Discard",
+    "source": "A devotee who leaves may be described as fallen, in maya, offensive, contaminated, or lacking surrender."
+   },
+   "29": {
+    "technique": "Replacement",
+    "source": "A devotee who leaves temple life is replaced by another newcomer drawn by kirtan, prasadam, and community sweetness."
+   },
+   "30": {
+    "technique": "Plausible Deniability",
+    "source": "ISKCON can say temple life is voluntary while outside life is repeatedly described as maya, sense gratification, and bad association."
+   }
+  },
+  "jainism": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "A seeker is drawn by radical nonviolence, vegetarianism, discipline, meditation, simplicity, and the moral seriousness of ahimsa."
+   },
+   "2": {
+    "technique": "Weaponized Generosity",
+    "source": "Jain communities may offer support through food, business networks, family systems, temple life, education, ritual events, and ethical community."
+   },
+   "3": {
+    "technique": "Future Faking",
+    "source": "Jainism offers liberation from karma, escape from rebirth, purity of soul, nonviolence, and eventual release through discipline."
+   },
+   "4": {
+    "technique": "Hoovering",
+    "source": "A Jain leaving strict practice may be told they are accumulating karma, abandoning ahimsa, becoming spiritually careless, or dishonoring family discipline."
+   },
+   "5": {
+    "technique": "Devaluation",
+    "source": "Jainism can devalue through impossible purity. Ordinary human life constantly causes harm: eating, moving, working, desiring, consuming, owning, and surviving all carry moral weight."
+   },
+   "6": {
+    "technique": "Gaslighting",
+    "source": "Someone says fasting or purity expectations are harming them, and the response is, “You are attached to the body.”"
+   },
+   "7": {
+    "technique": "Double Bind",
+    "source": "Jains are taught radical nonviolence including speech — so naming a teacher's harm 'violently' is itself a violation. Gentle naming is ignored; forceful naming is himsa (violence, the opposite of ahimsa)."
+   },
+   "8": {
+    "technique": "Intermittent Reinforcement",
+    "source": "Austerity is publicly honored on an irregular schedule — the eight-day faster celebrated at one Paryushana and unnoticed the next year — and households chase the community's shifting attention with escalating vows."
+   },
+   "9": {
+    "technique": "Moving the Goalposts",
+    "source": "A Jain follows vegetarianism. Then stricter expectations appear: no root vegetables, fasting, festival vows, purity rules, temple attendance, monk reverence, and public restraint."
+   },
+   "10": {
+    "technique": "Strategic Ambiguity",
+    "source": "Dietary rules may be framed as personal discipline, family expectation, karmic necessity, compassion, or purity depending on the audience."
+   },
+   "11": {
+    "technique": "Projection",
+    "source": "Jain communities may accuse people of violence for relaxing dietary rules while ignoring emotional violence caused by shame, purity ranking, and moral pressure."
+   },
+   "12": {
+    "technique": "DARVO",
+    "source": "A person says fasting pressure, purity expectations, food shame, or family control harmed them. The response may deny harm and frame the concern as lack of discipline."
+   },
+   "13": {
+    "technique": "Normalization",
+    "source": "Dietary restriction can escalate from vegetarianism to stricter rules, fasting, festival vows, avoidance of root vegetables, purity concerns, and shame around ordinary eating."
+   },
+   "14": {
+    "technique": "Isolation",
+    "source": "Jain isolation can happen through strict dietary rules, fasting culture, temple community, marriage expectations, business networks, family honor, and moral ranking around purity."
+   },
+   "15": {
+    "technique": "Triangulation",
+    "source": "Jain triangulation works through family, temple community, monks, nuns, dietary rules, fasting culture, karma, purity, and moral comparison."
+   },
+   "16": {
+    "technique": "Flying Monkeys",
+    "source": "A Jain who loosens dietary restrictions or stops fasting may be pressured by parents, relatives, temple members, monks, nuns, and community friends."
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "A person who stops fasting or relaxes dietary restriction may be smeared as indulgent, violent, impure, attached, lazy, or spiritually careless."
+   },
+   "18": {
+    "technique": "Silent Treatment",
+    "source": "A person says fasting, food shame, or purity pressure is harming them and is told they are attached to the body."
+   },
+   "19": {
+    "technique": "Manufactured Consent",
+    "source": "A person “chooses” strict diet after family, temple, karma, purity, and comparison to ascetics make ordinary eating feel morally contaminated."
+   },
+   "20": {
+    "technique": "Trauma Bonding",
+    "source": "Jain practice can create cycles of purity anxiety and relief: food rules, fasting, restraint, karma, harm, and moral contamination."
+   },
+   "21": {
+    "technique": "Learned Helplessness",
+    "source": "A person tries to relax food rules, stop fasting, or care for their body and is told they are attached, impure, violent, or karmically careless."
+   },
+   "23": {
+    "technique": "Infantilization",
+    "source": "Adults may be corrected like children over food, fasting, purity, temple attendance, and restraint."
+   },
+   "24": {
+    "technique": "Identity Erosion",
+    "source": "The person may become defined by purity, restraint, diet, fasting, harm avoidance, karma reduction, and moral discipline."
+   },
+   "26": {
+    "technique": "Financial Control",
+    "source": "Jain financial control may appear through temple donations, festival sponsorships, monk/nun support, charity, wedding costs, business networks, and prestige around giving."
+   },
+   "27": {
+    "technique": "Manufactured Crisis",
+    "source": "Jain communities may manufacture crisis around food, fasting, purity, karma, ritual failure, and harm to living beings."
+   },
+   "28": {
+    "technique": "Discard",
+    "source": "Someone who relaxes dietary rules, stops fasting, or questions purity pressure may be treated as indulgent, careless, violent, or spiritually weak."
+   },
+   "30": {
+    "technique": "Plausible Deniability",
+    "source": "Strict food rules and fasting are said to be voluntary, but family and community shame make refusal morally costly."
+   }
+  },
+  "new-age": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "Seekers are welcomed with language of healing, vibration, trauma release, manifestation, soul family (a group said to be bound together across lifetimes), divine feminine, astrology, plant medicine, breathwork, and “you were meant to be here.”"
+   },
+   "2": {
+    "technique": "Weaponized Generosity",
+    "source": "New Age spaces may offer free circles, healing sessions, astrology readings, breathwork introductions, plant medicine communities, trauma language, manifestation coaching, and “soul family” belonging."
+   },
+   "3": {
+    "technique": "Future Faking",
+    "source": "New Age systems future-fake through awakening, ascension, 5D consciousness (a supposed higher plane of awareness), twin flame union (union with a single destined soul partner), abundance, manifestation, divine feminine activation, soul mission, starseed destiny, and energetic upgrade."
+   },
+   "4": {
+    "technique": "Hoovering",
+    "source": "Someone leaving a New Age circle, coaching group, twin flame program, plant medicine community, or spiritual mentorship may be told they are blocked, afraid of expansion, resisting abundance, or abandoning their soul contract (a supposed pre-birth agreement)."
+   },
+   "5": {
+    "technique": "Devaluation",
+    "source": "New Age movements can devalue through softer language: you are blocked, low vibration, unhealed, misaligned, unintegrated, wounded, asleep, carrying ancestral trauma, or resisting abundance."
+   },
+   "6": {
+    "technique": "Gaslighting",
+    "source": "Someone questions a teacher’s prices, claims, or control, and is told they are in scarcity mindset."
+   },
+   "7": {
+    "technique": "Double Bind",
+    "source": "Seekers are told to trust their intuition — until intuition says leave, at which point it is fear, ego, scarcity, or a trauma response. Intuition is sacred; yours is broken."
+   },
+   "8": {
+    "technique": "Intermittent Reinforcement",
+    "source": "Manifestation teaching is a purpose-built variable-reward loop: visualize, act, and attribute — hits prove the method, misses prove your vibration, and the course catalog resolves the gap."
+   },
+   "9": {
+    "technique": "Moving the Goalposts",
+    "source": "A person buys a healing session. Then they need a package, retreat, mastermind, certification, plant ceremony, integration container, nervous system reset, or abundance activation."
+   },
+   "10": {
+    "technique": "Strategic Ambiguity",
+    "source": "“Energy” can explain attraction, illness, money, trauma, boundaries, failure, abuse, and obedience without ever becoming testable."
+   },
+   "11": {
+    "technique": "Projection",
+    "source": "A coach may accuse a client of scarcity mindset for questioning prices while monetizing insecurity and selling abundance."
+   },
+   "12": {
+    "technique": "DARVO",
+    "source": "A client questions a healer, coach, guru, channeler, retreat leader, or twin flame mentor. The teacher denies harm and says the person is triggered, projecting, blocked, or in scarcity."
+   },
+   "13": {
+    "technique": "Normalization",
+    "source": "People become normalized into paying for healing: sessions, retreats, masterminds, ceremonies, certifications, astrology, energy work, coaching, integration, and “next-level” containers."
+   },
+   "14": {
+    "technique": "Isolation",
+    "source": "New Age groups isolate through “soul family,” energetic boundaries, twin flame ideology, spiritual coaching containers, plant medicine circles, retreats, manifestation groups, and claims that outsiders are low vibration or asleep."
+   },
+   "15": {
+    "technique": "Triangulation",
+    "source": "New Age triangulation runs through guides, ancestors, astrology charts, spirit messages, twin flames, soul contracts, group leaders, healers, coaches, plant medicine, and “the universe.”"
+   },
+   "16": {
+    "technique": "Flying Monkeys",
+    "source": "A person leaving a healer, coach, twin flame group, plant medicine circle, or spiritual mentorship may be contacted by group members: “You’re in resistance,” “Your ego is scared,” “You’re abandoning your expansion.”"
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "Former clients or members may be labeled low vibration, narcissistic, unhealed, blocked, fear-based, scarcity-minded, toxic, projecting, or unwilling to do the work."
+   },
+   "18": {
+    "technique": "Silent Treatment",
+    "source": "A client asks direct questions about money, credentials, harm, or boundaries and receives vague answers about energy, readiness, alignment, nervous system capacity, or soul lessons."
+   },
+   "19": {
+    "technique": "Manufactured Consent",
+    "source": "A client “chooses” expensive sessions after being told their abundance block, trauma pattern, or soul mission requires the next container."
+   },
+   "20": {
+    "technique": "Trauma Bonding",
+    "source": "A teacher tells the client they are blocked, low vibration, unhealed, scarcity-minded, or resisting expansion — then offers paid healing, retreats, ceremonies, or coaching as relief."
+   },
+   "21": {
+    "technique": "Learned Helplessness",
+    "source": "A client fails to manifest results and is told they have deeper blocks, scarcity, ancestral trauma, nervous-system resistance, or low vibration."
+   },
+   "22": {
+    "technique": "Benevolent Control",
+    "source": "Coaches, healers, and spiritual teachers control clients through language of healing, expansion, alignment, nervous-system safety, and soul purpose."
+   },
+   "23": {
+    "technique": "Infantilization",
+    "source": "Teachers call clients unhealed, blocked, low vibration, dysregulated, in scarcity, or not ready."
+   },
+   "24": {
+    "technique": "Identity Erosion",
+    "source": "The person is rebranded as empath, starseed, healer, twin flame, divine feminine, lightworker, manifestor, wounded inner child, trauma survivor, or abundance channel."
+   },
+   "26": {
+    "technique": "Financial Control",
+    "source": "New Age financial control may appear through expensive retreats, coaching packages, certifications, healing sessions, plant ceremonies, astrology readings, energy clearings, masterminds, and “containers.”"
+   },
+   "27": {
+    "technique": "Manufactured Crisis",
+    "source": "New Age leaders may manufacture crisis through ascension windows, energetic portals, twin flame deadlines, ancestral curses, spiritual attacks, nervous system collapse, scarcity blocks, or urgent retreats."
+   },
+   "28": {
+    "technique": "Discard",
+    "source": "A client who stops paying, questions the teacher, or leaves the group may be labeled low vibration, unhealed, narcissistic, blocked, fear-based, or unable to hold expansion."
+   },
+   "30": {
+    "technique": "Plausible Deniability",
+    "source": "A coach says clients freely choose programs, while hesitation is diagnosed as scarcity, fear, trauma response, or resistance."
+   }
+  },
+  "plymouth-brethren": {
+   "6": {
+    "technique": "Gaslighting",
+    "source": "The church says \"we do not prevent former members from contacting their families\", and testimony says otherwise."
+   },
+   "9": {
+    "technique": "Moving the Goalposts",
+    "source": "Technology rules changed from prohibition to approved systems, according to former members"
+   },
+   "12": {
+    "technique": "DARVO",
+    "source": "A member was interrogated over an alleged hack while leaders claimed to protect \"the Lord's interest\"."
+   },
+   "16": {
+    "technique": "Flying Monkeys",
+    "source": "Families enforce separation"
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "Former members are investigated and pressured; the ABC reported surveillance by private investigators, with phone records."
+   },
+   "20": {
+    "technique": "Trauma Bonding",
+    "source": "Belonging and fear of withdrawal alternate"
+   },
+   "21": {
+    "technique": "Learned Helplessness",
+    "source": "Every door leads to the same network"
+   },
+   "23": {
+    "technique": "Infantilization",
+    "source": "Adults' friendships are governed by the rule of separation, and their technology and education are managed, according to former members (section 11)."
+   },
+   "29": {
+    "technique": "Replacement",
+    "source": "Family life continues without the withdrawn"
+   }
+  },
+  "shia-islam": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "A seeker may be drawn in through intense hospitality, majlis gatherings, Karbala narratives, mourning rituals, family warmth, and the emotional gravity of Imam Husayn’s martyrdom."
+   },
+   "2": {
+    "technique": "Weaponized Generosity",
+    "source": "Shia communities may welcome seekers through majlis gatherings, mourning rituals, meals, family hospitality, lectures, ziyarat (shrine pilgrimage) culture, and devotion to the Ahl al-Bayt."
+   },
+   "3": {
+    "technique": "Future Faking",
+    "source": "Shia Islam offers a future saturated with loyalty, martyrdom, justice, intercession, and the eventual vindication of the oppressed."
+   },
+   "4": {
+    "technique": "Hoovering",
+    "source": "A person drifting from Shia community may be pulled back through mourning, majlis, Karbala, loyalty to Imam Husayn, and love for the Ahl al-Bayt."
+   },
+   "5": {
+    "technique": "Devaluation",
+    "source": "Shia Islam can devalue through narratives of betrayal, loyalty, martyrdom, and unworthiness before the sacrifice of the Imams."
+   },
+   "6": {
+    "technique": "Gaslighting",
+    "source": "Someone questions clerical authority, ritual mourning, sectarian narratives, or political theology, and is told they are disrespecting the Ahl al-Bayt."
+   },
+   "7": {
+    "technique": "Double Bind",
+    "source": "The Karbala narrative teaches that standing against corrupt authority is the highest devotion — yet questioning one's own clerical establishment is framed as betraying the Imams that very stand honors."
+   },
+   "8": {
+    "technique": "Intermittent Reinforcement",
+    "source": "The annual mourning cycle delivers guaranteed catharsis — collective weeping, belonging, meaning — concentrated in seasons the institution conducts, with the emotional year metered around its calendar."
+   },
+   "9": {
+    "technique": "Moving the Goalposts",
+    "source": "Devotion begins with love for the Ahl al-Bayt. Then it becomes ritual mourning, majlis attendance, clerical deference, marjaʿ following, sectarian loyalty, and suspicion of criticism."
+   },
+   "10": {
+    "technique": "Strategic Ambiguity",
+    "source": "Loyalty to the Ahl al-Bayt can mean love, mourning, ritual participation, clerical deference, political identity, or community conformity depending on context."
+   },
+   "11": {
+    "technique": "Projection",
+    "source": "Shia communities may accuse critics of betraying the oppressed while silencing people currently oppressed by clerics, families, or communal pressure."
+   },
+   "12": {
+    "technique": "DARVO",
+    "source": "A person reports abuse or coercion by a cleric, family authority, ritual leader, or community institution. The response may deny the harm and then accuse the person of disrespecting scholars, the Ahl al-Bayt, or the legacy of Karbala."
+   },
+   "13": {
+    "technique": "Normalization",
+    "source": "Repeated majlis gatherings, mourning rituals, lamentation, chest beating, Karbala narratives, and sacred grief can normalize intense emotional states as proof of loyalty."
+   },
+   "14": {
+    "technique": "Isolation",
+    "source": "Shia isolation can be built through sectarian identity, loyalty to the Ahl al-Bayt, clerical networks, majlis culture, mourning cycles, family expectations, and suspicion of Sunni, secular, or Western narratives."
+   },
+   "15": {
+    "technique": "Triangulation",
+    "source": "Shia triangulation often works through the Ahl al-Bayt, Karbala, marjaʿ authority, clerics, family elders, majlis gatherings, and sacred grief."
+   },
+   "16": {
+    "technique": "Flying Monkeys",
+    "source": "A person questioning Shia rituals, clerical authority, or community pressure may be approached by family members, majlis organizers, clerics, and devout friends invoking Husayn, Karbala, and loyalty to the Ahl al-Bayt."
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "Critics may be accused of disrespecting the Ahl al-Bayt, aiding enemies, weakening the community, or betraying Husayn."
+   },
+   "18": {
+    "technique": "Silent Treatment",
+    "source": "A person questions clerical behavior, ritual pressure, family control, or institutional misconduct and is told not to disrespect scholars or weaken the community."
+   },
+   "19": {
+    "technique": "Manufactured Consent",
+    "source": "A believer “chooses” clerical authority after being taught that marjaʿ following is responsible devotion and independent judgment is unsafe."
+   },
+   "20": {
+    "technique": "Trauma Bonding",
+    "source": "Shia spaces can bond through sacred grief: Karbala, martyrdom, mourning, loyalty, and the pain of betrayal."
+   },
+   "21": {
+    "technique": "Learned Helplessness",
+    "source": "A person questions ritual intensity, clerical authority, or family control and is repeatedly met with grief, loyalty, martyrdom, and accusations of betrayal."
+   },
+   "22": {
+    "technique": "Benevolent Control",
+    "source": "Clerical authority, marjaʿ following, mourning rituals, and community loyalty may be framed as protection of the path of the Ahl al-Bayt."
+   },
+   "23": {
+    "technique": "Infantilization",
+    "source": "Marjaʿ following can become a structure where adult moral judgment is outsourced to clerical authority."
+   },
+   "24": {
+    "technique": "Identity Erosion",
+    "source": "Shia identity can become organized around Karbala, mourning, loyalty, martyrdom, clerical guidance, and devotion to the Ahl al-Bayt."
+   },
+   "26": {
+    "technique": "Financial Control",
+    "source": "Shia financial control may appear through khums, mosque donations, shrine donations, majlis sponsorships, clerical networks, religious schools, and community charity."
+   },
+   "27": {
+    "technique": "Manufactured Crisis",
+    "source": "Shia communities may manufacture crisis through narratives of enemies, betrayal, historical oppression, clerical attack, and loss of loyalty to the Ahl al-Bayt."
+   },
+   "28": {
+    "technique": "Discard",
+    "source": "A person questioning clerics, mourning culture, or community pressure may be treated as disloyal to the Ahl al-Bayt."
+   },
+   "29": {
+    "technique": "Replacement",
+    "source": "A person who questions ritual intensity is replaced by someone more visibly devoted in mourning spaces."
+   },
+   "30": {
+    "technique": "Plausible Deniability",
+    "source": "A cleric or community may pressure loyalty through Karbala, Husayn, and the Ahl al-Bayt, then deny coercion by saying, “It is only love.”"
+   }
+  },
+  "sunni-islam": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "A convert is often quickly taught the “correct” prayer, “correct” creed, “correct” scholars, “correct” gender boundaries, and “correct” method — frequently before they understand the internal diversity of Islam."
+   },
+   "2": {
+    "technique": "Weaponized Generosity",
+    "source": "Sunni communities may provide strong social infrastructure: mosque meals, Qur’an classes, rent help, funeral support, marriage networks, youth programs, and convert mentorship."
+   },
+   "3": {
+    "technique": "Future Faking",
+    "source": "Sunni institutions often frame salvation around correct creed, correct prayer, correct practice, correct scholars, correct law, correct community, and correct avoidance of innovation."
+   },
+   "4": {
+    "technique": "Hoovering",
+    "source": "Someone leaving a Sunni community may be told to return to the Qur’an and Sunnah, stop following desires, avoid corrupt influences, and speak to a proper scholar."
+   },
+   "5": {
+    "technique": "Devaluation",
+    "source": "Sunni environments can devalue by teaching that the ordinary believer is not equipped to interpret religion independently and must rely on scholars, madhhabs, hadith authorities, fatwas, and approved teachers."
+   },
+   "6": {
+    "technique": "Gaslighting",
+    "source": "A believer asks about conflicting hadith, harsh legal rulings, gender inequality, sectarian claims, or historical problems, and is told, “Ask people of knowledge,” but only approved scholars count."
+   },
+   "7": {
+    "technique": "Double Bind",
+    "source": "Sunni students are told to follow qualified scholars, not their own whims — and when scholars disagree, choosing between them is itself called 'fatwa shopping' or following desire. You must not interpret alone, and you must not choose among interpreters."
+   },
+   "8": {
+    "technique": "Intermittent Reinforcement",
+    "source": "Students of a shaykh receive attention in unannounced portions — ijazah, front-row nearness, a public du'a (personal prayer) — and the competition for unpredictable favor disciplines a whole student body without a single command."
+   },
+   "9": {
+    "technique": "Moving the Goalposts",
+    "source": "A believer is told to follow the Qur’an and Sunnah. Then they must follow the correct madhhab, correct aqidah, correct scholars, correct hadith interpretation, correct dress, correct gender rules, and correct avoidance of bidʿah."
+   },
+   "10": {
+    "technique": "Strategic Ambiguity",
+    "source": "“Follow the scholars” sounds clear, but which scholars count often shifts depending on the desired answer."
+   },
+   "11": {
+    "technique": "Projection",
+    "source": "Sunni gatekeepers may accuse questioners of following desires while protecting their own desire for authority, certainty, male control, and communal conformity."
+   },
+   "12": {
+    "technique": "DARVO",
+    "source": "A person questions a scholar, imam, or institution over gender rules, abuse handling, financial misuse, or authoritarian control. The first response is denial: “You misunderstood the ruling,” “That is culture, not Islam,” or “The scholar did nothing wrong.”"
+   },
+   "13": {
+    "technique": "Normalization",
+    "source": "Conservative Sunni environments can normalize constant correction: prayer posture, beard length, hijab standards, gender interaction, speech, music, celebrations, and “proper” aqidah."
+   },
+   "14": {
+    "technique": "Isolation",
+    "source": "Sunni isolation can happen through approved-scholar ecosystems: listen to these shaykhs, follow this madhhab, avoid deviant sects, avoid liberal Muslims, avoid Shia, avoid ex-Muslims, avoid secular critics."
+   },
+   "15": {
+    "technique": "Triangulation",
+    "source": "Sunni communities triangulate through scholars, madhhabs, hadith collections, fatwa sites, imams, parents, and approved teachers."
+   },
+   "16": {
+    "technique": "Flying Monkeys",
+    "source": "A questioning Sunni Muslim may be told by multiple people to “ask a scholar,” but only approved scholars are acceptable."
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "Sunni dissenters may be smeared as followers of desires, liberals, deviants, Orientalist-influenced, ex-Muslim-influenced, ignorant, arrogant, or lacking adab."
+   },
+   "18": {
+    "technique": "Silent Treatment",
+    "source": "A believer asks about harsh rulings, abuse handling, gender inequality, or contradictory scholarly claims and is told to ask qualified scholars, but no answer is ever allowed to settle against the institution."
+   },
+   "19": {
+    "technique": "Manufactured Consent",
+    "source": "A believer “chooses” a ruling after being told only certain scholars count and disagreement is following desires."
+   },
+   "20": {
+    "technique": "Trauma Bonding",
+    "source": "Conservative Sunni environments may cycle correction and acceptance: wrong prayer, wrong dress, wrong scholars, wrong gender conduct — then praise when the person aligns."
+   },
+   "21": {
+    "technique": "Learned Helplessness",
+    "source": "A believer seeks answers from scholars, but every unsatisfying answer leads to another scholar, another warning, another accusation of weak knowledge."
+   },
+   "23": {
+    "technique": "Infantilization",
+    "source": "Laypeople may be told they cannot interpret texts, evaluate rulings, or follow conscience without scholars."
+   },
+   "24": {
+    "technique": "Identity Erosion",
+    "source": "Sunni environments may define the person through correct aqidah, correct scholars, correct prayer, correct dress, correct gender conduct, correct avoidance of bidʿah, and correct community."
+   },
+   "25": {
+    "technique": "Spiritual Bypassing",
+    "source": "Legal or gender harm may be bypassed with “Allah knows best,” “scholars know more,” or “this is a test.”"
+   },
+   "26": {
+    "technique": "Financial Control",
+    "source": "Sunni communities may financially pressure members through mosque fundraising, Islamic school tuition, scholar donations, conference fees, online courses, charity drives, and marriage costs."
+   },
+   "27": {
+    "technique": "Manufactured Crisis",
+    "source": "Conservative Sunni spaces may manufacture crisis through bidʿah panic, sectarian warnings, fear of liberalism, fear of feminism, fear of ex-Muslims, and warnings against corrupt scholars."
+   },
+   "28": {
+    "technique": "Discard",
+    "source": "A Sunni believer who questions approved scholars, hadith, gender law, or sectarian boundaries may be labeled deviant, arrogant, ignorant, liberal, or corrupted."
+   },
+   "30": {
+    "technique": "Plausible Deniability",
+    "source": "Sunni institutions can say, “Follow qualified scholars,” then define “qualified” as scholars who preserve the accepted answer."
+   }
+  },
+  "zoroastrianism": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "A member or returnee may be embraced through heritage, ancient identity, sacred fire, family continuity, and pride in one of the world’s oldest religious traditions."
+   },
+   "2": {
+    "technique": "Weaponized Generosity",
+    "source": "Zoroastrian communities may offer strong heritage support: communal identity, rituals around sacred fire, family networks, funeral rites, education, and preservation of a small ancient tradition."
+   },
+   "3": {
+    "technique": "Future Faking",
+    "source": "Zoroastrianism offers cosmic future vindication: good will ultimately overcome evil, truth will defeat the lie, creation will be renewed, and righteous souls will be judged."
+   },
+   "4": {
+    "technique": "Hoovering",
+    "source": "A Zoroastrian who distances from the community may be pulled back through survival language: “We are so few,” “Do not let the faith die,” “Preserve the fire.”"
+   },
+   "5": {
+    "technique": "Devaluation",
+    "source": "Zoroastrianism can devalue through communal survival pressure, purity boundaries, ancestry, marriage expectations, and preservation of a small ancient faith."
+   },
+   "6": {
+    "technique": "Gaslighting",
+    "source": "Someone questions marriage restrictions, conversion debates, purity boundaries, or communal gatekeeping, and is told they are endangering an ancient faith."
+   },
+   "7": {
+    "technique": "Double Bind",
+    "source": "Zoroastrianism exalts free choice between good and evil as its core — yet in some communities, choosing to marry out is treated as choosing evil, with children barred from initiation."
+   },
+   "8": {
+    "technique": "Intermittent Reinforcement",
+    "source": "In a shrinking community, priestly and communal regard is intensely felt and irregularly given; the young experience alternating waves of 'you are our future' warmth and gatekeeping coolness keyed to marriage and observance choices."
+   },
+   "9": {
+    "technique": "Moving the Goalposts",
+    "source": "A member participates in rituals. Then expectations expand into marriage boundaries, children’s identity, funeral rites, communal preservation, and loyalty to endangered heritage."
+   },
+   "10": {
+    "technique": "Strategic Ambiguity",
+    "source": "Community boundaries may be framed as theology, ancestry, survival, purity, custom, or practicality depending on criticism."
+   },
+   "11": {
+    "technique": "Projection",
+    "source": "A small community may accuse someone who marries out or raises children differently of endangering the faith while placing the burden of communal survival on individual bodies."
+   },
+   "12": {
+    "technique": "DARVO",
+    "source": "A person questions marriage restrictions, conversion boundaries, ritual exclusion, purity expectations, or communal gatekeeping. The response may deny coercion and frame it as preservation."
+   },
+   "13": {
+    "technique": "Normalization",
+    "source": "Small-community survival pressure becomes normalized: marry within, preserve identity, protect rituals, raise children correctly, maintain boundaries, preserve the flame."
+   },
+   "14": {
+    "technique": "Isolation",
+    "source": "Zoroastrian isolation can occur through small-community survival pressure, marriage expectations, ritual boundaries, ancestry rules, sacred fire, funerary practices, and communal gatekeeping."
+   },
+   "15": {
+    "technique": "Triangulation",
+    "source": "Zoroastrian triangulation can run through parents, priests, sacred fire, ancestry, marriage expectations, children, small-community survival, and ancient identity."
+   },
+   "16": {
+    "technique": "Flying Monkeys",
+    "source": "A Zoroastrian who marries out, questions ritual access, or raises children differently may face pressure from parents, priests, relatives, community elders, and preservation-minded peers."
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "A person who marries out or questions boundaries may be smeared as selfish, careless, disrespectful to ancestors, or responsible for weakening a small faith."
+   },
+   "18": {
+    "technique": "Silent Treatment",
+    "source": "A person questions marriage boundaries, conversion rules, ritual access, or communal gatekeeping and receives vague appeals to survival, purity, and tradition."
+   },
+   "19": {
+    "technique": "Manufactured Consent",
+    "source": "A person “chooses” endogamy after being told the community is small, ancient, endangered, and dependent on their marriage choices."
+   },
+   "20": {
+    "technique": "Trauma Bonding",
+    "source": "A small community may create distress around survival: “We are few,” “preserve the flame,” “marry correctly,” “raise the children properly.”"
+   },
+   "21": {
+    "technique": "Learned Helplessness",
+    "source": "A person tries to choose marriage, children’s identity, or ritual participation freely but is met with survival anxiety."
+   },
+   "22": {
+    "technique": "Benevolent Control",
+    "source": "Marriage expectations, ritual boundaries, children’s identity, and communal gatekeeping are framed as protecting an endangered ancient faith."
+   },
+   "23": {
+    "technique": "Infantilization",
+    "source": "Adults may be treated as irresponsible if they marry out, raise children differently, or question ritual boundaries."
+   },
+   "24": {
+    "technique": "Identity Erosion",
+    "source": "The person’s identity may become tied to sacred fire, ancestry, purity, marriage, children, funerary rites, and survival of a small ancient community."
+   },
+   "26": {
+    "technique": "Financial Control",
+    "source": "Zoroastrian financial control may involve fire temple support, community funds, ritual costs, funerary practices, weddings, schools, charity, and preservation campaigns."
+   },
+   "27": {
+    "technique": "Manufactured Crisis",
+    "source": "Zoroastrian communities may manufacture crisis around intermarriage, children’s identity, conversion, ritual access, funerary rites, and demographic decline."
+   },
+   "28": {
+    "technique": "Discard",
+    "source": "A person who marries out, questions conversion rules, or raises children differently may be treated as weakening the faith."
+   },
+   "30": {
+    "technique": "Plausible Deniability",
+    "source": "Endogamy expectations may be described as personal choice, while marrying out marks someone as weakening a tiny community."
+   }
+  }
+ }
+}

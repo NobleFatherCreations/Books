@@ -156,7 +156,7 @@ CSS = f"""
 @font-face {{ font-family: Inter; src: url('file://{FONTS}/Inter-SemiBold.woff2'); font-weight: 600; }}
 @font-face {{ font-family: Inter; src: url('file://{FONTS}/Inter-Bold.woff2'); font-weight: 700; }}
 @font-face {{ font-family: Inter; src: url('file://{FONTS}/Inter-ExtraBold.woff2'); font-weight: 800; }}
-:root {{ --bg:#14110F; --text:#F4EEDF; --gold:#E2B84A; --mute:#A39A88; --rule:#3A332B; --s:1; }}
+:root {{ --bg:#14110F; --text:#F4EEDF; --gold:#E2B84A; --mute:#A39A88; --rule:#3A332B; --s:0.84; }}
 * {{ box-sizing: border-box; margin: 0; padding: 0; }}
 html, body {{ width: 1080px; height: 1920px; background: var(--bg); }}
 body {{ font-family: Inter, sans-serif; color: var(--text); -webkit-font-smoothing: antialiased; }}
@@ -191,11 +191,18 @@ h2 {{ font-size: calc(76px*var(--s)); line-height: 1.05; font-weight: 800; lette
 .big {{ font-size: calc(58px*var(--s)); line-height: 1.18; font-weight: 700; }}
 .big em {{ font-style: normal; color: var(--gold); }}
 .list p {{ font-size: calc(46px*var(--s)); line-height: 1.22; font-weight: 600; margin-top: calc(22px*var(--s)); }}
+.box30 {{ position: absolute; left: 64px; top: 105px; width: 896px; height: 1535px; overflow: hidden; display: flex; flex-direction: column; }}
+.r30 {{ display: flex; gap: calc(14px*var(--s)); align-items: flex-start; border-top: 1px solid var(--rule); padding: calc(6px*var(--s)) 0; font-size: calc(22px*var(--s)); line-height: 1.22; }}
+.r30 .dot {{ flex: none; border-radius: 50%; margin-top: calc(6px*var(--s)); width: calc(15px*var(--s)); height: calc(15px*var(--s)); }}
+.r30 .ix {{ flex: none; width: calc(26px*var(--s)); color: var(--gold); font-weight: 700; font-size: calc(18px*var(--s)); padding-top: calc(3px*var(--s)); }}
+.r30 b {{ font-weight: 700; color: var(--text); }} .r30 span.t {{ color: #D9D1BE; }}
+.hd {{ margin-bottom: calc(10px*var(--s)); }}
 """
 
 
-def page(inner, mid=False):
-    return f'<!doctype html><meta charset="utf-8"><style>{CSS}</style><div class="box{" mid" if mid else ""}">{inner}</div>'
+def page(inner, mid=False, cls=''):
+    base = '<style>:root{--s:1}</style>' if cls == 'box30' else ''
+    return f'<!doctype html><meta charset="utf-8"><style>{CSS}</style>{base}<div class="box{" mid" if mid else ""}{" " + cls if cls else ""}">{inner}</div>'
 
 
 def s_cover():
@@ -217,14 +224,14 @@ def s_stages():
 
 
 def s_techniques(part, canon):
-    names = canon[part * 10:(part + 1) * 10]
+    names = canon[part * 15:(part + 1) * 15]
     rows = ''
     for k, nme in enumerate(names):
         gift, gloss = INV[nme]
         gloss += '' if gloss[-1] in '.”' else '.'
-        rows += (f'<div class="row" style="padding:11px 0"><div style="font-size:calc(46px*var(--s));font-weight:700;line-height:1.1"><span class="num" style="font-size:calc(26px*var(--s))">{part * 10 + k + 1}</span>&nbsp; {e(nme)}</div>'
-                 f'<div class="a" style="font-size:calc(32px*var(--s));margin-top:3px;color:var(--text)"><span style="color:var(--gold);font-weight:600">{e(gift[0].upper() + gift[1:])}, reversed:</span> {e(gloss)}</div></div>')
-    return page(f'<div class="kick">Thirty inversions · {part + 1} of 3</div><div class="fill" style="margin-top:6px">{rows}</div>')
+        rows += (f'<div class="row" style="padding:12px 0"><div style="font-size:calc(42px*var(--s));font-weight:700;line-height:1.1"><span class="num" style="font-size:calc(24px*var(--s))">{part * 15 + k + 1}</span>&nbsp; {e(nme)}</div>'
+                 f'<div class="a" style="font-size:calc(30px*var(--s));margin-top:3px;color:var(--text)"><span style="color:var(--gold);font-weight:600">{e(gift[0].upper() + gift[1:])}, reversed:</span> {e(gloss)}</div></div>')
+    return page(f'<div class="kick">Thirty inversions · {part + 1} of 2</div><div class="fill" style="margin-top:6px">{rows}</div>')
 
 
 def s_scale():
@@ -244,17 +251,19 @@ def s_grades():
                 f'<div style="margin-top:18px">{rows}</div><div class="sub" style="font-size:calc(30px*var(--s))">A grade says what kind of source backs it, not how bad it is.</div>')
 
 
-def s_religion(r, canon):
-    cells = ''
-    order = list(range(15)) + list(range(15, 30))
-    for i in order:
-        g = r['grades'][i]
-        cells += f'<div class="cell"><span class="dot" style="background:{GCOL[g]}"></span><span class="n">{i + 1}</span><span class="nm">{e(canon[i])}</span></div>'
+def s_religion(r, canon, lines):
     from collections import Counter
+    rows = ''.join(f'<div class="r30"><span class="dot" style="background:{GCOL[g]}"></span><div><b>{e(canon[i])}.</b> <span class="t">{e(lines[str(i + 1)])}</span></div></div>' for i, g in enumerate(r['grades']))
     c = Counter(r['grades'])
     leg = ''.join(f'<span><i style="background:{GCOL[g]}"></i>{g} {c[g]}</span>' for g, _, _ in GRADES if c.get(g))
-    return page(f'<div class="kick">{e(r["family"])}</div><h2 style="font-size:calc(70px*var(--s));margin-top:10px">{e(r["title"])}</h2>'
-                f'<div class="grid">{cells}</div><div class="legend">{leg}</div>')
+    return page(f'<div class="kick" style="font-size:calc(24px*var(--s))">{e(r["family"])}</div><h2 style="font-size:calc(56px*var(--s));margin-top:6px">{e(r["title"])}</h2>'
+                f'<div class="a hd" style="font-size:calc(24px*var(--s));margin-top:6px">How each of the 30 techniques shows up here</div>{rows}<div class="legend" style="margin-top:calc(12px*var(--s));font-size:calc(21px*var(--s))">{leg}</div>', cls='box30')
+
+
+def s_sector30(num, name, controls, canon, lines, k, total):
+    rows = ''.join(f'<div class="r30"><span class="ix">{i + 1}</span><div><b>{e(canon[i])}.</b> <span class="t">{e(lines[str(i + 1)])}</span></div></div>' for i in range(30))
+    return page(f'<div class="kick" style="font-size:calc(24px*var(--s))">Everywhere else · {k} of {total}</div><h2 style="font-size:calc(56px*var(--s));margin-top:6px">{e(name)}</h2>'
+                f'<div class="a hd" style="font-size:calc(25px*var(--s));margin-top:6px;color:var(--gold);font-weight:600">Controls: {e(controls)}</div>{rows}', cls='box30')
 
 
 def s_sector(s):
@@ -275,22 +284,44 @@ def s_earth():
 
 
 # ---------------------------------------------------------------------------------------------- build
+def load_lines():
+    """Slide-ready one-sentence lines (content/counterfeit/lines.json, from counterfeit-lines.py merge). Without it, truncated sources are
+    used for layout testing only and the run says so."""
+    p = os.path.join(ROOT, 'content/counterfeit/lines.json')
+    if os.path.exists(p): return json.load(open(p, encoding='utf-8')), True
+    src = json.load(open(os.path.join(ROOT, 'content/counterfeit/sources.json'), encoding='utf-8'))
+    cut = lambda t: t if len(t) <= 95 else t[:92].rsplit(' ', 1)[0] + '.'
+    return {'religions': {r: {n: cut(t) for n, t in d.items()} for r, d in src['religions'].items()},
+            'fractal': {k: {n: cut(t) for n, t in v['src'].items()} for k, v in src['fractal'].items()}}, False
+
+
+def fractal_sectors():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location('cl', os.path.join(ROOT, 'scripts/counterfeit-lines.py')); cl = importlib.util.module_from_spec(spec); spec.loader.exec_module(cl)
+    return [x for x in cl.fractal_blob()['sectors'] if x['num'] != 1]
+
+
 def build_slides():
-    canon = canon_techniques(); rel = religions(canon); sec = [s for s in sectors() if s['n'] != 1]
-    assert len(rel) == 34 and len(sec) == 29, (len(rel), len(sec))
+    canon = canon_techniques(); rel = religions(canon); story = {x['n']: x for x in sectors()}; fsec = fractal_sectors()
+    lines, ready = load_lines()
+    assert len(rel) == 34 and len(fsec) == 29, (len(rel), len(fsec))
     L = [('cover', 'Series cover', s_cover()), ('pairs', 'Original vs copy', s_pairs()), ('stages', 'The eight steps', s_stages())]
-    L += [(f'techniques-{i + 1}', f'Thirty techniques {i + 1}/3', s_techniques(i, canon)) for i in range(3)]
+    L += [(f'techniques-{i + 1}', f'Thirty techniques {i + 1}/2', s_techniques(i, canon)) for i in range(2)]
     L += [('scale', 'It does not stop at people', s_scale()),
           ('religion-cover', 'Religion cover', s_cover2('Part one', 'Religion', 'The same thirty techniques, graded in 34 traditions.')),
           ('grades', 'How to read the grades', s_grades())]
-    L += [(f'religion-{r["id"]}', r['title'], s_religion(r, canon)) for r in rel]
+    L += [(f'religion-{r["id"]}', r['title'], s_religion(r, canon, lines['religions'][r['id']])) for r in rel]
     L += [('elsewhere-cover', 'Everywhere else cover', s_cover2('Part two', 'Everywhere<br>else', 'The same cycle, in 29 more places you live.'))]
-    L += [(f'sector-{s["n"]:02d}-{re.sub("[^a-z]+", "-", s["raw"].lower()).strip("-")}', s['raw'].title(), s_sector(s)) for s in sec]
+    for k, x in enumerate(fsec, 1):
+        slug = f'sector-{x["num"]:02d}-{re.sub("[^a-z]+", "-", x["short"].lower()).strip("-")}'
+        if x['techs']: L.append((slug, x['short'], s_sector30(x['num'], x['short'], x['controls'], canon, lines['fractal'][str(x['num'])], k, 29)))
+        else: L.append((slug, x['short'] + ' (story)', s_sector(story[x['num']])))   # the book has no technique-by-technique examples for this sector
     L += [('mother-earth', 'Mother Earth', s_earth())]
+    print('lines slide-ready:' , ready)
     return L
 
 
-FIT = """() => { const b = document.querySelector('.box'); let s = 1, n = 0;
+FIT = """() => { const b = document.querySelector('.box'); let s = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--s')), n = 0;
   while (b.scrollHeight > b.clientHeight + 1 && s > 0.5 && n < 60) { s -= 0.02; document.documentElement.style.setProperty('--s', s.toFixed(2)); n++; }
   return s; }"""
 

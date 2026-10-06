@@ -1,0 +1,147 @@
+#!/usr/bin/env python3
+"""One-sentence examples for the Counterfeit slides: build the input files for the condensing agents, check their output, merge.
+
+  counterfeit-lines.py inputs     write content/counterfeit/in-*.json (items whose source sentence is too long for one slide row)
+  counterfeit-lines.py check F    check content/counterfeit/out-F.json against its input (length, one sentence, no new facts)
+  counterfeit-lines.py merge      write content/counterfeit/lines.json (short sources kept verbatim + checked agent output)
+
+Religion source: the first bullet of each technique's "How it shows here" (card volumes) or the "How it appears here" cell (table volumes).
+Fractal source: the individual-level example of each technique in each sector (library/fractal/index.html data blob).
+A line is a single sentence of at most MAXLEN characters, in the source's own words: no new facts, no new numbers."""
+import json, os, pickle, re, sys
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+RELIG = os.path.join(ROOT, 'content/sacred-divide/religions'); OUT = os.path.join(ROOT, 'content/counterfeit')
+MAXLEN = 95
+STOP = set('the a an and or of to in on for with by from as at is are was were be been it its that this these those their his her they them you your we our who whom which what when where while than then so not no but if into onto over under about after before through across within without can may might will would should could also more most some any each every one two three has have had do does did'.split())
+
+
+def clean(x):
+    x = re.sub(r'\s*\[\d+\](?:\[\d+\])*', '', x); x = re.sub(r'\s*\[[A-Z][A-Z /\-]+(?::[^\]]*)?\]', '', x)
+    return re.sub(r'\s+', ' ', re.sub(r'\*\*|\*', '', x)).strip()
+
+
+def canon():
+    t = open(os.path.join(RELIG, 'hare-krishna.md'), encoding='utf-8').read()
+    return [re.sub(r' / .*', '', n).strip() for n in re.findall(r'^#### \d+ · (.+?)(?: \{#t-\d+\})?$', t, re.M)[:30]]
+
+
+def religion_sources():
+    out = {}
+    for fn in sorted(os.listdir(RELIG)):
+        if not fn.endswith('.md') or fn.startswith('_') or fn == 'README.md': continue
+        rid = fn[:-3]; t = open(os.path.join(RELIG, fn), encoding='utf-8').read(); src = {}
+        heads = [(m.start(), int(m.group(1))) for m in re.finditer(r'^#### (\d+) · ', t, re.M)][:30]
+        if len(heads) == 30:
+            for k, (pos, n) in enumerate(heads):
+                end = heads[k + 1][0] if k + 1 < 30 else pos + 6000
+                m = re.search(r'\*\*How it shows here\*\*\s*\n\s*\n((?:- .+\n?)+)', t[pos:end])
+                src[n] = clean(re.findall(r'^- (.+)$', m.group(1), re.M)[0])
+        else:
+            sec = re.search(r'^## 12\..*?(?=^## 13\.)', t, re.S | re.M).group(0)
+            for l in sec.splitlines():
+                m = re.match(r'^\|\s*(\d+)\s*\|[^|]*\|[^|]*\|([^|]*)\|', l)
+                if m and 1 <= int(m.group(1)) <= 30: src[int(m.group(1))] = clean(m.group(2))
+        assert len(src) == 30, (rid, len(src))
+        out[rid] = src
+    return out
+
+
+def fractal_blob():
+    h = open(os.path.join(ROOT, 'library/fractal/index.html'), encoding='utf-8', errors='ignore').read()
+    j = h.find('"scales": [{"key": "ind"'); depth = 0; i = j
+    while i > 0:
+        i -= 1
+        if h[i] == '}': depth += 1
+        elif h[i] == '{':
+            if depth == 0: break
+            depth -= 1
+    return json.JSONDecoder().raw_decode(h[i:])[0]
+
+
+def fractal_sources():
+    o = fractal_blob()   # sectors[].techs[].ind/inst/civ: the book's per-sector, per-technique examples at three scales
+    return {s['num']: {'name': s['short'], 'src': {t['num']: clean(t['ind']) for t in s['techs']}} for s in o['sectors'] if s['techs'] and s['num'] != 1}
+
+
+def good(s):
+    return len(s) <= MAXLEN and s[-1] in '.”"' and s[0].isupper() and len(re.findall(r'[.!?](?:\s+[A-Z“"]|$)', s)) <= 1 and '…' not in s and ' — ' not in s[:0]
+
+
+def words(s):
+    return [w[:5] for w in re.findall(r"[a-z0-9']+", s.lower()) if w not in STOP and len(w) > 2]
+
+
+def problems(line, src):
+    p = []
+    if len(line) > MAXLEN: p.append(f'{len(line)} chars (max {MAXLEN})')
+    if not line or line[-1] not in '.”"': p.append('does not end with a full stop')
+    if len(re.findall(r'[.!?](?:["”]?\s+[A-Z“"])', line)) > 0: p.append('more than one sentence')
+    if '…' in line or '...' in line: p.append('ellipsis')
+    if re.search(r'\[\d', line): p.append('citation marker')
+    sw = set(words(src)); lw = words(line)
+    new = [w for w in lw if w not in sw]
+    if lw and len(new) / len(lw) > 0.45: p.append('too many words not in the source: ' + ', '.join(sorted(set(new))[:6]))
+    nums = set(re.findall(r'\d[\d,.]*', line)) - set(re.findall(r'\d[\d,.]*', src))
+    if nums: p.append('number not in source: ' + ', '.join(nums))
+    return p
+
+
+def cmd_inputs():
+    names = canon(); R = religion_sources(); F = fractal_sources(); os.makedirs(OUT, exist_ok=True)
+    pending_r = {rid: {n: s for n, s in src.items() if not good(s)} for rid, src in R.items()}
+    pending_f = {num: {n: s for n, s in d['src'].items() if not good(s)} for num, d in F.items()}
+    json.dump({'names': names, 'religions': R, 'fractal': {str(k): v for k, v in F.items()}}, open(os.path.join(OUT, 'sources.json'), 'w'), indent=1, ensure_ascii=False)
+    rids = [r for r in R if pending_r[r]]
+    batches = [rids[i::4] for i in range(4)]
+    for i, b in enumerate(batches, 1):
+        json.dump({'kind': 'religion', 'items': {rid: {str(n): {'technique': names[n - 1], 'source': s} for n, s in pending_r[rid].items()} for rid in b}}, open(os.path.join(OUT, f'in-r{i}.json'), 'w'), indent=1, ensure_ascii=False)
+    nums = [n for n in F if pending_f[n]]
+    for i, b in enumerate([nums[0::2], nums[1::2]], 1):
+        json.dump({'kind': 'fractal', 'items': {str(num): {'sector': F[num]['name'], 'lines': {str(n): {'technique': names[n - 1], 'source': s} for n, s in pending_f[num].items()}} for num in b}}, open(os.path.join(OUT, f'in-f{i}.json'), 'w'), indent=1, ensure_ascii=False)
+    print('religion lines to condense:', sum(len(v) for v in pending_r.values()), 'of', 34 * 30, '| fractal:', sum(len(v) for v in pending_f.values()), 'of', sum(len(d['src']) for d in F.values()))
+
+
+def items_of(inp):
+    d = json.load(open(inp, encoding='utf-8'))
+    if d['kind'] == 'religion':
+        for rid, its in d['items'].items():
+            for n, v in its.items(): yield rid, n, v['source']
+    else:
+        for num, sec in d['items'].items():
+            for n, v in sec['lines'].items(): yield num, n, v['source']
+
+
+def cmd_check(tag):
+    inp = os.path.join(OUT, f'in-{tag}.json'); outp = os.path.join(OUT, f'out-{tag}.json')
+    out = json.load(open(outp, encoding='utf-8')); bad = 0; n = 0
+    for a, b, src in items_of(inp):
+        n += 1; line = out.get(a, {}).get(b)
+        if line is None: print('MISSING', a, b); bad += 1; continue
+        pr = problems(line, src)
+        if pr: bad += 1; print(f'{a} #{b}: {line!r} -> ' + '; '.join(pr))
+    print(f'{n} lines checked, {bad} with problems')
+    return bad
+
+
+def cmd_merge():
+    R = religion_sources(); F = fractal_sources(); res = {'religions': {rid: dict(src) for rid, src in R.items()}, 'fractal': {str(k): dict(v['src']) for k, v in F.items()}}
+    res['religions'] = {rid: {str(n): s for n, s in d.items()} for rid, d in res['religions'].items()}
+    res['fractal'] = {k: {str(n): s for n, s in d.items()} for k, d in res['fractal'].items()}
+    miss = 0
+    for tag in ['r1', 'r2', 'r3', 'r4', 'f1', 'f2']:
+        p = os.path.join(OUT, f'out-{tag}.json')
+        if not os.path.exists(p): continue
+        out = json.load(open(p, encoding='utf-8')); key = 'religions' if tag[0] == 'r' else 'fractal'
+        for a, d in out.items():
+            for b, line in d.items(): res[key][a][b] = line
+    for key in res:
+        for a, d in res[key].items():
+            for b, line in d.items():
+                if not good(line): miss += 1
+    json.dump(res, open(os.path.join(OUT, 'lines.json'), 'w'), indent=1, ensure_ascii=False)
+    print('merged; lines still not slide-ready:', miss)
+
+
+if __name__ == '__main__':
+    {'inputs': cmd_inputs, 'merge': cmd_merge}.get(sys.argv[1], lambda: cmd_check(sys.argv[2]))()

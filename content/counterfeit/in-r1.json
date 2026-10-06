@@ -1,0 +1,771 @@
+{
+ "kind": "religion",
+ "items": {
+  "ahmadiyya": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "Converts are embraced by a global family, with the Khalifa's name, an instant role, and hospitality."
+   },
+   "2": {
+    "technique": "Weaponized Generosity",
+    "source": "Community help (jobs, housing, marriage introductions) arrives through the same structure that records your contributions."
+   },
+   "3": {
+    "technique": "Future Faking",
+    "source": "Members are promised nearness to God, the Khalifa's prayers, and burial in the Wasiyyat cemetery."
+   },
+   "7": {
+    "technique": "Double Bind",
+    "source": "The teaching \"No compulsion in religion\" sits alongside a boycott of those who leave that former members report is expected."
+   },
+   "9": {
+    "technique": "Moving the Goalposts",
+    "source": "Aam leads to Wasiyyat, which leads to new schemes, each published with its rates; each level of sacrifice exposes the next."
+   },
+   "10": {
+    "technique": "Strategic Ambiguity",
+    "source": "The community's own guide calls Chanda Aam \"compulsory\" and other chandas \"voluntary\", yet says voluntary chandas are not accepted from a member who does not pay the obligatory ones."
+   },
+   "12": {
+    "technique": "DARVO",
+    "source": "A member raising a complaint against an office-bearer becomes the problem for \"creating disorder\"."
+   },
+   "14": {
+    "technique": "Isolation",
+    "source": "Marriage, friendship and leisure are centered on the jamaat, and marriage outside it is restricted for women."
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "Community writing frames organized critics as conspiracies against the Jamaat; former members report being called misled."
+   }
+  },
+  "catholicism": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "A wounded person is folded into parish life through Mass invitations, parish meals, RCIA classes (the course by which adults are received into the Church), confession, spiritual direction, saints, candles, ritual beauty, and the promise of finally belonging to something ancient and stable."
+   },
+   "2": {
+    "technique": "Weaponized Generosity",
+    "source": "Catholic parishes, schools, charities, hospitals, shelters, and social services often provide real material help: food, education, counseling, adoption support, immigration assistance, burial rites, and crisis care."
+   },
+   "3": {
+    "technique": "Future Faking",
+    "source": "Catholicism offers a massive future economy: heaven, purgatory, indulgences, masses for the dead, confession, sacraments, final rites, sainthood, and eternal union with God."
+   },
+   "4": {
+    "technique": "Hoovering",
+    "source": "A lapsed Catholic may be approached through guilt-heavy language: “Come home,” “The Church is your mother,” “You’re cutting yourself off from the sacraments,” “You need confession.”"
+   },
+   "5": {
+    "technique": "Devaluation",
+    "source": "Catholicism can devalue through inherited guilt, original sin, mortal sin, venial sin, confession, penance, shame around sexuality, and dependence on sacramental restoration."
+   },
+   "6": {
+    "technique": "Gaslighting",
+    "source": "A Catholic questions clerical authority, and the response is, “You are rejecting the Church Christ founded,” instead of addressing the actual abuse, cover-up, or contradiction."
+   },
+   "7": {
+    "technique": "Double Bind",
+    "source": "Catholics are taught to obey conscience as the voice of God — and taught that a conscience contradicting the Magisterium is 'malformed.' Follow conscience and you sin; suppress it and you betray it."
+   },
+   "8": {
+    "technique": "Intermittent Reinforcement",
+    "source": "Grace arrives through sacraments the institution meters: absolution granted through confession, communion through worthiness, blessing through standing. The peace is real, wears off, and is refilled at one counter."
+   },
+   "9": {
+    "technique": "Moving the Goalposts",
+    "source": "A Catholic confesses a sin and receives absolution, but socially or spiritually the shame remains: “Yes, God forgives, but you still need deeper repentance, penance, purity, obedience, and formation.”"
+   },
+   "10": {
+    "technique": "Strategic Ambiguity",
+    "source": "Catholic teaching can sound absolute in doctrine but flexible in pastoral application, allowing leaders to appear compassionate without changing the structure."
+   },
+   "11": {
+    "technique": "Projection",
+    "source": "Catholic hierarchy may accuse critics of attacking the Church while ignoring that clerical abuse and cover-ups attacked the vulnerable first."
+   },
+   "12": {
+    "technique": "DARVO",
+    "source": "Clerical abuse is denied, minimized, transferred, buried in process, or reframed as the failure of individual priests rather than institutional protection."
+   },
+   "13": {
+    "technique": "Normalization",
+    "source": "Children may be normalized early into confession, mortal sin, venial sin, guilt, penance, priestly authority, and the idea that intimate moral failures should be disclosed to clergy."
+   },
+   "14": {
+    "technique": "Isolation",
+    "source": "Catholic isolation often works through institutional authority: the faithful are warned against secular relativism, anti-Catholic media, “cafeteria Catholicism,” Protestant error, modern sexual ethics, and malformed conscience."
+   },
+   "15": {
+    "technique": "Triangulation",
+    "source": "Catholic triangulation often runs through priest, bishop, pope, saints, tradition, family, sacraments, and “Holy Mother Church.” You are rarely just disagreeing with a local priest; you are positioned as disagreeing with the Church across centuries."
+   },
+   "16": {
+    "technique": "Flying Monkeys",
+    "source": "A lapsed Catholic is pressured by parents, grandparents, godparents, priests, Catholic school networks, parish friends, and relatives: “Come back to Mass,” “Go to confession,” “Think of your children’s sacraments.”"
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "Critics of clerical abuse, hierarchy, or doctrine may be framed as anti-Catholic, rebellious, secularized, poorly catechized, or hostile to the Church."
+   },
+   "18": {
+    "technique": "Silent Treatment",
+    "source": "Abuse survivors may face layers of diocesan bureaucracy, canonical process, pastoral language, legal caution, and institutional delay."
+   },
+   "19": {
+    "technique": "Manufactured Consent",
+    "source": "Children receive sacraments before they can understand the full theological, sexual, institutional, and lifelong implications of Catholic identity."
+   },
+   "20": {
+    "technique": "Trauma Bonding",
+    "source": "Catholicism can bind people through guilt and relief: mortal sin, confession, absolution, penance, Eucharist, and sacramental restoration."
+   },
+   "21": {
+    "technique": "Learned Helplessness",
+    "source": "A Catholic tries confession, penance, Mass, prayer, and obedience but still feels unworthy or trapped in recurring sin."
+   },
+   "22": {
+    "technique": "Benevolent Control",
+    "source": "Catholic authority presents restrictions on sexuality, marriage, contraception, divorce, remarriage, confession, and sacraments as loving moral guidance."
+   },
+   "23": {
+    "technique": "Infantilization",
+    "source": "Priests are called Father, and the Church is called Mother, creating a family hierarchy where laypeople remain spiritual children."
+   },
+   "24": {
+    "technique": "Identity Erosion",
+    "source": "Catholic identity can absorb the person through sacrament, family, school, confession, parish, doctrine, saints, Mary, priestly authority, and “Holy Mother Church.”"
+   },
+   "25": {
+    "technique": "Spiritual Bypassing",
+    "source": "Suffering is bypassed through “offer it up,” redemptive suffering, penance, confession, and obedience."
+   },
+   "26": {
+    "technique": "Financial Control",
+    "source": "Catholic financial control can appear through parish giving, school tuition, sacramental fees, annulment-related costs, Mass intentions, fundraising campaigns, diocesan appeals, and institutional charities."
+   },
+   "27": {
+    "technique": "Manufactured Crisis",
+    "source": "Catholic crisis language may center secularism, moral collapse, attacks on the family, threats to the Church, anti-Catholic media, declining vocations, or sacramental danger."
+   },
+   "28": {
+    "technique": "Discard",
+    "source": "A Catholic who challenges clerical abuse or doctrine may be treated as outside the faithful imagination: lapsed, rebellious, anti-Catholic, poorly formed."
+   },
+   "29": {
+    "technique": "Replacement",
+    "source": "A questioning layperson leaves; parish life continues with another volunteer, donor, catechist, teacher, or family."
+   },
+   "30": {
+    "technique": "Plausible Deniability",
+    "source": "The Church can say it does not control individual conscience, while also teaching that conscience must be “properly formed” by Church authority. If the conscience agrees, it is conscience. If it disagrees, it is malformed."
+   }
+  },
+  "eastern-orthodoxy": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "The convert is enchanted by incense, icons, chanting, fasting cycles, liturgy, beards, ancientness, and the claim that this is not a denomination but “the Church.”"
+   },
+   "2": {
+    "technique": "Weaponized Generosity",
+    "source": "Converts may receive intense hospitality: meals after liturgy, invitations into homes, spiritual direction, fasting guidance, icons, prayer ropes, books, and a ready-made sense of ancient belonging."
+   },
+   "3": {
+    "technique": "Future Faking",
+    "source": "Orthodoxy offers theosis: becoming united with God, healed from corruption, transfigured into divine likeness. It is one of the most beautiful future promises in Christianity — and therefore one of the most powerful hooks."
+   },
+   "4": {
+    "technique": "Hoovering",
+    "source": "When someone leaves Orthodoxy, they may be told they are abandoning the fullness of the faith, the ancient Church, the saints, the sacraments, and the spiritual hospital."
+   },
+   "5": {
+    "technique": "Devaluation",
+    "source": "Eastern Orthodoxy can devalue through relentless emphasis on the passions, pride, delusion, spiritual sickness, unworthiness, and the need for lifelong healing inside the Church."
+   },
+   "6": {
+    "technique": "Gaslighting",
+    "source": "A convert senses authoritarian control from a priest or spiritual father, and the response is, “That is your pride resisting obedience.”"
+   },
+   "7": {
+    "technique": "Double Bind",
+    "source": "Converts are told Orthodoxy is freedom from Western legalism — then handed fasting rules, prayer rules, and a spiritual father whose blessing is required for major life decisions. Ask about the rules and you are 'thinking like a Westerner.'"
+   },
+   "8": {
+    "technique": "Intermittent Reinforcement",
+    "source": "The convert's early months deliver overwhelming beauty — then liturgy becomes routine, and the fading glow is diagnosed as their slackening prayer rule, thickening the rule to chase the feeling."
+   },
+   "9": {
+    "technique": "Moving the Goalposts",
+    "source": "Converts are first told, “Come and see.” Then they must become catechumens (people under instruction before reception into the Church), fast, confess, obey a priest, adopt an Orthodox calendar, reject Western habits, and internalize suspicion of their previous religious instincts."
+   },
+   "10": {
+    "technique": "Strategic Ambiguity",
+    "source": "Orthodoxy often says it is not legalistic, yet believers may face strict expectations around fasting, confession, sexuality, obedience, and liturgical participation."
+   },
+   "11": {
+    "technique": "Projection",
+    "source": "Orthodoxy may accuse Western Christianity, secular society, or converts who leave of pride, while demanding deep submission to priests, bishops, spiritual fathers, and tradition."
+   },
+   "12": {
+    "technique": "DARVO",
+    "source": "A parishioner reports clerical control, spiritual father abuse, confession misuse, ethnic exclusion, misogyny, or authoritarian leadership. The response becomes: “You are prideful,” “You lack humility,” “You are infected by Western individualism.”"
+   },
+   "13": {
+    "technique": "Normalization",
+    "source": "Converts are slowly accustomed to fasting cycles, confession, long liturgies, priestly guidance, spiritual father language, and suspicion of their previous religious instincts."
+   },
+   "14": {
+    "technique": "Isolation",
+    "source": "Eastern Orthodoxy can isolate converts by teaching them to distrust Western Christianity, secularism, modernity, feminism, liberalism, Protestant individualism, and “rationalism.”"
+   },
+   "15": {
+    "technique": "Triangulation",
+    "source": "Orthodoxy triangulates through spiritual fathers, godparents, saints, elders, monastics, icons, councils, and “the mind of the Church.”"
+   },
+   "16": {
+    "technique": "Flying Monkeys",
+    "source": "A convert begins questioning Orthodoxy, and suddenly the priest, godparent, catechist, convert friends, online Orthodox acquaintances, and parish elders all express concern about pride, prelest, Western rationalism, or spiritual danger."
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "A person leaving Orthodoxy may be labeled proud, spiritually deluded, Westernized, Protestant-minded, rationalistic, feminist, modernist, or unstable."
+   },
+   "18": {
+    "technique": "Silent Treatment",
+    "source": "A parishioner raises concerns about priestly control, confession misuse, misogyny, ethnic exclusion, or spiritual abuse and is told to speak privately with the priest — the very authority being questioned."
+   },
+   "19": {
+    "technique": "Manufactured Consent",
+    "source": "Converts “freely” enter Orthodoxy after being told it is the fullness of the faith, the ancient Church, and the hospital for the soul."
+   },
+   "20": {
+    "technique": "Trauma Bonding",
+    "source": "Orthodoxy calls itself a hospital for the soul while repeatedly emphasizing sickness, passions, pride, delusion, and unworthiness."
+   },
+   "21": {
+    "technique": "Learned Helplessness",
+    "source": "A believer tries fasting but is still proud; tries obedience but is still self-willed; tries confession but is still sick; tries questioning and is told that questioning proves delusion."
+   },
+   "22": {
+    "technique": "Benevolent Control",
+    "source": "The Church is framed as a hospital for the soul, and priests or spiritual fathers as physicians."
+   },
+   "23": {
+    "technique": "Infantilization",
+    "source": "The spiritual father model can position adult believers as patients, children, or disciples whose own judgment is suspect."
+   },
+   "24": {
+    "technique": "Identity Erosion",
+    "source": "Converts may gradually replace previous identity with Orthodox convert identity: icons, fasting, liturgy, saints, incense, confession, spiritual father, ancientness, and rejection of the West."
+   },
+   "25": {
+    "technique": "Spiritual Bypassing",
+    "source": "Pain is bypassed through humility, repentance, obedience, confession, fasting, and suspicion of pride."
+   },
+   "26": {
+    "technique": "Financial Control",
+    "source": "Orthodox parishes may rely on donations, stewardship pledges, candles, icons, festivals, building funds, monastery donations, and priest support."
+   },
+   "27": {
+    "technique": "Manufactured Crisis",
+    "source": "Orthodoxy may frame the modern West as spiritually diseased: secularism, Protestantism, feminism, liberalism, individualism, sexual confusion, and rationalism become existential threats."
+   },
+   "28": {
+    "technique": "Discard",
+    "source": "A convert celebrated as having “come home” may be dismissed as prideful, unstable, Westernized, or spiritually deluded after leaving."
+   },
+   "30": {
+    "technique": "Plausible Deniability",
+    "source": "Orthodoxy can say, “We do not have a legalistic rule system,” while parish life still heavily pressures fasting, confession, liturgy, obedience, sexual discipline, and priestly guidance."
+   }
+  },
+  "islam": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "A new convert may be celebrated by the local Muslim community with hugs, meals, gifts, Arabic phrases, invitations to iftar, and declarations that they are now part of the ummah (the worldwide community of Muslims)."
+   },
+   "2": {
+    "technique": "Weaponized Generosity",
+    "source": "A new Muslim may receive meals, gifts, Qurans, clothing, Arabic lessons, help with prayer, invitations to iftar, marriage introductions, and social protection from the ummah."
+   },
+   "3": {
+    "technique": "Future Faking",
+    "source": "Islam offers paradise as the ultimate deferred reward: gardens, rivers, peace, purified companionship, divine pleasure, safety from hell, reunion, and eternal success."
+   },
+   "4": {
+    "technique": "Hoovering",
+    "source": "A Muslim who distances from the mosque or from Islam may be contacted by family, friends, elders, or community members: “Come back to salah,” “Don’t forget Allah,” “The dunya is distracting you.” (Salah is the ritual prayer; the dunya is worldly life.)"
+   },
+   "5": {
+    "technique": "Devaluation",
+    "source": "Institutional Islam can devalue by emphasizing human weakness, forgetfulness, ingratitude, and need for divine guidance. Verses such as “man was created weak” (Qur’an 4:28) and “man is ungrateful to his Lord” (100:6) are scripture; the institutional move is to use them as a standing verdict on the believer rather than a call to humility."
+   },
+   "6": {
+    "technique": "Gaslighting",
+    "source": "A Muslim questions a rule and is told, “You are following your desires,” “Your iman is weak,” or “Shaytan is whispering to you.”"
+   },
+   "7": {
+    "technique": "Double Bind",
+    "source": "A questioning Muslim is told Islam commands the pursuit of knowledge — but the conclusions are pre-approved. Seek and stop short: lazy. Seek and arrive elsewhere: misguided, whispered-to by Shaytan."
+   },
+   "8": {
+    "technique": "Intermittent Reinforcement",
+    "source": "The sweetness of iman is taught as attainable and elusive — felt in Ramadan, gone by Muharram (the first month of the Islamic year) — and its absence is read as your sins hardening the heart, driving intensified practice to recover a feeling the community defines."
+   },
+   "9": {
+    "technique": "Moving the Goalposts",
+    "source": "A convert is first celebrated for saying the shahada (the declaration of faith). Then the expectations escalate: pray correctly, learn Arabic sounds, dress properly, fast, avoid old holidays, change friendships, marry appropriately, and stop questioning."
+   },
+   "10": {
+    "technique": "Strategic Ambiguity",
+    "source": "“There is no compulsion in religion” may be quoted publicly, while family, community, gender, and apostasy pressures make exit socially dangerous."
+   },
+   "11": {
+    "technique": "Projection",
+    "source": "Islamic authorities may accuse critics of arrogance before Allah while demanding obedience to human clerics, family systems, gender rules, and communal norms."
+   },
+   "12": {
+    "technique": "DARVO",
+    "source": "A person reports abuse by an imam, teacher, spouse, family elder, or community leader. The response may be denial, then accusations of slander, fitna, dishonoring the ummah, or helping enemies of Islam."
+   },
+   "13": {
+    "technique": "Normalization",
+    "source": "A convert gradually accepts increasing regulation: prayer times, Arabic recitation, halal food, Ramadan fasting, gender norms, dress codes, mosque expectations, and family/community scrutiny."
+   },
+   "14": {
+    "technique": "Isolation",
+    "source": "Islam can isolate through the concept of the ummah as primary belonging and through warnings against dunya, haram environments, non-Muslim influence, immodest spaces, alcohol culture, dating culture, and secular morality."
+   },
+   "15": {
+    "technique": "Triangulation",
+    "source": "Islam can triangulate through family, imam, mosque, Qur’an teacher, spouse, children, ummah, ancestors, and fear of outsiders."
+   },
+   "16": {
+    "technique": "Flying Monkeys",
+    "source": "A Muslim who questions Islam or mosque authority may be approached by parents, siblings, aunties, uncles, imams, spouses, and community members: “Come back to salah,” “Don’t embarrass the family,” “You’re being influenced.”"
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "Apostates or critics may be labeled arrogant, corrupted by the West, Islamophobic, traumatized, attention-seeking, immoral, or following desires."
+   },
+   "18": {
+    "technique": "Silent Treatment",
+    "source": "A person reports abuse by an imam, teacher, husband, elder, or family member and is told to be patient, avoid fitna, preserve family honor, or not damage the ummah."
+   },
+   "19": {
+    "technique": "Manufactured Consent",
+    "source": "A convert says the shahada in a warm community setting, then later discovers the social expectations around prayer, fasting, dress, marriage, family, gender, and apostasy."
+   },
+   "20": {
+    "technique": "Trauma Bonding",
+    "source": "The believer is taught fear of hell, the grave, Judgment Day, divine displeasure, and dying outside submission — then receives relief through prayer, fasting, repentance, Qur’an, mosque community, Ramadan, and the ummah."
+   },
+   "21": {
+    "technique": "Learned Helplessness",
+    "source": "A person asks about fear, gender pressure, family control, or doubt and is told to increase iman, make duʿa, be patient, and avoid Shaytan."
+   },
+   "22": {
+    "technique": "Benevolent Control",
+    "source": "Families and communities may control clothing, marriage, friendships, prayer, fasting, and public behavior while saying they are protecting faith, honor, modesty, and akhirah."
+   },
+   "24": {
+    "technique": "Identity Erosion",
+    "source": "Muslim identity can reorganize the entire self: name, dress, diet, daily schedule, prayer, gender interaction, family life, speech, sexuality, marriage, politics, and social belonging."
+   },
+   "25": {
+    "technique": "Spiritual Bypassing",
+    "source": "Abuse or family control may be bypassed with sabr (patience), duʿa, qadar (divine decree), “Allah tests those He loves,” or “Allah knows best.”"
+   },
+   "26": {
+    "technique": "Financial Control",
+    "source": "Islamic communities may use zakat, sadaqah, mosque donations, madrasa fees, Islamic school tuition, charity drives, and fundraising dinners."
+   },
+   "27": {
+    "technique": "Manufactured Crisis",
+    "source": "Islamic communities may manufacture crisis through fears of hell, apostasy, Western corruption, fitna, family dishonor, moral collapse, Islamophobia, and children losing Islam."
+   },
+   "28": {
+    "technique": "Discard",
+    "source": "A Muslim who doubts, removes hijab, leaves prayer, dates outside expectation, or questions Islam may be treated as spiritually dangerous."
+   }
+  },
+  "mormonism": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "Missionaries offer friendship, service, smiles, family-centered lessons, help moving furniture, meals, and repeated visits long before the convert understands temple obligations or historical controversies."
+   },
+   "2": {
+    "technique": "Weaponized Generosity",
+    "source": "Missionaries offer free labor, moving help, meals, friendship, lessons, family-centered attention, and repeated visits before the investigator understands the full cost of membership."
+   },
+   "3": {
+    "technique": "Future Faking",
+    "source": "Mormonism future-fakes with extraordinary specificity: eternal families, celestial glory, exaltation (the highest state of salvation), becoming like God, temple blessings, priesthood promises, and eternal progression."
+   },
+   "4": {
+    "technique": "Hoovering",
+    "source": "A less-active Mormon may receive bishop calls, ministering visits (visits by members assigned to look after one another), missionary visits, ward texts, cookies, invitations, and sudden friendliness from people who ignored them before."
+   },
+   "5": {
+    "technique": "Devaluation",
+    "source": "Mormonism can devalue through worthiness interviews, temple recommends, callings, priesthood hierarchy, sexual purity standards, and eternal family pressure."
+   },
+   "6": {
+    "technique": "Gaslighting",
+    "source": "A member raises historical problems, and the answer is, “Doubt your doubts before you doubt your faith.”"
+   },
+   "7": {
+    "technique": "Double Bind",
+    "source": "LDS members are told to seek personal revelation — which is authentic only when it confirms the prophet. Pray and agree: testimony. Pray and disagree: deception, or you asked wrong."
+   },
+   "8": {
+    "technique": "Intermittent Reinforcement",
+    "source": "Worthiness runs on renewable approval: temple recommends expire, callings are extended and released without explanation, and the member's institutional temperature is retaken at every interview."
+   },
+   "9": {
+    "technique": "Moving the Goalposts",
+    "source": "A person is told to pray about the Book of Mormon. If they feel something, that is testimony. Then testimony must become baptism, tithing, callings, temple worthiness, garments, obedience, and sustaining leaders."
+   },
+   "10": {
+    "technique": "Strategic Ambiguity",
+    "source": "“I know the Church is true” can mean gospel, leaders, institution, priesthood, temple, history, family, culture, or personal feeling depending on challenge."
+   },
+   "11": {
+    "technique": "Projection",
+    "source": "LDS leaders may accuse former members of being offended, lazy learners, deceived, or wanting to sin while avoiding historical, financial, doctrinal, or institutional criticism."
+   },
+   "12": {
+    "technique": "DARVO",
+    "source": "A member raises historical concealment, temple pressure, worthiness interviews, tithing coercion, racism, sexism, LGBTQ harm, or authority abuse. The Church denies wrongdoing or reframes it as misunderstanding, policy, culture, or imperfect people."
+   },
+   "13": {
+    "technique": "Normalization",
+    "source": "Children and teens may be normalized into worthiness interviews, bishop authority, temple recommends, tithing, modesty, missions, callings, testimony-bearing, and surveillance of private behavior."
+   },
+   "14": {
+    "technique": "Isolation",
+    "source": "Mormonism can isolate through ward life, callings, youth programs, missions, temple recommend systems, family sealing doctrine, tithing accountability, church schools, and approved media."
+   },
+   "15": {
+    "technique": "Triangulation",
+    "source": "Mormonism triangulates through bishop, stake president, prophet, apostles, spouse, parents, children, missionaries, ward members, ministering brothers and sisters, and deceased ancestors."
+   },
+   "16": {
+    "technique": "Flying Monkeys",
+    "source": "A doubting member may receive visits from ministering brothers and sisters, missionaries, ward friends, bishops, Relief Society leaders, parents, spouses, and siblings."
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "Former members may be described as offended, lazy learners, deceived, bitter, anti-Mormon, prideful, or wanting to sin."
+   },
+   "18": {
+    "technique": "Silent Treatment",
+    "source": "A member asks about history, finances, temple changes, worthiness interviews, racism, sexism, or LGBTQ harm and receives correlated answers, testimony language, or invitations to pray harder."
+   },
+   "19": {
+    "technique": "Manufactured Consent",
+    "source": "Children say they “choose” baptism at eight after being raised in a world where baptism is expected and celebrated."
+   },
+   "20": {
+    "technique": "Trauma Bonding",
+    "source": "LDS life bonds through family eternity, worthiness, testimony, bishop approval, temple access, and community belonging."
+   },
+   "21": {
+    "technique": "Learned Helplessness",
+    "source": "Members ask about history, doctrine, finances, gender, racism, or LGBTQ harm and are told to pray, study faithful sources, doubt doubts, and trust leaders."
+   },
+   "22": {
+    "technique": "Benevolent Control",
+    "source": "Bishops, worthiness interviews, callings, temple recommends, tithing, garments, and family sealing are framed as loving covenant care."
+   },
+   "23": {
+    "technique": "Infantilization",
+    "source": "Adults meet with bishops for worthiness approval, temple recommends, sexual confession, tithing status, callings, and spiritual permission."
+   },
+   "24": {
+    "technique": "Identity Erosion",
+    "source": "LDS identity can absorb the whole self: testimony, covenant path, temple worthiness, garments, tithing, callings, family sealing, mission, genealogy, priesthood, modesty, and eternal family."
+   },
+   "25": {
+    "technique": "Spiritual Bypassing",
+    "source": "Historical problems are bypassed with “continuing revelation,” “not essential to salvation,” or “focus on the basics.”"
+   },
+   "26": {
+    "technique": "Financial Control",
+    "source": "LDS financial control is especially direct through tithing, temple worthiness, missionary costs, fast offerings (monthly donations for the poor), callings, church cleaning, youth programs, and unpaid leadership."
+   },
+   "27": {
+    "technique": "Manufactured Crisis",
+    "source": "LDS manufactured crisis may center eternal families, temple worthiness, anti-Mormon material, pornography, modesty, missions, tithing, and staying on the covenant path."
+   },
+   "28": {
+    "technique": "Discard",
+    "source": "Former members may lose callings, temple access, ward belonging, family trust, and eternal-family security."
+   },
+   "30": {
+    "technique": "Plausible Deniability",
+    "source": "The Church says members have agency, while temple access, family eternity, callings, tithing, garments, and community status depend on obedience."
+   }
+  },
+  "pentecostal-charismatic": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "First-visit prayer by name, a ride home, a meal, and an immediate invitation into a department — in diaspora congregations often paperwork help, job leads, and a place to stay."
+   },
+   "2": {
+    "technique": "Weaponized Generosity",
+    "source": "Flood relief, school fees paid, funerals covered, rent bridged — genuine and enormous, and frequently better than the state provides."
+   },
+   "3": {
+    "technique": "Future Faking",
+    "source": "A specific prophetic word: this year is your year, the business will open, the child will come, the visa will be granted."
+   },
+   "4": {
+    "technique": "Hoovering",
+    "source": "Members who drift are called back with a new word, a special service, or the promise that their breakthrough was scheduled for this month."
+   },
+   "5": {
+    "technique": "Devaluation",
+    "source": "Poverty, illness, singleness, and childlessness are diagnosed as spiritual conditions — a spirit of poverty, a generational curse, an unbroken covenant."
+   },
+   "6": {
+    "technique": "Gaslighting",
+    "source": "A member points out that the promised harvest did not come and is told they misheard the word, or that it was conditional, or that it has already arrived in a form they failed to recognise."
+   },
+   "7": {
+    "technique": "Double Bind",
+    "source": "Give beyond your means and you are commended for faith; give within them and you are quietly marked as holding back."
+   },
+   "9": {
+    "technique": "Moving the Goalposts",
+    "source": "The seed was too small; then the timing was wrong; then the harvest was spiritual rather than material."
+   },
+   "10": {
+    "technique": "Strategic Ambiguity",
+    "source": "'Sow a significant seed' — significant is never defined, so members compete upward."
+   },
+   "11": {
+    "technique": "Projection",
+    "source": "Members who ask about finances are described as having a spirit of greed or a poverty mentality."
+   },
+   "12": {
+    "technique": "DARVO",
+    "source": "A journalist or commission publishes findings; the ministry becomes the persecuted party and the members become the aggrieved defenders."
+   },
+   "13": {
+    "technique": "Normalization",
+    "source": "Closing the doors during the offering; calling givers forward by amount; separate lines for tiers of giving."
+   },
+   "14": {
+    "technique": "Isolation",
+    "source": "Friends outside are 'not going where you're going'; family who question the giving are in unbelief."
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "Departing members are named from the pulpit as offended, backslidden (fallen away from faith), or under attack."
+   },
+   "18": {
+    "technique": "Silent Treatment",
+    "source": "Direct questions about accounts, ownership, or compensation are met with silence, deflection, or a change of topic."
+   },
+   "20": {
+    "technique": "Trauma Bonding",
+    "source": "The ministry that diagnoses your spiritual condition is the ministry that relieves it — fear and comfort from one hand, weekly."
+   },
+   "22": {
+    "technique": "Benevolent Control",
+    "source": "Prophetic direction over marriage, business, migration, and medical decisions, framed entirely as care."
+   },
+   "24": {
+    "technique": "Identity Erosion",
+    "source": "Members are renamed, reassigned, and rebuilt around ministry roles until the church calendar is the identity."
+   },
+   "25": {
+    "technique": "Spiritual Bypassing",
+    "source": "Grief, depression, and abuse are answered with deliverance rather than with medicine, therapy, or the police."
+   },
+   "26": {
+    "technique": "Financial Control",
+    "source": "Seed faith, first fruits, prophetic offerings, perpetual building funds, partnership tiers, priced anointed products."
+   },
+   "27": {
+    "technique": "Manufactured Crisis",
+    "source": "Recurring emergencies with deadlines — the property will be lost, the broadcast will go dark, the window closes Sunday."
+   },
+   "30": {
+    "technique": "Plausible Deniability",
+    "source": "No membership roll, no minutes, no constitution, no register of prophecies, no published accounts."
+   }
+  },
+  "seventh-day-adventism": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "Bible studies in your home, meals brought, hospital visits, and a Sabbath community that will hold a full day with you — for many members the genuine best of their week."
+   },
+   "3": {
+    "technique": "Future Faking",
+    "source": "Prophetic certainty about the last days, the time of trouble, and a Sunday law — imminent for a century and a half."
+   },
+   "4": {
+    "technique": "Hoovering",
+    "source": "Lapsed members visited, revisited, and invited to revival weeks and reaping campaigns (evangelistic meetings aimed at baptisms)."
+   },
+   "5": {
+    "technique": "Devaluation",
+    "source": "The investigative judgment: your record is under review in a heavenly court, and the outcome is not disclosed to you."
+   },
+   "6": {
+    "technique": "Gaslighting",
+    "source": "A member cites the church's own commissioned study on literary dependence and is told they have misunderstood inspiration."
+   },
+   "10": {
+    "technique": "Strategic Ambiguity",
+    "source": "'Lesser light' — authoritative but subordinate — a status never operationally defined."
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "Walter Rea lost his church employment in 1980, after his findings were reported in the press; the church's own later study substantially confirmed them."
+   },
+   "18": {
+    "technique": "Silent Treatment",
+    "source": "Direct questions about the investigative judgment answered with 'it is settled' and a change of subject."
+   },
+   "19": {
+    "technique": "Manufactured Consent",
+    "source": "'The church has spoken' following votes many members did not know were happening."
+   },
+   "30": {
+    "technique": "Plausible Deniability",
+    "source": "'Lesser light' as a formal status that functions as a decisive one — the gap is the deniability."
+   }
+  },
+  "soka-gakkai": {
+   "12": {
+    "technique": "DARVO",
+    "source": "The 1970 apology denied any intent to obstruct speech"
+   },
+   "15": {
+    "technique": "Triangulation",
+    "source": "Family, district and mentor align"
+   },
+   "16": {
+    "technique": "Flying Monkeys",
+    "source": "Members contact friends for votes"
+   }
+  },
+  "unification-church": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "A scholarly account describes recruiters approaching strangers in a friendly way while hiding the church's name, aimed at their personal and financial worries"
+   },
+   "2": {
+    "technique": "Weaponized Generosity",
+    "source": "Community care comes first, and obligation follows"
+   },
+   "3": {
+    "technique": "Future Faking",
+    "source": "The promise is lineage salvation and freed ancestors"
+   },
+   "4": {
+    "technique": "Hoovering",
+    "source": "Families pull members back, especially in the second generation"
+   },
+   "5": {
+    "technique": "Devaluation",
+    "source": "The teaching names a fallen lineage and Japan's national guilt"
+   },
+   "6": {
+    "technique": "Gaslighting",
+    "source": "Court findings are described as persecution"
+   },
+   "7": {
+    "technique": "Double Bind",
+    "source": "Free will is set against ancestral obligation"
+   },
+   "8": {
+    "technique": "Intermittent Reinforcement",
+    "source": "Sacrifice is praised, and doubt meets silence"
+   },
+   "9": {
+    "technique": "Moving the Goalposts",
+    "source": "France 24 quotes a source describing daily pressure to donate, with karma attached to money; this page cites no record of rising amounts"
+   },
+   "10": {
+    "technique": "Strategic Ambiguity",
+    "source": "The lawyers' network and legal analysis describe \"donations\" as solicited through sales of goods"
+   },
+   "11": {
+    "technique": "Projection",
+    "source": "Critics are cast as greedy lawyers"
+   },
+   "12": {
+    "technique": "DARVO",
+    "source": "Victims and courts are recast as persecutors"
+   },
+   "13": {
+    "technique": "Normalization",
+    "source": "Recurring offerings are treated as ordinary devotion"
+   },
+   "14": {
+    "technique": "Isolation",
+    "source": "Workshops, communal life and matched marriage isolate members"
+   },
+   "15": {
+    "technique": "Triangulation",
+    "source": "Parents, leaders and the True Parents align on marriage and giving"
+   },
+   "16": {
+    "technique": "Flying Monkeys",
+    "source": "Relatives press second-generation members to marry within the lineage"
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "Critics and lawyers are portrayed as anti-religious activists"
+   },
+   "18": {
+    "technique": "Silent Treatment",
+    "source": "Recovery has run through lawsuits by the lawyers' network; this page cites no source that refunds were refused"
+   },
+   "19": {
+    "technique": "Manufactured Consent",
+    "source": "Marriages are matched through the Blessing, and a second-generation member's \"choice\" is made inside that arrangement"
+   },
+   "20": {
+    "technique": "Trauma Bonding",
+    "source": "Shared persecution narrative binds members to leaders"
+   },
+   "21": {
+    "technique": "Learned Helplessness",
+    "source": "Families are unable to recover savings without lawyers"
+   },
+   "23": {
+    "technique": "Infantilization",
+    "source": "Adults' marriages are chosen for them"
+   },
+   "24": {
+    "technique": "Identity Erosion",
+    "source": "Selfhood is defined as lineage position"
+   },
+   "25": {
+    "technique": "Spiritual Bypassing",
+    "source": "Loss is reframed as indemnity paid"
+   },
+   "26": {
+    "technique": "Financial Control",
+    "source": "Donations and spiritual sales are the means of financial control"
+   },
+   "27": {
+    "technique": "Manufactured Crisis",
+    "source": "Urgent campaigns are tied to ancestors' suffering"
+   },
+   "28": {
+    "technique": "Discard",
+    "source": "Those who leave are cut off from lineage and family"
+   },
+   "29": {
+    "technique": "Replacement",
+    "source": "The second generation fills the pews"
+   }
+  }
+ }
+}
