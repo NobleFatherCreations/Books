@@ -142,7 +142,7 @@ def chart_svg(spec, valid):
                 parts.append(f'<text x="{cx:.1f}" y="{y(v) - 12:.1f}" font-size="14" fill="#241E17" text-anchor="middle">{fmt(v)}</text>')
     cites = ' '.join(f'<a class="cite" href="#src-{c}">{c}</a>' for c in spec.get('cite', []) if c in valid)
     return (f'<figure class="fig"><div class="ftitle">{e(spec["title"])}</div>'
-            f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="{e(spec["title"])}">{"".join(parts)}</svg>'
+            f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="{e(spec["title"])}"><title>{e(spec["title"])}</title>{"".join(parts)}</svg>'
             f'<figcaption>{e(spec.get("unit", ""))}{" — " + e(spec["note"]) if spec.get("note") else ""} {cites}</figcaption></figure>')
 
 

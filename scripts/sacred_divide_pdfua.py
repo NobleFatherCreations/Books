@@ -62,14 +62,35 @@ def fix_lists(pdf):
     return n
 
 
-def fill_alts(pdf, alts):
-    """Give any Figure that Chromium left without /Alt the next label from `alts` (document order)."""
-    root = pdf.Root.get('/StructTreeRoot'); it = iter(alts); n = 0
+def fill_alts(pdf, alts, page_text=None):
+    """Give any Figure that Chromium left without /Alt a label. `alts` is a list of labels or of (label, key) pairs, in document
+    order; a key is a snippet of the figure's own title. With `page_text` (one string per page) the label whose key appears on the
+    figure's page is used first, which survives Chromium skipping a different figure from one build to the next; otherwise,
+    or when no key matches, the next unused label is taken in document order."""
+    root = pdf.Root.get('/StructTreeRoot'); n = 0
+    pairs = [(a, a) if isinstance(a, str) else (a[0], a[1]) for a in alts]
+    used = [False] * len(pairs)
+    pageno = {p.objgen: i for i, p in enumerate(pdf.pages)}
+    def pick(pg):
+        raw = page_text[pg] if page_text and pg is not None and pg < len(page_text) else ''
+        lines = [' '.join(l.split()).lower() for l in raw.split('\n')]
+        for i, (lab, key) in enumerate(pairs):   # a figure's title starts a line; the same words inside a sentence do not count
+            k = ' '.join(key.split()).lower()
+            if not used[i] and k and any(l.startswith(k) for l in lines): used[i] = True; return lab
+        for i, (lab, key) in enumerate(pairs):
+            if not used[i]: used[i] = True; return lab
+    def first_pg(e):
+        if '/Pg' in e: return pageno.get(e['/Pg'].objgen)
+        k = e.get('/K')
+        for c in ([] if k is None else (list(k) if isinstance(k, pikepdf.Array) else [k])):
+            if isinstance(c, pikepdf.Dictionary):
+                r = first_pg(c)
+                if r is not None: return r
     def walk(e):
         nonlocal n
         if not isinstance(e, pikepdf.Dictionary): return
         if e.get('/S') == '/Figure' and '/Alt' not in e:
-            a = next(it, None)
+            a = pick(first_pg(e))
             if a: e.Alt = pikepdf.String(a); n += 1
         k = e.get('/K')
         for c in ([] if k is None else (list(k) if isinstance(k, pikepdf.Array) else [k])): walk(c)
@@ -78,9 +99,14 @@ def fill_alts(pdf, alts):
 
 
 def run(path, alts=()):
+    try:
+        import pymupdf
+        with pymupdf.open(path) as doc: page_text = [pg.get_text() for pg in doc]
+    except Exception:
+        page_text = None
     with pikepdf.open(path, allow_overwriting_input=True) as pdf:
         w = sum(artifact_wrap(p, pdf) for p in pdf.pages)
         li = fix_lists(pdf)
-        fa = fill_alts(pdf, alts)
+        fa = fill_alts(pdf, alts, page_text)
         pdf.save(path)
     return w, li, fa

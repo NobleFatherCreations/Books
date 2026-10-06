@@ -1,40 +1,40 @@
 # PDF build report
 
-Built 2026-10-06 04:09 UTC. Pages with a foot more than 15% empty are layout slack the design pass will reduce; "nearly blank" pages (more than 85% empty) are listed by number.
+Built 2026-10-06 04:30 UTC. Pages with a foot more than 15% empty are layout slack the design pass will reduce; "nearly blank" pages (more than 85% empty) are listed by number.
 
 | Volume | Pages | Pages >15% empty | Nearly blank pages | Type sizes in scale | Palette | PDF/UA-1 | KB |
 |---|---|---|---|---|---|---|---|
-| ahmadiyya | 99 | 39 | none | yes | yes | pass | 1385 |
-| anglicanism | 99 | 27 | none | yes | yes | pass | 1461 |
-| bahai | 135 | 34 | none | yes | yes | pass | 1603 |
-| buddhism | 136 | 36 | none | yes | yes | pass | 1586 |
-| catholicism | 153 | 44 | none | yes | yes | pass | 1814 |
-| christianity | 146 | 32 | none | yes | yes | pass | 1820 |
-| confucianism | 133 | 30 | none | yes | yes | pass | 1546 |
-| dawoodi-bohra | 88 | 24 | none | yes | yes | pass | 1515 |
-| eastern-orthodoxy | 142 | 38 | none | yes | yes | pass | 1695 |
-| hare-krishna | 136 | 42 | none | yes | yes | pass | 1590 |
-| hinduism | 143 | 44 | none | yes | yes | pass | 1702 |
-| indigenous | 141 | 37 | none | yes | yes | pass | 1653 |
-| islam | 154 | 46 | none | yes | yes | pass | 1872 |
-| jainism | 131 | 28 | none | yes | yes | pass | 1506 |
-| jehovahs-witnesses | 140 | 27 | none | yes | yes | pass | 1714 |
-| judaism | 136 | 33 | none | yes | yes | pass | 1652 |
-| mormonism | 146 | 38 | none | yes | yes | pass | 1773 |
-| new-age | 137 | 38 | none | yes | yes | pass | 1594 |
-| oriental-orthodoxy | 101 | 32 | none | yes | yes | pass | 1547 |
-| orthodox-hasidic-judaism | 138 | 32 | none | yes | yes | pass | 1610 |
-| pentecostal-charismatic | 147 | 45 | none | yes | yes | pass | 1760 |
-| plymouth-brethren | 92 | 36 | none | yes | yes | pass | 1309 |
-| protestant-evangelical | 151 | 47 | none | yes | yes | pass | 1768 |
-| scientology | 142 | 41 | none | yes | yes | pass | 1713 |
-| seventh-day-adventism | 141 | 41 | none | yes | yes | pass | 1640 |
-| shia-islam | 145 | 33 | none | yes | yes | pass | 1824 |
-| shinto | 132 | 33 | none | yes | yes | pass | 1559 |
-| sikhism | 136 | 35 | none | yes | yes | pass | 1554 |
-| soka-gakkai | 88 | 33 | none | yes | yes | pass | 1199 |
-| sunni-islam | 157 | 47 | none | yes | yes | pass | 1974 |
-| taoism | 132 | 33 | none | yes | yes | pass | 1508 |
-| tibetan-buddhism | 140 | 39 | none | yes | yes | pass | 1657 |
-| unification-church | 93 | 30 | none | yes | yes | pass | 1467 |
-| zoroastrianism | 136 | 39 | none | yes | yes | pass | 1561 |
+| ahmadiyya | 95 | 30 | none | yes | yes | pass | 1383 |
+| anglicanism | 97 | 28 | none | yes | yes | pass | 1459 |
+| bahai | 132 | 30 | none | yes | yes | pass | 1597 |
+| buddhism | 133 | 32 | none | yes | yes | pass | 1583 |
+| catholicism | 152 | 44 | none | yes | yes | pass | 1816 |
+| christianity | 145 | 40 | none | yes | yes | pass | 1817 |
+| confucianism | 131 | 29 | none | yes | yes | pass | 1543 |
+| dawoodi-bohra | 86 | 25 | none | yes | yes | pass | 1512 |
+| eastern-orthodoxy | 136 | 29 | none | yes | yes | pass | 1681 |
+| hare-krishna | 130 | 36 | none | yes | yes | pass | 1581 |
+| hinduism | 140 | 43 | none | yes | yes | pass | 1696 |
+| indigenous | 138 | 39 | none | yes | yes | pass | 1650 |
+| islam | 147 | 37 | none | yes | yes | pass | 1858 |
+| jainism | 128 | 31 | none | yes | yes | pass | 1500 |
+| jehovahs-witnesses | 140 | 32 | none | yes | yes | pass | 1715 |
+| judaism | 135 | 34 | none | yes | yes | pass | 1652 |
+| mormonism | 145 | 41 | none | yes | yes | pass | 1772 |
+| new-age | 136 | 40 | none | yes | yes | pass | 1595 |
+| oriental-orthodoxy | 98 | 32 | none | yes | yes | pass | 1544 |
+| orthodox-hasidic-judaism | 134 | 29 | none | yes | yes | pass | 1603 |
+| pentecostal-charismatic | 144 | 43 | none | yes | yes | pass | 1757 |
+| plymouth-brethren | 87 | 26 | none | yes | yes | pass | 1298 |
+| protestant-evangelical | 144 | 36 | none | yes | yes | pass | 1754 |
+| scientology | 140 | 37 | none | yes | yes | pass | 1709 |
+| seventh-day-adventism | 139 | 40 | none | yes | yes | pass | 1638 |
+| shia-islam | 141 | 29 | none | yes | yes | pass | 1816 |
+| shinto | 129 | 33 | none | yes | yes | pass | 1555 |
+| sikhism | 131 | 28 | none | yes | yes | pass | 1543 |
+| soka-gakkai | 83 | 27 | none | yes | yes | pass | 1187 |
+| sunni-islam | 148 | 34 | none | yes | yes | FAIL | 1957 |
+| taoism | 129 | 33 | none | yes | yes | pass | 1502 |
+| tibetan-buddhism | 135 | 37 | none | yes | yes | pass | 1645 |
+| unification-church | 93 | 30 | none | yes | yes | pass | 1470 |
+| zoroastrianism | 132 | 32 | none | yes | yes | pass | 1554 |
