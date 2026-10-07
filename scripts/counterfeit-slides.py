@@ -242,14 +242,17 @@ def s_religion(r, canon, lines, part):
                 f'<div class="legend" style="margin-top:calc(14px*var(--s));font-size:calc(21px*var(--s))">{leg}</div>', cls='box30', base_scale=1.3)
 
 
-def s_sector30(name, controls, canon, lines, k, total, level, part):
-    """One half (15 techniques) of one sector at one level of scale: two slides per level, three levels per sector."""
+def s_sector30(name, controls, canon, lines, k, total, level, part, authored=False):
+    """One half (15 techniques) of one sector at one level of scale: two slides per level, three levels per sector.
+    authored: The Fractal tells this sector as a story with no per-technique examples, so the lines were written for the series."""
     lv, (tag, gloss) = level
     idx = range(part * 15, part * 15 + 15)
     rows = ''.join(f'<div class="r30"><span class="ix">{i + 1}</span><div><b>{e(canon[i])}.</b> <span class="t">{e(lines[str(i + 1)])}</span></div></div>' for i in idx)
     return page(f'<div class="kick" style="font-size:calc(24px*var(--s))">Everywhere else · {k} of {total}</div><h2 style="font-size:calc(56px*var(--s));margin-top:6px">{e(name)}</h2>'
                 f'<div class="a" style="font-size:calc(25px*var(--s));margin-top:6px;color:var(--gold);font-weight:600">Controls: {e(controls)}</div>'
-                f'<div class="lvl"><span>Level {lv} of 3 · {e(tag)}</span> · part {part + 1} of 2</div>{rows}', cls='box30', base_scale=1.3)
+                f'<div class="lvl"><span>Level {lv} of 3 · {e(tag)}</span> · part {part + 1} of 2</div>{rows}'
+                + ('<div class="a" style="font-size:calc(19px*var(--s));margin-top:calc(12px*var(--s))">Examples written for this series from the book’s story of this sector.</div>' if authored else ''),
+                cls='box30', base_scale=1.3)
 
 
 def s_closing30(kick, title, sub, canon, lines, part):
@@ -324,7 +327,7 @@ def build_fractal():
             ln = lines.get(keyof[key], {}).get(str(x['num']))
             if not ln or len(ln) < 30: missing.append(f'{x["num"]}-{key}'); continue
             for p in (0, 1):
-                L.append((f'{slug}-l{lv}-{p + 1}', f'{x["short"]} level {lv} ({p + 1}/2)', s_sector30(x['short'], x['controls'], canon, ln, k, 29, (lv, tg), p)))
+                L.append((f'{slug}-l{lv}-{p + 1}', f'{x["short"]} level {lv} ({p + 1}/2)', s_sector30(x['short'], x['controls'], canon, ln, k, 29, (lv, tg), p, authored=not x['techs'])))
     for key, kick, title, sub in (('mirror', 'The closing chapters · The Mirror', 'The pattern inside you', 'Each technique, turned on yourself.'),
                                   ('body', 'The closing chapters · The Body', 'What the body feels', 'Each technique’s somatic signature.')):
         if key not in lines: missing.append(key); continue
