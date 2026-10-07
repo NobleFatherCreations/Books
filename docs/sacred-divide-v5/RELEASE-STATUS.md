@@ -15,14 +15,14 @@ In progress: **v5**, branch `claude/sacred-divide-v5-redesign`: 34 PDFs rebuilt 
 **A. Owner decisions (these hold up a clean release)**
 1. House style: one spelling (American or British; the PDF is tagged en-GB but text is mostly American) and voice rules (defences/counters as questions or imperatives, aphoristic captions).
 2. Grading frame: keep the six grades as they are (already decided: strict rule, no upward regrades). Still open: whether to add a lower label for techniques with no documented case, and whether weak loop cards belong among the seven (Soka Gakkai, Taoism).
-3. Convert §12 in the two older table-format volumes (Ahmadiyya, Anglicanism; five newer ones were also built as tables) to the card format used by the other volumes. Needs new per-technique text.
+3. Convert §12 in the seven table-format volumes (Ahmadiyya, Anglicanism, Dawoodi Bohra, Oriental Orthodoxy, Plymouth Brethren, Soka Gakkai, Unification Church) to the card format used by the other 27. Needs new per-technique text.
 4. Shared template wording (flagged in every volume): the "documented cases… court, regulator or inquiry record" caption, the "attributed to God" line in stage 8 and technique 30 for non-theistic traditions, the precedent caption, and the "mistakes are logged" caption.
 5. Deploy: go-ahead for a Netlify redeploy (no connected repo, so a git push cannot publish); version bump to v5 and the matching on-page "What changed on this page" entry, done together in one commit.
 
 **B. Open sourcing items (named in the fix logs; 121 deferred entries across 33 volumes)**
 - Buddhism: the Sri Lanka Mahanayaka election and the "US centres exempt" claims have no source.
 - Unification Church: technique 1 is graded Documented on a single scholarly source.
-- Taoism: cases 2 and 3 rest on one outlet (Bitter Winker); the 2023 venue measures and 2026 closures could not be sourced independently; the disclosure scorecard is all "no".
+- Taoism: cases 2 and 3 rest on one outlet (Bitter Winter); the 2023 venue measures and 2026 closures could not be sourced independently; the disclosure scorecard is all "no".
 - New Age: the "Retreat and ceremony tourism" card is thinly sourced after correction; Indigenous §15 "Documented? Yes" now carries a note but needs a real source.
 - Shinto: `[GOVERNMENT REPORT]` receipts were relabelled, not independently sourced; the Shinto Directive and State Shinto sources are Wikipedia/secondary summaries.
 - Soka Gakkai: McLaughlin source page numbers cannot be verified; §19 (cases) is thin.
@@ -38,8 +38,8 @@ In progress: **v5**, branch `claude/sacred-divide-v5-redesign`: 34 PDFs rebuilt 
 ## 3. What changed: live v4 → v5 (working copy)
 
 **Format and design**
-- Page size A4 → US Letter. Pages 2,742 → 4,353 (average 81 → 128 per volume); words 586,584 → 1,035,550 in the PDFs (larger type, per-section notes and captions, sidenote margin, scorecards, loops drawn out).
-- New shared design system: one palette, seven-step type scale, per-volume themes, dark "Why this matters" boxes, pull quotes, loop diagrams, evidence-grade chips and legend, cover with colophon.
+- Page size A4 → US Letter. Pages 2,742 → 4,353 (average 81 → 128 per volume); words 586,584 → 1,035,550 in the PDFs (larger type, per-section notes and captions, scorecards, loops drawn out).
+- New shared design system: one palette, seven-step type scale, dark "Why this matters" boxes, pull quotes, loop diagrams, evidence-grade chips and legend, cover with colophon.
 - Tagged for accessibility (PDF/UA-1, all 34 pass), with figure descriptions, real table headers and bookmarks.
 - Opening matter reorganised ("Before you begin", Contents, "How to read this", then the grades, receipts, method and citations explained).
 - Section openers compacted (no more forced full-page openers).
