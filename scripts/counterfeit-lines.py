@@ -191,7 +191,7 @@ def cmd_merge():
                 for b, line in dd.items(): res[key][a][b] = line
     for key in res:
         for a, d in res[key].items():
-            for b, line in d.items():
+            for b, line in (d.items() if isinstance(d, dict) else [('', d)]):   # mirror/body are flat {n: line}
                 if not good(line): miss += 1; print('not slide-ready:', key, a, b, repr(line))
     json.dump(res, open(os.path.join(OUT, 'lines.json'), 'w'), indent=1, ensure_ascii=False)
     print('merged; lines still not slide-ready:', miss)

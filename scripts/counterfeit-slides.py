@@ -328,8 +328,8 @@ def build_fractal():
             if not ln or len(ln) < 30: missing.append(f'{x["num"]}-{key}'); continue
             for p in (0, 1):
                 L.append((f'{slug}-l{lv}-{p + 1}', f'{x["short"]} level {lv} ({p + 1}/2)', s_sector30(x['short'], x['controls'], canon, ln, k, 29, (lv, tg), p, authored=not x['techs'])))
-    for key, kick, title, sub in (('mirror', 'The closing chapters · The Mirror', 'The pattern inside you', 'Each technique, turned on yourself.'),
-                                  ('body', 'The closing chapters · The Body', 'What the body feels', 'Each technique’s somatic signature.')):
+    for key, kick, title, sub in (('mirror', 'The Mirror', 'The pattern inside you', 'Each technique, turned on yourself.'),
+                                  ('body', 'The Body', 'What the body feels', 'Each technique’s somatic signature.')):
         if key not in lines: missing.append(key); continue
         L += [(f'{key}-{p + 1}', f'{title} ({p + 1}/2)', s_closing30(kick, title, sub, canon, lines[key], p)) for p in (0, 1)]
     L += [('mother-earth', 'Mother Earth', s_earth())]

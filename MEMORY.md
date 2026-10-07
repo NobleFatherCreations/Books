@@ -3705,3 +3705,12 @@ Dubai would follow") and an architecture that imports each religion's MD into th
 - 98 slides (1080x1920) in exports/counterfeit-slides/ from scripts/counterfeit-slides.py; lines in content/counterfeit/lines.json (sentence-checked via scripts/counterfeit-lines.py). Local MP4: exports/counterfeit-slideshow.mp4 (scripts/counterfeit-video.py).
 - Canva design DAHXQJayN1o: all 98 images placed on pages 1-98 inside OPEN transaction 4062765011663368530 (uncommitted; needs user approval). Pages 99-100 are blank extras to delete via merge-designs, then export mp4.
 - Known: religion slides ~19px text; Technology/Dating/Intelligence/Child Welfare sectors have no technique data (single story slide each).
+
+## 2026-10-07 — Counterfeit TikTok series: two decks, two MP4s, three Suno songs
+- Owner asked: 2 slides per religion; fractal = every sector at 3 levels (Individual, Institutional, Civilizational), 2 slides each, levels 1-2-3 before the next sector; fill the 4 sectors with no technique data; include The Mirror and The Body; two separate MP4s.
+- `scripts/counterfeit-slides.py [religion|fractal]` -> `exports/counterfeit-slides/{religion,fractal}/NNN-*.png`; `scripts/counterfeit-video.py religion|fractal` -> `exports/counterfeit-{religion,fractal}.mp4` (religion 76 slides 12.2 min; fractal 184 slides). Public download via the GitHub raw URL (repo NobleFatherCreations/Books is public).
+- Lines: `content/counterfeit/lines.json` (keys religions, fractal [=ind], fractal_inst, fractal_civ, mirror, body) from `counterfeit-lines.py merge`. Round-2 inputs `in-l1..l4` (inst/civ condensed by agents, checked 0 problems), `in-n1`/`out-n1` = Technology, Dating, Surveillance, Child Welfare lines AUTHORED (book has only a narrative; slides carry a note saying so), `out-c1` = Mirror + Body.
+- Agents flagged some weak-but-correct lines in their reports (e.g. 3-inst #6, 5-civ #28, 16-inst #30, 18-civ #9, the list-like Replacement lines in 27-30); a hand pass could improve them via `content/counterfeit/fixes.json`.
+- Suno songs: `content/counterfeit/suno-songs.md` (The Copy / Thirty-Four Doors / Everywhere Else).
+- Old single 98-slide deck and `counterfeit-slideshow.mp4` removed. Canva design DAHXQJayN1o still has an uncommitted transaction with the OLD 98 slides; superseded, owner never approved the commit.
+- Rate limit hit 2026-10-06 (reset 20:40 UTC); resumed one agent at a time.
