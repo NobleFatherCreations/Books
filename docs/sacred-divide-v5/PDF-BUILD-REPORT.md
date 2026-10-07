@@ -1,6 +1,6 @@
 # PDF build report
 
-Built 2026-10-06 04:52 UTC. Pages with a foot more than 15% empty are layout slack the design pass will reduce; "nearly blank" pages (more than 85% empty) are listed by number.
+Built 2026-10-07 04:31 UTC. Pages with a foot more than 15% empty are layout slack the design pass will reduce; "nearly blank" pages (more than 85% empty) are listed by number.
 
 | Volume | Pages | Pages >15% empty | Nearly blank pages | Type sizes in scale | Palette | PDF/UA-1 | KB |
 |---|---|---|---|---|---|---|---|
@@ -12,7 +12,7 @@ Built 2026-10-06 04:52 UTC. Pages with a foot more than 15% empty are layout sla
 | christianity | 145 | 40 | none | yes | yes | pass | 1817 |
 | confucianism | 131 | 29 | none | yes | yes | pass | 1542 |
 | dawoodi-bohra | 86 | 25 | none | yes | yes | pass | 1512 |
-| eastern-orthodoxy | 136 | 29 | none | yes | yes | pass | 1680 |
+| eastern-orthodoxy | 136 | 29 | none | yes | yes | pass | 1681 |
 | hare-krishna | 130 | 36 | none | yes | yes | pass | 1580 |
 | hinduism | 140 | 43 | none | yes | yes | pass | 1696 |
 | indigenous | 138 | 39 | none | yes | yes | pass | 1649 |
@@ -21,7 +21,7 @@ Built 2026-10-06 04:52 UTC. Pages with a foot more than 15% empty are layout sla
 | jehovahs-witnesses | 140 | 32 | none | yes | yes | pass | 1715 |
 | judaism | 135 | 34 | none | yes | yes | pass | 1651 |
 | mormonism | 145 | 41 | none | yes | yes | pass | 1772 |
-| new-age | 136 | 40 | none | yes | yes | pass | 1594 |
+| new-age | 136 | 40 | none | yes | yes | pass | 1595 |
 | oriental-orthodoxy | 98 | 32 | none | yes | yes | pass | 1543 |
 | orthodox-hasidic-judaism | 134 | 29 | none | yes | yes | pass | 1602 |
 | pentecostal-charismatic | 144 | 43 | none | yes | yes | pass | 1757 |
