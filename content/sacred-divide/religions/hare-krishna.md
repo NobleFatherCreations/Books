@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | ISKCON itself says it has about a million congregational members (devotees who live outside the temple and attend its programs) and about 10,000 temple members (full-time residents of ashrams, the temple communities where devotees live and serve) worldwide; this page found no independent count [20]. [LEADERSHIP STATEMENT] |
 | Who's in charge | The Governing Body Commission (GBC), the collective council that governs ISKCON (the International Society for Krishna Consciousness), has roughly thirty-plus members who have overseen the movement worldwide since the death of its founder, A.C. Bhaktivedanta Swami Prabhupada, in 1977. It approves initiating gurus (gurus who give formal initiation to disciples) and, on the record, has suspended and removed them. |
-| Chosen by / removable by | Co-option by the GBC / The GBC itself |
+| Chosen by | Co-option by the GBC. |
+| Removable by | The GBC itself. |
 | Money in one line | Book distribution quotas (sankirtana, the public distribution of the founder's books) historically drove aggressive fundraising. The money also comes from temple economies, restaurant chains, festival revenue and donor cultivation, and unpaid devotee labor is the base asset. [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT] |
 | Leaving in one line | Leaving costs one's entire community and often years of unpaid labor with no equity. The 'bad association' doctrine (the teaching that contact with critics and former members is spiritually harmful) frames departure as spiritual death. [FORMER MEMBER TESTIMONY] |
 | The unanswered question | The settlement with the former pupils of the gurukulas (ISKCON's residential boarding schools) acknowledged the harm in writing. Which of the structures that produced it were dismantled, rather than renamed? |
@@ -1404,7 +1405,7 @@ Checked 2026-09-27.
 10. *The Shillong Times*, "Hare Krishna temple dispute: ISKCON Bengaluru chief hails Supreme Court verdict as 'historic'" (16 May 2025). https://theshillongtimes.com/2025/05/16/hare-krishna-temple-dispute-iskcon-bengaluru-chief-hails-supreme-court-verdict-as-historic/
 11. Bar & Bench, "Supreme Court delivers split verdict in ISKCON Mumbai's review plea over Bengaluru temple ownership" (8 Nov 2025). https://www.barandbench.com/news/supreme-court-delivers-split-verdict-in-iskcon-mumbais-review-plea-over-bengaluru-temple-ownership
 12. *Publishers Weekly*, review of Nori J. Muster, *Betrayal of the Spirit* (University of Illinois Press, 1997); and Muster, "Writing Betrayal of the Spirit," ICSA e-library. https://www.publishersweekly.com/978-0-252-02263-0 · https://www.icsahome.com/elibrary/topics/articles/writing-betrayal-of-the-spirit-muster-it-4-3
-13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
+13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). https://humanists.uk/faith-to-faithless/helpline/
 14. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 15. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 16. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/

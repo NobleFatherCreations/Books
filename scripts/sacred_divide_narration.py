@@ -131,7 +131,7 @@ INTROS = {
     'leaving': "Practical, non-theological guidance for someone who needs to step back or step away safely. It is a safety document, not an argument.",
     'help': "Organizations that can help, each checked directly against its own site, with the date of the check. Nothing here is endorsed beyond that check.",
     'sources': "Every numbered citation on this page, with a named, checkable source. Spot-check a few before trusting the rest; that is the honest way to read any page in this book, including this one.",
-    'changed': "A dated log of corrections to this page. Mistakes are logged publicly rather than quietly edited away.",
+    'changed': "A dated log of what changed on this page: corrections, additions and new sources. Changes are logged in public rather than made quietly.",
 }
 
 SCORE_WORDS = {
@@ -159,6 +159,12 @@ def _score_sentence(sc):
 
 def _join(xs):
     return xs[0] if len(xs) == 1 else ', '.join(xs[:-1]) + ' or ' + xs[-1] if xs else ''
+
+
+def _with_the(name):
+    """Country names that take "the" mid-sentence: the United States, the Philippines, the United Kingdom."""
+    if name.startswith('The '): return 'the ' + name[4:]
+    return 'the ' + name if re.match(r'(United |Netherlands|Philippines|Gambia|Bahamas|Maldives|Czech Republic|Dominican Republic|Democratic Republic|Central African)', name) else name
 
 
 def _join_and(xs):
@@ -190,8 +196,10 @@ def _default_foryou(rid, slug):
     uq = g.get('The unanswered question', '')
     money = g.get('Money in one line', '')
     leave = g.get('Leaving in one line', '')
-    chosen_raw = g.get('Chosen by / removable by', '')
-    cb, _, rb = chosen_raw.partition(' / ')
+    if 'Chosen by' in g:   # the glance table gives each its own row (split at export, 2026-10-08)
+        cb, rb = g.get('Chosen by', ''), g.get('Removable by', '')
+    else:
+        cb, _, rb = g.get('Chosen by / removable by', g.get('Who chooses and removes the top office', '')).partition(' / ')
     cb, rb = cb.strip().rstrip('.'), rb.strip().rstrip('.')
     # quote the table's own cells rather than re-parse them into a sentence: they are free text
     chosen = (f"answer to who chooses the top office is \"{cb}\", and to who can remove its holder, \"{rb}\"" if cb and rb and rb.strip('— ') else
@@ -263,13 +271,13 @@ def _default_foryou(rid, slug):
             + "The most common reaction to documented cases is \"that was them, not us.\" "
             "Before settling on that, read the outcome lines. Did anything change in the structure that allowed each case to happen, or did one person leave while the structure stayed?"),
         'precedent': (
-            "Every change described here was once called impossible by someone inside the tradition. "
+            "Some rows here record a change that has already happened somewhere; others name what would count as change here. "
             "When you are told something \"can't change\", it is fair to ask: can't, or won't? And who decided?"),
         'voices': (
             "Were these people traitors, or the most loyal members their tradition had? Most were treated as the first at the time, and some are honored as the second now. "
             "If someone in your community raised one of these questions tomorrow, how would they be treated, and by you?"),
         'regional': (
-            (f"This page covers {_join_and(f['regions'])}. " if f['regions'] else "")
+            (f"This page covers {_join_and([_with_the(r) for r in f['regions']])}. " if f['regions'] else "")
             + "Your country changes what this tradition can do to you, and what you can do about it. "
             "If you live somewhere not listed, ask which of these cards your country most resembles. If you are a voter, note that each of these arrangements was chosen by a government."),
         'questions': (
@@ -285,7 +293,7 @@ def _default_foryou(rid, slug):
             "Don't take this page's word for anything either. People tend to believe a claim more the more often they have heard it, whether or not it is true; this is the \"illusory truth effect\" (Hasher, Goldstein & Toppino, 1977). "
             "Spot-check three citations at random. If any fails, tell us, and it will be corrected and logged."),
         'changed': (
-            "This page keeps a public log of its own mistakes. "
+            "This page keeps a public log of its own changes, mistakes included. "
             "Does the institution you belong to, give to, or were raised in keep one like it? If not, how would you know what it got wrong, and when?"),
     }
     return D.get(slug, '')

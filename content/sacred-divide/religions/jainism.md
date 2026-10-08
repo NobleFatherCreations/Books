@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | Jainism has ~4–5 million adherents, overwhelmingly in India. [ACADEMIC SOURCE: Indian census] |
 | Who's in charge | The acharyas (the senior monastic leaders) head the monastic orders. The Terapanth, a Svetambara (“white-clad”) order that does not worship images, is led by Acharya Mahashraman. The other Svetambara lineages and the Digambara (“sky-clad”) lineages are led by seniority and designation. They command by moral authority rather than office. |
-| Chosen by / removable by | Lineage designation / Nobody below |
+| Chosen by | Lineage designation. |
+| Removable by | Nobody below. |
 | Money in one line | The money comes from temple trusts, ritual sponsorships auctioned (bidding for rites), and community levies, and the overlap with the diamond and trading community makes religious and business networks one fabric. |
 | Leaving in one line | Leaving costs marriage networks and business trust simultaneously — the community's commercial integration is the enforcement mechanism. |
 | The unanswered question | A tradition this serious about harm to the smallest insect — who examines the harm to the girl fasting for her family's standing? |
@@ -1397,7 +1398,7 @@ Checked 2026-09-27.
 ### Further sources
 8. Charity Commission for England and Wales, Oshwal Association of the UK (charity 267037), financial history 2021–2025. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/267037/financial-history
 9. India TV, "Gujarat: Digambar Jainmuni Shantisagar Maharaj sentenced to 10 years in jail for rape of 19-year-old" (5 Apr 2025). https://www.indiatvnews.com/gujarat/gujarat-digambar-jainmuni-shantisagar-maharaj-sentenced-to-10-years-in-jail-for-rape-of-19-year-old-2025-04-05-984097
-10. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
+10. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). https://humanists.uk/faith-to-faithless/helpline/
 11. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 12. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
 13. Acharya Tulsi — launched the Anuvrat (“small vows”) movement on 1 March 1949 at Sardarshahar. https://en.wikipedia.org/wiki/Acharya_Tulsi

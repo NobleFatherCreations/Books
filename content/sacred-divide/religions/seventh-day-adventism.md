@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | About 24.4 million baptized members worldwide (2025), with the church's own reporting acknowledging a substantial gap between baptisms recorded and members retained. [OFFICIAL POLICY: GC statistical report] |
 | Who's in charge | The president of the General Conference (the church's world governing body) is Erton Köhler, elected on 4 July 2025 at the General Conference session in succession to Ted N. C. Wilson, who had held the office since 2010. |
-| Chosen by / removable by | Delegates from every division (the church's world regions) choose the president, voting in session roughly every five years / The session can remove the president, and it has replaced presidents. This row is the strongest in the entire codex. |
+| Chosen by | Delegates from every division (the church's world regions) choose the president, voting in session roughly every five years. |
+| Removable by | The session can remove the president, and it has replaced presidents. This row is the strongest in the entire codex. |
 | Money in one line | Tithe here is unusually structured and unusually opaque at the point where it matters. Ten percent goes not to the local congregation but upward to the conference (the regional body that employs the pastors of a group of churches), which pays pastors' salaries; the local church is funded separately by offerings. That means the money a member gives is deliberately separated from the church they can see, and pastoral employment depends on a body the congregation does not control. |
 | Leaving in one line | Leaving is legally free and, in the concentrated communities, occupationally expensive: where the hospital, the university, and the school are all Adventist, a change of belief can be a change of career. |
 | The unanswered question | The church commissioned a study of Ellen White's writings, published its finding of extensive literary dependence (her unattributed borrowing from other authors), and changed nothing about how the prophetic claim is taught. What was the study for? |
@@ -1408,7 +1409,7 @@ Checked 2026-09-27.
 12. *Encyclopedia of Seventh-day Adventists*, "Davenport Scandal" — $71m missing; $17.8m in loans and $3.3m interest outstanding from church entities; the unpublished 624-page report. https://encyclopedia.adventist.org/assets/pdf/article-8IUU.pdf
 13. *EEOC v. Pacific Press Publishing Ass'n*, 676 F.2d 1272 (9th Cir. 1982) — full text. https://law.resource.org/pub/us/case/reporter/F2/676/676.F2d.1272.80-4189.html
 14. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
-15. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
+15. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). https://humanists.uk/faith-to-faithless/helpline/
 16. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 17. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
 18. *Adventist Record*, "1975–1980: Towards Glacier View and its aftermath" (24 Aug 2023) — the Sanctuary Review Committee's consensus statements on the heavenly sanctuary and on the role of Ellen G. White's writings, and its statement of the differences between Ford's views and the consensus. https://record.adventistchurch.com/2023/08/24/1975-1980-towards-glacier-view-and-its-aftermath/

@@ -535,6 +535,80 @@ def how_to_read(B):
     return '\n'.join(out) + '\n'
 
 
+# ---------------------------------------------------------------- post-edit layout fixes (run after the reversible edits)
+# The seven traditions added in v4 were written with §12 as two tables (eight stage rows, thirty technique rows).
+# They are converted here, AFTER the edits are applied, into the card layout the other 27 use, so every existing
+# wording edit (which matched the table text) keeps working. Per-technique grade notes for these volumes live in
+# content/sacred-divide/additions/grade-notes.json, written when the conversion was made (2026-10-08).
+TABLE_VOLUMES = {'ahmadiyya', 'anglicanism', 'dawoodi-bohra', 'oriental-orthodoxy', 'plymouth-brethren', 'soka-gakkai', 'unification-church'}
+AUTHORITY = {'soka-gakkai': 'the Law and the mentor'}   # non-theistic: the shared stage-8 / technique-30 wording names God
+
+
+def _sentence(s):
+    s = s.strip()
+    if not s: return s
+    s = s[0].upper() + s[1:]
+    return s if s[-1] in '.?!”"' else s + '.'
+
+
+def _unquote(s):
+    s = s.strip()
+    if len(s) > 1 and s[0] in '"“' and s[-1] in '"”': s = s[1:-1].strip()
+    elif len(s) > 2 and s[0] in '"“' and s[-2] in '"”' and s[-1] == '.': s = s[1:-2].strip()
+    return _sentence(s)
+
+
+def tables_to_cards(md, rid, B):
+    if rid not in TABLE_VOLUMES: return md
+    D = B['CODEX_DATA']
+    m = re.search(r'(^## 12\. .*?\n)(.*?)(?=^## 13\. )', md, re.S | re.M)
+    if not m: return md
+    body = m.group(2)
+    stage_rows = re.findall(r'^\| (Idealize|Hook|Devalue|Confuse|Isolate|Extract|Discard|Replace) \| (.*?) \| (.*?) \|\s*$', body, re.M)
+    tech_rows = {int(r[0]): r[1:] for r in re.findall(r'^\| (\d+) \| (.*?) \| (.*?) \| (.*?) \| (.*?) \| (.*?) \|\s*$', body, re.M)}
+    if len(stage_rows) != 8 or len(tech_rows) != 30:
+        raise SystemExit(f'{rid}: §12 tables not in the expected shape ({len(stage_rows)} stages, {len(tech_rows)} techniques)')
+    notes = json.load(open(os.path.join(CONTENT, 'additions', 'grade-notes.json'), encoding='utf-8')).get(rid, {})
+    names = {t['order']: title_case(t['name']) for t in D['tactics']}
+    who = AUTHORITY.get(rid)
+    fix = (lambda s: s.replace('attributed to God', f'attributed to {who}').replace(' — who isn\'t available for cross-examination', ', which no one can cross-examine')) if who else (lambda s: s)
+    out = ['Thirty named techniques from domestic-abuse and social-psychology research, applied to institutions, '
+           'in the eight stages of the cycle. Each carries an evidence grade for this tradition.']
+    by_name = {r[0]: r for r in stage_rows}
+    for st in D['stages']:
+        sname = st.get('name', '').title()
+        row = by_name.get(sname)
+        ask = row[2].strip() if row else ''
+        cards = [box('stage', f"**{fix(st.get('essence', ''))}**\n\n{_sentence(row[1]) if row else ''}" + (f"\n\n*What it asks of you:* {_sentence(ask)}" if ask.strip('—. ') else ''))]
+        for n in st['tactics']:
+            _, grade, shows, defense, counter = tech_rows[n]
+            g = re.match(r'(\w+)(?:\s*\((weak)\))?', grade.strip())
+            chip = f"[[{g.group(1)}]]" if g else '[[Ungraded]]'
+            note = notes.get(str(n), '')
+            if g and g.group(2) and note and not note.lower().startswith('weak'): note = 'Weak. ' + note
+            meta = D['tacticMeta'].get(str(n), {})
+            none = lambda s: s.strip().strip('.') in ('', '—', 'No counter is recorded', 'Nothing was found', 'None was found', 'Research is needed')
+            parts = [f"#### {n} · {names[n]} {{#t-{n}}}", f"*{fix(meta.get('def', ''))}*",
+                     "**How it shows here**", f"- {_sentence(shows) if not none(shows) else 'No example is recorded on this page yet.'}"]
+            if not none(defense): parts.append(f"**The strongest defense.** {_unquote(defense)}")
+            if not none(counter): parts.append(f"**The counter.** {_sentence(counter)}")
+            parts.append(f"**Evidence grade.** {chip}" + (f" {note}" if note else ''))
+            cards.append(box('tactic', '\n\n'.join(parts), f'n={n}'))
+        out.append(f"### Stage {st.get('n', '')} · {sname} {{#stage-{st.get('n', '')}}}\n\n" + '\n\n'.join(cards))
+    return md[:m.start(2)] + '\n\n'.join(out) + '\n\n' + md[m.end(2):]
+
+
+def split_chosen_row(md):
+    """§1: the glance row 'Chosen by / removable by | X / Y' printed two fragments joined by a slash; give each its own row."""
+    def rep(m):
+        cell = m.group(1).strip()
+        if ' / ' not in cell:
+            return f'| Who chooses and removes the top office | {_sentence(cell)} |'
+        a, b = cell.split(' / ', 1)
+        return f'| Chosen by | {_sentence(a)} |\n| Removable by | {_sentence(b)} |'
+    return re.sub(r'^\| Chosen by / removable by \| (.*?) \|\s*$', rep, md, count=1, flags=re.M)
+
+
 def main():
     B = P.load(BOOK)
     os.makedirs(OUT, exist_ok=True)
@@ -547,6 +621,7 @@ def main():
         md, filled = md_religion(B, rid)
         md, rcounts, rcand = REPAIR.apply(md)
         md = EDITS.apply(md, rid, 'md'); EDITS.check(rid, {'md'})
+        md = split_chosen_row(tables_to_cards(md, rid, B))
         os.makedirs(os.path.join(ROOT, 'logs/repair-log'), exist_ok=True)
         open(os.path.join(ROOT, f'logs/repair-log/{rid}.md'), 'w', encoding='utf-8').write(REPAIR.log(rid, rcounts, rcand))
         open(os.path.join(OUT, f'{rid}.md'), 'w', encoding='utf-8').write(md)

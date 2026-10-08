@@ -1758,9 +1758,9 @@
   "type": "source",
   "before": "(freephone; set hours). https://humanists.uk",
   "after": "(freephone; Wed 10am–1pm, Thu 4–7pm, Fri 8–11am). https://humanists.uk",
-  "reason": "P3-26: source 11 matched.",
+  "reason": "P3-26: source 11 matched. [2026-10-08: superseded by ALL-F10, which sets the hours verified on 2026-10-05; these Wed/Thu/Fri hours were wrong.]",
   "count": 1,
-  "status": "proposed"
+  "status": "rejected"
  },
  {
   "id": "ZORF-D039",

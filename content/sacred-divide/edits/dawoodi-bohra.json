@@ -2295,5 +2295,14 @@
   "reason": "Patch note for this round.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "STY-dawoodi-bohra-01",
+  "scope": "md",
+  "type": "style",
+  "before": "| Does it survive a question? |",
+  "after": "| Test whether the welcome survives a question. |",
+  "reason": "House rule for counters (EDITORIAL-STYLE.md, 2026-10-08): a statement by default; a question only when the institution could answer it from its own records; a command only when it names a test someone can run. This counter was a rhetorical fragment.",
+  "status": "proposed"
  }
 ]

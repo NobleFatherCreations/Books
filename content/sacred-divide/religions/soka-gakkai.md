@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | Soka Gakkai self-reports 8.27M households in Japan and ~3M members outside Japan (2021 announcement) [1]. |
 | Who's in charge | The president is Minoru Harada, in office since 2006 [1]. |
-| Chosen by / removable by | Organizational process / Internal |
+| Chosen by | Organizational process. |
+| Removable by | Internal. |
 | Money in one line | The money comes from member contributions (zaimu, the organization's term for its financial contributions) and from subscriptions to the daily Seikyo Shimbun (the organization's own newspaper), whose claimed 5.5 million circulation (a 1997 claim) is unaudited [8]. |
 | Leaving in one line | There is no formal shunning; the cost of leaving is social and familial, felt in tight local districts and multi-generational families [5]. |
 | The unanswered question | Who decides which candidate is kosen-rufu (the movement's term for the widespread propagation of the Lotus Sutra for world peace)? |
@@ -227,54 +228,541 @@ In Japan, the Religious Corporations Law, the tax authorities and elections can 
 - The Women's Division is large and influential, and central to local organization and electoral work, per scholarship [5]. This page has no source on the gender of its top leadership.
 
 ## 12. The 30 techniques {#techniques}
+Thirty named techniques from domestic-abuse and social-psychology research, applied to institutions, in the eight stages of the cycle. Each carries an evidence grade for this tradition.
 
-### The eight stages here
+### Stage 1 · Idealize {#stage-1}
 
-| Stage | How it shows here | The question |
-|---|---|---|
-| Idealize | Newcomers meet warm discussion meetings and testimonies of changed lives. | Is the warmth for you, or for your vote? |
-| Hook | The doctrine of human revolution (personal transformation) promises happiness through chanting and practice. | Why are the promised benefits attributed to practice but never audited? |
-| Devalue | Unhappiness is attributed to insufficient practice. | Who decides what is "insufficient"? |
-| Confuse | The organization is "separate" from the party, yet campaigns for it [3][5]. | Which is it? |
-| Isolate | Isolation is weak here: social life is centered on the district, but no formal shunning was found [5]. | How much of your social life runs through the district? |
-| Extract | Members give contributions, newspaper sales and election labor [5][8]. | Whose time funds whose seats? |
-| Discard | No formal mechanism was found. | — |
-| Replace | The district continues. | — |
+::: stage
+**You arrive with a need and are met with more warmth than you have had in years.**
 
-### All thirty, graded
+Newcomers meet warm discussion meetings and testimonies of changed lives.
 
-| # | Mechanism | Grade | How it appears here | The defense | The counter |
-|---|---|---|---|---|---|
-| 1 | Love bombing | Cultural | Discussion meetings welcome newcomers warmly. | "Buddhist friendship." | Warmth is fine; watch whether it survives saying no to a campaign. |
-| 2 | Weaponized generosity | Cultural (weak) | The district gives support in hardship. | "Mutual care." | Care that later asks for a vote is a loan. |
-| 3 | Future faking | Taught | The movement promises the benefits of practice and "human revolution". | "Faith and experience." | Benefits are attributed, never audited. |
-| 4 | Hoovering | Cultural | Leaders visit lapsed members. | "Encouragement." | Encouragement that carries a list is recruitment. |
-| 5 | Devaluation | Taught | Suffering is attributed to insufficient practice. | "Take responsibility." | It is a diagnosis only the organization can treat. |
-| 6 | Gaslighting | Contested | Doubts are reframed as weak faith. | "Faith grows through doubt." | Then let the doubt stand. |
-| 7 | Double bind | Documented | The organization is "separate" from the party, yet campaigns for it [3][5]. | "Members act as citizens." | The campaigning is organized by districts. |
-| 8 | Intermittent reinforcement | Cultural | Members receive recognition for campaign and subscription results [5]. | "Honoring effort." | The recognition is given by quota. |
-| 9 | Moving the goalposts | Cultural | Each election brings a new target. | "Every campaign matters." | There is always another election. |
-| 10 | Strategic ambiguity | Documented | The organization announces a "separation" of religion and party [3]. | "A formal policy since 1970." | A policy is not a practice [5]. |
-| 11 | Projection | Cultural | Critics are cast as enemies of peace. | "Persecution by rivals." | Critics include scholars [5]. |
-| 12 | DARVO | Contested | The 1970 apology denied any intent to obstruct speech [3] | "No intent." | The pressure was documented [3]. |
-| 13 | Normalization | Cultural | Campaigning is treated as ordinary faith practice [5]. | "Engaged Buddhism." | The engagement is with one party only. |
-| 14 | Isolation | Cultural (weak) | Social life is centered on the district. | "Community." | The technique is weak here. |
-| 15 | Triangulation | Cultural | Family, district and mentor align | "Shared purpose." | No counter is recorded. |
-| 16 | Flying monkeys | Cultural | Members contact friends for votes | "Sharing our values." | The friend becomes a target. |
-| 17 | Smear campaign | Contested | The 1969–70 pressure on a critic's publisher is the instance [3]. | "Defending our reputation." | Reputation is defended by answers. |
-| 18 | Stonewalling | Cultural | Accounts are not published to members in Japan, while national charities abroad publish theirs [2]. | "Private religious matters." | Members pay; members may ask. |
-| 19 | Manufactured consent | Cultural | Votes are "freely" given within organized drives [5]. | "Citizens choose." | The choice is made inside a quota. |
-| 20 | Trauma bonding | Ungraded | No instance of this technique was found. | — | Nothing was found. |
-| 21 | Learned helplessness | Ungraded | No instance of this technique was found. | — | Nothing was found. |
-| 22 | Benevolent control | Cultural | District leaders give guidance. | "Encouragement." | Guidance you can decline is fine. |
-| 23 | Infantilization | Ungraded | No instance of this technique was found. | — | Nothing was found. |
-| 24 | Identity erosion | Cultural | Selfhood is framed through the mentor–disciple bond [6]. | "Inspiration." | Whose life is it? |
-| 25 | Spiritual bypassing | Cultural | Illness or crisis is answered with "chant more". | "Faith gives strength." | Chanting is not a treatment. |
-| 26 | Financial control | Cultural | Members give zaimu and pay for newspaper subscriptions [5][8]. | "Voluntary support." | Publish the accounts. |
-| 27 | Manufactured crisis | Cultural | Elections create urgency. | "Every vote counts." | The urgency follows a schedule. |
-| 28 | Discard | Ungraded | No formal mechanism was found. | — | None was found. |
-| 29 | Replacement | Ungraded | No instance of this technique was found. | — | No counter is recorded. |
-| 30 | Plausible deniability | Documented | The organization says "members vote freely" and "the party is separate" [3][5]. | "Formal separation." | The voting is organized by the religion's own structure [5]. |
+*What it asks of you:* Is the warmth for you, or for your vote?
+:::
+
+::: tactic n=1
+#### 1 · Love Bombing {#t-1}
+
+*Overwhelming affection on arrival to create emotional dependency before terms are revealed.*
+
+**How it shows here**
+
+- Discussion meetings welcome newcomers warmly.
+
+**The strongest defense.** Buddhist friendship.
+
+**The counter.** Warmth is fine; watch whether it survives saying no to a campaign.
+
+**Evidence grade.** [[Cultural]] The warm welcome at discussion meetings is ordinary practice; no rule ties it to campaigns.
+:::
+
+::: tactic n=2
+#### 2 · Weaponized Generosity {#t-2}
+
+*Giving help that installs unspoken obligation.*
+
+**How it shows here**
+
+- The district gives support in hardship.
+
+**The strongest defense.** Mutual care.
+
+**The counter.** Care that later asks for a vote is a loan.
+
+**Evidence grade.** [[Cultural]] Weak. District support in hardship is reported practice, and its link to later requests is a pattern, not a rule.
+:::
+
+### Stage 2 · Hook {#stage-2}
+
+::: stage
+**You are given a future that cannot be verified, and a rope for whenever you drift toward the door.**
+
+The doctrine of human revolution (personal transformation) promises happiness through chanting and practice.
+
+*What it asks of you:* Why are the promised benefits attributed to practice but never audited?
+:::
+
+::: tactic n=3
+#### 3 · Future Faking {#t-3}
+
+*Promising a future that keeps you invested but never has to arrive.*
+
+**How it shows here**
+
+- The movement promises the benefits of practice and "human revolution".
+
+**The strongest defense.** Faith and experience.
+
+**The counter.** Benefits are attributed, never audited.
+
+**Evidence grade.** [[Taught]] The benefits of practice and "human revolution" are the movement's own teaching.
+:::
+
+::: tactic n=4
+#### 4 · Hoovering {#t-4}
+
+*Pulling someone back after they've started to leave, through guilt, love, or fear.*
+
+**How it shows here**
+
+- Leaders visit lapsed members.
+
+**The strongest defense.** Encouragement.
+
+**The counter.** Encouragement that carries a list is recruitment.
+
+**Evidence grade.** [[Cultural]] Visits to lapsed members are ordinary district practice.
+:::
+
+### Stage 3 · Devalue {#stage-3}
+
+::: stage
+**You are taught that you are broken, that your perception is unreliable, and that both exits from the trap lead back inside.**
+
+Unhappiness is attributed to insufficient practice.
+
+*What it asks of you:* Who decides what is "insufficient"?
+:::
+
+::: tactic n=5
+#### 5 · Devaluation {#t-5}
+
+*Reducing your sense of worth so you become dependent on the institution for identity.*
+
+**How it shows here**
+
+- Suffering is attributed to insufficient practice.
+
+**The strongest defense.** Take responsibility.
+
+**The counter.** It is a diagnosis only the organization can treat.
+
+**Evidence grade.** [[Taught]] Attributing suffering to insufficient practice is taught by leaders.
+:::
+
+::: tactic n=6
+#### 6 · Gaslighting {#t-6}
+
+*Making you doubt your own experience so you trust the institution's interpretation instead.*
+
+**How it shows here**
+
+- Doubts are reframed as weak faith.
+
+**The strongest defense.** Faith grows through doubt.
+
+**The counter.** Then let the doubt stand.
+
+**Evidence grade.** [[Contested]] Whether doubt is reframed as weak faith is disputed; the page records no published instruction.
+:::
+
+::: tactic n=7
+#### 7 · Double Bind {#t-7}
+
+*A trap where both options lead to compliance. No exit serves you.*
+
+**How it shows here**
+
+- The organization is "separate" from the party, yet campaigns for it [3][5].
+
+**The strongest defense.** Members act as citizens.
+
+**The counter.** The campaigning is organized by districts.
+
+**Evidence grade.** [[Documented]] The stated separation and the campaigning are both on record [3][5].
+:::
+
+### Stage 4 · Confuse {#stage-4}
+
+::: stage
+**The rewards become unpredictable, the standard keeps moving, the answers stop meaning anything, and the accusation gets turned around.**
+
+The organization is "separate" from the party, yet campaigns for it [3][5].
+
+*What it asks of you:* Which is it?
+:::
+
+::: tactic n=8
+#### 8 · Intermittent Reinforcement {#t-8}
+
+*Unpredictable reward that creates addictive emotional dependency.*
+
+**How it shows here**
+
+- Members receive recognition for campaign and subscription results [5].
+
+**The strongest defense.** Honoring effort.
+
+**The counter.** The recognition is given by quota.
+
+**Evidence grade.** [[Cultural]] Recognition for campaign and subscription results is described in scholarly fieldwork [5].
+:::
+
+::: tactic n=9
+#### 9 · Moving the Goalposts {#t-9}
+
+*The standard of success keeps shifting so you can never arrive.*
+
+**How it shows here**
+
+- Each election brings a new target.
+
+**The strongest defense.** Every campaign matters.
+
+**The counter.** There is always another election.
+
+**Evidence grade.** [[Cultural]] A new target for each election is how campaigns run in practice.
+:::
+
+::: tactic n=10
+#### 10 · Strategic Ambiguity {#t-10}
+
+*Language that sounds profound but means nothing specific — functioning as a shutdown to real questions.*
+
+**How it shows here**
+
+- The organization announces a "separation" of religion and party [3].
+
+**The strongest defense.** A formal policy since 1970.
+
+**The counter.** A policy is not a practice [5].
+
+**Evidence grade.** [[Documented]] The announced separation is on the record [3].
+:::
+
+::: tactic n=11
+#### 11 · Projection {#t-11}
+
+*Accusing the outside world of the exact thing the institution practices.*
+
+**How it shows here**
+
+- Critics are cast as enemies of peace.
+
+**The strongest defense.** Persecution by rivals.
+
+**The counter.** Critics include scholars [5].
+
+**Evidence grade.** [[Cultural]] Casting critics as enemies of peace is a pattern in the movement's messaging.
+:::
+
+::: tactic n=12
+#### 12 · DARVO {#t-12}
+
+*Deny the wrongdoing. Attack the person who raised it. Reverse victim and offender.*
+
+**How it shows here**
+
+- The 1970 apology denied any intent to obstruct speech [3].
+
+**The strongest defense.** No intent.
+
+**The counter.** The pressure was documented [3].
+
+**Evidence grade.** [[Contested]] The apology and the documented pressure are both on record, so the reading is disputed [3].
+:::
+
+::: tactic n=13
+#### 13 · Normalization / Desensitization {#t-13}
+
+*Practices that would seem extreme to an outsider feel normal to insiders because they were installed before critical evaluation developed.*
+
+**How it shows here**
+
+- Campaigning is treated as ordinary faith practice [5].
+
+**The strongest defense.** Engaged Buddhism.
+
+**The counter.** The engagement is with one party only.
+
+**Evidence grade.** [[Cultural]] Campaigning as ordinary faith practice is described in scholarly fieldwork [5].
+:::
+
+### Stage 5 · Isolate {#stage-5}
+
+::: stage
+**Your world narrows until every voice you hear is inside the system, and everything you came for now runs through a middleman.**
+
+Isolation is weak here: social life is centered on the district, but no formal shunning was found [5].
+
+*What it asks of you:* How much of your social life runs through the district?
+:::
+
+::: tactic n=14
+#### 14 · Isolation {#t-14}
+
+*Shrinking your world until the only voices you hear are inside the system.*
+
+**How it shows here**
+
+- Social life is centered on the district.
+
+**The strongest defense.** Community.
+
+**The counter.** The technique is weak here.
+
+**Evidence grade.** [[Cultural]] Weak. A district-centred social life is a pattern, not a rule.
+:::
+
+::: tactic n=15
+#### 15 · Triangulation {#t-15}
+
+*Inserting intermediaries between you and the thing you came for, so the institution is always in the middle.*
+
+**How it shows here**
+
+- Family, district and mentor align.
+
+**The strongest defense.** Shared purpose.
+
+**Evidence grade.** [[Cultural]] The alignment of family, district and mentor is reported practice.
+:::
+
+### Stage 6 · Extract {#stage-6}
+
+::: stage
+**Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
+
+Members give contributions, newspaper sales and election labor [5][8].
+
+*What it asks of you:* Whose time funds whose seats?
+:::
+
+::: tactic n=16
+#### 16 · Flying Monkeys {#t-16}
+
+*The community enforces the institution's norms without being asked — mobilized by culture, not memos.*
+
+**How it shows here**
+
+- Members contact friends for votes.
+
+**The strongest defense.** Sharing our values.
+
+**The counter.** The friend becomes a target.
+
+**Evidence grade.** [[Cultural]] Contacting friends for votes is described as ordinary campaign practice.
+:::
+
+::: tactic n=17
+#### 17 · Smear Campaign {#t-17}
+
+*Rewriting your character after departure to protect the institution from the implications of your leaving.*
+
+**How it shows here**
+
+- The 1969–70 pressure on a critic's publisher is the instance [3].
+
+**The strongest defense.** Defending our reputation.
+
+**The counter.** Reputation is defended by answers.
+
+**Evidence grade.** [[Contested]] The 1969–70 pressure on a critic's publisher is the instance; its reading is disputed [3].
+:::
+
+::: tactic n=18
+#### 18 · Silent Treatment / Stonewalling {#t-18}
+
+*Refusing to engage with legitimate questions in order to maintain control.*
+
+**How it shows here**
+
+- Accounts are not published to members in Japan, while national charities abroad publish theirs [2].
+
+**The strongest defense.** Private religious matters.
+
+**The counter.** Members pay; members may ask.
+
+**Evidence grade.** [[Cultural]] Members in Japan are not shown accounts, while charities abroad file theirs [2]; this is practice, not a published rule.
+:::
+
+::: tactic n=19
+#### 19 · Manufactured Consent {#t-19}
+
+*Creating the appearance of choice when the conditions of choice were shaped before you could evaluate them.*
+
+**How it shows here**
+
+- Votes are "freely" given within organized drives [5].
+
+**The strongest defense.** Citizens choose.
+
+**The counter.** The choice is made inside a quota.
+
+**Evidence grade.** [[Cultural]] Votes given within organised drives are described in scholarly fieldwork [5].
+:::
+
+::: tactic n=20
+#### 20 · Trauma Bonding {#t-20}
+
+*The wound and the bandage come from the same hand.*
+
+**How it shows here**
+
+- No instance of this technique was found.
+
+**Evidence grade.** [[Ungraded]] No instance of this technique was found for this tradition.
+:::
+
+::: tactic n=21
+#### 21 · Learned Helplessness {#t-21}
+
+*Teaching you that your own judgment is unreliable until you stop trusting it entirely.*
+
+**How it shows here**
+
+- No instance of this technique was found.
+
+**Evidence grade.** [[Ungraded]] No instance of this technique was found for this tradition.
+:::
+
+::: tactic n=22
+#### 22 · Benevolent Control {#t-22}
+
+*Control wrapped in the language of care, so that resisting the control feels like rejecting the love.*
+
+**How it shows here**
+
+- District leaders give guidance.
+
+**The strongest defense.** Encouragement.
+
+**The counter.** Guidance you can decline is fine.
+
+**Evidence grade.** [[Cultural]] Guidance from district leaders is ordinary practice.
+:::
+
+::: tactic n=23
+#### 23 · Infantilization {#t-23}
+
+*Positioning the adult believer as permanently childlike and dependent on institutional authority.*
+
+**How it shows here**
+
+- No instance of this technique was found.
+
+**Evidence grade.** [[Ungraded]] No instance of this technique was found for this tradition.
+:::
+
+::: tactic n=24
+#### 24 · Identity Erosion {#t-24}
+
+*Gradually replacing your identity with a role the institution provides, until you can't separate who you are from where you belong.*
+
+**How it shows here**
+
+- Selfhood is framed through the mentor–disciple bond [6].
+
+**The strongest defense.** Inspiration.
+
+**The counter.** A self defined through a mentor is a self someone else can direct.
+
+**Evidence grade.** [[Cultural]] The mentor–disciple bond is the movement's own framing [6]; it is not a formal rule.
+:::
+
+::: tactic n=25
+#### 25 · Spiritual Bypassing {#t-25}
+
+*Using spiritual language to avoid engaging with real pain, real questions, and real accountability.*
+
+**How it shows here**
+
+- Illness or crisis is answered with "chant more".
+
+**The strongest defense.** Faith gives strength.
+
+**The counter.** Chanting is not a treatment.
+
+**Evidence grade.** [[Cultural]] Answering illness or crisis with "chant more" is reported practice.
+:::
+
+::: tactic n=26
+#### 26 · Financial Control {#t-26}
+
+*Extracting money through spiritual obligation while offering no transparency about where it goes.*
+
+**How it shows here**
+
+- Members give zaimu and pay for newspaper subscriptions [5][8].
+
+**The strongest defense.** Voluntary support.
+
+**The counter.** Publish the accounts.
+
+**Evidence grade.** [[Cultural]] Zaimu and newspaper subscriptions are described in fieldwork and reference summaries [5][8].
+:::
+
+### Stage 7 · Discard {#stage-7}
+
+::: stage
+**You become expensive — too many questions, too much independence — and the urgency ramps up until you are removed.**
+
+No formal mechanism was found.
+:::
+
+::: tactic n=27
+#### 27 · Manufactured Crisis {#t-27}
+
+*Creating urgency to suppress critical thinking and generate loyalty.*
+
+**How it shows here**
+
+- Elections create urgency.
+
+**The strongest defense.** Every vote counts.
+
+**The counter.** The urgency follows a schedule.
+
+**Evidence grade.** [[Cultural]] Urgency around elections is a pattern in campaign practice.
+:::
+
+::: tactic n=28
+#### 28 · Discard {#t-28}
+
+*Removing members who become too costly — too many questions, too much independence, too visible a contradiction.*
+
+**How it shows here**
+
+- No formal mechanism was found.
+
+**Evidence grade.** [[Ungraded]] No formal mechanism of discard was found for this tradition.
+:::
+
+### Stage 8 · Replace {#stage-8}
+
+::: stage
+**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to the Law and the mentor.**
+
+The district continues.
+:::
+
+::: tactic n=29
+#### 29 · Replacement {#t-29}
+
+*Your seat is filled before the door closes behind you.*
+
+**How it shows here**
+
+- No instance of this technique was found.
+
+**Evidence grade.** [[Ungraded]] No instance of this technique was found for this tradition.
+:::
+
+::: tactic n=30
+#### 30 · Plausible Deniability {#t-30}
+
+*The institution is never responsible, because the authority is attributed to the Law and the mentor, which no one can cross-examine.*
+
+**How it shows here**
+
+- The organization says "members vote freely" and "the party is separate" [3][5].
+
+**The strongest defense.** Formal separation.
+
+**The counter.** The voting is organized by the religion's own structure [5].
+
+**Evidence grade.** [[Documented]] The organisation's statements are on record [3][5].
+:::
 
 ## 13. The loops {#loops}
 
@@ -629,7 +1117,7 @@ Checked 2026-10-03.
 10. Wikipedia, "Parliamentary Commission on Cults in France" (reference summary: the Guyard report of 22 Dec 1995 listing 172 movements; the 1999 report, which discusses Soka Gakkai; the controversy and the defamation complaint against Guyard, discharged in 2001 on the ground of good faith). <https://en.wikipedia.org/wiki/Parliamentary_Commission_on_Cults_in_France> — the Assemblée nationale report is no. 2468. CESNUR critique: <https://www.cesnur.org/2003/vil2003_dericquebourg.htm>
 11. Tokihisa Sumimoto, "Religious Freedom Problems in Japan: Background and Current Prospects," *The International Journal of Peace Studies* 5(2) — the December 1995 revision of the Religious Corporation Law; Shizuka Kamei's statement. <https://www3.gmu.edu/programs/icar/ijps/vol5_2/sumimoto.htm>
 12. Religion in Modern Asia Newsletter (Kokugakuin University), "Revised Religious Corporations Law (Japan)" (1 Jan 1996) — passed by the Diet on 8 Dec 1995. <http://www2.kokugakuin.ac.jp/ijcc/asia-nl/news/news000050.html>
-13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Wed 10:00–13:00, Thu 16:00–19:00, Fri 08:00–11:00). <https://humanists.uk/faith-to-faithless/helpline/>
+13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). <https://humanists.uk/faith-to-faithless/helpline/>
 14. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
 15. International Cultic Studies Association (ICSA). <https://internationalculticstudies.org/>
 16. SGI-UK, *Adults at risk protection guidelines and procedures* (2024–2025). <https://members.sgi-uk.org/sites/default/files/AdultsAtRiskProtectionGuidelinesAndProcedures2024_2025.pdf>

@@ -2332,9 +2332,9 @@
   "section": 26,
   "before": "(freephone; set hours). https://humanists.uk",
   "after": "(freephone; Mon 10am–1pm, Wed 10am–1pm, Thu 4–7pm). https://humanists.uk",
-  "reason": "item 30: source 13 matched.",
+  "reason": "item 30: source 13 matched. [2026-10-08: superseded by ALL-F10, which sets the hours verified on 2026-10-05; these Wed/Thu/Fri hours were wrong.]",
   "count": 1,
-  "status": "proposed"
+  "status": "rejected"
  },
  {
   "id": "CONF-D065",

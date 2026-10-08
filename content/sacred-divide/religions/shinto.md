@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | Jinja Honcho claims tens of millions of 'adherents' through household shrine affiliation; surveys show only a few percent of Japanese self-identify as Shinto believers. The two counts differ by a wide margin. [ACADEMIC SOURCE] |
 | Who's in charge | Jinja Honcho, the Association of Shinto Shrines, is the umbrella body over roughly 80,000 shrines. The research chief who questioned a 2015 property sale was dismissed and a colleague demoted; the courts voided the dismissal (final, 2022), and a rival claim to the presidency was rejected (final, 2024). President Tanaka Tsunekiyo was confirmed for a sixth term in 2025. |
-| Chosen by / removable by | Boards within the shrine world choose the president / The board can remove the president, and the courts have decided the disputes where the board failed |
+| Chosen by | Boards within the shrine world choose the president. |
+| Removable by | The board can remove the president, and the courts have decided the disputes where the board failed. |
 | Money in one line | The money comes from amulet and fortune sales, ceremony fees (blessings, weddings, groundbreakings), festival funding levies on neighborhoods, and corporate purification services. |
 | Leaving in one line | There is no membership to leave. The costs are neighborly and reputational, since opting out of shrine festivals or levies marks a household. [VARIES BY COMMUNITY] |
 | The unanswered question | If participation is 'just culture' and belief is optional, why does refusal cost belonging? |
@@ -1405,7 +1406,7 @@ Checked 2026-10-03. No Japanese-language line has been checked for this page; th
 ### Further sources
 12. Diamond Online, 「神社本庁が全面敗訴、『内部告発者の懲戒解雇は無効』」 (2021) — the sale chain: ¥184m (Oct 2015), ¥212.4m (Nov 2015), ¥305m (six months later); Takao Ina's December 2016 complaint and August 2017 dismissal. https://diamond.jp/articles/-/266171
 13. NPR, "'Samurai Sword' Attack At Tokyo Shrine Leaves 3 Dead" (8 Dec 2017). https://www.npr.org/sections/thetwo-way/2017/12/08/569336750/samurai-sword-attack-at-tokyo-shrine-leaves-3-dead
-14. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Wed 10am–1pm, Thu 4–7pm, Fri 8–11am). https://humanists.uk/faith-to-faithless/helpline/
+14. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). https://humanists.uk/faith-to-faithless/helpline/
 15. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 16. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 17. Nobumasa Tanaka, "Yasukuni Shrine and the Double Genocide of Taiwan's Indigenous Atayal: new court verdict", *Asia-Pacific Journal: Japan Focus* — the Osaka District Court (13 May 2004) dismissed the Taiwanese plaintiffs' petition; the article states that nearly 50,000 Taiwanese and Korean soldiers who died in Japanese uniforms were enshrined at Yasukuni "without consultation with family members". https://www.cambridge.org/core/journals/asia-pacific-journal/article/yasukuni-shrine-and-the-double-genocide-of-taiwans-indigenous-atayal-new-court-verdict/EE8C2C20B136FF482CE2A0473DAEF354

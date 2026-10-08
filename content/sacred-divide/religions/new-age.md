@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | New Age has no countable membership by design. About six in ten US adults accept at least one of four beliefs Pew asked about in 2018 (psychics, spiritual energy in physical objects, reincarnation and astrology), among religious and non-religious adults alike. This measures belief, not membership, and the survey is from 2018. [ACADEMIC SOURCE: Pew, 2018] |
 | Who's in charge | No office exists. Teachers are independent businesses, and this page cites no source for any body that appoints them, owns them or removes them. |
-| Chosen by / removable by | No one appoints a teacher / No one removes one, except a court after the harm |
+| Chosen by | No one appoints a teacher. |
+| Removable by | No one removes one, except a court after the harm. |
 | Money in one line | The money comes from tiered course funnels ($97 → $997 → $10K masterminds, meaning paid high-end group programs), retreat economies, certification pyramids (paying to become a certified healer who certifies others, which is MLM logic in spiritual clothing; MLM means multi-level marketing) and influencer monetization. [INVESTIGATIVE REPORT: documented cases, e.g., sweat-lodge deaths (a sweat lodge is a heated ceremonial enclosure; James Arthur Ray, convicted 2011 [COURT RECORD] and died in January 2025 [15]) and NXIVM's self-help-to-coercion pipeline (NXIVM was a self-help organization whose leader was convicted of racketeering and sex trafficking) [COURT RECORD]] |
 | Leaving in one line | There is no formal exit, but sunk costs, identity investment ('lightworker', a person who sees themselves as a spiritual healer or guide), loss of community, and blame reversal ('you manifested this', meaning you caused it yourself by your own thoughts) make departure costly. [FORMER MEMBER TESTIMONY] |
 | The unanswered question | If the healing works, why does the funnel always need another tier? |
@@ -1432,7 +1433,7 @@ Checked 2026-10-03.
 10. CBC Radio, *Day 6*, "From NXIVM recruiter to whistleblower: Sarah Edmondson tells her story." https://www.cbc.ca/radio/day6/climate-strikes-impeach-o-meter-fixing-democracy-spoofing-downton-abbey-nxivm-whistleblower-more-1.5297400/from-nxivm-recruiter-to-whistleblower-sarah-edmondson-tells-her-story-1.5297421
 11. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 12. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
-13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Wednesday 10:00–13:00, Thursday 16:00–19:00, Friday 08:00–11:00 UK time). https://humanists.uk/faith-to-faithless/helpline/
+13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). https://humanists.uk/faith-to-faithless/helpline/
 14. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/
 15. KJZZ (Phoenix), report on the death of James Arthur Ray, 6 Jan 2025 — Ray, convicted of negligent homicide after the 2009 Sedona sweat-lodge deaths, died suddenly in January 2025, aged 67; the family gave no cause. https://www.kjzz.org/kjzz-news/2025-01-06/james-arthur-ray-convicted-of-negligent-homicide-at-sedona-sweat-lodge-dies
 

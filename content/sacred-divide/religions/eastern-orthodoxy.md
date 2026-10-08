@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | Eastern Orthodoxy has roughly 208 million adherents; Pew counts nearly 260 million Orthodox Christians when the Oriental churches are included. [ACADEMIC SOURCE: Pew] [13] |
 | Who's in charge | The Ecumenical Patriarch of Constantinople, the senior bishop of the Orthodox churches, seated in Istanbul, is Bartholomew I, in office since 1991. He is first among equals, without command over the other fourteen churches. |
-| Chosen by / removable by | The Holy Synod / The Synod, in theory |
+| Chosen by | The Holy Synod. |
+| Removable by | The Synod, in theory. |
 | Money in one line | The money comes from candle sales, ritual fees (for baptisms, weddings, funerals and house blessings), diaspora remittances, and state funding in several countries. |
 | Leaving in one line | In majority-Orthodox societies, leaving reads as ethnic betrayal, because faith and nationality are fused ('to be Serbian is to be Orthodox'). |
 | The unanswered question | A patriarch blessed an invasion from the pulpit. Which synod holds the authority to say no to him — and why has it never been used? |
@@ -1468,7 +1469,7 @@ Checked 2026-09-27.
 23. ICNL, "Russian Federation Constitutional Court Decisions on Russia's 1997 Law 'On Freedom of Conscience and Religious Associations'" — the preamble's "special role" of Orthodoxy. https://www.icnl.org/resources/research/ijnl/russian-federation-constitutional-court-decisions-on-russias-1997-law-on-freedom-of-conscience-and-religious-associations
 24. Constitution of Greece, Article 3 (University of Minnesota Human Rights Library); OrthodoxWiki, "Old Calendarists" (the 1924 calendar change and the True Orthodox churches). https://hrlibrary.umn.edu/research/greece-constitution.html · https://orthodoxwiki.org/Old_Calendarists
 25. PONARS Eurasia, Beka Chedia, "The Georgian Orthodox Church as a Political Actor in Uncertain Times" (Policy Memo 711, Oct 2021) — 25 million lari a year; the 2002 agreement. https://www.ponarseurasia.org/the-georgian-orthodox-church-as-a-political-actor-in-uncertain-times/
-26. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
+26. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). https://humanists.uk/faith-to-faithless/helpline/
 27. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 28. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 29. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/

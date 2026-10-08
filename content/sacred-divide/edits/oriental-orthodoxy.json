@@ -2303,5 +2303,32 @@
   "reason": "Meta: dated patch note.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "STY-oriental-orthodoxy-01",
+  "scope": "md",
+  "type": "style",
+  "before": "| Permanent for whom? |",
+  "after": "| The permanence falls on the spouse who cannot leave, not on the church that set the rule. |",
+  "reason": "House rule for counters (EDITORIAL-STYLE.md, 2026-10-08): a statement by default; a question only when the institution could answer it from its own records; a command only when it names a test someone can run. This counter was a rhetorical fragment.",
+  "status": "proposed"
+ },
+ {
+  "id": "STY-oriental-orthodoxy-02",
+  "scope": "md",
+  "type": "style",
+  "before": "| Narrowed for whom? |",
+  "after": "| Narrowing the grounds left spouses in failed marriages with no way out. |",
+  "reason": "House rule for counters (EDITORIAL-STYLE.md, 2026-10-08): a statement by default; a question only when the institution could answer it from its own records; a command only when it names a test someone can run. This counter was a rhetorical fragment.",
+  "status": "proposed"
+ },
+ {
+  "id": "STY-oriental-orthodoxy-03",
+  "scope": "md",
+  "type": "style",
+  "before": "| Protecting which spouse? |",
+  "after": "| Protecting the marriage can mean leaving the harmed spouse inside it. |",
+  "reason": "House rule for counters (EDITORIAL-STYLE.md, 2026-10-08): a statement by default; a question only when the institution could answer it from its own records; a command only when it names a test someone can run. This counter was a rhetorical fragment.",
+  "status": "proposed"
  }
 ]

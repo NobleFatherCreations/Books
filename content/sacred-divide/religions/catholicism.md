@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | ~1.4 billion baptized (2023). [OFFICIAL POLICY: Vatican Annuarium Statisticum] |
 | Who's in charge | Supreme Pontiff — Leo XIV — Robert Francis Prevost, the first American-born pope, elected 8 May 2025 by 133 cardinal-electors after the death of Francis |
-| Chosen by / removable by | A conclave whose every elector was appointed by a previous pope / Nobody. Canon law provides no mechanism to remove a pope; even resignation must be his own free act |
+| Chosen by | A conclave whose every elector was appointed by a previous pope. |
+| Removable by | Nobody. Canon law provides no mechanism to remove a pope; even resignation must be his own free act. |
 | Money in one line | The money comes from Peter's Pence, diocesan appeals, parish collections, school systems and hospital networks, and the Church holds one of the largest real-estate portfolios in the world. |
 | Leaving in one line | Leaving can bring excommunication and the denial of the sacraments, and for the devout this is framed as risking eternal loss. |
 | The unanswered question | Every national inquiry found the files existed and were kept. Cardinal Law resigned in 2002 under public pressure [44]. Which bishop has ever been removed by Rome, under a published rule, for keeping the files sealed? |

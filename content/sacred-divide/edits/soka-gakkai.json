@@ -2217,9 +2217,9 @@
   "type": "source",
   "before": "(freephone; set hours). <https://humanists.uk",
   "after": "(freephone; Wed 10:00–13:00, Thu 16:00–19:00, Fri 08:00–11:00). <https://humanists.uk",
-  "reason": "P3-32.",
+  "reason": "P3-32. [2026-10-08: superseded by ALL-F10, which sets the hours verified on 2026-10-05; these Wed/Thu/Fri hours were wrong.]",
   "count": 1,
-  "status": "proposed"
+  "status": "rejected"
  },
  {
   "id": "SOKF-D056",
@@ -2249,6 +2249,15 @@
   "after": "- **2026-10-03:** Corrected the \"twenty-six years in government\" claim: the partnership with the governing party lasted twenty-six years, about twenty-three in government, with Komeito in opposition from 2009 to 2012. Added Komeito's 2026 position (the January merger into the Centrist Reform Alliance, its September end, and the new leader). Corrected the 1930 founding (an education society, later aligned with Nichiren Shoshu) and the French reports (Soka Gakkai is discussed in the 1999 report, and the complaint against the commission president followed that report). Removed an unsupported claim that households are strained by contributions, the unsourced membership trend, the vacancy claim for the honorary presidency and the Agency for Cultural Affairs as a named regulator. Dated the membership figures (2021) and the newspaper claim (1997), regraded one technique, replaced five unsupported levels in the cost table, and added opening hours for two help lines. Sources 18 and 19 are new.\n- **2026-09-27:** Added Branches,",
   "reason": "Patch note for this round (CLAUDE.md patch-notes rule).",
   "count": 1,
+  "status": "proposed"
+ },
+ {
+  "id": "STY-soka-gakkai-01",
+  "scope": "md",
+  "type": "style",
+  "before": "| Whose life is it? |",
+  "after": "| A self defined through a mentor is a self someone else can direct. |",
+  "reason": "House rule for counters (EDITORIAL-STYLE.md, 2026-10-08): a statement by default; a question only when the institution could answer it from its own records; a command only when it names a test someone can run. This counter was a rhetorical fragment.",
   "status": "proposed"
  }
 ]

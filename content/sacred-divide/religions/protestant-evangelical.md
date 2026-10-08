@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | About 800 million (Pew counted 801 million Protestants in 2011), and up to 1 billion on wider definitions. Pew counts 584 million Pentecostal and charismatic Christians (those who emphasize gifts of the Holy Spirit such as healing and speaking in tongues) across all traditions, Catholic charismatics included, so they are not a subset of the Protestant total [19]. [ACADEMIC SOURCE: Pew, WCD] |
 | Who's in charge | In most independent churches the top office is the founder's chair, held by the founder or by the founder's family. Megachurch (very large church) pulpits have passed to spouses and sons in several churches. |
-| Chosen by / removable by | The founder, plus a board he selected / The board he appointed — the arrangement the U.S. Senate's Grassley inquiry documented and could not penetrate |
+| Chosen by | The founder, plus a board he selected. |
+| Removable by | The board he appointed — the arrangement the U.S. Senate's Grassley inquiry documented and could not penetrate. |
 | Money in one line | Tithing (giving a tenth of income) is preached as a covenant obligation, and the prosperity gospel (the teaching that faith and giving bring health and wealth) turns giving into an investment product, with seed-faith donations promising divine returns. [LEADERSHIP STATEMENT: recorded sermons of prosperity teachers] |
 | Leaving in one line | Leaving can cost the total social world megachurches deliberately build (groups, childcare, schools, employment). |
 | The unanswered question | If membership is voluntary and the church has nothing to hide, why did departing staff have to sign non-disclosure agreements? |
@@ -1551,7 +1552,7 @@ Checked 2026-09-27.
 24. Interfaith Alliance, "What is Happening with the Johnson Amendment?" (31 July 2025; updated April 2026) — the July 2025 IRS consent filing in *National Religious Broadcasters v. Long*. https://www.interfaithalliance.org/post/what-is-happening-with-the-johnson-amendment
 25. Baptist News Global, "Newspaper story on sexual abuse in SBC was a long time coming for activist Christa Brown" (11 Feb 2019). https://baptistnews.com/article/newspaper-story-on-sexual-abuse-in-sbc-was-a-long-time-coming-for-activist-christa-brown/
 26. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
-27. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
+27. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). https://humanists.uk/faith-to-faithless/helpline/
 28. SNAP — Survivors Network of those Abused by Priests. https://www.snapnetwork.org/
 29. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 30. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/

@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | Hinduism has ~1.1–1.2 billion adherents. [ACADEMIC SOURCE: Pew, Indian census] |
 | Who's in charge | The Shankaracharya seats, four historic monastic thrones (mathas), carry immense prestige and no command, and no office speaks for the tradition. |
-| Chosen by / removable by | Lineage designation / No removal procedure is recorded. |
+| Chosen by | Lineage designation. |
+| Removable by | No removal procedure is recorded. |
 | Money in one line | The money sits in temple economies. Tirupati, one of India's richest temples, recorded a net worth of ₹2.26 lakh crore in its own 2022 white paper (section 9); many major temples are administered by state governments — governments literally managing and drawing on temple wealth. [FINANCIAL RECORD / OFFICIAL POLICY: state temple endowment acts] |
 | Leaving in one line | Caste operates as a birth-assigned enforcement grid; inter-caste marriage still triggers ostracism and violence in documented cases. [GOVERNMENT REPORT / COURT RECORD: honor-killing prosecutions] |
 | The unanswered question | Untouchability has been unconstitutional since 1950. Which religious authority has ever taken responsibility for what doctrine sanctified? |
@@ -1473,7 +1474,7 @@ Checked 2026-09-27.
 17. The News Minute, "Endorsement to exile: How Bindhu Ammini, who entered Sabarimala, had to leave Kerala." https://www.thenewsminute.com/kerala/bindhu-ammini-the-woman-who-entered-sabarimala-and-was-forced-to-leave-kerala
 18. Scroll, "Narendra Dabholkar murder: Two convicted, three acquitted by Pune court" (10 May 2024). https://scroll.in/latest/1067708/narendra-dabholkar-murder-two-convicted-three-acquitted-by-pune-court
 19. News Arena India, "HC grants bail to Dabholkar murder convict" (18 Aug 2026 — life sentence of Sachin Andure suspended). https://newsarenaindia.com/nation/hc-grants-bail-to-dabholkar-murder-convict/84802
-20. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
+20. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). https://humanists.uk/faith-to-faithless/helpline/
 21. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 22. Karma Nirvana — honour-based abuse and forced marriage, 0800 5999 247. https://karmanirvana.org.uk/get-help/helpline/
 23. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/

@@ -2237,5 +2237,14 @@
   "reason": "Dated bullet describing this round.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "STY-plymouth-brethren-01",
+  "scope": "md",
+  "type": "style",
+  "before": "| Did they act privately across two countries? |",
+  "after": "| The same election work appeared in two countries [3][8], which is hard to call private. |",
+  "reason": "House rule for counters (EDITORIAL-STYLE.md, 2026-10-08): a statement by default; a question only when the institution could answer it from its own records; a command only when it names a test someone can run. This counter was a rhetorical fragment.",
+  "status": "proposed"
  }
 ]

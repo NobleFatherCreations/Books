@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | Pew counted 584 million Pentecostal and charismatic Christians in 2011, about a quarter of the world's Christians [14], when classical Pentecostals (members of the denominations that grew out of the early-twentieth-century revivals, such as the Assemblies of God), charismatics inside other denominations (Catholics and mainline Protestants who adopt Pentecostal practice), and independent neo-charismatic churches (independent churches with Pentecostal practice and no Pentecostal denomination) are counted together. That count includes charismatic Catholics, so it is not a subset of Protestantism, and it is the fastest-growing part of Christianity. [ACADEMIC SOURCE] |
 | Who's in charge | In the founder's ministry, the dominant form worldwide, the founder is in charge personally. Enoch Adeboye leads Nigeria's Redeemed Christian Church of God and David Oyedepo leads Living Faith Church Worldwide; Edir Macedo leads Brazil's Universal Church of the Kingdom of God and also owns the Record television network. |
-| Chosen by / removable by | Founders appoint themselves, and growth is taken as their validation / Nobody can remove them. No public record identifies any body with the power to remove any of them |
+| Chosen by | Founders appoint themselves, and growth is taken as their validation. |
+| Removable by | Nobody can remove them. No public record identifies any body with the power to remove any of them. |
 | Money in one line | This is the tradition where the codex's financial chapter is not an inference. The teaching states the mechanism out loud: money given to the ministry is a seed, and the seed produces a harvest. Giving is not framed as duty, gratitude, or solidarity. It is framed as an investment with a promised return, delivered by God, brokered by the ministry. |
 | Leaving in one line | Leaving is legally free and socially expensive, and the expense is concentrated in exactly the places where the movement is strongest: immigrant communities, diaspora congregations, and towns where the church is also the school, the clinic, the credit network, and the employer. |
 | The unanswered question | A US Senate committee asked six ministries for basic financial information and closed its inquiry three years later without full answers and without penalties. If the seed produces the harvest, what exactly is the difficulty in publishing the accounts? |
@@ -1476,7 +1477,7 @@ Checked 2026-09-27.
 23. The Gospel Coalition, review of Costi Hinn, *God, Greed, and the (Prosperity) Gospel* (Zondervan, 2019). https://www.thegospelcoalition.org/reviews/god-greed-prosperity-gospel/
 24. *Christian Today*, "Benny Hinn's nephew slams prosperity gospel, reveals why he left affluent lifestyle behind" (10 Apr 2018). https://www.christiantoday.com/news/benny-hinns-nephew-slams-prosperity-gospel-reveals-why-he-left-affluent-lifestyle-behind
 25. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
-26. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
+26. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). https://humanists.uk/faith-to-faithless/helpline/
 27. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 28. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
 29. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/

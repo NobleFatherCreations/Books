@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | Membership is at least 10–20 million by independent estimates, as summarized in a reference work [32], and the community claims tens of millions. |
 | Who's in charge | The Khalifatul Masih (the Khalifa, "successor of the Messiah"), Mirza Masroor Ahmad, has led the community since 2003. |
-| Chosen by / removable by | An electoral college of senior office-bearers / No one; the office is held for life |
+| Chosen by | An electoral college of senior office-bearers. |
+| Removable by | No one; the office is held for life. |
 | Money in one line | Members pay compulsory graded contributions: one-sixteenth of income after tax for every earning member, and more under the Wasiyyat scheme (a pledge of part of one's income and estate) [1]. |
 | Leaving in one line | Expulsion cuts a person off from the Jamaat (the organized community), which says they "will not have any connection" with it afterwards [12]. |
 | The unanswered question | If the Khalifa errs, what written procedure corrects him — and why is there none? |
@@ -253,54 +254,567 @@ Chanda is a fixed share of income — 1/16 for Chanda Aam, with Wasiyyat pledges
 - Purdah (the practice of veiling and of separating women from unrelated men) and dress norms are enforced through the auxiliary structure rather than the state. [OFFICIAL POLICY / FORMER MEMBER TESTIMONY]
 
 ## 12. The 30 techniques {#techniques}
+Thirty named techniques from domestic-abuse and social-psychology research, applied to institutions, in the eight stages of the cycle. Each carries an evidence grade for this tradition.
 
-### The eight stages here
+### Stage 1 · Idealize {#stage-1}
 
-| Stage | How it shows here | The question |
-|---|---|---|
-| Idealize | A convert is welcomed into a global family with a living Khalifa who speaks to them every Friday, and a community that visibly suffers for its faith | Were you welcomed, or recruited into a structure? |
-| Hook | Members are promised nearness to God through obedience, and the Wasiyyat cemetery, where membership reaches past death. | The reward is scheduled after the only point you could check it. |
-| Devalue | Your chanda is late, your attendance slipped, your pledge is not renewed. Sacrifice is the measure and it has no ceiling | Who decided what enough looks like? |
-| Confuse | Question the system and be told you are weakening a persecuted community in front of its enemies | Your question is recast as disloyalty to people being killed. |
-| Isolate | Marriage, friendship, schooling, holidays and weekend duty all run through the jamaat | Where would you take a doubt that isn't inside the system? |
-| Extract | The system takes a sixteenth of your income, a tenth of your estate, a child pledged before birth and weekends of duty. | Notice how precise the obligation is, and ask where the ledger is for your country. |
-| Discard | Members face expulsion, and former members report that relatives are expected not to associate. | Nothing was said about you in public. Everything changed. |
-| Replace | The Friday sermon continues; a new volunteer fills the office | The system is designed to be unaffected by any one person. |
+::: stage
+**You arrive with a need and are met with more warmth than you have had in years.**
 
-### All thirty, graded
+A convert is welcomed into a global family with a living Khalifa who speaks to them every Friday, and a community that visibly suffers for its faith.
 
-| # | Mechanism | Grade | How it appears here | The defense | The counter |
-|---|---|---|---|---|---|
-| 1 | Love bombing | Cultural | Converts are embraced by a global family, with the Khalifa's name, an instant role, and hospitality. | "Welcoming converts is a duty." | Warmth is not the issue; whether it survives the first unpaid chanda is. |
-| 2 | Weaponized generosity | Cultural | Community help (jobs, housing, marriage introductions) arrives through the same structure that records your contributions. | "We look after our own." | Care that runs through the finance secretary's ledger is not unconditional. |
-| 3 | Future faking | Taught | Members are promised nearness to God, the Khalifa's prayers, and burial in the Wasiyyat cemetery. | "These are sincere spiritual promises." | The reward is unverifiable, and the contribution is monthly. |
-| 4 | Hoovering | Cultural | Drifting members are visited by office-bearers and relatives; Jalsa is the annual pull back. | "We check on those who stray out of love." | A visit that begins with arrears is not a welfare check. |
-| 5 | Devaluation | Taught | Weak sacrifice, missed duties and an unrenewed pledge are named as spiritual failure. | "Striving is spiritual growth." | A standard that only ever rises is a leash, not a path. |
-| 6 | Gaslighting | Cultural | Doubts about the system are reframed as weak faith or as the influence of enemies. | "Doubt is spiritually dangerous." | Treating every question as a symptom means no question is ever answered. |
-| 7 | Double bind | Taught | The teaching "No compulsion in religion" sits alongside a boycott of those who leave that former members report is expected. | "Discipline is administrative." | A choice that costs you your family is not free. |
-| 8 | Intermittent reinforcement | Cultural | Sacrifice is praised in public, and the lapsed meet silence. | "We honor those who give." | Honor rationed by giving teaches giving, not faith. |
-| 9 | Moving the goalposts | Codified | Aam leads to Wasiyyat, which leads to new schemes, each published with its rates [1][2]; each level of sacrifice exposes the next. | "Sacrifice deepens with faith." | Name the level at which a member has given enough. |
-| 10 | Strategic ambiguity | Codified | The community's own guide calls Chanda Aam "compulsory" and other chandas "voluntary", yet says voluntary chandas are not accepted from a member who does not pay the obligatory ones [1]. | "The other chandas are given freely." | A gift that is refused unless the obligatory payments are made is conditional. |
-| 11 | Projection | Cultural | Critics are cast as disloyal and self-seeking while the system escapes audit. | "Critics have their own agendas." | Motive does not answer the question asked. |
-| 12 | DARVO | Cultural | A member raising a complaint against an office-bearer becomes the problem for "creating disorder". | "Disputes must go through proper channels." | When the channel is the accused's colleagues, it is not proper. |
-| 13 | Normalization | Taught | Duty rotas, dues and reporting become the texture of ordinary life from age seven. | "Service is joy." | If it can't be declined, it is not service. |
-| 14 | Isolation | Cultural | Marriage, friendship and leisure are centered on the jamaat, and marriage outside it is restricted for women. | "Community keeps faith strong." | A world with no exit route is a wall. |
-| 15 | Triangulation | Cultural | Family, office-bearers and the Khalifa's sermons align against a doubter. | "Everyone is concerned for you." | When every relationship reports upward, concern becomes supervision. |
-| 16 | Flying monkeys | Cultural | Relatives and auxiliary officers carry the pressure to return or conform. | "Families care." | The institution never has to say a word. |
-| 17 | Smear campaign | Taught | Community writing frames organized critics as conspiracies against the Jamaat [23]; former members report being called misled. | "We pray for them." | Answer the criticism, not the critic. |
-| 18 | Stonewalling | Cultural | Complaints about office-bearers are routed back into the same hierarchy. | "Internal matters stay internal." | That is the complaint. |
-| 19 | Manufactured consent | Codified | Waqf-e-Nau children reaffirm at fifteen a pledge made for them before birth [15][33]. | "They choose it themselves at maturity." | A choice made against a lifetime of expectation is not a clean choice. |
-| 20 | Trauma bonding | Cultural | Shared persecution grief binds members to the institution itself. | "Suffering unites us." | The bond is with each other, and the institution collects it. |
-| 21 | Learned helplessness | Cultural | Every route of complaint ends at an appointee of the Khalifa. | "Trust the system." | A system with no outside door teaches people to stop knocking. |
-| 22 | Benevolent control | Taught | Marriage rules and purdah are framed as protection. | "It protects our women." | Protection that cannot be refused is control. |
-| 23 | Infantilization | Cultural | Adults' marriage, dress and reading are supervised by office-bearers. | "Guidance is a mercy." | Adults do not need permission. |
-| 24 | Identity erosion | Taught | Selfhood is defined by membership, rank of sacrifice and obedience. | "Faith is identity." | If the self cannot leave, it was not given. |
-| 25 | Spiritual bypassing | Cultural | Grievances are answered with calls for more prayer and sacrifice. | "Patience is a virtue." | Patience asked only of the complainant is containment. |
-| 26 | Financial control | Codified | Contributions are fixed percentages of income, estates are pledged, and arrears are recorded. | "Financial sacrifice is a pillar." | Publish the worldwide accounts to the people who pay. |
-| 27 | Manufactured crisis | Cultural | Persecution news is framed as a reason to close ranks against internal critics. | "The danger is real." | It is real, and it is also being used. |
-| 28 | Discard | Codified | Expulsion is published [12]; former members report that a boycott is expected. | "Only for serious violations." | Who decides "serious", and can the member reply? |
-| 29 | Replacement | Cultural | The system continues untouched; a new volunteer fills the post. | "Service is not about individuals." | That is the point. |
-| 30 | Plausible deniability | Cultural | The institution publishes expulsion; former members report that members carry out the boycott. | "We never told anyone to shun family." | Then say so in writing. |
+*What it asks of you:* Were you welcomed, or recruited into a structure?
+:::
+
+::: tactic n=1
+#### 1 · Love Bombing {#t-1}
+
+*Overwhelming affection on arrival to create emotional dependency before terms are revealed.*
+
+**How it shows here**
+
+- Converts are embraced by a global family, with the Khalifa's name, an instant role, and hospitality.
+
+**The strongest defense.** Welcoming converts is a duty.
+
+**The counter.** Warmth is not the issue; whether it survives the first unpaid chanda is.
+
+**Evidence grade.** [[Cultural]] The welcome is ordinary community practice; no written rule ties it to later contributions.
+:::
+
+::: tactic n=2
+#### 2 · Weaponized Generosity {#t-2}
+
+*Giving help that installs unspoken obligation.*
+
+**How it shows here**
+
+- Community help (jobs, housing, marriage introductions) arrives through the same structure that records your contributions.
+
+**The strongest defense.** We look after our own.
+
+**The counter.** Care that runs through the finance secretary's ledger is not unconditional.
+
+**Evidence grade.** [[Cultural]] Help and contribution records running through one structure is reported practice, not a published rule.
+:::
+
+### Stage 2 · Hook {#stage-2}
+
+::: stage
+**You are given a future that cannot be verified, and a rope for whenever you drift toward the door.**
+
+Members are promised nearness to God through obedience, and the Wasiyyat cemetery, where membership reaches past death.
+
+*What it asks of you:* The reward is scheduled after the only point you could check it.
+:::
+
+::: tactic n=3
+#### 3 · Future Faking {#t-3}
+
+*Promising a future that keeps you invested but never has to arrive.*
+
+**How it shows here**
+
+- Members are promised nearness to God, the Khalifa's prayers, and burial in the Wasiyyat cemetery.
+
+**The strongest defense.** These are sincere spiritual promises.
+
+**The counter.** The reward is unverifiable, and the contribution is monthly.
+
+**Evidence grade.** [[Taught]] Leaders promise these rewards in sermons and teaching; the promise itself is not a written contract.
+:::
+
+::: tactic n=4
+#### 4 · Hoovering {#t-4}
+
+*Pulling someone back after they've started to leave, through guilt, love, or fear.*
+
+**How it shows here**
+
+- Drifting members are visited by office-bearers and relatives; Jalsa is the annual pull back.
+
+**The strongest defense.** We check on those who stray out of love.
+
+**The counter.** A visit that begins with arrears is not a welfare check.
+
+**Evidence grade.** [[Cultural]] Home visits and the annual Jalsa are community custom; the pull back is described by members, not set out in a rule.
+:::
+
+### Stage 3 · Devalue {#stage-3}
+
+::: stage
+**You are taught that you are broken, that your perception is unreliable, and that both exits from the trap lead back inside.**
+
+Your chanda is late, your attendance slipped, your pledge is not renewed. Sacrifice is the measure and it has no ceiling.
+
+*What it asks of you:* Who decided what enough looks like?
+:::
+
+::: tactic n=5
+#### 5 · Devaluation {#t-5}
+
+*Reducing your sense of worth so you become dependent on the institution for identity.*
+
+**How it shows here**
+
+- Weak sacrifice, missed duties and an unrenewed pledge are named as spiritual failure.
+
+**The strongest defense.** Striving is spiritual growth.
+
+**The counter.** A standard that only ever rises is a leash, not a path.
+
+**Evidence grade.** [[Taught]] Leaders name weak sacrifice as spiritual failure in teaching; no rule sets a penalty for it.
+:::
+
+::: tactic n=6
+#### 6 · Gaslighting {#t-6}
+
+*Making you doubt your own experience so you trust the institution's interpretation instead.*
+
+**How it shows here**
+
+- Doubts about the system are reframed as weak faith or as the influence of enemies.
+
+**The strongest defense.** Doubt is spiritually dangerous.
+
+**The counter.** Treating every question as a symptom means no question is ever answered.
+
+**Evidence grade.** [[Cultural]] Recasting doubt as weak faith or enemy influence is reported by members; no document sets it out.
+:::
+
+::: tactic n=7
+#### 7 · Double Bind {#t-7}
+
+*A trap where both options lead to compliance. No exit serves you.*
+
+**How it shows here**
+
+- The teaching "No compulsion in religion" sits alongside a boycott of those who leave that former members report is expected.
+
+**The strongest defense.** Discipline is administrative.
+
+**The counter.** A choice that costs you your family is not free.
+
+**Evidence grade.** [[Taught]] The teaching is public; the expected boycott of those who leave rests on former members' accounts.
+:::
+
+### Stage 4 · Confuse {#stage-4}
+
+::: stage
+**The rewards become unpredictable, the standard keeps moving, the answers stop meaning anything, and the accusation gets turned around.**
+
+Question the system and be told you are weakening a persecuted community in front of its enemies.
+
+*What it asks of you:* Your question is recast as disloyalty to people being killed.
+:::
+
+::: tactic n=8
+#### 8 · Intermittent Reinforcement {#t-8}
+
+*Unpredictable reward that creates addictive emotional dependency.*
+
+**How it shows here**
+
+- Sacrifice is praised in public, and the lapsed meet silence.
+
+**The strongest defense.** We honor those who give.
+
+**The counter.** Honor rationed by giving teaches giving, not faith.
+
+**Evidence grade.** [[Cultural]] Public praise for sacrifice is visible practice; the silence toward the lapsed is reported, not written.
+:::
+
+::: tactic n=9
+#### 9 · Moving the Goalposts {#t-9}
+
+*The standard of success keeps shifting so you can never arrive.*
+
+**How it shows here**
+
+- Aam leads to Wasiyyat, which leads to new schemes, each published with its rates [1][2]; each level of sacrifice exposes the next.
+
+**The strongest defense.** Sacrifice deepens with faith.
+
+**The counter.** Name the level at which a member has given enough.
+
+**Evidence grade.** [[Codified]] Each scheme is published with its rates by the community itself [1][2].
+:::
+
+::: tactic n=10
+#### 10 · Strategic Ambiguity {#t-10}
+
+*Language that sounds profound but means nothing specific — functioning as a shutdown to real questions.*
+
+**How it shows here**
+
+- The community's own guide calls Chanda Aam "compulsory" and other chandas "voluntary", yet says voluntary chandas are not accepted from a member who does not pay the obligatory ones [1].
+
+**The strongest defense.** The other chandas are given freely.
+
+**The counter.** A gift that is refused unless the obligatory payments are made is conditional.
+
+**Evidence grade.** [[Codified]] The community's own finance guide states both rules on the same page [1].
+:::
+
+::: tactic n=11
+#### 11 · Projection {#t-11}
+
+*Accusing the outside world of the exact thing the institution practices.*
+
+**How it shows here**
+
+- Critics are cast as disloyal and self-seeking while the system escapes audit.
+
+**The strongest defense.** Critics have their own agendas.
+
+**The counter.** Motive does not answer the question asked.
+
+**Evidence grade.** [[Cultural]] How critics are described is a pattern in community talk, with no rule behind it.
+:::
+
+::: tactic n=12
+#### 12 · DARVO {#t-12}
+
+*Deny the wrongdoing. Attack the person who raised it. Reverse victim and offender.*
+
+**How it shows here**
+
+- A member raising a complaint against an office-bearer becomes the problem for "creating disorder".
+
+**The strongest defense.** Disputes must go through proper channels.
+
+**The counter.** When the channel is the accused's colleagues, it is not proper.
+
+**Evidence grade.** [[Cultural]] Members report that complainants are treated as the source of disorder; no written procedure says so.
+:::
+
+::: tactic n=13
+#### 13 · Normalization / Desensitization {#t-13}
+
+*Practices that would seem extreme to an outsider feel normal to insiders because they were installed before critical evaluation developed.*
+
+**How it shows here**
+
+- Duty rotas, dues and reporting become the texture of ordinary life from age seven.
+
+**The strongest defense.** Service is joy.
+
+**The counter.** If it can't be declined, it is not service.
+
+**Evidence grade.** [[Taught]] Duty from age seven is taught as part of youth membership; the rota itself is local practice.
+:::
+
+### Stage 5 · Isolate {#stage-5}
+
+::: stage
+**Your world narrows until every voice you hear is inside the system, and everything you came for now runs through a middleman.**
+
+Marriage, friendship, schooling, holidays and weekend duty all run through the jamaat.
+
+*What it asks of you:* Where would you take a doubt that isn't inside the system?
+:::
+
+::: tactic n=14
+#### 14 · Isolation {#t-14}
+
+*Shrinking your world until the only voices you hear are inside the system.*
+
+**How it shows here**
+
+- Marriage, friendship and leisure are centered on the jamaat, and marriage outside it is restricted for women.
+
+**The strongest defense.** Community keeps faith strong.
+
+**The counter.** A world with no exit route is a wall.
+
+**Evidence grade.** [[Cultural]] The restriction on women marrying outside the community is taught [11]; the rest is community life.
+:::
+
+::: tactic n=15
+#### 15 · Triangulation {#t-15}
+
+*Inserting intermediaries between you and the thing you came for, so the institution is always in the middle.*
+
+**How it shows here**
+
+- Family, office-bearers and the Khalifa's sermons align against a doubter.
+
+**The strongest defense.** Everyone is concerned for you.
+
+**The counter.** When every relationship reports upward, concern becomes supervision.
+
+**Evidence grade.** [[Cultural]] Family, officers and sermons aligning against a doubter is a reported pattern, not a rule.
+:::
+
+### Stage 6 · Extract {#stage-6}
+
+::: stage
+**Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
+
+The system takes a sixteenth of your income, a tenth of your estate, a child pledged before birth and weekends of duty.
+
+*What it asks of you:* Notice how precise the obligation is, and ask where the ledger is for your country.
+:::
+
+::: tactic n=16
+#### 16 · Flying Monkeys {#t-16}
+
+*The community enforces the institution's norms without being asked — mobilized by culture, not memos.*
+
+**How it shows here**
+
+- Relatives and auxiliary officers carry the pressure to return or conform.
+
+**The strongest defense.** Families care.
+
+**The counter.** The institution never has to say a word.
+
+**Evidence grade.** [[Cultural]] Relatives carrying the pressure is reported by former members; no document instructs it.
+:::
+
+::: tactic n=17
+#### 17 · Smear Campaign {#t-17}
+
+*Rewriting your character after departure to protect the institution from the implications of your leaving.*
+
+**How it shows here**
+
+- Community writing frames organized critics as conspiracies against the Jamaat [23]; former members report being called misled.
+
+**The strongest defense.** We pray for them.
+
+**The counter.** Answer the criticism, not the critic.
+
+**Evidence grade.** [[Taught]] The community's own writing frames critics as conspiracies [23]; the label "misled" rests on former members.
+:::
+
+::: tactic n=18
+#### 18 · Silent Treatment / Stonewalling {#t-18}
+
+*Refusing to engage with legitimate questions in order to maintain control.*
+
+**How it shows here**
+
+- Complaints about office-bearers are routed back into the same hierarchy.
+
+**The strongest defense.** Internal matters stay internal.
+
+**The counter.** That is the complaint.
+
+**Evidence grade.** [[Cultural]] Routing complaints back into the hierarchy is how the structure works in practice; no outside channel is published.
+:::
+
+::: tactic n=19
+#### 19 · Manufactured Consent {#t-19}
+
+*Creating the appearance of choice when the conditions of choice were shaped before you could evaluate them.*
+
+**How it shows here**
+
+- Waqf-e-Nau children reaffirm at fifteen a pledge made for them before birth [15][33].
+
+**The strongest defense.** They choose it themselves at maturity.
+
+**The counter.** A choice made against a lifetime of expectation is not a clean choice.
+
+**Evidence grade.** [[Codified]] The pledge before birth and the reaffirmation at fifteen are written programme rules [15][33].
+:::
+
+::: tactic n=20
+#### 20 · Trauma Bonding {#t-20}
+
+*The wound and the bandage come from the same hand.*
+
+**How it shows here**
+
+- Shared persecution grief binds members to the institution itself.
+
+**The strongest defense.** Suffering unites us.
+
+**The counter.** The bond is with each other, and the institution collects it.
+
+**Evidence grade.** [[Cultural]] The bond of shared grief is a pattern described by members, not a policy.
+:::
+
+::: tactic n=21
+#### 21 · Learned Helplessness {#t-21}
+
+*Teaching you that your own judgment is unreliable until you stop trusting it entirely.*
+
+**How it shows here**
+
+- Every route of complaint ends at an appointee of the Khalifa.
+
+**The strongest defense.** Trust the system.
+
+**The counter.** A system with no outside door teaches people to stop knocking.
+
+**Evidence grade.** [[Cultural]] Every office in the complaint route is appointed under the Khalifa; that the route ends there is structural, not written as a rule.
+:::
+
+::: tactic n=22
+#### 22 · Benevolent Control {#t-22}
+
+*Control wrapped in the language of care, so that resisting the control feels like rejecting the love.*
+
+**How it shows here**
+
+- Marriage rules and purdah are framed as protection.
+
+**The strongest defense.** It protects our women.
+
+**The counter.** Protection that cannot be refused is control.
+
+**Evidence grade.** [[Taught]] Marriage rules and purdah are taught as protection by leaders.
+:::
+
+::: tactic n=23
+#### 23 · Infantilization {#t-23}
+
+*Positioning the adult believer as permanently childlike and dependent on institutional authority.*
+
+**How it shows here**
+
+- Adults' marriage, dress and reading are supervised by office-bearers.
+
+**The strongest defense.** Guidance is a mercy.
+
+**The counter.** Adults do not need permission.
+
+**Evidence grade.** [[Cultural]] Supervision of adults by office-bearers is reported practice; no published rule sets its limits.
+:::
+
+::: tactic n=24
+#### 24 · Identity Erosion {#t-24}
+
+*Gradually replacing your identity with a role the institution provides, until you can't separate who you are from where you belong.*
+
+**How it shows here**
+
+- Selfhood is defined by membership, rank of sacrifice and obedience.
+
+**The strongest defense.** Faith is identity.
+
+**The counter.** If the self cannot leave, it was not given.
+
+**Evidence grade.** [[Taught]] Leaders teach membership and sacrifice as identity; it is not a formal rule.
+:::
+
+::: tactic n=25
+#### 25 · Spiritual Bypassing {#t-25}
+
+*Using spiritual language to avoid engaging with real pain, real questions, and real accountability.*
+
+**How it shows here**
+
+- Grievances are answered with calls for more prayer and sacrifice.
+
+**The strongest defense.** Patience is a virtue.
+
+**The counter.** Patience asked only of the complainant is containment.
+
+**Evidence grade.** [[Cultural]] Answering grievances with calls for prayer is reported practice.
+:::
+
+::: tactic n=26
+#### 26 · Financial Control {#t-26}
+
+*Extracting money through spiritual obligation while offering no transparency about where it goes.*
+
+**How it shows here**
+
+- Contributions are fixed percentages of income, estates are pledged, and arrears are recorded.
+
+**The strongest defense.** Financial sacrifice is a pillar.
+
+**The counter.** Publish the worldwide accounts to the people who pay.
+
+**Evidence grade.** [[Codified]] Fixed percentages, estate pledges and arrears records are set out in the community's own finance rules [1][2].
+:::
+
+### Stage 7 · Discard {#stage-7}
+
+::: stage
+**You become expensive — too many questions, too much independence — and the urgency ramps up until you are removed.**
+
+Members face expulsion, and former members report that relatives are expected not to associate.
+
+*What it asks of you:* Nothing was said about you in public. Everything changed.
+:::
+
+::: tactic n=27
+#### 27 · Manufactured Crisis {#t-27}
+
+*Creating urgency to suppress critical thinking and generate loyalty.*
+
+**How it shows here**
+
+- Persecution news is framed as a reason to close ranks against internal critics.
+
+**The strongest defense.** The danger is real.
+
+**The counter.** It is real, and it is also being used.
+
+**Evidence grade.** [[Cultural]] Using persecution news to close ranks is a pattern in community messaging, not a rule.
+:::
+
+::: tactic n=28
+#### 28 · Discard {#t-28}
+
+*Removing members who become too costly — too many questions, too much independence, too visible a contradiction.*
+
+**How it shows here**
+
+- Expulsion is published [12]; former members report that a boycott is expected.
+
+**The strongest defense.** Only for serious violations.
+
+**The counter.** Who decides "serious", and can the member reply?
+
+**Evidence grade.** [[Codified]] Expulsion is published by the community itself [12]; the expected boycott rests on former members.
+:::
+
+### Stage 8 · Replace {#stage-8}
+
+::: stage
+**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to God.**
+
+The Friday sermon continues; a new volunteer fills the office.
+
+*What it asks of you:* The system is designed to be unaffected by any one person.
+:::
+
+::: tactic n=29
+#### 29 · Replacement {#t-29}
+
+*Your seat is filled before the door closes behind you.*
+
+**How it shows here**
+
+- The system continues untouched; a new volunteer fills the post.
+
+**The strongest defense.** Service is not about individuals.
+
+**The counter.** That is the point.
+
+**Evidence grade.** [[Cultural]] Replacement of volunteers is ordinary practice; nothing written is needed for it.
+:::
+
+::: tactic n=30
+#### 30 · Plausible Deniability {#t-30}
+
+*The institution is never responsible, because the authority is attributed to God — who isn't available for cross-examination.*
+
+**How it shows here**
+
+- The institution publishes expulsion; former members report that members carry out the boycott.
+
+**The strongest defense.** We never told anyone to shun family.
+
+**The counter.** Then say so in writing.
+
+**Evidence grade.** [[Cultural]] The community publishes expulsions [12]; that members carry out the boycott rests on former members' accounts.
+:::
 
 ## 13. The loops {#loops}
 

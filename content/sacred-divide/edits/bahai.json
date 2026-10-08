@@ -2500,9 +2500,9 @@
   "section": 26,
   "before": "13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours).",
   "after": "13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Wednesday 10:00–13:00, Thursday 16:00–19:00, Friday 08:00–11:00).",
-  "reason": "P3-17: same.",
+  "reason": "P3-17: same. [2026-10-08: superseded by ALL-F10, which sets the hours verified on 2026-10-05; these Wed/Thu/Fri hours were wrong.]",
   "count": 1,
-  "status": "proposed"
+  "status": "rejected"
  },
  {
   "id": "BAHF-D060",

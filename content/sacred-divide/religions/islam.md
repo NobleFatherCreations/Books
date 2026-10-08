@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | Islam has about 2 billion adherents (Pew, 2020 data) [22] and, on Pew's earlier projections, is expected to be nearly as large as Christianity by 2050 and larger after about 2070 [42]. [ACADEMIC SOURCE: Pew] |
 | Who's in charge | The Grand Imam of al-Azhar (the mosque and university in Cairo that is Sunni Islam's most-cited seat of learning) is Sheikh Ahmed el-Tayeb, in office since 2010. |
-| Chosen by / removable by | Appointed by presidential decree in 2010; since 2012 the post has been filled by election by al-Azhar's Council of Senior Scholars, confirmed by presidential decree / Nobody — Egypt's 2014 Constitution makes the Grand Imam irremovable |
+| Chosen by | Appointed by presidential decree in 2010; since 2012 the post has been filled by election by al-Azhar's Council of Senior Scholars, confirmed by presidential decree. |
+| Removable by | Nobody — Egypt's 2014 Constitution makes the Grand Imam irremovable. |
 | Money in one line | The money comes from zakat (2.5% obligatory alms), sadaqa (voluntary charity), waqf endowments (historically enormous property trusts), the hajj economy (the pilgrimage to Mecca), halal certification fees (for certifying goods as religiously permitted) and mosque fundraising. |
 | Leaving in one line | Apostasy (leaving Islam) carries criminal penalties in a number of states, up to death in several, and severe social and family consequences far more widely. [OFFICIAL POLICY: national penal codes — nine states, per Humanists International] |
 | The unanswered question | If there is no compulsion in religion, why do apostasy statutes still stand — and who benefits from keeping them on the books? |
@@ -1539,7 +1540,7 @@ Checked 2026-09-27.
 ### Where to get help (vetted 2026-09-27; UK numbers unless stated)
 28. Muslim Women's Network Helpline — 0800 999 5786 (freephone; Mon–Fri 10am–4pm). https://www.mwnuk.co.uk/mwn-helpline
 29. Karma Nirvana (forced marriage and honour-based abuse) — 0800 5999 247. https://karmanirvana.org.uk/
-30. Faith to Faithless (Humanists UK), helpline for people leaving high-control religious groups — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
+30. Faith to Faithless (Humanists UK), helpline for people leaving high-control religious groups — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). https://humanists.uk/faith-to-faithless/helpline/
 31. Ex-Muslims of North America (US/Canada; 501(c)(3), founded 2013). https://exmuslims.org/about-us/
 
 ### Further sources

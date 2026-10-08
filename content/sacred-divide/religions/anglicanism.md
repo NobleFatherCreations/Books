@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | The Anglican Communion has ~85M members in 42 provinces (self-governing member churches) [33]. The Church of England had 1.009 million regular worshippers and an average Sunday attendance of 581,000 (2024) [10]. |
 | Who's in charge | The monarch is Supreme Governor (the formal head) of the Church of England; the Archbishop of Canterbury leads the church and is the Communion's focus of unity. |
-| Chosen by / removable by | Hereditary succession / Parliament, by statute |
+| Chosen by | Hereditary succession. |
+| Removable by | Parliament, by statute. |
 | Money in one line | The money comes from a published £11.6bn endowment (end 2025) [21], the parish share paid to dioceses for clergy stipends (the clergy's pay) and housing, and statutory fees for weddings and funerals. |
 | Leaving in one line | Leaving is free for lay members; for clergy, losing a licence (the bishop's formal permission to minister in a post) can mean losing home, income and vocation at once. |
 | The unanswered question | Who, fully outside the church, now holds the power to compel it on safeguarding? |
@@ -254,54 +255,563 @@ IICSA [1] could, and it has concluded. The Charity Commission can over church ch
 - Some provinces have backed criminalizing laws: the Church of Uganda welcomed the Anti-Homosexuality Act 2023, while opposing its death penalty [15]; the Archbishop of Canterbury publicly criticized that support [15].
 
 ## 12. The 30 techniques {#techniques}
+Thirty named techniques from domestic-abuse and social-psychology research, applied to institutions, in the eight stages of the cycle. Each carries an evidence grade for this tradition.
 
-### The eight stages here
+### Stage 1 · Idealize {#stage-1}
 
-| Stage | How it shows here | The question |
-|---|---|---|
-| Idealize | Belonging is offered through beauty, community and, in evangelical parishes, intensive courses and camps. | Warmth is real. Who organized the space it happened in? |
-| Hook | The hook is eternal life, and for clergy, a vocation confirmed by a bishop. | The vocation is real. The licence is revocable. |
-| Devalue | Devaluation is mild for laity. For clergy, it comes through parish-share targets and decline narratives. | Who is blamed for the numbers? |
-| Confuse | Survivors reporting abuse were met with process, delay and reputation management (per IICSA [1] and Makin [3]). | Was the process for them, or for the institution? |
-| Isolate | Isolation is weak for laity. Historically it was strong in closed church-linked camps and choir schools. | Who could a child tell? |
-| Extract | Extraction runs through the parish share, fees, the endowment's history, and unpaid lay labor that keeps buildings open. | Who holds the title to the building your volunteers maintain? |
-| Discard | Clergy lose licence and home, and survivors wait years. | Home and work depend on one signature. |
-| Replace | The benefice is merged and the post re-advertised. | The structure absorbs the loss. |
+::: stage
+**You arrive with a need and are met with more warmth than you have had in years.**
 
-### All thirty, graded
+Belonging is offered through beauty, community and, in evangelical parishes, intensive courses and camps.
 
-| # | Mechanism | Grade | How it appears here | The defense | The counter |
-|---|---|---|---|---|---|
-| 1 | Love bombing | Contested | It is present in some evangelical outreach (Alpha courses, an introductory course on Christianity run over shared meals; camps) and absent from most parishes. | "Hospitality is Christian." | Where it happens, check whether it survives disagreement. |
-| 2 | Weaponized generosity | Codified | Church school admissions criteria are published and can favor worshipping families (section 11), which ties a school place to attendance; pastoral help can also create obligation, more softly. | "Service to the community." | A school place tied to Sunday attendance is a transaction. |
-| 3 | Future faking | Taught | Eternal life is promised, and for clergy, a future of ministry. | "Christian hope." | Hope is not the issue; the revocable licence is. |
-| 4 | Hoovering | Cultural | Weak here: families who come for the occasional offices are invited back. | "Pastoral care." | The pressure here is low. |
-| 5 | Devaluation | Contested | Some traditions use the language of sin, and decline is blamed on parishes. | "Orthodox teaching." | Who carries the blame for numbers set elsewhere? |
-| 6 | Gaslighting | Contested | IICSA found the church failed to take abuse seriously [1]; that survivors were told processes had been followed when they had not is not recorded on this page. | "Lessons have been learned." | The reports say what the victims were told. |
-| 7 | Double bind | Codified | Women may be bishops; parishes may reject their oversight. | "Mutual flourishing." | A woman bishop is consecrated and declinable at once. |
-| 8 | Intermittent reinforcement | Cultural | Preferment (promotion to senior posts) and patronage shape clerical careers. | "Discernment." | Unwritten criteria reward conformity. |
-| 9 | Moving the goalposts | Documented | Independent safeguarding was promised, redesigned and phased. | "Getting it right takes time." | Survivors' time is the cost. |
-| 10 | Strategic ambiguity | Taught | Doctrinal breadth lets any position be "one tradition". | "Comprehensiveness." | Breadth also disperses responsibility. |
-| 11 | Projection | Cultural | Critics of process are cast as hostile to the church. | "We welcome scrutiny." | Record who was answered, and when. |
-| 12 | DARVO | Documented | Complainants were treated as reputational threats (per IICSA [1] and Makin [3]). | "Due process for the accused." | Due process is not a head start. |
-| 13 | Normalization | Documented | Deference to senior clergy was normalized (IICSA [1]; Gibb [4]). | "Respect for office." | The reviews call it the problem. |
-| 14 | Isolation | Contested | Historically, it happened in closed camps and choir environments. | "Formative community." | Who could a child tell? |
-| 15 | Triangulation | Cultural | Complaints are routed between parish, diocese and national bodies. | "Proper structures." | They are three doors that open onto each other. |
-| 16 | Flying monkeys | Cultural | Weak here: congregations show loyalty to accused clergy. | "Presumption of innocence." | Loyalty should not decide the case. |
-| 17 | Smear campaign | Documented | IICSA [1] found the church failed to take abuse seriously, and survivors' accounts were disbelieved in documented cases [1][4]. | "Allegations must be tested." | Allegations should be tested, not discredited. |
-| 18 | Stonewalling | Documented | The church was slow to respond to survivors (IICSA [1]). | "Complex cases." | Delay is itself a finding. |
-| 19 | Manufactured consent | Codified | Clergy must make the Declaration of Assent to doctrine and discipline, with the house attached. | "Freely taken vows." | The freedom is priced in housing. |
-| 20 | Trauma bonding | Ungraded | — | — | Research is needed. |
-| 21 | Learned helplessness | Contested | Survivors made repeated complaints that failed (IICSA [1]); the helplessness the technique names is not an inquiry finding. | "We are improving." | Improvement measured by whom? |
-| 22 | Benevolent control | Codified | Oversight of clergy lives runs through the bishop's licence and the tied house under Common Tenure. | "Care for clergy." | Care that controls a home is power. |
-| 23 | Infantilization | Cultural | Weak here: a culture of deference prevails. | "Order." | Adults, not children, run parishes. |
-| 24 | Identity erosion | Contested | Clergy identity is fused with the post. | "Vocation." | Vocation shouldn't make exit homelessness. |
-| 25 | Spiritual bypassing | Documented | IICSA recorded evidence that some victims may have been pressured by church workers to forgive their abuser [1]. | "Christian forgiveness." | Forgiveness is not a safeguarding outcome. |
-| 26 | Financial control | Codified | For clergy it is codified, working through the parish share and the tied house; for laity it is weak. | "Shared resources." | The lever sits with the diocese. |
-| 27 | Manufactured crisis | Cultural | The decline narrative is used to justify closures. | "The numbers are real." | The numbers are real; the decisions are not shared. |
-| 28 | Discard | Codified | Licence withdrawal ends ministry and home. | "Discipline is proportionate." | One decision brings two losses. |
-| 29 | Replacement | Cultural | The benefice is merged and the post re-advertised. | "Mission needs." | The structure is unaffected by the person. |
-| 30 | Plausible deniability | Documented | Responsibility is deflected as "a matter for the diocese". | "Dioceses are autonomous." | The reviews found knowledge at the top. |
+*What it asks of you:* Warmth is real. Who organized the space it happened in?
+:::
+
+::: tactic n=1
+#### 1 · Love Bombing {#t-1}
+
+*Overwhelming affection on arrival to create emotional dependency before terms are revealed.*
+
+**How it shows here**
+
+- It is present in some evangelical outreach (Alpha courses, an introductory course on Christianity run over shared meals; camps) and absent from most parishes.
+
+**The strongest defense.** Hospitality is Christian.
+
+**The counter.** Where it happens, check whether it survives disagreement.
+
+**Evidence grade.** [[Contested]] Present in some evangelical outreach and absent from most parishes, so the grade is split by tradition.
+:::
+
+::: tactic n=2
+#### 2 · Weaponized Generosity {#t-2}
+
+*Giving help that installs unspoken obligation.*
+
+**How it shows here**
+
+- Church school admissions criteria are published and can favor worshipping families (section 11), which ties a school place to attendance; pastoral help can also create obligation, more softly.
+
+**The strongest defense.** Service to the community.
+
+**The counter.** A school place tied to Sunday attendance is a transaction.
+
+**Evidence grade.** [[Codified]] Church school admissions criteria are published and can favour worshipping families [11].
+:::
+
+### Stage 2 · Hook {#stage-2}
+
+::: stage
+**You are given a future that cannot be verified, and a rope for whenever you drift toward the door.**
+
+The hook is eternal life, and for clergy, a vocation confirmed by a bishop.
+
+*What it asks of you:* The vocation is real. The licence is revocable.
+:::
+
+::: tactic n=3
+#### 3 · Future Faking {#t-3}
+
+*Promising a future that keeps you invested but never has to arrive.*
+
+**How it shows here**
+
+- Eternal life is promised, and for clergy, a future of ministry.
+
+**The strongest defense.** Christian hope.
+
+**The counter.** Hope is not the issue; the revocable licence is.
+
+**Evidence grade.** [[Taught]] Eternal life is taught; the revocable clergy licence is set out under Common Tenure.
+:::
+
+::: tactic n=4
+#### 4 · Hoovering {#t-4}
+
+*Pulling someone back after they've started to leave, through guilt, love, or fear.*
+
+**How it shows here**
+
+- Weak here: families who come for the occasional offices are invited back.
+
+**The strongest defense.** Pastoral care.
+
+**The counter.** The pressure here is low.
+
+**Evidence grade.** [[Cultural]] Inviting families back after baptisms, weddings and funerals is ordinary parish practice, and weak here.
+:::
+
+### Stage 3 · Devalue {#stage-3}
+
+::: stage
+**You are taught that you are broken, that your perception is unreliable, and that both exits from the trap lead back inside.**
+
+Devaluation is mild for laity. For clergy, it comes through parish-share targets and decline narratives.
+
+*What it asks of you:* Who is blamed for the numbers?
+:::
+
+::: tactic n=5
+#### 5 · Devaluation {#t-5}
+
+*Reducing your sense of worth so you become dependent on the institution for identity.*
+
+**How it shows here**
+
+- Some traditions use the language of sin, and decline is blamed on parishes.
+
+**The strongest defense.** Orthodox teaching.
+
+**The counter.** Who carries the blame for numbers set elsewhere?
+
+**Evidence grade.** [[Contested]] Some traditions within the church use this language and others reject it.
+:::
+
+::: tactic n=6
+#### 6 · Gaslighting {#t-6}
+
+*Making you doubt your own experience so you trust the institution's interpretation instead.*
+
+**How it shows here**
+
+- IICSA found the church failed to take abuse seriously [1]; that survivors were told processes had been followed when they had not is not recorded on this page.
+
+**The strongest defense.** Lessons have been learned.
+
+**The counter.** The reports say what the victims were told.
+
+**Evidence grade.** [[Contested]] The inquiry's finding [1] supports the first part; the rest of the technique is not documented on this page.
+:::
+
+::: tactic n=7
+#### 7 · Double Bind {#t-7}
+
+*A trap where both options lead to compliance. No exit serves you.*
+
+**How it shows here**
+
+- Women may be bishops; parishes may reject their oversight.
+
+**The strongest defense.** Mutual flourishing.
+
+**The counter.** A woman bishop is consecrated and declinable at once.
+
+**Evidence grade.** [[Codified]] The settlement letting parishes decline a woman bishop's oversight is written church law.
+:::
+
+### Stage 4 · Confuse {#stage-4}
+
+::: stage
+**The rewards become unpredictable, the standard keeps moving, the answers stop meaning anything, and the accusation gets turned around.**
+
+Survivors reporting abuse were met with process, delay and reputation management (per IICSA [1] and Makin [3]).
+
+*What it asks of you:* Was the process for them, or for the institution?
+:::
+
+::: tactic n=8
+#### 8 · Intermittent Reinforcement {#t-8}
+
+*Unpredictable reward that creates addictive emotional dependency.*
+
+**How it shows here**
+
+- Preferment (promotion to senior posts) and patronage shape clerical careers.
+
+**The strongest defense.** Discernment.
+
+**The counter.** Unwritten criteria reward conformity.
+
+**Evidence grade.** [[Cultural]] Preferment and patronage are how careers work in practice; the criteria are not published.
+:::
+
+::: tactic n=9
+#### 9 · Moving the Goalposts {#t-9}
+
+*The standard of success keeps shifting so you can never arrive.*
+
+**How it shows here**
+
+- Independent safeguarding was promised, redesigned and phased.
+
+**The strongest defense.** Getting it right takes time.
+
+**The counter.** Survivors' time is the cost.
+
+**Evidence grade.** [[Documented]] The promises, redesigns and delays are on the record in Synod papers and press [8][16][35].
+:::
+
+::: tactic n=10
+#### 10 · Strategic Ambiguity {#t-10}
+
+*Language that sounds profound but means nothing specific — functioning as a shutdown to real questions.*
+
+**How it shows here**
+
+- Doctrinal breadth lets any position be "one tradition".
+
+**The strongest defense.** Comprehensiveness.
+
+**The counter.** Breadth also disperses responsibility.
+
+**Evidence grade.** [[Taught]] Breadth of doctrine is the church's own teaching about itself.
+:::
+
+::: tactic n=11
+#### 11 · Projection {#t-11}
+
+*Accusing the outside world of the exact thing the institution practices.*
+
+**How it shows here**
+
+- Critics of process are cast as hostile to the church.
+
+**The strongest defense.** We welcome scrutiny.
+
+**The counter.** Record who was answered, and when.
+
+**Evidence grade.** [[Cultural]] How critics are described is a pattern in church responses, not a rule.
+:::
+
+::: tactic n=12
+#### 12 · DARVO {#t-12}
+
+*Deny the wrongdoing. Attack the person who raised it. Reverse victim and offender.*
+
+**How it shows here**
+
+- Complainants were treated as reputational threats (per IICSA [1] and Makin [3]).
+
+**The strongest defense.** Due process for the accused.
+
+**The counter.** Due process is not a head start.
+
+**Evidence grade.** [[Documented]] The national inquiry [1] and the Makin review [3] record this treatment.
+:::
+
+::: tactic n=13
+#### 13 · Normalization / Desensitization {#t-13}
+
+*Practices that would seem extreme to an outsider feel normal to insiders because they were installed before critical evaluation developed.*
+
+**How it shows here**
+
+- Deference to senior clergy was normalized (IICSA [1]; Gibb [4]).
+
+**The strongest defense.** Respect for office.
+
+**The counter.** The reviews call it the problem.
+
+**Evidence grade.** [[Documented]] The national inquiry [1] and the Gibb review [4] record the deference.
+:::
+
+### Stage 5 · Isolate {#stage-5}
+
+::: stage
+**Your world narrows until every voice you hear is inside the system, and everything you came for now runs through a middleman.**
+
+Isolation is weak for laity. Historically it was strong in closed church-linked camps and choir schools.
+
+*What it asks of you:* Who could a child tell?
+:::
+
+::: tactic n=14
+#### 14 · Isolation {#t-14}
+
+*Shrinking your world until the only voices you hear are inside the system.*
+
+**How it shows here**
+
+- Historically, it happened in closed camps and choir environments.
+
+**The strongest defense.** Formative community.
+
+**The counter.** Who could a child tell?
+
+**Evidence grade.** [[Contested]] Closed camp and choir settings are historical; whether they isolated children is disputed.
+:::
+
+::: tactic n=15
+#### 15 · Triangulation {#t-15}
+
+*Inserting intermediaries between you and the thing you came for, so the institution is always in the middle.*
+
+**How it shows here**
+
+- Complaints are routed between parish, diocese and national bodies.
+
+**The strongest defense.** Proper structures.
+
+**The counter.** They are three doors that open onto each other.
+
+**Evidence grade.** [[Cultural]] Moving complaints between parish, diocese and national bodies is how the structure works, not a written aim.
+:::
+
+### Stage 6 · Extract {#stage-6}
+
+::: stage
+**Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
+
+Extraction runs through the parish share, fees, the endowment's history, and unpaid lay labor that keeps buildings open.
+
+*What it asks of you:* Who holds the title to the building your volunteers maintain?
+:::
+
+::: tactic n=16
+#### 16 · Flying Monkeys {#t-16}
+
+*The community enforces the institution's norms without being asked — mobilized by culture, not memos.*
+
+**How it shows here**
+
+- Weak here: congregations show loyalty to accused clergy.
+
+**The strongest defense.** Presumption of innocence.
+
+**The counter.** Loyalty should not decide the case.
+
+**Evidence grade.** [[Cultural]] Congregational loyalty to accused clergy is reported, and weak as a pattern here.
+:::
+
+::: tactic n=17
+#### 17 · Smear Campaign {#t-17}
+
+*Rewriting your character after departure to protect the institution from the implications of your leaving.*
+
+**How it shows here**
+
+- IICSA [1] found the church failed to take abuse seriously, and survivors' accounts were disbelieved in documented cases [1][4].
+
+**The strongest defense.** Allegations must be tested.
+
+**The counter.** Allegations should be tested, not discredited.
+
+**Evidence grade.** [[Documented]] The national inquiry recorded the failure and the disbelief [1][4].
+:::
+
+::: tactic n=18
+#### 18 · Silent Treatment / Stonewalling {#t-18}
+
+*Refusing to engage with legitimate questions in order to maintain control.*
+
+**How it shows here**
+
+- The church was slow to respond to survivors (IICSA [1]).
+
+**The strongest defense.** Complex cases.
+
+**The counter.** Delay is itself a finding.
+
+**Evidence grade.** [[Documented]] The national inquiry recorded the slow response [1].
+:::
+
+::: tactic n=19
+#### 19 · Manufactured Consent {#t-19}
+
+*Creating the appearance of choice when the conditions of choice were shaped before you could evaluate them.*
+
+**How it shows here**
+
+- Clergy must make the Declaration of Assent to doctrine and discipline, with the house attached.
+
+**The strongest defense.** Freely taken vows.
+
+**The counter.** The freedom is priced in housing.
+
+**Evidence grade.** [[Codified]] The Declaration of Assent is a written requirement, and the house goes with the post.
+:::
+
+::: tactic n=20
+#### 20 · Trauma Bonding {#t-20}
+
+*The wound and the bandage come from the same hand.*
+
+**How it shows here**
+
+- No example is recorded on this page yet.
+
+**Evidence grade.** [[Ungraded]] Not yet researched for this tradition.
+:::
+
+::: tactic n=21
+#### 21 · Learned Helplessness {#t-21}
+
+*Teaching you that your own judgment is unreliable until you stop trusting it entirely.*
+
+**How it shows here**
+
+- Survivors made repeated complaints that failed (IICSA [1]); the helplessness the technique names is not an inquiry finding.
+
+**The strongest defense.** We are improving.
+
+**The counter.** Improvement measured by whom?
+
+**Evidence grade.** [[Contested]] The failed complaints are in the inquiry [1]; that they produced helplessness is not an inquiry finding.
+:::
+
+::: tactic n=22
+#### 22 · Benevolent Control {#t-22}
+
+*Control wrapped in the language of care, so that resisting the control feels like rejecting the love.*
+
+**How it shows here**
+
+- Oversight of clergy lives runs through the bishop's licence and the tied house under Common Tenure.
+
+**The strongest defense.** Care for clergy.
+
+**The counter.** Care that controls a home is power.
+
+**Evidence grade.** [[Codified]] Oversight through the licence and the tied house is set out in Common Tenure.
+:::
+
+::: tactic n=23
+#### 23 · Infantilization {#t-23}
+
+*Positioning the adult believer as permanently childlike and dependent on institutional authority.*
+
+**How it shows here**
+
+- Weak here: a culture of deference prevails.
+
+**The strongest defense.** Order.
+
+**The counter.** Adults, not children, run parishes.
+
+**Evidence grade.** [[Cultural]] Deference is a reported culture, weak as a pattern here; no rule treats adults as children.
+:::
+
+::: tactic n=24
+#### 24 · Identity Erosion {#t-24}
+
+*Gradually replacing your identity with a role the institution provides, until you can't separate who you are from where you belong.*
+
+**How it shows here**
+
+- Clergy identity is fused with the post.
+
+**The strongest defense.** Vocation.
+
+**The counter.** Vocation shouldn't make exit homelessness.
+
+**Evidence grade.** [[Contested]] Whether clergy identity is fused with the post is disputed.
+:::
+
+::: tactic n=25
+#### 25 · Spiritual Bypassing {#t-25}
+
+*Using spiritual language to avoid engaging with real pain, real questions, and real accountability.*
+
+**How it shows here**
+
+- IICSA recorded evidence that some victims may have been pressured by church workers to forgive their abuser [1].
+
+**The strongest defense.** Christian forgiveness.
+
+**The counter.** Forgiveness is not a safeguarding outcome.
+
+**Evidence grade.** [[Documented]] The national inquiry recorded evidence of pressure to forgive [1].
+:::
+
+::: tactic n=26
+#### 26 · Financial Control {#t-26}
+
+*Extracting money through spiritual obligation while offering no transparency about where it goes.*
+
+**How it shows here**
+
+- For clergy it is codified, working through the parish share and the tied house; for laity it is weak.
+
+**The strongest defense.** Shared resources.
+
+**The counter.** The lever sits with the diocese.
+
+**Evidence grade.** [[Codified]] For clergy the parish share and the tied house are written arrangements; for laity the pattern is weak.
+:::
+
+### Stage 7 · Discard {#stage-7}
+
+::: stage
+**You become expensive — too many questions, too much independence — and the urgency ramps up until you are removed.**
+
+Clergy lose licence and home, and survivors wait years.
+
+*What it asks of you:* Home and work depend on one signature.
+:::
+
+::: tactic n=27
+#### 27 · Manufactured Crisis {#t-27}
+
+*Creating urgency to suppress critical thinking and generate loyalty.*
+
+**How it shows here**
+
+- The decline narrative is used to justify closures.
+
+**The strongest defense.** The numbers are real.
+
+**The counter.** The numbers are real; the decisions are not shared.
+
+**Evidence grade.** [[Cultural]] Using the decline narrative to justify closures is a pattern in church messaging, not a rule.
+:::
+
+::: tactic n=28
+#### 28 · Discard {#t-28}
+
+*Removing members who become too costly — too many questions, too much independence, too visible a contradiction.*
+
+**How it shows here**
+
+- Licence withdrawal ends ministry and home.
+
+**The strongest defense.** Discipline is proportionate.
+
+**The counter.** One decision brings two losses.
+
+**Evidence grade.** [[Codified]] Licence withdrawal is a written procedure, and it removes both ministry and home.
+:::
+
+### Stage 8 · Replace {#stage-8}
+
+::: stage
+**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to God.**
+
+The benefice is merged and the post re-advertised.
+
+*What it asks of you:* The structure absorbs the loss.
+:::
+
+::: tactic n=29
+#### 29 · Replacement {#t-29}
+
+*Your seat is filled before the door closes behind you.*
+
+**How it shows here**
+
+- The benefice is merged and the post re-advertised.
+
+**The strongest defense.** Mission needs.
+
+**The counter.** The structure is unaffected by the person.
+
+**Evidence grade.** [[Cultural]] Merging benefices and re-advertising posts is ordinary diocesan practice.
+:::
+
+::: tactic n=30
+#### 30 · Plausible Deniability {#t-30}
+
+*The institution is never responsible, because the authority is attributed to God — who isn't available for cross-examination.*
+
+**How it shows here**
+
+- Responsibility is deflected as "a matter for the diocese".
+
+**The strongest defense.** Dioceses are autonomous.
+
+**The counter.** The reviews found knowledge at the top.
+
+**Evidence grade.** [[Documented]] Reviews record senior figures deflecting responsibility while holding knowledge [1][3][4].
+:::
 
 ## 13. The loops {#loops}
 
@@ -703,7 +1213,7 @@ Checked 2026-09-27.
 25. House of Lords Library, "Lords spiritual in the House of Lords explained." <https://lordslibrary.parliament.uk/lords-spiritual-in-the-house-of-lords-explained/>
 26. Criminal Justice and Immigration Act 2008, section 79 — abolition of the common-law offences of blasphemy and blasphemous libel. <https://www.legislation.gov.uk/ukpga/2008/4/section/79>
 27. NAPAC — 0808 801 0331. <https://napac.org.uk/calling-our-support-line/>
-28. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). <https://humanists.uk/faith-to-faithless/helpline/>
+28. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). <https://humanists.uk/faith-to-faithless/helpline/>
 29. SNAP — Survivors Network of those Abused by Priests. <https://www.snapnetwork.org/>
 30. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
 31. Clergy Discipline Measure 2003 (<https://www.legislation.gov.uk/ukcm/2003/3/contents>), and IICSA, *The Anglican Church Investigation Report*, B.3.2, "Procedure under the Clergy Discipline Measure" (<https://www.iicsa.org.uk/reports-recommendations/publications/investigation/anglican-church/part-b-church-england/b3-clergy-discipline/b32-procedure-under-clergy-discipline-measure.html>) — the Measure applies to bishops and archbishops; tribunal penalties run from a rebuke to removal from office and prohibition from ministry.

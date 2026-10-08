@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | The church has more than 50,000 members [1]. |
 | Who's in charge | Bruce D. Hales has been the worldwide leader since 2002 [1]. |
-| Chosen by / removable by | Recognition within the fellowship (succeeded his father) [1] / No procedure |
+| Chosen by | Recognition within the fellowship (succeeded his father) [1]. |
+| Removable by | No procedure. |
 | Money in one line | A network of about 3,000 member businesses centered on UBT (Universal Business Team, a member-business services firm), with combined turnover the church's own material puts at about A$22 billion a year [5]. |
 | Leaving in one line | Being "withdrawn from" (excommunicated) means separation from family who stay; one former member told the ABC (the Australian Broadcasting Corporation), "I have no contact with my mum" [5]. |
 | The unanswered question | May a withdrawn parent eat with their children? |
@@ -229,54 +230,567 @@ Charity regulators [2], electoral commissions [8], tax authorities [9] and natio
 - Men lead; women wear head coverings in meetings and do not speak in them [4]. [OFFICIAL POLICY]
 
 ## 12. The 30 techniques {#techniques}
+Thirty named techniques from domestic-abuse and social-psychology research, applied to institutions, in the eight stages of the cycle. Each carries an evidence grade for this tradition.
 
-### The eight stages here
+### Stage 1 · Idealize {#stage-1}
 
-| Stage | How it shows here | The question |
-|---|---|---|
-| Idealize | Members are born into a total, loving community. | The love is real. Is it conditional? |
-| Hook | Salvation is found within the fellowship. | Is everything outside defilement? |
-| Devalue | Worldliness is treated as defilement [4]. | Who defines the world? |
-| Confuse | Separation is framed as love. | Is it love if it requires not eating with your mother? |
-| Isolate | Meals, schools, technology and work all stay inside [4][5]. | Where is outside? |
-| Extract | The fellowship takes time, business networks and loyalty [5]. | The network spans about 3,000 companies [5]. |
-| Discard | Members are "withdrawn from" [4][5]. | "I have no contact with my mum." [5] |
-| Replace | Family life continues without you. | The table is reset without your place. |
+::: stage
+**You arrive with a need and are met with more warmth than you have had in years.**
 
-### All thirty, graded
+Members are born into a total, loving community.
 
-| # | Mechanism | Grade | How it appears here | The defense | The counter |
-|---|---|---|---|---|---|
-| 1 | Love bombing | Cultural | Most members are born in, and there are few converts. | "We are family." | The belonging is never offered as a choice. |
-| 2 | Weaponized generosity | Documented | The business network provides help and employment [5]. | "Brethren help each other." | Help that ends with withdrawal is a leash. |
-| 3 | Future faking | Taught | Salvation is promised inside the fellowship. | "Faith." | The promise requires staying. |
-| 4 | Hoovering | Cultural | Those who leave are pressed to repent and return. | "We want them back." | They are taken back only on the institution's terms. |
-| 5 | Devaluation | Taught | Worldliness is treated as defilement [4]. | "Holiness." | It is a holiness that makes your mother unclean. |
-| 6 | Gaslighting | Documented | The church says "we do not prevent former members from contacting their families" [5], and testimony says otherwise [5]. | "Individual choices." | The choices all point one way. |
-| 7 | Double bind | Taught | Members are told to love their family and to separate from them. | "Separation is love." | It is a love that cannot share a meal. |
-| 8 | Intermittent reinforcement | Cultural | Loyalty is rewarded with standing and business favor [5]. | "Rewarding faithfulness." | Favor works as a loyalty test. |
-| 9 | Moving the goalposts | Cultural | Technology rules changed from prohibition to approved systems, according to former members | "Adapting to the times." | Who decides, and why? |
-| 10 | Strategic ambiguity | Documented | The church calls itself "apolitical," yet members produced election material [3][8]. | "Members acted privately." | Did they act privately across two countries? |
-| 11 | Projection | Cultural | Critics are cast as persecutors. | "Media bias." | Answer the testimony. |
-| 12 | DARVO | Documented | A member was interrogated over an alleged hack while leaders claimed to protect "the Lord's interest" [5]. | "Protecting the church." | The recording speaks. |
-| 13 | Normalization | Taught | Separation begins at birth [4]. | "Our way of life." | Children didn't choose it. |
-| 14 | Isolation | Documented | Meals, media and schools are kept inside [4][7]. | "Holiness." | It is a world with no outside. |
-| 15 | Triangulation | Cultural | Family, priests and employers are aligned. | "Everyone cares." | Everyone in the triangle is inside. |
-| 16 | Flying monkeys | Documented | Families enforce separation [5] | "Individual conscience." | It is a conscience that always matches the rule. |
-| 17 | Smear campaign | Documented | Former members are investigated and pressured; the ABC reported surveillance by private investigators, with phone records [5]. | "Protecting privacy and property." | Private investigators are not pastoral care. |
-| 18 | Stonewalling | Documented | In 1970 the leader was not investigated [6]. | "God's judgment, not ours." | It became the members' judgment; many left. |
-| 19 | Manufactured consent | Cultural | Members are born into assent. | "They choose to stay." | The choice to stay is made against losing everyone. |
-| 20 | Trauma bonding | Cultural | Belonging and fear of withdrawal alternate | "Discipline restores." | Restoration comes through the threat of loss. |
-| 21 | Learned helplessness | Cultural | Every door leads to the same network [5] | "Trust the fellowship." | The network is the door. |
-| 22 | Benevolent control | Taught | Separation is presented as protection from evil. | "For your good." | It is protection you cannot refuse. |
-| 23 | Infantilization | Cultural | Adults' friendships are governed by the rule of separation [4], and their technology and education are managed, according to former members (section 11). | "Guidance." | Adults don't need approval to read. |
-| 24 | Identity erosion | Taught | The self is defined by the fellowship. | "Our identity in Christ." | If it cannot leave, it was assigned. |
-| 25 | Spiritual bypassing | Cultural | Grief over separated families is attributed to God's will. | "Trust the Lord." | Trust is not reunion. |
-| 26 | Financial control | Documented | Control runs through the business network [5] and UBT [9]. | "Separate businesses." | "The church does not run any businesses." [5] |
-| 27 | Manufactured crisis | Cultural | Outside scrutiny is treated as spiritual attack. | "The world hates us." | The world is asking questions. |
-| 28 | Discard | Taught | The sanction is withdrawal [4][5]. | "Disciplinary, not punitive." | Ask the children. |
-| 29 | Replacement | Cultural | Family life continues without the withdrawn | "The fellowship endures." | It endures without them. |
-| 30 | Plausible deniability | Documented | The church's answer was that Mr Hales "neither authorised nor knew" the interrogation [5]. | "Leaders cannot know everything." | Then publish the rules. |
+*What it asks of you:* The love is real. Is it conditional?
+:::
+
+::: tactic n=1
+#### 1 · Love Bombing {#t-1}
+
+*Overwhelming affection on arrival to create emotional dependency before terms are revealed.*
+
+**How it shows here**
+
+- Most members are born in, and there are few converts.
+
+**The strongest defense.** We are family.
+
+**The counter.** The belonging is never offered as a choice.
+
+**Evidence grade.** [[Cultural]] Membership by birth is how the fellowship grows in practice; there is no recruitment drive to grade.
+:::
+
+::: tactic n=2
+#### 2 · Weaponized Generosity {#t-2}
+
+*Giving help that installs unspoken obligation.*
+
+**How it shows here**
+
+- The business network provides help and employment [5].
+
+**The strongest defense.** Brethren help each other.
+
+**The counter.** Help that ends with withdrawal is a leash.
+
+**Evidence grade.** [[Documented]] ABC reporting records the help and employment that run through the business network [5].
+:::
+
+### Stage 2 · Hook {#stage-2}
+
+::: stage
+**You are given a future that cannot be verified, and a rope for whenever you drift toward the door.**
+
+Salvation is found within the fellowship.
+
+*What it asks of you:* Is everything outside defilement?
+:::
+
+::: tactic n=3
+#### 3 · Future Faking {#t-3}
+
+*Promising a future that keeps you invested but never has to arrive.*
+
+**How it shows here**
+
+- Salvation is promised inside the fellowship.
+
+**The strongest defense.** Faith.
+
+**The counter.** The promise requires staying.
+
+**Evidence grade.** [[Taught]] Salvation inside the fellowship is the church's teaching.
+:::
+
+::: tactic n=4
+#### 4 · Hoovering {#t-4}
+
+*Pulling someone back after they've started to leave, through guilt, love, or fear.*
+
+**How it shows here**
+
+- Those who leave are pressed to repent and return.
+
+**The strongest defense.** We want them back.
+
+**The counter.** They are taken back only on the institution's terms.
+
+**Evidence grade.** [[Cultural]] Pressure on leavers to repent is reported by former members.
+:::
+
+### Stage 3 · Devalue {#stage-3}
+
+::: stage
+**You are taught that you are broken, that your perception is unreliable, and that both exits from the trap lead back inside.**
+
+Worldliness is treated as defilement [4].
+
+*What it asks of you:* Who defines the world?
+:::
+
+::: tactic n=5
+#### 5 · Devaluation {#t-5}
+
+*Reducing your sense of worth so you become dependent on the institution for identity.*
+
+**How it shows here**
+
+- Worldliness is treated as defilement [4].
+
+**The strongest defense.** Holiness.
+
+**The counter.** It is a holiness that makes your mother unclean.
+
+**Evidence grade.** [[Taught]] The church's own pages teach separation from worldly defilement [4].
+:::
+
+::: tactic n=6
+#### 6 · Gaslighting {#t-6}
+
+*Making you doubt your own experience so you trust the institution's interpretation instead.*
+
+**How it shows here**
+
+- The church says "we do not prevent former members from contacting their families" [5], and testimony says otherwise [5].
+
+**The strongest defense.** Individual choices.
+
+**The counter.** The choices all point one way.
+
+**Evidence grade.** [[Documented]] The church's statement and the contrary testimony are both on record [5].
+:::
+
+::: tactic n=7
+#### 7 · Double Bind {#t-7}
+
+*A trap where both options lead to compliance. No exit serves you.*
+
+**How it shows here**
+
+- Members are told to love their family and to separate from them.
+
+**The strongest defense.** Separation is love.
+
+**The counter.** It is a love that cannot share a meal.
+
+**Evidence grade.** [[Taught]] Separation from family who are outside is the church's teaching.
+:::
+
+### Stage 4 · Confuse {#stage-4}
+
+::: stage
+**The rewards become unpredictable, the standard keeps moving, the answers stop meaning anything, and the accusation gets turned around.**
+
+Separation is framed as love.
+
+*What it asks of you:* Is it love if it requires not eating with your mother?
+:::
+
+::: tactic n=8
+#### 8 · Intermittent Reinforcement {#t-8}
+
+*Unpredictable reward that creates addictive emotional dependency.*
+
+**How it shows here**
+
+- Loyalty is rewarded with standing and business favor [5].
+
+**The strongest defense.** Rewarding faithfulness.
+
+**The counter.** Favor works as a loyalty test.
+
+**Evidence grade.** [[Cultural]] Standing and business favour for the loyal is reported by former members [5].
+:::
+
+::: tactic n=9
+#### 9 · Moving the Goalposts {#t-9}
+
+*The standard of success keeps shifting so you can never arrive.*
+
+**How it shows here**
+
+- Technology rules changed from prohibition to approved systems, according to former members.
+
+**The strongest defense.** Adapting to the times.
+
+**The counter.** Who decides, and why?
+
+**Evidence grade.** [[Cultural]] The changes rest on former members' accounts.
+:::
+
+::: tactic n=10
+#### 10 · Strategic Ambiguity {#t-10}
+
+*Language that sounds profound but means nothing specific — functioning as a shutdown to real questions.*
+
+**How it shows here**
+
+- The church calls itself "apolitical," yet members produced election material [3][8].
+
+**The strongest defense.** Members acted privately.
+
+**The counter.** The same election work appeared in two countries [3][8], which is hard to call private.
+
+**Evidence grade.** [[Documented]] The church's self-description and the members' election material are on the record [3][8].
+:::
+
+::: tactic n=11
+#### 11 · Projection {#t-11}
+
+*Accusing the outside world of the exact thing the institution practices.*
+
+**How it shows here**
+
+- Critics are cast as persecutors.
+
+**The strongest defense.** Media bias.
+
+**The counter.** Answer the testimony.
+
+**Evidence grade.** [[Cultural]] Casting critics as persecutors is a pattern in the church's responses.
+:::
+
+::: tactic n=12
+#### 12 · DARVO {#t-12}
+
+*Deny the wrongdoing. Attack the person who raised it. Reverse victim and offender.*
+
+**How it shows here**
+
+- A member was interrogated over an alleged hack while leaders claimed to protect "the Lord's interest" [5].
+
+**The strongest defense.** Protecting the church.
+
+**The counter.** The recording speaks.
+
+**Evidence grade.** [[Documented]] ABC reporting records the interrogation and the leaders' words [5].
+:::
+
+::: tactic n=13
+#### 13 · Normalization / Desensitization {#t-13}
+
+*Practices that would seem extreme to an outsider feel normal to insiders because they were installed before critical evaluation developed.*
+
+**How it shows here**
+
+- Separation begins at birth [4].
+
+**The strongest defense.** Our way of life.
+
+**The counter.** Children didn't choose it.
+
+**Evidence grade.** [[Taught]] Separation from birth is the church's teaching [4].
+:::
+
+### Stage 5 · Isolate {#stage-5}
+
+::: stage
+**Your world narrows until every voice you hear is inside the system, and everything you came for now runs through a middleman.**
+
+Meals, schools, technology and work all stay inside [4][5].
+
+*What it asks of you:* Where is outside?
+:::
+
+::: tactic n=14
+#### 14 · Isolation {#t-14}
+
+*Shrinking your world until the only voices you hear are inside the system.*
+
+**How it shows here**
+
+- Meals, media and schools are kept inside [4][7].
+
+**The strongest defense.** Holiness.
+
+**The counter.** It is a world with no outside.
+
+**Evidence grade.** [[Documented]] The church's own pages and the national audit office record the separate meals, media and schools [4][7].
+:::
+
+::: tactic n=15
+#### 15 · Triangulation {#t-15}
+
+*Inserting intermediaries between you and the thing you came for, so the institution is always in the middle.*
+
+**How it shows here**
+
+- Family, priests and employers are aligned.
+
+**The strongest defense.** Everyone cares.
+
+**The counter.** Everyone in the triangle is inside.
+
+**Evidence grade.** [[Cultural]] The alignment of family, leaders and employers is reported practice.
+:::
+
+### Stage 6 · Extract {#stage-6}
+
+::: stage
+**Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
+
+The fellowship takes time, business networks and loyalty [5].
+
+*What it asks of you:* The network spans about 3,000 companies [5].
+:::
+
+::: tactic n=16
+#### 16 · Flying Monkeys {#t-16}
+
+*The community enforces the institution's norms without being asked — mobilized by culture, not memos.*
+
+**How it shows here**
+
+- Families enforce separation [5].
+
+**The strongest defense.** Individual conscience.
+
+**The counter.** It is a conscience that always matches the rule.
+
+**Evidence grade.** [[Documented]] ABC reporting records families enforcing separation [5].
+:::
+
+::: tactic n=17
+#### 17 · Smear Campaign {#t-17}
+
+*Rewriting your character after departure to protect the institution from the implications of your leaving.*
+
+**How it shows here**
+
+- Former members are investigated and pressured; the ABC reported surveillance by private investigators, with phone records [5].
+
+**The strongest defense.** Protecting privacy and property.
+
+**The counter.** Private investigators are not pastoral care.
+
+**Evidence grade.** [[Documented]] ABC reporting records the investigations, the private investigators and the phone records [5].
+:::
+
+::: tactic n=18
+#### 18 · Silent Treatment / Stonewalling {#t-18}
+
+*Refusing to engage with legitimate questions in order to maintain control.*
+
+**How it shows here**
+
+- In 1970 the leader was not investigated [6].
+
+**The strongest defense.** God's judgment, not ours.
+
+**The counter.** It became the members' judgment; many left.
+
+**Evidence grade.** [[Documented]] The 1970 events are on the historical record [6].
+:::
+
+::: tactic n=19
+#### 19 · Manufactured Consent {#t-19}
+
+*Creating the appearance of choice when the conditions of choice were shaped before you could evaluate them.*
+
+**How it shows here**
+
+- Members are born into assent.
+
+**The strongest defense.** They choose to stay.
+
+**The counter.** The choice to stay is made against losing everyone.
+
+**Evidence grade.** [[Cultural]] Assent by birth is how membership works in practice.
+:::
+
+::: tactic n=20
+#### 20 · Trauma Bonding {#t-20}
+
+*The wound and the bandage come from the same hand.*
+
+**How it shows here**
+
+- Belonging and fear of withdrawal alternate.
+
+**The strongest defense.** Discipline restores.
+
+**The counter.** Restoration comes through the threat of loss.
+
+**Evidence grade.** [[Cultural]] The swing between belonging and fear of withdrawal is described by former members.
+:::
+
+::: tactic n=21
+#### 21 · Learned Helplessness {#t-21}
+
+*Teaching you that your own judgment is unreliable until you stop trusting it entirely.*
+
+**How it shows here**
+
+- Every door leads to the same network [5].
+
+**The strongest defense.** Trust the fellowship.
+
+**The counter.** The network is the door.
+
+**Evidence grade.** [[Cultural]] Reporting describes every door leading to the same network [5], but no rule says so.
+:::
+
+::: tactic n=22
+#### 22 · Benevolent Control {#t-22}
+
+*Control wrapped in the language of care, so that resisting the control feels like rejecting the love.*
+
+**How it shows here**
+
+- Separation is presented as protection from evil.
+
+**The strongest defense.** For your good.
+
+**The counter.** It is protection you cannot refuse.
+
+**Evidence grade.** [[Taught]] Separation is taught as protection from evil.
+:::
+
+::: tactic n=23
+#### 23 · Infantilization {#t-23}
+
+*Positioning the adult believer as permanently childlike and dependent on institutional authority.*
+
+**How it shows here**
+
+- Adults' friendships are governed by the rule of separation [4], and their technology and education are managed, according to former members (section 11).
+
+**The strongest defense.** Guidance.
+
+**The counter.** Adults don't need approval to read.
+
+**Evidence grade.** [[Cultural]] The rule of separation is the church's teaching [4]; managed technology and education rest on former members.
+:::
+
+::: tactic n=24
+#### 24 · Identity Erosion {#t-24}
+
+*Gradually replacing your identity with a role the institution provides, until you can't separate who you are from where you belong.*
+
+**How it shows here**
+
+- The self is defined by the fellowship.
+
+**The strongest defense.** Our identity in Christ.
+
+**The counter.** If it cannot leave, it was assigned.
+
+**Evidence grade.** [[Taught]] The fellowship as the whole self is taught, not written as a rule.
+:::
+
+::: tactic n=25
+#### 25 · Spiritual Bypassing {#t-25}
+
+*Using spiritual language to avoid engaging with real pain, real questions, and real accountability.*
+
+**How it shows here**
+
+- Grief over separated families is attributed to God's will.
+
+**The strongest defense.** Trust the Lord.
+
+**The counter.** Trust is not reunion.
+
+**Evidence grade.** [[Cultural]] Attributing grief over separated families to God's will is reported pastoral practice.
+:::
+
+::: tactic n=26
+#### 26 · Financial Control {#t-26}
+
+*Extracting money through spiritual obligation while offering no transparency about where it goes.*
+
+**How it shows here**
+
+- Control runs through the business network [5] and UBT [9].
+
+**The strongest defense.** Separate businesses.
+
+**The counter.** "The church does not run any businesses." [5].
+
+**Evidence grade.** [[Documented]] Reporting records control through the business network and UBT [5][9].
+:::
+
+### Stage 7 · Discard {#stage-7}
+
+::: stage
+**You become expensive — too many questions, too much independence — and the urgency ramps up until you are removed.**
+
+Members are "withdrawn from" [4][5].
+
+*What it asks of you:* "I have no contact with my mum." [5].
+:::
+
+::: tactic n=27
+#### 27 · Manufactured Crisis {#t-27}
+
+*Creating urgency to suppress critical thinking and generate loyalty.*
+
+**How it shows here**
+
+- Outside scrutiny is treated as spiritual attack.
+
+**The strongest defense.** The world hates us.
+
+**The counter.** The world is asking questions.
+
+**Evidence grade.** [[Cultural]] Treating outside scrutiny as spiritual attack is a pattern in the church's messaging.
+:::
+
+::: tactic n=28
+#### 28 · Discard {#t-28}
+
+*Removing members who become too costly — too many questions, too much independence, too visible a contradiction.*
+
+**How it shows here**
+
+- The sanction is withdrawal [4][5].
+
+**The strongest defense.** Disciplinary, not punitive.
+
+**The counter.** Ask the children.
+
+**Evidence grade.** [[Taught]] Withdrawal is the church's taught sanction [4][5].
+:::
+
+### Stage 8 · Replace {#stage-8}
+
+::: stage
+**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to God.**
+
+Family life continues without you.
+
+*What it asks of you:* The table is reset without your place.
+:::
+
+::: tactic n=29
+#### 29 · Replacement {#t-29}
+
+*Your seat is filled before the door closes behind you.*
+
+**How it shows here**
+
+- Family life continues without the withdrawn.
+
+**The strongest defense.** The fellowship endures.
+
+**The counter.** It endures without them.
+
+**Evidence grade.** [[Cultural]] Family life continuing without the withdrawn is the ordinary result of the practice.
+:::
+
+::: tactic n=30
+#### 30 · Plausible Deniability {#t-30}
+
+*The institution is never responsible, because the authority is attributed to God — who isn't available for cross-examination.*
+
+**How it shows here**
+
+- The church's answer was that Mr Hales "neither authorised nor knew" the interrogation [5].
+
+**The strongest defense.** Leaders cannot know everything.
+
+**The counter.** Then publish the rules.
+
+**Evidence grade.** [[Documented]] The church's answer is on the record [5].
+:::
 
 ## 13. The loops {#loops}
 
@@ -650,7 +1164,7 @@ Checked 2026-09-27.
 10. Charity Commission for England and Wales, OneSchool Global UK (charity 1181301), financial history 2020–2024. <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5101925/financial-history>
 11. *Express* (NZ), "Craig Hoyle: Finding Freedom After The Exclusive Brethren" (11 Oct 2024) — interview on his memoir *Excommunicated*. <https://gayexpress.co.nz/2024/10/craig-hoyle-finding-freedom-after-the-exclusive-brethren/>
 12. Olive Leaf Network — aid and advocacy for former members of high-demand religious groups (Australia, New Zealand, international). <https://oliveleafnetwork.org/>
-13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). <https://humanists.uk/faith-to-faithless/helpline/>
+13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). <https://humanists.uk/faith-to-faithless/helpline/>
 14. International Cultic Studies Association (ICSA). <https://internationalculticstudies.org/>
 15. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
 16. Charity Commission for England and Wales, register entry: Preston Down Trust, charity no. 1155382 (accounts and trustees' annual report for the year to 5 April 2025, received on time). <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5043270/full-print>

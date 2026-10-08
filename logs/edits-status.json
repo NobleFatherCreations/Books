@@ -1543,6 +1543,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "catholicism": [
@@ -2388,6 +2394,12 @@
   },
   {
    "id": "ALL-F09",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
    "scope": "md",
    "found": 0,
    "state": "no-op"
@@ -3659,6 +3671,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "oriental-orthodoxy": [
@@ -5053,6 +5071,30 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "STY-oriental-orthodoxy-01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "STY-oriental-orthodoxy-02",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "STY-oriental-orthodoxy-03",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "anglicanism": [
@@ -6519,6 +6561,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "protestant-evangelical": [
@@ -7829,6 +7877,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "pentecostal-charismatic": [
@@ -9109,6 +9163,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "plymouth-brethren": [
@@ -10461,6 +10521,18 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "STY-plymouth-brethren-01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "mormonism": [
@@ -12089,6 +12161,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "jehovahs-witnesses": [
@@ -13543,6 +13621,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "seventh-day-adventism": [
@@ -14649,6 +14733,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "islam": [
@@ -16247,6 +16337,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "sunni-islam": [
@@ -17827,6 +17923,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
   }
  ],
  "shia-islam": [
@@ -19371,6 +19473,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
   }
  ],
  "ahmadiyya": [
@@ -20624,6 +20732,12 @@
   },
   {
    "id": "ALL-F09",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
    "scope": "md",
    "found": 0,
    "state": "no-op"
@@ -21985,6 +22099,18 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "STY-dawoodi-bohra-01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "judaism": [
@@ -23466,6 +23592,12 @@
   },
   {
    "id": "ALL-F09",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
    "scope": "md",
    "found": 0,
    "state": "no-op"
@@ -24971,6 +25103,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
   }
  ],
  "hinduism": [
@@ -26353,6 +26491,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "hare-krishna": [
@@ -27939,6 +28083,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "sikhism": [
@@ -29303,6 +29453,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "jainism": [
@@ -30517,6 +30673,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "buddhism": [
@@ -31821,6 +31983,12 @@
    "scope": "md",
    "found": 1,
    "state": "applied"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "tibetan-buddhism": [
@@ -33075,8 +33243,8 @@
   {
    "id": "TIBF-D075",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "rejected"
   },
   {
    "id": "TIBF-D076",
@@ -33179,6 +33347,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "soka-gakkai": [
@@ -34487,8 +34661,8 @@
   {
    "id": "SOKF-D055",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "rejected"
   },
   {
    "id": "SOKF-D056",
@@ -34543,6 +34717,18 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "STY-soka-gakkai-01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "taoism": [
@@ -35845,8 +36031,8 @@
   {
    "id": "TAOF-D062",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "rejected"
   },
   {
    "id": "TAOF-D063",
@@ -35928,6 +36114,12 @@
   },
   {
    "id": "TAOF-D069",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-F10",
    "scope": "md",
    "found": 1,
    "state": "applied"
@@ -37239,8 +37431,8 @@
   {
    "id": "CONF-D064",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "rejected"
   },
   {
    "id": "CONF-D065",
@@ -37313,6 +37505,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "shinto": [
@@ -38579,8 +38777,8 @@
   {
    "id": "SHNF-D061",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "rejected"
   },
   {
    "id": "SHNF-D062",
@@ -38668,6 +38866,12 @@
   },
   {
    "id": "SHNF-D071",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-F10",
    "scope": "md",
    "found": 1,
    "state": "applied"
@@ -39709,8 +39913,8 @@
   {
    "id": "ZORF-D038",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "rejected"
   },
   {
    "id": "ZORF-D039",
@@ -39968,6 +40172,12 @@
    "id": "ZORF-D079",
    "scope": "md",
    "found": 3,
+   "state": "applied"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
    "state": "applied"
   }
  ],
@@ -41391,8 +41601,8 @@
   {
    "id": "BAHF-D059",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "rejected"
   },
   {
    "id": "BAHF-D060",
@@ -41645,6 +41855,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "scientology": [
@@ -43661,8 +43877,8 @@
   {
    "id": "SCIF-D141",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "rejected"
   },
   {
    "id": "SCIF-D142",
@@ -43831,6 +44047,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "new-age": [
@@ -44929,8 +45151,8 @@
   {
    "id": "NEWF-D003",
    "scope": "md",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "rejected"
   },
   {
    "id": "NEWF-D004",
@@ -45501,6 +45723,12 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "unification-church": [
@@ -47249,6 +47477,18 @@
    "scope": "md",
    "found": 0,
    "state": "no-op"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
+  },
+  {
+   "id": "STY-unification-church-01",
+   "scope": "md",
+   "found": 1,
+   "state": "applied"
   }
  ],
  "indigenous": [
@@ -48781,6 +49021,12 @@
    "scope": "md",
    "found": 2,
    "state": "applied"
+  },
+  {
+   "id": "ALL-F10",
+   "scope": "md",
+   "found": 0,
+   "state": "no-op"
   }
  ]
 }

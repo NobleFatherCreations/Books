@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | The size of the membership is disputed. Claims of worldwide membership have ranged from one to ten million. One scholarly account notes at least 600,000 members in the 1990s and about 60,000 official members in Japan, since declining [19]. |
 | Who's in charge | The leader is Hak Ja Han Moon, called True Mother (the movement teaches that she and Sun Myung Moon are the "True Parents"). A Seoul court sentenced her to two years in August 2026, a first-instance ruling the church said it will appeal [14][27]. |
-| Chosen by / removable by | She holds the office by doctrinal succession / The church has no internal procedure for removing her |
+| Chosen by | She holds the office by doctrinal succession. |
+| Removable by | The church has no internal procedure for removing her. |
 | Money in one line | The money comes from donations, including "spiritual sales" in Japan, which Japan's lawyers' network and a scholarly account describe as goods sold at extreme prices by invoking ancestral karma (the claim that ancestors' suffering burdens the living) [12][19]. |
 | Leaving in one line | Leaving can mean losing an arranged spouse, family and community, especially for second-generation members (those raised in the movement by member parents) [13]. |
 | The unanswered question | Why did the donations require courts to recover them? |
@@ -246,54 +247,567 @@ Japanese civil courts and the Religious Corporations Act (the Japanese law that 
 - Doctrine places sexuality and lineage at the root of the Fall [1].
 
 ## 12. The 30 techniques {#techniques}
+Thirty named techniques from domestic-abuse and social-psychology research, applied to institutions, in the eight stages of the cycle. Each carries an evidence grade for this tradition.
 
-### The eight stages here
+### Stage 1 · Idealize {#stage-1}
 
-| Stage | How it shows here | The question |
-|---|---|---|
-| Idealize | Friendly recruiters appear, often without naming the church [19]. | When were the donation teachings disclosed? |
-| Hook | Salvation of your lineage and your ancestors is offered. | The promise is unverifiable, and it is priced [12]. |
-| Devalue | Members are told that their lineage is fallen and their ancestors suffer. | Who sold you the diagnosis? |
-| Confuse | Critics and courts are cast as religious persecution. | The Supreme Court held that the dissolution order does not violate religious freedom [26]. |
-| Isolate | Workshops, communal living and matched marriage do the isolating. | Who outside could you ask? |
-| Extract | Donations, fundraising labor and marriage are what is extracted. | Japan's lawyers counted 123.7 billion yen in claims [12]. |
-| Discard | Those who leave the lineage are discarded. | Nothing is said. Everything changes. |
-| Replace | New members and the second generation replace them. | The children are the next cohort [13]. |
+::: stage
+**You arrive with a need and are met with more warmth than you have had in years.**
 
-### All thirty, graded
+Friendly recruiters appear, often without naming the church [19].
 
-| # | Mechanism | Grade | How it appears here | The defense | The counter |
-|---|---|---|---|---|---|
-| 1 | Love bombing | Documented | A scholarly account describes recruiters approaching strangers in a friendly way while hiding the church's name, aimed at their personal and financial worries [19] | "Hospitality to seekers." | Warmth that arrives before the price list is a sales funnel. |
-| 2 | Weaponized generosity | Taught | Community care comes first, and obligation follows | "We care for members." | Care that ends when giving stops was a loan. |
-| 3 | Future faking | Taught | The promise is lineage salvation and freed ancestors [1] | "Faith in restoration." | Nothing promised can be checked, and every payment can. |
-| 4 | Hoovering | Cultural | Families pull members back, especially in the second generation [13] | "Families want their children home." | Home should not come with a Blessing candidate attached. |
-| 5 | Devaluation | Taught | The teaching names a fallen lineage and Japan's national guilt [18] | "Theology of the Fall." | A doctrine that makes a nation's guilt payable is a revenue model. |
-| 6 | Gaslighting | Cultural | Court findings are described as persecution | "Anti-religious bias." | Two courts heard the evidence [4][5]. |
-| 7 | Double bind | Taught | Free will is set against ancestral obligation | "Giving is voluntary." | Voluntary, with your ancestors' suffering on the other side of the scale. |
-| 8 | Intermittent reinforcement | Cultural | Sacrifice is praised, and doubt meets silence | "We honor dedication." | Honor rationed by giving trains giving. |
-| 9 | Moving the goalposts | Cultural | France 24 quotes a source describing daily pressure to donate, with karma attached to money [12]; this page cites no record of rising amounts | "Providence requires it." | Name the amount that would be enough. |
-| 10 | Strategic ambiguity | Documented | The lawyers' network and legal analysis describe "donations" as solicited through sales of goods [11][12] | "Legitimate religious offerings." | Japan now classes it as a consumer-law category [11]. |
-| 11 | Projection | Cultural | Critics are cast as greedy lawyers | "They profit from attacking us." | The claims are victims' money [12]. |
-| 12 | DARVO | Cultural | Victims and courts are recast as persecutors | "We are the victims." | The confinement of a member for twelve years was real [16]; so are the donation claims [12]. |
-| 13 | Normalization | Documented | Recurring offerings are treated as ordinary devotion [13] | "Faithful practice." | A household sold to pay is not ordinary. |
-| 14 | Isolation | Documented | Workshops, communal life and matched marriage isolate members [3] | "Spiritual focus." | Who outside could you ask? |
-| 15 | Triangulation | Cultural | Parents, leaders and the True Parents align on marriage and giving | "Everyone wants your blessing." | Everyone in the triangle is inside the structure. |
-| 16 | Flying monkeys | Cultural | Relatives press second-generation members to marry within the lineage [13] | "Parents' love." | The institution never has to ask directly. |
-| 17 | Smear campaign | Contested | Critics and lawyers are portrayed as anti-religious activists | "Defending the faith." | Answer the evidence, not the lawyer. |
-| 18 | Stonewalling | Documented | Recovery has run through lawsuits by the lawyers' network [12]; this page cites no source that refunds were refused | "Legal process." | The claims total 123.7 billion yen [12]. |
-| 19 | Manufactured consent | Taught | Marriages are matched through the Blessing [1], and a second-generation member's "choice" is made inside that arrangement | "They choose the Blessing." | A choice made inside a lineage with no exit is not clean. |
-| 20 | Trauma bonding | Cultural | Shared persecution narrative binds members to leaders | "We suffer together." | The suffering was real for the member who was confined [16], not for the treasury. |
-| 21 | Learned helplessness | Cultural | Families are unable to recover savings without lawyers | "Trust providence." | Providence did not return the house. |
-| 22 | Benevolent control | Taught | Marriage and life decisions are guided "for the lineage" | "Guidance protects you." | Protection you cannot refuse is control. |
-| 23 | Infantilization | Cultural | Adults' marriages are chosen for them | "Parents know best." | Adults choose their own spouses. |
-| 24 | Identity erosion | Taught | Selfhood is defined as lineage position [1] | "Identity in God's family." | If the self cannot leave, it was assigned. |
-| 25 | Spiritual bypassing | Cultural | Loss is reframed as indemnity paid | "Suffering has meaning." | Meaning is not a refund. |
-| 26 | Financial control | Documented | Donations and spiritual sales are the means of financial control [4][11][12] | "Free-will offerings." | Two courts disagreed [4][5]. |
-| 27 | Manufactured crisis | Documented | Urgent campaigns are tied to ancestors' suffering [12] | "Spiritual urgency." | Urgency that always requires money is a sales technique. |
-| 28 | Discard | Cultural | Those who leave are cut off from lineage and family | "They chose to leave." | Leaving should not cost your family. |
-| 29 | Replacement | Cultural | The second generation fills the pews [13] | "Faith passes to children." | Passed, or assigned? |
-| 30 | Plausible deniability | Documented | The conduct is attributed to "individual members' excesses" | "Headquarters never ordered it." | The courts attributed it to the organization [4][5]. |
+*What it asks of you:* When were the donation teachings disclosed?
+:::
+
+::: tactic n=1
+#### 1 · Love Bombing {#t-1}
+
+*Overwhelming affection on arrival to create emotional dependency before terms are revealed.*
+
+**How it shows here**
+
+- A scholarly account describes recruiters approaching strangers in a friendly way while hiding the church's name, aimed at their personal and financial worries [19].
+
+**The strongest defense.** Hospitality to seekers.
+
+**The counter.** Warmth that arrives before the price list is a sales funnel.
+
+**Evidence grade.** [[Documented]] Rests on one scholarly account of recruitment [19]; a second, independent record would make the grade firmer.
+:::
+
+::: tactic n=2
+#### 2 · Weaponized Generosity {#t-2}
+
+*Giving help that installs unspoken obligation.*
+
+**How it shows here**
+
+- Community care comes first, and obligation follows.
+
+**The strongest defense.** We care for members.
+
+**The counter.** Care that ends when giving stops was a loan.
+
+**Evidence grade.** [[Taught]] Care first and obligation after is taught as the order of church life.
+:::
+
+### Stage 2 · Hook {#stage-2}
+
+::: stage
+**You are given a future that cannot be verified, and a rope for whenever you drift toward the door.**
+
+Salvation of your lineage and your ancestors is offered.
+
+*What it asks of you:* The promise is unverifiable, and it is priced [12].
+:::
+
+::: tactic n=3
+#### 3 · Future Faking {#t-3}
+
+*Promising a future that keeps you invested but never has to arrive.*
+
+**How it shows here**
+
+- The promise is lineage salvation and freed ancestors [1].
+
+**The strongest defense.** Faith in restoration.
+
+**The counter.** Nothing promised can be checked, and every payment can.
+
+**Evidence grade.** [[Taught]] Lineage salvation and freed ancestors are the church's own teaching [1].
+:::
+
+::: tactic n=4
+#### 4 · Hoovering {#t-4}
+
+*Pulling someone back after they've started to leave, through guilt, love, or fear.*
+
+**How it shows here**
+
+- Families pull members back, especially in the second generation [13].
+
+**The strongest defense.** Families want their children home.
+
+**The counter.** Home should not come with a Blessing candidate attached.
+
+**Evidence grade.** [[Cultural]] Families pulling members back is reported by second-generation members [13].
+:::
+
+### Stage 3 · Devalue {#stage-3}
+
+::: stage
+**You are taught that you are broken, that your perception is unreliable, and that both exits from the trap lead back inside.**
+
+Members are told that their lineage is fallen and their ancestors suffer.
+
+*What it asks of you:* Who sold you the diagnosis?
+:::
+
+::: tactic n=5
+#### 5 · Devaluation {#t-5}
+
+*Reducing your sense of worth so you become dependent on the institution for identity.*
+
+**How it shows here**
+
+- The teaching names a fallen lineage and Japan's national guilt [18].
+
+**The strongest defense.** Theology of the Fall.
+
+**The counter.** A doctrine that makes a nation's guilt payable is a revenue model.
+
+**Evidence grade.** [[Taught]] The fallen lineage and Japan's national guilt are taught doctrine [18].
+:::
+
+::: tactic n=6
+#### 6 · Gaslighting {#t-6}
+
+*Making you doubt your own experience so you trust the institution's interpretation instead.*
+
+**How it shows here**
+
+- Court findings are described as persecution.
+
+**The strongest defense.** Anti-religious bias.
+
+**The counter.** Two courts heard the evidence [4][5].
+
+**Evidence grade.** [[Cultural]] Describing court findings as persecution is a pattern in the church's responses.
+:::
+
+::: tactic n=7
+#### 7 · Double Bind {#t-7}
+
+*A trap where both options lead to compliance. No exit serves you.*
+
+**How it shows here**
+
+- Free will is set against ancestral obligation.
+
+**The strongest defense.** Giving is voluntary.
+
+**The counter.** Voluntary, with your ancestors' suffering on the other side of the scale.
+
+**Evidence grade.** [[Taught]] Free will set against ancestral obligation is taught.
+:::
+
+### Stage 4 · Confuse {#stage-4}
+
+::: stage
+**The rewards become unpredictable, the standard keeps moving, the answers stop meaning anything, and the accusation gets turned around.**
+
+Critics and courts are cast as religious persecution.
+
+*What it asks of you:* The Supreme Court held that the dissolution order does not violate religious freedom [26].
+:::
+
+::: tactic n=8
+#### 8 · Intermittent Reinforcement {#t-8}
+
+*Unpredictable reward that creates addictive emotional dependency.*
+
+**How it shows here**
+
+- Sacrifice is praised, and doubt meets silence.
+
+**The strongest defense.** We honor dedication.
+
+**The counter.** Honor rationed by giving trains giving.
+
+**Evidence grade.** [[Cultural]] Praise for sacrifice and silence for doubt are reported practice.
+:::
+
+::: tactic n=9
+#### 9 · Moving the Goalposts {#t-9}
+
+*The standard of success keeps shifting so you can never arrive.*
+
+**How it shows here**
+
+- France 24 quotes a source describing daily pressure to donate, with karma attached to money [12]; this page cites no record of rising amounts.
+
+**The strongest defense.** Providence requires it.
+
+**The counter.** Name the amount that would be enough.
+
+**Evidence grade.** [[Cultural]] Daily pressure to donate rests on one quoted source [12]; no record of rising amounts is cited.
+:::
+
+::: tactic n=10
+#### 10 · Strategic Ambiguity {#t-10}
+
+*Language that sounds profound but means nothing specific — functioning as a shutdown to real questions.*
+
+**How it shows here**
+
+- The lawyers' network and legal analysis describe "donations" as solicited through sales of goods [11][12].
+
+**The strongest defense.** Legitimate religious offerings.
+
+**The counter.** Japan now classes it as a consumer-law category [11].
+
+**Evidence grade.** [[Documented]] The lawyers' network and published legal analysis record solicitation through sales [11][12].
+:::
+
+::: tactic n=11
+#### 11 · Projection {#t-11}
+
+*Accusing the outside world of the exact thing the institution practices.*
+
+**How it shows here**
+
+- Critics are cast as greedy lawyers.
+
+**The strongest defense.** They profit from attacking us.
+
+**The counter.** The claims are victims' money [12].
+
+**Evidence grade.** [[Cultural]] Casting critics as greedy lawyers is a pattern in the church's messaging.
+:::
+
+::: tactic n=12
+#### 12 · DARVO {#t-12}
+
+*Deny the wrongdoing. Attack the person who raised it. Reverse victim and offender.*
+
+**How it shows here**
+
+- Victims and courts are recast as persecutors.
+
+**The strongest defense.** We are the victims.
+
+**The counter.** The confinement of a member for twelve years was real [16]; so are the donation claims [12].
+
+**Evidence grade.** [[Cultural]] Recasting victims and courts as persecutors is a pattern in the church's responses.
+:::
+
+::: tactic n=13
+#### 13 · Normalization / Desensitization {#t-13}
+
+*Practices that would seem extreme to an outsider feel normal to insiders because they were installed before critical evaluation developed.*
+
+**How it shows here**
+
+- Recurring offerings are treated as ordinary devotion [13].
+
+**The strongest defense.** Faithful practice.
+
+**The counter.** A household sold to pay is not ordinary.
+
+**Evidence grade.** [[Documented]] Reporting by second-generation members records recurring offerings treated as devotion [13].
+:::
+
+### Stage 5 · Isolate {#stage-5}
+
+::: stage
+**Your world narrows until every voice you hear is inside the system, and everything you came for now runs through a middleman.**
+
+Workshops, communal living and matched marriage do the isolating.
+
+*What it asks of you:* Who outside could you ask?
+:::
+
+::: tactic n=14
+#### 14 · Isolation {#t-14}
+
+*Shrinking your world until the only voices you hear are inside the system.*
+
+**How it shows here**
+
+- Workshops, communal life and matched marriage isolate members [3].
+
+**The strongest defense.** Spiritual focus.
+
+**The counter.** Who outside could you ask?
+
+**Evidence grade.** [[Documented]] The US House investigation recorded workshops, communal life and matched marriage [3].
+:::
+
+::: tactic n=15
+#### 15 · Triangulation {#t-15}
+
+*Inserting intermediaries between you and the thing you came for, so the institution is always in the middle.*
+
+**How it shows here**
+
+- Parents, leaders and the True Parents align on marriage and giving.
+
+**The strongest defense.** Everyone wants your blessing.
+
+**The counter.** Everyone in the triangle is inside the structure.
+
+**Evidence grade.** [[Cultural]] The alignment of parents, leaders and the True Parents is reported practice.
+:::
+
+### Stage 6 · Extract {#stage-6}
+
+::: stage
+**Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
+
+Donations, fundraising labor and marriage are what is extracted.
+
+*What it asks of you:* Japan's lawyers counted 123.7 billion yen in claims [12].
+:::
+
+::: tactic n=16
+#### 16 · Flying Monkeys {#t-16}
+
+*The community enforces the institution's norms without being asked — mobilized by culture, not memos.*
+
+**How it shows here**
+
+- Relatives press second-generation members to marry within the lineage [13].
+
+**The strongest defense.** Parents' love.
+
+**The counter.** The institution never has to ask directly.
+
+**Evidence grade.** [[Cultural]] Pressure on second-generation members to marry within the lineage is reported [13].
+:::
+
+::: tactic n=17
+#### 17 · Smear Campaign {#t-17}
+
+*Rewriting your character after departure to protect the institution from the implications of your leaving.*
+
+**How it shows here**
+
+- Critics and lawyers are portrayed as anti-religious activists.
+
+**The strongest defense.** Defending the faith.
+
+**The counter.** Answer the evidence, not the lawyer.
+
+**Evidence grade.** [[Contested]] The portrayal of critics is disputed: the church calls them activists, and the courts heard their evidence.
+:::
+
+::: tactic n=18
+#### 18 · Silent Treatment / Stonewalling {#t-18}
+
+*Refusing to engage with legitimate questions in order to maintain control.*
+
+**How it shows here**
+
+- Recovery has run through lawsuits by the lawyers' network [12]; this page cites no source that refunds were refused.
+
+**The strongest defense.** Legal process.
+
+**The counter.** The claims total 123.7 billion yen [12].
+
+**Evidence grade.** [[Documented]] The lawyers' network records recovery through lawsuits [12].
+:::
+
+::: tactic n=19
+#### 19 · Manufactured Consent {#t-19}
+
+*Creating the appearance of choice when the conditions of choice were shaped before you could evaluate them.*
+
+**How it shows here**
+
+- Marriages are matched through the Blessing [1], and a second-generation member's "choice" is made inside that arrangement.
+
+**The strongest defense.** They choose the Blessing.
+
+**The counter.** A choice made inside a lineage with no exit is not clean.
+
+**Evidence grade.** [[Taught]] Matched marriage through the Blessing is the church's teaching [1].
+:::
+
+::: tactic n=20
+#### 20 · Trauma Bonding {#t-20}
+
+*The wound and the bandage come from the same hand.*
+
+**How it shows here**
+
+- Shared persecution narrative binds members to leaders.
+
+**The strongest defense.** We suffer together.
+
+**The counter.** The suffering was real for the member who was confined [16], not for the treasury.
+
+**Evidence grade.** [[Cultural]] A shared persecution narrative binding members is a pattern described by members.
+:::
+
+::: tactic n=21
+#### 21 · Learned Helplessness {#t-21}
+
+*Teaching you that your own judgment is unreliable until you stop trusting it entirely.*
+
+**How it shows here**
+
+- Families are unable to recover savings without lawyers.
+
+**The strongest defense.** Trust providence.
+
+**The counter.** Providence did not return the house.
+
+**Evidence grade.** [[Cultural]] Families needing lawyers to recover savings is reported practice, not a rule.
+:::
+
+::: tactic n=22
+#### 22 · Benevolent Control {#t-22}
+
+*Control wrapped in the language of care, so that resisting the control feels like rejecting the love.*
+
+**How it shows here**
+
+- Marriage and life decisions are guided "for the lineage"
+
+**The strongest defense.** Guidance protects you.
+
+**The counter.** Protection you cannot refuse is control.
+
+**Evidence grade.** [[Taught]] Guidance on marriage and life decisions for the lineage is taught.
+:::
+
+::: tactic n=23
+#### 23 · Infantilization {#t-23}
+
+*Positioning the adult believer as permanently childlike and dependent on institutional authority.*
+
+**How it shows here**
+
+- Adults' marriages are chosen for them.
+
+**The strongest defense.** Parents know best.
+
+**The counter.** Adults choose their own spouses.
+
+**Evidence grade.** [[Cultural]] Matched marriage for adults is reported practice under the Blessing.
+:::
+
+::: tactic n=24
+#### 24 · Identity Erosion {#t-24}
+
+*Gradually replacing your identity with a role the institution provides, until you can't separate who you are from where you belong.*
+
+**How it shows here**
+
+- Selfhood is defined as lineage position [1].
+
+**The strongest defense.** Identity in God's family.
+
+**The counter.** If the self cannot leave, it was assigned.
+
+**Evidence grade.** [[Taught]] Selfhood as lineage position is taught doctrine [1].
+:::
+
+::: tactic n=25
+#### 25 · Spiritual Bypassing {#t-25}
+
+*Using spiritual language to avoid engaging with real pain, real questions, and real accountability.*
+
+**How it shows here**
+
+- Loss is reframed as indemnity paid.
+
+**The strongest defense.** Suffering has meaning.
+
+**The counter.** Meaning is not a refund.
+
+**Evidence grade.** [[Cultural]] Reframing loss as indemnity paid is reported pastoral practice.
+:::
+
+::: tactic n=26
+#### 26 · Financial Control {#t-26}
+
+*Extracting money through spiritual obligation while offering no transparency about where it goes.*
+
+**How it shows here**
+
+- Donations and spiritual sales are the means of financial control [4][11][12].
+
+**The strongest defense.** Free-will offerings.
+
+**The counter.** Two courts disagreed [4][5].
+
+**Evidence grade.** [[Documented]] Court rulings and legal analysis record donations and spiritual sales [4][11][12].
+:::
+
+### Stage 7 · Discard {#stage-7}
+
+::: stage
+**You become expensive — too many questions, too much independence — and the urgency ramps up until you are removed.**
+
+Those who leave the lineage are discarded.
+
+*What it asks of you:* Nothing is said. Everything changes.
+:::
+
+::: tactic n=27
+#### 27 · Manufactured Crisis {#t-27}
+
+*Creating urgency to suppress critical thinking and generate loyalty.*
+
+**How it shows here**
+
+- Urgent campaigns are tied to ancestors' suffering [12].
+
+**The strongest defense.** Spiritual urgency.
+
+**The counter.** Urgency that always requires money is a sales technique.
+
+**Evidence grade.** [[Documented]] Reporting records urgent campaigns tied to ancestors' suffering [12].
+:::
+
+::: tactic n=28
+#### 28 · Discard {#t-28}
+
+*Removing members who become too costly — too many questions, too much independence, too visible a contradiction.*
+
+**How it shows here**
+
+- Those who leave are cut off from lineage and family.
+
+**The strongest defense.** They chose to leave.
+
+**The counter.** Leaving should not cost your family.
+
+**Evidence grade.** [[Cultural]] Cutting off those who leave is reported by former members.
+:::
+
+### Stage 8 · Replace {#stage-8}
+
+::: stage
+**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to God.**
+
+New members and the second generation replace them.
+
+*What it asks of you:* The children are the next cohort [13].
+:::
+
+::: tactic n=29
+#### 29 · Replacement {#t-29}
+
+*Your seat is filled before the door closes behind you.*
+
+**How it shows here**
+
+- The second generation fills the pews [13].
+
+**The strongest defense.** Faith passes to children.
+
+**The counter.** Faith assigned at birth and costly to leave was not simply passed on.
+
+**Evidence grade.** [[Cultural]] The second generation filling the pews is reported [13].
+:::
+
+::: tactic n=30
+#### 30 · Plausible Deniability {#t-30}
+
+*The institution is never responsible, because the authority is attributed to God — who isn't available for cross-examination.*
+
+**How it shows here**
+
+- The conduct is attributed to "individual members' excesses"
+
+**The strongest defense.** Headquarters never ordered it.
+
+**The counter.** The courts attributed it to the organization [4][5].
+
+**Evidence grade.** [[Documented]] The church's attribution to individual excesses, and the courts' contrary finding, are on record [4][5].
+:::
 
 ## 13. The loops {#loops}
 
@@ -672,7 +1186,7 @@ Checked 2026-10-03.
 21. OHCHR, "Japan: UN experts concerned by continued stigmatisation of religious minorities," Oct 2025. <https://www.ohchr.org/en/press-releases/2025/10/japan-un-experts-concerned-continued-stigmatisation-religious-minorities>
 22. International Cultic Studies Association (ICSA). <https://internationalculticstudies.org/>
 23. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
-24. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). <https://humanists.uk/faith-to-faithless/helpline/>
+24. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). <https://humanists.uk/faith-to-faithless/helpline/>
 25. Childhelp National Child Abuse Hotline — 1-800-422-4453. <https://childhelphotline.org/>
 26. Kyunghyang Shinmun (English edition), "Supreme Court of Japan finalizes dissolution order for former Unification Church," 23 Jun 2026. <https://www.khan.co.kr/en/article/202606232320007> — the Supreme Court dismissed the special appeal (reported 23 June; the decision is dated 22 June in the article), held that the order does not violate the constitutional guarantee of religious freedom, and found that the organization had for about 50 years since 1973 systematically continued unlawful solicitation of donations.
 27. United Press International, "Unification Church leader Hak Ja Han sentenced to 2 years in prison," 31 Aug 2026. <https://www.upi.com/Top_News/World-News/2026/08/31/church-leader-hak-ja-han-ani-graft-law-violation/9941788222382/> — "The church said it would appeal."

@@ -2921,5 +2921,14 @@
   "reason": "P1-9, P1-3.",
   "count": 1,
   "status": "proposed"
+ },
+ {
+  "id": "STY-unification-church-01",
+  "scope": "md",
+  "type": "style",
+  "before": "| Passed, or assigned? |",
+  "after": "| Faith assigned at birth and costly to leave was not simply passed on. |",
+  "reason": "House rule for counters (EDITORIAL-STYLE.md, 2026-10-08): a statement by default; a question only when the institution could answer it from its own records; a command only when it names a test someone can run. This counter was a rhetorical fragment.",
+  "status": "proposed"
  }
 ]

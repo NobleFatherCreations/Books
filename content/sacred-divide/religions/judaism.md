@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | About 15.8 million people are Jewish worldwide (2024), counting people who are Jewish by religion, ethnicity or upbringing. [ACADEMIC SOURCE: DellaPergola, Jewish Agency] |
 | Who's in charge | The Chief Rabbinate of Israel holds a statutory monopoly over Jewish marriage and divorce in Israel, and gatekeeping over Orthodox conversion and most burial. Its two heads are Ashkenazi (central and eastern European Jewish) Chief Rabbi Kalman Ber and Sephardi (Spanish, North African and Middle Eastern Jewish) Chief Rabbi David Yosef, elected in 2024 to ten-year terms on a state salary. |
-| Chosen by / removable by | A 150-member electoral body weighted toward rabbinic insiders chooses them / The state that created the monopoly can remove them, and it has not |
+| Chosen by | A 150-member electoral body weighted toward rabbinic insiders chooses them. |
+| Removable by | The state that created the monopoly can remove them, and it has not. |
 | Money in one line | The money comes from synagogue dues, day-school tuition (a defining family cost), kosher certification fees, giving through federations (the central fundraising bodies of local Jewish communities), and Israel-linked giving. |
 | Leaving in one line | Leaving a liberal community carries a low institutional cost. The cost of leaving an Orthodox community is set out in the profile of Orthodox and Hasidic Judaism. |
 | The unanswered question | The rabbinic courts hold the only key to a get (a Jewish writ of divorce, which only the husband can give). Israel's rabbinical courts have held statutory sanctions against refusers since 1995 and apply them in some cases; diaspora courts have none. Why has the power to free an agunah (a woman whose husband refuses her a get) never been made an obligation instead of a discretion? |

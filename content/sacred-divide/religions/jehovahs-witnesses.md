@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | The organization reports ~9 million active 'publishers' (2025). It counts only those reporting preaching activity, so this is an unusually honest activity measure. About 20.6 million attend the annual Memorial (the yearly commemoration of Jesus's death). [OFFICIAL POLICY: annual report] |
 | Who's in charge | The Governing Body is a self-perpetuating body of eleven men in Warwick, New York. Among them are Geoffrey Jackson, who testified before Australia's Royal Commission, David Splane and Stephen Lett. Appointments are announced, never explained; Anthony Morris III's 2023 departure was announced in one sentence with no reason. |
-| Chosen by / removable by | The existing members appoint the new members / Themselves |
+| Chosen by | The existing members appoint the new members. |
+| Removable by | Themselves. |
 | Money in one line | The money comes from voluntary donations, and the real asset is unpaid member labor (preaching hours, construction, Bethel service, meaning work at a branch office or the world headquarters) and real estate. The sale of the Brooklyn headquarters properties realized on the order of $1B+ (25–30 Columbia Heights alone sold for ~$340M). [FINANCIAL RECORD: Brooklyn sales to Kushner Cos. and partners, about $1 billion] |
 | Leaving in one line | The exit penalties are among the most severe formalized in this codex. Disfellowshipped (formally expelled) and disassociated (formally resigned) members are shunned by family and all Witnesses, and this is documented as organizational policy, not personal choice. [OFFICIAL POLICY / GOVERNMENT REPORT] |
 | The unanswered question | The organization's own files held one thousand and six alleged perpetrators, and none was reported. Who above the elder level answered for the policy that kept it that way? |
@@ -1495,7 +1496,7 @@ Checked 2026-09-27.
 16. Reveal, "California court guts child abuse ruling against Jehovah's Witnesses" (2015). https://revealnews.org/article/california-court-guts-child-abuse-ruling-against-jehovahs-witnesses/
 17. *The Japan Times*, "Many children of Jehovah's Witnesses experience abuse, Japan report says" (21 Nov 2023). https://www.japantimes.co.jp/news/2023/11/21/japan/society/jehovahs-witnesses-survey-abuse/
 18. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
-19. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
+19. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). https://humanists.uk/faith-to-faithless/helpline/
 20. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 21. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
 22. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/

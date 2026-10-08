@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | The Church counts ~17.9 million members on its rolls (2025). Independent analyses estimate active participation at roughly a third of that, and self-identification in national surveys is far lower than official counts. [OFFICIAL POLICY: Church statistical report / ACADEMIC SOURCE] |
 | Who's in charge | The President of the Church is Dallin H. Oaks, since October 2025. He succeeded automatically, by apostolic seniority (the longest-serving apostle becomes president), on the death of Russell M. Nelson in September 2025, and the queue of likely future presidents is visible decades ahead. |
-| Chosen by / removable by | Seniority — a queue, not a choice / Nobody. The office ends at death |
+| Chosen by | Seniority — a queue, not a choice. |
+| Removable by | Nobody. The office ends at death. |
 | Money in one line | Tithing (10%) is linked directly to temple worthiness, which makes it salvation-gated revenue. [OFFICIAL POLICY: temple recommend questions] |
 | Leaving in one line | Leaving strains multigenerational LDS families and ends temple participation in relatives' weddings. In the Mormon corridor (the heavily Latter-day Saint region centered on Utah) it carries social and professional costs, and missionary-age youth face identity-scale exit decisions. |
 | The unanswered question | A portfolio a whistleblower valued at over a hundred billion dollars was hidden from securities filings for two decades; the penalty was five million dollars and no resignation. On what date do the members see the books? |
@@ -1516,7 +1517,7 @@ Checked 2026-09-27.
 17. KUER, "Former Bishop Excommunicated From Mormon Church For Protesting Youth Interviews" (16 Sep 2018). https://www.kuer.org/religion/2018-09-16/former-bishop-excommunicated-from-mormon-church-for-protesting-youth-interviews
 18. ABC News, "Mormon Church Excommunicates Kate Kelly, Women's Rights Activist" (23 June 2014). https://abcnews.com/US/mormon-church-excommunicates-kate-kelly-womens-rights-activists/story?id=24264440
 19. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
-20. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
+20. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). https://humanists.uk/faith-to-faithless/helpline/
 21. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 22. Childhelp National Child Abuse Hotline — 1-800-422-4453. https://childhelphotline.org/
 23. RAINN National Sexual Assault Hotline — 1-800-656-4673. https://rainn.org/learn-about-rainn/contact-us/

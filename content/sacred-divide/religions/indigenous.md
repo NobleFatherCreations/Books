@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | This page cites no count: the number depends on how Indigenous, folk and ancestral practice is defined, and many people practice alongside a world religion; syncretism (the blending of more than one tradition) is common. [PATTERN OBSERVED] |
 | Who's in charge | Authority lives locally, with elders, societies, families and councils. By this codex's own rule, no private individual is named on this page. |
-| Chosen by / removable by | Community and kinship / Community and kinship |
+| Chosen by | Community and kinship. |
+| Removable by | Community and kinship. |
 | Money in one line | Money comes from ceremony fees, healing payments, initiation costs and offerings. In the commercialized layer it comes from ayahuasca tourism (retreats built on a plant-based brew used in Amazonian traditions), retreat industries and appropriated ceremony sold at Western price points, and revenue frequently bypasses source communities. [INVESTIGATIVE REPORT] |
 | Leaving in one line | In some communities, where tradition, family, and ethnicity are one fabric, questioning practice can read as betraying identity itself; misfortune attribution ('the ancestors are angry') taxes refusal without any explicit threat. This page names no community. [PATTERN OBSERVED] |
 | The unanswered question | Protection from outsiders is owed and overdue. Who protects the insider from the elder? |

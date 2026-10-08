@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | The community has about 1 million members [15]. |
 | Who's in charge | The Daʿi al-Mutlaq (the community's supreme religious leader) is Mufaddal Saifuddin, in office since 2014 [15]. |
-| Chosen by / removable by | Designation (nass) by the predecessor; contested, upheld by the Bombay High Court in 2024 (appeal pending before a Division Bench) [4][31] / No one |
+| Chosen by | Designation (nass) by the predecessor; contested, upheld by the Bombay High Court in 2024 (appeal pending before a Division Bench) [4][31]. |
+| Removable by | No one. |
 | Money in one line | The community is funded by annual dues (wajebaat) and levies and by large community trusts [18], and interest-free loans run inside the same structure [15]. |
 | Leaving in one line | Excommunication (baraat) carries social boycott, including denial of mosque access and community burial [17]. |
 | The unanswered question | Why can a funeral need permission? |
@@ -237,54 +238,567 @@ Members pay *wajebaat* and other dues to the office of the dai; no audited accou
 - The religious hierarchy is all male, and women wear distinctive dress (the rida) [15].
 
 ## 12. The 30 techniques {#techniques}
+Thirty named techniques from domestic-abuse and social-psychology research, applied to institutions, in the eight stages of the cycle. Each carries an evidence grade for this tradition.
 
-### The eight stages here
+### Stage 1 · Idealize {#stage-1}
 
-| Stage | How it shows here | The question |
-|---|---|---|
-| Idealize | The community feeds, lends to and houses its own [15][18]. | Whose name is on the loan? |
-| Hook | Salvation is offered through allegiance to the Daʿi, sworn before adulthood [13]. | Could a teenager refuse? |
-| Devalue | Unpaid dues and questions are treated as breaches of the oath [13]. | Who decided what loyalty costs? |
-| Confuse | Khatna is called a "religious rite" at home, and members are told to "follow the law" abroad [16]. | Which is it? |
-| Isolate | Business, marriage and burial all take place inside the community [13]. | Where is outside? |
-| Extract | Reformist accounts say the office collects dues, permissions and loyalty [19]. | What does each permission cost? |
-| Discard | Baraat and boycott discard members [1][13][17]. | The 1962 ruling upheld the power, and the 2023 referral doubted it [2]. |
-| Replace | The office continues, as the court confirmed [4]. | The structure outlives every dissenter. |
+::: stage
+**You arrive with a need and are met with more warmth than you have had in years.**
 
-### All thirty, graded
+The community feeds, lends to and houses its own [15][18].
 
-| # | Mechanism | Grade | How it appears here | The defense | The counter |
-|---|---|---|---|---|---|
-| 1 | Love bombing | Cultural | The community offers a warm, total embrace. | "Brotherhood." | Does it survive a question? |
-| 2 | Weaponized generosity | Documented | Loans and housing come from the office that disciplines [15][18]. | "Welfare." | Welfare that follows standing can be withdrawn with it. |
-| 3 | Future faking | Cultural | Salvation is taught as coming through allegiance to the Daʿi. | "Faith." | It is unverifiable, and it is exclusive. |
-| 4 | Hoovering | Cultural | Families pull back those who drift. | "Family concern." | Concern that arrives with the ʿamil's message is enforcement. |
-| 5 | Devaluation | Documented | Breaches of the misaq are framed as spiritual failure [13]. | "Loyalty is a virtue." | Loyalty that cannot be withdrawn is capture. |
-| 6 | Gaslighting | Documented | Khatna is minimized as harmless against survivors' testimony [11]. | "It's minor." | Of the survey's respondents, 81% want it ended [11]. |
-| 7 | Double bind | Documented | An oath is sworn before adulthood and binds for life [13]. | "A sacred covenant." | A covenant made before adulthood is not an adult's choice. |
-| 8 | Intermittent reinforcement | Cultural | Favor and permissions go to loyal families. | "Rewarding devotion." | Permission as reward teaches obedience. |
-| 9 | Moving the goalposts | Documented | Khatna is a "religious rite" at home and "follow the law" abroad [16]. | "Local law differs." | The girls' bodies do not. |
-| 10 | Strategic ambiguity | Contested | No written renunciation of khatna covering every country is recorded on this page [16]. | "It is a private family matter." | Then renounce it publicly. |
-| 11 | Projection | Cultural | Reformers are labelled divisive [13]. | "Unity matters." | The division is the boycott. |
-| 12 | DARVO | Documented | Survivors who speak out are accused of defaming the community [11]. | "Protecting our name." | The name is protected by ending the practice. |
-| 13 | Normalization | Documented | Khatna, most often at six or seven, is treated as a family rite [11][28]. | "Tradition." | Tradition is not consent. |
-| 14 | Isolation | Documented | Business, marriage and burial take place inside the community [13]. | "Community life." | It is a world with no outside door. |
-| 15 | Triangulation | Cultural | The mother-in-law, the ʿamil and the community align. | "Everyone agrees." | Everyone in the triangle is inside. |
-| 16 | Flying monkeys | Documented | Boycotts are enforced by members [13]. | "Members choose." | The institution never has to act. |
-| 17 | Smear campaign | Documented | Reformers are vilified and assaulted, per the 1979 testimony [13]. | "Individuals acted." | The Commission recorded reformists' testimony of boycott and assault [13]. |
-| 18 | Stonewalling | Documented | Litigation ran for decades before any reconsideration [1][2]. | "The courts decided." | The courts are now deciding again [2]. |
-| 19 | Manufactured consent | Documented | The misaq is taken before adulthood [13]. | "Freely sworn." | It is sworn by a child. |
-| 20 | Trauma bonding | Cultural | Shared grief (Muharram) and belonging bind members to the office. | "Faith unites us." | Members are united with each other, not with the ʿamil. |
-| 21 | Learned helplessness | Contested | Reformist accounts say every life event needs permission [17][19]. | "Order." | Order that cannot be refused teaches people not to try. |
-| 22 | Benevolent control | Cultural | Permissions are framed as spiritual care. | "Guidance." | Guidance that can refuse a funeral is power. |
-| 23 | Infantilization | Documented | Adults seek permission for life events [17]. | "Humility." | Adults don't need a slip to marry or to bury. |
-| 24 | Identity erosion | Cultural | Selfhood is fused with allegiance. | "Faith is identity." | If it cannot leave, it was assigned. |
-| 25 | Spiritual bypassing | Cultural | Harm is answered with calls for loyalty. | "Trust the Daʿi." | Trust is not a remedy. |
-| 26 | Financial control | Contested | Reformist accounts tie dues to permissions [19]. | "Religious obligation." | Publish the accounts. |
-| 27 | Manufactured crisis | Cultural | Outside threats are cited against reformers. | "We are under attack." | The reformers are family. |
-| 28 | Discard | Documented | Members are discarded through baraat [1][13][17]. | "Only for grave breaches." | Who decides, and can you reply? |
-| 29 | Replacement | Cultural | The office and the community continue unchanged [4]. | "The community endures." | It endures without the ones it removed. |
-| 30 | Plausible deniability | Contested | Responsibility is placed with families and individual cutters rather than the institution; no source on this page records that framing. | "The institution does not perform it." | It has defended it in court [12] and from the pulpit [16]. |
+*What it asks of you:* Whose name is on the loan?
+:::
+
+::: tactic n=1
+#### 1 · Love Bombing {#t-1}
+
+*Overwhelming affection on arrival to create emotional dependency before terms are revealed.*
+
+**How it shows here**
+
+- The community offers a warm, total embrace.
+
+**The strongest defense.** Brotherhood.
+
+**The counter.** Test whether the welcome survives a question.
+
+**Evidence grade.** [[Cultural]] The embrace is ordinary community life; no rule makes it conditional.
+:::
+
+::: tactic n=2
+#### 2 · Weaponized Generosity {#t-2}
+
+*Giving help that installs unspoken obligation.*
+
+**How it shows here**
+
+- Loans and housing come from the office that disciplines [15][18].
+
+**The strongest defense.** Welfare.
+
+**The counter.** Welfare that follows standing can be withdrawn with it.
+
+**Evidence grade.** [[Documented]] The community's own pages and press describe loans and housing run by the same office [15][18].
+:::
+
+### Stage 2 · Hook {#stage-2}
+
+::: stage
+**You are given a future that cannot be verified, and a rope for whenever you drift toward the door.**
+
+Salvation is offered through allegiance to the Daʿi, sworn before adulthood [13].
+
+*What it asks of you:* Could a teenager refuse?
+:::
+
+::: tactic n=3
+#### 3 · Future Faking {#t-3}
+
+*Promising a future that keeps you invested but never has to arrive.*
+
+**How it shows here**
+
+- Salvation is taught as coming through allegiance to the Daʿi.
+
+**The strongest defense.** Faith.
+
+**The counter.** It is unverifiable, and it is exclusive.
+
+**Evidence grade.** [[Cultural]] Allegiance to the Daʿi as the path to salvation is community teaching, held without a written rule.
+:::
+
+::: tactic n=4
+#### 4 · Hoovering {#t-4}
+
+*Pulling someone back after they've started to leave, through guilt, love, or fear.*
+
+**How it shows here**
+
+- Families pull back those who drift.
+
+**The strongest defense.** Family concern.
+
+**The counter.** Concern that arrives with the ʿamil's message is enforcement.
+
+**Evidence grade.** [[Cultural]] Families pulling back those who drift is reported practice.
+:::
+
+### Stage 3 · Devalue {#stage-3}
+
+::: stage
+**You are taught that you are broken, that your perception is unreliable, and that both exits from the trap lead back inside.**
+
+Unpaid dues and questions are treated as breaches of the oath [13].
+
+*What it asks of you:* Who decided what loyalty costs?
+:::
+
+::: tactic n=5
+#### 5 · Devaluation {#t-5}
+
+*Reducing your sense of worth so you become dependent on the institution for identity.*
+
+**How it shows here**
+
+- Breaches of the misaq are framed as spiritual failure [13].
+
+**The strongest defense.** Loyalty is a virtue.
+
+**The counter.** Loyalty that cannot be withdrawn is capture.
+
+**Evidence grade.** [[Documented]] The Nathwani Commission recorded breaches of the oath being treated as spiritual failure [13].
+:::
+
+::: tactic n=6
+#### 6 · Gaslighting {#t-6}
+
+*Making you doubt your own experience so you trust the institution's interpretation instead.*
+
+**How it shows here**
+
+- Khatna is minimized as harmless against survivors' testimony [11].
+
+**The strongest defense.** It's minor.
+
+**The counter.** Of the survey's respondents, 81% want it ended [11].
+
+**Evidence grade.** [[Documented]] Survivors' testimony and survey findings are on the record [11].
+:::
+
+::: tactic n=7
+#### 7 · Double Bind {#t-7}
+
+*A trap where both options lead to compliance. No exit serves you.*
+
+**How it shows here**
+
+- An oath is sworn before adulthood and binds for life [13].
+
+**The strongest defense.** A sacred covenant.
+
+**The counter.** A covenant made before adulthood is not an adult's choice.
+
+**Evidence grade.** [[Documented]] The oath and its lifelong terms were recorded by the Nathwani Commission [13].
+:::
+
+### Stage 4 · Confuse {#stage-4}
+
+::: stage
+**The rewards become unpredictable, the standard keeps moving, the answers stop meaning anything, and the accusation gets turned around.**
+
+Khatna is called a "religious rite" at home, and members are told to "follow the law" abroad [16].
+
+*What it asks of you:* Which is it?
+:::
+
+::: tactic n=8
+#### 8 · Intermittent Reinforcement {#t-8}
+
+*Unpredictable reward that creates addictive emotional dependency.*
+
+**How it shows here**
+
+- Favor and permissions go to loyal families.
+
+**The strongest defense.** Rewarding devotion.
+
+**The counter.** Permission as reward teaches obedience.
+
+**Evidence grade.** [[Cultural]] Favour for loyal families is reported practice, with no published rule.
+:::
+
+::: tactic n=9
+#### 9 · Moving the Goalposts {#t-9}
+
+*The standard of success keeps shifting so you can never arrive.*
+
+**How it shows here**
+
+- Khatna is a "religious rite" at home and "follow the law" abroad [16].
+
+**The strongest defense.** Local law differs.
+
+**The counter.** The girls' bodies do not.
+
+**Evidence grade.** [[Documented]] The different instructions at home and abroad are on record [16].
+:::
+
+::: tactic n=10
+#### 10 · Strategic Ambiguity {#t-10}
+
+*Language that sounds profound but means nothing specific — functioning as a shutdown to real questions.*
+
+**How it shows here**
+
+- No written renunciation of khatna covering every country is recorded on this page [16].
+
+**The strongest defense.** It is a private family matter.
+
+**The counter.** Then renounce it publicly.
+
+**Evidence grade.** [[Contested]] Whether a renunciation exists is disputed; none covering every country is recorded on this page [16].
+:::
+
+::: tactic n=11
+#### 11 · Projection {#t-11}
+
+*Accusing the outside world of the exact thing the institution practices.*
+
+**How it shows here**
+
+- Reformers are labelled divisive [13].
+
+**The strongest defense.** Unity matters.
+
+**The counter.** The division is the boycott.
+
+**Evidence grade.** [[Cultural]] Labelling reformers divisive is recorded in testimony [13], but as community practice rather than a rule.
+:::
+
+::: tactic n=12
+#### 12 · DARVO {#t-12}
+
+*Deny the wrongdoing. Attack the person who raised it. Reverse victim and offender.*
+
+**How it shows here**
+
+- Survivors who speak out are accused of defaming the community [11].
+
+**The strongest defense.** Protecting our name.
+
+**The counter.** The name is protected by ending the practice.
+
+**Evidence grade.** [[Documented]] Survey and press reporting record survivors being accused [11].
+:::
+
+::: tactic n=13
+#### 13 · Normalization / Desensitization {#t-13}
+
+*Practices that would seem extreme to an outsider feel normal to insiders because they were installed before critical evaluation developed.*
+
+**How it shows here**
+
+- Khatna, most often at six or seven, is treated as a family rite [11][28].
+
+**The strongest defense.** Tradition.
+
+**The counter.** Tradition is not consent.
+
+**Evidence grade.** [[Documented]] The age and the framing are documented in survey research [11][28].
+:::
+
+### Stage 5 · Isolate {#stage-5}
+
+::: stage
+**Your world narrows until every voice you hear is inside the system, and everything you came for now runs through a middleman.**
+
+Business, marriage and burial all take place inside the community [13].
+
+*What it asks of you:* Where is outside?
+:::
+
+::: tactic n=14
+#### 14 · Isolation {#t-14}
+
+*Shrinking your world until the only voices you hear are inside the system.*
+
+**How it shows here**
+
+- Business, marriage and burial take place inside the community [13].
+
+**The strongest defense.** Community life.
+
+**The counter.** It is a world with no outside door.
+
+**Evidence grade.** [[Documented]] The Nathwani Commission recorded how business, marriage and burial run inside the community [13].
+:::
+
+::: tactic n=15
+#### 15 · Triangulation {#t-15}
+
+*Inserting intermediaries between you and the thing you came for, so the institution is always in the middle.*
+
+**How it shows here**
+
+- The mother-in-law, the ʿamil and the community align.
+
+**The strongest defense.** Everyone agrees.
+
+**The counter.** Everyone in the triangle is inside.
+
+**Evidence grade.** [[Cultural]] The alignment of family, ʿamil and community is reported practice.
+:::
+
+### Stage 6 · Extract {#stage-6}
+
+::: stage
+**Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
+
+Reformist accounts say the office collects dues, permissions and loyalty [19].
+
+*What it asks of you:* What does each permission cost?
+:::
+
+::: tactic n=16
+#### 16 · Flying Monkeys {#t-16}
+
+*The community enforces the institution's norms without being asked — mobilized by culture, not memos.*
+
+**How it shows here**
+
+- Boycotts are enforced by members [13].
+
+**The strongest defense.** Members choose.
+
+**The counter.** The institution never has to act.
+
+**Evidence grade.** [[Documented]] The Nathwani Commission recorded boycotts carried out by members [13].
+:::
+
+::: tactic n=17
+#### 17 · Smear Campaign {#t-17}
+
+*Rewriting your character after departure to protect the institution from the implications of your leaving.*
+
+**How it shows here**
+
+- Reformers are vilified and assaulted, per the 1979 testimony [13].
+
+**The strongest defense.** Individuals acted.
+
+**The counter.** The Commission recorded reformists' testimony of boycott and assault [13].
+
+**Evidence grade.** [[Documented]] The 1979 testimony to the Nathwani Commission records vilification and assault [13].
+:::
+
+::: tactic n=18
+#### 18 · Silent Treatment / Stonewalling {#t-18}
+
+*Refusing to engage with legitimate questions in order to maintain control.*
+
+**How it shows here**
+
+- Litigation ran for decades before any reconsideration [1][2].
+
+**The strongest defense.** The courts decided.
+
+**The counter.** The courts are now deciding again [2].
+
+**Evidence grade.** [[Documented]] The court record shows decades of litigation [1][2].
+:::
+
+::: tactic n=19
+#### 19 · Manufactured Consent {#t-19}
+
+*Creating the appearance of choice when the conditions of choice were shaped before you could evaluate them.*
+
+**How it shows here**
+
+- The misaq is taken before adulthood [13].
+
+**The strongest defense.** Freely sworn.
+
+**The counter.** It is sworn by a child.
+
+**Evidence grade.** [[Documented]] The Nathwani Commission recorded that the oath is taken before adulthood [13].
+:::
+
+::: tactic n=20
+#### 20 · Trauma Bonding {#t-20}
+
+*The wound and the bandage come from the same hand.*
+
+**How it shows here**
+
+- Shared grief (Muharram) and belonging bind members to the office.
+
+**The strongest defense.** Faith unites us.
+
+**The counter.** Members are united with each other, not with the ʿamil.
+
+**Evidence grade.** [[Cultural]] Shared grief binding members is a pattern described by members, not a rule.
+:::
+
+::: tactic n=21
+#### 21 · Learned Helplessness {#t-21}
+
+*Teaching you that your own judgment is unreliable until you stop trusting it entirely.*
+
+**How it shows here**
+
+- Reformist accounts say every life event needs permission [17][19].
+
+**The strongest defense.** Order.
+
+**The counter.** Order that cannot be refused teaches people not to try.
+
+**Evidence grade.** [[Contested]] The claim rests on reformist accounts and is disputed by the community [17][19].
+:::
+
+::: tactic n=22
+#### 22 · Benevolent Control {#t-22}
+
+*Control wrapped in the language of care, so that resisting the control feels like rejecting the love.*
+
+**How it shows here**
+
+- Permissions are framed as spiritual care.
+
+**The strongest defense.** Guidance.
+
+**The counter.** Guidance that can refuse a funeral is power.
+
+**Evidence grade.** [[Cultural]] Framing permissions as care is reported practice.
+:::
+
+::: tactic n=23
+#### 23 · Infantilization {#t-23}
+
+*Positioning the adult believer as permanently childlike and dependent on institutional authority.*
+
+**How it shows here**
+
+- Adults seek permission for life events [17].
+
+**The strongest defense.** Humility.
+
+**The counter.** Adults don't need a slip to marry or to bury.
+
+**Evidence grade.** [[Documented]] The need to seek permission for life events is recorded in court reporting [17].
+:::
+
+::: tactic n=24
+#### 24 · Identity Erosion {#t-24}
+
+*Gradually replacing your identity with a role the institution provides, until you can't separate who you are from where you belong.*
+
+**How it shows here**
+
+- Selfhood is fused with allegiance.
+
+**The strongest defense.** Faith is identity.
+
+**The counter.** If it cannot leave, it was assigned.
+
+**Evidence grade.** [[Cultural]] Identity fused with allegiance is a pattern described by members.
+:::
+
+::: tactic n=25
+#### 25 · Spiritual Bypassing {#t-25}
+
+*Using spiritual language to avoid engaging with real pain, real questions, and real accountability.*
+
+**How it shows here**
+
+- Harm is answered with calls for loyalty.
+
+**The strongest defense.** Trust the Daʿi.
+
+**The counter.** Trust is not a remedy.
+
+**Evidence grade.** [[Cultural]] Answering harm with calls for loyalty is reported practice.
+:::
+
+::: tactic n=26
+#### 26 · Financial Control {#t-26}
+
+*Extracting money through spiritual obligation while offering no transparency about where it goes.*
+
+**How it shows here**
+
+- Reformist accounts tie dues to permissions [19].
+
+**The strongest defense.** Religious obligation.
+
+**The counter.** Publish the accounts.
+
+**Evidence grade.** [[Contested]] The link between dues and permissions rests on reformist accounts and is disputed [19].
+:::
+
+### Stage 7 · Discard {#stage-7}
+
+::: stage
+**You become expensive — too many questions, too much independence — and the urgency ramps up until you are removed.**
+
+Baraat and boycott discard members [1][13][17].
+
+*What it asks of you:* The 1962 ruling upheld the power, and the 2023 referral doubted it [2].
+:::
+
+::: tactic n=27
+#### 27 · Manufactured Crisis {#t-27}
+
+*Creating urgency to suppress critical thinking and generate loyalty.*
+
+**How it shows here**
+
+- Outside threats are cited against reformers.
+
+**The strongest defense.** We are under attack.
+
+**The counter.** The reformers are family.
+
+**Evidence grade.** [[Cultural]] Citing outside threats against reformers is a pattern in community messaging.
+:::
+
+::: tactic n=28
+#### 28 · Discard {#t-28}
+
+*Removing members who become too costly — too many questions, too much independence, too visible a contradiction.*
+
+**How it shows here**
+
+- Members are discarded through baraat [1][13][17].
+
+**The strongest defense.** Only for grave breaches.
+
+**The counter.** Who decides, and can you reply?
+
+**Evidence grade.** [[Documented]] Excommunication is recorded in court judgments and the Nathwani report [1][13][17].
+:::
+
+### Stage 8 · Replace {#stage-8}
+
+::: stage
+**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to God.**
+
+The office continues, as the court confirmed [4].
+
+*What it asks of you:* The structure outlives every dissenter.
+:::
+
+::: tactic n=29
+#### 29 · Replacement {#t-29}
+
+*Your seat is filled before the door closes behind you.*
+
+**How it shows here**
+
+- The office and the community continue unchanged [4].
+
+**The strongest defense.** The community endures.
+
+**The counter.** It endures without the ones it removed.
+
+**Evidence grade.** [[Cultural]] The office continuing after removals is the ordinary working of the structure [4].
+:::
+
+::: tactic n=30
+#### 30 · Plausible Deniability {#t-30}
+
+*The institution is never responsible, because the authority is attributed to God — who isn't available for cross-examination.*
+
+**How it shows here**
+
+- Responsibility is placed with families and individual cutters rather than the institution; no source on this page records that framing.
+
+**The strongest defense.** The institution does not perform it.
+
+**The counter.** It has defended it in court [12] and from the pulpit [16].
+
+**Evidence grade.** [[Contested]] The deflection is disputed, and no source on this page records the framing; the court and pulpit statements are recorded [12][16].
+:::
 
 ## 13. The loops {#loops}
 

@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | Tibetan Buddhism has an estimated ~10–20 million adherents within the Tibetan cultural sphere, plus several hundred thousand to low millions of convert practitioners globally (estimates vary widely). [ACADEMIC SOURCE] |
 | Who's in charge | The Dalai Lama, the most senior lama (teacher) of Tibetan Buddhism, is Tenzin Gyatso, the 14th, born 1935. In July 2025, days before his 90th birthday, he declared that the institution will continue and that his Gaden Phodrang Trust (the foundation he created) alone holds authority to recognize the 15th. |
-| Chosen by / removable by | The Dalai Lama is chosen by a recognition ritual controlled by the predecessor's own trust / Nobody can remove him. The office is located in the man. |
+| Chosen by | The Dalai Lama is chosen by a recognition ritual controlled by the predecessor's own trust. |
+| Removable by | Nobody can remove him. The office is located in the man. |
 | Money in one line | The money comes from empowerment (ritual initiation) and teaching fees, retreat economies, center dues and estate endowments. Western sanghas (communities of practitioners) are major funding sources for exile institutions. |
 | Leaving in one line | Leaving after tantric commitment (the vows of the advanced practices) carries taught cosmic consequences ('vajra hell', the hell realm taught as the penalty for breaking the vows). In documented cases, whistleblowers faced community exile and accusations of breaking samaya (the vow binding student to teacher). [FORMER MEMBER TESTIMONY / INVESTIGATIVE REPORT] |
 | The unanswered question | Samaya forbids criticizing the lama. Who wrote the exemption for the lama's own conduct — and where is it published? |
@@ -1491,7 +1492,7 @@ Checked 2026-10-03.
 11. Charity Commission, "Charity regulator removes trustee from Rigpa Fellowship" (23 Sept 2019; withdrawn when the inquiry closed, 25 Nov 2020). https://www.gov.uk/government/news/charity-regulator-removes-trustee-from-rigpa-fellowship
 12. Radio Free Asia, "Trump Signs Tibetan Policy And Support Act Into Law, Prompting Warnings From Beijing" (28 Dec 2020). https://www.rfa.org/english/news/tibet/law-12282020181154.html
 13. USCIRF, "USCIRF Welcomes Enactment of the Tibet Policy and Support Act." https://www.uscirf.gov/release-statements/uscirf-welcomes-enactment-tibet-policy-and-support-act
-14. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Wed 10:00–13:00, Thu 16:00–19:00, Fri 08:00–11:00). https://humanists.uk/faith-to-faithless/helpline/
+14. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). https://humanists.uk/faith-to-faithless/helpline/
 15. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 16. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 17. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/

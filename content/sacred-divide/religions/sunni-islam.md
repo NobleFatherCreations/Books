@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | Sunni Islam has about 1.7–1.8 billion adherents (roughly 87–90% of Muslims). [ACADEMIC SOURCE: Pew] |
 | Who's in charge | No single office leads Sunni Islam. Its most cited seat of learning is al-Azhar in Cairo, headed by Grand Imam Ahmed el-Tayeb, who was appointed by the president in 2010. |
-| Chosen by / removable by | Since a 2012 law, the Council of Senior Scholars is to elect the Grand Imam, but the current holder was appointed by the president in 2010, before that law, and this page records no election under it / Nobody can remove him, because the 2014 Constitution makes the office irremovable |
+| Chosen by | Since a 2012 law, the Council of Senior Scholars is to elect the Grand Imam, but the current holder was appointed by the president in 2010, before that law, and this page records no election under it. |
+| Removable by | Nobody can remove him, because the 2014 Constitution makes the office irremovable. |
 | Money in one line | Sunni institutions draw on the same giving as Islam generally, and add state salaries for clerics, Gulf endowments for institutions abroad, and the media economies of celebrity preachers. |
 | Leaving in one line | Community and family enforcement typically exceeds institutional enforcement; leaving or liberalizing costs marriage prospects, family standing, and in diaspora communities, one's entire social base. [VARIES BY COMMUNITY] |
 | The unanswered question | Who accredits the scholars who decide who counts as a scholar — and why does that trail end at a ministry almost every time? |

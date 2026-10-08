@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | Confucianism is essentially uncountable as a religion, and Pew makes no estimate of the number of Confucians in China. Pew reports that three-quarters of Chinese adults visited a family gravesite in the past year, and that about two-thirds said moral renewal would need to rely at least partly on the Confucian tradition (a 2015 survey question) [5]. [ACADEMIC SOURCE] |
 | Who's in charge | The head of the family is the senior generation, which is the apex, the court and the enforcement arm in one. |
-| Chosen by / removable by | Birth decides who holds the office / Only time and funerals remove the holder |
+| Chosen by | Birth decides who holds the office. |
+| Removable by | Only time and funerals remove the holder. |
 | Money in one line | Confucianism is not donation-based. The extraction is labor, deference and life-choice control within families, through eldercare obligations, career and marriage direction, and gendered sacrifice. [PATTERN OBSERVED] |
 | Leaving in one line | There is no membership to resign — which is the trap: one can only be a bad child, a bad student, a disharmonious element. Dissent has no legitimate category. |
 | The unanswered question | Remonstrance (respectful correction of someone in authority) with erring parents is in the Analects (the collected sayings of Confucius). Why is the duty to obey usually taught and the duty to correct rarely taught? |
@@ -1400,7 +1401,7 @@ Checked 2026-10-03.
 10. IntechOpen, "The Abolition of the Hoju System and Intergenerational Conflict in South Korea" — the March 2005 repeal of the system; individual registration from 1 Jan 2008. https://www.intechopen.com/chapters/1233172
 11. National Human Rights Commission of Korea, "The Hoju System is Unconstitutional and a Violation of Human Rights" (11 Mar 2003). https://www.humanrights.go.kr/site/program/board/basicboard/view?currentpage=46&menuid=002002001&pagesize=10&searchcategory=policy&boardtypeid=7003&boardid=7000525
 12. Gulf News / AFP, "Grandmother, 77, wins first China neglect case" (July 2013). https://gulfnews.com/world/oceania/grandmother-77-wins-first-china-neglect-case-1.1204505
-13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Mon 10am–1pm, Wed 10am–1pm, Thu 4–7pm). https://humanists.uk/faith-to-faithless/helpline/
+13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). https://humanists.uk/faith-to-faithless/helpline/
 14. Karma Nirvana — honour-based abuse and forced marriage, 0800 5999 247. https://karmanirvana.org.uk/get-help/helpline/
 15. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 16. Wikipedia, "Hoju" — the Constitutional Court of Korea held the hoju system incompatible with Article 36(1) of the Constitution on 3 February 2005; replaced by the Family Relations Register in 2008 (read 2026-10-03). https://en.wikipedia.org/wiki/Hoju

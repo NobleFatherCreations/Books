@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | The Bahá'í International Community states up to 8 million members; other estimates run from 5 to 7 million [23]. Enrollment figures include inactive members. |
 | Who's in charge | The Universal House of Justice has nine members, elected every five years by the members of the national assemblies (the elected national governing bodies). The most recent election was in 2023 and the next is due in 2028. The Bahá'í World Centre publishes the membership. The House's decisions are held to be doctrinally guided, and women are ineligible by standing ruling. |
-| Chosen by / removable by | National-assembly members meet in international convention and elect the House / The next election can remove a member, though members are usually re-elected until they step down |
+| Chosen by | National-assembly members meet in international convention and elect the House. |
+| Removable by | The next election can remove a member, though members are usually re-elected until they step down. |
 | Money in one line | The Faith's funds accept donations from members only (a genuine integrity feature), and Huqúqu'lláh (the "Right of God", 19% on surplus wealth) is paid to the Faith's center. [OFFICIAL POLICY] |
 | Leaving in one line | Ordinary resignation is administratively simple; the high cost is reserved for organized dissent — covenant-breaker designation (a formal status for a member who challenges the authority of the Covenant) means members are expected to avoid the person, relatives included, under guidance the Faith publishes [17]. [OFFICIAL POLICY / FORMER MEMBER TESTIMONY] |
 | The unanswered question | Only men may sit on the House of Justice, in a faith that teaches the equality of the sexes. Who is permitted to ask why — and where is the answer filed? |
@@ -1407,7 +1408,7 @@ Checked 2026-10-03.
 ### Further sources
 11. Charity Commission for England and Wales, National Spiritual Assembly of the Baha'is of the United Kingdom (charity 250851), financial history 2020–2025. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/250851/financial-history
 12. USCIRF, "USCIRF Condemns Sentencing of Baha'i Women in Iran" (2022) — Mahvash Sabet and Fariba Kamalabadi, ten years each after an hour-long trial; earlier ten-year terms 2008–2017 (see [21]). https://www.uscirf.gov/release-statements/uscirf-condemns-sentencing-bahai-women-iran
-13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Wednesday 10:00–13:00, Thursday 16:00–19:00, Friday 08:00–11:00). https://humanists.uk/faith-to-faithless/helpline/
+13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). https://humanists.uk/faith-to-faithless/helpline/
 14. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 15. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 16. Humanists International — Humanists at Risk. https://humanists.international/what-we-do/humanists-at-risk/

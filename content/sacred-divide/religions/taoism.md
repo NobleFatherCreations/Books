@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | Extremely difficult to count: fewer than 0.5% of Chinese adults identify as Taoist, yet 18% say they believe in immortals and 47% in fengshui, so belief and practice run far beyond formal identification [5]. [ACADEMIC SOURCE] |
 | Who's in charge | The Chinese Taoist Association is the state-supervised body through which clergy registration and temple licensing run in the People's Republic of China (PRC). Its president is Li Guangfu, re-elected in December 2025. |
-| Chosen by / removable by | Elected at the Association's national congress, under state supervision [4] / Not recorded on this page |
+| Chosen by | Elected at the Association's national congress, under state supervision [4]. |
+| Removable by | Not recorded on this page. |
 | Money in one line | The money comes from temple fees, ritual services (funerals, exorcisms, blessings), fortune-telling, feng shui (the practice of siting buildings and graves by supposed energy flows) and the global market in qigong (breathing and movement exercises) and wellness courses. |
 | Leaving in one line | Formal exit costs are low. The risk is master-student capture in small schools, where 'transmission' (the handing down of a teacher's teachings and authority along a lineage, a chain of teachers and students) is used to justify control and fees. |
 | The unanswered question | If the transmission is real, why can no lineage be verified before the money changes hands? |
@@ -1403,7 +1404,7 @@ Checked 2026-10-03.
 10. *Bitter Winter* (religious-liberty magazine), "World's Tallest Bronze Statue of Laozi Hidden by State" (30 Jan 2019). https://bitterwinter.org/tallest-bronze-statue-of-laozi-hidden/
 11. *Bitter Winter*, "Lao-Tzu Statue Demolished in Henan" (13 Nov 2018). https://bitterwinter.org/lao-tzu-statue-demolished-in-henan/
 12. Charity Commission for England and Wales, The Taoist Tai Chi Society of Great Britain (charity 1053425), financial history 2021–2024. https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/1053425/financial-history
-13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Wed 10am–1pm, Thu 4–7pm, Fri 8–11am). https://humanists.uk/faith-to-faithless/helpline/
+13. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). https://humanists.uk/faith-to-faithless/helpline/
 14. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 15. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 16. Early Tibet (blog), "Phagpa's Arrow, or Buddhists vs Daoists" (30 Sep 2008) — after the 1281 debate "the entire Daoist canon (except for the Daodejing) was burned". The post cites no source for the event; other accounts found by search describe the 1281 burning of the printed canon and its blocks but do not confirm the Daodejing exemption. https://earlytibet.com/2008/09/30/phagpas-arrow

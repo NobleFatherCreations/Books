@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | Oriental Orthodoxy has about 60–70M adherents (72M in a 2020 estimate cited by reference works) [1]. |
 | Who's in charge | Each of the six churches has its own head. The Coptic Pope of Alexandria, Tawadros II, has led the Coptic Orthodox Church since 2012 [6]. |
-| Chosen by / removable by | Electoral shortlist, then altar lot [6] / Death; no removal procedure |
+| Chosen by | Electoral shortlist, then altar lot [6]. |
+| Removable by | Death; no removal procedure. |
 | Money in one line | The money comes from church land, monasteries and diaspora giving, and in India two factions litigated for decades over about 1,100 churches [3]. |
 | Leaving in one line | In Egypt marriage and divorce run through the church and there is no civil marriage, so under current law a failed marriage can have no way out; a draft law before parliament would add provisions on divorce and annulment [4][26]. |
 | The unanswered question | When the state removes a patriarch, who in the church says no? |
@@ -270,54 +271,567 @@ Most of these churches publish no accounts. In the UK, diaspora bodies registere
 - In Egypt, church-controlled divorce falls hardest on spouses trapped in failed or abusive marriages [4].
 
 ## 12. The 30 techniques {#techniques}
+Thirty named techniques from domestic-abuse and social-psychology research, applied to institutions, in the eight stages of the cycle. Each carries an evidence grade for this tradition.
 
-### The eight stages here
+### Stage 1 · Idealize {#stage-1}
 
-| Stage | How it shows here | The question |
-|---|---|---|
-| Idealize | You belong to an ancient, suffering, beautiful church that is also your nation. | Is the belonging to the people or to the office? |
-| Hook | Salvation comes through sacraments only this church administers. | Is access to God routed through one institution? |
-| Devalue | Fasting failures and impurity are treated as spiritual inadequacy [14]. | Who set the standard? |
-| Confuse | Criticism is framed as helping the persecutors of Christians [9][10]. | Persecution is real. Does it end the question? |
-| Isolate | Community identity is church identity, especially in the diaspora. | Where can you be Coptic and outside the church? |
-| Extract | The church takes fees, labor and loyalty, and it holds the permission to marry [4]. | Who holds the keys to your second marriage? |
-| Discard | Members face excommunication and refused remarriage [4]. | Can you leave without losing both church and people? |
-| Replace | The liturgy continues. | Is being unchanged for a thousand years also a form of power? |
+::: stage
+**You arrive with a need and are met with more warmth than you have had in years.**
 
-### All thirty, graded
+You belong to an ancient, suffering, beautiful church that is also your nation.
 
-| # | Mechanism | Grade | How it appears here | The defense | The counter |
-|---|---|---|---|---|---|
-| 1 | Love bombing | Cultural | Belonging comes through the ethnic community rather than through recruitment. | "We are a people." | The belonging is never offered as a choice. |
-| 2 | Weaponized generosity | Contested | The church provides welfare where the state is absent. | "Charity." | Help that is the only help creates debt. |
-| 3 | Future faking | Taught | Salvation is promised through the church's sacraments. | "Orthodox faith." | Access is controlled by the office. |
-| 4 | Hoovering | Cultural | Family and priests recall the lapsed at feasts and fasts | "Pastoral care." | Care that costs identity if refused is pressure. |
-| 5 | Devaluation | Taught | Failing to fast, and ritual impurity, are treated as unworthiness [14]. | "Discipline." | Who decides what the body owes? |
-| 6 | Gaslighting | Cultural | Complaints about clergy are framed as weak faith. | "Respect the fathers." | Respect is not an answer. |
-| 7 | Double bind | Codified | Marriage is holy, and a failed one cannot end [4] | "A sacrament is permanent." | Permanent for whom? |
-| 8 | Intermittent reinforcement | Cultural | Clergy show favor to the observant. | "Rewarding devotion." | Favor rationed by conformity trains conformity. |
-| 9 | Moving the goalposts | Documented | Divorce grounds were narrowed to adultery [4]. | "Restoring canon." | Narrowed for whom? |
-| 10 | Strategic ambiguity | Cultural | Purity rules are called "custom" and enforced like doctrine [14]. | "Tradition." | The rules are enforced like doctrine and defended as custom. |
-| 11 | Projection | Cultural | Critics are cast as agents of hostile outsiders. | "We are besieged." | The siege is real; the accusation is misplaced. |
-| 12 | DARVO | Contested | Spouses seeking divorce are framed as destroying families. | "Protecting marriage." | Protecting which spouse? |
-| 13 | Normalization | Cultural | Long fasts and purity restrictions begin in childhood [14]. | "Our ancient way." | Ancient is not consent. |
-| 14 | Isolation | Cultural | Minority identity makes the church the whole world | "Survival." | Survival can become a wall. |
-| 15 | Triangulation | Cultural | Family, priest and community align on marriage and fasting | "Everyone agrees." | Everyone in the triangle is inside. |
-| 16 | Flying monkeys | Cultural | Relatives enforce return and conformity | "Family duty." | The office never has to speak. |
-| 17 | Smear campaign | Documented | Dissenting movements are labeled divisive; the Eritrean Sunday-school movement, for example, was targeted for excommunication [2]. | "Protecting unity." | It is a unity that requires excommunicating children's teachers. |
-| 18 | Stonewalling | Documented | The church refused to comply with a remarriage order [4]. | "God's law above courts." | And then the top court halted the order [4]. |
-| 19 | Manufactured consent | Cultural | Infant baptism confers a lifelong identity. | "Grace." | The identity comes before any choice. |
-| 20 | Trauma bonding | Cultural | Shared martyrdom memory [9][10] binds members to the hierarchy | "We suffered together." | Members suffered together with each other, not only with the office. |
-| 21 | Learned helplessness | Documented | In Egypt there is no civil route out of church marriage rules [4]. | "It is our law." | A law with no exit teaches people to stop asking. |
-| 22 | Benevolent control | Taught | Divorce restrictions are framed as protecting families [4]. | "For the family." | It is protection that cannot be refused. |
-| 23 | Infantilization | Cultural | Laity defer to clergy on family decisions | "Humility." | Adults decide their own marriages. |
-| 24 | Identity erosion | Cultural | Church, ethnicity and self are fused. | "We are one people." | Then leaving means ceasing to exist. |
-| 25 | Spiritual bypassing | Cultural | Suffering in marriage is called "a cross to bear". | "Patience." | Patience is asked only of the harmed. |
-| 26 | Financial control | Contested | The church takes fees, and schisms have been settled with funding [7]; no figures for diaspora remittances are recorded on this page. | "Supporting the church." | Publish what is sent and settled. |
-| 27 | Manufactured crisis | Cultural | Outside threats are cited to end internal debate. | "The danger is real." | The threats are real, and they are used. |
-| 28 | Discard | Documented | Members face excommunication, and priests who obey courts are threatened with defrocking [4]. | "Canonical discipline." | The discipline is aimed at obedience to a court. |
-| 29 | Replacement | Documented | Rival synods and bishops are appointed in schisms [7]. | "Order restored." | Order is restored by replacing people. |
-| 30 | Plausible deniability | Documented | Patriarchates cite the state; states cite the church [2][13] | "It is their internal matter." | Both hold the pen. |
+*What it asks of you:* Is the belonging to the people or to the office?
+:::
+
+::: tactic n=1
+#### 1 · Love Bombing {#t-1}
+
+*Overwhelming affection on arrival to create emotional dependency before terms are revealed.*
+
+**How it shows here**
+
+- Belonging comes through the ethnic community rather than through recruitment.
+
+**The strongest defense.** We are a people.
+
+**The counter.** The belonging is never offered as a choice.
+
+**Evidence grade.** [[Cultural]] Belonging through the ethnic community is how membership works in practice; it is not a recruitment rule.
+:::
+
+::: tactic n=2
+#### 2 · Weaponized Generosity {#t-2}
+
+*Giving help that installs unspoken obligation.*
+
+**How it shows here**
+
+- The church provides welfare where the state is absent.
+
+**The strongest defense.** Charity.
+
+**The counter.** Help that is the only help creates debt.
+
+**Evidence grade.** [[Contested]] Church welfare where the state is absent is real; whether it creates obligation is disputed.
+:::
+
+### Stage 2 · Hook {#stage-2}
+
+::: stage
+**You are given a future that cannot be verified, and a rope for whenever you drift toward the door.**
+
+Salvation comes through sacraments only this church administers.
+
+*What it asks of you:* Is access to God routed through one institution?
+:::
+
+::: tactic n=3
+#### 3 · Future Faking {#t-3}
+
+*Promising a future that keeps you invested but never has to arrive.*
+
+**How it shows here**
+
+- Salvation is promised through the church's sacraments.
+
+**The strongest defense.** Orthodox faith.
+
+**The counter.** Access is controlled by the office.
+
+**Evidence grade.** [[Taught]] Salvation through the sacraments is the church's teaching.
+:::
+
+::: tactic n=4
+#### 4 · Hoovering {#t-4}
+
+*Pulling someone back after they've started to leave, through guilt, love, or fear.*
+
+**How it shows here**
+
+- Family and priests recall the lapsed at feasts and fasts.
+
+**The strongest defense.** Pastoral care.
+
+**The counter.** Care that costs identity if refused is pressure.
+
+**Evidence grade.** [[Cultural]] Recalling the lapsed at feasts and fasts is family and parish custom.
+:::
+
+### Stage 3 · Devalue {#stage-3}
+
+::: stage
+**You are taught that you are broken, that your perception is unreliable, and that both exits from the trap lead back inside.**
+
+Fasting failures and impurity are treated as spiritual inadequacy [14].
+
+*What it asks of you:* Who set the standard?
+:::
+
+::: tactic n=5
+#### 5 · Devaluation {#t-5}
+
+*Reducing your sense of worth so you become dependent on the institution for identity.*
+
+**How it shows here**
+
+- Failing to fast, and ritual impurity, are treated as unworthiness [14].
+
+**The strongest defense.** Discipline.
+
+**The counter.** Who decides what the body owes?
+
+**Evidence grade.** [[Taught]] Unworthiness through missed fasts and impurity is taught in the church's practice [14].
+:::
+
+::: tactic n=6
+#### 6 · Gaslighting {#t-6}
+
+*Making you doubt your own experience so you trust the institution's interpretation instead.*
+
+**How it shows here**
+
+- Complaints about clergy are framed as weak faith.
+
+**The strongest defense.** Respect the fathers.
+
+**The counter.** Respect is not an answer.
+
+**Evidence grade.** [[Cultural]] Framing complaints as weak faith is a reported pattern, not a rule.
+:::
+
+::: tactic n=7
+#### 7 · Double Bind {#t-7}
+
+*A trap where both options lead to compliance. No exit serves you.*
+
+**How it shows here**
+
+- Marriage is holy, and a failed one cannot end [4].
+
+**The strongest defense.** A sacrament is permanent.
+
+**The counter.** The permanence falls on the spouse who cannot leave, not on the church that set the rule.
+
+**Evidence grade.** [[Codified]] The Coptic rule that a marriage cannot end except on narrow grounds is written church law [4].
+:::
+
+### Stage 4 · Confuse {#stage-4}
+
+::: stage
+**The rewards become unpredictable, the standard keeps moving, the answers stop meaning anything, and the accusation gets turned around.**
+
+Criticism is framed as helping the persecutors of Christians [9][10].
+
+*What it asks of you:* Persecution is real. Does it end the question?
+:::
+
+::: tactic n=8
+#### 8 · Intermittent Reinforcement {#t-8}
+
+*Unpredictable reward that creates addictive emotional dependency.*
+
+**How it shows here**
+
+- Clergy show favor to the observant.
+
+**The strongest defense.** Rewarding devotion.
+
+**The counter.** Favor rationed by conformity trains conformity.
+
+**Evidence grade.** [[Cultural]] Favour toward the observant is reported practice.
+:::
+
+::: tactic n=9
+#### 9 · Moving the Goalposts {#t-9}
+
+*The standard of success keeps shifting so you can never arrive.*
+
+**How it shows here**
+
+- Divorce grounds were narrowed to adultery [4].
+
+**The strongest defense.** Restoring canon.
+
+**The counter.** Narrowing the grounds left spouses in failed marriages with no way out.
+
+**Evidence grade.** [[Documented]] The narrowing of divorce grounds is on the court and press record [4].
+:::
+
+::: tactic n=10
+#### 10 · Strategic Ambiguity {#t-10}
+
+*Language that sounds profound but means nothing specific — functioning as a shutdown to real questions.*
+
+**How it shows here**
+
+- Purity rules are called "custom" and enforced like doctrine [14].
+
+**The strongest defense.** Tradition.
+
+**The counter.** The rules are enforced like doctrine and defended as custom.
+
+**Evidence grade.** [[Cultural]] The purity rules are enforced as custom; no written canon is cited on this page [14].
+:::
+
+::: tactic n=11
+#### 11 · Projection {#t-11}
+
+*Accusing the outside world of the exact thing the institution practices.*
+
+**How it shows here**
+
+- Critics are cast as agents of hostile outsiders.
+
+**The strongest defense.** We are besieged.
+
+**The counter.** The siege is real; the accusation is misplaced.
+
+**Evidence grade.** [[Cultural]] Casting critics as agents of outsiders is a pattern in church messaging.
+:::
+
+::: tactic n=12
+#### 12 · DARVO {#t-12}
+
+*Deny the wrongdoing. Attack the person who raised it. Reverse victim and offender.*
+
+**How it shows here**
+
+- Spouses seeking divorce are framed as destroying families.
+
+**The strongest defense.** Protecting marriage.
+
+**The counter.** Protecting the marriage can mean leaving the harmed spouse inside it.
+
+**Evidence grade.** [[Contested]] Whether spouses seeking divorce are framed this way by the church, or by families, is disputed.
+:::
+
+::: tactic n=13
+#### 13 · Normalization / Desensitization {#t-13}
+
+*Practices that would seem extreme to an outsider feel normal to insiders because they were installed before critical evaluation developed.*
+
+**How it shows here**
+
+- Long fasts and purity restrictions begin in childhood [14].
+
+**The strongest defense.** Our ancient way.
+
+**The counter.** Ancient is not consent.
+
+**Evidence grade.** [[Cultural]] Childhood fasting and purity rules are community practice [14].
+:::
+
+### Stage 5 · Isolate {#stage-5}
+
+::: stage
+**Your world narrows until every voice you hear is inside the system, and everything you came for now runs through a middleman.**
+
+Community identity is church identity, especially in the diaspora.
+
+*What it asks of you:* Where can you be Coptic and outside the church?
+:::
+
+::: tactic n=14
+#### 14 · Isolation {#t-14}
+
+*Shrinking your world until the only voices you hear are inside the system.*
+
+**How it shows here**
+
+- Minority identity makes the church the whole world.
+
+**The strongest defense.** Survival.
+
+**The counter.** Survival can become a wall.
+
+**Evidence grade.** [[Cultural]] Minority identity making the church the whole world is a social pattern, not a rule.
+:::
+
+::: tactic n=15
+#### 15 · Triangulation {#t-15}
+
+*Inserting intermediaries between you and the thing you came for, so the institution is always in the middle.*
+
+**How it shows here**
+
+- Family, priest and community align on marriage and fasting.
+
+**The strongest defense.** Everyone agrees.
+
+**The counter.** Everyone in the triangle is inside.
+
+**Evidence grade.** [[Cultural]] Family, priest and community aligning is reported practice.
+:::
+
+### Stage 6 · Extract {#stage-6}
+
+::: stage
+**Now the harvest: your labor, your money, your identity, your silence, your children's schooling, your capacity to trust yourself.**
+
+The church takes fees, labor and loyalty, and it holds the permission to marry [4].
+
+*What it asks of you:* Who holds the keys to your second marriage?
+:::
+
+::: tactic n=16
+#### 16 · Flying Monkeys {#t-16}
+
+*The community enforces the institution's norms without being asked — mobilized by culture, not memos.*
+
+**How it shows here**
+
+- Relatives enforce return and conformity.
+
+**The strongest defense.** Family duty.
+
+**The counter.** The office never has to speak.
+
+**Evidence grade.** [[Cultural]] Relatives enforcing conformity is reported practice.
+:::
+
+::: tactic n=17
+#### 17 · Smear Campaign {#t-17}
+
+*Rewriting your character after departure to protect the institution from the implications of your leaving.*
+
+**How it shows here**
+
+- Dissenting movements are labeled divisive; the Eritrean Sunday-school movement, for example, was targeted for excommunication [2].
+
+**The strongest defense.** Protecting unity.
+
+**The counter.** It is a unity that requires excommunicating children's teachers.
+
+**Evidence grade.** [[Documented]] USCIRF records the action against the Eritrean Sunday-school movement [2].
+:::
+
+::: tactic n=18
+#### 18 · Silent Treatment / Stonewalling {#t-18}
+
+*Refusing to engage with legitimate questions in order to maintain control.*
+
+**How it shows here**
+
+- The church refused to comply with a remarriage order [4].
+
+**The strongest defense.** God's law above courts.
+
+**The counter.** And then the top court halted the order [4].
+
+**Evidence grade.** [[Documented]] The church's refusal and the later court halt are on the record [4].
+:::
+
+::: tactic n=19
+#### 19 · Manufactured Consent {#t-19}
+
+*Creating the appearance of choice when the conditions of choice were shaped before you could evaluate them.*
+
+**How it shows here**
+
+- Infant baptism confers a lifelong identity.
+
+**The strongest defense.** Grace.
+
+**The counter.** The identity comes before any choice.
+
+**Evidence grade.** [[Cultural]] Infant baptism conferring identity is ordinary practice.
+:::
+
+::: tactic n=20
+#### 20 · Trauma Bonding {#t-20}
+
+*The wound and the bandage come from the same hand.*
+
+**How it shows here**
+
+- Shared martyrdom memory [9][10] binds members to the hierarchy.
+
+**The strongest defense.** We suffered together.
+
+**The counter.** Members suffered together with each other, not only with the office.
+
+**Evidence grade.** [[Cultural]] Shared memory of martyrdom [9][10] binding members is a pattern described by members.
+:::
+
+::: tactic n=21
+#### 21 · Learned Helplessness {#t-21}
+
+*Teaching you that your own judgment is unreliable until you stop trusting it entirely.*
+
+**How it shows here**
+
+- In Egypt there is no civil route out of church marriage rules [4].
+
+**The strongest defense.** It is our law.
+
+**The counter.** A law with no exit teaches people to stop asking.
+
+**Evidence grade.** [[Documented]] Egyptian law gives no civil route out of church marriage rules [4].
+:::
+
+::: tactic n=22
+#### 22 · Benevolent Control {#t-22}
+
+*Control wrapped in the language of care, so that resisting the control feels like rejecting the love.*
+
+**How it shows here**
+
+- Divorce restrictions are framed as protecting families [4].
+
+**The strongest defense.** For the family.
+
+**The counter.** It is protection that cannot be refused.
+
+**Evidence grade.** [[Taught]] The church teaches the restrictions as protection for families [4].
+:::
+
+::: tactic n=23
+#### 23 · Infantilization {#t-23}
+
+*Positioning the adult believer as permanently childlike and dependent on institutional authority.*
+
+**How it shows here**
+
+- Laity defer to clergy on family decisions.
+
+**The strongest defense.** Humility.
+
+**The counter.** Adults decide their own marriages.
+
+**Evidence grade.** [[Cultural]] Lay deference to clergy on family matters is reported practice.
+:::
+
+::: tactic n=24
+#### 24 · Identity Erosion {#t-24}
+
+*Gradually replacing your identity with a role the institution provides, until you can't separate who you are from where you belong.*
+
+**How it shows here**
+
+- Church, ethnicity and self are fused.
+
+**The strongest defense.** We are one people.
+
+**The counter.** Then leaving means ceasing to exist.
+
+**Evidence grade.** [[Cultural]] The fusion of church, ethnicity and self is a social pattern.
+:::
+
+::: tactic n=25
+#### 25 · Spiritual Bypassing {#t-25}
+
+*Using spiritual language to avoid engaging with real pain, real questions, and real accountability.*
+
+**How it shows here**
+
+- Suffering in marriage is called "a cross to bear".
+
+**The strongest defense.** Patience.
+
+**The counter.** Patience is asked only of the harmed.
+
+**Evidence grade.** [[Cultural]] Calling suffering in marriage a cross to bear is reported pastoral practice.
+:::
+
+::: tactic n=26
+#### 26 · Financial Control {#t-26}
+
+*Extracting money through spiritual obligation while offering no transparency about where it goes.*
+
+**How it shows here**
+
+- The church takes fees, and schisms have been settled with funding [7]; no figures for diaspora remittances are recorded on this page.
+
+**The strongest defense.** Supporting the church.
+
+**The counter.** Publish what is sent and settled.
+
+**Evidence grade.** [[Contested]] Fees and settlements are recorded [7], but no figures for remittances are, so the grade is disputed.
+:::
+
+### Stage 7 · Discard {#stage-7}
+
+::: stage
+**You become expensive — too many questions, too much independence — and the urgency ramps up until you are removed.**
+
+Members face excommunication and refused remarriage [4].
+
+*What it asks of you:* Can you leave without losing both church and people?
+:::
+
+::: tactic n=27
+#### 27 · Manufactured Crisis {#t-27}
+
+*Creating urgency to suppress critical thinking and generate loyalty.*
+
+**How it shows here**
+
+- Outside threats are cited to end internal debate.
+
+**The strongest defense.** The danger is real.
+
+**The counter.** The threats are real, and they are used.
+
+**Evidence grade.** [[Cultural]] Citing outside threats to end debate is a pattern in church messaging.
+:::
+
+::: tactic n=28
+#### 28 · Discard {#t-28}
+
+*Removing members who become too costly — too many questions, too much independence, too visible a contradiction.*
+
+**How it shows here**
+
+- Members face excommunication, and priests who obey courts are threatened with defrocking [4].
+
+**The strongest defense.** Canonical discipline.
+
+**The counter.** The discipline is aimed at obedience to a court.
+
+**Evidence grade.** [[Documented]] Press reports record the excommunications and the threats to priests [4].
+:::
+
+### Stage 8 · Replace {#stage-8}
+
+::: stage
+**Your seat is filled before the door shuts, and nobody is responsible for any of it because the authority was attributed to God.**
+
+The liturgy continues.
+
+*What it asks of you:* Is being unchanged for a thousand years also a form of power?
+:::
+
+::: tactic n=29
+#### 29 · Replacement {#t-29}
+
+*Your seat is filled before the door closes behind you.*
+
+**How it shows here**
+
+- Rival synods and bishops are appointed in schisms [7].
+
+**The strongest defense.** Order restored.
+
+**The counter.** Order is restored by replacing people.
+
+**Evidence grade.** [[Documented]] Rival synods and appointed bishops are on the press record [7].
+:::
+
+::: tactic n=30
+#### 30 · Plausible Deniability {#t-30}
+
+*The institution is never responsible, because the authority is attributed to God — who isn't available for cross-examination.*
+
+**How it shows here**
+
+- Patriarchates cite the state; states cite the church [2][13].
+
+**The strongest defense.** It is their internal matter.
+
+**The counter.** Both hold the pen.
+
+**Evidence grade.** [[Documented]] USCIRF and press reports record church and state each citing the other [2][13].
+:::
 
 ## 13. The loops {#loops}
 
@@ -723,7 +1237,7 @@ Checked 2026-09-27.
 17. Public Orthodoxy, "Ethnicity Tears the Ethiopian Orthodox Tewahdo Church Apart," 10 Feb 2023. <https://publicorthodoxy.org/2023/02/10/ethnicity-tears-the-ethiopian-orthodox-tewahdo-church-apart/> — the May 2021 Tigrayan administration: Wikipedia "Tigrayan Orthodox Tewahedo Church" (reference summary).
 18. Coptic Orthodox Church, "Prayers for the Enthronement of Abune Basilios, the New Patriarch of Eritrea…," 26 Jan 2025. <https://copticorthodox.church/en/2025/01/26/prayers-for-the-enthronement-of-abune-basilios-the-new-patriarch-of-eritrea-with-the-participation-of-a-delegation-from-the-coptic-orthodox-church/>
 19. Charity Commission for England and Wales, The Coptic Orthodox Church Centre (charity 1024592), financial history 2020–2024. <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/1024592/financial-history>
-20. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). <https://humanists.uk/faith-to-faithless/helpline/>
+20. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). <https://humanists.uk/faith-to-faithless/helpline/>
 21. Recovering from Religion — (844) 368-2848. <https://www.recoveringfromreligion.org/>
 22. International Cultic Studies Association (ICSA). <https://internationalculticstudies.org/>
 23. NAPAC — 0808 801 0331. <https://napac.org.uk/calling-our-support-line/>

@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | The worldwide total was estimated at about 111,000–122,000 in 2012 (FEZANA), among the smallest of any tradition in this codex. [ACADEMIC SOURCE] |
 | Who's in charge | The Bombay Parsi Punchayet, the central trust board of the Parsi community in Mumbai, is in charge. Its seven trustees are elected by the city's Parsi (Indian Zoroastrian) electorate and control the housing trusts, the Towers of Silence (the raised structures where Parsis traditionally lay out their dead) and, in effect, the boundary disputes over who is Parsi. |
-| Chosen by / removable by | Community ballot / The next ballot — and trustee fights are fought accordingly |
+| Chosen by | Community ballot. |
+| Removable by | The next ballot — and trustee fights are fought accordingly. |
 | Money in one line | The community holds enormous communal trusts and charitable endowments (housing colonies, hospitals, funds), a benevolence that is also leverage, because access is conditioned on communal standing and marriage choices. [COURT RECORD: BPP housing/intermarriage litigation] |
 | Leaving in one line | Intermarriage can cost temple access, communal housing, funerary rites (Towers of Silence), and children's initiation — exit penalties administered as boundary maintenance. |
 | The unanswered question | Zarathustra taught free choice, so why is the child of a Parsi mother and a non-Parsi father still contested at the temple door? |
@@ -1417,7 +1418,7 @@ Checked 2026-10-03. No help line for India or Iran has been checked.
 ### Further sources
 9. Constitution of the Islamic Republic of Iran (1979, rev. 1989), Articles 13 and 64 — Constitute Project. https://www.constituteproject.org/constitution/Iran_1989
 10. Charity Commission for England and Wales, Zoroastrian Trust Funds of Europe (Incorporated) (charity 277185), financial history 2021–2025 (income: 2021 £730,434; 2022 £474,278; 2023 £400,535; 2024 £1,350,097; 2025 £478,895, as shown on the register's summary and the OpenCharities mirror of it, read 2026-10-03; the register page itself returned an access error). https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/277185/financial-history
-11. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Wed 10am–1pm, Thu 4–7pm, Fri 8–11am). https://humanists.uk/faith-to-faithless/helpline/
+11. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). https://humanists.uk/faith-to-faithless/helpline/
 12. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 13. Karma Nirvana — honour-based abuse and forced marriage, 0800 5999 247. https://karmanirvana.org.uk/get-help/helpline/
 14. Humanists International — Humanists at Risk. https://humanists.international/what-we-do/humanists-at-risk/

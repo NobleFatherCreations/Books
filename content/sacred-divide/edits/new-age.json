@@ -1897,9 +1897,9 @@
   "section": 26,
   "before": "helpline 0800 448 0748 (freephone; set hours).",
   "after": "helpline 0800 448 0748 (freephone; Wednesday 10:00–13:00, Thursday 16:00–19:00, Friday 08:00–11:00 UK time).",
-  "reason": "Item 30: hours added to the source entry (Humanists UK page read 2026-10-03).",
+  "reason": "Item 30: hours added to the source entry (Humanists UK page read 2026-10-03). [2026-10-08: superseded by ALL-F10, which sets the hours verified on 2026-10-05; these Wed/Thu/Fri hours were wrong.]",
   "count": 1,
-  "status": "proposed"
+  "status": "rejected"
  },
  {
   "id": "NEWF-D004",

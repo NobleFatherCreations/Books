@@ -21,3 +21,14 @@ The text never refers to itself as a version, an edition, a draft, a build, a "f
 
 ## How an edit is made
 Every edit is one entry in `content/sacred-divide/edits/<id>.json`, with a before/after and a one-line reason, and can be rejected on its own (see `scripts/sacred_divide_edits.py`). The generated Markdown is never edited by hand. `logs/wording-log/<id>.md` is the reviewable record.
+
+## Counters: statement, question or command (decided 2026-10-08)
+
+Each technique card answers its "strongest defense" with one counter. Pick the form that carries the point best:
+
+- **Statement (the default).** Name what the mechanism does. "Care that runs through the finance secretary's ledger is not unconditional."
+- **Question**, only when the institution could answer it from its own records, so the reader can put it to them: who decides, who can reply, where the ledger is. "Who decides 'serious', and can the member reply?" Never a rhetorical question ("Permanent for whom?", "Whose life is it?").
+- **Command**, only when it names a test someone can actually run: something the institution could do tomorrow, or something the reader can check. "Publish the worldwide accounts to the people who pay." "Ask the children." "Then say so in writing."
+- One counter, one move: do not stack a question on a command. Defenses are written as the institution's own sentence, without quotation marks.
+
+Current mix across the 34 volumes after this rule: about 96% statements, with commands and questions kept where they pass the test (edits `STY-*` rewrote the seven that did not).

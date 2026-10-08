@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | Christianity has ~2.3–2.4 billion adherents, the largest religious family on earth. [ACADEMIC SOURCE: Pew, World Religion Database] |
 | Who's in charge | No one leads Christianity as a whole. The largest single office is the Bishop of Rome (the pope), who leads 1.4 billion Catholics; it is held by Leo XIV (Robert Francis Prevost), elected in May 2025 after the death of Francis. |
-| Chosen by / removable by | A conclave of cardinals, every one appointed by a previous pope / No body on earth. Canon law contains no removal procedure for a pope |
+| Chosen by | A conclave of cardinals, every one appointed by a previous pope. |
+| Removable by | No body on earth. Canon law contains no removal procedure for a pope. |
 | Money in one line | The money comes from tithes and offerings (often taught as 10% pre-tax), building campaigns, missions funds, book and media sales, and school tuition. |
 | Leaving in one line | Leaving can cost a person their community and social network and strain their family, and in high-control congregations it can bring formal shunning or 'church discipline' (a formal process of censure that can end in expulsion) announcements. |
 | The unanswered question | The largest charitable sector legally exempt from public accounts mostly does not file voluntarily. What, exactly, would disclosure cost — and to whom? |
@@ -1503,7 +1504,7 @@ Checked 2026-09-27.
 19. *Christianity Today*, "Southern Baptists Refused to Act on Abuse, Despite Secret List of Pastors" (May 2022). https://www.christianitytoday.com/2022/05/southern-baptist-abuse-investigation-sbc-ec-legal-survivors/
 20. Baptist News Global, "Conflicts of interest and 'dual roles' undermined SBC abuse investigation" (16 Dec 2025) — allegations of dual roles in the investigation; Denhollander denies them. https://baptistnews.com/article/conflicts-of-interest-and-dual-roles-undermined-sbc-abuse-investigation/
 21. Recovering from Religion — helpline (844) 368-2848. https://www.recoveringfromreligion.org/
-22. Humanists UK, Faith to Faithless helpline — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
+22. Humanists UK, Faith to Faithless helpline — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). https://humanists.uk/faith-to-faithless/helpline/
 23. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 24. SNAP — Survivors Network of those Abused by Priests. https://www.snapnetwork.org/
 25. NAPAC — support line 0808 801 0331. https://napac.org.uk/calling-our-support-line/

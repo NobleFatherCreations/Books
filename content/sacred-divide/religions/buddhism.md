@@ -20,7 +20,7 @@ partial: []
 |---|---|
 | Size | Buddhism had about 324 million adherents by Pew's 2020 count, the only major religion that shrank from 2010 to 2020; Pew's 2012 report counted about 488 million Buddhists for 2010, and its 2025 estimates leave out people who practice alongside folk traditions without formally identifying as Buddhist. [ACADEMIC SOURCE: Pew, 2025] |
 | Who's in charge | No single office leads Buddhism; the Tibetan Buddhism and Soka Gakkai volumes describe their own offices. In Thailand the Sangharaja (head of the sangha, the Buddhist monastic community), also called the Supreme Patriarch, is Somdet Phra Ariyavongsagatanana IX, appointed by the King in 2017; royal appointment of the office is statutory. He was born in 1927, so check this row again for a change of holder. |
-| Chosen by / removable by | No global office exists. In Thailand the Crown chooses the Supreme Patriarch; the sources read for this page do not say who can remove him. |
+| Who chooses and removes the top office | No global office exists. In Thailand the Crown chooses the Supreme Patriarch; the sources read for this page do not say who can remove him. |
 | Money in one line | The money comes from dana (donation) economies, merit-making (funding temples to improve karma and rebirth), funeral monopolies (Japan's danka system, under which each household belongs to one temple), retreat and course fees in convert Buddhism (Buddhism practiced by people who were not born into it), and the monetization of mindfulness. |
 | Leaving in one line | Monastics who disrobe (give up the robes and return to lay life) in traditional societies lose status, and members of convert sanghas (Buddhist communities of converts) who leave scandal-hit centers lose their community and the years of practice they invested. |
 | The unanswered question | The Vinaya (the monastic code) prescribes confronting a monk who errs. Why did Western centers need outside investigators to do what the code already required? |
@@ -1432,7 +1432,7 @@ Checked 2026-09-27.
 12. Gulf News / AP, "Thai police arrest woman who allegedly seduced and blackmailed Buddhist monks" (July 2025). https://gulfnews.com/world/asia/thai-police-arrest-woman-who-allegedly-seduced-and-blackmailed-buddhist-monks-1.500199158
 13. *Lion's Roar*, "The Time Has Come" — the Perth bhikkhuni ordination of 22 Oct 2009 and Ajahn Brahm's expulsion from the Ajahn Chah sangha. https://www.lionsroar.com/the-time-has-come/
 14. *Lion's Roar*, "To Walk Proudly as Buddhist Women: An Interview with Dhammananda Bhikkhuni." https://www.lionsroar.com/to-walk-proudly-as-buddhist-women-an-interview-with-dhammananda-bhikkhuni/
-15. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
+15. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). https://humanists.uk/faith-to-faithless/helpline/
 16. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 17. International Cultic Studies Association (ICSA). https://internationalculticstudies.org/
 18. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/

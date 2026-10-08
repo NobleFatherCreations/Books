@@ -20,7 +20,8 @@ partial: []
 |---|---|
 | Size | Sikhs number ~25–30 million. [ACADEMIC SOURCE: Pew, Indian census] |
 | Who's in charge | The Jathedar (the head of a takht, a seat of Sikh religious authority) of the Akal Takht, the highest temporal seat, is Giani Kuldeep Singh Gargaj, acting Jathedar since March 2025. The SGPC (Shiromani Gurdwara Parbandhak Committee, the elected body that runs the historic gurdwaras) installed him after it removed his predecessor, Giani Raghbir Singh, on 7 March 2025 amid open political conflict [3]. |
-| Chosen by / removable by | The SGPC executive chooses the Jathedar, and control of that body is itself won in party-contested elections / The SGPC can remove him, and it has removed Jathedars repeatedly, which is the finding that the panth's (the Sikh community's) highest moral office is hire-and-fire |
+| Chosen by | The SGPC executive chooses the Jathedar, and control of that body is itself won in party-contested elections. |
+| Removable by | The SGPC can remove him, and it has removed Jathedars repeatedly, which is the finding that the panth's (the Sikh community's) highest moral office is hire-and-fire. |
 | Money in one line | The money comes from golak (donation box) revenues of major gurdwaras, which are substantial; langar (the free communal kitchen) economies; diaspora remittances; and dera (sect-like movement) empires around living gurus. Dera Sacha Sauda's leader, convicted of rape in 2017, controlled a corporate-scale operation; a 2019 conviction for conspiring to murder a journalist was overturned on appeal in 2026 and is now before the Supreme Court. [COURT RECORD / INVESTIGATIVE REPORT] |
 | Leaving in one line | An Amritdhari (an initiated Sikh) who lapses faces community standing costs; family honor economies police marriage and appearance; and leaving a dera can mean losing an entire service-and-employment ecosystem. |
 | The unanswered question | The Gurus abolished caste five centuries ago. Why do the panth's own matrimonial pages still sort by it — and who profits from the sorting? |
@@ -1439,7 +1440,7 @@ Checked 2026-09-27.
 11. *The Tribune*, "SGPC passes budget of Rs 1,386.47 crore for 2025-2026 financial year" (2025) — 2024–25 ₹1,260.97 crore. https://www.tribuneindia.com/news/amritsar/sgpc-passes-budget-of-rs-1386-47-crore-for-2025-2026-financial-year/
 12. David Asper Centre for Constitutional Rights, *Multani v. Commission scolaire Marguerite-Bourgeoys*, [2006] 1 S.C.R. 256 — summary. https://jackmanlaw.utoronto.ca/asper/multani-v-commission-scolaire-marguerite-bourgeoys
 13. Ensaaf, "Jaswant Singh Khalra" — abduction and murder (1995); six police officials convicted (2005); on appeal five convictions upheld and one officer acquitted (2007); Supreme Court upheld (2011). https://ensaaf.org/jaswant-singh-khalra/
-14. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; set hours). https://humanists.uk/faith-to-faithless/helpline/
+14. Faith to Faithless (Humanists UK) — helpline 0800 448 0748 (freephone; Monday 10:00–13:00, Wednesday 10:00–13:00, Thursday 16:00–19:00 UK time). https://humanists.uk/faith-to-faithless/helpline/
 15. Karma Nirvana — honour-based abuse and forced marriage, 0800 5999 247. https://karmanirvana.org.uk/get-help/helpline/
 16. Recovering from Religion — (844) 368-2848. https://www.recoveringfromreligion.org/
 17. NAPAC — 0808 801 0331. https://napac.org.uk/calling-our-support-line/
