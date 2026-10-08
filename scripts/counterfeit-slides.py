@@ -310,13 +310,22 @@ def build_religion():
     return L
 
 
-def build_fractal():
+def build_fractal(safe=False):
     canon = canon_techniques(); blob = fractal_blob(); lines, ready = load_lines()
-    fsec = [x for x in blob['sectors'] if x['num'] != 1]
+    fsec = [dict(x) for x in blob['sectors'] if x['num'] != 1]
+    if safe:   # TikTok-safe variant: overlay softened lines and titles (content/counterfeit/tiktok-safe.json)
+        ov = json.load(open(os.path.join(ROOT, 'content/counterfeit/tiktok-safe.json'), encoding='utf-8'))
+        for key in ('fractal', 'fractal_inst', 'fractal_civ', 'mirror', 'body'):
+            for a, dd in ov.get(key, {}).items():
+                if key in ('mirror', 'body'): lines[key][a] = dd; continue
+                for b, line in dd.items(): lines[key][a][b] = line
+        for x in fsec: x['short'] = ov['titles'].get(str(x['num']), x['short'])
     assert len(fsec) == 29, len(fsec)
     levels = [(i, (s['tag'], s['gloss'])) for i, s in enumerate(blob['scales'], 1)]
     keyof = {'ind': 'fractal', 'inst': 'fractal_inst', 'civ': 'fractal_civ'}
-    L = [('elsewhere-cover', 'Everywhere else cover', s_cover2('The Counterfeit · Part two', 'Everywhere<br>else', 'The same cycle, in 29 more places you live, at three levels of scale.')),
+    L = [('elsewhere-cover', 'Everywhere else cover', s_cover2('The Counterfeit · Part two', 'Everywhere<br>else', 'The same cycle, in 29 more places you live, at three levels of scale.'))]
+    if safe: L.append(('context', 'Context', s_cover2('Before you watch', 'About<br>this series', 'An educational look at patterns in systems and institutions, not an attack on any person or group. Nothing here is medical, legal or financial advice.')))
+    L += [
          ('stages', 'The eight steps', s_stages())]
     L += [(f'techniques-{i + 1}', f'Thirty techniques {i + 1}/2', s_techniques(i, canon)) for i in range(2)]
     L += [('levels', 'Three levels of scale', s_levels(blob['scales']))]
@@ -343,14 +352,14 @@ FIT = """() => { const b = document.querySelector('.box'); let s = parseFloat(ge
 
 
 def main():
-    decks = [d for d in ('religion', 'fractal') if d in sys.argv] or ['religion', 'fractal']
+    decks = [d for d in ('religion', 'fractal', 'fractal-safe') if d in sys.argv] or ['religion', 'fractal']
     only = None
     if '--only' in sys.argv: only = {int(x) for x in sys.argv[sys.argv.index('--only') + 1].split(',')}
     with sync_playwright() as p:
         br = p.chromium.launch(executable_path='/opt/pw-browsers/chromium-1194/chrome-linux/chrome', args=['--no-sandbox'])
         pg = br.new_page(viewport={'width': 1080, 'height': 1920})
         for deck in decks:
-            L = (build_religion if deck == 'religion' else build_fractal)(); d = os.path.join(OUT, deck); os.makedirs(d, exist_ok=True); man = []
+            L = build_religion() if deck == 'religion' else build_fractal(safe=deck == 'fractal-safe'); d = os.path.join(OUT, deck); os.makedirs(d, exist_ok=True); man = []
             if only is None:
                 for f in os.listdir(d):
                     if f.endswith('.png'): os.remove(os.path.join(d, f))
