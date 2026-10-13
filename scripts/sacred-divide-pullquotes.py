@@ -13,7 +13,8 @@ OUT = os.path.join(ROOT, 'content/sacred-divide/pullquotes')
 os.makedirs(OUT, exist_ok=True)
 
 # section slug -> preferred source block order
-PREFER = {'forefront': ['question'], 'structure': ['tell'], 'healthy': ['lede', 'p'], 'history': ['p'], 'branches': ['p'], 'law': ['p'],
+PREFER = {'forefront': ['tell'],   # not the question (§3 already prints it as a full-width quote block), never the objection paragraphs
+          'structure': ['tell'], 'healthy': ['lede', 'p'], 'history': ['p'], 'branches': ['p'], 'law': ['p'],
           'money': ['bullet'], 'genealogy': ['p'], 'reach': ['bullet'], 'techniques': ['p'], 'loops': ['lede', 'p'], 'say-do': ['p', 'bullet'],
           'cost': ['bullet'], 'ledger': ['bullet'], 'tiers': ['p'], 'cases': ['p'], 'regional': ['p'], 'leaving': ['p'], 'who-gets-hurt': ['p'],
           'at-a-glance': [], 'a-day-inside': [], 'precedent': ['p'], 'voices': ['bullet'], 'questions': ['p']}
@@ -56,7 +57,7 @@ def good(s):
 def pick(slug, body):
     sents = []
     bl = blocks(body)
-    for kind in PREFER.get(slug, ['p']) + ['p']:
+    for kind in PREFER.get(slug, ['p']) + ([] if slug == 'forefront' else ['p']):
         for k, t in bl:
             if k != kind: continue
             if kind in ('question', 'tell'):

@@ -64,14 +64,14 @@ table, .chip, .matrix, .datum, .datapage { font-variant-numeric: lining-nums tab
 .opener-page { page: opener; background: var(--ink); }
 .opener-page h2 { margin: 0; position: absolute; left: 24mm; right: 18mm; top: 58mm; }
 .opener-page h2 .num { display: block; font: 400 var(--fs-numeral)/var(--lh-numeral) var(--display); font-variant-numeric: lining-nums; color: var(--gold); letter-spacing: -.03em; margin-left: -8pt; }
-.opener-page h2 .t { display: block; margin-top: 38pt; font: 400 var(--fs-h1)/var(--lh-h1) var(--display); letter-spacing: -.015em; color: var(--cream); string-set: section content(text); max-width: 160mm; }
+.opener-page h2 .t { display: block; margin-top: 38pt; font: 400 var(--fs-h1)/var(--lh-h1) var(--display); letter-spacing: -.015em; color: var(--cream); max-width: 160mm; }
 .opener-page .orn-rule { position: absolute; left: 24mm; width: 40mm; bottom: 52mm; border-top: var(--heavy) solid var(--accent); }
 .divider-page { page: divider; background: var(--accent); display: flex; align-items: center; justify-content: center; }
 .divider-page svg { width: 92mm; height: 92mm; }
 
 /* ---------------------------------------------------------------- front matter */
 .front { page: front; }
-.front h1 { font: 400 var(--fs-h1)/var(--lh-h1) var(--display); letter-spacing: -.015em; color: var(--ink); margin: 0 0 var(--lh-h1); padding-top: 8pt; border-top: var(--heavy) solid var(--accent); width: 40mm; box-sizing: content-box; string-set: section content(text); }
+.front h1 { font: 400 var(--fs-h1)/var(--lh-h1) var(--display); letter-spacing: -.015em; color: var(--ink); margin: 0 0 var(--lh-h1); padding-top: 8pt; border-top: var(--heavy) solid var(--accent); width: 40mm; box-sizing: content-box; }
 .front h1 { width: auto; border-top: none; padding-top: 0; }
 .front h1::before { content: ""; display: block; width: 40mm; border-top: var(--heavy) solid var(--accent); margin-bottom: 8mm; }
 .toc { break-after: page; }
@@ -121,7 +121,7 @@ h3.look4, h2.look4 { font: 700 var(--fs-h3)/var(--lh-h3) var(--text); font-varia
 .pullquote { break-inside: avoid; margin: 0; padding: 0; position: relative; }
 .pullquote p { font: 400 var(--fs-h2)/var(--lh-h2) var(--display); color: var(--accent); letter-spacing: -.01em; margin: 0 0 0 -12mm; max-width: 118mm; hyphens: manual; text-wrap: balance; }
 .pullquote .lbl { display: block; font: 700 var(--fs-micro)/var(--lh-micro) var(--text); letter-spacing: .18em; text-transform: uppercase; color: var(--ink); margin: 0 0 19pt -12mm; }
-.quote-page { margin: 40pt 0 40pt; }
+.quote-page { margin: 40pt 0 40pt; break-inside: avoid; }
 .quote-page p { font: 400 var(--fs-h2)/var(--lh-h2) var(--display); letter-spacing: -.01em; color: var(--accent); margin: 0 0 0 -12mm; max-width: 150mm; hyphens: manual; }
 .quote-page .lbl { display: block; font: 700 var(--fs-micro)/var(--lh-micro) var(--text); letter-spacing: .18em; text-transform: uppercase; color: var(--ink); margin: 0 0 var(--lh-h3) -12mm; }
 /* 4 DATUM: fixed square, gold hairline, one number + one caption */
@@ -244,7 +244,7 @@ section.sec.snug p { margin-bottom: 14pt; } section.sec.snug2 p { margin-bottom:
 .opener-band { position: relative; margin: -20mm -18mm 38pt -24mm; height: 158mm; background: var(--ink); color: var(--cream); overflow: hidden; break-after: avoid; }
 .opener-band h2 { margin: 0; position: absolute; left: 24mm; right: 18mm; top: 26pt; }
 .opener-band h2 .num { display: block; font: 400 var(--fs-numeral)/var(--lh-numeral) var(--display); font-variant-numeric: lining-nums; color: var(--gold); letter-spacing: -.03em; margin-left: -8pt; }
-.opener-band h2 .t { display: block; margin-top: 19pt; font: 400 var(--fs-h1)/var(--lh-h1) var(--display); letter-spacing: -.015em; color: var(--cream); string-set: section content(text); max-width: 160mm; }
+.opener-band h2 .t { display: block; margin-top: 19pt; font: 400 var(--fs-h1)/var(--lh-h1) var(--display); letter-spacing: -.015em; color: var(--cream); max-width: 160mm; }
 .opener-band .orn-rule { position: absolute; left: 24mm; width: 24mm; bottom: 19pt; border-top: var(--heavy) solid var(--accent); }
 
 .ftitle { font: 700 var(--fs-h3)/var(--lh-h3) var(--text); font-variant-caps: all-small-caps; letter-spacing: .06em; color: var(--accent); margin: 0 0 12pt; }
@@ -266,3 +266,6 @@ ul.score-notes { list-style: none; margin: 0 0 12pt; padding: 0; font-size: var(
 .opener-band h2 .num { font-size: var(--fs-display); line-height: var(--lh-display); margin-left: 0; letter-spacing: -.03em; }
 .opener-band h2 .t { margin-top: 0; font-size: var(--fs-h2); line-height: var(--lh-h2); max-width: 130mm; }
 .opener-band .orn-rule { display: none; }
+
+/* Paged.js keeps only the LAST rule that string-sets a given name, so every element that names the running head is listed in this one rule. */
+.front h1, .opener-page h2 .t, .opener-band h2 .t { string-set: section content(text); }
