@@ -274,6 +274,12 @@ def build_html(rid):
         if slug == 'loops': h = loops_html(rid, h)
         if slug == 'techniques':
             h = tactics_html(h)
+            # Paged.js ignores break-after: avoid, so the technique heading, its definition and the label are kept whole with the first bullet; the rest of the list continues as a second list
+            def shows_m(m):
+                items = re.findall(r'<li>.*?</li>', m.group(2), re.S)
+                rest = f'<ul class="cont">{"".join(items[1:])}</ul>' if items[1:] else ''
+                return f'<div class="shows">{m.group(1) or ""}<p><strong>How it shows here</strong></p><ul>{items[0]}</ul></div>{rest}' if items else m.group(0)
+            h = re.sub(r'(<h4 id="t-\d+">[^<]*</h4>\s*<p><em>[^<]*</em></p>\s*)?<p><strong>How it shows here</strong></p>\s*<ul>((?:(?!</ul>).)*)</ul>', lambda m: shows_m(m), h, flags=re.S)
             h = re.sub(r'<figure class="fig">.*?</figure>\s*<h3 id="techniques-index">.*?</h3>\s*<div class="tgrid">.*?</div>(?=\s*<h3 id="stage-1">)', '', h, flags=re.S)
             dp = datapage(h)
         else: dp = ''
@@ -337,6 +343,8 @@ window.PagedConfig = {{ auto: true, before: () => {{
   list('snug').forEach(v => {{ const [id, lvl] = v.split(':'), s = document.getElementById(id); if (s) s.classList.add('snug' + (lvl === '1' ? '' : lvl)); }});
   const tables = document.querySelectorAll('table'); tables.forEach((t, i) => t.dataset.ti = i);
   list('brk').forEach(i => {{ const t = tables[+i]; if (!t) return; const p = t.previousElementSibling; (p && /^H[34]$/.test(p.tagName) ? p : t).classList.add('newpage'); }});
+  const heads = document.querySelectorAll('section.sec h3, section.sec h4'); heads.forEach((h, i) => h.dataset.hi = i);
+  list('hbrk').forEach(i => {{ const h = heads[+i]; if (h) h.classList.add('newpage'); }});
 }}, after: () => {{
   document.querySelectorAll('.pagedjs_margin, .pagedjs_margin-content').forEach(m => m.setAttribute('aria-hidden', 'true'));
   window.__paged = true; }} }};

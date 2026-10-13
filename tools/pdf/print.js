@@ -25,17 +25,18 @@ const TYPES = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascrip
   // Trial layouts: find a section whose last few lines spill onto a page of their own, or a table whose
   // header row sits alone at a page foot, and reload with that section set tighter (?snug=) or that
   // table moved to a fresh page (?brk=). Pages without the hook in their PagedConfig ignore the query.
-  const snug = new Map(), brk = new Set();
+  const snug = new Map(), brk = new Set(), hbrk = new Set();
   let issues = null;
   for (let pass = 0; pass < (process.env.NOFIT ? 1 : 5); pass++) {
     const q = new URLSearchParams();
     if (snug.size) q.set('snug', [...snug].map(([id, l]) => `${id}:${l}`).join(','));
     if (brk.size) q.set('brk', [...brk].join(','));
+    if (hbrk.size) q.set('hbrk', [...hbrk].join(','));
     await page.goto(url + (q.toString() ? '?' + q : ''));
     await page.waitForFunction(() => window.__paged === true, null, { timeout: 600000 });
     await page.evaluate(() => document.fonts.ready);
     issues = await page.evaluate((TAIL) => {
-      const out = { tails: [], lone: [] }, pages = [...document.querySelectorAll('.pagedjs_page')];
+      const out = { tails: [], lone: [], heads: [] }, pages = [...document.querySelectorAll('.pagedjs_page')];
       pages.forEach((pg, i) => {
         const area = pg.querySelector('.pagedjs_page_content'); if (!area) return;
         const box = area.getBoundingClientRect(), text = (area.innerText || '').trim();
@@ -44,15 +45,19 @@ const TYPES = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascrip
         const sec = area.querySelector('section.sec');
         if (fill < TAIL && text && !pg.querySelector('section.sec > h2, .front h1, .cover') && sec) out.tails.push({ page: i + 1, id: sec.dataset.id || sec.id });
         area.querySelectorAll('table[data-ti]').forEach(t => { if (t.querySelector('thead') && !t.querySelector('tbody tr')) out.lone.push({ page: i + 1, ti: t.dataset.ti }); });
+        // a heading with nothing of its own below it on the page (the last thing laid out there)
+        const last = leaf.reduce((m, e) => (!m || e.getBoundingClientRect().bottom > m.getBoundingClientRect().bottom ? e : m), null);
+        const h = last && last.closest('[data-hi]'); if (h && h.textContent.trim() && !h.classList.contains('newpage')) out.heads.push({ page: i + 1, hi: h.dataset.hi, t: h.textContent.slice(0, 50) });
       });
       return out;
     }, parseFloat(process.env.TAILFILL) || 0.15);
     let changed = false;
     for (const t of issues.tails) { const l = snug.get(t.id) || 0; if (t.id && l < 3) { snug.set(t.id, l + 1); changed = true; } }
     for (const t of issues.lone) if (!brk.has(t.ti)) { brk.add(t.ti); changed = true; }
+    for (const t of issues.heads) if (!hbrk.has(t.hi)) { hbrk.add(t.hi); changed = true; if (process.env.DEBUGH) console.log('heading moved', t.page, t.t); }
     if (!changed) break;
   }
-  if (snug.size || brk.size) console.log(`fitted: ${JSON.stringify([...snug])} tightened, ${brk.size} table(s) moved; left: ${issues.tails.length} short tail(s) ${JSON.stringify(issues.tails.map(t => t.page))}, ${issues.lone.length} lone header(s)`);
+  if (snug.size || brk.size || hbrk.size) console.log(`fitted: ${JSON.stringify([...snug])} tightened, ${brk.size} table(s) and ${hbrk.size} heading(s) moved; left: ${issues.tails.length} short tail(s) ${JSON.stringify(issues.tails.map(t => t.page))}, ${issues.lone.length} lone header(s)`);
   // per-page report for the whitespace pass: foot gap, section, and which top-level blocks start on the page
   const report = await page.evaluate(() => [...document.querySelectorAll('.pagedjs_page')].map((pg, i) => {
     const area = pg.querySelector('.pagedjs_page_content'); if (!area) return { n: i + 1 };

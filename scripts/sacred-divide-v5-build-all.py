@@ -34,5 +34,11 @@ out = ['# PDF build report', '', f'Built {time.strftime("%Y-%m-%d %H:%M UTC", ti
 for r in rows:
     if not r['ok']: out.append(f"| {r['id']} | BUILD FAILED: {r['err']!r} | | | | | | |"); continue
     out.append(f"| {r['id']} | {r['pages']} | {r['empty15']} | {', '.join(map(str, r['blank'])) or 'none'} | {'yes' if r['size_ok'] else 'NO'} | {'yes' if r['palette_ok'] else 'NO'} | {r['ua']} | {r['kb']} |")
-open(os.path.join(ROOT, 'docs/sacred-divide-v5/PDF-BUILD-REPORT.md'), 'w').write('\n'.join(out) + '\n')
+REPORT = os.path.join(ROOT, 'docs/sacred-divide-v5/PDF-BUILD-REPORT.md')
+if sys.argv[1:] and os.path.exists(REPORT):
+    # a partial rebuild replaces only its own rows, so the report still covers every volume
+    fresh = {re.match(r'\| ([\w-]+) \|', l).group(1): l for l in out[6:]}
+    kept = open(REPORT).read().splitlines()
+    out = [fresh.pop(m.group(1), l) if (m := re.match(r'\| ([\w-]+) \| ', l)) and m.group(1) != 'Volume' else l for l in kept] + list(fresh.values())
+open(REPORT, 'w').write('\n'.join(out) + '\n')
 print('report written')

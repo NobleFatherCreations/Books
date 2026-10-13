@@ -269,3 +269,7 @@ ul.score-notes { list-style: none; margin: 0 0 12pt; padding: 0; font-size: var(
 
 /* Paged.js keeps only the LAST rule that string-sets a given name, so every element that names the running head is listed in this one rule. */
 .front h1, .opener-page h2 .t, .opener-band h2 .t { string-set: section content(text); }
+/* Paged.js honours break-inside but not break-after: avoid, so a label stays with its first bullet by being kept whole with it; the rest of the list follows as a second list. */
+.shows { break-inside: avoid; } .shows > ul { margin-bottom: 0; } ul.cont { margin-top: 0; }
+.tactic > .shows > p, .tactic > .shows > ul { max-width: var(--measure); }
+.tactic > .shows > h4 { font: 600 var(--fs-h2)/var(--lh-h2) var(--text); font-variant-caps: normal; letter-spacing: -.005em; color: var(--ink); margin: 0 0 6pt; }
