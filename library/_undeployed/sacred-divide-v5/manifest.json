@@ -4,7 +4,7 @@
   "family": "Islam",
   "file": "ahmadiyya-expanded.pdf",
   "pages": 114,
-  "bytes": 1544184,
+  "bytes": 1546712,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -12,8 +12,8 @@
   "title": "Anglicanism",
   "family": "Christianity",
   "file": "anglicanism-expanded.pdf",
-  "pages": 97,
-  "bytes": 1446965,
+  "pages": 117,
+  "bytes": 1633602,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -21,8 +21,8 @@
   "title": "Baháʼí Faith",
   "family": "Persian-born",
   "file": "bahai-expanded.pdf",
-  "pages": 132,
-  "bytes": 1593610,
+  "pages": 131,
+  "bytes": 1590061,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -31,7 +31,7 @@
   "family": "Buddhism",
   "file": "buddhism-expanded.pdf",
   "pages": 133,
-  "bytes": 1583282,
+  "bytes": 1582504,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -40,7 +40,7 @@
   "family": "Christianity",
   "file": "catholicism-expanded.pdf",
   "pages": 152,
-  "bytes": 1806826,
+  "bytes": 1807799,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -49,7 +49,7 @@
   "family": "Christianity",
   "file": "christianity-expanded.pdf",
   "pages": 145,
-  "bytes": 1811595,
+  "bytes": 1812206,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -58,7 +58,7 @@
   "family": "East Asian",
   "file": "confucianism-expanded.pdf",
   "pages": 131,
-  "bytes": 1542497,
+  "bytes": 1542572,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -66,8 +66,8 @@
   "title": "Dawoodi Bohra",
   "family": "Islam",
   "file": "dawoodi-bohra-expanded.pdf",
-  "pages": 86,
-  "bytes": 1493498,
+  "pages": 108,
+  "bytes": 1685168,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -76,7 +76,7 @@
   "family": "Christianity",
   "file": "eastern-orthodoxy-expanded.pdf",
   "pages": 136,
-  "bytes": 1672177,
+  "bytes": 1673688,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -85,7 +85,7 @@
   "family": "Dharmic",
   "file": "hare-krishna-expanded.pdf",
   "pages": 130,
-  "bytes": 1578414,
+  "bytes": 1579029,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -93,8 +93,8 @@
   "title": "Hinduism",
   "family": "Dharmic",
   "file": "hinduism-expanded.pdf",
-  "pages": 140,
-  "bytes": 1688492,
+  "pages": 139,
+  "bytes": 1687429,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -102,8 +102,8 @@
   "title": "Indigenous / Folk / Ancestral Religions",
   "family": "Indigenous & folk",
   "file": "indigenous-expanded.pdf",
-  "pages": 138,
-  "bytes": 1644710,
+  "pages": 137,
+  "bytes": 1644204,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -112,7 +112,7 @@
   "family": "Islam",
   "file": "islam-expanded.pdf",
   "pages": 147,
-  "bytes": 1840179,
+  "bytes": 1843608,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -120,8 +120,8 @@
   "title": "Jainism",
   "family": "Dharmic",
   "file": "jainism-expanded.pdf",
-  "pages": 128,
-  "bytes": 1501827,
+  "pages": 129,
+  "bytes": 1506720,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -129,8 +129,8 @@
   "title": "Jehovah's Witnesses",
   "family": "Restorationist & Adventist",
   "file": "jehovahs-witnesses-expanded.pdf",
-  "pages": 140,
-  "bytes": 1709435,
+  "pages": 139,
+  "bytes": 1709117,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -139,7 +139,7 @@
   "family": "Judaism",
   "file": "judaism-expanded.pdf",
   "pages": 135,
-  "bytes": 1649586,
+  "bytes": 1650549,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -147,8 +147,8 @@
   "title": "Mormonism / LDS",
   "family": "Restorationist & Adventist",
   "file": "mormonism-expanded.pdf",
-  "pages": 145,
-  "bytes": 1763918,
+  "pages": 144,
+  "bytes": 1763913,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -156,8 +156,8 @@
   "title": "New Age / Spiritual-but-Organized Movements",
   "family": "New movements & the spiritual marketplace",
   "file": "new-age-expanded.pdf",
-  "pages": 136,
-  "bytes": 1594964,
+  "pages": 135,
+  "bytes": 1595421,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -165,8 +165,8 @@
   "title": "Oriental Orthodoxy",
   "family": "Christianity",
   "file": "oriental-orthodoxy-expanded.pdf",
-  "pages": 98,
-  "bytes": 1523957,
+  "pages": 117,
+  "bytes": 1704300,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -174,8 +174,8 @@
   "title": "Orthodox / Hasidic Judaism",
   "family": "Judaism",
   "file": "orthodox-hasidic-judaism-expanded.pdf",
-  "pages": 134,
-  "bytes": 1602860,
+  "pages": 133,
+  "bytes": 1602538,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -184,7 +184,7 @@
   "family": "Christianity",
   "file": "pentecostal-charismatic-expanded.pdf",
   "pages": 144,
-  "bytes": 1752282,
+  "bytes": 1755431,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -192,8 +192,8 @@
   "title": "Plymouth Brethren Christian Church (Exclusive Brethren)",
   "family": "Christianity",
   "file": "plymouth-brethren-expanded.pdf",
-  "pages": 87,
-  "bytes": 1281679,
+  "pages": 106,
+  "bytes": 1468044,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -201,8 +201,8 @@
   "title": "Protestant / Evangelical Christianity",
   "family": "Christianity",
   "file": "protestant-evangelical-expanded.pdf",
-  "pages": 144,
-  "bytes": 1746464,
+  "pages": 143,
+  "bytes": 1745108,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -211,7 +211,7 @@
   "family": "New movements & the spiritual marketplace",
   "file": "scientology-expanded.pdf",
   "pages": 140,
-  "bytes": 1701935,
+  "bytes": 1702292,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -220,7 +220,7 @@
   "family": "Restorationist & Adventist",
   "file": "seventh-day-adventism-expanded.pdf",
   "pages": 139,
-  "bytes": 1642031,
+  "bytes": 1643492,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -228,8 +228,8 @@
   "title": "Shia Islam",
   "family": "Islam",
   "file": "shia-islam-expanded.pdf",
-  "pages": 141,
-  "bytes": 1800302,
+  "pages": 140,
+  "bytes": 1799138,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -238,7 +238,7 @@
   "family": "East Asian",
   "file": "shinto-expanded.pdf",
   "pages": 129,
-  "bytes": 1554210,
+  "bytes": 1557325,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -247,7 +247,7 @@
   "family": "Dharmic",
   "file": "sikhism-expanded.pdf",
   "pages": 131,
-  "bytes": 1543125,
+  "bytes": 1545154,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -256,7 +256,7 @@
   "family": "Buddhism",
   "file": "soka-gakkai-expanded.pdf",
   "pages": 106,
-  "bytes": 1357457,
+  "bytes": 1359881,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -265,7 +265,7 @@
   "family": "Islam",
   "file": "sunni-islam-expanded.pdf",
   "pages": 148,
-  "bytes": 1931428,
+  "bytes": 1933531,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -273,8 +273,8 @@
   "title": "Taoism / Daoism",
   "family": "East Asian",
   "file": "taoism-expanded.pdf",
-  "pages": 129,
-  "bytes": 1505856,
+  "pages": 127,
+  "bytes": 1502775,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -283,7 +283,7 @@
   "family": "Buddhism",
   "file": "tibetan-buddhism-expanded.pdf",
   "pages": 135,
-  "bytes": 1641255,
+  "bytes": 1644136,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -291,8 +291,8 @@
   "title": "Unification Church / Family Federation",
   "family": "New movements & the spiritual marketplace",
   "file": "unification-church-expanded.pdf",
-  "pages": 93,
-  "bytes": 1452534,
+  "pages": 113,
+  "bytes": 1639829,
   "version": "v4",
   "checked": "2026-10-03"
  },
@@ -301,7 +301,7 @@
   "family": "Persian-born",
   "file": "zoroastrianism-expanded.pdf",
   "pages": 132,
-  "bytes": 1553829,
+  "bytes": 1554081,
   "version": "v4",
   "checked": "2026-10-03"
  }

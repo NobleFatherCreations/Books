@@ -48389,8 +48389,8 @@
   {
    "id": "IND-N010",
    "scope": "narration",
-   "found": 1,
-   "state": "applied"
+   "found": 0,
+   "state": "FAILED (found 0, expected 1)"
   },
   {
    "id": "IND-N011",
