@@ -256,6 +256,14 @@ def datapage(h):
     return (f'<div class="datapage"><h3 id="evidence-map">How the thirty techniques are established here</h3><div class="datums">{datums}</div>'
             f'{body}</div>')
 
+RUNNING_HEAD = {
+    'indigenous': 'Indigenous & Folk Religions',
+    'new-age': 'New Age Movements',
+    'plymouth-brethren': 'Exclusive Brethren',
+    'protestant-evangelical': 'Protestant / Evangelical',
+    'unification-church': 'Unification Church',
+}
+
 def build_html(rid):
     secs_data, meta = ex.build_sections(rid); name = meta.get('title', rid)
     toc, secs = [], []
@@ -309,9 +317,11 @@ def build_html(rid):
     blurb = re.sub(r'<[^>]+>', '', lede.group(1)) if lede else ''
     if len(blurb) > 260: blurb = blurb[:257].rsplit(' ', 1)[0] + '…'
     h1cls = ' class="long"' if len(name) > 24 else ''
+    # Names this long wrap the running head onto two lines, so the head uses a short form.
+    rh = RUNNING_HEAD.get(rid, name)
     blurb_html = ('<div class="blurb">' + e(blurb) + '</div>') if blurb else ''
     cover = (f'<div class="cover"><div class="band"></div>{rose()}<div class="eyebrow">The Sacred Divide</div>'
-             f'<div class="for">The full record</div><h1{h1cls}>{e(name)}</h1><div class="family">{e(meta.get("family", ""))} family</div>'
+             f'<div class="for">The full record</div><h1{h1cls} data-rh="{e(rh)}">{e(name)}</h1><div class="family">{e(meta.get("family", ""))} family</div>'
              f'<div class="rule"></div><div class="tagline">Honor the faith · Name the machinery</div>{blurb_html}'
              f'<div class="meta"><span>Text checked {e(meta.get("checked", ""))}</span><span>{ex.SITE}</span></div></div>')
     preface = f'<div class="front preface"><h1 id="preface">Before you begin</h1>{ex.md_to_html(ex.PREFACE.replace("{name}", name))}</div>'

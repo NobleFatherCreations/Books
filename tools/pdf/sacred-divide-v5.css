@@ -53,7 +53,7 @@ table, .chip, .matrix, .datum, .datapage { font-variant-numeric: lining-nums tab
 .cover .orn { margin-top: 32mm; width: 58mm; height: 58mm; }
 .cover .eyebrow { margin-top: 12mm; font: 700 var(--fs-small)/var(--lh-small) var(--text); letter-spacing: .22em; padding-left: .22em; text-transform: uppercase; color: var(--gold); }
 .cover .for { margin-top: 0; font: 400 var(--fs-small)/var(--lh-small) var(--text); letter-spacing: .22em; text-transform: uppercase; color: var(--rule); }
-.cover h1 { margin: 14mm 14mm 0; text-align: center; font: 400 var(--fs-cover)/var(--lh-cover) var(--display); letter-spacing: -.025em; color: var(--cream); string-set: religion content(text); }
+.cover h1 { margin: 14mm 14mm 0; text-align: center; font: 400 var(--fs-cover)/var(--lh-cover) var(--display); letter-spacing: -.025em; color: var(--cream); string-set: religion attr(data-rh); }
 .cover h1.long { font-size: 72pt; line-height: 72pt; margin-top: 10mm; }
 .cover .family { margin-top: 10mm; font: italic 400 var(--fs-h3)/var(--lh-h3) var(--display); font-size: var(--fs-h3); color: var(--gold); }
 .cover .rule { margin-top: 8mm; width: 36mm; border-top: var(--hair) solid var(--gold); }
