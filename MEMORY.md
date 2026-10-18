@@ -4478,3 +4478,18 @@ festie-scripts`). Branch: `claude/cold-open-md-relink-wwtn7p`.
 Still present and untouched: `content/festie-teleprompter/` (combined) and
 `content/festie-teleprompter/posts/` (270 individual, bulleted). Whether
 `festie-scripts/` supersedes those is still the user's call.
+
+## 2026-10-18 — Branch map: everything is now on one branch
+
+This branch (`claude/wookbook-castings-consolidate-4zyo0d`) now contains `sacred-divide-v5-redesign`
+(which already contained `faith-project-abdurahman-review`) and `cold-open-md-relink-wwtn7p`. Only
+`MEMORY.md` and `.gitignore` conflicted. Books has no `main`; this is the branch to build from.
+The Decoder's source, data, clip manifests and review docs are here under `instruments/playbook/`,
+`content/playbook-*.json`, `content/decoder-clips.json` and `docs/DECODER-*`.
+
+Work that exists only in the **Wookbook** repo (`main`): the deploy gate (`verify-deployed`,
+`verify-assets`, `snapshot`, with the CLAUDE.md "A commit is not a deploy" rules) and
+`deploy/snapshots/`, plus the Decoder's full v2-v8 history in Wookbook `MEMORY.md`. Porting the gate
+here needs adapting to `repoPath` and the Library/Workshop/Instruments layout. Not done.
+Wookbook branches `continue-jxslgw` and `impeccable-skill-setup-e7tlwl` were deliberately not merged
+(superseded / unshipped design experiments); see Wookbook `MEMORY.md`, same date.
