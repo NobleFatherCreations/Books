@@ -1,0 +1,52 @@
+/* The Sacred Divide — expanded edition. Loaded after sacred-divide.css and sacred-divide-personal.css.
+   Adds the "Why this matters to you" caption that closes every section: the one reader-facing box,
+   so it takes the page's single accent (the curtain red) and a heavier weight than the quieter
+   "Before you read" note that opens the section. */
+
+.box.intro { margin-top: 0; }
+.box.intro p { font-size: 11.2pt; }
+
+.box.foryou { background: #F7EFE9; border: none; border-left: 3.6pt solid var(--curtain-deep);
+  border-radius: 0 1.5mm 1.5mm 0; padding: 5mm 7.5mm 4mm; margin: 7mm 0 2mm; break-inside: auto; }
+.box.foryou .lbl { display: block; font: 8.6pt var(--caps); letter-spacing: .18em; text-transform: uppercase;
+  color: var(--curtain-deep); margin-bottom: 2.2mm; break-after: avoid; }
+.box.foryou p { font-size: 12.2pt; line-height: 1.62; color: #1A1311; orphans: 2; widows: 2; }
+.box.foryou p:last-child { margin-bottom: 0; }
+.box.foryou strong { color: #000; font-weight: 750; }
+.box.foryou em { color: var(--curtain-deep); }
+
+/* Tables: a short table (up to eight body rows, e.g. the disclosure scorecard) is kept whole on one
+   page; a long one may split between rows, but never leaves its header row alone at a page foot. */
+table.short, table.score { break-inside: avoid; }
+thead { break-after: avoid; }
+tbody tr:first-child, tbody tr:nth-child(2) { break-before: avoid; }
+h3 + table, h3 + .tw, h4 + table { break-before: avoid; }
+h2, h3, h4 { break-after: avoid; }
+
+/* A table of six or more columns sets a size smaller, so none runs past the right margin. */
+table.wide { font-size: 7.8pt; }
+table.wide th { letter-spacing: .08em; }
+table.wide .rcpt { font-size: 6.2pt; letter-spacing: .04em; }
+
+/* Set by print.js after a trial layout (see the PagedConfig note in the build): a table whose header
+   row was stranded starts a fresh page, and a section that spilled a few lines onto a page of its
+   own is set a touch tighter so it closes on its last full page. */
+.newpage { break-before: page; }
+section.sec.snug p, section.sec.snug li { line-height: 1.44; }
+section.sec.snug .box.foryou { margin-top: 5mm; padding: 4mm 7mm 3.2mm; }
+section.sec.snug .box.foryou p { font-size: 11.8pt; line-height: 1.52; }
+section.sec.snug2 p, section.sec.snug2 li { line-height: 1.38; }
+section.sec.snug2 .box { margin-top: 3mm; margin-bottom: 3mm; }
+section.sec.snug2 .box.foryou { margin-top: 4mm; padding: 3.5mm 6.5mm 3mm; }
+section.sec.snug2 .box.foryou p { font-size: 11.4pt; line-height: 1.46; }
+section.sec.snug2 table { line-height: 1.3; }
+section.sec.snug3 p, section.sec.snug3 li { line-height: 1.32; margin-bottom: 1.6mm; }
+section.sec.snug3 .box { margin-top: 2.4mm; margin-bottom: 2.4mm; padding-top: 2.8mm; padding-bottom: 2.8mm; }
+section.sec.snug3 .box.foryou { margin-top: 3mm; padding: 3mm 6mm 2.6mm; }
+section.sec.snug3 .box.foryou p { font-size: 11pt; line-height: 1.4; }
+section.sec.snug3 table { line-height: 1.24; margin: 1.5mm 0 3mm; }
+section.sec.snug3 table { font-size: 7.9pt; }
+section.sec.snug3 td { padding-top: 1.4mm; padding-bottom: 1.4mm; }
+section#sec-sources.snug3 ol { font-size: 7.6pt; line-height: 1.32; }
+section#sec-sources.snug3 li { margin-bottom: .8mm; }
+section#sec-sources.snug3 .box.intro { margin-bottom: 2mm; }

@@ -1,0 +1,1505 @@
+{
+ "kind": "fractal",
+ "items": {
+  "3": {
+   "sector": "Media & Information",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "A journalist flatters a source to build trust and gain access — warmth deployed as an extraction tool, intimacy manufactured for information."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "The platform gives you everything for free — free storage, free communication, free entertainment, free tools, free connection — and the generosity is so total and so frictionless that you never pause to calculate what you're paying with, because you're paying with attention and data and behavioral patterns and emotional states and the ability to sit in a quiet room without reaching for a screen, and the payment is invisible because the currency is invisible, and the currency is invisible because the platform designed it that way."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "A paywall promises \"subscribe and you'll get the full story\" — and the full story either never arrives or turns out to be the same surface-level analysis with a premium price tag."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The notification reads \"you have 47 unread messages\" or \"your friend just posted for the first time in a while\" — emotional hooks designed to pull you back into the feed after you tried to leave."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The source is discarded the moment their usefulness expires — calls stop being returned, access is revoked, the person who was courted for information is abandoned once the story is filed."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "A quote is taken out of context and when the subject protests they are told they are overreacting — the distortion is presented as the truth and the truth is presented as defensiveness."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "The user is told to \"protect your privacy\" by the same platform that requires your data to function — opt out and lose the service, opt in and lose the privacy — and the choice is presented as freedom when both options serve the platform and neither option serves you."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Notification systems deliver dopamine on an unpredictable schedule — sometimes the red dot brings love, sometimes it brings nothing, sometimes it brings conflict — and the inconsistency is precisely what makes it impossible to ignore."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "Algorithm changes force creators into constant adaptation — the rules for visibility shift without warning, what worked yesterday fails today, and the platform offers no explanation because the instability is the strategy."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "The platform's community guidelines are written in language broad enough to justify any enforcement action — \"harmful content,\" \"misleading information,\" \"inauthentic behavior\" — terms that sound specific but are defined by the platform in real time based on criteria that are never published, which means the creator cannot know whether their content complies because compliance is determined after publication by an entity that benefits from the uncertainty."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "Outlets actively spreading misinformation accuse independent voices of spreading misinformation — the label deployed not as description but as weapon, and whoever uses it first wins."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "A journalist exposed for fabrication attacks the credibility of the person who caught them — the correction becomes the controversy and the lie disappears behind the fight."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "The first time you saw a violent image in your feed it disturbed you — your body contracted, your breath changed, your nervous system registered threat — but the algorithm showed you another one and another one and by the hundredth exposure the contraction stopped, not because you became stronger but because your threshold was raised, and the raising was not resilience but damage, the body's last resort when it cannot escape a stimulus it cannot process."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Algorithmic echo chambers ensure that each person occupies a personalized reality — you see what confirms your beliefs, you never encounter genuine disagreement, and you mistake your feed for the world."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "A journalist plays two sources against each other for a better story — each one told what the other said, each one provoked into revealing more than they intended, and the journalist positioned between them as the neutral observer when they are in fact the architect of the conflict."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Troll farms and coordinated inauthentic accounts are deployed to attack specific people on behalf of undisclosed interests — the harassment appears organic, the fingerprints are invisible, and the target has no one to confront."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Coordinated hit pieces destroy a person's reputation in twenty-four hours — multiple outlets publishing the same angle simultaneously, creating the appearance of independent corroboration when the source is singular and the timing is orchestrated."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Shadow-banning creates a uniquely modern silence — your voice exists, your posts are published, your account is active, but the algorithm has placed you behind a wall no one can see and your words reach no one, which means you scream into a room you believe is full but is actually empty."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "The platform presents you with a \"choice\" — accept the cookies or leave the website, agree to the terms or don't use the service — and the choice is technically free but structurally coerced, because the service has made itself essential and the alternative to agreeing is exile from the infrastructure of modern life."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Doomscrolling is the clearest expression of the bond — you cannot stop consuming content that harms you, the anxiety it produces becomes chemically familiar, and the platform that delivers the pain becomes the only place that feels like something."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "The creator who was shadow-banned, demonetized, algorithmically suppressed, and deplatformed without explanation eventually stops creating — not because they ran out of things to say but because every attempt to speak was met with an invisible consequence they could not predict, appeal, or understand, and the body learned that expression leads to punishment, and the silence that follows is not peace but surrender."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "The platform says \"we removed this content to protect you from harmful information\" — and the protection sounds like care and functions as censorship, and the user who lost access to the removed content has no way to evaluate whether the removal served their safety or the platform's interest, because the content is gone and the evaluation requires the content's presence."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "The platform assumes you cannot evaluate information for yourself — warning labels, fact-check overlays, \"this content may be misleading\" banners — each one positioning the platform as the adult and the user as the child who needs to be told what is safe to read, and the positioning may sometimes be appropriate and is always paternalistic, and the cumulative effect is a population that increasingly expects to be told what is true rather than developing the capacity to determine it."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Your online identity replaces your embodied identity — you are your profile, your bio, your follower count, your engagement rate, and the person you are when the screen is off becomes less real than the person you perform when it is on."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "The platform encourages \"positivity\" and \"good vibes\" while suppressing content that addresses systemic injustice, institutional harm, or uncomfortable truth — the algorithm rewards the inspirational and buries the structural, which means the user's experience of reality is filtered through a lens that makes the world look more beautiful and less broken than it actually is, and the beauty is a bypass."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "A creator's entire income depends on platform favor — one algorithm change can destroy a livelihood built over years, and the creator has no contract, no recourse, no union, no protection."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "Clickbait takes a minor event and frames it as catastrophe — the headline is designed to activate your amygdala and your thumb simultaneously, and by the time you realize the story is nothing your attention has already been sold."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Creators are deplatformed overnight with no explanation, no appeal process, and no human contact — years of content, community, and income evaporated in a single automated decision."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "A new influencer is promoted into the exact same niche by the exact same algorithm — same aesthetic, same talking points, same audience, different face — and the platform doesn't skip a beat because the person was never the point, the attention was the point."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The platform that suppressed your content says \"the algorithm is automated, we don't make individual decisions\" — and the automation becomes the shield, because you cannot hold a person accountable when the person points to a machine, and you cannot hold a machine accountable because a machine has no conscience, and the space between the person and the machine is where the deniability lives."
+    }
+   }
+  },
+  "5": {
+   "sector": "Healthcare & Medicine",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "The intake experience is warm and promising — \"we're going to take great care of you,\" the nurse says while placing a bracelet on your wrist with your name on it, and for a moment you feel held because someone in a uniform acknowledged your pain and wrote it down, which in a world where pain is invisible feels like being seen."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "The free sample — the starter pack of medication, the complimentary first visit, the no-cost screening — is a gift that functions as an onramp, because the free trial creates the dependency, the dependency creates the prescription, the prescription creates the co-pay, and the co-pay creates the revenue stream that the free sample was always designed to initiate."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "The doctor says \"one more round of treatment and you should see real improvement\" — and the next round leads to another round and another adjustment and another \"let's give it a few more weeks\" — and the patient's hope is managed with precision, always enough to prevent them from leaving the system but never enough to resolve the condition that keeps them in it."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The appointment reminder arrives — \"time for your annual checkup\" — pulling the healthy person back into a system designed to find something, because a healthy patient who never returns is revenue that walked out the door."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The patient whose symptoms don't match a textbook pattern is dismissed — \"it's probably stress\" or \"it might be anxiety\" or \"have you tried exercising more\" — and the dismissal is so casual and so credentialed that the patient absorbs it as truth rather than recognizing it as the system's confession that it doesn't know what's wrong and doesn't have time to find out."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "A patient is told \"your labs are normal so nothing is wrong\" — the test becomes the patient and the patient becomes irrelevant, and the human being sitting on the table in a paper gown explaining what they feel is overridden by a number on a screen that says they shouldn't be feeling it."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "The patient is told to advocate for themselves and then dismissed when they do — ask questions and you're labeled difficult, don't ask questions and you receive whatever the system defaults to, request a second opinion and you're told you're not trusting the process, accept without question and you may accept a misdiagnosis — and every option produces a consequence that serves the system rather than the patient."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Symptom relief comes and goes — just enough improvement to keep the patient in the system but never enough resolution to leave it, which creates a dependency cycle where the patient returns every time the relief wears off and the provider adjusts the dosage and the cycle repeats."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "Your cholesterol number was fine last year and this year the threshold was lowered and now you need a statin — not because your body changed but because the guidelines changed, and the guidelines were written by a committee funded by the company that makes the statin."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "The doctor says \"we should keep an eye on this\" — a phrase that sounds like a plan but contains no specifics, no timeline, no criteria for action, and no definition of what \"this\" becoming worse would look like — and the patient leaves the office feeling attended to while having received nothing actionable."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "A doctor with poor bedside manner, a rushed schedule, and no time for follow-up questions tells the patient they have an attitude problem — the provider's systemic burnout projected onto the patient's legitimate frustration, and the interaction ends with the patient apologizing for being sick."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "A patient harmed by a procedure is told they signed the consent form — the harm acknowledged, the responsibility reversed, and the patient's signature weaponized against them as proof that they agreed to be harmed."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "The patient who initially resisted taking daily medication for a condition that might have been resolved through lifestyle changes has, after two years of compliance, forgotten that resistance — the pill is now part of the morning routine, as unremarkable as brushing teeth, and the normalization of pharmaceutical dependency happened not through a single dramatic moment but through three hundred and sixty-five small acts of swallowing."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "The patient is told not to seek care outside the approved system — \"don't see a naturopath, don't take supplements, don't Google your symptoms\" — which frames the patient's desire to understand their own body as a threat to their safety rather than an expression of their sovereignty."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "One specialist says one thing and the primary care physician says another and the patient is caught between two authorities who cannot agree, and neither one calls the other, and the patient becomes the messenger between experts who are supposed to be collaborating but are actually just billing separately."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Family members are recruited to enforce compliance — \"your doctor knows best, just take the medication, stop reading things online\" — well-meaning people functioning as enforcement agents for a system they trust because they were taught to trust it, and their trust transmitted as pressure onto the patient who is trying to advocate for their own body."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "A patient who questions their treatment plan is labeled non-compliant in their permanent medical record — a note that follows them to every future provider, coloring every future interaction, ensuring that their advocacy is pre-framed as resistance before the next doctor has read a single symptom."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "The doctor doesn't call back, the test results are delayed for weeks, and the patient is left in the specific kind of silence that amplifies anxiety — no news becomes bad news in the imagination, and the system's inability to communicate becomes the patient's burden to carry."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "The informed consent form is the healthcare system's most elegant fiction — a document presented to a frightened, vulnerable, often medicated person in a moment of crisis, written in language designed to be comprehensive rather than comprehensible, signed under conditions that no contract law would consider free and voluntary in any other context — and the signature converts whatever happens next into something the patient agreed to, which is consent in form but not in substance."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "The patient is grateful to the doctor who \"saved\" them — the crisis creates a bond that feels like devotion, and the provider who intervened during the worst moment becomes an authority the patient will not question even when the ongoing care no longer serves them."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "The patient who was dismissed, misdiagnosed, and told nothing was wrong enough times eventually stops going — not because they healed but because the system taught them that seeking help produces more suffering than enduring the original problem, and the withdrawal is not a choice but a neurological adaptation to repeated institutional failure."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "The doctor who overrides the patient's preference says \"I know what's best for you\" — and the statement may sometimes be true and is always a claim of authority over the patient's body, and the authority is accepted because the patient is afraid and the doctor is credentialed and the fear makes the credential feel like safety."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "The patient is spoken to in simplified language, given instructions without explanations, and treated as incapable of understanding their own condition — \"just take this twice a day and come back in six weeks\" — and the brevity is not efficiency, it is a rank statement that says the patient's understanding is not necessary for the system to function, which is true for the system and devastating for the patient."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "The patient becomes their diagnosis — \"I am diabetic\" instead of \"I have a condition my body is experiencing,\" \"I am bipolar\" instead of \"I experience these states\" — and the diagnosis, which was meant to be a map, becomes a cage, and the person living inside the cage begins to organize their entire identity around the walls rather than the life beyond them."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "The patient who is suffering is told \"healing takes time\" and \"trust the process\" and \"your body is resilient\" — and the language sounds like encouragement but functions as a bypass that redirects the patient's attention from the system's failure to their own attitude, and the patient who isn't healing is subtly taught that the problem is their mindset rather than their medicine."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Illness becomes poverty — a single hospitalization can bankrupt a family, a chronic condition can drain a lifetime of savings, and medical debt is the leading cause of personal bankruptcy in the country that spends more on healthcare than any other nation on earth."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "Overtesting finds incidental abnormalities that require follow-up — a shadow on a scan that is probably nothing but might be something, and the \"might be something\" launches a cascade of appointments, biopsies, sleepless nights, and medical bills that culminate in the words \"it was benign\" spoken by a doctor who has already moved to the next room, leaving the patient trembling with relief from a crisis that was manufactured by the test that was supposed to provide peace of mind."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "A patient whose condition resists treatment, whose case is complex, whose insurance has lapsed, or whose symptoms do not generate sufficient revenue is labeled untreatable and discharged — not because medicine has exhausted its options but because the institution has exhausted its interest, and the patient who needed the most care receives the least because care without revenue is philanthropy, and the system is not structured for philanthropy."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "A new patient fills the slot the same afternoon — the appointment book has no memory, the waiting room has no loyalty, and the system that spent three years not finding what was wrong with you will spend the same three years not finding what is wrong with someone else in the same examination room wearing the same paper gown sitting on the same paper-covered table."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The medication that caused the side effect carries a label that lists the side effect — and the listing is the deniability, because the system warned you, and the warning converts harm into informed risk, and the risk was technically yours to accept, even though the acceptance was performed under conditions of vulnerability, incomplete information, and unequal expertise."
+    }
+   }
+  },
+  "8": {
+   "sector": "Family & Relationships",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "A new partner showers you with intensity — constant texting, constant attention, declarations of love that arrive before they could possibly be earned, a warmth so total and so immediate that it feels like being seen for the first time in your life, and the speed of it doesn't feel like a red flag because you are so hungry for this exact thing that receiving it feels like destiny rather than strategy."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "The partner gives extravagantly — gifts, gestures, sacrifices that are real and costly and genuinely loving — and every gift becomes a line on an invisible ledger that will be read back to you the day you try to set a boundary, because \"after everything I've done for you\" is the weapon, and the generosity was the ammunition, and you cannot deflect it because the gifts were real and your gratitude was real and the conversion of real gratitude into a leash is one of the cruelest mechanisms in the entire cycle."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "The person who hurt you says \"things will be different this time, I promise\" — and the promise is delivered with just enough vulnerability and just enough eye contact to activate the part of you that still believes people mean what they say, and you give them another chance not because the evidence supports it but because the alternative — accepting that the person you love will never change — is a grief you are not ready to face."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The text arrives months after the breakup — \"I miss you, I can't stop thinking about you, I know I messed up but I've changed\" — and the message is timed perfectly because the person sending it has waited until enough time has passed for your pain to soften into nostalgia, and nostalgia is the exact frequency that hoovering operates on."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The same partner who couldn't get enough of you begins to pull away — \"you've changed,\" \"you're not the person I fell in love with,\" \"you used to be fun\" — and the shift is so gradual that by the time you recognize it the standard has already moved, and you find yourself trying to become the person they originally loved, not realizing that person was a performance you gave under the intoxication of their attention, and the real you was never who they wanted."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "The most devastating sentence in the human language is delivered casually across a kitchen table — \"that never happened\" — and the memory you trusted, the event you lived through, the pain you carried is erased by the person who caused it, and because that person is someone you love and someone you need and someone who was there when it happened, their denial carries more weight than your memory, and you begin to wonder if your own mind is the liar."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "The child is told to be independent and punished for every act of independence that inconveniences the parent — be yourself but not that version of yourself, speak your mind but not when it contradicts mine, grow up but don't outgrow me — and the bind ensures that the child's development is permanently tethered to the parent's comfort."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Affection is given and withdrawn without pattern or explanation — one day the parent is warm and present and the child's nervous system floods with safety, the next day the same parent is cold and distant and the child's nervous system floods with cortisol — and the unpredictability does not create resilience, it creates hypervigilance, a state of constant scanning where the child's primary developmental task is not learning or growing but monitoring the emotional weather of the most important person in their world."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "The partner's conditions for love shift constantly — \"I would be happy if you just...\" and the ending changes every time you meet it, and you spend years trying to arrive at a destination that moves every time you approach it, and the exhaustion of the pursuit is mistaken for the work of love when it is actually the design of control."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "The parent communicates in implications rather than statements — a sigh that means disapproval, a silence that means punishment, a look that means \"you've disappointed me\" — and the communication is never direct enough to be addressed but always clear enough to be felt, and the ambiguity ensures that the child can never confront what was never said."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The parent who controls everything calls the child selfish — the partner who takes everything accuses you of never giving enough — and the projection is so confident and so immediate that you find yourself apologizing before you've finished processing what was said, because the person projecting is the person you trust, and their confidence in the accusation overrides your knowledge that it doesn't fit."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "The most recognizable sentence in domestic manipulation is spoken — \"after everything I've done for you and THIS is how you treat me?\" — and the person who caused harm becomes the victim, the person who was harmed becomes the ungrateful aggressor, and the entire emotional landscape inverts so completely that the person setting a boundary ends up comforting the person they were trying to set the boundary with."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "The first time a parent screamed at you, you cried — the fifth time, you flinched — the fiftieth time, you didn't react at all — and the absence of reaction is not strength but desensitization, and the desensitization is how the family trains you to accept treatment that no stranger would tolerate, because the threshold for what counts as harm is calibrated inside the home, and if the home is where the harm lives, the threshold is set by the harm itself."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "The controlling partner says \"I don't want you spending time with those friends\" or \"your family doesn't understand us\" or \"it's just better when it's the two of us\" — and the isolation is introduced gently, framed as intimacy, disguised as devotion, and by the time you realize your world has shrunk to the size of one person you have already lost the relationships that would have told you the shrinking was not normal."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "One parent says \"your mother said...\" and the other says \"your father thinks...\" and the child becomes a messenger between two adults who have outsourced their communication to the person least equipped to carry it — and the child learns that love triangles are normal, that being in the middle is their role, and that intimacy always involves a third party who is being spoken about rather than spoken to."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "The aunt calls to say \"I don't know what happened between you two but your mother is devastated and I think you should reach out\" — and the aunt is not being malicious, she is genuinely concerned, but she has been given one side of the story by the person who benefits from the reconciliation, and her concern has been weaponized into pressure without her knowledge or consent."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "The partner you left tells everyone a version of the story that makes you the villain — \"she just walked out,\" \"he abandoned his family,\" \"I don't know what happened, one day they just changed\" — and the narrative is clean and simple and designed to generate sympathy for the person who caused the harm, and by the time you hear what's being said about you the story is already installed in the minds of people you care about."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Days of cold, wordless punishment follow a perceived offense — the partner stops speaking, stops making eye contact, stops existing in the same emotional room, and the silence is louder than any argument because at least an argument acknowledges your existence, while the silent treatment removes it entirely, and you find yourself apologizing not because you were wrong but because the silence is unbearable and you would say anything to make it stop."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "The child \"consents\" to the family system by existing inside it — they did not choose their parents, did not choose the rules, did not choose the dynamics, and did not choose the roles assigned to them, but by the time they are old enough to evaluate any of it the system has been running for years and the evaluation feels like betrayal rather than clarity."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "The phrase \"we've been through so much together, I can't leave\" is the sound of a trauma bond in progress — the shared suffering has created a chemical attachment that mimics love so convincingly that the body cannot tell the difference, and the person stays not because the relationship is good but because the leaving would require them to feel all the pain they've been deferring, and the accumulated pain is now so large that facing it feels more dangerous than staying."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "The child who tried to change the family dynamic and was punished every time — who set a boundary and was shamed, who spoke truth and was silenced, who tried to leave and was hoovered back — that person eventually stops trying, not because they stopped caring but because the nervous system learned that every action met with the same consequence regardless of the action, and the helplessness that follows is not a character trait but a survival adaptation to an environment that penalized agency."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "The parent who controls every aspect of the child's life says \"I'm doing this because I love you\" — and the love is real, which is what makes the control invisible, because the child cannot separate the restriction from the affection, and the parent cannot see the restriction through the affection, and the whole thing looks like devotion from the outside."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "The parent who still makes decisions for their adult child — \"you're not ready for that,\" \"let me handle this,\" \"you don't understand how the world works yet\" — is maintaining the power differential that existed when the child was two and extending it into the child's thirties, forties, and beyond, and the extension is not protection but preservation of a dynamic the parent cannot release because releasing it would require relating to the child as an equal."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "The most common assignment in family systems is the one that begins with \"you're just like your...\" — the child labeled as the copy of a parent, the projection of an ancestor, the reincarnation of a problem or the fulfillment of a prophecy — and the label replaces the child's actual identity with a role the family needs them to play, and the child grows up performing a character that was written for them before they could speak."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "The person who was harmed by their family is told \"forgive and move on,\" \"holding onto anger only hurts you,\" \"they did their best with what they had\" — and each of these sentences may contain truth but none of them address the harm, and the bypassing routes the person's pain through a spiritual framework that prioritizes the family's comfort over the individual's healing."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Money becomes a tool of dominance within the relationship — \"I earn it so I decide how it's spent,\" or more subtly, the partner who controls the finances controls the freedom, and the partner without access to money has no ability to leave even if every other part of them is screaming to go."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "Explosive arguments are created from nothing — a tone misread, a text misinterpreted, a dish left in the sink — and the explosion is not a response to the trigger but a strategy of control, because chaos keeps the other person off balance, and a person who is off balance cannot think clearly enough to see the pattern or leave it."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "The relationship ends without warning or closure — \"I'm done with you\" delivered with a flatness that makes years of shared life sound like a subscription being canceled, and the person who gave everything is left standing in the wreckage trying to understand how something that consumed their entire world apparently occupied so little of someone else's."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "A new partner appears within weeks — same intensity, same promises, same love bombing, different name — and the speed of the replacement reveals that the relationship was never about you, it was about the position you filled, and the position is now filled by someone else who will eventually discover the same thing."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The parent who caused the wound says \"I don't remember that\" — and the denial may be genuine amnesia or strategic forgetting, and the distinction doesn't matter to the child whose experience has been erased, because the effect is the same: the wound cannot be addressed because the person who inflicted it has denied the existence of the blade."
+    }
+   }
+  },
+  "10": {
+   "sector": "Corporate & Workplace",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "The interview process performs admiration — \"we're so impressed by your background, we think you'd be a perfect fit, we can really see you thriving here\" — and the flattery is calibrated to convert a candidate's uncertainty into commitment, because a person who feels chosen will accept terms they would have negotiated if they felt needed instead of wanted, and the emotional seduction of being selected obscures the financial reality of what you're agreeing to."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "The company provides perks that feel like gifts — free meals, gym access, transit credits, wellness programs — and every perk simultaneously improves your daily experience and deepens your structural dependency, because the employee who eats dinner at the office is an employee who works through dinner, and the employee whose gym is in the building is an employee who never leaves the building, and the generosity was never about your health, it was about your proximity."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "\"We're building something special and you're going to be a big part of it\" is spoken to every new hire by every startup that has no intention of giving you equity, raising your salary, or promoting you on the timeline implied — the future is the bait, the present is the extraction, and by the time the future fails to arrive you have already given the years."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The counteroffer arrives the moment you submit your resignation — \"we can't lose you, name your number, we'll make this work\" — and the desperation to keep you is proportional to how difficult you are to replace, not how much they value you, and the difference between those two things is invisible in the moment and devastating in hindsight."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The employee who was courted and celebrated begins receiving feedback that reframes dedication as inadequacy — \"your performance has been slipping,\" \"we need you to step up,\" \"you're not meeting expectations\" — and the expectations are never written down clearly enough to be met definitively, which means the employee exists in a permanent state of almost-good-enough, always striving and never arriving, which is the optimal state for extraction because a person who feels they haven't yet earned their place will work harder than a person who feels secure."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "The promotion you were promised is delivered to someone else and when you ask about it you're told \"we never guaranteed anything, we said we'd consider you\" — and your memory of the conversation is clear but the absence of a paper trail makes your memory inadmissible, and you learn that in corporate environments verbal promises function as emotional currency that can be spent by the person who made them and never redeemed by the person who received them."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "The employee is told to maintain work-life balance by a company whose promotion criteria reward those who sacrifice it — take the time off you're given and watch your ambitious colleagues advance, work through the time off and burn out — and the bind produces a workforce that is either exhausted or resentful, both of which serve the company more than a workforce that was genuinely balanced."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Bonuses and recognition arrive on an unpredictable schedule — the quarterly bonus might be generous or it might be absent, the promotion might happen this cycle or next cycle or never, and the inconsistency is not a failure of planning but a strategy of retention, because a reward that is predictable is a reward that can be factored into a departure calculation, while a reward that is random generates hope and hope is the cheapest retention tool in the corporate arsenal."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "The targets for your annual bonus are set in January and adjusted in October — the number you were chasing all year is replaced by a number you cannot reach in the time remaining, and the shortfall is attributed to your performance rather than the revision, and the revision is never documented because documenting it would reveal that the target was designed to be missed."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "The performance review says \"meets expectations with room for growth\" — a phrase that sounds like evaluation but communicates nothing specific enough to be acted upon or challenged, and the ambiguity gives the manager flexibility to interpret the review in either direction during the next promotion cycle."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The manager who micromanages tells the employee they need to take more ownership — the manager's inability to release control is projected onto the employee as a failure of initiative, and the employee who was never given space to lead is blamed for not leading."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "The employee who reports harassment is subjected to an investigation that scrutinizes the reporter more than the reported — the person who came forward is asked what they were wearing, why they didn't report sooner, whether they might have misunderstood, and the process that was supposed to protect them becomes the process that processes them."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "The first time you answered an email at 10 p.m. you noticed — you felt the boundary being crossed, the invasion of the personal by the professional — and the second time you noticed less, and the hundredth time you didn't notice at all, and the normalization of the employer's presence in every hour of your life happened one notification at a time until the concept of \"off the clock\" became quaint rather than protected."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Remote work without community severs connection while maintaining productivity — the employee is available around the clock but belongs to nothing, performs in a vacuum, and interacts with colleagues only through screens that flatten humanity into chat messages and video squares, and the loneliness is dismissed because the convenience is real, and the convenience is measured while the loneliness is not."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "The manager tells you what your colleague said about your project and tells your colleague what you said about theirs — and the information is shared under the guise of transparency while functioning as division, because two employees who distrust each other are two employees who will not organize, and the manager who created the distrust positions themselves as the only neutral party in a conflict they engineered."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "HR functions as the company's enforcement arm disguised as the employee's advocate — \"you can come to us with anything\" is printed on the poster and \"we protect the company from liability\" is written in the charter, and the employee who confides in HR discovers that the confidential conversation produced a file, and the file is not in the employee's possession."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "The employee who was fired becomes the employee who \"wasn't a culture fit\" — a phrase that communicates everything and specifies nothing, that cannot be challenged because it contains no claim, and that functions as a reputational assassination delivered with the precision of a reference check."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "The manager who has decided to push you out stops providing feedback, stops including you in meetings, stops responding to your emails with anything other than the minimum — and the silence is not passive, it is strategic, designed to make you feel so invisible that you leave on your own, which saves the company the cost of a severance package and the risk of a wrongful termination claim."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "The employment contract you signed was presented as a negotiation between equals when it was in fact a document drafted by the company's attorneys and presented to you on a take-it-or-leave-it basis, and the \"negotiation\" consisted of you accepting terms you couldn't modify on a timeline that didn't allow review, and the consent you gave was manufactured by the asymmetry of the exchange."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "The late nights become the war stories — \"remember when we pulled that all-nighter to make the deadline\" — and the suffering is reframed as camaraderie, and the camaraderie feels real because it is real, the bond that forms between people who survive something together is one of the strongest bonds humans can form, and the company knows this, which is why the conditions that produce the suffering are never changed, because changing them would weaken the bond, and the bond is what keeps people from leaving."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "The employee who proposed an idea and was ignored, who reported a problem and was dismissed, who asked for a raise and was told to wait, who applied for a transfer and was denied — that employee eventually stops proposing, reporting, asking, and applying, and the silence is not satisfaction but surrender, and the company mistakes the surrender for alignment."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "The manager who micromanages says \"I just want to make sure you succeed\" — and the desire for your success is real and the method of ensuring it is the removal of your autonomy, and the removal is experienced as support because it arrives wearing the language of care."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "The employee who needs to use the bathroom, take a personal call, or step outside for air must calculate whether the absence will be noticed, logged, or held against them — and the calculation is the infantilization, the reduction of an adult's bodily autonomy to a permission structure administered by someone who holds authority over their paycheck."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "The employee becomes their title — \"I'm a senior account manager\" replaces \"I'm a person who happens to do this work right now\" — and the identity is so thoroughly fused with the role that losing the role feels like losing the self, which is why layoffs produce grief that looks clinical and job searches produce anxiety that looks existential, because for many people the job is not something they do, it is someone they are, and the system cultivated that fusion because a person who is their job will tolerate more from the job than a person who merely has one."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "\"Do what you love and you'll never work a day in your life\" is the workplace's most effective spiritual bypass — a sentence that converts the economic necessity of labor into a spiritual quest, which means the person who doesn't love their job has a spiritual problem rather than an economic one, and the economic conditions that make meaningful work inaccessible are bypassed by a narrative that says the problem is your attitude rather than your options."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "The golden handcuffs click shut so quietly you don't hear them — the salary is just high enough that leaving would require a lifestyle change you're not willing to make, the benefits are just comprehensive enough that the open market feels terrifying, and the vesting schedule is just long enough that walking away means forfeiting money you've already mentally spent."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "The email marked \"URGENT\" arrives at 4:47 p.m. on a Friday — the crisis is rarely as urgent as the subject line, but the adrenaline it produces is real, and the employee who was about to leave for the weekend is now triaging something that could have been sent Monday, and the erosion of personal time happens one manufactured emergency at a time."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "The layoff email arrives while you're mid-project — your access is revoked before you finish reading it, your badge is deactivated before you reach the elevator, and the person who said \"welcome to the team\" eighteen months ago is not in the building when you leave it, and the box of personal items you carry to your car is lighter than the years you gave, which is the physical metaphor for everything the corporate system does: it takes heavy and it gives back light."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "Your job is posted on LinkedIn before your out-of-office is set — the listing uses the same language that was used to recruit you, promises the same culture that consumed you, and describes the same role that will process the next person the way it processed you, and the cycle does not pause to acknowledge the transition because the system does not register individuals, it registers functions, and the function continues regardless of who performs it."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The manager who made your work life unbearable says \"I'm sorry you felt that way\" — a phrase specifically designed to acknowledge the experience without accepting responsibility for it, converting a systemic failure into a personal perception, and the perception cannot be litigated because feelings are subjective and the company only answers for facts."
+    }
+   }
+  },
+  "12": {
+   "sector": "Entertainment & Culture",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "The industry finds you and tells you you're a star — the scout, the manager, the producer, the agent, the A&R rep who says \"I've never seen anything like you\" with a sincerity that is indistinguishable from genuine awe, and the validation lands in a place inside you that has been waiting your entire life to be seen, and the landing is so precise and so total that you do not notice the contract being slid across the table while your eyes are still wet."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "The label advances the artist money — for production, for marketing, for living expenses — and the advance is a loan that the artist repays from their earnings, which means the label gave you your own future money, called it generosity, and now takes the first revenue from every project until the debt is repaid, and the debt is structured so that the repayment takes years, and during those years the label controls your output because you owe them, and the generosity was the chain."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "The manager says \"after this next project, everything changes\" — and the next project leads to another project and another tour and another round of compromises, and the breakthrough that was supposed to arrive after this one recedes into the distance because the breakthrough was never a destination, it was a dangling carrot designed to extract one more album, one more season, one more year."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The label that dropped the artist calls back when the artist finds independent success — \"we always believed in you, let's work together again\" — and the warmth that was absent during the struggle is abundant now that the risk has been removed, and the offer is framed as reunion when it is actually recapture."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The artist who was told they were extraordinary is now told they are underperforming — the same voice that said \"you're a star\" now says \"the numbers aren't where we need them\" — and the shift happens without acknowledgment, as though the promise was never made, as though the person who once couldn't stop talking about your potential is now surprised to find you in the room."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "The artist who was promised creative control reads the press release about their own project and doesn't recognize it — the narrative has been rewritten, the intention has been reframed, the art has been described in language the artist never used and wouldn't use, and when they object they are told \"this is how we position it for the market\" as though the market's understanding of the art is more real than the artist's."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "The artist is told to be authentic and then punished when authenticity doesn't sell — be yourself but only the version of yourself that the market has pre-approved, express your truth but only the truth that fits the brand, push boundaries but only the boundaries the label has already agreed to move — and the bind produces art that looks like freedom and functions as compliance."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "The artist releases a project and the response is unpredictable — one song goes viral, the next disappears, one film is celebrated, the next is ignored — and the inconsistency produces not resilience but obsessive output, the artist creating faster and more desperately because the algorithm's reward schedule is random and a random reward schedule is the one the nervous system cannot stop responding to."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "The artist who was told \"get ten thousand followers and we'll sign you\" reaches ten thousand and is told \"we're looking for fifty thousand now\" — and the number was never a threshold, it was a test of compliance, and the moving was not a change in strategy but the strategy itself."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "The contract says \"the label shall use commercially reasonable efforts to promote the work\" — and \"commercially reasonable\" is defined by the label, which means the label can do nothing and call it reasonable, or do everything and call it standard, and the ambiguity gives the institution complete discretion while appearing to guarantee effort."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The label that suppressed the artist's creative vision accuses the artist of being difficult — the entity that exerted the control projects the resistance onto the person who was controlled, and the artist who tried to make something honest is labeled uncooperative by the institution that demanded they lie."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "The artist who speaks publicly about exploitation — unpaid royalties, abusive management, coerced contracts — is framed as ungrateful, as biting the hand that fed them, as betraying the people who \"made\" them — the industry that extracted becomes the victim of the person who named the extraction."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "The first time the artist was asked to change their appearance, their sound, their name, or their message to be more marketable, it felt like a violation — a small one, softened by the explanation that this is just how it works, but a violation nonetheless — and the second request was easier to accept, and the twentieth was automatic, and the artist who started with a voice that was their own now performs a version of themselves that was assembled by a committee and no longer remembers when the assembly began."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "The artist is told their art must come first — relationships sacrificed, friendships deferred, health ignored — and the mythology of the tortured creator provides a spiritual justification for a lifestyle of deprivation that the industry profits from because an isolated artist has no advisor, no advocate, and no one to tell them the contract is predatory."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "The manager tells the artist what the label said and tells the label what the artist said and positions themselves in the middle as the indispensable broker — the only person who can translate between money and art — and the triangulation ensures that the artist and the institution never speak directly, because a direct conversation might reveal that the manager's interests and the artist's interests are not the same."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Fans are weaponized against artists who deviate from expectations — the fandom that was cultivated by the label functions as a surveillance and enforcement mechanism that the label does not have to pay, and the artist who changes their sound or their image or their politics is attacked not by the institution but by the audience the institution built, and the institution watches from a distance with clean hands."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "The artist who left the label is discussed in industry circles as unstable, difficult, or past their prime — the narrative planted not through a press release but through whispered conversations at events the artist is no longer invited to, and by the time the artist realizes their reputation has been rewritten the rewrite is already industry consensus."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "The artist's calls stop being returned — the A&R representative who was their champion goes silent, the publicist stops pitching, the manager stops managing — and the silence is not a conversation about the relationship ending but the relationship ending without a conversation, which leaves the artist in limbo, still technically signed but practically abandoned, unable to release music because the contract prevents it and unable to be released because the label sees no financial incentive in the release."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "The artist \"agrees\" to the terms because the alternative is not being an artist — the contract is non-negotiable for anyone without leverage, and the person who signs it signs not because the terms are fair but because the only other option is walking away from the thing they've wanted since they were five, and the wanting was not created by the contract but is exploited by it."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "The artist bonds to the industry through shared suffering — the auditions that broke them, the rejections that shaped them, the sacrifices they made to get here — and the suffering becomes the identity, and the identity becomes the bond, and the bond becomes the reason they stay even when the staying costs them everything, because leaving means admitting that the suffering was not the price of admission to something beautiful but the product of something that was never beautiful at all."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "The artist who was dropped by one label, rejected by another, told to change by a third, and ignored by a fourth eventually stops submitting — not because the art stopped mattering but because every door led to the same room, and the room had the same terms, and the terms were non-negotiable, and the artist's nervous system learned that the industry does not have a door that opens to a room where the artist's autonomy is preserved."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "The manager who controls the artist's schedule, image, collaborations, and public statements says \"I'm protecting your brand\" — and the protection is real in the sense that the brand has value and the value requires management, but the protection also ensures that the artist's voice passes through a filter controlled by someone who has a financial interest in what the voice says, and the filter is framed as care rather than censorship."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "The artist is handled — the word itself reveals the dynamic — managed, directed, styled, scripted, media-trained, and minder-accompanied, every public appearance choreographed by a team that treats the artist as a product that needs supervision rather than a human being with judgment, and the supervision is so total that the artist who has sold millions of records may not be trusted to choose their own outfit for an interview."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "The artist's public persona consumes the private person — the character they play on screen replaces the human they are off screen, the stage name replaces the birth name, the image replaces the identity — and the person behind the performance disappears so gradually that by the time they notice the disappearance they cannot remember who they were before the industry told them who to be."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "The artist whose mental health has been destroyed by the industry is told \"suffering is what makes great art\" — and the statement converts a systemic failure into a creative mythology, and the mythology justifies the suffering by giving it a purpose the industry invented to avoid being held responsible for the damage."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "The 360 deal takes a percentage of everything — recordings, publishing, touring, merchandise, endorsements, social media — the label positions itself not as a partner in one revenue stream but as the landlord of the artist's entire economic existence, and the artist who signed the deal at nineteen discovers at thirty that every dollar they earn passes through an institution that takes its cut before the artist sees a cent."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "Celebrity feuds are engineered by publicists to generate press cycles — the artists involved may or may not know the feud is strategic, the audience consumes the conflict as reality, and the attention generated by the conflict is converted into sales, streams, and clicks that benefit both parties and the industry that manufactured the tension."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "The artist is dropped — the call is short, the language is corporate, the relationship that the artist believed was creative partnership is revealed as a financial calculation that no longer calculates, and the artist who built their identity inside the institution's walls discovers that the walls were never theirs and the identity is now homeless."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "A new artist is promoted into the exact same lane — same sound, same aesthetic, same target demographic, younger face — and the platform that drove the previous artist's career now drives the replacement's, and the algorithm does not notice the switch because the algorithm never saw a person, it saw a content profile, and content profiles are interchangeable."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The label that shelved the artist's album says \"it was a strategic decision based on market conditions\" — and the framing converts what was actually a power move into an environmental response, and the artist whose work was buried has no recourse because the burial was attributed to the market rather than to the executive who decided the album wasn't worth releasing."
+    }
+   }
+  },
+  "14": {
+   "sector": "Food & Agriculture",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "The product is engineered to produce an immediate neurological reward — the combination of sugar, salt, fat, and crunch calibrated by food scientists to activate the same dopamine pathways as drugs, and the first bite produces a pleasure so reliable and so fast that the body registers it as love, as safety, as the first swallow all over again, and the engineering is so precise that the phrase used internally by the food industry is \"bliss point,\" which is not a marketing term but a neurological target."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "The free sample at the grocery store is a gift that functions as a neurological onramp — the taste activates the craving, the craving drives the purchase, and the generosity that felt like a nice lady with a toothpick was actually a precisely positioned trigger in a behavioral funnel designed to convert a moment of curiosity into a lifelong brand relationship."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "The diet promises results — \"lose thirty pounds in thirty days,\" \"transform your body in six weeks,\" \"this is the last diet you'll ever need\" — and the promise is specific enough to generate hope and vague enough to avoid accountability, and the diet works temporarily because caloric restriction always works temporarily, and the temporary result is marketed as the permanent transformation, and the permanent transformation doesn't arrive because the diet was never designed to produce it, it was designed to produce a customer who will try the next diet."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The craving pulls you back — not hunger, craving — the specific, engineered, neurological pull toward a product you know isn't nourishing you, the craving that lives in the brainstem rather than the belly, the one that arrives at the same time every day because your dopamine system was trained by the product to expect it — and the craving is the hoover, and the product is the ex that keeps texting at midnight, and your nervous system is the person who keeps answering."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The person who chooses real food is subtly devalued — \"that's so expensive,\" \"must be nice to afford organic,\" \"I don't have time to cook like that\" — and the devaluation is lateral, applied by peers who have internalized the system's hierarchy, which positions processed food as practical and whole food as elitist, and the positioning ensures that the person who prioritizes nutrition is socially penalized for doing so."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "You read the label and it says \"all natural\" and \"heart healthy\" and \"made with real ingredients\" and your body is inflamed and fatigued and you wonder why, and the label says you should feel good and your body says you don't, and the gap between the label and the body is the gaslighting — the product told you it was good for you while the ingredients were doing something the label didn't mention."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "The parent who works two jobs to afford rent faces the defining double bind of the American food system — buy the cheap food that your budget allows and watch your children's health deteriorate, or buy the nutritious food your children need and watch the electricity get cut off — and the bind is not a failure of personal budgeting but a structural feature of an economy that has made illness cheaper than health."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "The food sometimes satisfies and sometimes doesn't — the same meal produces comfort one day and bloating the next, the same snack produces energy one afternoon and a crash the following — and the inconsistency is not randomness but the natural variation of a body trying to process something it wasn't designed to process, and the variability creates the same unpredictable reward pattern that keeps a gambler at the slot machine."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "The dietary recommendation changes every decade — eat margarine then eat butter, avoid eggs then eat eggs, go low-fat then go high-fat — and each change is delivered with the same institutional authority as the last, and the person trying to follow the guidance discovers that the guidance is a moving target, and the movement is not science refining itself but an industry rotating the emphasis to generate new products for new recommendations."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "The label says \"natural flavors\" — a phrase that tells you nothing about what you're eating while sounding like it tells you everything, and the ambiguity is legally protected because \"natural flavors\" is a regulatory category, not a description, and the category includes substances derived from natural sources through processes that no reasonable person would call natural."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The food company that engineered the craving blames the consumer for lacking willpower — \"everything in moderation,\" \"it's about personal choice,\" \"we provide options, the consumer decides\" — and the projection converts a design outcome into a character flaw, because the product was specifically engineered to override moderation, and blaming the person who was overridden is blaming the lock for the key that was designed to open it."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "The consumer who sues a food company for deceptive labeling is counter-sued, labeled as opportunistic, and publicly framed as someone who should have known better — the company that lied on the label attacks the person who read the label and believed it."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "The first time you read an ingredient list and didn't recognize a single word, it felt wrong — the body paused, the mind flagged it, something said \"this doesn't seem like food\" — and the hundredth time you didn't read it at all, because the not-reading has been normalized, and the normalization of eating things you cannot identify is the food system's most foundational desensitization."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "The food desert is the most literal form of nutritional isolation — entire neighborhoods where the nearest source of fresh produce is miles away but the nearest source of processed food is on every corner, and the isolation is geographic and economic and racial and deliberate, because the grocery store left when the demographics changed and the corner store sells what the distributor delivers and the distributor delivers what the manufacturer produces and the manufacturer produces what the subsidy rewards."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "The diet industry plays the consumer against the food industry — \"they made you fat, we'll make you thin\" — and the triangulation creates a permanent oscillation between indulgence and restriction, binge and diet, the food that harms and the program that claims to undo the harm, and neither side of the triangle has any interest in the person arriving at a stable relationship with food because stability would collapse both markets."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Your doctor — who received approximately twenty hours of nutrition education in medical school — tells you the food is fine, the diet is balanced, the symptoms are unrelated to what you eat, and the suggestion that food might be the cause is met with the same skepticism that any alternative explanation receives from a system trained to look everywhere except the plate."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "The person who changes their diet and improves their health is dismissed — \"that's just placebo,\" \"you're orthorexic,\" \"be careful with those extreme diets\" — and the dismissal comes from friends, family, and often from medical professionals who have more training in pharmacology than in nutrition, and the smearing of dietary change protects the system that dietary change threatens."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "You ask the manufacturer what's in the product and receive a customer service response that says \"our recipes are proprietary\" — and the proprietary claim converts your right to know what you're eating into the company's right to not tell you, and the stonewalling is legal."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "You \"chose\" the food you bought the way you \"chose\" the candidate you voted for — from a pre-selected range of options determined by shelf space negotiations, slotting fees, distribution deals, and promotional agreements that were finalized before you entered the store — and the illusion of choice is maintained by variety that is cosmetic rather than substantive, fifty brands of the same corn-and-soy product in different packaging."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "The food that harms you is also the food that comforts you — the product that spikes your blood sugar and crashes your mood is the same product your mother gave you when you were sad, the same product you reach for at midnight when the loneliness gets loud, the same product that produces a fifteen-second window of neurological relief before the inflammation begins — and the bond between the comfort and the harm is the trauma bond, and the food system engineered both sides of it."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "The person who tried to eat well and couldn't afford it, who tried to cook from scratch and didn't have time, who tried to avoid processed food and couldn't find an alternative within twenty miles — that person eventually stops trying, not because they don't care about their health but because the system made health inaccessible and then blamed them for not accessing it."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "The nutrition label is positioned as empowerment — \"we're giving you the information to make healthy choices\" — while the information is formatted to obscure rather than illuminate, serving sizes manipulated to minimize apparent calorie counts, and the consumer who reads the label has been given the appearance of agency while the product was designed to override it."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "The food label uses cartoons, bright colors, and playful language to market products to children — and the marketing is designed to bypass parental authority and establish brand loyalty before the child can read, and the infantilization is literal, the targeting of an actual infant's neurology by an industry that understands developmental psychology well enough to exploit it."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Your relationship with food has been stripped of every dimension except consumption — eating is no longer connected to growing, preparing, sharing, celebrating, grieving, or communing with the living world, it is a transaction between your hand and a package, and the erosion of every other dimension converts the most intimate daily act of self-sustenance into a mindless, dissociated behavior that happens between other things rather than as a thing in itself."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "The person who is sick from the food they've been eating is told \"listen to your body\" by a culture that has spent fifty years teaching them not to — the body was overridden by the engineering, the engineering was reinforced by the marketing, the marketing was funded by the industry, and now the instruction to \"listen to your body\" bypasses the reality that the body's signals have been scrambled by the very system that is now telling you to trust them."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "The cost of healthy food is a form of economic segregation — the organic apple costs three times the conventional one, the farmers market charges more than the dollar menu, the supplement that replaces the nutrition the food should have contained costs more than the food — and the pricing ensures that health is a luxury good available to those who can afford it and unavailable to those who can't, and the unavailability is not a market failure but a market feature."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "The food scare is engineered or amplified to drive behavior — the recall that makes you fear the lettuce, the contamination report that makes you distrust the tap water, the news segment that makes you afraid of the chicken — and each scare drives the consumer toward the branded, processed, packaged alternative that promises safety through industrialization, and the crisis that was supposed to make you more careful about what you eat makes you more dependent on the system that caused the crisis."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "The food system discards you the way it discards everything — the packaging that held the product, the soil that grew the crop, the farmer who couldn't compete, the health you lost to the product, and the product itself when it reaches its expiration date — and the system does not distinguish between these discards because the system does not assign value to anything except the transaction, and once the transaction is complete everything else is waste."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "The food you ate as a child has been replaced by a product that carries the same name — the bread is softer and sweeter and contains seventeen more ingredients, the chicken is larger and blander and was raised in a building it never left, the tomato is redder and firmer and has never seen soil — and the replacement happened so gradually that you didn't notice the taste change because your palate was recalibrated alongside the product, and the memory of what food tasted like has been overwritten by what food tastes like now."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The food company that sold you the product that contributed to your disease says \"our products are safe when consumed as part of a balanced diet\" — and the statement is technically defensible because no single product caused the disease, the cumulative exposure did, and the cumulative exposure cannot be traced to any single company, which means no single company is liable, which means the system that collectively produced the outcome is individually blameless."
+    }
+   }
+  },
+  "16": {
+   "sector": "Sports & Athletics",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "The scout, the coach, the recruiter sees something in a child's body and showers it with attention — \"you've got something special,\" \"I've never seen this kind of talent at your age,\" \"you could go all the way\" — and the attention is directed at the child but consumed by the family, and the family reorganizes itself around the potential, and the reorganization is total, and the potential becomes the family's identity before the child has finished puberty."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "The coach who gave you your shot — who saw you when no one else did, who believed in you when you didn't believe in yourself, who invested time and attention in your development — now holds that investment as a permanent claim on your compliance, because \"after everything I've done for you\" is spoken in locker rooms with the same weight and the same frequency as it is spoken in living rooms, and the debt of gratitude is the leash."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "The youth coach says \"stick with the program and you'll get a scholarship\" — a promise that depends on variables the coach cannot control and outcomes the coach cannot guarantee, but that functions as a retention tool powerful enough to keep a family investing thousands of dollars and thousands of hours in a child's athletic development based on a statistical probability that is rarely disclosed."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The retired athlete is pulled back through nostalgia — celebrity games, commentator roles, coaching positions, autograph circuits — the industry extending its relationship with the athlete past the athlete's usefulness by converting their past into a product the public will consume."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The athlete who was special at fifteen is ordinary at eighteen — not because they declined but because the system graduated them into a larger pool where the standard is higher, the competition is deeper, and the attention that was unconditional at the youth level is now rationed based on performance metrics that change every season."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "The athlete who says \"I think something is wrong with my body\" is told \"you're fine, push through it, everyone hurts at this level\" — and the dismissal overrides the body's signal with the coach's authority, and the body that was trying to protect itself is silenced by a system that needs it to keep performing."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "The athlete is told to take care of their body and then punished for resting — \"listen to your body\" said by the same system that benches you when you do, that questions your commitment when you sit out, that replaces you when you heal at the speed the body requires rather than the speed the season demands."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "The athlete's career is defined by the unpredictability of recognition — the performance that should have earned a starting spot doesn't, the game-winning play that should have changed everything doesn't, the season that should have been the breakout wasn't — and the inconsistency between effort and outcome keeps the athlete in a state of perpetual performance anxiety, always working harder, always believing that the next game is the one that will finally deliver the validation the system has been withholding."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "The benchmark for success keeps rising — the time that was fast enough last year isn't fast enough this year, the stats that earned a contract last season don't earn one this season — and the goalposts move at the speed of the competition, which is always accelerating, and the athlete who can't accelerate with it is replaced by one who can."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "The coach says \"we'll evaluate your role going into the season\" — a sentence that sounds like assessment and means \"your position is not secure and I'm not going to tell you where you stand because your uncertainty keeps you performing.\""
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The coach who is emotionally volatile and verbally abusive calls the athlete who cries \"mentally weak\" — the coach's inability to regulate their own behavior projected onto the athlete's response to it."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "The athlete who reports the coach's abuse is accused of being a problem — \"you're causing disruption,\" \"you're dividing the team,\" \"you're disrespecting the program\" — the person who was harmed is reframed as the person who is causing harm, and the team that was supposed to protect them becomes the audience for their punishment."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "The first injury was terrifying — the body signaling damage, the mind processing fear, the system saying \"you'll be fine\" — and the second injury was concerning, and the tenth was routine, and the normalization of physical damage as the cost of playing is the sector's most fundamental desensitization, because an athlete who is alarmed by pain is an athlete who will protect their body, and an athlete who protects their body is an athlete who might not play through the thing the system needs them to play through."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "The athlete is separated from normal social development — no regular school schedule, no unstructured play, no friendships outside the sport, no identity outside the uniform — and the isolation is disguised as focus, and the focus is praised, and the praise reinforces the isolation, and the child who lives inside the sport has no self to return to when the sport is over."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "The coach plays athletes against each other for positions — \"I'm going to start whoever wants it more\" — and the competition is framed as meritocratic while functioning as division, because athletes who are competing with each other for playing time are not organizing with each other for better conditions, and the energy spent on rivalry is energy not available for solidarity."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Parents function as the system's primary enforcement arm — the father who pushes the child past their limit because the scout is watching, the mother who drives three hours each way for a practice because the coach said attendance is mandatory, the family that remortgages the house for a travel team because someone said the exposure would pay off — and the parents are not malicious, they are loving, and their love has been weaponized by a system that needs the family's resources without paying the family's costs."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "The athlete who holds out for a better contract is called selfish — the person trying to be compensated fairly for a career that will end their body's normal function by age forty is characterized as greedy by a media apparatus that has never asked the same question about the owner's salary."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "The coach who benched you without explanation offers nothing — no feedback, no timeline, no clarity about what changed — and the silence is designed to produce compliance because a player who doesn't know why they lost their position will try everything to regain it, and the trying is more valuable than the knowing."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "The waiver the athlete signs before participation — acknowledging the risk of injury, concussion, paralysis, and death — is the system's consent form, signed by athletes who are too young to fully understand the implications and too invested to walk away, and the waiver converts every future injury into a risk the athlete \"accepted\" rather than a harm the system could have prevented."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "The bond between athlete and sport is forged in shared suffering — the grueling practices, the injuries played through, the losses that felt like death, the wins that felt like resurrection — and the suffering creates a bond so deep that the athlete cannot imagine life without the sport, and the inability to imagine is the bond, and the bond is what the system relies on to keep the athlete performing past the point where performance serves the athlete."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "The athlete who has been cut, traded, benched, and injured enough times eventually stops believing that effort determines outcome — the system taught them that decisions about their career are made in rooms they'll never enter by people whose criteria they'll never know, and the helplessness is not apathy but the accurate recognition that the athlete is a piece on a board controlled by someone else's hand."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "The team physician who clears the athlete to play after an injury says \"I wouldn't clear you if it wasn't safe\" — and the physician works for the team, and the team needs the athlete on the field, and the physician's assessment is filtered through the institution's need, and the filtering is invisible to the athlete who trusts the coat."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "The professional athlete whose body generates millions is told where to be, what to wear, when to travel, what to eat, when to sleep, what to say to the press, and whether they're allowed to play — the most commercially valuable body in the building treated like a child who cannot be trusted with autonomy."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "The child who loved to run has become a body that runs — the joy extracted, the identity compressed to a position, a stat line, a draft ranking — and the person who existed before the sport has been erased so completely that when the sport is over the person has no self to return to."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "The injured athlete is told \"everything happens for a reason\" and \"this is going to make you stronger\" and \"adversity builds champions\" — and the spiritual language converts a preventable injury into a character-building narrative that serves the system's need for the athlete to return rather than the athlete's need to heal."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "The rookie contract, the restricted free agency, the franchise tag, the salary cap — each one a mechanism that controls how much the athlete can earn and where they can earn it, and the mechanisms are unique to sports because in no other industry can an employer legally restrict an employee's ability to sell their labor to the highest bidder."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "The \"do or die\" game, the \"must-win\" situation, the \"elimination round\" — each one manufacturing an emotional crisis that elevates the stakes beyond what the body can sustainably produce, driving the athlete to perform at levels that exceed their recovery capacity because the crisis demands it and the system defines the crisis."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "The athlete is cut — the phone call, the meeting, the \"we're going in a different direction\" — and the cut is performed with administrative efficiency that belies the totality of what is being severed, because the athlete is not just losing a job, they are losing an identity, a community, a daily structure, a sense of purpose, and the only version of themselves they have ever been taught to be."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "The draft pick arrives before the veteran has cleaned out their locker — younger, cheaper, healthier, and unaware that they are standing in the exact spot the person before them stood, and that the person before that person stood, and that the standing is temporary even when the system says \"welcome to the family.\""
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The coach who pressured the athlete to play injured says \"I asked if they were good to go and they said yes\" — and the athlete said yes because saying no in a culture that punishes saying no is not a choice, and the coach knows this, and the culture produced the yes, but the yes is on the record and the culture is not."
+    }
+   }
+  },
+  "18": {
+   "sector": "Nonprofits & NGO Industry",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "The nonprofit welcomes you with warmth — \"thank you for caring,\" \"your generosity makes this possible,\" \"you are the difference\" — and the warmth is genuine and the warmth is strategic, because a donor who feels personally responsible for the outcome is a donor who will give again, and the personal connection is manufactured through language that sounds like relationship but functions as retention."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "The donor who gave generously is thanked publicly — their name on the wall, their company in the program, their face in the newsletter — and the recognition is earned and the recognition is also a chain, because the donor whose generosity is public cannot withdraw without the withdrawal being equally public, and the visibility of the giving creates a social obligation that outlasts the impulse that started it."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "The annual appeal letter says \"with your continued support, we can end this\" — and \"this\" has not been ended by forty years of continued support, but the promise is renewed every year because the promise generates the donations and the donations sustain the organization and the organization needs the problem to persist in order to justify the next appeal."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The lapsed donor receives the card — \"we miss you,\" \"the children miss you,\" \"your absence is felt\" — and the language is personal enough to trigger guilt and emotional enough to bypass the calculation that led to the lapse, because the lapse was probably rational and the hoover is designed to override the rational with the relational."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The communities served by the nonprofit are reduced to their need — photographed at their worst, described by their deficits, presented to donors as problems to be solved rather than people with agency, wisdom, and their own solutions — and the devaluation is the marketing, because a community that looks capable doesn't generate donations the way a community that looks desperate does."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "The donor who asks \"did my money actually help?\" is shown an impact report filled with numbers that sound impressive and describe activities rather than outcomes — \"we distributed ten thousand meals\" rather than \"hunger in the community decreased by x percent\" — and the difference between activity and impact is the space where the gaslighting lives, because the organization did the thing it said it would do and the thing it did may or may not have changed the condition it was supposed to change."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "The nonprofit worker faces the foundational double bind of the sector — care about the mission and accept poverty wages, or leave for adequate compensation and carry the guilt of abandoning the cause — and the bind is maintained by a culture that treats fair compensation as incompatible with compassionate work."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "The impact update arrives unpredictably — one quarter a photograph of a smiling child and a story of transformation, the next quarter nothing at all — and the inconsistency keeps the donor in a state of uncertain hope, invested enough to continue but never informed enough to evaluate, and the uncertainty is the retention mechanism."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "The definition of success changes with every report — this year it's lives touched, next year it's communities engaged, the year after it's systemic influence — and the shifting ensures that the organization can always demonstrate progress because progress is defined retroactively by whatever the organization accomplished."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "The nonprofit's mission statement says \"we empower communities to thrive\" — a sentence that means everything to a donor and nothing to an evaluator, because \"empower\" is not measurable, \"communities\" is not defined, and \"thrive\" is not quantified."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The organization that has failed to produce systemic change blames the community for being \"hard to reach,\" \"resistant to change,\" or \"lacking capacity\" — the institution's failure to design an effective intervention projected onto the people the intervention was supposed to serve."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "The community member who says \"this program isn't working\" is told they are not engaging with the program properly — the person experiencing the failure is reframed as the cause of the failure, and the program that failed is protected from the feedback that would improve it."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "The first time you saw a charity photograph of a starving child it devastated you — the image lived in your chest for days, it changed how you thought about the world — and by the five hundredth image the devastation is gone, replaced by a response that is automatic and shallow, a donation made without feeling the thing the donation was supposed to be responding to, and the normalization of suffering is the system's most important product after revenue, because a population that is devastated by poverty demands systemic change and a population that is normalized to poverty donates twenty dollars and scrolls."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "The community being served is isolated from the decision-making about its own intervention — the program was designed in an office the community has never visited, by people who have never lived in the community, using a framework that was developed in a university the community cannot attend — and the isolation is called expertise, and the expertise replaces the community's own knowledge with the organization's plan."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "The nonprofit plays the donor against the beneficiary — showing the donor the beneficiary's suffering to generate giving and showing the beneficiary the donor's generosity to generate gratitude — and the triangulation positions the organization as the essential intermediary between the two, without which the donor's compassion cannot reach the beneficiary's need, and the positioning is the organization's value proposition and the organization's survival strategy."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Volunteers function as the nonprofit's unpaid labor force and its most effective marketing — the volunteer who paints the school and posts the photograph to Instagram is doing the organization's work and the organization's publicity simultaneously, and the volunteer's sincerity makes the publicity more persuasive than anything the communications department could produce."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "The community organizer who says \"we don't need another program, we need political change\" is labeled as radical, as ungrateful, as not understanding the system — and the labeling ensures that the person who has the most accurate diagnosis of the problem is the person least likely to be given a platform."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "The donor who asks for detailed outcome data receives a glossy annual report filled with stories and photographs and a financial summary formatted to highlight revenue rather than allocation — the question was answered without being answered, and the story replaced the data, and the donor who wanted accountability received marketing."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "The community \"consents\" to the intervention through a needs assessment process that was designed by the organization, conducted on the organization's timeline, and interpreted through the organization's framework — and the community's participation in the assessment is recorded as consent for the program that follows, even though the community was never offered the option of no program or a different program."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "The nonprofit worker is bonded to the organization through shared exposure to suffering — the case load of human anguish, the stories that live in the body after the workday ends, the secondary trauma that accumulates without acknowledgment — and the bond is forged in the specific furnace of caring about people who are suffering while working inside a system that manages the suffering rather than ending it, and the bond keeps the worker inside the system because leaving means abandoning the people, and the people are real."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "The nonprofit worker who has watched programs fail, proposals get rejected, communities get defunded, and systemic change get deferred for their entire career has developed a professional helplessness that they call \"being realistic\" — \"you can't change the system from within,\" \"the funders will never support that,\" \"this is how it works\" — and the realism is accurate and the accuracy is the helplessness."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "The caseworker who determines which services the client receives says \"this is what we recommend for you\" — and the recommendation may be wise and the recommendation is also a determination made by the system about the person, and the person's own assessment of what they need is filtered through the organization's framework before it is acknowledged."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "The community being served is treated as a population that cannot help itself — \"they need us,\" \"without our intervention they would...\" — and the framing positions the community as a child and the organization as the parent, and the positioning justifies the organization's continued presence long after the community might have developed its own solutions if the organization had invested in capacity rather than dependency."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "The nonprofit worker's identity is consumed by the mission — \"I work in homelessness,\" \"I'm in global health,\" \"I do food access\" — and the identification with the issue replaces the identification with the self, and the worker who entered the sector because they cared about people now identifies as a professional who manages issues, and the transformation was so gradual that they didn't notice when the compassion that brought them in was replaced by the competence the system required."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "The nonprofit worker who is burned out, underpaid, and morally injured is told \"remember why you started this work\" — and the invocation of purpose bypasses the material conditions that are producing the suffering, and the worker who needs a raise is given a mission statement."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "The grant-dependent nonprofit lives in a state of permanent financial anxiety — the funding cycle determines the organization's existence, the funder's priorities determine the organization's programs, and the alignment between the community's needs and the funder's interests is a coincidence that the organization prays for rather than a guarantee it can rely on."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "The year-end appeal manufactures urgency — \"we need your gift before December 31st,\" \"if we don't meet our goal the program will close,\" \"every dollar counts in these final hours\" — and the urgency is real in the sense that funding is needed and manufactured in the sense that the deadline is a fiscal year boundary rather than a humanitarian one, and the manufacturing converts a tax planning opportunity into an emotional emergency."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "The community that was served is abandoned when the grant ends — the program that was built, the relationships that were formed, the capacity that was developed — all of it contingent on funding that was always temporary, and the community that was told \"we're here for you\" is now alone with the infrastructure the organization built and the skills to maintain it that the organization may or may not have transferred."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "The caseworker who left is replaced by someone new who starts from zero — new relationships to build, new trust to earn, new context to learn — and the community that was just beginning to feel safe with the previous worker now faces a stranger with a clipboard and a smile, and the cycle of building and losing trust repeats with each staffing transition."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The organization that failed to produce outcomes says \"the context was more complex than anticipated\" — and complexity is the deniability, because complexity is always true and always available and always sufficient to explain why the money that was given in good faith did not produce the change that was promised in marketing."
+    }
+   }
+  },
+  "23": {
+   "sector": "Aging, Death & End-of-Life",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "The funeral home greets the grieving family with warmth so total it feels like sanctuary — soft lighting, gentle voices, unhurried attention, comfortable chairs, tissues placed within reach before you know you'll need them — and the warmth is genuine in many cases, delivered by people who chose this profession because they care about the bereaved, and the warmth is also the environment in which the most expensive decisions of the family's life will be made, and the environment was designed to produce the emotional state that makes the decisions easier to make and harder to question."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "The hospice nurse who sits with your dying parent through the night, who holds their hand when you can't, who is present for the final breath — that nurse's compassion is real and that nurse's employer may be a private equity-owned company that is billing Medicare for the maximum while paying the nurse the minimum, and the nurse's generosity is weaponized not by the nurse but by the system that employs her, because the family's gratitude for the nurse's care extends to the organization the nurse works for, and the organization is extracting from the dying while the nurse is comforting them."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "\"Pre-need\" funeral planning is the industry's most effective future fake — the promise that planning ahead will protect your family from stress and financial burden, sold alongside packages that may cost more than what the family would have chosen in the moment, and the planning locks in the purchase decades before the service, during which time the industry retains the funds."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The cemetery sends the annual maintenance notice — \"your loved one's resting place is due for care\" — and the notice arrives on the anniversary, and the anniversary activates the grief, and the grief makes the maintenance feel like devotion, and the devotion is the payment."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The elderly person is devalued by a culture that measures human worth in productivity — the retired person who no longer generates economic output is treated as a cost rather than a resource, a burden rather than a beneficiary, a problem to be managed rather than a person to be honored — and the devaluation is experienced as invisibility, the gradual disappearance from a culture that has no mechanism for valuing a person who is not producing."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "The family is told \"this is what your loved one would have wanted\" by a funeral director who never met the deceased — and the statement is unfalsifiable because the deceased cannot confirm or deny it, and the unfalsifiability is the gaslighting, because the family's grief is being leveraged to validate a spending decision that may have nothing to do with the deceased's actual wishes."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "The family faces the defining double bind of the death industry — spend lavishly and feel financially violated, or spend modestly and feel that you dishonored the dead — and the bind is maintained by a culture that measures love in expenditure and a funeral industry that presents the options on a spectrum from modest to magnificent without ever suggesting that the most meaningful tribute might cost nothing at all."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Grief itself is intermittent — the wave that arrives without warning, the day that is fine until the song plays, the month that passes without tears followed by the afternoon that produces nothing but — and the intermittency of grief creates a psychological relationship with the loss that is unpredictable and therefore uncontrollable, and the uncontrollability is what makes the bereaved vulnerable to any system that promises to manage it."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "The definition of a \"proper\" funeral has escalated — the simple pine box is now the polished mahogany casket, the backyard burial is now the manicured cemetery plot, the family gathering is now the catered reception, and each escalation was introduced by an industry that profits from the elevation."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "The funeral home says \"we'll take care of everything\" — a sentence that sounds like comfort and means the funeral home will make every decision the family doesn't explicitly make themselves, and the decisions will default to the most expensive option because the default is the industry's."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The industry that profits from grief tells the grieving family they are \"making choices\" — the language of agency applied to a situation where the family has been placed in a decision-making environment designed to maximize spending during a moment of minimum cognitive function, and the agency is the projection, because the choices were pre-structured by the industry and presented as the family's own."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "The family that questions the funeral home's pricing is made to feel that the questioning is disrespectful — \"I understand, this is a difficult time, we just want to make sure your loved one is honored properly\" — and the questioning, which is reasonable, is reframed as a failure of reverence, and the family retreats from the question because the retreat is less painful than being perceived as someone who put a price on their parent's dignity."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "The first time you saw a casket price list it felt wrong — thousands of dollars for a box that will be buried underground and never seen again — and the second time it felt less wrong, and the third time it felt normal, and the normalization of paying more for the container of the dead body than for the medical care of the living body is the death industry's most fundamental desensitization."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "The dying person is isolated — moved from their home to the hospital, from the hospital to the ICU, from the ICU to the hospice facility, from the place where life happened to the place where life ends — and the isolation is medical in justification and total in experience, the dying person separated from their home, their bed, their kitchen, their garden, their cat, their morning routine, their sense of self."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "The funeral director triangulates between family members — \"your brother chose the premium package, I want to make sure you're comfortable with the standard\" — and the comparison between family members' willingness to spend becomes a proxy for their willingness to grieve, and the triangulation produces an upward pressure on the budget because no one wants to be the one who chose the cheaper casket."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Extended family members enforce the spending — \"you can't put your mother in a cheap casket,\" \"she deserves the best,\" \"what will people think?\" — and the enforcement is loving and the love is the vehicle through which the industry's pricing reaches the person writing the check."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "The family that chooses cremation over burial, green burial over conventional, home funeral over professional, or no ceremony over traditional ceremony is judged — \"they didn't even have a proper funeral,\" \"they just cremated her, can you believe it?\" — and the judgment is the smear, enforced by a community that has internalized the industry's standard as the measure of respect."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "The insurance company that is processing the life insurance claim does not return calls during the period when the family most needs the funds — the claim filed, the paperwork submitted, the processing delayed, the family borrowing money to pay for the funeral while the insurance company holds the payout."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "The patient \"consents\" to end-of-life treatment through documents signed during moments of crisis — the advance directive completed during a hospital admission, the DNR signed while the family is in shock, the treatment plan agreed to under conditions that no contract law would consider voluntary — and the consent is documented and the documentation is the system's evidence that whatever happened next was authorized."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "The family is bonded to the funeral home through the shared experience of the worst day of their life — the director who was there when they saw the body, who guided them through the arrangements, who stood at the back of the service — and the bond is real because the experience was real, and the bond ensures that the family will return to the same funeral home for the next death, and the return is loyalty forged in grief."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "The person who tried to plan a simple, affordable, meaningful funeral and was met with upselling, judgment, and institutional resistance eventually gives up and pays whatever the funeral home presents — not because they agree with the price but because the system made the alternative so difficult that compliance was less painful than resistance."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "The funeral director who says \"let me take care of everything, you shouldn't have to worry about this right now\" is providing genuine relief and also assuming total control of a process the family may have wanted to participate in — the washing of the body, the dressing, the preparation — acts that were once the family's sacred privilege and that have been transferred to the professional under the language of care."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "The bereaved are treated as incapable — \"you don't need to see the body,\" \"let us handle the paperwork,\" \"you shouldn't have to think about this right now\" — and the protection is sometimes appropriate and always infantilizing, because the family that is shielded from the reality of death is the family that never learns how to be with death, and the not-learning ensures the continued need for the professional who stands between the living and the dead."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "The dying person's identity is eroded by the dying process as it is currently structured — the patient who was a teacher, a gardener, a mother, a comedian, a lover of jazz is now a diagnosis, a room number, a DNR status, a hospice enrollment, a body that is declining — and the erosion is performed by a system that relates to the dying person through their medical chart rather than through their life."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "\"They're in a better place\" bypasses the grief — a statement that may reflect genuine belief and that consistently functions as a redirect away from the pain and toward a narrative that makes the living more comfortable than the bereaved, and the comfort of the living is not the same as the healing of the bereaved."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "The cost of dying is the final extraction — the funeral, the burial, the estate settlement, the probate, the legal fees, the tax filings, the property transfer — and the cost falls on the survivors at the moment when their capacity to negotiate is lowest and their vulnerability to exploitation is highest."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "The funeral timeline creates an artificial emergency — \"we need to make arrangements within 24-48 hours,\" \"the viewing is in two days,\" \"the family is arriving tomorrow\" — and the urgency compresses the decision-making into a window that prevents evaluation, and the prevention is the function."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "The discard is literal — the body placed in a casket, the casket placed in the ground, the ground covered — and the discarding of the physical form is natural and necessary, but the speed with which the system processes the body — removed from the hospital bed within hours, transported to the funeral home, embalmed, displayed, buried, and billed — reflects the efficiency of an industry that has optimized the processing of the dead the way every other industry optimizes the processing of its material."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "The funeral home that served your family serves another family the next day — the room is reset, the flowers are changed, and the machine that processed your mother's death processes someone else's father's death with the same professional warmth and the same itemized invoice."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The funeral home that charged twelve thousand dollars says \"the family selected these services\" — and the selection is documented on the contract the family signed through tears, and the contract is the deniability."
+    }
+   }
+  },
+  "25": {
+   "sector": "Transportation & Mobility",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "The car dealership greets you with warmth so calibrated it should be studied by psychologists — the salesperson who remembers your name, the test drive that makes you feel powerful, the new car smell that was engineered in a laboratory to trigger the dopamine response, the financing offer that sounds like a gift — \"we're going to get you into this car today\" — and the warmth is designed to bypass the calculation that would reveal that the car you're about to purchase will cost you more than your annual food budget to operate."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "The zero-percent financing, the cash-back offer, the holiday sale, the trade-in bonus — each one positioned as a gift that is also a hook, because the generosity of the financing is calculated to generate revenue through the depreciation, the insurance requirement, the maintenance schedule, and the fuel consumption that the \"free\" financing doesn't mention."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "\"This car will last forever\" is the dealership's future fake — the promise of durability applied to a product that is designed with planned obsolescence, that will require increasing maintenance as it ages, and that will be rendered culturally and technologically obsolete within a decade."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The gas price drops and the person who was considering an electric vehicle or a transit pass returns to the gas pump — the price was the hoover, and the return to the dependency was the industry's recapture."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The pedestrian is devalued — legally, culturally, and physically. The word \"jaywalking\" was invented by the automobile industry in the 1920s to shift the moral and legal responsibility for pedestrian deaths from the driver to the walker — the person whose body was hit by the machine was reframed as the person who caused the collision by being in the road, which was previously understood as a shared public space and was redefined as the automobile's territory."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "The auto loan officer says \"this is a great investment\" about a product that loses twenty percent of its value the moment you drive it off the lot and that will cost you more in total ownership than the purchase price — and the word \"investment\" is the gaslighting, because an investment is something that appreciates and a car is something that depreciates, and the loan officer knows this and says \"investment\" anyway."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "The commuter faces the defining double bind of the sector — drive and pay the enormous cost of automobile ownership (eight to twelve thousand dollars annually for the average American), or don't drive and lose access to employment, food, healthcare, education, and community — and the bind ensures that the automobile is not a choice but a ransom, paid by every working person in a car-dependent society."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Traffic cooperates and then it doesn't — the commute that takes twenty minutes on a good day takes ninety on a bad one — and the unpredictability creates the same anxious relationship with the commute that intermittent reinforcement creates in any abusive relationship: you never know which version you're going to get, and the uncertainty keeps you hypervigilant and unable to plan your life with confidence."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "The car that was supposed to be the last car you'd need is replaced by the car that is newer, safer, more fuel-efficient, more connected — the goalpost of \"adequate vehicle\" moving with every model year, every feature addition, every safety standard update that makes the previous year's model feel inadequate."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "The auto advertisement says \"starting at $29,999\" — a number that applies to a configuration that the dealership doesn't stock, with options the consumer will be told they need, and a final price that will be several thousand dollars higher, revealed only after the emotional commitment to the vehicle has been established."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The driver who runs a red light and kills a cyclist blames the cyclist — \"they shouldn't have been in the road\" — the operator of the two-ton machine projecting the responsibility for the death onto the operator of the fifteen-pound bicycle, and the projection is reinforced by a legal system that overwhelmingly protects the driver."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "The pedestrian who is hit by a car is investigated for \"jaywalking\" — the person whose body was broken by the machine is treated as the person who caused the incident, and the driver who operated the machine is treated as the person who was inconvenienced by the body."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "The first time you sat in traffic for an hour to travel ten miles it felt absurd — a body that could walk the distance in three hours was instead sealed in a machine, burning fuel, going nowhere, surrounded by thousands of other bodies doing the same thing — and by the thousandth commute the absurdity was gone, replaced by a numbness that the system calls \"commuting\" and that a previous generation would have called captivity."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "The car is the most effective isolation device ever invented for everyday use — a sealed metal container that separates the human from every other human, from the weather, from the street, from the neighborhood, from the sounds and smells and textures of the world they are moving through — and the isolation is experienced as comfort, as privacy, as personal space, and the experiencing-as-comfort is the normalization of a condition that would have been recognized as solitary confinement by any previous generation."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "The auto industry triangulates between the consumer and their identity — \"you are what you drive,\" the truck as masculinity, the sedan as responsibility, the SUV as family, the sports car as success — and the triangulation converts the transportation decision into an identity decision, which means the consumer purchases not the vehicle that serves their needs but the vehicle that performs their self-image."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Your neighbor who judges you for not having a car, your relative who says \"you can't raise kids without a car,\" your colleague who finds it weird that you take the bus — each one an enforcer of the dependency, not because they were recruited by the auto industry but because they were raised inside the same infrastructure and the infrastructure shaped their assumptions about what normal looks like."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "The cyclist is smeared — \"they don't follow the rules,\" \"they slow down traffic,\" \"they think they own the road\" — and the smearing is performed by drivers whose vehicles kill four thousand cyclists per year in the United States and whose infrastructure was designed to exclude the bicycle entirely."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "The city that was asked for a crosswalk, a bike lane, a bus stop, or a speed reduction does not respond — the request filed, the ticket created, the response delayed for months or years, and the pedestrian who was almost killed at the intersection last Tuesday is still crossing the same intersection today because the bureaucracy that could make it safer moves at the speed of paperwork and the car moves at the speed of the posted limit."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "You \"consented\" to car dependency by buying a car — the consent manufactured by the absence of an alternative, because the city was designed for the car and the car was the only option and the option was the consent and the consent was manufactured by the infrastructure."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "The commuter is bonded to the car through the daily oscillation between the misery of the commute and the relief of arriving — the same pain-relief cycle that produces attachment in any traumatic relationship — and the bond is reinforced by the identity the car provides, the freedom the car promises, and the investment the car represents, because a person who has spent forty thousand dollars on a machine is a person who must believe the machine was worth it."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "\"There's no alternative\" is the learned helplessness that the auto industry has installed — the belief that the car is the only option, that transit doesn't work, that cycling is dangerous, that walking is impractical — spoken by people who live in a city where the alternatives were deliberately dismantled and who have never been offered the alternative that would reveal the helplessness as false."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "The GPS navigation system says \"I'm getting you there faster\" while routing you through a neighborhood it has selected based on real-time data you did not provide, tracking your location, speed, and destination, and selling the data to advertisers, insurance companies, and municipal traffic authorities — the navigation that feels like service functioning as surveillance."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "The auto industry treats the consumer as incapable of making transportation decisions without the car — \"you can't get there without a car,\" \"it's not safe to walk,\" \"you can't carry your groceries on a bike\" — each statement positioning the human body as inadequate and the machine as necessary."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "\"You are what you drive\" has eroded the boundary between the person and the product — the truck guy, the minivan mom, the Tesla owner, the Jeep person — and the erosion converts the transportation decision into an identity that the consumer will defend, fund, and maintain because the car is no longer a vehicle, it is a self."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "\"I just love driving\" bypasses the calculation — the cost, the environmental impact, the time lost, the body's immobility — and the love is real in the sense that the experience of driving produces genuine pleasure, and the love is a bypass in the sense that the pleasure prevents the examination of the cost."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "The auto loan is the second most common form of consumer debt in America — the car that you need to get to the job to earn the money to pay for the car, and the circularity is the control, because a person who is making car payments is a person who cannot afford to stop working, and a person who cannot afford to stop working is a person who cannot afford to resist."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "The \"your car needs this repair now or it's dangerous\" is the mechanic's manufactured crisis — sometimes genuine, sometimes the exploitation of the customer's inability to evaluate the claim, always delivered with urgency that compresses the decision."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "The car is discarded — the machine that was marketed as an identity, that was financed as an investment, that was loved as a relationship — is traded in, junked, abandoned, its value reduced to scrap metal, the emotional investment evaporated, and a new machine takes its place on the same driveway."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "One car replaces another on a cycle determined by the industry — the model year, the lease term, the financing schedule — and each replacement requires a new purchase, a new loan, a new insurance policy, and the cycle of replacement is the revenue model."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The auto industry that sold you the car that pollutes the air says \"we comply with all emissions regulations\" — and the compliance is the deniability, because the regulations were set by a process the industry lobbied, at levels the industry influenced, and the compliance with the insufficient standard is presented as evidence that the product is clean when the product is only as clean as the industry allowed the standard to require."
+    }
+   }
+  },
+  "27": {
+   "sector": "Pharmaceutical Industry",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "The pharmaceutical sales representative arrives at the doctor's office with warmth, expertise, and gifts — samples that allow the doctor to give the patient something immediately, studies that support the product, lunch for the office, branded pens and notepads that keep the product name in the doctor's visual field all day — and the warmth is professional and personable and persistent, and the representative visits regularly, remembers the doctor's name, the nurse's birthday, the office manager's preferences — and the relationship that develops feels like partnership and functions as influence, because the doctor who prescribes the representative's product is the doctor the representative will continue to visit, and the visiting is the reward, and the not-visiting is the punishment, and neither is ever stated explicitly."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "The free sample is the most effective form of weaponized generosity in this sector — a two-week supply of a medication that the patient tries, that works, that creates a preference, and that now requires a prescription that costs $300 per month, and the preference was created by the gift, and the gift cost the company pennies."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "\"We're developing a cure\" is the pharmaceutical industry's most durable future fake — the promise of a cure deployed to sustain the patient's investment in the management while the cure is perpetually five to ten years away, because a cure is a one-time purchase and management is a recurring revenue stream."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The patient who stopped taking the medication receives the refill reminder — from the pharmacy, from the insurance company, from the health app — and the reminder is positioned as helpful and the helpfulness is the hoover, because the patient who stopped may have stopped for a reason, and the reminder overrides the reason with the routine."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The patient's own capacity for healing is devalued — \"you can't manage this with lifestyle changes alone,\" \"this is a chemical problem that requires a chemical solution,\" \"your brain isn't producing enough serotonin\" — and the devaluation of the body's pharmacy ensures that the patient does not try the intervention that would render the pharmaceutical unnecessary."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "The patient who says \"I don't think this medication is working\" is told \"give it more time,\" \"we need to adjust the dosage,\" \"sometimes it takes weeks to take effect\" — and the statements may be clinically accurate and the statements also function as gaslighting when the medication genuinely isn't working, because the patient's experience of the medication is overridden by the prescriber's faith in the product, and the faith was installed by the industry that produces the product."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "The patient faces a foundational double bind — take the medication and accept the side effects (weight gain, sexual dysfunction, cognitive blunting, dependency), or don't take the medication and face the condition the medication manages (depression, anxiety, pain, sleeplessness) — and the bind is presented as though these are the only two options, while the third option (addressing the conditions that produced the symptoms) is rarely presented because the third option is not a pharmaceutical product."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "The medication works and then it doesn't — effective for months, then less effective, requiring dosage adjustment, then effective again at the higher dose, then requiring augmentation with a second medication — and the unpredictability of the response keeps the patient in the pharmaceutical relationship because the last period of effectiveness proves that effectiveness is possible."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "The threshold for treatment keeps lowering — the cholesterol number that was acceptable last decade is a treatment target this decade, the blood pressure that was normal last year requires medication this year, the blood sugar level that was monitored last month is now pre-diabetic — and each threshold reduction expands the market by converting healthy people into patients."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "The drug advertisement says \"may help reduce symptoms\" — a phrase that is legally precise and clinically empty, because \"may\" means it might not, \"help\" means it won't do it alone, \"reduce\" means it won't eliminate, and \"symptoms\" means it won't address the cause — and the phrase sounds like a promise while committing to nothing."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The industry that produces the dependency projects the cause onto the patient — \"addictive personality,\" \"medication non-compliance,\" \"the patient wasn't taking it as prescribed\" — the language of patient responsibility deployed to shield the product from the accountability the product's effects demand."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "The patient who reports a side effect is told they are experiencing \"nocebo effect\" — the suggestion that the side effect is caused by the patient's expectation rather than by the product, and the suggestion reverses the causation so that the patient is the source of the symptom rather than the drug."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "The first prescription felt significant — a threshold crossed, a line between the body managing itself and the body requiring chemical assistance — and by the fifth prescription the significance was gone, and the normalization of pharmaceutical dependence is the industry's most important desensitization: a population in which taking daily medication is as unremarkable as brushing teeth is a population that will not question whether the medication is still necessary."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "The patient is isolated from the information they need to make an informed decision — the clinical trial data is proprietary, the side effect incidence is reported in language that obscures its significance, the alternative treatments are not presented by the prescriber because the prescriber was trained in a curriculum that did not include them — and the isolation from information is the system's most effective mechanism, because an informed patient might choose differently, and a different choice would reduce the revenue."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "The industry triangulates between the patient and the doctor — the patient sees the commercial and asks the doctor for the product, the doctor who was already being detailed by the representative prescribes it, and the triangulation ensures that the demand appears to originate from the patient rather than from the industry that created the demand through the advertising."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Your doctor is the pharmaceutical industry's most trusted flying monkey — a person of genuine authority and genuine care whose prescribing behavior was shaped by an education that was funded by the industry, by continuing education that was provided by the industry, by clinical guidelines that were influenced by the industry, and by a professional culture that was saturated by the industry — and the doctor's sincerity is what makes the influence effective."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "The patient who questions the medication is labeled \"non-compliant\" — a clinical term that sounds like a diagnosis and that converts the patient's autonomous decision-making into a treatment failure that is attributed to the patient rather than to the product."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "The pharmaceutical company that was asked about the side effect does not respond — the call center loops, the inquiry is \"escalated,\" the response never arrives, and the patient who experienced the harm is left with the harm and the silence."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "You \"consent\" to the medication by accepting the prescription — the consent manufactured by the authority of the prescriber, the urgency of the diagnosis, and the absence of presented alternatives."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "The patient is bonded to the medication through the cycle of symptom and relief — the symptom produces the suffering, the pill produces the relief, the relief produces the gratitude, the gratitude produces the dependency, and the dependency produces the bond — and the bond is maintained by the fear of what would happen without the pill, and the fear may be justified and the fear is also the bond."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "The patient who has been on medication for years has learned that they cannot manage their own chemistry — \"I can't function without my medication,\" \"my brain doesn't work without it,\" \"I've tried to stop and I can't\" — and the learned dependence on the chemical is the learned helplessness, and the helplessness was produced by a treatment that replaced the body's function rather than restoring it."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "The doctor who says \"I'm prescribing this for your own good\" is exercising clinical judgment that may be entirely correct and that also transfers the sovereignty over the patient's internal chemistry from the patient to the prescriber — and the transfer is the control, dressed in the language of care."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "The patient is treated as incapable of understanding their own medication — \"you wouldn't understand the mechanism,\" \"trust the science,\" \"just take it as prescribed\" — and the infantilization ensures that the patient does not ask the questions that would reveal the information the industry prefers they not have."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "The diagnosis becomes the identity — \"I am diabetic,\" \"I am bipolar,\" \"I am a chronic pain patient\" — and the identity is organized around the condition that requires the medication, which means the identity requires the medication, which means stopping the medication threatens the identity."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "\"The medication will take care of it\" bypasses the deeper inquiry — what the symptom is communicating, what the body needs, what conditions produced the suffering — and the bypass is efficient and the efficiency is the appeal, because the inquiry takes time and the pill takes thirty seconds and the thirty seconds feels like a solution and the solution prevents the inquiry."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Drug pricing in the United States is a form of financial control so extreme that it constitutes a survival threat — insulin at $300 per vial for a person who will die without it, cancer drugs at $10,000 per month for a person who has no alternative, and the pricing is set by the manufacturer with no negotiation required because the United States is the only developed nation that does not negotiate drug prices at the national level, a policy maintained by the lobbying of the pharmaceutical industry."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "\"If you don't take this medication, your condition will worsen\" is the prescriber's manufactured urgency — sometimes accurate, sometimes the installation of fear that overrides the deliberation the decision deserves."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "The patient whose insurance changes, whose medication is removed from the formulary, or whose condition no longer responds to the treatment is discharged from the pharmaceutical relationship — the prescription not renewed, the refill not authorized, the patient left to manage the withdrawal and the return of the symptoms without the support the system provided while the system was being paid."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "One medication replaces another — the antidepressant that stopped working replaced by the antidepressant that hasn't been tried yet, the statin replaced by the newer statin, the painkiller replaced by the stronger painkiller — and each replacement requires a new prescription, a new adjustment period, a new set of side effects, and a new revenue cycle."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The pharmaceutical company whose product caused the side effect says \"the product was approved by the FDA and prescribed by a licensed physician\" — and the approval and the prescription are the deniability, because the approval was obtained through a process the company funded and the prescription was written by a doctor the company influenced, and the chain of causation is laundered through authorities that appear independent."
+    }
+   }
+  },
+  "29": {
+   "sector": "Incarceration & Prison Industry",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "The system love-bombs the public, not the incarcerated — \"we keep you safe,\" \"we protect your community,\" \"justice has been served\" — and the warmth is directed at the voter, the taxpayer, the citizen who is asked to fund the cage without looking inside it, and the warmth ensures that the citizen experiences the system as a protector rather than as the operator of the largest incarceration apparatus in human history."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "The public defender is the system's weaponized generosity — a constitutional right to legal representation that is, in practice, a caseload of hundreds per attorney, ten minutes of preparation per case, and a legal defense that is technically provided and functionally absent, and the provision is the generosity and the insufficiency is the weapon."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "\"Do your time and you'll come out better\" is the system's foundational future fake — the promise that the incarceration will produce a transformation, that the person who enters the cage will emerge rehabilitated, employable, reintegrated — a promise that the system has never funded, never structured, and never delivered, but that is maintained because the promise is what makes the cage bearable and the bearing is what the system requires."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The parole system hoovers the released person back — the conditions of parole so numerous and so restrictive (curfews, travel restrictions, mandatory meetings, drug tests, employment requirements) that a technical violation is almost inevitable, and the violation returns the person to the cage without a new crime, and the return is the hoover."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The incarcerated person is devalued in the most literal sense available — stripped of their name (replaced by a number), stripped of their clothing (replaced by a uniform), stripped of their autonomy (every minute scheduled), stripped of their privacy (every space surveilled), stripped of their agency (every decision made by someone else) — and the stripping is called \"processing\" and the processing converts a human being into an inmate, and the conversion is the devaluation."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "The person who is arrested is told \"you have the right to remain silent, anything you say can and will be used against you\" — a warning that sounds like a protection and that functions as a threat, because the right that is offered is the right to not speak, and the not-speaking is the only safe option inside a system where every word you say is processed for incrimination rather than understanding."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "The person who is arrested faces the system's defining double bind — plead guilty and accept a certain punishment (the plea deal), or plead not guilty and risk a much harsher punishment if convicted at trial (the trial penalty) — and the bind ensures that approximately ninety-seven percent of criminal cases in the United States are resolved through plea bargains, which means the right to a trial — a constitutional guarantee — is functionally extinguished by a system that punishes the exercise of the right so severely that exercising it is irrational."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "The parole hearing is the incarceration system's intermittent reinforcement — the hearing that might result in release, the hope that might be fulfilled, the preparation that might be rewarded — and the hearing is denied, and the person must wait another year, and then another, and the intermittent schedule of the hearings produces the same anxious hope that intermittent reinforcement produces in every other sector."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "The conditions for release shift — \"complete the program\" but the program has a waiting list, \"maintain good behavior\" but the definition of good behavior changes, \"secure housing\" but no landlord will accept the conviction — and the goalposts move in the direction that serves the system's retention rather than the person's release."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "\"Justice\" is the most strategically ambiguous word in the sector — meaning punishment to some, meaning rehabilitation to others, meaning revenge to some, meaning restoration to others — and the ambiguity allows every participant in the system to believe they are pursuing justice while the system pursues incarceration."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The system that produced the conditions for the crime projects the cause onto the person who committed it — \"you chose this,\" \"you knew the consequences,\" \"you're responsible for your actions\" — while the conditions that constrained the person's choices (the poverty, the lack of education, the absence of opportunity, the untreated addiction, the untreated mental illness) are never named as the system's contribution to the outcome."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "The incarcerated person who files a grievance about conditions — the violence, the medical neglect, the overcrowding, the abuse — is placed in solitary confinement for \"disruption\" — the person who was harmed by the system is punished by the system for reporting the harm, and the punishment is the system's response to the accountability the person attempted."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "The first night in the cell is the worst night of your life — the sounds, the light, the smell, the fear, the concrete, the realization that the door will not open when you want it to — and by the hundredth night the worst has become the normal, and the normalization of captivity is the incarceration system's most intimate desensitization."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "The prison is the most literal isolation mechanism in this document — the person removed from their family, their community, their employment, their home, their identity — and placed behind walls that are designed not only to contain the body but to sever every connection the person had to the world outside. The phone calls are expensive and monitored. The visits are scheduled, surveilled, and often conducted through glass. The mail is read. The internet is unavailable. The isolation is total."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "The system triangulates between the incarcerated person and their family — \"your behavior determines your visitation privileges,\" \"your cooperation determines your parole date\" — and the triangulation uses the person's love for their family as leverage for compliance, because the person who might resist for themselves will comply for the chance to see their child."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "The person's own family may enforce the system — \"you should have known better,\" \"you brought this on yourself,\" \"just do your time\" — the love and the disappointment weaponized into compliance, the family's pain converted into the system's enforcement."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "The criminal record is a permanent smear campaign — the conviction that follows the person for the rest of their life, that appears on every background check, that defines the person in every subsequent interaction with every institution documented in this fractal — and the smear was applied by the system and maintained by the system and the person cannot remove it."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "The grievance process is the prison system's silent treatment — the complaint filed, the form submitted, the response delayed for weeks or months, the response that finally arrives saying \"no merit found\" without explanation — and the silence is the system's answer to every question the incarcerated person asks about the conditions of their captivity."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "The plea bargain manufactures consent — the person \"chooses\" to plead guilty under conditions that make the choice coerced, because the alternative to the plea is a trial that carries a sentence three to ten times longer, and the \"choice\" between five years and thirty years is not a choice, it is a threat wearing the language of options."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "The incarcerated person is bonded to the system through the cycle of punishment and privilege — the commissary as reward, the phone call as incentive, the good behavior credit as currency — and the system that controls every aspect of the person's life becomes the source of both the deprivation and the relief from the deprivation, and the oscillation produces the bond."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "The person who has been incarcerated for a decade has learned that the world outside no longer has a place for them — the skills are outdated, the connections are severed, the record is permanent, the stigma is total — and the helplessness is the product of a system that was designed to contain rather than prepare, and the containing produced the helplessness that the system then cites as evidence that the person cannot be released."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "The parole officer who says \"I'm here to help you succeed\" is exercising supervision that may be genuinely supportive and that is also a control mechanism — the officer determines whether the person is compliant, the determination determines whether the person returns to prison, and the \"help\" is conditional on compliance, and the compliance is the control."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "The incarcerated person is infantilized completely — told when to eat, when to sleep, when to exercise, what to wear, where to stand, when to speak, what to read — every dimension of adult autonomy removed and replaced by institutional authority, and the removal is called \"the program\" and the program produces a person who has been trained in obedience rather than in the self-governance that living outside the cage will require."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "The identity is replaced by the number — the name on the file is secondary to the number on the uniform, and the number is the person inside the system, and the person is the number, and the number has no history, no context, no complexity, no humanity that the system is required to recognize."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "\"God has a plan for you\" said to the person in the cage bypasses the injustice — the systemic racism, the inadequate representation, the prosecutorial overreach, the mandatory minimum — and converts the incarceration into a spiritual test rather than a structural failure."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "The incarcerated person's financial life is controlled completely — wages of zero to a few dollars per day, commissary prices set by a monopoly, phone call rates set by a monopoly, court-imposed fines and fees that accumulate during incarceration and that must be paid upon release — and the financial control ensures that the person who leaves the prison leaves with debt rather than savings."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "The \"tough on crime\" rhetoric manufactures individual crisis — the fear of the criminal, the fear of the neighborhood, the fear of the other — and the fear overrides the calculation that would reveal that crime rates have declined for decades while incarceration rates have increased, and the override is the crisis's function."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "The person who has served their sentence is discarded — released with minimal preparation, minimal support, minimal connection, and maximum barriers — and the discarding is the system's final act, the moment when the person who was processed by the institution is ejected by the institution into a world that the institution ensured they could not navigate."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "One prisoner replaces another — the bed is filled before it cools, the number is reassigned, the system processes the replacement with the same efficiency it processed the original — and the replacement is the proof that the system values the position, not the person."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The system that produced the conditions says \"they made their choice\" — and the choice is the deniability, because a person who chose is a person who is responsible, and a person who is responsible is a person who deserves the consequence, and the deserving is what makes the cage acceptable."
+    }
+   }
+  }
+ }
+}

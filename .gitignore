@@ -21,3 +21,21 @@ scripts/covers/_work/
 # verify-*.mjs runs. Same reasoning as scripts/covers/_work/ above: an
 # intermediate, never a deliverable.
 /_work/
+
+# Sacred Divide per-religion PDFs are build output (scripts/sacred-divide-pdf.py --all rebuilds
+# all 34 in ~2 minutes); only the reviewed example and the manifest are committed
+library/_undeployed/sacred-divide-pdf/*.pdf
+!library/_undeployed/sacred-divide-pdf/sunni-islam.pdf
+# Expanded editions (scripts/sacred-divide-pdf-expanded.py --all, ~6 minutes for 34): the three
+# pages under outside review are committed as examples; the rest rebuild from source
+library/_undeployed/sacred-divide-pdf/expanded/*.pdf
+!library/_undeployed/sacred-divide-pdf/expanded/sunni-islam-expanded.pdf
+!library/_undeployed/sacred-divide-pdf/expanded/judaism-expanded.pdf
+!library/_undeployed/sacred-divide-pdf/expanded/catholicism-expanded.pdf
+tools/pdf/.build-*.html
+
+# Local preview of the Sacred Divide site (relative links, no visit counter). The live build is
+# library/faith/ (scripts/sacred-divide-site.py --base /faith/ --pdf-base /faith/pdf/ --ext "" --live --out library/faith)
+library/_undeployed/sacred-divide-redesign/
+exports/tiktok-*/
+exports/sacred-divide-protestant-evangelical-pdf-and-tiktok.zip

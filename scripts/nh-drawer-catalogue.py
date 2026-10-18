@@ -15,7 +15,7 @@ SITE = "https://noblefathercreations.com"
 # (data-nh key, href, title, description) -- grouped, in display order.
 GROUPS = [
     ("The books", [
-        ("faith",     f"{SITE}/faith",     "The Coercive Control Codex", "Honor the faith &middot; name the machinery"),
+        ("faith",     f"{SITE}/faith",     "The Sacred Divide", "Honor the faith &middot; name the machinery"),
         ("loop",      f"{SITE}/loop",      "The Loop", "The machine that learns you"),
         ("scale",     f"{SITE}/scale",     "The Weighing", "How to be right about people"),
         ("fractal",   f"{SITE}/fractal",   "The Fractal", "The architecture, 29 sectors wide"),

@@ -31,7 +31,7 @@ into one document.
 
 ## How `faith.md` got solved
 
-The Coercive Control Codex's 27 traditions weren't in static HTML or a
+The Sacred Divide's 27 traditions weren't in static HTML or a
 cleanly-named data object like every other book. The renderer functions
 all referenced `D.religions`, but `D` itself wasn't assigned at any
 `const D=`/`var D=` I could find by searching directly — because it isn't

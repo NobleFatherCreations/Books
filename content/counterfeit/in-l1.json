@@ -1,0 +1,1643 @@
+{
+ "kind": "fractal",
+ "items": {
+  "2-inst": {
+   "sector": "Politics & Government",
+   "level": "Institutional",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "New administrations launch with sweeping rhetoric — a new era, a new beginning, hope and change and morning in America and a future we can believe in — language designed to generate emotional investment before a single policy is enacted."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "Government programs distribute just enough aid to create dependency without creating sufficiency — food stamps that keep you fed but not secure, housing vouchers that keep you sheltered but not stable, stimulus payments that keep you grateful but not free — and the generosity is real and the generosity is also a leash, because a population that depends on the government for survival is a population that cannot afford to challenge the government that feeds it."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "Legislation is named after the solution it will never deliver — affordable care that isn't affordable, no child left behind while millions are, justice reform that reforms nothing."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "Election cycles are designed specifically to re-engage the disillusioned — not with new ideas but with fear of the other candidate, not with hope but with the terror of what happens if you don't show up."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "Populations that dissent are labeled with language designed to strip them of legitimacy — deplorables, radicals, extremists, threats to democracy — the people who were essential become expendable the moment they stop being useful."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "Government agencies deny events that citizens witnessed firsthand — crises are reclassified, death tolls are revised downward, footage is sealed, and official narratives replace lived experience."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "Whistleblowers face the definitive institutional double bind — stay silent and you are complicit in the harm, speak up and you are destroyed for exposing it — and the bind is not a flaw in the system but its immune response, designed to ensure that the cost of truth is always higher than the cost of silence."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Stimulus checks arrive, tax breaks pass, infrastructure is promised then delayed then partially delivered — small wins alternating with austerity, relief alternating with neglect, in a rhythm the population cannot predict but cannot stop responding to."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "Criteria for policy success are constantly redefined — metrics change to match outcomes rather than outcomes measured against stable metrics, so that failure can always be reframed as progress."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "Legislation is written with deliberate vagueness — \"reasonable,\" \"appropriate,\" \"as necessary,\" \"in the public interest\" — language that sounds like guardrails but functions as trapdoors, because the interpretation of every vague term is controlled by the institution that wrote it, and the interpretation can change without the language changing."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "Administrations engaged in mass surveillance accuse citizens of being threats to national security — the entity doing the watching frames the watched as dangerous."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "Government agencies that harm citizens through negligence, corruption, or overreach sue the whistleblowers who exposed them — the harm doer becomes the plaintiff and the truth teller becomes the accused."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "Government overreach is normalized through incremental expansion — each new power granted during an emergency becomes the baseline for the next emergency, each surveillance measure justified by a crisis becomes permanent after the crisis passes, each executive authority expanded in wartime remains expanded in peacetime — and the increments are small enough to avoid resistance but cumulative enough to fundamentally alter the relationship between the citizen and the state."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Nations are cut off from alliances through sanctions and trade restrictions presented as protection for the sanctioned nation — isolation disguised as medicine."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "Government pits demographics against each other — race against race, class against class, rural against urban, young against old — so that the population fights over crumbs while the table stays set for the same people it has always been set for."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Media outlets aligned with political parties do the attacking so the politician's hands stay clean — the proxy says what the principal cannot say in public."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Entire movements are delegitimized through coordinated labeling — conspiracy theorists, radicals, domestic threats, misinformation spreaders — language that bypasses evaluation and lands directly on identity."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Congressional hearings become performances where officials refuse to answer direct questions — institutional silence performed publicly, accountability theater with no accountability."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "Polling is designed to produce the answers that justify the policy — questions framed to generate a specific response, samples selected to reflect a specific demographic, results published to create the appearance of popular support for a decision that was made before the poll was commissioned."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "National identity is built on trauma narratives — wars, attacks, disasters, and near-misses becoming founding myths that bind the population to the state through emotional memory."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "Entire demographics have been trained into political helplessness — communities that were gerrymandered into irrelevance, populations whose votes are structurally diluted, groups whose policy priorities have been ignored for so many consecutive administrations that the act of hoping feels like a setup for disappointment."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "Emergency powers are justified as temporary protective measures — curfews, travel bans, surveillance expansions, detention without trial — each one presented as a necessary response to a genuine threat, and the genuineness of the threat makes the measure feel reasonable, and the reasonableness is never re-evaluated after the threat passes because the measure has already become infrastructure."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "Entire populations are treated as incapable of handling information — classified documents withheld from the public \"for national security,\" data simplified beyond recognition \"so people can understand it,\" policy decisions made behind closed doors \"because the public would panic\" — and the infantilization ensures that the governed never develop the informational maturity to evaluate the governors, which is presented as protection but functions as control."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Citizens are reduced to party affiliation — individual identity replaced by political tribe, personal complexity flattened into a binary that serves the system but erases the human."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "Governments use patriotic mythology to bypass the emotional reality of their policies — the flag is waved while the veteran starves, the anthem is sung while the citizen is surveilled, the founding documents are quoted while their principles are violated — and the mythology functions as a spiritual bypass because it provides an elevated narrative that allows the population to feel good about a country whose policies make them feel bad, and the good feeling is cheaper to produce than the policy change."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Lobbying determines legislation — policy is purchased by corporations and delivered by politicians who function as intermediaries between money and law."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "Government agencies manufacture urgency to justify expanded powers — elevated threat levels, emergency declarations, and public health mandates that concentrate authority while the population is too afraid to question the concentration."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Allied nations are abandoned when they no longer serve strategic interests — decades of partnership dissolved in a single policy shift, entire populations left to face consequences they were promised protection from."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "New administrations reverse everything the previous one built — policy as pendulum, continuity as theater, governance as performance that resets every four years while the permanent structures of power remain untouched beneath the stage."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "Government harm is structured through bureaucratic architecture that makes accountability impossible — forms that were filed, protocols that were followed, procedures that were technically correct even when the outcome was devastating — and the institution can point to the process as proof of its diligence even when the process produced the harm, because the process was designed to produce the outcome while protecting the institution from responsibility for it."
+    }
+   }
+  },
+  "2-civ": {
+   "sector": "Politics & Government",
+   "level": "Civilizational",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "Entire nations are sold on ideological utopias — the American Dream, the Revolution, the Great Society, the New World Order — grand narratives that promise paradise through participation and deliver just enough to keep the population investing in the next version."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "Foreign aid is the purest form of weaponized generosity at scale — billions sent to nations that the donor nation destabilized, development programs attached to trade agreements that serve the donor, humanitarian corridors that coincidentally follow resource pipelines — and the aid creates dependency by design, because a dependent nation is a compliant nation, and compliance is what the aid was always purchasing."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "Entire generations are promised that the next war will bring peace, the next trade deal will bring prosperity, the next election will bring change — and the promise is renewed every cycle because the promise was never meant to be fulfilled, only to be believed long enough to secure compliance."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "Nationalism is reactivated during every crisis — flags go up, anthems play louder, \"united we stand\" echoes through the culture until the crisis passes and the unity dissolves and the population realizes it was summoned not to be served but to serve."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "Entire demographics are systematically devalued through policy — redlining, gerrymandering, voter suppression, immigration enforcement, and resource allocation that quietly says some lives count more than others without ever having to say it out loud."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "Entire histories are rewritten — wars of aggression reframed as liberation, coups reframed as democratic transitions, genocide reframed as necessary progress, and the beneficiaries of these lies teach them in schools as fact."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "Entire populations are placed in civilizational double binds by their governments — support the war and fund the killing, oppose the war and be labeled a traitor; comply with surveillance and lose your privacy, resist surveillance and be treated as a threat; participate in the economy and be extracted from, withdraw from the economy and lose the ability to survive — and the bind ensures that every citizen is either complicit or punished, and neither path leads to freedom, which is how the system maintains control without explicitly restricting it."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Decades of progress alternate with decades of regression — rights granted then eroded, freedoms expanded then contracted, hope and despair traded back and forth across generations in a pattern that prevents the population from ever stabilizing long enough to see the machine that is rocking them."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "Constitutional rights are reinterpreted with each new court, each new administration, each new generation — the standard is never fixed, the meaning is never settled, and the rights you thought you had turn out to be subject to the priorities of whoever holds power when your case comes up."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "International agreements, treaties, and accords are masterpieces of strategic ambiguity — commitments that sound binding but contain no enforcement mechanisms, goals that sound ambitious but include no timelines, promises that sound mutual but distribute obligations asymmetrically — and the ambiguity is not a failure of diplomacy but its primary tool, because a document that means different things to different signatories is a document that every signatory can cite as supporting whatever they were going to do anyway."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "Empires that destabilized entire regions through intervention, extraction, and imposed regime change accuse those regions of instability — and then offer to stabilize them for a price. stabilize them for a price."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "Colonial powers that extracted wealth, labor, and sovereignty from entire continents claim victimhood when those formerly colonized nations demand reparations or simply tell the truth about what happened to them."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "The normalization of political violence, corruption, inequality, and institutional failure is the defining feature of late-stage governance — populations that once would have revolted now shrug, not because they approve but because the outrage has been exhausted by repetition, and a population that cannot muster outrage is a population that cannot generate change, and the inability to generate change is not apathy, it is the final product of a desensitization campaign that took decades to complete."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Populations are divided along party lines so precisely that neighbors cannot speak to each other, families fracture over politics, and shared reality disappears — isolation disguised as identity, engineered so thoroughly that the divided population blames itself for the division."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "Superpowers fund both sides of foreign conflicts, arm both sides of civil wars, and destabilize entire regions so that no nation can consolidate enough power to challenge the empire doing the funding."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Intelligence agencies fund proxy wars, install puppet governments, train paramilitary forces, and destabilize sovereign nations so that the empire never has to officially invade — the violence is outsourced and the accountability is erased."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Historical figures who threatened institutional power are retroactively smeared — their names rewritten, their legacies distorted, their contributions buried under narratives crafted by the very systems they challenged."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Decades of citizen demands go unacknowledged — petitions ignored, protests unregistered, movements that represent millions treated as if they do not exist by the systems they are trying to reform."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "The entire concept of public opinion is managed — media coverage determines which issues the population thinks about, framing determines how they think about them, and the illusion of grassroots consensus is manufactured by think tanks, lobbying firms, and communications strategists who understand that a population that believes it chose something will defend it more vigorously than a population that knows it was told to accept it."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Entire civilizations are bonded to governance through centuries of cyclical crisis and rescue — the state creates the conditions that produce suffering and then positions itself as the only entity capable of relieving it."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "Learned helplessness is the single most valuable product of an extractive political system — \"nothing ever changes,\" \"they're all the same,\" \"my vote doesn't matter,\" \"the system is too big to fix\" — and every one of these sentences is both a reasonable conclusion drawn from evidence and the exact state of mind the system needs the population to reach, because a population that believes change is impossible is a population that will never attempt it, and a population that never attempts change is a population that can be governed without its consent."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "Entire geopolitical architectures are built on benevolent control — military bases positioned in allied nations \"for their protection,\" economic agreements structured to \"help developing nations grow,\" regime changes executed to \"liberate oppressed populations\" — and the benevolence is the packaging that makes the control palatable, and the packaging has been so successful that entire populations defend the presence of foreign military on their soil because they were told the military is there to keep them safe."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "The relationship between state and citizen in most democracies is structurally paternalistic — the state decides what is safe to eat, what is legal to ingest, what is appropriate to say, what is permissible to know, how fast to drive, when to sleep, what your children must learn, and how your body must be treated in a medical emergency — and while many of these regulations serve genuine protective functions, the cumulative effect is a citizenry that has outsourced its judgment to an authority that has never demonstrated the trustworthiness that justifies the outsourcing."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Entire cultures are compressed into political categories — billions of people sorted into left or right, red or blue, conservative or liberal — humanity reduced to voting blocs managed by strategists who see populations as numbers, not people."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "\"Manifest destiny,\" \"the arc of the moral universe,\" \"the invisible hand of the market,\" and \"the end of history\" are all civilizational-scale spiritual bypasses — grand narratives that attribute the outcomes of human decisions to forces beyond human accountability, which means the humans who made the decisions that produced the suffering are shielded by a mythology that says the suffering was inevitable, necessary, or part of a larger plan that will eventually redeem it."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Central banking systems control the money supply of entire nations, sovereign governments carry debt to private institutions, and economic sovereignty is quietly transferred from the people to entities they did not elect and cannot remove."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "Wars are started on false pretenses — fabricated intelligence, staged provocations, and manufactured enemies used to justify invasions that serve economic and strategic interests while millions of human bodies absorb the cost."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Entire peoples are discarded after their labor or land or resources have been extracted — indigenous communities displaced, colonized nations stripped, and working populations hollowed out by the very systems they built with their hands."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "One empire replaces another across centuries — the flag changes, the anthem changes, the language changes, but the extraction model remains identical because the pattern was never about the empire. It was about the machine. And the machine does not care whose name is on the building. It only cares that the building stays open."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "Plausible deniability is the defining feature of modern statecraft — covert operations conducted through intermediaries, economic warfare waged through sanctions that technically target governments but practically starve populations, intelligence operations that destabilize nations through methods that leave no official fingerprint — and the deniability is plausible not because the truth is unknown but because the truth is unprovable, and the distance between what everyone knows and what can be demonstrated in a court of law is the space where empires operate."
+    }
+   }
+  },
+  "3-inst": {
+   "sector": "Media & Information",
+   "level": "Institutional",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "New platforms launch with utopian promises — connecting the world, democratizing information, giving everyone a voice, leveling the playing field — language that sounds like liberation and functions as onboarding."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "Media outlets offer free content — free news, free analysis, free opinion, free streaming — and the generosity builds a dependency that makes the audience unable to function without the feed, and the dependency is the product, because an audience that depends on you for its understanding of reality is an audience that cannot challenge your version of it."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "Platforms promise fair creator monetization that never materializes — the terms change, the algorithm shifts, the revenue share shrinks, and the promise of a sustainable living remains permanently around the next corner."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "Outrage cycles are engineered to re-engage audiences who attempted to disconnect — the story is so alarming, so infuriating, so personally relevant that stepping away feels irresponsible."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "Independent journalists and small outlets are labeled as unreliable, partisan, and dangerous — their credibility attacked not because their reporting is inaccurate but because their existence threatens the monopoly on narrative."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "Events witnessed by millions are reframed within hours — \"what you saw isn't what happened,\" official narratives override collective experience, and the population learns to distrust its own eyes."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "Journalists face a structural double bind — publish what's true and risk losing access to the sources that provide the truth, maintain access by softening the truth and become complicit in the distortion — and the bind ensures that the reporting that reaches the public is always filtered through the journalist's calculation of what they can afford to say, which is never the same as what they know."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "News cycles alternate between terror and relief — catastrophe followed by heartwarming stories, crisis followed by distraction — a rhythm that keeps the nervous system in a state of perpetual dysregulation disguised as staying informed."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "Community guidelines are rewritten to justify retroactive enforcement — content that was compliant when posted becomes a violation when the policy changes, and the creator is punished for following rules that no longer exist."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "Editorial standards at major outlets use phrases like \"sources say,\" \"officials familiar with the matter,\" and \"according to people who spoke on condition of anonymity\" — language that sounds like transparency but functions as a shield, because the source cannot be verified, the claim cannot be challenged, and the outlet's credibility becomes the only evidence offered."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "Platforms that harvest user data at unprecedented scale accuse users of not protecting their own privacy — the entity that built the surveillance system blames the people inside it for being surveilled."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "Networks caught broadcasting false information sue the fact-checkers who identified the falsehood — the entity that lied becomes the plaintiff and the entity that told the truth becomes the defendant."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "The normalization of surveillance, data harvesting, and algorithmic manipulation has been so gradual and so consistent that practices that would have triggered mass protest twenty years ago are now accepted as the cost of using a search engine — the population surrendered its privacy not in a single dramatic moment but in a million small terms-of-service agreements that each took one more inch of territory."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Deplatforming and shadow-banning isolate dissenting voices from their audiences — the person still speaks but nobody can hear them, which is a silence more complete than censorship because the speaker doesn't even know they've been muted."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "Networks pit left against right while corporate ownership profits from both — the argument is the product, the division is the revenue model, and the resolution of the argument would be the end of the business."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Fact-checking organizations funded by the entities they should be investigating perform credibility laundering — the check itself becomes the weapon, and the checked have no recourse because questioning a fact-checker makes you sound like you oppose facts."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Entire movements are delegitimized through selective coverage and strategic framing — showing the worst elements, ignoring the core message, and repeating the most dismissive label until it becomes the only word the public associates with the movement."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Stories that threaten power simply never get covered — there is no denial, no retraction, no counter-narrative, just absence, and the absence is so total that the event ceases to exist in public consciousness because if it wasn't reported it didn't happen."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "Public opinion is manufactured through coordinated media saturation — the same talking point appears on six networks in the same hour, the same framing appears in twelve publications in the same day, and the repetition creates the appearance of consensus that the audience mistakes for organic agreement when it is in fact coordinated messaging."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Audiences are bonded to specific outlets through shared outrage — the network's anger becomes your anger, their enemy becomes your enemy, and the nightly broadcast becomes a ritual of collective dysregulation that feels like community because everyone is hurting in the same direction."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "Entire communities of independent journalists, researchers, and truth-tellers have learned that challenging mainstream narratives results in professional destruction — funding pulled, access revoked, reputation attacked, audience algorithmically removed — and the helplessness is collective and contagious, because each person who is destroyed serves as a lesson to everyone watching."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "\"Content moderation\" is the language of benevolent control — the platform positions itself as the protector of public discourse while simultaneously controlling what discourse is allowed, and the control is performed in the name of safety and the safety is defined by the controller."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "Media literacy is discussed endlessly while the structural conditions that require it are never addressed — the solution is always to educate the consumer rather than regulate the producer, which means the population is treated as the problem and the system that produces the problem is treated as the educator, and the educator has no incentive to produce a student that no longer needs its guidance."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Nuanced, complex, contradictory human beings are flattened into takes and hot takes and engagement metrics — a person's entire intellectual and emotional life reduced to a position on an issue, and that position reduced to a reaction, and that reaction measured not by its depth but by how many people clicked on it."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "Media outlets convert systemic failures into feel-good stories — the child who raises money for their own surgery framed as inspiring rather than indicting, the community that rebuilds after a disaster framed as resilient rather than abandoned — and the framing bypasses the political reality by routing the audience's emotion through a narrative that feels like hope but functions as anesthesia."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Advertising revenue determines which stories get told and which get buried — money edits the news before it reaches the editor, and the stories that survive are the stories that don't threaten the advertisers."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "Networks amplify division during election cycles, crisis periods, and cultural flashpoints to boost ratings — the crisis is real but the amplification is strategic, and the volume is controlled by people who profit from the noise."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Journalists who challenge editorial direction are quietly reassigned, sidelined, or let go — their byline disappears and no one publishes an explanation."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "A new platform replaces the old platform with the same business model wearing different clothes — the interface changes, the name changes, the onboarding experience feels fresh, but the extraction mechanism underneath is identical."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "Media outlets that amplify division, extremism, and misinformation point to editorial independence, algorithmic neutrality, and the First Amendment — each one a legitimate principle that is being used as a shield for outcomes the institution could prevent but chooses not to because preventing them would reduce engagement and engagement is revenue."
+    }
+   }
+  },
+  "3-civ": {
+   "sector": "Media & Information",
+   "level": "Civilizational",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "Mass media positions itself as the sacred guardian of truth and democracy — the idealized fourth estate, the noble watchdog, the institution without which civilization would collapse — and the population grants it authority based on what it claims to be rather than what it has proven itself to be."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "The entire internet was positioned as a gift to humanity — free information, free connection, free expression, free access to the sum of human knowledge — and the gift was real and the gift was also the most sophisticated onboarding strategy ever deployed, because a civilization that moved its communication, its commerce, its relationships, its politics, and its identity onto a platform it doesn't own has given the platform something it can never get back, and the platform knows this, and the platform's generosity was never about giving, it was about making the taking invisible."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "Media has promised an informed citizenry for over a century while consistently delivering entertainment disguised as journalism, outrage disguised as analysis, and spectacle disguised as truth — the promise of an enlightened public renewed every generation and fulfilled in none of them."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "Every generation personally relevant that stepping away feels irresponsible. Every generation is promised \"this is the platform that will finally get it right\" — this is the technology that will fix the problems the last technology created — and the population re-enters the attention economy with renewed faith that this time it will be different."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "Public trust itself is systematically eroded — citizens told they cannot interpret reality without institutional guidance, that their own perception is unreliable, that without an approved mediator between them and the world they will be lost in misinformation, which is another way of saying they will be free."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "Decades of manufactured consensus replace organic understanding — populations are trained through repetition to accept narratives that contradict their lived experience, and the gap between what they feel and what they are told becomes so normalized that they stop noticing it entirely."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "The entire information ecosystem places the population in a double bind — engage with media and be manipulated, disengage from media and be uninformed — and neither position produces a citizen capable of genuine self-governance, which is the point, because a population that is either manipulated or ignorant is a population that can be managed, and management is what the information system was built to enable."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Decades of \"things are getting better\" alternate with decades of \"everything is falling apart\" — hope and fear traded back and forth across generations in a pattern designed to prevent the population from ever reaching the emotional equilibrium required to see clearly."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "The definition of truth itself shifts based on institutional convenience — what is misinformation today was accepted science yesterday, what is fact today was conspiracy last year, and the population is expected to update its understanding on command without ever questioning who is commanding the update or why."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "The phrase \"misinformation\" has become the most strategically ambiguous term in the modern information landscape — applied to everything from demonstrable falsehood to inconvenient truth to premature accuracy to unsanctioned opinion — and the ambiguity of the term is its power, because a label that can mean anything can be applied to anyone, and a population that accepts the label without demanding a definition has given the labeler the authority to decide what is true."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "Propaganda machines with decades of documented manipulation label independent thought as propaganda — the word itself colonized by the very thing it was invented to describe."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "Institutions that manufactured consent for wars, normalized surveillance, and suppressed inconvenient truths for decades claim to be the victims of public distrust — as if the distrust is an attack rather than a natural consequence of being lied to repeatedly."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "The normalization of propaganda itself is the media system's final achievement — the population knows it is being manipulated, discusses the manipulation openly, shares articles about the manipulation, and then opens the app and consumes the manipulation anyway, because the knowledge of the pattern no longer produces the behavioral change the knowledge should produce, and the gap between knowing and acting is where normalization lives."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Information silos create parallel civilizations occupying the same geography but inhabiting completely different realities — populations that cannot communicate across ideological lines because they no longer share a common set of facts, or even a common understanding of what a fact is."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "Global media empires owned by the same entities fund opposing narratives simultaneously — the illusion of ideological diversity maintained by a concentration of ownership so severe that the entire spectrum of debate occurs within a range defined by a handful of people the audience has never met."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Intelligence agencies use media outlets as distribution channels for approved narratives — the story originates in a classified briefing, passes through a trusted journalist, and arrives in public consciousness as reporting rather than placement."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Entire nations are demonized through decades of media portrayal — a country's culture reduced to its worst stereotypes, its people flattened into caricatures, its complexity erased so completely that when intervention comes the public feels it is justified because they have been trained to see monsters rather than humans."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Entire histories are erased through omission — generations grow up without knowing what was done in their name, without access to information that would change how they understand their own country, their own institutions, their own identity — and the silence is so vast and so normalized that most people don't even know there is something they don't know."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "Noam Chomsky named this mechanism decades ago and the naming changed nothing because the mechanism is so deeply embedded in the information architecture that recognizing it does not disable it — the population consents to wars it didn't choose, policies it didn't evaluate, and narratives it didn't verify because the consent was manufactured before the question was asked, and a population that believes it arrived at its own conclusion will defend that conclusion more fiercely than one that knows it was told what to think."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Entire populations are addicted to the news cycle as a stress response — the nervous system has been trained to scan for threat through a screen, and the absence of information feels more dangerous than the presence of misinformation, which means the population cannot stop consuming the very thing that is destabilizing it."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "The phrase \"you can't fight the algorithm\" is the sound of civilizational learned helplessness — the collective acceptance that an invisible, unaccountable, opaque system determines what billions of people see, think, and believe, and the acceptance is not agreement but exhaustion, and the exhaustion is the product."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "The entire concept of \"trusted sources\" functions as benevolent control at scale — certain outlets are elevated as reliable and others suppressed as dangerous, certain voices are amplified as authoritative and others silenced as fringe — and the curation is presented as quality control when it is actually narrative control, and the population that accepts the curation has outsourced its discernment to an entity that has a financial interest in what the population believes."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "The infantilization of the public by the media system is so complete that a significant portion of the population cannot distinguish between a news report and an opinion column, between a sponsored post and an organic one, between a documentary and a docudrama — and the inability is not innate but cultivated by a system that profits from confusion while claiming to combat it."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Collective identity is no longer formed through shared experience but through algorithmic sorting — humanity categorized into consumer segments, political blocs, and behavioral profiles by systems that do not care who you are but care enormously about what you will click on next."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "The phrase \"the marketplace of ideas\" functions as a spiritual bypass for information inequality — the belief that truth will naturally rise to the surface in a free information environment ignores the fact that the environment is not free, that the marketplace is rigged, that the loudest voices are the best-funded voices, and that the population's exposure to ideas is curated by algorithms that optimize for engagement rather than truth — and the metaphor of the marketplace makes the rigging invisible by attributing the outcome to a natural process rather than a designed one."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Six corporations control approximately ninety percent of everything the Western world reads, watches, and hears — the flow of information through an entire civilization controlled by a boardroom small enough to fit in a single restaurant, making decisions about what billions of people will believe over appetizers."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "A perpetual state of informational emergency is maintained across decades — the public is never allowed to rest, never allowed to process, never given a week without a new threat, a new scandal, a new emergency that demands their attention immediately and then is replaced by the next one before it can be resolved."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Entire media formats are abandoned when they stop generating profit — local newspapers shuttered, radio stations consolidated, platforms closed — and the communities that were built on them are left without a voice, without a record, without proof that they existed."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "One propaganda framework replaces another across decades — the medium shifts from print to radio to television to social media to whatever comes next, but the function never changes because the function was never about the medium. It was about controlling what a population believes. And belief doesn't care what screen it's delivered on. It only cares that the screen stays on."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The entire attention economy is structured around plausible deniability — \"we don't control what people see, the algorithm does,\" \"we don't create the content, the users do,\" \"we don't cause the harm, the technology is neutral\" — and every layer of deniability is technically accurate and structurally dishonest, because the algorithm was designed by people, the platform was built to amplify what harms, and the neutrality was a design choice made by an entity that profits from the specific kind of non-neutrality the neutral system produces."
+    }
+   }
+  },
+  "4-inst": {
+   "sector": "Education",
+   "level": "Institutional",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "The university promises transformation — \"this degree will change your life\" — and the campus tour shows sunlit quads and smiling students and state-of-the-art facilities and a future so bright it hurts to look at, and by the time you sign the loan documents you are not making a financial decision, you are making an emotional one, because they sold you belonging before they sold you tuition."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "Universities offer financial aid packages that reduce the sticker price just enough to make the debt feel manageable while ensuring the student still borrows more than they can comfortably repay — the generosity is calculated, the calculation is invisible, and the student experiences the aid as a gift rather than as a discount on an overpriced product."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "Universities guarantee career success on brochures and websites while graduate employment rates in the promised fields decline every year — the institution collects tuition in the present for outcomes it has no intention or ability to deliver in the future, and by the time the student realizes the gap between the promise and the reality, the debt is already real and the degree is already printed."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "Alumni campaigns target graduates through nostalgia and emotional obligation — give back, donate, attend the reunion, wear the sweatshirt, maintain your identity as a product of this institution long after you have left it, because your loyalty is a revenue stream and your nostalgia is an asset."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "Schools in low-income communities are systematically underfunded, labeled as failing, placed on watchlists, and stripped of resources — the very communities that need the most investment receive the least, and the resulting outcomes are used as evidence that the community is the problem rather than the funding."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "Standardized testing is presented as an objective measure of intelligence and aptitude when what it actually measures is the ability to comply with a specific format, decode culturally biased language, and perform under artificial pressure — and when students from marginalized backgrounds score lower, the test is protected and the students are pathologized."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "Teachers face an impossible bind — teach to the test and watch the children's curiosity die, teach for genuine understanding and watch your performance metrics suffer — and the bind ensures that the people who care most about education are the people most damaged by the system that claims to deliver it."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Scholarships, honor rolls, dean's lists, and awards are distributed just unpredictably enough to keep the student body in a perpetual state of striving — recognition dangled like a carrot that sometimes arrives and sometimes doesn't, and the inconsistency is not a flaw in the system but a feature of it, because consistent reward produces satisfaction and satisfaction produces stillness and stillness is the one thing the system cannot afford."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "Curriculum standards change faster than teachers can adapt — new frameworks adopted before the last ones were understood, new testing requirements implemented before the last results were analyzed, and educators punished for failing to hit targets that were moved while they were teaching."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "School policies are written with language like \"at the administration's discretion,\" \"as deemed appropriate,\" and \"consistent with the school's mission\" — phrases that sound like standards but function as blank checks, giving the institution authority to act without criteria and the student no grounds for appeal."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "Schools that systematically fail students blame parents, communities, home environments, and cultural factors — anything outside the institution becomes the explanation for outcomes the institution produced, and the institution remains the solution to the very problems it is generating."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "Parents who challenge school policy, question curriculum, or advocate loudly for their children are labeled as difficult, disruptive, and counterproductive — the parent trying to protect their child becomes the threat, and the institution that failed to protect the child becomes the victim of the parent's advocacy."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "Practices that would be considered abusive in any other context are normalized inside schools — forcing children to sit motionless for six hours, restricting bathroom access, punishing movement, grading worth on a numerical scale, publicly ranking performance, denying food as a consequence — and each practice is so embedded in the institutional culture that challenging any single one is treated as radical."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Academic disciplines are siloed so thoroughly that a student can spend sixteen years in school and never once be taught to think across categories — science doesn't speak to art, psychology doesn't speak to economics, philosophy doesn't speak to biology — and the connections between everything, which is where actual understanding lives, are never illuminated because the system is organized around departments, not around truth."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "Schools are ranked against each other and funding is tied to performance metrics — schools competing for survival rather than collaborating for growth, administrators making decisions based on numbers rather than children, and teachers caught between what they know is right and what the system will measure."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Accreditation bodies police compliance and gatekeep legitimacy — ensuring that no school can deviate from the approved model, that no alternative approach can gain footing without institutional approval, and that the definition of \"quality education\" remains under the control of the organizations that profit from defining it."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Alternative education models — Montessori, Waldorf, democratic free schools, project-based learning, unschooling — are dismissed as fringe, unserious, academically inferior, and socially isolating, not because evidence supports these claims but because the existence of functional alternatives threatens the monopoly of the dominant model."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Complaints about bullying, discrimination, abuse, or curricular harm are filed and then disappear into bureaucratic silence — acknowledged with a form, assigned a case number, and never addressed, which communicates to the person who spoke up that speaking up was pointless, which ensures that fewer people speak up next time."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "Parent-teacher organizations and school boards provide the appearance of community governance while operating within constraints so tight that meaningful change is nearly impossible — the budget is set, the curriculum is standardized, the testing is mandated, and the board's authority extends to the margins of a system whose center was designed by entities that never asked the community what it wanted."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "School spirit is manufactured through shared adversity — initiation rituals, hazing traditions, grueling athletic programs, and the collective mythology that enduring hardship together creates belonging, which it does, but the belonging is built on trauma rather than trust, and the difference between those two foundations doesn't become visible until much later."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "Entire teaching staffs have learned helplessness — \"the district won't let us,\" \"the testing requirements don't allow it,\" \"this is just how it is\" — and the helplessness is institutional in both origin and effect, because the teachers who want to teach differently are trapped inside a system that punishes deviation, and the students who need to learn differently are taught by teachers who cannot deviate."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "Compulsory attendance laws, standardized curricula, and mandatory testing are all framed as protections for the child — \"we're making sure every child gets an equal education\" — while the enforcement of those protections looks identical to the enforcement of compliance, and the distinction between protecting a child and processing a child disappears inside the institution's definition of both."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "The educational system extends infantilization into adulthood — college students required to take attendance-tracked courses, graduate students treated as apprentices rather than peers, adult learners subjected to testing formats designed for children — and the extension ensures that the system's authority is never outgrown, only transferred to the next institution."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Students learn to perform intelligence rather than develop wisdom — the ability to produce correct answers on demand replaces the ability to sit with uncertainty, to ask questions that have no answers, to think across disciplines, to tolerate not knowing — and the system rewards the performance so thoroughly that by graduation the student genuinely cannot tell the difference between understanding something and being able to repeat it."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "Schools use the language of growth mindset and resilience to bypass the structural conditions that produce the suffering — \"you can do anything if you believe in yourself\" delivered to a child in an underfunded school with outdated textbooks and a teacher who is working two jobs — and the inspirational framing bypasses the material reality so effectively that the child who fails is diagnosed as lacking grit rather than lacking resources."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Student loan debt that cannot be discharged in bankruptcy functions as a modern, legalized, socially acceptable form of indentured servitude — the graduate cannot escape the debt even through financial collapse, which means the institution's revenue is protected by the same legal system that claims to protect the borrower, and the diploma that was supposed to be a key becomes a chain attached to the same door it promised to open."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "Annual standardized testing crises determine school funding, teacher employment, and administrative survival — panic engineered into the calendar like a season, every spring a performance that has nothing to do with whether children are learning and everything to do with whether the numbers justify the budget."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Teachers who challenge administration, question curriculum, advocate for students over metrics, or speak honestly about what the system is doing to children are quietly non-renewed, reassigned, or pressured out — their contracts lapse without explanation, their positions filled before the school year ends, their years of service reduced to a line on an HR spreadsheet."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "Experienced teachers who spent decades refining their craft are replaced by younger, cheaper, less experienced staff who arrive enthusiastic and burn out within five years and are then replaced themselves — the institution metabolizes educators the way the body metabolizes calories, extracting what it needs and discarding what remains."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "School administrations structure discipline through policies general enough to apply selectively — the same behavior produces a warning for one student and expulsion for another, and the inconsistency is protected by the policy's ambiguity, and the administration can point to the policy as proof of fairness even when the application is discriminatory."
+    }
+   }
+  },
+  "4-civ": {
+   "sector": "Education",
+   "level": "Civilizational",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "An entire society idealizes education as the great equalizer — the single path from poverty to dignity, from ignorance to enlightenment, from invisible to seen — and the idealizing is so total and so unchallenged that questioning whether the system actually delivers on this promise is treated as questioning the value of knowledge itself, which no one is willing to do, which is exactly why the system never has to prove it works."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "Public education itself is positioned as society's greatest gift to its children — free, universal, compulsory — and the gift is so foundational to the social contract that questioning its design is treated as rejecting its existence, and the population defends the system that processed them because the alternative is admitting that a gift they received from a civilization they love was not a gift but an induction."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "\"Education is the great equalizer\" has been repeated for so many generations that it functions as liturgy rather than statement — it is spoken, believed, defended, and never measured, and educational inequality deepens every single decade while the mantra floats above the evidence like a cloud that refuses to rain."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "Lifelong learning has been repackaged as lifelong tuition — you are never finished, never fully credentialed, never enough without one more course, one more certificate, one more micro-credential from an institution that has discovered the most profitable truth in education: if the student never graduates, the student never stops paying."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "Entire generations are taught that their knowledge, their experience, their skills, and their wisdom are fundamentally worthless without institutional certification — that a human being who spent ten thousand hours mastering a craft is less qualified than a human being who spent four years sitting in a chair and receiving a stamp, and the stamp matters more than the mastery because the stamp is what the system recognizes and the system is what decides who gets to participate."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "History curricula across the world systematically erase atrocities committed by the nations teaching the courses — colonialism reframed as exploration, slavery reframed as economic necessity, genocide reframed as westward expansion, and the children of the perpetrators are taught a version of history that makes their ancestors heroes and the victims invisible, which means they grow up inside a lie so foundational that the truth sounds like an attack on their identity."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "An entire generation faces the civilizational double bind of modern education — get the degree and drown in debt, skip the degree and drown in exclusion — and neither option leads to the flourishing that education promises, which means the promise itself is the trap, and the trap has no exit that doesn't involve a loss the system designed."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "The degree-to-career pipeline delivers just often enough to sustain the myth — enough success stories are paraded across commencement stages and magazine covers to maintain the belief that the system works, while millions of graduates drown in debt and work jobs that have nothing to do with what they studied, and their failure is attributed to personal shortcomings rather than systemic design."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "Qualification requirements inflate with every generation — what your great-grandparents achieved with an eighth-grade education now requires sixteen years of schooling and six figures of debt, and the inflation is never examined because examining it would reveal that the system has been selling an increasingly expensive product for increasingly diminished returns, and that revelation would collapse the entire premise."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "The purpose of education has never been clearly defined at a civilizational level — is it to produce citizens or workers, to cultivate wisdom or train compliance, to liberate the mind or prepare the labor force — and the ambiguity is not an oversight but a feature, because a system whose purpose is never pinned down can never be held accountable for failing to achieve it."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "A system that mass-produces anxiety, depression, burnout, creative death, and crippling debt blames its graduates for not being resilient enough — the humans who survived the machine are told the machine was good and they were simply not strong enough to thrive inside it, and the possibility that the machine itself is the pathogen is never examined because the people doing the examining were produced by the same machine."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "Anyone who critiques the education system publicly is accused of being anti-education — as though questioning a structure means opposing the principle it claims to serve, as though pointing out that a hospital is making people sick means you oppose health, as though the system has so thoroughly merged its identity with its stated purpose that attacking one is indistinguishable from attacking the other, which is exactly how it survives."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "The normalization of childhood compliance as the foundation of education is so total that most adults cannot imagine an alternative — \"how else would you run a school?\" — and the inability to imagine is itself the product of the normalization, because the adults asking the question were normalized inside the same system, and a mind that was shaped by a structure cannot easily conceive of a world without it."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "The entire concept of education has been isolated from living — school is not in nature, it is not in community, it is not integrated with work or purpose or the body — it exists in a building separated from everything it claims to prepare you for, and the separation is so normalized that suggesting children learn by being in the world rather than removed from it sounds radical rather than obvious."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "Nations are ranked on educational output and students are reduced to national productivity scores — PISA rankings and graduation rates and STEM pipeline metrics turning children into data points in a geopolitical competition where the goal is not to educate human beings but to produce human capital, which is a phrase that should disturb anyone who hears it but somehow doesn't because we have been trained to hear \"capital\" as a compliment."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Employers require degrees not because the degree proves competence but because the requirement maintains the education economy's customer base — corporations functioning as involuntary enrollment agents for universities, creating demand for a product not because it works but because they have agreed to require it, and no one in the loop has any incentive to ask whether the requirement serves the human or the machine."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Homeschooling families, unschooling communities, and indigenous educational traditions are actively delegitimized through legislation, media portrayal, and cultural stigma — the message is clear: if it wasn't produced by the machine, it doesn't count, and if you chose to opt out, something is wrong with you rather than something being wrong with what you opted out of."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Decades of peer-reviewed research demonstrating that the current educational model harms children — suppresses creativity, generates anxiety, rewards compliance over curiosity, punishes divergent thinking, and fails to develop emotional intelligence — sits in academic journals that no policymaker reads, no school board cites, and no superintendent implements, because implementing the evidence would require dismantling the machine, and the people with the power to dismantle it are the people the machine promoted."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "Public consent for the education system is manufactured through the myth of meritocracy — the belief that education is a fair system that rewards effort and talent equally — and the myth is maintained despite overwhelming evidence of inequality, bias, and structural failure, because the myth serves the system more effectively than truth would, and a population that believes the system is fair will blame itself for failing within it rather than questioning the system that produced the failure."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Entire generations are trauma-bonded to the education system through the single most effective sentence in the history of normalization: \"We all went through it and we turned out fine.\" That sentence — spoken by parents to children, by graduates to students, by survivors to the next wave of people entering the machine — is the signature phrase of every traumatized population that has not yet recognized its own trauma, and it ensures that the system is never questioned because questioning it would mean admitting that what was done to you was not fine, and that admission would reorganize everything you believe about your own childhood."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "The sentence \"you can't change the education system\" is spoken with such universality and such resignation that it functions as civilizational law — the collective acceptance that the institution that shapes every child's mind for their most formative years is beyond reform, and the acceptance is not laziness but learned helplessness at scale."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "The entire concept of compulsory education is framed as one of civilization's greatest benevolences — \"we give every child the opportunity to learn\" — and the framing makes the compulsion invisible, because a gift that is mandatory is not a gift, it is a requirement, but calling it a gift makes the requirement feel like a privilege, and a population that feels privileged to be controlled is a population that will never name the control."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "The most successful product of the education system is a population that has been so thoroughly infantilized by sixteen years of being told what to read, what to think, how to sit, when to speak, and what the right answer is that they enter adulthood looking for the next authority to tell them what to do — and the next authority is always waiting, because every other system in this document was designed to receive the person that the education system produced."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Entire populations learn to define themselves by their credentials — who you are becomes what you studied, where you went, what letters follow your name — and the human qualities that cannot be credentialed — character, conscience, compassion, courage, creativity — are marginalized as soft skills, as though the things that make a person trustworthy are less important than the things that make them employable."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "The myth that education is the path to equality functions as a civilizational-scale spiritual bypass — the belief that any child from any background can succeed if they try hard enough bypasses the documented, measured, proven reality that the system produces outcomes that correlate with zip code, income, race, and parental education more reliably than with effort — and the bypass persists because the myth serves the system more effectively than the data would, and the data sits in journals that no commencement speaker will ever cite."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "The education-industrial complex generates trillions of dollars globally while producing the most anxious, indebted, medicated, emotionally dysregulated, and creatively suppressed generation in recorded history — and when this outcome is pointed out, the system's response is not to examine itself but to offer the solution of more education, more credentials, more tuition, more of the same machine applied to the damage the machine already caused."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "\"Education crisis\" narratives are manufactured and amplified by the very entities that stand to profit from the solution — think tanks funded by corporations publish alarming reports about failing schools, and the proposed fix is always privatization, always charter expansion, always the transfer of public resources into private hands, and the crisis is real but the solution was written before the problem was diagnosed because the diagnosis was designed to justify the prescription."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Entire school systems serving marginalized communities are defunded, consolidated, and shuttered — buildings closed, teachers scattered, students bused to schools that don't know their names — communities discarded when their children are no longer profitable to process, neighborhoods stripped of the one institution they were told would be their ladder out."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "Public education is replaced by for-profit charter models that occupy the same buildings with new signage, teach from the same compliance frameworks with different branding, and extract profit from the same communities that the public system abandoned — the name changes, the logo changes, the mission statement changes, but the machine underneath is identical because the machine was never about the name on the building. It was about the function inside it. And the function — to process human beings into units of economic productivity while charging them for the privilege — has not changed in over a century. Only the invoice looks different."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The education system's most effective plausible deniability is the word \"opportunity\" — the system provided the opportunity, it was the student who failed to seize it — and the framing converts systemic failure into individual responsibility so cleanly that the system never appears on the defendant's side of the equation, and the student who was processed by a machine that was designed to produce their specific outcome carries the blame alone, as though the outcome was a choice rather than a product."
+    }
+   }
+  },
+  "5-inst": {
+   "sector": "Healthcare & Medicine",
+   "level": "Institutional",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "Hospital marketing campaigns promise world-class care, cutting-edge technology, and a patient-centered experience — billboards showing smiling families, commercials where the doctor holds the patient's hand, mission statements that read like love letters to the human body — and none of it describes what actually happens inside the building, but by the time you find that out you're already on the gurney."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "Pharmaceutical companies donate medications to hospitals, fund medical education, sponsor conferences, and provide free tools to practitioners — and every gift creates a relationship, and every relationship creates an obligation, and every obligation tilts a prescribing decision by one degree, and one degree across a million prescriptions is a billion dollars."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "Insurance companies promise coverage for services that require preauthorization, prior approval, medical necessity review, and appeal processes so convoluted that the coverage exists on paper but not in practice — the promise of care functioning as a retention tool rather than a delivery mechanism."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "Screening campaigns generate anxiety at population scale — advertisements that say \"early detection saves lives\" create a funnel that takes asymptomatic people, runs them through diagnostic sequences, finds incidental abnormalities that may never have caused symptoms, and converts healthy humans into patients with follow-up appointments."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "Patients with chronic illness, complex presentations, or pain that resists easy diagnosis are labeled as difficult, drug-seeking, non-compliant, or psychosomatic — categories that exist not to describe the patient but to protect the provider from the discomfort of not having an answer."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "Patients who report side effects from medications are told the medication is not causing them — the drug's profile becomes more authoritative than the body's experience, and the patient learns to distrust their own nervous system because a pharmaceutical insert says what they're feeling isn't listed."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "Healthcare workers face a structural double bind — report the safety concern and be labeled a troublemaker, stay silent and be complicit in the harm — and the bind ensures that the system's failures are protected by the same people who are closest to them."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Insurance approvals and denials arrive on unpredictable schedules — a procedure approved this month, denied next month, covered under this plan, excluded under that one — and the patient's health becomes a roulette wheel spun by an algorithm that prioritizes cost over care."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "Diagnostic criteria are expanded with each new edition of the diagnostic manual — conditions that didn't exist twenty years ago now have names, billing codes, and pharmaceutical treatments, and the expansion creates patients out of people who were previously considered within the range of normal human experience."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "Pharmaceutical marketing uses language like \"may help,\" \"has been shown to,\" \"in some patients,\" and \"results may vary\" — language calibrated to create expectation while legally committing to nothing, and the ambiguity protects the company from liability while the patient who took the drug based on the \"may\" absorbs the consequences of the \"may not.\""
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "A system that creates chronic illness through environmental neglect, food system corruption, stress proliferation, and pharmaceutical dependency blames individual patients for making poor lifestyle choices — \"eat better, exercise more, manage your stress\" delivered by an institution that contributed to every one of those failures."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "A hospital sued for malpractice counter-sues the patient and buries the case in legal costs until the individual cannot afford to continue — the institution that caused the injury uses its resources to exhaust the injured party's ability to seek justice."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "The medicalization of normal human experience has been so gradual and so thorough that sadness is now depression, shyness is now social anxiety, childhood energy is now ADHD, and aging is now a treatable condition — and each medicalization expanded the market, and each market expansion was too small to trigger alarm, and the cumulative effect is a civilization in which being fully human is a diagnosable condition."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Medical departments are siloed so completely that no single practitioner sees the whole patient — the cardiologist sees the heart, the gastroenterologist sees the gut, the psychiatrist sees the mind, and nobody sees the human being standing at the intersection of all of them, which means the connections between systems — the ones where the actual answers often live — go unexamined."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "Insurance companies are pitted against hospitals and both are pitted against the patient — the insurance company denies the claim, the hospital demands payment, the patient has no leverage against either, and the two entities that are supposed to serve the patient serve each other's balance sheets instead."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Nurses, pharmacists, and ancillary staff enforce protocols they privately disagree with because the system requires compliance from its own workers before it can demand compliance from its patients — the caregiver's conscience overridden by institutional policy, and the patient interacting with a human face that is wearing an institutional mask."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Doctors who advocate for alternative approaches, who speak publicly about pharmaceutical overreach, or who prioritize patient autonomy over protocol are stripped of hospital privileges, denied research funding, and excluded from professional circles — their career dismantled not because their medicine was bad but because their independence threatened the machine."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Insurance appeals vanish into bureaucratic silence — claim denied, appeal filed, silence, second appeal filed, silence, third appeal requiring documentation the patient cannot access without the cooperation of the institution that denied the claim in the first place."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "Clinical guidelines are written by panels that include members with financial ties to the industries the guidelines will benefit — and the guidelines are then adopted as standard of care, and deviation from standard of care creates legal liability, which means the guidelines written by industry-adjacent panels become the law that governs every patient encounter, and the patient's consent to be treated according to those guidelines is manufactured before they enter the exam room."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Healthcare workers are bonded to abusive institutional conditions through shared suffering and the nobility of the mission — burnout rates, suicide rates, and moral injury statistics in healthcare are catastrophic, but the workers stay because they believe in healing, and the institution exploits that belief to extract labor it does not adequately compensate or protect."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "Healthcare workers develop learned helplessness inside the system they serve — \"I can't change the EMR,\" \"I can't give each patient more than twelve minutes,\" \"I can't challenge the protocol\" — and the helplessness is shared across an entire profession that entered medicine to heal and discovered that the system rewards throughput, not healing."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "Mandatory treatment protocols, involuntary holds, and forced medication are justified as protective interventions — \"we're doing this for your safety\" — and the framing of safety makes the coercion invisible, because a system that removes your autonomy in order to save your life has defined itself as the arbiter of which you value more, and the definition was not yours."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "The medical system infantilizes the population through the deliberate withholding of health literacy — nutrition not taught in medical school, patients not given access to their own records until legislation forced it, medical language kept deliberately opaque — and the withholding ensures that the population remains dependent on a system it cannot understand, because a patient who understood their own body would need fewer appointments, and fewer appointments is fewer revenue events."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Practitioners lose their calling inside bureaucratic machines — the person who became a doctor to heal spends their days entering billing codes, fighting insurance companies, and clicking through electronic records that were designed for auditors rather than patients, and the healer disappears inside the administrator, and the patients feel the absence even if they can't name it."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "The healthcare system uses the language of wellness and patient empowerment to bypass the structural conditions that produce illness — \"take charge of your health\" delivered by a system that controls every variable of the health environment except the one it tells you to manage yourself."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Insurance is tied to employment — lose your job and you lose your healthcare, which means the threat of illness becomes a leash that keeps workers in jobs that harm them, because the only thing more dangerous than staying is leaving without coverage."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "Disease awareness campaigns are engineered to create anxiety and drive product sales — \"ask your doctor about\" is not education, it is advertising, and the awareness being raised is not awareness of health but awareness of a medication that the patient did not know they needed until the commercial told them they might."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Rural hospitals are closed, community clinics are defunded, and entire regions are designated as healthcare deserts — populations abandoned not because they stopped needing medicine but because they stopped generating enough margin to justify keeping the doors open."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "A new drug replaces the old drug — the patent expires, the generic becomes available, and the company releases a nearly identical molecule with a new name, a new marketing campaign, and a new price point that is higher than the original, and the cycle of novelty replacing efficacy continues because the system rewards innovation over outcome and the patient cannot tell the difference between a new treatment and a rebranded one."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The hospital that made the error points to the protocol that was followed — \"we followed standard of care, the outcome was unfortunate but not negligent\" — and the protocol becomes the shield, because a system that can demonstrate procedural compliance is a system that cannot be held accountable for the outcome the procedure produced."
+    }
+   }
+  },
+  "5-civ": {
+   "sector": "Healthcare & Medicine",
+   "level": "Civilizational",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "The entire medical system is positioned as humanity's savior — the institution without which you would die, the science without which you would suffer, the authority without which you would be lost — and the phrase \"trust the science\" functions not as an invitation to examine evidence but as a demand to stop asking questions, which is the opposite of science but sounds enough like it to work."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "The medical system's greatest act of weaponized generosity is the positioning of healthcare itself as a gift rather than a right — \"be grateful you have access to the best healthcare in the world\" — and the gratitude is weaponized because a population that feels grateful for its healthcare will not demand better healthcare, and the gratitude prevents the criticism that would produce the improvement."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "\"A cure is coming\" has been the refrain of the medical-industrial complex for decades — cancer, autoimmune disease, chronic pain, neurological disorders — and the funding pours in and the galas sparkle and the ribbons are worn and the cure remains around the next corner while chronic disease management generates recurring, predictable, and growing revenue that a cure would permanently end, which means the financial incentive to find the cure is in direct opposition to the financial incentive of the system funded to find it."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "Preventive care models have been restructured to create lifelong pharmaceutical customers beginning in childhood — screening protocols that identify risk factors before symptoms appear, medications prescribed to manage numbers rather than treat disease, and health defined not by how you feel but by where your labs fall on a range determined by an industry that profits from narrowing the range."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "Entire populations' health outcomes are systematically devalued along lines of race, income, geography, and gender — Black women dying in childbirth at three times the rate of white women in the same hospitals, indigenous communities without clean water or basic care, rural counties where the nearest emergency room is an hour away — and the disparity is documented extensively and addressed almost never because addressing it would cost more than maintaining it."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "Decades of documented harm — tobacco, opioids, certain pharmaceuticals, environmental toxins, contaminated water supplies — are suppressed, minimized, and denied until the evidence becomes so overwhelming that silence is no longer viable, at which point the harm is reframed as an unfortunate chapter that has been addressed, the victims are offered settlements that cost the institution less than the harm generated in profit, and the population is assured it won't happen again while it is already happening again under a different name."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "The population faces a civilizational double bind with the medical system — participate and be extracted from, withdraw and risk dying of something treatable — and neither option produces health, which is theoretically the point of the entire system but is practically the one outcome the system is not financially incentivized to deliver."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Medical breakthroughs are announced with great fanfare and then delayed, watered down, priced out of reach, or quietly shelved — cures promised but never delivered at scale because a cured patient is a lost customer and the system's revenue model depends on chronicity, which means the most profitable patient is the one who never fully recovers but never fully dies."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "The definition of health itself has been narrowed to pharmaceutical compliance — you are healthy when your numbers match the ranges, when your prescriptions are filled, when your screenings are current — and the goalpost has moved so far from what health actually means that a person who feels vibrant, energized, clear, and alive can be told they are unhealthy because a lab value falls outside a range that was set by a committee, revised by an industry, and enforced by a system that profits from the revision."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "Medical guidelines use language like \"generally recommended,\" \"may be appropriate,\" and \"clinical judgment should be applied\" — phrases that sound like standards but function as disclaimers, because a guideline that includes a clinical judgment exception is a guideline that can never be violated, since any deviation can be retroactively justified as clinical judgment."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "An industry that generates trillions of dollars annually from sickness accuses holistic, integrative, and functional medicine practitioners of being dangerous — the most profitable sick-care system in human history projecting quackery onto the modalities that threaten its market share."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "Pharmaceutical companies caught suppressing safety data, manipulating clinical trials, or marketing drugs for unapproved uses frame themselves as victims of anti-science sentiment — the company that lied becomes the defender of truth and the public that was lied to becomes the enemy of progress."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "The normalization of chronic disease as a life sentence rather than a reversible condition is the medical system's most profitable desensitization — populations that once expected to heal now expect to manage, and the shift from healing to managing was so gradual and so reinforced by institutional messaging that the population now approaches the doctor not asking \"can you cure this?\" but \"can you help me live with this?\" — and the question itself is the normalization, and the normalization is the revenue model."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "The entire medical system is isolated from the dimensions of health it cannot monetize — mental health separated from physical health, nutrition treated as an afterthought rather than a foundation, spiritual wellbeing dismissed entirely, sleep optimization ignored, community and purpose and meaning unaddressed — and the human being is split into billable parts, each part assigned to a different specialist, each specialist operating in a silo that cannot see the whole, and the whole is where healing lives but the whole is not a billing code."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "Pharmaceutical companies, regulatory agencies, and medical schools form a closed loop — the company funds the research, the research trains the doctors, the doctors prescribe the products, the regulatory agency approves the products using data supplied by the company that made them, and the patient sits outside this loop trusting it to protect them while having no ability to verify whether it does."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Medical licensing boards are used to silence, discipline, and remove practitioners who challenge pharmaceutical orthodoxy — doctors who recommend nutrition over medication, who question vaccine schedules, who treat root causes instead of symptoms, who practice outside the approved model — are investigated, sanctioned, and stripped of their licenses by boards funded by the industry they would have challenged."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Entire fields of medicine — functional medicine, integrative medicine, naturopathy, traditional Chinese medicine, Ayurveda, and indigenous healing practices — are systematically smeared as quackery, pseudoscience, and danger — traditions that healed human beings for thousands of years before pharmaceutical companies existed are dismissed with a single word so that the population does not have the option of comparison."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "The systemic refusal to address root causes of disease constitutes the loudest silence in modern medicine — the system knows that nutrition prevents more disease than medication, that stress is the underlying driver of the majority of chronic illness, that trauma lives in the body and manifests as symptoms, that loneliness and purposelessness are as lethal as smoking — and this knowledge sits in the literature while the practice continues to treat the downstream effects and ignore the upstream causes, because treating the cause would eliminate the need for the treatment, and the treatment is where the revenue lives."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "Public consent for medical authority has been manufactured through decades of positioning the medical system as the sole legitimate arbiter of health — alternative viewpoints are labeled as misinformation, questioning is labeled as anti-science, and the consent of the population to be governed by medical authority is not earned through demonstrated trustworthiness but manufactured through the systematic discrediting of every alternative."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Entire populations are bonded to the medical system through fear — fear of disease, fear of death, fear of being without insurance, fear of the body itself — and the fear is so pervasive and so ancient that most people cannot imagine health outside the system, cannot imagine their body as trustworthy, cannot imagine healing without a prescription, and the dependency is so total that questioning it feels like gambling with your life."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "The population's relationship to its own health has been shaped into learned helplessness — \"I can't understand my own body,\" \"I need a doctor to tell me what's wrong,\" \"I can't possibly navigate this without an expert\" — and the helplessness was installed by a system that benefits from a population that does not trust its own physical intelligence, because a population that trusts itself is a population that visits less, consumes less, and costs the system revenue it was designed to capture."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "The entire medical system positions itself as benevolent authority — \"doctor knows best,\" \"trust the science,\" \"follow the protocol\" — and the positioning is so effective that the patient who questions a treatment plan is treated as irresponsible rather than informed, and the system that demands compliance calls the compliance trust, and the trust is manufactured by the power differential rather than earned by the outcome."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "The infantilization of the public by the medical system is so complete that a person who says \"I know my body\" is treated as naive while a person who says \"my doctor knows my body\" is treated as wise — and the reversal is the product of a system that spent a century training the population to distrust its own signals and outsource its own knowing to an authority whose financial incentive is the continuation of the outsourcing."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Entire populations have lost trust in their own bodies — the ability to interpret sensation, to distinguish between discomfort and danger, to know when rest is enough and when intervention is needed — because external authority has replaced internal knowing so thoroughly that a person who says \"I know my body\" is treated as naive and a person who says \"my doctor knows my body\" is treated as wise, and the reversal is so complete that the body's own intelligence — the system that kept humanity alive for hundreds of thousands of years before medicine existed — has been demoted to unreliable witness in its own case."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "\"Trust the science\" functions as the medical system's spiritual bypass — a phrase that sounds like an invitation to evidence and functions as a command to stop asking questions, because the science being invoked is often funded by entities with financial interests in the conclusion, and the trust being demanded was never earned through the transparency that trust requires."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "The global pharmaceutical industry generates trillions annually while billions of human beings lack access to basic care — medications that cost pennies to manufacture are sold for hundreds of dollars, patents are extended through legal manipulation to prevent generics from reaching the market, and the gap between what medicine could do and what it is allowed to do by its own financial structure is measured not in dollars but in human lives that were never counted because they were never profitable enough to treat."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "Health emergencies — some real, some amplified, some manufactured entirely — are used to justify expanded institutional power and reduced individual autonomy, and each emergency becomes a precedent for the next one, and the emergency powers that were supposed to be temporary become permanent, and the population that accepted them out of fear discovers that the fear has become the governance model."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Entire populations are left without care when their suffering is not monetizable — diseases that primarily affect the global poor receive a fraction of the research funding of diseases that affect the global wealthy, and the gap is not a failure of science but a feature of finance, and the bodies that fall through the gap decompose in the silence between what medicine can do and what the market will allow."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "One health paradigm replaces another across decades — infectious disease gave way to chronic disease management, which is giving way to genomic medicine, which is giving way to AI-driven diagnostics — and each new paradigm promises to fix what the last one failed to fix, and each one carries the same underlying architecture of extraction, because the paradigm was never the problem. The business model was the problem. And the business model does not change when the science changes. It simply wears the new science the way it wore the old science — as a coat that makes the extraction look like progress."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The pharmaceutical industry structures its entire operation around plausible deniability — clinical trials designed to detect efficacy over short periods while long-term harm accumulates unmonitored, data shared with regulators in formats that technically satisfy requirements while practically obscuring risk, and marketing language calibrated by attorneys to promise without committing — and the architecture of deniability is so sophisticated that even when harm is proven, the proof is met not with accountability but with a settlement that costs less than the revenue the harm generated."
+    }
+   }
+  },
+  "6-inst": {
+   "sector": "Finance & Economics",
+   "level": "Institutional",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "Banks and financial companies position themselves as partners in your aspirations — \"we're here to help you grow, to build your future, to make your dreams possible\" — and the marketing is warm and the commercials show families moving into homes and entrepreneurs opening doors and none of them show the same families five years later sitting at kitchen tables trying to figure out how the dream became a trap."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "Corporations offer employee perks — free meals, gym memberships, on-site childcare, wellness stipends — and every perk is simultaneously a genuine benefit and a structural dependency, because the employee who eats at the office stays at the office longer, and the employee whose childcare is on-site cannot leave the company without losing the childcare."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "Pension promises are made by companies that go bankrupt before the pensions vest, and the workers who traded lower wages for retirement security discover that the security was contingent on the company's survival, which was never guaranteed, which means the promise was written in disappearing ink."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "Market crashes are reframed as \"buying opportunities\" — the same analysts who failed to predict the crash now urge you to invest during the crash, and the language is designed to pull burned investors back into the system by converting their fear into urgency."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "Small businesses that cannot match corporate pricing are crushed and then blamed for their own failure — \"the market decided\" — as if the market is a neutral force rather than a system designed to concentrate advantage, and the entrepreneur who lost everything is told they should have been more competitive while competing against entities with resources they could never match."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "Inflation is explained as \"transitory\" and \"market correction\" and \"a natural cycle\" while the price of groceries doubles and rent consumes half a paycheck and the same economists who failed to predict the crisis are invited on television to explain why the crisis is not as bad as it feels — and the population is told to trust the numbers rather than their own experience of being unable to afford the life they could afford five years ago."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "Entrepreneurs face a structural double bind — bootstrap and struggle without resources, take venture capital and lose control of the thing you built — and neither path leads to the independence that entrepreneurship promises."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Small business grants, tax incentives, and stimulus payments arrive unpredictably — just enough success stories to maintain the mythology of upward mobility, just enough checks in the mail to prevent the population from losing faith entirely, just enough relief to prevent the desperation from becoming organized."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "The retirement age is pushed further with each generation — your grandparents retired at sixty, your parents at sixty-five, and you are being told sixty-seven or seventy or never, and the finish line recedes in lockstep with the lifespan, which means the system has found a way to ensure you never stop working no matter how long you live."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "Corporate earnings calls use language designed to generate confidence without committing to anything specific — \"we're cautiously optimistic,\" \"we see strong tailwinds,\" \"we're positioned for growth\" — language that sounds like a plan and functions as a performance, because the market rewards confidence more than clarity, and clarity would reveal the uncertainty that confidence is designed to hide."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "Corporations that pay poverty wages and provide no benefits accuse workers of laziness, entitlement, and a lack of work ethic — the employer who created the conditions that make survival impossible blames the employee for not thriving inside those conditions."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "Workers who attempt to organize, unionize, or collectively bargain are framed as the aggressors — the corporation that suppressed wages frames the workers' demand for fair compensation as an attack on the business, and the workers who are fighting for survival are characterized as a threat to the entity that is threatening their survival."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "Corporate compensation ratios that would have been considered obscene fifty years ago are now reported without comment — the CEO who earns three hundred times the median worker's salary is a statistic that generates no controversy because the previous CEO earned two hundred and fifty times and the one before that earned two hundred, and each increment was normalized before the next arrived."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Entire populations are cut off from economic participation — the unbanked, the underbanked, the credit-invisible — people who exist outside the financial system not by choice but by design, whose exclusion is not an oversight but a feature that creates a permanent underclass whose labor can be extracted at a lower cost because they have no leverage."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "Corporations pit workers against each other for wages that don't match inflation — internal competition for raises so small they don't offset the cost of living, employees grateful for a three percent increase while the CEO's compensation increases three hundred percent, and the workers blame each other for the scarcity rather than examining who designed the scarcity."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Credit rating agencies — private companies with no democratic accountability — control your financial identity with a three-digit number that determines whether you can rent an apartment, buy a car, get insurance, or be hired for a job, and the score is calculated using proprietary algorithms you are not allowed to see, based on data you cannot fully verify, held by entities you did not choose, and the entire system is positioned as neutral and objective when it is in fact a private surveillance apparatus that was granted authority over public life without public consent."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Whistleblowers inside financial institutions who expose fraud, manipulation, or consumer harm are professionally destroyed — blacklisted from the industry, discredited in the press, subjected to legal retaliation that makes the cost of telling the truth higher than the cost of staying silent, which is why most people stay silent."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Corporate non-response to consumer complaints is institutional policy disguised as bureaucratic limitation — \"we are experiencing high call volumes, your feedback is important to us, a representative will be with you shortly\" — and the silence is not an absence of capacity but a strategy of attrition."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "Shareholder votes provide the appearance of corporate democracy while operating within a structure where voting power is proportional to shares held, which means the wealthiest investors determine corporate direction and the small shareholders provide legitimacy for decisions they cannot influence."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Workers develop loyalty to companies that exploit them — decades of shared struggle, company picnics, retirement dinners, the mythology of \"putting in your time\" — and the loyalty is real even when the exploitation is obvious because the bond was formed under conditions of dependency and dependency bonds are the hardest to break."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "Entire communities have learned economic helplessness — neighborhoods where generational poverty is so entrenched that the expectation of upward mobility has been replaced by the management of survival, and the management is mistaken for acceptance when it is actually the body's adaptation to a system that never opened a door."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "Consumer protection regulations are framed as benevolent oversight — \"we're protecting you from predatory lending, from risky investments, from your own bad decisions\" — and many of these protections are genuinely necessary, but the cumulative effect is a population that relates to money through a layer of institutional permission, and the permission can be withdrawn."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "Financial literacy is deliberately excluded from public education — the system that charges interest to eighteen-year-olds never teaches eighteen-year-olds what interest is — and the exclusion ensures a population that enters the financial system without the tools to navigate it, which ensures the population needs the financial system's guidance, which ensures the financial system's authority."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Workers are reduced to labor units — human resource departments that use the word \"resource\" without irony, performance metrics that measure output per hour, efficiency models that calculate the cost of a human being the way a factory calculates the cost of a machine, and the language is so normalized that no one stops to notice that \"human resources\" means the humans are the resource being managed."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "Corporations use the language of purpose and mission to bypass the financial reality of their compensation practices — \"we're changing the world,\" \"this isn't just a job, it's a calling,\" \"the impact is the reward\" — and the spiritual framing converts underpayment into nobility and the worker who asks about salary into the person who doesn't understand the mission."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Corporate control of wages, benefits, and housing creates a modern version of the company town — workers dependent on the employer for healthcare, retirement, and increasingly for housing assistance and childcare, which means the employer doesn't just control your labor, they control your survival, and the line between employment and captivity blurs until you cannot see it from inside."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "Market crashes consolidate wealth — the crash destroys the savings of the middle class, prices drop, institutional investors with liquidity buy the assets at a discount, the market recovers, and the assets that the middle class sold in panic are now worth more than they were before the crash, held by the entities that were positioned to benefit from the crisis they contributed to creating."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Mass layoffs are executed the week before pensions vest or stock options mature — decades of loyalty liquidated in a single memo, workers who gave their careers to a company discovering that the company never considered the relationship mutual, and the quarterly earnings report that follows shows improved margins because human beings were subtracted from the balance sheet."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "Laid-off workers are replaced by automation, outsourcing, or cheaper labor — the function continues, the cost decreases, and the human being who performed the function for twenty years discovers that their experience, their loyalty, and their institutional knowledge have no market value because the market does not value humans, it values efficiency, and a machine that doesn't call in sick is more efficient than a person who does."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "Corporate layoffs are announced as \"strategic restructuring\" — the decision to eliminate jobs is attributed to market conditions rather than executive choices, and the executives who made the decision can point to the conditions as the cause while the conditions were created by the executives' previous decisions."
+    }
+   }
+  },
+  "6-civ": {
+   "sector": "Finance & Economics",
+   "level": "Civilizational",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "Capitalism itself is idealized as freedom — the free market as the natural expression of human liberty, entrepreneurship as the highest form of self-actualization, economic participation as citizenship — and the idealization is so total and so woven into national identity that questioning whether the system serves the people inside it is treated as questioning freedom itself, which means the system never has to prove it works because challenging it has been pre-framed as un-American or ungrateful or naive."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "Global financial institutions offer development loans to impoverished nations — money given with conditions that require structural adjustment, market liberalization, and policy alignment with the lender's interests — and the loan is presented as aid while functioning as acquisition, because a nation in debt to an institution is a nation governed by that institution, and the generosity was always a mortgage on sovereignty."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "\"Trickle-down economics\" promised that wealth created at the top would flow downward to everyone — and the promise was maintained for fifty years while every measurable indicator showed wealth concentrating upward, and the theory was never abandoned because it was never meant to be true, it was meant to be believed long enough to justify the policies that made the wealthy wealthier, and it was."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "Every generation is told \"this time the system works\" — new regulations, new reforms, new leaders, new oversight, new promises that the structural flaws have been addressed — and the population re-enters the same economic model with renewed faith that this iteration will be different, and the faith is not evidence-based, it is exhaustion-based, because the alternative to believing the system can work is confronting the possibility that it was never designed to work for you, and that confrontation requires energy that people who are working two jobs to pay rent do not have."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "Entire nations are labeled \"developing\" or \"third world\" — permanently positioned as less-than, measured against metrics designed by the nations that colonized them, graded on a curve that was drawn by the same hand that extracted their resources, and the label functions not as description but as rank, a civilizational credit score that determines who gets investment and who gets austerity and who gets forgotten."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "Entire populations are told the economy is \"strong\" and \"growing\" while wages stagnate, savings evaporate, homeownership recedes, and the gap between what the data says and what the body feels widens into a canyon that the system fills with language designed to make you doubt your own suffering — and the gaslighting works because the alternative is admitting that the system was not designed for your prosperity, which is a thought most people cannot afford to think while they are still inside the system trying to survive it."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "The global population faces the defining double bind of modern economics — participate in a system that extracts from you or withdraw from a system that you need to survive — and the bind is not an accident of the system's design but the load-bearing wall of the system's architecture, because an economic system that allowed genuine exit would be an economic system that had to earn participation rather than compel it."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Economic booms and busts cycle across decades with enough irregularity to prevent adaptation — the boom creates confidence, the bust destroys it, the recovery restores just enough to prevent revolution, and the cycle repeats at a frequency designed to keep the population oscillating between hope and fear without ever reaching the stability required to see the oscillation itself."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "The cost of living outpaces wages permanently and by design — housing, healthcare, education, and food all increase faster than income in every decade, and the gap is not an accident but a structural feature that ensures the population can never accumulate enough wealth to stop participating in the system, which means financial freedom is not a goal the system helps you reach but a destination the system moves further away every time you take a step toward it."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "Economic policy is communicated in language so deliberately opaque that the population it governs cannot evaluate it — quantitative easing, fiscal multipliers, yield curve inversions, debt-to-GDP ratios — and the opacity is not a failure of communication but a strategy of exclusion, because a population that cannot understand the policy cannot challenge it, and the people who can understand it are the people who profit from it."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "Financial systems that created inequality through centuries of extraction, colonialism, redlining, wage suppression, and monopolistic consolidation blame the poor for being poor — the narrative that poverty is a character flaw rather than a systemic output is the single most effective piece of propaganda in economic history because it redirects the anger of the harmed away from the system and toward themselves."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "Nations that were colonized, stripped of resources, saddled with debt, and structurally impoverished by Western financial institutions are accused of corruption and mismanagement when they seek reparations or debt relief — the entity that created the poverty blames the impoverished nation for its poverty and then offers loans to fix it, which deepens the dependency, which generates more interest, which is the point."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "The normalization of debt as a life condition rather than a temporary state is the financial system's foundational achievement — the expectation that a human being will carry debt from the age of eighteen until the age of death, that debt is a permanent companion rather than an occasional tool, and that the monthly payment is as natural as the monthly rent — and the normalization is so complete that a person who carries no debt is treated as unusual rather than as the baseline that the system was supposed to protect."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Nations are isolated through sanctions, trade restrictions, and debt structures that function as economic siege warfare — entire economies strangled not because of what their governments did but because of what their governments refused to do for the nations imposing the sanctions, and the population that suffers — the farmers, the children, the sick — are told the sanctions are for their own protection by the same entity that is starving them."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "Global financial institutions pit nations against each other for foreign investment — lowering labor protections, reducing environmental standards, offering tax holidays to corporations that will extract and leave — a race to the bottom where the prize is exploitation and the nations that win the race lose the most, and the institutions that organized the race profit regardless of who finishes first."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "The International Monetary Fund and the World Bank impose structural adjustment programs on sovereign nations — demanding privatization of public services, reduction of social spending, and opening of markets to foreign capital as conditions for loans that the nations need because previous loans made them dependent — and the proxy enforcement is so normalized that it is called development rather than recognized as the continuation of colonialism by financial rather than military means."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Critics of capitalism — economists who propose alternatives, activists who demand structural change, thinkers who question whether infinite growth on a finite planet is sane — are labeled as socialists, radicals, communists, and threats to civilization, and the labeling is so reflexive and so effective that the word \"socialist\" functions in public discourse not as a description of a set of ideas but as a warning that the person speaking should not be taken seriously, which means the conversation about whether the system serves humanity never happens because the people who would start it are discredited before they open their mouths."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Central banks make decisions behind closed doors that affect billions of human lives — interest rate changes, money supply adjustments, quantitative easing programs that transfer public wealth into private markets — and the decisions are made by unelected officials using models the public cannot access, justified by language the public is not expected to understand, and shielded from accountability by a complexity that was designed to prevent oversight."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "Public consent for the economic system is manufactured through the myth of the free market — the belief that the economy is a natural system governed by natural forces, rather than a constructed system governed by policy choices made by people with interests — and the myth ensures that outcomes produced by human decisions are attributed to market forces, and market forces cannot be voted out of office."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Entire populations are bonded to economic systems through survival dependency so total that alternatives are literally unimaginable — people who have spent their entire lives inside capitalism cannot picture a world organized differently, and the inability to imagine is not a failure of creativity but the success of a system that made itself synonymous with reality, so that questioning it feels not like political critique but like questioning the laws of physics."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "\"The rich get richer and the poor get poorer\" is stated with the resignation of a weather report rather than the urgency of a diagnosis — and the resignation is learned, trained into the population through decades of watching the gap widen while being told the gap is closing, until the population stopped expecting the trajectory to change and began organizing its identity around endurance rather than transformation."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "The central banking system frames its control of the money supply as responsible stewardship — \"we're managing inflation for the common good,\" \"we're ensuring economic stability\" — and the framing converts the most powerful form of economic control in existence into a public service narrative, and the narrative is so effective that the population rarely asks who the stewards are, who appointed them, what their interests are, and whether stability for the system is the same thing as stability for the people inside it."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "The language of economics has been made deliberately inaccessible — not because economics is inherently complex but because accessible economics would produce a financially literate population, and a financially literate population would recognize that the system is extractive, and recognition is the one outcome the system cannot afford."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Entire cultures are reduced to GDP — nations measured by their economic output rather than their wellbeing, their happiness, their ecological stewardship, their community strength, their spiritual depth — and the reduction is so total that a country where people are miserable but productive is ranked higher than a country where people are joyful but poor, and the ranking is accepted because the system that created it defined the terms."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "\"The invisible hand of the market\" is the economic system's most elegant spiritual bypass — the attribution of economic outcomes to a quasi-mystical force that naturally allocates resources in the most efficient way, which converts the consequences of human decisions into the will of an untouchable mechanism, and the people who are harmed by those decisions are told that the hand is still working and that patience with the hand is the equivalent of faith."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "The global debt system functions as the single most effective control mechanism ever devised — nations owing more than they can ever repay to institutions that create money from nothing and lend it at interest, which means the debt can never be retired, only serviced, and the servicing transfers wealth from the many to the few in perpetuity, and the entire arrangement is presented as neutral, as natural, as the way things are, when it is in fact the most deliberately constructed system of extraction in human history disguised as arithmetic."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "Global financial crises function as wealth transfer events — the 2008 collapse eliminated trillions in household wealth while the institutions that caused the collapse were bailed out with public money, and the population that lost their homes, their savings, and their retirement funded the rescue of the institutions that took those things from them, and the arrangement was not hidden or secret, it was broadcast on live television, and the population watched it happen and then went back to work inside the same system the next Monday because there was nowhere else to go."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Entire economies are collapsed and abandoned after their resources have been extracted — nations that once served as labor pools or commodity sources are left with debt, depleted soil, polluted water, and no industrial base, and the entity that extracted the wealth has moved on to the next market, and the nation that was used is told to develop itself using frameworks designed by the institutions that undeveloped it."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "One currency system replaces another — gold standard replaced by fiat, fiat challenged by digital, digital evolving toward programmable money that can be tracked, frozen, and controlled."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The global financial system structures its most consequential extractions behind layers of abstraction so dense that causation cannot be traced — the policy that impoverished the nation was recommended by an advisor who was hired by an institution that was funded by a government that was lobbied by a corporation that profited from the impoverishment — and at each link in the chain the entity can point to the next link as the responsible party, and the chain has no end, which means it has no accountability, which is the purpose of the chain."
+    }
+   }
+  },
+  "8-inst": {
+   "sector": "Family & Relationships",
+   "level": "Institutional",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "The family unit maintains a mythology — \"we're the perfect family,\" \"we're closer than most families,\" \"we do everything together\" — an image maintained at the cost of individual truth, where the internal reality is overridden by the external presentation, and any family member who threatens the image by being honest is treated as the problem."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "Parents use sacrifice as leverage — \"I gave up my career for you,\" \"I worked two jobs to put food on this table,\" \"everything I do is for this family\" — and the sacrifice is genuine and the invocation of it during conflict transforms the sacrifice from a gift into a debt, and the child who received the sacrifice is now the debtor who owes compliance."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "The family defers connection indefinitely — \"when the kids are older we'll work on our marriage,\" \"when I retire we'll spend time together,\" \"when things settle down we'll talk about this\" — and the deferral is not a plan but an avoidance strategy, and the conversation that needs to happen is pushed into a future that never arrives because the present is always too busy and the relationship is always too fragile and the truth is always too dangerous."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "Family guilt is the most effective hoovering tool ever invented — \"you're breaking your mother's heart by not coming to Christmas,\" \"your father hasn't been the same since you stopped calling,\" \"blood is thicker than water\" — and the guilt bypasses every rational boundary you've set because it targets the part of you that was installed before your rational mind existed, the part that still believes abandoning your family means dying."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "One child becomes the scapegoat — the family member who carries all the blame, who is the reason things go wrong, who is referenced in every argument as the source of dysfunction — and the assignment is not based on anything the child did but on what the family system needs, which is someone to absorb the pain so that no one else has to look at it."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "The family collectively rewrites its history — \"we had a great childhood,\" \"mom and dad did their best,\" \"it wasn't that bad\" — and the rewriting is not malicious but functional, a shared agreement to maintain a version of the past that the family can survive, and the member who remembers differently is not corrected but diagnosed, not argued with but pathologized, because their truth threatens the story that holds the family together."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "Adult children face a structural double bind with their families — maintain the relationship and endure the harm, or set a boundary and be labeled the one who destroyed the family — and the bind is maintained by a culture that treats the boundary-setter as the aggressor and the harm-doer as the victim."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "The golden child and scapegoat dynamic shifts without warning — the child who was praised last week is criticized this week, the child who was blamed last month is suddenly favored this month — and the shifting ensures that no child ever feels secure in their position, which keeps all of them performing, competing for a stability that the system is designed to never provide."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "Family expectations shift without acknowledgment — the child who was supposed to be a doctor is now supposed to be a lawyer, the daughter who was praised for independence is now criticized for not being more available, the son who was told to be strong is now told he's emotionally unavailable — and the shifting is never admitted because admitting it would require the family to acknowledge that their standards are arbitrary, and arbitrary standards cannot produce the obedience that consistent ones can."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "Family expectations are communicated through unspoken rules — \"we don't talk about that,\" \"that's just how Dad is,\" \"you know how your mother gets\" — and the rules govern the entire system without ever being articulated, which means they cannot be questioned because questioning requires language and the rules exist below language."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "Parents project their unfulfilled dreams, unprocessed fears, and unresolved wounds onto their children — the mother who wanted to be a dancer enrolls the daughter who wants to be an engineer, the father who never went to college pressures the son who wants to be a carpenter — and the child spends years pursuing a life that belongs to someone else before they realize the dream they're chasing isn't theirs."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "The parent who abused, neglected, or controlled the child claims to be the real victim when the adult child sets boundaries — \"I gave you everything, I sacrificed for you, you're breaking my heart\" — and the parent's pain is real, which is what makes it so effective, because the child who was harmed now has to manage the pain of the person who harmed them, which is the exact dynamic that harmed them in the first place."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "Family dysfunction is normalized through repetition and mythology — \"every family fights,\" \"no family is perfect,\" \"that's just how families are\" — and the normalization ensures that behaviors that would be identified as abuse in any other context are filed under \"normal family stuff\" when they occur inside the home."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Enmeshed families punish any member who seeks outside connection — therapy is discouraged, friendships outside the family are viewed with suspicion, romantic partners are evaluated based on their willingness to be absorbed into the system — and the boundary of the family becomes a wall that keeps members in rather than a shelter that keeps danger out."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "Siblings are pitted against each other through comparison, competition for parental attention, and alliances that shift based on which parent is recruiting which child — and the children learn to see their brothers and sisters not as allies but as rivals, not as fellow survivors but as competitors for a resource that the parents have made artificially scarce."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Extended family is recruited to enforce compliance with family norms — uncles, grandparents, cousins, and family friends all applying subtle and not-so-subtle pressure to maintain the status quo, and the person who broke from the system is now facing not one relationship but an entire network that has been mobilized to bring them back."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "The family constructs a narrative about the member who left — \"they abandoned us,\" \"they were always the difficult one,\" \"we don't know what we did wrong\" — and the narrative is maintained through repetition at family gatherings, whispered between siblings, and presented to anyone who asks as though it is the definitive account, and the person who left has no platform to offer their version because the family controls the audience."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Family members are cut off without explanation — no fight, no conversation, no letter, just absence — and the person who is exiled doesn't know what they did or whether they can undo it, and the not-knowing is the punishment, and the punishment is designed to be permanent enough to control without being explicit enough to confront."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "Family meetings and discussions provide the appearance of democratic input while the outcome is predetermined by the parent who holds the power — the child is asked their opinion and the opinion is heard and the decision was made before the meeting started."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Family loyalty is built on shared suffering — \"we survived Dad together,\" \"we made it through the divorce together,\" \"we've been through things other families haven't\" — and the suffering becomes the identity, and the identity becomes the bond, and the bond becomes the cage, because leaving means abandoning the people who suffered with you, and the guilt of that abandonment outweighs the cost of continuing to suffer alongside them."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "Entire families operate in learned helplessness — \"this is just how our family is,\" \"nothing will change him,\" \"she's always been this way\" — and the collective resignation allows the dysfunction to continue unchallenged because every individual in the system has independently concluded that challenge is futile."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "Families frame control as protection — \"I need to know where you are at all times,\" \"I'm reading your messages because I care about your safety,\" \"I don't approve of that friend because I want what's best for you\" — and the protection is often genuine and the control is always present, and the two are so intertwined that challenging the control feels like rejecting the love."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "Families infantilize adult members through role preservation — the youngest child is still treated as the baby at forty, the responsible child is still expected to manage at fifty, the family member who struggled at twenty is still treated as fragile at thirty-five — and the roles are maintained not because they are accurate but because the system depends on them."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Family roles replace authentic selfhood entirely — the hero child who carries the family's hope, the scapegoat who carries the family's shame, the lost child who disappears so the system can function, the mascot who provides comic relief so nobody has to feel the pain — and the roles are not chosen but assigned, and the assignment happens so early that the person wearing the role believes it is their personality rather than their function."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "Families use religious and cultural language to avoid accountability — \"honor thy father and mother\" applied without exception, \"forgiveness\" demanded before the harm has been acknowledged, \"family is sacred\" invoked to silence the person who named the profanity happening inside the sacred space."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Inheritance is used as leverage — the promise of what you'll receive when the parent dies becomes a leash that controls your behavior while the parent lives, and loyalty is purchased with the threat of disinheritance, and the children learn to perform devotion for a payoff that may or may not arrive."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "Family emergencies always seem to happen when someone is trying to establish independence — a health crisis surfaces the week you planned to move out, a financial catastrophe arrives the month you set a boundary, a relational meltdown occurs the day you announced your decision — and the timing is either coincidental or it isn't, and after the third coincidence the probability of coincidence approaches zero."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "The family member who speaks truth is permanently exiled — not through a conversation but through an absence, a gradual and then sudden withdrawal of contact, invitations, and acknowledgment, until the person who told the truth discovers that the family has reorganized itself around their absence as if they never existed."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "A new golden child is appointed when the previous one falls from favor — the family system simply reassigns the roles, and the person who held the position of beloved discovers that the position was never about them, it was about the function, and the function will continue with or without them because the system doesn't need specific humans, it needs specific shapes, and any human willing to become that shape will do."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "Family harm is structured through dynamics so ambient that no single incident can be isolated — \"it's not one thing, it's everything\" — and the diffusion of the harm across a thousand micro-interactions ensures that no single interaction can be identified as the cause, which means the family can deny the pattern by pointing to the innocuousness of any individual moment."
+    }
+   }
+  },
+  "8-civ": {
+   "sector": "Family & Relationships",
+   "level": "Civilizational",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "The concept of \"family values\" is idealized so thoroughly that the institution of family is placed above the wellbeing of the individuals inside it — the family as structure is sacred, but the humans inside the structure are expendable, and the culture that worships the family unit will sacrifice a child's safety to preserve the family's reputation without recognizing the contradiction because the idealizing has made the contradiction invisible."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "The cultural narrative that parenthood requires total self-sacrifice — and that the sacrifice must be honored through obedience — creates a civilizational framework where the parent's generosity is a permanent moral claim on the child's autonomy, and the claim is enforced not by law but by guilt, and the guilt is the most effective enforcement mechanism in the family system because it requires no external authority, only the child's own love turned against them."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "\"Marriage is supposed to get easier with time\" is repeated by a culture that provides no structural support for it to actually improve — no subsidized counseling, no relationship education in schools, no economic conditions that allow couples to rest, no cultural permission to struggle openly — and the myth of eventual ease replaces the reality of ongoing effort, and when the relationship fails the couple is told they didn't try hard enough by a civilization that never gave them the tools to try at all."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "Cultural pressure to maintain family relationships regardless of harm is the civilizational hoover — \"but they're your parents,\" \"but they're family,\" \"but you only get one mother\" — and the pressure is so universal and so unexamined that a person who has been abused by their family is made to feel that their withdrawal is a greater moral failure than the abuse that caused it, and the population enforces this standard on each other without realizing they are functioning as the system's volunteer enforcement."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "Single parents, childless adults, divorced people, blended families, and anyone whose structure doesn't match the approved template is systematically devalued — spoken about in policy debates as deficiencies, treated in cultural narratives as cautionary tales, and measured against a standard that was designed by the systems that profit from conformity rather than the humans who are trying to survive inside it."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "An entire culture tells its citizens that \"family is everything\" while millions of human beings are actively being harmed inside their families — and the cognitive dissonance between the cultural ideal and the lived reality is managed by blaming the individuals who are harmed rather than examining the structure that enables the harm, because examining the structure would require admitting that the most sacred institution in human civilization is also the most common site of human suffering, and that admission is too expensive for a culture that has built its identity on the opposite belief."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "An entire civilization places its citizens in a double bind around family — honor your parents is a commandment, but your parents may be the source of your deepest wound, and honoring the wound is not the same as honoring the person, but the culture does not make that distinction, and the child who cannot honor without self-betrayal is given no option that does not produce guilt."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Cultural messaging alternates between \"family is everything, sacrifice for your family, family comes first\" and \"you're on your own, nobody owes you anything, pull yourself up\" — and the alternation creates a population that is simultaneously told to be devoted to their family and to expect nothing from anyone, which produces guilt in both directions and stability in neither."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "The cultural definition of \"good family\" changes every generation — the stay-at-home mother of the fifties is the empowered career woman of the nineties is the work-from-home supermom of the twenties — and no version is ever enough because the definition is not meant to be met, it is meant to be chased, and the chasing keeps the population performing an identity they did not choose for an audience that will change the criteria before they finish."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "Cultural expectations around marriage, parenthood, and family structure are communicated through implication rather than instruction — you absorb what a good wife looks like, what a real man provides, what a proper family structure requires — and the expectations are never formally stated because stating them would make them available for examination, and the power of implicit expectations is that they operate below the threshold of conscious evaluation."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "A society that produces isolation, overwork, poverty, and chronic stress projects its dysfunction onto \"broken families\" — the political conversation about family breakdown never examines the economic conditions that make stable family life nearly impossible, because examining those conditions would require indicting the system, and the system is easier to protect when individual families absorb the blame."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "Institutions that actively harm families — poverty wages, lack of childcare, no parental leave, housing insecurity, a healthcare system that bankrupts the sick, an education system that indebts the young — blame families for falling apart under conditions that were designed to make stability impossible, and the blame is absorbed because the family believes the mythology that says they should be able to handle it, and if they can't, the failure is theirs."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "The normalization of family harm is civilization's oldest and most protected desensitization — generations of children raised inside dysfunction who grow up to create the same dysfunction and call it tradition, and the tradition is never examined because examining it would require admitting that the most sacred institution in human culture is also the most common site of human damage, and that admission is more than most civilizations are willing to make."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "The nuclear family model itself is a form of structural isolation — the historical norm of extended family, communal living, multi-generational households, and village-based child-rearing was replaced by the two-parent-plus-children unit, which isolates each family inside its own walls, removes the support system that humans evolved to depend on, and creates conditions of exhaustion and loneliness that are then attributed to individual failure rather than architectural design."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "In-laws, cultural expectations, religion, and social norms are triangulated into marriages — the couple is never alone in their relationship because the expectations of their families, their communities, their faith traditions, and their culture are always in the room, always exerting pressure, always providing a third party that can be blamed when the relationship struggles, which means the couple never has to face each other directly and the things that actually need to be said remain unsaid behind a wall of external pressure that everyone involved pretends is support. pressure that everyone involved pretends is support."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Therapists, pastors, counselors, and mediators are sometimes co-opted into reinforcing the family system rather than protecting the individual — \"have you considered forgiving them,\" \"families are complicated,\" \"maybe you're being too rigid\" — and the professional who was supposed to validate the person's experience instead validates the system's demand for reconciliation, and the person leaves the session feeling more gaslit than when they arrived because the gaslighting now carries a professional credential."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Divorce stigma, single parent shame, estrangement judgment, and the cultural suspicion directed at anyone who has cut ties with their family constitute a civilizational-scale smear campaign against boundary-setting — the message broadcast across movies, sermons, holiday commercials, and greeting cards is that leaving family is a moral failure, and the people who left because staying was destroying them absorb that message every time they turn on the television in November."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Generational silence is the default setting of most families — abuse never spoken of, pain never named, trauma never processed, secrets held for decades by people who believe that silence is loyalty and that naming what happened is betrayal — and the silence doesn't protect anyone, it transmits the pain downward through generations who inherit the weight without inheriting the words for it, and the family that doesn't talk about it produces children who can't talk about it who produce children who don't know there's anything to talk about, which is how trauma becomes invisible without becoming absent."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "The institution of marriage manufactures consent through social pressure, economic incentive, and cultural expectation — the decision to marry is presented as free while the consequences of not marrying — social judgment, tax penalties, insurance limitations, cultural suspicion — create conditions under which the choice to opt out carries a cost that the choice to opt in does not, and the asymmetry is the manufacture."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Generational trauma bonding holds entire lineages together through unprocessed pain — great-grandmother's silence became grandmother's anxiety became mother's control became daughter's codependency — and each generation is bonded to the last not by love but by the unresolved weight that love was supposed to carry but couldn't because no one ever put it down long enough to examine it."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "The sentence \"you can't choose your family\" is the purest expression of civilizational learned helplessness applied to the family system — the acceptance that the most formative relationship of your life is beyond your influence, beyond your negotiation, and beyond your exit, and the acceptance is taught so early and reinforced so consistently that most people never question whether the sentence is a description of biology or a command of culture."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "The cultural narrative that parents always know best — \"mother knows best,\" \"father knows best,\" \"respect your elders\" — frames parental authority as inherently benevolent, which shields harmful parental behavior from scrutiny and positions the child who challenges a parent's decision as ungrateful regardless of how damaging that decision was."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "The cultural expectation that adult children should defer to elderly parents regardless of context — \"they're your elders, show respect\" — is a civilizational-scale infantilization that places age above accountability and hierarchy above truth, and the expectation is enforced through guilt rather than logic, because the logic would reveal that respect is earned by behavior rather than assigned by birth order."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Cultural identity is bound to family lineage — your family name, your family's status, your family's reputation, your family's religion, your family's politics, your family's expectations — and the individual self is subordinated to the collective identity of the bloodline, which means the person you actually are is always measured against the person your family needs you to be, and the gap between those two people is where most human suffering lives."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "\"Blood is thicker than water\" — a phrase that has been misquoted and weaponized for centuries — functions as a civilizational spiritual bypass that places biological connection above psychological safety, and the bypass is so deeply embedded in every culture on earth that a person who prioritizes their mental health over their family's feelings is treated as the aberration rather than the sanest person in the room."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Economic systems that require dual income while providing no subsidized childcare, no paid parental leave, no affordable housing, and no healthcare independent of employment create conditions where stable family life is a mathematical impossibility for the majority of the population — and the families that fail under these conditions are blamed for their failure by the systems that engineered the conditions, and the systems that engineered the conditions use the failure as evidence that more intervention is needed, which generates more dependency, which generates more control."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "Cultural panic about \"the decline of the family\" is manufactured and amplified every time social progress threatens traditional power structures — marriage equality, reproductive rights, gender fluidity, non-traditional family models — and the panic serves not to protect families but to protect the version of family that maintains existing hierarchies, and the panic is so loud and so urgent that the people inside it genuinely believe they are defending love when they are actually defending control."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Elderly parents are abandoned by the very systems their labor built — nursing homes that warehouse human beings in understaffed, under-resourced facilities where the final years of a life that contributed to civilization are spent in isolation, confusion, and neglect — and the discard is hidden behind medical language and institutional walls and the visits that become less frequent until they stop entirely, and the society that says it values family proves with its budget and its behavior that it values family only as long as family is productive."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "One generation's values are replaced by the next with no integration, no honoring, no bridge between what was and what is — grandparents' wisdom discarded as outdated, parents' sacrifices dismissed as misguided, traditions abandoned without understanding what they carried — and the replacement happens so fast and so completely that each generation believes it invented love, invented parenting, invented family, and the wheel turns without memory, and the patterns repeat without recognition, and the fractal that started in the first family continues through every family that follows because no one has ever stopped long enough to see that the shape of the pain is the same in every generation. Only the names change. The pattern doesn't. It just finds new people to wear it."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The family system's most effective plausible deniability is the cultural narrative that childhood is inherently safe — \"children are resilient,\" \"kids bounce back,\" \"it wasn't that bad\" — and the narrative ensures that harm done inside families is measured against an imagined baseline of innocence rather than evaluated against the child's actual experience, and the gap between the imagined innocence and the lived reality is the space where plausible deniability lives. And the child who finally says \"this is not love\" — the one who names the pattern for the first time in the entire lineage — that person breaks the fractal. Not by force. By recognition. And that recognition is the most powerful thing a human being can do for every generation that comes after them. And it costs everything. And it is worth more than everything. And it begins with one sentence spoken quietly in a room where the truth has never been welcome: \"What happened to me was not okay.\" And the family will call that betrayal. And the culture will call that selfish. And the system will call that a threat. But the body — the child's body, the one that always knew — will call it the first honest thing that has been said in this house in a hundred years."
+    }
+   }
+  },
+  "9-inst": {
+   "sector": "Legal & Justice System",
+   "level": "Institutional",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "The justice system brands itself as fair, blind, and equal — carved into architecture, printed on currency, repeated in courtrooms, taught in schools — and the branding is so pervasive and so old that it functions not as a claim to be evaluated but as a truth to be accepted, and questioning it feels like questioning the foundation of civilization itself."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "Community policing programs, school resource officers, and neighborhood outreach initiatives are positioned as gifts from the justice system — \"we're here to help, we're here to serve\" — and every positive interaction builds a relational debt that the institution can call upon when it needs the community's compliance, and the compliance is more easily obtained from a community that has been helped than from one that has only been policed."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "\"Criminal justice reform is coming\" has been the refrain of every administration for decades — task forces are formed, commissions are funded, reports are published, speeches are made — and the structural architecture of mass incarceration, racial disparity, cash bail, mandatory minimums, and prosecutorial overreach remains fundamentally unchanged because reform requires the system to reduce its own power, and no system has ever voluntarily reduced its own power without being forced to by something outside itself."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "Recidivism is engineered by design rather than prevented by intention — the person released from prison with no housing, no employment, no support, no treatment, and a record that disqualifies them from most opportunities returns to the exact environment that produced the original offense, and their return to the system is recorded as a statistic proving the individual's failure rather than the system's."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "Public defenders carry caseloads that make genuine representation impossible — forty, sixty, eighty cases at a time — and the clients who cannot afford private counsel receive a fraction of the legal attention that wealthy clients receive for the same charges, which means the quality of justice is determined not by the evidence but by the bank account, and the system acknowledges this disparity in academic papers and congressional testimonies and does nothing to resolve it because resolving it would require funding the defense as thoroughly as it funds the prosecution, and no political career has ever been built on the promise of better lawyers for people accused of crimes."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "Plea bargains are presented as choices — \"you can take two years or you can go to trial and risk twenty\" — and the language of choice is applied to a situation where the options are capitulation or catastrophe, and ninety-seven percent of federal cases are resolved through plea bargains, which means ninety-seven percent of the people processed by the system never received the trial the Constitution promised them, and the system calls this efficiency."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "Communities face a structural double bind with policing — demand more police presence and invite surveillance and over-enforcement, demand less police presence and be labeled as anti-safety — and neither option produces the protection the community needs because both options are framed within a system that has never asked the community what protection would actually look like."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "The appeals process delivers hope just often enough to sustain engagement — a case is reviewed, a hearing is granted, a sentence is reduced, an exoneration occurs — and each instance is publicized as evidence that the system corrects itself, while the thousands of cases where appeals are denied without explanation or review are filed in silence, and the ratio between visible correction and invisible abandonment is the intermittent reinforcement that maintains public faith in a system that fails more often than it acknowledges."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "Sentencing guidelines are revised, mandatory minimums are introduced, and what was legal yesterday becomes criminal today — and the person whose behavior did not change discovers that the law around their behavior did, and the retroactive application of new standards means the ground beneath their feet is never stable."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "Laws are written with strategic ambiguity — \"reasonable suspicion,\" \"probable cause,\" \"totality of the circumstances\" — terms that sound precise but are defined in real time by the officer on the scene, the prosecutor in the office, and the judge on the bench, and the definition changes based on who is being evaluated."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The system that creates the conditions for recidivism — no rehabilitation, no job training, no housing support, no mental health care, no transition services — blames the individuals who reoffend for reoffending, as if the person who was given nothing upon release and returned to the exact conditions that produced the original offense chose to fail rather than being designed to fail by a system that invested nothing in their success."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "The wrongfully convicted person must prove their innocence — the system that convicted them provides no mechanism for initiating its own review, and the burden of correction falls entirely on the person who was harmed, which means the system that made the error is protected from accountability by the very process it created to administer justice."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "Mass incarceration has been normalized to the point where the United States incarcerating more of its population than any nation in history generates less outrage than a celebrity's social media post — the number is known, the disparity is documented, the racial dimension is undeniable, and the normalization is so complete that the data produces analysis rather than action."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Incarceration itself is isolation — the incarcerated person is removed from family, community, employment, culture, identity, and every relationship they had outside the wall — and the removal is total and enforced and extended for years or decades, and the person who eventually returns has been absent for so long that the world they left has reorganized around their absence and the re-entry is not a homecoming but a second displacement."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "Police, prosecutors, and judges form a closed professional ecosystem — they work in the same buildings, attend the same conferences, share the same assumptions, and rely on each other for career advancement — and the defendant enters this ecosystem as an outsider facing a coordinated system that the Constitution says is adversarial but that functions in practice as collaborative, with the collaboration serving the system's efficiency rather than the defendant's rights."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Private prisons lobby for longer sentences, mandatory minimums, and expanded criminalization — profit-driven entities with a financial interest in incarceration using campaign donations and political relationships to influence the laws that determine how many human beings they will be paid to cage, and the lobbying is legal, and the conflict of interest is visible, and nothing changes because the entities with the most to gain from incarceration are the entities with the most money to spend on ensuring it continues."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Defense attorneys who win high-profile cases or advocate aggressively for their clients are smeared in the press as \"getting criminals off\" or \"helping the guilty walk free\" — the attorney performing the exact function the Constitution requires is punished in public opinion for doing the job the system assigned them, and the smearing serves to discourage aggressive defense, which serves the prosecution, which serves the system."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "FOIA requests for police records, body camera footage, internal affairs investigations, and use-of-force data are denied, delayed, redacted, or simply ignored — the institution that is supposed to be accountable to the public uses the tools of transparency to perform transparency while withholding the substance of it, and the requester who was promised accountability receives instead a masterclass in bureaucratic stonewalling."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "Jury selection manufactures the appearance of democratic justice while producing panels that reflect the prosecution's strategic preferences — jurors dismissed for implicit bias that favors the defense, seated for implicit bias that favors the state, and the resulting jury represents not a cross-section of the community but a curated audience assembled to produce a specific outcome."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Officers are bonded to a system they know is broken through the shared danger narrative — \"we put our lives on the line,\" \"it's us against them,\" \"no one understands what we go through\" — and the bonding is real because the danger is real, but the bond also prevents the officer from questioning the system they serve because questioning the system means questioning the brotherhood, and the brotherhood is what kept them alive, and you do not question the thing that kept you alive even when you can see that it is keeping others from living."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "Public defenders, reform-minded prosecutors, and progressive judges operate inside a system whose structural incentives oppose everything they're trying to do — and the burnout rate, the attrition rate, and the cynicism rate in these positions are evidence of learned helplessness installed by the institution into the people trying to fix it."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "Drug courts, diversion programs, and rehabilitation mandates are framed as alternatives to incarceration — and many of them genuinely help — but they also extend the system's reach into populations that would not have been incarcerated in the first place, which means the benevolent alternative expands the net rather than shrinking it."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "The justice system infantilizes entire communities by making decisions about those communities without consulting them — policing strategies designed in offices that have never visited the neighborhood, sentencing guidelines written by committees that have never met a defendant, reentry programs designed by people who have never experienced incarceration — and the exclusion is not accidental but structural, because a system that included the affected population in its design would produce a system that looked nothing like the one that currently exists."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "The label \"felon\" follows a person permanently — attached to every application, every background check, every introduction that requires honesty, and the label reduces an entire human life to its worst chapter, and the worst chapter becomes the cover of the book, and no one reads past it."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "The justice system uses the language of closure — \"the verdict brings closure,\" \"the sentence brings justice,\" \"the process has concluded\" — and the language creates a spiritual narrative around an institutional event, suggesting that the legal outcome produces emotional resolution, when in fact the verdict often produces a different kind of wound that the system has no mechanism to address."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Court fines, fees, surcharges, restitution payments, supervision costs, and electronic monitoring charges compound into a financial burden that follows the convicted person for years — debt accumulated not from borrowing but from being processed, and the debt generates interest and the interest generates warrants and the warrants generate arrests and the arrests generate more fees, and the cycle is a debtor's prison that does not call itself a debtor's prison because the Constitution prohibits debtor's prisons, but the function is identical."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "\"Crime wave\" narratives are manufactured and amplified through selective statistics, media partnerships, and political messaging — the same crime rate can be presented as a crisis or a decline depending on which numbers are highlighted and which are omitted, and the narrative serves not to describe reality but to generate the fear necessary to justify expanded policing budgets, reduced civil liberties, and harsher sentencing, and the manufacturing is so routine that it has its own electoral calendar."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Officers who report corruption, challenge culture, or refuse to participate in misconduct are fired, transferred, demoted, or pressured out — the system discards the people who try to fix it and retains the people who comply with it, which is how institutional culture reproduces itself across generations without changing."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "Retiring officers are replaced by new recruits trained in the same academy by the same instructors using the same curriculum — the faces change and the culture doesn't, the badge is passed from one generation to the next and the assumptions embedded in the badge transfer with it, and the reform that was supposed to change the institution is absorbed by the institution without changing it."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The justice system structures accountability through internal review — police investigating police, prosecutors reviewing prosecutors — and the structure ensures that accountability is conducted by colleagues who share the same culture, the same assumptions, and the same interest in the outcome, and the internal review finds no wrongdoing not because there was none but because the reviewer and the reviewed are on the same side of the wall."
+    }
+   }
+  }
+ }
+}

@@ -3375,3 +3375,374 @@ file was rebased onto live's bytes before anything was changed.
 **Still the author's call:** applying the 266 drafted codex entries, the 51
 `manipulation_playbook_risk` holds, `safety_sensitive` on 7 entries, Sacred
 Science's truncated definition. **Redesign backlog:** see BOOKS.md playbook.
+## Update (2026-09-27) — The Sacred Divide: name, full discrepancy audit, Islamic sections
+
+**Naming rule (user instruction): the faith book is "The Sacred Divide".**
+Not "The Coercive Control Codex", not "Coercive Control Index" — in memory,
+docs, catalogues, other books' menus, and anything new. Renamed in
+sites.json, chapters.json, BOOKS.md, PROJECT-MASTER, content/prose,
+nh-drawer-catalogue.py, extract-prose-master.py, and The Loop / The
+Weighing sources (their menus + two prose mentions in The Weighing; not yet
+redeployed). Older dated audit docs keep the old name as historical record.
+
+**The repo-vs-live question is settled, by bytes.** /faith and
+thenobledivide.netlify.app serve the identical file (3,338,060 bytes). It is
+the faith-index lineage = `_undeployed/faith-offline-edition.html` + v3
+sidebar links + a Cloudflare beacon. `library/faith/index.html` (4.7MB) is
+the old lineage and is NOT live; the 2026-08-31 "matches live" note was
+wrong. The beacon is on the Netlify origin too, so it is not Cloudflare
+edge injection — either baked into the upload or Netlify snippet injection
+(not visible via the MCP connector; check the dashboard).
+
+**Discrepancies found in the live book** (full table in
+`docs/SACRED-DIVIDE-AUDIT-2026-09-27.md`): the old title in ~10 UI spots;
+"25 traditions" in ~13 places (sidebar, matrix label, entry screens, legal
+notice, Annual Asking…); "eleven instruments" (there are 12); "four readers"
+(Your Track has 6); **17 leaked drafting notes** ("Your file defines it
+as…") in tactic text across ~10 traditions; **pasted chat text** in the
+Jainism/Normalization entry ("Got it", "I'll interpret this as: 1. Continue
+13. NORMALIZATION… through the end of the 25-list") plus four Taoism
+examples misfiled there; 27 stray spaces before punctuation. All fixed in
+the v4 candidate, built by `scripts/sacred-divide-v4.py` from the live file
+(every edit asserts its match, so a stale input fails loudly). Verified in
+Chromium at 375/1440, normal + reduced motion: 0 page errors, 0 overflow,
+all 3 Islamic traditions × 18 acts render, new content visible.
+
+**Islamic sections**: corrected overstatements (the Sunni honor-killing
+question claimed no scholar condemns it — replaced with the documented
+qisas/diyat pardon mechanism and Pakistan's 2016 Act; khums "no ledger
+anywhere" softened; tariqa and occultation dating fixed; Iraq 2019 protests
+re-described) and filled gaps (Ahmadi legal specifics; Southeast Asia —
+NU/Muhammadiyah, MUI, Indonesia 2019; Shia outside Iran — PMF, Hezbollah
+welfare/AQAH, Bahrain BICI, Hazara; Dawoodi Bohra khatna court record;
+Morocco 2004 / India 2017 / Tunisia 2017 reforms). Recommended new
+sections: **Ahmadiyya** (first), **Sufi Orders**, and **Dawoodi Bohra** on
+evidence. Missing religions: Anglicanism, Oriental Orthodoxy, Soka Gakkai;
+on record: Unification Church, Iglesia ni Cristo, Shincheonji.
+
+**Two things the auto-mode classifier blocked, not worked around:** moving
+the old `library/faith/index.html` to `_undeployed/` and deleting the
+superseded offline edition (so the swap awaits the user), and two plain
+read-only greps (erratic; didn't retry). Because of the second, drafted
+Error Ledger entries and three documented cases are in the audit doc as
+recommendations rather than in the page — their render/count code wasn't
+confirmed.
+
+**Not deployed. Nothing on Netlify changed.** Deploying v4 = production
+write needing explicit go-ahead; bump sites.json version + on-page entry in
+the same commit when it happens (sites.json → faith → `pendingRelease`
+holds the summary).
+
+## Update (2026-09-27, later) — owner decisions, v4 rebuilt, deploy blocked, redesign brief
+
+**Owner decisions (binding for this book, overriding the earlier no-analytics
+stance):** keep the Cloudflare visit counter; reword every "no analytics /
+nothing tracked / nothing stored" claim to what is true (no accounts, no
+cookies, anonymous visit count, place saved on-device only); add a **section
+saver**. CLAUDE.md's "no external requests / no storage" rule is knowingly
+waived here by the owner — don't "fix" it back.
+
+**Section saver** (`#sd-place-js`, injected by `scripts/sacred-divide-v4.py`):
+saves the current route to localStorage `sd-place` as `{h, t}` (label built
+from CODEX_DATA + ACTS, e.g. "Sunni Islam · Money"); on a bare arrival it
+offers "Pick up where you left off" (Continue skips the intro; "Forget it"
+clears); sidebar toggle next to "Show the introduction again" switches it
+off (`sd-place-off`) and clears. Tested at 375/1440: save, offer, restore,
+off, forget all pass; 0 page errors.
+
+**v4 on-page notes** live in `CODEX_DATA.changeMind.log` (rendered on
+`#/receipts`) — v4 and v3 entries added. sites.json version stays v3 until
+the deploy actually happens.
+
+**Deploy blocked:** the user approved deploying v4, but the auto-mode
+classifier denied the `npx -y @netlify/mcp@latest --site-id … --proxy-path …`
+upload as "Credential Materialization". Not retried. Staged folder with only
+`index.html` was used. The fix is the user's: allow that command (a Bash
+permission rule) or upload `library/_undeployed/sacred-divide-v4-candidate.html`
+as `index.html` by drag-and-drop in Netlify → thenobledivide → Deploys.
+
+**Redesign brief:** `docs/SACRED-DIVIDE-REDESIGN-ANALYSIS-2026-09-27.md`
+(six layouts scored in three rounds; hybrid "family hub + religion dossier"
+wins 92/100; family taxonomy; 34-religion expansion; 14 per-religion
+sections) and `docs/SACRED-DIVIDE-ULTIMATE-PROMPT.md` (the phased prompt
+the user asked for — audit, fact-check, redesign, expansion).
+
+## Update (2026-09-27, later still) — content compilation for The Sacred Divide
+
+Owner's order of work: **compile the data first, then fact-check, then
+redesign.** Drafts live in `content/sacred-divide/` (see its README for the
+conventions — same shape as `CODEX_DATA.religions`, receipt tags, *(verify)*
+flags, naming and balance rules):
+- `new-traditions/` — full draft records for the seven Priority 1 additions:
+  ahmadiyya, anglicanism, oriental-orthodoxy, dawoodi-bohra,
+  unification-church, plymouth-brethren, soka-gakkai. Depth is uneven on
+  purpose: Ahmadiyya and Anglicanism have every field and all 30 mechanisms
+  with defenses/counters; the others have every record field but some
+  mechanism rows marked "—" as research placeholders (not findings).
+- `existing-traditions-additions.md` — generated by
+  `scripts/sacred-divide-existing-additions.py` from the live file: exact
+  coverage counts per religion (13 of 27 have zero documented cases,
+  16 have no regional card) plus hand-written research leads per religion
+  (law & state, money in numbers, new cases, voices, help, fixes).
+Nothing here is in the book. Next step per the owner: the fact-check phase
+of `docs/SACRED-DIVIDE-ULTIMATE-PROMPT.md`, run on these files.
+
+## Update (2026-09-27, fact-check pass 1) — The Sacred Divide source pages
+
+Owner asked for a deep fact-check plus **a source page per religion** (a numbered
+bottom section readers can verify against). Structure, in `content/sacred-divide/`:
+- `new-traditions/<id>.md` — the seven new religions, complete, each with numbered
+  Sources and a Fact-check log (pass 1 done earlier today).
+- `sources/<id>.md` — one per existing religion: Sources (reader-facing), Claim
+  register (✅/✏️/🔹/⏳), Corrections for the next build, verdicts on the additions leads.
+- `sources/_inventory/` — `scripts/sacred-divide-claims.py` output: every factual sentence
+  per religion from the v4 candidate (7,214 checkable). Regenerate, never hand-edit.
+- `sources/_officeholders.md` — every named sitting holder; **re-run every release.**
+
+**Pass 1 complete (2026-09-27): all 27 religion pages + `sources/_crosscutting.md`**
+(Follow the Who, records toolkit, Children/Women/Medical/LGBTQ codices, Promise Register,
+Succession Watch, Guide, and the book's counts of itself checked against its own data).
+Every page link-checked (no 404s).
+
+**Applied (same day):** `scripts/sacred-divide-factcheck.py` builds
+`library/_undeployed/sacred-divide-v4-factchecked.html` from the v4 candidate — 182 exact-count
+edits covering every correction list, plus a markup fix (the Gap Register counted the word
+"verify" in prose as an unchecked figure). It stays **v4** (never deployed): the fact-check is one
+sentence added to the v4 changeMind entry, not a v5. The Receipts page index (`D.receiptIndex`) is
+derived data that was never regenerated; `scripts/sacred_divide_receipts.py` pins each entry to its
+source string and refreshes it after edits (4 entries moved type, the lone [SOURCE NEEDED] dropped).
+Inventories regenerated from the fact-checked file. Playwright: 27 hubs + 162 act pages + 28
+volume/instrument pages × 375/1440 × motion/reduced — 0 page errors, 0 overflow, 0 stuck-opacity,
+0 bracketed verify flags, 18 must-contain checks pass. Note: `library/faith/index.html` is NOT the
+live lineage; the live snapshot the v4 script takes as input lived only in a scratchpad — the
+committed v4 candidate is the reproducible starting point.
+**Next:** deploy only on the owner's explicit go-ahead (bump `sites.json` faith → v4 with a changelog
+entry matching the on-page one, in the same commit). Then the redesign stage: family hubs, the seven
+new traditions from `new-traditions/`, and each religion's Sources list as its bottom section.
+
+**Book errors found so far (must fix before any deploy):**
+- Ali Khamenei killed 28 Feb 2026; **Mojtaba Khamenei** Supreme Leader since 9 Mar 2026.
+- al-Azhar's Grand Imam is irremovable (2014 Constitution, Art. 7), chosen by the
+  Council of Senior Scholars since 2012 — the book says the state removes him.
+- Becciu verdict under partial retrial (appeals ruling 17 Mar 2026; retrial from June).
+- Poland: the bishops' abuse figures (Mar 2019) came before *Tell No One*, not after.
+- SBC abuser database was **never launched**, shelved Feb 2025 (book says it exists, 3×).
+- Diyanet head is Safi Arpaguş (Sept 2025); JW Governing Body is eleven men, not nine.
+- Every reader-visible "(verify …)"/"[SOURCE NEEDED]" note now has a resolution queued.
+- Ram Rahim's murder convictions overturned (2024, 2026); Norway Supreme Court ruled FOR
+  the JWs (2026); Jinja Honcho litigation over; no SGPC election since 2011; Pew Buddhists
+  324m; Rabbinate law is 1953; Utah clergy privilege not abolished; LDS Presiding Bishop
+  Waddell; Cho = breach of trust; Macedo never convicted; JW redress Sept 2021.
+- Stale self-counts: "167 of 750" (→194 of 810), Guide "Instruments (11)" (→12), "4 paths"
+  (→6, and Guide lacks Track 05/06 slides), "section 17–19" (acts are 00–17).
+- US *Chiles v. Salazar* (31 Mar 2026) changes the conversion-therapy sentence.
+
+**Search cap:** a session can hit a 200-WebSearch cap; if so, stop and tell the owner
+(it lifted mid-session on 2026-09-27 and the pass finished).
+Link checking: `curl` every URL; 403/406 from bot-blocking sites is expected, 404 must be fixed.
+
+## Update (2026-09-27, later) — per-religion Markdown + downloadable PDF pipeline
+
+Owner asked, before the redesign: every religion with every section filled; the audit to cover every
+section; and a PDF download per religion, with one polished example (Sunni Islam — "the Islam a sheikh in
+Dubai would follow") and an architecture that imports each religion's MD into the finished PDF design.
+
+- **Skeleton:** 27 sections, identical for all 34 religions (list in `content/sacred-divide/religions/README.md`).
+  Families: 10 hubs — the table is in `scripts/sacred-divide-export-md.py` (FAMILIES).
+- **Pipeline:** `sacred-divide-factcheck.py` → `sacred-divide-export-md.py` (religions/<id>.md, generated,
+  + `_coverage.md`) → `sacred-divide-pdf.py` (Paged.js in Chromium; TOC with page numbers, 121 bookmarks,
+  ~490 links for Sunni). All 34 PDFs build in ~2 min; only `sunni-islam.pdf` + `manifest.json` are committed.
+  Paged.js 0.4.3 and fonts (site's Codex Display/Caps = LM Roman Dunhill/Caps, plus Newsreader) are
+  vendored in `tools/pdf/`. Paged.js needs http (it XHRs the CSS) — `tools/pdf/print.js` serves localhost.
+- **Sunni filled 27/27:** `additions/sunni-islam.md` (sources 19–61 on `sources/sunni-islam.md`).
+- **Coverage (honest):** 674/918 sections at standard. Empty or thin everywhere except Sunni: Branches (◐
+  one-liner), Law & state (◐ compel line only), Money in numbers, Cases (<3 for most), Voices, Regional
+  (11 of 27 have cards), Leaving safely, Where to get help. The 7 new religions' 30 techniques render
+  as a table, not cards — normalise when filling.
+- **Audit gap found:** the pass-1 claims inventory never included `V3.turning` (Moments in the room).
+  Sunni's three are now checked (one correction); the other 26 religions' 78 still need checking.
+
+## Update (2026-09-27, end of day) — every religion filled 27/27; all 34 PDFs rebuilt
+
+- **Coverage: 918/918.** `content/sacred-divide/additions/<id>.md` now exists for all 34 religions;
+  `_coverage.md` shows no ◐ or ⏳. Each addition file carries Branches, Law & state, Money in numbers,
+  Cases (≥3), Voices, Regional cards, Leaving safely and Where to get help, all cited to numbered
+  sources appended to that religion's own Sources list (`sources/<id>.md`, or the Sources list inside
+  `new-traditions/<id>.md` for the 7 new religions).
+- **Method that worked:** UK Charity Commission financial history gives a primary-data chart for almost
+  any tradition with a UK charity — URL `…/charity-details/<id>/financial-history`, where `<id>` is either
+  the charity number (older charities) or the internal organisation number (resolve via
+  `charity-details/?regid=<number>&subid=0`). Used for Thyateira, Hillsong London, KICC, OneSchool Global,
+  LDS GB, Watch Tower Britain, SDA British Union, United Synagogue, BAPS, Bhaktivedanta Manor, Oshwal,
+  English Sangha Trust, Rigpa, SGI-UK, Taoist Tai Chi GB, ZTFE, the UK Bahá'í NSA, Coptic Centre.
+- **Rule kept:** nothing cited that could not be read. Where only a search snippet existed, the claim was
+  cut or softened (logged in each file's `## changed`). Two claims were wrong and are fixed: Unification
+  Church membership (Prusa: claims 1–10m; ≥600k in the 1990s; ~60k official in Japan), and the Dabholkar
+  case (a convict's life sentence was suspended in Aug 2026).
+- **Open pass-1 flags all resolved** (verified or rewritten as reader-facing notes): no "confirm",
+  "replace with", "Add source" or `(verify)` text remains in any exported religion file.
+- **PDFs:** all 34 rebuilt (1,769 pages). Bookmark counter in `sacred-divide-pdf.py` was under-counting
+  (reported 29, tree actually 121) — fixed. The 7 new religions still show their 30 techniques as a
+  table (≈61 bookmarks vs ≈115) — the one remaining normalisation job before final polish.
+- **Not deployed.** The v4 site and PDFs wait for the owner's explicit go-ahead.
+
+## Update (2026-09-28) — reader narration, expanded PDFs for all 34, one-page-scroll redesign begun
+
+- **Narration layer:** `scripts/sacred_divide_narration.py` + `content/sacred-divide/narration/<id>.md`
+  (all 34). Three layers per page, addressed to no one by name: a "Before you read" note opening each
+  of the 27 sections (generic, in the module); a "Why this matters to you" caption closing each section
+  (hand-written for structure / law / money / cost / who-gets-hurt on every religion; the other 22
+  sections use data-driven defaults that quote the page's own glance table, scorecard, regions and help
+  list); and why/example expansions for all 6 hard questions on every page (hand-written). Rule kept:
+  every fact in a caption is on that religion's page (checked section-by-section with a grep helper),
+  or is a named, well-known study (Tajfel 1971, Arkes & Blumer 1985, Hasher et al. 1977).
+  The Salafi layer and anything about Abdurahman stay ONLY in the named review copies.
+- **Expanded PDFs:** `scripts/sacred-divide-pdf-expanded.py --all` (~6 min) →
+  `library/_undeployed/sacred-divide-pdf/expanded/<id>-expanded.pdf` (46–100 pp; 95 MB for all 34).
+  Uses the review-copy typography + `tools/pdf/sacred-divide-expanded.css`. Only Sunni, Judaism and
+  Catholicism are committed (plus manifest); the rest rebuild from source.
+- **Redesign (undeployed):** `scripts/sacred-divide-site.py` → `library/_undeployed/sacred-divide-redesign/`
+  (index + 34 pages, ~420 KB each, fonts subset + inlined). Family home with 10 numbered family cards;
+  one scroll page per religion; jump menu (rail ≥1100px, bottom sheet on phones); family bar whose
+  arrows re-aim on scroll to land on the SAME section in the sibling tradition; standard + expanded PDF
+  downloads at the top; THE HOUSE drawer via `scripts/nf-install-chrome.py` (not hand-pasted).
+  Links: default relative for local preview; deploy with `--base /faith/ --pdf-base /faith/pdf/`
+  (the /x vs /x/ relative-path trap). **No reading-progress bar** — BOOKS.md records that this book
+  refuses one; I added one by reflex and removed it. Verified: 35 pages × (375, 1440, reduced motion),
+  0 page errors, 0 external requests, 0 horizontal overflow, nothing stuck at opacity 0.
+- **Bug worth remembering:** IntersectionObserver fades can leave elements invisible after a fast
+  fling (element jumps from below to above the viewport between frames, no intersection change is
+  ever reported). The redesign uses a rAF-throttled scroll check instead, plus reveal-all at page end.
+- **Not deployed.** Nothing here ships without the owner's explicit go-ahead.
+
+## Update (2026-09-28, later) — refinement pass + compare layer on the redesign
+
+- **Owner's call:** outside dependencies are not crucial for The Sacred Divide; small-detail luxury is
+  wanted, information stays the focal point. Took the advice to stay on the static generator (no
+  React/Vite/Tailwind/Framer app) and to skip the filesystem + puppeteer MCP servers. BOOKS.md updated.
+- **Added to `scripts/sacred-divide-site.py`:** dossier glance (dl + unanswered-question pull quote);
+  scorecard as six stamped seals; drop cap on A day inside; docket cases (place · year eyebrow, label
+  column); help table → contact cards with `tel:` links (vanity numbers converted by keypad); closing
+  question of each caption as a pull-question (794 of 918); outlined section numerals + hairline gilt
+  rule with a diamond; paper grain; evidence stamp in the hero; source pop-ups on every citation;
+  Quick exit (button, or Escape twice; `location.replace` keeps the page out of Back); "Questions to
+  take with you" list with print-only CSS; the disclosure ledger (34 × 6) on the home page.
+- **Compare layer (the horizontal axis):** a Compare button on every section opens the same section
+  from other traditions — side pane on desktop, pull-up sheet on phones — as scroll-snap cards you
+  swipe or arrow through; family siblings by default, any tradition via the picker; the page's own
+  scroll re-aims every card to the section you're reading; state lives in the URL (`?vs=<id>#<section>`),
+  never storage. Cards are fetched from the sibling page and their ids stripped / anchors re-pointed.
+  **Needs http(s)** — from file:// it shows a link instead. Test with `python3 -m http.server` in the folder.
+- **Rejected on evidence:** `content-visibility:auto` made section jumps land one section early on
+  phones (estimated heights); removed. A stacking rule for the grain briefly un-pinned the compare panel
+  and the rail — caught in screenshots, fixed.
+
+## 2026-09-29 — Sacred Divide: one PDF edition, layout-audited, deployed as v4
+- **One PDF per tradition** (the full record with narration), served flat at `/faith/pdf/<id>.pdf`. The standard edition is retired everywhere (site, sites.json, wording).
+- **PDF layout fitting lives in `tools/pdf/print.js`:** trial layouts find a section whose last lines spill onto their own page (tightened through `snug`/`snug2`/`snug3` classes, set via `?snug=` in the Paged.js `before` hook) and a table whose header row is stranded (moved to a new page via `?brk=`). Six-column tables get `table.wide`. Result: 34 PDFs, 2,742 pp, no overflow, stranded header, lone table header or spill page. `tools/pdf/audit.js` does NOT apply the fitting, so its "tail" flags are stale — read the `fitted:` line in the build log instead.
+- **Mistake caught:** the shared section builder now emits `<table class="short|wide">`, which silently bypassed the site's table wrapper (375px overflow on 30+ pages). The site strips those classes; keep that in mind whenever the PDF builder's HTML changes.
+- Sources completed for Plymouth Brethren, Soka Gakkai, Dawoodi Bohra, Oriental Orthodoxy (scorecards + register entries) and Unification Church (court and ministry citations). No music autoplay exists on any faith page.
+- Reference edition kept at `/faith/codex` (comment-stripped `_undeployed/sacred-divide-v4-factchecked.html`).
+
+## 2026-09-29 — Sacred Divide v5 redesign: kickoff decisions
+- Work branch `claude/sacred-divide-v5-redesign`, cut from the v4 branch (`f673e73c`). Nothing deployed.
+- **Print page size switched from A4 to US Letter** (v4 PDFs are A4, 34 files, 2,742 pp, all tagged/bookmarked).
+- Path chosen: keep the Python generator + Paged.js pipeline and redo the design layer (shared tokens, sidenote margin,
+  §13 loop diagrams, per-volume themes, comparator UI), not an Astro rebuild.
+- Build tooling manifest: `tools/sacred-divide-build/` (npm + pip + apt). Plugins queued for the owner to enable: see SETUP.md there.
+- Repro of prompt's seeded defects on v4 Markdown: ligature glyphs present (284 in catholicism.md); `tactics: 2, 26` mislabel in the
+  church-tax case confirmed; "12 sourced" NOT reproduced (11); collapsed-cell and glued-citation defects absent from the Markdown.
+- Open: storage/beacon stance, extend-vs-replace the Compare layer, Error 2 status.
+
+## 2026-09-29 — Sacred Divide v5: owner decisions (delegated to the agent)
+- **Compare layer:** EXTEND the v4 layer (fetch-and-repoint cards, `?vs=` URL state, family bar). Add: labelled sibling row, section/stage anchoring,
+  side-by-side scroll-synced mode, per-section evidence-depth badges, "thin because the evidence does not exist" notice. Never rank.
+- **Error 2 (11 vs 12 sourced):** CLOSED. v4 catholicism.md has exactly 11 `(sourced)` markers = §01's "11 of 30". Not a defect in this build.
+- **Storage:** owner overrides the no-storage rule. Allowed: localStorage for per-volume reading position and the YOUR CONTEXT country choice only,
+  never transmitted, wrapped in try/catch, page must work without it. Service worker: deferred (proxy-path risk); revisit at the web QA checkpoint.
+  Reading-progress rail: allowed (segmented by the 27 sections).
+- **Analytics beacon:** unchanged from v4 (flagged in START-HERE); not touched this round.
+- **Axe MCP:** plugin installed but the server connection closes because no credential is set (needs an Axe DevTools account with MCP access;
+  OAuth login must be run by the owner on their own machine). `mcp-generate-instructions` NOT run: it would write Axe tool instructions into
+  CLAUDE.md that fail without credentials. A11y gates use local axe-core, pa11y, Lighthouse and veraPDF instead (see tools/sacred-divide-build).
+- **CORRECTION (same day):** the earlier note "ligature glyphs present (284 in catholicism.md)" was WRONG. It came from `grep` running in a C locale,
+  which matched raw bytes shared with curly quotes/dashes. A Unicode-aware scan (U+FB00–FB06) finds zero ligature codepoints in the 34 Markdown
+  files and in PDF text. `scripts/sacred_divide_repair.py` stays as a guard (logs to `logs/repair-log/`), but there is no ligature defect in v4.
+- **Fixed:** v4 label bug where `tactics: 2` in §19 cases displayed loop names (`TACTIC_NAMES` in `scripts/sacred-divide-pdf.py` also matched the
+  §13 loop cards and overwrote techniques 1–7). Now scoped to the §12 techniques section. Site + PDFs must be rebuilt to pick it up.
+
+## 2026-10-03 — Sacred Divide: editing round, first finished volume (protestant-evangelical), playbook
+- Language pass + fact-check done and committed for 31 of 34 volumes (reversible edits in `content/sacred-divide/edits/`). New Age, Unification Church, Indigenous run last.
+- **Protestant/Evangelical (Southern Baptist sector) is the worked example** of "fix every discrepancy, rebuild, ship a PDF and a TikTok series". The whole procedure and the traps are in
+  `docs/sacred-divide-v5/PLAYBOOK-volume-to-pdf-and-tiktok.md`; the agent brief is now in the repo as `docs/sacred-divide-v5/AGENT-BRIEF.md` (it used to live in /tmp and would be lost).
+- Results kept in `exports/`: `pe-1-pdf-and-documents.zip`, `pe-tiktok-posts-01-to-04.zip`, `pe-tiktok-posts-05-to-08.zip`, `pe-tiktok-posts-09-to-11.zip` (each under the 30 MB upload limit).
+- Fix log: `docs/sacred-divide-v5/protestant-evangelical-FIXLOG.md` (42 reversible edits PE-D001–D042; grades regraded, tally now Taught 18 / Cultural 10 / Documented 2).
+- **Bugs found and fixed while building it:** PDF builder inserted hard-coded Catholic pull-quotes into every volume (now per-volume `content/sacred-divide/pullquotes/<id>.json`); loops forced `break-inside: avoid` and left near-empty pages; cover title overflowed on long names.
+- Shared help-line corrections applied globally: Faith to Faithless (ALL-F01/F02), Recovering from Religion region (ALL-F03), Muslim Women's Network helpline 0800 999 5786 (ALL-F04–F06). All logged in DISCREPANCIES.md for sign-off.
+- Template wording still shared by 27 volumes and flagged for one global fix: "attributed to God" in stage 8 / technique 30 (non-theistic traditions rewrote it locally), and the generated "N documented cases … court, regulator or inquiry record" sentence.
+- The full PDF design pass (page breaks) remains paused; roughly a third of pages in the Protestant PDF still have more than 15% blank foot.
+- Agent dispatch history: session/weekly 429s hit four times; each time one agent was sent as a canary after the stated reset before resuming two at a time.
+
+## 2026-10-04 — Parked for the design pass (owner asked to log in global memory)
+- Inspiration sites: Savee.com, Landdddding.com, Motionin.design. Notes, screenshots and the storyboard example are in `docs/design-ideas/README.md`.
+- HyperFrames skills (heygen-com/hyperframes) installed globally in `~/.claude/skills/` (telemetry disabled; inspected first). The owner's example: ask Claude to storyboard a beat sheet, then render the motion piece through the skill. Explore for animated section openers and promo clips once the content/PDF work is done.
+- `~/.claude/skills/` does not persist across fresh containers; re-run the install command in `docs/design-ideas/README.md` in a new session.
+
+## 2026-10-04 — Sacred Divide: STATUS AT HANDOFF (read this first in a new chat)
+- Branch `claude/sacred-divide-v5-redesign` (repo /home/user/Books). Procedure: `docs/sacred-divide-v5/AGENT-BRIEF-FIXES.md` (fix pass), `AGENT-BRIEF.md` (language pass), `PLAYBOOK-volume-to-pdf-and-tiktok.md`, `TEMPLATE-FIXES.md`.
+- **Fix passes DONE and committed (19 of 34, each has `docs/sacred-divide-v5/<id>-FIXLOG.md`):** ahmadiyya, anglicanism, catholicism, christianity, dawoodi-bohra, eastern-orthodoxy, hinduism, islam, jehovahs-witnesses, judaism, mormonism, oriental-orthodoxy, orthodox-hasidic-judaism, pentecostal-charismatic, plymouth-brethren, protestant-evangelical, seventh-day-adventism, shia-islam, sunni-islam.
+- **Fix passes REMAINING (15):** hare-krishna, sikhism (both started and FAILED on a 429 rate limit, nothing of theirs was committed; restart from scratch), then jainism, buddhism, tibetan-buddhism, soka-gakkai, taoism, confucianism, shinto, zoroastrianism, bahai, scientology, new-age, unification-church, indigenous.
+  - Hare Krishna brief items: women gurus (14 Feb 2026 GBC resolution: qualified Vaishnavis siksa-gurus only, Narayani Devi Dasi sole diksa exception; old text says "paused 2022"); Bangalore temple dispute not "ended" (review pending, fresh bench 17 Aug 2026); Gurukula claimant counts (550 bankruptcy vs 90 in 2000 Texas suit); §9 Dera/ashram card lacks ISKCON support; St Denis/Bryant killing years vs conviction years; §7 "forced structure" contradicts 1970 GBC founding; weak-base regrades.
+  - Sikhism brief items: ONE Akal Takht removal (Raghbir Singh, 7 Mar 2025, not two); diaspora gurdwara transparency inconsistent in three places; budget "up 17%" vs 15.2%; journalist-murder conviction overturned; grade mismatches; source [6] wrong page.
+- **Dispatch discipline (CLAUDE.md):** ONE agent at a time; wait for real completion. After a 429, stop, canary one agent after the reset. Rate limit last hit 2026-10-04 (reset 12:30 UTC). A `send_later` check-in is set for 14:33 UTC to resume with Jainism; if it is gone, just start with hare-krishna.
+- **After all 34 fix passes:** (1) cross-volume consistency check (shared figures: Diyanet ₺35.9bn, Pew, Nahdlatul Ulama, Orthodox/Christian counts; template leaks; grade tallies); (2) `scripts/sacred-divide-pullquotes.py` (skips protestant-evangelical and catholicism, hand-picked); (3) `python3 scripts/sacred-divide-export-md.py` must show 0 FAILED in `logs/edits-status.json`; (4) `scripts/sacred-divide-v5-build-all.py` (PDF, page metrics, veraPDF UA; report `docs/sacred-divide-v5/PDF-BUILD-REPORT.md`); (5) visual review of contact sheets (Playwright, 375/1440, never describe unread screenshots); (6) package zips under 30 MB each into `exports/`; (7) design pass (page breaks, TikTok series, HyperFrames; `docs/design-ideas/README.md`).
+- **Owner decisions still awaited:** house style (capitals, spelling); table-format conversion for §12; whether to regrade on single-case basis.
+- Rules to remember: no deploy without explicit go-ahead; bump `sites.json` version + on-page changelog together on deploy-worthy rounds; do not apply patterns uniformly across books.
+- Uncommitted leftovers at handoff were wording logs, `logs/edits-status.json`, PDF-BUILD-REPORT and a stray judaism PDF build; committed with this note.
+
+## 2026-10-05 — Sacred Divide: fix-pass progress update (supersedes the counts in the 10-04 handoff)
+- **Fix passes DONE and committed (32 of 34):** the 19 listed on 10-04 plus hare-krishna (HK-D), sikhism (SIK-D), jainism (JAIN-D), buddhism (BUDF-D), tibetan-buddhism (TIBF-D), soka-gakkai (SOKF-D), taoism (TAOF-D), confucianism (CONF-D), shinto (SHNF-D), zoroastrianism (ZORF-D), bahai (BAHF-D), scientology (SCIF-D), new-age (NEWF-D). Each has `docs/sacred-divide-v5/<id>-FIXLOG.md`.
+- **Fix passes REMAINING (2):** unification-church (started, hit a 429 at the session limit, nothing committed; restart from scratch, prefix UNIF-D) and indigenous.
+- **Rate limit:** hit again 2026-10-05, resets 18:00 UTC. A `send_later` check-in is set for 18:05 UTC. Canary ONE agent (unification-church) first, then indigenous.
+- **Open items to carry into the cross-volume check:** AHM-D050 shows FAILED in `logs/edits-status.json` (duplicate of a shared edit, pre-existing); Faith to Faithless hours differ between volumes (Mon/Wed 10-13, Thu 16-19 per its page vs Wed/Thu/Fri printed in taoism and soka-gakkai); Taoism "Certification pyramid" card contradicts technique 26; New Age "Retreat and ceremony tourism" card has unsourced claims; Shinto `[GOVERNMENT REPORT]` receipts with no source entry; Zoroastrianism Parsi Supreme Court verdict (expected ~6 Oct 2026) must be re-checked before release; `markdown` Python module missing here so `build_sections` never ran for any 2026-10-04/05 pass (install only with explicit yes).
+- **Deferred everywhere (house-style decisions awaiting owner):** spelling mix, "Chosen by / removable by" glance cell, loop titles, the word "codex", flat all-Cultural grading frame.
+
+## 2026-10-05 — Environment rebuilt for a fresh container (do this first in a new session)
+- `pip install markdown pypdf pillow pymupdf playwright reportlab beautifulsoup4 lxml pikepdf` (all done this session; `build_sections` now runs and the PDF build works: a trial jainism build gave 144 pages in 29s, then removed).
+- veraPDF 1.30.2 installed headless into the session scratchpad at `.../scratchpad/src/verapdf/verapdf` (the path `sacred-divide-v5-build-all.py` globs for). Recipe: download https://software.verapdf.org/releases/verapdf-installer.zip, unzip, `java -jar verapdf-greenfield-*/verapdf-izpack-installer-*.jar auto.xml` with an izpack auto-install XML (TargetPanel installpath + PacksPanel packs 0,1,2). Scratchpad does not persist across containers.
+- Node tools: `playwright` lives in `/opt/node22/lib/node_modules` (print.js resolves it); Chromium at `/opt/pw-browsers/chromium`. No install needed.
+- Edit checks: **0 FAILED across all volumes** (md + narration). Two redundant edits (AHM-D050, ZORF-D078) set to `count: any` (no-op). Verify with `python3 scripts/sacred-divide-export-md.py` then `build_sections(rid)` for narration; do NOT call `check(rid,['md','narration'])` from a fresh process (md tallies are empty, gives false FAILEDs and overwrites `logs/edits-status.json`).
+- **HyperFrames skills NOT reinstalled**: the auto-mode classifier denied `npx skills add heygen-com/hyperframes -g` (persistent write to ~/.claude/skills). Only needed for the design pass; owner must approve (or add a Bash permission rule) before it is retried. `higgsfield` MCP still has empty API keys in `.mcp.json`.
+
+## 2026-10-05 (evening) — All 34 Sacred Divide fix passes DONE and committed
+- unification-church (UNIF-D001–D107) and indigenous (INDF-D001–D099) finished; every volume now has `<id>-FIXLOG.md`. 0 FAILED edits across md and narration.
+- **Next: post-fix-pass steps 1-7** from the 10-04 handoff, starting with the cross-volume consistency check. Extra items to include: Shinto vs Unification Church Supreme Court date (22 vs 23 June 2026); Faith to Faithless hours conflict; Zoroastrianism Supreme Court verdict (~6 Oct) re-check; `[GOVERNMENT REPORT]`-style receipts with no source entry; unsourced cards flagged in taoism, new-age, buddhism; indigenous §15 "Documented? Yes" with no source; technique 1 grade in unification-church.
+
+## 2026-10-05 (late) — Post-fix-pass steps 1-6 DONE
+- (1) Cross-volume check: grade tallies match §12 in all 34 volumes; Faith to Faithless hours unified to the programme's own page (Mon 10-13, Wed 10-13, Thu 16-19; global edits ALL-F08/F09, and four per-volume edits that re-created the placeholder now carry the hours); Shinto Supreme Court date fixed (22 June ruling, reported 23rd; SHNF-D068); Diyanet figures consistent because dated; Orthodox 260m and Catholic 1.4bn consistent. Still open: unsourced cards (taoism Certification pyramid vs technique 26; new-age Retreat tourism; buddhism Merit economy "Nothing is disclosed"), shinto `[GOVERNMENT REPORT]` receipts without source entries, indigenous §15 "Documented? Yes" unsourced, unification-church technique 1 Documented on a scholarly source, zoroastrianism verdict (~6 Oct) re-check.
+- (2) Pull-quotes regenerated. (3) 0 FAILED edits. (4) All 34 PDFs rebuilt: all pass PDF/UA-1, sizes/palette in scale, no nearly-blank pages (`PDF-BUILD-REPORT.md`). Three builder bugs fixed on the way: scorecard cells with notes were dropped (now kept, notes print under the grid); empty table cells now get a dash (PDF/UA 7.2); single-quoted chart aria-label crashed unification-church; the evidence-map page is skipped for table-format volumes (it was a heading alone on a blank page).
+- (5) Contact sheets read for unification-church and hare-krishna only (thumbnails; layout structure OK, known end-of-page slack for the design pass). Other 32 volumes not visually reviewed.
+- (6) Zips in `exports/`: sacred-divide-v5-pdfs-1/2/3-of-3.zip (14.6/14.4/1.7 MB) and sacred-divide-v5-text-and-fixlogs.zip (1.5 MB). Old `sacred-divide-edited-31-volumes.zip` is superseded, not deleted.
+- **Step 7 (design pass) NOT started**: needs owner decisions (house style; grading frame, now flat Cultural in several volumes; table-format §12 conversion) and approval to reinstall HyperFrames skills. No deploy; `sites.json` versions and on-page changelogs not bumped (do together at deploy).
+
+## 2026-10-06 — Open-source check, rating decision, layout pass
+- **Rating decision (owner delegated):** keep the six-grade scale and the strict rule (above Cultural needs a named policy, court/government record or leadership teaching); no upward regrades on thin evidence. Added reader note ALL-G01 to the shared guide: a mostly-Cultural volume is not "cleared", it means no named document makes the institution responsible.
+- **Open-source check done:** Parsi nine-judge verdict still reserved (14 May), check date moved to 6 Oct (ZORF-D079); Taoism cert-pyramid card (TAOF-D069), Buddhism merit card (BUDF-D059), New Age retreat card x2 (NEWF-D092), Indigenous ledger "Yes" (INDF-D100) corrected; Shinto sources 25-26 added (Shinto Directive via Wikipedia summary; State Shinto via Keene summary) and receipts relabelled (SHNF-D069-D071). Left: unification-church technique 1 (Documented on one scholarly source), buddhism Sri Lanka Mahanayaka election and "US centres exempt" claims still unsourced, §26 secondary-source reliance in several volumes.
+- **Layout pass:** section openers were a forced-page 158 mm band; replaced with a compact flowing band (72pt gold numeral + 30pt title, tighter padding). Set: 4,937 -> 4,353 pages; pages >15% empty 1,455 -> 1,146 (26%); pages >40% empty ~500 -> 238. Remaining slack is mostly section ends before full-page dividers (techniques, sources, long sections), loop/diagram pages and keep-together boxes. Tried and rejected: shorter table keep threshold (no effect), quote placement by largest foot (worse), splitting the dark "Why this matters" box (3-line fragments) and the primer (marginal).
+- **Further PDF/UA fixes:** figure alt text now matched by the title on the figure's page (Sunni Islam Hajj chart lost its alt); chart SVGs carry a <title>.
+- **HyperFrames:** install denied twice by the auto-mode classifier (persistence, then untrusted code), even with the owner's chat approval. Needs a Bash permission rule in the owner's settings.
+- All 34 PDFs pass PDF/UA-1; zips regenerated in exports/ (pdfs-1/2/3-of-3 and text-and-fixlogs).
+
+## 2026-10-06 — TikTok counterfeit slide series
+- 98 slides (1080x1920) in exports/counterfeit-slides/ from scripts/counterfeit-slides.py; lines in content/counterfeit/lines.json (sentence-checked via scripts/counterfeit-lines.py). Local MP4: exports/counterfeit-slideshow.mp4 (scripts/counterfeit-video.py).
+- Canva design DAHXQJayN1o: all 98 images placed on pages 1-98 inside OPEN transaction 4062765011663368530 (uncommitted; needs user approval). Pages 99-100 are blank extras to delete via merge-designs, then export mp4.
+- Known: religion slides ~19px text; Technology/Dating/Intelligence/Child Welfare sectors have no technique data (single story slide each).
+
+## 2026-10-07 — Counterfeit TikTok series: two decks, two MP4s, three Suno songs
+- Owner asked: 2 slides per religion; fractal = every sector at 3 levels (Individual, Institutional, Civilizational), 2 slides each, levels 1-2-3 before the next sector; fill the 4 sectors with no technique data; include The Mirror and The Body; two separate MP4s.
+- `scripts/counterfeit-slides.py [religion|fractal]` -> `exports/counterfeit-slides/{religion,fractal}/NNN-*.png`; `scripts/counterfeit-video.py religion|fractal` -> `exports/counterfeit-{religion,fractal}.mp4` (religion 76 slides 12.2 min; fractal 184 slides). Public download via the GitHub raw URL (repo NobleFatherCreations/Books is public).
+- Lines: `content/counterfeit/lines.json` (keys religions, fractal [=ind], fractal_inst, fractal_civ, mirror, body) from `counterfeit-lines.py merge`. Round-2 inputs `in-l1..l4` (inst/civ condensed by agents, checked 0 problems), `in-n1`/`out-n1` = Technology, Dating, Surveillance, Child Welfare lines AUTHORED (book has only a narrative; slides carry a note saying so), `out-c1` = Mirror + Body.
+- Agents flagged some weak-but-correct lines in their reports (e.g. 3-inst #6, 5-civ #28, 16-inst #30, 18-civ #9, the list-like Replacement lines in 27-30); a hand pass could improve them via `content/counterfeit/fixes.json`.
+- Suno songs: `content/counterfeit/suno-songs.md` (The Copy / Thirty-Four Doors / Everywhere Else).
+- Old single 98-slide deck and `counterfeit-slideshow.mp4` removed. Canva design DAHXQJayN1o still has an uncommitted transaction with the OLD 98 slides; superseded, owner never approved the commit.
+- Rate limit hit 2026-10-06 (reset 20:40 UTC); resumed one agent at a time.

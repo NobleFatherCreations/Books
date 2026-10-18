@@ -340,7 +340,7 @@ BOOKS = [
      os.path.join(ROOT, "library/fracture/index.html")),
     ("loop", "The Loop", "bodies", os.path.join(ROOT, "fixes/loop.html")),
     ("scale", "The Weighing", "bodies", os.path.join(ROOT, "fixes/scale.html")),
-    ("faith", "The Coercive Control Codex", "faith",
+    ("faith", "The Sacred Divide", "faith",
      os.path.join(ROOT, "library/_undeployed/faith-offline-edition.html")),
     ("fractal", "The Fractal", "fractal",
      os.path.join(ROOT, "library/fractal/index.html")),

@@ -1,0 +1,1555 @@
+{
+ "kind": "fractal",
+ "authored": true,
+ "note": "The Fractal gives these sectors a narrative but no per-technique examples. Lines here are written new from the narrative, the sector's controls/impulse and each technique's definition, so they are flagged as authored, not quoted.",
+ "items": {
+  "7-ind": {
+   "sector": "Technology",
+   "level": "Individual",
+   "controls": "Your relationship with attention and identity",
+   "impulse": "The impulse to extend human capability through tools",
+   "narrative": "You pick it up because it promises to bring the world closer. It learns your face, your voice, your route to work, the exact hour your attention is cheapest. It says connect, and for a while you do — the people you love are one tap away and the whole library of human knowledge fits in your palm. But the connection was never the product. You were. Slowly the feed stops showing you what your friends are doing and starts showing you what keeps you scrolling, and the two are not the same, and the difference is measured in a lab you will never see. You reach for it the moment you wake, before you reach for the person beside you. You feel a phantom buzz in an empty pocket. You open it to check one thing and surface twenty minutes later with no memory of what you came for, only the residue of everyone else’s highlight reel and a low ambient sense that your own life is somehow behind. You try to put it down and your hand drifts back like a tongue to a missing tooth. And when you finally look up, you realize the device that promised to extend you has been quietly editing you — your patience, your memory, your tolerance for stillness, your sense of who you were before the feed told you who to be. It never raised its voice. It never had to. It just made the rest of the world load a little slower than the next swipe.",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "Warmth delivered faster than trust can be earned."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "A gift you can’t refuse, recorded on a ledger you never signed."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "A future vivid enough to keep you waiting, designed never to arrive."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The pull back in — nostalgia, guilt, and manufactured urgency about what you’ll lose."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The praise that hooked you, slowly converted into the criticism that keeps you striving."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "Making you doubt your own memory until the system becomes your only source of truth."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "Every available choice routed to the same punishment."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Reward and punishment on an unpredictable schedule — the chemistry of addiction."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "A finish line that moves the instant you reach it, because it doesn’t exist."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "Language engineered to mean whatever the listener needs it to mean."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The system’s own behavior, pinned to your chest."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "Deny it happened, attack the one who named it, swap victim and offender."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "Harm raised in increments too small to trigger alarm, until it’s the background hum."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Cutting the lines to everyone who could tell you this isn’t normal."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "A third party inserted to carry the message the system wanted carried."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Recruiting other people to enforce the system while it keeps clean hands."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Poisoning your reputation in advance, so your testimony arrives pre-discredited."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Silence weaponized — the refusal to engage, dressed as discipline."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "A vote whose outcome was decided before the question was asked."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Pain and relief alternating until the source of the wound becomes the only cure."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "Punishing every attempt to act until the body stops trying and calls it peace."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "Restriction, surveillance, and command — all framed as care you’d be ungrateful to refuse."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "Keeping you perpetually ‘not ready’ so your own discernment is never trusted."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Replacing who you were with a system-approved version of who you should be."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "Money and debt repurposed as a leash that makes leaving unaffordable."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Spiritual or therapeutic language used to bypass your pain and dodge accountability."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "A permanent emergency — too urgent for you to stop, think, and ask if it’s true."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Released the moment maintaining you costs more than you produce."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "Your seat filled before it cools — proof the warmth was for the position, not for you."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The harm structured so it can never be proven intentional. ‘It was God’s will.’"
+    }
+   }
+  },
+  "7-inst": {
+   "sector": "Technology",
+   "level": "Institutional",
+   "controls": "Your relationship with attention and identity",
+   "impulse": "The impulse to extend human capability through tools",
+   "narrative": "You pick it up because it promises to bring the world closer. It learns your face, your voice, your route to work, the exact hour your attention is cheapest. It says connect, and for a while you do — the people you love are one tap away and the whole library of human knowledge fits in your palm. But the connection was never the product. You were. Slowly the feed stops showing you what your friends are doing and starts showing you what keeps you scrolling, and the two are not the same, and the difference is measured in a lab you will never see. You reach for it the moment you wake, before you reach for the person beside you. You feel a phantom buzz in an empty pocket. You open it to check one thing and surface twenty minutes later with no memory of what you came for, only the residue of everyone else’s highlight reel and a low ambient sense that your own life is somehow behind. You try to put it down and your hand drifts back like a tongue to a missing tooth. And when you finally look up, you realize the device that promised to extend you has been quietly editing you — your patience, your memory, your tolerance for stillness, your sense of who you were before the feed told you who to be. It never raised its voice. It never had to. It just made the rest of the world load a little slower than the next swipe.",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "Warmth delivered faster than trust can be earned."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "A gift you can’t refuse, recorded on a ledger you never signed."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "A future vivid enough to keep you waiting, designed never to arrive."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The pull back in — nostalgia, guilt, and manufactured urgency about what you’ll lose."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The praise that hooked you, slowly converted into the criticism that keeps you striving."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "Making you doubt your own memory until the system becomes your only source of truth."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "Every available choice routed to the same punishment."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Reward and punishment on an unpredictable schedule — the chemistry of addiction."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "A finish line that moves the instant you reach it, because it doesn’t exist."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "Language engineered to mean whatever the listener needs it to mean."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The system’s own behavior, pinned to your chest."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "Deny it happened, attack the one who named it, swap victim and offender."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "Harm raised in increments too small to trigger alarm, until it’s the background hum."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Cutting the lines to everyone who could tell you this isn’t normal."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "A third party inserted to carry the message the system wanted carried."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Recruiting other people to enforce the system while it keeps clean hands."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Poisoning your reputation in advance, so your testimony arrives pre-discredited."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Silence weaponized — the refusal to engage, dressed as discipline."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "A vote whose outcome was decided before the question was asked."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Pain and relief alternating until the source of the wound becomes the only cure."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "Punishing every attempt to act until the body stops trying and calls it peace."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "Restriction, surveillance, and command — all framed as care you’d be ungrateful to refuse."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "Keeping you perpetually ‘not ready’ so your own discernment is never trusted."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Replacing who you were with a system-approved version of who you should be."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "Money and debt repurposed as a leash that makes leaving unaffordable."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Spiritual or therapeutic language used to bypass your pain and dodge accountability."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "A permanent emergency — too urgent for you to stop, think, and ask if it’s true."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Released the moment maintaining you costs more than you produce."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "Your seat filled before it cools — proof the warmth was for the position, not for you."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The harm structured so it can never be proven intentional. ‘It was God’s will.’"
+    }
+   }
+  },
+  "7-civ": {
+   "sector": "Technology",
+   "level": "Civilizational",
+   "controls": "Your relationship with attention and identity",
+   "impulse": "The impulse to extend human capability through tools",
+   "narrative": "You pick it up because it promises to bring the world closer. It learns your face, your voice, your route to work, the exact hour your attention is cheapest. It says connect, and for a while you do — the people you love are one tap away and the whole library of human knowledge fits in your palm. But the connection was never the product. You were. Slowly the feed stops showing you what your friends are doing and starts showing you what keeps you scrolling, and the two are not the same, and the difference is measured in a lab you will never see. You reach for it the moment you wake, before you reach for the person beside you. You feel a phantom buzz in an empty pocket. You open it to check one thing and surface twenty minutes later with no memory of what you came for, only the residue of everyone else’s highlight reel and a low ambient sense that your own life is somehow behind. You try to put it down and your hand drifts back like a tongue to a missing tooth. And when you finally look up, you realize the device that promised to extend you has been quietly editing you — your patience, your memory, your tolerance for stillness, your sense of who you were before the feed told you who to be. It never raised its voice. It never had to. It just made the rest of the world load a little slower than the next swipe.",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "Warmth delivered faster than trust can be earned."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "A gift you can’t refuse, recorded on a ledger you never signed."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "A future vivid enough to keep you waiting, designed never to arrive."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The pull back in — nostalgia, guilt, and manufactured urgency about what you’ll lose."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The praise that hooked you, slowly converted into the criticism that keeps you striving."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "Making you doubt your own memory until the system becomes your only source of truth."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "Every available choice routed to the same punishment."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Reward and punishment on an unpredictable schedule — the chemistry of addiction."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "A finish line that moves the instant you reach it, because it doesn’t exist."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "Language engineered to mean whatever the listener needs it to mean."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The system’s own behavior, pinned to your chest."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "Deny it happened, attack the one who named it, swap victim and offender."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "Harm raised in increments too small to trigger alarm, until it’s the background hum."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Cutting the lines to everyone who could tell you this isn’t normal."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "A third party inserted to carry the message the system wanted carried."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Recruiting other people to enforce the system while it keeps clean hands."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Poisoning your reputation in advance, so your testimony arrives pre-discredited."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Silence weaponized — the refusal to engage, dressed as discipline."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "A vote whose outcome was decided before the question was asked."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Pain and relief alternating until the source of the wound becomes the only cure."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "Punishing every attempt to act until the body stops trying and calls it peace."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "Restriction, surveillance, and command — all framed as care you’d be ungrateful to refuse."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "Keeping you perpetually ‘not ready’ so your own discernment is never trusted."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Replacing who you were with a system-approved version of who you should be."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "Money and debt repurposed as a leash that makes leaving unaffordable."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Spiritual or therapeutic language used to bypass your pain and dodge accountability."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "A permanent emergency — too urgent for you to stop, think, and ask if it’s true."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Released the moment maintaining you costs more than you produce."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "Your seat filled before it cools — proof the warmth was for the position, not for you."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The harm structured so it can never be proven intentional. ‘It was God’s will.’"
+    }
+   }
+  },
+  "20-ind": {
+   "sector": "Dating, Sexuality & Romance",
+   "level": "Individual",
+   "controls": "Your relationship with intimacy",
+   "impulse": "The ache to be truly known by another",
+   "narrative": "You open the app because you ache to be known, and it greets you like it understands the ache better than you do. It gives you a deck of faces and the feeling of infinite possibility — someone, surely, in this endless scroll, is the one. And the first matches are electric: the witty banter, the late-night messages, the person who seems to mirror you so perfectly it feels like fate. But fate doesn’t run on a quarterly revenue target, and the app does. It learns that your loneliness is its best customer, so it doses your matches like a slot machine — a spark of connection right when you’re about to delete it, a dry spell right after you pay for the upgrade. You start performing a version of yourself optimized for the swipe instead of the soul. You measure your worth in unread messages and your desirability in a number you can almost see. The intimacy you came for keeps arriving in fragments — enough to keep you hopeful, never enough to keep you full — and the people on the other side of the screen are doing the exact same thing, two lonelinesses negotiating through an interface designed to make sure neither one ever quite lands. And the day you finally meet someone real and close the app, it sends you a notification — because it would rather have your attention than your happiness, and it was never built to let you leave loved.",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "Warmth delivered faster than trust can be earned."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "A gift you can’t refuse, recorded on a ledger you never signed."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "A future vivid enough to keep you waiting, designed never to arrive."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The pull back in — nostalgia, guilt, and manufactured urgency about what you’ll lose."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The praise that hooked you, slowly converted into the criticism that keeps you striving."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "Making you doubt your own memory until the system becomes your only source of truth."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "Every available choice routed to the same punishment."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Reward and punishment on an unpredictable schedule — the chemistry of addiction."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "A finish line that moves the instant you reach it, because it doesn’t exist."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "Language engineered to mean whatever the listener needs it to mean."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The system’s own behavior, pinned to your chest."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "Deny it happened, attack the one who named it, swap victim and offender."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "Harm raised in increments too small to trigger alarm, until it’s the background hum."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Cutting the lines to everyone who could tell you this isn’t normal."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "A third party inserted to carry the message the system wanted carried."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Recruiting other people to enforce the system while it keeps clean hands."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Poisoning your reputation in advance, so your testimony arrives pre-discredited."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Silence weaponized — the refusal to engage, dressed as discipline."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "A vote whose outcome was decided before the question was asked."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Pain and relief alternating until the source of the wound becomes the only cure."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "Punishing every attempt to act until the body stops trying and calls it peace."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "Restriction, surveillance, and command — all framed as care you’d be ungrateful to refuse."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "Keeping you perpetually ‘not ready’ so your own discernment is never trusted."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Replacing who you were with a system-approved version of who you should be."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "Money and debt repurposed as a leash that makes leaving unaffordable."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Spiritual or therapeutic language used to bypass your pain and dodge accountability."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "A permanent emergency — too urgent for you to stop, think, and ask if it’s true."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Released the moment maintaining you costs more than you produce."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "Your seat filled before it cools — proof the warmth was for the position, not for you."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The harm structured so it can never be proven intentional. ‘It was God’s will.’"
+    }
+   }
+  },
+  "20-inst": {
+   "sector": "Dating, Sexuality & Romance",
+   "level": "Institutional",
+   "controls": "Your relationship with intimacy",
+   "impulse": "The ache to be truly known by another",
+   "narrative": "You open the app because you ache to be known, and it greets you like it understands the ache better than you do. It gives you a deck of faces and the feeling of infinite possibility — someone, surely, in this endless scroll, is the one. And the first matches are electric: the witty banter, the late-night messages, the person who seems to mirror you so perfectly it feels like fate. But fate doesn’t run on a quarterly revenue target, and the app does. It learns that your loneliness is its best customer, so it doses your matches like a slot machine — a spark of connection right when you’re about to delete it, a dry spell right after you pay for the upgrade. You start performing a version of yourself optimized for the swipe instead of the soul. You measure your worth in unread messages and your desirability in a number you can almost see. The intimacy you came for keeps arriving in fragments — enough to keep you hopeful, never enough to keep you full — and the people on the other side of the screen are doing the exact same thing, two lonelinesses negotiating through an interface designed to make sure neither one ever quite lands. And the day you finally meet someone real and close the app, it sends you a notification — because it would rather have your attention than your happiness, and it was never built to let you leave loved.",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "Warmth delivered faster than trust can be earned."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "A gift you can’t refuse, recorded on a ledger you never signed."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "A future vivid enough to keep you waiting, designed never to arrive."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The pull back in — nostalgia, guilt, and manufactured urgency about what you’ll lose."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The praise that hooked you, slowly converted into the criticism that keeps you striving."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "Making you doubt your own memory until the system becomes your only source of truth."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "Every available choice routed to the same punishment."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Reward and punishment on an unpredictable schedule — the chemistry of addiction."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "A finish line that moves the instant you reach it, because it doesn’t exist."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "Language engineered to mean whatever the listener needs it to mean."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The system’s own behavior, pinned to your chest."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "Deny it happened, attack the one who named it, swap victim and offender."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "Harm raised in increments too small to trigger alarm, until it’s the background hum."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Cutting the lines to everyone who could tell you this isn’t normal."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "A third party inserted to carry the message the system wanted carried."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Recruiting other people to enforce the system while it keeps clean hands."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Poisoning your reputation in advance, so your testimony arrives pre-discredited."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Silence weaponized — the refusal to engage, dressed as discipline."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "A vote whose outcome was decided before the question was asked."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Pain and relief alternating until the source of the wound becomes the only cure."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "Punishing every attempt to act until the body stops trying and calls it peace."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "Restriction, surveillance, and command — all framed as care you’d be ungrateful to refuse."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "Keeping you perpetually ‘not ready’ so your own discernment is never trusted."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Replacing who you were with a system-approved version of who you should be."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "Money and debt repurposed as a leash that makes leaving unaffordable."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Spiritual or therapeutic language used to bypass your pain and dodge accountability."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "A permanent emergency — too urgent for you to stop, think, and ask if it’s true."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Released the moment maintaining you costs more than you produce."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "Your seat filled before it cools — proof the warmth was for the position, not for you."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The harm structured so it can never be proven intentional. ‘It was God’s will.’"
+    }
+   }
+  },
+  "20-civ": {
+   "sector": "Dating, Sexuality & Romance",
+   "level": "Civilizational",
+   "controls": "Your relationship with intimacy",
+   "impulse": "The ache to be truly known by another",
+   "narrative": "You open the app because you ache to be known, and it greets you like it understands the ache better than you do. It gives you a deck of faces and the feeling of infinite possibility — someone, surely, in this endless scroll, is the one. And the first matches are electric: the witty banter, the late-night messages, the person who seems to mirror you so perfectly it feels like fate. But fate doesn’t run on a quarterly revenue target, and the app does. It learns that your loneliness is its best customer, so it doses your matches like a slot machine — a spark of connection right when you’re about to delete it, a dry spell right after you pay for the upgrade. You start performing a version of yourself optimized for the swipe instead of the soul. You measure your worth in unread messages and your desirability in a number you can almost see. The intimacy you came for keeps arriving in fragments — enough to keep you hopeful, never enough to keep you full — and the people on the other side of the screen are doing the exact same thing, two lonelinesses negotiating through an interface designed to make sure neither one ever quite lands. And the day you finally meet someone real and close the app, it sends you a notification — because it would rather have your attention than your happiness, and it was never built to let you leave loved.",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "Warmth delivered faster than trust can be earned."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "A gift you can’t refuse, recorded on a ledger you never signed."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "A future vivid enough to keep you waiting, designed never to arrive."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The pull back in — nostalgia, guilt, and manufactured urgency about what you’ll lose."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The praise that hooked you, slowly converted into the criticism that keeps you striving."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "Making you doubt your own memory until the system becomes your only source of truth."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "Every available choice routed to the same punishment."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Reward and punishment on an unpredictable schedule — the chemistry of addiction."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "A finish line that moves the instant you reach it, because it doesn’t exist."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "Language engineered to mean whatever the listener needs it to mean."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The system’s own behavior, pinned to your chest."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "Deny it happened, attack the one who named it, swap victim and offender."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "Harm raised in increments too small to trigger alarm, until it’s the background hum."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Cutting the lines to everyone who could tell you this isn’t normal."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "A third party inserted to carry the message the system wanted carried."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Recruiting other people to enforce the system while it keeps clean hands."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Poisoning your reputation in advance, so your testimony arrives pre-discredited."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Silence weaponized — the refusal to engage, dressed as discipline."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "A vote whose outcome was decided before the question was asked."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Pain and relief alternating until the source of the wound becomes the only cure."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "Punishing every attempt to act until the body stops trying and calls it peace."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "Restriction, surveillance, and command — all framed as care you’d be ungrateful to refuse."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "Keeping you perpetually ‘not ready’ so your own discernment is never trusted."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Replacing who you were with a system-approved version of who you should be."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "Money and debt repurposed as a leash that makes leaving unaffordable."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Spiritual or therapeutic language used to bypass your pain and dodge accountability."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "A permanent emergency — too urgent for you to stop, think, and ask if it’s true."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Released the moment maintaining you costs more than you produce."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "Your seat filled before it cools — proof the warmth was for the position, not for you."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The harm structured so it can never be proven intentional. ‘It was God’s will.’"
+    }
+   }
+  },
+  "21-ind": {
+   "sector": "Intelligence & Surveillance",
+   "level": "Individual",
+   "controls": "Your relationship with privacy and autonomy",
+   "impulse": "The right to a private inner life",
+   "narrative": "You were told you had nothing to hide, so you handed it over — your messages, your location, your search history, the shape of your day — in exchange for safety from a threat that was never quite named and never quite declared over. At first it felt like protection: someone watching the perimeter so you could sleep. But the perimeter kept expanding, and the watching never turned off, and slowly the private interior of your life — the half-formed thought, the unsent message, the place you went that you told no one about — stopped being yours alone. You began to self-edit before you spoke, to phrase the search more carefully, to feel the faint pressure of an audience you couldn’t see in rooms you thought were empty. They told you the data was anonymous, then that it was secure, then that it was necessary, and each reassurance was true enough to accept and vague enough to never verify. And the most efficient cage was the one you built yourself: the quiet narrowing of what you’d dare to think, knowing it might be kept. Because surveillance doesn’t need to act on most of what it gathers. It only needs you to know that it could — and to live, from then on, as the person you’d be if you were always being watched.",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "Warmth delivered faster than trust can be earned."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "A gift you can’t refuse, recorded on a ledger you never signed."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "A future vivid enough to keep you waiting, designed never to arrive."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The pull back in — nostalgia, guilt, and manufactured urgency about what you’ll lose."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The praise that hooked you, slowly converted into the criticism that keeps you striving."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "Making you doubt your own memory until the system becomes your only source of truth."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "Every available choice routed to the same punishment."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Reward and punishment on an unpredictable schedule — the chemistry of addiction."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "A finish line that moves the instant you reach it, because it doesn’t exist."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "Language engineered to mean whatever the listener needs it to mean."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The system’s own behavior, pinned to your chest."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "Deny it happened, attack the one who named it, swap victim and offender."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "Harm raised in increments too small to trigger alarm, until it’s the background hum."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Cutting the lines to everyone who could tell you this isn’t normal."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "A third party inserted to carry the message the system wanted carried."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Recruiting other people to enforce the system while it keeps clean hands."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Poisoning your reputation in advance, so your testimony arrives pre-discredited."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Silence weaponized — the refusal to engage, dressed as discipline."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "A vote whose outcome was decided before the question was asked."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Pain and relief alternating until the source of the wound becomes the only cure."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "Punishing every attempt to act until the body stops trying and calls it peace."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "Restriction, surveillance, and command — all framed as care you’d be ungrateful to refuse."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "Keeping you perpetually ‘not ready’ so your own discernment is never trusted."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Replacing who you were with a system-approved version of who you should be."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "Money and debt repurposed as a leash that makes leaving unaffordable."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Spiritual or therapeutic language used to bypass your pain and dodge accountability."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "A permanent emergency — too urgent for you to stop, think, and ask if it’s true."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Released the moment maintaining you costs more than you produce."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "Your seat filled before it cools — proof the warmth was for the position, not for you."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The harm structured so it can never be proven intentional. ‘It was God’s will.’"
+    }
+   }
+  },
+  "21-inst": {
+   "sector": "Intelligence & Surveillance",
+   "level": "Institutional",
+   "controls": "Your relationship with privacy and autonomy",
+   "impulse": "The right to a private inner life",
+   "narrative": "You were told you had nothing to hide, so you handed it over — your messages, your location, your search history, the shape of your day — in exchange for safety from a threat that was never quite named and never quite declared over. At first it felt like protection: someone watching the perimeter so you could sleep. But the perimeter kept expanding, and the watching never turned off, and slowly the private interior of your life — the half-formed thought, the unsent message, the place you went that you told no one about — stopped being yours alone. You began to self-edit before you spoke, to phrase the search more carefully, to feel the faint pressure of an audience you couldn’t see in rooms you thought were empty. They told you the data was anonymous, then that it was secure, then that it was necessary, and each reassurance was true enough to accept and vague enough to never verify. And the most efficient cage was the one you built yourself: the quiet narrowing of what you’d dare to think, knowing it might be kept. Because surveillance doesn’t need to act on most of what it gathers. It only needs you to know that it could — and to live, from then on, as the person you’d be if you were always being watched.",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "Warmth delivered faster than trust can be earned."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "A gift you can’t refuse, recorded on a ledger you never signed."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "A future vivid enough to keep you waiting, designed never to arrive."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The pull back in — nostalgia, guilt, and manufactured urgency about what you’ll lose."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The praise that hooked you, slowly converted into the criticism that keeps you striving."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "Making you doubt your own memory until the system becomes your only source of truth."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "Every available choice routed to the same punishment."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Reward and punishment on an unpredictable schedule — the chemistry of addiction."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "A finish line that moves the instant you reach it, because it doesn’t exist."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "Language engineered to mean whatever the listener needs it to mean."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The system’s own behavior, pinned to your chest."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "Deny it happened, attack the one who named it, swap victim and offender."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "Harm raised in increments too small to trigger alarm, until it’s the background hum."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Cutting the lines to everyone who could tell you this isn’t normal."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "A third party inserted to carry the message the system wanted carried."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Recruiting other people to enforce the system while it keeps clean hands."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Poisoning your reputation in advance, so your testimony arrives pre-discredited."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Silence weaponized — the refusal to engage, dressed as discipline."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "A vote whose outcome was decided before the question was asked."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Pain and relief alternating until the source of the wound becomes the only cure."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "Punishing every attempt to act until the body stops trying and calls it peace."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "Restriction, surveillance, and command — all framed as care you’d be ungrateful to refuse."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "Keeping you perpetually ‘not ready’ so your own discernment is never trusted."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Replacing who you were with a system-approved version of who you should be."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "Money and debt repurposed as a leash that makes leaving unaffordable."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Spiritual or therapeutic language used to bypass your pain and dodge accountability."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "A permanent emergency — too urgent for you to stop, think, and ask if it’s true."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Released the moment maintaining you costs more than you produce."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "Your seat filled before it cools — proof the warmth was for the position, not for you."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The harm structured so it can never be proven intentional. ‘It was God’s will.’"
+    }
+   }
+  },
+  "21-civ": {
+   "sector": "Intelligence & Surveillance",
+   "level": "Civilizational",
+   "controls": "Your relationship with privacy and autonomy",
+   "impulse": "The right to a private inner life",
+   "narrative": "You were told you had nothing to hide, so you handed it over — your messages, your location, your search history, the shape of your day — in exchange for safety from a threat that was never quite named and never quite declared over. At first it felt like protection: someone watching the perimeter so you could sleep. But the perimeter kept expanding, and the watching never turned off, and slowly the private interior of your life — the half-formed thought, the unsent message, the place you went that you told no one about — stopped being yours alone. You began to self-edit before you spoke, to phrase the search more carefully, to feel the faint pressure of an audience you couldn’t see in rooms you thought were empty. They told you the data was anonymous, then that it was secure, then that it was necessary, and each reassurance was true enough to accept and vague enough to never verify. And the most efficient cage was the one you built yourself: the quiet narrowing of what you’d dare to think, knowing it might be kept. Because surveillance doesn’t need to act on most of what it gathers. It only needs you to know that it could — and to live, from then on, as the person you’d be if you were always being watched.",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "Warmth delivered faster than trust can be earned."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "A gift you can’t refuse, recorded on a ledger you never signed."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "A future vivid enough to keep you waiting, designed never to arrive."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The pull back in — nostalgia, guilt, and manufactured urgency about what you’ll lose."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The praise that hooked you, slowly converted into the criticism that keeps you striving."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "Making you doubt your own memory until the system becomes your only source of truth."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "Every available choice routed to the same punishment."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Reward and punishment on an unpredictable schedule — the chemistry of addiction."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "A finish line that moves the instant you reach it, because it doesn’t exist."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "Language engineered to mean whatever the listener needs it to mean."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The system’s own behavior, pinned to your chest."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "Deny it happened, attack the one who named it, swap victim and offender."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "Harm raised in increments too small to trigger alarm, until it’s the background hum."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Cutting the lines to everyone who could tell you this isn’t normal."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "A third party inserted to carry the message the system wanted carried."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Recruiting other people to enforce the system while it keeps clean hands."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Poisoning your reputation in advance, so your testimony arrives pre-discredited."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Silence weaponized — the refusal to engage, dressed as discipline."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "A vote whose outcome was decided before the question was asked."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Pain and relief alternating until the source of the wound becomes the only cure."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "Punishing every attempt to act until the body stops trying and calls it peace."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "Restriction, surveillance, and command — all framed as care you’d be ungrateful to refuse."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "Keeping you perpetually ‘not ready’ so your own discernment is never trusted."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Replacing who you were with a system-approved version of who you should be."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "Money and debt repurposed as a leash that makes leaving unaffordable."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Spiritual or therapeutic language used to bypass your pain and dodge accountability."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "A permanent emergency — too urgent for you to stop, think, and ask if it’s true."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Released the moment maintaining you costs more than you produce."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "Your seat filled before it cools — proof the warmth was for the position, not for you."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The harm structured so it can never be proven intentional. ‘It was God’s will.’"
+    }
+   }
+  },
+  "22-ind": {
+   "sector": "Child Welfare, Foster Care & Adoption",
+   "level": "Individual",
+   "controls": "Your relationship with protection and innocence",
+   "impulse": "The child’s need to be held and chosen",
+   "narrative": "The child needed only to be held and chosen, and the system arrived with the language of rescue. It removed them from one wound and promised a home, and the promise was real to everyone who said it. But the child was no longer a child to the machine — they were a case, a placement, a number that triggered a payment and a file that needed to be closed. The warmth that should have been unconditional came with a caseworker’s caseload, a placement that could end with a phone call, a bag packed in a garbage sack and a new front door every few months until the word home stopped meaning anything safe. They learned not to unpack. They learned not to attach. They learned that the people who said ‘you’re family now’ were measuring them against a subsidy and a tolerance that could run out. And when they turned eighteen, the system that called itself protection performed its final act of care: it aged them out — onto a curb, with a trash bag and a closed file — and counted the closed file as a success. Because the machine was never built to give the child a family. It was built to process the absence of one, and to call the processing love.",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "Warmth delivered faster than trust can be earned."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "A gift you can’t refuse, recorded on a ledger you never signed."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "A future vivid enough to keep you waiting, designed never to arrive."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The pull back in — nostalgia, guilt, and manufactured urgency about what you’ll lose."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The praise that hooked you, slowly converted into the criticism that keeps you striving."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "Making you doubt your own memory until the system becomes your only source of truth."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "Every available choice routed to the same punishment."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Reward and punishment on an unpredictable schedule — the chemistry of addiction."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "A finish line that moves the instant you reach it, because it doesn’t exist."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "Language engineered to mean whatever the listener needs it to mean."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The system’s own behavior, pinned to your chest."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "Deny it happened, attack the one who named it, swap victim and offender."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "Harm raised in increments too small to trigger alarm, until it’s the background hum."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Cutting the lines to everyone who could tell you this isn’t normal."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "A third party inserted to carry the message the system wanted carried."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Recruiting other people to enforce the system while it keeps clean hands."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Poisoning your reputation in advance, so your testimony arrives pre-discredited."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Silence weaponized — the refusal to engage, dressed as discipline."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "A vote whose outcome was decided before the question was asked."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Pain and relief alternating until the source of the wound becomes the only cure."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "Punishing every attempt to act until the body stops trying and calls it peace."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "Restriction, surveillance, and command — all framed as care you’d be ungrateful to refuse."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "Keeping you perpetually ‘not ready’ so your own discernment is never trusted."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Replacing who you were with a system-approved version of who you should be."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "Money and debt repurposed as a leash that makes leaving unaffordable."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Spiritual or therapeutic language used to bypass your pain and dodge accountability."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "A permanent emergency — too urgent for you to stop, think, and ask if it’s true."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Released the moment maintaining you costs more than you produce."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "Your seat filled before it cools — proof the warmth was for the position, not for you."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The harm structured so it can never be proven intentional. ‘It was God’s will.’"
+    }
+   }
+  },
+  "22-inst": {
+   "sector": "Child Welfare, Foster Care & Adoption",
+   "level": "Institutional",
+   "controls": "Your relationship with protection and innocence",
+   "impulse": "The child’s need to be held and chosen",
+   "narrative": "The child needed only to be held and chosen, and the system arrived with the language of rescue. It removed them from one wound and promised a home, and the promise was real to everyone who said it. But the child was no longer a child to the machine — they were a case, a placement, a number that triggered a payment and a file that needed to be closed. The warmth that should have been unconditional came with a caseworker’s caseload, a placement that could end with a phone call, a bag packed in a garbage sack and a new front door every few months until the word home stopped meaning anything safe. They learned not to unpack. They learned not to attach. They learned that the people who said ‘you’re family now’ were measuring them against a subsidy and a tolerance that could run out. And when they turned eighteen, the system that called itself protection performed its final act of care: it aged them out — onto a curb, with a trash bag and a closed file — and counted the closed file as a success. Because the machine was never built to give the child a family. It was built to process the absence of one, and to call the processing love.",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "Warmth delivered faster than trust can be earned."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "A gift you can’t refuse, recorded on a ledger you never signed."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "A future vivid enough to keep you waiting, designed never to arrive."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The pull back in — nostalgia, guilt, and manufactured urgency about what you’ll lose."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The praise that hooked you, slowly converted into the criticism that keeps you striving."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "Making you doubt your own memory until the system becomes your only source of truth."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "Every available choice routed to the same punishment."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Reward and punishment on an unpredictable schedule — the chemistry of addiction."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "A finish line that moves the instant you reach it, because it doesn’t exist."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "Language engineered to mean whatever the listener needs it to mean."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The system’s own behavior, pinned to your chest."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "Deny it happened, attack the one who named it, swap victim and offender."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "Harm raised in increments too small to trigger alarm, until it’s the background hum."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Cutting the lines to everyone who could tell you this isn’t normal."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "A third party inserted to carry the message the system wanted carried."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Recruiting other people to enforce the system while it keeps clean hands."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Poisoning your reputation in advance, so your testimony arrives pre-discredited."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Silence weaponized — the refusal to engage, dressed as discipline."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "A vote whose outcome was decided before the question was asked."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Pain and relief alternating until the source of the wound becomes the only cure."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "Punishing every attempt to act until the body stops trying and calls it peace."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "Restriction, surveillance, and command — all framed as care you’d be ungrateful to refuse."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "Keeping you perpetually ‘not ready’ so your own discernment is never trusted."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Replacing who you were with a system-approved version of who you should be."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "Money and debt repurposed as a leash that makes leaving unaffordable."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Spiritual or therapeutic language used to bypass your pain and dodge accountability."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "A permanent emergency — too urgent for you to stop, think, and ask if it’s true."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Released the moment maintaining you costs more than you produce."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "Your seat filled before it cools — proof the warmth was for the position, not for you."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The harm structured so it can never be proven intentional. ‘It was God’s will.’"
+    }
+   }
+  },
+  "22-civ": {
+   "sector": "Child Welfare, Foster Care & Adoption",
+   "level": "Civilizational",
+   "controls": "Your relationship with protection and innocence",
+   "impulse": "The child’s need to be held and chosen",
+   "narrative": "The child needed only to be held and chosen, and the system arrived with the language of rescue. It removed them from one wound and promised a home, and the promise was real to everyone who said it. But the child was no longer a child to the machine — they were a case, a placement, a number that triggered a payment and a file that needed to be closed. The warmth that should have been unconditional came with a caseworker’s caseload, a placement that could end with a phone call, a bag packed in a garbage sack and a new front door every few months until the word home stopped meaning anything safe. They learned not to unpack. They learned not to attach. They learned that the people who said ‘you’re family now’ were measuring them against a subsidy and a tolerance that could run out. And when they turned eighteen, the system that called itself protection performed its final act of care: it aged them out — onto a curb, with a trash bag and a closed file — and counted the closed file as a success. Because the machine was never built to give the child a family. It was built to process the absence of one, and to call the processing love.",
+   "lines": {
+    "1": {
+     "technique": "Love Bombing",
+     "source": "Warmth delivered faster than trust can be earned."
+    },
+    "2": {
+     "technique": "Weaponized Generosity",
+     "source": "A gift you can’t refuse, recorded on a ledger you never signed."
+    },
+    "3": {
+     "technique": "Future Faking",
+     "source": "A future vivid enough to keep you waiting, designed never to arrive."
+    },
+    "4": {
+     "technique": "Hoovering",
+     "source": "The pull back in — nostalgia, guilt, and manufactured urgency about what you’ll lose."
+    },
+    "5": {
+     "technique": "Devaluation",
+     "source": "The praise that hooked you, slowly converted into the criticism that keeps you striving."
+    },
+    "6": {
+     "technique": "Gaslighting",
+     "source": "Making you doubt your own memory until the system becomes your only source of truth."
+    },
+    "7": {
+     "technique": "Double Bind",
+     "source": "Every available choice routed to the same punishment."
+    },
+    "8": {
+     "technique": "Intermittent Reinforcement",
+     "source": "Reward and punishment on an unpredictable schedule — the chemistry of addiction."
+    },
+    "9": {
+     "technique": "Moving the Goalposts",
+     "source": "A finish line that moves the instant you reach it, because it doesn’t exist."
+    },
+    "10": {
+     "technique": "Strategic Ambiguity",
+     "source": "Language engineered to mean whatever the listener needs it to mean."
+    },
+    "11": {
+     "technique": "Projection",
+     "source": "The system’s own behavior, pinned to your chest."
+    },
+    "12": {
+     "technique": "DARVO",
+     "source": "Deny it happened, attack the one who named it, swap victim and offender."
+    },
+    "13": {
+     "technique": "Normalization",
+     "source": "Harm raised in increments too small to trigger alarm, until it’s the background hum."
+    },
+    "14": {
+     "technique": "Isolation",
+     "source": "Cutting the lines to everyone who could tell you this isn’t normal."
+    },
+    "15": {
+     "technique": "Triangulation",
+     "source": "A third party inserted to carry the message the system wanted carried."
+    },
+    "16": {
+     "technique": "Flying Monkeys",
+     "source": "Recruiting other people to enforce the system while it keeps clean hands."
+    },
+    "17": {
+     "technique": "Smear Campaign",
+     "source": "Poisoning your reputation in advance, so your testimony arrives pre-discredited."
+    },
+    "18": {
+     "technique": "Silent Treatment",
+     "source": "Silence weaponized — the refusal to engage, dressed as discipline."
+    },
+    "19": {
+     "technique": "Manufactured Consent",
+     "source": "A vote whose outcome was decided before the question was asked."
+    },
+    "20": {
+     "technique": "Trauma Bonding",
+     "source": "Pain and relief alternating until the source of the wound becomes the only cure."
+    },
+    "21": {
+     "technique": "Learned Helplessness",
+     "source": "Punishing every attempt to act until the body stops trying and calls it peace."
+    },
+    "22": {
+     "technique": "Benevolent Control",
+     "source": "Restriction, surveillance, and command — all framed as care you’d be ungrateful to refuse."
+    },
+    "23": {
+     "technique": "Infantilization",
+     "source": "Keeping you perpetually ‘not ready’ so your own discernment is never trusted."
+    },
+    "24": {
+     "technique": "Identity Erosion",
+     "source": "Replacing who you were with a system-approved version of who you should be."
+    },
+    "25": {
+     "technique": "Spiritual Bypassing",
+     "source": "Money and debt repurposed as a leash that makes leaving unaffordable."
+    },
+    "26": {
+     "technique": "Financial Control",
+     "source": "Spiritual or therapeutic language used to bypass your pain and dodge accountability."
+    },
+    "27": {
+     "technique": "Manufactured Crisis",
+     "source": "A permanent emergency — too urgent for you to stop, think, and ask if it’s true."
+    },
+    "28": {
+     "technique": "Discard",
+     "source": "Released the moment maintaining you costs more than you produce."
+    },
+    "29": {
+     "technique": "Replacement",
+     "source": "Your seat filled before it cools — proof the warmth was for the position, not for you."
+    },
+    "30": {
+     "technique": "Plausible Deniability",
+     "source": "The harm structured so it can never be proven intentional. ‘It was God’s will.’"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,87 @@
+// Print a Paged.js-laid-out HTML file to PDF with Chromium (Playwright, preinstalled).
+// usage: node tools/pdf/print.js <page.html> <out.pdf> "<title>"
+// Paged.js fetches stylesheets with XHR, which Chromium blocks on file:// — so the page's folder is
+// served on a throwaway localhost port for the length of the print.
+const fs = require('fs'), path = require('path'), http = require('http');
+const { chromium } = require(require.resolve('playwright', { paths: ['/opt/node22/lib/node_modules', process.cwd()] }));
+const CHROME = ['/opt/pw-browsers/chromium-1194/chrome-linux/chrome', '/opt/pw-browsers/chromium'].find(p => fs.existsSync(p) && fs.statSync(p).isFile());
+const TYPES = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript', '.woff': 'font/woff', '.ttf': 'font/ttf', '.png': 'image/png', '.svg': 'image/svg+xml' };
+(async () => {
+  const [pageFile, out] = process.argv.slice(2);
+  const root = path.dirname(path.resolve(pageFile));
+  const server = http.createServer((req, res) => {
+    const f = path.join(root, decodeURIComponent(req.url.split('?')[0]));
+    if (!f.startsWith(root) || !fs.existsSync(f)) { res.writeHead(404); return res.end(); }
+    res.writeHead(200, { 'Content-Type': TYPES[path.extname(f)] || 'application/octet-stream' });
+    fs.createReadStream(f).pipe(res);
+  }).listen(0, '127.0.0.1');
+  await new Promise(r => server.on('listening', r));
+  const url = `http://127.0.0.1:${server.address().port}/${path.basename(pageFile)}`;
+  const browser = await chromium.launch(CHROME ? { executablePath: CHROME } : {});
+  const page = await browser.newPage();
+  const errors = [];
+  page.on('pageerror', e => errors.push(e.message));
+  page.on('console', m => { if (m.type() === 'error' && !/favicon|404/.test(m.text())) errors.push(m.text()); });
+  // Trial layouts: find a section whose last few lines spill onto a page of their own, or a table whose
+  // header row sits alone at a page foot, and reload with that section set tighter (?snug=) or that
+  // table moved to a fresh page (?brk=). Pages without the hook in their PagedConfig ignore the query.
+  const snug = new Map(), brk = new Set(), hbrk = new Set();
+  let issues = null;
+  for (let pass = 0; pass < (process.env.NOFIT ? 1 : 5); pass++) {
+    const q = new URLSearchParams();
+    if (snug.size) q.set('snug', [...snug].map(([id, l]) => `${id}:${l}`).join(','));
+    if (brk.size) q.set('brk', [...brk].join(','));
+    if (hbrk.size) q.set('hbrk', [...hbrk].join(','));
+    await page.goto(url + (q.toString() ? '?' + q : ''));
+    await page.waitForFunction(() => window.__paged === true, null, { timeout: 600000 });
+    await page.evaluate(() => document.fonts.ready);
+    issues = await page.evaluate((TAIL) => {
+      const out = { tails: [], lone: [], heads: [] }, pages = [...document.querySelectorAll('.pagedjs_page')];
+      pages.forEach((pg, i) => {
+        const area = pg.querySelector('.pagedjs_page_content'); if (!area) return;
+        const box = area.getBoundingClientRect(), text = (area.innerText || '').trim();
+        const leaf = [...area.querySelectorAll('*')].filter(e => { const b = e.getBoundingClientRect(); return b.height > 0 && (!e.children.length || e.tagName === 'P' || e.tagName === 'TR'); });
+        const fill = (leaf.reduce((m, e) => Math.max(m, e.getBoundingClientRect().bottom), box.top) - box.top) / box.height;
+        const sec = area.querySelector('section.sec');
+        if (fill < TAIL && text && !pg.querySelector('section.sec > h2, .front h1, .cover') && sec) out.tails.push({ page: i + 1, id: sec.dataset.id || sec.id });
+        area.querySelectorAll('table[data-ti]').forEach(t => { if (t.querySelector('thead') && !t.querySelector('tbody tr')) out.lone.push({ page: i + 1, ti: t.dataset.ti }); });
+        // a heading with nothing of its own below it on the page (the last thing laid out there)
+        const last = leaf.reduce((m, e) => (!m || e.getBoundingClientRect().bottom > m.getBoundingClientRect().bottom ? e : m), null);
+        const h = last && last.closest('[data-hi]'); if (h && h.textContent.trim() && !h.classList.contains('newpage')) out.heads.push({ page: i + 1, hi: h.dataset.hi, t: h.textContent.slice(0, 50) });
+      });
+      return out;
+    }, parseFloat(process.env.TAILFILL) || 0.15);
+    let changed = false;
+    for (const t of issues.tails) { const l = snug.get(t.id) || 0; if (t.id && l < 3) { snug.set(t.id, l + 1); changed = true; } }
+    for (const t of issues.lone) if (!brk.has(t.ti)) { brk.add(t.ti); changed = true; }
+    for (const t of issues.heads) if (!hbrk.has(t.hi)) { hbrk.add(t.hi); changed = true; if (process.env.DEBUGH) console.log('heading moved', t.page, t.t); }
+    if (!changed) break;
+  }
+  if (snug.size || brk.size || hbrk.size) console.log(`fitted: ${JSON.stringify([...snug])} tightened, ${brk.size} table(s) and ${hbrk.size} heading(s) moved; left: ${issues.tails.length} short tail(s) ${JSON.stringify(issues.tails.map(t => t.page))}, ${issues.lone.length} lone header(s)`);
+  // per-page report for the whitespace pass: foot gap, section, and which top-level blocks start on the page
+  const report = await page.evaluate(() => [...document.querySelectorAll('.pagedjs_page')].map((pg, i) => {
+    const area = pg.querySelector('.pagedjs_page_content'); if (!area) return { n: i + 1 };
+    const box = area.getBoundingClientRect();
+    const leaf = [...area.querySelectorAll('*')].filter(e => { const b = e.getBoundingClientRect(); return b.height > 0 && b.width > 0 && (!e.children.length || e.tagName === 'P' || e.tagName === 'TR'); });
+    let last = [...leaf, ...area.querySelectorAll('.consequence, .primer, .card, .case, .stage, .tactic, .hardq, .pullquote, .datum, .stagerow, table, figure, .loop')].reduce((m, e) => Math.max(m, e.getBoundingClientRect().bottom), box.top);
+    const gpq = area.querySelector('.pullquote'); if (gpq) last = Math.max(last, gpq.getBoundingClientRect().bottom);
+    const dark = !!pg.querySelector('.opener-page, .cover, .divider-page');
+    const secEl = area.querySelector('section[data-sec]'); const sec = secEl ? 'sec-' + secEl.dataset.sec : null;
+    const blocks = [...area.querySelectorAll('[data-ci]')].map(e => ({ sec: e.closest('section[data-sec]') ? 'sec-' + e.closest('section[data-sec]').dataset.sec : null, ci: +e.dataset.ci, split: e.hasAttribute('data-split-from') }));
+    const pq = area.querySelector('.pullquote');
+    return { n: i + 1, foot: dark ? 0 : (box.bottom - last) / box.height, footPt: box.bottom - last, dark, sec, blocks, pq: !!pq, pqLast: pq ? pq.dataset.grown === '1' : null };
+  }));
+  fs.writeFileSync(out.replace(/\.pdf$/, '.pages.json'), JSON.stringify(report));
+  if (process.env.DEBUGPQ) console.log(JSON.stringify(await page.evaluate(() => [...document.querySelectorAll('.pullquote')].map(e => { const pg = e.closest('.pagedjs_page'); const r = e.getBoundingClientRect(); return { page: pg && pg.dataset.pageNumber, top: r.top - pg.getBoundingClientRect().top, h: r.height, grown: e.dataset.grown, n: pg.querySelectorAll('p').length }; }))));
+  const pages = await page.evaluate(() => document.querySelectorAll('.pagedjs_page').length);
+  // where each heading landed, for the PDF bookmark tree (Paged.js pages are .pagedjs_page, 1-based)
+  const marks = await page.evaluate(() => [...document.querySelectorAll('h1[id], h2[id], h3[id], h4[id^="t-"]')].map(h => {
+    const pg = h.closest('.pagedjs_page');
+    return { id: h.id, level: +h.tagName[1], text: h.innerText.replace(/\s+/g, ' ').trim(), page: pg ? +pg.dataset.pageNumber : null };
+  }));
+  fs.writeFileSync(out.replace(/\.pdf$/, '.marks.json'), JSON.stringify(marks));
+  await page.pdf({ path: out, preferCSSPageSize: true, printBackground: true, outline: true, tagged: true });
+  await browser.close(); server.close();
+  if (errors.length) console.error('page errors:', errors.slice(0, 5));
+  console.log(`laid out ${pages} pages → ${out}`);
+})().catch(e => { console.error(e); process.exit(1); });

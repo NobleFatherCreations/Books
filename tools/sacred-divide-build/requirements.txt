@@ -1,0 +1,6 @@
+pypdf
+pymupdf
+pdfplumber
+pikepdf
+markdown
+playwright

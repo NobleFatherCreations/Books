@@ -1,0 +1,172 @@
+{
+ "_note": "TikTok-safe overlay for the fractal deck (2026-10-08). Softens wording that automated moderation commonly flags (graphic violence, self-harm, eating disorders, sexual assault, child harm, medical claims about drugs and vaccines). Applied only by `counterfeit-slides.py fractal-safe`; the standard deck is unchanged.",
+ "titles": {
+  "20": "Dating & Romance",
+  "29": "The Prison System",
+  "21": "Privacy & Surveillance",
+  "22": "Foster Care & Adoption"
+ },
+ "fractal": {
+  "3": {
+   "13": "After enough upsetting images in your feed, your body stops reacting to them."
+  },
+  "9": {
+   "4": "A missed appointment or failed test pulls a person back into the system."
+  },
+  "11": {
+   "12": "A soldier who reports misconduct by a superior is investigated more than the superior.",
+   "17": "A soldier who reports wrongdoing is labeled a traitor, a coward and a disgrace.",
+   "30": "An officer whose orders harmed civilians says \"I followed the rules of engagement.\""
+  },
+  "16": {
+   "11": "A harsh coach calls the athlete who cries \"mentally weak.\"",
+   "12": "An athlete who reports the coach's mistreatment is told \"you're dividing the team.\"",
+   "19": "An athlete signs a waiver accepting the risk of serious injury."
+  },
+  "19": {
+   "18": "The industry stays silent about the harm its advertising does to how people see their bodies."
+  },
+  "24": {
+   "28": "The mine closes, leaving workers with polluted water, health problems and no jobs."
+  },
+  "25": {
+   "11": "A driver who hit a cyclist says \"they shouldn't have been in the road.\""
+  },
+  "27": {
+   "1": "A sales rep brings lunch and branded pens and remembers the nurse's birthday.",
+   "3": "A company says \"we're developing a breakthrough,\" always five to ten years away.",
+   "10": "An ad says \"may help reduce symptoms,\" committing to nothing.",
+   "30": "A company says the product was approved and prescribed by a licensed professional."
+  }
+ },
+ "fractal_inst": {
+  "2": {
+   "6": "Government agencies revise official figures and seal footage of events citizens witnessed.",
+   "20": "The state turns crises into founding myths that bind the population to it.",
+   "25": "Governments wave the flag while veterans struggle to get basic support."
+  },
+  "3": {
+   "16": "Fact-checkers funded by the entities they should check turn the check into a tool."
+  },
+  "5": {
+   "5": "Patients whose pain resists easy diagnosis are labeled difficult."
+  },
+  "8": {
+   "12": "The parent who caused harm claims to be the victim when the adult child sets boundaries.",
+   "13": "Families file mistreatment under \"normal family stuff\" because \"every family fights.\""
+  },
+  "9": {
+   "22": "Specialty courts extend the system's reach into people who would never have been jailed."
+  },
+  "11": {
+   "3": "The military promises each new system will finally win a conflict that cannot be won.",
+   "10": "The military uses phrases like \"collateral damage\" to blur what actually happened.",
+   "13": "Training is designed to override a soldier's natural reluctance to harm another person.",
+   "18": "\"National security\" keeps information classified until those accountable have retired.",
+   "25": "\"The ultimate sacrifice\" is spoken over soldiers who were sent with inadequate equipment.",
+   "29": "Contracts to replace old equipment go to the same company that built it."
+  },
+  "12": {
+   "11": "An industry that glamorizes excess accuses its audience of having bad taste.",
+   "20": "\"This is the hardest industry in the world\" turns mistreatment into a rite of passage."
+  },
+  "16": {
+   "12": "Sports institutions silenced and even punished the athletes who reported mistreatment.",
+   "18": "Institutions that covered up misconduct say \"no comment\" until the news cycle moves on."
+  },
+  "19": {
+   "12": "Critics who link the beauty industry to body-image harm are told they are \"anti-empowerment.\""
+  },
+  "20": {
+   "17": "Users who report harassment on an app are often the ones who end up banned."
+  },
+  "22": {
+   "12": "When families report mistreatment in foster care, the agency says they are being difficult."
+  },
+  "25": {
+   "12": "Cities that build bike lanes are accused by the auto industry of attacking drivers.",
+   "13": "Tens of thousands of road fatalities a year are reported as a statistic."
+  },
+  "26": {
+   "6": "Facing a rising mental health crisis, the industry offers more of what it already sells."
+  },
+  "27": {
+   "5": "Traditional remedies are dismissed as folklore, so prescriptions stay first-line.",
+   "6": "Critics say a simplified theory of depression was marketed for decades as settled fact.",
+   "13": "Many older adults take several prescriptions that were never studied together.",
+   "14": "Critics say companies that fund the studies also control what data gets published.",
+   "22": "Regulators decide which treatments are approved while the industry lobbies them."
+  },
+  "29": {
+   "13": "Locking up 1.9 million people is discussed in policy papers like crop yields.",
+   "18": "Requests for data on deaths in custody are refused with \"security concerns.\""
+  },
+  "30": {
+   "13": "The detention of children drew national outrage, the outrage faded, and it continues."
+  }
+ },
+ "fractal_civ": {
+  "2": {
+   "3": "Each generation is promised that the next conflict will finally bring peace.",
+   "7": "Citizens who support a conflict fund it, and citizens who oppose it are labeled traitors.",
+   "27": "Nations start conflicts on faulty intelligence while ordinary people absorb the cost.",
+   "6": "Nations retell their own conflicts as liberation in school history books."
+  },
+  "3": {
+   "12": "Institutions that manufactured consent for conflicts claim to be victims of public distrust.",
+   "19": "Whole populations consent to conflicts they didn't choose because the consent was manufactured."
+  },
+  "5": {
+   "6": "Society denied the harm of tobacco and painkillers until the evidence was overwhelming.",
+   "12": "Companies caught bending trial rules cast themselves as victims of anti-science.",
+   "30": "Critics say trials measure short-term results while long-term effects go unstudied."
+  },
+  "8": {
+   "4": "Culture tells people hurt by family \"but they're your parents\" to pull them back.",
+   "18": "Families keep mistreatment secret for decades, believing that silence is loyalty."
+  },
+  "9": {
+   "19": "\"Tough on crime\" stories win public consent for the harshest punishments.",
+   "27": "The decades-long crackdown on drugs created an enemy that could never be defeated.",
+   "29": "Public punishment gave way to prison, then mass incarceration, each presented as more humane."
+  },
+  "11": {
+   "5": "Veterans' homelessness and mental health needs remain consistently underfunded.",
+   "7": "Citizens must fund military action in their name or oppose it and be labeled a traitor.",
+   "13": "Constant military engagement is so normalized that a quiet year would feel unusual.",
+   "17": "Nations marked for intervention are demonized until intervention feels justified.",
+   "18": "Civilian losses from remote strikes are recorded in official reports as \"combatants.\"",
+   "25": "\"Freedom isn't free\" makes asking whether a conflict served freedom feel disrespectful.",
+   "22": "A civilization keeps a vast nuclear arsenal and calls deterrence prudent."
+  },
+  "12": {
+   "13": "The public watches a celebrity struggle, mourns the loss, and moves on to the next one.",
+   "17": "New music genres are labeled dangerous before each is commercialized."
+  },
+  "13": {
+   "6": "\"You create your own reality\" tells harmed and colonized people they caused their own harm.",
+   "25": "\"Everything happens for a reason\" turns systemic harm into cosmic curriculum."
+  },
+  "17": {
+   "20": "The public bonds to science because illness frightens and then a treatment relieves."
+  },
+  "19": {
+   "18": "The industry meets rising body-image harm with awareness campaigns instead of accountability."
+  },
+  "27": {
+   "2": "Fast medical breakthroughs are invoked whenever high prices are criticized.",
+   "4": "Every health scare pulls the population back to the industry through fear.",
+   "7": "Anyone questioning industry practices is labeled \"anti-science\" without distinction.",
+   "8": "A treatment that adds a few months is hailed as proof the business model works.",
+   "12": "Critics of industry pricing and marketing are lumped together with fringe voices.",
+   "17": "Every movement that questions industry practices is dismissed without distinction.",
+   "24": "A culture of prescriptions leaves people doubting their own body.",
+   "19": "Less funding for non-drug research made a prescription the default response to distress.",
+   "26": "The industry's profit margins rank among the highest of any sector."
+  },
+  "28": {
+   "16": "Politicians funded by insurers vote against universal coverage and price negotiation."
+  }
+ },
+ "body": {}
+}

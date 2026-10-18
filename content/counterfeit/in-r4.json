@@ -1,0 +1,833 @@
+{
+ "kind": "religion",
+ "items": {
+  "buddhism": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "Newcomers arrive anxious, grieving, burned out, or spiritually disillusioned. They are met with calm voices, meditation cushions, tea, compassion language, and the promise of peace."
+   },
+   "2": {
+    "technique": "Weaponized Generosity",
+    "source": "Buddhist centers may offer meditation instruction, retreats, tea, compassion, community, trauma-sensitive language, and a peaceful refuge for anxious or wounded people."
+   },
+   "3": {
+    "technique": "Future Faking",
+    "source": "Buddhism can future-fake through enlightenment, nirvana (release from the cycle of rebirth), liberation from suffering, better rebirth, merit, karmic purification, and eventual awakening."
+   },
+   "4": {
+    "technique": "Hoovering",
+    "source": "A student leaving a Buddhist center may be told they are running from their suffering, avoiding practice, clinging to ego, or losing a precious human opportunity."
+   },
+   "5": {
+    "technique": "Devaluation",
+    "source": "Institutional Buddhism can devalue by defining ordinary desire as the root of suffering, in a form like: “You are trapped in samsara (the cycle of rebirth). Your desires are the disease.”"
+   },
+   "6": {
+    "technique": "Gaslighting",
+    "source": "A student says a teacher behaved abusively, and the sangha says, “Notice your aversion,” “Do not cling to anger,” or “This is your projection.”"
+   },
+   "7": {
+    "technique": "Double Bind",
+    "source": "Students are told to test the teachings like gold, as the Buddha instructed — but negative findings are diagnosed as ego, aversion, or insufficient practice. The assay is welcome as long as the gold always passes."
+   },
+   "8": {
+    "technique": "Intermittent Reinforcement",
+    "source": "Meditation itself reinforces intermittently — some sits open into stillness, most are noise — and centers put that schedule to use: breakthroughs credit the method and teacher; dry months indicate your hindrances (in Buddhist teaching, the mental obstacles to meditation) and need for another retreat."
+   },
+   "9": {
+    "technique": "Moving the Goalposts",
+    "source": "A seeker begins meditation for suffering. Then they must attend retreats, accept teacher correction, volunteer, donate, watch attachment, examine ego, and stop trusting anger."
+   },
+   "10": {
+    "technique": "Strategic Ambiguity",
+    "source": "“Nonattachment” can mean freedom from craving, but also emotional suppression, tolerance of abuse, or refusal to name harm."
+   },
+   "11": {
+    "technique": "Projection",
+    "source": "A Buddhist teacher may accuse a questioning student of ego while the teacher’s own ego is protected by robes, titles, lineage, and spiritual status."
+   },
+   "12": {
+    "technique": "DARVO",
+    "source": "A student reports teacher abuse, sexual exploitation, financial pressure, or emotional manipulation. The sangha may deny it, minimize it, or say the student misunderstood skillful means."
+   },
+   "13": {
+    "technique": "Normalization",
+    "source": "Practitioners can become desensitized to interpreting pain as attachment, anger as ego, desire as craving, and resistance as ignorance."
+   },
+   "14": {
+    "technique": "Isolation",
+    "source": "Buddhism can isolate through sangha dependence, retreat culture, teacher authority, monastic ideals, and suspicion of ordinary worldly life as attachment."
+   },
+   "15": {
+    "technique": "Triangulation",
+    "source": "Buddhism can triangulate through teacher, sangha, lineage, senior students, retreat community, dharma texts, and the ideal of the calm practitioner."
+   },
+   "16": {
+    "technique": "Flying Monkeys",
+    "source": "A student harmed by a Buddhist teacher may be approached by senior students: “You are attached to anger,” “Don’t create division,” “This is your projection,” “Speak compassionately.”"
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "A student reporting teacher abuse may be labeled angry, attached, egoic, unstable, divisive, or spiritually immature."
+   },
+   "18": {
+    "technique": "Silent Treatment",
+    "source": "A student reports teacher abuse and is told to sit with their anger, examine projection, avoid divisive speech, and practice compassion."
+   },
+   "19": {
+    "technique": "Manufactured Consent",
+    "source": "A student “chooses” to accept teacher authority after being taught that resistance is ego and discomfort is practice."
+   },
+   "20": {
+    "technique": "Trauma Bonding",
+    "source": "A person comes to Buddhism suffering. The teacher identifies craving, ego, attachment, ignorance, and delusion as the cause — then offers meditation, sangha, retreats, and teacher guidance as relief."
+   },
+   "22": {
+    "technique": "Benevolent Control",
+    "source": "Teachers may control students through compassion language: “We are helping you work with ego,” “This is practice,” “Your anger is attachment.”"
+   },
+   "23": {
+    "technique": "Infantilization",
+    "source": "Students may be treated as spiritually immature if they trust anger, grief, desire, or moral alarm."
+   },
+   "24": {
+    "technique": "Identity Erosion",
+    "source": "Buddhist practice can erode identity by turning desire, anger, selfhood, attachment, ambition, and personal narrative into problems to transcend."
+   },
+   "26": {
+    "technique": "Financial Control",
+    "source": "Buddhist centers may rely on dana, retreat fees, teacher gifts, memberships, book sales, volunteer labor, and unpaid service."
+   },
+   "27": {
+    "technique": "Manufactured Crisis",
+    "source": "Buddhist communities may manufacture crisis by framing departure as running from suffering, abandoning precious human birth (the teaching that a human life capable of practice is rare), damaging karma, or creating division in the sangha."
+   },
+   "30": {
+    "technique": "Plausible Deniability",
+    "source": "A sangha may say anger is welcome as something to observe, but when anger targets the teacher, it becomes ego, attachment, projection, or divisive speech."
+   }
+  },
+  "dawoodi-bohra": {
+   "30": {
+    "technique": "Plausible Deniability",
+    "source": "Responsibility is placed with families and individual cutters rather than the institution; no source on this page records that framing."
+   }
+  },
+  "indigenous": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "People may be drawn through ceremony, ancestry, land, elders, songs, healing rituals, initiation, and the promise of returning to what colonization or modernity stole."
+   },
+   "2": {
+    "technique": "Weaponized Generosity",
+    "source": "Indigenous, folk, and ancestral traditions may offer ceremony, healing, elder guidance, songs, land connection, initiation, family belonging, and recovery of identity after displacement or colonization."
+   },
+   "3": {
+    "technique": "Future Faking",
+    "source": "Indigenous, folk, and ancestral systems can future-fake through ancestral blessing, restored identity, healing of bloodlines, land reconnection, initiation, protection, fertility, communal restoration, and return to original ways."
+   },
+   "4": {
+    "technique": "Hoovering",
+    "source": "Someone leaving ancestral, folk, or Indigenous religious practice may be pulled back through elders, family, initiation obligations, ancestral fear, land connection, or claims of spiritual protection."
+   },
+   "5": {
+    "technique": "Devaluation",
+    "source": "Indigenous, folk, and ancestral systems can devalue through lineage obligation, ancestral fear, elder authority, ritual purity, initiation hierarchy, and belonging anxiety."
+   },
+   "6": {
+    "technique": "Gaslighting",
+    "source": "A person questions an elder, healer, shaman, ritual authority, or family tradition, and is told they are disrespecting the ancestors."
+   },
+   "7": {
+    "technique": "Double Bind",
+    "source": "Reconnecting descendants are told the tradition is their birthright — and that questioning an elder's demands proves colonization has claimed their mind. Their heritage is inside; their judgment must wait outside."
+   },
+   "8": {
+    "technique": "Intermittent Reinforcement",
+    "source": "Where divination is practiced, readings can pay out intermittently — some land, most are ambiguous — and landing readings can become the practitioner's reputation while ambiguous ones become the client's unreadiness."
+   },
+   "9": {
+    "technique": "Moving the Goalposts",
+    "source": "A reconnecting person begins with ceremony or family practice. Then they must accept elder authority, secrecy, offerings, initiation, ancestral obligations, ritual payments, and silence around concerns."
+   },
+   "10": {
+    "technique": "Strategic Ambiguity",
+    "source": "“Respecting ancestors” can mean remembrance, ritual participation, secrecy, obedience to elders, payments, initiation, or silence."
+   },
+   "11": {
+    "technique": "Projection",
+    "source": "Elders, shamans, healers, or ritual authorities may accuse dissenters of disrespecting ancestors while using ancestor language to protect their own authority."
+   },
+   "12": {
+    "technique": "DARVO",
+    "source": "A person reports abuse, exploitation, sexual coercion, financial pressure, ritual harm, or elder misconduct. The response may deny it or say outsiders cannot understand sacred ways."
+   },
+   "13": {
+    "technique": "Normalization",
+    "source": "Reconnecting people may be normalized into elder authority, ritual secrecy, offerings, initiation, spirit fear, ancestral obligation, and silence around internal problems."
+   },
+   "14": {
+    "technique": "Isolation",
+    "source": "Indigenous, folk, and ancestral systems can isolate through elders, initiations, secrecy, ritual obligations, family lineage, land connection, spirit fear, and claims that outsiders cannot understand."
+   },
+   "15": {
+    "technique": "Triangulation",
+    "source": "Indigenous, folk, and ancestral traditions can triangulate through elders, ancestors, spirits, land, clan, family, initiation, healers, shamans, ritual obligations, and community survival."
+   },
+   "16": {
+    "technique": "Flying Monkeys",
+    "source": "A person questioning an elder, healer, shaman, family ritual, or ancestral obligation may be pressured by relatives, initiates, community elders, ritual assistants, or spiritual peers."
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "A person who questions elders, healers, shamans, payments, rituals, secrecy, or abuse may be labeled colonized, disrespectful, disconnected, cursed, spiritually dangerous, inauthentic, or betraying ancestors."
+   },
+   "18": {
+    "technique": "Silent Treatment",
+    "source": "A person questions an elder, healer, shaman, ritual demand, payment, secrecy, or abuse and is told outsiders cannot understand."
+   },
+   "19": {
+    "technique": "Manufactured Consent",
+    "source": "A reconnecting person “chooses” initiation, offerings, secrecy, elder obedience, or ritual obligations after being told the ancestors are calling."
+   },
+   "20": {
+    "technique": "Trauma Bonding",
+    "source": "A person is told they are disconnected, cursed, unprotected, colonized, or neglecting ancestors — then relief comes through ceremony, offerings, elder approval, initiation, or secrecy."
+   },
+   "21": {
+    "technique": "Learned Helplessness",
+    "source": "A person questions an elder, ritual, payment, initiation, or secrecy and is told they are disrespectful, colonized, cursed, or disconnected."
+   },
+   "22": {
+    "technique": "Benevolent Control",
+    "source": "Elders, healers, shamans, or ritual authorities may control through ancestry, spirits, secrecy, initiation, offerings, and protection language."
+   },
+   "23": {
+    "technique": "Infantilization",
+    "source": "Elders, healers, shamans, or ritual authorities may treat younger or reconnecting people as too ignorant to question."
+   },
+   "24": {
+    "technique": "Identity Erosion",
+    "source": "Reconnecting people may have identity rebuilt around ancestors, land, bloodline, spirits, elders, initiation, secrecy, and ritual obligation."
+   },
+   "25": {
+    "technique": "Spiritual Bypassing",
+    "source": "Abuse by elders or healers may be bypassed as initiation, testing, cleansing, ancestral demand, or sacred secrecy."
+   },
+   "26": {
+    "technique": "Financial Control",
+    "source": "Financial control may appear through offerings, initiation fees, healer payments, ritual materials, travel, secrecy obligations, ceremony costs, and elder support."
+   },
+   "27": {
+    "technique": "Manufactured Crisis",
+    "source": "Manufactured crisis may appear through warnings of angry ancestors, spirit attack, curses, broken taboos, failed rituals, land displeasure, or loss of protection."
+   },
+   "28": {
+    "technique": "Discard",
+    "source": "A person who questions elders, ceremonies, payments, secrecy, or abuse may be labeled disrespectful, colonized, disconnected, cursed, or spiritually dangerous."
+   },
+   "29": {
+    "technique": "Replacement",
+    "source": "A reconnecting person who questions elders may be replaced by another seeker more hungry for belonging."
+   },
+   "30": {
+    "technique": "Plausible Deniability",
+    "source": "Elders or healers may say initiation, payment, secrecy, or obedience is voluntary, while refusal is framed as disrespecting ancestors or losing protection."
+   }
+  },
+  "judaism": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "Converts or returnees may be embraced through Shabbat dinners, holiday meals, Hebrew songs, family tables, intellectual debate, and the beauty of ancient survival."
+   },
+   "2": {
+    "technique": "Weaponized Generosity",
+    "source": "Jewish communities may offer powerful mutual aid: meals after birth or death, hospital visits, burial societies, education funds, synagogue support, holiday hosting, and emergency assistance."
+   },
+   "3": {
+    "technique": "Future Faking",
+    "source": "Judaism is often less obsessed with individual afterlife than some religions, but future faking can still appear through covenant destiny, messianic hope, peoplehood survival, return, restoration, and continuity."
+   },
+   "4": {
+    "technique": "Hoovering",
+    "source": "A Jew who distances from synagogue, observance, or Jewish communal life may hear: “You’re breaking the chain,” “Your grandparents suffered for this,” “Don’t let Hitler win,” “Think of the next generation.”"
+   },
+   "5": {
+    "technique": "Devaluation",
+    "source": "Judaism can devalue through communal obligation, chosenness, covenantal burden, ancestral suffering, and the demand to preserve continuity."
+   },
+   "6": {
+    "technique": "Gaslighting",
+    "source": "A Jew says communal pressure feels suffocating, and the response is, “That is just responsibility to your people.”"
+   },
+   "7": {
+    "technique": "Double Bind",
+    "source": "Questioning is celebrated as the heart of Jewish learning — two Jews, three opinions — yet certain conclusions (intermarriage, non-observance, criticism of communal institutions) reclassify the questioner from 'wrestling with God' to 'lost.'"
+   },
+   "8": {
+    "technique": "Intermittent Reinforcement",
+    "source": "Communal honor is dispensed in variable portions — aliyot (honors of being called up to the Torah reading), board seats, shidduch (matchmaking) references, the rabbi's regard — and families track an invisible index that responds to observance, donation, and deference."
+   },
+   "9": {
+    "technique": "Moving the Goalposts",
+    "source": "A person participates culturally. Then they are expected to attend holidays, join synagogue, marry Jewish, raise Jewish children, preserve Hebrew education, support communal causes, and avoid “breaking the chain.”"
+   },
+   "10": {
+    "technique": "Strategic Ambiguity",
+    "source": "Judaism may be described as religion, ethnicity, culture, peoplehood, civilization, covenant, or family depending on the pressure needed."
+   },
+   "11": {
+    "technique": "Projection",
+    "source": "Jewish communities may accuse those who leave of betraying continuity while the community betrays individual conscience by making marriage, children, belief, and identity communal property."
+   },
+   "12": {
+    "technique": "DARVO",
+    "source": "A person names abuse, exclusion, communal pressure, synagogue corruption, school misconduct, or family coercion. The response becomes: “Why are you airing Jewish problems publicly?” “You are giving ammunition to antisemites.”"
+   },
+   "13": {
+    "technique": "Normalization",
+    "source": "Communal obligation becomes normalized through holidays, Hebrew school, synagogue life, bar/bat mitzvah expectations, marriage pressure, burial customs, and continuity language."
+   },
+   "14": {
+    "technique": "Isolation",
+    "source": "Judaism can isolate through peoplehood, continuity, communal memory, Hebrew schooling, synagogue life, endogamy pressure, holiday cycles, and the sense that outsiders cannot fully understand Jewish survival."
+   },
+   "15": {
+    "technique": "Triangulation",
+    "source": "Judaism can triangulate through parents, grandparents, rabbis, synagogue community, Holocaust memory, ancestors, children, peoplehood, Israel, exile, and continuity."
+   },
+   "16": {
+    "technique": "Flying Monkeys",
+    "source": "A Jew who distances from synagogue or Jewish continuity may be contacted by parents, grandparents, rabbis, community friends, Hebrew school networks, and relatives: “You’re breaking the chain,” “Think of your children,” “Your ancestors suffered for this.”"
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "Internal critics may be accused of giving ammunition to antisemites, being self-hating, assimilated, ignorant, anti-community, or disrespectful to ancestors."
+   },
+   "18": {
+    "technique": "Silent Treatment",
+    "source": "A person reports abuse, school misconduct, synagogue corruption, or coercive family pressure and is told not to air Jewish problems publicly."
+   },
+   "19": {
+    "technique": "Manufactured Consent",
+    "source": "A person “chooses” Jewish continuity while being told ancestors suffered, grandparents survived, children must remain Jewish, and assimilation must not win."
+   },
+   "20": {
+    "technique": "Trauma Bonding",
+    "source": "Jewish communal life can bond through collective trauma and belonging: persecution, exile, Holocaust memory, survival, continuity, family, and peoplehood."
+   },
+   "21": {
+    "technique": "Learned Helplessness",
+    "source": "A person tries to leave communal expectations but is repeatedly pulled back through ancestors, children, survival, continuity, and family grief."
+   },
+   "22": {
+    "technique": "Benevolent Control",
+    "source": "Communal expectations around marriage, children, synagogue, holidays, Hebrew education, and continuity may be framed as care for Jewish survival."
+   },
+   "23": {
+    "technique": "Infantilization",
+    "source": "Adults may be treated as irresponsible if they do not marry Jewish, raise Jewish children, attend holidays, or preserve continuity."
+   },
+   "24": {
+    "technique": "Identity Erosion",
+    "source": "Jewish identity may be religion, ethnicity, peoplehood, family, culture, history, survival, trauma, covenant, or continuity — and the person may be absorbed by all of it at once."
+   },
+   "26": {
+    "technique": "Financial Control",
+    "source": "Jewish financial control may operate through synagogue dues, Hebrew school tuition, Jewish day school costs, kosher food expenses, lifecycle events, community donations, and charity expectations."
+   },
+   "27": {
+    "technique": "Manufactured Crisis",
+    "source": "Jewish communities may manufacture crisis through assimilation panic, demographic anxiety, antisemitism, continuity fears, intermarriage concerns, and “breaking the chain.”"
+   },
+   "28": {
+    "technique": "Discard",
+    "source": "A Jew who leaves synagogue life, marries out, converts out, criticizes communal institutions, or refuses continuity expectations may be treated as breaking the chain."
+   },
+   "29": {
+    "technique": "Replacement",
+    "source": "A person who marries out or leaves observance is contrasted with siblings or peers who marry Jewish, raise Jewish children, and preserve continuity."
+   },
+   "30": {
+    "technique": "Plausible Deniability",
+    "source": "A community can say belief is not required, then pressure practice, marriage, children, synagogue ties, Hebrew school, holidays, burial, and communal loyalty."
+   }
+  },
+  "orthodox-hasidic-judaism": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "Baalei teshuva and converts may be welcomed with Shabbos (Sabbath) meals, matchmaking help, housing support, study partners, Hebrew names, rabbis, community families, and the intoxicating feeling of entering a total world."
+   },
+   "2": {
+    "technique": "Weaponized Generosity",
+    "source": "Orthodox and Hasidic communities may provide housing help, schooling, food, employment networks, matchmaking, childcare, holiday meals, and intense family-style support."
+   },
+   "3": {
+    "technique": "Future Faking",
+    "source": "Orthodox and Hasidic communities future-fake through total continuity: marry properly, have many children, keep Shabbos, follow rabbinic authority, preserve the community, and you secure your place in the chain."
+   },
+   "4": {
+    "technique": "Hoovering",
+    "source": "Someone who leaves Orthodox or Hasidic life may face immediate pressure from parents, rabbis, matchmakers, siblings, neighbors, teachers, and former friends."
+   },
+   "5": {
+    "technique": "Devaluation",
+    "source": "Orthodox and Hasidic communities can devalue the individual by making the community the total source of identity: clothing, language, education, marriage, food, media, neighborhood, gender roles, and family structure."
+   },
+   "6": {
+    "technique": "Gaslighting",
+    "source": "A young person questions restrictions on education, media, clothing, marriage, gender roles, or rabbinic control, and is told they are influenced by the outside world."
+   },
+   "7": {
+    "technique": "Double Bind",
+    "source": "A Hasidic teen is taught that the outside world is spiritually dead — and that their doubts prove the outside world has infected them. The doubt is evidence; the evidence is doubt."
+   },
+   "8": {
+    "technique": "Intermittent Reinforcement",
+    "source": "Moments of transcendent favor (a rebbe's gaze, a shirayim portion, a blessing at a tish) are distributed unpredictably across thousands of chasidim, each of whom will work years for the next one. Shirayim is food left from the rebbe's table, a tish is his festive table gathering, and chasidim are the followers of a rebbe."
+   },
+   "9": {
+    "technique": "Moving the Goalposts",
+    "source": "Baalei teshuva may first be praised for becoming observant. Then the requirements intensify: stricter kashrut (kosher law), stricter modesty, approved rabbis, approved schools, approved spouse, approved media, approved neighborhood."
+   },
+   "10": {
+    "technique": "Strategic Ambiguity",
+    "source": "Rules may be described as protective customs, binding halacha, family standards, community norms, or rabbinic guidance depending on enforceability."
+   },
+   "11": {
+    "technique": "Projection",
+    "source": "Orthodox or Hasidic systems may accuse leavers of being corrupted by the outside world while using restricted education, media control, surveillance, and marriage pressure."
+   },
+   "12": {
+    "technique": "DARVO",
+    "source": "A young person reports abuse, educational neglect, forced conformity, marriage pressure, or family control. The response may be denial, then accusations that the person is off the derech, corrupted, unstable, or influenced by outsiders."
+   },
+   "13": {
+    "technique": "Normalization",
+    "source": "Children are normalized from birth into total community: dress, food, language, school, modesty, gender roles, marriage expectations, rabbinic authority, media limits, and suspicion of outsiders."
+   },
+   "14": {
+    "technique": "Isolation",
+    "source": "Orthodox and Hasidic communities can isolate structurally: separate schools, controlled media, Yiddish or Hebrew language environments, arranged marriage networks, modest clothing, kosher food systems, neighborhood concentration, and rabbinic authority."
+   },
+   "15": {
+    "technique": "Triangulation",
+    "source": "Orthodox and Hasidic communities triangulate through rabbis, parents, matchmakers, yeshivas, siblings, marriage prospects, children, neighbors, schools, and communal reputation."
+   },
+   "16": {
+    "technique": "Flying Monkeys",
+    "source": "A young person who becomes less observant may be approached by parents, siblings, rabbis, teachers, matchmakers, neighbors, and school authorities."
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "Leavers may be labeled off the derech, corrupted, unstable, rebellious, immodest, mentally ill, attention-seeking, or damaged by outside influence."
+   },
+   "18": {
+    "technique": "Silent Treatment",
+    "source": "Abuse or coercion may be handled through rabbis and internal systems rather than outside authorities."
+   },
+   "19": {
+    "technique": "Manufactured Consent",
+    "source": "Children raised in insular communities “choose” observance after being given limited secular education, limited outside exposure, and few exit tools."
+   },
+   "20": {
+    "technique": "Trauma Bonding",
+    "source": "Insular communities can create intense bonds by making the community the entire world: family, school, marriage, language, food, housing, employment, ritual, and identity."
+   },
+   "21": {
+    "technique": "Learned Helplessness",
+    "source": "A person raised inside the community may lack secular education, outside contacts, financial independence, language tools, or legal knowledge."
+   },
+   "22": {
+    "technique": "Benevolent Control",
+    "source": "Insular education, strict modesty, media restriction, matchmaking, rabbinic guidance, and neighborhood concentration are framed as protection from the outside world."
+   },
+   "23": {
+    "technique": "Infantilization",
+    "source": "Adults may remain under rabbinic, family, and communal authority for marriage, education, dress, media, fertility, and livelihood."
+   },
+   "24": {
+    "technique": "Identity Erosion",
+    "source": "Identity is shaped from childhood through clothing, language, schooling, kosher systems, gender roles, marriage markets, rabbinic authority, modesty, holidays, and neighborhood life."
+   },
+   "25": {
+    "technique": "Spiritual Bypassing",
+    "source": "Abuse may be bypassed through avoiding lashon hara (harmful speech about others), protecting shidduchim, preserving family honor, or handling matters internally."
+   },
+   "26": {
+    "technique": "Financial Control",
+    "source": "Financial control can be structural: kosher food, large families, yeshiva tuition, modest clothing, neighborhood costs, wedding expectations, charity obligations, and dependence on community employment networks."
+   },
+   "27": {
+    "technique": "Manufactured Crisis",
+    "source": "Insular communities may manufacture crisis around internet access, secular education, immodesty, dating, leaving observance, and outside influence."
+   },
+   "28": {
+    "technique": "Discard",
+    "source": "Someone who goes off the derech may lose family warmth, school access, marriage prospects, employment networks, housing help, and community reputation."
+   },
+   "30": {
+    "technique": "Plausible Deniability",
+    "source": "Communities may say members freely choose observance, while children are raised with limited outside exposure, restricted education, controlled media, and intense marriage/social dependency."
+   }
+  },
+  "scientology": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "The hook often begins with a free personality test, stress test, introductory course, or friendly claim: “We can help you handle ruin, anxiety, relationships, career, trauma.”"
+   },
+   "2": {
+    "technique": "Weaponized Generosity",
+    "source": "Scientology often begins with free or low-cost entry points: personality tests, stress tests, introductory lectures, basic courses, or promises to help with anxiety, relationships, work, or trauma."
+   },
+   "3": {
+    "technique": "Future Faking",
+    "source": "Scientology future-fakes through “Clear,” Operating Thetan levels, total freedom, spiritual power, heightened ability, removal of engrams (painful memories that Scientology says the reactive mind stores), and escape from the reactive mind (the part of the mind Scientology says drives irrational behavior)."
+   },
+   "4": {
+    "technique": "Hoovering",
+    "source": "A person pulling away from Scientology may receive calls, letters, visits, recovery efforts, ethics handling, or pressure from registrars and staff."
+   },
+   "5": {
+    "technique": "Devaluation",
+    "source": "Scientology devalues through its diagnosis of the reactive mind, engrams, aberration (departure from rational behavior), out-ethics, suppressive influence, and spiritual incompetence without the tech."
+   },
+   "6": {
+    "technique": "Gaslighting",
+    "source": "A person says auditing harmed them, and the answer is, “You have missed withholds,” “You are out-ethics,” or “You are connected to suppressive persons.”"
+   },
+   "7": {
+    "technique": "Double Bind",
+    "source": "Scientologists are taught 'what is true for you is what you have observed yourself' — inside a system where observing the wrong thing (critical media, ex-member accounts) is a suppressive act."
+   },
+   "8": {
+    "technique": "Intermittent Reinforcement",
+    "source": "The Bridge to Total Freedom is a purchase-metered reinforcement ladder: auditing wins are euphoric, real, and temporary; the next release is always one level and one invoice away."
+   },
+   "9": {
+    "technique": "Moving the Goalposts",
+    "source": "A person begins with a personality test or introductory course. Then they need auditing, more courses, ethics handling, Clear, OT levels, more auditing, more money, more compliance."
+   },
+   "10": {
+    "technique": "Strategic Ambiguity",
+    "source": "Scientology presents itself as religion, self-help, applied philosophy, spiritual technology, or persecuted minority depending on context."
+   },
+   "11": {
+    "technique": "Projection",
+    "source": "Scientology may accuse critics of being suppressive, criminal, degraded, or insane while using pressure, disconnection, intimidation, and attack tactics."
+   },
+   "12": {
+    "technique": "DARVO",
+    "source": "A person reports harm from auditing, financial pressure, disconnection, ethics handling, or institutional intimidation. Scientology denies abuse and says the person had hidden crimes, missed withholds, or suppressive connections."
+   },
+   "13": {
+    "technique": "Normalization",
+    "source": "Scientology normalizes increasingly invasive auditing, ethics handling, confessional files, knowledge reports, disconnection, escalating payments, and internal discipline."
+   },
+   "14": {
+    "technique": "Isolation",
+    "source": "Scientology isolates through disconnection, suppressive person labels, ethics handling, auditing, knowledge reports, internal jargon, course schedules, and suspicion of psychiatry, critics, journalists, ex-members, and “entheta.”"
+   },
+   "15": {
+    "technique": "Triangulation",
+    "source": "Scientology triangulates through auditors, ethics officers, registrars, course supervisors, knowledge reports, disconnection policies, and suppressive person labels."
+   },
+   "16": {
+    "technique": "Flying Monkeys",
+    "source": "Scientology can use auditors, ethics officers, registrars, course supervisors, fellow members, family, knowledge reports, and disconnection pressure."
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "Critics may be labeled suppressive persons, criminals, degraded beings, liars, insane, bitter, or connected to enemies."
+   },
+   "18": {
+    "technique": "Silent Treatment",
+    "source": "A member raises concerns and is routed into ethics, auditing, word clearing, or investigation of suppressive influence instead of receiving an answer."
+   },
+   "19": {
+    "technique": "Manufactured Consent",
+    "source": "A person “chooses” courses after a personality test identifies their ruin and Scientology presents itself as the solution."
+   },
+   "20": {
+    "technique": "Trauma Bonding",
+    "source": "Scientology identifies a person’s “ruin,” intensifies focus on it, then offers auditing, courses, ethics handling, and higher levels as relief."
+   },
+   "21": {
+    "technique": "Learned Helplessness",
+    "source": "A member objects and is routed into ethics, auditing, word clearing, or investigation of suppressive influence."
+   },
+   "22": {
+    "technique": "Benevolent Control",
+    "source": "Auditing, ethics handling, disconnection, knowledge reports, and expensive courses are framed as tools for spiritual freedom."
+   },
+   "23": {
+    "technique": "Infantilization",
+    "source": "Members are told their reactive mind, engrams, withholds, and suppressive influences make them unreliable without the tech."
+   },
+   "24": {
+    "technique": "Identity Erosion",
+    "source": "Scientology redefines the person through reactive mind, engrams, overts, withholds, conditions, auditing levels, Clear, OT, suppressive persons, and the Bridge."
+   },
+   "25": {
+    "technique": "Spiritual Bypassing",
+    "source": "Distress is bypassed as reactive mind, engrams, overts, withholds, PTSness, or suppressive influence."
+   },
+   "26": {
+    "technique": "Financial Control",
+    "source": "Scientology may charge escalating fees for auditing, courses, materials, advancement, ethics handling, and Bridge progress."
+   },
+   "27": {
+    "technique": "Manufactured Crisis",
+    "source": "Scientology may manufacture crisis by identifying a person’s “ruin” and presenting it as urgent."
+   },
+   "29": {
+    "technique": "Replacement",
+    "source": "A member who leaves is labeled suppressive and replaced by newer recruits, paying students, or loyal staff."
+   },
+   "30": {
+    "technique": "Plausible Deniability",
+    "source": "Scientology can present itself as religion, self-help, applied philosophy, spiritual technology, or humanitarian work depending on context."
+   }
+  },
+  "sikhism": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "Newcomers can be deeply moved by langar, the free communal meal, where everyone sits together regardless of status."
+   },
+   "2": {
+    "technique": "Weaponized Generosity",
+    "source": "Sikh communities offer langar, hospitality, seva, music, community defense, identity, and practical support through the gurdwara."
+   },
+   "3": {
+    "technique": "Future Faking",
+    "source": "Sikhism offers union with God, liberation from ego, escape from haumai (ego), divine remembrance, dignity through seva, and belonging to the Guru’s path."
+   },
+   "4": {
+    "technique": "Hoovering",
+    "source": "A Sikh distancing from gurdwara life, visible identity, or family expectations may be told they are forgetting the Gurus, dishonoring the panth, or abandoning the sacrifices of Sikh history."
+   },
+   "5": {
+    "technique": "Devaluation",
+    "source": "Sikhism can devalue through community honor, visible identity, family obligation, and the expectation to live up to the sacrifices of the Gurus and the panth."
+   },
+   "6": {
+    "technique": "Gaslighting",
+    "source": "A Sikh who questions visible identity, family expectations, gurdwara politics, or communal pressure may be told they are ashamed of who they are."
+   },
+   "7": {
+    "technique": "Double Bind",
+    "source": "Sikhs are taught sovereign conscience — the Guru made every Sikh a sovereign — yet questioning gurdwara committees or jathedars is framed as attacking the Panth itself."
+   },
+   "8": {
+    "technique": "Intermittent Reinforcement",
+    "source": "Sewa (service) in the gurdwara is its own reward — usually invisible, occasionally spotlit by committee honor or community praise, and the unpredictability of recognition quietly converts devotion into competition."
+   },
+   "9": {
+    "technique": "Moving the Goalposts",
+    "source": "A Sikh participates in gurdwara life. Then expectations expand: keep hair, wear visible identity markers, marry appropriately, raise Sikh children, do seva, preserve Punjabi or panthic (of the Sikh community) identity."
+   },
+   "10": {
+    "technique": "Strategic Ambiguity",
+    "source": "Visible identity may be described as personal devotion, communal duty, historical memory, family honor, or religious requirement depending on pressure."
+   },
+   "11": {
+    "technique": "Projection",
+    "source": "A Sikh who cuts hair or changes visible identity may be accused of shame or weakness while the community projects its fear of loss onto the person’s body."
+   },
+   "12": {
+    "technique": "DARVO",
+    "source": "A person names gurdwara corruption, family pressure, gender control, caste-like discrimination, or coercion around identity markers. The response may be denial: “That is not Sikhism.”"
+   },
+   "13": {
+    "technique": "Normalization",
+    "source": "Visible identity, family honor, gurdwara attendance, seva, language, marriage expectations, and communal reputation can become normalized as inseparable from being Sikh."
+   },
+   "14": {
+    "technique": "Isolation",
+    "source": "Sikh isolation can occur through family honor, gurdwara community, visible identity, marriage expectations, Punjabi cultural networks, and pressure to preserve the panth."
+   },
+   "15": {
+    "technique": "Triangulation",
+    "source": "Sikh triangulation can run through parents, gurdwara, sangat, panth, Gurus, martyrs, family honor, hair, turban, Punjabi identity, and community memory."
+   },
+   "16": {
+    "technique": "Flying Monkeys",
+    "source": "A Sikh who cuts hair, changes appearance, marries outside expectations, or stops attending gurdwara may be pressured by parents, relatives, gurdwara elders, community friends, and family networks."
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "A Sikh who cuts hair, marries outside expectations, or criticizes gurdwara leadership may be smeared as ashamed, weak, assimilated, disrespectful, or dishonoring the panth."
+   },
+   "18": {
+    "technique": "Silent Treatment",
+    "source": "A person raises gurdwara corruption, caste-like discrimination, family coercion, or gender pressure and is told not to create division in the sangat."
+   },
+   "19": {
+    "technique": "Manufactured Consent",
+    "source": "A person “chooses” visible identity while family honor, community pride, martyr memory, and belonging all attach to hair, turban, and appearance."
+   },
+   "20": {
+    "technique": "Trauma Bonding",
+    "source": "The community may bond people through pride, sacrifice, martyr memory, family honor, and visible identity."
+   },
+   "21": {
+    "technique": "Learned Helplessness",
+    "source": "A person tries to change appearance, marry freely, or question gurdwara politics and faces family shame, community gossip, and accusations of dishonoring the panth."
+   },
+   "22": {
+    "technique": "Benevolent Control",
+    "source": "Family and community may control hair, marriage, gurdwara participation, seva, and identity under the language of dignity and remembrance."
+   },
+   "23": {
+    "technique": "Infantilization",
+    "source": "Adults may be treated as immature if they cut hair, marry outside expectation, question gurdwara politics, or loosen community participation."
+   },
+   "24": {
+    "technique": "Identity Erosion",
+    "source": "Identity may be shaped through hair, turban, kirtan, gurdwara, seva, Punjabi culture, family honor, martyr memory, and panthic belonging."
+   },
+   "25": {
+    "technique": "Spiritual Bypassing",
+    "source": "Family or community harm may be bypassed through honor, sacrifice, seva, and remembrance of the Gurus."
+   },
+   "26": {
+    "technique": "Financial Control",
+    "source": "Sikh financial control may appear through gurdwara donations, community fundraising, wedding expenses, family business networks, charity expectations, and seva labor."
+   },
+   "27": {
+    "technique": "Manufactured Crisis",
+    "source": "Sikh communities may manufacture crisis around hair, turban, intermarriage, language loss, gurdwara conflict, family honor, and assimilation."
+   },
+   "28": {
+    "technique": "Discard",
+    "source": "A Sikh who cuts hair, marries outside expectation, stops attending gurdwara, or criticizes leadership may be treated as ashamed, assimilated, or dishonoring the panth."
+   },
+   "29": {
+    "technique": "Replacement",
+    "source": "A person who cuts hair or leaves gurdwara life is compared with someone who preserves visible identity."
+   },
+   "30": {
+    "technique": "Plausible Deniability",
+    "source": "Community pressure around hair, turban, marriage, gurdwara attendance, language, and children may be described as pride and remembrance, not control."
+   }
+  },
+  "tibetan-buddhism": {
+   "1": {
+    "technique": "Love Bombing",
+    "source": "A seeker may be captivated by colorful ritual, mantras, initiations, robes, lineage, reincarnated masters, and the idea of receiving secret teachings."
+   },
+   "2": {
+    "technique": "Weaponized Generosity",
+    "source": "Tibetan Buddhist communities may offer blessings, empowerments, mantras, ceremonies, retreats, teacher access, lineage identity, and the feeling of entering an ancient esoteric path."
+   },
+   "3": {
+    "technique": "Future Faking",
+    "source": "Tibetan Buddhism offers an enormous future architecture: enlightenment, bodhisattva vows, tantric realization, pure lands, reincarnation, bardo (the state between death and rebirth) navigation, merit accumulation, karmic purification, and guru connection across lifetimes."
+   },
+   "4": {
+    "technique": "Hoovering",
+    "source": "A student leaving a Tibetan Buddhist teacher may be told they are breaking samaya, damaging their karma, severing connection with the lama, or jeopardizing future lifetimes."
+   },
+   "5": {
+    "technique": "Devaluation",
+    "source": "Tibetan Buddhism can devalue through guru devotion, karmic hierarchy, tantric secrecy, and the idea that the student’s ordinary perception is fundamentally deluded."
+   },
+   "6": {
+    "technique": "Gaslighting",
+    "source": "A student says a lama exploited them, and senior students say, “You are misperceiving enlightened activity.”"
+   },
+   "7": {
+    "technique": "Double Bind",
+    "source": "Tantric students take samaya vows binding them to the guru — often before knowing what the guru will later ask. Break the vow: vajra hell. Keep it: obedience without limit. Ask to see the terms first: insufficient devotion."
+   },
+   "8": {
+    "technique": "Intermittent Reinforcement",
+    "source": "Empowerments, transmissions, and 'higher' teachings arrive on the lama's timetable — sometimes bestowed, sometimes withheld as 'not yet ripe' — and the withholding raises their price in devotion and donation."
+   },
+   "9": {
+    "technique": "Moving the Goalposts",
+    "source": "Students begin with meditation or teachings, then move into refuge, vows, empowerments, guru devotion, samaya, preliminary practices, retreats, offerings, secrecy, and unquestioned loyalty."
+   },
+   "10": {
+    "technique": "Strategic Ambiguity",
+    "source": "“Skillful means” can describe compassionate teaching or excuse cruelty, secrecy, sexual misconduct, humiliation, and financial pressure."
+   },
+   "11": {
+    "technique": "Projection",
+    "source": "A lama or senior student may accuse critics of broken samaya, ego, impure perception, or karmic obscuration while the teacher’s misconduct is shielded by tantric status."
+   },
+   "12": {
+    "technique": "DARVO",
+    "source": "A student reports sexual, financial, psychological, or spiritual abuse by a lama. The response may deny wrongdoing by calling it tantric method, wrathful compassion, purification, or the student’s impure perception."
+   },
+   "13": {
+    "technique": "Normalization",
+    "source": "Students are gradually normalized into guru devotion: first respect, then reverence, then vows, then samaya, then pure perception, then fear of karmic damage if they question."
+   },
+   "14": {
+    "technique": "Isolation",
+    "source": "Tibetan Buddhism can isolate through guru devotion, samaya, secrecy, lineage loyalty, retreat commitments, senior-student hierarchies, and fear of karmic consequences."
+   },
+   "15": {
+    "technique": "Triangulation",
+    "source": "Tibetan Buddhism triangulates through lama, lineage, samaya, senior students, protectors, tantric vows, reincarnation narratives, and karmic consequences."
+   },
+   "16": {
+    "technique": "Flying Monkeys",
+    "source": "A student questioning a lama may be approached by senior disciples warning about samaya, karmic consequences, impure perception, and harm to the Dharma."
+   },
+   "17": {
+    "technique": "Smear Campaign",
+    "source": "Critics of a lama may be smeared as samaya-breakers, impure, ego-driven, karmically obscured, faithless, or harmful to the lineage."
+   },
+   "18": {
+    "technique": "Silent Treatment",
+    "source": "A student questions a lama’s misconduct and is told not to break samaya, not to damage the Dharma, and not to misunderstand tantric methods."
+   },
+   "19": {
+    "technique": "Manufactured Consent",
+    "source": "Students consent to vows, empowerments, secrecy, and guru devotion before fully understanding samaya, power imbalance, or future fear of karmic consequences."
+   },
+   "20": {
+    "technique": "Trauma Bonding",
+    "source": "The lama is idealized as a rare karmic connection, then may frighten students with samaya, karma, rebirth, or loss of the path."
+   },
+   "21": {
+    "technique": "Learned Helplessness",
+    "source": "A student cannot challenge the lama without being warned about samaya, karma, impure perception, or future-life consequences."
+   },
+   "22": {
+    "technique": "Benevolent Control",
+    "source": "Guru devotion is framed as the highest form of spiritual care: the lama sees what the student cannot."
+   },
+   "23": {
+    "technique": "Infantilization",
+    "source": "The lama may be treated as spiritually superior in a way that makes adult students childlike before him."
+   },
+   "24": {
+    "technique": "Identity Erosion",
+    "source": "Student identity can be absorbed into guru devotion, lineage, samaya, vows, empowerment, pure perception, and karmic connection."
+   },
+   "25": {
+    "technique": "Spiritual Bypassing",
+    "source": "Abuse by a lama may be bypassed as wrathful compassion, purification, skillful means, or ego-cutting."
+   },
+   "26": {
+    "technique": "Financial Control",
+    "source": "Tibetan Buddhist students may pay for empowerments, retreats, teachings, translations, ritual objects, teacher support, monastery sponsorships, and offerings."
+   },
+   "27": {
+    "technique": "Manufactured Crisis",
+    "source": "Tibetan Buddhist groups may manufacture crisis through samaya fear, karmic consequences, damage to the lineage, harm to the Dharma, and future-life danger."
+   },
+   "28": {
+    "technique": "Discard",
+    "source": "A student who questions the lama may be treated as a samaya-breaker, spiritually dangerous, impure, or karmically damaged."
+   },
+   "30": {
+    "technique": "Plausible Deniability",
+    "source": "A lama’s authority may be absolute in practice but deniable in theory: “Students choose devotion freely.”"
+   }
+  }
+ }
+}

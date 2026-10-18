@@ -85,20 +85,42 @@ finish the book") is missing from the one artifact meant to be kept.
 apply without conflict (calibration/judgment content doesn't call for an anti-progress
 stance the way Loop's does, but confirm, don't assume).
 
-## faith — The Coercive Control Codex **[confirmed]**
+## faith — The Sacred Divide **[confirmed]**
 
-25–27 traditions × tactics matrix, evidence-graded. **Confirmed in the
-book's own text:** *"It will not measure you. No analytics, no tracking,
-no storage, no external requests."* Same self-contained ethos as Loop, even
-more explicit. A related but distinct edition (`library/_undeployed/faith-offline-edition.html`,
-5/8 passes done) adds: *"no engagement mechanics"* full stop, and
-deliberately carries **no shared site chrome at all** (hand-to-person,
-offline, sometimes read by people monitored at home).
+**Name: always "The Sacred Divide"** (user instruction, 2026-09-27). Never
+"The Coercive Control Codex" / "Coercive Control Index" in memory, docs, or
+new content. Lowercase "codex" inside the book's own prose and volume names
+(Children's Codex, Counter-Codex) is left as written.
 
-**Design status (live page):** still has the leaked HOUSE-tab comment
-(fix ready, unshipped). A full redesign exists (`library/_undeployed/sacred-divide-faith-redesign.html`,
-"The Sacred Divide") — parchment + dark theme, three-register tactic
-entries — not deployed, your call pending ("let me look first").
+**What's live (verified by bytes 2026-09-27):** thenobledivide = /faith, the
+faith-index lineage, v3. **27 traditions × 18 acts** (486 pages), 30
+mechanisms (810 graded cells), five districts (Lens · Traditions · 8
+Volumes · 12 Instruments · Your Track with 6 tracks). Islam is three
+entries: Islam (umbrella), Sunni Islam, Shia Islam — no Sufi, Ahmadi or
+Bohra section (recommended additions, see
+`docs/SACRED-DIVIDE-AUDIT-2026-09-27.md`). The book's own text promises *"no
+analytics, no tracking, no storage, no external requests"* — the live file
+nonetheless carries a Cloudflare beacon (the v4 candidate keeps the visit counter
+and rewrites that copy to say so plainly).
+
+**Pending:** the deploy candidate is
+`library/_undeployed/sacred-divide-v4-factchecked.html`, built in two stages, neither deployed:
+`scripts/sacred-divide-v4.py` (live file → `sacred-divide-v4-candidate.html`: rename, counts, Islam
+pass) then `scripts/sacred-divide-factcheck.py` (→ `-factchecked.html`: 182 edits from fact-check
+pass 1, sources in `content/sacred-divide/sources/`). Still v4 — v4 has never shipped.
+`library/faith/index.html` is the OLD non-live lineage until the user
+approves the swap. A separate full redesign
+(`library/_undeployed/sacred-divide-faith-redesign.html`, parchment + dark,
+three-register tactic entries) is still undeployed, user's call.
+
+**Design stance, updated by the owner (2026-09-28):** the no-outside-dependencies rule is not
+crucial for this project, and "polished, small-detail luxury" is wanted — *with the information kept
+the focal point*. Read that as: refined material details that serve the evidence (dossier layout for
+the glance, the scorecard as stamped seals, docket-style cases, contact cards with tap-to-call, source
+pop-ups, outlined section numerals, hairline gilt rules with a diamond ornament, faint paper grain,
+pull-questions), not decoration for its own sake. Still no progress bar, no tracking, no storage.
+The owner accepted the advice to keep building on the static generator rather than a React/Vite app,
+and to skip the filesystem/puppeteer MCP servers (redundant with native file access and Playwright).
 
 **Reference adaptation:**
 - Stripe Press — ⚠️ a cover/title moment is fine in spirit, but keep it
@@ -110,6 +132,10 @@ entries — not deployed, your call pending ("let me look first").
 - Wait But Why — ✅ but the "resources hub" idea fits especially well here
   given the gambling/crisis-support callout pattern already established —
   a calm, findable resources section matters more than usual.
+
+**PDF edition (2026-09-27):** every religion has all 27 sections filled and sourced (918/918); a printable PDF per religion builds from `content/sacred-divide/religions/<id>.md` (`scripts/sacred-divide-pdf.py --all`), with a manifest for the site's Download button. Not yet deployed.
+
+**Expanded edition + redesign (2026-09-28, undeployed):** every religion page now carries reader narration: a "Before you read" note and a "Why this matters to you" caption on each of the 27 sections, and the 6 hard questions expanded (why it's asked, an example already on the page). Source: `content/sacred-divide/narration/<id>.md` + `scripts/sacred_divide_narration.py`. Same text in the expanded PDFs (`scripts/sacred-divide-pdf-expanded.py`) and in the one-page-scroll redesign (`scripts/sacred-divide-site.py` → `library/_undeployed/sacred-divide-redesign/`: family home, one scroll page per tradition, section jump menu, family arrows that keep your section, PDF downloads at top). The redesign honours this book's stance: no progress bar, no storage, no external requests.
 
 ## children — Playground Protectors **[from review doc]**
 

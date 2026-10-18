@@ -1,0 +1,16 @@
+# Expansion proposals — Protestant / Evangelical Christianity, awaiting approval (nothing below has been written into the text)
+
+Each proposal names the reader need, the section that fails it, the proposed source and the evidence grade it would carry.
+
+| # | Section | Reader need | Proposed addition | Source | Grade / receipt |
+|---|---|---|---|---|---|
+| E1 | §20, §21 | The survivors' database is mentioned but not named | "In August 2026 survivors led by Chellee Taylor launched ProtestantAccountability.org, a searchable database of more than 2,700 people accused of committing or covering up church abuse." | *Christianity Today* (Sept 2026) — already source [11] | INVESTIGATIVE REPORT · Documented |
+| E2 | §11, §14, §15, §12 t18 | The NDA claim behind the thesis question has no numbered source | "NDAs have featured in scandals at Mars Hill, Harvest Bible Chapel, Hillsong, Willow Creek, Acts 29 and RZIM." | RNS (8 Sept 2022); MinistryWatch, "Thou shalt not disclose" | INVESTIGATIVE REPORT · Documented |
+| E3 | §19 | Willow Creek is named as a collapse in §5, §10 and §14 but has no case entry | A case card on Bill Hybels' 2018 resignation and the Independent Advisory Group's 2019 finding that the allegations were credible. | Independent Advisory Group report (Feb 2019); *Christianity Today* | INVESTIGATIVE REPORT · Documented |
+| E4 | §5, §19 | The SBC's abuse record is dated from Guidepost (2022), omitting the 2019 exposure that forced it | "In February 2019 the *Houston Chronicle* and *San Antonio Express-News* ('Abuse of Faith') documented about 380 Southern Baptist leaders and volunteers accused of sexual misconduct since 1998." | Houston Chronicle (Feb 2019) | INVESTIGATIVE REPORT · Documented |
+| E5 | §12 t3, t26 | Two *(sourced)* entries cite "recorded sermons" with no named sermon | Name one dated, published sermon or broadcast for seed-faith and one for tithe-as-curse teaching. | Ministry broadcast archives | LEADERSHIP STATEMENT · Taught |
+| E6 | §8, §22 UK | Excepted churches are missing from the UK picture | "Churches of several denominations with income of £100,000 or less are excepted from registering until 31 March 2031." | Charity Commission, *Excepted charities* | OFFICIAL POLICY · Codified |
+| E7 | §1 Size, §7 | The size row needs a sourced split | "Pew counts 801 million Protestants (2011); 584 million Pentecostal and charismatic Christians across all traditions." | Pew (2011) — already source [19] | ACADEMIC SOURCE |
+| E8 | §4 | Healthy practice names no institution that meets the "published salaries" standard | Name ECFA-accredited ministries or churches that publish pay, with the accreditor's standard. | ECFA standards; ministry disclosures | OFFICIAL POLICY |
+| E9 | §25 | Every help line is US or UK, though the regional cards include Australia | At least one verified Australian line for religious-abuse survivors, or a line pointing to state child-protection services. | Australian agency sites | — |
+| E10 | §19 | No case from the Global South, where §4 and §7 place the tradition's growth | A documented case (court or regulator finding) from Nigeria, Brazil or South Korea involving a founder-led church's finances. | Court or regulator records | COURT RECORD |
