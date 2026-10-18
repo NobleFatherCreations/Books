@@ -163,10 +163,18 @@ the audience, not a manipulation pattern to avoid.
 ## wook — The Festie Codex **[from review doc + this repo's own file]**
 
 Festival & field harm reduction. Per review doc: "zine-style hard-shadow
-buttons." **Unresolved discrepancy** (see `MEMORY.md`): this repo's own
-tracked `festie-codex-full.html` has a different title than the review
-package's `library/wook/index.html` — diff before doing
-any design work here.
+buttons." The single source is `library/wook/index.html` — no other copy
+tracked in this repo; the old "unresolved discrepancy" note above is
+stale, resolved by v4 onward (see `MEMORY.md`'s 2026-09 entries).
+
+**Content status (2026-09-16): v12, live, 33 chapters.** Expanded from 26 chapters to 33 on 2026-09-16 (see `MEMORY.md` and
+`content/wook-audits/wook-expansion-plan.md`); before that, a full
+thirteen-pass chapter-by-chapter and appendix-by-appendix review was
+completed — see `content/wook-audits/wook-full-review-plan.md` and
+`wook-full-review-ledger.md` for the process and findings, `MEMORY.md`'s
+2026-09-15 entry for the summary. Two mechanical checkers
+(`scripts/wook-proofread.py`, `scripts/wook-continuity-check.py`) both
+return 0 findings against the live book.
 
 **Reference adaptation (tentative, pending the diff above):**
 - Stripe Press — ⚠️ likely wrong fit — "zine" aesthetic is intentionally

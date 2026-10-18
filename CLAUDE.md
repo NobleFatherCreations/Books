@@ -67,6 +67,12 @@ Every book is: no dependencies, no external requests, no storage, fully
 offline-capable — including THE HOUSE nav tab. Never add a CDN `<script>` or
 `<link>` tag. Always inline:
 
+**The ONE sanctioned exception** (author-approved 2026-09-17, permanent): the
+Cloudflare Web Analytics beacon (`static.cloudflareinsights.com/beacon.min.js`)
+is present on all 485 deployed pages with one shared token and is intentional.
+It stays. Don't remove it, don't flag it in an audit. Nothing else gets added
+to that list without an explicit yes.
+
 **This applies to images too, and it is a routing requirement, not just a
 purity one.** Every project is proxied onto `noblefathercreations.com` at a
 clean path, and a *relative* reference resolves against whatever the address

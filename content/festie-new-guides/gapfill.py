@@ -1,0 +1,103 @@
+# -*- coding: utf-8 -*-
+"""Four scenarios closing the outline-vs-delivery gaps festie-check.py found.
+
+Each of these four guides promises a section in its own `outline` that no
+scenario ever delivered -- so the guide's contents page advertised a topic
+the guide did not contain. The outline's own description of the missing
+section is the brief each of these was written to.
+"""
+
+FILL = {
+ "rave": {
+  "section": "CONTROL",
+  "hook": "LET ME SHOW YOU HOW THIS WORKS",
+  "archetype": "The Veteran Guide / Experience As A Leash",
+  "clinical": "Dependency Cultivation / Asymmetric Knowledge Control",
+  "who": "Been coming for nine years. Knows the site, the shortcuts, the sound guy, the good stage at 2am. Attached himself at the gate and has been indispensable ever since, which is not the same as being kind.",
+  "scene": "He has been right about everything. The queue, the water point, the set you'd have missed. He is genuinely good company and the weekend is better for him. On Saturday your friends want to go to the far stage and he says they'll get lost, that they don't know this place, that you should stay with him — and you notice you are about to agree with somebody you met on Thursday over people you have known for years.",
+  "tells": [
+   "Is the only route to information, and keeps it that way",
+   "Corrects or subtly mocks your own crew's plans",
+   "“You don't know this place yet” used to close down your decisions",
+   "Positions himself between you and the people you came with",
+   "Generous with access, but the access always runs through him",
+   "Reacts to you making independent plans as though it were a mistake he must fix",
+  ],
+  "happening": "Every first-timer needs a guide and most veterans are exactly that — the scene runs on people cheerfully handing down what they know. The pattern to watch for is not helpfulness, it is exclusivity: a guide who wants you competent teaches you the site, and a guide who wants you dependent stays the site. Asymmetric knowledge is the lever, and at your first festival the asymmetry is total, which is why this is a first-timer's chapter. The test is direction of travel: by Sunday, do you know more, or do you need him more?",
+  "check": "R.A.V.E. — “V” CHECK: “Could I get back to my own camp, right now, without him?” If the answer is no on day three, that is not experience. That is a leash.",
+  "darkTitle": "Competence Is What A Real Guide Gives You",
+  "dark": "The specific thing to watch is what he does with your own people. A veteran who separates a first-timer from the friends they arrived with — gently, reasonably, always with a practical justification — has done the single most consequential thing in this entire book, because every other protection you have is made of those people. It rarely looks like an instruction. It looks like a better plan, offered by someone who knows the site, at a moment when you cannot evaluate it. And it is worth knowing that the genuinely good veterans do the exact opposite: they teach you the map and then send you off with your mates, because the whole point was for you to be able to do this without them.",
+  "move": "Learn the site yourself on day one — walk it, pin your camp, find medical and the water points. Take the help and then go use it with your own crew. If someone objects to you being independent, that objection is the whole finding.",
+  "say": "Cheers, that's really useful — I'm going to go find the others and we'll try the far stage. Catch you later.",
+  "truth": "A real guide makes you not need them by Sunday. Watch which direction the weekend is travelling in.",
+ },
+ "pride": {
+  "section": "CONTROL",
+  "hook": "EVERYONE KNOWS EVERYONE",
+  "archetype": "The Small Scene / Visibility And Outing As Leverage",
+  "clinical": "Coercive Control in Closed Communities / Outing as Threat",
+  "who": "Someone inside the same small world you are — an ex, a former friend, a scene figure — who understands exactly how few degrees of separation there are and how much of your life runs through this community.",
+  "scene": "It ended badly and you are both at this festival and will be at the next four. He is being pleasant in public. What he says privately is that he would hate for people to get the wrong idea, and that he has been talking to people, and that your work knows you come to these, don't they — and none of it is a threat you could write down.",
+  "tells": [
+   "Knows precisely who you are out to and who you are not",
+   "Mentions your job, your family, or your other communities in passing",
+   "Frames the threat as concern about what others might think",
+   "Has been narrating a version of you to mutual friends already",
+   "Leaving the community entirely is the only real escape, and you both know it",
+   "Nothing said is explicit enough to report, which is the craft of it",
+  ],
+  "happening": "In small or closed communities the ordinary cost of leaving a relationship is multiplied, because the relationship and the community are the same network — and for LGBTQ+ people that network is frequently the only place where they are fully out. Threatened outing is recognized as a form of coercive control precisely because it is so effective: it requires no violence, it is deniable, and the consequences fall entirely on the target, potentially at work, at home, and with family. The festival version adds a calendar — you will both be at the same events all summer, and he knows that.",
+  "check": "P.R.I.D.E. — “I” CHECK: “Is somebody using what they know about me to shape what I do?” That is not a private matter between exes. That is leverage.",
+  "darkTitle": "Disclosure On Your Own Terms Ends It",
+  "dark": "Outing as a threat has exactly one power source, which is that the information is his to release. The counter is unfair and it works: take the timing back. Telling two or three people yourself, on your own terms and in your own words, converts the thing he was holding into a thing that is simply known — and the leverage evaporates in the same moment. That is a genuinely hard thing to be told and it is not always safe or possible; where it is not, the alternative is a written record and community leads who know, because the second protection is witnesses. Tell a camp lead, a promoter, or an organizer now rather than after. You are not overreacting — coercive control is built out of exactly these unprovable sentences, and communities that are told early handle it far better than ones told afterwards.",
+  "move": "Write down what was said, dated, and send it to somebody off-site the same day. Tell one or two people in the community yourself so the information stops being his. Name it to a promoter or camp lead before the next event, not after.",
+  "say": "Just so you know, because I'd rather you heard it from me — [the thing]. And I want to flag that Dane's been making comments about telling people; I'm putting it on record now.",
+  "truth": "Something only has power over you while one person controls when it comes out. Take the timing back and there is nothing left to hold.",
+ },
+ "care": {
+  "section": "TOOLS",
+  "hook": "THE SHIFT KIT",
+  "archetype": "What You Bring, What You Set, What You Do After",
+  "clinical": "Practitioner Self-Protection / Boundary Infrastructure",
+  "who": "For everyone working a harm-reduction, welfare or sober-support shift — paid, volunteer, or the person who just ended up doing it because they were the one who was up.",
+  "scene": "You will spend this shift giving people your full attention at the worst moment of their weekend. Everything on this page is what makes that sustainable past year two, and it is all arranged before the shift rather than during it, because during it you will be entirely focused on somebody else.",
+  "tells": [
+   "Your own water, food and a break time somebody else knows about",
+   "A named shift partner — nobody works a tent or a walkout alone",
+   "The escalation line: who you call, for what, and their actual number",
+   "Your personal scope, decided sober: what you do and what you hand on",
+   "No lone walkouts to a tent or a vehicle, ever, regardless of the request",
+   "A debrief booked for after — a named person and a time, not a vague intention",
+  ],
+  "happening": "Harm-reduction workers occupy a role that is simultaneously high-exposure and low-protection: physical proximity to impaired people, emotional weight, long hours, and frequently no supervision, no insurance and no handover. The two failure modes are burnout and boundary drift, and they feed each other — a depleted worker is worse at holding a line, and a worker who has been holding no lines depletes faster. Everything here is structural rather than attitudinal, because attitude is exactly what goes first at hour nine of a shift.",
+  "check": "C.A.R.E. — “E” CHECK: “Do I have a shift partner, a break time, and a debrief booked?” Three answers before you start, or you are improvising your own protection while looking after somebody else.",
+  "darkTitle": "You Are A Target In This Role, Too",
+  "dark": "Worth saying plainly because the role's framing makes it easy to miss: being the calm helpful person in the welfare tent at four in the morning makes you visible to exactly the people this book is about. The care role attracts them — it is reliably staffed by empathetic people, it involves private conversations, it happens at night, and it comes with a strong professional instinct not to judge anyone. Participants who target the care role are a documented pattern, not a paranoid one, and the lone walkout is where it happens. Two people, always, for every escort and every tent visit. It is not distrust of the person you are helping. It is the same reason ambulance crews are crewed.",
+  "move": "Set the three before the shift — partner, break, debrief — and write your personal scope down while you are sober. Never do a walkout alone. Take the break even when it feels indulgent, especially then.",
+  "say": "I'm not doing that walkout on my own — grab Sam and we'll both go. — I'm off at four and I'm debriefing with Mara at ten tomorrow, it's in the diary.",
+  "truth": "You cannot hold a tent full of people from an empty tank. The kit is not self-indulgence, it is the equipment.",
+ },
+ "event": {
+  "section": "TOOLS",
+  "hook": "THE PROMOTER'S ACTUAL CHECKLIST",
+  "archetype": "The Documents And Structures That Make An Event Safe",
+  "clinical": "Operational Infrastructure / Duty of Care Implementation",
+  "who": "For anyone putting on an event, from a four-hundred-capacity warehouse to a field with three stages. This page is the difference between believing your event is safe and being able to show it.",
+  "scene": "Everything here is arranged in the planning months, when it is cheap and nobody is under pressure. None of it can be improvised on the Saturday, which is when you will find out whether you did it — and the finding out is always somebody's worst night.",
+  "tells": [
+   "A written code of conduct, published, with named consequences",
+   "A reporting route that does not run through the person most likely to be reported",
+   "Two named safeguarding leads, on the site map, contactable by radio and in person",
+   "Written contracts with artists, vendors and crew — rates, terms, and payment dates",
+   "Staff and volunteer briefing that covers reporting, not just wristbands and bins",
+   "An incident log kept properly, and read afterwards rather than filed",
+  ],
+  "happening": "The gap between an event that says it takes safety seriously and one that does is almost entirely paperwork done in advance — and the single most load-bearing item is a reporting route that bypasses seniority. Most festival safeguarding failures are not the absence of a policy; they are a report that went to somebody with a relationship to the person being reported. Naming two independent leads and publishing how to reach them is cheap, and it is the thing that determines whether you find out about a problem in year one or in year four when it reaches social media.",
+  "check": "E.V.E.N.T. — “E” CHECK: “Can somebody report a senior person at my event without that report reaching them first?” If not, you do not have a reporting process, you have a filter.",
+  "darkTitle": "You Will Be Judged On The First One",
+  "dark": "Every event that has come apart publicly over this has come apart the same way: a first report that was handled informally, by someone close to the subject, with no record kept — and then a second and a third, and by the time it is undeniable the story is no longer about the individual, it is about an organization that knew. The incident log is what makes the difference, and not because it protects you legally, though it does. It is because a pattern is invisible without one: three separate reports across three years, each individually ambiguous, are obviously a pattern on one page and obviously nothing at all in three people's memories. Keep the log. Read it before every event.",
+  "move": "Publish the code of conduct and the reporting route before tickets go on sale. Name two safeguarding leads and put them on the site map. Get every artist, vendor and crew agreement in writing with payment dates. Keep the incident log and actually read it back each year.",
+  "say": "Reporting goes to Priya or Mo directly, not through me and not through the stage managers — that's published, and it's on the map. If it involves me, it goes to them and I'm not in that conversation.",
+  "truth": "Safety at an event is not a value, it is a set of documents and two names. You either did it in March or you did not.",
+ },
+}

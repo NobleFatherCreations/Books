@@ -2326,6 +2326,205 @@ default matches what's already committed.
 (current branch, no push) for the user to review the diff and deploy
 themselves.
 
+## 2026-09-17 (later still) — Festie Bible v10 live; 270 individual post scripts
+
+Live and byte-verified (md5 `a50f541e…`, deploy `6aac708d5c91eeb0c6aa29dc`).
+`sites.json` liveVersion -> v10.
+
+**All 78 truncated check fields from the audit are now complete.** Each was
+hand-written after reading its full scenario (archetype/who/scene/truth), not
+generic filler, and validated against the checker's own rules (opens with the
+guide's acronym, closes its quote, cites a real letter) before being written.
+`scripts/festie-check-completions.py` holds the 78 completions;
+`scripts/festie-repair-truncated-checks.py` applies them idempotently. Checker:
+**0 errors against 270 scenarios**, first time this project has been fully
+clean.
+
+**New: 270 individually-postable teleprompter scripts**, one per scenario, at
+`content/festie-teleprompter/posts/<guide>/NN-slug.md` (the 21 combined
+per-guide scripts from the prior round still exist too, for a full
+read-through). Built by `scripts/festie-teleprompter-scenes-build.py`. Each
+opens with a **VIDEO INTRO** block — spoken line + on-screen text cue naming
+the guide, section, and scenario, plus that guide's *actual* live accent color
+pulled from the rendered page — then the scenario narration, then the
+shoutout to `noblefathercreations.com/festival`.
+
+**On the "under 3 minutes" ask:** median scenario content alone runs ~3:20 at
+a natural 150wpm before any framing, so most cannot fit under 3:00 without
+cutting the book's own writing, which was explicitly ruled out. Only the
+video-intro framing (fully authored by this script, not book content) was
+trimmed to be lean. Result: **34/270 at or under 3:00, 269/270 at or under
+4:30**, honestly reported per-file rather than forced. The runtime math
+measures only what's actually spoken — an early draft wrongly counted
+markdown labels like "Guide:" as spoken words and was caught + fixed before
+shipping.
+
+`content/festie-teleprompter/01-POSTS-INDEX.md` is the manifest — every post,
+its runtime, and a checkmark for ≤3:00.
+
+**Pipeline, current and complete:** edit `content/festie-bible-data.json` (or
+`festie-add-guide.py`/`festie-add-batch.py`) -> `festie-repair-truncated-checks.py`
+(if any check text changed) -> `festie-accents.py` -> `festie-derive-counts.py`
+-> `festie-build.py` -> `festie-check.py --inline` -> Playwright ->
+`festie-teleprompter-build.py` + `festie-teleprompter-scenes-build.py` (if
+scenario text changed) -> version bump in data + sites.json -> deploy ->
+byte-verify.
+
+## 2026-09-17 (later) — Festie Bible v9: scenario gap audit, 207 -> 270
+
+Live and byte-verified (md5 `9e55bb79…`, deploy `6aac5c9c4dba1b82032e3f83`).
+63 new scenarios, 2-4 per guide, **all 21 guides covered**. ~127,900 words.
+
+**The finding worth carrying forward:** the Bible was consistently strong on
+*interpersonal manipulation* and consistently thin on *physical and
+environmental risk*. That held across nearly every guide. Crowd crush was
+absent entirely despite being the most lethal thing at music events; the
+Monday drive home was missing from both S.A.F.E. *and* B.U.I.L.D.; weather and
+evacuation, hearing damage, solvent exposure and pediatric ingestion were all
+absent. **If auditing this book again, check the physical layer first** — the
+writing instinct here reaches for the predator and skips the field.
+
+Method that produced it: dump every card by section/hook/archetype, then audit
+each guide against what actually happens in that category rather than against
+what a predator would do. See
+`content/festival-audits/festie-bible-v9-gap-audit.md` for the full per-guide
+table.
+
+**New tool:** `scripts/festie-add-batch.py` — batch scenario merge from
+`content/festie-gap-scenarios/*.py` (`ADD = [(slug, scenario), ...]`).
+Validates the 14-field contract, the acronym check letter and the outline
+before writing; auto-extends a guide's outline when a scenario introduces a
+new section (otherwise festie-check flags it). Caught a stray key and a bad
+check letter during this round.
+
+Festival pipeline is now: edit `content/festie-bible-data.json` (or add via
+`festie-add-guide.py` / `festie-add-batch.py`) -> `festie-accents.py` ->
+`festie-derive-counts.py` -> `festie-build.py` -> `festie-check.py --inline`
+-> Playwright -> version bump in data + sites.json -> deploy -> byte-verify.
+
+## 2026-09-17 — Festie Bible v8 (12 -> 21 guides) and wook v13, both live
+
+**Both shipped and verified byte-identical against live.** wook v13 (deploy
+`6aac42a6a9987213c1dd936f`, md5 `7c763c6f…`) and festival v8 (deploy
+`6aac4f64e3bfa41607d0d6e9`, md5 `19be8ede…`). Netlify credits were topped up,
+which cleared yesterday's account-level block.
+
+**The Bible is now 21 guides / 207 scenarios / ~99,000 words** (was 12 / 149 /
+~67,100). **How the new categories were chosen matters more than the list** —
+they came from auditing the Bible against *its own mission statement*, not from
+guessing. That statement names eight groups (ravers, burners, festies, flow
+artists, healers, vendors, musicians, builders) and **three had no guide**; it
+promises coverage across five axes and **two had none**; and a keyword scan of
+all 149 original scenarios returned **literally zero** hits for disability or
+neurodivergence. Use this method again for any "what's missing" question here.
+
+New: A.C.C.E.S.S. (disabled & ND, 10), F.L.O.W. (flow artists, 8), H.E.A.L.
+(healers — the mission's own headline predator is "the false shaman" and that
+audience had no guide, 6), B.U.I.L.D. (build crew, 6), S.O.B.E.R. (6),
+R.O.O.T.S. (BIPOC, 5), L.E.N.S. (photographers/media, 5), K.I.N. (family
+camping, 4), H.O.M.E. (the people at home — the only guide whose reader is not
+at the festival, 4). Plus 4 gap-fill scenarios.
+
+**Architecture change: `content/festie-bible-data.json` is now the single
+source of truth** for the Bible, the way `chapters.json` is for the books.
+Never hand-edit `library/festival/index.html`'s data blobs — edit the JSON and
+run `scripts/festie-build.py`, which also regenerates `SCENARIO_INDEX`
+(derivable from the data exactly). The round trip is **byte-lossless**, and it
+needs compact JSON separators to stay that way — a first attempt silently added
+3,417 bytes of whitespace and was reverted rather than shipped.
+
+**Festie tooling (all new, all idempotent):** `festie-check.py` (structural
+checker — **49 errors on first run, 0 now**), `festie-build.py`,
+`festie-add-guide.py` + `festie-add-scenario.py` (validate the full 14-field
+card contract *before* touching data — caught a promised-but-undelivered
+section in H.E.A.L. mid-write), `festie-accents.py` (places a new guide's
+accent at the widest unused arc on the hue wheel so the palette stays one
+family), `festie-derive-counts.py`.
+
+**The recurring bug class in this project is the hardcoded literal.** The
+version badge was `'v6'` in the render code while sites.json said v7 — the page
+under-reported itself by a version. Fixing that surfaced the same bug twice
+more: "Section N of 12" and "Twelve Guides. One Community." All three now derive
+from the data; the static chrome (meta description, THE HOUSE drawer row)
+cannot, so `festie-check.py` **asserts** them and will fail the next time a
+guide is added without updating them. Check for this pattern first in any
+audit.
+
+Repairs this round: 8 check lines rendering mangled acronyms (`O.U.N.D.`,
+`R.K.E.T.` — same garbling class the v2 notes describe fixing; these survived),
+2 checks citing letters absent from their acronym, 22 blank clinical labels, 6
+missing Dark Reality blocks, a duplicate hook inside S.A.F.E., and the first
+copyright notice and author metadata the page has ever had.
+
+**The checker gained a homoglyph guard** after a Cyrillic capital De (U+0414)
+slipped into an English check name from a keyboard switch and read as a normal
+D. Nothing else would have caught it.
+
+## 2026-09-16 — wook v13 (grammar pass, blocked at deploy) + Festie Bible plan
+
+**wook v13 is committed and pushed but NOT live.** Netlify refused it:
+`state=error, skipped=true, error_message="Skipped due to account credit usage
+exceeded"`, on two consecutive attempts (deploys `6aaafbb439a883be6a1f7f21`,
+`6aaafbf4fa78fbbd44fdc057`). The 14MB upload succeeded both times; Netlify
+declined to publish. This is **account-level billing on the Noble Father
+Creations team (shae-stovell18), so it blocks every project**, not just wook.
+Nothing in the repo can fix it. Live is still v12 (md5 `5648bfa3…`); repo is
+v13 (md5 `7c763c6f…`). `sites.json` records this under wook's `deployBlocked`
+key with `pendingVersion: v13`. **When billing clears: redeploy from
+`library/wook/` and set `liveVersion` to v13.** Don't assume it shipped.
+
+What v13 actually fixed — 133 substitutions, no chapter content changed:
+- **Appendix U was broken.** The Vocabulary Translation List was shipping a
+  literal Markdown pipe table as 18 body-font `<p>` elements; padding spaces
+  don't align in a proportional face, so it rendered as a wall of vertical
+  bars. Rebuilt in the book's own pair pattern (`<strong class="lead">term
+  </strong>&nbsp;→ plain English`). **The book contains no `<table>` or `<dl>`
+  anywhere** — that pattern is the house form for pair data, worth knowing
+  before adding any tabular content to any book.
+- 32 British spellings that arrived with the seven new chapters, against a
+  book that is decisively American (behavior 316, defense 32, recognize 17,
+  organizer 37). Found by **dialect frequency comparison, not a word list** —
+  there is no spell tooling in this environment (no aspell/hunspell, no
+  pyspellchecker/enchant/language_tool, no `/usr/share/dict`), which is why
+  `scripts/wook-grammar-check.py` is dictionary-free.
+- One article error, one "All 50 US states" where the book spells numbers out,
+  and a patch note saying "your mum" about a chapter called What To Tell Your
+  Mom.
+
+**New tooling:** `scripts/wook-grammar-check.py` (finds) and
+`scripts/wook-grammar-fix.py` (fixes, idempotent, applies to the book *and*
+the `content/wook-new-chapters/` fragments in the same run so they can't
+drift). The checker is noisy by design and **most of its output is false
+positives** — its typo check is a hapax/edit-distance heuristic that at
+335,000 words flags ordinary rare words (545 candidates, zero real). Also
+false: 23 of 24 article findings, all 10 caps, all 14 compound, all 121
+numeral findings. Only DIALECT and PUNCT were load-bearing. Triage it, don't
+trust it.
+
+**Cloudflare Web Analytics beacon — APPROVED, do not flag again.** Author
+confirmed 2026-09-17: the beacon is intentional and stays. It is on all 485
+deployed HTML files with one shared token
+(`static.cloudflareinsights.com/beacon.min.js`, token `c8d1aea5…`). This is a
+**standing, permanent exception** to the "no external requests" rule in
+`CLAUDE.md` — it is the one sanctioned outbound request across the whole site.
+Do not remove it, do not raise it as a finding, and do not re-litigate it in a
+future audit. Books remain otherwise fully self-contained: no CDN fonts, no
+icon fonts, no external CSS/JS beyond this one beacon.
+
+**Festie Bible plan written:** `content/festival-audits/festie-bible-plan.md`.
+Grounded in direct inspection, not memory. Headline findings: repo and live
+are **byte-identical** (so it is NOT the wook v8/v9 claimed-but-not-shipped
+pattern); **v7 shipped its feature but never its patch note** — the HOUSE
+drawer is live, but the badge is a hardcoded `'v6'` literal in the render
+code and the `changelog` array's newest entry is v6, so the page
+under-reports itself by one version and will drift again; the `section` field
+mixes two incompatible taxonomies (predator-sequence stages vs health topic
+areas) across 17 values, 7 of them singletons; three real coverage gaps (the
+on-ramp before the gate: **zero**; disability/neurodivergence: **zero**; the
+people at home: thin); the three thinnest guides (C.A.R.E. 6, E.V.E.N.T. 6,
+L.E.A.D. 8) are the highest-leverage audiences; no copyright/author
+attribution anywhere; no checker exists for the 149×14-field scenario format.
+
 ## 2026-08-11 (later) — Executed both upgrade plans: The Casting + Festie Bible polish pass, deployed live
 
 User asked to execute the two design-audit upgrade plans (see the
@@ -3746,3 +3945,536 @@ Dubai would follow") and an architecture that imports each religion's MD into th
 - Suno songs: `content/counterfeit/suno-songs.md` (The Copy / Thirty-Four Doors / Everywhere Else).
 - Old single 98-slide deck and `counterfeit-slideshow.mp4` removed. Canva design DAHXQJayN1o still has an uncommitted transaction with the OLD 98 slides; superseded, owner never approved the commit.
 - Rate limit hit 2026-10-06 (reset 20:40 UTC); resumed one agent at a time.
+## 2026-09-14 — Wook proofreading pass, and the second checker
+
+Request: relink the finalized cold-open document, then summarize what has
+and hasn't been done and keep auditing.
+
+**The reel document had drifted.** `content/wook-audits/wook-cold-opens-reel-order.md`
+was generated at v5 and still carried the duplicate names retired in v6-v8
+(Marcus doing triple duty, Nadia in ch20) plus one stale chapter count.
+Regenerated with `build-coldopen-reel.py`. It is generated-from-source by
+design, so the lesson is to re-run it as part of any round that touches a
+cold open, not to trust the file's own claim that it cannot drift.
+
+**MEMORY.md had drifted too.** Versions v5 through v8 shipped without an
+entry here -- their record is in the commit bodies and `sites.json` only.
+Not reconstructed; noted so nobody reads the gap as "nothing happened."
+
+**scripts/wook-proofread.py** is the round's reusable part, and the point
+of it is the division of labour: the continuity checker verifies the
+book's *claims*, this one reads the book's *surface*. Eight checks --
+quotes, glyphs, doubled words, spacing, chip length, nav labels vs
+headings, sibling markup, placeholders. Same ALLOWLIST contract as the
+continuity checker.
+
+Two precision lessons, both the difference between 293 findings and 8:
+strip inline tags without inserting a space or every `<mark>Wook</mark>.`
+in the book reads as a spacing error; and only flag *same-direction*
+doubled quotation marks, because `."` followed by `"X` is two adjacent
+quotations, which this book does constantly and correctly.
+
+**What shipped (wook v9), applied by scripts/wook-proofread-pass.py, idempotent:**
+- 25 cold-open titles carried an entity quote pair *and* a literal one, so
+  every one rendered as `""The Tank""`.
+- 190 straight apostrophes, every one inside the Field Specimens, RUNS
+  cards and rotated SOBER TUESDAY cards that v7/v8 wrote by script. The
+  rest of the manuscript is curly throughout. A scripted content pass is
+  the thing most likely to introduce a typographic regression, because
+  nobody proofreads generated text.
+- Six closing quotation marks used to open a quotation.
+- Appendix B and V had the orphaned variation selector v8 repaired on O
+  and R -- a bare U+FE0F where an emoji was stripped.
+- Appendix Q, titled The Sixteen Moves, listed fifteen: item 14, the Kandi
+  Trade Vows, was simply absent. The contents drawer still called it The
+  Seventeen Moves. Both fixed.
+- Appendix S was the only one of 26 on the larger heading class.
+- Chapter 22's RESOURCES APPENDIX block (30 chips: crisis lines, recovery
+  timeline, a 62-word therapy-intake script) was still pill-shaped. The v7
+  reclass keyed on the literal string SAFETY APPENDIX and never saw the one
+  block named differently. Same bug family as every other round: a pass
+  that matched on a string instead of a structure.
+- Chapters 21, 25 and 26 shipped an empty poster key line and "0 TRACKS".
+  Their posters now name the five protocols, sixteen confessions and five
+  pillars they actually carry.
+
+**Verified** against a pre-pass baseline in Chromium at 375px and 1440px:
+tag stream identical apart from the 31 intended changes, same 13px
+pre-existing 375px overflow, same three opacity-0 elements, no new console
+or page errors. Both checkers exit 0.
+
+**Found, deliberately not changed:**
+- Every page in this repo -- 438 files, not just wook -- loads Cloudflare
+  Web Analytics from a CDN with a real account token. That is a real
+  external request on a book whose stated architecture forbids one. It
+  looks deliberate, and removing it would silently end the user's
+  analytics, so it is reported rather than deleted. Needs a decision.
+- ch23's `#wook-confession` and ch25's THE CONFESSIONS are two lists of the
+  same sixteen moves in different orders with different item names.
+  Appendix Q matches ch23. Which is canonical is an authorial call.
+- `[address]` in ch14 reads like an unfilled placeholder but is the book's
+  own bracketed fill-in device, used 50+ times. Allowlisted with a reason.
+- BOOKS.md's wook entry is stale: it still describes the
+  `festie-codex-full.html` vs `library/wook/index.html` discrepancy as
+  blocking, from before this book had eight rounds of work.
+
+## 2026-09-14 (later) — Deployed, and the discovery that v8 never was
+
+Request: do all the fixes, push live, then plan the full review; hold every
+later deploy until the whole book has been reviewed, and ship one final
+version at the end.
+
+**Live was v7, not v8.** Fetching the live page before deploying showed no
+v8 patch note. Versions 8 and 9 were both committed, both versioned in
+`sites.json`, both given on-page patch notes, and neither was on the
+internet. `sites.json`'s `version` is the record of what was *built*.
+Added `liveVersion`, `liveVerifiedAt` and a note to that entry so the two
+can never be confused again. **Verify live bytes; do not trust the ledger.**
+
+**How this site actually deploys.** Not from git, despite `gitRepo` being
+set. The Netlify MCP connector's deploy-site operation returns a one-shot
+`npx @netlify/mcp --site-id … --proxy-path …` command; run it from
+`library/wook/` and it uploads that directory and builds it in Netlify's
+system. 157MB payload because audio/ and video/ ride along, a few minutes
+end to end. Recorded in `sites.json` as `deploySource` +`deployNote`.
+
+v8 and v9 shipped together. Verified after: live bytes identical to the
+repo, the `noblefathercreations.com/wook` proxy path 200s, audio and video
+return 206 on range requests, the fixed appendix icons and the Sixteen
+Moves label all render.
+
+**The plan for the rest** is `content/wook-audits/wook-full-review-plan.md`,
+with running state in `wook-full-review-ledger.md`. The number that shaped
+it: the book is 263,844 words, and the Tracks with their READ / BEHAVIOR /
+VIBE / MIRROR / REFRACTION cards, the counter-drops, the Fanny Pack,
+Soundcheck, Sunrise Set and Kandi Trade sections, the front matter and the
+appendix prose -- roughly 70 percent of it -- have never had a line-level
+read. Thirteen passes: three mechanical sweeps, seven chapter deep reads
+grouped by movement, one non-chapter pass, two book-wide passes ending in
+the deploy. **Nothing deploys until D2.**
+
+One new structural find while sizing the work: ch10 has six THE READ blocks
+for five Tracks. Seeded into the plan rather than fixed on the spot.
+
+## 2026-09-15 — The full thirteen-pass review finished, v10 deployed
+
+Request, same session as above: run all thirteen passes, hold every deploy
+until the last one. Passes A1 through D1 covered the whole book -- both
+checkers extended with eight more check categories between them, every
+chapter read end to end in seven grouped passes, front matter and all 26
+appendices read, book-wide coherence checked -- and found roughly 75 real
+defects, mostly the same three-chapter-insertion renumbering bug (The
+Road at 11, The Free One at 13, The Re-Entry Window at 20) still turning
+up in places the six earlier passes since v4 hadn't opened yet: duplicate
+Save titles, Appendix A silently skipping three chapters, a folded-in
+duplicate card in Chapter 10, nine separate misattributions in the
+retrospective Chapters 25-26 alone. Full findings log and chapter-by-
+chapter status live in `wook-full-review-ledger.md`.
+
+**Then the author authorized D2 and two standing decisions in one
+message: "run d2 onward, decide best 16 moves, fix appendix, build in
+laugh-out-loud writing throughout."**
+
+- **The sixteen-moves canon call.** Chapters 23 and 25 both list "the
+  sixteen moves" and disagreed at three of sixteen positions -- not a
+  numbering typo, two genuinely different pieces of content in the same
+  slot. Made chapter 25 canonical (the book's own "delivered first in 23,
+  fully in this chapter" framing settles it), rewrote chapter 23's and
+  Appendix Q's versions to match, folded the losing content into the
+  surviving item rather than dropping it, added new jokes in the process.
+- **Appendix G, "The Wook Discog Complete," was missing six chapters**
+  (11, 13, 20, 21, 25, 26) despite its own title. Wrote all six, each
+  condensing that chapter's own Studio Debut / Live Album / Greatest Hits
+  Compilation text, cross-checked against the source chapters' exact
+  names and ages (Cosmo/Derek at twenty-eight, Damian at thirty-one,
+  Sister Lou Mantilla's eleven years, Cara at twenty-six). Also caught
+  and fixed a mismatched Chapter 23 line that looked like a numbering
+  drift but wasn't -- ch23's own Greatest Hits section is about the book
+  itself, and the appendix line was rewritten to actually say that.
+- **Found along the way, not asked for:** a duplicate item 14 in Appendix
+  Q, self-inflicted by an earlier pass this same round whose string check
+  missed a `<mark>` tag splitting the real item's text; and invalid
+  nested `<p><p>` markup in the About The Author section.
+
+**Then D2 itself:** regenerated the cold-open reel doc from the live
+source (picks up every title/wordcount/POV-badge fix from this round
+automatically), bumped `sites.json` to v10 with a full changelog entry,
+added the matching plain-language on-page patch note, deployed via the
+Netlify MCP proxy command from `library/wook/`, and verified live bytes
+(md5) identical to the repo both directly against the Netlify site URL
+and through the `noblefathercreations.com/wook` proxy path (200), with
+audio and video both returning 206 on range requests. Both checkers
+return 0 findings. **The review is closed. Live is v10.**
+
+## 2026-09-16 — Wook goes from 26 chapters to 33
+
+Request: write seven new chapters for the seven gaps the post-review gap
+analysis found, slot them where they belong rather than at the end, fix
+every chapter count and callout the insertion breaks, keep the voice, and
+ship it.
+
+**The seven, and why each sits where it sits.** 6 The Group Chat (after
+Yes Is A Sober Word — the on-ramp is the pre-event group, weeks before the
+gate, and no festival's safety apparatus covers it). 10 The Love Of It
+(after Vendor Row — the labour half of the same economy, Witness POV from
+a load-in lead). 14 The Two Festivals (after The Road — who gets stopped,
+who gets believed). 17 The Container (after The Free One — the mason jar
+with a lineage and a price list). 20 The Next Twelve Hours (after The RV —
+the only chapter in the book written for *after*). 26 He Still Has Your
+Number (after The Re-Entry Window — Wook POV, because stalking is
+experienced by the person doing it as devotion). 31 What To Tell Your Mom
+(in the Encore — the one chapter written to be handed to somebody else).
+
+70,916 new words. The book is now roughly 335,000.
+
+**The renumbering is the real engineering, and it is the bug family this
+book has had since v4.** Inserting seven chapters mid-book moved every
+number after the fifth. The splice
+(`scripts/wook-expansion-pass.py`, idempotent) remapped 666 numeric
+references through an old-to-new map using a sentinel pass so no rewrite
+could cascade, then handled by hand the things a regex cannot: ~30
+word-form counts ("twenty-four chapters" → "thirty-one"), 16 multi-number
+ranges and lists, and **seven bridges** — a bridge describes what comes
+next, so renumbering one is not enough, all seven had to be rewritten.
+
+**Three traps worth remembering.** (1) Appendix B lists cast as "Chapters
+2 (Oracle), 15 (minor), 24 (collective)" — only the first number follows
+the word "Chapter", so a generic pass silently renumbers one of three.
+Nine such lists existed. (2) Both chapter listings and the field
+specimens use zero-padded two-digit numbers; the generic pass wrote them
+bare. (3) Chapter 6 was inserted after chapter 5, which is the *last* row
+of SET ONE in both listings, so its row landed on the wrong side of the
+set seam in both.
+
+**Two checkers and a purpose-built auditor caught six wrong
+cross-references before they shipped.** `wook-expansion-xref.py` resolves
+every "Chapter N" in a new fragment against the map and prints what it
+actually points at — it caught four (the whisper network, the Four
+Questions Before Any Cap, week four, the Insta-Wook Bond). The proofreader
+caught two more afterwards. `TOTAL_CHAPTERS` in the continuity checker had
+to move 26 → 33, and its number-word table needed twenty-seven through
+thirty-three.
+
+**Also updated:** Appendix A (seven chapter blocks), Appendix B (four new
+cast, three second-appearance updates), Appendix D, Appendix F (25 new
+counter-drops merged alphabetically), Appendix G, Appendix Q, the content
+disclosure (chapter 20 now listed), HOW TO READ way 2, seven new SVG
+specimen icons, and the cold-open reel builder, which had a POV table and
+two episode tables all keyed to old chapter numbers.
+
+Reading copy of all seven, for review:
+`content/wook-audits/wook-new-chapters-READTHIS.md`.
+
+Shipped as v12. Both checkers at 0 against 33 chapters.
+
+## Update (2026-09-18) — Festie Bible: 84 reusable video assets + image
+markers threaded through all 291 teleprompter scripts
+
+Built on top of the 270 individual post scripts from the prior round
+(each already an out-of-the-box postable teleprompter script per
+scenario). User asked for: a video-cover image per guide (book image +
+large section title/acronym + logo + the festival URL, with room left to
+type each video's specific title themselves), a standalone acronym-badge
+image per guide, and an exploration of which repeatable (per-guide, not
+per-scenario) images could move content off spoken narration to help trim
+toward a 3-minute runtime — all bundled into one catalog document, with
+the 291 scripts marked up to show where each image goes.
+
+**New: `scripts/festie-image-assets-build.py`.** Pillow-based, same
+pattern as `scripts/covers/compose-guide-jacket.py` — real logo
+(`design/brand/logo-noble-father.png`), real self-hosted fonts
+(Fraunces/Hanken Grotesk/Space Mono from `tools/fonts/`), real per-guide
+accent colors pulled from the live page's own CSS, nothing AI-generated
+(house rule: image models mangle exact text like an acronym or a URL, and
+both need to be exact here). Four images per guide, 21 guides = 84 total,
+written to `content/festie-teleprompter/images/<slug>/`:
+- `cover.png` (1080×1920) — the 2 "cover" images asked for per guide,
+  genuinely blank in the bottom third for the user's own per-video title.
+- `badge.png` (1080×1080) — the standalone acronym mark, square so it
+  drops into a mid-video insert or lower-third without cropping.
+- `tells-card.png` / `check-card.png` (1080×1920 each) — new, beyond what
+  was literally asked for as "the 42": reusable per-guide templates
+  ("Watch for these signs" / "Run the check") with faint blank guide-lines
+  or an open frame, meant to hold a scenario's tells or check text on
+  screen so the spoken line can shorten instead of narrating everything —
+  this is the "reduce runtime with images" piece. First pass had a real
+  layout bug (all content clustered in the canvas's top third, big dead
+  gap before the logo footer) — fixed by redistributing both templates'
+  content evenly across the full body zone (y≈380–1600) before batch-
+  running all 21.
+
+**New: `scripts/festie-image-catalog-build.py`** → writes
+`content/festie-teleprompter/02-IMAGE-CATALOG.md`, one file, same 21-guide
+order as everywhere else in this project, with a contents TOC (GitHub
+anchor rules, not guessed), all 84 images embedded per guide, captions
+explaining what each is for, and the runtime-reduction rationale written
+out.
+
+**Both teleprompter builders now inject `[INSERT IMAGE HERE: ...]`
+markers** at the point each image belongs — a blockquote line with the
+exact repo-relative path and a usage note. `festie-teleprompter-build.py`
+(21 combined guide scripts): one cover marker after the title, then a
+tells-card marker before every scenario's tells and a check-card marker
+before every check. `festie-teleprompter-scenes-build.py` (270 individual
+posts): same three-marker pattern per file, plus the spoken-word-count
+function now strips blockquote lines so the marker text itself never
+inflates a post's runtime estimate. Verified after regenerating all 291
+files: 1,371 markers total, every one resolves to a real file on disk,
+and per-guide marker counts match scenario counts exactly (1 cover +
+N tells + N check per guide).
+
+Re-run order after any future content/accent change:
+`festie-image-assets-build.py` → `festie-image-catalog-build.py` →
+`festie-teleprompter-build.py` → `festie-teleprompter-scenes-build.py`
+(the last two just need the image files to already exist on disk; they
+don't regenerate them).
+
+## Update (2026-09-18, later) — Wook: teleprompter reading plan for the
+whole book, 33 chapters, 395 videos, using the book's own built-in modules
+
+User asked for a teleprompter way to read the entire Wook book, cold opens
+as their own videos, chapter content chopped up, one teleprompter MD per
+chapter. Rather than inventing a chunking scheme, discovered the live book
+already ships in a fixed, repeating sequence of video-sized modules per
+chapter — every chapter, all 33, same order: THE DROP (cold open, already
+its own video by design) → The Setup (soundboard quote + real thesis +
+Track roster) → one video per Track (a manipulation pattern's full 7–8
+beat structure: Behavior, Read, Counter-Drop, Vibe Check, Mirror Set,
+Refractions, Runs In Every Direction, Sober Tuesday) → The Mirror + The
+Wook Discog (self-reflection + a four-stage character composite) → Tales
+From [Place] — The Save (a second narrative where the counter-drop
+actually works) → The Fanny Pack (chapter recap + pocket scripts + Safety
+Appendix) → The Soundcheck (a short practical drill) → The Sunrise Set +
+The Kandi Trade (closer: the thesis with no slang, then a vow), with the
+one-line Bridge as an optional outro stinger rather than its own video.
+
+**New: `scripts/wook-teleprompter-build.py`.** Same parsing technique as
+`scripts/wook-continuity-check.py`'s `Book` class (chwrap/ch-end markers
+for chapter boundaries) but adds a proper balanced-tag scanner for
+top-level `<section>`/`<div>` blocks — a naive regex split breaks on this
+book's nested markup (a `<div class="tapers">` aside sitting inside the
+thesis section, `<span class="chip">` pill lists inside the Fanny Pack)
+and silently produces run-on paragraphs. Real bugs caught and fixed before
+the full run: (1) paragraph breaks were only inserted after a `</p>`, so
+any `<p>` reached through a nested `<div>` lost its break — fixed by
+breaking on every `<p>` open tag regardless of what precedes it; (2) the
+soundboard quote and its attribution already carry their own quote marks
+and leading em-dash in the source text, and the script was adding a
+second set — fixed by not re-wrapping; (3) `<span class="chip">` pocket-
+script and Safety-Appendix lines (a pill/tag UI element, not `<p>`
+paragraphs) ran together with zero breaks — fixed by converting each chip
+into its own bullet line.
+
+Five chapters (20, 27, 31, 32, 33) use no Tracks at all — built
+differently on purpose (emergency/resource/closing chapters) — the script
+handles this automatically, producing 7 videos instead of the usual
+10–19 with no Track run in the middle.
+
+33 files written to `content/wook-teleprompter/`, one per chapter
+(`01-it-s-not-drama-it-s-warfare.md` … `33-the-after-party.md`), each
+internally divided into `## 🎬 VIDEO N — <name>` sections with a spoken-
+word count and estimated read time per section (150wpm, same rate/style
+as the Festie Bible builders). `00-INDEX.md` is the full manifest;
+`00-APPROACH.md` is the reasoning doc explaining the module order and
+pointing at `content/wook-audits/wook-cold-opens-reel-order.md` (the
+existing 33-cold-open promo reel/cut-point doc) for the promotional cut of
+just the cold opens. Verified after generation: 0 leftover HTML tags,
+0 curly-quote mismatches, 0 undecoded entities, 0 zero-word video
+sections, across all 33 files. Totals: 395 videos, ~315,455 spoken words.
+
+Not done yet, flagged as the natural next step if wanted: splitting every
+Track/Tales/etc. into its own individually-postable file (the Festie
+Bible's 270-posts treatment, applied to Wook), and `[INSERT IMAGE HERE]`
+markers / a title-card image set to match.
+
+Re-run `python3 scripts/wook-teleprompter-build.py` (optionally with one
+or more chapter numbers) any time the live book changes.
+
+## Update (2026-09-18, later still) — Wook: split the 33 chapter scripts
+into 395 individually-postable files, no images (by request)
+
+Follow-up to the same-day round above. User confirmed: no images this
+round, just split the existing per-chapter teleprompter breakdown into
+individually-postable files, same relationship as the Festie Bible's
+270 posts to its 21 combined guide scripts.
+
+**New: `scripts/wook-teleprompter-scenes-build.py`.** Imports
+`wook-teleprompter-build.py` directly via `importlib.util` (the filename
+has hyphens, not a valid module name) and reuses its HTML parsing rather
+than re-implementing it, so both stay in sync with one parser. Walks the
+same module sequence `chapter_doc()` already builds (cold open, setup, one
+per Track, mirror+discog, tales, fanny pack, soundcheck, closer) but emits
+each as its own file instead of concatenating into one chapter doc.
+
+395 files (matches the 395-video total from the combined round) written
+to `content/wook-teleprompter/posts/<NN>-<chapter-slug>/<NN>-<section-
+slug>.md`, each with a VIDEO INTRO block (chapter, section name, position
+in chapter, suggested on-screen text, a spoken intro line) ahead of the
+section's own text and a closing shoutout to the book's URL — same shape
+as the Festie Bible's individual posts. `01-POSTS-INDEX.md` is the
+manifest.
+
+Two real bugs caught before shipping: (1) a Track section's file
+duplicated its own heading (the combined script's `## VIDEO N — Title`
+plus `track_script()`'s own `### TRACK NN — Title` right under it) --
+fixed by skipping the added heading when the body already opens with one;
+(2) Python's `str.title()` mangles a contraction after an apostrophe
+(`IT'S NOT DRAMA, IT'S WARFARE` → `It'S Not Drama, It'S Warfare`) in the
+spoken intro line -- the Festie Bible builders already carry a fix for
+this (`CONTRACTION_RE` + `titlecase()`), but that fix's regex used a
+straight apostrophe while this book's titles use a curly one (`’`,
+from `&rsquo;`), so copying it verbatim silently didn't match anything;
+fixed by matching both quote characters.
+
+Verified after generation: swept all 395 files for leftover HTML tags,
+curly-quote mismatches, undecoded entities, and un-fixed contractions —
+the only matches were legitimate (chapter titles and Track names that are
+genuinely all-caps with a real possessive, shown verbatim in metadata
+headers, e.g. "THE CAMP LEAD'S BURDEN" and "THE TAPER'S REVEAL" — false
+positives from the sweep's own regex, not defects).
+
+Re-run `python3 scripts/wook-teleprompter-scenes-build.py` any time after
+re-running `wook-teleprompter-build.py`, so the two stay consistent.
+
+
+## Update (2026-09-19) — Festie Bible: narrated teleprompter series
+(intro/closing episodes + full-sentence scenario rewrite for all 21 guides)
+
+User handed over a hand-written A.C.C.E.S.S. example (INTRO EPISODE, all
+13 SCENARIO scripts, CLOSING EPISODE) as the template and asked for: (1)
+the other 20 guides' scenarios rewritten as smoother, full-sentence
+narration instead of the site's labeled-field bullet format, (2) an
+INTRO EPISODE and CLOSING EPISODE for every one of the 21 guides, and (3)
+one series-wide intro leading into each guide's own intro/scenario videos.
+
+**New: `scripts/festie-narrated-build.py`.** Builds
+`content/festie-teleprompter-narrated/<slug>/` per guide: `00-intro.md`,
+numbered scenario files (flowing prose replacing the who/scene/tells/
+happening/check/dark/move/say/truth bullet labels, each paragraph led by
+a rotating rhetorical lead-in matching the template's rhythm — "So here's
+what to watch for," "Now here's the mechanism," etc., picked
+deterministically by global scenario index, not random), and
+`99-closing.md`. Source of truth stays `content/festie-bible-data.json` —
+same house rule as every other teleprompter builder this project: form
+changes (bullets to prose), no new claims invented. 313 generated files
++ one hand-written `00-SERIES-INTRO.md` (script explicitly does not
+touch/regenerate that one) + `00-INDEX.md` = 314 total.
+
+Five real bugs caught and fixed before shipping, all found by actually
+reading generated output against the user's own template rather than
+trusting the script:
+1. The "who" paragraph's lead-in template had an unformatted `{who_ref}`
+   placeholder printed literally in every scenario — the `.format()` call
+   was missing.
+2. `check_question()` (closing episode's rapid-fire check recap) forced
+   every check desc into a fake interrogative by prepending "is " — broke
+   badly on descs that are statements, not questions (e.g. "is your
+   accommodations are not gifts?"). Replaced with `check_recap()`, which
+   uses a genuine embedded question if the desc has one, otherwise the
+   desc's own first sentence as a statement.
+3. `role.title()` doubled the article for H.O.M.E. ("THE PEOPLE AT HOME"
+   → "the The People At Home Edition"). Added `role_no_article()` for the
+   one call site that prepends its own "the".
+4. The closing episode's "{role} belong here, completely" line broke
+   subject-verb agreement for non-plural role labels (C.A.R.E.'s "Harm
+   Reduction belong here", S.A.F.E.'s "Health & Safety belong here").
+   Rewritten to address the reader directly ("You belong here,
+   completely") — sidesteps the agreement problem for all 21 roles at
+   once instead of special-casing each one.
+5. Python's `.title()` mangled two acronyms embedded in role labels —
+   "LGBTQ+" → "Lgbtq+", "BIPOC" → "Bipoc". Fixed inside `titlecase()`
+   itself (not just the role call site) via an `ACRONYM_FIX` table, so
+   the same fix covers any future occurrence in hook titles too.
+6. `keyword()` (check-name → one-word recap label) stripped all
+   non-letters including apostrophes, turning "Don't Assume Safe Spaces"
+   into "Dont". Fixed to keep internal apostrophes.
+7. **The quote-doubling risk flagged but unverified in the prior session
+   phase turned out to be real** (confirmed by reading actual output, not
+   assumed): 47 of 270 `say` fields already arrive self-quoted — either a
+   bracketed stage direction (`[To your tour manager]: "I need you to..."`)
+   or the whole line already wrapped in straight quotes — and
+   unconditionally wrapping those in outer curly quotes stacked quote
+   glyphs together (`“"I need...`). Added `render_say()`: skip the outer
+   wrap for the 47 cases (all identifiable by starting with `[` or `"`,
+   confirmed against the full dataset), wrap normally otherwise.
+
+After each fix, re-ran the full 21-guide build and re-swept everything
+(unresolved `{placeholder}` leaks, doubled `??`/`!!`, doubled curly
+quotes, curly-touching-straight quote glyphs, `Dont`/`Isnt`-style
+apostrophe leaks, file count) before calling it done — the sweep came back
+clean on the final pass. Delivered as a zip alongside the branch push.
+
+One acknowledged limitation, not yet raised with the user: the per-guide
+intro/closing episodes' synthesis paragraphs ("here's the thing running
+through every scenario," the closing thematic paragraph) are
+template-generated from checks/outline/sentences and read more generic
+than the hand-crafted A.C.C.E.S.S. example's specific per-guide insight.
+Flag if the user wants a further hand-polish pass on those 42 files.
+
+Also undecided: whether this narrated series replaces or supplements the
+earlier `content/festie-teleprompter/` (combined) and
+`content/festie-teleprompter/posts/` (270 individual, bulleted-format)
+directories from earlier this project — both are still present in the
+repo untouched.
+
+Re-run `python3 scripts/festie-narrated-build.py` (optionally with one or
+more guide slugs) any time `festie-bible-data.json` changes.
+
+## Update (2026-09-19, later) — Festie Bible: the generated narration was
+rejected and the whole series was hand-written instead
+
+**The rejection, verbatim, because it's the important part:** after the
+`festie-narrated-build.py` output above shipped, the user came back with
+*"So the goal was to make the scenarios worded in complete sentences -
+spoken fluidly... All I see are similar Fragmented sentences. Please output
+all intros, scenarios, and outros into one MD per category. Go through each
+one and make them written as I would speak them to someone or to the camera.
+It's ok to change them or add words for this - the scenarios will be the
+same - just presented and spoken better for the videos."*
+
+Then, on the second pass: *"feel free to add in a comedic line or
+description that will make people laugh or call out the behavior - try and
+add one per scenario please... output the full md files per category
+including the intro and outro episodes - and the series itself intro and
+outro and just zip it to me when fully done."*
+
+**The lesson worth keeping:** a deterministic lead-in rotation ("So here's
+what to watch for," "Now here's the mechanism") applied across 270 scenarios
+reads as a template no matter how good the individual sentences are. The
+rhythm itself is the tell. Generation could not produce what was wanted
+here; it had to be written. Don't re-attempt this with a script.
+
+**What replaced it.** `content/festie-teleprompter-narrated/` was deleted
+(`git rm -r`) and `content/festie-scripts/` is the deliverable:
+
+- **One MD per guide, 21 files** — each containing that guide's INTRO
+  EPISODE, every scenario in order, and its CLOSING EPISODE.
+- **`00-SERIES-INTRO.md`** (re-sited from the deleted tree, reformatted to
+  match) and **`00-SERIES-OUTRO.md`** (new this round).
+- **`00-README.md`** — runtimes per file, the guide map, the scenario shape.
+- **270 scenarios, every one carrying a comedic beat** placed as a
+  standalone line straight after the scene paragraph. On the two pages where
+  a laugh would cost credibility — B.A.S.S. 17 (male sexual assault) and
+  C.A.R.E. 8 (death on shift) — the beat is knowing/wry rather than funny.
+  That was a deliberate call, flagged to the user.
+- **177,783 words, ~19h45m of spoken runtime at 150wpm.** Per-file
+  scenario counts and runtimes are in `00-README.md`.
+
+`access.md` is still the user's own hand-written text throughout — only the
+13 comedic beats were added to it. Every other file is written from the
+`content/festie-bible-data.json` fields, house rule intact: form and phrasing
+changed freely (explicitly authorised), no claims invented.
+
+**Data oddity still outstanding:** G.R.O.V.E. scenario 13 (tone policing)
+has a `dark` section about undercover police / buying-selling that doesn't
+belong to that scenario — it reads like it belongs to scenario 12. The
+content was kept and given an honest transition rather than dropped. The
+user may want it moved in `festie-bible-data.json`.
+
+Delivered as `festie-bible-teleprompter-scripts.zip` (gitignored; rebuild
+with `cd content && zip -r ../festie-bible-teleprompter-scripts.zip
+festie-scripts`). Branch: `claude/cold-open-md-relink-wwtn7p`.
+
+Still present and untouched: `content/festie-teleprompter/` (combined) and
+`content/festie-teleprompter/posts/` (270 individual, bulleted). Whether
+`festie-scripts/` supersedes those is still the user's call.
