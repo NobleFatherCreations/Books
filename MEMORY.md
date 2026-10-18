@@ -3356,17 +3356,22 @@ range), 4/12 true peaks above −1 dBTP, all MP3 ~190 kbps 48 kHz. ~155 distinct
 songs after collapsing 16 multi-take groups. Open user decisions: Suno plan at
 creation dates (rights), artist name, keepers. Nothing uploaded anywhere.
 
-## 2026-10-18 — Pattern Decoder (playbook) audit, no changes shipped
+## 2026-10-18 — Pattern Decoder: the "no source" note was wrong; source brought in
 
-Audit only, nothing deployed. The noblepatterns URL and /playbook are the same
-file. Findings are in BOOKS.md's playbook section. What the audit recommends:
-one name; the paste box as the hero; 3 nav intents instead of 6 tabs plus
-toggles; entry pages that show only content unique to the entry, with the
-templated boilerplate moved to one "how to read an entry" page; ~8–10 reader
-families instead of 24 categories; the changelog moved off every page's
-footer. Content pipeline: the 81 mature entries are the only ones complete
-enough for video (sounds-like hook, healthy version, its-not, a discernment
-question). A sample Canva Bulk Create CSV was generated from them (~100-word
-VO script per tactic, around 40s). Data typo found: "You're rememb it all
-wrong" (Gaslighting, sounds-like). Prerequisite for any redesign: pull the
-live file into instruments/playbook/ so the repo holds a source.
+A fresh audit of the live page from this repo re-derived problems the Wookbook
+repo's Decoder branch had already fixed (v4-v7, 349-clip manifest, clinical
+review). This repo never received that branch, and its `playbook.html` was an
+old snapshot. Brought in now: the v8 page (`instruments/playbook/index.html`,
+live v7 + the Gaslighting typo fix), data JSON, clip manifests, drafts overlay,
+review docs and build scripts (`design/*playbook*`, `design/*decoder*`).
+`sites.json` repoPath set, version v8 (it said v2; the page said v7).
+
+**Drift that nearly shipped a regression:** live had a 20-volume menu patched
+on directly 2026-09-01; the Wookbook branch file had the older nav. The repo
+file was rebased onto live's bytes before anything was changed.
+
+**Authoritative history:** Wookbook `MEMORY.md`, entries 2026-08-25 to
+2026-10-18. **Left unmerged there:** `gstack-setup`, `continue-jxslgw`.
+**Still the author's call:** applying the 266 drafted codex entries, the 51
+`manipulation_playbook_risk` holds, `safety_sensitive` on 7 entries, Sacred
+Science's truncated definition. **Redesign backlog:** see BOOKS.md playbook.

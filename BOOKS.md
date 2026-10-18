@@ -199,22 +199,34 @@ moment only. Aeon — the reading-comfort typography still applies to its
 prose passages. Wait But Why — ❌ skip; a step sequence isn't a chapter
 index.
 
-## playbook — The Pattern Decoder **[confirmed: live file inspected 2026-10-18]**
+## playbook — The Pattern Decoder **[confirmed: source now in repo, 2026-10-18]**
 
-noblepatterns.netlify.app and noblefathercreations.com/playbook serve the
-byte-identical file (md5 9e861a93…, 4.5 MB, single HTML). Still no repo source.
-A hash-routed lookup app, not a book: Start (paste/search), Core (36 "North
-Stars"), Index (A–Z, 349), Map (canvas constellation), Patterns (109 tactic
-chains), Narrow (feeling-based wizard, 6 contexts × 35 feelings), Trail
-(saved/starred, localStorage). Data: COMPENDIUM (349), RECIPES (109),
-CODEX_COMPLETED (349 × 38 fields, 3.45 MB). Maturity: 81 mature / 24 developing /
-143 needs_review / 101 reference_stub. Much of the codex is templated (e.g.
-`this_may_be_it_when` has 4 distinct values across 349 entries). 24 categories
-with near-duplicates ("Digital" vs "Digital & AI", three institutional ones).
-Four names in use: The Field Guide / The Pattern Decoder / playbook /
-noblepatterns. On-page version reads v7 (2026-08-29); sites.json says v2, so
-the ledger has drifted. Ships a Cloudflare Insights beacon (external request).
-Redesign + Canva/video audit: see the 2026-10-18 entry in MEMORY.md.
+Source: `instruments/playbook/index.html` (v8, single 4.5 MB HTML). Data:
+`content/playbook-data.json` (349 tactics, 349 × 38-field codex entries, 109
+sequences), rebuilt by `design/extract-playbook-data.py`. noblepatterns.netlify.app
+and noblefathercreations.com/playbook serve the same file.
+
+A hash-routed lookup app, not a book: Start (paste/search), Core (36), Index
+(A-Z), Map (constellation canvas), Patterns (109 chains), Narrow it down
+(guided, 6 contexts x 35 feelings), Trail (saved, localStorage). v2-v7 were
+built on the Wookbook repo's `claude/book-content-adaptation-o0a9u8` branch
+(paste-a-phrase fix, Narrow, celestial redesign, motion), now merged there to
+`main` and mirrored here. An earlier note in this file calling it "live-only,
+no source" was wrong.
+
+**Content state (measured):** 81 mature / 24 developing / 143 needs_review /
+101 reference_stub. Much of the codex is shared boilerplate (4 distinct values
+of `this_may_be_it_when` across 349), which is why clips source beat 4 from
+`what_it_is_not`. `content/playbook-drafts.json` holds 85 hooks + 266 codex
+entries, all `approved: true` after the clinical review
+(`docs/DECODER-PSYCH-REVIEW.md`), kept as an overlay and NOT written into the
+page -- that is the author's call, as are the 51 `manipulation_playbook_risk`
+holds and one truncated definition (Sacred Science).
+
+**Short-form:** `content/decoder-clips.json` (349 five-beat clips, 112
+shoot-ready, 85 need a hook) and `content/recipe-clips.json` (109 sequences,
+79 shoot-ready). **Open design items:** paste box only matches the 81
+Detected tactics; 24 categories include near-duplicates; four names in use.
 
 ## music — The Listening Room **[confirmed: rebuilt from the audio itself, 2026-08-12]**
 

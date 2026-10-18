@@ -99,8 +99,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v2",
+      "version": "v8",
       "changelog": [
+        {
+          "date": "2026-10-18",
+          "version": "v8",
+          "summary": "Fixed a cut-off example sentence in Gaslighting (\"You're rememb it all wrong\" now reads \"You're remembering it all wrong\"). The repo now holds the real source: instruments/playbook/index.html is the live v7 page (20-volume menu, analytics beacon) plus this fix, and the 349-tactic data, 109 sequences, 349-clip manifest and the clinical-review overlay moved in from the Wookbook repo's Decoder branch, which had never been merged here. The version ledger here said v2; the page itself said v7 -- both now say v8."
+        },
         {
           "date": "2026-09-01",
           "version": "v2",
@@ -113,7 +118,8 @@
         }
       ],
       "section": "instruments",
-      "repoPathNote": "No local source in any repo -- confirmed absent, not a lookup gap. Live-only."
+      "repoPath": "instruments/playbook/index.html",
+      "dataSource": "content/playbook-data.json"
     },
     {
       "codename": "root",
