@@ -3355,3 +3355,18 @@ manifest). Measured 12-track sample: −12.0…−14.5 LUFS (already in streamin
 range), 4/12 true peaks above −1 dBTP, all MP3 ~190 kbps 48 kHz. ~155 distinct
 songs after collapsing 16 multi-take groups. Open user decisions: Suno plan at
 creation dates (rights), artist name, keepers. Nothing uploaded anywhere.
+
+## 2026-10-18 — Pattern Decoder (playbook) audit, no changes shipped
+
+Audit only, nothing deployed. The noblepatterns URL and /playbook are the same
+file. Findings are in BOOKS.md's playbook section. What the audit recommends:
+one name; the paste box as the hero; 3 nav intents instead of 6 tabs plus
+toggles; entry pages that show only content unique to the entry, with the
+templated boilerplate moved to one "how to read an entry" page; ~8–10 reader
+families instead of 24 categories; the changelog moved off every page's
+footer. Content pipeline: the 81 mature entries are the only ones complete
+enough for video (sounds-like hook, healthy version, its-not, a discernment
+question). A sample Canva Bulk Create CSV was generated from them (~100-word
+VO script per tactic, around 40s). Data typo found: "You're rememb it all
+wrong" (Gaslighting, sounds-like). Prerequisite for any redesign: pull the
+live file into instruments/playbook/ so the repo holds a source.

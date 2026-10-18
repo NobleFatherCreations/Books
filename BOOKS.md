@@ -199,15 +199,22 @@ moment only. Aeon — the reading-comfort typography still applies to its
 prose passages. Wait But Why — ❌ skip; a step sequence isn't a chapter
 index.
 
-## playbook — The Pattern Decoder **[inferred from tagline only]**
+## playbook — The Pattern Decoder **[confirmed: live file inspected 2026-10-18]**
 
-"349 tactics · type what happened." Tagline suggests an interactive
-lookup/matching tool (you describe a situation, it identifies the tactic),
-not a linear book. **Not independently investigated this session.**
-
-**Reference adaptation:** Unconfirmed — likely more Wait But Why (findable,
-searchable) than Aeon (this probably isn't meant to be read start-to-finish).
-Check its actual structure before planning further.
+noblepatterns.netlify.app and noblefathercreations.com/playbook serve the
+byte-identical file (md5 9e861a93…, 4.5 MB, single HTML). Still no repo source.
+A hash-routed lookup app, not a book: Start (paste/search), Core (36 "North
+Stars"), Index (A–Z, 349), Map (canvas constellation), Patterns (109 tactic
+chains), Narrow (feeling-based wizard, 6 contexts × 35 feelings), Trail
+(saved/starred, localStorage). Data: COMPENDIUM (349), RECIPES (109),
+CODEX_COMPLETED (349 × 38 fields, 3.45 MB). Maturity: 81 mature / 24 developing /
+143 needs_review / 101 reference_stub. Much of the codex is templated (e.g.
+`this_may_be_it_when` has 4 distinct values across 349 entries). 24 categories
+with near-duplicates ("Digital" vs "Digital & AI", three institutional ones).
+Four names in use: The Field Guide / The Pattern Decoder / playbook /
+noblepatterns. On-page version reads v7 (2026-08-29); sites.json says v2, so
+the ledger has drifted. Ships a Cloudflare Insights beacon (external request).
+Redesign + Canva/video audit: see the 2026-10-18 entry in MEMORY.md.
 
 ## music — The Listening Room **[confirmed: rebuilt from the audio itself, 2026-08-12]**
 
