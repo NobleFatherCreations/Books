@@ -1,0 +1,604 @@
+[
+ {
+  "id": "batch-12",
+  "kind": "normal",
+  "category": "Confusion / rhetoric",
+  "names": [
+   "Spiritual Bypassing",
+   "Burden of Proof Shifting",
+   "Gish Gallop",
+   "Limited Hangout",
+   "Pseudo-Profundity / Intellectual Intimidation",
+   "Semantic Erosion / Meaning Dilution",
+   "Dog Whistling / Coded Signaling"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-13",
+  "kind": "normal",
+  "category": "Control & Domination",
+  "names": [
+   "Isolation",
+   "Monitoring & Surveillance",
+   "Location Tracking",
+   "Behavior Control",
+   "Infantilization",
+   "\"I Know Best\" Paternalism"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-14",
+  "kind": "normal",
+  "category": "Control & Domination",
+  "names": [
+   "Punishment of Boundaries",
+   "Information Control",
+   "Device Access Demands",
+   "Enforcing Trivial Demands",
+   "Boundary Testing",
+   "Velvet Glove Control"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-15",
+  "kind": "normal",
+  "category": "Control & Domination",
+  "names": [
+   "Demonstrating Omnipotence",
+   "Forced Dependency",
+   "Golden Bars",
+   "Manufactured Scarcity",
+   "Time Theft"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-16",
+  "kind": "normal",
+  "category": "Control structural",
+  "names": [
+   "Emotion Control",
+   "Ritualized Exhaustion",
+   "Spatial Invasion",
+   "Resource Sabotage",
+   "\"Managed Out\" Through Exhaustion",
+   "Evidence Traps",
+   "Moral Framing",
+   "Reproductive Coercion"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-17",
+  "kind": "normal",
+  "category": "Control structural",
+  "names": [
+   "Negative Reinforcement Traps",
+   "Moving-in-Silence",
+   "Smart-Home Coercion",
+   "Health Sabotage",
+   "Blackmail / Leverage Exploitation",
+   "Willful Blindness as Complicity",
+   "Moral Outrage as Weapon"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-18",
+  "kind": "normal",
+  "category": "Deception",
+  "names": [
+   "Exaggeration",
+   "Vague Allegations",
+   "Lying",
+   "Strategic Incompleteness",
+   "Catfishing",
+   "False Reports",
+   "Paper-Trail Traps",
+   "Compartmentalization"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-19",
+  "kind": "normal",
+  "category": "Devaluation structural",
+  "names": [
+   "Shame-as-Governance Disguised as Advice",
+   "PIP Weaponization",
+   "Credit Laundering",
+   "The \"Good Woman Program\"",
+   "Objectification",
+   "Dehumanization",
+   "Overcorrection Demands",
+   "Toxic Positivity / Weaponized Optimism"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-20",
+  "kind": "normal",
+  "category": "Digital",
+  "names": [
+   "Stalking-by-Notification",
+   "Ghosting-Orbiting Cycle",
+   "Brigading",
+   "Context Collapse Exploitation"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-21",
+  "kind": "normal",
+  "category": "Discard / institutional",
+  "names": [
+   "Ghosting as Control",
+   "Humiliation Rituals",
+   "Forced Submission",
+   "Stalking & Surveillance (Post-Separation)",
+   "Legal Abuse (Post-Separation)",
+   "Edited Recordings",
+   "SIM Swap / 2FA Interception",
+   "Intimate Image Abuse"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-22",
+  "kind": "normal",
+  "category": "Guilt & Obligation Leverage",
+  "names": [
+   "Self-Harm Threats as Leverage",
+   "Pity Plays",
+   "Martyrdom Display",
+   "Duty Scripts",
+   "Demand for Gratitude",
+   "Favor Debt",
+   "Catastrophizing as Control"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-23",
+  "kind": "normal",
+  "category": "Guilt & Obligation Leverage",
+  "names": [
+   "Aftercare Control",
+   "Competitive Victimhood",
+   "FOG",
+   "Emotional Hostage-Taking",
+   "Weaponized Tears",
+   "Obligation Installation",
+   "Guilt Legacy"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-24",
+  "kind": "normal",
+  "category": "Hooking structural",
+  "names": [
+   "Premature Exclusivity",
+   "Confirmation Bias Exploitation",
+   "Halo Effect Exploitation",
+   "Financial Dependence by Design",
+   "Platform Migration",
+   "\"Sacred Duty\" Manipulation"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-25",
+  "kind": "normal",
+  "category": "Idealization structural",
+  "names": [
+   "Strategic Self-Deprecation / Performed Humility",
+   "Credential-Costuming",
+   "Identity Performances",
+   "Social Engineering",
+   "Performative Allyship / False Solidarity"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-26",
+  "kind": "normal",
+  "category": "Identity & Conditioning",
+  "names": [
+   "Identity Hooking",
+   "Conditional Worth",
+   "Learned Helplessness",
+   "Loyalty Binds",
+   "Self-Gaslighting Induction",
+   "Fawning"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-27",
+  "kind": "normal",
+  "category": "Identity & Conditioning",
+  "names": [
+   "Internalized Conditioning",
+   "Silence Installation",
+   "Approval Addiction Cultivation",
+   "Parentification",
+   "Thought Control",
+   "Phobia Indoctrination"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-28",
+  "kind": "normal",
+  "category": "Institutional & Process",
+  "names": [
+   "Legal/Administrative Threats",
+   "Confidentiality as Weapon",
+   "Pressure to Sign",
+   "Clinical Tone Policing",
+   "False Conclusion from Normal Labs",
+   "Medical Gaslighting",
+   "Process Exhaustion"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-29",
+  "kind": "normal",
+  "category": "Institutional & Process",
+  "names": [
+   "Pseudo-Consultation",
+   "Tokenism",
+   "Individualization of Systemic Issues",
+   "Diffusion of Responsibility",
+   "Administrative Escalation",
+   "Paper Terrorism"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-30",
+  "kind": "normal",
+  "category": "Isolation / social",
+  "names": [
+   "Information Cascades",
+   "Interruption Patterns",
+   "Idea Theft in Real Time",
+   "Gatekeeping",
+   "Punishment by Proxy",
+   "Weaponized Inclusion / Strategic Containment"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-31",
+  "kind": "normal",
+  "category": "Isolation / social",
+  "names": [
+   "Controlled Opposition",
+   "Reputation Laundering",
+   "Maternal Gatekeeping",
+   "Echo Chamber Construction",
+   "Stochastic Harassment Direction",
+   "Information Laundering"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-32",
+  "kind": "normal",
+  "category": "Pressure & Coercion",
+  "names": [
+   "Ultimatums",
+   "False Dilemma",
+   "Sunk Cost Exploitation",
+   "Response-Time Policing",
+   "Interrogation",
+   "Sexual Coercion",
+   "Reverse Psychology"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-33",
+  "kind": "normal",
+  "category": "Pressure & Coercion",
+  "names": [
+   "Extinction Bursts",
+   "Door-in-the-Face",
+   "Anchoring",
+   "Emotional Flooding",
+   "Cognitive Overload",
+   "Bait and Switch",
+   "Pre-Punishment"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-34",
+  "kind": "normal",
+  "category": "Reality Distortion",
+  "names": [
+   "Countering",
+   "Selective Memory",
+   "Moving Goalposts",
+   "Thought-Stopping Clichés",
+   "Normalization",
+   "Revisionist History",
+   "Word Salad"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-35",
+  "kind": "normal",
+  "category": "Reality Distortion",
+  "names": [
+   "Contradiction Stacking",
+   "Circular Arguments",
+   "Loaded Language",
+   "Semantic Traps",
+   "Repetition as Truth",
+   "Firehose of Falsehood",
+   "Meta-Gaslighting"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-36",
+  "kind": "normal",
+  "category": "Social Warfare & Triangulation",
+  "names": [
+   "Triangulation",
+   "Forced Teaming",
+   "\"We're Family\" Erasure",
+   "Concern Trolling",
+   "\"Polite Hostile\" Environments",
+   "Silent Coalitions",
+   "Group Consolidation"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-37",
+  "kind": "normal",
+  "category": "Social Warfare & Triangulation",
+  "names": [
+   "Pile-Ons",
+   "Ostracism",
+   "Mobbing",
+   "Splitting",
+   "Golden Child Elevation",
+   "Divide and Conquer"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-38",
+  "kind": "risk",
+  "category": "Cult & Thought Reform",
+  "names": [
+   "Milieu Control",
+   "Mystical Manipulation",
+   "Demand for Purity",
+   "Sacred Science",
+   "Doctrine Over Person"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-39",
+  "kind": "risk",
+  "category": "Cult & Thought Reform",
+  "names": [
+   "Dispensing of Existence",
+   "Bounded Choice",
+   "Charismatic Authority Dependence",
+   "Forced Confession / Self-Criticism Rituals"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-40",
+  "kind": "risk",
+  "category": "Digital",
+  "names": [
+   "Deepfakes",
+   "AI Voice Cloning",
+   "Doxxing",
+   "Sock Puppets",
+   "Coordinated Reporting"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-41",
+  "kind": "risk",
+  "category": "Digital & AI",
+  "names": [
+   "Algorithmic Manipulation",
+   "Dark Patterns (AI-Adaptive)",
+   "Synthetic Persona Networks",
+   "Context Poisoning",
+   "Parasocial Manipulation Engineering",
+   "Immersive Manipulation (VR/AR)",
+   "AI-Driven Social Engineering (Automated)"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-42",
+  "kind": "risk",
+  "category": "Digital & AI",
+  "names": [
+   "Weaponized AI Empathy",
+   "Biometric Exploitation",
+   "Epistemic Coercion via AI",
+   "AI-Driven Narrative Hijacking",
+   "Algorithmic Targeting of Vulnerable Populations",
+   "Pig Butchering (Long-Con Digital Fraud)"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-43",
+  "kind": "risk",
+  "category": "Espionage & Influence Operations",
+  "names": [
+   "Honey Trapping",
+   "Agent of Influence Operations",
+   "Strategic Deception (Denial & Deception / D&D)",
+   "MICE Framework Exploitation",
+   "PSYOP Message Framing"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-44",
+  "kind": "risk",
+  "category": "Espionage & Influence Operations",
+  "names": [
+   "Strategic Leaking",
+   "Cognitive Warfare",
+   "Cyber Manipulation Operations (CMOs)",
+   "Adversarial Machine Learning"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-45",
+  "kind": "risk",
+  "category": "Organizational & Institutional",
+  "names": [
+   "Institutional Betrayal",
+   "Organizational Silence Engineering",
+   "Performance Framework Manipulation",
+   "Algorithmic Management"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-46",
+  "kind": "risk",
+  "category": "Political & Propaganda",
+  "names": [
+   "Overton Window Manipulation",
+   "Manufactured Consent",
+   "Wedge Issue Exploitation",
+   "Computational Propaganda"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "batch-47",
+  "kind": "risk",
+  "category": "Political & Propaganda",
+  "names": [
+   "Reflexive Control",
+   "Normative Messaging",
+   "False Flag Operations",
+   "Post-Truth Epistemic Manipulation"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "merged-01",
+  "kind": "merged",
+  "category": "mixed categories",
+  "names": [
+   "Deflection",
+   "Minimization",
+   "Victim Role Reversal",
+   "Breadcrumbing"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "merged-02",
+  "kind": "merged",
+  "category": "mixed categories",
+  "names": [
+   "Manufactured Intimacy",
+   "Silent Treatment",
+   "The Exception Script",
+   "Dr. Jekyll/Mr. Hyde"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "merged-03",
+  "kind": "merged",
+  "category": "mixed categories",
+  "names": [
+   "Identity Erosion",
+   "Public Humiliation",
+   "Setting Up to Fail",
+   "Financial Control"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "merged-04",
+  "kind": "merged",
+  "category": "mixed categories",
+  "names": [
+   "Nonverbal Dominance",
+   "Fabricated Evidence",
+   "Half-Truth Framing",
+   "Lying by Omission"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "merged-05",
+  "kind": "merged",
+  "category": "mixed categories",
+  "names": [
+   "Account Takeover",
+   "Emotional Blackmail",
+   "Guilt-Tripping",
+   "Weaponized Generosity"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "merged-06",
+  "kind": "merged",
+  "category": "mixed categories",
+  "names": [
+   "Covert Contracts",
+   "HR Shielding",
+   "Trash-Can Diagnosis",
+   "Weaponized Therapy-Speak"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "merged-07",
+  "kind": "merged",
+  "category": "mixed categories",
+  "names": [
+   "Choice Restriction",
+   "Foot-in-the-Door",
+   "Urgency Manufacturing",
+   "Frame Control"
+  ],
+  "status": "pending"
+ },
+ {
+  "id": "merged-08",
+  "kind": "merged",
+  "category": "mixed categories",
+  "names": [
+   "Strategic Ambiguity",
+   "Flying Monkeys",
+   "Smear Campaign",
+   "Social Proof Pressure"
+  ],
+  "status": "pending"
+ }
+]

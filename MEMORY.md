@@ -4493,3 +4493,10 @@ Work that exists only in the **Wookbook** repo (`main`): the deploy gate (`verif
 here needs adapting to `repoPath` and the Library/Workshop/Instruments layout. Not done.
 Wookbook branches `continue-jxslgw` and `impeccable-skill-setup-e7tlwl` were deliberately not merged
 (superseded / unshipped design experiments); see Wookbook `MEMORY.md`, same date.
+
+## 2026-10-20 — Pattern Decoder v9 mirrored from Wookbook (not deployed)
+310 entries (349 − 39 merged aliases), each written for its own tactic, boilerplate check clean, explicit
+safety_sensitive flag (105), `#/about` safeguards page, alias redirects. Source of truth for the pipeline is still the
+Wookbook repo (see its MEMORY.md); this tree carries the built page (`instruments/playbook/index.html`), data,
+clips, `content/codex-final/` (sources, minus packets) and the design scripts. Live is still v7; deploy needs the
+author's approval.
