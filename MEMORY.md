@@ -4506,3 +4506,8 @@ author's approval.
 `content/prose/_raw/playbook-v10.html`). The build lives in `design/build-decoder-v10.py` + `design/decoder-v10/`,
 reader metadata in `content/codex-final/reader-meta.json`. Wookbook stays the source of truth for the pipeline (its
 MEMORY.md has the full record). Live is still v7; deploying needs the author's approval.
+
+## 2026-10-22 (later) — Decoder v10.2 mirrored from Wookbook (not deployed)
+`instruments/playbook/index.html` = the v10.2 build (the sky world, the original Astra typeface, restrained layout). Source and pipeline
+live in Wookbook (`design/build-decoder-v10.py`, `design/decoder-v10/`, incl. `font/build-astra.py`); this tree carries the built page and a copy.
+Live is still v7. Deploy needs the author's approval.
