@@ -4500,3 +4500,11 @@ safety_sensitive flag (105), `#/about` safeguards page, alias redirects. Source 
 Wookbook repo (see its MEMORY.md); this tree carries the built page (`instruments/playbook/index.html`), data,
 clips, `content/codex-final/` (sources, minus packets) and the design scripts. Live is still v7; deploy needs the
 author's approval.
+
+## 2026-10-22 — find-skills installed and made universal
+`vercel-labs/skills@find-skills` is installed (copy, not symlink) at `.claude/skills/find-skills/` in Wookbook,
+Books and Castings, pinned in `skills-lock.json`. It loads every coding thread via three layers: a standing rule
+in `CLAUDE.md`, the `SessionStart` hook (`.claude/hooks/session-start.sh`) which prints the instruction, and the
+skill itself being in `.claude/skills/`. Installing found skills still needs the user's go-ahead. The user should
+never have to retype the `npx skills add` command; if the folder is missing, restore with
+`npx skills add vercel-labs/skills@find-skills -a claude-code --copy -y`.
