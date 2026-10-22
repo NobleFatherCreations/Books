@@ -99,8 +99,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v9",
+      "version": "v10",
       "changelog": [
+        {
+          "date": "2026-10-22",
+          "version": "v10",
+          "summary": "A simpler, calmer guide built for phones first. Search by what happened in everyday words (\"ignoring me\", \"reads my texts\"), answer two short questions, or browse ten plain groups or the part of life it happens in. Every entry opens with a 30-second summary, then four clear parts: understand it, is this it, what you can do, and go deeper; jargon names carry a plain subtitle and terms like advocate or legal aid explain themselves on tap. Every safety-sensitive tactic can now be reached from the guided questions, related links were rebuilt by hand, summaries and safety notes were shortened, and several scripts were made safer. Old links, merged names and saved items keep working."
+        },
         {
           "date": "2026-10-19",
           "version": "v9",

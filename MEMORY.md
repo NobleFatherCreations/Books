@@ -4500,3 +4500,9 @@ safety_sensitive flag (105), `#/about` safeguards page, alias redirects. Source 
 Wookbook repo (see its MEMORY.md); this tree carries the built page (`instruments/playbook/index.html`), data,
 clips, `content/codex-final/` (sources, minus packets) and the design scripts. Live is still v7; deploy needs the
 author's approval.
+
+## 2026-10-22 — Pattern Decoder v10 mirrored from Wookbook (not deployed)
+`instruments/playbook/index.html` is now the v10 build (byte-identical to Wookbook's
+`content/prose/_raw/playbook-v10.html`). The build lives in `design/build-decoder-v10.py` + `design/decoder-v10/`,
+reader metadata in `content/codex-final/reader-meta.json`. Wookbook stays the source of truth for the pipeline (its
+MEMORY.md has the full record). Live is still v7; deploying needs the author's approval.
