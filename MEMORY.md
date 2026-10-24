@@ -4606,3 +4606,22 @@ git history decided which side was right (never assume live wins, or the repo wi
   owner decisions). Key measured facts: entry = 29 tiles / ~1,730 words / 11.3 desktop screens / 16.5 phone screens;
   3.2 MB JSON = 90% of the page, 347 ms startup task (836 ms at 4x CPU), headline visible 3.4 s on a throttled phone;
   `.h1` defined 6x in CSS, 49 !important. No analysis finding has been implemented yet.
+
+## 2026-10-24 — Decoder v15: redesign ARCHITECTURE written (proposal only; nothing built, live stays v14)
+
+Author's answers (structured question): **replace the visual world entirely**; **answer-first entries** (yes);
+**private by default** (yes); quick exit and calm-by-default were NOT ticked; asked for a full outline
+architecture comparing three ideas before any build.
+- Doc: `docs/DECODER-V15-ARCHITECTURE.html` (private artifact https://claude.ai/artifact/45G2bv6ubjiG36JPNdhUUp).
+- Directions came from impeccable's `concept-seed` (seed key 2e781f06, mode read). Chosen: **A · Wayfinding**
+  (metro/airport signage: groups = 10 lines with letter bullets T G C L W B P S O M, tactics = stations,
+  679 cross-group `rel` links = interchanges, 109 recipes = routes; Overpass 800 sign lettering + Atkinson
+  Hyperlegible Next reading; ISO amber = safety only, exit green = Leave only). Alternates weighed and lost:
+  B · Tabbed Manual (acetate leaf over full-hue division boards), C · Cutting Bench (frames on a perforated rail).
+- Core plan: one nav model (Help · Search · Map · Kept) on every size; station = name sign + strip map +
+  answer card, safety panel first on the 105, then 4 numbered steps with lists folded >3; Compare view; SVG
+  network map built in Python; lazy per-line JSON blocks; @layer token CSS, no !important; 5-item motion budget,
+  no ambient animation; `scripts/decoder-verify.mjs` regression suite. 56-row keep/upgrade/cut ledger of v14 ideas.
+- **Open decisions (doc section 16):** Leave sign yes/no; private history replaceState vs normal; confirm A;
+  line letters; go-ahead to build. PRODUCT.md brand commitment (celestial) not yet rewritten — do it when A is confirmed.
+- Impeccable v4.7.0 update available (installed 4.0.4); not run.

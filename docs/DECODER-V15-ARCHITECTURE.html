@@ -1,0 +1,879 @@
+<title>Pattern Decoder v15 Architecture</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,700;1,400&family=Overpass:wght@600;800&display=swap">
+<style>
+/* Layout: one reading column (66ch) under a signage band; contents drawn as a vertical line diagram; phone mock-ups in a wrapping strip. */
+:root{
+  --bg:#0E1113;--panel:#181C1F;--panel2:#20262A;--fg:#F2F4F1;--fg2:#A8B0B3;--fg3:#7E878B;--rule:#2A3135;
+  --blade:#F2F4F1;--blade-ink:#0E1113;--amber:#FFB020;--exit:#00B864;--bullet-ink:#0E1113;
+  --T:#4A82FF;--G:#9469FF;--C:#1AA9DE;--L:#F05BA0;--W:#C06BE0;--B:#B07A52;--P:#F06A52;--S:#8FA3BD;--O:#17BDB0;--M:#A2C23A;
+  --mB:#FF7A1A;--mC1:#E8E2D6;
+  --sign:'Overpass',system-ui,sans-serif;--read:'Atkinson Hyperlegible Next','Atkinson Hyperlegible',system-ui,sans-serif;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){
+  --bg:#FFFFFF;--panel:#F3F5F6;--panel2:#E6EBED;--fg:#111416;--fg2:#4A5257;--fg3:#68717A;--rule:#D5DBDE;
+  --blade:#111416;--blade-ink:#FFFFFF;--amber:#9A5B00;--exit:#007A40;--bullet-ink:#FFFFFF;
+  --T:#1F55D6;--G:#6A3FE0;--C:#0B7AA6;--L:#C2316F;--W:#8E3BB0;--B:#8A5534;--P:#C2412A;--S:#5A6F8A;--O:#0A7F76;--M:#5E7A12;
+  --mB:#C24E00;--mC1:#3A3328;color-scheme:light}}
+:root[data-theme="light"]{
+  --bg:#FFFFFF;--panel:#F3F5F6;--panel2:#E6EBED;--fg:#111416;--fg2:#4A5257;--fg3:#68717A;--rule:#D5DBDE;
+  --blade:#111416;--blade-ink:#FFFFFF;--amber:#9A5B00;--exit:#007A40;--bullet-ink:#FFFFFF;
+  --T:#1F55D6;--G:#6A3FE0;--C:#0B7AA6;--L:#C2316F;--W:#8E3BB0;--B:#8A5534;--P:#C2412A;--S:#5A6F8A;--O:#0A7F76;--M:#5E7A12;
+  --mB:#C24E00;--mC1:#3A3328;color-scheme:light}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:400 17px/1.6 var(--read);margin:0;-webkit-font-smoothing:antialiased}
+.band{background:var(--panel);border-bottom:1px solid var(--rule);padding-block:40px 32px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1120px;margin:0 auto}
+.col{max-width:68ch}
+.kicker{font:600 13px/1 var(--sign);letter-spacing:.08em;text-transform:uppercase;color:var(--fg2);display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+h1,h2,h3,h4{font-family:var(--sign);font-weight:800;line-height:1.08;margin:0;text-wrap:balance;letter-spacing:-.01em}
+h1{font-size:clamp(36px,7vw,72px);margin-top:16px}
+h2{font-size:clamp(28px,4.4vw,40px);margin:0 0 16px}
+h3{font-size:22px;margin:32px 0 8px}
+h4{font-size:17px;margin:24px 0 4px}
+p{margin:0 0 16px}
+.lede{font-size:20px;line-height:1.5;color:var(--fg);max-width:60ch;margin-top:16px}
+.muted{color:var(--fg2)}
+.small{font-size:15px}
+main{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 96px}
+section{padding-top:72px}
+section+section{border-top:1px solid var(--rule);margin-top:72px}
+a{color:inherit;text-decoration-color:var(--fg3);text-underline-offset:3px}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--fg);outline-offset:3px}
+strong{font-weight:700}
+ul,ol{margin:0 0 16px;padding-left:22px}
+li{margin:0 0 8px}
+li::marker{color:var(--fg3)}
+code{font:600 .88em/1 var(--sign);background:var(--panel2);padding:2px 6px}
+
+/* line bullet: the transit roundel stripped to a circle and a letter */
+.b{display:inline-grid;place-items:center;width:1.5em;height:1.5em;border-radius:50%;font:800 .78em/1 var(--sign);color:var(--bullet-ink);vertical-align:-.25em;flex:none}
+.b.T{background:var(--T)}.b.G{background:var(--G)}.b.C{background:var(--C)}.b.L{background:var(--L)}.b.W{background:var(--W)}
+.b.B{background:var(--B)}.b.P{background:var(--P)}.b.S{background:var(--S)}.b.O{background:var(--O)}.b.M{background:var(--M)}
+.lines{display:flex;gap:6px;flex-wrap:wrap;margin-top:24px}
+
+/* contents as a line diagram: a real sequence, so the stations are numbered */
+.route{list-style:none;padding:0;margin:32px 0 0;position:relative;display:grid;gap:0}
+.route::before{content:"";position:absolute;left:9px;top:12px;bottom:12px;width:4px;background:var(--fg)}
+.route li{position:relative;padding:6px 0 6px 40px;margin:0}
+.route li::before{content:"";position:absolute;left:3px;top:13px;width:16px;height:16px;border-radius:50%;background:var(--bg);box-shadow:0 0 0 4px var(--fg)}
+.route a{font:600 17px/1.3 var(--sign);text-decoration:none}
+.route a:hover{text-decoration:underline}
+.route .n{color:var(--fg3);font:600 13px/1 var(--sign);margin-right:8px;font-variant-numeric:tabular-nums}
+
+/* sign panels */
+.panel{background:var(--panel);padding:24px;margin:24px 0}
+.warn{border-left:8px solid var(--amber);background:var(--panel)}
+.warn .kicker{color:var(--amber)}
+.exit{display:inline-flex;align-items:center;gap:8px;background:var(--exit);color:#fff;font:800 15px/1 var(--sign);padding:8px 12px}
+:root[data-theme="light"] .exit{color:#fff}
+.verdict{display:grid;gap:12px;counter-reset:v;padding:0;list-style:none}
+.verdict li{counter-increment:v;display:grid;grid-template-columns:32px 1fr;gap:12px;margin:0}
+.verdict li::before{content:counter(v);font:800 15px/28px var(--sign);text-align:center;background:var(--blade);color:var(--blade-ink);height:28px}
+
+/* tables */
+.tbl{overflow-x:auto;margin:24px 0;border-top:2px solid var(--fg)}
+table{border-collapse:collapse;width:100%;min-width:640px;font-size:15px;line-height:1.45}
+th,td{text-align:left;vertical-align:top;padding:12px 16px 12px 0;border-bottom:1px solid var(--rule)}
+th{font:600 13px/1.2 var(--sign);letter-spacing:.06em;text-transform:uppercase;color:var(--fg2)}
+td:first-child{font-weight:700;min-width:160px}
+.tag{display:inline-block;font:800 12px/1 var(--sign);letter-spacing:.06em;text-transform:uppercase;padding:5px 7px;white-space:nowrap}
+.keep{background:var(--fg);color:var(--bg)}
+.up{background:var(--T);color:var(--bullet-ink)}
+.new{background:var(--O);color:var(--bullet-ink)}
+.cut{box-shadow:inset 0 0 0 1.5px var(--fg3);color:var(--fg2)}
+.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+
+/* direction cards */
+.dirs{display:grid;gap:24px;margin-top:32px}
+.dir{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:32px;background:var(--panel);padding:32px;align-items:start}
+.dir.chosen{box-shadow:inset 0 0 0 3px var(--fg)}
+.dir .name{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.chips{display:flex;gap:6px;margin:12px 0 16px;flex-wrap:wrap}
+.chips i{width:28px;height:28px;display:block;box-shadow:inset 0 0 0 1px rgba(127,127,127,.35)}
+@media (max-width:820px){.dir{grid-template-columns:1fr;padding:24px}.dir .phone{margin:0 auto}}
+
+/* phone mock-ups (always drawn in the proposed night palette, they are pictures of screens) */
+.phones{display:flex;gap:24px;flex-wrap:wrap;margin:32px 0}
+figure{margin:0}
+figcaption{font:600 13px/1.35 var(--sign);color:var(--fg2);margin-top:12px;max-width:260px}
+.phone{width:260px;height:540px;border-radius:30px;background:#0E1113;box-shadow:0 0 0 8px #2A3135,0 0 0 9px #3A4247;overflow:hidden;position:relative;color:#F2F4F1;font:400 12.5px/1.5 var(--read);flex:none}
+.phone *{--x:0}
+.ph-top{display:flex;align-items:center;justify-content:space-between;padding:14px 14px 8px;font:800 12px/1 var(--sign)}
+.ph-priv{font:600 9.5px/1 var(--sign);color:#A8B0B3;letter-spacing:.04em}
+.ph-exit{background:#00B864;color:#fff;font:800 10px/1 var(--sign);padding:5px 7px;display:inline-flex;gap:4px;align-items:center}
+.ph-body{padding:4px 14px}
+.ph-h{font:800 25px/1.05 var(--sign);margin:14px 0 8px;letter-spacing:-.01em}
+.ph-sub{color:#A8B0B3;font-size:12px;margin:0 0 12px}
+.ph-blade{display:flex;align-items:center;gap:10px;padding:13px 12px;margin:0 0 6px;background:#181C1F;font:800 13px/1.15 var(--sign)}
+.ph-blade.pri{background:#F2F4F1;color:#0E1113}
+.ph-blade small{display:block;font:400 10.5px/1.3 var(--read);color:#A8B0B3;margin-top:3px}
+.ph-blade.pri small{color:#3A4247}
+.ph-blade .ar{margin-left:auto;font-size:16px}
+.ph-pict{width:22px;height:22px;flex:none;border-radius:50%;display:grid;place-items:center;font:800 12px/1 var(--sign);background:#0E1113;color:#F2F4F1}
+.ph-blade:not(.pri) .ph-pict{background:#2A3135}
+.ph-bar{position:absolute;left:0;right:0;bottom:0;display:grid;grid-template-columns:repeat(4,1fr);background:#181C1F;border-top:1px solid #2A3135;padding:8px 4px 18px;font:600 9.5px/1 var(--sign);text-align:center;color:#A8B0B3}
+.ph-bar b{display:block;width:20px;height:20px;margin:0 auto 4px;border-radius:50%;box-shadow:inset 0 0 0 2px #A8B0B3}
+.ph-bar .on{color:#F2F4F1}.ph-bar .on b{background:#F2F4F1;box-shadow:none}
+.ph-k{font:600 9.5px/1 var(--sign);letter-spacing:.08em;text-transform:uppercase;color:#A8B0B3;margin:14px 0 6px}
+.ph-lb{display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;font:800 10px/1 var(--sign);color:#0E1113;flex:none}
+.ph-row{display:flex;gap:8px;align-items:center;padding:8px 0;border-bottom:1px solid #2A3135;font:600 12px/1.25 var(--sign)}
+.ph-row small{display:block;font:400 10.5px/1.3 var(--read);color:#A8B0B3}
+.ph-station{border-left:6px solid var(--lc,#4A82FF);padding:4px 0 4px 10px;margin:8px 0 10px}
+.ph-station .ph-h{margin:2px 0 4px}
+.ph-strip{display:flex;align-items:center;gap:0;margin:6px 0 12px;font:600 9px/1.2 var(--sign);color:#A8B0B3}
+.ph-strip .ln{flex:1;height:3px;background:var(--lc,#4A82FF)}
+.ph-strip .st{width:9px;height:9px;border-radius:50%;background:#0E1113;box-shadow:0 0 0 2px var(--lc,#4A82FF);flex:none}
+.ph-strip .here{width:13px;height:13px;background:#F2F4F1;box-shadow:0 0 0 3px var(--lc,#4A82FF)}
+.ph-card{background:#181C1F;padding:12px;margin:0 0 8px}
+.ph-card p{margin:0 0 8px}
+.ph-q{border-left:3px solid var(--lc,#4A82FF);padding-left:8px;font-weight:700;margin:4px 0}
+.ph-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:3px;margin:8px 0}
+.ph-steps i{height:4px;background:#2A3135}.ph-steps i.on{background:#F2F4F1}
+.ph-tabs{display:flex;gap:4px;font:600 10px/1 var(--sign);margin:4px 0 10px;overflow:hidden}
+.ph-tabs span{padding:7px 8px;background:#181C1F;white-space:nowrap;color:#A8B0B3}.ph-tabs .on{background:#F2F4F1;color:#0E1113}
+.ph-warn{background:#181C1F;border-left:6px solid #FFB020;padding:10px 10px 10px 10px;margin:6px 0 10px}
+.ph-warn b{font:800 10px/1 var(--sign);color:#FFB020;letter-spacing:.06em;text-transform:uppercase;display:flex;gap:6px;align-items:center;margin-bottom:6px}
+.ph-tri{width:0;height:0;border-left:6px solid transparent;border-right:6px solid transparent;border-bottom:10px solid #FFB020}
+.ph-check{display:flex;gap:8px;align-items:flex-start;padding:8px 0;border-bottom:1px solid #2A3135}
+.ph-check i{width:16px;height:16px;flex:none;box-shadow:inset 0 0 0 2px #A8B0B3;margin-top:1px}
+.ph-check i.on{background:#F2F4F1;box-shadow:none}
+.ph-why{font-size:10.5px;color:#A8B0B3;margin-top:2px}
+.ph-why b{color:#F2F4F1;font-weight:700}
+.ph-more{font:600 11px/1 var(--sign);color:#F2F4F1;padding:10px 0;display:block}
+.ph-search{display:flex;align-items:center;gap:8px;background:#F2F4F1;color:#0E1113;padding:11px 12px;font:600 12px/1 var(--read);margin:8px 0 6px}
+.ph-hl{background:rgba(255,255,255,.14);padding:0 2px}
+/* the three directions, each in its own world */
+.phone.manual{background:#5A3FD0;color:#111}
+.man-leaf{background:rgba(246,244,238,.93);margin:14px 30px 14px 12px;padding:14px;height:calc(100% - 28px);font:400 11.5px/1.55 Georgia,serif}
+.man-leaf h5{font:800 18px/1.05 var(--sign);margin:0 0 6px;letter-spacing:-.01em}
+.man-leaf .m{font:600 9px/1 ui-monospace,monospace;color:#555;margin:8px 0 4px;letter-spacing:.06em}
+.man-tabs{position:absolute;right:0;top:40px;bottom:40px;width:18px;display:grid;grid-template-rows:4fr 4fr 3fr 2.3fr 2.7fr 3fr 2fr 3fr 2.5fr 3.4fr;gap:2px}
+.man-tabs i:nth-child(1){background:#2F6BFF}.man-tabs i:nth-child(2){background:#F2F4F1;margin-left:-8px}.man-tabs i:nth-child(3){background:#12A0D0}.man-tabs i:nth-child(4){background:#E0418D}.man-tabs i:nth-child(5){background:#A84FD0}.man-tabs i:nth-child(6){background:#C9862F}.man-tabs i:nth-child(7){background:#2DA86A}.man-tabs i:nth-child(8){background:#7C8DA6}.man-tabs i:nth-child(9){background:#0FA89C}.man-tabs i:nth-child(10){background:#8DB52A}
+.phone.bench{background:#0A0A0A}
+.bench-rail{background:#FF5A1F;height:120px;position:relative;padding:12px}
+.bench-rail::before,.bench-rail::after{content:"";position:absolute;left:8px;right:8px;height:6px;background:repeating-linear-gradient(90deg,#0A0A0A 0 8px,transparent 8px 16px)}
+.bench-rail::before{top:6px}.bench-rail::after{bottom:6px}
+.bench-frames{display:flex;gap:6px;margin-top:14px}
+.bench-frames span{flex:1;height:64px;background:#F2F2F2;color:#111;font:800 8.5px/1.15 var(--sign);padding:5px;text-transform:uppercase}
+.bench-frames span.x{background:#F2F2F2;position:relative}
+.bench-frames span.x::after{content:"";position:absolute;inset:8px 6px auto auto;width:0;height:0;border-left:12px solid transparent;border-top:16px solid #FF5A1F}
+.bench-body{padding:14px 12px;font:800 11px/1.2 var(--sign);color:#F2F2F2;text-transform:uppercase;letter-spacing:.02em}
+.bench-body p{font:400 11.5px/1.5 var(--read);text-transform:none;letter-spacing:0;color:#CFCFCF}
+.bench-pins{display:flex;gap:6px;margin-top:10px}.bench-pins i{flex:1;height:30px;box-shadow:inset 0 0 0 1.5px #FF5A1F}
+
+/* desktop mock */
+.desk{background:#0E1113;color:#F2F4F1;box-shadow:0 0 0 8px #2A3135;border-radius:10px;overflow:hidden;margin:32px 0;font:400 12.5px/1.55 var(--read)}
+.desk-in{display:grid;grid-template-columns:180px minmax(0,1fr) 220px;min-height:420px}
+.desk-nav{background:#181C1F;padding:16px;display:grid;align-content:start;gap:6px;font:800 12px/1.2 var(--sign)}
+.desk-nav span{padding:8px;display:flex;gap:8px;align-items:center}.desk-nav .on{background:#F2F4F1;color:#0E1113}
+.desk-read{padding:24px 32px;max-width:62ch}
+.desk-side{padding:24px 16px;border-left:1px solid #2A3135}
+.desk-scroll{overflow-x:auto}
+.desk-scroll .desk{min-width:860px}
+
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:24px}
+.swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin:24px 0}
+.sw{background:var(--panel);padding:12px;font-size:13px;line-height:1.35}
+.sw i{display:block;height:40px;margin-bottom:8px}
+.sw b{font:800 13px/1.2 var(--sign);display:block}
+.typespec{display:grid;gap:16px;margin:24px 0}
+.typespec div{display:grid;grid-template-columns:150px minmax(0,1fr);gap:16px;align-items:baseline;border-bottom:1px solid var(--rule);padding-bottom:12px}
+.typespec span{font:600 13px/1.3 var(--sign);color:var(--fg2)}
+@media (max-width:560px){.typespec div{grid-template-columns:1fr;gap:4px}}
+details{background:var(--panel);margin:12px 0;padding:0 20px}
+details summary{cursor:pointer;font:800 17px/1.3 var(--sign);padding:16px 0;list-style:none;display:flex;gap:12px;align-items:center}
+details summary::-webkit-details-marker{display:none}
+details summary::after{content:"+";margin-left:auto;font-size:22px;color:var(--fg2)}
+details[open] summary::after{content:"–"}
+details>div{padding-bottom:16px}
+@media (prefers-reduced-motion:no-preference){a,summary{transition:color .2s}}
+</style>
+
+<header class="band">
+  <div class="wrap">
+    <div class="kicker"><span>The Pattern Decoder</span><span aria-hidden="true">·</span><span>v15 architecture</span><span aria-hidden="true">·</span><span>Proposal, 24 Oct 2026</span></div>
+    <h1>Put a name to what is happening. Then find the way out.</h1>
+    <p class="lede">This plan rebuilds the whole Decoder interface. It compares three directions, picks one, and explains every decision, including what happens to each advanced technique v14 uses today. None of it has been built or deployed yet. The words in all 310 entries stay exactly as they are.</p>
+    <div class="lines" aria-label="The ten lines, one per group of tactics">
+      <span class="b T" title="Twisting what is real">T</span><span class="b G" title="Guilt, pressure and fear">G</span><span class="b C" title="Control over your life">C</span><span class="b L" title="Love that hooks you">L</span><span class="b W" title="Put-downs that wear you down">W</span><span class="b B" title="Dodging blame">B</span><span class="b P" title="Turning people against you">P</span><span class="b S" title="Work, school and systems">S</span><span class="b O" title="Online and technology">O</span><span class="b M" title="Groups, cults and propaganda">M</span>
+    </div>
+  </div>
+</header>
+
+<main>
+<div class="wrap">
+
+<nav aria-label="Contents">
+  <ol class="route">
+    <li><a href="#verdict"><span class="n">01</span>The short version</a></li>
+    <li><a href="#answers"><span class="n">02</span>How your answers shaped it</a></li>
+    <li><a href="#three"><span class="n">03</span>Three directions, compared</a></li>
+    <li><a href="#why"><span class="n">04</span>Why Wayfinding wins</a></li>
+    <li><a href="#map"><span class="n">05</span>Site map and navigation</a></li>
+    <li><a href="#screens"><span class="n">06</span>Every screen, and why</a></li>
+    <li><a href="#system"><span class="n">07</span>The visual system</a></li>
+    <li><a href="#motion"><span class="n">08</span>Motion budget</a></li>
+    <li><a href="#privacy"><span class="n">09</span>Privacy and safety model</a></li>
+    <li><a href="#a11y"><span class="n">10</span>Accessibility</a></li>
+    <li><a href="#perf"><span class="n">11</span>Performance and engineering</a></li>
+    <li><a href="#ledger"><span class="n">12</span>Every v14 technique: keep, upgrade or cut</a></li>
+    <li><a href="#targets"><span class="n">13</span>Targets we will measure</a></li>
+    <li><a href="#plan"><span class="n">14</span>Build plan</a></li>
+    <li><a href="#risks"><span class="n">15</span>What we lose, and the risks</a></li>
+    <li><a href="#decide"><span class="n">16</span>Decisions I need from you</a></li>
+  </ol>
+</nav>
+
+<section id="verdict"><div class="col">
+  <h2>The short version</h2>
+  <ol class="verdict">
+    <li><span><strong>The new world is public wayfinding:</strong> the sign system of a metro or an airport. It is the most widely read design language there is, and it was built for people who are stressed, hurried and reading at a glance.</span></li>
+    <li><span><strong>The Decoder's data really is a network.</strong> The 10 groups become 10 lines and the 310 tactics become stations. The 679 links between related tactics in different groups become interchanges, and the 109 documented sequences become routes. Unlike the star coordinates, every position on the new map means something true.</span></li>
+    <li><span><strong>Entries become answer-first.</strong> Screen one is the station sign, the plain answer and two things it sounds like, with safety above everything on the 105 sensitive entries. The other parts follow as four numbered steps with long lists folded. The full read drops from 16.5 phone screens to about 5.</span></li>
+    <li><span><strong>One navigation model on every screen size:</strong> four doors (Help, Search, Map, Kept) in the same order on every device, at the bottom of a phone and in a side column on a computer.</span></li>
+    <li><span><strong>Private by default,</strong> as you chose. Nothing is stored until the reader turns on "Keep things on this device".</span></li>
+    <li><span><strong>Calm by construction.</strong> Nothing moves on its own. Five short movements are left, each one answering a tap: grain, meteors, pointer light, magnetism and blur reveals are gone, and idle CPU drops to zero.</span></li>
+    <li><span><strong>Type you can read when you are shaken.</strong> Sentence-case road-sign lettering (Overpass, from the US Highway Gothic tradition) for signs, and Atkinson Hyperlegible Next, designed for low-vision readers, for reading.</span></li>
+    <li><span><strong>Faster on a cheap phone:</strong> only a 150 KB index is parsed at start and each entry is parsed when opened. The target is the headline on screen in 1.2 s on a throttled phone (3.4 s today) and the longest task under 150 ms (836 ms today).</span></li>
+    <li><span><strong>Cleaner to maintain:</strong> one token-based stylesheet with no override layers and no <code>!important</code>, plus a real regression suite in the repo.</span></li>
+    <li><span><strong>The single biggest change:</strong> a reader who does not know the word for what is happening is now one big, obvious tap from help. The two questions show <em>why</em> each match was suggested.</span></li>
+  </ol>
+</div></section>
+
+<section id="answers"><div class="col">
+  <h2>How your answers shaped it</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>You chose</th><th>What it means in the build</th></tr></thead>
+    <tbody>
+      <tr><td>Replace the world entirely</td><td>The observatory, the star canvas, Astra-in-capitals, Cormorant, glass and grain are retired as the look. Their good ideas are carried into the new world where they still help the reader (section 12 goes through all 56). PRODUCT.md's brand commitment to the celestial chart is rewritten to match.</td></tr>
+      <tr><td>Answer-first entries</td><td>Station sign and answer card first, then four numbered steps (Is this it? · Understand it · What you can do · Go deeper). Lists longer than three items are folded behind "Show all". No words are cut.</td></tr>
+      <tr><td>Private by default</td><td>No localStorage, sessionStorage or cookies until the reader opts in. Tab titles stay neutral, and the history trail is not grown. Saving, recent reads and visited stations appear only after opt-in.</td></tr>
+      <tr><td>Quick exit (not ticked)</td><td>Not assumed. I still recommend it strongly, because it is the most native element of a wayfinding world (the green exit sign) and the one feature that protects someone reading in secret. It is one switch in the build. <a href="#decide">Decision 1</a>.</td></tr>
+      <tr><td>Calm by default (not ticked)</td><td>The new world is calm without needing a setting. No ambient layers exist to switch on, so a separate Calm button would have nothing to do. Motion preferences live in Settings and follow the phone's own setting.</td></tr>
+      <tr><td>"Give me the full architecture first"</td><td>This document. Nothing is built until you say go. Live stays on v14.</td></tr>
+    </tbody>
+  </table></div>
+</div></section>
+
+<section id="three">
+  <div class="col">
+    <h2>Three directions, compared</h2>
+    <p>To avoid the obvious answers, I started from the reader's own world, not the topic. The topic invites two predictable sites: the soft pastel "support resource" page, and its opposite, the dark cinematic experience (which v14 already is). Both are off the list. I drew seven visual systems from things this reader already knows by heart (a field guide, a first-aid manual, a phrasebook, a patient leaflet, public signage, a library catalogue, a diary). The design skill then assigned which one to build and dealt alternatives from a catalogue of complete design systems, so the choice was not just my habit. I weighed each one on two questions: <strong>would this reader recognise and trust it</strong>, and <strong>does it make the product clearer</strong>?</p>
+  </div>
+
+  <div class="dirs">
+    <article class="dir chosen" aria-labelledby="d1">
+      <div>
+        <div class="name"><h3 id="d1" style="margin:0">A · Wayfinding</h3><span class="tag keep">Chosen</span></div>
+        <div class="chips" aria-label="Palette"><i style="background:#0E1113"></i><i style="background:#F2F4F1"></i><i style="background:#4A82FF"></i><i style="background:#F05BA0"></i><i style="background:#17BDB0"></i><i style="background:#FFB020"></i><i style="background:#00B864"></i></div>
+        <p><strong>World:</strong> the sign system of a metro and an airport. Night-black sign panels, enamel-white lettering, ten line colours each with a letter, ISO safety amber for danger and emergency-exit green for leaving. Heavy sentence-case sign lettering over a hyperlegible reading face. Rectangular sign blades, round line bullets.</p>
+        <p><strong>Structure:</strong> groups are lines, tactics are stations, related tactics in other groups are interchanges, and documented sequences are routes. Home is the concourse with three big directional signs. An entry is a station: its name sign, a strip map showing where you are on the line, and "Change here for" the look-alikes.</p>
+        <p><strong>Signature moment:</strong> tap a result and its line colour sweeps across as the row becomes the station sign. A real shared-element transition, 280 ms, only on tap.</p>
+        <p><strong>For this reader:</strong> it is instantly familiar, and it was designed for exactly their state: stressed, hurried, in a strange place. It answers "where am I, where can I go, how do I get out". On a shared screen it looks like a utility.</p>
+        <p class="muted small"><strong>Risk:</strong> a journey metaphor could suggest that abuse is a track with a fixed next stop. The fix is in the copy: routes are "patterns that often appear together", never "next stop". There are no trains, no cartoons and no "destination".</p>
+      </div>
+      <figure><div class="phone" role="img" aria-label="Wayfinding home screen on a phone">
+        <div class="ph-top"><span>Pattern Decoder</span><span class="ph-exit">Leave →</span></div>
+        <div class="ph-body">
+          <div class="ph-priv">PRIVATE · NOTHING IS SAVED</div>
+          <div class="ph-h">Put a name to what is happening.</div>
+          <p class="ph-sub">310 tactics in plain words. How to tell if one fits, and what you can do.</p>
+          <div class="ph-blade pri"><span class="ph-pict">?</span><span>Help me figure it out<small>Answer two short questions</small></span><span class="ar">→</span></div>
+          <div class="ph-blade"><span class="ph-pict">⌕</span><span>I know what to look for<small>Search by what was said or done</small></span><span class="ar">→</span></div>
+          <div class="ph-blade"><span class="ph-pict">◎</span><span>See all 310 on the map<small>10 lines, one per kind</small></span><span class="ar">→</span></div>
+          <div class="ph-k">Lines</div>
+          <div class="ph-row"><span class="ph-lb" style="background:#4A82FF">T</span>Twisting what is real<span style="margin-left:auto;color:#7E878B">43</span></div>
+          <div class="ph-row"><span class="ph-lb" style="background:#9469FF">G</span>Guilt, pressure and fear<span style="margin-left:auto;color:#7E878B">44</span></div>
+        </div>
+        <div class="ph-bar"><span class="on"><b></b>Home</span><span><b></b>Search</span><span><b></b>Map</span><span><b></b>Kept</span></div>
+      </div><figcaption>A · Home. The most useful route for someone who can't name it is the brightest sign on the screen.</figcaption></figure>
+    </article>
+
+    <article class="dir" aria-labelledby="d2">
+      <div>
+        <div class="name"><h3 id="d2" style="margin:0">B · The Tabbed Manual</h3><span class="tag cut">Alternate</span></div>
+        <div class="chips" aria-label="Palette"><i style="background:#5A3FD0"></i><i style="background:#F6F4EE"></i><i style="background:#2F6BFF"></i><i style="background:#E0418D"></i><i style="background:#C9862F"></i><i style="background:#2DA86A"></i></div>
+        <p><strong>World:</strong> a thick reference manual lying open at a coloured divider. Each of the ten groups is a full-strength coloured board, and the text sits on a milky acetate leaf hinged over it. A stepped tab rail down the edge shows all ten divisions, each tab sized by how many tactics it holds.</p>
+        <p><strong>Structure:</strong> a book. Divisions, then entries as leaves, with the tab rail always visible as the table of contents. Reading is one size of serif text at a 62-character measure, and labels are set in a typewriter-style face.</p>
+        <p><strong>Signature moment:</strong> nothing eases. Every change is a two-frame hinge flip in 90 ms, like turning a hard page. That makes it the calmest of the three by nature.</p>
+        <p><strong>For this reader:</strong> excellent reading comfort, and the tab rail answers "how much is there and where am I" at a glance. But boxed-software manuals are a niche, nostalgic object most readers have never held, and a phone at night showing a full screen of saturated violet is bright and conspicuous.</p>
+        <p class="muted small"><strong>Weighing:</strong> product clarity is high; audience recognition is medium. It lost to A because it is less familiar and louder on a phone in the dark. Its best idea, a rail showing each division's real size, is carried into A as the line index.</p>
+      </div>
+      <figure><div class="phone manual" role="img" aria-label="Tabbed manual entry on a phone">
+        <div class="man-leaf">
+          <div class="m">DIVISION 2 · GUILT, PRESSURE AND FEAR</div>
+          <h5>Emotional blackmail</h5>
+          <p>Someone makes their love, their company or their goodwill depend on you giving in, so saying no feels like putting the whole relationship at risk.</p>
+          <div class="m">IS THIS IT?</div>
+          <p>Notice whether the cost of saying no keeps growing each time you hold a line.</p>
+        </div>
+        <div class="man-tabs" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </div><figcaption>B · An entry as a leaf over its division's board, with the tab rail on the fore edge.</figcaption></figure>
+    </article>
+
+    <article class="dir" aria-labelledby="d3">
+      <div>
+        <div class="name"><h3 id="d3" style="margin:0">C · The Cutting Bench</h3><span class="tag cut">Alternate</span></div>
+        <div class="chips" aria-label="Palette"><i style="background:#0A0A0A"></i><i style="background:#FF5A1F"></i><i style="background:#F2F2F2"></i><i style="background:#2E2E2E"></i></div>
+        <p><strong>World:</strong> a film editor's bench flattened onto a screen. A perforated orange rail crosses every page, each tactic is a punched white frame on the rail, a folded tape flag marks where you stopped, and anything you set aside hangs on pins below.</p>
+        <p><strong>Structure:</strong> a strip you scrub. Entries are frames in a row that snap into place, saved items hang on pins, and the flag brings you back to where you were yesterday. State is shown by a mark (cross, flag, pin), not by colour.</p>
+        <p><strong>Signature moment:</strong> scrubbing the rail with inertia until it settles on a frame, while set-aside frames swing gently on their pins.</p>
+        <p><strong>For this reader:</strong> it is genuinely good at "come back tomorrow" and "set two aside to compare". But orange covering a third of every screen clashes with amber as the safety colour, the editing vocabulary is foreign to most readers, and scrubbing a strip is a poor way to read 1,700 words.</p>
+        <p class="muted small"><strong>Weighing:</strong> audience recognition is low and product clarity is medium. It lost to A. Its "flag where you stopped" idea is carried into A as "Continue where you left off", for readers who opt in to saving.</p>
+      </div>
+      <figure><div class="phone bench" role="img" aria-label="Cutting bench screen on a phone">
+        <div class="bench-rail"><div class="bench-frames"><span>Counter&shy;ing</span><span class="x">Gas&shy;light&shy;ing</span><span>Selective memory</span></div></div>
+        <div class="bench-body">Frame 19 · Twisting what is real<p>Someone keeps telling you that what you clearly remember didn't happen, until you start wondering whether you can trust your own mind.</p>Set aside<div class="bench-pins"><i></i><i></i><i></i></div></div>
+      </div><figcaption>C · Tactics as frames on a rail; the flag marks where you stopped.</figcaption></figure>
+    </article>
+  </div>
+
+  <div class="col">
+    <h3>The scorecard</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Criterion</th><th>A · Wayfinding</th><th>B · Manual</th><th>C · Bench</th></tr></thead>
+      <tbody>
+        <tr><td>Reader recognises it at once</td><td>High: everyone has read metro and airport signs</td><td>Medium: few have used one</td><td>Low: few have stood at an editing bench</td></tr>
+        <tr><td>Makes the product clearer</td><td>High: lines, interchanges and routes are true to the data</td><td>High: divisions and extent</td><td>Medium: good for saving, weak for reading</td></tr>
+        <tr><td>One-handed on a phone</td><td>Thumb-zone sign bar, big sign blades</td><td>Tab rail is a thin target on a phone</td><td>Scrubbing is easy, reading isn't</td></tr>
+        <tr><td>Reading comfort</td><td>Hyperlegible face, answer first</td><td>Best: one size of serif</td><td>Condensed caps tire the eyes</td></tr>
+        <tr><td>Discreet in a dark room</td><td>Dark panels, colour only in small bullets</td><td>Full-screen saturated boards</td><td>Large areas of bright orange</td></tr>
+        <tr><td>Safety signalling</td><td>ISO amber for danger, green for exit: universally understood</td><td>Vermilion errata slips</td><td>Clashes with the amber already in use</td></tr>
+        <tr><td>Motion cost</td><td>Five short movements, all on tap</td><td>Nearly none</td><td>Physics on scrub and swing</td></tr>
+        <tr><td>Build effort</td><td>Medium to high (network map)</td><td>Medium</td><td>High (strip physics)</td></tr>
+      </tbody>
+    </table></div>
+    <p class="small muted"><strong>Also dealt and set aside:</strong> a hand-drawn zine with mascots (cheerful doodles trivialise harm and would be cruel on a safety entry), an "alphabet storm" of letters breaking into weather (it attacks readability, the one thing this product cannot spare), a tensegrity sculpture (pressure and tension as a metaphor is apt, but too abstract to navigate by), and a cassette j-card (needs audio the product doesn't have). <strong>The standard route also stays open:</strong> a clean, light, conventional support-site layout, done properly. Ask and I'll build that instead, at full quality.</p>
+  </div>
+</section>
+
+<section id="why"><div class="col">
+  <h2>Why Wayfinding wins</h2>
+  <h3>It was built for a frightened reader</h3>
+  <p>Signage design is about one problem: someone under stress, in an unfamiliar place, needs to know where they are, where to go and how to get out, in a glance. That is this reader's state exactly. The same rules carry over: few choices at once (Hick's law), big targets where the thumb lands (Fitts's law), mixed-case lettering because word shapes read faster than capitals (the reason Kinneir and Calvert used mixed case on British road signs), colour never carrying meaning alone, and safety colours that mean the same thing everywhere.</p>
+  <h3>The metaphor is true to the content</h3>
+  <p>The night sky placed stars by a layout algorithm, and the chart coordinates (such as 19ʰ 53ᵐ +36.8°) pointed at nothing real. In the network, every mark encodes a fact in the data:</p>
+  <ul>
+    <li><strong>Line</strong> = the tactic's group (10 lines; 19 to 44 stations each).</li>
+    <li><strong>Neighbouring stations</strong> = closely related tactics in the same group. The build orders each line so that adjacent stations are linked in the data (1,047 same-group links to work with).</li>
+    <li><strong>Interchange</strong> = a related tactic in another group. 679 such links; 269 of 310 stations have at least one. The busiest pairs are Truth ↔ Blame (70), Control ↔ Pressure (57) and Pressure ↔ Wear (48), so those lines run side by side on the map.</li>
+    <li><strong>Route</strong> = one of the 109 documented sequences, averaging 5.9 tactics.</li>
+  </ul>
+  <h3>It turns the hardest question into a native feature</h3>
+  <p>"Is it this, or that?" is the reader's hardest question, and v14 answers it with a paragraph. In a transit system, the question has a sign: <strong>Change here for</strong>. Each station lists its interchanges with their line bullets, and each one has a <strong>Compare</strong> button that sets the two side by side, using the existing "how to tell it apart" text and both entries' "Is this it?" signs.</p>
+  <h3>Calm without being bland</h3>
+  <p>A metro at night has character: hard black, bright enamel, ten strong colours and one heavy typeface. None of it moves unless you do. That gives the energy you asked for in v13 and v14 without the cost to battery, attention and nerves.</p>
+</div></section>
+
+<section id="map"><div class="col">
+  <h2>Site map and navigation</h2>
+  <h3>One model, every screen</h3>
+  <p>v14 had two navigation systems: header links, ⌘K and a rail on a computer, and a tab bar plus chip bar on a phone. v15 has one. The same four doors, in the same order, with the same pictograms:</p>
+  <div class="grid2">
+    <div class="panel" style="margin:0"><h4 style="margin-top:0">Phone</h4><p class="small" style="margin:0">A sign bar along the bottom, in the thumb zone: Help · Search · Map · Kept. Above it, a slim header: the wordmark, a Private status line, Settings, and the Leave sign at top right. A Back sign sits under the header on every page except Home.</p></div>
+    <div class="panel" style="margin:0"><h4 style="margin-top:0">Computer</h4><p class="small" style="margin:0">The same four signs stand as a column on the left, like a pylon sign, with the ten line bullets beneath them as the index. ⌘K and / open Search from anywhere, as a shortcut to the same page.</p></div>
+  </div>
+  <h3>Routes</h3>
+  <p>Every v14 and v9 link keeps working; old paths redirect.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Page</th><th>New address</th><th>Replaces</th><th>Job</th></tr></thead>
+    <tbody>
+      <tr><td>Home (concourse)</td><td><code>#/</code></td><td><code>#/</code></td><td>Three directional signs, the line index, continue reading (if saving is on)</td></tr>
+      <tr><td>Help me figure it out</td><td><code>#/help</code></td><td><code>#/guide</code></td><td>2–3 steps, then matches with reasons</td></tr>
+      <tr><td>Search (departures board)</td><td><code>#/search</code></td><td><code>#/search</code>, ⌘K</td><td>Everyday words, pasted phrases, names; rows with line bullets</td></tr>
+      <tr><td>Map</td><td><code>#/map</code></td><td><code>#/sky</code></td><td>The network: 10 lines, 310 stations, interchanges on demand</td></tr>
+      <tr><td>Line</td><td><code>#/line/truth</code></td><td><code>#/browse/truth</code></td><td>The line diagram: every station in order, top to bottom</td></tr>
+      <tr><td>Station (entry)</td><td><code>#/entry/gaslighting</code></td><td>same</td><td>Answer first, then four steps</td></tr>
+      <tr><td>Compare</td><td><code>#/compare/a/b</code></td><td>new</td><td>Two look-alikes side by side</td></tr>
+      <tr><td>Routes</td><td><code>#/routes</code>, <code>#/routes/grooming</code></td><td><code>#/patterns</code></td><td>Documented sequences, drawn as routes across lines</td></tr>
+      <tr><td>All lines (A–Z, by setting, most common)</td><td><code>#/lines</code></td><td><code>#/browse</code>, <code>#/all</code>, <code>#/common</code>, <code>#/where</code></td><td>One index with three tabs</td></tr>
+      <tr><td>Kept</td><td><code>#/kept</code></td><td><code>#/saved</code></td><td>Saved and recent, when saving is on</td></tr>
+      <tr><td>Use this safely</td><td><code>#/safety</code></td><td><code>#/about</code></td><td>What it is and isn't, getting help, leaving quickly</td></tr>
+      <tr><td>Service updates</td><td><code>#/updates</code></td><td>"What changed"</td><td>Version and plain-language changelog</td></tr>
+      <tr><td>Settings</td><td><code>#/settings</code></td><td>header toggles</td><td>Theme, text size, spacing, motion, saving</td></tr>
+    </tbody>
+  </table></div>
+  <h3>Wayfinding devices, and what each answers</h3>
+  <ul>
+    <li><strong>Line bullet</strong> (coloured circle + letter): "what kind of tactic is this?" It appears beside every tactic name anywhere on the site.</li>
+    <li><strong>Strip map</strong> on every station: "where am I in this group, and what is either side?" Previous and next are tappable, and J/K or ←/→ work too.</li>
+    <li><strong>Step bar</strong> on every station: "how much of this entry is left?" Four segments, filled as you go.</li>
+    <li><strong>Back sign</strong>: "how do I get back to my results?" It names the page: "← Back to your matches".</li>
+    <li><strong>Private status line</strong>: "is anything being kept?" It is always visible, in words, not just an icon.</li>
+    <li><strong>Leave sign</strong> (if approved): "how do I get out right now?"</li>
+  </ul>
+</div></section>
+
+<section id="screens">
+  <div class="col"><h2>Every screen, and why</h2>
+  <p>The mock-ups use real content from the guide. They show composition and hierarchy, not final pixels.</p></div>
+
+  <div class="phones">
+    <figure><div class="phone" role="img" aria-label="Station screen one for Gaslighting" style="--lc:#4A82FF">
+      <div class="ph-top"><span>← Back to search</span><span class="ph-exit">Leave →</span></div>
+      <div class="ph-body">
+        <div class="ph-station"><div class="ph-k" style="margin:0 0 2px;display:flex;gap:6px;align-items:center"><span class="ph-lb" style="background:#4A82FF">T</span>Twisting what is real</div><div class="ph-h">Gaslighting</div><div class="ph-sub" style="margin:0">Making you doubt your own memory</div></div>
+        <div class="ph-strip"><span class="st here"></span><span class="ln"></span><span class="st"></span><span class="ln"></span><span class="st"></span></div>
+        <div style="display:flex;justify-content:space-between;font:600 9.5px/1.2 var(--sign);color:#A8B0B3;margin:-6px 0 10px"><span>Start of line</span><span>1 of 43</span><span>Countering ›</span></div>
+        <div class="ph-card"><p><strong>Someone keeps telling you that what you clearly remember didn't happen, until you start wondering whether you can trust your own mind.</strong></p>
+        <div class="ph-k" style="margin-top:4px">It can sound like</div><div class="ph-q">“That never happened.”</div><div class="ph-q">“You're imagining things again.”</div></div>
+        <div class="ph-blade pri" style="margin-top:8px"><span class="ph-pict">1</span><span>Is this it?<small>Signs it fits, and signs it doesn't</small></span><span class="ar">→</span></div>
+        <div class="ph-k">Change here for</div>
+        <div class="ph-row"><span class="ph-lb" style="background:#4A82FF">T</span>Countering<span style="margin-left:auto;font-size:10px;color:#A8B0B3">Compare</span></div>
+        <div class="ph-row"><span class="ph-lb" style="background:#B07A52">B</span>Minimization<span style="margin-left:auto;font-size:10px;color:#A8B0B3">Compare</span></div>
+      </div>
+      <div class="ph-bar"><span><b></b>Help</span><span class="on"><b></b>Search</span><span><b></b>Map</span><span><b></b>Kept</span></div>
+    </div><figcaption>Station, screen one. The answer, what it sounds like, and the next step, before any scroll.</figcaption></figure>
+
+    <figure><div class="phone" role="img" aria-label="Station step one, Is this it" style="--lc:#4A82FF">
+      <div class="ph-top"><span>← Gaslighting</span><span class="ph-exit">Leave →</span></div>
+      <div class="ph-body">
+        <div class="ph-steps"><i class="on"></i><i></i><i></i><i></i></div>
+        <div class="ph-tabs"><span class="on">1 Is this it?</span><span>2 Understand</span><span>3 What you can do</span></div>
+        <div class="ph-k" style="color:#9CD9BC">Signs it might be this</div>
+        <div class="ph-check"><i></i><span><strong>The thing being denied is something you can back up</strong> with a message, a receipt, or a witness.</span></div>
+        <div class="ph-check"><i></i><span><strong>The denial arrives with a comment about you:</strong> your memory, your stability, or your habit of exaggerating.</span></div>
+        <span class="ph-more">Show all 5 →</span>
+        <div class="ph-k" style="color:#AFB8E8">Signs it's probably something else</div>
+        <div class="ph-check"><i></i><span><strong>The topic is something neither of you recorded,</strong> and both of you admit you may be mixing it up.</span></div>
+        <span class="ph-more">Show all 5 →</span>
+      </div>
+      <div class="ph-bar"><span><b></b>Help</span><span class="on"><b></b>Search</span><span><b></b>Map</span><span><b></b>Kept</span></div>
+    </div><figcaption>Step 1. Signs both ways, two shown, the rest one tap away. Ticks are for the reader's own thinking and are never stored or scored.</figcaption></figure>
+
+    <figure><div class="phone" role="img" aria-label="Safety-first station for Emotional Blackmail" style="--lc:#9469FF">
+      <div class="ph-top"><span>← Back to your matches</span><span class="ph-exit">Leave →</span></div>
+      <div class="ph-body">
+        <div class="ph-station"><div class="ph-k" style="margin:0 0 2px;display:flex;gap:6px;align-items:center"><span class="ph-lb" style="background:#9469FF">G</span>Guilt, pressure and fear</div><div class="ph-h">Emotional blackmail</div></div>
+        <div class="ph-warn"><b><span class="ph-tri"></span>Safety first</b>Watch for threats to hurt themselves, to expose you, to take children, money or housing, or fear of what follows if you refuse. Those turn a painful pattern into a safety matter, and even asking for a pause could raise the danger.<span class="ph-more" style="padding-bottom:0">Read the full note →</span></div>
+        <div class="ph-card"><p style="margin:0"><strong>Someone makes their love, their company or their goodwill depend on you giving in,</strong> so saying no feels like putting the whole relationship at risk.</p></div>
+      </div>
+      <div class="ph-bar"><span class="on"><b></b>Help</span><span><b></b>Search</span><span><b></b>Map</span><span><b></b>Kept</span></div>
+    </div><figcaption>A safety-sensitive station (105 of 310). The amber warning panel comes before the answer, using the same safety colour as in any public building.</figcaption></figure>
+
+    <figure><div class="phone" role="img" aria-label="Help me figure it out, results with reasons">
+      <div class="ph-top"><span>← Change answers</span><span class="ph-exit">Leave →</span></div>
+      <div class="ph-body">
+        <div class="ph-steps" style="grid-template-columns:repeat(3,1fr)"><i class="on"></i><i class="on"></i><i class="on"></i></div>
+        <div class="ph-h" style="font-size:21px">Your three closest matches</div>
+        <p class="ph-sub">From what you picked: <b style="color:#F2F4F1">a relationship</b> · <b style="color:#F2F4F1">something feels off</b> · <b style="color:#F2F4F1">walking on eggshells</b></p>
+        <div class="ph-row" style="align-items:flex-start"><span class="ph-lb" style="background:#4A82FF">T</span><span>Gaslighting<div class="ph-why">Matches <b>something feels off</b>, <b>a relationship</b></div></span></div>
+        <div class="ph-row" style="align-items:flex-start"><span class="ph-lb" style="background:#9469FF">G</span><span>Silent treatment<div class="ph-why">Matches <b>walking on eggshells</b></div></span></div>
+        <div class="ph-row" style="align-items:flex-start"><span class="ph-lb" style="background:#F05BA0">L</span><span>Intermittent reinforcement<div class="ph-why">Matches <b>walking on eggshells</b>, <b>a relationship</b></div></span></div>
+        <span class="ph-more">See 9 more possible matches →</span>
+        <span class="ph-more" style="color:#A8B0B3;padding-top:0">See them on the map →</span>
+      </div>
+      <div class="ph-bar"><span class="on"><b></b>Help</span><span><b></b>Search</span><span><b></b>Map</span><span><b></b>Kept</span></div>
+    </div><figcaption>Help, results. Three first, each with the reason it matched, and answers you can change without starting over. The reasons are illustrative; the build computes them from the existing feeling index.</figcaption></figure>
+
+    <figure><div class="phone" role="img" aria-label="Search as a departures board">
+      <div class="ph-top"><span>Search</span><span class="ph-exit">Leave →</span></div>
+      <div class="ph-body">
+        <div class="ph-search">⌕ &nbsp;they say I'm imagining it</div>
+        <div class="ph-k">Best match</div>
+        <div class="ph-row" style="align-items:flex-start"><span class="ph-lb" style="background:#4A82FF">T</span><span>Gaslighting<small>“You're <span class="ph-hl">imagining</span> things again.”</small></span></div>
+        <div class="ph-k">Also</div>
+        <div class="ph-row" style="align-items:flex-start"><span class="ph-lb" style="background:#4A82FF">T</span><span>Countering<small>Flatly contradicting what you remember</small></span></div>
+        <div class="ph-row" style="align-items:flex-start"><span class="ph-lb" style="background:#C06BE0">W</span><span>Self-gaslighting induction<small>Doubting yourself automatically</small></span></div>
+        <div class="ph-row" style="align-items:flex-start"><span class="ph-lb" style="background:#8FA3BD">S</span><span>Medical gaslighting<small>…</small></span></div>
+      </div>
+      <div class="ph-bar"><span><b></b>Help</span><span class="on"><b></b>Search</span><span><b></b>Map</span><span><b></b>Kept</span></div>
+    </div><figcaption>Search. A board of rows: line bullet, name, and the exact words that matched. Nothing typed ever leaves the phone or appears in the address.</figcaption></figure>
+
+    <figure><div class="phone" role="img" aria-label="Line diagram for Twisting what is real" style="--lc:#4A82FF">
+      <div class="ph-top"><span>← All lines</span><span class="ph-exit">Leave →</span></div>
+      <div class="ph-body">
+        <div class="ph-station"><div class="ph-k" style="margin:0 0 2px;display:flex;gap:6px;align-items:center"><span class="ph-lb" style="background:#4A82FF">T</span>Line · 43 stations</div><div class="ph-h" style="font-size:22px">Twisting what is real</div><div class="ph-sub" style="margin:0">Lies, denial and confusion that leave you unsure of your own memory or judgment.</div></div>
+        <svg viewBox="0 0 232 250" width="232" height="250" aria-hidden="true" style="display:block">
+          <rect x="11" y="0" width="6" height="250" fill="#4A82FF"/>
+          <g font-family="Overpass,sans-serif" font-weight="600" font-size="11.5" fill="#F2F4F1">
+            <circle cx="14" cy="14" r="7" fill="#0E1113" stroke="#4A82FF" stroke-width="3"/><text x="32" y="18">Gaslighting</text>
+            <circle cx="14" cy="50" r="7" fill="#0E1113" stroke="#F2F4F1" stroke-width="3"/><text x="32" y="54">Countering</text><g transform="translate(118,43)"><circle cx="7" cy="7" r="7" fill="#B07A52"/><text x="3.5" y="11" font-size="9" font-weight="800" fill="#0E1113">B</text></g>
+            <circle cx="14" cy="86" r="7" fill="#0E1113" stroke="#4A82FF" stroke-width="3"/><text x="32" y="90">Selective memory</text>
+            <circle cx="14" cy="122" r="7" fill="#0E1113" stroke="#F2F4F1" stroke-width="3"/><text x="32" y="126">Moving goalposts</text><g transform="translate(150,115)"><circle cx="7" cy="7" r="7" fill="#9469FF"/><text x="3" y="11" font-size="9" font-weight="800" fill="#0E1113">G</text></g>
+            <circle cx="14" cy="158" r="7" fill="#0E1113" stroke="#4A82FF" stroke-width="3"/><text x="32" y="162">Normalization</text>
+            <circle cx="14" cy="194" r="7" fill="#0E1113" stroke="#4A82FF" stroke-width="3"/><text x="32" y="198">Exaggeration</text>
+            <circle cx="14" cy="230" r="7" fill="#0E1113" stroke="#F2F4F1" stroke-width="3"/><text x="32" y="234">Vague allegations</text>
+          </g>
+        </svg>
+      </div>
+      <div class="ph-bar"><span><b></b>Help</span><span><b></b>Search</span><span class="on"><b></b>Map</span><span><b></b>Kept</span></div>
+    </div><figcaption>Line. The whole group as one vertical line diagram. White-ringed stations are interchanges, with the other lines' bullets beside them. This is also the accessible text version of the map.</figcaption></figure>
+
+    <figure><div class="phone" role="img" aria-label="Network map">
+      <div class="ph-top"><span>Map · 310 stations</span><span class="ph-exit">Leave →</span></div>
+      <svg viewBox="0 0 260 420" width="260" height="420" aria-hidden="true" style="display:block">
+        <g fill="none" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+          <path d="M20 90 H110 L150 130 V300" stroke="#4A82FF"/>
+          <path d="M30 330 H120 L160 290 V60" stroke="#9469FF"/>
+          <path d="M240 120 H180 L150 150 V230 L110 270 H20" stroke="#B07A52"/>
+          <path d="M60 30 V140 L100 180 H240" stroke="#1AA9DE"/>
+          <path d="M20 200 H90 L130 240 V380" stroke="#F05BA0"/>
+          <path d="M240 330 H190 L160 360 V400" stroke="#C06BE0"/>
+          <path d="M200 30 V100 L230 130" stroke="#F06A52"/>
+          <path d="M70 400 V360 L40 330" stroke="#8FA3BD"/>
+          <path d="M240 210 H200 L180 230" stroke="#17BDB0"/>
+          <path d="M100 30 H160 L180 50" stroke="#A2C23A"/>
+        </g>
+        <g fill="#0E1113" stroke="#F2F4F1" stroke-width="3"><circle cx="150" cy="150" r="7"/><circle cx="110" cy="270" r="6"/><circle cx="150" cy="230" r="6"/><circle cx="130" cy="240" r="6"/><circle cx="100" cy="180" r="6"/></g>
+        <g font-family="Overpass,sans-serif" font-weight="800" font-size="10" fill="#F2F4F1"><text x="20" y="82">Twisting what is real</text><text x="30" y="346">Guilt, pressure, fear</text><text x="176" y="112">Dodging blame</text><text x="160" y="172">Control</text></g>
+      </svg>
+      <div class="ph-bar"><span><b></b>Help</span><span><b></b>Search</span><span class="on"><b></b>Map</span><span><b></b>Kept</span></div>
+    </div><figcaption>Map (schematic). Lines that share the most look-alikes run side by side and cross at interchanges. Zoom in for station names; tap a station to see its interchanges light up.</figcaption></figure>
+
+    <figure><div class="phone" role="img" aria-label="Compare two look-alikes">
+      <div class="ph-top"><span>← Gaslighting</span><span class="ph-exit">Leave →</span></div>
+      <div class="ph-body">
+        <div class="ph-h" style="font-size:20px">Gaslighting or countering?</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:8px">
+          <div class="ph-card" style="border-top:4px solid #4A82FF;margin:0"><b style="font:800 11px/1.2 var(--sign)">Gaslighting</b><p style="font-size:10.5px;margin:4px 0 0">Works on your trust in your own memory.</p></div>
+          <div class="ph-card" style="border-top:4px solid #4A82FF;margin:0"><b style="font:800 11px/1.2 var(--sign)">Countering</b><p style="font-size:10.5px;margin:4px 0 0">A rival version of events, to win a point.</p></div>
+        </div>
+        <div class="ph-k">It can sound like</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;font-size:10.5px;font-weight:700"><span>“You're imagining things again.”</span><span>“No, it didn't.”</span></div>
+        <div class="ph-k">The difference</div>
+        <p style="font-size:11px">Countering puts forward a rival version of events to win a point; gaslighting works on your trust in your own memory.</p>
+      </div>
+      <div class="ph-bar"><span><b></b>Help</span><span class="on"><b></b>Search</span><span><b></b>Map</span><span><b></b>Kept</span></div>
+    </div><figcaption>Compare. Two stations aligned row by row: what it is, what it sounds like, the difference. All of it comes from text that already exists.</figcaption></figure>
+  </div>
+
+  <div class="col">
+    <h3>Desktop station</h3>
+    <p>The same page at 1440px. A reading column of 62 characters, the four-door column on the left, and a sticky "platform" panel on the right holding the strip map, interchanges and actions. The page scrolls normally, so the browser's own scroll, find and back all work again.</p>
+  </div>
+  <div class="desk-scroll"><div class="desk" role="img" aria-label="Desktop station layout">
+    <div class="desk-in">
+      <div class="desk-nav"><span>Pattern Decoder</span><span style="height:12px"></span><span>? Help</span><span class="on">⌕ Search</span><span>◎ Map</span><span>☆ Kept</span><span style="height:16px"></span><span style="font:600 10px/1 var(--sign);color:#A8B0B3;letter-spacing:.08em">LINES</span><span><i class="ph-lb" style="background:#4A82FF;font-style:normal">T</i>Truth</span><span><i class="ph-lb" style="background:#9469FF;font-style:normal">G</i>Pressure</span><span><i class="ph-lb" style="background:#1AA9DE;font-style:normal">C</i>Control</span><span style="color:#7E878B">+ 7 more</span></div>
+      <div class="desk-read" style="--lc:#4A82FF">
+        <div class="ph-station" style="border-left-width:8px"><div class="ph-k" style="margin:0 0 4px;display:flex;gap:6px;align-items:center"><span class="ph-lb" style="background:#4A82FF">T</span>Twisting what is real · station 1 of 43</div><div class="ph-h" style="font-size:44px">Gaslighting</div><div class="ph-sub" style="font-size:15px;margin:0">Making you doubt your own memory</div></div>
+        <p style="font-size:17px;line-height:1.55"><strong>Someone keeps telling you that what you clearly remember didn't happen, until you start wondering whether you can trust your own mind.</strong></p>
+        <div class="ph-k">It can sound like</div><div class="ph-q" style="font-size:15px">“That never happened.”</div><div class="ph-q" style="font-size:15px">“I never said that. You're making it up.”</div>
+        <div class="ph-steps" style="margin-top:20px"><i class="on"></i><i></i><i></i><i></i></div>
+        <div class="ph-tabs"><span class="on">1 Is this it?</span><span>2 Understand it</span><span>3 What you can do</span><span>4 Go deeper</span></div>
+      </div>
+      <div class="desk-side" style="--lc:#4A82FF">
+        <div class="ph-k" style="margin-top:0">On this line</div>
+        <div class="ph-strip"><span class="st here"></span><span class="ln"></span><span class="st"></span><span class="ln"></span><span class="st"></span></div>
+        <div class="ph-k">Change here for</div>
+        <div class="ph-row"><span class="ph-lb" style="background:#4A82FF">T</span>Countering</div>
+        <div class="ph-row"><span class="ph-lb" style="background:#B07A52">B</span>Minimization</div>
+        <div class="ph-row"><span class="ph-lb" style="background:#8FA3BD">S</span>Medical gaslighting</div>
+        <div class="ph-k">In 10 known routes</div>
+        <div class="ph-row">Print this station</div>
+      </div>
+    </div>
+  </div></div>
+
+  <div class="col">
+    <h3>The logic behind each screen</h3>
+    <details open><summary>Home: the concourse</summary><div>
+      <ul>
+        <li><strong>Three signs, not seven links.</strong> v14's home offered a search box, four "Try" phrases, three serif links and ten constellations: 18 choices on the first screen. Choice time grows with the number of options (Hick's law), and a frightened reader has less to spend. v15 shows three big directional signs, then the line index below.</li>
+        <li><strong>The guide is the brightest sign.</strong> "Help me figure it out" is a white blade with dark text, the only inverted element on the screen. That reverses v14's submerged italic link (measured problem 2).</li>
+        <li><strong>The headline is a sentence, not capitals.</strong> "Put a name to what is happening." in 800-weight sign lettering keeps its word shapes; the tracked thin capitals did not.</li>
+        <li><strong>The privacy promise is a status line, always visible:</strong> "Private · nothing is saved". When saving is on, it reads "Saving on this device".</li>
+      </ul></div></details>
+    <details><summary>Station: answer first</summary><div>
+      <ul>
+        <li><strong>Screen one answers the question.</strong> Name sign, plain subtitle, the plain-language summary with its first sentence in bold (kept from v14), and two "It can sound like" lines, because hearing your own situation in a quote is often the moment of recognition.</li>
+        <li><strong>Safety outranks everything.</strong> On the 105 sensitive entries the amber panel sits between the name and the answer, with its first two sentences visible and "Read the full note" one tap away.</li>
+        <li><strong>Four steps, numbered because they are a real sequence:</strong> Is this it? → Understand it → What you can do → Go deeper. On a phone you swipe sideways between them (native scroll snapping) or tap the step bar; on a computer they stack with a sticky step bar.</li>
+        <li><strong>Folding, not cutting.</strong> Any list over three items shows the first three and "Show all 6". Open lists stay open while you read. Print expands everything.</li>
+        <li><strong>The strip map replaces the 19/43 pager.</strong> It shows the same position, plus the names on either side, and the line's colour ties it to the map.</li>
+        <li><strong>"Change here for"</strong> lists related tactics with their line bullets and a Compare button. It replaces a chip row and a paragraph.</li>
+        <li><strong>Ticks never stored, never scored.</strong> Readers can tick "signs it might be this" to think it through. Nothing is counted, no verdict appears, and ticks vanish when you leave. That keeps the guide's rule of no verdicts.</li>
+      </ul></div></details>
+    <details><summary>Help me figure it out: the information desk</summary><div>
+      <ul>
+        <li><strong>Step 1:</strong> "Where has this been happening?" Seven sign blades with pictograms, plus "I'm not sure".</li>
+        <li><strong>Step 2:</strong> "Which of these sound familiar?" The existing 50 plain feelings, filtered by step 1, as large tick rows. Pick as many as fit.</li>
+        <li><strong>Results:</strong> the three closest first, each with the reason it matched ("Matches: walking on eggshells, a relationship"), then "See 9 more". Each answer chip can be removed or changed in place, so you never have to start over.</li>
+        <li><strong>"See them on the map"</strong> lights the matches on the network, so you can see they cluster on one or two lines.</li>
+        <li><strong>Why it helps:</strong> v14 gave a flat list of up to 18 with no reasons. Reasons build trust ("why is it showing me this?") and make it easy to see that a match is wrong.</li>
+      </ul></div></details>
+    <details><summary>Search: the departures board</summary><div>
+      <ul>
+        <li>All of v14's search engine stays (everyday words, stemming, synonyms, pasted phrases, fuzzy fallback). What changes is how results are shown.</li>
+        <li>Rows are set like a departures board: line bullet, name, and the exact words that matched, highlighted. "Best match" is separated from "Also".</li>
+        <li>An empty search shows the Try phrases as rows, plus "Not sure what to type? Answer two questions instead".</li>
+        <li>On a computer, ⌘K and / open this same page, not a separate menu, so there is one search to learn.</li>
+      </ul></div></details>
+    <details><summary>Map and lines</summary><div>
+      <ul>
+        <li><strong>Built, not simulated.</strong> The map is an SVG schematic generated by the Python build: lines run straight or at 45°, stations are evenly spaced, and line order follows the data. It is drawn once and needs no animation loop.</li>
+        <li><strong>Semantic zoom:</strong> zoomed out you see the ten lines and their names; zoom in for station names; tap a station for a sheet with its summary and interchanges.</li>
+        <li><strong>Interchanges on demand.</strong> 679 cross-links would be a hairball, so only the selected station's interchanges are drawn.</li>
+        <li><strong>On a phone, the line diagram comes first.</strong> It is a vertical list that reads as both a map and a list, and it is the screen-reader version of the map.</li>
+      </ul></div></details>
+    <details><summary>Routes, Kept, Safety, Updates, Settings</summary><div>
+      <ul>
+        <li><strong>Routes:</strong> each of the 109 sequences drawn as a route crossing the lines it touches, titled "Patterns that often appear together". It is never presented as a prediction.</li>
+        <li><strong>Kept:</strong> saving is off by default, so this page explains what turning it on does and offers the switch. When on, it shows saved stations, recent reads and "Continue where you left off".</li>
+        <li><strong>Use this safely:</strong> set out like station emergency information. An amber panel says what to do in danger; a green panel explains leaving quickly; plain text covers what the guide is and isn't.</li>
+        <li><strong>Service updates:</strong> the version badge and the plain-language changelog, as the CLAUDE.md patch-notes rule requires.</li>
+        <li><strong>Settings:</strong> Night / Day / Match my phone; text size (3 steps); line spacing; reduce motion; saving on/off with "Delete everything kept".</li>
+      </ul></div></details>
+  </div>
+</section>
+
+<section id="system"><div class="col">
+  <h2>The visual system</h2>
+  <h3>Scene</h3>
+  <p>A phone in a dark room, often late, screen brightness low, maybe with someone nearby. That decides the default: <strong>Night</strong>, dark panels with colour kept to small bullets so the screen stays dim and doesn't draw attention. <strong>Day</strong> is a full second theme (white enamel signs, dark lettering), not an inversion, and "Match my phone" is the default setting.</p>
+  <h3>Colour roles</h3>
+  <p>Full palette, strictly assigned. Each colour has one meaning everywhere, and colour never carries meaning alone: every line also has a letter.</p>
+</div>
+  <div class="swatches">
+    <div class="sw"><i style="background:#0E1113;box-shadow:inset 0 0 0 1px #3A4247"></i><b>Ground</b>#0E1113 · Day #FFFFFF</div>
+    <div class="sw"><i style="background:#181C1F;box-shadow:inset 0 0 0 1px #3A4247"></i><b>Sign panel</b>#181C1F · Day #F3F5F6</div>
+    <div class="sw"><i style="background:#F2F4F1"></i><b>Enamel text</b>#F2F4F1 · 17.1:1</div>
+    <div class="sw"><i style="background:#A8B0B3"></i><b>Second text</b>#A8B0B3 · 8.6:1</div>
+    <div class="sw"><i style="background:#FFB020"></i><b>Safety amber</b>Danger only · 10.4:1</div>
+    <div class="sw"><i style="background:#00B864"></i><b>Exit green</b>Leaving only · 7.3:1</div>
+  </div>
+  <div class="col"><h4>Ten lines (night value · day value · contrast against the ground)</h4></div>
+  <div class="tbl"><table>
+    <thead><tr><th>Line</th><th>Group</th><th>Night</th><th>Day</th><th class="num">Contrast night / day</th></tr></thead>
+    <tbody>
+      <tr><td><span class="b T">T</span> Truth</td><td>Twisting what is real</td><td>#4A82FF</td><td>#1F55D6</td><td class="num">5.35 / 6.31</td></tr>
+      <tr><td><span class="b G">G</span> Guilt</td><td>Guilt, pressure and fear</td><td>#9469FF</td><td>#6A3FE0</td><td class="num">5.16 / 6.18</td></tr>
+      <tr><td><span class="b C">C</span> Control</td><td>Control over your life</td><td>#1AA9DE</td><td>#0B7AA6</td><td class="num">7.01 / 4.83</td></tr>
+      <tr><td><span class="b L">L</span> Love</td><td>Love that hooks you</td><td>#F05BA0</td><td>#C2316F</td><td class="num">6.05 / 5.30</td></tr>
+      <tr><td><span class="b W">W</span> Wear</td><td>Put-downs that wear you down</td><td>#C06BE0</td><td>#8E3BB0</td><td class="num">5.79 / 6.17</td></tr>
+      <tr><td><span class="b B">B</span> Blame</td><td>Dodging blame</td><td>#B07A52</td><td>#8A5534</td><td class="num">5.19 / 6.12</td></tr>
+      <tr><td><span class="b P">P</span> People</td><td>Turning people against you</td><td>#F06A52</td><td>#C2412A</td><td class="num">6.22 / 5.14</td></tr>
+      <tr><td><span class="b S">S</span> Systems</td><td>Work, school and systems</td><td>#8FA3BD</td><td>#5A6F8A</td><td class="num">7.35 / 5.15</td></tr>
+      <tr><td><span class="b O">O</span> Online</td><td>Online and technology</td><td>#17BDB0</td><td>#0A7F76</td><td class="num">8.07 / 4.87</td></tr>
+      <tr><td><span class="b M">M</span> Movements</td><td>Groups, cults and propaganda</td><td>#A2C23A</td><td>#5E7A12</td><td class="num">9.31 / 4.92</td></tr>
+    </tbody>
+  </table></div>
+  <div class="col">
+  <p class="small muted">Measured with the WCAG formula. Every line colour passes 4.5:1 as text in both themes, so line names can be coloured, not just the bullets. Hues are kept clear of amber (30–70°) and exit green (120–160°) so neither safety meaning is ever borrowed. Bullet letters are dark on night colours and white on day colours. The letter codes are a proposal; see <a href="#decide">decision 4</a>.</p>
+  <h3>Type</h3>
+  </div>
+  <div class="typespec">
+    <div><span>Sign · Overpass 800</span><p style="font:800 clamp(30px,5vw,44px)/1.05 var(--sign);margin:0;letter-spacing:-.01em">Gaslighting</p></div>
+    <div><span>Sign label · Overpass 600, caps for 1–3 words only</span><p style="font:600 13px/1 var(--sign);letter-spacing:.08em;text-transform:uppercase;margin:0">Change here for</p></div>
+    <div><span>Answer · Atkinson Next 700, 20/1.45</span><p style="font:700 20px/1.45 var(--read);margin:0">Someone keeps telling you that what you clearly remember didn't happen.</p></div>
+    <div><span>Reading · Atkinson Next 400, 18/1.6, 62ch</span><p style="font:400 18px/1.6 var(--read);margin:0">Countering puts forward a rival version of events to win a point; gaslighting works on your trust in your own memory.</p></div>
+  </div>
+  <div class="col">
+  <ul>
+    <li><strong>Two families, five styles.</strong> Overpass descends from Highway Gothic, the US road-sign alphabet (SIL OFL). Atkinson Hyperlegible Next comes from the Braille Institute and is designed so that I/l/1 and O/0 can't be confused (SIL OFL). Both are embedded as Latin subsets, about the same 100 KB as v14's three families.</li>
+    <li><strong>Scale (phone → desktop):</strong> station 32→56, page 28→44, section 22→28, answer 20→22, reading 18→18, label 13→13 (caps), meta 15→15. Nothing a reader needs is below 15px; v14's Cormorant labels were 13–14px with a small x-height.</li>
+    <li><strong>Kept from v14:</strong> bold first sentences, bold lead phrases in lists, <code>text-wrap: pretty</code> plus the no-orphan rule, and fit-to-width only when a single word overflows.</li>
+    <li><strong>Astra lives on</strong> as a tool rather than a typeface: its stroke engine (<code>build-astra.py</code>, monoline round caps) draws the pictogram set and the wordmark in one consistent line weight. The owner's original letterforms become the site's sign symbols.</li>
+  </ul>
+  <h3>Space, shape and surface</h3>
+  <ul>
+    <li><strong>8px grid,</strong> with sign padding of 16/24 and 48px minimum touch targets (v14's pager buttons were 44).</li>
+    <li><strong>Shapes carry meaning:</strong> rectangles are signs and controls, circles are lines and stations, and the warning triangle appears only on safety. v14's 0px geometry stays for signs; circles return for bullets because that is the transit grammar.</li>
+    <li><strong>Opaque panels.</strong> No glass and no 40px blur, which is costly on cheap phones and hurts contrast. Depth comes from two panel tones and a 1px rule.</li>
+    <li><strong>Hairlines</strong> keep v14's inset-ring technique for board rows; line strokes are 4–6px, like a real map.</li>
+    <li><strong>High-contrast mode</strong> (<code>prefers-contrast: more</code>): pure black and white, 2px rules, line names underlined.</li>
+  </ul>
+</div></section>
+
+<section id="motion"><div class="col">
+  <h2>Motion budget</h2>
+  <p>The rule: <strong>nothing moves unless the reader did something.</strong> Signs don't animate; they change state. The whole budget is five movements:</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Moment</th><th>What moves</th><th class="num">Time</th><th>Why it earns its place</th></tr></thead>
+    <tbody>
+      <tr><td>Station arrival</td><td>The tapped row's bullet and name morph into the station sign while the line colour sweeps across behind it (View Transitions, shared element)</td><td class="num">280 ms</td><td>Shows that the thing you tapped is the thing you are now reading. It is the one signature moment.</td></tr>
+      <tr><td>You are here</td><td>The white dot glides along the strip map when you step to the next or previous station</td><td class="num">220 ms</td><td>Makes the direction of travel unmistakable.</td></tr>
+      <tr><td>Step change</td><td>The four steps slide sideways (native scroll snapping) and the step bar fills</td><td class="num">native</td><td>A physical gesture with a visible result.</td></tr>
+      <tr><td>Press</td><td>Sign blades dip to 0.97 and come back</td><td class="num">90 / 160 ms</td><td>Confirms the tap on a slow phone before the page changes.</td></tr>
+      <tr><td>Map interchange</td><td>The selected station's interchange links draw in once</td><td class="num">320 ms</td><td>Shows connections exactly when they are asked for.</td></tr>
+    </tbody>
+  </table></div>
+  <p><strong>Easing:</strong> one curve for arrivals, <code>cubic-bezier(.2,.8,.2,1)</code>, and <code>ease-out</code> for presses. <strong>Off forever:</strong> grain, meteors, twinkle, drift, magnetism, pointer light, ripple, veil and blur reveals, the focus veil, the chromatic split and the header frost animation. <strong>Reduced motion</strong> (the phone setting or Settings): every movement becomes a 120 ms crossfade or an instant change. Idle CPU is zero, because no animation loop exists.</p>
+</div></section>
+
+<section id="privacy"><div class="col">
+  <h2>Privacy and safety model</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>Layer</th><th>Default (private)</th><th>When "Keep things on this device" is on</th></tr></thead>
+    <tbody>
+      <tr><td>Storage</td><td>Nothing written: no localStorage, sessionStorage or cookies. Preferences live in memory for this visit.</td><td>Saved stations, recent reads, preferences and "continue where you left off" stored on the device. "Delete everything kept" is one tap in Settings.</td></tr>
+      <tr><td>History trail</td><td>Pages replace each other in history, so the browser's history doesn't fill with entry names. The on-screen Back sign uses an in-page stack.</td><td>Normal browser history, so the system back gesture works.</td></tr>
+      <tr><td>Tab title</td><td>"Pattern Decoder" on every page; no tactic names in the tab switcher.</td><td>Page-specific titles.</td></tr>
+      <tr><td>Search</td><td>Never in the address and never sent anywhere (as in v14).</td><td>Same.</td></tr>
+      <tr><td>Status</td><td>"Private · nothing is saved", always in the header.</td><td>"Saving on this device", same place.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="panel warn"><div class="kicker">The trade-off to know about</div><p style="margin:8px 0 0">With history replaced, an Android back gesture or the browser's back button leaves the site instead of going back one page. The on-screen Back sign covers this, and it is the safer trade for someone whose phone may be checked. It is <a href="#decide">decision 2</a> if you would rather keep normal history.</p></div>
+  <h3>Leave quickly (recommended, pending decision 1)</h3>
+  <p><span class="exit">Leave →</span> A green sign at the top right of every page. One tap replaces the page with a neutral website (for example a weather page) using <code>location.replace</code>, so Back doesn't return to the guide, and clears everything held in memory. On a keyboard, Escape twice does the same. Use this safely explains its limits plainly: it doesn't erase a visit the browser already recorded, and a private browsing window is safer still.</p>
+  <h3>Kept safety rules</h3>
+  <ul><li>Safety notes lead on all 105 sensitive entries, and no screen ever suggests confronting someone or announcing a departure.</li><li>No scores, no verdicts, no labels for people. The ticks in "Is this it?" are never counted.</li><li>The optional reading pause stays, as a quiet "Take a break" card after about 20 minutes, which can be turned off.</li></ul>
+</div></section>
+
+<section id="a11y"><div class="col">
+  <h2>Accessibility</h2>
+  <ul>
+    <li><strong>Contrast:</strong> body text 17.1:1 at night and 18.5:1 by day; second text 8.6 and 8.0; every line colour above 4.5:1 as text. Target AAA for reading text, AA everywhere else.</li>
+    <li><strong>Targets:</strong> 48×48px minimum, with the sign bar in the thumb zone.</li>
+    <li><strong>Never colour alone:</strong> line letters, the safety triangle and word labels ("Signs it might be this") carry every meaning.</li>
+    <li><strong>Focus:</strong> a 3px double ring (enamel and ground) visible on any background, and focus moved to the station name after navigation, as in v14.</li>
+    <li><strong>Steps as tabs:</strong> the four steps use the ARIA tabs pattern, with arrow-key movement and a live "Step 2 of 4" announcement.</li>
+    <li><strong>Map equivalent:</strong> every line diagram is an ordered list of links, so screen-reader users get the same information as the map.</li>
+    <li><strong>Text size:</strong> three steps in Settings on top of browser zoom; layouts tested to 200% with no horizontal scroll.</li>
+    <li><strong>Still owed:</strong> a pass with real VoiceOver and TalkBack on devices. v14 never had one, and this plan budgets for it.</li>
+  </ul>
+</div></section>
+
+<section id="perf"><div class="col">
+  <h2>Performance and engineering</h2>
+  <h3>Same rules, smarter file</h3>
+  <p>Still one self-contained offline HTML file: no CDN, no frameworks, embedded fonts and the one approved analytics beacon. What changes is <em>when</em> work happens.</p>
+  <ul>
+    <li><strong>Lazy data.</strong> v14 parses all 3.35 MB of JSON before showing anything (347 ms on a computer, 836 ms on a throttled phone). v15 splits it inside the same file: a small index (names, subtitles, search words, line, links; about 150 KB) parsed at start, and each line's full entries in their own <code>&lt;script type="application/json"&gt;</code> block, parsed the first time a station on that line opens (around 10–20 ms each).</li>
+    <li><strong>No canvas.</strong> The map is SVG, built at build time and inserted only on the Map page. Nothing runs between taps.</li>
+    <li><strong>One stylesheet built from tokens:</strong> <code>@layer reset, tokens, base, components, pages</code>, with no override rounds and no <code>!important</code> outside the reduced-motion block. Target 35 KB, from 66 KB with 49 <code>!important</code>.</li>
+    <li><strong>One script, in sections:</strong> router, data, search, help, station, map, privacy, settings. Target 60 KB, from 117 KB including the sky engine.</li>
+    <li><strong><code>content-visibility: auto</code></strong> on long lists such as A–Z and line diagrams.</li>
+  </ul>
+  <h3>Files</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>File</th><th>Status</th><th>Role</th></tr></thead>
+    <tbody>
+      <tr><td><code>design/build-decoder-v15.py</code></td><td><span class="tag new">new</span></td><td>Reuses v10's data merge (entries, aliases, reader meta, feelings, search stop-words) and replaces the sky layout with <code>layout_network()</code>, which orders each line by related-chain and routes lines at 0/45/90°. Writes the split data blocks.</td></tr>
+      <tr><td><code>design/decoder-v15/shell.html, app.css, app.js</code></td><td><span class="tag new">new</span></td><td>The new interface. v10's files stay untouched for rollback.</td></tr>
+      <tr><td><code>design/decoder-v15/assets/</code></td><td><span class="tag new">new</span></td><td>Overpass and Atkinson Next subsets (OFL licences kept alongside), pictograms and wordmark drawn by the Astra stroke engine.</td></tr>
+      <tr><td><code>content/*.json</code></td><td><span class="tag keep">frozen</span></td><td>No content changes. The validator still runs.</td></tr>
+      <tr><td><code>scripts/decoder-verify.mjs</code></td><td><span class="tag new">new</span></td><td>All 310 stations at 390 and 1440px (overflow, title fits, safety first on the 105), axe-core rules, the zero-trace private check, a performance budget, and a byte check against live. It closes v14's "no regression net" gap.</td></tr>
+      <tr><td><code>instruments/playbook/index.html</code></td><td><span class="tag up">rebuilt</span></td><td>The output. It replaces v14 only when you approve a deploy.</td></tr>
+    </tbody>
+  </table></div>
+</div></section>
+
+<section id="ledger"><div class="col">
+  <h2>Every v14 technique: keep, upgrade or cut</h2>
+  <p>You asked me to look at every advanced idea in use and either integrate it or find something better. Here is the full list from the v14 blueprint, 56 items. <span class="tag keep">Keep</span> means it carries over as is. <span class="tag up">Upgrade</span> means the idea survives in a better form. <span class="tag new">Replace</span> means something new does the job better. <span class="tag cut">Cut</span> means it goes, with the reason.</p>
+</div>
+  <div class="tbl"><table>
+    <thead><tr><th>v14 technique</th><th>Verdict</th><th>v15</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td>Night-sky canvas of 310 stars</td><td><span class="tag new">Replace</span></td><td>SVG network map</td><td>Same "everything at once" view, but positions now mean something true.</td></tr>
+      <tr><td>Deterministic Python sky layout</td><td><span class="tag keep">Keep</span></td><td>Deterministic network layout</td><td>Same technique and same guarantee: the same data always draws the same map.</td></tr>
+      <tr><td>Camera flights per page</td><td><span class="tag cut">Cut</span></td><td>Strip map and map focus</td><td>Flying the camera cost 1.1–1.4 s per page and moved content the reader had not asked to move.</td></tr>
+      <tr><td>Fluid magnetism (stars pulled to the pointer)</td><td><span class="tag cut">Cut</span></td><td>—</td><td>Works only with a mouse, does nothing on phones, and kept the CPU busy.</td></tr>
+      <tr><td>Cosmic stagger (stars light outward)</td><td><span class="tag up">Upgrade</span></td><td>Interchange draw-in on tap</td><td>A reveal now happens only when it shows an answer.</td></tr>
+      <tr><td>Twinkle and drift</td><td><span class="tag cut">Cut</span></td><td>—</td><td>Constant motion while reading, and battery drain.</td></tr>
+      <tr><td>Meteors every 9–23 s</td><td><span class="tag cut">Cut</span></td><td>—</td><td>A surprise in the corner of the eye. Surprise is what this reader needs least.</td></tr>
+      <tr><td>Atlas graticule</td><td><span class="tag cut">Cut</span></td><td>—</td><td>A grid of meaningless lines.</td></tr>
+      <tr><td>Star chart coordinates</td><td><span class="tag new">Replace</span></td><td>"Station 1 of 43 · 4 interchanges · in 10 routes"</td><td>Every number is now true.</td></tr>
+      <tr><td>Constellation sigils (spanning trees)</td><td><span class="tag new">Replace</span></td><td>Line bullets (colour + letter)</td><td>Readable at 16px and not dependent on colour.</td></tr>
+      <tr><td>Per-group colours</td><td><span class="tag up">Upgrade</span></td><td>Ten line colours, tuned for both themes</td><td>Every one passes 4.5:1, and none borrows the safety colours.</td></tr>
+      <tr><td>Group colour tinting the page</td><td><span class="tag up">Upgrade</span></td><td>Line band on the station sign only</td><td>The colour identifies without tinting what you read.</td></tr>
+      <tr><td>Astra typeface</td><td><span class="tag up">Upgrade</span></td><td>Stroke engine draws pictograms and the wordmark</td><td>The original work keeps a role; reading moves to faces built for it.</td></tr>
+      <tr><td>Thin tracked capitals</td><td><span class="tag new">Replace</span></td><td>Sentence-case 800 sign lettering</td><td>Word shapes read faster, especially for the 63 names over 24 characters.</td></tr>
+      <tr><td>Cormorant italic labels</td><td><span class="tag cut">Cut</span></td><td>Overpass labels ≥13px caps, meta 15px</td><td>Small x-height at 13–14px was hard to read on cheap screens.</td></tr>
+      <tr><td>Inter at 1.85 leading</td><td><span class="tag new">Replace</span></td><td>Atkinson Next 18/1.6</td><td>A face designed for low vision, with leading matched to a 62ch measure.</td></tr>
+      <tr><td>Bold first sentence</td><td><span class="tag keep">Keep</span></td><td>Same</td><td>The answer comes first; that is the whole thesis.</td></tr>
+      <tr><td>Bold lead phrases in lists</td><td><span class="tag keep">Keep</span></td><td>Same</td><td>Lets a reader scan the signs quickly.</td></tr>
+      <tr><td>Widow control</td><td><span class="tag keep">Keep</span></td><td>Same</td><td>Cheap, and it helps.</td></tr>
+      <tr><td>fitText auto-fit</td><td><span class="tag up">Upgrade</span></td><td>Balance-wrapped names; fit only for one overflowing word</td><td>Simpler, and avoids the measuring bug.</td></tr>
+      <tr><td>Drop capital</td><td><span class="tag cut">Cut</span></td><td>—</td><td>Ornament that delays the first word.</td></tr>
+      <tr><td>Bento grid (29 tiles)</td><td><span class="tag new">Replace</span></td><td>Answer card + four steps</td><td>The grid looked scannable but read as 16.5 screens.</td></tr>
+      <tr><td>Short text as large quotes</td><td><span class="tag up">Upgrade</span></td><td>"It can sound like" lines with a line-colour rule</td><td>Keeps the emphasis and puts it where recognition happens.</td></tr>
+      <tr><td>Fact tiles</td><td><span class="tag up">Upgrade</span></td><td>Platform panel (where it happens, interchanges, routes)</td><td>The same facts in one place.</td></tr>
+      <tr><td>Locked single viewport on desktop</td><td><span class="tag cut">Cut</span></td><td>Normal page scroll + sticky side panel</td><td>Gives back scroll restoration, find in page and native gestures.</td></tr>
+      <tr><td>35/65 split</td><td><span class="tag new">Replace</span></td><td>Door column · reading column · platform panel</td><td>Reading gets the centre; tools sit beside it.</td></tr>
+      <tr><td>Reading meridian</td><td><span class="tag new">Replace</span></td><td>Step bar + a top progress bar in the line colour</td><td>Progress is shown in the place you are already looking.</td></tr>
+      <tr><td>Section track 01–05</td><td><span class="tag new">Replace</span></td><td>Four numbered steps (tabs)</td><td>Numbered because it is a real sequence.</td></tr>
+      <tr><td>J/K pager</td><td><span class="tag up">Upgrade</span></td><td>Strip map with names; J/K and ←/→</td><td>Shows where next and previous lead before you go.</td></tr>
+      <tr><td>⌘K command menu</td><td><span class="tag up">Upgrade</span></td><td>Shortcut to the one Search page</td><td>One search to learn, on every device.</td></tr>
+      <tr><td>Constellation rail</td><td><span class="tag new">Replace</span></td><td>Line index in the door column</td><td>Names next to marks, so nothing is a guess.</td></tr>
+      <tr><td>Phone tab bar + chip bar</td><td><span class="tag up">Upgrade</span></td><td>One sign bar on every size</td><td>One navigation model (problem 10).</td></tr>
+      <tr><td>View Transitions hand-off with blur</td><td><span class="tag up">Upgrade</span></td><td>Shared-element arrival, no blur</td><td>Same API, a third of the time, and the meaning is clear.</td></tr>
+      <tr><td>Star/card → tile morph</td><td><span class="tag up">Upgrade</span></td><td>Row → station sign morph</td><td>Morphs the thing you tapped into the thing you read.</td></tr>
+      <tr><td>Veil reveal (clip + blur, line by line)</td><td><span class="tag cut">Cut</span></td><td>—</td><td>Hid words for over a second at the most anxious moment.</td></tr>
+      <tr><td>Focus veil (others dim to 38%)</td><td><span class="tag cut">Cut</span></td><td>—</td><td>Dimmed content the reader might want; mouse only.</td></tr>
+      <tr><td>Press scale + spring</td><td><span class="tag keep">Keep</span></td><td>0.97, shorter</td><td>Instant confirmation on slow phones.</td></tr>
+      <tr><td>Pointer aura and red–blue split</td><td><span class="tag cut">Cut</span></td><td>—</td><td>Decoration with no meaning.</td></tr>
+      <tr><td>24 fps film grain</td><td><span class="tag cut">Cut</span></td><td>—</td><td>Constant motion over the text, and GPU cost.</td></tr>
+      <tr><td>Velvet nebulae and vignette</td><td><span class="tag cut">Cut</span></td><td>—</td><td>Lowers contrast at the edges, where nav sits.</td></tr>
+      <tr><td>Pointer light</td><td><span class="tag cut">Cut</span></td><td>—</td><td>Mouse only, and it moves.</td></tr>
+      <tr><td>0.5px inset-ring hairlines</td><td><span class="tag keep">Keep</span></td><td>Board rows</td><td>The right fix for the Chromium 2px bug.</td></tr>
+      <tr><td>@property animated colours</td><td><span class="tag keep">Keep</span></td><td>Line colour transitions</td><td>Smooth colour change at no layout cost.</td></tr>
+      <tr><td>Paper-thin glass, 40px blur</td><td><span class="tag cut">Cut</span></td><td>Opaque sign panels</td><td>Expensive on cheap phones, and it lowered contrast.</td></tr>
+      <tr><td>0px geometry everywhere</td><td><span class="tag up">Upgrade</span></td><td>Rectangles for signs, circles for lines</td><td>Shape now carries meaning.</td></tr>
+      <tr><td>Midnight / Daylight</td><td><span class="tag up">Upgrade</span></td><td>Night / Day / Match my phone, + high contrast</td><td>Follows the phone by default.</td></tr>
+      <tr><td>Private reading, zero trace</td><td><span class="tag up">Upgrade</span></td><td>On by default, neutral titles, status line</td><td>Your choice, and the safest default.</td></tr>
+      <tr><td>Reading pause</td><td><span class="tag keep">Keep</span></td><td>"Take a break" card, opt-out</td><td>Care for a heavy read.</td></tr>
+      <tr><td>Calm button</td><td><span class="tag new">Replace</span></td><td>Calm by construction; motion in Settings</td><td>There is nothing ambient left to calm.</td></tr>
+      <tr><td>Adaptive lite sky</td><td><span class="tag cut">Cut</span></td><td>—</td><td>No animation loop left to adapt.</td></tr>
+      <tr><td>Glossary on tap</td><td><span class="tag keep">Keep</span></td><td>Same, as a small sign panel</td><td>Explains jargon in place.</td></tr>
+      <tr><td>Everyday-words search engine</td><td><span class="tag up">Upgrade</span></td><td>Departures board with matched words shown</td><td>Shows why each result appeared.</td></tr>
+      <tr><td>Two-question guide</td><td><span class="tag up">Upgrade</span></td><td>Reasons, editable answers, three first</td><td>Builds trust and makes a wrong match easy to spot.</td></tr>
+      <tr><td>Patterns (109 sequences)</td><td><span class="tag up">Upgrade</span></td><td>Routes across lines</td><td>The map shows how the tactics combine.</td></tr>
+      <tr><td>Gold read stars, ringed saved stars</td><td><span class="tag up">Upgrade</span></td><td>Visited / kept marks on stations (opt-in)</td><td>Same idea, private by default.</td></tr>
+      <tr><td>Copy button on words you could use; print; old links; House menu; beacon; version list</td><td><span class="tag keep">Keep</span></td><td>Print becomes a one-page "station card"; House seal moved clear of the sign bar</td><td>Working features that only need the new look. The NF seal currently overlaps content on phones.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="targets"><div class="col">
+  <h2>Targets we will measure</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>Measure</th><th class="num">v14 (measured)</th><th class="num">v15 target</th><th>How</th></tr></thead>
+    <tbody>
+      <tr><td>Headline visible, phone at 4× CPU slowdown</td><td class="num">3.4 s</td><td class="num">≤ 1.2 s</td><td>Playwright, throttled, 5-run median</td></tr>
+      <tr><td>Longest main-thread task (phone)</td><td class="num">836 ms</td><td class="num">≤ 150 ms</td><td>Long-task observer</td></tr>
+      <tr><td>Total long-task time at load (phone)</td><td class="num">1.1 s</td><td class="num">≤ 250 ms</td><td>Same</td></tr>
+      <tr><td>Phone screens for a full entry (Gaslighting)</td><td class="num">16.5</td><td class="num">≤ 5 folded</td><td>Page height ÷ viewport, steps folded</td></tr>
+      <tr><td>Answer visible without scrolling</td><td class="num">No</td><td class="num">Yes, all 310</td><td>Summary's top edge within the first 844px</td></tr>
+      <tr><td>Safety note above the answer on sensitive entries</td><td class="num">105 / 105</td><td class="num">105 / 105</td><td>DOM order check</td></tr>
+      <tr><td>Taps from home to the guide</td><td class="num">1 (small link)</td><td class="num">1 (largest sign)</td><td>Visual weight check</td></tr>
+      <tr><td>Taps to leave the site</td><td class="num">n/a</td><td class="num">1</td><td>If decision 1 is yes</td></tr>
+      <tr><td>CPU while idle on a page</td><td class="num">Continuous animation</td><td class="num">0</td><td>Performance trace, 10 s idle</td></tr>
+      <tr><td>Smallest reading text</td><td class="num">13 px</td><td class="num">15 px</td><td>Computed-style scan</td></tr>
+      <tr><td>Stylesheet size / !important count</td><td class="num">66 KB / 49</td><td class="num">≤ 35 KB / 0*</td><td>Build output (*except reduced motion)</td></tr>
+      <tr><td>Storage keys written by default</td><td class="num">Yes, until Private is turned on</td><td class="num">0</td><td>Zero-trace check</td></tr>
+      <tr><td>axe-core violations, 6 page types × 2 themes</td><td class="num">not run</td><td class="num">0 serious</td><td>axe-core in the verify script</td></tr>
+    </tbody>
+  </table></div>
+</div></section>
+
+<section id="plan"><div class="col">
+  <h2>Build plan</h2>
+  <ol>
+    <li><strong>Foundation:</strong> tokens, fonts, pictograms, the shell, the one navigation model, lazy data, privacy-by-default and Leave (if approved). Verify suite in the repo from day one.</li>
+    <li><strong>The reader's path:</strong> Home, Search, Station (answer-first with four steps), Help with reasons. This alone covers what most readers ever touch, so it gets tested first.</li>
+    <li><strong>The network:</strong> line diagrams, interchanges, Compare, the map and Routes.</li>
+    <li><strong>Everything else:</strong> All lines, Kept, Use this safely, Service updates, Settings, print, old-link redirects.</li>
+    <li><strong>Finish:</strong> one screenshot round at five widths in both themes, a fresh design review against this document, a DESIGN.md written from the built site, and the versioned changelog (v15) on the page and in <code>sites.json</code>. Then I bring it to you for a deploy decision. Nothing ships without your go-ahead.</li>
+  </ol>
+</div></section>
+
+<section id="risks"><div class="col">
+  <h2>What we lose, and the risks</h2>
+  <ul>
+    <li><strong>The spectacle.</strong> The living sky was beautiful and some readers will miss it. v15 trades wonder for clarity and calm. The map is still a moment, but a still one.</li>
+    <li><strong>The current identity.</strong> Astra-in-capitals, the cover plate and the constellation-people engravings leave the interface. The brand logo and House seal stay.</li>
+    <li><strong>The journey metaphor</strong> could read as "this leads to that". Mitigation: the copy never says "next stop" or "destination", and routes are framed as patterns seen together.</li>
+    <li><strong>Automatic map layout is hard.</strong> 310 stations on ten octilinear lines may need hand-tuned anchors for line positions. The plan budgets for a fixed anchor file the build reads.</li>
+    <li><strong>Back gesture in private mode</strong> leaves the site (see decision 2).</li>
+    <li><strong>Not yet tested with real readers or real screen readers.</strong> Every claim here about readers is a design hypothesis, the same as in the v14 brief.</li>
+  </ul>
+</div></section>
+
+<section id="decide"><div class="col">
+  <h2>Decisions I need from you</h2>
+  <ol class="verdict">
+    <li><span><strong>Leave quickly:</strong> include the green Leave sign and Escape-twice (recommended), or leave it out?</span></li>
+    <li><span><strong>Private history:</strong> replace history while private (safer, but the phone's back gesture leaves the site), or keep normal history (familiar, but entry names stay in the browser's history)?</span></li>
+    <li><span><strong>The direction:</strong> go with A · Wayfinding, or would you rather see B or C, or the standard support-site layout, built instead?</span></li>
+    <li><span><strong>Line letters:</strong> T G C L W B P S O M as proposed? M ("Movements") stands for Groups, cults and propaganda, because G was taken by Guilt.</span></li>
+    <li><span><strong>Go:</strong> once you have answered, I build phases 1–5 on the branch and send you a preview link to try on your phone. Live stays on v14.</span></li>
+  </ol>
+</div></section>
+
+</div>
+</main>
