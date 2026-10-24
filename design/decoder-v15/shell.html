@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pattern Decoder</title>
+<meta name="description" content="A free, offline guide to {{COUNT}} manipulation and control tactics in plain words: what each looks like, how to tell if it fits, and what you can do. Nothing you type leaves your device.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0E1113" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+<link rel="icon" href="{{LOGO}}">
+<script>/* Saved preferences apply before first paint, but only when the reader turned saving on. */
+(function(){var r=document.documentElement;try{if(localStorage.getItem("fg_save")!=="1")return;var g=function(k){var v=localStorage.getItem("fg_"+k);return v===null?null:JSON.parse(v)};
+var t=g("theme");if(t==="night"||t==="day")r.setAttribute("data-theme",t);var s=g("size");if(s==="l"||s==="xl")r.setAttribute("data-size",s);
+if(g("space")==="roomy")r.setAttribute("data-space","roomy");if(g("motion")==="reduce")r.setAttribute("data-motion","reduce");}catch(e){}})();</script>
+<style>
+{{FONTS}}
+{{CSS}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="#/"><img src="{{LOGO}}" alt="" width="28" height="28"><span>Pattern Decoder</span></a>
+  <a class="status" id="status" href="#/settings" data-on="priv" aria-label="Private: nothing is saved on this device. Open settings"><span class="dot" aria-hidden="true"></span><span class="st-t">Private</span></a>
+  <button class="leave" id="leave" type="button" aria-label="Leave this site quickly"><span>Leave</span><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h5v16h-5"/><path d="M3 12h11M9 7l-5 5 5 5"/></svg></button>
+</header>
+<nav class="doors" aria-label="Main">
+  <a href="#/help" data-door="help"><span class="di"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .9-1 1.7v.5"/><circle cx="12" cy="17" r=".6" fill="currentColor"/></svg></span>Help</a>
+  <a href="#/search" data-door="search"><span class="di"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span>Search</a>
+  <a href="#/map" data-door="map"><span class="di"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M6 8v4a4 4 0 0 0 4 4h6"/><circle cx="18" cy="6" r="2"/><path d="M18 8v8"/></svg></span>Map</a>
+  <a href="#/saved" data-door="saved"><span class="di"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg></span>Saved</a>
+  <div class="lines" id="doorlines"></div>
+</nav>
+<main id="main" tabindex="-1">
+{{HOME}}
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<p class="sr-only" id="announce" role="status" aria-live="polite"></p>
+<div class="breath" id="breath" hidden><div class="breath-box" role="dialog" aria-modal="false" aria-labelledby="breath-h"><h2 id="breath-h">You have been reading for a while.</h2><p>This can be heavy to sit with. Breathe out slowly, look away from the screen for a moment, and come back when you are ready.</p><div class="acts"><button class="btn pri" type="button" data-breath="go">Keep reading</button><button class="btn line" type="button" data-breath="off">Don’t remind me again</button></div></div></div>
+<dialog class="sheet" id="sheet" aria-labelledby="sheet-h"></dialog>
+<script type="application/json" id="data">{{INDEX}}</script>
+{{HOUSE}}
+<script>
+{{JS}}
+</script>
+{{BLOCKS}}
+{{BEACON}}
+</body>
+</html>
