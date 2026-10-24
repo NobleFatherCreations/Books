@@ -4511,3 +4511,61 @@ MEMORY.md has the full record). Live is still v7; deploying needs the author's a
 `instruments/playbook/index.html` = the v10.2 build (the sky world, the original Astra typeface, restrained layout). Source and pipeline
 live in Wookbook (`design/build-decoder-v10.py`, `design/decoder-v10/`, incl. `font/build-astra.py`); this tree carries the built page and a copy.
 Live is still v7. Deploy needs the author's approval.
+
+## 2026-10-22 → 2026-10-24 — Decoder v11 to v14 (mirrored from Wookbook; v14 DEPLOYED 2026-10-24)
+
+The design rounds and their gotchas are recorded in Wookbook's MEMORY.md under the same dates
+(v11 colourways/⌘K, v12 locked viewport + bento, v13 couture layer, v14 grimoire). Every round was
+mirrored here: `design/decoder-v10/*`, `design/build-decoder-v10.py`, fonts in `design/decoder-v10/assets/`,
+and `instruments/playbook/index.html` (byte-identical to the deployed page).
+
+## HANDOFF FOR AN AUDIT — 2026-10-24 (end of the long Pattern Decoder session)
+
+Read this block first. It compresses the whole session; details are in the dated entries above it
+and in `sites.json` → project `playbook` (`version`, `changelog`, `lastDeploy`, `openItems`).
+
+**Where the Pattern Decoder is**
+- **Live: v14**, deployed 2026-10-24 (Netlify site `noblepatterns`, id 8b3d5fdf-49e5-46eb-bb53-97d69039a44e,
+  deploy 6adcc6fa52666a093ddba0ad). Live = `content/prose/_raw/playbook-v10.html` (Wookbook) =
+  `instruments/playbook/index.html` (Books), md5 947ee1587a2bc20700b38244b1a484f9, 3,678,177 bytes, on both
+  noblefathercreations.com/playbook and noblepatterns.netlify.app. Replaced v7; v8–v13 never shipped separately.
+- **Content:** 310 entries (349 source tactics, 39 merged as aliases, old names/links redirect). 24 written
+  fields each; frozen source `content/codex-final/source-data-349.json`; validator
+  `design/validate-codex-final.py --complete`.
+- **Build:** `python3 design/build-decoder-v10.py` (data `content/playbook-data.json` +
+  `content/codex-final/reader-meta.json` + `design/decoder-v10/{shell.html,app.css,app.js,sky.js}` + assets).
+  Fonts are all embedded: Astra (original, `design/decoder-v10/font/build-astra.py`, Thin/Light/Medium),
+  Inter variable subset, Cormorant Garamond Italic subset (OFL). Only external request: the approved
+  Cloudflare beacon.
+- **Design history:** v10 sky world → v11 colourways/⌘K/rail → v12 locked viewport, 35/65 split, bento →
+  v13 couture layer (velvet, pointer light, thin capitals, Cormorant, private reading, reading pause, phone
+  thumb pill) → v14 grimoire (0px radius, 24fps grain, folio layout, sigils, atlas grid, star coordinates,
+  drop cap, meridian, star/card→tile morph, fact tiles, zero-trace private, phone print order).
+- **Verification scripts used** (not in the repo; scratch only — rewrite if needed): all-310-entries render
+  at 1440 + 390 (no overflow, title fits, pager present), keyboard/focus/calm, contrast in both themes,
+  zero-trace (no localStorage/sessionStorage/cookie keys, no history growth while private), morph pseudo-
+  elements observed. All passed on the deployed build.
+
+**Bugs found this session that a reviewer should know the shape of**
+- Never put an attribute on `<html>` that a delegated `closest()` click handler listens for. It caused
+  two bugs: `data-private` (every click toggled Private, v13) and `data-calm` (every click on empty space
+  toggled Calm, since v10). Root markers are now `data-priv`; the handler uses `button[data-calm]`.
+- Reduced-motion/Calm give `*` a 1ms transition on every property; code that measures right after setting
+  a size reads stale values (`fitText` adds `.measuring` to disable transitions while it measures).
+- Chromium draws `border:.5px` as 2 device px; hairlines are `box-shadow: inset 0 0 0 .5px var(--edge)`.
+- The adaptive "lite" sky mode switched the magnet off in slow/headless browsers; computers now go lite
+  only below ~25fps, phones below ~30fps.
+
+**Review copies (private claude.ai artifacts)**
+- Preview of the current build (now v14): https://claude.ai/artifact/DJNDAUoyRUsdPr6fbCjree
+- "Decoder v12 Brief Check" (evidence against the v12 brief; stale for v13/v14): https://claude.ai/artifact/3hpuE2P9y4rcQPEWkQMpFm
+- Figma record (v11 and v12 pages only): https://www.figma.com/design/K5gk9VL90NpeCnGwvJYxHZ
+
+**Fleet-wide drift found by `npm run deployed` (Wookbook) on 2026-10-24 — NOT acted on**
+Only `playbook`, `roselotus`, `noble-nfc-tour`, `nfchq` are in sync. hub, shadowroot, feminine, children,
+wook, fractal, fracture, loop, scale, music, festival, nfcportals, noblenfcseals show **live ahead of the
+repo** (sampled: live pages carry the newer shared `nf-chrome` House menu; Wookbook's `sites.json` still
+points at the pre-2026-08-31 layout, e.g. `source/projects/noble-father-root.html`, `fixes/loop.html`).
+`faith`: our copy is ~3 MB larger than live. `reaction-map`: changed since its capture. **Do not deploy any
+of these from Wookbook until each is reconciled** (decide which side is right first — CLAUDE.md rule 3).
+Books has no deploy checker yet (`scripts/verify-deployed.mjs` lives only in Wookbook).
