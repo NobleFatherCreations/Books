@@ -34,11 +34,13 @@ top-level sections exactly — checked against the live nav, not assumed:
   self-contained per its own `DEPLOYING.md` — it doesn't care where it
   lives in the tree.
 - **`instruments/`** — the tools/apps (The Instruments): Pattern Decoder
-  (`playbook` — **no local source exists anywhere**, confirmed absent,
-  don't go looking for it), The Root (`shadowroot/`), The Listening Room
+  (`playbook/index.html` is the deployed v14 page, byte-identical to live;
+  it is BUILT by `design/build-decoder-v10.py` from `design/decoder-v10/`
+  and `content/` -- edit those, never the output; see `docs/DECODER-BLUEPRINT.md`
+  and `docs/DECODER-CODEX.md`), The Root (`shadowroot/`), The Listening Room
   (`music/`).
-- **`hub/`** — the site-wide index/nav itself (currently only the
-  undeployed Catalogue redesign).
+- **`hub/`** — the site-wide index/nav itself (`hub/catalogue-redesign.html`;
+  as of 2026-10-24 this file IS what noblefathercreations.com serves, byte for byte).
 - **`other/`** — anything the live site itself doesn't nest under one of
   the three sections above (currently the reaction map). Don't force
   something into library/workshop/instruments to avoid an `other/` entry

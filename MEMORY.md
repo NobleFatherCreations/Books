@@ -4575,3 +4575,29 @@ Books has no deploy checker yet (`scripts/verify-deployed.mjs` lives only in Woo
   safety page, constellations, settings, guide, glossary, 109 patterns, 39 merged names, and all 310 entries
   with every field). Regenerate the codex with `python3 design/export-decoder-codex.py` after any content
   change (set DECODER_PAGES_JSON to a captured innerText of #/about to include the safety page verbatim).
+
+## 2026-10-24 — Fleet drift reconciled (nothing deployed; two deploys await approval)
+
+Method: every live page was fetched and compared byte for byte to the repo; for each difference the
+git history decided which side was right (never assume live wins, or the repo wins).
+- **Books was already right for 24 targets** (hub, playbook, shadowroot, feminine, children, wook,
+  fractal, fracture, music, festival, longafter, silence, atwill, repair, slowtake, nfc guide, casting,
+  both NFC shops, all 35 faith pages, plus three snapshots). The "drift" the Wookbook checker reported
+  was Wookbook being stale, not live being wrong.
+- **loop and scale: the repo is AHEAD of live.** The rename to "The Sacred Divide" (2026-09-27) shipped on
+  /faith (09-28) but loop/scale were never redeployed, so they still say "The Coercive Control Codex"
+  (menu in both; two body sentences in scale). Only that text differs. Marked `pendingDeploy` in both
+  registries. **A deploy was attempted and blocked by the permission classifier (production write not
+  covered by "fix all drifts"); it needs an explicit "deploy loop and scale".** Pre-flight already done:
+  live unchanged since the diff, single-file sites (the /favicon.ico they serve is Netlify's default;
+  noblepatterns serves the same one from a one-file deploy). Site ids: loop b9405b37-a71c-4c55-bbd2-a3043963b457,
+  scale 27ab9f53-5850-4fb1-8bed-6513b33ee11f. After deploying: bump each to v4 in sites.json, clear pendingDeploy.
+- **reaction map:** Books' `other/reaction-map/index.html` (2.9 MB, fonts embedded) is an ALTERNATE edition, not
+  what is live (189 KB, loads Google Fonts = an outside request the project forbids). Live capture saved as
+  `other/reaction-map/live-capture.html` and used as the baseline. Deploying the self-hosted edition is an open
+  decision.
+- **Wookbook** sources behind live were overwritten with live bytes (history keeps the old ones); faith became a
+  snapshot (its old `faith-index.html` is the superseded August lineage). `scripts/verify-deployed.mjs` was
+  ported to Books (understands repoPath, directories, snapshots, pendingDeploy; exit 4 = only known pending).
+- **Cross-site wording still stale on live (needs ~20 deploys, not done):** House menus on the other sites still
+  describe the Decoder as "349 tactics · type what happened"; it is now 310.
