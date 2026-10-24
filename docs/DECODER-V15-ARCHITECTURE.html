@@ -210,20 +210,21 @@ details>div{padding-bottom:16px}
   <ol class="route">
     <li><a href="#verdict"><span class="n">01</span>The short version</a></li>
     <li><a href="#answers"><span class="n">02</span>How your answers shaped it</a></li>
-    <li><a href="#three"><span class="n">03</span>Three directions, compared</a></li>
-    <li><a href="#why"><span class="n">04</span>Why Wayfinding wins</a></li>
-    <li><a href="#map"><span class="n">05</span>Site map and navigation</a></li>
-    <li><a href="#screens"><span class="n">06</span>Every screen, and why</a></li>
-    <li><a href="#system"><span class="n">07</span>The visual system</a></li>
-    <li><a href="#motion"><span class="n">08</span>Motion budget</a></li>
-    <li><a href="#privacy"><span class="n">09</span>Privacy and safety model</a></li>
-    <li><a href="#a11y"><span class="n">10</span>Accessibility</a></li>
-    <li><a href="#perf"><span class="n">11</span>Performance and engineering</a></li>
-    <li><a href="#ledger"><span class="n">12</span>Every v14 technique: keep, upgrade or cut</a></li>
-    <li><a href="#targets"><span class="n">13</span>Targets we will measure</a></li>
-    <li><a href="#plan"><span class="n">14</span>Build plan</a></li>
-    <li><a href="#risks"><span class="n">15</span>What we lose, and the risks</a></li>
-    <li><a href="#decide"><span class="n">16</span>Decisions I need from you</a></li>
+    <li><a href="#skills"><span class="n">03</span>What the design skills changed</a></li>
+    <li><a href="#three"><span class="n">04</span>Three directions, compared</a></li>
+    <li><a href="#why"><span class="n">05</span>Why Wayfinding wins</a></li>
+    <li><a href="#map"><span class="n">06</span>Site map and navigation</a></li>
+    <li><a href="#screens"><span class="n">07</span>Every screen, and why</a></li>
+    <li><a href="#system"><span class="n">08</span>The visual system</a></li>
+    <li><a href="#motion"><span class="n">09</span>Motion budget</a></li>
+    <li><a href="#privacy"><span class="n">10</span>Privacy and safety model</a></li>
+    <li><a href="#a11y"><span class="n">11</span>Accessibility</a></li>
+    <li><a href="#perf"><span class="n">12</span>Performance and engineering</a></li>
+    <li><a href="#ledger"><span class="n">13</span>Every v14 technique: keep, upgrade or cut</a></li>
+    <li><a href="#targets"><span class="n">14</span>Targets we will measure</a></li>
+    <li><a href="#plan"><span class="n">15</span>Build plan</a></li>
+    <li><a href="#risks"><span class="n">16</span>What we lose, and the risks</a></li>
+    <li><a href="#decide"><span class="n">17</span>Decisions I need from you</a></li>
   </ol>
 </nav>
 
@@ -233,8 +234,8 @@ details>div{padding-bottom:16px}
     <li><span><strong>The new world is public wayfinding:</strong> the sign system of a metro or an airport. It is the most widely read design language there is, and it was built for people who are stressed, hurried and reading at a glance.</span></li>
     <li><span><strong>The Decoder's data really is a network.</strong> The 10 groups become 10 lines and the 310 tactics become stations. The 679 links between related tactics in different groups become interchanges, and the 109 documented sequences become routes. Unlike the star coordinates, every position on the new map means something true.</span></li>
     <li><span><strong>Entries become answer-first.</strong> Screen one is the station sign, the plain answer and two things it sounds like, with safety above everything on the 105 sensitive entries. The other parts follow as four numbered steps with long lists folded. The full read drops from 16.5 phone screens to about 5.</span></li>
-    <li><span><strong>One navigation model on every screen size:</strong> four doors (Help, Search, Map, Kept) in the same order on every device, at the bottom of a phone and in a side column on a computer.</span></li>
-    <li><span><strong>Private by default,</strong> as you chose. Nothing is stored until the reader turns on "Keep things on this device".</span></li>
+    <li><span><strong>One navigation model on every screen size:</strong> four doors (Help, Search, Map, Saved) in the same order on every device, at the bottom of a phone and in a side column on a computer.</span></li>
+    <li><span><strong>Private by default,</strong> as you chose. Nothing is stored until the reader turns on "Save on this device".</span></li>
     <li><span><strong>Calm by construction.</strong> Nothing moves on its own. Five short movements are left, each one answering a tap: grain, meteors, pointer light, magnetism and blur reveals are gone, and idle CPU drops to zero.</span></li>
     <li><span><strong>Type you can read when you are shaken.</strong> Sentence-case road-sign lettering (Overpass, from the US Highway Gothic tradition) for signs, and Atkinson Hyperlegible Next, designed for low-vision readers, for reading.</span></li>
     <li><span><strong>Faster on a cheap phone:</strong> only a 150 KB index is parsed at start and each entry is parsed when opened. The target is the headline on screen in 1.2 s on a throttled phone (3.4 s today) and the longest task under 150 ms (836 ms today).</span></li>
@@ -257,6 +258,40 @@ details>div{padding-bottom:16px}
     </tbody>
   </table></div>
 </div></section>
+
+<section id="skills"><div class="col">
+  <h2>What the design skills changed</h2>
+  <p>Before building, I searched for every skill that bears on this plan and ran six of them over it: <strong>Apple design</strong> (touch, gestures, springs, type), <strong>Emil Kowalski design engineering</strong> (motion and polish), <strong>site architecture</strong>, <strong>usability heuristics</strong> (Krug and Nielsen), <strong>accessibility</strong> (WCAG 2.2) and <strong>web performance</strong>. Three more were found in the plugin directory and are waiting for you to enable them: Anthropic's <strong>Design</strong> plugin (critique, design system, UX copy, accessibility review), <strong>A11y Enforcer</strong> and Deque's <strong>Axe Accessibility</strong>. Once enabled, they join the finish review in phase 5.</p>
+  <p>The heuristics review scored the first draft <strong>8 out of 10</strong>. These are the changes, each already written into the sections below.</p>
+</div>
+  <div class="tbl"><table>
+    <thead><tr><th>Skill</th><th>First draft</th><th>Now</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td>Usability heuristics</td><td>Private mode replaced every history entry, so the back gesture left the site</td><td>Back works. In private mode the addresses are numbers (<code>#/s/125</code>), not names, and history holds at most two entries</td><td>"Never break the back button" is a standard rule, and the safety goal is met by making the trail unreadable instead (section 10)</td></tr>
+      <tr><td>Usability heuristics</td><td>The fourth door was called "Kept"</td><td>"Saved"</td><td>One plain word per idea; "Kept" made people stop and think</td></tr>
+      <tr><td>Usability heuristics</td><td>Home showed a "Home" door the other mock-ups didn't</td><td>Help · Search · Map · Saved on every screen; the wordmark goes home</td><td>Same place, same names, everywhere. Doors named for what they hold beat a vague "Home"</td></tr>
+      <tr><td>Usability heuristics</td><td>"Delete everything saved" was to ask "Are you sure?"</td><td>Deletes at once, with an Undo bar for 10 s</td><td>People click through confirmations; Undo actually protects them</td></tr>
+      <tr><td>Site architecture</td><td>No footer and no sitemap</td><td>A footer on every page, and the sitemap drawn below (section 06)</td><td>Every page needs a way in; Safety, Updates and Settings need a permanent home</td></tr>
+      <tr><td>Site architecture</td><td>The line name on a station was plain text</td><td>It links to the line, acting as a breadcrumb: Line › Station</td><td>Answers "where am I in the hierarchy?" with no extra element</td></tr>
+      <tr><td>Emil / design engineering</td><td>The "you are here" dot glided on J/K too</td><td>Keyboard steps change instantly; only taps animate</td><td>Never animate keyboard actions: they repeat too often</td></tr>
+      <tr><td>Emil / design engineering</td><td>One easing curve</td><td>Arrival <code>cubic-bezier(.23,1,.32,1)</code>, sheet <code>(.32,.72,0,1)</code>, exits about 30% faster than entries</td><td>Strong ease-out feels instant; fast exits feel responsive</td></tr>
+      <tr><td>Emil / design engineering</td><td>Hover styles everywhere</td><td>Hover only under <code>(hover: hover) and (pointer: fine)</code></td><td>Stops false hovers sticking after a tap on a phone</td></tr>
+      <tr><td>Apple design</td><td>The map's station sheet had fixed open and closed states</td><td>A sheet with three heights (peek, half, full), following the finger 1:1. A flick is projected forward to the nearest height, with velocity carried into a spring (damping 0.8, response 0.3)</td><td>Interruptible, direct manipulation: you can grab it mid-motion and reverse</td></tr>
+      <tr><td>Apple design</td><td>Map pan stopped hard at the edges</td><td>Rubber-band resistance at the edges, plus momentum on release</td><td>A hard stop reads as frozen</td></tr>
+      <tr><td>Apple design</td><td>Fixed letter-spacing</td><td>Tracking by size: −0.02em on station names, 0 on body, +0.08em on small caps labels; sizes in <code>rem</code> so the phone's text size setting scales the whole layout</td><td>Large type reads loose without tightening; small labels need air</td></tr>
+      <tr><td>Apple design</td><td>Theme switch was instant</td><td>Night ↔ Day crossfades over 200 ms</td><td>Avoids a sudden flash of brightness in a dark room</td></tr>
+      <tr><td>Accessibility</td><td>Map was drag-only</td><td>Zoom + / − buttons, arrow keys between stations, and the line diagrams as the list version</td><td>WCAG 2.5.7: every drag needs a single-tap alternative</td></tr>
+      <tr><td>Accessibility</td><td>Sticky header and bottom sign bar</td><td><code>scroll-padding</code> top and bottom equal to their heights</td><td>WCAG 2.4.11: a focused element must never hide behind sticky bars</td></tr>
+      <tr><td>Accessibility</td><td>Swipeable steps</td><td>Real ARIA tabs with roving focus; off-screen steps are <code>inert</code>; a pre-rendered polite status announces "Step 2 of 4"</td><td>Screen readers must hear only the visible step, and hear the change</td></tr>
+      <tr><td>Accessibility</td><td>Escape twice to leave</td><td>Only fires when no dialog or sheet is open, within 1 s; the Leave sign is named "Leave this site quickly"</td><td>Escape already closes dialogs; the two must not collide</td></tr>
+      <tr><td>Accessibility</td><td>Line bullets are colour fills</td><td>In forced-colours mode they become outlined letters</td><td>Windows high-contrast strips backgrounds; the letter still carries the meaning</td></tr>
+      <tr><td>Web performance</td><td>Home drawn by JavaScript after start-up</td><td>Home is baked into the HTML at build time and paints before any script runs</td><td>The first screen no longer waits on parsing</td></tr>
+      <tr><td>Web performance</td><td>Data blocks placed anywhere</td><td>Shell, CSS, script and index first; the ten line blocks at the very end of the file</td><td>The browser paints while the rest of the 3 MB is still arriving</td></tr>
+      <tr><td>Web performance</td><td>Search stemmed 310 entries at start-up</td><td>The search index is pre-stemmed at build time</td><td>Removes start-up work and keeps each keystroke under the 200 ms responsiveness (INP) threshold</td></tr>
+      <tr><td>Web performance</td><td>Targets only for load and long tasks</td><td>Adds LCP, INP and layout-shift (CLS) targets, with reserved heights for the station sign and steps</td><td>Measures how it feels to use, not just to open</td></tr>
+    </tbody>
+  </table></div>
+</section>
 
 <section id="three">
   <div class="col">
@@ -288,7 +323,7 @@ details>div{padding-bottom:16px}
           <div class="ph-row"><span class="ph-lb" style="background:#4A82FF">T</span>Twisting what is real<span style="margin-left:auto;color:#7E878B">43</span></div>
           <div class="ph-row"><span class="ph-lb" style="background:#9469FF">G</span>Guilt, pressure and fear<span style="margin-left:auto;color:#7E878B">44</span></div>
         </div>
-        <div class="ph-bar"><span class="on"><b></b>Home</span><span><b></b>Search</span><span><b></b>Map</span><span><b></b>Kept</span></div>
+        <div class="ph-bar"><span><b></b>Help</span><span><b></b>Search</span><span><b></b>Map</span><span><b></b>Saved</span></div>
       </div><figcaption>A · Home. The most useful route for someone who can't name it is the brightest sign on the screen.</figcaption></figure>
     </article>
 
@@ -373,11 +408,51 @@ details>div{padding-bottom:16px}
   <h3>One model, every screen</h3>
   <p>v14 had two navigation systems: header links, ⌘K and a rail on a computer, and a tab bar plus chip bar on a phone. v15 has one. The same four doors, in the same order, with the same pictograms:</p>
   <div class="grid2">
-    <div class="panel" style="margin:0"><h4 style="margin-top:0">Phone</h4><p class="small" style="margin:0">A sign bar along the bottom, in the thumb zone: Help · Search · Map · Kept. Above it, a slim header: the wordmark, a Private status line, Settings, and the Leave sign at top right. A Back sign sits under the header on every page except Home.</p></div>
+    <div class="panel" style="margin:0"><h4 style="margin-top:0">Phone</h4><p class="small" style="margin:0">A sign bar along the bottom, in the thumb zone: Help · Search · Map · Saved. Above it, a slim header: the wordmark, a Private status line, Settings, and the Leave sign at top right. A Back sign sits under the header on every page except Home.</p></div>
     <div class="panel" style="margin:0"><h4 style="margin-top:0">Computer</h4><p class="small" style="margin:0">The same four signs stand as a column on the left, like a pylon sign, with the ten line bullets beneath them as the index. ⌘K and / open Search from anywhere, as a shortcut to the same page.</p></div>
   </div>
+  <h3>Sitemap</h3>
+  <pre class="mermaid">
+graph TD
+  HOME[Home: three signs and the line index]
+  subgraph Doors on every screen
+    HELP[Help me figure it out]
+    SEARCH[Search]
+    MAP[Map]
+    SAVED[Saved]
+  end
+  HOME --> HELP
+  HOME --> SEARCH
+  HOME --> MAP
+  HOME --> SAVED
+  HELP --> RES[Your matches, with reasons]
+  MAP --> LINE[Line: 10 diagrams]
+  MAP --> ROUTES[Routes: 109 patterns]
+  HOME --> LINES[All lines: by group, A to Z, by setting]
+  LINES --> LINE
+  RES --> ST[Station: 310 entries]
+  SEARCH --> ST
+  LINE --> ST
+  ROUTES --> ST
+  SAVED --> ST
+  ST --> CMP[Compare two look-alikes]
+  ST --> ROUTES
+  subgraph Footer on every page
+    SAFE[Use this safely]
+    UPD[Service updates]
+    SET[Settings]
+  end
+  </pre>
+  <p class="small muted">Any station is at most three taps from Home (Home → Map → Line → Station), or one search away. No page is an orphan: every station is reachable from its line, A–Z and search, and every route from the stations it passes through.</p>
+  <h3>Header, sign bar, footer</h3>
+  <ul>
+    <li><strong>Header (every page):</strong> wordmark (goes Home) · Private status line · Settings · Leave, top right.</li>
+    <li><strong>Sign bar (every page):</strong> Help · Search · Map · Saved. The current door is filled. On a station, the door you arrived through stays filled.</li>
+    <li><strong>Breadcrumb:</strong> on stations, the line name above the title is a link: Line › Station. The Back sign handles "back to my results".</li>
+    <li><strong>Footer (every page):</strong> Use this safely · All lines · Routes · Service updates · Settings · the Noble Father House menu.</li>
+  </ul>
   <h3>Routes</h3>
-  <p>Every v14 and v9 link keeps working; old paths redirect.</p>
+  <p>Every v14 and v9 link keeps working; old paths redirect. In private mode, the readable addresses below become numbered ones (section 10).</p>
   <div class="tbl"><table>
     <thead><tr><th>Page</th><th>New address</th><th>Replaces</th><th>Job</th></tr></thead>
     <tbody>
@@ -390,7 +465,7 @@ details>div{padding-bottom:16px}
       <tr><td>Compare</td><td><code>#/compare/a/b</code></td><td>new</td><td>Two look-alikes side by side</td></tr>
       <tr><td>Routes</td><td><code>#/routes</code>, <code>#/routes/grooming</code></td><td><code>#/patterns</code></td><td>Documented sequences, drawn as routes across lines</td></tr>
       <tr><td>All lines (A–Z, by setting, most common)</td><td><code>#/lines</code></td><td><code>#/browse</code>, <code>#/all</code>, <code>#/common</code>, <code>#/where</code></td><td>One index with three tabs</td></tr>
-      <tr><td>Kept</td><td><code>#/kept</code></td><td><code>#/saved</code></td><td>Saved and recent, when saving is on</td></tr>
+      <tr><td>Saved</td><td><code>#/saved</code></td><td>same</td><td>Saved stations and recent reads, when saving is on</td></tr>
       <tr><td>Use this safely</td><td><code>#/safety</code></td><td><code>#/about</code></td><td>What it is and isn't, getting help, leaving quickly</td></tr>
       <tr><td>Service updates</td><td><code>#/updates</code></td><td>"What changed"</td><td>Version and plain-language changelog</td></tr>
       <tr><td>Settings</td><td><code>#/settings</code></td><td>header toggles</td><td>Theme, text size, spacing, motion, saving</td></tr>
@@ -402,7 +477,7 @@ details>div{padding-bottom:16px}
     <li><strong>Strip map</strong> on every station: "where am I in this group, and what is either side?" Previous and next are tappable, and J/K or ←/→ work too.</li>
     <li><strong>Step bar</strong> on every station: "how much of this entry is left?" Four segments, filled as you go.</li>
     <li><strong>Back sign</strong>: "how do I get back to my results?" It names the page: "← Back to your matches".</li>
-    <li><strong>Private status line</strong>: "is anything being kept?" It is always visible, in words, not just an icon.</li>
+    <li><strong>Private status line</strong>: "is anything being saved?" It is always visible, in words, not just an icon.</li>
     <li><strong>Leave sign</strong> (if approved): "how do I get out right now?"</li>
   </ul>
 </div></section>
@@ -425,7 +500,7 @@ details>div{padding-bottom:16px}
         <div class="ph-row"><span class="ph-lb" style="background:#4A82FF">T</span>Countering<span style="margin-left:auto;font-size:10px;color:#A8B0B3">Compare</span></div>
         <div class="ph-row"><span class="ph-lb" style="background:#B07A52">B</span>Minimization<span style="margin-left:auto;font-size:10px;color:#A8B0B3">Compare</span></div>
       </div>
-      <div class="ph-bar"><span><b></b>Help</span><span class="on"><b></b>Search</span><span><b></b>Map</span><span><b></b>Kept</span></div>
+      <div class="ph-bar"><span><b></b>Help</span><span class="on"><b></b>Search</span><span><b></b>Map</span><span><b></b>Saved</span></div>
     </div><figcaption>Station, screen one. The answer, what it sounds like, and the next step, before any scroll.</figcaption></figure>
 
     <figure><div class="phone" role="img" aria-label="Station step one, Is this it" style="--lc:#4A82FF">
@@ -441,7 +516,7 @@ details>div{padding-bottom:16px}
         <div class="ph-check"><i></i><span><strong>The topic is something neither of you recorded,</strong> and both of you admit you may be mixing it up.</span></div>
         <span class="ph-more">Show all 5 →</span>
       </div>
-      <div class="ph-bar"><span><b></b>Help</span><span class="on"><b></b>Search</span><span><b></b>Map</span><span><b></b>Kept</span></div>
+      <div class="ph-bar"><span><b></b>Help</span><span class="on"><b></b>Search</span><span><b></b>Map</span><span><b></b>Saved</span></div>
     </div><figcaption>Step 1. Signs both ways, two shown, the rest one tap away. Ticks are for the reader's own thinking and are never stored or scored.</figcaption></figure>
 
     <figure><div class="phone" role="img" aria-label="Safety-first station for Emotional Blackmail" style="--lc:#9469FF">
@@ -451,7 +526,7 @@ details>div{padding-bottom:16px}
         <div class="ph-warn"><b><span class="ph-tri"></span>Safety first</b>Watch for threats to hurt themselves, to expose you, to take children, money or housing, or fear of what follows if you refuse. Those turn a painful pattern into a safety matter, and even asking for a pause could raise the danger.<span class="ph-more" style="padding-bottom:0">Read the full note →</span></div>
         <div class="ph-card"><p style="margin:0"><strong>Someone makes their love, their company or their goodwill depend on you giving in,</strong> so saying no feels like putting the whole relationship at risk.</p></div>
       </div>
-      <div class="ph-bar"><span class="on"><b></b>Help</span><span><b></b>Search</span><span><b></b>Map</span><span><b></b>Kept</span></div>
+      <div class="ph-bar"><span class="on"><b></b>Help</span><span><b></b>Search</span><span><b></b>Map</span><span><b></b>Saved</span></div>
     </div><figcaption>A safety-sensitive station (105 of 310). The amber warning panel comes before the answer, using the same safety colour as in any public building.</figcaption></figure>
 
     <figure><div class="phone" role="img" aria-label="Help me figure it out, results with reasons">
@@ -466,7 +541,7 @@ details>div{padding-bottom:16px}
         <span class="ph-more">See 9 more possible matches →</span>
         <span class="ph-more" style="color:#A8B0B3;padding-top:0">See them on the map →</span>
       </div>
-      <div class="ph-bar"><span class="on"><b></b>Help</span><span><b></b>Search</span><span><b></b>Map</span><span><b></b>Kept</span></div>
+      <div class="ph-bar"><span class="on"><b></b>Help</span><span><b></b>Search</span><span><b></b>Map</span><span><b></b>Saved</span></div>
     </div><figcaption>Help, results. Three first, each with the reason it matched, and answers you can change without starting over. The reasons are illustrative; the build computes them from the existing feeling index.</figcaption></figure>
 
     <figure><div class="phone" role="img" aria-label="Search as a departures board">
@@ -480,7 +555,7 @@ details>div{padding-bottom:16px}
         <div class="ph-row" style="align-items:flex-start"><span class="ph-lb" style="background:#C06BE0">W</span><span>Self-gaslighting induction<small>Doubting yourself automatically</small></span></div>
         <div class="ph-row" style="align-items:flex-start"><span class="ph-lb" style="background:#8FA3BD">S</span><span>Medical gaslighting<small>…</small></span></div>
       </div>
-      <div class="ph-bar"><span><b></b>Help</span><span class="on"><b></b>Search</span><span><b></b>Map</span><span><b></b>Kept</span></div>
+      <div class="ph-bar"><span><b></b>Help</span><span class="on"><b></b>Search</span><span><b></b>Map</span><span><b></b>Saved</span></div>
     </div><figcaption>Search. A board of rows: line bullet, name, and the exact words that matched. Nothing typed ever leaves the phone or appears in the address.</figcaption></figure>
 
     <figure><div class="phone" role="img" aria-label="Line diagram for Twisting what is real" style="--lc:#4A82FF">
@@ -500,7 +575,7 @@ details>div{padding-bottom:16px}
           </g>
         </svg>
       </div>
-      <div class="ph-bar"><span><b></b>Help</span><span><b></b>Search</span><span class="on"><b></b>Map</span><span><b></b>Kept</span></div>
+      <div class="ph-bar"><span><b></b>Help</span><span><b></b>Search</span><span class="on"><b></b>Map</span><span><b></b>Saved</span></div>
     </div><figcaption>Line. The whole group as one vertical line diagram. White-ringed stations are interchanges, with the other lines' bullets beside them. This is also the accessible text version of the map.</figcaption></figure>
 
     <figure><div class="phone" role="img" aria-label="Network map">
@@ -521,7 +596,7 @@ details>div{padding-bottom:16px}
         <g fill="#0E1113" stroke="#F2F4F1" stroke-width="3"><circle cx="150" cy="150" r="7"/><circle cx="110" cy="270" r="6"/><circle cx="150" cy="230" r="6"/><circle cx="130" cy="240" r="6"/><circle cx="100" cy="180" r="6"/></g>
         <g font-family="Overpass,sans-serif" font-weight="800" font-size="10" fill="#F2F4F1"><text x="20" y="82">Twisting what is real</text><text x="30" y="346">Guilt, pressure, fear</text><text x="176" y="112">Dodging blame</text><text x="160" y="172">Control</text></g>
       </svg>
-      <div class="ph-bar"><span><b></b>Help</span><span><b></b>Search</span><span class="on"><b></b>Map</span><span><b></b>Kept</span></div>
+      <div class="ph-bar"><span><b></b>Help</span><span><b></b>Search</span><span class="on"><b></b>Map</span><span><b></b>Saved</span></div>
     </div><figcaption>Map (schematic). Lines that share the most look-alikes run side by side and cross at interchanges. Zoom in for station names; tap a station to see its interchanges light up.</figcaption></figure>
 
     <figure><div class="phone" role="img" aria-label="Compare two look-alikes">
@@ -537,7 +612,7 @@ details>div{padding-bottom:16px}
         <div class="ph-k">The difference</div>
         <p style="font-size:11px">Countering puts forward a rival version of events to win a point; gaslighting works on your trust in your own memory.</p>
       </div>
-      <div class="ph-bar"><span><b></b>Help</span><span class="on"><b></b>Search</span><span><b></b>Map</span><span><b></b>Kept</span></div>
+      <div class="ph-bar"><span><b></b>Help</span><span class="on"><b></b>Search</span><span><b></b>Map</span><span><b></b>Saved</span></div>
     </div><figcaption>Compare. Two stations aligned row by row: what it is, what it sounds like, the difference. All of it comes from text that already exists.</figcaption></figure>
   </div>
 
@@ -547,7 +622,7 @@ details>div{padding-bottom:16px}
   </div>
   <div class="desk-scroll"><div class="desk" role="img" aria-label="Desktop station layout">
     <div class="desk-in">
-      <div class="desk-nav"><span>Pattern Decoder</span><span style="height:12px"></span><span>? Help</span><span class="on">⌕ Search</span><span>◎ Map</span><span>☆ Kept</span><span style="height:16px"></span><span style="font:600 10px/1 var(--sign);color:#A8B0B3;letter-spacing:.08em">LINES</span><span><i class="ph-lb" style="background:#4A82FF;font-style:normal">T</i>Truth</span><span><i class="ph-lb" style="background:#9469FF;font-style:normal">G</i>Pressure</span><span><i class="ph-lb" style="background:#1AA9DE;font-style:normal">C</i>Control</span><span style="color:#7E878B">+ 7 more</span></div>
+      <div class="desk-nav"><span>Pattern Decoder</span><span style="height:12px"></span><span>? Help</span><span class="on">⌕ Search</span><span>◎ Map</span><span>☆ Saved</span><span style="height:16px"></span><span style="font:600 10px/1 var(--sign);color:#A8B0B3;letter-spacing:.08em">LINES</span><span><i class="ph-lb" style="background:#4A82FF;font-style:normal">T</i>Truth</span><span><i class="ph-lb" style="background:#9469FF;font-style:normal">G</i>Pressure</span><span><i class="ph-lb" style="background:#1AA9DE;font-style:normal">C</i>Control</span><span style="color:#7E878B">+ 7 more</span></div>
       <div class="desk-read" style="--lc:#4A82FF">
         <div class="ph-station" style="border-left-width:8px"><div class="ph-k" style="margin:0 0 4px;display:flex;gap:6px;align-items:center"><span class="ph-lb" style="background:#4A82FF">T</span>Twisting what is real · station 1 of 43</div><div class="ph-h" style="font-size:44px">Gaslighting</div><div class="ph-sub" style="font-size:15px;margin:0">Making you doubt your own memory</div></div>
         <p style="font-size:17px;line-height:1.55"><strong>Someone keeps telling you that what you clearly remember didn't happen, until you start wondering whether you can trust your own mind.</strong></p>
@@ -609,13 +684,13 @@ details>div{padding-bottom:16px}
         <li><strong>Interchanges on demand.</strong> 679 cross-links would be a hairball, so only the selected station's interchanges are drawn.</li>
         <li><strong>On a phone, the line diagram comes first.</strong> It is a vertical list that reads as both a map and a list, and it is the screen-reader version of the map.</li>
       </ul></div></details>
-    <details><summary>Routes, Kept, Safety, Updates, Settings</summary><div>
+    <details><summary>Routes, Saved, Safety, Updates, Settings</summary><div>
       <ul>
         <li><strong>Routes:</strong> each of the 109 sequences drawn as a route crossing the lines it touches, titled "Patterns that often appear together". It is never presented as a prediction.</li>
-        <li><strong>Kept:</strong> saving is off by default, so this page explains what turning it on does and offers the switch. When on, it shows saved stations, recent reads and "Continue where you left off".</li>
+        <li><strong>Saved:</strong> saving is off by default, so this page explains what turning it on does and offers the switch. When on, it shows saved stations, recent reads and "Continue where you left off".</li>
         <li><strong>Use this safely:</strong> set out like station emergency information. An amber panel says what to do in danger; a green panel explains leaving quickly; plain text covers what the guide is and isn't.</li>
         <li><strong>Service updates:</strong> the version badge and the plain-language changelog, as the CLAUDE.md patch-notes rule requires.</li>
-        <li><strong>Settings:</strong> Night / Day / Match my phone; text size (3 steps); line spacing; reduce motion; saving on/off with "Delete everything kept".</li>
+        <li><strong>Settings:</strong> Night / Day / Match my phone; text size (3 steps); line spacing; reduce motion; saving on/off with "Delete everything saved".</li>
       </ul></div></details>
   </div>
 </section>
@@ -691,25 +766,27 @@ details>div{padding-bottom:16px}
       <tr><td>Map interchange</td><td>The selected station's interchange links draw in once</td><td class="num">320 ms</td><td>Shows connections exactly when they are asked for.</td></tr>
     </tbody>
   </table></div>
-  <p><strong>Easing:</strong> one curve for arrivals, <code>cubic-bezier(.2,.8,.2,1)</code>, and <code>ease-out</code> for presses. <strong>Off forever:</strong> grain, meteors, twinkle, drift, magnetism, pointer light, ripple, veil and blur reveals, the focus veil, the chromatic split and the header frost animation. <strong>Reduced motion</strong> (the phone setting or Settings): every movement becomes a 120 ms crossfade or an instant change. Idle CPU is zero, because no animation loop exists.</p>
+  <p><strong>Rules from the motion skills:</strong> keyboard actions (J/K, arrows, ⌘K) never animate. Exits run about 30% faster than entries. Every movement is a CSS transition or a WAAPI animation on transform and opacity only, so a new tap interrupts it from where it is. Hover effects exist only on devices with a real pointer. The map sheet and map pan are the only gesture-driven pieces; they follow the finger 1:1, project a flick forward and hand its speed to a spring (damping 0.8, response 0.3), with rubber-band resistance at the edges. Theme changes crossfade over 200 ms.</p>
+  <p><strong>Easing:</strong> arrivals <code>cubic-bezier(.23,1,.32,1)</code>, the sheet <code>cubic-bezier(.32,.72,0,1)</code>, presses <code>ease-out</code>. <strong>Off forever:</strong> grain, meteors, twinkle, drift, magnetism, pointer light, ripple, veil and blur reveals, the focus veil, the chromatic split and the header frost animation. <strong>Reduced motion</strong> (the phone setting or Settings): every movement becomes a 120 ms crossfade or an instant change. Idle CPU is zero, because no animation loop exists.</p>
 </div></section>
 
 <section id="privacy"><div class="col">
   <h2>Privacy and safety model</h2>
   <div class="tbl"><table>
-    <thead><tr><th>Layer</th><th>Default (private)</th><th>When "Keep things on this device" is on</th></tr></thead>
+    <thead><tr><th>Layer</th><th>Default (private)</th><th>When "Save on this device" is on</th></tr></thead>
     <tbody>
-      <tr><td>Storage</td><td>Nothing written: no localStorage, sessionStorage or cookies. Preferences live in memory for this visit.</td><td>Saved stations, recent reads, preferences and "continue where you left off" stored on the device. "Delete everything kept" is one tap in Settings.</td></tr>
-      <tr><td>History trail</td><td>Pages replace each other in history, so the browser's history doesn't fill with entry names. The on-screen Back sign uses an in-page stack.</td><td>Normal browser history, so the system back gesture works.</td></tr>
+      <tr><td>Storage</td><td>Nothing written: no localStorage, sessionStorage or cookies. Preferences live in memory for this visit.</td><td>Saved stations, recent reads, preferences and "continue where you left off" stored on the device. "Delete everything saved" is one tap in Settings.</td></tr>
+      <tr><td>Addresses</td><td>Numbers, not names: <code>#/s/125</code> for a station and <code>#/l/1</code> for a line. Anything that shows the address (history, the tab switcher, autocomplete) shows nothing readable. Share link still copies the readable address.</td><td>Readable addresses (<code>#/entry/gaslighting</code>).</td></tr>
+      <tr><td>History trail</td><td>At most two entries: Home underneath, and the current page on top. Back and the phone's back gesture work through an in-page stack; each back step is caught and the top entry re-armed.</td><td>Normal browser history.</td></tr>
       <tr><td>Tab title</td><td>"Pattern Decoder" on every page; no tactic names in the tab switcher.</td><td>Page-specific titles.</td></tr>
       <tr><td>Search</td><td>Never in the address and never sent anywhere (as in v14).</td><td>Same.</td></tr>
       <tr><td>Status</td><td>"Private · nothing is saved", always in the header.</td><td>"Saving on this device", same place.</td></tr>
     </tbody>
   </table></div>
-  <div class="panel warn"><div class="kicker">The trade-off to know about</div><p style="margin:8px 0 0">With history replaced, an Android back gesture or the browser's back button leaves the site instead of going back one page. The on-screen Back sign covers this, and it is the safer trade for someone whose phone may be checked. It is <a href="#decide">decision 2</a> if you would rather keep normal history.</p></div>
+  <div class="panel warn"><div class="kicker">What to test on real phones</div><p style="margin:8px 0 0">The first draft simply replaced history, which broke the back gesture. The usability review flagged that as a standard failure. The new design keeps Back working and makes the trail unreadable instead. One thing must be checked on a real Android phone: Chrome sometimes skips history entries that were added without a tap. If it does, Back may leave the site from the second page. The fallback is the first draft's single-entry mode. Both are in the build plan, and <a href="#decide">decision 2</a> picks which one ships if the test fails.</p></div>
   <h3>Leave quickly (recommended, pending decision 1)</h3>
-  <p><span class="exit">Leave →</span> A green sign at the top right of every page. One tap replaces the page with a neutral website (for example a weather page) using <code>location.replace</code>, so Back doesn't return to the guide, and clears everything held in memory. On a keyboard, Escape twice does the same. Use this safely explains its limits plainly: it doesn't erase a visit the browser already recorded, and a private browsing window is safer still.</p>
-  <h3>Kept safety rules</h3>
+  <p><span class="exit">Leave →</span> A green sign at the top right of every page. One tap replaces the page with a neutral website (for example a weather page) using <code>location.replace</code> and clears everything held in memory. Because private history is only ever two entries deep, pressing Back on the neutral page shows at most the plain home page, never an entry. On a keyboard, Escape twice does the same. Use this safely explains its limits plainly: it doesn't erase a visit the browser already recorded, and a private browsing window is safer still.</p>
+  <h3>Safety rules that stay</h3>
   <ul><li>Safety notes lead on all 105 sensitive entries, and no screen ever suggests confronting someone or announcing a departure.</li><li>No scores, no verdicts, no labels for people. The ticks in "Is this it?" are never counted.</li><li>The optional reading pause stays, as a quiet "Take a break" card after about 20 minutes, which can be turned off.</li></ul>
 </div></section>
 
@@ -723,6 +800,7 @@ details>div{padding-bottom:16px}
     <li><strong>Steps as tabs:</strong> the four steps use the ARIA tabs pattern, with arrow-key movement and a live "Step 2 of 4" announcement.</li>
     <li><strong>Map equivalent:</strong> every line diagram is an ordered list of links, so screen-reader users get the same information as the map.</li>
     <li><strong>Text size:</strong> three steps in Settings on top of browser zoom; layouts tested to 200% with no horizontal scroll.</li>
+    <li><strong>From the accessibility review:</strong> zoom buttons and arrow keys for the map (2.5.7); <code>scroll-padding</code> so focus never hides behind the header or sign bar (2.4.11); inactive steps <code>inert</code> and a pre-rendered status region for "Step 2 of 4" and result counts; real checkboxes with labels for the "Is this it?" ticks; the station sheet as a dialog that returns focus on close; outlined letter bullets in forced-colours mode; search input at 16px so iOS doesn't zoom; reflow checked at 320px.</li>
     <li><strong>Still owed:</strong> a pass with real VoiceOver and TalkBack on devices. v14 never had one, and this plan budgets for it.</li>
   </ul>
 </div></section>
@@ -737,6 +815,9 @@ details>div{padding-bottom:16px}
     <li><strong>One stylesheet built from tokens:</strong> <code>@layer reset, tokens, base, components, pages</code>, with no override rounds and no <code>!important</code> outside the reduced-motion block. Target 35 KB, from 66 KB with 49 <code>!important</code>.</li>
     <li><strong>One script, in sections:</strong> router, data, search, help, station, map, privacy, settings. Target 60 KB, from 117 KB including the sky engine.</li>
     <li><strong><code>content-visibility: auto</code></strong> on long lists such as A–Z and line diagrams.</li>
+    <li><strong>Home is pre-rendered</strong> into the HTML at build time, so the first screen paints with no script at all.</li>
+    <li><strong>File order streams:</strong> shell, CSS, script and the index first; the ten line data blocks last. The page is usable before the file has finished arriving.</li>
+    <li><strong>Search is pre-stemmed</strong> at build time, so typing does no heavy work. Fonts are inline, so text never swaps and shifts the layout.</li>
   </ul>
   <h3>Files</h3>
   <div class="tbl"><table>
@@ -813,7 +894,7 @@ details>div{padding-bottom:16px}
       <tr><td>Everyday-words search engine</td><td><span class="tag up">Upgrade</span></td><td>Departures board with matched words shown</td><td>Shows why each result appeared.</td></tr>
       <tr><td>Two-question guide</td><td><span class="tag up">Upgrade</span></td><td>Reasons, editable answers, three first</td><td>Builds trust and makes a wrong match easy to spot.</td></tr>
       <tr><td>Patterns (109 sequences)</td><td><span class="tag up">Upgrade</span></td><td>Routes across lines</td><td>The map shows how the tactics combine.</td></tr>
-      <tr><td>Gold read stars, ringed saved stars</td><td><span class="tag up">Upgrade</span></td><td>Visited / kept marks on stations (opt-in)</td><td>Same idea, private by default.</td></tr>
+      <tr><td>Gold read stars, ringed saved stars</td><td><span class="tag up">Upgrade</span></td><td>Visited and saved marks on stations (opt-in)</td><td>Same idea, private by default.</td></tr>
       <tr><td>Copy button on words you could use; print; old links; House menu; beacon; version list</td><td><span class="tag keep">Keep</span></td><td>Print becomes a one-page "station card"; House seal moved clear of the sign bar</td><td>Working features that only need the new look. The NF seal currently overlaps content on phones.</td></tr>
     </tbody>
   </table></div>
@@ -827,6 +908,9 @@ details>div{padding-bottom:16px}
       <tr><td>Headline visible, phone at 4× CPU slowdown</td><td class="num">3.4 s</td><td class="num">≤ 1.2 s</td><td>Playwright, throttled, 5-run median</td></tr>
       <tr><td>Longest main-thread task (phone)</td><td class="num">836 ms</td><td class="num">≤ 150 ms</td><td>Long-task observer</td></tr>
       <tr><td>Total long-task time at load (phone)</td><td class="num">1.1 s</td><td class="num">≤ 250 ms</td><td>Same</td></tr>
+      <tr><td>Largest paint (LCP), phone at 4×</td><td class="num">not measured</td><td class="num">≤ 1.5 s</td><td>Performance trace</td></tr>
+      <tr><td>Slowest response to a tap or keystroke (INP)</td><td class="num">not measured</td><td class="num">≤ 200 ms</td><td>Event timing on search typing, step change, station open</td></tr>
+      <tr><td>Layout shift (CLS)</td><td class="num">not measured</td><td class="num">≤ 0.05</td><td>Layout-shift observer, 10 stations</td></tr>
       <tr><td>Phone screens for a full entry (Gaslighting)</td><td class="num">16.5</td><td class="num">≤ 5 folded</td><td>Page height ÷ viewport, steps folded</td></tr>
       <tr><td>Answer visible without scrolling</td><td class="num">No</td><td class="num">Yes, all 310</td><td>Summary's top edge within the first 844px</td></tr>
       <tr><td>Safety note above the answer on sensitive entries</td><td class="num">105 / 105</td><td class="num">105 / 105</td><td>DOM order check</td></tr>
@@ -847,7 +931,7 @@ details>div{padding-bottom:16px}
     <li><strong>Foundation:</strong> tokens, fonts, pictograms, the shell, the one navigation model, lazy data, privacy-by-default and Leave (if approved). Verify suite in the repo from day one.</li>
     <li><strong>The reader's path:</strong> Home, Search, Station (answer-first with four steps), Help with reasons. This alone covers what most readers ever touch, so it gets tested first.</li>
     <li><strong>The network:</strong> line diagrams, interchanges, Compare, the map and Routes.</li>
-    <li><strong>Everything else:</strong> All lines, Kept, Use this safely, Service updates, Settings, print, old-link redirects.</li>
+    <li><strong>Everything else:</strong> All lines, Saved, Use this safely, Service updates, Settings, print, old-link redirects.</li>
     <li><strong>Finish:</strong> one screenshot round at five widths in both themes, a fresh design review against this document, a DESIGN.md written from the built site, and the versioned changelog (v15) on the page and in <code>sites.json</code>. Then I bring it to you for a deploy decision. Nothing ships without your go-ahead.</li>
   </ol>
 </div></section>
@@ -868,7 +952,7 @@ details>div{padding-bottom:16px}
   <h2>Decisions I need from you</h2>
   <ol class="verdict">
     <li><span><strong>Leave quickly:</strong> include the green Leave sign and Escape-twice (recommended), or leave it out?</span></li>
-    <li><span><strong>Private history:</strong> replace history while private (safer, but the phone's back gesture leaves the site), or keep normal history (familiar, but entry names stay in the browser's history)?</span></li>
+    <li><span><strong>Private history:</strong> I now recommend numbered addresses plus a two-entry history, so Back works and the trail is unreadable. If Android Chrome breaks the back gesture in testing, which fallback ships: single-entry history (the safer choice, though Back leaves the site), or normal history with numbered addresses?</span></li>
     <li><span><strong>The direction:</strong> go with A · Wayfinding, or would you rather see B or C, or the standard support-site layout, built instead?</span></li>
     <li><span><strong>Line letters:</strong> T G C L W B P S O M as proposed? M ("Movements") stands for Groups, cults and propaganda, because G was taken by Guilt.</span></li>
     <li><span><strong>Go:</strong> once you have answered, I build phases 1–5 on the branch and send you a preview link to try on your phone. Live stays on v14.</span></li>

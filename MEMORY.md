@@ -4625,3 +4625,10 @@ architecture comparing three ideas before any build.
 - **Open decisions (doc section 16):** Leave sign yes/no; private history replaceState vs normal; confirm A;
   line letters; go-ahead to build. PRODUCT.md brand commitment (celestial) not yet rewritten — do it when A is confirmed.
 - Impeccable v4.7.0 update available (installed 4.0.4); not run.
+- 2026-10-24 (later) **Skills applied to the v15 plan before building** (user asked to find and activate skills first):
+  ran Books:apple-design, emil-design-eng, site-architecture, ux-heuristics, better-accessibility, web-perf;
+  found in the plugin directory (not yet enabled; card shown): Anthropic "Design" plugin, A11y Enforcer, Deque Axe.
+  Doc v3 adds section 03 "What the design skills changed" (22 changes). Key: "Kept" → "Saved"; private mode now
+  keeps Back working via numbered addresses (#/s/125) + two-entry history guard (test on Android Chrome; fallback
+  = single-entry); footer + Mermaid sitemap; keyboard actions never animate; map sheet with detents/momentum;
+  WCAG 2.5.7/2.4.11 fixes; home pre-rendered, data blocks last, pre-stemmed search; LCP/INP/CLS targets.
