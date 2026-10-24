@@ -2,7 +2,8 @@
 """Build the Pattern Decoder v15 ("Wayfinding"): one self-contained, offline HTML file.
 
 Run from the repo root:  python3 design/build-decoder-v15.py [--out PATH]
-Default output: instruments/playbook/index.html (the deployable page).
+Default output: instruments/playbook/_undeployed/v15/index.html. The live v14 stays at
+instruments/playbook/index.html until the author approves a deploy; then copy this file over it.
 
 v15 reuses v10's data merge (entries, aliases, reader meta, feelings, search stop words) and
 replaces the sky with a transit network:
@@ -197,7 +198,7 @@ def home_html(lines, count):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--out", default=os.path.join(ROOT, "instruments", "playbook", "index.html"))
+    ap.add_argument("--out", default=os.path.join(ROOT, "instruments", "playbook", "_undeployed", "v15", "index.html"))
     a = ap.parse_args()
     entries, by, recipes, aliases, narrow, feelings, feeling_groups, stop, common = assemble()
 
@@ -253,6 +254,7 @@ def main():
             .replace("{{HOUSE}}", read(A10, "house.html"))
             .replace("{{BEACON}}", read(A10, "beacon.html")))
     assert "{{" not in html, "unfilled placeholder in shell"
+    os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
     with open(a.out, "w", encoding="utf-8") as fh:
         fh.write(html)
     print(f"wrote {os.path.relpath(a.out, ROOT)}  {len(html.encode())//1024} KB  entries {len(entries)}  "
