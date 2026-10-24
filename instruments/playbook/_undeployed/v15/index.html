@@ -40,7 +40,7 @@ if(g("space")==="roomy")r.setAttribute("data-space","roomy");if(g("motion")==="r
     --bg:#0E1113;--panel:#181C1F;--panel-2:#20262A;--rule:#2A3135;--rule-hi:#3A4247;
     --fg:#F2F4F1;--fg-2:#A8B0B3;--fg-3:#8A9397;
     --blade:#F2F4F1;--blade-ink:#0E1113;--bullet-ink:#0E1113;
-    --amber:#FFB020;--amber-ink:#0E1113;--exit:#00B864;--exit-ink:#04140B;
+    --amber:#FFB020;--amber-ink:#0E1113;--amber-fill:#FFB020;--amber-fill-ink:#0E1113;--exit:#00B864;--exit-ink:#04140B;
     --toward:#9CD9BC;--away:#AFB8E8;--mark:rgba(255,176,32,.28);
     --sign:'Overpass',system-ui,sans-serif;--read:'Atkinson Next','Atkinson Hyperlegible',system-ui,sans-serif;
     --s1:.5rem;--s2:1rem;--s3:1.5rem;--s4:2rem;--s5:3rem;--s6:4rem;
@@ -226,7 +226,7 @@ if(g("space")==="roomy")r.setAttribute("data-space","roomy");if(g("motion")==="r
 
   /* the safety plate: an ISO warning sign, amber band with a triangle, then the note */
   .warn{background:var(--panel);margin:var(--s3) 0}
-  .warn .band{display:flex;align-items:center;gap:.625rem;background:var(--amber);color:var(--amber-ink);padding:.625rem var(--s2);font:800 1rem/1.1 var(--sign)}
+  .warn .band{display:flex;align-items:center;gap:.625rem;background:var(--amber-fill);color:var(--amber-fill-ink);padding:.625rem var(--s2);font:800 1rem/1.1 var(--sign)}
   .warn .band .i{width:1.375rem;height:1.375rem}
   .warn .body{padding:var(--s2) var(--s2) var(--s3);display:grid;gap:.75rem}
 
@@ -293,7 +293,7 @@ if(g("space")==="roomy")r.setAttribute("data-space","roomy");if(g("motion")==="r
   /* the four steps */
   .steps{margin-top:var(--s4)}
   .tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.25rem}
-  .tabs [role=tab]{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;gap:.375rem;min-height:4rem;padding:.5rem .5rem .625rem;background:var(--panel);text-align:left;font:700 .875rem/1.15 var(--sign);color:var(--fg-2)}
+  .tabs [role=tab]{text-wrap:balance;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;gap:.375rem;min-height:4rem;padding:.5rem .5rem .625rem;background:var(--panel);text-align:left;font:700 .875rem/1.15 var(--sign);color:var(--fg-2)}
   .tabs [role=tab] .no{font:800 .8125rem/1 var(--sign);display:grid;place-items:center;width:1.5rem;height:1.5rem;border-radius:50%;box-shadow:inset 0 0 0 2px currentColor}
   .tabs [role=tab][aria-selected=true]{background:var(--blade);color:var(--blade-ink)}
   .tabs [role=tab][aria-selected=true] .no{background:var(--blade-ink);color:var(--blade);box-shadow:none}
@@ -355,7 +355,8 @@ if(g("space")==="roomy")r.setAttribute("data-space","roomy");if(g("motion")==="r
   .gsteps{display:grid;grid-template-columns:repeat(3,1fr);gap:.25rem;margin:0 0 var(--s3)}
   .gsteps i{height:.25rem;background:var(--rule)}.gsteps i.on{background:var(--fg)}
   .picked{display:flex;flex-wrap:wrap;gap:.375rem;margin:0 0 var(--s3)}
-  .picked button,.picked a{display:inline-flex;align-items:center;gap:.375rem;min-height:2.5rem;padding:0 .75rem;background:var(--panel);font:700 .875rem/1.2 var(--sign);text-decoration:none}
+  .picked .chg{font-weight:400;text-decoration:underline;text-underline-offset:.2em;color:var(--fg-2)}
+  .picked button,.picked a{display:inline-flex;align-items:center;gap:.5rem;min-height:2.5rem;padding:0 .75rem;background:var(--panel);font:700 .875rem/1.2 var(--sign);text-decoration:none}
   .gbar{position:sticky;bottom:calc(var(--bar-h) + env(safe-area-inset-bottom));display:flex;align-items:center;gap:var(--s2);justify-content:space-between;background:var(--bg);padding:var(--s2) 0;border-top:1px solid var(--rule)}
   @media (min-width:56.25em){.gbar{bottom:0}}
   .err{color:var(--amber);font:700 .9375rem/1.3 var(--sign)}
@@ -876,10 +877,10 @@ function viewHelp(){
   const whyHTML=m=>'Matches <b>'+m.why.slice(0,2).map(H).join('</b>, <b>')+'</b>'+(m.here&&g.where?', and <b>'+H((WHERE[g.where]||{}).label||"")+'</b>':'');
   const sens=list.slice(0,6).some(m=>m.e.sens);
   return '<div class="view">'+bar+stepTxt+'<h1 class="h-page" tabindex="-1">'+(list.length?'Your closest matches':'Nothing matched yet')+'</h1>'+
-    '<div class="picked" aria-label="Your answers">'+(g.where?'<a href="#/help" data-gstep="0">'+H(WHERE[g.where].label)+' · change</a>':'')+
+    '<div class="picked" aria-label="Your answers">'+(g.where?'<a href="#/help" data-gstep="0">'+H(WHERE[g.where].label)+'<span class="chg">Change</span></a>':'')+
     g.feels.map(k=>'<button type="button" data-unfeel="'+k+'" aria-label="Remove: '+esc(FEEL[k]?FEEL[k].label:k)+'">'+H(FEEL[k]?FEEL[k].label:k)+ic("close")+'</button>').join("")+
     '<button type="button" data-gstep="1">Add more</button></div>'+
-    (sens?'<div class="warn" role="note"><div class="band">'+ic("tri")+'If you feel unsafe</div><div class="body"><p>Some of these can come with real danger. If you are afraid of someone, reach a person you trust, a local support service, or emergency services if you are in immediate danger.</p><p><a href="#/safety">More on staying safe</a></p></div></div>':'')+
+    (sens?'<div class="warn" role="note"><div class="band">'+ic("tri")+'If you feel unsafe</div><div class="body"><p>If you are afraid of someone, reach a person you trust, a local support service, or emergency services if you are in immediate danger. <a href="#/safety">More on staying safe</a></p></div></div>':'')+
     (list.length?'<div class="rows">'+top.map(m=>rowHTML(m.e,{why:whyHTML(m)})).join("")+'</div>':'<p class="lede">Try adding another answer.</p>')+
     (rest.length?(g.more?'<h2 class="k">More possible matches</h2><div class="rows">'+rest.map(m=>rowHTML(m.e,{why:whyHTML(m)})).join("")+'</div>':'<button class="linkbtn" type="button" data-gmore>Show '+rest.length+' more possible matches</button>'):'')+
     '<div class="blades" style="margin-top:2rem">'+(list.length?'<button class="blade" type="button" data-maplit>'+'<span class="pict">'+ic("map")+'</span><span class="bt"><b>See them on the map</b><small>Matches often cluster on one or two lines</small></span><span class="ar">'+ic("arrow")+'</span></button>':'')+

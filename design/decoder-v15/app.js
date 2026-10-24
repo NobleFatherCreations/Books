@@ -228,10 +228,10 @@ function viewHelp(){
   const whyHTML=m=>'Matches <b>'+m.why.slice(0,2).map(H).join('</b>, <b>')+'</b>'+(m.here&&g.where?', and <b>'+H((WHERE[g.where]||{}).label||"")+'</b>':'');
   const sens=list.slice(0,6).some(m=>m.e.sens);
   return '<div class="view">'+bar+stepTxt+'<h1 class="h-page" tabindex="-1">'+(list.length?'Your closest matches':'Nothing matched yet')+'</h1>'+
-    '<div class="picked" aria-label="Your answers">'+(g.where?'<a href="#/help" data-gstep="0">'+H(WHERE[g.where].label)+' · change</a>':'')+
+    '<div class="picked" aria-label="Your answers">'+(g.where?'<a href="#/help" data-gstep="0">'+H(WHERE[g.where].label)+'<span class="chg">Change</span></a>':'')+
     g.feels.map(k=>'<button type="button" data-unfeel="'+k+'" aria-label="Remove: '+esc(FEEL[k]?FEEL[k].label:k)+'">'+H(FEEL[k]?FEEL[k].label:k)+ic("close")+'</button>').join("")+
     '<button type="button" data-gstep="1">Add more</button></div>'+
-    (sens?'<div class="warn" role="note"><div class="band">'+ic("tri")+'If you feel unsafe</div><div class="body"><p>Some of these can come with real danger. If you are afraid of someone, reach a person you trust, a local support service, or emergency services if you are in immediate danger.</p><p><a href="#/safety">More on staying safe</a></p></div></div>':'')+
+    (sens?'<div class="warn" role="note"><div class="band">'+ic("tri")+'If you feel unsafe</div><div class="body"><p>If you are afraid of someone, reach a person you trust, a local support service, or emergency services if you are in immediate danger. <a href="#/safety">More on staying safe</a></p></div></div>':'')+
     (list.length?'<div class="rows">'+top.map(m=>rowHTML(m.e,{why:whyHTML(m)})).join("")+'</div>':'<p class="lede">Try adding another answer.</p>')+
     (rest.length?(g.more?'<h2 class="k">More possible matches</h2><div class="rows">'+rest.map(m=>rowHTML(m.e,{why:whyHTML(m)})).join("")+'</div>':'<button class="linkbtn" type="button" data-gmore>Show '+rest.length+' more possible matches</button>'):'')+
     '<div class="blades" style="margin-top:2rem">'+(list.length?'<button class="blade" type="button" data-maplit>'+'<span class="pict">'+ic("map")+'</span><span class="bt"><b>See them on the map</b><small>Matches often cluster on one or two lines</small></span><span class="ar">'+ic("arrow")+'</span></button>':'')+
