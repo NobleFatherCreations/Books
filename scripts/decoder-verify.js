@@ -193,6 +193,54 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     const frames = await p.evaluate(() => new Promise(res => { let n = 0; const o = new MutationObserver(() => n++); o.observe(document.body, { subtree: true, attributes: true, childList: true, characterData: true }); const anims = document.getAnimations().length; setTimeout(() => res({ mutations: n, anims }), 3000); }));
     T("idle: nothing changes or animates on its own for 3 s", frames.mutations === 0 && frames.anims === 0, JSON.stringify(frames)); await ctx.close(); }
 
+  // ---- leaving: reachable from every state, and Back does not return to the guide
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/");
+    await p.route("**/*google.com/**", r => r.fulfill({ status: 200, body: "weather" }));
+    await p.goto(URL0 + "#/entry/gaslighting"); await p.evaluate(() => breathShow()); await p.waitForTimeout(100);
+    T("leave: the Leave button is on top of the pause card", await p.evaluate(() => { const r = document.querySelector("#leave").getBoundingClientRect(); const e = document.elementFromPoint(r.x + r.width / 2, r.y + r.height / 2); return !!e && !!e.closest("#leave"); }));
+    await p.evaluate(() => breathHide());
+    await p.goto(URL0 + "#/map"); await p.waitForTimeout(200); await p.evaluate(() => openSheet(40)); await p.waitForTimeout(250);
+    T("leave: a Leave button is inside the open map sheet", await p.evaluate(() => { const l = document.querySelector("#sheet [data-leave]"); if (!l) return false; const r = l.getBoundingClientRect(); const e = document.elementFromPoint(r.x + r.width / 2, r.y + r.height / 2); return !!e && !!e.closest("[data-leave]"); }));
+    await p.keyboard.press("Escape"); await p.keyboard.press("Escape"); await p.waitForTimeout(700);
+    T("leave: Escape twice leaves even with the map sheet open", /google\.com/.test(p.url()), p.url());
+    await ctx.close(); }
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/");
+    await p.route("**/*google.com/**", r => r.fulfill({ status: 200, body: "weather" }));
+    for (const h of ["#/s/5", "#/s/6", "#/map", "#/search"]) { await p.evaluate(h => { location.hash = h; }, h); await p.waitForTimeout(120); }
+    await p.click("#leave"); await p.waitForTimeout(900);
+    const onWeather = /google\.com/.test(p.url());
+    const back = await p.goBack({ timeout: 4000 }).catch(() => null);
+    T("leave: goes to the weather page, and Back does not return to the guide", onWeather && !(p.url().startsWith("file://") && /v15/.test(p.url())), "after leave " + (onWeather ? "weather" : p.url()) + "; after Back " + p.url());
+    await ctx.close(); }
+
+  // ---- safety and the colour contract
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/compare/emotional-blackmail/gaslighting");
+    const r = await p.evaluate(() => { const w = document.querySelector(".warn"), g = document.querySelector(".cmp-g"); return { warn: !!w, before: !!w && !!(w.compareDocumentPosition(g) & Node.DOCUMENT_POSITION_FOLLOWING), top: w ? w.getBoundingClientRect().top : 9999 }; });
+    T("compare: the safety note comes before the comparison and is on the first screen", r.warn && r.before && r.top < 700, JSON.stringify(r));
+    await p.goto(URL0 + "#/");
+    T("home: a safe step is on the first screen (If you are not safe, read this first)", await p.evaluate(() => { const a = [...document.querySelectorAll(".blade")].find(x => /not safe/i.test(x.textContent)); return !!a && a.getBoundingClientRect().top < innerHeight - 70 && /safety/.test(a.getAttribute("href")); }));
+    await p.goto(URL0 + "#/search"); await p.fill("#q", "you are imagining things"); await p.waitForTimeout(250);
+    T("search highlight is not amber (amber is for danger only)", await p.evaluate(() => { const m = document.querySelector("mark"); if (!m) return false; const c = getComputedStyle(m).backgroundColor; return !/255, 176, 32/.test(c); }));
+    await ctx.close(); }
+
+  // ---- map tap targets, measured from the rendered page
+  { const bad = [];
+    for (const w of [320, 360, 390, 1440]) { const ctx = await ctxFor(w, 800, "dark"); const p = await open(ctx, "#/map"); await p.waitForTimeout(200);
+      const m = await p.evaluate(() => { const pts = [...document.querySelectorAll("#map a .st")].map(c => { const r = c.getBoundingClientRect(); return [r.x + r.width / 2, r.y + r.height / 2]; });
+        let min = 1e9; const byCol = {}; pts.forEach(([x, y]) => { (byCol[Math.round(x)] = byCol[Math.round(x)] || []).push(y); });
+        Object.values(byCol).forEach(ys => { ys.sort((a, b) => a - b); for (let i = 1; i < ys.length; i++) min = Math.min(min, ys[i] - ys[i - 1]); });
+        const xs = [...new Set(pts.map(p => Math.round(p[0])))].sort((a, b) => a - b); const landscape = document.querySelector("#map").classList.contains("land");
+        return { min, gapX: xs.length > 1 && !landscape ? Math.min(...xs.slice(1).map((x, i) => x - xs[i])) : 99, landscape }; });
+      const need = 24; const gap = m.landscape ? 24 : Math.min(m.min, m.gapX);
+      if ((m.landscape ? m.min < 0 : m.min < need - 0.6 || m.gapX < need - 0.6) && !m.landscape) bad.push(`${w}px: rows ${m.min.toFixed(1)} cols ${m.gapX.toFixed(1)}`);
+      await ctx.close(); }
+    T("map: neighbouring stations are ≥24 CSS px apart on phones down to 320px wide", !bad.length, bad.join("; ")); }
+
+  // ---- the House seal never floats over the text
+  { const bad = [];
+    for (const w of [390, 1440]) { const ctx = await ctxFor(w, 900, "dark"); const p = await open(ctx, "#/entry/gaslighting"); const pos = await p.evaluate(() => { const s = document.querySelector(".nf-seal"); return s ? getComputedStyle(s).position : "absent"; }); if (pos === "fixed") bad.push(w + "px " + pos); await ctx.close(); }
+    T("House seal rests at the end of the page (not fixed over text)", !bad.length, bad.join("; ")); }
+
   await b.close();
   console.log(`\n${out.length - fails.length}/${out.length} checks passed`);
   if (fails.length) { console.log("\nFAILED:\n" + fails.join("\n")); process.exit(1); }

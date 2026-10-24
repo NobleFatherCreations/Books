@@ -179,7 +179,7 @@ def home_html(lines, count):
             '<section class="concourse" aria-labelledby="home-h">'
             '<h1 id="home-h" class="h-page">Put a name to what is happening.</h1>'
             '<p class="lede">%d manipulation and control tactics, in plain words: how to tell if one fits, and what you can do.</p>'
-            '<div class="blades">%s%s%s</div>'
+            '<div class="blades">%s%s%s%s</div>'
             '<div id="continue"></div>'
             '</section>'
             '<section class="lines-ix" aria-labelledby="lines-h"><h2 id="lines-h" class="k">The ten lines</h2>'
@@ -193,6 +193,8 @@ def home_html(lines, count):
         blade("#/search", "", '<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>', "I know what to look for", "Search by what was said or done"),
         blade("#/map", "", '<circle cx="6" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M6 8v4a4 4 0 0 0 4 4h6"/><circle cx="18" cy="6" r="2"/><path d="M18 8v8"/>',
               "See all %d on the map" % count, "Ten lines, one for each kind"),
+        blade("#/safety", " safe quiet", '<path d="M12 3 2 20h20z"/><path d="M12 10v4"/><circle cx="12" cy="17" r=".6" fill="currentColor"/>',
+              "If you are not safe, read this first", "What to do, and how to leave quickly"),
         rows, count)
 
 

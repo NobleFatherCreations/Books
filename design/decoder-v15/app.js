@@ -18,6 +18,7 @@ function norm(s){return expandContractions((s||"").toLowerCase()).replace(/[^a-z
 function safeDecode(s){try{return decodeURIComponent(s)}catch(e){return String(s||"")}}
 function curly(s){return String(s).replace(/(^|[\s(—-])"/g,"$1“").replace(/"/g,"”").replace(/(^|[\s(])'/g,"$1‘").replace(/'/g,"’");}
 const H = s => esc(curly(s));
+const unq = t => { t=String(t||"").trim(); return /^["“‘]/.test(t)&&/["”’]$/.test(t)?t.replace(/^["“‘]\s*/,"").replace(/\s*["”’]$/,""):t; };
 function slugify(s){return (s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-+|-+$)/g,"")||"x";}
 function sentences(t){ const m=String(t||"").match(/[^.!?]+(?:[.!?]+["”’)]*|$)\s*/g); return (m||[String(t||"")]).map(x=>x.trim()).filter(Boolean); }
 /* The answer comes first: the first sentence of an explanation is bold, long paragraphs break every two sentences. */
@@ -34,7 +35,7 @@ const P = {
   share:'<path d="M12 3v13M7 8l5-5 5 5"/><path d="M5 13v7h14v-7"/>', print:'<path d="M7 9V3h10v6"/><rect x="3" y="9" width="18" height="8"/><path d="M7 14h10v7H7z"/>',
   save:'<path d="M6 3h12v18l-6-4-6 4z"/>', saved:'<path fill="currentColor" d="M6 3h12v18l-6-4-6 4z"/>',
   tri:'<path d="M12 3 2 20h20z"/><path d="M12 10v4"/><circle cx="12" cy="17" r=".6" fill="currentColor"/>',
-  cmp:'<path d="M8 3v18M16 3v18M3 8h5M16 16h5"/>', search:'<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>', map:'<circle cx="6" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M6 8v4a4 4 0 0 0 4 4h6"/><circle cx="18" cy="6" r="2"/><path d="M18 8v8"/>',
+  cmp:'<path d="M8 3v18M16 3v18M3 8h5M16 16h5"/>', exit:'<path d="M14 4h5v16h-5"/><path d="M3 12h11M9 7l-5 5 5 5"/>', search:'<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>', map:'<circle cx="6" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M6 8v4a4 4 0 0 0 4 4h6"/><circle cx="18" cy="6" r="2"/><path d="M18 8v8"/>',
 };
 const ic = (n,cls) => '<svg class="i'+(cls?' '+cls:'')+'" viewBox="0 0 24 24" aria-hidden="true">'+P[n]+'</svg>';
 
@@ -260,7 +261,7 @@ function stepPanels(e){
       blk("What it is",'<div class="text">'+prose(f.expanded_definition)+'</div>')+
       blk("Why it matters",'<div class="text">'+prose(f.why_this_matters)+'</div>')+
       blk("How it shows up",fold(f.what_it_is))+
-      (says.length>2?blk("More things people say",'<ul class="says">'+says.slice(2).map(s=>'<li>'+H(s)+'</li>').join("")+'</ul>'):""),
+      (says.length>2?blk("More things people say",'<ul class="says">'+says.slice(2).map(s=>'<li>'+H(unq(s))+'</li>').join("")+'</ul>'):""),
     '<h2>What you can do</h2><p class="hint">'+(e.sens?'Read the safety note at the top first. If speaking up could make things worse, skip the wording below and talk to someone you trust or a local support service.':'Pick what fits. You do not owe anyone a confrontation.')+'</p>'+
       '<div class="blk script"><h3>'+scriptH+'</h3><blockquote id="bs">'+H(String(f.boundary_script||"").replace(/^Verification script[^:]*:\s*/i,""))+'</blockquote><div class="acts"><button class="btn" type="button" data-copy="bs">'+ic("copy")+'Copy the words</button></div></div>'+
       blk("Ways to respond",'<div class="resp">'+RESP.map(r=>f.response_options&&f.response_options[r[0]]?'<div><h4>'+r[1]+'</h4><p>'+H(f.response_options[r[0]])+'</p></div>':'').join("")+'</div>')+
@@ -290,14 +291,14 @@ function viewStation(e){
   const panels=stepPanels(e);
   return gloss('<article class="view station" data-g="'+e.g+'" aria-labelledby="st-h">'+
     '<header class="sname"><div class="sign">'+bullet(l,"lg")+'<div><h1 class="h-st" id="st-h" tabindex="-1">'+H(e.n)+'</h1>'+(e.sub?'<p class="sub">'+H(e.sub)+'</p>':'')+'</div></div>'+
-      '<p class="onl">On the <a href="'+lnH(l)+'">'+esc(lineName(l))+'</a></p>'+strip+
+      '<p class="onl">On the <a href="'+lnH(l)+'">'+esc(lineName(l))+'</a></p>'+
       '</header>'+
     (e.sens?'<section class="warn" role="note" aria-labelledby="w-h"><h2 class="band" id="w-h">'+ic("tri")+'Safety first</h2><div class="body">'+prose(f.safety_note)+'<p class="small"><a href="#/safety">How to use this guide safely</a></p></div></section>':'')+
     '<section class="answer" aria-label="In short"><div class="sum">'+prose(f.plain_language_summary)+'</div>'+
-      (says.length?'<h2 class="k">It can sound like</h2><ul class="says">'+says.slice(0,2).map(s=>'<li>'+H(s)+'</li>').join("")+'</ul>':'')+
+      (says.length?'<h2 class="k">It can sound like</h2><ul class="says">'+says.slice(0,2).map(s=>'<li>'+H(unq(s))+'</li>').join("")+'</ul>':'')+
       (e.abs&&e.abs.length?'<p class="alsoc">Also called '+e.abs.map(H).join(", ")+'</p>':'')+'</section>'+
     '<div class="acts"><button class="btn" type="button" data-save="'+esc(e.n)+'" aria-pressed="'+saved+'">'+ic(saved?"saved":"save")+(saved?'Saved':'Save')+'</button>'+
-      '<button class="btn" type="button" data-share>'+ic("share")+'Share link</button><button class="btn" type="button" data-print>'+ic("print")+'Print</button></div>'+
+      '<button class="btn" type="button" data-share>'+ic("share")+'Share link</button><button class="btn" type="button" data-print>'+ic("print")+'Print</button></div>'+strip+
     '<div class="steps" data-steps><div class="tabs" role="tablist" aria-label="Read this entry in four steps">'+
       STEPS.map((s,i)=>'<button role="tab" type="button" id="t-'+i+'" aria-controls="p-'+i+'" aria-selected="'+(i===0)+'" tabindex="'+(i===0?0:-1)+'"><span class="no">'+(i+1)+'</span>'+s[1]+'</button>').join("")+
       '</div><div class="stepbar" aria-hidden="true"><i style="--p:.25"></i></div>'+
@@ -330,12 +331,12 @@ function viewCompare(a,b){
   const col=(e,l,inner)=>'<div data-g="'+e.g+'">'+inner+'</div>';
   const row=(title,fn)=>'<section class="cmp-row"><h2>'+title+'</h2><div class="cmp-g">'+col(a,la,fn(a,fa))+col(b,lb,fn(b,fb))+'</div></section>';
   return '<div class="view"><h1 class="h-page" tabindex="-1">'+H(a.n)+' or '+H(b.n)+'?</h1><p class="lede">Side by side, from what each entry already says.</p>'+
-    '<div class="cmp-g">'+[a,b].map(e=>'<div data-g="'+e.g+'"><a class="nm" href="'+stH(e)+'">'+bullet(LINE[e.g],"sm")+'<span>'+H(e.n)+'</span></a><p class="small muted" style="margin-top:.5rem">'+esc(LINE[e.g].label)+'</p></div>').join("")+'</div>'+
+    (a.sens||b.sens?'<div class="warn" role="note"><div class="band">'+ic("tri")+'Safety first</div><div class="body"><p>'+[a,b].filter(e=>e.sens).map(e=>H(e.n)).join(" and ")+' can travel with real danger. Read the safety note on '+((a.sens&&b.sens)?'each':'that')+' entry before acting on anything here.</p></div></div>':'')+
+    '<div class="cmp-g">'+[a,b].map(e=>'<div data-g="'+e.g+'"><a class="nm" href="'+stH(e)+'">'+bullet(LINE[e.g],"sm")+'<span>'+H(e.n)+'</span>'+(e.sens?ic("tri","tri"):'')+'</a><p class="small muted" style="margin-top:.5rem">'+esc(LINE[e.g].label)+'</p></div>').join("")+'</div>'+
     row("In short",(e,f)=>'<p>'+H(f.plain_language_summary)+'</p>')+
-    row("It can sound like",(e,f)=>'<ul class="says">'+(f.what_it_sounds_like||[]).slice(0,2).map(s=>'<li>'+H(s)+'</li>').join("")+'</ul>')+
+    row("It can sound like",(e,f)=>'<ul class="says">'+(f.what_it_sounds_like||[]).slice(0,2).map(s=>'<li>'+H(unq(s))+'</li>').join("")+'</ul>')+
     row("Signs it might be this",(e,f)=>fold((f.this_may_be_it_when||[]).slice(0,3),"tw",3))+
     row("How to tell them apart",(e,f)=>'<div class="text">'+prose(f.how_to_distinguish_from_related)+'</div>')+
-    (a.sens||b.sens?'<div class="warn" role="note"><div class="band">'+ic("tri")+'Safety first</div><div class="body"><p>'+[a,b].filter(e=>e.sens).map(e=>H(e.n)).join(" and ")+' can travel with real danger. Read the safety note on '+((a.sens&&b.sens)?'each':'that')+' entry before acting on anything here.</p></div></div>':'')+
     '</div>';
 }
 
@@ -373,7 +374,7 @@ function mapGeom(land){
   const g={land, pts:[]};
   /* 24-unit spacing between stations in both layouts, so every tap target is at least 24 CSS pixels (WCAG 2.5.8) */
   if(land){ g.w=76+44*24+24; g.h=40+LINES.length*52; LINES.forEach((l,li)=>l.st.forEach((e,si)=>{ g.pts[e.i]={x:76+si*24,y:36+li*52}; })); }
-  else { g.w=LINES.length*36+8; g.h=64+Math.max(...LINES.map(l=>l.order.length))*24; LINES.forEach((l,li)=>l.st.forEach((e,si)=>{ g.pts[e.i]={x:22+li*36,y:56+si*24}; })); }
+  else { g.w=22+(LINES.length-1)*32+22; g.h=64+Math.max(...LINES.map(l=>l.order.length))*28; LINES.forEach((l,li)=>l.st.forEach((e,si)=>{ g.pts[e.i]={x:22+li*32,y:56+si*28}; })); }
   return g;
 }
 function mapSVG(){
@@ -398,7 +399,7 @@ function drawInterchanges(i){
 }
 function viewMap(){
   const note=MAPLIT?'<div class="maptools"><span class="small"><b>Showing your '+MAPLIT.length+' matches.</b></span><button class="linkbtn" type="button" data-mapclear>Show every station</button></div>':'';
-  return '<div class="view wide"><h1 class="h-page" tabindex="-1">The map</h1><p class="lede">Ten lines, one for each kind of tactic. Lines that share the most look-alikes run side by side. Tap any station to see it and where you can change.</p>'+
+  return '<div class="view wide"><h1 class="h-page" tabindex="-1">The map</h1><p class="lede">Ten lines, one for each kind of tactic. Lines that share the most look-alikes run side by side. Tap a station to see it and where you can change. To see names, use Every line as a list, further down.</p>'+
     note+'<div class="legend"><span><i></i>A station: tap one to read it and see where you can change</span></div><div class="mapwrap">'+mapSVG()+'</div>'+
     '<h2 class="h-sec">Every line as a list</h2>'+lineRows()+'</div>';
 }
@@ -406,7 +407,7 @@ function openSheet(i){
   const e=E[i], l=LINE[e.g], x=crossRel(e), sh=$("#sheet");
   MAPSEL=i; $$("#map a.sel").forEach(a=>a.classList.remove("sel")); const a=$('#map a[data-i="'+i+'"]'); if(a) a.classList.add("sel");
   drawInterchanges(i);
-  sh.innerHTML='<span class="grab" data-grab aria-hidden="true"></span><button class="x" type="button" data-sheetclose aria-label="Close">'+ic("close")+'</button><div class="in" data-g="'+e.g+'">'+
+  sh.innerHTML='<span class="grab" data-grab aria-hidden="true"></span><button class="leave lvs" type="button" data-leave aria-label="Leave this site quickly"><span>Leave</span>'+ic("exit")+'</button><button class="x" type="button" data-sheetclose aria-label="Close">'+ic("close")+'</button><div class="in" data-g="'+e.g+'">'+
     '<div class="sign" style="display:flex;gap:.75rem;align-items:flex-start">'+bullet(l)+'<div><h2 id="sheet-h" style="font-size:1.5rem;line-height:1.1">'+H(e.n)+'</h2>'+(e.sub?'<p class="muted">'+H(e.sub)+'</p>':'')+'</div></div>'+
     (e.sens?'<p class="small" style="display:flex;gap:.5rem;align-items:center">'+ic("tri","tri")+'<span>Safety first: this entry starts with its safety note.</span></p>':'')+
     '<p>'+H(e.f.plain_language_summary)+'</p>'+
@@ -449,7 +450,7 @@ function viewSafety(){
   const p=t=>'<p>'+t+'</p>', h=t=>'<h2>'+t+'</h2>';
   return '<div class="view read"><h1 class="h-page" tabindex="-1">Use this guide safely</h1><p class="lede">What applies to every entry, said once.</p>'+
     '<section class="warn" aria-labelledby="sf-h"><h2 class="band" id="sf-h" style="margin:0;font-size:1rem">'+ic("tri")+'If you are not safe</h2><div class="body"><p>If any of this involves threats, being watched or tracked, being cut off from people or money, housing or immigration status, sex, pressure toward self-harm, or fear for your safety, reach a real person: someone you trust, a local support service, a legal or workplace resource, or emergency services if you are in immediate danger. Entries marked with the warning sign start with their safety note.</p></div></section>'+
-    '<section class="exitplate" aria-labelledby="lv-h"><h2 class="band" id="lv-h" style="margin:0;font-size:1rem">Leaving quickly</h2><div class="body"><p>The green <strong>Leave</strong> button at the top of every page switches straight to a weather page and clears what this page was holding. On a keyboard, press Escape twice. It cannot erase that you visited: your browser may still list this site in its history, so a private browsing window is safer still.</p></div></section>'+
+    '<section class="exitplate" aria-labelledby="lv-h"><h2 class="band" id="lv-h" style="margin:0;font-size:1rem">Leaving quickly</h2><div class="body"><p>The green <strong>Leave</strong> button at the top of every page switches straight to a weather page and clears what this page was holding. On a keyboard, press Escape twice. It needs a connection to show the weather page; without one it shows a blank page. It steps back over the pages you opened here before it leaves, but it cannot erase that you visited: your browser may still list this site, so a private browsing window is safer still.</p></div></section>'+
     h("What this guide is")+p("A reading aid. It helps you put a name to something that happened, see what else it could be, and decide what to do next. Some entries are about everyday relationships; others are about workplaces, online life and influence on a whole society.")+
     h("What it is not")+p("It is not a diagnosis, a legal opinion or therapy. It cannot tell you what another person meant, what they are like, or whether you are in danger. Only you, and the people you trust, can weigh that.")+
     h("A signal, not a verdict")+p("One example of a pattern is a reason to look more closely, not proof of motive or character. Every entry says what its tactic is not, because most of these behaviors also have ordinary explanations. Please do not use a label from this guide to attack, shame, threaten, expose or get back at someone.")+
@@ -581,14 +582,17 @@ function statusUI(){ const s=$("#status"); if(!s) return; const on=store.saving;
 function setSaving(v){ store.setSaving(v); if(v) Object.keys(PREF).forEach(k=>store.set(k,PREF[k])); statusUI(); }
 
 /* ---------- leaving quickly ---------- */
-function leave(){ try{ store.forgetAll(); SEARCH_Q=""; GUIDE={step:0,where:null,feels:[]}; document.title="Weather"; $("#main").innerHTML=""; }catch(e){}
-  location.replace("https://www.google.com/search?q=weather"); }
+const H0=history.length;
+function leave(){ try{ store.forgetAll(); SEARCH_Q=""; GUIDE={step:0,where:null,feels:[]}; document.title="Weather"; $("#main").innerHTML=""; $("#sheet").close(); }catch(e){}
+  const url=navigator.onLine?"https://www.google.com/search?q=weather":"about:blank", n=history.length-H0;
+  /* step back over every page of this visit first, so Back from the weather page does not land in the guide */
+  if(n>0){ history.go(-n); setTimeout(()=>location.replace(url),90); } else location.replace(url); }
 let LAST_ESC=0;
 
 /* ---------- events ---------- */
 document.addEventListener("click",ev=>{
   const t=ev.target, a=t.closest("a"), b=t.closest("button");
-  if(t.closest("#leave")){ leave(); return; }
+  if(t.closest("#leave,[data-leave]")){ leave(); return; }
   if(a&&a.hasAttribute("data-back")&&STACK.length>1){ ev.preventDefault(); history.back(); return; }
   if(a&&a.hasAttribute("data-vt")&&ev.detail>0){ PENDING_VT=a.querySelector(".nm,span")||a; }
   if(a&&a.dataset.i!=null&&a.closest("#map")){ ev.preventDefault(); openSheet(+a.dataset.i); return; }
@@ -641,8 +645,7 @@ document.addEventListener("change",ev=>{ const t=ev.target;
 });
 document.addEventListener("keydown",ev=>{
   const inField=/^(INPUT|TEXTAREA|SELECT)$/.test((ev.target.tagName||""))||ev.target.isContentEditable;
-  if(ev.key==="Escape"){ if($("#sheet").open||!$("#breath").hidden){ if(!$("#breath").hidden) breathHide(); return; }
-    const now=Date.now(); if(now-LAST_ESC<1000){ leave(); return; } LAST_ESC=now; return; }
+  if(ev.key==="Escape"){ const now=Date.now(); if(now-LAST_ESC<1000){ leave(); return; } LAST_ESC=now; if(!$("#breath").hidden) breathHide(); return; }
   if((ev.key==="k"&&(ev.metaKey||ev.ctrlKey))||(ev.key==="/"&&!inField)){ ev.preventDefault(); nav("#/search"); setTimeout(()=>{ const q=$("#q"); if(q) q.focus(); },0); return; }
   const tab=ev.target.closest&&ev.target.closest("[role=tab]");
   if(tab&&["ArrowLeft","ArrowRight","Home","End"].includes(ev.key)){ ev.preventDefault(); const n=ev.key==="Home"?0:ev.key==="End"?3:(STEP+(ev.key==="ArrowRight"?1:-1)+4)%4; setStep(n); $("#t-"+n).focus(); return; }
