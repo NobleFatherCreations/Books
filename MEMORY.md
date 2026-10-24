@@ -4601,3 +4601,8 @@ git history decided which side was right (never assume live wins, or the repo wi
   ported to Books (understands repoPath, directories, snapshots, pendingDeploy; exit 4 = only known pending).
 - **Cross-site wording still stale on live (needs ~20 deploys, not done):** House menus on the other sites still
   describe the Decoder as "349 tactics · type what happened"; it is now 310.
+- 2026-10-24 **Redesign hand-off:** `docs/DECODER-REDESIGN-BRIEF.md` (Part A = paste-ready prompt for another chat,
+  also `docs/DECODER-HANDOFF-PROMPT.txt`; Part B = measured pros/cons of v14; Part C = ranked improvement ideas and
+  owner decisions). Key measured facts: entry = 29 tiles / ~1,730 words / 11.3 desktop screens / 16.5 phone screens;
+  3.2 MB JSON = 90% of the page, 347 ms startup task (836 ms at 4x CPU), headline visible 3.4 s on a throttled phone;
+  `.h1` defined 6x in CSS, 49 !important. No analysis finding has been implemented yet.
