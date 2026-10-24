@@ -4632,3 +4632,33 @@ architecture comparing three ideas before any build.
   keeps Back working via numbered addresses (#/s/125) + two-entry history guard (test on Android Chrome; fallback
   = single-entry); footer + Mermaid sitemap; keyboard actions never animate; map sheet with detents/momentum;
   WCAG 2.5.7/2.4.11 fixes; home pre-rendered, data blocks last, pre-stemmed search; LCP/INP/CLS targets.
+
+## 2026-10-24 — Decoder v15 "Wayfinding" BUILT and tested (NOT deployed; live is still v14)
+
+Owner delegated the open decisions ("easiest to understand/navigate") after choosing: replace the world, answer-first
+entries, private by default. Decisions made on their behalf: direction A Wayfinding; Leave included; private = numbered
+addresses (#/s/125) + neutral title + normal Back (the planned two-entry history guard was dropped); line letters
+T G C L W B P S O M; colours default "Match my phone".
+- **Where:** `instruments/playbook/_undeployed/v15/index.html` (3.28 MB). Source `design/decoder-v15/{shell.html,app.css,app.js,assets/}`
+  (Overpass + Atkinson Hyperlegible Next, OFL texts kept), builder `design/build-decoder-v15.py` (reuses v10's data merge;
+  `order_line()` orders stations by relatedness, 223/300 neighbours directly related; pre-renders Home; per-line JSON blocks
+  at the end of the file). Live v14 `instruments/playbook/index.html` untouched. To deploy: copy over, bump sites.json to v15
+  + changelog, run the deploy check, then redeploy (needs the owner's go-ahead).
+- **Tests:** `scripts/decoder-verify.js` (34 checks, all pass): 310 stations x 390/1440, safety-first order on the 105,
+  axe-core (needs `npm i --no-save axe-core`; Deque/other a11y plugins were never enabled), contrast of ~1,220 text runs
+  both themes, 320px + Largest-text reflow, 4x-CPU timing (first content ~240-290 ms vs v14 3,400; longest task ~110 ms vs 836),
+  private zero-trace, keyboard, reduced motion, idle (no animation), Leave from every state, map tap spacing >=24px.
+- **Independent review** (impeccable-finish-reviewer, fresh context): first verdict "fix" (Leave unreachable under the pause
+  card and inside the modal sheet; safety note buried in Compare; no safe step on Home; amber/mint colour leaks; map targets;
+  strip pushing the answer down; kicker-style headings; measure; seal over text). All fixed and each turned into a test;
+  re-review: all resolved except quote-glyph alignment and a Leave-unwind timing risk, both then fixed (popstate-driven
+  replace, page hidden meanwhile). Documenter wrote `instruments/playbook/DESIGN.md` + `.impeccable/design.json`.
+- **Gotchas:** layered CSS beats nothing unlayered: the shared House menu's rules are unlayered, so the seal override
+  lives outside @layer. `[hidden]` and print need !important (7 in total). Synthetic non-cancelable click events follow
+  hrefs: test with real taps. 269 of 310 stations have an interchange, so marking interchange stations says nothing.
+- **Not done:** real phones / real screen readers (VoiceOver, TalkBack); clinical read of safety copy; print on paper.
+  Leave needs a connection for the weather page (offline = blank page). House menus on other sites still say "349 tactics".
+- Docs: `docs/DECODER-V15-ARCHITECTURE.html` (private artifact https://claude.ai/artifact/45G2bv6ubjiG36JPNdhUUp) now has an
+  "As built" section with measurements and every departure from the plan. Phone preview of the build (private artifact):
+  https://claude.ai/artifact/FMDn3fLtSqY7gykykpQBQM (Leave inside the preview navigates the frame away; reload to continue).
+- PRODUCT.md brand commitment rewritten for the new world.

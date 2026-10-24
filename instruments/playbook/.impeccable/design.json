@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-24T00:00:00Z",
+  "title": "Design System: Pattern Decoder",
+  "extensions": {
+    "colorMeta": {
+      "blade": {"role": "primary", "displayName": "Enamel White", "canonical": "#F2F4F1", "tonalRamp": ["#0E1113","#181C1F","#20262A","#3A4247","#8A9397","#A8B0B3","#D5DBDE","#F2F4F1"]},
+      "amber-fill": {"role": "tertiary", "displayName": "Warning Amber", "canonical": "#FFB020", "tonalRamp": ["#3D2A05","#6B4A0A","#9A5B00","#C98A12","#E69A14","#FFB020","#FFC85C","#FFE3A8"]},
+      "exit": {"role": "tertiary", "displayName": "Exit Green", "canonical": "#00B864", "tonalRamp": ["#04140B","#005C32","#007A40","#009A52","#00B864","#4DD08F","#8FE3B7","#CFF5E1"]},
+      "bg": {"role": "neutral", "displayName": "Platform Black", "canonical": "#0E1113", "tonalRamp": ["#0E1113","#181C1F","#20262A","#2A3135","#3A4247","#5F686F","#8A9397","#A8B0B3"]},
+      "line-truth": {"role": "secondary", "displayName": "Line T Truth", "canonical": "#4A82FF", "tonalRamp": []}
+    },
+    "typographyMeta": {
+      "display": {"displayName": "Display", "purpose": "Home headline only."},
+      "sign": {"displayName": "Sign lettering", "purpose": "Overpass 800 for everything scanned: headings, blades, buttons, labels."},
+      "body": {"displayName": "Reading", "purpose": "Atkinson Next for everything read."}
+    },
+    "shadows": [],
+    "motion": [
+      {"name": "ease", "value": "cubic-bezier(.23,1,.32,1)", "purpose": "Panel slide, draw, toast, page fade."},
+      {"name": "ease-sheet", "value": "cubic-bezier(.32,.72,0,1)", "purpose": "Bottom sheet rise."},
+      {"name": "press", "value": "transform .16s ease-out; active scale(.97) .09s", "purpose": "Tap feedback on controls."},
+      {"name": "panel-slide", "value": "translateX(+-1.5rem) 0.22s", "purpose": "Step change, tap-caused only."},
+      {"name": "draw", "value": "stroke-dashoffset 0.32s", "purpose": "Cross-link on the map."}
+    ],
+    "breakpoints": [
+      {"name": "phone-small", "value": "30em"},
+      {"name": "rail", "value": "56.25em"},
+      {"name": "station-two-col", "value": "70em"}
+    ]
+  },
+  "components": [
+    {"name": "Primary Blade", "kind": "custom", "refersTo": "blade-primary", "description": "The one white sign per screen.",
+     "html": "<a class=\"ds-blade\" href=\"#\"><span class=\"ds-pict\"></span><span class=\"ds-bt\"><b>Help me figure it out</b><small>Three short questions</small></span></a>",
+     "css": ".ds-blade{display:flex;align-items:center;gap:16px;min-height:72px;padding:16px 16px 16px 20px;background:#F2F4F1;color:#0E1113;text-decoration:none;font-family:Overpass,system-ui,sans-serif}.ds-blade:focus-visible{outline:3px solid #F2F4F1;outline-offset:3px}.ds-pict{width:40px;height:40px;border-radius:50%;background:#0E1113}.ds-bt{display:flex;flex-direction:column;gap:4px}.ds-bt b{font-weight:800;font-size:19px}.ds-bt small{font-size:15px;opacity:.78}"},
+    {"name": "Button", "kind": "button", "refersTo": "button",
+     "description": "44px square-cornered control; hover is tonal.",
+     "html": "<button class=\"ds-btn\">Keep reading</button>",
+     "css": ".ds-btn{min-height:44px;padding:0 16px;background:#181C1F;color:#F2F4F1;border:0;border-radius:0;font:700 15px/1.1 Overpass,system-ui,sans-serif}.ds-btn:hover{background:#20262A}.ds-btn:focus-visible{outline:3px solid #F2F4F1;outline-offset:3px}.ds-btn:active{transform:scale(.97)}"},
+    {"name": "Leave", "kind": "button", "refersTo": "leave",
+     "description": "Exit green, top bar, every screen.",
+     "html": "<button class=\"ds-leave\">Leave</button>",
+     "css": ".ds-leave{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;background:#00B864;color:#04140B;border:0;border-radius:0;font:800 15px/1 Overpass,system-ui,sans-serif}.ds-leave:focus-visible{outline:3px solid #F2F4F1;outline-offset:3px}"},
+    {"name": "Line Bullet", "kind": "custom", "refersTo": "line-bullet",
+     "description": "Circle plus letter; colour is never alone.",
+     "html": "<span class=\"ds-b\">T</span>",
+     "css": ".ds-b{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:#4A82FF;color:#0E1113;font:800 14px/1 Overpass,system-ui,sans-serif;padding-top:.1em}"},
+    {"name": "Safety Plate", "kind": "card", "refersTo": "safety-plate-band",
+     "description": "Amber band with triangle, then the note. Danger only.",
+     "html": "<div class=\"ds-warn\"><div class=\"ds-band\">Safety first</div><p>If you are not safe, leave first.</p></div>",
+     "css": ".ds-warn{background:#181C1F;color:#F2F4F1;font-family:'Atkinson Next',system-ui,sans-serif}.ds-band{background:#FFB020;color:#0E1113;padding:10px 16px;font:800 16px/1.1 Overpass,system-ui,sans-serif}.ds-warn p{padding:16px 16px 24px;margin:0}"},
+    {"name": "Search Field", "kind": "input", "refersTo": "search-field",
+     "description": "White bar, dark ink, 3px outline on focus-within.",
+     "html": "<label class=\"ds-sfield\"><input type=\"search\" placeholder=\"Search tactics\"></label>",
+     "css": ".ds-sfield{display:flex;align-items:center;background:#F2F4F1;color:#0E1113;padding:0 8px 0 16px;min-height:56px}.ds-sfield input{flex:1;border:0;background:none;outline:none;font:400 17px/1.3 'Atkinson Next',system-ui,sans-serif;color:inherit;min-height:56px}.ds-sfield:focus-within{outline:3px solid #F2F4F1;outline-offset:3px}"}
+  ],
+  "narrative": {
+    "northStar": "The Metro at Night",
+    "overview": "A frightened reader gets the sign system of a metro at night: near-black panels, enamel lettering, ten lettered lines, stations, a green exit. Flat, tonal, square-cornered; nothing moves unless the reader tapped.",
+    "keyCharacteristics": ["Night default with a full day theme", "Ten line colours in two values, always with a letter", "Amber for danger only, exit green for leaving only", "Overpass 800 signs over Atkinson Next reading", "Circle = line/station, rectangle = sign/control, triangle = safety", "No shadows; five tap-caused motions, transform/opacity only"],
+    "rules": [
+      {"name": "The Letter Rule", "body": "A line colour is never used without its letter or name beside it.", "section": "colors"},
+      {"name": "The Danger-Only Amber Rule", "body": "Amber means safety only; never emphasis or decoration.", "section": "colors"},
+      {"name": "The Exit-Only Green Rule", "body": "Green means leave; never success or saved.", "section": "colors"},
+      {"name": "The Two-Values Rule", "body": "Every line colour has a night and a day value.", "section": "colors"},
+      {"name": "The Sign-vs-Read Rule", "body": "Scanned text is Overpass 800; read text is Atkinson.", "section": "typography"},
+      {"name": "The No-Shadow Rule", "body": "Separate by tone, rule, or inset ring; never blur or offset shadows.", "section": "elevation"},
+      {"name": "The Shape-Means Rule", "body": "Circle = line/station, rectangle = sign/control, triangle = safety.", "section": "shapes"}
+    ],
+    "dos": ["Do put one white primary blade or button per screen.", "Do pair every line colour with its letter.", "Do keep Leave in the top bar in exit green.", "Do gate new motion behind reduced-motion and animate transform/opacity only.", "Do run scripts/decoder-verify.js after any change."],
+    "donts": ["Don't use amber except for safety or green except for leaving.", "Don't use colour alone to separate lines or states.", "Don't round buttons or square the circles of lines.", "Don't add drop shadows or unprompted motion.", "Don't add !important beyond the existing 7."]
+  }
+}
