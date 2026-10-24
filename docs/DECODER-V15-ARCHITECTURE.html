@@ -195,9 +195,9 @@ details>div{padding-bottom:16px}
 
 <header class="band">
   <div class="wrap">
-    <div class="kicker"><span>The Pattern Decoder</span><span aria-hidden="true">·</span><span>v15 architecture</span><span aria-hidden="true">·</span><span>Proposal, 24 Oct 2026</span></div>
+    <div class="kicker"><span>The Pattern Decoder</span><span aria-hidden="true">·</span><span>v15 architecture</span><span aria-hidden="true">·</span><span>Built and tested, not deployed · 24 Oct 2026</span></div>
     <h1>Put a name to what is happening. Then find the way out.</h1>
-    <p class="lede">This plan rebuilds the whole Decoder interface. It compares three directions, picks one, and explains every decision, including what happens to each advanced technique v14 uses today. None of it has been built or deployed yet. The words in all 310 entries stay exactly as they are.</p>
+    <p class="lede">This plan rebuilds the whole Decoder interface. It compares three directions, picks one, and explains every decision, including what happens to each advanced technique v14 uses today. It has now been built and tested (section 02 lists what changed from the plan and what was measured), but it is not deployed: live is still v14. The words in all 310 entries stay exactly as they are.</p>
     <div class="lines" aria-label="The ten lines, one per group of tactics">
       <span class="b T" title="Twisting what is real">T</span><span class="b G" title="Guilt, pressure and fear">G</span><span class="b C" title="Control over your life">C</span><span class="b L" title="Love that hooks you">L</span><span class="b W" title="Put-downs that wear you down">W</span><span class="b B" title="Dodging blame">B</span><span class="b P" title="Turning people against you">P</span><span class="b S" title="Work, school and systems">S</span><span class="b O" title="Online and technology">O</span><span class="b M" title="Groups, cults and propaganda">M</span>
     </div>
@@ -210,22 +210,23 @@ details>div{padding-bottom:16px}
 <nav aria-label="Contents">
   <ol class="route">
     <li><a href="#verdict"><span class="n">01</span>The short version</a></li>
-    <li><a href="#answers"><span class="n">02</span>How your answers shaped it</a></li>
-    <li><a href="#skills"><span class="n">03</span>What the design skills changed</a></li>
-    <li><a href="#three"><span class="n">04</span>Three directions, compared</a></li>
-    <li><a href="#why"><span class="n">05</span>Why Wayfinding wins</a></li>
-    <li><a href="#map"><span class="n">06</span>Site map and navigation</a></li>
-    <li><a href="#screens"><span class="n">07</span>Every screen, and why</a></li>
-    <li><a href="#system"><span class="n">08</span>The visual system</a></li>
-    <li><a href="#motion"><span class="n">09</span>Motion budget</a></li>
-    <li><a href="#privacy"><span class="n">10</span>Privacy and safety model</a></li>
-    <li><a href="#a11y"><span class="n">11</span>Accessibility</a></li>
-    <li><a href="#perf"><span class="n">12</span>Performance and engineering</a></li>
-    <li><a href="#ledger"><span class="n">13</span>Every v14 technique: keep, upgrade or cut</a></li>
-    <li><a href="#targets"><span class="n">14</span>Targets we will measure</a></li>
-    <li><a href="#plan"><span class="n">15</span>Build plan</a></li>
-    <li><a href="#risks"><span class="n">16</span>What we lose, and the risks</a></li>
-    <li><a href="#decide"><span class="n">17</span>Decisions I need from you</a></li>
+    <li><a href="#built"><span class="n">02</span>As built: results and changes</a></li>
+    <li><a href="#answers"><span class="n">03</span>How your answers shaped it</a></li>
+    <li><a href="#skills"><span class="n">04</span>What the design skills changed</a></li>
+    <li><a href="#three"><span class="n">05</span>Three directions, compared</a></li>
+    <li><a href="#why"><span class="n">06</span>Why Wayfinding wins</a></li>
+    <li><a href="#map"><span class="n">07</span>Site map and navigation</a></li>
+    <li><a href="#screens"><span class="n">08</span>Every screen, and why</a></li>
+    <li><a href="#system"><span class="n">09</span>The visual system</a></li>
+    <li><a href="#motion"><span class="n">10</span>Motion budget</a></li>
+    <li><a href="#privacy"><span class="n">11</span>Privacy and safety model</a></li>
+    <li><a href="#a11y"><span class="n">12</span>Accessibility</a></li>
+    <li><a href="#perf"><span class="n">13</span>Performance and engineering</a></li>
+    <li><a href="#ledger"><span class="n">14</span>Every v14 technique: keep, upgrade or cut</a></li>
+    <li><a href="#targets"><span class="n">15</span>Targets we will measure</a></li>
+    <li><a href="#plan"><span class="n">16</span>Build plan</a></li>
+    <li><a href="#risks"><span class="n">17</span>What we lose, and the risks</a></li>
+    <li><a href="#decide"><span class="n">18</span>Decisions I need from you</a></li>
   </ol>
 </nav>
 
@@ -245,6 +246,61 @@ details>div{padding-bottom:16px}
   </ol>
 </div></section>
 
+<section id="built"><div class="col">
+  <h2>As built: results and changes</h2>
+  <p>The page is built at <code>instruments/playbook/_undeployed/v15/index.html</code> (the live v14 file is untouched) and checked by <code>scripts/decoder-verify.js</code>: <strong>34 checks, all passing</strong>, in a real browser. An independent design review (a fresh reviewer with no access to this chat) found material problems, which were fixed and each turned into a test. Software-rendered browser, so real phones will differ.</p>
+  <h3>Measured, against v14</h3>
+</div>
+  <div class="tbl"><table>
+    <thead><tr><th>Measure</th><th class="num">v14</th><th class="num">v15 built</th><th>Check</th></tr></thead>
+    <tbody>
+      <tr><td>First content, phone at 4× CPU slowdown</td><td class="num">3,400 ms</td><td class="num">240–290 ms</td><td>Home is written into the HTML</td></tr>
+      <tr><td>Largest paint, same setup</td><td class="num">not measured</td><td class="num">≈ 570 ms</td><td>Target ≤ 1,500</td></tr>
+      <tr><td>Longest main-thread task</td><td class="num">836 ms</td><td class="num">102–118 ms</td><td>Target ≤ 150</td></tr>
+      <tr><td>Total long-task time at load</td><td class="num">1,100 ms</td><td class="num">199–235 ms</td><td>Target ≤ 250</td></tr>
+      <tr><td>Slowest keystroke in search; opening a station</td><td class="num">not measured</td><td class="num">32 ms; 95 ms</td><td>Target ≤ 200</td></tr>
+      <tr><td>Phone screens to read Gaslighting</td><td class="num">16.5 (one page)</td><td class="num">4.4 / 4.6 / 5.4 / 5.5 per step; 11.8 with all four open at once</td><td>Nobody has all four open; gate ≤ 6</td></tr>
+      <tr><td>Answer on the first phone screen</td><td class="num">no</td><td class="num">205 of 205 non-sensitive; on the 105 safety-sensitive entries the safety note comes first and fills the first screen, and the answer follows within 1.4 screens</td><td>Tested on all 310 at 390 and 1440 px</td></tr>
+      <tr><td>Smallest text</td><td class="num">13 px italic</td><td class="num">13 px, bold sign face; reading text 15 px and up</td><td>Computed-style scan</td></tr>
+      <tr><td>Contrast</td><td class="num">AA, measured by hand</td><td class="num">every one of 1,220 text runs passes, both themes</td><td>From computed colours</td></tr>
+      <tr><td>axe-core (WCAG 2.2 AA + best practice)</td><td class="num">not run</td><td class="num">64 scans, 0 serious or critical</td><td>16 page types × 2 themes × 2 widths</td></tr>
+      <tr><td>Reflow at 320 px and Largest text</td><td class="num">not run</td><td class="num">no sideways scroll on 12 pages</td><td>WCAG 1.4.4 / 1.4.10</td></tr>
+      <tr><td>Idle CPU</td><td class="num">continuous animation</td><td class="num">0 mutations, 0 animations in 3 s</td><td>Including the shared House seal's pulse, which is switched off here</td></tr>
+      <tr><td>Stylesheet / script</td><td class="num">66 KB, 49 !important / 117 KB with the sky</td><td class="num">32 KB, 7 !important (the hidden attribute, print, and the shared House seal only) / 68 KB</td><td>Build output</td></tr>
+      <tr><td>Storage written by default</td><td class="num">yes</td><td class="num">none (0 keys after browsing 25 stations and a search)</td><td>Tested</td></tr>
+      <tr><td>File size</td><td class="num">3.59 MB</td><td class="num">3.28 MB (1.10 MB gzipped)</td><td>Still one offline file</td></tr>
+    </tbody>
+  </table></div>
+  <div class="col">
+  <h3>What changed from the plan, and why</h3>
+  </div>
+  <div class="tbl"><table>
+    <thead><tr><th>Planned</th><th>Built</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td>Two-entry private history guard</td><td>Numbered addresses, neutral title, normal Back</td><td>The guard would fight the browser; unreadable addresses protect more</td></tr>
+      <tr><td>White-ringed interchange stations on the map</td><td>No rings; interchange links drawn when you tap a station; other lines' bullets shown beside each station on the line page</td><td>269 of 310 stations have an interchange, so a ring said nothing and the map turned black</td></tr>
+      <tr><td>Map zoom buttons</td><td>Stations spaced at least 24 px apart (tested at 320, 360, 390 px); a tap opens a station sheet that you can drag down to close; on a computer under 1,090 px the map scrolls sideways</td><td>Spacing makes every station a real target without extra controls</td></tr>
+      <tr><td>Pre-stemmed search index</td><td>Built in small idle slices</td><td>Same result without a bigger file</td></tr>
+      <tr><td>Astra-drawn pictograms</td><td>Plain inline icons</td><td>Not worth the extra work for the same clarity; optional later</td></tr>
+      <tr><td>Position strip above the answer</td><td>Below the Save / Share / Print row</td><td>It pushed the answer halfway down a phone screen (review finding)</td></tr>
+      <tr><td>Everything in "Is this it?" open</td><td>The three least important blocks sit in "More ways to weigh it" (native details, opens on tap; print opens everything)</td><td>The first step alone was 3.7 screens</td></tr>
+      <tr><td>"Go deeper" listed all look-alikes</td><td>Same-line relatives there; other lines under "Change here for"</td><td>Removed duplicates, saved about half a screen</td></tr>
+      <tr><td>Green and lavender tint on "might be this / something else"</td><td>Neutral headings; filled versus hollow bullets</td><td>Green is reserved for Leave, amber for danger; shape carries the difference</td></tr>
+      <tr><td>Darker amber in Day mode</td><td>The safety band stays amber with dark text in both themes</td><td>Amber is the universal warning colour; only amber text and icons use the darker shade</td></tr>
+      <tr><td>Safe step only in the footer and inside entries</td><td>"If you are not safe, read this first" on the first screen of Home; safety note first in Compare</td><td>Review findings: the reader may be in danger and must not hunt for help</td></tr>
+      <tr><td>Escape twice only when nothing is open</td><td>Always; a Leave button also sits in the map sheet and above the pause card</td><td>A modal dialog makes the top bar unreachable (review finding)</td></tr>
+    </tbody>
+  </table></div>
+  <div class="col">
+  <h3>Decisions made for you, and what is still open</h3>
+  <p>You asked me to pick whatever is easiest to understand and navigate. I chose: <strong>Wayfinding</strong> (direction A); the <strong>Leave</strong> button, included; <strong>private history</strong> as above; the line letters <strong>T G C L W B P S O M</strong>; "Match my phone" as the default colour setting. Say so if you want any of these changed.</p>
+  <ul>
+    <li><strong>Not yet done:</strong> a pass on real phones and with real screen readers (VoiceOver, TalkBack); a clinical read of the safety copy; a Daylight and print visual review on a real printer.</li>
+    <li><strong>To deploy:</strong> needs your go-ahead (it is a production write). Copy the build over <code>instruments/playbook/index.html</code>, bump <code>sites.json</code> to v15 with the changelog, then run the deploy check. The shared House menu on other sites still describes the Decoder as "349 tactics".</li>
+  </ul>
+  </div>
+</section>
+
 <section id="answers"><div class="col">
   <h2>How your answers shaped it</h2>
   <div class="tbl"><table>
@@ -252,7 +308,7 @@ details>div{padding-bottom:16px}
     <tbody>
       <tr><td>Replace the world entirely</td><td>The observatory, the star canvas, Astra-in-capitals, Cormorant, glass and grain are retired as the look. Their good ideas are carried into the new world where they still help the reader (section 12 goes through all 56). PRODUCT.md's brand commitment to the celestial chart is rewritten to match.</td></tr>
       <tr><td>Answer-first entries</td><td>Station sign and answer card first, then four numbered steps (Is this it? · Understand it · What you can do · Go deeper). Lists longer than three items are folded behind "Show all". No words are cut.</td></tr>
-      <tr><td>Private by default</td><td>No localStorage, sessionStorage or cookies until the reader opts in. Tab titles stay neutral, and the history trail is not grown. Saving, recent reads and visited stations appear only after opt-in.</td></tr>
+      <tr><td>Private by default</td><td>No localStorage, sessionStorage or cookies until the reader opts in. Tab titles stay neutral, and page addresses are numbers instead of tactic names. Saving, recent reads and visited stations appear only after opt-in.</td></tr>
       <tr><td>Quick exit (not ticked)</td><td>Not assumed. I still recommend it strongly, because it is the most native element of a wayfinding world (the green exit sign) and the one feature that protects someone reading in secret. It is one switch in the build. <a href="#decide">Decision 1</a>.</td></tr>
       <tr><td>Calm by default (not ticked)</td><td>The new world is calm without needing a setting. No ambient layers exist to switch on, so a separate Calm button would have nothing to do. Motion preferences live in Settings and follow the phone's own setting.</td></tr>
       <tr><td>"Give me the full architecture first"</td><td>This document. Nothing is built until you say go. Live stays on v14.</td></tr>
@@ -268,7 +324,7 @@ details>div{padding-bottom:16px}
   <div class="tbl"><table>
     <thead><tr><th>Skill</th><th>First draft</th><th>Now</th><th>Why</th></tr></thead>
     <tbody>
-      <tr><td>Usability heuristics</td><td>Private mode replaced every history entry, so the back gesture left the site</td><td>Back works. In private mode the addresses are numbers (<code>#/s/125</code>), not names, and history holds at most two entries</td><td>"Never break the back button" is a standard rule, and the safety goal is met by making the trail unreadable instead (section 10)</td></tr>
+      <tr><td>Usability heuristics</td><td>Private mode replaced every history entry, so the back gesture left the site</td><td>Back works normally. In private mode the addresses are numbers (<code>#/s/125</code>), not names, and the tab title never changes</td><td>"Never break the back button" is a standard rule, and the safety goal is met by making the trail unreadable instead (section 11)</td></tr>
       <tr><td>Usability heuristics</td><td>The fourth door was called "Kept"</td><td>"Saved"</td><td>One plain word per idea; "Kept" made people stop and think</td></tr>
       <tr><td>Usability heuristics</td><td>Home showed a "Home" door the other mock-ups didn't</td><td>Help · Search · Map · Saved on every screen; the wordmark goes home</td><td>Same place, same names, everywhere. Doors named for what they hold beat a vague "Home"</td></tr>
       <tr><td>Usability heuristics</td><td>"Delete everything saved" was to ask "Are you sure?"</td><td>Deletes at once, with an Undo bar for 10 s</td><td>People click through confirmations; Undo actually protects them</td></tr>
@@ -281,14 +337,14 @@ details>div{padding-bottom:16px}
       <tr><td>Apple design</td><td>Map pan stopped hard at the edges</td><td>Rubber-band resistance at the edges, plus momentum on release</td><td>A hard stop reads as frozen</td></tr>
       <tr><td>Apple design</td><td>Fixed letter-spacing</td><td>Tracking by size: −0.02em on station names, 0 on body, +0.08em on small caps labels; sizes in <code>rem</code> so the phone's text size setting scales the whole layout</td><td>Large type reads loose without tightening; small labels need air</td></tr>
       <tr><td>Apple design</td><td>Theme switch was instant</td><td>Night ↔ Day crossfades over 200 ms</td><td>Avoids a sudden flash of brightness in a dark room</td></tr>
-      <tr><td>Accessibility</td><td>Map was drag-only</td><td>Zoom + / − buttons, arrow keys between stations, and the line diagrams as the list version</td><td>WCAG 2.5.7: every drag needs a single-tap alternative</td></tr>
+      <tr><td>Accessibility</td><td>Map was drag-only</td><td>Arrow keys between stations, stations spaced at least 24 px apart so each is a real tap target, a tap opens the station sheet, and the line diagrams as the list version</td><td>WCAG 2.5.7: every drag needs a single-tap alternative</td></tr>
       <tr><td>Accessibility</td><td>Sticky header and bottom sign bar</td><td><code>scroll-padding</code> top and bottom equal to their heights</td><td>WCAG 2.4.11: a focused element must never hide behind sticky bars</td></tr>
       <tr><td>Accessibility</td><td>Swipeable steps</td><td>Real ARIA tabs with roving focus; off-screen steps are <code>inert</code>; a pre-rendered polite status announces "Step 2 of 4"</td><td>Screen readers must hear only the visible step, and hear the change</td></tr>
       <tr><td>Accessibility</td><td>Escape twice to leave</td><td>Only fires when no dialog or sheet is open, within 1 s; the Leave sign is named "Leave this site quickly"</td><td>Escape already closes dialogs; the two must not collide</td></tr>
       <tr><td>Accessibility</td><td>Line bullets are colour fills</td><td>In forced-colours mode they become outlined letters</td><td>Windows high-contrast strips backgrounds; the letter still carries the meaning</td></tr>
       <tr><td>Web performance</td><td>Home drawn by JavaScript after start-up</td><td>Home is baked into the HTML at build time and paints before any script runs</td><td>The first screen no longer waits on parsing</td></tr>
       <tr><td>Web performance</td><td>Data blocks placed anywhere</td><td>Shell, CSS, script and index first; the ten line blocks at the very end of the file</td><td>The browser paints while the rest of the 3 MB is still arriving</td></tr>
-      <tr><td>Web performance</td><td>Search stemmed 310 entries at start-up</td><td>The search index is pre-stemmed at build time</td><td>Removes start-up work and keeps each keystroke under the 200 ms responsiveness (INP) threshold</td></tr>
+      <tr><td>Web performance</td><td>Search stemmed 310 entries at start-up</td><td>The search index is built in small slices while the page is idle (no slice over about 25 ms)</td><td>Removes start-up work and keeps each keystroke under the 200 ms responsiveness (INP) threshold</td></tr>
       <tr><td>Web performance</td><td>Targets only for load and long tasks</td><td>Adds LCP, INP and layout-shift (CLS) targets, with reserved heights for the station sign and steps</td><td>Measures how it feels to use, not just to open</td></tr>
     </tbody>
   </table></div>
@@ -742,7 +798,7 @@ graph TD
     <li><strong>Two families, five styles.</strong> Overpass descends from Highway Gothic, the US road-sign alphabet (SIL OFL). Atkinson Hyperlegible Next comes from the Braille Institute and is designed so that I/l/1 and O/0 can't be confused (SIL OFL). Both are embedded as Latin subsets, about the same 100 KB as v14's three families.</li>
     <li><strong>Scale (phone → desktop):</strong> station 32→56, page 28→44, section 22→28, answer 20→22, reading 18→18, label 13→13 (caps), meta 15→15. Nothing a reader needs is below 15px; v14's Cormorant labels were 13–14px with a small x-height.</li>
     <li><strong>Kept from v14:</strong> bold first sentences, bold lead phrases in lists, <code>text-wrap: pretty</code> plus the no-orphan rule, and fit-to-width only when a single word overflows.</li>
-    <li><strong>Astra lives on</strong> as a tool rather than a typeface: its stroke engine (<code>build-astra.py</code>, monoline round caps) draws the pictogram set and the wordmark in one consistent line weight. The owner's original letterforms become the site's sign symbols.</li>
+    <li><strong>Astra is retired from the interface.</strong> The plan was to reuse its stroke engine (<code>build-astra.py</code>) to draw the pictograms. The build uses plain inline line icons instead; redrawing them with the Astra engine is an optional later pass.</li>
   </ul>
   <h3>Space, shape and surface</h3>
   <ul>
@@ -778,15 +834,15 @@ graph TD
     <tbody>
       <tr><td>Storage</td><td>Nothing written: no localStorage, sessionStorage or cookies. Preferences live in memory for this visit.</td><td>Saved stations, recent reads, preferences and "continue where you left off" stored on the device. "Delete everything saved" is one tap in Settings.</td></tr>
       <tr><td>Addresses</td><td>Numbers, not names: <code>#/s/125</code> for a station and <code>#/l/1</code> for a line. Anything that shows the address (history, the tab switcher, autocomplete) shows nothing readable. Share link still copies the readable address.</td><td>Readable addresses (<code>#/entry/gaslighting</code>).</td></tr>
-      <tr><td>History trail</td><td>At most two entries: Home underneath, and the current page on top. Back and the phone's back gesture work through an in-page stack; each back step is caught and the top entry re-armed.</td><td>Normal browser history.</td></tr>
+      <tr><td>History trail</td><td>Normal browser history, so Back and the phone's back gesture work. Every entry in it is a number and the title is always "Pattern Decoder", so the list says nothing readable about what was read.</td><td>Same, with readable addresses.</td></tr>
       <tr><td>Tab title</td><td>"Pattern Decoder" on every page; no tactic names in the tab switcher.</td><td>Page-specific titles.</td></tr>
       <tr><td>Search</td><td>Never in the address and never sent anywhere (as in v14).</td><td>Same.</td></tr>
       <tr><td>Status</td><td>"Private · nothing is saved", always in the header.</td><td>"Saving on this device", same place.</td></tr>
     </tbody>
   </table></div>
-  <div class="panel warn"><div class="kicker">What to test on real phones</div><p style="margin:8px 0 0">The first draft simply replaced history, which broke the back gesture. The usability review flagged that as a standard failure. The new design keeps Back working and makes the trail unreadable instead. One thing must be checked on a real Android phone: Chrome sometimes skips history entries that were added without a tap. If it does, Back may leave the site from the second page. The fallback is the first draft's single-entry mode. Both are in the build plan, and <a href="#decide">decision 2</a> picks which one ships if the test fails.</p></div>
+  <div class="panel warn"><div class="kicker">Why there is no history guard</div><p style="margin:8px 0 0">The plan had a two-entry history guard so the trail would stay short. The build dropped it: it would have fought the browser's own back behaviour, and it protects less than making every address and title unreadable does. Back works as people expect, and the history list holds only numbers.</p></div>
   <h3>Leave quickly (recommended, pending decision 1)</h3>
-  <p><span class="exit">Leave →</span> A green sign at the top right of every page. One tap replaces the page with a neutral website (for example a weather page) using <code>location.replace</code> and clears everything held in memory. Because private history is only ever two entries deep, pressing Back on the neutral page shows at most the plain home page, never an entry. On a keyboard, Escape twice does the same. Use this safely explains its limits plainly: it doesn't erase a visit the browser already recorded, and a private browsing window is safer still.</p>
+  <p><span class="exit">Leave →</span> A green sign at the top right of every page. One tap replaces the page with a neutral website (for example a weather page) using <code>location.replace</code> and clears everything held in memory. Before it leaves, it steps back over every page opened in this visit, so pressing Back on the weather page does not return to the guide (tested in a real browser). Offline it shows a blank page instead, because the weather page needs a connection. On a keyboard, Escape twice does the same, even with the map sheet open. The same Leave button is inside the map sheet, and sits above the reading pause. Use this safely explains its limits plainly: it doesn't erase a visit the browser already recorded, and a private browsing window is safer still.</p>
   <h3>Safety rules that stay</h3>
   <ul><li>Safety notes lead on all 105 sensitive entries, and no screen ever suggests confronting someone or announcing a departure.</li><li>No scores, no verdicts, no labels for people. The ticks in "Is this it?" are never counted.</li><li>The optional reading pause stays, as a quiet "Take a break" card after about 20 minutes, which can be turned off.</li></ul>
 </div></section>
@@ -801,7 +857,7 @@ graph TD
     <li><strong>Steps as tabs:</strong> the four steps use the ARIA tabs pattern, with arrow-key movement and a live "Step 2 of 4" announcement.</li>
     <li><strong>Map equivalent:</strong> every line diagram is an ordered list of links, so screen-reader users get the same information as the map.</li>
     <li><strong>Text size:</strong> three steps in Settings on top of browser zoom; layouts tested to 200% with no horizontal scroll.</li>
-    <li><strong>From the accessibility review:</strong> zoom buttons and arrow keys for the map (2.5.7); <code>scroll-padding</code> so focus never hides behind the header or sign bar (2.4.11); inactive steps <code>inert</code> and a pre-rendered status region for "Step 2 of 4" and result counts; real checkboxes with labels for the "Is this it?" ticks; the station sheet as a dialog that returns focus on close; outlined letter bullets in forced-colours mode; search input at 16px so iOS doesn't zoom; reflow checked at 320px.</li>
+    <li><strong>From the accessibility review:</strong> arrow keys and 24 px target spacing for the map (2.5.7, 2.5.8); <code>scroll-padding</code> so focus never hides behind the header or sign bar (2.4.11); inactive steps <code>inert</code> and a pre-rendered status region for "Step 2 of 4" and result counts; real checkboxes with labels for the "Is this it?" ticks; the station sheet as a dialog that returns focus on close; outlined letter bullets in forced-colours mode; search input at 16px so iOS doesn't zoom; reflow checked at 320px.</li>
     <li><strong>Still owed:</strong> a pass with real VoiceOver and TalkBack on devices. v14 never had one, and this plan budgets for it.</li>
   </ul>
 </div></section>
@@ -818,17 +874,17 @@ graph TD
     <li><strong><code>content-visibility: auto</code></strong> on long lists such as A–Z and line diagrams.</li>
     <li><strong>Home is pre-rendered</strong> into the HTML at build time, so the first screen paints with no script at all.</li>
     <li><strong>File order streams:</strong> shell, CSS, script and the index first; the ten line data blocks last. The page is usable before the file has finished arriving.</li>
-    <li><strong>Search is pre-stemmed</strong> at build time, so typing does no heavy work. Fonts are inline, so text never swaps and shifts the layout.</li>
+    <li><strong>Search is indexed in small idle slices</strong>, so typing does no heavy work (slowest keystroke 32 ms on a 4× slowdown). Fonts are inline, so text never swaps and shifts the layout.</li>
   </ul>
   <h3>Files</h3>
   <div class="tbl"><table>
     <thead><tr><th>File</th><th>Status</th><th>Role</th></tr></thead>
     <tbody>
-      <tr><td><code>design/build-decoder-v15.py</code></td><td><span class="tag new">new</span></td><td>Reuses v10's data merge (entries, aliases, reader meta, feelings, search stop-words) and replaces the sky layout with <code>layout_network()</code>, which orders each line by related-chain and routes lines at 0/45/90°. Writes the split data blocks.</td></tr>
+      <tr><td><code>design/build-decoder-v15.py</code></td><td><span class="tag new">new</span></td><td>Reuses v10's data merge (entries, aliases, reader meta, feelings, search stop-words) orders each line by related-chain (<code>order_line()</code>; 223 of 300 neighbouring stations are directly related), orders the ten columns so the lines that share the most look-alikes sit together, pre-renders Home, and writes the split data blocks. The map's geometry is computed in the page.</td></tr>
       <tr><td><code>design/decoder-v15/shell.html, app.css, app.js</code></td><td><span class="tag new">new</span></td><td>The new interface. v10's files stay untouched for rollback.</td></tr>
-      <tr><td><code>design/decoder-v15/assets/</code></td><td><span class="tag new">new</span></td><td>Overpass and Atkinson Next subsets (OFL licences kept alongside), pictograms and wordmark drawn by the Astra stroke engine.</td></tr>
+      <tr><td><code>design/decoder-v15/assets/</code></td><td><span class="tag new">new</span></td><td>Overpass and Atkinson Next subsets (OFL licences kept alongside), inline line icons (no Astra pictograms; see section 07).</td></tr>
       <tr><td><code>content/*.json</code></td><td><span class="tag keep">frozen</span></td><td>No content changes. The validator still runs.</td></tr>
-      <tr><td><code>scripts/decoder-verify.mjs</code></td><td><span class="tag new">new</span></td><td>All 310 stations at 390 and 1440px (overflow, title fits, safety first on the 105), axe-core rules, the zero-trace private check, a performance budget, and a byte check against live. It closes v14's "no regression net" gap.</td></tr>
+      <tr><td><code>scripts/decoder-verify.js</code></td><td><span class="tag new">new</span></td><td>All 310 stations at 390 and 1440px (overflow, title fits, safety first on the 105), axe-core rules, the zero-trace private check, a performance budget, and a byte check against live. It closes v14's "no regression net" gap.</td></tr>
       <tr><td><code>instruments/playbook/index.html</code></td><td><span class="tag up">rebuilt</span></td><td>The output. It replaces v14 only when you approve a deploy.</td></tr>
     </tbody>
   </table></div>
@@ -953,7 +1009,7 @@ graph TD
   <h2>Decisions I need from you</h2>
   <ol class="verdict">
     <li><span><strong>Leave quickly:</strong> include the green Leave sign and Escape-twice (recommended), or leave it out?</span></li>
-    <li><span><strong>Private history:</strong> I now recommend numbered addresses plus a two-entry history, so Back works and the trail is unreadable. If Android Chrome breaks the back gesture in testing, which fallback ships: single-entry history (the safer choice, though Back leaves the site), or normal history with numbered addresses?</span></li>
+    <li><span><strong>Private history:</strong> decided and built: numbered addresses and a neutral title, with normal Back. Tell me if you would rather have a stricter mode that also removes the browser history entries (Back would then leave the site).</span></li>
     <li><span><strong>The direction:</strong> go with A · Wayfinding, or would you rather see B or C, or the standard support-site layout, built instead?</span></li>
     <li><span><strong>Line letters:</strong> T G C L W B P S O M as proposed? M ("Movements") stands for Groups, cults and propaganda, because G was taken by Guilt.</span></li>
     <li><span><strong>Go:</strong> once you have answered, I build phases 1–5 on the branch and send you a preview link to try on your phone. Live stays on v14.</span></li>

@@ -30,10 +30,10 @@ Used privately on a personal phone; sometimes read in a hurry, sometimes returne
 - Reader groups (10) and settings (7) live in `content/codex-final/reader-meta.json`.
 
 ## Brand Commitments
-Part of Noble Father Creations (House menu, NF seal, brand logo). The existing identity is a celestial star chart: constellations drawn as people, brass accent, night-sky and twilight themes, IM Fell English titles. The author asked for a redesign that builds on the "observatory at night" world and wants rich, cinematic motion.
+Part of Noble Father Creations (House menu, NF seal, brand logo). From v15 (2026-10-24) the visual world is **Wayfinding**: the sign system of a metro at night. Ten lettered, coloured lines (one per group of tactics), stations, "change here for" look-alikes, a green Leave exit and an amber safety plate. Overpass for sign lettering, Atkinson Hyperlegible Next for reading. The author chose to replace the earlier celestial star-chart and observatory world entirely (v10 to v14); the Astra typeface, the cover plate and the sky are retired as the interface. Nothing moves unless the reader taps. The decision record is `docs/DECODER-V15-ARCHITECTURE.html`.
 
 ## Evidence on Hand
-Cover plate (engraved celestial chart of people-constellations), wordmark SVG, brand logo, emblem set in the v9 page; 109 documented tactic sequences (how tactics combine) usable as real constellation lines; the full entry data in `content/playbook-data.json`. There are no testimonials, outcomes or statistics, and none may be invented.
+Wordmark SVG and brand logo (the v9 cover plate and emblem set are retired from the interface); 109 documented tactic sequences (how tactics combine), shown as routes across the lines; the full entry data in `content/playbook-data.json`. There are no testimonials, outcomes or statistics, and none may be invented.
 
 ## Product Principles
 1. Orient before you inform: a distressed reader first needs to feel safe and know where to start.
@@ -43,4 +43,4 @@ Cover plate (engraved celestial chart of people-constellations), wordmark SVG, b
 5. Private by default: nothing leaves the device.
 
 ## Accessibility & Inclusion
-Reader may be in distress, use a screen reader, a low-end phone, large text, or reduced motion. Keyboard-complete, WCAG 2.2 AA contrast, reduced-motion respected everywhere, a visible calm/motion control, no autoplay sound, content never hidden behind animation.
+Reader may be in distress, use a screen reader, a low-end phone, large text, or reduced motion. Keyboard-complete, WCAG 2.2 AA contrast, reduced-motion respected everywhere, nothing moving on its own, a motion setting in Settings that follows the phone, no autoplay sound, content never hidden behind animation.

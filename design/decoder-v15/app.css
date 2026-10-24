@@ -269,7 +269,7 @@
   .answer .sum{font-size:1.1875rem;line-height:1.5}
   .says{display:grid;gap:.5rem}
   .says li{font-weight:700;padding-left:1.5rem;position:relative}
-  .says li::before{content:"\201C";position:absolute;left:0;top:-.2em;font:800 1.75rem/1 var(--sign);color:var(--lc)}
+  .says li::before{content:"\201C";position:absolute;left:0;top:.05em;font:800 1.75rem/1.1 var(--sign);color:var(--lc)}
   .answer .k{margin-top:var(--s3)}
   .alsoc{margin-top:var(--s2);font-size:.9375rem;color:var(--fg-2)}
 

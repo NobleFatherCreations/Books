@@ -399,7 +399,7 @@ function drawInterchanges(i){
 }
 function viewMap(){
   const note=MAPLIT?'<div class="maptools"><span class="small"><b>Showing your '+MAPLIT.length+' matches.</b></span><button class="linkbtn" type="button" data-mapclear>Show every station</button></div>':'';
-  return '<div class="view wide"><h1 class="h-page" tabindex="-1">The map</h1><p class="lede">Ten lines, one for each kind of tactic. Lines that share the most look-alikes run side by side. Tap a station to see it and where you can change. To see names, use Every line as a list, further down.</p>'+
+  return '<div class="view wide"><h1 class="h-page" tabindex="-1">The map</h1><p class="lede">Ten lines, one for each kind of tactic. Lines that share the most look-alikes run side by side. Tap a station to see it and where you can change. For station names, scroll down to the list of every line.</p>'+
     note+'<div class="legend"><span><i></i>A station: tap one to read it and see where you can change</span></div><div class="mapwrap">'+mapSVG()+'</div>'+
     '<h2 class="h-sec">Every line as a list</h2>'+lineRows()+'</div>';
 }
@@ -536,6 +536,7 @@ function backSign(c){
   return "";
 }
 function render(){
+  if(LEAVING) return;
   let r=parse();
   const to=legacy(r); if(to){ try{ history.replaceState(null,"","#/"+to); }catch(e){} r=parse(); }
   const key=location.hash||"#/";
@@ -582,11 +583,14 @@ function statusUI(){ const s=$("#status"); if(!s) return; const on=store.saving;
 function setSaving(v){ store.setSaving(v); if(v) Object.keys(PREF).forEach(k=>store.set(k,PREF[k])); statusUI(); }
 
 /* ---------- leaving quickly ---------- */
-const H0=history.length;
-function leave(){ try{ store.forgetAll(); SEARCH_Q=""; GUIDE={step:0,where:null,feels:[]}; document.title="Weather"; $("#main").innerHTML=""; $("#sheet").close(); }catch(e){}
-  const url=navigator.onLine?"https://www.google.com/search?q=weather":"about:blank", n=history.length-H0;
-  /* step back over every page of this visit first, so Back from the weather page does not land in the guide */
-  if(n>0){ history.go(-n); setTimeout(()=>location.replace(url),90); } else location.replace(url); }
+const H0=history.length; let LEAVING=false;
+function leave(){ if(LEAVING) return; LEAVING=true;
+  try{ store.forgetAll(); SEARCH_Q=""; GUIDE={step:0,where:null,feels:[]}; document.title="Weather"; $("#sheet").close(); document.body.style.visibility="hidden"; }catch(e){}
+  const url=navigator.onLine?"https://www.google.com/search?q=weather":"about:blank", n=history.length-H0; let gone=false;
+  const go=()=>{ if(!gone){ gone=true; location.replace(url); } };
+  /* step back over every page of this visit first, so Back from the weather page does not land in the guide;
+     the replace waits for that step to finish (popstate), with a timer only as a fallback. The page is hidden meanwhile. */
+  if(n>0){ addEventListener("popstate",go,{once:true}); history.go(-n); setTimeout(go,700); } else go(); }
 let LAST_ESC=0;
 
 /* ---------- events ---------- */
