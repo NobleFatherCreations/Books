@@ -18,6 +18,8 @@ function norm(s){return expandContractions((s||"").toLowerCase()).replace(/[^a-z
 function safeDecode(s){try{return decodeURIComponent(s)}catch(e){return String(s||"")}}
 function curly(s){return String(s).replace(/(^|[\s(—-])"/g,"$1“").replace(/"/g,"”").replace(/(^|[\s(])'/g,"$1‘").replace(/'/g,"’");}
 const H = s => esc(curly(s));
+/* One line of "it can sound like". Lines the data already quotes get no second quote mark; lines that open with a quote and then narrate are shown as written. */
+const sayLi = t => { t=String(t||"").trim(); const st=/^["“‘]/.test(t), en=/["”’]$/.test(t); return st&&!en?'<li class="nq">'+H(t)+'</li>':'<li>'+H(unq(t))+'</li>'; };
 const unq = t => { t=String(t||"").trim(); return /^["“‘]/.test(t)&&/["”’]$/.test(t)?t.replace(/^["“‘]\s*/,"").replace(/\s*["”’]$/,""):t; };
 function slugify(s){return (s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-+|-+$)/g,"")||"x";}
 function sentences(t){ const m=String(t||"").match(/[^.!?]+(?:[.!?]+["”’)]*|$)\s*/g); return (m||[String(t||"")]).map(x=>x.trim()).filter(Boolean); }
@@ -177,20 +179,33 @@ function snippet(e,n){
   const toks=new Set(searchTokens(n).map(stem)); if(!toks.size&&n) toks.add(stem(n));
   const mark=t=>H(t).replace(/[A-Za-z’']+/g,w=>toks.has(stem(norm(w)))?'<mark>'+w+'</mark>':w);
   const hit=t=>{ const s=stems(norm(t)); for(const x of toks) if(s.has(x)) return true; return norm(t).includes(n); };
-  const q=(e.f.what_it_sounds_like||[]).find(hit); if(q) return '“'+mark(q)+'”';
+  const q=(e.f.what_it_sounds_like||[]).find(hit); if(q){ const t=q.trim(), st=/^["“‘]/.test(t), en=/["”’]$/.test(t); return st?mark(t):'“'+mark(t)+'”'; }
   if(e.sub&&hit(e.sub)) return mark(e.sub);
   return mark(e.sub||e.f.short_definition);
 }
 let SEARCH_Q = "";
+/* Search also reaches the lines and the pages, the way v14's command menu did. */
+const PAGES=[["Help me figure it out","#/help","guide questions where feel not sure"],["The map","#/map","network lines stations"],["Saved","#/saved","bookmarks kept recent"],
+  ["Use this safely","#/safety","safety danger emergency help leave exit privacy"],["Settings","#/settings","text size larger night day dark light colours motion spacing saving private"],
+  ["Service updates","#/updates","what changed version news"],["Patterns seen together","#/routes","sequences combine order recipes"],["All lines, A to Z","#/lines/az","alphabetical list index"],
+  ["Where it happens","#/lines/where","relationship family work online settings"],["The most common","#/lines/common","popular frequent starting point"]];
+function jumpFor(n){ if(!n||n.replace(/ /g,"").length<3) return {list:[],strong:false}; const out=[];
+  LINES.forEach(l=>{ if(norm(l.label+" "+l.blurb+" "+l.letter+" line").includes(n)) out.push({line:l,t:norm(l.label)}); });
+  PAGES.forEach(p=>{ if(norm(p[0]+" "+p[2]).includes(n)) out.push({page:p,t:norm(p[0])}); });
+  return {list:out.slice(0,4), strong:out.some(j=>j.t.startsWith(n))}; }
+function jumpHTML(j){ return !j.list.length?"":'<h2 class="k">Lines and pages</h2><div class="rows">'+j.list.map(x=>x.line?
+  '<a class="row" href="'+lnH(x.line)+'" data-g="'+x.line.k+'">'+bullet(x.line)+'<span class="rt"><b class="nm">'+esc(x.line.label)+'</b><small>'+esc(x.line.letter)+' line · '+x.line.order.length+' stations</small></span></a>':
+  '<a class="row" href="'+x.page[1]+'"><span class="b n" aria-hidden="true">'+ic("arrow")+'</span><span class="rt"><b class="nm">'+esc(x.page[0])+'</b><small>Page</small></span></a>').join("")+'</div>'; }
 function resultsHTML(){
-  const r=search(SEARCH_Q);
-  if(!r.n) return '<h2 class="k">Try one of these</h2><div class="rows">'+D.tries.map(t=>'<button class="row" type="button" data-try="'+esc(t)+'"><span class="rt"><b class="nm">'+H(t)+'</b></span>'+ic("arrow")+'</button>').join("")+'</div>'+
+  const r=search(SEARCH_Q), jump=jumpFor(r.n);
+  const rec=store.saving?store.get("trail",[]).map(t=>BY[canon(t.name)]).filter(Boolean).slice(0,3):[];
+  if(!r.n) return (rec.length?'<h2 class="k">Recently read</h2>'+rows(rec):'')+'<h2 class="k">Try one of these</h2><div class="rows">'+D.tries.map(t=>'<button class="row" type="button" data-try="'+esc(t)+'"><span class="rt"><b class="nm">'+H(t)+'</b></span>'+ic("arrow")+'</button>').join("")+'</div>'+
     '<div class="blades"><a class="blade quiet" href="#/help"><span class="bt"><b>Not sure what to type?</b><small>Answer two short questions instead</small></span><span class="ar">'+ic("arrow")+'</span></a></div>';
-  if(!r.list.length) return '<div class="empty"><p><strong>Nothing matched those words.</strong> Try fewer or plainer words, describe what was said or done, or answer two short questions.</p></div><div class="blades"><a class="blade quiet" href="#/help"><span class="bt"><b>Help me figure it out</b></span><span class="ar">'+ic("arrow")+'</span></a></div>';
+  if(!r.list.length) return jumpHTML(jump)+'<div class="empty"><p><strong>'+(jump.list.length?'No tactic matched those words.':'Nothing matched those words.')+'</strong> Try fewer or plainer words, describe what was said or done, or answer two short questions.</p></div><div class="blades"><a class="blade quiet" href="#/help"><span class="bt"><b>Help me figure it out</b></span><span class="ar">'+ic("arrow")+'</span></a></div>';
   const o=e=>({snip:snippet(e,r.n)});
-  return '<h2 class="k">Best match</h2>'+rows([r.list[0]].map(e=>e),{snip:snippet(r.list[0],r.n)})+(r.list.length>1?'<h2 class="k">Also</h2><div class="rows">'+r.list.slice(1).map(e=>rowHTML(e,o(e))).join("")+'</div>':'');
+  return (jump.strong?jumpHTML(jump):'')+'<h2 class="k">Best match</h2>'+rows([r.list[0]].map(e=>e),{snip:snippet(r.list[0],r.n)})+(r.list.length>1?'<h2 class="k">Also</h2><div class="rows">'+r.list.slice(1).map(e=>rowHTML(e,o(e))).join("")+'</div>':'')+(jump.strong?'':jumpHTML(jump));
 }
-function countText(){ const r=search(SEARCH_Q); return !r.n?"":r.list.length?r.list.length+(r.list.length===1?" match":" matches"):"No matches"; }
+function countText(){ const r=search(SEARCH_Q), n=r.list.length+jumpFor(r.n).list.length; return !r.n?"":n?n+(n===1?" match":" matches"):"No matches"; }
 function viewSearch(){
   return '<div class="view"><h1 class="h-page" tabindex="-1">Search</h1>'+
     '<form class="sfield" role="search" data-search><label class="sr-only" for="q">Search the guide</label>'+ic("search")+
@@ -261,7 +276,7 @@ function stepPanels(e){
       blk("What it is",'<div class="text">'+prose(f.expanded_definition)+'</div>')+
       blk("Why it matters",'<div class="text">'+prose(f.why_this_matters)+'</div>')+
       blk("How it shows up",fold(f.what_it_is))+
-      (says.length>2?blk("More things people say",'<ul class="says">'+says.slice(2).map(s=>'<li>'+H(unq(s))+'</li>').join("")+'</ul>'):""),
+      (says.length>2?blk("More things people say",'<ul class="says">'+says.slice(2).map(sayLi).join("")+'</ul>'):""),
     '<h2>What you can do</h2><p class="hint">'+(e.sens?'Read the safety note at the top first. If speaking up could make things worse, skip the wording below and talk to someone you trust or a local support service.':'Pick what fits. You do not owe anyone a confrontation.')+'</p>'+
       '<div class="blk script"><h3>'+scriptH+'</h3><blockquote id="bs">'+H(String(f.boundary_script||"").replace(/^Verification script[^:]*:\s*/i,""))+'</blockquote><div class="acts"><button class="btn" type="button" data-copy="bs">'+ic("copy")+'Copy the words</button></div></div>'+
       blk("Ways to respond",'<div class="resp">'+RESP.map(r=>f.response_options&&f.response_options[r[0]]?'<div><h4>'+r[1]+'</h4><p>'+H(f.response_options[r[0]])+'</p></div>':'').join("")+'</div>')+
@@ -295,7 +310,7 @@ function viewStation(e){
       '</header>'+
     (e.sens?'<section class="warn" role="note" aria-labelledby="w-h"><h2 class="band" id="w-h">'+ic("tri")+'Safety first</h2><div class="body">'+prose(f.safety_note)+'<p class="small"><a href="#/safety">How to use this guide safely</a></p></div></section>':'')+
     '<section class="answer" aria-label="In short"><div class="sum">'+prose(f.plain_language_summary)+'</div>'+
-      (says.length?'<h2 class="k">It can sound like</h2><ul class="says">'+says.slice(0,2).map(s=>'<li>'+H(unq(s))+'</li>').join("")+'</ul>':'')+
+      (says.length?'<h2 class="k">It can sound like</h2><ul class="says">'+says.slice(0,2).map(sayLi).join("")+'</ul>':'')+
       (e.abs&&e.abs.length?'<p class="alsoc">Also called '+e.abs.map(H).join(", ")+'</p>':'')+'</section>'+
     '<div class="acts"><button class="btn" type="button" data-save="'+esc(e.n)+'" aria-pressed="'+saved+'">'+ic(saved?"saved":"save")+(saved?'Saved':'Save')+'</button>'+
       '<button class="btn" type="button" data-share>'+ic("share")+'Share link</button><button class="btn" type="button" data-print>'+ic("print")+'Print</button></div>'+strip+
@@ -305,6 +320,7 @@ function viewStation(e){
       panels.map((p,i)=>'<section class="panelx" role="tabpanel" id="p-'+i+'" aria-labelledby="t-'+i+'" tabindex="0"'+(i?' hidden':'')+'>'+p+
         (i<3?'<div class="stepnav"><button class="btn pri" type="button" data-step="'+(i+1)+'">Next: '+STEPS[i+1][1]+ic("arrow")+'</button></div>':'')+'</section>').join("")+'</div>'+
     '<aside class="side" aria-label="Around this station">'+
+      '<button class="btn line showmap" type="button" data-showmap="'+e.i+'">'+ic("map")+'Show on the map</button>'+
       (x.length?'<section class="xchg" id="chg"><h2 class="k" style="margin-top:0">Change here for</h2><p class="small muted" style="margin-bottom:.5rem">Look-alikes on other lines</p><div class="rows">'+
         x.slice(0,6).map(r=>'<div class="xrow">'+rowHTML(r)+'<a class="cmp" href="'+cpH(e,r)+'" aria-label="Compare '+esc(e.n)+' with '+esc(r.n)+'">Compare</a></div>').join("")+'</div></section>':'')+
       '<section class="facts"><dl>'+(w.length?'<div><dt>Where it happens</dt><dd>'+w.map(esc).join(", ")+'</dd></div>':'')+
@@ -334,7 +350,7 @@ function viewCompare(a,b){
     (a.sens||b.sens?'<div class="warn" role="note"><div class="band">'+ic("tri")+'Safety first</div><div class="body"><p>'+[a,b].filter(e=>e.sens).map(e=>H(e.n)).join(" and ")+' can travel with real danger. Read the safety note on '+((a.sens&&b.sens)?'each':'that')+' entry before acting on anything here.</p></div></div>':'')+
     '<div class="cmp-g">'+[a,b].map(e=>'<div data-g="'+e.g+'"><a class="nm" href="'+stH(e)+'">'+bullet(LINE[e.g],"sm")+'<span>'+H(e.n)+'</span>'+(e.sens?ic("tri","tri"):'')+'</a><p class="small muted" style="margin-top:.5rem">'+esc(LINE[e.g].label)+'</p></div>').join("")+'</div>'+
     row("In short",(e,f)=>'<p>'+H(f.plain_language_summary)+'</p>')+
-    row("It can sound like",(e,f)=>'<ul class="says">'+(f.what_it_sounds_like||[]).slice(0,2).map(s=>'<li>'+H(unq(s))+'</li>').join("")+'</ul>')+
+    row("It can sound like",(e,f)=>'<ul class="says">'+(f.what_it_sounds_like||[]).slice(0,2).map(sayLi).join("")+'</ul>')+
     row("Signs it might be this",(e,f)=>fold((f.this_may_be_it_when||[]).slice(0,3),"tw",3))+
     row("How to tell them apart",(e,f)=>'<div class="text">'+prose(f.how_to_distinguish_from_related)+'</div>')+
     '</div>';
@@ -398,7 +414,8 @@ function drawInterchanges(i){
   $$("path",gx).forEach(p=>p.style.setProperty("--len",Math.ceil(p.getTotalLength())));
 }
 function viewMap(){
-  const note=MAPLIT?'<div class="maptools"><span class="small"><b>Showing your '+MAPLIT.length+' matches.</b></span><button class="linkbtn" type="button" data-mapclear>Show every station</button></div>':'';
+  const note=MAPLIT?'<div class="maptools"><span class="small"><b>Showing your '+MAPLIT.length+' matches.</b></span><button class="linkbtn" type="button" data-mapclear>Show every station</button></div>':
+    MAPSEL>=0?'<div class="maptools"><span class="small"><b>'+H(E[MAPSEL].n)+'</b> is highlighted, with a line to each place you can change.</span><a class="linkbtn" href="'+stH(E[MAPSEL])+'">Open the station</a><button class="linkbtn" type="button" data-mapclear>Clear</button></div>':'';
   return '<div class="view wide"><h1 class="h-page" tabindex="-1">The map</h1><p class="lede">Ten lines, one for each kind of tactic. Lines that share the most look-alikes run side by side. Tap a station to see it and where you can change. For station names, scroll down to the list of every line.</p>'+
     note+'<div class="legend"><span><i></i>A station: tap one to read it and see where you can change</span></div><div class="mapwrap">'+mapSVG()+'</div>'+
     '<h2 class="h-sec">Every line as a list</h2>'+lineRows()+'</div>';
@@ -539,6 +556,7 @@ function render(){
   if(LEAVING) return;
   let r=parse();
   const to=legacy(r); if(to){ try{ history.replaceState(null,"","#/"+to); }catch(e){} r=parse(); }
+  if(r.view!=="map"&&r.view!=="routes"&&r.view!=="r") MAPSEL=-1;
   const key=location.hash||"#/";
   if(STACK.length>1&&STACK[STACK.length-2].h===key) STACK.pop(); else if(!STACK.length||STACK[STACK.length-1].h!==key) STACK.push({h:key,label:""});
   STACK=STACK.slice(-30);
@@ -550,12 +568,15 @@ function render(){
   const vtEl=PENDING_VT; PENDING_VT=null;
   if(vtEl&&document.startViewTransition&&motionOK()&&!FIRST){
     vtEl.style.viewTransitionName="st";
-    const t=document.startViewTransition(()=>{ vtEl.style.viewTransitionName=""; go(); const h=$(".h-st"); if(h) h.style.viewTransitionName="st"; after(r,c,key); });
+    const t=document.startViewTransition(()=>{ vtEl.style.viewTransitionName=""; go(); const h=$(".h-st"); if(h) h.style.viewTransitionName="st"; sweep(vtEl); after(r,c,key); });
     t.finished.then(()=>{ const h=$(".h-st"); if(h) h.style.viewTransitionName=""; }).catch(()=>{});
-  } else { if(!(FIRST&&!r.view)) go(); else main.insertAdjacentHTML("beforeend",foot()); after(r,c,key); }
+  } else { if(!(FIRST&&!r.view)) go(); else main.insertAdjacentHTML("beforeend",foot()); sweep(vtEl); after(r,c,key); }
 }
+/* After a tap on a row, the station sign's line-colour band draws in from the left (the contract's one signature moment). */
+function sweep(tapped){ if(!tapped||!motionOK()) return; const s=$(".sname"); if(s) s.classList.add("sweep"); }
 function after(r,c,key){
   document.title=store.saving&&c.title?c.title+" · Pattern Decoder":"Pattern Decoder";
+  document.body.dataset.page=c.station?"station":(r.view||"home"); document.body.dataset.g=c.station?c.station.g:"";
   $$(".doors a").forEach(a=>{ if(a.dataset.door===(c.door||(c.station||r.view==="compare"||r.view==="c"?LASTDOOR:null))) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); });
   if(!r.view) fillHome();
   noWidows($("#main"));
@@ -564,6 +585,8 @@ function after(r,c,key){
   window.scrollTo(0, SCROLL[key]&&POPPED?SCROLL[key]:0); POPPED=false;
   if(r.view==="map"&&MAPSEL>=0&&!$('#map a[data-i="'+MAPSEL+'"]')) MAPSEL=-1;
   if(r.view==="map"&&MAPSEL>=0) drawInterchanges(MAPSEL);
+  /* the camera flight, as a scroll: the map brings the station you came for into the middle of the screen */
+  if(r.view==="map"){ const target=MAPSEL>=0?MAPSEL:(MAPLIT&&MAPLIT.length?MAPLIT[0]:-1); if(target>=0) requestAnimationFrame(()=>{ const a=$('#map a[data-i="'+target+'"]'); if(a) a.scrollIntoView({block:"center",inline:"center",behavior:motionOK()?"smooth":"auto"}); }); }
   FIRST=false;
 }
 let POPPED=false;
@@ -624,8 +647,9 @@ document.addEventListener("click",ev=>{
   if(d.unfeel){ GUIDE.feels=GUIDE.feels.filter(k=>k!==d.unfeel); if(!GUIDE.feels.length) GUIDE.step=1; render(); return; }
   if(d.gmore!=null){ GUIDE.more=true; render(); return; }
   if(d.greset!=null){ GUIDE={step:0,where:null,feels:[],more:false,err:false}; render(); return; }
+  if(d.showmap!=null){ MAPSEL=+d.showmap; MAPLIT=null; nav("#/map"); return; }
   if(d.maplit!=null){ MAPLIT=matches().map(m=>m.e.i); MAPSEL=-1; nav("#/map"); return; }
-  if(d.mapclear!=null){ MAPLIT=null; render(); return; }
+  if(d.mapclear!=null){ MAPLIT=null; MAPSEL=-1; render(); return; }
   if(d.sheetclose!=null){ closeSheet(); return; }
   if(d.saving){ setSaving(d.saving==="on"); toast(d.saving==="on"?"Saving is on for this device":"Saving is off"); render(); return; }
   if(d.forgetlegacy!=null){ store.forgetLegacy(); statusUI(); toast("Deleted from this device"); render(); return; }

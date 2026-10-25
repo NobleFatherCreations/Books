@@ -113,6 +113,7 @@
   /* line bullet: a circle and a letter, never colour alone */
   .b{display:inline-grid;place-items:center;flex:none;width:1.75rem;height:1.75rem;border-radius:50%;background:var(--lc);color:var(--bullet-ink);font:800 .875rem/1 var(--sign);padding-top:.1em}
   .b.lg{width:3rem;height:3rem;font-size:1.375rem}
+  .b.n{background:var(--panel-2);color:var(--fg)}
   .b.sm{width:1.5rem;height:1.5rem;font-size:.8125rem}
   @media (forced-colors:active){.b{background:Canvas;color:CanvasText;border:2px solid CanvasText}}
 
@@ -144,12 +145,14 @@
   .btn.pri{background:var(--blade);color:var(--blade-ink)}
   .btn.line{background:none;box-shadow:inset 0 0 0 1px var(--rule-hi)}
   .btn[aria-pressed=true]{background:var(--blade);color:var(--blade-ink)}
+  .btn.showmap{width:100%;justify-content:flex-start;margin-bottom:var(--s2)}
   .btn:disabled{opacity:.5;cursor:not-allowed}
   .acts{display:flex;flex-wrap:wrap;gap:.5rem;margin:var(--s2) 0 0}
   .linkbtn{font:700 .9375rem/1.2 var(--sign);text-decoration:underline;text-underline-offset:.2em;min-height:2.75rem;display:inline-flex;align-items:center;gap:.375rem}
 
   /* rows: the departures board */
   .rows{border-top:1px solid var(--rule)}
+  .rows>.row{content-visibility:auto;contain-intrinsic-size:auto 4.25rem}
   .row{display:flex;align-items:flex-start;gap:.875rem;padding:.875rem 0;border-bottom:1px solid var(--rule);text-decoration:none;color:var(--fg);min-height:3.5rem}
   .row .b{margin-top:.05rem}
   button.row{width:100%;text-align:left}
@@ -245,6 +248,7 @@
 
   /* station */
   .sname{display:grid;gap:.5rem;margin:0 0 var(--s2)}
+  .sname::before{content:"";display:block;height:.5rem;background:var(--lc);margin-bottom:.5rem;transform-origin:left}
   .sname .sign{display:flex;align-items:flex-start;gap:.875rem}
   .sname .b.lg{margin-top:.15rem}
   .h-st{font-size:clamp(2rem,1.3rem + 3.2vw,3.25rem);line-height:1.04;letter-spacing:-.025em;overflow-wrap:break-word;hyphens:manual;min-width:0}
@@ -270,6 +274,8 @@
   .says{display:grid;gap:.5rem}
   .says li{font-weight:700;padding-left:1.5rem;position:relative}
   .says li::before{content:"\201C";position:absolute;left:0;top:.05em;font:800 1.75rem/1.1 var(--sign);color:var(--lc)}
+  .says li.nq{padding-left:0}
+  .says li.nq::before{display:none}
   .answer .k{margin-top:var(--s3)}
   .alsoc{margin-top:var(--s2);font-size:.9375rem;color:var(--fg-2)}
 
@@ -422,6 +428,23 @@
 
 }
 
+@layer pages {
+  /* More contrast: secondary text becomes full strength, hairlines strengthen, every control gets a 2px outline, links keep a heavy underline. */
+  @media (prefers-contrast: more){
+    :root{--fg-2:var(--fg);--fg-3:var(--fg);--rule:var(--fg-2);--rule-hi:var(--fg)}
+    .blade:not(.pri),.btn:not(.pri),.opt,.seg a,.seg button,.tabs [role=tab],.feels label,.pn a,.sfield,.set .ch label,.lrow,.row,details.more,.answer,.panel,.notice{box-shadow:inset 0 0 0 2px var(--fg)}
+    a{text-decoration-thickness:2px}
+    .strip .ln{height:.375rem}
+  }
+  /* Windows high-contrast: the system picks the colours; shapes and outlines must still say what each thing is. */
+  @media (forced-colors: active){
+    .blade,.btn,.opt,.seg a,.seg button,.tabs [role=tab],.feels label,.pn a,.sfield,.set .ch label,.leave,.status,details.more{border:2px solid CanvasText}
+    .tabs [role=tab][aria-selected=true],.btn[aria-pressed=true],.seg [aria-current]{border-color:Highlight;outline:2px solid Highlight}
+    .warn .band,.exitplate .band{border-bottom:2px solid CanvasText}
+    .sname::before,.strip .ln,.ldia::before{background:CanvasText}
+  }
+}
+
 @layer motion {
   @media (prefers-reduced-motion: no-preference){
     :root:not([data-motion=reduce]) .btn,:root:not([data-motion=reduce]) .blade,:root:not([data-motion=reduce]) .opt,
@@ -434,6 +457,7 @@
     :root:not([data-motion=reduce]) .panelx.in-r{animation:inR .22s var(--ease)}
     :root:not([data-motion=reduce]) .map .xl.draw{animation:draw .32s var(--ease)}
     :root:not([data-motion=reduce]) .sheet[open]{animation:sheetIn .28s var(--ease-sheet)}
+    :root:not([data-motion=reduce]) .sname.sweep::before{animation:sweep .3s var(--ease) both}
     ::view-transition-group(st){animation-duration:.28s;animation-timing-function:var(--ease)}
     ::view-transition-old(root){animation:vtOut .12s ease-out both}
     ::view-transition-new(root){animation:vtIn .18s var(--ease) both}
@@ -446,6 +470,12 @@
     .blade:not(.pri):hover,.opt:hover,.btn:not(.pri):hover,.pn a:hover,.seg a:hover,.feels label:hover,.tabs [role=tab]:not([aria-selected=true]):hover{background:var(--panel-2)}
     .doors a:not([aria-current]):hover{color:var(--fg)}
   }
+  /* Reading progress: a thin line in the station's colour under the top bar, driven by scrolling itself (no script). Where the browser cannot, it is simply absent. */
+  @supports (animation-timeline: scroll()){
+    body[data-page=station] .top::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:.1875rem;background:var(--lc);transform-origin:left;transform:scaleX(0);animation:rp linear both;animation-timeline:scroll(root block)}
+    @keyframes rp{to{transform:scaleX(1)}}
+  }
+  @keyframes sweep{from{transform:scaleX(0)}}
   @keyframes inL{from{opacity:0;transform:translateX(-1.5rem)}}
   @keyframes inR{from{opacity:0;transform:translateX(1.5rem)}}
   @keyframes draw{from{stroke-dashoffset:var(--len)}}

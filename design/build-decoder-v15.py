@@ -36,7 +36,7 @@ UPDATES = [
     "<strong>The answer comes first.</strong> Every entry now opens with what it is, what it can sound like and, where it matters, your safety. The rest is split into four short steps instead of one long page, and long lists open only when you ask.",
     "<strong>Private by default.</strong> Nothing is saved on your device unless you turn saving on. While it is off, the page addresses use numbers instead of tactic names, and the tab shows only the guide's name.",
     "<strong>Leave quickly.</strong> A green Leave button on every page switches straight to a weather page. On a keyboard, press Escape twice.",
-    "<strong>Easier to read.</strong> New typefaces designed for legibility, larger small print, and nothing moving unless you tap it. Help me figure it out now shows why each match was suggested, and any two look-alikes can be compared side by side.",
+    "<strong>Easier to read.</strong> New typefaces designed for legibility, larger small print, and nothing moving unless you tap it. Help me figure it out now shows why each match was suggested, and any two look-alikes can be compared side by side. Search also finds the lines and pages, a thin line in the line’s colour shows how far you have read, and Show on the map takes you to a station on the map.",
 ] + v10.UPDATES
 
 LETTER = {"truth": "T", "pressure": "G", "control": "C", "hook": "L", "wear": "W",

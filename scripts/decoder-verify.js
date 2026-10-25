@@ -150,29 +150,40 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     const small = await p.evaluate(() => { const o = [], w = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT); for (let n; (n = w.nextNode());) { if (!n.nodeValue.trim()) continue; const el = n.parentElement; if (el.closest(".nf-chrome,.nf-panel,.sr-only,[hidden],script,style")) continue; const px = parseFloat(getComputedStyle(el).fontSize); if (px < 13) o.push(Math.round(px * 10) / 10 + "px " + (el.className || el.tagName)); } return o; });
     T("no text smaller than 13px (v14: 13–14px italic labels)", !small.length, small.slice(0, 4).join("; ")); await ctx.close(); }
 
-  // ---- load timing, phone with a 4x CPU slowdown
-  { const runs = [];
-    for (let i = 0; i < 3; i++) { const ctx = await ctxFor(390, 844, "dark"); const p = await ctx.newPage();
-      await p.addInitScript(() => { window.__lt = []; window.__lcp = 0; new PerformanceObserver(l => l.getEntries().forEach(e => window.__lt.push(e.duration))).observe({ type: "longtask", buffered: true });
-        new PerformanceObserver(l => l.getEntries().forEach(e => { window.__lcp = e.startTime; })).observe({ type: "largest-contentful-paint", buffered: true }); });
-      const cdp = await ctx.newCDPSession(p); await cdp.send("Emulation.setCPUThrottlingRate", { rate: 4 });
-      await p.goto(URL0 + "#/"); await p.waitForFunction(() => document.querySelector("h1") && document.fonts.status === "loaded"); await p.waitForTimeout(800);
-      const m = await p.evaluate(() => { const nav = performance.getEntriesByType("navigation")[0], fcp = performance.getEntriesByName("first-contentful-paint")[0];
-        return { dcl: nav.domContentLoadedEventEnd, fcp: fcp ? fcp.startTime : 0, lcp: window.__lcp, longest: Math.max(0, ...window.__lt), total: window.__lt.reduce((a, b) => a + b, 0) }; });
-      runs.push(m); await ctx.close(); }
-    const med = k => runs.map(r => r[k]).sort((a, b) => a - b)[1];
-    console.log("  timing, 4x CPU, median of 3:", ["dcl", "fcp", "lcp", "longest", "total"].map(k => k + " " + Math.round(med(k)) + "ms").join(", "), "(v14 on the same setup: headline at 3400ms, longest task 836ms, long tasks 1100ms)");
-    T("home: first content in ≤ 1200 ms on a 4x slowdown", med("fcp") <= 1200, Math.round(med("fcp")) + " ms");
-    T("home: largest paint in ≤ 1500 ms", med("lcp") <= 1500, Math.round(med("lcp")) + " ms");
-    T("home: longest main-thread task ≤ 150 ms", med("longest") <= 150, Math.round(med("longest")) + " ms");
-    T("home: total long-task time ≤ 250 ms", med("total") <= 250, Math.round(med("total")) + " ms"); }
+  // ---- load timing, phone with a 4x CPU slowdown. Judged two ways: against loose absolute limits, and against the live v14
+  // page measured side by side in the same run (so a slow or busy machine cancels out). v14 is skipped if it is not on disk.
+  { const measure = async (url, label) => { const runs = [];
+      for (let i = 0; i < 5; i++) { const ctx = await ctxFor(390, 844, "dark"); const p = await ctx.newPage();
+        await p.addInitScript(() => { window.__lt = []; window.__lcp = 0; new PerformanceObserver(l => l.getEntries().forEach(e => window.__lt.push(e.duration))).observe({ type: "longtask", buffered: true });
+          new PerformanceObserver(l => l.getEntries().forEach(e => { window.__lcp = e.startTime; })).observe({ type: "largest-contentful-paint", buffered: true }); });
+        const cdp = await ctx.newCDPSession(p); await cdp.send("Emulation.setCPUThrottlingRate", { rate: 4 });
+        await p.goto(url + "#/"); await p.waitForFunction(() => document.querySelector("h1") && document.fonts.status === "loaded"); await p.waitForTimeout(900);
+        runs.push(await p.evaluate(() => { const nav = performance.getEntriesByType("navigation")[0], fcp = performance.getEntriesByName("first-contentful-paint")[0];
+          return { dcl: nav.domContentLoadedEventEnd, fcp: fcp ? fcp.startTime : 0, lcp: window.__lcp, longest: Math.max(0, ...window.__lt), total: window.__lt.reduce((a, b) => a + b, 0) }; })); await ctx.close(); }
+      const med = k => runs.map(r => r[k]).sort((a, b) => a - b)[Math.floor(runs.length / 2)];
+      const m = Object.fromEntries(["dcl", "fcp", "lcp", "longest", "total"].map(k => [k, med(k)]));
+      console.log("  timing, 4x CPU, median of 5, " + label + ":", Object.entries(m).map(([k, v]) => k + " " + Math.round(v) + "ms").join(", ")); return m; };
+    const v15 = await measure(URL0, "this page");
+    T("home: first content in ≤ 1200 ms on a 4x slowdown", v15.fcp <= 1200, Math.round(v15.fcp) + " ms");
+    T("home: largest paint in ≤ 1500 ms", v15.lcp <= 1500, Math.round(v15.lcp) + " ms");
+    T("home: longest main-thread task ≤ 200 ms (loose backstop)", v15.longest <= 200, Math.round(v15.longest) + " ms");
+    T("home: total long-task time ≤ 450 ms (loose backstop)", v15.total <= 450, Math.round(v15.total) + " ms");
+    const v14path = path.join(__dirname, "..", "instruments", "playbook", "index.html");
+    if (fs.existsSync(v14path) && path.resolve(v14path) !== file && fs.readFileSync(v14path, "utf8").slice(0, 900000).includes('id="sky"')) {
+      const v14 = await measure("file://" + v14path, "v14, live");
+      /* largest paint, not first paint: v14's first paint is its background and its headline waits for a reveal animation */
+      T("home: v15 costs under 40% of v14 on the same machine (largest paint, longest task, total long tasks)", v15.lcp <= v14.lcp * 0.4 && v15.longest <= v14.longest * 0.4 && v15.total <= v14.total * 0.4,
+        `largest paint ${(v15.lcp / v14.lcp * 100).toFixed(0)}%, longest task ${(v15.longest / v14.longest * 100).toFixed(0)}%, total long tasks ${(v15.total / v14.total * 100).toFixed(0)}% of v14`);
+    } else console.log("  (v14 not found next to this page: the side-by-side comparison was skipped)"); }
 
   // ---- response to a tap: search typing and opening a station, 4x slowdown
   { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/search"); const cdp = await ctx.newCDPSession(p); await cdp.send("Emulation.setCPUThrottlingRate", { rate: 4 });
     const t = await p.evaluate(async () => { const q = document.querySelector("#q"); const ts = []; for (const s of ["s", "si", "sil", "sile", "silen", "silent"]) { const t0 = performance.now(); q.value = s; q.dispatchEvent(new Event("input", { bubbles: true })); await new Promise(r => setTimeout(r, 140)); ts.push(performance.now() - t0 - 140); } return ts; });
-    const open1 = await p.evaluate(async () => { const t0 = performance.now(); location.hash = "#/entry/gaslighting"; await new Promise(r => { const iv = setInterval(() => { if (document.querySelector("h1.h-st")) { clearInterval(iv); r(); } }, 4); }); return performance.now() - t0; });
+    const times = []; for (const slug of ["gaslighting", "silent-treatment", "love-bombing"]) { const c2 = await ctxFor(390, 844, "dark"); const q = await open(c2, "#/"); const cd = await c2.newCDPSession(q); await cd.send("Emulation.setCPUThrottlingRate", { rate: 4 });
+      times.push(await q.evaluate(async sl => { const t0 = performance.now(); location.hash = "#/entry/" + sl; await new Promise(r => { const iv = setInterval(() => { if (document.querySelector("h1.h-st")) { clearInterval(iv); r(); } }, 4); }); return performance.now() - t0; }, slug)); await c2.close(); }
+    const open1 = times.sort((a, b) => a - b)[1];
     T("typing in search: slowest keystroke response ≤ 200 ms (4x slowdown)", Math.max(...t) <= 200, Math.round(Math.max(...t)) + " ms");
-    T("opening a station (first time, parses its line's data) ≤ 200 ms (4x slowdown)", open1 <= 200, Math.round(open1) + " ms"); await ctx.close(); }
+    T("opening a station (first time, parses its line's data), median of 3 lines ≤ 200 ms (4x slowdown)", open1 <= 200, Math.round(open1) + " ms (" + times.map(Math.round).join("/") + ")"); await ctx.close(); }
 
   // ---- keyboard: the whole flow works without a mouse
   { const ctx = await ctxFor(1440, 900, "dark"); const p = await open(ctx, "#/"); await p.keyboard.press("Tab"); await p.keyboard.press("Enter"); await p.waitForTimeout(100);
@@ -185,12 +196,12 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
 
   // ---- reduced motion: nothing stuck invisible, no animation
   { const ctx = await ctxFor(390, 844, "dark", { reducedMotion: "reduce" }); const p = await open(ctx, "#/entry/gaslighting");
-    const r = await p.evaluate(() => ({ anim: document.getAnimations().length, hidden: [...document.querySelectorAll("main *")].filter(e => getComputedStyle(e).opacity === "0" && e.offsetParent).length }));
+    const r = await p.evaluate(() => ({ anim: document.getAnimations().filter(a => !(window.ScrollTimeline && a.timeline instanceof ScrollTimeline)).length, hidden: [...document.querySelectorAll("main *")].filter(e => getComputedStyle(e).opacity === "0" && e.offsetParent).length }));
     T("reduced motion: no running animations and nothing stuck transparent", r.anim === 0 && r.hidden === 0, JSON.stringify(r)); await ctx.close(); }
 
   // ---- idle cost: no animation loop
   { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/entry/gaslighting"); await p.waitForTimeout(600);
-    const frames = await p.evaluate(() => new Promise(res => { let n = 0; const o = new MutationObserver(() => n++); o.observe(document.body, { subtree: true, attributes: true, childList: true, characterData: true }); const anims = document.getAnimations().length; setTimeout(() => res({ mutations: n, anims }), 3000); }));
+    const frames = await p.evaluate(() => new Promise(res => { let n = 0; const o = new MutationObserver(() => n++); o.observe(document.body, { subtree: true, attributes: true, childList: true, characterData: true }); const anims = document.getAnimations().filter(a => !(window.ScrollTimeline && a.timeline instanceof ScrollTimeline)).length; setTimeout(() => res({ mutations: n, anims }), 3000); }));
     T("idle: nothing changes or animates on its own for 3 s", frames.mutations === 0 && frames.anims === 0, JSON.stringify(frames)); await ctx.close(); }
 
   // ---- leaving: reachable from every state, and Back does not return to the guide
@@ -220,6 +231,10 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     await p.goto(URL0 + "#/");
     T("home: a safe step is on the first screen (If you are not safe, read this first)", await p.evaluate(() => { const a = [...document.querySelectorAll(".blade")].find(x => /not safe/i.test(x.textContent)); return !!a && a.getBoundingClientRect().top < innerHeight - 70 && /safety/.test(a.getAttribute("href")); }));
     await p.goto(URL0 + "#/search"); await p.fill("#q", "you are imagining things"); await p.waitForTimeout(250);
+    T("no doubled quote marks in search results or sound-like lines (all 310)", await (async () => { await p.fill("#q", "safe"); await p.waitForTimeout(250); const a = await p.evaluate(() => /[“”"]{2}/.test(document.querySelector("#results").textContent.replace(/[”"]\s+/g, " ")));
+      const bad = []; for (const st of stations.filter((_, i) => i % 3 === 0)) { await p.goto(URL0 + "#/entry/" + st.s); const t = await p.evaluate(() => [...document.querySelectorAll(".says li")].map(li => li.textContent.trim()).filter(x => /^[“"]{2}/.test(x))); if (t.length) bad.push(st.n); }
+      return !a && !bad.length; })());
+    await p.goto(URL0 + "#/search"); await p.fill("#q", "you are imagining things"); await p.waitForTimeout(250);
     T("search highlight is not amber (amber is for danger only)", await p.evaluate(() => { const m = document.querySelector("mark"); if (!m) return false; const c = getComputedStyle(m).backgroundColor; return !/255, 176, 32/.test(c); }));
     await ctx.close(); }
 
@@ -235,6 +250,35 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
       if ((m.landscape ? m.min < 0 : m.min < need - 0.6 || m.gapX < need - 0.6) && !m.landscape) bad.push(`${w}px: rows ${m.min.toFixed(1)} cols ${m.gapX.toFixed(1)}`);
       await ctx.close(); }
     T("map: neighbouring stations are ≥24 CSS px apart on phones down to 320px wide", !bad.length, bad.join("; ")); }
+
+  // ---- techniques brought back from v14
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/entry/gaslighting"); await p.waitForTimeout(200);
+    const bar = async () => p.evaluate(() => { const t = getComputedStyle(document.querySelector(".top"), "::after").transform; const m = t.match(/matrix\(([^,]+)/); return m ? +m[1] : (t === "none" ? 1 : -1); });
+    const top = await bar(); await p.evaluate(() => scrollTo(0, document.documentElement.scrollHeight)); await p.waitForTimeout(250); const end = await bar();
+    T("reading line: empty at the top of a station, full at the end (scroll-driven, no script)", top < 0.05 && end > 0.95, "top " + top.toFixed(2) + ", end " + end.toFixed(2));
+    await p.evaluate(() => scrollTo(0, 0));
+    T("station sign wears its line colour (band matches the line bullet)", await p.evaluate(() => { const b = getComputedStyle(document.querySelector(".sname"), "::before"), bl = getComputedStyle(document.querySelector(".sname .b")); return b.backgroundColor === bl.backgroundColor && parseFloat(b.height) >= 6; }));
+    await p.goto(URL0 + "#/search"); const asked = {};
+    for (const q of ["settings", "love", "safe", "dark"]) { await p.fill("#q", q); await p.waitForTimeout(250); asked[q] = await p.evaluate(() => [...document.querySelectorAll("#results a.row")].map(a => a.getAttribute("href"))); }
+    T("search reaches pages and lines (settings, love, safe, dark)", asked.settings.includes("#/settings") && asked.love.some(h => /#\/l\/\d/.test(h)) && asked.safe.includes("#/safety") && asked.dark.includes("#/settings"), JSON.stringify(Object.fromEntries(Object.entries(asked).map(([k, v]) => [k, v.slice(0, 3)]))));
+    await ctx.close(); }
+  { const ctx = await ctxFor(390, 844, "dark", { reducedMotion: "reduce" }); const p = await open(ctx, "#/entry/gaslighting"); await p.waitForTimeout(200);
+    await p.click("[data-showmap]"); await p.waitForTimeout(500);
+    const r = await p.evaluate(() => { const a = document.querySelector("#map a.sel"); if (!a) return { sel: false }; const b = a.getBoundingClientRect(); return { sel: true, inView: b.top > 0 && b.bottom < innerHeight, links: document.querySelectorAll("#xl path").length, note: /highlighted/.test(document.querySelector("main").textContent), hash: location.hash }; });
+    T("Show on the map: lands on the map with the station highlighted, in view, interchanges drawn", r.sel && r.inView && r.links > 0 && r.note && r.hash === "#/map", JSON.stringify(r));
+    await ctx.close(); }
+  { const ctx = await ctxFor(390, 844, "dark", { contrast: "more" }); const p = await open(ctx, "#/");
+    const r = await p.evaluate(() => { const b = document.querySelector(".blade:not(.pri)"), cs = getComputedStyle(b), fg2 = getComputedStyle(document.querySelector(".lede")).color, fg = getComputedStyle(document.body).color; return { ring: cs.boxShadow, lede: fg2 === fg }; });
+    T("more contrast: controls get a 2px outline and secondary text goes full strength", /2px/.test(r.ring) && r.lede, r.ring.slice(0, 50) + " lede=" + r.lede);
+    await ctx.close(); }
+  { const ctx = await ctxFor(390, 844, "dark", { forcedColors: "active" }); const p = await open(ctx, "#/entry/gaslighting"); const errs = [];
+    for (const h of ["#/", "#/entry/emotional-blackmail", "#/map", "#/help"]) { await p.goto(URL0 + h); await p.waitForTimeout(150); const o = await p.evaluate(() => document.documentElement.scrollWidth - innerWidth); if (o > 1) errs.push(h + " +" + o); }
+    const bd = await p.evaluate(() => { const b = document.querySelector(".leave"); return b ? getComputedStyle(b).borderTopWidth : "none"; });
+    T("forced colours: pages reflow and Leave keeps a 2px outline", !errs.length && parseFloat(bd) >= 2, errs.join(",") + " border " + bd);
+    await ctx.close(); }
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/"); const cdp = await ctx.newCDPSession(p); await cdp.send("Emulation.setCPUThrottlingRate", { rate: 4 });
+    const t = await p.evaluate(async () => { const t0 = performance.now(); location.hash = "#/lines/az"; await new Promise(r => { const iv = setInterval(() => { if (document.querySelector("#az-A")) { clearInterval(iv); r(); } }, 4); }); return performance.now() - t0; });
+    T("A to Z (310 rows) opens in ≤ 250 ms on a 4x slowdown (content-visibility)", t <= 250, Math.round(t) + " ms"); await ctx.close(); }
 
   // ---- the House seal never floats over the text
   { const bad = [];

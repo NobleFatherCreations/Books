@@ -4662,3 +4662,21 @@ T G C L W B P S O M; colours default "Match my phone".
   "As built" section with measurements and every departure from the plan. Phone preview of the build (private artifact):
   https://claude.ai/artifact/FMDn3fLtSqY7gykykpQBQM (Leave inside the preview navigates the frame away; reload to continue).
 - PRODUCT.md brand commitment rewritten for the new world.
+
+## 2026-10-25 — Decoder v15: v14 techniques brought back (still NOT deployed)
+
+Owner asked whether any of v14's advanced techniques could enhance v15. Rule used: fits the calm world, caused by the
+reader (tap or scroll), safe under Reduce motion and screen readers. Brought back, each tested: reading progress line
+(CSS scroll-driven, `animation-timeline: scroll()`; Chromium only, absent elsewhere, no fallback); line-colour band on the
+station sign + sweep after a tap; search reaches lines and pages and shows recent reads first when saving is on; "Show on the
+map" + scroll-to-station ("camera flight"); `prefers-contrast: more` and `forced-colors` modes; `content-visibility:auto` on
+`.rows>.row` (NOT on the line diagram: paint containment would clip focus rings). Still cut for good: magnetism, grain,
+meteors, pointer light, blur reveals, focus veil, drop cap, adaptive lite. Considered, not built: glossary margin notes on
+desktop, zoomable "often confused" map, read-aloud via the phone's voice.
+- Found and fixed along the way: doubled quote marks (245 data lines are already quoted, 49 open with a quote and narrate);
+  the plan had promised content-visibility and high-contrast mode and the build lacked both (now present).
+- **Tests: 43 checks, all pass.** Timing gates now compare against live v14 measured side by side in the same run (v15 must stay
+  under 40% of v14's largest paint, longest task and total long tasks; measured 29% / 20% / 15%) with loose absolute backstops,
+  because this machine's timings drift ±25% between sessions (an A/B of two commits back to back showed no real change).
+  Compare on LCP, not FCP: v14's first paint is its background and its headline waits for a reveal animation.
+- Idle test ignores scroll-driven animations (they move only when the reader scrolls).

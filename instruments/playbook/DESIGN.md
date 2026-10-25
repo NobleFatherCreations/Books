@@ -325,3 +325,18 @@ Known gaps, stated honestly:
 - Light mode `mark` highlight and `--mark` token are defined but the current build's `mark` uses a neutral ring; `--mark` is unused.
 
 Not canonized (defects or one-offs the build carries, not rules for future surfaces): the `!important` seal override (a compatibility patch for the shared menu); the `?` and curly-quote glyph markers used as list decoration (typographic stand-ins, not an icon system); the unused `--mark` token.
+
+
+## Additions after the first review (2026-10-25)
+
+Seven techniques from v14 came back, each caused by the reader (a tap or a scroll), none moving on its own, all safe under Reduce motion.
+
+- **Reading line.** A 3px line in the station's line colour under the top bar, filled by scrolling itself (`animation-timeline: scroll()`, behind `@supports`). It is the only scroll-driven element; absent in browsers without support. It is a station-page device: `body[data-page=station]`, with the line colour carried on `body[data-g]`.
+- **Sign band.** `.sname::before`, 8px, full width, in `--lc`. After a tap it draws in once (`.sweep`, 0.3s, `--ease`).
+- **Search reach.** Results add "Lines and pages" (lines by name, blurb or letter; pages by title and keywords; three characters minimum) and, with saving on, "Recently read". Page rows use a neutral circle bullet (`.b.n`), never a line colour.
+- **Map flight.** "Show on the map" (`data-showmap`) selects a station (larger white node), draws its interchange links, and scrolls it to the middle (`scrollIntoView`, instant under Reduce motion).
+- **More contrast and forced colours.** `prefers-contrast: more` lifts `--fg-2`, `--fg-3` and the hairlines to full strength and gives every control a 2px inset outline; `forced-colors: active` gives controls a 2px `CanvasText` border and keeps the selected state in `Highlight`.
+- **Off-screen rows.** `.rows>.row{content-visibility:auto}`. Not applied to the line diagram, because paint containment would clip the focus rings of its links.
+- **Quotes.** The list draws one quote mark. Lines the data already quotes are stripped of their own; lines that open with a quote and then narrate (`.says li.nq`) keep their text and lose the drawn mark.
+
+Regression net: `scripts/decoder-verify.js`, 43 checks, including a same-machine comparison against live v14.

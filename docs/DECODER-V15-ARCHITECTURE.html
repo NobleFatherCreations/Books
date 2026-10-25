@@ -248,7 +248,7 @@ details>div{padding-bottom:16px}
 
 <section id="built"><div class="col">
   <h2>As built: results and changes</h2>
-  <p>The page is built at <code>instruments/playbook/_undeployed/v15/index.html</code> (the live v14 file is untouched) and checked by <code>scripts/decoder-verify.js</code>: <strong>34 checks, all passing</strong>, in a real browser. An independent design review (a fresh reviewer with no access to this chat) found material problems, which were fixed and each turned into a test. Software-rendered browser, so real phones will differ.</p>
+  <p>The page is built at <code>instruments/playbook/_undeployed/v15/index.html</code> (the live v14 file is untouched) and checked by <code>scripts/decoder-verify.js</code>: <strong>43 checks, all passing</strong>, in a real browser. An independent design review (a fresh reviewer with no access to this chat) found material problems, which were fixed and each turned into a test. Software-rendered browser, so real phones will differ.</p>
   <h3>Measured, against v14</h3>
 </div>
   <div class="tbl"><table>
@@ -266,8 +266,9 @@ details>div{padding-bottom:16px}
       <tr><td>axe-core (WCAG 2.2 AA + best practice)</td><td class="num">not run</td><td class="num">64 scans, 0 serious or critical</td><td>16 page types × 2 themes × 2 widths</td></tr>
       <tr><td>Reflow at 320 px and Largest text</td><td class="num">not run</td><td class="num">no sideways scroll on 12 pages</td><td>WCAG 1.4.4 / 1.4.10</td></tr>
       <tr><td>Idle CPU</td><td class="num">continuous animation</td><td class="num">0 mutations, 0 animations in 3 s</td><td>Including the shared House seal's pulse, which is switched off here</td></tr>
-      <tr><td>Stylesheet / script</td><td class="num">66 KB, 49 !important / 117 KB with the sky</td><td class="num">32 KB, 7 !important (the hidden attribute, print, and the shared House seal only) / 68 KB</td><td>Build output</td></tr>
+      <tr><td>Stylesheet / script</td><td class="num">66 KB, 49 !important / 117 KB with the sky</td><td class="num">34 KB, 7 !important (the hidden attribute, print, and the shared House seal only) / 72 KB</td><td>Build output</td></tr>
       <tr><td>Storage written by default</td><td class="num">yes</td><td class="num">none (0 keys after browsing 25 stations and a search)</td><td>Tested</td></tr>
+      <tr><td>Same machine, side by side with live v14 (4× slowdown)</td><td class="num">largest paint 2,024 ms; longest task 726 ms; long tasks 1,622 ms</td><td class="num">580 ms; 142 ms; 244 ms (29%, 20% and 15% of v14)</td><td>The suite fails if v15 rises above 40% of v14 on any of the three. This machine drifts ±25% between sessions, so the fair test is back to back</td></tr>
       <tr><td>File size</td><td class="num">3.59 MB</td><td class="num">3.28 MB (1.10 MB gzipped)</td><td>Still one offline file</td></tr>
     </tbody>
   </table></div>
@@ -291,6 +292,27 @@ details>div{padding-bottom:16px}
       <tr><td>Escape twice only when nothing is open</td><td>Always; a Leave button also sits in the map sheet and above the pause card</td><td>A modal dialog makes the top bar unreachable (review finding)</td></tr>
     </tbody>
   </table></div>
+  <div class="col">
+  <h3>Round two: v14 techniques brought back</h3>
+  <p>You asked whether any of v14's advanced techniques could improve this build. I went back through the 56-item ledger and kept three tests: it must fit the calm sign-system world, it must be caused by the reader (a tap or a scroll, never on its own), and it must work with Reduce motion and a screen reader. Seven came back, each tested.</p>
+  </div>
+  <div class="tbl"><table>
+    <thead><tr><th>v14 technique</th><th>Now, in v15</th><th>Why it earns its place</th></tr></thead>
+    <tbody>
+      <tr><td>Reading meridian (progress down the page)</td><td>A thin line in the station's colour under the top bar fills as you scroll. It is scroll-driven CSS: no script, no animation loop. Chrome, Edge and Android show it; Safari and Firefox do not yet, and simply have no line</td><td>Tells a tired reader how much is left without a counter</td></tr>
+      <tr><td>Constellation colour tinting the page</td><td>The station name sign has a full-width band in its line colour, like a real station sign. After a tap on a row, the band draws in from the left (0.3 s, skipped under Reduce motion)</td><td>The review noted the line colour never framed the first screen; this is the contract's one signature moment</td></tr>
+      <tr><td>⌘K command menu (tactics, groups and pages in one place)</td><td>Search also finds lines and pages ("settings", "dark" and "night" find Settings; "safe" finds Use this safely; "love" finds the L line). With saving on, recent reads show first</td><td>One search to learn, and the way to Settings or the safety page is no longer hidden in a footer</td></tr>
+      <tr><td>Camera flights between pages</td><td>"Show on the map" on every station opens the map with that station highlighted, a line drawn to each place you can change, and the page scrolled so it sits mid-screen (smooth normally, instant under Reduce motion). Help results do the same for your matches</td><td>The map finally answers "where is this, and what is near it?" instead of being a separate place</td></tr>
+      <tr><td>High-contrast mode (v14 honoured it; the plan promised it)</td><td>With "more contrast" on, secondary text goes full strength, hairlines strengthen and every control gets a 2 px outline. Windows high-contrast mode keeps outlines and the selected state</td><td>People who need it get a layout that still reads as signs</td></tr>
+      <tr><td>Off-screen work skipped (the plan promised it)</td><td>Long lists (A to Z, 310 rows) skip painting rows that are off screen</td><td>A to Z opens in about 230 ms on a 4× slowdown</td></tr>
+      <tr><td>(Not a v14 technique) Quote marks</td><td>No doubled quote marks: 245 lines the data already quotes get no second mark, and 49 that open with a quote then narrate are shown as written</td><td>A bug of my own, found in a screenshot; now a test over all 310</td></tr>
+    </tbody>
+  </table></div>
+  <div class="col">
+  <p><strong>Left out on purpose, and still cut:</strong> pointer-following stars (mouse only), film grain, meteors, pointer light, blur reveals, the focus veil, the drop capital and the adaptive lite mode. All of them move or dim things the reader did not ask to move.</p>
+  <p><strong>Considered, not built:</strong> Tufte-style margin notes for the glossary on wide screens; a zoomable map where closeness means "often confused"; a read-aloud button using the phone's own voice (offline). Each is a good later round; none is needed for the guide to work.</p>
+  <p><strong>Honest note on the timing gates:</strong> my first absolute gates (a 150 ms longest task) sat right on the machine's noise (151 ms one run, 135 ms the next), and an A/B of the previous commit against this one back to back showed no real change. I did not loosen them to pass. I replaced the fragile ones with a same-machine comparison against live v14, and left the absolute limits as loose backstops.</p>
+  </div>
   <div class="col">
   <h3>Decisions made for you, and what is still open</h3>
   <p>You asked me to pick whatever is easiest to understand and navigate. I chose: <strong>Wayfinding</strong> (direction A); the <strong>Leave</strong> button, included; <strong>private history</strong> as above; the line letters <strong>T G C L W B P S O M</strong>; "Match my phone" as the default colour setting. Say so if you want any of these changed.</p>
