@@ -317,7 +317,9 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     await p.goto(URL0 + "#/map"); await p.waitForTimeout(200);
     T("rest a line: its stations are dim, unreachable on the map", await p.evaluate(() => { const a = [...document.querySelectorAll("#map a[data-g=society]")]; return a.length > 0 && a.every(x => x.classList.contains("rest") && x.getAttribute("aria-hidden") === "true" && x.tabIndex === -1); }));
     await p.goto(URL0 + "#/entry/" + pick.s); await p.waitForTimeout(200);
-    T("rest a line: opening one of its entries by link still works and says so, safety note intact", await p.evaluate(() => !!document.querySelector(".restnote") && !!document.querySelector("h1.h-st")));
+    T("rest a line: an entry opened by link is closed behind a notice with Show and Use-this-safely", await p.evaluate(() => !!document.querySelector("[data-unhide]") && !document.querySelector("h1.h-st") && !!document.querySelector("a[href='#/safety']")));
+    await p.click("[data-unhide]"); await p.waitForTimeout(300);
+    T("rest a line: after showing the line the entry opens with its safety note", await p.evaluate(() => !!document.querySelector("h1.h-st")));
     T("rest a line: nothing is written to the device while saving is off", await p.evaluate(() => localStorage.length === 0));
     await p.goto(URL0 + "#/settings"); const left = await p.evaluate(async () => { const boxes = [...document.querySelectorAll("input[name=rest]")]; for (const b of boxes) { if (!b.checked) { b.click(); await new Promise(r => setTimeout(r, 30)); } } return boxes.filter(b => b.checked).length; });
     T("rest a line: at least one line always stays visible", left === 9, "ticked " + left + " of 10");
@@ -363,10 +365,10 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
   // ---- stage 4: ten visual ideas (emblems, enamel rim, tactile dots, network thumbnail, pictograms, print card, codes, arrows, tiles, stars)
   { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/"); await p.waitForTimeout(300);
     const h = await p.evaluate(() => { const e = [...document.querySelectorAll(".home .emb")]; const n = document.querySelector("a.net"); const cs = getComputedStyle(document.querySelector(".home .concourse"), "::before"); const st = getComputedStyle(document.querySelector(".home .h-page"), "::after");
-      return { emb: e.length, distinct: new Set(e.map(x => x.innerHTML)).size, net: !!n, paths: n ? n.querySelectorAll("path").length : 0, href: n && n.getAttribute("href"), label: n && n.getAttribute("aria-label"), tile: cs.maskImage !== "none" || cs.webkitMaskImage !== "none" || /url/.test(cs.backgroundImage), star: st.content !== "none" }; });
+      return { emb: e.length, distinct: new Set(e.map(x => x.innerHTML)).size, net: !!n, paths: n ? n.querySelectorAll("path").length : 0, href: n && n.getAttribute("href"), label: n && n.getAttribute("aria-label"), tile: cs.maskImage !== "none" || cs.webkitMaskImage !== "none" || /url/.test(cs.backgroundImage), star: st.content === "none" || st.content === "normal" }; });
     T("line emblems: ten distinct glyphs on Home", h.emb === 10 && h.distinct === 10, JSON.stringify(h));
     T("network thumbnail: ten lines, opens the map, has a name for screen readers", h.net && h.paths >= 10 && h.href === "#/map" && !!h.label, JSON.stringify(h));
-    T("subway-tile wall and four-point star are present on Home", h.tile && h.star, JSON.stringify(h));
+    T("subway-tile wall is present on Home and the headline carries no sparkle", h.tile && h.star, JSON.stringify(h));
     await p.click("a.net"); await p.waitForTimeout(300); T("the thumbnail goes to the map", /#\/map/.test(p.url()));
     await ctx.close(); }
   { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/entry/emotional-blackmail"); await p.waitForTimeout(300);
@@ -396,6 +398,24 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
   { const ctx = await ctxFor(390, 844, "dark", { reducedMotion: "reduce" }); const p = await open(ctx, "#/line/truth"); await p.waitForTimeout(300);
     const star = await p.evaluate(() => { const a = document.querySelectorAll(".ldia li"); const f = getComputedStyle(a[0].querySelector("a"), "::before").clipPath, l = getComputedStyle(a[a.length - 1].querySelector("a"), "::before").clipPath; return { f, l }; });
     T("terminus stations are drawn as four-point stars (first and last)", /polygon/.test(star.f) && /polygon/.test(star.l), JSON.stringify(star)); await ctx.close(); }
+
+  // ---- review round: rested lines stay out everywhere, honest saving copy, Leave keeps nothing, no referrer
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/settings"); await p.click("label:has(input[name=save][value=on])"); await p.waitForTimeout(150);
+    const copy = await p.evaluate(() => document.querySelector("[data-settings]").textContent);
+    T("settings says the saved entry is scrambled, not secret, and that addresses show names", /Scrambled is not secret/.test(copy) && /tactic names/.test(copy));
+    await p.goto(URL0 + "#/entry/gaslighting"); await p.waitForTimeout(200); await p.click(".acts [data-save], [data-save]").catch(() => {});
+    const raw = await p.evaluate(() => localStorage.getItem("ui-state")); const dec = await p.evaluate(r => { const a = atob(r), K = [110,102,33,154,60,81]; return Array.from(a, (c, i) => String.fromCharCode(c.charCodeAt(0) ^ K[i % 6])).join(""); }, raw);
+    T("the stored entry has no timestamps and no tactic words", !/\d{12}/.test(dec) && !/gaslighting/i.test(dec), dec.slice(0, 80));
+    await p.goto(URL0 + "#/settings"); await p.click("input[name=rest][value=truth]"); await p.waitForTimeout(150);
+    await p.goto(URL0 + "#/entry/gaslighting"); await p.waitForTimeout(200);
+    T("a station on a rested line is closed behind a notice", await p.evaluate(() => !!document.querySelector("[data-unhide]") && !document.querySelector("h1.h-st")));
+    await p.goto(URL0 + "#/search"); await p.fill("#q", "t01"); await p.waitForTimeout(250);
+    T("searching a code on a rested line finds nothing from it", await p.evaluate(() => !/Gaslighting/.test(document.querySelector("#results").textContent)));
+    await p.goto(URL0 + "#/"); await p.waitForTimeout(250);
+    T("the Home thumbnail dims a rested line", await p.evaluate(() => !!document.querySelector(".net .rest")));
+    await p.evaluate(() => document.querySelector("a[href='#/settings']") && 0);
+    await ctx.close(); }
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/"); T("no referrer is sent to the Leave destination", await p.evaluate(() => document.querySelector("meta[name=referrer]")?.content === "no-referrer")); await ctx.close(); }
 
   // ---- the House seal never floats over the text
   { const bad = [];

@@ -61,11 +61,12 @@ function full(e){
 
 /* ---------- the device store: private unless the reader turns saving on ----------
    When saving is on, everything lives in ONE entry called "ui-state". Its value is scrambled (not encrypted) and holds only
-   numbers: saved and recent tactics are short hashes of their slugs, never words, and no setting is readable. Anyone who looks
-   can still see that this site stored something; they cannot read what. Turning saving off deletes the entry. */
+   numbers: saved and recent tactics are short hashes of their slugs, and no setting is stored as a word. This hides it from a
+   glance, not from someone who knows how: the scrambling key is in this page, and the hashes are of public names. Turning
+   saving off deletes the entry. Nothing here records when anything was read. */
 const store=(()=>{
   const KEY="ui-state", XK=[110,102,33,154,60,81], SHORT={breath:"b",theme:"th",size:"sz",space:"sp",motion:"mo",leave:"lv"};
-  let mem={}, ok=false, on=false, legacy=0;
+  let mem={}, ok=false, on=false, legacy=0, frozen=false;
   try{ localStorage.setItem("__t","1"); localStorage.removeItem("__t"); ok=true; }catch(e){}
   const fnv=t=>{ let h=2166136261; for(let i=0;i<t.length;i++){ h^=t.charCodeAt(i); h=Math.imul(h,16777619)>>>0; } return h.toString(36); };
   let HM=null; const hmap=()=>HM||(HM=Object.fromEntries(E.map(e=>[fnv(e.s),e.n])));
@@ -75,12 +76,12 @@ const store=(()=>{
   const dec=t=>{ try{ const a=atob(t), u=new Uint8Array(a.length); for(let i=0;i<a.length;i++) u[i]=a.charCodeAt(i); return JSON.parse(new TextDecoder().decode(scramble(u))); }catch(e){ return null; } };
   const pack=()=>{ const o={on:1};
     if(mem.starred) o.s=mem.starred.map(toH).filter(Boolean);
-    if(mem.trail) o.t=mem.trail.map(t=>[toH(t.name),t.ts]).filter(x=>x[0]);
+    if(mem.trail) o.t=mem.trail.map(t=>toH(t.name)).filter(Boolean);
     if(mem.hidden) o.h=mem.hidden.map(k=>LINE[k]?LINE[k].i:-1).filter(i=>i>=0);
     Object.keys(SHORT).forEach(k=>{ if(k in mem) o[SHORT[k]]=mem[k]; }); return o; };
   const unpack=o=>{ const m={};
     if(Array.isArray(o.s)) m.starred=o.s.map(fromH).filter(Boolean);
-    if(Array.isArray(o.t)) m.trail=o.t.map(x=>({name:fromH(x[0]),ts:x[1]})).filter(x=>x.name);
+    if(Array.isArray(o.t)) m.trail=o.t.map(x=>({name:fromH(Array.isArray(x)?x[0]:x)})).filter(x=>x.name);
     if(Array.isArray(o.h)) m.hidden=o.h.map(i=>LINES[i]&&LINES[i].k).filter(Boolean);
     Object.keys(SHORT).forEach(k=>{ if(SHORT[k] in o) m[k]=o[SHORT[k]]; }); return m; };
   const persist=()=>{ if(on&&ok) try{ localStorage.setItem(KEY,enc(pack())); }catch(e){} };
@@ -92,18 +93,18 @@ const store=(()=>{
   return {
     get saving(){ return on; }, get legacy(){ return legacy; },
     get(k,d){ return (k in mem)?mem[k]:d; },
-    set(k,v){ mem[k]=v; persist(); },
+    set(k,v){ if(frozen) return; mem[k]=v; persist(); },
     setSaving(v){
       if(v&&!on){ const a=old("starred"), b=old("trail");
         if(Array.isArray(a)) mem.starred=[...new Set((mem.starred||[]).concat(a.map(canon)))].filter(n=>BY[n]);
-        if(Array.isArray(b)){ const cur=mem.trail||[]; mem.trail=cur.concat(b.filter(x=>x&&x.name&&BY[canon(x.name)]&&!cur.some(c=>c.name===canon(x.name))).map(x=>({name:canon(x.name),ts:x.ts}))); }
+        if(Array.isArray(b)){ const cur=mem.trail||[]; mem.trail=cur.concat(b.filter(x=>x&&x.name&&BY[canon(x.name)]&&!cur.some(c=>c.name===canon(x.name))).map(x=>({name:canon(x.name)}))); }
         on=true; legacy=0; wipeOld(); persist(); }
       else if(!v&&on){ on=false; if(ok) try{ localStorage.removeItem(KEY); }catch(e){} wipeOld(); mem.starred=[]; mem.trail=[]; }
     },
     forgetLegacy(){ wipeOld(); legacy=0; },
     clearLists(){ const snap={starred:mem.starred||[], trail:mem.trail||[]}; this.set("starred",[]); this.set("trail",[]); return snap; },
     restore(snap){ this.set("starred",snap.starred); this.set("trail",snap.trail); },
-    forgetAll(){ mem={}; },
+    forgetAll(){ mem={}; frozen=true; },
   };
 })();
 const canon = n => D.aliases[n]||n;
@@ -115,7 +116,7 @@ function toggleSave(n){ let s=starred(); s=s.includes(n)?s.filter(x=>x!==n):[n].
 const hiddenSet=()=>new Set(store.get("hidden",[]));
 function setHidden(k,on){ let h=store.get("hidden",[]); h=on?[...new Set(h.concat(k))]:h.filter(x=>x!==k); if(on&&h.length>=LINES.length) return false; store.set("hidden",h); return true; }
 const LEAVE_TO={weather:["A weather search","https://www.google.com/search?q=weather"],wiki:["Wikipedia","https://en.wikipedia.org/wiki/Main_Page"],blank:["A blank page","about:blank"]};
-function logTrail(n){ if(!store.saving) return; const t=store.get("trail",[]).filter(x=>x&&x.name!==n); t.unshift({name:n,ts:Date.now()}); store.set("trail",t.slice(0,100)); }
+function logTrail(n){ if(!store.saving) return; const t=store.get("trail",[]).filter(x=>x&&x.name!==n); t.unshift({name:n}); store.set("trail",t.slice(0,100)); }
 
 /* ---------- addresses: names when saving, numbers when private ---------- */
 const stH = e => store.saving ? "#/entry/"+e.s : "#/s/"+e.i;
@@ -221,7 +222,7 @@ function search(q){
   }
   if(list.length<5&&n.split(" ").length>1){ const seen=new Set(list); fuzzy(n).forEach(e=>{ if(!seen.has(e)&&list.length<12) list.push(e); }); }
   const cm=n.replace(/ /g,"").match(/^([a-z])0?(\d{1,2})$/);   /* a station code such as T09 */
-  if(cm){ const ln=LINES.find(l=>l.letter.toLowerCase()===cm[1]), st=ln&&ln.st[+cm[2]-1]; if(st) list=[st].concat(list.filter(x=>x!==st)); }
+  if(cm){ const ln=LINES.find(l=>l.letter.toLowerCase()===cm[1]), st=ln&&!hiddenSet().has(ln.k)&&ln.st[+cm[2]-1]; if(st) list=[st].concat(list.filter(x=>x!==st)); }
   return {list,n};
 }
 /* Show the words that matched: the quote it sounds like, or the subtitle, with the shared words marked. */
@@ -346,6 +347,7 @@ function stepPanels(e){
 }
 function viewStation(e,stepArg){
   if(!e) return notFound();
+  if(hiddenSet().has(e.g)){ const l=LINE[e.g]; return '<div class="view" data-g="'+e.g+'"><div class="notice"><h2>This station is on a line you are resting</h2><p>You chose to set the '+esc(lineName(l))+' aside, so this page is closed until you are ready. Nothing is deleted. Use this safely stays open whatever you hide.</p><div class="acts"><button class="btn pri" type="button" data-unhide="'+e.g+'">Show the line</button><a class="btn line" href="#/safety">Use this safely</a></div></div></div>'; }
   logTrail(e.n);
   const l=LINE[e.g], f=full(e), si=l.order.indexOf(e.n), prev=l.st[si-1], next=l.st[si+1], says=f.what_it_sounds_like||[], saved=isSaved(e.n);
   const HID=hiddenSet(), xAll=crossRel(e), x=xAll.filter(r=>!HID.has(r.g)), w=(e.w||[]).map(k=>SET[k]&&SET[k].label).filter(Boolean), pats=(PATS_OF[e.n]||[]).map(i=>D.recipes[i]);
@@ -392,7 +394,7 @@ function setStep(n,from,anim){
   panels.forEach((p,i)=>{ p.hidden=i!==n; p.classList.remove("in-l","in-r"); });
   if(anim&&motionOK()&&n!==STEP){ void panels[n].offsetWidth; panels[n].classList.add(n>STEP?"in-r":"in-l"); }
   STEP=n; $(".stepbar i",root).style.setProperty("--p",(n+1)/4);
-  { const st=ctx(parse()).station; if(st){ const h=stH(st)+(n?"/"+(n+1):""); try{ history.replaceState(null,"",h); if(STACK.length) STACK[STACK.length-1].h=h; }catch(x){} } }
+  { const st=ctx(parse()).station; if(st){ const h=stH(st)+(n?"/"+(n+1):""); try{ history.replaceState(history.state,"",h); if(STACK.length) STACK[STACK.length-1].h=h; }catch(x){} } }
   announce("Step "+(n+1)+" of 4: "+STEPS[n][1]);
   if(from==="next"){ const t=tabs[n]; t.focus({preventScroll:true}); root.scrollIntoView({block:"start",behavior:motionOK()?"smooth":"auto"}); }
 }
@@ -499,11 +501,12 @@ function closeSheet(){ const sh=$("#sheet"); if(sh.open) sh.close(); }
 
 /* ---------- routes ---------- */
 function viewRoutes(r){
-  if(r){ MAPROUTE=r.c.map(n=>BY[n]&&BY[n].i).filter(x=>x!=null);
+  if(r){ const HV=hiddenSet(), RC=r.c.filter(n=>BY[n]&&!HV.has(BY[n].g)), skipped=r.c.length-RC.length; MAPROUTE=RC.map(n=>BY[n]&&BY[n].i).filter(x=>x!=null);
     const html='<div class="view wide"><h1 class="h-page" tabindex="-1">'+H(r.n)+'</h1><p class="lede">'+H(r.d)+'</p>'+
       '<p class="note">These tactics are often seen together, in roughly this order. It is a pattern, not a prediction: nothing here says what will happen next in your situation.</p>'+
-      '<div class="rstrip" aria-hidden="true" tabindex="-1"><ol>'+r.c.map((n,i)=>{ const e=BY[n]; return e?'<li data-href="'+stH(e)+'" data-g="'+e.g+'"><span class="rs-n">'+(i+1)+'</span><span class="rs-st"></span><span class="rs-l">'+H(e.n)+'</span></li>':''; }).join("")+'</ol></div>'+
-      '<ol class="chain" style="margin-top:2rem">'+r.c.map(n=>{ const e=BY[n]; return e?'<li><a href="'+stH(e)+'" data-vt data-g="'+e.g+'"><span class="rt" style="display:flex;flex-direction:column;gap:.25rem"><b class="nm" style="font:800 1.0625rem/1.25 var(--sign);display:flex;gap:.5rem;align-items:center">'+bullet(LINE[e.g],"sm")+H(e.n)+'</b><small class="muted">'+H(e.f.short_definition)+'</small></span></a></li>':''; }).join("")+'</ol>'+
+      (skipped?'<p class="note">'+skipped+(skipped===1?' tactic is':' tactics are')+' on a line you are resting, so '+(skipped===1?'it is':'they are')+' left out. Settings shows them again.</p>':'')+
+      '<div class="rstrip" aria-hidden="true" tabindex="-1"><ol>'+RC.map((n,i)=>{ const e=BY[n]; return e?'<li data-href="'+stH(e)+'" data-g="'+e.g+'"><span class="rs-n">'+(i+1)+'</span><span class="rs-st"></span><span class="rs-l">'+H(e.n)+'</span></li>':''; }).join("")+'</ol></div>'+
+      '<ol class="chain" style="margin-top:2rem">'+RC.map(n=>{ const e=BY[n]; return e?'<li><a href="'+stH(e)+'" data-vt data-g="'+e.g+'"><span class="rt" style="display:flex;flex-direction:column;gap:.25rem"><b class="nm" style="font:800 1.0625rem/1.25 var(--sign);display:flex;gap:.5rem;align-items:center">'+bullet(LINE[e.g],"sm")+H(e.n)+'</b><small class="muted">'+H(e.f.short_definition)+'</small></span></a></li>':''; }).join("")+'</ol>'+
       '<h2 class="h-sec">On the map</h2><div class="mapwrap">'+mapSVG()+'</div></div>';
     MAPROUTE=null; return html; }
   return '<div class="view"><h1 class="h-page" tabindex="-1">Patterns seen together</h1><p class="lede">Tactics rarely arrive alone. These '+D.recipes.length+' documented patterns show tactics that often appear together, and roughly in what order. They describe what has been seen, never what will happen.</p>'+
@@ -514,8 +517,8 @@ function viewRoutes(r){
 function viewSaved(){
   if(!store.saving) return '<div class="view"><h1 class="h-page" tabindex="-1">Saved</h1><p class="lede">Saving is off, so nothing you read or save is kept on this device. This is the safer choice if anyone else might use this phone.</p>'+
     (store.legacy?legacyNotice():'')+
-    '<div class="notice"><h2>Want to keep tactics for later?</h2><p>Turning saving on keeps the tactics you save, what you recently read and your settings on this device only. You can turn it off again in Settings, and that deletes all of it.</p><div class="acts"><button class="btn pri" type="button" data-saving="on">Turn on saving</button></div></div></div>';
-  const st=starred().map(n=>BY[n]), tr=store.get("trail",[]).map(t=>BY[canon(t.name)]).filter(Boolean).slice(0,24);
+    '<div class="notice"><h2>Want to keep tactics for later?</h2><p>Turning saving on keeps the tactics you save, what you recently read and your settings on this device only. They are kept in a scrambled entry, which hides them from a glance but is not secret: someone who knows how could read which tactics you saved and which lines you rested. Saving also puts tactic names in page addresses, the tab title and your browser history. A private window is safer. You can turn saving off again in Settings, and that deletes all of it.</p><div class="acts"><button class="btn pri" type="button" data-saving="on">Turn on saving</button></div></div></div>';
+  const HV=hiddenSet(), st=starred().map(n=>BY[n]).filter(e=>!HV.has(e.g)), tr=store.get("trail",[]).map(t=>BY[canon(t.name)]).filter(e=>e&&!HV.has(e.g)).slice(0,24);
   return '<div class="view"><h1 class="h-page" tabindex="-1">Saved</h1><p class="lede">Kept on this device only. Clearing your browser data clears these too.</p>'+
     '<h2 class="h-sec">Saved tactics</h2>'+(st.length?rows(st):'<p class="empty">Tap Save on any station to keep it here.</p>')+
     '<h2 class="h-sec">Recently read</h2>'+(tr.length?rows(tr):'<p class="empty">Stations you open will show up here.</p>')+
@@ -529,7 +532,7 @@ function viewSafety(){
   const p=t=>'<p>'+t+'</p>', h=t=>'<h2>'+t+'</h2>';
   return '<div class="view read"><h1 class="h-page" tabindex="-1">Use this guide safely</h1><p class="lede">What applies to every entry, said once.</p>'+
     '<section class="warn" aria-labelledby="sf-h"><h2 class="band" id="sf-h" style="margin:0;font-size:1rem">'+ic("tri")+'If you are not safe</h2><div class="body"><p>If any of this involves threats, being watched or tracked, being cut off from people or money, housing or immigration status, sex, pressure toward self-harm, or fear for your safety, reach a real person: someone you trust, a local support service, a legal or workplace resource, or emergency services if you are in immediate danger. Entries marked with the warning sign start with their safety note.</p></div></section>'+
-    '<section class="exitplate" aria-labelledby="lv-h"><h2 class="band" id="lv-h" style="margin:0;font-size:1rem">Leaving quickly</h2><div class="body"><p>The green <strong>Leave</strong> button at the top of every page switches straight to a weather page and clears what this page was holding. On a keyboard, press Escape twice. It needs a connection to show the weather page; without one it shows a blank page. It steps back over the pages you opened here before it leaves, but it cannot erase that you visited: your browser may still list this site, so a private browsing window is safer still.</p></div></section>'+
+    '<section class="exitplate" aria-labelledby="lv-h"><h2 class="band" id="lv-h" style="margin:0;font-size:1rem">Leaving quickly</h2><div class="body"><p>The green <strong>Leave</strong> button at the top of every page switches straight to a weather page and clears what this page was holding. On a keyboard, press Escape twice. It needs a connection to show the weather page; without one it shows a blank page. It steps back over the pages you opened here before it leaves, but it cannot erase that you visited: your browser may still list this site, and its forward history may still hold pages from here, so a private browsing window is safer still.</p></div></section>'+
     h("What this guide is")+p("A reading aid. It helps you put a name to something that happened, see what else it could be, and decide what to do next. Some entries are about everyday relationships; others are about workplaces, online life and influence on a whole society.")+
     h("What it is not")+p("It is not a diagnosis, a legal opinion or therapy. It cannot tell you what another person meant, what they are like, or whether you are in danger. Only you, and the people you trust, can weigh that.")+
     h("A signal, not a verdict")+p("One example of a pattern is a reason to look more closely, not proof of motive or character. Every entry says what its tactic is not, because most of these behaviors also have ordinary explanations. Please do not use a label from this guide to attack, shame, threaten, expose or get back at someone.")+
@@ -549,7 +552,7 @@ function viewSettings(){
   const ch=(name,cur,opts)=>'<div class="ch">'+opts.map(o=>'<label><input type="radio" name="'+name+'" value="'+o[0]+'"'+(cur===o[0]?' checked':'')+'>'+o[1]+'</label>').join("")+'</div>';
   return '<div class="view set"><h1 class="h-page" tabindex="-1">Settings</h1><form data-settings>'+
     '<fieldset><legend>Saving on this device</legend>'+ch("save",store.saving?"on":"off",[["off","Off (private)"],["on","On"]])+
-      '<p class="help">'+(store.saving?'Saved tactics, recent reading and these settings are kept on this device. Turning saving off deletes all of it.':'Nothing is written to this device. Addresses use numbers instead of tactic names, and the tab shows only the guide\'s name.')+'</p></fieldset>'+
+      '<p class="help">'+(store.saving?'Saved tactics, recent reading and these settings are kept on this device in a scrambled entry. Scrambled is not secret: someone who knows how could read which tactics you saved and which lines you rested. Page addresses and the tab title now show tactic names, and your browser history keeps them. A private window is safer. Turning saving off deletes all of it.':'Nothing is written to this device. Addresses use numbers instead of tactic names, and the tab shows only the guide\'s name.')+'</p></fieldset>'+
     '<fieldset><legend>Colours</legend>'+ch("theme",PREF.theme,[["auto","Match my phone"],["night","Night"],["day","Day"]])+'</fieldset>'+
     '<fieldset><legend>Text size</legend>'+ch("size",PREF.size,[["m","Standard"],["l","Larger"],["xl","Largest"]])+'</fieldset>'+
     '<fieldset><legend>Line spacing</legend>'+ch("space",PREF.space,[["normal","Standard"],["roomy","Roomier"]])+'</fieldset>'+
@@ -575,9 +578,9 @@ function viewHome(){ return HOME_SRC; }
 function fillHome(){
   const c=$("#continue"); if(!c) return;
   if(store.legacy){ c.innerHTML=legacyNotice(); return; }
-  const t=store.saving?store.get("trail",[]).map(x=>BY[canon(x.name)]).filter(Boolean):[];
+  const HID=hiddenSet(), t=store.saving?store.get("trail",[]).map(x=>BY[canon(x.name)]).filter(e=>e&&!HID.has(e.g)):[];
   c.innerHTML=t.length?'<div class="continue"><span class="small muted">Continue where you left off:</span></div>'+rows([t[0]]):"";
-  const HID=hiddenSet();
+  $$(".net [data-g]").forEach(x=>{ if(HID.has(x.dataset.g)) x.classList.add("rest"); });
   $$("#main .lrow").forEach(a=>{ const key=a.getAttribute("href").split("/").pop(), l=LINE[key]; if(l){ a.setAttribute("href",lnH(l)); if(HID.has(l.k)){ a.classList.add("rest"); const sm=$("small",a); if(sm) sm.textContent="Resting. Hidden from search, matches and the map. Open to show it."; } } });
 }
 
@@ -657,9 +660,13 @@ function after(r,c,key){
   if(r.view==="map"){ const target=MAPSEL>=0?MAPSEL:(MAPLIT&&MAPLIT.length?MAPLIT[0]:-1); if(target>=0) requestAnimationFrame(()=>{ const a=$('#map a[data-i="'+target+'"]'); if(a) a.scrollIntoView({block:"center",inline:"center",behavior:motionOK()?"smooth":"auto"}); }); }
   FIRST=false;
 }
+/* How many pages of this visit sit behind this one, kept in history.state so a reload does not lose count. */
+let DEPTH=(history.state&&history.state.d)||0;
 let POPPED=false;
 addEventListener("popstate",()=>{ POPPED=true; });
-addEventListener("hashchange",(ev)=>{ try{ SCROLL[new URL(ev.oldURL).hash||"#/"]=scrollY; }catch(e){} closeSheet(); render(); });
+addEventListener("hashchange",(ev)=>{ if(LEAVING) return;
+  try{ if(!history.state||history.state.d==null) history.replaceState({d:DEPTH+1},""); DEPTH=history.state.d; }catch(e){}
+  try{ SCROLL[new URL(ev.oldURL).hash||"#/"]=scrollY; }catch(e){} closeSheet(); render(); });
 function nav(h){ if(location.hash===h) render(); else location.hash=h; }
 function announce(t){ const a=$("#announce"); a.textContent=""; setTimeout(()=>{ a.textContent=t; },60); }
 function noWidows(root){ $$("p,li,small,.sum p",root).forEach(el=>{ const n=el.lastChild; if(n&&n.nodeType===3){ const m=n.nodeValue.match(/^([\s\S]*\S)\s+(\S+\s*)$/); if(m&&m[2].length<=10&&m[1].length>24) n.nodeValue=m[1]+"\u00a0"+m[2]; } }); }
@@ -674,11 +681,11 @@ function statusUI(){ const s=$("#status"); if(!s) return; const on=store.saving;
 function setSaving(v){ store.setSaving(v); if(v) Object.keys(PREF).forEach(k=>store.set(k,PREF[k])); statusUI(); }
 
 /* ---------- leaving quickly ---------- */
-const H0=history.length; let LEAVING=false;
+let LEAVING=false;
 function leave(){ if(LEAVING) return; LEAVING=true;
   const dest=(LEAVE_TO[store.get("leave","weather")]||LEAVE_TO.weather)[1];   /* read before memory is cleared */
   try{ store.forgetAll(); SEARCH_Q=""; GUIDE={step:0,where:null,feels:[]}; document.title="Weather"; $("#sheet").close(); document.body.style.visibility="hidden"; }catch(e){}
-  const url=navigator.onLine?dest:"about:blank", n=history.length-H0; let gone=false;
+  const url=navigator.onLine?dest:"about:blank", n=DEPTH; let gone=false;
   const go=()=>{ if(!gone){ gone=true; location.replace(url); } };
   /* step back over every page of this visit first, so Back from the weather page does not land in the guide;
      the replace waits for that step to finish (popstate), with a timer only as a fallback. The page is hidden meanwhile. */

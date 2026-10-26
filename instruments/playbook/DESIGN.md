@@ -340,3 +340,13 @@ Seven techniques from v14 came back, each caused by the reader (a tap or a scrol
 - **Quotes.** The list draws one quote mark. Lines the data already quotes are stripped of their own; lines that open with a quote and then narrate (`.says li.nq`) keep their text and lose the drawn mark.
 
 Regression net: `scripts/decoder-verify.js`, 43 checks, including a same-machine comparison against live v14.
+
+
+## Round three addendum (2026-10-26)
+
+Added: line emblems (shape identity beside colour), enamel rim on sign panels, tactile-paving dots on the safety band, a Home
+network thumbnail (a sketch, labelled as one), pictograms for "where", a greyscale printed station card, departure-board code
+plates (G 01) with search by code, directional arrows on Previous/Next, a faint subway-tile wall on Home, and four-point stars
+at line termini only. Cut in review: the headline star. Safety: one scrambled `ui-state` entry (numbers only, no timestamps,
+described as scrambled not secret), rested lines excluded from search, codes, Saved, Continue, routes and station pages,
+Leave destination chosen in Settings with depth kept in history.state, no referrer. Print hides the route strip and app chrome.

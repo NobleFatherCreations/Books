@@ -4697,3 +4697,7 @@ Owner pasted the v14-era catalogues and asked which are worth integrating, then 
 - Gotcha: a print-emulation screenshot taken right after `emulateMedia` catches colour transitions mid-way (looked washed out);
   the PDF is the truth. Verify with `page.pdf` + pdftoppm, not a fresh screenshot.
 - Tests: decoder-verify.js now 78 checks, all pass. Commit pushed to claude/friendly-albattani-j667ry. Deploy still needs owner go-ahead.
+- Independent review of round three found real gaps, all fixed and tested (85 checks): rested lines leaked via station codes, Saved,
+  Continue, routes and direct station links; Settings did not say scrambled-is-not-secret; stored read timestamps had no use
+  (removed); Leave's step count used history.length (now depth in history.state; store frozen once leaving); no referrer policy
+  (added). Headline star cut as decoration; code plate seam flattened; rim given a Day value; thumbnail labelled as a sketch.

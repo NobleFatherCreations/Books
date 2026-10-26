@@ -35,7 +35,7 @@
     --fg:#111416;--fg-2:#4A5257;--fg-3:#5F686F;
     --blade:#111416;--blade-ink:#FFFFFF;--bullet-ink:#FFFFFF;
     --amber:#9A5B00;--amber-ink:#FFFFFF;--exit:#007A40;--exit-ink:#FFFFFF;
-    --toward:#1D6B4A;--away:#3B4A9A;--mark:rgba(154,91,0,.18);
+    --toward:#1D6B4A;--away:#3B4A9A;--mark:rgba(154,91,0,.18);--rim:rgba(0,0,0,.1);
   }}
   :root[data-theme=day]{
     color-scheme:light;
@@ -43,7 +43,7 @@
     --fg:#111416;--fg-2:#4A5257;--fg-3:#5F686F;
     --blade:#111416;--blade-ink:#FFFFFF;--bullet-ink:#FFFFFF;
     --amber:#9A5B00;--amber-ink:#FFFFFF;--exit:#007A40;--exit-ink:#FFFFFF;
-    --toward:#1D6B4A;--away:#3B4A9A;--mark:rgba(154,91,0,.18);
+    --toward:#1D6B4A;--away:#3B4A9A;--mark:rgba(154,91,0,.18);--rim:rgba(0,0,0,.1);
   }
   :root[data-size=l]{font-size:112.5%}
   :root[data-size=xl]{font-size:125%}
@@ -164,9 +164,10 @@
   .plate{display:inline-flex;gap:2px;vertical-align:middle;margin-left:.75rem}
   .plate b,.plate i{display:grid;place-items:center;min-width:1.25rem;height:1.75rem;font:800 .9375rem/1 var(--sign);font-style:normal;font-variant-numeric:tabular-nums}
   .plate b{background:var(--lc);color:var(--bullet-ink);padding:0 .25rem}
-  .plate i{background:linear-gradient(var(--panel-2) 48%,var(--bg) 48% 52%,var(--panel-2) 52%);color:var(--fg)}
+  .plate i{background:var(--panel-2);color:var(--fg)}
   /* the Home network thumbnail */
   .net{display:block;margin:var(--s4) 0 0;padding:var(--s2);background:var(--panel);text-decoration:none}
+  .net .rest{opacity:.2}
   .net svg{display:block;width:100%;height:auto}
   .net path{fill:none;stroke:var(--lc);stroke-width:4;stroke-linejoin:round;stroke-linecap:round}
   .net .e{fill:var(--bg);stroke:var(--lc);stroke-width:2.5}
@@ -277,12 +278,12 @@
   .lines-ix{margin-top:var(--s6)}
   /* the subway-tile wall: a faint running-bond tile behind the headline, fading out below it */
   .home .concourse{position:relative}
-  .home .concourse::before{content:"";position:absolute;z-index:-1;inset:-1.5rem calc(var(--s2)*-1) 0;background:var(--fg);opacity:.055;
+  .home .concourse{isolation:isolate}
+  .home .concourse::before{content:"";position:absolute;z-index:-1;inset:-1.5rem calc(var(--s2)*-1) 0;background:var(--fg);opacity:.07;
     -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='24'%3E%3Cpath d='M0 .5h48M0 12.5h48M.5 0v12M24.5 12v12' stroke='%23000' fill='none'/%3E%3C/svg%3E") 0 0/3rem 1.5rem,linear-gradient(#000 20%,transparent 85%);
     -webkit-mask-composite:source-in;
     mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='24'%3E%3Cpath d='M0 .5h48M0 12.5h48M.5 0v12M24.5 12v12' stroke='%23000' fill='none'/%3E%3C/svg%3E") 0 0/3rem 1.5rem,linear-gradient(#000 20%,transparent 85%);
     mask-composite:intersect;pointer-events:none}
-  .home .h-page::after{content:"";display:inline-block;width:.42em;height:.42em;margin-left:.2em;background:var(--fg);clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%);vertical-align:.12em}
   .ldia li:first-child a::before,.ldia li:last-child a::before{left:.25rem;width:1.5rem;height:1.5rem;margin-top:-.75rem;border-radius:0;box-shadow:none;background:var(--lc);clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%)}
   .strip .st.end{width:1.25rem;height:1.25rem;border-radius:0;box-shadow:none;background:var(--lc);clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%)}
   .lines-ix .k{margin-top:0}
@@ -499,7 +500,7 @@
     .blade,.btn,.opt,.seg a,.seg button,.tabs [role=tab],.feels label,.pn a,.sfield,.set .ch label,.leave,.status,details.more{border:2px solid CanvasText}
     .tabs [role=tab][aria-selected=true],.btn[aria-pressed=true],.seg [aria-current]{border-color:Highlight;outline:2px solid Highlight}
     .warn .band,.exitplate .band{border-bottom:2px solid CanvasText}
-    .sname::before,.strip .ln,.ldia::before,.home .h-page::after,.ldia li:first-child a::before,.ldia li:last-child a::before,.strip .st.end{background:CanvasText}
+    .sname::before,.strip .ln,.ldia::before,.ldia li:first-child a::before,.ldia li:last-child a::before,.strip .st.end{background:CanvasText}
     .home .concourse::before{display:none}
   }
 }

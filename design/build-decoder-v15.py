@@ -202,7 +202,7 @@ def network_thumb(lines):
         for j in range(i + 1, n):
             p = _inter(diag[i], diag[j])
             if p: rings.append('<circle class="x" cx="%.1f" cy="%.1f" r="3.4"/>' % p)
-    return ('<a class="net" href="#/map" aria-label="Open the map: the ten lines, and every tactic as a station on one of them">'
+    return ('<a class="net" href="#/map" aria-label="Open the map. This small picture is only a sketch of the ten lines, not the real map">'
             '<svg viewBox="0 0 340 150" aria-hidden="true" focusable="false">%s%s</svg></a>') % ("".join(paths), "".join(rings))
 
 
