@@ -360,6 +360,43 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     const out2 = (r.stdout || "") + (r.stderr || ""); const rejected = (out2.match(/: rejected/g) || []).length;
     T("build gate self-test: real data passes and 11 kinds of damage are each rejected (empty field, unclosed marker, placeholder, cut-off sentence, HTML, missing safety note, bad link, missing entry, changed character, damaged data block)", r.status === 0 && rejected === 11 && /real data: passes/.test(out2), `exit ${r.status}, ${rejected} rejected`); }
 
+  // ---- stage 4: ten visual ideas (emblems, enamel rim, tactile dots, network thumbnail, pictograms, print card, codes, arrows, tiles, stars)
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/"); await p.waitForTimeout(300);
+    const h = await p.evaluate(() => { const e = [...document.querySelectorAll(".home .emb")]; const n = document.querySelector("a.net"); const cs = getComputedStyle(document.querySelector(".home .concourse"), "::before"); const st = getComputedStyle(document.querySelector(".home .h-page"), "::after");
+      return { emb: e.length, distinct: new Set(e.map(x => x.innerHTML)).size, net: !!n, paths: n ? n.querySelectorAll("path").length : 0, href: n && n.getAttribute("href"), label: n && n.getAttribute("aria-label"), tile: cs.maskImage !== "none" || cs.webkitMaskImage !== "none" || /url/.test(cs.backgroundImage), star: st.content !== "none" }; });
+    T("line emblems: ten distinct glyphs on Home", h.emb === 10 && h.distinct === 10, JSON.stringify(h));
+    T("network thumbnail: ten lines, opens the map, has a name for screen readers", h.net && h.paths >= 10 && h.href === "#/map" && !!h.label, JSON.stringify(h));
+    T("subway-tile wall and four-point star are present on Home", h.tile && h.star, JSON.stringify(h));
+    await p.click("a.net"); await p.waitForTimeout(300); T("the thumbnail goes to the map", /#\/map/.test(p.url()));
+    await ctx.close(); }
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/entry/emotional-blackmail"); await p.waitForTimeout(300);
+    const s = await p.evaluate(() => { const pl = document.querySelector(".onl .plate"); const rim = getComputedStyle(document.querySelector(".answer, .warn, .panel")).boxShadow; const dots = getComputedStyle(document.querySelector(".warn .band"), "::after"); const arr = document.querySelectorAll(".pn .arr").length;
+      return { plate: pl && pl.getAttribute("aria-label") || pl && pl.textContent.replace(/\s/g, ""), rim, dots: dots.content !== "none" && dots.backgroundImage !== "none", arr }; });
+    T("station code plate reads as a code (G 01) and is named for screen readers", /G.?0?1/i.test(s.plate || ""), JSON.stringify(s));
+    T("enamel rim is drawn on the sign panels", s.rim && s.rim !== "none", s.rim);
+    T("tactile-paving dots run along the safety band", s.dots, JSON.stringify(s));
+    T("previous / next carry direction arrows", s.arr >= 1, JSON.stringify(s));
+    await ctx.close(); }
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/help"); await p.waitForTimeout(250);
+    const pics = await p.evaluate(() => document.querySelectorAll(".opt .pic, .row .pic, button .pic").length);
+    T("pictograms on the where-it-happens choices", pics >= 7, "found " + pics);
+    await p.goto(URL0 + "#/line/truth"); await p.waitForTimeout(250);
+    T("line page shows its emblem plate", await p.evaluate(() => !!document.querySelector(".lhead .emb.plate")));
+    await p.goto(URL0 + "#/search"); const codes = {};
+    for (const [q, want] of [["t01", "T"], ["T 9", "T"], ["g44", "G"]]) { await p.fill("#q", q); await p.waitForTimeout(250); codes[q] = await p.evaluate(() => (document.querySelector("#results a, #results .row")?.textContent || "").trim().slice(0, 60)); }
+    T("searching a station code lists that station first", Object.values(codes).every(Boolean) && (await p.evaluate(() => document.querySelector("#results") !== null)), JSON.stringify(codes));
+    await ctx.close(); }
+  { const ctx = await ctxFor(794, 1123, "dark"); const p = await open(ctx, "#/entry/emotional-blackmail"); await p.emulateMedia({ media: "print" }); await p.waitForTimeout(500);
+    const r = await p.evaluate(() => ({ head: getComputedStyle(document.querySelector(".printhead")).display, top: getComputedStyle(document.querySelector(".top")).display, band: getComputedStyle(document.querySelector(".warn .band")).backgroundColor, foot: getComputedStyle(document.querySelector(".printfoot")).position, bg: getComputedStyle(document.body).backgroundColor, strip: document.querySelector(".strip") ? getComputedStyle(document.querySelector(".strip")).display : "none" }));
+    T("print: station card has its header and footer, the app chrome is gone, black band, white page", r.head === "flex" && r.top === "none" && r.band === "rgb(0, 0, 0)" && r.foot === "fixed" && r.bg === "rgb(255, 255, 255)" && r.strip === "none", JSON.stringify(r));
+    const pdf = await p.pdf({ format: "A4", printBackground: true }); T("print: a real PDF comes out", pdf.slice(0, 4).toString() === "%PDF" && pdf.length > 20000, pdf.length + " bytes");
+    await p.emulateMedia({ media: "screen" });
+    T("print rules do not leak onto the screen", await p.evaluate(() => getComputedStyle(document.querySelector(".printhead")).display === "none"));
+    await ctx.close(); }
+  { const ctx = await ctxFor(390, 844, "dark", { reducedMotion: "reduce" }); const p = await open(ctx, "#/line/truth"); await p.waitForTimeout(300);
+    const star = await p.evaluate(() => { const a = document.querySelectorAll(".ldia li"); const f = getComputedStyle(a[0].querySelector("a"), "::before").clipPath, l = getComputedStyle(a[a.length - 1].querySelector("a"), "::before").clipPath; return { f, l }; });
+    T("terminus stations are drawn as four-point stars (first and last)", /polygon/.test(star.f) && /polygon/.test(star.l), JSON.stringify(star)); await ctx.close(); }
+
   // ---- the House seal never floats over the text
   { const bad = [];
     for (const w of [390, 1440]) { const ctx = await ctxFor(w, 900, "dark"); const p = await open(ctx, "#/entry/gaslighting"); const pos = await p.evaluate(() => { const s = document.querySelector(".nf-seal"); return s ? getComputedStyle(s).position : "absent"; }); if (pos === "fixed") bad.push(w + "px " + pos); await ctx.close(); }

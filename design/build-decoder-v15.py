@@ -45,6 +45,19 @@ NIGHT = {"truth": "#4A82FF", "pressure": "#9469FF", "control": "#1AA9DE", "hook"
          "blame": "#B07A52", "people": "#F06A52", "systems": "#8FA3BD", "online": "#17BDB0", "society": "#A2C23A"}
 DAY = {"truth": "#1F55D6", "pressure": "#6A3FE0", "control": "#0B7AA6", "hook": "#C2316F", "wear": "#8E3BB0",
        "blame": "#8A5534", "people": "#C2412A", "systems": "#5A6F8A", "online": "#0A7F76", "society": "#5E7A12"}
+# One drawn glyph per line (24 x 24, 2px strokes): identity by shape, so lines are told apart in grey as well as in colour.
+EMBLEM = {
+    "truth": '<circle cx="9.5" cy="12" r="5.5"/><circle cx="14.5" cy="12" r="5.5"/>',
+    "pressure": '<path d="M12 4v16"/><path d="M3 12h5M7 9l3 3-3 3"/><path d="M21 12h-5M17 9l-3 3 3 3"/>',
+    "control": '<rect x="3.5" y="3.5" width="17" height="17"/><rect x="8.5" y="8.5" width="7" height="7"/>',
+    "hook": '<path d="M14 3v11a4.5 4.5 0 0 1-9 0v-1.5"/><path d="M2.5 15l2.5-2.5L7.5 15"/>',
+    "wear": '<path d="M4 6h16M4 12h11M4 18h6"/>',
+    "blame": '<path d="M20 5H9a5 5 0 0 0 0 10h9"/><path d="M15 11l4 4-4 4"/>',
+    "people": '<circle cx="6" cy="12" r="3"/><circle cx="13" cy="12" r="3"/><circle cx="20.5" cy="12" r="1.5"/>',
+    "systems": '<rect x="4" y="4" width="7" height="7"/><rect x="4" y="13" width="7" height="7"/><path d="M14 6h6M14 10h6M14 15h6M14 19h4"/>',
+    "online": '<path d="M3.5 9a12 12 0 0 1 17 0M6.5 12.5a8 8 0 0 1 11 0M9.5 16a4 4 0 0 1 5 0"/><circle cx="12" cy="19.5" r=".9" fill="currentColor"/>',
+    "society": '<circle cx="12" cy="12" r="1.8" fill="currentColor"/><circle cx="12" cy="4.5" r="1.5"/><circle cx="18.5" cy="8.25" r="1.5"/><circle cx="18.5" cy="15.75" r="1.5"/><circle cx="12" cy="19.5" r="1.5"/><circle cx="5.5" cy="15.75" r="1.5"/><circle cx="5.5" cy="8.25" r="1.5"/>',
+}
 # Fields kept in the start-up index because search and lists read them; the rest load per line.
 INDEX_FIELDS = ["short_definition", "plain_language_summary", "what_it_sounds_like"]
 
@@ -167,20 +180,46 @@ def order_columns(keys, by, entries):
     return best
 
 
+def _inter(s1, s2):
+    (x1, y1, x2, y2), (x3, y3, x4, y4) = s1, s2
+    d = (x2 - x1) * (y4 - y3) - (y2 - y1) * (x4 - x3)
+    if abs(d) < 1e-9: return None
+    t = ((x3 - x1) * (y4 - y3) - (y3 - y1) * (x4 - x3)) / d
+    u = ((x3 - x1) * (y2 - y1) - (y3 - y1) * (x2 - x1)) / d
+    return (x1 + t * (x2 - x1), y1 + t * (y2 - y1)) if 0.02 < t < 0.98 and 0.02 < u < 0.98 else None
+
+
+def network_thumb(lines):
+    """The ten lines as a small octilinear diagram: a picture of the network that opens the map. Static, drawn at build time."""
+    n = len(lines); ys = [16 + i * 13.2 for i in range(n)]; perm = [(i * 3 + 2) % n for i in range(n)]
+    paths, diag = [], []
+    for i, l in enumerate(lines):
+        y0, y1 = ys[i], ys[perm[i]]; a = 92 + (i % 5) * 20; b = a + abs(y1 - y0)
+        paths.append('<path data-g="%s" d="M34 %.1fH%dL%.1f %.1fH326"/><circle class="e" data-g="%s" cx="34" cy="%.1f" r="4.2"/><circle class="e" data-g="%s" cx="326" cy="%.1f" r="4.2"/>' % (l["k"], y0, a, b, y1, l["k"], y0, l["k"], y1))
+        diag.append((a, y0, b, y1))
+    rings = []
+    for i in range(n):
+        for j in range(i + 1, n):
+            p = _inter(diag[i], diag[j])
+            if p: rings.append('<circle class="x" cx="%.1f" cy="%.1f" r="3.4"/>' % p)
+    return ('<a class="net" href="#/map" aria-label="Open the map: the ten lines, and every tactic as a station on one of them">'
+            '<svg viewBox="0 0 340 150" aria-hidden="true" focusable="false">%s%s</svg></a>') % ("".join(paths), "".join(rings))
+
+
 def home_html(lines, count):
     """Home is written into the page at build time, so it paints before any script runs.
     app.js re-uses this exact markup when the reader comes back to it."""
     ic = lambda d: '<svg class="i" viewBox="0 0 24 24" aria-hidden="true">' + d + '</svg>'
     blade = lambda href, cls, icon, t, s: ('<a class="blade%s" href="%s"><span class="pict">%s</span><span class="bt"><b>%s</b><small>%s</small></span>'
                                             '<span class="ar" aria-hidden="true">%s</span></a>') % (cls, href, ic(icon), t, s, ic('<path d="M5 12h14M13 6l6 6-6 6"/>'))
-    rows = "".join('<li><a class="lrow" href="#/line/%s"><span class="b" data-g="%s">%s</span><span class="lt"><b>%s</b><small>%s</small></span><span class="n">%d</span></a></li>'
-                   % (l["k"], l["k"], l["letter"], l["label"], l["blurb"], len(l["order"])) for l in lines)
+    rows = "".join('<li><a class="lrow" href="#/line/%s"><span class="b" data-g="%s">%s</span><span class="lt"><b>%s</b><small>%s</small></span><span class="emb" data-g="%s" aria-hidden="true"><svg viewBox="0 0 24 24">%s</svg></span><span class="n">%d</span></a></li>'
+                   % (l["k"], l["k"], l["letter"], l["label"], l["blurb"], l["k"], l["emb"], len(l["order"])) for l in lines)
     return ('<div class="view home" id="home-src">'
             '<section class="concourse" aria-labelledby="home-h">'
             '<h1 id="home-h" class="h-page">Put a name to what is happening.</h1>'
             '<p class="lede">%d manipulation and control tactics, in plain words: how to tell if one fits, and what you can do.</p>'
             '<div class="blades">%s%s%s%s</div>'
-            '<div id="continue"></div>'
+            '<div id="continue"></div>%s'
             '</section>'
             '<section class="lines-ix" aria-labelledby="lines-h"><h2 id="lines-h" class="k">The ten lines</h2>'
             '<p class="small muted">Each line is one kind of tactic. Every tactic is a station on its line.</p>'
@@ -195,7 +234,7 @@ def home_html(lines, count):
               "See all %d on the map" % count, "Ten lines, one for each kind"),
         blade("#/safety", " safe quiet", '<path d="M12 3 2 20h20z"/><path d="M12 10v4"/><circle cx="12" cy="17" r=".6" fill="currentColor"/>',
               "If you are not safe, read this first", "What to do, and how to leave quickly"),
-        rows, count)
+        network_thumb(lines), rows, count)
 
 
 # ----------------------------------------------------------------------------------------------------------------------
@@ -330,7 +369,7 @@ def main():
     lines = []
     for k in keys:
         members = [e for e in entries if e["g"] == k]
-        lines.append({"k": k, "letter": LETTER[k], "label": gmeta[k][0], "blurb": gmeta[k][1],
+        lines.append({"k": k, "letter": LETTER[k], "label": gmeta[k][0], "blurb": gmeta[k][1], "emb": EMBLEM[k],
                       "c": NIGHT[k], "d": DAY[k], "order": order_line(members, by)})
     pos = {}
     for li, l in enumerate(lines):

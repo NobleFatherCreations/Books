@@ -127,6 +127,25 @@ const readable = e => location.href.split("#")[0]+"#/entry/"+e.s;
 /* ---------- small renderers ---------- */
 const bullet = (l,cls) => '<span class="b'+(cls?' '+cls:'')+'" data-g="'+l.k+'" aria-hidden="true">'+l.letter+'</span>';
 const lineName = l => l.letter+' line, '+l.label;
+/* A line's drawn glyph, so lines differ by shape as well as by colour and letter. */
+const emblem = (l,cls) => '<span class="emb'+(cls?' '+cls:'')+'" data-g="'+l.k+'" aria-hidden="true"><svg viewBox="0 0 24 24">'+l.emb+'</svg></span>';
+/* A station code, the way a stop is numbered on a platform: the line's letter, then two digits for its place on the line. */
+const pad2 = n => String(n).padStart(2,"0");
+const plate = (l,n) => '<span class="plate" data-g="'+l.k+'" role="img" aria-label="Station code '+l.letter+' '+pad2(n)+'"><b>'+l.letter+'</b>'+pad2(n).split("").map(d=>'<i>'+d+'</i>').join("")+'</span>';
+/* Pictogram signs for where something has been happening. */
+const WPIC = {
+  relationship:'<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>',
+  family:'<path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-5h4v5"/>',
+  work:'<rect x="3" y="7" width="18" height="12"/><path d="M9 7V5h6v2M3 13h18"/>',
+  social:'<circle cx="8" cy="9" r="3"/><circle cx="16.5" cy="10" r="2.5"/><path d="M2.5 19c.5-3.5 3-5 5.5-5s5 1.5 5.5 5M14.5 15c2.5-.5 5 .8 6 4"/>',
+  online:'<rect x="7" y="3" width="10" height="18"/><path d="M11 18h2"/>',
+  self:'<circle cx="12" cy="8" r="4"/><path d="M4.5 21c.7-4.5 3.7-6.5 7.5-6.5s6.8 2 7.5 6.5"/>',
+  groups:'<circle cx="12" cy="7" r="2.5"/><circle cx="5.5" cy="10" r="2"/><circle cx="18.5" cy="10" r="2"/><path d="M7.5 20c.3-3.5 2-5.5 4.5-5.5s4.2 2 4.5 5.5M2 18c.2-2.5 1.5-4 3.5-4M22 18c-.2-2.5-1.5-4-3.5-4"/>',
+  society:'<rect x="4" y="4" width="16" height="16"/><path d="M8 9h8M8 13h8M8 17h5"/>',
+  unsure:'<circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .9-1 1.7v.5"/><circle cx="12" cy="17" r=".6" fill="currentColor"/>',
+};
+WPIC.friends=WPIC.social;
+const pic = k => '<span class="pic" aria-hidden="true"><svg viewBox="0 0 24 24">'+(WPIC[k]||WPIC.unsure)+'</svg></span>';
 function rowHTML(e,o){ o=o||{}; const l=LINE[e.g];
   return '<a class="row" href="'+stH(e)+'" data-vt data-g="'+e.g+'">'+bullet(l)+'<span class="rt"><b class="nm">'+H(e.n)+'</b>'+
     '<small>'+(o.snip!=null?o.snip:H(e.sub||e.f.short_definition))+'</small>'+(o.why?'<span class="why">'+o.why+'</span>':'')+'</span>'+
@@ -201,6 +220,8 @@ function search(q){
     if(n.length<4&&list.length>40) list=[];
   }
   if(list.length<5&&n.split(" ").length>1){ const seen=new Set(list); fuzzy(n).forEach(e=>{ if(!seen.has(e)&&list.length<12) list.push(e); }); }
+  const cm=n.replace(/ /g,"").match(/^([a-z])0?(\d{1,2})$/);   /* a station code such as T09 */
+  if(cm){ const ln=LINES.find(l=>l.letter.toLowerCase()===cm[1]), st=ln&&ln.st[+cm[2]-1]; if(st) list=[st].concat(list.filter(x=>x!==st)); }
   return {list,n};
 }
 /* Show the words that matched: the quote it sounds like, or the subtitle, with the shared words marked. */
@@ -241,7 +262,7 @@ function viewSearch(){
     '<input id="q" type="search" enterkeyhint="search" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="What was said or done, or a name" value="'+esc(SEARCH_Q)+'">'+
     '<button class="clr" type="button" data-clear aria-label="Clear search"'+(SEARCH_Q?'':' hidden')+'>'+ic("close")+'</button></form>'+
     '<p class="count" id="scount" role="status">'+countText()+'</p><div id="results">'+resultsHTML()+'</div>'+
-    '<p class="note" style="margin-top:2rem">What you type stays on this phone. It is never sent anywhere or added to the address.</p></div>';
+    '<p class="note" style="margin-top:2rem">What you type stays on this phone. It is never sent anywhere or added to the address. You can also type a station code, like T09.</p></div>';
 }
 
 /* ---------- help me figure it out: two questions, then matches with reasons ---------- */
@@ -260,8 +281,8 @@ function viewHelp(){
   const g=GUIDE, bar='<div class="gsteps" aria-hidden="true">'+[0,1,2].map(i=>'<i class="'+(i<=g.step?"on":"")+'"></i>').join("")+'</div>';
   const stepTxt='<p class="sr-only">Step '+(g.step+1)+' of 3</p>';
   if(g.step===0) return '<div class="view">'+bar+stepTxt+'<h1 class="h-page" tabindex="-1">Where has this been happening?</h1><p class="lede">There are no wrong answers. Nothing you pick is saved.</p>'+
-    '<div class="opts">'+D.feelingGroups.map(x=>'<button class="opt" type="button" data-where="'+x.key+'">'+H(x.label)+ic("arrow")+'</button>').join("")+
-    '<button class="opt" type="button" data-where="">I’m not sure, or more than one'+ic("arrow")+'</button></div></div>';
+    '<div class="opts">'+D.feelingGroups.map(x=>'<button class="opt" type="button" data-where="'+x.key+'">'+pic(x.key)+'<span>'+H(x.label)+'</span>'+ic("arrow")+'</button>').join("")+
+    '<button class="opt" type="button" data-where="">'+pic("unsure")+'<span>I’m not sure, or more than one</span>'+ic("arrow")+'</button></div></div>';
   if(g.step===1){
     const pool=D.feelings.filter(f=>!g.where||f.group===g.where);
     return '<div class="view">'+bar+stepTxt+'<h1 class="h-page" tabindex="-1">Which of these sound familiar?</h1><p class="lede">Pick as many as fit. Each one adds possibilities.</p>'+
@@ -336,8 +357,9 @@ function viewStation(e,stepArg){
       '<div class="track" aria-hidden="true">'+(prev?'<i class="st"></i><i class="ln"></i>':'<i class="st end"></i>')+'<i class="st here"></i>'+(next?'<i class="ln"></i><i class="st"></i>':'<i class="st end"></i>')+'</div></nav>';
   const panels=stepPanels(e);
   return gloss('<article class="view station" data-g="'+e.g+'" aria-labelledby="st-h">'+
+    '<div class="printhead" aria-hidden="true"><b>Pattern Decoder</b><span>'+bullet(l)+emblem(l)+esc(lineName(l))+' · Station '+(si+1)+' of '+l.order.length+'</span></div>'+
     '<header class="sname"><div class="sign">'+bullet(l,"lg")+'<div><h1 class="h-st" id="st-h" tabindex="-1">'+H(e.n)+'</h1>'+(e.sub?'<p class="sub">'+H(e.sub)+'</p>':'')+'</div></div>'+
-      '<p class="onl">On the <a href="'+lnH(l)+'">'+esc(lineName(l))+'</a></p>'+
+      '<p class="onl">On the <a href="'+lnH(l)+'">'+esc(lineName(l))+'</a>'+plate(l,si+1)+'</p>'+
       (HID.has(e.g)?'<p class="restnote">You have rested this line. <button class="linkbtn" type="button" data-unhide="'+e.g+'">Show the line</button></p>':'')+
       '</header>'+
     (e.sens?'<section class="warn" role="note" aria-labelledby="w-h"><h2 class="band" id="w-h">'+ic("tri")+'Safety first</h2><div class="body">'+prose(f.safety_note)+'<p class="small"><a href="#/safety">How to use this guide safely</a></p></div></section>':'')+
@@ -358,8 +380,9 @@ function viewStation(e,stepArg){
         (xAll.length>x.length?'<p class="small muted" style="margin-top:.75rem">'+(xAll.length-x.length)+(xAll.length-x.length===1?' look-alike is':' look-alikes are')+' on lines you rested. <a href="#/settings">Settings</a> shows them again.</p>':'')+'</section>':'')+
       '<section class="facts"><dl>'+(w.length?'<div><dt>Where it happens</dt><dd>'+w.map(esc).join(", ")+'</dd></div>':'')+
         (pats.length?'<div><dt>Seen in '+pats.length+(pats.length===1?' pattern':' patterns')+'</dt><dd>'+pats.slice(0,3).map(r=>'<a href="'+rtH(r)+'">'+H(r.n)+'</a>').join(", ")+'</dd></div>':'')+'</dl></section></aside>'+
-    '<nav class="pn" aria-label="Along the '+esc(lineName(l))+'">'+(prev?'<a href="'+stH(prev)+'" data-vt><small>Previous station</small><b>'+H(prev.n)+'</b></a>':'<span></span>')+
-      (next?'<a class="nx" href="'+stH(next)+'" data-vt><small>Next station</small><b>'+H(next.n)+'</b></a>':'')+'</nav>'+
+    '<nav class="pn" aria-label="Along the '+esc(lineName(l))+'">'+(prev?'<a href="'+stH(prev)+'" data-vt><span class="arr">'+ic("prev")+'</span><span class="pt"><small>Previous station</small><b>'+H(prev.n)+'</b></span></a>':'<span></span>')+
+      (next?'<a class="nx" href="'+stH(next)+'" data-vt><span class="pt"><small>Next station</small><b>'+H(next.n)+'</b></span><span class="arr">'+ic("next")+'</span></a>':'')+'</nav>'+
+    '<div class="printfoot" aria-hidden="true">A reading aid, not a diagnosis, a legal opinion or therapy. If you are in danger, contact emergency services.</div>'+
   '</article>');
 }
 function setStep(n,from,anim){
@@ -393,10 +416,10 @@ function viewCompare(a,b){
 /* ---------- lines ---------- */
 function viewLine(l){
   if(!l) return notFound();
-  if(hiddenSet().has(l.k)) return '<div class="view" data-g="'+l.k+'"><div class="lhead">'+bullet(l,"lg")+'<div><h1 class="h-page" tabindex="-1" style="margin-bottom:.5rem">'+esc(l.label)+'</h1></div></div>'+
+  if(hiddenSet().has(l.k)) return '<div class="view" data-g="'+l.k+'"><div class="lhead">'+bullet(l,"lg")+emblem(l,"plate")+'<div><h1 class="h-page" tabindex="-1" style="margin-bottom:.5rem">'+esc(l.label)+'</h1></div></div>'+
     '<div class="notice"><h2>You are resting this line</h2><p>Its stations are out of search, matches, lists and the map, so nothing from it turns up until you are ready. Nothing is deleted. Use this safely stays open whatever you hide.</p><div class="acts"><button class="btn pri" type="button" data-unhide="'+l.k+'">Show this line</button><a class="btn line" href="#/safety">Use this safely</a></div></div></div>';
   const ix=l.st.filter(e=>crossRel(e).length).length;
-  return '<div class="view" data-g="'+l.k+'"><div class="lhead">'+bullet(l,"lg")+'<div><h1 class="h-page" tabindex="-1" style="margin-bottom:.5rem">'+esc(l.label)+'</h1><p class="lede" style="margin:0">'+esc(l.blurb)+'</p></div></div>'+
+  return '<div class="view" data-g="'+l.k+'"><div class="lhead">'+bullet(l,"lg")+emblem(l,"plate")+'<div><h1 class="h-page" tabindex="-1" style="margin-bottom:.5rem">'+esc(l.label)+'</h1><p class="lede" style="margin:0">'+esc(l.blurb)+'</p></div></div>'+
     '<p class="small muted">'+esc(l.letter)+' line · '+l.order.length+' stations · '+ix+' with places to change. Stations next to each other are closely related.</p>'+
     '<div class="legend" aria-hidden="true"><span><i style="box-shadow:inset 0 0 0 .1875rem var(--lc)"></i>Station</span><span>'+bullet(LINE[l.k==="truth"?"control":"truth"],"sm")+'Change here for that line</span><span>'+ic("tri","tri")+'Safety first</span></div>'+
     '<ol class="ldia">'+l.st.map(e=>{ const xs=[...new Set(crossRel(e).map(r=>r.g))];
@@ -416,7 +439,7 @@ function viewLines(tab){
     body='<nav class="seg" aria-label="Jump to a letter">'+ks.map(c=>'<a href="#az-'+c+'" data-jump>'+c+'</a>').join("")+'</nav>'+
       ks.map(c=>'<h2 class="h-sec" id="az-'+c+'" style="margin:2rem 0 .5rem">'+c+'</h2>'+rows(by[c])).join(""); }
   else if(tab==="where") body=D.settings.map(s=>{ const list=E.filter(e=>!HID.has(e.g)&&(e.w||[]).includes(s.k)).sort((a,b)=>b.pop-a.pop||a.n.localeCompare(b.n));
-    return '<h2 class="h-sec">'+esc(s.label)+'</h2><p class="small muted" style="margin-bottom:.75rem">'+esc(s.blurb)+' '+list.length+' tactics.</p>'+fold(list,"rows-f",6,e=>rowHTML(e)).replace('class="ul rows-f"','class="rows"'); }).join("");
+    return '<h2 class="h-sec">'+pic(s.k)+esc(s.label)+'</h2><p class="small muted" style="margin-bottom:.75rem">'+esc(s.blurb)+' '+list.length+' tactics.</p>'+fold(list,"rows-f",6,e=>rowHTML(e)).replace('class="ul rows-f"','class="rows"'); }).join("");
   else if(tab==="common") body='<p class="lede">A starting point: the tactics that show up most often across the documented patterns.</p>'+rows(D.common.map(n=>BY[n]).filter(e=>e&&!HID.has(e.g)));
   else body='<p class="lede">Ten lines, one for each kind of tactic. Every tactic is a station on its line.</p>'+lineRows();
   return '<div class="view"><h1 class="h-page" tabindex="-1">All lines</h1><nav class="seg" aria-label="Ways to list">'+tabs.map(t=>'<a href="#/lines'+(t[0]?'/'+t[0]:'')+'"'+((tab||"")===t[0]?' aria-current="page"':'')+'>'+t[1]+'</a>').join("")+'</nav>'+body+'</div>';
@@ -514,6 +537,7 @@ function viewSafety(){
     h("The search box")+p("Pasting in something that was said to you finds entries whose wording is close to it. That is a pointer to read further, never a finding. What you type is never added to the address bar or your history, and never sent anywhere.")+
     h("Your privacy")+p("There is no account. Saving is off unless you turn it on: until then nothing is written to this device, the page addresses use numbers instead of tactic names, and the tab shows only the guide's name. The page counts anonymous visits; nothing you read, type or save is sent anywhere.")+
     p('If you turn saving on, your saved tactics, recent reading and settings stay on this device only. Turning it off in <a href="#/settings">Settings</a> deletes all of it.')+
+    h("If your connection drops")+p("This guide is one file. Once it has loaded, it keeps working with no connection, because every page you can move to is already inside it. Keep the tab open. It does not install anything on your phone and it keeps no copy of itself in the browser's cache, on purpose: anything left on a device can be found. If you reload the page while offline, your browser may not be able to open it.")+
     h("Taking a pause")+p("After about twenty minutes of steady reading, the guide suggests a short pause. You can keep reading straight away, or switch the reminder off in Settings.")+'</div>';
 }
 function viewUpdates(){

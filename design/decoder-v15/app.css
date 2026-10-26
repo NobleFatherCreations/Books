@@ -27,7 +27,7 @@
     --s1:.5rem;--s2:1rem;--s3:1.5rem;--s4:2rem;--s5:3rem;--s6:4rem;
     --top-h:3.5rem;--bar-h:4.25rem;--side-w:15rem;
     --ease:cubic-bezier(.23,1,.32,1);--ease-sheet:cubic-bezier(.32,.72,0,1);
-    --lc:var(--fg);
+    --lc:var(--fg);--rim:rgba(255,255,255,.07);
   }
   @media (prefers-color-scheme: light){:root:not([data-theme=night]){
     color-scheme:light;
@@ -145,6 +145,33 @@
   .btn.pri{background:var(--blade);color:var(--blade-ink)}
   .btn.line{background:none;box-shadow:inset 0 0 0 1px var(--rule-hi)}
   .btn[aria-pressed=true]{background:var(--blade);color:var(--blade-ink)}
+  /* line emblems */
+  .emb{display:inline-grid;place-items:center;flex:none;width:2rem;height:2rem;color:var(--lc)}
+  .emb svg{width:1.5rem;height:1.5rem;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .emb.plate{width:3rem;height:3rem;background:var(--lc);color:var(--bullet-ink)}
+  .emb.plate svg{width:1.875rem;height:1.875rem}
+  .lrow .emb{margin:0 .25rem 0 auto}
+  /* enamel rim: a faint inner edge on every sign panel */
+  .blade:not(.quiet),.answer,.warn,.exitplate,.notice,.panel,.sheet,.btn:not(.pri):not(.line),.opt,.pn a,.feels label,.net,.tabs [role=tab]:not([aria-selected=true]){box-shadow:inset 0 0 0 1px var(--rim)}
+  /* tactile paving along the edge of the safety band */
+  .warn .band{position:relative;padding-bottom:1.125rem}
+  .warn .band::after{content:"";position:absolute;left:0;right:0;bottom:0;height:.5rem;background:radial-gradient(circle,var(--amber-fill-ink) 0 .1875rem,transparent .22rem) 0 0/.875rem .5rem repeat-x;opacity:.8}
+  /* pictogram signs */
+  .pic{display:inline-grid;place-items:center;flex:none;width:2.5rem;height:2.5rem;border-radius:50%;background:var(--panel-2)}
+  .pic svg{width:1.5rem;height:1.5rem;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .h-sec .pic{vertical-align:middle;margin-right:.75rem}
+  /* the station code plate: a departure-board pair of digits */
+  .plate{display:inline-flex;gap:2px;vertical-align:middle;margin-left:.75rem}
+  .plate b,.plate i{display:grid;place-items:center;min-width:1.25rem;height:1.75rem;font:800 .9375rem/1 var(--sign);font-style:normal;font-variant-numeric:tabular-nums}
+  .plate b{background:var(--lc);color:var(--bullet-ink);padding:0 .25rem}
+  .plate i{background:linear-gradient(var(--panel-2) 48%,var(--bg) 48% 52%,var(--panel-2) 52%);color:var(--fg)}
+  /* the Home network thumbnail */
+  .net{display:block;margin:var(--s4) 0 0;padding:var(--s2);background:var(--panel);text-decoration:none}
+  .net svg{display:block;width:100%;height:auto}
+  .net path{fill:none;stroke:var(--lc);stroke-width:4;stroke-linejoin:round;stroke-linecap:round}
+  .net .e{fill:var(--bg);stroke:var(--lc);stroke-width:2.5}
+  .net .x{fill:var(--bg);stroke:var(--fg);stroke-width:2}
+  /* the Astra star: the end of a line, and the stop after the headline */
   .btn.showmap{width:100%;justify-content:flex-start;margin-bottom:var(--s2)}
   .btn:disabled{opacity:.5;cursor:not-allowed}
   .acts{display:flex;flex-wrap:wrap;gap:.5rem;margin:var(--s2) 0 0}
@@ -233,6 +260,7 @@
   .breath-box{background:var(--panel);max-width:28rem;padding:var(--s4);display:grid;gap:var(--s2)}
   .breath-box h2{font-size:1.5rem;line-height:1.2}
 
+  .printhead,.printfoot{display:none}
   .empty{padding:var(--s4) 0;color:var(--fg-2)}
   .restnote{font:700 .9375rem/1.4 var(--sign);color:var(--fg-2)}
   .lrow.rest{opacity:.62}
@@ -247,6 +275,16 @@
   .home .concourse{padding-top:var(--s2)}
   .home .h-page{font-size:clamp(2.25rem,1.3rem + 4.4vw,3.75rem);line-height:1.02;letter-spacing:-.025em;max-width:13ch}
   .lines-ix{margin-top:var(--s6)}
+  /* the subway-tile wall: a faint running-bond tile behind the headline, fading out below it */
+  .home .concourse{position:relative}
+  .home .concourse::before{content:"";position:absolute;z-index:-1;inset:-1.5rem calc(var(--s2)*-1) 0;background:var(--fg);opacity:.055;
+    -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='24'%3E%3Cpath d='M0 .5h48M0 12.5h48M.5 0v12M24.5 12v12' stroke='%23000' fill='none'/%3E%3C/svg%3E") 0 0/3rem 1.5rem,linear-gradient(#000 20%,transparent 85%);
+    -webkit-mask-composite:source-in;
+    mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='24'%3E%3Cpath d='M0 .5h48M0 12.5h48M.5 0v12M24.5 12v12' stroke='%23000' fill='none'/%3E%3C/svg%3E") 0 0/3rem 1.5rem,linear-gradient(#000 20%,transparent 85%);
+    mask-composite:intersect;pointer-events:none}
+  .home .h-page::after{content:"";display:inline-block;width:.42em;height:.42em;margin-left:.2em;background:var(--fg);clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%);vertical-align:.12em}
+  .ldia li:first-child a::before,.ldia li:last-child a::before{left:.25rem;width:1.5rem;height:1.5rem;margin-top:-.75rem;border-radius:0;box-shadow:none;background:var(--lc);clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%)}
+  .strip .st.end{width:1.25rem;height:1.25rem;border-radius:0;box-shadow:none;background:var(--lc);clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%)}
   .lines-ix .k{margin-top:0}
   .continue{display:flex;gap:var(--s2);align-items:center;margin-top:var(--s3)}
 
@@ -265,7 +303,6 @@
   .strip .ln{flex:1;height:.25rem;background:var(--lc)}
   .strip .st{width:.75rem;height:.75rem;border-radius:50%;background:var(--bg);box-shadow:0 0 0 .1875rem var(--lc);flex:none}
   .strip .st.here{width:1.125rem;height:1.125rem;background:var(--fg);box-shadow:0 0 0 .25rem var(--lc)}
-  .strip .st.end{width:.25rem;height:1rem;border-radius:0;background:var(--lc);box-shadow:none}
   .strip a,.strip .nolink{display:flex;align-items:center;gap:.25rem;min-height:2.75rem;text-decoration:none;color:var(--fg-2);min-width:0}
   .strip .nx{justify-content:flex-end;text-align:right}
   .strip a:hover{color:var(--fg)}
@@ -321,10 +358,13 @@
   .facts dd{font-size:1rem}
   .facts dd a{display:inline-block;padding:.5rem 0;min-height:2.75rem}
   .pn{display:grid;grid-template-columns:1fr 1fr;gap:.5rem;margin-top:var(--s5)}
-  .pn a{display:flex;flex-direction:column;gap:.25rem;padding:var(--s2);background:var(--panel);text-decoration:none;min-height:5rem}
+  .pn a{display:flex;align-items:center;gap:.75rem;padding:var(--s2);background:var(--panel);text-decoration:none;min-height:5rem}
+  .pn .pt{display:flex;flex-direction:column;gap:.25rem;min-width:0;flex:1}
   .pn small{font:700 .8125rem/1.2 var(--sign);color:var(--fg-2)}
-  .pn b{font:800 1rem/1.25 var(--sign)}
-  .pn .nx{text-align:right;align-items:flex-end}
+  .pn b{font:800 1rem/1.25 var(--sign);overflow-wrap:anywhere}
+  .pn .nx{text-align:right}
+  .arr{display:grid;place-items:center;flex:none;width:2.5rem;height:2.5rem;border-radius:50%;background:var(--blade);color:var(--blade-ink)}
+  .arr .i{width:1.5rem;height:1.5rem;stroke-width:2.5}
   @media (min-width:70em){
     .station{display:grid;grid-template-columns:minmax(0,1fr) 18rem;column-gap:var(--s5);max-width:72rem}
     .station>*{grid-column:1}
@@ -442,19 +482,25 @@
 }
 
 @layer pages {
+  /* The focus ring lives here, after the components, so a component's own shadow can never hide it. */
+  :focus-visible{outline:3px solid var(--fg);outline-offset:3px;box-shadow:0 0 0 6px var(--bg)}
+  h1[tabindex="-1"]:focus,h2[tabindex="-1"]:focus,[tabindex="-1"]:focus:not(a):not(button):not(input){outline:none;box-shadow:none}
+  .sfield input:focus-visible{outline:none;box-shadow:none}
   /* More contrast: secondary text becomes full strength, hairlines strengthen, every control gets a 2px outline, links keep a heavy underline. */
   @media (prefers-contrast: more){
     :root{--fg-2:var(--fg);--fg-3:var(--fg);--rule:var(--fg-2);--rule-hi:var(--fg)}
     .blade:not(.pri),.btn:not(.pri),.opt,.seg a,.seg button,.tabs [role=tab],.feels label,.pn a,.sfield,.set .ch label,.lrow,.row,details.more,.answer,.panel,.notice{box-shadow:inset 0 0 0 2px var(--fg)}
     a{text-decoration-thickness:2px}
     .strip .ln{height:.375rem}
+    .home .concourse::before{display:none}
   }
   /* Windows high-contrast: the system picks the colours; shapes and outlines must still say what each thing is. */
   @media (forced-colors: active){
     .blade,.btn,.opt,.seg a,.seg button,.tabs [role=tab],.feels label,.pn a,.sfield,.set .ch label,.leave,.status,details.more{border:2px solid CanvasText}
     .tabs [role=tab][aria-selected=true],.btn[aria-pressed=true],.seg [aria-current]{border-color:Highlight;outline:2px solid Highlight}
     .warn .band,.exitplate .band{border-bottom:2px solid CanvasText}
-    .sname::before,.strip .ln,.ldia::before{background:CanvasText}
+    .sname::before,.strip .ln,.ldia::before,.home .h-page::after,.ldia li:first-child a::before,.ldia li:last-child a::before,.strip .st.end{background:CanvasText}
+    .home .concourse::before{display:none}
   }
 }
 
@@ -504,13 +550,23 @@
 @layer print {
   @media print{
     :root{--bg:#fff;--panel:#fff;--panel-2:#fff;--fg:#000;--fg-2:#333;--fg-3:#555;--rule:#bbb;--blade:#000;--blade-ink:#fff;--amber:#000;--amber-ink:#fff}
-    .top,.doors,.back,.acts,.tabs,.stepbar,.stepnav,.pn,.foot,.toast,.nf-seal,#nf-chrome,.side .cmp,.fold-btn,.skip{display:none!important}
+    .top,.doors,.back,.acts,.tabs,.stepbar,.stepnav,.pn,.foot,.toast,.nf-seal,#nf-chrome,.side .cmp,.fold-btn,.skip,.strip{display:none!important}
     main{margin:0;padding:0}
     details.more>summary::after{display:none}
     .answer,.warn,.panel{break-inside:avoid}
     .panelx{break-before:auto}
     body{font-size:11pt}
     a{text-decoration:none}
+    @page{margin:16mm 14mm 20mm}
+    .printhead{display:flex;justify-content:space-between;align-items:center;gap:12pt;border-bottom:4pt solid #000;padding-bottom:6pt;margin-bottom:14pt;font:800 10pt var(--sign)}
+    .printhead span{display:inline-flex;align-items:center;gap:6pt}
+    .printhead .emb{width:18pt;height:18pt;color:#000}.printhead .emb svg{width:14pt;height:14pt}
+    .printfoot{position:fixed;left:0;right:0;bottom:0;border-top:.5pt solid #000;padding-top:4pt;font:9pt var(--read)}
+    .b,.plate b,.emb.plate{background:#000!important;color:#fff!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    .sname::before{background:#000!important;height:6pt;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    .plate i{background:#fff!important;color:#000!important;box-shadow:inset 0 0 0 .5pt #000}
+    .warn .band{background:#000!important;color:#fff!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    .warn .band::after,.home .concourse::before{display:none}
   }
 }
 
