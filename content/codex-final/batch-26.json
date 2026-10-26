@@ -1,8 +1,8 @@
 {
   "Identity Hooking": {
-    "short_definition": "Claiming that someone's identity, skills or successes belong to you, so that standing apart from you means giving up the self they have built.",
-    "core_meaning": "Claiming that someone's identity, skills or successes belong to you, so that standing apart from you means giving up the self they have built.",
-    "expanded_definition": "Identity Hooking is credit-taking that grows into ownership. Help given in the past, such as a loan, a teacher's time, a parent's sacrifice or a boss's early break, is restated as the whole reason the person is who they are. Gratitude is normal and often deserved. The telling detail is a claim raised mostly at moments of separation or independence, and when it leaves the person feeling that any success of theirs still counts as someone else's.",
+    "short_definition": "Saying that someone's identity, skills or successes belong to you, so that standing apart from you means giving up the self they have built.",
+    "core_meaning": "Saying that someone's identity, skills or successes belong to you, so that standing apart from you means giving up the self they have built.",
+    "expanded_definition": "Identity Hooking is credit-taking that grows into ownership. Past help, such as a loan, a teacher's time, a parent's sacrifice or a boss's early break, is retold as the whole reason the person is who they are. Gratitude is normal and often deserved. The telling sign is a claim raised mostly at moments of separation or independence. Another sign is that the person comes to feel any success of theirs still counts as someone else's.",
     "plain_language_summary": "Someone insists that who you are and what you have achieved are really theirs, so that moving on from them feels like erasing yourself.",
     "why_this_matters": "If you are told you were made by someone, walking away may seem to mean disowning your own history. Wins stop feeling like yours, and independence starts to look like ingratitude or self-destruction.",
     "what_it_is": [
@@ -22,10 +22,10 @@
     ],
     "what_it_is_not": [
       "A mentor, coach or parent saying they are proud and glad to have helped, while still treating your choices as yours.",
-      "Someone accurately noting that a past favor mattered, such as a reference letter or tuition money, without tying it to what you owe now.",
+      "Someone saying truthfully that a past favor mattered, like a reference letter or tuition money, without linking it to what you owe now.",
       "A founder, teacher or relative who feels hurt when you move on and says so, without claiming your accomplishments.",
       "An exaggerated boast made once in a heated argument, then taken back when things cool.",
-      "A culture or family where credit is shared by tradition, and everyone, including you, claims credit for the group's successes."
+      "A culture or family where credit is shared by tradition. Everyone, including you, claims credit for the group's successes."
     ],
     "this_may_be_it_when": [
       "The claim of ownership comes up mainly when you mention leaving, a new opportunity, or a bigger life.",
@@ -42,14 +42,14 @@
       "Others who were there confirm the help was real, and nobody is using it as a leash."
     ],
     "innocent_or_ordinary_possibilities": [
-      "A teacher or parent who invested years in someone can sound possessive when they are really afraid of losing closeness.",
+      "A teacher or parent who put years into someone can sound possessive when they are really afraid of losing closeness.",
       "Praise like 'I always knew you had it in you' can be warmth, not a claim of authorship.",
       "Some families speak in sweeping, dramatic sentences that nobody means literally."
     ],
     "common_false_positives": [
       "A coach who says 'I'm proud I helped you get here' and then cheers when you sign elsewhere.",
       "A grandparent who paid for school and sometimes brings it up out of pride, but never makes it a condition.",
-      "A business partner stating who contributed what in an honest dispute about credit or ownership of a project."
+      "A business partner stating who contributed what in an honest dispute over credit or ownership of a project."
     ],
     "discernment_questions": [
       "When they talk about helping you, does it end in 'and I am glad' or in 'and so you owe me'?",
@@ -76,28 +76,28 @@
     ],
     "repair_check": "Look at how your next piece of good news is received. When someone has taken in what you said about the claim, they can be glad with you and leave your credit alone. An apology that arrives with a reminder of everything they did for you has moved the claim, not dropped it.",
     "boundary_respect_check": "Do you get to keep your credit after you state it? Someone respecting the boundary might wince, then let you tell the story your way. Someone who is not respecting it may list their sacrifices again, or treat your request as proof of ingratitude.",
-    "psychological_mechanism": "When a person's competence and sense of self are repeatedly described as someone else's creation, the story can sink in as a fact about them. Gratitude, a normal and decent feeling, may then get used as the lever, because refusing the claim starts to register as betraying a real kindness. Separation then registers as self-erasure.",
-    "possible_impact_on_receiver": "Some readers report being unable to enjoy their own successes, feeling like impostors in their own careers, or postponing a move because leaving seemed like giving up their own origin. Others recall feeling guilty for wanting credit at all. Over time, a few notice that they have begun saying the line themselves before anyone else can.",
+    "psychological_mechanism": "When a person's skills and sense of self are repeatedly described as someone else's creation, the story can sink in as a fact about them. Gratitude is a normal and decent feeling, but it may get used as the lever, because refusing the claim starts to feel like betraying a real kindness. Separation then feels like erasing yourself.",
+    "possible_impact_on_receiver": "Some readers report being unable to enjoy their own successes, feeling like impostors in their own careers, or putting off a move because leaving seemed like giving up their own origin. Others recall feeling guilty for wanting credit at all. Over time, a few notice that they have begun saying the line themselves before anyone else can.",
     "response_options": {
       "soft_clarification": "Acknowledge the real part and keep the rest: 'You helped me a lot and I am grateful. The work after that was mine too, and I want that said.'",
       "firm_boundary": "Decline the ownership frame while keeping the thanks: 'I will always thank you for that year. I will not agree that I am your work.'",
-      "disengagement": "When the speech starts, you can let it run its course without arguing, change the subject, and share future news only with people who enjoy it.",
+      "disengagement": "When the speech starts, you can let it run its course without arguing. You can change the subject, and share future news only with people who enjoy it.",
       "support_seeking": "Write out your own timeline: what you did, what others gave, what you earned. Show it to someone who knew you at the time and ask whether it matches.",
-      "workplace_or_professional": "If a manager or supervisor claims your work, keep dated drafts and send a short summary of your contribution to the team in writing, so credit is on the record."
+      "workplace_or_professional": "If a manager or supervisor claims your work, keep dated drafts. Send the team a short written summary of your contribution, so credit is on the record."
     },
     "boundary_script": "\"I am glad you helped me, and I will keep saying so. I also did the work, and the choices ahead are mine. Let's talk about my plans without that coming up.\"",
     "safety_sensitive": false,
     "safety_note": "Being told who you really are is pressure on your sense of self, not a danger signal. It changes if the claim of ownership starts to come with warnings about what happens to you when you pursue independence. Attempts to control your money or movements, or threats, change it too. Then speak to a counselor or advocate before you act on any plan to separate.",
     "misuse_warning": [
-      "Calling every proud mentor or parent an identity hooker can turn real, healthy gratitude into suspicion. The test is ownership and obligation, not pride.",
+      "Treating every proud mentor or parent as doing this can turn real, healthy gratitude into suspicion. The test is ownership and obligation, not pride.",
       "Using this label to explain away a stranger's or colleague's unfair credit-taking blurs two different problems."
     ],
-    "how_to_distinguish_from_related": "Conditional Worth ties your value to what you do for the other person at present, while Identity Hooking ties it to what they supposedly did for you in the past. Learned Helplessness insists you cannot cope, where Identity Hooking insists you did not do it yourself. Identity Erosion is what you may notice inside after years of either; Identity Hooking is the claim made out loud."
+    "how_to_distinguish_from_related": "Conditional Worth ties your value to what you do for the other person at present. Identity Hooking ties it to what they supposedly did for you in the past. Learned Helplessness insists you cannot cope, while Identity Hooking insists you did not do it yourself. Identity Erosion is what you may notice inside after years of either. Identity Hooking is the claim made out loud."
   },
   "Conditional Worth": {
     "short_definition": "Treating a person's value as something that rises and falls with their usefulness and their willingness to comply.",
     "core_meaning": "Treating a person's value as something that rises and falls with their usefulness and their willingness to comply.",
-    "expanded_definition": "Conditional Worth is a gauge of approval that the other person holds. Warmth, respect and even a place at the table go up when you perform, obey or produce, and drop when you do not. A request is fine; a rating of your whole self is the pattern. What matters is that the message is about who you are, not about the task, and that it comes back across different kinds of requests, so you learn to read the gauge before you speak.",
+    "expanded_definition": "Conditional Worth is a gauge of approval that the other person holds. Warmth, respect and even a place at the table go up when you perform, obey or produce, and drop when you do not. A request is fine. A rating of your whole self is the pattern. What matters is that the message is about who you are, not about the task. It also comes back across different kinds of requests, so you learn to read the gauge before you speak.",
     "plain_language_summary": "Someone makes you feel that you matter only while you are helpful or agreeable, and that your place shrinks when you are not.",
     "why_this_matters": "A worth meter held by someone else makes rest feel like failure and a no feel dangerous. You can end up working harder for a feeling of acceptance that keeps moving away.",
     "what_it_is": [
@@ -116,7 +116,7 @@
       "You were great last week. Today you're a disappointment."
     ],
     "what_it_is_not": [
-      "A direct request such as 'I need you to pick up your brother today', which asks for a task and says nothing about your worth.",
+      "A direct request such as 'I need you to pick up your brother today'. It asks for a task and says nothing about your worth.",
       "Reasonable performance standards at work, where a bad quarter leads to a coaching talk rather than contempt.",
       "Someone who is stressed and curt for a day but returns to ordinary warmth afterward.",
       "Clear house rules or chores in a family, applied fairly and without suggesting anyone's place is at stake.",
@@ -171,13 +171,13 @@
     ],
     "repair_check": "Pay attention to a day when you cannot give anything. Care that continues anyway counts, and so does a retraction of the worth comments that is more than a single sentence. A sudden burst of praise after a bad week is not the same thing, because it still depends on what you are doing.",
     "boundary_respect_check": "Notice what a refusal costs. If you say 'I cannot do that today' and the reply is a disappointed but ordinary 'okay', the boundary is being respected. If affection cools until you give in, the boundary is being priced.",
-    "psychological_mechanism": "Acceptance is a basic human need, so when it is given and withdrawn according to performance, the person tends to learn what earns it and organize themselves around it. The gauge moves inside the person, which is why it can keep running when the other person says nothing. Self-worth starts to rise and fall with output.",
-    "possible_impact_on_receiver": "Some people report that they cannot relax without guilt, that they say yes before they think, or that they feel hollow after being praised, since the praise was for the work. A few find that a sick day or a failure sets off a rush of shame far larger than the event itself.",
+    "psychological_mechanism": "Acceptance is a basic human need. When it is given and withdrawn according to performance, the person tends to learn what earns it and organize themselves around it. The gauge moves inside the person, which is why it can keep running when the other person says nothing. Self-worth starts to rise and fall with output.",
+    "possible_impact_on_receiver": "Some people report that they cannot relax without guilt, that they say yes before they think, or that they feel hollow after being praised, because the praise was for the work. A few find that a sick day or a failure sets off a rush of shame far larger than the event itself.",
     "response_options": {
       "soft_clarification": "Separate the request from the verdict: 'I can help with that. I am not okay with being told I am worthless when I cannot.'",
       "firm_boundary": "Hold the line on the task without trading worth for it: 'I am not available today. That does not change what I am worth to you.'",
-      "disengagement": "When warmth is being offered only in return for compliance, you can decline to bargain for it and spend your energy where care is not conditional.",
-      "support_seeking": "Name a few moments to someone who sees you unproductive and still likes you, such as a friend or counselor, and notice how it feels to be valued while doing nothing.",
+      "disengagement": "When warmth is offered only in return for compliance, you can decline to bargain for it. You can spend your energy where care is not conditional.",
+      "support_seeking": "Name a few moments to someone who sees you unproductive and still likes you, such as a friend or counselor. Notice how it feels to be valued while doing nothing.",
       "workplace_or_professional": "Ask for expectations in writing, with measures that apply to the job. Keep performance feedback and character comments apart, and raise any contempt with HR or a mentor."
     },
     "boundary_script": "\"Are you asking me for something, or telling me what I am worth? I am glad to talk about the request. My value to you is not up for negotiation each time I say no.\"",
@@ -187,16 +187,16 @@
       "Treating every disappointed reaction or fair work standard as conditional worth can make ordinary accountability look like harm. The label fits a pattern about your value, not a task.",
       "Applying it to someone who is simply overwhelmed or burned out can turn their exhaustion into an accusation."
     ],
-    "how_to_distinguish_from_related": "Identity Hooking claims credit for who you already are; Conditional Worth rates you now, by what you provide. Fawning is your own appeasing reflex, while Conditional Worth is the pricing that can set it off. Loyalty Binds treats disagreement as betrayal; Conditional Worth treats any shortfall in usefulness as a loss of standing."
+    "how_to_distinguish_from_related": "Identity Hooking claims credit for who you already are. Conditional Worth rates you now, by what you provide. Fawning is your own appeasing reflex, while Conditional Worth is the pricing that can set it off. Loyalty Binds treats disagreement as betrayal. Conditional Worth treats any shortfall in usefulness as a loss of standing."
   },
   "Learned Helplessness": {
     "short_definition": "Repeatedly telling someone they could not cope alone, until they start to believe it and stop trying.",
     "core_meaning": "Repeatedly telling someone they could not cope alone, until they start to believe it and stop trying.",
-    "expanded_definition": "Used about a relationship, the term means a communication pattern, not a clinical finding: someone keeps stating, in many forms, that you are incapable of managing life without them. Warnings about money, driving, work or health are delivered as facts. Tasks may also be taken away 'to help'. A single worried remark is common. The pattern is the steady repetition across topics and the way your own attempts get discouraged, so that doing less starts to look like the safest option.",
-    "plain_language_summary": "Someone keeps telling you that you cannot cope alone, and takes tasks off your hands, until you stop trusting your own ability to manage.",
-    "why_this_matters": "Abilities shrink when they go unused. If you are told often enough that you cannot manage, you may stop trying, and then the lack of practice looks like proof that they were right.",
+    "expanded_definition": "Used about a relationship, the term means a communication pattern, not a clinical finding. Someone keeps saying, in many forms, that you are incapable of managing life without them. Warnings about money, driving, work or health are delivered as facts. Tasks may also be taken away 'to help'. A single worried remark is common. The pattern is the steady repetition across topics and the way your own attempts get discouraged, so that doing less starts to look like the safest option.",
+    "plain_language_summary": "Someone keeps telling you that you cannot cope alone. They take tasks off your hands, until you stop trusting your own ability to manage.",
+    "why_this_matters": "Abilities shrink when they go unused. If you are told often enough that you cannot manage, you may stop trying. Then the lack of practice looks like proof that they were right.",
     "what_it_is": [
-      "Broad statements of incapacity ('you can't manage money', 'you'd get lost') that cover more than one real difficulty.",
+      "Sweeping statements that you cannot cope ('you can't manage money', 'you'd get lost'), which go beyond any one real difficulty.",
       "Taking over tasks, such as bills, calls or driving, with the explanation that you will only make a mess of them.",
       "Remarks that grow louder when you mention a course, a job, a trip or a move.",
       "Sometimes delivered kindly and with concern, which makes it harder to name as a pattern."
@@ -211,8 +211,8 @@
       "Remember what happened last time you tried? Exactly."
     ],
     "what_it_is_not": [
-      "Honest worry about one specific, real limit, such as a medical condition or a lack of experience with a task, stated once and with offers to help you learn.",
-      "A caregiver doing more for someone who really is ill, injured or newly bereaved, and planning with them to get abilities back.",
+      "Honest worry about one specific, real limit, such as a medical condition or a lack of experience with a task. It is stated once, with offers to help you learn.",
+      "A caregiver doing more for someone who really is ill, injured or newly bereaved, and planning with them to help them get their abilities back.",
       "Over-protectiveness from a parent or partner who is anxious and says unhelpful things, but is glad when you succeed.",
       "Someone sharing out chores by who is quicker at what, not by who is deemed hopeless.",
       "A warning given once because a plan really did look risky, followed by respect for your decision."
@@ -261,33 +261,33 @@
     "pattern_over_time_signs": [
       "You ask permission or reassurance for decisions that used to be routine.",
       "You avoid trying new tasks because you expect to fail, and you cannot say when that began.",
-      "Skills you once had, such as budgeting or navigating, feel rusty.",
+      "Skills you once had, such as budgeting or finding your way around, feel rusty.",
       "People who knew you earlier remark that you used to be more sure of yourself."
     ],
-    "repair_check": "A change shows up in the tasks, not the words. Look for jobs being handed back, mistakes met with teaching and not with a summary of your failures, and your own plans treated as plans. A kind sentence about your abilities that leaves every responsibility where it was is not much.",
+    "repair_check": "A change shows up in the tasks, not the words. Look for jobs being handed back. Look for mistakes met with teaching, not a summary of your failures, and for your own plans being treated as plans. A kind sentence about your abilities that leaves every responsibility where it was is not much.",
     "boundary_respect_check": "Try taking back one small job and see what happens. When the boundary is respected, you get to do it badly, then better, without a running commentary. When it is not, the commentary arrives and the job drifts back to the other person.",
-    "psychological_mechanism": "Skills tend to be maintained by use and by feedback. When attempts are discouraged, tasks are removed and failures are replayed, a person may lose both practice and confidence, and the resulting hesitation can then seem to confirm the claim. The belief begins to work as a forecast the person helps bring about, even with nobody pushing.",
+    "psychological_mechanism": "Skills tend to be kept up by use and by feedback. When attempts are discouraged, tasks are removed and failures are replayed, a person may lose both practice and confidence. The resulting hesitation can then seem to confirm the claim. The belief begins to work like a forecast the person helps bring about, even with nobody pushing.",
     "possible_impact_on_receiver": "Some report hesitating over choices they used to make easily, dreading a task they once did without thought, or asking for sign-off on small matters. Others describe being surprised, after time away, at what they could still do. A few feel anger at how long they went along with it.",
     "response_options": {
       "soft_clarification": "Say which part is true and which is not: 'I do need help with the tax form. I do not need help with everything else, and I would like to try.'",
       "firm_boundary": "Ask to keep one task in your hands: 'I would like to try making that call myself, and we can look at how it went afterward.'",
-      "disengagement": "Rather than debating whether you are capable, keep a few skills in practice in private ways, such as a budget saved on your own phone or a route you learn, without needing anyone's agreement.",
+      "disengagement": "Rather than debating whether you are capable, keep a few skills in practice in private ways. You could save a budget on your own phone or learn a route, without needing anyone's agreement.",
       "support_seeking": "List five things you handled in the past year and ask a friend, relative or counselor who knows you to read it with you. Their reaction is a useful second opinion.",
-      "workplace_or_professional": "At work, ask a manager for a stretch task with written feedback, and keep a record of finished tasks so that your own track record stays visible to you."
+      "workplace_or_professional": "At work, ask a manager for a stretch task with written feedback. Keep a record of finished tasks, so your own track record stays visible to you."
     },
     "boundary_script": "\"I know you worry about me. I would like to handle the electricity bill this month, and afterward we can look at how it went.\"",
     "safety_sensitive": true,
     "safety_note": "Watch for the claim of incapacity coming together with control of your money, documents, phone, transport or contact with others. Watch, too, for fear of what happens if you try something alone. These can signal coercive control, in which your freedom is narrowed step by step until you rely on one person. A domestic abuse advocate or legal aid service can help you plan privately, including how to keep copies of key papers safe.",
     "misuse_warning": [
-      "Using this label for a caregiver who is helping someone who truly cannot do a task can shame people who are doing difficult, loving work.",
+      "Using this label for a caregiver who is helping someone who truly cannot do a task can shame people who are doing hard, loving work.",
       "Applying it to anyone who ever expresses worry makes ordinary concern look like control. The test is breadth and repetition, not a single warning."
     ],
-    "how_to_distinguish_from_related": "Conditional Worth rates your value by what you provide; Learned Helplessness rates your ability to manage at all. Identity Erosion is the loss of your tastes and friends over time, whereas Learned Helplessness takes away your confidence in doing things. Self-Gaslighting Induction is doubt about your memory and perception; Learned Helplessness is doubt about your competence and capacity."
+    "how_to_distinguish_from_related": "Conditional Worth rates your value by what you provide, while Learned Helplessness rates your ability to manage at all. Identity Erosion is the loss of your tastes and friends over time. Learned Helplessness takes away your confidence in doing things. Self-Gaslighting Induction is doubt about your memory and perception. Learned Helplessness is doubt about your competence and capacity."
   },
   "Loyalty Binds": {
     "short_definition": "Defining loyalty as obedience and silence, so that disagreeing, asking questions or telling outsiders counts as betrayal.",
     "core_meaning": "Defining loyalty as obedience and silence, so that disagreeing, asking questions or telling outsiders counts as betrayal.",
-    "expanded_definition": "Loyalty Binds attach a moral price to speaking. The group, family or person is given an idea of loyalty in which questioning, objecting, keeping a friend outside the circle or seeking help counts as disloyalty. Loyalty itself is a real value, and bounded privacy is normal. The pattern is a definition with no room for honest dissent, so the only way to count as good is to stay quiet and go along, even when something is wrong.",
+    "expanded_definition": "Loyalty Binds attach a moral price to speaking. The group, family or person is given an idea of loyalty in which questioning, objecting, keeping a friend outside the circle or seeking help counts as disloyalty. Loyalty itself is a real value, and privacy with limits is normal. The pattern is a definition with no room for honest dissent. The only way to count as good is to stay quiet and go along, even when something is wrong.",
     "plain_language_summary": "Being loyal comes to mean never disagreeing or telling anyone. So if you speak up about a problem, you become the traitor.",
     "why_this_matters": "When disagreeing means betrayal, problems stay inside the group. You may carry something heavy alone, because getting help would feel like a breach of loyalty, and the guilt can outlast the situation.",
     "what_it_is": [
@@ -306,7 +306,7 @@
       "If you really loved us you wouldn't make us look bad."
     ],
     "what_it_is_not": [
-      "A request to keep one specific private matter private, such as a medical diagnosis or a surprise, while you stay free to disagree on everything else.",
+      "A request to keep one specific private matter private, such as a medical diagnosis or a surprise. You stay free to disagree on everything else.",
       "A professional duty of confidentiality, for instance for therapists or lawyers, which has stated limits and a purpose.",
       "Real hurt from a friend who felt you did not stand by them, said once and open to your side of it.",
       "A family or team culture of pulling together under stress that still allows questions and objections.",
@@ -314,7 +314,7 @@
     ],
     "this_may_be_it_when": [
       "Disagreeing, even politely, is described as betrayal.",
-      "Secrecy is demanded about things that hurt someone, not just private matters.",
+      "Secrecy is demanded about things that hurt someone, as well as about private matters.",
       "Asking an outsider for advice is treated as proof that you are disloyal.",
       "Your loyalty is tested with favors or silence and never matched by the same loyalty to you.",
       "Others in the group have learned to stay quiet, and the quiet itself is praised."
@@ -329,10 +329,10 @@
     "innocent_or_ordinary_possibilities": [
       "Families often keep matters private out of shame or pride, without meaning to silence anyone.",
       "A person who has been betrayed before may be especially sensitive to what looks like disloyalty.",
-      "Teams in tough situations, such as emergency services, may lean on tight bonds that are healthy when disagreement is still possible."
+      "Teams in tough situations, such as emergency services, may lean on tight bonds. These are healthy when disagreement is still possible."
     ],
     "common_false_positives": [
-      "A friend who asks you not to share their health news, and is fine with you telling your partner or a counselor if you need support.",
+      "A friend who asks you not to share their health news. They are fine with you telling your partner or a counselor if you need support.",
       "A family that is close and protective of its reputation, but lets members voice disagreement at the table.",
       "A manager who asks that unreleased plans stay inside the team, and still welcomes internal objections."
     ],
@@ -361,20 +361,20 @@
     ],
     "repair_check": "Compare how a later disagreement is treated. Where something has really shifted, you can say 'I see this differently' and the relationship holds. A tearful apology for having called you disloyal, followed by a fresh round of secrecy rules, has changed the tone, not the rule.",
     "boundary_respect_check": "What happens if you tell someone outside the group that you are stressed? Notice whether the reaction is curiosity or punishment. Where a boundary is respected, your talking to a friend is allowed to stand. Where it is not, you are quizzed on what you said and to whom.",
-    "psychological_mechanism": "Loyalty, belonging and a sense of being a good person are strong motivators, and tying them to silence can turn the person's own conscience against speaking. Guilt then works as an internal guard, so the rule keeps running even when nobody is watching. Fear of being excluded from the group can reinforce it.",
+    "psychological_mechanism": "Loyalty, belonging and a sense of being a good person are strong motivators. Tying them to silence can turn the person's own conscience against speaking. Guilt then works as an internal guard, so the rule keeps running even when nobody is watching. Fear of being excluded from the group can reinforce it.",
     "possible_impact_on_receiver": "Some report carrying a secret for years, feeling sick with guilt after talking to a counselor, or going quiet at family gatherings. Others describe splitting into two selves: the one who says everything is fine, and the one who knows it is not. A few say that being believed by one outsider was a relief.",
     "response_options": {
       "soft_clarification": "Separate care from silence: 'I care about this family. I also need to be able to say when something worries me.'",
       "firm_boundary": "Offer the bounded kind of confidence: 'Your private news stays private with me. Other things, I would like to be free to talk about.'",
-      "disengagement": "You can listen to the loyalty speech without agreeing, answer briefly, and then seek out a conversation with someone outside the group on your own time.",
+      "disengagement": "You can listen to the loyalty speech without agreeing and answer briefly. Then you can seek out a conversation with someone outside the group on your own time.",
       "support_seeking": "Tell a counselor, doctor, faith leader outside the group, or a trusted friend what you have been asked to keep quiet. Many services treat what you tell them as confidential.",
-      "workplace_or_professional": "If your team calls reporting a concern disloyal, look up your organization's whistleblower or ethics channel and the rules on confidentiality, and keep notes of what you saw."
+      "workplace_or_professional": "If your team calls reporting a concern disloyal, look up your organization's whistleblower or ethics channel and the rules on confidentiality. Keep notes of what you saw."
     },
     "boundary_script": "\"I care about this family, and I am not trying to hurt it. I am finding it hard that disagreeing seems to count as betrayal. Can we talk about that?\"",
     "safety_sensitive": true,
     "safety_note": "Take extra care when the secrecy covers physical harm, threats, money you are being made to hide, or danger to a child. Reporting can feel like betrayal and can also carry real risk. A child protection service, domestic abuse advocate or legal aid line can talk through options without asking you to commit to anything. They can also advise how to stay safe while doing it.",
     "misuse_warning": [
-      "Calling any request for privacy a loyalty bind may treat legitimate confidentiality, such as a friend's diagnosis, as a trap. Look for a rule that forbids disagreement and covers harm.",
+      "Calling any request for privacy a loyalty bind can make legitimate confidentiality, such as a friend's diagnosis, look like a trap. Look for a rule that forbids disagreement and covers harm.",
       "Using the label to dismiss a group's grief or pride can ignore the real bonds that hold people together."
     ],
     "how_to_distinguish_from_related": "Conditional Worth ties your value to your usefulness, while Loyalty Binds ties your goodness to your silence. Identity Hooking claims credit for who you have become; Loyalty Binds claims your voice. Fawning is the appeasing reflex you may carry, and a loyalty bind can be one of the things that sets it off."

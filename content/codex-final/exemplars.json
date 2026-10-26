@@ -2,14 +2,14 @@
   "Gaslighting": {
     "short_definition": "Repeatedly denying what someone saw, heard or remembers until they stop trusting their own account of events.",
     "core_meaning": "Repeatedly denying what someone saw, heard or remembers until they stop trusting their own account of events.",
-    "expanded_definition": "Gaslighting is a pattern of contradicting a person's memory or perception, often about things that clearly happened, so that they begin to defer to the other person's version of events. One denial means little. The pattern shows when the contradiction repeats, targets things the person has good reason to be sure of, and follows moments when they raised a concern. Over time the person may start double-checking themselves instead of the situation.",
+    "expanded_definition": "Gaslighting is when someone keeps contradicting what you remember or saw, even about things that clearly happened. Little by little you start to go along with their version instead. One denial means little. The pattern shows when the contradiction repeats, targets things you have good reason to be sure of, and comes after you raised a concern. Over time you may start double-checking yourself instead of the situation.",
     "plain_language_summary": "Someone keeps telling you that what you clearly remember didn't happen, until you start wondering whether you can trust your own mind.",
-    "why_this_matters": "When you can't rely on your own memory, you lose the ability to say what happened, notice a pattern, or ask for change. Naming the pattern accurately, without overclaiming, usually helps more than either ignoring it or assuming the worst.",
+    "why_this_matters": "When you can't rely on your own memory, you lose the ability to say what happened, notice a pattern, or ask for change. Naming the pattern accurately, without overclaiming, usually helps more than ignoring it or assuming the worst.",
     "what_it_is": [
       "Contradicting something you witnessed or lived through, flatly, with no room left for an honest mistake.",
       "Recasting your reaction as the problem: you are too sensitive, too emotional, or confused.",
       "Repeating this across many topics and many weeks, so doubt builds up instead of being settled.",
-      "Aimed most often at the moments you raise a concern or point to evidence, such as a saved message or something said in front of others."
+      "Most often aimed at the moments you raise a concern or point to evidence, like a saved message or something said in front of others."
     ],
     "what_it_sounds_like": [
       "That never happened.",
@@ -21,7 +21,7 @@
       "I'm worried about you. You've been so confused lately."
     ],
     "what_it_is_not": [
-      "Two people recalling a long-ago conversation differently, and both willing to check a text or ask someone else.",
+      "Two people who recall a long-ago conversation differently, and both are willing to check a text or ask someone else.",
       "A single correction of a small detail, such as which night a dinner was or who said what at a party.",
       "Someone saying 'I see it differently' about how an event felt, which is a difference of view and not a denial of the facts.",
       "Plain forgetting. Memory fades and merges events, and an honest 'I don't remember that' is not an attack on yours.",
@@ -49,7 +49,7 @@
     "common_false_positives": [
       "A friend who corrects the date of a trip once, and is happy to be shown otherwise.",
       "A partner who truly does not recall a conversation that took place while they were distracted or half asleep.",
-      "A family argument in which each side retells a past event with the details that suit their feelings, and nobody is trying to shake anyone else's grip on reality."
+      "A family argument where each side retells a past event with the details that suit their feelings. Nobody is trying to shake anyone else's grip on reality."
     ],
     "discernment_questions": [
       "Is there something you could both look at, such as a message or a calendar entry, and would they agree to look?",
@@ -65,7 +65,7 @@
     ],
     "more_concerning_if": [
       "The denial covers things with clear proof and carries on after the proof is shown.",
-      "Your confidence has dropped across areas of life, not only in this relationship.",
+      "Your confidence has dropped in many areas of life, beyond this relationship.",
       "They tell other people that you have been confused or unwell, so that your account is discounted before you give it."
     ],
     "pattern_over_time_signs": [
@@ -76,18 +76,18 @@
     ],
     "repair_check": "After you show the evidence, what happens next tells you. If they say plainly that you were right about that, and answer differently the next time it comes up, something has changed. One apology followed by the same denial next week has not.",
     "boundary_respect_check": "Ask to look at the message together and watch what follows. Someone who respects the request opens it with you. Someone who does not turns the conversation toward whether you can be trusted to remember anything.",
-    "psychological_mechanism": "Repeated contradiction can move where a person places their trust, from their own sense of what happened to the other person's account. It tends to work best where the person depends on the other for approval, housing or belonging, and when the denial arrives calmly and with apparent concern. Over time, checking the other person's version can become a habit.",
-    "possible_impact_on_receiver": "People describe second-guessing themselves, keeping private records, avoiding the disputed topic, and finding it harder to make decisions. Some describe relief on learning the pattern has a name, and some describe anger at how long it went unnamed.",
+    "psychological_mechanism": "Repeated contradiction can move where a person places their trust, away from their own sense of what happened and toward the other person's account. It tends to work best when the person depends on the other for approval, housing or belonging, and when the denial comes calmly and with apparent concern. Over time, checking the other person's version can become a habit.",
+    "possible_impact_on_receiver": "People describe second-guessing themselves, keeping private records, avoiding the disputed topic, and finding it harder to make decisions. Some feel relief on learning the pattern has a name. Some feel anger at how long it went unnamed.",
     "response_options": {
       "soft_clarification": "State what you remember in one sentence and ask for a shared check: 'I remember it differently. Can we look at the thread together?'",
       "firm_boundary": "Decline to debate whether your memory works: 'I'm not going to argue about whether I remember my own life correctly. I'm happy to look at what we wrote.'",
-      "disengagement": "End the conversation when it moves from the event to you, and return to the subject only in writing or with a third person present.",
+      "disengagement": "End the conversation when it moves from the event to you. Come back to the subject only in writing or with a third person present.",
       "support_seeking": "Describe two or three specific examples to someone who knew you before this relationship and see whether your account rings true to them. An outside view helps you test your own.",
-      "workplace_or_professional": "At work, confirm decisions in writing right after meetings ('To confirm what we agreed...') so a shared record exists, and keep dated notes you could show a manager or HR."
+      "workplace_or_professional": "At work, confirm decisions in writing right after meetings ('To confirm what we agreed...') so a shared record exists. Keep dated notes you could show a manager or HR."
     },
     "boundary_script": "\"I remember it differently, and I'm confident enough in my memory to say so. Let's look at the message. If we still disagree after that, I'd rather leave it there than be told I'm imagining things.\"",
     "safety_sensitive": false,
-    "safety_note": "Being told your memory is wrong is not a physical-safety signal in itself. It becomes one when it travels with threats, monitoring, cutting off money or contact, or fear of what happens when you disagree. If any of that is present, talk to someone outside the relationship, such as a domestic abuse advocate, a counselor or a trusted friend, before confronting anything.",
+    "safety_note": "Being told your memory is wrong is not a physical-safety signal in itself. It becomes one when it comes with threats, monitoring, cutting off money or contact, or fear of what happens when you disagree. If any of that is present, talk to someone outside the relationship before confronting anything. That could be a domestic abuse advocate, a counselor or a trusted friend.",
     "misuse_warning": [
       "Calling a one-off disagreement about a detail 'gaslighting' can shut down honest correction. The word fits a repeated pattern, not a single clash.",
       "Using the label to win an argument or to wound someone turns a description of a pattern into a verdict."

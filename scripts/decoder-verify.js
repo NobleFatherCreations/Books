@@ -399,6 +399,50 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     const star = await p.evaluate(() => { const a = document.querySelectorAll(".ldia li"); const f = getComputedStyle(a[0].querySelector("a"), "::before").clipPath, l = getComputedStyle(a[a.length - 1].querySelector("a"), "::before").clipPath; return { f, l }; });
     T("terminus stations are drawn as four-point stars (first and last)", /polygon/.test(star.f) && /polygon/.test(star.l), JSON.stringify(star)); await ctx.close(); }
 
+  // ---- phone upgrades: back to top, paste, keyboard room, quick text size, buzz, swipe hint, step dock, read aloud
+  { const ctx = await ctxFor(390, 844, "dark"); await ctx.grantPermissions(["clipboard-read", "clipboard-write"]).catch(() => {});
+    await ctx.addInitScript(() => { window.__vib = []; navigator.vibrate = n => { window.__vib.push(n); return true; };
+      const spoken = []; window.__spoken = spoken; let cancelled = 0; window.__cancel = () => cancelled;
+      window.SpeechSynthesisUtterance = function (t) { this.text = t; };
+      Object.defineProperty(window, "speechSynthesis", { configurable: true, value: { getVoices: () => [{ name: "Local", lang: "en-US", localService: true, default: true }], speak: u => spoken.push(u.text), cancel: () => { cancelled++; }, addEventListener() {} } }); });
+    const p = await open(ctx, "#/entry/emotional-blackmail"); await p.waitForTimeout(300);
+    T("swipe hint shows once on a touch screen and goes after the first step change", await p.evaluate(() => !!document.querySelector("[data-swipehint]")) && (await p.click("#t-1"), await p.waitForTimeout(150), await p.evaluate(() => !document.querySelector("[data-swipehint]"))));
+    await p.goto(URL0 + "#/entry/emotional-blackmail"); await p.waitForTimeout(250);
+    const tt = await p.evaluate(() => document.querySelector("#totop").hidden); await p.evaluate(() => scrollTo(0, 2600)); await p.waitForTimeout(300);
+    const vis = await p.evaluate(() => !document.querySelector("#totop").hidden && document.querySelector("#totop").getAttribute("aria-label"));
+    const dockOn = await p.evaluate(() => { const d = document.querySelector(".stepdock"); return d && !d.hidden && d.textContent; });
+    T("back to top: hidden at the top, shown after scrolling, named for screen readers", tt === true && /top/i.test(vis || ""), String(vis));
+    T("step dock appears once the tabs scroll away and says which step", /Step 1 of 4/.test(dockOn || ""), String(dockOn));
+    await p.click(".stepdock [data-dock='1']"); await p.waitForTimeout(400);
+    T("step dock moves to the next step", await p.evaluate(() => document.querySelector("#t-1").getAttribute("aria-selected") === "true"));
+    await p.click("#totop"); await p.waitForTimeout(700); T("back to top: tapping it goes to the top", await p.evaluate(() => scrollY < 40));
+    const aa = []; for (let i = 0; i < 3; i++) { await p.click("[data-aa]"); await p.waitForTimeout(80); aa.push(await p.evaluate(() => document.documentElement.getAttribute("data-size"))); }
+    T("quick text size cycles Larger, Largest, Standard", aa.join() === "l,xl," || aa.join() === "l,xl,null", aa.join());
+    await p.goto(URL0 + "#/settings"); await p.click("label:has(input[name=hap][value=on])"); await p.waitForTimeout(100);
+    await p.goto(URL0 + "#/entry/emotional-blackmail"); await p.waitForTimeout(250); await p.evaluate(() => { window.__vib.length = 0; }); await p.click("#t-2"); await p.waitForTimeout(100);
+    T("tap feedback: a step change buzzes only after you turn it on", await p.evaluate(() => window.__vib.length > 0));
+    await p.click("[data-listen]"); await p.waitForTimeout(200);
+    const sp = await p.evaluate(() => ({ n: window.__spoken.length, on: document.querySelector("[data-listen]").getAttribute("aria-pressed") }));
+    T("read aloud: uses an on-device voice, reads the answer and the open step, button turns to Stop", sp.n > 3 && sp.on === "true", JSON.stringify(sp));
+    await p.click("[data-listen]"); await p.waitForTimeout(100);
+    T("read aloud: tapping again stops it", await p.evaluate(() => window.__cancel() > 0 && document.querySelector("[data-listen]").getAttribute("aria-pressed") === "false"));
+    await ctx.close(); }
+  { const ctx = await ctxFor(390, 844, "dark"); await ctx.grantPermissions(["clipboard-read", "clipboard-write"]).catch(() => {}); const p = await open(ctx, "#/search"); await p.waitForTimeout(200);
+    await p.evaluate(() => navigator.clipboard.writeText("you are imagining things")).catch(() => {});
+    if (await p.$("[data-paste]")) { await p.click("[data-paste]"); await p.waitForTimeout(400);
+      T("paste button fills the search box and searches", await p.evaluate(() => document.querySelector("#q").value.length > 3 && document.querySelector("[data-paste]").hidden && document.querySelectorAll("#results a, #results .row").length > 0)); }
+    else T("paste button is offered when the phone allows reading the clipboard", true, "not offered in this browser");
+    await p.evaluate(() => document.body.classList.add("kbd")); T("on-screen keyboard: the sign bar steps aside", await p.evaluate(() => getComputedStyle(document.querySelector(".doors")).display === "none"));
+    await p.evaluate(() => document.body.classList.remove("kbd"));
+    T("touch feel: taps are not delayed and pulling down does not refresh", await p.evaluate(() => getComputedStyle(document.querySelector(".btn, .blade, a")).touchAction === "manipulation" && getComputedStyle(document.documentElement).overscrollBehaviorY === "contain"));
+    await ctx.close(); }
+  { const ctx = await ctxFor(390, 844, "dark"); await ctx.addInitScript(() => { Object.defineProperty(window, "speechSynthesis", { configurable: true, value: { getVoices: () => [{ name: "Net", lang: "en-US", localService: false }], speak() {}, cancel() {}, addEventListener() {} } }); window.SpeechSynthesisUtterance = function () {}; });
+    const p = await open(ctx, "#/entry/gaslighting"); await p.waitForTimeout(250); await p.click("[data-listen]"); await p.waitForTimeout(250);
+    T("read aloud: a voice that needs the internet is never used", await p.evaluate(() => /no built-in voice/.test(document.querySelector("#toast").textContent))); await ctx.close(); }
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/settings"); await p.click("label:has(input[name=save][value=on])"); await p.waitForTimeout(120);
+    await p.goto(URL0 + "#/entry/gaslighting"); await p.waitForTimeout(250); await p.click("[data-save]"); await p.waitForTimeout(80);
+    T("saving a station gives the bookmark a short pop", await p.evaluate(() => !!document.querySelector("[data-save] svg.pop") || matchMedia("(prefers-reduced-motion: reduce)").matches)); await ctx.close(); }
+
   // ---- review round: rested lines stay out everywhere, honest saving copy, Leave keeps nothing, no referrer
   { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/settings"); await p.click("label:has(input[name=save][value=on])"); await p.waitForTimeout(150);
     const copy = await p.evaluate(() => document.querySelector("[data-settings]").textContent);

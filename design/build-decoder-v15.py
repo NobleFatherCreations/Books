@@ -30,8 +30,11 @@ _spec = importlib.util.spec_from_file_location("v10", os.path.join(HERE, "build-
 v10 = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(v10)
 
 VERSION = "v15"
-DATE = "2026-10-24"
+DATE = "2026-10-26"
 UPDATES = [
+    "<strong>Plainer words, all the way through.</strong> Every entry was read again for clarity. Long sentences were split, hard words were swapped for everyday ones, and the stiff, repeated phrasing was reworded so it reads like a person talking. A few claims that could not be backed up were removed, and one description of a study was corrected.",
+    "<strong>Easier on a phone.</strong> A button takes you back to the top of a long page, and a slim bar lets you change step without scrolling up. Search has a Paste button, and the bottom bar steps aside while you type. Every entry has a Text size button and a Listen button that reads it aloud with a voice stored on your phone, so nothing is sent anywhere. A small buzz when you tap is available in Settings and is off until you turn it on.",
+    "<strong>More ways to find your way.</strong> Every station has a short code, like T09, that you can type into search. Lines have their own shapes as well as colours. You can set a line aside if you are not ready to read about it, choose where the Leave button goes, and print one station as a clean one-page card.",
     "<strong>A new design, made to be easy to find your way (v15).</strong> The guide is now laid out like the signs in a metro or an airport. Each of the ten groups is a coloured line with a letter, each tactic is a station on its line, and look-alike tactics in other groups are shown as places to “change here for”.",
     "<strong>The answer comes first.</strong> Every entry now opens with what it is, what it can sound like and, where it matters, your safety. The rest is split into four short steps instead of one long page, and long lists open only when you ask.",
     "<strong>Private by default.</strong> Nothing is saved on your device unless you turn saving on. While it is off, the page addresses use numbers instead of tactic names, and the tab shows only the guide's name.",

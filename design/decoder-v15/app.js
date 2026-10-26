@@ -35,6 +35,7 @@ const P = {
   arrow:'<path d="M5 12h14M13 6l6 6-6 6"/>', back:'<path d="M19 12H5M11 6l-6 6 6 6"/>', prev:'<path d="m15 6-6 6 6 6"/>', next:'<path d="m9 6 6 6-6 6"/>',
   close:'<path d="M18 6 6 18M6 6l12 12"/>', copy:'<rect x="9" y="9" width="11" height="11" rx="1"/><path d="M5 15V5a1 1 0 0 1 1-1h9"/>',
   share:'<path d="M12 3v13M7 8l5-5 5 5"/><path d="M5 13v7h14v-7"/>', print:'<path d="M7 9V3h10v6"/><rect x="3" y="9" width="18" height="8"/><path d="M7 14h10v7H7z"/>',
+  up:'<path d="M12 19V5M6 11l6-6 6 6"/>', paste:'<rect x="6" y="5" width="12" height="16"/><path d="M9 5V3h6v2"/>', volume:'<path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16.5 8.5a5 5 0 0 1 0 7"/>', stop:'<rect x="6" y="6" width="12" height="12"/>',
   save:'<path d="M6 3h12v18l-6-4-6 4z"/>', saved:'<path fill="currentColor" d="M6 3h12v18l-6-4-6 4z"/>',
   tri:'<path d="M12 3 2 20h20z"/><path d="M12 10v4"/><circle cx="12" cy="17" r=".6" fill="currentColor"/>',
   eyeoff:'<path d="M3 12s3.5-6 9-6 9 6 9 6-3.5 6-9 6-9-6-9-6z"/><circle cx="12" cy="12" r="2.6"/><path d="M4 4l16 16"/>', cmp:'<path d="M8 3v18M16 3v18M3 8h5M16 16h5"/>', exit:'<path d="M14 4h5v16h-5"/><path d="M3 12h11M9 7l-5 5 5 5"/>', search:'<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>', map:'<circle cx="6" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M6 8v4a4 4 0 0 0 4 4h6"/><circle cx="18" cy="6" r="2"/><path d="M18 8v8"/>',
@@ -65,7 +66,7 @@ function full(e){
    glance, not from someone who knows how: the scrambling key is in this page, and the hashes are of public names. Turning
    saving off deletes the entry. Nothing here records when anything was read. */
 const store=(()=>{
-  const KEY="ui-state", XK=[110,102,33,154,60,81], SHORT={breath:"b",theme:"th",size:"sz",space:"sp",motion:"mo",leave:"lv"};
+  const KEY="ui-state", XK=[110,102,33,154,60,81], SHORT={breath:"b",theme:"th",size:"sz",space:"sp",motion:"mo",leave:"lv",hap:"hp"};
   let mem={}, ok=false, on=false, legacy=0, frozen=false;
   try{ localStorage.setItem("__t","1"); localStorage.removeItem("__t"); ok=true; }catch(e){}
   const fnv=t=>{ let h=2166136261; for(let i=0;i<t.length;i++){ h^=t.charCodeAt(i); h=Math.imul(h,16777619)>>>0; } return h.toString(36); };
@@ -260,8 +261,9 @@ function countText(){ const r=search(SEARCH_Q), n=r.list.length+jumpFor(r.n).lis
 function viewSearch(){
   return '<div class="view"><h1 class="h-page" tabindex="-1">Search</h1>'+
     '<form class="sfield" role="search" data-search><label class="sr-only" for="q">Search the guide</label>'+ic("search")+
-    '<input id="q" type="search" enterkeyhint="search" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="What was said or done, or a name" value="'+esc(SEARCH_Q)+'">'+
-    '<button class="clr" type="button" data-clear aria-label="Clear search"'+(SEARCH_Q?'':' hidden')+'>'+ic("close")+'</button></form>'+
+    '<input id="q" type="search" enterkeyhint="search" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="What was said, or a name" value="'+esc(SEARCH_Q)+'">'+
+    '<button class="clr" type="button" data-clear aria-label="Clear search"'+(SEARCH_Q?'':' hidden')+'>'+ic("close")+'</button>'+
+    (navigator.clipboard&&navigator.clipboard.readText?'<button class="pst" type="button" data-paste'+(SEARCH_Q?' hidden':'')+'>'+ic("paste")+'Paste</button>':'')+'</form>'+
     '<p class="count" id="scount" role="status">'+countText()+'</p><div id="results">'+resultsHTML()+'</div>'+
     '<p class="note" style="margin-top:2rem">What you type stays on this phone. It is never sent anywhere or added to the address. You can also type a station code, like T09.</p></div>';
 }
@@ -369,10 +371,13 @@ function viewStation(e,stepArg){
       (says.length?'<h2 class="k">It can sound like</h2><ul class="says">'+says.slice(0,2).map(sayLi).join("")+'</ul>':'')+
       (e.abs&&e.abs.length?'<p class="alsoc">Also called '+e.abs.map(H).join(", ")+'</p>':'')+'</section>'+
     '<div class="acts"><button class="btn" type="button" data-save="'+esc(e.n)+'" aria-pressed="'+saved+'">'+ic(saved?"saved":"save")+(saved?'Saved':'Save')+'</button>'+
+      (CAN_SPEAK?'<button class="btn" type="button" data-listen aria-pressed="false">'+ic("volume")+'Listen</button>':'')+
+      '<button class="btn" type="button" data-aa><span class="aa" aria-hidden="true">Aa</span>Text size<span class="sr-only">, now '+SIZE_NAME[PREF.size]+'. Tap to change.</span></button>'+
       '<button class="btn" type="button" data-share>'+ic("share")+'Share link</button><button class="btn" type="button" data-print>'+ic("print")+'Print</button></div>'+strip+
     '<div class="steps" data-steps><div class="tabs" role="tablist" aria-label="Read this entry in four steps">'+
       STEPS.map((s,i)=>'<button role="tab" type="button" id="t-'+i+'" aria-controls="p-'+i+'" aria-selected="'+(i===s0)+'" tabindex="'+(i===s0?0:-1)+'"><span class="no">'+(i+1)+'</span>'+s[1]+'</button>').join("")+
       '</div><div class="stepbar" aria-hidden="true"><i style="--p:'+(s0+1)/4+'"></i></div>'+
+      (!SWIPE_HINTED&&matchMedia("(pointer: coarse)").matches?'<p class="swipehint" data-swipehint>Tip: swipe left or right to change step.</p>':'')+
       panels.map((p,i)=>'<section class="panelx" role="tabpanel" id="p-'+i+'" aria-labelledby="t-'+i+'" tabindex="0"'+(i!==s0?' hidden':'')+'>'+p+
         (i<3?'<div class="stepnav"><button class="btn pri" type="button" data-step="'+(i+1)+'">Next: '+STEPS[i+1][1]+ic("arrow")+'</button></div>':'')+'</section>').join("")+'</div>'+
     '<aside class="side" aria-label="Around this station">'+
@@ -393,7 +398,8 @@ function setStep(n,from,anim){
   tabs.forEach((t,i)=>{ const on=i===n; t.setAttribute("aria-selected",on); t.tabIndex=on?0:-1; if(i===STEP&&i!==n) t.classList.add("seen"); });
   panels.forEach((p,i)=>{ p.hidden=i!==n; p.classList.remove("in-l","in-r"); });
   if(anim&&motionOK()&&n!==STEP){ void panels[n].offsetWidth; panels[n].classList.add(n>STEP?"in-r":"in-l"); }
-  STEP=n; $(".stepbar i",root).style.setProperty("--p",(n+1)/4);
+  STEP=n; $(".stepbar i",root).style.setProperty("--p",(n+1)/4); dockLabel();
+  if(from){ SWIPE_HINTED=true; $$("[data-swipehint]").forEach(x=>x.remove()); hap(6); }
   { const st=ctx(parse()).station; if(st){ const h=stH(st)+(n?"/"+(n+1):""); try{ history.replaceState(history.state,"",h); if(STACK.length) STACK[STACK.length-1].h=h; }catch(x){} } }
   announce("Step "+(n+1)+" of 4: "+STEPS[n][1]);
   if(from==="next"){ const t=tabs[n]; t.focus({preventScroll:true}); root.scrollIntoView({block:"start",behavior:motionOK()?"smooth":"auto"}); }
@@ -557,6 +563,7 @@ function viewSettings(){
     '<fieldset><legend>Text size</legend>'+ch("size",PREF.size,[["m","Standard"],["l","Larger"],["xl","Largest"]])+'</fieldset>'+
     '<fieldset><legend>Line spacing</legend>'+ch("space",PREF.space,[["normal","Standard"],["roomy","Roomier"]])+'</fieldset>'+
     '<fieldset><legend>Motion</legend>'+ch("motion",PREF.motion,[["auto","Match my phone"],["reduce","Reduce"]])+'<p class="help">Nothing moves on its own either way. Reduce also removes the short slides when you tap.</p></fieldset>'+
+    (navigator.vibrate?'<fieldset><legend>Tap feedback</legend>'+ch("hap",store.get("hap",false)?"on":"off",[["off","Off"],["on","A small buzz when you tap"]])+'<p class="help">Only some phones can do this. On the others it does nothing.</p></fieldset>':'')+
     '<fieldset><legend>Reading pause</legend>'+ch("breath",store.get("breath",true)?"on":"off",[["on","Suggest a pause after 20 minutes"],["off","Off"]])+'</fieldset>'+
     '<fieldset><legend>Rest a line</legend><div class="ch rest">'+LINES.map(l=>'<label><input type="checkbox" name="rest" value="'+l.k+'"'+(hiddenSet().has(l.k)?' checked':'')+'>'+bullet(l,"sm")+esc(l.label)+'</label>').join("")+'</div>'+
       '<p class="help">Tick the lines you are not ready to read about. They stay out of search, matches, lists and the map until you untick them. Nothing is deleted, Use this safely stays open, and some entries on a resting line can involve danger, so if you are unsure leave it visible.'+(store.saving?'':' Saving is off, so this is remembered only until you close the page.')+'</p></fieldset>'+
@@ -658,6 +665,7 @@ function after(r,c,key){
   if(r.view==="map"&&MAPSEL>=0) drawInterchanges(MAPSEL);
   /* the camera flight, as a scroll: the map brings the station you came for into the middle of the screen */
   if(r.view==="map"){ const target=MAPSEL>=0?MAPSEL:(MAPLIT&&MAPLIT.length?MAPLIT[0]:-1); if(target>=0) requestAnimationFrame(()=>{ const a=$('#map a[data-i="'+target+'"]'); if(a) a.scrollIntoView({block:"center",inline:"center",behavior:motionOK()?"smooth":"auto"}); }); }
+  phoneTouches();
   FIRST=false;
 }
 /* How many pages of this visit sit behind this one, kept in history.state so a reload does not lose count. */
@@ -680,11 +688,60 @@ function statusUI(){ const s=$("#status"); if(!s) return; const on=store.saving;
   s.setAttribute("aria-label",on?"Saving is on: saved tactics and settings are kept on this device. Open settings":"Private: nothing is saved on this device. Open settings"); }
 function setSaving(v){ store.setSaving(v); if(v) Object.keys(PREF).forEach(k=>store.set(k,PREF[k])); statusUI(); }
 
+/* ---------- phone touches: each is caused by a tap or a scroll, none moves on its own ---------- */
+const SIZE_NAME={m:"Standard",l:"Larger",xl:"Largest"};
+let SWIPE_HINTED=false;
+function hap(ms){ if(store.get("hap",false)&&navigator.vibrate){ try{ navigator.vibrate(ms||8); }catch(e){} } }
+/* back to the top, after a couple of screens of scrolling */
+const TOTOP=document.createElement("button"); TOTOP.id="totop"; TOTOP.className="totop"; TOTOP.type="button"; TOTOP.hidden=true;
+TOTOP.setAttribute("aria-label","Back to the top of this page"); TOTOP.innerHTML=ic("up"); document.body.appendChild(TOTOP);
+let TT=false;
+addEventListener("scroll",()=>{ if(TT) return; TT=true; requestAnimationFrame(()=>{ TT=false; const show=scrollY>innerHeight*1.5; if(TOTOP.hidden===show) TOTOP.hidden=!show; dockCheck(); }); },{passive:true});
+TOTOP.addEventListener("click",()=>{ scrollTo({top:0,behavior:motionOK()?"smooth":"auto"}); hap(6); const h=$("#main h1"); if(h) h.focus({preventScroll:true}); });
+/* when the on-screen keyboard is up, the sign bar steps out of the way so the search box keeps its room */
+if(window.visualViewport){ const vv=visualViewport, chk=()=>document.body.classList.toggle("kbd",innerHeight-vv.height>140&&/^(INPUT|TEXTAREA)$/.test((document.activeElement||{}).tagName||""));
+  vv.addEventListener("resize",chk); addEventListener("focusout",()=>setTimeout(chk,80)); }
+/* a slim step bar under the top bar once the four tabs have scrolled away */
+let DOCK=null, DOCK_TABS=null;
+function dockLabel(){ if(!DOCK) return; $(".dkt",DOCK).textContent="Step "+(STEP+1)+" of 4: "+STEPS[STEP][1]; const bs=$$(".dk",DOCK); bs[0].disabled=STEP===0; bs[1].disabled=STEP===3; }
+function dockCheck(){ if(DOCK) DOCK.hidden=!(DOCK_TABS.getBoundingClientRect().bottom<56); }
+function dock(){
+  if(DOCK){ DOCK.remove(); DOCK=null; DOCK_TABS=null; }
+  const tabs=$(".steps .tabs"); if(!tabs) return;
+  DOCK=document.createElement("div"); DOCK.className="stepdock"; DOCK.hidden=true; DOCK.setAttribute("role","group"); DOCK.setAttribute("aria-label","Change step"); DOCK_TABS=tabs;
+  DOCK.innerHTML='<button type="button" class="dk" data-dock="-1" aria-label="Previous step">'+ic("prev")+'</button><span class="dkt"></span><button type="button" class="dk" data-dock="1" aria-label="Next step">'+ic("next")+'</button>';
+  document.body.appendChild(DOCK); dockLabel(); dockCheck();
+}
+/* read aloud, with a voice that lives on the phone. A voice that streams from the internet is never used, so nothing is sent anywhere. */
+const CAN_SPEAK="speechSynthesis" in window&&"SpeechSynthesisUtterance" in window;
+let SPK={on:false};
+function localVoice(){ const vs=speechSynthesis.getVoices().filter(v=>v.localService), lang=(document.documentElement.lang||"en").slice(0,2).toLowerCase();
+  return vs.find(v=>v.lang.toLowerCase().startsWith(lang)&&v.default)||vs.find(v=>v.lang.toLowerCase().startsWith(lang))||null; }
+function speakStop(){ SPK.on=false; try{ speechSynthesis.cancel(); }catch(e){} $$("[data-listen]").forEach(b=>{ b.setAttribute("aria-pressed","false"); b.innerHTML=ic("volume")+"Listen"; }); }
+function speakBlocks(){ const out=[];
+  [$(".answer"),$("[role=tabpanel]:not([hidden])")].filter(Boolean).forEach(r=>{
+    $$("h2,h3,h4,p,li,blockquote",r).forEach(el=>{ if(el.querySelector("h2,h3,h4,p,li,blockquote")||el.closest("[hidden]")||el.closest(".sr-only")) return;
+      const d=el.closest("details"); if(d&&!d.open&&!el.closest("summary")) return;
+      const t=el.textContent.replace(/\s+/g," ").trim(); if(t.length>1) out.push(t); }); });
+  return out; }
+function speak(){
+  if(!CAN_SPEAK) return; if(SPK.on){ speakStop(); return; }
+  let tried=false;
+  const go=()=>{ if(tried) return; tried=true; const v=localVoice(); if(!v){ toast("Your phone has no built-in voice for this, so nothing can be read aloud. Nothing was sent anywhere."); return; }
+    const blocks=speakBlocks(); if(!blocks.length) return; SPK.on=true;
+    $$("[data-listen]").forEach(b=>{ b.setAttribute("aria-pressed","true"); b.innerHTML=ic("stop")+"Stop"; });
+    blocks.forEach((t,i)=>{ const u=new SpeechSynthesisUtterance(t); u.voice=v; u.lang=v.lang; u.rate=.95; if(i===blocks.length-1) u.onend=speakStop; u.onerror=()=>{ if(SPK.on) speakStop(); }; speechSynthesis.speak(u); });
+    toast("Reading aloud from your phone's speaker","Stop",speakStop); };
+  if(speechSynthesis.getVoices().length) go(); else { speechSynthesis.addEventListener("voiceschanged",go,{once:true}); setTimeout(go,600); }
+}
+document.addEventListener("visibilitychange",()=>{ if(document.hidden&&SPK.on) speakStop(); });
+function phoneTouches(){ if(SPK.on) speakStop(); dock(); TOTOP.hidden=scrollY<=innerHeight*1.5; }
+
 /* ---------- leaving quickly ---------- */
 let LEAVING=false;
 function leave(){ if(LEAVING) return; LEAVING=true;
   const dest=(LEAVE_TO[store.get("leave","weather")]||LEAVE_TO.weather)[1];   /* read before memory is cleared */
-  try{ store.forgetAll(); SEARCH_Q=""; GUIDE={step:0,where:null,feels:[]}; document.title="Weather"; $("#sheet").close(); document.body.style.visibility="hidden"; }catch(e){}
+  try{ try{ speechSynthesis.cancel(); }catch(e){} store.forgetAll(); SEARCH_Q=""; GUIDE={step:0,where:null,feels:[]}; document.title="Weather"; $("#sheet").close(); document.body.style.visibility="hidden"; }catch(e){}
   const url=navigator.onLine?dest:"about:blank", n=DEPTH; let gone=false;
   const go=()=>{ if(!gone){ gone=true; location.replace(url); } };
   /* step back over every page of this visit first, so Back from the weather page does not land in the guide;
@@ -712,10 +769,14 @@ document.addEventListener("click",ev=>{
   if(b.getAttribute("role")==="tab"){ setStep(+b.id.slice(2),"tab",ev.detail>0); return; }
   if(d.step){ setStep(+d.step,"next",true); return; }
   if(d.save!=null){ if(!store.saving){ toast("Saving is off, so nothing is kept on this device.","Turn on saving",()=>{ setSaving(true); const on=toggleSave(d.save); toast(on?"Saved on this device":"Removed"); render(); }); return; }
-    const on=toggleSave(d.save); b.setAttribute("aria-pressed",on); b.innerHTML=ic(on?"saved":"save")+(on?"Saved":"Save"); toast(on?"Saved on this device":"Removed from saved"); return; }
+    const on=toggleSave(d.save); b.setAttribute("aria-pressed",on); b.innerHTML=ic(on?"saved":"save")+(on?"Saved":"Save"); hap(10); if(on&&motionOK()){ const sv=b.querySelector("svg"); if(sv) sv.classList.add("pop"); } toast(on?"Saved on this device":"Removed from saved"); return; }
   if(d.share!=null){ const e=ctx(parse()).station; if(!e) return; const url=readable(e)+(STEP?"/"+(STEP+1):"");
     if(navigator.share){ navigator.share({title:e.n,url}).catch(()=>{}); } else copyText(url,"Link copied"); return; }
   if(d.print!=null){ window.print(); return; }
+  if(d.paste!=null){ navigator.clipboard.readText().then(t=>{ t=(t||"").trim().slice(0,400); if(!t){ toast("There was nothing to paste."); return; } SEARCH_Q=t; const q=$("#q"); if(q) q.value=t; updateResults(true); }).catch(()=>toast("Your phone did not allow pasting. Press and hold in the box instead.")); return; }
+  if(d.aa!=null){ const order=["m","l","xl"], nx=order[(order.indexOf(PREF.size)+1)%3]; PREF.size=nx; store.set("size",nx); applyPrefs(); { const so=$(".sr-only",b); if(so) so.textContent=", now "+SIZE_NAME[nx]+". Tap to change."; } hap(8); toast("Text size: "+SIZE_NAME[nx]); return; }
+  if(d.listen!=null){ speak(); return; }
+  if(d.dock){ setStep(STEP+ +d.dock,"next",true); return; }
   if(d.copy){ copyText($("#"+d.copy).textContent,"Copied"); return; }
   if(d.try){ SEARCH_Q=d.try; const q=$("#q"); if(q){ q.value=SEARCH_Q; } updateResults(true); return; }
   if(d.clear!=null){ SEARCH_Q=""; const q=$("#q"); q.value=""; q.focus(); updateResults(true); return; }
@@ -737,7 +798,7 @@ document.addEventListener("click",ev=>{
   if(d.breath){ breathHide(); if(d.breath==="off") store.set("breath",false); return; }
 });
 const updateResults=(()=>{ let t; return (now)=>{ clearTimeout(t); const run=()=>{ const r=$("#results"); if(!r) return; r.innerHTML=resultsHTML(); const c=$("#scount"); if(c) c.textContent=countText();
-  const cl=$("[data-clear]"); if(cl) cl.hidden=!SEARCH_Q; }; if(now) run(); else t=setTimeout(run,90); }; })();
+  const cl=$("[data-clear]"); if(cl) cl.hidden=!SEARCH_Q; const ps=$("[data-paste]"); if(ps) ps.hidden=!!SEARCH_Q; }; if(now) run(); else t=setTimeout(run,90); }; })();
 document.addEventListener("input",ev=>{ if(ev.target.id==="q"){ SEARCH_Q=ev.target.value; updateResults(); } });
 document.addEventListener("submit",ev=>{ ev.preventDefault();
   if(ev.target.matches("[data-search]")){ const first=$("#results a.row"); if(first) first.focus(); return; }
@@ -748,6 +809,7 @@ document.addEventListener("change",ev=>{ const t=ev.target;
   if(t.closest("[data-settings]")){
     if(t.name==="save"){ setSaving(t.value==="on"); toast(t.value==="on"?"Saving is on for this device":"Saving is off. Everything kept on this device was deleted."); render(); return; }
     if(t.name==="breath"){ store.set("breath",t.value==="on"); return; }
+    if(t.name==="hap"){ store.set("hap",t.value==="on"); hap(14); return; }
     if(t.name==="leave"){ store.set("leave",t.value); toast("The Leave button now goes to "+LEAVE_TO[t.value][0].toLowerCase()); return; }
     if(t.name==="rest"){ if(!setHidden(t.value,t.checked)){ t.checked=false; toast("At least one line has to stay visible."); } else toast(t.checked?LINE[t.value].label+" is resting":LINE[t.value].label+" is shown again"); return; }
     PREF[t.name]=t.value; store.set(t.name,t.value); applyPrefs(); }

@@ -100,16 +100,16 @@
     "how_to_distinguish_from_related": "Love Bombing is marked by praise, gifts and affection; this tactic can run on confiding and pain alone, with hardly a compliment. Exclusive Meaning asserts that only one person truly understands you, a line that may show up after weeks of closeness. Future Faking borrows from tomorrow with promises, while manufactured intimacy borrows from the present by speeding it up."
   },
   "Silent Treatment": {
-    "short_definition": "Withholding all communication, warmth or answers from someone, with no stated end, until they apologize or give way to what the other person wants.",
-    "core_meaning": "Withholding all communication, warmth or answers from someone, with no stated end, until they apologize or give way to what the other person wants.",
-    "expanded_definition": "The silent treatment is a stretch of sustained non-response: no answers, no eye contact, messages left unread, a person in the room treated as absent. Stonewalling and withholding describe the same behavior. It can also reach beyond talk to affection, plans, money or practical information. Everyone goes quiet sometimes. What changes the meaning is a silence with no end date, aimed at one person, that lifts only when that person apologizes or complies.",
+    "short_definition": "Withholding all communication, warmth or answers from someone, with no stated end. It lasts until they apologize or give in to what the other person wants.",
+    "core_meaning": "Withholding all communication, warmth or answers from someone, with no stated end. It lasts until they apologize or give in to what the other person wants.",
+    "expanded_definition": "The silent treatment is a stretch of sustained non-response. There are no answers, no eye contact, and messages are left unread. A person in the room is treated as absent. Stonewalling and withholding describe the same behavior. It can also reach beyond talk to affection, plans, money or practical information. Everyone goes quiet sometimes. What changes the meaning is a silence with no end date, aimed at one person, that lifts only when that person apologizes or complies.",
     "plain_language_summary": "Someone stops talking to you, or takes away warmth and information, with no end in sight, until you apologize or give in. The quiet itself is the pressure.",
     "why_this_matters": "Being frozen out hurts in a way the body treats as real pain. The open-ended wait can leave you desperate to end it at any cost. Ordinary things like a reply or basic warmth turn into rewards, and the issue itself is never resolved.",
     "what_it_is": [
       "A sustained stop to talking, replying or acknowledging someone, with no stated end.",
       "Often shows up as ignored texts, one-word answers, leaving the room, or speaking to everyone else but you.",
       "Can reach past talk to affection, plans, shared-account details or household information, held back until you give way.",
-      "Ends when the other person apologizes, gives in, or performs some act of making up, usually without the original issue being discussed.",
+      "It ends when the other person apologizes, gives in, or does something to make up, usually without the original issue being discussed.",
       "Appears in couples, families, friendships and workplaces, and can last hours, days or weeks."
     ],
     "what_it_sounds_like": [
@@ -124,11 +124,11 @@
     ],
     "what_it_is_not": [
       "Saying 'I'm too angry to talk about this right now. Can we pick it up after dinner?', which has a reason and a return time.",
-      "A person who goes quiet from shutting down, depression or overwhelm, and who is silent with everyone and not just you.",
+      "A person who goes quiet from shutting down, depression or overwhelm, and who is silent with everyone, you included.",
       "A break agreed on by both people during a heated argument, with a time to return.",
-      "Not sharing information because it is private, such as a friend's confidence or a medical matter that is theirs to keep.",
+      "Not sharing information because it is private. This could be a friend's confidence or a medical matter that is theirs to keep.",
       "Quiet from someone whose communication style is slow or private, and who has always been that way.",
-      "A cultural or family style of cooling off that everyone practices and that is not aimed at one person."
+      "A cultural or family style of cooling off. Everyone practices it, and it is not aimed at one person."
     ],
     "this_may_be_it_when": [
       "The silence starts right after you disagree or set a limit, and never has a stated end.",
@@ -176,28 +176,28 @@
     "pattern_over_time_signs": [
       "You can predict that a disagreement about a certain subject will end in days of silence.",
       "You avoid raising issues, and hold back requests and opinions, because of what will follow.",
-      "You feel a surge of relief and gratitude when they speak to you again, and you are the one who always breaks the silence first.",
+      "You feel a surge of relief and gratitude when they speak to you again. You are also the one who always breaks the silence first.",
       "The stretches get longer, or happen with smaller triggers than before."
     ],
     "repair_check": "Afterward they talk with you about the silence itself, say what they needed, and next time give a reason and a time to return. Warmth that simply resumes the moment you apologize, with the issue untouched, leaves the pattern as it was.",
-    "boundary_respect_check": "Over several rounds, one question tells you more than any single reply. When you have said you will talk but do not want to be ignored for days, does the next fight end with a spoken pause and a return, or with another stretch of nothing?",
-    "psychological_mechanism": "Being ignored by someone you depend on can set off a strong threat response, and the urge to end that discomfort quickly can override your own view. Without information about why or for how long, the mind may fill in the worst, and apologizing can start to feel like the only exit. Because nothing openly harmful was said, you may also doubt your own distress.",
-    "possible_impact_on_receiver": "A knot in the stomach, constant phone checking, rehearsed apologies and a feeling of being invisible come up often in accounts of being frozen out. Some start to doubt whether they did something terrible, and some say they came to dread the quiet more than an open argument. Many describe walking on eggshells and agreeing to things to stop the next freeze.",
+    "boundary_respect_check": "Over several rounds, one question tells you more than any single reply. You have said you will talk but do not want to be ignored for days. Does the next fight end with a spoken pause and a return, or with another stretch of nothing?",
+    "psychological_mechanism": "Being ignored by someone you depend on can set off a strong threat response. The urge to end that discomfort quickly can override your own view. Without information about why or for how long, the mind may fill in the worst, and apologizing can start to feel like the only exit. Because nothing openly harmful was said, you may also doubt your own distress.",
+    "possible_impact_on_receiver": "A knot in the stomach, constant phone checking, rehearsed apologies and a feeling of being invisible come up often in accounts of being frozen out. Some start to doubt whether they did something terrible. Some say they came to dread the quiet more than an open argument. Many describe walking on eggshells and agreeing to things to stop the next freeze.",
     "response_options": {
       "soft_clarification": "Ask for the topic, not the warmth: 'You've gone quiet since Saturday. Can you tell me what's on your mind, or when you'll be ready to talk?'",
       "firm_boundary": "Separate pausing from punishing, as a request: 'Space is fine with me. Could you tell me when we can talk?'",
       "disengagement": "Do not chase, plead or send a stream of messages. Keep your routines, send one calm message, and answer normally when contact resumes.",
       "support_seeking": "Describe a recent silence to a friend or counselor, including what ended it. Hearing it out loud helps check whether it lasted until you gave way.",
-      "workplace_or_professional": "If a manager or co-worker holds back information you need to do your job, ask for it in writing and copy the request to someone senior, so a record exists."
+      "workplace_or_professional": "If a manager or co-worker holds back information you need to do your job, ask for it in writing. Copy the request to someone senior, so a record exists."
     },
     "boundary_script": "\"If you're upset, I'll listen, and I do want to hear it. If you need time, could you tell me roughly how long, so we can pick it up then?\"",
     "safety_sensitive": false,
-    "safety_note": "Silence alone is painful pressure, not a physical threat. It matters more when you depend on the person for housing, money or care and the freeze cuts off practical information, or when it alternates with intimidation. Keep copies of your identity papers and account details somewhere private, and speak to a domestic abuse advocate or legal aid about your options.",
+    "safety_note": "Silence alone is painful pressure, not a physical threat. It matters more when you depend on the person for housing, money or care and the freeze cuts off practical information. It also matters when the silence alternates with intimidation. Keep copies of your identity papers and account details somewhere private. Speak to a domestic abuse advocate or legal aid about your options.",
     "misuse_warning": [
-      "Needing space is healthy and many people go quiet from overwhelm, so labeling any pause as the silent treatment can punish someone for self-regulating, especially someone with a shutdown response.",
+      "Needing space is healthy, and many people go quiet from overwhelm. Labeling any pause as the silent treatment can punish someone for calming themselves down, especially someone with a shutdown response.",
       "Demanding an immediate response and then calling its absence abuse can become a form of pressure of its own."
     ],
-    "how_to_distinguish_from_related": "Emotional Blackmail spells out what you will lose if you do not comply; the silent treatment lets the quiet imply it. Hoovering is contact that returns after a break, with promises of change, while the silent treatment is contact withdrawn inside a relationship that continues. Negging keeps up contact and lowers your confidence through digs, whereas here the contact itself is the thing taken away."
+    "how_to_distinguish_from_related": "Emotional Blackmail spells out what you will lose if you do not comply. The silent treatment lets the quiet imply it. Hoovering is contact that returns after a break, with promises of change. The silent treatment is contact withdrawn inside a relationship that continues. Negging keeps up contact and lowers your confidence through digs. Here the contact itself is the thing taken away."
   },
   "The Exception Script": {
     "short_definition": "Telling you that you are uniquely different from everyone around you, so that keeping that special status depends on staying close to the speaker.",

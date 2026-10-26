@@ -195,14 +195,14 @@
   "Trash-Can Diagnosis": {
     "short_definition": "Using a mental-health label about someone as an insult, a verdict, or a way to treat their limits and reactions as symptoms.",
     "core_meaning": "Using a mental-health label about someone as an insult, a verdict, or a way to treat their limits and reactions as symptoms.",
-    "expanded_definition": "A diagnosis becomes a weapon when it is attached to what you said, felt or refused, so that all of it can be set aside as a symptom. It is also described as identity diminishment via pathologizing, where boundaries and differences get turned into disorders. The words come from people who have not assessed you. One sharp word in a heated fight means little. The pattern is the label returning whenever you set a limit.",
+    "expanded_definition": "A diagnosis becomes a weapon when it is attached to what you said, felt or refused. Then all of it can be set aside as a symptom. Boundaries and differences get turned into disorders. The words come from people who have not assessed you. One sharp word in a heated fight means little. The pattern is the label returning whenever you set a limit.",
     "plain_language_summary": "Someone calls you 'paranoid' or 'unstable' to brush off what you said. Then setting a limit starts to look like proof something is wrong with you.",
-    "why_this_matters": "Self-protection gets reclassified as a symptom, so your boundaries cost you credibility and any pushback is read as further evidence of the alleged problem. You may stop setting limits at all, since each one can be turned into proof.",
+    "why_this_matters": "Self-protection gets reclassified as a symptom, so your boundaries cost you credibility. Any pushback is read as more evidence of the alleged problem. You may stop setting limits at all, since each one can be turned into proof.",
     "what_it_is": [
-      "A clinical word attached to a response, such as 'paranoid' for asking where someone was, or a personality-disorder name hurled as an insult.",
+      "A clinical word attached to a response, such as 'paranoid' for asking where someone was, or a personality-disorder name used as an insult.",
       "Applied to limits and reactions that most people in your position would share.",
       "Self-sealing: objecting to the label is taken as more of the symptom.",
-      "Said in front of others or written into messages, which lets the label travel to family, employers or officials.",
+      "Said in front of others or written in messages, so the label can travel to family, employers or officials.",
       "Different from an assessment by a clinician. Here nobody has assessed anything, and the speaker usually has no training or role to do so."
     ],
     "what_it_sounds_like": [
@@ -216,7 +216,7 @@
       "A message to your family says you have 'been struggling with your mental health' right after you declined a request."
     ],
     "what_it_is_not": [
-      "A trusted person can gently name a real escalation out of care, and a diagnosis someone has disclosed themselves can be referred to supportively. The concern is a boundary answered with a label instead of a response.",
+      "A trusted person can gently name a real worsening out of care. A diagnosis someone has shared themselves can be mentioned supportively. The concern is a boundary answered with a label instead of a response.",
       "A clinician who has assessed you explaining a diagnosis you asked about.",
       "Someone using these words about themselves: 'I'm anxious about this, can we slow down?'",
       "'You need help' said as clumsy, honest worry for someone who is clearly struggling.",
@@ -272,14 +272,14 @@
     ],
     "repair_check": "The limit is respected first, then the label is withdrawn in front of whoever heard it. Someone apologizing for how it came out, while still holding that you have a problem, has changed the tone but not the claim.",
     "boundary_respect_check": "State a limit and see whether the answer is about the limit or about you. 'Okay, I won't ask for that' answers the limit. Any reply that includes a word for your mental state sends the limit back unanswered.",
-    "psychological_mechanism": "Clinical words carry authority, and few people feel qualified to argue with them. When your response is renamed as a symptom, defending it may seem to confirm it. Being told again and again that something is wrong with you can lead you to weigh your own reactions less and the other person's reading more, and others may come to treat your boundaries as optional.",
+    "psychological_mechanism": "Clinical words carry authority, and few people feel qualified to argue with them. When your response is renamed as a symptom, defending it may seem to confirm it. Being told again and again that something is wrong with you can lead you to weigh your own reactions less and the other person's reading more. Others may come to treat your boundaries as optional.",
     "possible_impact_on_receiver": "People describe second-guessing normal reactions, apologizing for needing space, and hiding upset so as not to supply evidence. Some look up the terms used about them or ask others whether they are 'too much'. Some describe grief or anger at having been misread for years.",
     "response_options": {
       "soft_clarification": "Ask what they are basing the term on: 'Is there something specific I did that worries you? I'd rather talk about that than a label.'",
       "firm_boundary": "Separate your limit from your health: 'My answer is about the request, not about my mental health. I'm asking you to respect that.'",
       "disengagement": "Do not argue your sanity point by point. Ask for a pause of a few hours or a day, then return to the request in writing.",
-      "support_seeking": "Tell a trusted friend, or a clinician of your own choosing, which words are being used about you, and ask whether they match what they see. An outside view helps you check.",
-      "workplace_or_professional": "If a label is used about you at work, school or in a care setting, ask in writing what it is based on and who has seen it, and take it to HR, a union representative or an advocate."
+      "support_seeking": "Tell a trusted friend, or a clinician of your own choosing, which words are being used about you. Ask whether they match what they see. An outside view helps you check.",
+      "workplace_or_professional": "If a label is used about you at work, school or in a care setting, ask in writing what it is based on and who has seen it. Take it to HR, a union representative or an advocate."
     },
     "boundary_script": "\"I understand you're worried, and I want to talk about what actually happened. When you call my answer a symptom, I can't respond to that. What I said was no to this request. Can we stay with the request?\"",
     "safety_sensitive": true,
@@ -288,14 +288,14 @@
       "Not every mention of mental health about someone is pathologizing. Treating all concern as an attack can leave a person alone when they are struggling.",
       "Applying this label to someone who is sincerely worried about you can turn a hard moment into a rupture. Check whether your limit was actually answered."
     ],
-    "how_to_distinguish_from_related": "Weaponized Therapy-Speak borrows ideas such as projecting or being triggered and aims them at your motives, while this tactic names a disorder, as an insult or a verdict on who you are. Credibility Theft discounts you as a witness by many routes; here the route is a medical-sounding label. Authority Hijack tells you what you really feel, whereas this tells you which condition you have."
+    "how_to_distinguish_from_related": "Weaponized Therapy-Speak borrows ideas such as projecting or being triggered and aims them at your motives. This tactic names a disorder, as an insult or a verdict on who you are. Credibility Theft discounts you as a witness by many routes, and here the route is a medical-sounding label. Authority Hijack tells you what you really feel, whereas this tells you which condition you have."
   },
   "Weaponized Therapy-Speak": {
-    "short_definition": "Using therapy words such as boundaries, projecting or triggered to recast someone's limits and complaints as the problem, so the real issue goes unanswered.",
-    "core_meaning": "Using therapy words such as boundaries, projecting or triggered to recast someone's limits and complaints as the problem, so the real issue goes unanswered.",
-    "expanded_definition": "Words like boundaries, triggered, projecting and trauma response are useful when two people use them to understand each other. In this tactic they point at one person only, recasting a limit as avoidance or ending a complaint with a phrase like 'that's your trauma'. Some describe it as role reversal via therapy language, or call it pseudo-insight as shutdown. One clumsy use proves little. The pattern is the vocabulary aimed only at you while your concrete point goes unanswered.",
+    "short_definition": "Using therapy words such as boundaries, projecting or triggered to turn someone's limits and complaints into the problem. The real issue goes unanswered.",
+    "core_meaning": "Using therapy words such as boundaries, projecting or triggered to turn someone's limits and complaints into the problem. The real issue goes unanswered.",
+    "expanded_definition": "Words like boundaries, triggered, projecting and trauma response are useful when two people use them to understand each other. In this tactic they point at one person only. A limit gets recast as avoidance, or a complaint ends with a phrase like 'that's your trauma'. One clumsy use proves little. The pattern is the vocabulary aimed only at you while your concrete point goes unanswered.",
     "plain_language_summary": "Therapy words get used to turn your limit or complaint into a flaw in you. The talk ends, and your real point is never answered.",
-    "why_this_matters": "A specific, checkable complaint is converted into something untestable about your inner life, and your limit is renamed as a symptom. You may leave with the problem unsolved, a new doubt about your own instincts, and a habit of apologizing for the limit.",
+    "why_this_matters": "A specific, checkable complaint is turned into something untestable about your inner life, and your limit is renamed as a symptom. You may leave with the problem unsolved, a new doubt about your own instincts, and a habit of apologizing for the limit.",
     "what_it_is": [
       "Clinical vocabulary aimed at one person's behavior, while the speaker's own behavior is never looked at in the same terms.",
       "A limit, a request for space or a refusal relabeled as avoidance, control, deflection or a trauma response.",
@@ -314,7 +314,7 @@
       "Your email about the missing invoice is answered with 'I think you have some things to unpack.'"
     ],
     "what_it_is_not": [
-      "'You're projecting' is sometimes accurate, and in a therapy room that kind of exploration is the agreed purpose of being there. The marker here is a psychological reading offered as the whole reply to a concrete complaint.",
+      "'You're projecting' is sometimes accurate. In a therapy room, that kind of exploration is the agreed purpose of being there. The sign of this tactic is a psychological reading offered as the whole reply to a concrete complaint.",
       "A good friend gently noting that a pattern of withdrawal might be hurting you, with curiosity and an open door for you to disagree.",
       "Someone applying the same lens to themselves, such as 'I think I was being defensive there'.",
       "A couple or family in therapy together, where looking at each person's patterns is the shared task.",
@@ -336,7 +336,7 @@
       "The talk carries on to your actual point after the phrase."
     ],
     "innocent_or_ordinary_possibilities": [
-      "Therapy language is everywhere online, and many people pick it up and use it clumsily, without noticing it can sound like a diagnosis.",
+      "Therapy language is everywhere online. Many people pick it up and use it clumsily, without noticing it can sound like a diagnosis.",
       "Someone who has benefited from therapy may sincerely want to offer you the same insight.",
       "A person who feels shut out by your limit may reach for an expert-sounding word because they cannot find plain ones for their hurt."
     ],
@@ -368,16 +368,16 @@
       "Disputes end in the same two or three phrases, and issues you raised months ago are still unanswered.",
       "Friends comment that you used to be clearer about what you needed."
     ],
-    "repair_check": "Listen for whether the speaker can describe your limit in your words, not theirs, and whether the original complaint finally gets a reply, even a disagreeing one. A change shows when they ask 'what was my part?' about themselves in the same talk. Praising your growth while the labels still arrive whenever you say no is not that.",
+    "repair_check": "Listen for whether the speaker can describe your limit in your words, not theirs. Listen for whether the original complaint finally gets a reply, even a disagreeing one. A change shows when they ask 'what was my part?' about themselves in the same talk. Praising your growth while the labels still arrive whenever you say no is not that.",
     "boundary_respect_check": "Notice whether the limit survives being named. If you say 'I won't discuss that tonight' and the reply is 'okay, thanks for telling me', the boundary is being respected. If the reply is an assessment of why you feel that way, or a fresh psychological term, the limit has become a topic about you.",
-    "psychological_mechanism": "Clinical words can sound neutral and well informed, so they may be accepted more readily than a plain insult. When a self-protective reaction is described as a symptom, a person can begin to doubt whether their instinct was sound. Because a claim about your inner life cannot be proven or disproven, answering it pulls the talk away from the facts, and objecting may seem to prove the point.",
+    "psychological_mechanism": "Clinical words can sound neutral and well informed, so they may be accepted more readily than a plain insult. When a self-protective reaction is described as a symptom, a person can begin to doubt whether their instinct was sound. A claim about your inner life cannot be proven or disproven. Answering it pulls the talk away from the facts, and objecting may seem to prove the point.",
     "possible_impact_on_receiver": "People describe confusion about whether their limits are healthy, a habit of explaining themselves in clinical terms, and fear that standing firm will confirm a label. Some leave a talk with the problem untouched and a new worry that they might be the problem. Others recall feeling angry only afterward, once they saw that their original complaint was never answered.",
     "response_options": {
       "soft_clarification": "Bring the conversation back to plain words: 'Can we leave the labels aside? I don't want to be shouted at, and that's all I'm asking.'",
       "firm_boundary": "Name what the talk is about: 'I'm asking about the invoice I raised. Please answer that. I'm not going to debate my psychology.'",
-      "disengagement": "When each limit you set is met with an analysis, end the exchange and put the concrete question in writing, in plain language, so it stands on the page.",
-      "support_seeking": "Describe the whole exchange, including your original complaint, to a licensed therapist or trusted friend, and ask whether your question was answered.",
-      "workplace_or_professional": "If a manager uses terms like 'defensive' or 'not a team player' to answer a boundary, ask for the specific behavior and the specific request in writing, with a date."
+      "disengagement": "When each limit you set is met with an analysis, end the exchange. Put the concrete question in writing, in plain language, so it stands on the page.",
+      "support_seeking": "Describe the whole exchange, including your original complaint, to a licensed therapist or trusted friend. Ask whether your question was answered.",
+      "workplace_or_professional": "If a manager answers a boundary with terms like 'defensive' or 'not a team player', ask for the specific behavior and the specific request in writing, with a date."
     },
     "boundary_script": "\"You may be right that my past plays a part, and I'm open to talking about that another time. Right now I'm asking about the invoice, and I need a break when voices are raised. Can we stay with what happened?\"",
     "safety_sensitive": false,
@@ -386,6 +386,6 @@
       "Turning the label on someone who is honestly sharing a concern about your withdrawal can stop you hearing something true. Ask whether the concern is aimed at understanding you.",
       "Calling any use of therapy words a manipulation would punish people who are trying to learn how to talk about feelings."
     ],
-    "how_to_distinguish_from_related": "Non-Apology Apology regrets your reaction without admitting what caused it, while this one goes further by giving your reaction a clinical name. Blame-Shifting says the problem is your fault in general terms, and here the blame arrives in expert vocabulary. Minimization says what happened was small, whereas this says your response to it is the symptom."
+    "how_to_distinguish_from_related": "Non-Apology Apology regrets your reaction without admitting what caused it. This tactic goes further by giving your reaction a clinical name. Blame-Shifting says the problem is your fault in general terms, and here the blame arrives in expert vocabulary. Minimization says what happened was small, whereas this says your response to it is the symptom."
   }
 }

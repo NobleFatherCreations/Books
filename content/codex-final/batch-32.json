@@ -1,9 +1,9 @@
 {
  "Ultimatums": {
-  "short_definition": "Demanding that someone pick one of two outcomes immediately, with a loss attached to the option the speaker does not want.",
-  "expanded_definition": "An ultimatum states a demand and names what will be lost if it is not met, often with a deadline or no room to reply. Honest limits can be worded this way too, so the form alone proves little. What marks the pattern is that the choice is sprung suddenly, the loss is aimed at you rather than at the speaker's own wellbeing, and other options are kept out of view. Repeated use can teach a household that every disagreement ends in a deal-or-else.",
+  "short_definition": "Demanding that someone pick one of two outcomes right away, with a loss attached to the option the speaker does not want.",
+  "expanded_definition": "An ultimatum states a demand and names what will be lost if it is not met, often with a deadline or no room to reply. Honest limits can be worded this way too, so the form alone proves little. Three things mark the pattern. The choice is sprung suddenly. The loss is aimed at you, not at the speaker's own wellbeing. Other options are kept out of view. Repeated use can teach a household that every disagreement ends in a deal-or-else.",
   "plain_language_summary": "Someone hands you two choices, one of them painful, and expects an answer on the spot instead of a conversation.",
-  "why_this_matters": "A decision made with a loss hanging over it is rarely a free one. You may agree to things you would have weighed differently, and you may stop raising concerns at all, because every concern risks turning into a showdown.",
+  "why_this_matters": "A decision made with a loss hanging over it is rarely a free one. You may agree to things you would have weighed differently. You may also stop raising concerns at all, because every concern risks turning into a showdown.",
   "what_it_is": [
    "A demand paired with a named loss, such as the end of a friendship, a job offer, a move, or a relationship.",
    "Often delivered at the peak of an argument, when neither person is thinking clearly.",
@@ -44,7 +44,7 @@
   "innocent_or_ordinary_possibilities": [
    "A person at the end of their rope may blurt out a hard line they do not fully mean, then walk it back.",
    "Some people who have been ignored for a long time reach for a firm statement because earlier requests did not land.",
-   "A real dealbreaker, such as wanting children or moving cities, can sound like an ultimatum even when it is stated honestly."
+   "A real dealbreaker, such as wanting children or moving cities, can sound like an ultimatum even when it is honestly stated."
   ],
   "common_false_positives": [
    "A friend saying 'I can't keep covering your rent, so this is the last month I can do it.'",
@@ -64,7 +64,7 @@
    "They accept a 'not yet' without punishing it."
   ],
   "more_concerning_if": [
-   "The ultimatums grow more frequent and more extreme over time, covering contact with family, money, or your phone.",
+   "The ultimatums grow more frequent and more extreme over time. They cover contact with family, money, or your phone.",
    "The named loss is something you depend on, such as housing, children, income, or your standing in a community.",
    "Refusing leads to the loss actually being inflicted, which teaches that the next demand is real too."
   ],
@@ -74,29 +74,29 @@
    "The size of what is demanded creeps up, from small chores to bigger life choices.",
    "You catch yourself scanning for the signs of a coming showdown before you walk in the door."
   ],
-  "repair_check": "Notice whether the demand itself is taken back, not just the tone. Someone repairing this brings the underlying need to the table as a request and accepts 'let me think'. An apology for how loudly it was said, with the same demand still standing, leaves the structure in place.",
-  "boundary_respect_check": "Try asking for a day to decide. What happens to that request is informative: it may be granted without comment, or it may be treated as defiance and the deadline moved up. A boundary that is respected does not result in a harsher second ultimatum.",
-  "psychological_mechanism": "When something valued is put on the table as the price of saying no, the mind tends to narrow onto avoiding that loss and stop weighing the actual question. Fear of loss pulls harder than hope of gain for many people. A short window adds to it by removing the chance to ask anyone else or sleep on it.",
-  "possible_impact_on_receiver": "People describe agreeing in the moment and feeling resentful or hollow later, rehearsing arguments in the shower, and walking on eggshells to avoid the next showdown. Some describe losing track of what they wanted in the first place, since every decision has become a way of avoiding a loss.",
+  "repair_check": "Notice whether the demand itself is taken back, and not only the tone. Someone repairing this brings the underlying need to the table as a request and accepts 'let me think'. An apology for how loudly it was said, with the same demand still standing, leaves the structure in place.",
+  "boundary_respect_check": "Try asking for a day to decide. What happens to that request tells you something. It may be granted without comment, or it may be treated as defiance and the deadline moved up. A boundary that is respected does not result in a harsher second ultimatum.",
+  "psychological_mechanism": "When something valued is put on the table as the price of saying no, the mind tends to narrow onto avoiding that loss. It stops weighing the actual question. Fear of loss pulls harder than hope of gain for many people. A short window adds to it by removing the chance to ask anyone else or sleep on it.",
+  "possible_impact_on_receiver": "People describe agreeing in the moment and feeling resentful or hollow later. They describe rehearsing arguments in the shower and walking on eggshells to avoid the next showdown. Some describe losing track of what they wanted in the first place, since every decision has become a way of avoiding a loss.",
   "response_options": {
    "soft_clarification": "Slow the moment down by naming it: 'It sounds like there are only two doors here. Can we look for a third before either of us decides?'",
    "firm_boundary": "Ask for time instead of refusing the deadline outright: 'Could I give you my answer tomorrow? I want to decide properly.' If the deadline comes with threats, talk to an advocate first.",
-   "disengagement": "Ask for a short break when the demand arrives, such as a drink of water or a call to a friend, and let the topic wait without announcing a verdict. Use the time to think about what is safe.",
-   "support_seeking": "Tell a friend or counselor exactly what the two options were and what was threatened, and ask whether a third option was visible from outside.",
-   "workplace_or_professional": "If a manager or client sets a take-it-or-leave-it demand, ask for the terms in writing and a reasonable time to respond, and keep the message."
+   "disengagement": "Ask for a short break when the demand arrives, such as a drink of water or a call to a friend. Let the topic wait without announcing a verdict. Use the time to think about what is safe.",
+   "support_seeking": "Tell a friend or counselor exactly what the two options were and what was threatened. Ask whether they can see a third option from outside.",
+   "workplace_or_professional": "If a manager or client sets a take-it-or-leave-it demand, ask for the terms in writing and a reasonable time to respond. Keep the message."
   },
   "boundary_script": "\"I take what you're asking seriously, and I want to give it a proper answer. Could I have until tomorrow to think it over?\" If the deadline carries threats, talk to an advocate before replying.",
   "safety_sensitive": true,
-  "safety_note": "Danger signals are a named loss that is actually inflicted, stakes that involve children, housing, immigration status or money, and threats of self-harm or exposure. If the demands are growing or the stakes feel life-sized, talk to an advocate or counselor before responding, and keep your own plans private.",
+  "safety_note": "Danger signals include a named loss that is actually inflicted, stakes that involve children, housing, immigration status or money, and threats of self-harm or exposure. If the demands are growing or the stakes feel life-sized, talk to an advocate or counselor before responding, and keep your own plans private.",
   "misuse_warning": [
-   "Calling a person's honest limit an ultimatum can paint any 'I can't stay if this continues' as coercion, and leave someone with a real need unheard.",
+   "Calling a person's honest limit an ultimatum can paint any 'I can't stay if this continues' as coercion. That can leave someone with a real need unheard.",
    "Using the word to win an argument turns a description of a move into a verdict on the person who made it."
   ],
   "how_to_distinguish_from_related": "A false dilemma hides options but need not threaten anything; an ultimatum always carries a loss. Urgency is about the clock alone, while an ultimatum also names the penalty. Sunk cost leans on what has already been spent, where an ultimatum leans on what will be taken away next. The ultimatum is the one that says: do this, or lose that.",
-  "core_meaning": "Demanding that someone pick one of two outcomes immediately, with a loss attached to the option the speaker does not want."
+  "core_meaning": "Demanding that someone pick one of two outcomes right away, with a loss attached to the option the speaker does not want."
  },
  "False Dilemma": {
-  "short_definition": "Describing a situation as having only two possible answers when more exist, so that the person feels pushed toward one.",
+  "short_definition": "Saying there are only two possible answers when more exist, so the person feels pushed toward one.",
   "expanded_definition": "A false dilemma squeezes a messy situation into two choices, usually one that suits the speaker and one that sounds unbearable. Everyday speech is full of loose either-or phrasing, and honest people use it when they are tired or anxious. The pattern shows when you suggest a third option and it is brushed off, ignored, or treated as disloyal. The two-door frame can then stand in for an argument the speaker would struggle to win in the open.",
   "plain_language_summary": "You are told there are only two choices, and both are bad or lopsided, when other roads clearly exist.",
   "why_this_matters": "When the list of choices has been trimmed for you, you can feel you chose freely while only picking from what was left. Over time you may stop looking for options at all, and start treating a normal disagreement as a test of loyalty.",
@@ -118,10 +118,10 @@
   ],
   "what_it_is_not": [
    "A situation that really does come down to two options, such as accepting a job offer or turning it down.",
-   "A quick way of speaking when someone is tired, such as 'we either go now or we miss the train', that changes once you point out the next train.",
+   "A quick way of speaking when someone is tired, such as 'we either go now or we miss the train'. It changes once you point out the next train.",
    "A simplified choice offered by someone who invites you to add what they missed, as in 'I see two options. Is there a third?'",
    "A narrow question set openly in a quiz, a poll, or a debate class, where everyone knows the format.",
-   "Someone's honest belief that no middle path exists, held without any intent to steer you and dropped when shown otherwise."
+   "Someone honestly believes no middle path exists. They have no plan to steer you, and they drop the idea when shown another way."
   ],
   "this_may_be_it_when": [
    "You name a third option and it is dismissed without discussion.",
@@ -139,7 +139,7 @@
   ],
   "innocent_or_ordinary_possibilities": [
    "Under stress, many people reduce a decision to two options simply because they cannot think of more.",
-   "Someone who has already thought long and hard about a problem may honestly believe they have exhausted the alternatives.",
+   "Someone who has thought long and hard about a problem may honestly believe they have run out of other choices.",
    "Binary phrasing is a common habit of speech and does not always signal an effort to steer."
   ],
   "common_false_positives": [
@@ -170,32 +170,32 @@
    "Your own list of options has shrunk, and creative solutions feel pointless to suggest.",
    "Friends outside the situation keep naming options that you had stopped seeing."
   ],
-  "repair_check": "A genuine fix shows when the options get wider after you point them out, and when the speaker later brings a third possibility themselves. Saying 'fair enough, you have a point' and then returning to the same two-door framing in the next disagreement means the habit is intact.",
+  "repair_check": "A real fix shows when the options get wider after you point them out. It also shows when the speaker brings up a third possibility themselves. If they say 'fair enough, you have a point' and then use the same two-door framing in the next disagreement, the habit is still there.",
   "boundary_respect_check": "After you say you see more than two possibilities, ask yourself whether the next answer engages with one of them. Watch for a reply that restates the original pair more loudly, or one that treats your third option as an attack. A real response puts that third option on the table.",
-  "psychological_mechanism": "People under pressure tend to take the options in front of them rather than invent new ones, because generating alternatives takes effort that stress leaves little room for. A framing that presents a sharp contrast can also make one option look better simply by sitting next to a worse one, so the decision feels easy.",
-  "possible_impact_on_receiver": "Feeling cornered without being able to say why is common in accounts of this, doubting that they ever had a real say, and getting stuck in decisions where every route feels like a betrayal. Some say they only noticed the missing options when someone outside the situation pointed them out.",
+  "psychological_mechanism": "People under pressure tend to pick from the options in front of them rather than invent new ones. Coming up with alternatives takes effort, and stress leaves little room for it. A sharp contrast can also make one option look better just by sitting next to a worse one, so the decision feels easy.",
+  "possible_impact_on_receiver": "Accounts of this often describe feeling cornered without being able to say why. People also describe doubting that they ever had a real say, and getting stuck in decisions where every route feels like a betrayal. Some say they only noticed the missing options when someone outside the situation pointed them out.",
   "response_options": {
    "soft_clarification": "Add an option out loud without arguing: 'I see those two, and I also see waiting a month, or splitting it. Can we look at those?'",
    "firm_boundary": "Refuse the frame itself: 'I don't agree that it's only these two. I'll decide when I've looked at the rest.'",
    "disengagement": "If the two-door framing keeps coming back mid-argument, pause the talk and return with a written list of alternatives to go through.",
-   "support_seeking": "Describe the two options you were handed to someone uninvolved and ask them to list what else they can see; outside eyes often find the missing doors quickly.",
-   "workplace_or_professional": "When a manager or vendor presents only two paths, ask in an email, 'Before I decide, what other approaches were considered?' and keep the reply."
+   "support_seeking": "Describe the two options you were handed to someone uninvolved. Ask them to list what else they can see. Outside eyes often find the missing doors quickly.",
+   "workplace_or_professional": "When a manager or vendor presents only two paths, ask in an email, 'Before I decide, what other approaches were considered?' Keep the reply."
   },
   "boundary_script": "\"I can see why those two options look clear to you. To me there are more, such as taking more time, doing part of it, or asking someone else. I'd like to talk through those before I choose.\"",
   "safety_sensitive": false,
   "safety_note": "A narrowed menu is a small matter in a shop or a meeting. It becomes more serious when the two options are both costly to you and involve your housing, money, children, or contact with friends. At that point, quiet advice from a legal aid service, a counselor, or a trusted friend matters more than debating the framing.",
   "misuse_warning": [
    "Labeling any either-or question as a false dilemma can shut down honest, simple choices such as 'tea or coffee?'",
-   "Accusing a person of this move in the middle of an argument can become a way to avoid answering the actual question."
+   "Accusing a person of this move in the middle of an argument can become a way to avoid answering the real question."
   ],
   "how_to_distinguish_from_related": "An ultimatum attaches a penalty to saying no; a false dilemma only hides the other roads and needs no threat. Urgency is about time and can leave a long list of options intact, while this tactic narrows the list. Sunk cost points back at what you already invested to block leaving. The false dilemma is the one where the menu itself has been trimmed.",
-  "core_meaning": "Describing a situation as having only two possible answers when more exist, so that the person feels pushed toward one."
+  "core_meaning": "Saying there are only two possible answers when more exist, so the person feels pushed toward one."
  },
  "Sunk Cost Exploitation": {
   "short_definition": "Pointing to the time, money or effort already spent as a reason you cannot stop, change course or leave now.",
-  "expanded_definition": "People often keep going with something because they have already put so much into it. Sunk cost exploitation takes that ordinary pull and leans on it, whatever the reason, so past investment becomes the main reason to stay. It differs from honest grief about a shared history because the past is cited at the moment you consider leaving, and it substitutes for any case about the present. One mention of shared years may be love. A repeated invoice for them looks different.",
+  "expanded_definition": "People often keep going with something because they have already put so much into it. Sunk cost exploitation takes that ordinary pull and leans on it, whatever the reason, so past investment becomes the main reason to stay. It differs from honest grief about a shared history. Here the past is cited at the moment you consider leaving, and it takes the place of any case about the present. One mention of shared years may be love. A repeated invoice for them looks different.",
   "plain_language_summary": "Someone reminds you of everything you have already put in so that leaving feels like throwing it all away.",
-  "why_this_matters": "Past investment cannot be recovered whether you stay or go, yet it can feel like a debt that has to be paid. When the years, money or effort already spent are used to stop you leaving, you may end up putting more in just to avoid admitting the loss.",
+  "why_this_matters": "Past investment cannot be recovered whether you stay or go, yet it can feel like a debt that has to be paid. When the years, money or effort already spent are used to stop you leaving, you may put in even more just to avoid admitting the loss.",
   "what_it_is": [
    "A reminder of past effort, years, money, or sacrifice, raised at the moment you think about stopping.",
    "A stand-in for an argument about the present: the case for staying rests on what happened earlier.",
@@ -227,19 +227,19 @@
    "Saying you might stop is met with an invoice rather than a question about why."
   ],
   "this_may_not_be_it_when": [
-   "They also talk about the present and what could improve, not only the past.",
+   "They talk about the present and what could improve, as well as the past.",
    "Their sadness is clear, but they accept your decision when you state it.",
    "The reminder is a fair cost, such as a contract penalty, that applies to both people.",
    "You are the one who raised the history, weighing it as one factor among several.",
    "They ask what is not working and listen to the answer."
   ],
   "innocent_or_ordinary_possibilities": [
-   "Long shared history is a genuine part of a relationship, and mentioning it can be a heartfelt reaction rather than a tactic.",
+   "Long shared history is a real part of a relationship, and mentioning it can be a heartfelt reaction rather than a tactic.",
    "Anyone in a venture they have funded may truly mean it when they say they have a lot to lose.",
-   "People who feel frightened of losing a partner or a friend often reach for the years they shared, because it is what they have to offer."
+   "People who are frightened of losing a partner or a friend often reach for the years they shared. It is what they have to offer."
   ],
   "common_false_positives": [
-   "A business partner pointing out that dissolving the company now would cost both of you the money already invested.",
+   "A business partner pointing out that closing the company now would cost both of you the money already invested.",
    "A spouse who cries and says 'I just can't believe it's ending after so long', without asking you to stay.",
    "A coach reminding you of your training so far when you are tempted to quit before a race you chose."
   ],
@@ -266,32 +266,32 @@
    "The list of past sacrifices is retold at similar moments, in nearly the same words.",
    "You keep adding effort or money mainly to avoid being the person who gave up."
   ],
-  "repair_check": "Look for the present-tense conversation that was missing before. If the other person asks what is not working and actually changes something, that is repair. If the history is replaced by a larger sacrifice, a bigger gift, or tears timed to the moment you pull back, the same lever is still being pulled.",
-  "boundary_respect_check": "Can you say 'I understand what we have invested, and I still need to decide' and have that sentence heard as something other than cruelty? A response that honors it may be sad, but it lets the decision stand. One that reads out the ledger again does not.",
-  "psychological_mechanism": "Many people find it hard to walk away from something they have already paid for, because stopping makes the earlier spending feel like a loss that has to be admitted. This pull exists without anyone pressing on it. When someone reminds you of the total at the moment of choice, it can grow stronger and crowd out thinking about what comes next.",
-  "possible_impact_on_receiver": "People describe staying longer than they wanted to, feeling guilty for even thinking about leaving, and keeping a running count of what they have given. Some say they felt trapped by their own history, and found it hard to tell whether they wanted to stay or just could not bear to lose what they had spent.",
+  "repair_check": "Look for the present-tense conversation that was missing before. If the other person asks what is not working and actually changes something, that is repair. If the history is swapped for a bigger sacrifice, a bigger gift, or tears timed to the moment you pull back, the same lever is still being pulled.",
+  "boundary_respect_check": "Can you say 'I understand what we have invested, and I still need to decide' and have that heard as something other than cruelty? A response that respects it may be sad, but it lets the decision stand. One that reads out the ledger again does not.",
+  "psychological_mechanism": "Many people find it hard to walk away from something they have already paid for. Stopping makes the earlier spending feel like a loss they have to admit. This pull exists without anyone pressing on it. When someone reminds you of the total at the moment of choice, it can grow stronger and crowd out thinking about what comes next.",
+  "possible_impact_on_receiver": "People describe staying longer than they wanted to, feeling guilty for even thinking about leaving, and keeping a running count of what they have given. Some say they felt trapped by their own history. They found it hard to tell whether they wanted to stay or just could not bear to lose what they had spent.",
   "response_options": {
    "soft_clarification": "Acknowledge the past without letting it decide: 'I know how much we've put in, and I'm grateful for it. I still need to look at what's right from here.'",
    "firm_boundary": "Separate history from decision: 'What we spent is gone either way. I'm deciding based on what I want next, not on what's already behind us.'",
-   "disengagement": "When the ledger comes out mid-conversation, take a break from the topic and decide somewhere the recital cannot follow you.",
-   "support_seeking": "Put the question to someone with no stake: 'If I were starting fresh today, would you say I should choose this?' Their answer separates the past from the present.",
-   "workplace_or_professional": "With a business or work commitment, ask for the real exit costs in writing and compare them against the future costs of staying; a financial adviser can help."
+   "disengagement": "When the ledger comes out mid-conversation, take a break from the topic. Decide somewhere the recital cannot follow you.",
+   "support_seeking": "Put the question to someone with no stake in it: 'If I were starting fresh today, would you say I should choose this?' Their answer separates the past from the present.",
+   "workplace_or_professional": "With a business or work commitment, ask for the real exit costs in writing. Compare them against the future costs of staying. A financial adviser can help."
   },
   "boundary_script": "\"I know how much time and money we've both put in, and I'm not dismissing it. What's already been spent can't be what decides this. I'm going to think about what I want from here.\"",
   "safety_sensitive": false,
-  "safety_note": "This tactic gets more serious when the investment is financial and tied to debt, shared property, immigration sponsorship, or children, since leaving can then really cost something. If you are told you owe money or status to stay, get advice from legal aid or a financial counselor privately, before any conversation about it.",
+  "safety_note": "This tactic gets more serious when the investment is financial and tied to debt, shared property, immigration sponsorship, or children. Leaving can then really cost something. If you are told you owe money or status to stay, get advice privately from legal aid or a financial counselor, before any conversation about it.",
   "misuse_warning": [
    "Calling any mention of shared history 'sunk cost exploitation' can dismiss someone's honest grief about an ending.",
-   "The label fits poorly when you are the one who keeps citing your own past investment; that is the fallacy, which is a thinking habit rather than something done to you."
+   "The label fits poorly when you are the one who keeps citing your own past investment. That is the fallacy, which is a thinking habit rather than something done to you."
   ],
   "how_to_distinguish_from_related": "An ultimatum threatens a future loss if you do not comply; this tactic holds up a past one so that leaving feels wasteful. A false dilemma hides other options, but here the options are visible and the pull comes from what you already gave. Urgency presses on time. Sunk cost exploitation is the one that sends you to your own history to keep you in place.",
   "core_meaning": "Pointing to the time, money or effort already spent as a reason you cannot stop, change course or leave now."
  },
  "Response-Time Policing": {
   "short_definition": "Treating the time taken to answer a message as a failing that must be explained, so you feel permanently on call.",
-  "expanded_definition": "Everyone has felt a flicker of worry when a text goes unanswered. Response-time policing turns that flicker into a rule: the gap between the message being seen and being answered is measured, and the person who was busy owes an account of it. One anxious follow-up means little. The pattern shows when delays draw demands for an explanation, when it only runs in one direction, and when the rules tighten as time goes on, until you are checking your phone in meetings, at dinner, or in the night.",
+  "expanded_definition": "Everyone has felt a flicker of worry when a text goes unanswered. Response-time policing turns that flicker into a rule. The gap between the message being seen and being answered is measured, and the person who was busy owes an account of it. One anxious follow-up means little. The pattern shows when delays draw demands for an explanation, when it only runs in one direction, and when the rules get tighter over time, until you are checking your phone in meetings, at dinner, or in the night.",
   "plain_language_summary": "Someone treats a slow reply as an offense, so you feel you must stay reachable and explain every gap.",
-  "why_this_matters": "If every delay needs a defense, your attention is no longer fully yours. You may carry your phone like a leash, cut things short with other people, and feel guilty for being away from it, even when you were doing nothing wrong.",
+  "why_this_matters": "If every delay needs a defense, your attention is no longer fully yours. You may carry your phone like a leash. You may cut things short with other people and feel guilty for being away from the phone, even when you were doing nothing wrong.",
   "what_it_is": [
    "Counting the minutes between a message being delivered or read and your reply.",
    "Asking for a reason after a delay, as if the gap were a missed appointment.",
@@ -311,7 +311,7 @@
   "what_it_is_not": [
    "A worried 'just checking you got home safe' sent once, with no reproach if you were asleep.",
    "A shared agreement, such as parents and teens texting arrival times, applied to both sides.",
-   "A reasonable expectation at work or in an emergency role, such as on-call nursing, that is written down and shared.",
+   "A reasonable expectation at work or in an emergency role, like on-call nursing, when it is written down and shared.",
    "Disappointment said once, such as 'I missed hearing from you today', with no demand attached.",
    "Real anxiety after a loss or a scare, such as an accident, where a person asks for more contact and accepts a limit."
   ],
@@ -330,9 +330,9 @@
    "They accept 'I was busy' without pressing further."
   ],
   "innocent_or_ordinary_possibilities": [
-   "People with anxiety, or who have lost someone suddenly, may check more often than others and be reassured easily.",
+   "People with anxiety, or who have lost someone suddenly, may check more often than others. They are easily reassured.",
    "Couples in different time zones may feel each gap more sharply because their windows are short.",
-   "A person whose messages usually get fast replies may simply be surprised by a silence, and curious, rather than accusing."
+   "A person whose messages usually get fast replies may be surprised by a silence. They may simply be curious, and may not be accusing."
   ],
   "common_false_positives": [
    "A parent asking a teen to text when they arrive at a friend's house, and calmly accepting a late text.",
@@ -362,25 +362,25 @@
    "The windows you are allowed to be unreachable have shrunk to almost nothing.",
    "Time with friends has become shorter or skipped because of the fallout from a missed message."
   ],
-  "repair_check": "Repair is visible in what happens to the clock, not only in words. When the other person stops asking for an accounting of delays, accepts a late reply without comment, and states their own worry as their own, the pressure is lessening. An apology that comes with a new, stricter check-in rule has only moved the problem.",
+  "repair_check": "Repair shows in what happens to the clock, as well as in words. When the other person stops asking for an accounting of delays, accepts a late reply without comment, and states their own worry as their own, the pressure is lessening. An apology that comes with a new, stricter check-in rule has only moved the problem.",
   "boundary_respect_check": "Tell them when you will usually be reachable and when you will not, then watch the week that follows. Does the next gap pass without a charge? Or do the questions return in a different wrapping, such as jokes, sulking, or a suddenly cold tone?",
-  "psychological_mechanism": "Being told that silence is a sign of how much you care can make delay feel like a moral failing rather than an ordinary part of a busy day. Answering fast becomes a relief from the discomfort of being questioned, and each quick reply tends to reinforce the expectation. Over time, anticipating the next message can occupy attention even when the phone is quiet.",
-  "possible_impact_on_receiver": "A tight feeling when the phone buzzes comes up often, apologizing for delays that were not their fault, and cutting short meals, meetings, or sleep to answer. Some say they stopped telling anyone where they were going, because the explanations never ended the questioning. Others describe being unable to put the phone down even once the demands eased.",
+  "psychological_mechanism": "Being told that silence shows how much you care can make delay feel like a moral failing instead of an ordinary part of a busy day. Answering fast brings relief from the discomfort of being questioned, and each quick reply tends to reinforce the expectation. Over time, waiting for the next message can take up your attention even when the phone is quiet.",
+  "possible_impact_on_receiver": "People often describe a tight feeling when the phone buzzes, apologizing for delays that were not their fault, and cutting short meals, meetings, or sleep to answer. Some say they stopped telling anyone where they were going, because the explanations never ended the questioning. Others describe being unable to put the phone down even once the demands eased.",
   "response_options": {
    "soft_clarification": "Name the gap without apologizing for it: 'I was in a meeting and couldn't look at my phone. I'm happy to tell you when I'll be free next.'",
    "firm_boundary": "State your availability plainly: 'I'm not able to answer within minutes during the day. I'll reply when I can, and I'd like us to trust that.'",
    "disengagement": "Silence your notifications for set blocks of time and answer when you are ready, rather than in the middle of a demand.",
    "support_seeking": "Show a friend the actual message thread, with the time stamps, and ask whether the response times look unreasonable to them.",
-   "workplace_or_professional": "If a manager expects instant replies, ask for the expectation in writing, including hours when you are off, and raise it with HR if it grows."
+   "workplace_or_professional": "If a manager expects instant replies, ask for the expectation in writing, including the hours when you are off. Raise it with HR if it grows."
   },
   "boundary_script": "\"I'm not ignoring you when I don't answer right away. I'll reply when I can, and I'm not going to explain every gap. If something is urgent, call me and I'll pick up.\"",
   "safety_sensitive": false,
-  "safety_note": "Reply-time rules become a safety concern when they turn into tracking: location sharing you did not choose, or going through your phone. Checking who you were with, or anger or threats after a delay, are signs too. If a missed text brings fear rather than annoyance, speak to a domestic abuse advocate, who can help you plan privately, away from the monitored device.",
+  "safety_note": "Reply-time rules become a safety concern when they turn into tracking, such as location sharing you did not choose, or someone going through your phone. Checking who you were with, or anger or threats after a delay, are signs too. If a missed text brings fear rather than annoyance, speak to a domestic abuse advocate. They can help you plan privately, away from the monitored device.",
   "misuse_warning": [
    "Labeling an anxious partner's reasonable worry as policing can leave real needs for contact unheard.",
-   "Treating slow replies as proof of anything about the other person is the mirror mistake; delays alone say nothing about intent."
+   "Treating slow replies as proof of anything about the other person is the mirror mistake. Delays alone say nothing about intent."
   ],
-  "how_to_distinguish_from_related": "Interrogation demands justification for anything you did or said, while this tactic is specific to the gap before you reply. An ultimatum names a loss if you fail to comply; here the penalty is usually mood, guilt, or questioning. Urgency manufacturing makes a decision feel rushed, whereas this one makes your availability feel owed. The identifying feature is the clock running on your reply.",
+  "how_to_distinguish_from_related": "Interrogation demands justification for anything you did or said. This tactic is specific to the gap before you reply. An ultimatum names a loss if you fail to comply, but here the penalty is usually mood, guilt, or questioning. Urgency manufacturing makes a decision feel rushed, whereas this one makes your availability feel owed. The identifying feature is the clock running on your reply.",
   "core_meaning": "Treating the time taken to answer a message as a failing that must be explained, so you feel permanently on call."
  },
  "Interrogation": {

@@ -1,15 +1,15 @@
 {
   "Self-Harm Threats as Leverage": {
-    "short_definition": "Saying one will hurt or kill oneself if the other person leaves or refuses, which ties their decision to the speaker's survival.",
-    "core_meaning": "Saying one will hurt or kill oneself if the other person leaves or refuses, which ties their decision to the speaker's survival.",
-    "expanded_definition": "These are statements about suicide or self-injury that are tied to a particular choice the other person is making: leaving, ending a call, saying no. The same words can come from real despair, and from the outside the two can look identical, so every such statement deserves a serious response. The link to a demand is the tell: the statements arrive when a boundary does, and the person hearing them ends up responsible for another person's life.",
+    "short_definition": "Someone saying they will hurt or kill themselves if the other person leaves or refuses, so that the other person's decision feels tied to whether the speaker lives.",
+    "core_meaning": "Someone saying they will hurt or kill themselves if the other person leaves or refuses, so that the other person's decision feels tied to whether the speaker lives.",
+    "expanded_definition": "These are statements about suicide or self-injury that are tied to a particular choice the other person is making, such as leaving, ending a call or saying no. The same words can come from real despair, and from the outside the two can look identical. So every such statement deserves a serious response. The link to a demand is the tell. The statements arrive when a boundary does, and the person hearing them ends up responsible for another person's life.",
     "plain_language_summary": "Someone says they will hurt themselves if you go or say no, and your choice suddenly feels like it carries their life. The fear and the crisis can both be real.",
-    "why_this_matters": "Hearing that your decision could cost a life is one of the heaviest things a person can carry. Many people stop making ordinary choices, like ending an evening or taking a trip, because the stakes feel too high, while the underlying distress goes unaddressed.",
+    "why_this_matters": "Hearing that your decision could cost a life is one of the heaviest things a person can carry. Many people stop making ordinary choices, like ending an evening or taking a trip, because the stakes feel too high. Meanwhile the underlying distress goes unaddressed.",
     "what_it_is": [
-      "Statements about suicide or self-injury that arrive just as you move toward a separation, a refusal or a plan of your own.",
+      "Statements about suicide or self-injury that come just as you move toward a separation, a refusal or a plan of your own.",
       "A link drawn between your choice and the speaker's safety, so that one answer feels like the only safe one.",
       "Sometimes said once on a terrible night, sometimes repeated each time a boundary is tried.",
-      "Often followed by a request for reassurance, a promise or a canceled plan, and not by a step toward getting help.",
+      "Often followed by a request for reassurance, a promise or a canceled plan, and no step toward getting help.",
       "Said face to face, in a late-night text or in a voicemail left after you have gone.",
       "Hard to read from outside, because the same sentence can be a plea for rescue. That is why it is never brushed off."
     ],
@@ -28,7 +28,7 @@
       "A safety plan made with a therapist, where the person texts you a code word when they are struggling.",
       "Flat exhaustion after a loss, such as 'I can't do this any more', that signals depletion and not a plan.",
       "A statement of hopelessness made on a day when you were not leaving or refusing anything.",
-      "Someone overwhelmed at a breakup who blurts out the biggest words they have because they cannot find another way to say how bad it is."
+      "Someone overwhelmed at a breakup who blurts out the biggest words they have, because they cannot find another way to say how bad it is."
     ],
     "this_may_be_it_when": [
       "The statement arrives within minutes of you saying you are leaving, declining or ending a conversation.",
@@ -78,16 +78,16 @@
       "Friends and family see less of you because evenings keep being cut short.",
       "You feel guilty about ordinary things, like switching your phone off to sleep."
     ],
-    "repair_check": "The plan does not run through you alone: a clinician, a written safety plan, a relative they trust, and the person actually using them when they struggle. Repair also means they can hear 'no' on an ordinary day without the subject returning to their life or death. Tearful apologies alone do not show it.",
+    "repair_check": "The plan does not run through you alone. It includes a clinician, a written safety plan, a relative they trust, and the person actually using them when they struggle. Repair also means they can hear 'no' on an ordinary day without the subject returning to their life or death. Tearful apologies alone do not show it.",
     "boundary_respect_check": "Notice whether your wish to bring in a third person is welcomed or fought. When someone is in danger from their own thoughts, an extra helper often brings relief. If every route except you gets refused, that is worth noting, privately and with someone you trust.",
     "psychological_mechanism": "Threats like this can fuse two fears: that the person will die, and that you will be the cause. Compassion and responsibility are strong, and once one choice is framed as life or death, weighing your own needs can seem cruel. The effect can outlast the crisis, since you learn that a no may carry a price.",
-    "possible_impact_on_receiver": "Constant alertness comes up often, as does a sense of being responsible for another adult's life, plans dropped to stay near the phone, and guilt whether you stay or step away. Numbness is reported, or relief mixed with shame once a crisis passes. Many kept it secret in case the person got into trouble.",
+    "possible_impact_on_receiver": "Constant alertness comes up often. So does a sense of being responsible for another adult's life, plans dropped to stay near the phone, and guilt whether you stay or step away. Some people report numbness, or relief mixed with shame once a crisis passes. Many kept it secret in case the person got into trouble.",
     "response_options": {
-      "soft_clarification": "Stay with the feeling first: 'I can hear how much pain you're in, and I take it seriously.' Then ask the plain question: 'Are you thinking of hurting yourself tonight?'",
-      "firm_boundary": "Hold that you are one support and not the only one: 'I care about you, and I can't be the only thing keeping you safe. Let's call a crisis line together.'",
+      "soft_clarification": "Start with the feeling: 'I can hear how much pain you're in, and I take it seriously.' Then ask the plain question: 'Are you thinking of hurting yourself tonight?'",
+      "firm_boundary": "Make clear that you are one support and not the only one: 'I care about you, and I can't be the only thing keeping you safe. Let's call a crisis line together.'",
       "disengagement": "If a threat arrives while you are apart, you do not have to argue it out by text. Send a crisis number, or ask a relative nearby to check in on them, and keep your own reply short and kind.",
       "support_seeking": "Tell one person you trust what was said, in the actual words, and ask a counselor or a domestic abuse advocate how to respond. You should not carry this by yourself.",
-      "workplace_or_professional": "If the messages arrive during work hours, you can tell a manager you have a personal emergency without giving detail, and ask whether your employer offers a counseling program."
+      "workplace_or_professional": "If the messages arrive during work hours, you can tell a manager you have a personal emergency without giving detail. You can also ask whether your employer offers a counseling program."
     },
     "boundary_script": "\"I believe it hurts, and I'm taking what you said seriously. I can't be the only one who helps you stay safe, so I'd like us to call a crisis line together right now. Would it help if I called your brother to come over?\"",
     "safety_sensitive": true,
@@ -99,15 +99,15 @@
     "how_to_distinguish_from_related": "Emotional Blackmail attaches many possible losses, such as withdrawn love, exposure or anger, to a refusal; here the stake is the speaker's own life. Pity Plays end in comfort and a change of subject, but they do not tie your decision to survival. Guilt-Tripping stays with blame and conscience and holds no threat of actual harm. This is the entry where your choice is linked to whether someone lives."
   },
   "Pity Plays": {
-    "short_definition": "Answering a concern with displays of helplessness or victimhood, so the person who raised it ends up offering comfort and the concern is dropped.",
-    "core_meaning": "Answering a concern with displays of helplessness or victimhood, so the person who raised it ends up offering comfort and the concern is dropped.",
-    "expanded_definition": "Pity plays are moments when a complaint, a question or a request for change is answered with collapse: tears, 'nobody loves me', 'I'm hopeless at everything'. The original subject gets lost as the person who raised it moves into comforting. Real pain can look exactly the same, and one tearful night after a hard conversation proves nothing. Timing is what counts. The distress appears at the moment of accountability, the issue is not returned to, and over time bringing anything up begins to seem cruel.",
+    "short_definition": "Answering a concern by showing helplessness or being the victim. The person who raised it ends up giving comfort, and the concern is dropped.",
+    "core_meaning": "Answering a concern by showing helplessness or being the victim. The person who raised it ends up giving comfort, and the concern is dropped.",
+    "expanded_definition": "Pity plays are moments when a complaint, a question or a request for change is answered with collapse: tears, 'nobody loves me', 'I'm hopeless at everything'. The original subject gets lost as the person who raised it moves into comforting. Real pain can look exactly the same, and one tearful night after a hard conversation proves nothing. Timing is what counts. The distress appears at the moment of accountability, and the issue is never returned to. Over time, bringing anything up begins to seem cruel.",
     "plain_language_summary": "You bring up something that bothered you, and the conversation turns into you reassuring them. The original problem never gets looked at.",
     "why_this_matters": "When every concern ends in reassurance, the problem stays where it was and your need to be heard shrinks. Over time you may stop raising things at all, which makes the relationship quieter but no more honest.",
     "what_it_is": [
       "A reaction that grows as the complaint gets more specific: a calm 'you forgot' meets sobbing, silence or 'I'm a terrible person'.",
-      "Sweeping statements about oneself, like 'I always ruin things', that are too large to answer, so comfort is the only reply left.",
-      "A swap of roles in mid-conversation: the person who raised the issue is soon the one hugging, apologizing or backing down.",
+      "Sweeping statements about themselves, like 'I always ruin things', that are too big to answer, so comfort is the only reply left.",
+      "A swap of roles in mid-conversation. The person who raised the issue is soon the one hugging, apologizing or backing down.",
       "A topic that is not picked up again once the person has calmed.",
       "Seen between partners, but also parents and adult children, friends and coworkers."
     ],
@@ -125,7 +125,7 @@
       "Someone overwhelmed by shame who cries and goes quiet, then comes back the next day and talks it through.",
       "A grieving or exhausted person who truly cannot have the conversation tonight and says so plainly.",
       "A person who says 'that hurts to hear' and then listens to the rest.",
-      "A family style of speaking in strong emotional terms about everything, not only when challenged.",
+      "A family style of speaking in strong emotional terms about everything, whether or not anyone is being challenged.",
       "A request for comfort in a moment unrelated to anything you asked of them."
     ],
     "this_may_be_it_when": [
@@ -161,7 +161,7 @@
       "Have I stopped mentioning things because I know how it will go?"
     ],
     "less_concerning_if": [
-      "The low feeling is spoken about in general, not only when you ask for something.",
+      "The low feeling is spoken about in general, whether or not you are asking for something.",
       "The original concern is picked up again once the emotion settles.",
       "They can tell you what they need, such as an hour, and then come back."
     ],
@@ -176,30 +176,30 @@
       "Disagreements get shorter because you drop your point early.",
       "You think of them as fragile and of yourself as the sturdy one, with no room to be upset."
     ],
-    "repair_check": "What counts is whether the dropped concern comes back. Once they have steadied, they open with it themselves: 'I want to go back to what you said about the money.' Reassurance in the moment, with no later return to the subject, leaves the pattern where it was.",
+    "repair_check": "What counts is whether the dropped concern comes back. Once they have steadied, they bring it up themselves: 'I want to go back to what you said about the money.' Reassurance in the moment, with no later return to the subject, leaves the pattern where it was.",
     "boundary_respect_check": "Ask yourself: when I say 'I care how you feel, and I still need an answer', does one arrive within a day or two? Watch whether the answer eventually comes, or whether each attempt starts the same scene again.",
-    "psychological_mechanism": "Most people are quick to soothe someone who is crying, and that instinct tends to fire before we have thought about what we were saying. Visible distress can move attention from the concern to the person's wellbeing, and raise doubt about whether you had the right to speak. Repeated, this can teach the one raising concerns that doing so causes harm.",
-    "possible_impact_on_receiver": "Conversations become careful: complaints get softened in advance, speaking up brings a flash of cruelty, and talks end with you more drained than when they started. Doubt creeps in about whether your concerns were fair. Resentment can build quietly over issues nobody answered, followed by guilt for feeling it.",
+    "psychological_mechanism": "Most people are quick to soothe someone who is crying, and that instinct tends to fire before we have thought about what we were saying. Visible distress can move attention from the concern to the person's wellbeing. It can also raise doubt about whether you had the right to speak. Repeated, this can teach the one raising concerns that doing so causes harm.",
+    "possible_impact_on_receiver": "Conversations become careful. Complaints get softened in advance, speaking up brings a flash of cruelty, and talks end with you more drained than when they started. Doubt creeps in about whether your concerns were fair. Resentment can build quietly over issues nobody answered, followed by guilt for feeling it.",
     "response_options": {
-      "soft_clarification": "Hold both things aloud: 'I can see you're hurting, and I still need us to finish talking about this.' Offer a break with a time to return, such as tomorrow evening.",
-      "firm_boundary": "Name the loop gently and stay on the subject: 'When I raise something, we end up talking about how you feel and never about what I said. I'd like us to do both.'",
-      "disengagement": "Comfort them briefly, then step out of the room until the emotion has settled, and bring the topic back the next day in a short conversation or message.",
+      "soft_clarification": "Say both things out loud: 'I can see you're hurting, and I still need us to finish talking about this.' Offer a break with a time to return, such as tomorrow evening.",
+      "firm_boundary": "Name the loop gently and stay on the subject. For example: 'When I raise something, we end up talking about how you feel and never about what I said. I'd like us to do both.'",
+      "disengagement": "Comfort them briefly, then step out of the room until the emotion has settled. Bring the topic back the next day, in a short conversation or message.",
       "support_seeking": "Describe two recent scenes to a friend or counselor and ask whether your concerns were reasonable. It is hard to tell from inside, since the distress is real.",
-      "workplace_or_professional": "At work, put the concern in an email with a specific request and a date, so it does not depend on how a conversation goes, and ask a manager to attend if talks keep stalling."
+      "workplace_or_professional": "At work, put the concern in an email with a specific request and a date, so it does not depend on how a conversation goes. Ask a manager to attend if talks keep stalling."
     },
     "boundary_script": "\"I can see how much this hurts, and I'm not trying to make it worse. I also need us to talk about what I raised. Take as long as you need, and we'll pick it up tomorrow after dinner.\"",
     "safety_sensitive": false,
     "safety_note": "Pity plays on their own are not usually a danger signal. What would change that is distress that turns into threats against yourself or them, or into monitoring and blocking contact when you step away. If the sadness ever comes with talk of ending their life, treat that as its own matter and read the entry on self-harm threats. A first step is to write down, privately, which concerns are still unanswered.",
     "misuse_warning": [
       "Tears are not proof of a tactic. Calling real grief a 'pity play' can dismiss the pain of someone who is genuinely struggling.",
-      "Take care with this label for a person with depression or a trauma history, whose distress may be entirely sincere and who may still need the conversation to happen later."
+      "Take care with this label for a person with depression or a trauma history. Their distress may be entirely sincere, and they may still need the conversation to happen later."
     ],
     "how_to_distinguish_from_related": "Martyrdom Display advertises sacrifice already made ('after all I do'), while pity plays voice present helplessness and the exchange ends in comfort. Self-Harm Threats tie a choice of yours to the speaker's survival; pity plays express hopelessness without a link to what you decide. Guilt-Tripping blames you for a harm, whereas here the speaker is the one harmed. The difference is which story takes the stage: your concern, or their suffering."
   },
   "Martyrdom Display": {
-    "short_definition": "Pointing out one's own unrewarded effort and sacrifice in a way that leaves the other person feeling indebted and unable to say no.",
-    "core_meaning": "Pointing out one's own unrewarded effort and sacrifice in a way that leaves the other person feeling indebted and unable to say no.",
-    "expanded_definition": "Martyrdom display is the habit of making effort and self-denial visible: the sighs, the 'don't mind me', the list of what has been given up. Help is not asked for directly. Instead the sacrifice sits in the room until someone offers to fix it. One tired remark after a long week is ordinary. The pattern is the same scene each time help is wanted, and a running debt that grows whether or not you agreed to the cost.",
+    "short_definition": "Pointing out one's own unrewarded effort and sacrifice so that the other person feels in debt and unable to say no.",
+    "core_meaning": "Pointing out one's own unrewarded effort and sacrifice so that the other person feels in debt and unable to say no.",
+    "expanded_definition": "Martyrdom display is the habit of making effort and self-denial visible: the sighs, the 'don't mind me', the list of what has been given up. Help is not asked for directly. Instead the sacrifice sits in the room until someone offers to fix it. One tired remark after a long week is ordinary. The pattern is the same scene each time help is wanted, along with a running debt that grows whether or not you agreed to the cost.",
     "plain_language_summary": "Someone makes their sacrifices obvious instead of asking for help, so you feel you owe them. A plain request would have been easier to answer.",
     "why_this_matters": "A debt you never agreed to is hard to pay, because the total keeps changing. You may give more time or help than you wanted and then resent it, while the real need for support never gets spoken.",
     "what_it_is": [
@@ -277,29 +277,29 @@
     "repair_check": "Watch what happens to the requests. A change looks like a plain 'I need help with Saturday', help accepted without commentary, and a refusal received without days of quiet. Thanks for one day's help followed by sighing through the next refusal has not changed the part that matters.",
     "boundary_respect_check": "Try a small test: say yes to part of a request and no to the rest. Notice whether the part you gave is received with thanks or with a list of what you did not do. The reaction to the 'no' says more than the reaction to the 'yes'.",
     "psychological_mechanism": "Visible sacrifice creates a felt debt without any request, and since nothing was asked, there is nothing to refuse. Reciprocity is a strong social habit, and owing something is uncomfortable. With no direct request to answer, a no lands as turning down a plea that was never spoken.",
-    "possible_impact_on_receiver": "Guilt with no clear source, a sense of never doing enough, help offered out of dread more than willingness, and resentment that then brings its own shame are all reported. Avoidance follows for some: dreading holidays and chores because even kind acts seemed to add to the tally.",
+    "possible_impact_on_receiver": "People report guilt with no clear source, a sense of never doing enough, and help given out of dread more than willingness. Resentment can follow, and bring its own shame. Some people start to avoid things, dreading holidays and chores because even kind acts seemed to add to the tally.",
     "response_options": {
       "soft_clarification": "Turn the hint into a request you can answer: 'It sounds like a lot is on you. What would help most this week?' Then do what you can, and say what you cannot.",
       "firm_boundary": "Decline the debt, not the person: 'I'm happy to do Thursdays. I won't take on the rest because of how the week has looked.'",
-      "disengagement": "When the sighing starts, you can leave the room or change the subject without trying to repair the mood, and carry on with the plan you had.",
-      "support_seeking": "Ask a sibling, friend or counselor whether the split of work in your household looks fair from outside, and what a fair split might be.",
-      "workplace_or_professional": "At work, bring workload questions to the team in a shared list with names and hours, so effort is visible to everyone and not held as private leverage."
+      "disengagement": "When the sighing starts, you can leave the room or change the subject without trying to repair the mood. Carry on with the plan you had.",
+      "support_seeking": "Ask a sibling, friend or counselor if the split of work in your home looks fair from outside. Ask what a fair split might be.",
+      "workplace_or_professional": "At work, bring workload questions to the team in a shared list with names and hours. That way everyone can see the effort, and it is not kept as private pressure."
     },
     "boundary_script": "\"I can see you've been doing a lot, and I want to help in a way that works for both of us. I can take Thursdays. I can't take on everything just because it's been hard. Can we write down who does what?\"",
     "safety_sensitive": false,
-    "safety_note": "Martyrdom display on its own carries no particular danger. What would change that is sacrifice used to control where you go, whom you see or how you spend money, or any hint of retaliation when you decline. If that appears, write down specific examples and talk to a counselor or advocate before changing the arrangement. A practical first step is a written split of tasks.",
+    "safety_note": "Martyrdom display on its own carries no particular danger. That changes if sacrifice is used to control where you go, whom you see or how you spend money, or if there is any hint of retaliation when you decline. If that appears, write down specific examples. Talk to a counselor or advocate before changing the arrangement. A practical first step is a written split of tasks.",
     "misuse_warning": [
       "A person who really does carry far more than their share may sound like this when worn out. Calling it a tactic can excuse everyone else from the work.",
       "Be careful with the label for elders and caregivers, whose self-sacrifice is often real and unseen."
     ],
-    "how_to_distinguish_from_related": "Pity Plays focus on present helplessness and end in comfort; martyrdom display lists sacrifices already made and ends in owing. Demand for Gratitude asks outright for thanks after help, while martyrdom display usually asks for nothing aloud and lets the effort speak. Guilt-Tripping blames you for something you did, whereas here the claim is about what the speaker has done for you. The difference is a ledger of the speaker's effort, kept in view but never itemized as a bill."
+    "how_to_distinguish_from_related": "Pity Plays focus on present helplessness and end in comfort. Martyrdom display lists sacrifices already made and ends in owing. Demand for Gratitude asks outright for thanks after help. Martyrdom display usually asks for nothing aloud and lets the effort speak. Guilt-Tripping blames you for something you did, whereas here the claim is about what the speaker has done for you. The difference is a ledger of the speaker's effort, kept in view but never itemized as a bill."
   },
   "Duty Scripts": {
-    "short_definition": "Using a role such as daughter, son or parent as an unarguable rule for what one must do, so refusing sounds like failing at the role.",
-    "core_meaning": "Using a role such as daughter, son or parent as an unarguable rule for what one must do, so refusing sounds like failing at the role.",
-    "expanded_definition": "Duty scripts take a family or social role and turn it into a rulebook that only one person gets to read. 'A good daughter would...' leaves no space to ask whether the role really requires this, or whether it is the speaker's place to judge. Values about family and respect are real and deeply held in many cultures, so invoking one is not the problem. The pattern is the role used to end a discussion: the request is not argued on its merits, and saying no is treated as a failure of who you are.",
+    "short_definition": "Using a role such as daughter, son or parent as a rule nobody can argue with, so that refusing sounds like failing at the role.",
+    "core_meaning": "Using a role such as daughter, son or parent as a rule nobody can argue with, so that refusing sounds like failing at the role.",
+    "expanded_definition": "Duty scripts take a family or social role and turn it into a rulebook that only one person gets to read. 'A good daughter would...' leaves no space to ask whether the role really requires this, or whether it is the speaker's place to judge. Values about family and respect are real and deeply held in many cultures, so invoking one is not the problem. The pattern is the role used to end a discussion. The request is not argued on its merits, and saying no is treated as a failure of who you are.",
     "plain_language_summary": "Someone says what a good son, daughter, parent or friend would do, and the request stops being a request. Saying no starts to look like a flaw in you.",
-    "why_this_matters": "When 'what a good daughter does' replaces 'what do you think', your own judgment about your life is outranked by a rule you did not write. People can lose track of what they want, and the relationship starts to feel like a test they can fail.",
+    "why_this_matters": "When 'what a good daughter does' replaces 'what do you think', your own judgment about your life is outranked by a rule you did not write. People can lose track of what they want. The relationship starts to feel like a test they can fail.",
     "what_it_is": [
       "A request dressed as a rule about a role: 'a good son visits', 'a mother's word is final'.",
       "A definition of the role that only the speaker may set and that can shift to fit the request.",
@@ -318,11 +318,11 @@
       "Who's going to look after her if not you?"
     ],
     "what_it_is_not": [
-      "A family or cultural value stated as one consideration, with room to say 'I see it differently' and still be loved.",
+      "A family or cultural value stated as one thing to consider, with room to say 'I see it differently' and still be loved.",
       "An honest 'we are counting on you for Sunday', which names a need and accepts a no.",
       "A relative sharing what duty meant to their own generation without requiring the same of you.",
       "Obligations you chose, such as caring for your child or keeping a promise, where the duty is plain and shared.",
-      "Religious or community teaching about duty given in a sermon or lesson, not aimed at a particular decision.",
+      "Religious or community teaching about duty, given in a sermon or lesson and not aimed at a particular decision.",
       "A parent setting house rules for a young child."
     ],
     "this_may_be_it_when": [
@@ -372,30 +372,30 @@
       "You feel something close to shame at ordinary boundaries.",
       "You have stopped telling certain relatives your plans until they are settled."
     ],
-    "repair_check": "Start with whether the role stops being the argument. A shift would sound like 'what do you think you can manage?', with the rule left out, and a refusal that leaves your standing in the family unchanged. A warm apology followed by 'a good son would' at the next decision has changed only the tone.",
+    "repair_check": "Start with whether the role stops being the argument. A shift would sound like 'what do you think you can manage?', with the rule left out. A refusal would leave your standing in the family unchanged. A warm apology followed by 'a good son would' at the next decision has changed only the tone.",
     "boundary_respect_check": "Notice what changes after you say 'I can't do that, and I am still your daughter.' Is your place at the table the same? Pay attention to whether invitations, calls and warmth continue, or whether something quietly goes cold.",
-    "psychological_mechanism": "Roles carry heavy moral weight, and many people take on their family's idea of a good son, daughter or parent early in life. With a request attached to that identity, refusing registers as failing at who you are, not as choosing between options. The rule is never written down, so it cannot be checked, and it can stretch to cover new situations.",
-    "possible_impact_on_receiver": "Being split between what the family expects and what you want is the usual report, along with deciding like a child would and carrying shame at choosing for yourself. Some could not tell what they wanted for years. Others are left with distance from relatives they love, and grief at what saying no has cost.",
+    "psychological_mechanism": "Roles carry heavy moral weight, and many people take on their family's idea of a good son, daughter or parent early in life. When a request is attached to that identity, refusing feels like failing at who you are, and not like choosing between options. The rule is never written down, so it cannot be checked, and it can stretch to cover new situations.",
+    "possible_impact_on_receiver": "Being split between what the family expects and what you want is the usual report. People also describe deciding like a child would, and carrying shame at choosing for yourself. Some could not tell what they wanted for years. Others are left with distance from relatives they love, and grief at what saying no has cost.",
     "response_options": {
-      "soft_clarification": "Ask which part of the request matters most, and what the person is most worried about: 'Tell me what you need on Sunday, and I'll tell you what I can do.'",
+      "soft_clarification": "Ask which part of the request matters most and what the person is most worried about. For example: 'Tell me what you need on Sunday, and I'll tell you what I can do.'",
       "firm_boundary": "Separate the role from the request: 'I am your daughter, and I can't take this on. Please ask me as a question, not as a rule.'",
-      "disengagement": "When the script begins, say you will talk about the practical side later and move to another topic, without defending what a good daughter does.",
-      "support_seeking": "Talk to someone outside the family who respects your background, such as a cousin, a faith counselor or a therapist familiar with your culture, about where duty ends and pressure starts.",
-      "workplace_or_professional": "At work, when a role like 'team player' is used to justify unpaid extras, ask what the written duties are and answer the request in terms of hours and scope."
+      "disengagement": "When the script begins, say you will talk about the practical side later and move to another topic. Leave out any defense of what a good daughter does.",
+      "support_seeking": "Talk to someone outside the family who respects your background, such as a cousin, a faith counselor or a therapist familiar with your culture. Ask where duty ends and pressure starts.",
+      "workplace_or_professional": "At work, a role like 'team player' may be used to justify unpaid extras. Ask what the written duties are, and answer the request in terms of hours and scope."
     },
     "boundary_script": "\"I take being a good son seriously, and that is why I'm being honest that I can't do this one. It isn't that I don't care about the family. The answer is no. Let's talk about what I can do instead.\"",
     "safety_sensitive": false,
-    "safety_note": "Role pressure is usually painful rather than dangerous. It changes when refusing brings threats, confiscated phones or papers, being kept in, a forced marriage or travel plan, or talk of family honor tied to harm. Those call for specialist help, such as a forced marriage or domestic abuse service, or legal aid. A first step is to find that service quietly, before any family conversation.",
+    "safety_note": "Role pressure is usually painful and not dangerous. It changes when refusing brings threats, confiscated phones or papers, being kept in, a forced marriage or travel plan, or talk of family honor tied to harm. Those call for specialist help, such as a forced marriage or domestic abuse service, or legal aid. A first step is to find that service quietly, before any family conversation.",
     "misuse_warning": [
       "Cultural or religious duty is not itself a form of pressure. Applying this label to a whole family's values dismisses traditions many people hold dear.",
       "A relative saying 'family comes first' may be asking, not scripting. Check for the pattern before naming it."
     ],
-    "how_to_distinguish_from_related": "Guilt-Tripping blames you for a harm already done, while duty scripts rest on a role you hold, so the claim is about who you are supposed to be. Emotional Blackmail attaches a loss, such as love or approval, to a decision; duty scripts need no threat, only the role's authority. Demand for Gratitude says you owe thanks for help given, but duty scripts say you owe compliance because of a bond. The difference is where the authority is claimed: a rulebook of roles, not a record of acts."
+    "how_to_distinguish_from_related": "Guilt-Tripping blames you for a harm already done. Duty scripts rest on a role you hold, so the claim is about who you are supposed to be. Emotional Blackmail attaches a loss, such as love or approval, to a decision. Duty scripts need no threat, only the role's authority. Demand for Gratitude says you owe thanks for help given. Duty scripts say you owe compliance because of a bond. The difference is where the authority is claimed: a rulebook of roles, instead of a record of acts."
   },
   "Demand for Gratitude": {
-    "short_definition": "Expecting thanks on demand, in the right words or amount, as the price of help given, so that generosity ends up with conditions attached.",
-    "core_meaning": "Expecting thanks on demand, in the right words or amount, as the price of help given, so that generosity ends up with conditions attached.",
-    "expanded_definition": "Demand for gratitude turns help into something that must be repaid in visible thanks. The help may be real: a ride, a loan, a roof, a favor. What changes is that thanks is asked for, measured and chased. A single 'a thank-you would be nice' after a long day is a human feeling. Look for thanks that must come in particular forms, gratitude raised again weeks later, and a helped person made to feel lower for having been helped.",
+    "short_definition": "Expecting thanks on demand, in the right words or amount, as the price of help. The generosity ends up with conditions attached.",
+    "core_meaning": "Expecting thanks on demand, in the right words or amount, as the price of help. The generosity ends up with conditions attached.",
+    "expanded_definition": "Demand for gratitude turns help into something that must be repaid in visible thanks. The help may be real: a ride, a loan, a roof, a favor. What changes is that thanks is asked for, measured and chased. A single 'a thank-you would be nice' after a long day is a human feeling. Look for three signs. Thanks must come in particular forms. Gratitude is raised again weeks later. The person who was helped is made to feel lower for it.",
     "plain_language_summary": "You were helped, and now you are expected to keep showing how thankful you are, in the right way, or be reminded of it. Help turns into a cost.",
     "why_this_matters": "When thanks is required, help stops being a gift and starts to feel like a loan with interest. People can start to avoid accepting help, even when they need it, or hide small wins so nobody feels unappreciated.",
     "what_it_is": [
@@ -472,18 +472,18 @@
     ],
     "repair_check": "The moment thanks arrives shows it. A shift sounds like a simple 'glad I could help', then no follow-up check, and a later offer given without a reminder. Another speech about how much has been done, even a warm one, keeps the meter running.",
     "boundary_respect_check": "Tell them you are grateful and that you would like help between you to be given freely or not at all. Then see how the next offer arrives: with fewer conditions, or with a longer reminder of the last one?",
-    "psychological_mechanism": "Gratitude is a real and valuable feeling, and most people want to repay kindness. When thanks is demanded, that feeling can be treated as a payment due, and a person who is slow to produce it may feel ungenerous. Because the amount owed is never fixed, the debt rarely feels settled, and staying quietly agreeable can seem easier.",
+    "psychological_mechanism": "Gratitude is a real and valuable feeling, and most people want to repay kindness. When thanks is demanded, that feeling can be treated as a payment due. A person who is slow to produce it may feel ungenerous. Because the amount owed is never fixed, the debt rarely feels settled, so staying quietly agreeable can seem easier.",
     "possible_impact_on_receiver": "Never having thanked enough is a frequent feeling, with discomfort at accepting gifts, rehearsed thank-yous, and hiding anything that might look ungrateful. Asking for help can stop altogether, since it would add to the account. A slow dislike can grow toward someone the person has real reason to appreciate.",
     "response_options": {
-      "soft_clarification": "Offer thanks that is true and specific: 'The ride got me to the interview on time, and I appreciated it.' Then notice whether it lands, or whether more is expected.",
-      "firm_boundary": "Tell them the way thanks is being asked for is hard for you: 'I am grateful, and I can't be asked for it every time we talk.'",
+      "soft_clarification": "Offer thanks that is true and specific, like 'The ride got me to the interview on time, and I appreciated it.' Then notice whether it lands or whether more is expected.",
+      "firm_boundary": "Tell them the way they ask for thanks is hard for you: 'I am grateful, and I can't be asked for it every time we talk.'",
       "disengagement": "If a meeting turns into a review of your gratitude, close that part with one 'thank you again' and move on, without adding more.",
-      "support_seeking": "Ask a friend, relative or counselor whether help like this would normally come with this much accounting, or whether you are missing something.",
-      "workplace_or_professional": "If a manager or mentor keeps referring to what they did for your career, thank them once in writing, then keep the working relationship on tasks and agreements."
+      "support_seeking": "Ask a friend, relative or counselor whether help like this would normally come with this much accounting. Or ask whether you are missing something.",
+      "workplace_or_professional": "If a manager or mentor keeps bringing up what they did for your career, thank them once in writing. Then keep the working relationship on tasks and agreements."
     },
     "boundary_script": "\"What you did mattered, and I mean that. I'd like help between us to work without a scorecard. If it comes with a need for more thanks, I would rather manage on my own.\"",
     "safety_sensitive": false,
-    "safety_note": "Demand for gratitude is not usually dangerous in itself. The picture changes when the help is housing, money or papers and thanks becomes a condition of keeping them, or when refusing brings a threat of being put out. In that case, quietly look up tenant advice, legal aid or a relevant advocate before changing the arrangement, and keep copies of anything that is yours.",
+    "safety_note": "Demand for gratitude is not usually dangerous in itself. The picture changes when the help is housing, money or papers and thanks becomes a condition of keeping them. It also changes when refusing brings a threat of being put out. In that case, quietly look up tenant advice, legal aid or a relevant advocate before changing the arrangement. Keep copies of anything that is yours.",
     "misuse_warning": [
       "Wanting appreciation is human. Using this label every time someone mentions that they helped would silence honest feelings.",
       "Do not apply it to a child learning manners, or to someone who was truly not thanked after a big effort."
@@ -491,11 +491,11 @@
     "how_to_distinguish_from_related": "Martyrdom Display shows sacrifice through sighs and 'don't mind me' and asks for nothing aloud; demand for gratitude names the thanks it expects. Duty Scripts claim you owe obedience because of a role, while here you owe acknowledgment because of help given. Guilt-Tripping makes you feel at fault for a harm, and demand for gratitude makes you feel at fault for not feeling thankful enough. The difference is the object: your thanks, in a particular form, as the thing being collected."
   },
   "Favor Debt": {
-    "short_definition": "Citing past gifts, money or support as the reason someone must agree to a present request, so past kindness is treated like a signed contract.",
-    "core_meaning": "Citing past gifts, money or support as the reason someone must agree to a present request, so past kindness is treated like a signed contract.",
-    "expanded_definition": "Favor debt is the habit of citing what one has given, such as school fees, a loan, a place to stay or a favor, as the reason you must say yes to something now. Mutual support is part of nearly every close relationship, and mentioning it is not a problem. The pattern is when old help becomes a lever on a particular decision, can be cited again and again, and has no end point: whatever you give, the balance stays open.",
+    "short_definition": "Citing past gifts, money or support as the reason someone must agree to a present request. Past kindness is then treated like a signed contract.",
+    "core_meaning": "Citing past gifts, money or support as the reason someone must agree to a present request. Past kindness is then treated like a signed contract.",
+    "expanded_definition": "Favor debt is the habit of citing what someone has given, such as school fees, a loan, a place to stay or a favor, as the reason you must say yes to something now. Mutual support is part of nearly every close relationship, and mentioning it is not a problem. It becomes a pattern when old help is used to push on a particular decision. It can be cited again and again and has no end point. Whatever you give, the balance stays open.",
     "plain_language_summary": "Someone reminds you of everything they gave you and uses it to get a yes now. Whatever you do, the balance never seems paid off.",
-    "why_this_matters": "A debt you never agreed to has no settlement date, so you can be asked to pay it over and over. People may stay in jobs, relationships or cities they would have left, or hand over money they cannot spare, because refusing feels like taking from someone who helped.",
+    "why_this_matters": "A debt you never agreed to has no settlement date, so you can be asked to pay it over and over. People may stay in jobs, relationships or cities they would have left, or hand over money they cannot spare. They may do this because refusing feels like taking from someone who helped.",
     "what_it_is": [
       "A past gift or support used as the reason for a present request: 'After I paid your rent, you can do this.'",
       "A balance that is never closed: whatever you give back, the original help is still cited.",
@@ -513,7 +513,7 @@
       "After what I spent on your wedding, you can host us."
     ],
     "what_it_is_not": [
-      "A friend saying 'I lent you money in March, can we talk about when you might pay it back?', which is an openly agreed loan.",
+      "A friend saying 'I lent you money in March, can we talk about when you might pay it back?' That is an openly agreed loan.",
       "Mutual support in a long relationship mentioned honestly: 'We have always helped each other.'",
       "A request for help after helping, offered as a request that accepts a no.",
       "A written agreement to repay, such as a mortgage or family loan, and a reminder of its terms.",
@@ -568,38 +568,38 @@
       "You have said yes to requests you would rather have refused, simply to settle the balance.",
       "The list of what you owe keeps growing, though nothing new has been given."
     ],
-    "repair_check": "A different pattern shows up as terms: help is named as a gift, or as a loan with a sum and a date, and past help stops being cited when you decline something. A change of tone followed by the same reminder at the next 'no' leaves the account open.",
+    "repair_check": "A different pattern shows up as terms. Help is named as a gift, or as a loan with a sum and a date, and past help stops being cited when you decline something. If the tone changes but the same reminder comes at the next 'no', the account is still open.",
     "boundary_respect_check": "Ask whether the debt can be named and closed. If you offer to repay a specific sum or to thank them in a specific way, notice whether they accept it as settled. A reaction that raises the amount, or keeps the sum vague, tells you the account cannot be closed from your side.",
-    "psychological_mechanism": "A strong pull to return favors is useful in healthy relationships. When help is later described as a debt, that sense of fairness can be pointed at a request with no link to the original help. The sum is never fixed, so repaying is never finished, and refusing can seem like taking from someone who gave.",
-    "possible_impact_on_receiver": "Being trapped by one's own history is a common report, along with avoiding gifts for fear of the cost and agreeing to things disliked just to quiet the reminder. The mix is often bitter: real gratitude alongside anger. Some stayed in a place or a job longer than they wanted.",
+    "psychological_mechanism": "A strong pull to return favors is useful in healthy relationships. When help is later described as a debt, that sense of fairness can be pointed at a request that has no link to the original help. The sum is never fixed, so repaying is never finished. Refusing can seem like taking from someone who gave.",
+    "possible_impact_on_receiver": "Feeling trapped by one's own history is a common report. So is avoiding gifts for fear of the cost, and agreeing to things you dislike just to quiet the reminder. The mix is often bitter: real gratitude alongside anger. Some stayed in a place or a job longer than they wanted.",
     "response_options": {
       "soft_clarification": "Acknowledge the help and ask to separate it from the request: 'I'm grateful for what you did for my schooling. Can we talk about this request on its own?'",
       "firm_boundary": "State that thanks and agreement are different things: 'I will always appreciate what you did. That doesn't mean I can say yes to this.'",
-      "disengagement": "When the reminder comes, you can decline to go through the list again and return to the question in front of you, or end the call.",
-      "support_seeking": "Write down what was given and what was agreed at the time, and take it to a friend, an accountant or a legal aid adviser if money or property is involved.",
-      "workplace_or_professional": "If a mentor or boss cites past favors, ask for any commitments in writing and keep decisions about your role tied to your duties, not to who sponsored your career."
+      "disengagement": "When the reminder comes, you can decline to go through the list again. You can return to the question in front of you, or end the call.",
+      "support_seeking": "Write down what was given and what was agreed at the time. If money or property is involved, take it to a friend, an accountant or a legal aid adviser.",
+      "workplace_or_professional": "If a mentor or boss cites past favors, ask for any commitments in writing. Keep decisions about your role tied to your duties, not to who sponsored your career."
     },
     "boundary_script": "\"I haven't forgotten what you did for me, and I'm still grateful. I can't pay it back by agreeing to this one. Tell me a way to thank you that I can really do.\"",
     "safety_sensitive": false,
-    "safety_note": "Favor debt becomes a safety matter when the debt is financial or legal. Examples are loans in your name, a sponsored visa or housing tied to compliance, or threats to cut off what you depend on. Keep copies of any papers you have signed, and get independent advice from legal aid or a tenant or immigration adviser before changing anything.",
+    "safety_note": "Favor debt becomes a safety matter when the debt is financial or legal. Examples are loans in your name, a sponsored visa, housing tied to compliance, or threats to cut off what you depend on. Keep copies of any papers you have signed. Get independent advice from legal aid or a tenant or immigration adviser before changing anything.",
     "misuse_warning": [
       "Mentioning past help is not always a lever. Calling every reminder of support 'favor debt' can brush aside people who really did give a lot and are asking fairly.",
       "Do not use the label to avoid repaying a loan that was clearly agreed."
     ],
-    "how_to_distinguish_from_related": "Duty Scripts rest on a role (a good son would) and need no past act; favor debt rests on something that was actually given, such as fees or rent. Emotional Blackmail threatens a loss of love or approval if you refuse, while favor debt points back at what has already been provided. Guilt-Tripping blames you for a hurt you caused, but favor debt claims you are in arrears for a kindness. The difference is the ledger: a specific past gift cited as payment due now."
+    "how_to_distinguish_from_related": "Duty Scripts rest on a role (a good son would) and need no past act. Favor debt rests on something that was actually given, such as fees or rent. Emotional Blackmail threatens a loss of love or approval if you refuse. Favor debt points back at what has already been provided. Guilt-Tripping blames you for a hurt you caused. Favor debt claims you still owe for a kindness. The difference is the ledger: a specific past gift cited as payment due now."
   },
   "Catastrophizing as Control": {
-    "short_definition": "Predicting that someone will fall into ruin, loneliness or disaster if they act independently, so that leaving or choosing differently begins to feel unsafe.",
-    "core_meaning": "Predicting that someone will fall into ruin, loneliness or disaster if they act independently, so that leaving or choosing differently begins to feel unsafe.",
-    "expanded_definition": "Catastrophizing as control means painting the future in worst-case terms whenever the other person is about to make a choice of their own: a job, a move, a friendship, an end to the relationship. The predictions come as facts, not worries, and they usually cast the speaker as the one thing keeping disaster away. Worry about someone you love is normal, and a frank warning can be a kindness. The pattern is predictions that outsize the real risk, return at each step toward independence, and leave you less able to trust your own plans.",
+    "short_definition": "Predicting that someone will fall into ruin, loneliness or disaster if they act independently. Leaving or choosing differently then begins to feel unsafe.",
+    "core_meaning": "Predicting that someone will fall into ruin, loneliness or disaster if they act independently. Leaving or choosing differently then begins to feel unsafe.",
+    "expanded_definition": "Catastrophizing as control means painting the future in worst-case terms whenever the other person is about to make a choice of their own. That might be a job, a move, a friendship, or an end to the relationship. The predictions come as facts, not worries. They usually cast the speaker as the one thing keeping disaster away. Worry about someone you love is normal, and a frank warning can be a kindness. The pattern is predictions that are bigger than the real risk, come back at each step toward independence, and leave you less able to trust your own plans.",
     "plain_language_summary": "When you try something on your own, they predict you'll end up broke or alone. Over time, managing alone starts to feel impossible.",
-    "why_this_matters": "Fear of the future can keep a person in place more firmly than any rule. When every independent step is described as the start of ruin, you may stop trying, stay where you are, and lose confidence that you could cope.",
+    "why_this_matters": "Fear of the future can keep a person in place more firmly than any rule. When every independent step is described as the start of ruin, you may stop trying and stay where you are. You may also lose confidence that you could cope.",
     "what_it_is": [
       "Forecasts of disaster delivered as certainties: 'you will lose the house', not 'I am worried about the house'.",
       "A prediction that you personally will fail without the speaker, whatever the plan is.",
       "Disaster linked to many different choices: a job, a course, a move, a friend, a decision to leave.",
       "A forecast that does not change when you show a plan, savings or support.",
-      "Sometimes passed through others ('your mother is frightened for you') or backed by selected stories of people who failed."
+      "Sometimes the message comes through other people ('your mother is frightened for you'). Sometimes it is backed by chosen stories of people who failed."
     ],
     "what_it_sounds_like": [
       "If you take that job, this family falls apart.",
@@ -666,24 +666,24 @@
       "You hear their predictions in your own voice when you think about change.",
       "People close to you say you used to be more confident."
     ],
-    "repair_check": "Pay attention to whether the forecasts turn into plans. A change sounds like 'I'm worried about money, can we look at the numbers together?', followed by the person supporting a choice that carries risk. A softer tone, with the prediction repeated whenever you move forward, leaves the fear installed.",
+    "repair_check": "Pay attention to whether the forecasts turn into plans. A real change sounds like 'I'm worried about money, can we look at the numbers together?', followed by the person supporting a choice that carries risk. A softer tone, with the prediction repeated whenever you move forward, leaves the fear in place.",
     "boundary_respect_check": "Notice what happens when you ask to look at the actual risk together, with figures on paper. Is the conversation turned toward what could be done, or does the prediction grow? Also watch whether anything about your access to money, phone or friends changes afterwards.",
     "psychological_mechanism": "Fear of loss is strong, and a confident forecast from someone close can sound like inside knowledge. Repeated, it can replace your own estimate of what you can handle, and uncertainty tends to get settled by staying put. When you are already unsure or financially dependent, the forecast fills the gap, and each step not taken makes the prediction feel truer.",
     "possible_impact_on_receiver": "Feeling smaller, doubting your own competence, putting plans off and hearing a warning voice long after the conversation are all reported. Some felt unable to leave a job, a home or a relationship even when they wanted to. Others found out later that they managed far better than predicted, and felt anger and grief for the lost time.",
     "response_options": {
-      "soft_clarification": "Ask for the mechanics: 'What exactly do you think would go wrong, and what would help?' A specific worry can be checked, and a vague one tells you something too.",
+      "soft_clarification": "Ask for the details: 'What exactly do you think would go wrong, and what would help?' A specific worry can be checked. A vague one tells you something too.",
       "firm_boundary": "Say how the predictions land: 'When you tell me I will fail, I feel less able to think. I'd like us to look at the facts instead.'",
       "disengagement": "You do not have to answer every prediction. A short 'I've heard you' lets the conversation move on, and you can work on your plans privately with someone you trust.",
-      "support_seeking": "Show your plan, with the figures, to someone outside the relationship, such as a friend, a financial counselor or an advocate, and ask for an honest read of the risks. Keep a copy with a person the other party does not control.",
-      "workplace_or_professional": "At work, if a colleague or manager forecasts disaster whenever you apply for a role or take a project, ask for the specific risk in writing and seek an outside view from a mentor or HR."
+      "support_seeking": "Show your plan, with the figures, to someone outside the relationship, such as a friend, a financial counselor or an advocate. Ask for an honest read of the risks. Keep a copy with a person the other party does not control.",
+      "workplace_or_professional": "At work, a colleague or manager may forecast disaster whenever you apply for a role or take a project. If so, ask for the specific risk in writing. Seek an outside view from a mentor or HR."
     },
     "boundary_script": "\"I've heard that you're worried, and I want to understand the real risks. Can we write down what could go wrong and what would help with each one? I want to talk it over with my sister as well.\"",
     "safety_sensitive": true,
-    "safety_note": "Predictions of ruin become a safety concern when they travel with monitoring, or with control of money, papers, phones or transport. They also do when you are told you would lose children or housing if you left. Those can be signs of coercive control, where someone gradually takes charge of your choices through fear and dependence. A next step specific to this tactic: talk through your real options with a domestic abuse advocate or legal aid service, who can help you plan privately, before anything changes.",
+    "safety_note": "Predictions of ruin become a safety concern when they come with monitoring, or with control of money, papers, phones or transport. They also do when you are told you would lose children or housing if you left. Those can be signs of coercive control, where someone gradually takes charge of your choices through fear and dependence. One next step is to talk through your real options with a domestic abuse advocate or legal aid service before anything changes. They can help you plan privately.",
     "misuse_warning": [
       "A frank warning about a risky plan is not control. Labeling honest caution as a tactic can lead you to ignore real risks.",
       "Do not use this label to dismiss an anxious relative who is trying, clumsily, to say that they care."
     ],
-    "how_to_distinguish_from_related": "Emotional Blackmail attaches a penalty the speaker will impose, such as withdrawn love, if you do not comply; catastrophizing as control predicts a disaster that will arrive on its own. Guilt-Tripping looks back at blame for a harm already done, while this looks ahead to a ruin that has not happened. Pity Plays make the speaker the one who is suffering, where here you are the one forecast to fall. The difference is direction: a forecast about your future, offered as fact."
+    "how_to_distinguish_from_related": "Emotional Blackmail attaches a penalty the speaker will impose, such as withdrawn love, if you do not comply. Catastrophizing as control predicts a disaster that will arrive on its own. Guilt-Tripping looks back at blame for a harm already done. This tactic looks ahead to a ruin that has not happened. Pity Plays make the speaker the one who is suffering. Here you are the one forecast to fall. The difference is direction: a forecast about your future, offered as fact."
   }
 }

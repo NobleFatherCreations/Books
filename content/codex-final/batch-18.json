@@ -2,9 +2,9 @@
   "Exaggeration": {
     "short_definition": "Stretching a claim with words like always, never, everyone or nothing, so it sounds bigger and harder to answer than the facts support.",
     "core_meaning": "Stretching a claim with words like always, never, everyone or nothing, so it sounds bigger and harder to answer than the facts support.",
-    "expanded_definition": "Exaggeration here means inflating a claim with absolutes and extremes: always, never, everyone, nothing, completely ruined. Nearly everyone does this when upset, so a single 'you never listen' says little. What matters is whether the stretched word is the main charge, whether one counterexample is waved away, and whether the talk gets stuck on 'always' while the real complaint, which may be partly fair, goes unanswered.",
+    "expanded_definition": "Exaggeration here means inflating a claim with absolutes and extremes: always, never, everyone, nothing, completely ruined. Nearly everyone does this when upset, so a single 'you never listen' says little. Look at whether the stretched word is the main charge and whether one counterexample is waved away. Also look at whether the talk gets stuck on 'always' while the real complaint, which may be partly fair, goes unanswered.",
     "plain_language_summary": "A specific problem gets turned into 'you never' or 'you always'. Then you end up arguing about the word, not about what happened.",
-    "why_this_matters": "A stretched claim is hard to answer. Defending yourself against 'never' can make you look petty for listing the one time, and a fair point buried inside the claim gets lost along with the exaggeration.",
+    "why_this_matters": "A stretched claim is hard to answer. Defending yourself against 'never' can make you look petty for listing the one time. A fair point buried inside the claim gets lost along with the exaggeration.",
     "what_it_is": [
       "Words like always, never, everyone, nothing or ruined standing in for a count that would be closer to 'twice this month'.",
       "A claim about a person's character rather than one event: 'you are always late' instead of 'you were late on Tuesday'.",
@@ -79,30 +79,30 @@
     ],
     "repair_check": "Watch what the claim does once an example is on the table. Someone repairing says the number out loud, 'it was twice, not always', and keeps the complaint alive. A change of wording that quietly drops the issue has fixed nothing.",
     "boundary_respect_check": "Ask yourself: after I said I would talk about specific times, did the talk get more specific? A later argument that still has sweeping words but also a date or two suggests the request landed. Sentences that all still begin with 'always' suggest it did not.",
-    "psychological_mechanism": "A sweeping claim can shift the listener's job from understanding to defending. Because one exception technically refutes 'never', people often reach for exceptions, and the exchange becomes about accuracy. Strong words also tend to be remembered longer than the details around them, so the label can stay with you after the facts fade.",
-    "possible_impact_on_receiver": "Being summed up unfairly is the usual report, along with keeping a mental tally of the times you did help, and wearing out in arguments that never reach the real issue. Some hear big words in every piece of feedback, even gentle ones, and some start to believe the sweeping version of themselves.",
+    "psychological_mechanism": "A sweeping claim can shift the listener's job from understanding to defending. One exception technically refutes 'never', so people often reach for exceptions, and the exchange becomes about accuracy. Strong words also tend to be remembered longer than the details around them, so the label can stay with you after the facts fade.",
+    "possible_impact_on_receiver": "The usual report is being summed up unfairly. People also describe keeping a mental tally of the times they did help, and wearing out in arguments that never reach the real issue. Some hear big words in every piece of feedback, even gentle ones, and some start to believe the sweeping version of themselves.",
     "response_options": {
       "soft_clarification": "Ask for the count without disputing the feeling: 'It feels like never to you. Can you tell me about the last time, so I understand what you mean?'",
       "firm_boundary": "Decline to debate the word and steer to one event: 'I will talk about specific times. I won't argue about whether always is true, so pick the one that bothers you most.'",
       "disengagement": "If the argument becomes a contest of counterexamples, stop listing them. Say you will come back to it once it is down to one event, and take a break first.",
       "support_seeking": "Tell a friend who knows you both what was said and what you think the real count is. Saying it aloud can show whether there is a fair point inside the 'always'.",
-      "workplace_or_professional": "At work, ask for feedback with dates and examples ('Which meetings do you mean?') so you can reply to the facts instead of the adjective."
+      "workplace_or_professional": "At work, ask for feedback with dates and examples ('Which meetings do you mean?'). Then you can reply to the facts instead of the adjective."
     },
     "boundary_script": "\"Hearing what's wrong is what I want, and a real example is how I can do it. Can you tell me about one time this week? Then we can talk about that, instead of always and never.\"",
     "safety_sensitive": false,
     "safety_note": "Stretched wording is an everyday habit and rarely a safety signal alone. That changes if sweeping charges come with threats, or if you fear the reaction when you ask for an example. It also changes if the same claims about you are repeated to others in ways that cut you off from them. Write down what was said and when, and show it to someone you trust before the next argument.",
     "misuse_warning": [
-      "Labeling a frustrated 'you never' as manipulation can make it harder for the person to say anything strongly, and leaves the fair core of the complaint unheard.",
+      "Labeling a frustrated 'you never' as manipulation can make it harder for the person to say anything strongly. It also leaves the fair core of the complaint unheard.",
       "Counting up someone's 'always' statements as evidence against them turns a speech habit into a verdict."
     ],
-    "how_to_distinguish_from_related": "Vague Allegations refers to unnamed critics or unspecified charges, while exaggeration names a real event and stretches its size. Lying states something false; exaggeration usually has a true core that has been blown up. Fabricated Evidence invents proof. Exaggeration needs none, only a word like 'always' that cannot be checked and that one example from you can puncture."
+    "how_to_distinguish_from_related": "Vague Allegations refers to unnamed critics or unspecified charges, while exaggeration names a real event and stretches its size. Lying states something false, but exaggeration usually has a true core that has been blown up. Fabricated Evidence invents proof. Exaggeration needs none, only a word like 'always' that cannot be checked and that one example from you can puncture."
   },
   "Vague Allegations": {
-    "short_definition": "Hinting that unnamed people have unspecified complaints about someone, so the claim cannot be checked, answered or corrected.",
-    "core_meaning": "Hinting that unnamed people have unspecified complaints about someone, so the claim cannot be checked, answered or corrected.",
-    "expanded_definition": "Vague allegations are accusations with the details removed: no names, no dates, no description of what was said or done. 'People are talking' or 'I've heard things' hands the listener something heavy and nothing to respond to. Sometimes a person is honestly protecting a source or has only a hazy impression, and one such remark says little. Concern grows when specifics are always unavailable and yet the claim is treated as settled.",
-    "plain_language_summary": "Someone says there are complaints about you but won't say who, what or when, so you can't answer them and are left to imagine the worst.",
-    "why_this_matters": "You can't correct what you can't see. People hit by a vague claim often spend weeks searching their memory and scanning faces for who knows what, while their standing with others may shift without a word being said to them.",
+    "short_definition": "Hinting that unnamed people have complaints about someone, without saying what the complaints are. The claim cannot be checked, answered or corrected.",
+    "core_meaning": "Hinting that unnamed people have complaints about someone, without saying what the complaints are. The claim cannot be checked, answered or corrected.",
+    "expanded_definition": "Vague allegations are accusations with the details removed: no names, no dates, no description of what was said or done. 'People are talking' or 'I've heard things' gives the listener something heavy and nothing to respond to. Sometimes a person is honestly protecting a source or has only a hazy impression, and one such remark says little. Concern grows when specifics are always unavailable and yet the claim is treated as settled.",
+    "plain_language_summary": "Someone says there are complaints about you but won't say who, what or when. You can't answer them, so you are left to imagine the worst.",
+    "why_this_matters": "You can't correct what you can't see. People hit by a vague claim often spend weeks searching their memory and scanning faces to work out who knows what. Meanwhile their standing with others may shift without a word being said to them.",
     "what_it_is": [
       "A claim about what others think or say, with the who, what and when left out.",
       "Hints dropped in meetings, family gatherings, group chats and reviews, such as 'there have been concerns'.",
@@ -120,7 +120,7 @@
     ],
     "what_it_is_not": [
       "A colleague who says 'a few people struggled with the handover' and then offers specifics when asked.",
-      "A manager under a formal confidentiality process who cannot name a complainant but describes the behavior and offers a way to respond. Awkwardly protecting a source while relaying a real concern is not the same as hiding the concern.",
+      "A manager under a formal confidentiality process who cannot name a complainant but describes the behavior and offers a way to respond. Awkwardly protecting a source while passing on a real concern is not the same as hiding the concern.",
       "A friend who says 'I might be wrong, but I got the impression you upset Sam' and is open to hearing your side.",
       "A summary of feedback from many people, such as a 360 review, that reports themes without names and gives examples of behavior.",
       "A person who honestly has only secondhand talk and says so."
@@ -173,25 +173,25 @@
       "The same phrases come back attached to new topics.",
       "You start apologizing for unspecified things and adjusting your behavior to fit guesses."
     ],
-    "repair_check": "Repair looks like a name or a description arriving: either the actual behavior ('Tuesday's meeting, the way the budget was challenged') or an honest 'I have no specifics and I shouldn't have said it that way'. A softer repeat of the same hint in a warmer tone is not that.",
+    "repair_check": "Repair looks like a name or a description arriving. That could be the actual behavior ('Tuesday's meeting, the way the budget was challenged') or an honest 'I have no specifics and I shouldn't have said it that way'. A softer repeat of the same hint in a warmer tone is not repair.",
     "boundary_respect_check": "Notice what happens to your question, 'Can you tell me what was said?' A respectful reply gives something, or says honestly why it can't. If the question itself is treated as proof that something is wrong with you, the boundary was not respected.",
-    "psychological_mechanism": "An unspecific accusation leaves a gap, and the mind often fills gaps with its own worst fears. With nothing concrete to check, it can keep searching and turn ordinary events into possible clues. Not knowing who is involved can make everyone in the room a possible source, which may lead to withdrawing from the people who could have helped.",
+    "psychological_mechanism": "An unspecific accusation leaves a gap, and the mind often fills gaps with its own worst fears. With nothing concrete to check, it can keep searching and turn ordinary events into possible clues. Not knowing who is involved can make everyone in the room a possible source. This may lead to withdrawing from the people who could have helped.",
     "possible_impact_on_receiver": "People describe rereading old messages, replaying conversations and watching coworkers' faces for signs. Some change their behavior to fit guesses about the complaint, and some pull back from groups where they think the talk is happening. Feeling judged without a hearing can be painful in its own right.",
     "response_options": {
       "soft_clarification": "Ask for one piece of detail: 'Can you tell me what was said, or what it was about? Even without names, I'd like to know what to look at.'",
       "firm_boundary": "Name the gap once, then stop guessing: 'Hints are hard for me to act on. Until there is something specific, I'm going to carry on as I am.'",
       "disengagement": "If every request for detail meets 'I can't say', you don't have to keep guessing. Let the topic rest until specifics exist, and don't volunteer apologies for things nobody has named.",
-      "support_seeking": "Ask someone you trust who sees you in the same group what they have actually observed, separating what was seen from what was passed along.",
+      "support_seeking": "Ask someone you trust who sees you in the same group what they have actually observed. Separate what they saw from what was passed along.",
       "workplace_or_professional": "At work, ask for the concern in writing with examples and dates, and for the chance to respond. Note the date you asked and what you were told."
     },
     "boundary_script": "\"I take it seriously if people have concerns. I can't respond to something I haven't been told, though. If you can describe what happened, even without names, I'll listen and answer it properly.\"",
     "safety_sensitive": false,
-    "safety_note": "A vague claim alone is mostly a reputational and emotional strain. It becomes more serious if it is tied to consequences you can't see coming, such as a looming dismissal, a custody dispute or a housing review. Then ask in writing what is being claimed, and bring a union representative, employment adviser or lawyer in before any meeting where you are expected to answer.",
+    "safety_note": "A vague claim alone is mostly a strain on your reputation and your feelings. It becomes more serious if it is tied to consequences you can't see coming, such as a looming dismissal, a custody dispute or a housing review. Then ask in writing what is being claimed. Bring in a union representative, employment adviser or lawyer before any meeting where you are expected to answer.",
     "misuse_warning": [
       "Calling every cautious or confidential remark a 'vague allegation' can punish people who are protecting a source for good reason.",
       "Demanding names from someone relaying a real concern can put the person who raised it at risk."
     ],
-    "how_to_distinguish_from_related": "Exaggeration stretches a real event; vague allegations offer no event at all. Fabricated Evidence produces a screenshot or document you can at least examine and challenge, whereas a vague allegation gives you nothing to hold. Lying by Omission leaves a fact out of an otherwise concrete account; here the account itself is what is missing."
+    "how_to_distinguish_from_related": "Exaggeration stretches a real event, but vague allegations offer no event at all. Fabricated Evidence produces a screenshot or document you can at least examine and challenge. A vague allegation gives you nothing to hold. Lying by Omission leaves a fact out of an otherwise concrete account. Here the account itself is what is missing."
   },
   "Lying": {
     "short_definition": "Saying something the speaker knows to be untrue so that another person will believe it and act on it.",

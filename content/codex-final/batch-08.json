@@ -1,15 +1,15 @@
 {
   "Contempt": {
-    "short_definition": "Treating a person with open disgust or superiority, aimed at who they are rather than at anything they did.",
-    "core_meaning": "Treating a person with open disgust or superiority, aimed at who they are rather than at anything they did.",
-    "expanded_definition": "Contempt is disgust or scorn pointed at a person's worth. It can be spoken, but it also lives in the face and body: an eye-roll, a curled lip, a mocking imitation of how you talk. Anger says 'what you did was wrong'. Contempt says 'you are beneath me'. One sneer in a bad argument is common. What makes it a concern is when this tone is the usual way you are spoken to about ordinary things.",
+    "short_definition": "Treating someone with open disgust or superiority. It is aimed at who they are, not at anything they did.",
+    "core_meaning": "Treating someone with open disgust or superiority. It is aimed at who they are, not at anything they did.",
+    "expanded_definition": "Contempt is disgust or scorn pointed at a person's worth. It can be spoken, but it also shows in the face and body, like an eye-roll, a curled lip, or a mocking imitation of how you talk. Anger says 'what you did was wrong'. Contempt says 'you are beneath me'. One sneer in a bad argument is common. It becomes a concern when this tone is the usual way you are spoken to about ordinary things.",
     "plain_language_summary": "Contempt is when someone looks down on you with disgust, so the message is not 'that was wrong' but 'you are beneath me'.",
-    "why_this_matters": "Anger about an action can be answered with an apology or a fix. Scorn for who you are offers nothing to fix, so it can leave you feeling lower, more guarded, and less willing to bring up any problem at all.",
+    "why_this_matters": "You can answer anger about an action with an apology or a fix. Scorn for who you are leaves nothing to fix. It can leave you feeling lower and more guarded, and less willing to bring up any problem at all.",
     "what_it_is": [
-      "Disgust or superiority aimed at the whole person, with the specific incident acting only as an excuse to show it.",
+      "Disgust or superiority aimed at the whole person. The specific incident is only an excuse to show it.",
       "Carried by tone and body as much as words: eye-rolling, sneering, a sigh, mimicking your voice, laughing at you rather than with you.",
       "Different from anger, which wants something to change. Contempt is often silent about what it wants, because it is about rank.",
-      "Shows up in couples, families, friendships and offices, and can be done in front of other people to make the lowering public.",
+      "Shows up in couples, families, friendships and offices. It can happen in front of other people, to make the put-down public.",
       "Closely tied to a sense of being better than the other person, which is why it tends to feel colder than a shouting match."
     ],
     "what_it_sounds_like": [
@@ -29,9 +29,9 @@
       "Disgust at something you did that truly was serious, such as lying about money, when the disgust is about the deed."
     ],
     "this_may_be_it_when": [
-      "The scorn attaches to what you are, such as your intelligence, body, family or upbringing, rather than to a particular action.",
+      "The scorn is about what you are, such as your intelligence, body, family or upbringing, and not about a particular action.",
       "Facial expressions and sighs do the work, so you often cannot quote the thing that stung.",
-      "It appears in ordinary moments, like how you load a dishwasher, not only in big disputes.",
+      "It appears in ordinary moments, like how you load a dishwasher, as well as in big disputes.",
       "You are talked about with an audience in mind, so others laugh or look away.",
       "Raising it gets a further eye-roll or a remark that you are being pathetic about this too."
     ],
@@ -45,7 +45,7 @@
     "innocent_or_ordinary_possibilities": [
       "Exhaustion makes faces and tone harsher, and a harsh look on a bad night does not show what the person meant.",
       "Some families and workplaces use dry, eye-rolling sarcasm as ordinary affection.",
-      "A person raised with scorn may reach for it automatically when stressed, which explains the habit without making it harmless to hear."
+      "A person raised with scorn may reach for it automatically when stressed. That explains the habit, but it does not make it easier to hear."
     ],
     "common_false_positives": [
       "A parent's exasperated 'unbelievable' after a teenager breaks a window, then calm talk about repair.",
@@ -65,7 +65,7 @@
       "Disagreements usually stay aimed at the issue rather than at your character."
     ],
     "more_concerning_if": [
-      "Scorn has become the default tone for everyday exchanges, not only conflict.",
+      "Scorn has become the usual tone for everyday exchanges, as well as for conflict.",
       "It is done in front of children, friends or colleagues, so others learn to treat you the same way.",
       "You have started staying quiet or hiding things to avoid the sneer."
     ],
@@ -75,30 +75,30 @@
       "Warm moments get rarer and the remaining ones feel like a pause between sneers.",
       "People close to you start to mimic the same tone, or visibly wince when it happens."
     ],
-    "repair_check": "Change shows up in the face and voice before it shows up in promises: a person who is working on this catches the eye-roll mid-way, asks what they missed about you, and speaks to you as an equal on a normal Tuesday. A big apology and then the same sneer on Friday is not that.",
+    "repair_check": "Change shows up in the face and voice before it shows up in promises. A person who is working on this catches the eye-roll halfway, asks what they missed about you, and speaks to you as an equal on a normal Tuesday. A big apology followed by the same sneer on Friday is not that.",
     "boundary_respect_check": "State once that you want to be spoken to without mockery, then watch what the next ordinary disagreement looks like. Do the tone and expression soften without being reminded? Or does your request become the next thing to roll eyes about?",
-    "psychological_mechanism": "Being looked down on can work on a person's sense of standing, because people read faces and tone quickly and often before they can name what they saw. When scorn comes from someone whose opinion matters, it can sink in as information about your worth. The nonverbal parts are hard to quote back, which can make it harder to object to.",
-    "possible_impact_on_receiver": "People describe flinching at a certain look, going quiet in a room, rehearsing how to avoid being laughed at, and feeling lower than the people around them. Some find they begin using the same scorn on themselves, or on others. Many say what made it hard to name was that no single sentence seemed bad enough to quote.",
+    "psychological_mechanism": "Being looked down on can hurt a person's sense of standing. People read faces and tone quickly, often before they can name what they saw. When scorn comes from someone whose opinion matters, it can sink in as information about your worth. The nonverbal parts are hard to quote back, so they can be harder to object to.",
+    "possible_impact_on_receiver": "People describe flinching at a certain look, going quiet in a room, and rehearsing how to avoid being laughed at. They also describe feeling lower than the people around them. Some find they start using the same scorn on themselves, or on others. Many say it was hard to name because no single sentence seemed bad enough to quote.",
     "response_options": {
       "soft_clarification": "Name the tone, not the person: 'When you roll your eyes like that, it feels like you think less of me. Can you tell me what you're upset about?'",
       "firm_boundary": "Ask for a plain standard: 'Tell me what you disagree with and I will listen. A sneer gives me nothing I can answer.'",
       "disengagement": "Stop engaging when the tone turns to scorn. Let a mocking remark go unanswered, change the subject, and return when it is just about the issue.",
-      "support_seeking": "Ask someone who has seen you together to describe the tone they noticed, or write down three exact moments so you can judge them from a calmer place.",
-      "workplace_or_professional": "At work, keep dated notes of remarks and who was present, and if you raise it, describe the behavior ('mocking my accent in meetings') rather than calling it contempt."
+      "support_seeking": "Ask someone who has seen you together to describe the tone they noticed. Or write down three exact moments, so you can judge them from a calmer place.",
+      "workplace_or_professional": "At work, keep dated notes of remarks and who was there. If you raise it, describe the behavior ('mocking my accent in meetings') and do not call it contempt."
     },
     "boundary_script": "\"I can take disagreement, and I can take being told I got something wrong. What I can't do is talk while being looked at like I'm disgusting. If you tell me the actual problem, I'll work on it with you.\"",
     "safety_sensitive": false,
-    "safety_note": "Contempt on its own is a painful way of treating someone, not a sign of physical danger. It would change if scorn starts arriving with threats, with control of money or movement, or with a drop in your sense that it is safe to disagree. If that happens, talk to a counselor or a domestic abuse advocate before you try to reshape the relationship.",
+    "safety_note": "Contempt on its own is a painful way of treating someone, not a sign of physical danger. That would change if scorn starts arriving with threats, with control of money or movement, or with a drop in your sense that it is safe to disagree. If that happens, talk to a counselor or a domestic abuse advocate before you try to reshape the relationship.",
     "misuse_warning": [
       "Labeling any eye-roll or sarcasm as contempt can turn ordinary irritation into a charge. Look for scorn aimed at worth that repeats, not a bad moment.",
       "Telling someone 'you are being contemptuous' mid-argument often becomes its own put-down. Describe the behavior you saw instead."
     ],
-    "how_to_distinguish_from_related": "Shame Installation insists you are fundamentally inadequate, often in a heavy, moral voice, while contempt can be light, amused or cold, and rests on being above you. Name-Calling Disguised as Humor wraps the insult in a joke, while contempt needs no cover. Emotional Invalidation rejects what you feel; contempt rejects you, whatever you feel."
+    "how_to_distinguish_from_related": "Shame Installation insists you are deeply inadequate, often in a heavy, moral voice. Contempt can be light, amused or cold, and it rests on being above you. Name-Calling Disguised as Humor wraps the insult in a joke, while contempt needs no cover. Emotional Invalidation rejects what you feel. Contempt rejects you, whatever you feel."
   },
   "Name-Calling Disguised as Humor": {
-    "short_definition": "Delivering an insult or demeaning label inside a joke, so that objecting to it can be called overreacting.",
-    "core_meaning": "Delivering an insult or demeaning label inside a joke, so that objecting to it can be called overreacting.",
-    "expanded_definition": "This is an insult dressed as a joke. The joke frame lets the speaker say something cutting, then treat any hurt as the listener's fault for lacking a sense of humor. A single clumsy joke means little, and plenty of friends tease each other and enjoy it. The pattern is a tease that always lands on the same person, stings underneath the laugh, and keeps coming after you say it does not feel funny.",
+    "short_definition": "Putting an insult or demeaning label inside a joke, so that if you object, you can be accused of overreacting.",
+    "core_meaning": "Putting an insult or demeaning label inside a joke, so that if you object, you can be accused of overreacting.",
+    "expanded_definition": "This is an insult dressed as a joke. The joke frame lets the speaker say something cutting. Then any hurt is treated as the listener's fault for lacking a sense of humor. A single clumsy joke means little, and plenty of friends tease each other and enjoy it. The pattern is a tease that always lands on the same person, stings under the laugh, and keeps coming after you say it does not feel funny.",
     "plain_language_summary": "Someone says something insulting and wraps it in 'just kidding', so if you are hurt, you become the person who cannot take a joke.",
     "why_this_matters": "You are left with two bad choices: swallow the sting or be labeled humorless. Over time, many people stop objecting, and that silence can be mistaken by everyone, including you, for being fine with it.",
     "what_it_is": [
@@ -135,7 +135,7 @@
       "They stop at once when you say it stung and check that you are okay.",
       "You make jokes about them too and they laugh in the same way.",
       "The teasing is about shared, light things, not your sore spots.",
-      "You find yourself actually laughing and not just performing laughter.",
+      "You find yourself actually laughing, and you are not performing laughter.",
       "A third person who knows you both would call the dynamic even."
     ],
     "innocent_or_ordinary_possibilities": [
@@ -172,7 +172,7 @@
       "Your own jokes about yourself get harsher, copying the ones you hear."
     ],
     "repair_check": "Look at whether the line you objected to actually vanishes, along with its close cousins. A person who took it in will drop the label without a speech and tease you only about things you have said you enjoy. A fresh joke that tests the same sore spot a week later tells you the request did not land.",
-    "boundary_respect_check": "Once you say 'that one is off the table', pay attention to how quickly it ends and whether it comes back wearing a new costume. The respectful reply is boring and short. The telling one is a joke about your request.",
+    "boundary_respect_check": "Once you say 'that one is off the table', pay attention to how quickly it ends. Also notice whether it comes back wearing a new costume. The respectful reply is boring and short. The telling one is a joke about your request.",
     "psychological_mechanism": "Humor signals that the usual rules are suspended, and laughter is hard to refuse in a group. That gives a cutting remark cover: the listener must judge both the insult and whether complaining will cost them socially. Repeated often, the label can start to sound like a fact about you rather than a line from someone else.",
     "possible_impact_on_receiver": "People describe laughing on the outside while stinging inside, saving up the comments, and then doubting themselves for being bothered at all. Some begin to use the nickname on themselves first. Others pull back from gatherings where the jokes are made, or stop sharing anything personal that could be turned into material.",
     "response_options": {
@@ -180,21 +180,21 @@
       "firm_boundary": "Ask for the line to stop, and do not laugh to fill the gap: 'I don't find that funny. Please don't call me that.'",
       "disengagement": "Withhold the laugh. A flat 'hm' and moving on denies the joke its payoff, and you can leave the group chat thread alone for a bit.",
       "support_seeking": "Ask a friend who was present whether the joke seemed friendly to them. Hearing it from outside can settle whether you are over-reading.",
-      "workplace_or_professional": "At work, a nickname that targets you can be raised privately with a manager or HR as 'a label I haven't agreed to', with dates and witnesses noted."
+      "workplace_or_professional": "At work, you can raise a nickname that targets you privately with a manager or HR as 'a label I haven't agreed to'. Note the dates and witnesses."
     },
     "boundary_script": "\"I'm not upset about being teased in general. That particular name stings, and the laugh doesn't make it sting less. I'd like you to stop using it, and if I say it's too far, please let that be the end of it.\"",
     "safety_sensitive": false,
     "safety_note": "Insults wrapped in jokes are usually a matter of respect, not danger. It would change if the jokes carry threats ('keep it up and see') or are used to control what you may say to others. It would also change if you feel afraid of what happens after you object. Then speak to a trusted person or counselor about how the pattern is escalating.",
     "misuse_warning": [
-      "Not every cruel-sounding joke is this tactic, and ending a friendship over one tasteless remark can miss a real apology that was coming.",
-      "Calling someone's sense of humor 'abusive' in response to normal banter can make real complaints about harmful teasing easier to dismiss."
+      "Not every cruel-sounding joke is this tactic. Ending a friendship over one tasteless remark can mean missing a real apology that was coming.",
+      "Calling someone's sense of humor 'abusive' because of normal banter can make real complaints about harmful teasing easier to dismiss."
     ],
-    "how_to_distinguish_from_related": "Contempt needs no joke and shows open disgust, while this tactic carries the insult inside humor, and the laugh gives it cover. Comparative Devaluation puts you next to someone else to your disadvantage; here the sting is the label itself. Emotional Invalidation rejects your feelings directly, but this tactic gets the same result by making your hurt the punchline."
+    "how_to_distinguish_from_related": "Contempt needs no joke and shows open disgust. This tactic carries the insult inside humor, and the laugh gives it cover. Comparative Devaluation puts you next to someone else to your disadvantage, while here the sting is the label itself. Emotional Invalidation rejects your feelings directly. This tactic gets the same result by making your hurt the punchline."
   },
   "Comparative Devaluation": {
     "short_definition": "Holding a person up against someone else, again and again, in a way that always leaves them coming up short.",
     "core_meaning": "Holding a person up against someone else, again and again, in a way that always leaves them coming up short.",
-    "expanded_definition": "Comparative devaluation is measuring someone against a third person, whether a sibling, an ex, a coworker or a stranger online, and the result is always that they fall short. A single comparison can be a clumsy way of saying what someone wants. The pattern is when the comparison is the main way of voicing a need, the comparison figures keep changing, and nothing you do ever puts you ahead.",
+    "expanded_definition": "Comparative devaluation is measuring someone against a third person, such as a sibling, an ex, a coworker or a stranger online. The result is always that they fall short. A single comparison can be a clumsy way of saying what someone wants. The pattern is when comparing is the main way of voicing a need, the people used keep changing, and nothing you do ever puts you ahead.",
     "plain_language_summary": "Someone keeps pointing to other people who do things better, so you feel you are never quite enough, no matter what you do.",
     "why_this_matters": "A comparison with no finish line cannot be won, because there is always another person who seems better. It can wear down confidence and also harm your relationships with the people you are being compared to.",
     "what_it_is": [
@@ -202,7 +202,7 @@
       "Swapping comparison figures freely, so you cannot catch up with any one benchmark.",
       "Sometimes done through compliments to the other person, praised loudly in front of you.",
       "A roundabout way to ask for something, where saying 'I'd like more help with the dishes' is replaced by a ranking.",
-      "Seen between partners, parents and children, in schools and at work, and more recently with strangers' social media lives as the benchmark."
+      "Seen between partners, parents and children, in schools and at work. More recently, strangers' social media lives are used as the benchmark."
     ],
     "what_it_sounds_like": [
       "Why can't you be more like your sister?",
@@ -214,8 +214,8 @@
       "I wish you had half of his drive."
     ],
     "what_it_is_not": [
-      "A person trying to describe what they need, using someone they know as an example: 'Could you handle the school forms the way Sam does for his kids?'",
-      "A teacher or manager showing an example of a good result as a model without ranking you against a named person.",
+      "A person describing what they need by using someone they know as an example: 'Could you handle the school forms the way Sam does for his kids?'",
+      "A teacher or manager showing an example of a good result as a model, without ranking you against a named person.",
       "Admiration for a friend that is not meant as a rebuke and not tied to your shortcomings.",
       "One careless comment after a rough day, quickly regretted.",
       "A coach pointing to a teammate's technique so you can learn from it, with no verdict on you."
@@ -269,35 +269,35 @@
     ],
     "repair_check": "Under every comparison sits a need, and change means saying the need instead. Someone changing this habit starts to say 'I'd like us to eat together more often' and stops measuring you against another household. If the benchmark person is just swapped for a different one, the mechanism is still running.",
     "boundary_respect_check": "Tell them you won't be ranked against others, then listen for what fills the gap. Do they ask you directly for what they want? Or does the bar simply move to another name, or does a sigh deliver the comparison without words?",
-    "psychological_mechanism": "Humans judge themselves by looking at others, so a named comparison makes the standard feel objective. Because the benchmark person is real and imperfectly known, it is hard to argue against, and a moving benchmark means there is no point at which you can say you have caught up. That can make you keep trying harder while feeling less adequate.",
-    "possible_impact_on_receiver": "A constant sense of being measured is common, along with tension around the person who is the benchmark and a habit of checking whether you match up. Some become resentful of siblings or colleagues who did nothing. Others overwork to please, then feel the effort is never seen. Over time, some stop trusting their own sense of what counts as good enough.",
+    "psychological_mechanism": "Humans judge themselves by looking at others, so a named comparison makes the standard feel objective. The benchmark person is real and only partly known, so it is hard to argue against. A moving benchmark also means there is no point where you can say you have caught up. That can make you try harder while feeling less adequate.",
+    "possible_impact_on_receiver": "A constant sense of being measured is common. So are tension around the person who is the benchmark and a habit of checking whether you match up. Some become resentful of siblings or colleagues who did nothing. Others overwork to please, then feel the effort is never seen. Over time, some stop trusting their own sense of what counts as good enough.",
     "response_options": {
       "soft_clarification": "Ask for the need itself: 'I can't do anything with a comparison to your sister. What would you like me to do differently?'",
       "firm_boundary": "Set one rule: 'I'm not comfortable being compared to other people. Tell me what you need, and I'll tell you if I can do it.'",
       "disengagement": "Decline to defend yourself against the named person. Skip the debate about whether the other person is better and leave the topic.",
       "support_seeking": "Ask someone who knows you both what they see. Often they can tell you the comparison does not hold up or that the benchmark person is struggling too.",
-      "workplace_or_professional": "At work, ask for goals measured against written criteria or your own earlier results rather than a named colleague, and keep copies of the feedback you receive."
+      "workplace_or_professional": "At work, ask for goals measured against written criteria or your own earlier results, not against a named colleague. Keep copies of the feedback you receive."
     },
     "boundary_script": "\"You'd like more from me, and I want to know what that is. When you put me next to someone else I can't act on it. Tell me one thing you'd like different and I'll think honestly about whether I can do it.\"",
     "safety_sensitive": false,
-    "safety_note": "Comparisons alone are an erosion of confidence rather than a physical risk. The picture changes if the other person uses them to control what you wear, eat, weigh or do, or if refusing the standard brings anger, money pressure or threats. Then a counselor, a doctor, or a domestic abuse advocate can help, especially if the comparisons concern your body or health.",
+    "safety_note": "Comparisons alone wear down confidence and are not a physical risk. The picture changes if the other person uses them to control what you wear, eat, weigh or do. It also changes if refusing the standard brings anger, money pressure or threats. Then a counselor, a doctor, or a domestic abuse advocate can help, especially if the comparisons concern your body or health.",
     "misuse_warning": [
-      "Hearing any mention of another person as an attack can close off honest examples. The tactic is a repeated unwinnable ranking, not every reference to someone else.",
+      "Hearing any mention of another person as an attack can close off honest examples. The tactic is a repeated, unwinnable ranking. It is not every reference to someone else.",
       "Using the label to claim the other person is comparing you out of malice goes past what you can know from these remarks."
     ],
-    "how_to_distinguish_from_related": "Contempt expresses disgust at who you are without needing a benchmark, while comparative devaluation works through a named third person. Shame Installation announces that something is wrong with you as a person; comparison only says someone else is better. Name-Calling Disguised as Humor wraps the insult in a joke, but comparison can be said seriously and calmly."
+    "how_to_distinguish_from_related": "Contempt expresses disgust at who you are and needs no benchmark. Comparative devaluation works through a named third person. Shame Installation announces that something is wrong with you as a person, while comparison only says someone else is better. Name-Calling Disguised as Humor wraps the insult in a joke, but comparison can be said seriously and calmly."
   },
   "Emotional Invalidation": {
     "short_definition": "Telling someone that what they feel is wrong, silly or not allowed, instead of accepting that they feel it.",
     "core_meaning": "Telling someone that what they feel is wrong, silly or not allowed, instead of accepting that they feel it.",
-    "expanded_definition": "Emotional invalidation is rejecting a person's feelings as unreasonable, exaggerated or forbidden. Instead of 'I see this hurts', the response is 'you shouldn't feel that'. Being invalidated once by a tired or rushed person is normal. The pattern is when your feelings are routinely ruled out, whatever they are, so you learn that sharing them gets you a lecture, a fix or a joke instead of being heard.",
+    "expanded_definition": "Emotional invalidation is rejecting a person's feelings as unreasonable, exaggerated or forbidden. Instead of 'I see this hurts', the response is 'you shouldn't feel that'. Being invalidated once by a tired or rushed person is normal. The pattern is when your feelings are routinely ruled out, whatever they are. You learn that sharing them gets you a lecture, a fix or a joke, and not the feeling of being heard.",
     "plain_language_summary": "When you say how you feel, you get told you should not feel that way, so you stop saying it.",
-    "why_this_matters": "Feelings are often the first thing people reach for when they need to explain what is wrong. When they are routinely dismissed, people can stop reporting them and then stop recognizing them, which makes everything else, from asking for help to leaving a bad situation, harder.",
+    "why_this_matters": "People often reach for their feelings first when they need to explain what is wrong. When feelings are routinely dismissed, people can stop reporting them, and then stop recognizing them. That makes everything else harder, from asking for help to leaving a bad situation.",
     "what_it_is": [
       "Declaring a feeling wrong, too big, or pointless, in place of acknowledging it.",
       "Often phrased as comfort or logic: 'You're overreacting', 'Look on the bright side'.",
       "Different from disagreeing about facts, because the target is the emotion itself.",
-      "Can come from any direction: a parent telling a child not to cry, a manager saying stress is imaginary, a partner calling an upset 'drama'.",
+      "It can come from any direction. A parent tells a child not to cry, a manager says stress is imaginary, or a partner calls an upset 'drama'.",
       "Often leaves the topic of the feeling untouched, so the original problem remains."
     ],
     "what_it_sounds_like": [
@@ -321,7 +321,7 @@
       "The same type of feeling, such as anger or worry, is always ruled out.",
       "Comfort comes with a lecture about why you should feel differently.",
       "You find yourself apologizing for being upset.",
-      "The original problem never gets discussed because the argument is about whether you are allowed to feel this way."
+      "The original problem never gets discussed, because the argument becomes about whether you are allowed to feel this way."
     ],
     "this_may_not_be_it_when": [
       "They listen first and then offer a different view.",
@@ -372,22 +372,22 @@
       "firm_boundary": "Mark the line on being ruled out: 'You don't have to feel what I feel, but please don't tell me I'm not allowed to.'",
       "disengagement": "If the conversation turns into a debate about whether you may feel this, stop explaining. You can pause and write your feeling down for yourself instead.",
       "support_seeking": "Share the same feeling with someone who tends to just listen, and notice how it sits. Being believed elsewhere helps you check your sense of what is reasonable.",
-      "workplace_or_professional": "At work, bring concerns as observable facts and impacts ('Three deadlines moved this week and I'm struggling to plan'), which are harder to wave away as mood."
+      "workplace_or_professional": "At work, bring concerns as facts anyone can see, plus their impact ('Three deadlines moved this week and I'm struggling to plan'). These are harder to wave away as mood."
     },
     "boundary_script": "\"I'm not looking for you to agree with how I feel. I'm asking you not to tell me I shouldn't feel it. If you want to share how you see it afterward, I'll listen, but I need to be heard first.\"",
     "safety_sensitive": false,
     "safety_note": "Having feelings dismissed is hurtful but is not in itself a sign of danger. It becomes more serious if you are told in front of others that you are unwell or unstable. It also does if you are punished for showing distress, or if your only support is the person dismissing you. Then a counselor, doctor or advocate outside the relationship can help you check your own bearings.",
     "misuse_warning": [
       "Calling every attempt to cheer you up or offer perspective 'invalidation' can make kindness feel suspect. Look for feelings routinely ruled out, not a clumsy comfort.",
-      "Using the word to demand that others agree with your account of events mixes up respecting a feeling with agreeing with a conclusion."
+      "Using the word to demand that others agree with your account of events mixes up two things. Respecting a feeling is not the same as agreeing with a conclusion."
     ],
-    "how_to_distinguish_from_related": "Contempt looks down on you, while emotional invalidation may be said gently and still deny your feeling. Shame Installation says you are inadequate; invalidation says your reaction is not permitted. Name-Calling Disguised as Humor reaches a similar place by making your hurt the joke, but invalidation does it by simply ruling the feeling out."
+    "how_to_distinguish_from_related": "Contempt looks down on you. Emotional invalidation may be said gently and still deny your feeling. Shame Installation says you are inadequate, while invalidation says your reaction is not permitted. Name-Calling Disguised as Humor reaches a similar place by making your hurt the joke, but invalidation simply rules the feeling out."
   },
   "Shame Installation": {
     "short_definition": "Treating a person's mistake as proof that something is wrong with them as a whole, so shame replaces guilt.",
     "core_meaning": "Treating a person's mistake as proof that something is wrong with them as a whole, so shame replaces guilt.",
-    "expanded_definition": "Guilt says 'I did something bad'. Shame says 'I am bad'. Shame installation is the repeated move from the first to the second: a mistake is treated as a verdict on the whole person, until the shame lives inside them and starts working without the other person present. One harsh 'what is wrong with you' on a bad day is common. The pattern is when every error becomes proof of a deep flaw.",
-    "plain_language_summary": "A mistake gets treated as proof that something is wrong with you as a person, until the shame stays with you even when the other person is not there.",
+    "expanded_definition": "Guilt says 'I did something bad'. Shame says 'I am bad'. Shame installation is the repeated move from the first to the second. A mistake is treated as a verdict on the whole person, until the shame lives inside them and keeps working when the other person is not there. One harsh 'what is wrong with you' on a bad day is common. The pattern is when every error becomes proof of a deep flaw.",
+    "plain_language_summary": "A mistake gets treated as proof that something is wrong with you as a person. In time, the shame stays with you even when the other person is not there.",
     "why_this_matters": "Guilt can lead to an apology and a repair. Shame often leads to hiding, which makes repair less likely. A person who believes they are the problem can find it hard to ask for help or to trust their own judgment.",
     "what_it_is": [
       "Turning a particular action into a statement about the person's character or basic worth.",
@@ -416,7 +416,7 @@
       "The criticism moves from what you did to what you are.",
       "Old failures are listed as proof every time something new happens.",
       "There is no stated way to repair it, only more disappointment.",
-      "You feel dirty or defective, not just sorry, after a conversation.",
+      "After a conversation, you feel dirty or defective, and not only sorry.",
       "Ordinary needs or traits get treated as moral failings."
     ],
     "this_may_not_be_it_when": [
@@ -427,7 +427,7 @@
       "You feel sorry and motivated to fix it, not diminished."
     ],
     "innocent_or_ordinary_possibilities": [
-      "Some religious or cultural settings use strong moral language about conduct, which can feel shaming without being aimed at the person's worth.",
+      "Some religious or cultural settings use strong moral language about conduct. This can feel shaming even when it is not aimed at the person's worth.",
       "A frightened parent may blurt harsh words when a child is in danger.",
       "A friend who feels betrayed may lash out in the moment."
     ],
@@ -461,35 +461,35 @@
     ],
     "repair_check": "Watch whether past errors stay in the past. When something has shifted, a mistake gets talked about as a mistake, a way to fix it is offered, and the topic closes. An apology that is followed by 'but this is exactly what I'd expect from you' has just moved the shame to the next sentence.",
     "boundary_respect_check": "When you say you will answer for what you did but not for who you are, notice whether the conversation can stay on the act. Can they say what they want from you without a verdict? If each request ends with a statement about your character, the limit hasn't taken hold.",
-    "psychological_mechanism": "Shame is a social emotion and strongly tied to belonging, so being told you are fundamentally flawed can register as a threat to your place with the person. Because shame pushes people to hide and be small, it can weaken the very responses, such as explaining and repairing, that would resolve the matter. Repeated, the inner voice can carry the message on alone.",
-    "possible_impact_on_receiver": "A heavy, physical sense of being defective is a common report, along with hiding mistakes, avoiding eye contact, and taking on blame in situations that were shared. Some become very hard on themselves. Others describe an unexpected relief when the difference between doing something wrong and being wrong was named, as though a weight had been put in the right place.",
+    "psychological_mechanism": "Shame is a social emotion and strongly tied to belonging. Being told you are deeply flawed can register as a threat to your place with the person. Shame also pushes people to hide and be small. That can weaken the very responses, such as explaining and repairing, that would resolve the matter. If it is repeated, the inner voice can carry the message on alone.",
+    "possible_impact_on_receiver": "Many people report a heavy, physical sense of being defective. They also report hiding mistakes, avoiding eye contact, and taking on blame in situations that were shared. Some become very hard on themselves. Others describe an unexpected relief when someone named the difference between doing something wrong and being wrong, as though a weight had been put in the right place.",
     "response_options": {
       "soft_clarification": "Separate the act from the person: 'I can hear that what I did upset you. I'd like to talk about that, not about whether I'm a bad person.'",
       "firm_boundary": "State the limit on verdicts: 'I'll take responsibility for what I did. I won't agree that something is wrong with me as a person.'",
       "disengagement": "When it shifts to your character, stop defending yourself point by point. Let silence or a topic change signal that the conversation stays on actions.",
       "support_seeking": "Tell a trusted person what was said word for word and ask how it sounds to them. A counselor can also help separate fair guilt from borrowed shame.",
-      "workplace_or_professional": "At work, ask for feedback in terms of specific tasks and examples, and write down remarks about your character or worth, with dates, if they continue."
+      "workplace_or_professional": "At work, ask for feedback about specific tasks and examples. If remarks about your character or worth continue, write them down with dates."
     },
     "boundary_script": "\"I did get that wrong, and I'm willing to fix it. What I won't do is accept that the mistake says something terrible about who I am. Let's talk about what happened and what would make it right.\"",
     "safety_sensitive": false,
-    "safety_note": "Shaming alone is a harm to self-worth rather than physical danger, but it deserves care if you are starting to believe you deserve mistreatment or have thoughts of hurting yourself. In that case, contact a crisis line or a mental health professional promptly. It also changes if shaming is paired with threats, isolation or control of money.",
+    "safety_note": "Shaming alone harms self-worth and is not physical danger. But it deserves care if you are starting to believe you deserve mistreatment, or have thoughts of hurting yourself. In that case, contact a crisis line or a mental health professional promptly. It also changes if shaming is paired with threats, isolation or control of money.",
     "misuse_warning": [
       "Calling every strong moral disapproval 'shaming' can excuse real wrongdoing from being named. Accountability for an act is different from an attack on your worth.",
-      "Telling someone 'you are shaming me' to deflect a legitimate complaint turns the label into a way to avoid hearing it."
+      "Saying 'you are shaming me' to brush off a fair complaint turns the label into a way to avoid hearing it."
     ],
-    "how_to_distinguish_from_related": "Contempt shows scorn and superiority, often in a sneer, while shame installation speaks in the language of moral failure and disappointment. Emotional Invalidation disputes your feelings; shame installation disputes your worth. Comparative Devaluation holds you against another person, but here the standard is not a person but a vague idea of what a decent human would be."
+    "how_to_distinguish_from_related": "Contempt shows scorn and superiority, often in a sneer. Shame installation speaks in the language of moral failure and disappointment. Emotional Invalidation disputes your feelings, while shame installation disputes your worth. Comparative Devaluation holds you against another person. Here the standard is a vague idea of what a decent human would be, and not a person."
   },
   "Intimidation": {
     "short_definition": "Using a hint or open warning of unwelcome consequences to push someone toward giving in or staying quiet.",
     "core_meaning": "Using a hint or open warning of unwelcome consequences to push someone toward giving in or staying quiet.",
-    "expanded_definition": "Intimidation works through fear of what might happen next. The threat can be spoken ('you'll regret this'), hinted at ('you know what I'm capable of'), or carried by body and surroundings, such as standing over you or blocking a door. The consequence is often left vague, which does more work than any detail would. A person who is only upset is not doing this. The pattern is fear attached to your saying no or disagreeing.",
+    "expanded_definition": "Intimidation works through fear of what might happen next. The threat can be spoken ('you'll regret this'), hinted at ('you know what I'm capable of'), or carried by body and surroundings. Examples are standing over you or blocking a door. The consequence is often left vague, which does more work than any detail would. A person who is only upset is not doing this. The pattern is fear attached to your saying no or disagreeing.",
     "plain_language_summary": "Someone makes you afraid of what will happen if you disagree or say no, whether by saying it outright or by hinting at it.",
-    "why_this_matters": "When you comply out of fear, the other person may never learn whether you agree, and you may stop saying what you think at all. The fear can also grow, because the unspoken consequence never needs to be tested to keep working.",
+    "why_this_matters": "When you comply out of fear, the other person may never learn whether you agree. You may stop saying what you think at all. The fear can also grow, because the unspoken consequence never needs to be tested to keep working.",
     "what_it_is": [
       "A stated or implied warning of unwelcome consequences, tied to what you decide or say.",
       "Often vague, such as 'you'll see', and a vague threat leaves the imagination to fill in the worst.",
       "Can be carried by posture and objects: standing close, slamming things, blocking the doorway, driving aggressively.",
-      "Can be social or practical as well as physical, such as hints about your job, immigration status, children or reputation.",
+      "It can be social or practical as well as physical, such as hints about your job, immigration status, children or reputation.",
       "Different from anger, because it is about making you afraid to continue."
     ],
     "what_it_sounds_like": [
@@ -506,7 +506,7 @@
       "A person saying they are very angry and need to leave the room to calm down.",
       "A prediction of how someone else will react: 'if you tell your boss that way, you'll regret it.'",
       "A firm boundary with an ordinary consequence, such as 'I won't ride with you if you've been drinking.'",
-      "Someone venting a frightening-sounding sentence during a rage and then horrified by it afterward, which is still serious but different from a campaign to control you."
+      "Someone venting a frightening-sounding sentence during a rage and then feeling horrified by it afterward. This is still serious, but it is different from a campaign to control you."
     ],
     "this_may_be_it_when": [
       "The warning comes just when you say no, push back, or ask a question.",
@@ -555,20 +555,20 @@
       "You have stopped bringing up certain subjects at all.",
       "Friends or family notice that you seem on edge or have become quieter."
     ],
-    "repair_check": "Real change here is visible in how disagreement is handled: you can say no, and the person stays calm and takes it. Gifts, tears and promises made after a scare do not show that, and a pattern that also includes control of your phone, money or movement needs outside help, not a private agreement.",
+    "repair_check": "Real change here is visible in how disagreement is handled. You can say no, and the person stays calm and takes it. Gifts, tears and promises made after a scare do not show that. A pattern that also includes control of your phone, money or movement needs outside help, not a private agreement.",
     "boundary_respect_check": "Because the reaction may be unsafe, look back at earlier times you disagreed and judge the risk from that. A past of calm acceptance is reassuring. A past of fear, sulking, retaliation or damage should be taken seriously before you test a limit directly.",
-    "psychological_mechanism": "Fear narrows attention and pushes people toward whatever feels safest in the moment, often giving in or going quiet. A vague warning can be especially effective because the mind fills in the worst. When compliance is followed by relief, people can learn to avoid triggering the warning, which means the threat works even when it is not repeated.",
-    "possible_impact_on_receiver": "Many report living on alert: a racing heart when a certain tone appears, rehearsing how to avoid setting someone off, and giving up preferences they once had. Some feel ashamed of 'letting' it happen, though going along with a threat is a common response to fear. Trouble sleeping or concentrating, and a habit of checking exits, are also mentioned.",
+    "psychological_mechanism": "Fear narrows attention and pushes people toward whatever feels safest in the moment, often giving in or going quiet. A vague warning can be especially effective because the mind fills in the worst. When compliance is followed by relief, people can learn to avoid triggering the warning. That means the threat works even when it is not repeated.",
+    "possible_impact_on_receiver": "Many report living on alert, with a racing heart when a certain tone appears. They rehearse how to avoid setting someone off, and give up preferences they once had. Some feel ashamed of 'letting' it happen, though going along with a threat is a common response to fear. Trouble sleeping or concentrating, and a habit of checking exits, are also mentioned.",
     "response_options": {
       "soft_clarification": "Stay inside the conversation and keep it calm: 'I want to hear what you need. Can you tell me what you'd like me to do?'",
       "firm_boundary": "Name the effect without accusing: 'I find it hard to think when the conversation feels like a warning. Can we slow down and take this one point at a time?'",
-      "disengagement": "Ask for a pause in ordinary terms, such as a drink of water or a call to a friend, and use that time to think about your safety. Decide privately, with an advocate, what comes next.",
-      "support_seeking": "Tell a trusted person or a domestic violence advocate exactly what was said and done, and ask them to help you think about safety before the next conflict.",
-      "workplace_or_professional": "At work or in a professional setting, write down the date, words and witnesses, keep copies, and report to HR, a union rep or a regulator rather than confronting the person alone."
+      "disengagement": "Ask for a pause in ordinary terms, such as a drink of water or a call to a friend. Use that time to think about your safety. Decide privately, with an advocate, what comes next.",
+      "support_seeking": "Tell a trusted person or a domestic violence advocate exactly what was said and done. Ask them to help you think about safety before the next conflict.",
+      "workplace_or_professional": "At work or in a professional setting, write down the date, words and witnesses, and keep copies. Report to HR, a union rep or a regulator, and do not confront the person alone."
     },
     "boundary_script": "\"My thinking is getting cloudy, and I want to keep talking about this. Could we take a short break and come back to it, or could someone else sit in with us?\"",
     "safety_sensitive": true,
-    "safety_note": "Threats, blocked doors, damaged property, or hints about knowing where you go can sit alongside physical danger. Keep a private record, tell someone you trust, and avoid announcing plans to leave or confronting the person. A domestic violence advocate can help you plan safely, and if you are in immediate danger, call your local emergency number.",
+    "safety_note": "Threats, blocked doors, damaged property, or hints about knowing where you go can sit alongside physical danger. Keep a private record, tell someone you trust, and avoid announcing plans to leave or confronting the person. A domestic violence advocate can help you plan safely. If you are in immediate danger, call your local emergency number.",
     "misuse_warning": [
       "Calling any stated consequence a threat can make honest warnings, like a landlord's notice or a parent's rule, look sinister. Look for fear attached to your saying no.",
       "Labeling someone as a person who intimidates, rather than describing what was said, can escalate a situation. Describe the words and actions you saw."

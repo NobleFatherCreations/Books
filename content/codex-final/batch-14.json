@@ -1,13 +1,13 @@
 {
   "Punishment of Boundaries": {
-    "short_definition": "Answering a limit someone has set with a penalty, such as coldness, withdrawn help or a taken-away privilege, until saying no starts to feel costly.",
-    "core_meaning": "Answering a limit someone has set with a penalty, such as coldness, withdrawn help or a taken-away privilege, until saying no starts to feel costly.",
-    "expanded_definition": "Punishment of Boundaries is a reply to a stated limit that makes the limit expensive. After someone says no, asks for space or changes an arrangement, a cost follows: days of silence, a ride that is no longer offered, a sudden cold tone, a favor pulled back, a story told to mutual friends about how difficult they have become. Hurt feelings about a new limit are ordinary, and one sour evening says little. What marks it is a cost that arrives every time a limit is set and lifts only when the limit does.",
+    "short_definition": "When someone sets a limit, the other person answers with a penalty, such as coldness, withdrawn help or a taken-away privilege. Saying no starts to feel costly.",
+    "core_meaning": "When someone sets a limit, the other person answers with a penalty, such as coldness, withdrawn help or a taken-away privilege. Saying no starts to feel costly.",
+    "expanded_definition": "Punishment of Boundaries is a reply to a stated limit that makes the limit expensive. After someone says no, asks for space or changes an arrangement, a cost follows. It might be days of silence, a ride that is no longer offered, a sudden cold tone, or a favor pulled back. It might be a story told to mutual friends about how difficult they have become. Hurt feelings about a new limit are ordinary, and one sour evening says little. What marks it is a cost that arrives every time a limit is set and lifts only when the limit does.",
     "plain_language_summary": "You say no or ask for space, and something you value goes cold or goes missing until you take it back.",
-    "why_this_matters": "People learn from what a no costs. When every limit is followed by a chill, a lost favor or a week of silence, many stop setting limits at all, and the relationship quietly shrinks to whatever the other person will accept.",
+    "why_this_matters": "People learn from what a no costs. When every limit is followed by a chill, a lost favor or a week of silence, many stop setting limits at all. The relationship quietly shrinks to whatever the other person will accept.",
     "what_it_is": [
-      "A cost attached to a limit: the silence, the sharper tone or the withdrawn favor begins after the limit is set and ends when it is dropped.",
-      "Penalties come in many sizes, from a cold shoulder and sarcasm to canceled plans, held-back money or a smear among mutual friends.",
+      "A cost attached to a limit. The silence, the sharper tone or the withdrawn favor begins after the limit is set and ends when it is dropped.",
+      "Penalties come in many sizes. They range from a cold shoulder and sarcasm to canceled plans, held-back money or a smear among mutual friends.",
       "Tied to the act of saying no or asking for space, whatever the limit was actually about.",
       "Often followed by full warmth the moment the person gives in, so the contrast does the teaching.",
       "Found between partners, parents and grown children, bosses and staff, and close friends."
@@ -23,10 +23,10 @@
     ],
     "what_it_is_not": [
       "A quick hurt reaction to a new limit, such as 'that stings', that settles within a day and ends in acceptance.",
-      "A natural consequence that comes with the limit itself: if you won't drive on Fridays, you can't also be the Friday driver.",
+      "A natural consequence that comes with the limit itself. If you won't drive on Fridays, you can't also be the Friday driver.",
       "Someone needing a few hours alone to absorb a no, and saying so, without making you pay for it.",
       "Two people renegotiating a shared arrangement, each saying what they can still offer.",
-      "A policy that applies to everyone, such as a workplace rule on canceled shifts, applied to you as it is to others.",
+      "A policy that applies to everyone, such as a workplace rule on canceled shifts, and that is applied to you as it is to others.",
       "Sadness about a limit that is spoken as sadness, with no penalty added."
     ],
     "this_may_be_it_when": [
@@ -78,23 +78,23 @@
     ],
     "repair_check": "Repair shows up as the next limit going differently. They name the freeze or the withdrawn favor as theirs, the limit holds without a penalty, and later ones hold too. An apology that arrives only once you have given ground is not about the limit.",
     "boundary_respect_check": "Watch the days after a limit, not the minutes. Is anything taken away, and does it come back only when you reverse yourself? A limit that is respected leaves help, warmth and contact where they were, even if the person is sad about it.",
-    "psychological_mechanism": "Behavior changes fast around whatever follows it. When a no is followed by coldness or loss and a yes by warmth, the person may start to avoid the penalty by not asking, and the limit disappears without anyone having argued against it. Fear of losing something they depend on, such as closeness or money, can make the lesson stick faster.",
+    "psychological_mechanism": "Behavior changes fast around whatever follows it. When a no is followed by coldness or loss and a yes by warmth, the person may start to avoid the penalty by not asking. The limit disappears without anyone having argued against it. Fear of losing something they depend on, such as closeness or money, can make the lesson stick faster.",
     "possible_impact_on_receiver": "People describe walking on eggshells before saying no, rehearsing how a request will land, and feeling guilty about needs that are ordinary. Some carry out favors resentfully rather than risk the fallout. Some find the habit has spread to work or friendships, where they now hesitate to refuse anything.",
     "response_options": {
-      "soft_clarification": "Describe the sequence in your own terms and ask what it is about: 'When I said I couldn't come on Sunday, we didn't speak until Wednesday. I'd like to understand what that was.'",
+      "soft_clarification": "Describe what happened in your own words and ask what it was about: 'When I said I couldn't come on Sunday, we didn't speak until Wednesday. I'd like to understand what that was.'",
       "firm_boundary": "Hold the limit without adding to it: 'I've said I can't do Sundays. I'm still glad to see you on Saturdays.' You don't need to defend it again each time it comes up.",
-      "disengagement": "When the silence or sarcasm starts, let it sit and carry on with your day, rather than rushing to restore the old closeness by reversing your answer.",
-      "support_seeking": "Tell someone outside the relationship what happened after your last two limits, and ask whether it sounds like a proportionate reaction to them.",
-      "workplace_or_professional": "If a declined overtime shift is followed by worse schedules or sharp treatment, keep dated notes of the request, your answer and what changed, and take them to HR or a union representative."
+      "disengagement": "When the silence or sarcasm starts, let it sit and carry on with your day. Try not to rush to restore the old closeness by reversing your answer.",
+      "support_seeking": "Tell someone outside the relationship what happened after your last two limits. Ask whether the reaction seems the right size to them.",
+      "workplace_or_professional": "If a declined overtime shift is followed by worse schedules or sharp treatment, keep dated notes of the request, your answer and what changed. Take them to HR or a union representative."
     },
     "boundary_script": "\"I know it was disappointing to hear no. I'd like us to talk about it, and I'd like us to keep treating each other the same way while we do.\"",
     "safety_sensitive": true,
-    "safety_note": "Penalties become a safety matter when they include threats, damage to your belongings, or using the children's time as a lever. Cutting off money or housing, or following and watching you after a no, count too. If a refusal brings fear, tell one trusted person or a domestic abuse advocate about the pattern before you set the next limit, and ask how to plan it safely.",
+    "safety_note": "Penalties become a safety matter when they include threats, damage to your belongings, or using the children's time as a lever. Cutting off money or housing, or following and watching you after a no, count too. If a refusal brings fear, tell one trusted person or a domestic abuse advocate about the pattern before you set the next limit. Ask how to plan it safely.",
     "misuse_warning": [
       "Calling any sulk after a refusal 'punishment' ignores that disappointment is normal. The label needs a repeating cost tied to the limit.",
       "Using it to cast someone as vindictive can close a conversation in which they might simply have said that it hurt."
     ],
-    "how_to_distinguish_from_related": "Isolation works to cut you off from other people so you depend on one person, while this answers one particular no, whoever it concerned. Behavior Control sets rules in advance about what you may do; Punishment of Boundaries arrives afterwards, once you have acted on your own. Monitoring & Surveillance asks for constant accounting, whereas here the other person may ask nothing until you decline something."
+    "how_to_distinguish_from_related": "Isolation cuts you off from other people so you depend on one person. Punishment of Boundaries answers one particular no, whoever it concerned. Behavior Control sets rules in advance about what you may do. Punishment of Boundaries arrives afterwards, once you have acted on your own. Monitoring & Surveillance asks for constant accounting. Here the other person may ask nothing until you decline something."
   },
   "Information Control": {
     "short_definition": "Narrowing what someone reads, hears and learns, and who they talk to, so that one person's account becomes the main version of events available to them.",

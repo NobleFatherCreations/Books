@@ -100,8 +100,8 @@
   "Minimization": {
     "short_definition": "Shrinking how serious something was so that your reaction looks too big for what actually happened.",
     "core_meaning": "Shrinking how serious something was so that your reaction looks too big for what actually happened.",
-    "expanded_definition": "Minimization accepts that something happened but makes it small: it was a joke, it was nothing, it was ages ago. Trivializing is the same move with the weight on your reaction, calling it silly, dramatic or oversensitive. The effect is to move the problem from the event to your response. The pattern shows when the downplaying is aimed at the same kinds of concerns every time and does not change when you explain why it mattered.",
-    "plain_language_summary": "Someone agrees it happened but insists it was tiny, or that you are too sensitive, so that being upset about it seems like the real problem.",
+    "expanded_definition": "Minimization accepts that something happened but makes it small. It was a joke, it was nothing, it was ages ago. Trivializing is the same move, but aimed at your reaction. It calls your reaction silly, dramatic or oversensitive. The effect is to move the problem from the event to your response. The pattern shows when the downplaying is aimed at the same kinds of concerns every time and does not change when you explain why it mattered.",
+    "plain_language_summary": "Someone agrees it happened but insists it was tiny, or that you are too sensitive. Being upset about it then seems like the real problem.",
     "why_this_matters": "If the size of the problem is always reduced, you may start to doubt your own sense of what is serious. Real harms can go unaddressed because raising them feels like making a fuss.",
     "what_it_is": [
       "Agreeing that an event took place while rating its importance far below how you rate it.",
@@ -123,7 +123,7 @@
     "what_it_is_not": [
       "A friend with a calmer view saying so and then asking why it hit you hard.",
       "An accurate remark that something really was a small, one-time slip that has already been fixed.",
-      "Reassurance offered to someone who is spiraling, such as 'this is fixable', which supports them instead of dismissing the matter.",
+      "Reassurance offered to someone who is spiraling, such as 'this is fixable'. It supports them and does not dismiss the matter.",
       "Different thresholds: people differ in what they find upsetting, and neither view is a fault.",
       "Honest ignorance about how much something mattered, which is corrected once you explain."
     ],
@@ -162,7 +162,7 @@
     "less_concerning_if": [
       "They shift once they know how the event affected you.",
       "They tend to treat their own troubles with the same light touch.",
-      "They back up their view with a reason and not just a verdict on your mood."
+      "They give a reason for their view, and say more than a verdict on your mood."
     ],
     "more_concerning_if": [
       "The thing being called small involves injury, money, safety, or something you asked them not to do.",
@@ -175,23 +175,23 @@
       "You hear yourself using their words about your own feelings.",
       "Friends say you seem to excuse things you used to find unacceptable."
     ],
-    "repair_check": "They take the effect seriously even if they still rate the event as small, something like 'I did not see it that way, and I can see it hurt you.' A grudging 'fine, sorry you are upset' keeps the original rating in place and the concern still shrunk.",
+    "repair_check": "They take the effect seriously even if they still rate the event as small, something like 'I did not see it that way, and I can see it hurt you.' A grudging 'fine, sorry you are upset' keeps the original rating in place. The concern is still shrunk.",
     "boundary_respect_check": "Notice what follows when you say the size of this is yours to judge. Do they stop and listen, or do you hear 'see, you are overreacting right now'? The second answer turns your boundary into one more example of the thing you were describing.",
-    "psychological_mechanism": "People calibrate their sense of what counts as serious partly from the reactions around them. Repeated reassurance that something is nothing, or that feelings are silly, can lead a person to check their feelings against the other person's rating, so the concern starts to feel like an error in themselves.",
-    "possible_impact_on_receiver": "People describe doubting their sense of proportion, feeling embarrassed about being upset, and gradually saying less about what bothers them. Some start to see themselves as the sensitive one, and may stop mentioning things that were truly serious.",
+    "psychological_mechanism": "People partly work out what counts as serious from the reactions around them. Repeated reassurance that something is nothing, or that feelings are silly, can lead a person to check their feelings against the other person's rating. The concern then starts to feel like an error in themselves.",
+    "possible_impact_on_receiver": "People describe doubting their sense of proportion, feeling embarrassed about being upset, and gradually saying less about what bothers them. Some start to see themselves as the sensitive one. They may stop mentioning things that were truly serious.",
     "response_options": {
       "soft_clarification": "Give them a reason to adjust their rating: 'It may seem small to you. Here is why it was big for me.' Then see whether they listen.",
       "firm_boundary": "Take the sizing out of their hands: 'You are welcome to a different opinion, but I decide how big this is for me.'",
       "disengagement": "When the reply is only 'it is nothing', stop explaining. Keep your own note of what happened and when, and treat your concern as real without their agreement.",
       "support_seeking": "Ask someone you trust whether your reaction sounds in proportion. If they say yes, you have a second opinion that does not depend on this person.",
-      "workplace_or_professional": "If a safety or fairness issue is called trivial at work, write it up with dates and facts and send it to the person responsible, so the size is assessed on the record."
+      "workplace_or_professional": "If a safety or fairness issue is called trivial at work, write it up with dates and facts and send it to the person responsible. That way the size is assessed on the record."
     },
     "boundary_script": "\"You may see this as small, and that is fine. For me it was not, and I need that to be taken seriously. I do not need you to feel the same way, only to stop telling me I am overreacting.\"",
     "safety_sensitive": false,
-    "safety_note": "Downplaying is not a danger sign by itself. It matters more when what is being called small is an injury, a threat, control over your money, or fear of how someone will react. In those cases, trust your own reading over theirs and keep dated notes of what happened. Talk to a doctor or a domestic abuse advocate about the injury or the fear.",
+    "safety_note": "Downplaying is not a danger sign by itself. It matters more when what is being called small is an injury, a threat, control over your money, or fear of how someone will react. In those cases, trust your own reading over theirs. Keep dated notes of what happened. Talk to a doctor or a domestic abuse advocate about the injury or the fear.",
     "misuse_warning": [
       "A friend who honestly thinks you are worrying too much can sound like this. Labeling every reassurance as minimization can push away people who are trying to help.",
-      "Using the word to insist that your own rating of an event is the only correct one ends honest discussion of how serious it was."
+      "Using the word to insist that your own rating of an event is the only right one ends any honest talk about how serious it was."
     ],
     "how_to_distinguish_from_related": "Denial says it did not happen. Minimization says it did, and was nothing. Tone Policing leaves the size alone and objects to how you said it. Blame-Shifting accepts the event and its size but puts the cause on you. Gaslighting disputes whether you remember correctly, whereas minimization lets the memory stand and shrinks what it means."
   },

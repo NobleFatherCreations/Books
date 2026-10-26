@@ -1,13 +1,13 @@
 {
   "Isolation": {
-    "short_definition": "Steadily cutting a person off from friends, family and other outside support until one relationship is the only one left.",
-    "core_meaning": "Steadily cutting a person off from friends, family and other outside support until one relationship is the only one left.",
-    "expanded_definition": "Isolation is a gradual shrinking of someone's world. Friends are described as a bad influence, visits to family end in arguments, and plans with other people are met with sulking, interrogation or a sudden crisis. Sometimes the squeeze is practical: no car, no phone credit, no free evening. One complaint about one friend is ordinary. What tips it over is a list of people you still see that keeps getting shorter, with each loss following a comment or a scene. Outside people are often the first to notice that something has changed in you.",
-    "plain_language_summary": "Over time, the people who used to support you drop out of your life, and you end up with only one person left to turn to.",
+    "short_definition": "Steadily cutting a person off from friends, family and other outside support, until only one relationship is left.",
+    "core_meaning": "Steadily cutting a person off from friends, family and other outside support, until only one relationship is left.",
+    "expanded_definition": "Isolation is a gradual shrinking of someone's world. Friends are described as a bad influence. Visits to family end in arguments. Plans with other people are met with sulking, interrogation or a sudden crisis. Sometimes the squeeze is practical: no car, no phone credit, no free evening. One complaint about one friend is ordinary. What tips it over is a list of people you still see that keeps getting shorter. Each loss follows a comment or a scene. Outside people are often the first to notice that something has changed in you.",
+    "plain_language_summary": "Over time, the people who used to support you drop out of your life. You end up with only one person left to turn to.",
     "why_this_matters": "With fewer people around, nobody is left to say 'that doesn't sound right' or to help when things go badly. A small circle can make a hard situation feel like the only one available, and it makes asking for help much harder.",
     "what_it_is": [
-      "Criticism of nearly every friend or relative, each one failing some test, rather than a worry about one named person.",
-      "Making contact costly: a cold silence, an interrogation or an argument after every outing, until staying home feels easier.",
+      "Criticism of nearly every friend or relative, each one failing some test. It is not a worry about one named person.",
+      "Making contact costly. After every outing there is a cold silence, an interrogation or an argument, until staying home feels easier.",
       "Practical blocks, such as control of the car keys, the phone plan or the weekend schedule, that make visits hard to arrange.",
       "Discouraging the new connections that could replace old ones: a class, a team, a coworker who wants to be friends.",
       "Often worded as closeness or loyalty ('we don't need anyone else'), which makes it hard to object to without sounding cold."
@@ -22,7 +22,7 @@
       "I just want you to myself. Is that so terrible?"
     ],
     "what_it_is_not": [
-      "A single worry about one friend who really is a bad fit, such as someone who pushes you to drink, raised once and then left alone.",
+      "A single worry about one friend who really is a bad fit, such as someone who pushes you to drink. It is raised once and then left alone.",
       "A new baby, a long commute, illness or a house move, any of which can shrink a social life with nobody pushing.",
       "A couple choosing a quiet season mostly together, both content, with friends still welcome.",
       "A partner saying 'I miss you when you're out so much' as a feeling, with no attempt to stop you going.",
@@ -46,7 +46,7 @@
     "innocent_or_ordinary_possibilities": [
       "In the first year of a relationship, many couples see their friends less, and both people drift a little.",
       "Someone with few friends of their own may feel left out and say so clumsily.",
-      "Tension with your family may have existed before this relationship, and your partner may simply be echoing it."
+      "Tension with your family may have existed before this relationship. Your partner may simply be echoing it."
     ],
     "common_false_positives": [
       "A partner who dislikes one friend's drinking and tells you once.",
@@ -78,34 +78,34 @@
     ],
     "repair_check": "Repair here shows up in your calendar. You can see a friend without a debrief afterwards, your phone and car are yours again, and your people are welcome in the house. An apology that leaves the old rules in place, or a warm week followed by the same questions, has repaired nothing.",
     "boundary_respect_check": "Spend an evening with a friend and look at the next day. Is it ordinary, or is there a cold shoulder or a cross-examination waiting? A boundary about your friendships is being respected when keeping it stops costing you something.",
-    "psychological_mechanism": "Close friends and family are where most people check their sense of what is normal. When those voices fall away, one person's view can become the main reference point, and rules that would once have raised eyebrows can start to seem reasonable. Depending on one person for company, money or transport can make each skipped outing feel easier than the argument that follows.",
+    "psychological_mechanism": "Close friends and family are where most people check their sense of what is normal. When those voices fall away, one person's view can become the main reference point. Rules that would once have raised eyebrows can start to seem reasonable. Depending on one person for company, money or transport can make each skipped outing feel easier than the argument that follows.",
     "possible_impact_on_receiver": "People describe loneliness, shame about having let friends slip, and embarrassment about getting back in touch. Some say they were not sure when it began, only that one day nobody was left to call. Some describe a sense of being unable to judge what is normal in their own home. Many say a simple reply from an old friend meant a great deal.",
     "response_options": {
       "soft_clarification": "Name the feeling and make a small, specific request: 'I really miss my friends. Could we find a way for me to see them once a week?'",
-      "firm_boundary": "Keep one standing commitment, such as a regular call with a sibling, and treat it as ordinary, without defending it each time.",
-      "disengagement": "Keep contact alive in small, quiet ways, such as a message to a friend or a chat with a neighbor, without announcing it or arguing about it.",
+      "firm_boundary": "Keep one standing commitment, such as a regular call with a sibling. Treat it as ordinary, without defending it each time.",
+      "disengagement": "Keep contact alive in small, quiet ways, such as a message to a friend or a chat with a neighbor. Do it without announcing it or arguing about it.",
       "support_seeking": "Pick one person outside the relationship, such as a friend, a doctor or a coworker, and tell them more than you usually would. Ask them to check in with you.",
-      "workplace_or_professional": "If work is your remaining outside contact, keep it: go to the lunch, keep the colleague friendships, and consider telling HR or a counselor if getting to work is being obstructed."
+      "workplace_or_professional": "If work is your remaining outside contact, keep it. Go to the lunch and keep the colleague friendships. Consider telling HR or a counselor if getting to work is being obstructed."
     },
     "boundary_script": "\"I miss my friends. Can we work out a little time with them each week that suits both of us?\"",
     "safety_sensitive": true,
     "safety_note": "Watch for signs that isolation is turning into control. Your phone, keys or papers are taken, you are punished for going out, or you feel afraid of the reaction when you come home. Keep at least one outside contact alive, such as a doctor, a coworker or a relative. Talk to a domestic abuse advocate about planning, using a device the other person cannot see.",
     "misuse_warning": [
       "Calling every sulk about weekend plans 'isolation' turns an ordinary disagreement about time into an accusation. The word fits a widening pattern, not one grumpy evening.",
-      "Telling a worried friend or relative that they are 'isolating' you when they have simply raised a concern can push away people who care about you."
+      "A worried friend or relative may simply have raised a concern. Telling them they are 'isolating' you can push away people who care about you."
     ],
-    "how_to_distinguish_from_related": "Behavior Control sets rules about what you wear, where you go and what you do, while isolation targets who is in your life. Monitoring & Surveillance checks up on you, and a person can be monitored while still having friends. Punishment of Boundaries answers one particular limit you set with a penalty; isolation is the slower loss of people over many months, with no single refusal behind it."
+    "how_to_distinguish_from_related": "Behavior Control sets rules about what you wear, where you go and what you do. Isolation targets who is in your life. Monitoring & Surveillance checks up on you, and a person can be monitored while still having friends. Punishment of Boundaries answers one particular limit you set with a penalty. Isolation is the slower loss of people over many months, with no single refusal behind it."
   },
   "Monitoring & Surveillance": {
-    "short_definition": "Demanding constant access to a person's phone, messages and movements, so that every part of their day has to be explained.",
-    "core_meaning": "Demanding constant access to a person's phone, messages and movements, so that every part of their day has to be explained.",
+    "short_definition": "Demanding constant access to a person's phone, messages and movements. Every part of their day has to be explained.",
+    "core_meaning": "Demanding constant access to a person's phone, messages and movements. Every part of their day has to be explained.",
     "expanded_definition": "Monitoring and surveillance sit on one scale. Monitoring is the open end: asking for a running account, reading your messages, checking when you were last online. Surveillance is the watching end, which can also happen without you being told. In both, the person lives under inspection rather than trust. A worried question after a scare is ordinary. It becomes a concern when checking turns routine, grows after each answer, and no answer ever settles it.",
-    "plain_language_summary": "Someone expects to see your phone, your messages and your whereabouts on demand, and nothing you show them ever makes the checking stop.",
+    "plain_language_summary": "Someone expects to see your phone, your messages and your whereabouts on demand. Nothing you show them ever makes the checking stop.",
     "why_this_matters": "Living under audit changes how you behave, even when you have done nothing wrong. You may start editing what you say, deleting harmless messages, or avoiding people, simply to avoid the next round of questions.",
     "what_it_is": [
-      "Open demands: unlocking your phone on request, handing over passwords, or reading your messages as a condition of calm.",
+      "Open demands to unlock your phone on request, hand over passwords, or let them read your messages as a condition of calm.",
       "Running accounts of your time, with questions about gaps, delays and who else was there.",
-      "Watching that you may not know about, such as reading your accounts or devices behind your back, which you may only find out about by accident.",
+      "Watching that you may not know about, such as reading your accounts or devices behind your back. You may only find out by accident.",
       "A cycle in which each check produces a new question, so proof never settles anything.",
       "Often described as honesty or closeness, which makes saying no feel like confessing to something."
     ],
@@ -123,7 +123,7 @@
       "A parent checking a young child's devices in a way that suits the child's age.",
       "Workplace security rules that apply to everyone and are written down.",
       "A one-off request for a text when you arrive home safely, after a frightening evening.",
-      "Open questions after a real breach of trust, asked for a limited time with an agreed end, as part of deciding together whether to stay."
+      "Open questions after a real breach of trust, asked for a limited time with an agreed end. They are part of deciding together whether to stay."
     ],
     "this_may_be_it_when": [
       "Declining to hand something over leads to accusation, anger or days of silence.",
@@ -140,7 +140,7 @@
       "The person accepts your answer and moves on once you have given it."
     ],
     "innocent_or_ordinary_possibilities": [
-      "Anxiety, past betrayal or a bad experience in an earlier relationship can make a person ask for reassurance more than they would like.",
+      "Anxiety, past betrayal or a bad experience in an earlier relationship can make a person ask for more reassurance than they would like.",
       "Some couples genuinely enjoy sharing everything, and it works because either may stop.",
       "A shared device or family account means some messages are naturally visible to both of you."
     ],
@@ -179,31 +179,31 @@
     "response_options": {
       "soft_clarification": "Say what you notice and ask about the worry underneath: 'It sounds like you're anxious when you can't reach me. What would help with that, besides reading my messages?'",
       "firm_boundary": "Keep your passcode to yourself where you judge it safe, and offer something else, like telling them about your evening yourself. Think first about how they have reacted before.",
-      "disengagement": "Quietly keep sensitive things off a device you believe is being watched, and use a different phone or computer for private matters, without announcing it.",
+      "disengagement": "Quietly keep sensitive things off a device you believe is being watched. Use a different phone or computer for private matters, without announcing it.",
       "support_seeking": "Describe the specifics to a domestic abuse advocate or a counselor. They can help you check your phone and accounts and plan, using a device the other person cannot reach.",
-      "workplace_or_professional": "If a manager or coworker demands constant updates beyond the written rules, ask for the expectation in writing and keep a dated record of requests."
+      "workplace_or_professional": "If a manager or coworker demands constant updates beyond the written rules, ask for the expectation in writing. Keep a dated record of requests."
     },
     "boundary_script": "\"I can tell you're worried, and I want to help with that. What has been bothering you? I'd rather talk about it than hand over my phone.\" Expect a calm reaction before saying it; otherwise speak to an advocate first.",
     "safety_sensitive": true,
-    "safety_note": "Watch for checking that comes with anger, threats, or knowing things you never told them. If you think your phone, email or car is being watched, assume the watcher may see what you do on it, including searches for help. Reach a domestic abuse hotline or advocate from a library computer, a friend's phone or a work device. Ask them how to check your devices safely before you change anything.",
+    "safety_note": "Watch for checking that comes with anger, threats, or knowing things you never told them. If you think your phone, email or car is being watched, assume the watcher may see what you do on it. That includes searches for help. Reach a domestic abuse hotline or advocate from a library computer, a friend's phone or a work device. Ask them how to check your devices safely before you change anything.",
     "misuse_warning": [
       "Calling any request to see a phone or a text 'surveillance' can dismiss a worry that both people have chosen to handle openly. The pattern is routine, one-sided and growing.",
       "Reading someone else's phone to look for evidence of their monitoring is itself checking up on them. The label should lead to conversation or help, not to more searching."
     ],
-    "how_to_distinguish_from_related": "Location Tracking is the narrower habit of requiring where you are at all times; monitoring and surveillance take in your messages, accounts and whole day. Behavior Control sets rules about what you do, while monitoring checks on what you have done. Isolation reduces who you see; surveillance can sit alongside a full social life and still leave you feeling inspected."
+    "how_to_distinguish_from_related": "Location Tracking is the narrower habit of demanding to know where you are at all times. Monitoring and surveillance take in your messages, accounts and whole day. Behavior Control sets rules about what you do, while monitoring checks on what you have done. Isolation reduces who you see. Surveillance can sit alongside a full social life and still leave you feeling inspected."
   },
   "Location Tracking": {
-    "short_definition": "Requiring a person to keep their live location visible, and treating any gap in it as a problem to be explained.",
-    "core_meaning": "Requiring a person to keep their live location visible, and treating any gap in it as a problem to be explained.",
-    "expanded_definition": "Location tracking is the use of shared maps, location apps or trackers as a rule of the relationship: your dot has to stay on, and a gap needs an explanation. Many couples and families share location because they want to, and can stop. What marks the pattern is that sharing is required, one-way or punished when switched off. One request for your location is ordinary. The line is crossed when stops are questioned, an off switch brings a fight, and where you go starts to depend on what you could explain.",
-    "plain_language_summary": "Someone insists on seeing where you are at all times, and turning your location off, or being somewhere unexpected, leads to questions or a fight.",
+    "short_definition": "Requiring a person to keep their live location visible. Any gap in it is treated as a problem to be explained.",
+    "core_meaning": "Requiring a person to keep their live location visible. Any gap in it is treated as a problem to be explained.",
+    "expanded_definition": "Location tracking is the use of shared maps, location apps or trackers as a rule of the relationship. Your dot has to stay on, and a gap needs an explanation. Many couples and families share location because they want to, and can stop. What marks the pattern is that sharing is required, one-way or punished when switched off. One request for your location is ordinary. The line is crossed when stops are questioned, an off switch brings a fight, and where you go starts to depend on what you could explain.",
+    "plain_language_summary": "Someone insists on seeing where you are at all times. If you turn your location off, or are somewhere unexpected, it leads to questions or a fight.",
     "why_this_matters": "When every stop might be questioned, ordinary choices start to feel risky. You may drop errands, visits or detours, not because anyone forbade them, but because explaining them has become tiring or frightening.",
     "what_it_is": [
-      "A requirement to keep live location on, usually from a partner, expressed as a condition of trust or calm.",
-      "Questioning of particular stops, such as why you were at a coffee shop for an hour or why the dot was near a friend's house.",
+      "A requirement to keep live location on, usually from a partner. It is expressed as a condition of trust or calm.",
+      "Questions about particular stops, like why you were at a coffee shop for an hour or why the dot was near a friend's house.",
       "Reaction to switched-off location or a dead battery that treats it as proof of something.",
       "One-way flow: your location is visible, and theirs is not offered.",
-      "Sometimes extended to vehicles or other devices, not just the phone."
+      "Sometimes it reaches vehicles or other devices as well as the phone."
     ],
     "what_it_sounds_like": [
       "Why does your dot say you're at Kelly's? You told me the gym.",
@@ -217,9 +217,9 @@
     "what_it_is_not": [
       "Mutual location sharing that both people picked, and either can turn off without a fight.",
       "A parent using a family-sharing app with a child who knows about it and for whom it suits their age.",
-      "A temporary arrangement for something specific, such as a solo hike or a late walk home, that ends afterward.",
+      "A temporary arrangement for something specific, such as a solo hike or a late walk home. It ends afterward.",
       "A workplace fleet tracker that the employer has disclosed and that applies to the job only.",
-      "Someone sharing their location with a caregiver or relative of their own choosing because of a medical condition."
+      "Someone choosing to share their location with a caregiver or relative because of a medical condition."
     ],
     "this_may_be_it_when": [
       "Switching sharing off leads to accusations, silence or pressure that makes you turn it back on.",
@@ -268,36 +268,36 @@
       "Places you used to visit freely quietly drop off your routine.",
       "A rule that began as a one-time safety measure becomes permanent without any new conversation."
     ],
-    "repair_check": "Repair looks like the switch actually being yours: sharing optional, off without comment, and questions about stops disappearing. If the app stays on 'for safety' and the questions move to your phone calls or your receipts, the tracking has changed form and not ended.",
+    "repair_check": "Repair looks like the switch actually being yours. Sharing is optional, it can be off without comment, and the questions about stops disappear. If the app stays on 'for safety' and the questions move to your phone calls or your receipts, the tracking has changed form and not ended.",
     "boundary_respect_check": "Ask yourself how the person behaves in the hour after your location goes off. Calm or curious is one thing. Pressure to turn it back on, a barrage of calls, or an accusation tells you the choice was never really yours.",
-    "psychological_mechanism": "When a person knows their movements are visible, they can begin to rehearse explanations in advance and to avoid places they would find hard to explain. The self-restriction can come to feel like their own idea. The requirement may also be framed as proof of love or safety, which can make refusing seem like rejecting the relationship itself.",
+    "psychological_mechanism": "When a person knows their movements are visible, they can begin to rehearse explanations in advance. They may avoid places they would find hard to explain. The self-restriction can come to feel like their own idea. The requirement may also be framed as proof of love or safety, which can make refusing seem like rejecting the relationship itself.",
     "possible_impact_on_receiver": "A low hum of anxiety about the phone battery, leaving the phone behind, and feeling watched even when alone are common reports. Some trimmed their day to what could be defended. Some felt guilty about wanting to be unobserved. Others felt relief when a friend or counselor pointed out that a dot on a map is not the same thing as trust.",
     "response_options": {
       "soft_clarification": "Ask about the worry behind it: 'Is there something you're afraid of when you can't see where I am? I'd rather talk about that.'",
       "firm_boundary": "Ask for a mutual, switchable arrangement: 'I'm happy to share my location when I'm traveling. I'd like it to be something either of us can turn off.' Judge by past reactions whether to ask this now.",
-      "disengagement": "Without announcing anything, begin to note which accounts and devices can see your location, and talk with an advocate before changing any of them.",
-      "support_seeking": "Ask a domestic abuse advocate how to find out what shares your location and how to change it safely, because a sudden change may be noticed.",
+      "disengagement": "Without announcing anything, begin to note which accounts and devices can see your location. Talk with an advocate before changing any of them.",
+      "support_seeking": "Ask a domestic abuse advocate how to find out what shares your location. Ask how to change it safely too, because a sudden change may be noticed.",
       "workplace_or_professional": "If an employer tracks a work vehicle or phone, ask in writing what is collected, when, and whether it ends outside working hours."
     },
     "boundary_script": "\"I'd like location sharing to be something we both choose and either of us can pause. Can we talk about what it's meant to help with?\"",
     "safety_sensitive": true,
-    "safety_note": "Treat sudden changes with care, because someone who can see your location may notice if it disappears. A person who turns up where you are, or knows places you never mentioned, is a warning sign. Tracking can also run through cars, family plans and shared accounts, not only one app. Speak with a domestic abuse advocate or hotline before switching anything off, from a device the other person has never used.",
+    "safety_note": "Treat sudden changes with care, because someone who can see your location may notice if it disappears. A person who turns up where you are, or knows places you never mentioned, is a warning sign. Tracking can also run through cars, family plans and shared accounts, as well as a single app. Speak with a domestic abuse advocate or hotline before switching anything off, from a device the other person has never used.",
     "misuse_warning": [
       "A mutual location-sharing arrangement that both people like is not tracking. Calling it that can dismiss a partner's honest preference for convenience.",
-      "Using the label to justify checking on, or tracking, the other person in return repeats the pattern from the other side."
+      "If you use the label to justify checking on or tracking the other person in return, you repeat the pattern from the other side."
     ],
-    "how_to_distinguish_from_related": "Monitoring & Surveillance covers the whole of your day, such as messages, passwords and accounts; location tracking is the narrower demand to know where you physically are. Behavior Control tells you where you may or may not go, while tracking watches where you went and questions it. Punishment of Boundaries is the penalty that follows when you switch the sharing off."
+    "how_to_distinguish_from_related": "Monitoring & Surveillance covers the whole of your day, such as messages, passwords and accounts. Location tracking is the narrower demand to know where you physically are. Behavior Control tells you where you may or may not go, while tracking watches where you went and questions it. Punishment of Boundaries is the penalty that follows when you switch the sharing off."
   },
   "Behavior Control": {
     "short_definition": "Setting rules about what another adult may wear, where they may go and who they may see, and enforcing them.",
     "core_meaning": "Setting rules about what another adult may wear, where they may go and who they may see, and enforcing them.",
     "expanded_definition": "Behavior control turns a relationship between equals into one with a rulebook. The rules may be about clothes, social media posts, trips, friends, hours or who you may speak to. They are often stated as facts ('you're not wearing that') rather than as feelings or requests. A single preference is ordinary: most people have views on what their partner wears. Concern rises when the rules multiply, are enforced with anger, silence or cost, and are not open to discussion.",
-    "plain_language_summary": "Someone tells you what you can wear, where you can go or who you can see, and makes you pay if you do not follow their rules.",
+    "plain_language_summary": "Someone tells you what you can wear, where you can go or who you can see. They make you pay if you do not follow their rules.",
     "why_this_matters": "When another adult's rules govern your clothes, your outings and your friendships, you can lose the habit of deciding for yourself. Complying quietly can come to feel safer than the conflict that follows, and your sense of what is yours to choose can narrow.",
     "what_it_is": [
       "Rules stated as orders, not as feelings or requests: 'you're not going', 'take that down', 'you can't wear that'.",
       "Reach into everyday areas: clothing, makeup, social media posts, what time you come home, which events you attend.",
-      "Enforcement through anger, silence, sulking, or loss of something you value, so that breaking a rule costs more than keeping it.",
+      "They enforce rules with anger, silence, sulking, or by taking away something you value. Breaking a rule ends up costing more than keeping it.",
       "Rules that grow over time, as each one given in to is followed by another.",
       "Often framed as respect, modesty or loyalty, which makes the rule feel like a shared value."
     ],
@@ -334,7 +334,7 @@
     "innocent_or_ordinary_possibilities": [
       "Cultural or family expectations may make a request sound firmer than the person means it.",
       "Someone anxious about a plan, such as a late night out in an unfamiliar place, may state it badly and be glad to talk.",
-      "People in love often have opinions about each other's clothes and haircuts, and express them without wanting to control."
+      "People in love often have opinions about each other's clothes and haircuts. They can share those opinions without wanting to control."
     ],
     "common_false_positives": [
       "A friend saying 'don't wear that, it's freezing out' on a cold night.",
@@ -366,30 +366,30 @@
     ],
     "repair_check": "Look for rules being given back to you. If the person asks instead of tells, accepts your no without payback, and loosens one thing without tightening another, that is a change. A promise to be 'less strict' while the same punishments remain only reshuffles the rulebook.",
     "boundary_respect_check": "Test a small, safe choice: wear what you like to a low-stakes event and note what follows. A shrug or a question shows a boundary at work. Sulking, interrogation or a new rule shows the limit was being treated as a dare, not as your decision.",
-    "psychological_mechanism": "Rules enforced by anger or silence can teach a person to anticipate a reaction and avoid it, without anyone repeating the rule. Each accommodation can make the next request look small, so the territory can grow gradually. Calling a rule care, modesty or loyalty can make a person feel it would be unkind or ungrateful to object.",
-    "possible_impact_on_receiver": "Reports include checking an outfit or a plan against someone else's likely reaction, avoiding people or places that cause arguments, and losing sight of what you like. Some end up enforcing the rules on themselves. Others feel shame at having gone along with it, or feel like a guest in their own life.",
+    "psychological_mechanism": "Rules enforced by anger or silence can teach a person to expect a reaction and avoid it. Nobody has to repeat the rule. Each time you go along, the next request can look small, so the rules can grow bit by bit. Someone may call a rule care, modesty or loyalty. Then objecting can feel unkind or ungrateful.",
+    "possible_impact_on_receiver": "Reports include checking an outfit or a plan against how someone else might react, avoiding people or places that cause arguments, and losing sight of what you like. Some people end up enforcing the rules on themselves. Others feel ashamed of having gone along with it, or feel like a guest in their own life.",
     "response_options": {
       "soft_clarification": "Separate the feeling from the rule: 'If it bothers you, I'd like to hear that. But what I wear is my decision.' Gauge how they have reacted before choosing to say it.",
-      "firm_boundary": "Pick one thing that is clearly yours, such as a friendship or a haircut, and keep it without explaining it every time, if you judge it safe.",
+      "firm_boundary": "Pick one thing that is clearly yours, such as a friendship or a haircut. Keep it without explaining it every time, if you judge it safe.",
       "disengagement": "Avoid debating each rule. Say little, comply where it is safer, and put your effort into support and a plan, not into winning arguments.",
       "support_seeking": "Describe the rules, one by one, to a trusted friend or counselor, and ask whether they sound ordinary to them. A list on paper often looks different from a mood in the room.",
       "workplace_or_professional": "At work, a manager's rules should match written policy. Ask for any new expectation about dress or conduct to be in writing, and bring HR in if it is applied to you only."
     },
-    "boundary_script": "\"It bothers you, and I want to understand why. What is behind it for you? Can we talk it through when we're both calm?\" Say it only when you judge the moment safe; an advocate can help if it isn't.",
+    "boundary_script": "\"It bothers you, and I want to understand why. What is behind it for you? Can we talk it through when we're both calm?\" Say it only when you judge the moment safe. An advocate can help if it isn't.",
     "safety_sensitive": true,
-    "safety_note": "Some rules are enforced with threats, damage to your things, anger that frightens you, or the loss of money, housing or contact with children. Those are signs of coercive control, where rules and fear slowly take over daily life. In that case, avoid direct confrontation about the rules. Contact a domestic abuse advocate or a legal aid service, in private, and talk through a safety plan before you change anything about how you comply.",
+    "safety_note": "Some rules are enforced with threats, damage to your things, anger that frightens you, or the loss of money, housing or contact with children. These are signs of coercive control, where rules and fear slowly take over daily life. In that case, avoid arguing directly about the rules. Contact a domestic abuse advocate or a legal aid service in private. Talk through a safety plan before you change anything about how you comply.",
     "misuse_warning": [
       "Calling any disagreement over clothes or plans 'control' can shut down honest negotiation. Control is rules enforced with a cost, not an opinion voiced.",
       "A family or faith tradition you value is not 'behavior control' just because an outsider finds its rules strict. What matters is whether you can say no and stay in good standing."
     ],
-    "how_to_distinguish_from_related": "Infantilization treats you as unable to manage your affairs and takes tasks over; behavior control leaves the tasks with you and dictates what you may do. \"I Know Best\" Paternalism gives the rule a caring reason, 'for your own good', whereas behavior control may not bother with one. Punishment of Boundaries is what happens after you refuse; behavior control is the rulebook you refused."
+    "how_to_distinguish_from_related": "Infantilization treats you as unable to manage your affairs and takes tasks over. Behavior control leaves the tasks with you and dictates what you may do. \"I Know Best\" Paternalism gives the rule a caring reason, 'for your own good'. Behavior control may not bother with one. Punishment of Boundaries is what happens after you refuse. Behavior control is the rulebook you refused."
   },
   "Infantilization": {
     "short_definition": "Treating a capable adult as if they cannot manage their own money, tasks or decisions, and taking those over.",
     "core_meaning": "Treating a capable adult as if they cannot manage their own money, tasks or decisions, and taking those over.",
-    "expanded_definition": "Infantilization is treating a grown person like a child who needs supervising: speaking for them, taking over their bills, appointments or paperwork, praising small tasks, or sighing at their mistakes. One offer of help with something new is ordinary. It stands out when the assumption of incompetence is broad, stays in place after you have shown you can do the task, and is hard to refuse. Over time the person can lose both practice and confidence, which then seems to prove the point.",
-    "plain_language_summary": "Someone talks and acts as though you can't handle adult life, takes over your jobs and decisions, and leaves you feeling less able than you are.",
-    "why_this_matters": "Skills and confidence both fade when they are not used. A person who is told often enough that they cannot cope may stop trying, and may end up unable to manage money, paperwork or decisions they once handled well.",
+    "expanded_definition": "Infantilization is treating a grown person like a child who needs supervising. Someone speaks for them, takes over their bills, appointments or paperwork, praises small tasks, or sighs at their mistakes. One offer of help with something new is ordinary. It stands out when the assumption of incompetence is broad, stays in place after you have shown you can do the task, and is hard to refuse. Over time the person can lose both practice and confidence, which then seems to prove the point.",
+    "plain_language_summary": "Someone talks and acts as though you can't handle adult life. They take over your jobs and decisions, and you end up feeling less able than you are.",
+    "why_this_matters": "Skills and confidence both fade when they are not used. If a person is told often enough that they cannot cope, they may stop trying. They may end up unable to manage money, paperwork or decisions they once handled well.",
     "what_it_is": [
       "Taking over money, bills, appointments or paperwork on the basis that you would get them wrong.",
       "Talking about you or for you, in front of you, such as answering questions put to you at the doctor's.",
@@ -414,7 +414,7 @@
       "A temporary need for extra help during illness, grief or a crisis."
     ],
     "this_may_be_it_when": [
-      "The assumption that you can't cope covers many areas of your life, not just one skill.",
+      "The assumption that you can't cope covers many areas of your life, and goes well beyond one skill.",
       "You have shown competence and the assumption stays the same.",
       "You are talked over or spoken for in front of other people.",
       "Your requests to do something yourself are brushed aside or met with a sigh.",
@@ -462,29 +462,29 @@
     ],
     "repair_check": "Watch for tasks and information coming back to you: the login, the folder, the appointment. A person who changes will hand them over and let you do it your way, even badly. Praise, an apology and a promise to 'let you try' while still hovering, only restyles the supervision.",
     "boundary_respect_check": "Ask to do one thing yourself, start to finish. Does it stay with you if the result is imperfect, or do they step in, correct it or take it back? The way a small mistake is treated shows whether the request was accepted.",
-    "psychological_mechanism": "People partly learn what they can do from how others treat them. Being repeatedly told you cannot, and having tasks removed, can lead to less practice, and the resulting mistakes or avoidance can then be pointed to as proof. Dependence can also make the arrangement feel necessary, even when it began as an offer of help.",
+    "psychological_mechanism": "People partly learn what they can do from how others treat them. If you are told again and again that you cannot, and tasks are taken away, you get less practice. Mistakes or avoidance can then be pointed to as proof. Dependence can also make the arrangement feel necessary, even when it began as an offer of help.",
     "possible_impact_on_receiver": "Reports include losing confidence in things once done easily, such as banking, driving or choosing what to eat, and embarrassment in front of others. Some apologize constantly or stop trying new things. Some are surprised, on getting a task back, to find they can still do it.",
     "response_options": {
       "soft_clarification": "Offer a concrete picture of what you want: 'I'd like to handle the electricity bill myself this month. Could you show me where the login is?'",
       "firm_boundary": "Only if past reactions suggest it is safe, ask for your own accounts or papers in plain, calm words. Otherwise talk to a legal aid service first about getting access without a confrontation.",
       "disengagement": "Practice quietly: take on small tasks of your own, such as booking your own appointments, and build the record of what you can do.",
       "support_seeking": "Tell someone who knows you well which areas of your life have been taken over, and ask them what they remember you managing. If your money or papers are held back, a legal aid service can explain your rights.",
-      "workplace_or_professional": "At work or with professionals, speak for yourself: ask doctors, bankers or officials to address you directly, and ask for written summaries you can keep."
+      "workplace_or_professional": "At work or with professionals, speak for yourself. Ask doctors, bankers or officials to talk to you directly, and ask for written summaries you can keep."
     },
     "boundary_script": "\"Wanting to help is kind of you. I want to do this one myself, and I'll ask if I get stuck. Could you show me where everything is?\"",
     "safety_sensitive": true,
-    "safety_note": "Take extra care if you cannot see or reach your own money, ID, medication or documents, or if you are told you are not allowed to decide. These can lead to loss of income, housing or independence, particularly for older adults and people with disabilities. Reach an advocate, adult protective services where they exist, or a legal aid service, and make copies of your key documents somewhere the other person cannot get to.",
+    "safety_note": "Take extra care if you cannot see or reach your own money, ID, medication or documents, or if you are told you are not allowed to decide. These can lead to loss of income, housing or independence, particularly for older adults and people with disabilities. Reach out to an advocate, adult protective services where they exist, or a legal aid service. Make copies of your key documents somewhere the other person cannot get to.",
     "misuse_warning": [
-      "Calling every offer of help 'infantilizing' can punish people who are simply trying to be useful, and can push away real support during illness or grief.",
+      "Calling every offer of help 'infantilizing' can punish people who are simply trying to be useful. It can also push away real support during illness or grief.",
       "Using the label about care for someone with a real impairment can overlook their need for assistance. The test is whether they are still included, not whether help is given."
     ],
-    "how_to_distinguish_from_related": "\"I Know Best\" Paternalism overrides a particular choice you have made, with the reason that it is for your good; infantilization assumes you cannot make choices at all, and takes the tasks over. Behavior Control dictates what you may do and wear; infantilization takes over what you would do yourself. Isolation cuts your contacts; infantilization leaves you in company but doubting that you can act."
+    "how_to_distinguish_from_related": "\"I Know Best\" Paternalism overrides one choice you have made, and gives the reason that it is for your good. Infantilization assumes you cannot make choices at all, and takes the tasks over. Behavior Control dictates what you may do and wear. Infantilization takes over what you would do yourself. Isolation cuts your contacts. Infantilization leaves you in company but doubting that you can act."
   },
   "\"I Know Best\" Paternalism": {
     "short_definition": "Overriding another adult's choices in the name of what is good for them, and expecting them to be grateful.",
     "core_meaning": "Overriding another adult's choices in the name of what is good for them, and expecting them to be grateful.",
-    "expanded_definition": "This is the habit of deciding for another adult what is good for them and acting on it, often alongside real affection. Advice turns into steering, steering into pressure, and a decision you made is quietly undone or ignored. One piece of advice is ordinary, and a person who knows more than you may be right. It stands out when your refusal is not accepted, when your choice is reversed behind your back, or when the relationship cools if you decide differently.",
-    "plain_language_summary": "Someone says they are acting for your good, but does not accept your decision when you say no, and keeps pushing or working around you.",
+    "expanded_definition": "This is the habit of deciding for another adult what is good for them and acting on it, often alongside real affection. Advice turns into steering, and steering into pressure. A decision you made is quietly undone or ignored. One piece of advice is ordinary, and a person who knows more than you may be right. It stands out when your refusal is not accepted, when your choice is reversed behind your back, or when the relationship cools if you decide differently.",
+    "plain_language_summary": "Someone says they are acting for your good, but they do not accept your decision when you say no. They keep pushing or work around you.",
     "why_this_matters": "Care that cannot accept your no is hard to turn down, because refusing can feel ungrateful. Over time you may stop trusting your own judgment, or stop telling the person what you are deciding.",
     "what_it_is": [
       "Advice that does not stop after you have decided, and returns until you give in.",
@@ -506,7 +506,7 @@
       "Advice offered once, with a plain 'it's your decision', and support afterward whatever you pick.",
       "An elder who really does know better on a specific matter, such as a roofer on roofs, whose view you can weigh.",
       "A mentor, doctor or teacher whose guidance you sought and whose expertise you expect to carry weight.",
-      "Fear for your safety, such as a parent worried about a risky plan, voiced openly while leaving the choice with you.",
+      "Fear for your safety, such as a parent worried about a risky plan, said openly while the choice stays with you.",
       "A strongly argued disagreement between equals, where each can concede."
     ],
     "this_may_be_it_when": [
@@ -558,18 +558,18 @@
     ],
     "repair_check": "Next time you decide something they disagree with, their response tells you. If they say their worry once and then help you carry out your choice, that is a different pattern. A warm apology followed by another quiet reversal is the same thing in a softer voice.",
     "boundary_respect_check": "Is the decision still standing a week later? That is the test. A boundary about your choices is respected when nothing is rebooked, redone or relitigated, and when disagreement does not change how you are treated.",
-    "psychological_mechanism": "Care and control can sound alike, and a person may sincerely believe they are helping. For the receiver, an objection can feel like turning down affection, and the cost of saying no rises. When someone is repeatedly told their choices are mistakes, they can start to defer, or to hide decisions until they are already done.",
+    "psychological_mechanism": "Care and control can sound alike, and a person may sincerely believe they are helping. For the receiver, an objection can come across as turning down affection, and the cost of saying no rises. When someone is repeatedly told their choices are mistakes, they can start to defer, or to hide decisions until they are already done.",
     "possible_impact_on_receiver": "People describe guilt for refusing someone who 'means well', frustration at not being heard, and hesitation to share news in case it is overruled. Some say they began making decisions in secret. Some describe doubting their judgment, especially when the person was often right. Some feel grief at a relationship that only works when they agree.",
     "response_options": {
       "soft_clarification": "Acknowledge the care and keep the decision: 'I know you're worried because you care. I've thought it through, and I'm going ahead.'",
-      "firm_boundary": "Say you will not discuss the choice again, and then do not: 'I've made my decision, and I'm not going to go over it again. I'd love to talk about anything else.'",
+      "firm_boundary": "Say you will not discuss the choice again, and then stick to that: 'I've made my decision, and I'm not going to go over it again. I'd love to talk about anything else.'",
       "disengagement": "Move to topics other than the decision, and share news after it is done, not before, if the debates drain you.",
       "support_seeking": "Ask someone who knows both of you whether your decision seems reasonable. An outside view can check your judgment without handing it over.",
-      "workplace_or_professional": "When a supervisor or professional overrides you, ask for the reasons and the alternatives in writing, and say clearly which decisions belong to you."
+      "workplace_or_professional": "When a supervisor or professional overrides you, ask for the reasons and the alternatives in writing. Say clearly which decisions belong to you."
     },
     "boundary_script": "\"I know you're telling me this because you care, and I've heard it. My decision is made, and I'm asking you to trust me with it. Let's talk about something else.\"",
     "safety_sensitive": false,
-    "safety_note": "Unwanted help from people who love you is usually a family or friendship strain, not a danger. It changes if refusing is followed by cut-off money, housing or care, if documents or medication are withheld, or if threats appear. If any of that is true, treat it as coercion and speak to a legal aid service or an advocate before you confront the person.",
+    "safety_note": "Unwanted help from people who love you is usually a family or friendship strain, not a danger. It changes if refusing is followed by cut-off money, housing or care, if documents or medication are withheld, or if threats appear. If any of that is true, treat it as coercion. Speak to a legal aid service or an advocate before you confront the person.",
     "misuse_warning": [
       "Labeling every piece of strong advice as paternalism can shut out people who are right to be worried. The test is whether your no is accepted, not whether you were advised.",
       "Using the label to dismiss a doctor, a supervisor or an older relative who knows more than you can mean ignoring good information. You can weigh their view and still decide."

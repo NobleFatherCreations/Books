@@ -1,14 +1,14 @@
 {
   "Legal/Administrative Threats": {
-    "short_definition": "Raising the prospect of police, lawyers, HR, courts or other authorities as a lever in a personal or workplace dispute, instead of as a step in a real process.",
-    "core_meaning": "Raising the prospect of police, lawyers, HR, courts or other authorities as a lever in a personal or workplace dispute, instead of as a step in a real process.",
+    "short_definition": "Bringing up the police, lawyers, HR, courts or other authorities as pressure in a personal or workplace dispute, instead of as a step in a real process.",
+    "core_meaning": "Bringing up the police, lawyers, HR, courts or other authorities as pressure in a personal or workplace dispute, instead of as a step in a real process.",
     "expanded_definition": "Legal and administrative threats bring an institution into an argument that is not really about that institution. The named body might be a lawyer, the police, HR, a licensing board, a landlord or an immigration office. Contacting these places is often legitimate and sometimes necessary. The telling feature is how the mention is used: as a consequence of disagreeing, with vague details, timed to what you do next. One heated line in a fight means little. Mentions that return whenever you object are another matter.",
     "plain_language_summary": "Whenever you disagree, they bring up the police, a lawyer, your boss or an agency. Soon every disagreement feels like a risk to your safety or your job.",
-    "why_this_matters": "A threat that borrows an institution's weight can make you agree to things you would otherwise question, because you cannot tell how real it is and the possible loss, such as a job, a lease or time with your kids, is large. You may stop raising fair concerns at all.",
+    "why_this_matters": "A threat that borrows an institution's weight can make you agree to things you would otherwise question. You cannot tell how real it is, and the possible loss, such as a job, a lease or time with your kids, is large. You may stop raising fair concerns at all.",
     "what_it_is": [
-      "Naming an official body, such as the police, a court, HR, a licensing board or an immigration office, as what will happen if you do not go along.",
+      "Naming an official body as what will happen if you do not go along. This could be the police, a court, HR, a licensing board or an immigration office.",
       "Wording about the action that stays vague, like 'you'll be hearing about this', which leaves you guessing how serious it is.",
-      "Showing up in disputes with no legal angle, such as an argument about chores, a debt between friends or a review you wrote.",
+      "Showing up in disputes that have no legal side, like an argument about chores, a debt between friends or a review you wrote.",
       "Timing that follows your choices: it surfaces right after you say no, ask a question or mention talking to someone.",
       "Sometimes followed by a real filing, which is then cited later as proof the earlier warnings were serious."
     ],
@@ -22,10 +22,10 @@
       "Do you really want this going on your record?"
     ],
     "what_it_is_not": [
-      "Telling someone plainly that you intend to file a police report, see a lawyer or go to HR, and then using the proper channel, with no conditions attached.",
-      "A landlord, employer or agency stating a consequence that is written in a contract or policy, such as a notice period or a late-fee rule.",
+      "Telling someone plainly that you plan to file a police report, see a lawyer or go to HR. You then use the proper channel, with no conditions attached.",
+      "A landlord, employer or agency stating a consequence that is written in a contract or policy, like a notice period or a late-fee rule.",
       "An honest explanation of your own rights, like 'you are allowed to bring someone with you to that meeting'.",
-      "Someone afraid for their safety who says they will phone the police if a behavior continues. That is a protective limit, not leverage in an argument.",
+      "Someone afraid for their safety who says they will phone the police if a behavior continues. That is a protective limit, not a way to win an argument.",
       "A single angry sentence in a fight that is taken back later and does not return.",
       "A lawyer's letter that follows real attempts to settle a debt or dispute."
     ],
@@ -44,8 +44,8 @@
       "The remark was a flare of temper, followed by a plain statement that they should not have said it."
     ],
     "innocent_or_ordinary_possibilities": [
-      "People who are frightened or overwhelmed often reach for the police or a lawyer as the only authorities they know how to name.",
-      "Many leases and workplaces quote policy language as routine, and it can read like a threat even when it is boilerplate.",
+      "People who are frightened or overwhelmed often reach for the police or a lawyer, because those are the only authorities they know how to name.",
+      "Many leases and workplaces quote policy language as routine. It can read like a threat even when it is standard wording.",
       "A friend who works in law or HR may mention an option out of habit, without meaning it as pressure."
     ],
     "common_false_positives": [
@@ -76,25 +76,25 @@
       "You catch yourself saving records of ordinary conversations in case they are used against you.",
       "Friends notice you have stopped mentioning the dispute, and you have not told them why."
     ],
-    "repair_check": "Watch what becomes of the threat itself. Someone who says the disagreement belongs between the two of you, or in a proper channel named openly, and then stops mentioning the authority when you say no, has changed course. An apology that keeps the option in reserve ('I won't call, this time') leaves it in place.",
+    "repair_check": "Watch what becomes of the threat itself. Someone has changed course if they say the disagreement belongs between the two of you, or in a proper channel named openly, and then stop mentioning the authority when you say no. An apology that keeps the option in reserve ('I won't call, this time') leaves it in place.",
     "boundary_respect_check": "Once you say you want to talk about the actual problem, does the conversation move there? Or does the same sentence about a lawyer or the police come back the next time you disagree?",
-    "psychological_mechanism": "An institution carries authority and consequences that the speaker does not have to explain. Because you cannot easily check how real a threat is, and the possible losses are lopsided, the safest-feeling choice can be to comply. Uncertainty tends to do more of the work than the threat itself, and repeated mentions can teach a person to treat ordinary disagreement as risky.",
+    "psychological_mechanism": "An institution carries authority and consequences that the speaker does not have to explain. You cannot easily check how real a threat is, and the possible losses are lopsided, so the safest-feeling choice can be to comply. Uncertainty tends to do more of the work than the threat itself. Repeated mentions can teach a person to treat ordinary disagreement as risky.",
     "possible_impact_on_receiver": "People describe checking their words before speaking, losing sleep over a call or letter that may never come, and agreeing to terms they privately think are unfair. Some began to doubt whether their own complaint was legitimate, because the other side kept using official-sounding language. A lasting wariness of HR, courts or the police can follow, even where those could help.",
     "response_options": {
       "soft_clarification": "Ask what the step would actually be: 'Which process are you thinking of, and what would you be asking them to do?' A concrete answer is easier to judge than a hint.",
       "firm_boundary": "Name the topic you will stay on: 'I'm happy to talk about the lease problem. I find it hard to think clearly with a lawyer being mentioned in the middle of it.'",
-      "disengagement": "Pause without arguing about the threat itself, with a line like 'I need to think about this', and write down the date, the words used and who was present.",
-      "support_seeking": "Give the exact words to a legal aid clinic, a tenant or worker advocate, or an attorney's first consultation, and ask whether the threatened step even exists. Learning it is empty, or real, changes how heavy it feels.",
-      "workplace_or_professional": "If HR or a manager is involved, keep messages in writing, note dates, and privately ask HR or a union representative how complaints are handled and who sees them."
+      "disengagement": "Pause without arguing about the threat itself. Use a line like 'I need to think about this', and write down the date, the words used and who was present.",
+      "support_seeking": "Give the exact words to a legal aid clinic, a tenant or worker advocate, or an attorney's first consultation. Ask whether the threatened step even exists. Learning that it is empty, or real, changes how heavy it feels.",
+      "workplace_or_professional": "If HR or a manager is involved, keep messages in writing and note dates. Privately ask HR or a union representative how complaints are handled and who sees them."
     },
     "boundary_script": "\"The actual problem is what I'd like to keep talking about. When a lawyer or the police come up in the middle of it, I find it hard to think, so can we put that to one side and go back to what we were discussing?\"",
     "safety_sensitive": true,
     "safety_note": "This can sit next to real danger when the named consequence is your housing, income, immigration status or custody. It can also when a partner or relative uses it to keep you quiet about harm. Treat any mention of a report to immigration or child services as something to check privately first. A legal aid office, a domestic violence advocate or an attorney can tell you what could really happen. Keep dated copies of messages somewhere the other person cannot reach.",
     "misuse_warning": [
-      "Labeling every mention of HR, a lawyer or the police as a threat can discourage someone from using those channels when they truly need them, including you.",
+      "Labeling every mention of HR, a lawyer or the police as a threat can stop people using those channels when they truly need them. That includes you.",
       "Telling a person who has filed a legitimate complaint that they are 'just making legal threats' can be a way of dismissing a genuine grievance."
     ],
-    "how_to_distinguish_from_related": "Pressure to Sign uses a document and a clock to get agreement in the moment, while a legal threat can be made with no paper at all. Confidentiality as Weapon uses an institution's rules to keep evidence from you once a process is underway; here the institution is invoked as a warning, before anything has started. A threat names what might happen to you, and the other two limit what you can see or do."
+    "how_to_distinguish_from_related": "Pressure to Sign uses a document and a clock to get agreement in the moment. A legal threat can be made with no paper at all. Confidentiality as Weapon uses an institution's rules to keep evidence from you once a process is underway. Here the institution is brought up as a warning, before anything has started. A threat names what might happen to you, and the other two limit what you can see or do."
   },
   "Confidentiality as Weapon": {
     "short_definition": "Citing confidentiality rules to withhold from someone the accusation, the evidence or even the source of a complaint against them, leaving them unable to answer it.",

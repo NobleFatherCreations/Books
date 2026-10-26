@@ -4,10 +4,10 @@
     "core_meaning": "A three-part reply to being confronted: deny it happened, attack the person raising it, then claim to be the one who was wronged.",
     "expanded_definition": "DARVO stands for Deny, Attack, Reverse Victim and Offender. Psychologist Jennifer Freyd named it in the late 1990s. Someone is told their behavior hurt another person. They say it did not happen, turn on the person who spoke up, and end up describing themselves as the one under attack. The listener then spends the talk defending themselves, and the first complaint is never answered. One defensive flash after a surprising accusation is common. The pattern shows when all three moves arrive together and come back each time.",
     "plain_language_summary": "You bring up something that hurt you. Within minutes you are the one saying sorry, because they have become the injured one.",
-    "why_this_matters": "People who raise a hard subject often do it at real cost. When the reply turns them into the accused, they can leave convinced the original problem was never real, or that speaking up is not worth the price.",
+    "why_this_matters": "People who raise a hard subject often pay a real cost to do it. When the reply turns them into the accused, they can leave convinced the original problem was never real. They may also decide that speaking up is not worth the price.",
     "what_it_is": [
-      "A sequence of three moves, not one: refusing the facts, going after the person who raised them, and then taking the role of the hurt party.",
-      "It often shows up after someone describes harm directly, such as in a confrontation, a complaint to a manager, or a public accusation.",
+      "A sequence of three moves, not one. First they refuse the facts, then they go after the person who raised them, and then they take the role of the hurt party.",
+      "It often happens after someone tells them plainly that they were hurt. This might be in a face-to-face talk, a complaint to a manager, or a public accusation.",
       "The attack usually borrows from the complaint itself, so the words 'hurt', 'abuse' or 'lied' get handed back to the person who said them.",
       "The reversal can be sincere on the speaker's side. Someone can feel truly wronged by being accused, and the pattern is still visible in the exchange."
     ],
@@ -42,7 +42,7 @@
       "They come back later and take up your original point without being asked."
     ],
     "innocent_or_ordinary_possibilities": [
-      "Being accused of something hurtful is painful, and people often lash out in the first minute before they can think clearly.",
+      "Being accused of something hurtful is painful. People often lash out in the first minute before they can think clearly.",
       "The accusation may have been delivered in a harsh or public way that made self-protection feel urgent.",
       "Some people were raised in homes where admitting fault brought punishment, so denial is a learned reflex and not a plan.",
       "They may truly remember the event differently, and be as sure of their memory as you are of yours."
@@ -54,7 +54,7 @@
     ],
     "discernment_questions": [
       "Did anyone answer what I first raised, even once, before the talk moved to my behavior?",
-      "Are the three moves (denial, attack, role reversal) all present, or is it only a short flash of defensiveness?",
+      "Are all three moves (denial, attack, role reversal) there, or is it only a short flash of defensiveness?",
       "Does this reversal happen each time I bring up this kind of subject?",
       "If someone else heard a recording of this conversation, would they say the complaint was ever addressed?",
       "Is there anything in their counter-accusation that is checkable and true, which I should take seriously?"
@@ -75,16 +75,16 @@
       "Mutual friends or family have heard their account of events more than yours.",
       "Months later you cannot say what your first complaint was, only that you ended up sorry."
     ],
-    "repair_check": "Repair here would mean going back to the first complaint and answering it, including the part they dispute, before any counter-claim gets a turn. Warning signs are a general 'sorry things got heated' that never touches the original point, or an apology that arrives only after you have apologized.",
+    "repair_check": "Repair here would mean going back to the first complaint and answering it, including the part they dispute. That comes before any counter-claim gets a turn. Warning signs are a general 'sorry things got heated' that never touches the original point, or an apology that arrives only after you have apologized.",
     "boundary_respect_check": "Watch what happens to your original concern after you ask to finish it first. Does it get a reply, a date to continue, or a promise to return to it? Or does the conversation snap back to your character within a minute or two?",
-    "psychological_mechanism": "In an online vignette study, Harsey, Zurbriggen and Freyd (2017) linked exposure to DARVO-style replies with more self-blame. Being cast as the wrongdoer right after speaking up can pull attention onto clearing your own name, and the first complaint tends to slide out of view.",
+    "psychological_mechanism": "A 2017 study by Harsey, Zurbriggen and Freyd, of people who had confronted someone, linked more DARVO-style replies with more self-blame. Being cast as the wrongdoer right after speaking up can pull attention onto clearing your own name. The first complaint tends to slide out of view.",
     "possible_impact_on_receiver": "People describe leaving a confrontation feeling guilty and confused, sometimes apologizing for the very thing they came to raise. Some go quiet about later problems, because the last time cost too much. Others replay the conversation for days trying to find where it turned.",
     "response_options": {
       "soft_clarification": "Name the order of events calmly: 'I came to talk about the missed payment, and now we are talking about me. Can we finish the first subject?'",
       "firm_boundary": "Ask for the first matter to be written down so it is not lost: 'Could we put my original point on paper? I'll read your concern too.' Keep the request mild.",
-      "disengagement": "When the talk turns to your character, ask whether the original point can be written down, then take a break without announcing a return time or a conclusion.",
+      "disengagement": "When the talk turns to your character, ask whether the original point can be written down. Then take a break without announcing a return time or a conclusion.",
       "support_seeking": "Tell a trusted person what you originally raised and what happened next. Hearing 'that is not what you came to talk about' from someone outside can restore your footing.",
-      "workplace_or_professional": "Put the original complaint in writing with dates before any meeting, and ask HR or a manager to keep the discussion on that record when a counter-complaint appears."
+      "workplace_or_professional": "Put the original complaint in writing with dates before any meeting. When a counter-complaint appears, ask HR or a manager to keep the discussion on that record."
     },
     "boundary_script": "\"I can see you're upset, and I will listen to that. But I came here to talk about the missed dinner and the lie about it. Can we stay on that first, and then take your concerns right after?\"",
     "safety_sensitive": true,
@@ -98,13 +98,13 @@
   "Blame-Shifting": {
     "short_definition": "Placing the cause of your own action on the other person, so that your choice is described as something they did to you.",
     "core_meaning": "Placing the cause of your own action on the other person, so that your choice is described as something they did to you.",
-    "expanded_definition": "Blame-shifting takes a real action, such as a shout, a missed promise or a broken thing, and moves its cause onto someone else. 'I did it' becomes 'you made me do it.' Context does matter in real conflicts, and naming it once is not the problem. The pattern appears when the other person's behavior is offered as a complete explanation, leaving no room for the speaker's own choice, and when this repeats across different events. The person who was harmed ends up holding both the injury and the fault.",
+    "expanded_definition": "Blame-shifting takes a real action, such as a shout, a missed promise or a broken thing, and moves its cause onto someone else. 'I did it' becomes 'you made me do it.' Context does matter in real conflicts, and naming it once is not the problem. The pattern appears when the other person's behavior is offered as the whole explanation, leaving no room for the speaker's own choice. It also shows when this repeats across different events. The person who was harmed ends up holding both the injury and the fault.",
     "plain_language_summary": "Someone does something hurtful, then explains it as your doing. By the end you are apologizing for causing what they chose to do.",
     "why_this_matters": "If every hurtful act is explained as a reaction to you, you can end up policing your own behavior to head off theirs. That is a heavy job nobody can do, and it keeps the real problem from ever being talked about.",
     "what_it_is": [
       "An explanation that treats the speaker's choice as if it were forced on them by what you said or did.",
-      "It usually follows a specific act: raised voices, a forgotten task, a broken agreement, or a mistake at work.",
-      "The cause sits in the past tense of your behavior, such as 'if you had called', and the speaker's own option to act differently is missing.",
+      "It usually follows a specific act, such as raised voices, a forgotten task, a broken agreement, or a mistake at work.",
+      "The cause is placed on something you did or did not do, such as 'if you had called'. The speaker's own option to act differently is missing.",
       "It tends to include a list of your faults offered as proof, whether or not those faults relate to what happened."
     ],
     "what_it_sounds_like": [
@@ -117,16 +117,16 @@
       "You brought this on yourself."
     ],
     "what_it_is_not": [
-      "Honestly describing a real trigger, such as 'I was exhausted and your comment landed badly', while still owning the response.",
+      "Honestly describing a real trigger while still owning the response, such as 'I was exhausted and your comment landed badly'.",
       "A mutual conflict where both people admit what they added and neither claims to be the only cause.",
       "A true statement of fact about timing, such as 'I was late because the train was canceled'.",
-      "A child or very stressed adult who blames the nearest person in the heat of the moment, then settles and takes responsibility.",
+      "A child or very stressed adult who blames the nearest person in the heat of the moment, then calms down and takes responsibility.",
       "Explaining your reasons for a decision without claiming the other person left you no option."
     ],
     "this_may_be_it_when": [
       "Every time something goes wrong, the explanation leads back to something you did or did not do.",
       "The phrase 'you made me' or 'you forced me' is used for actions that were clearly a choice.",
-      "You find yourself changing your behavior to prevent their reactions, such as speaking less, hiding purchases or avoiding certain subjects.",
+      "You find yourself changing your behavior to prevent their reactions. You might speak less, hide purchases or avoid certain subjects.",
       "Their own part, even a small one, is never named, even after you raise it calmly.",
       "An apology from you is expected before anything is discussed."
     ],
@@ -139,12 +139,12 @@
     ],
     "innocent_or_ordinary_possibilities": [
       "People under heavy stress often grab for an outside cause first and find their own part only later.",
-      "Some families teach that anger is always caused by someone else, so the habit is inherited rather than chosen.",
+      "Some families teach that anger is always caused by someone else. The habit is then inherited, not chosen.",
       "Your own behavior may truly have been unkind, and the explanation is partly accurate even if incomplete."
     ],
     "common_false_positives": [
       "A friend who says 'I snapped because I was waiting on that message all day' and then apologizes for snapping.",
-      "A manager who points out that a deadline slipped because a handoff was late, while still taking responsibility for the plan.",
+      "A manager who points out that a deadline slipped because a handoff was late, and who still takes responsibility for the plan.",
       "Two siblings arguing about who started it, each partly right, with no one using it to avoid owning their own part."
     ],
     "discernment_questions": [
@@ -170,29 +170,29 @@
       "You notice you are apologizing for events that happened before you arrived.",
       "Friends comment that you seem to walk on eggshells around them."
     ],
-    "repair_check": "Repair would sound like 'that was my decision' with no 'but' attached, and it would show the next time the same trigger appears: the shout, the lie or the slammed door does not happen, and you are not asked to prevent it. A list of what you did to cause it is the opposite.",
-    "boundary_respect_check": "After you say the reaction was theirs to choose, notice whether they pause and engage with that, or whether a new charge arrives, such as being cold, unfair or unwilling to take any responsibility yourself. The blame may have only moved to a new place.",
-    "psychological_mechanism": "Many people accept responsibility quickly, especially for someone they care about or after being told they are difficult. Repeated, confident blame can draw on that readiness, so the receiver starts auditing their own conduct before the event itself, and the other person's choice drops out of the picture.",
-    "possible_impact_on_receiver": "People describe constantly monitoring what they say, apologizing for outbursts they did not cause, and losing track of where their own responsibility starts and ends. Some grow quieter or more anxious around the person, and some begin hiding things to avoid setting off a reaction.",
+    "repair_check": "Repair would sound like 'that was my decision' with no 'but' attached. It would also show the next time the same trigger appears. The shout, the lie or the slammed door does not happen, and you are not asked to prevent it. A list of what you did to cause it is the opposite.",
+    "boundary_respect_check": "After you say the reaction was theirs to choose, notice what they do. They may pause and engage with that. Or a new charge may arrive, such as being cold, unfair or unwilling to take any responsibility yourself. The blame may have only moved to a new place.",
+    "psychological_mechanism": "Many people accept responsibility quickly, especially for someone they care about or after being told they are difficult. Repeated, confident blame can draw on that readiness. The receiver starts checking their own conduct before the event itself, and the other person's choice drops out of the picture.",
+    "possible_impact_on_receiver": "People describe constantly monitoring what they say, apologizing for outbursts they did not cause, and losing track of where their own responsibility starts and ends. Some grow quieter or more anxious around the person. Some begin hiding things to avoid setting off a reaction.",
     "response_options": {
       "soft_clarification": "Keep the question narrow and calm: 'I can see I upset you. Can we go through what happened, step by step?' Leave the trigger-versus-choice question for a counselor or mediator.",
-      "firm_boundary": "Say once what you will take responsibility for: 'I'll talk about what I said.' Ask to go through the rest in order, with a neutral person present if you can.",
-      "disengagement": "When the explanation turns to your faults, ask for a short pause, such as a drink of water, and let the topic wait without announcing a verdict or a return time.",
+      "firm_boundary": "Say once what you will take responsibility for: 'I'll talk about what I said.' Ask to go through the rest step by step, with a neutral person present if you can.",
+      "disengagement": "When the explanation turns to your faults, ask for a short pause, such as a drink of water. Let the topic wait without announcing a verdict or a return time.",
       "support_seeking": "Describe a specific incident to someone outside the relationship and ask whether the cause they hear sounds like yours. Outsiders often notice the shift in blame before you do.",
-      "workplace_or_professional": "Record what happened in neutral terms, with dates and who did what, and ask for the discussion to cover each person's actions separately, not who caused whom."
+      "workplace_or_professional": "Record what happened in neutral terms, with dates and who did what. Ask for the discussion to cover each person's actions separately, not who caused whom."
     },
     "boundary_script": "\"I can see that I upset you, and I'm willing to talk about my part. I'd also like us to go through what happened next, step by step. Could someone else sit in?\"",
     "safety_sensitive": false,
-    "safety_note": "Blame-shifting in an ordinary argument is a communication problem. Concern rises when you are blamed for someone's shouting, breaking things or physical force, or told you deserve it, because you may then be made responsible for managing their anger. Fear of their reaction or any injury is the signal. A domestic abuse advocate or trusted person can help you plan. If you are hurt or afraid for your life, call the emergency number where you live.",
+    "safety_note": "Blame-shifting in an ordinary argument is a communication problem. Concern rises when you are blamed for someone's shouting, breaking things or physical force, or told you deserve it. You may then be made responsible for managing their anger. Fear of their reaction or any injury is the signal. A domestic abuse advocate or trusted person can help you plan. If you are hurt or afraid for your life, call the emergency number where you live.",
     "misuse_warning": [
       "People are sometimes accused of blame-shifting for mentioning any context at all. Explaining what led up to something is fair. The concern is explanations that leave no room for the speaker's own choice.",
-      "Using the label to avoid hearing a legitimate point about your own contribution turns it into a way of dodging."
+      "Using the label to avoid hearing a fair point about your own part turns it into a way of dodging."
     ],
     "how_to_distinguish_from_related": "DARVO adds a denial and an attack, then makes the speaker the victim. Blame-Shifting can come with a calm admission of the act, so long as its cause is placed on you. Whataboutism points to a separate wrong of yours instead. Denial refuses that the act happened at all."
   },
   "Whataboutism": {
-    "short_definition": "Answering a complaint by raising a different wrong from the other side, so that the original issue goes unanswered.",
-    "core_meaning": "Answering a complaint by raising a different wrong from the other side, so that the original issue goes unanswered.",
+    "short_definition": "The reply to a complaint raises a different wrong from the other side. The original issue goes unanswered.",
+    "core_meaning": "The reply to a complaint raises a different wrong from the other side. The original issue goes unanswered.",
     "expanded_definition": "Whataboutism meets a complaint with a counter-complaint about something else, usually older or from a different topic. 'What about the time you forgot my birthday?' The tit-for-tat can feel fair, because both things may be real. The problem is the swap. The first concern is set aside as if the two cancel out, and the talk ends in a draw with nothing resolved. Raising your own grievance is reasonable. It becomes this pattern when it replaces the answer instead of following it.",
     "plain_language_summary": "You raise a problem, and instead of a reply you get a different problem about you. Both end up unsolved, and the talk feels like a tie.",
     "why_this_matters": "When each complaint is met with another one, nothing is ever finished. Real issues pile up unresolved, and the person who raised the first one starts to wonder if it was fair to speak at all.",
@@ -238,7 +238,7 @@
     ],
     "common_false_positives": [
       "A roommate who says 'I will do the dishes tonight, and can we also talk about the bathroom schedule tomorrow?'",
-      "A partner who answers your complaint about lateness with 'you are right, and I felt the same when you were late last month', then discusses both.",
+      "A partner who answers your complaint about lateness with 'you are right, and I felt the same when you were late last month'. They then discuss both.",
       "An employee who notes that a rule applies to everyone and asks whether it will be enforced evenly."
     ],
     "discernment_questions": [
@@ -264,32 +264,32 @@
       "Issues you raised a year ago are still open, along with theirs.",
       "You start tracking your own past mistakes so you can defend them quickly."
     ],
-    "repair_check": "Your complaint gets an actual answer first, and theirs gets a separate time set aside. A mutual 'we both have faults' that closes the topic leaves your first point exactly as unanswered as before, and may be followed by the same swap next time.",
+    "repair_check": "Your complaint gets an actual answer first, and theirs gets a separate time set aside. A mutual 'we both have faults' that closes the topic leaves your first point as unanswered as before. The same swap may happen again next time.",
     "boundary_respect_check": "Try asking for one subject at a time and see what follows. Do they answer the first point, then hold their own for later? Or does the same counter-point come back, louder, as if the order of the conversation were not up for discussion?",
     "psychological_mechanism": "A counter-complaint appeals to a fairness instinct: if you have made mistakes too, pressing your own point can feel unfair. That discomfort can pull attention away from the first complaint, and it tends to work best when the counter-point is true.",
     "possible_impact_on_receiver": "People describe feeling that raising anything is pointless because it will be matched with something else. Small issues pile up unspoken. Some begin to feel they owe a running debt of past wrongs, and keep a quick defense of old events ready.",
     "response_options": {
       "soft_clarification": "Acknowledge the new point and keep the order: 'That sounds like it matters. Can we deal with the dishes first, and then set time for the birthday?'",
       "firm_boundary": "Say you will not trade grievances: 'I am willing to talk about your concern. I am not willing to treat it as the answer to mine.'",
-      "disengagement": "If each point gets a new one back, stop and say you will return with a single written issue, so only one thing is on the table.",
+      "disengagement": "If each point gets a new one back, stop and say you will return with a single written issue. That way only one thing is on the table.",
       "support_seeking": "Write both lists out and show them to a neutral person. They can often tell whether each concern is fair and whether they were ever answered.",
-      "workplace_or_professional": "In a meeting, ask for an agenda with one item at a time and note whose item is being discussed, so that a counter-point is placed on the list and not used to replace the first."
+      "workplace_or_professional": "In a meeting, ask for an agenda with one item at a time, and note whose item is being discussed. A counter-point then goes on the list and does not replace the first."
     },
     "boundary_script": "\"You may be right about what happened at the airport, and I want to talk about it. I would like an answer on the money first, and then we can give your issue the same time.\"",
     "safety_sensitive": false,
     "safety_note": "Whataboutism on its own carries no physical danger. It would change if the counter-accusations turn into threats to expose old mistakes, to report you somewhere, or to punish you for raising anything. In that case, write down what is said and speak to someone you trust, or to an advocate or lawyer.",
     "misuse_warning": [
       "Calling every counter-point whataboutism can silence a person who truly has a fair, related grievance. The test is whether your complaint gets answered at all.",
-      "In public debates the word is sometimes used to wave away a relevant comparison. A fair comparison deserves a real reply."
+      "In public debates people sometimes use the word to wave away a relevant comparison. A fair comparison deserves a real reply."
     ],
     "how_to_distinguish_from_related": "DARVO denies the act, attacks you and casts the speaker as the victim. Whataboutism simply sets a different wrong beside yours. Blame-Shifting says your behavior caused the act at issue, while whataboutism leaves that act alone and talks about another. Denial claims nothing happened, which whataboutism does not."
   },
   "Non-Apology Apology": {
     "short_definition": "A statement that sounds like an apology but regrets your reaction or feelings, not the thing that was actually done.",
     "core_meaning": "A statement that sounds like an apology but regrets your reaction or feelings, not the thing that was actually done.",
-    "expanded_definition": "A non-apology apology uses the word 'sorry' but does not own the action. The regret is aimed at your feelings, your reaction, or the situation, so the speaker never has to say 'I did that.' Common forms use an 'if', a 'but', or a 'you feel' to move the weight across. Some people were never taught how to apologize and sincerely think this counts. What matters is whether the action is named. A weak apology that does name it is still different from one that never does.",
+    "expanded_definition": "A non-apology apology uses the word 'sorry' but does not own the action. The regret is aimed at your feelings, your reaction, or the situation. That way the speaker never has to say 'I did that.' Common forms use an 'if', a 'but', or a 'you feel' to shift the weight onto you. Some people were never taught how to apologize and sincerely think this counts. What matters is whether the action is named. A weak apology that does name it is still different from one that never does.",
     "plain_language_summary": "Someone says sorry, but the sorry is about how you took it, not what they did. You are left feeling that nothing was admitted.",
-    "why_this_matters": "An apology is how people close a wound and rebuild trust. When the form is there and the substance is not, the hurt stays open and you may feel unreasonable for still being upset after being told sorry.",
+    "why_this_matters": "An apology is how people close a wound and rebuild trust. When the form is there and the substance is not, the hurt stays open. You may feel unreasonable for still being upset after being told sorry.",
     "what_it_is": [
       "A statement of regret that points at your reaction or feelings, not at the act itself.",
       "It often contains a hinge word: 'if' you were hurt, 'but' you started it, 'that you feel' this way.",
@@ -307,10 +307,10 @@
     ],
     "what_it_is_not": [
       "An imperfect apology that clearly names what was done, such as 'I'm sorry I forgot, that was careless of me'.",
-      "A speaker who does not yet understand why something hurt and says honestly, 'I'm sorry it hurt, and I want to understand what I did'.",
+      "Someone who does not yet understand why something hurt, and says honestly, 'I'm sorry it hurt, and I want to understand what I did'.",
       "A sincere expression of sympathy for how someone feels, offered where no wrongdoing is involved, such as at a loss.",
       "A clumsy first attempt from someone who has not learned to apologize, followed by a better one once they are shown how.",
-      "An apology in a language or culture where regret is expressed through the situation instead of the person."
+      "An apology from a language or culture where regret is shown by talking about the situation, not the person."
     ],
     "this_may_be_it_when": [
       "The sentence would still make sense if you removed the action from it entirely.",
@@ -329,12 +329,12 @@
     "innocent_or_ordinary_possibilities": [
       "Many people learned these phrases as children and use them without noticing what they leave out.",
       "Fear of being shamed can make a person reach for vague wording that feels safer than naming the act.",
-      "Some formal or professional settings, such as customer service scripts or legal advice, push people toward cautious wording."
+      "Some formal settings, such as customer service scripts or legal advice, push people to choose careful words."
     ],
     "common_false_positives": [
       "A colleague who says 'I'm sorry this has been such a rough week for you' after a delay that was no one's fault.",
       "A shy teenager who mumbles 'sorry about before' and means the specific thing you both know about.",
-      "A company statement that is vague because lawyers wrote it, from a person who privately apologizes properly later."
+      "A company statement that is vague because lawyers wrote it, when the person behind it later apologizes properly in private."
     ],
     "discernment_questions": [
       "Does the apology say what was done, in words that name the action?",
@@ -359,10 +359,10 @@
       "You find yourself saying 'it's okay' without feeling that it is.",
       "Old hurts stay open because nothing was ever acknowledged enough to close them."
     ],
-    "repair_check": "Repair would include the action named in plain words, an acknowledgment that it was theirs, and something that changes afterwards, with nothing asked of you in return. An apology that asks you to feel better, mentions what you did, or repeats unchanged soon after does not close anything.",
+    "repair_check": "Repair would include the action named in plain words, an acknowledgment that it was theirs, and something that changes afterwards. Nothing is asked of you in return. An apology that asks you to feel better, mentions what you did, or repeats unchanged soon after does not close anything.",
     "boundary_respect_check": "What do they do when you ask for the action to be named? A second attempt that says what happened suggests it was heard. Being told you are impossible to please turns the request into a fault in you.",
-    "psychological_mechanism": "The word 'sorry' carries social weight, and people tend to forgive on hearing it. A sentence with the shape of an apology but not its content can draw on that habit, so declining it feels rude, and attention shifts from what was done to how you respond.",
-    "possible_impact_on_receiver": "People describe feeling dismissed even after being told sorry, unsure whether they may stay upset, and sometimes accepting the apology just to end the tension. Over time some stop expecting acknowledgment at all, and old hurts stay open because nothing closed them.",
+    "psychological_mechanism": "The word 'sorry' carries social weight, and people tend to forgive on hearing it. A sentence with the shape of an apology but not its content can draw on that habit. Declining it then feels rude, and attention shifts from what was done to how you respond.",
+    "possible_impact_on_receiver": "People describe feeling brushed off even after being told sorry, unsure whether they may stay upset, and sometimes accepting the apology just to end the tension. Over time some stop expecting acknowledgment at all. Old hurts stay open because nothing closed them.",
     "response_options": {
       "soft_clarification": "Ask for the missing piece: 'Thank you for saying sorry. Could you tell me what you are sorry for? I would like to hear the action named.'",
       "firm_boundary": "Say plainly that it does not count yet: 'I appreciate the attempt, but that apology is about my feelings. I need one about what happened.'",
@@ -372,7 +372,7 @@
     },
     "boundary_script": "\"Moving forward is what I want too. What I need is to hear what you did and that it was wrong, not that I feel upset. Can you try saying it that way?\"",
     "safety_sensitive": false,
-    "safety_note": "A hollow apology is not itself a safety signal. It would matter more if it sits in a cycle where harm is followed by sorry, then by harm again, or if refusing to accept it brings anger or threats. In that case, speak to a trusted person or a domestic abuse advocate about the larger pattern.",
+    "safety_note": "A hollow apology is not itself a safety signal. It matters more if it sits in a cycle where harm is followed by sorry, then by harm again. It also matters more if refusing to accept it brings anger or threats. In that case, speak to a trusted person or a domestic abuse advocate about the larger pattern.",
     "misuse_warning": [
       "Marking every imperfect apology as a non-apology can punish people who are trying and failing at a hard skill. Check whether they name the act and change course.",
       "Demanding exact words from someone, then rejecting each attempt, turns the label into a test no one can pass."
@@ -400,14 +400,14 @@
       "I don't know what you are talking about, and I never have."
     ],
     "what_it_is_not": [
-      "Being wrongly accused and saying so, particularly if the person offers evidence of their own and listens to yours.",
+      "Being wrongly accused and saying so, especially if the person offers their own evidence and listens to yours.",
       "Correcting one wrong detail, such as the date or the place, while accepting the rest of the account.",
       "Honest memory failure about something minor that was not memorable at the time.",
       "A brief first reaction of shock that opens into a real conversation once the details are laid out.",
       "A person who disagrees that something was wrong, while willing to discuss why they see it that way."
     ],
     "this_may_be_it_when": [
-      "The no covers the whole account and not just one point.",
+      "The no covers the whole account, well beyond a single point.",
       "It remains the same when you show a message, a photo or a witness.",
       "The words 'never' and 'nothing' keep appearing, even about small matters.",
       "No earlier conflict with this person has ended with them saying they were wrong.",
@@ -422,7 +422,7 @@
     ],
     "innocent_or_ordinary_possibilities": [
       "People often deny first and reflect later, so a no on day one can become a yes on day three.",
-      "Someone raised to believe that admitting a mistake means being a bad person may find any admission frightening.",
+      "Someone raised to believe that admitting a mistake makes you a bad person may find any admission frightening.",
       "A person can honestly believe they did nothing wrong because their view of the event is different from yours.",
       "Fear of consequences at work or in court can lead to a lawyer-style blanket denial."
     ],
@@ -454,30 +454,30 @@
       "The same issues come back unchanged because nothing was ever acknowledged.",
       "You hold records of events not for any plan but to remind yourself it really happened."
     ],
-    "repair_check": "Repair starts with an admission of at least part of what happened, even a small part, followed by a changed action. 'Let's move on' or 'agree to disagree' offered before anything was acknowledged is the denial under a new name, and the subject stays shut.",
+    "repair_check": "Repair starts with an admission of at least part of what happened, even a small part. A changed action follows. 'Let's move on' or 'agree to disagree', said before anything was acknowledged, is the denial under a new name. The subject stays shut.",
     "boundary_respect_check": "Ask them to look at one specific message or record, not to agree with everything. Whether they look, even if they disagree afterwards, is informative. A refusal to look at all tells you the subject is closed to you.",
     "psychological_mechanism": "Admitting a mistake can threaten a person's picture of themselves, and a flat denial protects that picture at no cost in the moment. For the receiver, repeated confident denial with no witness tends to wear on trust in their own account.",
-    "possible_impact_on_receiver": "People describe frustration at being unable to settle anything, doubt about whether their own account is accurate, and a slow habit of keeping hurts to themselves. Some feel anger, others a flat tiredness, and some keep records only to remind themselves it happened.",
+    "possible_impact_on_receiver": "People describe frustration at being unable to settle anything, doubt about whether their own account is accurate, and a slow habit of keeping hurts to themselves. Some feel anger, others a flat tiredness. Some keep records only to remind themselves it happened.",
     "response_options": {
       "soft_clarification": "Narrow it to one checkable point: 'I do not need you to agree with everything. Could we just look at what the message said on Tuesday?'",
       "firm_boundary": "Stop arguing the whole case: 'I know what I saw, and I am not asking for your permission to remember it. I would like us to talk about what happens next.'",
       "disengagement": "When the answer is a total no, stop presenting the case. Keep your own records, and decide what you will do next without needing them to agree.",
       "support_seeking": "Share your evidence and account with someone who knows both of you, or a counselor. A fair outside view can confirm your reading or point out where you may be wrong.",
-      "workplace_or_professional": "Move to documents: send a dated summary of what happened and ask for a written reply. Use HR, a mediator or an ombudsperson (an independent complaints officer) if the matter is serious and the denial blocks progress."
+      "workplace_or_professional": "Move to documents. Send a dated summary of what happened and ask for a written reply. If the matter is serious and the denial blocks progress, go to HR, a mediator or an ombudsperson (an independent complaints officer)."
     },
     "boundary_script": "\"I am not asking you to agree with everything I said. I am asking you to read this one message with me. If you read it and still see it differently, we can at least start from the same page.\"",
     "safety_sensitive": false,
     "safety_note": "Denial alone does not signal physical danger. It becomes more serious when it follows violence, threats or financial harm, since there is then no acknowledgment that could prevent a repeat. In that case, keep dated records in a safe place and speak with an advocate, a legal aid service or someone you trust.",
     "misuse_warning": [
       "People are sometimes labeled as being in denial because they disagree with an accusation. A person can truthfully say they did not do something, and the label should not be used to override that.",
-      "Using 'you are in denial' as an argument, with no evidence, shuts down the other person's account in the same way the label describes."
+      "Saying 'you are in denial' with no evidence shuts down the other person's account, which is the very thing the label describes."
     ],
     "how_to_distinguish_from_related": "Minimization admits something happened but says it was small. Blame-Shifting admits the act and moves its cause onto you. DARVO starts with a denial but goes on to an attack and a role reversal. Plain Denial stops at 'no': there is no counterattack, no excuse and no reduction."
   },
   "Tone Policing": {
     "short_definition": "Responding to how something was said and not what was said, so the complaint is never actually discussed.",
     "core_meaning": "Responding to how something was said and not what was said, so the complaint is never actually discussed.",
-    "expanded_definition": "Tone policing answers the delivery of a message and leaves its content alone. 'Watch your tone' or 'I won't talk to you like this' may come in reply to a raised voice, a sharp word, or simply visible upset. Asking for calm is often fair, and many conversations do go better after a break. The pattern is in what comes after. If the topic is never returned to, or the objection to tone is raised even when you were calm, delivery becomes a way to avoid the substance.",
+    "expanded_definition": "Tone policing answers how a message was said and ignores what it said. 'Watch your tone' or 'I won't talk to you like this' may come in reply to a raised voice, a sharp word, or simply visible upset. Asking for calm is often fair, and many conversations do go better after a break. The pattern is in what comes after. If the topic is never returned to, or the objection to tone comes even when you were calm, the delivery becomes a way to avoid the point.",
     "plain_language_summary": "You raise a problem, and the reply is about how you said it. The problem itself never gets an answer, because the way you spoke always seems to be the issue.",
     "why_this_matters": "People raising real concerns are often upset, and upset is hard to say politely. If tone is always the topic, the people with the most reason to be upset are the ones whose points are never heard.",
     "what_it_is": [
@@ -500,7 +500,7 @@
       "Self-protection from yelling, name-calling or threats, where stepping away is reasonable even if the topic is important.",
       "A person who cannot take in information while overwhelmed, who asks for ten minutes and then returns.",
       "Honest feedback that a particular word or insult hurt, offered along with willingness to hear the rest.",
-      "A workplace rule on conduct that is applied evenly to everyone, not only to one complaint."
+      "A workplace rule on conduct that is applied evenly to everyone, and is not aimed at one complaint."
     ],
     "this_may_be_it_when": [
       "The conversation stays on your manner for a long time and never reaches your point.",
@@ -517,9 +517,9 @@
       "Once you slow down, your point gets a real reply."
     ],
     "innocent_or_ordinary_possibilities": [
-      "Raised voices can be frightening, especially for someone with a history of conflict at home, and they may need quiet to think.",
+      "Raised voices can be frightening, especially for someone who had conflict at home. They may need quiet to think.",
       "Some people truly cannot process content when emotions run high and need time to settle.",
-      "Different families and cultures have different norms about volume and directness, and the clash may be about style."
+      "Different families and cultures have different habits about how loud and how direct to be. The clash may be about style."
     ],
     "common_false_positives": [
       "A manager who says 'let's pick this up after lunch' and puts it on the calendar.",
@@ -549,10 +549,10 @@
       "Complaints you raised months ago were never answered, only moved aside by a discussion of tone.",
       "You hear your own voice getting smaller in groups where you used to speak freely."
     ],
-    "repair_check": "After a break if needed, the conversation goes back to the content, with a real answer to what you asked. A conditional 'I will listen once you are nicer', or an apology for the argument while the complaint sits untouched, leaves the actual subject where it was.",
+    "repair_check": "After a break if needed, the conversation goes back to what you actually raised, with a real answer to what you asked. A conditional 'I will listen once you are nicer' leaves the subject where it was. So does an apology for the argument while the complaint sits untouched.",
     "boundary_respect_check": "Compare two moments: how they responded when you were loud, and how they responded when you were quiet and clear. If the answer to the point arrives only in the second case, tone may have been the real issue. If a new objection to tone appears, the standard is moving.",
-    "psychological_mechanism": "Most people want to be seen as reasonable, so a remark about tone can lead them to focus on controlling delivery instead of pressing the point. Self-monitoring then takes more of their attention, and the concern gets less.",
-    "possible_impact_on_receiver": "People describe holding back anger until it is hard to express clearly, rewriting messages again and again, and feeling their emotions are used against them. Some stop raising issues. Others escalate in frustration, which then seems to confirm the criticism.",
+    "psychological_mechanism": "Most people want to be seen as reasonable. A remark about tone can lead them to focus on controlling how they speak, instead of pressing the point. Watching themselves then takes more of their attention, and the concern gets less.",
+    "possible_impact_on_receiver": "People describe holding back anger until it is hard to say clearly. They rewrite messages again and again, and feel their emotions are used against them. Some stop raising issues. Others escalate in frustration, which then seems to confirm the criticism.",
     "response_options": {
       "soft_clarification": "Agree to a calmer delivery and ask for the matching step: 'I can talk more quietly. Will you then tell me what you think about the deadline?'",
       "firm_boundary": "Separate the two issues: 'If my tone was a problem, I will fix it. That does not answer what I asked.'",
@@ -565,7 +565,7 @@
     "safety_note": "Tone policing alone is not a physical danger. It matters more when your upset is described as a threat. It also matters if you are punished for crying or raising your voice, or are afraid to show feeling at all. In those cases, speak with a counselor or advocate, and keep records if the setting is a workplace.",
     "misuse_warning": [
       "A request to calm down is often fair, particularly when voices are raised or insults are used. Labeling it tone policing can excuse behavior that really was hurtful.",
-      "The label can also be used to avoid hearing legitimate feedback on how a message landed, so check whether the substance still gets heard."
+      "People can also use the label to avoid hearing fair feedback on how a message landed. Check whether the point itself still gets heard."
     ],
     "how_to_distinguish_from_related": "Minimization attacks the size of the problem, while tone policing attacks the manner in which it was raised. DARVO denies and then casts you as the aggressor, but tone policing stays on style and may deny nothing. Denial refuses the facts, whereas tone policing never reaches them."
   }

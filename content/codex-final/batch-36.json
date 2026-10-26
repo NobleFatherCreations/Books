@@ -1,10 +1,10 @@
 {
   "Triangulation": {
-    "short_definition": "Bringing a third person, real or invented, into a two-person disagreement so their supposed opinion carries the argument.",
-    "core_meaning": "Bringing a third person, real or invented, into a two-person disagreement so their supposed opinion carries the argument.",
-    "expanded_definition": "Triangulation turns a disagreement between two people into a contest with an audience. The speaker quotes a mother, a coworker, a friend or an unnamed 'everyone' as backing, so the other person faces a crowd instead of a single complaint. The third person may be real, exaggerated or made up, and often does not know their words are being used. One mention of someone else's view means little. It becomes a habit when outside voices keep arriving in place of the speaker's own position.",
-    "plain_language_summary": "Instead of saying what they think, someone keeps telling you that other people agree with them, so a two-person problem starts to feel like you against a group.",
-    "why_this_matters": "You end up arguing with people who are not in the room and cannot be questioned. It becomes hard to know what anyone actually said, and relationships with the people being quoted can sour without a word being exchanged with them.",
+    "short_definition": "Pulling a third person, real or made up, into a disagreement between two people, so their supposed opinion wins the argument.",
+    "core_meaning": "Pulling a third person, real or made up, into a disagreement between two people, so their supposed opinion wins the argument.",
+    "expanded_definition": "Triangulation turns a disagreement between two people into a contest with an audience. The speaker quotes a mother, a coworker, a friend or an unnamed 'everyone' as backing. The other person then faces a crowd instead of a single complaint. The third person may be real, exaggerated or made up, and often does not know their words are being used. One mention of someone else's view means little. It becomes a habit when outside voices keep arriving in place of the speaker's own position.",
+    "plain_language_summary": "Instead of saying what they think, someone keeps telling you that other people agree with them. A two-person problem starts to feel like you against a group.",
+    "why_this_matters": "You end up arguing with people who are not in the room and cannot be questioned. It becomes hard to know what anyone actually said. Relationships with the people being quoted can sour without a word being exchanged with them.",
     "what_it_is": [
       "Citing a named person's opinion of you as proof in an argument, such as 'Even your sister thinks so'.",
       "Reporting what a third person said about you in a way that sets the two of you against each other.",
@@ -21,9 +21,9 @@
       "Marcus says you've been talking behind my back."
     ],
     "what_it_is_not": [
-      "A person who says 'I talked this over with my sister and she gave me a useful angle' while owning the view as their own.",
+      "A person who says 'I talked this over with my sister and she gave me a useful angle', and who owns the view as their own.",
       "A group conversation, such as a family meeting, that everyone knowingly joined to settle something together.",
-      "A caring group raising a worry directly and openly with someone, for example friends speaking up about a risky situation.",
+      "A caring group raising a worry directly and openly with someone, such as friends speaking up about a risky situation.",
       "Venting to a close friend after a hard day, with no plan to bring the friend's opinion back as proof.",
       "A mediator or manager who is brought in by agreement and hears both sides."
     ],
@@ -75,30 +75,30 @@
       "Friends or relatives report hearing a version of events from the speaker that you have never heard yourself."
     ],
     "repair_check": "A real change shows up when they begin speaking for themselves and stop citing a chorus. Checking a quote with the person who supposedly said it, and correcting it if wrong, is a meaningful step. An apology that still ends with 'but everyone agrees with me' is not.",
-    "boundary_respect_check": "Ask the speaker to keep this between the two of you, and then see whether a mutual friend brings it up with you a week later. Honoring the request looks like quiet. Going around it looks like the same message arriving through someone else.",
-    "psychological_mechanism": "A group's apparent opinion tends to carry weight, and standing alone against several voices is uncomfortable. Opinions relayed secondhand are hard to test, so the receiver may defer rather than risk being the odd one out. It can also strain the bond between the receiver and the people quoted, leaving the speaker as the only trusted source.",
-    "possible_impact_on_receiver": "Being outnumbered in a conversation that was meant for two is what many describe. Some feel a rush of dread when a friend's name is mentioned, some grow wary of relatives they once trusted, and some stop raising problems at all because they expect to meet a crowd in reply.",
+    "boundary_respect_check": "Ask the speaker to keep this between the two of you. Then see whether a mutual friend brings it up with you a week later. Honoring the request looks like quiet. Going around it looks like the same message arriving through someone else.",
+    "psychological_mechanism": "A group's apparent opinion tends to carry weight, and standing alone against several voices is uncomfortable. Opinions relayed secondhand are hard to test, so the receiver may defer rather than risk being the odd one out. It can also strain the bond between the receiver and the people quoted. That leaves the speaker as the only trusted source.",
+    "possible_impact_on_receiver": "Many describe feeling outnumbered in a conversation that was meant for two. Some feel a rush of dread when a friend's name is mentioned. Some grow wary of relatives they once trusted. Some stop raising problems at all because they expect to meet a crowd in reply.",
     "response_options": {
       "soft_clarification": "Ask for the speaker's own position: 'I'd like to hear what you think, separate from what other people said. What is bothering you?'",
       "firm_boundary": "Decline to argue against people who are absent: 'I'm not going to debate what someone else supposedly said. If it matters, I'll ask them directly.'",
-      "disengagement": "Pause the conversation when the list of other people's opinions begins, and return to it only if the speaker is willing to talk about their own view.",
+      "disengagement": "Pause the conversation when the list of other people's opinions begins. Return to it only if the speaker is willing to talk about their own view.",
       "support_seeking": "Check a quoted statement by asking the person it came from, in a neutral way. Confirming or correcting it for yourself restores your footing.",
-      "workplace_or_professional": "At work, ask that feedback be given directly and in writing with specific examples, instead of 'the team feels', and ask who is raising the concern."
+      "workplace_or_professional": "At work, ask that feedback be given directly and in writing, with specific examples, instead of 'the team feels'. Ask who is raising the concern."
     },
     "boundary_script": "\"I want to hear your concern, but I can't answer for what other people think. Tell me what bothers you, and if someone else's view matters here, I'll ask them myself.\"",
     "safety_sensitive": false,
     "safety_note": "Being quoted against by a crowd is distressing but is not a physical-safety signal alone. It changes if the recruited group is used to track where you are, or to keep you from leaving a house or a job. Pressure about money or children changes it too. In that case, speak with an advocate or a legal aid service before replying to anyone.",
     "misuse_warning": [
-      "Labeling any mention of a friend's opinion as triangulation can shut down normal advice-seeking. The label fits when outside voices replace a person's own position, not whenever others are consulted.",
+      "Labeling any mention of a friend's opinion as triangulation can shut down normal advice-seeking. The label fits when outside voices replace a person's own position. It does not fit whenever others are consulted.",
       "Assuming a quoted third party is lying, without asking them, can create the very distrust the pattern is known for."
     ],
-    "how_to_distinguish_from_related": "Flying Monkeys are third parties who act, such as pressing or watching you, often without knowing why; triangulation uses their words as evidence against you. Forced Teaming claims a shared 'we' that binds you and needs no third voice at all. Concern Trolling uses worry as the vehicle. Triangulation stands apart because the argument is carried by someone who is not in the room."
+    "how_to_distinguish_from_related": "Flying Monkeys are third parties who act, such as pressing or watching you, often without knowing why. Triangulation uses their words as evidence against you. Forced Teaming claims a shared 'we' that binds you and needs no third voice at all. Concern Trolling uses worry as the vehicle. Triangulation stands apart because the argument is carried by someone who is not in the room."
   },
   "Forced Teaming": {
     "short_definition": "Declaring a shared 'we' that the other person never agreed to, so a separate choice starts to look like betrayal.",
     "core_meaning": "Declaring a shared 'we' that the other person never agreed to, so a separate choice starts to look like betrayal.",
-    "expanded_definition": "Forced Teaming means announcing a partnership, a shared cause or a common enemy and then treating the other person as already enrolled. Once 'we' is established, saying no feels like deserting the team, and obligations attach that nobody asked you about. Healthy teams form by invitation and can be declined. A single 'we' in conversation is ordinary speech. It becomes forced when the 'we' arrives first, the request follows, and your own preference is treated as disloyalty.",
-    "plain_language_summary": "Someone says 'we' for you, such as 'we need to deal with this', and then acts as if you have already signed up, so saying no feels like letting the team down.",
+    "expanded_definition": "Forced Teaming means announcing a partnership, a shared cause or a common enemy, and then treating the other person as already signed up. Once 'we' is established, saying no feels like deserting the team. Obligations attach that nobody asked you about. Healthy teams form by invitation and can be declined. A single 'we' in conversation is ordinary speech. It becomes forced when the 'we' arrives first, the request follows, and your own preference is treated as disloyalty.",
+    "plain_language_summary": "Someone says 'we' for you, such as 'we need to deal with this'. Then they act as if you have already signed up, so saying no feels like letting the team down.",
     "why_this_matters": "Obligations you never accepted can pile up under a word that sounds warm. Declining then costs you the belonging you were offered, so people often go along to avoid being cast out of the 'we'.",
     "what_it_is": [
       "Announcing a joint project or shared problem before the other person has said yes.",
@@ -172,33 +172,33 @@
     "repair_check": "Change looks like asking before assigning, and accepting a no without sulking. If the next joint plan begins with a question and ends without a penalty when you decline, something shifted. A warm speech about how much you mean to the team does not count.",
     "boundary_respect_check": "Try declining one specific task while staying friendly. Does the 'we' stretch to include your no, or does the mood turn cold until you comply? How the temperature changes in the hours after tells you more than the words said at the time.",
     "psychological_mechanism": "Belonging is a strong human need, and being offered a place in a close pair or group is a gift. Being welcomed in first may make a later refusal seem like handing that gift back. Naming a common enemy can raise the felt cost of disagreeing, because dissent starts to look like switching sides.",
-    "possible_impact_on_receiver": "People describe saying yes and resenting it later, feeling bound by promises they cannot remember making, and a quiet guilt whenever they want something separate. Some say they stopped being able to tell their own wishes from the team's, and some describe relief when a team they never chose finally let them go.",
+    "possible_impact_on_receiver": "People describe saying yes and resenting it later. They describe feeling bound by promises they cannot remember making, and a quiet guilt whenever they want something separate. Some say they stopped being able to tell their own wishes from the team's. Some describe relief when a team they never chose finally let them go.",
     "response_options": {
       "soft_clarification": "Separate the invitation from the assumption: 'I didn't realize we'd agreed on this. Can you tell me what you're hoping I'll do?'",
-      "firm_boundary": "Decline the part you do not want and leave the relationship intact: 'I'm glad to help with that piece, but I'm not signing up for the rest.'",
-      "disengagement": "Step back from the shared project or group chat for a while without explaining your whole case, and see whether the 'we' still stands without you.",
+      "firm_boundary": "Decline the part you do not want, and leave the relationship intact: 'I'm glad to help with that piece, but I'm not signing up for the rest.'",
+      "disengagement": "Step back from the shared project or group chat for a while, without explaining your whole case. Then see whether the 'we' still stands without you.",
       "support_seeking": "Tell a friend outside the group exactly what you were expected to do and ask if it sounds like something you agreed to.",
-      "workplace_or_professional": "Ask for roles, deadlines and decision rights in writing before taking on shared work, and note in an email what you accepted and what you did not."
+      "workplace_or_professional": "Before taking on shared work, ask for roles, deadlines and decision rights in writing. Then note in an email what you accepted and what you did not."
     },
     "boundary_script": "\"I like working with you, and I also need to be asked before I'm counted in. I'm in for this part. I'm not agreeing to the rest, and I'd like us to talk about it as two separate people.\"",
     "safety_sensitive": false,
-    "safety_note": "A forced 'we' alone is not usually dangerous. It becomes serious when the shared cause is used to get access to your money, accounts, home or immigration papers, or to keep you from outside contact. If joint finances or secrecy are involved, a legal aid service or a financial counselor can help you review the arrangement before signing anything more.",
+    "safety_note": "A forced 'we' alone is not usually dangerous. It becomes serious when the shared cause is used to get access to your money, accounts, home or immigration papers, or to keep you from outside contact. If joint finances or secrecy are involved, a legal aid service or a financial counselor can help you review the arrangement before you sign anything more.",
     "misuse_warning": [
       "Calling any enthusiastic 'we' manipulation can make you suspicious of normal teamwork and of people who are simply eager.",
       "Using the label to avoid commitments you did agree to turns a real pattern into an excuse."
     ],
-    "how_to_distinguish_from_related": "\"We're Family\" Erasure leans on a blood or marriage tie to override your answer, while forced teaming can be built with strangers, coworkers or new friends. Triangulation brings in a third voice as proof, and forced teaming needs only the word 'we'. Flying Monkeys carry out someone's wishes on their behalf, whereas forced teaming makes you the one expected to carry them."
+    "how_to_distinguish_from_related": "\"We're Family\" Erasure leans on a blood or marriage tie to override your answer. Forced teaming can be built with strangers, coworkers or new friends. Triangulation brings in a third voice as proof, and forced teaming needs only the word 'we'. Flying Monkeys carry out someone's wishes on their behalf, whereas forced teaming makes you the one expected to carry them."
   },
   "\"We're Family\" Erasure": {
-    "short_definition": "Invoking family loyalty so that fairness, limits and the right to say no no longer seem to apply between relatives.",
-    "core_meaning": "Invoking family loyalty so that fairness, limits and the right to say no no longer seem to apply between relatives.",
-    "expanded_definition": "This pattern uses the word 'family' as a trump card. A request for money, labor, time or silence is made, and a limit is answered with 'but we're family', as though the bond cancels the limit. Family can mean real generosity, and giving freely to relatives is common and good. It becomes erasure when the bond is invoked mainly to override a no, when the giving runs one way, and when asking for fairness is treated as proof you do not love them.",
-    "plain_language_summary": "A relative says 'we're family' to shut down your limit or your sense of what is fair, so the closeness becomes a reason you cannot say no.",
-    "why_this_matters": "The people you love most can be the hardest to refuse. When the family bond is used to cancel every limit, you may give up money, time and peace, and feel guilty for even wanting fairness.",
+    "short_definition": "Using family loyalty to make fairness, limits and the right to say no seem not to apply between relatives.",
+    "core_meaning": "Using family loyalty to make fairness, limits and the right to say no seem not to apply between relatives.",
+    "expanded_definition": "This pattern uses the word 'family' as a trump card. A request is made for money, labor, time or silence. A limit is answered with 'but we're family', as though the bond cancels the limit. Family can mean real generosity, and giving freely to relatives is common and good. It becomes erasure when the bond is used mainly to override a no, when the giving runs one way, and when asking for fairness is treated as proof you do not love them.",
+    "plain_language_summary": "A relative says 'we're family' to shut down your limit or your sense of what is fair. The closeness becomes a reason you cannot say no.",
+    "why_this_matters": "The people you love most can be the hardest to refuse. When the family bond is used to cancel every limit, you may give up money, time and peace. You may feel guilty for even wanting fairness.",
     "what_it_is": [
       "Answering a limit, such as a price, a schedule or a boundary, with a reminder of blood or marriage ties.",
-      "Expecting free work, loans or childcare from relatives while treating payment or a repayment plan as an insult.",
-      "Treating privacy, personal space or a decision about your own life as something that family has a right to override.",
+      "Expecting free work, loans or childcare from relatives, and treating payment or a repayment plan as an insult.",
+      "Treating privacy, personal space or a decision about your own life as something family has a right to override.",
       "Making giving flow in one direction, with some members always providing and others always receiving."
     ],
     "what_it_sounds_like": [
@@ -234,7 +234,7 @@
     "innocent_or_ordinary_possibilities": [
       "In many families, sharing resources without counting is a cherished norm that works well for those involved.",
       "A relative may be asking out of real need and not know how else to phrase it.",
-      "Grief, an illness or a family event can raise the emotional stakes of a request that is otherwise ordinary."
+      "Grief, an illness or a family event can raise the emotional stakes of a request that would otherwise be ordinary."
     ],
     "common_false_positives": [
       "An aunt who asks you to help move and says 'that's what family is for', but thanks you and does the same for you.",
@@ -265,33 +265,33 @@
       "You rehearse excuses so that you do not have to say 'no' to a relative's face."
     ],
     "repair_check": "Look for a relative who asks first, accepts a no, and then pays back or reciprocates without being chased. Agreeing to put a loan in writing counts. A tearful 'I only did it because I love you' that ends with the same request does not.",
-    "boundary_respect_check": "State the limit once and notice what happens at the next gathering. Are you still welcome at the table and treated normally, or is there a coolness, a guilt-laden remark or a relative sent to talk you round? Respect shows in how ordinary things stay.",
-    "psychological_mechanism": "Most people are taught early that family is where loyalty is supposed to be unconditional, and that teaching can be strong enough that a limit feels like a betrayal of who you are. When the word is attached to a request, refusing it can feel less like a choice and more like breaking a moral rule. Guilt does much of the work.",
-    "possible_impact_on_receiver": "People describe giving until they are exhausted and resentful, then feeling ashamed of the resentment. Some say they dread phone calls from certain relatives, and some say they cannot tell whether they actually want to help or simply cannot bear the guilt. Grief for the family they hoped for is common.",
+    "boundary_respect_check": "State the limit once, and notice what happens at the next gathering. Are you still welcome at the table and treated normally? Or is there a coolness, a guilt-laden remark, or a relative sent to talk you round? Respect shows in how ordinary things stay.",
+    "psychological_mechanism": "Most people are taught early that family is where loyalty is supposed to be unconditional. That teaching can be strong enough that a limit feels like a betrayal of who you are. When the word is attached to a request, refusing can feel less like a choice and more like breaking a moral rule. Guilt does much of the work.",
+    "possible_impact_on_receiver": "People describe giving until they are exhausted and resentful, then feeling ashamed of the resentment. Some say they dread phone calls from certain relatives. Some say they cannot tell whether they actually want to help or simply cannot bear the guilt. Grief for the family they hoped for is common.",
     "response_options": {
       "soft_clarification": "Say what you can offer and what you cannot: 'I love you, and I can lend a hand on Saturday. I can't lend money this time.'",
       "firm_boundary": "Hold the limit without arguing about loyalty: 'Being family doesn't change what I can afford. My answer is still no, and I'm glad to see you at dinner.'",
       "disengagement": "Take a break from calls or gatherings where the request will come up, and let your answer stay as it was without repeating it.",
-      "support_seeking": "Talk with a sibling, cousin or friend who has seen the pattern, or a counselor who works with families, and check whether your limits sound fair to them.",
-      "workplace_or_professional": "If relatives are in your business or workplace, put pay, roles and hours in writing, and separate family events from work matters."
+      "support_seeking": "Talk with a sibling, cousin or friend who has seen the pattern, or with a counselor who works with families. Check whether your limits sound fair to them.",
+      "workplace_or_professional": "If relatives are in your business or workplace, put pay, roles and hours in writing. Keep family events separate from work matters."
     },
     "boundary_script": "\"I do love you, and being family doesn't change what I'm able to give. I can't do this one, and I'd rather say so plainly than say yes and resent it. Let's find something that works for both of us.\"",
     "safety_sensitive": false,
-    "safety_note": "Usually this is a painful family dynamic and not an emergency. It turns more serious when 'family' is used to get your signature on loans or property, to take your income, or to put children or housing at stake. Before signing anything, speak with a legal aid service or a financial counselor, and keep copies of what you were asked to sign.",
+    "safety_note": "Usually this is a painful family dynamic and not an emergency. It turns more serious when 'family' is used to get your signature on loans or property, to take your income, or to put children or housing at stake. Before signing anything, speak with a legal aid service or a financial counselor. Keep copies of what you were asked to sign.",
     "misuse_warning": [
       "Calling every family request 'erasure' can leave you cut off from relatives who simply need help and ask in a clumsy way.",
       "Using the phrase to cover a limit you could have discussed gently can harden a conflict that a calm talk might settle."
     ],
-    "how_to_distinguish_from_related": "Forced Teaming builds a 'we' out of nothing, between people who may barely know each other, while this pattern borrows an existing bond to cancel a limit. Triangulation uses a third person's opinion as the weight, and here the weight is the relationship itself. Concern Trolling wraps a directive in worry, and this one wraps it in duty."
+    "how_to_distinguish_from_related": "Forced Teaming builds a 'we' out of nothing, between people who may barely know each other. This pattern borrows an existing bond to cancel a limit. Triangulation uses a third person's opinion as the weight, and here the weight is the relationship itself. Concern Trolling wraps a directive in worry, and this one wraps it in duty."
   },
   "Concern Trolling": {
-    "short_definition": "Voicing worry for someone's wellbeing as the cover for telling them what to do, so refusing the advice looks like harming themselves.",
-    "core_meaning": "Voicing worry for someone's wellbeing as the cover for telling them what to do, so refusing the advice looks like harming themselves.",
-    "expanded_definition": "Concern Trolling wraps a directive in the language of care. The speaker says they are worried, and the worry always leads to a specific instruction about your job, your body, your partner or your choices. If you decline, you are told that you are being reckless or in denial, which makes it hard to push back without looking careless. Real concern is offered once and leaves the decision with you. Here the worry keeps pointing toward what the speaker wants.",
-    "plain_language_summary": "Someone says they are worried about you, but the worry always ends in an order, and if you say no, they act as if you are hurting yourself.",
-    "why_this_matters": "Care is hard to argue with, so a directive dressed as care leaves you with two bad choices: comply, or be treated as someone who cannot look after themselves. Over time you may stop trusting your own judgment.",
+    "short_definition": "Voicing worry for someone's wellbeing as cover for telling them what to do, so that refusing the advice looks like harming themselves.",
+    "core_meaning": "Voicing worry for someone's wellbeing as cover for telling them what to do, so that refusing the advice looks like harming themselves.",
+    "expanded_definition": "Concern Trolling wraps a directive in the language of care. The speaker says they are worried, and the worry always leads to a specific instruction about your job, your body, your partner or your choices. If you decline, you are told that you are being reckless or in denial. That makes it hard to push back without looking careless. Real concern is offered once and leaves the decision with you. Here the worry keeps pointing toward what the speaker wants.",
+    "plain_language_summary": "Someone says they are worried about you, but the worry always ends in an order. If you say no, they act as if you are hurting yourself.",
+    "why_this_matters": "Care is hard to argue with, so a directive dressed as care leaves you with two bad choices. You can comply, or be treated as someone who cannot look after themselves. Over time you may stop trusting your own judgment.",
     "what_it_is": [
-      "Expressing worry that always ends with the same recommendation, such as quitting, ending a friendship or changing how you look.",
+      "Voicing worry that always ends with the same recommendation, such as quitting, ending a friendship or changing how you look.",
       "Describing your decisions as signs that you are not coping, which makes the advice look like a rescue.",
       "Mentioning that 'everyone has noticed' or is 'concerned' to make the worry seem widespread.",
       "Treating each refusal as new evidence that you need to be helped."
@@ -310,7 +310,7 @@
       "A doctor, therapist or other professional giving health guidance as part of their role.",
       "Family members raising a serious worry together, such as a safety concern, and asking what you want from them.",
       "Someone who offers practical help, such as a ride or a meal, without attaching conditions.",
-      "A worry that is repeated because the situation is truly getting worse and is still offered as concern, not as an order."
+      "A worry that is repeated because the situation is truly getting worse, and is still offered as concern and not as an order."
     ],
     "this_may_be_it_when": [
       "The worry is always followed by the same instruction, whatever the topic.",
@@ -361,14 +361,14 @@
     ],
     "repair_check": "Look for concern that changes shape once you name it: a question replaces the directive, and your answer is allowed to stand. Someone who says 'I get it, it's your call' and then stops has changed. A new round of worry framed as an apology has not.",
     "boundary_respect_check": "What happens in the week after you say 'thanks, I've got it'? Does the topic rest, or does it come back through a different door, such as a mutual friend or a gentle email? Respect leaves the matter alone.",
-    "psychological_mechanism": "Concern is hard to push against because refusing it seems ungrateful. When worry is attached to an instruction, saying no may sound like admitting the speaker is right about you. Repeated worry can also plant a seed of doubt, so you begin to wonder whether you really are not coping, which makes the directive easier to accept.",
-    "possible_impact_on_receiver": "Cornered by kindness, unable to say no without seeming defensive: that is how many put it. Some start hiding choices to avoid the speech, some feel guilty for being annoyed at someone who 'only cares', and some begin to doubt whether their own judgment can be trusted at all.",
+    "psychological_mechanism": "Concern is hard to push against because refusing it seems ungrateful. When worry is attached to an instruction, saying no may sound like admitting the speaker is right about you. Repeated worry can also plant a seed of doubt. You begin to wonder whether you really are not coping, which makes the directive easier to accept.",
+    "possible_impact_on_receiver": "Many put it as feeling cornered by kindness, unable to say no without seeming defensive. Some start hiding choices to avoid the speech. Some feel guilty for being annoyed at someone who 'only cares'. Some begin to doubt whether their own judgment can be trusted at all.",
     "response_options": {
       "soft_clarification": "Ask what they need from you: 'Thanks for caring. Are you telling me what you've noticed, or asking me to do something specific?'",
       "firm_boundary": "Acknowledge the care and decline the instruction: 'I know you mean well. I've heard you, and I've decided. Please don't bring it up again.'",
       "disengagement": "Change the subject or end the call when the worry begins again, and do it kindly, without debating whether you are fine.",
       "support_seeking": "Share the specific advice with someone you trust and ask whether it matches your own view, or whether you are reacting to pressure.",
-      "workplace_or_professional": "If a colleague or manager frames direction as worry, ask for feedback in terms of work expectations and put any agreed changes in writing."
+      "workplace_or_professional": "If a colleague or manager frames direction as worry, ask for feedback about work expectations, and put any agreed changes in writing."
     },
     "boundary_script": "\"I can tell you care, and I'm grateful. I've thought about what you said, and I'm making a different choice. I'd like you to trust me with it, and I'll tell you if I want your help.\"",
     "safety_sensitive": false,

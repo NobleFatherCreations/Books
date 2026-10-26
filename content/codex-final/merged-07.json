@@ -195,14 +195,14 @@
     "how_to_distinguish_from_related": "Sunk Cost Exploitation points at what you have already invested to stop you from leaving; foot-in-the-door points at a past yes to win a new yes. Ultimatums force an either-or under threat of loss, while here nothing is threatened and the first agreement carries the weight. Urgency Manufacturing squeezes the clock, whereas the lever in this tactic is your own earlier consent, however unhurried the asking."
   },
   "Urgency Manufacturing": {
-    "short_definition": "Pressing for an immediate decision, often by creating or inflating a deadline or emergency, so there is no time to think or ask anyone.",
-    "core_meaning": "Pressing for an immediate decision, often by creating or inflating a deadline or emergency, so there is no time to think or ask anyone.",
-    "expanded_definition": "Urgency manufacturing shrinks the time you have to decide, using a deadline or an emergency that may be invented or blown up from something small. You may know it as crisis manufacturing. Real deadlines exist, so one rushed request tells you little. The pattern is a clock that appears whenever you want to think, check or consult someone, and when asking for time raises the pressure.",
+    "short_definition": "Pushing for a decision right now, often by inventing or inflating a deadline or emergency, so you have no time to think or ask anyone.",
+    "core_meaning": "Pushing for a decision right now, often by inventing or inflating a deadline or emergency, so you have no time to think or ask anyone.",
+    "expanded_definition": "Urgency manufacturing shrinks the time you have to decide. It uses a deadline or an emergency that may be invented or blown up from something small. You may know it as crisis manufacturing. Real deadlines exist, so one rushed request tells you little. The pattern is a clock that appears whenever you want to think, check or consult someone, and asking for time raises the pressure.",
     "plain_language_summary": "You are told you must decide this minute, and asking for time to think only makes the pressure worse.",
-    "why_this_matters": "Without time you cannot compare, check facts or ask anyone you trust. A yes given under that squeeze is hard to take back, and afterwards you may feel foolish for agreeing to something you would have turned down on a calm day.",
+    "why_this_matters": "Without time you cannot compare, check facts or ask anyone you trust. A yes given under that squeeze is hard to take back. Afterwards you may feel foolish for agreeing to something you would have turned down on a calm day.",
     "what_it_is": [
       "A time limit, real or inflated, placed on a decision that could wait.",
-      "Sometimes a whole emergency, such as a crisis only you can fix right now, built from something small through tone and framing.",
+      "Sometimes a whole emergency, such as a crisis only you can fix right now, is built from something small through tone and framing.",
       "Works by removing the chance to sleep on it, read the fine print or phone someone.",
       "Seen in sales, scams, workplaces, families and relationships, from last-chance offers to late-night talks that must be settled now.",
       "Usually stated by one side only, in a form you cannot easily check."
@@ -275,22 +275,22 @@
     "repair_check": "Look at whether a request for time is now met with time. A changed exchange sounds like 'take the night, and tell me what else you'd like to know'. An apology followed by another 'by tonight' next week has changed the wording and nothing else.",
     "boundary_respect_check": "Ask for one night and watch the answer. Patience, or a real reason why it cannot wait, is a good sign. A bigger emergency, sulking, or being told you do not care points the other way.",
     "psychological_mechanism": "Pressure on time tends to push people toward quick, gut-level decisions in place of slow weighing. Checking facts and asking others both take time, so removing the time can remove those safeguards. A sense of emergency can also shift attention onto avoiding blame for a delay, so the decision itself stops being the focus.",
-    "possible_impact_on_receiver": "People describe agreeing in a rush, then a sinking feeling afterwards and a clear sense that they would have said no with a day to think. Some feel on edge whenever a message arrives, or begin to distrust their own decisions. Others feel shame at having fallen for it, which can make them slower to ask for help next time.",
+    "possible_impact_on_receiver": "People describe agreeing in a rush. Afterwards they feel a sinking feeling and are sure they would have said no with a day to think. Some feel on edge whenever a message arrives, or begin to distrust their own decisions. Others feel shame at having fallen for it, which can make them slower to ask for help next time.",
     "response_options": {
       "soft_clarification": "Ask for a reason you can check: 'What happens if I answer tomorrow? Who sets that deadline?'",
       "firm_boundary": "State your pace: 'I don't make decisions like this on the spot. You'll have my answer tomorrow.'",
       "disengagement": "Stop answering the pressure itself. End the call or close the page, take the time anyway, and check the claim with an independent source before you reply.",
       "support_seeking": "Phone someone you trust before agreeing, even if you are told not to. Saying the details out loud often shows whether the rush is real.",
-      "workplace_or_professional": "At work, ask for the request and its deadline in writing, with the name of who set it, and bring in a manager or contract reviewer before you sign anything."
+      "workplace_or_professional": "At work, ask for the request and its deadline in writing, with the name of who set it. Bring in a manager or contract reviewer before you sign anything."
     },
     "boundary_script": "\"I don't give answers on the spot to things like this. I'll look at it tonight and tell you tomorrow. If the offer really ends before then, I accept that.\"",
     "safety_sensitive": false,
     "safety_note": "Most of the time this is a pressure problem, not a danger sign. It changes when the rush involves sending money, signing over property or papers, sexual contact, or a threat about what happens if you wait. In those cases, stop and phone someone you trust, your bank or a legal aid service before doing anything that cannot be undone.",
     "misuse_warning": [
       "Not every deadline is manufactured. Calling a real, checkable deadline pressure can lead you to miss things that matter.",
-      "Telling a frightened or frantic person that they are manufacturing a crisis dismisses real distress and says more about what you assume than what you know."
+      "Telling a frightened or frantic person that they are manufacturing a crisis dismisses real distress. It says more about what you assume than what you know."
     ],
-    "how_to_distinguish_from_related": "Ultimatums force an either-or with a loss attached; urgency squeezes the clock and may leave several options open. False Dilemma narrows the options to two, where urgency only shortens the time to weigh whatever there is. Response-Time Policing objects after the fact that you were slow to reply, while this demands the answer before any delay can happen."
+    "how_to_distinguish_from_related": "Ultimatums force an either-or with a loss attached. Urgency squeezes the clock and may leave several options open. False Dilemma narrows the options to two, where urgency only shortens the time to weigh whatever there is. Response-Time Policing objects after the fact that you were slow to reply, while this demands the answer before any delay can happen."
   },
   "Frame Control": {
     "short_definition": "Deciding what a conversation is about, through loaded labels or topic swaps, so that your actual concern has no place to land.",

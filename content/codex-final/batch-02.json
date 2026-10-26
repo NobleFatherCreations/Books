@@ -8,7 +8,7 @@
     "what_it_is": [
       "An accusation arranged so that denying it, explaining it, staying quiet and getting upset are all read as signs of guilt.",
       "A closed loop in logic: the claim is treated as true first, and the reply is then used as the evidence for it.",
-      "Common in jealousy fights, in disputes over money or missing items, and in workplace complaints where someone is told their defensiveness gives them away.",
+      "It is common in jealousy fights and in disputes over money or missing items. It also shows up in workplace complaints, where someone is told their defensiveness gives them away.",
       "Different from a hard question. A hard question can be answered; this kind of accusation has no answer that would be accepted."
     ],
     "what_it_sounds_like": [
@@ -35,7 +35,7 @@
       "You start to hear yourself saying sorry for something you do not think you did, only to make the questioning stop."
     ],
     "this_may_not_be_it_when": [
-      "They can tell you what would change their mind, such as a call to the person involved or a look at the bank record, and they accept it when it comes.",
+      "They can tell you what would change their mind, such as a call to the person involved or a look at the bank record. They accept it when it comes.",
       "Your reply gets weighed against facts, and a good explanation actually lowers their worry.",
       "The suspicion rests on something you did say that conflicts with a record, and you can address the conflict directly.",
       "They say 'I may be wrong about this' at some point in the talk.",
@@ -44,10 +44,10 @@
     "innocent_or_ordinary_possibilities": [
       "Someone who feels hurt or frightened can say 'you're only getting defensive' without having thought through that it leaves you no way out.",
       "People often take a flat denial as a brush-off when what they wanted was reassurance and detail.",
-      "A person who was lied to before may read any denial as suspect, which is a wound from the past more than a plan about you."
+      "A person who was lied to before may treat any denial as suspect. That is more likely a wound from the past than a plan about you."
     ],
     "common_false_positives": [
-      "A parent or teacher who says 'I don't believe you' about a story that has holes in it, while remaining open to hearing more.",
+      "A parent or teacher who says 'I don't believe you' about a story that has holes in it, but stays open to hearing more.",
       "A friend who says 'you're protesting a lot' as a half-joke and drops it as soon as you answer plainly.",
       "A disciplinary meeting where staff ask the same question several ways to get a clear record."
     ],
@@ -61,10 +61,10 @@
     "less_concerning_if": [
       "The accuser can name the specific fact that worries them and is willing to be shown otherwise.",
       "Once you answer, the subject is closed or at least cooled, rather than reopened with new angles.",
-      "The accusation came from one frightening moment, like an unexplained charge on a card, and is dropped once the charge is explained."
+      "The accusation came from one frightening moment, like an unexplained charge on a card. It is dropped once the charge is explained."
     ],
     "more_concerning_if": [
-      "You are asked to hand over passwords, phones or location access as the only way to prove yourself, and the accusation continues after you do.",
+      "You are asked to hand over passwords, phones or location access as the only way to prove yourself. The accusation continues after you do.",
       "The questioning goes on for hours, or begins again after you have tried to leave the room or end the call.",
       "Others are told you are hiding something, so your denial is discounted before you speak."
     ],
@@ -74,25 +74,25 @@
       "You are less able than before to say 'no' to a claim without bracing for what comes next.",
       "The subject of each accusation changes, but the shape does not: whatever you do is read as the confession."
     ],
-    "repair_check": "Look for whether the accusation ever ends. Someone who has stepped out of the trap can say what evidence changed their mind, and does not return to the same charge next week. Words like 'I'm sorry I put you through that' matter less than whether denial is believed from then on.",
+    "repair_check": "Look for whether the accusation ever ends. Someone who has stepped out of the trap can say what evidence changed their mind. They do not return to the same charge next week. Words like 'I'm sorry I put you through that' matter less than whether denial is believed from then on.",
     "boundary_respect_check": "Ask yourself what happened to your 'I've answered this' after you said it. Did the questions slow down or stop? Or did your refusal to keep going become a fresh piece of evidence that you must be hiding something?",
     "psychological_mechanism": "When every possible answer is read as proof, a person can lose the usual link between telling the truth and being believed. Some people start offering more and more detail, or take on the blame just to bring relief. The loop can also feel disorienting, since the usual rules of fair argument seem to have been switched off.",
-    "possible_impact_on_receiver": "People describe becoming guarded and careful about every word, rehearsing answers, and feeling exhausted after talks that went in circles. Some say they confessed to something they did not do just to end the questioning, and felt ashamed or confused about that afterward. Others describe losing trust in their own ability to say anything clearly.",
+    "possible_impact_on_receiver": "People describe becoming guarded and careful about every word, rehearsing answers, and feeling exhausted after talks that went in circles. Some say they confessed to something they did not do just to end the questioning. Afterward they felt ashamed or confused about it. Others describe losing trust in their own ability to say anything clearly.",
     "response_options": {
       "soft_clarification": "Ask what would settle it: 'If I showed you the thread, or you called her yourself, would that be enough?' Their answer shows whether any proof is possible.",
-      "firm_boundary": "State your answer once, then stop adding to it: 'I have told you what happened.' Offer to go through one specific item together, or with a neutral person, instead of defending each answer.",
-      "disengagement": "After your one answer, ask for a pause or a neutral third person, and do not announce that you are leaving or when you will come back. If the questioning feels unsafe, move toward other people.",
+      "firm_boundary": "State your answer once, then stop adding to it: 'I have told you what happened.' Offer to go through one specific item together, or with a neutral person. Do not defend each answer.",
+      "disengagement": "After your one answer, ask for a pause or a neutral third person. Do not announce that you are leaving or when you will come back. If the questioning feels unsafe, move toward other people.",
       "support_seeking": "Tell a friend exactly what you were accused of and how you replied, then ask whether your answers sound unreasonable. A third ear can break the loop.",
-      "workplace_or_professional": "If this is at work, ask for the complaint in writing, answer it in writing, and ask the person handling it what evidence they are weighing."
+      "workplace_or_professional": "If this is at work, ask for the complaint in writing and answer it in writing. Then ask the person handling it what evidence they are weighing."
     },
     "boundary_script": "\"I've answered your question honestly. If you have something specific I can look at with you, I will. Could we take a break, or ask someone neutral to look at this with us?\"",
     "safety_sensitive": false,
-    "safety_note": "Accusation loops are usually a conversation problem. They deserve more concern if they come with constant checking of your phone, demands to prove where you were, or punishment for answers that are 'wrong'. Take note if you feel afraid to say no, are being watched, or questioning turns physical or comes with threats. Then contact a domestic abuse advocate before the next confrontation, and keep copies of messages somewhere they cannot reach.",
+    "safety_note": "Accusation loops are usually a conversation problem. They deserve more concern if they come with constant checking of your phone, demands to prove where you were, or punishment for answers that are 'wrong'. Take note if you feel afraid to say no or are being watched, or if the questioning turns physical or comes with threats. Then contact a domestic abuse advocate before the next confrontation. Keep copies of messages somewhere they cannot reach.",
     "misuse_warning": [
       "Naming this whenever someone doubts you can turn into a way to avoid fair questions. Being asked tough questions about something that does look off is not a trap.",
       "Saying 'you are Kafka-trapping me' in the middle of a real inquiry can sound like another dodge. The label fits when no answer could ever count."
     ],
-    "how_to_distinguish_from_related": "Denial is a person refusing to admit what they did; Kafka Trapping is about what is done to the person who denies. DARVO turns the confrontation around so the accuser becomes the injured party, while here the accuser stays the accuser and simply makes every reply count as guilt. Whataboutism answers a charge with a charge of your own, and nothing here needs a counter-charge."
+    "how_to_distinguish_from_related": "Denial is a person refusing to admit what they did. Kafka Trapping is about what is done to the person who denies. DARVO turns the confrontation around so the accuser becomes the injured party. Here the accuser stays the accuser and simply makes every reply count as guilt. Whataboutism answers a charge with a charge of your own. Nothing here needs a counter-charge."
   },
   "Gotcha Framing": {
     "short_definition": "Taking an honest, tentative remark and presenting it as a confession, so that being open with someone has a price.",
@@ -171,7 +171,7 @@
     ],
     "repair_check": "Watch for whether openness becomes safe again. A person who has changed will treat your next unfinished thought as something to explore together, and may even say they regret pouncing before. An apology that is followed by another 'aha' the next time you admit something has not changed anything.",
     "boundary_respect_check": "Try telling them, 'I was thinking out loud, not confessing.' Notice whether that is allowed to stand. If they accept it and ask what you were thinking, your point was heard; if they insist your words stand as spoken, the thinking-aloud space is still closed.",
-    "psychological_mechanism": "People tend to share more when they expect a kind reception and less when disclosure has cost them before. Repeatedly seeing a half-formed thought used as evidence can teach the speaker to stay guarded. In time the person may edit themselves before speaking, which can feel like losing access to their own honest voice.",
+    "psychological_mechanism": "People tend to share more when they expect a kind reception and less when disclosure has cost them before. Repeatedly seeing a half-formed thought used as evidence can teach the speaker to stay guarded. In time the person may edit themselves before speaking, and it can seem as if their own honest voice has gone quiet.",
     "possible_impact_on_receiver": "People describe becoming wary of their own words and going quiet about doubts, mistakes and feelings. Some say they started to over-explain, or to avoid conversations that might lead somewhere honest. Others describe a growing sense that anything they admit will be saved for later, which leaves them lonely even when they are not alone.",
     "response_options": {
       "soft_clarification": "Mark the remark as unfinished before it hardens: 'I was thinking out loud there. Can we treat that as a question, not a statement?'",
@@ -266,7 +266,7 @@
     ],
     "repair_check": "Pay attention to how they talk about their next opinion. Real change sounds like 'that's how I see it' or 'I haven't checked that', and a willingness to be corrected in front of you. If the word 'objective' just appears less often while your views are still treated as feelings, nothing underneath has shifted.",
     "boundary_respect_check": "State your view as a view and see if it gets a place at the table. Does your 'I disagree, and here's why' get a reply about the reasons, or about your emotional state? What comes back to you shows whether the room has space for more than one voice.",
-    "psychological_mechanism": "People often defer to those who sound certain, because confidence is commonly taken as a sign of knowledge. When a view is framed as fact, disagreeing can feel like admitting an error or showing emotion. Hearing this repeatedly may lead a person to doubt that their own reasoning counts, particularly in areas where they have less formal expertise.",
+    "psychological_mechanism": "People often defer to those who sound certain, because confidence is commonly taken as a sign of knowledge. When a view is framed as fact, disagreeing can amount to admitting an error or showing emotion. Hearing this repeatedly may lead a person to doubt that their own reasoning counts, particularly in areas where they have less formal expertise.",
     "possible_impact_on_receiver": "Some feel shut down mid-sentence, then second-guess a view they held a moment before and wonder if they are just too sensitive. Some go along with decisions they privately disagreed with, because arguing felt pointless. Others pick up a habit of looking things up in secret, to check whether they were the one in the wrong.",
     "response_options": {
       "soft_clarification": "Ask for the basis, plainly: 'What is that based on? I'd like to look at it too.' A real source is easy to share.",
