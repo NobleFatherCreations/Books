@@ -355,6 +355,11 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     const d = await p.evaluate(() => [...document.querySelectorAll("#xl path")].map(x => x.style.animationDelay));
     T("interchange lines draw in one after another", d.length >= 2 && d.every((x, i) => x === i * 40 + "ms"), JSON.stringify(d)); await ctx.close(); }
 
+  // ---- stage 3: the pre-compile gate in the build proves it rejects bad input (and that the real data passes)
+  { const r = require("child_process").spawnSync("python3", ["-I", path.join(__dirname, "..", "design", "build-decoder-v15.py"), "--selftest"], { encoding: "utf-8", timeout: 180000 });
+    const out2 = (r.stdout || "") + (r.stderr || ""); const rejected = (out2.match(/: rejected/g) || []).length;
+    T("build gate self-test: real data passes and 11 kinds of damage are each rejected (empty field, unclosed marker, placeholder, cut-off sentence, HTML, missing safety note, bad link, missing entry, changed character, damaged data block)", r.status === 0 && rejected === 11 && /real data: passes/.test(out2), `exit ${r.status}, ${rejected} rejected`); }
+
   // ---- the House seal never floats over the text
   { const bad = [];
     for (const w of [390, 1440]) { const ctx = await ctxFor(w, 900, "dark"); const p = await open(ctx, "#/entry/gaslighting"); const pos = await p.evaluate(() => { const s = document.querySelector(".nf-seal"); return s ? getComputedStyle(s).position : "absent"; }); if (pos === "fixed") bad.push(w + "px " + pos); await ctx.close(); }

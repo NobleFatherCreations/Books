@@ -17,7 +17,7 @@ their own <script type="application/json"> block at the end of the file and are 
 time a station on that line opens. No CDN, no external request except the sanctioned beacon.
 See docs/DECODER-V15-ARCHITECTURE.html for the reasoning behind every choice.
 """
-import argparse, base64, importlib.util, json, os, re
+import argparse, base64, copy, hashlib, importlib.util, json, os, re, subprocess, sys
 from collections import Counter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -198,8 +198,128 @@ def home_html(lines, count):
         rows, count)
 
 
+# ----------------------------------------------------------------------------------------------------------------------
+# The pre-compile gate. The page is only written if all of this holds. It checks the source strictly, runs the content
+# validator, and then reads the finished HTML back and compares every entry byte for byte with the source it came from.
+# `--selftest` proves the gate really rejects bad input.
+# ----------------------------------------------------------------------------------------------------------------------
+EXPECTED = 310
+PLACEHOLDER = re.compile(r"\{\{|\}\}|\bTODO\b|\bTBD\b|\bFIXME\b|\bXXX\b|lorem ipsum|#REPLACE|data-here|�|[\x00-\x08\x0b\x0c\x0e-\x1f]", re.I)
+TERMINAL = re.compile(r"[.!?”’\"')\]]\s*$")
+PROSE_FIELDS = ["short_definition", "plain_language_summary", "expanded_definition", "why_this_matters", "safety_note"]
+
+
+def _flat(v):
+    if isinstance(v, str): return [v]
+    if isinstance(v, list): return [x for y in v for x in _flat(y)]
+    if isinstance(v, dict): return [x for y in v.values() for x in _flat(y)]
+    return [str(v)]
+
+
+def _digest(o):
+    return hashlib.sha256(json.dumps(o, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")).hexdigest()
+
+
+def gate_source(entries, recipes, expected=EXPECTED):
+    """Strict checks on the source entries. Returns a list of problems (empty = clean)."""
+    bad, names, slugs = [], set(), set()
+    by = {e["n"]: e for e in entries}
+    if len(entries) != expected: bad.append(f"{len(entries)} entries, expected {expected}")
+    for e in entries:
+        n = e["n"]
+        if n in names: bad.append(f"{n}: duplicate name")
+        if e["s"] in slugs: bad.append(f"{n}: duplicate slug {e['s']}")
+        names.add(n); slugs.add(e["s"])
+        if e["kind"] not in ("say", "self", "verify"): bad.append(f"{n}: unknown script kind {e['kind']!r}")
+        for r_ in e["rel"]:
+            if r_ not in by: bad.append(f"{n}: related tactic {r_!r} does not exist")
+        for f in v10.FIELDS:
+            if f not in e["f"]: bad.append(f"{n}.{f}: missing"); continue
+            parts = _flat(e["f"][f])
+            if not parts or any(not x.strip() for x in parts): bad.append(f"{n}.{f}: empty")
+            for x in parts:
+                if PLACEHOLDER.search(x): bad.append(f"{n}.{f}: placeholder or broken character in {x[:40]!r}")
+                if x.count("**") % 2: bad.append(f"{n}.{f}: unclosed bold marker")
+                if re.search(r"</?[a-z][^>]*>", x, re.I): bad.append(f"{n}.{f}: HTML in a text field: {x[:40]!r}")
+        for f in PROSE_FIELDS:
+            x = e["f"].get(f)
+            if isinstance(x, str) and x.strip() and not TERMINAL.search(x): bad.append(f"{n}.{f}: ends mid-sentence ({x[-30:]!r})")
+        if e["sens"] and not str(e["f"].get("safety_note", "")).strip(): bad.append(f"{n}: safety-sensitive but no safety note")
+    for rc in recipes:
+        for c in rc["c"]:
+            if c not in by: bad.append(f"pattern {rc['n']}: {c!r} is not an entry")
+        if not rc["c"]: bad.append(f"pattern {rc['n']}: empty")
+    return bad
+
+
+def gate_validator():
+    """The repo's own content validator, run over the whole book."""
+    v = os.path.join(HERE, "validate-codex-final.py")
+    if not os.path.exists(v): return []
+    r = subprocess.run([sys.executable, "-I", v, "--all", "--complete", "--quiet"], capture_output=True, text=True, timeout=120)
+    return [] if r.returncode == 0 else ["content validator failed: " + (r.stdout + r.stderr).strip().splitlines()[-1][:200]]
+
+
+def gate_output(entries, html, expected=EXPECTED):
+    """Read the finished page back and compare every entry with its source, byte for byte."""
+    bad = []
+    m = re.search(r'<script type="application/json" id="data">(.*?)</script>', html, re.S)
+    if not m: return ["the data block is missing from the page"]
+    data = json.loads(m.group(1).replace("<\\/", "</"))
+    blocks = {k: json.loads(v.replace("<\\/", "</")) for k, v in re.findall(r'<script type="application/json" id="L-([a-z]+)">(.*?)</script>', html, re.S)}
+    got = {e["n"]: e for e in data["entries"]}
+    if len(got) != expected: bad.append(f"page holds {len(got)} entries, expected {expected}")
+    if sum(len(v) for v in blocks.values()) != expected: bad.append(f"line blocks hold {sum(len(v) for v in blocks.values())} entries, expected {expected}")
+    for e in entries:
+        g = got.get(e["n"])
+        if not g: bad.append(f"{e['n']}: missing from the page"); continue
+        full = {**g["f"], **blocks.get(e["g"], {}).get(e["n"], {})}
+        if _digest(full) != _digest(e["f"]): bad.append(f"{e['n']}: text differs from its source")
+        for k in ("s", "g", "w", "sub", "kw", "sens", "abs", "rel", "pop", "kind"):
+            if _digest(g.get(k)) != _digest(e[k]): bad.append(f"{e['n']}: field {k} differs from its source")
+        if e["g"] not in blocks or e["n"] not in blocks[e["g"]]: bad.append(f"{e['n']}: not in its line's data block")
+    homes = re.findall(r'class="n">(\d+)</span></a></li>', html.split('id="lines-h"')[1].split("</ol>")[0]) if 'id="lines-h"' in html else []
+    if sum(map(int, homes)) != expected: bad.append(f"Home's line index adds up to {sum(map(int, homes))}, expected {expected}")
+    if "{{" in html: bad.append("an unfilled placeholder is left in the page")
+    if len(re.findall(r"@font-face", html)) != 3: bad.append("the three embedded fonts are not all present")
+    stripped = re.sub(r"<script[^>]*cloudflareinsights[^>]*></script>", "", html)
+    if re.search(r"@import|url\(['\"]?https?:", stripped) or re.search(r"<(script|link|img|iframe)[^>]+(src|href)=['\"]https?://", stripped): bad.append("an external request is in the page")
+    return bad
+
+
+def run_gate(entries, recipes, html, expected=EXPECTED, with_validator=True):
+    return gate_source(entries, recipes, expected) + (gate_validator() if with_validator else []) + gate_output(entries, html, expected)
+
+
+def selftest(entries, recipes, html):
+    """The gate must pass the real data and reject each kind of damage. Exit status 0 only if it does."""
+    ok = True
+    clean = run_gate(entries, recipes, html, with_validator=False)
+    print("  real data:", "passes" if not clean else "FAILS: " + "; ".join(clean[:3])); ok &= not clean
+    def mut(label, fn, on="source"):
+        nonlocal ok
+        es = copy.deepcopy(entries); h = html; fn(es) if on == "source" else None
+        if on == "html": h = fn(html)
+        bad = (gate_source(es, recipes) if on == "source" else gate_output(entries, h))
+        print(f"  {label}:", "rejected" if bad else "NOT REJECTED"); ok &= bool(bad)
+    mut("an empty field", lambda es: es[7]["f"].__setitem__("why_this_matters", ""))
+    mut("an empty list item", lambda es: es[9]["f"].__setitem__("what_it_is", ["ok", " "]))
+    mut("an unclosed bold marker", lambda es: es[3]["f"].__setitem__("short_definition", "A **broken definition."))
+    mut("a placeholder", lambda es: es[5]["f"].__setitem__("expanded_definition", "Text {{REPLACE}} here."))
+    mut("a sentence cut off mid-way", lambda es: es[11]["f"].__setitem__("plain_language_summary", "Someone keeps telling you that"))
+    mut("HTML in a text field", lambda es: es[2]["f"].__setitem__("safety_note", "Call <b>now</b>."))
+    mut("a sensitive entry with no safety note", lambda es: next(e for e in es if e["sens"])["f"].__setitem__("safety_note", ""))
+    mut("a related tactic that does not exist", lambda es: es[4]["rel"].append("No Such Tactic"))
+    mut("a missing entry", lambda es: es.pop())
+    mut("one character changed in the finished page", lambda h: h.replace("what you clearly remember", "what you clearly remembar", 1), on="html")
+    mut("a line's data block cut short", lambda h: re.sub(r'(<script type="application/json" id="L-truth">)\{"', r'\1{"zz":{},"', h, count=1).replace('"Gaslighting":', '"Gaslightinx":', 1), on="html")
+    print("gate self-test:", "ok" if ok else "FAILED")
+    return 0 if ok else 1
+
+
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--selftest", action="store_true", help="prove the pre-compile gate rejects bad input, then exit")
     ap.add_argument("--out", default=os.path.join(ROOT, "instruments", "playbook", "_undeployed", "v15", "index.html"))
     a = ap.parse_args()
     entries, by, recipes, aliases, narrow, feelings, feeling_groups, stop, common = assemble()
@@ -255,10 +375,20 @@ def main():
             .replace("{{BLOCKS}}", blocks)
             .replace("{{HOUSE}}", read(A10, "house.html"))
             .replace("{{BEACON}}", read(A10, "beacon.html")))
-    assert "{{" not in html, "unfilled placeholder in shell"
+    if a.selftest:
+        sys.exit(selftest(entries, recipes, html))
+    problems = run_gate(entries, recipes, html)
+    if problems:
+        print(f"PRE-COMPILE GATE FAILED ({len(problems)} problems). Nothing was written.")
+        for x in problems[:25]: print("  -", x)
+        if len(problems) > 25: print(f"  ... and {len(problems) - 25} more")
+        sys.exit(1)
     os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
-    with open(a.out, "w", encoding="utf-8") as fh:
+    tmp = a.out + ".tmp"          # written whole or not at all
+    with open(tmp, "w", encoding="utf-8") as fh:
         fh.write(html)
+    os.replace(tmp, a.out)
+    print("pre-compile gate: all", len(entries), "entries checked and read back from the page, byte for byte")
     print(f"wrote {os.path.relpath(a.out, ROOT)}  {len(html.encode())//1024} KB  entries {len(entries)}  "
           f"index {len(js_json(payload).encode())//1024} KB  css {len(read(V15,'app.css').encode())//1024} KB  js {len(read(V15,'app.js').encode())//1024} KB")
     print("  lines:", " ".join(f"{l['letter']}:{l['k']}({len(l['order'])})" for l in lines))
