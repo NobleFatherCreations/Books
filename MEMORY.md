@@ -4680,3 +4680,20 @@ desktop, zoomable "often confused" map, read-aloud via the phone's voice.
   because this machine's timings drift ±25% between sessions (an A/B of two commits back to back showed no real change).
   Compare on LCP, not FCP: v14's first paint is its background and its headline waits for a reveal animation.
 - Idle test ignores scroll-driven animations (they move only when the reader scrolls).
+
+## 2026-10-26 — Decoder v15 round three: earlier-build ideas judged, ten new visual ideas (still NOT deployed)
+
+Owner pasted the v14-era catalogues and asked which are worth integrating, then for 10 new visual ideas.
+- **Adopted / adapted:** Leave destination (chosen in Settings, history unwound; no "zero history" promise); one scrambled
+  `ui-state` storage entry (numbers only, XOR+base64, honestly labelled not encryption; legacy `fg_*` keys importable/deletable);
+  "Rest a line" (reader-chosen, at least one line stays visible); keys 1-4 + `#/entry/slug/3` step deep links; route swipe strip
+  (list kept underneath); 40 ms interchange-line stagger; byte-for-byte pre-compile build gate (`run_gate`, `--selftest`, 11 rejections).
+- **Declined:** service worker (stores files, second hosted file, breaks single-file/no-storage rule; Safety page now has an honest
+  offline note); scrubbing track (use keys). Still cut: grain, focus veil, thin caps, cursor glow, uneven whitespace, submerged fills.
+- **Ten new visual ideas, all built and tested:** line emblems; enamel rim; tactile-paving dots on safety band; Home network
+  thumbnail; pictograms (Help step 0 + Where lists); printed station card (greyscale, header/footer, strip hidden); code plates
+  (G 01) + search by code; directional arrows on prev/next; subway-tile wall; four-point stars at line ends and headline.
+- "GitHub Action compiler logs": nothing blocked; build is one hand-run Python script.
+- Gotcha: a print-emulation screenshot taken right after `emulateMedia` catches colour transitions mid-way (looked washed out);
+  the PDF is the truth. Verify with `page.pdf` + pdftoppm, not a fresh screenshot.
+- Tests: decoder-verify.js now 78 checks, all pass. Commit pushed to claude/friendly-albattani-j667ry. Deploy still needs owner go-ahead.

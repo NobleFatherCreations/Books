@@ -314,6 +314,42 @@ details>div{padding-bottom:16px}
   <p><strong>Honest note on the timing gates:</strong> my first absolute gates (a 150 ms longest task) sat right on the machine's noise (151 ms one run, 135 ms the next), and an A/B of the previous commit against this one back to back showed no real change. I did not loosen them to pass. I replaced the fragile ones with a same-machine comparison against live v14, and left the absolute limits as loose backstops.</p>
   </div>
   <div class="col">
+  <h3>Round three: the previous build's safety, navigation and governance ideas, and ten new visual ideas</h3>
+  <p>You pasted the v14-era catalogue and asked which items are worth bringing in. Each was judged on merit for a hurting reader on a phone. Some were built as written, some adapted so they stay truthful, and some declined with the reason.</p>
+  </div>
+  <div class="tbl"><table>
+    <thead><tr><th>Idea from the earlier build</th><th>Decision</th><th>What is in v15, and why</th></tr></thead>
+    <tbody>
+      <tr><td>Quick-exit disguise key</td><td>Adapted</td><td>Leave (button, and Escape twice) unwinds this visit's history and goes to a destination you choose in Settings (weather by default). No web page can promise "zero history", so none is promised.</td></tr>
+      <tr><td>Single-trace storage eraser</td><td>Adapted</td><td>Everything lives in one scrambled entry made of numbers only, with no readable tactic names, settings or tool names. Settings says plainly that it is scrambled, not encrypted. One button erases it. Saving is still off by default.</td></tr>
+      <tr><td>Hide-a-constellation dimmer</td><td>Adapted</td><td>"Rest a line": you choose lines to set aside. They leave search, the map, lists and Help matches. At least one line must stay visible. No invented intensity labels.</td></tr>
+      <tr><td>Infinity scrubbing track</td><td>Declined</td><td>A drag track is hard to use with a shaky thumb or a screen reader. Keys 1 to 4 and step deep links (#/entry/slug/3) do the job instead.</td></tr>
+      <tr><td>In-card horizontal swipe tracks</td><td>Adapted</td><td>A route is also a swipeable strip of its stations, with the numbered list kept underneath for screen readers.</td></tr>
+      <tr><td>Staggered 12 ms star birth</td><td>Adapted</td><td>Interchange lines on the map draw one after another, 40 ms apart, and not at all under Reduce motion.</td></tr>
+      <tr><td>Pre-compilation verification gate</td><td>Built</td><td>The build refuses to write the page unless the content validator passes and all 310 entries read back from the finished HTML byte for byte. A self-test proves it rejects 11 kinds of damage.</td></tr>
+      <tr><td>Service-worker offline cache</td><td>Declined</td><td>It stores files on the device, needs a second hosted file and breaks the one-file, nothing-left-behind rule. The page is already one file; Safety now says honestly what happens if the connection drops.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="tbl"><table>
+    <thead><tr><th>#</th><th>New visual idea (none were in your lists)</th><th>Job it does</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>Line emblems: a drawn glyph for each of the ten lines</td><td>Tells lines apart by shape, so colour is not the only cue</td></tr>
+      <tr><td>2</td><td>Enamel rim on sign panels</td><td>Makes a panel read as a sign, with a hairline that survives dark and light</td></tr>
+      <tr><td>3</td><td>Tactile-paving dots along the safety band</td><td>The real-world "careful here" texture, for the one place danger is named</td></tr>
+      <tr><td>4</td><td>Network thumbnail on Home</td><td>Shows the whole system at a glance and opens the map</td></tr>
+      <tr><td>5</td><td>Pictograms for "where has this been happening"</td><td>Faster to recognise than words when attention is thin</td></tr>
+      <tr><td>6</td><td>Printed station card</td><td>One station prints as a clean greyscale leaflet with header and footer, with no app chrome</td></tr>
+      <tr><td>7</td><td>Departure-board code plates (G 01) and search by code</td><td>A short, memorable address for every station. Type "t09" to jump to it.</td></tr>
+      <tr><td>8</td><td>Directional arrows on Previous / Next</td><td>Which way you are going is visible, not only readable</td></tr>
+      <tr><td>9</td><td>Subway-tile wall behind the Home headline</td><td>Sets the world in the first second, at about 5% strength so it never fights the text</td></tr>
+      <tr><td>10</td><td>Four-point star as terminus mark and headline stop</td><td>Marks each line's ends, and gives the headline a full stop with character</td></tr>
+    </tbody>
+  </table></div>
+  <div class="col">
+  <p><strong>Still cut from the visual catalogue:</strong> film grain, focus veil, thin-cap type, cursor glow, deliberately uneven whitespace and submerged fills. Each adds mood but costs legibility or needs a pointer, and none helps someone who is hurting find the right page.</p>
+  <p><strong>On "GitHub Action compiler logs":</strong> nothing is blocked. The build is one Python script run by hand, with no failing action logs known. The gate above replaces the idea of reading compiler logs after the fact.</p>
+  </div>
+  <div class="col">
   <h3>Decisions made for you, and what is still open</h3>
   <p>You asked me to pick whatever is easiest to understand and navigate. I chose: <strong>Wayfinding</strong> (direction A); the <strong>Leave</strong> button, included; <strong>private history</strong> as above; the line letters <strong>T G C L W B P S O M</strong>; "Match my phone" as the default colour setting. Say so if you want any of these changed.</p>
   <ul>
