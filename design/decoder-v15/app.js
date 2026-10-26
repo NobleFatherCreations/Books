@@ -323,12 +323,12 @@ function stepPanels(e){
       (pats.length?blk("Patterns it is part of",'<div class="rows">'+pats.slice(0,6).map(r=>'<a class="row" href="'+rtH(r)+'"><span class="rt"><b class="nm">'+H(r.n)+'</b><small>'+r.c.length+' tactics that often appear together</small></span></a>').join("")+'</div>'):""),
   ];
 }
-function viewStation(e){
+function viewStation(e,stepArg){
   if(!e) return notFound();
   logTrail(e.n);
   const l=LINE[e.g], f=full(e), si=l.order.indexOf(e.n), prev=l.st[si-1], next=l.st[si+1], says=f.what_it_sounds_like||[], saved=isSaved(e.n);
   const HID=hiddenSet(), xAll=crossRel(e), x=xAll.filter(r=>!HID.has(r.g)), w=(e.w||[]).map(k=>SET[k]&&SET[k].label).filter(Boolean), pats=(PATS_OF[e.n]||[]).map(i=>D.recipes[i]);
-  STEP=0;
+  const s0=Math.max(0,Math.min(3,(parseInt(stepArg,10)||1)-1)); STEP=s0;
   const strip='<nav class="strip" aria-label="Position on the '+esc(lineName(l))+'">'+
       (prev?'<a href="'+stH(prev)+'" data-vt data-pg="prev">'+ic("prev")+'<span>'+H(prev.n)+'</span></a>':'<span class="nolink">Start of line</span>')+
       '<span class="pos">Station '+(si+1)+' of '+l.order.length+'</span>'+
@@ -347,9 +347,9 @@ function viewStation(e){
     '<div class="acts"><button class="btn" type="button" data-save="'+esc(e.n)+'" aria-pressed="'+saved+'">'+ic(saved?"saved":"save")+(saved?'Saved':'Save')+'</button>'+
       '<button class="btn" type="button" data-share>'+ic("share")+'Share link</button><button class="btn" type="button" data-print>'+ic("print")+'Print</button></div>'+strip+
     '<div class="steps" data-steps><div class="tabs" role="tablist" aria-label="Read this entry in four steps">'+
-      STEPS.map((s,i)=>'<button role="tab" type="button" id="t-'+i+'" aria-controls="p-'+i+'" aria-selected="'+(i===0)+'" tabindex="'+(i===0?0:-1)+'"><span class="no">'+(i+1)+'</span>'+s[1]+'</button>').join("")+
-      '</div><div class="stepbar" aria-hidden="true"><i style="--p:.25"></i></div>'+
-      panels.map((p,i)=>'<section class="panelx" role="tabpanel" id="p-'+i+'" aria-labelledby="t-'+i+'" tabindex="0"'+(i?' hidden':'')+'>'+p+
+      STEPS.map((s,i)=>'<button role="tab" type="button" id="t-'+i+'" aria-controls="p-'+i+'" aria-selected="'+(i===s0)+'" tabindex="'+(i===s0?0:-1)+'"><span class="no">'+(i+1)+'</span>'+s[1]+'</button>').join("")+
+      '</div><div class="stepbar" aria-hidden="true"><i style="--p:'+(s0+1)/4+'"></i></div>'+
+      panels.map((p,i)=>'<section class="panelx" role="tabpanel" id="p-'+i+'" aria-labelledby="t-'+i+'" tabindex="0"'+(i!==s0?' hidden':'')+'>'+p+
         (i<3?'<div class="stepnav"><button class="btn pri" type="button" data-step="'+(i+1)+'">Next: '+STEPS[i+1][1]+ic("arrow")+'</button></div>':'')+'</section>').join("")+'</div>'+
     '<aside class="side" aria-label="Around this station">'+
       '<button class="btn line showmap" type="button" data-showmap="'+e.i+'">'+ic("map")+'Show on the map</button>'+
@@ -369,6 +369,7 @@ function setStep(n,from,anim){
   panels.forEach((p,i)=>{ p.hidden=i!==n; p.classList.remove("in-l","in-r"); });
   if(anim&&motionOK()&&n!==STEP){ void panels[n].offsetWidth; panels[n].classList.add(n>STEP?"in-r":"in-l"); }
   STEP=n; $(".stepbar i",root).style.setProperty("--p",(n+1)/4);
+  { const st=ctx(parse()).station; if(st){ const h=stH(st)+(n?"/"+(n+1):""); try{ history.replaceState(null,"",h); if(STACK.length) STACK[STACK.length-1].h=h; }catch(x){} } }
   announce("Step "+(n+1)+" of 4: "+STEPS[n][1]);
   if(from==="next"){ const t=tabs[n]; t.focus({preventScroll:true}); root.scrollIntoView({block:"start",behavior:motionOK()?"smooth":"auto"}); }
 }
@@ -448,7 +449,7 @@ function drawInterchanges(i){
   const svg=$("#map"), gx=$("#xl"); if(!svg||!gx) return; const g=mapGeom(svg.classList.contains('land')), e=E[i], a=g.pts[i];
   gx.innerHTML=crossRel(e).map(r=>{ const b=g.pts[r.i], mx=(a.x+b.x)/2, my=(a.y+b.y)/2, bend=g.land?-24:24;
     return '<path class="xl draw" d="M'+a.x+' '+a.y+' Q'+(mx+(g.land?0:bend))+' '+(my+(g.land?bend:0))+' '+b.x+' '+b.y+'"/>'; }).join("");
-  $$("path",gx).forEach(p=>p.style.setProperty("--len",Math.ceil(p.getTotalLength())));
+  $$("path",gx).forEach((p,i)=>{ p.style.setProperty("--len",Math.ceil(p.getTotalLength())); p.style.animationDelay=(i*40)+"ms"; });
 }
 function viewMap(){
   const note=MAPLIT?'<div class="maptools"><span class="small"><b>Showing your '+MAPLIT.length+' matches.</b></span><button class="linkbtn" type="button" data-mapclear>Show every station</button></div>':
@@ -478,6 +479,7 @@ function viewRoutes(r){
   if(r){ MAPROUTE=r.c.map(n=>BY[n]&&BY[n].i).filter(x=>x!=null);
     const html='<div class="view wide"><h1 class="h-page" tabindex="-1">'+H(r.n)+'</h1><p class="lede">'+H(r.d)+'</p>'+
       '<p class="note">These tactics are often seen together, in roughly this order. It is a pattern, not a prediction: nothing here says what will happen next in your situation.</p>'+
+      '<div class="rstrip" aria-hidden="true" tabindex="-1"><ol>'+r.c.map((n,i)=>{ const e=BY[n]; return e?'<li data-href="'+stH(e)+'" data-g="'+e.g+'"><span class="rs-n">'+(i+1)+'</span><span class="rs-st"></span><span class="rs-l">'+H(e.n)+'</span></li>':''; }).join("")+'</ol></div>'+
       '<ol class="chain" style="margin-top:2rem">'+r.c.map(n=>{ const e=BY[n]; return e?'<li><a href="'+stH(e)+'" data-vt data-g="'+e.g+'"><span class="rt" style="display:flex;flex-direction:column;gap:.25rem"><b class="nm" style="font:800 1.0625rem/1.25 var(--sign);display:flex;gap:.5rem;align-items:center">'+bullet(LINE[e.g],"sm")+H(e.n)+'</b><small class="muted">'+H(e.f.short_definition)+'</small></span></a></li>':''; }).join("")+'</ol>'+
       '<h2 class="h-sec">On the map</h2><div class="mapwrap">'+mapSVG()+'</div></div>';
     MAPROUTE=null; return html; }
@@ -571,7 +573,7 @@ function legacy(r){
 const ROUTES={
   "":()=>viewHome(), help:()=>viewHelp(), search:()=>viewSearch(), map:()=>viewMap(), saved:()=>viewSaved(), safety:()=>viewSafety(), settings:()=>viewSettings(), updates:()=>viewUpdates(),
   lines:r=>viewLines(r.a), line:r=>viewLine(LINE[r.a]), l:r=>viewLine(byNum(LINES,r.a)),
-  entry:r=>viewStation(stationFrom(r.a)), s:r=>viewStation(byNum(E,r.a)),
+  entry:r=>viewStation(stationFrom(r.a),r.b), s:r=>viewStation(byNum(E,r.a),r.b),
   compare:r=>viewCompare(stationFrom(r.a),stationFrom(r.b)), c:r=>viewCompare(byNum(E,r.a),byNum(E,r.b)),
   routes:r=>viewRoutes(r.a?D.recipes.find(x=>x.s===r.a)||null:null), r:r=>viewRoutes(byNum(D.recipes,r.a)),
 };
@@ -624,6 +626,7 @@ function after(r,c,key){
   if(r.view==="search"){ const q=$("#q"); if(q&&!FIRST) q.focus(); }
   else if(!FIRST){ const h=$("#main h1"); if(h){ if(!h.hasAttribute("tabindex")) h.tabIndex=-1; h.focus({preventScroll:true}); } }
   window.scrollTo(0, SCROLL[key]&&POPPED?SCROLL[key]:0); POPPED=false;
+  if(c.station&&r.b){ const stp=$("[data-steps]"); if(stp) stp.scrollIntoView({block:"start"}); }
   if(r.view==="map"&&MAPSEL>=0&&!$('#map a[data-i="'+MAPSEL+'"]')) MAPSEL=-1;
   if(r.view==="map"&&MAPSEL>=0) drawInterchanges(MAPSEL);
   /* the camera flight, as a scroll: the map brings the station you came for into the middle of the screen */
@@ -661,6 +664,7 @@ let LAST_ESC=0;
 /* ---------- events ---------- */
 document.addEventListener("click",ev=>{
   const t=ev.target, a=t.closest("a"), b=t.closest("button");
+  { const li=t.closest("[data-href]"); if(li&&!a&&!b){ nav(li.dataset.href); return; } }
   if(t.closest("#leave,[data-leave]")){ leave(); return; }
   if(a&&a.hasAttribute("data-back")&&STACK.length>1){ ev.preventDefault(); history.back(); return; }
   if(a&&a.hasAttribute("data-vt")&&ev.detail>0){ PENDING_VT=a.querySelector(".nm,span")||a; }
@@ -678,7 +682,7 @@ document.addEventListener("click",ev=>{
   if(d.step){ setStep(+d.step,"next",true); return; }
   if(d.save!=null){ if(!store.saving){ toast("Saving is off, so nothing is kept on this device.","Turn on saving",()=>{ setSaving(true); const on=toggleSave(d.save); toast(on?"Saved on this device":"Removed"); render(); }); return; }
     const on=toggleSave(d.save); b.setAttribute("aria-pressed",on); b.innerHTML=ic(on?"saved":"save")+(on?"Saved":"Save"); toast(on?"Saved on this device":"Removed from saved"); return; }
-  if(d.share!=null){ const e=ctx(parse()).station; if(!e) return; const url=readable(e);
+  if(d.share!=null){ const e=ctx(parse()).station; if(!e) return; const url=readable(e)+(STEP?"/"+(STEP+1):"");
     if(navigator.share){ navigator.share({title:e.n,url}).catch(()=>{}); } else copyText(url,"Link copied"); return; }
   if(d.print!=null){ window.print(); return; }
   if(d.copy){ copyText($("#"+d.copy).textContent,"Copied"); return; }
@@ -731,6 +735,7 @@ document.addEventListener("keydown",ev=>{
     else { const dir=(land?(ev.key==="ArrowDown"):(ev.key==="ArrowRight"))?1:-1, HIDK=hiddenSet(); let li=l.i+dir; while(LINES[li]&&HIDK.has(LINES[li].k)) li+=dir; const l2=LINES[li]||l; n=l2.st[Math.min(si,l2.st.length-1)]; }
     const na=$('#map a[data-i="'+n.i+'"]'); ma.tabIndex=-1; na.tabIndex=0; na.focus(); return; }
   if(inField||ev.metaKey||ev.ctrlKey||ev.altKey) return;
+  if(/^[1-4]$/.test(ev.key)&&$(".station")){ const n=+ev.key-1; setStep(n,"key"); const tb=$("#t-"+n); if(tb) tb.focus({preventScroll:true}); return; }
   if((ev.key==="j"||ev.key==="k")&&$(".station")){ const pg=$('[data-pg="'+(ev.key==="j"?"next":"prev")+'"]'); if(pg) nav(pg.getAttribute("href")); }
 });
 document.addEventListener("focusin",ev=>{ const svg=$("#map"); if(svg&&ev.target===svg){ const a=$("#map a.sel")||$("#map a"); a.tabIndex=0; a.focus(); } });

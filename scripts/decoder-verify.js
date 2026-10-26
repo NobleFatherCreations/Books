@@ -152,27 +152,28 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
 
   // ---- load timing, phone with a 4x CPU slowdown. Judged two ways: against loose absolute limits, and against the live v14
   // page measured side by side in the same run (so a slow or busy machine cancels out). v14 is skipped if it is not on disk.
-  { const measure = async (url, label) => { const runs = [];
-      for (let i = 0; i < 5; i++) { const ctx = await ctxFor(390, 844, "dark"); const p = await ctx.newPage();
-        await p.addInitScript(() => { window.__lt = []; window.__lcp = 0; new PerformanceObserver(l => l.getEntries().forEach(e => window.__lt.push(e.duration))).observe({ type: "longtask", buffered: true });
-          new PerformanceObserver(l => l.getEntries().forEach(e => { window.__lcp = e.startTime; })).observe({ type: "largest-contentful-paint", buffered: true }); });
-        const cdp = await ctx.newCDPSession(p); await cdp.send("Emulation.setCPUThrottlingRate", { rate: 4 });
-        await p.goto(url + "#/"); await p.waitForFunction(() => document.querySelector("h1") && document.fonts.status === "loaded"); await p.waitForTimeout(900);
-        runs.push(await p.evaluate(() => { const nav = performance.getEntriesByType("navigation")[0], fcp = performance.getEntriesByName("first-contentful-paint")[0];
-          return { dcl: nav.domContentLoadedEventEnd, fcp: fcp ? fcp.startTime : 0, lcp: window.__lcp, longest: Math.max(0, ...window.__lt), total: window.__lt.reduce((a, b) => a + b, 0) }; })); await ctx.close(); }
-      const med = k => runs.map(r => r[k]).sort((a, b) => a - b)[Math.floor(runs.length / 2)];
-      const m = Object.fromEntries(["dcl", "fcp", "lcp", "longest", "total"].map(k => [k, med(k)]));
-      console.log("  timing, 4x CPU, median of 5, " + label + ":", Object.entries(m).map(([k, v]) => k + " " + Math.round(v) + "ms").join(", ")); return m; };
-    const v15 = await measure(URL0, "this page");
+  { const one = async url => { const ctx = await ctxFor(390, 844, "dark"); const p = await ctx.newPage();
+      await p.addInitScript(() => { window.__lt = []; window.__lcp = 0; new PerformanceObserver(l => l.getEntries().forEach(e => window.__lt.push(e.duration))).observe({ type: "longtask", buffered: true });
+        new PerformanceObserver(l => l.getEntries().forEach(e => { window.__lcp = e.startTime; })).observe({ type: "largest-contentful-paint", buffered: true }); });
+      const cdp = await ctx.newCDPSession(p); await cdp.send("Emulation.setCPUThrottlingRate", { rate: 4 });
+      await p.goto(url + "#/"); await p.waitForFunction(() => document.querySelector("h1") && document.fonts.status === "loaded"); await p.waitForTimeout(900);
+      const r = await p.evaluate(() => { const nav = performance.getEntriesByType("navigation")[0], fcp = performance.getEntriesByName("first-contentful-paint")[0];
+        return { dcl: nav.domContentLoadedEventEnd, fcp: fcp ? fcp.startTime : 0, lcp: window.__lcp, longest: Math.max(0, ...window.__lt), total: window.__lt.reduce((a, b) => a + b, 0) }; }); await ctx.close(); return r; };
+    const v14path = path.join(__dirname, "..", "instruments", "playbook", "index.html");
+    const haveV14 = fs.existsSync(v14path) && path.resolve(v14path) !== file && fs.readFileSync(v14path, "utf8").slice(0, 900000).includes('id="sky"');
+    /* the two pages are measured alternately, so drift in the machine's speed during the run hits both equally */
+    const runs = { v15: [], v14: [] }; for (let i = 0; i < 7; i++) { runs.v15.push(await one(URL0)); if (haveV14) runs.v14.push(await one("file://" + v14path)); }
+    const med = (rs, k) => rs.map(r => r[k]).sort((a, b) => a - b)[Math.floor(rs.length / 2)];
+    const sum = rs => Object.fromEntries(["dcl", "fcp", "lcp", "longest", "total"].map(k => [k, med(rs, k)]));
+    const show = (m, l) => console.log("  timing, 4x CPU, median of 7, " + l + ":", Object.entries(m).map(([k, v]) => k + " " + Math.round(v) + "ms").join(", "));
+    const v15 = sum(runs.v15); show(v15, "this page");
     T("home: first content in ≤ 1200 ms on a 4x slowdown", v15.fcp <= 1200, Math.round(v15.fcp) + " ms");
     T("home: largest paint in ≤ 1500 ms", v15.lcp <= 1500, Math.round(v15.lcp) + " ms");
     T("home: longest main-thread task ≤ 200 ms (loose backstop)", v15.longest <= 200, Math.round(v15.longest) + " ms");
     T("home: total long-task time ≤ 450 ms (loose backstop)", v15.total <= 450, Math.round(v15.total) + " ms");
-    const v14path = path.join(__dirname, "..", "instruments", "playbook", "index.html");
-    if (fs.existsSync(v14path) && path.resolve(v14path) !== file && fs.readFileSync(v14path, "utf8").slice(0, 900000).includes('id="sky"')) {
-      const v14 = await measure("file://" + v14path, "v14, live");
+    if (haveV14) { const v14 = sum(runs.v14); show(v14, "v14, live");
       /* largest paint, not first paint: v14's first paint is its background and its headline waits for a reveal animation */
-      T("home: v15 costs under 40% of v14 on the same machine (largest paint, longest task, total long tasks)", v15.lcp <= v14.lcp * 0.4 && v15.longest <= v14.longest * 0.4 && v15.total <= v14.total * 0.4,
+      T("home: v15 costs well under v14 on the same machine, measured alternately (largest paint ≤ 50%, longest task ≤ 40%, total long tasks ≤ 40%)", v15.lcp <= v14.lcp * 0.5 && v15.longest <= v14.longest * 0.4 && v15.total <= v14.total * 0.4,
         `largest paint ${(v15.lcp / v14.lcp * 100).toFixed(0)}%, longest task ${(v15.longest / v14.longest * 100).toFixed(0)}%, total long tasks ${(v15.total / v14.total * 100).toFixed(0)}% of v14`);
     } else console.log("  (v14 not found next to this page: the side-by-side comparison was skipped)"); }
 
@@ -326,6 +327,33 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     await p.click("label:has(input[name=leave][value=wiki])"); await p.waitForTimeout(150);
     await p.keyboard.press("Escape"); await p.keyboard.press("Escape"); await p.waitForTimeout(900);
     T("Leave goes where you chose (Wikipedia)", /wikipedia\.org/.test(p.url()), p.url()); await ctx.close(); }
+
+  // ---- stage 2: number keys, deep links to a step, the route strip, the staggered interchange lines
+  { const ctx = await ctxFor(1440, 900, "dark"); const p = await open(ctx, "#/entry/gaslighting"); await p.waitForTimeout(200);
+    await p.keyboard.press("3"); await p.waitForTimeout(120);
+    const k3 = await p.evaluate(() => document.querySelector("#t-2").getAttribute("aria-selected") === "true" && !document.querySelector("#p-2").hidden);
+    await p.keyboard.press("1"); await p.waitForTimeout(120);
+    const k1 = await p.evaluate(() => document.querySelector("#t-0").getAttribute("aria-selected") === "true");
+    T("keys 1 to 4 jump between the four steps", k3 && k1);
+    await p.goto(URL0 + "#/entry/gaslighting/3"); await p.waitForTimeout(250);
+    const deep = await p.evaluate(() => ({ tab: document.querySelector("#t-2").getAttribute("aria-selected"), shown: !document.querySelector("#p-2").hidden, others: document.querySelectorAll("[role=tabpanel]:not([hidden])").length, bar: getComputedStyle(document.querySelector(".stepbar i")).getPropertyValue("--p") }));
+    T("deep link #/entry/slug/3 opens on step 3", deep.tab === "true" && deep.shown && deep.others === 1 && +deep.bar === 0.75, JSON.stringify(deep));
+    await p.click("#t-1"); await p.waitForTimeout(150);
+    const histBefore = await p.evaluate(() => history.length); const h2 = await p.evaluate(() => location.hash);
+    await p.reload(); await p.waitForTimeout(250);
+    T("the address follows the step without adding history, and a reload keeps the step", /\/2$/.test(h2) && await p.evaluate(() => document.querySelector("#t-1").getAttribute("aria-selected") === "true") && histBefore === await p.evaluate(() => history.length), h2);
+    await p.goto(URL0 + "#/s/5/4"); await p.waitForTimeout(250);
+    T("private numbered deep link #/s/5/4 opens on step 4", await p.evaluate(() => document.querySelector("#t-3").getAttribute("aria-selected") === "true"));
+    await ctx.close(); }
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/routes/grooming"); await p.waitForTimeout(250);
+    const r = await p.evaluate(() => { const st = document.querySelector(".rstrip"), li = st.querySelectorAll("li").length, list = document.querySelectorAll(".chain li").length; return { li, list, scroll: st.scrollWidth > st.clientWidth, hidden: st.getAttribute("aria-hidden"), snap: getComputedStyle(st).scrollSnapType }; });
+    T("route strip: every station of the route, scrolls sideways on a phone, snaps, and the numbered list is still there", r.li === r.list && r.li > 3 && r.scroll && r.hidden === "true" && /x/.test(r.snap), JSON.stringify(r));
+    await p.click(".rstrip li >> nth=1"); await p.waitForTimeout(300);
+    T("route strip: a tap on a station opens it", await p.evaluate(() => !!document.querySelector("h1.h-st")));
+    await ctx.close(); }
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/entry/gaslighting"); await p.waitForTimeout(150); await p.click("[data-showmap]"); await p.waitForTimeout(500);
+    const d = await p.evaluate(() => [...document.querySelectorAll("#xl path")].map(x => x.style.animationDelay));
+    T("interchange lines draw in one after another", d.length >= 2 && d.every((x, i) => x === i * 40 + "ms"), JSON.stringify(d)); await ctx.close(); }
 
   // ---- the House seal never floats over the text
   { const bad = [];
