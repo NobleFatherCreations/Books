@@ -234,6 +234,10 @@
   .breath-box h2{font-size:1.5rem;line-height:1.2}
 
   .empty{padding:var(--s4) 0;color:var(--fg-2)}
+  .restnote{font:700 .9375rem/1.4 var(--sign);color:var(--fg-2)}
+  .lrow.rest{opacity:.62}
+  .set .ch.rest label .b{margin-right:.5rem}
+  .set .ch.rest{max-width:34rem}
   .notice{background:var(--panel);padding:var(--s3);display:grid;gap:var(--s2);margin:var(--s3) 0}
   .notice h2{font-size:1.25rem;line-height:1.25}
 }
@@ -370,6 +374,7 @@
   .map .ln{stroke:var(--lc);stroke-width:6;stroke-linecap:round}
   .map .st{fill:var(--bg);stroke:var(--lc);stroke-width:3}
   .map .hit{fill:transparent;stroke:none}
+  .map g.rest,.map a.rest{opacity:.16;pointer-events:none}
   .map a:focus{outline:none}
   .map a:focus-visible .st,.map a.sel .st{stroke:var(--fg);stroke-width:4;r:9px}
   .map a.sel .st{fill:var(--fg)}

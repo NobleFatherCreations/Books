@@ -280,6 +280,53 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     const t = await p.evaluate(async () => { const t0 = performance.now(); location.hash = "#/lines/az"; await new Promise(r => { const iv = setInterval(() => { if (document.querySelector("#az-A")) { clearInterval(iv); r(); } }, 4); }); return performance.now() - t0; });
     T("A to Z (310 rows) opens in ≤ 250 ms on a 4x slowdown (content-visibility)", t <= 250, Math.round(t) + " ms"); await ctx.close(); }
 
+  // ---- stage 1: scrambled storage, importing v14's readable entries, resting a line, the Leave destination
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/settings"); await p.waitForTimeout(150);
+    await p.click("label:has(input[name=save][value=on])"); await p.waitForTimeout(150);
+    await p.click("label:has(input[name=theme][value=night])"); await p.goto(URL0 + "#/entry/gaslighting"); await p.waitForTimeout(150); await p.click("[data-save]"); await p.waitForTimeout(200);
+    const st = await p.evaluate(() => { const keys = Object.keys(localStorage), v = localStorage.getItem("ui-state") || ""; let raw = ""; try { raw = atob(v); } catch (e) {}
+      return { keys, v, plain: /gaslighting|starred|theme|fg_|private|decoder/i.test(v + raw + keys.join(" ")), looks: /^[A-Za-z0-9+/]+$/.test(v) && v.length > 10 }; });
+    T("saving on: exactly one entry, scrambled, with no readable tactic name, setting or tool name", st.keys.length === 1 && st.keys[0] === "ui-state" && st.looks && !st.plain, JSON.stringify({ keys: st.keys, plain: st.plain }));
+    await p.reload(); await p.waitForTimeout(250); await p.goto(URL0 + "#/saved"); await p.waitForTimeout(250);
+    const back = await p.evaluate(() => ({ rows: [...document.querySelectorAll(".row .nm")].map(x => x.textContent), theme: document.documentElement.getAttribute("data-theme") }));
+    T("saving on: saved tactic and theme come back after a reload", back.rows.includes("Gaslighting") && back.theme === "night", JSON.stringify(back));
+    await p.goto(URL0 + "#/settings"); await p.click("label:has(input[name=save][value=off])"); await p.waitForTimeout(200);
+    T("saving off: the entry is deleted", await p.evaluate(() => localStorage.length === 0)); await ctx.close(); }
+  { const seed = () => { localStorage.setItem("fg_starred", JSON.stringify(["Gaslighting"])); localStorage.setItem("fg_trail", JSON.stringify([{ name: "Countering", ts: 1 }])); localStorage.setItem("fg_theme", JSON.stringify("daylight")); };
+    const ctx = await ctxFor(390, 844, "dark"); await ctx.addInitScript(() => { if (!sessionStorage.getItem("seeded")) { sessionStorage.setItem("seeded", "1"); localStorage.setItem("fg_starred", JSON.stringify(["Gaslighting"])); localStorage.setItem("fg_trail", JSON.stringify([{ name: "Countering", ts: 1 }])); localStorage.setItem("fg_theme", JSON.stringify("daylight")); } });
+    const p = await open(ctx, "#/"); await p.waitForTimeout(250);
+    const seen = await p.evaluate(() => !!document.querySelector("#legacy"));
+    await p.click("#legacy [data-saving=on]"); await p.waitForTimeout(250); await p.goto(URL0 + "#/saved"); await p.waitForTimeout(200);
+    const r = await p.evaluate(() => ({ rows: [...document.querySelectorAll(".row .nm")].map(x => x.textContent), keys: Object.keys(localStorage) }));
+    T("v14's readable entries are offered for import, imported, and the readable keys are wiped", seen && r.rows.includes("Gaslighting") && r.rows.includes("Countering") && r.keys.length === 1 && r.keys[0] === "ui-state", JSON.stringify(r));
+    await ctx.close();
+    const c2 = await ctxFor(390, 844, "dark"); await c2.addInitScript(() => { if (!sessionStorage.getItem("seeded")) { sessionStorage.setItem("seeded", "1"); localStorage.setItem("fg_starred", JSON.stringify(["Gaslighting"])); } });
+    const q = await open(c2, "#/"); await q.waitForTimeout(250); await q.click("#legacy [data-forgetlegacy]"); await q.waitForTimeout(200);
+    T("v14's readable entries can be deleted outright", await q.evaluate(() => localStorage.length === 0)); await c2.close(); }
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/settings"); await p.waitForTimeout(150);
+    const pick = await p.evaluate(() => { const e = E.find(x => x.g === "society" && !/\s/.test(x.n.split(" ")[0] || "")) || E.find(x => x.g === "society"); return { n: e.n, s: e.s, first: e.n.toLowerCase() }; });
+    await p.goto(URL0 + "#/search"); await p.fill("#q", pick.n); await p.waitForTimeout(250);
+    const before = await p.evaluate(() => [...document.querySelectorAll("#results .row .nm")].map(x => x.textContent));
+    await p.goto(URL0 + "#/settings"); await p.click("label:has(input[name=rest][value=society])"); await p.waitForTimeout(200);
+    await p.goto(URL0 + "#/search"); await p.fill("#q", pick.n); await p.waitForTimeout(250);
+    const after = await p.evaluate(() => [...document.querySelectorAll("#results .row .nm")].map(x => x.textContent));
+    T("rest a line: a resting line's tactics leave search (and return when shown)", before.includes(pick.n) && !after.includes(pick.n), pick.n + " before " + before.includes(pick.n) + " after " + after.includes(pick.n));
+    await p.goto(URL0 + "#/line/society"); await p.waitForTimeout(200);
+    T("rest a line: its page says it is resting and offers to show it", await p.evaluate(() => /resting this line/i.test(document.querySelector("main").textContent) && !!document.querySelector("[data-unhide]")));
+    await p.goto(URL0 + "#/map"); await p.waitForTimeout(200);
+    T("rest a line: its stations are dim, unreachable on the map", await p.evaluate(() => { const a = [...document.querySelectorAll("#map a[data-g=society]")]; return a.length > 0 && a.every(x => x.classList.contains("rest") && x.getAttribute("aria-hidden") === "true" && x.tabIndex === -1); }));
+    await p.goto(URL0 + "#/entry/" + pick.s); await p.waitForTimeout(200);
+    T("rest a line: opening one of its entries by link still works and says so, safety note intact", await p.evaluate(() => !!document.querySelector(".restnote") && !!document.querySelector("h1.h-st")));
+    T("rest a line: nothing is written to the device while saving is off", await p.evaluate(() => localStorage.length === 0));
+    await p.goto(URL0 + "#/settings"); const left = await p.evaluate(async () => { const boxes = [...document.querySelectorAll("input[name=rest]")]; for (const b of boxes) { if (!b.checked) { b.click(); await new Promise(r => setTimeout(r, 30)); } } return boxes.filter(b => b.checked).length; });
+    T("rest a line: at least one line always stays visible", left === 9, "ticked " + left + " of 10");
+    await p.click("input[name=rest][value=society]"); await p.waitForTimeout(100);
+    await ctx.close(); }
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/settings"); await p.route("**/*wikipedia.org/**", r => r.fulfill({ status: 200, body: "wiki" }));
+    await p.click("label:has(input[name=leave][value=wiki])"); await p.waitForTimeout(150);
+    await p.keyboard.press("Escape"); await p.keyboard.press("Escape"); await p.waitForTimeout(900);
+    T("Leave goes where you chose (Wikipedia)", /wikipedia\.org/.test(p.url()), p.url()); await ctx.close(); }
+
   // ---- the House seal never floats over the text
   { const bad = [];
     for (const w of [390, 1440]) { const ctx = await ctxFor(w, 900, "dark"); const p = await open(ctx, "#/entry/gaslighting"); const pos = await p.evaluate(() => { const s = document.querySelector(".nf-seal"); return s ? getComputedStyle(s).position : "absent"; }); if (pos === "fixed") bad.push(w + "px " + pos); await ctx.close(); }

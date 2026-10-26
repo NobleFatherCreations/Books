@@ -37,7 +37,7 @@ const P = {
   share:'<path d="M12 3v13M7 8l5-5 5 5"/><path d="M5 13v7h14v-7"/>', print:'<path d="M7 9V3h10v6"/><rect x="3" y="9" width="18" height="8"/><path d="M7 14h10v7H7z"/>',
   save:'<path d="M6 3h12v18l-6-4-6 4z"/>', saved:'<path fill="currentColor" d="M6 3h12v18l-6-4-6 4z"/>',
   tri:'<path d="M12 3 2 20h20z"/><path d="M12 10v4"/><circle cx="12" cy="17" r=".6" fill="currentColor"/>',
-  cmp:'<path d="M8 3v18M16 3v18M3 8h5M16 16h5"/>', exit:'<path d="M14 4h5v16h-5"/><path d="M3 12h11M9 7l-5 5 5 5"/>', search:'<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>', map:'<circle cx="6" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M6 8v4a4 4 0 0 0 4 4h6"/><circle cx="18" cy="6" r="2"/><path d="M18 8v8"/>',
+  eyeoff:'<path d="M3 12s3.5-6 9-6 9 6 9 6-3.5 6-9 6-9-6-9-6z"/><circle cx="12" cy="12" r="2.6"/><path d="M4 4l16 16"/>', cmp:'<path d="M8 3v18M16 3v18M3 8h5M16 16h5"/>', exit:'<path d="M14 4h5v16h-5"/><path d="M3 12h11M9 7l-5 5 5 5"/>', search:'<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>', map:'<circle cx="6" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M6 8v4a4 4 0 0 0 4 4h6"/><circle cx="18" cy="6" r="2"/><path d="M18 8v8"/>',
 };
 const ic = (n,cls) => '<svg class="i'+(cls?' '+cls:'')+'" viewBox="0 0 24 24" aria-hidden="true">'+P[n]+'</svg>';
 
@@ -59,25 +59,49 @@ function full(e){
   e.F=Object.assign({}, e.f, LCACHE[e.g][e.n]||{}); return e.F;
 }
 
-/* ---------- the device store: private unless the reader turns saving on ---------- */
+/* ---------- the device store: private unless the reader turns saving on ----------
+   When saving is on, everything lives in ONE entry called "ui-state". Its value is scrambled (not encrypted) and holds only
+   numbers: saved and recent tactics are short hashes of their slugs, never words, and no setting is readable. Anyone who looks
+   can still see that this site stored something; they cannot read what. Turning saving off deletes the entry. */
 const store=(()=>{
+  const KEY="ui-state", XK=[110,102,33,154,60,81], SHORT={breath:"b",theme:"th",size:"sz",space:"sp",motion:"mo",leave:"lv"};
   let mem={}, ok=false, on=false, legacy=0;
   try{ localStorage.setItem("__t","1"); localStorage.removeItem("__t"); ok=true; }catch(e){}
-  const read=k=>{ try{ const v=localStorage.getItem("fg_"+k); return v===null?undefined:JSON.parse(v); }catch(e){ return undefined; } };
-  const wipe=()=>{ if(!ok) return; try{ for(let n=localStorage.length-1;n>=0;n--){ const k=localStorage.key(n); if(k&&k.indexOf("fg_")===0) localStorage.removeItem(k); } }catch(e){} };
-  if(ok){ try{ on=localStorage.getItem("fg_save")==="1"; }catch(e){}
-    if(!on){ const s=read("starred"), t=read("trail"); legacy=(Array.isArray(s)?s.length:0)+(Array.isArray(t)?t.length:0); } }
+  const fnv=t=>{ let h=2166136261; for(let i=0;i<t.length;i++){ h^=t.charCodeAt(i); h=Math.imul(h,16777619)>>>0; } return h.toString(36); };
+  let HM=null; const hmap=()=>HM||(HM=Object.fromEntries(E.map(e=>[fnv(e.s),e.n])));
+  const toH=n=>{ const e=BY[canon(n)]; return e?fnv(e.s):null; }, fromH=h=>hmap()[h]||null;
+  const scramble=u=>u.map((b,i)=>b^XK[i%XK.length]);
+  const enc=o=>{ let t=""; scramble(new TextEncoder().encode(JSON.stringify(o))).forEach(b=>{ t+=String.fromCharCode(b); }); return btoa(t).replace(/=+$/,""); };
+  const dec=t=>{ try{ const a=atob(t), u=new Uint8Array(a.length); for(let i=0;i<a.length;i++) u[i]=a.charCodeAt(i); return JSON.parse(new TextDecoder().decode(scramble(u))); }catch(e){ return null; } };
+  const pack=()=>{ const o={on:1};
+    if(mem.starred) o.s=mem.starred.map(toH).filter(Boolean);
+    if(mem.trail) o.t=mem.trail.map(t=>[toH(t.name),t.ts]).filter(x=>x[0]);
+    if(mem.hidden) o.h=mem.hidden.map(k=>LINE[k]?LINE[k].i:-1).filter(i=>i>=0);
+    Object.keys(SHORT).forEach(k=>{ if(k in mem) o[SHORT[k]]=mem[k]; }); return o; };
+  const unpack=o=>{ const m={};
+    if(Array.isArray(o.s)) m.starred=o.s.map(fromH).filter(Boolean);
+    if(Array.isArray(o.t)) m.trail=o.t.map(x=>({name:fromH(x[0]),ts:x[1]})).filter(x=>x.name);
+    if(Array.isArray(o.h)) m.hidden=o.h.map(i=>LINES[i]&&LINES[i].k).filter(Boolean);
+    Object.keys(SHORT).forEach(k=>{ if(SHORT[k] in o) m[k]=o[SHORT[k]]; }); return m; };
+  const persist=()=>{ if(on&&ok) try{ localStorage.setItem(KEY,enc(pack())); }catch(e){} };
+  /* v14 kept readable fg_* entries; they are only ever imported or deleted, never written */
+  const old=k=>{ try{ const v=localStorage.getItem("fg_"+k); return v===null?undefined:JSON.parse(v); }catch(e){ return undefined; } };
+  const wipeOld=()=>{ if(!ok) return; try{ for(let n=localStorage.length-1;n>=0;n--){ const k=localStorage.key(n); if(k&&k.indexOf("fg_")===0) localStorage.removeItem(k); } }catch(e){} };
+  if(ok){ try{ const t=localStorage.getItem(KEY); if(t!==null){ const o=dec(t); if(o&&o.on===1){ on=true; mem=unpack(o); } } }catch(e){}
+    if(on) wipeOld(); else { const a=old("starred"), b=old("trail"); legacy=(Array.isArray(a)?a.length:0)+(Array.isArray(b)?b.length:0); } }
   return {
     get saving(){ return on; }, get legacy(){ return legacy; },
-    get(k,d){ if(k in mem) return mem[k]; if(on){ const v=read(k); if(v!==undefined){ mem[k]=v; return v; } } return d; },
-    set(k,v){ mem[k]=v; if(on&&ok) try{ localStorage.setItem("fg_"+k,JSON.stringify(v)); }catch(e){} },
+    get(k,d){ return (k in mem)?mem[k]:d; },
+    set(k,v){ mem[k]=v; persist(); },
     setSaving(v){
-      if(v&&!on){ ["starred","trail"].forEach(k=>{ const old=read(k); if(Array.isArray(old)){ const cur=mem[k]||[]; mem[k]=k==="starred"?[...new Set(cur.concat(old))]:cur.concat(old.filter(o=>!cur.some(c=>c.name===o.name))); } });
-        on=true; legacy=0; if(ok) try{ localStorage.setItem("fg_save","1"); Object.keys(mem).forEach(k=>localStorage.setItem("fg_"+k,JSON.stringify(mem[k]))); }catch(e){} }
-      else if(!v&&on){ on=false; wipe(); }
+      if(v&&!on){ const a=old("starred"), b=old("trail");
+        if(Array.isArray(a)) mem.starred=[...new Set((mem.starred||[]).concat(a.map(canon)))].filter(n=>BY[n]);
+        if(Array.isArray(b)){ const cur=mem.trail||[]; mem.trail=cur.concat(b.filter(x=>x&&x.name&&BY[canon(x.name)]&&!cur.some(c=>c.name===canon(x.name))).map(x=>({name:canon(x.name),ts:x.ts}))); }
+        on=true; legacy=0; wipeOld(); persist(); }
+      else if(!v&&on){ on=false; if(ok) try{ localStorage.removeItem(KEY); }catch(e){} wipeOld(); mem.starred=[]; mem.trail=[]; }
     },
-    forgetLegacy(){ wipe(); legacy=0; },
-    clearLists(){ const snap={starred:mem.starred||this.get("starred",[]), trail:mem.trail||this.get("trail",[])}; this.set("starred",[]); this.set("trail",[]); return snap; },
+    forgetLegacy(){ wipeOld(); legacy=0; },
+    clearLists(){ const snap={starred:mem.starred||[], trail:mem.trail||[]}; this.set("starred",[]); this.set("trail",[]); return snap; },
     restore(snap){ this.set("starred",snap.starred); this.set("trail",snap.trail); },
     forgetAll(){ mem={}; },
   };
@@ -86,6 +110,11 @@ const canon = n => D.aliases[n]||n;
 const starred = () => store.get("starred",[]).map(canon).filter(n=>BY[n]);
 const isSaved = n => starred().includes(n);
 function toggleSave(n){ let s=starred(); s=s.includes(n)?s.filter(x=>x!==n):[n].concat(s); store.set("starred",s); return s.includes(n); }
+/* Rest a line: the reader hides whole lines they are not ready to read about. They stay out of search, matches, lists and the map
+   until shown again. Nothing here rates how intense a tactic is; the choice is entirely the reader's. At least one line stays visible. */
+const hiddenSet=()=>new Set(store.get("hidden",[]));
+function setHidden(k,on){ let h=store.get("hidden",[]); h=on?[...new Set(h.concat(k))]:h.filter(x=>x!==k); if(on&&h.length>=LINES.length) return false; store.set("hidden",h); return true; }
+const LEAVE_TO={weather:["A weather search","https://www.google.com/search?q=weather"],wiki:["Wikipedia","https://en.wikipedia.org/wiki/Main_Page"],blank:["A blank page","about:blank"]};
 function logTrail(n){ if(!store.saving) return; const t=store.get("trail",[]).filter(x=>x&&x.name!==n); t.unshift({name:n,ts:Date.now()}); store.set("trail",t.slice(0,100)); }
 
 /* ---------- addresses: names when saving, numbers when private ---------- */
@@ -148,11 +177,11 @@ function indexSlice(n){ for(let i=HAY.length,end=Math.min(E.length,i+n);i<end;i+
 function buildIndex(){ if(HAY.length<E.length) indexSlice(E.length); }
 function buildIndexIdle(){ if(HAY.length>=E.length) return; indexSlice(16); setTimeout(buildIndexIdle,24); }
 function fuzzy(n){
-  const toks=searchTokens(n).map(stem); if(!toks.length) return [];
+  const toks=searchTokens(n).map(stem); if(!toks.length) return []; const HID=hiddenSet();
   const w=n.split(" ").map(stem), grams=[];
   for(let i=0;i<w.length-1;i++){ grams.push(w[i]+" "+w[i+1]); if(i<w.length-2) grams.push(w[i]+" "+w[i+1]+" "+w[i+2]); }
   const scored=[];
-  E.forEach((e,i)=>{ const st=STEMS[i]; let hits=0,score=0;
+  E.forEach((e,i)=>{ if(HID.has(e.g)) return; const st=STEMS[i]; let hits=0,score=0;
     toks.forEach(t=>{ if(!st.all.has(t)) return; hits++; score+=st.name.has(t)?4:st.words.has(t)?3.5:st.said.has(t)?3:1; });
     if(!hits) return; grams.forEach(g=>{ if(st.wline.includes(g)) score+=8; else if(st.sline.includes(g)) score+=6; });
     scored.push({e,hits,score}); });
@@ -162,11 +191,11 @@ function fuzzy(n){
   return kept.filter(x=>x.score>=Math.max(2,top*.5)).slice(0,12).map(x=>x.e);
 }
 function search(q){
-  buildIndex(); const n=norm(String(q||"").slice(0,400));
+  buildIndex(); const n=norm(String(q||"").slice(0,400)), HID=hiddenSet();
   if(!n) return {list:[],n};
   let list=[];
   if(n.replace(/ /g,"").length>=2){
-    list=E.map((e,i)=>{ const h=HAY[i]; if(!h.all.includes(n)) return null;
+    list=E.map((e,i)=>{ const h=HAY[i]; if(HID.has(e.g)||!h.all.includes(n)) return null;
       const r=h.names.some(x=>x===n)?0:h.names.some(x=>x.startsWith(n))?1:h.names.some(x=>x.includes(n))?2:h.words.includes(n)?3:h.said.includes(n)?4:5; return {e,r}; })
       .filter(Boolean).sort((a,b)=>a.r-b.r||a.e.n.localeCompare(b.e.n)).map(x=>x.e);
     if(n.length<4&&list.length>40) list=[];
@@ -224,7 +253,8 @@ function matches(){
   GUIDE.feels.forEach(k=>(D.narrow[k]||[]).forEach((n,rank)=>{ n=canon(n); if(!BY[n]) return; tally[n]=(tally[n]||0)+10-Math.min(rank,9)/2; (why[n]=why[n]||[]).push(FEEL[k]?FEEL[k].label:k); }));
   const set=GUIDE.where&&D.feelToSetting[GUIDE.where];
   Object.keys(tally).forEach(n=>{ if(set&&(BY[n].w||[]).includes(set)) tally[n]+=3; });
-  return Object.keys(tally).sort((a,b)=>tally[b]-tally[a]||a.localeCompare(b)).slice(0,15).map(n=>({e:BY[n], why:why[n], here:!!(set&&(BY[n].w||[]).includes(set))}));
+  const HID=hiddenSet();
+  return Object.keys(tally).filter(n=>!HID.has(BY[n].g)).sort((a,b)=>tally[b]-tally[a]||a.localeCompare(b)).slice(0,15).map(n=>({e:BY[n], why:why[n], here:!!(set&&(BY[n].w||[]).includes(set))}));
 }
 function viewHelp(){
   const g=GUIDE, bar='<div class="gsteps" aria-hidden="true">'+[0,1,2].map(i=>'<i class="'+(i<=g.step?"on":"")+'"></i>').join("")+'</div>';
@@ -242,7 +272,7 @@ function viewHelp(){
   }
   const list=matches(), top=list.slice(0,3), rest=list.slice(3);
   const whyHTML=m=>'Matches <b>'+m.why.slice(0,2).map(H).join('</b>, <b>')+'</b>'+(m.here&&g.where?', and <b>'+H((WHERE[g.where]||{}).label||"")+'</b>':'');
-  const sens=list.slice(0,6).some(m=>m.e.sens);
+  const sens=list.slice(0,6).some(m=>m.e.sens)||hiddenSet().size>0;
   return '<div class="view">'+bar+stepTxt+'<h1 class="h-page" tabindex="-1">'+(list.length?'Your closest matches':'Nothing matched yet')+'</h1>'+
     '<div class="picked" aria-label="Your answers">'+(g.where?'<a href="#/help" data-gstep="0">'+H(WHERE[g.where].label)+'<span class="chg">Change</span></a>':'')+
     g.feels.map(k=>'<button type="button" data-unfeel="'+k+'" aria-label="Remove: '+esc(FEEL[k]?FEEL[k].label:k)+'">'+H(FEEL[k]?FEEL[k].label:k)+ic("close")+'</button>').join("")+
@@ -255,11 +285,12 @@ function viewHelp(){
 }
 
 /* ---------- a station ---------- */
+const visRel=(e,HID)=>crossRel(e).filter(r=>!HID.has(r.g));
 const RESP=[["soft_clarification","Ask about it gently"],["firm_boundary","Set a clear limit"],["disengagement","Step back"],["support_seeking","Get support"],["workplace_or_professional","At work, school or with services"]];
 const STEPS=[["fit","Is this it?"],["understand","Understand it"],["do","What you can do"],["deeper","Go deeper"]];
 let STEP=0;
 function stepPanels(e){
-  const f=full(e), notIt=f.this_may_not_be_it_when||[], says=f.what_it_sounds_like||[], pats=(PATS_OF[e.n]||[]).map(i=>D.recipes[i]), x=crossRel(e), same=(e.rel||[]).filter(n=>BY[n]&&BY[n].g===e.g).map(n=>BY[n]);
+  const HID=hiddenSet(), f=full(e), notIt=f.this_may_not_be_it_when||[], says=f.what_it_sounds_like||[], pats=(PATS_OF[e.n]||[]).map(i=>D.recipes[i]), x=visRel(e,HID), same=(e.rel||[]).filter(n=>BY[n]&&BY[n].g===e.g).map(n=>BY[n]);
   const scriptH={verify:"A check to run before you share or act",self:"Words to say to yourself",say:"Words you could use"}[e.kind];
   return [
     '<h2>Is this it?</h2><p class="hint">One moment proves very little. Weigh it honestly, in both directions. Tick what fits, just for yourself: nothing is counted or kept.</p>'+
@@ -296,7 +327,7 @@ function viewStation(e){
   if(!e) return notFound();
   logTrail(e.n);
   const l=LINE[e.g], f=full(e), si=l.order.indexOf(e.n), prev=l.st[si-1], next=l.st[si+1], says=f.what_it_sounds_like||[], saved=isSaved(e.n);
-  const x=crossRel(e), w=(e.w||[]).map(k=>SET[k]&&SET[k].label).filter(Boolean), pats=(PATS_OF[e.n]||[]).map(i=>D.recipes[i]);
+  const HID=hiddenSet(), xAll=crossRel(e), x=xAll.filter(r=>!HID.has(r.g)), w=(e.w||[]).map(k=>SET[k]&&SET[k].label).filter(Boolean), pats=(PATS_OF[e.n]||[]).map(i=>D.recipes[i]);
   STEP=0;
   const strip='<nav class="strip" aria-label="Position on the '+esc(lineName(l))+'">'+
       (prev?'<a href="'+stH(prev)+'" data-vt data-pg="prev">'+ic("prev")+'<span>'+H(prev.n)+'</span></a>':'<span class="nolink">Start of line</span>')+
@@ -307,6 +338,7 @@ function viewStation(e){
   return gloss('<article class="view station" data-g="'+e.g+'" aria-labelledby="st-h">'+
     '<header class="sname"><div class="sign">'+bullet(l,"lg")+'<div><h1 class="h-st" id="st-h" tabindex="-1">'+H(e.n)+'</h1>'+(e.sub?'<p class="sub">'+H(e.sub)+'</p>':'')+'</div></div>'+
       '<p class="onl">On the <a href="'+lnH(l)+'">'+esc(lineName(l))+'</a></p>'+
+      (HID.has(e.g)?'<p class="restnote">You have rested this line. <button class="linkbtn" type="button" data-unhide="'+e.g+'">Show the line</button></p>':'')+
       '</header>'+
     (e.sens?'<section class="warn" role="note" aria-labelledby="w-h"><h2 class="band" id="w-h">'+ic("tri")+'Safety first</h2><div class="body">'+prose(f.safety_note)+'<p class="small"><a href="#/safety">How to use this guide safely</a></p></div></section>':'')+
     '<section class="answer" aria-label="In short"><div class="sum">'+prose(f.plain_language_summary)+'</div>'+
@@ -321,8 +353,9 @@ function viewStation(e){
         (i<3?'<div class="stepnav"><button class="btn pri" type="button" data-step="'+(i+1)+'">Next: '+STEPS[i+1][1]+ic("arrow")+'</button></div>':'')+'</section>').join("")+'</div>'+
     '<aside class="side" aria-label="Around this station">'+
       '<button class="btn line showmap" type="button" data-showmap="'+e.i+'">'+ic("map")+'Show on the map</button>'+
-      (x.length?'<section class="xchg" id="chg"><h2 class="k" style="margin-top:0">Change here for</h2><p class="small muted" style="margin-bottom:.5rem">Look-alikes on other lines</p><div class="rows">'+
-        x.slice(0,6).map(r=>'<div class="xrow">'+rowHTML(r)+'<a class="cmp" href="'+cpH(e,r)+'" aria-label="Compare '+esc(e.n)+' with '+esc(r.n)+'">Compare</a></div>').join("")+'</div></section>':'')+
+      (x.length||xAll.length?'<section class="xchg" id="chg"><h2 class="k" style="margin-top:0">Change here for</h2><p class="small muted" style="margin-bottom:.5rem">Look-alikes on other lines</p><div class="rows">'+
+        x.slice(0,6).map(r=>'<div class="xrow">'+rowHTML(r)+'<a class="cmp" href="'+cpH(e,r)+'" aria-label="Compare '+esc(e.n)+' with '+esc(r.n)+'">Compare</a></div>').join("")+'</div>'+
+        (xAll.length>x.length?'<p class="small muted" style="margin-top:.75rem">'+(xAll.length-x.length)+(xAll.length-x.length===1?' look-alike is':' look-alikes are')+' on lines you rested. <a href="#/settings">Settings</a> shows them again.</p>':'')+'</section>':'')+
       '<section class="facts"><dl>'+(w.length?'<div><dt>Where it happens</dt><dd>'+w.map(esc).join(", ")+'</dd></div>':'')+
         (pats.length?'<div><dt>Seen in '+pats.length+(pats.length===1?' pattern':' patterns')+'</dt><dd>'+pats.slice(0,3).map(r=>'<a href="'+rtH(r)+'">'+H(r.n)+'</a>').join(", ")+'</dd></div>':'')+'</dl></section></aside>'+
     '<nav class="pn" aria-label="Along the '+esc(lineName(l))+'">'+(prev?'<a href="'+stH(prev)+'" data-vt><small>Previous station</small><b>'+H(prev.n)+'</b></a>':'<span></span>')+
@@ -359,6 +392,8 @@ function viewCompare(a,b){
 /* ---------- lines ---------- */
 function viewLine(l){
   if(!l) return notFound();
+  if(hiddenSet().has(l.k)) return '<div class="view" data-g="'+l.k+'"><div class="lhead">'+bullet(l,"lg")+'<div><h1 class="h-page" tabindex="-1" style="margin-bottom:.5rem">'+esc(l.label)+'</h1></div></div>'+
+    '<div class="notice"><h2>You are resting this line</h2><p>Its stations are out of search, matches, lists and the map, so nothing from it turns up until you are ready. Nothing is deleted. Use this safely stays open whatever you hide.</p><div class="acts"><button class="btn pri" type="button" data-unhide="'+l.k+'">Show this line</button><a class="btn line" href="#/safety">Use this safely</a></div></div></div>';
   const ix=l.st.filter(e=>crossRel(e).length).length;
   return '<div class="view" data-g="'+l.k+'"><div class="lhead">'+bullet(l,"lg")+'<div><h1 class="h-page" tabindex="-1" style="margin-bottom:.5rem">'+esc(l.label)+'</h1><p class="lede" style="margin:0">'+esc(l.blurb)+'</p></div></div>'+
     '<p class="small muted">'+esc(l.letter)+' line · '+l.order.length+' stations · '+ix+' with places to change. Stations next to each other are closely related.</p>'+
@@ -367,19 +402,21 @@ function viewLine(l){
       return '<li><a href="'+stH(e)+'" data-vt><span class="nm">'+H(e.n)+'</span>'+(e.sens?ic("tri","tri"):'')+
         (xs.length?'<span class="xb" aria-hidden="true">'+xs.slice(0,4).map(g=>bullet(LINE[g],"sm")).join("")+'</span>':'')+
         '<span class="sr-only">'+(e.sens?', safety first':'')+(xs.length?', change here for '+xs.map(g=>LINE[g].letter+' line').join(", "):'')+'</span></a></li>'; }).join("")+'</ol>'+
-    '<div class="blades" style="margin-top:2rem"><a class="blade quiet" href="#/map"><span class="pict">'+ic("map")+'</span><span class="bt"><b>See this line on the map</b></span><span class="ar">'+ic("arrow")+'</span></a></div></div>';
+    '<div class="blades" style="margin-top:2rem"><a class="blade quiet" href="#/map"><span class="pict">'+ic("map")+'</span><span class="bt"><b>See this line on the map</b></span><span class="ar">'+ic("arrow")+'</span></a>'+
+    '<button class="blade quiet" type="button" data-hide="'+l.k+'"><span class="pict">'+ic("eyeoff")+'</span><span class="bt"><b>Rest this line for now</b><small>Hide it from search, matches and the map until you show it</small></span></button></div></div>';
 }
-function lineRows(){ return '<ol class="lrows">'+LINES.map(l=>'<li><a class="lrow" href="'+lnH(l)+'">'+bullet(l)+'<span class="lt"><b>'+esc(l.label)+'</b><small>'+esc(l.blurb)+'</small></span><span class="n">'+l.order.length+'</span></a></li>').join("")+'</ol>'; }
+function lineRows(){ const HID=hiddenSet(); return '<ol class="lrows">'+LINES.map(l=>'<li><a class="lrow'+(HID.has(l.k)?' rest':'')+'" href="'+lnH(l)+'">'+bullet(l)+'<span class="lt"><b>'+esc(l.label)+'</b><small>'+(HID.has(l.k)?'Resting. Hidden from search, matches and the map. Open to show it.':esc(l.blurb))+'</small></span><span class="n">'+l.order.length+'</span></a></li>').join("")+'</ol>'; }
 function viewLines(tab){
+  const HID=hiddenSet();
   const tabs=[["","By line"],["az","A to Z"],["where","Where it happens"],["common","Most common"]];
   let body="";
-  if(tab==="az"){ const by={}; alpha().forEach(e=>{ const c=/[a-z]/i.test(e.n.charAt(0))?e.n.charAt(0).toUpperCase():"#"; (by[c]=by[c]||[]).push(e); });
+  if(tab==="az"){ const by={}; alpha().filter(e=>!HID.has(e.g)).forEach(e=>{ const c=/[a-z]/i.test(e.n.charAt(0))?e.n.charAt(0).toUpperCase():"#"; (by[c]=by[c]||[]).push(e); });
     const ks=Object.keys(by);
     body='<nav class="seg" aria-label="Jump to a letter">'+ks.map(c=>'<a href="#az-'+c+'" data-jump>'+c+'</a>').join("")+'</nav>'+
       ks.map(c=>'<h2 class="h-sec" id="az-'+c+'" style="margin:2rem 0 .5rem">'+c+'</h2>'+rows(by[c])).join(""); }
-  else if(tab==="where") body=D.settings.map(s=>{ const list=E.filter(e=>(e.w||[]).includes(s.k)).sort((a,b)=>b.pop-a.pop||a.n.localeCompare(b.n));
+  else if(tab==="where") body=D.settings.map(s=>{ const list=E.filter(e=>!HID.has(e.g)&&(e.w||[]).includes(s.k)).sort((a,b)=>b.pop-a.pop||a.n.localeCompare(b.n));
     return '<h2 class="h-sec">'+esc(s.label)+'</h2><p class="small muted" style="margin-bottom:.75rem">'+esc(s.blurb)+' '+list.length+' tactics.</p>'+fold(list,"rows-f",6,e=>rowHTML(e)).replace('class="ul rows-f"','class="rows"'); }).join("");
-  else if(tab==="common") body='<p class="lede">A starting point: the tactics that show up most often across the documented patterns.</p>'+rows(D.common.map(n=>BY[n]).filter(Boolean));
+  else if(tab==="common") body='<p class="lede">A starting point: the tactics that show up most often across the documented patterns.</p>'+rows(D.common.map(n=>BY[n]).filter(e=>e&&!HID.has(e.g)));
   else body='<p class="lede">Ten lines, one for each kind of tactic. Every tactic is a station on its line.</p>'+lineRows();
   return '<div class="view"><h1 class="h-page" tabindex="-1">All lines</h1><nav class="seg" aria-label="Ways to list">'+tabs.map(t=>'<a href="#/lines'+(t[0]?'/'+t[0]:'')+'"'+((tab||"")===t[0]?' aria-current="page"':'')+'>'+t[1]+'</a>').join("")+'</nav>'+body+'</div>';
 }
@@ -394,16 +431,16 @@ function mapGeom(land){
   return g;
 }
 function mapSVG(){
-  const land=innerWidth>=900, g=mapGeom(land), lit=new Set(MAPLIT||MAPROUTE||[]);
+  const land=innerWidth>=900, g=mapGeom(land), lit=new Set(MAPLIT||MAPROUTE||[]), HID=hiddenSet();
   let s='<svg class="map'+(land?' land':'')+(lit.size?' dim':'')+'" id="map" viewBox="0 0 '+g.w+' '+g.h+'" role="group" aria-label="Network map of all '+E.length+' stations. Use the arrow keys to move between stations and Enter to open one.">';
   LINES.forEach((l,li)=>{ const a=g.pts[l.st[0].i], b=g.pts[l.st[l.st.length-1].i];
-    s+='<g data-g="'+l.k+'"><line class="ln" x1="'+a.x+'" y1="'+a.y+'" x2="'+b.x+'" y2="'+b.y+'"/>'+
+    s+='<g data-g="'+l.k+'"'+(HID.has(l.k)?' class="rest"':'')+'><line class="ln" x1="'+a.x+'" y1="'+a.y+'" x2="'+b.x+'" y2="'+b.y+'"/>'+
       '<g class="bl" aria-hidden="true"><circle cx="'+(land?28:a.x)+'" cy="'+(land?a.y:20)+'" r="12"/><text x="'+(land?28:a.x)+'" y="'+((land?a.y:20)+4.5)+'">'+l.letter+'</text></g></g>'; });
   if(MAPROUTE){ s+='<polyline class="route" points="'+MAPROUTE.map(i=>g.pts[i].x+","+g.pts[i].y).join(" ")+'"/>'; }
   s+='<g id="xl"></g>';
   E.forEach(e=>{ const p=g.pts[e.i], ix=crossRel(e).length>0;
-    const entry=MAPSEL>=0?MAPSEL:(lit.size?[...lit][0]:LINES[0].st[0].i);
-    s+='<a href="'+stH(e)+'" data-i="'+e.i+'" data-g="'+e.g+'" tabindex="'+(e.i===entry?0:-1)+'" class="'+(lit.has(e.i)?'lit':'')+(e.i===MAPSEL?' sel':'')+'" aria-label="'+esc(e.n+", "+lineName(LINE[e.g]))+'">'+
+    const entry=MAPSEL>=0?MAPSEL:(lit.size?[...lit][0]:(LINES.find(l=>!HID.has(l.k))||LINES[0]).st[0].i), rest=HID.has(e.g);
+    s+='<a href="'+stH(e)+'" data-i="'+e.i+'" data-g="'+e.g+'" tabindex="'+(e.i===entry&&!rest?0:-1)+'"'+(rest?' aria-hidden="true"':'')+' class="'+(lit.has(e.i)?'lit':'')+(e.i===MAPSEL?' sel':'')+(rest?' rest':'')+'" aria-label="'+esc(e.n+", "+lineName(LINE[e.g]))+'">'+
       '<circle class="hit" cx="'+p.x+'" cy="'+p.y+'" r="12"/><circle class="st" cx="'+p.x+'" cy="'+p.y+'" r="6"/></a>'; });
   return s+'</svg>';
 }
@@ -492,6 +529,9 @@ function viewSettings(){
     '<fieldset><legend>Line spacing</legend>'+ch("space",PREF.space,[["normal","Standard"],["roomy","Roomier"]])+'</fieldset>'+
     '<fieldset><legend>Motion</legend>'+ch("motion",PREF.motion,[["auto","Match my phone"],["reduce","Reduce"]])+'<p class="help">Nothing moves on its own either way. Reduce also removes the short slides when you tap.</p></fieldset>'+
     '<fieldset><legend>Reading pause</legend>'+ch("breath",store.get("breath",true)?"on":"off",[["on","Suggest a pause after 20 minutes"],["off","Off"]])+'</fieldset>'+
+    '<fieldset><legend>Rest a line</legend><div class="ch rest">'+LINES.map(l=>'<label><input type="checkbox" name="rest" value="'+l.k+'"'+(hiddenSet().has(l.k)?' checked':'')+'>'+bullet(l,"sm")+esc(l.label)+'</label>').join("")+'</div>'+
+      '<p class="help">Tick the lines you are not ready to read about. They stay out of search, matches, lists and the map until you untick them. Nothing is deleted, Use this safely stays open, and some entries on a resting line can involve danger, so if you are unsure leave it visible.'+(store.saving?'':' Saving is off, so this is remembered only until you close the page.')+'</p></fieldset>'+
+    '<fieldset><legend>The Leave button goes to</legend>'+ch("leave",store.get("leave","weather"),[["weather","A weather search"],["wiki","Wikipedia"],["blank","A blank page"]])+'<p class="help">It needs a connection; without one it shows a blank page. No web page can promise to leave no trace in your browser, so a private browsing window is safer still.</p></fieldset>'+
     '</form></div>';
 }
 const PREF={theme:"auto",size:"m",space:"normal",motion:"auto"};
@@ -511,7 +551,8 @@ function fillHome(){
   if(store.legacy){ c.innerHTML=legacyNotice(); return; }
   const t=store.saving?store.get("trail",[]).map(x=>BY[canon(x.name)]).filter(Boolean):[];
   c.innerHTML=t.length?'<div class="continue"><span class="small muted">Continue where you left off:</span></div>'+rows([t[0]]):"";
-  $$("#main .lrow").forEach(a=>{ const l=LINE[a.getAttribute("href").split("/").pop()]; if(l) a.setAttribute("href",lnH(l)); });
+  const HID=hiddenSet();
+  $$("#main .lrow").forEach(a=>{ const key=a.getAttribute("href").split("/").pop(), l=LINE[key]; if(l){ a.setAttribute("href",lnH(l)); if(HID.has(l.k)){ a.classList.add("rest"); const sm=$("small",a); if(sm) sm.textContent="Resting. Hidden from search, matches and the map. Open to show it."; } } });
 }
 
 /* ---------- router ---------- */
@@ -608,8 +649,9 @@ function setSaving(v){ store.setSaving(v); if(v) Object.keys(PREF).forEach(k=>st
 /* ---------- leaving quickly ---------- */
 const H0=history.length; let LEAVING=false;
 function leave(){ if(LEAVING) return; LEAVING=true;
+  const dest=(LEAVE_TO[store.get("leave","weather")]||LEAVE_TO.weather)[1];   /* read before memory is cleared */
   try{ store.forgetAll(); SEARCH_Q=""; GUIDE={step:0,where:null,feels:[]}; document.title="Weather"; $("#sheet").close(); document.body.style.visibility="hidden"; }catch(e){}
-  const url=navigator.onLine?"https://www.google.com/search?q=weather":"about:blank", n=history.length-H0; let gone=false;
+  const url=navigator.onLine?dest:"about:blank", n=history.length-H0; let gone=false;
   const go=()=>{ if(!gone){ gone=true; location.replace(url); } };
   /* step back over every page of this visit first, so Back from the weather page does not land in the guide;
      the replace waits for that step to finish (popstate), with a timer only as a fallback. The page is hidden meanwhile. */
@@ -624,7 +666,7 @@ document.addEventListener("click",ev=>{
   if(a&&a.hasAttribute("data-vt")&&ev.detail>0){ PENDING_VT=a.querySelector(".nm,span")||a; }
   if(a&&a.dataset.i!=null&&a.closest("#map")){ ev.preventDefault(); openSheet(+a.dataset.i); return; }
   if(t.closest("#map")&&!a){ const svg=$("#map"), pt=svg.createSVGPoint(); pt.x=ev.clientX; pt.y=ev.clientY; const p=pt.matrixTransform(svg.getScreenCTM().inverse());
-    const g=mapGeom(svg.classList.contains('land')); let best=-1,bd=1e9; g.pts.forEach((q,i)=>{ const d=(q.x-p.x)**2+(q.y-p.y)**2; if(d<bd){bd=d;best=i;} });
+    const g=mapGeom(svg.classList.contains('land')); let best=-1,bd=1e9; const HIDM=hiddenSet(); g.pts.forEach((q,i)=>{ if(HIDM.has(E[i].g)) return; const d=(q.x-p.x)**2+(q.y-p.y)**2; if(d<bd){bd=d;best=i;} });
     if(best>=0&&bd<14*14) openSheet(best); return; }
   if(a&&a.hasAttribute("data-jump")){ ev.preventDefault(); const el=document.getElementById(a.getAttribute("href").slice(1)); if(el){ el.tabIndex=-1; el.scrollIntoView(); el.focus({preventScroll:true}); } return; }
   if(!b) { if(a&&a.hasAttribute("data-gstep")){ ev.preventDefault(); GUIDE.step=+a.dataset.gstep; render(); } return; }
@@ -647,6 +689,8 @@ document.addEventListener("click",ev=>{
   if(d.unfeel){ GUIDE.feels=GUIDE.feels.filter(k=>k!==d.unfeel); if(!GUIDE.feels.length) GUIDE.step=1; render(); return; }
   if(d.gmore!=null){ GUIDE.more=true; render(); return; }
   if(d.greset!=null){ GUIDE={step:0,where:null,feels:[],more:false,err:false}; render(); return; }
+  if(d.hide){ if(setHidden(d.hide,true)){ render(); toast(LINE[d.hide].label+" is resting. It is out of search, matches and the map until you show it.","Undo",()=>{ setHidden(d.hide,false); render(); }); } else toast("At least one line has to stay visible."); return; }
+  if(d.unhide){ setHidden(d.unhide,false); render(); toast(LINE[d.unhide].label+" is shown again"); return; }
   if(d.showmap!=null){ MAPSEL=+d.showmap; MAPLIT=null; nav("#/map"); return; }
   if(d.maplit!=null){ MAPLIT=matches().map(m=>m.e.i); MAPSEL=-1; nav("#/map"); return; }
   if(d.mapclear!=null){ MAPLIT=null; MAPSEL=-1; render(); return; }
@@ -669,6 +713,8 @@ document.addEventListener("change",ev=>{ const t=ev.target;
   if(t.closest("[data-settings]")){
     if(t.name==="save"){ setSaving(t.value==="on"); toast(t.value==="on"?"Saving is on for this device":"Saving is off. Everything kept on this device was deleted."); render(); return; }
     if(t.name==="breath"){ store.set("breath",t.value==="on"); return; }
+    if(t.name==="leave"){ store.set("leave",t.value); toast("The Leave button now goes to "+LEAVE_TO[t.value][0].toLowerCase()); return; }
+    if(t.name==="rest"){ if(!setHidden(t.value,t.checked)){ t.checked=false; toast("At least one line has to stay visible."); } else toast(t.checked?LINE[t.value].label+" is resting":LINE[t.value].label+" is shown again"); return; }
     PREF[t.name]=t.value; store.set(t.name,t.value); applyPrefs(); }
 });
 document.addEventListener("keydown",ev=>{
@@ -682,7 +728,7 @@ document.addEventListener("keydown",ev=>{
     const along=(land?["ArrowLeft","ArrowRight"]:["ArrowUp","ArrowDown"]).indexOf(ev.key);
     let n;
     if(along>=0){ n=l.st[Math.max(0,Math.min(l.st.length-1,si+(along?1:-1)))]; }
-    else { const dir=(land?(ev.key==="ArrowDown"):(ev.key==="ArrowRight"))?1:-1, l2=LINES[Math.max(0,Math.min(LINES.length-1,l.i+dir))]; n=l2.st[Math.min(si,l2.st.length-1)]; }
+    else { const dir=(land?(ev.key==="ArrowDown"):(ev.key==="ArrowRight"))?1:-1, HIDK=hiddenSet(); let li=l.i+dir; while(LINES[li]&&HIDK.has(LINES[li].k)) li+=dir; const l2=LINES[li]||l; n=l2.st[Math.min(si,l2.st.length-1)]; }
     const na=$('#map a[data-i="'+n.i+'"]'); ma.tabIndex=-1; na.tabIndex=0; na.focus(); return; }
   if(inField||ev.metaKey||ev.ctrlKey||ev.altKey) return;
   if((ev.key==="j"||ev.key==="k")&&$(".station")){ const pg=$('[data-pg="'+(ev.key==="j"?"next":"prev")+'"]'); if(pg) nav(pg.getAttribute("href")); }

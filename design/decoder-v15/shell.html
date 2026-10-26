@@ -9,10 +9,10 @@
 <meta name="theme-color" content="#0E1113" media="(prefers-color-scheme: dark)">
 <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
 <link rel="icon" href="{{LOGO}}">
-<script>/* Saved preferences apply before first paint, but only when the reader turned saving on. */
-(function(){var r=document.documentElement;try{if(localStorage.getItem("fg_save")!=="1")return;var g=function(k){var v=localStorage.getItem("fg_"+k);return v===null?null:JSON.parse(v)};
-var t=g("theme");if(t==="night"||t==="day")r.setAttribute("data-theme",t);var s=g("size");if(s==="l"||s==="xl")r.setAttribute("data-size",s);
-if(g("space")==="roomy")r.setAttribute("data-space","roomy");if(g("motion")==="reduce")r.setAttribute("data-motion","reduce");}catch(e){}})();</script>
+<script>/* Saved preferences apply before first paint, but only when the reader turned saving on (they live in one scrambled entry). */
+(function(){var r=document.documentElement;try{var t=localStorage.getItem("ui-state");if(!t)return;var a=atob(t),k=[110,102,33,154,60,81],u=new Uint8Array(a.length);for(var i=0;i<a.length;i++)u[i]=a.charCodeAt(i)^k[i%6];
+var o=JSON.parse(new TextDecoder().decode(u));if(!o||o.on!==1)return;if(o.th==="night"||o.th==="day")r.setAttribute("data-theme",o.th);if(o.sz==="l"||o.sz==="xl")r.setAttribute("data-size",o.sz);
+if(o.sp==="roomy")r.setAttribute("data-space","roomy");if(o.mo==="reduce")r.setAttribute("data-motion","reduce");}catch(e){}})();</script>
 <style>
 {{FONTS}}
 {{CSS}}
