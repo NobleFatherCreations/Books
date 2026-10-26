@@ -383,7 +383,7 @@
     "short_definition": "A pattern in which someone seems unable to do an unwanted task, so that it falls to another person for good.",
     "core_meaning": "A pattern in which someone seems unable to do an unwanted task, so that it falls to another person for good.",
     "expanded_definition": "A task is done badly, or a person says they just cannot do it, and soon it is given to someone else. It happens most often in households and workplaces over chores such as laundry, school forms or booking appointments. None of this shows why anyone struggles with a task, and skill gaps, disability and honest confusion are common. What stands out is a task that never gets learned and always lands with the same person.",
-    "plain_language_summary": "A chore gets done so badly, or is said to be so hard, that you take it over for good, and it never comes back to them.",
+    "plain_language_summary": "A chore gets done so badly, or is said to be so hard, that you take it over for good. It never comes back to them.",
     "why_this_matters": "The task lands permanently on one person, along with the work of noticing it, asking about it, and eventually giving up on asking. Raising it also makes them sound as if they are complaining about help they were offered.",
     "what_it_is": [
       "A task handed back to one person after a failed or half-hearted try, until it quietly becomes theirs.",
@@ -403,7 +403,7 @@
     "what_it_is_not": [
       "A real gap in skill, such as someone who never learned to cook, who is willing to be taught and does improve.",
       "Disability, ADHD, chronic illness or exhaustion, which can make some tasks truly harder, in ways that are not a choice.",
-      "A division of labor you both chose after talking it over, where the other person takes tasks of equal weight elsewhere.",
+      "A division of labor you both chose after talking it over, where the other person takes on tasks of equal weight elsewhere.",
       "A person new to a task who fumbles at first and gets better with each go.",
       "One bad attempt on a day when someone was sick or distracted."
     ],
@@ -456,14 +456,14 @@
     ],
     "repair_check": "Watch what happens with the task itself, not what is said about it. Change looks like them learning it, doing it unprompted, and taking over the remembering too. A warm apology followed by another handback the next week leaves the work where it was.",
     "boundary_respect_check": "Hand the task back with a clear date and no rescue, then see what follows. Does it get done, imperfectly but sincerely? Or does it quietly come back to you, with a reason? Your answer shows whether the new split is being kept.",
-    "psychological_mechanism": "A person who gets quick relief from an unwanted job after a poor attempt can come to expect that outcome again. Meanwhile, the one who takes the job over often does so to avoid delay or conflict, and that reinforces the split. Over time the extra work can come to seem like a trait of the person who does it, rather than a division that formed gradually.",
+    "psychological_mechanism": "A person who gets quick relief from an unwanted job after a poor attempt can come to expect that outcome again. Meanwhile, the one who takes the job over often does so to avoid delay or conflict, and that reinforces the split. After a while, the extra work can look like a trait of the person who does it, when really the split formed gradually.",
     "possible_impact_on_receiver": "People describe resentment building quietly, tiredness from managing the household or team on top of their own tasks, and guilt about feeling resentful. Some say they felt silly raising something that sounded like 'I do too much laundry'. Others describe feeling like a parent to another adult and losing the sense of being partners.",
     "response_options": {
       "soft_clarification": "Name the specific task and the gap: 'I notice the school forms always end up with me. Can we work out how you take them on?'",
       "firm_boundary": "Hand the job back with a date: 'This one is yours now, start to finish, including remembering it. I'll show you once, and then I won't redo it.'",
-      "disengagement": "Let a low-stakes task stay undone or done imperfectly rather than rescuing it, and see whether the other person takes it up.",
-      "support_seeking": "Write out all the recurring tasks, including the unseen ones, and go through the list with someone who knows both of you, to check your sense of the balance.",
-      "workplace_or_professional": "At work, ask for tasks to be assigned in writing, with an owner and a date, and rotate the unpopular jobs on a shared schedule."
+      "disengagement": "Let a low-stakes task stay undone or done imperfectly instead of rescuing it. Then see whether the other person takes it up.",
+      "support_seeking": "Write out all the recurring tasks, including the unseen ones. Go through the list with someone who knows both of you, to check your sense of the balance.",
+      "workplace_or_professional": "At work, ask for tasks to be assigned in writing, with an owner and a date. Rotate the unpopular jobs on a shared schedule."
     },
     "boundary_script": "\"I'm happy to show you how I do the school forms once. After that they're yours to track and finish, including remembering the deadlines. If it turns out to be really hard for you, tell me and we'll work out a swap of equal weight.\"",
     "safety_sensitive": false,
@@ -472,11 +472,11 @@
       "Applying this label to anyone who does a chore differently from you can punish people who are honestly learning or who have a disability. Check whether they improve and whether the load really is uneven.",
       "Using it as an accusation of laziness ends the conversation. The useful question is about the pattern in the work, not what anyone intends."
     ],
-    "how_to_distinguish_from_related": "Blame-Shifting is about responsibility for something already done wrong, while Weaponized Incompetence is about who ends up with future work. Minimization shrinks your complaint, saying it is only a chore, whereas the pattern here is the quiet handover of the chore itself. Denial refuses that anything is wrong; this one often involves cheerful agreement that they are bad at the task."
+    "how_to_distinguish_from_related": "Blame-Shifting is about responsibility for something already done wrong, while Weaponized Incompetence is about who ends up with future work. Minimization shrinks your complaint by saying it is only a chore. The pattern here is the quiet handover of the chore itself. Denial refuses that anything is wrong. This one often involves cheerful agreement that they are bad at the task."
   },
   "Strategic Apathy": {
-    "short_definition": "Declaring 'I don't care' or 'whatever you want' at decision points, then criticizing whichever choice the other person makes.",
-    "core_meaning": "Declaring 'I don't care' or 'whatever you want' at decision points, then criticizing whichever choice the other person makes.",
+    "short_definition": "Saying 'I don't care' or 'whatever you want' at decision points, then picking apart whatever the other person chooses.",
+    "core_meaning": "Saying 'I don't care' or 'whatever you want' at decision points, then picking apart whatever the other person chooses.",
     "expanded_definition": "A choice has to be made: a restaurant, a school, a vacation, a house. One person says 'you pick, I don't mind', and the other picks. Later the choice is picked apart. The first person carries no risk, while the second carries all of it. Nobody can tell from the outside why someone says they do not care, and real indifference is common. What stands out is a shrug at the moment of choosing and strong views afterward.",
     "plain_language_summary": "You are told 'I don't care, you decide', and then whatever you choose turns out to be wrong.",
     "why_this_matters": "One person makes every decision alone and then carries the criticism for whichever way it went. Over time, deciding stops feeling like having a say and starts feeling like exposure.",
@@ -484,7 +484,7 @@
       "A refusal to state any preference at the moment a decision is due, even when asked directly.",
       "Followed by disappointment, sighs or complaints once the other person has chosen.",
       "Seen with small choices, such as dinner, and with large ones, such as moving or how to raise children.",
-      "It leaves one person with all the responsibility and none of the agreement, since a choice they never shared in cannot be fully theirs."
+      "It leaves one person with all the responsibility and none of the agreement. The other person never shared in the choice, so it cannot be fully theirs."
     ],
     "what_it_sounds_like": [
       "I don't care, you decide.",
@@ -498,7 +498,7 @@
     "what_it_is_not": [
       "Honest indifference about a small thing, with no later complaint about the outcome.",
       "Depression, burnout or decision fatigue, where choosing really does feel impossible and the person says so openly.",
-      "A couple who agreed that one of them handles certain kinds of decisions, such as vacations or finances, and who trust each other's judgment.",
+      "A couple who agreed that one of them handles certain kinds of decisions, such as vacations or finances. They trust each other's judgment.",
       "Someone from a family or culture where deferring to the host or the other person is polite, and who means it.",
       "A person who truly has no strong feeling on the matter and is happy with any result."
     ],
@@ -551,14 +551,14 @@
     ],
     "repair_check": "At the next decision, change either shows or it does not. Change shows in them naming a preference up front, even a small one, and standing by the outcome afterward. Saying 'I know I leave it all to you' and then going back to 'whatever' with the next choice is not that.",
     "boundary_respect_check": "Try this: say that you'll choose once they have given one preference, and wait. Does a preference arrive? Or does the wait itself get blamed, as in 'now you're making a big deal of it'? What fills that silence shows how the request is landing.",
-    "psychological_mechanism": "Making a choice exposes a person to being wrong. When one person declines to take part, they avoid that exposure, while the other takes on all of it. If criticism follows, the decision-maker may begin to try to predict the other's hidden preferences, a task that has no stable answer and can wear down confidence in their own judgment.",
-    "possible_impact_on_receiver": "People describe dreading ordinary choices, feeling alone in a partnership, and second-guessing themselves long after a decision is made. Some say they started to avoid deciding altogether, or to make safe, dull choices. Others describe feeling like a manager of someone else's life, tired of carrying the blame as well as the work.",
+    "psychological_mechanism": "Making a choice exposes a person to being wrong. When one person declines to take part, they avoid that exposure, while the other takes on all of it. If criticism follows, the decision-maker may start trying to predict the other's hidden preferences. That task has no stable answer and can wear down confidence in their own judgment.",
+    "possible_impact_on_receiver": "People describe dreading ordinary choices, feeling alone in a partnership, and second-guessing themselves long after a decision is made. Some say they started to avoid deciding altogether, or to make safe, dull choices. Others say they ended up managing someone else's life, tired of carrying the blame as well as the work.",
     "response_options": {
-      "soft_clarification": "Ask for one small input: 'I'd really like to hear one thing you'd want here, even if it's minor.' The reply shows if a preference exists.",
-      "firm_boundary": "Share the outcome as well as the decision: 'If you leave this to me, then it's my choice and I won't hear it picked apart afterward.'",
+      "soft_clarification": "Ask for one small input: 'I'd really like to hear one thing you'd want here, even if it's minor.' The reply will show whether a preference exists.",
+      "firm_boundary": "Say who owns the outcome as well as the decision: 'If you leave this to me, then it's my choice and I won't hear it picked apart afterward.'",
       "disengagement": "On low-stakes choices, pick quickly without seeking approval and move on. Save your energy for the ones that really need two voices.",
       "support_seeking": "Ask a friend how they handle shared decisions, to find out what a balanced split looks like, then compare it with your own.",
-      "workplace_or_professional": "If a manager says 'your call' and later objects, ask for the decision criteria in writing before you act, and send a one-line note confirming what you chose."
+      "workplace_or_professional": "If a manager says 'your call' and later objects, ask for the decision criteria in writing before you act. Then send a one-line note confirming what you chose."
     },
     "boundary_script": "\"If you tell me to decide, I'll decide, and then it's decided. I'd like one thing from you before I do. What matters most to you about this? If you really have no preference, I'll go ahead without hearing about it afterward.\"",
     "safety_sensitive": false,
@@ -567,6 +567,6 @@
       "Reading every 'I don't mind' as a trap can make you miss someone who truly is easygoing. Look for the later criticism, not the shrug.",
       "Pushing a tired or depressed person to state preferences can add to their burden. Ask first whether they are struggling."
     ],
-    "how_to_distinguish_from_related": "Blame-Shifting moves fault for something that went wrong onto you after the fact, while Strategic Apathy sets up the position beforehand by leaving you as the only decider. Minimization says your concern is small; here the person says their own opinion is. Denial refuses to admit a problem, and this one does not even stake out a position that could be denied."
+    "how_to_distinguish_from_related": "Blame-Shifting moves fault for something that went wrong onto you after the fact, while Strategic Apathy sets up the position beforehand by leaving you as the only decider. Minimization says your concern is small. Here the person says their own opinion is small. Denial refuses to admit a problem, and this one does not even stake out a position that could be denied."
   }
 }

@@ -1,10 +1,10 @@
 {
   "Push-Pull": {
-    "short_definition": "Swinging between closeness and distance in repeating cycles, so the other person keeps working to get back to the warm stretch.",
-    "core_meaning": "Swinging between closeness and distance in repeating cycles, so the other person keeps working to get back to the warm stretch.",
-    "expanded_definition": "Push-pull is a rhythm in a close relationship: a run of attention, plans and affection, then a sudden cooling with no clear reason, then a return to warmth. One cold week means little, since everyone has them. What marks it is a swing that repeats, a cold phase that tends to start right after you got close or asked for something, and a warm phase that comes back mainly when you pull away or work harder.",
-    "plain_language_summary": "Someone is very close, then suddenly distant, then close again, and you end up spending your energy trying to get back to the good part.",
-    "why_this_matters": "You start organizing your attention around a temperature you cannot predict, and you tend to read every cold spell as something you must have caused. That can crowd out your own plans, friendships and sleep.",
+    "short_definition": "A repeating cycle of warmth and distance that leaves the other person working to get back to the warm stretch.",
+    "core_meaning": "A repeating cycle of warmth and distance that leaves the other person working to get back to the warm stretch.",
+    "expanded_definition": "Push-pull is a rhythm in a close relationship: a run of attention, plans and affection, then a sudden cooling with no clear reason, then a return to warmth. One cold week means little, since everyone has them. What marks it is a swing that repeats. The cold phase often starts right after you got close or asked for something. The warm phase comes back mainly when you pull away or work harder.",
+    "plain_language_summary": "Someone is very close, then suddenly distant, then close again. You end up spending your energy trying to get back to the good part.",
+    "why_this_matters": "You start arranging your attention around a temperature you cannot predict. You often read every cold spell as something you must have caused. That can crowd out your own plans, friendships and sleep.",
     "what_it_is": [
       "A repeating swing between a warm phase (daily contact, future talk, tenderness) and a cool phase (short replies, vague plans, slow answers).",
       "Cool phases that arrive without a stated reason, so you are left guessing what you did.",
@@ -20,10 +20,10 @@
       "\"Don't read into it. I'm just like this sometimes.\""
     ],
     "what_it_is_not": [
-      "A person who goes quiet under real pressure, such as a death in the family, an illness, or a work crunch, and tells you so.",
-      "An introvert who needs regular solitary time and says so plainly, with a predictable rhythm you can plan around.",
+      "A person who goes quiet under real pressure and tells you so. Examples are a death in the family, an illness, or a work crunch.",
+      "An introvert who needs regular time alone, says so plainly, and keeps a predictable rhythm you can plan around.",
       "Two people early in dating who are still working out how much contact suits each of them.",
-      "Ambivalence that is stated openly: 'I'm unsure about this' is hard to hear but is an honest message, not a cycle.",
+      "Ambivalence that is stated openly. 'I'm unsure about this' is hard to hear but is an honest message, not a cycle.",
       "A relationship with a real distance difference, such as shift work or time zones, where the gaps follow the schedule."
     ],
     "this_may_be_it_when": [
@@ -41,14 +41,14 @@
       "You are the one who tends to go cold, and they are simply responding to that."
     ],
     "innocent_or_ordinary_possibilities": [
-      "Someone managing depression, anxiety or burnout can swing in how much contact they can manage, without being aware of the effect on you.",
-      "A person afraid of commitment may approach and retreat out of their own fear, which is painful for you even though it is not about controlling you.",
-      "Life events such as a new job, a child, or a sick parent legitimately change availability from week to week."
+      "Someone dealing with depression, anxiety or burnout may be able to handle more contact on some days than others. They may not be aware of the effect on you.",
+      "A person afraid of commitment may approach and retreat out of their own fear. That is painful for you even though it is not about controlling you.",
+      "Life events like a new job, a child or a sick parent can honestly change how available someone is from week to week."
     ],
     "common_false_positives": [
       "Early dating where one of you is slower to commit and the contact is uneven for a few weeks.",
       "A long-distance relationship in which busy periods at work thin out the calls.",
-      "A friend who disappears for months at a time because that is how they treat everyone, not only you."
+      "A friend who disappears for months at a time because they do that with everyone, you included."
     ],
     "discernment_questions": [
       "Can you predict when the cool phase will start, and does it follow closeness or following a request from you?",
@@ -73,23 +73,23 @@
       "Friends comment that you check your phone constantly or seem anxious in a way you did not before.",
       "The warm stretches are shorter than they used to be, yet they still feel worth waiting for."
     ],
-    "repair_check": "Change here looks like steadier contact over months, plus a straight answer whenever they do need space: when they will be back in touch and why. A passionate reunion that resets everything, with the silence still unmentioned, only restarts the loop.",
-    "boundary_respect_check": "A week on from asking for steadier contact, what does the calendar show? Contact that really steadies is a good sign. Warmth that lasts only while you keep quiet, with the cool phase creeping back as you ease off, is an answer to your request too.",
-    "psychological_mechanism": "Closeness that comes and goes can make people watch for signs of the next change. When warmth returns after a gap, the relief can feel stronger than steady kindness would, which may tie a person more tightly to the one who gave it. Uncertainty tends to keep attention fixed on the relationship, and people often fill the unexplained gaps with self-blame.",
-    "possible_impact_on_receiver": "People describe constant low-level alertness around their phone, rehearsing messages, and putting friends and hobbies aside in case the warm phase arrives. Some say they began to feel they were too much when closeness was offered and not enough when it was taken away. Many describe confusion about whether the good moments or the bad ones were the real relationship.",
+    "repair_check": "Change here looks like steadier contact over months. It also looks like a straight answer whenever they do need space, including when they will be back in touch and why. A passionate reunion that resets everything, with the silence still unmentioned, only restarts the loop.",
+    "boundary_respect_check": "A week after you ask for steadier contact, what does the calendar show? Contact that really steadies is a good sign. Warmth that lasts only while you keep quiet, with the cool phase creeping back when you ease off, is also an answer to your request.",
+    "psychological_mechanism": "Closeness that comes and goes keeps people watching for signs of the next change. When warmth returns after a gap, the relief can feel stronger than steady kindness would, which may tie a person more tightly to the one who gave it. Uncertainty often keeps attention fixed on the relationship, and many people fill the unexplained gaps with self-blame.",
+    "possible_impact_on_receiver": "People describe staying on low-level alert around their phone, rehearsing messages, and putting friends and hobbies aside in case the warm phase arrives. Some say they began to feel they were too much when closeness was offered and not enough when it was taken away. Many are confused about whether the good moments or the bad ones were the real relationship.",
     "response_options": {
       "soft_clarification": "Describe what you notice without guessing at reasons: 'Some weeks we talk every day and some weeks I hear nothing. Can you tell me what's going on at your end?'",
       "firm_boundary": "Say what you will and will not do: 'I'm not available to wait through silences. If you need space, tell me how long, or I'll take it as an answer.'",
       "disengagement": "Stop replying within minutes during cool phases, return to your own plans, and notice how you feel when no one is setting the pace.",
       "support_seeking": "Show a friend the last two months of messages and ask what shape they see. Outsiders often spot the rhythm quicker than the person inside it.",
-      "workplace_or_professional": "If this is a colleague or supervisor who is friendly one week and cold the next, keep a dated note of what was said and ask in writing for clear expectations on your projects."
+      "workplace_or_professional": "If this is a colleague or supervisor who is friendly one week and cold the next, keep a dated note of what was said. Ask in writing for clear expectations on your projects."
     },
     "boundary_script": "\"I like you, and I can't do the hot-and-cold. Talking every few days at an ordinary pace works for me, and so does a heads-up when you need a break. If that doesn't suit you, I'll step back.\"",
     "safety_sensitive": false,
-    "safety_note": "Alone, this rhythm is a source of distress, not physical danger. It becomes more serious if cold phases turn into threats. The same goes if you are told you will be abandoned for ordinary things such as seeing family, or if money or housing depends on their mood. Then tell one trusted person what is happening and speak to a counselor about making a plan that does not rely on their moods.",
+    "safety_note": "Alone, this rhythm is a source of distress, not physical danger. It becomes more serious if cold phases turn into threats. The same goes if you are told you will be abandoned for ordinary things such as seeing family, or if money or housing depends on their mood. Then tell one trusted person what is happening. Speak to a counselor about making a plan that does not rely on their moods.",
     "misuse_warning": [
-      "Pinning the label on someone who is slow to text or who has real ambivalence can turn an honest 'I'm unsure' into a charge of manipulation.",
-      "Naming it in the middle of an argument as proof of a hidden game tends to shut down the very conversation that would clarify things."
+      "If you pin the label on someone who is slow to text or who is truly unsure, an honest 'I'm unsure' can become a charge of manipulation.",
+      "Naming it in the middle of an argument, as proof of a hidden game, often shuts down the very conversation that would clarify things."
     ],
     "how_to_distinguish_from_related": "Compared with Love Bombing, which front-loads affection and need never cool, this has real distance in it. Hoovering comes after a split or a long gap, when someone reappears with promises. Breadcrumbing is thin, steady scraps with no warm phase at all. Push-pull has both: real stretches of closeness, then real distance, again and again."
   },

@@ -2,13 +2,13 @@
   "Malicious Compliance": {
     "short_definition": "Doing exactly what was asked, to the letter, in a way that predictably defeats the point of the request.",
     "core_meaning": "Doing exactly what was asked, to the letter, in a way that predictably defeats the point of the request.",
-    "expanded_definition": "Malicious compliance is carrying out an instruction so literally that the result fails the purpose behind it, while the person can still say they did as told. It tends to show up in workplaces and households after a disagreement, an unwelcome order or a criticism. The same outcome can come from an honest literal reading, a badly worded request or a rule that really does produce a bad result, so one case says little about why it happened. A pattern is the literal reading being chosen again and again, soon after friction.",
+    "expanded_definition": "Malicious compliance is carrying out an instruction so literally that the result misses the purpose behind it. The person can still say they did as told. It often shows up in workplaces and households after a disagreement, an unwelcome order or a criticism. The same outcome can come from an honest literal reading, a badly worded request or a rule that really does produce a bad result, so one case says little about why it happened. A pattern is the literal reading being chosen again and again, soon after friction.",
     "plain_language_summary": "You asked for something, you got exactly those words and nothing more, and the result is useless. It is hard to complain because the instruction was followed.",
-    "why_this_matters": "The person on the receiving end absorbs the failure with no clear grievance to name. The instruction was followed, so pointing at anything risks sounding unreasonable, and they are left wondering whether they asked badly.",
+    "why_this_matters": "The person on the receiving end absorbs the failure with no clear grievance to name. The instruction was followed, so pointing at anything risks sounding unreasonable. They are left wondering whether they asked badly.",
     "what_it_is": [
       "Meeting the exact wording of a request while its obvious purpose goes unmet.",
       "Often appears after an order the person disagreed with, a rebuke, or a change they were not consulted on.",
-      "Can involve rules as well as requests, such as applying every written procedure to the letter when everyone knows a shortcut would have worked.",
+      "Can involve rules as well as requests. An example is following every written procedure to the letter when everyone knows a shortcut would have worked.",
       "Leaves the asker holding a result that is correct on paper and wrong in practice.",
       "Hard to dispute, because the person can point to the instruction exactly as it was given."
     ],
@@ -30,7 +30,7 @@
       "Weak results from someone who lacked the context or skill and tried their best."
     ],
     "this_may_be_it_when": [
-      "The literal reading is one almost nobody would choose, from a person who usually understands unspoken context well.",
+      "The literal reading is one almost nobody would choose, and it comes from a person who usually understands unspoken context well.",
       "It begins soon after a disagreement, a criticism, or an order they objected to.",
       "When the result fails, the person seems pleased or flatly satisfied rather than puzzled.",
       "After you explain the purpose plainly, the next result is still literal in the same way, or in a new way.",
@@ -67,7 +67,7 @@
       "It happened once, in a rushed week, off a rushed instruction."
     ],
     "more_concerning_if": [
-      "The person reads instructions loosely and sensibly when it suits them, and rigidly only on tasks they objected to.",
+      "The person reads instructions loosely and sensibly when it suits them. They read them rigidly only on tasks they objected to.",
       "The failures land at the moments where they cost the most, such as the hour before a deadline.",
       "Asking for clarification gets 'you said what you said', and the next request goes the same way."
     ],
@@ -77,20 +77,20 @@
       "Routine requests begin to need follow-up checks that they never needed before.",
       "You build up a set of 'I did what you asked' exchanges that are hard to describe to anyone else."
     ],
-    "repair_check": "Once you have explained a task's purpose, the next one comes back sensibly done, together with a plain acknowledgment of what went wrong the last time. Quick agreement to every instruction, followed by the same exact-words result, means the pattern is still running.",
+    "repair_check": "After you explain a task's purpose, the next one comes back sensibly done. The person also plainly admits what went wrong last time. Quick agreement to every instruction, followed by the same exact-words result, means the pattern is still running.",
     "boundary_respect_check": "Ask yourself what changes after you say you want the purpose honored as well as the wording. Do tasks begin arriving fit for use, or does the answer become 'then say so next time'?",
     "psychological_mechanism": "An instruction can be treated as a contract, and meeting its words gives a person cover. Disagreement can then be expressed through the outcome instead of through a conversation. This can happen when someone feels unable to refuse openly, felt unheard when they objected, or was blamed for earlier judgment calls. The asker then sees only a failed task, not the disagreement beneath it.",
-    "possible_impact_on_receiver": "People describe becoming stiff and over-specific in how they ask, wondering whether they phrased something badly, and carrying the cost of the failed work themselves. Some start to dread delegating or hold back from making requests. Others describe feeling oddly unable to complain, since the instruction was carried out.",
+    "possible_impact_on_receiver": "People describe becoming stiff and over-specific in how they ask. They wonder whether they phrased something badly, and they carry the cost of the failed work themselves. Some start to dread delegating or hold back from making requests. Others describe feeling oddly unable to complain, since the instruction was carried out.",
     "response_options": {
-      "soft_clarification": "Name the purpose, not only the task: 'What I need is a handout people can use tonight. Will this do that?' Then see whether the next version fits.",
+      "soft_clarification": "Name the purpose as well as the task: 'What I need is a handout people can use tonight. Will this do that?' Then see whether the next version fits.",
       "firm_boundary": "State the standard you expect: 'I need the work to meet the goal, not just the wording. If a step won't get us there, tell me before you do it.'",
       "disengagement": "Stop writing longer and longer instructions to close each loophole. Give the goal, check the result once, and move the task elsewhere if it keeps failing.",
-      "support_seeking": "Describe two or three of the instructions and results to a colleague or friend who knows both of you, and ask whether they would have read your request the way you meant it.",
+      "support_seeking": "Describe two or three of the instructions and results to a colleague or friend who knows both of you. Ask whether they would have read your request the way you meant it.",
       "workplace_or_professional": "Put the goal and deadline in writing and invite questions up front. If it recurs, take dated examples of outcomes to your manager, and leave guesses about motive out of it."
     },
     "boundary_script": "\"When I ask for something, I need it to do the job, not just match my words. If my wording is unclear, ask me before you start. If you disagree with the request, tell me, and we can sort it out.\"",
     "safety_sensitive": false,
-    "safety_note": "Sloppy work done to spite you is friction over work or chores, not a danger signal. That changes if the failures involve a skipped safety step, a missed medication, or work that puts your job at risk without being traceable to you. Then record dates and outcomes, and report the safety step to a supervisor, safety officer or union rep.",
+    "safety_note": "Sloppy work done to spite you is friction over work or chores, not a danger signal. That changes if the failures involve a skipped safety step or a missed medication. It also changes if work that puts your job at risk cannot be traced to you. Then record dates and outcomes, and report the safety step to a supervisor, safety officer or union rep.",
     "misuse_warning": [
       "Calling a literal reading 'malicious' assumes a motive you cannot see. Someone who takes words at face value, or who was burned for guessing, can be accused of sabotage when they are being careful.",
       "The label can excuse a vague request. If you never said what you wanted, the problem may sit in the instruction."
@@ -100,12 +100,12 @@
   "Moral Licensing": {
     "short_definition": "Pointing to a good character or past good deeds as a reason the present complaint does not need an answer.",
     "core_meaning": "Pointing to a good character or past good deeds as a reason the present complaint does not need an answer.",
-    "expanded_definition": "As used here, moral licensing is offering someone's good reputation or earlier kindness in place of an answer to what is being raised now. Psychologists also use the term for a tendency to feel freer to act badly after doing something good, which can happen quietly with no conversation at all. In an exchange it shows when a complaint about Tuesday is met with a list of what was done for years. One mention of a record is ordinary context. The pattern is the record regularly taking the place of the answer.",
-    "plain_language_summary": "Instead of talking about what you raised, the other person reminds you how good they are or what they have done for you, and your complaint is left sitting there.",
-    "why_this_matters": "A specific, current complaint goes unanswered because the conversation turns into a ruling on someone's overall goodness. The person who raised it never asked that question and cannot win it, and the original problem stays exactly where it was.",
+    "expanded_definition": "As used here, moral licensing is offering someone's good reputation or earlier kindness in place of an answer to what is being raised now. Psychologists also use the term for a tendency to feel freer to act badly after doing something good. That can happen quietly, with no conversation at all. In an exchange it shows when a complaint about Tuesday is met with a list of what was done for years. One mention of a record is ordinary context. The pattern is the record regularly taking the place of the answer.",
+    "plain_language_summary": "Instead of talking about what you raised, the other person reminds you how good they are or what they have done for you. Your complaint is left sitting there.",
+    "why_this_matters": "A specific, current complaint goes unanswered because the conversation turns into a ruling on someone's overall goodness. The person who raised it never asked that question and cannot win it. The original problem stays exactly where it was.",
     "what_it_is": [
       "A swap: a record of past good conduct is placed where an answer to the current complaint should be.",
-      "Draws on many kinds of credit, such as years of service, donations, a clean record, belonging to a respected group, or favors done for you.",
+      "Can draw on many kinds of credit. Examples are years of service, donations, a clean record, belonging to a respected group, or favors done for you.",
       "Can come from others who vouch for the person, as in 'he would never do that'.",
       "Sets up a false choice, where agreeing the complaint is fair seems to mean calling the person bad.",
       "Different from the research finding, which describes a private shift in behavior rather than something said aloud."
@@ -143,11 +143,11 @@
     ],
     "innocent_or_ordinary_possibilities": [
       "Hurt at being misjudged can make anyone reach for their best moments.",
-      "People sometimes cite their history because they sincerely believe it shows this was a mistake and not typical.",
+      "People sometimes cite their history because they sincerely believe it shows this was a mistake that is not typical of them.",
       "In some workplaces and cultures, reputation and standing are the normal way to discuss someone's conduct."
     ],
     "common_false_positives": [
-      "A character reference in a formal setting, such as a hearing or a reference check, where track record is the question.",
+      "A character reference in a formal setting, such as a hearing or a reference check, where the question is their track record.",
       "A friend you complained about who says 'I'd hate to think I've let you down after all this time', and then asks what happened.",
       "Someone speaking warmly about a person accused in public, who has nothing to dodge themselves."
     ],
@@ -175,24 +175,24 @@
       "Others in the group start to treat the person as beyond question."
     ],
     "repair_check": "Their own words name the specific event back to you before any mention of their record. If history comes in afterwards as context and the event still gets addressed, the exchange has moved. A longer list of credentials on the second try has not changed anything.",
-    "boundary_respect_check": "Notice whether saying 'I'm asking about Tuesday, not about your whole character' changes their next reply. Watch for a move from the list to the event, or for the list getting longer along with a hint that you are being unfair to ask.",
-    "psychological_mechanism": "A person's good standing can work as a shortcut for deciding what is likely: someone kind seems unlikely to have done harm. Listeners may discount a complaint, and the person making it, before checking the facts. The speaker can also be reassured by their own record, which may make an uncomfortable complaint feel like an error rather than information.",
+    "boundary_respect_check": "Notice whether saying 'I'm asking about Tuesday, not about your whole character' changes their next reply. Watch for a move from the list to the event. Also watch for the list getting longer, along with a hint that you are being unfair to ask.",
+    "psychological_mechanism": "A person's good standing can work as a shortcut for deciding what is likely: someone kind seems unlikely to have done harm. Listeners may discount a complaint, and the person making it, before checking the facts. The speaker can also be reassured by their own record, which may lead them to treat an uncomfortable complaint as an error instead of information.",
     "possible_impact_on_receiver": "Accounts of this often include guilt for raising something real, and extra caution about raising it again. Some doubt whether they have the right to complain, given what the person has done for them. Others are left with a small, specific problem that was never discussed and a large, vague sense of having been ungrateful.",
     "response_options": {
       "soft_clarification": "Acknowledge the record and return to the point: 'I know you've done a lot, and that's not what I'm asking about. I'm asking about what happened on Tuesday.'",
       "firm_boundary": "Refuse to let the complaint become a vote on their character: 'I'm not asking you to be a bad person. I'm asking you to answer this one thing.'",
       "disengagement": "If the list of achievements begins, stop competing with it. Say you will leave it there for now, then return later in writing with the one specific request.",
-      "support_seeking": "Ask someone who knows you both whether they can hold two things at once: that this person has done real good, and that this event still needs an answer.",
-      "workplace_or_professional": "Describe the event and its effect factually, leave their reputation out of it, and ask for the specific action you need, so a good name has nothing to answer."
+      "support_seeking": "Ask someone who knows you both whether they can hold two things at once. This person has done real good, and this event still needs an answer.",
+      "workplace_or_professional": "Describe the event and its effect factually. Leave their reputation out of it, and ask for the specific action you need, so a good name has nothing to answer."
     },
     "boundary_script": "\"I believe you've done a lot of good, and I'm not asking you to prove it. I'm asking about one thing that happened. Can we talk about that first, and then talk about everything else if you like?\"",
     "safety_sensitive": false,
-    "safety_note": "Not a danger signal alone. It deserves more care where good standing is itself the source of power: a respected leader, clergy member, coach or senior colleague whose reputation makes complaints unlikely to be believed. There, keep dated notes. Take the complaint to an outside body, such as an ombudsperson (an independent complaints officer), regulator or independent reporting line, not to the person's own circle.",
+    "safety_note": "On its own this is not a danger signal. It deserves more care where good standing is itself the source of power. Examples are a respected leader, clergy member, coach or senior colleague whose reputation makes complaints unlikely to be believed. In those cases, keep dated notes. Take the complaint to an outside body, such as an ombudsperson (an independent complaints officer), regulator or independent reporting line, not to the person's own circle.",
     "misuse_warning": [
       "Not every mention of a good record is an evasion. Using the label on someone sincerely hurt by an accusation can shut them out of a fair hearing.",
       "Someone's real history can be relevant evidence. Waving it away as 'licensing' discards context that may matter."
     ],
-    "how_to_distinguish_from_related": "A flat Denial says the thing did not occur; licensing can concede there is a complaint and answer it with reputation. Blame-Shifting hands the fault to you, while licensing leaves fault unmentioned and puts the speaker's goodness on the table, which can leave you feeling in debt. Minimization makes the harm small, whereas licensing swaps in a different question: are they a good person?"
+    "how_to_distinguish_from_related": "A flat Denial says the thing did not occur. Licensing can concede there is a complaint and answer it with reputation. Blame-Shifting hands the fault to you, while licensing leaves fault unmentioned and puts the speaker's goodness on the table, which can leave you feeling in debt. Minimization makes the harm small, whereas licensing swaps in a different question: are they a good person?"
   },
   "Sealioning": {
     "short_definition": "Pressing someone, again and again and in a polite tone, to produce evidence or explanation, in a way that wears them out without moving toward understanding.",

@@ -1860,8 +1860,8 @@
    "name": "False Conclusion from Normal Labs",
    "tag": "detected",
    "cat": "Institutional & Process",
-   "what": "Treating a normal test result as proof that ongoing symptoms are not real, when the test could not have detected the cause of what the person describes.",
-   "why": "When symptoms are dismissed on the strength of one result, diagnosis can be delayed and you can be left in pain or exhaustion with nothing to try next. You may also begin to wonder whether what you feel is real.",
+   "what": "This is when a normal test result is taken as proof that ongoing symptoms are not real. The test could not have found the cause of what the person describes.",
+   "why": "When symptoms are dismissed because of one result, diagnosis can be delayed. You can be left in pain or exhaustion with nothing to try next. You may also begin to wonder whether what you feel is real.",
    "healthy": "\"Your labs are normal, and I still believe something is wrong — let's look further.\"",
    "sounds": [
     "Your labs came back completely normal.",
@@ -1873,7 +1873,7 @@
     "If something were really wrong, it would show up by now."
    ],
    "nots": [
-    "A normal result honestly explained as excluding a specific serious condition, followed by a plan for the symptoms that remain.",
+    "A normal result that is honestly explained as ruling out one specific serious condition, followed by a plan for the symptoms that remain.",
     "A provider saying 'we have not found the cause yet' and booking a follow-up.",
     "Symptoms that settle over time, as the earlier normal results had suggested.",
     "A clear statement of what the test cannot show, with an offer of other tests or monitoring.",
@@ -1885,8 +1885,8 @@
    "name": "Medical Gaslighting",
    "tag": "detected",
    "cat": "Institutional & Process",
-   "what": "Dismissing, minimizing or reattributing a patient's symptoms or pain in a medical setting until the patient is left doubting what their own body is telling them.",
-   "why": "Dismissal delays diagnosis and treatment, and it teaches people, especially those from groups that medicine has often disbelieved, to distrust their own symptoms and to avoid seeking help the next time something is wrong.",
+   "what": "In a medical setting, a patient's symptoms or pain are dismissed, minimized or put down to something else, until the patient starts doubting what their own body is saying.",
+   "why": "Dismissal delays diagnosis and treatment. It also teaches people to distrust their own symptoms, especially people from groups that medicine has often disbelieved. They may avoid seeking help the next time something is wrong.",
    "healthy": "\"I don't have an answer yet, but I believe something is happening and we'll keep looking.\"",
    "sounds": [
     "It's probably just anxiety.",
@@ -1902,7 +1902,7 @@
     "A clinician who thinks anxiety or stress is the most likely cause, says why, and agrees to look further if symptoms continue.",
     "A diagnostic work-up that is still in progress and has not yet produced an answer.",
     "A wrong diagnosis made in good faith and corrected when new information appears.",
-    "A decision not to order a test because guidelines do not support it for this symptom, explained to you plainly.",
+    "A decision not to order a test because guidelines do not support it for this symptom, with the reason explained to you plainly.",
     "A brisk appointment in an overloaded clinic where the pace, not disbelief, limited what could be done.",
     "An accurate assessment that the symptom is minor, with a plan to review it if it changes."
    ],
@@ -1913,7 +1913,7 @@
    "tag": "detected",
    "cat": "Pressure & Coercion",
    "what": "Using pressure, guilt, obligation or implied consequences to push someone into sexual activity without their free consent.",
-   "why": "Saying yes under pressure is not the same as wanting to, and living with the difference can leave real marks: shame, numbness, loss of trust in your own signals. You are not to blame for what pressure made you do. Naming it can help restore your sense of your own limits.",
+   "why": "Saying yes under pressure is not the same as wanting to. Living with that difference can leave real marks, like shame, numbness, or less trust in your own signals. You are not to blame for what pressure made you do. Naming it can help restore your sense of your own limits.",
    "healthy": "A healthy dynamic treats \"no\" as a complete sentence, every time, with zero relational cost.",
    "sounds": [
     "You owe me this after everything I've done for you.",
@@ -1925,11 +1925,11 @@
     "You said you wanted to keep this job, didn't you?"
    ],
    "nots": [
-    "Telling a partner honestly that you feel disappointed or want more closeness, and then accepting 'not tonight' without a penalty.",
+    "Telling a partner honestly that you are disappointed or want more closeness, then accepting 'not tonight' with no penalty.",
     "Flirting and asking once, with the other person free to decline and no change in the mood afterwards.",
     "Partners who talk openly about a mismatch in desire and work out together what to do about it.",
     "Changing your mind in the moment and saying so, with the other person stopping straight away.",
-    "Your own mixed feelings after saying yes, which can be worth talking over with a counselor but do not by themselves show that pressure occurred."
+    "Your own mixed feelings after saying yes. These can be worth talking over with a counselor, but they do not by themselves show that pressure occurred."
    ],
    "pats": 1
   },
@@ -1937,8 +1937,8 @@
    "name": "Financial Control",
    "tag": "detected",
    "cat": "Control & Domination",
-   "what": "Restricting someone's access to money, financial information or earning, or using money and assets as leverage, so that they depend on one person.",
-   "why": "Money decides whether a person can pay rent, buy food, hire a lawyer or leave a bad situation. When access depends on compliance, every disagreement carries a price, and the practical options narrow without anyone saying so out loud.",
+   "what": "Holding back what someone can reach, see or earn, or using money and assets to pressure them, so they end up depending on one person.",
+   "why": "Money decides whether a person can pay rent, buy food, hire a lawyer or leave a bad situation. When access depends on compliance, every disagreement carries a price. The practical options narrow without anyone saying so out loud.",
    "healthy": "Shared, transparent finances that both people can see and neither can unilaterally lock the other out of.",
    "sounds": [
     "\"You don't need your own bank account.\"",
@@ -1951,12 +1951,12 @@
     "\"I'll cut off your card.\""
    ],
    "nots": [
-    "Agreed household budgeting where one person tracks the books and the other can see everything and change the arrangement.",
+    "Agreed household budgeting where one person tracks the books. The other can see everything and can change the arrangement.",
     "A temporary arrangement during real hardship, discussed openly and with an end in sight.",
     "A one-earner household with shared rules, where both people have access to the money.",
-    "Long-term financial interdependence built through a mutual relationship, which is common and not used as leverage.",
+    "Long-term sharing of money that grew out of a mutual relationship. This is common and is not used to pressure anyone.",
     "A couple who agree to run big purchases past each other, in both directions.",
-    "A parent or guardian managing a minor's money, or an adult's money under a formal legal or care arrangement."
+    "A parent or guardian managing a minor's money, or someone managing an adult's money under a formal legal or care arrangement."
    ],
    "pats": 7
   },
@@ -1971,7 +1971,7 @@
    "nots": [
     "A real gap in skill, such as someone who never learned to cook, who is willing to be taught and does improve.",
     "Disability, ADHD, chronic illness or exhaustion, which can make some tasks truly harder, in ways that are not a choice.",
-    "A division of labor you both chose after talking it over, where the other person takes tasks of equal weight elsewhere.",
+    "A division of labor you both chose after talking it over, where the other person takes on tasks of equal weight elsewhere.",
     "A person new to a task who fumbles at first and gets better with each go.",
     "One bad attempt on a day when someone was sick or distracted."
    ],
@@ -1990,7 +1990,7 @@
   {
    "name": "Strategic Apathy",
    "cat": "Accountability Evasion",
-   "what": "Declaring 'I don't care' or 'whatever you want' at decision points, then criticizing whichever choice the other person makes.",
+   "what": "Saying 'I don't care' or 'whatever you want' at decision points, then picking apart whatever the other person chooses.",
    "looks": [
     "Refusal to state any preference, followed by criticism of whatever was chosen.",
     "'I don't care' deployed precisely at decision points."
@@ -1998,7 +1998,7 @@
    "nots": [
     "Honest indifference about a small thing, with no later complaint about the outcome.",
     "Depression, burnout or decision fatigue, where choosing really does feel impossible and the person says so openly.",
-    "A couple who agreed that one of them handles certain kinds of decisions, such as vacations or finances, and who trust each other's judgment.",
+    "A couple who agreed that one of them handles certain kinds of decisions, such as vacations or finances. They trust each other's judgment.",
     "Someone from a family or culture where deferring to the host or the other person is polite, and who means it.",
     "A person who truly has no strong feeling on the matter and is happy with any result."
    ],
@@ -2025,7 +2025,7 @@
    "nots": [
     "Playful teasing between friends who both know it is a game, such as 'you will never beat me at chess.'",
     "Honest doubt about your readiness, voiced out of concern, that the speaker would accept if you agreed with it.",
-    "A parent's mild trick with a toddler about eating vegetables, which is a common and openly understood game.",
+    "A parent's mild trick with a toddler about eating vegetables, a common game that is openly understood.",
     "A coach challenging you to prove yourself, with the goal stated openly and your success wanted either way.",
     "Plain reluctance to push you, in which the speaker truly would be fine with whichever way you choose."
    ],
@@ -2066,7 +2066,7 @@
     "Happy to. Just tell me every single step and I'll do exactly those steps.",
     "A colleague follows a new procedure line by line for a job that used to take ten minutes, and it now takes the whole afternoon."
    ],
-   "why": "The person on the receiving end absorbs the failure with no clear grievance to name. The instruction was followed, so pointing at anything risks sounding unreasonable, and they are left wondering whether they asked badly."
+   "why": "The person on the receiving end absorbs the failure with no clear grievance to name. The instruction was followed, so pointing at anything risks sounding unreasonable. They are left wondering whether they asked badly."
   },
   {
    "name": "Moral Licensing",
@@ -2093,12 +2093,12 @@
     "I've always supported equality. I'd never say something like that.",
     "A manager points to their leadership award when an employee reports how a meeting went."
    ],
-   "why": "A specific, current complaint goes unanswered because the conversation turns into a ruling on someone's overall goodness. The person who raised it never asked that question and cannot win it, and the original problem stays exactly where it was."
+   "why": "A specific, current complaint goes unanswered because the conversation turns into a ruling on someone's overall goodness. The person who raised it never asked that question and cannot win it. The original problem stays exactly where it was."
   },
   {
    "name": "Strategic Self-Deprecation / Performed Humility",
    "cat": "Idealization structural",
-   "what": "Putting yourself down or sounding modest at the moment criticism is due, so the other person ends up comforting you instead of raising their concern.",
+   "what": "Running yourself down or sounding modest when criticism is due, so that the other person ends up comforting you rather than raising their concern.",
    "looks": [
     "Self-deprecating comments that reliably appear right before or during moments the person might otherwise be criticized.",
     "The target frequently finds themselves comforting the person who was about to be held accountable."
@@ -2106,9 +2106,9 @@
    "nots": [
     "Genuine humility and self-aware humor. Plenty of people joke about their flaws with no concern waiting to be raised, and the joke changes nothing about what happens next.",
     "Someone who is truly ashamed and spirals when a mistake is pointed out. Their distress is real, and it can still be a reason to slow the conversation rather than a sign of strategy.",
-    "A person who takes responsibility, such as 'I dropped the ball, here's what I'll change.' Naming a fault and then dealing with it is the opposite of deflecting.",
+    "Someone who takes responsibility, as in 'I dropped the ball, here's what I'll change.' Naming a fault and then fixing it is the opposite of deflecting.",
     "Modest talk from someone raised to avoid sounding proud, who plays down real achievements in every setting.",
-    "Depression or low self-esteem, where harsh self-talk shows up all day and not only when feedback is due."
+    "Depression or low self-esteem, where harsh self-talk shows up all day, including times when no feedback is due."
    ],
    "tag": "watch",
    "sounds": [
@@ -2125,7 +2125,7 @@
   {
    "name": "Priming / Narrative Seeding",
    "cat": "Confusion / rhetoric",
-   "what": "Planting an interpretation of a person or event in someone's mind ahead of time, so that what they later see gets read through it.",
+   "what": "Giving someone an interpretation of a person or event before they see it themselves, so what they notice afterward fits that view.",
    "looks": [
     "A pointed comment or story shared right before an event that quietly shapes how the event gets interpreted afterward."
    ],
@@ -2147,21 +2147,21 @@
     "A new manager's first week opens with a colleague's three-minute account of who to be careful around.",
     "Everyone says the last team lead was awful, so watch how this one handles it."
    ],
-   "why": "You read an event through a lens you never chose and mistake a supplied conclusion for your own judgment. The frame is hardest to question because it arrived before the evidence did, so by the time you look, you already know what you expect to see."
+   "why": "You read an event through a lens you never chose and mistake a supplied conclusion for your own judgment. The frame is hardest to question because it arrived before the evidence did. By the time you look, you already know what you expect to see."
   },
   {
    "name": "Push-Pull",
    "cat": "Attachment & Affection Control",
-   "what": "Swinging between closeness and distance in repeating cycles, so the other person keeps working to get back to the warm stretch.",
+   "what": "A repeating cycle of warmth and distance that leaves the other person working to get back to the warm stretch.",
    "looks": [
     "Affectionate messages followed by sudden distance without explanation, repeatedly.",
     "The temperature of the conversation swings on the manipulator's schedule, not events."
    ],
    "nots": [
-    "A person who goes quiet under real pressure, such as a death in the family, an illness, or a work crunch, and tells you so.",
-    "An introvert who needs regular solitary time and says so plainly, with a predictable rhythm you can plan around.",
+    "A person who goes quiet under real pressure and tells you so. Examples are a death in the family, an illness, or a work crunch.",
+    "An introvert who needs regular time alone, says so plainly, and keeps a predictable rhythm you can plan around.",
     "Two people early in dating who are still working out how much contact suits each of them.",
-    "Ambivalence that is stated openly: 'I'm unsure about this' is hard to hear but is an honest message, not a cycle.",
+    "Ambivalence that is stated openly. 'I'm unsure about this' is hard to hear but is an honest message, not a cycle.",
     "A relationship with a real distance difference, such as shift work or time zones, where the gaps follow the schedule."
    ],
    "tag": "pattern",
@@ -2173,7 +2173,7 @@
     "A warm voice call at midnight after a week of one-word texts, and no mention of the week.",
     "\"Don't read into it. I'm just like this sometimes.\""
    ],
-   "why": "You start organizing your attention around a temperature you cannot predict, and you tend to read every cold spell as something you must have caused. That can crowd out your own plans, friendships and sleep."
+   "why": "You start arranging your attention around a temperature you cannot predict. You often read every cold spell as something you must have caused. That can crowd out your own plans, friendships and sleep."
   },
   {
    "name": "Intermittent Reinforcement",
@@ -16351,18 +16351,18 @@
    "branch": "detected",
    "category": "Institutional & Process",
    "detectability_note": "This tool can flag phrasings matching this tactic directly in pasted text, at low confidence, always alongside an innocent reading. A single flagged line is never proof — repetition, context, and the whole conversation matter far more than any one sentence.",
-   "core_meaning": "Treating a normal test result as proof that ongoing symptoms are not real, when the test could not have detected the cause of what the person describes.",
+   "core_meaning": "This is when a normal test result is taken as proof that ongoing symptoms are not real. The test could not have found the cause of what the person describes.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Treating a normal test result as proof that ongoing symptoms are not real, when the test could not have detected the cause of what the person describes.",
-   "expanded_definition": "A normal result means a test did not find the thing it measures. Often that is useful, because it rules something out. The pattern appears when that narrow result is stretched into a wide conclusion, such as 'there is nothing wrong', and continuing symptoms are set aside. Many conditions are missed by a standard blood panel, scan or single reading, or appear only at certain times. A professional who says 'this ruled out one cause, so let's think about the next' is not doing this. The pattern is a closed case on the strength of one number.",
-   "plain_language_summary": "The tests come back normal, and you are told that means nothing is wrong, even though you still feel unwell and the tests may not have looked at the right thing.",
-   "why_this_matters": "When symptoms are dismissed on the strength of one result, diagnosis can be delayed and you can be left in pain or exhaustion with nothing to try next. You may also begin to wonder whether what you feel is real.",
+   "short_definition": "This is when a normal test result is taken as proof that ongoing symptoms are not real. The test could not have found the cause of what the person describes.",
+   "expanded_definition": "A normal result means a test did not find the thing it measures. Often that is useful, because it rules something out. The pattern appears when that narrow result is stretched into a wide conclusion, such as 'there is nothing wrong'. Then the symptoms that continue are set aside. Many conditions are missed by a standard blood panel, scan or single reading, or appear only at certain times. A professional who says 'this ruled out one cause, so let's think about the next' is not doing this. The pattern is a closed case on the strength of one number.",
+   "plain_language_summary": "The tests come back normal, and you are told that means nothing is wrong. You still feel unwell, and the tests may not have looked at the right thing.",
+   "why_this_matters": "When symptoms are dismissed because of one result, diagnosis can be delayed. You can be left in pain or exhaustion with nothing to try next. You may also begin to wonder whether what you feel is real.",
    "what_it_is": [
     "A narrow result, such as a single blood panel or one scan, presented as the answer to a broad question about how you feel.",
     "A conclusion that skips the middle step: the test excluded one cause, and nobody names what is still open.",
-    "Often followed by a nudge toward another label, such as stress or sleep, as the next stop in place of more investigation.",
+    "Often followed by a push toward another label, such as stress or sleep, instead of more investigation.",
     "Can involve a result inside a 'normal range' set for a wide population that is still unusual for you.",
     "Arrives when the person has brought repeated symptoms, not a single passing one."
    ],
@@ -16376,7 +16376,7 @@
     "If something were really wrong, it would show up by now."
    ],
    "what_it_is_not": [
-    "A normal result honestly explained as excluding a specific serious condition, followed by a plan for the symptoms that remain.",
+    "A normal result that is honestly explained as ruling out one specific serious condition, followed by a plan for the symptoms that remain.",
     "A provider saying 'we have not found the cause yet' and booking a follow-up.",
     "Symptoms that settle over time, as the earlier normal results had suggested.",
     "A clear statement of what the test cannot show, with an offer of other tests or monitoring.",
@@ -16429,23 +16429,23 @@
     "You stop mentioning the symptom, because the answer is already known.",
     "You start researching on your own and then feel unsure whether to say so."
    ],
-   "repair_check": "The sentence that matters is 'the tests are normal, and I still believe you.' A provider who adds a next step, such as a different test, a specialist, a symptom log or a check-in date, has reopened the question. A chart note that repeats the normal results has not.",
+   "repair_check": "The sentence that matters is 'the tests are normal, and I still believe you.' A provider who adds a next step has reopened the question. That could be a different test, a specialist, a symptom log or a check-in date. A chart note that repeats the normal results has not.",
    "boundary_respect_check": "Ask what the test was able to rule out and what it could not, and what you should do if the symptoms continue. A clear, specific reply respects the question. A shrug or a repetition of the result suggests the question did not land.",
-   "psychological_mechanism": "Numbers and written results carry a special trust, for the patient and for whoever reads them. A normal value can seem like objective proof against a feeling, which is hard to argue with in an exam room. If you have already been told your symptoms are stress, a normal result can seem to confirm it, and doubt about your own body can follow.",
-   "possible_impact_on_receiver": "A long stretch of being told you are fine while still unwell can mean collecting normal results, doubting your own sense of your body, and feeling relief mixed with frustration if a cause is eventually found. Some stop seeking care, and guilt about taking up appointments is common.",
+   "psychological_mechanism": "Numbers and written results carry special trust, for the patient and for whoever reads them. A normal value can look like objective proof against a feeling, and that is hard to argue with in an exam room. If you have already been told your symptoms are stress, a normal result can look like confirmation. Doubt about your own body can follow.",
+   "possible_impact_on_receiver": "After a long stretch of being told you are fine while still unwell, you may collect normal results and doubt your own sense of your body. If a cause is eventually found, you may feel relief mixed with frustration. Some people stop seeking care, and guilt about taking up appointments is common.",
    "response_options": {
     "soft_clarification": "Ask what the result does and does not rule out: 'What could this test have missed? What should we look at if I am still like this in a month?'",
-    "firm_boundary": "Ask for your continuing symptoms to be written in the record: 'I'd like my ongoing symptoms, and the fact that they continue despite normal results, documented in my chart.'",
+    "firm_boundary": "Ask the provider to write your continuing symptoms in the record. You could say: 'I'd like my ongoing symptoms, and the fact that they continue despite normal results, documented in my chart.'",
     "disengagement": "If the visit ends at 'all normal', thank them, keep the results, and book a second opinion rather than argue in the room.",
     "support_seeking": "Keep a dated symptom log and bring it, and a trusted person, to the next appointment. A patient advocate or a support group for your symptoms can tell you which other tests come up for them.",
-    "workplace_or_professional": "If you need time off or adjustments, ask the provider for a letter describing your symptoms and limits, since a normal lab report alone may be read by an employer as 'no illness'."
+    "workplace_or_professional": "If you need time off or adjustments, ask the provider for a letter describing your symptoms and limits. An employer may read a normal lab report alone as 'no illness'."
    },
    "boundary_script": "\"I'm glad those tests are normal, and my symptoms are still here. Could you tell me what the results rule out, what they don't, and what you suggest we try next?\"",
-   "safety_note": "Normal results do not make warning signs safe. A fast-worsening symptom, fainting, heavy bleeding, new confusion or any change that frightens you needs to be seen urgently whatever earlier tests showed. Ask for a senior clinician or go to an urgent care or emergency department, and tell them about the earlier results and that the symptoms have continued.",
+   "safety_note": "Normal results do not make warning signs safe. A fast-worsening symptom, fainting, heavy bleeding, new confusion or any change that frightens you needs to be seen urgently, whatever earlier tests showed. Ask for a senior clinician, or go to urgent care or an emergency department. Tell them about the earlier results and that the symptoms have continued.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Calling every reassuring result 'false' can make it harder to accept real good news, and some symptoms do pass on their own.",
-    "Using this label to reject a clinician who has explained their reasoning and offered follow-up treats careful caution as dismissal."
+    "Using this label on a clinician who explained their reasoning and offered follow-up mistakes careful caution for dismissal."
    ],
    "related_tactics": [
     "Legal/Administrative Threats",
@@ -16474,17 +16474,17 @@
    "branch": "detected",
    "category": "Institutional & Process",
    "detectability_note": "This tool can flag phrasings matching this tactic directly in pasted text, at low confidence, always alongside an innocent reading. A single flagged line is never proof — repetition, context, and the whole conversation matter far more than any one sentence.",
-   "core_meaning": "Dismissing, minimizing or reattributing a patient's symptoms or pain in a medical setting until the patient is left doubting what their own body is telling them.",
+   "core_meaning": "In a medical setting, a patient's symptoms or pain are dismissed, minimized or put down to something else, until the patient starts doubting what their own body is saying.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Dismissing, minimizing or reattributing a patient's symptoms or pain in a medical setting until the patient is left doubting what their own body is telling them.",
-   "expanded_definition": "Medical gaslighting is a name patients use when clinicians treat their account of symptoms or pain as unreliable, minor or imagined, and explain it away without fully looking into it. A wrong guess is not it, because every clinician is wrong sometimes. The pattern is in how the report is handled: pain is discounted, requests for tests go unanswered, and notes describe what the patient said differently from how they said it. It is not a formal diagnosis or a legal term. People with symptoms that are hard to see or measure often describe it.",
-   "plain_language_summary": "A doctor or clinic keeps telling you that what you feel is nothing, or all in your head, and you start to wonder whether your own body can be trusted.",
-   "why_this_matters": "Dismissal delays diagnosis and treatment, and it teaches people, especially those from groups that medicine has often disbelieved, to distrust their own symptoms and to avoid seeking help the next time something is wrong.",
+   "short_definition": "In a medical setting, a patient's symptoms or pain are dismissed, minimized or put down to something else, until the patient starts doubting what their own body is saying.",
+   "expanded_definition": "Medical gaslighting is a name patients use when clinicians treat their account of symptoms or pain as unreliable, minor or imagined. The clinician explains it away without fully looking into it. A wrong guess is not it, because every clinician is wrong sometimes. The pattern is in how the report is handled. Pain is discounted, requests for tests go unanswered, and notes describe what the patient said differently from how they said it. It is not a formal diagnosis or a legal term. People with symptoms that are hard to see or measure often describe it.",
+   "plain_language_summary": "A doctor or clinic keeps telling you that what you feel is nothing, or all in your head. You start to wonder whether your own body can be trusted.",
+   "why_this_matters": "Dismissal delays diagnosis and treatment. It also teaches people to distrust their own symptoms, especially people from groups that medicine has often disbelieved. They may avoid seeking help the next time something is wrong.",
    "what_it_is": [
-    "Symptoms or pain explained away as stress, anxiety, weight, age, hormones or 'just life' before other causes have been looked at.",
-    "A report that goes unrecorded or is recorded in a different form, such as 'complains of' where you described a fact.",
+    "Symptoms or pain put down to stress, anxiety, weight, age, hormones or 'just life' before other causes have been looked at.",
+    "A report that goes unrecorded, or is written down in a different form, such as 'complains of' where you described a fact.",
     "Requests for tests, imaging or a referral declined without a reason you can understand.",
     "Repeated across visits or clinicians, so that the same dismissal follows you.",
     "Different from a missed diagnosis: the issue is how your account is treated, not that the answer is still unknown."
@@ -16503,7 +16503,7 @@
     "A clinician who thinks anxiety or stress is the most likely cause, says why, and agrees to look further if symptoms continue.",
     "A diagnostic work-up that is still in progress and has not yet produced an answer.",
     "A wrong diagnosis made in good faith and corrected when new information appears.",
-    "A decision not to order a test because guidelines do not support it for this symptom, explained to you plainly.",
+    "A decision not to order a test because guidelines do not support it for this symptom, with the reason explained to you plainly.",
     "A brisk appointment in an overloaded clinic where the pace, not disbelief, limited what could be done.",
     "An accurate assessment that the symptom is minor, with a plan to review it if it changes."
    ],
@@ -16555,22 +16555,22 @@
     "You wait longer to seek care and put off visits for new problems.",
     "A diagnosis, when it comes, arrives after years of the same answer from several people."
    ],
-   "repair_check": "A clinician who returns to your original account, says what they missed, orders the test or referral you asked about, and writes your symptoms down in your words has changed something. A 'sorry you felt that way' that leaves the plan as it was has not.",
+   "repair_check": "A clinician who returns to your original account has changed something. They say what they missed, order the test or referral you asked about, and write your symptoms down in your words. A 'sorry you felt that way' that leaves the plan as it was has not.",
    "boundary_respect_check": "Ask that your symptoms be written in the chart in your own words, then see what follows. Does the entry appear, and does the plan address it? Compare the visit summary with your own notes before deciding how the request was taken.",
-   "psychological_mechanism": "Pain and fatigue cannot be seen, so clinicians rely on what patients say, and a clinician with limited time may reach for a familiar explanation. Once a psychological or lifestyle explanation is in the notes, later clinicians can read the chart through it. Patients who have been dismissed before may soften their reports, which makes dismissal easier still.",
+   "psychological_mechanism": "Pain and fatigue cannot be seen, so clinicians rely on what patients say. A clinician with limited time may reach for a familiar explanation. Once a psychological or lifestyle explanation is in the notes, later clinicians can read the chart through it. Patients who have been dismissed before may soften their reports, which makes dismissal easier still.",
    "possible_impact_on_receiver": "People describe leaving visits feeling foolish, then going home and doubting whether the pain is real. Symptoms may go unmentioned, care may be delayed, and appointments may start to feel like something to brace for. A diagnosis, when it comes, can bring relief alongside grief and anger at how long it took, and a lasting wariness of waiting rooms.",
    "response_options": {
-    "soft_clarification": "Ask the clinician to walk you through their reasoning: 'What else could cause this, and how would we rule those out?' A real answer shows the thinking.",
-    "firm_boundary": "Ask for the refusal to be written down: 'If you're not ordering that test, could you note that I asked and why it was declined?'",
+    "soft_clarification": "Ask the clinician to explain their thinking: 'What else could cause this, and how would we rule those out?' A real answer shows it.",
+    "firm_boundary": "Ask for a refusal to be put in writing. You could say: 'If you're not ordering that test, could you note that I asked and why it was declined?'",
     "disengagement": "If the visit is not going anywhere, end it politely and book with another clinician or clinic, bringing your notes along.",
-    "support_seeking": "Bring someone to appointments, join a group for your symptom or condition, and ask a patient advocate how to request a second opinion.",
-    "workplace_or_professional": "If you must show an employer or school what you are dealing with, ask the clinician to put your symptoms and limits in a letter, and keep copies of every visit summary."
+    "support_seeking": "Bring someone to appointments. Join a group for your symptom or condition. Ask a patient advocate how to request a second opinion.",
+    "workplace_or_professional": "If you must show an employer or school what you are dealing with, ask the clinician to put your symptoms and limits in a letter. Keep copies of every visit summary."
    },
    "boundary_script": "\"I'm still having this pain and it's affecting my work and sleep. What else could it be, and what do you suggest if it doesn't improve? Could you also record in my chart that I asked for further tests?\"",
-   "safety_note": "Dismissed symptoms are most dangerous when they signal something time-critical. Examples are pain that is sudden and severe, symptoms that are rapidly worsening, a fever with a stiff neck or confusion, or signs of a stroke. Do not wait for a better appointment for those; go to an emergency department and describe what you told earlier clinicians. For anything slower, request your own records and book a second opinion.",
+   "safety_note": "Dismissed symptoms are most dangerous when they signal something time-critical. Examples are pain that is sudden and severe, symptoms that are rapidly worsening, a fever with a stiff neck or confusion, or signs of a stroke. Do not wait for a better appointment for those. Go to an emergency department and describe what you told earlier clinicians. For anything slower, request your own records and book a second opinion.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Using the label for any visit that did not end in the answer or treatment you wanted can overlook honest uncertainty and make good clinicians harder to reach.",
+    "Using the label for any visit that did not end in the answer or treatment you wanted can overlook honest uncertainty. It can also make good clinicians harder to reach.",
     "Telling a person that their doctor 'gaslit' them, before they have asked about the reasoning, can push them away from care they still need."
    ],
    "related_tactics": [
@@ -16581,7 +16581,7 @@
     "Pressure to Sign",
     "Clinical Tone Policing"
    ],
-   "how_to_distinguish_from_related": "Clinical Tone Policing criticizes how you express distress, while medical gaslighting is about whether your symptoms are believed at all. Trash-Can Diagnosis hands out a mental health label as an insult, and Weaponized Therapy-Speak uses clinical words in arguments between people. Medical gaslighting happens inside a care relationship, where the thing being discounted is your account of your own body.",
+   "how_to_distinguish_from_related": "Clinical Tone Policing criticizes how you express distress, while medical gaslighting is about whether your symptoms are believed at all. Trash-Can Diagnosis hands out a mental health label as an insult. Weaponized Therapy-Speak uses clinical words in arguments between people. Medical gaslighting happens inside a care relationship, where what gets discounted is your account of your own body.",
    "detection_notes": "Actively matched against pasted text by this tool, at low confidence. Phrase matching can flag wording, but it cannot know intent, tone, history, context, or whether the claim is even true — an innocent reading is always attached to every match. Guards (sarcasm, quotation, hypothetical framing, reported speech, and others) can reduce or nullify a match. Severity only contributes to the overall index above the detection floor.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -16605,14 +16605,14 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Using pressure, guilt, obligation or implied consequences to push someone into sexual activity without their free consent.",
-   "expanded_definition": "Sexual coercion covers the many ways, short of physical force, that a person can be pushed into sex or sexual acts: repeated asking after a no, sulking or anger, guilt about what is owed, threats to end something, or leaning on a difference in power. Consent that is given to avoid a penalty, or to stop the asking, is not free consent. A single moment of disappointment is not coercion. The pattern shows when a no carries a cost, and the costs push the answer toward yes.",
+   "expanded_definition": "Sexual coercion covers the many ways, short of physical force, that a person can be pushed into sex or sexual acts. These include repeated asking after a no, sulking or anger, guilt about what is owed, threats to end something, or leaning on a difference in power. Consent given to avoid a penalty, or to stop the asking, is not free consent. A single moment of disappointment is not coercion. The pattern shows when a no carries a cost, and the costs push the answer toward yes.",
    "plain_language_summary": "Someone makes saying no costly, through guilt, anger, pressure or threats, until agreeing feels easier than refusing.",
-   "why_this_matters": "Saying yes under pressure is not the same as wanting to, and living with the difference can leave real marks: shame, numbness, loss of trust in your own signals. You are not to blame for what pressure made you do. Naming it can help restore your sense of your own limits.",
+   "why_this_matters": "Saying yes under pressure is not the same as wanting to. Living with that difference can leave real marks, like shame, numbness, or less trust in your own signals. You are not to blame for what pressure made you do. Naming it can help restore your sense of your own limits.",
    "what_it_is": [
     "Pressure to engage in a sexual act, delivered through guilt, anger, sulking, or repeated asking.",
-    "Consequences attached to a no, whether spoken or implied: a cold shoulder, a threat to leave, a withdrawal of money or help.",
+    "A cost attached to a no, whether spoken or implied, such as a cold shoulder, a threat to leave, or money or help taken away.",
     "Can be linked to a power gap, such as age, employment, money, or immigration status.",
-    "Includes pushing for acts you have already declined, and pressing during moments when you are tired, intoxicated or afraid.",
+    "Includes pushing for acts you have already declined, and pressing when you are tired, intoxicated or afraid.",
     "Often hard to name from the inside because no force was used."
    ],
    "what_it_sounds_like": [
@@ -16625,11 +16625,11 @@
     "You said you wanted to keep this job, didn't you?"
    ],
    "what_it_is_not": [
-    "Telling a partner honestly that you feel disappointed or want more closeness, and then accepting 'not tonight' without a penalty.",
+    "Telling a partner honestly that you are disappointed or want more closeness, then accepting 'not tonight' with no penalty.",
     "Flirting and asking once, with the other person free to decline and no change in the mood afterwards.",
     "Partners who talk openly about a mismatch in desire and work out together what to do about it.",
     "Changing your mind in the moment and saying so, with the other person stopping straight away.",
-    "Your own mixed feelings after saying yes, which can be worth talking over with a counselor but do not by themselves show that pressure occurred."
+    "Your own mixed feelings after saying yes. These can be worth talking over with a counselor, but they do not by themselves show that pressure occurred."
    ],
    "this_may_be_it_when": [
     "A no is followed by sulking, anger, guilt, or a threat, rather than acceptance.",
@@ -16678,23 +16678,23 @@
     "You feel dread, numbness, or relief when the other person is away.",
     "Refusals have become rare because you have learned what they cost."
    ],
-   "repair_check": "Where there has been pressure, repair starts with the person accepting a no with no sulking and no later reminder of it. Pay attention to whether they take responsibility for the pressure itself rather than for your reaction, and whether your no stays free of cost for weeks afterwards. Words alone, followed by more asking, are not it.",
+   "repair_check": "Where there has been pressure, repair starts with the person accepting a no with no sulking and no later reminder of it. Pay attention to whether they take responsibility for the pressure itself rather than for your reaction. Also notice whether your no stays free of cost for weeks afterwards. Words alone, followed by more asking, are not it.",
    "boundary_respect_check": "Ask yourself one thing after a no: did the mood, the money, or the manners toward you change afterwards? A respected no leaves the relationship as it was, perhaps with some disappointment. A no that is punished, argued with, or raised again the next day was treated as an opening bid.",
-   "psychological_mechanism": "When a refusal carries a cost, the mind may start to weigh the cost of saying no against the cost of going along, and tiredness, fear or dependence can tip that scale. Going along repeatedly can blur the line in your own head between what you chose and what you gave in to, which can make it hard to trust your own signals afterwards.",
+   "psychological_mechanism": "When a refusal carries a cost, the mind may start to weigh the cost of saying no against the cost of going along. Tiredness, fear or dependence can tip that scale. Going along again and again can blur the line in your own head between what you chose and what you gave in to. That can leave you unsure of your own signals afterwards.",
    "possible_impact_on_receiver": "Numbness, shame, going quiet during intimacy, dreading evenings and doubting whether they ever really wanted something are all described. Some say they only later realized they had been pressed, and struggled with whether it 'counted'. Many describe a loss of trust in their own judgment about what they want.",
    "response_options": {
     "soft_clarification": "Say your answer once, plainly, and stay in the conversation: 'I'm saying no, and I need that to be enough. I'd like to talk about what closeness looks like for us.'",
     "firm_boundary": "Keep to the answer without giving reasons: 'My answer is no, and it doesn't need a reason. I'd like you to stop asking tonight.'",
-    "disengagement": "If you can, change location or ask to pause the conversation until tomorrow, and use that time to think about who you can speak to privately. Do not announce plans.",
-    "support_seeking": "Speak on your own to a sexual assault or domestic abuse advocate, a counselor, or a trusted friend; many services answer by phone or chat and can help you think through what happened without pressure to act.",
-    "workplace_or_professional": "If it happens at work or school, write down dates, words and witnesses, and speak to HR, an ombudsperson (an independent complaints officer), a union representative, or legal aid about a confidential report."
+    "disengagement": "If you can, change location or ask to pause the conversation until tomorrow. Use that time to think about who you can speak to privately. Do not announce plans.",
+    "support_seeking": "Speak on your own to a sexual assault or domestic abuse advocate, a counselor, or a trusted friend. Many services answer by phone or chat. They can help you think through what happened without pressure to act.",
+    "workplace_or_professional": "If it happens at work or school, write down dates, words and witnesses. Speak to HR, an ombudsperson (an independent complaints officer), a union representative, or legal aid about a confidential report."
    },
    "boundary_script": "\"My answer is no, and I'd like that to be enough. I'm not able to talk about this right now. Can we pause here and leave it for tonight?\"",
-   "safety_note": "Sexual pressure can sit alongside threats, stalking, control of money or housing, or force that escalates when a no is given. Warning signs include fear of what happens if you refuse, being cornered, and threats about images or reputation. Contact a sexual assault or domestic abuse hotline or an advocate to plan privately; call emergency services if you are in immediate danger.",
+   "safety_note": "Sexual pressure can sit alongside threats, stalking, control of money or housing, or force that escalates when a no is given. Warning signs include fear of what happens if you refuse, being cornered, and threats about images or reputation. Contact a sexual assault or domestic abuse hotline or an advocate to plan privately. Call emergency services if you are in immediate danger.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "Applying this label to a partner's honest disappointment, or to a single clumsy ask that was dropped at once, can blur it with serious harm and leave real cases harder to name.",
-    "Only the person on the receiving end can say what they did or did not freely agree to; outsiders and the label itself cannot decide it for them."
+    "Applying this label to a partner's honest disappointment, or to a single clumsy ask that was dropped at once, can blur it with serious harm. Real cases then get harder to name.",
+    "Only the person on the receiving end can say what they did or did not freely agree to. Outsiders and the label itself cannot decide it for them."
    ],
    "related_tactics": [
     "Ultimatums",
@@ -16721,23 +16721,23 @@
    "branch": "detected",
    "category": "Control & Domination",
    "detectability_note": "This tool can flag phrasings matching this tactic directly in pasted text, at low confidence, always alongside an innocent reading. A single flagged line is never proof — repetition, context, and the whole conversation matter far more than any one sentence.",
-   "core_meaning": "Restricting someone's access to money, financial information or earning, or using money and assets as leverage, so that they depend on one person.",
+   "core_meaning": "Holding back what someone can reach, see or earn, or using money and assets to pressure them, so they end up depending on one person.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [
     "Financial Enmeshment"
    ],
-   "short_definition": "Restricting someone's access to money, financial information or earning, or using money and assets as leverage, so that they depend on one person.",
-   "expanded_definition": "Financial control is limiting what a person can see, spend, earn or own, or tying money and assets to behavior, so that disagreeing or leaving becomes costly. The term financial enmeshment is used for the same lever. Shared budgets and one-earner households are ordinary. The concern is money used as a lever: access given or withdrawn depending on compliance, information kept out of sight, and one name on everything.",
-   "plain_language_summary": "One person decides what money you can see, spend or earn, and access shifts with how you behave, which makes it hard to disagree or to leave.",
-   "why_this_matters": "Money decides whether a person can pay rent, buy food, hire a lawyer or leave a bad situation. When access depends on compliance, every disagreement carries a price, and the practical options narrow without anyone saying so out loud.",
+   "short_definition": "Holding back what someone can reach, see or earn, or using money and assets to pressure them, so they end up depending on one person.",
+   "expanded_definition": "Financial control is limiting what a person can see, spend, earn or own, or tying money and assets to behavior. It makes disagreeing or leaving costly. The term financial enmeshment is used for the same lever. Shared budgets and one-earner households are ordinary. The concern is money used as a lever: access given or withdrawn depending on compliance, information kept out of sight, and one name on everything.",
+   "plain_language_summary": "One person decides what money you can see, spend or earn. Access shifts with how you behave, which makes it hard to disagree or to leave.",
+   "why_this_matters": "Money decides whether a person can pay rent, buy food, hire a lawyer or leave a bad situation. When access depends on compliance, every disagreement carries a price. The practical options narrow without anyone saying so out loud.",
    "what_it_is": [
-    "Limiting access to bank accounts, cards, statements or tax papers, so one person cannot see the household's real position.",
+    "Limiting access to bank accounts, cards, statements or tax papers, so that one person cannot see how the household's money really stands.",
     "Controlling earning: discouraging or forbidding work, or interfering with a job, a shift or a paycheck.",
     "Putting the home, the car, the accounts and the debts in one person's name only.",
     "Handing out money as an allowance, a reward or a punishment, with asking required each time.",
     "Finding loans, cards or debts in your name that you did not know about or agree to.",
-    "The opposite of transparent shared finances, where both people can see everything and neither can lock the other out."
+    "The opposite of open shared finances, where both people can see everything and neither can lock the other out."
    ],
    "what_it_sounds_like": [
     "\"You don't need your own bank account.\"",
@@ -16750,12 +16750,12 @@
     "\"I'll cut off your card.\""
    ],
    "what_it_is_not": [
-    "Agreed household budgeting where one person tracks the books and the other can see everything and change the arrangement.",
+    "Agreed household budgeting where one person tracks the books. The other can see everything and can change the arrangement.",
     "A temporary arrangement during real hardship, discussed openly and with an end in sight.",
     "A one-earner household with shared rules, where both people have access to the money.",
-    "Long-term financial interdependence built through a mutual relationship, which is common and not used as leverage.",
+    "Long-term sharing of money that grew out of a mutual relationship. This is common and is not used to pressure anyone.",
     "A couple who agree to run big purchases past each other, in both directions.",
-    "A parent or guardian managing a minor's money, or an adult's money under a formal legal or care arrangement."
+    "A parent or guardian managing a minor's money, or someone managing an adult's money under a formal legal or care arrangement."
    ],
    "this_may_be_it_when": [
     "You cannot see statements or balances, or you are told you would not understand them.",
@@ -16773,7 +16773,7 @@
    ],
    "innocent_or_ordinary_possibilities": [
     "People differ in how they earn, spend and save, and a gap in style is not a gap in fairness.",
-    "One partner may simply be more comfortable with paperwork, and the other happy to leave it to them while seeing everything.",
+    "One partner may simply be more comfortable with paperwork. The other may be happy to leave it to them, while still seeing everything.",
     "Family or cultural habits may have one person handle the money by long-standing, mutual agreement."
    ],
    "common_false_positives": [
@@ -16804,23 +16804,23 @@
     "You rehearse how to raise a purchase, or put it off.",
     "Documents you need, such as ID or bank cards, end up in someone else's keeping."
    ],
-   "repair_check": "Look for access that no longer depends on mood: your name on the accounts, statements you can open yourself, income that stays yours, and a way to see the whole picture. An apology after a hard conversation that leaves the same arrangement in place has changed the tone, not the control.",
+   "repair_check": "Look for access that no longer depends on mood. That means your name on the accounts, statements you can open yourself, income that stays yours, and a way to see the whole picture. An apology after a hard conversation that leaves the same arrangement in place has changed the tone, not the control.",
    "boundary_respect_check": "Ask a small, practical question about money, such as to see last month's statement, and notice what comes next. Is the paper produced and the question treated as ordinary? Or does the answer turn to your tone, your motives, or what you owe?",
    "psychological_mechanism": "When a person cannot pay for food, travel or a lawyer without permission, going along can become the practical path of least resistance. Access that is granted and withdrawn can also teach a person to anticipate moods and avoid asking. Over time the narrowing of options can harden into a fact of life instead of an arrangement that someone could change.",
-   "possible_impact_on_receiver": "People describe asking permission for small purchases, hiding receipts, feeling like a child in their own home, and a sinking sense that leaving is not affordable. Some find out about debts only when a letter arrives. Others say the money was never the whole story, and that the loss of choices was what wore them down.",
+   "possible_impact_on_receiver": "People describe asking permission for small purchases, hiding receipts, being treated as a child in their own home, and a sinking sense that leaving is not affordable. Some find out about debts only when a letter arrives. Others say the money was never the whole story. The loss of choices was what wore them down.",
    "response_options": {
     "soft_clarification": "Ask an ordinary question in an ordinary tone: \"Could we look at the statements together this weekend? I'd like to understand where we stand.\" If asking could make things worse, skip this step.",
-    "firm_boundary": "If it feels safe, name the pattern once, calmly, without blame: \"When money depends on how I behave, it is hard for me to speak up. Could we change that?\" Otherwise take it to an advocate first.",
+    "firm_boundary": "If it is safe to do so, name the pattern once, calmly and without blame. You could say: \"When money depends on how I behave, it is hard for me to speak up. Could we change that?\" Otherwise take it to an advocate first.",
     "disengagement": "If a money conversation turns to what you owe or could lose, you can ask to pause it: \"I need some time to think. Can we come back to this?\" Use your own judgment about whether pausing is safe.",
-    "support_seeking": "Speak to a domestic abuse advocate, a financial counselor or a legal aid service. Many can talk privately about economic abuse and help with documents, accounts and credit without the other person knowing.",
-    "workplace_or_professional": "If someone else controls your pay, ask payroll or HR in writing, when it is safe, whether wages can go to an account in your sole name. A legal aid or employment advice service can explain your rights."
+    "support_seeking": "Speak to a domestic abuse advocate, a financial counselor or a legal aid service. Many can talk privately about economic abuse. They can help with documents, accounts and credit without the other person knowing.",
+    "workplace_or_professional": "If someone else controls your pay, and it is safe to do so, ask payroll or HR in writing whether wages can go to an account in your sole name. A legal aid or employment advice service can explain your rights."
    },
    "boundary_script": "\"Could we go through the accounts together this weekend? I'd like both of us to be able to see what we have and agree who decides what.\" If asking could make things worse, skip it and call an advocate first.",
-   "safety_note": "Warning signs include being cut off from money after you disagree, losing hold of your ID, phone or transport, debts opened in your name, or being kept from work. Quietly note what you know. Talk to a domestic abuse advocate or legal aid service about protecting income, documents and credit before you raise any change with the other person.",
+   "safety_note": "Warning signs include being cut off from money after you disagree, losing hold of your ID, phone or transport, debts opened in your name, or being kept from work. Quietly make a note of what you know. Talk to a domestic abuse advocate or legal aid service first. They can help you protect income, documents and credit before you raise any change with the other person.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Calling a tight budget, or one partner paying the bills, financial control can turn an agreed arrangement into an accusation. The test is whether the other person can see it and change it.",
-    "Using the label on a parent or guardian who manages a minor's or dependent adult's money under a formal arrangement mistakes protection for control."
+    "A parent or guardian who manages a minor's or dependent adult's money under a formal arrangement is giving protection. Using the label on them mistakes protection for control."
    ],
    "related_tactics": [
     "Isolation",
@@ -16830,7 +16830,7 @@
     "Infantilization",
     "\"I Know Best\" Paternalism"
    ],
-   "how_to_distinguish_from_related": "Infantilization treats you as unable to run your affairs in general, while financial control is specifically about who holds the money and the papers. \"I Know Best\" Paternalism overrides your choices for your own good and needs a stated reason; here the rule can be simply that the money is theirs. Isolation undermines your other relationships, whereas this limits the money needed to pay, travel or stay.",
+   "how_to_distinguish_from_related": "Infantilization treats you as unable to run your affairs in general, while financial control is specifically about who holds the money and the papers. \"I Know Best\" Paternalism overrides your choices for your own good and needs a stated reason. Here the rule can be simply that the money is theirs. Isolation undermines your other relationships, whereas this limits the money needed to pay, travel or stay.",
    "detection_notes": "Actively matched against pasted text by this tool, at low confidence. Phrase matching can flag wording, but it cannot know intent, tone, history, context, or whether the claim is even true — an innocent reading is always attached to every match. Guards (sarcasm, quotation, hypothetical framing, reported speech, and others) can reduce or nullify a match. Severity only contributes to the overall index above the detection floor.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -16853,7 +16853,7 @@
    "absorbs": [],
    "short_definition": "A pattern in which someone seems unable to do an unwanted task, so that it falls to another person for good.",
    "expanded_definition": "A task is done badly, or a person says they just cannot do it, and soon it is given to someone else. It happens most often in households and workplaces over chores such as laundry, school forms or booking appointments. None of this shows why anyone struggles with a task, and skill gaps, disability and honest confusion are common. What stands out is a task that never gets learned and always lands with the same person.",
-   "plain_language_summary": "A chore gets done so badly, or is said to be so hard, that you take it over for good, and it never comes back to them.",
+   "plain_language_summary": "A chore gets done so badly, or is said to be so hard, that you take it over for good. It never comes back to them.",
    "why_this_matters": "The task lands permanently on one person, along with the work of noticing it, asking about it, and eventually giving up on asking. Raising it also makes them sound as if they are complaining about help they were offered.",
    "what_it_is": [
     "A task handed back to one person after a failed or half-hearted try, until it quietly becomes theirs.",
@@ -16873,7 +16873,7 @@
    "what_it_is_not": [
     "A real gap in skill, such as someone who never learned to cook, who is willing to be taught and does improve.",
     "Disability, ADHD, chronic illness or exhaustion, which can make some tasks truly harder, in ways that are not a choice.",
-    "A division of labor you both chose after talking it over, where the other person takes tasks of equal weight elsewhere.",
+    "A division of labor you both chose after talking it over, where the other person takes on tasks of equal weight elsewhere.",
     "A person new to a task who fumbles at first and gets better with each go.",
     "One bad attempt on a day when someone was sick or distracted."
    ],
@@ -16926,14 +16926,14 @@
    ],
    "repair_check": "Watch what happens with the task itself, not what is said about it. Change looks like them learning it, doing it unprompted, and taking over the remembering too. A warm apology followed by another handback the next week leaves the work where it was.",
    "boundary_respect_check": "Hand the task back with a clear date and no rescue, then see what follows. Does it get done, imperfectly but sincerely? Or does it quietly come back to you, with a reason? Your answer shows whether the new split is being kept.",
-   "psychological_mechanism": "A person who gets quick relief from an unwanted job after a poor attempt can come to expect that outcome again. Meanwhile, the one who takes the job over often does so to avoid delay or conflict, and that reinforces the split. Over time the extra work can come to seem like a trait of the person who does it, rather than a division that formed gradually.",
+   "psychological_mechanism": "A person who gets quick relief from an unwanted job after a poor attempt can come to expect that outcome again. Meanwhile, the one who takes the job over often does so to avoid delay or conflict, and that reinforces the split. After a while, the extra work can look like a trait of the person who does it, when really the split formed gradually.",
    "possible_impact_on_receiver": "People describe resentment building quietly, tiredness from managing the household or team on top of their own tasks, and guilt about feeling resentful. Some say they felt silly raising something that sounded like 'I do too much laundry'. Others describe feeling like a parent to another adult and losing the sense of being partners.",
    "response_options": {
     "soft_clarification": "Name the specific task and the gap: 'I notice the school forms always end up with me. Can we work out how you take them on?'",
     "firm_boundary": "Hand the job back with a date: 'This one is yours now, start to finish, including remembering it. I'll show you once, and then I won't redo it.'",
-    "disengagement": "Let a low-stakes task stay undone or done imperfectly rather than rescuing it, and see whether the other person takes it up.",
-    "support_seeking": "Write out all the recurring tasks, including the unseen ones, and go through the list with someone who knows both of you, to check your sense of the balance.",
-    "workplace_or_professional": "At work, ask for tasks to be assigned in writing, with an owner and a date, and rotate the unpopular jobs on a shared schedule."
+    "disengagement": "Let a low-stakes task stay undone or done imperfectly instead of rescuing it. Then see whether the other person takes it up.",
+    "support_seeking": "Write out all the recurring tasks, including the unseen ones. Go through the list with someone who knows both of you, to check your sense of the balance.",
+    "workplace_or_professional": "At work, ask for tasks to be assigned in writing, with an owner and a date. Rotate the unpopular jobs on a shared schedule."
    },
    "boundary_script": "\"I'm happy to show you how I do the school forms once. After that they're yours to track and finish, including remembering the deadlines. If it turns out to be really hard for you, tell me and we'll work out a swap of equal weight.\"",
    "safety_note": "This is a fairness and workload issue, not usually a safety one. It changes if the avoided tasks involve a child's medical care or safety. It also changes if you are punished for handing a task back, or if you control no money and cannot leave a bad split. In those cases, speak to a family doctor, a mediator or legal aid about the specific job at stake.",
@@ -16950,7 +16950,7 @@
     "Denial",
     "Minimization"
    ],
-   "how_to_distinguish_from_related": "Blame-Shifting is about responsibility for something already done wrong, while Weaponized Incompetence is about who ends up with future work. Minimization shrinks your complaint, saying it is only a chore, whereas the pattern here is the quiet handover of the chore itself. Denial refuses that anything is wrong; this one often involves cheerful agreement that they are bad at the task.",
+   "how_to_distinguish_from_related": "Blame-Shifting is about responsibility for something already done wrong, while Weaponized Incompetence is about who ends up with future work. Minimization shrinks your complaint by saying it is only a chore. The pattern here is the quiet handover of the chore itself. Denial refuses that anything is wrong. This one often involves cheerful agreement that they are bad at the task.",
    "detection_notes": "A phrasing pattern exists in this tool's library for this tactic, but it is deliberately capped below the scoring threshold: this signal is too context-dependent and too easily produced innocently for text alone to establish intent. It is never scored.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -16967,11 +16967,11 @@
    "branch": "watch",
    "category": "Accountability Evasion",
    "detectability_note": "This tool can technically match phrasing linked to this tactic, but text alone cannot reliably establish intent here — the same words are too easily produced by an innocent explanation. It is shown as low-signal information only and is never scored.",
-   "core_meaning": "Declaring 'I don't care' or 'whatever you want' at decision points, then criticizing whichever choice the other person makes.",
+   "core_meaning": "Saying 'I don't care' or 'whatever you want' at decision points, then picking apart whatever the other person chooses.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Declaring 'I don't care' or 'whatever you want' at decision points, then criticizing whichever choice the other person makes.",
+   "short_definition": "Saying 'I don't care' or 'whatever you want' at decision points, then picking apart whatever the other person chooses.",
    "expanded_definition": "A choice has to be made: a restaurant, a school, a vacation, a house. One person says 'you pick, I don't mind', and the other picks. Later the choice is picked apart. The first person carries no risk, while the second carries all of it. Nobody can tell from the outside why someone says they do not care, and real indifference is common. What stands out is a shrug at the moment of choosing and strong views afterward.",
    "plain_language_summary": "You are told 'I don't care, you decide', and then whatever you choose turns out to be wrong.",
    "why_this_matters": "One person makes every decision alone and then carries the criticism for whichever way it went. Over time, deciding stops feeling like having a say and starts feeling like exposure.",
@@ -16979,7 +16979,7 @@
     "A refusal to state any preference at the moment a decision is due, even when asked directly.",
     "Followed by disappointment, sighs or complaints once the other person has chosen.",
     "Seen with small choices, such as dinner, and with large ones, such as moving or how to raise children.",
-    "It leaves one person with all the responsibility and none of the agreement, since a choice they never shared in cannot be fully theirs."
+    "It leaves one person with all the responsibility and none of the agreement. The other person never shared in the choice, so it cannot be fully theirs."
    ],
    "what_it_sounds_like": [
     "I don't care, you decide.",
@@ -16993,7 +16993,7 @@
    "what_it_is_not": [
     "Honest indifference about a small thing, with no later complaint about the outcome.",
     "Depression, burnout or decision fatigue, where choosing really does feel impossible and the person says so openly.",
-    "A couple who agreed that one of them handles certain kinds of decisions, such as vacations or finances, and who trust each other's judgment.",
+    "A couple who agreed that one of them handles certain kinds of decisions, such as vacations or finances. They trust each other's judgment.",
     "Someone from a family or culture where deferring to the host or the other person is polite, and who means it.",
     "A person who truly has no strong feeling on the matter and is happy with any result."
    ],
@@ -17046,14 +17046,14 @@
    ],
    "repair_check": "At the next decision, change either shows or it does not. Change shows in them naming a preference up front, even a small one, and standing by the outcome afterward. Saying 'I know I leave it all to you' and then going back to 'whatever' with the next choice is not that.",
    "boundary_respect_check": "Try this: say that you'll choose once they have given one preference, and wait. Does a preference arrive? Or does the wait itself get blamed, as in 'now you're making a big deal of it'? What fills that silence shows how the request is landing.",
-   "psychological_mechanism": "Making a choice exposes a person to being wrong. When one person declines to take part, they avoid that exposure, while the other takes on all of it. If criticism follows, the decision-maker may begin to try to predict the other's hidden preferences, a task that has no stable answer and can wear down confidence in their own judgment.",
-   "possible_impact_on_receiver": "People describe dreading ordinary choices, feeling alone in a partnership, and second-guessing themselves long after a decision is made. Some say they started to avoid deciding altogether, or to make safe, dull choices. Others describe feeling like a manager of someone else's life, tired of carrying the blame as well as the work.",
+   "psychological_mechanism": "Making a choice exposes a person to being wrong. When one person declines to take part, they avoid that exposure, while the other takes on all of it. If criticism follows, the decision-maker may start trying to predict the other's hidden preferences. That task has no stable answer and can wear down confidence in their own judgment.",
+   "possible_impact_on_receiver": "People describe dreading ordinary choices, feeling alone in a partnership, and second-guessing themselves long after a decision is made. Some say they started to avoid deciding altogether, or to make safe, dull choices. Others say they ended up managing someone else's life, tired of carrying the blame as well as the work.",
    "response_options": {
-    "soft_clarification": "Ask for one small input: 'I'd really like to hear one thing you'd want here, even if it's minor.' The reply shows if a preference exists.",
-    "firm_boundary": "Share the outcome as well as the decision: 'If you leave this to me, then it's my choice and I won't hear it picked apart afterward.'",
+    "soft_clarification": "Ask for one small input: 'I'd really like to hear one thing you'd want here, even if it's minor.' The reply will show whether a preference exists.",
+    "firm_boundary": "Say who owns the outcome as well as the decision: 'If you leave this to me, then it's my choice and I won't hear it picked apart afterward.'",
     "disengagement": "On low-stakes choices, pick quickly without seeking approval and move on. Save your energy for the ones that really need two voices.",
     "support_seeking": "Ask a friend how they handle shared decisions, to find out what a balanced split looks like, then compare it with your own.",
-    "workplace_or_professional": "If a manager says 'your call' and later objects, ask for the decision criteria in writing before you act, and send a one-line note confirming what you chose."
+    "workplace_or_professional": "If a manager says 'your call' and later objects, ask for the decision criteria in writing before you act. Then send a one-line note confirming what you chose."
    },
    "boundary_script": "\"If you tell me to decide, I'll decide, and then it's decided. I'd like one thing from you before I do. What matters most to you about this? If you really have no preference, I'll go ahead without hearing about it afterward.\"",
    "safety_note": "Strategic Apathy is a pattern about decisions, not a danger in itself. What would change that is blame for outcomes escalating to anger, threats or punishment. Another sign is being left to bear the cost of decisions about money, housing or children, with no access to the accounts or papers. If that is happening, collect copies of key documents and speak with a financial counselor or legal aid service about your position.",
@@ -17070,7 +17070,7 @@
     "Denial",
     "Minimization"
    ],
-   "how_to_distinguish_from_related": "Blame-Shifting moves fault for something that went wrong onto you after the fact, while Strategic Apathy sets up the position beforehand by leaving you as the only decider. Minimization says your concern is small; here the person says their own opinion is. Denial refuses to admit a problem, and this one does not even stake out a position that could be denied.",
+   "how_to_distinguish_from_related": "Blame-Shifting moves fault for something that went wrong onto you after the fact, while Strategic Apathy sets up the position beforehand by leaving you as the only decider. Minimization says your concern is small. Here the person says their own opinion is small. Denial refuses to admit a problem, and this one does not even stake out a position that could be denied.",
    "detection_notes": "A phrasing pattern exists in this tool's library for this tactic, but it is deliberately capped below the scoring threshold: this signal is too context-dependent and too easily produced innocently for text alone to establish intent. It is never scored.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -17092,7 +17092,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Arguing against the outcome you actually want, so that the other person's wish to resist or prove you wrong carries them to it.",
-   "expanded_definition": "Reverse psychology is the play of saying the opposite of what you want, hoping contrary feelings do the work. Used lightly, it is a familiar game with children, friends and in jokes. In a manipulative form, doubt or a dare is aimed at a person's pride or independence, so the choice they believe they made on their own was steered. Text alone cannot show which is happening, and a speaker may be honestly doubtful, which is why this is a watch-only entry and never a verdict.",
+   "expanded_definition": "Reverse psychology is saying the opposite of what you want, hoping contrary feelings do the work. Used lightly, it is a familiar game with children, friends and in jokes. In a manipulative form, doubt or a dare is aimed at a person's pride or independence. The choice they believe they made on their own was steered. Text alone cannot show which is happening, and a speaker may be honestly doubtful. That is why this is a watch-only entry and never a verdict.",
    "plain_language_summary": "Someone talks you out of something they actually want you to do, hoping you will argue back and choose it yourself.",
    "why_this_matters": "Your own resistance is what does the deciding, so a choice that felt like your own defiance may not have been yours at all. Over time you might lose track of which of your decisions were really yours.",
    "what_it_is": [
@@ -17113,7 +17113,7 @@
    "what_it_is_not": [
     "Playful teasing between friends who both know it is a game, such as 'you will never beat me at chess.'",
     "Honest doubt about your readiness, voiced out of concern, that the speaker would accept if you agreed with it.",
-    "A parent's mild trick with a toddler about eating vegetables, which is a common and openly understood game.",
+    "A parent's mild trick with a toddler about eating vegetables, a common game that is openly understood.",
     "A coach challenging you to prove yourself, with the goal stated openly and your success wanted either way.",
     "Plain reluctance to push you, in which the speaker truly would be fine with whichever way you choose."
    ],
@@ -17134,7 +17134,7 @@
    "innocent_or_ordinary_possibilities": [
     "A person who truly is unsure about your plan may voice doubt, without any aim of provoking a reaction.",
     "Teasing and challenges are an ordinary part of many friendships and families.",
-    "Someone reluctant to pressure you may speak in a low-key way that sounds like discouragement but is simply respect for your freedom."
+    "Someone who does not want to pressure you may speak in a low-key way. It can sound like discouragement but is simply respect for your freedom."
    ],
    "common_false_positives": [
     "A friend saying 'you will never finish that marathon' as a running joke, who cheers loudest at the finish line.",
@@ -17166,20 +17166,20 @@
    ],
    "repair_check": "Once you have named it, the useful change is that the speaker says what they want straight out and lets you answer. They may feel awkward saying it. If the dares simply change wording, or the teasing becomes more sophisticated after you raise it, the same approach has been repackaged.",
    "boundary_respect_check": "Try replying 'you may be right, I'll pass' and see what happens. If the response is relaxed, there was likely no hidden aim. If the speaker suddenly argues in favor of the very thing they discouraged, the doubt was probably serving a purpose.",
-   "psychological_mechanism": "People often resist feeling told what to do, a reaction sometimes called reactance, and a challenge to our ability can sharpen the urge to prove it wrong. Reverse psychology tends to lean on those habits, so that the decision feels like independence even when it has been shaped from outside. It is likely to land best where pride or rivalry is already in play.",
-   "possible_impact_on_receiver": "People describe an uneasy sense that choices they were proud of had been anticipated, doubt about which of their decisions were truly their own, and, afterward, irritation at having been steered. Some say they started second-guessing even sincere encouragement, and found it hard to trust kind words without searching for a motive.",
+   "psychological_mechanism": "People often resist feeling told what to do, a reaction sometimes called reactance. A challenge to our ability can sharpen the urge to prove it wrong. Reverse psychology can lean on those habits, so the decision seems independent even when it has been shaped from outside. It is likely to work best where pride or rivalry is already in play.",
+   "possible_impact_on_receiver": "People describe an uneasy sense that choices they were proud of had been anticipated. They doubt which of their decisions were truly their own, and afterward feel irritated at having been steered. Some say they started second-guessing even sincere encouragement, and found it hard to trust kind words without searching for a motive.",
    "response_options": {
     "soft_clarification": "Ask the speaker to say it directly: 'What do you actually want me to do here? I'd rather hear it straight.'",
     "firm_boundary": "Decline to rise to it: 'I don't make decisions to prove a point. I'll decide based on what I want.'",
     "disengagement": "If a dare lands, pause before replying. Let a day pass before agreeing to anything that was set up as a challenge.",
-    "support_seeking": "Describe the exchange to someone who knows both of you and ask whether they would have heard it as honest doubt or as a nudge.",
-    "workplace_or_professional": "When a manager discourages you in a way that might be provocation, ask for the actual expectation and the reasoning, and confirm any decision in writing."
+    "support_seeking": "Describe the exchange to someone who knows both of you. Ask whether they would have heard it as honest doubt or as a nudge.",
+    "workplace_or_professional": "When a manager discourages you in a way that might be provocation, ask for the actual expectation and the reasoning. Confirm any decision in writing."
    },
    "boundary_script": "\"If you'd like me to do this, say so plainly and I'll consider it. I'm not going to decide anything based on a dare, and I'm happy to hear honest reasons either way.\"",
-   "safety_note": "On its own this is a low-stakes move. It becomes worrying when the provocation steers you toward real risk to your money, health, or safety, or toward actions that give someone control of your housing, work or finances. If a pattern of dares has left you committed to something costly, a trusted adviser or legal aid can help you review it.",
+   "safety_note": "On its own this is a low-stakes move. It becomes worrying when the provocation steers you toward real risk to your money, health, or safety. It is also worrying when it steers you toward actions that give someone control of your housing, work or finances. If a pattern of dares has left you committed to something costly, a trusted adviser or legal aid can help you review it.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Because honest doubt and playful teasing look the same in text, accusing someone of reverse psychology on a single remark can wrongly cast a caring comment as scheming.",
+    "Honest doubt and playful teasing look the same in text. Accusing someone of reverse psychology over a single remark can wrongly cast a caring comment as scheming.",
     "Treating every discouragement as a trick can make it hard to accept genuine advice."
    ],
    "related_tactics": [
@@ -17212,13 +17212,13 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Doing exactly what was asked, to the letter, in a way that predictably defeats the point of the request.",
-   "expanded_definition": "Malicious compliance is carrying out an instruction so literally that the result fails the purpose behind it, while the person can still say they did as told. It tends to show up in workplaces and households after a disagreement, an unwelcome order or a criticism. The same outcome can come from an honest literal reading, a badly worded request or a rule that really does produce a bad result, so one case says little about why it happened. A pattern is the literal reading being chosen again and again, soon after friction.",
+   "expanded_definition": "Malicious compliance is carrying out an instruction so literally that the result misses the purpose behind it. The person can still say they did as told. It often shows up in workplaces and households after a disagreement, an unwelcome order or a criticism. The same outcome can come from an honest literal reading, a badly worded request or a rule that really does produce a bad result, so one case says little about why it happened. A pattern is the literal reading being chosen again and again, soon after friction.",
    "plain_language_summary": "You asked for something, you got exactly those words and nothing more, and the result is useless. It is hard to complain because the instruction was followed.",
-   "why_this_matters": "The person on the receiving end absorbs the failure with no clear grievance to name. The instruction was followed, so pointing at anything risks sounding unreasonable, and they are left wondering whether they asked badly.",
+   "why_this_matters": "The person on the receiving end absorbs the failure with no clear grievance to name. The instruction was followed, so pointing at anything risks sounding unreasonable. They are left wondering whether they asked badly.",
    "what_it_is": [
     "Meeting the exact wording of a request while its obvious purpose goes unmet.",
     "Often appears after an order the person disagreed with, a rebuke, or a change they were not consulted on.",
-    "Can involve rules as well as requests, such as applying every written procedure to the letter when everyone knows a shortcut would have worked.",
+    "Can involve rules as well as requests. An example is following every written procedure to the letter when everyone knows a shortcut would have worked.",
     "Leaves the asker holding a result that is correct on paper and wrong in practice.",
     "Hard to dispute, because the person can point to the instruction exactly as it was given."
    ],
@@ -17240,7 +17240,7 @@
     "Weak results from someone who lacked the context or skill and tried their best."
    ],
    "this_may_be_it_when": [
-    "The literal reading is one almost nobody would choose, from a person who usually understands unspoken context well.",
+    "The literal reading is one almost nobody would choose, and it comes from a person who usually understands unspoken context well.",
     "It begins soon after a disagreement, a criticism, or an order they objected to.",
     "When the result fails, the person seems pleased or flatly satisfied rather than puzzled.",
     "After you explain the purpose plainly, the next result is still literal in the same way, or in a new way.",
@@ -17277,7 +17277,7 @@
     "It happened once, in a rushed week, off a rushed instruction."
    ],
    "more_concerning_if": [
-    "The person reads instructions loosely and sensibly when it suits them, and rigidly only on tasks they objected to.",
+    "The person reads instructions loosely and sensibly when it suits them. They read them rigidly only on tasks they objected to.",
     "The failures land at the moments where they cost the most, such as the hour before a deadline.",
     "Asking for clarification gets 'you said what you said', and the next request goes the same way."
    ],
@@ -17287,19 +17287,19 @@
     "Routine requests begin to need follow-up checks that they never needed before.",
     "You build up a set of 'I did what you asked' exchanges that are hard to describe to anyone else."
    ],
-   "repair_check": "Once you have explained a task's purpose, the next one comes back sensibly done, together with a plain acknowledgment of what went wrong the last time. Quick agreement to every instruction, followed by the same exact-words result, means the pattern is still running.",
+   "repair_check": "After you explain a task's purpose, the next one comes back sensibly done. The person also plainly admits what went wrong last time. Quick agreement to every instruction, followed by the same exact-words result, means the pattern is still running.",
    "boundary_respect_check": "Ask yourself what changes after you say you want the purpose honored as well as the wording. Do tasks begin arriving fit for use, or does the answer become 'then say so next time'?",
    "psychological_mechanism": "An instruction can be treated as a contract, and meeting its words gives a person cover. Disagreement can then be expressed through the outcome instead of through a conversation. This can happen when someone feels unable to refuse openly, felt unheard when they objected, or was blamed for earlier judgment calls. The asker then sees only a failed task, not the disagreement beneath it.",
-   "possible_impact_on_receiver": "People describe becoming stiff and over-specific in how they ask, wondering whether they phrased something badly, and carrying the cost of the failed work themselves. Some start to dread delegating or hold back from making requests. Others describe feeling oddly unable to complain, since the instruction was carried out.",
+   "possible_impact_on_receiver": "People describe becoming stiff and over-specific in how they ask. They wonder whether they phrased something badly, and they carry the cost of the failed work themselves. Some start to dread delegating or hold back from making requests. Others describe feeling oddly unable to complain, since the instruction was carried out.",
    "response_options": {
-    "soft_clarification": "Name the purpose, not only the task: 'What I need is a handout people can use tonight. Will this do that?' Then see whether the next version fits.",
+    "soft_clarification": "Name the purpose as well as the task: 'What I need is a handout people can use tonight. Will this do that?' Then see whether the next version fits.",
     "firm_boundary": "State the standard you expect: 'I need the work to meet the goal, not just the wording. If a step won't get us there, tell me before you do it.'",
     "disengagement": "Stop writing longer and longer instructions to close each loophole. Give the goal, check the result once, and move the task elsewhere if it keeps failing.",
-    "support_seeking": "Describe two or three of the instructions and results to a colleague or friend who knows both of you, and ask whether they would have read your request the way you meant it.",
+    "support_seeking": "Describe two or three of the instructions and results to a colleague or friend who knows both of you. Ask whether they would have read your request the way you meant it.",
     "workplace_or_professional": "Put the goal and deadline in writing and invite questions up front. If it recurs, take dated examples of outcomes to your manager, and leave guesses about motive out of it."
    },
    "boundary_script": "\"When I ask for something, I need it to do the job, not just match my words. If my wording is unclear, ask me before you start. If you disagree with the request, tell me, and we can sort it out.\"",
-   "safety_note": "Sloppy work done to spite you is friction over work or chores, not a danger signal. That changes if the failures involve a skipped safety step, a missed medication, or work that puts your job at risk without being traceable to you. Then record dates and outcomes, and report the safety step to a supervisor, safety officer or union rep.",
+   "safety_note": "Sloppy work done to spite you is friction over work or chores, not a danger signal. That changes if the failures involve a skipped safety step or a missed medication. It also changes if work that puts your job at risk cannot be traced to you. Then record dates and outcomes, and report the safety step to a supervisor, safety officer or union rep.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Calling a literal reading 'malicious' assumes a motive you cannot see. Someone who takes words at face value, or who was burned for guessing, can be accused of sabotage when they are being careful.",
@@ -17335,12 +17335,12 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Pointing to a good character or past good deeds as a reason the present complaint does not need an answer.",
-   "expanded_definition": "As used here, moral licensing is offering someone's good reputation or earlier kindness in place of an answer to what is being raised now. Psychologists also use the term for a tendency to feel freer to act badly after doing something good, which can happen quietly with no conversation at all. In an exchange it shows when a complaint about Tuesday is met with a list of what was done for years. One mention of a record is ordinary context. The pattern is the record regularly taking the place of the answer.",
-   "plain_language_summary": "Instead of talking about what you raised, the other person reminds you how good they are or what they have done for you, and your complaint is left sitting there.",
-   "why_this_matters": "A specific, current complaint goes unanswered because the conversation turns into a ruling on someone's overall goodness. The person who raised it never asked that question and cannot win it, and the original problem stays exactly where it was.",
+   "expanded_definition": "As used here, moral licensing is offering someone's good reputation or earlier kindness in place of an answer to what is being raised now. Psychologists also use the term for a tendency to feel freer to act badly after doing something good. That can happen quietly, with no conversation at all. In an exchange it shows when a complaint about Tuesday is met with a list of what was done for years. One mention of a record is ordinary context. The pattern is the record regularly taking the place of the answer.",
+   "plain_language_summary": "Instead of talking about what you raised, the other person reminds you how good they are or what they have done for you. Your complaint is left sitting there.",
+   "why_this_matters": "A specific, current complaint goes unanswered because the conversation turns into a ruling on someone's overall goodness. The person who raised it never asked that question and cannot win it. The original problem stays exactly where it was.",
    "what_it_is": [
     "A swap: a record of past good conduct is placed where an answer to the current complaint should be.",
-    "Draws on many kinds of credit, such as years of service, donations, a clean record, belonging to a respected group, or favors done for you.",
+    "Can draw on many kinds of credit. Examples are years of service, donations, a clean record, belonging to a respected group, or favors done for you.",
     "Can come from others who vouch for the person, as in 'he would never do that'.",
     "Sets up a false choice, where agreeing the complaint is fair seems to mean calling the person bad.",
     "Different from the research finding, which describes a private shift in behavior rather than something said aloud."
@@ -17378,11 +17378,11 @@
    ],
    "innocent_or_ordinary_possibilities": [
     "Hurt at being misjudged can make anyone reach for their best moments.",
-    "People sometimes cite their history because they sincerely believe it shows this was a mistake and not typical.",
+    "People sometimes cite their history because they sincerely believe it shows this was a mistake that is not typical of them.",
     "In some workplaces and cultures, reputation and standing are the normal way to discuss someone's conduct."
    ],
    "common_false_positives": [
-    "A character reference in a formal setting, such as a hearing or a reference check, where track record is the question.",
+    "A character reference in a formal setting, such as a hearing or a reference check, where the question is their track record.",
     "A friend you complained about who says 'I'd hate to think I've let you down after all this time', and then asks what happened.",
     "Someone speaking warmly about a person accused in public, who has nothing to dodge themselves."
    ],
@@ -17410,18 +17410,18 @@
     "Others in the group start to treat the person as beyond question."
    ],
    "repair_check": "Their own words name the specific event back to you before any mention of their record. If history comes in afterwards as context and the event still gets addressed, the exchange has moved. A longer list of credentials on the second try has not changed anything.",
-   "boundary_respect_check": "Notice whether saying 'I'm asking about Tuesday, not about your whole character' changes their next reply. Watch for a move from the list to the event, or for the list getting longer along with a hint that you are being unfair to ask.",
-   "psychological_mechanism": "A person's good standing can work as a shortcut for deciding what is likely: someone kind seems unlikely to have done harm. Listeners may discount a complaint, and the person making it, before checking the facts. The speaker can also be reassured by their own record, which may make an uncomfortable complaint feel like an error rather than information.",
+   "boundary_respect_check": "Notice whether saying 'I'm asking about Tuesday, not about your whole character' changes their next reply. Watch for a move from the list to the event. Also watch for the list getting longer, along with a hint that you are being unfair to ask.",
+   "psychological_mechanism": "A person's good standing can work as a shortcut for deciding what is likely: someone kind seems unlikely to have done harm. Listeners may discount a complaint, and the person making it, before checking the facts. The speaker can also be reassured by their own record, which may lead them to treat an uncomfortable complaint as an error instead of information.",
    "possible_impact_on_receiver": "Accounts of this often include guilt for raising something real, and extra caution about raising it again. Some doubt whether they have the right to complain, given what the person has done for them. Others are left with a small, specific problem that was never discussed and a large, vague sense of having been ungrateful.",
    "response_options": {
     "soft_clarification": "Acknowledge the record and return to the point: 'I know you've done a lot, and that's not what I'm asking about. I'm asking about what happened on Tuesday.'",
     "firm_boundary": "Refuse to let the complaint become a vote on their character: 'I'm not asking you to be a bad person. I'm asking you to answer this one thing.'",
     "disengagement": "If the list of achievements begins, stop competing with it. Say you will leave it there for now, then return later in writing with the one specific request.",
-    "support_seeking": "Ask someone who knows you both whether they can hold two things at once: that this person has done real good, and that this event still needs an answer.",
-    "workplace_or_professional": "Describe the event and its effect factually, leave their reputation out of it, and ask for the specific action you need, so a good name has nothing to answer."
+    "support_seeking": "Ask someone who knows you both whether they can hold two things at once. This person has done real good, and this event still needs an answer.",
+    "workplace_or_professional": "Describe the event and its effect factually. Leave their reputation out of it, and ask for the specific action you need, so a good name has nothing to answer."
    },
    "boundary_script": "\"I believe you've done a lot of good, and I'm not asking you to prove it. I'm asking about one thing that happened. Can we talk about that first, and then talk about everything else if you like?\"",
-   "safety_note": "Not a danger signal alone. It deserves more care where good standing is itself the source of power: a respected leader, clergy member, coach or senior colleague whose reputation makes complaints unlikely to be believed. There, keep dated notes. Take the complaint to an outside body, such as an ombudsperson (an independent complaints officer), regulator or independent reporting line, not to the person's own circle.",
+   "safety_note": "On its own this is not a danger signal. It deserves more care where good standing is itself the source of power. Examples are a respected leader, clergy member, coach or senior colleague whose reputation makes complaints unlikely to be believed. In those cases, keep dated notes. Take the complaint to an outside body, such as an ombudsperson (an independent complaints officer), regulator or independent reporting line, not to the person's own circle.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Not every mention of a good record is an evasion. Using the label on someone sincerely hurt by an accusation can shut them out of a fair hearing.",
@@ -17435,7 +17435,7 @@
     "Denial",
     "Minimization"
    ],
-   "how_to_distinguish_from_related": "A flat Denial says the thing did not occur; licensing can concede there is a complaint and answer it with reputation. Blame-Shifting hands the fault to you, while licensing leaves fault unmentioned and puts the speaker's goodness on the table, which can leave you feeling in debt. Minimization makes the harm small, whereas licensing swaps in a different question: are they a good person?",
+   "how_to_distinguish_from_related": "A flat Denial says the thing did not occur. Licensing can concede there is a complaint and answer it with reputation. Blame-Shifting hands the fault to you, while licensing leaves fault unmentioned and puts the speaker's goodness on the table, which can leave you feeling in debt. Minimization makes the harm small, whereas licensing swaps in a different question: are they a good person?",
    "detection_notes": "A phrasing pattern exists in this tool's library for this tactic, but it is deliberately capped below the scoring threshold: this signal is too context-dependent and too easily produced innocently for text alone to establish intent. It is never scored.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -17452,19 +17452,19 @@
    "branch": "watch",
    "category": "Idealization structural",
    "detectability_note": "This tool can technically match phrasing linked to this tactic, but text alone cannot reliably establish intent here — the same words are too easily produced by an innocent explanation. It is shown as low-signal information only and is never scored.",
-   "core_meaning": "Putting yourself down or sounding modest at the moment criticism is due, so the other person ends up comforting you instead of raising their concern.",
+   "core_meaning": "Running yourself down or sounding modest when criticism is due, so that the other person ends up comforting you rather than raising their concern.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Putting yourself down or sounding modest at the moment criticism is due, so the other person ends up comforting you instead of raising their concern.",
-   "expanded_definition": "Strategic self-deprecation, or performed humility, is harsh self-criticism or modest talk that lands just as a concern is about to be raised. The listener turns to reassure, and the concern goes unsaid. Self-criticism is common and often sincere, so one instance says little about timing. What stands out is repetition at the same moment, a concern that never gets its turn, and a listener who keeps leaving as the comforter. It describes how an exchange looks, not what anyone feels inside.",
+   "short_definition": "Running yourself down or sounding modest when criticism is due, so that the other person ends up comforting you rather than raising their concern.",
+   "expanded_definition": "Strategic self-deprecation, or performed humility, is harsh self-criticism or modest talk that lands just as a concern is about to be raised. The listener turns to reassure, and the concern goes unsaid. Self-criticism is common and often sincere, so one instance says little about timing. What stands out is repetition at the same moment. The concern never gets its turn, and the listener keeps ending up as the comforter. It describes how an exchange looks, not what anyone feels inside.",
    "plain_language_summary": "Just as you start to raise a problem, they say how awful or hopeless they are. You end up cheering them up, and the problem goes unsaid.",
    "why_this_matters": "You arrive with a concern and leave having given reassurance. The thing you came to say never gets said, and you may feel unkind for having wanted to say it. Over months, small concerns can pile up unspoken.",
    "what_it_is": [
     "Self-criticism or modest talk that appears right when a complaint, question or piece of feedback is about to be voiced.",
-    "Two labels for the same move: 'self-deprecation' stresses the putting-down, 'performed humility' stresses the modest tone, and both show up in the same spot in the conversation.",
-    "A turn in the conversation where the person who came with a concern becomes the helper, offering comfort or a compliment instead.",
-    "Found at work in review meetings, in couples when a chore or promise is raised, and among friends when a late reply or a missed event comes up.",
+    "Two labels for the same move: 'self-deprecation' stresses the putting-down, 'performed humility' stresses the modest tone. Both show up in the same spot in the conversation.",
+    "A point in the conversation where the person who came with a concern turns into the helper and offers comfort or a compliment instead.",
+    "Found at work in review meetings. Also found in couples when a chore or promise is raised, and among friends when a late reply or a missed event comes up.",
     "Judged by where it falls and what follows, since the same sentence in a calm moment can be plain honesty."
    ],
    "what_it_sounds_like": [
@@ -17479,9 +17479,9 @@
    "what_it_is_not": [
     "Genuine humility and self-aware humor. Plenty of people joke about their flaws with no concern waiting to be raised, and the joke changes nothing about what happens next.",
     "Someone who is truly ashamed and spirals when a mistake is pointed out. Their distress is real, and it can still be a reason to slow the conversation rather than a sign of strategy.",
-    "A person who takes responsibility, such as 'I dropped the ball, here's what I'll change.' Naming a fault and then dealing with it is the opposite of deflecting.",
+    "Someone who takes responsibility, as in 'I dropped the ball, here's what I'll change.' Naming a fault and then fixing it is the opposite of deflecting.",
     "Modest talk from someone raised to avoid sounding proud, who plays down real achievements in every setting.",
-    "Depression or low self-esteem, where harsh self-talk shows up all day and not only when feedback is due."
+    "Depression or low self-esteem, where harsh self-talk shows up all day, including times when no feedback is due."
    ],
    "this_may_be_it_when": [
     "The self-criticism arrives within a sentence or two of you starting a hard subject.",
@@ -17504,7 +17504,7 @@
    ],
    "common_false_positives": [
     "A colleague who says 'I'm terrible at spreadsheets' and then asks for help with them.",
-    "A friend going through a rough patch whose self-criticism has increased everywhere, not only around feedback.",
+    "A friend going through a rough patch whose self-criticism has increased in every area of life, including times with no feedback.",
     "An apology that includes real self-blame and is followed by a change in behavior."
    ],
    "discernment_questions": [
@@ -17530,23 +17530,23 @@
     "The same issue returns because the earlier talks ended in reassurance and not in a decision.",
     "You feel guilty after conversations that you started to fix something."
    ],
-   "repair_check": "Once you raise the concern again, it gets its turn: the person listens to the whole thing, says what they will do differently, and does it. A warm exchange where you do the soothing and nothing changes has not repaired anything.",
+   "repair_check": "When you raise the concern again, it gets its turn. The person listens to the whole thing, says what they will do differently, and does it. A warm exchange where you do the soothing and nothing changes has not repaired anything.",
    "boundary_respect_check": "Try saying 'I'd like to finish my point first.' Someone who can sit with their discomfort while you talk is honoring it. A louder self-criticism, or a question about why you are being so harsh, means the point is still blocked.",
-   "psychological_mechanism": "Most people feel pulled to comfort someone who sounds hurt, and many feel unkind pressing a point against visible distress. Self-criticism can set off that pull: arguing with it feels like kicking someone, so the listener's attention moves from the concern to the person's feelings. Repeated, the listener may learn to avoid the subject in advance.",
-   "possible_impact_on_receiver": "People describe leaving conversations feeling oddly guilty, holding concerns for weeks because the right moment never comes, and doubting whether their complaint was fair. Some find themselves praising someone to stop their distress, then feel resentful afterwards and unsure why.",
+   "psychological_mechanism": "Most people feel pulled to comfort someone who sounds hurt, and many feel unkind pressing a point against visible distress. Self-criticism can set off that pull. Arguing with it seems as cruel as kicking someone, so the listener's attention moves from the concern to the person's feelings. Repeated, the listener may learn to avoid the subject in advance.",
+   "possible_impact_on_receiver": "People describe leaving conversations feeling oddly guilty. They hold concerns for weeks because the right moment never comes, and they doubt whether their complaint was fair. Some find themselves praising someone to stop their distress, then feel resentful afterwards and unsure why.",
    "response_options": {
     "soft_clarification": "Acknowledge the feeling, then return to the point: 'I can tell this is hard to hear. I still need to say one thing, and then we can talk about how you're feeling.'",
-    "firm_boundary": "Say you will not take on the comforting role right now: 'I care about you, and I'm not going to reassure you before I've said what I came to say.'",
-    "disengagement": "If the self-criticism keeps filling the whole conversation, put your concern in a short message or note, so it can be read without any performance around it.",
+    "firm_boundary": "Say that you will not take on the comforting role right now. For example: 'I care about you, and I'm not going to reassure you before I've said what I came to say.'",
+    "disengagement": "If the self-criticism keeps filling the whole conversation, put your concern in a short message or note. It can then be read without any performance around it.",
     "support_seeking": "Tell a friend you trust what you wanted to raise and ask them to check whether it sounds fair. It helps you see that the concern was reasonable all along.",
-    "workplace_or_professional": "In reviews, write feedback down in advance and send it as well as saying it, and ask for one agreed next step at the end of the meeting."
+    "workplace_or_professional": "In reviews, write feedback down in advance and send it as well as saying it. Ask for one agreed next step at the end of the meeting."
    },
    "boundary_script": "\"You feel awful, and I'm not dismissing that. I'd still like to say what I came to say first. After that, I'm glad to talk about how you're feeling.\"",
-   "safety_note": "Constant self-criticism from someone else is an uncomfortable habit and not a danger signal. It would change if the self-criticism becomes threats of self-harm whenever you raise something, which needs real support. Stay with the person if you can, and contact a crisis line or someone close to them so you are not the only one responding.",
+   "safety_note": "Constant self-criticism from someone else is an uncomfortable habit and not a danger signal. That changes if it turns into threats of self-harm whenever you raise something. That needs real support. Stay with the person if you can. Contact a crisis line or someone close to them, so you are not the only one responding.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Treating any self-critical person as a schemer punishes people who are anxious, ashamed or depressed. Check the timing across many moments before using this label.",
-    "Telling someone 'you're only putting yourself down to avoid criticism' in the middle of their distress is itself a way of closing the conversation."
+    "Treating every self-critical person as a schemer punishes people who are anxious, ashamed or depressed. Before using this label, check the timing across many moments.",
+    "Saying 'you're only putting yourself down to avoid criticism' to someone in the middle of their distress closes the conversation too."
    ],
    "related_tactics": [
     "Credential-Costuming",
@@ -17571,14 +17571,14 @@
    "branch": "watch",
    "category": "Confusion / rhetoric",
    "detectability_note": "This tool can technically match phrasing linked to this tactic, but text alone cannot reliably establish intent here — the same words are too easily produced by an innocent explanation. It is shown as low-signal information only and is never scored.",
-   "core_meaning": "Planting an interpretation of a person or event in someone's mind ahead of time, so that what they later see gets read through it.",
+   "core_meaning": "Giving someone an interpretation of a person or event before they see it themselves, so what they notice afterward fits that view.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Planting an interpretation of a person or event in someone's mind ahead of time, so that what they later see gets read through it.",
-   "expanded_definition": "Priming, or narrative seeding, is the quiet handing over of a conclusion before the evidence arrives. A remark in the hallway, a story told before a visit, a heads-up before a meeting: each sets a lens, and the later event is read through it. One warning from a friend who cares may be only that. What makes it worth noticing is the order, with the frame placed first and the facts second, and later events that keep landing on the same reading. From one message you usually cannot tell, because you cannot see what was said before.",
-   "plain_language_summary": "Someone tells you what to think about a person or event before you have seen it yourself, and then what you see seems to prove it.",
-   "why_this_matters": "You read an event through a lens you never chose and mistake a supplied conclusion for your own judgment. The frame is hardest to question because it arrived before the evidence did, so by the time you look, you already know what you expect to see.",
+   "short_definition": "Giving someone an interpretation of a person or event before they see it themselves, so what they notice afterward fits that view.",
+   "expanded_definition": "Priming, or narrative seeding, is the quiet handing over of a conclusion before the evidence arrives. A remark in the hallway, a story told before a visit, a heads-up before a meeting: each sets a lens, and the later event is read through it. One warning from a friend who cares may be only that. What makes it worth noticing is the order, with the frame placed first and the facts second. Later events also keep landing on the same reading. From one message you usually cannot tell, because you cannot see what was said before.",
+   "plain_language_summary": "Someone tells you what to think about a person or event before you have seen it yourself. Then what you see seems to prove it.",
+   "why_this_matters": "You read an event through a lens you never chose and mistake a supplied conclusion for your own judgment. The frame is hardest to question because it arrived before the evidence did. By the time you look, you already know what you expect to see.",
    "what_it_is": [
     "A remark placed just before an encounter: 'Just so you know, she can get prickly' said as you walk into a meeting with her.",
     "A story told before a visit, hearing, interview or first date that tells you how to read the person you are about to meet.",
@@ -17616,7 +17616,7 @@
     "They tell you in the same breath what the other person does well.",
     "They say 'ignore me if it turns out differently' and then actually let it.",
     "You had formed the same impression on your own before hearing anything.",
-    "The remark is practical information about the setting, such as parking, deadlines or who has authority to decide."
+    "The remark gives practical information about the setting, such as parking, deadlines or who has authority to decide."
    ],
    "innocent_or_ordinary_possibilities": [
     "People pass on context because they care about you and want the first meeting to go smoothly.",
@@ -17652,15 +17652,15 @@
     "The person described meets wariness they cannot trace to anything they did.",
     "Your own impression has drifted toward the advance description, and you can no longer say which part came from experience."
    ],
-   "repair_check": "Repair here means going back to the people who were given the frame and correcting it: saying what was opinion, what was fact, and what is not known. Quietly dropping the subject, while the earlier framing stays in everyone's head, leaves the lens in place.",
+   "repair_check": "Repair here means going back to the people who were given the frame and correcting it. That means saying what was opinion, what was fact, and what is not known. Quietly dropping the subject leaves the lens in place, because the earlier framing stays in everyone's head.",
    "boundary_respect_check": "Ask yourself what happens when you say you would like to form your own view. A reply like 'fair enough', followed by a change in how they talk, suggests the request was heard. More advance commentary, now with a note that you are naive, suggests it was not.",
    "psychological_mechanism": "People tend to look for what they were told to expect. Once a story is in place, ambiguous behavior can be sorted into it and contrary behavior explained away as an exception. Because the story arrived as information and not as pressure, the listener may remember adopting it freely. It tends to work better when the source is trusted and the encounter is unfamiliar.",
    "possible_impact_on_receiver": "People describe walking into a room already wary, then feeling puzzled at how readily a stranger's behavior seemed to match the warning. Some say they later realized their first impression had never really been tested. A person described in advance can meet coolness they cannot explain, and may start changing how they act to shake it off.",
    "response_options": {
-    "soft_clarification": "Ask where it comes from: 'What did you see that makes you say that?' A specific answer is something you can weigh, and a vague one tells you how much weight to give it.",
+    "soft_clarification": "Ask where it comes from: 'What did you see that makes you say that?' A specific answer is something you can weigh. A vague one tells you how much weight to give it.",
     "firm_boundary": "Say you will form your own view: 'Thanks, but I'd rather meet him without a briefing.'",
     "disengagement": "Change the subject when advance commentary starts, and let the meeting itself be the first evidence you collect.",
-    "support_seeking": "If you are the one being described, ask a trusted colleague or friend what has been said about you and who said it, so you know what to expect before you arrive.",
+    "support_seeking": "If you are the one being described, ask a trusted colleague or friend what has been said about you and who said it. That way you know what to expect before you arrive.",
     "workplace_or_professional": "At work, ask for facts in writing before a meeting about a person: dates, documents, who was there. Raise it with a manager or HR if opinions about someone are circulating before they can respond."
    },
    "boundary_script": "\"I appreciate the heads-up, but I'd like to meet her without it. If something specific happened, tell me what and when, and I'll weigh it myself. Otherwise I'll make up my own mind.\"",
@@ -17678,7 +17678,7 @@
     "Accountability Evasion via Diagnosis",
     "Trash-Can Diagnosis"
    ],
-   "how_to_distinguish_from_related": "Credibility Theft aims advance word at one thing, whether you can be believed as a witness; priming can set any interpretation, including of an event, and does not need to attack anyone's honesty. Frame Assassination swaps out a frame in the middle of a conversation, while priming places one before the conversation starts. Authority Hijack tells you what you feel, whereas priming tells you what you will see in someone else.",
+   "how_to_distinguish_from_related": "Credibility Theft aims advance word at one thing: whether you can be believed as a witness. Priming can set any interpretation, including of an event, and does not need to attack anyone's honesty. Frame Assassination swaps out a frame in the middle of a conversation, while priming places one before the conversation starts. Authority Hijack tells you what you feel, whereas priming tells you what you will see in someone else.",
    "detection_notes": "A phrasing pattern exists in this tool's library for this tactic, but it is deliberately capped below the scoring threshold: this signal is too context-dependent and too easily produced innocently for text alone to establish intent. It is never scored.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -17695,14 +17695,14 @@
    "branch": "pattern",
    "category": "Attachment & Affection Control",
    "detectability_note": "This tool cannot detect this from a single line. It only becomes visible as a shape across a whole conversation over time (rhythm, cycles, timing) — repeated context is required. It is never scored and never raises the index on its own.",
-   "core_meaning": "Swinging between closeness and distance in repeating cycles, so the other person keeps working to get back to the warm stretch.",
+   "core_meaning": "A repeating cycle of warmth and distance that leaves the other person working to get back to the warm stretch.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Swinging between closeness and distance in repeating cycles, so the other person keeps working to get back to the warm stretch.",
-   "expanded_definition": "Push-pull is a rhythm in a close relationship: a run of attention, plans and affection, then a sudden cooling with no clear reason, then a return to warmth. One cold week means little, since everyone has them. What marks it is a swing that repeats, a cold phase that tends to start right after you got close or asked for something, and a warm phase that comes back mainly when you pull away or work harder.",
-   "plain_language_summary": "Someone is very close, then suddenly distant, then close again, and you end up spending your energy trying to get back to the good part.",
-   "why_this_matters": "You start organizing your attention around a temperature you cannot predict, and you tend to read every cold spell as something you must have caused. That can crowd out your own plans, friendships and sleep.",
+   "short_definition": "A repeating cycle of warmth and distance that leaves the other person working to get back to the warm stretch.",
+   "expanded_definition": "Push-pull is a rhythm in a close relationship: a run of attention, plans and affection, then a sudden cooling with no clear reason, then a return to warmth. One cold week means little, since everyone has them. What marks it is a swing that repeats. The cold phase often starts right after you got close or asked for something. The warm phase comes back mainly when you pull away or work harder.",
+   "plain_language_summary": "Someone is very close, then suddenly distant, then close again. You end up spending your energy trying to get back to the good part.",
+   "why_this_matters": "You start arranging your attention around a temperature you cannot predict. You often read every cold spell as something you must have caused. That can crowd out your own plans, friendships and sleep.",
    "what_it_is": [
     "A repeating swing between a warm phase (daily contact, future talk, tenderness) and a cool phase (short replies, vague plans, slow answers).",
     "Cool phases that arrive without a stated reason, so you are left guessing what you did.",
@@ -17718,10 +17718,10 @@
     "\"Don't read into it. I'm just like this sometimes.\""
    ],
    "what_it_is_not": [
-    "A person who goes quiet under real pressure, such as a death in the family, an illness, or a work crunch, and tells you so.",
-    "An introvert who needs regular solitary time and says so plainly, with a predictable rhythm you can plan around.",
+    "A person who goes quiet under real pressure and tells you so. Examples are a death in the family, an illness, or a work crunch.",
+    "An introvert who needs regular time alone, says so plainly, and keeps a predictable rhythm you can plan around.",
     "Two people early in dating who are still working out how much contact suits each of them.",
-    "Ambivalence that is stated openly: 'I'm unsure about this' is hard to hear but is an honest message, not a cycle.",
+    "Ambivalence that is stated openly. 'I'm unsure about this' is hard to hear but is an honest message, not a cycle.",
     "A relationship with a real distance difference, such as shift work or time zones, where the gaps follow the schedule."
    ],
    "this_may_be_it_when": [
@@ -17739,14 +17739,14 @@
     "You are the one who tends to go cold, and they are simply responding to that."
    ],
    "innocent_or_ordinary_possibilities": [
-    "Someone managing depression, anxiety or burnout can swing in how much contact they can manage, without being aware of the effect on you.",
-    "A person afraid of commitment may approach and retreat out of their own fear, which is painful for you even though it is not about controlling you.",
-    "Life events such as a new job, a child, or a sick parent legitimately change availability from week to week."
+    "Someone dealing with depression, anxiety or burnout may be able to handle more contact on some days than others. They may not be aware of the effect on you.",
+    "A person afraid of commitment may approach and retreat out of their own fear. That is painful for you even though it is not about controlling you.",
+    "Life events like a new job, a child or a sick parent can honestly change how available someone is from week to week."
    ],
    "common_false_positives": [
     "Early dating where one of you is slower to commit and the contact is uneven for a few weeks.",
     "A long-distance relationship in which busy periods at work thin out the calls.",
-    "A friend who disappears for months at a time because that is how they treat everyone, not only you."
+    "A friend who disappears for months at a time because they do that with everyone, you included."
    ],
    "discernment_questions": [
     "Can you predict when the cool phase will start, and does it follow closeness or following a request from you?",
@@ -17771,23 +17771,23 @@
     "Friends comment that you check your phone constantly or seem anxious in a way you did not before.",
     "The warm stretches are shorter than they used to be, yet they still feel worth waiting for."
    ],
-   "repair_check": "Change here looks like steadier contact over months, plus a straight answer whenever they do need space: when they will be back in touch and why. A passionate reunion that resets everything, with the silence still unmentioned, only restarts the loop.",
-   "boundary_respect_check": "A week on from asking for steadier contact, what does the calendar show? Contact that really steadies is a good sign. Warmth that lasts only while you keep quiet, with the cool phase creeping back as you ease off, is an answer to your request too.",
-   "psychological_mechanism": "Closeness that comes and goes can make people watch for signs of the next change. When warmth returns after a gap, the relief can feel stronger than steady kindness would, which may tie a person more tightly to the one who gave it. Uncertainty tends to keep attention fixed on the relationship, and people often fill the unexplained gaps with self-blame.",
-   "possible_impact_on_receiver": "People describe constant low-level alertness around their phone, rehearsing messages, and putting friends and hobbies aside in case the warm phase arrives. Some say they began to feel they were too much when closeness was offered and not enough when it was taken away. Many describe confusion about whether the good moments or the bad ones were the real relationship.",
+   "repair_check": "Change here looks like steadier contact over months. It also looks like a straight answer whenever they do need space, including when they will be back in touch and why. A passionate reunion that resets everything, with the silence still unmentioned, only restarts the loop.",
+   "boundary_respect_check": "A week after you ask for steadier contact, what does the calendar show? Contact that really steadies is a good sign. Warmth that lasts only while you keep quiet, with the cool phase creeping back when you ease off, is also an answer to your request.",
+   "psychological_mechanism": "Closeness that comes and goes keeps people watching for signs of the next change. When warmth returns after a gap, the relief can feel stronger than steady kindness would, which may tie a person more tightly to the one who gave it. Uncertainty often keeps attention fixed on the relationship, and many people fill the unexplained gaps with self-blame.",
+   "possible_impact_on_receiver": "People describe staying on low-level alert around their phone, rehearsing messages, and putting friends and hobbies aside in case the warm phase arrives. Some say they began to feel they were too much when closeness was offered and not enough when it was taken away. Many are confused about whether the good moments or the bad ones were the real relationship.",
    "response_options": {
     "soft_clarification": "Describe what you notice without guessing at reasons: 'Some weeks we talk every day and some weeks I hear nothing. Can you tell me what's going on at your end?'",
     "firm_boundary": "Say what you will and will not do: 'I'm not available to wait through silences. If you need space, tell me how long, or I'll take it as an answer.'",
     "disengagement": "Stop replying within minutes during cool phases, return to your own plans, and notice how you feel when no one is setting the pace.",
     "support_seeking": "Show a friend the last two months of messages and ask what shape they see. Outsiders often spot the rhythm quicker than the person inside it.",
-    "workplace_or_professional": "If this is a colleague or supervisor who is friendly one week and cold the next, keep a dated note of what was said and ask in writing for clear expectations on your projects."
+    "workplace_or_professional": "If this is a colleague or supervisor who is friendly one week and cold the next, keep a dated note of what was said. Ask in writing for clear expectations on your projects."
    },
    "boundary_script": "\"I like you, and I can't do the hot-and-cold. Talking every few days at an ordinary pace works for me, and so does a heads-up when you need a break. If that doesn't suit you, I'll step back.\"",
-   "safety_note": "Alone, this rhythm is a source of distress, not physical danger. It becomes more serious if cold phases turn into threats. The same goes if you are told you will be abandoned for ordinary things such as seeing family, or if money or housing depends on their mood. Then tell one trusted person what is happening and speak to a counselor about making a plan that does not rely on their moods.",
+   "safety_note": "Alone, this rhythm is a source of distress, not physical danger. It becomes more serious if cold phases turn into threats. The same goes if you are told you will be abandoned for ordinary things such as seeing family, or if money or housing depends on their mood. Then tell one trusted person what is happening. Speak to a counselor about making a plan that does not rely on their moods.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Pinning the label on someone who is slow to text or who has real ambivalence can turn an honest 'I'm unsure' into a charge of manipulation.",
-    "Naming it in the middle of an argument as proof of a hidden game tends to shut down the very conversation that would clarify things."
+    "If you pin the label on someone who is slow to text or who is truly unsure, an honest 'I'm unsure' can become a charge of manipulation.",
+    "Naming it in the middle of an argument, as proof of a hidden game, often shuts down the very conversation that would clarify things."
    ],
    "related_tactics": [
     "Love Bombing",

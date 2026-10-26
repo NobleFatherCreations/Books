@@ -1,9 +1,9 @@
 {
   "Priming / Narrative Seeding": {
-    "short_definition": "Planting an interpretation of a person or event in someone's mind ahead of time, so that what they later see gets read through it.",
-    "expanded_definition": "Priming, or narrative seeding, is the quiet handing over of a conclusion before the evidence arrives. A remark in the hallway, a story told before a visit, a heads-up before a meeting: each sets a lens, and the later event is read through it. One warning from a friend who cares may be only that. What makes it worth noticing is the order, with the frame placed first and the facts second, and later events that keep landing on the same reading. From one message you usually cannot tell, because you cannot see what was said before.",
-    "plain_language_summary": "Someone tells you what to think about a person or event before you have seen it yourself, and then what you see seems to prove it.",
-    "why_this_matters": "You read an event through a lens you never chose and mistake a supplied conclusion for your own judgment. The frame is hardest to question because it arrived before the evidence did, so by the time you look, you already know what you expect to see.",
+    "short_definition": "Giving someone an interpretation of a person or event before they see it themselves, so what they notice afterward fits that view.",
+    "expanded_definition": "Priming, or narrative seeding, is the quiet handing over of a conclusion before the evidence arrives. A remark in the hallway, a story told before a visit, a heads-up before a meeting: each sets a lens, and the later event is read through it. One warning from a friend who cares may be only that. What makes it worth noticing is the order, with the frame placed first and the facts second. Later events also keep landing on the same reading. From one message you usually cannot tell, because you cannot see what was said before.",
+    "plain_language_summary": "Someone tells you what to think about a person or event before you have seen it yourself. Then what you see seems to prove it.",
+    "why_this_matters": "You read an event through a lens you never chose and mistake a supplied conclusion for your own judgment. The frame is hardest to question because it arrived before the evidence did. By the time you look, you already know what you expect to see.",
     "what_it_is": [
       "A remark placed just before an encounter: 'Just so you know, she can get prickly' said as you walk into a meeting with her.",
       "A story told before a visit, hearing, interview or first date that tells you how to read the person you are about to meet.",
@@ -41,7 +41,7 @@
       "They tell you in the same breath what the other person does well.",
       "They say 'ignore me if it turns out differently' and then actually let it.",
       "You had formed the same impression on your own before hearing anything.",
-      "The remark is practical information about the setting, such as parking, deadlines or who has authority to decide."
+      "The remark gives practical information about the setting, such as parking, deadlines or who has authority to decide."
     ],
     "innocent_or_ordinary_possibilities": [
       "People pass on context because they care about you and want the first meeting to go smoothly.",
@@ -77,15 +77,15 @@
       "The person described meets wariness they cannot trace to anything they did.",
       "Your own impression has drifted toward the advance description, and you can no longer say which part came from experience."
     ],
-    "repair_check": "Repair here means going back to the people who were given the frame and correcting it: saying what was opinion, what was fact, and what is not known. Quietly dropping the subject, while the earlier framing stays in everyone's head, leaves the lens in place.",
+    "repair_check": "Repair here means going back to the people who were given the frame and correcting it. That means saying what was opinion, what was fact, and what is not known. Quietly dropping the subject leaves the lens in place, because the earlier framing stays in everyone's head.",
     "boundary_respect_check": "Ask yourself what happens when you say you would like to form your own view. A reply like 'fair enough', followed by a change in how they talk, suggests the request was heard. More advance commentary, now with a note that you are naive, suggests it was not.",
     "psychological_mechanism": "People tend to look for what they were told to expect. Once a story is in place, ambiguous behavior can be sorted into it and contrary behavior explained away as an exception. Because the story arrived as information and not as pressure, the listener may remember adopting it freely. It tends to work better when the source is trusted and the encounter is unfamiliar.",
     "possible_impact_on_receiver": "People describe walking into a room already wary, then feeling puzzled at how readily a stranger's behavior seemed to match the warning. Some say they later realized their first impression had never really been tested. A person described in advance can meet coolness they cannot explain, and may start changing how they act to shake it off.",
     "response_options": {
-      "soft_clarification": "Ask where it comes from: 'What did you see that makes you say that?' A specific answer is something you can weigh, and a vague one tells you how much weight to give it.",
+      "soft_clarification": "Ask where it comes from: 'What did you see that makes you say that?' A specific answer is something you can weigh. A vague one tells you how much weight to give it.",
       "firm_boundary": "Say you will form your own view: 'Thanks, but I'd rather meet him without a briefing.'",
       "disengagement": "Change the subject when advance commentary starts, and let the meeting itself be the first evidence you collect.",
-      "support_seeking": "If you are the one being described, ask a trusted colleague or friend what has been said about you and who said it, so you know what to expect before you arrive.",
+      "support_seeking": "If you are the one being described, ask a trusted colleague or friend what has been said about you and who said it. That way you know what to expect before you arrive.",
       "workplace_or_professional": "At work, ask for facts in writing before a meeting about a person: dates, documents, who was there. Raise it with a manager or HR if opinions about someone are circulating before they can respond."
     },
     "boundary_script": "\"I appreciate the heads-up, but I'd like to meet her without it. If something specific happened, tell me what and when, and I'll weigh it myself. Otherwise I'll make up my own mind.\"",
@@ -95,8 +95,8 @@
       "Any advance warning can be called seeding. Treating every heads-up as a plot leaves you unable to take sincere advice, and the label cannot show what anyone meant.",
       "Suspecting that someone primed your friends can become its own lens, in which every cool reception proves the plot."
     ],
-    "how_to_distinguish_from_related": "Credibility Theft aims advance word at one thing, whether you can be believed as a witness; priming can set any interpretation, including of an event, and does not need to attack anyone's honesty. Frame Assassination swaps out a frame in the middle of a conversation, while priming places one before the conversation starts. Authority Hijack tells you what you feel, whereas priming tells you what you will see in someone else.",
-    "core_meaning": "Planting an interpretation of a person or event in someone's mind ahead of time, so that what they later see gets read through it."
+    "how_to_distinguish_from_related": "Credibility Theft aims advance word at one thing: whether you can be believed as a witness. Priming can set any interpretation, including of an event, and does not need to attack anyone's honesty. Frame Assassination swaps out a frame in the middle of a conversation, while priming places one before the conversation starts. Authority Hijack tells you what you feel, whereas priming tells you what you will see in someone else.",
+    "core_meaning": "Giving someone an interpretation of a person or event before they see it themselves, so what they notice afterward fits that view."
   },
   "Credibility Theft": {
     "short_definition": "Casting doubt on someone's reliability in advance, so whatever they later report is heard as doubtful before they have said it.",

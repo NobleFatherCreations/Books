@@ -481,14 +481,14 @@
  },
  "Sexual Coercion": {
   "short_definition": "Using pressure, guilt, obligation or implied consequences to push someone into sexual activity without their free consent.",
-  "expanded_definition": "Sexual coercion covers the many ways, short of physical force, that a person can be pushed into sex or sexual acts: repeated asking after a no, sulking or anger, guilt about what is owed, threats to end something, or leaning on a difference in power. Consent that is given to avoid a penalty, or to stop the asking, is not free consent. A single moment of disappointment is not coercion. The pattern shows when a no carries a cost, and the costs push the answer toward yes.",
+  "expanded_definition": "Sexual coercion covers the many ways, short of physical force, that a person can be pushed into sex or sexual acts. These include repeated asking after a no, sulking or anger, guilt about what is owed, threats to end something, or leaning on a difference in power. Consent given to avoid a penalty, or to stop the asking, is not free consent. A single moment of disappointment is not coercion. The pattern shows when a no carries a cost, and the costs push the answer toward yes.",
   "plain_language_summary": "Someone makes saying no costly, through guilt, anger, pressure or threats, until agreeing feels easier than refusing.",
-  "why_this_matters": "Saying yes under pressure is not the same as wanting to, and living with the difference can leave real marks: shame, numbness, loss of trust in your own signals. You are not to blame for what pressure made you do. Naming it can help restore your sense of your own limits.",
+  "why_this_matters": "Saying yes under pressure is not the same as wanting to. Living with that difference can leave real marks, like shame, numbness, or less trust in your own signals. You are not to blame for what pressure made you do. Naming it can help restore your sense of your own limits.",
   "what_it_is": [
    "Pressure to engage in a sexual act, delivered through guilt, anger, sulking, or repeated asking.",
-   "Consequences attached to a no, whether spoken or implied: a cold shoulder, a threat to leave, a withdrawal of money or help.",
+   "A cost attached to a no, whether spoken or implied, such as a cold shoulder, a threat to leave, or money or help taken away.",
    "Can be linked to a power gap, such as age, employment, money, or immigration status.",
-   "Includes pushing for acts you have already declined, and pressing during moments when you are tired, intoxicated or afraid.",
+   "Includes pushing for acts you have already declined, and pressing when you are tired, intoxicated or afraid.",
    "Often hard to name from the inside because no force was used."
   ],
   "what_it_sounds_like": [
@@ -501,11 +501,11 @@
    "You said you wanted to keep this job, didn't you?"
   ],
   "what_it_is_not": [
-   "Telling a partner honestly that you feel disappointed or want more closeness, and then accepting 'not tonight' without a penalty.",
+   "Telling a partner honestly that you are disappointed or want more closeness, then accepting 'not tonight' with no penalty.",
    "Flirting and asking once, with the other person free to decline and no change in the mood afterwards.",
    "Partners who talk openly about a mismatch in desire and work out together what to do about it.",
    "Changing your mind in the moment and saying so, with the other person stopping straight away.",
-   "Your own mixed feelings after saying yes, which can be worth talking over with a counselor but do not by themselves show that pressure occurred."
+   "Your own mixed feelings after saying yes. These can be worth talking over with a counselor, but they do not by themselves show that pressure occurred."
   ],
   "this_may_be_it_when": [
    "A no is followed by sulking, anger, guilt, or a threat, rather than acceptance.",
@@ -554,30 +554,30 @@
    "You feel dread, numbness, or relief when the other person is away.",
    "Refusals have become rare because you have learned what they cost."
   ],
-  "repair_check": "Where there has been pressure, repair starts with the person accepting a no with no sulking and no later reminder of it. Pay attention to whether they take responsibility for the pressure itself rather than for your reaction, and whether your no stays free of cost for weeks afterwards. Words alone, followed by more asking, are not it.",
+  "repair_check": "Where there has been pressure, repair starts with the person accepting a no with no sulking and no later reminder of it. Pay attention to whether they take responsibility for the pressure itself rather than for your reaction. Also notice whether your no stays free of cost for weeks afterwards. Words alone, followed by more asking, are not it.",
   "boundary_respect_check": "Ask yourself one thing after a no: did the mood, the money, or the manners toward you change afterwards? A respected no leaves the relationship as it was, perhaps with some disappointment. A no that is punished, argued with, or raised again the next day was treated as an opening bid.",
-  "psychological_mechanism": "When a refusal carries a cost, the mind may start to weigh the cost of saying no against the cost of going along, and tiredness, fear or dependence can tip that scale. Going along repeatedly can blur the line in your own head between what you chose and what you gave in to, which can make it hard to trust your own signals afterwards.",
+  "psychological_mechanism": "When a refusal carries a cost, the mind may start to weigh the cost of saying no against the cost of going along. Tiredness, fear or dependence can tip that scale. Going along again and again can blur the line in your own head between what you chose and what you gave in to. That can leave you unsure of your own signals afterwards.",
   "possible_impact_on_receiver": "Numbness, shame, going quiet during intimacy, dreading evenings and doubting whether they ever really wanted something are all described. Some say they only later realized they had been pressed, and struggled with whether it 'counted'. Many describe a loss of trust in their own judgment about what they want.",
   "response_options": {
    "soft_clarification": "Say your answer once, plainly, and stay in the conversation: 'I'm saying no, and I need that to be enough. I'd like to talk about what closeness looks like for us.'",
    "firm_boundary": "Keep to the answer without giving reasons: 'My answer is no, and it doesn't need a reason. I'd like you to stop asking tonight.'",
-   "disengagement": "If you can, change location or ask to pause the conversation until tomorrow, and use that time to think about who you can speak to privately. Do not announce plans.",
-   "support_seeking": "Speak on your own to a sexual assault or domestic abuse advocate, a counselor, or a trusted friend; many services answer by phone or chat and can help you think through what happened without pressure to act.",
-   "workplace_or_professional": "If it happens at work or school, write down dates, words and witnesses, and speak to HR, an ombudsperson (an independent complaints officer), a union representative, or legal aid about a confidential report."
+   "disengagement": "If you can, change location or ask to pause the conversation until tomorrow. Use that time to think about who you can speak to privately. Do not announce plans.",
+   "support_seeking": "Speak on your own to a sexual assault or domestic abuse advocate, a counselor, or a trusted friend. Many services answer by phone or chat. They can help you think through what happened without pressure to act.",
+   "workplace_or_professional": "If it happens at work or school, write down dates, words and witnesses. Speak to HR, an ombudsperson (an independent complaints officer), a union representative, or legal aid about a confidential report."
   },
   "boundary_script": "\"My answer is no, and I'd like that to be enough. I'm not able to talk about this right now. Can we pause here and leave it for tonight?\"",
   "safety_sensitive": true,
-  "safety_note": "Sexual pressure can sit alongside threats, stalking, control of money or housing, or force that escalates when a no is given. Warning signs include fear of what happens if you refuse, being cornered, and threats about images or reputation. Contact a sexual assault or domestic abuse hotline or an advocate to plan privately; call emergency services if you are in immediate danger.",
+  "safety_note": "Sexual pressure can sit alongside threats, stalking, control of money or housing, or force that escalates when a no is given. Warning signs include fear of what happens if you refuse, being cornered, and threats about images or reputation. Contact a sexual assault or domestic abuse hotline or an advocate to plan privately. Call emergency services if you are in immediate danger.",
   "misuse_warning": [
-   "Applying this label to a partner's honest disappointment, or to a single clumsy ask that was dropped at once, can blur it with serious harm and leave real cases harder to name.",
-   "Only the person on the receiving end can say what they did or did not freely agree to; outsiders and the label itself cannot decide it for them."
+   "Applying this label to a partner's honest disappointment, or to a single clumsy ask that was dropped at once, can blur it with serious harm. Real cases then get harder to name.",
+   "Only the person on the receiving end can say what they did or did not freely agree to. Outsiders and the label itself cannot decide it for them."
   ],
   "how_to_distinguish_from_related": "An ultimatum demands a choice and names a loss, while sexual coercion applies pressure to a specific intimate decision, often with the cost unspoken. Interrogation presses for explanations; here the pressure is for compliance. Urgency squeezes the time to decide, which may be one part of it. A false dilemma limits options. This tactic is the one aimed at consent itself.",
   "core_meaning": "Using pressure, guilt, obligation or implied consequences to push someone into sexual activity without their free consent."
  },
  "Reverse Psychology": {
   "short_definition": "Arguing against the outcome you actually want, so that the other person's wish to resist or prove you wrong carries them to it.",
-  "expanded_definition": "Reverse psychology is the play of saying the opposite of what you want, hoping contrary feelings do the work. Used lightly, it is a familiar game with children, friends and in jokes. In a manipulative form, doubt or a dare is aimed at a person's pride or independence, so the choice they believe they made on their own was steered. Text alone cannot show which is happening, and a speaker may be honestly doubtful, which is why this is a watch-only entry and never a verdict.",
+  "expanded_definition": "Reverse psychology is saying the opposite of what you want, hoping contrary feelings do the work. Used lightly, it is a familiar game with children, friends and in jokes. In a manipulative form, doubt or a dare is aimed at a person's pride or independence. The choice they believe they made on their own was steered. Text alone cannot show which is happening, and a speaker may be honestly doubtful. That is why this is a watch-only entry and never a verdict.",
   "plain_language_summary": "Someone talks you out of something they actually want you to do, hoping you will argue back and choose it yourself.",
   "why_this_matters": "Your own resistance is what does the deciding, so a choice that felt like your own defiance may not have been yours at all. Over time you might lose track of which of your decisions were really yours.",
   "what_it_is": [
@@ -598,7 +598,7 @@
   "what_it_is_not": [
    "Playful teasing between friends who both know it is a game, such as 'you will never beat me at chess.'",
    "Honest doubt about your readiness, voiced out of concern, that the speaker would accept if you agreed with it.",
-   "A parent's mild trick with a toddler about eating vegetables, which is a common and openly understood game.",
+   "A parent's mild trick with a toddler about eating vegetables, a common game that is openly understood.",
    "A coach challenging you to prove yourself, with the goal stated openly and your success wanted either way.",
    "Plain reluctance to push you, in which the speaker truly would be fine with whichever way you choose."
   ],
@@ -619,7 +619,7 @@
   "innocent_or_ordinary_possibilities": [
    "A person who truly is unsure about your plan may voice doubt, without any aim of provoking a reaction.",
    "Teasing and challenges are an ordinary part of many friendships and families.",
-   "Someone reluctant to pressure you may speak in a low-key way that sounds like discouragement but is simply respect for your freedom."
+   "Someone who does not want to pressure you may speak in a low-key way. It can sound like discouragement but is simply respect for your freedom."
   ],
   "common_false_positives": [
    "A friend saying 'you will never finish that marathon' as a running joke, who cheers loudest at the finish line.",
@@ -651,20 +651,20 @@
   ],
   "repair_check": "Once you have named it, the useful change is that the speaker says what they want straight out and lets you answer. They may feel awkward saying it. If the dares simply change wording, or the teasing becomes more sophisticated after you raise it, the same approach has been repackaged.",
   "boundary_respect_check": "Try replying 'you may be right, I'll pass' and see what happens. If the response is relaxed, there was likely no hidden aim. If the speaker suddenly argues in favor of the very thing they discouraged, the doubt was probably serving a purpose.",
-  "psychological_mechanism": "People often resist feeling told what to do, a reaction sometimes called reactance, and a challenge to our ability can sharpen the urge to prove it wrong. Reverse psychology tends to lean on those habits, so that the decision feels like independence even when it has been shaped from outside. It is likely to land best where pride or rivalry is already in play.",
-  "possible_impact_on_receiver": "People describe an uneasy sense that choices they were proud of had been anticipated, doubt about which of their decisions were truly their own, and, afterward, irritation at having been steered. Some say they started second-guessing even sincere encouragement, and found it hard to trust kind words without searching for a motive.",
+  "psychological_mechanism": "People often resist feeling told what to do, a reaction sometimes called reactance. A challenge to our ability can sharpen the urge to prove it wrong. Reverse psychology can lean on those habits, so the decision seems independent even when it has been shaped from outside. It is likely to work best where pride or rivalry is already in play.",
+  "possible_impact_on_receiver": "People describe an uneasy sense that choices they were proud of had been anticipated. They doubt which of their decisions were truly their own, and afterward feel irritated at having been steered. Some say they started second-guessing even sincere encouragement, and found it hard to trust kind words without searching for a motive.",
   "response_options": {
    "soft_clarification": "Ask the speaker to say it directly: 'What do you actually want me to do here? I'd rather hear it straight.'",
    "firm_boundary": "Decline to rise to it: 'I don't make decisions to prove a point. I'll decide based on what I want.'",
    "disengagement": "If a dare lands, pause before replying. Let a day pass before agreeing to anything that was set up as a challenge.",
-   "support_seeking": "Describe the exchange to someone who knows both of you and ask whether they would have heard it as honest doubt or as a nudge.",
-   "workplace_or_professional": "When a manager discourages you in a way that might be provocation, ask for the actual expectation and the reasoning, and confirm any decision in writing."
+   "support_seeking": "Describe the exchange to someone who knows both of you. Ask whether they would have heard it as honest doubt or as a nudge.",
+   "workplace_or_professional": "When a manager discourages you in a way that might be provocation, ask for the actual expectation and the reasoning. Confirm any decision in writing."
   },
   "boundary_script": "\"If you'd like me to do this, say so plainly and I'll consider it. I'm not going to decide anything based on a dare, and I'm happy to hear honest reasons either way.\"",
   "safety_sensitive": false,
-  "safety_note": "On its own this is a low-stakes move. It becomes worrying when the provocation steers you toward real risk to your money, health, or safety, or toward actions that give someone control of your housing, work or finances. If a pattern of dares has left you committed to something costly, a trusted adviser or legal aid can help you review it.",
+  "safety_note": "On its own this is a low-stakes move. It becomes worrying when the provocation steers you toward real risk to your money, health, or safety. It is also worrying when it steers you toward actions that give someone control of your housing, work or finances. If a pattern of dares has left you committed to something costly, a trusted adviser or legal aid can help you review it.",
   "misuse_warning": [
-   "Because honest doubt and playful teasing look the same in text, accusing someone of reverse psychology on a single remark can wrongly cast a caring comment as scheming.",
+   "Honest doubt and playful teasing look the same in text. Accusing someone of reverse psychology over a single remark can wrongly cast a caring comment as scheming.",
    "Treating every discouragement as a trick can make it hard to accept genuine advice."
   ],
   "how_to_distinguish_from_related": "An ultimatum forces a choice under threat; reverse psychology threatens nothing and pretends to hold back. A false dilemma narrows your options, while this tactic makes one option feel like your own idea. Interrogation demands answers and is openly forceful. Here the speaker seems to step back, which is what lets the push go unnoticed. The pull in this tactic comes from your resistance.",

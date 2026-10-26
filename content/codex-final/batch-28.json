@@ -387,15 +387,15 @@
     "how_to_distinguish_from_related": "Weaponized Therapy-Speak borrows clinical terms to win arguments between people with no professional role. Trash-Can Diagnosis hands out a mental health label as an insult. False Conclusion from Normal Labs rests on a test result rather than on your demeanor. Here the person with institutional standing is ruling on how you present, and the substance of the symptoms goes unexamined."
   },
   "False Conclusion from Normal Labs": {
-    "short_definition": "Treating a normal test result as proof that ongoing symptoms are not real, when the test could not have detected the cause of what the person describes.",
-    "core_meaning": "Treating a normal test result as proof that ongoing symptoms are not real, when the test could not have detected the cause of what the person describes.",
-    "expanded_definition": "A normal result means a test did not find the thing it measures. Often that is useful, because it rules something out. The pattern appears when that narrow result is stretched into a wide conclusion, such as 'there is nothing wrong', and continuing symptoms are set aside. Many conditions are missed by a standard blood panel, scan or single reading, or appear only at certain times. A professional who says 'this ruled out one cause, so let's think about the next' is not doing this. The pattern is a closed case on the strength of one number.",
-    "plain_language_summary": "The tests come back normal, and you are told that means nothing is wrong, even though you still feel unwell and the tests may not have looked at the right thing.",
-    "why_this_matters": "When symptoms are dismissed on the strength of one result, diagnosis can be delayed and you can be left in pain or exhaustion with nothing to try next. You may also begin to wonder whether what you feel is real.",
+    "short_definition": "This is when a normal test result is taken as proof that ongoing symptoms are not real. The test could not have found the cause of what the person describes.",
+    "core_meaning": "This is when a normal test result is taken as proof that ongoing symptoms are not real. The test could not have found the cause of what the person describes.",
+    "expanded_definition": "A normal result means a test did not find the thing it measures. Often that is useful, because it rules something out. The pattern appears when that narrow result is stretched into a wide conclusion, such as 'there is nothing wrong'. Then the symptoms that continue are set aside. Many conditions are missed by a standard blood panel, scan or single reading, or appear only at certain times. A professional who says 'this ruled out one cause, so let's think about the next' is not doing this. The pattern is a closed case on the strength of one number.",
+    "plain_language_summary": "The tests come back normal, and you are told that means nothing is wrong. You still feel unwell, and the tests may not have looked at the right thing.",
+    "why_this_matters": "When symptoms are dismissed because of one result, diagnosis can be delayed. You can be left in pain or exhaustion with nothing to try next. You may also begin to wonder whether what you feel is real.",
     "what_it_is": [
       "A narrow result, such as a single blood panel or one scan, presented as the answer to a broad question about how you feel.",
       "A conclusion that skips the middle step: the test excluded one cause, and nobody names what is still open.",
-      "Often followed by a nudge toward another label, such as stress or sleep, as the next stop in place of more investigation.",
+      "Often followed by a push toward another label, such as stress or sleep, instead of more investigation.",
       "Can involve a result inside a 'normal range' set for a wide population that is still unusual for you.",
       "Arrives when the person has brought repeated symptoms, not a single passing one."
     ],
@@ -409,7 +409,7 @@
       "If something were really wrong, it would show up by now."
     ],
     "what_it_is_not": [
-      "A normal result honestly explained as excluding a specific serious condition, followed by a plan for the symptoms that remain.",
+      "A normal result that is honestly explained as ruling out one specific serious condition, followed by a plan for the symptoms that remain.",
       "A provider saying 'we have not found the cause yet' and booking a follow-up.",
       "Symptoms that settle over time, as the earlier normal results had suggested.",
       "A clear statement of what the test cannot show, with an offer of other tests or monitoring.",
@@ -462,35 +462,35 @@
       "You stop mentioning the symptom, because the answer is already known.",
       "You start researching on your own and then feel unsure whether to say so."
     ],
-    "repair_check": "The sentence that matters is 'the tests are normal, and I still believe you.' A provider who adds a next step, such as a different test, a specialist, a symptom log or a check-in date, has reopened the question. A chart note that repeats the normal results has not.",
+    "repair_check": "The sentence that matters is 'the tests are normal, and I still believe you.' A provider who adds a next step has reopened the question. That could be a different test, a specialist, a symptom log or a check-in date. A chart note that repeats the normal results has not.",
     "boundary_respect_check": "Ask what the test was able to rule out and what it could not, and what you should do if the symptoms continue. A clear, specific reply respects the question. A shrug or a repetition of the result suggests the question did not land.",
-    "psychological_mechanism": "Numbers and written results carry a special trust, for the patient and for whoever reads them. A normal value can seem like objective proof against a feeling, which is hard to argue with in an exam room. If you have already been told your symptoms are stress, a normal result can seem to confirm it, and doubt about your own body can follow.",
-    "possible_impact_on_receiver": "A long stretch of being told you are fine while still unwell can mean collecting normal results, doubting your own sense of your body, and feeling relief mixed with frustration if a cause is eventually found. Some stop seeking care, and guilt about taking up appointments is common.",
+    "psychological_mechanism": "Numbers and written results carry special trust, for the patient and for whoever reads them. A normal value can look like objective proof against a feeling, and that is hard to argue with in an exam room. If you have already been told your symptoms are stress, a normal result can look like confirmation. Doubt about your own body can follow.",
+    "possible_impact_on_receiver": "After a long stretch of being told you are fine while still unwell, you may collect normal results and doubt your own sense of your body. If a cause is eventually found, you may feel relief mixed with frustration. Some people stop seeking care, and guilt about taking up appointments is common.",
     "response_options": {
       "soft_clarification": "Ask what the result does and does not rule out: 'What could this test have missed? What should we look at if I am still like this in a month?'",
-      "firm_boundary": "Ask for your continuing symptoms to be written in the record: 'I'd like my ongoing symptoms, and the fact that they continue despite normal results, documented in my chart.'",
+      "firm_boundary": "Ask the provider to write your continuing symptoms in the record. You could say: 'I'd like my ongoing symptoms, and the fact that they continue despite normal results, documented in my chart.'",
       "disengagement": "If the visit ends at 'all normal', thank them, keep the results, and book a second opinion rather than argue in the room.",
       "support_seeking": "Keep a dated symptom log and bring it, and a trusted person, to the next appointment. A patient advocate or a support group for your symptoms can tell you which other tests come up for them.",
-      "workplace_or_professional": "If you need time off or adjustments, ask the provider for a letter describing your symptoms and limits, since a normal lab report alone may be read by an employer as 'no illness'."
+      "workplace_or_professional": "If you need time off or adjustments, ask the provider for a letter describing your symptoms and limits. An employer may read a normal lab report alone as 'no illness'."
     },
     "boundary_script": "\"I'm glad those tests are normal, and my symptoms are still here. Could you tell me what the results rule out, what they don't, and what you suggest we try next?\"",
     "safety_sensitive": false,
-    "safety_note": "Normal results do not make warning signs safe. A fast-worsening symptom, fainting, heavy bleeding, new confusion or any change that frightens you needs to be seen urgently whatever earlier tests showed. Ask for a senior clinician or go to an urgent care or emergency department, and tell them about the earlier results and that the symptoms have continued.",
+    "safety_note": "Normal results do not make warning signs safe. A fast-worsening symptom, fainting, heavy bleeding, new confusion or any change that frightens you needs to be seen urgently, whatever earlier tests showed. Ask for a senior clinician, or go to urgent care or an emergency department. Tell them about the earlier results and that the symptoms have continued.",
     "misuse_warning": [
       "Calling every reassuring result 'false' can make it harder to accept real good news, and some symptoms do pass on their own.",
-      "Using this label to reject a clinician who has explained their reasoning and offered follow-up treats careful caution as dismissal."
+      "Using this label on a clinician who explained their reasoning and offered follow-up mistakes careful caution for dismissal."
     ],
     "how_to_distinguish_from_related": "Clinical Tone Policing comments on how you are coming across, while this pattern leaves your tone alone and points to a number. Trash-Can Diagnosis attaches a mental health label as a verdict, which may follow a normal result but is a separate step. Here the sticking point is the gap between what the test measures and what you describe."
   },
   "Medical Gaslighting": {
-    "short_definition": "Dismissing, minimizing or reattributing a patient's symptoms or pain in a medical setting until the patient is left doubting what their own body is telling them.",
-    "core_meaning": "Dismissing, minimizing or reattributing a patient's symptoms or pain in a medical setting until the patient is left doubting what their own body is telling them.",
-    "expanded_definition": "Medical gaslighting is a name patients use when clinicians treat their account of symptoms or pain as unreliable, minor or imagined, and explain it away without fully looking into it. A wrong guess is not it, because every clinician is wrong sometimes. The pattern is in how the report is handled: pain is discounted, requests for tests go unanswered, and notes describe what the patient said differently from how they said it. It is not a formal diagnosis or a legal term. People with symptoms that are hard to see or measure often describe it.",
-    "plain_language_summary": "A doctor or clinic keeps telling you that what you feel is nothing, or all in your head, and you start to wonder whether your own body can be trusted.",
-    "why_this_matters": "Dismissal delays diagnosis and treatment, and it teaches people, especially those from groups that medicine has often disbelieved, to distrust their own symptoms and to avoid seeking help the next time something is wrong.",
+    "short_definition": "In a medical setting, a patient's symptoms or pain are dismissed, minimized or put down to something else, until the patient starts doubting what their own body is saying.",
+    "core_meaning": "In a medical setting, a patient's symptoms or pain are dismissed, minimized or put down to something else, until the patient starts doubting what their own body is saying.",
+    "expanded_definition": "Medical gaslighting is a name patients use when clinicians treat their account of symptoms or pain as unreliable, minor or imagined. The clinician explains it away without fully looking into it. A wrong guess is not it, because every clinician is wrong sometimes. The pattern is in how the report is handled. Pain is discounted, requests for tests go unanswered, and notes describe what the patient said differently from how they said it. It is not a formal diagnosis or a legal term. People with symptoms that are hard to see or measure often describe it.",
+    "plain_language_summary": "A doctor or clinic keeps telling you that what you feel is nothing, or all in your head. You start to wonder whether your own body can be trusted.",
+    "why_this_matters": "Dismissal delays diagnosis and treatment. It also teaches people to distrust their own symptoms, especially people from groups that medicine has often disbelieved. They may avoid seeking help the next time something is wrong.",
     "what_it_is": [
-      "Symptoms or pain explained away as stress, anxiety, weight, age, hormones or 'just life' before other causes have been looked at.",
-      "A report that goes unrecorded or is recorded in a different form, such as 'complains of' where you described a fact.",
+      "Symptoms or pain put down to stress, anxiety, weight, age, hormones or 'just life' before other causes have been looked at.",
+      "A report that goes unrecorded, or is written down in a different form, such as 'complains of' where you described a fact.",
       "Requests for tests, imaging or a referral declined without a reason you can understand.",
       "Repeated across visits or clinicians, so that the same dismissal follows you.",
       "Different from a missed diagnosis: the issue is how your account is treated, not that the answer is still unknown."
@@ -509,7 +509,7 @@
       "A clinician who thinks anxiety or stress is the most likely cause, says why, and agrees to look further if symptoms continue.",
       "A diagnostic work-up that is still in progress and has not yet produced an answer.",
       "A wrong diagnosis made in good faith and corrected when new information appears.",
-      "A decision not to order a test because guidelines do not support it for this symptom, explained to you plainly.",
+      "A decision not to order a test because guidelines do not support it for this symptom, with the reason explained to you plainly.",
       "A brisk appointment in an overloaded clinic where the pace, not disbelief, limited what could be done.",
       "An accurate assessment that the symptom is minor, with a plan to review it if it changes."
     ],
@@ -561,25 +561,25 @@
       "You wait longer to seek care and put off visits for new problems.",
       "A diagnosis, when it comes, arrives after years of the same answer from several people."
     ],
-    "repair_check": "A clinician who returns to your original account, says what they missed, orders the test or referral you asked about, and writes your symptoms down in your words has changed something. A 'sorry you felt that way' that leaves the plan as it was has not.",
+    "repair_check": "A clinician who returns to your original account has changed something. They say what they missed, order the test or referral you asked about, and write your symptoms down in your words. A 'sorry you felt that way' that leaves the plan as it was has not.",
     "boundary_respect_check": "Ask that your symptoms be written in the chart in your own words, then see what follows. Does the entry appear, and does the plan address it? Compare the visit summary with your own notes before deciding how the request was taken.",
-    "psychological_mechanism": "Pain and fatigue cannot be seen, so clinicians rely on what patients say, and a clinician with limited time may reach for a familiar explanation. Once a psychological or lifestyle explanation is in the notes, later clinicians can read the chart through it. Patients who have been dismissed before may soften their reports, which makes dismissal easier still.",
+    "psychological_mechanism": "Pain and fatigue cannot be seen, so clinicians rely on what patients say. A clinician with limited time may reach for a familiar explanation. Once a psychological or lifestyle explanation is in the notes, later clinicians can read the chart through it. Patients who have been dismissed before may soften their reports, which makes dismissal easier still.",
     "possible_impact_on_receiver": "People describe leaving visits feeling foolish, then going home and doubting whether the pain is real. Symptoms may go unmentioned, care may be delayed, and appointments may start to feel like something to brace for. A diagnosis, when it comes, can bring relief alongside grief and anger at how long it took, and a lasting wariness of waiting rooms.",
     "response_options": {
-      "soft_clarification": "Ask the clinician to walk you through their reasoning: 'What else could cause this, and how would we rule those out?' A real answer shows the thinking.",
-      "firm_boundary": "Ask for the refusal to be written down: 'If you're not ordering that test, could you note that I asked and why it was declined?'",
+      "soft_clarification": "Ask the clinician to explain their thinking: 'What else could cause this, and how would we rule those out?' A real answer shows it.",
+      "firm_boundary": "Ask for a refusal to be put in writing. You could say: 'If you're not ordering that test, could you note that I asked and why it was declined?'",
       "disengagement": "If the visit is not going anywhere, end it politely and book with another clinician or clinic, bringing your notes along.",
-      "support_seeking": "Bring someone to appointments, join a group for your symptom or condition, and ask a patient advocate how to request a second opinion.",
-      "workplace_or_professional": "If you must show an employer or school what you are dealing with, ask the clinician to put your symptoms and limits in a letter, and keep copies of every visit summary."
+      "support_seeking": "Bring someone to appointments. Join a group for your symptom or condition. Ask a patient advocate how to request a second opinion.",
+      "workplace_or_professional": "If you must show an employer or school what you are dealing with, ask the clinician to put your symptoms and limits in a letter. Keep copies of every visit summary."
     },
     "boundary_script": "\"I'm still having this pain and it's affecting my work and sleep. What else could it be, and what do you suggest if it doesn't improve? Could you also record in my chart that I asked for further tests?\"",
     "safety_sensitive": false,
-    "safety_note": "Dismissed symptoms are most dangerous when they signal something time-critical. Examples are pain that is sudden and severe, symptoms that are rapidly worsening, a fever with a stiff neck or confusion, or signs of a stroke. Do not wait for a better appointment for those; go to an emergency department and describe what you told earlier clinicians. For anything slower, request your own records and book a second opinion.",
+    "safety_note": "Dismissed symptoms are most dangerous when they signal something time-critical. Examples are pain that is sudden and severe, symptoms that are rapidly worsening, a fever with a stiff neck or confusion, or signs of a stroke. Do not wait for a better appointment for those. Go to an emergency department and describe what you told earlier clinicians. For anything slower, request your own records and book a second opinion.",
     "misuse_warning": [
-      "Using the label for any visit that did not end in the answer or treatment you wanted can overlook honest uncertainty and make good clinicians harder to reach.",
+      "Using the label for any visit that did not end in the answer or treatment you wanted can overlook honest uncertainty. It can also make good clinicians harder to reach.",
       "Telling a person that their doctor 'gaslit' them, before they have asked about the reasoning, can push them away from care they still need."
     ],
-    "how_to_distinguish_from_related": "Clinical Tone Policing criticizes how you express distress, while medical gaslighting is about whether your symptoms are believed at all. Trash-Can Diagnosis hands out a mental health label as an insult, and Weaponized Therapy-Speak uses clinical words in arguments between people. Medical gaslighting happens inside a care relationship, where the thing being discounted is your account of your own body."
+    "how_to_distinguish_from_related": "Clinical Tone Policing criticizes how you express distress, while medical gaslighting is about whether your symptoms are believed at all. Trash-Can Diagnosis hands out a mental health label as an insult. Weaponized Therapy-Speak uses clinical words in arguments between people. Medical gaslighting happens inside a care relationship, where what gets discounted is your account of your own body."
   },
   "Process Exhaustion": {
     "short_definition": "A process that keeps adding steps, forms, meetings and re-reviews until the person gives up from tiredness, not because their matter was decided.",

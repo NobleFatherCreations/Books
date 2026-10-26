@@ -297,18 +297,18 @@
     "how_to_distinguish_from_related": "Comparative Devaluation holds you up against other people; here the comparison is to a target nobody has met, or to unnamed peers who 'manage'. Shame Installation turns a failure into a judgment about who you are, whereas this tactic supplies the failures that judgment can feed on. Intimidation threatens consequences; here nothing is threatened, and the record carries the consequence."
   },
   "Financial Control": {
-    "short_definition": "Restricting someone's access to money, financial information or earning, or using money and assets as leverage, so that they depend on one person.",
-    "core_meaning": "Restricting someone's access to money, financial information or earning, or using money and assets as leverage, so that they depend on one person.",
-    "expanded_definition": "Financial control is limiting what a person can see, spend, earn or own, or tying money and assets to behavior, so that disagreeing or leaving becomes costly. The term financial enmeshment is used for the same lever. Shared budgets and one-earner households are ordinary. The concern is money used as a lever: access given or withdrawn depending on compliance, information kept out of sight, and one name on everything.",
-    "plain_language_summary": "One person decides what money you can see, spend or earn, and access shifts with how you behave, which makes it hard to disagree or to leave.",
-    "why_this_matters": "Money decides whether a person can pay rent, buy food, hire a lawyer or leave a bad situation. When access depends on compliance, every disagreement carries a price, and the practical options narrow without anyone saying so out loud.",
+    "short_definition": "Holding back what someone can reach, see or earn, or using money and assets to pressure them, so they end up depending on one person.",
+    "core_meaning": "Holding back what someone can reach, see or earn, or using money and assets to pressure them, so they end up depending on one person.",
+    "expanded_definition": "Financial control is limiting what a person can see, spend, earn or own, or tying money and assets to behavior. It makes disagreeing or leaving costly. The term financial enmeshment is used for the same lever. Shared budgets and one-earner households are ordinary. The concern is money used as a lever: access given or withdrawn depending on compliance, information kept out of sight, and one name on everything.",
+    "plain_language_summary": "One person decides what money you can see, spend or earn. Access shifts with how you behave, which makes it hard to disagree or to leave.",
+    "why_this_matters": "Money decides whether a person can pay rent, buy food, hire a lawyer or leave a bad situation. When access depends on compliance, every disagreement carries a price. The practical options narrow without anyone saying so out loud.",
     "what_it_is": [
-      "Limiting access to bank accounts, cards, statements or tax papers, so one person cannot see the household's real position.",
+      "Limiting access to bank accounts, cards, statements or tax papers, so that one person cannot see how the household's money really stands.",
       "Controlling earning: discouraging or forbidding work, or interfering with a job, a shift or a paycheck.",
       "Putting the home, the car, the accounts and the debts in one person's name only.",
       "Handing out money as an allowance, a reward or a punishment, with asking required each time.",
       "Finding loans, cards or debts in your name that you did not know about or agree to.",
-      "The opposite of transparent shared finances, where both people can see everything and neither can lock the other out."
+      "The opposite of open shared finances, where both people can see everything and neither can lock the other out."
     ],
     "what_it_sounds_like": [
       "\"You don't need your own bank account.\"",
@@ -321,12 +321,12 @@
       "\"I'll cut off your card.\""
     ],
     "what_it_is_not": [
-      "Agreed household budgeting where one person tracks the books and the other can see everything and change the arrangement.",
+      "Agreed household budgeting where one person tracks the books. The other can see everything and can change the arrangement.",
       "A temporary arrangement during real hardship, discussed openly and with an end in sight.",
       "A one-earner household with shared rules, where both people have access to the money.",
-      "Long-term financial interdependence built through a mutual relationship, which is common and not used as leverage.",
+      "Long-term sharing of money that grew out of a mutual relationship. This is common and is not used to pressure anyone.",
       "A couple who agree to run big purchases past each other, in both directions.",
-      "A parent or guardian managing a minor's money, or an adult's money under a formal legal or care arrangement."
+      "A parent or guardian managing a minor's money, or someone managing an adult's money under a formal legal or care arrangement."
     ],
     "this_may_be_it_when": [
       "You cannot see statements or balances, or you are told you would not understand them.",
@@ -344,7 +344,7 @@
     ],
     "innocent_or_ordinary_possibilities": [
       "People differ in how they earn, spend and save, and a gap in style is not a gap in fairness.",
-      "One partner may simply be more comfortable with paperwork, and the other happy to leave it to them while seeing everything.",
+      "One partner may simply be more comfortable with paperwork. The other may be happy to leave it to them, while still seeing everything.",
       "Family or cultural habits may have one person handle the money by long-standing, mutual agreement."
     ],
     "common_false_positives": [
@@ -375,24 +375,24 @@
       "You rehearse how to raise a purchase, or put it off.",
       "Documents you need, such as ID or bank cards, end up in someone else's keeping."
     ],
-    "repair_check": "Look for access that no longer depends on mood: your name on the accounts, statements you can open yourself, income that stays yours, and a way to see the whole picture. An apology after a hard conversation that leaves the same arrangement in place has changed the tone, not the control.",
+    "repair_check": "Look for access that no longer depends on mood. That means your name on the accounts, statements you can open yourself, income that stays yours, and a way to see the whole picture. An apology after a hard conversation that leaves the same arrangement in place has changed the tone, not the control.",
     "boundary_respect_check": "Ask a small, practical question about money, such as to see last month's statement, and notice what comes next. Is the paper produced and the question treated as ordinary? Or does the answer turn to your tone, your motives, or what you owe?",
     "psychological_mechanism": "When a person cannot pay for food, travel or a lawyer without permission, going along can become the practical path of least resistance. Access that is granted and withdrawn can also teach a person to anticipate moods and avoid asking. Over time the narrowing of options can harden into a fact of life instead of an arrangement that someone could change.",
-    "possible_impact_on_receiver": "People describe asking permission for small purchases, hiding receipts, feeling like a child in their own home, and a sinking sense that leaving is not affordable. Some find out about debts only when a letter arrives. Others say the money was never the whole story, and that the loss of choices was what wore them down.",
+    "possible_impact_on_receiver": "People describe asking permission for small purchases, hiding receipts, being treated as a child in their own home, and a sinking sense that leaving is not affordable. Some find out about debts only when a letter arrives. Others say the money was never the whole story. The loss of choices was what wore them down.",
     "response_options": {
       "soft_clarification": "Ask an ordinary question in an ordinary tone: \"Could we look at the statements together this weekend? I'd like to understand where we stand.\" If asking could make things worse, skip this step.",
-      "firm_boundary": "If it feels safe, name the pattern once, calmly, without blame: \"When money depends on how I behave, it is hard for me to speak up. Could we change that?\" Otherwise take it to an advocate first.",
+      "firm_boundary": "If it is safe to do so, name the pattern once, calmly and without blame. You could say: \"When money depends on how I behave, it is hard for me to speak up. Could we change that?\" Otherwise take it to an advocate first.",
       "disengagement": "If a money conversation turns to what you owe or could lose, you can ask to pause it: \"I need some time to think. Can we come back to this?\" Use your own judgment about whether pausing is safe.",
-      "support_seeking": "Speak to a domestic abuse advocate, a financial counselor or a legal aid service. Many can talk privately about economic abuse and help with documents, accounts and credit without the other person knowing.",
-      "workplace_or_professional": "If someone else controls your pay, ask payroll or HR in writing, when it is safe, whether wages can go to an account in your sole name. A legal aid or employment advice service can explain your rights."
+      "support_seeking": "Speak to a domestic abuse advocate, a financial counselor or a legal aid service. Many can talk privately about economic abuse. They can help with documents, accounts and credit without the other person knowing.",
+      "workplace_or_professional": "If someone else controls your pay, and it is safe to do so, ask payroll or HR in writing whether wages can go to an account in your sole name. A legal aid or employment advice service can explain your rights."
     },
     "boundary_script": "\"Could we go through the accounts together this weekend? I'd like both of us to be able to see what we have and agree who decides what.\" If asking could make things worse, skip it and call an advocate first.",
     "safety_sensitive": true,
-    "safety_note": "Warning signs include being cut off from money after you disagree, losing hold of your ID, phone or transport, debts opened in your name, or being kept from work. Quietly note what you know. Talk to a domestic abuse advocate or legal aid service about protecting income, documents and credit before you raise any change with the other person.",
+    "safety_note": "Warning signs include being cut off from money after you disagree, losing hold of your ID, phone or transport, debts opened in your name, or being kept from work. Quietly make a note of what you know. Talk to a domestic abuse advocate or legal aid service first. They can help you protect income, documents and credit before you raise any change with the other person.",
     "misuse_warning": [
       "Calling a tight budget, or one partner paying the bills, financial control can turn an agreed arrangement into an accusation. The test is whether the other person can see it and change it.",
-      "Using the label on a parent or guardian who manages a minor's or dependent adult's money under a formal arrangement mistakes protection for control."
+      "A parent or guardian who manages a minor's or dependent adult's money under a formal arrangement is giving protection. Using the label on them mistakes protection for control."
     ],
-    "how_to_distinguish_from_related": "Infantilization treats you as unable to run your affairs in general, while financial control is specifically about who holds the money and the papers. \"I Know Best\" Paternalism overrides your choices for your own good and needs a stated reason; here the rule can be simply that the money is theirs. Isolation undermines your other relationships, whereas this limits the money needed to pay, travel or stay."
+    "how_to_distinguish_from_related": "Infantilization treats you as unable to run your affairs in general, while financial control is specifically about who holds the money and the papers. \"I Know Best\" Paternalism overrides your choices for your own good and needs a stated reason. Here the rule can be simply that the money is theirs. Isolation undermines your other relationships, whereas this limits the money needed to pay, travel or stay."
   }
 }
