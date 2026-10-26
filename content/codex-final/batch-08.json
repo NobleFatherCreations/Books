@@ -652,23 +652,23 @@
       "You find it hard to discuss anything with them without feeling baited."
     ],
     "repair_check": "Watch how they describe the last blow-up. Change looks like them including their own opening remark and ceasing to use sore spots, even when you are calm. A conciliatory message that ends with a screenshot of what you said in anger is still using the reaction.",
-    "boundary_respect_check": "When you say that a certain kind of comment sets you off and you want it to stop, what does the next hard talk look like? Are those comments gone? Or are they used more carefully, with a calm face and a bit more deniability?",
+    "boundary_respect_check": "Suppose you say that a certain kind of comment sets you off and you want it to stop. What does the next hard talk look like? Are those comments gone? Or are they used more carefully, with a calm face and a bit more deniability?",
     "psychological_mechanism": "A person under provocation often reacts faster than they can reason, and the reaction is more visible than the provocation. If the reaction is then used as the main evidence, it can start to seem like a fair summary of the person. Being watched or recorded may raise tension further, which can make the reaction easier to produce next time.",
     "possible_impact_on_receiver": "Tension before conversations is common, along with shame about how they reacted and a nagging worry that they might be the angry one. Some start recording or writing everything down. Others withdraw from the person entirely, or from anywhere the person may report on them. Many say that learning the provocation was part of the story brought relief and some grief for the earlier blame.",
     "response_options": {
       "soft_clarification": "Say what you saw, once, in a level voice: 'That last comment landed like a poke. Can we leave it out and talk about the real issue?'",
       "firm_boundary": "Refuse the bait itself: 'I'm not going to be pushed into an argument. I'll talk when we can keep it about the issue.'",
-      "disengagement": "Slow the exchange down. Step away from a text thread, wait before replying, and do not reply to the jab at all, only to the real question if there is one.",
+      "disengagement": "Slow the exchange down. Step away from a text thread and wait before replying. Do not answer the jab at all. Answer only the real question, if there is one.",
       "support_seeking": "Show someone neutral the full thread, including the first message, and ask where the exchange turned. Seeing the sequence on paper often settles whose account holds up.",
-      "workplace_or_professional": "At work or in legal matters, keep the whole sequence with dates, including what came first, and describe it factually to a manager, mediator or lawyer rather than only your side of the blow-up."
+      "workplace_or_professional": "At work or in legal matters, keep a dated record of the whole sequence, including what came first. Describe it factually to a manager, mediator or lawyer. Do not describe only your side of the blow-up."
     },
     "boundary_script": "\"That remark landed like a poke, and I'm not going to answer it with a fight. I'm glad to talk about the actual problem. If it turns into poking, we can pause and come back to it in writing.\"",
     "safety_sensitive": false,
-    "safety_note": "Baiting by itself is a trap for your temper, not a physical danger. It matters more if the person uses your reactions in a custody dispute, a workplace complaint or to call the police, or if provocation is followed by violence from them. Keep the full record of what came first, and talk to a lawyer or advocate early.",
+    "safety_note": "Baiting by itself is a trap for your temper, not a physical danger. It matters more if the person uses your reactions in a custody dispute, in a workplace complaint, or to call the police. It also matters more if their provocation is followed by violence. Keep the full record of what came first, and talk to a lawyer or advocate early.",
     "misuse_warning": [
       "Calling any pointed question or blunt remark baiting can excuse your own outbursts. Even when provoked, you remain responsible for how you respond.",
       "Claiming someone baited you because you lost your temper may be true, but the label alone does not show it. It is the repeated sequence that tells the story."
     ],
-    "how_to_distinguish_from_related": "Intimidation works through fear of consequences and pushes you toward stopping or giving in, while baiting pushes you toward reacting. Emotional Invalidation tells you your reaction is wrong; baiting centers on the reaction being drawn out first. Contempt is scorn that stands on its own, while in baiting your response is what gets picked up and used afterward."
+    "how_to_distinguish_from_related": "Intimidation works through fear of consequences. It pushes you toward stopping or giving in, while baiting pushes you toward reacting. Emotional Invalidation tells you your reaction is wrong. Baiting is about drawing the reaction out first. Contempt is scorn that stands on its own. In baiting, your response is what gets picked up and used afterward."
   }
 }

@@ -384,10 +384,10 @@
   "core_meaning": "Treating the time taken to answer a message as a failing that must be explained, so you feel permanently on call."
  },
  "Interrogation": {
-  "short_definition": "Demanding that someone explain, justify or defend themselves on command, as though an answer were owed whether or not they want to give one.",
-  "expanded_definition": "Asking questions is normal, and curiosity is a form of care. Interrogation is different in posture: the questions come as a summons, in rapid sequence, with a right to an answer assumed. A person may be asked to account for where they were, why they felt something, or what they meant, and each answer opens another question. Saying 'I would rather not' is treated as guilt. This is also called the JADE loop, short for justify, argue, defend and explain, which can leave you doing all four automatically.",
+  "short_definition": "Demanding that someone explain, justify or defend themselves on command. The demander acts as if an answer is owed, whether or not the person wants to give one.",
+  "expanded_definition": "Asking questions is normal, and curiosity is a form of care. Interrogation comes across differently. The questions arrive like a summons, one after another, as if the asker has a right to an answer. A person may be asked to account for where they were, why they felt something, or what they meant. Each answer opens another question. Saying 'I would rather not' is treated as guilt. This is also called the JADE loop, short for justify, argue, defend and explain. It can leave you doing all four automatically.",
   "plain_language_summary": "Instead of asking, someone demands that you explain yourself right now, and each answer only leads to another question.",
-  "why_this_matters": "If you are always the one explaining, you can start behaving as though every choice needs permission. The habit of defending yourself can spread to people who never asked, and a small question from a friend can start to feel like an attack.",
+  "why_this_matters": "If you are always the one explaining, you can start acting as though every choice needs permission. The habit of defending yourself can spread to people who never asked. A small question from a friend can begin to sound like an attack.",
   "what_it_is": [
    "A string of questions delivered as demands, with the assumption that an answer is owed.",
    "Frequently based on the premise that you did something wrong and must prove otherwise.",
@@ -406,9 +406,9 @@
   ],
   "what_it_is_not": [
    "A caring question asked once, such as 'You seem quiet, what happened?', that you are free to leave unanswered.",
-   "A formal process such as a job review or a police report, in which giving an account is a defined part of the procedure.",
-   "A parent asking a young child to explain what happened after a broken window, with warmth and an expectation of honesty.",
-   "A person who truly needs to understand after a real breach of trust, who asks in a way that leaves room to say 'not now.'",
+   "A formal process, such as a job review or a police report, where giving an account is a set part of the procedure.",
+   "A parent asking a young child what happened after a window broke. The parent asks warmly and expects an honest answer.",
+   "A person who truly needs to understand after a real breach of trust. They ask in a way that leaves room to say 'not now.'",
    "Friends going back and forth in lively debate, each asking and answering with equal ease."
   ],
   "this_may_be_it_when": [
@@ -426,7 +426,7 @@
    "The tone is curious and the question can be dropped without fallout."
   ],
   "innocent_or_ordinary_possibilities": [
-   "A frightened or worried person may ask many questions in a row because they need reassurance, not because they want to put you on trial.",
+   "A frightened or worried person may ask many questions in a row because they need reassurance. They may not want to put you on trial at all.",
    "Some families talk in rapid-fire questions as a normal and warm style.",
    "A person who has been lied to before may keep asking while they look for something to believe."
   ],
@@ -460,24 +460,24 @@
   ],
   "repair_check": "Repair shows up when the questions change shape: you are asked once, listened to, and allowed to say 'not yet'. The other person starts offering their own worry rather than demanding your account. Saying sorry for the late hour of a grilling while still expecting a full answer next time leaves the summons intact.",
   "boundary_respect_check": "Pay attention to what happens right after you say you do not want to go through it again right now. Is there a pause, perhaps some hurt, and then a change of subject? Or does the questioning continue, now with extra questions about why you are refusing to answer?",
-  "psychological_mechanism": "Being questioned from a position of assumed authority tends to put a person on the defensive, and defensiveness narrows thinking to protecting oneself. The faster the questions, the less time there is to decide what to share. Repeated often, the habit of explaining oneself to the questioner can become automatic, even when no one is asking.",
-  "possible_impact_on_receiver": "A racing heart when a conversation opens with 'we need to talk' is one report, along with over-explaining to everyone, and being unable to tell afterwards what they actually believed. Some describe giving false or partial answers just to end the round. Others mention feeling like a suspect in their own home.",
+  "psychological_mechanism": "Being questioned by someone who acts as an authority often puts a person on the defensive. Defensiveness narrows thinking down to protecting oneself. The faster the questions come, the less time there is to decide what to share. Repeated often, the habit of explaining oneself to the questioner can become automatic, even when no one is asking.",
+  "possible_impact_on_receiver": "One report is a racing heart when a conversation opens with 'we need to talk'. Others describe over-explaining to everyone, and being unable to tell afterwards what they actually believed. Some describe giving false or partial answers just to end the round. Others say they felt like a suspect in their own home.",
   "response_options": {
    "soft_clarification": "Offer a different way in: 'I'm happy to talk, but not as a list of demands. Can you ask me what's worrying you?'",
    "firm_boundary": "If it feels safe, keep your privacy plain: 'That is what I'm comfortable sharing right now.' Otherwise answer briefly and calmly, and plan with an advocate afterward.",
-   "disengagement": "Ask for a drink of water or a short break when questions become a chain, and move toward other people or a door if they feel threatening. Do not announce when you will return; take the subject up again later, ideally in writing.",
-   "support_seeking": "Describe one round of questions to a friend or counselor in detail, including how long it lasted, and ask how it sounds from the outside.",
-   "workplace_or_professional": "If a manager is grilling you, ask for the concern in writing and a set meeting time, and bring a colleague or union representative if the process is formal."
+   "disengagement": "Ask for a drink of water or a short break when the questions become a chain. If they feel threatening, move toward other people or a door. Do not announce when you will return. Take the subject up again later, ideally in writing.",
+   "support_seeking": "Tell a friend or counselor about one round of questions in detail, including how long it lasted. Ask how it sounds from the outside.",
+   "workplace_or_professional": "If a manager is grilling you, ask for the concern in writing and for a set meeting time. If the process is formal, bring a colleague or union representative."
   },
   "boundary_script": "\"I want to talk about this. Could we take a short break and come back to it, or have someone else sit in? I'll tell you what I can, one question at a time.\" Do this only if it feels safe; otherwise answer briefly and calmly and talk to an advocate later.",
   "safety_sensitive": true,
-  "safety_note": "Questioning moves toward danger when it goes on for hours, blocks you from leaving the room, includes searching your phone or belongings, or ends in shouting, threats, or physical intimidation. If you feel afraid of what happens after you decline to answer, talk privately with a domestic abuse advocate before you try anything else.",
+  "safety_note": "Questioning moves toward danger when it goes on for hours. It also does when it blocks you from leaving the room, includes searching your phone or belongings, or ends in shouting, threats or physical intimidation. If you feel afraid of what happens when you decline to answer, talk privately with a domestic abuse advocate before you try anything else.",
   "misuse_warning": [
-   "Calling any run of follow-up questions 'interrogation' can be used to dodge a fair and gentle request for an account, such as after a real breach of trust.",
+   "Calling any run of follow-up questions 'interrogation' can be a way to dodge a fair and gentle request for an account, such as after a real breach of trust.",
    "The label describes how questions are asked, not what they are about; it does not mean the questioner is wrong to be worried."
   ],
-  "how_to_distinguish_from_related": "Response-time policing is about the delay before you answer; interrogation is about the content and the duty to explain. An ultimatum comes with a threat of loss; questioning relies on persistence and assumed entitlement. A false dilemma shrinks your choices, and questioning instead keeps you on the defensive. The telling feature is that the answer is demanded, not requested.",
-  "core_meaning": "Demanding that someone explain, justify or defend themselves on command, as though an answer were owed whether or not they want to give one."
+  "how_to_distinguish_from_related": "Response-time policing is about the delay before you answer. Interrogation is about the content and the duty to explain. An ultimatum comes with a threat of loss, while questioning relies on persistence and assumed entitlement. A false dilemma shrinks your choices, and questioning instead keeps you on the defensive. The telling feature is that the answer is demanded, not requested.",
+  "core_meaning": "Demanding that someone explain, justify or defend themselves on command. The demander acts as if an answer is owed, whether or not the person wants to give one."
  },
  "Sexual Coercion": {
   "short_definition": "Using pressure, guilt, obligation or implied consequences to push someone into sexual activity without their free consent.",

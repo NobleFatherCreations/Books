@@ -1,8 +1,8 @@
 {
   "Stalking-by-Notification": {
-    "short_definition": "Using a person's last-seen times, read receipts, story views and online status as evidence in a running case about where they were and why they did not answer.",
-    "core_meaning": "Using a person's last-seen times, read receipts, story views and online status as evidence in a running case about where they were and why they did not answer.",
-    "expanded_definition": "Stalking-by-Notification means turning the small signals apps display, such as a green dot, a 'seen at 2:14' stamp, a story view or a like, into proof of something. The person watching compares those signals with what you said, then brings you the mismatch as a question you have to answer. One hurt remark about being left on read is ordinary. The pattern is the checking repeating, the signals treated like a log, and you starting to time your own replies and posts around the questions. It does not show what anyone meant by looking.",
+    "short_definition": "Treating someone's last-seen times, read receipts, story views and online status as evidence. The watcher builds a running case about where the person was and why they did not answer.",
+    "core_meaning": "Treating someone's last-seen times, read receipts, story views and online status as evidence. The watcher builds a running case about where the person was and why they did not answer.",
+    "expanded_definition": "Stalking-by-Notification means turning the small signals apps show into proof of something. These include a green dot, a 'seen at 2:14' stamp, a story view or a like. The person watching compares the signals with what you said. Then they bring you the mismatch as a question you have to answer. One hurt remark about being left on read is ordinary. The pattern is the checking happening again and again, the signals being kept like a log, and you starting to time your replies and posts around the questions. A signal does not show what anyone meant by looking.",
     "plain_language_summary": "Someone watches when you are online and then questions you about it. Soon just being seen online feels like something you must explain.",
     "why_this_matters": "When every green dot can become a question, ordinary use of your own phone turns into something to defend. People start planning when to be online and when to look away, and the hours spent explaining can crowd out the relationship itself.",
     "what_it_is": [
@@ -22,7 +22,7 @@
       "I'm not checking up on you. It just shows up on my screen."
     ],
     "what_it_is_not": [
-      "One honest feeling report, such as 'I felt low when I saw you online and hadn't heard back', which asks for comfort and not for an account.",
+      "One honest sharing of a feeling, such as 'I felt low when I saw you online and hadn't heard back'. It asks for comfort, not for an account.",
       "A location-sharing arrangement you both chose, for a long trip or a late commute, that either of you can switch off.",
       "A parent following open household rules about a young child's phone.",
       "Checking when someone does not reply after a flight or a storm, because you are worried they may be hurt.",
@@ -32,7 +32,7 @@
     "this_may_be_it_when": [
       "Questions arrive with exact times attached, which suggests someone has been keeping count.",
       "Your explanation does not close the subject; the next dot becomes the next question.",
-      "You are asked to account for likes, follows and story views, not only for unanswered messages.",
+      "You are asked to account for likes, follows and story views as well as unanswered messages.",
       "Saying you would rather not be quizzed about it is answered with something about what you must be hiding.",
       "You switched off read receipts or last-seen, and were then asked why you did."
     ],
@@ -81,22 +81,22 @@
     "repair_check": "Look at how the dots are treated afterwards. Mending would be them saying the questioning crossed a line, no longer bringing up timestamps, and telling you about worry as worry. A promise to try not to check, while the cross-examinations carry on, has changed nothing.",
     "boundary_respect_check": "Notice what happens after you decline to explain one timestamp. Does the subject drop, or does the next one arrive within the week? Dropping it is respect. A move from timestamps to your phone, your friends or your accounts points the other way.",
     "psychological_mechanism": "Silence after a message is an empty space, and a worried mind may fill it with the worst reading. A green dot hands that worry something solid to point at, which can make a stamp on a screen seem like proof. On the other side, each explanation may teach that being visible costs something, so a person starts tidying what shows. The tidying habit may outlast the questions.",
-    "possible_impact_on_receiver": "A flinch when the phone lights up is common, along with composing replies in advance, switching off read receipts and then being asked why, and a sense of being watched from inside your own pocket. Some stop posting, or begin to believe their ordinary habits look suspicious. Others report tiredness from explaining the same hours again.",
+    "possible_impact_on_receiver": "A flinch when the phone lights up is common. So is writing replies in advance, switching off read receipts and then being asked why, and a sense of being watched from inside your own pocket. Some stop posting, or start to believe their ordinary habits look suspicious. Others report tiredness from explaining the same hours again.",
     "response_options": {
       "soft_clarification": "Answer the feeling and leave the timestamp alone: 'It sounds like you felt shut out last night. I was asleep, and I'd like to hear about it when it hurts.'",
-      "firm_boundary": "Only if it feels safe to say: 'I'm glad to hear how you feel, but I'm not going to go through who I talked to at what time.' Keep it short and keep your tone level.",
+      "firm_boundary": "Say this only if it feels safe: 'I'm glad to hear how you feel, but I'm not going to go through who I talked to at what time.' Keep it short, and keep your tone level.",
       "disengagement": "Keep replies brief and calm without explaining each time, and do not argue over screenshots. Work out privately, and with an advocate if you can, what you want to do next.",
       "support_seeking": "Tell someone outside the relationship what gets asked and how often. A domestic abuse advocate or helpline can talk through your options, including how to check your phone and accounts safely.",
-      "workplace_or_professional": "If a manager or colleague quizzes you about your chat status, ask for expectations in writing, such as the hours you are expected to be reachable, and keep dated notes of the questions."
+      "workplace_or_professional": "If a manager or colleague quizzes you about your chat status, ask for the expectations in writing. For example, ask what hours you are expected to be reachable. Keep dated notes of the questions."
     },
     "boundary_script": "\"It sounds like it hurt to see me online and not get a reply. That matters to me. I can't go through each time I was on my phone, but I can tell you I'm here and what my evening looks like.\"",
     "safety_sensitive": true,
-    "safety_note": "Watch for the checking moving from apps to your location, your devices or your friends, and for anger or threats when a timestamp does not add up. Sudden privacy changes can be noticed. Before you change any setting, ask a domestic abuse advocate how to check your phone and accounts for tracking in a way that will not alert anyone.",
+    "safety_note": "Watch for the checking moving from apps to your location, your devices or your friends. Watch for anger or threats when a timestamp does not add up. Sudden privacy changes can be noticed. Before you change any setting, ask a domestic abuse advocate how to check your phone and accounts for tracking without alerting anyone.",
     "misuse_warning": [
       "Calling one sad 'I saw you were online' a form of stalking can turn a vulnerable moment into an accusation. The label fits repeated cross-examination, not a single honest feeling.",
       "The label should not be used to wave away a real worry about trust. It describes how signals are used, not whether any question is allowed."
     ],
-    "how_to_distinguish_from_related": "Ghosting-Orbiting Cycle also involves watching your online presence, but the person has gone quiet and the watching shows only as a view or a like. Stalking-by-Notification is loud: the signals come back at you as questions. Doxxing publishes private details such as your address to other people, while here the information is whatever the app already displays and the questions stay between the two of you."
+    "how_to_distinguish_from_related": "Ghosting-Orbiting Cycle also involves watching your online presence. But there the person has gone quiet, and the watching shows only as a view or a like. Stalking-by-Notification is loud: the signals come back at you as questions. Doxxing publishes private details such as your address to other people. Here the information is whatever the app already displays, and the questions stay between the two of you."
   },
   "Ghosting-Orbiting Cycle": {
     "short_definition": "Going silent in direct messages while still viewing, liking or reacting to someone's posts, so they are neither in contact nor free of it.",

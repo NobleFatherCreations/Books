@@ -1,16 +1,16 @@
 {
   "Aftercare Control": {
-    "short_definition": "Recasting a hurtful act as a kindness after it happened, so the person who was hurt begins to doubt their own memory of the harm.",
-    "core_meaning": "Recasting a hurtful act as a kindness after it happened, so the person who was hurt begins to doubt their own memory of the harm.",
+    "short_definition": "Recasting a hurtful act as a kindness after it happened. The person who was hurt begins to doubt their own memory of the harm.",
+    "core_meaning": "Recasting a hurtful act as a kindness after it happened. The person who was hurt begins to doubt their own memory of the harm.",
     "expanded_definition": "Aftercare Control starts after something has already hurt: a punishment, a harsh decision, a removed privilege, a cruel remark. Later, the hurt is retold as a favor. The person who felt the harm is expected to feel thanks, and saying 'it hurt' starts to sound ungrateful. Honest explanation of a protective reason is common and can sit beside an apology. The pattern appears when the explanation replaces the acknowledgment, and when it returns every time the hurt is raised.",
     "plain_language_summary": "Something hurt you. Afterward you are told it was really for your benefit and you should be grateful, until you question whether it was harmful at all.",
     "why_this_matters": "If a painful event gets renamed as help, you lose the word for what you went through. Without that word it is hard to ask for change, and gratitude ends up expected where an apology was owed.",
     "what_it_is": [
       "A rewrite of an event after it has happened: the act stays the same, but its label changes from harm to care.",
-      "Often reaches back to punishments, strict rules, harsh criticism or a decision made over your objection, whether last week or years ago.",
+      "Often reaches back to punishments, strict rules, harsh criticism or a decision made over your objection. It can be from last week or from years ago.",
       "Pairs the new label with an expectation of thanks, so objecting reads as ingratitude.",
       "Differs from an honest explanation because the hurt itself is not allowed to have been real.",
-      "Most often seen where one person has more say over the other's choices, such as parent and child, mentor and student, or boss and employee."
+      "Most often seen where one person has more say over the other's choices. Examples are parent and child, mentor and student, or boss and employee."
     ],
     "what_it_sounds_like": [
       "I only did that because I care about you.",
@@ -23,7 +23,7 @@
     ],
     "what_it_is_not": [
       "A parent explaining why a curfew exists while also saying 'I know it felt unfair.' The reason and the hurt are both allowed to stand.",
-      "A later, honest realization that a painful choice did protect you, offered without telling you how to feel about it.",
+      "A later, honest realization that a painful choice did protect you. It is offered without telling you how to feel about it.",
       "Someone describing what they were thinking at the time. Giving a reason is different from ruling out your experience.",
       "Hard feedback from a coach or editor who stays open to hearing that it landed roughly.",
       "An apology that carries context, such as 'I was scared for you, and I handled it badly.'",
@@ -66,7 +66,7 @@
       "You can remember it as unfair and still be treated warmly."
     ],
     "more_concerning_if": [
-      "The act being relabeled was frightening, injurious or humiliating, and not just strict.",
+      "The act being relabeled was frightening, injurious or humiliating, and went beyond being strict.",
       "Gratitude is required, and its absence brings cold treatment or more criticism.",
       "The same reframe is applied to new incidents as they happen, so harm is renamed before you can name it."
     ],
@@ -76,25 +76,25 @@
       "Painful episodes are no longer discussed at all, because every retelling has turned into a lecture.",
       "Your sense of which things were fair has become unreliable, and you check it with them first."
     ],
-    "repair_check": "Repair here starts with the words 'that hurt you', said with no 'but' attached. After that, watch whether the label shifts: the same act gets called harm the next time it comes up, and you are not asked to be grateful in the meantime.",
-    "boundary_respect_check": "Consider what happens when you say 'I'm not going to thank anyone for that.' Does the subject close, or does it grow into a speech about everything done for you? A respected boundary leaves you uncriticized for not feeling thankful.",
+    "repair_check": "Repair here starts with the words 'that hurt you', said with no 'but' attached. After that, watch whether the label shifts. The same act gets called harm the next time it comes up, and you are not asked to be grateful in the meantime.",
+    "boundary_respect_check": "Consider what happens when you say 'I'm not going to thank anyone for that.' Does the subject close, or does it grow into a speech about everything done for you? When a boundary is respected, you are not criticized for not feeling thankful.",
     "psychological_mechanism": "When the person who caused the hurt is also someone you rely on, believing their version can feel safer than trusting your own. A repeated reframe tends to turn your first reaction into something to suspect. Over time, gratitude can replace the memory of fear or pain, since holding both is uncomfortable and only one of them is rewarded.",
     "possible_impact_on_receiver": "Thankful and uneasy at once, with no way to explain the unease, is how some put it. Some play down old hurts when talking to others, or defend the person who caused them. Some find it hard to spot unkindness in the present, because unkindness once arrived packaged as care.",
     "response_options": {
       "soft_clarification": "Separate the reason from the feeling: 'I can see you thought it would help. It also hurt, and both can be true.'",
       "firm_boundary": "Decline the thanks without arguing the history: 'I'm not going to be grateful for that. I am willing to hear why you did it, though.'",
-      "disengagement": "When a speech about what you owe begins, you can let it run, change the subject afterward or take a walk, without agreeing to the retelling.",
-      "support_seeking": "Tell a friend or counselor the event in plain facts first, then how it was explained to you, and see whether they hear help or harm.",
-      "workplace_or_professional": "If a manager defends a harsh act as development, ask in writing for the specific feedback and expected change, so what happened is recorded in neutral terms."
+      "disengagement": "When a speech about what you owe begins, you can let it run. You can change the subject afterward or take a walk. None of that means agreeing to the retelling.",
+      "support_seeking": "Tell a friend or counselor the event in plain facts first. Then tell them how it was explained to you, and see whether they hear help or harm.",
+      "workplace_or_professional": "If a manager defends a harsh act as development, ask in writing for the specific feedback and the change expected. That way what happened is recorded in neutral terms."
     },
     "boundary_script": "\"I know you believe that was for my benefit, and I'm not asking you to take your reasons back. I just need you to hear that it hurt me, and I won't be thanking anyone for it.\"",
     "safety_sensitive": false,
     "safety_note": "Retelling harm as help matters more when the harm was physical, or when it comes with fear of what happens if you disagree. If the event involved force, threats or being kept somewhere, write down what happened in your own words, with dates. Take it to a counselor or advocate who can hear it without the 'for your own good' lens.",
     "misuse_warning": [
       "Not every explanation of a difficult decision is a cover story. A person who gives reasons and accepts that the result hurt you is doing the opposite.",
-      "Using the label to refuse every hard conversation about past choices can block honest context you might actually want."
+      "If you use the label to refuse every hard conversation about past choices, you can block honest context you might actually want."
     ],
-    "how_to_distinguish_from_related": "Guilt-Tripping pressures a present refusal, while Aftercare Control rewrites a past hurt. Duty Scripts say what you owe because of a role ('a good daughter would'); this reframe says what you should feel about something already done to you. Martyrdom Display advertises the speaker's own sacrifices, whereas here the move is relabeling what you went through as kindness."
+    "how_to_distinguish_from_related": "Guilt-Tripping pressures a present refusal, while Aftercare Control rewrites a past hurt. Duty Scripts say what you owe because of a role ('a good daughter would'). This reframe says what you should feel about something already done to you. Martyrdom Display advertises the speaker's own sacrifices, whereas here the move is relabeling what you went through as kindness."
   },
   "Competitive Victimhood": {
     "short_definition": "Meeting someone's hurt with a bigger hurt of your own, so the conversation ends up about whose pain is worse.",

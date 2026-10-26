@@ -1,8 +1,8 @@
 {
   "\"You're Too Emotional\"": {
-    "short_definition": "Treating a person's visible feelings as proof that their point can be ignored, so the feeling becomes the topic and the complaint disappears.",
-    "core_meaning": "Treating a person's visible feelings as proof that their point can be ignored, so the feeling becomes the topic and the complaint disappears.",
-    "expanded_definition": "This is a way of answering a concern by pointing at how upset the speaker looks or sounds, instead of at what they said. The subject moves from the problem to the person's state. One remark in a heated moment is common and means little. It starts to look like a pattern when it appears mainly on inconvenient topics, when the point is never answered later, and when the speaker hides their feelings just to be heard.",
+    "short_definition": "Treating a person's visible feelings as proof that their point can be ignored. The feeling becomes the topic, and the complaint disappears.",
+    "core_meaning": "Treating a person's visible feelings as proof that their point can be ignored. The feeling becomes the topic, and the complaint disappears.",
+    "expanded_definition": "This is a way of answering a concern by pointing at how upset the speaker looks or sounds, instead of at what they said. The subject moves from the problem to the person's state. One remark in a heated moment is common and means little. It becomes a pattern when it shows up mainly on inconvenient topics. It also does when the point is never answered later, or when the speaker hides their feelings just to be heard.",
     "plain_language_summary": "You raise a problem, and the reply is about how upset you seem. Your tears or raised voice become the reason the problem never gets discussed.",
     "why_this_matters": "People who hear this often learn to read their own feelings as a defect. They may stop raising problems, or rehearse a flat voice, so the actual issue never gets heard and nothing changes.",
     "what_it_is": [
@@ -22,12 +22,12 @@
     "what_it_is_not": [
       "A person who is flooded themselves and says they need twenty minutes, then comes back and hears the whole concern.",
       "A friend who asks, \"Do you need a minute?\" and stays ready to listen either way.",
-      "A group rule, such as in an emergency room or a debate club, that asks everyone to keep voices level so that all points can be heard.",
+      "A group rule that asks everyone to keep voices level so all points can be heard, such as in an emergency room or a debate club.",
       "Honest worry about someone who seems unwell, offered with no attempt to settle the argument by it.",
       "A real difference in how loudly two people show feeling, where neither one uses that to win."
     ],
     "this_may_be_it_when": [
-      "The remark comes up mostly when your topic is the other person's behavior, and rarely when you are upset about the weather or work.",
+      "The remark comes up mostly when you are talking about the other person's behavior. It rarely comes up when you are upset about the weather or work.",
       "The conversation ends at the remark and the original concern is never picked up again.",
       "You are told to calm down, and then calming down does not lead to being heard either.",
       "Your feelings are described as the reason you cannot be right, not as part of the situation.",
@@ -73,23 +73,23 @@
       "You apologize for your tone before you state your point.",
       "You have begun to describe yourself as \"too much\" in front of other people."
     ],
-    "repair_check": "The point that got set aside gets picked up again: they ask what you were trying to say and answer it, even if it takes a second conversation. A warm tone or an apology for hurting your feelings, with no return to the issue, only repeats the sidestep.",
+    "repair_check": "The point that got set aside gets picked up again. They ask what you were trying to say and they answer it, even if it takes a second conversation. A warm tone or an apology for hurting your feelings, with no return to the issue, only repeats the sidestep.",
     "boundary_respect_check": "Try asking for the subject and the feeling to be handled separately, and watch whether both get time. If the point comes back on the table, the request was heard. If the next remark is again about how you sound, the boundary has been treated as more evidence.",
-    "psychological_mechanism": "Hearing that your reaction is the problem can turn attention inward, away from the issue and toward managing yourself. Over many repeats, a person may start to treat their own distress as unreliable evidence, and may flatten how they speak to avoid the label. The pull is stronger when the other person stays calm, since calm can look like the more reasonable side.",
-    "possible_impact_on_receiver": "People describe holding back tears in meetings, writing out scripts before hard talks, and replaying whether they were \"too much\" long after the conversation ended. Some say they stopped trusting what upset them, even when it plainly should have. A few felt a jolt of clarity on seeing that the problem they raised had never been answered.",
+    "psychological_mechanism": "Hearing that your reaction is the problem can turn your attention inward, away from the issue and toward managing yourself. After many repeats, a person may start to treat their own distress as unreliable evidence. They may also flatten how they speak to avoid the label. The pull is stronger when the other person stays calm, since calm can look like the more reasonable side.",
+    "possible_impact_on_receiver": "People describe holding back tears in meetings and writing out scripts before hard talks. They also describe replaying whether they were \"too much\" long after the conversation ended. Some say they stopped trusting what upset them, even when it plainly should have. A few felt a jolt of clarity when they saw that the problem they raised had never been answered.",
     "response_options": {
       "soft_clarification": "Separate the two things out loud: \"I am upset, and I still have a point. Can I tell you the point in one sentence?\"",
       "firm_boundary": "Refuse the trade of feelings for credibility: \"Being upset doesn't make what I said untrue. I would like an answer to the point itself.\"",
-      "disengagement": "Agree to a pause only if a time to return is set, and write the point down so it cannot be lost while you both cool off.",
-      "support_seeking": "Describe the exchange to someone you trust, quoting what was said back to you, and ask whether your reaction sounded out of proportion to them.",
-      "workplace_or_professional": "In meetings, follow a heated exchange with a short written summary of your point and ask for a response to it by a set date."
+      "disengagement": "Agree to a pause only if a time to return is set. Write the point down so it cannot get lost while you both cool off.",
+      "support_seeking": "Describe the exchange to someone you trust and quote what was said back to you. Ask them whether your reaction sounded out of proportion.",
+      "workplace_or_professional": "In meetings, follow a heated exchange with a short written summary of your point. Ask for a response by a set date."
     },
     "boundary_script": "\"I can be upset and still be right about this. A ten-minute break works for me, but when we come back I want to talk about what I raised, not about how I sounded.\"",
     "safety_sensitive": false,
-    "safety_note": "Being told you are too emotional is a communication problem, not a physical-safety signal. It changes if being upset starts to bring threats, punishment, silence for days, or pressure to take medication or see someone about your \"state\". If that is happening, a counselor or domestic abuse advocate can help you talk it through away from the person involved.",
+    "safety_note": "Being told you are too emotional is a communication problem, not a physical-safety signal. That changes if being upset starts to bring threats, punishment, silence for days, or pressure to take medication or see someone about your \"state\". If that is happening, a counselor or domestic abuse advocate can help you talk it through away from the person involved.",
     "misuse_warning": [
       "Telling someone \"you're gaslighting me\" because they once asked for a break can turn a reasonable pause into a charge. A request to cool down is not this unless the issue never returns.",
-      "Using the phrase to avoid every hard conversation, on the grounds that the other person is \"just calling me emotional\", can hide the fact that the content of the complaint may be fair."
+      "Some people use the phrase to avoid every hard conversation, saying the other person is \"just calling me emotional\". That can hide the fact that the complaint itself may be fair."
     ],
     "how_to_distinguish_from_related": "Emotional Invalidation rules your feelings inadmissible as such. This one points at the feeling to disqualify what you said about a particular issue. Contempt expresses disgust at you, and can be absent here, since the remark may come in a calm, concerned voice. Intimidation implies a cost for not complying, but this only needs the claim that you are too upset to be heard right now."
   },
